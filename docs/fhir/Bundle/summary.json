@@ -1,0 +1,87 @@
+{
+  "resourceType": "Bundle",
+  "id": "hktxgnn-summary",
+  "type": "collection",
+  "timestamp": "2026-03-09T21:54:00.459208",
+  "total": 51261,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://hktxgnn.yao.care/fhir/Bundle/hktxgnn-summary"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://hktxgnn.yao.care/fhir/metadata",
+      "resource": {
+        "resourceType": "CapabilityStatement",
+        "id": "hktxgnn-fhir-server",
+        "url": "https://hktxgnn.yao.care/fhir/metadata",
+        "version": "1.0.0",
+        "name": "HkTxGNNFHIRServer",
+        "title": "Hong Kong TxGNN FHIR Server",
+        "status": "active",
+        "experimental": true,
+        "date": "2026-03-09",
+        "publisher": "Yao.Care - HkTxGNN Project",
+        "description": "FHIR R4 API for Hong Kong drug repurposing predictions based on TxGNN knowledge graph",
+        "kind": "instance",
+        "fhirVersion": "4.0.1",
+        "format": [
+          "json"
+        ],
+        "rest": [
+          {
+            "mode": "server",
+            "resource": [
+              {
+                "type": "MedicationKnowledge",
+                "profile": "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge",
+                "interaction": [
+                  {
+                    "code": "read"
+                  },
+                  {
+                    "code": "search-type"
+                  }
+                ],
+                "searchParam": [
+                  {
+                    "name": "code",
+                    "type": "token"
+                  },
+                  {
+                    "name": "status",
+                    "type": "token"
+                  }
+                ]
+              },
+              {
+                "type": "ClinicalUseDefinition",
+                "profile": "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition",
+                "interaction": [
+                  {
+                    "code": "read"
+                  },
+                  {
+                    "code": "search-type"
+                  }
+                ],
+                "searchParam": [
+                  {
+                    "name": "type",
+                    "type": "token"
+                  },
+                  {
+                    "name": "subject",
+                    "type": "reference"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

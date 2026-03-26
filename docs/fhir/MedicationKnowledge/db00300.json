@@ -1,0 +1,51 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "db00300",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
+    ]
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://go.drugbank.com/drugs",
+        "code": "DB00300",
+        "display": "DB00300"
+      }
+    ],
+    "text": "DB00300"
+  },
+  "synonym": [],
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "HK",
+          "display": "Hong Kong"
+        }
+      ]
+    }
+  ],
+  "regulatory": [
+    {
+      "regulatoryAuthority": {
+        "display": "Hong Kong Department of Health - Drug Office"
+      },
+      "identifier": [
+        {
+          "system": "https://hktxgnn.yao.care/hk-permit",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://hktxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN Knowledge Graph"
+    }
+  ]
+}

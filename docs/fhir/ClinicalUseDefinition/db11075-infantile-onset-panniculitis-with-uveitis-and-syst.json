@@ -1,0 +1,46 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db11075-infantile-onset-panniculitis-with-uveitis-and-syst",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ]
+  },
+  "type": "indication",
+  "status": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/publication-status",
+        "code": "draft",
+        "display": "Draft"
+      }
+    ]
+  },
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db11075"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "infantile onset panniculitis with uveitis and systemic granulomatosis"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://hktxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://hktxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "KG"
+    }
+  ],
+  "warning": {
+    "description": {
+      "text": "This is a computational prediction for research purposes only. Not validated for clinical use. Always consult healthcare professionals."
+    }
+  }
+}

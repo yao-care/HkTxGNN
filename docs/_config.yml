@@ -1,0 +1,56 @@
+title: HkTxGNN - 香港老藥新用預測系統
+description: >-
+  基於 TxGNN 知識圖譜的香港藥品老藥新用預測系統，
+  整合香港衛生署註冊藥品資料。
+
+baseurl: ""
+url: "https://hktxgnn.yao.care"
+
+lang: zh-Hant-HK
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO settings
+twitter:
+  username: yaocare
+  card: summary
+
+social:
+  name: Yao.Care
+  links:
+    - https://github.com/yao-care/HkTxGNN
+
+# Collections
+collections:
+  drugs:
+    output: true
+    permalink: /drugs/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "drugs"
+    values:
+      layout: "drug"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - "*.sh"
+
+# Custom variables
+google_analytics: UA-XXXXXXXXX-X
+regulatory_agency: "香港衛生署藥物辦公室"
+regulatory_agency_en: "Hong Kong Drug Office"
+country_code: HK
+language: zh-Hant-HK

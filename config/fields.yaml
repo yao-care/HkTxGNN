@@ -1,0 +1,27 @@
+# Hong Kong Drug Office - Field Mapping Configuration
+country_code: HK
+language: en  # Primary language is English
+regulatory_agency: "Department of Health HK"
+
+# Source: https://www.drugoffice.gov.hk/eps/psi/DrugList.xml
+data_source:
+  url: "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml"
+  format: xml
+  encoding: UTF-8
+
+# XML field mapping
+field_mapping:
+  license_id: "permitNo"           # HK-XXXXX format
+  brand_name_local: "productName"
+  brand_name_en: "productName"     # Already in English
+  ingredients: "activeIngs/activeIng"  # Multiple activeIng elements
+  holder_name: "regCertHolderName"
+
+# Status values indicating withdrawal (if applicable)
+withdrawn_statuses: []  # Hong Kong list only contains active registrations
+
+# Notes:
+# - XML structure is flat with <drug> elements
+# - Each drug has productName, regCertHolderName, permitNo, and activeIngs
+# - activeIngs contains multiple activeIng elements
+# - No indication/therapeutic use field available in this dataset
