@@ -6,7 +6,7 @@
 ## 輸入
 你會收到一份 Evidence Pack JSON，包含：
 - `drug`: 藥物基本資訊（inn, drugbank_id, original_moa）
-- `taiwan_regulatory`: 台灣許可證和上市狀態
+- `hk_regulatory`: 香港許可證和上市狀態
 - `predicted_indications`: TxGNN 預測的新適應症（含臨床試驗和文獻）
 - `safety`: 安全性資訊（DDI、警語、禁忌）
 
@@ -36,12 +36,12 @@
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | [從 taiwan_regulatory.licenses 提取，取第一個非空的 approved_indication_text] |
+| 原適應症 | [從 hk_regulatory.licenses 提取，取第一個非空的 approved_indication_text] |
 | 預測新適應症 | [從 predicted_indications[0].disease_name 提取] |
 | TxGNN 預測分數 | [從 predicted_indications[0].txgnn.score 提取，轉為百分比] |
 | 證據等級 | [根據臨床試驗和文獻數量判斷 L1-L5] |
-| 台灣上市 | [從 taiwan_regulatory.market_status 提取] |
-| 許可證數 | [從 taiwan_regulatory.total_licenses 提取] |
+| 香港上市 | [從 hk_regulatory.market_status 提取] |
+| 許可證數 | [從 hk_regulatory.total_licenses 提取] |
 | 建議決策 | [Go / Hold / Proceed with Guardrails] |
 
 ---
@@ -90,13 +90,13 @@
 
 ---
 
-### 台灣上市資訊
+### 香港上市資訊
 
-從 `taiwan_regulatory.licenses` 提取，製作表格：
+從 `hk_regulatory.licenses` 提取，製作表格：
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| 衛部藥製字第... | 中文品名 | 劑型 | 適應症摘要 |
+| HK-XXXXXX | 中文品名 | 劑型 | 適應症摘要 |
 
 **規則：**
 - 最多列出 5 張主要許可證
@@ -199,8 +199,8 @@ TxGNN 模型預測它可能對**大腸腫瘤 (Colonic Neoplasm)** 有效，
 | 預測新適應症 | 大腸腫瘤 (Colonic Neoplasm) |
 | TxGNN 預測分數 | 99.99% |
 | 證據等級 | L1 |
-| 台灣上市 | ✓ 已上市 |
-| 許可證數 | 8 張 |
+| 香港上市 | ✓ 已上市 |
+| 登記數 | 8 張 |
 | 建議決策 | Proceed with Guardrails |
 
 ## 為什麼這個預測合理？
@@ -209,7 +209,7 @@ Oteracil 是 S-1 複方（tegafur + gimeracil + oteracil）的成分之一。
 S-1 透過抑制 DPD 酶來增強 5-FU 的抗腫瘤效果。
 
 胃癌和大腸腫瘤同屬消化道腫瘤，在藥理機轉上有相似性。
-事實上，S-1 複方在日本和台灣已被核准用於大腸直腸癌的治療，
+事實上，S-1 複方在日本和香港已被核准用於大腸直腸癌的治療，
 這進一步支持了 TxGNN 模型的預測合理性。
 
 ## 臨床試驗證據
@@ -227,12 +227,12 @@ S-1 透過抑制 DPD 酶來增強 5-FU 的抗腫瘤效果。
 | [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | RCT | Clin Cancer Res | SOX 輔助化療在高風險 Stage III 結腸癌有效 |
 | [25209093](https://pubmed.ncbi.nlm.nih.gov/25209093/) | 2014 | Review | Clin Colorectal Cancer | 亞洲轉移性結直腸癌治療指引 |
 
-## 台灣上市資訊
+## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| 衛署藥輸字第025243號 | 愛斯萬膠囊 | 膠囊劑 | 胃癌、胰臟癌、大腸直腸癌、非小細胞肺癌... |
-| 衛部藥製字第060480號 | 剋伏膠囊 | 膠囊劑 | 胃癌、胰臟癌、大腸直腸癌、非小細胞肺癌 |
+| HK-64453 | 愛斯萬膠囊 | 膠囊劑 | 胃癌、胰臟癌、大腸直腸癌、非小細胞肺癌... |
+| HK-65291 | 剋伏膠囊 | 膠囊劑 | 胃癌、胰臟癌、大腸直腸癌、非小細胞肺癌 |
 
 ## 細胞毒性
 
@@ -254,7 +254,7 @@ S-1 透過抑制 DPD 酶來增強 5-FU 的抗腫瘤效果。
 
 **理由：**
 有多個 Phase 2/3 臨床試驗支持 S-1 用於結直腸癌的療效，
-且 S-1 複方已在台灣取得大腸直腸癌適應症，證據充分。
+且 S-1 複方已在香港 (Department of Health) 取得大腸直腸癌適應症，證據充分。
 
 **若要推進需要：**
 - 詳細的藥物作用機轉資料（MOA）
