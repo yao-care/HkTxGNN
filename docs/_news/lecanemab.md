@@ -3,7 +3,7 @@ layout: default
 title: "Lecanemab 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Lecanemab 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Lecanemab 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/lecanemab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lecanemab/
 ---
 
 <p class="key-answer" data-question="Lecanemab 有什麼相關新聞？">
-<strong>Lecanemab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Lecanemab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/lecanemab/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>diabetic cataract（98.5%）</li>
-<li>mature cataract（98.4%）</li>
-<li>tetanic cataract（98.4%）</li>
-<li>craniostenosis cataract（98.4%）</li>
-<li>immature cataract（98.4%）</li>
-<li>diabetes mellitus type 2 associated cataract（98.4%）</li>
-<li>nuclear senile cataract（98.4%）</li>
-<li>cortical cataract（98.4%）</li>
-<li>senile cataract（98.3%）</li>
-<li>diabetic retinopathy（98.2%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/lecanemab/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Glycol salicylate 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Glycol salicylate 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Glycol salicylate 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/glycol_salicylate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/glycol_salicylate/
 ---
 
 <p class="key-answer" data-question="Glycol salicylate 有什麼相關新聞？">
-<strong>Glycol salicylate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Glycol salicylate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/glycol_salicylate/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>Glanzmann thrombasthenia（98.2%）</li>
-<li>autoimmune disease（98.2%）</li>
-<li>primary release disorder of platelets（98.1%）</li>
-<li>antithrombin deficiency type 2（98.0%）</li>
-<li>factor 5 excess with spontaneous thrombosis（98.0%）</li>
-<li>thrombophilia（97.8%）</li>
-<li>pseudo-von Willebrand disease（97.8%）</li>
-<li>heparin-induced thrombocytopenia (disease)（97.8%）</li>
-<li>autoimmune inner ear disease（97.7%）</li>
-<li>autoimmune gastritis（97.6%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/glycol_salicylate/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

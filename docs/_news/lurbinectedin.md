@@ -3,7 +3,7 @@ layout: default
 title: "Lurbinectedin 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Lurbinectedin 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Lurbinectedin 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/lurbinectedin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lurbinectedin/
 ---
 
 <p class="key-answer" data-question="Lurbinectedin 有什麼相關新聞？">
-<strong>Lurbinectedin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Lurbinectedin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/lurbinectedin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>multiple endocrine neoplasia（99.4%）</li>
-<li>HIV infectious disease（99.3%）</li>
-<li>rheumatoid arthritis（99.3%）</li>
-<li>amyotrophic lateral sclerosis（99.3%）</li>
-<li>cytomegalovirus infection（99.1%）</li>
-<li>simian immunodeficiency virus infection（99.1%）</li>
-<li>feline acquired immunodeficiency syndrome（99.1%）</li>
-<li>infectious bovine rhinotracheitis（99.1%）</li>
-<li>malignant catarrh（99.1%）</li>
-<li>Mills syndrome（99.1%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/lurbinectedin/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Terlipressin 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Terlipressin 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Terlipressin 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/terlipressin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/terlipressin/
 ---
 
 <p class="key-answer" data-question="Terlipressin 有什麼相關新聞？">
-<strong>Terlipressin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Terlipressin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/terlipressin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>open-angle glaucoma（99.8%）</li>
-<li>primary hereditary glaucoma（99.8%）</li>
-<li>pulmonary hypertension（99.6%）</li>
-<li>kyphoscoliotic heart disease（99.5%）</li>
-<li>esotropia（99.3%）</li>
-<li>glaucoma 1, open angle（99.3%）</li>
-<li>headache disorder（99.1%）</li>
-<li>hyperthyroidism（98.9%）</li>
-<li>glaucoma（98.9%）</li>
-<li>trigeminal autonomic cephalalgia（98.9%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/terlipressin/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

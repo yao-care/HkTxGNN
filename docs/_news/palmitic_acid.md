@@ -3,7 +3,7 @@ layout: default
 title: "Palmitic Acid 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Palmitic Acid 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Palmitic Acid 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/palmitic_acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/palmitic_acid/
 ---
 
 <p class="key-answer" data-question="Palmitic Acid 有什麼相關新聞？">
-<strong>Palmitic Acid</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Palmitic Acid</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/palmitic_acid/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>non-syndromic esophageal malformation（95.5%）</li>
-<li>esotropia（95.2%）</li>
-<li>esophageal disease（94.8%）</li>
-<li>HER2 positive breast carcinoma（93.5%）</li>
-<li>atypical coarctation of aorta（93.0%）</li>
-<li>dry eye syndrome（92.9%）</li>
-<li>normal breast-like subtype of breast carcinoma（91.9%）</li>
-<li>progesterone-receptor positive breast cancer（91.9%）</li>
-<li>breast tumor luminal A or B（91.8%）</li>
-<li>progesterone-receptor negative breast cancer（91.8%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/palmitic_acid/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

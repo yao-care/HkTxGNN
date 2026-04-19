@@ -3,7 +3,7 @@ layout: default
 title: "Lactic acid 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Lactic acid 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Lactic acid 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/lactic_acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lactic_acid/
 ---
 
 <p class="key-answer" data-question="Lactic acid 有什麼相關新聞？">
-<strong>Lactic acid</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Lactic acid</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/lactic_acid/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>atypical coarctation of aorta（99.6%）</li>
-<li>aortic malformation（99.3%）</li>
-<li>non-syndromic esophageal malformation（99.2%）</li>
-<li>amenorrhea (disease)（99.2%）</li>
-<li>dry eye syndrome（99.1%）</li>
-<li>esophageal disease（98.9%）</li>
-<li>double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy（98.8%）</li>
-<li>excretory apparatus of the lacrimal system anomaly（98.8%）</li>
-<li>eye disease（98.7%）</li>
-<li>cauda equina syndrome（98.7%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/lactic_acid/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Dostarlimab 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Dostarlimab 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Dostarlimab 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/dostarlimab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dostarlimab/
 ---
 
 <p class="key-answer" data-question="Dostarlimab 有什麼相關新聞？">
-<strong>Dostarlimab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Dostarlimab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/dostarlimab/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>Congenital adrenal insuffiency with 46, XY sex reversal OR 46,XY disorder of sex development-adrenal insufficiency due to CYP11A1 deficiency（50.0%）</li>
-<li>heart cancer（50.0%）</li>
-<li>familial acne inversa（50.0%）</li>
-<li>chromosome 1p32-p31 deletion syndrome（50.0%）</li>
-<li>porencephaly-microcephaly-bilateral congenital cataract syndrome（50.0%）</li>
-<li>distal 7q11.23 microdeletion syndrome（50.0%）</li>
-<li>leukoencephalopathy-dystonia-motor neuropathy syndrome（50.0%）</li>
-<li>portal vein thrombosis（50.0%）</li>
-<li>progressive demyelinating neuropathy with bilateral striatal necrosis（50.0%）</li>
-<li>LEOPARD syndrome（50.0%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/dostarlimab/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

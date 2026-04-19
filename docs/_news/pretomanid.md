@@ -3,7 +3,7 @@ layout: default
 title: "Pretomanid 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Pretomanid 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Pretomanid 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/pretomanid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/pretomanid/
 ---
 
 <p class="key-answer" data-question="Pretomanid 有什麼相關新聞？">
-<strong>Pretomanid</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Pretomanid</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/pretomanid/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>candidiasis（99.7%）</li>
-<li>leprosy（99.3%）</li>
-<li>coronary artery disease（99.2%）</li>
-<li>myocardial ischemia（99.2%）</li>
-<li>anomalous left coronary artery from the pulmonary artery（99.1%）</li>
-<li>HIV infectious disease（98.8%）</li>
-<li>oral candidiasis（98.7%）</li>
-<li>Bacteroidaceae infectious disease（98.7%）</li>
-<li>thrombocytopenia（98.7%）</li>
-<li>fascioliasis（98.6%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/pretomanid/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

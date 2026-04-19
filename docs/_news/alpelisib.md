@@ -3,7 +3,7 @@ layout: default
 title: "Alpelisib 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Alpelisib 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Alpelisib 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/alpelisib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/alpelisib/
 ---
 
 <p class="key-answer" data-question="Alpelisib 有什麼相關新聞？">
-<strong>Alpelisib</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Alpelisib</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/alpelisib/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>pulmonary hypertension（99.0%）</li>
-<li>migraine with or without aura, susceptibility to（99.0%）</li>
-<li>migraine disorder（98.9%）</li>
-<li>kyphoscoliotic heart disease（98.9%）</li>
-<li>rheumatoid arthritis（98.8%）</li>
-<li>leprosy（98.7%）</li>
-<li>migraine with brainstem aura（98.7%）</li>
-<li>thrombotic disease（98.6%）</li>
-<li>amyotrophic lateral sclerosis（98.4%）</li>
-<li>multiple endocrine neoplasia（98.4%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/alpelisib/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

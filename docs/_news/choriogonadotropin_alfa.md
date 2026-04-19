@@ -3,7 +3,7 @@ layout: default
 title: "Choriogonadotropin alfa 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Choriogonadotropin alfa 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Choriogonadotropin alfa 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/choriogonadotropin_alfa/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/choriogonadotropin_alfa/
 ---
 
 <p class="key-answer" data-question="Choriogonadotropin alfa 有什麼相關新聞？">
-<strong>Choriogonadotropin alfa</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Choriogonadotropin alfa</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/choriogonadotropin_alfa/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>peptic esophagitis（98.4%）</li>
-<li>postural orthostatic tachycardia syndrome（98.3%）</li>
-<li>esophageal disease（97.6%）</li>
-<li>Raynaud disease（97.4%）</li>
-<li>non-syndromic esophageal malformation（96.9%）</li>
-<li>esophageal ulcer（96.8%）</li>
-<li>His bundle tachycardia（96.0%）</li>
-<li>sinoatrial block（95.9%）</li>
-<li>progressive familial heart block（95.7%）</li>
-<li>sinoatrial node disease（95.5%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/choriogonadotropin_alfa/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

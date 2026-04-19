@@ -3,7 +3,7 @@ layout: default
 title: "Hesperidin 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Hesperidin 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Hesperidin 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/hesperidin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/hesperidin/
 ---
 
 <p class="key-answer" data-question="Hesperidin 有什麼相關新聞？">
-<strong>Hesperidin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Hesperidin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/hesperidin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>myeloproliferative neoplasm（99.5%）</li>
-<li>monocytic leukemia（99.4%）</li>
-<li>spermatocytic seminoma（99.3%）</li>
-<li>tubular variant testicular seminoma（99.3%）</li>
-<li>gestational trophoblastic neoplasm（99.0%）</li>
-<li>primary peritoneal carcinoma (disease)（98.8%）</li>
-<li>acute lymphoblastic leukemia (disease)（98.7%）</li>
-<li>myeloid leukemia（98.7%）</li>
-<li>Seckel syndrome（98.7%）</li>
-<li>myeloproliferative neoplasm, unclassifiable（98.7%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/hesperidin/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

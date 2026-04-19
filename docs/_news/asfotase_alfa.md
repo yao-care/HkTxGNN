@@ -3,7 +3,7 @@ layout: default
 title: "Asfotase alfa 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Asfotase alfa 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Asfotase alfa 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/asfotase_alfa/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/asfotase_alfa/
 ---
 
 <p class="key-answer" data-question="Asfotase alfa 有什麼相關新聞？">
-<strong>Asfotase alfa</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Asfotase alfa</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/asfotase_alfa/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies（100.0%）</li>
-<li>Steel syndrome（99.9%）</li>
-<li>exocrine pancreatic insufficiency（99.9%）</li>
-<li>Scheie syndrome（99.8%）</li>
-<li>Hurler syndrome（99.8%）</li>
-<li>lysosomal storage disease with skeletal involvement（99.7%）</li>
-<li>familial apolipoprotein C-II deficiency（99.7%）</li>
-<li>esophageal varices with bleeding（99.7%）</li>
-<li>esophageal varices without bleeding（99.7%）</li>
-<li>cystinosis（99.7%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/asfotase_alfa/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

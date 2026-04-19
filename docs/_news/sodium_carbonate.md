@@ -3,7 +3,7 @@ layout: default
 title: "Sodium carbonate 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Sodium carbonate 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Sodium carbonate 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/sodium_carbonate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sodium_carbonate/
 ---
 
 <p class="key-answer" data-question="Sodium carbonate 有什麼相關新聞？">
-<strong>Sodium carbonate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Sodium carbonate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/sodium_carbonate/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>cauda equina syndrome（99.8%）</li>
-<li>anaphylaxis（99.7%）</li>
-<li>food-dependent exercise-induced anaphylaxis（99.6%）</li>
-<li>obsolete neurogenic bladder (disease)（99.6%）</li>
-<li>dry eye syndrome（99.6%）</li>
-<li>ventricular tachycardia（99.2%）</li>
-<li>obsolete bundle branch block（99.0%）</li>
-<li>panuveitis (disease)（98.9%）</li>
-<li>Sjogren syndrome（98.8%）</li>
-<li>catecholaminergic polymorphic ventricular tachycardia（98.7%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sodium_carbonate/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

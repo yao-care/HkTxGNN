@@ -3,7 +3,7 @@ layout: default
 title: "Protamine sulfate 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Protamine sulfate 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Protamine sulfate 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/protamine_sulfate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/protamine_sulfate/
 ---
 
 <p class="key-answer" data-question="Protamine sulfate 有什麼相關新聞？">
-<strong>Protamine sulfate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Protamine sulfate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/protamine_sulfate/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>myeloid neoplasm associated with FGFR1 rearrangement（50.0%）</li>
-<li>chromosome 17q21.31 duplication syndrome（50.0%）</li>
-<li>aromatase deficiency（50.0%）</li>
-<li>commissural facial cleft（50.0%）</li>
-<li>presbyopia（50.0%）</li>
-<li>chromosome 6q11-q14 deletion syndrome（50.0%）</li>
-<li>chromosome 4q21 deletion syndrome（50.0%）</li>
-<li>CBL-related disorder（50.0%）</li>
-<li>Reynolds syndrome（50.0%）</li>
-<li>hemolytic anemia due to glucophosphate isomerase deficiency（50.0%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/protamine_sulfate/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

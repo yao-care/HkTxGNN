@@ -3,7 +3,7 @@ layout: default
 title: "Sotatercept 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Sotatercept 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Sotatercept 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/sotatercept/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sotatercept/
 ---
 
 <p class="key-answer" data-question="Sotatercept 有什麼相關新聞？">
-<strong>Sotatercept</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Sotatercept</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/sotatercept/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>acute lymphoblastic leukemia (disease)（99.8%）</li>
-<li>severe nonproliferative diabetic retinopathy（99.8%）</li>
-<li>diabetic retinopathy（99.7%）</li>
-<li>drug-induced osteoporosis（99.7%）</li>
-<li>diabetic cataract（99.5%）</li>
-<li>HER2 positive breast carcinoma（99.4%）</li>
-<li>transitional cell carcinoma（99.4%）</li>
-<li>prostatic urethra urothelial carcinoma（99.4%）</li>
-<li>kidney pelvis sarcomatoid transitional cell carcinoma（99.4%）</li>
-<li>infiltrating bladder urothelial carcinoma sarcomatoid variant（99.3%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sotatercept/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

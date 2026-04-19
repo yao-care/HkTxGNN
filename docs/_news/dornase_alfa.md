@@ -3,7 +3,7 @@ layout: default
 title: "Dornase alfa 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Dornase alfa 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Dornase alfa 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/dornase_alfa/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dornase_alfa/
 ---
 
 <p class="key-answer" data-question="Dornase alfa 有什麼相關新聞？">
-<strong>Dornase alfa</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Dornase alfa</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/dornase_alfa/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>acinar prostate mucinous adenocarcinoma（50.0%）</li>
-<li>chromosome 1p35 deletion syndrome（50.0%）</li>
-<li>ACTH-producing pituitary gland adenoma（50.0%）</li>
-<li>hyperthyroxinemia, euthyroid, caused by generalized 5-prime-deiodinase deficiency（50.0%）</li>
-<li>ACTH-producing pituitary gland carcinoma（50.0%）</li>
-<li>phenytoin toxicity（50.0%）</li>
-<li>hypotonia, ataxia, developmental delay, and tooth enamel defect syndrome（50.0%）</li>
-<li>neurodevelopmental disorder with or without hyperkinetic movements and seizures, autosomal recessive（50.0%）</li>
-<li>Alkuraya-Kucinskas syndrome（50.0%）</li>
-<li>neurodevelopmental disorder with microcephaly, epilepsy, and brain atrophy（50.0%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/dornase_alfa/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Triclocarban 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Triclocarban 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Triclocarban 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/triclocarban/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/triclocarban/
 ---
 
 <p class="key-answer" data-question="Triclocarban 有什麼相關新聞？">
-<strong>Triclocarban</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Triclocarban</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/triclocarban/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>migraine disorder（99.3%）</li>
-<li>migraine with brainstem aura（99.1%）</li>
-<li>migraine with or without aura, susceptibility to（98.6%）</li>
-<li>ulerythema ophryogenesis（98.4%）</li>
-<li>atrophoderma vermiculata（98.2%）</li>
-<li>adrenal gland hyperfunction（97.9%）</li>
-<li>erectile dysfunction (disease)（97.2%）</li>
-<li>pulmonary hypertension（96.3%）</li>
-<li>leprosy（96.0%）</li>
-<li>sciatic neuropathy（95.9%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/triclocarban/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

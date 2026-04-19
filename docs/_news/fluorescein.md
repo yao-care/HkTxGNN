@@ -3,7 +3,7 @@ layout: default
 title: "Fluorescein 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Fluorescein 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Fluorescein 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/fluorescein/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fluorescein/
 ---
 
 <p class="key-answer" data-question="Fluorescein 有什麼相關新聞？">
-<strong>Fluorescein</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Fluorescein</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/fluorescein/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>Prinzmetal angina（99.8%）</li>
-<li>antithrombin deficiency type 2（99.8%）</li>
-<li>rheumatoid arthritis（99.7%）</li>
-<li>factor 5 excess with spontaneous thrombosis（99.7%）</li>
-<li>hemoglobinopathy（99.7%）</li>
-<li>heparin cofactor 2 deficiency（99.7%）</li>
-<li>thrombophilia（99.7%）</li>
-<li>hyperthyroidism（99.6%）</li>
-<li>partial deletion of the short arm of chromosome 16（99.6%）</li>
-<li>beta-thalassemia with other manifestations（99.6%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/fluorescein/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

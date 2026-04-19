@@ -3,7 +3,7 @@ layout: default
 title: "Choline salicylate 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Choline salicylate 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Choline salicylate 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/choline_salicylate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/choline_salicylate/
 ---
 
 <p class="key-answer" data-question="Choline salicylate 有什麼相關新聞？">
-<strong>Choline salicylate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Choline salicylate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/choline_salicylate/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>Prinzmetal angina（99.8%）</li>
-<li>rheumatoid arthritis（99.8%）</li>
-<li>hypertensive disorder（99.8%）</li>
-<li>migraine disorder（99.8%）</li>
-<li>pulmonary hypertension owing to lung disease and/or hypoxia（99.8%）</li>
-<li>pulmonary hypertension with unclear multifactorial mechanism（99.8%）</li>
-<li>malignant renovascular hypertension（99.8%）</li>
-<li>malignant hypertensive renal disease（99.8%）</li>
-<li>Raynaud disease（99.8%）</li>
-<li>pulmonary hypertension（99.8%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/choline_salicylate/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

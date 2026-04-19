@@ -3,7 +3,7 @@ layout: default
 title: "Amorolfine 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Amorolfine 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Amorolfine 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/amorolfine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/amorolfine/
 ---
 
 <p class="key-answer" data-question="Amorolfine 有什麼相關新聞？">
-<strong>Amorolfine</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Amorolfine</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/amorolfine/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>drug-induced osteoporosis（100.0%）</li>
-<li>disease of retroperitoneum（100.0%）</li>
-<li>disease of uterine broad ligament（100.0%）</li>
-<li>lumbar spinal stenosis（100.0%）</li>
-<li>abdominal ectopic pregnancy（100.0%）</li>
-<li>celiac trunk compression syndrome（100.0%）</li>
-<li>abdominal cystic lymphangioma（100.0%）</li>
-<li>lymph node palisaded myofibroblastoma（100.0%）</li>
-<li>sacrum chordoma（100.0%）</li>
-<li>urethral disease（100.0%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/amorolfine/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

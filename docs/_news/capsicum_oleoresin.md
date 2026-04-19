@@ -3,7 +3,7 @@ layout: default
 title: "Capsicum oleoresin 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Capsicum oleoresin 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Capsicum oleoresin 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/capsicum_oleoresin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/capsicum_oleoresin/
 ---
 
 <p class="key-answer" data-question="Capsicum oleoresin 有什麼相關新聞？">
-<strong>Capsicum oleoresin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Capsicum oleoresin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/capsicum_oleoresin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>peripheral motor neuropathy-dysautonomia syndrome（50.0%）</li>
-<li>intellectual disability-dysmorphism-hypogonadism-diabetes mellitus syndrome（50.0%）</li>
-<li>Mietens syndrome（50.0%）</li>
-<li>blepharophimosis - intellectual disability syndrome, Ohdo type（50.0%）</li>
-<li>intellectual disability, Buenos-Aires type（50.0%）</li>
-<li>encephalopathy due to beta-mercaptolactate-cysteine disulfiduria（50.0%）</li>
-<li>mesangial sclerosis, diffuse renal, with ocular abnormalities（50.0%）</li>
-<li>mesoaxial hexadactyly and cardiac malformation（50.0%）</li>
-<li>Langer mesomelic dysplasia（50.0%）</li>
-<li>mesomelic dwarfism-cleft palate-camptodactyly syndrome（50.0%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/capsicum_oleoresin/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
