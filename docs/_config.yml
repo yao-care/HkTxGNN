@@ -9,8 +9,9 @@ url: "https://hktxgnn.yao.care"
 lang: zh-Hant-HK
 
 # Build settings
-theme: minima
+remote_theme: just-the-docs/just-the-docs
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
