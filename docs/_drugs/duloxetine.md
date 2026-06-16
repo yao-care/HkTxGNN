@@ -2,7 +2,7 @@
 layout: default
 title: Duloxetine
 parent: 高證據等級 (L1-L2)
-nav_order: 221
+nav_order: 252
 evidence_level: L2
 indication_count: 10
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Deferasirox
 parent: 中證據等級 (L3-L4)
-nav_order: 181
+nav_order: 212
 evidence_level: L4
 indication_count: 5
 ---

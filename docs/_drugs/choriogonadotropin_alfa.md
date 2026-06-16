@@ -2,7 +2,7 @@
 layout: default
 title: Choriogonadotropin Alfa
 parent: 僅模型預測 (L5)
-nav_order: 136
+nav_order: 166
 evidence_level: L5
 indication_count: 10
 ---

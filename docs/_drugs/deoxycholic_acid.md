@@ -2,7 +2,7 @@
 layout: default
 title: Deoxycholic Acid
 parent: 中證據等級 (L3-L4)
-nav_order: 186
+nav_order: 217
 evidence_level: L4
 indication_count: 3
 ---

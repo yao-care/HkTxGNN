@@ -2,7 +2,7 @@
 layout: default
 title: Diazepam
 parent: 高證據等級 (L1-L2)
-nav_order: 200
+nav_order: 231
 evidence_level: L1
 indication_count: 10
 ---

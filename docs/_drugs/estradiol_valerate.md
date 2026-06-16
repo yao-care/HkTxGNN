@@ -2,7 +2,7 @@
 layout: default
 title: Estradiol Valerate
 parent: 中證據等級 (L3-L4)
-nav_order: 243
+nav_order: 286
 evidence_level: L4
 indication_count: 10
 ---

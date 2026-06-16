@@ -2,7 +2,7 @@
 layout: default
 title: Clioquinol
 parent: 中證據等級 (L3-L4)
-nav_order: 150
+nav_order: 180
 evidence_level: L3
 indication_count: 7
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Clobetasol
 parent: 中證據等級 (L3-L4)
-nav_order: 152
+nav_order: 182
 evidence_level: L3
 indication_count: 1
 ---

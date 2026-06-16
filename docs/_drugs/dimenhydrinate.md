@@ -2,7 +2,7 @@
 layout: default
 title: Dimenhydrinate
 parent: 中證據等級 (L3-L4)
-nav_order: 206
+nav_order: 237
 evidence_level: L4
 indication_count: 2
 ---

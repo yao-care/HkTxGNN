@@ -2,7 +2,7 @@
 layout: default
 title: Doxycycline
 parent: 中證據等級 (L3-L4)
-nav_order: 219
+nav_order: 250
 evidence_level: L4
 indication_count: 10
 ---

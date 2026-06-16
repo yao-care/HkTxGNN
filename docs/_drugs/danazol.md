@@ -2,7 +2,7 @@
 layout: default
 title: Danazol
 parent: 高證據等級 (L1-L2)
-nav_order: 174
+nav_order: 205
 evidence_level: L2
 indication_count: 10
 ---

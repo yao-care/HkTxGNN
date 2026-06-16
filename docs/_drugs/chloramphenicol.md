@@ -2,7 +2,7 @@
 layout: default
 title: Chloramphenicol
 parent: 高證據等級 (L1-L2)
-nav_order: 130
+nav_order: 160
 evidence_level: L1
 indication_count: 9
 ---

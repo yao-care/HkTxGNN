@@ -2,7 +2,7 @@
 layout: default
 title: Etonogestrel
 parent: 中證據等級 (L3-L4)
-nav_order: 252
+nav_order: 295
 evidence_level: L4
 indication_count: 5
 ---

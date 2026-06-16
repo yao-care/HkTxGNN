@@ -2,7 +2,7 @@
 layout: default
 title: Efmoroctocog Alfa
 parent: 僅模型預測 (L5)
-nav_order: 228
+nav_order: 259
 evidence_level: L5
 indication_count: 10
 ---

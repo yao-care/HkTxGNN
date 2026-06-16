@@ -2,7 +2,7 @@
 layout: default
 title: Clonazepam
 parent: 中證據等級 (L3-L4)
-nav_order: 155
+nav_order: 185
 evidence_level: L3
 indication_count: 3
 ---

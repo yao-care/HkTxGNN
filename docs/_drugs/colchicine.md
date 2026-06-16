@@ -2,7 +2,7 @@
 layout: default
 title: Colchicine
 parent: 中證據等級 (L3-L4)
-nav_order: 161
+nav_order: 191
 evidence_level: L4
 indication_count: 3
 ---

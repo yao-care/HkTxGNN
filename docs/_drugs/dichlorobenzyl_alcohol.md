@@ -2,7 +2,7 @@
 layout: default
 title: Dichlorobenzyl Alcohol
 parent: 中證據等級 (L3-L4)
-nav_order: 201
+nav_order: 232
 evidence_level: L4
 indication_count: 2
 ---

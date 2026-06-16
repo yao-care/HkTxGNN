@@ -2,7 +2,7 @@
 layout: default
 title: Clobetasol Propionate
 parent: 高證據等級 (L1-L2)
-nav_order: 153
+nav_order: 183
 evidence_level: L2
 indication_count: 7
 ---

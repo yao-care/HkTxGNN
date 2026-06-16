@@ -2,7 +2,7 @@
 layout: default
 title: Desonide
 parent: 中證據等級 (L3-L4)
-nav_order: 190
+nav_order: 221
 evidence_level: L4
 indication_count: 10
 ---

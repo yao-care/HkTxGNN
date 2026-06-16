@@ -2,7 +2,7 @@
 layout: default
 title: Esketamine
 parent: 中證據等級 (L3-L4)
-nav_order: 241
+nav_order: 284
 evidence_level: L4
 indication_count: 2
 ---

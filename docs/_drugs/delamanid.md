@@ -2,7 +2,7 @@
 layout: default
 title: Delamanid
 parent: 中證據等級 (L3-L4)
-nav_order: 184
+nav_order: 215
 evidence_level: L4
 indication_count: 10
 ---

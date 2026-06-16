@@ -2,7 +2,7 @@
 layout: default
 title: Choline Salicylate
 parent: 中證據等級 (L3-L4)
-nav_order: 135
+nav_order: 165
 evidence_level: L4
 indication_count: 10
 ---

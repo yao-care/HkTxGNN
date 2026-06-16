@@ -2,7 +2,7 @@
 layout: default
 title: Clopidogrel
 parent: 中證據等級 (L3-L4)
-nav_order: 156
+nav_order: 186
 evidence_level: L3
 indication_count: 8
 ---

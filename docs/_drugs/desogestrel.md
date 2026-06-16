@@ -2,7 +2,7 @@
 layout: default
 title: Desogestrel
 parent: 中證據等級 (L3-L4)
-nav_order: 189
+nav_order: 220
 evidence_level: L3
 indication_count: 10
 ---

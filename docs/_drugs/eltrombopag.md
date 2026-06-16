@@ -2,7 +2,7 @@
 layout: default
 title: Eltrombopag
 parent: 中證據等級 (L3-L4)
-nav_order: 232
+nav_order: 263
 evidence_level: L3
 indication_count: 1
 ---

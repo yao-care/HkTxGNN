@@ -2,7 +2,7 @@
 layout: default
 title: Efinaconazole
 parent: 僅模型預測 (L5)
-nav_order: 227
+nav_order: 258
 evidence_level: L5
 indication_count: 10
 ---

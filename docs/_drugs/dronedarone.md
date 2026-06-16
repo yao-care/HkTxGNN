@@ -2,7 +2,7 @@
 layout: default
 title: Dronedarone
 parent: 高證據等級 (L1-L2)
-nav_order: 220
+nav_order: 251
 evidence_level: L1
 indication_count: 10
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Cimetidine
 parent: 中證據等級 (L3-L4)
-nav_order: 140
+nav_order: 170
 evidence_level: L4
 indication_count: 9
 ---

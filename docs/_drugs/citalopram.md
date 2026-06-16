@@ -2,7 +2,7 @@
 layout: default
 title: Citalopram
 parent: 高證據等級 (L1-L2)
-nav_order: 143
+nav_order: 173
 evidence_level: L2
 indication_count: 5
 ---

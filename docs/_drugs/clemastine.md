@@ -2,7 +2,7 @@
 layout: default
 title: Clemastine
 parent: 高證據等級 (L1-L2)
-nav_order: 148
+nav_order: 178
 evidence_level: L2
 indication_count: 6
 ---

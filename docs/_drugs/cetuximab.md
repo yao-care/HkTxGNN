@@ -2,7 +2,7 @@
 layout: default
 title: Cetuximab
 parent: 中證據等級 (L3-L4)
-nav_order: 127
+nav_order: 157
 evidence_level: L3
 indication_count: 10
 ---

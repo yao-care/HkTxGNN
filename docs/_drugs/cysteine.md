@@ -2,7 +2,7 @@
 layout: default
 title: Cysteine
 parent: 高證據等級 (L1-L2)
-nav_order: 170
+nav_order: 201
 evidence_level: L2
 indication_count: 7
 ---

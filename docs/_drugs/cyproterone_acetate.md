@@ -2,7 +2,7 @@
 layout: default
 title: Cyproterone Acetate
 parent: 中證據等級 (L3-L4)
-nav_order: 169
+nav_order: 200
 evidence_level: L4
 indication_count: 10
 ---
