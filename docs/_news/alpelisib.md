@@ -3,7 +3,7 @@ layout: default
 title: "Alpelisib 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Alpelisib 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Alpelisib 的相關健康新聞報導。原適應症：。預測適應症 8 個。"
 permalink: /news/alpelisib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/alpelisib/
 ---
 
 <p class="key-answer" data-question="Alpelisib 有什麼相關新聞？">
-<strong>Alpelisib</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>Alpelisib</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 8 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,16 @@ permalink: /news/alpelisib/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>預測適應症</strong>（8 個）：<ul>
+<li>肺動脈高壓 | 99.03% | L5 | **Hold** | 文獻為 ILD 安全警訊，非療效（99.0%）</li>
+<li>偏頭痛（含/不含先兆） | 98.95% | L5 | Hold | 20 篇文獻均為癲癇遺傳學，與 Alpelisib 無關（99.0%）</li>
+<li>偏頭痛疾患 | 98.90% | L5 | Hold | 無任何文獻或試驗支持（99.0%）</li>
+<li>脊柱側彎性心臟病 | 98.86% | L5 | Hold | 機械性/結構性疾病，無 PI3K 機轉連結（99.0%）</li>
+<li>痲瘋病 | 98.69% | L5 | Hold | 感染性疾病，無 PI3K 抗菌或免疫機轉連結（99.0%）</li>
+<li>腦幹先兆型偏頭痛 | 98.68% | L5 | Hold | 無文獻或試驗支持（99.0%）</li>
+<li>肌萎縮側索硬化症（ALS） | 98.40% | L5 | Hold | 無前臨床或臨床證據（99.0%）</li>
+<li>多發性內分泌腫瘤 | 98.38% | 待評估 | 待評估 | 9 個臨床試驗（需確認與 MEN 的適應症相關性）（99.0%）</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/alpelisib/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

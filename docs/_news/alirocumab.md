@@ -3,7 +3,7 @@ layout: default
 title: "Alirocumab 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Alirocumab 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Alirocumab 的相關健康新聞報導。原適應症：。預測適應症 9 個。"
 permalink: /news/alirocumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/alirocumab/
 ---
 
 <p class="key-answer" data-question="Alirocumab 有什麼相關新聞？">
-<strong>Alirocumab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>Alirocumab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 9 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,17 @@ permalink: /news/alirocumab/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>預測適應症</strong>（9 個）：<ul>
+<li>X 染色體連鎖魚鱗癬（無類固醇硫酸酶缺乏） | 99.43% | L5 | Hold（99.0%）</li>
+<li>其他維生素與輔因子代謝/運輸障礙 | 99.41% | L5 | Hold（99.0%）</li>
+<li>黃色瘤病 (Xanthomatosis) | 99.37% | L4 | Research Question（99.0%）</li>
+<li>46,XY 性別發育異常（DHT 旁路生合成缺陷） | 99.37% | L5 | Hold（99.0%）</li>
+<li>46,XY 性別發育異常（膽固醇合成缺陷） | 99.35% | L5 | Hold（99.0%）</li>
+<li>斑點橫紋肌發育不良 | 99.30% | L5 | Hold（99.0%）</li>
+<li>中性脂質儲積症 | 99.29% | L5 | Hold（99.0%）</li>
+<li>3-羥基醯基輔酶 A 去氫酶缺乏症 | 99.29% | L5 | Hold（99.0%）</li>
+<li>痙攣性截癱-視神經萎縮-神經病變症候群 | 99.26% | L5 | Hold（99.0%）</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/alirocumab/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
