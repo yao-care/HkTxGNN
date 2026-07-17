@@ -1,12 +1,753 @@
 {
-  "fetched_at": "2026-07-17T08:01:16.263028",
+  "fetched_at": "2026-07-17T13:16:35.067865",
   "statistics": {
-    "total_fetched": 0,
-    "relevant": 0,
-    "by_source": {}
+    "total_fetched": 76,
+    "relevant": 1,
+    "by_source": {
+      "Centre for Health Protection": 2,
+      "富途牛牛": 1,
+      "TVB": 4,
+      "etnet 經濟通": 3,
+      "Media OutReach Newswire": 2,
+      "大公文匯網": 3,
+      "香港商报": 5,
+      "香港財經時報HKBT": 1,
+      "TDM": 2,
+      "香港電台": 4,
+      "明報新聞網": 2,
+      "City University of Hong Kong": 2,
+      "Chinese University of Hong Kong. Faculty of Medicine": 2,
+      "環球生技月刊": 1,
+      "康樂及文化事務署": 1,
+      "MSN": 2,
+      "鏈新聞 ABMedia": 1,
+      "香港文匯報": 7,
+      "Hong Kong Police Force": 1,
+      "news.gov.hk": 2,
+      "info.gov.hk": 4,
+      "Hong Kong Baptist University – HKBU": 1,
+      "點新聞": 1,
+      "The University of Hong Kong (HKU)": 1,
+      "香港01": 4,
+      "LOOOP MEDIA LIMITED": 1,
+      "RTHK News": 2,
+      "Yahoo 財經": 1,
+      "自由財經": 1,
+      "ACN Newswire": 1,
+      "星島頭條": 1,
+      "集誌社": 1,
+      "Hong Kong Science & Technology Parks Corporation": 1,
+      "紫荊雜誌": 1,
+      "HKTDC Research": 1,
+      "U Food": 1,
+      "觀點網": 1,
+      "香港經濟日報HKET": 1,
+      "CUHK Communications and Public Relations Office": 1,
+      "明報財經網": 1,
+      "flamingwheels.online": 1
+    }
   },
   "articles": {
-    "all": [],
-    "relevant": []
+    "all": [
+      {
+        "title": "衞生署 衞生防護中心 - Centre for Health Protection",
+        "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBVRGl4bk5MZmlEbEZHU3g5ZlBMOXFoYjhnOFVJdTNraXdZdzlzR3NMdFlRdk1iYk40VHVyQlo0QQ?oc=5",
+        "source": "Centre for Health Protection",
+        "published_date": "Tue, 14 Jul 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:31.930949"
+      },
+      {
+        "title": "Alibaba Health Information Technology Stock Advances 3.3% in Hong Kong - 富途牛牛",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNGt4YlJWWWh2ZGYwSVhPSUtnUzRvSUE5Nk1xMGNiOUZDYUEtU1VJUnF1RkQwQXk0a1lsTmIyT2tZR0hKR1BJMW16YnJaSWRCbno3eVpNVWFLeFdSdnFPYS1mQ3NrODdMV0x1VVZNSGlJRVZKMFNGdVRTY1BzalNOakJpMXU0am1xTGYwUEZocGp3ZFJVVWpDaHJHU3FwWjh0aTdzdEhvYWY?oc=5",
+        "source": "富途牛牛",
+        "published_date": "Thu, 16 Jul 2026 14:45:40 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:31.930995"
+      },
+      {
+        "title": "Health authorities say Ebola has low public health impact on Hong Kong - TVB",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYlo2S0RHckNVWGpzY3lFOHVxWTdKdk9vQUd5OXFlVnotaG9kTWxKeDVfaFhfQ0JpNnhtcC1sRDJjNkxvcXMwWFNmTTVkazRqTUlrQmI2V0M1STItYkRTczdqNG56NXpraGRZMFd3N09mU3plNXJRYWVzU1NNeHd2WHYyeFpQQUJBZmxVR2hDU1E4enlRWEE?oc=5",
+        "source": "TVB",
+        "published_date": "Wed, 27 May 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:31.931023"
+      },
+      {
+        "title": "Bupa Hong Kong Launches \"Bupa Care Bridge\", an Affordable Health Insurance Solution Designed for Cross‑border Living | 主頁 - 新聞 - etnet 經濟通",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc1h3Si1lRFFNS0Z2UFVJSm8zUE9FWnBtSG0wVWt5Vk5uQWZWMFpVYVA2RW5OTFhNMHRiTWhzZVlnYzUxN21JU3NTUkQzYko3ZUNWQ1pjS1M1WmZEWGtHbGdFNzJJYVh1aWpFVXIyTTVlU2d2UTM0WlUybGZUZFNEaHdiaHFXUXRiejlTYVlSRnEwSS03NkVERE55R1dNTlZjMW5TNjk2WQ?oc=5",
+        "source": "etnet 經濟通",
+        "published_date": "Mon, 18 May 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:31.931065"
+      },
+      {
+        "title": "信諾環球香港推出全新「Health Moves」社區活動計劃並與 HYROX 踏入第三年合作 - Media OutReach Newswire",
+        "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPWG1iSWRXbDFORU1pUjE4UkdjSktQZXNnODB2bzRPc0ZMRUZuMXludEx3bm1aZ2JrRDc3UEVaT0h4MVFBYkZQNFdxVTdJRjk0UTJ3RlNZN1pfb2xvdmNiZ240WTlpVnNUUUhSREdMdzhYVml3Sk1LMDJHUHZUSFQtUF9yY2lwMlNRNEhlWTdYWEtoRURYLVJpaWtNQmZmbERzQ29nNlczdHp4RXRQaEdyNldxZWlkOWlVVzAzYnlfVkJXWnhkZEZjSFotUzlvLWJKWlBiX2JrSGxYY0R6U3VnVkw4UEtpTjBTMERXVFFpaUVhR0VvdE96Z0U4VVUwZURYSmNsRE9QTFp5OWdzaXNuVzNHUjZKY0lVWUVUVjVRNmJKYThtYzJoRXhyTVZRdjVlbUxpWU5meFhEcmtwYW1SV1M0c2JPYy0xclR6YUpSRnptcHZSa2s5ZHN6Qk42WlBMX3NtTEZzMVZRVXJaNl9CaHpnb1QwbXIzUGZ3?oc=5",
+        "source": "Media OutReach Newswire",
+        "published_date": "Tue, 10 Mar 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:31.931100"
+      },
+      {
+        "title": "Speech by SLW at opening ceremony of OSH INNO Expo - 大公文匯網",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9odHc5c0xIcEhPeEtpVkJ5VFMxeExnb3FvSTBGZjRoSVFxTGw1TGY3VkNSajdra1BzOEF0TWdCU3BraWZmcGt5QXcxOXphR2VrNTFCTXlrbVZIMkNlQUJnZEJNOWt2dHVod2hscHdwOW8?oc=5",
+        "source": "大公文匯網",
+        "published_date": "Tue, 02 Jun 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:31.931132"
+      },
+      {
+        "title": "香港睡眠協會成立 以公益推動全民睡眠健康教育 - 香港商报",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1vSFBraW40ZXA4cUxQM25qQ1RHWFBUYkpEMVYxQzBxdHRnWEZYMHdkb3ktZERVVHprMXRMWmZhM1JYa2JkVUgzeklKeEV5dWhsSnpFenI0elI5dEJ3X2JESkN2Wk9NYkVjX0Rkb1NodUhocFJJRzRidkNGMA?oc=5",
+        "source": "香港商报",
+        "published_date": "Wed, 27 May 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:31.931161"
+      },
+      {
+        "title": "信諾環球香港推出全新「Health Moves」社區活動計劃並與 HYROX 踏入第三年合作 - 香港財經時報HKBT",
+        "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOeVQ0T3BsMDU0RHhlLVZMNGJrVG1aZ0Zna1hKZmpVSVNEWldaZktmdy1pSWpxSmFYbzBDbWdteEJlVk9zMXR6aU5SZG1TYjVUSVhUSmo2Sk5KVzZqM2VWVDZreU5SeFBfLUdNMDJ5eFo0bXE4UUJ2MW9NM05uX3M2TzlZNWx6VEQwZkxuRkJhUGhGck1jMDNpVUU3NjdPcGN4QVI1aTNGU2NXNktocUlST29WTVVzVXR1SWNBUml3VHc0V3VOQmhnNU02WWFZNjF0M1JHbGhjamFEZm9TQk1oNTBMRFlNakppVnN6ak9OQzZuOXN1VDA4QktBZ19oODlQcHhjS3Y4eFlkWEEySHM2RGFlLV9mNV9MYWc1RWdadEVQWXFQNDNkSW53U0VGMklheGZVTndpbkRlanRxMGFDYVhiNUR2bUNMN0NxU2VzYw?oc=5",
+        "source": "香港財經時報HKBT",
+        "published_date": "Tue, 10 Mar 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:31.931195"
+      },
+      {
+        "title": "HKSTP Leads Largest-Ever Hong Kong Delegation to BIO 2026 Showcasing Life and Health Tech Strength | 主頁 - 新聞 - etnet 經濟通",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRnNQV0VwY2plQ3AyR3FwZE1FT1hlSGc5aklMbVJ3RHpaTndQWUlVVGpPM25qbFpua3VLY1BsWTRrekdpODItR0RnVUpOb3hMX2YwS1dLUy1BR1Z0LWpycllnSWhIcVhZa0hyaWY3MS1uLXZTVU00QnlNdFJEaVpXc2JaV01uVFdwclVBZzRjaDExNGtEQnZja005ZkF2aWpadHRCVjhtRQ?oc=5",
+        "source": "etnet 經濟通",
+        "published_date": "Wed, 24 Jun 2026 10:25:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:31.931235"
+      },
+      {
+        "title": "Hong Kong steps up precautions over Ebola outbreak - TDM",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa0hWcHNBZ1BqY21Jbld5VThsOUtaenBqNUV2WlNlXzgtbS02QV8zYWRCUDNxNGh3cTFYRUVLTTRZSjdjMzByMnRCZkJhY0xPSkZwZjhRUVNzZi1oNEZ5LUNZaXNmclJKSlRacmFYS1hZWHJOa0N2R3NVS1BjZnFnUHNoX1NMcFBLbnJ6OVZJRlFxOERoR1c2Sg?oc=5",
+        "source": "TDM",
+        "published_date": "Wed, 20 May 2026 05:10:06 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:31.931261"
+      },
+      {
+        "title": "港台電視 32 Hong Kong Connection - Next Chapter of Chinese Medicine - 香港電台",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBHOW80NkUwNHdZeU84V1Zmc0tXdktDQkQ3d1ZOQV9BT2c4b0gzOGUzbmFHLU9Ub0xzNnl3bEZwQmIwZHpncnE3STJxS3g2X3RIdURLT3VwWVJuZXNUcEY2QU5BT1ZzRm41dmRZ?oc=5",
+        "source": "香港電台",
+        "published_date": "Mon, 08 Jun 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:32.334040"
+      },
+      {
+        "title": "Editorial：Let Chinese Medicine Hospital Play to Its Strengths - 20260514 - 英文 - 明報新聞網",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQV0N1Q0RKdG9fRWJabWRGaGNKVmpaTWlvOC10YWxHajNWazQ4ZU9raEpGVTk2UzJZOUxHLTRIT3pmTUc3R3g3MnFoczV1RFBYSTlJNTF3dG5aVGZWSG5IMS14MXhTdFZ2bEtoMG15ZjIwWkRtTDFQOExwVU5EdHoxQUl3SXBrbWdra0NyM2lKd3ZCMVVwVXJMajBodXhGdnBrVVIyRnRlLTRKMUhLVE1VNHRYRUZZazlvZVdZclFqUTBISHZMajFkOUlUbWJpZnM4VTJmVEEyZVU4b09oWFJCaw?oc=5",
+        "source": "明報新聞網",
+        "published_date": "Thu, 14 May 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:32.334083"
+      },
+      {
+        "title": "Bernard Chan, Chairman of Our Hong Kong Foundation - TVB",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNDQ2a2txdEJfRG9KZHk3bkZUZ2tabkc2STZlcXdqelJKeDZDRFlKT2dDQzk5TzdQSEQtMnlSVFRVZzVuUFZXbXN6SzlpVTJHT255UXFwYVBXQW5mOWVad3lpSWZ3WDZqZHE3eXhtYnhnd2VFQ3JqeE1ZY09NMnc0MGtKZGY0NWZfOW10aDg1WjhCenBBaUlJ?oc=5",
+        "source": "TVB",
+        "published_date": "Tue, 28 Apr 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:32.334105"
+      },
+      {
+        "title": "IPO- Company Information - etnet 經濟通",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9KYXNyaDRTVVpBQm01U3J5ZWxzUWNNOGdHYkpWWjRHT1pUXzU3REdWUnp2UnFKSVRYanVLd250SE1XTEpDWTNmaHZ5UDUxdzI0WkpqS1V2TVYzQzl2WDdjTlBXRmFWVzA1aHVuZ1dXZlMtTnp2UkE?oc=5",
+        "source": "etnet 經濟通",
+        "published_date": "Tue, 05 May 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:32.334132"
+      },
+      {
+        "title": "港台電視 32 Hong Kong Connection - The Scourge of Etomidate - 香港電台",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ma05wOVJFR0tubVBFZGlaUm92UGppTkx2WEtmejJhbU1BckdKZndoX3U3dVFHdi1WenpLSDZMc1ZlaFgzUU1oRDhIVkN6SFNmZkwzeUVYZldaR01zMXUxWlFGaUlCT1ZxTy1V?oc=5",
+        "source": "香港電台",
+        "published_date": "Mon, 27 Oct 2025 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:32.334163"
+      },
+      {
+        "title": "CityUHK Pioneers Future Health and Medical Innovation with New College of Biomedicine - City University of Hong Kong",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObUlucFU2WUNZNTNDNVhNWVlwbEljUkJ1ZkkzWXRpVUZJMllfYmJsV3NrWG42cDFSY0xTZXVLQXZnSDNyVUUxSllwQWhXRFI0ZzlvNGQzaWlLcmpfekwzRHdRdm5JZFNhTS1WcnhybnU5WmlwYnB1QTlGRFlsYTZfQ1lFdGJzWEhGR2V4TzN6aFNpZGxSSDA1TktKay1DYXA2MUQ2QzhuTU9NNlVOS2o2eVVkcnh6X3loN0ExcE9Xd3gzUQ?oc=5",
+        "source": "City University of Hong Kong",
+        "published_date": "Thu, 02 Jan 2025 08:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:32.334187"
+      },
+      {
+        "title": "中大醫學院與香港體育學院簽署合作備忘錄 攜手加強運動醫學支援及發展 - Chinese University of Hong Kong. Faculty of Medicine",
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPT3lOamdydFY2UkdIYUdfajN4czRKNTJyazMtNW1tRnJwMGM1ZG5GVVpkbGFQOWp4WkItTjFqWXRTdzJmaVc4XzQzT0p5WWVtWEpZSkxHaHBQY2R1Smk0T0VTZkZpQ2xOYTJsSjVtNm9BTUJ1WHRGZVZxSXhxZW1KUFpqZ0RzTDJYVzBlTV9zVk9jQWptc3JZa21LdHY5X3VfcXVxWDNNeXBuOUtfOUxUNVBKTTB3b3o3aDdRTTkzMEpfUlZLTjhPVDJyck5uYWJZX2xUcEo4V3BwRE5ReHltbzdwYUd1SU9GYmhETkUweEViNmVQU204UDhlSnd4YVNxM2NzTnQtLXBmU0ZpT0tB?oc=5",
+        "source": "Chinese University of Hong Kong. Faculty of Medicine",
+        "published_date": "Mon, 30 Jun 2025 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:32.334221"
+      },
+      {
+        "title": "英科智能港交所上市！首家依8.05條掛牌AI生技公司、掀認購熱潮 - 環球生技月刊",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjd1NpWG1mNXZzSFJaVWpwMTY4ZHkyWXFsOEJjOGZEVGh5Q2Zrc0tuX19NSk9jdjUtNW5Eazl3a2dXU0RqN1F6bVJjTTdqdEFvcm9iT0xKRjA0ZlZNRlJ4SXlobnhpLWFx?oc=5",
+        "source": "環球生技月刊",
+        "published_date": "Wed, 31 Dec 2025 08:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:32.334252"
+      },
+      {
+        "title": "工商機構運動會2025 - 康樂及文化事務署",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1TWUZfRmFSX04tajRfRUpBUE9WQUVpcldzdkxiOU1BQUJGTDNyVFZsZWpSRTNUU3hvWXN5SGdJT0c5clVtajJyZ0VWMUFicm9scmZOVXkxUDM?oc=5",
+        "source": "康樂及文化事務署",
+        "published_date": "Sat, 14 Dec 2024 05:50:58 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:32.334277"
+      },
+      {
+        "title": "CityUHK establishes Institute of Digital Medicine with global partnerships for future healthcare innovation - City University of Hong Kong",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMWlXXzhUTUtnTldIOWVkb0taZGFzZDdMSTNjSUVLVEk3QlJNVU9fOWJiOElncXM4dGRtdHBuTzE4WTBzZVA3SHk0amJHSngyekNqVHdma3J5MHR5bWxOM2FGa1d5cGRHdlM0cHZsbzJRTG1TMnNKdlZENUVnZ2V0WFhhSXhtSkVJempqWDNNSzh1Q0pmWFp2Y3FHV05VR1N5Qi1XVkIzaUljNmRLZEI0ajRyN2RkMWI4eUhFMk9mTUE5c3F6Z1NKdUphczh3NXJheTJIQmoyN01jUQ?oc=5",
+        "source": "City University of Hong Kong",
+        "published_date": "Wed, 24 Apr 2024 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:32.334302"
+      },
+      {
+        "title": "Hong Kong-listed Sino Biopharma, AstraZeneca sign respiratory drug deal worth up to $1.9 billion - MSN",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQnhsc0dTc0hIREM5eURwOGxUbGRpVWNNbWd5YkgzWjlfaVJyS3J1bmJKNnQzOGsxM1BYMGVJM3BRcjZ0a19iN2JMZm9kUkNjNncwZXNpVmdnYmJJME94d3dJbUlqTlBlUlltQ0tzS1REMkE4YlVjQlE5WHhTT0RuWVAxaExkbkg1UU1mVkZKbzRCMVpHbU44dml0VEFGamZ4UWtWVVhyb0ItMjZmZzFsTDNPNXZqSjRjM0pGcGVHSlFKa0VDczZ4clo1eTVhM21rZDhTeTBfRFlfVnJ4YUE?oc=5",
+        "source": "MSN",
+        "published_date": "Sun, 12 Jul 2026 08:57:21 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:32.698707"
+      },
+      {
+        "title": "CUHK Clinical Trial Centre: Hong Kong’s early clinical research fast-tracked for approval and commencement Policy support attracts more clinical research to Hong Kong, benefiting local patients - Chinese University of Hong Kong. Faculty of Medicine",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWjBLOHh0N01fcWxzVWhtYmxtVm1ULTJKdWprcWFoRFp0Zm9fbHpyc2VNbkp6VEZLbW9zZTQwVC1qbDc0SjZEVk92WHlmRVFZYUtTWE1DdklCcDJXUEptUnJOZHdPQWtPZklGVDlFSVE5cjVGTk1UdGxLMlNxVHpocGkwTEp4NW9RVzJpa3Jid04ybVVzdnYwV1A4QW1xX1JqSjJHRUxmUlVBUUxNeVJnczZRSnp6dGtsVkU2WDNwX2dEa1lwY2Y3MldnVGJKeUVLeVdtclJpVjhsdGMtOEFvR3pn?oc=5",
+        "source": "Chinese University of Hong Kong. Faculty of Medicine",
+        "published_date": "Thu, 04 Sep 2025 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:32.698763"
+      },
+      {
+        "title": "香港懲教署發佈生成 AI 反毒 MV、網友譏笑像是推銷毒品 - 鏈新聞 ABMedia",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbmd4TU1iQ1FwaGQ2c0prTVgxLTFlQURYdXlTUG05c3ZqLUdiWkVTekd0eVBQZXZ5MnZBWWZDeFNJT3dNZzJteU04LWRKeUMySjJCSDNQVHg5dTA1b2toSVladU5pX0ZJUHhGRWtEdjdmdXA3SGFrcTNzN014WW5ZSm4xYk91SFhMRm5ubVJ4bDdzT1NZ?oc=5",
+        "source": "鏈新聞 ABMedia",
+        "published_date": "Tue, 30 Jun 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:32.698798"
+      },
+      {
+        "title": "【News Buddy】提升防偽意識警惕藥房「影射藥」 Reporter's investigation: Counterfeit medication rife in TST - 香港文匯報",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5pYlhEVGR0R1FXNmVBc0tra1lyMGNtekE3TGx4RHlPN3pBVHRXZndZUHNELW9oU2FqaU5LM0tZV2h6bHBCeWVMM0xWNERXWW80RnFfUnpsal9XOTlPLVFSNWZuT2lzV09xdWlPWmZLMVpFVFRkVjhJejFsR2o?oc=5",
+        "source": "香港文匯報",
+        "published_date": "Tue, 19 May 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:32.698833"
+      },
+      {
+        "title": "Police Intercept Multi-Million Drug Smuggling Attempt - TDM",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWDNTZnpNd1NTN3p5SXc1VVJlYlhHdVdRc1hHY2lFd20yazk1MUhLUHZsWkVuVWZNZHRFdjRraWtFNlpVZ2d2NWhUdXJBMnhCWHM3X1p6SThidy1lTXByd2VfUzBSRUlWZDg3bEctVjk3UEM5WmlMVW5WZXRMVHFlSlVhWVRqc1Q3UU9QTDFCV18tVVk0bVlSNWstNUthUQ?oc=5",
+        "source": "TDM",
+        "published_date": "Sat, 17 Jan 2026 08:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:32.698854"
+      },
+      {
+        "title": "【NewsBuddy】外傭地下集團涉運輸另類墮胎藥 From underground rings to pharmacy counters: Illicit trade of abortion pills in HK - 香港文匯報",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11MWdRdDVHN1RnX0FLMUhrSUw0Z29oTWwtbkRaS3JERGZZSDBmTnNlMUtrbGFwWUY2S1NUVm1PemdMZUpHQ3RXT2lsTkF3Q0dBRGtNanFYQ3B2VmFUU1dqRHRHUlJGZE1MTWJSNm8tU0JQU2prUHhz?oc=5",
+        "source": "香港文匯報",
+        "published_date": "Tue, 16 Dec 2025 08:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:32.698892"
+      },
+      {
+        "title": "Anti-Drugs Campaign 2022 - Hong Kong Police Force",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1NVmluVUJHU2lubzFlLTBSem45SmU3WDc1NUJDZlhhcWx2ZV95VWRvdm9mVnJXMTN5WWV3ZlRZT2Q1VExhZFdDSVByQ3JQVXhYd0dDUXBlYy1vLVl0YzNKX19VT0IzWUVvYmp5azg5RW1IcnR2MkE?oc=5",
+        "source": "Hong Kong Police Force",
+        "published_date": "Fri, 17 Nov 2023 07:03:45 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:32.698913"
+      },
+      {
+        "title": "Editorial : HK to Set Up Its Own Drug Regulatory Body - 20250630 - 英文 - 明報新聞網",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNi02aE5DS3F3MUNMb3ZoV3JwWWlEems2WEpId2VDeXRNWkhzV3NrLWZiSnlQQzFmTFVWNUFDbTM5Y2NPYldYeUhLXzVfRk5raEZwSXUxbm1jdHBWWUI0ZGpTQ2h1S2c5TkxlY01zNmFXTTJxMDh3X0hsN3p6UFg4b2NmQ0NtbWNJVVRLbVBYeVF4WHl0T2t0TGtFSWcyUjJ5bUdQbVliZzBJZmNQTk1yemh3dzh3VHRCVVdXSlczanhILWU3eDBWZDVjQ29CMnFWZjRF?oc=5",
+        "source": "明報新聞網",
+        "published_date": "Mon, 30 Jun 2025 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:32.698945"
+      },
+      {
+        "title": "Sino Biopharma receives Chinese rights to two GSK respiratory drugs - MSN",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOTRPZkpnWEU0eC1sYnNVT09pb05yMzlrOG5xcXdFSkhvVnVCVXVucm9hNDNtWGtURkhSOVpUemVqZEVobGk4blNWRDFpZ1FvUzU4Tll5RkZ3d3RicWgteTd6MzBOWU90bk1ZYlE5amROMUtXRVlDVHFEWWR5VGdXZW5PdnFiV09oWm16WjhMT0cxejFZT2Zud3JwRmhtZUdOb3I0UFJVejZnR19DZWJ4eVZjTGJoN0NCTkE?oc=5",
+        "source": "MSN",
+        "published_date": "Fri, 10 Jul 2026 13:08:59 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:32.698966"
+      },
+      {
+        "title": "行政總裁接受香港文匯報專訪：中大醫院收入年增17%漸達收支平衡 推ICU套餐收費 重症短期留醫半價 - 香港文匯報",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5pY2JOanM3dTBwMVNIaDhobjdXSjNrLVVXMEZsWXlnekxvUTNrWkEteHkyZ25udXllNTN5NUFoWEd2dmV5anY1RlRwVUtRcVpzTUJJTFhUVjVUekZGNjRqaEtHRlNHQXBOUTA5c005Y3NKS3hkeG9Z?oc=5",
+        "source": "香港文匯報",
+        "published_date": "Mon, 13 Jul 2026 20:34:17 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:33.237609"
+      },
+      {
+        "title": "港台電視 31 政正關你事 - 醫院管理局：香港佛教醫院 - 職業治療部懷舊角 - 香港電台",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5sNFZMdm0xcFFQNzN1cHc1eDV6ZzItM1RxYVVHMGRuWU5vWkdrWFd0Ym9ZY3gtQTk5YVRpLWVDWVNDZVNkMlJRTGJtanBpSHNoeDhjUHNXWWE2N0tkR0dzeDBDM1ZjSllIcWU5bTc3dG1naDhidHRoSmdNaw?oc=5",
+        "source": "香港電台",
+        "published_date": "Wed, 24 Jun 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:33.237656"
+      },
+      {
+        "title": "施南生離世｜養和醫院安詳辭世終年75歲 推動香港電影國際舞台上發光發亮 - TVB",
+        "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxPaGNFakljR25aRnMyRFNSd3g0aTAzT1drVVZQQnFzWmJ1dDl0NjVhUDlXY3p1aUlmWngwSy1pTl9PTXZWRUdGZjFEbjkxQ21EOEN3d0JQVm1sdmpLaDJJcnh4NFF3YThGOF8yYUxERGgyYmdzV1RCN1BqRW5YWjRla0Q3NkVwVUdkbUE1amNMSDhNSzU3T2M0TWdZRTBiREhWRG5LUzF2ZzkyUmp6aGpIZXdOcjdhRmg0cGFBYlZVZDU2a1U5XzVCN0FIODJLdWFnLUhnekhuQms1dVA1ZlRzRS1yWGt6OEVFem1MMUlvb1BZRXlVSjJnVUFGY29Vcl9RRmhlckVWdGN2eEJHQTE4c05xZFpEazhMY0FHMFdZa0Q2TUR4RE5ucWhZV1QxWXJaNE1XQWo3UXNvcXlUR0g4bmNoeW9xUlB4QWdqUUVhc3FCRFVfUXBIZWtqRDlZQWtCTHZtOWg1LW44Yi1QY05EeTFWZzJOUkVtakc4V2F4TEpzdU5HazJDazdJV2EyWmtIQWxZbDljc2pvQmIwYks5VzN6Yi1XUC1MUV82dHYwSlFoWE9KOVRycHM3TGZQUQ?oc=5",
+        "source": "TVB",
+        "published_date": "Mon, 13 Jul 2026 15:02:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:33.237687"
+      },
+      {
+        "title": "香港政府新聞網- 中醫醫院與深冀兩醫院簽合作協議 - news.gov.hk",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9WVjJXdklqZlZsZ1M5dGVoa3hYUi1aQXhDeWpCNlRFeXRXX1pWUndOYlJzZFo4NFE5Z3hfTThDYkppYlNLSS01cTZDM3RPZG9uc2N1ckdMOVFZTElHWXhaSzgxNnI3Y2d1X01lU0J0c0tMOVpRWm0tNw?oc=5",
+        "source": "news.gov.hk",
+        "published_date": "Thu, 16 Apr 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:33.237722"
+      },
+      {
+        "title": "醫院管理局醫護人員與病人齊齊迎新春（附圖） - info.gov.hk",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5rTFlQWnAxSTJadmxfZDB5Y3JTRTl3bThaZlNBd0laR2tpN0ZScnNjMm9fMmRxTE05UEh2eEdSZlZiemNtRjZNVnF1ZWtRbVR5WU96WGFmNU5mdEFKQWNSN0lNTGd4NEpuOFE2X3ozcHZYdw?oc=5",
+        "source": "info.gov.hk",
+        "published_date": "Sun, 15 Feb 2026 08:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:33.237751"
+      },
+      {
+        "title": "中醫醫院啟用揭開香港醫療保健新篇章 - Hong Kong Baptist University – HKBU",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQV0I2dmhOSVFwVzM1UU5UMm1nbkpPVzlTSDZBWWc5d2FOMDFRZ2NrZzlnZkJnZ1VPQkRsbXpiMGg5YmhCdURnWTd1TldVZEtSOGV2WkZrR2tRVHkzbENJYkt1QkdycDFGcHR3NW4tZ3RUX1Z1ZTZaWTVnaWJ2YUppRktRcGhqSDQzSVFfZHhhSk9rakpKZUMyU3ozWkRfTlNHUmY5YndlZU5GV2hMeVJPZmNLU3QwNnVrdUlta3hDdXllNVRDZzRXaGdxbjlsMUZudVBSSHlVRjNWVHNXWE1vTUtyRmZjSmk0V0E?oc=5",
+        "source": "Hong Kong Baptist University – HKBU",
+        "published_date": "Fri, 30 Jan 2026 08:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:33.237784"
+      },
+      {
+        "title": "萬里馮論政｜從落馬洲應急醫院看國家對香港的關愛 - 點新聞",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5WRExfY0wzUjR3emZyRWM2QUZhTnhyRDhvOHNad0swTG80RUJfcktKTnVaN3N5eWhqOVNVVU9rS1NPUjFaQnVBaFhRZmZpX2tHT0tYUzZnZjdKX21GcmVzMXNEU3RBeEVpdk94MXk3eEJOekR1OFZSU1dR?oc=5",
+        "source": "點新聞",
+        "published_date": "Thu, 02 Jul 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:33.237812"
+      },
+      {
+        "title": "港大醫學院與港大深圳醫院突破性發現 早發性卵巢功能不全「有藥可醫」 激活沉睡卵子以重建生育能力 - The University of Hong Kong (HKU)",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ySkNvRzQxT3hZdnZXWXU0NGg4ZmxlOGtZNGt6RDM3ejZOeS0xZEhaZWdVN09RZmhYYXQxLVhsV1RQMWxFRTk3N1JBSUpScm9iU1pGdFVvaGI?oc=5",
+        "source": "The University of Hong Kong (HKU)",
+        "published_date": "Mon, 09 Feb 2026 08:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:33.237848"
+      },
+      {
+        "title": "兒童醫院男童心臟驟停事故 調查揭護士離床無交接 - 香港商报",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB5SmJCMHVlMnJ6Z04tRlV3TERfdUZHemNVMHNtUTExd2RsMGh3RTZ4RG92bU5aY1JjeXVQaHhPQzdfZ3dTWDNWcDdZSEwzV2EwQ3RRTWVrVE9mZmtsUkxacVVpdFZDT0NBQlJxcmJiOFZEemFBZHlTUFBxOA?oc=5",
+        "source": "香港商报",
+        "published_date": "Fri, 26 Jun 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:33.237912"
+      },
+      {
+        "title": "2026健康產業研討會｜聚焦中西醫跨境協作 實現大灣區就醫自由 - 香港01",
+        "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxOUnBRQjVWTnN3VkZCTWZ3T3dWRC1RUHRFZ0k2RDkxZ3hsMm15VzY5NTRvcDVkUmhiT0UxWk9Lb0RPZ0pEY2puLS1YWUJ3R05EeFJaMDdOczR0R1J5WUVJbU5kZmFEV2JRcjBlSzVpYVBZaG5RLXJERFhNWm95a0JVTkxPcUFvVDRtYnFMdlUxb0djUDlvYmhiTW5EN09ndFYzU1BwOUZoMVI2bGRKN2QyTmZ2S1VwakFBRnZMN0FvblVoV19aeXdLR1lPWlRyMTI5OHdYeUxsMGhwNVpOeVVzWFBjYjBpSTFJRGlaU2p6Q21FUjlzSXo3VjFIWjFBTmluQTZtYy1ZR2FBNDNyd3ItYkNycEgyMC1MWjE3X0Y5NTcxS3FBODE0OGpqTVNydVJ6LUY3SGFsX1M2ZFhhQnJmSnNxU2I5bEpza3NvTUx2R2toekhQakJvYVdYUHI0dENlV2RqWGhuam9pcEdEd2wtZktVR0Frc0Q1aVd3NDNUR2VKRzRscVhTQlUxRDR2WUpzZUxzYVdfbw?oc=5",
+        "source": "香港01",
+        "published_date": "Fri, 17 Jul 2026 10:32:21 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:33.716290"
+      },
+      {
+        "title": "【打造灣區醫療高地】大灣區首個國際臨床研究中心落戶南沙 梁振英：為香港科研提供內地轉化平台 - LOOOP MEDIA LIMITED",
+        "url": "https://news.google.com/rss/articles/CBMi6ARBVV95cUxQUjVqNUx5MjY0UmhSeThfLVRyejFiZ1dLaDlmdjYzMUllSEEzMU9NUGlMLXZrN01GRXRmRV9WUFFVZ2Y4R0hWOXVmQzJXQXdFVGtsdFg1dnZrMFFMY2UyNVZ3Y3VBbUV4aDI1NnJFa0g3d2tFZEtsc2pYaGZCQ0hrejAwVkVWSjZzMXVpbzdNREtLVkhMd1RIeTh0UUxYdHAzaTJ0MXQ4eHRQU2dJR1lKSlJtWHJIV25NYTRQRHZsZkR2LXBSZWgyb0Y0NjNfakJIV0MwRnF0Q0JrM3RQcTlWSWxTU0NmLUNqcVAxNnBqMmwtQjJreVU2dFZKaEM2X1Y1dFY4dUVsZjRsWjZmSXNlV0FTcHk3T2IyMDBMYTJ1SkthN1JmeVltQXgzS1BJTFZZRWtTTGI4bll0MDVuaEhfLWdsQ0czLUoyb3FZYUcxelhmRHIyTE1ZeEoyczJCN1dsdW5WTGw2aEtIZWE3VXRuUjlqcENMLWxpZGlHanFyQ3V6WVFjNGhyWXhleVFrc29lenZ0MkJyblJzQlVERWpJbUpEazhySFlfSjFtM2dpb0xqXzRvVF93NWhUYW5DUDdKSEFkNFB6d0dhak1TU3FHRkV4VEVlYW4ta091Ul9kZDR2azRoU3RxNVU3bUJtZFJuaFBOdXlEdlJsVkNoemtkRjNpbGpXSDlqeHotaXpvYnZjU2NBZENKNkpRNDNBNDQ2WGFNblprdjlONFFrWjBXaTd3bWpkZ2gzWEhTYXQyOVNnUGlJbGtqTEVWZmM0T2YteXhKQkdiNzY4UlV2Tk8xQUp3THROZW1W?oc=5",
+        "source": "LOOOP MEDIA LIMITED",
+        "published_date": "Fri, 17 Jul 2026 08:57:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:33.716334"
+      },
+      {
+        "title": "警方破獲一個詐騙集團拘14人 涉利用虛假醫療證明索償保險 - RTHK News",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rT3M3MjJVN2R2UDVHeHU1VEM4YnBiM1ZTRWNyQTIxNUl3MGxnRmNMazduMVhsOE1BYnNQbVZQVFBRTkU1V2RKcEltdVFacmI0dXAtb25DVDNCQmhULWVvZ2FYWEl5UER1ZnpGd1J3bw?oc=5",
+        "source": "RTHK News",
+        "published_date": "Thu, 16 Jul 2026 09:03:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:33.716366"
+      },
+      {
+        "title": "KLN與研華及易得康簽署合作備忘錄 支持香港醫療體系數碼轉型 - Yahoo 財經",
+        "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxPdkY3bFJjUmJTM3NBUmdzWHY3dThwT0xYN0ZQbnJoM3RTbU9EQm9IcGlMOU1FUWt2VkNEUURIRjBUak4yNENFSE9zU0Y3Q1U2U2M5al9CeHo5bUlJdHFZTjVwS1pLNk1UeExEZGluSWsxQkNQci10bkI3TjRQWEN0TGg4aW0xN1k4YkQ3R0dVeHhGT1VuR28zeTBYYTlGenVLaGFtNXh5TmpTT1Q3SjNFOWRUWlF6bmg4aUsyRm84Y2RfQ0FOX25rRmlTeFJoSzFIeEh6dFRYSnhRU1RlZFZaSXJmWldaa0x1dTRvbHhuQmQ5dDlTRnRXWldiYkxrM2Voc0tMMmF5LVE1azN3OGFmTkMycUJVQ2xheTI4emp3ZjBoOTctdkkxRmdVakVCMm9MLVQtU2IzOUZNLV9uM2NtSnVkbFZXRHlPUXdpV3FhR0M2NDE2WFpkVjVDVmtWbVJ2WURoM0JuT0wyQXItQWlEV2dJeW16RF9JQ2VhREc5Zlg2eVlGQWNnTmE1c0pJdXU5X0puTncwQUZXZG8?oc=5",
+        "source": "Yahoo 財經",
+        "published_date": "Mon, 13 Jul 2026 04:40:23 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:33.716396"
+      },
+      {
+        "title": "研華簽署三方合作MoU 智慧醫療方案落地香港 - 自由財經",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1R1RrcGhLa1VzM3ZhLVFRWkJoTlVNdVZTcjZvMUlBbld1cWVkbjNOUnA1a3prRFp5TjJDOWZ5RFpLdGZuR0Z6MEVtVWJoRVJTbk1MdnZVcVdyRmNfd3J30gFkQVVfeXFMUENtX3NnZTBBYTFHTHJmTllmZUVkS0stSkRlbmlVcTZzUjJDX3FrNDk2dElpUy03eG1XUkdSdDhlNlFKU242dDB6aGN2aGdzYlN2dm5JUTVBR3N6cUU4YzZkN0xPSg?oc=5",
+        "source": "自由財經",
+        "published_date": "Thu, 16 Jul 2026 23:17:34 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:33.716424"
+      },
+      {
+        "title": "維護國家安全 築牢醫療創新根基 - 香港文匯報",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE45MlZyekk1aGZNUkpLQWxnMzBiWThjNHBTT0xHTy1yTXRZa2JyNWRGSDNfS01HSlNnSWVHaUVYNUNFOXYtWHRTc2NTRnpRT2lEakpBVHl6c1lYeVZ0am5FTkVzQWxUa2cxU3lhcmlGSDl1Ni1KUzlV?oc=5",
+        "source": "香港文匯報",
+        "published_date": "Tue, 14 Jul 2026 20:19:07 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:33.716452"
+      },
+      {
+        "title": "康諾思騰（Cornerstone Robotics）確認出席第二屆全球醫療峰會（GHS 2026） - ACN Newswire",
+        "url": "https://news.google.com/rss/articles/CBMimANBVV95cUxNaGplRU1wSVRGWlFkT20xZU1NVmdyMEM2aTVFSFJQMU5fMTBTQVp1SWhUOEg2Wm8xbmZ2dW4tTlB3RDJPZks3ZE5wV0h3eG5Yb2VtSkI1X0l2aUdIdldWUzJsTm9mdVgzNjNpNDNPSi1tT2YyWDFXWWlHc2JaTDZ3NjEwWEZySlBfNU5KQW1NOHdEc2xOT0drbjR1bU5NbzJhMzdpNHlJTmhVVFA4clVmb084dHdkQzlwZ0FRdldDRVJzV2p6YVZHYVZHdW9lRElnSUNkT2N2cUdxWnp4ZmQ0bC1XYWNLX09Wbms1ZlpCQ2lnUkkyRmRjQUFFallZaFRLd1Q3TWoyZzJJTW4zUlZQZ1ktRWZhTmo0SV9xamNZUjFfQ243cDZQVzRSbkR3ZDVaTkFuM1E0LVc0U29PdzN5VlNxdC1UTTNEdWIyZ1F1Y1AtcmJ5QzlzS0lRczBhWldiNFRmVnRBUnJSRV90cF81Vno1bE5TbDlZNC1ZVzJ4TjF6c2l4ZDI0X0thR2FzM3lpOXNNc28wOWM?oc=5",
+        "source": "ACN Newswire",
+        "published_date": "Thu, 16 Jul 2026 06:27:07 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:33.716501"
+      },
+      {
+        "title": "醫美中心呃保險｜保險業警示濫用「打疣」等醫保索償 恐推高保費「全民埋單」 - 星島頭條",
+        "url": "https://news.google.com/rss/articles/CBMixwNBVV95cUxNaUJYWnBGd1gyRG1hRDNRQ2VuOUdmcmtjbEF6Z1RMYU5sLVlPWnAwMjNVQUtrcVhGX000VVZJaUgzOGJTTXVReWl0RnF4U2ZGbndvZWVUcV81YkdCRnJaRGcxSmpTaWplM2I0eVZiaHg1Z0R4Y2ctOEVieTBsRGRaUG1qZU1KMzBGd1NKQ243WmplYmVlcjRsMUZiejctWmdYcmxBaXlCbUFOUzFwVTB0VnlZaVhYUHpKLVJPQTZFbzltV3dOTVMzZjljMTNUVFhJQVZSWmVxXzJncURxVVlCa25yRVRJcTJwTWFwQ1FCRnM1VW5qa0g2ckFBVUZGZkdMVktWVk42RzdoVmZWbEU0S1JNd2pFQ2ZsMklMVjBxMFBwUEVGVkxUbC1rRTJaUHBPVHVyckw0X1NWOXdpbGZBN0RVb0szWkp2bjJpYldDbGpYc1ZONDZFc05tVDlQVVduTGY5WVRZS2ZSb0pRSWM1Ynh3T21mRmRDVGtWQXRkUU9TMWp0OHJIdWJLQjFiWjhtdTNiNVFvRGx3dEhnSEl1RzhVRHNQanJVRjFNSEE4YjVFUF9QbFhUcFlNeUdxclZyYTZsLTFJRQ?oc=5",
+        "source": "星島頭條",
+        "published_date": "Thu, 16 Jul 2026 08:19:18 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:33.716532"
+      },
+      {
+        "title": "DSE 放榜｜ AI 助温習 皇仁「超級狀元」吳家頴想留港讀醫 「對香港有歸屬感」 - 集誌社",
+        "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxOVW9PSERTX2YxNV9naXFMN1dWR2VBRks3UlEtc1FhejBycmV2a2pMbV9aNXFTNGEtV0R5c2NjeEJXYTQ1N3dLSzhGbEgxMnl2M2FYdUl3THRodGh3Y19fZjhKTV9CcDNQeF9GaTYxLWxnb010akp2ZzVFcS1EcVNCTVhtX2dhXzF4SmxIeXI2SU9GVjlQTzRoQlF6c3FNU1VhbnZUNGI2dncyeVFnTXE4VFZyNENQOXpqWFZtOW9rMDdrYm5kMVp1Tmt4dkxJa2VOZGpNdWlldEQ1WkRLWmxNTmNQd3J3cmlSRDFZcjRYTndDLW9EUnk5VVpoUWFVRjNzbF90X3Y5a2JpT1ZfR0xXbDdZTDFtUWV0cjlkcHZiLTZrRDVGWkRRdE9DamdaLUFYaXgyTllsakozRkxRdzBxMUNwMnJZWHZJMHc?oc=5",
+        "source": "集誌社",
+        "published_date": "Wed, 15 Jul 2026 03:31:05 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:33.716563"
+      },
+      {
+        "title": "涉安排顧客美容訛稱去疣呃醫保11萬 警搗詐騙集團拘14人包括醫生 - 香港01",
+        "url": "https://news.google.com/rss/articles/CBMiqANBVV95cUxNMl9ERy1XQWV5Nmd4LWQwZm5TdDVBUS1ySndwR19iWGFtVVJIRXlzNGloa0RYaHJOTjFvSFN5cmtyQUlBSW8tVkEtRzNfNENTTFE5Q2stekhNU05nQm5kMkdVVGI2alNuUWdyanpmU0lnOHZOV1NMaWRnOUpIYUZDblphd0IyUWFFUzV0SzljbTA0MTJ4ODB2UWpQM1dJNmtDdHc5WTBxZ1ZsWlpTb3RwWDdORmxiTUdYSlFyT0h2UjFzQWZRcTZsdzJCU1FLbmpyZzhIZVlZZk5nQ2MwYTY1N0pkbGtBZDBHYms2WTJwT3Ezb3loX3p5eTduT2pjenhKT0hMelQyVm1PbjREZ3VaVnNLdEppZjk4eTg3a0R2dFBoQ3RlUGRSMkZodnh4SWlUNjBERXg5LXBMQjRpcjBxMTBQeXBpY1Q3bnFyY0dMSzc3Mi13Q3ZyY1RQSGZmMTJjcGp0YUMtcFpnRTVWbllDeXk4T3J3TkhWdzFCQUJnVXFwb3h3UkVTODFmMWRpaGlIZGVSS1MyRTBuOUZhX3ZsQjA1TFV1dmQ4?oc=5",
+        "source": "香港01",
+        "published_date": "Fri, 17 Jul 2026 09:59:28 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:33.716590"
+      },
+      {
+        "title": "衞生署主辦全球藥物監管國際會議 展現本港的藥物監管水平（附圖） - info.gov.hk",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1tNDVISzdmTXQ4NUhHNnIwck1EUVVKbGdNWjZsQVN6U1ZreUNDZXZ0QlVsLVBGdzRmcW44TjJaMXdHaEFtY3huQWNyTzBsNFFwQjJzenhRWDc3ZkN1SFBpSENHdEFYSFV3eEhaNlc5aFlfZw?oc=5",
+        "source": "info.gov.hk",
+        "published_date": "Wed, 05 Nov 2025 08:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:34.149546"
+      },
+      {
+        "title": "香港藥物及醫療器械監督（MPR）研討會 - Hong Kong Science & Technology Parks Corporation",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRmtNTV96czZmRVRucU82TmcwZFVwVXBhMTFxR25rM0pwYXFIb0xBRlZjNWNSaXc3YVBpNldhZGVFQmxDSEtmSlJLWjJDcGx6ZXltNDlzRndXSWlhNnhLSjRfZjh5LUl1OGdyV0FvZzBQblB5R0JlakRmYy1Uakd6S3B4SjZzZUhvb0RGTXIyLWFTUkFKcW9wS21VQWtQQTcxem1FajVyaUY5QUU5SlZuZFpuTQ?oc=5",
+        "source": "Hong Kong Science & Technology Parks Corporation",
+        "published_date": "Tue, 03 Feb 2026 08:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:34.149592"
+      },
+      {
+        "title": "盧寵茂：本港年內成立藥物及醫療器械監督管理中心 分階段實施第一層審批 - 香港商报",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xMGI4Z0k4MW9jZ0ZPbk1IYlB6OE82dkxMcXE1VjRDUkVZN2FsMW53NDlUNnBocU0tNjFja3RnQ3Jrb0dJOUxsaXU3Rm9RVzlRZzREbGNiXzNpdFh5M0VjOHhrajE5UnF2Um1fUFA4clVBTE1xM1E?oc=5",
+        "source": "香港商报",
+        "published_date": "Thu, 15 Jan 2026 08:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:34.149624"
+      },
+      {
+        "title": "香港政府新聞網- 社區藥物名冊運作機制公布 - news.gov.hk",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NdGdYeWxQM1B1NTdfbm1xbERFYkdpa1N1VXJDSXdhOVhIU0RuWFEtOURRRFpxck5BSUhsbVhsVjhLYkMwZ1JoalhwY3dlTUJGNGlCdDMtanJLODlDMGRoN0lMNWtKYlFIMUlkbW56MnZNMW1Wb25zRg?oc=5",
+        "source": "news.gov.hk",
+        "published_date": "Thu, 30 Oct 2025 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:34.149655"
+      },
+      {
+        "title": "香港接軌國際藥監標準：強化臨床試驗規管助力本地科研走出去-衞生署-紫荊號 - 紫荊雜誌",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbVA3bkZCYmJyT1hBTnFUMDVMTERDUlMzazdzSWFPQVZqSnJJRG40MmlmWGJoOW1GMkNHd1Jub2lNcERlZHh0UkY2bmktRkZpdzcxY0dMTko2MlZDMkpMbnJpb3VVOHZnRlBwYTlNaTU5VHBqLTc4OXl3WmxzeWViUWlnQnJ6TnViMEZhcVVsaE4?oc=5",
+        "source": "紫荊雜誌",
+        "published_date": "Fri, 20 Feb 2026 08:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:34.149686"
+      },
+      {
+        "title": "江蘇生物醫藥產業蓬勃 當地藥企稱香港有助融資出海 - RTHK News",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ydFoxQnlIRDJmT2xOS0w5ektBRC1oa0hxOEFUS19lVWVBZENUNmtZaGNYM2FnT2NyT01JNW1rZkNBcXhpTy1TX2VBWGJYWlFEWUVlbjVvNGhBaTlvcUx0ckRPSFczajF1c0ZwalVpbw?oc=5",
+        "source": "RTHK News",
+        "published_date": "Fri, 03 Apr 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:34.149716"
+      },
+      {
+        "title": "藥費差距10倍 創新藥香港無得用！ 港人北上求醫實錄 - 香港01",
+        "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxNSG84RkZ4Ql9JZmhXbnFfR2I3dlUwSFNOTU5DYVB2RFNmRi1PbUhWbW43MWVUaUZQYkhDVXkwNUFoT0M3a29mc1MxOXE1SHprQktxemxmTWM1dlRJZDJQUlIzOHFINDVnQ0c0emFIc0YxYlNBYmhvYWtyRkR6bTlBYUtuVC10NGs3LWowdENVVnA2eTc4bXFOeU9MNmdnWTY2cTlFQXlSNzltbW01NVYxbngzbUdNSjlhQ3pGalJGbVZUSXphX1RzZDdobGYwTmdsX1dmSEtfS3o4NzNQVm4zMnNtVEJRWFpMc2NxMmpOYkZtYjRMOEJ2bVpTajBlb3pXYTM5bXUyQnU1dFhHQVF2NUlYZTFuNHFqS3ZpYnhxSTlJdU5zaUVhcFVRVGhZTWVJVERnRF9oQUFwYVhMcW9wSFVwMFlQWTFsaDY5TjV1N1NLaDRXc1c3RzEycXF5OWVWOHNOczFRZXh0MDItbDVZUFduR2pQaXc?oc=5",
+        "source": "香港01",
+        "published_date": "Tue, 02 Jun 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:34.149745"
+      },
+      {
+        "title": "藥械監管中心年內成立或全球招聘人才- 港聞 - 大公文匯網",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9OTlE4LWhNbGJkZF9HOXJrd1U2UG5GZm5LZS1mQlhFWWVaSFFFbVkwTGpTN1ZkV0EwbEEzWl85MlNRVW9zbDZ5VE5WQzZJY0E5X3ladFRVV1NVTUlWdXVCYTdBc2k3cHlzTWdWY09FM2FzVF8x?oc=5",
+        "source": "大公文匯網",
+        "published_date": "Sat, 11 Apr 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:34.149773"
+      },
+      {
+        "title": "醫衞局：藥械監管中心非追求引進大量藥物 - 香港文匯報",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vakFaZ3hRR0U0UXVYaUJ3YWVETGxEbWUxQ01VUXczc2k4Q2J0TEFIVnZob3otaTI4Q3ZsWXVGV3lPNURrc2NPLWdWQnFHS2N6VnVSS3ZsU3hORFdsYUV3RTAyUS16dXYzaVFRVGlHR21hWHB4M1FB?oc=5",
+        "source": "香港文匯報",
+        "published_date": "Sat, 11 Apr 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:34.149801"
+      },
+      {
+        "title": "粵港澳大灣區科技創新合作：香港協同內地推進生物醫藥產業升級發展| 香港貿易發展局經貿研究 - HKTDC Research",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBRVnhuMXh3QmplVllGbmF4OXdYOHItN3ZEMW9xRUdZYktPSXRRdGJ5WkpTc0syekF4bkV6RGlEQkszNzBtc0xiWmJDelYwR1g2OGdkQ3hySXhXTlJNNmRMN253?oc=5",
+        "source": "HKTDC Research",
+        "published_date": "Mon, 15 Sep 2025 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:34.149836"
+      },
+      {
+        "title": "教育局與香港教育大學合辦「4Rs精神健康專業交流日暨『學生守護大使』計劃成果分享」 推動校園精神健康文化 - 大公文匯網",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBlVFdkaHJjT0FFbEdRb2JIOU10WWRpbV90Z3BHaVZEaEQ3TXBQLUJyNG5Ubkg5anc5SFkxY2E4c1pxV2x3Y190QWozbmpUR09PM051c2I0S2YyU2RzYlI5bVpCUm1vVjNma25mdEs4ZVI?oc=5",
+        "source": "大公文匯網",
+        "published_date": "Fri, 17 Jul 2026 01:08:23 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:34.596931"
+      },
+      {
+        "title": "友邦香港與HYROX香港宣布策略合作夥伴關係 攜手推動健康生活 - Media OutReach Newswire",
+        "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxORHVFd0NQYWhVVTk5TEhucnJJa2p5djRJd0RDVFYtc2dRc1VPd2U0c25RbGVlcWpVUkhRbjdVdGVEc3h3SWJkOUtrVzhEdnpvVjBhNVJLb3lmbE5ELXA3UnJFR181X3kyV3hpd3hwZ2hzU1hRYkFKWUdBU09VSFZOTl9Dd0V2VDBSZGVwUUJITTg1aXpTTURaMEMxZ2JicDlsMmNGOEt3NHBBdHBleHcwLW9hT2tNN2tQdDFQV0daNE13R1I1UWduV1FfYURNdWUtUWFrQkN5QWM3N0ZFTTVvT3RLTXc0Qk9QRVJ2cExxUFJTTUlJQ1NkeE1pSHItajJURUhILUJEWjVqNVRzeXlDc1hxYWpzSHFLLXBVZVBDcE5BQ0hZM1VGaEFOT09aTHUzNmVhODlrV1NjZ1AzdEtna0ZSUFZVUGl5cFd2bUg4UHRrenBQT3FxeTRydzVGM2FQTjIzOERtb2V0SDY0T1E0cUFMS0tFZw?oc=5",
+        "source": "Media OutReach Newswire",
+        "published_date": "Thu, 16 Jul 2026 03:47:56 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:34.596976"
+      },
+      {
+        "title": "消委會報告｜8成半餅乾高糖／高脂／高鈉！ 22款4星或以上健康餅乾推介 - U Food",
+        "url": "https://news.google.com/rss/articles/CBMipANBVV95cUxNTVVieU1Td0JJU0ZjWjQ5QmpJVmlPQWp5Mm9ZZXNZbkprSlJTZldsWWxCMHh1Q2F5VU5tY3RKcXB5Q2ZXRkRNcWRuRFQ5Z2QxWExHam9JV094WGFjelpTVHlhUzRBTzJ1Q1NyU3ZkYjFSZ05OVjVoc0tlcmd6ell0bTlkNS0xandmcWYyMHRBTnFEZE1YcXc2SDVMX1NiYm1tN3RZOVcyN0FPZUxVRGRvdkgwYkhlTDk0SEVhR3diZ1RvUzVVdUJiRGFxWnpWWFhWS1pyd24wWHNNektzOENWMFRJVDNHOGlCd3I4WE9ucERESTZiSXdybmVYS1FWWTBkVVpzRFl1aUlRVE9aT2FSQ2pIdVRGU2RmcGlNbGwxMHZYOVRTSkZRX3Buc09KRzNxQTE1Q3RDSGxidm9JdjNZTWlYeGxIekYzZTB6T0VyM2lmdUlUamIxVFdBbVlDY0txZjRyNERFMzd1TWJVVWJlMW9kcnJmWmFLUUxZdTZYVW9kT3RJLXFHZUpaSXpnX0tacUpXaGZ5WnROTUNwa3JrVTJjMnQ?oc=5",
+        "source": "U Food",
+        "published_date": "Tue, 14 Jul 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:34.597017"
+      },
+      {
+        "title": "香港小姐2026｜佳麗運動服Look晒健康美 挑戰做瑜珈有板有眼 - TVB",
+        "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxPTGVHZ0JFY2xMZlVHMlhmMGtJOXVIaVpoZWVVMkFMVFpZUlAzSnpSWUNrWGJMUEZFT2hraFgzSlV0ZkQ5N3dQODhuVERaT3JPbjdEVVFoa2IxODRndVI5d1JhMTlOeV9zS3c1amZNN0VhRFN2YWNrWTZnNU5MVzNMd1ByTkpjeEtWNDdaVnEwTnZTVnYwNXhFaUd2SXNXZXYteUhBb2lkdmFRQ2I4UTNsVWhtY1dvdmd3TzdGcmpla3dyQjVsYzNHN2kwcnZ6eHdYSS1GQWtpcXFqb2dGaC11ZTBxTWc1NmtyVE14Zm93X05GRzRUM05LN1J0SEV5d1p1am5DeFZzT01ITGM1NGVoa0UxZUZIbFp5ak04enY0TDlPMnBtVl9fXzRkY3liNmkyTXZwYjQ4Y05lVm13amhILWMyN2ZyVXJ1T2ZxakotMmY5bWQtQUVXVWpTZUdqZnVMU3htalkzUkpZQQ?oc=5",
+        "source": "TVB",
+        "published_date": "Thu, 16 Jul 2026 04:05:51 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:34.597056"
+      },
+      {
+        "title": "【關愛獻社區】凝聚青年力量 共建健康社區 - 香港文匯報",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Tdjc1dmU0QldqQmZCTjRKTWVYUHJWMC1DZG9jZ3lkS2EyOGlmbjV4Z0pxRE9mZTdnNHh2VEI2cW9Jc1FxZmdWendhaFgwS0hUTUNDV193X2t0dkJ0VTl6SC1EY3oyV21zNjd3S3BjLWN1WmdvdkFB?oc=5",
+        "source": "香港文匯報",
+        "published_date": "Mon, 13 Jul 2026 20:29:16 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:34.597093"
+      },
+      {
+        "title": "衞生署 衞生防護中心 - 健康資訊 - Centre for Health Protection",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmVlZyNGFTN2FFMFBRU1VyNDRfdWhmcnVmRkJUSHFPNjJuNk1QM1BfdURvTW5FSndOQzVmNjB6NWlPWDVlb3NhejI3a3Qza2l6T3JMQ1RWemhsZw?oc=5",
+        "source": "Centre for Health Protection",
+        "published_date": "Mon, 06 Jul 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:34.597135"
+      },
+      {
+        "title": "香港愛滋病顧問局認同並肯定衞生署的一站式性健康服務可達致「多病共防」 進一步照顧性小眾的多元需要（附圖） - info.gov.hk",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GWjEyX0VJSUZBZ181akhuSGZvYTU2MjVIMGhhT2JSZWRJaTYzUTR5dkJFX0hkVV9BbjM5dC1Wb3JDSUQ3Q015YmNPM182a29uTDRPS3JlT1F0X2lGZTh0YU81MUwwUWV5dUlSWUNYOVQ0UQ?oc=5",
+        "source": "info.gov.hk",
+        "published_date": "Tue, 23 Jun 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [
+          "HIV infection"
+        ],
+        "fetched_at": "2026-07-17T13:16:34.597181"
+      },
+      {
+        "title": "港台電視 31 精靈一點 - 健康人物專訪 - 愛心織女 - 香港電台",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBCSXpCSk9VTkJlb1ZCYWV4TWNIOXRQeTduanpGSnI3ajR0dVYzTVZrUl9iT09KV1JLYW5ld2hObGJ3UU1ZQ1ZBS1Q1NWxTWGl5SXlBbmxkQzM5cWtnQ05jQjJDYXhmczVDRzdUVC1wZGFZQTAyRVVqUA?oc=5",
+        "source": "香港電台",
+        "published_date": "Thu, 09 Jul 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:34.597214"
+      },
+      {
+        "title": "響應「十五五」 共建健康香港 工聯會舉辦「慶回歸29周年 全民健康遍社區」街站活動 - 香港商报",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LY3hXY24zUGVQLU9MRXBuZTlITWJhSU9YTl8tckM4UFBQNUZPZ2hXZTZ1SFVxUDFMVGpNMGhTSExmNGFfN2NFX1oweHlJTWFQX0lOYkxsd2ZnMl91QUpqV0dRNVhsNy1uQkNfazd3UkgwNjhh?oc=5",
+        "source": "香港商报",
+        "published_date": "Sat, 27 Jun 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:34.597245"
+      },
+      {
+        "title": "香港中文大學與廣州市第一人民醫院及南沙區政府簽署三方合作協議 - 觀點網",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0yYTZKbF9yaWl0YTR2ZVVHTWg3OENqWHdTNlcwU014MWE4RXFBQ2NNR2J6bHlDWVcwVDFmSEREbWNXZUt1cUg2bXN3N01hQjE2dll1S2JBbHNwUW9zVUJaWnhn?oc=5",
+        "source": "觀點網",
+        "published_date": "Fri, 17 Jul 2026 06:25:48 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:35.067478"
+      },
+      {
+        "title": "中大醫院獲香港著名嶺南派畫家伍月柳教授捐贈珍貴畫作 營造雅緻寧靜空間貫徹醫療人文關懷 - 香港經濟日報HKET",
+        "url": "https://news.google.com/rss/articles/CBMiygRBVV95cUxPZ1Z3Nk1GaGN3RzVWWXNlY3FjeExRQl9OVGJ1ODNHX2hQcU9PV1Q3ZmxpWDJsQzAwYVdMMzF6ZUNKNjNYOEdRZDI4U200bG1CNFVGME5DczZINDZpSGozMkhXNm5tOC1OcnVZQWlCb1ZOOGVSUWJuZ0NfMVJYbXJnMzAtbnhUQVhJcXJ3aFY1ZE9TWU5RT1FMT09mYmVDRlFIZmJZdG5BdUE3QndjYU5tZGdOVk1CaHQwRzZyRjFQWnBzRFdSMGw3OWFmMnQwNnBmeEhHa2hzM1dsZjNnamFFQzhkSC1YMWtlZVJ2bUlxT21Cd2E3bUpFd2FZM0hDaFZnU29QLWR2MlowaHNGamwtd0NuUzZNSHRmcHFlbkh1Y3hiQlVHU0s5aUpkVUlEdFFkRjQ0NW95dHV5Q2p0OXZscm83cGJXWjB3ZnA1d00ySVU5NU9rb1JpamgyN2lpbFpKX3lrSURiT0tPOFJMOGo2WkxIVVlueWFibHZrLUpDNEpMZ21FeTFmWGtKU1BPMnFZUktUVmxDbW83ZVRFT01Kd1RaMjlPWGZkTFl5QjN4dldvRzl6MUFXVktDcWZkZGwtNzBmdl9LZ25PMmpWV0draHY3b0QwQThic2RhazNCcmw1NE5BUzBwV2RsMWozS09OaUhabkZTRjUwWUZZTlMtMGtWc01YYmpzWlp4NkdnZGVNRWRvQU1wMVR0T2o3NnVnTmg2UGpzdUpocGRHZU8xVXN2TFdVODlaM1gxcWNPQjZqTDNSZzJZcXVB?oc=5",
+        "source": "香港經濟日報HKET",
+        "published_date": "Fri, 17 Jul 2026 09:48:30 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:35.067558"
+      },
+      {
+        "title": "(有片) 瑪麗醫院七人車起火 司機及時棄車逃生 - 香港文匯報",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9BaWhybzFuWnc4R1ZTYUpBN0NmYVk3OERuSkRueHBxSTU4akNIa043cHNyTXJSYTZob2hkQVA5QTBVZFk1WEc5bENwTWljcktKeVRJeklHNjROZ2xzcDV3WWw1NWpKTldCcDh0YjRRRFVqWE0wcFJJ?oc=5",
+        "source": "香港文匯報",
+        "published_date": "Fri, 17 Jul 2026 09:37:28 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:35.067587"
+      },
+      {
+        "title": "中大與南沙區政府、廣州市第一人民醫院共建大灣區首個國際臨床研究中心| 香港中文大學傳訊及公共關係處 - CUHK Communications and Public Relations Office",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOTTNrUlFnNmtDNjlabk0tMl90Zk1mSmppSjZaeWRDMkdTT3Y1YllLZi1iRGRSNUo2VmRzOGFDZVZnRnNaM29IN1QwQV93TzZhZkpJb3hUQ01TZFRvWVpHekp5NHZIZHJvb3h5MFRmQWFmYzdSeDBpbzZscTVMZmJsakUzTWYtdVlBOGRiWmZnbG1lZ1hRRm1YM1V0N1RWME90bG5NWmphNXNzZVVHalZYVHR1aWVMWGlHUXNWNWoyNnVHbnBLNEdENUV3Tm1CeFRfX2habG9QWWc1ZG1LeEFPVFlRRG5XTXNNOTNBbnRTWFJpRDU3YUMyaGNUUlo3bjBpU2FWSk1sTjg5ZGRv?oc=5",
+        "source": "CUHK Communications and Public Relations Office",
+        "published_date": "Wed, 15 Jul 2026 12:06:14 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:35.067626"
+      },
+      {
+        "title": "MUJI香港計劃2030年小型店達30間目標選址屋苑、地舖及醫院(18:00) - 20260717 - 即時財經新聞 - 明報財經網",
+        "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxNRGNyZDV4YXc2VXkxOUJ4cVFnYzRTUU1OSi1RZ1I3NlFGV0xRLWZKRFhLd0NUWjNTbm51T0xhbWtrWXFyLWJqS1ZfWkxCYTZxVUlXMWhvbk1tM2lLUC10aUJlVktZYVNZa2lUUkxWQ2RJVS1XYmdyRmoxVmlRMm95akYzdU9CV3ZseFh4cDhjVU9wTnl5X3hna1FzYVNINnRxX2hvano3YkQ1bTc3NktPeFotRmhSNWZVUmY1QktDZGZBWXdDY3JKUEFWNzNRUmQ3TFJCR1c4NmRPQnJId1M1MmZGRzlHdzI3em9WcjdYYU94d21hc01VUnVZUllFckRQd3VxNXNsNmJOMFd4UEt1YmVxbjFsRHd6Mlk4LVM2VTZEM3luSno2cXhrVVkwWm1BeXVWT3had1ZCczZZSmFHWXZLMU9Qd3gtNi05OUpVSmQ5NlVCZHUweHBSOHhEWXBobVdTWUM0VHRnQldCeTNTN2NzMkkzNk1kMVc2MVJB?oc=5",
+        "source": "明報財經網",
+        "published_date": "Fri, 17 Jul 2026 12:02:30 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:35.067660"
+      },
+      {
+        "title": "周伯展｜香港全球最有效醫療背後——亟待解開不堪重負的死結 - 香港01",
+        "url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxNU1ZTcWlEWTg4Q19jaHBOUV90cFBlMWRxNlU1QnF0N0RXdUY1THUyMFpTVzBOR1BuWXVPMHZfOWluLXJCTTJvLU45eFpBZ3ZoNThMQlc5Z3BoOFFtb3FKSV80YndNRGhvc0pJTWNibGhhY1FPTEQ4b0Uxb2RpWXhld1NQd3JmVy03dFQyYzRGT0k5bmo0NHNkenFZMlp0Q1ZTbE1pV3pvTXRFMloxNEpHaktVd25fT3JOa1JMZUR1cUN4VWJxSHlWR2MyN2pTZVYyWFQ3LV9BSlJKcHp2bmJoV0hrN1g4aWx0Z2lvYm9RZ3FNbXp6Q240OFo4TW1pWkNWVzVQS2kweFc4ZHYxYi1hUFh3OVFkdzNXY1lhSGZyVU5nM3c0T3drbjJ3aUpEcW5kZFI2X1F6dmJGN0puaVVmaEhZY21JMHlVMmtUNFlZV2RhYjZrZ19helM2eUIwdWtaNmtCLXgzUy1tcVZOMzRZVERXeEtZTXJqeUNBWTlsaHBNTVctWU5IX1BSaDRiX1k?oc=5",
+        "source": "香港01",
+        "published_date": "Tue, 14 Jul 2026 03:00:24 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:35.067690"
+      },
+      {
+        "title": "醫院管理局設立香港島醫院聯網及委任聯網總監（附圖） - info.gov.hk",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4xdERDTWV5MFB3Y1VuT21vN0Z6ZFgzbmJ5cGJWeVVwbjN1bVRMTnFuVUthdEhWMEZFa09qVmVrLTFpa09MZUtmSzgzY2M3YlF0Y0Iwa1p6MVM0cGdrY19jX2JFQTdrZkU2a1g5UUFMcVJ3Zw?oc=5",
+        "source": "info.gov.hk",
+        "published_date": "Thu, 26 Mar 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:35.067724"
+      },
+      {
+        "title": "盧寵茂與四川衞健委代表團會面 探討深化川港兩地醫療合作和交流 - 香港商报",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YR2ROZ2pWMjR6ZkdneTZvUTEyMmNLRFVidHhwM1BoN3AxQ3BSdTBtSzA3MEdTTWY5RC1rMDFUbk9jd2FlMU9EUk5aZWRSejU3T0JuTm0yWkx1SjFtYkE?oc=5",
+        "source": "香港商报",
+        "published_date": "Thu, 16 Jul 2026 09:11:23 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:35.067753"
+      },
+      {
+        "title": "醫務衞生局局長到訪葵涌醫院新大樓 - flamingwheels.online",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9FTXlfN0syTDkxM09zaWhnZTVTZ1VtcGlfLVhGWUpGTFNjR2JhRlB5QnA5cWZIdXlVT0RzQlNaOEtETWhUeXB4QjMzcHFJMHg2THF2YUg5SDNaN3U5cExnTThFZ0pWZUtObjdvSDJiSzVPWmti?oc=5",
+        "source": "flamingwheels.online",
+        "published_date": "Tue, 14 Jul 2026 01:59:08 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-07-17T13:16:35.067782"
+      }
+    ],
+    "relevant": [
+      {
+        "title": "香港愛滋病顧問局認同並肯定衞生署的一站式性健康服務可達致「多病共防」 進一步照顧性小眾的多元需要（附圖） - info.gov.hk",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GWjEyX0VJSUZBZ181akhuSGZvYTU2MjVIMGhhT2JSZWRJaTYzUTR5dkJFX0hkVV9BbjM5dC1Wb3JDSUQ3Q015YmNPM182a29uTDRPS3JlT1F0X2lGZTh0YU81MUwwUWV5dUlSWUNYOVQ0UQ?oc=5",
+        "source": "info.gov.hk",
+        "published_date": "Tue, 23 Jun 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [
+          "HIV infection"
+        ],
+        "fetched_at": "2026-07-17T13:16:34.597181"
+      }
+    ]
   }
 }
