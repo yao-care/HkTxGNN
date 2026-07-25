@@ -97,7 +97,7 @@ TxGNN 模型本身由哈佛醫學院 Zitnik Lab 開發並發表於 *Nature Medic
 
 | 項目 | 數量 |
 |------|------|
-| 藥物報告 | 1626 份 |
+| 藥物報告 | {{ site.drugs.size }} 份 |
 | 主管機關 | Department of Health HK |
 | 部署站台 | 30 個國家／地區 |
 

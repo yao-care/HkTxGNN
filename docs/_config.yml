@@ -35,6 +35,9 @@ collections:
   drugs:
     output: true
     permalink: /drugs/:name/
+  news:
+    output: true
+    permalink: /news/:name/
 
 # Defaults
 defaults:
@@ -61,4 +64,5 @@ country_code: HK
 language: zh-Hant-HK
 
 footer_content: "Copyright &copy; 2026 藥提醒科技有限公司 (yao.care). 本報告僅供研究參考，不構成醫療建議。"
+
 
