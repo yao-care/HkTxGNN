@@ -193,6 +193,60 @@ def generate_clinical_use_definition(
     }
 
 
+TOP_PER_DRUG = 50
+
+
+def _indication_slug(text):
+    """疾病名 -> URL/檔名安全的 slug。"""
+    import re
+    return re.sub(r"[^a-z0-9]+", "-", str(text).lower()).strip("-") or "unknown"
+
+
+def _load_predictions(processed_dir):
+    """載入預測，收斂成每個藥最多 TOP_PER_DRUG 筆。
+
+    repurposing_candidates 在部分站是未過濾的 KG 笛卡爾積（每個藥配上整個疾病
+    詞彙表），直接取前 N 列會讓資源全集中在少數幾個藥。改以 integrated_predictions
+    為主，用 confidence 收斂（very_high 優先，某藥若無才退回其 high），
+    再依 dl_score 排序。
+    """
+    import pandas as pd
+
+    integrated = processed_dir / "integrated_predictions.csv.gz"
+    candidates = processed_dir / "repurposing_candidates.csv.gz"
+
+    if integrated.exists():
+        wanted = ["drugbank_id", "potential_indication", "disease_name", "source",
+                  "drug_ingredient", "confidence", "dl_score"]
+        parts = []
+        # 檔案可達數百 MB，分塊讀並即時丟掉低信心列
+        for chunk in pd.read_csv(integrated, usecols=lambda c: c in wanted,
+                                 chunksize=500_000):
+            if "confidence" in chunk.columns:
+                chunk = chunk[chunk["confidence"].isin(["very_high", "high"])]
+            parts.append(chunk)
+        df = pd.concat(parts, ignore_index=True) if parts else pd.DataFrame()
+    else:
+        df = pd.read_csv(candidates)
+
+    if df.empty:
+        return df
+
+    ind_col = "potential_indication" if "potential_indication" in df.columns else "disease_name"
+    df = df.dropna(subset=["drugbank_id", ind_col])
+    df = df.drop_duplicates(subset=["drugbank_id", ind_col])
+
+    if "confidence" in df.columns:
+        vh = df[df["confidence"] == "very_high"]
+        rest = df[(df["confidence"] == "high")
+                  & (~df["drugbank_id"].isin(set(vh["drugbank_id"])))]
+        df = pd.concat([vh, rest], ignore_index=True)
+    if "dl_score" in df.columns:
+        df = df.sort_values("dl_score", ascending=False)
+
+    return df.groupby("drugbank_id", sort=False).head(TOP_PER_DRUG)
+
+
 def main():
     print("=" * 60)
     print("Generating FHIR R4 Resources - HkTxGNN")
@@ -228,7 +282,7 @@ def main():
         print("   Please run run_kg_prediction.py first")
         return
 
-    candidates = pd.read_csv(candidates_path)
+    candidates = _load_predictions(candidates_path.parent)
     print(f"   Loaded {len(candidates)} predictions")
 
     # Show source distribution if available
@@ -276,10 +330,10 @@ def main():
     # Full ClinicalUseDefinition generation should be done after DL predictions
     MAX_CUD_RESOURCES = 50000  # Limit for KG-only mode
 
-    if "source" not in candidates.columns or candidates["source"].iloc[0] == "KG":
-        print(f"   Note: KG-only mode, limiting to {MAX_CUD_RESOURCES:,} resources")
-        print(f"   Full generation should be done after DL predictions")
-        candidates = candidates.head(MAX_CUD_RESOURCES)
+    # _load_predictions 已把每個藥收斂到 TOP_PER_DRUG 筆。
+    # 原本的 head() 會讓五萬筆資源全集中在最前面的 2-3 個藥。
+    if len(candidates) > MAX_CUD_RESOURCES:
+        print(f"   Warning: {len(candidates):,} > {MAX_CUD_RESOURCES:,}, 請調整 TOP_PER_DRUG")
 
     cud_count = 0
     seen_pairs = set()
