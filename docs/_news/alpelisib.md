@@ -24,6 +24,7 @@ permalink: /news/alpelisib/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>證據等級</strong>：L5</li>
 <li><strong>預測適應症</strong>（8 個）：<ul>
 <li>肺動脈高壓 | 99.03% | L5 | **Hold** | 文獻為 ILD 安全警訊，非療效（99.0%）</li>
 <li>偏頭痛（含/不含先兆） | 98.95% | L5 | Hold | 20 篇文獻均為癲癇遺傳學，與 Alpelisib 無關（99.0%）</li>

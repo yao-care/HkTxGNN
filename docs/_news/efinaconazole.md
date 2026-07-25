@@ -24,6 +24,7 @@ permalink: /news/efinaconazole/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>證據等級</strong>：L5</li>
 <li><strong>預測適應症</strong>（10 個）：<ul>
 <li>Skin Sarcoma（皮膚肉瘤） | 50% | #2,480,737 | 無直接機轉連結；全身暴露量不足 | Hold（99.0%）</li>
 <li>Sinus Histiocytosis with Massive Lymphadenopathy（鼻竇組織細胞增生症） | 50% | #2,480,746 | 免疫失調疾病，與 CYP51 無關聯 | Hold（99.0%）</li>

@@ -24,6 +24,7 @@ permalink: /news/chlorobutanol/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>證據等級</strong>：L5</li>
 <li><strong>預測適應症</strong>（10 個）：<ul>
 <li>勃起功能障礙 | 99.79% | L5 | Hold | 極弱（CNS 抑制 vs. NO/PDE5 機轉不符）（99.0%）</li>
 <li>偏頭痛 | 99.71% | L5 | Hold | 弱（GABA-A 機轉理論可能，無臨床驗證）（99.0%）</li>

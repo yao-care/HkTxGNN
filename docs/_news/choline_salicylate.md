@@ -24,6 +24,7 @@ permalink: /news/choline_salicylate/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>證據等級</strong>：L4</li>
 <li><strong>預測適應症</strong>（8 個）：<ul>
 <li>Prinzmetal Angina（變異性心絞痛） | 99.84% | 0 | 0 | L5 | 不利（PGI2 被抑制） | Hold（99.0%）</li>
 <li>Hypertensive Disorder（高血壓症） | 99.81% | 0 ¹ | 0 | L5 | 不利（腎臟 PGE2 抑制） | Hold（99.0%）</li>

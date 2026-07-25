@@ -24,6 +24,7 @@ permalink: /news/alirocumab/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>證據等級</strong>：L2</li>
 <li><strong>預測適應症</strong>（9 個）：<ul>
 <li>X 染色體連鎖魚鱗癬（無類固醇硫酸酶缺乏） | 99.43% | L5 | Hold（99.0%）</li>
 <li>其他維生素與輔因子代謝/運輸障礙 | 99.41% | L5 | Hold（99.0%）</li>
