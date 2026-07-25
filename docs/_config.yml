@@ -3,6 +3,10 @@ description: >-
   基於 TxGNN 知識圖譜的香港藥品老藥新用預測系統，
   整合香港衛生署註冊藥品資料。
 
+author:
+  name: 藥提醒科技有限公司 (yao.care)
+  url: https://www.yao.care/
+
 baseurl: ""
 url: "https://hktxgnn.yao.care"
 
@@ -22,7 +26,7 @@ twitter:
   card: summary
 
 social:
-  name: Yao.Care
+  name: 藥提醒科技有限公司 (yao.care)
   links:
     - https://github.com/yao-care/HkTxGNN
 
@@ -55,3 +59,6 @@ regulatory_agency: "香港衛生署藥物辦公室"
 regulatory_agency_en: "Hong Kong Drug Office"
 country_code: HK
 language: zh-Hant-HK
+
+footer_content: "Copyright &copy; 2026 藥提醒科技有限公司 (yao.care). 本報告僅供研究參考，不構成醫療建議。"
+
