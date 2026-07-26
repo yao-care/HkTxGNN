@@ -336,6 +336,8 @@ def main():
         print(f"   Warning: {len(candidates):,} > {MAX_CUD_RESOURCES:,}, 請調整 TOP_PER_DRUG")
 
     cud_count = 0
+    _used_stems = set()
+    _cud_collisions = 0
     seen_pairs = set()
     source_counts = {"KG": 0, "DL": 0, "KG+DL": 0}
 
@@ -367,9 +369,18 @@ def main():
         drug_slug = drugbank_id.lower()
         indication_slug = "".join(c if c.isalnum() or c == "-" else "-" for c in indication.lower())[:50]
         indication_slug = indication_slug.strip("-")
-        filename = f"{drug_slug}-{indication_slug}.json"
+        # 標點不同的適應症可能 slug 相同，不處理會讓後者覆蓋前者而靜默少檔
+        _stem = f"{drug_slug}-{indication_slug}"
+        if _stem in _used_stems:
+            _cud_collisions += 1
+            _n = 2
+            while f"{_stem}-{_n}" in _used_stems:
+                _n += 1
+            _stem = f"{_stem}-{_n}"
+            resource["id"] = _stem
+        _used_stems.add(_stem)
 
-        filepath = fhir_dir / "ClinicalUseDefinition" / filename
+        filepath = fhir_dir / "ClinicalUseDefinition" / f"{_stem}.json"
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(resource, f, indent=2, ensure_ascii=False)
         cud_count += 1
@@ -378,7 +389,8 @@ def main():
         if source in source_counts:
             source_counts[source] += 1
 
-    print(f"   Created {cud_count} ClinicalUseDefinition resources")
+    print(f"   Created {cud_count} ClinicalUseDefinition resources"
+          f"（slug 碰撞另加後綴 {_cud_collisions} 筆）")
     if any(source_counts.values()):
         print(f"     - KG+DL (dual validated): {source_counts.get('KG+DL', 0):,}")
         print(f"     - DL only: {source_counts.get('DL', 0):,}")

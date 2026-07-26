@@ -1,6 +1,6 @@
 {
   "resourceType": "ClinicalUseDefinition",
-  "id": "db00572-open-angle-glaucoma",
+  "id": "db00572-open-angle-glaucoma-2",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
@@ -24,7 +24,7 @@
   "indication": {
     "diseaseSymptomProcedure": {
       "concept": {
-        "text": "open-angle glaucoma"
+        "text": "open angle glaucoma"
       }
     }
   },
