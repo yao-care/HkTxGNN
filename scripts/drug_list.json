@@ -1,6 +1,6 @@
 {
-  "total": 1626,
-  "generated_at": "2026-08-27T08:08:16.431755",
+  "total": 1666,
+  "generated_at": "2026-08-27T21:56:24.506347",
   "drugs": [
     {
       "name": "Abacavir",
@@ -11383,6 +11383,286 @@
       "evidence_level": "L1",
       "indication_count": 10,
       "predicted_indication": "糖尿病視網膜病變 (Diabetic Retinopathy)"
+    },
+    {
+      "name": "Hydrocortisone",
+      "file": "hydrocortisone.md",
+      "evidence_level": "L1",
+      "indication_count": 5,
+      "predicted_indication": "圓形禿 (Alopecia Areata)"
+    },
+    {
+      "name": "Hydrocortisone Acetate",
+      "file": "hydrocortisone_acetate.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": "圓禿 (Alopecia Areata)"
+    },
+    {
+      "name": "Hydroquinone",
+      "file": "hydroquinone.md",
+      "evidence_level": "L3",
+      "indication_count": 4,
+      "predicted_indication": "脂漏性角化病 (Seborrheic Keratosis)"
+    },
+    {
+      "name": "Hydroxocobalamin",
+      "file": "hydroxocobalamin.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": "食道靜脈曲張出血 (Esophageal Varices with Bleeding)"
+    },
+    {
+      "name": "Hydroxyurea",
+      "file": "hydroxyurea.md",
+      "evidence_level": "L3",
+      "indication_count": 5,
+      "predicted_indication": "乳癌 (Female Breast Carcinoma)"
+    },
+    {
+      "name": "Hypromellose",
+      "file": "hypromellose.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": "乾癬 Psoriasis（TxGNN 排名第 8，見下方說明）"
+    },
+    {
+      "name": "Ibritumomab Tiuxetan",
+      "file": "ibritumomab_tiuxetan.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": "急性淋巴性/淋巴母細胞白血病 (Acute Lymphoblastic/Lymphocytic Leukemia)"
+    },
+    {
+      "name": "Ibuprofen",
+      "file": "ibuprofen.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": "肢端骨骼發育不全症 Hunter-Thompson 型 (Acromesomelic Dysplasia, Hunter-Thompson Type)，另有 4 項罕見骨骼/肌肉疾病候選（詳下）"
+    },
+    {
+      "name": "Icatibant",
+      "file": "icatibant.md",
+      "evidence_level": "L1",
+      "indication_count": 5,
+      "predicted_indication": "C1 Inhibitor Deficiency（C1 抑制物缺乏症 / 遺傳性血管性水腫 HAE）"
+    },
+    {
+      "name": "Icodextrin",
+      "file": "icodextrin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": "大腸激躁症 (Irritable Bowel Syndrome)"
+    },
+    {
+      "name": "Icosapent Ethyl",
+      "file": "icosapent_ethyl.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": "血紅蛋白病 (Hemoglobinopathy)"
+    },
+    {
+      "name": "Idarucizumab",
+      "file": "idarucizumab.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": "血紅素病變 (Hemoglobinopathy)"
+    },
+    {
+      "name": "Ifosfamide",
+      "file": "ifosfamide.md",
+      "evidence_level": "L1",
+      "indication_count": 5,
+      "predicted_indication": "女性乳癌 (Female Breast Carcinoma)"
+    },
+    {
+      "name": "Iloprost",
+      "file": "iloprost.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": "先天性心臟病相關肺動脈高壓 (Pulmonary Arterial Hypertension Associated with Congenital Heart Disease)"
+    },
+    {
+      "name": "Imatinib",
+      "file": "imatinib.md",
+      "evidence_level": "L2",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Imidacloprid",
+      "file": "imidacloprid.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": "馬尾症候群 (Cauda Equina Syndrome)"
+    },
+    {
+      "name": "Imiglucerase",
+      "file": "imiglucerase.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": "Hurler 症候群 (Hurler Syndrome，黏多醣症第一型)"
+    },
+    {
+      "name": "Imipenem",
+      "file": "imipenem.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Imiquimod",
+      "file": "imiquimod.md",
+      "evidence_level": "L1",
+      "indication_count": 10,
+      "predicted_indication": "癌前病變 (Pre-malignant Neoplasm)"
+    },
+    {
+      "name": "Inclisiran",
+      "file": "inclisiran.md",
+      "evidence_level": "L3",
+      "indication_count": 10,
+      "predicted_indication": "主動脈畸形 (Aortic Malformation)"
+    },
+    {
+      "name": "Medroxyprogesterone Acetate",
+      "file": "medroxyprogesterone_acetate.md",
+      "evidence_level": "L2",
+      "indication_count": 5,
+      "predicted_indication": "繼發性閉經 (Amenorrhea)"
+    },
+    {
+      "name": "Mefenamic Acid",
+      "file": "mefenamic_acid.md",
+      "evidence_level": "L2",
+      "indication_count": 5,
+      "predicted_indication": "類風濕性關節炎 (Rheumatoid Arthritis)"
+    },
+    {
+      "name": "Megestrol Acetate",
+      "file": "megestrol_acetate.md",
+      "evidence_level": "L2",
+      "indication_count": 5,
+      "predicted_indication": "子宮內膜癌 (Uterine Corpus Endometrial Carcinoma)"
+    },
+    {
+      "name": "Meloxicam",
+      "file": "meloxicam.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": "Acromesomelic Dysplasia, Hunter-Thompson Type"
+    },
+    {
+      "name": "Melphalan",
+      "file": "melphalan.md",
+      "evidence_level": "L3",
+      "indication_count": 5,
+      "predicted_indication": "性腺生殖細胞腫瘤 (Gonadal Germ Cell Tumor)"
+    },
+    {
+      "name": "Mepolizumab",
+      "file": "mepolizumab.md",
+      "evidence_level": "L4",
+      "indication_count": 5,
+      "predicted_indication": "免疫性血小板減少症 (Thrombocytopenia due to Immune Destruction)"
+    },
+    {
+      "name": "Mercaptopurine",
+      "file": "mercaptopurine.md",
+      "evidence_level": "L2",
+      "indication_count": 5,
+      "predicted_indication": "骨髓性白血病 (Myeloid Leukemia)"
+    },
+    {
+      "name": "Meropenem",
+      "file": "meropenem.md",
+      "evidence_level": "L3",
+      "indication_count": 5,
+      "predicted_indication": "細菌性關節炎 (Bacterial Arthritis)"
+    },
+    {
+      "name": "Mesalazine",
+      "file": "mesalazine.md",
+      "evidence_level": "L2",
+      "indication_count": 5,
+      "predicted_indication": "類風濕性關節炎 (Rheumatoid Arthritis)"
+    },
+    {
+      "name": "Methionine",
+      "file": "methionine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": "Acne (痤瘡)"
+    },
+    {
+      "name": "Povidone",
+      "file": "povidone.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": "先天性魚鱗癬樣紅皮症 (Congenital Ichthyosiform Erythroderma)"
+    },
+    {
+      "name": "Prasterone",
+      "file": "prasterone.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": "肝素輔因子 II 缺乏症 (Heparin Cofactor II Deficiency)"
+    },
+    {
+      "name": "Prasugrel",
+      "file": "prasugrel.md",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "predicted_indication": "肺動脈高壓 (Pulmonary Hypertension)"
+    },
+    {
+      "name": "Prednisolone",
+      "file": "prednisolone.md",
+      "evidence_level": "L3",
+      "indication_count": 5,
+      "predicted_indication": "圓禿 (Alopecia Areata)"
+    },
+    {
+      "name": "Prednisolone Acetate",
+      "file": "prednisolone_acetate.md",
+      "evidence_level": "L2",
+      "indication_count": 5,
+      "predicted_indication": "乳突性結膜炎 (Papillary Conjunctivitis)"
+    },
+    {
+      "name": "Prednisone",
+      "file": "prednisone.md",
+      "evidence_level": "L3",
+      "indication_count": 5,
+      "predicted_indication": "斑禿 (Alopecia Areata)"
+    },
+    {
+      "name": "Pregabalin",
+      "file": "pregabalin.md",
+      "evidence_level": "L2",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Pretomanid",
+      "file": "pretomanid.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": "念珠菌病 (Candidiasis)"
+    },
+    {
+      "name": "Prilocaine",
+      "file": "prilocaine.md",
+      "evidence_level": "L2",
+      "indication_count": 5,
+      "predicted_indication": "神經痛 (Neuralgia)"
+    },
+    {
+      "name": "Probenecid",
+      "file": "probenecid.md",
+      "evidence_level": "L4",
+      "indication_count": 3,
+      "predicted_indication": "腎性低尿酸血症 (Hypouricemia, Renal)"
     }
   ]
 }
