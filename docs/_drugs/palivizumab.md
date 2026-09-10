@@ -1,0 +1,108 @@
+---
+layout: default
+title: Palivizumab
+parent: 僅模型預測 (L5)
+nav_order: 555
+evidence_level: L5
+indication_count: 5
+---
+
+# Palivizumab
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **5** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Palivizumab：從 RSV 感染預防到頭頸部良性腫瘤（低可信度預測群）
+
+## 一句話總結
+
+Palivizumab 是用於高風險嬰兒 RSV（呼吸道融合病毒）感染預防的人源化單株中和抗體。
+TxGNN 模型將其列為 5 個頭頸部/神經母細胞瘤相關疾病的高分候選（如**舌部良性腫瘤**，預測分數 99.94%），
+但目前**沒有任何臨床試驗、文獻，或機轉假說**支持這個方向，證據等級僅為 L5。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 資料庫未提供明確登記清單；依 rationale 描述為 RSV 感染預防 |
+| 預測新適應症（第一名） | 舌部良性腫瘤 (Benign Neoplasm of Tongue) |
+| TxGNN 預測分數 | 99.94%（rank 1725） |
+| 證據等級 | L5（僅模型預測，無臨床試驗、無文獻） |
+| 香港上市 | ✗ 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | Hold |
+
+**同批預測適應症（同一 candidate，共 5 項，分數皆落在 0.9993–0.9994 區間）：**
+
+| 排名 | 預測適應症 | TxGNN 分數 | 臨床試驗/文獻 |
+|------|-----------|-----------|---------------|
+| 1 | 舌部良性腫瘤 | 99.94% | 0 / 0 |
+| 2 | 會厭腫瘤 (Epiglottis Neoplasm) | 99.94% | 0 / 0 |
+| 3 | 頸部神經母細胞瘤 (Cervical Neuroblastoma) | 99.94% | 0 / 0 |
+| 4 | 下咽部良性腫瘤 (Benign Neoplasm of Hypopharynx) | 99.94% | 0 / 0 |
+| 5 | 口腔底部良性腫瘤 (Benign Neoplasm of Floor of Mouth) | 99.94% | 0 / 0 |
+
+## 為什麼這個預測合理？
+
+Palivizumab 的作用機轉是結合 RSV 表面的融合蛋白（F protein），中和病毒以預防高風險嬰兒的呼吸道融合病毒感染，
+屬於抗病毒單株抗體，**不具備已知的抗腫瘤或細胞增生調控機轉**。
+
+這 5 個預測適應症全部集中在頭頸部腫瘤與神經母細胞瘤，分數幾乎相同（0.9993–0.9994），且排名相鄰（1725–1788）。
+這種「同質性群聚」的模式，加上完全沒有臨床試驗或文獻佐證，強烈提示這是 TxGNN embedding 空間中的**鄰近效應／拓樸相似性假訊號**，
+而非真實的藥物-疾病生物學關聯。
+
+因此，**目前無法建立任何機轉上的合理性**，這組預測應被視為需要人工複核、暫不推進的候選。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記（5 個預測適應症皆查無 ClinicalTrials.gov、ICTRP 登記）。
+
+## 文獻證據
+
+目前無相關文獻（5 個預測適應症皆查無 PubMed 文獻）。
+
+## 香港上市資訊
+
+Palivizumab 目前未在香港取得任何藥品許可證，市場狀態為「未上市」，無登記資料可列。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 這組候選缺乏機轉關聯、臨床試驗與文獻支持，證據等級為最低的 L5，且分數集中群聚特徵提示為模型 embedding 假訊號。
+- 藥物在香港未上市，且原廠仿單警語/禁忌（DG001，Blocking）與作用機轉資料（DG002，High）皆缺失，尚不具備進入安全性初評（S1）的條件。
+
+**若要推進需要：**
+- 取得 Palivizumab 原廠仿單，解析警語與禁忌症（解除 DG001 Blocking gap）
+- 透過 DrugBank API 補齊作用機轉資料（解除 DG002）
+- 人工複核此群集預測是否為 TxGNN embedding 相似性假訊號，必要時排除或降低優先序
+- 若持續推進，需另外尋找頭頸部腫瘤／神經母細胞瘤與 RSV 相關通路的獨立實證支持
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

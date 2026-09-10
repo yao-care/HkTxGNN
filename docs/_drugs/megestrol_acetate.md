@@ -2,7 +2,7 @@
 layout: default
 title: Megestrol Acetate
 parent: 高證據等級 (L1-L2)
-nav_order: 398
+nav_order: 479
 evidence_level: L2
 indication_count: 5
 ---

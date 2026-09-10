@@ -2,7 +2,7 @@
 layout: default
 title: Prednisolone Acetate
 parent: 高證據等級 (L1-L2)
-nav_order: 411
+nav_order: 611
 evidence_level: L2
 indication_count: 5
 ---

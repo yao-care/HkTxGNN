@@ -1,0 +1,93 @@
+---
+layout: default
+title: Ranolazine
+parent: 僅模型預測 (L5)
+nav_order: 634
+evidence_level: L5
+indication_count: 1
+---
+
+# Ranolazine
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **1** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Ranolazine：原適應症資料缺乏 → 腎因性抗利尿激素分泌不當症候群（NSIAD）探索性評估
+
+## 一句話總結
+
+Ranolazine 目前於香港尚未上市，其原始核准適應症資料也尚未取得。
+TxGNN 模型預測它對罕見疾病**腎因性抗利尿激素分泌不當症候群 (NSIAD)** 有極高關聯分數（**99.65%**），
+但目前**無任何臨床試驗或文獻**佐證，證據等級僅 **L5**，建議為 **Hold（暫緩）**。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 無登記資料（尚未於香港上市） |
+| 預測新適應症 | 腎因性抗利尿激素分泌不當症候群 (Nephrogenic Syndrome of Inappropriate Antidiuresis, NSIAD) |
+| TxGNN 預測分數 | 99.65% |
+| 證據等級 | L5（僅有模型預測，無實際研究） |
+| 香港上市 | ✗ 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+目前缺乏 Ranolazine 完整的作用機轉（MOA）資料。根據既有藥理學認識，Ranolazine 主要透過抑制心肌**晚期鈉電流（late INa）**發揮作用，並對 **hERG 鉀通道**有部分調節效果。
+
+NSIAD 是一種罕見的體質性疾病，成因為 **AVPR2（血管加壓素 V2 受體）基因功能獲得型突變**導致抗利尿激素訊號路徑異常活化。這個病理機轉與 late INa 或 hERG 通道之間，目前並無已知或機轉上合理的關聯。
+
+換言之，TxGNN 給出的高分（99.65%）較可能反映知識圖譜嵌入空間中的統計相似性，而非藥理機轉上的合理推論。目前沒有任何臨床試驗、文獻或其他佐證支持這個預測方向，機轉合理性偏低。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+## 文獻證據
+
+目前無相關文獻。
+
+## 香港上市資訊
+
+目前尚無許可證資料（Ranolazine 尚未於香港上市）。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 證據等級僅 L5，無任何臨床試驗或文獻支持，且機轉分析顯示此關聯較可能為知識圖譜統計人工痕跡，而非具藥理合理性的老藥新用方向。
+
+**若要推進需要：**
+- 補齊 Ranolazine 完整作用機轉（MOA）與原始核准適應症資料
+- 取得 TFDA 仿單警語與禁忌症資料（目前為 Blocking 等級資料缺口，無法進入 S1 安全性初評）
+- 若未來出現機轉研究或臨床觀察指向 late INa／V2 受體路徑的潛在關聯，再重新評估此候選
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

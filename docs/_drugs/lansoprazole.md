@@ -1,0 +1,105 @@
+---
+layout: default
+title: Lansoprazole
+parent: 中證據等級 (L3-L4)
+nav_order: 435
+evidence_level: L4
+indication_count: 2
+---
+
+# Lansoprazole
+{: .fs-9 }
+
+證據等級: **L4** | 預測適應症: **2** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Lansoprazole：從胃酸相關疾病到十二指腸胃反流
+
+## 一句話總結
+
+Lansoprazole 是常用的質子幫浦抑制劑（PPI），原本用於消化性潰瘍、胃食道逆流症等胃酸相關疾病。
+TxGNN 模型預測它可能對**十二指腸胃反流 (Duodenogastric Reflux)** 有效，
+但目前僅有 **2 篇文獻**支持，且其中一篇動物實驗結果反而指向潛在風險而非療效。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 消化性潰瘍、胃食道逆流症等胃酸相關疾病（PPI 類藥物；當地未上市，無核准適應症紀錄） |
+| 預測新適應症 | 十二指腸胃反流 (Duodenogastric Reflux) |
+| TxGNN 預測分數 | 99.69% |
+| 證據等級 | L4 |
+| 香港上市 | ✗ 未上市 |
+| 許可證數 | 0 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+Lansoprazole 為質子幫浦抑制劑 (PPI)，機轉是抑制胃壁細胞 H+/K+-ATPase 以降低胃酸分泌，臨床上主要用於消化性潰瘍、幽門螺旋桿菌感染、胃食道逆流症、NSAID 相關腸胃道病變等胃酸相關疾病。
+
+十二指腸胃反流 (DGR) 的致病物質主要是膽汁與胰液成分，並非胃酸。PPI 無法中和或阻斷膽汁逆流，因此在機轉上與 DGR 的直接關聯薄弱。
+
+更值得注意的是，現有文獻證據的方向偏向風險而非支持：其中一篇大鼠實驗顯示 lansoprazole 在 DGR 動物模型中反而促進胃癌生成，屬潛在風險訊號；另一篇僅為 PPI 藥物動力學綜述，並未針對 DGR 提供療效資料。整體而言，TxGNN 給出的高分預測目前缺乏機轉與文獻的正向支持。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+## 文獻證據
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [15052437](https://pubmed.ncbi.nlm.nih.gov/15052437/) | 2004 | 動物實驗 (Preclinical) | Gastric Cancer | 大鼠 DGR 模型中，lansoprazole 反而促進胃癌生成，屬風險訊號而非療效證據 |
+| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | Eur J Clin Pharmacol | PPI 藥物動力學與臨床應用綜述，未針對 DGR 提供直接療效資料 |
+
+## 次要預測適應症：十二指腸阻塞 (Duodenal Obstruction)
+
+TxGNN 同時將十二指腸阻塞列為候選（分數 99.68%，評分略低於 DGR，但證據等級較高，為 L3，決策階段 S1「Research Question」）。機轉上，十二指腸阻塞多為機械性狹窄（如潰瘍疤痕、水腫），PPI 僅能透過促進潰瘍癒合間接降低阻塞復發風險，非直接解除阻塞。
+
+| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
+|---------|------|------|------|---------|
+| [NCT00175032](https://clinicaltrials.gov/study/NCT00175032) | Phase 3 | 完成 | 1045 | Lansoprazole 30mg QD 用於降低 NSAID/低劑量 aspirin 相關潰瘍發生率，與阻塞上游病因（潰瘍）相關，但未直接評估阻塞本身 |
+| [NCT00854776](https://clinicaltrials.gov/study/NCT00854776) | NA | 未知 | 300 | 觀察缺血性心臟病患者服用 aspirin 之潰瘍發生率，未使用 lansoprazole 介入，僅背景相關 |
+
+其餘 2 個檢索到的試驗（NCT04188119、NCT03794596）為三陰性乳癌免疫治療試驗，屬藥物撞名或檢索雜訊，與此適應症無關，已排除。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 主要候選（十二指腸胃反流）機轉關聯薄弱，且現有文獻方向偏向風險（動物實驗顯示可能促進胃癌）而非療效，證據等級僅 L4。
+- 當地藥品安全性資料（TFDA 仿單警語、禁忌症）缺失，屬 Blocking 等級（DG001），無法進入 S1 安全性初評；作用機轉資料亦不完整（DG002）。
+
+**若要推進需要：**
+- 取得當地藥監機構核准仿單，補齊警語與禁忌症資料（DG001）
+- 補充 DrugBank 詳細作用機轉資料（DG002）
+- 針對次要候選「十二指腸阻塞」設計更直接的臨床研究，驗證 PPI 是否能降低潰瘍相關阻塞復發率
+- 追蹤 pmid 15052437 動物實驗訊號是否有後續人體資料佐證或反駁致癌風險，此為推進 DGR 候選前的必要前置查證
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

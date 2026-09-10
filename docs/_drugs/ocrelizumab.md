@@ -1,0 +1,109 @@
+---
+layout: default
+title: Ocrelizumab
+parent: 僅模型預測 (L5)
+nav_order: 536
+evidence_level: L5
+indication_count: 5
+---
+
+# Ocrelizumab
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **5** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Ocrelizumab：從多發性硬化症到 HER2 陽性乳癌
+
+## 一句話總結
+
+Ocrelizumab 是抗 CD20 單株抗體，原用於治療多發性硬化症，作用機轉為 B 細胞耗竭。
+TxGNN 模型預測它可能對 **HER2 陽性乳癌 (HER2 positive breast carcinoma)** 有效，
+但目前**沒有任何相關臨床試驗或文獻證據**支持這個方向，證據等級為最低的 L5（純模型預測）。
+
+---
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 多發性硬化症（依證據包內機轉描述推得；因香港未上市，無正式許可證核准文字可供查證） |
+| 預測新適應症 | HER2 陽性乳癌 (HER2 positive breast carcinoma) |
+| TxGNN 預測分數 | 99.89% |
+| 證據等級 | L5（僅模型預測，無臨床試驗或機轉研究佐證） |
+| 香港上市 | ✗ 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | Hold |
+
+---
+
+## 為什麼這個預測合理？
+
+Ocrelizumab 為抗 CD20 單株抗體，機轉為透過清除 CD20 陽性 B 細胞來調節免疫反應，原始核准適應症為多發性硬化症。詳細的正式 MOA 文件目前缺乏（DrugBank 查詢仍為資料缺口），此處機轉描述取自證據包內的預測推論說明。
+
+證據包本身對此預測抱持保留態度：CD20 B 細胞耗竭與 HER2 訊號路徑之間**沒有已知的機轉關聯**。乳房腫瘤微環境中確實存在 B 細胞／腫瘤浸潤淋巴球的免疫學角色，但目前沒有直接證據顯示清除 CD20 陽性 B 細胞能改變 HER2 陽性乳癌病程。證據包的判讀是：這個高分應視為知識圖譜的拓樸關聯（可能經由其他乳癌分子亞型節點傳遞的間接連結），而非藥理學證據。
+
+同一批預測還有 4 個乳癌相關候選適應症（progesterone-receptor positive/negative breast cancer、normal breast-like subtype、breast tumor luminal A or B），分數與 HER2 陽性乳癌相近（99.8%），評等同樣為 L5／Hold，顯示這是圖譜層面對「乳癌」這個疾病群集的整體高分傾向，而非針對 HER2 路徑的特異性訊號。值得注意的是，luminal A/B 候選項下雖然文獻檢索命中 19 篇，但逐篇檢視後發現全部是因關鍵字「B」被誤匹配（B 細胞發育、B 型肝炎疫苗、HLA-B 分型等），與乳癌無關——實質上等同無相關文獻，這也提醒需留意此類文字檢索的偽陽性問題。
+
+---
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記
+
+## 文獻證據
+
+目前無相關文獻
+
+---
+
+## 香港上市資訊
+
+Ocrelizumab 於香港未上市，目前無許可證登記資料。
+
+---
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+（註：香港仿單警語與禁忌屬阻斷性資料缺口 DG001，尚待自 TFDA/香港官方來源取得並解析。）
+
+---
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 5 個乳癌相關預測候選項全數為 L5 等級——僅有模型分數，無任何臨床試驗或有效文獻支持；HER2 陽性乳癌與 CD20 B 細胞耗竭機轉之間亦無已知因果路徑。
+- 藥物於香港未上市，且仿單警語／禁忌（阻斷性缺口）與 MOA 詳細資料（高嚴重度缺口）均缺失，尚無法進入安全性初評（S1）。
+
+**若要推進需要：**
+- 補齊 TFDA／香港官方仿單警語與禁忌資料（DG001，阻斷性）
+- 取得 DrugBank 完整 MOA 資料以評估機轉關聯性（DG002）
+- 尋找前臨床或機轉研究，說明 B 細胞耗竭與 HER2 陽性乳癌病程的潛在關聯
+- 確認香港（或其他司法管轄區）是否有 Ocrelizumab 用於乳癌之研究或上市計畫
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

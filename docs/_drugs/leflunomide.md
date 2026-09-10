@@ -1,0 +1,94 @@
+---
+layout: default
+title: Leflunomide
+parent: 僅模型預測 (L5)
+nav_order: 442
+evidence_level: L5
+indication_count: 2
+---
+
+# Leflunomide
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **2** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# LEFLUNOMIDE：從（原適應症無資料）到短指併指症候群 (Brachydactyly-syndactyly Syndrome)
+
+## 一句話總結
+
+Leflunomide（DrugBank ID: DB01097）目前缺乏原始適應症與作用機轉資料，無法確認其原本核准用途。
+TxGNN 模型預測它可能對**短指併指症候群 (Brachydactyly-syndactyly Syndrome)** 有效，
+但目前**沒有任何臨床試驗或文獻**支持這個方向，證據等級為最低的 L5。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 無資料 |
+| 預測新適應症 | 短指併指症候群 (Brachydactyly-syndactyly Syndrome) |
+| TxGNN 預測分數 | 99.93%（KG 排名第 1992） |
+| 證據等級 | L5 |
+| 香港上市 | 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+目前缺乏詳細的作用機轉資料。根據 evidence pack 提供的推論說明，Leflunomide 已知是 DHODH（dihydroorotate dehydrogenase）抑制劑，透過阻斷嘧啶合成產生免疫調節／抗發炎作用，臨床上多用於類風濕性關節炎等自體免疫疾病。
+
+然而短指併指症候群屬於**先天性肢體發育畸形**，病理機轉是發育期基因調控與肢芽形成缺陷，與免疫抑制或嘧啶合成路徑目前並無已知的因果關聯。
+
+這個預測分數雖高（99.93%），但更可能來自知識圖譜中疾病節點與藥物節點的間接連結（例如基因—疾病—藥物共現嵌入），而非真實藥理機轉。目前應視為典型的圖嵌入假陽性模式，而非具生物學合理性的候選方向。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記
+
+## 文獻證據
+
+目前無相關文獻
+
+## 香港上市資訊
+
+Leflunomide 目前**未在香港上市**，無許可證登記資料。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 此預測缺乏任何臨床試驗或文獻支持（L5，僅有模型分數），且機轉上與先天性肢體發育畸形無合理連結，推論本身已標註為疑似圖嵌入假陽性。
+- 藥物基本資料（原適應症、MOA、安全性警語）尚有缺口，未達進入安全性初評（S1）的門檻。
+
+**若要推進需要：**
+- 補齊 TFDA/原廠仿單警語與禁忌症資料（目前為 Blocking 缺口）
+- 查證 DrugBank 作用機轉（MOA）資料
+- 若仍考慮此適應症方向，需先有機轉層級的實驗室或轉譯研究佐證，而非僅依賴 TxGNN 分數
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

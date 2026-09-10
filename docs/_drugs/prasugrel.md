@@ -2,7 +2,7 @@
 layout: default
 title: Prasugrel
 parent: 中證據等級 (L3-L4)
-nav_order: 409
+nav_order: 609
 evidence_level: L4
 indication_count: 10
 ---

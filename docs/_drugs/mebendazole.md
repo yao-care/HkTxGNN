@@ -1,0 +1,102 @@
+---
+layout: default
+title: Mebendazole
+parent: 僅模型預測 (L5)
+nav_order: 475
+evidence_level: L5
+indication_count: 10
+---
+
+# Mebendazole
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **10** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Mebendazole：從腸道蠕蟲感染到 Acne（痤瘡）
+
+## 一句話總結
+
+Mebendazole 是廣效苯并咪唑類驅蟲藥，臨床上用於腸道蠕蟲感染（如蟯蟲、蛔蟲、鉤蟲）。TxGNN 模型預測它可能對**痤瘡 (Acne)** 有效，評分高達 99.20%，但目前只有 **1 篇**文獻，且該文獻並非探討 mebendazole 治療痤瘡的研究，機轉關聯性亦被評為不合理。
+
+> 註：Evidence Pack 未提供 mebendazole 的正式原適應症許可證文字與 MOA 資料（見下方資料缺口），上述原適應症敘述為該藥物廣為人知的藥理分類，非本次證據包內容。
+
+---
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 腸道蠕蟲感染（驅蟲用途）— 許可證資料缺失 |
+| 預測新適應症 | Acne（痤瘡） |
+| TxGNN 預測分數 | 99.20% |
+| 證據等級 | L5（僅模型預測，無實質研究支持） |
+| 香港上市 | 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | Hold |
+
+---
+
+## 為什麼這個預測合理？
+
+目前缺乏 mebendazole 的詳細作用機轉資料（MOA 為資料缺口）。根據已知藥理學，mebendazole 透過抑制寄生蟲 β-tubulin 聚合，阻斷蟲體微管形成與葡萄糖攝取，屬於抗蠕蟲藥物。
+
+然而，Evidence Pack 中對此預測的機轉關聯性評估明確指出：**痤瘡為皮脂腺發炎與痤瘡桿菌相關疾病，與抗蠕蟲藥物的作用機轉並無合理連結**。換言之，此預測目前僅由 TxGNN 模型分數支撐，缺乏生物學或臨床證據佐證，屬於典型「高分但無機轉支持」的案例，需謹慎看待。
+
+---
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+---
+
+## 文獻證據
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [7072899](https://pubmed.ncbi.nlm.nih.gov/7072899/) | 1982 | Case report | Am J Trop Med Hyg | 個案報告：人類增生型裂頭蚴病 (proliferative sparganosis)，病灶呈現痤瘡樣皮疹，**非** mebendazole 治療痤瘡的研究，相關性極低 |
+
+---
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+---
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 機轉關聯性評估已明確判定「無合理機轉連結」，且僅有 1 篇不相關的個案報告作為文獻證據，未達 S1 安全性初評門檻。
+- 存在 Blocking 等級資料缺口（TFDA 仿單警語/禁忌未取得），無法評估安全性風險。
+
+**若要推進需要：**
+- 取得 mebendazole 完整作用機轉 (MOA) 資料
+- 取得仿單警語/禁忌資料以解除 Blocking 缺口
+- 尋找探討 mebendazole 對皮脂腺/痤瘡病理直接作用的體外或體內研究，補強機轉合理性
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

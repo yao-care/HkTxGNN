@@ -1,0 +1,100 @@
+---
+layout: default
+title: Lincomycin
+parent: 僅模型預測 (L5)
+nav_order: 456
+evidence_level: L5
+indication_count: 3
+---
+
+# Lincomycin
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **3** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Lincomycin：從細菌感染治療到高澱粉酶血症（機轉不符）
+
+## 一句話總結
+
+Lincomycin（林可黴素）為 lincosamide 類抗生素，原用於細菌感染治療。
+TxGNN 模型預測它可能對**高澱粉酶血症 (Hyperamylasemia)** 有效（分數 99.14%），
+但目前**無任何臨床試驗、無文獻支持**，且機轉分析判斷此配對可能為模型雜訊。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 未列明（屬 lincosamide 類抗生素，用於細菌感染；香港未上市，無許可證資料可查） |
+| 預測新適應症 | Hyperamylasemia（高澱粉酶血症） |
+| TxGNN 預測分數 | 99.14% |
+| 證據等級 | L5 |
+| 香港上市 | ✗ 未上市 |
+| 許可證數 | 0 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+**這個預測目前缺乏機轉支持。** Lincomycin 的作用機轉是結合細菌 50S 核糖體次單元、抑制蛋白質合成，僅具抗菌活性；正式 MOA 欄位為資料缺口，但已知其藥理分類（lincosamide 類抗生素）與此一致。
+
+高澱粉酶血症通常與胰臟炎、唾液腺疾病或腎功能不全相關，需要調控胰臟/唾液腺分泌或腎臟排除功能，與抗菌蛋白質合成抑制之間沒有已知生理或藥理路徑連結。
+
+TxGNN 給出的高分（99.14%）僅反映知識圖譜嵌入空間中的相似性，並非機轉證據。零筆臨床試驗、零筆文獻佐證，判斷此為圖譜共現造成的偽陽性配對，而非真實的再利用訊號。
+
+**其餘兩個候選適應症結論相同：**
+- Polyclonal hyperviscosity syndrome（分數 99.14%）：與免疫球蛋白調控無關，零證據。
+- Congenital analbuminemia（分數 99.06%）：屬 ALB 基因缺陷之罕見遺傳疾病，與抗菌機轉無關，零證據。
+
+三者皆為 L5（僅模型預測，無實際研究），decision_stage 皆為 S0，建議皆為 Hold。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+## 文獻證據
+
+目前無相關文獻。
+
+## 香港上市資訊
+
+目前無許可證資料（未上市，total_licenses = 0）。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。（仿單警語、禁忌症與 DDI 資料目前皆為資料缺口，其中仿單警語/禁忌屬 Blocking 等級缺口，尚無法進行 S1 安全性初評。）
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+三個候選適應症皆缺乏機轉合理性、零臨床試驗與零文獻佐證（皆為 L5，僅模型預測），且藥物本身的 MOA、仿單警語與禁忌資料均缺失，目前判斷此批預測為知識圖譜嵌入相似度所致的偽陽性配對，不建議推進。
+
+**若要推進需要：**
+- 補齊 Lincomycin 詳細 MOA 資料（DrugBank API 查詢）
+- 取得仿單警語/禁忌資料（TFDA 官網下載並解析），解除 S1 安全性初評的封鎖缺口
+- 重新檢視 TxGNN 排序更靠前、且具機轉合理性的其他候選適應症
+- 若持續無機轉支持，建議終止此藥物之再利用評估路線
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

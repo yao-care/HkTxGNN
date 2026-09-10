@@ -1,0 +1,90 @@
+---
+layout: default
+title: Levobupivacaine
+parent: 僅模型預測 (L5)
+nav_order: 449
+evidence_level: L5
+indication_count: 1
+---
+
+# Levobupivacaine
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **1** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Levobupivacaine：從局部麻醉到胃十二指腸炎
+
+## 一句話總結
+
+Levobupivacaine 是一種胺基醯胺類局部麻醉劑，原本用於局部麻醉與止痛。
+TxGNN 模型預測它可能對**胃十二指腸炎 (Gastroduodenitis)** 有效，
+但目前**沒有臨床試驗、沒有文獻**支持這個方向，僅為模型分數推論。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 無正式核准適應症紀錄（本藥於香港未上市，依已知藥理類別為局部麻醉/止痛用藥） |
+| 預測新適應症 | 胃十二指腸炎 (Gastroduodenitis) |
+| TxGNN 預測分數 | 99.09%（知識圖譜排名第 14,322 位） |
+| 證據等級 | L5 |
+| 香港上市 | ✗ 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+Levobupivacaine 目前缺乏正式的作用機轉（MOA）資料庫紀錄，但依其藥物類別可知，它是胺基醯胺類局部麻醉劑，機轉為阻斷電位依賴性鈉離子通道（voltage-gated Na⁺ channel blockade），透過抑制神經傳導達到局部麻醉與止痛效果。
+
+胃十二指腸炎的病理機轉主要與 H. pylori 感染、NSAID 使用或胃酸相關黏膜損傷所致的發炎反應有關，與鈉離子通道阻斷這類神經傳導抑制機轉並無已知的直接關聯。唯一可能的間接連結，是局部麻醉劑理論上可用於緩解內臟疼痛等症狀，但這與消除發炎或病因的治療性質完全不同。
+
+因此，這個預測目前應視為知識圖譜嵌入相似度所產生的關聯，而非具備機轉合理性或臨床證據支持的假說。TxGNN 分數雖高（99.09%），但排名（14,322）與零支持證據顯示這個方向的可信度偏低。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+## 文獻證據
+
+目前無相關文獻。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 缺乏任何臨床試驗或文獻證據支持 levobupivacaine 用於胃十二指腸炎，僅有模型預測分數（L5 等級）；機轉上局部麻醉劑的鈉離子通道阻斷作用與胃十二指腸炎的發炎病理也無明確關聯。
+
+**若要推進需要：**
+- 補齊 levobupivacaine 完整作用機轉（MOA）資料
+- 補齊安全性資料（警語、禁忌症、藥物交互作用），目前皆為資料缺口
+- 尋找是否有臨床前研究或機轉研究支持局部麻醉劑用於消化道發炎症狀
+- 確認香港上市與許可證狀態，本藥目前未於香港上市
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

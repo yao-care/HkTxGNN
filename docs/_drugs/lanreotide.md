@@ -1,0 +1,98 @@
+---
+layout: default
+title: Lanreotide
+parent: 僅模型預測 (L5)
+nav_order: 434
+evidence_level: L5
+indication_count: 5
+---
+
+# Lanreotide
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **5** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Lanreotide：原適應症資料缺失，預測新適應症為多毛症（Hypertrichosis）
+
+## 一句話總結
+
+Lanreotide 是體抑素（somatostatin）類似物，但原始核准適應症與作用機轉資料目前缺失。TxGNN 模型預測它可能對**多毛症（Hypertrichosis）**有效，然而目前**沒有任何臨床試驗、無相關文獻**支持這個方向，證據強度極低。
+
+---
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 資料缺失（未提供核准適應症與許可證資料） |
+| 預測新適應症 | 多毛症 (Hypertrichosis) |
+| TxGNN 預測分數 | 99.97% |
+| 證據等級 | L5（僅有模型預測，無臨床試驗或文獻） |
+| 香港上市 | 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | Hold |
+
+---
+
+## 為什麼這個預測合理？
+
+目前缺乏 Lanreotide 詳細的作用機轉資料，也沒有原始核准適應症可供比對。根據已知的藥物類別資訊，Lanreotide 屬於體抑素（somatostatin）類似物，但查無體抑素受體活化與毛髮生長調控之間的機轉文獻。
+
+換句話說，這個預測**目前缺乏機轉上的合理性**：TxGNN 給出的高分反映的是知識圖譜嵌入空間中的相似度，並非有生物學路徑支持的藥理訊號。這點在證據包的 rationale 中也明確標註。
+
+臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+## 文獻證據
+
+目前無相關文獻。
+
+---
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+（註：TFDA/仿單警語與禁忌資料為 Blocking 等級缺口，目前無法進行安全性初評。）
+
+---
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 預測適應症（多毛症）沒有任何臨床試驗或文獻證據支持，證據等級僅 L5，rationale 明確指出「TxGNN 高分僅為圖譜嵌入相似度，無生物學路徑支持」。
+- 安全性仿單資料（警語、禁忌）缺失且被標記為 Blocking 等級缺口，無法進入 S1 安全性初評。
+- 同一批預測中另有 4 個候選適應症（含牙周相關畸形、Dandy-Walker 症候群、遺傳性毛幹異常、Ambras 型先天多毛症）也全部評為 Hold；其中兩個與「毛髮/多毛」語意相關的候選重複出現，證據包本身提示這可能是模型對該語意群聚的偏誤，而非真實藥理訊號。
+
+**若要推進需要：**
+- 補齊 Lanreotide 的原始核准適應症與 MOA 詳細資料（DrugBank API 查詢）
+- 補齊 TFDA 仿單警語與禁忌資料，解除 Blocking 缺口
+- 尋找體抑素受體路徑與毛髮生長調控相關的基礎/機轉研究，驗證預測是否有生物學基礎
+- 若持續查無實證支持，建議不再投入資源於此候選方向
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

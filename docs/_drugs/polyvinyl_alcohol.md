@@ -1,0 +1,90 @@
+---
+layout: default
+title: Polyvinyl Alcohol
+parent: 僅模型預測 (L5)
+nav_order: 599
+evidence_level: L5
+indication_count: 4
+---
+
+# Polyvinyl Alcohol
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **4** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Polyvinyl Alcohol：從局部賦形劑用途到先天性魚鱗癬樣紅皮症（探索性）
+
+## 一句話總結
+
+> Polyvinyl Alcohol（PVA）目前無正式核准適應症資料，已知多作為局部賦形劑/潤滑劑使用（如人工淚液、皮膚保護劑）。
+> TxGNN 模型預測它可能對**先天性魚鱗癬樣紅皮症 (Congenital Ichthyosiform Erythroderma)** 有效，
+> 但目前**沒有任何臨床試驗或文獻**支持這個方向，僅為模型拓撲相似性推論。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 無正式核准適應症資料（資料缺口）；已知作為局部賦形劑/潤滑劑使用 |
+| 預測新適應症 | 先天性魚鱗癬樣紅皮症 (Congenital Ichthyosiform Erythroderma) |
+| TxGNN 預測分數 | 99.90% |
+| 證據等級 | L5（僅模型預測，無臨床試驗或文獻） |
+| 香港上市 | 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+目前缺乏 PVA 詳細的作用機轉（MOA）資料。根據現有資訊，PVA 是一種合成水溶性成膜聚合物，臨床上多作為賦形劑/潤滑劑使用（如人工淚液、局部皮膚保護劑），並非以藥理活性成分身分核准上市。
+
+與先天性魚鱗癬樣紅皮症的關聯，目前僅止於「PVA 可能作為皮膚屏障保濕/成膜輔助劑」的物理化學層面推測，並未針對本病的致病路徑（如轉麩醯胺酸酶 TGM1、脂質代謝異常等）提出具體藥理機轉。TxGNN 的高分（0.999）反映的是知識圖譜中節點的拓撲相似性，而非機轉層面的證據。
+
+同組排名第 2-4 名的預測適應症（self-healing collodion baby、lamellar ichthyosis、bathing suit ichthyosis）皆屬於同一先天性魚鱗癬光譜疾病，推理邏輯與第一名相同——僅為保濕/成膜賦形劑角色的間接推測，同樣沒有任何臨床或文獻佐證，顯示模型可能是抓到了「魚鱗癬類疾病」在知識圖譜中的群聚特徵，而非針對 PVA 個別藥理作用的判斷。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+## 文獻證據
+
+目前無相關文獻。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- PVA 缺乏 MOA 資料、香港未上市（0 張許可證）、且四個預測適應症皆無任何臨床試驗或文獻佐證，證據等級僅 L5，機轉關聯性也僅為推測性描述，不足以支持進入下一階段評估。
+
+**若要推進需要：**
+- 取得 PVA 完整作用機轉（MOA）資料（DG002，High severity）
+- 取得原廠仿單警語/禁忌資料，以完成 S1 安全性初評（DG001，Blocking，需來源：TFDA/HK 官網解析仿單 PDF）
+- 針對皮膚屏障保濕機轉是否對 TGM1/ABCA12 相關致病路徑有實質調節作用，進行前臨床或機轉層面文獻檢索
+- 若持續無臨床或文獻佐證，建議維持 Hold，暫不投入後續資源
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

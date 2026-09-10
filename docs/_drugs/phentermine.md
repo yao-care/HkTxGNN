@@ -1,0 +1,111 @@
+---
+layout: default
+title: Phentermine
+parent: 僅模型預測 (L5)
+nav_order: 579
+evidence_level: L5
+indication_count: 4
+---
+
+# Phentermine
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **4** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Phentermine：適應症資料缺口下的 TxGNN 預測評估
+
+## 一句話總結
+
+Phentermine 的原始適應症與作用機轉資料在本次證據包中均缺失（僅知其為 DrugBank 收錄藥物，臨床上常見用途為食慾抑制劑）。TxGNN 模型列出 4 個候選新適應症，分數雖高（皆 >99%），但**全部為 L5 等級（純模型預測，無任何臨床試驗或文獻支持）**，且模型自身的機轉推理也判斷多數候選極可能是知識圖譜雜訊造成的偽陽性。
+
+---
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 預測新適應症（第一名） | Hypervitaminosis |
+| TxGNN 預測分數 | 99.57% |
+| 證據等級 | L5 |
+| 香港上市 | 未上市 |
+| 許可證數 | 0 |
+| 建議決策 | Hold |
+
+---
+
+## 為什麼這個預測合理？
+
+目前缺乏 Phentermine 的作用機轉（MOA）資料，也沒有取得其原始適應症紀錄，因此無法從機轉層面驗證任何一個候選適應症。
+
+更關鍵的是，證據包本身對這 4 個預測都給出了偏保留甚至否定的評估：
+
+- **Hypervitaminosis（維生素過多症）**：模型評語指出「查無藥理或代謝路徑關聯」，判斷高分很可能是知識圖譜中鄰近節點造成的偽陽性。
+- **Proximal 16p11.2 microdeletion syndrome**：僅因該症候群常伴隨肥胖表型，與 phentermine 的減重用途做表型層面聯想，非分子機轉證據，推論性質強。
+- **Obsolete hypertelorism (disease)**：屬先天顱顏形態異常，且疾病詞條本身已標示為「obsolete」（本體論過時詞條），可信度低。
+- **Frontorhiny**：ZSWIM6 基因突變導致的顱顏發育畸形，與擬交感神經／食慾抑制機轉無合理連結，同樣判斷為雜訊預測。
+
+四個候選的結論一致：**無實質機轉支持，建議 Hold**。
+
+---
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記（4 個候選適應症皆查無 ClinicalTrials.gov 及 ICTRP 登記，共 8 筆查詢均為 0 筆結果）。
+
+---
+
+## 文獻證據
+
+目前無相關文獻（PubMed 查詢 4 個候選適應症均為 0 筆結果）。
+
+---
+
+## 香港上市資訊
+
+Phentermine 目前**未在香港上市**，無許可證登記（0 張）。
+
+---
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單（本次證據包中警語、禁忌症、藥物交互作用查詢均無資料，且 TFDA 仿單警語/禁忌屬於 Blocking 等級的資料缺口，尚未能完成 S1 安全性初評）。
+
+---
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 4 個 TxGNN 候選適應症皆為 L5 等級，無任何臨床試驗或文獻佐證，且模型自身機轉推理已判斷多數為知識圖譜雜訊所致的偽陽性。
+- 缺乏 MOA 與安全性（仿單警語/禁忌）資料，屬 Blocking 等級缺口，無法進入下一階段安全性評估。
+
+**若要推進需要：**
+- 補齊 Phentermine 作用機轉資料（DrugBank API 或藥理學文獻）
+- 取得 TFDA／HK 官方仿單警語與禁忌症，解除 Blocking 缺口
+- 針對候選適應症進行獨立文獻檢索，確認是否有本次查詢遺漏的機轉或病例證據
+- 在無新增證據前，不建議投入後續資源
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

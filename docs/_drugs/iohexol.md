@@ -1,0 +1,101 @@
+---
+layout: default
+title: Iohexol
+parent: 僅模型預測 (L5)
+nav_order: 407
+evidence_level: L5
+indication_count: 10
+---
+
+# Iohexol
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **10** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Iohexol：從影像診斷到失眠
+
+## 一句話總結
+
+Iohexol 是非離子型碘化放射顯影劑，原本僅用於影像診斷（不具治療用途）。
+TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，
+但目前**無任何臨床試驗或文獻**支持，證據等級為最低的 **L5**。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 影像診斷用放射顯影劑（非治療性用藥，無核准治療適應症） |
+| 預測新適應症 | 失眠 (Insomnia) |
+| TxGNN 預測分數 | 99.87% |
+| 證據等級 | L5 |
+| 香港上市 | 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+目前缺乏詳細的作用機轉資料（MOA 為 Data Gap，屬 High 嚴重度缺口）。
+
+根據 Evidence Pack 中的機轉分析，Iohexol 為非離子型碘化放射顯影劑，僅作影像診斷用途，不具中樞神經系統藥理作用。失眠與 Iohexol 之間缺乏生物學基礎，此高分推測較可能是知識圖譜 embedding 的巧合或雜訊，而非真實的藥理關聯。
+
+排名第 1 的失眠預測沒有任何臨床試驗或文獻可供交叉驗證，是本報告證據最薄弱的一項。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記
+
+## 文獻證據
+
+目前無相關文獻
+
+## 香港上市資訊
+
+Iohexol 目前未於香港上市，無許可證資料。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。（註：TFDA 仿單警語/禁忌屬 Blocking 等級資料缺口，尚無法進行 S1 安全性初評）
+
+## 補充說明：其他候選適應症證據強度
+
+TxGNN 同時列出其他候選適應症，但交叉查證後均顯示證據不支持治療用途：
+
+- **焦慮（rank 2, L4）**：6 筆試驗均以 Iohexol 作為腎絲球過濾率 (GFR) 測量工具，並非以其治療焦慮為目的。
+- **類風濕性關節炎（rank 3, L4）**：8 篇文獻多為 Iohexol 作為顯影劑之影像診斷應用或不良反應案例報告（含一則致命多重器官衰竭案例），無療效證據。
+- 其餘候選（antithrombin deficiency、factor 5 excess、heparin cofactor 2 deficiency、fibromyalgia、conjunctivitis、tendinitis 等）均為 L5，無任何試驗或文獻。
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+排名第一的失眠預測無任何實證支持，機轉上亦不合理；其餘候選雖有試驗/文獻紀錄，但均屬 Iohexol 作為顯影劑或腎功能檢測工具的間接使用，並非治療該適應症的證據。整體證據強度不足以進入下一階段評估。
+
+**若要推進需要：**
+- 補齊 TFDA 仿單警語/禁忌資料（Blocking gap，目前無法進行安全性初評）
+- 補齊 DrugBank 作用機轉 (MOA) 資料
+- 重新檢視 TxGNN 模型對顯影劑類藥物的預測可靠性，或考慮此候選藥物暫不列入優先評估清單
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

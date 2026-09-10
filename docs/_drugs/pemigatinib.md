@@ -1,0 +1,103 @@
+---
+layout: default
+title: Pemigatinib
+parent: 僅模型預測 (L5)
+nav_order: 570
+evidence_level: L5
+indication_count: 10
+---
+
+# Pemigatinib
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **10** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Pemigatinib：原適應症資料缺失 → 多發性內分泌腫瘤（模型預測，證據薄弱）
+
+## 一句話總結
+
+Pemigatinib（DrugBank DB15102）目前在香港未上市，且原適應症與作用機轉資料均缺失。
+TxGNN 模型預測分數最高的新適應症為**多發性內分泌腫瘤 (Multiple Endocrine Neoplasia)**（99.71%），
+但目前**無任何臨床試驗或文獻佐證**，且機轉關聯性薄弱，可能為知識圖譜噪聲。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 無資料（藥品未在香港上市，原始適應症資料缺失） |
+| 預測新適應症 | 多發性內分泌腫瘤 (Multiple Endocrine Neoplasia) |
+| TxGNN 預測分數 | 99.71% |
+| 證據等級 | L5（僅有模型預測，無實際研究） |
+| 香港上市 | ✗ 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+目前缺乏 Pemigatinib 的詳細作用機轉資料（Data Gap，待從 DrugBank API 補齊）與原適應症登記資料。
+
+根據評估過程中整理的機轉假說：多發性內分泌腫瘤主要由 *MEN1*（menin）或 *RET* 基因突變驅動，與 Pemigatinib 已知的 FGFR1/2/3 抑制路徑**並無明確已知連結**。此高分預測更可能來自腫瘤相關疾病在知識圖譜嵌入空間中的群集效應，而非真實生物學機轉，屬推測性連結。
+
+值得一提的是，本次候選清單中排序第 3 的 **HER2 陽性乳癌** 雖然 TxGNN 分數略低（99.49%），但機轉假說相對具體：FGFR 訊號路徑活化是 HER2 標靶治療（trastuzumab）常見的旁路抗藥機轉之一，理論上 FGFR 抑制劑有機會用於逆轉/延緩抗藥性，且有 1 篇相關文獻（Review 等級）支持，證據等級達 L4、決策階段 S1（Research Question），是本清單中相對較值得後續追蹤的方向。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+## 文獻證據
+
+目前無直接支持「多發性內分泌腫瘤」適應症的文獻。（次要候選 HER2 陽性乳癌方向有 1 篇相關文獻：[33513356](https://pubmed.ncbi.nlm.nih.gov/33513356/)，2021，Review，*Pharmacological Research*，屬蛋白激酶抑制劑類藥物之綜述，非針對本適應症的直接研究。）
+
+## 香港上市資訊
+
+Pemigatinib 目前未在香港上市，無許可證登記。
+
+## 細胞毒性
+
+Pemigatinib 為 FGFR1/2/3 選擇性酪胺酸激酶抑制劑，屬抗腫瘤標靶藥物。
+
+| 項目 | 內容 |
+|------|------|
+| 細胞毒性分類 | 標靶藥物（FGFR1/2/3 選擇性激酶抑制劑） |
+| 骨髓抑制風險、致吐性分級、監測項目、處置防護 | 請參考原廠仿單的警語與注意事項 |
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。（TFDA 仿單警語/禁忌資料為 Blocking 等級缺口，已影響 S1 安全性初評，需優先補齊。）
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 首選預測適應症（多發性內分泌腫瘤）僅有模型分數，無臨床試驗、文獻或明確機轉支持，機轉關聯被評估為推測性/可能噪聲。
+- 藥品原適應症、MOA、香港上市與安全性資料均缺失，尚無法進入安全性初評（S1 被 Blocking 缺口卡住）。
+
+**若要推進需要：**
+- 補齊 TFDA 仿單警語/禁忌資料（DG001，Blocking）
+- 透過 DrugBank API 補齊作用機轉資料（DG002，High）
+- 若要繼續探索，建議優先針對 **HER2 陽性乳癌**（rank 3，L4／S1）方向查證是否有更多直接研究，而非多發性內分泌腫瘤等 L5 候選
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

@@ -1,0 +1,93 @@
+---
+layout: default
+title: Olopatadine
+parent: 僅模型預測 (L5)
+nav_order: 543
+evidence_level: L5
+indication_count: 1
+---
+
+# Olopatadine
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **1** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Olopatadine：從過敏性結膜炎/鼻炎到玫瑰痤瘡性結膜炎
+
+## 一句話總結
+
+Olopatadine 原用於過敏性結膜炎與過敏性鼻炎的局部治療。
+TxGNN 模型預測它可能對**玫瑰痤瘡性結膜炎（Rosacea Conjunctivitis）**有效，
+但目前**沒有臨床試驗，也沒有文獻**支持這個方向，僅有模型分數（0.994）。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 過敏性結膜炎、過敏性鼻炎 |
+| 預測新適應症 | Rosacea Conjunctivitis（玫瑰痤瘡性結膜炎） |
+| TxGNN 預測分數 | 99.41%（knowledge graph rank 10040） |
+| 證據等級 | L5（僅有模型預測，無實際研究） |
+| 香港上市 | 未上市 |
+| 許可證數 | 0 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+目前缺乏詳細的作用機轉（MOA）資料。已知 Olopatadine 是 H1 受體拮抗劑，同時具有肥大細胞穩定作用，臨床上用於過敏性結膜炎與過敏性鼻炎的局部治療。
+
+玫瑰痤瘡性結膜炎雖然也表現眼表發炎，但主要病理機轉是 TLR2/cathelicidin 路徑活化、Demodex 蟎蟲增生與血管神經調節異常，並非以組織胺/IgE 介導的過敏反應為主軸。因此 Olopatadine 的抗組織胺／肥大細胞穩定機轉，與玫瑰痤瘡核心病理僅有部分交集（可能緩解伴隨的搔癢/過敏症狀），並沒有直接對應血管與神經發炎路徑的機轉證據。
+
+換句話說，TxGNN 的高分（0.994）反映的是知識圖譜關聯強度，而非機轉驗證結果——這也是目前沒有任何臨床試驗或文獻探討這個適應症組合的原因之一。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+## 文獻證據
+
+目前無相關文獻。
+
+## 香港上市資訊
+
+Olopatadine 目前未在香港上市，無許可證資料。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。（TFDA 仿單警語/禁忌尚未取得，屬於進入下一階段安全性初評的阻斷性缺口）
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+證據等級僅 L5，沒有任何臨床試驗或文獻支持 Olopatadine 用於玫瑰痤瘡性結膜炎，且機轉關聯僅部分重疊，不足以支持推進。
+
+**若要推進需要：**
+- 取得作用機轉（MOA）完整資料，釐清是否有更直接的血管/神經發炎路徑證據
+- 取得仿單警語與禁忌資料，完成基本安全性初評（目前為阻斷性缺口）
+- 至少一篇機轉或前臨床研究，將證據等級由 L5 提升至 L4 以上，才建議重新評估
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

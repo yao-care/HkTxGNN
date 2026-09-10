@@ -1,0 +1,101 @@
+---
+layout: default
+title: Lapatinib
+parent: 僅模型預測 (L5)
+nav_order: 436
+evidence_level: L5
+indication_count: 1
+---
+
+# Lapatinib
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **1** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Lapatinib：原適應症資料缺失，預測用於隆凸性皮膚纖維肉瘤 (DFSP)
+
+## 一句話總結
+
+本證據包缺乏 Lapatinib 的原適應症與作用機轉資料，僅能確認其為 EGFR/HER2 雙重酪氨酸激酶抑制劑。
+TxGNN 模型預測它可能對**隆凸性皮膚纖維肉瘤 (Dermatofibrosarcoma Protuberans, DFSP)** 有效，
+但目前**無任何臨床試驗、無文獻**支持，且機轉關聯性經分析後判定薄弱。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 資料缺失（本次證據包未提供） |
+| 預測新適應症 | 隆凸性皮膚纖維肉瘤 (Dermatofibrosarcoma Protuberans) |
+| TxGNN 預測分數 | 99.30% |
+| 證據等級 | L5 |
+| 香港上市 | 未上市 |
+| 許可證數 | 0 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+目前缺乏 Lapatinib 詳細的原適應症與正式 MOA 資料。根據證據包中的機轉分析，Lapatinib 是 **EGFR/HER2 雙重酪氨酸激酶抑制劑**。
+
+DFSP 的分子驅動機轉是 **COL1A1-PDGFB 融合基因**導致 PDGFB 過度表現、活化 PDGFR-β 訊號路徑，這也是 imatinib（PDGFR 抑制劑）在此適應症有效的機轉基礎。Lapatinib 的主要標靶（EGFR、HER2）與 DFSP 的致病路徑（PDGFR-β）**並非同一靶點**，機轉關聯屬間接推論，且因原始 MOA 資料缺失，無法交叉驗證。
+
+因此，此高分較可能反映 TxGNN 知識圖譜中「激酶抑制劑」類別藥物在嵌入空間中的鄰近性，而非直接的藥理證據支持。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記
+
+## 文獻證據
+
+目前無相關文獻
+
+## 香港上市資訊
+
+Lapatinib 目前於香港**未上市**，無許可證登記資料。
+
+## 細胞毒性
+
+Lapatinib 為標靶型酪氨酸激酶抑制劑（EGFR/HER2），非傳統細胞毒性化療藥物；惟本證據包缺乏骨髓抑制、致吐性等毒性相關資料。
+
+請參考原廠仿單的警語與注意事項。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 證據等級僅 L5，無任何臨床試驗或文獻支持此適應症；
+- 機轉關聯性分析顯示 Lapatinib 標靶（EGFR/HER2）與 DFSP 致病路徑（PDGFR-β）不匹配，關聯薄弱；
+- 藥物於香港未上市，且原廠仿單警語/禁忌（Blocking 等級資料缺口）尚未取得，無法進行安全性初評。
+
+**若要推進需要：**
+- 取得 TFDA（或當地藥監局）仿單警語與禁忌症資料，以完成 S1 安全性初評
+- 補齊 Lapatinib 完整 MOA 與原始適應症資料，重新驗證機轉關聯性
+- 針對 DFSP 或 PDGFR 相關腫瘤搜尋是否有 lapatinib 的臨床前或個案報告證據，目前查詢結果均為 0 筆
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

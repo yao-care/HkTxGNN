@@ -1,0 +1,94 @@
+---
+layout: default
+title: Isosorbide Mononitrate
+parent: 僅模型預測 (L5)
+nav_order: 418
+evidence_level: L5
+indication_count: 5
+---
+
+# Isosorbide Mononitrate
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **5** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Isosorbide Mononitrate：從（適應症資料缺無）到多毛症 (Hypertrichosis)
+
+## 一句話總結
+
+Isosorbide Mononitrate（DB01020）是硝酸酯類（NO 供體）血管擴張劑，證據包中未提供其正式核准適應症與作用機轉資料。TxGNN 模型預測它可能對**多毛症 (Hypertrichosis)** 有效，但目前**無任何臨床試驗、無任何文獻**支持，僅有模型分數本身。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 資料缺無（`original_indications` 為空、`original_moa` 未提供；根據證據包內機轉描述，此藥屬硝酸酯類血管擴張劑，常見用途為心絞痛，但無正式來源可引用） |
+| 預測新適應症 | 多毛症 (Hypertrichosis) |
+| TxGNN 預測分數 | 99.995%（排名第 218） |
+| 證據等級 | L5（僅有模型預測，無實際研究） |
+| 香港上市 | ✗ 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+目前缺乏詳細的作用機轉資料（MOA 為資料缺口）。根據證據包內對此藥物的描述，Isosorbide Mononitrate 是有機硝酸酯類 NO 前驅藥，主要作用為血管平滑肌舒張。
+
+證據包提出的推論路徑是：Isosorbide Mononitrate 與 minoxidil 同屬廣義「血管擴張劑」，但兩者作用機轉不同（前者為 NO 供體，後者為 K⁺ channel opener）。Minoxidil 導致多毛症的假說機轉之一是毛囊局部血流增加，因此有推測認為全身性血管擴張「可能」間接影響毛囊微環境。
+
+需要誠實指出：這是**跨藥物類別的類比推論**，並非 Isosorbide Mononitrate 本身已知或經驗證的機轉，且完全沒有臨床試驗或病例文獻佐證，也未確認相似性（`similarity_to_original` 為 pending）。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+## 文獻證據
+
+目前無相關文獻。
+
+## 香港上市資訊
+
+此藥物目前未在香港上市，無許可證資料（`total_licenses` = 0）。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。（證據包中主要警語、禁忌症與藥物交互作用查詢皆無資料；且台灣仿單警語/禁忌資料收集被標記為 Blocking 缺口，尚未能進入 S1 安全性初評。）
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 證據等級僅 L5，僅有 TxGNN 模型分數，無任何臨床試驗或文獻支持頭號預測（多毛症）。
+- 機轉連結為跨藥物類別的推測性類比，非該藥物本身驗證的機轉。
+- 藥物目前未在香港上市，且缺乏 MOA 與安全性資料，無法進行風險評估。
+
+**若要推進需要：**
+- 取得 TFDA/當地仿單完整警語與禁忌症資料（DG001，Blocking，現階段無法進入 S1 安全性初評）。
+- 透過 DrugBank API 補齊作用機轉資料（DG002）。
+- 若要繼續評估多毛症方向，需先有體外或動物模型證據支持硝酸酯類藥物對毛囊血流的直接影響。
+- 其餘 4 個預測適應症（Ambras 型多毛症、牙周相關症候群、Dandy-Walker 相關症候群、禿髮）證據包本身即註記多判定為知識圖譜偽陽性或機轉無關聯，僅牙周相關症候群有 20 篇文獻但均與此藥物無直接關聯，暫不建議投入資源。
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

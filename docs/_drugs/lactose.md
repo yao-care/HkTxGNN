@@ -1,0 +1,112 @@
+---
+layout: default
+title: Lactose
+parent: 僅模型預測 (L5)
+nav_order: 429
+evidence_level: L5
+indication_count: 10
+---
+
+# Lactose
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **10** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Lactose：從賦形劑用途到食道靜脈曲張（未出血）
+
+## 一句話總結
+
+Lactose（乳糖）在藥品體系中主要作為賦形劑與代謝受質，並無已核准的治療性原適應症。
+TxGNN 模型將其與**食道靜脈曲張（未出血）(Esophageal Varices without Bleeding)** 的關聯分數推到 **99.93%**，
+但比對後發現支持證據僅有 **1 個試驗**（且該試驗實際評估的是 Tenofovir，與 Lactose 無關）與 **0 篇直接文獻**。
+
+---
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 無（Lactose 為賦形劑/代謝受質，非治療用藥物，無核准適應症資料） |
+| 預測新適應症 | 食道靜脈曲張（未出血）(Esophageal Varices without Bleeding) |
+| TxGNN 預測分數 | 99.93%（rank 1914） |
+| 證據等級 | L5 |
+| 香港上市 | 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | Hold |
+
+---
+
+## 為什麼這個預測合理？
+
+目前缺乏 Lactose 的詳細作用機轉（MOA）資料，DrugBank 查詢未能提供可用內容。
+
+根據系統自動產生的機轉關聯分析，**乳糖作為雙醣類賦形劑/代謝受質，與食道靜脈曲張的病理生理（門脈高壓、血管壁結構異常）之間並無已知的機轉關聯**。此預測的高分很可能來自 TxGNN 知識圖譜 embedding 的雜訊，而非真實的生物學訊號。
+
+唯一附帶的臨床試驗（NCT02224456）實際評估的是 Tenofovir Disoproxil Fumarate（B 型肝炎抗病毒藥物）於慢性 B 肝合併肝纖維化/代償性肝硬化患者的療效，與 Lactose 完全無干預關係，僅因疾病共現（肝硬化併發食道靜脈曲張）被系統誤配對，相關性評級為 C（低度相關）。
+
+同一批預測中，另有 cystinosis（半胱胺酸病）與 hypophosphatasia（低磷酸酯酶症）兩項候選被評為 L4，各有間接的代謝/礦化機轉旁證文獻，但均未直接提及乳糖介入或療效，仍不足以支持治療假說。整體而言，本候選缺乏可推進的機轉基礎。
+
+---
+
+## 臨床試驗證據
+
+| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
+|---------|------|------|------|---------|
+| [NCT02224456](https://clinicaltrials.gov/study/NCT02224456) | Phase 4 | 已完成 | 197 | 評估 Tenofovir Disoproxil Fumarate 於中國慢性 B 肝合併進展性肝纖維化/代償性肝硬化患者之長期療效與安全性；**與 Lactose 無干預關係**，僅為疾病共現誤配對（相關性評級 C） |
+
+---
+
+## 文獻證據
+
+目前無相關文獻。
+
+---
+
+## 香港上市資訊
+
+Lactose 目前未在香港上市，查無許可證資料。
+
+---
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。目前 TFDA/香港藥品仿單之警語與禁忌症資料尚未取得（Blocking 等級缺口），亦查無藥物交互作用資料，**此缺口需先補足才能進行安全性初評（S1）**。
+
+---
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- TxGNN 分數雖高（99.93%），但對應的臨床試驗、文獻均無法佐證，且系統自身的機轉關聯分析明確指出「無已知機轉關聯」，判斷為證據等級 L5，屬純模型預測、無實證支持。
+- 安全性基礎資料（仿單警語、禁忌症）缺失且為 Blocking 等級，即便機轉假說成立，也無法進入下一階段安全性初評。
+
+**若要推進需要：**
+- 補齊 Lactose 的 DrugBank MOA 資料，釐清其是否具有超出賦形劑角色的藥理作用
+- 向 TFDA/香港藥監機構取得仿單警語與禁忌症資料，解除安全性初評（S1）的 Blocking 缺口
+- 若持續評估此藥物，建議優先檢視 L4 等級的 cystinosis、hypophosphatasia 候選（有間接代謝機轉文獻），而非本預測（L5、無機轉支持）
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

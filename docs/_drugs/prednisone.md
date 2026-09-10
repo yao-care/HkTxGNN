@@ -2,7 +2,7 @@
 layout: default
 title: Prednisone
 parent: 中證據等級 (L3-L4)
-nav_order: 412
+nav_order: 612
 evidence_level: L3
 indication_count: 5
 ---

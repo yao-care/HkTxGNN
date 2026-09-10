@@ -1,0 +1,111 @@
+---
+layout: default
+title: Palonosetron
+parent: 僅模型預測 (L5)
+nav_order: 557
+evidence_level: L5
+indication_count: 5
+---
+
+# Palonosetron
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **5** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Palonosetron：原適應症資料缺口，TxGNN 預測偏頭痛（證據方向與預測矛盾）
+
+## 一句話總結
+
+Palonosetron 目前無香港許可證資料，原適應症與作用機轉皆為資料缺口（Blocking/High 等級）。
+TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
+但唯一支持文獻是一篇個案報告，內容是「Palonosetron **誘發**偏頭痛型頭痛」——方向與預測**相反**，屬於矛盾證據而非支持性證據。
+
+---
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 資料缺口（DrugBank/仿單未提供，見 DG002） |
+| 預測新適應症 | 偏頭痛 (Migraine Disorder) |
+| TxGNN 預測分數 | 99.74% |
+| 證據等級 | L4（僅個案報告，且方向與預測相反） |
+| 香港上市 | ✗ 未上市 |
+| 許可證數 | 0 |
+| 建議決策 | Hold |
+
+---
+
+## 為什麼這個預測合理？
+
+目前缺乏 Palonosetron 詳細的作用機轉資料，且原適應症也未提供（DrugBank 查詢僅回傳基本紀錄，未涵蓋適應症與 MOA，列為 High 等級資料缺口 DG002）。因此無法從機轉層面評估此藥物與偏頭痛之間的合理關聯。
+
+更關鍵的是，本評估唯一找到的相關文獻（PMID 21132477）描述的是 Palonosetron **誘發**偏頭痛型頭痛的不良事件案例，而非治療偏頭痛。已知 5-HT3 受體拮抗劑與臨床上用於治療偏頭痛的 5-HT1/1D 促效劑（如 triptans）作用機轉不同，並無已知的抗偏頭痛藥理基礎；反而 5-HT3 拮抗劑本身即有頭痛類副作用的紀錄。此案例應被視為**與 TxGNN 預測方向矛盾**的證據，而非支持性證據。
+
+其餘四個預測適應症（偏頭痛伴腦幹先兆、偏頭痛易感性、疣狀萎縮性皮膚病、耳部丘疹性紅斑角化症）皆無臨床試驗，其中三項連文獻佐證都沒有；唯一有 20 篇文獻的「偏頭痛易感性」條目，內容全為癲癇遺傳學與神經發炎機轉研究，未曾提及 Palonosetron，屬於知識圖譜鄰近節點連結產生的雜訊預測。
+
+---
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+---
+
+## 文獻證據
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [21132477](https://pubmed.ncbi.nlm.nih.gov/21132477/) | 2011 | Case Report | Canadian Journal of Anaesthesia | Palonosetron **誘發**偏頭痛型頭痛之個案報告（方向與預測相反，非支持性證據） |
+
+---
+
+## 香港上市資訊
+
+Palonosetron 目前未在香港取得藥物許可證，無上市紀錄。
+
+---
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。（TFDA/香港仿單警語與禁忌症資料為 Blocking 等級缺口 DG001，尚無法完成 S1 安全性初評；藥物交互作用查詢亦無結果。）
+
+---
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 唯一相關文獻方向與 TxGNN 預測相反（誘發而非治療偏頭痛），不能作為支持性證據；其餘候選適應症幾乎無任何實證支持，證據等級介於 L4（方向矛盾）至 L5（純模型雜訊）。
+- 原適應症、MOA、仿單警語與禁忌症均為資料缺口，其中警語/禁忌屬 Blocking 等級，無法進入安全性初評。
+
+**若要推進需要：**
+- 補齊 TFDA/仿單警語與禁忌症資料（DG001，Blocking）
+- 補齊 DrugBank 作用機轉資料（DG002）
+- 釐清 Palonosetron 與偏頭痛的方向性爭議：是否有其他文獻或試驗支持「治療」而非「誘發」偏頭痛
+- 若無法釐清方向矛盾，建議不再投入資源於此候選適應症
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

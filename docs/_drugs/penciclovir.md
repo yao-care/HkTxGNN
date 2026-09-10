@@ -1,0 +1,96 @@
+---
+layout: default
+title: Penciclovir
+parent: 僅模型預測 (L5)
+nav_order: 571
+evidence_level: L5
+indication_count: 10
+---
+
+# Penciclovir
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **10** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Penciclovir：從疱疹病毒感染到 Fascioliasis（肝吸蟲病）
+
+## 一句話總結
+
+Penciclovir 是鳥嘌呤核苷類似物，需經病毒（HSV/VZV）胸苷激酶磷酸化活化後抑制病毒 DNA 聚合酶，傳統用於疱疹病毒感染。
+TxGNN 模型預測它可能對 **Fascioliasis（肝吸蟲病）** 有效，但目前**沒有任何臨床試驗或文獻**支持這個方向——分數純粹來自知識圖譜嵌入相似性。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 資料缺口（見下方說明） |
+| 預測新適應症 | Fascioliasis (肝吸蟲病) |
+| TxGNN 預測分數 | 99.06% |
+| 證據等級 | L5 |
+| 香港上市 | ✗ 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+目前缺乏 Penciclovir 的完整原始適應症與作用機轉正式紀錄（`original_moa` 為資料缺口）。但根據 evidence pack 中的機轉描述，Penciclovir 是鳥嘌呤核苷類似物，須經病毒（HSV/VZV）專屬的胸苷激酶磷酸化才具活性，進而抑制病毒 DNA 聚合酶——這是典型抗疱疹病毒藥物的機轉，顯示其原本作用族群為病毒感染，而非寄生蟲或腫瘤疾病。
+
+Fascioliasis 是由肝吸蟲（*Fasciola hepatica*）感染引起的寄生蟲病，其代謝與複製系統與皰疹病毒完全不同。人類與寄生蟲細胞皆缺乏病毒特異性的活化酵素（病毒胸苷激酶），因此 Penciclovir 沒有已知機轉能作用於肝吸蟲。這個預測目前**沒有合理的藥理基礎**，TxGNN 分數僅反映知識圖譜中的節點嵌入相似性，並非機轉推論的結果。
+
+其餘 9 個候選適應症（如囊尾蚴病、腸道蠕蟲病、多種間皮瘤、子宮內膜肌層炎等）也呈現相同模式：分數高但機轉關聯性薄弱或缺乏支持，且全數標記為 L5 / Hold。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+## 文獻證據
+
+目前無相關文獻。
+
+## 香港上市資訊
+
+Penciclovir 目前尚未於香港取得藥品許可證（市場狀態：未上市，許可證數：0）。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+> 注意：TFDA/HK 仿單警語與禁忌症資料為 **Blocking 等級缺口**（DG001），目前無法進行 S1 安全性初評；作用機轉正式資料亦缺（DG002），影響機轉關聯性分析的可信度。
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 證據等級為 L5，僅有模型預測分數，無任何臨床試驗、文獻或機轉研究支持
+- Fascioliasis 為寄生蟲感染，與 Penciclovir 已知的抗疱疹病毒機轉（病毒 TK 依賴性活化）無藥理關聯
+- 藥物在香港尚未上市，且安全性資料存在 Blocking 等級缺口，無法進入下一階段安全性初評
+
+**若要推進需要：**
+- 取得 Penciclovir 完整仿單警語與禁忌症資料（解除 DG001 Blocking 缺口）
+- 補充正式作用機轉（MOA）資料以支持或推翻機轉關聯性分析
+- 尋找體外／動物模型層級的初步藥理證據，證明 Penciclovir 對肝吸蟲或其他候選適應症具有活性，否則建議終止此預測方向的後續投入
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

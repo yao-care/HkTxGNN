@@ -1,0 +1,117 @@
+---
+layout: default
+title: Methoxy Polyethylene Glycol-Epoetin Beta
+parent: 僅模型預測 (L5)
+nav_order: 489
+evidence_level: L5
+indication_count: 5
+---
+
+# Methoxy Polyethylene Glycol-Epoetin Beta
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **5** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA：從紅血球生成刺激到原發性血小板釋放障礙
+
+## 一句話總結
+
+METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA（Mircera，PEG 化 epoetin beta）是作用於 EPO 受體、促進紅血球生成的紅血球生成刺激劑（ESA）。TxGNN 模型列出 5 個評分相近（99.1%–99.4%）的預測新適應症，排名第一為**原發性血小板釋放障礙 (primary release disorder of platelets)**，但**目前無任何臨床試驗或文獻支持**，且評估本身的機轉分析多數指出這些關聯缺乏藥理學基礎。
+
+---
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 無資料（DrugBank 未提供核准適應症列表） |
+| 預測新適應症 | 原發性血小板釋放障礙 (primary release disorder of platelets) |
+| TxGNN 預測分數 | 99.36%（圖譜排名第 10,806 位，非最前段） |
+| 證據等級 | L5（僅有模型預測，無實際研究） |
+| 香港上市 | 未上市 |
+| 許可證數 | 0 |
+| 建議決策 | Hold |
+
+---
+
+## 其他預測候選一覽
+
+此份 Evidence Pack 同時列出 5 個評分相近的候選適應症，皆為 L5／Hold，皆無臨床試驗或文獻佐證：
+
+| 排名 | 預測適應症 | TxGNN 分數 | 圖譜排名 | 機轉合理性 |
+|------|-----------|-----------|---------|-----------|
+| 1 | 原發性血小板釋放障礙 | 99.36% | 10,806 | 無已知機轉關聯 |
+| 2 | Glanzmann thrombasthenia（GT 血小板無力症） | 99.30% | 11,582 | 無已知機轉關聯（GPIIb/IIIa 缺陷與 EPO 路徑無交集） |
+| 3 | Pseudo-von Willebrand disease | 99.25% | 12,316 | 無已知機轉關聯（GPIb 受體異常與紅血球生成無關） |
+| 4 | 嚴重非增殖性糖尿病視網膜病變 | 99.15% | 13,592 | 機轉方向不明確，且有加速病程進展的潛在疑慮 |
+| 5 | Heparin cofactor 2 deficiency | 99.10% | 14,249 | 無已知機轉關聯（serpin 凝血路徑與 EPO 路徑無交集） |
+
+---
+
+## 為什麼這個預測合理？
+
+目前缺乏 METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA 的正式核准適應症與 MOA 欄位資料。根據各候選適應症的機轉分析文字，可知本藥屬於紅血球生成刺激劑（ESA），作用於紅系前驅細胞上的 EPO 受體，促進紅血球生成，屬造血軸（erythropoiesis）路徑。
+
+針對排名第一的「原發性血小板釋放障礙」，evidence pack 中的機轉分析明確指出：該疾病涉及血小板緻密顆粒／α 顆粒的分泌缺陷，與 ESA 作用的紅血球生成路徑**無已知直接機轉關聯**。雖然臨床上偶見 ESA 治療伴隨血小板數量變化的觀察，但沒有證據顯示 ESA 能矯正血小板釋放功能缺陷。
+
+換句話說，此預測目前僅為 TxGNN 知識圖譜的統計關聯結果，尚無機轉層面的支持，其餘 4 個候選適應症也呈現相同狀況（僅第 4 項「糖尿病視網膜病變」有間接的 EPO 受體表現理論基礎，但同時存在促進病程惡化的潛在風險疑慮）。
+
+---
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+---
+
+## 文獻證據
+
+目前無相關文獻。
+
+---
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+（註：本藥的仿單警語與禁忌症資料為 Blocking 等級的資料缺口，尚未取得，無法進行安全性初評。）
+
+---
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 5 個預測候選皆為 L5（僅模型預測），無任何臨床試驗或文獻佐證。
+- 機轉分析顯示多數候選（含排名第一的原發性血小板釋放障礙）缺乏藥理學合理性，屬知識圖譜統計關聯而非機轉驗證結果。
+- 本藥於香港未上市，且仿單警語／禁忌症資料尚未取得（Blocking 缺口），無法進入安全性初評。
+
+**若要推進需要：**
+- 取得 TFDA／香港藥物安全資料（仿單警語、禁忌症、DDI）以解除 Blocking 缺口。
+- 補齊 DrugBank 完整 MOA 與原始核准適應症資料。
+- 針對機轉合理性較高的候選方向（如有）搜尋是否有前臨床或個案報告等級證據，再決定是否投入進一步驗證。
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

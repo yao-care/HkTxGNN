@@ -1,0 +1,95 @@
+---
+layout: default
+title: Regadenoson
+parent: 僅模型預測 (L5)
+nav_order: 638
+evidence_level: L5
+indication_count: 4
+---
+
+# Regadenoson
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **4** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Regadenoson：從（心肌灌注造影壓力測試劑）到 Anaphylaxis
+
+## 一句話總結
+
+Regadenoson 目前在香港未上市，資料庫中亦無其核准適應症紀錄；根據其藥理分類（adenosine A2A receptor agonist），已知用途是心肌灌注造影的藥物性壓力測試劑。TxGNN 模型預測它可能與 **Anaphylaxis（過敏性休克）** 相關，但目前只有 **1 個間接相關的臨床試驗**、**0 篇文獻**支持，且機轉方向與「治療」相反。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 無香港核准適應症資料（未上市）；已知藥理用途為心肌灌注造影之藥物性壓力測試劑 |
+| 預測新適應症 | Anaphylaxis (過敏性休克) |
+| TxGNN 預測分數 | 99.85% |
+| 證據等級 | L5（僅模型預測，無實質治療性研究） |
+| 香港上市 | ✗ 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+目前缺乏 DrugBank 詳細的作用機轉描述（[Data Gap]），但根據試驗證據中揭露的藥理資訊，regadenoson 是選擇性 **adenosine A2A receptor agonist**，臨床上作為心肌灌注造影的藥物性血管擴張壓力測試劑使用，並非用於治療特定疾病。
+
+值得注意的是，adenosine 類藥物已知會促進肥大細胞脫顆粒、誘發支氣管痙攣與過敏樣反應（anaphylactoid reaction），這正是 regadenoson 已知的不良反應之一。也就是說，TxGNN 預測「regadenoson 對 anaphylaxis 有效」的機轉方向與其藥理特性**相反**——它更可能是誘發過敏樣反應的藥物，而非治療過敏性休克的藥物。這個高分很可能反映知識圖譜中兩者是「不良反應共現關係」，而非「治療關係」。
+
+其餘 3 個預測（food-dependent exercise-induced anaphylaxis、esotropia、pseudoallergy）同樣缺乏機轉支持：前兩個過敏相關適應症與 anaphylaxis 有相同的方向性矛盾問題，esotropia（內斜視）則與腺苷受體的心血管藥理作用完全無已知關聯，四者均無臨床試驗或文獻佐證。
+
+## 臨床試驗證據
+
+| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
+|---------|------|------|------|---------|
+| [NCT06854458](https://clinicaltrials.gov/study/NCT06854458) | NA | 招募中 | 1000 | 多中心心臟核磁共振壓力灌注造影試驗，regadenoson 僅作為既有核准用途（藥理性壓力測試劑）使用，anaphylaxis 至多是安全性監測終點，並非測試其治療過敏性休克的療效（相關性評級：C，低度相關） |
+
+## 文獻證據
+
+目前無相關文獻。
+
+## 香港上市資訊
+
+Regadenoson 目前未在香港上市，無許可證資料。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 四個預測適應症皆為 L5（僅有 TxGNN 模型分數，缺乏治療性臨床試驗或文獻佐證）。
+- 排名最高的 anaphylaxis 及另兩個過敏相關適應症，機轉方向與 regadenoson 的已知藥理作用（誘發過敏樣反應）相反，高分極可能是知識圖譜中「不良反應共現」被誤判為「治療關係」所致。
+
+**若要推進需要：**
+- 釐清 TxGNN 高分是否源自不良反應共現關係，而非真實治療訊號
+- 補充 DrugBank／原廠仿單之作用機轉、警語與禁忌症資料，填補 DG001、DG002 兩項資料缺口
+- 若仍評估引進香港市場，需先確認未上市原因及當地需求
+- 尋找機轉方向與已知藥理作用一致（而非矛盾）的其他候選適應症
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

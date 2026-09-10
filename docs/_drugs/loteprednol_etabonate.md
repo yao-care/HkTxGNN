@@ -1,0 +1,140 @@
+---
+layout: default
+title: Loteprednol Etabonate
+parent: 僅模型預測 (L5)
+nav_order: 464
+evidence_level: L5
+indication_count: 5
+---
+
+# Loteprednol Etabonate
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **5** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Loteprednol Etabonate：眼科皮質類固醇的多項潛在新適應症評估
+
+## 一句話總結
+
+Loteprednol etabonate 是一種眼科用「軟性」皮質類固醇酯，局部代謝快、全身副作用低；由於原始核准適應症與作用機轉資料目前缺失，且**尚未於香港上市**，無法確認其現行核准用途範圍。TxGNN 模型針對本藥物預測了 **5 個結膜炎相關新適應症**，分數最高者為「慢性濾泡性結膜炎 (chronic follicular conjunctivitis)」（99.69%），但整體證據等級偏低（L4–L5），僅有零星文獻、**無任何臨床試驗**支持。
+
+---
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 無資料（[Data Gap]，藥物尚未於香港上市） |
+| 預測新適應症（最高分） | 慢性濾泡性結膜炎 (Chronic Follicular Conjunctivitis) |
+| TxGNN 預測分數 | 99.69% |
+| 證據等級 | L4（案例報告等級，無臨床試驗） |
+| 香港上市 | ✗ 未上市 |
+| 許可證數 | 0 |
+| 建議決策 | Hold |
+
+---
+
+## 五個預測適應症總覽
+
+TxGNN 針對本藥物共預測出 5 個高分眼部感染/發炎相關適應症，排名與分數幾乎相同（皆落於同一分數群），彙整如下：
+
+| 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
+|------|-----------|-----------|---------|------|
+| 1 | 慢性濾泡性結膜炎 (Chronic Follicular Conjunctivitis) | 99.69% | L4 | Hold |
+| 2 | 漿液性結膜炎（排除病毒性）(Serous Conjunctivitis Except Viral) | 99.69% | L5 | Research Question |
+| 3 | 寄生蟲性結膜炎 (Parasitic Conjunctivitis) | 99.69% | L5 | Hold |
+| 4 | 結膜濾泡增生 (Conjunctival Folliculosis) | 99.69% | L5 | Hold |
+| 5 | 偽膜性結膜炎 (Pseudomembranous Conjunctivitis) | 99.66% | L4 | Hold |
+
+---
+
+## 為什麼這個預測合理？
+
+目前缺乏 loteprednol etabonate 的詳細原始核准適應症與正式 MOA 資料（[Data Gap]）。根據 evidence pack 提供的機轉推論，loteprednol etabonate 為眼科用「軟性」皮質類固醇酯，藥物在角膜/結膜局部經酯酶快速代謝為無活性物，具抗發炎作用（抑制花生四烯酸路徑、減少淋巴球與嗜中性球浸潤），同時降低全身及眼壓副作用風險——這是類固醇類眼藥的典型設計優勢。
+
+**排名 1（慢性濾泡性結膜炎）**：其發炎與濾泡增生成分理論上可被類固醇的抗發炎機轉緩解，但此病常見病因為披衣菌或病毒感染，單用類固醇未處理病原體，機轉合理性有限制。
+
+**排名 2（漿液性結膜炎，排除病毒性）**：多屬過敏或刺激性病因，與 loteprednol 已知的過敏性結膜炎抗發炎機轉（穩定肥大細胞、抑制微血管通透性）方向較一致，但完全無臨床證據佐證。
+
+**排名 3（寄生蟲性結膜炎）**：機轉方向存在**潛在衝突風險**——類固醇的免疫抑制作用可能抑制宿主清除寄生蟲病原、加重感染，臨床上通常需合併或延後使用抗寄生蟲治療。
+
+**排名 4（結膜濾泡增生）**：屬良性、多為自限性病灶，類固醇的抗發炎機轉與此病理生理無明確對應效益。
+
+**排名 5（偽膜性結膜炎）**：常見於重症腺病毒感染，類固醇僅能作為專科監控下的輔助手段，且病毒感染急性期使用類固醇需謹慎（可能延長病毒排出）。
+
+---
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記（5 個預測適應症均查無 ClinicalTrials.gov 或 ICTRP 試驗）。
+
+---
+
+## 文獻證據
+
+### 慢性濾泡性結膜炎（排名 1）
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [29801089](https://pubmed.ncbi.nlm.nih.gov/29801089/) | 2018 | Case Report | JAMA Ophthalmology | 一名中年女性慢性濾泡性結膜炎病例報告 |
+| [17056466](https://pubmed.ncbi.nlm.nih.gov/17056466/) | 2006 | Case Report | Ocular Immunology and Inflammation | HIV 陽性患者之結膜非乾酪性肉芽腫，歸因於類肉瘤病 |
+
+### 偽膜性結膜炎（排名 5）
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [40638366](https://pubmed.ncbi.nlm.nih.gov/40638366/) | 2025 | Comparative Study | Ocular Immunology and Inflammation | 比較 ganciclovir、povidone-iodine 及併用 loteprednol etabonate 對腺病毒性結膜炎病毒量與臨床結果之影響（非以 loteprednol 為主要介入） |
+
+其餘 3 個預測適應症（漿液性結膜炎、寄生蟲性結膜炎、結膜濾泡增生）目前無相關文獻。
+
+---
+
+## 香港上市資訊
+
+目前未於香港上市，無許可證資料。
+
+---
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。（本藥物之主要警語、禁忌症及藥物交互作用資料目前缺失，且列為 Blocking 等級的資料缺口，尚無法完成初步安全性評估。）
+
+---
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 5 個預測適應症皆缺乏臨床試驗證據，最高等級僅 L4（零星案例報告），且部分預測（如寄生蟲性結膜炎）存在機轉衝突風險。
+- 藥物尚未於香港上市，且原始適應症、MOA、仿單警語等關鍵資料皆為缺口（其中仿單警語列為 Blocking，直接阻擋安全性初評 S1 階段）。
+
+**若要推進需要：**
+- 取得 loteprednol etabonate 完整 MOA 與原始核准適應症資料（DrugBank API）
+- 取得仿單警語/禁忌症資料以完成 S1 安全性初評
+- 針對排名 1、2、5（機轉方向較合理者）尋找是否有未索引的觀察性研究或病例系列
+- 排名 3（寄生蟲性結膜炎）因機轉衝突風險，建議標記為低優先級，除非有新證據支持
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

@@ -1,0 +1,88 @@
+---
+layout: default
+title: Paroxetine
+parent: 僅模型預測 (L5)
+nav_order: 563
+evidence_level: L5
+indication_count: 1
+---
+
+# Paroxetine
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **1** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Paroxetine：從 SSRI 類抗憂鬱藥物 到 Ohdo 症候群及其變異型
+
+## 一句話總結
+
+Paroxetine（DrugBank ID：DB00715）為選擇性血清素回收抑制劑（SSRI）類藥物，原始適應症資料目前缺失，未在香港上市。TxGNN 模型以 **99.11%** 的分數預測其可能與**Ohdo 症候群及其變異型 (Ohdo syndrome and variants)** 相關，但目前**無任何臨床試驗或文獻**支持，且證據本身指出兩者機轉上缺乏可解釋的生物學關聯。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 資料缺失（未記載核准適應症；根據機轉描述推測為 SSRI 類抗憂鬱藥物） |
+| 預測新適應症 | Ohdo 症候群及其變異型 (Ohdo syndrome and variants) |
+| TxGNN 預測分數 | 99.11% |
+| 證據等級 | L5（僅有模型預測，無實際研究） |
+| 香港上市 | 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+目前缺乏 Paroxetine 詳細的作用機轉（MOA）與原始適應症資料。根據評估證據中的描述，Paroxetine 屬 SSRI，透過抑制血清素回收發揮藥理作用。
+
+Ohdo 症候群是一種罕見體染色體顯性遺傳疾病（涉及 KAT6A、KAT6B、MED12 等基因突變），病理機轉屬染色體重塑與轉錄調控異常，主要表現為智能障礙、瞼裂狹小、特殊面容及骨骼異常。這類機轉與 SSRI 的血清素調節作用之間**沒有已知的生物學關聯**（無共同基因或共同通路可佐證）。
+
+換言之，TxGNN 給出的高分（0.991）較可能反映知識圖譜中節點嵌入的統計相似性，而非有機轉支持的真實藥理連結。在原始適應症與 MOA 資料本身也缺失的情況下，此預測目前無法從機轉角度得到佐證。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+## 文獻證據
+
+目前無相關文獻。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。目前 TFDA/香港仿單警語與禁忌症資料缺失，此項為**阻斷性（Blocking）**資料缺口，需先補齊才能進入安全性初評（S1）階段。
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 證據等級僅 L5，無任何臨床試驗或文獻支持，且評估本身已指出機轉上缺乏合理連結。
+- 存在一項阻斷性資料缺口（仿單警語/禁忌症缺失），在此缺口補齊前無法進入下一階段安全性評估。
+
+**若要推進需要：**
+- 補齊 Paroxetine 的作用機轉（MOA）與原始核准適應症資料（DrugBank API 查詢）
+- 取得 TFDA／香港仿單警語與禁忌症資料，解除阻斷性缺口
+- 進一步檢視 Paroxetine 與 KAT6A/KAT6B/MED12 相關通路是否存在間接機轉證據，否則建議降低此候選的後續投入優先序
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

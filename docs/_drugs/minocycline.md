@@ -1,0 +1,96 @@
+---
+layout: default
+title: Minocycline
+parent: 僅模型預測 (L5)
+nav_order: 499
+evidence_level: L5
+indication_count: 2
+---
+
+# Minocycline
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **2** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Minocycline：從細菌感染到點狀角膜上皮結膜炎
+
+## 一句話總結
+
+Minocycline 是四環黴素（Tetracycline）類廣效抗生素，具有抗菌以外的抗發炎、MMP 抑制等已知藥理特性。
+TxGNN 模型預測它可能對**點狀角膜上皮結膜炎 (Punctate Epithelial Keratoconjunctivitis)** 有效，
+但目前**無任何臨床試驗或文獻**支持，僅有模型預測分數。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 無詳細資料（DrugBank 未提供適應症清單；藥物屬四環黴素類廣效抗生素） |
+| 預測新適應症 | 點狀角膜上皮結膜炎 (Punctate Epithelial Keratoconjunctivitis) |
+| TxGNN 預測分數 | 99.63%（KG rank 7374） |
+| 證據等級 | L5 |
+| 香港上市 | 未上市 |
+| 許可證數 | 0 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+目前缺乏詳細的作用機轉資料（MOA: Data Gap）。根據已知藥理學背景，Minocycline 除抗菌作用外，
+已知具備 MMP（基質金屬蛋白酶）抑制、抗發炎及抗細胞凋亡等非抗菌性質，臨床上已有 off-label 使用於
+眼表發炎疾病（如酒糟性瞼緣炎相關角膜病變）的先例，理論上對點狀角膜上皮炎的上皮修復與發炎抑制
+具生物學合理性。
+
+然而，本筆資料未提供任何支持性試驗或文獻，僅有 TxGNN 預測分數（0.996），無法判斷這是直接藥理
+效應，還是知識圖譜上與其他四環黴素類藥物在結構或適應症上相似性外推所致。
+
+此外，模型也將**暴露性角膜炎 (Exposure Keratitis)** 列為第二候選適應症（分數 99.20%），機轉推論
+邏輯相似（角膜上皮損傷合併續發性發炎），同樣缺乏任何實證支持，僅供參考。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+## 文獻證據
+
+目前無相關文獻。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+除 TxGNN 模型分數外，無任何臨床試驗、文獻或機轉資料支持此預測，證據等級為 L5（純模型預測），
+且該藥物於香港未上市，安全性資料（警語/禁忌）為關鍵缺口，尚無法進入初步安全性評估。
+
+**若要推進需要：**
+- 補齊仿單警語與禁忌症資料（Blocking，來源：TFDA/香港衛生署官網仿單）
+- 補齊作用機轉 (MOA) 資料（High，來源：DrugBank API）
+- 針對「點狀角膜上皮結膜炎」與「暴露性角膜炎」進行更廣泛的文獻與試驗檢索（含 off-label 眼科使用案例）
+- 若考慮推進香港上市，需確認當地藥品註冊路徑與適應症申請條件
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

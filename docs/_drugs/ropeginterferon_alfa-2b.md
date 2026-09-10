@@ -1,0 +1,106 @@
+---
+layout: default
+title: Ropeginterferon Alfa-2B
+parent: 僅模型預測 (L5)
+nav_order: 661
+evidence_level: L5
+indication_count: 5
+---
+
+# Ropeginterferon Alfa-2B
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **5** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Ropeginterferon Alfa-2b：從（原適應症資料缺失）到 Laubry-Pezzi Syndrome
+
+## 一句話總結
+
+Ropeginterferon alfa-2b 目前無原適應症與作用機轉資料可供比對。TxGNN 模型預測其可能對 **Laubry-Pezzi Syndrome**（先天性心臟結構異常）有效，但目前**無任何臨床試驗或文獻支持**，且證據包本身的機轉分析已判定此關聯不成立，應視為模型雜訊。
+
+---
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 資料缺失（DrugBank 未提供） |
+| 預測新適應症 | Laubry-Pezzi Syndrome |
+| TxGNN 預測分數 | 99.93% |
+| 證據等級 | L5 |
+| 香港上市 | ✗ 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | Hold |
+
+---
+
+## 為什麼這個預測合理？
+
+目前缺乏詳細的作用機轉資料（DrugBank MOA 欄位為空）。根據證據包中的機轉分析，Ropeginterferon alfa-2b 屬於 interferon 類藥物，作用機轉為 **JAK-STAT 免疫調節**，臨床上多用於發炎性、病毒性或增生性疾病。
+
+然而本次 TxGNN 排名前五的預測適應症——Laubry-Pezzi 症候群、室間隔動脈瘤、Pierre Robin 症候群（含染色體異常型）、7 號染色體長臂部分缺失——**全部屬於先天性心臟結構異常或遺傳／染色體疾病**，病因是胚胎發育缺陷或染色體結構異常，並非發炎、病毒或細胞增生性病理過程。
+
+Interferon 的免疫調節機轉**無法修復解剖構造缺損或染色體異常**，證據包的 `repurposing_rationale` 已明確指出這五項預測的機轉關聯皆不成立，判斷為知識圖譜 embedding 產生的雜訊，而非具生物學意義的老藥新用候選。
+
+---
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記
+
+---
+
+## 文獻證據
+
+目前無相關文獻
+
+---
+
+## 香港上市資訊
+
+此藥物目前未於香港上市，無許可證資料（`total_licenses = 0`）。
+
+---
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+---
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 所有預測適應症證據等級均為 L5（僅模型預測，無實際研究支持），且無臨床試驗或文獻佐證。
+- 更關鍵的是，證據包內建的機轉分析已明確判定排名前五之預測與 interferon 藥理作用無生理關聯，結構性/遺傳性疾病無法靠免疫調節藥物治療，此結果應視為模型雜訊而非可推進之候選。
+
+**若要推進需要：**
+- 補齊 DrugBank MOA 與原始核准適應症資料，釐清藥物真實作用範疇
+- 取得 TFDA／香港藥監機構仿單警語與禁忌症（目前為 Blocking 等級資料缺口，無法進入 S1 安全性初評）
+- 重新檢視 TxGNN 排名機制或篩選規則，排除與已知病理機轉明顯矛盾的預測結果，避免類似雜訊持續進入下游流程
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

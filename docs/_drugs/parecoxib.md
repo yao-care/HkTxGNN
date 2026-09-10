@@ -1,0 +1,95 @@
+---
+layout: default
+title: Parecoxib
+parent: 高證據等級 (L1-L2)
+nav_order: 562
+evidence_level: L2
+indication_count: 4
+---
+
+# Parecoxib
+{: .fs-9 }
+
+證據等級: **L2** | 預測適應症: **4** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Parecoxib（DB08439）：COX-2 抑制劑 → 偏頭痛（Migraine Disorder）老藥新用評估
+
+> 註：本藥物「原適應症」與「作用機轉」正式資料於本次證據包中缺失（見下方說明），故標題無法依標準格式填入原適應症名稱。
+
+## 一句話總結
+
+Parecoxib 是一種選擇性 COX-2 抑制劑，但其正式核准適應症與作用機轉資料目前未收錄於本證據包中，且尚未在香港上市。
+TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
+目前僅有 **1 篇小型開放標籤前導性 RCT 文獻**支持這個方向，尚無註冊中的臨床試驗。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 資料缺失（未提供，見 DG002） |
+| 預測新適應症 | 偏頭痛 (Migraine Disorder) |
+| TxGNN 預測分數 | 99.55% |
+| 證據等級 | L2 |
+| 香港上市 | ✗ 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+DrugBank 目前未提供完整正式的作用機轉描述（列為資料缺口 DG002，優先度 High），但根據現有分析資訊：Parecoxib 為選擇性 COX-2 抑制劑，透過抑制環氧化酶-2 降低前列腺素合成。
+
+這個機轉與偏頭痛的病理生理有理論上的連結：三叉神經血管系統的神經性發炎與痛覺敏化在急性偏頭痛發作中扮演關鍵角色，其他 NSAIDs／COX-2 抑制劑已知可用於急性偏頭痛治療，因此此推論在機轉層面具一致性。
+
+不過，本藥目前未在香港上市（0 張許可證），且原始核准適應症、正式仿單警語與禁忌等資料均未收錄於本次證據包，安全性初評因此被列為 Blocking 等級缺口（DG001）。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記
+
+## 文獻證據
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [21996647](https://pubmed.ncbi.nlm.nih.gov/21996647/) | 2011 | RCT（前導性、open-label、n 小） | Clinical neuropharmacology | 比較口服 rizatriptan、靜脈注射 parecoxib（40mg）與皮下注射另一藥物於急性偏頭痛發作之療效 |
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 目前僅有 1 篇小型、開放標籤的前導性 RCT 支持 parecoxib 用於偏頭痛，無任何註冊中或已完成之確認性臨床試驗（ClinicalTrials.gov／ICTRP 查詢皆為 0 筆）。
+- 仿單警語與禁忌症資料缺失，屬 Blocking 等級缺口（DG001），依規則無法進入安全性初評（S1），本藥亦尚未在香港上市。
+
+**若要推進需要：**
+- 補齊 TFDA／原廠仿單警語與禁忌症資料（DG001，優先）
+- 補齊正式作用機轉（MOA）資料（DG002）
+- 尋找或發起更大規模、雙盲對照的偏頭痛臨床試驗以確認療效
+- 確認香港上市與許可證狀態
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

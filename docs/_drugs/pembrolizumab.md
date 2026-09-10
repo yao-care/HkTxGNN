@@ -1,0 +1,118 @@
+---
+layout: default
+title: Pembrolizumab
+parent: 僅模型預測 (L5)
+nav_order: 568
+evidence_level: L5
+indication_count: 5
+---
+
+# Pembrolizumab
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **5** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Pembrolizumab：老藥新用候選評估（5 項預測適應症）
+
+## 一句話總結
+
+Pembrolizumab（DB09037）目前在香港**未上市**，且原始適應症與作用機轉等基礎資料缺失。TxGNN 模型針對此藥產出 5 項預測新適應症，但經機轉與文獻交叉檢視後，**多數候選缺乏合理機轉支持**，僅「肺門癌 (Lung Hilum Carcinoma)」因藥物已知用於其他肺癌類型而具間接合理性，惟現有 2 篇文獻皆為不良反應個案報告，非療效證據。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 資料缺失（原廠仿單/適應症未收錄） |
+| 預測新適應症（5 項候選） | Fibromatosis, gingival／IBMPFD／Hamartoma of lung／**Lung hilum carcinoma**／Fibroma of lung |
+| 最佳候選 TxGNN 分數 | 99.35%〜99.40%（5 項候選分數集中於此區間） |
+| 最佳候選證據等級 | L4（Lung hilum carcinoma），其餘皆為 L5 |
+| 香港上市 | ✗ 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | **Hold** |
+
+## 為什麼這個預測合理？
+
+目前缺乏 Pembrolizumab 的正式作用機轉（MOA）與原適應症紀錄，但由各候選項的機轉論述可知：Pembrolizumab 為 **anti-PD-1 免疫檢查點抑制劑**，作用機轉是解除腫瘤對 T 細胞的免疫抑制，活化抗腫瘤免疫反應。
+
+5 項候選中，4 項（牙齦纖維瘤病、IBMPFD、肺錯構瘤、肺纖維瘤）皆為**良性增生性或非免疫逃逸相關疾病**，與 PD-1/PD-L1 機轉無已知關聯，模型評分雖高但缺乏生物學合理性。唯一具機轉合理性的是**肺門癌**——因 Pembrolizumab 已知用於多種肺癌類型，PD-1 阻斷理論上可增強對肺門部位惡性腫瘤的免疫反應；但這僅是「腫瘤位置延伸」的合理推論，資料集中並無肺門癌特異性臨床試驗佐證。
+
+## 5 項預測候選總覽
+
+| 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|------|-----------|-----------|---------|---------|------|
+| 1 | Fibromatosis, gingival（牙齦纖維瘤病） | 99.40% | L5 | S0 | Hold |
+| 2 | IBMPFD（含額顳葉失智症之遺傳性肌病） | 99.37% | L5 | S0 | Hold |
+| 3 | Hamartoma of lung（肺錯構瘤） | 99.35% | L5 | S0 | Hold |
+| 4 | **Lung hilum carcinoma（肺門癌）** | 99.35% | L4 | S1 | Research Question |
+| 5 | Fibroma of lung（肺纖維瘤） | 99.34% | L5 | S0 | Hold |
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記（5 項候選均無 ClinicalTrials.gov 或 ICTRP 收錄試驗）。
+
+## 文獻證據
+
+**排名 4：Lung hilum carcinoma**（2 篇，均為不良反應個案報告，非療效證據）
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [39516983](https://pubmed.ncbi.nlm.nih.gov/39516983/) | 2023 | Case Report | Gen Thorac Cardiovasc Surg Cases | 肺癌免疫化療後併發垂體性腎上腺功能低下與甲狀腺功能低下之個案 |
+| [30920617](https://pubmed.ncbi.nlm.nih.gov/30920617/) | 2019 | Case Report | Jpn J Clin Oncol | Pembrolizumab 治療泌尿上皮癌後出現 hyperprogression（快速惡化）之個案 |
+
+**排名 2：IBMPFD**（20 篇，均為額顳葉失智症/ALS 一般性背景文獻，**未提及 Pembrolizumab 或免疫治療**，僅供疾病背景參考，不視為藥物特異性證據，故不逐篇列出）
+
+## 香港上市資訊
+
+Pembrolizumab 在香港**未上市**，無許可證登記資料。
+
+## 細胞毒性（免疫治療類）
+
+| 項目 | 內容 |
+|------|------|
+| 細胞毒性分類 | 免疫治療（anti-PD-1 免疫檢查點抑制劑，非傳統細胞毒性藥物） |
+| 骨髓抑制風險 | 低（相對傳統化療），但需留意免疫相關不良反應（irAE），如文獻所載垂體炎、甲狀腺功能異常 |
+| 致吐性分級 | 低 |
+| 監測項目 | 甲狀腺功能、肝腎功能、免疫相關不良反應症狀監測 |
+| 處置防護 | 請參考原廠仿單的警語與注意事項 |
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。（TFDA/香港仿單警語與禁忌症目前缺失，屬 Blocking 等級資料缺口，尚無法進行 S1 安全性初評）
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 5 項候選中 4 項缺乏合理機轉支持，模型高分屬統計相關而非生物學證據；唯一機轉合理的「肺門癌」也僅有 2 篇不良反應個案報告，無療效或試驗證據。
+- 安全性基礎資料（仿單警語、禁忌症）為 Blocking 等級缺口，尚無法進入正式安全性初評。
+
+**若要推進需要：**
+- 補齊 TFDA/香港仿單警語與禁忌症資料（解除 Blocking 缺口）
+- 補齊 DrugBank 作用機轉正式紀錄
+- 針對「肺門癌」亞群檢索是否已有一般 NSCLC/肺癌適應症試驗涵蓋此族群
+- 排名 1、2、3、5 候選因機轉不合理，建議暫不投入資源
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

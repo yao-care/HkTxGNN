@@ -2,7 +2,7 @@
 layout: default
 title: Mefenamic Acid
 parent: 高證據等級 (L1-L2)
-nav_order: 397
+nav_order: 478
 evidence_level: L2
 indication_count: 5
 ---

@@ -1,0 +1,104 @@
+---
+layout: default
+title: Lonoctocog Alfa
+parent: 僅模型預測 (L5)
+nav_order: 460
+evidence_level: L5
+indication_count: 4
+---
+
+# Lonoctocog Alfa
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **4** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# LONOCTOCOG ALFA：從血友病A到假性血管性血友病
+
+## 一句話總結
+
+Lonoctocog alfa 是一種單鏈重組第八凝血因子（FVIII）製劑，原本用於血友病A的替代治療。
+TxGNN 模型預測它可能對**假性血管性血友病 (pseudo-von Willebrand disease)** 有效，
+但目前**沒有任何臨床試驗或文獻**支持，且機轉分析顯示這個關聯性薄弱。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 血友病A（第八凝血因子缺乏）※ |
+| 預測新適應症 | 假性血管性血友病 (pseudo-von Willebrand disease) |
+| TxGNN 預測分數 | 99.85% |
+| 證據等級 | L5 |
+| 香港上市 | 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | Hold |
+
+※ 本評估未取得正式的原適應症/MOA 資料（見下方資料缺口），此描述引用自證據包中的機轉分析文字。
+
+## 為什麼這個預測合理？
+
+Lonoctocog alfa 為單鏈重組 FVIII 製劑，原始用途是補充第八凝血因子濃度、促進凝血酶生成，
+用於血友病A患者的出血替代治療。
+
+新適應症假性血管性血友病的病因，是血小板膜醣蛋白 GPIbα 功能性突變導致其與 vWF 親和力異常增高，
+造成大分子量 vWF 多聚體被血小板消耗、繼發性血小板減少及出血傾向 —— 病灶在血小板受體結構，
+而非凝血因子濃度或功能缺陷。補充外源性 FVIII 並不能修正 GPIbα 的結構性異常，機轉上缺乏直接關聯。
+TxGNN 給出的高分很可能來自知識圖譜中「出血性疾病」節點的鄰近聚類效應，而非真實藥理路徑。
+
+證據包中另外三個候選適應症（primary release disorder of platelets、Glanzmann thrombasthenia、
+Scott syndrome）同屬血小板功能缺陷疾病，病灶分別在血小板顆粒釋放、GPIIb/IIIa 受體、膜磷脂重新分布，
+與 FVIII 補充療法同樣沒有機轉基礎。這顯示 TxGNN 對此藥物的預測整體偏向「出血傾向」語意群聚訊號放大，
+而非機轉導向的合理候選。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+## 文獻證據
+
+目前無相關文獻。
+
+## 香港上市資訊
+
+目前尚未在香港上市，無許可證資料。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+主要候選適應症（假性血管性血友病）及其餘三個候選在機轉上皆缺乏合理連結，且完全沒有臨床試驗或文獻佐證，
+證據等級僅為 L5（純模型預測，無實際研究），不足以支持進一步推進。
+
+**若要推進需要：**
+- TFDA 仿單警語與禁忌症資料（目前為 Blocking 級資料缺口，無法進入安全性初評）
+- 完整的作用機轉（MOA）資料，以確認或排除與血小板功能障礙疾病的關聯
+- 血小板功能障礙適應症的體外或臨床概念驗證證據
+- 香港上市狀態與許可證資訊確認
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

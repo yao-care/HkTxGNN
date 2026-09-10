@@ -1,0 +1,99 @@
+---
+layout: default
+title: Phenol
+parent: 中證據等級 (L3-L4)
+nav_order: 577
+evidence_level: L3
+indication_count: 5
+---
+
+# Phenol
+{: .fs-9 }
+
+證據等級: **L3** | 預測適應症: **5** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# PHENOL：從（原適應症資料缺失）到瘢痕疙瘩型痤瘡 (Acne Keloid)
+
+## 一句話總結
+
+PHENOL（DrugBank DB03255）目前未在香港上市，原始適應症與作用機轉資料皆缺失。TxGNN 模型列出的前 5 個預測適應症分數都在 99.9% 以上、彼此差距極小，但逐一核查證據後，僅有排名第 5 的**瘢痕疙瘩型痤瘡 (Acne Keloid)** 有實際文獻支持（**4 篇文獻**），其餘 4 個候選（含分數最高的排名第 1）完全沒有臨床試驗或文獻佐證，屬於知識圖譜雜訊，因此本報告以排名第 5 的候選為主軸。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 無（未上市，無核准適應症紀錄） |
+| 預測新適應症 | 瘢痕疙瘩型痤瘡 (Acne Keloid) |
+| TxGNN 預測分數 | 99.94%（與其他候選分數相近，模型區辨力有限） |
+| 證據等級 | L3 |
+| 香港上市 | ✗ 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+目前缺乏 PHENOL 詳細的作用機轉資料。但苯酚化學換膚（phenol peel）是皮膚科既有的深層換膚技術，其作用是誘發表皮/真皮層剝脫並促進膠原重塑，臨床上已用於治療皺紋與痤瘡疤痕，因此對「痤瘡相關皮膚病灶」這一大類適應症在機轉上有一定合理性。
+
+不過現有的 4 篇文獻主要聚焦於一般性痤瘡疤痕、膚色相關皮膚病與頭皮疾病，並非針對 acne keloid（瘢痕疙瘩型痤瘡）這一特定亞型的直接療效證據，關聯性屬於「類別相近但非精準對應」。
+
+其餘 4 個 TxGNN 高分候選（acrodermatitis chronica atrophicans、兒童結締組織病相關間質性肺病、neonatal dermatomyositis、amyopathic dermatomyositis）經查證後，均無任何臨床試驗或文獻支持，且缺乏機轉假說，判定為模型嵌入相似度造成的雜訊，不建議進一步評估。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+## 文獻證據
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [17204096](https://pubmed.ncbi.nlm.nih.gov/17204096/) | 2007 | Cohort | The Journal of Dermatology | 改良式苯酚換膚（Exoderm）用於亞洲患者臉部皺紋、痤瘡疤痕等問題，副作用（心律不整、色素脫失、增生性疤痕/瘢痕疙瘩）較傳統苯酚換膚減少 |
+| [16164153](https://pubmed.ncbi.nlm.nih.gov/16164153/) | 2005 | Review | Cutis | 討論深色皮膚患者痤瘡治療需平衡積極介入與炎症後色素沉澱、瘢痕疙瘩風險 |
+| [866280](https://pubmed.ncbi.nlm.nih.gov/866280/) | 1977 | Review | Postgraduate Medicine | 黑人族群常見皮膚病概述，含毛囊彎曲相關之鬍鬚假性毛囊炎與瘢痕疙瘩性毛囊炎 |
+| [4278481](https://pubmed.ncbi.nlm.nih.gov/4278481/) | 1974 | Case Report | Fortschritte der Medizin | 頭皮疾病以 Crino-Kaban 治療之病例報告（無摘要） |
+
+## 香港上市資訊
+
+PHENOL 目前未在香港取得任何藥品許可證，無上市紀錄可供列示。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。（本藥物之警語、禁忌症與藥物交互作用資料目前均缺失，其中仿單警語/禁忌為 Blocking 等級資料缺口，需優先補齊才能進行安全性初評。）
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 唯一具備實際證據的預測適應症（瘢痕疙瘩型痤瘡）僅達 L3（世代研究＋回顧文獻），且證據內容多為一般痤瘡疤痕而非該亞型的直接療效資料。
+- PHENOL 目前未在香港上市，且缺乏 MOA 與安全性（警語/禁忌）資料，無法完成基本的風險效益評估。
+
+**若要推進需要：**
+- 補齊 TFDA/香港衛生署仿單警語與禁忌症資料（Blocking gap）
+- 取得 PHENOL 完整作用機轉資料（DrugBank API 查詢）
+- 蒐集針對 acne keloid（瘢痕疙瘩型痤瘡）更具針對性的臨床證據，而非泛用痤瘡疤痕文獻
+- 評估香港上市/輸入許可之可行性
+- 其餘 4 個高分預測適應症（無任何實證支持）建議暫不列入後續評估
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

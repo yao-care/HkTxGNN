@@ -1,0 +1,105 @@
+---
+layout: default
+title: Moxidectin
+parent: 僅模型預測 (L5)
+nav_order: 509
+evidence_level: L5
+indication_count: 10
+---
+
+# Moxidectin
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **10** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Moxidectin：從抗寄生蟲用藥到高澱粉酶血症（低置信度預測）
+
+## 一句話總結
+
+Moxidectin 是大環內酯類（milbemycin 家族）抗寄生蟲藥物，目前香港未上市、無許可證登記。TxGNN 模型將其列為對**高澱粉酶血症 (Hyperamylasemia)** 等 10 個罕見／不相關疾病有潛在效果，但**這 10 個預測全數沒有任何臨床試驗或文獻佐證**，且評估本身即指出機轉關聯薄弱，判定為知識圖譜雜訊的可能性高。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 無正式許可資料（依藥物分類為大環內酯類抗寄生蟲藥，milbemycin 家族） |
+| 預測新適應症 | Hyperamylasemia（高澱粉酶血症） |
+| TxGNN 預測分數 | 98.06%（knowledge graph rank 27,216） |
+| 證據等級 | L5（僅有模型預測，無任何實際研究） |
+| 香港上市 | 未上市 |
+| 許可證數 | 0 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+目前缺乏 Moxidectin 詳細的作用機轉資料（MOA 標記為資料缺口）。已知其藥理分類為大環內酯類抗寄生蟲藥，透過結合無脊椎動物的麩胺酸閘控氯離子通道使寄生蟲麻痺致死。
+
+然而，就本次評估附帶的機轉推論來看，**Hyperamylasemia（澱粉酶代謝/清除異常）與 Moxidectin 的氯離子通道機轉之間並無已知的生物學關聯**。評估意見明確指出，此關聯很可能是知識圖譜中節點鄰近性造成的雜訊，而非真實的藥理路徑。
+
+其餘 9 個候選適應症（見下表）情況相同：涵蓋遺傳性疾病（先天性白蛋白缺乏症）、免疫學議題（血型不合、多株性高黏滯血症）、細菌/病毒感染（葡萄球菌燙傷樣皮膚症候群、天花、貓泛白血球減少症、水貂阿留申病等），皆與 Moxidectin 的抗寄生蟲機轉沒有已知交集，評估意見一致認為缺乏生物學合理性。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記（10 個預測適應症皆查無 ClinicalTrials.gov 或 ICTRP 登記案）。
+
+## 文獻證據
+
+目前無相關文獻（PubMed 查詢 10 個適應症組合皆為 0 筆）。
+
+## 其他低置信度候選適應症
+
+TxGNN 對 Moxidectin 共產出 10 個排名相近的候選適應症，分數集中在 97.6%–98.1% 之間，皆判定為 L5／Hold：
+
+| 排名 | 預測適應症 | TxGNN 分數 | 機轉合理性判定 |
+|------|-----------|-----------|---------------|
+| 1 | Hyperamylasemia（高澱粉酶血症） | 98.06% | 無已知機轉關聯 |
+| 2 | Polyclonal hyperviscosity syndrome | 98.06% | 無已知機轉關聯 |
+| 3 | Congenital analbuminemia（先天性白蛋白缺乏症） | 97.90% | 遺傳性疾病，無交集 |
+| 4 | Staphylococcal scalded skin syndrome | 97.83% | 需抗菌治療，無抗菌活性證據 |
+| 5 | Variola minor infection（天花） | 97.78% | 無抗病毒活性文獻 |
+| 6 | Aleutian mink disease（水貂阿留申病） | 97.78% | 獸醫病毒感染，圖譜共現效應 |
+| 7 | Feline panleukopenia（貓泛白血球減少症） | 97.73% | 病毒感染，圖譜共現效應 |
+| 8 | Hordeolum（麥粒腫） | 97.72% | 需局部抗菌治療，無關聯 |
+| 9 | Blood group incompatibility（血型不合） | 97.62% | 免疫學議題，無關聯 |
+| 10 | Bullous impetigo（水疱型膿痂疹） | 97.56% | 細菌毒素相關，無抗菌證據 |
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。目前缺乏 TFDA/香港仿單警語與禁忌症資料，此為**阻斷性（Blocking）資料缺口**——在補齊之前無法進入安全性初評階段。
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 10 個預測適應症皆為 L5 等級（僅有模型分數，無任何臨床試驗或文獻支持），且評估意見本身即指出機轉關聯薄弱，多屬知識圖譜節點鄰近性造成的雜訊。
+- 缺乏作用機轉（MOA）與仿單安全性資料（列為 Blocking 缺口），香港無上市紀錄、無許可證，整體證據基礎不足以支持進一步投入。
+
+**若要推進需要：**
+- 補齊 TFDA/香港仿單警語與禁忌症資料（解除 Blocking 缺口）
+- 取得 DrugBank 或原廠 MOA 完整資料，重新評估機轉合理性
+- 若仍要探索特定適應症，應優先針對機轉上具合理性的候選重新篩選，而非本次列出的 10 項
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

@@ -2,7 +2,7 @@
 layout: default
 title: Prasterone
 parent: 僅模型預測 (L5)
-nav_order: 408
+nav_order: 608
 evidence_level: L5
 indication_count: 5
 ---

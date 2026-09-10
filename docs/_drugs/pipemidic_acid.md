@@ -1,0 +1,98 @@
+---
+layout: default
+title: Pipemidic Acid
+parent: 僅模型預測 (L5)
+nav_order: 589
+evidence_level: L5
+indication_count: 5
+---
+
+# Pipemidic Acid
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **5** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Pipemidic Acid：從喹諾酮類抗菌用途到心臟疾病（低證據預測）
+
+## 一句話總結
+
+Pipemidic Acid 是第一代喹諾酮類抗菌藥，其機轉為抑制細菌 DNA gyrase／topoisomerase IV。
+TxGNN 模型預測它可能對**心臟疾病 (Heart Disease)** 有效（分數 99.93%），
+但目前**無臨床試驗**、僅有 **1 篇不直接相關的舊文獻**，且模型自身的機轉評估已指出此為知識圖譜關聯性偽陽性。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 無記錄（evidence pack 未提供；藥理上屬第一代喹諾酮類抗菌藥） |
+| 預測新適應症 | 心臟疾病 (Heart Disease) |
+| TxGNN 預測分數 | 99.93% |
+| 證據等級 | L5 |
+| 香港上市 | ✗ 未上市 |
+| 許可證數 | 0 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+目前缺乏詳細的作用機轉資料（MOA 為 Data Gap）。但根據 evidence pack 中的機轉分析，Pipemidic acid 是第一代喹諾酮類抗菌藥，藥理作用為抑制細菌 DNA gyrase／topoisomerase IV，阻斷細菌 DNA 複製，屬純抗菌機轉。
+
+心臟疾病涉及心臟結構、電生理、血流動力學或心肌代謝路徑，與抗菌機轉之間**沒有已知的生理連結**。目前也沒有任何臨床試驗或針對性文獻探討 Pipemidic acid 對心臟疾病的療效。基於此，TxGNN 給出的高分（0.999）較可能反映知識圖譜中的節點關聯性偽陽性（KG artifact），而非真實的機轉導向預測。
+
+此外，本次預測列表中排名第 2-5 的候選適應症（Laubry-Pezzi syndrome、Pierre Robin 症候群相關染色體異常、7 號染色體長臂部分缺失）均為先天性/遺傳性疾病，同樣與抗菌機轉無合理關聯，且完全沒有臨床或文獻證據支持，顯示此藥物在本輪 TxGNN 預測中缺乏具說服力的老藥新用方向。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+## 文獻證據
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [372558](https://pubmed.ncbi.nlm.nih.gov/372558/) | 1978 | Case series/藥物動力學報告 | Journal d'urologie et de nephrologie | 探討 Pipemidic acid 作為腎功能不全與血液透析病人的泌尿道外抗生素使用，非針對心臟疾病之研究 |
+
+## 香港上市資訊
+
+目前未在香港上市，無許可證資料。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 心臟疾病與 Pipemidic acid 的抗菌機轉無已知關聯，機轉分析判斷此為知識圖譜偽陽性；
+- 無任何臨床試驗，僅有 1 篇與適應症不直接相關的舊文獻（1978年），證據等級為 L5（僅模型預測）；
+- 藥物於香港未上市，缺乏在地安全性與法規資料，無法進入安全性初評。
+
+**若要推進需要：**
+- 補齊 TFDA／原廠仿單警語與禁忌症資料（現為 Blocking 缺口）
+- 取得完整作用機轉 (MOA) 資料以支持或推翻機轉關聯性假設
+- 若要繼續評估心臟疾病方向，需先有獨立的機轉假說或臨床前研究，而非僅依賴目前的 TxGNN 分數
+- 排名第 2-5 之候選適應症因無任何證據且機轉不合理，建議不予進一步評估
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

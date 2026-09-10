@@ -2,7 +2,7 @@
 layout: default
 title: Probenecid
 parent: 中證據等級 (L3-L4)
-nav_order: 416
+nav_order: 616
 evidence_level: L4
 indication_count: 3
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Prednisolone
 parent: 中證據等級 (L3-L4)
-nav_order: 410
+nav_order: 610
 evidence_level: L3
 indication_count: 5
 ---

@@ -1,0 +1,101 @@
+---
+layout: default
+title: Propylthiouracil
+parent: 中證據等級 (L3-L4)
+nav_order: 622
+evidence_level: L4
+indication_count: 3
+---
+
+# Propylthiouracil
+{: .fs-9 }
+
+證據等級: **L4** | 預測適應症: **3** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Propylthiouracil (PTU)：從甲狀腺機能亢進到甲狀腺素受體β基因突變甲狀腺素抵抗症
+
+## 一句話總結
+
+Propylthiouracil (PTU, DrugBank DB00550) 為 thionamide 類抗甲狀腺藥物，臨床文獻脈絡顯示其長期用於甲狀腺機能亢進／甲狀腺毒症的治療。
+TxGNN 模型預測它可能對**甲狀腺素受體β基因突變所致甲狀腺素抵抗症 (Resistance to Thyroid Hormone due to THRB mutation)** 有效，
+但目前**無相關臨床試驗**，僅有 **6 篇文獻**（皆為病例報告或機轉/動物研究），證據強度有限。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 資料缺乏（香港未上市，無許可證資料；文獻脈絡顯示常用於甲狀腺機能亢進/甲狀腺毒症） |
+| 預測新適應症 | 甲狀腺素受體β基因突變所致甲狀腺素抵抗症 (Resistance to Thyroid Hormone due to THRB mutation) |
+| TxGNN 預測分數 | 99.66%（排名第 6809） |
+| 證據等級 | L4 |
+| 香港上市 | 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+目前缺乏 DrugBank 提供的完整作用機轉（MOA）敘述。根據證據包中文獻的旁證，PTU 屬於 thionamide 類抗甲狀腺藥物，機轉為抑制甲狀腺過氧化酶（TPO），阻斷碘化物有機化與碘酪胺酸偶合形成 T4/T3，並額外抑制周邊組織 type 1 脫碘酶（T4→T3 轉換），藉此降低循環甲狀腺激素濃度。
+
+甲狀腺素受體β基因突變所致甲狀腺素抵抗症（RTH-beta）的病理生理，是受體對 T3/T4 敏感度下降，導致代償性甲狀腺激素過量分泌，本質上並非激素合成路徑的異常。PTU 降低激素合成量，理論上可緩解受體功能正常的外周組織（如心臟）因高濃度激素暴露產生的毒性症狀，但**無法改善核心受體缺陷**。
+
+更需注意的是，降低激素濃度可能加劇 TSH 驅動的甲狀腺增生——證據包中的動物模型文獻（PMID 22919057、21909131）甚至提示持續性 TSH 刺激與濾泡性甲狀腺癌的發生相關。整體而言此機轉利弊並存，且現有 6 篇文獻均為病例報告或基礎機轉/動物研究，**無一篇是針對 PTU 治療此疾病的直接研究**，預測合理性偏向假說階段。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+## 文獻證據
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [14684607](https://pubmed.ncbi.nlm.nih.gov/14684607/) | 2004 | Review | Endocrinology | 探討 TRβ 基因突變於心臟中作為顯性負性受體，闡述甲狀腺素抗性的心臟機轉 |
+| [18561095](https://pubmed.ncbi.nlm.nih.gov/18561095/) | 2009 | Case Report | Exp Clin Endocrinol Diabetes | 土耳其家族 TRβ 基因 P453A 突變造成的甲狀腺素抵抗案例 |
+| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | Case Report | Clinical Endocrinology | TRβ 基因 M313T 突變家族，新生兒甲狀腺毒症合併母體不孕案例 |
+| [10724359](https://pubmed.ncbi.nlm.nih.gov/10724359/) | 1999 | Case Report | Endocrine Journal | 泰國女性 TRβ 基因新發 L330S 突變致甲狀腺素抵抗，曾以 PTU 治療但甲狀腺腫反而增大 |
+| [22919057](https://pubmed.ncbi.nlm.nih.gov/22919057/) | 2012 | Preclinical | Endocrinology | Thrb(PV/PV) 小鼠模型顯示持續性 TSH 刺激與濾泡性甲狀腺癌發生相關 |
+| [21909131](https://pubmed.ncbi.nlm.nih.gov/21909131/) | 2012 | Preclinical | Oncogene | 同一小鼠模型顯示甲狀腺素促進腫瘤細胞增生，闡述 RTH 與甲狀腺癌的分子機轉 |
+
+## 香港上市資訊
+
+目前未在香港上市，無許可證資料。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。（本評估目前缺乏 TFDA/香港仿單警語、禁忌症及藥物交互作用資料）
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+針對此適應症無任何臨床試驗支持，僅有的 6 篇文獻皆為病例報告或機轉/動物研究，且機轉分析顯示降低激素合成可能無法改善核心受體缺陷，甚至可能加劇 TSH 驅動的甲狀腺增生風險，利弊並存、證據不足以支持推進。
+
+**若要推進需要：**
+- 補齊 TFDA／香港衛生署仿單警語與禁忌症資料（阻斷性缺口，影響安全性初評）
+- 補齊完整作用機轉（MOA）資料
+- 針對 RTH-beta 族群使用 PTU 的直接臨床證據（現無相關試驗登記）
+- 釐清該藥物於香港的上市與許可證狀態
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+
