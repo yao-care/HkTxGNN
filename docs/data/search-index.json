@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-10",
-  "drug_count": 1915,
-  "indication_count": 5805,
+  "generated": "2026-09-14",
+  "drug_count": 1972,
+  "indication_count": 5911,
   "drugs": [
     {
       "name": "Abacavir",
@@ -233517,6 +233517,1013 @@
           "level": "L5"
         }
       ]
+    },
+    {
+      "name": "Roxadustat",
+      "slug": "roxadustat",
+      "brands": [],
+      "original": "",
+      "level": "L4",
+      "indications": [
+        {
+          "name": "Paget 氏骨病 (Bone Paget Disease)",
+          "score": 99.12,
+          "level": "L5"
+        },
+        {
+          "name": "牙本質發育不全 (Dentinogenesis Imperfecta)",
+          "score": 99.06,
+          "level": "L5"
+        },
+        {
+          "name": "鱗狀細胞癌 (Squamous Cell Carcinoma)",
+          "score": 99.02,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Roxithromycin",
+      "slug": "roxithromycin",
+      "brands": [],
+      "original": "",
+      "level": "L4",
+      "indications": []
+    },
+    {
+      "name": "Rufinamide",
+      "slug": "rufinamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ruxolitinib",
+      "slug": "ruxolitinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Uterine Corpus PEComa | 99.73% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Benign PEComa | 99.73% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Lymphangiomyoma | 99.72% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Lymphangioleiomyomatosis (LAM) | 99.64% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Sacituzumab Govitecan",
+      "slug": "sacituzumab_govitecan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sacubitril",
+      "slug": "sacubitril",
+      "brands": [],
+      "original": "",
+      "level": "L3",
+      "indications": [
+        {
+          "name": "Brain small vessel disease 1（COL4A1 相關遺傳病） | 99.58% | 致病機轉為第四型膠原蛋白結構異常，與 neprilysin/利鈉胜肽路徑無已知關聯，模型分數屬統計關聯而非生物學合理性",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "HANAC 症候群（COL4A1 相關） | 99.57% | 同上，無任何臨床試驗或文獻支持",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "類風濕性關節炎 | 99.35% | 無臨床試驗或文獻；neprilysin 與 RA 主要致病路徑（TNF-α、IL-6）無直接連結",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "血紅蛋白病 | 99.18% | 無臨床試驗或文獻；為血紅素基因結構異常疾病，與 neprilysin 抑制機轉無已知關聯",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Safinamide",
+      "slug": "safinamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Rasmussen 亞急性腦炎 | 99.63% | L5 | 抗麩胺酸機轉可能減緩興奮毒性，但與自體免疫核心病理無直接關聯",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Myelitis（脊髓炎） | 99.46% | L5 | 與免疫發炎路徑無直接機轉重疊，合理性最弱",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "PLA2G6 相關神經退化症 | 99.22% | L5 | 與帕金森氏症機轉重疊度最高，三者中最具生物學可信度",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Salbutamol",
+      "slug": "salbutamol",
+      "brands": [],
+      "original": "",
+      "level": "L2",
+      "indications": [
+        {
+          "name": "結膜乳頭增生 (Papillary Conjunctivitis) | 99.996% | L5 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "鼻腔疾病 (Nasal Cavity Disease) | 99.994% | L4 | 2 | 2 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "咽炎 (Pharyngitis) | 99.994% | L4 | 10 | 10 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "**支氣管炎 (Bronchitis)** | 99.992% | **L2** | **50** | **20** | **Research Question**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "急性喉咽炎 (Acute Laryngopharyngitis) | 99.991% | L5 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Salicylamide",
+      "slug": "salicylamide",
+      "brands": [],
+      "original": "",
+      "level": "L3",
+      "indications": [
+        {
+          "name": "Nasal cavity disease",
+          "score": 99.97,
+          "level": "L5"
+        },
+        {
+          "name": "Acute laryngopharyngitis",
+          "score": 99.97,
+          "level": "L5"
+        },
+        {
+          "name": "Trigeminal autonomic cephalalgia",
+          "score": 99.94,
+          "level": "L5"
+        },
+        {
+          "name": "Common cold",
+          "score": 99.93,
+          "level": "L3"
+        }
+      ]
+    },
+    {
+      "name": "Salicylic Acid",
+      "slug": "salicylic_acid",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Salmeterol",
+      "slug": "salmeterol",
+      "brands": [],
+      "original": "",
+      "level": "L1",
+      "indications": [
+        {
+          "name": "慢性支氣管炎 (Bronchitis) | 99.92% | L1 | S3 | Proceed with Guardrails | 本報告主要分析對象",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "呼吸道畸形 (Respiratory Malformation) | 99.91% | L4 | S0 | **Hold** | 附帶證據（氣喘/妊娠用藥/纖毛運動障礙個案）與病名明顯不符，疑為 KG 疾病本體映射錯置",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "阻塞性肺病 (Obstructive Lung Disease) | 99.89% | L1 | S3 | Proceed with Guardrails | COPD/氣喘上位概念詞，機轉直接對應",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Rienhoff Syndrome | 99.89% | L5 | S0 | **Hold** | 無任何臨床試驗或文獻支持，罕見結締組織疾病與 LABA 機轉無已知關聯",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "氣喘 (Asthma) | 99.78% | L1 | S3 | Proceed with Guardrails | 屬 Salmeterol 已知核心藥理用途，而非嚴格意義上的「新」適應症",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Sebelipase Alfa",
+      "slug": "sebelipase_alfa",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Selenium",
+      "slug": "selenium",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Selinexor",
+      "slug": "selinexor",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Selpercatinib",
+      "slug": "selpercatinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Selumetinib",
+      "slug": "selumetinib",
+      "brands": [],
+      "original": "",
+      "level": "L3",
+      "indications": [
+        {
+          "name": "Familial generalized lentiginosis | 99.96% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Gastrocutaneous syndrome | 99.96% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Rhabdoid tumor | 99.96% | L3 | S1 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Congenital multiple café-au-lait macules syndrome | 99.96% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Acromelanosis | 99.96% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Moynahan syndrome (LEOPARD 症候群) | 99.96% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Leukonychia totalis-acanthosis nigricans-like lesions 症候群 | 99.95% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Osteopathia striata-pigmentary dermopathy 症候群 | 99.95% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "**Peripheral nerve schwannoma** | 99.95% | **L3** | **S2** | **Research Question**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Trigeminal schwannoma | 99.95% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Sennosides",
+      "slug": "sennosides",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Hypotrichosis simplex of the scalp | 99.29% | 與毛囊生長通路（Wnt/β-catenin、雄性素受體）無已知關聯，推測為代謝節點雜訊連結",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Congenital hypotrichosis milia | 99.23% | 為 LIPH/LPAR6 等基因突變之先天疾病，與腸道瀉下機轉無交集，判斷為偽陽性",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Diffuse alopecia areata | 99.12% | 自體免疫（CD8+ T 細胞）介導疾病，sennosides 無免疫調節作用；長期腹瀉反而可能不利毛髮健康，方向相反",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Open-angle glaucoma | 99.11% | Sennosides 全身吸收極低，無穿透血眼屏障證據，與房水動力學無藥理基礎",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Primary hereditary glaucoma | 99.10% | 與 MYOC/CYP1B1 基因突變相關之遺傳疾病，與腸道局部作用完全無交集",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Serine",
+      "slug": "serine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sertraline",
+      "slug": "sertraline",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Schizoid personality disorder | 99.93% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Schizotypal personality disorder | 99.93% | L3 | S1 | **Research Question**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Histrionic personality disorder | 99.93% | L4 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Paranoid personality disorder | 99.93% | L4 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Benign paroxysmal torticollis of infancy | 99.55% | L5 | S0 | Hold（判斷為知識圖譜雜訊，與 SSRI 機轉無生物學合理性）",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Sevoflurane",
+      "slug": "sevoflurane",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Prinzmetal angina | 99.78% | 0 | 0 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Tourette syndrome | 99.50% | 0 | 0 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Fibromyalgia | 99.42% | 1 | 0 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Tendinitis | 99.41% | 11 | 0 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Myositis fibrosa | 99.41% | 0 | 0 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Silodosin",
+      "slug": "silodosin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Ambras type hypertrichosis universalis congenita | 99.99% | L5 | Hold | 無生物學連結，疑似模型雜訊",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hypertrichosis (disease) | 99.99% | L5 | Hold | 無直接病理生理連結",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "牙齒/牙周畸形症候群 | 99.99% | L5 | Hold | 20 篇文獻皆關鍵字誤配，非藥物專一性證據",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Dandy-Walker 畸形症候群 | 99.98% | L5 | Hold | 先天結構異常，無關聯",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "遺傳性毛幹結構異常 | 99.98% | L5 | Hold | 遺傳性角蛋白缺陷，無已知連結",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Siltuximab",
+      "slug": "siltuximab",
+      "brands": [],
+      "original": "",
+      "level": "L2",
+      "indications": [
+        {
+          "name": "Kaposi's sarcoma | 99.28% | L4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "extracutaneous mastocytoma | 99.64% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "hepatic infarction | 99.44% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "hepatic veno-occlusive disease | 99.40% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "peliosis hepatis | 99.29% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "autosomal recessive familial Mediterranean fever | 99.22% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "aggressive systemic mastocytosis | 99.16% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "autosomal dominant familial periodic fever | 99.05% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "syndrome with combined immunodeficiency | 98.85% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Silver",
+      "slug": "silver",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Simvastatin",
+      "slug": "simvastatin",
+      "brands": [],
+      "original": "",
+      "level": "L1",
+      "indications": []
+    },
+    {
+      "name": "Siponimod",
+      "slug": "siponimod",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sirolimus",
+      "slug": "sirolimus",
+      "brands": [],
+      "original": "",
+      "level": "L2",
+      "indications": []
+    },
+    {
+      "name": "Sodium Acetate",
+      "slug": "sodium_acetate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Epiglottitis（會厭炎） | 99.77% | L5 | 無機轉關聯，無證據",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Urinary tract infection | 99.69% | L4 | 有 2 試驗 + 1 文獻，但**皆與 sodium acetate 或 UTI 主要終點無關**（藥物錯配、指標不符）",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Sclerosing cholangitis（硬化性膽管炎） | 99.61% | L5 | 無機轉關聯，無證據",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Gonococcal urethritis（淋病性尿道炎） | 99.57% | L5 | 無抗菌機轉基礎，無證據",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Sodium Carbonate",
+      "slug": "sodium_carbonate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sodium Citrate",
+      "slug": "sodium_citrate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Papillary Conjunctivitis（乳頭狀結膜炎） | 99.95% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Nasal Cavity Disease（鼻腔疾病） | 99.95% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Acute Laryngopharyngitis（急性咽喉炎） | 99.94% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "**Stomach Disease（胃部疾病）** | 99.89% | **L4** | **S1** | **Research Question**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Postgastrectomy Syndrome（胃切除後症候群） | 99.79% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Sodium Fluoride",
+      "slug": "sodium_fluoride",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Urinary Tract Infection | 99.91% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Ureaplasma Urethritis | 99.90% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Gonococcal Urethritis | 99.90% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Uterine Inflammatory Disease | 99.85% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Sodium Sulfate",
+      "slug": "sodium_sulfate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sodium Tetradecyl Sulfate",
+      "slug": "sodium_tetradecyl_sulfate",
+      "brands": [],
+      "original": "",
+      "level": "L1",
+      "indications": []
+    },
+    {
+      "name": "Sodium Zirconium Cyclosilicate",
+      "slug": "sodium_zirconium_cyclosilicate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sofosbuvir",
+      "slug": "sofosbuvir",
+      "brands": [],
+      "original": "",
+      "level": "L4",
+      "indications": []
+    },
+    {
+      "name": "Solriamfetol",
+      "slug": "solriamfetol",
+      "brands": [],
+      "original": "",
+      "level": "L1",
+      "indications": [
+        {
+          "name": "Faciodigitogenital (Aarskog) syndrome | 99.99% | L5 | Hold | 罕見遺傳症候群，與 DNRI 機轉無已知連結，判斷為知識圖譜雜訊",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Insomnia | 99.97% | L2 | Research Question | 機轉矛盾：solriamfetol 為促醒藥物，理論上應加重而非治療失眠；現有試驗多針對共病嗜睡/疲勞，非典型失眠適應症，需人工釐清",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "ADHD, inattentive type | 99.96% | L4 | Research Question | ADHD 亞型節點，機轉推論同主要 ADHD，但無獨立試驗/文獻佐證",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Chondromyxoid fibroma | 99.93% | L5 | Hold | 罕見良性骨腫瘤，與神經傳導再回收抑制機轉無已知路徑重疊，判斷為模型雜訊",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Sorafenib",
+      "slug": "sorafenib",
+      "brands": [],
+      "original": "",
+      "level": "L2",
+      "indications": []
+    },
+    {
+      "name": "Sorbitol",
+      "slug": "sorbitol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sotatercept",
+      "slug": "sotatercept",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Drug-induced osteoporosis | 99.65% | **十項中機轉最具合理性者**：早期開發（ACE-011）曾針對 activin A 抑制骨吸收/促進成骨進行研究",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Severe nonproliferative diabetic retinopathy | 99.77% | 理論上可能（TGF-β家族與血管新生），未經驗證",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Diabetic retinopathy | 99.72% | 同上，無直接證據",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Diabetic cataract | 99.49% | 無機轉關聯報導",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "HER2 positive breast carcinoma | 99.43% | 與 HER2 特異性路徑無直接連結",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Spectinomycin",
+      "slug": "spectinomycin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Spironolactone",
+      "slug": "spironolactone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Stannous Fluoride",
+      "slug": "stannous_fluoride",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Stavudine",
+      "slug": "stavudine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Streptomycin",
+      "slug": "streptomycin",
+      "brands": [],
+      "original": "",
+      "level": "L4",
+      "indications": []
+    },
+    {
+      "name": "Sucralfate",
+      "slug": "sucralfate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sulbactam",
+      "slug": "sulbactam",
+      "brands": [],
+      "original": "",
+      "level": "L3",
+      "indications": []
+    },
+    {
+      "name": "Sulfadiazine",
+      "slug": "sulfadiazine",
+      "brands": [],
+      "original": "",
+      "level": "L3",
+      "indications": []
+    },
+    {
+      "name": "Sulfamethoxazole",
+      "slug": "sulfamethoxazole",
+      "brands": [],
+      "original": "",
+      "level": "L4",
+      "indications": []
+    },
+    {
+      "name": "Sulfasalazine",
+      "slug": "sulfasalazine",
+      "brands": [],
+      "original": "",
+      "level": "L3",
+      "indications": [
+        {
+          "name": "短指併指症候群 (Brachydactyly-syndactyly syndrome)",
+          "score": 99.94,
+          "level": "L5"
+        },
+        {
+          "name": "缺損性小眼球-根性肢端發育不良症候群",
+          "score": 99.94,
+          "level": "L5"
+        },
+        {
+          "name": "骨關節炎易感性（遺傳）",
+          "score": 99.88,
+          "level": "L5"
+        },
+        {
+          "name": "先天性稀毛併幼年型黃斑部退化症",
+          "score": 99.66,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Sulpiride",
+      "slug": "sulpiride",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sultamicillin",
+      "slug": "sultamicillin",
+      "brands": [],
+      "original": "",
+      "level": "L3",
+      "indications": []
+    },
+    {
+      "name": "Sumatriptan",
+      "slug": "sumatriptan",
+      "brands": [],
+      "original": "",
+      "level": "L4",
+      "indications": []
+    },
+    {
+      "name": "Sunitinib",
+      "slug": "sunitinib",
+      "brands": [],
+      "original": "",
+      "level": "L2",
+      "indications": []
+    },
+    {
+      "name": "Tacrolimus",
+      "slug": "tacrolimus",
+      "brands": [],
+      "original": "",
+      "level": "L1",
+      "indications": []
+    },
+    {
+      "name": "Tadalafil",
+      "slug": "tadalafil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Ambras type hypertrichosis universalis congenita | 99.98% | 0 / 0 | 嵌入雜訊，Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hypertrichosis (disease) | 99.98% | 0 / 0 | 嵌入雜訊，Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "牙周病相關畸形症候群 | 99.97% | 0 / 20 | 文獻非藥物特異性，Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Dandy-Walker 畸形相關症候群 | 99.97% | 0 / 0 | 嵌入雜訊，Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "孤立性遺傳性毛幹異常 | 99.96% | 0 / 0 | 嵌入雜訊，Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Tagraxofusp",
+      "slug": "tagraxofusp",
+      "brands": [],
+      "original": "",
+      "level": "L2",
+      "indications": [
+        {
+          "name": "Esotropia（內斜視） | 99.73% | 眼外肌調節異常，與 CD123 標靶機轉無關聯",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Inner ear neoplasm | 99.72% | CD123 表現於此腫瘤類型未見報導",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Benign neoplasm of tongue | 99.72% | 良性上皮腫瘤與 CD123 標靶無關",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Bronchial adenomas/carcinoids (childhood) | 99.72% | 類癌腫瘤通常不表現 CD123",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Ductal or ductular proliferation | 99.72% | 肝膽組織病理描述性名詞，無明確關聯",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Chondroid hamartoma | 99.72% | 良性錯構瘤與 CD123 表現無關",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Non-seminomatous lesion | 99.72% | 生殖細胞腫瘤未見 CD123 相關文獻",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Thyroglossal duct cyst | 99.72% | 先天性良性囊腫，與細胞毒殺標靶藥物機轉無關",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Tamoxifen",
+      "slug": "tamoxifen",
+      "brands": [],
+      "original": "",
+      "level": "L4",
+      "indications": []
+    },
+    {
+      "name": "Tazemetostat",
+      "slug": "tazemetostat",
+      "brands": [],
+      "original": "",
+      "level": "L3",
+      "indications": []
     }
   ],
   "indications": [
@@ -233642,12 +234649,34 @@
       ]
     },
     {
+      "name": "**Peripheral nerve schwannoma** | 99.95% | **L3** | **S2** | **Research Question**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selumetinib",
+          "slug": "selumetinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "**Plummer-Vinson 症候群** | 99.89% | L3 | **Proceed with Guardrails** | 缺鐵性貧血為其核心病理，鐵劑補充機轉直接",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Iron",
           "slug": "iron",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "**Stomach Disease（胃部疾病）** | 99.89% | **L4** | **S1** | **Research Question**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sodium Citrate",
+          "slug": "sodium_citrate",
           "score": 99.0
         }
       ]
@@ -233681,6 +234710,17 @@
         {
           "drug": "Ampicillin",
           "slug": "ampicillin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "**支氣管炎 (Bronchitis)** | 99.992% | **L2** | **50** | **20** | **Research Question**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Salbutamol",
+          "slug": "salbutamol",
           "score": 99.0
         }
       ]
@@ -234867,6 +235907,17 @@
       ]
     },
     {
+      "name": "ADHD, inattentive type | 99.96% | L4 | Research Question | ADHD 亞型節點，機轉推論同主要 ADHD，但無獨立試驗/文獻佐證",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Solriamfetol",
+          "slug": "solriamfetol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "AIDS related complex | 99.56% | L1 | S3 | Proceed with Guardrails",
       "drug_count": 1,
       "drugs": [
@@ -235233,6 +236284,17 @@
       ]
     },
     {
+      "name": "Acromelanosis | 99.96% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selumetinib",
+          "slug": "selumetinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Acromesomelic Dysplasia, Campailla Martinelli Type | 99.83% | 0 | 0 | L5 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -235338,6 +236400,28 @@
           "drug": "Magnesium Trisilicate",
           "slug": "magnesium_trisilicate",
           "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Acute Laryngopharyngitis（急性咽喉炎） | 99.94% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sodium Citrate",
+          "slug": "sodium_citrate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Acute laryngopharyngitis",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Salicylamide",
+          "slug": "salicylamide",
+          "score": 99.97
         }
       ]
     },
@@ -235551,12 +236635,34 @@
       ]
     },
     {
+      "name": "Ambras type hypertrichosis universalis congenita | 99.98% | 0 / 0 | 嵌入雜訊，Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tadalafil",
+          "slug": "tadalafil",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Ambras type hypertrichosis universalis congenita | 99.98% | 887 | L5 | Hold | ❌ 第 8 號染色體結構重排之先天遺傳病，KG 圖噪訊",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Ganirelix",
           "slug": "ganirelix",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Ambras type hypertrichosis universalis congenita | 99.99% | L5 | Hold | 無生物學連結，疑似模型雜訊",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Silodosin",
+          "slug": "silodosin",
           "score": 99.0
         }
       ]
@@ -236693,6 +237799,39 @@
       ]
     },
     {
+      "name": "Benign PEComa | 99.73% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ruxolitinib",
+          "slug": "ruxolitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Benign neoplasm of tongue | 99.72% | 良性上皮腫瘤與 CD123 標靶無關",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tagraxofusp",
+          "slug": "tagraxofusp",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Benign paroxysmal torticollis of infancy | 99.55% | L5 | S0 | Hold（判斷為知識圖譜雜訊，與 SSRI 機轉無生物學合理性）",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sertraline",
+          "slug": "sertraline",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Bilateral Parasagittal Parieto-Occipital Polymicrogyria | **無直接關聯**（腦部結構發育畸形） | Hold",
       "drug_count": 1,
       "drugs": [
@@ -237136,6 +238275,17 @@
       ]
     },
     {
+      "name": "Brain small vessel disease 1（COL4A1 相關遺傳病） | 99.58% | 致病機轉為第四型膠原蛋白結構異常，與 neprilysin/利鈉胜肽路徑無已知關聯，模型分數屬統計關聯而非生物學合理性",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sacubitril",
+          "slug": "sacubitril",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Brain stem infarction | 99.44% | L4 | S0 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -237198,6 +238348,17 @@
         {
           "drug": "Efavirenz",
           "slug": "db00625",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Bronchial adenomas/carcinoids (childhood) | 99.72% | 類癌腫瘤通常不表現 CD123",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tagraxofusp",
+          "slug": "tagraxofusp",
           "score": 99.0
         }
       ]
@@ -238276,6 +239437,28 @@
       ]
     },
     {
+      "name": "Chondroid hamartoma | 99.72% | 良性錯構瘤與 CD123 表現無關",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tagraxofusp",
+          "slug": "tagraxofusp",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Chondromyxoid fibroma | 99.93% | L5 | Hold | 罕見良性骨腫瘤，與神經傳導再回收抑制機轉無已知路徑重疊，判斷為模型雜訊",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Solriamfetol",
+          "slug": "solriamfetol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Choriocarcinoma of ovary | 99.74% | 0 | 0 | 無任何試驗或文獻證據（L5，僅模型預測）",
       "drug_count": 1,
       "drugs": [
@@ -238503,6 +239686,17 @@
       ]
     },
     {
+      "name": "Common cold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Salicylamide",
+          "slug": "salicylamide",
+          "score": 99.93
+        }
+      ]
+    },
+    {
       "name": "Compton-North congenital myopathy | KG + DL",
       "drug_count": 1,
       "drugs": [
@@ -238585,6 +239779,17 @@
       ]
     },
     {
+      "name": "Congenital hypotrichosis milia | 99.23% | 為 LIPH/LPAR6 等基因突變之先天疾病，與腸道瀉下機轉無交集，判斷為偽陽性",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sennosides",
+          "slug": "sennosides",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Congenital hypotrichosis milia | 99.33% | L5 | Hold | 同上，屬遺傳性外胚層發育疾病，與 iloprost 機轉無已知關聯",
       "drug_count": 1,
       "drugs": [
@@ -238602,6 +239807,17 @@
         {
           "drug": "Minoxidil",
           "slug": "minoxidil",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Congenital multiple café-au-lait macules syndrome | 99.96% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selumetinib",
+          "slug": "selumetinib",
           "score": 99.0
         }
       ]
@@ -239114,6 +240330,28 @@
       ]
     },
     {
+      "name": "Dandy-Walker 畸形症候群 | 99.98% | L5 | Hold | 先天結構異常，無關聯",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Silodosin",
+          "slug": "silodosin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Dandy-Walker 畸形相關症候群 | 99.97% | 0 / 0 | 嵌入雜訊，Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tadalafil",
+          "slug": "tadalafil",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Dandy-Walker 畸形相關症候群 | 99.9962% | 0 / 0 | 無（先天性腦部發育異常，與 DHT 無關） | Hold",
       "drug_count": 1,
       "drugs": [
@@ -239210,12 +240448,34 @@
       ]
     },
     {
+      "name": "Diabetic cataract | 99.49% | 無機轉關聯報導",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sotatercept",
+          "slug": "sotatercept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Diabetic retinopathy | 87.89% | L5 | 同第 3 項問題",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Perflubutane",
           "slug": "perflubutane",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Diabetic retinopathy | 99.72% | 同上，無直接證據",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sotatercept",
+          "slug": "sotatercept",
           "score": 99.0
         }
       ]
@@ -239273,6 +240533,17 @@
         {
           "drug": "Lanadelumab",
           "slug": "db14597",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Diffuse alopecia areata | 99.12% | 自體免疫（CD8+ T 細胞）介導疾病，sennosides 無免疫調節作用；長期腹瀉反而可能不利毛髮健康，方向相反",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sennosides",
+          "slug": "sennosides",
           "score": 99.0
         }
       ]
@@ -239364,6 +240635,17 @@
       ]
     },
     {
+      "name": "Drug-induced osteoporosis | 99.65% | **十項中機轉最具合理性者**：早期開發（ACE-011）曾針對 activin A 抑制骨吸收/促進成骨進行研究",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sotatercept",
+          "slug": "sotatercept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Dry eye syndrome | 99.13% | L4 | 6 | 9 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -239403,6 +240685,17 @@
         {
           "drug": "Drospirenone",
           "slug": "db01395",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Ductal or ductular proliferation | 99.72% | 肝膽組織病理描述性名詞，無明確關聯",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tagraxofusp",
+          "slug": "tagraxofusp",
           "score": 99.0
         }
       ]
@@ -239731,6 +241024,17 @@
       ]
     },
     {
+      "name": "Epiglottitis（會厭炎） | 99.77% | L5 | 無機轉關聯，無證據",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sodium Acetate",
+          "slug": "sodium_acetate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Epstein-Barr virus-associated carcinoma | KG + DL",
       "drug_count": 14,
       "drugs": [
@@ -239889,6 +241193,17 @@
         {
           "drug": "Aflibercept",
           "slug": "aflibercept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Esotropia（內斜視） | 99.73% | 眼外肌調節異常，與 CD123 標靶機轉無關聯",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tagraxofusp",
+          "slug": "tagraxofusp",
           "score": 99.0
         }
       ]
@@ -240084,6 +241399,17 @@
       ]
     },
     {
+      "name": "Faciodigitogenital (Aarskog) syndrome | 99.99% | L5 | Hold | 罕見遺傳症候群，與 DNRI 機轉無已知連結，判斷為知識圖譜雜訊",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Solriamfetol",
+          "slug": "solriamfetol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Faciodigitogenital syndrome（Aarskog 症候群） | 99.995% | L5 | S0 | 病因為 FGD1/Rho GTPase 路徑，與多巴胺系統無關，判定為運算假陽性",
       "drug_count": 1,
       "drugs": [
@@ -240167,6 +241493,17 @@
         {
           "drug": "Prucalopride",
           "slug": "prucalopride",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Familial generalized lentiginosis | 99.96% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selumetinib",
+          "slug": "selumetinib",
           "score": 99.0
         }
       ]
@@ -240310,6 +241647,17 @@
         {
           "drug": "Pembrolizumab",
           "slug": "pembrolizumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Fibromyalgia | 99.42% | 1 | 0 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sevoflurane",
+          "slug": "sevoflurane",
           "score": 99.0
         }
       ]
@@ -240638,6 +241986,17 @@
       ]
     },
     {
+      "name": "Gastrocutaneous syndrome | 99.96% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selumetinib",
+          "slug": "selumetinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Gastroduodenitis | 90.22% | L5 | 無胃黏膜保護機轉",
       "drug_count": 1,
       "drugs": [
@@ -240842,6 +242201,28 @@
       ]
     },
     {
+      "name": "Gonococcal Urethritis | 99.90% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sodium Fluoride",
+          "slug": "sodium_fluoride",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Gonococcal urethritis（淋病性尿道炎） | 99.57% | L5 | 無抗菌機轉基礎，無證據",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sodium Acetate",
+          "slug": "sodium_acetate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Goodman syndrome | KG + DL",
       "drug_count": 1,
       "drugs": [
@@ -240958,6 +242339,17 @@
       ]
     },
     {
+      "name": "HANAC 症候群（COL4A1 相關） | 99.57% | 同上，無任何臨床試驗或文獻支持",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sacubitril",
+          "slug": "sacubitril",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "HANAC 綜合症（COL4A1 相關家族性血尿-視網膜動脈迂曲-攣縮症） | 99.49% | Hold | 由 COL4A1 基因突變造成基底膜膠原蛋白缺陷，與 DCA 的 FXR/TGR5 路徑無機轉交集，高分可能源於知識圖譜中血管節點的過度類化",
       "drug_count": 1,
       "drugs": [
@@ -241037,6 +242429,17 @@
         {
           "drug": "Ripretinib",
           "slug": "ripretinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "HER2 positive breast carcinoma | 99.43% | 與 HER2 特異性路徑無直接連結",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sotatercept",
+          "slug": "sotatercept",
           "score": 99.0
         }
       ]
@@ -241575,6 +242978,17 @@
       ]
     },
     {
+      "name": "Histrionic personality disorder | 99.93% | L4 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sertraline",
+          "slug": "sertraline",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Hodgkin's lymphoma, lymphocytic depletion | KG + DL",
       "drug_count": 6,
       "drugs": [
@@ -241891,12 +243305,34 @@
       ]
     },
     {
+      "name": "Hypertrichosis (disease) | 99.98% | 0 / 0 | 嵌入雜訊，Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tadalafil",
+          "slug": "tadalafil",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Hypertrichosis (disease) | 99.98% | 746 | L5 | Hold | ❌ 疾病分類錯誤，非雄性素驅動，機轉不適用",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Ganirelix",
           "slug": "ganirelix",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hypertrichosis (disease) | 99.99% | L5 | Hold | 無直接病理生理連結",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Silodosin",
+          "slug": "silodosin",
           "score": 99.0
         }
       ]
@@ -241919,6 +243355,17 @@
         {
           "drug": "Calcium Glycerophosphate",
           "slug": "calcium_glycerophosphate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hypotrichosis simplex of the scalp | 99.29% | 與毛囊生長通路（Wnt/β-catenin、雄性素受體）無已知關聯，推測為代謝節點雜訊連結",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sennosides",
+          "slug": "sennosides",
           "score": 99.0
         }
       ]
@@ -242753,6 +244200,28 @@
       ]
     },
     {
+      "name": "Inner ear neoplasm | 99.72% | CD123 表現於此腫瘤類型未見報導",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tagraxofusp",
+          "slug": "tagraxofusp",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Insomnia | 99.97% | L2 | Research Question | 機轉矛盾：solriamfetol 為促醒藥物，理論上應加重而非治療失眠；現有試驗多針對共病嗜睡/疲勞，非典型失眠適應症，需人工釐清",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Solriamfetol",
+          "slug": "solriamfetol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Intestinal variant cervical mucinous adenocarcinoma | 99.94% | 無臨床試驗/文獻（唯一有間接機轉類比：CRC 已核准適應症）",
       "drug_count": 1,
       "drugs": [
@@ -243128,6 +244597,17 @@
         {
           "drug": "Siltuximab",
           "slug": "db09036",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Kaposi's sarcoma | 99.28% | L4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Siltuximab",
+          "slug": "siltuximab",
           "score": 99.0
         }
       ]
@@ -244182,6 +245662,17 @@
       ]
     },
     {
+      "name": "Leukonychia totalis-acanthosis nigricans-like lesions 症候群 | 99.95% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selumetinib",
+          "slug": "selumetinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Lewy body dementia | KG + DL",
       "drug_count": 12,
       "drugs": [
@@ -244482,6 +245973,28 @@
         {
           "drug": "Rifabutin",
           "slug": "db00615",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Lymphangioleiomyomatosis (LAM) | 99.64% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ruxolitinib",
+          "slug": "ruxolitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Lymphangiomyoma | 99.72% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ruxolitinib",
+          "slug": "ruxolitinib",
           "score": 99.0
         }
       ]
@@ -245432,6 +246945,17 @@
       ]
     },
     {
+      "name": "Moynahan syndrome (LEOPARD 症候群) | 99.96% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selumetinib",
+          "slug": "selumetinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Moynahan syndrome | KG + DL",
       "drug_count": 7,
       "drugs": [
@@ -245561,6 +247085,17 @@
       ]
     },
     {
+      "name": "Myelitis（脊髓炎） | 99.46% | L5 | 與免疫發炎路徑無直接機轉重疊，合理性最弱",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Safinamide",
+          "slug": "safinamide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Myocardial ischemia（心肌缺血） | 98.53% | S0 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -245611,6 +247146,17 @@
         {
           "drug": "Meloxicam",
           "slug": "meloxicam",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Myositis fibrosa | 99.41% | 0 | 0 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sevoflurane",
+          "slug": "sevoflurane",
           "score": 99.0
         }
       ]
@@ -245705,6 +247251,28 @@
           "drug": "Dostarlimab",
           "slug": "db15627",
           "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Nasal Cavity Disease（鼻腔疾病） | 99.95% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sodium Citrate",
+          "slug": "sodium_citrate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Nasal cavity disease",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Salicylamide",
+          "slug": "salicylamide",
+          "score": 99.97
         }
       ]
     },
@@ -245834,6 +247402,17 @@
         {
           "drug": "Zanamivir",
           "slug": "db00558",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Non-seminomatous lesion | 99.72% | 生殖細胞腫瘤未見 CD123 相關文獻",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tagraxofusp",
+          "slug": "tagraxofusp",
           "score": 99.0
         }
       ]
@@ -246087,6 +247666,17 @@
       ]
     },
     {
+      "name": "Open-angle glaucoma | 99.11% | Sennosides 全身吸收極低，無穿透血眼屏障證據，與房水動力學無藥理基礎",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sennosides",
+          "slug": "sennosides",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Opsismodysplasia | 99.03% | #15,126 | 極低（方向可能相反）| Hold",
       "drug_count": 1,
       "drugs": [
@@ -246203,6 +247793,17 @@
         {
           "drug": "Iopromide",
           "slug": "iopromide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Osteopathia striata-pigmentary dermopathy 症候群 | 99.95% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selumetinib",
+          "slug": "selumetinib",
           "score": 99.0
         }
       ]
@@ -246334,6 +247935,17 @@
         {
           "drug": "Pipemidic Acid",
           "slug": "db13823",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "PLA2G6 相關神經退化症 | 99.22% | L5 | 與帕金森氏症機轉重疊度最高，三者中最具生物學可信度",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Safinamide",
+          "slug": "safinamide",
           "score": 99.0
         }
       ]
@@ -246587,6 +248199,17 @@
       ]
     },
     {
+      "name": "Paget 氏骨病 (Bone Paget Disease)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Roxadustat",
+          "slug": "roxadustat",
+          "score": 99.12
+        }
+      ]
+    },
+    {
       "name": "Pallister-W syndrome | KG + DL",
       "drug_count": 1,
       "drugs": [
@@ -246609,12 +248232,34 @@
       ]
     },
     {
+      "name": "Papillary Conjunctivitis（乳頭狀結膜炎） | 99.95% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sodium Citrate",
+          "slug": "sodium_citrate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Papillary conjunctivitis（乳頭狀結膜炎） | 99.78% | L5 | S0 | Hold",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Prilocaine",
           "slug": "prilocaine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Paranoid personality disorder | 99.93% | L4 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sertraline",
+          "slug": "sertraline",
           "score": 99.0
         }
       ]
@@ -247293,6 +248938,17 @@
       ]
     },
     {
+      "name": "Postgastrectomy Syndrome（胃切除後症候群） | 99.79% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sodium Citrate",
+          "slug": "sodium_citrate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Potassium Deficiency Disease | 99.34% | L5 | **Hold**（無機轉關聯，文獻假陽性）",
       "drug_count": 1,
       "drugs": [
@@ -247411,6 +249067,17 @@
       ]
     },
     {
+      "name": "Primary hereditary glaucoma | 99.10% | 與 MYOC/CYP1B1 基因突變相關之遺傳疾病，與腸道局部作用完全無交集",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sennosides",
+          "slug": "sennosides",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Primary pulmonary lymphoma | 99.41% | L3 | S1 | Research Question",
       "drug_count": 1,
       "drugs": [
@@ -247450,6 +249117,17 @@
         {
           "drug": "Cyproterone Acetate",
           "slug": "cyproterone_acetate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Prinzmetal angina | 99.78% | 0 | 0 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sevoflurane",
+          "slug": "sevoflurane",
           "score": 99.0
         }
       ]
@@ -248029,6 +249707,17 @@
       ]
     },
     {
+      "name": "Rasmussen 亞急性腦炎 | 99.63% | L5 | 抗麩胺酸機轉可能減緩興奮毒性，但與自體免疫核心病理無直接關聯",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Safinamide",
+          "slug": "safinamide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Raynaud Disease（雷諾氏病） | 99.76% | 0 | 0 | L5 | 薄弱 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -248218,6 +249907,17 @@
       ]
     },
     {
+      "name": "Rhabdoid tumor | 99.96% | L3 | S1 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selumetinib",
+          "slug": "selumetinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Rheumatoid Arthritis | 99.97% | L5 | Hold | 4 篇文獻均為 RA 患者併發感染，屬間接引用，非治療 RA",
       "drug_count": 1,
       "drugs": [
@@ -248302,6 +250002,17 @@
         {
           "drug": "Nivolumab",
           "slug": "db09035",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Rienhoff Syndrome | 99.89% | L5 | S0 | **Hold** | 無任何臨床試驗或文獻支持，罕見結締組織疾病與 LABA 機轉無已知關聯",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Salmeterol",
+          "slug": "salmeterol",
           "score": 99.0
         }
       ]
@@ -248607,6 +250318,17 @@
       ]
     },
     {
+      "name": "Schizoid personality disorder | 99.93% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sertraline",
+          "slug": "sertraline",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Schizophrenia（精神分裂症） | 99.996% | L3 | S1 | 機轉矛盾：Rotigotine 為全促效劑，可能誘發/惡化精神病症狀（帕金森病人上市後已知安全性訊號），與陰性症狀假說所需的部分促效劑性質不符",
       "drug_count": 1,
       "drugs": [
@@ -248618,12 +250340,34 @@
       ]
     },
     {
+      "name": "Schizotypal personality disorder | 99.93% | L3 | S1 | **Research Question**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sertraline",
+          "slug": "sertraline",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Sclerosing Cholangitis | 99.98% | L5 | Hold | 0 試驗、0 文獻；PSC 為免疫疾病，抗生素無機轉",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Cefoperazone",
           "slug": "cefoperazone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Sclerosing cholangitis（硬化性膽管炎） | 99.61% | L5 | 無機轉關聯，無證據",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sodium Acetate",
+          "slug": "sodium_acetate",
           "score": 99.0
         }
       ]
@@ -248798,6 +250542,17 @@
         {
           "drug": "Perflubutane",
           "slug": "perflubutane",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Severe nonproliferative diabetic retinopathy | 99.77% | 理論上可能（TGF-β家族與血管新生），未經驗證",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sotatercept",
+          "slug": "sotatercept",
           "score": 99.0
         }
       ]
@@ -249872,6 +251627,17 @@
       ]
     },
     {
+      "name": "Tendinitis | 99.41% | 11 | 0 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sevoflurane",
+          "slug": "sevoflurane",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Thalassemia, beta+, silent allele | 93.32% | **L1** | **S3** | **Proceed with Guardrails**",
       "drug_count": 1,
       "drugs": [
@@ -249971,6 +251737,17 @@
       ]
     },
     {
+      "name": "Thyroglossal duct cyst | 99.72% | 先天性良性囊腫，與細胞毒殺標靶藥物機轉無關",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tagraxofusp",
+          "slug": "tagraxofusp",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Tietz syndrome | KG + DL",
       "drug_count": 3,
       "drugs": [
@@ -249987,6 +251764,17 @@
         {
           "drug": "Acitretin",
           "slug": "db00459",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Tourette syndrome | 99.50% | 0 | 0 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sevoflurane",
+          "slug": "sevoflurane",
           "score": 99.0
         }
       ]
@@ -250145,6 +251933,17 @@
       ]
     },
     {
+      "name": "Trigeminal autonomic cephalalgia",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Salicylamide",
+          "slug": "salicylamide",
+          "score": 99.94
+        }
+      ]
+    },
+    {
       "name": "Trigeminal nerve neoplasm",
       "drug_count": 1,
       "drugs": [
@@ -250152,6 +251951,17 @@
           "drug": "Lorazepam",
           "slug": "lorazepam",
           "score": 99.87
+        }
+      ]
+    },
+    {
+      "name": "Trigeminal schwannoma | 99.95% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selumetinib",
+          "slug": "selumetinib",
+          "score": 99.0
         }
       ]
     },
@@ -250195,6 +252005,17 @@
         {
           "drug": "Ethosuximide",
           "slug": "db00593",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Ureaplasma Urethritis | 99.90% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sodium Fluoride",
+          "slug": "sodium_fluoride",
           "score": 99.0
         }
       ]
@@ -250284,6 +252105,50 @@
         {
           "drug": "Aflibercept",
           "slug": "aflibercept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Urinary Tract Infection | 99.91% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sodium Fluoride",
+          "slug": "sodium_fluoride",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Urinary tract infection | 99.69% | L4 | 有 2 試驗 + 1 文獻，但**皆與 sodium acetate 或 UTI 主要終點無關**（藥物錯配、指標不符）",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sodium Acetate",
+          "slug": "sodium_acetate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Uterine Corpus PEComa | 99.73% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ruxolitinib",
+          "slug": "ruxolitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Uterine Inflammatory Disease | 99.85% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sodium Fluoride",
+          "slug": "sodium_fluoride",
           "score": 99.0
         }
       ]
@@ -256347,6 +258212,17 @@
         {
           "drug": "Trimetazidine Hydrochloride",
           "slug": "db09069",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "aggressive systemic mastocytosis | 99.16% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Siltuximab",
+          "slug": "siltuximab",
           "score": 99.0
         }
       ]
@@ -263266,6 +265142,17 @@
       ]
     },
     {
+      "name": "autosomal dominant familial periodic fever | 99.05% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Siltuximab",
+          "slug": "siltuximab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "autosomal dominant familial periodic fever | KG + DL",
       "drug_count": 4,
       "drugs": [
@@ -263790,6 +265677,17 @@
         {
           "drug": "Histidine Hydrochloride",
           "slug": "db00117",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "autosomal recessive familial Mediterranean fever | 99.22% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Siltuximab",
+          "slug": "siltuximab",
           "score": 99.0
         }
       ]
@@ -294875,6 +296773,17 @@
       ]
     },
     {
+      "name": "extracutaneous mastocytoma | 99.64% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Siltuximab",
+          "slug": "siltuximab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "extracutaneous mastocytoma | KG + DL",
       "drug_count": 9,
       "drugs": [
@@ -306888,6 +308797,17 @@
       ]
     },
     {
+      "name": "hepatic infarction | 99.44% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Siltuximab",
+          "slug": "siltuximab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "hepatic infarction | KG + DL",
       "drug_count": 14,
       "drugs": [
@@ -307021,6 +308941,17 @@
         {
           "drug": "Siltuximab",
           "slug": "db09036",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "hepatic veno-occlusive disease | 99.40% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Siltuximab",
+          "slug": "siltuximab",
           "score": 99.0
         }
       ]
@@ -346660,6 +348591,17 @@
       ]
     },
     {
+      "name": "peliosis hepatis | 99.29% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Siltuximab",
+          "slug": "siltuximab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "peliosis hepatis | KG + DL",
       "drug_count": 13,
       "drugs": [
@@ -371196,6 +373138,17 @@
       ]
     },
     {
+      "name": "syndrome with combined immunodeficiency | 98.85% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Siltuximab",
+          "slug": "siltuximab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "syndrome with combined immunodeficiency | KG + DL",
       "drug_count": 13,
       "drugs": [
@@ -383366,6 +385319,17 @@
       ]
     },
     {
+      "name": "先天性稀毛併幼年型黃斑部退化症",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sulfasalazine",
+          "slug": "sulfasalazine",
+          "score": 99.66
+        }
+      ]
+    },
+    {
       "name": "先天性稀毛合併幼年黃斑部退化症 | L5 | Hold | 無任何試驗或文獻，機轉上與 5-ASA 無重疊，判定為知識圖譜雜訊",
       "drug_count": 1,
       "drugs": [
@@ -383845,6 +385809,28 @@
         {
           "drug": "Dutasteride",
           "slug": "dutasteride",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "呼吸道畸形 (Respiratory Malformation) | 99.91% | L4 | S0 | **Hold** | 附帶證據（氣喘/妊娠用藥/纖毛運動障礙個案）與病名明顯不符，疑為 KG 疾病本體映射錯置",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Salmeterol",
+          "slug": "salmeterol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "咽炎 (Pharyngitis) | 99.994% | L4 | 10 | 10 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Salbutamol",
+          "slug": "salbutamol",
           "score": 99.0
         }
       ]
@@ -384499,6 +386485,17 @@
       ]
     },
     {
+      "name": "孤立性遺傳性毛幹異常 | 99.96% | 0 / 0 | 嵌入雜訊，Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tadalafil",
+          "slug": "tadalafil",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "孤立性遺傳性毛幹異常 | 99.9957% | 0 / 0 | 無（角蛋白結構基因缺陷，非雄激素代謝） | Hold",
       "drug_count": 1,
       "drugs": [
@@ -384868,6 +386865,17 @@
         {
           "drug": "Erythromycin",
           "slug": "erythromycin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "急性喉咽炎 (Acute Laryngopharyngitis) | 99.991% | L5 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Salbutamol",
+          "slug": "salbutamol",
           "score": 99.0
         }
       ]
@@ -385297,6 +387305,17 @@
         {
           "drug": "Galantamine",
           "slug": "galantamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "慢性支氣管炎 (Bronchitis) | 99.92% | L1 | S3 | Proceed with Guardrails | 本報告主要分析對象",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Salmeterol",
+          "slug": "salmeterol",
           "score": 99.0
         }
       ]
@@ -385841,6 +387860,17 @@
       ]
     },
     {
+      "name": "氣喘 (Asthma) | 99.78% | L1 | S3 | Proceed with Guardrails | 屬 Salmeterol 已知核心藥理用途，而非嚴格意義上的「新」適應症",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Salmeterol",
+          "slug": "salmeterol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "水腦症 | 結構性缺損，不適合藥物干預 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -386100,6 +388130,39 @@
         {
           "drug": "Allantoin",
           "slug": "allantoin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "牙周病相關畸形症候群 | 99.97% | 0 / 20 | 文獻非藥物特異性，Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tadalafil",
+          "slug": "tadalafil",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "牙本質發育不全 (Dentinogenesis Imperfecta)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Roxadustat",
+          "slug": "roxadustat",
+          "score": 99.06
+        }
+      ]
+    },
+    {
+      "name": "牙齒/牙周畸形症候群 | 99.99% | L5 | Hold | 20 篇文獻皆關鍵字誤配，非藥物專一性證據",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Silodosin",
+          "slug": "silodosin",
           "score": 99.0
         }
       ]
@@ -386688,6 +388751,17 @@
       ]
     },
     {
+      "name": "短指併指症候群 (Brachydactyly-syndactyly syndrome)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sulfasalazine",
+          "slug": "sulfasalazine",
+          "score": 99.94
+        }
+      ]
+    },
+    {
       "name": "短指併指症候群 | 98.996% | L5 | S0 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -386974,6 +389048,17 @@
       ]
     },
     {
+      "name": "結膜乳頭增生 (Papillary Conjunctivitis) | 99.996% | L5 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Salbutamol",
+          "slug": "salbutamol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "結膜濾泡增生 (Conjunctival Folliculosis) | 99.69% | L5 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -387047,6 +389132,17 @@
           "drug": "Neratinib",
           "slug": "neratinib",
           "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "缺損性小眼球-根性肢端發育不良症候群",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sulfasalazine",
+          "slug": "sulfasalazine",
+          "score": 99.94
         }
       ]
     },
@@ -388459,6 +390555,17 @@
       ]
     },
     {
+      "name": "血紅蛋白病 | 99.18% | 無臨床試驗或文獻；為血紅素基因結構異常疾病，與 neprilysin 抑制機轉無已知關聯",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sacubitril",
+          "slug": "sacubitril",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "表演型人格疾患 | 99.78% | #4,998 | pending | pending",
       "drug_count": 1,
       "drugs": [
@@ -388701,6 +390808,17 @@
       ]
     },
     {
+      "name": "遺傳性毛幹結構異常 | 99.98% | L5 | Hold | 遺傳性角蛋白缺陷，無已知連結",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Silodosin",
+          "slug": "silodosin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "遺傳性熱敏感異型紅血球增多症 | 94.26% | L5 | 膜骨架蛋白缺陷，無關聯",
       "drug_count": 1,
       "drugs": [
@@ -388828,6 +390946,17 @@
         {
           "drug": "Dobutamine",
           "slug": "dobutamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "阻塞性肺病 (Obstructive Lung Disease) | 99.89% | L1 | S3 | Proceed with Guardrails | COPD/氣喘上位概念詞，機轉直接對應",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Salmeterol",
+          "slug": "salmeterol",
           "score": 99.0
         }
       ]
@@ -389108,6 +391237,17 @@
       ]
     },
     {
+      "name": "類風濕性關節炎 | 99.35% | 無臨床試驗或文獻；neprilysin 與 RA 主要致病路徑（TNF-α、IL-6）無直接連結",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sacubitril",
+          "slug": "sacubitril",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "類風濕性關節炎（Rheumatoid arthritis） | 97.32% | 0 | 0 | L5 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -389262,6 +391402,17 @@
       ]
     },
     {
+      "name": "骨關節炎易感性（遺傳）",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sulfasalazine",
+          "slug": "sulfasalazine",
+          "score": 99.88
+        }
+      ]
+    },
+    {
       "name": "骨髓性白血病 (Myeloid Leukemia) | 98.94% | L2 | S2 | **Proceed with Guardrails**",
       "drug_count": 1,
       "drugs": [
@@ -389372,6 +391523,17 @@
       ]
     },
     {
+      "name": "鱗狀細胞癌 (Squamous Cell Carcinoma)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Roxadustat",
+          "slug": "roxadustat",
+          "score": 99.02
+        }
+      ]
+    },
+    {
       "name": "麻風病（Leprosy） | 99.82% | L5 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -389455,6 +391617,17 @@
         {
           "drug": "Imipenem",
           "slug": "imipenem",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "鼻腔疾病 (Nasal Cavity Disease) | 99.994% | L4 | 2 | 2 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Salbutamol",
+          "slug": "salbutamol",
           "score": 99.0
         }
       ]

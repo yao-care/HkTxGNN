@@ -1,0 +1,109 @@
+---
+layout: default
+title: Stannous Fluoride
+parent: 僅模型預測 (L5)
+nav_order: 705
+evidence_level: L5
+indication_count: 1
+---
+
+# Stannous Fluoride
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **1** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Stannous Fluoride：從牙科局部應用到 Meningococcal Infection
+
+## 一句話總結
+
+Stannous Fluoride（氟化亞錫）是一種局部用牙科製劑，主要用於防齲齒與牙齒敏感。
+TxGNN 模型預測它可能對**腦膜炎雙球菌感染 (Meningococcal Infection)** 有效，
+但目前**無任何臨床試驗或文獻**支持這個方向，機轉關聯性亦存疑。
+
+---
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 牙科局部應用（防齲齒/牙齒敏感，依機轉推論；原始適應症資料缺失） |
+| 預測新適應症 | 腦膜炎雙球菌感染 (Meningococcal Infection) |
+| TxGNN 預測分數 | 99.66% |
+| 證據等級 | L5 |
+| 香港上市 | 未上市 |
+| 許可證數 | 0 |
+| 建議決策 | Hold |
+
+---
+
+## 為什麼這個預測合理？
+
+Stannous Fluoride 為局部用牙科製劑，主要作用機轉為抑制口腔細菌的醣解代謝，並形成氟化磷灰石以強化琺瑯質，屬於**局部/表面作用**，並無全身性抗菌譜資料。
+
+原適應症的完整資料目前缺失（Data Gap），且沒有任何已知機轉可以解釋此藥物對 *Neisseria meningitidis*（腦膜炎雙球菌）全身性感染的治療效果。
+
+**評估結論：** 由於缺乏機轉合理性支持，此預測很可能是 TxGNN 知識圖譜關聯性推論所產生的**偽陽性**，而非具生物學基礎的老藥新用候選。
+
+---
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記
+
+---
+
+## 文獻證據
+
+目前無相關文獻
+
+---
+
+## 香港上市資訊
+
+Stannous Fluoride 目前在香港**未上市**，無許可證資料可供列示。
+
+---
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+---
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 證據等級僅 L5（純模型預測，無任何臨床試驗或文獻佐證）
+- 機轉關聯性分析顯示局部牙科用藥與全身性腦膜炎雙球菌感染之間缺乏生物學合理性，偽陽性可能性高
+
+**若要推進需要：**
+- 補齊 TFDA（或香港）仿單警語與禁忌症資料（DG001，Blocking，目前無法進入 S1 安全性初評）
+- 補齊作用機轉 (MOA) 資料，以利機轉關聯性重新評估（DG002，High）
+- 補齊原始適應症完整資訊
+- 若後續有全身性投藥途徑或抗菌相關研究出現，需重新檢視此預測的證據等級
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

@@ -1,0 +1,97 @@
+---
+layout: default
+title: Sodium Carbonate
+parent: 僅模型預測 (L5)
+nav_order: 692
+evidence_level: L5
+indication_count: 10
+---
+
+# Sodium Carbonate
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **10** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Sodium carbonate：從無核准適應症到馬尾症候群（Cauda Equina Syndrome）
+
+## 一句話總結
+
+Sodium carbonate（DrugBank DB09460）目前在香港**未上市**，無核准適應症資料，屬於鹼化劑/工業用途原料。
+TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效，
+但目前**沒有臨床試驗**、也**沒有文獻**支持這個方向，證據等級僅為 L5（純模型預測）。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 無核准適應症資料（香港未上市，0 張許可證） |
+| 預測新適應症 | 馬尾症候群 (Cauda Equina Syndrome) |
+| TxGNN 預測分數 | 99.80% |
+| 證據等級 | L5 |
+| 香港上市 | 未上市 |
+| 許可證數 | 0 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+目前缺乏詳細的作用機轉資料，且此藥物在香港未上市，無核准適應症可供參照。
+
+根據證據包內的機轉分析：「無可辨識機轉關聯；Sodium carbonate 為鹼化劑/工業用途原料，與脊髓神經壓迫症候群無已知藥理路徑，僅 TxGNN 分數高但無支持證據。」換言之，這是 TxGNN 模型單純依據知識圖譜結構關聯性給出的高分預測，缺乏藥理機轉或臨床證據佐證，目前無法建立生物學合理性。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記
+
+## 文獻證據
+
+目前無相關文獻
+
+## 香港上市資訊
+
+此藥物目前未在香港取得任何上市許可（0 張許可證）。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+預測新適應症（馬尾症候群）完全缺乏臨床試驗與文獻證據支持，且藥物本身未在香港上市、無核准適應症與機轉資料，證據等級僅達 L5，不建議推進。
+
+**若要推進需要：**
+- 取得 Sodium carbonate 的詳細藥理機轉資料（MOA）
+- 查證國際藥典是否有其核准適應症與安全性資料（警語、禁忌症、DDI）
+- 針對馬尾症候群尋找臨床前或機轉層面的支持證據
+
+**補充備註：** 本評估包內其他預測適應症證據相對較強，值得另案評估：
+- **Sjögren syndrome**（rank 9，L3，Research Question）：有文獻顯示碳酸鈉噴劑合併口腔衛生處置可改善口乾症狀
+- **Dry eye syndrome**（rank 5，L3，Research Question）：同一篇文獻的延伸適應症推論，但證據僅限口腔黏膜，尚未驗證於眼表
+
+若後續要推進老藥新用評估，建議以此二者為優先，而非目前排名第一但無證據支持的馬尾症候群。
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

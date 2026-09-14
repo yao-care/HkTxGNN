@@ -1,0 +1,91 @@
+---
+layout: default
+title: Sodium Zirconium Cyclosilicate
+parent: 僅模型預測 (L5)
+nav_order: 697
+evidence_level: L5
+indication_count: 10
+---
+
+# Sodium Zirconium Cyclosilicate
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **10** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Sodium zirconium cyclosilicate：原適應症資料缺失，預測新適應症為乳房纖維囊性病變
+
+## 一句話總結
+
+Sodium zirconium cyclosilicate（DB14048）原適應症資料本次未提供，且藥物尚未在香港上市。
+TxGNN 模型預測它可能對**乳房纖維囊性病變 (Breast Fibrocystic Disease)** 有效，
+但目前**無任何臨床試驗或文獻支持**，且模型自身機轉分析判定此為潛在假陽性。
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 未提供（Evidence Pack 未列出，藥物尚未於香港上市） |
+| 預測新適應症 | 乳房纖維囊性病變 (Breast Fibrocystic Disease) |
+| TxGNN 預測分數 | 93.41% |
+| 證據等級 | L5（僅模型預測，無臨床試驗或文獻佐證） |
+| 香港上市 | 未上市 |
+| 許可證數 | 0 |
+| 建議決策 | Hold |
+
+## 為什麼這個預測合理？
+
+目前缺乏詳細的作用機轉資料。根據 Evidence Pack 中的機轉分析，Sodium zirconium cyclosilicate（商品名 Lokelma）是一種腸道非吸收型鋯矽酸鹽陽離子交換劑，僅在腸腔內局部結合鉀離子（及少量氫、鈉離子），**無全身吸收**。
+
+這個機轉特性使其與乳房纖維囊性病變的內分泌/上皮增生病理機轉**沒有已知的藥理連結**。Evidence Pack 中的機轉分析明確指出，這項預測「無機轉支持，判斷為潛在假陽性」。
+
+值得注意的是，本次前 10 名預測候選中有 8 個都是乳房相關良性病變（纖維囊性病變、乳腺增生、導管腺病、脂肪壞死等），推測是知識圖譜嵌入空間中節點相似度造成的群聚訊號，而非真實的藥理學關聯；另外 2 個候選（遺傳性凝血因子缺乏症）同樣缺乏機轉基礎。整體而言，此批預測結果的機轉可信度偏低。
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+## 文獻證據
+
+目前無相關文獻。
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 前 10 名預測適應症皆為 L5 等級（僅有 TxGNN 分數，無臨床試驗或文獻佐證），且模型自身機轉分析已判定此預測群為潛在假陽性。
+- 藥物尚未在香港上市，仿單警語、禁忌症與 MOA 資料皆缺失，無法進行 S1 安全性初評。
+
+**若要推進需要：**
+- 補充 TFDA/香港衛生署仿單完整警語與禁忌症資料（DG001，Blocking severity，需先解除才能進入 S1）
+- 透過 DrugBank API 查詢完整作用機轉資料（DG002）
+- 重新檢視 TxGNN 全量預測清單，尋找機轉合理、且有實證支持的候選適應症（目前前 10 名均為 Hold，不建議以此清單推進）
+- 若確認無合理候選，建議此藥物暫緩老藥新用評估
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

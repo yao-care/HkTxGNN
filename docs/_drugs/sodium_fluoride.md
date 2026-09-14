@@ -1,0 +1,129 @@
+---
+layout: default
+title: Sodium Fluoride
+parent: 僅模型預測 (L5)
+nav_order: 694
+evidence_level: L5
+indication_count: 5
+---
+
+# Sodium Fluoride
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **5** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Sodium Fluoride：原適應症資料缺乏，TxGNN 預測多項低信心適應症
+
+## 一句話總結
+
+Sodium Fluoride（DB09325）目前未在香港上市，無核准適應症與作用機轉資料。
+TxGNN 模型預測其可能對**會厭炎 (Epiglottitis)** 等 5 項疾病有效，分數均高達 **99.8% 以上**，
+但**全部 5 項預測皆無任何臨床試驗或文獻支持**，且模型自身的機轉推理也明確指出「無合理機轉」。
+
+---
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 無登記資料（未上市，無核准適應症） |
+| 預測新適應症 | 會厭炎 (Epiglottitis) |
+| TxGNN 預測分數 | 99.92% |
+| 證據等級 | L5 |
+| 香港上市 | ✗ 未上市 |
+| 許可證數 | 0 |
+| 建議決策 | Hold |
+
+---
+
+## 為什麼這個預測合理？
+
+目前缺乏 Sodium Fluoride 的作用機轉資料，且原始適應症亦無登記紀錄，因此無法進行常規的機轉關聯性分析。
+
+根據 Evidence Pack 本身附帶的機轉推理（`repurposing_rationale`），5 項預測**皆被判定缺乏生物學合理性**：
+
+- **會厭炎**：多為細菌性急性感染（如 H. influenzae），需抗生素治療；氟化鈉已知藥理僅涉及牙齒/骨骼氫氧磷灰石轉化及糖解酶抑制，與呼吸道感染防治無已知連結。
+- **泌尿道感染**：致病菌以腸道菌為主，氟化鈉唯一具實證的抗菌相關作用僅限高濃度局部抑制口腔菌斑代謝，無全身性或泌尿道抗菌機轉文獻支持。
+- **Ureaplasma 尿道炎**：需大環內酯類/四環素類抗生素；氟化鈉無已知抗支原體活性。
+- **淋病性尿道炎**：需 β-內醯胺類等抗生素；氟化鈉作用標靶與 Neisseria gonorrhoeae 無交集。
+- **子宮發炎性疾病**：病因多元，需對應抗菌或抗發炎治療；氟化鈉無已知抗發炎或婦科藥理記載。
+
+**結論：這 5 項高分預測應視為 TxGNN 知識圖譜關聯性的統計產物，而非具生物學合理性的老藥新用候選。**
+
+---
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記。
+
+---
+
+## 文獻證據
+
+目前無相關文獻。
+
+---
+
+## 香港上市資訊
+
+Sodium Fluoride 目前未在香港取得任何藥品許可證（`total_licenses: 0`）。
+
+---
+
+## 其他預測適應症一覽（Rank 2-5）
+
+| 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 決策 |
+|------|-----------|-----------|---------|------|
+| 2 | Urinary Tract Infection | 99.91% | L5 | Hold |
+| 3 | Ureaplasma Urethritis | 99.90% | L5 | Hold |
+| 4 | Gonococcal Urethritis | 99.90% | L5 | Hold |
+| 5 | Uterine Inflammatory Disease | 99.85% | L5 | Hold |
+
+以上皆為零試驗、零文獻、機轉不合理的低信心預測，性質與 Rank 1 一致。
+
+---
+
+## 安全性考量
+
+安全性資訊完全缺失（`key_warnings`、`contraindications`、DDI 查詢均未找到資料），
+且「仿單警語/禁忌」被列為 **Blocking** 等級資料缺口（DG001），無法完成 S1 安全性初評。
+安全性資訊請參考原廠仿單或藥監局官方資料。
+
+---
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 5 項預測適應症皆為 L5（僅模型預測，零試驗、零文獻），且模型自身機轉推理已明確標註「無合理機轉」。
+- 藥物未在香港上市，無核准適應症與 MOA 資料，安全性評估存在 Blocking 等級資料缺口，無法進入 S1 初評。
+
+**若要推進需要：**
+- 補齊作用機轉（MOA）資料（DG002，來源：DrugBank）
+- 補齊仿單警語/禁忌資料（DG001，Blocking，來源：TFDA/香港藥監局官網）
+- 若上述資料補齊後機轉仍不成立，建議直接終止此候選，不進入後續證據收集階段
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+

@@ -1,0 +1,120 @@
+---
+layout: default
+title: Sacituzumab Govitecan
+parent: 僅模型預測 (L5)
+nav_order: 669
+evidence_level: L5
+indication_count: 10
+---
+
+# Sacituzumab Govitecan
+{: .fs-9 }
+
+證據等級: **L5** | 預測適應症: **10** 個
+{: .fs-6 .fw-300 }
+
+---
+
+## 目錄
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+<div id="pharmacist">
+
+## 藥師評估報告
+
+</div>
+
+# Sacituzumab govitecan：從腫瘤治療到藥物誘發性骨質疏鬆症
+
+## 一句話總結
+
+Sacituzumab govitecan 是一種標靶 Trop-2 的抗體藥物複合體（ADC），目前**香港未上市**，正式的原適應症與作用機轉資料均缺失。TxGNN 模型列出的前 10 項預測新適應症（藥物誘發性骨質疏鬆症、糖尿病視網膜病變、白內障等）**在機轉評估中均被判定為缺乏生物學合理性**，且**無任何臨床試驗或文獻佐證**，研判為 embedding 資料缺口造成的雜訊，而非真實訊號。
+
+---
+
+## 快速總覽
+
+| 項目 | 內容 |
+|------|------|
+| 原適應症 | 香港仿單資料缺失（藥物已知為 Trop-2 標靶 ADC，用於腫瘤治療） |
+| 預測新適應症 | 藥物誘發性骨質疏鬆症 (Drug-induced Osteoporosis) |
+| TxGNN 預測分數 | 99.78% |
+| 證據等級 | L5（僅模型預測，無臨床試驗或文獻） |
+| 香港上市 | ✗ 未上市 |
+| 許可證數 | 0 張 |
+| 建議決策 | **Hold** |
+
+---
+
+## 為什麼這個預測合理？
+
+**結論：不合理。** 根據 evidence pack 中的機轉分析，這 10 項預測適應症均無法與藥物已知藥理機轉建立合理連結。
+
+Sacituzumab govitecan 是 Trop-2 標靶抗體，搭載 SN-38（Topoisomerase I 抑制劑）作為細胞毒性彈頭，作用於快速分裂細胞。這樣的機轉與骨質疏鬆症的成骨/蝕骨平衡調控、糖尿病視網膜病變的微血管病變、白內障的水晶體蛋白聚集等病理機轉**完全沒有已知交集**。
+
+更值得注意的是，機轉方向甚至可能相反：ADC 的全身性細胞毒性（骨髓抑制）在腫瘤治療中屬已知不良反應，若用於本應長期給藥的慢性病（如骨質疏鬆、糖尿病視網膜病變），風險效益比極不相稱。此高分預測很可能是因為 `drug.original_moa` 標示為 `[Data Gap]`，導致模型在 embedding 空間中缺乏正確的機轉錨定資訊而產生雜訊。
+
+---
+
+## 臨床試驗證據
+
+目前無相關臨床試驗登記（10 項預測適應症之 `clinical_trials` 與 `ictrp_trials` 皆為空）。
+
+---
+
+## 文獻證據
+
+目前無相關文獻。
+
+---
+
+## 香港上市資訊
+
+Sacituzumab govitecan 目前**未在香港取得任何藥品許可證**（`total_licenses = 0`），無許可證資料可列出。
+
+---
+
+## 細胞毒性
+
+Sacituzumab govitecan 屬抗體藥物複合體（ADC），符合抗腫瘤/細胞毒性藥物判定標準（Trop-2 標靶抗體 + SN-38 細胞毒性彈頭）。
+
+| 項目 | 內容 |
+|------|------|
+| 細胞毒性分類 | 標靶藥物合併細胞毒性彈頭（ADC；彈頭為 Topoisomerase I 抑制劑 SN-38，伊立替康活性代謝物同類） |
+| 骨髓抑制風險 | 中高（依 SN-38 已知藥理特性推論；正式毒性資料缺失） |
+| 致吐性分級 | 請參考原廠仿單的警語與注意事項 |
+| 監測項目 | 建議監測 CBC（含分類）、肝腎功能；正式監測建議請參考原廠仿單 |
+| 處置防護 | 請參考原廠仿單的警語與注意事項 |
+
+---
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單（`key_warnings`、`contraindications`、`DDI` 均無資料）。
+
+---
+
+## 結論與下一步
+
+**決策：Hold**
+
+**理由：**
+- 10 項預測適應症皆為 L5 等級（僅模型分數，無臨床試驗或文獻支持），且機轉分析明確指出缺乏生物學合理性，高分可能源自 `original_moa` 資料缺口造成的模型雜訊。
+- 藥物尚未在香港上市，安全性與仿單資料全數缺失（DG001 為 Blocking 等級缺口），不具備進入 S1 安全性初評的條件。
+
+**若要推進需要：**
+- 補齊 TFDA/香港仿單之警語與禁忌症資料（DG001，Blocking，需下載仿單 PDF 解析）
+- 補齊 DrugBank 作用機轉資料（DG002，High，查詢 DrugBank API）
+- 若要探索老藥新用方向，建議優先評估與其 ADC/細胞毒性藥理機轉相符的**腫瘤相關適應症**，而非本次清單中列出的非腫瘤慢性病適應症
+## Disclaimer
+
+This content is for research purposes only and does not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+
