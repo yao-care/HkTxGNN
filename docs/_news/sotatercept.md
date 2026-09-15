@@ -3,7 +3,7 @@ layout: default
 title: "Sotatercept 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Sotatercept 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Sotatercept 的相關健康新聞報導。原適應症：。預測適應症 5 個。"
 permalink: /news/sotatercept/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sotatercept/
 ---
 
 <p class="key-answer" data-question="Sotatercept 有什麼相關新聞？">
-<strong>Sotatercept</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>Sotatercept</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 5 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ permalink: /news/sotatercept/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>預測適應症</strong>（5 個）：<ul>
+<li>Drug-induced osteoporosis | 99.65% | **十項中機轉最具合理性者**：早期開發（ACE-011）曾針對 activin A 抑制骨吸收/促進成骨進行研究（99.0%）</li>
+<li>Severe nonproliferative diabetic retinopathy | 99.77% | 理論上可能（TGF-β家族與血管新生），未經驗證（99.0%）</li>
+<li>Diabetic retinopathy | 99.72% | 同上，無直接證據（99.0%）</li>
+<li>Diabetic cataract | 99.49% | 無機轉關聯報導（99.0%）</li>
+<li>HER2 positive breast carcinoma | 99.43% | 與 HER2 特異性路徑無直接連結（99.0%）</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sotatercept/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

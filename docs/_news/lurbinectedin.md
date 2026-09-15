@@ -3,7 +3,7 @@ layout: default
 title: "Lurbinectedin 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Lurbinectedin 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Lurbinectedin 的相關健康新聞報導。原適應症：。預測適應症 9 個。"
 permalink: /news/lurbinectedin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lurbinectedin/
 ---
 
 <p class="key-answer" data-question="Lurbinectedin 有什麼相關新聞？">
-<strong>Lurbinectedin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>Lurbinectedin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 9 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,17 @@ permalink: /news/lurbinectedin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>預測適應症</strong>（9 個）：<ul>
+<li>HIV infectious disease | 99.34% | 無 | Hold（99.0%）</li>
+<li>Rheumatoid arthritis | 99.26% | 無 | Hold（99.0%）</li>
+<li>Amyotrophic lateral sclerosis | 99.26% | 無 | Hold（99.0%）</li>
+<li>Cytomegalovirus infection | 99.14% | 無 | Hold（99.0%）</li>
+<li>Simian immunodeficiency virus infection（動物模式，非人類適應症） | 99.09% | 無 | Hold（99.0%）</li>
+<li>Feline acquired immunodeficiency syndrome（獸醫適應症） | 99.09% | 無 | Hold（99.0%）</li>
+<li>Infectious bovine rhinotracheitis（獸醫適應症） | 99.09% | 無 | Hold（99.0%）</li>
+<li>Malignant catarrh（獸醫適應症） | 99.09% | 無 | Hold（99.0%）</li>
+<li>Mills syndrome | 99.08% | 無 | Hold（99.0%）</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/lurbinectedin/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
