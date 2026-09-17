@@ -137,10 +137,10 @@ TxGNN 將「toxemia of pregnancy」（妊娠毒血症，子癲前症/子癲症�
 - 若確定香港未上市，需評估在地上市申請路徑與監管要求
 - 對 rank 3（thrombotic disease）建議將目標適應症限縮為 TTP 並持續追蹤 MAGMAT 試驗最終結果
 - 對 rank 4、5 暫緩投入資源，待疾病節點映射與證據品質問題釐清後再評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

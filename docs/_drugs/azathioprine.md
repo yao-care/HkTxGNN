@@ -130,10 +130,10 @@ AZA 用於炎症性腸病（Crohn's Disease 及潰瘍性結腸炎）具有 L1 �
 - 評估台灣 IBD 患者族群的臨床未滿足需求，研擬特殊藥品輸入申請策略
 - 制定包含 **TPMT 基因型篩檢**前置條件的安全監測計畫
 - 明確排除 TxGNN 第 1–4 項預測（罕見遺傳性發育疾病及原發性免疫缺陷，確認為假陽性），並標記第 4 項（WHIM syndrome）及第 6、8 項（CGD 相關）為**機轉反適應症**
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

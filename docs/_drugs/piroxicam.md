@@ -88,10 +88,10 @@ PIROXICAM 目前未於香港上市，無許可證紀錄。
 - 補齊 PIROXICAM 的作用機轉（MOA）與原適應症紀錄
 - 至少一項臨床前或機轉相關研究，證實 piroxicam 與此適應症之間存在合理連結
 - 持續監測是否有新增臨床試驗或文獻證據出現
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

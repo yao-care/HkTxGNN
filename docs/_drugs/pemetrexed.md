@@ -129,10 +129,10 @@ Pemetrexed 屬已上市多年的細胞毒殺性化療藥物（抗葉酸類），
 - 確認詳細作用機轉（MOA）之官方來源資料（DG002）
 - 確認香港上市與許可證狀態（現況：未上市，0 張許可證）
 - 比較同批預測中證據更強的候選適應症（惡性胸膜間皮瘤 L1／胸膜上皮樣間皮瘤 L1），評估是否優先推進整體「間皮瘤」適應症擴增策略，而非單獨聚焦腹膜亞型
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

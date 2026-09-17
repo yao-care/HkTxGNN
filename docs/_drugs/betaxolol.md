@@ -94,10 +94,10 @@ TxGNN 模型預測分數高達 99.74%，機轉關聯性充分且具說服力；�
 - 搜尋基因型特異性青光眼（如 MYOC 突變型）的輔助降眼壓治療相關研究
 - 評估香港是否有同類藥物（timolol、carteolol 等）的上市先例，作為監管路徑參考
 - 若決定推進，需諮詢香港藥劑業及毒藥管理局的孤兒藥或特殊適應症申請途徑
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

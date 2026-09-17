@@ -100,10 +100,10 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 - 取得 Caffeine（DrugBank DB00201）完整 MOA 資料
 - 補充香港 HKDH 相關仿單警語與禁忌症資料以完成安全性初評
 - 確認適合鼻腔疾病適應症的給藥途徑及劑型規格
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

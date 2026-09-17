@@ -110,10 +110,10 @@ Benzbromarone 是目前已知最強效的 URAT1（SLC22A12）抑制劑之一，�
 - **本預測建議不推進**；此案例應標記為假陽性典型案例，供 TxGNN 模型優化（加入作用方向性過濾規則）
 - 若有意探索腎性低尿酸血症的治療策略，應尋找能**補償或恢復 URAT1 功能**的候選藥物，或針對運動誘發急性腎衰竭的預防措施（如充分水化）
 - 建議對此類「藥物與疾病共享抑制靶點，但疾病為該靶點功能喪失」的結構型假陽性，建立系統性篩除規則
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

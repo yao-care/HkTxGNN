@@ -100,10 +100,10 @@ Nusinersen 目前**未在香港上市**，無許可證資料。
 - 補齊 Nusinersen 的 DrugBank MOA 資料。
 - 取得 TFDA/香港仿單警語與禁忌症，解除 Blocking 等級資料缺口。
 - 若後續模型版本對此藥物產生分數明顯更高、且機轉分析支持的候選適應症，應重新評估；目前 10 個候選皆為同分（0.5）且機轉不成立，不建議投入資源進一步查證。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

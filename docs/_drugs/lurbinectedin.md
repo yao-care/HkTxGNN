@@ -112,10 +112,10 @@ Lurbinectedin 屬抗腫瘤藥物（DNA 小溝結合、抑制致癌基因轉錄�
 - 透過 DrugBank API 或原廠資料補齊完整作用機轉（DG002）
 - 針對排名第一的候選適應症（Multiple Endocrine Neoplasia）尋找是否有臨床前或病例層級證據，目前為零筆
 - 若無法在合理時間內取得任何臨床試驗或文獻支持，建議直接排除此批候選，不進入下一階段評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

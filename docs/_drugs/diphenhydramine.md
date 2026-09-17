@@ -102,10 +102,10 @@ Diphenhydramine 目前在香港**未有已登記許可證**，無核准上市產
 - 評估局部眼用劑型（eye drops）是否可規避全身抗膽鹼副作用
 - 獲取香港或其他地區的上市許可證資料，了解目前核准的安全性輪廓
 - 考慮以乾眼症（dry eye）/過敏性結膜炎（allergic conjunctivitis）作為替代預測方向，機轉匹配度可能更高
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

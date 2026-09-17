@@ -124,10 +124,10 @@ TxGNN 模型預測它對 **C1 Inhibitor Deficiency（C1 抑制物缺乏症，即
 - 補齊正式的藥物作用機轉（MOA）文獻佐證（High 缺口）
 - 評估台灣上市或專案進口之法規途徑
 - 其餘 4 個低分候選適應症（serpinopathy、pseudo-von Willebrand disease、primary release disorder of platelets、immune-mediated necrotizing myopathy）均為 L5、無臨床試驗或文獻支持，機轉關聯薄弱，暫不建議投入資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

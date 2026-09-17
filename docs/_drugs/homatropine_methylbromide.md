@@ -85,10 +85,10 @@ TxGNN 模型預測它可能對**胃十二指腸炎 (Gastroduodenitis)** 有效�
 - 補充安全性警語與禁忌症（下載原廠仿單 PDF 解析，填補 DG001 缺口）
 - 搜尋 *H. pylori* 相關或胃炎輔助治療的前臨床研究，確認是否存在 L4 等級以上證據
 - 評估香港申請許可證（NDA）的法規可行性，作為後續在地化佈局依據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

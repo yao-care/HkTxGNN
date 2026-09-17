@@ -97,10 +97,10 @@ Exposure keratitis 屬機械性角膜病變，非細菌感染性疾病，抗生�
 - **建議優先評估更具證據基礎的預測適應症**：
   - **Rank 5：Post-bacterial disorder / ABSSSI**（NCT02570490，已完成 Phase 3 RCT，716 例，口服 fusidic acid 鈉鹽 vs. linezolid），證據等級 L2，決策建議 Proceed with Guardrails
   - **Rank 3：Otitis externa（外耳炎）**，有機轉合理性（S. aureus 主要病原），可作為研究問題進一步探索
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

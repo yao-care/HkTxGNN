@@ -113,10 +113,10 @@ Acitretin 在香港目前**未有上市許可**，無相關藥品登記資料可
 - 補充完整 MOA 資料：查詢 DrugBank API（DB00459）取得官方作用機轉說明
 - 補充安全性資料：下載原廠仿單 PDF 並解析警語、禁忌症及致畸胎性管理規範（TFDA 官網）
 - 評估 isotretinoin 與 acitretin 的競爭定位，確認在何種臨床情境下 acitretin 具有替代價值
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

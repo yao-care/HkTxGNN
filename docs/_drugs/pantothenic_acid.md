@@ -159,10 +159,10 @@ Pantothenic acid 目前在香港**未上市**，無登記許可證，無法提�
 - 補齊作用機轉 (MOA) 資料（DG002，High）
 - 針對「葉酸缺乏性貧血」設計泛酸單一成分之特異性介入研究，排除多重營養素混淆因子
 - 確認香港（或其他司法管轄）之上市與許可證狀態
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

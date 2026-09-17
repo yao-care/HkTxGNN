@@ -128,10 +128,10 @@ Clobetasol Propionate 對炎症性皮疹（Exanthem）的治療具有明確的�
 - 補充仿單中的警語、禁忌症及藥物交互作用資料（TFDA 或原廠仿單 PDF）
 - 明確 Exanthem 的研究亞型：建議優先考慮**口腔扁平苔癬**，因其直接 clobetasol 臨床試驗最多（包含多個已完成 Phase 2/3 RCT）
 - 評估 Acne Keloidalis Nuchae 作為獨立次要研究問題的可行性（需補充 RCT 設計方案）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

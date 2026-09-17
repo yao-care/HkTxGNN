@@ -102,10 +102,10 @@ Darunavir 是第二代非肽類 HIV-1 蛋白酶抑制劑，透過與病毒蛋白
 - **補充 MOA 詳細文件**（目前為 Data Gap）：確認 Darunavir 對 SIV 蛋白酶的直接抑制活性數據（IC₅₀、結晶結構等）
 - **重新定向評估**：若目標為真正的老藥新用開發，建議以 Darunavir 對 HIV 以外的人類疾病（如 SARS-CoV-2 蛋白酶抑制、相關機轉疾病）為優先評估方向
 - **補充香港上市資訊**：目前無許可登記，若需在港使用，需釐清引進或臨床試驗申請路徑
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

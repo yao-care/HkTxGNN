@@ -115,10 +115,10 @@ Clobetasol 目前在香港**未有已登記許可證**，無法提供上市品�
 - 確認詳細作用機轉（MOA）資料（目前為 Data Gap），以強化機轉關聯性分析
 - 針對 CTCL 患者族群（免疫功能可能受損）制定皮膚副作用監測計畫（皮膚萎縮、毛囊炎、HPA 軸抑制等）
 - 考慮啟動前瞻性觀察性研究或參與多中心 IIT（Investigator-Initiated Trial），以建立 Phase 2 等級的療效證據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

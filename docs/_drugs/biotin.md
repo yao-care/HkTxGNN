@@ -108,10 +108,10 @@ Biotin（生物素，維生素 B7）是人體羧化酶不可或缺的輔酶，�
 - 設計專門評估「單一 Biotin 補充 vs. 消化不良症狀」的前瞻性機轉研究或小型 Proof-of-Concept 臨床試驗
 - 取得藥物完整安全性資料（禁忌症、警語）以進行初步 S1 安全性評估
 - 確認台灣當地的上市許可途徑，評估 Biotin 以膳食補充品或藥品身份進入市場的法規可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

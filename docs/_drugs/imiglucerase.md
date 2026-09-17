@@ -112,10 +112,10 @@ indication_count: 10
 - 補充 Imiglucerase 完整作用機轉 (MOA) 資料（查詢 DrugBank API），釐清是否存在任何與黏多醣代謝路徑相關的旁證
 - 若仍考慮推進，應先進行體外或動物模型驗證，確認 glucocerebrosidase 補充是否對 IDUA 相關代謝路徑有任何實質影響（目前無此類機轉證據）
 - 確認香港上市與藥證申請可行性（目前完全未上市，無許可證資料）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

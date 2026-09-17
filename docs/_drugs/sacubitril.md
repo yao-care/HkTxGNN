@@ -125,10 +125,10 @@ Sacubitril 目前**尚未於香港上市**（未取得任何許可證登記）�
 - 補齊 Sacubitril 完整作用機轉資料，釐清 sacubitril 單體 vs. valsartan 併用對腎臟保護效果的貢獻比例（High 缺口 DG002）
 - 追蹤 NCT06501651 招募與期中結果，作為是否進入下一階段的關鍵觸發點
 - 確認香港是否已有 sacubitril/valsartan 複方（Entresto）上市及其核准適應症範圍
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -92,10 +92,10 @@ TxGNN 模型本輪針對 5 個候選適應症給出高分預測，排名第一�
 - 透過 DrugBank API 或其他來源補齊 Pioglitazone 完整作用機轉（DG002）
 - 針對至少一項候選適應症（建議優先 drug-induced localized lipodystrophy，機轉關聯性相對最高）補強臨床或文獻證據
 - 確認香港上市與許可證登記現況
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

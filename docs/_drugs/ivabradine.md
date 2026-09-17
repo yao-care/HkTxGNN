@@ -93,10 +93,10 @@ Ivabradine 是竇房結 HCN 通道（If 電流）的選擇性抑制劑，透過�
 - 補齊 DrugBank 作用機轉資料以支持機轉關聯性分析（DG002）
 - 針對多毛症及其他候選適應症，尋找是否有 ivabradine 相關的體外/動物實驗或個案報告作為機轉佐證
 - 若持續無實證支持，建議將本輪候選適應症降低優先序，暫不投入後續資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

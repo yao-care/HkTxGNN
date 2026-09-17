@@ -112,10 +112,10 @@ TxGNN 模型預測它可能對**懼曠症 (Agoraphobia)** 有效，
 - 建立 MAOI 類藥物特有之飲食限制與 DDI（如與 SSRI、擬交感神經藥物併用風險）查核資料
 
 > 補充：同批 TxGNN 預測還有第 2 名候選「良性陣發性斜頸症（嬰兒）」，因無任何支持性文獻或試驗、機轉不明且嬰兒族群使用 MAOI 有顯著安全疑慮，證據等級僅 L5，建議 **Hold**，不予進一步分析。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

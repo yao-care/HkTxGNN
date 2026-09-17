@@ -96,10 +96,10 @@ TxGNN 模型預測它可能對**自體免疫性卵巢炎 (Autoimmune Oophoritis)
 - 補充 DrugBank 作用機轉資料（DG002，High）
 - 針對排名最高的自體免疫性卵巢炎，擴大檢索是否有病例報告或機轉研究等級證據（目前為 0）
 - 若持續無法找到直接證據，建議將此候選整組標記為低優先權或關閉評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

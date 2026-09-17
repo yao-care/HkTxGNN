@@ -121,10 +121,10 @@ query_log 顯示，針對全部 10 個候選疾病，ClinicalTrials.gov 與 ICTR
 - 補齐正式 MOA 資料來源查證（DG002，來源：DrugBank API）
 - 針對 pyruvate kinase deficiency of red cells、Hb Bart's hydrops fetalis 兩個機轉尚可解釋的候選，另行人工檢索文獻，確認是否同樣屬資料庫收錄缺漏
 - 若後續要以 beta-thalassemia 作為（已知適應症）香港上市申請基礎，需走完整送件流程，而非本 TxGNN 老藥新用路徑
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

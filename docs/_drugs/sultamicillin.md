@@ -111,10 +111,10 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，
 - 補充 DrugBank 完整作用機轉（MOA）資料（DG002）
 - 若考慮於香港申請此適應症，建議規劃前瞻性對照試驗以提升證據等級
 - 其餘 9 項預測適應症（thrombotic disease、heparin cofactor 2 deficiency 等）缺乏機轉基礎或文獻支持，維持 Hold，不建議投入資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

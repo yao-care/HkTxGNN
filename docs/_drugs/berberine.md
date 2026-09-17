@@ -109,10 +109,10 @@ Berberine 在香港目前無正式藥品許可證，未以藥品形式上市，�
 - Berberine 在妊娠期的安全性資料與藥動學研究（尤其胎盤通透性評估）
 - 詳細 MOA 資料，確認 AMPK／NF-κB 通路在子癇前症病理中的特異性貢獻
 - 香港無上市前提下的法規路徑評估（新適應症申請策略）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -121,10 +121,10 @@ TxGNN 預測分數高達 99.71%，機轉上 TNF-α 阻斷理論具合理性，�
 - 深入分析系統性文獻回顧（PMID 33058033）所納入的生物製劑類型，評估是否有特定生物製劑（如 Rituximab、IL-6 抑制劑）在 RV 中表現優於 TNFi
 - 若仍考慮探索 Etanercept 於 RA 相關**皮膚**血管炎（而非 ANCA 型），需設計前瞻性小型先導研究並搭配嚴格的安全監測計劃
 - 評估香港藥物進口許可途徑，作為任何研究前置作業
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

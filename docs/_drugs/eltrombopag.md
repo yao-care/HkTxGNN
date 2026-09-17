@@ -123,10 +123,10 @@ Eltrombopag 目前在香港**尚未取得任何藥物許可證**，市場狀態�
 - **安全性**：取得香港/台灣 TFDA 仿單，評估 Eltrombopag 與常見 HAART 方案（如 dolutegravir、tenofovir）的藥物交互作用
 - **監管**：由於香港未上市，推進任何臨床計畫前須評估特別申請途徑及倫理審查要求
 - **生物標記**：探索 HIV 病毒載量、CD4 計數與血小板反應的相關性，作為未來試驗的分層依據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

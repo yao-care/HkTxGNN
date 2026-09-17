@@ -120,10 +120,10 @@ Salicylamide 長期作為複方感冒藥與退熱鎮痛製劑成分使用（如 
 | Acute laryngopharyngitis | 99.97% | L5 | S0 | Hold（無任何臨床試驗或文獻佐證） |
 | Trigeminal autonomic cephalalgia | 99.94% | L5 | S0 | Hold（機轉不合理，無證據支持） |
 | Common cold | 99.93% | L3 | S1 | Research Question（與咽炎證據性質相近，可併案評估，但同樣受限於 Blocking 安全性缺口） |
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

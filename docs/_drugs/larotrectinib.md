@@ -99,10 +99,10 @@ Larotrectinib 目前**未於香港上市**，無許可證登記資料。
 - 補齊 Larotrectinib 完整 MOA 與本地（香港）仿單安全性資料（現存 Blocking 級資料缺口：仿單警語/禁忌未取得）
 - 篩選出真正帶有 NTRK 融合的 MEN／甲狀腺髓質癌病例證據，而非泛用籃式試驗結果
 - 注意證據包中排名第 6 的候選適應症（PR 陰性乳癌、NTRK 融合驅動亞群）證據等級達 L2、決策階段已至 S2，且有 Larotrectinib 本尊的 Phase 2 basket trial（NCT02576431）直接支持，證據強度明顯優於本候選，建議優先評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

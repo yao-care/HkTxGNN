@@ -102,10 +102,10 @@ Perampanel 為選擇性非競爭性 AMPA 型麩胺酸受體拮抗劑，作用於
 - 補齊 Perampanel 完整作用機轉（MOA）資料，供機轉關聯性正式分析（DG002）
 - 針對視覺誘發／光敏感型癲癇亞型規劃前瞻性觀察研究或臨床試驗
 - 評估本地藥證申請可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

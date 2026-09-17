@@ -114,10 +114,10 @@ Evidence Pack 中的預測理由文字雖提及「SMN2 剪接調節劑」的概�
 - 取得香港/原廠藥品仿單的警語與禁忌症資料，解除 S1 安全性初評的阻斷條件（對應 DG001）
 - 針對排名前 2-3 名候選（痤瘡、藥物性骨質疏鬆症）額外檢索文獻資料庫，確認是否存在尚未收錄的間接證據
 - 在缺乏機轉支持前，不建議對本清單中任何候選投入臨床前驗證資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

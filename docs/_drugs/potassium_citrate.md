@@ -133,10 +133,10 @@ DrugBank 對 Potassium Citrate 的作用機轉欄位為資料缺口，但由臨�
 - 取得香港（或參考地區）仿單警語、禁忌症與 DDI 資料，完成 S1 安全性初評（目前為 Blocking 缺口）
 - 確認香港藥品註冊路徑（目前市場狀態為未上市）
 - 針對 Cystinosis（L4）候選，建議列為研究問題，規劃前驅或個案系列研究以補足實證
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

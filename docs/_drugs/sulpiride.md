@@ -104,10 +104,10 @@ TxGNN 分數雖高（99.95%），但此分數僅反映知識圖譜中藥物與�
 - 取得 Sulpiride 作用機轉資料（DG002，High，來源：DrugBank API）
 - 對現有 15 篇文獻重新篩選，確認是否存在真正探討 Sulpiride 與視網膜/眼科疾病關聯的研究
 - 若上述資料補齊後仍無直接證據，建議暫緩此候選適應症的後續評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

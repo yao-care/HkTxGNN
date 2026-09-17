@@ -108,10 +108,10 @@ METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA（Mircera，PEG 化 epoetin beta）是�
 - 取得 TFDA／香港藥物安全資料（仿單警語、禁忌症、DDI）以解除 Blocking 缺口。
 - 補齊 DrugBank 完整 MOA 與原始核准適應症資料。
 - 針對機轉合理性較高的候選方向（如有）搜尋是否有前臨床或個案報告等級證據，再決定是否投入進一步驗證。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

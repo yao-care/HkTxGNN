@@ -186,10 +186,10 @@ TxGNN 高分預測可能源於知識圖譜網絡效應，而非直接藥理機�
   - 低血鈉症監測計畫（給藥後 8 小時內監測血清鈉值，尤其兒童）
   - 快速脫敏（tachyphylaxis）評估與間隔管理方案（建議給藥間隔 ≥24 小時）
 - 考慮向 WHO Orphan Drug 或在地罕見疾病藥物計畫申請，以利長期供應保障
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

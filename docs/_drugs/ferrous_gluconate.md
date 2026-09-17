@@ -108,10 +108,10 @@ Plummer-Vinson 症候群的病因即為缺鐵，鐵劑補充是機轉上最直�
   - **Rank 3（非症候群性食道畸形）**：先天性結構異常，建議 Hold
   - **Rank 4（生物素代謝疾病）**：無已知生化交叉點，建議 Hold
   - **Rank 5（維生素缺乏症，L3）**：有 4 個臨床試驗、2 篇文獻，值得作為研究課題追蹤
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

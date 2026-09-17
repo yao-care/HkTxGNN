@@ -97,10 +97,10 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 - 確認香港上市與許可證狀況
 
 *附註：TxGNN 同時預測「急性喉咽炎 (acute laryngopharyngitis)」為候選適應症（分數 99.95%），但無任何臨床試驗或文獻支持，證據等級為 L5（純模型預測），暫不建議進一步評估。*
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

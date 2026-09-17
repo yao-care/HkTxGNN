@@ -84,10 +84,10 @@ Olopatadine 目前未在香港上市，無許可證資料。
 - 取得作用機轉（MOA）完整資料，釐清是否有更直接的血管/神經發炎路徑證據
 - 取得仿單警語與禁忌資料，完成基本安全性初評（目前為阻斷性缺口）
 - 至少一篇機轉或前臨床研究，將證據等級由 L5 提升至 L4 以上，才建議重新評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

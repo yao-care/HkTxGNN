@@ -132,10 +132,10 @@ Glecaprevir 靶向 HCV NS3/4A **絲胺酸蛋白酶**，HIV 則依賴逆轉錄酶
 **若要推進任何 HIV 方向則需要：**
 - 確認 HIV 蛋白酶（天冬胺酸蛋白酶）對 Glecaprevir 的結構對接模擬結果
 - 基於現有機轉理解，此方向**不建議推進**
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

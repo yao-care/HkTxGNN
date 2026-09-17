@@ -131,10 +131,10 @@ TxGNN 針對本藥物共預測出 5 個高分眼部感染/發炎相關適應症�
 - 取得仿單警語/禁忌症資料以完成 S1 安全性初評
 - 針對排名 1、2、5（機轉方向較合理者）尋找是否有未索引的觀察性研究或病例系列
 - 排名 3（寄生蟲性結膜炎）因機轉衝突風險，建議標記為低優先級，除非有新證據支持
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

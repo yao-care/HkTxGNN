@@ -121,10 +121,10 @@ Fludarabine 在多發性骨髓瘤的異體移植前條件化及 CAR-T 淋巴清�
 - 釐清目標應用定位：(1) 作為 allo-SCT/CAR-T 前處理（證據較充分）或 (2) 作為直接抗骨髓瘤藥物（需額外體內驗證）
 - 在香港申請進口特許或啟動本地臨床試驗前須取得衛生署核准
 - 補充針對性 PubMed 文獻搜尋，以完善漿細胞骨髓瘤的直接文獻證據鏈
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

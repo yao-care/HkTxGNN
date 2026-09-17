@@ -121,10 +121,10 @@ Bicalutamide 屬於前列腺癌抗腫瘤藥物（雄激素剝奪療法），但�
 > - 證據等級：**L2**，建議決策：**Proceed with Guardrails**
 >
 > 建議優先另行產出女性乳癌的完整評估報告。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

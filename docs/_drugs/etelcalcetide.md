@@ -106,10 +106,10 @@ Etelcalcetide 的 CaSR 促效機轉與高磷血症的病理生理具備生物合
 - 規劃以高磷血症為主要終點的獨立臨床試驗或次群體分析（建議 Phase 2）
 - 確認香港上市申請路徑（目前未上市，需評估引進可行性）
 - 建立高磷血症特定族群的安全性監測計畫（尤其是低血鈣風險）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

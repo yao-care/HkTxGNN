@@ -84,10 +84,10 @@ TxGNN 模型預測它可能對**難治型思覺失調症 (Treatment-refractory S
 - 補齊正式作用機轉來源（DrugBank API 查詢，DG002）
 - 取得針對此適應症的臨床試驗或文獻證據
 - 針對憂鬱/自殺風險在思覺失調症人群中的專門安全性評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

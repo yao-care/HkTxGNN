@@ -109,10 +109,10 @@ Eptinezumab 的抗 CGRP 機轉與腦幹先兆型偏頭痛的核心病理高度�
 - 評估香港引進途徑（特殊進口許可或臨床試驗申請）
 - 考慮設計針對此稀有亞型的 Basket Trial 或 N-of-1 研究設計
 - 關注正在進行中的 CGRP 相關腦幹先兆機轉研究（如 PACAP38 獨立路徑），以確認治療邊界
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

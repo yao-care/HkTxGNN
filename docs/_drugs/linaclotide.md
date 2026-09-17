@@ -75,10 +75,10 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 - 補齊 Linaclotide 的正式作用機轉（MOA）與原始核准適應症資料
 - 取得 TFDA/香港仿單警語與禁忌症，解除 S1 安全性初評的阻斷（DG001）
 - 若未來出現支持性臨床或機轉文獻，重新評估證據等級
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -116,10 +116,10 @@ Granisetron 在香港目前**無登記許可證**，查無上市藥品資料。
 - 針對機轉最合理的適應症（過敏性蕁麻疹）執行同類藥物（5-HT₃ 拮抗劑類別效應）文獻系統性回顧
 - 確認 granisetron 的皮膚或中樞投藥可行性（劑型與給藥途徑相容性評估）
 - 待以上資料到位後，升級至 S1 安全性初評
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

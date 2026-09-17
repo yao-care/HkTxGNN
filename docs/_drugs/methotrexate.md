@@ -151,10 +151,10 @@ TxGNN 本次共針對 MTX 產生 5 個預測適應症，證據強度差異極大
 - 確認香港/台灣在地上市與許可證現況（目前查無資料）
 - 針對何杰金氏淋巴瘤界定明確次族群使用情境（如復發/難治族群）並補充最新 RCT 資料
 - 其餘 4 個候選需待更多臨床試驗/文獻資料累積後再重新評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

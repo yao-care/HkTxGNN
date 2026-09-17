@@ -115,10 +115,10 @@ Conjugated Estrogens 目前在香港**尚未登記上市**（許可證數：0）
 - 評估香港藥品進口可行性及法規路徑
 - 考慮優先針對「月經相關偏頭痛預防」設計前瞻性觀察研究，收集本地族群療效與安全性數據
 - 補充 MOA 文件（建議查詢 DrugBank API，資料缺口 DG002）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

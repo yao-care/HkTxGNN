@@ -93,10 +93,10 @@ Phenoxymethylpenicillin（Penicillin V）是口服窄譜青黴素類抗生素，
 - 補齊仿單警語/禁忌資料（DG001，Blocking）與完整 MOA 資料（DG002）
 - 會厭炎：需重新評估給藥途徑（口服 vs 靜脈）與菌種覆蓋範圍是否符合臨床指引，目前不建議投入資源
 - 喉炎：需有能推翻現有陰性 RCT／系統性回顧結論的新證據，否則不建議繼續推進
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

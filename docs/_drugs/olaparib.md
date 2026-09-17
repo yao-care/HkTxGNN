@@ -136,10 +136,10 @@ Olaparib 屬於**標靶抗腫瘤藥物**（PARP 抑制劑），非傳統細胞�
 - 補齊結構化作用機轉資料（DG002，High），與 DrugBank API 對接確認 MOA 與藥物分類
 - 確認是否有意向廠商申請香港/台灣上市及乳癌適應症登記
 - 補充藥物交互作用（DDI）與骨髓抑制毒性之正式監測計畫
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

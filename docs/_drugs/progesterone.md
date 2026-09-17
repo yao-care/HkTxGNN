@@ -123,10 +123,10 @@ TxGNN 模型預測它可能對**續發性閉經 (Amenorrhea)** 有效，目前�
 - 補齊 DrugBank 詳細作用機轉資料（DG002，High）
 - 逐一複核 50 個臨床試驗中標記為 pending 的項目，確認真正以 progesterone 治療續發性閉經為介入設計的試驗數量
 - 釐清此適應症是否應歸類為「既有用途延伸」而非「老藥新用候選」，據以調整後續資源投入優先序
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

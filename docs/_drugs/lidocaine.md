@@ -87,10 +87,10 @@ Lidocaine 目前未於香港上市，資料包中無許可證登記（0 張）�
 - 補齊 Lidocaine 完整仿單警語與禁忌症資料（DG001，來源：TFDA 官網仿單 PDF）
 - 補齊 DrugBank 作用機轉資料（DG002）
 - 若改為評估其他候選（如 rank 5「atopic conjunctivitis」L4 或 rank 6「conjunctival disorder」L2/S1），需先排除文獻誤配問題——rank 6 有近半文獻是因病名字面含 "conjunctival injection and tearing" 而誤收的 SUNCT/SUNA 頭痛症候群研究，且其試驗證據多反映 Lidocaine 既有的眼科手術麻醉用途，而非針對該疾病的新治療訊號
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

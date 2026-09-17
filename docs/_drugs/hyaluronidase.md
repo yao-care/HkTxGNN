@@ -104,10 +104,10 @@ Hyaluronidase 透過玻璃體 HA 降解誘發 PVD 的機轉，在糖尿病視網
 - 查詢 DrugBank DB14740 補全 MOA 資料，強化機轉分析深度
 - 確認給藥途徑（玻璃體內注射）的眼科專科執行要求與監測計畫
 - 參考最新機轉研究（PMID 41789111，2026）評估是否有設計 NPDR 階段的新研究機會
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -94,10 +94,10 @@ Cefditoren 是純殺菌性（bactericidal）口服頭孢菌素，作用機轉為
 - 確認 MOA 完整資料（DrugBank API），排除是否有非抗菌的免疫調節或抗發炎副作用尚未被收錄
 - 分析 Cefditoren 在 TxGNN 知識圖譜中的一階與二階鄰居節點，量化 cluster bias 程度
 - 若仍考慮抗生素對骨關節炎的潛力探索，應改以 minocycline（已有 Phase 3 抗發炎機轉證據）等具免疫調節屬性的抗生素為優先候選，而非 Cefditoren
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

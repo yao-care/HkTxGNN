@@ -111,10 +111,10 @@ DrugBank 的正式 MOA 欄位標記為資料缺口（DG002），但本證據包�
 | 多發性內分泌腫瘤 (MEN) | 99.86% | Hold | 證據包明確標註為知識圖譜雜訊訊號，MEN 為 RET/MEN1 基因突變疾病，與 rifampicin 之 RNA 聚合酶抑制機轉無已知關聯 |
 | 痤瘡 (acne，實際多指 hidradenitis suppurativa/acne inversa) | 99.74% | 未評分 | 文獻顯示 rifampicin + clindamycin 併用已是歐洲/北美指引中治療化膿性汗腺炎的**既有標準療法**，並非全新適應症；但 TxGNN 節點標記為「acne (disease)」易與尋常痤瘡混淆，需注意疾病定義差異 |
 | HIV 感染 | 99.59% | Hold | ⚠️ 證據包明確警告此為假性訊號。所有相關試驗與文獻均為「rifampicin 治療結核病時與抗反轉錄病毒藥物之藥物交互作用（CYP3A4/UGT1A1 誘導）研究」，rifampicin 並無抗 HIV 病毒活性，誤讀恐導致嚴重臨床誤導 |
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

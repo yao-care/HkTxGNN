@@ -111,10 +111,10 @@ TxGNN 高預測分數（99.83%）係由知識圖譜中「thrombocytosis」共享
 - 確認是否存在特定亞族群（如脾切除後持續性、症狀性血小板增多症）可能受益的臨床前或機轉研究
 - 補充完整安全性資料（警語、禁忌症、主要藥物交互作用）
 - 評估是否有更具臨床合理性的替代再利用適應症（如其他 PDE3 相關疾病路徑）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

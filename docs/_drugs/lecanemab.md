@@ -89,10 +89,10 @@ Lecanemab 目前尚未在香港取得藥品許可證，無上市許可證資訊�
 - 取得 TFDA/原廠仿單警語與禁忌症，完成 S1 安全性初評
 - 若要驗證眼科適應症可行性，需要眼科藥動學資料（是否能穿透血眼屏障）或至少一項體外/動物機轉研究
 - 排名 2-10 的其他候選（多為白內障亞型與糖尿病視網膜病變）目前共享相同的證據缺口，建議一併等待機轉或實證資料補強後再重新評估，而非逐一單獨推進
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

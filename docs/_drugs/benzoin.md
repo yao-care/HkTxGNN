@@ -99,10 +99,10 @@ TxGNN 預測分數雖高（97.79%），但外陰陰道念珠菌感染適應症�
 - 陰道局部給藥劑型的安全性評估（pH 相容性、黏膜刺激性測試）
 - 補充完整作用機轉（MOA）資料（建議查詢 DrugBank API）
 - 補充安全性資訊（仿單警語、禁忌症）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

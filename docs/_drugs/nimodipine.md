@@ -94,10 +94,10 @@ Nimodipine 目前**未於香港上市**，無許可證資料可供列出。
 - 取得 TFDA 官網仿單 PDF，解析警語與禁忌症資料
 - 透過 DrugBank API 查詢完整作用機轉資料
 - 待上述資料補齊後，重新評估是否有足夠基礎進入下一階段證據收集（臨床試驗/文獻搜尋）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

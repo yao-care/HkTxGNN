@@ -116,10 +116,10 @@ Selpercatinib 目前未在香港取得任何藥物許可證，無上市紀錄。
 - 取得 TFDA／原廠仿單警語與禁忌資料，以解除 Blocking 缺口
 - 尋找 RET 訊號路徑與肺血管重塑的直接臨床前證據，驗證機轉合理性
 - 若無新增證據，建議暫緩此候選案並定期監測新文獻/試驗登記
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

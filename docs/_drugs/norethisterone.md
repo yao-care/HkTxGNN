@@ -116,10 +116,10 @@ Norethisterone 是一種合成黃體素（progestin），廣泛用於避孕與�
 - 透過 DrugBank API 補齊完整作用機轉資料（解決 DG002）
 - 釐清 norethisterone 單方 vs. 合併療法（relugolix/estradiol add-back）在閉經適應症上的證據差異，評估是否需要額外單方試驗
 - 確認香港上市現況（0 張許可證）之原因，評估是否需申請新藥證或以既有複方途徑切入
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

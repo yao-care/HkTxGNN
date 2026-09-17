@@ -157,10 +157,10 @@ TxGNN 預測的四個適應症均屬維生素D代謝或磷鈣代謝通路的疾�
 - 進行 VDDR 亞型精確基因分型（CYP2R1 vs CYP27B1 vs VDR 突變），以確定 calcifediol 有效的目標族群
 - 評估 VDDR-1B 孤兒藥資格認定的可行性（全球僅報告少數家族）
 - 設計以 CYP2R1 突變患者為入組條件的前瞻性小型試驗或擴展性療法（Expanded Access）方案
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

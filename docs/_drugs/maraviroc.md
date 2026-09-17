@@ -90,10 +90,10 @@ Maraviroc 目前未在香港上市，無許可證登記資料（許可證總數�
 - 透過 DrugBank API 取得正式作用機轉（MOA）資料
 - 若優先推進 HER2 陽性乳癌方向：需體外/動物模型驗證 Maraviroc 阻斷 CCR5 對 trastuzumab 抗藥性腫瘤的實際逆轉效果，作為申請臨床試驗前的前臨床證據
 - 其餘 9 個候選適應症證據不足，除非後續出現新文獻或試驗登記，暫不建議投入資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

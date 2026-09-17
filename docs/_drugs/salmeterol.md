@@ -138,10 +138,10 @@ indication_count: 5
 - 透過 DrugBank API 補齊正式 MOA 文件，取代目前的機轉推論
 - 若評估香港上市可行性，需準備完整藥品許可證申請資料
 - 針對「呼吸道畸形」與「Rienhoff syndrome」兩項預測，建議先行覆核 TxGNN 疾病節點映射是否存在本體錯置問題，避免誤判為有效老藥新用信號
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

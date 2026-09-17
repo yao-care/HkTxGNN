@@ -106,10 +106,10 @@ Glycol salicylate 目前在香港**未登錄上市**，無任何許可證紀錄�
 - 優先重新評估次要適應症「**自體免疫疾病（rank 2）**」的可行性：該預測有抗炎機轉依據，且有初步臨床文獻支持（hydroxyethylsalicylate 凝膠用於風濕性疾病），屬相對可行方向
 - 系統性搜尋 hydroxyethylsalicylate 或 glycol salicylate 局部外用於關節炎、風濕性疾病的更多臨床資料
 - 若考慮香港上市，需評估藥監局登記路徑（本藥在香港無任何上市紀錄）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

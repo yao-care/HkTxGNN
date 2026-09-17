@@ -98,10 +98,10 @@ Griseofulvin 目前在香港**未上市**，無任何許可證登記記錄。
 - 取得 Griseofulvin 完整 MOA 資料（補足 DG002），確認對節肢動物是否存在任何潛在活性
 - 補充香港及其他地區藥品仿單安全性、警語與禁忌資料（補足 DG001）
 - 若仍評估此方向，需先完成體外實驗以確認對雙翅目幼蟲的抑制活性，再考慮動物模型驗證（目前幾乎無依據建議直接推進）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

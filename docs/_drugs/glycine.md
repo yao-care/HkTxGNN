@@ -110,10 +110,10 @@ Glycine 用於鼻腔疾病及急性喉咽炎，目前僅有 TxGNN 模型預測�
 - 進行鼻腔／咽喉黏膜炎症動物模型的直接藥效學實驗（臨床前 Proof-of-Concept）
 - 驗證口服或局部給藥途徑下，Glycine 能否在鼻腔／咽喉部位達到有效治療濃度
 - 取得台灣仿單安全性資料（警語、禁忌症），完成 S1 安全性初評所需資料缺口（DG001）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

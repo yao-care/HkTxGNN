@@ -105,10 +105,10 @@ Cycloserine 目前在香港**未登記上市**，無任何許可證紀錄。如�
 - 腸道菌叢與 Cycloserine 交互作用的機轉研究
 - 完整安全性資料（TFDA 仿單警語、禁忌症）以通過 S1 安全性初評
 - 香港藥監當局特殊使用申請評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

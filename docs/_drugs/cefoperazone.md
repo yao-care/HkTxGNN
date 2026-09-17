@@ -114,10 +114,10 @@ TxGNN 此項預測最可能來自知識圖譜中「廣效抗生素—膽管炎�
 | 10 | IgG4-related Sclerosing Cholangitis | 99.48% | L5 | Hold | 免疫介導疾病，抗生素無機轉 |
 
 > **臨床重點提示**：Pneumonia（肺炎）為此 Evidence Pack 中證據最充分的預測適應症（L1），有 RCT 數據支持 Cefoperazone/Sulbactam 用於院內肺炎（HAP/HCAP）治療，建議優先針對此適應症進行正式評估。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

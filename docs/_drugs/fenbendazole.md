@@ -95,10 +95,10 @@ TxGNN 對膀胱癌相關適應症群的預測分數極高（99.99%，為 10 項�
 - 評估膀胱內灌注給藥的人體 PK/PD 可行性（可外推已核准 benzimidazole 類藥物人體資料）
 - 確認 BCG 抗性 NMIBC（非肌層浸潤性膀胱癌）作為 Phase 0/1 首選切入族群的合理性
 - 補充香港人用藥物安全性監管路徑評估（需與 PMDA/FDA/EMA 溝通 off-label 研究策略）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

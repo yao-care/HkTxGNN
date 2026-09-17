@@ -132,10 +132,10 @@ Dobutamine 在本次 TxGNN 預測的全部 10 項適應症中，均已確認為*
 - **補充台灣仿單安全性資料（DG001，阻斷性）**：下載 TFDA 仿單 PDF，解析警語與禁忌症後方可進入 S1 安全性初評
 - **補充 MOA 資料（DG002，高優先）**：查詢 DrugBank API 取得完整作用機轉資訊，以支援未來機轉關聯性分析
 - **擴大預測範圍重新評估**：本次排名前 10 均為偽陽性，建議檢視更廣泛的預測清單（如排名 11–100），確認是否存在具生物學合理性的再利用候選適應症（如心臟代謝領域相關疾病）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

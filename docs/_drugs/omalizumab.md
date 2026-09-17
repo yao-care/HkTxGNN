@@ -186,10 +186,10 @@ Omalizumab（DrugBank DB00043）是抗 IgE 單株抗體，依文獻脈絡原用�
 - 補齊 DrugBank 作用機轉（MOA）詳細資料（DG002）
 - 待 NCT07059091（COPD-OMA）試驗完成，重新評估阻塞性肺病候選
 - 針對「皮膚炎誘發」矛盾安全性訊號（PMID 37988298）進行文獻覆核，釐清因果方向
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

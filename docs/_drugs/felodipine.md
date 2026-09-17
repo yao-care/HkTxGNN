@@ -112,10 +112,10 @@ DHP-CCB 理論上可擴張肺動脈平滑肌、降低肺血管阻力（PVR）—
 - 若評估 Group 1 PAH 方向：需設計以 Felodipine 為主角的 AVT 試驗方案，不能直接沿用同類 CCB 資料
 - **排除** Rank 2（Group 3 PH）方向：有明確安全顧慮，不建議進入後續評估
 - **排除** Rank 5（Braddock 症候群）方向：需先建立機轉假說才有評估前提
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

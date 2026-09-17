@@ -123,10 +123,10 @@ Acetylcysteine 目前在香港**未取得上市許可**，無任何已批准的�
 - 確認 NCT05907486 的最新試驗狀態（目前標示 UNKNOWN）
 - 評估香港使用 NAC 的法規路徑（未上市藥品特殊申請流程）
 - 若針對 TA-TMA 適應症推進，建議參照 NCT03252925 試驗設計，規劃本地患者的回顧性病歷分析作為先行可行性評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

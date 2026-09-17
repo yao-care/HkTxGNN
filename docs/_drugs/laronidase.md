@@ -101,10 +101,10 @@ TxGNN 預測的「具骨骼侵犯之溶酶体贮積症」實質上是 MPS I（Hu
 - 取得 TFDA/香港仿單警語與禁忌症資料，完成 S1 安全性初評（Blocking 缺口）
 - 補齊 DrugBank 正式 MOA 資料
 - 釐清「具骨骼侵犯之溶酶体贮積症」與現行 MPS I 適應症之邊界，確認是否具備獨立於既有適應症的臨床開發價值
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -122,10 +122,10 @@ Exemestane 屬抗腫瘤藥物（芳香酶抑制劑），但為**非傳統細胞�
 - 針對「雌激素-凝血因子交互作用」進行系統性文獻回顧，確認是否存在直接治療潛力（而非間接環境調節）
 - 重新審視 TxGNN 凝血相關節點的 KG 結構，評估是否為節點群集效應（Cluster Effect）造成的假陽性高分
 - 若後續確認有再利用潛力並計畫在香港上市，需向衛生署藥物辦公室申請藥物登記
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

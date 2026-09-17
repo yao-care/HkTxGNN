@@ -103,10 +103,10 @@ Bempedoic acid 對 HoFH 的預測合理性在於：儘管 LDL 受體功能嚴重
 - 設計以 HoFH 為目標族群的前瞻性臨床試驗，評估 bempedoic acid 於多藥聯合策略中的 LDL-C 降幅及安全性
 - 評估與 evinacumab、lomitapide 聯合使用的藥物交互作用風險
 - 調查港台地區 HoFH 患者人數，評估孤兒藥資格（Orphan Drug Designation）申請可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

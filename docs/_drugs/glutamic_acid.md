@@ -132,10 +132,10 @@ GLUTAMIC ACID（麩胺酸）是人體最豐富的興奮性神經傳導物質之�
 - 針對胃輕癱方向補充前臨床研究（動物模型、體外胃腸運動實驗）
 - 釐清麩胺酸在香港的藥事法規地位（食品添加物 vs. 藥物）
 - **青光眼適應症建議不推進**，除非有明確以麩胺酸受體拮抗（而非補充）為方向的新設計
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

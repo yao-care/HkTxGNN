@@ -133,10 +133,10 @@ Dabigatran Etexilate（Pradaxa®）是一種直接口服凝血酶抑制劑，全
 - 針對硬化性膽管炎方向，系統搜尋 dabigatran 或其他直接 thrombin 抑制劑的肝纖維化、PSC 動物模型研究
 - 審查 TxGNN 知識圖譜中脂質疾病節點（FH、hypoalphalipoproteinemia、mixed hyperlipidemia）的連結品質，確認是否存在系統性誤連結並修正
 - 若考慮推進血小板釋放功能障礙方向，需先完成出血風險-獲益比分析，並尋求血液科專家意見後再設計前臨床實驗
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

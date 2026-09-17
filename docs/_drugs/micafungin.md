@@ -108,10 +108,10 @@ micafungin 在尿液中的實際濃度足以達到治療效果，對氟康唑（
 - 補充完整作用機轉（MOA）資料以強化機轉關聯性分析（DG002）
 - 評估是否有前瞻性臨床試驗或系統性回顧支持念珠菌尿路感染適應症
 - 確認未來台灣上市規劃或現行仿單適應症範圍
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -170,10 +170,10 @@ Clotrimazole 陰道製劑治療 VVC 之療效已獲多個 Phase 3/4 RCT 確認�
 **TxGNN 分數：99.46%**　|　**臨床試驗：1 個（相關性低）**　|　**文獻：0 篇**
 
 停經後萎縮性陰道炎（GSM/Atrophic Vaginitis）主要病理為雌激素缺乏導致陰道上皮萎縮、陰道 pH 升高（>5）、乳酸桿菌減少，核心治療為局部雌激素替代或 DHEA 補充。Clotrimazole 對萎縮性變化本身無直接作用；機轉連結屬二階間接性——若萎縮性陰道炎繼發 VVC，Clotrimazole 可作為輔助治療，但此為症狀管理而非原發疾病治療，目前無直接臨床設計支持，維持 Hold 建議。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

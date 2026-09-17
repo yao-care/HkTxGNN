@@ -105,10 +105,10 @@ Sotatercept 目前**未在香港上市**，無許可證資料。
 - 取得 TFDA/原廠仿單警語與禁忌症資料，以完成 S1 安全性初評（DG001，目前為 Blocking 缺口）
 - 若優先探索機轉較合理的候選（drug-induced osteoporosis），需另行收集臨床前藥理證據
 - 確認香港/台灣上市登記狀態（目前 0 張許可證，未上市）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

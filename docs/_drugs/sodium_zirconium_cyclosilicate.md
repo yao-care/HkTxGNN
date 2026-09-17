@@ -82,10 +82,10 @@ TxGNN 模型預測它可能對**乳房纖維囊性病變 (Breast Fibrocystic Dis
 - 透過 DrugBank API 查詢完整作用機轉資料（DG002）
 - 重新檢視 TxGNN 全量預測清單，尋找機轉合理、且有實證支持的候選適應症（目前前 10 名均為 Hold，不建議以此清單推進）
 - 若確認無合理候選，建議此藥物暫緩老藥新用評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -103,10 +103,10 @@ Doravirine 目前在香港尚未取得藥品許可證，無任何上市記錄。
 - 取得原廠仿單的完整警語與禁忌資訊（目前為 Data Gap）
 - 若考慮第三項適應症（神經發育障礙），需先進行 NNRTI 抑制內源性 LINE-1 逆轉錄元素活性的前臨床 PoC 實驗
 - 評估 TxGNN 模型是否對 HIV 相關病毒節點產生系統性過度預測偏差，並考慮在知識圖譜中加入跨物種 NNRTI 結合口袋相似性的邊權重修正
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

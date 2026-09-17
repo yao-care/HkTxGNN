@@ -98,10 +98,10 @@ TxGNN 模型預測它可能對**牛型結核病 (Tuberculosis, Bovine)** 有效�
 - 取得詳細 MOA 資料（DrugBank API 查詢）以強化機轉關聯性分析
 
 > **💡 補充說明**：在本次 10 個預測適應症中，排名第 2 的**非活動性結核病 (Inactive Tuberculosis)** 具有更強的臨床證據——包含 2 個進行中的 Phase 2/3 臨床試驗（尤其是 NCT03568383，PHOENIX 研究：直接測試 Delamanid 用於 MDR-TB 接觸者之預防，Phase 3，5,832 人）及 20 篇文獻，證據等級達 L2，建議決策為「Proceed with Guardrails」。建議優先針對此適應症深化評估。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

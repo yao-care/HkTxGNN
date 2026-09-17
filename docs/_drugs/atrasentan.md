@@ -98,10 +98,10 @@ Atrasentan 目前於香港未持有任何藥物許可證，屬完全未上市藥
 - 進行系統性文獻回顧：搜尋 ETA 拮抗劑與女性生殖系統或閉經的基礎與轉譯研究
 - 評估是否有體外（in vitro）或動物模型證據支持此機轉假說
 - 若基礎科學證據充分，再評估推進至概念驗證（Proof-of-Concept）階段的可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

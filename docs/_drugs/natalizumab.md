@@ -115,10 +115,10 @@ Natalizumab 是抗 α4-integrin (VLA-4) 單株抗體，其原適應症在本評�
 - 補齊 DrugBank MOA 完整資料，以強化機轉關聯性分析（DG002，High）。
 - 若欲深入乾癬方向，需針對合併症族群設計前瞻性研究，釐清 33589543 觀察到的改善是否為真實治療訊號，或僅為病人選擇偏差。
 - 支氣管炎、嚴重非增殖性糖尿病視網膜病變兩項預測目前無實證基礎，建議暫緩投入資源。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

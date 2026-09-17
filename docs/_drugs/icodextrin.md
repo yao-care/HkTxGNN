@@ -104,10 +104,10 @@ Icodextrin 目前**未在香港取得藥品許可證**（市場狀態：未上�
 - 補齊 DrugBank 或其他來源的正式作用機轉（MOA）資料。
 - 針對 IBS 或其他候選適應症，重新檢視 KG 訓練資料中是否存在因節點鄰近性造成的系統性雜訊，必要時於模型後處理階段加入機轉合理性過濾。
 - 在無臨床試驗或文獻佐證前，不建議投入進一步研究資源於此候選組合。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

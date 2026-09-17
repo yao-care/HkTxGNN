@@ -106,10 +106,10 @@ TxGNN 模型預測它可能對**子宮內膜癌 (Uterine Corpus Endometrial Carc
 - 確認原始核准適應症內容，釐清與子宮內膜癌預測之機轉延伸關係
 - 若考慮香港上市，需評估藥物引進與許可證申請流程（目前為 0 張許可證、未上市狀態）
 - 尋找針對 megestrol acetate 單獨用於子宮內膜癌之直接臨床試驗或文獻證據，以強化 L2 等級的證據基礎
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -105,10 +105,10 @@ Chlorzoxazone 目前在香港**未上市**，無任何登記許可證紀錄。�
 - 下載並解析原廠仿單 PDF，確認警語、禁忌症及安全性資訊（填補 DG001）
 - 設計針對偏頭痛（或前庭性偏頭痛）的體外/動物概念驗證研究
 - 評估香港市場導入的監管可行性及 BKCa 通道選擇性問題
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -128,10 +128,10 @@ TxGNN 前 10 項預測全數建議 Hold，且存在一致性的系統性問題�
 - 針對青光眼假說，獨立驗證 OXTR 在視網膜神經節細胞的功能方向（OT 促效或拮抗何者有利）
 - 排查 TxGNN 知識圖譜中高度近似分數節點的圖譜質量問題（多組預測分數差異 < 0.001，提示存在冗餘節點，預測獨立性存疑）
 - 在具備生物學合理性的前臨床假說確立前，不建議投入進一步臨床資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

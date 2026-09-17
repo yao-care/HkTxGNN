@@ -330,10 +330,10 @@ Cytarabine 為傳統細胞毒性藥物（嘧啶拮抗劑），適用以下細胞
 - 補充 Cytarabine 詳細藥物作用機轉（MOA）資料，以強化機轉關聯性分析
 
 > ⚠️ 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過嚴格臨床驗證才能應用於患者。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

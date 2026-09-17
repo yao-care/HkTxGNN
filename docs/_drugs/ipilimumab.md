@@ -120,10 +120,10 @@ TxGNN 同時預測 ipilimumab 對 **choroideremia**（脈絡膜視網膜退化�
 - 補齊 DrugBank MOA 完整技術資料（DG002）
 - 針對非皮膚型黑色素瘤亞群（葡萄膜/黏膜/肢端型）之反應率與安全性做次族群分析
 - Choroideremia 候選信號建議直接標記為低優先級，不投入資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

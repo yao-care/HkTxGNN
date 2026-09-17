@@ -110,10 +110,10 @@ TxGNN 模型預測其可能對**冠周炎（Pericoronitis）**有效，
 - 評估苄青黴素的給藥途徑可行性（通常為注射劑型，冠周炎首選口服治療需考量轉換為苄青黴素 V 或阿莫西林）
 - 辦理香港衛生署的特殊進口許可或與相關口腔外科機構合作開展前瞻性觀察研究
 - 補充 DrugBank MOA 資料缺口，完善安全性資料（仿單警語、禁忌症）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

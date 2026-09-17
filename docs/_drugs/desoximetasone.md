@@ -102,10 +102,10 @@ Desoximetasone 目前在香港無藥品許可證登記，屬未上市狀態。�
 - 評估長期外用皮質類固醇的已知副作用（皮膚萎縮、毛細血管擴張、HPA 軸抑制風險）
 - 確認是否需向香港衛生署申請特殊藥品輸入許可
 - 擴大文獻搜尋範圍，納入其他同效價外用類固醇（如 mometasone、betamethasone）治療斑禿之研究，以充實比較性療效資料
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

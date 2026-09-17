@@ -104,10 +104,10 @@ TxGNN 高分（99.49%）很可能是知識圖譜中 B 群維生素節點拓撲�
 - 確認 MOA 資料（DG002 高影響缺口），查詢 DrugBank API 補充作用機轉
 - 針對生物素代謝疾病進行針對性文獻搜尋，確認是否有任何葉酸-生物素代謝交互的基礎研究
 - 若仍無文獻支持，建議**關閉此候選**，資源移至更具機轉合理性的預測適應症
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

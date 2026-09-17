@@ -114,10 +114,10 @@ Ganirelix 目前**未在香港取得任何上市許可**，無相關許可證資
 - 補充 Ganirelix 原核准適應症資料及完整 MOA（Data Gap DG002）
 - 補充香港或原廠仿單安全性警語及禁忌症（Data Gap DG001）
 - 建議重新設定預測目標方向：Ganirelix 若有再利用潛力，應聚焦於其已知 GnRH 拮抗機轉的合理延伸領域（如子宮內膜異位症、前列腺癌輔助治療、多囊卵巢症候群等雄性素依賴性疾病），而非本次 KG 預測所生成的先天結構異常族群
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -86,10 +86,10 @@ Ponatinib 是一款多重酪氨酸激酶抑制劑（根據機轉描述作用於 
 - 針對牙龈纖維瘤病取得體外或臨床前的機轉驗證證據，目前完全空缺
 
 **備註：** 同一份 Evidence Pack 中另有第二預測——脂肪肉瘤 (liposarcoma)，證據等級 L4，有一篇臨床前激酶篩選文獻（PMID 29132397）支持部分脂肪肉瘤亞型與相關激酶路徑的關聯，機轉合理性略高於本篇的牙龈纖維瘤病預測，但仍無人體臨床試驗，同樣建議 Hold，可作為後續優先評估的候選方向。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

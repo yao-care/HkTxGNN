@@ -113,10 +113,10 @@ Camphor 在香港目前無正式藥品上市許可（衛生署許可證數：0 �
 - 開發靶向局部給藥系統（如鼻腔凝膠、穴位貼片），以繞過全身毒性障礙並確立治療劑量窗口
 - 排除「樟腦誘發頭痛」與「樟腦緩解偏頭痛」兩種相悖訊號的機轉差異
 - 取得 MOA 完整數據（DrugBank API 查詢）及香港仿單安全性資料，以補齊 DG001/DG002 資料缺口後重新評分
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

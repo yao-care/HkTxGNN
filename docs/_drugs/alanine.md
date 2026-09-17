@@ -120,10 +120,10 @@ Alanine 為非必需胺基酸，目前無任何核准適應症，亦無直接支
 - 進行 **前臨床研究**，以動物模型驗證 Alanine 對胃動力的影響（如有則可升至 L4）
 - 確認適合的給藥途徑與劑量（目前給藥資訊完全缺乏）
 - 若前臨床結果陽性，再評估是否啟動 Proof-of-Concept 臨床試驗設計
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

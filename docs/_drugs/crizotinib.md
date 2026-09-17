@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Crizotinib
-parent: 僅模型預測 (L5)
+parent: 中證據等級 (L3-L4)
 nav_order: 195
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Crizotinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L3** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -170,10 +170,10 @@ Crizotinib 的原核准適應症為惡性腫瘤（NSCLC），屬**抗腫瘤標�
 ---
 
 > ⚠️ **研究聲明**：本報告結果僅供研究參考，不構成醫療建議。老藥新用候選須經嚴格臨床驗證後方可應用於實際患者。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

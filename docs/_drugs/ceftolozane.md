@@ -108,10 +108,10 @@ Ceftolozane 在香港尚未上市，最高排名預測適應症（淋球菌性�
 - 確認現行難治性淋病是否存在未被滿足的用藥需求缺口（尤其多重耐藥菌株）
 - 補充 DrugBank MOA 資料，強化機轉關聯性分析
 - 若認為黃色肉芽腫性腎盂腎炎（Rank 4，L4，Research Question）有研究價值，可優先評估此適應症，因 Ceftolozane/tazobactam 已有腎盂腎炎核准適應症，機轉延伸更為合理
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

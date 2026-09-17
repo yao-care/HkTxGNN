@@ -118,10 +118,10 @@ Propofol 目前**未在香港上市**，本資料包中無相關許可證資料�
 - 補充 DrugBank 作用機轉資料（DG002）以完善機轉關聯性分析
 - 若考慮香港市場，需評估上市/特殊藥品申請路徑（目前 0 張許可證）
 - 補充成人族群更大樣本的 RCT 數據，釐清 NCT02492295 提前終止之原因
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

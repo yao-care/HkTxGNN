@@ -108,10 +108,10 @@ TxGNN 模型基於知識圖譜中的間接關聯進行預測，高預測分數�
 - 作用機轉（MOA）完整資料，以釐清 ADC 在感染性疾病中的可行性（DG002）
 - 香港衛生署核准仿單安全性警語與禁忌資料（DG001）
 - 評估 Enfortumab vedotin 的 ADC 設計是否適合非腫瘤適應症
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -122,10 +122,10 @@ Bexarotene 為抗腫瘤藥物（核受體靶向 Retinoid 類），適用本章�
 - 補充香港/台灣仿單警語與禁忌資料（TFDA/衞生署官網 PDF 解析）
 - 評估是否優先推進 **Sézary Syndrome**（L1，Proceed with Guardrails）或**淋巴肉瘤**（L2，Proceed with Guardrails）等佐證更強的適應症
 - 如確認推進 PCBCL，需設計 Phase 2 探索性試驗設計方案，並建立 B 細胞皮膚淋巴瘤的生物標記篩選策略（如 RXR 表現量）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

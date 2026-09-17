@@ -24,16 +24,16 @@ permalink: /news/choline_salicylate/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>證據等級</strong>：L4</li>
-<li><strong>預測適應症</strong>（8 個）：<ul>
-<li>Prinzmetal Angina（變異性心絞痛） | 99.84% | 0 | 0 | L5 | 不利（PGI2 被抑制） | Hold（99.0%）</li>
-<li>Hypertensive Disorder（高血壓症） | 99.81% | 0 ¹ | 0 | L5 | 不利（腎臟 PGE2 抑制） | Hold（99.0%）</li>
-<li>肺高壓（低氧/肺病） | 99.77% | 0 | 0 ³ | L5 | 不利（抑制 PGI2） | Hold（99.0%）</li>
-<li>肺高壓（多因素不明） | 99.77% | 0 | 0 | L5 | 不利 | Hold（99.0%）</li>
-<li>Malignant Renovascular Hypertension | 99.77% | 0 | 0 | L5 | 明確負向（腎缺血加重） | Hold（99.0%）</li>
-<li>Malignant Hypertensive Renal Disease | 99.77% | 0 | 0 | L5 | 明確負向（腎毒性風險） | Hold（99.0%）</li>
-<li>Raynaud Disease（雷諾氏病） | 99.76% | 0 | 0 | L5 | 薄弱 | Hold（99.0%）</li>
-<li>Pulmonary Hypertension（肺動脈高壓） | 99.75% | 0 ¹ | 0 | L5 | 不利 | Hold（99.0%）</li>
+<li><strong>證據等級</strong>: L4</li>
+<li><strong>預測適應症（8 個）</strong>:<ul>
+<li>Prinzmetal Angina（變異性心絞痛） | 99.84% | 0 | 0 | L5 | 不利（PGI2 被抑制） | Hold (99.0%)</li>
+<li>Hypertensive Disorder（高血壓症） | 99.81% | 0 ¹ | 0 | L5 | 不利（腎臟 PGE2 抑制） | Hold (99.0%)</li>
+<li>肺高壓（低氧/肺病） | 99.77% | 0 | 0 ³ | L5 | 不利（抑制 PGI2） | Hold (99.0%)</li>
+<li>肺高壓（多因素不明） | 99.77% | 0 | 0 | L5 | 不利 | Hold (99.0%)</li>
+<li>Malignant Renovascular Hypertension | 99.77% | 0 | 0 | L5 | 明確負向（腎缺血加重） | Hold (99.0%)</li>
+<li>Malignant Hypertensive Renal Disease | 99.77% | 0 | 0 | L5 | 明確負向（腎毒性風險） | Hold (99.0%)</li>
+<li>Raynaud Disease（雷諾氏病） | 99.76% | 0 | 0 | L5 | 薄弱 | Hold (99.0%)</li>
+<li>Pulmonary Hypertension（肺動脈高壓） | 99.75% | 0 ¹ | 0 | L5 | 不利 | Hold (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/choline_salicylate/' | relative_url }}">查看完整藥物報告 →</a></p>
@@ -45,7 +45,7 @@ permalink: /news/choline_salicylate/
 
 
 <div class="disclaimer">
-<strong>免責聲明</strong>：本頁新聞由系統自動收集，僅供研究參考，不構成醫療建議。
+<strong>免責聲明</strong>: 本頁新聞由系統自動收集，僅供研究參考，不構成醫療建議。
 </div>
 
 <style>

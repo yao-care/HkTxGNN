@@ -93,10 +93,10 @@ TxGNN 的高分（99.99%）最可能反映知識圖譜中「骨骼發育不全 �
 - 確認 Felbinac 是否有任何體外或動物模型研究指向骨骼或結締組織疾病
 - 若有興趣探索 NSAID 類藥物在罕見骨骼疾病的角色，建議改以文獻較豐富的 NSAID（如 Celecoxib）作為先導候選，再類推回 Felbinac
 - 本候選建議暫緩，待同類藥物有更明確證據後再行評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

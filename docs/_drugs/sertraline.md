@@ -101,10 +101,10 @@ TxGNN 模型排名第一預測其可能對**類分裂性人格障礙 (Schizoid P
 - 補充 Sertraline 作用機轉（MOA）資料（DG002）
 - 若考慮唯一達 S1 的候選方向（schizotypal PD），需要更大樣本的臨床試驗佐證（現有試驗僅 n=8）
 - 釐清香港上市策略（目前 0 張許可證，屬未上市藥物）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

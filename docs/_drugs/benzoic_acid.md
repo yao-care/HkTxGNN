@@ -99,10 +99,10 @@ TxGNN 模型給出高預測分數（99.98%）很可能源自知識圖譜中苯�
 - 尋找苯甲酸（非其衍生物）在呼吸道疾病模型中的前臨床研究
 - 取得香港藥監局（衛生署）或其他主要監管機構的完整安全性資料
 - 評估苯甲酸作為藥物活性成分（而非輔料）的可行性與劑量合理性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

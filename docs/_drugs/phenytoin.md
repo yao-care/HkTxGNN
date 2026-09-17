@@ -110,10 +110,10 @@ Phenytoin 目前**未在香港上市**，查無許可證資料。
 - 若仍要驗證此適應症，需先由藥理專家確認是否存在尚未被知識圖譜捕捉的機轉路徑，而非僅依賴 TxGNN 分數。
 - 補齊 TFDA/香港仿單警語與禁忌資料，以及完整 MOA 資料（DG001、DG002）。
 - 建議將研究資源轉向本藥物的其他候選適應症——**audiogenic seizures（音源性癲癇）** 排名第 5，證據等級達 L4／決策階段 S1（Research Question），有多篇齧齒類動物實驗直接支持 phenytoin 的抗驚厥效果，機轉一致性遠高於本候選。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

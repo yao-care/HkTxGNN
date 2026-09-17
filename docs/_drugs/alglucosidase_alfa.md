@@ -116,10 +116,10 @@ TxGNN 預測排名 2–10 的適應症均評估為 **Hold（L5，無任何臨床
 - 稀有病專家諮詢：評估 APBD 自然病程與現有治療缺口，確認未滿足醫療需求
 
 > ⚠️ **免責聲明**：本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過正式臨床驗證才能應用於臨床實踐。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

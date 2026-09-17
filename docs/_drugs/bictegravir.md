@@ -99,10 +99,10 @@ HIV-1 與 SIV 均屬慢病毒科（Lentivirus），兩者的整合酶在 intasom
 - 補充 Bictegravir 完整作用機轉資料（DrugBank MOA）
 - 取得台灣/香港上市許可及仿單安全性資料（警語、禁忌、DDI）
 - 若目標為人類適應症，建議重新篩選 TxGNN 預測清單中的**人類疾病**適應症（Rank 3 以後的預測需進一步評估）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

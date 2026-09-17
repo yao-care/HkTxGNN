@@ -108,10 +108,10 @@ Evidence Pack 屬 multi-indication 候選（candidate_id: TW-DB00581-multi），
 - 正式收錄的藥物作用機轉資料（DG002）
 - 針對「lactulose 腸道去污對阻塞性黃疸術後腎保護效果」設計前瞻性 RCT，確認因果效益
 - 釐清 acute urate nephropathy、nephrolithiasis、biliary tract disease 的機轉合理性後，再決定是否納入後續證據收集
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

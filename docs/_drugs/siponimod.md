@@ -101,10 +101,10 @@ Siponimod 目前於香港**未上市**，無許可證資料。
 - 取得仿單警語與禁忌症資料，完成 S1 安全性初評（目前為阻斷性缺口）
 - 若優先追蹤預測方向，建議轉向證據較完整的類風濕性關節炎候選（L4／S1），並補充 Siponimod 於自體免疫疾病的臨床前或個案研究資料
 - 針對肺動脈高壓方向，需先有動物模型或機轉研究（達到 L4）才建議進一步評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

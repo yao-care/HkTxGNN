@@ -96,10 +96,10 @@ TxGNN 模型預測它可能對**結膜炎 (Conjunctivitis)** 有效，預測分�
 - 補齊 isoniazid 的作用機轉（MOA）資料
 - 取得 TFDA/香港仿單完整警語與禁忌症資料（目前為 Blocking 缺口）
 - 針對「結膜炎」（而非結核性眼部感染）設計專屬的前臨床或機轉研究，以排除知識圖譜混淆信號的可能性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -154,10 +154,10 @@ Elosulfase alfa 治療 MPS IVA 已有 Phase 3 RCT（MOR-004）及長達 120 週�
 - 評估香港 MPS IVA 患者人數（極罕見疾病，需罕見疾病用藥申請途徑）
 - 建立輸注反應防護計畫及免疫原性長期監測方案
 - 確認衛生署罕見疾病用藥免審或特殊申請途徑（如個案進口許可）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -133,10 +133,10 @@ Dexmedetomidine 在香港目前未上市（0 張許可證），缺乏藥品基�
 4. **PDPH 擴大試驗**：設計 ≥200 人多中心 Phase 3 RCT，擴展至非產科 PDPH 族群（如神經外科、疼痛科），確立霧化標準劑量及系統性 PK 數據
 5. **原發性頭痛探索**：設計 Proof-of-Concept 試驗，評估 DEX 對偏頭痛（Rank 2）或三叉神經自律性頭痛（Rank 5）的潛在療效
 6. **Rank 1 機轉研究**：探討 DEX 與腎原性抗利尿不當症候群的機轉關聯性，評估是否值得啟動臨床前研究
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

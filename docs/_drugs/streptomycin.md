@@ -110,10 +110,10 @@ Evidence Pack 中缺乏 DrugBank 的完整作用機轉描述，但根據預測�
 - 補齊完整作用機轉（MOA）資料（來源：DrugBank）
 - 現代眼科局部劑型之藥動/藥效資料，釐清與全身注射用途的差異
 - 針對細菌性結膜炎設計之前瞻性臨床研究，驗證歷史證據在現代情境下的適用性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

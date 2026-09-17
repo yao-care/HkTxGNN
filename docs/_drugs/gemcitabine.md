@@ -106,10 +106,10 @@ TxGNN 預測分數極高（99.98%），且機轉分析顯示 FDA 已核准 Gemci
 - 補充完整警語與禁忌症資料（建議查詢 DrugBank API 及 TFDA/EMA 仿單 PDF）
 - 明確 HER2 陰性亞型的患者選擇標準（ER/PR 狀態、療程線別）
 - 制定骨髓抑制監測計畫及 Gemcitabine + paclitaxel 聯用的 DDI 評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

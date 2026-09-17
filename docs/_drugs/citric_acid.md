@@ -110,10 +110,10 @@ Citric Acid 目前在香港**未有藥品許可證登記**，無核准適應症�
 - 取得藥品仿單，確認安全性警語、禁忌症與劑量設定
 - 設計前臨床干預研究，驗證檸檬酸（或含檸檬酸製劑）在胃潰瘍/H. pylori 模型中的治療效果
 - 評估以「製劑活性成分」（如鉍-檸檬酸鹽複合物）而非單純檸檬酸進行開發的可行性，後者具更強的現有機轉依據（PMID 9379358）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

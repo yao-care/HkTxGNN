@@ -119,10 +119,10 @@ TxGNN 模型對此預測提出**雙重機轉假說**：
 ---
 
 *本報告僅供研究參考，不構成醫療建議。所有老藥新用候選均需經過完整臨床驗證方可應用。*
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -105,10 +105,10 @@ Gilteritinib 與延髓型脊髓灰質炎之間缺乏可信的機轉連結，目�
 - 體外（in vitro）AXL 抑制對 Poliovirus 感染的功能驗證實驗
 - 取得台灣 TFDA 仿單，補齊警語與禁忌症資料（現為 Blocking 缺口）
 - 重新評估是否有其他 AXL 抑制劑在腸病毒/小 RNA 病毒領域已有前臨床數據，作為類推依據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

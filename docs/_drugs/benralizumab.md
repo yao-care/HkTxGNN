@@ -118,10 +118,10 @@ Benralizumab 目前在香港**尚未取得任何藥品許可證**，無本地上
 - 持續追蹤 **NCT06734884**（DRESS 的 Phase 2 試驗，n=96）招募啟動狀況及初步結果，預計 2029 年完成——此為目前最具潛力的皮膚科探索方向
 - 優先補全 Benralizumab 原廠仿單的 MOA 及安全性警語資料，解除 DG001（Blocking）及 DG002（High）兩項資料缺口，以完成 S1 安全性初評
 - 若考慮香港本地臨床研究，需事先完成衛生署法規諮詢、倫理審查（IRB）準備及藥品特殊進口申請
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -122,10 +122,10 @@ Idarucizumab 是一種人源化單株抗體片段，原本用於逆轉 dabigatra
 - 補齊 TFDA／香港衛生署仿單警語與禁忌症資料（Blocking 等級缺口，PDF 解析）
 - 若未來模型更新產生新的高分候選，須重新檢視是否具備獨立於知識圖譜鄰近效應的真實機轉證據，再決定是否投入臨床前驗證資源
 - 現階段不建議針對本輪任何候選投入後續驗證資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

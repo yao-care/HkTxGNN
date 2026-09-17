@@ -271,10 +271,10 @@ Phase 2 試驗（NCT00098033，n=64）直接納入 CML 急變期患者；PMID 20
 - **神經母細胞瘤（Rank 4，L4）**：理論上高風險/MYCN 擴增型神經母細胞瘤的快速增殖特性使其對 RNR 抑制敏感，但目前僅有間接移植研究（NCT00617929）及一篇基礎蛋白質體學研究，需先取得體外/體內臨床前驗證資料方可進入臨床開發評估。
 
 > **免責聲明**：本報告結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經嚴格臨床驗證方可應用於患者。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

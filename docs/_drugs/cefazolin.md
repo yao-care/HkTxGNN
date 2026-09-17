@@ -99,10 +99,10 @@ TxGNN 給出高預測分數（99.44%），但 Cefazolin 對感染性中耳炎兩
 - 補齊香港衞生署仿單安全性資料，包含警語、禁忌症與藥物交互作用（Data Gap DG001）
 - 評估是否轉換研究方向至「**耳科手術圍術期預防性用藥**」情境——本 Evidence Pack 中 Rank 3「中耳疾病 (Middle Ear Disease)」在此情境下已有較強支持，建議決策為 **Proceed with Guardrails**（L3 證據等級），Cefazolin 對 MSSA 和 Streptococci 的預防效果已具一定文獻基礎
 - 如聚焦治療性適應症，建議改為評估第二代或第三代頭孢菌素（如 cefuroxime、cefdinir），或以 Cefazolin 作為過敏患者替代選項的利基市場分析
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

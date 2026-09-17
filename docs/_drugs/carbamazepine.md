@@ -110,10 +110,10 @@ Carbamazepine 是電壓依賴性鈉通道阻斷劑（voltage-gated sodium channe
 - 補充完整 MOA 資料（DrugBank API 查詢 DB00564）
 - 取得仿單警語與禁忌症（TFDA 官網下載 PDF 解析，DG001 缺口）
 - 設計針對三叉神經腫瘤壓迫性疼痛症狀控制的前瞻性觀察性研究或病例系列分析
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

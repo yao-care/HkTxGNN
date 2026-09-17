@@ -146,10 +146,10 @@ Amoxicillin 對多株型高黏滯度症候群的 TxGNN 高分預測缺乏機轉�
 - 補充 Amoxicillin 完整 MOA 及安全性資訊（TFDA 仿單 PDF 解析或 DrugBank API）
 - 系統性回顧 IPSID 標準治療指引中 Amoxicillin（含/不含 metronidazole）的使用證據
 - 評估是否有機會設計聚焦 IPSID 族群的小型前瞻性佇列研究
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

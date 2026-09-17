@@ -121,10 +121,10 @@ Montelukast 是選擇性 CysLT1（cysteinyl leukotriene receptor 1）拮抗劑�
 - 補充 DrugBank 作用機轉（MOA）正式資料，取代目前引自 evidence pack 內部文字之描述
 - 人工複核臨床試驗清單，剔除 GVHD/BOS 相關雜訊，聚焦真正的「支氣管炎／NAEB」適應症證據
 - 釐清「bronchitis」與「bronchiolitis」在本候選中的用詞界線，避免適應症錯置
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

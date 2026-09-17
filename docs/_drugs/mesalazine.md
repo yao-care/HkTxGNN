@@ -130,10 +130,10 @@ TxGNN 模型針對此藥共產生 5 個預測適應症，其中證據支持度�
 - 釐清 5-ASA（Mesalazine）獨立於 Sulfapyridine 之抗風濕活性，建議先進行體外/動物模式之頭對頭比較研究
 - 若確認機轉合理，需設計以**純 Mesalazine**（非 Sulfasalazine 複方）為受試藥物之 RA 對照試驗，現有 NCT02930343、NCT00637780 均不符此條件
 - 確認香港上市可行性（目前 0 張許可證，尚未上市）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

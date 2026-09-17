@@ -108,10 +108,10 @@ TxGNN 模型所預測的兩個高分適應症（貓後天免疫缺乏症候群�
 ---
 
 > ⚠️ **免責聲明**：本報告結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經過臨床驗證才能實際應用於患者。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

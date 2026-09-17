@@ -107,10 +107,10 @@ TxGNN 模型雖給出 99.99% 的高分，但人工覆核判定此機轉關聯**�
 - 補齊 TFDA/HK 仿單警語與禁忌資料（DG001，Blocking，來源：TFDA 官網仿單 PDF）
 - 補齊 DrugBank 作用機轉資料（DG002，High，來源：DrugBank API）
 - 若仍要探索 metronidazole 老藥新用方向，建議轉向本評估中證據等級較高的候選適應症，如 **cap polyposis**（L3，已有機轉假說文獻直接探討）、**ulcerative proctosigmoiditis** 與 **ulceration of vulva**（皆 L4，部分病因子群機轉成立），而非本報告聚焦之 pneumocystosis
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

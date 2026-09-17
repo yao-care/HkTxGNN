@@ -111,10 +111,10 @@ TxGNN 針對此藥物共產出 10 個候選，多數與排名第一者同樣缺�
 - 補齊完整作用機轉 (MOA) 資料（DG002，High）
 - 若聚焦原發性澱粉樣變性方向：需取得該族群腸道動力障礙之介入性研究（病例系列或前瞻性試驗），目前僅有診斷型文獻佐證
 - 若考慮於香港上市，需完成當地藥證申請流程（目前 0 張許可證）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

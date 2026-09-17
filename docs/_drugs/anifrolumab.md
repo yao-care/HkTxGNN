@@ -100,10 +100,10 @@ Anifrolumab 是一種抗 I 型干擾素受體（IFNAR1）的人源化單株抗�
 2. **補全安全性資料**：下載並解析香港衛生署仿單 PDF，取得警語與禁忌（目前為 Blocking Data Gap）
 3. **確認 KG 偽陽性假設**：分析知識圖譜中 SLE → 類固醇 → 白內障的間接路徑，評估是否可作為過濾規則
 4. **若需繼續評估眼科方向**：建議優先考慮**糖尿病視網膜病變（排名第 10）**——其機轉合理性相對最高（IFN-α 已知可造成視網膜血管病變，阻斷 IFN 或具潛在保護作用），但仍需臨床前數據支持後方可晉升評估等級
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

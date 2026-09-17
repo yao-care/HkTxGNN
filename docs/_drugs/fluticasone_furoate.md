@@ -108,10 +108,10 @@ Fluticasone furoate 在作用機轉上（GR 介導的 Th2 炎症抑制）與異�
 - 補充作用機轉（MOA）正式資料（建議查詢 DrugBank API）
 - 補充安全性資訊，包括警語與禁忌症（建議下載原廠仿單 PDF 解析）
 - 評估香港市場可行性：目前無本地許可證，須確認進口及臨床試驗申請路徑
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

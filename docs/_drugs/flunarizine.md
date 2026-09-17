@@ -129,10 +129,10 @@ Flunarizine 用於偏頭痛預防已具備充分的 L1 等級臨床證據，包�
 - 補充正式作用機轉文獻引用（DG002），鞏固機轉關聯性分析
 - 建立長期使用的錐體外症候群與抑鬱症狀監測計畫（建議定期神經學評估）
 - 參考 EHF Meta 分析（PMID 37723437）確立 Flunarizine 相較 Topiramate、Propranolol 的臨床定位與選擇依據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

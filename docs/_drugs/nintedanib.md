@@ -107,10 +107,10 @@ DFSP 這類腫瘤常見 *COL1A1-PDGFB* 融合基因，會驅動 PDGFRB 持續活
 - 透過 DrugBank API 補齊正式 MOA 資料（DG002）
 - 尋找 nintedanib 專屬於 PDGFR 驅動腫瘤（如 DFSP）之臨床前或病例報告證據
 - 評估劑型與給藥途徑相容性（目前無本地上市劑型資料）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

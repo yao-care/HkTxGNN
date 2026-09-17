@@ -117,10 +117,10 @@ Cabozantinib 屬於抗腫瘤標靶藥物，符合細胞毒性章節的揭露標�
 - 等待 NCT05836571（2026-05 預計完成）結果，確認脂肪肉瘤亞型的獨立療效資料
 - 查詢是否存在脂肪肉瘤特定的前臨床研究或分子標誌物分析
 - 評估 Cabozantinib 是否可在香港透過特殊進口申請或恩慈使用管道取得，以備未來臨床使用規劃
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

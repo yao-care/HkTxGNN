@@ -115,10 +115,10 @@ TxGNN 模型的高分預測最可能來自知識圖譜中醋酸與「細菌感�
 - **優先考慮轉向評估 Rank 9（Tinea Corporis）**，此適應症具備 L3 等級證據及合理機轉，更具近期研究可行性
 
 > ⚠️ 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證方可應用。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

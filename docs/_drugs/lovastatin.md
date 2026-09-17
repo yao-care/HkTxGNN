@@ -100,10 +100,10 @@ LOVASTATIN 目前未於香港取得任何藥品許可證（總許可證數：0�
 - 補齊 DG001（仿單警語/禁忌，Blocking）與 DG002（MOA，High）兩項關鍵資料缺口
 - 依 LDL 受體殘餘活性分層（receptor-negative vs receptor-defective），釐清可能有反應的 HoFH 亞群
 - 若評估市場導入，需先完成香港藥品許可證申請程序
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

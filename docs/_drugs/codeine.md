@@ -146,10 +146,10 @@ Codeine 目前在香港**無任何上市許可**（0 張許可證），無相關
 - 查詢香港衛生署管制藥物許可證資料庫
 - 在 TxGNN 模型中標注此案例為 False Positive，用於模型校正
 - 審視知識圖譜中 Codeine 的連結類型標注，區分「adverse」與「therapeutic」邊緣
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

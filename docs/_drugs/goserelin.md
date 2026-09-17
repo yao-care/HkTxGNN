@@ -117,10 +117,10 @@ Goserelin 目前在香港**未取得上市許可**，衛生署藥物許可證紀
 - 補充 DrugBank MOA 詳細資料以完整機轉關聯性分析
 - 明確臨床適應症定位：治療性閉經誘導（如子宮腺肌症）vs 化療期間卵巢保護（兩者機轉相同但監管路徑不同）
 - 建立卵巢功能恢復監測計畫（基線與治療期間 E₂、LH、FSH 定期追蹤）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

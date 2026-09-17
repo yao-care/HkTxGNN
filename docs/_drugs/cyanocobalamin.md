@@ -121,10 +121,10 @@ Cyanocobalamin 作為維生素B12的合成形式，在體內轉換為活性輔�
 - 查閱罕見代謝疾病專家文獻，確認是否有個案報告顯示 B12 補充對生物素代謝疾病有輔助效益
 - 優先評估其他 TxGNN 排名較高且具更強直接臨床證據的候選適應症
 - 若確需推進，建議先進行回顧性病例系列研究（n ≥ 10），再考慮前瞻性試驗設計
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -144,10 +144,10 @@ Phase 2 ERASING 試驗（NCT03840772）已完成，直接評估 eribulin 於孤�
 - 確認 eribulin 全球核准適應症詳細清單，特別是脂肪肉瘤亞型範圍
 - 評估台灣藥品取得路徑：恩慈療法（compassionate use）或臨床試驗申請
 - **其他 9 個預測適應症**：目前均建議 Hold，待後續研究發表再重新評估；卵巢黏液樣脂肪肉瘤（排名第 5）因與 FDA 已核准的脂肪肉瘤存在類比關係，可標記為 Research Question 持續追蹤
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

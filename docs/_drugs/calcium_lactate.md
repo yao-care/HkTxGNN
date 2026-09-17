@@ -115,10 +115,10 @@ Calcium Lactate 在香港目前**無上市許可**，藥物登記資料庫中無
 - 將 Calcium-Alkali Syndrome 在分析資料庫中標記為 **Causation Artifact**，排除後續再利用評估
 - 評估骨礦化缺陷（第 2 適應症）在特定亞型（如 Rickets、Osteomalacia）中補充鈣質的理論可行性，需先取得 MOA 資料及前臨床研究（建議查詢 DrugBank API）
 - 香港無上市許可，任何適應症若進入後期評估，需規劃藥品取得途徑與藥監局溝通策略
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -92,10 +92,10 @@ TxGNN 同時列出其他候選適應症，但交叉查證後均顯示證據不�
 - 補齊 TFDA 仿單警語/禁忌資料（Blocking gap，目前無法進行安全性初評）
 - 補齊 DrugBank 作用機轉 (MOA) 資料
 - 重新檢視 TxGNN 模型對顯影劑類藥物的預測可靠性，或考慮此候選藥物暫不列入優先評估清單
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

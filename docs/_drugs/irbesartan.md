@@ -89,10 +89,10 @@ Evidence Pack 中 `original_moa` 標記為資料缺失、`original_indications` 
 - 取得仿單警語與禁忌症資料（Blocking 等級缺口 DG001，屬進入 S1 安全性初評的前提）
 - 針對 rank 1-2（腎血管性高血壓相關）另行檢索是否有 ARB 用於高血壓性腎病的既有臨床證據
 - 排除 rank 3-4（肺動脈高壓）的機轉薄弱疑慮，或以更精準關鍵字重新執行文獻檢索，避免 hypoxia 泛用詞誤配
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

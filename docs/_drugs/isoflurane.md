@@ -99,10 +99,10 @@ TxGNN 模型將其列為對**躁鬱症躁期 (Manic Bipolar Affective Disorder)*
 - 補齊 Isoflurane 完整作用機轉 (MOA) 資料（DG002，High）
 - 若欲驗證躁鬱症方向，需現代前瞻性對照研究更新 1990 年代 BSIA 舊證據，並評估其相對於 ECT／藥物治療的風險效益
 - 評估吸入性麻醉劑於精神科重複／慢性給藥情境下的操作可行性與病人負擔
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

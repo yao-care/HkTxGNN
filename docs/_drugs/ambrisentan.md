@@ -163,10 +163,10 @@ PAH-CHD、CTD-PAH 及 HIV-PAH 的病生理均以 ET-1／ETA 通路活化為核�
 - 考量 Ambrisentan + Tadalafil 聯合用藥策略（AMBITION 試驗顯示組合優於單藥，CTD-PAH 有直接數據）
 - HIV-PAH 族群需個別評估與 HIV 抗反轉錄病毒藥物的 PK 交互作用
 - 兒科 CHD-PAH 族群需確認特殊低劑量配方的可及性（已有 Phase 1 PK 數據，NCT04095286）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

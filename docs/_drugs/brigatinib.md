@@ -109,10 +109,10 @@ Brigatinib 為抗腫瘤靶向藥物（ALK 陽性 NSCLC 核准適應症），屬�
 - **取得香港衛生署核准仿單（Data Gap DG001）**：完成 S1 安全性初評，確認警語、禁忌與藥物交互作用
 - **前臨床探索**：若仍欲推進，需進行體外試驗評估 Brigatinib 對牙齦纖維母細胞株（如 ATCC HGF-1）的增殖抑制活性
 - **考慮轉向具更強機轉依據的替代預測**：本資料集中 Rank 7（ALK 陽性神經內分泌腫瘤，L4 前臨床證據）及 Rank 10 附帶發現中的 **NF2 相關許旺瘤病**（PMID [38904277](https://pubmed.ncbi.nlm.nih.gov/38904277/)，2024 年 Phase 2 前瞻性研究）具備更紮實的 ALK/多靶點機轉連結，建議優先評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

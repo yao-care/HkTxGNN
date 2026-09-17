@@ -136,10 +136,10 @@ TxGNN 分數最高的預測適應症在機轉上缺乏合理性（非 EGFR 驅�
 - 下載並解析 Gefitinib 原廠仿單（Iressa® 250 mg），取得警語、禁忌及藥物交互作用資料
 - 肺門癌路徑：以「EGFR mutant NSCLC」或「non-small cell lung cancer gefitinib」重新搜尋 ClinicalTrials.gov，取得完整 Phase 3 RCT 證據基礎
 - IBMPFD/FTD 路徑（探索性）：設計 progranulin-EGFR 軸的基礎研究實驗方案；前臨床結果正面後，再評估進入 S1 評估的可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

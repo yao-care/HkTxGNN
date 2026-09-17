@@ -98,10 +98,10 @@ Caspofungin 在香港目前**未取得上市許可**，無相關藥品登記資�
 - 搜尋腸道念珠菌感染與 gastrin 異常分泌相關的基礎研究或病例報告，評估間接機轉假說的可信度
 - 若間接機轉假說獲得初步支持，再規劃前臨床（動物模型）驗證實驗
 - 補充香港上市路徑評估（目前未上市，需考量藥物可及性問題）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

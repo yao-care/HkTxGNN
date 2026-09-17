@@ -96,10 +96,10 @@ Nonivamide 目前於台灣未上市，無任何許可證記錄。
 - 補齊 DrugBank 詳細 MOA 資料，釐清機轉關聯性
 - 針對排名靠前的預測適應症（肺動脈高血壓、周邊動脈疾病等）尋找臨床前/體外實驗證據，驗證 TRPV1 訊號路徑假說是否成立
 - 部分預測（如急性淋巴性白血病、心室心律不整、CPVT）在評估報告中已被機轉分析標註為「模型雜訊」或「偽陽性」，建議優先排除，避免投入後續資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

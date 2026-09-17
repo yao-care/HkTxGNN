@@ -104,10 +104,10 @@ Esketamine 目前在香港**未取得上市許可**，無任何已登記之藥�
 - 評估是否存在可轉化（bridging）的焦慮症臨床試驗結果，以支持適應症擴展
 - 釐清香港監管路徑：Esketamine 本地上市申請可行性，或以特殊用藥途徑（unregistered drug）進行研究者發起臨床試驗（IIT）
 - 設計疾病特異性的廣場恐懼症 Pilot Study，收集早期療效與安全性訊號
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

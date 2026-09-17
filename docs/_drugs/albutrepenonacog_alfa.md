@@ -122,10 +122,10 @@ Albutrepenonacog alfa 目前在台灣**尚未取得藥品許可證**，無任何
 - 查詢 DrugBank API 取得詳細 MOA 資料（DG002 修復）
 - 若考慮深入評估 Glanzmann 血小板功能不全症或 Scott 症候群（機轉上有最弱理論合理性），應先檢索相關臨床前研究，並諮詢血液科/止血專科醫師
 - 建議重新評估 TxGNN 知識圖譜的訓練資料，確認「出血性疾病」節點的邊定義是否需要加入止血機轉分層（一級 vs 二級），以提升未來預測的機轉特異性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

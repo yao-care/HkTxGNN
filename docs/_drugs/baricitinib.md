@@ -92,10 +92,10 @@ Colobomatous microphthalmia-rhizomelic dysplasia syndrome 是一種**極罕見�
 - **孤兒藥可行性評估**：此症候群極罕見，需評估患者族群規模及商業可行性
 - **安全性資料補充**：取得 TFDA/香港衛生署仿單，補充完整警語、禁忌症及 MOA 資料
 - **香港藥監登記評估**：確認 Baricitinib 在香港未上市的監管路徑
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

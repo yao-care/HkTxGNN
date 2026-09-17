@@ -143,10 +143,10 @@ TxGNN 預測分數雖高（99.55%），但與胃輕癱的機轉連結薄弱，�
 - 補充 Histidine 的 MOA 資料（查詢 DrugBank API，DG002）
 - 評估 Histidine 的抗氧化/免疫調節特性是否足以抵消組織胺促纖維化效應
 - 確認香港藥品監管申請途徑（目前未上市，臨床試驗前需 IND 評估）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

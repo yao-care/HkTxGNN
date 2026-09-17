@@ -108,10 +108,10 @@ Potassium Chloride（DrugBank ID: DB00761）目前缺乏原適應症與作用機
 - 取得 Potassium Chloride 之詳細作用機轉（MOA）資料（DG002）
 - 補充原始核准適應症資料，以利與 RTA 適應症進行機轉比對
 - 評估是否應以「同類鉀鹽/鹼化療法」（如檸檬酸鉀）作為更貼近的機轉對照組，釐清單純氯化鉀補充在 RTA 中的角色與風險（尤其高氯性酸中毒加重疑慮）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

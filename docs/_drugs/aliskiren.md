@@ -171,10 +171,10 @@ Aliskiren 的腎素抑制機轉與腦血管疾病的病理生理（血管炎症�
 3. **設計排除高風險族群的研究方案**：明確排除第 2 型糖尿病患者合用 ACEI/ARB 的情境
 4. **優先以單獨給藥（非雙重 RAAS 阻斷）設計**臨床試驗或觀察性研究
 5. **建立台灣/香港上市可行性評估**：目前香港無許可證，若有潛在研究需求，需評估重新申請或研究用藥特例的可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

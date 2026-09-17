@@ -107,10 +107,10 @@ TxGNN 預測的新適應症「原發性血小板釋放障礙」與 ITP 在病理
 - 透過 DrugBank API 補充正式收錄的作用機轉（MOA）資料
 - 尋找或發起針對「原發性血小板釋放障礙」的介入性臨床試驗證據
 - 評估香港上市申請的可行性與時程
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

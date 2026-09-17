@@ -111,10 +111,10 @@ Golimumab 為全人類化 IgG1κ 抗 TNF-α 單株抗體，透過直接中和可
 - 進行類風濕性血管炎亞族群的系統性文獻回顧，確認抗 TNF 治療的直接療效證據
 - 若考慮設計研究：規劃 RA 血管炎患者使用 Golimumab 的觀察性登錄或病例系列研究
 - 與香港風濕科專家討論 vasculitis 亞族群識別的可行性及臨床需求
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

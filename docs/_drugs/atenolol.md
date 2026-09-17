@@ -131,10 +131,10 @@ Atenolol 是高度心臟選擇性的 β₁ 腎上腺素受體阻斷劑，廣泛�
 ---
 
 > ⚠️ **免責聲明**：本報告由 TxGNN 模型預測結果生成，僅供研究參考，不構成醫療建議。所有老藥新用候選均需經過正式臨床驗證後，方可應用於實際診療。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -94,10 +94,10 @@ Lacosamide 目前未於香港上市，無許可證登記資料。
 - 取得完整 DrugBank MOA 資料（DG002）
 - 等待 NCT07412132（雙相憂鬱發作）完成並公布結果
 - 若考慮推進偏頭痛適應症，優先檢視 NCT05851781（已完成，n=600，lacosamide vs propranolol）之正式發表結果
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

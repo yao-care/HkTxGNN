@@ -100,10 +100,10 @@ Crotamiton 對恙蟎病的預測在機轉上為本清單中最具生物學合理
 - 收集 TFDA 仿單警語與禁忌症（目前為資料缺口，阻礙安全性初評）
 - 評估香港或台灣藥政機關對此外用殺蟎適應症擴展的監管路徑
 - 若文獻搜索有初步支持，建議啟動小規模概念驗證（PoC）皮膚科試驗設計評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

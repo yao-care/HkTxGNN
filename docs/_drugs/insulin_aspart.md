@@ -132,10 +132,10 @@ TxGNN 模型對此藥物共產出 5 個高分預測，其中排名第一的**第
 - 補齊 DrugBank 作用機轉資料（DG002，High）
 - 確認香港上市狀態是否為真實未上市或資料缺口
 - 若欲推進「永久性新生兒糖尿病」方向，需取得 Insulin Aspart 專屬之前瞻性研究或病例系列證據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -134,10 +134,10 @@ Salbutamol 為選擇性 β2-腎上腺素受體促效劑，主要作用於呼吸�
 - 補齊 DrugBank 正式作用機轉資料（DG002，High）
 - 若考慮支氣管炎方向，需針對特定族群（如毛細支氣管炎兒童）重新評估现行指引與療效爭議
 - 評估香港上市/引進之法規路徑，因目前 0 張許可證為基本前提缺口
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

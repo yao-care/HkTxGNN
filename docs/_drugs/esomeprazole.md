@@ -103,10 +103,10 @@ TxGNN 模型預測它可能對**十二指腸胃逆流（Duodenogastric Reflux）
 - 確認 Esomeprazole 在膽汁逆流性胃炎或混合性逆流（GERD + DGR）患者中的療效數據
 - 向香港衛生署藥物辦公室核實 Esomeprazole 正式上市許可狀態及核准適應症
 - 補充完整的作用機轉（MOA）資料及香港仿單警語與禁忌症
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

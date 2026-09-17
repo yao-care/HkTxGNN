@@ -104,10 +104,10 @@ Paclitaxel 的作用機轉為穩定微管聚合、抑制紡錘體解聚，阻斷
 - 補齊正式作用機轉（MOA）資料（DG002，High，來源：DrugBank API）
 - 確認 Paclitaxel 是否應於本站藥品資料庫新增上市/許可證登記，釐清目前「未上市」是否為資料收錄缺口而非實際市場狀態
 - 排除 Ehrlich tumor（動物模型）等非人類疾病實體的預測結果，避免混入決策評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

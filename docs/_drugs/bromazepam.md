@@ -102,10 +102,10 @@ TxGNN 預測分數雖高（99.06%），但現有唯一臨床試驗與 Bromazepam
 - 主動搜尋 Bromazepam 或其他苯二氮平類藥物用於偏頭痛（預防或急性治療）的直接前臨床或臨床研究
 - 評估是否有苯二氮平類藥物（如 Diazepam、Clonazepam）之偏頭痛相關系統性回顧，作為機轉類比參考
 - 確認香港或國際市場是否有已核准的偏頭痛適應症路徑可供銜接
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

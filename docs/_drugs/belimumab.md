@@ -103,10 +103,10 @@ Belimumab 在香港目前尚無上市許可，無任何許可證記錄。如需�
 - 補全安全性資料：下載原廠仿單 PDF，解析警語與禁忌
 - 重新評估本批次預測：優先探索機轉較合理的 FNAIT（第 4 名）適應症，需先解決妊娠期安全性問題或改以非孕期預防性治療策略為研究框架
 - 執行 FNAIT 前臨床驗證：設計 BLyS 抑制對母體同種抗體滴度影響的動物模型實驗，再考慮是否進入臨床研究階段
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

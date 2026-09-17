@@ -156,10 +156,10 @@ Imatinib 屬抗腫瘤藥物（廣泛用於 CML、GIST 等腫瘤，且本次多�
 - 針對 Conventional Fibrosarcoma／DFSP，補充是否有更新（近5年）之前瞻性試驗數據，並確認香港/亞太地區是否已有註冊案例
 - 若欲推進 Liposarcoma 適應症，建議先以 c-KIT/PDGFR 免疫組織化學表現作為病人篩選條件，並正視現有陰性案例報告（PMID 17708241）
 - 其餘 7 項低證據等級預測，暫緩投入資源，待未來新增臨床試驗或文獻證據後再重新評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

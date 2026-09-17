@@ -127,10 +127,10 @@ Risperidone 是廣為人知的非典型抗精神病藥物（作用於 D2/5-HT2A 
 - 透過 DrugBank API 查詢正式 MOA 資料（DG002）
 - 針對 Asperger 症候群連結，另行查證 RUPP Autism Network 等已知隨機對照試驗文獻，避免僅憑機轉推論分級
 - 若推進 Phelan-McDermid syndrome 或拔毛症兩項候選，建議規劃前瞻性病例系列或小型對照試驗以補足證據等級
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

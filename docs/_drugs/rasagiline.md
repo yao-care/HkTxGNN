@@ -88,10 +88,10 @@ PLA2G6 相關神經退化症（PLAN，含 INAD、NBIA2）部分亞型（如非�
 - 尋找 PLA2G6-associated neurodegeneration 之直接臨床前或病例證據。
 
 **備註：** 本次預測清單中，rank 4「paralysis agitans, juvenile, of Hunt」（青少年型帕金森症）證據等級較高（L4/S1，Research Question），機轉合理性也較 rank 1 為中度（黑質多巴胺神經元功能缺損為共同終點），可能是更值得優先探索的方向，建議另案評估。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

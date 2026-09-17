@@ -95,10 +95,10 @@ TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** �
 - 搜尋 Cidofovir 與膽道系統或膽管炎相關的前臨床研究、動物模型或個案報告
 - 評估 CMV 相關膽道病變與原發性硬化性膽管炎之間是否存在病理交集或共同機轉
 - 取得香港衛生署核准之完整仿單，確認安全性警語、禁忌症及腎毒性監測要求
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -95,10 +95,10 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 - 設計前瞻性小型概念驗證（Proof-of-Concept）研究，以釐清 α₁ 拮抗是否在現代偏頭痛病理框架中具有獨立貢獻
 - 評估與現有一線預防藥物（propranolol、topiramate、CGRP 抗體）的比較優勢與定位差異
 - 若擬於香港開展臨床評估，需先申請藥品許可或進行試驗用藥申請（IND-equivalent）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

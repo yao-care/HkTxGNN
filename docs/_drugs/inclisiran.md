@@ -107,10 +107,10 @@ Inclisiran 目前**未在香港上市**，無核准許可證紀錄（total_licen
 - 取得 TFDA／香港仿單完整警語與禁忌症資料，完成 S1 安全性初評（DG001）
 - 取得 Inclisiran 詳細作用機轉（MOA）官方資料，強化機轉關聯性分析（DG002）
 - 若無明確上市計畫，需重新評估本候選在香港市場的適用性與優先順序
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

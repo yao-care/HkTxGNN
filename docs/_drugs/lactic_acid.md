@@ -122,10 +122,10 @@ Lactic acid 目前**未於香港取得任何藥品許可證**（`total_licenses:
 - 補齊 TFDA／香港仿單警語與禁忌症資料（DG001，Blocking）。
 - 透過 DrugBank API 或原廠資料補齊作用機轉（DG002，High）。
 - 針對排名第一候選，須先取得任何形式的機轉或臨床證據，否則建議直接排除，改聚焦於證據等級較高但方向仍待釐清的候選（如 rank 2 aortic malformation），並進一步查證乳酸在該情境下是否為監測指標而非治療標的。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -102,10 +102,10 @@ Pegfilgrastim 目前未在香港上市，無許可證登記資料。
 - 補齊作用機轉資料以釐清機轉關聯性（DG002）
 - 針對「G-CSF/EPC 動員對糖尿病視網膜病變是保護還是惡化」進行機轉方向性的臨床前研究或藥物安全通報（pharmacovigilance）查證
 - 若機轉方向確認為風險而非保護，應考慮將此候選降級或排除
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

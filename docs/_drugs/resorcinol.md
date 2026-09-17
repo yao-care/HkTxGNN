@@ -83,10 +83,10 @@ RESORCINOL 目前未於香港上市，查無許可證資料。
 - 藥物作用機轉（MOA）資料（DG002）
 - 原適應症登記資料
 - 針對痤瘡瘢痕疙瘩的臨床試驗或文獻佐證，以驗證機轉合理性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

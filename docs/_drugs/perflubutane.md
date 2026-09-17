@@ -100,10 +100,10 @@ Perflubutane 於台灣未上市，無許可證資料。
 - 向 DrugBank 或原廠查證完整作用機轉（MOA）
 - 針對排名較高的候選適應症（如 bronchitis）進行獨立文獻/臨床試驗檢索，確認是否存在圖譜資料庫未收錄的證據
 - 若後續資料仍支持「顯影劑拓撲鄰近性」假說，建議將此候選標記為低優先級，暫緩投入資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

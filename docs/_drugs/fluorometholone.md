@@ -89,10 +89,10 @@ Fluorometholone 是一種眼科局部用糖皮質素，主要用於控制眼表�
 - 取得安全性仿單資訊（香港衛生署許可仿單或原廠說明書警語、禁忌症）
 - 評估劑型與給藥路徑相容性：Fluorometholone 現有劑型為眼用製劑，若未來考慮擴展至外耳炎等其他感染後適應症，需先確認劑型適配性
 - 持續追蹤 NCT07308938 的招募進展與 Phase 2 結果，該試驗將提供迄今最直接的療效證據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

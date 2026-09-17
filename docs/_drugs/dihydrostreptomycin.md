@@ -101,10 +101,10 @@ Dihydrostreptomycin 因嚴重耳毒性已在多國撤市，目前完全缺乏用
 - 補充完整的作用機轉資料（MOA），特別是與軟骨代謝的潛在交集
 - 補充安全性資料（耳毒性劑量反應關係、可逆性評估）
 - 評估是否改以同類但安全性更佳的 Aminoglycoside（如 Gentamicin）作為替代研究基礎，再評估 read-through 機轉的可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

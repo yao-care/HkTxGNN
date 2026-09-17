@@ -96,10 +96,10 @@ TxGNN 對 Moxidectin 共產出 10 個排名相近的候選適應症，分數集�
 - 補齊 TFDA/香港仿單警語與禁忌症資料（解除 Blocking 缺口）
 - 取得 DrugBank 或原廠 MOA 完整資料，重新評估機轉合理性
 - 若仍要探索特定適應症，應優先針對機轉上具合理性的候選重新篩選，而非本次列出的 10 項
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

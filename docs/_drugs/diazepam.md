@@ -114,10 +114,10 @@ Diazepam 的 GABA-A 受體調節機轉提供充分的藥理學依據，且 RCT �
 - 明確定義目標適應症範圍：短期／情境性失眠（較具合理性）vs 慢性失眠（安全性疑慮高）
 - 制定長期使用安全監測計畫，包含認知功能評估（MMSE/MoCA）、依賴性篩查及跌倒風險評估
 - 考慮以輔助短期橋接角色定位（配合 CBTI），而非單獨作為慢性失眠長期治療
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -124,10 +124,10 @@ TxGNN 模型對本藥物產出多個高分預測，其中僅**骨關節炎 (Oste
 - 透過 DrugBank API 補齊完整 MOA 資料（DG002）
 - 尋找或設計針對 OA 病人族群的前瞻性臨床試驗（目前證據僅止於體外/動物模型）
 - 確認香港上市可行性（目前 sulfasalazine 於香港未上市，需評估藥證申請路徑）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

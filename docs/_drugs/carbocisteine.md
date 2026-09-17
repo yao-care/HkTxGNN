@@ -95,10 +95,10 @@ Carbocisteine 屬於含硫胺基酸衍生物，其藥理機轉主要有兩個面
 - 取得原廠仿單：查詢原廠安全性警語與禁忌症，以完成 S1 安全性初評
 - 進行文獻搜尋廣化：嘗試以 `carbocisteine AND inflammation`、`carbocisteine AND uric acid`、`mucolytic AND gout` 等組合搜尋，確認是否存在間接相關文獻
 - 評估知識圖譜路徑：分析 TxGNN 預測中連結 Carbocisteine 與痛風的具體節點路徑，判斷是否具生物學意義
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

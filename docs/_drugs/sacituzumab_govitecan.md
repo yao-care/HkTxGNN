@@ -111,10 +111,10 @@ Sacituzumab govitecan 屬抗體藥物複合體（ADC），符合抗腫瘤/細胞
 - 補齊 TFDA/香港仿單之警語與禁忌症資料（DG001，Blocking，需下載仿單 PDF 解析）
 - 補齊 DrugBank 作用機轉資料（DG002，High，查詢 DrugBank API）
 - 若要探索老藥新用方向，建議優先評估與其 ADC/細胞毒性藥理機轉相符的**腫瘤相關適應症**，而非本次清單中列出的非腫瘤慢性病適應症
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

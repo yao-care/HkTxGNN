@@ -98,10 +98,10 @@ Octreotide 目前**未在香港取得任何藥品許可證登記**（total_licen
 - 補齊 DrugBank MOA 詳細資料（DG002）
 - 針對兩個候選適應症搜尋是否有 somatostatin 路徑與皮膚角化增生相關的機轉研究或個案報告
 - 確認香港上市/許可證申請狀態
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

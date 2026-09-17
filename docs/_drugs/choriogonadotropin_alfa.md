@@ -92,10 +92,10 @@ LHCGR 在食道黏膜幾乎不表現，消化性食道炎的病理機制（胃�
 - 補齊 MOA 完整資料（建議查詢 DrugBank API：DB00097）
 - 補齊香港仿單警語與禁忌症資料（TFDA/衛署藥准字 PDF 解析）
 - 確認給藥途徑可行性（hCG 目前為注射劑型，用於消化道疾病需評估全身暴露的合理性）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

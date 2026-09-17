@@ -99,10 +99,10 @@ TxGNN 預測分數雖達 99.92%，但屬純模型推論（L5），目前完全�
 - 取得台灣/國際仿單中的安全性警語與禁忌症（現為資料缺口）
 - 前臨床研究評估 BPO 在外陰黏膜-皮膚區域的耐受性與刺激性
 - 病理機轉文獻，確認角質溶解活性對 VIFK 是否具有治療潛力
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

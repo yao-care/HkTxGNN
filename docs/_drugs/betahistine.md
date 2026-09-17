@@ -102,10 +102,10 @@ TxGNN 對 Betahistine 用於不寧腿症候群的預測分數雖高（98.51%）�
 - 取得完整安全性資料（仿單警語、禁忌症、藥物交互作用）
 - 評估 Betahistine 在香港的引進可行性（衛生署藥品登記途徑）
 - 若基礎研究結果支持，方可規劃概念驗證（Proof-of-Concept）臨床試驗
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

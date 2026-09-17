@@ -137,10 +137,10 @@ Neratinib 為抗腫瘤藥物（pan-HER 酪胺酸激酶抑制劑），列出以�
 - 取得正式 DrugBank MOA 摘要以強化機轉關聯性分析（DG002）
 - 針對 Normal-like 亞型尋找第二個獨立試驗以提升證據等級至 L1
 - 若優先推進 PR 陽性/陰性乳癌適應症，需補充 route_compatibility（劑型/給藥途徑）與 similarity_to_original 分析（目前皆為 pending）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

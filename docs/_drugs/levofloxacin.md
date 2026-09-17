@@ -84,10 +84,10 @@ TxGNN 模型預測它可能對**點狀角膜結膜炎 (Punctate Epithelial Kerat
 - 補充 Levofloxacin 詳細作用機轉資料（DG002，High）
 - 針對點狀角膜結膜炎進行文獻檢索，尋找直接療效相關研究（如病例報告、體外抗菌活性研究）
 - 確認 Levofloxacin 眼用劑型的可及性與適用途徑
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

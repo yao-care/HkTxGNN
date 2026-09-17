@@ -109,10 +109,10 @@ Chlordiazepoxide 透過 GABA-A 正向調節機轉在理論上具助眠潛力，T
 - 設計直接比較 Chlordiazepoxide 與短效 BZD（如 temazepam）或 Z 藥的隨機對照失眠試驗
 - 完整評估老年族群及呼吸功能不全患者的風險效益比
 - 若考慮香港市場，需啟動衛生署本地藥物登記申請
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

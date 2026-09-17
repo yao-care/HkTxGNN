@@ -123,10 +123,10 @@ Solriamfetol 原本用於治療嗜睡症與 OSA 患者的過度嗜睡，其促�
 | 5 | Chondromyxoid fibroma | 99.93% | L5 | Hold | 罕見良性骨腫瘤，與神經傳導再回收抑制機轉無已知路徑重疊，判斷為模型雜訊 |
 
 上表顯示模型在高分區間仍存在明顯雜訊（rank 2、5）與機轉矛盾訊號（rank 3），凸顯僅依賴 TxGNN 分數不足以判斷再利用價值，須搭配機轉合理性與實證資料交叉驗證——這也是本報告優先聚焦 ADHD（rank 1）的主因。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

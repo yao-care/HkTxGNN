@@ -131,10 +131,10 @@ MEDROXYPROGESTERONE ACETATE (MPA) 是一種合成黃體素（孕激素受體促�
 - 查明 NCT02449161 提前終止之原因，評估是否有後續或替代試驗
 - 若確立推進，需另行設計或尋找以「MPA 治療閉經」為主要療效終點的前瞻性研究
 - 評估當地上市／引進之法規可行性（目前完全未上市）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

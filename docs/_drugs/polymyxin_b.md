@@ -136,10 +136,10 @@ Polymyxin B（多黏菌素 B）是作用於革蘭氏陰性菌外膜的抗生素�
 - 取得完整作用機轉（MOA）資料以強化機轉關聯性分析
 - 若推進結膜炎方向：確認香港上市/許可證申請路徑（目前市場狀態為未上市）
 - 若考慮支氣管炎方向：需先釐清吸入劑型的呼吸道刺激性風險與療效證據的矛盾
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

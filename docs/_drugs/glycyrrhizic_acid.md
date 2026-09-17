@@ -180,10 +180,10 @@ Glycyrrhizic acid 目前在香港**無任何藥品許可證**，未以獨立藥�
 - 制定系統性安全監測計畫：血鉀、血壓、腎功能（假性醛固酮增多症防護）
 - 探索局部/介入性給藥途徑，以降低系統性副作用（對痤瘡適應症尤具潛力）
 - 針對肺動脈高壓適應症，需先釐清甘草酸對肺血管張力的淨效應方向（升壓 vs. 降壓）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

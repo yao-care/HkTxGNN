@@ -183,10 +183,10 @@ Rilpivirine（DB08864）**目前未在香港上市**，無任何許可證登記�
 - 補充作用機轉（MOA）正式資料（DG002）
 - 針對孕期適應症，需進一步 PK 研究釐清長效注射劑型於孕期的暴露量是否足夠（回應 PMID 38703388 之疑慮）
 - 若考慮在香港申請上市，需先啟動許可證申請流程（現況為 0 張許可證、未上市）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

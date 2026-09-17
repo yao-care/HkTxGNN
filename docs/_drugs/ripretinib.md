@@ -109,10 +109,10 @@ Ripretinib 是一種 switch-control 別構抑制劑，鎖定 KIT 與 PDGFRA 酪�
 - 向 TFDA/原廠取得完整仿單警語與禁忌症資料（解除 DG001）
 - 透過 DrugBank API 補齊詳細作用機轉資料（解除 DG002）
 - 若未來出現支持性文獻或試驗，針對該適應症重新進行機轉關聯性評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

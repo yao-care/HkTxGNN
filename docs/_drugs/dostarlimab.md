@@ -115,10 +115,10 @@ TxGNN 對此適應症的預測排名為全球第 2,521,939，預測分數僅 0.5
 - 補充香港仿單警語與禁忌症資料（修復資料缺口 DG001）
 - 探索 PD-1/PD-L1 免疫調控路徑是否在 CYP11A1 缺乏症或相關腎上腺自體免疫病理中扮演角色
 - 建議重新檢視 TxGNN 預測結果的整體品質——所有 10 個候選的排名均超過 250 萬，建議調整預測篩選門檻（例如：僅保留 TxGNN 排名前 10,000 或分數 > 0.7 的候選），以獲得更具臨床意義的再利用候選藥物
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

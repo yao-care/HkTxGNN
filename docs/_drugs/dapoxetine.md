@@ -104,10 +104,10 @@ Dapoxetine 目前在台灣**尚未取得藥品許可證**，無相關上市資�
 - 評估是否有緩釋劑型（Extended-Release）的研發計畫，以克服藥動學限制
 - 進行台灣 TFDA 仿單查詢，補充安全性警語與禁忌症資料
 - 考慮將此候選列入低優先序，優先評估其他 TxGNN 預測候選（如 dysthymic disorder）的機轉可行性，儘管後者同樣面臨藥動學挑戰
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

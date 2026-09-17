@@ -113,10 +113,10 @@ Probenecid 目前於香港**未上市**，查無許可證登記資料。
 - 釐清 probenecid 在腎性低尿酸血症文獻中是否僅具診斷用途，或確有機轉支持其可能的治療角色
 - 針對 Lesch-Nyhan 症候群、HGPRT 部分缺乏兩個方向做尿酸「生成 vs. 排泄」機轉的交叉驗證，避免同一藥物在矛盾方向上被誤判為有效
 - 補充香港上市登記與取得管道資訊（目前 0 張許可證、未上市）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

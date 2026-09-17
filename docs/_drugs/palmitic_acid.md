@@ -118,10 +118,10 @@ Palmitic Acid（棕櫚酸，DrugBank DB03796）是人體內普遍存在的飽和
 - 補齊 MOA 與 TFDA/仿單安全性資料（DG001、DG002），解除 Blocking 缺口。
 - 針對乾眼症方向，尋找棕櫚酸（或其醫藥劑型如局部用配方）直接介入性臨床證據，而非替代脂肪酸補充品的間接證據。
 - 釐清 Palmitic Acid 作為「藥物」候選的定位（賦形劑/內源性代謝物 vs. 治療性藥物），評估是否適合納入本專案的再利用篩選流程。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

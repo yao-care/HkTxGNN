@@ -81,10 +81,10 @@ Alopecia 這項預測僅有 TxGNN 模型分數支持，無任何臨床試驗、�
 - 評估香港上市可行性（目前 0 張許可證）
 
 **補充：** 本次 Evidence Pack 同時列出其他 4 個候選適應症（hypotrichosis simplex of the scalp、congenital hypotrichosis milia、diffuse alopecia areata、headache disorder）。其中 headache disorder 因有 3 篇個案文獻描述 milrinone 動脈內注射治療可逆性腦血管收縮症候群（RCVS），證據等級達 L4／S1（Research Question），機轉合理性優於 Alopecia，但其與廣義「headache disorder」標籤本身關聯薄弱（實際對應的是 RCVS 這一特定亞型）。若後續要推進，建議優先評估此候選而非 Alopecia。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

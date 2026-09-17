@@ -97,10 +97,10 @@ TxGNN 模型預測它可能對**類分裂人格障礙（Schizoid Personality Dis
 - 取得香港衛生署仿單警語與禁忌症資料（現為 Blocking 資料缺口）
 - 直接針對類分裂人格障礙的前導性臨床研究或系統性回顧
 - 優先評估**思覺失調型人格障礙（Schizotypal PD，本次預測排名第 4）**作為替代目標——該適應症已有 Fluoxetine 直接臨床研究（[PMID 1853957](https://pubmed.ncbi.nlm.nih.gov/1853957/)，12 週開放性試驗），證據等級達 L3，建議決策為「Research Question」，研究價值顯著高於本報告主目標
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

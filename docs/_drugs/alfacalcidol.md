@@ -94,10 +94,10 @@ Alfacalcidol 的藥理作用機轉與本適應症的核心病理生理缺陷直�
 - 取得香港或其他已上市地區之完整仿單，評估禁忌症、劑量調整建議及藥物交互作用（目前均為資料缺口）
 - 確認是否符合罕見疾病適應症申請資格（本適應症屬罕見病範疇，可能享有加速審查路徑）
 - 訂定特定族群（兒科患者、合併腎功能不全者）的安全性監測計畫，防範高血鈣等維生素D毒性風險
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

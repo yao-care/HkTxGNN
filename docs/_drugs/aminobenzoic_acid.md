@@ -98,10 +98,10 @@ Aminobenzoic Acid（PABA，對胺基苯甲酸）是一種結構簡單的芳香�
 - 解決 DG002（High）：補充完整的 MOA 資料（DrugBank API 查詢），重建機轉關聯性分析基礎
 - 針對最具潛力的候選方向（局限性系統性硬化症），進行現代前臨床研究（體外纖維母細胞模型），以重新驗證 PABA 游離酸的抗纖維化效果
 - 確認 Potassium aminobenzoate（POTABA）與游離 PABA 的藥理等效性，評估歷史 POTABA 文獻是否可轉化為游離酸的證據基礎
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

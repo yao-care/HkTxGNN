@@ -95,10 +95,10 @@ TxGNN 知識圖譜模型可能透過疾病共病網路中的間接關聯，將 B
 - 重新評估是否存在 IL-17 訊號以外的替代治療靶點
 
 > 💡 **建議優先轉向**：本報告排名第 2 的預測適應症**眼疾（Eye Disease，TxGNN 分數 99.82%）**具有較合理的機轉連結（IL-17A/F 在葡萄膜炎、鞏膜外層炎等眼部炎症中具文獻記載的促炎角色），並已有 1 個觀察性臨床試驗及 1 篇文獻支持，建議作為後續優先評估方向。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

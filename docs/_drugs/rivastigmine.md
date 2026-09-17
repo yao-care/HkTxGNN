@@ -106,10 +106,10 @@ TxGNN 模型預測它可能對**青光眼 (Glaucoma)** 有效，
 - 查證並補充正式作用機轉（MOA）資料（DG002）
 - 確認 Rivastigmine 原始核准適應症與現有臨床使用資料
 - 若機轉假說成立，規劃人體概念驗證（proof-of-concept）研究，作為進入下一階段的前提
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -135,10 +135,10 @@ Captopril 的 ACEi 機轉直接對應腎血管性高血壓的 RAAS 過度活化�
 - 補充正式 MOA 文獻引用（DG002，High 級）
 - 使用前影像學確認腎動脈通暢性（排除雙側 RAS，避免急性腎損傷）
 - 評估香港上市申請可行性（目前零許可證，需從頭申請）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

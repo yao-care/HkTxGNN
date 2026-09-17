@@ -96,10 +96,10 @@ Ravulizumab 目前於香港未取得藥品許可證（0 張），無登記資料
 - 透過 DrugBank API 查詢完整作用機轉資料（DG002，High）
 - 補齊原始核准適應症紀錄，以利機轉關聯性分析
 - 持續監測是否出現與此 5 項候選適應症相關的臨床試驗或文獻（目前查詢結果皆為 0 筆）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

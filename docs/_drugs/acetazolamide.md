@@ -113,10 +113,10 @@ Acetazolamide 為第一代碳酸酐酶抑制劑，傳統用於青光眼降眼壓
 - 密切追蹤 NCT05802849（預計 2025 年底完成）及 NCT06166654（預計 2027 年完成）最終結果
 - 評估香港藥品進口許可申請途徑，確認口服劑型的可行性
 - 制定靜脈注射 vs. 口服劑型的風險分層用藥安全監測計畫，特別針對已有心肌病患者群體
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

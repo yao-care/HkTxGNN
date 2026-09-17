@@ -94,10 +94,10 @@ TxGNN 模型預測它可能對**聲帶息肉 (Polyp of Vocal Cord)** 有效，
 - 評估給藥路徑可行性：聲帶病變需要局部注射或吸入劑型，現有皮膚外用劑型不適用
 - 尋找同類糖皮質激素（corticosteroids）用於炎症性聲帶疾病的臨床試驗或系統性回顧，作為 class-level 間接支持的補充
 - 考量是否有更高效價的同類藥物（如 triamcinolone、dexamethasone）已有相關研究，評估 Desonide 的相對開發優先性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

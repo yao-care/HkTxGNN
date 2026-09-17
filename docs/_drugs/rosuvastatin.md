@@ -189,10 +189,10 @@ TxGNN 模型針對此藥物共預測出 **5 個候選新適應症**，證據強�
 - 向 DrugBank API 查詢正式 MOA 資料（解除 DG002 缺口）
 - 針對 HIV 共病管理候選，釐清適應症標籤定義（心血管/發炎風險管理 vs. 抗病毒治療），避免決策誤判
 - 若考慮於香港申請新適應症或上市，需先確認藥品尚未取得任何香港許可證之現況
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -96,10 +96,10 @@ TxGNN 的高預測分數（99.57%）很可能來自知識圖譜中 **CTX ↔ 膽
 - 評估 CDCA 在混合性脂質代謝障礙（非純 LDL 受體缺失型）的潛在應用場景
 - 確認當前許可規格及安全性資訊（藥品仿單警語、禁忌症、DDI），目前均為資料缺口
 - 注意 Rank 4、5 預測適應症（家族性混合高脂血症、高尿酸血症）在資料庫中已標記為 **obsolete（廢棄術語）**，若沿用需先核對當前疾病分類
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

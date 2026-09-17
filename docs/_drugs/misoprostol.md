@@ -102,10 +102,10 @@ TxGNN 模型預測它可能對**續發性閉經 (Amenorrhea)** 有效，
 - 評估是否有本地上市／申請許可證的可能性
 
 *註：第二預測候選「atypical coarctation of aorta」（分數 99.30%）因無任何臨床試驗或文獻證據支持，且屬機轉外推（該用途臨床上多用 alprostadil 而非 misoprostol），評為 L5/Hold，不納入本次重點評估。*
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

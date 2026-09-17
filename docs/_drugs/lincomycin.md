@@ -91,10 +91,10 @@ TxGNN 給出的高分（99.14%）僅反映知識圖譜嵌入空間中的相似�
 - 取得仿單警語/禁忌資料（TFDA 官網下載並解析），解除 S1 安全性初評的封鎖缺口
 - 重新檢視 TxGNN 排序更靠前、且具機轉合理性的其他候選適應症
 - 若持續無機轉支持，建議終止此藥物之再利用評估路線
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

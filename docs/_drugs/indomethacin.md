@@ -97,10 +97,10 @@ TxGNN 模型預測其可能對罕見先天性肢端骨骼發育疾病 **Brachyda
 - 透過 DrugBank API 查詢 Indomethacin 完整作用機轉（解除 DG002）
 - 針對候選疾病補充臨床前機轉研究，驗證 TxGNN 高分是否反映真實藥理關聯或僅為知識圖譜節點鄰近性造成的偽陽性
 - 若無法取得任何後續證據，建議維持 Hold 並降低此候選優先序
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

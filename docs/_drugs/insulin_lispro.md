@@ -109,10 +109,10 @@ Insulin Lispro 目前**未在香港上市**，無許可證資料可列出。
 - 補齊 DrugBank MOA 資料，用於重新檢視機轉關聯性
 - 針對排名 2（TRMA 糖尿病）額外檢索罕見病文獻或病例報告，驗證胰島素外推假設是否有實證支持
 - 確認 Insulin Lispro 在香港的上市/申請狀態
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -89,10 +89,10 @@ Calciphylaxis（鈣化防禦症）是小血管鈣化併發血栓性缺血病變�
 - 補齊 DrugBank／原廠 MOA 全文，釐清是否有全身性血管或鈣磷代謝相關的次要藥理作用
 - 取得 TFDA／原廠仿單警語與禁忌症，完成 S1 安全性初評
 - 若欲探索本藥物的老藥新用潛力，建議優先評估同一評估批次中 **rank 2「primary hereditary glaucoma」**——該配對與原適應症（青光眼）機轉直接相關，證據等級為 L4，已進入 S1 階段，科學合理性明顯高於 visceral calciphylaxis
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

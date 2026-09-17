@@ -114,10 +114,10 @@ Piperacillin 目前**未於香港上市**，查無許可證登記資料。
 - 補齊 DrugBank 作用機轉（MOA）資料
 - 取得 TFDA/原廠仿單完整警語與禁忌症資料，解除 Blocking 缺口
 - 若仍考慮此方向，需要體外或動物模式的機轉研究，證明 piperacillin 對 RA 發炎路徑的直接作用，而非僅止於感染併發症治療的共現關聯
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

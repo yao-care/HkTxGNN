@@ -90,10 +90,10 @@ Sulfamethoxazole 為磺胺類抗菌藥，機轉為抑制二氫蝶酸合成酶（
 - 取得 DrugBank 完整 MOA 資料以確認機轉關聯性（DG002）
 - 確認可用劑型與給藥途徑（全身性 vs 局部眼用），評估是否適合眼科感染
 - 尋找針對 sulfamethoxazole（或 sulfamethoxazole 複方）治療結膜炎的直接介入性臨床研究
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

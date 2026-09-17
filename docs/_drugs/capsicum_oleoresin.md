@@ -96,10 +96,10 @@ TxGNN 模型排名極低（第 2,403,479），預測分數僅達最低閾值，�
 - 從 DrugBank API 補充完整 MOA 資料與已核准適應症，確認是否有其他高分預測適應症遭遺漏
 - 確認是否存在以「capsaicin」或「capsicum」為搜尋詞的更廣泛證據（本次僅查詢 Capsicum oleoresin）
 - 評估是否有其他國家已核准適應症，作為潛在再利用方向的起點
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

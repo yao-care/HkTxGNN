@@ -128,10 +128,10 @@ Aztreonam 對淋病奈瑟菌具有直接且機轉明確的抗菌活性（PBP-3 �
 - 🇭🇰 **評估香港引入路徑**：Aztreonam 在香港目前未上市（0 張許可證），需評估特殊藥品進口申請或新許可證申請可行性
 - 🦠 **香港本地耐藥監測**：取得香港淋球菌抗生素耐藥性（GASP-HK）最新數據，確認本地 PPNG 及頭孢耐藥盛行率，評估實際臨床需求規模
 - ⚠️ **明確排除偽陽性預測**：Ureaplasma urethritis（排名第 5）為確認的機轉偽陽性，應在後續篩選流程中標記排除
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

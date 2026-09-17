@@ -143,10 +143,10 @@ Prilocaine 最常見的臨床應用形式是與 lidocaine 組成的共熔混合�
 - 針對神經痛候選，建議進一步檢索 prilocaine 專一性（而非僅 EMLA 複方）之隨機對照試驗，並排除文獻中以 Botulinum Toxin A 為主要介入的間接對照研究
 - 偏頭痛候選建議列為次要研究方向，待有更多 prilocaine 專一性試驗數據後再評估是否升級
 - 其餘 3 個低證據候選（結膜炎、躁鬱症、支氣管炎）建議標記為 TxGNN 預測雜訊，不再投入資源追蹤
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

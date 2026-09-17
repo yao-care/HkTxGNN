@@ -108,10 +108,10 @@ Posaconazole 透過抑制真菌 CYP51（lanosterol 14α-demethylase）阻斷 erg
 - 取得 TFDA/原廠仿單警語與禁忌資料（現為 Blocking 缺口，無法完成 S1 安全性初評）
 - 補充 Posaconazole 完整作用機轉資料，釐清對 Pneumocystis ergosterol 合成路徑的實際抑制效果
 - 針對肺囊蟲病設計的前瞻性藥理或臨床研究（目前僅有間接族群重疊證據）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

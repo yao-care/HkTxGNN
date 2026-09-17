@@ -103,10 +103,10 @@ Fremanezumab 在偏頭痛（慢性及發作性）已有完整的 Phase 3 RCT 支
 - 補充完整 MOA 資料（DrugBank API 查詢 DB14041）及香港仿單安全性警語
 - 評估香港此罕見亞型的患者族群規模與臨床診斷實踐（需神經科轉介資料）
 - 特別評估此亞型的安全顧慮：歷史上腦幹先兆患者對部分血管活性藥物有額外風險疑慮，應確認 anti-CGRP mAb 在此族群的風險效益輪廓
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

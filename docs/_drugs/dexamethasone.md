@@ -107,10 +107,10 @@ Dexamethasone 作為強效糖皮質激素，透過以下多重機轉可能對 AA
 - 制定標準化迷你脈衝療法給藥方案，並設立安全性監測計畫（空腹血糖、血壓、骨密度、眼壓、HPA 軸功能）
 - 界定適合族群（特別是 JAK 抑制劑禁忌或不可及患者）及排除標準（糖尿病、活動性感染、骨質疏鬆等）
 - 評估與 JAK 抑制劑（如 Baricitinib）的序列或聯合治療策略，參考最新 2026 年真實世界資料（PMID 41872082）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

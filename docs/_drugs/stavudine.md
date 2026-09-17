@@ -101,10 +101,10 @@ Evidence Pack 另列 2 項預測：rank 2「simian immunodeficiency virus infect
 - 取得香港衛生署／原廠仿單之警語、禁忌症、DDI 等安全性資料（DG001）
 - 取得 STAVUDINE 完整作用機轉（MOA）資料（DG002）
 - 若考慮人類適應症轉譯（如 rank 2 相關之抗反轉錄病毒交叉活性），需重新定義為人類臨床可操作的適應症族群，而非直接沿用動物疾病名稱
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

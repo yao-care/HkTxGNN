@@ -111,10 +111,10 @@ Rotigotine 是一種泛多巴胺受體促效劑（作用於 D1–D5 受體），
 - 取得官方仿單警語與禁忌症資料（DG001，Blocking，須優先處理）
 - 若欲推進 ADHD 方向，需針對 Rotigotine 是否引發受體去敏感化進行機轉研究，並釐清與傳統興奮劑機轉的相容性
 - 若欲推進精神分裂症方向，需先排除全促效劑誘發精神病惡化的風險，並限定特殊族群（如僅陰性症狀且合併適當抗精神病藥物）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

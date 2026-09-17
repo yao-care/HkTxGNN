@@ -81,10 +81,10 @@ indication_count: 4
 - 取得原廠仿單警語/禁忌資料，以完成 S1 安全性初評（DG001，Blocking，需來源：TFDA/HK 官網解析仿單 PDF）
 - 針對皮膚屏障保濕機轉是否對 TGM1/ABCA12 相關致病路徑有實質調節作用，進行前臨床或機轉層面文獻檢索
 - 若持續無臨床或文獻佐證，建議維持 Hold，暫不投入後續資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

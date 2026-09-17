@@ -92,10 +92,10 @@ Ioversol 是非離子型含碘放射顯影劑，用於醫學影像檢查（如 C
 - 尋找針對顯影劑與骨關節炎（或其易感性）關聯性的機轉或轉譯研究，作為後續評估基礎
 
 *註：同一評估中另有 9 個候選適應症（如骨關節炎、類風濕性關節炎、血紅蛋白病等），證據等級介於 L4–L5，均建議 Hold，未發現具臨床開發價值的信號。*
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

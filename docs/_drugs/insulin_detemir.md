@@ -122,10 +122,10 @@ Insulin Detemir 目前**未於香港取得藥劑製品註冊證**，無許可證
 - 若考慮於香港上市，需啟動藥劑製品註冊申請流程評估
 
 **附註：** 其餘 4 個候選適應症（autoimmune oophoritis、opsismodysplasia、thiamine-responsive dysfunction syndrome、classic stiff person syndrome）皆為 L5（僅模型預測、無臨床試驗或文獻支持），研判為知識圖譜共病節點造成的間接關聯而非藥理學合理連結，建議維持 **Hold**，暫不投入資源。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

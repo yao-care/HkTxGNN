@@ -128,10 +128,10 @@ Mefenamic Acid 屬於 fenamate 類 NSAID，透過非選擇性抑制 COX-1/COX-2 
 | 5 | Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome | 99.49% | L5 | Hold | 罕見遺傳性發育畸形症候群，與 NSAID 藥理機轉無合理連結，判定為知識圖譜噪聲 |
 
 除類風濕性關節炎外，**頭痛症/偏頭痛**是另一個具有中等證據強度（L2）的候選方向，值得後續一併評估；其餘 3 項證據等級皆為 L5（僅模型預測、無實際研究支持），建議維持 Hold。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

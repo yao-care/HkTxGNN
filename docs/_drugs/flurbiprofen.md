@@ -110,10 +110,10 @@ Flurbiprofen 目前在香港**未上市**，無任何有效許可證紀錄。
 - **補足資料缺口 DG002**：查詢 DrugBank API 取得完整作用機轉（MOA）描述
 - **模型假陽性驗證**：檢視 TxGNN 知識圖譜拓撲，確認高分是否源於罕見病節點共享鄰居結構；可考慮以 Weisfeiler-Leman 圖核或 pathway enrichment 方法進行交叉驗證
 - **肌硬化症（Rank 5）選擇性追蹤**：若有興趣，可單獨進行前臨床文獻搜尋，評估抗炎介入在纖維化早期是否具探索空間，但應在取得 MOA 與安全性資料後再行決策
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

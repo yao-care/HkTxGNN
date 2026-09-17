@@ -111,10 +111,10 @@ Ofloxacin 目前**未在台灣上市**，無許可證資料，因此無法提供
 - 補齊 TFDA 仿單警語與禁忌（DG001，向 TFDA 官網取得並解析）
 - 補齊作用機轉資料（DG002，查詢 DrugBank API）
 - 針對排名較高的候選適應症（尤其高澱粉酶血症）補充機轉研究或前臨床證據，若持續無實證支持則建議直接排除，不宜投入後續資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

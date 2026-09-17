@@ -92,10 +92,10 @@ TxGNN 模型預測它可能對**甲狀腺素受體β基因突變所致甲狀腺�
 - 補齊完整作用機轉（MOA）資料
 - 針對 RTH-beta 族群使用 PTU 的直接臨床證據（現無相關試驗登記）
 - 釐清該藥物於香港的上市與許可證狀態
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

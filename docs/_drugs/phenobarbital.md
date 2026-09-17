@@ -164,10 +164,10 @@ PHENOBARBITAL 目前**未在香港取得任何藥品許可證**（`total_license
 - 補齊 DG002：透過 DrugBank API 取得正式 MOA，強化機轉關聯性分析的可信度。
 - 針對「進食性癲癇」候選，優先檢索是否有更新的人體病例系列或小型前瞻性研究，確認其 Research Question 定位是否可再升級。
 - 釐清苯巴比妥是否已具有「癲癇／反射性癲癇」的既有核准適應症——若是，這批預測的本質應定位為「亞型精準化」而非「全新適應症」，需調整後續開發策略的框架。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -105,10 +105,10 @@ Ceftaroline fosamil 是作用於細菌 PBP 的抗生素，而 TxGNN 預測的全
 - 重新聚焦於 Ceftaroline 的**本業感染適應症延伸**（例如骨髓炎、人工關節感染、醫院獲得性肺炎、菌血症），而非非感染性疾病再利用
 - 補充完整作用機轉資料（DrugBank MOA API 查詢）
 - 評估在香港申請上市許可的可行性（目前 0 張許可證），以解鎖感染症既有適應症的市場准入
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

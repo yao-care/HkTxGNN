@@ -122,10 +122,10 @@ Ozanimod 目前於香港**未上市**，無許可證登記資料，故無法提�
 - 取得完整作用機轉（MOA）詳細資料（DG002，High）
 - 尋找或設計針對 PRMS 特異族群的療效驗證研究（現有試驗多為 RRMS 療效或上市後安全性登錄）
 - 評估藥廠是否有意在香港申請上市許可
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -119,10 +119,10 @@ Imiquimod 目前在香港**未上市**，Evidence Pack 中無許可證登記資�
 - 查詢完整藥物交互作用 (DDI) 資料庫（目前查詢結果為 not_found）
 - 若評估於香港申請上市，需另行規劃藥品註冊與許可證申請流程
 - 針對特定病灶族群（如 CIN/VIN/AIN 等 HPV 相關病變）之族群安全性監測計畫
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

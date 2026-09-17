@@ -119,10 +119,10 @@ Paliperidone 的完整作用機轉資料在本證據包中標記為缺口（DG00
 - 取得 TFDA/原廠仿單警語與禁忌症（DG001，Blocking，優先處理）
 - 尋找實際「藥物＋適應症」共同出現之臨床或病例文獻，而非僅疾病背景文獻
 - 若後續仍無機轉支持證據，建議將此候選組合自後續評估排除
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

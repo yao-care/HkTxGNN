@@ -104,10 +104,10 @@ TxGNN 模型將 **bilateral parasagittal parieto-occipital polymicrogyria**（�
 - 透過 DrugBank API 補齊作用機轉（MOA）資料（DG002）
 - 若考慮繼續此藥物的老藥新用評估，建議優先轉向機轉合理性較高的候選——**rank 3（lower motor neuron syndrome with late-adult onset）**與**rank 5（lethal arthrogryposis-anterior horn cell disease syndrome）**，兩者皆與下運動神經元退化機轉直接相關，而非本報告標題所示、機轉薄弱的 rank 1 候選
 - 需完成香港藥品許可證申請流程（現況：未上市，0 張許可證）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -103,10 +103,10 @@ Dexchlorpheniramine Maleate 是第一代 H1 受體拮抗劑（Chlorpheniramine �
 3. **仿單警語與禁忌**：下載香港原廠仿單 PDF 解析安全性資訊（Data Gap DG001）
 4. **前臨床文獻搜索**：擴大搜尋範圍，確認是否有 H1 拮抗劑 × AIP 的體外或動物實驗資料
 5. **若安全性疑慮無法排除，建議轉而評估 AIP 安全藥物清單中的其他再利用候選**
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

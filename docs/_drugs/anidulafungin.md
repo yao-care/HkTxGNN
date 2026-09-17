@@ -101,10 +101,10 @@ Anidulafungin 是棘白菌素（echinocandin）類抗真菌藥物，透過抑制
 - **補充 MOA 資料**：透過 DrugBank API 補全作用機轉詳細資料（目前為 Data Gap）
 - **補充安全性資料**：下載並解析仿單 PDF，完成 S1 安全性初評
 - **香港上市評估**：Anidulafungin 在香港未上市（許可證數 0），若有臨床推進需求，需另行評估市場准入路徑
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

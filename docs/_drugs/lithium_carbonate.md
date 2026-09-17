@@ -86,10 +86,10 @@ Lithium 已知為 GSK-3β 抑制劑，理論上可活化 Wnt/β-catenin 及自�
 - 補充 Lithium 原始核准適應症資訊，以評估與新適應症的臨床關聯性
 - 尋找是否有臨床前（動物/細胞）研究可驗證 GSK-3β 抑制與 COMP 相關軟骨病變的關係
 - 註：同批預測另有 4 個相近分數的罕見骨骼疾病候選適應症（acromesomelic dysplasia、colobomatous microphthalmia-rhizomelic dysplasia syndrome、brachyolmia、myosclerosis），均為同等級（L5/Hold），證據狀況相同，建議一併觀察後續文獻更新。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

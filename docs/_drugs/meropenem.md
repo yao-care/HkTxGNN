@@ -125,10 +125,10 @@ Meropenem 原本用於治療嚴重全身性細菌感染（如院內肺炎、複�
 - 因香港目前未上市（0 張許可證），需評估上市申請或供應管道，才能進一步推進臨床應用
 - 針對細菌性關節炎（尤其明確致病菌別、抗藥性型態）設計前瞻性療效研究或高品質回溯性對照研究，以提升證據等級至 L2 以上
 - 建立目標病原菌藥敏監測機制（特別排除 MRSA 等 meropenem 無效菌株情境），避免不當經驗性使用
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

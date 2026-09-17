@@ -92,10 +92,10 @@ TxGNN 模型預測它可能對**藥物性骨質疏鬆症 (Drug-induced Osteoporo
 - 補齊 Selinexor 詳細作用機轉（MOA）資料，以釐清與骨質代謝的實際關聯
 - 尋找臨床前或機轉層級研究，確認方向是否成立（例如是否有次族群顯示骨質保護效果）
 - 待有實際研究或文獻支持後，方可重新評估證據等級並考慮進入下一階段
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

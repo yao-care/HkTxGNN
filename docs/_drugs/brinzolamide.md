@@ -100,10 +100,10 @@ Brinzolamide 目前在香港**未有上市許可紀錄**，無可列出之許可
 - 取得詳細 MOA 與安全性資料（DrugBank API）以完成 S1 安全性初評
 - 確認香港（或鄰近市場）是否有核准的參考品，以評估法規路徑可行性
 - 若有臨床需求，可考慮設計 IIT（研究者主導試驗）作為概念驗證
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

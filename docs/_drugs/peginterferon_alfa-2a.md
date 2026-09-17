@@ -107,10 +107,10 @@ DrugBank 正式收錄的作用機轉欄位目前是資料缺口（DG002），但
 - 補齊 DrugBank 正式 MOA 紀錄以利機轉關聯性分析（DG002）
 - 若擬在台上市，需評估藥證申請與在地臨床試驗銜接
 - 人工複核證據中標記 grade C／pending 的試驗，排除因 KG 鄰近節點造成的 HCV/HBV 混淆項
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

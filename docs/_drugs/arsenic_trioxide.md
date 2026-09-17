@@ -137,10 +137,10 @@ Arsenic Trioxide 屬抗腫瘤藥物，具傳統細胞毒性與分化誘導雙重
 - 確認 MDS 亞型及 IPSS 風險分層，選擇最適合的組合療法方案（如低危：單藥或 ATO + Ascorbic Acid；高危：DAC + ATO）
 - 建立基礎心電圖評估及電解質監測方案作為用藥前篩選標準
 - 追蹤 NCT06670222 及 NCT06778187 兩項口服 ATO 試驗結果，評估口服製劑可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

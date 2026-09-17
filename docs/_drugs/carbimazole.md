@@ -193,10 +193,10 @@ Hyperthyroxinemia 作為一個診斷類別，其內在異質性使得 Carbimazol
 - 依病因亞型（真性甲亢 vs. FDH vs. 暫時性）分層分析文獻療效資料
 - 確認 TxGNN 預測是否已考慮亞型分類，或僅依整體「高 T4」特徵做出預測
 - 設計前瞻性登錄研究，追蹤不同病因的 Hyperthyroxinemia 患者對 Carbimazole 的治療反應
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

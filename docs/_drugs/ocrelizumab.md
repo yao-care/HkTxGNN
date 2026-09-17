@@ -100,10 +100,10 @@ Ocrelizumab 於香港未上市，目前無許可證登記資料。
 - 取得 DrugBank 完整 MOA 資料以評估機轉關聯性（DG002）
 - 尋找前臨床或機轉研究，說明 B 細胞耗竭與 HER2 陽性乳癌病程的潛在關聯
 - 確認香港（或其他司法管轄區）是否有 Ocrelizumab 用於乳癌之研究或上市計畫
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

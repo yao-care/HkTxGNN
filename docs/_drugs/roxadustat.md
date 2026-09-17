@@ -117,10 +117,10 @@ Roxadustat 屬於 HIF prolyl hydroxylase inhibitor（HIF-PHI）類藥物，透�
 - 尋找針對乾眼症的介入性（interventional）臨床試驗，而非僅止於共病觀察研究
 - 若考慮於香港申請上市，需先取得藥品許可證
 - 於安全性審查中一併評估 HIF-PHI 促癌風險（鱗狀細胞癌訊號）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

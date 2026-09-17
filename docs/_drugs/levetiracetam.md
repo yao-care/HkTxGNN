@@ -106,10 +106,10 @@ TxGNN 模型預測它可能對**視覺誘發癲癇 (Visual Epilepsy)** 有效，
 - 詳細作用機轉資料（DG002，透過 DrugBank API 查詢補齊）
 - 香港藥品上市登記狀態確認與許可證申請規劃
 - 針對視覺誘發癲癇亞型的直接臨床證據（現有試驗多為全面型癲癇或創傷後癲癇預防之外推）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

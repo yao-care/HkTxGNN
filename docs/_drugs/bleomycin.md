@@ -185,10 +185,10 @@ Bleomycin 為確認之抗腫瘤抗生素，屬抗腫瘤藥物，此章節適用�
 - 制定肺功能縱貫監測計畫（DLCO 基線 + 每 2 週期追蹤）及累積劑量管理協議（≤ 400 units）
 - 訂定首次給藥測試劑量流程及急性高熱應對預案
 - 針對原發性肺淋巴瘤及星狀細胞瘤適應症，建議先完成系統性文獻回顧（Research Question 決策階段），再決定是否啟動探索性研究
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

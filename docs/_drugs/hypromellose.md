@@ -111,10 +111,10 @@ indication_count: 10
 - 查詢 DrugBank API 取得完整作用機轉資料（DG002，High）
 - 若持續關注乾癬方向：需要以 Hypromellose 為主要治療成分（而非單純載體）之直接療效證據，目前現有資料不足以支持此假設
 - 對其餘 9 個高分但機轉不合理的候選，建議不再投入資源收集證據，除非後續有新的生物學假說出現
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

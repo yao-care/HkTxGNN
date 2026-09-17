@@ -101,10 +101,10 @@ Ketamine（氯胺酮）為 NMDA 受體拮抗劑類藥物，目前在本證據包
 - 補齊完整作用機轉（MOA）資料 — DG002，High
 - 因 Ketamine 屬管制藥品，需額外評估法規歸類與濫用風險管控機制
 - 追蹤已完成之關鍵 Phase 3/4 RCT（NCT03081416、NCT02657031、NCT04860713）正式發表結果，以確認療效證據強度
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

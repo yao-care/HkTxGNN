@@ -89,10 +89,10 @@ Ginseng 作為天然補充劑的安全性輪廓相對溫和，若能通過臨床
 - 補充詳細作用機轉（MOA）資料，特別是 ginsenosides 對 RANKL/OPG 路徑的定量影響
 - 尋找直接以「藥物誘發性骨質疏鬆」為主要終點的臨床試驗或觀察性世代研究
 - 評估香港市場申請路徑（中成藥登記 vs. 膳食補充劑 vs. 藥品），釐清監管定位
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

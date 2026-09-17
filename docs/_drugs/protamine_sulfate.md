@@ -101,10 +101,10 @@ Protamine sulfate 目前**未於香港上市**，無許可證紀錄可列出。
 - 取得完整作用機轉（MOA）資料以支持機轉關聯性分析（DG002）
 - 針對排名較高的候選（如 FGFR1 重排骨髓腫瘤）進行獨立文獻檢索，確認是否有模型未涵蓋的既有研究
 - 在無新證據出現前，不建議投入後續 S1 以上流程資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

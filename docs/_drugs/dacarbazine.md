@@ -121,10 +121,10 @@ TxGNN 模型預測它可能對**上呼吸消化道腫瘤 (Upper Aerodigestive Tr
 - 評估 UADT 腫瘤 MGMT 甲基化狀態的篩選策略，確認潛在受益族群比例
 - 考量聯合用藥方案（如 Dacarbazine + 免疫治療），而非單藥模式
 - 台灣特殊用藥申請或同情用藥途徑的法規可行性評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

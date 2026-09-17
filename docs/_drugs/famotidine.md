@@ -215,10 +215,10 @@ Famotidine 在消化性潰瘍（L1）有 ≥2 項多中心 RCT 直接支持，�
 - 確認香港市場實際供應狀況（未上市原因：尚未申請許可、已停產或資料缺漏）
 - 針對 PPI 不耐受或禁忌亞族群設計特定臨床監控計畫
 - 對十二指腸胃逆流（L3）設計可行性研究或系統性回顧，補充 RCT 層級證據後再重新評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

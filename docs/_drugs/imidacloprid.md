@@ -118,10 +118,10 @@ Imidacloprid 目前**未於香港上市**，無許可證資訊。（`total_licen
 - 重新檢視 TxGNN 模型對此藥物-疾病配對的訓練資料品質，排除知識圖譜雜訊或本體論錯誤（如「obsolete」疾病詞條）的干擾
 
 > **整體建議：本候選藥物暫不建議投入後續資源進行 S1 安全性初評或證據收集，除非出現新的機轉或人類用藥安全性資料。**
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

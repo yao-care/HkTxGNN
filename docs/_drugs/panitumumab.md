@@ -93,10 +93,10 @@ Panitumumab 屬於標靶藥物（抗 EGFR 單株抗體），非傳統細胞毒�
 - 取得原廠仿單警語與禁忌症（目前為 Blocking 等級資料缺口）
 - 針對 EGFR 路徑與骨代謝關聯進行文獻回顧，確認方向是否真為治療性而非致病性
 - 若機轉方向確認不利，建議直接排除此候選，避免佔用後續驗證資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

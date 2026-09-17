@@ -114,10 +114,10 @@ TxGNN 模型預測它可能對**痤瘡 (Acne)** 有效，
 - Levonorgestrel 的完整作用機轉（MOA）資料，釐清其雄性化效應對痤瘡淨效果的實際影響
 - 針對「LNG 單方或複方 vs. 低雄性化黃體素複方」治療痤瘡的頭對頭比較研究
 - 香港上市狀態與仿單警語/禁忌資料（現為 Blocking 等級資料缺口，需先補齊才能進入安全性初評 S1）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

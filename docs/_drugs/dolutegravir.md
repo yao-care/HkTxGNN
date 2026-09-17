@@ -123,10 +123,10 @@ SIV 感染是非人類疾病，主要應用場景為 HIV 研究的動物模型�
 - 補充 Dolutegravir 完整 MOA 資料（DrugBank API 查詢，目前為 Data Gap）
 - 補充香港/台灣本地藥物相互作用及特殊族群安全性資料
 - 若考慮擴展至其他人體適應症，需重新評估排名 1 以外的預測候選（本報告聚焦於 SIV 感染，其餘候選如 FIV 感染及神經發育疾病均建議 Hold）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

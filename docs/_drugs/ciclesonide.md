@@ -117,10 +117,10 @@ TxGNN 對異位性濕疹的高分預測源於皮質類固醇類別效應的廣�
 - 確認 Ciclesonide 是否有外用劑型的早期開發研究（若堅持皮膚適應症方向）
 - 確認香港上市申請可行性（目前 0 張許可證，需評估 HKDH 申請途徑）
 - 排除安全性疑慮：接觸性皮膚炎文獻顯示 Ciclesonide 有交叉致敏風險，需在任何適應症探索前完整評估安全性仿單（解決 DG001 資料缺口）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

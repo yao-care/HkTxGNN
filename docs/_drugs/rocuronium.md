@@ -112,10 +112,10 @@ TxGNN 給出的高分數（99.90%）主要來自知識圖譜的間接連結，�
 - 針對偏頭痛/頭痛相關症狀的直接機轉研究或前臨床證據
 - 若考慮切入頭痛相關副作用減緩（如 rank 10 候選），需釐清是否屬於治療性適應症或僅為圍術期副作用管理範疇
 - 香港上市與許可證資料補充，以評估法規路徑可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

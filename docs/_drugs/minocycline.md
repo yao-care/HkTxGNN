@@ -87,10 +87,10 @@ TxGNN 模型預測它可能對**點狀角膜上皮結膜炎 (Punctate Epithelial
 - 補齊作用機轉 (MOA) 資料（High，來源：DrugBank API）
 - 針對「點狀角膜上皮結膜炎」與「暴露性角膜炎」進行更廣泛的文獻與試驗檢索（含 off-label 眼科使用案例）
 - 若考慮推進香港上市，需確認當地藥品註冊路徑與適應症申請條件
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

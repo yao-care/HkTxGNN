@@ -92,10 +92,10 @@ TxGNN 模型預測它可能對**多株性高黏滯血症 (Polyclonal Hyperviscos
 - 補齊 TFDA/香港衛生署仿單警語與禁忌症資料（DG001，Blocking）
 - 取得 DrugBank 完整 MOA 資料（DG002，High）
 - 若要評估 rank 5（角結膜炎）候選，需釐清 fluoroquinolone 對微孢子蟲感染是否有實證支持，目前文獻對象與藥物適應機轉不一致
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

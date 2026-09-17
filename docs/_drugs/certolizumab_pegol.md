@@ -97,10 +97,10 @@ Certolizumab Pegol（CZP）是一種無 Fc 段的 PEGylated 抗 TNF-α 生物製
 - 系統性整理 CZP 治療 RV 的個案系列，明確區分「治療性應用」與「DIAV 不良反應」
 - 建立患者風險分層標準：適合接受 CZP 治療的 RV 亞型（如 anti-CCP 陽性重度 RA）
 - 評估香港引進路徑：CZP 在全球是否有 RV 的擴展適應症申請或同情性使用紀錄
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -94,10 +94,10 @@ TxGNN 模型可能透過此「GAD65 共享自身抗原共病網路」建立計�
 - 針對 SPS 合併糖尿病患者進行文獻回顧，確認 Acarbose 等 α-葡萄糖苷酶抑制劑在此族群的臨床應用紀錄
 - 香港上市可行性評估（進口藥品申請途徑）
 - 如擬升級至 L4，需有至少一項 Acarbose 與 GAD65 自身免疫路徑相關的臨床前研究
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

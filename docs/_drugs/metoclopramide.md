@@ -94,10 +94,10 @@ Metoclopramide 是一種 D2 受體拮抗劑／5-HT4 受體促效劑，目前已�
 - 取得 TFDA／原廠仿單完整警語與禁忌症資料（DG001），完成 S1 安全性初評
 - 補齊正式 DrugBank 作用機轉資料（DG002），釐清機轉關聯性
 - 若要繼續此方向，需針對「Metoclopramide 治療胃潰瘍」設計具明確療效終點（如潰瘍癒合率、症狀緩解）的介入性試驗，而非僅以促動力／清胃為終點的間接研究
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

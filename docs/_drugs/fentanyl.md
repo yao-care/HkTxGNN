@@ -116,10 +116,10 @@ TxGNN 模型預測它可能對**腎性抗利尿不當症候群 (Nephrogenic Synd
 - 搜尋 μ-opioid receptor 與 AVP 系統交互作用的基礎研究文獻
 - 評估管制藥物用於新適應症的法規許可路徑（香港藥劑業及毒藥管理局）
 - 若 NSIAD 方向有機轉興趣，考慮先以 non-addictive opioid analogue 或其他 AVP pathway 干預藥物作為替代評估對象
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

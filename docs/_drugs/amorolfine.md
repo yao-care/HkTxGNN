@@ -103,10 +103,10 @@ Amorolfine 目前在香港**無任何已登記許可證**，屬未上市藥物�
 4. **前臨床概念驗證**：在骨代謝細胞模型（成骨細胞/破骨細胞體外試驗）中測試 Amorolfine 的實際效果，以決定是否升級評估層級
 
 > ⚠️ **免責聲明**：本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過嚴格臨床驗證才能應用於臨床實踐。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

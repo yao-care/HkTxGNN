@@ -146,10 +146,10 @@ Calcium glycerophosphate 的 glycerophosphate 活性部分機轉明確對應低�
 - 釐清現有 sodium glycerophosphate 研究劑量方案是否可外推至 calcium glycerophosphate
 - 評估同時提供 Ca²⁺ 的利弊：對早產兒或腎功能不全患者的高鈣血症風險需特別關注
 - 若考慮正式香港許可適應症，需規劃直接針對 calcium glycerophosphate 的前瞻性臨床試驗
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

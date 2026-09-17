@@ -124,10 +124,10 @@ Fenofibrate 目前在香港**無核准藥品許可證登記**（香港衛生署�
 - 設計 fenofibrate 作為輔助藥物的 HoFH 聯合治療方案（與 PCSK9 抑制劑、lomitapide 的搭配評估）
 - 評估香港特殊用藥申請（Named Patient / Hospital Authority 特別申請）可行性
 - 若條件許可，考慮發起 Investigator-Initiated Trial（IIT），研究 fenofibrate 在 HoFH 標準治療基礎上的輔助效益
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

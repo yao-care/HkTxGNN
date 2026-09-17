@@ -108,10 +108,10 @@ TxGNN 同時預測 phenylalanine 對**先天性凝血酶原缺乏症 (Congenital
 - 補齊 TFDA/香港仿單警語與禁忌症資料（DG001，Blocking）
 - 取得 phenylalanine 明確作用機轉資料（DG002，High）
 - 針對兩項預測重新確認 TxGNN 知識圖譜中的實體對應是否有字串混淆問題（tyrosine vs phenylalanine、FMLP vs phenylalanine、Nitisinone vs phenylalanine），必要時提報模型資料清洗
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

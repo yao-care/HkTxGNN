@@ -108,10 +108,10 @@ Desogestrel 是第三代合成黃體素，常見於複方口服避孕藥（COC�
 - 釐清目標閉經族群（PCOS 相關閉經 vs. 下視丘性閉經 vs. 藥物誘發性閉經）
 - 設計直接評估 desogestrel 治療閉經療效的前瞻性臨床研究方案
 - 評估 VTE 風險（第三代黃體素相對於 levonorgestrel 的血栓風險）及其對目標族群的安全性影響
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

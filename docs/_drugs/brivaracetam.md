@@ -103,10 +103,10 @@ BRV 的 SV2A 機轉對視覺性（光敏性）癲癇具有理論支持，且已�
 - 系統性整合現有光敏性模型（PPR model）臨床資料，建立更完整的間接證據鏈
 - 評估香港罕見癲癇症候群的未被滿足臨床需求，確認 BRV 的差異化市場定位
 - 如具備優先適應症，可評估向香港衛生署申請孤兒藥認定或恩慈使用資格
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

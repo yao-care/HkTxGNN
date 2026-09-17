@@ -136,10 +136,10 @@ Ezetimibe 在高脂蛋白血症及家族性高膽固醇血症的療效已獲全�
 - 補充詳細作用機轉（MOA）文獻資料（修復 DG002），以強化機轉關聯性分析
 - 確認香港本地目標族群規模：HeFH 患者（估計盛行率 1:250）、他汀耐受性不良患者及高心血管風險族群
 - 評估與現有降脂藥物（statin、PCSK9 抑制劑）的市場定位及聯合使用策略
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

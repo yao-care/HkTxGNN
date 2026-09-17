@@ -114,10 +114,10 @@ TxGNN 模型預測它可能對**斑禿 (Alopecia Areata)** 有效，
 - 明確目標施用途徑（外用 vs 口服 mini-pulse vs 病灶內注射），各途徑需個別評估風險效益
 - 建立長期使用的系統性副作用監測計畫（HPA 軸抑制、皮膚萎縮等已知風險）
 - 針對兒童及特殊族群制定安全性使用指引
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

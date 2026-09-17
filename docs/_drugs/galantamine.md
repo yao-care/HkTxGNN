@@ -168,10 +168,10 @@ TxGNN 模型預測其可能對 **5 種運動障礙相關疾病**有效，其中�
 - 取得 Galantamine 完整 MOA 資料（DrugBank API，DG002）
 - 補充香港仿單安全性警語與禁忌症（DG001）
 - 確認香港是否有鄰近地區（如日本、韓國）的已核准適應症可供參考，以輔助市場准入評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

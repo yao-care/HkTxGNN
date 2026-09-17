@@ -123,10 +123,10 @@ Midazolam 於本資料集標示為**未上市**，目前無許可證登記資料
 - 補充正式作用機轉文獻資料，解除 DG002
 - 評估管制藥品法規限制，以及長期使用之耐受性/戒斷風險管理方案
 - 若考慮用於慢性失眠，需設計能規避耐受性與反彈性失眠之給藥方案並重新驗證
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

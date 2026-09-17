@@ -116,10 +116,10 @@ Evidence Pack 中同時列出另外兩個 TxGNN 預測候選，證據品質差�
 - 補齊 Ritonavir 完整作用機轉資料（DG002，High，來源：DrugBank API）
 - 修正知識圖譜疾病本體對應問題，避免動物專屬疾病（如 FIV）被誤判為人類適應症候選
 - 若欲延續抗反轉錄病毒機轉方向的探索，建議改以排名第二之 SIV 感染（L3，具動物模式文獻支持）作為研究假設起點，而非目前排名第一之候選
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

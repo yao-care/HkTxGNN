@@ -145,10 +145,10 @@ Pitolisant 是選擇性 **組織胺 H3 受體反向致效劑/拮抗劑**，藥�
 - 向 DrugBank 或原廠查證正式 MOA 資料（解除 DG002）
 - 查核 NCT02800083 是否為資料庫連結錯誤，確認失眠適應症是否有其他真實試驗支持
 - 若欲推進 ADHD 方向，需先有前臨床或早期人體概念驗證（proof-of-concept）試驗資料
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

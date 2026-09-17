@@ -127,10 +127,10 @@ AIDS 相關複合症（ARC）為 HIV 感染自然病程的一部分，Atazanavir
 - **安全性評估**：獲取完整仿單資料，重點評估 CYP3A4 相關 DDI、腎結石風險（高膽紅素血症）及與胃酸抑制劑的交互作用
 - **延伸評估（先天性 HIV）**：若同時考慮 Congenital HIV 適應症，需深入分析 PRINCE I（NCT01099579）及 PRINCE II（NCT01335698）的完整 PK 與安全性資料，以確認兒科用藥方案
 - **現實定位**：鑑於目前 HIV 治療已高度標準化（整合酶抑制劑為主流），需評估 ATV 相對於當代方案（如 DTG、BIC 基礎方案）的定位與競爭優勢
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

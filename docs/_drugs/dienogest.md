@@ -105,10 +105,10 @@ TxGNN 模型雖給出 99.71% 的高預測分數，但「閉經」在此語境下
 - 補充完整的 Dienogest 作用機轉資料（DrugBank MOA 查詢）
 - 取得原廠仿單安全性資料（主要警語、禁忌症、TFDA 核准適應症）
 - 優先評估排名第 3 的預測適應症**纖維囊性乳房疾病 (Breast Fibrocystic Disease)**（評分：Research Question，L4），其有 1 篇先導研究（[PMID 19499407](https://pubmed.ncbi.nlm.nih.gov/19499407/)）顯示高劑量 Dienogest 可使乳腺組織顯著縮小，機轉合理性（抗雌激素效應）較閉經更具臨床意義，值得進一步探索
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -121,10 +121,10 @@ Gimeracil 為 S-1 複方（氟尿嘧啶類抗腫瘤藥物）的組成成分，�
 - 向香港衛生署查詢 S-1 複方（tegafur/gimeracil/oteracil）的本地許可現況或特別用藥申請途徑
 - 補充 Gimeracil 的 DrugBank MOA 詳細資料，以強化機轉關聯性分析
 - 針對心血管安全性（尤其冠狀動脈相關風險），制定治療前風險評估及療程中監測計畫
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

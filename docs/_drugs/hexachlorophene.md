@@ -103,10 +103,10 @@ Hexachlorophene 目前**未在香港上市**，無任何核准藥品許可證。
 - 查詢 DrugBank API 取得完整 MOA 資料（DG002，High 級資料缺口）
 - 下載並解析 TFDA/PMDA 仿單，取得完整警語與禁忌資料（DG001，Blocking 級資料缺口）
 - 評估是否有安全性更高的候選藥物可達成相同適應症目標，優先於本藥物的再利用探索
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

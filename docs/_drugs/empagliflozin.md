@@ -118,10 +118,10 @@ Empagliflozin 目前在香港**尚未取得上市許可**，無任何藥品許�
 - 進行系統性文獻搜索，確認 SGLT2 抑制劑與自身免疫神經疾病（SPS）的基礎科學或動物模型證據
 - 評估香港法規路徑（未上市藥物需考慮臨床試驗申請流程）
 - **Opsismodysplasia 建議不予推進**（機轉方向可能有害，應從候選清單中移除）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

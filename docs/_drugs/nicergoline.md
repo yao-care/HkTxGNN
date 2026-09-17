@@ -83,10 +83,10 @@ TxGNN 預測分數雖高（99.57%），但無任何臨床試驗或文獻佐證�
 - 補齊正式作用機轉 (MOA) 資料
 - 以體外或動物實驗驗證 α1-拮抗活性是否確實影響毛囊/皮膚微循環
 - 若證據仍無法補強，建議改聚焦本評估包中證據等級較高的候選（如良性攝護腺肥大，已有明確 α1-blocker class-effect 機轉可作研究假說）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

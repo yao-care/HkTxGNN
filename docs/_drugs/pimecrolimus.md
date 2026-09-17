@@ -107,10 +107,10 @@ Pimecrolimus 是 ascomycin 衍生的非類固醇 calcineurin 抑制劑，選擇�
 - 補齊仿單警語與禁忌資料（Blocking：目前無法進入 S1 安全性初評）
 - 補齊完整作用機轉（MOA）正式來源資料，取代目前僅能引用文獻推論
 - 評估本地（香港）上市/許可證申請可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

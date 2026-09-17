@@ -109,10 +109,10 @@ Pembrolizumab 在香港**未上市**，無許可證登記資料。
 - 補齊 DrugBank 作用機轉正式紀錄
 - 針對「肺門癌」亞群檢索是否已有一般 NSCLC/肺癌適應症試驗涵蓋此族群
 - 排名 1、2、3、5 候選因機轉不合理，建議暫不投入資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

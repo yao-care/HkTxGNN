@@ -114,10 +114,10 @@ DCBA 對支氣管炎的預測在機轉上屬間接推論，缺乏系統性（口
 - 搜尋 DCBA 專屬（非 clenbuterol）的體外或動物模型抗菌研究
 - 評估是否有適當的給藥途徑（吸入劑型）可用於支氣管炎適應症
 - 安全性資料補強：取得 TFDA 仿單或 DrugBank 警語/禁忌資料
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

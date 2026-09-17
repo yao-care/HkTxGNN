@@ -116,10 +116,10 @@ TxGNN 預測分數高達 99.90%，且 COX-2 抑制機轉與偏頭痛神經源性
 - **PoC 研究設計**：可考慮針對無先兆急性偏頭痛患者設計小型雙盲 RCT（參考 Diclofenac 鉀鹽研究設計）
 - **法規評估**：香港目前無上市許可，需評估向衛生署申請藥品登記或研究用途豁免的可行路徑
 - **安全性優先評估**：在偏頭痛（有先兆型）患者中，需特別評估心血管事件風險，以及是否排除既有心血管疾病患者
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

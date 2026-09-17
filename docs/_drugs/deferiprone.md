@@ -97,10 +97,10 @@ TxGNN 模型預測它可能對**肝性卟啉症 (Hepatic Porphyria)** 有效，
 - 系統性文獻回顧：口服鐵螯合劑（DFP/DFO/DFX）用於各型卟啉症的已發表證據
 - 若決策推進，應優先設計針對 PCT 的探索性臨床研究（因 PCT 的肝鐵過載機制最直接）
 - 評估香港罕見病患者族群規模，判斷本地臨床試驗的可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

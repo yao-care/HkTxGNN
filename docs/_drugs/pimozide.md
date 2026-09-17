@@ -117,10 +117,10 @@ Evidence Pack 中另列出 4 個 TxGNN 預測適應症，證據強度與建議�
 - 補齊正式作用機轉（MOA）資料（來源：DrugBank API 查詢）
 - 評估香港引進/上市可行性（目前為未上市藥物，0 張許可證）
 - 若擬推進，應設計前瞻性對照試驗驗證 pimozide augmentation 於拔毛癖之療效與 QT 安全性監測方案
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

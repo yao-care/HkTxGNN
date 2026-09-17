@@ -88,10 +88,10 @@ Potassium Acetate（DrugBank DB14498）目前於香港未上市，原始核准�
 - 透過 DrugBank API 補齊 MOA 資料，釐清機轉關聯性
 - 人工複核文獻，區分低血鉀型（type 1/2，理論上適合補鉀）與高血鉀型（type 4，補鉀為禁忌）RTA 亞型，確認 TxGNN 高分是否為詞彙共現假訊號
 - 若鎖定特定亞型後，補強該族群的臨床證據以提升證據等級
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -139,10 +139,10 @@ Enzalutamide 在全球多個大型 Phase 3 RCT（PREVAIL n=1,717、PROSPER n=1,4
 - **香港登記申請**：準備衞生署藥物辦公室藥劑產品登記所需文件，利用 FDA/EMA 核准資料作橋接依據
 - **亞裔族群數據**：評估亞裔（尤其華人）族群的藥效學與安全性差異，特別是 HSD3B1 基因多態性對療效的影響
 - **風險管理計劃**：針對癲癇高風險患者、高齡患者（>75 歲）及心血管風險族群制定個別化監測方案
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -114,10 +114,10 @@ TxGNN 模型共預測 5 個潛在新適應症，完整摘要如下：
 - **優先搜尋 TRMA 個案文獻**：以 "sulfonylurea TRMA" / "glimepiride Rogers syndrome" 為關鍵字補充 PubMed 查詢
 - **評估香港上市可行性**：確認是否需申請新許可證或借助其他監管路徑
 - **若 TRMA 文獻有支持**：評估 Slc19a2 敲除鼠模型中 glimepiride 的 β 細胞保護效果作為下一步前臨床依據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

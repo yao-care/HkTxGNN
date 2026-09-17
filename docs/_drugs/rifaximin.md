@@ -117,10 +117,10 @@ Rifaximin 目前在香港**未上市**，無登記許可證。
 - 補充 DrugBank 作用機轉資料（DG002，來源：DrugBank API）
 - 取得 Rifaximin 原始核准適應症資訊，作為機轉關聯性分析基準
 - 若持續評估口腔念珠菌病方向，需另尋支持性（而非反向）的機轉或臨床證據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

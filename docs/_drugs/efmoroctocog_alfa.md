@@ -98,10 +98,10 @@ Efmoroctocog alfa 目前在香港尚未取得上市許可，無藥品許可證�
 - 評估 Pseudo-vWD 患者是否因繼發性 vWF 消耗導致 FVIII 水平下降，是否存在補充 FVIII 的理論窗口
 - 搜尋 Pseudo-vWD 中 FVIII 替代治療的前臨床或個案研究（包含 FVIII–vWF 結合動力學研究）
 - 優先審視其他評分更高且機轉更合理的候選適應症（如排名第9：血友病A合併血管異常，L3；排名第5：後天性凝血因子缺乏症，L4）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

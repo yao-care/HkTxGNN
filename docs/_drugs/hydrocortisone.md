@@ -120,10 +120,10 @@ TxGNN 對 Hydrocortisone 同時預測了其他掉髮相關適應症，但證據�
 | 3 | Telogen effluvium | 99.97% | L5 | Hold（機轉關聯薄弱，唯一文獻與掉髮病理機轉無直接對應） |
 | 4 | Quinquaud's folliculitis decalvans (毛囊炎性禿髮) | 99.97% | L5 | Hold（完全無臨床試驗或文獻佐證，僅為模型純預測） |
 | 5 | Alopecia antibody deficiency | 99.96% | L4 | Hold（現有文獻多為自體免疫多腺體症候群案例報告，Hydrocortisone 用於治療伴隨的腎上腺功能不全，而非直接治療掉髮本身） |
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

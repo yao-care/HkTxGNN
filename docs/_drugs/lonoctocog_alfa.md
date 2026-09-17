@@ -95,10 +95,10 @@ Scott syndrome）同屬血小板功能缺陷疾病，病灶分別在血小板顆
 - 完整的作用機轉（MOA）資料，以確認或排除與血小板功能障礙疾病的關聯
 - 血小板功能障礙適應症的體外或臨床概念驗證證據
 - 香港上市狀態與許可證資訊確認
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

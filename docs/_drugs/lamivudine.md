@@ -100,10 +100,10 @@ SIV（猴免疫缺乏病毒）與 HIV 同屬 Lentivirus，反轉錄酶構造高�
 **若要推進需要：**
 - 補齊 DG001（TFDA/香港仿單警語與禁忌症）與 DG002（作用機轉）兩項資料缺口
 - 若欲繼續探索人類適應症，應排除本批次候選，重新以正確的疾病本體（非 obsolete、非動物疾病）重跑 TxGNN 預測並人工核對試驗/文獻的藥物與疾病配對正確性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

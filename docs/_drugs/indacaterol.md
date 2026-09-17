@@ -88,10 +88,10 @@ Indacaterol 目前未於香港取得上市許可，無許可證資料。
 - 補齊 Indacaterol 完整作用機轉（MOA）資料（DG002，High，來源：DrugBank API）
 - 取得 TFDA／香港仿單完整警語與禁忌資訊（DG001，Blocking，來源：官網 PDF 解析）
 - 針對 NSIAD 尋找 β2 促效劑相關的臨床前或機轉研究，建立藥理學合理性；若持續無法建立關聯，建議終止此方向調查
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

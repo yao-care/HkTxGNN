@@ -106,10 +106,10 @@ Salicylic acid 目前未在香港取得許可證，無上市品項紀錄。
 - 補齊 Salicylic acid 的作用機轉（MOA）資料（DrugBank API 查詢）
 - 取得原廠仿单警語與禁忌症（TFDA/香港衛生署），解除 Blocking 等級的資料缺口
 - 針對 Rank 1（papillary conjunctivitis）與 Rank 5（rosacea conjunctivitis）等機轉相對合理的候選，優先搜尋是否有局部水楊酸用於眼周/結膜發炎的前臨床或個案報告證據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

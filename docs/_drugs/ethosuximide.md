@@ -92,10 +92,10 @@ Ethosuximide 的核心藥理機轉（抑制 T 型鈣離子通道）與 NSIAD 的
 - **擴展文獻搜尋**：擴大至相關機轉領域（鈣離子訊號與 AQP2 調控、T 型通道與腎臟生理、稀釋性低鈉血症藥物研究）
 - **安全性資料補充**：下載並解析仿單 PDF，完成正式安全性初評（S1 階段）
 - **孤兒藥可行性評估**：確認 NSIAD 罕見病身分對應的法規路徑與市場規模
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

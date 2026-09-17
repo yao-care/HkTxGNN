@@ -90,10 +90,10 @@ Human C1-Esterase Inhibitor 目前**未在香港取得上市許可**，無任何
 - 擴大文獻搜尋範圍：以 MeSH 詞彙「C1 Inhibitor Protein」+「Diabetic Retinopathy」進行系統性搜尋，納入動物實驗及體外研究
 - 評估概念驗證可行性：確認是否有其他補體抑制劑（如 Eculizumab、Compstatin）已有 DR 相關臨床數據，可作為機轉可行性的間接參照
 - 評估給藥途徑：C1-INH 目前僅為靜脈注射製劑，需評估能否應用於眼科（玻璃體內注射之穩定性、劑量及安全性完全未知）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

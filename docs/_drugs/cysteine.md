@@ -116,10 +116,10 @@ L-Cysteine（DB00151）目前在香港**無已登記藥物許可證**，市場�
 - 評估最適給藥途徑（局部滴眼液 vs. 口服），確認眼部生物利用度
 - 香港藥物許可策略評估，包含新藥申請或適應症外使用框架
 - 制定完整安全性監測計畫，特別是長期局部眼科給藥的耐受性資料
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

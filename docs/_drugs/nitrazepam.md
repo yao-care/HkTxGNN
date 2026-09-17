@@ -97,10 +97,10 @@ GABA-A 受體增強作用直接對應失眠的病理生理機轉（中樞過度�
 **其他預測適應症（已評估，不建議推進）：**
 - **Acute encephalopathy with biphasic seizures and late reduced diffusion**（L5・Hold）：機轉關聯僅為苯二氮平類藥理推論，無文獻或試驗支持。
 - **Wernicke-Korsakoff syndrome**（L5・Hold）：本質為硫胺素缺乏症，與 GABA-A 調節無直接病理關聯，機轉關聯薄弱。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

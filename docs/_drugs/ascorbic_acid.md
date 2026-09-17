@@ -105,10 +105,10 @@ Ascorbic Acid（維生素C，抗壞血酸）是人體不可或缺的水溶性維
 > | 損傷 (Injury) | #4 | L2 | Research Question |
 >
 > 其中**維生素缺乏症**本為維生素C的核心確立適應症（包含壞血病治療與缺鐵性貧血鐵吸收促進），有多項已完成的 RCT 支持；**圍產期疾病**（子癇前症預防、新生兒缺氧缺血性腦病）則有來自多個 Phase 3 RCT 的高品質證據，最具研究價值。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -92,10 +92,10 @@ Fluocinolone acetonide 用於肥厚型扁平苔蘚的機轉關聯性合理（Cla
 - **間接證據蒐集**：系統性文獻回顧，蒐集其他同類強效外用類固醇（如 clobetasol、betamethasone）用於肥厚型扁平苔蘚的現有證據，作為 class effect 推論基礎
 - **其他預測適應症評估**：本次 TxGNN 同時預測 3 個扁平苔蘚亞型（環狀萎縮型、色素沉著型、類天皰瘡型），建議一併納入文獻回顧範圍，評估整體研究價值
 - **Pilot Study 設計**：若文獻支持，考慮設計個案系列研究（case series）或前導性臨床試驗
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

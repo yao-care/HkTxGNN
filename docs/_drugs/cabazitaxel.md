@@ -128,10 +128,10 @@ Cabazitaxel 對多重耐藥性乳癌的療效具有明確的生物合理性（P-
 - 評估香港未上市藥物的臨床試驗申請途徑（藥物及毒藥監管局）
 - 確認目標族群（建議聚焦：紫杉烷耐藥後的轉移性乳癌，尤其 TNBC 或 HER2+ 合併 CNS 轉移）
 - 制定嗜中性白血球低下性發燒的預防及管理計畫（G-CSF 預防性使用方案）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

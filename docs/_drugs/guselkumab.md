@@ -93,10 +93,10 @@ IL-23/Th17 軸與骨代謝之間存在間接生物學關聯：Th17 細胞分泌�
 - **安全性資料補齊**：下載原廠仿單 PDF，解析警語、禁忌症及主要不良事件資料
 
 > **附註**：TxGNN 預測中，乾癬（Psoriasis）排名第 3（預測分數 99.75%，證據等級 L1，建議 Proceed with Guardrails），具有 **50 個臨床試驗**及 **20 篇文獻**支持，為本次 Evidence Pack 中科學證據最充分的適應症，建議優先以乾癬適應症推動香港上市申請。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

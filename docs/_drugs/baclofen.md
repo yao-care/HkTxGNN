@@ -113,10 +113,10 @@ Baclofen 透過突觸前 GABA-B 受體，可間接抑制多巴胺與正腎上腺
 > 該適應症具有更強的臨床證據（L3 等級；3 項 Phase 2 臨床試驗，其中 1 項已完成，n=44），
 > 機轉關聯性亦更為直接（GABA-B 抑制中腦邊緣多巴胺獎賞迴路）。
 > 建議優先針對**尼古丁依賴**適應症推進深度評估。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

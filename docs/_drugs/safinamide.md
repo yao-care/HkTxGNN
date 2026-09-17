@@ -110,10 +110,10 @@ Safinamide 目前**尚未於香港取得藥品許可證**（許可證數：0）�
 - 補齊 DrugBank 詳細作用機轉資料（DG002）
 - 針對三項候選適應症進行專屬文獻與機轉檢索，優先驗證機轉合理性最高的 PLA2G6 相關神經退化症
 - 確認香港上市可行性與藥品可及性（目前 0 張許可證）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

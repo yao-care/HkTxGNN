@@ -92,10 +92,10 @@ Latanoprost 是前列腺素 F2α 類似物，全球廣泛用於青光眼與高�
 - 確認正式作用機轉（MOA）資料，以強化機轉關聯性分析（DG002，High，來源：DrugBank API）
 - 確認 NCT01527682 試驗中是否明確使用 Latanoprost 本體（而非其他前列腺素類似物）
 - 評估台灣上市登記可行性（目前為 0 張許可證，未上市狀態）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -116,10 +116,10 @@ Danazol 誘導閉經的機轉清晰直接，有多項 RCT 及臨床研究支持�
 - 向衛生署評估香港藥物登記或特別用藥申請可行性
 - 針對目標族群（子宮內膜異位症、功能性月經失調、跨性別月經管理）制定分層安全性監測計畫
 - 評估與 GnRH 類似物、黃體素等現有替代療法的定位差異，確立 Danazol 的差異化臨床價值
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

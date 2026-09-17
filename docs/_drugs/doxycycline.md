@@ -104,10 +104,10 @@ Doxycycline 在香港目前**未上市**，無相關藥品許可證記錄。如�
 ---
 
 > ⚠️ **免責聲明**：本報告結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經過臨床驗證才能應用於實際臨床情境。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

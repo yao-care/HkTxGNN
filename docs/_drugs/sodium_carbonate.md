@@ -88,10 +88,10 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 - **Dry eye syndrome**（rank 5，L3，Research Question）：同一篇文獻的延伸適應症推論，但證據僅限口腔黏膜，尚未驗證於眼表
 
 若後續要推進老藥新用評估，建議以此二者為優先，而非目前排名第一但無證據支持的馬尾症候群。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

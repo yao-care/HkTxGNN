@@ -120,10 +120,10 @@ Citalopram 與所有已核准 OCD 藥物共享相同作用機轉（SSRI/SERT 抑
 - 評估以已有更強 OCD 直接臨床證據的 **Escitalopram** 作為優先替代方案的可行性
 - 依香港衛生署規定申辦特別藥物進口許可或開展本地臨床試驗登記
 - 制定針對特殊族群（兒童青少年、老年）的安全性監測計畫
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

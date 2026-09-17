@@ -117,10 +117,10 @@ Fosfomycin 在香港目前**未上市**，無任何許可證紀錄。若要評�
 - 評估香港／區域淋球菌對 fosfomycin 的當地耐藥性流行病學
 - 規劃香港衛生署新藥引進申請路徑（目前 0 張許可證）
 - 設計前瞻性 RCT 以驗證當地人群療效，並評估與 ceftriaxone 的比較效果
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

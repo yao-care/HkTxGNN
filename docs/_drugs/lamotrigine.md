@@ -115,10 +115,10 @@ Lamotrigine 目前於香港**未上市**，無許可證登記資料，無法列�
 - 向知識圖譜維護方回報並校正「trigeminal nerve neoplasm」與「trigeminal neuralgia」節點混淆問題
 - 若考慮於香港申請三叉神經痛適應症，需規劃當地上市申請與族群安全性監測計畫
 - 針對聲源性癲癇等反射性癲癇亞型，若要繼續研究需先進行前臨床/概念驗證研究，注意 lamotrigine 於部分肌躍型癲癇可能有惡化風險
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

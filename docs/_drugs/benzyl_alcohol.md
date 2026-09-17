@@ -109,10 +109,10 @@ Benzyl Alcohol 目前在香港**未以獨立藥品形式上市**，無任何核�
 - 確認 TxGNN 知識圖譜中「苯甲醇—支氣管炎」邊的關聯標籤是否為「不良反應（adverse effect）」而非「治療（treats）」，以利修正圖譜資料品質
 - 若未來有新的體外或動物研究顯示苯甲醇具支氣管保護作用，可重新提交評估
 - 此候選建議列入**假陽性案例庫**，作為模型優化的訓練反饋資料
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

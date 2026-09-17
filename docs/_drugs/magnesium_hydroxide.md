@@ -101,10 +101,10 @@ TxGNN 模型預測它對**消化性潰瘍（Active Peptic Ulcer Disease）**的�
 - 透過 DrugBank API 查詢確認正式 MOA 描述（DG002）
 - 若考慮於香港推進，需先確認上市/進口許可路徑（目前 0 張許可證）
 - 針對排名 2～5 的相關預測（尤其潰瘍穿孔、吻合口潰瘍），因證據薄弱（L3–L4），暫列為研究性問題，不建議與主要適應症並行推進
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

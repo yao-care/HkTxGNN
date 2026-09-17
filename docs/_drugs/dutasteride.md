@@ -115,10 +115,10 @@ Ambras 型先天性全身性多毛症（HUC）是一種極罕見的遺傳病，�
 - 確認 Dutasteride 在香港的實際上市/進口狀況（有無需特別申請的臨床試驗用藥途徑）
 - 若欲深入評估「具腦幹先兆偏頭痛」方向，建議優先搜尋 allopregnanolone 相關神經類固醇臨床研究，評估同類藥物（finasteride）的神經精神副作用文獻作為參考
 - 針對任何被選定的候選適應症，進行系統性文獻回顧及專家意見徵詢，再決定是否進入 S1 安全性初評
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

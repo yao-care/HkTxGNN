@@ -107,10 +107,10 @@ ISDN 屬於 NO 供體，經 guanylate cyclase–cGMP 路徑誘發血管平滑肌
 - 針對肺動脈高壓設計前瞻性隨機對照試驗，驗證長期療效與安全性（現有證據多為急性反應）
 - 確認香港上市/許可證申請路徑
 - 落髮相關預測（alopecia 系列）證據不足、機轉不合理，建議列為低優先或排除
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

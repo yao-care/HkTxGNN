@@ -85,10 +85,10 @@ FIRES 是一種好發於兒童、常伴隨高死亡率的難治型癲癇性腦�
 - 查詢 DrugBank API 補充 Rufinamide 詳細作用機轉資料（DG002）
 - 針對 FIRES 等候選適應症搜尋近期病例系列研究、系統性回顧或臨床試驗登記，補足 L5 以上證據
 - 若確認具治療潛力，評估香港恩慈療法或專案進口管道的可行性（因目前未上市）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -119,10 +119,10 @@ Evidence Pack 中 ribociclib 本身的 `original_moa` 欄位標記為資料缺�
 - 補齊 ribociclib 詳細作用機轉資料（DG002）
 - 針對骨髓性白血病之直接體外/動物藥效學研究或臨床試驗
 - 釐清 PMID 30575100 所述之藥物誘發 AML 風險，與 PMID 32560251 提出之治療用途假說間的矛盾
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

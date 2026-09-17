@@ -101,10 +101,10 @@ Human Immunoglobulin G 在香港目前**未取得上市許可**（許可證數�
 - 補充完整的作用機轉（MOA）資料，建立合理的治療假說
 - 獲取香港藥監局安全性核准資料（仿單警語、禁忌症）作為 S1 安全性初評依據
 - 評估給藥途徑適配性（眼部適應症通常需要局部或玻璃體內給藥，IVIG 為靜脈注射劑型，需重新評估可行性）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

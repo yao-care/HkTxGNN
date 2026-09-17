@@ -117,10 +117,10 @@ PRASTERONE 目前於香港**未上市**，無許可證資料。
 - 補齊作用機轉、原適應症、仿單警語與禁忌症資料（DG001 為 Blocking、DG002 為 High 等級缺口，需優先解決）
 - 釐清 PRASTERONE／DHEA 對凝血系統的實際藥理效應方向（促進或抑制），才能判斷血栓傾向候選究竟是風險還是機會
 - 若仍評估肝素輔因子 II 缺乏症等罕見適應症，需先取得任何前臨床或病例層級證據；目前完全空白，暫不建議投入進一步資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

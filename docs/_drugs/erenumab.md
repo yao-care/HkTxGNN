@@ -111,10 +111,10 @@ Erenumab 目前在香港無已登記的藥物許可證，尚未上市。
 - 評估香港恩慈用藥（Compassionate Use）或擴大適應症申請途徑的可行性
 - 治療期間監測基底動脈供血區的神經學症狀及血管影像學指標
 - 確認個別患者的心血管風險分層，特別是有高風險因素的腦幹先兆偏頭痛患者
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

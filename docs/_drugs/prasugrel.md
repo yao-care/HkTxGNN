@@ -96,10 +96,10 @@ TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有�
 ---
 
 **補充觀察：** 同一評估包中，排名第 2 的候選適應症「偏頭痛 (migraine disorder)」證據等級較高（L3，決策階段 S1，建議為 Research Question），有同類 P2Y12 抑制劑（ticagrelor）及 thienopyridine 類藥物於 PFO 相關偏頭痛的直接文獻支持（PMID 30478067、30478066），機轉推論較肺動脈高壓更具體，建議後續評估時可一併比較優先順序。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -94,10 +94,10 @@ TxGNN 模型預測它可能對**急性喉咽炎 (Acute Laryngopharyngitis)** 有
 - 取得安全性資料（警語、禁忌症、藥物交互作用），完成 S1 安全性初評
 - 評估給藥途徑的可行性（口服全身作用 vs. 局部吸入/含漱）
 - 釐清「急性喉咽炎」的具體臨床次分類（病毒性 vs. 細菌性），以確認機轉關聯的特異性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

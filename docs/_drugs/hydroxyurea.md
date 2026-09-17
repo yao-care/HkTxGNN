@@ -136,10 +136,10 @@ indication_count: 5
 - **補齊 High 資料缺口 DG002**：透過 DrugBank API 查詢完整作用機轉（MOA），以強化機轉關聯性分析之嚴謹度。
 - 針對乳癌方向：規劃現代化臨床前驗證（如異種移植模型）以確認 HU 與增敏劑併用之療效，並評估是否有必要啟動早期臨床試驗。
 - 針對鐮形血球病方向：確認 Hydroxyurea 在香港（或目標市場）之上市/註冊狀態，並評估是否可直接依現有國際證據申請適應症擴充，而非以「全新藥物再利用」路徑處理。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

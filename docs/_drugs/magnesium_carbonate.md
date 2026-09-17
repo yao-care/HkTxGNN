@@ -109,10 +109,10 @@ TxGNN 模型預測它可能對**活動性消化性潰瘍 (Active Peptic Ulcer Di
 | 3 | 胃空腸吻合口潰瘍 | 99.95% | L3 | S1 | Research Question |
 | 4 | 胃十二指腸炎 | 99.94% | L4 | S1 | Research Question |
 | 5 | 胃潰瘍 | 99.82% | L2 | S3 | Proceed with Guardrails |
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -107,10 +107,10 @@ Enrofloxacin 為**獸醫專用抗生素**，全球均無人用許可，香港亦
 - 取得人體 QT 延長風險的量化數據
 - 評估代謝產物 ciprofloxacin 是否有更充分的人體心臟感染相關證據
 - 就其餘 9 個預測適應症（先天性結構缺陷、染色體異常等）進行知識圖譜品質審查，排除模型偏差
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -199,10 +199,10 @@ Palbociclib 原適應症為乳癌，屬抗腫瘤藥物。
 - 補齊完整 MOA 與 DDI 資料
 - 查證 NCT02310243（狀態未知）之最終結果
 - 針對 MLL-rearranged／t(8;21) 亞型設計專一性 Phase 2 試驗，並將血栓栓塞風險納入安全性監測計畫
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

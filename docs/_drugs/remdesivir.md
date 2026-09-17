@@ -119,10 +119,10 @@ Remdesivir 目前**未於香港上市**，無許可證登記資料可供列示�
 - 取得 TFDA 仿單警語與禁忌症資料，解除 S1 安全性初評阻擋（DG001）
 - 若仍要探索 MEN 或其他候選適應症，需先進行體外/體內機轉驗證研究，目前無任何實證基礎支持人體試驗
 - 修正證據收集流程的疾病標籤比對邏輯，避免 HIV/leprosy 類型的錯配案例再次發生
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -142,10 +142,10 @@ Canakinumab 在家族性地中海熱方面已具備最高等級臨床證據（L1
 - 向衛生署申請「第 21 條令」未登記藥物使用許可，或向醫院管理局申請罕見病藥物引入
 - 建立感染監測計畫（結核病基線篩查、感染事件回報機制）
 - 將**排名第 5（週期性發燒-嬰兒腸炎-自身炎症症候群，L3）** 及**排名第 8（Blau 症候群，L4）** 列為後續研究問題，考慮設計病例系列或前導性 RCT
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

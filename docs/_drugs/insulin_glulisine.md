@@ -115,10 +115,10 @@ Insulin Glulisine（商品名 Apidra）是速效胰島素類似物，臨床上�
 - 補充 DrugBank 作用機轉資料（DG002，High）
 - 若考慮本地上市，應以現行核准適應症（糖尿病血糖控制）申請許可證，而非以此候選作為老藥新用申請基礎
 - 若仍要評估候選2-5，需先取得機轉層級以上的實證支持，目前不建議投入資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

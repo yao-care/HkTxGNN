@@ -126,10 +126,10 @@ Regorafenib 屬抗腫瘤藥物（多重酪胺酸激酶抑制劑），故列出�
 - 完整作用機轉資料來源確認（DG002）
 - 針對脂肪肉瘤的合併治療（如免疫治療、化療併用）後續試驗數據，以釐清單藥無效後的替代策略
 - 香港藥品上市/許可證申請評估（目前完全未上市，無本地安全性與可近性資料）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

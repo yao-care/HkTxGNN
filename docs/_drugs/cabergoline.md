@@ -95,10 +95,10 @@ Cabergoline 是一種多巴胺 D2/D3 受體促效劑，臨床上廣泛用於治�
 - 確認垂體腺癌組織中 D2R 免疫組化表達率，以驗證機轉假設的適用範圍
 - 系統性檢索已發表個案：是否有 Cabergoline 用於垂體腺癌後腫瘤縮小或激素控制的紀錄
 - 建議同步評估 **Rank 3「垂體癌（Pituitary Cancer）」**預測——該適應症擁有 **20 個臨床試驗**（含多個 Phase 3 完成試驗）及 **20 篇文獻**，可提供更紮實的臨床決策依據，證據等級初估可達 L1-L2
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

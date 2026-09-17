@@ -105,10 +105,10 @@ TxGNN 模型預測其可能對**頭皮單純性少毛症 (Hypotrichosis Simplex 
 - 補齊 TFDA/香港衛生署仿單警語與禁忌症資料（Blocking 缺口 DG001）
 - 補齊 Spironolactone 作用機轉資料，並釐清原始核准適應症（DrugBank 查詢，High 缺口 DG002）
 - 針對此少毛症適應症方向，進行體外/體內機轉驗證研究，先排除假陽性可能，再考慮投入臨床試驗或文獻搜尋資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

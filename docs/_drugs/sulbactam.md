@@ -113,10 +113,10 @@ Sulbactam 透過不可逆抑制細菌 β-內醯胺酶，恢復 Ampicillin 對產
 - 補充詳細作用機轉（MOA）資料以強化機轉關聯性分析
 - 確認香港上市登記狀態，若未上市需評估藥證申請路徑
 - 補充藥物交互作用（DDI）資料
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -94,10 +94,10 @@ TxGNN 的高預測分數極可能源自知識圖譜中「出血性疾病」節�
 - 取得原廠仿單，完成安全性初評（目前 Blocking 資料缺口尚未解除）
 - 重新審視 TxGNN 預測是否因「出血性疾病」節點群聚而產生假陽性，建議優先評估其他分數相近但機轉更吻合的候選適應症
 - 若仍考慮推進其中任一適應症，最低需先完成前臨床（in vitro / animal model）機轉驗證
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

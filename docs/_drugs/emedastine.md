@@ -97,10 +97,10 @@ TxGNN 模型給予 99.96% 的高預測分數，且有來自歐洲多中心 RCT �
 - 評估在香港申請口服劑型過敏性蕁麻疹適應症的可行性（emedastine 口服劑型在各市場許可狀態不一）
 - 與第二代抗組織胺競品（bilastine、fexofenadine、cetirizine）進行市場定位分析，評估差異化優勢
 - 就冷性蕁麻疹（cold urticaria，預測排名第 2，TxGNN 分數 99.82%）另行評估，作為潛在第二適應症候選
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -115,10 +115,10 @@ Clemastine 的 H1 拮抗機轉與過敏性蕁麻疹的核心病理直接對應�
 - 完整評估藥物交互作用，特別是 CNS 抑制劑（苯二氮平類、鴉片類）及 MAO 抑制劑
 - 研究香港衛生署上市路徑（新藥申請 vs. 個人進口豁免機制）
 - 制定使用監測計畫，重點追蹤嗜睡、抗膽鹼副作用及特殊族群（老年人、駕駛員）安全性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

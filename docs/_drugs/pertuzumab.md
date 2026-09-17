@@ -126,10 +126,10 @@ Pertuzumab 的作用機轉是阻斷 HER2 與 HER3 之間的二聚化，抑制下
 - 補齊官方仿單警語與禁忌症資料（目前為 Blocking 級資料缺口，無法完成 S1 安全性初評）
 - 補充詳細作用機轉（MOA）資料以強化機轉關聯性分析
 - 確認香港上市/許可證申請規劃（目前市場狀態為未上市）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -94,10 +94,10 @@ Ramipril（DrugBank ID: DB00178）目前的證據包未提供香港上市許可�
 - 查詢 DrugBank API 補齊作用機轉（MOA）資料
 - 針對「ramipril + 肺動脈高壓」重新執行精準文獻與臨床試驗檢索，排除關鍵字誤配結果
 - 若欲評估香港上市可行性，需另行查證許可證登記狀態
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

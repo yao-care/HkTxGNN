@@ -131,10 +131,10 @@ EAST（Phase 4, n=2,789）及 ATHENA（Phase 3, n>4,600）等多個大型 RCT �
 - 制定與 NOAC 或 Digoxin 合用時的藥物交互作用監測方案
 - 追蹤 NCT05130268 完整結果發表（2024 年完成招募，腦血管結局數據待公布）
 - 待 NCT07270848（n=1,898，預計 2028 年完成）結果以進一步強化療效與安全性證據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

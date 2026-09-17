@@ -149,10 +149,10 @@ TxGNN 對 pazopanib 另預測以下 4 項罕見腎癌相關適應症，目前證
 - 確認香港上市／輸入許可路徑（現況 0 張許可證）
 - 藥物交互作用資料庫查詢重新執行（目前 `not_found`）
 - 若欲推進「未分類腎細胞癌」候選，需針對該亞型另行系統性文獻回顧以補足前瞻性證據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

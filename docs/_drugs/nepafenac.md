@@ -115,10 +115,10 @@ TxGNN 預測的新適應症「eye disease」本質上與 nepafenac 已確立的�
 - 取得 TFDA／香港衛生署仿單警語與禁忌症資料（目前為 Blocking 等級資料缺口，無法進入安全性初評）
 - 補充 DrugBank 作用機轉（MOA）正式資料，目前僅能依文獻推論
 - 若計畫於香港申請上市，需準備完整的許可證申請與在地臨床橋接資料
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

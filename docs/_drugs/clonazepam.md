@@ -126,10 +126,10 @@ TxGNN 預測分數達 99.65%，文獻基礎涵蓋 Cochrane 系統性回顧及 AA
 - 針對「多巴胺能藥物不耐受之 RLS 患者」設計 Phase 2/3 RCT
 - 長期安全性監測計畫：依賴性評估、認知功能追蹤（特別是老年族群）
 - 優先評估第二適應症「失眠 (Insomnia)」——證據等級 L2，已有 Phase 4 RCT，研究路徑更為成熟
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

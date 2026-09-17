@@ -116,10 +116,10 @@ Natamycin 目前**未在香港上市**，查無許可證記錄（0 張許可證�
 - 釐清劑型與給藥途徑（陰道栓劑 vs. 現有眼用/皮膚劑型）是否需另行開發
 
 > 補充：同一證據包中另列出 candidiasis（廣義）、vulvitis、vulvovaginitis（皆為 L2-L3，Research Question 等級）與 trichomonal vulvovaginitis（L4，機轉不匹配，建議 Hold）等關聯適應症，顯示 Natamycin 之預測價值集中於 Candida 病因之外陰陰道感染，不宜外推至非真菌病因（如滴蟲病）。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

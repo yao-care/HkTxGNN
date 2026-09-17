@@ -104,10 +104,10 @@ TxGNN 模型預測它可能對**圓禿 (Alopecia Areata)** 有效，目前有 **
 - 評估以病灶內注射或外用劑型作為輕度圓禿之輔助/銜接治療的適用族群，並排除中重度病人（此族群更適合高效價替代方案）
 
 > 註：TxGNN 同時預測了其他 4 個候選適應症（telogen effluvium、alopecia mucinosa、Quinquaud's folliculitis decalvans、hereditary hypotrichosis with recurrent skin vesicles），因缺乏任何臨床試驗或文獻佐證（證據等級 L5），暫列為 Hold，本報告不深入討論。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

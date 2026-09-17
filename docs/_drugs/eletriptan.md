@@ -114,10 +114,10 @@ Eletriptan 的 5-HT₁B/₁D 機轉與腦幹先兆偏頭痛的三叉神經血管
 - 制定明確患者排除標準：後循環 TIA/中風史、嚴重冠心病、未控制高血壓
 - 確認香港衛生署藥品許可申請策略（目前未上市，需完整審批流程）
 - 考慮以前瞻性觀察性研究或專科登記研究形式，收集此亞型的亞洲患者安全性數據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

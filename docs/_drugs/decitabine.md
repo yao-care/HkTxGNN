@@ -108,10 +108,10 @@ TxGNN 模型預測它可能對**兒童難治性血球減少症（Refractory Cyto
 - 下載並解析原廠仿單 PDF，取得完整警語、禁忌症及特殊族群（兒科）安全性資訊
 - 評估兒科適用劑型、劑量方案及體重/體表面積換算方法
 - 確認香港衛生署對此藥物「未登記用藥」申請的可行性路徑
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

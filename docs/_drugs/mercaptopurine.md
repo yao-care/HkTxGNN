@@ -134,10 +134,10 @@ Mercaptopurine 屬於嘌呤類似物（thiopurine/purine analog）抗代謝藥�
 - 釐清「骨髓性白血病」是否指 AML 全體或特定亞型（如 APL），以精確評估適用族群
 - 檢視 TPMT/NUDT15 基因型監測需求，以降低骨髓抑制風險
 - 排除將 Hodgkin's lymphoma 預測誤用為適應症擴充方向，改列為安全性監測項目
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

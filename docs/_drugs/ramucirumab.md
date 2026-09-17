@@ -109,10 +109,10 @@ Ramucirumab 目前未於香港上市，無許可證資料。
 - 透過 DrugBank API 查詢完整作用機轉資料（DG002，High）
 - 針對排名前 3 的候選適應症進行系統性文獻與試驗登記庫再檢索，確認是否有近期新增證據
 - 若無法取得直接證據，應優先評估與 CRC 有組織學類比性的候選（排名 10）作為機轉驗證起點
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

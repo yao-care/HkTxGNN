@@ -159,10 +159,10 @@ TRIDENT 試驗（NCT02699645，Phase 3 已完成 RCT，n=1,671）直接驗證了
 - 取得並分析 TRIDENT 試驗（NCT02699645）的最終結果全文
 - 釐清 Amlodipine 在 ICH **急性期**（直接降壓）vs.**慢性二級預防期**（三聯療法）的不同角色
 - 評估香港在地患者族群特性（高鹽飲食、腦出血比例偏高）對外推適用性的影響
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

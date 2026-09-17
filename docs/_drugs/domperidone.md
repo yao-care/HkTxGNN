@@ -102,10 +102,10 @@ TxGNN 預測分數雖達 99.08%，但目前完全缺乏任何臨床試驗或文�
 - 從 TFDA 官網下載仿單 PDF，解析警語與禁忌症，補齊阻斷性安全性資料缺口（DG001）
 - 評估台灣市場准入可行性（藥品目前未上市，需釐清引進路徑）
 - 確認 NSIAD 作為孤兒藥適應症的市場規模與法規誘因（如罕見疾病認定資格）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

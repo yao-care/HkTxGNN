@@ -118,10 +118,10 @@ Omeprazole 目前**未於香港取得藥品許可證**（`total_licenses = 0`）
 - 補充 Omeprazole 詳細作用機轉資料（DG002）
 - 尋找或發起針對 DGR 適應症的前瞻性臨床研究，釐清療效與致癌訊號的關聯性
 - 評估香港上市可行性（目前無許可證登記）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

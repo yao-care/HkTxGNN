@@ -103,10 +103,10 @@ Hyperamylasemia 為實驗室指標而非獨立疾病診斷，Ceftazidime 對澱�
 - 取得香港衞生署上市核准或特殊進口許可
 - 針對「抗生素預防 ERCP 術後胰腺炎」且以澱粉酶為主要終點的前瞻性試驗
 - 至少一個機轉層面的細菌感染-澱粉酶連結研究
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

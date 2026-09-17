@@ -128,10 +128,10 @@ Kaposi's sarcoma（L4）的機轉假說是 HHV-8 病毒性 IL-6 (vIL-6) 與人�
 - 取得 TFDA/原廠仿單警語與禁忌症資料——此為 **Blocking** 等級缺口，無法進入 S1 安全性初評（DG001）
 - 評估香港特殊藥品進口/恩慈療法申請管道（目前未上市）
 - 針對 TAFRO 適應症設計前瞻性研究或擴大病例登錄，強化 L2 → L1 證據等級
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

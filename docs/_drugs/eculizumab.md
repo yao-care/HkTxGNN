@@ -113,10 +113,10 @@ TxGNN 模型給出高預測分數，很可能源於知識圖譜中「補體通�
 - 針對排名第 4（先天性中性球減少-骨髓纖維化-腎臟腫大症候群），搜尋補體活化在骨髓纖維化中角色的前臨床文獻，以評估是否有升級至 Research Question 的價值
 - 評估 eculizumab 已知的中性球減少副作用在中性球減少症患者中的實際風險程度
 - 若繼續推進排名第 10（血小板釋放障礙），需設計以 PNH 血小板活化模型為基礎的機轉研究方案
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

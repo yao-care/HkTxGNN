@@ -97,10 +97,10 @@ Spectinomycin 目前未在香港上市，無任何許可證登記（`total_licen
 - 補齊完整作用機轉 (MOA) 資料（DG002，High，來源：DrugBank API）
 - 針對子宮闊韌帶疾病或相關婦科適應症搜尋臨床試驗與文獻，驗證機轉假說是否成立
 - 若持續無法補足證據，建議將本候選降階或排除，轉向評估其他具生物學合理性的預測適應症
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

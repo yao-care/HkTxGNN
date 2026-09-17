@@ -125,10 +125,10 @@ Simvastatin 抑制 HMG-CoA reductase，降低肝臟膽固醇合成並上調 LDL 
 - 補齊 TFDA/香港仿單警語與禁忌症資料（DG001，Blocking），以完成 S1 安全性初評。
 - 補齊作用機轉正式來源資料（DG002，DrugBank API 查詢），取代目前僅存於單一適應症 rationale 的機轉描述。
 - 確認香港上市狀態與許可證規劃，目前 `market_status: 未上市` 意味著若要推進在地應用，需先處理藥證申請流程。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

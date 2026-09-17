@@ -96,10 +96,10 @@ Sennosides 目前**未在香港上市**（market_status: 未上市，許可證�
 - 補齊 TFDA/當地藥監局仿單警語與禁忌症資料（解除 Blocking 缺口）
 - 查詢 DrugBank API 取得完整 MOA 資料
 - 若日後出現體外/體內機轉研究或病例報告，重新評估證據等級
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

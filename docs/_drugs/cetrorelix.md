@@ -92,10 +92,10 @@ TxGNN 預測分數雖高（99.98%），但多毛症為廣義診斷，多數亞�
 - 補充 Cetrorelix 作用機轉正式文獻（DrugBank MOA 欄位）
 - 取得香港藥監局資料或原廠仿單，填補警語與禁忌資料缺口以完成安全性初評
 - 進行前臨床探索性研究，建立 GnRH 拮抗劑對雄激素依賴性多毛症的基礎藥理證據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

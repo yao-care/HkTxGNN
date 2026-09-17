@@ -133,10 +133,10 @@ TxGNN 預測分數達 98.58%，但機轉支持薄弱——MEN 的主要驅動基
 > **女性乳癌適應症守護條件**：必須以 NGS 或 FISH 確認 NTRK1/2/3、ROS1 或 ALK 融合基因陽性，不建議用於未篩選族群。香港未上市為地區核准問題，非療效缺乏，可透過未經註冊藥物途徑申請。
 
 > ⚠️ 以下預測疑為「反向關聯」（不良反應誤判為治療目標），建議作為**安全性監測訊號**而非再利用候選：血小板減少症（#3, #6, #7, #9）、肺動脈高壓（#5）。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

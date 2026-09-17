@@ -118,10 +118,10 @@ Lorazepam 是 GABA-A 受體的正向異位調節劑（positive allosteric modula
 | Audiogenic seizures | 99.63% | L4 | S1 | Research Question | 多為戒斷動物模型文獻，非療效證據 |
 | Trigeminal nerve neoplasm | 99.87% | L5 | S0 | Hold | 無任何臨床/文獻支持，rationale 判斷極可能為知識圖譜混淆之假陽性 |
 | Orgasm-induced seizures | 99.63% | L5 | S0 | Hold | 極罕見反射性癲癇亞型，完全無證據，僅模型預測 |
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

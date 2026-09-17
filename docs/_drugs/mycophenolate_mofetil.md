@@ -103,10 +103,10 @@ DrugBank 的 MOA 欄位目前缺失（[Data Gap]）。但證據包內的機轉�
 - 補齊 DrugBank 完整 MOA 資料
 - 追蹤 MAN2 研究（NCT00120419／NCT00247494）是否有後續結果發表
 - 界定適用人群的免疫抑制風險門檻（如 CD4 計數、伺機性感染排除標準）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

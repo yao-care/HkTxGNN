@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ertapenem
-parent: 僅模型預測 (L5)
+parent: 中證據等級 (L3-L4)
 nav_order: 281
-evidence_level: L5
+evidence_level: L3
 indication_count: 2
 ---
 
 # Ertapenem
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+證據等級: **L3** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -145,10 +145,10 @@ Ertapenem 對細菌性關節炎具有明確的藥理機轉支持及多個觀察�
 - 建立低白蛋白血症（< 2.5 g/dL）及腎功能不全患者的劑量調整與安全性監測計畫
 - 追蹤 **CERT 試驗**（NCT04886284）與 **COMBAT-SAB 試驗**（NCT07376889）進度，後者完成後預期升至 L1 等級
 - 細菌性關節炎適應症建議設計前瞻性登錄研究，補充缺乏的 RCT 層級證據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

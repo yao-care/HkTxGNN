@@ -106,10 +106,10 @@ Clioquinol 用於皮膚念珠菌病屬於歷史適應症的現代恢復，有 L3
 - 系統性文獻回顧，聚焦外用 clioquinol 的安全性與現代臨床應用資料
 - 評估香港藥監法規路徑：是否以現有製劑（仿製或進口）申請許可，抑或需全新配方開發
 - 探索與 ciclopirox、terbinafine 等現行外用抗真菌藥的聯合用藥協同效應（2021 年體外數據提供初步依據）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

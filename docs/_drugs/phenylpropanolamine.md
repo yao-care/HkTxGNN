@@ -92,10 +92,10 @@ PHENYLPROPANOLAMINE 目前未於香港取得藥品許可證（登記數：0 張�
 - 補齊 DrugBank 或官方來源的正式 MOA 與原始適應症資料
 - 針對「鼻腔疾病」補充 phenylpropanolamine（而非 guaifenesin）的直接臨床試驗證據
 - 評估香港上市可行性及藥物交互作用資料
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

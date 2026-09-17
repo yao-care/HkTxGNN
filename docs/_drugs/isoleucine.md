@@ -84,10 +84,10 @@ TxGNN 給出的高分（99.93%）反映的是知識圖譜中的關聯性推論�
 - 補充作用機轉（MOA）資料，釐清與胃輕癱的機轉關聯性（DG002，High）
 - 尋找支持 BCAA／Isoleucine 與胃腸動力相關的臨床前或機轉研究
 - 上述資料補齊前，維持 Hold，不建議進入下一階段評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

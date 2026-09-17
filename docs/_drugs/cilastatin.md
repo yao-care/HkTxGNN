@@ -115,10 +115,10 @@ Cilastatin 目前在香港**無獨立上市許可證記錄**（許可證數：0�
 - **設計前瞻性研究**：針對難治性 MRSA 或 MSSA 嚴重感染（心內膜炎、骨髓炎）設計規範性臨床試驗
 - **香港法規評估**：向衛生署確認以 Imipenem/Cilastatin 複方申請新適應症的可行性及所需資料包
 - **安全性監測計畫**：取得完整仿單，建立包含腎功能、肝功能及神經系統（癲癇風險）的安全性監測框架
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

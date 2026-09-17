@@ -101,10 +101,10 @@ Rivaroxaban（DB06228）是 Factor Xa 抑制劑，臨床上用於抗凝血治療
 | 4 | Brachydactyly-syndactyly syndrome（先天性肢端發育疾病） | 99.10% | L5 | 無任何臨床試驗或文獻，亦無生物學合理性 |
 
 四項預測均建議 **Hold**，本藥物目前不具備進入下一階段評估（S1）的證據基礎。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -142,10 +142,10 @@ Fosaprepitant 目前在香港**未上市**，無任何許可證記錄。
 - 補充香港/台灣上市安全性資訊（原廠仿單 PDF 解析），解除 DG001 阻塞項
 - 針對機轉合理性最高的**隱球菌腦膜炎**候選，搜尋 NK1 拮抗劑在 CNS 炎症的前臨床文獻，評估是否有輔助治療研究空間
 - 確認香港是否有 Aprepitant（口服活性型）上市，以補充藥物可及性評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

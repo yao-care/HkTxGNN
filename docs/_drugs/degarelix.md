@@ -113,10 +113,10 @@ TxGNN 預測的 hypertrichosis 與 Degarelix 的雄激素剝奪機轉，其關�
 - **補充藥物基本資料**：取得 Degarelix 完整的藥物警語、禁忌症及 MOA 文件（目前為資料缺口 DG001、DG002）
 - **確認監管路徑**：香港申請特殊用途藥物的可行性及所需程序
 - **前臨床依據**：若仍欲探索 hypertrichosis，需先尋找 GnRH 拮抗劑用於此適應症的體外或動物實驗依據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

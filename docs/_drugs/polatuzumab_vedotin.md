@@ -93,10 +93,10 @@ CD79b 與 HER2 缺乏受體層級的機轉關聯，且此適應症配對沒有�
 - 透過 DrugBank API 或原廠資料完整確認作用機轉（DG002）
 - 尋找 CD79b 或 MMAE payload 與 HER2 陽性乳癌之間的獨立機轉或前臨床研究佐證
 - 若後續仍無法找到獨立生物學證據，建議直接關閉此候選而非持續投入資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

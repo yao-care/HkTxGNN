@@ -104,10 +104,10 @@ Dorzolamide（DrugBank ID: DB00869）目前**未在香港上市**，無任何有
 - 評估透過衞生署特殊管道在香港取得 Dorzolamide 的可行性
 - 追蹤 NCT01527682 的同行評審發表論文，確認完整療效與安全性數據
 - 考慮優先評估**開角型青光眼**適應症（TxGNN rank 7, L1 等級，具備多個 Phase 3/4 RCT 支持），後者證據基礎更完整，或可作為香港引進此藥的主要申請依據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

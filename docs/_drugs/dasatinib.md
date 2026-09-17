@@ -122,10 +122,10 @@ Dasatinib 抑制 Src／FAK 複合體的機轉與 Ewing 肉瘤生物學高度契�
 - 確認完整作用機轉（DrugBank MOA 資料查詢）
 - 評估 Dasatinib 合併標準化療（如 ICE 方案）的組合療法設計可行性
 - 在香港臨床應用前，完成衞生署未登記藥物特別申請程序
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

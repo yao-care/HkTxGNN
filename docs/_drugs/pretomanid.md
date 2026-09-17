@@ -99,10 +99,10 @@ TxGNN 給出 99.69% 高分，較可能反映知識圖譜中「感染症」節點
 - 取得完整 DrugBank MOA 資料（DG002），強化機轉關聯性分析
 - 針對候選適應症進行體外/動物機轉驗證，排除知識圖譜嵌入偽陽性的可能性
 - 若欲重新篩選候選適應症，建議優先評估機轉上較具理論基礎者（如 Bacteroidaceae 厭氧菌感染，其硝基咪唑類前驅藥活化機制與同類藥物 metronidazole 存在理論重疊），並補充體外藥敏測試資料
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

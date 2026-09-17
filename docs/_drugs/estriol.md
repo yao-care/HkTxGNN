@@ -117,10 +117,10 @@ TxGNN 預測分數達 99.18%，2012 年有直接臨床介入研究（PMID 221374
 - 確認 Phase 3 試驗（E4Comfort I/II）為 Estetrol 而非 Estriol，評估是否需補充 E3 專屬 Phase 2/3 試驗作為監管支持
 - 規劃臺灣專案進口申請，或評估以 Estradiol 等已上市雌激素製劑作為橋接方案
 - 針對 FHA 及 POI/POF 患者族群，建立長期雌激素補充的安全性監測計畫（包含乳房、子宮內膜及心血管風險評估）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

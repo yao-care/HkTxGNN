@@ -111,10 +111,10 @@ indication_count: 10
 - 取得 TFDA/香港仿單警語與禁忌資料，補齊 DG001。
 - 取得 DrugBank MOA 資料，補齊 DG002。
 - 在證據源頭排除污染前，不建議投入後續資源。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

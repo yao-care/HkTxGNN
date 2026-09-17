@@ -104,10 +104,10 @@ Evidence Pack 中所有 5 個預測適應症均為 L5 等級（純模型預測�
 - 取得香港/台灣原廠仿單，確認完整警語與禁忌症（補足 DG001）
 - 搜尋文獻：Carvedilol 於惡性高血壓或腎血管性高血壓的個案報告或回顧性研究
 - 若上述文獻蒐集後仍為空白，建議將研究資源轉向 Rank 3（肺高壓相關適應症），該適應症具有較豐富的一般機轉文獻基礎，且 Group 1 PAH（動脈性肺高壓）中已存在少數 carvedilol 探索性研究
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

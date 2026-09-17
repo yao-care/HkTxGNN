@@ -92,10 +92,10 @@ TxGNN 模型預測它對**胃十二指腸炎 (Gastroduodenitis)** 有極高分�
 - DrugBank 作用機轉（MOA）資料，釐清與胃十二指腸炎的機轉關聯是否成立
 - 補齊原適應症資訊，確認藥物實際臨床用途
 - 若上述資料補齊後機轉仍站不住腳，應直接排除此候選，避免因高分而誤判
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

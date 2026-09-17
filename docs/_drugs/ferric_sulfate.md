@@ -105,10 +105,10 @@ Ferric sulfate 目前**未在香港取得藥物許可證**，無已核准製劑�
 - 針對 Rank 1（支氣管炎）進行深度文獻搜索，確認是否有基礎研究直接支持鐵代謝與支氣管炎的治療關聯
 - 評估知識圖譜是否存在逆向因果偏誤（如 Rank 3、4 之胃腸道適應症）
 - 若有再利用意向，建議轉換評估對象至系統性吸收鐵劑（如 ferric carboxymaltose），而非局部止血用途之 ferric sulfate
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

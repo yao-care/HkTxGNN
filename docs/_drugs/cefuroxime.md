@@ -102,10 +102,10 @@ Cefuroxime 對 UTI 主要致病菌具直接殺菌機轉，尿液藥物濃度高�
 - 補充作用機轉（MOA）詳細資料以強化科學說明文件（DG002 修復）
 - 調查香港本地 UTI 致病菌耐藥性資料，確認 cefuroxime 對本地菌株的實際敏感性
 - 確定上市劑型策略：口服 cefuroxime axetil 錠劑（社區 UTI）vs 靜注劑型（住院重症），依市場需求決定優先順序
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -130,10 +130,10 @@ Sodium Citrate 目前**未在香港上市**（0 張許可證），且原始核�
 - 釐清藥物原始核准適應症，以評估與候選適應症之機轉關聯性
 - 若欲推進胃部疾病候選，需設計動物體內或早期臨床試驗，驗證體外醣解抑制效果並評估胃腸黏膜安全性
 - 對其餘 4 個 L5 候選（乳頭狀結膜炎、鼻腔疾病、急性咽喉炎、胃切除後症候群），建議暫緩投入資源，待模型或知識圖譜校正後再評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

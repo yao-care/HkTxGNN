@@ -114,10 +114,10 @@ Flunitrazepam 雖然對失眠的機轉相關性直接，但 TxGNN 實際上是�
 - 補充 TFDA/香港衞生署仿單取得正式安全性警語與禁忌資料（DG001 修復）
 - 補充詳細 MOA 資料（DrugBank API 查詢，DG002 修復）
 - 評估同機轉、安全性更佳的替代候選藥物（如 temazepam、lormetazepam）是否可作為替代方案
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

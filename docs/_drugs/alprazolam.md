@@ -115,10 +115,10 @@ Alprazolam 雖具明確的鎮靜催眠機轉，且臨床上確有輔助改善失
 - 尋找以「失眠」為主要終點、Alprazolam 為單一研究藥物的高品質 RCT
 - 評估相較於現行失眠一線治療（CBT-I、Z-drugs、melatonin receptor agonist）的比較效益與安全性
 - 若考慮在香港上市，需向衛生署（Department of Health）申請藥物登記並評估監管可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -111,10 +111,10 @@ Sodium Sulfate（DB09472）常見於腸道製劑（如大腸鏡前腸道準備�
 - 取得官方仿單警語與禁忌症資料，解除安全性評估的阻斷缺口
 - 重新檢視文獻檢索策略，排除因 "Dextran Sodium Sulfate" 名稱混淆造成的偽陽性配對
 - 若後續要繼續此候選方向，需尋找真正以 Sodium Sulfate（非 DSS）為介入藥物、且以 dyspepsia 為終點的人體研究
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

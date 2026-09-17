@@ -109,10 +109,10 @@ Guaiacol 目前在香港**未以單一成分藥品形式上市**，無任何藥�
 - 評估 Guaifenesin 相關臨床研究（如 NCT01364467）對 Guaiacol 的外推可行性及其限制
 - 確認 Guaiacol 在目標劑型（如吸入、含漱液）的人體安全劑量範圍
 - 取得原廠仿單或相關國家藥品監管機構的警語與禁忌資料
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

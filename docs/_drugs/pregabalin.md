@@ -126,10 +126,10 @@ TxGNN 模型針對此藥物共產生 5 個高分預測適應症，但證據品�
 - 若欲推進偏頭痛適應症，建議尋找是否有替代或後續的 Phase 3 RCT（NCT00447369 之後續或同類設計試驗）
 - 針對「肌腱炎」候選，建議人工複核 TxGNN 訓練資料中是否存在「疼痛」語意混淆造成的偽陽性關聯
 - 建立完整藥物交互作用（DDI）資料庫查詢結果，目前為 not_found 狀態
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -119,10 +119,10 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 ---
 
 *⚠️ 本報告僅供研究參考，不構成醫療建議。所有老藥新用候選均需經過嚴格臨床驗證後方可應用。*
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

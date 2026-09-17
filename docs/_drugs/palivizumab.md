@@ -99,10 +99,10 @@ Palivizumab 目前未在香港取得任何藥品許可證，市場狀態為「�
 - 透過 DrugBank API 補齊作用機轉資料（解除 DG002）
 - 人工複核此群集預測是否為 TxGNN embedding 相似性假訊號，必要時排除或降低優先序
 - 若持續推進，需另外尋找頭頸部腫瘤／神經母細胞瘤與 RSV 相關通路的獨立實證支持
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

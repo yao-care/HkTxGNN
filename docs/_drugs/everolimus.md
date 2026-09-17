@@ -109,10 +109,10 @@ SAR-096 Phase II 臨床試驗直接評估 Everolimus 聯合 CDK4/6 抑制劑用�
 - 確認 SAR-096 試驗最終療效終點（ORR、PFS）及安全性數據
 - 評估在香港未核准情況下的臨床試驗申請或同情用藥途徑
 - 建立包含骨髓功能、間質性肺炎及代謝指標（血糖、血脂）的患者監測計畫
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

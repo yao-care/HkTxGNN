@@ -106,10 +106,10 @@ TxGNN 模型預測它可能對**腦幹型先兆偏頭痛 (Migraine with Brainste
 - 以 PFO 合併腦幹型先兆偏頭痛為主要納入標準，設計前瞻性試驗（可參考 NCT02938182 設計架構）
 - 優先評估 **Rank 2「migraine disorder」**（L2 等級，CANOA Phase 4 RCT 已完成），其證據基礎更充分（8 個臨床試驗、20 篇文獻、建議 Proceed with Guardrails），作為推進路徑的首選入口
 - 確認 Clopidogrel 在香港的上市登記狀態及監管要求，釐清目前「未上市」是否為資料缺漏
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

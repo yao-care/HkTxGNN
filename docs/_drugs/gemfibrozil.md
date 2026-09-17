@@ -159,10 +159,10 @@ PPARα 活化的效果不僅止於代謝調節——理論上可透過抑制 NF-
 | [8736620](https://pubmed.ncbi.nlm.nih.gov/8736620/) | 1996 | 回顧 | Drugs | Gemfibrozil 藥理特性與血脂異常管理地位的系統性回顧 |
 
 > ⚠️ **Guardrail**：需排除遺傳性低 HDL 症（Tangier disease、LCAT deficiency 等）造成的繼發性病因；在此類罕見遺傳疾病中，單純提升 HDL 數值不等同改善心血管預後。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

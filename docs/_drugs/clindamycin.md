@@ -103,10 +103,10 @@ TxGNN 給出 99.97% 的高預測分數，評估認為這最可能反映知識圖
 - 取得香港衛生署仿單警語與禁忌資訊
 - 評估眼用局部製劑（如滴眼液）在香港的開發可行性
 - 針對繼發性細菌感染角膜炎設計臨床研究假說，聚焦 MSSA/MRSA 亞群
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

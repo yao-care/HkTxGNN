@@ -169,10 +169,10 @@ SDD 方案中的口服 Colistin 已有 Phase 3 大型 RCT（NCT02389036，20,010
 - 制定腎功能監測計畫（建議每 2–3 天監測血清肌酐 SCr 及尿量）
 - 「感染後症候群」需更精確的患者族群定義，建議聚焦 **ICU-SDD 預防情境**
 - 鼻竇炎適應症建議設計 **CF 患者前瞻性觀察研究**，明訂霧化給藥的療效與安全終點
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

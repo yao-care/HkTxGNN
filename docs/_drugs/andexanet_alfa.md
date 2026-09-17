@@ -100,10 +100,10 @@ Evidence Pack 的機轉分析指出：TxGNN 的高預測分數（99.77%）很可
 - 搜尋 andexanet alfa 對血小板聚集功能是否存在任何旁觀效應（off-target effect）的基礎研究
 - 重新檢視 TxGNN 知識圖譜的連結路徑，確認高分是否確實僅來自「出血性疾病」間接節點
 - 台灣本地使用需先完成監管審查程序（進口藥品許可申請）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

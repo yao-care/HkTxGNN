@@ -126,10 +126,10 @@ Methylene Blue 目前未在當地上市，無原適應症許可證資料，作�
 - 補充 Methylene Blue 作用機轉（MOA）完整資料
 - 確認本藥在當地的上市/引進路徑（目前為未上市狀態）
 - 針對還原酶缺乏亞型，尋找人體系統性研究以提升證據等級
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

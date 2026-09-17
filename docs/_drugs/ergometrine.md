@@ -123,10 +123,10 @@ Ergometrine 有直接臨床証據支持月經性偏頭痛的間歇性預防療�
 - 規劃香港衛生署特別進口申請路徑或新藥臨床試驗申請（IND）
 - 優先定位**月經性偏頭痛**亞型（直接臨床佐証最充分，且用藥為短程間歇性，降低長期纖維化風險）
 - 制訂監測計畫：心電圖（QT 間期）、血壓、肢端血液循環，長期使用需定期影像排除胸膜/後腹膜纖維化
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -105,10 +105,10 @@ Lenvatinib 屬抗腫瘤藥物（多標靶酪胺酸激酶抑制劑），列出以
 - 補齊完整作用機轉（MOA）資料（DG002，High，查詢 DrugBank API）
 - 針對脂肪肉瘤族群之隨機對照試驗以驗證 LEADER 研究結果
 - 確認 Lenvatinib 於香港之上市與許可證狀態
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

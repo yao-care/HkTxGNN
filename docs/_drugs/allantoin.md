@@ -110,10 +110,10 @@ Allantoin（尿囊素）是廣泛應用於外用皮膚護理的成分，以促�
 - 針對**皮疹**適應症，評估設計 allantoin 單一成分外用製劑前臨床或 Phase 1/2 試驗的可行性
 - 釐清台灣藥品法規路徑：Allantoin 以化妝品成分 vs. 藥品申請的策略差異及可行性
 - 補充台灣或鄰近市場（香港、日本）OTC 市場 allantoin 外用劑型上市現況，評估參考劑型與市場競爭格局
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

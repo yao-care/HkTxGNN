@@ -97,10 +97,10 @@ Interferon 的免疫調節機轉**無法修復解剖構造缺損或染色體異�
 - 補齊 DrugBank MOA 與原始核准適應症資料，釐清藥物真實作用範疇
 - 取得 TFDA／香港藥監機構仿單警語與禁忌症（目前為 Blocking 等級資料缺口，無法進入 S1 安全性初評）
 - 重新檢視 TxGNN 排名機制或篩選規則，排除與已知病理機轉明顯矛盾的預測結果，避免類似雜訊持續進入下游流程
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

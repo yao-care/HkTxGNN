@@ -99,10 +99,10 @@ Halometasone 目前在香港**未有登記許可證**，無上市產品資料。
 - 搜尋強效類固醇（同類別）用於蕈狀肉芽腫的系統性回顧或 meta-analysis，確認 class-level 證據強度
 - 確認是否有 halometasone 個別藥物的皮膚腫瘤前臨床研究（in vitro / in vivo）
 - 評估香港衞生署針對已有同類藥物適應症核准的法規接受度，確認申請路徑
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -80,10 +80,10 @@ TxGNN 分數雖高，但僅反映知識圖譜拓撲相似性，缺乏機轉解�
 - 補齊仿單警語與禁忌症資料（Blocking data gap，S1 安全性初評的前提）
 - 補充作用機轉（MOA）資料，釐清賦形劑是否可能具有非預期的藥理活性
 - 至少一筆機轉合理性論證或臨床前/病例報告等實證資料，才能將此候選推進至下一評估階段
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

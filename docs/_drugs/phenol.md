@@ -90,10 +90,10 @@ PHENOL 目前未在香港取得任何藥品許可證，無上市紀錄可供列�
 - 蒐集針對 acne keloid（瘢痕疙瘩型痤瘡）更具針對性的臨床證據，而非泛用痤瘡疤痕文獻
 - 評估香港上市/輸入許可之可行性
 - 其餘 4 個高分預測適應症（無任何實證支持）建議暫不列入後續評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

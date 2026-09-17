@@ -117,10 +117,10 @@ Ibritumomab Tiuxetan 屬於抗腫瘤藥物（放射免疫治療用於血液系�
 - 取得 TFDA/香港仿單警語與禁忌症資料，解除 Blocking 等級資料缺口
 - 確認 ALL 目標族群（如成熟 B-ALL/Burkitt 型白血病亞型）的 CD20 表現率與強度
 - 建議優先評估同批預測中機轉一致性更高的候選適應症（如 Burkitt 淋巴瘤、MALT 淋巴瘤等，標記為 Research Question），而非直接推進本項急性淋巴性白血病適應症
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

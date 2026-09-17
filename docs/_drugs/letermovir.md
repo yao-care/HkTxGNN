@@ -87,10 +87,10 @@ Letermovir 是專一性 CMV terminase 複合體抑制劑（作用於 pUL56/pUL89
 - 補齊 Letermovir 完整作用機轉資料（DG002）
 - 尋找是否有抗真菌活性或黏膜免疫相關的機轉研究，重新評估生物合理性
 - 若持續缺乏機轉與證據支持，建議停止此候選的後續投入
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

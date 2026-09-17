@@ -126,10 +126,10 @@ Olanzapine（DB00334）尚未於香港上市，無許可證資料。
 - 補齊詳細作用機轉資料（DG002，來源：DrugBank API）
 - 若聚焦懼曠症方向，建議針對懼曠症（而非恐慌障礙）族群設計前瞻性研究，釐清是否可外推現有恐慌障礙證據
 - 嬰兒良性陣發性斜頸此預測建議標記為低優先/疑似偽陽性，暫不投入後續資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

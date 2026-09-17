@@ -101,10 +101,10 @@ Tadalafil 的原始核准適應症在本次 Evidence Pack 中缺失（`original_
 - 補齊正式的 MOA 與原始核准適應症資料（DG002，High）
 - 若要繼續追蹤牙周病候選，需針對「tadalafil／PDE5 抑制劑 + 牙周病」進行藥物特異性文獻檢索，目前尚無此類研究
 - 在無新證據前，不建議投入後續資源於本候選組的任一適應症
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

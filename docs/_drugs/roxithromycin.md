@@ -100,10 +100,10 @@ TxGNN 模型預測它可能對**痲瘋病 (Leprosy)** 有效，
 - 補充 roxithromycin 明確作用機轉資料（DG002）
 - roxithromycin 專一性（非 class-effect）之抗 *M. leprae* 人體或至少體外/動物比較數據
 - 評估其相對於現行 dapsone/rifampicin/clofazimine 三聯療法的臨床定位與加成價值
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

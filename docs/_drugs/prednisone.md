@@ -126,10 +126,10 @@ Prednisone 目前**未於香港上市**，Evidence Pack 中無任何許可證登
 - Telogen effluvium（L5，Hold）：機轉方向存疑，全身性類固醇本身即為已知可誘發/加重此病之因子
 - Quinquaud's folliculitis decalvans（L5，Hold）：與主流感染性致病機轉衝突，免疫抑制劑可能有害
 - Alopecia antibody deficiency（L5，Hold）：僅個案報告佐證，機轉連結屬間接推論
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

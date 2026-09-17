@@ -117,10 +117,10 @@ Atomoxetine 對 ADHD 及相關神經發展障礙族群的臨床實證達 L1 等�
 - 研究香港藥劑業及毒藥管理局（Pharmacy and Poisons Board）之本地上市申請流程
 - 確認是否有現行香港進口管制或平行進口路徑可供使用
 - 規劃上市後監測計畫，尤其針對兒童青少年自殺意念之主動監測機制
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

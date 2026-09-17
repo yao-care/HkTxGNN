@@ -121,10 +121,10 @@ Midecamycin 目前**未在香港上市**，查無任何許可證登記資料。
 - 補齊作用機轉（MOA）詳細資料，供機轉關聯性分析使用
 - 若要延續研究方向，優先鎖定機轉上較合理的 Leprosy（排名 2）與 Polyp of frontal sinus（排名 10，屬巨環內酯類已知的免疫調節/抗發炎類別效應），而非目前分數最高但機轉不成立的 Candidiasis
 - 針對 Leprosy 方向，檢索同類藥物（clarithromycin）在痲瘋病治療的實證資料，評估類別效應延伸至 Midecamycin 的合理性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

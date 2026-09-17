@@ -106,10 +106,10 @@ TxGNN 模型預測它可能對**傍腦膜胚胎型橫紋肌肉瘤 (parameningeal
 - 補充 Cladribine 完整安全性資料（原廠仿單警語、禁忌症、藥物交互作用）
 - 評估香港藥物可及性：目前未上市，需透過臨床試驗申請或特殊進口途徑取得
 - 補充藥物作用機轉（MOA）詳細資料，以強化機轉關聯性分析
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

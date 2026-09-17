@@ -108,10 +108,10 @@ Bimatoprost 屬於前列腺素類似物（prostamide F2α analog），其核心�
 - 香港衛生署批准的仿單安全性資料（主要警語、禁忌症）
 - 動物模型驗證 Bimatoprost 對牙周骨質破壞的影響
 - 若優先資源有限，建議轉向評估**脫髮（Rank 8）**——已有充分臨床證據支持，進入門檻顯著較低
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

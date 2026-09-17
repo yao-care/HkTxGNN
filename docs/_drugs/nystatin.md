@@ -95,10 +95,10 @@ Vulvovaginitis（念珠菌性）屬 nystatin 的傳統已知適應症，機轉�
 - 補齊 DrugBank 完整作用機轉資料（High，DG002）
 - 若擬在香港上市，需準備完整藥品註冊申請（目前 0 張許可證）
 - 規劃前瞻性 RCT 驗證陰道用 nystatin 對外陰陰道念珠菌病的療效與安全性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

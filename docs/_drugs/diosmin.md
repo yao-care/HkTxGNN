@@ -104,10 +104,10 @@ Diosmin 目前**未在香港上市**，無任何核准許可證記錄。
 - 搜尋 Diosmin 與生殖系統相關的任何前臨床研究（細胞實驗、動物模型），以升級證據等級至 L4
 - 評估是否有類似黃酮類化合物（如 Quercetin、Kaempferol）在閉經領域的前臨床或臨床證據，作為類推參考
 - 確認 Diosmin 在香港的法規路徑（是否需要新藥申請或可依學名藥途徑申請）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

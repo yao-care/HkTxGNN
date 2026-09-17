@@ -118,10 +118,10 @@ TxGNN 所有 5 個預測均屬黑色素瘤節點集群效應，最具機轉支�
 - 確認是否存在針對固態腫瘤（包括黑色素瘤）的 Phase 1/2 臨床試驗（當前查詢結果為零）
 - 評估 Carfilzomib 在固態腫瘤中的 PK 可行性（腫瘤滲透率、蛋白結合率、給藥途徑）
 - 若考慮兒科軟腦膜黑色素瘤（Rank 2），需先釐清 CNS 穿透性和兒科族群安全性資料
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

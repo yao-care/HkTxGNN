@@ -116,10 +116,10 @@ Budesonide 抑制 Th2/IL-4/IL-13 炎症通路的機轉與異位性濕疹病理�
 - 設計並執行直接針對異位性皮膚炎局部 Budesonide 新型配方（如 pH 敏感奈米顆粒水凝膠）的 Phase 2 人體臨床試驗
 - 補充仿單警語、禁忌症及藥物交互作用資料，完成 S1 安全性初評
 - 評估香港衛生署藥物登記路徑，或考量以局部製劑申請新適應症擴展
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

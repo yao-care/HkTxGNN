@@ -103,10 +103,10 @@ GSH 路徑與 PSC 病理機制存在生物學合理性（氧化壓力耗竭、GS
 - 評估可行給藥途徑（口服 GSH 生體可用率低，需評估靜脈注射、S-乙醯基穀胱甘肽或脂質體劑型）
 - 蒐集 PSC 患者肝臟及血清 GSH/GSSG 濃度基線數據，確認補充缺口的臨床意義
 - 同步評估 MDS（Rank 2，L3 證據，有 Phase 2 試驗）及痤瘡（Rank 10，L3 證據，有 Tier 1 系統性回顧）作為優先推進替代適應症
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

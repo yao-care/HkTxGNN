@@ -110,10 +110,10 @@ Dexlansoprazole 作為 PPI 類藥物，其持續酸抑制機轉與消化性潰�
 - 評估向香港衞生署申請上市許可的可行性（目前 0 張本地許可證）
 - 確認 DDR 劑型在亞洲族群（尤其 CYP2C19 基因型分布差異）的藥動學數據
 - 制定特定高風險族群（NSAID 使用者、H. pylori 感染者）的安全監測計畫
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

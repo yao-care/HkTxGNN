@@ -103,10 +103,10 @@ Deferasirox 目前在香港**未取得上市許可**，無相關許可證記錄�
 - 評估鐵螯合療法與現行 ART（抗逆轉錄病毒療法）的藥物交互作用風險
 - 查詢 EMA／FDA 原廠仿單，取得完整警語、禁忌症及特殊族群安全性資訊
 - 若計畫於香港進行臨床研究，需先完成香港衞生署藥品上市許可或臨床試驗豁免申請
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

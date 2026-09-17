@@ -122,10 +122,10 @@ DrugBank 的正式 MOA 欄位標記為資料缺口（DG002），但依已發表�
 - 追蹤 NCT06953739 招募進度與期中數據
 - 評估香港藥品許可證申請可行性（目前 0 張許可證，未上市）
 - 排序 2-5 之次要預測適應症證據不足，暫列 Hold / Research Question，待更多資料出現後再評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

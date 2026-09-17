@@ -107,10 +107,10 @@ indication_count: 5
 - 補齊 DrugBank 作用機轉資料（DG002，High，影響機轉關聯性分析）
 - 確認 NCT01900041 中 minoxidil 是否確實為比較臂之一，以提升該試驗證據等級
 - 各候選之給藥途徑相容性（route_compatibility）與原適應症相似度（similarity_to_original）目前均為 pending，需補齊後才能完成完整評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -119,10 +119,10 @@ TxGNN 模型在結膜炎相關疾病群組中給出多個高分預測，其中�
 - 針對 Prednisolone Acetate（而非同類藥物 Loteprednol Etabonate）檢索專一性臨床試驗或文獻，強化證據強度
 - 評估香港藥證申請路徑或現行進口用藥管道
 - 其餘 4 個結膜炎相關預測適應症證據薄弱或機轉存疑，建議暫不列入後續追蹤，除非取得新的臨床或文獻證據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

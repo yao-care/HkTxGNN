@@ -93,10 +93,10 @@ Etofenamate 的 COX 抑制機轉與上述藥物屬同一藥理類別，TxGNN 知
 - 執行針對 etofenamate 在肌肉骨骼/關節炎相關研究的文獻回顧（PubMed、EMBASE 關鍵字擴展搜尋）
 - 評估 NSAID class-level 證據（AS/SpA 一線用藥 RCT）是否可外推至 etofenamate，並比較藥動學差異
 - 若計畫申請香港上市，需先釐清藥監局的許可路徑（如透過原產地許可外推或在地臨床資料要求）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

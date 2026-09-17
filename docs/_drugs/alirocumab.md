@@ -135,10 +135,10 @@ Alirocumab 在膽固醇代謝障礙領域具備極強的機轉合理性——其
 - **補充作用機轉資料（DG002）**：查詢 DrugBank API（DB09302）取得完整 pharmacology 及 targets 資訊
 - **類效應確認**：評估 EPIC-HIV 試驗（NCT03207945，Evolocumab）數據對 Alirocumab 的同類效應外推適用性，必要時尋找 Alirocumab 直接試驗數據
 - **延伸研究問題**：評估黃色瘤病（xanthomatosis，Rank 3，L4）作為下一階段研究方向的可行性，現有 2 篇案例報告（PMID: 31538826、32713907）提供間接支持，建議設計前瞻性病例系列研究
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

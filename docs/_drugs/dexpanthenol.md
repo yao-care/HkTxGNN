@@ -92,10 +92,10 @@ Dexpanthenol（泛醇）為泛酸（維生素 B5）前驅物，全球廣泛用�
 - 針對「直腸術後黏膜保護」而非「治療既有狹窄」重新定義切入點，並進行 PubMed 補充文獻搜尋
 - 評估是否以「預防性應用（術後早期纖維化抑制）」作為概念驗證研究的替代框架
 - **優先建議**：本次預測包含多個適應症候選，其中 **Rank 6「Exanthem（皮疹）」** 已具備 L2 等級臨床證據（1 個 Phase 3 RCT，n=160），且機轉吻合度高，建議優先評估此方向而非肛門直腸狹窄
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

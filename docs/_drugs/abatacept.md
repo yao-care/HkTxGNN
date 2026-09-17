@@ -109,10 +109,10 @@ Abatacept 為 CTLA4-Ig 融合蛋白，透過競爭性阻斷 CD80/CD86–CD28 T �
 - 設計系統性病例系列或前瞻性觀察性研究，明確界定 Abatacept 療效應答的 RV 患者亞型
 - 釐清 Abatacept 與 Rituximab 於 RV 的選藥分層策略（特別是共存免疫缺陷或 Rituximab 禁忌患者）
 - 若有充足的病例累積，可考慮申請在香港開展針對 RV 的研究者發起試驗（IIT），並同步推進 Abatacept 的本地上市許可申請
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

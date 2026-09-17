@@ -123,10 +123,10 @@ Atorvastatin 用於家族性高膽固醇血症有多項大型 Phase 3 RCT 支持
 - 取得完整香港仿單，建立正式安全性資料（警語、禁忌症、藥物交互作用，特別是與 CYP3A4 抑制劑的交互作用）
 - 評估與香港本地臨床指引的一致性（如 Hospital Authority 血脂管理建議）
 - 針對特殊族群（FH 兒童、育齡婦女、慢性腎病患者）制定個人化安全性監測計畫
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

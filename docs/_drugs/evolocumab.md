@@ -123,10 +123,10 @@ TxGNN 模型雖對前 10 個預測適應症給出 98.80%–99.82% 的高分，�
 - 補充 Evolocumab 完整 MOA 資料及全球已核准適應症（查詢 DrugBank API 或 FDA/EMA 藥品標籤）
 - 評估 Evolocumab 在香港申請藥品許可證的可行性（目前許可證為零需確認原因）
 - 若仍要探索老藥新用方向，建議**重新聚焦在脂質代謝相關疾病**，例如非酒精性脂肪性肝病（NAFLD/NASH）、糖尿病合併高脂血症、或心衰竭合併高脂血症等，這些領域與 PCSK9 抑制機轉有直接關聯且已有新興臨床數據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

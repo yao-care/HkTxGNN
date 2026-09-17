@@ -90,10 +90,10 @@ Pinazepam 目前於香港**未上市**，無許可證登記資料。
 - 取得 pinazepam 專屬的作用機轉（MOA）資料
 - 尋找真正評估 pinazepam 用於失眠症或酒精戒斷相關適應症的臨床試驗或文獻（目前各資料庫查詢均為 0 筆）
 - 確認藥物在其他地區的上市與核准適應症狀態，作為原適應症的參照基準
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -128,10 +128,10 @@ Docetaxel 用於女性乳癌擁有多個大型 Phase 3 RCT（包含 n=2,411、n=
 - 依乳癌亞型（TNBC / HER2+ / HR+ 高風險）制定精準適應症策略，避免適用範圍過寬
 - 建立骨髓抑制管理計畫，評估 G-CSF（filgrastim / pegfilgrastim）預防性使用方案
 - 制定周邊神經毒性、體液滯留及超敏反應的監測流程與分級處置規範
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

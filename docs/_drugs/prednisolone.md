@@ -115,10 +115,10 @@ TxGNN 模型預測它可能對**圓禿 (Alopecia Areata)** 有效，
 - 取得 DrugBank 詳細作用機轉資料以強化機轉關聯性分析（DG002）
 - 若考慮於香港推動此適應症，需確認當地藥物許可證與核准適應症範圍（目前查無登記資料）
 - 建議規劃小規模前瞻性研究或至少回顧性世代研究，以強化 L3 → L2 的證據等級
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

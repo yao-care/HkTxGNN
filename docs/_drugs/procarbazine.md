@@ -110,10 +110,10 @@ Procarbazine 屬於文獻中反覆記載用於淋巴瘤複合化療方案（MOPP
 - 取得 TFDA/香港仿單警語與禁忌症資料（解除 DG001 阻斷性缺口）
 - 補充作用機轉 (MOA) 資料以強化機轉關聯性分析（DG002）
 - 評估香港以外地區（如原廠核准地）上市與供應可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

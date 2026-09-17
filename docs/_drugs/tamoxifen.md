@@ -124,10 +124,10 @@ Tamoxifen 目前**未於香港上市**（許可證登記數：0 張）。無可�
 - 補齊 DrugBank 作用機轉資料（DG002，High），釐清機轉關聯性
 - 針對乳房 Paget 氏病設計前瞻性臨床研究，驗證療效假說
 - 確認香港上市規劃與許可證申請路徑（目前 0 張許可證）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

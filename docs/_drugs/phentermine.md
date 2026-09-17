@@ -102,10 +102,10 @@ Phentermine 目前**未在香港上市**，無許可證登記（0 張）。
 - 取得 TFDA／HK 官方仿單警語與禁忌症，解除 Blocking 缺口
 - 針對候選適應症進行獨立文獻檢索，確認是否有本次查詢遺漏的機轉或病例證據
 - 在無新增證據前，不建議投入後續資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

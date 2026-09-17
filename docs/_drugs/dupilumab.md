@@ -103,10 +103,10 @@ Dupilumab 為 IL-4 受體 α（IL-4Rα）單株抗體拮抗劑，能同時阻斷
 - 補充 Dupilumab 完整作用機轉資料（目前為高嚴重性數據缺口，影響機轉關聯性分析）
 - 確認香港監管路徑（目前需透過特殊用藥申請或臨床試驗豁免申請才可使用）
 - 取得並解析原廠仿單完整警語與禁忌症資料以完成安全性初評
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

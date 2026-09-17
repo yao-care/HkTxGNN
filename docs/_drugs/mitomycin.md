@@ -121,10 +121,10 @@ Mitomycin C 為已知的傳統細胞毒性抗腫瘤抗生素（非標靶、非�
 - 確認 Mitomycin 的正式 MOA 與已核准原始適應症（DG002）
 - 針對 5 個候選罕見胰臟腫瘤亞型分別檢索是否有更新、更相關的文獻或病例系列
 - 評估這些適應症本身的臨床稀有度（如骨巨細胞瘤屬極罕見亞型），確認是否有足夠病人族群支持後續研究
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

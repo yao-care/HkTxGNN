@@ -87,10 +87,10 @@ Ketoprofen 目前未在香港上市，無許可證登記。
 - 補齊 Ketoprofen 原始適應症與 MOA 資料（DrugBank API）
 - 取得 TFDA／香港仿單的警語與禁忌症資料，解除 DG001 阻塞
 - 若後續要重新評估，建議優先確認 TxGNN 對此類罕見疾病節點的預測是否存在系統性雜訊，而非逐一深入單一候選
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

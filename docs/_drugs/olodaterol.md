@@ -92,10 +92,10 @@ Olodaterol 目前未在香港取得藥品許可證（未上市），無許可證
 - 取得 DrugBank 詳細 MOA 與藥物分類資料（解除 DG002）
 - 確認香港是否有引進計畫或既有許可證資訊
 - 針對「支氣管炎」單一適應症檢索是否有更直接的 RCT 或對照研究證據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

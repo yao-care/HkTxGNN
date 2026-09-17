@@ -123,10 +123,10 @@ Etonogestrel 在香港**尚未取得藥物登記**，許可證數為 0。
 - 評估以閉經為目標效果（如子宮內膜異位症合併閉經）的潛在適應症場景，可能比「治療閉經」更具研究可行性
 - 就香港藥物登記可行性向衞生署進行預諮詢
 - 若考慮乳腺相關適應症（排名 2、5），建議優先以「乳腺良性發育不良」（排名 5）作為廣義切入，再逐步收窄至特定病理亞型
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

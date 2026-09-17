@@ -83,10 +83,10 @@ TxGNN 模型預測它可能對 **Hyperamylasemia（高澱粉酶血症）** 有�
 - 查詢 DrugBank API 取得完整作用機轉資料（DG002，High）
 - 針對 Hyperamylasemia 補做文獻／臨床試驗檢索，確認是否有近期未收錄的證據
 - 若證據持續缺口，建議改評估同批候選中證據相對較多者（如 rank 3 congenital analbuminemia，雖僅 1 篇 case report，仍優於 rank 1/2 的零證據狀態）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

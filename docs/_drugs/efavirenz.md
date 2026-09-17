@@ -117,10 +117,10 @@ Efavirenz 目前**未在香港上市**，無任何藥品許可證記錄。
 - FIV 貓隻體內模型的療效與安全性研究
 - 獸醫藥品開發可行性評估（法規路徑、市場規模、競爭格局）
 - 補充安全性資料：原廠仿單警語、禁忌症及主要藥物交互作用
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

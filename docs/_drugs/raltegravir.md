@@ -108,10 +108,10 @@ Raltegravir 目前在香港**未上市**，無任何許可證登記（`total_lic
 - 補齊 DrugBank 作用機轉（MOA）資料
 - 取得仿單警語/禁忌資料（原資料缺口標記來源為 TFDA 官網，須確認是否應改查香港衛生署或原廠仿單）
 - 若日後 TxGNN 產出真正屬於人類疾病的新預測適應症，應重新執行完整證據收集流程
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

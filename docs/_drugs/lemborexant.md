@@ -94,10 +94,10 @@ Evidence Pack 中的 `drug.original_moa` 欄位為空，但文獻證據本身已
 - 取得香港/原廠仿單警語與禁忌症資料（DG001）
 - 補充 DrugBank 作用機轉資料以完善機轉關聯性分析（DG002）
 - 評估香港藥品上市途徑（新藥申請或平行進口）並確認當地法規要求
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

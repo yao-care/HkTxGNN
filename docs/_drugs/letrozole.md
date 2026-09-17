@@ -129,10 +129,10 @@ Letrozole（DrugBank ID: DB01006）目前香港未上市、無許可證登記，
 - 取得 letrozole 完整仿單（警語、禁忌症、DDI）以解除 DG001 阻斷項
 - 補齊 DrugBank MOA 與藥物分類資料（DG002），釐清此預測是否代表真正新適應症或僅為既有用途確認
 - 確認香港藥物註冊狀態與潛在上市路徑
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

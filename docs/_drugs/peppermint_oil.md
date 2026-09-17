@@ -95,10 +95,10 @@ Peppermint oil 目前在香港未取得任何藥品許可證（總許可證數�
 - 補齊 Peppermint oil 的作用機轉（MOA）資料（DrugBank API 查詢）
 - 取得原廠仿單警語與禁忌症資料（TFDA/香港官網 PDF 解析），完成 S1 安全性初評
 - 針對確診心血管疾病族群（而非健康人／代謝指標）設計驗證性臨床試驗，確認療效訊號是否成立
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

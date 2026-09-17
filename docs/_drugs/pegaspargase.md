@@ -115,10 +115,10 @@ TxGNN 模型將其最高分預測指向**Precursor Lymphoblastic Leukemia/Lympho
 - 補充 DrugBank 之作用機轉（MOA）與藥物分類資料，以強化機轉關聯性分析
 - 確認台灣/香港是否有引進此藥的上市計畫或恩慈使用管道
 - 若要評估 rank 2-4（CLL/SLL、濾泡性淋巴瘤）等真正新穎適應症，需先進行文獻與試驗檢索以驗證機轉合理性，目前僅有模型端預測，證據等級為 L5
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

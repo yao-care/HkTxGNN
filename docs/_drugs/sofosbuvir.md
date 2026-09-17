@@ -120,10 +120,10 @@ TxGNN 模型預測它可能對**B型肝炎病毒感染 (Hepatitis B Virus Infect
 - 取得正式 DrugBank MOA 確認資料（DG002，High）。
 - 針對 NCT03312023（唯一 HBV 單純感染試驗，N=21）進行結果人工核實，確認是否有陽性訊號可支持後續假說。
 - 若欲深入評估，建議同時關注 TxGNN 預測清單中 rank 2「E型肝炎病毒感染」——該項具體外抑制實驗與個案系列支持（L3 / Research Question），機轉合理性（同屬 RdRp 結構相似之 RNA 病毒）較 HBV 更具說服力。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

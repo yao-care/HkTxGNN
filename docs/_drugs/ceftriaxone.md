@@ -96,10 +96,10 @@ Ceftriaxone 的核心作用機轉是**抑制細菌細胞壁合成**：透過不�
 - 建立明確的分子層面作用假說（目前完全缺乏）
 - 補充香港地區藥品上市許可及仿單安全性資料
 - 建議優先評估有實質臨床證據支持的方向：**感染性中耳炎（Rank #4，L2 等級，建議 Proceed with Guardrails）** 具備 3 項臨床試驗與 19 篇文獻，且 Ceftriaxone 對主要致病菌（肺炎球菌、流感嗜血桿菌）具直接殺菌機轉，更值得優先推進
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

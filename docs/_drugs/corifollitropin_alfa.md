@@ -126,10 +126,10 @@ Corifollitropin alfa 目前**未在香港上市**，無任何藥物許可證記�
 - **文獻探索（偏頭痛方向）**：關鍵詞 `FSH + migraine + estrogen + menstrual cycle` 進行初步掃描
 - **雷諾氏病流行病學評估**：確認更年期 FSH 升高與症狀惡化之關聯文獻
 - **監管可行性評估**：若未來有適應症立項，需規劃香港上市申請路徑及非 ART 情境下的劑量安全性設計
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

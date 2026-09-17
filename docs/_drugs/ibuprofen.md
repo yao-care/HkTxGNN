@@ -109,10 +109,10 @@ Ibuprofen 目前**未在香港取得藥品許可證**（許可證數：0），�
 - 向 DrugBank API 查詢正式 MOA 資料，解除 DG002（High），以驗證或推翻各候選適應症的機轉假說
 - 針對相對較有理論可能性的 myosclerosis，進一步搜尋跨語言/區域資料庫是否有相關實證研究
 - 若持續查無支持證據，建議將此組候選標記為低優先度，暫緩資源投入
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

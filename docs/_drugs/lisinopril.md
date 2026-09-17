@@ -97,10 +97,10 @@ Lisinopril 為 ACEI，透過抑制 RAAS 系統減少心肌梗塞後的心室重�
 - 補齊完整作用機轉資料以確認機轉關聯性分析（DG002）
 - 人工核實各候選適應症的檢索管線是否有遺漏試驗或文獻
 - 若考慮推進 rank 5（惡性腎血管性高血壓），須先建立腎功能／腎動脈狹窄篩選機制以排除高風險族群
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -137,10 +137,10 @@ Sevoflurane 目前**未於香港上市**，無許可證核准紀錄可供列出�
 - 取得 DrugBank 完整 MOA 資料（DG002，High，查詢 DrugBank API）
 - 針對候選適應症補充真正的治療性臨床試驗或前臨床機轉研究，而非僅圍術期麻醉情境文獻
 - 若無法取得上述資料，建議暫停本候選之進一步再利用評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

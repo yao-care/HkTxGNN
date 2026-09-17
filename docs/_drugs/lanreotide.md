@@ -89,10 +89,10 @@ Lanreotide 是體抑素（somatostatin）類似物，但原始核准適應症與
 - 補齊 TFDA 仿單警語與禁忌資料，解除 Blocking 缺口
 - 尋找體抑素受體路徑與毛髮生長調控相關的基礎/機轉研究，驗證預測是否有生物學基礎
 - 若持續查無實證支持，建議不再投入資源於此候選方向
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -112,10 +112,10 @@ Amikacin 目前在香港**未有許可證登記**（市場狀態：未上市，�
 - 確認腎毒性、耳毒性等氨基糖苷類典型副作用的監測計畫（包括血中濃度監測 TDM）
 - 設計針對 MDR *S. paratyphi* 的前瞻性觀察研究或小型臨床試驗，以提升證據等級至 L2
 - 評估香港本地腸熱症流行病學數據，確認臨床需求規模
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

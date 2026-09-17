@@ -118,10 +118,10 @@ SSSS 由分泌外毒素（exfoliative toxin A/B）的金黃色葡萄球菌引起
 - 取得正式 DrugBank MOA 與原始核准適應症資料（DG002）
 - 針對 mupirocin 併用全身性抗生素治療 SSSS 之療效與安全性，規劃前瞻性對照研究
 - 評估香港在地上市與供應可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -89,10 +89,10 @@ ISOTRETINOIN 目前在香港未上市，無許可證資料。
 - 補齊 DrugBank 作用機轉（MOA）資料，釐清 retinoid 類藥物與腎血管性高血壓的機轉可能性
 - 確認 ISOTRETINOIN 原始核准適應症，作為機轉關聯性分析基礎
 - 針對兩個高度相似的預測疾病，擴大文獻與試驗檢索範圍（含動物實驗、case report）以尋找間接證據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

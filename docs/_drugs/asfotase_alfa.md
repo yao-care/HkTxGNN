@@ -100,10 +100,10 @@ Asfotase alfa 目前**未在香港上市**，無任何已核准藥物許可證�
 - **補充安全性資料**：解析仿單 PDF，取得主要警語、禁忌症及藥物交互作用
 - **評估機轉較相關的適應症**：Rank 10（cystinosis）和 Rank 6（lysosomal storage disease with skeletal involvement）在機轉上與 TNSALP／骨礦化缺陷的連結相對最強，建議優先做文獻回顧與 biomarker 分析（血/尿 PPi、PLP 水準）
 - **確認香港引進可行性**：評估孤兒藥申請途徑及健保/藥事法規現況
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

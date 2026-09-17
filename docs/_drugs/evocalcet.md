@@ -104,10 +104,10 @@ Evocalcet 目前在香港尚未取得任何藥品許可證，無上市記錄。
 - 補充完整 MOA 資料（DrugBank DB12388）以支撐機轉關聯性分析
 - 確認香港特殊進口（特患用藥）途徑的可行性，或評估是否可援引日本 PMDA 核准資料
 - 補充仿單警語與禁忌資訊（目前為資料缺口，嚴重性：Blocking）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

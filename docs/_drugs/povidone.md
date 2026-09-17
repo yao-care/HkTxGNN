@@ -100,10 +100,10 @@ Povidone 目前於香港**未上市**，無獨立藥品許可證登記資料。
 - 取得 TFDA／香港官方仿單警語與禁忌症資料（DG001，Blocking，目前無法進入 S1 安全性初評）
 - 尋找是否有 Povidone 或 povidone-iodine 應用於皮膚屏障／角質化相關疾病的前臨床或個案研究，以驗證機轉合理性
 - 在補齊上述資料前，不建議投入進一步資源於此候選適應症
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -84,10 +84,10 @@ NSIAD 是一種罕見的體質性疾病，成因為 **AVPR2（血管加壓素 V2
 - 補齊 Ranolazine 完整作用機轉（MOA）與原始核准適應症資料
 - 取得 TFDA 仿單警語與禁忌症資料（目前為 Blocking 等級資料缺口，無法進入 S1 安全性初評）
 - 若未來出現機轉研究或臨床觀察指向 late INa／V2 受體路徑的潛在關聯，再重新評估此候選
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

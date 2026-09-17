@@ -100,10 +100,10 @@ Calcipotriol 為合成維生素 D₃ 類似物，透過與維生素 D 受體（V
 - 申請 Calcipotriol 外用製劑的香港上市許可（目前未上市）
 - 補充官方 MOA 及完整安全性資料，特別關注長期外用的皮膚刺激性與系統性高鈣血症風險
 - 確認最適治療濃度（0.005% ointment）、用藥頻率及療程長度的標準化方案
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

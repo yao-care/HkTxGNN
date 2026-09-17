@@ -93,10 +93,10 @@ Dimenhydrinate 是由 Diphenhydramine（第一代 H1 受體拮抗劑）與 8-chl
 - 取得原廠仿單的安全性警語與禁忌症（建議下載 TFDA 或 WHO/EMA 仿單 PDF，填補 DG001）
 - 設計 Dimenhydrinate 與第二代抗組織胺的頭對頭（head-to-head）比較研究方案
 - 評估 8-chlorotheophylline 成分在蕁麻疹適應症中的獨立風險效益比
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

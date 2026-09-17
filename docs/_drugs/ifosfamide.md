@@ -133,10 +133,10 @@ Ifosfamide 屬於已知的細胞毒性化療藥物類別（Oxazaphosphorine 烷�
 - 重新檢視 NCT00954174 實際收案族群是否確實包含乳癌患者，避免將婦科癌肉瘤證據誤判為乳癌證據
 - 確認 Ifosfamide 於乳癌其他已完成/已發表 Phase 2/3 試驗結果，以補足目前「已完成試驗僅 1 筆 Phase 1」的證據缺口
 - 確認香港上市規劃與許可證申請狀態（目前為未上市）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

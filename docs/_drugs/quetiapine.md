@@ -101,10 +101,10 @@ Quetiapine 目前**未在香港取得藥品許可證**，無上市資料可供�
 - 取得原廠仿單警語、禁忌症及 DDI 資料
 - 尋找是否有實際將 quetiapine 用於眼科/視網膜疾病的機轉研究或病例報告，以驗證 TxGNN 分數是否具生物學意義
 - 若無法找到機轉層級支持，建議將此預測標記為低優先級雜訊候選
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

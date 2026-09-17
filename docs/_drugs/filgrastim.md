@@ -93,10 +93,10 @@ TxGNN 預測的 5 項適應症（原發性血小板釋放障礙、偽 von Willeb
 - 補充香港仿單警語與禁忌症資料（解決 DG001）
 - 搜尋 G-CSF 對血小板顆粒功能影響的體外或動物研究，以評估機轉可行性
 - 若考慮先天性血小板減少症（Rank 5），可針對 G-CSF 促血小板生成的 off-label 使用進行系統性文獻回顧
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

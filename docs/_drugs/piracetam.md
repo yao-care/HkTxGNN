@@ -91,10 +91,10 @@ Evidence Pack 已標註這些候選「疑似圖譜鄰近節點聚集造成的預
 - 補齊 DrugBank 作用機轉（MOA）資料（DG002，High）
 - 針對骨關節炎方向補做機轉文獻搜尋或前臨床研究，確認是否有生物學基礎
 - 若持續無機轉或人體資料佐證，建議將此候選降低優先序，不投入後續資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

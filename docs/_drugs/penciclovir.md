@@ -87,10 +87,10 @@ Penciclovir 目前尚未於香港取得藥品許可證（市場狀態：未上�
 - 取得 Penciclovir 完整仿單警語與禁忌症資料（解除 DG001 Blocking 缺口）
 - 補充正式作用機轉（MOA）資料以支持或推翻機轉關聯性分析
 - 尋找體外／動物模型層級的初步藥理證據，證明 Penciclovir 對肝吸蟲或其他候選適應症具有活性，否則建議終止此預測方向的後續投入
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

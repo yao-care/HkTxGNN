@@ -125,10 +125,10 @@ Adenosine 對 CPVT 具有強力的機轉合理性（cAMP/PKA 路徑的鏡像對�
 - 密切追蹤 NCT07263139（AGP100 Phase 2a）結果，評估 A1R 激動路徑在 CPVT 的臨床可行性與安全性
 - 評估腺苷超短半衰期（＜10 秒）對慢性 CPVT 管理的根本限制，研究長效 A1R 激動劑或口服前體藥物（prodrug）的開發可能性
 - 若追蹤 AGP100 結果正面，考慮設計針對腺苷（或 ATP）用於急性 CPVT 終止的 Proof-of-Concept 小型研究，並向相關藥監機構申請審查
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

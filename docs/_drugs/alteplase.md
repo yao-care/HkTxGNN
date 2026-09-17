@@ -126,10 +126,10 @@ Alteplase 在機轉上完全適用於後外側 MI（LCx/PDA 血栓性閉塞）�
 - 系統性回顧現有 STEMI 大型試驗（GUSTO、TAMI 系列）中後壁/後外側亞組資料
 - 評估是否有必要設計後外側 MI 亞型特定的溶栓 vs. 直接 PCI 對照試驗，或在現有 STEMI 試驗中加入後壁亞型分析
 - 補充香港/台灣藥監局安全性警語資料（現為資料缺口），評估在未上市地區使用的監管路徑
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

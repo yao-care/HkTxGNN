@@ -81,10 +81,10 @@ indication_count: 10
 - 補齊 Pirfenidone 作用機轉資料（DG002，High，需查詢 DrugBank API）
 - 補齊原適應症與香港上市許可證資訊，以利完整比對
 - 若仍要在此藥物的候選清單中尋找標的，建議優先參考本次評估中證據等級較高的「fibroblastic neoplasm」（L4，6 篇文獻），但須注意其中一篇文獻報告 Pirfenidone 使用後誘發未分化多形性肉瘤（PMID 29702057），屬安全性負向訊號，需先排除致腫瘤風險再評估再利用可能性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

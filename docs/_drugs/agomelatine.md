@@ -114,10 +114,10 @@ Agomelatine 的 EMA 核准適應症（重鬱症）在臨床上本質上已涵蓋
 - 向香港衞生署藥物辦公室評估藥品引進許可申請的可行性
 - 確認 Melancholia 亞型在香港臨床編碼與醫療系統中的對應路徑
 - 若計劃開展本地研究，建議設計以 Melancholia 核心症狀（Anhedonia、HPA 軸指標、睡眠多項生理記錄）為終點的前瞻性觀察研究
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

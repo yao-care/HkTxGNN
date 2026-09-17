@@ -107,10 +107,10 @@ Entecavir 靶向 HBV DNA 聚合酶（逆轉錄酶），與 HCV 複製所依賴�
 - 確認 Entecavir 三磷酸鹽對 HCV 複製系統（replicon assay）的 IC₅₀，排除體外活性可能性
 - 補充完整作用機轉資料（MOA），尤其是核苷類似物跨病毒酶抑制的選擇性分析
 - 若資源有限，建議優先評估 **Rank 9（HEV 感染，Research Question 決策）**，其機轉連結相對合理（HEV 為 +ssRNA 病毒，體外數據初步提示 IC₅₀ 約 0.5–5 µM），且現有替代治療（Ribavirin 禁忌症患者）存在未被滿足的臨床需求
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

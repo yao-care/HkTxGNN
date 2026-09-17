@@ -158,10 +158,10 @@ Erythromycin 在香港未登記上市，且最高排名預測適應症（點狀�
 - **LGV 優先路徑**：查閱香港衛生防護中心及醫院管理局性傳播感染處置指引，確認紅黴素在本地臨床實踐中的地位
 - **眼科路徑**：搜尋紅黴素眼藥膏直接用於 PEK 或暴露性角膜炎的觀察性研究或 RCT，現有文獻均為間接證據
 - 下載並解析原廠仿單 PDF，補充警語、禁忌症及藥物交互作用完整資料
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

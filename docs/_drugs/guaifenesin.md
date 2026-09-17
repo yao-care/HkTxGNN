@@ -109,10 +109,10 @@ Guaifenesin 目前在香港**無藥物許可證登記**，市場狀態為未上�
 - 從 TFDA/官方仿單取得完整安全性警語與禁忌資料
 - 評估香港 PHARMAC 或 Department of Health 的藥物登記可行性
 - 考慮擴展至成人族群的 Phase 2 研究設計
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

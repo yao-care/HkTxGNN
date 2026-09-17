@@ -97,10 +97,10 @@ Glycocholic acid 在香港目前無任何核准藥品許可證，尚未上市。
 - 體外或動物模型研究，明確驗證低劑量膽酸在血管痙攣中是否具保護性（並排除致病性風險）
 - FXR/TGR5 路徑在冠狀動脈血管張力調控中角色的機轉研究
 - **替代研究方向建議**：第 9 順位預測「血紅素病變（hemoglobinopathy）」（L4）已有文獻直接量測鐮刀型細胞貧血症兒童的血清 glycocholic acid 濃度（[PMID 10349527](https://pubmed.ncbi.nlm.nih.gov/10349527/)），作為肝損傷非侵入性生物標誌物的研究假說較具科學基礎，建議優先評估此方向
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

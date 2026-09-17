@@ -89,10 +89,10 @@ Methionine（DrugBank ID：DB00134）是一種必需胺基酸，本次評估組�
 - 取得 Methionine 明確的作用機轉資料，以評估與 Acne 的機轉關聯性是否成立
 - 針對 Acne 適應症尋找具治療意圖（而非藥物副作用觀察）的直接證據，如體外/動物治療性研究或早期臨床試驗
 - 另可留意本候選藥物中證據等級較高的白內障相關預測（cortical cataract、nuclear senile cataract、mature cataract，評為 L4／S1／Research Question）：這些適應症有多篇動物與離體研究支持 methionine→cysteine→麩胱甘肽（GSH）抗氧化路徑對水晶體透明度的潛在保護作用，機轉關聯性明顯優於 Acne，但仍缺乏人體介入性試驗資料，可作為後續研究方向的優先參考
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

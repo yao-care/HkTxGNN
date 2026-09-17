@@ -95,10 +95,10 @@ Mepolizumab 是一款以 IL-5 為標靶的生物製劑，但其正式登記的�
 - 取得 mepolizumab 完整作用機轉（MOA）資料，解除 DG002
 - 尋找針對「IL-5 抑制與免疫性血小板破壞」更直接的機轉研究或病例系列，而非僅依賴單一個案報告
 - 確認是否已有或計劃中的香港上市/臨床試驗申請
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

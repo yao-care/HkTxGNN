@@ -105,10 +105,10 @@ Localized Pagetoid Reticulosis（Woringer-Kolopp disease）屬於 CTCL 的局限
 - 補充 Methoxsalen 完整 MOA 資料（DG002），確認光敏化機轉細節與劑型（口服 vs. 外用 vs. ECP 專用配方 UVADEX）
 - 針對 Localized Pagetoid Reticulosis 執行專門的文獻/試驗檢索（含 CTCL/MF 大類關鍵字擴大搜尋），驗證是否有病例報告等級證據
 - 確認給藥途徑相容性（route_compatibility 目前為 pending，尚未評估）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

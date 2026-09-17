@@ -118,10 +118,10 @@ Iopromide 是非離子型含碘 X 光顯影劑，用於影像診斷顯影，並�
 - 補齊 TFDA/藥監局仿單警語與禁忌症資料（DG001）
 - 補齊 Iopromide 詳細作用機轉資料（DG002）
 - 若日後出現機轉合理的新證據（如動物實驗或病例對照研究），需重新評估是否有進一步收集證據之必要
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

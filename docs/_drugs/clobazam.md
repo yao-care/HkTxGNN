@@ -125,10 +125,10 @@ FIRES 為 TxGNN 排名第一的預測（99.82%），機轉上具合理性（同�
 - **補齊 MOA 資料**：透過 DrugBank API 補充 Clobazam 詳細作用機轉文獻
 - **FIRES 前瞻性研究**：設計前瞻性個案系列，評估 Clobazam 口服給藥作為 FIRES 橋接/維持治療的療效與安全性
 - **DEE 在地化評估**：針對香港兒科神經科現行 LGS/Dravet 症候群治療實務，評估 Clobazam 引進的臨床需求與監控計畫
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

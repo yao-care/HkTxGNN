@@ -131,10 +131,10 @@ Netarsudil 目前尚未在香港取得藥品許可證（`total_licenses = 0`）�
 - 補齊 DrugBank 完整 MOA 與藥物交互作用資料
 - 若欲推進原發性遺傳性青光眼亞型，需規劃該族群專屬的臨床證據收集
 - 評估香港藥品註冊路徑（目前 0 張許可證，未上市）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

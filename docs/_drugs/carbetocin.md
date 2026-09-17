@@ -99,10 +99,10 @@ Carbetocin 在台灣目前**未取得藥品許可證**，無上市記錄。
 - 補充 carbetocin 完整 MOA 資料（建議查詢 DrugBank API，填補 DG002 缺口）
 - 確認 TFDA 仿單警語與禁忌（DG001 為 Blocking 等級，需優先補齊）
 - 若未來有文獻指向 oxytocin 系統與胚胎發育/罕見遺傳症候群的直接機轉連結，再重新進入評估流程
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

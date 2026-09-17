@@ -111,10 +111,10 @@ Itraconazole 目前**未於香港上市**，查無許可證資料。
 - 透過 DrugBank API 或原廠資料正式確認作用機轉（DG002）
 - 尋求體外/動物實驗證據，確認 itraconazole 對 *Pneumocystis* 是否存在非 ERG11 依賴的替代作用機制
 - 若無法補強機轉合理性，建議將此候選降低優先序或排除
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

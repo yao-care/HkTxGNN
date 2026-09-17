@@ -88,10 +88,10 @@ lopinavir/ritonavir (LPV/RTV) 屬於 HIV-1 蛋白酶抑制劑，臨床上作為�
 - 補齊 lopinavir 完整 MOA 與 TFDA/香港仿單安全性資料（目前為 Blocking 等級資料缺口）
 - 重新檢視 TxGNN 候選清單，排除獸醫適應症，聚焦與 lopinavir 已知蛋白酶抑制機轉直接相關的人類病毒感染疾病
 - 若持續看好慢病毒（lentivirus）感染方向，需補充人類臨床或至少人類病毒株體外藥效資料
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

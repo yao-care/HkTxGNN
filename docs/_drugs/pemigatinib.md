@@ -94,10 +94,10 @@ Pemigatinib 為 FGFR1/2/3 選擇性酪胺酸激酶抑制劑，屬抗腫瘤標靶
 - 補齊 TFDA 仿單警語/禁忌資料（DG001，Blocking）
 - 透過 DrugBank API 補齊作用機轉資料（DG002，High）
 - 若要繼續探索，建議優先針對 **HER2 陽性乳癌**（rank 3，L4／S1）方向查證是否有更多直接研究，而非多發性內分泌腫瘤等 L5 候選
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

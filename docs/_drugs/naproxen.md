@@ -104,10 +104,10 @@ Naproxen 目前**未在香港上市**，無有效許可證資料可列出。
 - 補齊 TFDA/HK 仿單警語與禁忌症資料，解除 Blocking 缺口
 - 若持續評估此候選，建議先釐清 TxGNN 高分是否為知識圖譜拓樸偽陽性，而非真實藥理訊號
 - 目前 4 項候選皆缺乏臨床/文獻支持，建議暫緩投入資源，待有機轉層級新證據再重啟評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -102,10 +102,10 @@ TxGNN 模型預測它可能對**偏頭痛障礙 (Migraine Disorder)** 有效，
 - 取得香港 / 台灣仿單警語與禁忌資料（DG001 資料缺口），補全安全性評估
 
 > **📌 延伸關注：** 本 Evidence Pack 中排名第 8 的**肺高壓 (Pulmonary Hypertension)** 擁有更豐富的證據基礎（L3 等級，8 個臨床試驗、19 篇文獻），尤其 PMID 27932335 為 SSc 相關肺動脈高壓的多中心安慰劑對照 RCT 設計，建議優先補充 SPHInX 試驗結果並進行獨立評估。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

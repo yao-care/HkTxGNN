@@ -162,10 +162,10 @@ Capecitabine 為氟嘧啶類抗腫瘤藥物，符合細胞毒性藥物管理要�
 - 針對印戒細胞癌（L2）補充 TP 表達量化研究，評估此亞型的實際療效預期
 - EBV 陽性胃癌（L4）建議優先評估免疫治療策略（PD-L1/PD-L2 高表達），而非以氟嘧啶類化療為主軸
 - 惡性胃顆粒細胞瘤（L5）及微浸潤期胃癌（L5）建議標注為 TxGNN 偽陽性候選，不納入後續研發優先序
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

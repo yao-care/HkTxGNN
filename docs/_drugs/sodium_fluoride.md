@@ -120,10 +120,10 @@ Sodium Fluoride 目前未在香港取得任何藥品許可證（`total_licenses:
 - 補齊作用機轉（MOA）資料（DG002，來源：DrugBank）
 - 補齊仿單警語/禁忌資料（DG001，Blocking，來源：TFDA/香港藥監局官網）
 - 若上述資料補齊後機轉仍不成立，建議直接終止此候選，不進入後續證據收集階段
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

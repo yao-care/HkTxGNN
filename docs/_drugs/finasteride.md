@@ -94,10 +94,10 @@ TxGNN 模型預測它可能對 **Ambras 型先天性普遍性多毛症 (Ambras t
 - 補充 DrugBank MOA 及香港仿單，以建立完整的安全性基線資料
 - 重新評估 TxGNN 預測的生物合理性篩選機制，本批次預測存在系統性語義關聯偏差（毛髮相關詞彙聚集）
 - 若欲探索毛髮相關再利用方向，建議聚焦於**雄激素依賴性多毛症（hirsutism）**，而非先天性/非雄激素性多毛症（hypertrichosis），前者在機轉上存在合理連結
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

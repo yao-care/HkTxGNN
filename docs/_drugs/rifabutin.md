@@ -130,10 +130,10 @@ Rifabutin 目前**未在香港上市**（`market_status: 未上市`，許可證�
 - 取得 DrugBank 完整作用機轉（MOA）資料（DG002）
 - 釐清此預測之實際臨床定位：應理解為「HIV 合併分枝桿菌感染之輔助／共治療用藥」而非「HIV 病毒感染之直接療法」，並據此重新界定適應症敘述
 - 補齊完整藥物交互作用資料庫查詢結果，特別是與現行 ART 標準療程（dolutegravir、cabotegravir 等 INSTI 類）之交互作用資料
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

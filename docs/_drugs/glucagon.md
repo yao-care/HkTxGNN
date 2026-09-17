@@ -109,10 +109,10 @@ TxGNN 預測分數雖高（99.24%），但現有臨床與文獻證據幾乎全�
 - 取得 glucagon 完整 MOA 資料及安全性仿單（目前為 Data Gap，影響安全性初評）
 - 評估給藥途徑可行性（glucagon 目前主要為注射劑型，慢性 IBS 治療需口服或其他非侵入性給藥方式）
 - 若機轉研究支持，設計針對 IBS-D 的小規模 Phase 2 探索性試驗，直接評估 glucagon 的療效與安全性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

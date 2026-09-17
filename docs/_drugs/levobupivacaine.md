@@ -81,10 +81,10 @@ Levobupivacaine 目前缺乏正式的作用機轉（MOA）資料庫紀錄，但�
 - 補齊安全性資料（警語、禁忌症、藥物交互作用），目前皆為資料缺口
 - 尋找是否有臨床前研究或機轉研究支持局部麻醉劑用於消化道發炎症狀
 - 確認香港上市與許可證狀態，本藥目前未於香港上市
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -137,10 +137,10 @@ TxGNN 最高分預測（點狀上皮角結膜炎）機轉根本不對位且無�
 - 查閱並確認安全性資訊（原廠仿單、EMA/TFDA 警語及禁忌症）
 - 評估 Bacitracin＋Neomycin 複方耳用劑型的製藥可行性及專利狀況
 - 評估香港市場的藥品引進申請可行性（向衛生署提出許可申請）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

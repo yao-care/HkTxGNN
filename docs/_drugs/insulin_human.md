@@ -89,10 +89,10 @@ Insulin Human 目前在香港未上市，無許可證記錄（`total_licenses = 
 - 取得 Insulin Human 詳細作用機轉資料（DG002）
 - 針對 autoimmune oophoritis 尋找具體的機轉研究或病例報告，確認是否存在可驗證的生物學連結
 - 若機轉驗證失敗，建議改為評估證據等級較高的候選（如 thiamine-responsive dysfunction syndrome，已進入 S1 階段）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

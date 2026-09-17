@@ -116,10 +116,10 @@ Evidence Pack 中 `original_moa` 標記為資料缺口（DG002，待查 DrugBank
 | 3 | 未熟期白內障 | 99.99% | L5 | 無任何臨床試驗或文獻支持，僅為模型預測分數 |
 | 4 | 顱狹窄症相關白內障 | 99.99% | L5 | 罕見先天症候群，與抗 VEGF 機轉無關聯，判定為模型雜訊 |
 | 5 | 成熟期白內障 | 99.99% | L4 | 文獻僅涉及白內障手術合併 Ranibizumab 注射控制黃斑水腫，未證實對白內障本身有療效 |
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

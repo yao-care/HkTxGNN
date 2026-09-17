@@ -115,10 +115,10 @@ Famciclovir 抑制 VZV 複製以降低感染後神經痛的機轉路徑清晰且
 - 補充查詢核心 Phase 3 RCT 文獻（Degreef 1994、Boon 1995）以確認證據等級達 L1
 - 確認美國 FDA 與歐盟 EMA 已核准的帶狀皰疹後神經痛適應症詳細條件（劑量、療程、族群）
 - 評估台灣申請藥品許可證或恩慈療法的可行路徑與時程
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

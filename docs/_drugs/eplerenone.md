@@ -111,10 +111,10 @@ Eplerenone 透過 MR 拮抗抑制 RAAS–醛固酮軸，在理論機轉上與 PH
 - 取得原廠仿單警語與禁忌症資料（解決 DG001），特別評估腎功能不全患者的高鉀血症風險
 - 確認香港特別藥物進口的法規路徑與時程
 - 若前臨床證據充分，可考慮規劃 Pilot Proof-of-Concept 研究
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

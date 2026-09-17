@@ -110,10 +110,10 @@ Rimegepant 不具血管收縮機轉，在藥理學上合理適用於腦幹型先
 - 補齊正式作用機轉 (MOA) 結構化資料
 - 針對腦幹型先兆偏頭痛亞型的專門臨床試驗或真實世界資料
 - 評估香港上市申請可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -103,10 +103,10 @@ TxGNN 預測分數雖高（99.84%），但目前缺乏任何臨床試驗或直�
 - 評估眼科局部劑型（滴眼液）的開發可行性
 - 確認香港或其他市場的上市路徑與法規要求
 - 取得安全性完整資料：仿單警語、禁忌症及藥物交互作用
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

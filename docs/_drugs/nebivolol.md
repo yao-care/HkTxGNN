@@ -105,10 +105,10 @@ Nebivolol 為高選擇性 β1-受體阻斷劑，同時具有內皮 NO 釋放介�
 - 查詢 DrugBank API 補齊完整作用機轉資料（DG002）
 - 針對排序 1、2（惡性腎血管性高血壓、惡性高血壓性腎病變）主動檢索是否有 β-阻斷劑於此亞型高血壓的觀察性研究或病例系列
 - 若無法找到直接證據，此候選應維持在假說階段，暫緩投入後續資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

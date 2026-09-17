@@ -87,10 +87,10 @@ TxGNN 分數雖高，但在缺乏正向機轉關聯、也無任何臨床試驗�
 - 補齊 TFDA／HK 仿單警語與禁忌（DG001，Blocking）
 - 補齊作用機轉 (MOA) 資料（DG002）
 - 尋找機轉上更具合理性的候選適應症，而非僅依賴 TxGNN 分數
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

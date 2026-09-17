@@ -115,10 +115,10 @@ RA 患者的 T 細胞與滑膜纖維母細胞（FLS）呈現粒線體脂肪酸�
 - 取得 Levocarnitine 的作用機轉（MOA）正式資料
 - 追蹤 NCT05792527、NCT06753565 完成後的結果數據
 - 評估肉鹼產品在香港的可及性與註冊路徑（目前 0 張許可證）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

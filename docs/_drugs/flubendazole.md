@@ -102,10 +102,10 @@ Flubendazole 在香港目前**未取得上市許可**，無任何許可證記錄
 - 評估膀胱內灌注劑型可行性（溶解度、穩定性、刺激性）
 - 補充安全性資訊（原廠仿單警語、禁忌症、藥物交互作用）
 - 確認是否存在針對 benzimidazole 類藥物更廣泛的膀胱癌前臨床數據可供類比
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

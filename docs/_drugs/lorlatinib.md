@@ -115,10 +115,10 @@ Lorlatinib 是第三代 ALK/ROS1 酪胺酸激酶抑制劑，原始適應症資�
 - 補齊 DrugBank 官方 MOA 資料（DG002，High）
 - 針對「neoadjuvant + 肺門部位」情境尋找更多病例系列或前瞻性研究，驗證單一個案報告之外的可重複性
 - 其餘 4 項候選建議直接標記排除，不需再投入證據收集資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

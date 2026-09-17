@@ -100,10 +100,10 @@ Mirtazapine 目前於香港**未取得任何許可證**（`total_licenses = 0`�
 - 取得 DrugBank 完整 MOA 資料，釐清機轉關聯性（DG002）。
 - 下載並解析 TFDA／原廠仿單，補齊警語與禁忌症資料，以解除 S1 安全性初評的 Blocking 缺口（DG001）。
 - 針對三項預測適應症持續監測是否有新臨床試驗或文獻登記，目前皆為零筆。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

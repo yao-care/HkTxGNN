@@ -112,10 +112,10 @@ Axitinib 對 Xp11.2 tRCC 的機轉連結清晰合理（TFE3 融合 → VEGF 過�
 ---
 
 > ⚠️ **免責聲明**：本報告僅供研究參考，不構成醫療建議。藥物再利用候選需經嚴格臨床驗證方可應用於患者治療。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

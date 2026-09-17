@@ -115,10 +115,10 @@ Ivosidenib 為已核准之抗腫瘤藥物（IDH1 突變型 AML 適應症），�
 - 補齊完整 MOA 資料，強化機轉關聯分析
 - 針對治療相關 AML/MDS 亞型，確認該族群 IDH1 突變盛行率，並設計探索性研究
 - 「Bulbar polio」預測應予排除，不建議投入後續資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

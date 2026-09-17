@@ -143,10 +143,10 @@ TxGNN 模型預測它可能對**性腺生殖細胞腫瘤 (Gonadal Germ Cell Tumo
 | 5 | Malignant non-epithelial tumor of ovary | 99.55% | 0 | 0 | 無任何試驗或文獻證據（L5，僅模型預測） |
 
 > 排名 4（female breast carcinoma）證據量明顯較豐富，若後續資源允許，建議另立獨立評估報告深入分析。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -101,10 +101,10 @@ TxGNN 預測分數雖高，但最高排名適應症（馬尾症候群）與 AMC 
 - 評估眼部局部給藥途徑的藥物動力學可行性及眼毒性數據
 
 > ⚠️ 本報告僅供研究參考，不構成醫療建議。所有老藥新用候選需經臨床驗證後方可應用。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

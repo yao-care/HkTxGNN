@@ -128,10 +128,10 @@ Celecoxib 目前在香港衛生署尚無任何藥品許可證，屬未上市狀�
 - 補充 DrugBank 作用機轉詳細資料（DG002），強化炎症性脊椎病機轉合理性論述
 - 建立心血管風險管理計畫（治療前 CV 基線評估；高風險患者需個案討論）
 - 制定長期用藥安全監測計畫（定期追蹤 GI 症狀、腎功能、肝功能）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

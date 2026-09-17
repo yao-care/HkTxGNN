@@ -103,10 +103,10 @@ Lactose 目前未在香港上市，查無許可證資料。
 - 補齊 Lactose 的 DrugBank MOA 資料，釐清其是否具有超出賦形劑角色的藥理作用
 - 向 TFDA/香港藥監機構取得仿單警語與禁忌症資料，解除安全性初評（S1）的 Blocking 缺口
 - 若持續評估此藥物，建議優先檢視 L4 等級的 cystinosis、hypophosphatasia 候選（有間接代謝機轉文獻），而非本預測（L5、無機轉支持）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

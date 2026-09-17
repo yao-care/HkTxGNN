@@ -92,10 +92,10 @@ Cobicistat 本身**不具直接抗病毒活性**，而是透過強力抑制 CYP3
 - 重新確認預測目標：評估是否應以**人類 HIV 感染**或其他人類疾病作為再利用方向，而非動物疾病
 - 若確定以 SIV／貓愛滋為目標，說明其動物模型或轉譯醫學意義
 - 取得 DDI 完整資料，評估 CYP3A 交互作用的安全風險
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

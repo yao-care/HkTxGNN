@@ -129,10 +129,10 @@ TxGNN 模型針對**5 個消化性潰瘍相關疾病**產生預測，其中證�
 - 確認香港上市/許可證登記可行性
 - 若聚焦「胃空腸吻合口潰瘍」，需要針對此特定臨床實體（而非籠統消化性潰瘍）設計之對照試驗，以縮小疾病顆粒度落差
 - 排除潰瘍穿孔、胃十二指腸炎等機轉關聯薄弱或無實證支持的適應症
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

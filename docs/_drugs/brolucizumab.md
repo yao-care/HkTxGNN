@@ -110,10 +110,10 @@ TxGNN 模型給出高分的理論基礎是：VEGF-A 在粒線體生合成中具�
 - 確認是否存在 Brolucizumab 的全身性遞送研究版本（非玻璃體內劑型）
 - 若對食道靜脈曲張方向有學術興趣，應以**系統性 anti-VEGF 藥物**（如 Bevacizumab）或**口服 TKI**（如 Sorafenib）為研究主體，Brolucizumab 並非適合候選
 - 考慮以 Brolucizumab 的**已核准眼科適應症（濕性 AMD、DME）** 為基礎，探索眼底疾病範疇內的相鄰適應症（如視網膜靜脈阻塞、早產兒視網膜病變）作為更具可行性的老藥新用方向
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

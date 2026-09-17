@@ -131,10 +131,10 @@ Iron（DB01592）目前在香港**未上市**，無許可證登記資料。
 - 補齊 DrugBank MOA 與正式核准適應症文字（DG002）
 - 因目前無 RCT/介入性臨床試驗直接驗證「以鐵劑治療 Plummer-Vinson 症候群」，若要提升至 L1/L2 證據等級，需規劃前瞻性介入研究或系統性回顧
 - 確認香港上市/引進路徑（目前 total_licenses = 0）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

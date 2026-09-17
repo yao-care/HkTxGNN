@@ -82,10 +82,10 @@ TxGNN 的預測方向，是把這個「副作用機轉」反向操作：理論�
 - 透過 DrugBank API 補齊作用機轉（MOA）與原始核准適應症資料（DG002）
 - 搜尋是否有脂溶性維生素中毒相關的病例報告或前臨床研究，驗證機轉推論方向
 - 確認香港（或其他地區）是否有上市計畫，作為後續評估基礎
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

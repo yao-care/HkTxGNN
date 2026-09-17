@@ -98,10 +98,10 @@ TxGNN 模型預測它可能對**乳突性結膜炎 (Papillary Conjunctivitis)** 
 - 評估 PABA 代謝物在眼科局部使用情境下的過敏風險及致敏頻率
 - 下載並解析仿單 PDF，確認警語、禁忌與適應症（補足 DG001 數據缺口）
 - 比較 Tetracaine 等眼科核准局麻劑的結構差異，評估是否有機轉改良空間
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

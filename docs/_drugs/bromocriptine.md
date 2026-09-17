@@ -174,10 +174,10 @@ Bromocriptine 屬於麥角生物鹼類多巴胺促效劑，對 D2/D3 受體具�
 ---
 
 *報告版本：v4 | 資料截止日：2026-04-10 | 候選 ID：TW-DB01200-multi*
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

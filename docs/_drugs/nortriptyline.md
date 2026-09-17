@@ -113,10 +113,10 @@ TxGNN 模型預測它可能對**注意力不足過動症 (Attention Deficit-Hype
 - 補充作用機轉（MOA）詳細資料（DG002，High）
 - 評估心血管毒性風險（TCA 類藥物已知的 QT 延長、心律不整風險），尤其用於兒童族群時
 - 確認香港上市可行性或替代供應管道
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

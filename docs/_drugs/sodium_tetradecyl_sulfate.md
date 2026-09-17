@@ -110,10 +110,10 @@ Sodium tetradecyl sulfate（STS）是一種血管內硬化劑，原始核准適�
 - 查詢 DrugBank API 取得完整作用機轉資料（DG002，High）
 - 確認香港（或其他鄰近市場）是否已核准 STS 用於食道靜脈曲張相關適應症，作為法規路徑參考
 - 補充「食道靜脈曲張（有出血）」與「無出血」兩項預測適應症的臨床試驗現況比對，釐清是否需分別評估急性期止血與預防性治療兩種臨床情境
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

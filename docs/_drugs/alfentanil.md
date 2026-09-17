@@ -104,10 +104,10 @@ Alfentanil 在台灣**未曾取得藥品許可證**，目前未上市流通。�
 - [ ] 搜尋 opioid 類藥物與 V2 receptor 交互作用的前臨床文獻
 - [ ] 釐清 TxGNN 模型的圖譜路徑細節，評估是否存在其他間接治療假說
 - [ ] 補充 TFDA 仿單安全性資料（DG001）及 DrugBank MOA 資料（DG002）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

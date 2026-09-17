@@ -123,10 +123,10 @@ Ergocalciferol（DB00153）目前在香港查無核准許可證，無上市記�
 ‡ 排名第 10 的 L5 反映資料收集盲點而非真實證據缺口——Vitamin D-Dependent Rickets Type I（VDDR1A，CYP27B1 突變）為高劑量 Ergocalciferol 的教科書適應症。強烈建議補充 PubMed 搜尋（關鍵詞：ergocalciferol vitamin D-dependent rickets CYP27B1 VDDR），預期可提升至 L3–L4。
 
 > 💡 **建議行動**：排名 6–8 的低磷血症、腎性骨病及低磷血症性佝僂病，均有臨床文獻直接記錄 Ergocalciferol 的治療效果，機轉明確，建議優先針對這三個適應症撰寫個別深度評估報告。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

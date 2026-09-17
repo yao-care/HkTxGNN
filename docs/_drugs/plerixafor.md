@@ -92,10 +92,10 @@ CXCR4/CXCL12 軸在漿細胞於骨髓微環境中的滯留與遷移確有文獻�
 - 針對 indolent plasma cell myeloma 完成正式機轉關聯分析（目前為 pending）
 - 持續追蹤 ClinicalTrials.gov／PubMed 是否新增相關證據
 - 補充原始適應症及上市登記資料
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

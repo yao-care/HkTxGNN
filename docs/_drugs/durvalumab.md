@@ -177,10 +177,10 @@ NCT03912818 直接針對膀胱尿路上皮癌肉瘤樣亞型設計，但因收�
 - 評估香港/台灣宮頸癌患者的 PD-L1 表現率及 HPV 基因型分布（尤其是 HPV16/18 相關宮頸腺癌），確認本地患者族群適用性
 - 聯繫 NCT04065269 研究團隊，評估加入宮頸內膜癌亞組分析的可行性
 - 向香港衛生署諮詢「未經批准藥物申請」或「個別患者特殊使用申請」的監管路徑
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

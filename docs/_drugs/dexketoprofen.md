@@ -116,10 +116,10 @@ Dexketoprofen 用於急性偏頭痛治療已有多項完成的 Phase 4 RCT 及 m
 - 評估香港市場准入可行性（目前未上市，需評估藥品引進或申請上市途徑）
 - 明確靜脈注射 vs. 口服劑型在目標適應症的合規性及給藥策略
 - 制定腎功能不全、消化道潰瘍病史等高風險族群的安全性監測計畫
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

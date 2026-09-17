@@ -85,10 +85,10 @@ Isosorbide Mononitrate（DB01020）是硝酸酯類（NO 供體）血管擴張劑
 - 透過 DrugBank API 補齊作用機轉資料（DG002）。
 - 若要繼續評估多毛症方向，需先有體外或動物模型證據支持硝酸酯類藥物對毛囊血流的直接影響。
 - 其餘 4 個預測適應症（Ambras 型多毛症、牙周相關症候群、Dandy-Walker 相關症候群、禿髮）證據包本身即註記多判定為知識圖譜偽陽性或機轉無關聯，僅牙周相關症候群有 20 篇文獻但均與此藥物無直接關聯，暫不建議投入資源。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

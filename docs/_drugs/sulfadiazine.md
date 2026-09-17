@@ -113,10 +113,10 @@ TxGNN 模型預測它可能對**肺囊蟲病 (Pneumocystosis)** 有效，
 - 透過 DrugBank API 查詢完整作用機轉（MOA）資料（DG002）
 - 針對文獻進行 relevance／study_type 分類確認（目前多筆標記為 pending）
 - 評估是否有專門針對 Sulfadiazine（非複方 TMP-SMX）用於 PCP 的前瞻性或觀察性研究可補強證據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

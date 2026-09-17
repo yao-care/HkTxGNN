@@ -134,10 +134,10 @@ Obinutuzumab（GA101）是第三代人源化、醣基工程改造之第 II 型�
 - 補齊正式 MOA 機轉資料（DG002，High，來源：DrugBank API）
 - 若考慮引進香港市場，需辦理藥品查驗登記程序
 - 對於 TxGNN 同時預測的 CLL/SLL 分子亞型（IGHV 分層），因無對應試驗/文獻，建議以較寬泛疾病詞彙重新查證後再評估，目前維持 Hold
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

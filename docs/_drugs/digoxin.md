@@ -104,10 +104,10 @@ Digoxin 在香港目前**未上市**，無任何登記許可證紀錄。
 - 取得 Digoxin 完整作用機轉（MOA）資料，評估是否有尚未被發現的血管作用機制
 - 搜尋是否有基礎研究（細胞或動物模型）提供任何正向機理連結
 - 釐清知識圖譜中導致此共現預測的節點關係來源，排除資料品質問題
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

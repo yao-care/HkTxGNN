@@ -106,10 +106,10 @@ Nevirapine 屬於 NNRTI 類藥物，其藥理作用是直接結合並抑制反�
 - 補齊藥物基本資料 Data Gap（原適應症全文、MOA、香港仿單警語與禁忌症），此為 Blocking 等級缺口，需先解決才能進入安全性初評（S1）。
 - 若要重新評估「SIV 感染」此方向，需釐清其實際臨床對應族群（例如是否轉化為其他人類反轉錄病毒相關適應症）而非直接以動物模式疾病作為終點。
 - 確認 nevirapine 在香港的上市／引進計畫，目前無許可證，市場可行性待評估。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

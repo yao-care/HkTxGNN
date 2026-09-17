@@ -86,10 +86,10 @@ DrugBank 目前未提供完整正式的作用機轉描述（列為資料缺口 D
 - 補齊正式作用機轉（MOA）資料（DG002）
 - 尋找或發起更大規模、雙盲對照的偏頭痛臨床試驗以確認療效
 - 確認香港上市與許可證狀態
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

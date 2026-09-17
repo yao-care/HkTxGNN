@@ -103,10 +103,10 @@ Carisoprodol 在香港目前**無上市紀錄**，無任何有效許可證。
 - 確認 Meprobamate 在香港的管制藥品分類狀態
 - 主動搜尋以 Carisoprodol 或 Meprobamate 直接治療失眠為主題的臨床研究
 - 評估是否存在安全性更佳的替代再利用路徑
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

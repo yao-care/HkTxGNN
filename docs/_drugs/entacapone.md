@@ -101,10 +101,10 @@ TxGNN 預測分數雖高（99.76%），但目前對於 PLA2G6 相關神經退化
 - **亞型聚焦**：優先評估 PLA2G6 相關肌張力不全-帕金森氏症候群（與帕金森氏症機轉最相近的亞型）
 - **補充安全性資料**：取得 TFDA/EMA 仿單，確認警語、禁忌症及主要藥物交互作用
 - **香港監管評估**：確認同情使用或臨床試驗申請可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

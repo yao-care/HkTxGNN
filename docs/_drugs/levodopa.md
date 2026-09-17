@@ -84,10 +84,10 @@ Levodopa 目前在香港**未上市**，無任何許可證登記，無法評估�
 - 取得 TFDA／原廠仿單警語與禁忌症資料，完成 S1 安全性初評
 - 補齊 Levodopa 的作用機轉（MOA）與正式登錄適應症資料
 - 尋找 Rasmussen 腦炎相關的臨床前或機轉研究，以驗證生物合理性後再考慮是否進入下一階段
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

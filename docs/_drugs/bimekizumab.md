@@ -121,10 +121,10 @@ Bimekizumab 目前在香港**未上市**，無任何藥品許可證登記。
 3. **基礎研究驗證**：需有體外或動物實驗數據，直接證明 IL-17 抑制對晶狀體細胞具保護作用，方可考慮升級評估
 4. **重新評估預測可信度**：本批預測中多數為相同分數的白內障子類型，建議對知識圖譜的疾病節點定義進行審核，確認預測多樣性是否有效
 5. **優先探索 Bimekizumab 已有臨床基礎的炎症適應症**：如葡萄膜炎（亦屬眼部炎症）等與 IL-17 有直接關聯的眼科適應症，可能比白內障更具開發潛力
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -120,10 +120,10 @@ TxGnn 模型預測它可能對**皮膚炎 (Dermatitis，主要指異位性皮膚
 - 取得 TFDA/藥廠仿單完整警語與禁忌症資料，完成 S1 安全性初評
 - 補充 DrugBank 作用機轉（MOA）資料，強化機轉關聯性分析
 - 待 Phase 2 完整結果發表或後續 Phase 3 試驗數據，確認異位性皮膚炎族群的療效與矛盾反應風險
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -128,10 +128,10 @@ Anastrozole 擁有包括 ATAC、IBIS-II 等多個大型 Phase 3 RCT 的 L1 等�
 - 確認香港本地 ER+ 停經後乳癌治療指引及用藥標準，評估與現行化療方案的整合路徑
 - 建立骨密度（BMD）監測計畫及關節肌肉症狀管理的臨床路徑（已知長期使用副作用）
 - 評估是否需申請優先審查資格，加速市場引進時程
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

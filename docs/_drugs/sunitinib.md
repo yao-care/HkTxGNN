@@ -129,10 +129,10 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，
 ---
 
 *附註：本證據包（candidate_id: TW-DB01268-multi）另評估 4 個較弱候選適應症——ovarian myxoid liposarcoma（L4/Research Question）、Xp11.2 易位相關腎細胞癌（L4/Research Question）、unclassified renal cell carcinoma（L2/Proceed with Guardrails，具 12 篇文獻及 5 個試驗，含多個非透明細胞 RCC 之隨機對照試驗如 ASPEN、ESPN）、以及 neuroblastoma 相關腎細胞癌（L5/Hold，因資料配對錯誤，證據等同無）。若欲評估 unclassified RCC 候選，建議另行產出獨立報告。*
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

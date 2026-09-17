@@ -136,10 +136,10 @@ Carboplatin 用於女性乳癌（尤其 TNBC 及 HER2+ 亞型）具備充分的 
 - 明確目標族群（TNBC vs HER2+ vs BRCA 突變者），並制定相應的生物標記篩選策略（如 HRD 評分、PD-L1 CPS）
 - 依患者腎功能（eGFR）以 Calvert 公式精確計算每療程 Carboplatin AUC 給藥劑量
 - 評估與免疫檢查點抑制劑（pembrolizumab、camrelizumab）聯合使用的可行性，呼應 2025 年多項 Phase 3 趨勢
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

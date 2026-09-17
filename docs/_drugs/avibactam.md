@@ -137,10 +137,10 @@ TxGNN 預測的 10 個適應症中，9 個因機轉根本不相容而無推進�
 - 針對 Ceftaroline-avibactam 組合治療 MRSA 感染進行系統性文獻回顧，確認是否存在 Phase 2/3 臨床試驗數據
 - 評估在香港引進 Avibactam 組合製劑的監管可行性（特別用藥申請途徑）
 - 優化 TxGNN 知識圖譜的方向性編碼，明確區分「副作用邊」與「治療邊」，以降低本案所見的系統性假陽性率
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

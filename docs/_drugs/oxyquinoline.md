@@ -98,10 +98,10 @@ TxGNN 模型預測它可能對**骨關節炎 (Osteoarthritis)** 有效，
 - 取得 TFDA（或其他藥監局）官方仿單，解析警語與禁忌症（DG001，阻斷性缺口）
 - 釐清 Oxyquinoline 與 Clioquinol 在化學結構與藥理活性上的異同，避免將類似物證據直接套用
 - 若確認機轉合理，針對骨關節炎進行更聚焦的文獻與試驗檢索（目前查詢僅各命中 1 筆）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

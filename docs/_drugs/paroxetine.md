@@ -79,10 +79,10 @@ Ohdo 症候群是一種罕見體染色體顯性遺傳疾病（涉及 KAT6A、KAT
 - 補齊 Paroxetine 的作用機轉（MOA）與原始核准適應症資料（DrugBank API 查詢）
 - 取得 TFDA／香港仿單警語與禁忌症資料，解除阻斷性缺口
 - 進一步檢視 Paroxetine 與 KAT6A/KAT6B/MED12 相關通路是否存在間接機轉證據，否則建議降低此候選的後續投入優先序
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

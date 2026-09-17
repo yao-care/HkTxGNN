@@ -99,10 +99,10 @@ Phase 1 先導試驗（NCT01526096）已完成並發表，初步驗證 ASCT 情�
 - 補充 Basiliximab 詳細作用機轉（MOA）資料，確認 Treg 耗竭效應的生物標記（如 CD4⁺CD25⁺Foxp3⁺ Treg 比例）
 - 評估香港藥品取得可行性（目前未在港上市，需評估進口或研究用藥途徑）
 - 完整安全性資料補充：仿單警語、禁忌症、與標準 MM 治療藥物（如 bortezomib、lenalidomide）的交互作用
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

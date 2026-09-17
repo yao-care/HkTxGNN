@@ -139,10 +139,10 @@ Ofatumumab 目前**未在香港上市**，無有效許可證紀錄，因此無�
 - 向 DrugBank 查證並補齊正式 MOA 記錄（DG002）
 - 評估香港藥物註冊/引進可行性（目前 0 張許可證）
 - 持續追蹤 CLL/SLL 分子亞型（IGHV 突變狀態）之亞型層級證據，待資料成熟後重新評分
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

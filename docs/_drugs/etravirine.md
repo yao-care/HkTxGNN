@@ -101,10 +101,10 @@ Etravirine 在香港尚未取得藥物許可證，無上市記錄。
 - 補充作用機轉資料（DG002）：查詢 DrugBank API 取得完整 MOA 描述
 - 補充安全性資訊（DG001）：取得仿單警語、禁忌症及藥物交互作用資料
 - 針對先天性 HIV（Rank 5），確認 PIANO 研究及 FDA 兒科核准（6 歲以上）的完整文獻，評估香港申請許可的可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

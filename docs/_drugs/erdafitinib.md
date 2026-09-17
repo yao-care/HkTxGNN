@@ -113,10 +113,10 @@ Erdafitinib 用於肺動脈高壓目前完全缺乏臨床試驗與直接文獻�
 - 搜尋泛 FGFR 抑制劑類別（不限 Erdafitinib）用於 PAH 的預臨床及早期臨床文獻，確認類效應（class effect）可能性
 - 評估 PAH 患者族群（右心衰竭合併症）對 FGFR 抑制劑毒性的耐受性
 - 確認香港藥物申請策略（是否需先取得其他主要市場 PAH 適應症核准）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -125,10 +125,10 @@ Ivermectin 目前**未於香港上市**，無許可證資料。
 - 補齊 Ivermectin 詳細作用機轉資料（DG002，High）
 - 尋找具生物學合理性的體外/動物實驗數據，建立抗真菌或抗病毒機轉基礎
 - 若持續無法建立機轉支持，建議終止此系列預測適應症的探索
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

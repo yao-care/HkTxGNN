@@ -112,10 +112,10 @@ Haloperidol 的主要藥理作用為阻斷 D2 多巴胺受體，並兼具 D1、5
 - 從 DrugBank API 補充完整作用機轉說明（Data Gap DG002）
 - 委託罕見疾病代謝專家評估 GDP-fucose 路徑與多巴胺系統的可能交互假說
 - 若有意探索視網膜或近視方向，需先行排除 Haloperidol 本身的眼毒性風險，並改以多巴胺促進劑為研究方向
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

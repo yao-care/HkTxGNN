@@ -100,10 +100,10 @@ TxGNN 雖給予惡性腎血管性高血壓高達 99.68% 的預測分數，機轉
 - 以「Candesartan + renovascular hypertension」及「ARB + malignant hypertension + renal」為關鍵字進行系統性 PubMed 文獻回顧
 - 評估患者篩查策略：腎動脈影像確認是否存在雙側 RAS，以界定可安全使用 ARB 的目標族群
 - 參考同類 ARB（如 Losartan、Valsartan）在類似腎血管性高血壓適應症的間接臨床證據，作為佐證資料
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

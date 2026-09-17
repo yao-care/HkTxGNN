@@ -103,10 +103,10 @@ TxGNN 模型對骨關節炎給出 98.48% 的高預測分數，機轉層面亦有
 - 針對 eucalyptol 用於骨關節炎進行系統性文獻回顧（尤其體內研究）
 - 明確界定卟啉症患者的禁忌範圍，並評估肝病族群的 CYP450 交互作用風險
 - 確認香港衛生署對天然精油製劑作為藥品使用的登記要求與路徑
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

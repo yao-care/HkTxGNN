@@ -153,10 +153,10 @@ Selumetinib 於各候選適應症的機轉描述中被一致標註為「MEK1/2 �
 - 查明 NCT03095248（周邊神經鞘瘤試驗）終止原因，判斷是否為安全性訊號。
 - 若聚焦周邊神經鞘瘤 / NF2 相關腫瘤方向，建議進一步蒐集其他區域註冊試驗（如 ICTRP）與最新病例系列報告，補強 L3 → L2 的證據升級路徑。
 - 其餘 8 個 L5 候選建議暫不投入資源，除非未來出現前臨床或臨床證據。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

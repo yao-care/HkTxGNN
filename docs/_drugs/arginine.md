@@ -106,10 +106,10 @@ TxGNN 預測分數高（99.42%），機轉路徑（L-Arginine→nNOS→NO→胃�
 - 評估與現有胃輕癱標準治療（metoclopramide、domperidone）的藥物交互作用
 - 查核 L-Arginine 在香港的法規狀態（是否以食品補充品形式流通，是否需另行申請藥品許可證）
 - 補充 TFDA/衛生署仿單警語與禁忌症資料，完成正式安全性初評（S1 評估）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

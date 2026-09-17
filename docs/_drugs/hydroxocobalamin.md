@@ -92,10 +92,10 @@ Hydroxocobalamin（羥鈷胺）為維生素B12衍生物，過去用於維生素B
 - 取得原廠仿單警語與禁忌症資料，完成安全性初評（Data Gap DG001，屬 Blocking 等級，需先解決才能進入 S1 階段）
 - 針對「NO 清除作用是否能降低門脈壓」進行機轉層級的前臨床或藥理學文獻搜尋，以補強機轉關聯性
 - 持續監測是否有新登記的臨床試驗或病例報告，目前兩個相關搜尋（含/不含出血）皆無結果
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

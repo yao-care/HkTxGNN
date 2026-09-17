@@ -122,10 +122,10 @@ Iloprost 是吸入性前列環素（PGI2）類似物，透過活化 IP 受體、
 - 補充作用機轉（MOA）之正式藥理資料（DG002），強化機轉關聯性分析
 - 評估是否有進行中或規劃中的 Phase 2/3 RCT，特別針對小兒與 Eisenmenger 症候群族群
 - 釐清香港上市狀態與潛在的許可證申請路徑（目前為未上市、0 張許可證）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

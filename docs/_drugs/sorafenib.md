@@ -127,10 +127,10 @@ Sorafenib 本身（BAY 43-9006）已於一項 Phase 2 試驗（51 人，完成�
 - 補齊完整作用機轉（MOA）文獻，強化機轉關聯性分析
 - 針對脂肪肉瘤亞型（而非泛軟組織肉瘤）設計專屬臨床試驗
 - 評估香港上市或引進計畫（目前完全未上市，0 張許可證）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

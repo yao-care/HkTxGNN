@@ -134,10 +134,10 @@ Etodolac 的 COX-2 選擇性抑制機轉與強直性脊椎炎的前列腺素介�
 - 評估是否可透過 bibliographic application（文獻申請）申請香港上市
 - 針對目標族群（AS 患者）制定風險管理計畫，重點監測心血管及胃腸道安全性
 - 對於排名 4（Spondyloarthropathy susceptibility）、8（Rheumatoid Vasculitis）、9（Hypermobility of Coccyx）可列為**研究方向**，待機轉資料補齊後再評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

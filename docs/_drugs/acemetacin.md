@@ -100,10 +100,10 @@ Acemetacin 目前在香港**未上市**，無相關許可證紀錄。
 - 以 Indomethacin 在 OA 的臨床證據作為間接佐證，評估前驅藥轉換後的療效等效性
 - 確認其他國家/地區（如歐洲、日本）的上市狀態與核准適應症範圍
 - 若認為值得深入研究，設計 Acemetacin 對比現有 OA NSAID 療法的探索性 Phase 2 試驗方案
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

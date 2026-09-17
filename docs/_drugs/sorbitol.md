@@ -98,10 +98,10 @@ Sorbitol（DB01638）目前於香港**未取得任何藥品許可證**，無上�
 - 補齊 Sorbitol 的完整作用機轉（MOA）資料，釐清是否存在未被記錄的骨骼肌相關藥理作用
 - 取得 TFDA／香港衛生署仿單警語與禁忌症資料，完成基本安全性初評（S1）
 - 尋找是否有動物實驗或個案報告可佐證此關聯性，若持續無任何支持證據，建議直接排除此候選
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

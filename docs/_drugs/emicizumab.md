@@ -160,10 +160,10 @@ Emicizumab 是一種雙特異性 IgG4 單株抗體，能同時結合活化第IX�
 ---
 
 > ⚠️ **免責聲明**：本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用於臨床實踐。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

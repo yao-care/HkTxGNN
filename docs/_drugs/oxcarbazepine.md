@@ -114,10 +114,10 @@ indication_count: 5
 - 補齊 Oxcarbazepine 作用機轉（MOA）詳細資料，強化機轉關聯性論證
 - 針對視覺誘發型癲癇進行特異性臨床觀察或病例系列研究，而非僅依賴一般癲癇雙藥治療證據外推
 - 若考慮香港上市申請，需備妥當地藥品許可證申請所需資料
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

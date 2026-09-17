@@ -109,10 +109,10 @@ Iodixanol 目前**未於香港上市**，無許可證登記資料。
 - 取得 TFDA 仿單警語與禁忌症（DG001, Blocking），此為進入 S1 安全性初評的前提
 - 若後續要重新評估，建議針對「osteoarthritis susceptibility」與「osteoarthritis」進行疾病本體去重複檢查，避免同一疾病的不同節點重複計分
 - 目前不建議投入額外資源於此候選藥物之再利用開發
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

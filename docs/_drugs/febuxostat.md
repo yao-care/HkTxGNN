@@ -109,10 +109,10 @@ Febuxostat 用於腎性低尿酸血症預防 EIAKI 的機轉假說具備合理�
 - 尋找更多直接針對 RHUC/EIAKI 的前瞻性或隨機對照臨床試驗
 - 釐清 NCT04398251 試驗最終結果（狀態「未知」，且適應症為高尿酸血症，需評估其與 RHUC 的間接相關性）
 - 評估香港特殊患者用藥（Special Patient Programme）或進口申請之可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

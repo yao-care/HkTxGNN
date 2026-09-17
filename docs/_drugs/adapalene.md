@@ -95,10 +95,10 @@ ADAPALENE（DB00210）屬第三代合成類視黃醇（Synthetic Retinoid），�
 - 確認「血漿鋅升高」的臨床定義及其疾病負擔，評估是否具備足夠的再利用價值
 - 評估外用劑型系統性吸收量（生體可用率），確認是否有足夠血中濃度可影響鋅代謝
 - 查閱是否有類視黃醇藥物與鋅代謝相關的基礎研究，作為機轉橋接依據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

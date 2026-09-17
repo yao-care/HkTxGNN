@@ -102,10 +102,10 @@ Racecadotril 目前在香港**未上市**，查無許可證登記資料。
 - 取得正式仿單警語/禁忌資料以解除 Blocking 缺口
 - 針對排名較前但機轉不明的適應症（高澱粉酶血症），另行檢索胰臟外分泌相關文獻以驗證是否存在間接關聯
 - 在無實證支持前，不建議投入後續開發資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

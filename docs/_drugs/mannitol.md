@@ -84,10 +84,10 @@ TxGNN 模型預測它可能對**NSIAD（腎因性抗利尿激素分泌不當症�
 - 補齊香港/台灣仿單警語與禁忌症（DG001，Blocking，這是進入 S1 安全性初評的前提）
 - 尋找更具體針對 Mannitol 於 NSIAD/低血鈉治療的文獻或臨床試驗
 - 備註：本組候選中 rank 4「Malignant Hyperthermia, Susceptibility to」證據等級為 L4、已進入 S1（Research Question），機轉上有 Mannitol 輔助強迫利尿降低橫紋肌溶解腎損傷風險的支持性理由，若需優先資源投入可考慮改以該項目為主要研究方向。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

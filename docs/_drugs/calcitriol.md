@@ -122,10 +122,10 @@ Calcitriol 用於遺傳性低磷血症佝僂病（尤其 X 連鎖低磷血症）
 - 確認 NCT03820518 試驗的完成狀態及已發表結果
 - 就 calcitriol 與 burosumab 的臨床定位（替代/輔助/低資源地區一線）進行情境分析，明確再利用策略的目標族群
 - 對其他高評分預測（腎小管性酸中毒 L4、副甲狀腺功能低下症 L5）進行補充文獻搜尋，以現代術語更新搜尋策略
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -109,10 +109,10 @@ Niraparib 目前未在香港取得藥品許可證（`total_licenses = 0`），�
 - 確認正式 MOA 文件（DrugBank API 查詢），解除 DG002
 - 追蹤 NCT04716686、NCT04159155 之後續結果
 - 其餘 9 個預測適應症（epiglottis neoplasm、良性頭頸部腫瘤、cervical neuroblastoma 等，多為 L5/Hold）證據不足或機轉錯位，暫不建議推進；其中「pre-malignant neoplasm」雖有 13 筆試驗但多為其他惡性腫瘤籃式試驗誤配（L4/S1，Research Question），可列為長期觀察項目
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

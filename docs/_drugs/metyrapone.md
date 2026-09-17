@@ -85,10 +85,10 @@ TxGNN 模型預測它可能對**運動誘發型惡性高熱 (Exercise-Induced Ma
 - 補齊 TFDA（或當地藥監局）仿單警語與禁忌症（目前為 Blocking 等級資料缺口，無法進入 S1 安全性初評）
 - 補齊 Metyrapone 完整作用機轉資料（DrugBank API 查詢）
 - 尋找是否有獨立於 TxGNN 之外的藥理學或病例報告佐證此關聯，否則建議不投入進一步資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

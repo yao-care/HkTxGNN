@@ -86,10 +86,10 @@ Regadenoson 目前未在香港上市，無許可證資料。
 - 補充 DrugBank／原廠仿單之作用機轉、警語與禁忌症資料，填補 DG001、DG002 兩項資料缺口
 - 若仍評估引進香港市場，需先確認未上市原因及當地需求
 - 尋找機轉方向與已知藥理作用一致（而非矛盾）的其他候選適應症
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

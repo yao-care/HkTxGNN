@@ -96,10 +96,10 @@ TxGNN 模型預測它可能對**痤瘡 (Acne)** 有效，
 - 補齊 DrugBank 正式作用機轉資料（DG002）
 - 等待 NCT07237763 完成並公布結果，並釐清其適應症究竟為尋常性痤瘡或 Malassezia 毛囊炎
 - 評估台灣上市與許可證申請可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

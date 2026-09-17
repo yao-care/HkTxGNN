@@ -93,10 +93,10 @@ Mebendazole 是廣效苯并咪唑類驅蟲藥，臨床上用於腸道蠕蟲感�
 - 取得 mebendazole 完整作用機轉 (MOA) 資料
 - 取得仿單警語/禁忌資料以解除 Blocking 缺口
 - 尋找探討 mebendazole 對皮脂腺/痤瘡病理直接作用的體外或體內研究，補強機轉合理性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

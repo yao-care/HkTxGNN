@@ -130,10 +130,10 @@ Chloramphenicol 的作用機轉為結合細菌 50S 核糖體的 23S rRNA，抑�
 | 9 | 點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis) | 99.17% | ⛔ Hold | 文獻均聚焦微孢子蟲（真核原蟲），氯黴素無直接機轉支持 |
 
 > 本報告僅供研究參考，不構成醫療建議。藥物再利用候選需經臨床驗證後方可應用。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

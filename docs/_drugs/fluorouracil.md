@@ -146,10 +146,10 @@ Fluorouracil 為氟嘧啶類抗腫瘤藥物，屬傳統細胞毒性藥物，須�
 - **聚焦肝肉瘤文獻深度盤查**：區分「原發性肝肉瘤（PLS）」與「消化道癌肝轉移」的 5-FU 相關文獻，確認真正相關的直接人體數據
 - **鐮刀型細胞疾病（Rank 8–10）直接排除**：機轉矛盾，不建議任何後續評估
 - 若後續評估聚焦肝肉瘤，建議與肝臟腫瘤外科及血液腫瘤科共同設計 Pilot 研究方案
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

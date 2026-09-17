@@ -116,10 +116,10 @@ Phenylephrine 是選擇性 α1-腎上腺素受體促效劑，臨床上常作為�
 - 補充 DDI 資料以支援後續安全性評估
 
 **補充：** 同批預測中另有兩個候選——急性喉咽炎（acute laryngopharyngitis, L5, Hold，無任何臨床試驗或文獻）與三叉自律神經性頭痛（trigeminal autonomic cephalalgia, L4, Hold）。後者雖有 16 篇文獻，但內容幾乎全為以 phenylephrine 作為瞳孔藥理學診斷探針（鑑別 Horner's syndrome），並非治療性介入證據，兩者證據強度均不足以支持推進。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

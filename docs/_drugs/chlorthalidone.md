@@ -100,10 +100,10 @@ Chlorthalidone 目前**未在香港上市**，無任何有效許可證。
 - 取得原廠仿單，確認主要警語、禁忌症及藥物交互作用
 - 評估香港藥監申請路徑（目前零許可證，若有再利用潛力需規劃完整法規策略）
 - 考慮在 Rank 8（慢性肺心病）和 Rank 9（急性肺心病）進行優先深化，因該方向有少量直接文獻及臨床試驗可供分析
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

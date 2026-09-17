@@ -109,10 +109,10 @@ ADHD 的病理生理與多巴胺系統功能不足高度相關，臨床上常用
 - 取得原廠或國際仿單的警語、禁忌症與藥物交互作用資料
 - 檢索是否存在正式登記的 ADHD 相關臨床試驗（如 ClinicalTrials.gov、ICTRP）
 - 若無正式試驗，建議先規劃小規模前驅性/機轉導向臨床研究，再評估是否進入下一階段
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

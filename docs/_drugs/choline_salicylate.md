@@ -146,10 +146,10 @@ Choline Salicylate 在台灣目前**未上市**，無任何藥品許可證登記
 3. 評估現代 RA 指引中是否仍有水楊酸鹽類輔助消炎的利基（例如：MTX 不耐受患者、老年患者短期消炎）
 4. 評估偏頭痛方向的 class effect 假設是否值得設計新研究（考量 aspirin 已有 IHS Grade A 推薦）
 5. 台灣藥品許可證申請可行性分析（目前 0 張許可證，須評估法規路徑）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

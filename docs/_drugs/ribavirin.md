@@ -128,10 +128,10 @@ HBV 則是 DNA 病毒，複製途徑（經逆轉錄酶）與 HCV 完全不同，
 - 補齊完整 MOA 資料（DG002，High，來源：DrugBank API）
 - 若欲繼續驗證，需針對 HBV（而非 HCV）設計專屬體外/體內機轉研究，確認 Ribavirin 是否對 HBV 複製有直接抑制作用
 - 在缺乏直接 HBV 證據前，不建議投入後續資源
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

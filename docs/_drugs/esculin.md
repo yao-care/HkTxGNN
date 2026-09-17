@@ -93,10 +93,10 @@ ESCULIN 在香港未上市、無已核准適應症、無閉經相關臨床試驗
 - 取得 ESCULIN 的安全性資料（警語、禁忌、藥物交互作用）
 - 搜尋 ESCULIN 或其母化合物（Esculetin）在婦科或內分泌領域的前臨床研究
 - 若前臨床數據支持，才考慮規劃 Phase 1/2 試驗設計
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -97,10 +97,10 @@ TxGNN 模型預測它可能對**放射性骨壞死 (Osteoradionecrosis)** 有效
 - 系統性評估 SMON 及粒線體毒性與本藥的關聯程度，確認藥物類別是否仍具開發可行性
 - 開展前臨床機轉研究，確立本藥對放射性骨組織損傷的直接作用路徑
 - 評估給藥途徑相容性——本藥為口服腸腔局部劑型，與骨組織標靶存在根本性不相容問題
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -121,10 +121,10 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，
 - 取得香港（或參考地區）仿單警語與禁忌症資料，解除 Blocking 缺口（DG001）
 - 完成待分類文獻（多筆 `classification.study_type` 及 `relevance` 為 pending）之系統性分級
 - 評估 sirolimus 現有劑型是否符合脂肪肉瘤治療所需給藥途徑
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

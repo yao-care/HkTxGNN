@@ -96,10 +96,10 @@ TxGNN 同時將十二指腸阻塞列為候選（分數 99.68%，評分略低於 
 - 補充 DrugBank 詳細作用機轉資料（DG002）
 - 針對次要候選「十二指腸阻塞」設計更直接的臨床研究，驗證 PPI 是否能降低潰瘍相關阻塞復發率
 - 追蹤 pmid 15052437 動物實驗訊號是否有後續人體資料佐證或反駁致癌風險，此為推進 DGR 候選前的必要前置查證
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

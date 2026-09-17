@@ -112,10 +112,10 @@ TxGNN 模型預測它可能對**血小板原發性釋放障礙 (Primary Release 
 - 補齊 DrugBank／原廠仿單之作用機轉資料（DG002）
 - 取得完整藥物警語與禁忌症資料以解除 Blocking 缺口，方能進入 S1 安全性初評（DG001）
 - 若欲另闢方向，建議優先評估排名第 4 之候選適應症「後天性凝血因子缺乏症」，其機轉與 FVIII 藥理較為一致，且已有 13 個臨床試驗、4 篇文獻可供分析
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

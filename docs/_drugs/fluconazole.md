@@ -100,10 +100,10 @@ TxGNN 預測分數雖高（99.24%），但點狀上皮角結膜炎並非真菌�
 - 確認香港上市狀態：查閱衛生署資料庫，補齊許可證及仿單警語資訊（DG001）
 - 補充 MOA 詳細資料：查詢 DrugBank API 取得完整藥理機轉（DG002）
 - 若基礎依據確立後，再考慮設計針對真菌性 PEK 的前瞻性觀察性研究
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

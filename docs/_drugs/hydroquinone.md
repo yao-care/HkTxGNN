@@ -114,10 +114,10 @@ Hydroquinone 目前**未在香港上市**，無許可證登記資料。
 - 補齊 DrugBank 作用機轉正式資料（DG002）
 - 針對「exanthem」候選之疾病映射進行人工複核，釐清是否為 hyperpigmentation/melasma 標籤錯誤
 - 若脂漏性角化病（特別是 DPN 亞型）仍為優先候選，建議設計小型前驅性研究驗證色素改善效果，並釐清文獻 33046430 與本適應症的實際關聯性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

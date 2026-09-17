@@ -92,10 +92,10 @@ Cisatracurium 屬苯甲基異喹啉類非去極化 NMBA，作用機轉為競爭�
 - 先排除情境性混淆假說，確認是否存在獨立的生物學機轉假設
 - 取得香港原廠仿單，補充完整警語與禁忌資訊（Data Gap DG001）
 - 補充藥物詳細作用機轉資料（Data Gap DG002）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

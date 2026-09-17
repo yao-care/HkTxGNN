@@ -107,10 +107,10 @@ Emtricitabine 在香港目前**無任何獨立藥品許可證登記**（許可�
 - 查明香港 Truvada® 等複方製劑的現行許可證狀態
 - 補充 MOA 詳細資料（建議查詢 DrugBank API DB00879）
 - 取得原廠仿單安全性資料（警語、禁忌症、藥物交互作用）以完成 S1 安全性初評
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

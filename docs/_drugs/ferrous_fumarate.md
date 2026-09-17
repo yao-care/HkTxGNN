@@ -91,10 +91,10 @@ Ferrous Fumarate（亞鐵富馬酸鹽）是常見的鐵質補充劑，主要用�
 - 尋找任何鐵代謝與食道胚胎發育的基礎研究文獻
 - 補充安全性資料（警語、禁忌症）
 - 確認香港是否有任何藥品許可紀錄（目前顯示未上市）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -121,10 +121,10 @@ TxGNN 模型所識別到的乙醇與偏頭痛高度關聯（99.29%），反映�
 - 確認 TxGNN 知識圖譜中乙醇與偏頭痛的邊（edge）類型是否包含「觸發/加重」關係（而非「治療」關係），以提升模型的預測方向性
 - 探討乙醇代謝相關靶點（如 TRPA1、CGRP 受體、ADH2 酶）作為偏頭痛治療的潛在切入點（以相關抑制劑，而非乙醇本身作為候選藥物）
 - 針對此類「反向關聯」案例，建立預測結果的自動過濾機制，避免已知有害物質被誤判為再利用候選
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

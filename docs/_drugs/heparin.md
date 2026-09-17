@@ -98,10 +98,10 @@ Heparin 是臨床廣泛使用的抗凝劑，透過增強 Antithrombin III 活性
 - 下載原廠仿單 PDF 解析主要警語及禁忌症（DG001 Blocking 缺口）
 - 確認香港衛生署藥物辦公室是否有 Heparin 製品（注射劑）的上市登記
 - 評估與蛋白C濃縮製劑（Protein C concentrate）及新鮮冷凍血漿（FFP）的聯合治療可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -110,10 +110,10 @@ TxGNN 模型對此藥產生 5 個高分（>99.9%）預測適應症，但**全數
 - 補齊 DrugBank MOA 資料以進行正式機轉關聯性分析（DG002，High）
 - 針對本藥已知的 α1A 拮抗機轉，重新檢索與泌尿/攝護腺系統相關的候選適應症，取代目前這批罕見病雜訊候選
 - 若持續在稀疏節點（罕見病）產生高分雜訊，建議檢視 TxGNN 模型在此類節點上的信心校正方法
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

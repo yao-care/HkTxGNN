@@ -183,10 +183,10 @@ TDP-43 胞質聚集體為 ALS 最核心病理標誌（>97% 患者陽性）。202
 - 評估 Abemaciclib 血腦屏障穿透性的定量數據
 - 設計 ALS 概念驗證（Proof of Concept）研究方案，包含安全性監測計畫（QTc、CBC）
 - 補全 TFDA 仿單警語與禁忌症資料（Data Gap DG001）以完成安全性初評
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

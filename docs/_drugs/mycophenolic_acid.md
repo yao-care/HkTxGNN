@@ -115,10 +115,10 @@ DrugBank 未提供 MYCOPHENOLIC ACID 的正式作用機轉紀錄（Data Gap）�
 - 查詢 DrugBank API 取得正式作用機轉資料，強化機轉關聯性分析（DG002）
 - 釐清此候選為「移植輔助用藥」定位還是可獨立申請之適應症，以決定後續開發路徑
 - 追蹤香港上市／許可證現況（目前 0 張許可證，未上市）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

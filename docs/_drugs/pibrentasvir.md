@@ -113,10 +113,10 @@ Pibrentasvir 專一抑制 HCV NS5A 蛋白，其標靶是 HCV RNA 複製複合體
 - 補齊 MOA 正式資料與仿單警語／禁忌症（解除 DG001、DG002）
 - 若仍欲探索 HBV 適應症，需先取得體外／動物模式的直接抗 HBV 藥效學證據，證明 NS5A 抑制劑對 HBV 複製有實質抑制作用
 - 重新檢視 TxGNN 對本藥物的其餘預測結果（HIV、HEV、HAV 等候選皆呈現相同假陽性模式），評估是否為該藥物節點在知識圖譜中的嵌入異常
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

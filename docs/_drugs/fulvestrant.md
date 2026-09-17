@@ -111,10 +111,10 @@ TxGNN 預測分數雖高（99.91%），但機轉連結為雙重間接推論（�
 - **MOA 資料補全**：確認 ER-α 路徑在 HIV 感染宿主免疫中的實際角色（而非 HTLV-1 模型的推論）
 - **安全性仿單**：取得原廠完整警語、禁忌症及 DDI 資料
 - **藥物交互作用評估**：尤其需評估與現行抗反轉錄病毒療法（ART）的潛在交互作用
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

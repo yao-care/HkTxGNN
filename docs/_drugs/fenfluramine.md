@@ -96,10 +96,10 @@ Fenfluramine（芬氟拉明）是一種血清素能藥物，近年以 Fintepla �
 - 尋找 fenfluramine 用於 16p11.2 或相關神經發育症候群癲癇亞群的前臨床研究（動物模型、病理機轉研究）
 - 確認 16p11.2 近端微缺失患者中癲癇亞群的比例與神經電生理表現型特徵
 - 評估心臟瓣膜安全性監測計畫在新適應症患者族群中的可行性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

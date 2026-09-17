@@ -97,10 +97,10 @@ Galcanezumab 目前在香港**尚未取得上市許可**，無任何有效許可
 - 補齊香港仿單警語與禁忌（DG001）
 - 由藥理學專家評估 CGRP 信號路徑與凝血酶調控之間是否存在任何間接交互作用的最新文獻
 - 確認 TxGNN 預測是否因「thrombophilia cluster」所致，若確認則應將此類疾病群整批降為低優先級
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -103,10 +103,10 @@ TxGNN 分數雖高，但核心文獻顯示硒在 PSC 病人體內是**蓄積而�
 - 硒的 DrugBank 完整 MOA 資料
 - 香港/原廠仿單警語與禁忌症資料（DG001）
 - 至少 1 個探索性臨床研究或病例對照研究，直接檢驗硒補充是否對 PSC 有治療效果
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -92,10 +92,10 @@ Lapatinib 為標靶型酪氨酸激酶抑制劑（EGFR/HER2），非傳統細胞�
 - 取得 TFDA（或當地藥監局）仿單警語與禁忌症資料，以完成 S1 安全性初評
 - 補齊 Lapatinib 完整 MOA 與原始適應症資料，重新驗證機轉關聯性
 - 針對 DFSP 或 PDGFR 相關腫瘤搜尋是否有 lapatinib 的臨床前或個案報告證據，目前查詢結果均為 0 筆
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

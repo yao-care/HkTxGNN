@@ -97,10 +97,10 @@ Hesperidin 是柑橘類水果（橙子、柚子、檸檬）果皮中含量最豐
 - 評估 Hesperidin 口服生物可用率與體內有效血漿濃度（PK/PD 資料）
 - 完成安全性資料收集（TFDA 仿單警語與禁忌症）
 - 優先考慮以**骨髓性白血病（Rank 8，L4，Research Question）**為研究切入點，該適應症擁有 16 篇體外研究文獻，生物學機轉較完整，具備開展正式研究問題的初步依據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

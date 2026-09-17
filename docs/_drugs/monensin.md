@@ -93,10 +93,10 @@ Monensin 目前**未在香港取得任何藥品許可證**（許可證數：0）
 - 取得 TFDA／HK 相關仿單警語與禁忌症資料，解除 Blocking 缺口
 - 針對排名第 1 的胃食道逆流症預測，另行搜尋是否有動物實驗或體外機轉研究可佐證
 - 檢視並剔除候選清單中非疾病實體的節點映射錯誤項目
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

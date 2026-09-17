@@ -105,10 +105,10 @@ BDP 是一種強效合成糖皮質素，透過與皮膚角質細胞及免疫細�
 - **頭對頭比較**：與已上市 AD 局部類固醇（如 Mometasone Furoate、Hydrocortisone butyrate）進行直接療效與安全性比較
 - **長期安全性監測計畫**：特別針對兒童族群的線性生長、骨密度及腎上腺功能
 - **製劑最佳化驗證**：在人體確認奈米製劑是否確實降低全身暴露，提供現代化的藥動學數據
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

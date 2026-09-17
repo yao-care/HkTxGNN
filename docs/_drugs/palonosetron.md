@@ -102,10 +102,10 @@ Palonosetron 目前未在香港取得藥物許可證，無上市紀錄。
 - 補齊 DrugBank 作用機轉資料（DG002）
 - 釐清 Palonosetron 與偏頭痛的方向性爭議：是否有其他文獻或試驗支持「治療」而非「誘發」偏頭痛
 - 若無法釐清方向矛盾，建議不再投入資源於此候選適應症
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -107,10 +107,10 @@ Sumatriptan 是選擇性 5-HT1B/1D 受體促效劑，作用機轉為收縮特定
 - 取得完整 MOA 資料以確認機轉關聯性（對應 DG002）
 - 若欲重新評估，需先有針對腦幹先兆偏頭痛族群的安全性研究，釐清現行禁忌是否仍適用於現代劑型/劑量
 - 在安全性疑慮未解除前，本候選建議維持排除狀態，而非列為再利用機會
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

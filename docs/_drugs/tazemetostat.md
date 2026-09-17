@@ -116,10 +116,10 @@ Tazemetostat 目前**未於香港上市**，無有效許可證。
 - 補齊作用機轉 (MOA) 完整資料（DG002, High）
 - 確認香港上市與許可證狀態
 - 針對 ccRCC 設計早期臨床試驗（目前無 disease-specific 試驗登記）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

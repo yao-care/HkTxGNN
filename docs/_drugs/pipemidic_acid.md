@@ -89,10 +89,10 @@ TxGNN 模型預測它可能對**心臟疾病 (Heart Disease)** 有效（分數 9
 - 取得完整作用機轉 (MOA) 資料以支持或推翻機轉關聯性假設
 - 若要繼續評估心臟疾病方向，需先有獨立的機轉假說或臨床前研究，而非僅依賴目前的 TxGNN 分數
 - 排名第 2-5 之候選適應症因無任何證據且機轉不合理，建議不予進一步評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

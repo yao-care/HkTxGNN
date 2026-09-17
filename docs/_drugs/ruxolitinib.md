@@ -121,10 +121,10 @@ Ruxolitinib 目前於香港**未上市**，無任何許可證登記資料（`tot
 - 補齊 DG002（DrugBank MOA 查詢，High）——確認 Ruxolitinib 的正式作用機轉與適應症範圍。
 - 針對 Liposarcoma 候選，建議規劃體外/體內驗證性研究，確認 Ruxolitinib 對 FUS-DDIT3 陽性黏液樣脂肪肉瘤細胞株的 JAK-STAT 抑制效果。
 - 針對 PEComa 家族候選，建議重新檢視 TxGNN 圖譜鄰近性是否造成分數虛高，必要時降低其後續資源投入優先度。
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

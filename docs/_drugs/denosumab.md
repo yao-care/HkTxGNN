@@ -108,10 +108,10 @@ TxGNN 模型預測它可能對**嚴重非增殖型糖尿病視網膜病變 (Seve
 - 評估 Denosumab 在香港的可及性（目前未上市，需釐清上市路徑）
 - 諮詢眼科及糖尿病領域臨床專家，評估假說是否具探索性研究價值
 - 若基礎研究發現支持，可設計探索性臨床前研究（糖尿病動物模型眼部評估）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

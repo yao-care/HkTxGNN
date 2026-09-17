@@ -101,10 +101,10 @@ Interferon Beta-1b（DrugBank ID: DB00068）目前在香港未上市，原適應
 ---
 
 *附注：本 Evidence Pack 亦包含第二筆預測適應症「autoimmune disease of central nervous system」（TxGNN 分數 99.02%），該項目擁有 24 個臨床試驗與 18 篇文獻，證據量遠高於毛細胞白血病，實質對應已知的多發性硬化症用途，可作後續報告的獨立主題。*
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

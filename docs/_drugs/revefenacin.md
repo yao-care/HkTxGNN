@@ -83,10 +83,10 @@ Revefenacin 目前於香港未上市，無許可證登記。
 - 補齊作用機轉資料（DG002）
 - 若持續聚焦支氣管炎，需取得以此適應症為明確療效終點設計的臨床試驗證據
 - 建議評估團隊同時檢視同一藥物對「阻塞性肺病」的候選結果（L1 證據、Proceed with Guardrails），其證據基礎顯著更成熟，可能是更值得優先推進的方向
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

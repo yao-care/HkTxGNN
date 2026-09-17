@@ -99,10 +99,10 @@ Allopurinol 透過抑制黃嘌呤氧化酶（Xanthine Oxidase, XO）來減少尿
 - 取得香港（HKDOH）及台灣（TFDA）仿單警語與禁忌，完成 S1 安全性初評
 - 評估是否有其他更具機轉合理性、且無反向安全疑慮的 XO 抑制適應症值得優先探索
 - 在安全性評估完成前，不建議進行任何針對本清單中任一適應症的研究設計
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

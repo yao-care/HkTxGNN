@@ -94,10 +94,10 @@ ICOSAPENT ETHYL 目前尚未於台灣上市，許可證數為 0，無許可證�
 - 查詢 DrugBank 取得 ICOSAPENT ETHYL 的作用機轉（MOA）資料
 - 尋找針對 ICOSAPENT ETHYL 本身（而非類似物）於血紅蛋白病相關動物或臨床前研究的直接證據
 - 若後續考慮發展，需評估台灣上市與適應症申請路徑
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

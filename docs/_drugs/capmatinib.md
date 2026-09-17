@@ -115,10 +115,10 @@ Capmatinib 為抗腫瘤靶向治療藥物（MET 激酶抑制劑），屬抗腫�
 - **補全作用機轉資料（DG002）**：查詢 DrugBank API 以完整描述 MOA
 - **補全安全性資料（DG001）**：取得 FDA/EMA 仿單的警語、禁忌症及主要不良反應
 - **香港上市可行性評估**：Capmatinib 目前香港未上市，若有意推進需先評估藥品取得與監管路徑
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

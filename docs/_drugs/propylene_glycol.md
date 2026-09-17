@@ -96,10 +96,10 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效（預測分�
 - 補齊 TFDA 仿單警語/禁忌症資料，解除 S1 安全性初評的 Blocking 缺口（DG001）
 - 取得 DrugBank 或其他來源的丙二醇作用機轉資料（DG002）
 - 針對丙二醇本體（而非衍生物或作為賦形劑角色）在支氣管炎/糖尿病視網膜病變的直接體外或機轉研究，以釐清是否存在真實治療潛力
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

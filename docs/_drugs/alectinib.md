@@ -125,10 +125,10 @@ Rank 5 節點的 L1 等級證據（ALINA、ALEX、J-ALEX、ALESIA 四個 Phase 3
 - **補全安全性資料**：取得原廠完整仿單（DG001），建立 Alectinib DrugBank MOA 記錄（DG002）
 - **ALK+ 神經內分泌腫瘤再利用**：持續追蹤 NCT05770037（DETERMINE）試驗結果；評估香港及亞洲地區 LCNEC 患者中 ALK 陽性率的流行病學數據；考慮病例登錄研究（registry study）積累本地數據
 - **香港 ALK+ NSCLC 引進**：估算患者族群規模（約 3–5% NSCLC 攜帶 ALK 重排）；向衛生署提交特別醫療製品申請或正式新藥申請；建立 ALK 伴隨診斷（companion diagnostics）平台以確保符合精準用藥需求
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

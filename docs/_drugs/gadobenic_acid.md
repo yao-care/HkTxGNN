@@ -95,10 +95,10 @@ Gadobenic acid 是診斷性 MRI 顯影劑，不具已知治療活性。TxGNN 的
 - 將此藥物標記為「純診斷性顯影劑」，在 TxGNN KG 中加入排除標記（如 `drug_class: contrast_agent`），避免後續預測重複產生同類假陽性
 - 若需研究「釓顯影劑 + 疾病診斷」的應用，應改以影像生物標記（biomarker）研究框架處理，而非老藥新用框架
 - 無須進行進一步的老藥新用評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

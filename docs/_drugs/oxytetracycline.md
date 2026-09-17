@@ -84,10 +84,10 @@ Oxytetracycline 是四環黴素（Tetracycline）類廣效抗生素成分之一�
 ---
 
 *附註：本資料集另列出 4 個同屬 L5、Hold 狀態的候選適應症（chronic ethmoidal sinusitis、paranasal sinus neoplasm、punctate epithelial keratoconjunctivitis、postinfectious vasculitis），其中 paranasal sinus neoplasm 因與 Oxytetracycline 已知藥理無直接關聯，需留意是否為知識圖譜雜訊；punctate epithelial keratoconjunctivitis 因四環黴素眼用製劑有傳統抗菌適應症基礎，機轉合理性相對較高，可留待後續資料補齊後一併評估。*
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

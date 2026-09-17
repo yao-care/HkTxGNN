@@ -102,10 +102,10 @@ Aminocaproic Acid 在台灣**尚未取得上市許可**，目前無任何登記�
 - 評估台灣 TFDA 仿單警語與禁忌，排除眼科用途的安全禁忌
 - 取得台灣藥品許可前，需評估藥品可及性及引進路徑
 - 如初步文獻支持，建議先進行 Phase 1 前臨床安全性評估（動物眼科模型）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

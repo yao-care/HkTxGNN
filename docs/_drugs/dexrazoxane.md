@@ -111,10 +111,10 @@ PSC 的核心病理機制（免疫纖維化、膽汁酸毒性）與 Dexrazoxane 
 - 查閱 TFDA / EMA / FDA 仿單警語與禁忌（填補 DG001）
 - 設計動物模型（CYP 誘發 HC 大鼠模型）驗證 Dexrazoxane 膀胱保護效果
 - 評估 Dexrazoxane 與 Mesna 聯合使用的安全性與協同性
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

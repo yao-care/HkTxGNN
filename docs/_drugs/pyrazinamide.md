@@ -89,10 +89,10 @@ TxGNN 分數雖然極高，但「感染性中耳炎」這個預測完全無臨�
 - 補齊 TFDA／香港仿單警語與禁忌症資料（DG001，Blocking，阻擋 S1 安全性初評）
 - 取得正式 DrugBank MOA 資料以確認機轉描述（DG002）
 - 確認香港上市與許可證狀態
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

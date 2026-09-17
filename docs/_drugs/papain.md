@@ -122,10 +122,10 @@ TxGNN 模型對此藥物產生了 10 個預測適應症，分數最高者為**�
 - 取得香港/其他地區仿單警語與禁忌症資料，以完成 S1 安全性初評（DG001）
 - 若持續評估血小板相關適應症，需針對「papain 作為血小板膜蛋白裂解試劑」與「papain 具治療性血小板調節機轉」進行機轉層級的區分驗證，避免文字共現造成的假陽性判讀
 - 若無法取得上述資料，建議將本候選案自優先開發清單中移除
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

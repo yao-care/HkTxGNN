@@ -103,10 +103,10 @@ Flutamide 是一種非類固醇型抗雄激素藥物，透過競爭性拮抗雄�
 - 查詢 DrugBank API 取得正式 MOA 資料
 - 提供「腦癌易感性」與 AR 訊號路徑的機轉連結依據（目前文獻不支持）
 - **建議優先評估 Rank 4（良性生殖系統腫瘤，L3 等級）**：PMID 1722793 為 1991 年前瞻性研究，直接驗證 Flutamide 對良性前列腺增生（BPH）患者的前列腺縮小與 PSA 下降效果，合計有 19 篇相關文獻，證據基礎遠優於本預測，更值得作為下一步評估優先項目
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

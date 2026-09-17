@@ -104,10 +104,10 @@ TxGNN 模型預測其外用劑型可能對**脂漏性皮膚炎 (Seborrheic Derma
 - 補齊 DrugBank MOA 完整資料，用以強化機轉關聯性分析（DG002，High）
 - 確認 Tacrolimus 外用劑型（軟膏）在香港之上市／引進計畫，因目前無許可證，臨床落地前需先解決法規上市路徑
 - 補充藥物交互作用（DDI）查詢結果，目前 `query_status: not_found`
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

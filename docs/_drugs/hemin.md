@@ -127,10 +127,10 @@ Hemin 目前在香港**未上市**，查無任何藥品許可證登記。如需�
 3. 評估香港或其他地區的 Hemin 藥品可及性（compassionate use / 特殊進口）
 4. 設計驗證性前驅研究：人類 PBMC 體外模型或非人靈長類模型中驗證 Hemin 的 HO-1 誘導效應對 FVIII 抑制劑的影響
 5. 進行完整的 DDI 評估（與現行血友病治療藥物的交互作用）
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

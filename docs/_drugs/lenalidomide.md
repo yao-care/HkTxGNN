@@ -114,10 +114,10 @@ MDS 與急性骨髓性白血病 (AML) 同屬骨髓造血幹細胞的克隆性疾
 - 補充 DrugBank 完整 MOA 資料（DG002）
 - 評估香港上市/引進管道
 - 進一步檢視 NCT01029262（唯一完成之 Phase 3 RCT）及 azacitidine 併用試驗的最終療效數據，確認是否足以支持下一階段臨床評估
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

@@ -124,10 +124,10 @@ indication_count: 5
 - 補齊 DrugBank 完整 MOA 與 original_indications 欄位，釐清真正的「新」適應症基準線
 - 針對胃空腸吻合口潰瘍、消化性潰瘍穿孔等真正具延伸性的候選方向，規劃前臨床或觀察性研究以補強證據
 - 追蹤 NDMA 雜質風險是否已有解決方案（如替代合成製程），此為上市前提
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 

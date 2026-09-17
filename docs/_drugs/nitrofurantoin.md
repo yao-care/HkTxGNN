@@ -111,10 +111,10 @@ TxGNN 分數雖高，但無任何臨床試驗支持，機轉上也缺乏生物�
 - 取得完整作用機轉 (MOA) 資料以評估機轉關聯性
 - 若欲繼續探索此方向，需先有體外或動物實驗證據支持潛在抗發炎機轉
 - 否則建議將此候選標記為知識圖譜偽陽性並排除
-## Disclaimer
+## 免責聲明
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+本內容僅供研究參考，不構成醫療建議。
+所有老藥新用預測結果需經過臨床驗證才能應用。
 
 ---
 
