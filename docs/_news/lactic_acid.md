@@ -25,16 +25,16 @@ permalink: /news/lactic_acid/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>預測適應症（10 個）</strong>:<ul>
-<li>Atypical coarctation of aorta | 99.59% | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Aortic malformation | 99.35% | L4 | 9 | 20 | Hold (99.0%)</li>
-<li>Non-syndromic esophageal malformation | 99.23% | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Amenorrhea (disease) | 99.16% | L5 | 2 | 5 | Hold (99.0%)</li>
-<li>Dry eye syndrome | 99.13% | L4 | 6 | 9 | Hold (99.0%)</li>
-<li>Esophageal disease | 98.94% | L4 | 27 | 20 | Hold (99.0%)</li>
-<li>DORV + AVSD + PS + heterotaxy | 98.82% | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>淚道系統異常 | 98.77% | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Eye disease | 98.68% | L4 | 50 | 20 | Hold (99.0%)</li>
-<li>Cauda equina syndrome | 98.67% | L5 | 0 | 0 | Hold (99.0%)</li>
+<li>atypical coarctation of aorta (99.6%)</li>
+<li>aortic malformation (99.3%)</li>
+<li>non-syndromic esophageal malformation (99.2%)</li>
+<li>amenorrhea (disease) (99.2%)</li>
+<li>dry eye syndrome (99.1%)</li>
+<li>esophageal disease (98.9%)</li>
+<li>double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy (98.8%)</li>
+<li>excretory apparatus of the lacrimal system anomaly (98.8%)</li>
+<li>eye disease (98.7%)</li>
+<li>cauda equina syndrome (98.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/lactic_acid/' | relative_url }}">查看完整藥物報告 →</a></p>

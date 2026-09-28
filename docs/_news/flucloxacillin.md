@@ -3,7 +3,7 @@ layout: default
 title: "Flucloxacillin 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Flucloxacillin 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Flucloxacillin 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
 permalink: /news/flucloxacillin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/flucloxacillin/
 ---
 
 <p class="key-answer" data-question="Flucloxacillin 有什麼相關新聞？">
-<strong>Flucloxacillin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>Flucloxacillin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ permalink: /news/flucloxacillin/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>: L5</li>
+<li><strong>預測適應症（10 個）</strong>:<ul>
+<li>conjunctivitis (99.8%)</li>
+<li>rheumatoid arthritis (99.8%)</li>
+<li>leprosy (99.8%)</li>
+<li>Prinzmetal angina (99.8%)</li>
+<li>conjunctivitis (disease) (99.7%)</li>
+<li>brachydactyly-syndactyly syndrome (99.7%)</li>
+<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.7%)</li>
+<li>thrombotic disease (99.7%)</li>
+<li>antithrombin deficiency type 2 (99.6%)</li>
+<li>factor 5 excess with spontaneous thrombosis (99.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/flucloxacillin/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

@@ -26,16 +26,16 @@ permalink: /news/bimekizumab/
 <ul>
 <li><strong>證據等級</strong>: L5</li>
 <li><strong>預測適應症（10 個）</strong>:<ul>
-<li>糖尿病性白內障 (Diabetic Cataract) | 98.23% | 弱（三階間接路徑） | Hold (99.0%)</li>
-<li>成熟期白內障 (Mature Cataract) | 98.12% | 極弱（終末期，手術才有效） | Hold (99.0%)</li>
-<li>顱縫早閉相關白內障 (Craniostenosis Cataract) | 98.12% | 極低（FGFR 基因突變，高度疑似偽陽性） | Hold (99.0%)</li>
-<li>第2型糖尿病相關白內障 | 98.12% | 弱（同 Rank 1，多步驟假設鏈） | Hold (99.0%)</li>
-<li>手足搐搦性白內障 (Tetanic Cataract) | 98.12% | 無（電解質代謝疾病，幾乎確定偽陽性） | Hold (99.0%)</li>
-<li>未成熟白內障 (Immature Cataract) | 98.12% | 極弱（分期分類，非獨立疾病） | Hold (99.0%)</li>
-<li>皮質性白內障 (Cortical Cataract) | 98.09% | 極弱（氧化機轉，無眼科研究支持） | Hold (99.0%)</li>
-<li>核性老年白內障 (Nuclear Senile Cataract) | 98.09% | 極弱（老化過程，IL-17 非關鍵因子） | Hold (99.0%)</li>
-<li>老年性白內障 (Senile Cataract) | 98.03% | 極弱（多因子疾病，IL-17 軸無文獻假設） | Hold (99.0%)</li>
-<li>抗凝血酶缺乏症2型 (Antithrombin Deficiency Type 2) | 97.96% | 極弱（基因性凝血疾病，機轉薄弱） | Hold (99.0%)</li>
+<li>diabetic cataract (98.2%)</li>
+<li>mature cataract (98.1%)</li>
+<li>craniostenosis cataract (98.1%)</li>
+<li>diabetes mellitus type 2 associated cataract (98.1%)</li>
+<li>tetanic cataract (98.1%)</li>
+<li>immature cataract (98.1%)</li>
+<li>cortical cataract (98.1%)</li>
+<li>nuclear senile cataract (98.1%)</li>
+<li>senile cataract (98.0%)</li>
+<li>antithrombin deficiency type 2 (98.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/bimekizumab/' | relative_url }}">查看完整藥物報告 →</a></p>

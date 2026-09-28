@@ -26,16 +26,16 @@ permalink: /news/chlorobutanol/
 <ul>
 <li><strong>證據等級</strong>: L5</li>
 <li><strong>預測適應症（10 個）</strong>:<ul>
-<li>勃起功能障礙 | 99.79% | L5 | Hold | 極弱（CNS 抑制 vs. NO/PDE5 機轉不符） (99.0%)</li>
-<li>偏頭痛 | 99.71% | L5 | Hold | 弱（GABA-A 機轉理論可能，無臨床驗證） (99.0%)</li>
-<li>腦幹先兆型偏頭痛 | 99.58% | L5 | Hold | 弱（同上，且毒性風險效益比不佳） (99.0%)</li>
-<li>妥瑞氏症 | 99.54% | L5 | Hold | 極弱（GABA 機轉連結弱，無選擇性） (99.0%)</li>
-<li>拔毛癖 | 99.50% | L5 | Hold | 極弱（5-HT/谷氨酸系統為主，非 GABA） (99.0%)</li>
-<li>注意力不足過動症 | 99.41% | L5 | Hold | 矛盾（CNS 抑制劑於 ADHD 效果不佳） (99.0%)</li>
-<li>偏頭痛遺傳易感性 | 99.34% | L4 | Hold | 極度間接（文獻討論癲癇偏頭痛共享遺傳，非 Chlorobutanol） (99.0%)</li>
-<li>局限性 Pagetoid 網狀細胞增多症 | 99.20% | L5 | Hold | 無連結（罕見皮膚 T 細胞淋巴瘤，無已知相關機轉） (99.0%)</li>
-<li>顏面指生殖器症候群 | 99.19% | L5 | Hold | 無連結（遺傳疾病，FGD1 基因突變，明確假陽性） (99.0%)</li>
-<li>萎縮性蟲狀痘痕 | 99.11% | L5 | Hold | 無連結（毛囊角化皮膚病，無相關機轉） (99.0%)</li>
+<li>erectile dysfunction (disease) (99.8%)</li>
+<li>migraine disorder (99.7%)</li>
+<li>migraine with brainstem aura (99.6%)</li>
+<li>Tourette syndrome (99.5%)</li>
+<li>trichotillomania (99.5%)</li>
+<li>attention deficit-hyperactivity disorder (99.4%)</li>
+<li>migraine with or without aura, susceptibility to (99.3%)</li>
+<li>localized pagetoid reticulosis (99.2%)</li>
+<li>faciodigitogenital syndrome (99.2%)</li>
+<li>atrophoderma vermiculata (99.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/chlorobutanol/' | relative_url }}">查看完整藥物報告 →</a></p>

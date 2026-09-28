@@ -26,16 +26,16 @@ permalink: /news/evolocumab/
 <ul>
 <li><strong>證據等級</strong>: L5</li>
 <li><strong>預測適應症（10 個）</strong>:<ul>
-<li>Symptomatic form of hemophilia in female carriers | 99.82% | ❌ PCSK9 與 X 染色體不均等失活無交集 (99.0%)</li>
-<li>Familial apolipoprotein C-II deficiency | 99.50% | ❌ 同屬脂質代謝但機轉截然不同（LPL vs LDLR） (99.0%)</li>
-<li>Thrombocytopenic purpura | 99.42% | ❌ 免疫/ADAMTS13 機轉，與 PCSK9 無連結 (99.0%)</li>
-<li>Factor XI deficiency | 99.29% | ❌ 凝血因子 XI 合成不受 PCSK9 影響 (99.0%)</li>
-<li>Hemophilia A with vascular abnormality | 99.22% | ❌ Factor VIII 缺乏合併血管異常，與 PCSK9 無已知療效 (99.0%)</li>
-<li>Disease of catalytic activity | 99.08% | ❌ KG 廣義上位節點效應，非臨床實體 (99.0%)</li>
-<li>Hemorrhagic disease of newborn | 98.89% | ❌ 維生素 K 缺乏相關，PCSK9 無法補充凝血因子 (99.0%)</li>
-<li>Ichthyosis, X-linked (non-STS) | 98.84% | ❌ 皮膚角質化異常，無 PCSK9-LDLR 生物學依據 (99.0%)</li>
-<li>Inherited thrombophilia | 98.82% | ❌ 促凝血遺傳異常，與 PCSK9 抑制連結屬推測層級 (99.0%)</li>
-<li>Disorder of vitamins/cofactors metabolism and transport | 98.80% | ❌ KG 代謝疾病上位節點效應 (99.0%)</li>
+<li>symptomatic form of hemophilia in female carriers (99.8%)</li>
+<li>familial apolipoprotein C-II deficiency (99.5%)</li>
+<li>thrombocytopenic purpura (99.4%)</li>
+<li>factor XI deficiency (99.3%)</li>
+<li>hemophilia A with vascular abnormality (99.2%)</li>
+<li>disease of catalytic activity (99.1%)</li>
+<li>hemorrhagic disease of newborn (98.9%)</li>
+<li>ichthyosis, X-linked, without steroid sulfatase deficiency (98.8%)</li>
+<li>inherited thrombophilia (98.8%)</li>
+<li>disorder of other vitamins and cofactors metabolism and transport (98.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/evolocumab/' | relative_url }}">查看完整藥物報告 →</a></p>

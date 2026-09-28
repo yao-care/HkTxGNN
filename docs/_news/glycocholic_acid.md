@@ -3,7 +3,7 @@ layout: default
 title: "Glycocholic acid 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Glycocholic acid 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Glycocholic acid 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
 permalink: /news/glycocholic_acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/glycocholic_acid/
 ---
 
 <p class="key-answer" data-question="Glycocholic acid 有什麼相關新聞？">
-<strong>Glycocholic acid</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>Glycocholic acid</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ permalink: /news/glycocholic_acid/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>: L5</li>
+<li><strong>預測適應症（10 個）</strong>:<ul>
+<li>Prinzmetal angina (100.0%)</li>
+<li>myocardial infarction (100.0%)</li>
+<li>brain small vessel disease 1 with or without ocular anomalies (100.0%)</li>
+<li>autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (100.0%)</li>
+<li>diabetic nephropathy (100.0%)</li>
+<li>posterolateral myocardial infarction (100.0%)</li>
+<li>posteroinferior myocardial infarction (100.0%)</li>
+<li>septal myocardial infarction (100.0%)</li>
+<li>hemoglobinopathy (99.9%)</li>
+<li>coronary thrombosis (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/glycocholic_acid/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
