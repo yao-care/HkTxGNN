@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Desloratadine
-parent: 高證據等級 (L1-L2)
-nav_order: 218
-evidence_level: L1
+parent: 僅模型預測 (L5)
+nav_order: 253
+evidence_level: L5
 indication_count: 6
 ---
 
 # Desloratadine
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **6** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ indication_count: 6
 
 </div>
 
-# Desloratadine：從過敏性疾病到冷蕁麻疹
+# Desloratadine：從過敏性疾病（依藥物類別推定）到寒冷性蕁麻疹
 
 ## 一句話總結
 
-Desloratadine 是一種強效的第二代 H1 受體拮抗劑，廣泛用於過敏性鼻炎及蕁麻疹症狀緩解，在香港目前尚無核准上市登記。
-TxGNN 模型預測它可能對**冷蕁麻疹 (Cold Urticaria)** 有效，
-目前有 **3 個臨床試驗**和 **7 篇文獻**支持這個方向。
+Desloratadine 是第二代選擇性 H1 抗組織胺，香港許可證未載明適應症，一般用於過敏性疾病。
+TxGNN 模型預測它可能對**寒冷性蕁麻疹 (Cold Urticaria)** 有效，
+目前有 **3 個臨床試驗**和 **7 篇文獻**支持這個方向，其中包含多項隨機對照試驗。
 
 ---
 
@@ -43,23 +43,25 @@ TxGNN 模型預測它可能對**冷蕁麻疹 (Cold Urticaria)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 過敏性疾病（香港無核准登記） |
-| 預測新適應症 | 冷蕁麻疹（Cold Urticaria） |
+| 原適應症 | 許可證未載明 |
+| 預測新適應症 | 寒冷性蕁麻疹 (Cold Urticaria) |
 | TxGNN 預測分數 | 99.94% |
-| 證據等級 | L1 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L1（判斷性歸級，見下方說明） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 15 張 |
 | 建議決策 | Proceed with Guardrails |
+
+> **證據等級說明：** 目前試驗標示為 Phase 4，並非 Phase 3。L1 是因為有多項直接相關的隨機對照研究，屬判斷性歸級。若嚴格依「≥2 個已完成 Phase 3 RCT」的標準，則不符合。
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏正式的作用機轉（MOA）文件資料。根據已知資訊，Desloratadine 是一種**強效選擇性第二代 H1 受體拮抗劑**，為 Loratadine 的活性代謝物，其在過敏症狀治療中的療效已有充分臨床驗證。
+目前缺乏詳細的作用機轉資料。根據藥物類別，Desloratadine 是選擇性外周 H1 受體反向促效劑（inverse agonist），此機轉是依藥物類別與檢索到的研究推論，並非來自已驗證的仿單。
 
-冷蕁麻疹的發病機制為冷刺激誘發肥大細胞與嗜鹼性球脫顆粒，大量釋放組胺，直接驅動皮膚風團與潮紅反應。Desloratadine 透過阻斷 H1 受體，可有效抑制血管通透性增加及感覺神經激活，在機制上與冷蕁麻疹的核心病理直接對應。
+寒冷性蕁麻疹由肥大細胞和組織胺介導，遇冷會產生風團。H1 受體阻斷可抑制風團形成，機轉上與 Desloratadine 的作用高度吻合。國際指引也建議，標準劑量反應不佳的患者可提高第二代抗組織胺的劑量。
 
-此外，Desloratadine 具有 NF-κB 抑制及抗細胞激素活性（抑制 IL-4、IL-6 等），進一步強化其對冷蕁麻疹的療效機轉，使得 TxGNN 的預測具有高度生物學合理性。
+TxGNN 分數很高（0.999），與臨床證據方向一致。已有隨機對照研究直接比較不同劑量 Desloratadine 對寒冷性蕁麻疹的效果。
 
 ---
 
@@ -67,9 +69,9 @@ TxGNN 模型預測它可能對**冷蕁麻疹 (Cold Urticaria)** 有效，
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00600847](https://clinicaltrials.gov/study/NCT00600847) | Phase 4 | 完成 | 33 | 隨機雙盲安慰劑對照交叉設計，比較 5mg vs 20mg desloratadine 對冷蕁麻疹皮損的抑制效果（熱影像、容積測量），評估高劑量是否優於標準劑量 |
-| [NCT01940393](https://clinicaltrials.gov/study/NCT01940393) | Phase 4 | 完成 | 150 | 多中心研究，直接比較含 desloratadine 在內的 5 種抗組胺藥抑制蕁麻疹反應的藥效動力學與臨床療效，具比較效益數據 |
-| [NCT01444196](https://clinicaltrials.gov/study/NCT01444196) | Phase 4 | 完成 | 30 | 多中心雙盲劑量爬升研究（5mg / 10mg / 20mg），評估 desloratadine 在後天性冷蕁麻疹患者中的最適劑量與劑量效應關係 |
+| [NCT00600847](https://clinicaltrials.gov/study/NCT00600847) | Phase 4 | 完成 | 33 | 隨機、雙盲、安慰劑對照交叉試驗，比較 5 mg 與 20 mg Desloratadine 對後天性寒冷性蕁麻疹的效果（以熱成像、體積測量等評估）。標題被截斷，確切族群未確認 |
+| [NCT01444196](https://clinicaltrials.gov/study/NCT01444196) | Phase 4 | 完成 | 30 | 多中心、雙盲、劑量遞增試驗（5、10、20 mg），評估足以抑制寒冷性蕁麻疹症狀的劑量 |
+| [NCT01940393](https://clinicaltrials.gov/study/NCT01940393) | Phase 4 | 完成 | 150 | 比較 5 種抗組織胺對蕁麻疹的抑制效果。未指明蕁麻疹亞型，可能非寒冷性專屬，相關性較間接 |
 
 ---
 
@@ -77,25 +79,35 @@ TxGNN 模型預測它可能對**冷蕁麻疹 (Cold Urticaria)** 有效，
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [19201016](https://pubmed.ncbi.nlm.nih.gov/19201016/) | 2009 | RCT | J Allergy Clin Immunol | 高劑量 desloratadine 與標準劑量相比，顯著縮小風團體積並改善後天性冷蕁麻疹患者的冷激發閾值，支持劑量加倍策略 |
-| [22242678](https://pubmed.ncbi.nlm.nih.gov/22242678/) | 2012 | RCT | Br J Dermatol | H1 抗組胺藥劑量爬升的隨機對照試驗，以臨界溫度閾值量化治療反應，顯示劑量與療效存在相關性 |
-| [14754651](https://pubmed.ncbi.nlm.nih.gov/14754651/) | 2004 | Clinical RCT | J Dermatol Treat | 12 名冷蕁麻疹患者以 5mg desloratadine 治療 4 天，冰塊激發試驗前後對比，確認 desloratadine 可有效抑制冷蕁麻疹反應 |
-| [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Review | Drugs | 慢性蕁麻疹病因與管理的系統性綜述，H1 抗組胺藥（含 desloratadine）為第一線治療，並討論高劑量策略 |
-| [19032340](https://pubmed.ncbi.nlm.nih.gov/19032340/) | 2008 | Comparative Review | Allergy | 第二代抗組胺藥於過敏性鼻炎與慢性蕁麻疹治療的比較綜述，提供 desloratadine 同類藥物療效脈絡 |
-| [29698807](https://pubmed.ncbi.nlm.nih.gov/29698807/) | 2018 | Case Series | J Allergy Clin Immunol Pract | 食物依賴型冷蕁麻疹新亞型描述，擴展冷蕁麻疹的臨床分類，並討論抗組胺藥的管理角色 |
-| [38025339](https://pubmed.ncbi.nlm.nih.gov/38025339/) | 2023 | Case Report | Qatar Med J | 首例黑蟻叮咬誘發過敏反應後繼發後天性冷蕁麻疹的病例報告，記錄罕見誘發機制 |
+| [19201016](https://pubmed.ncbi.nlm.nih.gov/19201016/) | 2009 | RCT | J Allergy Clin Immunol | 隨機、安慰劑對照交叉試驗：高劑量 Desloratadine 相較標準劑量，能減少風團體積並改善冷激發閾值 |
+| [22242678](https://pubmed.ncbi.nlm.nih.gov/22242678/) | 2012 | RCT | Br J Dermatol | 以臨界溫度閾值評估 H1 抗組織胺劑量遞增，探討寒冷性蕁麻疹療效反應。摘要未列出結果數據 |
+| [14754651](https://pubmed.ncbi.nlm.nih.gov/14754651/) | 2004 | RCT | J Dermatolog Treat | 12 位寒冷性蕁麻疹患者服用 5 mg Desloratadine 4 天，以冰塊試驗比較治療前後。摘要未列出結果數據 |
+| [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Review | Drugs | 慢性蕁麻疹的病因、處置與現行及未來治療選項 |
+| [19032340](https://pubmed.ncbi.nlm.nih.gov/19032340/) | 2008 | Review | Allergy | 探討 Ebastine 用於過敏性鼻炎與慢性特發性蕁麻疹（為另一種抗組織胺，屬間接證據） |
+| [38025339](https://pubmed.ncbi.nlm.nih.gov/38025339/) | 2023 | Case report | Qatar Med J | 黑螞蟻咬傷過敏性休克後出現寒冷誘發蕁麻疹的首例報告 |
+| [29698807](https://pubmed.ncbi.nlm.nih.gov/29698807/) | 2018 | Case report | J Allergy Clin Immunol Pract | 描述食物依賴性寒冷性蕁麻疹這種物理性蕁麻疹新變異型 |
 
 ---
 
 ## 香港上市資訊
 
-香港目前無 Desloratadine 核准上市許可證登記。
+共 15 張許可證，以下列出 5 張主要許可證。資料中未載明劑型與核准適應症。
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-66259 | LOTARIUS TABLETS 5MG | VICKMANS LABORATORIES LTD |
+| HK-68990 | DESLORATADINE TABLETS 5MG | CONTROLLED MEDICATIONS LIMITED |
+| HK-66347 | ALLORA 5 TABLETS 5MG | HEALTH ALLIANCE INTERNATIONAL CO LTD |
+| HK-63392 | LORASTAD D FILM-COATED TABLETS 5MG | HONG KONG MEDICAL SUPPLIES LTD |
+| HK-57332 | LARINEX TAB 5MG | CHARIOT PHARMA LIMITED |
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+安全性資訊請參考原廠仿單。藥物交互作用查詢無結果。
+
+需特別注意：試驗中使用最高 20 mg 的劑量遞增屬於仿單外使用，若要推進，需搭配安全性監測。
 
 ---
 
@@ -104,17 +116,20 @@ TxGNN 模型預測它可能對**冷蕁麻疹 (Cold Urticaria)** 有效，
 **決策：Proceed with Guardrails**
 
 **理由：**
-冷蕁麻疹的發病機制（冷刺激→組胺釋放）與 Desloratadine 的 H1 阻斷機制高度吻合，且有 3 個已完成的 Phase 4 隨機對照試驗（含劑量優化研究）及多篇 RCT 文獻直接支持，證據等級達 L1，為在同類適應症中罕見的高質量直接證據。
+- 有多項隨機、對照且直接相關的研究（3 項 Phase 4 試驗與 3 篇 RCT）支持 Desloratadine 用於寒冷性蕁麻疹，且機轉合理。
+- 但這些試驗為 Phase 4 而非 Phase 3，高劑量屬仿單外使用，香港仿單的警語與禁忌資料也尚未取得。
 
 **若要推進需要：**
-- 補充正式藥物作用機轉（MOA）文件（建議查詢 DrugBank API）
-- 取得香港（衛生署）及相關監管機構的安全性仿單資料（警語、禁忌、DDI）
-- 評估香港本地患者的劑量調整策略（標準 5mg vs 高劑量 20mg）
-- 確認本地注冊及進口申請路徑（香港衛生署藥劑業及毒藥管理局）
+- 取得香港衛生署仿單，補齊警語與禁忌症，這是目前的阻斷性缺口。
+- 補齊作用機轉資料（可查詢 DrugBank）。
+- 確認香港核准的適應症，並訂定高劑量使用的安全性監測計畫。
+- 確認試驗標題被截斷的三項研究，其族群與比較藥物與寒冷性蕁麻疹是否相符。
 
----
+**其他預測適應症（暫不建議推進）：**
+- 鼻腔疾病 (L3)：疾病名稱過於籠統，文獻僅為相關藥物或非抗組織胺的動物研究，列為研究問題。
+- 急性喉咽炎、頑固性異位性皮膚炎、異位性 IgE 反應性、酒糟性結膜炎 (皆為 L5)：僅有模型預測，無試驗或文獻支持，建議 Hold。
 
-> ⚠️ **免責聲明**：本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用於實際診療。
+> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證後才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

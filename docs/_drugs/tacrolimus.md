@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tacrolimus
-parent: 高證據等級 (L1-L2)
-nav_order: 717
-evidence_level: L1
+parent: 僅模型預測 (L5)
+nav_order: 830
+evidence_level: L5
 indication_count: 3
 ---
 
 # Tacrolimus
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,94 @@ indication_count: 3
 
 </div>
 
-# Tacrolimus：從器官移植免疫抑制到脂漏性皮膚炎
+# Tacrolimus：從異位性皮膚炎與器官移植到脂漏性皮膚炎
 
 ## 一句話總結
 
-Tacrolimus 是全身性 calcineurin 抑制劑，臨床上廣泛用於器官移植後之免疫抑制（本證據包未提供香港核准適應症資料，此為業界公認之藥理用途）。
-TxGNN 模型預測其外用劑型可能對**脂漏性皮膚炎 (Seborrheic Dermatitis)** 有效，
-目前有 **2 個已完成的臨床試驗**（Phase 3 與 Phase 4）和 **20 篇相關文獻**支持這個方向。
-
-> ⚠️ 本證據包中 `drug.original_moa`、`taiwan_regulatory.licenses`、`safety` 相關欄位均為 Data Gap，且 DG001（仿單警語/禁忌）被標記為 **Blocking**，代表尚無法完成安全性初評（S1）。以下報告嚴格依證據包內容撰寫，未逕行補入外部仿單資訊。
-
----
+Tacrolimus 是鈣調磷酸酶（calcineurin）抑制劑，外用藥膏用於異位性皮膚炎，口服膠囊用於器官移植後的免疫抑制。
+TxGNN 模型預測它可能對**脂漏性皮膚炎 (Seborrheic Dermatitis)** 有效。
+目前有 **2 個臨床試驗**（Phase 3 與 Phase 4，皆已完成）和 **20 篇文獻**，其中約 5 篇是直接以 tacrolimus 治療脂漏性皮膚炎的臨床研究。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港無許可證資料（`taiwan_regulatory.licenses` 為空陣列，market_status 為未上市） |
 | 預測新適應症 | 脂漏性皮膚炎 (Seborrheic Dermatitis) |
 | TxGNN 預測分數 | 99.26% |
-| 證據等級 | L1 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 |
+| 證據等級 | L2（依判定規則；說明見下方） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
 | 建議決策 | Proceed with Guardrails |
 
----
+> 證據包內的許可證資料未附原適應症文字，因此本表省略「原適應症」。
+> 證據等級：只有 1 個已完成的 Phase 3 RCT（NCT02004860），不滿足 L1 所需的 ≥2 個。
+> 文獻中的雙盲 RCT（PMID 33010323）可能與該 Phase 3 試驗是同一研究，所以不重複計算，判為 L2。
 
 ## 為什麼這個預測合理？
 
-`drug.original_moa` 欄位標記為 Data Gap，證據包本身沒有提供 Tacrolimus 的作用機轉描述。不過在 `repurposing_rationale.mechanistic_link` 中，針對脂漏性皮膚炎的機轉關聯有明確說明：
+證據包沒有提供 Tacrolimus 的作用機轉（MOA）資料。以下說明依據一般藥理知識。Tacrolimus 抑制鈣調磷酸酶，阻斷 NFAT 依賴的 T 細胞活化，減少 IL-2 等促發炎細胞介質的釋放。
 
-> Tacrolimus 為 calcineurin 抑制劑，抑制 T 細胞活化與促發炎細胞激素（IL-2, IFN-γ）釋放，可降低脂漏性皮膚炎相關的發炎反應與 Malassezia 誘發之免疫失調，局部外用已有多項機轉相符之皮膚科文獻支持。
+脂漏性皮膚炎是慢性、反覆發作的發炎性皮膚病，好發於臉部與頭皮，發炎反應是病程的重要部分。抑制 T 細胞介導的發炎，與外用 tacrolimus 在異位性皮膚炎的作用基礎相同，因此機轉上說得通。部分文獻也提到它可能對馬拉色菌（Malassezia）有抗黴作用，但目前資料無法證實。
 
-脂漏性皮膚炎與異位性皮膚炎（Tacrolimus 外用劑型 Protopic® 的經典適應症）同屬 T 細胞浸潤主導之慢性發炎性皮膚病，兩者在發炎路徑上高度重疊，這也是 TxGNN 在知識圖譜上能給出高分預測（99.26%）的合理基礎。多篇臨床試驗與文獻（見下方）已直接針對脂漏性皮膚炎測試 Tacrolimus 外用劑型的療效，支持這個機轉推論不僅止於理論。
-
----
+臨床上，傳統外用類固醇不適合長期用在臉部，而鈣調磷酸酶抑制劑被視為替代選項。多篇文獻（如 PMID 19222250）討論了這個用途。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT02004860](https://clinicaltrials.gov/study/NCT02004860) | Phase 3 | 完成 | 120 | Protopic® 軟膏用於成人臉部重度脂漏性皮膚炎之維持治療，評估減少復發頻率與類固醇使用量 |
-| [NCT01591070](https://clinicaltrials.gov/study/NCT01591070) | Phase 4 | 完成 | 104 | 每週 1-2 次主動式（proactive）使用 0.1% Tacrolimus 軟膏，評估維持成人臉部脂漏性皮膚炎緩解、降低惡化發生率之效果 |
-
----
+| [NCT02004860](https://clinicaltrials.gov/study/NCT02004860) | Phase 3 | 完成 | 120 | Protopic（tacrolimus 藥膏）用於成人臉部重度脂漏性皮膚炎的維持治療，目標是減少復發、延長緩解期、減少外用類固醇使用 |
+| [NCT01591070](https://clinicaltrials.gov/study/NCT01591070) | Phase 4 | 完成 | 104 | 0.1% tacrolimus 藥膏每週 1–2 次的主動式（proactive）治療，評估能否維持成人臉部脂漏性皮膚炎緩解並減少惡化 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [24171300](https://pubmed.ncbi.nlm.nih.gov/24171300/) | 2013 | RCT | Annals of Parasitology | 60 名脂漏性皮膚炎患者比較 Sertaconazole 2% 乳膏與 Tacrolimus 0.03% 乳膏之療效 |
-| [39219446](https://pubmed.ncbi.nlm.nih.gov/39219446/) | 2024 | Review (Cochrane) | Clin Exp Allergy | 濕疹外用抗發炎藥物之網絡統合分析，比較各類藥物相對療效與安全性 |
-| [26512166](https://pubmed.ncbi.nlm.nih.gov/26512166/) | 2015 | Cohort | Annals of Dermatology | 0.1% Tacrolimus 軟膏用於臉部脂漏性皮膚炎之維持治療研究 |
-| [15461548](https://pubmed.ncbi.nlm.nih.gov/15461548/) | 2004 | Review | Expert Opin Pharmacother | 外用 Tacrolimus（Protopic）用於異位性皮膚炎及其他發炎性皮膚病之機轉與療效綜述 |
-| [19213227](https://pubmed.ncbi.nlm.nih.gov/19213227/) | 2009 | Review | J Drugs Dermatol | 臉部脂漏性皮膚炎現況報告與治療展望 |
-| [38576147](https://pubmed.ncbi.nlm.nih.gov/38576147/) | 2024 | Review | The Medical Letter | Roflumilast 泡沫劑（Zoryve）用於脂漏性皮膚炎之新藥評述，可作為 Tacrolimus 替代方案之對照參考 |
-| [28685715](https://pubmed.ncbi.nlm.nih.gov/28685715/) | 2017 | Cohort | Chinese Medical Journal | 臉部脂漏性皮膚炎患者之高 Staphylococcus epidermidis 群落及皮膚屏障受損研究 |
-| [16094289](https://pubmed.ncbi.nlm.nih.gov/16094289/) | 2005 | Cohort | Jpn J Med Mycol | 脂漏性皮膚炎與異位性皮膚炎患者之 Malassezia 菌種分析 |
-| [20347654](https://pubmed.ncbi.nlm.nih.gov/20347654/) | 2010 | Case Report | Clinics in Dermatology | Tinea incognito 綜述，提及外用 Tacrolimus/Pimecrolimus 可能掩蓋皮癬菌感染臨床表現，需與脂漏性皮膚炎鑑別診斷 |
-| [38809527](https://pubmed.ncbi.nlm.nih.gov/38809527/) | 2024 | Review | JAMA | 慢性搔癢症綜述，涵蓋發炎性皮膚病相關搔癢機轉與治療原則 |
+| [33010323](https://pubmed.ncbi.nlm.nih.gov/33010323/) | 2021 | RCT（多中心、雙盲） | J Am Acad Dermatol | 0.1% tacrolimus 對比 1% ciclopiroxolamine，用於重度臉部脂漏性皮膚炎的維持治療 |
+| [26512166](https://pubmed.ncbi.nlm.nih.gov/26512166/) | 2015 | 臨床試驗 | Ann Dermatol | 0.1% tacrolimus 藥膏用於臉部脂漏性皮膚炎的維持治療 |
+| [24171300](https://pubmed.ncbi.nlm.nih.gov/24171300/) | 2013 | 比較性臨床試驗 | Ann Parasitol | 60 位患者，比較 2% sertaconazole 乳膏與 0.03% tacrolimus 乳膏的療效 |
+| [37067129](https://pubmed.ncbi.nlm.nih.gov/37067129/) | 2023 | 比較性臨床研究 | Indian J Dermatol Venereol Leprol | 越南研究，比較口服 itraconazole 2 天加外用 tacrolimus 與單用外用 tacrolimus 的維持治療 |
+| [12833030](https://pubmed.ncbi.nlm.nih.gov/12833030/) | 2003 | 開放式先導研究 | J Am Acad Dermatol | 18 位患者使用 0.1% tacrolimus，11 位（61%）達到 100% 清除 |
+| [19222250](https://pubmed.ncbi.nlm.nih.gov/19222250/) | 2009 | Review | Am J Clin Dermatol | 回顧外用鈣調磷酸酶抑制劑治療脂漏性皮膚炎的病理機轉、安全性與療效，認為是類固醇之外的安全替代選項 |
+| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | 系統性回顧 | Am J Clin Dermatol | 臉部脂漏性皮膚炎外用治療的系統性回顧 |
+| [19213227](https://pubmed.ncbi.nlm.nih.gov/19213227/) | 2009 | Review | J Drugs Dermatol | 臉部脂漏性皮膚炎的現況與治療展望 |
+| [11770914](https://pubmed.ncbi.nlm.nih.gov/11770914/) | 2001 | Review | Semin Cutan Med Surg | 外用 tacrolimus 與 pimecrolimus 的未來方向，涵蓋脂漏性皮膚炎等其他皮膚疾病 |
 
----
+## 香港上市資訊
+
+香港已有 20 張含 tacrolimus 的許可證，以下列出 5 張。證據包未提供劑型與核准適應症文字。品名顯示同時有口服膠囊與外用藥膏（0.03%）產品。
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-68880 | TACCORDERM OINTMENT 0.03% W/W | JACOBSON MARKETING LIMITED |
+| HK-61877 | TACROLIMUS-TEVA CAPSULES 0.5MG | TEVA PHARMACEUTICAL HONG KONG |
+| HK-68422 | TACROLIMUS CAPSULES USP 1MG | DCH AURIGA (HONG KONG) LIMITED |
+| HK-58356 | TACROLIMUS SANDOZ CAP 1MG | SANDOZ HONG KONG LIMITED |
+| HK-47471 | PROGRAF CAP 0.5MG | ASTELLAS PHARMA HONG KONG |
+
+## 安全性考量
+
+安全性資訊請參考原廠仿單。證據包中的警語與禁忌症皆無資料，藥物交互作用查詢也無結果。
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 已有 2 個直接針對脂漏性皮膚炎的已完成臨床試驗（Phase 3、Phase 4，共 224 人），加上 1 篇 RCT 及多篇支持性文獻，證據等級達 L1，機轉關聯性（calcineurin 抑制 T 細胞路徑）具生物學合理性。
-- 但香港目前**無 Tacrolimus 許可證上市**（`total_licenses = 0`），且安全性初評所需之仿單警語/禁忌資料（DG001）為 **Blocking** 等級缺口，代表本候選案尚未能進入 S1 安全性初評，「Proceed with Guardrails」須以取得下列資料為前提方可落地。
+- 有 1 個已完成的 Phase 3 試驗、1 個 Phase 4 試驗，加上至少一項雙盲 RCT，都直接針對脂漏性皮膚炎的維持治療，機轉上也合理。
+- 香港仿單的警語與禁忌症資料缺失，無法完成安全性篩選，因此只能附帶防護條件推進。
+
+**防護條件：**
+- 僅限外用，並注意外用鈣調磷酸酶抑制劑類別的黑框警語。
+- 脂漏性皮膚炎在多數地區可能屬於仿單外使用（off-label）。
+- 臉部避免未經評估的長期連續使用。
 
 **若要推進需要：**
-- 取得 TFDA／香港對應主管機關官方仿單，解析警語與禁忌症（DG001，Blocking，阻斷 S1 安全性初評）
-- 補齊 DrugBank MOA 完整資料，用以強化機轉關聯性分析（DG002，High）
-- 確認 Tacrolimus 外用劑型（軟膏）在香港之上市／引進計畫，因目前無許可證，臨床落地前需先解決法規上市路徑
-- 補充藥物交互作用（DDI）查詢結果，目前 `query_status: not_found`
+- 取得香港衛生署的仿單，確認警語、禁忌症與核准適應症（DG001，屬阻擋性缺口）。
+- 補充 DrugBank 的作用機轉資料（DG002）。
+- 確認 NCT02004860 與 PMID 33010323 是否為同一研究，並取得兩者的主要療效數據。
+- 評估外用藥膏長期使用於臉部的安全性。
+
+> 本報告僅供研究參考，不構成醫療建議；預測結果需經臨床驗證。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -2,7 +2,7 @@
 layout: default
 title: Propofol
 parent: 高證據等級 (L1-L2)
-nav_order: 620
+nav_order: 724
 evidence_level: L2
 indication_count: 5
 ---
@@ -29,95 +29,100 @@ indication_count: 5
 
 </div>
 
-# Propofol：從全身麻醉到偏頭痛（Migraine Disorder）
+# Propofol：從麻醉鎮靜到偏頭痛
 
 ## 一句話總結
 
-Propofol 是臨床廣泛使用的靜脈全身麻醉/鎮靜藥物。
+Propofol（丙泊酚）是靜脈注射的全身麻醉與鎮靜藥。
 TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
-目前有 **5 個臨床試驗**和 **20 篇文獻**支持這個方向。
-
----
+目前有 **5 個相關臨床試驗登記**（其中 3 個直接以 propofol 治療偏頭痛）和 **20 篇文獻**支持這個方向，包含數項 RCT 與系統性回顧。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 全身麻醉／鎮靜（本次資料包未提供正式核准適應症文字） |
 | 預測新適應症 | 偏頭痛 (Migraine Disorder) |
 | TxGNN 預測分數 | 99.69% |
 | 證據等級 | L2 |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 張 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 5 張 |
 | 建議決策 | Proceed with Guardrails |
-
----
 
 ## 為什麼這個預測合理？
 
-Propofol 目前缺乏正式登錄的作用機轉資料（原廠仿單/DrugBank MOA 為資料缺口）。但根據本資料包內證據推論，Propofol 為 **GABA-A 受體激動劑**，具中樞鎮靜、抗痛覺敏感作用，並能抑制「皮質擴散抑制 (cortical spreading depression)」——這正是偏頭痛神經血管理論中被認為與偏頭痛先兆及疼痛產生相關的關鍵現象。
+DrugBank 的作用機轉欄位目前沒有資料。依一般藥理知識，propofol 是 GABA-A 受體的正向異位調節劑，具鎮靜與麻醉作用。
 
-低劑量（遠低於麻醉劑量）Propofol 在急診實務中已被多次作為頑固性/急性偏頭痛的 rescue therapy 使用，且在成人與兒童族群皆有臨床試驗與病例系列支持。這使得「麻醉鎮靜用藥」跨界到「偏頭痛急性期治療」在機轉上具有合理性，但仍需注意：此用途為低於麻醉劑量的短暫靜脈給藥，與原本的全身麻醉適應症在給藥情境上有本質差異。
+偏頭痛被認為與皮質過度興奮及三叉神經血管系統活化有關。GABA 系統的抑制作用可能抑制這些過程。前臨床研究顯示，propofol 衍生物（propofol hemisuccinate）能抑制皮質擴散性抑制 (cortical spreading depression)，這是偏頭痛先兆的神經基礎（PMID 22390898）。
 
----
+不過 propofol 對頭痛的作用機轉尚未完全確立。使用時需要在有監測的環境（如急診）進行，因為有鎮靜與呼吸抑制風險。
 
 ## 臨床試驗證據
 
+以下依與主題的相關性排序。
+
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT01604785](https://clinicaltrials.gov/study/NCT01604785) | Phase 2/3 | 已完成 | 74 | 小兒偏頭痛急診室誘導療法，低劑量 propofol 之安全性與療效評估，回溯性資料顯示可能優於標準治療 |
-| [NCT02485418](https://clinicaltrials.gov/study/NCT02485418) | NA | 已完成 | 40 | 小兒偏頭痛，低劑量 propofol 輸注作為誘導性治療，評估療效、安全劑量上限與作用持續時間 |
-| [NCT02492295](https://clinicaltrials.gov/study/NCT02492295) | NA | 已終止 | 12 | 成人重度頑固性偏頭痛之低劑量 propofol 治療，因樣本數過小而提前終止，提示招募/耐受性挑戰 |
-
-> 另有 2 個試驗（NCT02443220 電針麻醉研究、NCT03789370 全麻藥物與術後頭痛比較）與偏頭痛治療相關性較低（Grade C），未列入上表。
-
----
+| [NCT01604785](https://clinicaltrials.gov/study/NCT01604785) | Phase 2/3 | 完成 | 74 | 低劑量 propofol 用於兒童偏頭痛急診中止治療，為本組最強的試驗證據（相關性 A） |
+| [NCT02485418](https://clinicaltrials.gov/study/NCT02485418) | NA | 完成 | 40 | 低劑量 propofol 輸注用於兒童偏頭痛，評估療效、安全劑量與作用持續時間（相關性 B） |
+| [NCT02492295](https://clinicaltrials.gov/study/NCT02492295) | NA | 提前終止 | 12 | 低劑量 propofol 用於急診嚴重難治性偏頭痛；因提前終止，可用的療效資料有限（相關性 B） |
+| [NCT03789370](https://clinicaltrials.gov/study/NCT03789370) | NA | 未知 | 130 | 比較 sevoflurane 與 propofol 維持麻醉後的術後頭痛發生率，屬麻醉問題，非偏頭痛治療（相關性 C） |
+| [NCT02443220](https://clinicaltrials.gov/study/NCT02443220) | NA | 完成 | 315 | 電針用於非體外循環冠狀動脈繞道手術的鎮痛，propofol 並非受試介入，相關性低（相關性 C） |
 
 ## 文獻證據
 
+優先列出 RCT，其次為系統性回顧、指引與綜述。多數摘要只交代研究目的、未附結果，因此「主要發現」欄僅描述研究問題。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | Guideline | Headache | 2025 美國頭痛學會（AHS）更新急診偏頭痛靜脈藥物治療指引 |
-| [31621134](https://pubmed.ncbi.nlm.nih.gov/31621134/) | 2020 | Systematic Review | Acad Emerg Med | 系統性回顧 Propofol 用於急診急性偏頭痛之安全性與療效證據 |
-| [35402989](https://pubmed.ncbi.nlm.nih.gov/35402989/) | 2022 | RCT | Arch Acad Emerg Med | Propofol+Granisetron 與 Propofol+Metoclopramide 比較急性偏頭痛症狀控制 |
-| [29456086](https://pubmed.ncbi.nlm.nih.gov/29456086/) | 2018 | RCT | J Emerg Med | 低劑量 Propofol 用於小兒偏頭痛之前瞻性隨機對照試驗 |
-| [35573713](https://pubmed.ncbi.nlm.nih.gov/35573713/) | 2022 | RCT | Arch Acad Emerg Med | Sumatriptan 併用 Propofol 對比單用 Sumatriptan 治療急性偏頭痛 |
-| [32705801](https://pubmed.ncbi.nlm.nih.gov/32705801/) | 2020 | RCT (pilot) | Emerg Med Australas | 急診偏頭痛 Propofol 程序鎮靜劑量對比標準治療之先導性隨機對照試驗 |
-| [27454834](https://pubmed.ncbi.nlm.nih.gov/27454834/) | 2016 | Cohort | Expert Rev Neurother | Propofol 於次麻醉劑量下用於治療頑固性/難治性偏頭痛的完整藥物側寫 |
-| [32638172](https://pubmed.ncbi.nlm.nih.gov/32638172/) | 2020 | Review | Curr Pain Headache Rep | 兒童青少年偏頭痛靜脈治療回顧，門診效果不足時的急診治療選項 |
-| [32410204](https://pubmed.ncbi.nlm.nih.gov/32410204/) | 2020 | Review | Curr Neurol Neurosci Rep | 兒童青少年頭痛之急診/住院處置最新證據回顧 |
-| [22309235](https://pubmed.ncbi.nlm.nih.gov/22309235/) | 2012 | Review | Headache | 急性偏頭痛急救治療系列文章：神經鬆弛劑、抗組織胺及 propofol 等其他藥物 |
-
----
+| [29456086](https://pubmed.ncbi.nlm.nih.gov/29456086/) | 2018 | RCT | J Emerg Med | 前瞻性隨機對照試驗，評估亞麻醉劑量 propofol 用於兒童偏頭痛的療效、副作用與住院時間 |
+| [33070469](https://pubmed.ncbi.nlm.nih.gov/33070469/) | 2021 | RCT | Emerg Med Australas | 雙盲 RCT，比較 propofol 與安慰劑對成人急診偏頭痛 1 小時內頭痛緩解的效果 |
+| [32705801](https://pubmed.ncbi.nlm.nih.gov/32705801/) | 2020 | RCT（先導） | Emerg Med Australas | 先導 RCT，比較程序鎮靜劑量 propofol 與標準治療對急診偏頭痛的初始處置 |
+| [35573713](https://pubmed.ncbi.nlm.nih.gov/35573713/) | 2022 | RCT | Arch Acad Emerg Med | 比較 sumatriptan 加 propofol 與單用 sumatriptan 對急性偏頭痛的效果 |
+| [35402989](https://pubmed.ncbi.nlm.nih.gov/35402989/) | 2022 | RCT | Arch Acad Emerg Med | 雙盲 RCT，比較 propofol 合併 granisetron 與合併 metoclopramide 的症狀控制 |
+| [31621134](https://pubmed.ncbi.nlm.nih.gov/31621134/) | 2020 | 系統性回顧 | Acad Emerg Med | 回顧 propofol 用於急診急性偏頭痛的安全性與療效，認為現有證據有限，可作為急診患者的選項之一 |
+| [39364614](https://pubmed.ncbi.nlm.nih.gov/39364614/) | 2024 | 系統性回顧 | Headache | 網絡分析，比較各類注射藥物降低嚴重急性偏頭痛復發的效果 |
+| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | 指引 | Headache | 美國頭痛學會 2025 年更新的成人急診偏頭痛注射藥物治療指引證據評估 |
+| [27454834](https://pubmed.ncbi.nlm.nih.gov/27454834/) | 2016 | 綜述 | Expert Rev Neurother | 說明 propofol 用於超難治性偏頭痛的完整藥物概況，指出亞麻醉劑量曾被報告有益 |
+| [23872997](https://pubmed.ncbi.nlm.nih.gov/23872997/) | 2013 | 簡短證據回顧 (BET) | Emerg Med J | 三項直接相關研究的結論認為，propofol 可能是安全有效的急診偏頭痛選項 |
 
 ## 香港上市資訊
 
-Propofol 目前**未在香港上市**，本資料包中無相關許可證資料可供列出。
+資料中沒有劑型與核准適應症文字，以下僅列出品名與持證商。
 
----
+| 許可證號 | 品名 | 持證商 |
+|---------|------|--------|
+| HK-27322 | DIPRIVAN INJ 1% | Aspen Pharmacare Asia Limited |
+| HK-66287 | PROPOFOL-LIPURO EMULSION FOR INJECTION/INFUSION 500MG/50ML | B. Braun Medical (HK) Ltd |
+| HK-55671 | FRESOFOL INJ 1% MCT/LCT | Fresenius Kabi Hong Kong Limited |
+| HK-66286 | PROPOFOL-LIPURO EMULSION FOR INJECTION/INFUSION 200MG/20ML | B. Braun Medical (HK) Ltd |
+| HK-49677 | PROPOFOL-LIPURO INJ 1% | B. Braun Medical (HK) Ltd |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
-> 註：本次資料收集中，TFDA 仿單警語/禁忌（DG001）標記為 **Blocking** 等級資料缺口，尚未取得，直接影響後續安全性初評（S1）的進行。
-
----
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 已有多篇 RCT（含 2 篇急診情境隨機對照試驗）及 2026 年 AHS 最新指引提及 propofol 於急性偏頭痛的角色，機轉上與皮質擴散抑制假說相容，證據等級達 L2。
-- 但其中一項成人試驗因樣本過小而終止，顯示招募與耐受性仍有挑戰；且藥物目前未在香港上市，無在地法規路徑與許可證基礎。
-- 其餘 4 個 TxGNN 預測適應症（腦幹型偏頭痛先兆、Prinzmetal 心絞痛、腎因性抗利尿激素不當分泌症候群、妥瑞氏症）證據等級為 L3–L5，多為麻醉/鎮靜相關的間接觀察或個案報告，非治療性證據，建議狀態均為 **Hold**。
+- 已有 1 個完成的 Phase 2/3 試驗（NCT01604785），另有多項成人與兒童的急診偏頭痛 RCT 和系統性回顧，證據等級為 L2。但這些研究多為小型、單中心，作用機轉也未完全確立。
+- propofol 有鎮靜與呼吸抑制風險，只適合在有監測的急診或醫療環境使用，不宜擴大到一般門診或居家情境。
+
+**其他預測適應症：**
+- 先兆型偏頭痛中的腦幹先兆型（L4，Research Question）：只有間接證據，無針對此亞型的研究。
+- Prinzmetal 心絞痛（L4，Hold）：僅有麻醉中誘發冠狀動脈痙攣的個案報告，屬安全性警訊而非療效，需留意。
+- 腎因性抗利尿激素不適當分泌症候群（L5，Hold）：只有模型預測，沒有任何研究。
+- Tourette 症候群（L4，Hold）：只有深部腦刺激手術中的鎮靜使用，並非治療 tic。
 
 **若要推進需要：**
-- 補齊 TFDA 仿單警語與禁忌資料（DG001，Blocking，需優先解決）
-- 補充 DrugBank 作用機轉資料（DG002）以完善機轉關聯性分析
-- 若考慮香港市場，需評估上市/特殊藥品申請路徑（目前 0 張許可證）
-- 補充成人族群更大樣本的 RCT 數據，釐清 NCT02492295 提前終止之原因
+- 取得香港衛生署仿單的警語與禁忌症資料（目前缺口 DG001，屬阻擋項，必須先補齊才能進入安全性篩選）
+- 補充 DrugBank 的作用機轉資料（缺口 DG002）
+- 取得確認各 RCT 的主要終點結果（頭痛緩解率、復發率），以評估療效大小
+- 訂定急診使用的劑量、監測設備與人員資格規範（含呼吸抑制處置）
+- 確認香港各許可證的核准適應症與劑型，並評估超適應症使用的合規性
+
+*本報告僅供研究參考，不構成醫療建議；老藥新用候選需經過臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

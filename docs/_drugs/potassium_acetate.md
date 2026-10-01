@@ -2,7 +2,7 @@
 layout: default
 title: Potassium Acetate
 parent: 中證據等級 (L3-L4)
-nav_order: 602
+nav_order: 701
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,47 +29,61 @@ indication_count: 1
 
 </div>
 
-# Potassium Acetate（醋酸鉀）：原適應症資料缺如 → 預測用於腎小管酸中毒（Renal Tubular Acidosis）
+# Potassium Acetate：從輸液電解質補充成分到腎小管酸中毒
 
 ## 一句話總結
 
-Potassium Acetate（DrugBank DB14498）目前於香港未上市，原始核准適應症與作用機轉資料皆缺如。TxGNN 模型預測其可能對**腎小管酸中毒 (Renal Tubular Acidosis)** 有效，目前僅有 **9 篇文獻**支持（多為個案報告），無任何臨床試驗或 ICTRP 登記。文獻本身也點出此預測存在機轉矛盾疑慮，建議暫緩推進。
+Potassium Acetate（乙酸鉀）在香港主要出現在輸液與靜脈營養複方產品中，但許可證資料未載明核准適應症。
+TxGNN 模型預測它可能對**腎小管酸中毒 (Renal Tubular Acidosis)** 有效，但目前**沒有臨床試驗**，檢索到的 8 篇文獻也**沒有任何一篇直接測試乙酸鉀用於此疾病**，因此證據仍停留在模型預測與機轉推論的層次。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無公開資料（原始核准適應症未載明） |
 | 預測新適應症 | 腎小管酸中毒 (Renal Tubular Acidosis) |
-| TxGNN 預測分數 | 99.90%（排名第 2,720） |
+| TxGNN 預測分數 | 99.90%（排名第 2720 位） |
 | 證據等級 | L4 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 10 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏 Potassium Acetate 詳細的作用機轉（MOA）資料，此為 High 等級的 Data Gap。根據可查文獻的推論：醋酸鉀的乙酸根可經代謝轉為碳酸氫根，理論上具鹼化血液的作用，這符合腎小管酸中毒（RTA）患者需要鹼補充治療的病理生理邏輯，是 TxGNN 給出高分（0.999）的可能理由。
+目前缺乏詳細的作用機轉資料。根據已知資訊，乙酸鉀在體內的乙酸鹽會代謝為碳酸氫鹽，因此可同時作為鹼化劑和鉀來源。這與檸檬酸鉀、碳酸氫鹽用於遠端（第 1 型）腎小管酸中毒、並伴隨低血鉀時的邏輯相似。
 
-但這個推論有明顯的矛盾之處：檢附的 9 篇文獻中，絕大多數描述的其實是「高血鉀型」RTA（type 4 / hyporeninemic hypoaldosteronism / Gordon syndrome），這類病人補鉀屬於相對禁忌，方向上與給予鉀鹽治療直接衝突。換句話說，TxGNN 的高分較可能反映「hyperkalemia／RTA／potassium」在文獻中的詞彙共現，而非真實的治療關聯。由於 MOA 欄位本身也是 Data Gap，目前無法排除機轉誤配的可能性，需要人工複核以區分不同 RTA 亞型（如低血鉀型的近端 type 2、遠端 type 1，才是理論上適合補鉀治療的族群）。
+不過這個關聯只是間接推論。TxGNN 分數僅來自知識圖譜，沒有任何檢索到的紀錄實際測試乙酸鉀用於腎小管酸中毒。
+
+檢索到的文獻多數談的是**高血鉀型**腎小管酸中毒（第 4 型）、低腎素低醛固酮症和 Gordon 症候群。這些情況補鉀可能有害，所以若要往這個方向發展，適應症必須限縮在**低血鉀型**的亞型。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記（ClinicalTrials.gov 與 ICTRP 皆為 0 筆）。
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [6758113](https://pubmed.ncbi.nlm.nih.gov/6758113/) | 1982 | Review | Schweizerische medizinische Wochenschrift | 選擇性低醛固酮症之機轉回顧，探討高血鉀型酸中毒鑑別診斷 |
-| [3398981](https://pubmed.ncbi.nlm.nih.gov/3398981/) | 1988 | Review | Nephron | 個案顯示高血鉀在 hyporeninemic hypoaldosteronism 酸中毒中扮演主要角色 |
-| [33771116](https://pubmed.ncbi.nlm.nih.gov/33771116/) | 2021 | Cohort | BMC Nephrology | 隨機試驗比較生理食鹽水與 Plasma-Lyte 對腎損傷標記與鈉排除的影響 |
-| [239022](https://pubmed.ncbi.nlm.nih.gov/239022/) | 1975 | Animal Study | The Journal of Clinical Investigation | 大鼠實驗：容積擴張對腎臟檸檬酸與氨代謝的影響（KCl 缺乏模型） |
-| [37224266](https://pubmed.ncbi.nlm.nih.gov/37224266/) | 2023 | Case Report | Veterinary Medicine and Science | 犬隻全身麻醉後出現暫時性遠端 RTA 合併腎源性尿崩症 |
-| [4015282](https://pubmed.ncbi.nlm.nih.gov/4015282/) | 1985 | Case Report | Archives of Internal Medicine | 鉛腎病變合併高血鉀型遠端 RTA 與選擇性醛固酮不足 |
-| [2973296](https://pubmed.ncbi.nlm.nih.gov/2973296/) | 1988 | Case Report | Archives des maladies du coeur et des vaisseaux | 高血鉀性高血壓合併腎小管酸中毒：Gordon 症候群個案 |
-| [637641](https://pubmed.ncbi.nlm.nih.gov/637641/) | 1978 | Case Report | Archives of Internal Medicine | 家族性高血鉀、高血壓合併低腎素血症，鉀處理缺陷個案 |
-| [34442051](https://pubmed.ncbi.nlm.nih.gov/34442051/) | 2021 | Case Report | Journal of Clinical Medicine | Patiromer（鉀交換樹脂）誘發高血鈣之罕見個案，非直接相關 |
+| [33771116](https://pubmed.ncbi.nlm.nih.gov/33771116/) | 2021 | 隨機試驗（設計未完全確認，屬間接證據） | BMC Nephrology | 髖關節置換手術中比較 0.9% 生理食鹽水與 Plasma-Lyte 對腎損傷生物標記的影響。研究動機是高氯性酸中毒，與乙酸鉀用於腎小管酸中毒無直接關係 |
+| [6758113](https://pubmed.ncbi.nlm.nih.gov/6758113/) | 1982 | Review | Schweiz Med Wochenschr | 低腎素低醛固酮症與高血鉀的鑑別診斷，可導致高血鉀與高氯性酸中毒 |
+| [2973296](https://pubmed.ncbi.nlm.nih.gov/2973296/) | 1988 | Case report / Review | Arch Mal Coeur Vaiss | 高血壓合併高血鉀與近端腎小管酸中毒，討論 Gordon 症候群或假性低醛固酮症 II 型 |
+| [37224266](https://pubmed.ncbi.nlm.nih.gov/37224266/) | 2023 | Case report | Vet Med Sci | 犬隻全身麻醉後發生暫時性遠端腎小管酸中毒，伴隨低血鉀與腎因性尿崩症 |
+| [4015282](https://pubmed.ncbi.nlm.nih.gov/4015282/) | 1985 | Case report | Arch Intern Med | 鉛腎病變患者合併高血鉀遠端腎小管酸中毒與選擇性醛固酮缺乏，fludrocortisone 未改善酸中毒 |
+| [637641](https://pubmed.ncbi.nlm.nih.gov/637641/) | 1978 | Case report（家族性） | Arch Intern Med | 家族性高血鉀、高血壓、低腎素，伴高氯性代謝性酸中毒，屬腎小管鉀處理缺陷 |
+| [34442051](https://pubmed.ncbi.nlm.nih.gov/34442051/) | 2021 | Case report | J Clin Med | CKD 患者使用 patiromer 後出現高血鈣、代謝性鹼中毒與低血鉀，與乙酸鉀關聯間接 |
+| [3398981](https://pubmed.ncbi.nlm.nih.gov/3398981/) | 1988 | 生理學研究 | Nephron | 低腎素低醛固酮症中，高血鉀是酸中毒的主因；fludrocortisone 可同時矯正高血鉀與酸中毒 |
+| [239022](https://pubmed.ncbi.nlm.nih.gov/239022/) | 1975 | 動物研究（大鼠） | J Clin Invest | 氯化鉀缺乏大鼠中，容積擴張對腎臟檸檬酸與氨代謝的影響 |
+
+## 香港上市資訊
+
+共 10 張許可證，以下列出 5 張主要許可證。資料中未記錄劑型與核准適應症。
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-65534 | PLASMA-LYTE 56 ELECTROLYTE SOLUTION IN 5% W/V GLUCOSE IV INFUSION | BAXTER HEALTHCARE LIMITED |
+| HK-61211 | AMINOPLASMAL B. BRAUN 10% E SOLUTION FOR INFUSION | B. BRAUN MEDICAL (HK) LTD |
+| HK-65813 | NUMETA G13% E PRETERM EMULSION FOR INFUSION 300ML | BAXTER HEALTHCARE LIMITED |
+| HK-50080 | NUTRIFLEX LIPID PERI EMULSION FOR INF. | B. BRAUN MEDICAL (HK) LTD |
+| HK-67635 | OMEGAFLEX SPECIAL EMULSION FOR INFUSION | B. BRAUN MEDICAL (HK) LTD |
 
 ## 安全性考量
 
@@ -80,14 +94,17 @@ Potassium Acetate（DrugBank DB14498）目前於香港未上市，原始核准�
 **決策：Hold**
 
 **理由：**
-- 證據等級僅 L4，無任何臨床試驗支持，9 篇文獻幾乎全為個案報告，且多數描述的是與補鉀治療方向相衝突的「高血鉀型」RTA，機轉合理性存疑。
-- TFDA/仿單警語與禁忌症資料為 Blocking 等級 Data Gap，目前無法進入 S1 安全性初評；藥物在香港亦尚未上市（0 張許可證）。
+- 目前只有 TxGNN 模型預測（99.90%），沒有臨床試驗，文獻也沒有直接測試乙酸鉀用於腎小管酸中毒，證據等級為 L4。
+- 多數相關文獻屬高血鉀型亞型，補鉀可能有風險。作用機轉與安全性資料也缺漏，無法進入安全性篩選。
 
 **若要推進需要：**
-- 補齊 TFDA/原廠仿單完整警語與禁忌症（Blocking gap，優先項）
-- 透過 DrugBank API 補齊 MOA 資料，釐清機轉關聯性
-- 人工複核文獻，區分低血鉀型（type 1/2，理論上適合補鉀）與高血鉀型（type 4，補鉀為禁忌）RTA 亞型，確認 TxGNN 高分是否為詞彙共現假訊號
-- 若鎖定特定亞型後，補強該族群的臨床證據以提升證據等級
+- 取得香港衛生署的仿單，補齊警語與禁忌症資料（目前阻擋進一步評估）。
+- 補充 DrugBank 的作用機轉資料。
+- 釐清適用的腎小管酸中毒亞型，並限縮在低血鉀型；高血鉀型需明確排除。
+- 搜尋乙酸鉀、檸檬酸鉀、碳酸氫鉀用於腎小管酸中毒的直接臨床證據。
+- 評估給藥途徑相容性：目前香港許可證多為輸液與靜脈營養產品，需確認是否適合腎小管酸中毒的長期治療。
+
+*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

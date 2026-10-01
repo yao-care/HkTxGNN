@@ -2,7 +2,7 @@
 layout: default
 title: Lacosamide
 parent: 中證據等級 (L3-L4)
-nav_order: 427
+nav_order: 492
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,71 +29,99 @@ indication_count: 10
 
 </div>
 
-# Lacosamide：原適應症資料缺失 → 預測新適應症候選（雙相情緒障礙躁狂發作等10項）
+# Lacosamide：從局部癲癇發作到躁症型雙相情緒障礙
 
 ## 一句話總結
 
-Lacosamide（DrugBank ID: DB06218）目前**未於香港上市**，且原始適應症與作用機轉（MOA）資料均缺失；文獻中多次將其歸類為第三代抗癲癇藥物（AED）。TxGNN 模型針對此藥物產出 **10 項**預測新適應症，排名第一為**雙相情緒障礙躁狂發作 (Manic Bipolar Affective Disorder)**，目前有 **1 個 Phase 3 臨床試驗**（招募中）與 **14 篇文獻**支持，但整體證據等級僅達 **L3**，屬研究假說階段。值得注意的是，本評估包中「偏頭痛 (migraine disorder)」候選證據強度達 L1（有已完成的 Phase 2/3 RCT），是本次所有預測中證據最紮實的方向。
+Lacosamide 是抗癲癇藥，臨床上用於局部發作型癲癇的輔助治療。
+TxGNN 模型預測它可能對**躁症型雙相情緒障礙 (Manic Bipolar Affective Disorder)** 有效。
+目前有 **1 個 Phase 3 臨床試驗**（招募中，無結果）和 **約 5 篇直接相關文獻**（多為回溯性研究、開放標籤先導試驗與個案報告）。現有臨床訊號主要指向**雙相憂鬱**，而非躁期。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無資料（香港未上市，無許可證適應症紀錄；文獻顯示為抗癲癇藥物 AED 類別） |
-| 預測新適應症 | 雙相情緒障礙躁狂發作 (Manic Bipolar Affective Disorder) |
-| TxGNN 預測分數 | 99.96%（模型排名第 1259 位） |
+| 原適應症 | 局部發作型癲癇（依文獻描述；香港許可證資料未載明適應症文字） |
+| 預測新適應症 | 躁症型雙相情緒障礙 (Manic Bipolar Affective Disorder) |
+| TxGNN 預測分數 | 99.96% |
 | 證據等級 | L3 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Research Question |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 12 張 |
+| 建議決策 | Hold |
+
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏 Lacosamide 詳細的作用機轉資料（DrugBank MOA 欄位為空，列為資料缺口 DG002，需查詢 DrugBank API 補齊）。根據文獻背景資訊，Lacosamide 屬第三代抗癲癇藥物，選擇性增強電位門控鈉通道的慢失活（slow inactivation），與 lamotrigine、carbamazepine、valproate 等已用於雙相情緒障礙的鈉通道調節劑屬同一機轉類比（mood stabilizer via voltage-gated Na channel modulation）。
+Lacosamide 的機轉是增強電壓門控鈉離子通道的緩慢失活，並調節 CRMP2 蛋白。鈉離子通道調節是 lamotrigine、carbamazepine 等抗癲癇類情緒穩定劑共有的作用方式。這類藥物被認為能穩定過度興奮的神經元膜電位，因此常被用於精神科。（DrugBank 的原始作用機轉欄位目前缺資料，以上內容來自證據包的機轉推論。）
 
-早期觀察性研究曾提示 lacosamide 對癲癇患者的憂鬱與焦慮症狀有正向影響，後續開放性研究進一步顯示其對雙相情緒障礙患者的憂鬱與躁狂症狀均有改善。不過，evidence pack 中的再利用理由也明確指出：**lacosamide 本身尚無此適應症的機轉專屬性驗證，多數證據來自臨床觀察而非機轉研究**，因此機轉關聯目前僅屬合理推論而非已證實路徑。
+癲癇與雙相情緒障礙在神經興奮性失衡上有生物學重疊。抗癲癇藥自 1950 年代起就被精神科用作情緒穩定劑，這是預測合理的背景。
+
+需要注意的是，目前臨床訊號集中在**雙相憂鬱**。回溯性研究、開放標籤先導試驗和進行中的 Phase 3 試驗都以憂鬱發作為主，尚無證據直接證實對**躁期**有效。因此預測的方向合理，但與預測疾病（躁症）不完全吻合。
+
+---
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT07412132](https://clinicaltrials.gov/study/NCT07412132) | Phase 3 | 招募中 | 40 | 評估 lacosamide 作為輔助治療加入一/二線藥物，用於雙相情緒障礙 I/II 型中重度憂鬱發作的療效、安全性與耐受性；試驗設計參考先前開放性研究顯示 lacosamide 可改善雙相患者的憂鬱與躁狂症狀，目前尚無結果數據 |
+| [NCT07412132](https://clinicaltrials.gov/study/NCT07412132) | Phase 3 | 招募中 | 40 | 隨機、雙盲、平行組試驗，評估 lacosamide 作為第一或第二線藥物的加成治療，用於雙相 I/II 型重度憂鬱發作。預計 2027 年 1 月完成，尚無結果，且針對憂鬱極，不能直接證實對躁期有效 |
+
+---
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [30251375](https://pubmed.ncbi.nlm.nih.gov/30251375/) | 2018 | 回溯性對照研究 | Psychiatry Clin Neurosci | 30天觀察，比較 lacosamide 與其他抗癲癇藥物用於無癲癇共病之雙相情緒障礙患者的效果 |
-| [33666402](https://pubmed.ncbi.nlm.nih.gov/33666402/) | 2021 | 開放性先導試驗 | J Clin Psychopharmacol | 12週開放性先導試驗，評估 lacosamide 治療雙相憂鬱症之療效與安全性 |
-| [28845834](https://pubmed.ncbi.nlm.nih.gov/28845834/) | 2017 | 個案報告 | Acta Biomed | Lacosamide 穩定合併 PTSD 與額顳葉癲癇之情緒障礙個案，機轉為選擇性鈉通道慢失活以延長細胞膜穩定 |
-| [30275630](https://pubmed.ncbi.nlm.nih.gov/30275630/) | 2018 | 個案報告 | Indian J Psychol Med | 雙相情緒障礙合併癲癇患者使用 lacosamide 誘發嗜中性白血球低下之個案（安全性訊號） |
-| [29253680](https://pubmed.ncbi.nlm.nih.gov/29253680/) | 2018 | 前瞻性多中心研究 | Epilepsy Behav | 評估 lacosamide 對局部難治性癲癇患者憂鬱與焦慮症狀的影響 |
-| [38304661](https://pubmed.ncbi.nlm.nih.gov/38304661/) | 2024 | 個案報告 | Cureus | 雙相情緒障礙第一型合併多重共病孕婦患者的複雜臨床處置討論 |
-| [29957667](https://pubmed.ncbi.nlm.nih.gov/29957667/) | 2018 | 回顧文獻 | Ther Drug Monit | 抗癲癇藥物治療藥物監測（TDM）2018年更新，提及 AED 亦用於雙相情緒障礙等其他適應症之背景 |
-| [22210279](https://pubmed.ncbi.nlm.nih.gov/22210279/) | 2012 | 回顧文獻 | Adv Drug Deliv Rev | 1990-2011年間核准之新型抗癲癇藥物化學特性回顧，含 lacosamide |
-| [32693579](https://pubmed.ncbi.nlm.nih.gov/32693579/) | 2020 | 機轉回顧 | ACS Chem Neurosci | CRMP2 作為神經退化疾病藥物標靶之機轉回顧研究 |
-| [37782796](https://pubmed.ncbi.nlm.nih.gov/37782796/) | 2023 | 機轉研究（間接） | PNAS | Nav 通道結構研究，以 lamotrigine 為例說明雙位點抑制機轉（非直接針對 lacosamide） |
+| [30251375](https://pubmed.ncbi.nlm.nih.gov/30251375/) | 2018 | 回溯性世代研究 | Psychiatry Clin Neurosci | 在無癲癇的雙相情緒障礙住院病人中，比較 lacosamide 與其他抗癲癇藥 30 天的效果 |
+| [33666402](https://pubmed.ncbi.nlm.nih.gov/33666402/) | 2021 | 開放標籤先導試驗 | J Clin Psychopharmacol | 12 週開放標籤試驗，評估 lacosamide 用於雙相憂鬱的療效與安全性 |
+| [29253680](https://pubmed.ncbi.nlm.nih.gov/29253680/) | 2018 | 前瞻性多中心研究 | Epilepsy Behav | 在局部難治型癲癇病人中，評估 lacosamide 對憂鬱與焦慮症狀的影響（間接證據） |
+| [28845834](https://pubmed.ncbi.nlm.nih.gov/28845834/) | 2017 | 個案報告 | Acta Biomed | Lacosamide 使合併 PTSD 與額顳葉癲癇的情緒障礙病人臨床穩定 |
+| [30275630](https://pubmed.ncbi.nlm.nih.gov/30275630/) | 2018 | 個案報告 | Indian J Psychol Med | 合併癲癇的雙相情緒障礙病人使用 lacosamide 後出現嗜中性白血球低下（安全性警訊） |
+| [38304661](https://pubmed.ncbi.nlm.nih.gov/38304661/) | 2024 | 個案報告 | Cureus | 一位合併多重共病的雙相 I 型懷孕病人的處置經驗 |
+
+---
 
 ## 香港上市資訊
 
-Lacosamide 目前未於香港上市，無許可證登記資料。
+| 許可證號 | 品名 | 劑型 | 廠商 |
+|---------|------|------|------|
+| HK-68961 | LACOSAMIDE TABLETS 100MG | 錠劑（依品名） | CHEMILL PHARMA LIMITED |
+| HK-61177 | VIMPAT TAB 150MG | 錠劑（依品名） | UCB PHARMA (HONG KONG) LIMITED |
+| HK-62585 | VIMPAT SYRUP 10MG/ML | 糖漿（依品名） | UCB PHARMA (HONG KONG) LIMITED |
+| HK-61175 | VIMPAT TAB 50MG | 錠劑（依品名） | UCB PHARMA (HONG KONG) LIMITED |
+| HK-61173 | VIMPAT TAB 200MG | 錠劑（依品名） | UCB PHARMA (HONG KONG) LIMITED |
+
+共 12 張許可證，以上列出 5 張主要許可證。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。（TFDA 仿單警語/禁忌屬 Blocking 級資料缺口 DG001，尚未取得，需下載官方仿單解析後方能進行 S1 安全性初評。）
+安全性資訊請參考原廠仿單。
+
+補充文獻中的安全性訊號：有個案報告顯示，雙相情緒障礙合併癲癇的病人使用 lacosamide 後發生嗜中性白血球低下（PMID 30275630）。此為單一個案，但若用於精神科族群，建議納入血液學監測。
+
+---
 
 ## 結論與下一步
 
-**決策：Research Question**
+**決策：Hold**
 
 **理由：**
-雙相情緒障礙躁狂發作的證據僅達 L3（回溯性對照研究＋開放性先導試驗＋1個招募中 Phase 3 試驗），尚無完成的隨機對照試驗支持療效，不足以立即推進。值得注意的是，本評估包同時預測「偏頭痛 (migraine disorder)」候選，證據等級已達 **L1**（含已完成的 Phase 2/3 RCT 對照 propranolol，及 CGRP 機轉驗證性研究），為本次所有候選中證據最強者，決策狀態已是「Proceed with Guardrails」，建議優先評估此方向。
+- 現有證據只有 1 個尚無結果的 Phase 3 試驗和數篇低層級研究，且都針對雙相憂鬱，無法支持躁期適應症。
+- 香港仿單的警語與禁忌資料缺口屬阻擋性，目前無法進入安全性篩選。
 
 **若要推進需要：**
-- 補齊 TFDA/仿單安全性資料（DG001，Blocking，為 S1 安全性初評前提）
-- 取得完整 DrugBank MOA 資料（DG002）
-- 等待 NCT07412132（雙相憂鬱發作）完成並公布結果
-- 若考慮推進偏頭痛適應症，優先檢視 NCT05851781（已完成，n=600，lacosamide vs propranolol）之正式發表結果
+- 等待 NCT07412132 公布結果，並確認是否有躁期的療效資料。
+- 取得香港衛生署仿單的警語與禁忌資料。
+- 補齊 DrugBank 的作用機轉資料。
+- 針對躁期設計專屬的研究，或改以雙相憂鬱重新定義預測適應症。
+- 規劃血液學（嗜中性白血球）監測。
+
+**補充建議：** 同一批預測中，**偏頭痛 (Migraine Disorder)**（第 5 名，分數 99.87%）的證據較完整。它有已完成的 Phase 3 試驗（NCT05851781，lacosamide 對 propranolol，n=600）和一篇 2026 年的雙盲隨機對照試驗（PMID 41863672），證據等級為 L1，決策建議為 Proceed with Guardrails，可優先評估。此結果仍為活性對照，尚未獨立重現。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

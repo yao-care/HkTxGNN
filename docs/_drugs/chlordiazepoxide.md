@@ -2,7 +2,7 @@
 layout: default
 title: Chlordiazepoxide
 parent: 中證據等級 (L3-L4)
-nav_order: 161
+nav_order: 183
 evidence_level: L4
 indication_count: 10
 ---
@@ -33,82 +33,101 @@ indication_count: 10
 
 ## 一句話總結
 
-Chlordiazepoxide（氯二氮平，商品名 Librium）是苯二氮平類（Benzodiazepine）的始祖藥物，自 1961 年起以焦慮症及酒精戒斷治療聞名，其 GABA-A 受體調節機轉在理論上同樣適用於助眠。TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，預測分數高達 **99.998%**。目前有 **6 篇相關文獻**支持此方向，但缺乏直接相關的臨床試驗，且其極長半衰期帶來的次晨宿醉效應，是現代失眠治療的主要限制因素。
-
----
+Chlordiazepoxide（利眠寧）是最早問世的苯二氮平類（benzodiazepine）藥物，文獻中主要作為抗焦慮藥使用。
+TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，但目前**沒有直接相關的臨床試驗**。
+支持的文獻只有間接證據，多為綜述、藥動學和老年用藥風險研究，沒有針對此藥與失眠的 RCT。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 焦慮症（依文獻推斷；原始資料欄位為空） |
+| 原適應症 | 香港許可證資料未載明；依文獻為焦慮症相關用途 |
 | 預測新適應症 | 失眠 (Insomnia) |
 | TxGNN 預測分數 | 99.998% |
 | 證據等級 | L4 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 4 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank MOA 待補充）。根據已知資訊，Chlordiazepoxide 是苯二氮平類的首個成員（1955 年由 Leo Sternbach 於羅氏藥廠合成），在焦慮症治療中的療效已由數十年臨床使用所確立。其作用機轉透過與 GABA-A 受體的苯二氮平位點結合，正向調節（PAM）γ-胺基丁酸介導的抑制性突觸傳遞，產生廣泛中樞神經系統抑制效果，機轉上可能適用於失眠。
+Chlordiazepoxide 是 GABA-A 受體的正向異位調節劑（positive allosteric modulator）。這一類藥物有公認的鎮靜安眠作用，可縮短入睡時間、減少夜間醒來次數。DrugBank 的作用機轉欄位目前沒有資料，以上機轉推論來自模型的理由說明。
 
-焦慮症與失眠高度共病，GABA-A 受體調節是兩者共同的藥理靶點。苯二氮平類藥物的助眠機轉體現在縮短睡眠潛伏期、增加總睡眠時間、減少夜間覺醒，並可能抑制 REM 睡眠。TxGNN Rank 6 亦同步預測其對「睡眠起始與維持障礙 (Sleep Disorder, Initiating and Maintaining Sleep)」有效（預測分數 99.877%），兩個預測方向高度一致，進一步支持此推斷。
+從抗焦慮到助眠，兩者都靠增強 GABA 的抑制性訊號傳遞，因此機轉上說得通。另有一個相近的預測項目「入睡與維持睡眠障礙 (Sleep disorder, initiating and maintaining sleep)」，分數為 99.877%，與失眠高度重疊，建議合併評估。
 
-然而，Chlordiazepoxide 的消除半衰期長達 24–48 小時，且活性代謝物去甲氯二氮平（desmethylchlordiazepoxide）半衰期更長，導致次晨宿醉效應（殘餘鎮靜、精神運動損害、認知模糊）顯著，尤其在老年族群中風險倍增。現代失眠治療指引已轉向短中效 BZD（如 temazepam、triazolam）或非苯二氮平類 Z 藥（如 zolpidem、eszopiclone），Chlordiazepoxide 的臨床地位已大幅式微。
-
----
+但要留意：這個藥的活性代謝物半衰期長，隔天嗜睡、跌倒和依賴的風險都要納入考量，長者尤其明顯。現有文獻沒有一篇是 chlordiazepoxide 治療失眠的 RCT，所以合理性目前只停留在機轉層次。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
-> **資料管道注意**：資料庫映射到一個試驗 [NCT01109030](https://clinicaltrials.gov/study/NCT01109030)（吡格列酮輔助 Citalopram 用於中重度抑鬱症，Phase 2/3，N=50，已完成），但該試驗與 Chlordiazepoxide 或失眠均無直接關聯，屬嚴重資料錯配（相關性評級：C，資料管道映射錯誤），已排除。
-
----
+資料中雖有一筆比對結果（NCT01109030），但內容是 pioglitazone 用於憂鬱症，與本藥和失眠皆無關，屬於誤配，已排除。
 
 ## 文獻證據
 
+以下依失眠與睡眠障礙兩個預測項目彙整。臨床試驗類優先，其餘依相關性排列。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|------|------|------|---------|
-| [3536890](https://pubmed.ncbi.nlm.nih.gov/3536890/) | 1986 | RCT | J Clin Psychiatry | Limbitrol（氯二氮平＋阿米替林複方）vs 阿米替林：Limbitrol 組失眠與焦慮症狀改善速度更快；兩組睡眠結構各期（Stage 1–4）改善幅度無顯著差異 |
-| [7595266](https://pubmed.ncbi.nlm.nih.gov/7595266/) | 1995 | 系統性回顧 | J Fam Pract | 苯二氮平類用於社區老年失眠患者：10 個符合標準研究顯示短期有效（縮短入睡時間、增加睡眠時間）；跌倒、認知損害風險值得關注；長期療效資料缺乏 |
-| [22521806](https://pubmed.ncbi.nlm.nih.gov/22521806/) | 2013 | 批判性回顧 | Eur Psychiatry | Chlordiazepoxide 作為第一個 BZD 已使用逾 50 年；BZD 在精神科治療仍具地位，但依賴形成、認知副作用及停藥困難為核心問題，需謹慎評估長期使用 |
-| [2883822](https://pubmed.ncbi.nlm.nih.gov/2883822/) | 1986 | 臨床回顧 | Acta Psychiatr Scand Suppl | 老年人對苯二氮平類藥動學反應較年輕人增加 2–3 倍，非僅因血漿濃度改變，年齡相關藥效動力學敏感性升高需審慎調整劑量 |
-| [30680986](https://pubmed.ncbi.nlm.nih.gov/30680986/) | 2019 | 橫斷面研究 | Med Glasnik | 伊朗老年患者潛在不適當用藥（PIM）調查（Beers 2012 標準）：苯二氮平類（含 Chlordiazepoxide）被列為老年人 PIM，與健康照護資源使用增加相關 |
-| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | 敘述性回顧 | Expert Opin Drug Metab Toxicol | 焦慮藥物（含苯二氮平類）藥動學綜述：BZD 為西方最常處方精神科藥物，藥動學差異顯著影響臨床效果與殘餘鎮靜風險，強調個體化用藥 |
+|------|-----|------|------|---------|
+| [3536890](https://pubmed.ncbi.nlm.nih.gov/3536890/) | 1986 | 隨機雙盲試驗（複方） | J Clin Psychiatry | Limbitrol（chlordiazepoxide＋amitriptyline）比單用 amitriptyline 更快改善症狀；兩組睡眠實驗室指標無差異 |
+| [6137426](https://pubmed.ncbi.nlm.nih.gov/6137426/) | 1983 | 隨機雙盲試驗（間接） | J Int Med Res | 酒精戒斷治療中，clobazam 與 chlordiazepoxide 都有效，焦慮量表上 clobazam 較佳；與失眠無直接關係 |
+| [7595266](https://pubmed.ncbi.nlm.nih.gov/7595266/) | 1995 | Review | J Fam Pract | 回顧社區長者使用苯二氮平治療失眠的效益與風險；缺乏長期療效研究 |
+| [2883822](https://pubmed.ncbi.nlm.nih.gov/2883822/) | 1986 | Review | Acta Psychiatr Scand Suppl | 長者對苯二氮平的反應增強，且無法單以血中濃度差異解釋 |
+| [4365779](https://pubmed.ncbi.nlm.nih.gov/4365779/) | 1974 | 比較研究 | Br J Psychiatry | 依標題為 chlordiazepoxide 與 amylobarbitone 的安眠效果比較（無摘要） |
+| [22521806](https://pubmed.ncbi.nlm.nih.gov/22521806/) | 2013 | Review | Eur Psychiatry | 重新評估苯二氮平在精神科的角色；安全性優於巴比妥類 |
+| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | Review | Expert Opin Drug Metab Toxicol | 抗焦慮藥的藥物動力學回顧 |
+| [30680986](https://pubmed.ncbi.nlm.nih.gov/30680986/) | 2019 | 橫斷面研究 | Med Glas | 依 Beers 準則評估伊朗長者的潛在不適當用藥 |
+| [559235](https://pubmed.ncbi.nlm.nih.gov/559235/) | 1977 | 用藥評論 | Med Lett Drugs Ther | 選擇苯二氮平治療焦慮或失眠的建議（無摘要） |
+| [6111745](https://pubmed.ncbi.nlm.nih.gov/6111745/) | 1981 | 用藥評論 | Med Lett Drugs Ther | 苯二氮平的選擇（無摘要） |
 
-> **說明**：PMID 3536890 及 7595266 引自 TxGNN Rank 6「睡眠起始與維持障礙」之文獻庫，與失眠主題高度相關，納入最相關文獻清單；其中 PMID 3536890 為直接包含 Chlordiazepoxide 的睡眠 RCT，具最高直接證據價值。
+## 其他預測適應症概況
 
----
+其餘預測項目證據薄弱，目前皆建議暫緩。
+
+| 預測適應症 | 分數 | 證據等級 | 評估 |
+|-----------|------|---------|------|
+| 馬尾症候群 | 99.996% | L5 | 無試驗或文獻；苯二氮平無法處理壓迫性病因 |
+| 神經性膀胱（已淘汰術語） | 99.975% | L5 | 無直接機轉連結，疾病術語已淘汰 |
+| 注意力不足過動症（注意力不集中型） | 99.956% | L5 | 苯二氮平可能損害注意力，方向可能不利 |
+| 特定發展障礙 | 99.929% | L4 | 僅有 1975 年自閉症藥物治療綜述，以及產前暴露造成空間學習缺損的動物研究，後者是傷害訊號 |
+| 巴比妥類濫用 | 99.868% | L4 | 與巴比妥類有交叉耐受，但文獻多為酒精戒斷，屬間接證據；濫用風險需嚴控 |
+| 迷幻藥濫用 | 99.868% | L4 | 僅能症狀性緩解焦慮或激動，文獻無直接證據 |
+| 抗憂鬱藥類濫用 | 99.868% | L4 | 證據僅有舊文獻與小鼠篩檢；本藥自身有依賴性 |
+| 肌筋膜疼痛症候群 | 99.790% | L4 | 僅有 1975 年非典型顏面痛病例分析，屬相關但不同的疾病 |
 
 ## 香港上市資訊
 
-Chlordiazepoxide 目前在香港**無上市許可證登記（0 張）**，屬未上市狀態，任何臨床應用均需從頭啟動本地上市流程。
-
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-23045 | LITAMIN TAB 5MG | CHRISTO PHARM LTD |
+| HK-11504 | CHLORDIAZEPOXIDE CAP 5MG | UNICORN LABORATORIES O/B AMERICAN UNICORN LABORATORIES LIMITED |
+| HK-27469 | CHLORDIAZEPOXIDE CAP 2.5MG | UNICORN LABORATORIES O/B AMERICAN UNICORN LABORATORIES LIMITED |
+| HK-35045 | MEDOCALUM TAB | STAR MEDICAL SUPPLIES LTD |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
----
+文獻與模型分析提示的風險，包括：
+
+- 半衰期長的活性代謝物，可能造成隔天嗜睡、跌倒與認知功能受損，長者尤其需要注意。
+- 有依賴性與濫用的潛在風險，以及停藥後的戒斷症候群。
+- 動物研究顯示產前暴露可能造成學習缺損，孕婦使用需審慎。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-Chlordiazepoxide 透過 GABA-A 正向調節機轉在理論上具助眠潛力，TxGNN 預測分數亦高，但目前缺乏直接針對本藥的高品質失眠試驗，且其極長半衰期（24–48 h）帶來顯著的次晨宿醉與認知損害風險；加上 MOA 資料與安全性資料均缺失，香港亦尚未上市，現階段不建議推進。
+- 模型分數很高，苯二氮平類的助眠作用機轉也合理，但沒有任何 chlordiazepoxide 治療失眠的直接臨床試驗，文獻只有綜述與間接證據。
+- 香港仿單的警語與禁忌尚未取得（阻擋性資料缺口），無法進入安全性篩選；長半衰期加上依賴風險，也使它相較於已有較佳證據的安眠藥缺乏優勢。
 
 **若要推進需要：**
-- 補充完整 MOA 資料（DrugBank API 查詢 DB00475）
-- 取得安全性資料：仿單警語、禁忌症及藥物交互作用資料庫
-- 設計直接比較 Chlordiazepoxide 與短效 BZD（如 temazepam）或 Z 藥的隨機對照失眠試驗
-- 完整評估老年族群及呼吸功能不全患者的風險效益比
-- 若考慮香港市場，需啟動衛生署本地藥物登記申請
+- 取得香港衛生署的仿單，補齊警語、禁忌症與原核准適應症。
+- 補上 DrugBank 的作用機轉資料。
+- 系統性檢索 chlordiazepoxide 對失眠的對照試驗，並與已核准的安眠藥比較療效與安全性。
+- 將「失眠」與「入睡與維持睡眠障礙」合併為單一研究問題評估。
+- 針對長者與依賴風險族群，設計使用限制與監測方案。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Olodaterol
-parent: 僅模型預測 (L5)
-nav_order: 542
-evidence_level: L5
+parent: 中證據等級 (L3-L4)
+nav_order: 629
+evidence_level: L3
 indication_count: 2
 ---
 
 # Olodaterol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+證據等級: **L3** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,69 +29,75 @@ indication_count: 2
 
 </div>
 
-# Olodaterol：從慢性阻塞性肺病（COPD）到支氣管炎（Bronchitis）
+# Olodaterol：從 COPD 到支氣管炎
 
 ## 一句話總結
 
-Olodaterol 是一種長效型 β2 腎上腺素受體促效劑（LABA），文獻顯示其國際上核准用途為 COPD 的長期維持性支氣管擴張治療（常與 Tiotropium 併用為固定劑量複方），但香港尚未上市，無許可證資料。TxGNN 模型預測它對**支氣管炎 (Bronchitis)** 同樣有效，目前有 **3 個臨床試驗**和 **2 篇文獻**直接支持這個方向；模型的第二預測適應症「阻塞性肺病 (Obstructive Lung Disease)」則有多達 50 個臨床試驗與 20 篇文獻佐證，其中多筆為完成的 Phase 3 RCT。
+Olodaterol 是長效 β2 受體促效劑（LABA），依試驗與文獻推斷，原本用於慢性阻塞性肺病（COPD）的維持治療。
+TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，目前有 **3 個臨床試驗**和 **2 篇文獻**與此方向相關。
+這些試驗與文獻全是 COPD 族群的觀察性研究、上市後監測、指引或回顧，沒有任何研究直接以支氣管炎為評估終點。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料缺失（香港未上市，無許可證資料；國際文獻顯示原用途為 COPD 長期維持治療） |
+| 原適應症 | 慢性阻塞性肺病（COPD）（由試驗與文獻推得，許可證資料未載明） |
 | 預測新適應症 | 支氣管炎 (Bronchitis) |
 | TxGNN 預測分數 | 99.84% |
-| 證據等級 | L3（僅上市後觀察性/藥物使用研究與回顧文獻，無針對「支氣管炎」的 RCT） |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L3 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 2 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏 Olodaterol 詳細的結構化作用機轉資料（DrugBank MOA 為資料缺口）。根據證據包內文獻，Olodaterol（商品名 Striverdi® Respimat®）是吸入型長效 β2-agonist（LABA），常與長效抗蕈毒鹼藥物 Tiotropium 併用為固定劑量複方（Spiolto®/Stiolto® Respimat®），作用機轉為刺激支氣管平滑肌 β2 受體，促使支氣管擴張。
+目前缺乏 DrugBank 的詳細作用機轉資料。根據已知資訊，Olodaterol 是長效 β2 受體促效劑，透過 cAMP 路徑放鬆呼吸道平滑肌，產生持續的支氣管擴張效果。
 
-支氣管炎與 COPD 同屬下呼吸道阻塞性疾病，兩者在氣道發炎、支氣管平滑肌痙攣的病理機轉上高度重疊。由於 Olodaterol 本身的核心藥理作用即為支氣管擴張，機轉上延伸至（急性或慢性）支氣管炎的症狀緩解具有合理性。
+慢性支氣管炎是 COPD 的表型之一，所以 COPD 的支氣管擴張療效在機轉上有可能延伸到慢性支氣管炎。日本的上市後監測（NCT02850978）就把慢性支氣管炎與肺氣腫都納入 COPD 族群。
 
-值得注意的是，第二預測適應症「阻塞性肺病」實質上即為 COPD——這與 Olodaterol 原本已知的核准用途高度重疊，顯示 TxGNN 在此案例中可能是辨識出既有的藥理歸類，而非發現全新的老藥新用機會。「支氣管炎」作為獨立適應症的預測，則相對更接近真正的擴展應用。
+要注意的是，99.84% 的高分很可能只是反映 COPD 與支氣管炎在知識圖譜中的高度重疊，並不是獨立的療效證據。目前沒有任何證據支持急性支氣管炎。若要推進，必須先把適應症明確定義為「COPD 內的慢性支氣管炎」。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT05127304](https://clinicaltrials.gov/study/NCT05127304) | N/A | 完成 | 11316 | 評估 COPD 患者起始 Tiotropium/Olodaterol 相較於 Fluticasone Furoate/Umeclidinium/Vilanterol 之醫療資源利用、成本與臨床結果 |
-| [NCT03333018](https://clinicaltrials.gov/study/NCT03333018) | N/A | 完成 | 22155 | 歐洲 Aclidinium（單方及與 Formoterol 複方）新使用者之描述性藥物使用研究，含 COPD 用藥模式分析 |
-| [NCT02850978](https://clinicaltrials.gov/study/NCT02850978) | N/A | 完成 | 1335 | 日本上市後監測：Tiotropium+Olodaterol 固定劑量複方於 COPD（含慢性支氣管炎、肺氣腫）患者長期安全性與有效性 |
+| [NCT02850978](https://clinicaltrials.gov/study/NCT02850978) | N/A | 完成 | 1,335 | 日本 Tiotropium+Olodaterol 複方長期上市後監測，評估 COPD（含慢性支氣管炎、肺氣腫）的真實世界安全性與療效 |
+| [NCT05127304](https://clinicaltrials.gov/study/NCT05127304) | N/A | 完成 | 11,316 | 比較 Tiotropium/Olodaterol 與 FF/UMEC/VI 起始治療後的 COPD 醫療資源使用、費用與臨床結果（觀察性研究） |
+| [NCT03333018](https://clinicaltrials.gov/study/NCT03333018) | N/A | 完成 | 22,155 | Aclidinium 藥物使用安全性研究，屬不同藥物，僅提供 COPD 族群的間接背景 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [27354040](https://pubmed.ncbi.nlm.nih.gov/27354040/) | 2016 | Review | Am J Health-Syst Pharm | 回顧 Olodaterol 之藥理學、藥動學、療效與安全性資料 |
-| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guideline | Basic Clin Pharmacol Toxicol | 芬蘭 COPD 穩定期診斷與藥物治療指引，涵蓋支氣管擴張劑使用建議 |
+| [27354040](https://pubmed.ncbi.nlm.nih.gov/27354040/) | 2016 | Review | Am J Health Syst Pharm | 回顧 Olodaterol（每日一次的 LABA）的藥理、藥動、療效與安全性資料，對象為 COPD |
+| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guideline | Basic Clin Pharmacol Toxicol | 芬蘭穩定期 COPD 的診斷與藥物治療指引，主要供基層醫療使用 |
 
 ## 香港上市資訊
 
-Olodaterol 目前未在香港取得藥品許可證（未上市），無許可證資料可供列出。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-63776 | STRIVERDI RESPIMAT SOLUTION FOR INHALATION 2.5MCG | 吸入溶液（Respimat） | 資料未載明 |
+| HK-64356 | SPIOLTO RESPIMAT INHALATION SOLUTION 2.5MCG/2.5MCG | 吸入溶液（Respimat，與 Tiotropium 複方） | 資料未載明 |
+
+兩張許可證的持有廠商皆為 BOEHRINGER INGELHEIM (HK) LTD。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。（註：TFDA 仿單警語與禁忌症資料為 **Blocking** 等級缺口，目前無法完成安全性初評 S1。）
+安全性資訊請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 支氣管炎適應症的證據僅來自上市後觀察性/藥物使用研究與回顧文獻，缺乏針對此適應症的對照試驗（RCT），證據強度僅達 L3。
-- 安全性初評所需的仿單警語與禁忌症資料為 Blocking 缺口，且藥物於香港未上市、無許可證與原適應症紀錄，S1 安全性初評目前無法完成。
-- 第二預測適應症（阻塞性肺病）雖有大量 Phase 3 RCT 佐證，但實質與 Olodaterol 既有 COPD 用途重疊，novelty 有限，需先釐清「支氣管炎」是否為真正具區隔性的老藥新用標的。
+- 現有證據都是 COPD 族群的觀察性研究、上市後監測與回顧，沒有任何研究以支氣管炎為獨立終點，證據等級僅 L3。
+- 高 TxGNN 分數很可能來自 COPD 的重疊，不能當作獨立證據。
 
 **若要推進需要：**
-- 取得 TFDA/原廠仿單，補齊警語、禁忌症與 DDI 資料（解除 DG001 Blocking 缺口）
-- 取得 DrugBank 詳細 MOA 與藥物分類資料（解除 DG002）
-- 確認香港是否有引進計畫或既有許可證資訊
-- 針對「支氣管炎」單一適應症檢索是否有更直接的 RCT 或對照研究證據
+- 明確定義目標適應症為「COPD 內的慢性支氣管炎」，並釐清與急性支氣管炎的區別。
+- 從 COPD 試驗中取出慢性支氣管炎亞群的分析，或設計以其為終點的研究。
+- 補齊許可證的核准適應症、DrugBank 作用機轉，以及香港衛生署仿單的警語與禁忌症。
+- 若日後以 COPD 為範圍推進，需限定於 COPD、不延伸到氣喘單方治療，並監測心血管事件與 β 受體促效劑的類別效應。這一步實際上是確認既有適應症，並非新的老藥新用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

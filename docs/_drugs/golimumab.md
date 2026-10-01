@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Golimumab
-parent: 僅模型預測 (L5)
-nav_order: 358
-evidence_level: L5
+parent: 中證據等級 (L3-L4)
+nav_order: 417
+evidence_level: L4
 indication_count: 5
 ---
 
 # Golimumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L4** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,84 +33,88 @@ indication_count: 5
 
 ## 一句話總結
 
-Golimumab 是一種全人類化抗 TNF-α 單株抗體，全球已核准用於類風濕性關節炎、銀屑病關節炎及強直性脊椎炎的治療，惟在香港尚未上市。
-TxGNN 模型預測它可能對**類風濕性血管炎 (Rheumatoid Vasculitis)** 有效，
-目前有 **3 個臨床試驗**（均為間接相關）和 **6 篇文獻**提供背景支持，直接疾病特異性證據仍缺乏。
-
----
+Golimumab 是一種全人源抗 TNF-α 單株抗體，文獻記載其核准用於類風濕性關節炎、乾癬性關節炎與僵直性脊椎炎。
+TxGNN 模型預測它可能對**類風濕性血管炎 (Rheumatoid Vasculitis)** 有效。
+目前**沒有針對血管炎的直接證據**：3 個臨床試驗和 6 篇文獻都只涉及類風濕性關節炎或其他疾病，證據屬於間接推論。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 全球核准適應症包含類風濕性關節炎、銀屑病關節炎、強直性脊椎炎（香港無許可證資料） |
+| 原適應症 | 香港許可證未提供適應症文字；依文獻為類風濕性關節炎、乾癬性關節炎、僵直性脊椎炎 |
 | 預測新適應症 | 類風濕性血管炎 (Rheumatoid Vasculitis) |
 | TxGNN 預測分數 | 99.73% |
-| 證據等級 | L4（機轉推論 + 間接觀察研究） |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L4 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 4 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-Golimumab 為全人類化 IgG1κ 抗 TNF-α 單株抗體，透過直接中和可溶性及跨膜型 TNF-α，阻斷其與 TNF 受體（TNFR1/TNFR2）的結合，進而抑制下游 NF-κB 活化及促炎細胞因子瀑布。其抗 TNF-α 機轉已在全球多個已核准適應症的 Phase 3 RCT 中獲得充分驗證，詳細作用機轉文件目前尚待補充（MOA 資料 gap）。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Golimumab 是抗 TNF-α 單株抗體，TNF-α 是類風濕性關節炎發炎反應的核心驅動因子，因此中和 TNF-α 在機轉上可用於相關發炎疾病。
 
-類風濕性血管炎（Rheumatoid Vasculitis）是 RA 的嚴重關節外表現，見於長期血清反應陽性患者，病理核心為免疫複合物沉積於血管壁、中性球浸潤以及 TNF-α 介導的血管內皮損傷。由於 TNF-α 是此炎症過程的關鍵驅動因子，機轉上 Golimumab 抑制 TNF-α 應可降低血管炎的炎症驅力，具有生物學合理性。
+類風濕性血管炎是類風濕性關節炎的關節外併發症，兩者共享自體免疫發炎路徑，所以這個預測在機轉上有其合理性。文獻也指出，生物製劑（含抗 TNF 藥物）問世後，類風濕性血管炎的發生率已有所下降。
 
-文獻指出，自抗 TNF 生物製劑廣泛應用於 RA 治療後，類風濕性血管炎的臨床發生率已顯著下降（PMID 29075910）。此流行病學趨勢間接支持 TNF-α 抑制在預防或緩解此疾病中的潛在作用。然而，現有試驗均以 RA 整體族群為標的，目前仍無針對類風濕性血管炎的直接介入性試驗，機轉連結合理但缺乏疾病特異性臨床驗證。
-
----
+不過有兩點要提醒：
+- 高分只是模型預測，目前檢索到的證據都是一般類風濕性關節炎的資料，沒有任何研究直接檢驗血管炎的療效。
+- 抗 TNF 治療本身有與血管炎相關的病例報告（例如抗 TNF 治療期間出現高安氏動脈炎），所以不能假設一定有益。
 
 ## 臨床試驗證據
 
-> ⚠️ 以下試驗均非直接針對類風濕性血管炎，為相關背景間接證據（均評級 C）。
-
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | 已完成 | 184 | 多國多中心觀察性研究，評估 Tocilizumab 在 DMARD 或 biologics 反應不足的 RA 患者中的療效與安全性，未特別分析 vasculitis 次族群，僅提供 biologics 在 RA 真實世界使用的背景參考 |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | 未知 | 750,000 | 大型回顧性流行病學研究，評估使用 biologics 及免疫抑制劑的 IMID 患者新發其他 IMID 的風險，研究設計為安全性監測導向，與 vasculitis 治療療效無直接相關 |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | 尚未招募 | 80 | 評估風濕病患者（使用免疫抑制劑）接受全肩關節置換術前後的停藥管理策略，屬圍手術期藥物管理研究，與 vasculitis 治療目標無關聯 |
+| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | 不適用 | 完成 | 184 | Tocilizumab 用於類風濕性關節炎的非介入性觀察研究，與血管炎無直接關聯 |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | 不適用 | 未知 | 750,000 | 生物製劑治療後新發免疫介導發炎疾病風險的大型流行病學研究，無血管炎療效訊號 |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | 尚未招募 | 80 | 風濕科病人接受肩關節置換術前後的免疫抑制劑管理，與血管炎無關 |
 
----
+三個試驗的相關性評級皆為 C（間接或無關）。
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | Network Meta-Analysis | Int J Mol Sci | 5 種 TNFi 含 Golimumab 在 RA 關節破壞抑制效果相當，支持 Golimumab 在 RA 中的整體療效定位 |
-| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Review | BMC Medicine | 生物製劑在風濕性疾病中的最新進展，涵蓋抗 TNF 機轉、療效與安全性，含抗 TNF 對 RA 關節外表現的影響討論 |
-| [29075910](https://pubmed.ncbi.nlm.nih.gov/29075910/) | 2018 | Case Report | Rheumatology Int | RA 患者使用 Golimumab 期間出現壞疽性膿皮病合併敗血症，文中明確指出生物製劑問世後類風濕性血管炎發生率已下降，間接支持抗 TNF 對 vasculitis 的保護效應 |
-| [22999907](https://pubmed.ncbi.nlm.nih.gov/22999907/) | 2013 | Case Report ×2 | Joint Bone Spine | 2 例 Takayasu 動脈炎患者在抗 TNF 治療期間出現病情，提示 TNF-α 抑制對大血管炎的效應複雜，不排除誘發效應 |
-| [23252659](https://pubmed.ncbi.nlm.nih.gov/23252659/) | 2013 | Case Report | Ocular Immunol Inflamm | Golimumab 成功治療頑治型白塞氏病相關葡萄膜炎（一種血管炎相關免疫疾病），展示其在血管炎相關疾病的 off-label 潛力 |
-| [27591827](https://pubmed.ncbi.nlm.nih.gov/27591827/) | 2017 | Retrospective Cohort | Semin Arthritis Rheum | RA 患者末期腎病的頻率、病因及治療研究，涵蓋腎臟血管炎相關討論，提供 RA 系統性血管受累的背景資料 |
+| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | 網絡統合分析（36 個 RCT） | Int J Mol Sci | 原廠與生物相似藥 TNF 抑制劑對類風濕性關節炎關節破壞的抑制效果相近，未評估血管炎 |
+| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Review | BMC Med | 自體免疫疾病生物製劑治療的最新回顧，提及費用、靜脈給藥不便與不良事件等限制 |
+| [27591827](https://pubmed.ncbi.nlm.nih.gov/27591827/) | 2017 | 世代/流行病學 | Semin Arthritis Rheum | 類風濕性關節炎病人的末期腎病變頻率、原因與治療 |
+| [29075910](https://pubmed.ncbi.nlm.nih.gov/29075910/) | 2018 | Case report | Rheumatol Int | 使用 golimumab 的類風濕性關節炎病人出現壞疽性膿皮症與化膿性關節炎，並以嚴重敗血症表現 |
+| [22999907](https://pubmed.ncbi.nlm.nih.gov/22999907/) | 2013 | Case report | Joint Bone Spine | 2 例抗 TNF 治療期間出現高安氏動脈炎（矛盾性血管炎） |
+| [23252659](https://pubmed.ncbi.nlm.nih.gov/23252659/) | 2013 | Case report | Ocul Immunol Inflamm | Golimumab 成功治療貝賽特氏症相關葡萄膜炎 |
 
----
+## 香港上市資訊
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-64294 | SIMPONI PRE-FILLED SYRINGE 100MG/1ML | 未提供 | 未提供 |
+| HK-63606 | SIMPONI I.V. CONCENTRATE FOR SOLUTION FOR INFUSION 50MG/4ML | 未提供 | 未提供 |
+| HK-66453 | SIMPONI PRE-FILLED SMARTJECT AUTOINJECTOR 50MG/0.5ML | 未提供 | 未提供 |
+| HK-64295 | SIMPONI PRE-FILLED SMARTJECT AUTOINJECTOR 100MG/1ML | 未提供 | 未提供 |
+
+四張許可證皆由 Johnson & Johnson (Hong Kong) Ltd. 持有。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **藥物交互作用**：DrugBank 查無交互作用資料。
+- **與血管炎相關的提醒**：文獻中有抗 TNF 治療期間出現矛盾性血管炎（高安氏動脈炎）的病例報告，用於血管炎族群時需留意。
 
-> 注意：本 Evidence Pack 中警語、禁忌症及藥物交互作用資料均標記為 Data Gap，建議於推進評估前向香港衛生署查詢或取得 Simponi®（Golimumab）原廠仿單。
-
----
+其餘安全性資訊（警語、禁忌症）請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-現有針對類風濕性血管炎的直接臨床試驗完全缺乏，現有 3 個試驗均為相關背景性間接研究（評級 C），6 篇文獻中最高等級為 Network Meta-Analysis（但並非針對 vasculitis）。整體證據等級僅達 L4，不足以支持進一步的臨床推進。此外，Golimumab 在香港完全未上市（0 張許可證），市場准入障礙顯著，應先解決市場准入問題。
+- TxGNN 分數雖高（99.73%），但檢索到的試驗與文獻都沒有直接檢驗類風濕性血管炎，只有機轉上的合理性，且有抗 TNF 誘發血管炎的反向訊號。
+- 目前證據只能算 L4，不足以支持推進。
 
-值得注意的是，本次 TxGNN 預測中另有兩個適應症具備 **L1 等級證據**並建議 **Proceed with Guardrails**：**發炎性脊椎病（Inflammatory Spondylopathy，rank 3，NCT01453725 等多項已完成 Phase 3 RCT）**及**多關節型幼年特發性關節炎（Polyarticular JIA，rank 5，FDA 已於 2020 年核准 IV 劑型）**，建議優先評估這兩個候選適應症。
+**若要推進需要：**
+- 搜尋 golimumab 或其他抗 TNF 藥物用於類風濕性血管炎的直接研究，包括病例系列、回溯性研究與治療指引。
+- 取得香港衛生署仿單，確認警語、禁忌症與核准適應症。
+- 補充 DrugBank 的作用機轉資料。
+- 釐清抗 TNF 治療與矛盾性血管炎的風險，評估對象族群的獲益與風險。
 
-**若要推進類風濕性血管炎方向需要：**
-- 確認 Golimumab（Simponi®）在香港的市場准入途徑（進口許可或特殊用藥申請）
-- 向 DrugBank 或原廠取得完整 MOA 及安全性資料（警語、禁忌、藥物交互作用）
-- 進行類風濕性血管炎亞族群的系統性文獻回顧，確認抗 TNF 治療的直接療效證據
-- 若考慮設計研究：規劃 RA 血管炎患者使用 Golimumab 的觀察性登錄或病例系列研究
-- 與香港風濕科專家討論 vasculitis 亞族群識別的可行性及臨床需求
+**補充：** 同一份資料中，「發炎性脊椎病變」（證據等級 L1）與「多關節型幼年類風濕性關節炎」（證據等級 L1）有 Phase 3 試驗支持，建議 Proceed with Guardrails。但這兩項可能屬於既有核准適應症而非真正的老藥新用，需先核對香港仿單。
+
+> 本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

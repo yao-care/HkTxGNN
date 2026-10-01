@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Iron
-parent: 中證據等級 (L3-L4)
-nav_order: 413
-evidence_level: L3
+parent: 僅模型預測 (L5)
+nav_order: 477
+evidence_level: L5
 indication_count: 5
 ---
 
 # Iron
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ indication_count: 5
 
 </div>
 
-# Iron：從缺鐵性貧血到 Plummer-Vinson 症候群
+# IRON（鐵）：從鐵劑產品到體質性巨母紅血球性貧血
 
 ## 一句話總結
 
-Iron（DrugBank DB01592）為治療缺鐵性貧血的基礎礦物質補充劑。本次 TxGNN 對其產生 5 個預測適應症，其中證據品質最高、機轉最直接的是 **Plummer-Vinson 症候群**——此症的核心病理本身就是慢性缺鐵性貧血，目前有 **19 篇文獻**支持鐵劑補充為其常規治療的一環；其餘 4 個預測則缺乏機轉支持或僅為間接關聯，建議暫緩（Hold）。
-
-> 註：本 Evidence Pack 含多個候選適應症（candidate_id 標示為 multi），以下報告以證據等級最高、決策階段最進階的候選為主軸，其餘候選於「候選總覽」中列出並說明擱置原因。
+IRON（鐵）在香港有多款鐵劑產品上市，但供應資料中沒有載明原適應症。
+TxGNN 模型預測它可能對**非維生素 B12／葉酸依賴型體質性巨母紅血球性貧血 (vitamin B12- and folate-independent constitutional megaloblastic anemia)** 有效，
+但目前 **0 個臨床試驗**、**0 篇文獻**支持，屬於純模型預測。
 
 ---
 
@@ -43,39 +43,22 @@ Iron（DrugBank DB01592）為治療缺鐵性貧血的基礎礦物質補充劑。
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 缺鐵性貧血（Iron Deficiency Anemia，屬鐵劑之公認核心用途；本 Evidence Pack 未收錄正式核准適應症文字與 MOA，列為資料缺口） |
-| 預測新適應症 | Plummer-Vinson 症候群（Plummer-Vinson Syndrome） |
-| TxGNN 預測分數 | 99.89%（rank 2857） |
-| 證據等級 | L3 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails |
-
----
-
-## 候選總覽
-
-TxGNN 針對 IRON 共產生 5 個預測適應症，證據強度與建議差異很大：
-
-| 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 | 備註 |
-|------|-----------|-----------|---------|------|------|
-| 1 | Vitamin B12/folate-independent 先天性巨球性貧血 | 99.89% | L5 | Hold | 病理機轉與鐵缺乏方向相反，無文獻/試驗支持，判定為圖譜鄰近性假陽性 |
-| 2 | **Plummer-Vinson 症候群** | 99.89% | L3 | **Proceed with Guardrails** | 缺鐵性貧血為其核心病理，鐵劑補充機轉直接 |
-| 3 | 非症候群性食道畸形 | 99.86% | L5 | Hold | 構造性畸形非鐵缺乏可解釋，無任何證據 |
-| 4 | 生物素代謝疾病 | 99.74% | L4 | Hold | 僅有間接的粒線體輔因子理論關聯，無直接介入研究 |
-| 5 | 維生素缺乏症（廣義） | 99.68% | L3 | Research Question | 語意過於寬泛，多數證據為共同補充研究而非以鐵治療該病 |
-
-以下章節聚焦於證據最充分的候選：**Plummer-Vinson 症候群**。
+| 預測新適應症 | 非維生素 B12／葉酸依賴型體質性巨母紅血球性貧血 |
+| TxGNN 預測分數 | 99.89%（模型排名 2806） |
+| 證據等級 | L5 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 17 張 |
+| 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-本 Evidence Pack 未收錄 IRON 的正式 DrugBank MOA 敘述與台灣/香港核准適應症文字（列為資料缺口 DG002）。根據已知藥理學與本次蒐集之文獻，鐵劑的核心用途是治療缺鐵性貧血。
+目前缺乏詳細的作用機轉資料（MOA）。鐵是造血與血紅素合成所需的必需礦物質，鐵劑一般用於補充鐵缺乏，但供應資料未載明各許可證的核准適應症。
 
-Plummer-Vinson 症候群（又稱 Paterson-Kelly / Paterson-Brown-Kelly 症候群）的典型三聯症就是**吞嚥困難、缺鐵性貧血、食道蹼**。多篇文獻（如 PMID 12823219、7575056）明確指出鐵劑補充是治療此症貧血成分的一線方法，部分病例甚至因鐵劑補充而使吞嚥困難獲得改善。
+巨母紅血球性貧血的成因是 DNA 合成受損，而不是缺鐵。鐵並非此病的公認療法，資料中也沒有記載合理的作用機轉。
 
-因此，這並非典型的「老藥新用」機轉外推，而是機轉上直接對應：鐵劑治療的是該症候群病理三聯症中的貧血組成部分，屬於既有臨床實務中已被驗證的關聯，而非全新假說。
+這個高分較可能是知識圖譜的「鄰近效應」：鐵與各種貧血在圖譜中距離很近，模型因此給出高分。它不是真正的療效訊號，解讀時要謹慎。
 
 ---
 
@@ -87,26 +70,21 @@ Plummer-Vinson 症候群（又稱 Paterson-Kelly / Paterson-Brown-Kelly 症候�
 
 ## 文獻證據
 
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [29089792](https://pubmed.ncbi.nlm.nih.gov/29089792/) | 2017 | Review | Journal of Blood Medicine | 回顧缺鐵性貧血與 Plummer-Vinson 症候群的關聯與現況 |
-| [16978405](https://pubmed.ncbi.nlm.nih.gov/16978405/) | 2006 | Review | Orphanet Journal of Rare Diseases | 經典三聯症（吞嚥困難、缺鐵性貧血、食道蹼）綜述，好發於中年白人女性 |
-| [12823219](https://pubmed.ncbi.nlm.nih.gov/12823219/) | 2003 | Review/病例報告 | Diseases of the Esophagus | 2 例個案經鐵劑補充後症狀（吞嚥困難、舌炎、口角炎）消失 |
-| [7865729](https://pubmed.ncbi.nlm.nih.gov/7865729/) | 1994 | Review | J Gastroenterol Hepatol | 探討本病發生率下降的三種假說，含缺鐵為主要病因之一 |
-| [20890819](https://pubmed.ncbi.nlm.nih.gov/20890819/) | 2010 | Review | La Tunisie Médicale | 好發於白人女性之罕見缺鐵性貧血合併食道蹼病症綜述 |
-| [34651287](https://pubmed.ncbi.nlm.nih.gov/34651287/) | 2022 | Case-based Review | Immunologic Research | Sjögren 症候群病人併發 Plummer-Vinson 症候群之系統性文獻回顧 |
-| [31208220](https://pubmed.ncbi.nlm.nih.gov/31208220/) | 2019 | Review | Ear, Nose & Throat Journal | 病症概述 |
-| [38871147](https://pubmed.ncbi.nlm.nih.gov/38871147/) | 2024 | Review | Clin Gastroenterol Hepatol | 缺鐵性貧血、吞嚥困難、食道蹼經典三聯症之影像/內視鏡呈現 |
-| [38034443](https://pubmed.ncbi.nlm.nih.gov/38034443/) | 2023 | Case Report | JPGN Reports | 4 歲兒童個案，經內視鏡氣球擴張術合併鐵缺乏處置 |
-| [41756818](https://pubmed.ncbi.nlm.nih.gov/41756818/) | 2026 | Case Report | Case Reports in Hematology | 26 歲女性長期吞嚥困難合併缺鐵性貧血個案 |
-
-（另有 8 篇分類待補之相關文獻，因篇幅限制未列出）
+目前無相關文獻。
 
 ---
 
 ## 香港上市資訊
 
-Iron（DB01592）目前在香港**未上市**，無許可證登記資料。
+共 17 張許可證，以下列出 5 張。供應資料未提供劑型與核准適應症。
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-58954 | IRON PROTEINSUCCINYLATE ORAL SOLUTION 40MG/15ML | LEE'S PHARMACEUTICAL (H.K) LIMITED |
+| HK-61624 | MONOFER SOLUTION FOR INJECTION/INFUSION 100MG/ML | A. MENARINI HONG KONG LIMITED |
+| HK-65287 | ENDOFER 20 SOLUTION FOR INJECTION 20% W/V（獸用） | WAI LUNG HONG AGRIBUSINESS LTD |
+| HK-37841 | HAUSMANN FERRUM SYRUP | HONG KONG MEDICAL SUPPLIES LTD |
+| HK-61625 | MONOFER SOLUTION FOR INJECTION/INFUSION 500MG/5ML | A. MENARINI HONG KONG LIMITED |
 
 ---
 
@@ -114,23 +92,38 @@ Iron（DB01592）目前在香港**未上市**，無許可證登記資料。
 
 安全性資訊請參考原廠仿單。
 
-（本 Evidence Pack 之 TFDA 仿單警語/禁忌資料缺口列為 Blocking 等級，於進入正式安全性初評 S1 前須先補齊。）
+---
+
+## 其他預測適應症
+
+同一藥物還有 4 個預測適應症，其中部分證據明顯較強。
+
+| 預測適應症 | TxGNN 分數 | 證據等級 | 證據概況 | 建議 |
+|-----------|-----------|---------|---------|------|
+| Plummer-Vinson 症候群 | 99.89% | L4 | 19 篇文獻（多為綜述與個案報告），無臨床試驗 | Research Question |
+| 非症候群性食道畸形 | 99.86% | L5 | 無試驗、無文獻 | Hold |
+| 生物素代謝疾病 | 99.74% | L4 | 9 個試驗與 20 篇文獻，但皆為泛營養主題，與鐵無直接關聯 | Hold |
+| 維生素缺乏症 | 99.68% | L4 | 約 50 個試驗與 20 篇文獻，多為維生素或營養計畫試驗，無鐵治療維生素缺乏的直接證據 | Research Question |
+
+- **Plummer-Vinson 症候群**：這是缺鐵性貧血、吞嚥困難與食道蹼的三聯症。文獻一致指出補鐵可改善症狀，部分病人還需搭配內視鏡擴張。但這是治療病因（缺鐵），不是新的藥理作用，證據也僅限個案層級。
+- **維生素缺乏症**：綜述指出靜脈鐵劑可能引起低磷血症（PMID 34534708），這點在後續評估時需注意。
 
 ---
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**（僅適用於 Plummer-Vinson 症候群此一候選；其餘 4 個候選維持 Hold）
+**決策：Hold**
 
 **理由：**
-- Plummer-Vinson 症候群之病理核心即為缺鐵性貧血，鐵劑補充機轉直接且有 19 篇文獻（多為 Review/個案報告）佐證，屬於既有臨床實務範疇的延伸確認，而非高風險新假說。
-- 其餘候選（先天性巨球性貧血、食道畸形、生物素代謝疾病、廣義維生素缺乏症）機轉方向不符或證據不足，暫不推進。
+- 首要預測（巨母紅血球性貧血）沒有任何試驗或文獻，機轉上也不合理，屬於證據等級 L5 的純模型預測，很可能是圖譜鄰近效應造成的假陽性。
+- 安全性與適應症資料尚有缺口，其中香港仿單資料為阻擋性缺口，目前無法進入安全性篩選。
 
 **若要推進需要：**
-- 補齊 TFDA/香港藥品仿單警語與禁忌資料（DG001，Blocking，須先完成才能進入 S1 安全性初評）
-- 補齊 DrugBank MOA 與正式核准適應症文字（DG002）
-- 因目前無 RCT/介入性臨床試驗直接驗證「以鐵劑治療 Plummer-Vinson 症候群」，若要提升至 L1/L2 證據等級，需規劃前瞻性介入研究或系統性回顧
-- 確認香港上市/引進路徑（目前 total_licenses = 0）
+- 從香港衛生署下載並解析各鐵劑產品的仿單，補齊警語、禁忌與核准適應症（阻擋性缺口）。
+- 從 DrugBank 補充作用機轉資料。
+- 若要投入資源，建議把重點轉向證據較強的 Plummer-Vinson 症候群。可先做系統性文獻回顧，確認補鐵對食道蹼與吞嚥困難的效果。
+
+> 本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

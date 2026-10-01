@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Irinotecan
-parent: 高證據等級 (L1-L2)
-nav_order: 412
-evidence_level: L2
+parent: 僅模型預測 (L5)
+nav_order: 476
+evidence_level: L5
 indication_count: 1
 ---
 
 # Irinotecan
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,105 +29,106 @@ indication_count: 1
 
 </div>
 
-# Irinotecan：從大腸直腸癌到乳癌
+# Irinotecan：從已上市抗腫瘤化療藥到女性乳癌
 
 ## 一句話總結
 
-> Irinotecan（CPT-11）是拓撲異構酶 I（Topoisomerase I）抑制劑前驅藥，國際上原本核准用於大腸直腸癌治療（常與 5-FU/leucovorin 併用，即 FOLFIRI 療法）。TxGNN 模型預測它可能對**乳癌（Female Breast Carcinoma）**有效，目前有多個臨床試驗、**20 篇文獻**支持此方向，其活性代謝物 SN-38 更已透過抗體藥物複合體在乳癌領域證實 Phase 3 療效。
-
-> ⚠️ 注意：Evidence Pack 中「原適應症」欄位（`drug.original_indications`、香港許可證資料）皆為空值，本藥物目前**未在香港上市**。上述「大腸直腸癌」為國際通用核准適應症之背景描述，非香港在地核准資料。
-
----
+Irinotecan 是拓樸異構酶 I 抑制劑類的化療藥，在香港已有 16 張許可證，但本次資料未收錄其原核准適應症。
+TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效。
+目前有 **20 個臨床試驗**和 **20 篇文獻**與此方向相關，但直接證據有限：多數文獻談的是 irinotecan 活性代謝物 SN-38 的抗體藥物複合體，並非 irinotecan 本身。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 大腸直腸癌（國際通用核准適應症，非香港在地資料） |
-| 預測新適應症 | 乳癌 (Female Breast Carcinoma) |
+| 原適應症 | 本次資料未提供（香港許可證的適應症欄位皆為空白） |
+| 預測新適應症 | 女性乳癌 (Female Breast Carcinoma) |
 | TxGNN 預測分數 | 99.08% |
-| 證據等級 | L2 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L2（僅有 1 個已完成的 Phase 2 隨機試驗，且為口服膠囊劑型，見下方說明） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 16 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-Evidence Pack 中 `drug.original_moa` 欄位標示為資料缺口，但證據內容（`repurposing_rationale.mechanistic_link`）提供了機轉線索：Irinotecan 是拓撲異構酶 I（Topoisomerase I）抑制劑前驅藥，經 carboxylesterase 代謝為活性代謝物 **SN-38**。
+目前缺乏詳細的作用機轉資料，DrugBank 的 MOA 欄位是空的。以下說明來自一般藥理知識，並非資料包內容。Irinotecan 是前驅藥，經羧酸酯酶轉換為活性代謝物 SN-38。SN-38 抑制拓樸異構酶 I，造成 DNA 雙股斷裂，使快速分裂的細胞凋亡。這個機轉不限於特定組織，理論上可用於乳癌。
 
-SN-38 已透過抗體藥物複合體 **sacituzumab govitecan**（TROP-2 標靶抗體 + SN-38 payload）在 HR+/HER2− 及三陰性乳癌（TNBC）族群中，經 Phase 3 隨機對照試驗（TROPiCS-02）證實療效，驗證了拓撲異構酶 I 抑制在乳癌治療中的機轉可行性。
+SN-38 在乳癌中的價值已有實例。Sacituzumab govitecan 以 SN-38 為毒性載荷，靶向 TROP-2，已用於轉移性三陰性乳癌與 HR+/HER2- 乳癌，並有 Phase 3 隨機試驗支持。
 
-不過，這是 SN-38 以「標靶遞送」形式在乳癌中的證據，並非游離態 irinotecan 本身的直接療效證據。過去數十年多項 irinotecan 單藥 Phase II 單臂試驗顯示活性中等（緩解率約 15-25%），尚未取代既有標準治療，也從未進入 Phase 3 RCT 驗證其在乳癌的角色。
-
----
+但這些證據只能證明 SN-38 這個機轉可行，不能證明全身性給予 irinotecan 本身有效，或優於現有乳癌療法。早期文獻（2003 年）也指出 irinotecan 在乳癌中僅有「邊緣活性」。因此這個預測目前較適合視為研究問題，而非可直接應用的結論。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00072852](https://clinicaltrials.gov/study/NCT00072852) | Phase 2 | 完成 | 134 | Irinotecan 單藥治療 anthracycline/taxane/capecitabine 治療失敗後轉移性乳癌，比較兩種給藥排程 |
-| [NCT03562390](https://clinicaltrials.gov/study/NCT03562390) | Phase 2 | 狀態未知 | 124 | Irinotecan 三線以上治療中國大陸轉移性乳癌患者的安全性與療效 |
-| [NCT00083148](https://clinicaltrials.gov/study/NCT00083148) | Phase 1 | 完成 | 12 | Irinotecan 後續接續 capecitabine 治療晚期乳癌，劑量遞增試驗 |
-| [NCT01770353](https://clinicaltrials.gov/study/NCT01770353) | Phase 1 | 完成 | 45 | 脂質體 irinotecan (MM-398/nal-IRI) 腫瘤藥物濃度與 MRI 影像預測反應之可行性研究 |
-| [NCT00031681](https://clinicaltrials.gov/study/NCT00031681) | Phase 1 | 完成 | 41 | UCN-01 併用 irinotecan 治療三陰性復發性乳癌（2007 年起限收 TNBC） |
-| [NCT05453825](https://clinicaltrials.gov/study/NCT05453825) | Phase 2 | 狀態未知 | 180 | Navicixizumab 單用或併用 paclitaxel/irinotecan，含 TNBC 族群 |
-| [NCT03170960](https://clinicaltrials.gov/study/NCT03170960) | Phase 1 | 進行中（未招募） | 914 | Cabozantinib 併用 atezolizumab 治療多種實體腫瘤，含 TNBC 族群 |
+| [NCT00072852](https://clinicaltrials.gov/study/NCT00072852) | Phase 2 | 完成 | 134 | 已接受 anthracycline、taxane、capecitabine 治療失敗的轉移性乳癌，比較 irinotecan 膠囊 2 種給藥時程（每日 5 天 vs 14 天）；資料包未附療效結果 |
+| [NCT03562390](https://clinicaltrials.gov/study/NCT03562390) | Phase 2 | 未知 | 124 | 中國患者，晚期或轉移性乳癌三線以後單藥 irinotecan，單臂試驗；狀態未知，結果可能未發表 |
+| [NCT00083148](https://clinicaltrials.gov/study/NCT00083148) | Phase 1 | 完成 | 12 | 晚期乳癌先給 irinotecan 再給 capecitabine，評估副作用與最佳劑量 |
+| [NCT00031681](https://clinicaltrials.gov/study/NCT00031681) | Phase 1 | 完成 | 41 | UCN-01 併用 irinotecan，用於難治實體瘤及三陰性乳癌；提供併用安全性資料，但非乳癌專屬 |
+| [NCT01770353](https://clinicaltrials.gov/study/NCT01770353) | Phase 1 | 完成 | 45 | 奈米脂質體 irinotecan (MM-398) 的腫瘤藥物濃度與 ferumoxytol MRI 可行性；劑型不同，族群未確認為乳癌 |
+| [NCT05453825](https://clinicaltrials.gov/study/NCT05453825) | Phase 2 | 未知 | 180 | Navicixizumab 單用或併用 paclitaxel／irinotecan 的籃式試驗，含三陰性乳癌世代 |
+| [NCT01631552](https://clinicaltrials.gov/study/NCT01631552) | Phase 1/2 | 完成 | 515 | Sacituzumab govitecan（SN-38 抗體藥物複合體）用於多種上皮癌；間接證據 |
+| [NCT04640480](https://clinicaltrials.gov/study/NCT04640480) | Phase 1 | 完成 | 21 | SN-38 奈米粒子製劑 SNB-101 用於晚期實體瘤；間接證據 |
+| [NCT00004095](https://clinicaltrials.gov/study/NCT00004095) | Phase 1 | 完成 | 38 | Irinotecan 併用 gemcitabine 用於實體瘤；非乳癌專屬 |
 
----
+說明：NCT00072852 是目前最直接的證據，但它使用口服膠囊，而香港已登記的是輸注用濃縮液，劑型不同。
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [32223649](https://pubmed.ncbi.nlm.nih.gov/32223649/) | 2020 | RCT | Future Oncology | TROPiCS-02 Phase 3 研究：sacituzumab govitecan（SN-38 為 irinotecan 活性代謝物）治療 HR+/HER2− 轉移性乳癌 |
-| [36027558](https://pubmed.ncbi.nlm.nih.gov/36027558/) | 2022 | RCT | J Clin Oncol | Sacituzumab govitecan 於 HR+/HER2− 轉移性乳癌之隨機對照試驗結果 |
-| [30786188](https://pubmed.ncbi.nlm.nih.gov/30786188/) | 2019 | Cohort | NEJM | Sacituzumab govitecan-hziy 治療頑固性轉移性三陰性乳癌 |
-| [28291390](https://pubmed.ncbi.nlm.nih.gov/28291390/) | 2017 | 單臂試驗 | J Clin Oncol | Sacituzumab govitecan（SN-38 複合體）於重度治療後轉移性 TNBC 之療效與安全性 |
-| [41371050](https://pubmed.ncbi.nlm.nih.gov/41371050/) | 2026 | Phase 2 研究 | Eur J Cancer | PHENOMENAL 研究：脂質體 irinotecan (nal-IRI) 治療 HER2 陰性乳癌腦轉移患者 |
-| [12800602](https://pubmed.ncbi.nlm.nih.gov/12800602/) | 2003 | Review | Oncology (Williston Park) | Mitomycin 與 irinotecan 併用治療晚期乳癌之機轉基礎（mitomycin 上調 topoisomerase I 表現） |
-| [9726101](https://pubmed.ncbi.nlm.nih.gov/9726101/) | 1998 | Review | Oncology (Williston Park) | Irinotecan 於淋巴瘤、白血病及乳癌、胰臟癌等多種腫瘤之活性回顧 |
-| [36302269](https://pubmed.ncbi.nlm.nih.gov/36302269/) | 2022 | Review | Breast (Edinburgh) | TROP-2 標靶抗體藥物複合體於轉移性乳癌之臨床開發回顧 |
-| [39768216](https://pubmed.ncbi.nlm.nih.gov/39768216/) | 2024 | Review | Cells | Sacituzumab govitecan 治療頑固性三陰性乳癌之精準醫療新紀元 |
-| [25944802](https://pubmed.ncbi.nlm.nih.gov/25944802/) | 2015 | Phase 1 試驗 | Clin Cancer Res | Anti-Trop-2/SN-38 複合體 sacituzumab govitecan 首次人體試驗，涵蓋乳癌等多種轉移性實體腫瘤 |
+| [41371050](https://pubmed.ncbi.nlm.nih.gov/41371050/) | 2026 | Phase 2 | Eur J Cancer | PHENOMENAL 研究：脂質體 irinotecan 用於 HER2 陰性乳癌合併腦轉移，該製劑可穿越血腦屏障（間接，劑型不同） |
+| [36027558](https://pubmed.ncbi.nlm.nih.gov/36027558/) | 2022 | Phase 3 RCT | J Clin Oncol | Sacituzumab govitecan 用於 HR+/HER2- 轉移性乳癌（間接，為 SN-38 抗體藥物複合體） |
+| [30786188](https://pubmed.ncbi.nlm.nih.gov/30786188/) | 2019 | Phase 1/2 | N Engl J Med | Sacituzumab govitecan 用於難治轉移性三陰性乳癌（間接） |
+| [28291390](https://pubmed.ncbi.nlm.nih.gov/28291390/) | 2017 | 單臂試驗 | J Clin Oncol | Sacituzumab govitecan 用於重度前治療的三陰性乳癌（間接） |
+| [12800602](https://pubmed.ncbi.nlm.nih.gov/12800602/) | 2003 | Review | Oncology (Williston Park) | Mitomycin 與 irinotecan 用於晚期乳癌的理論依據；兩者單用活性有限，前臨床顯示序貫給藥有協同作用 |
+| [9726101](https://pubmed.ncbi.nlm.nih.gov/9726101/) | 1998 | Review | Oncology (Williston Park) | 回顧 irinotecan 在淋巴瘤、白血病及乳癌等多種腫瘤的早期活性 |
+| [36302269](https://pubmed.ncbi.nlm.nih.gov/36302269/) | 2022 | Review | Breast | 針對 TROP-2 的抗體藥物複合體在轉移性乳癌的臨床發展 |
+| [39768216](https://pubmed.ncbi.nlm.nih.gov/39768216/) | 2024 | Review | Cells | Sacituzumab govitecan 用於難治三陰性乳癌的回顧 |
+| [31208270](https://pubmed.ncbi.nlm.nih.gov/31208270/) | 2019 | Review | mAbs | 以 irinotecan 活性代謝物 SN-38 為載荷的抗體藥物複合體案例研究 |
 
----
+## 香港上市資訊
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-65614 | IRINOTECAN HYDROCHLORIDE CONCENTRATE FOR SOLUTION FOR INFUSION 40MG/2ML | 輸注用濃縮液（依品名） | 未提供 |
+| HK-65613 | IRINOTECAN HYDROCHLORIDE CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/5ML | 輸注用濃縮液（依品名） | 未提供 |
+| HK-67415 | IRINOTECAN HYDROCHLORIDE CONCENTRATE FOR SOLUTION FOR INFUSION 40MG/2ML | 輸注用濃縮液（依品名） | 未提供 |
+| HK-62948 | IRINOTECAN HYDROCHLORIDE CONCENTRATE FOR SOLUTION FOR INFUSION 40MG/2ML | 輸注用濃縮液（依品名） | 未提供 |
+| HK-42884 | CAMPTO CONC FOR INFUSION 20MG/ML | 輸注用濃縮液（依品名） | 未提供 |
 
 ## 細胞毒性
 
-**分類依據**：Irinotecan 為 camptothecin 衍生物、拓撲異構酶 I 抑制劑前驅藥（依證據內文 `repurposing_rationale.mechanistic_link` 及文獻 PMID 12800602 確認機轉），屬傳統細胞毒性化療藥物。
+以下為依藥物類別的一般判斷，資料包本身沒有毒性資料，實際內容請以原廠仿單為準。
 
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 傳統細胞毒性藥物（Topoisomerase I 抑制劑，Camptothecin 衍生物） |
-| 骨髓抑制風險 | 請參考原廠仿單的警語與注意事項 |
-| 致吐性分級 | 請參考原廠仿單的警語與注意事項 |
-| 監測項目 | 請參考原廠仿單的警語與注意事項 |
-| 處置防護 | 請參考原廠仿單的警語與注意事項 |
-
----
+| 細胞毒性分類 | 傳統細胞毒性藥物（拓樸異構酶 I 抑制劑） |
+| 骨髓抑制風險 | 高（嗜中性白血球減少為常見劑量限制毒性） |
+| 致吐性分級 | 中 |
+| 監測項目 | CBC（含分類）、肝腎功能、電解質；需留意腹瀉與脫水 |
+| 處置防護 | 需依細胞毒性藥物處置規範操作 |
 
 ## 安全性考量
 
-> 安全性資訊請參考原廠仿單。
-
-（Evidence Pack 標示 TFDA/HK 仿單警語與禁忌症資料缺口為 **Blocking** 等級，DDI 查詢無結果。）
-
----
+安全性資訊請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 機轉上有 Phase 3 RCT（TROPiCS-02）支持 SN-38（irinotecan 活性代謝物）於乳癌的療效，但這是標靶遞送形式的證據，游離態 irinotecan 本身僅有 Phase 1/2 單臂試驗（部分狀態未知），未達 L1 等級。
-- 該藥目前未在香港上市，且缺乏仿單警語、禁忌症等關鍵安全性資料（Blocking 等級缺口），無法進入安全性初評。
+- 目前最直接的證據是一項 Phase 2 試驗（NCT00072852），使用口服膠囊，且資料包未附療效結果。文獻的主要支持來自 SN-38 抗體藥物複合體，屬間接證據。
+- 香港仿單的警語與禁忌症資料尚未取得，被列為阻斷性缺口，無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得 TFDA/香港仿單完整警語與禁忌症資料，解除 DG001 阻塞
-- 補齊 DrugBank MOA 完整資料（DG002）
-- 評估游離態 irinotecan（非 ADC 形式）於乳癌之直接臨床證據是否足以支持後續試驗設計
+- 取得香港衛生署仿單，補齊警語、禁忌症與適應症文字
+- 取得 NCT00072852 與 NCT03562390 的結果，判斷單藥 irinotecan 在乳癌的實際反應率與毒性
+- 從 DrugBank 補齊作用機轉資料
+- 評估口服膠囊試驗結果能否推及香港現有的輸注劑型
+- 與現行乳癌標準治療（含 sacituzumab govitecan）比較，確認 irinotecan 是否有臨床定位
+
+> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

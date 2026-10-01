@@ -2,7 +2,7 @@
 layout: default
 title: Glutathione
 parent: 中證據等級 (L3-L4)
-nav_order: 353
+nav_order: 412
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,80 +29,87 @@ indication_count: 10
 
 </div>
 
-# Glutathione：從抗氧化劑到硬化性膽管炎
+# Glutathione：從原適應症（資料未載明）到硬化性膽管炎
 
 ## 一句話總結
 
-Glutathione（穀胱甘肽）是人體細胞內最重要的內源性抗氧化分子，目前無正式核准的藥品適應症登記。TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** 有效，目前有 **0 個臨床試驗**及 **20 篇文獻**涉及此方向。
-
----
+Glutathione（麩胱甘肽）在香港有一張上市許可證，但許可證未載明原適應症。
+TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** 有效，
+目前**沒有臨床試驗**，只有 **20 篇文獻**，且多屬關聯性或前臨床研究，沒有直接測試麩胱甘肽療效的研究。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無（目前無核准適應症） |
+| 原適應症 | 未載明（許可證無適應症文字） |
 | 預測新適應症 | 硬化性膽管炎 (Sclerosing Cholangitis) |
 | TxGNN 預測分數 | 98.14% |
 | 證據等級 | L4 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 1 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Glutathione 是由 Glutamate、Cysteine 及 Glycine 三個胺基酸組成的三肽分子，是細胞內最豐富的非蛋白質硫醇，核心功能涵蓋清除活性氧自由基（ROS）、維持氧化還原恆定、參與藥物代謝解毒（透過 Glutathione S-Transferase，GST），以及抗 ferroptosis 保護。
+目前缺乏詳細的作用機轉資料。麩胱甘肽是細胞內主要的抗氧化與解毒分子，這是一般藥理知識，本次資料包並未提供 MOA。
 
-原發性硬化性膽管炎（PSC）是一種病因不明的自體免疫性肝膽疾病，以持續性膽道炎症、纖維化及膽汁淤積為特徵，最終可進展為肝硬化或膽管癌。PSC 病理機制中，氧化壓力是關鍵推手——膽汁淤積會顯著耗竭肝臟穀胱甘肽儲量，而 PMID 18242955 進一步發現 PSC 患者血清中存在抗 GST theta 1（GSTT1）自體抗體，直接提示 GST/GSH 路徑參與 PSC 發病機制。代謝組學研究（PMID 30009888）亦顯示膽汁淤積動物模型中 GSH 代謝物顯著異常，PMID 38967587 則揭示 Wnt/β-catenin 信號在膽汁淤積中調控 GSH 的保護功能。
+現有文獻顯示，硬化性膽管炎與膽汁淤積性肝病伴隨氧化壓力與解毒功能異常。例如：
+- 小鼠膽汁淤積模型中出現反應性醛增加與異常的抗氧化反應。
+- 2024 年研究指出麩胱甘肽在膽汁淤積時調控氧化壓力。
+- 患者身上發現針對 GSTT1（麩胱甘肽 S-轉移酶）的自體抗體。
 
-然而，目前所有文獻主要將 GST 定位為 PSC 的自身免疫靶標或氧化壓力生物標誌物，並非穀胱甘肽治療性補充的直接療效依據；且完全缺乏臨床試驗支持，機轉連結仍屬間接推論。
+這些發現讓「補充麩胱甘肽」在機轉上看似合理，但資料只顯示麩胱甘肽相關路徑與疾病有關，並未證明給予麩胱甘肽有益。TxGNN 的 0.98 分數目前僅是模型預測。
 
----
+另外，香港唯一許可證的品名指向眼科用途，硬化性膽管炎屬肝膽疾病，給藥途徑是否可行尚未評估。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記。
-
----
+目前無相關臨床試驗登記
 
 ## 文獻證據
 
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|------|------|------|---------|
-| [18242955](https://pubmed.ncbi.nlm.nih.gov/18242955/) | 2008 | Case-Control | J Autoimmunity | PSC 患者血清中發現抗 GSTT1 自體抗體，直接提示 GSH/GST 路徑為 PSC 自身免疫靶標 |
-| [29148959](https://pubmed.ncbi.nlm.nih.gov/29148959/) | 2017 | Clinical Observational | JPEN | PSC/UC 共病患者中，肝病氧化壓力增加及抗氧化防禦缺乏導致活性氧過量，支持 GSH 補充的概念 |
-| [38967587](https://pubmed.ncbi.nlm.nih.gov/38967587/) | 2024 | Mechanistic | Hepatology Commun | β-catenin 缺失揭示 GSH 在調節膽汁淤積肝病氧化壓力中扮演核心角色，為直接機轉證據 |
-| [30009888](https://pubmed.ncbi.nlm.nih.gov/30009888/) | 2018 | Preclinical (Animal) | Food Chem Toxicol | 膽汁淤積小鼠（PBC/PSC 模型）代謝組學分析顯示 GSH 相關代謝物顯著改變 |
-| [31377417](https://pubmed.ncbi.nlm.nih.gov/31377417/) | 2019 | Preclinical | Free Radic Biol Med | PSC（Mdr2KO）小鼠膽汁淤積損傷中活性醛類增加，肝臟抗氧化反應出現區域性失調 |
-| [41264321](https://pubmed.ncbi.nlm.nih.gov/41264321/) | 2025 | Mechanistic | FEBS J | 適度增強 MET 信號透過促進 GSH 等抗氧化反應，保護肝細胞抵抗膽汁淤積損傷 |
-| [10491327](https://pubmed.ncbi.nlm.nih.gov/10491327/) | 1999 | Preclinical | Biochem Biophys Res Commun | UDCA 透過誘導 GSH 等抗氧化劑保護肝細胞免受氧化損傷，支持抗氧化策略在膽汁淤積中的價值 |
-| [22370917](https://pubmed.ncbi.nlm.nih.gov/22370917/) | 2012 | Observational | Dig Dis Sci | PSC 患者膽囊組織中 Thioredoxin 家族蛋白（與 GSH 系統協同）異常表達，與惡性轉化相關 |
-| [9053974](https://pubmed.ncbi.nlm.nih.gov/9053974/) | 1995 | Observational | Scand J Gastroenterol | PSC 患者肝臟銅、硒代謝異常，暗示 GSH 被大量消耗於金屬解毒（銅—GSH 結合代謝途徑） |
-| [15719621](https://pubmed.ncbi.nlm.nih.gov/15719621/) | 2003 | Observational | Egypt J Immunol | 慢性膽汁淤積患者抗氧化酶活性下降、吞噬功能受損，支持抗氧化劑缺乏在膽汁淤積病理中的角色 |
+以下依研究類型與相關性挑選 10 篇，皆非 RCT。
 
----
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [9053974](https://pubmed.ncbi.nlm.nih.gov/9053974/) | 1995 | 世代研究 | Scand J Gastroenterol | 研究 32 名 PSC 患者的微量元素代謝，提示肝臟銅、硒滯留與銅代謝異常 |
+| [18242955](https://pubmed.ncbi.nlm.nih.gov/18242955/) | 2008 | 世代研究 | J Autoimmun | 從膽管組織篩出 GSTT1 為潛在自體抗原，PSC 及其他自體免疫疾病患者出現抗 GSTT1 抗體 |
+| [38967587](https://pubmed.ncbi.nlm.nih.gov/38967587/) | 2024 | 未分類（小鼠研究） | Hepatol Commun | 小鼠選擇性膽道損傷模型中，β-catenin 缺失顯示麩胱甘肽在調控氧化壓力中的角色 |
+| [31377417](https://pubmed.ncbi.nlm.nih.gov/31377417/) | 2019 | 未分類（小鼠研究） | Free Radic Biol Med | Mdr2KO 小鼠膽汁淤積導致反應性醛增加，肝門周圍出現非典型抗氧化反應 |
+| [17600122](https://pubmed.ncbi.nlm.nih.gov/17600122/) | 2007 | 動物模型 | Am J Pathol | 建立 DDC 餵食小鼠，作為異生物質誘發的硬化性膽管炎與膽道纖維化模型 |
+| [35863741](https://pubmed.ncbi.nlm.nih.gov/35863741/) | 2022 | 動物模型 | Cell Mol Gastroenterol Hepatol | 長期給予褪黑激素改善膽汁淤積小鼠的肝臟表型（非麩胱甘肽） |
+| [30009888](https://pubmed.ncbi.nlm.nih.gov/30009888/) | 2018 | 動物模型 | Food Chem Toxicol | 以代謝體學分析小鼠膽汁淤積性肝損傷的機轉 |
+| [22370917](https://pubmed.ncbi.nlm.nih.gov/22370917/) | 2012 | 未分類 | Dig Dis Sci | 評估 thioredoxin 家族蛋白與增生標記，作為 PSC 患者膽囊癌前病變或惡性病變的生物標記 |
+| [29148959](https://pubmed.ncbi.nlm.nih.gov/29148959/) | 2017 | 個案報告 | JPEN | 重度吸收不良合併 PSC 與潰瘍性結腸炎的患者，探討監測 GGT 及使用 Smoflipid 的靜脈營養，背景涉及抗氧化與氧化壓力 |
+| [41264321](https://pubmed.ncbi.nlm.nih.gov/41264321/) | 2025 | 未分類（小鼠研究） | FEBS J | 肝細胞 MET 適度增加，透過有效的抗氧化反應保護膽汁淤積性肝損傷 |
+
+## 香港上市資訊
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-38778 | ISETHION FOR OPHTHALMIC USE WITH SOLVENT（廠商：HING AH PHARMA CO LTD） | 未載明 | 未載明 |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
----
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-GSH 路徑與 PSC 病理機制存在生物學合理性（氧化壓力耗竭、GSTT1 自體抗體、膽汁淤積模型中 GSH 代謝異常），但現有文獻全部為生物標誌物研究、動物模型及機轉觀察，完全缺乏針對穀胱甘肽直接補充治療 PSC 的臨床前干預研究或臨床試驗，機轉連結屬間接推論，尚不足以支持進入臨床開發評估。
+- 沒有任何臨床試驗，文獻多為關聯性或前臨床研究，沒有直接證明給予麩胱甘肽對硬化性膽管炎有益。
+- 目前僅有模型預測與間接機轉線索，證據等級為 L4。
+- 安全性資料與作用機轉資料都缺，無法進入安全性篩選。
 
 **若要推進需要：**
-- 補充 Glutathione 藥理作用機轉資料（DrugBank MOA；查詢 DrugBank API）
-- 設計穀胱甘肽在 PSC 動物模型（如 Mdr2 KO 小鼠）的直接干預實驗，量化 GSH 補充對膽道纖維化的改善效果
-- 評估可行給藥途徑（口服 GSH 生體可用率低，需評估靜脈注射、S-乙醯基穀胱甘肽或脂質體劑型）
-- 蒐集 PSC 患者肝臟及血清 GSH/GSSG 濃度基線數據，確認補充缺口的臨床意義
-- 同步評估 MDS（Rank 2，L3 證據，有 Phase 2 試驗）及痤瘡（Rank 10，L3 證據，有 Tier 1 系統性回顧）作為優先推進替代適應症
+- 取得香港衛生署仿單，補齊警語、禁忌與適應症。
+- 補充 DrugBank 的作用機轉（MOA）資料。
+- 尋找或設計直接測試麩胱甘肽（而非 NAC 等前驅物或其他藥物）於膽管炎動物模型或臨床研究的證據。
+- 評估給藥途徑可行性：現有許可證為眼科用途，與肝膽疾病所需途徑是否相容。
+- 同批預測中，骨髓增生異常症候群 (MDS) 有較直接的前臨床訊號（PMID 38023359，麩胱甘肽增強 venetoclax 加 azacytidine 對 MDS 細胞的作用），可優先評估。
+
+> 本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

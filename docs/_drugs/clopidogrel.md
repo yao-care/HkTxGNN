@@ -2,7 +2,7 @@
 layout: default
 title: Clopidogrel
 parent: 中證據等級 (L3-L4)
-nav_order: 186
+nav_order: 216
 evidence_level: L3
 indication_count: 8
 ---
@@ -29,13 +29,13 @@ indication_count: 8
 
 </div>
 
-# Clopidogrel：從心血管血栓預防到腦幹型先兆偏頭痛
+# Clopidogrel：從抗血小板治療到伴腦幹先兆偏頭痛
 
 ## 一句話總結
 
-Clopidogrel 是廣泛使用的 P2Y12 受體拮抗劑，原本用於預防心肌梗塞、缺血性中風及動脈粥樣硬化相關心血管事件。
-TxGNN 模型預測它可能對**腦幹型先兆偏頭痛 (Migraine with Brainstem Aura)** 有效，
-目前尚無專屬臨床試驗登記，有 **16 篇文獻**從 PFO／抗血栓角度支持此方向的探索。
+Clopidogrel 是 P2Y12 抗血小板藥物，臨床上用於預防心血管與腦血管血栓事件。
+TxGNN 模型預測它可能對**伴腦幹先兆偏頭痛 (Migraine with brainstem aura)** 有效。
+目前沒有直接針對此亞型的臨床試驗，只有 **16 篇文獻**，多為觀察性研究，且集中在有卵圓孔未閉 (PFO) 的一般先兆偏頭痛患者。
 
 ---
 
@@ -43,54 +43,86 @@ TxGNN 模型預測它可能對**腦幹型先兆偏頭痛 (Migraine with Brainste
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 心血管血栓預防（急性冠心症、缺血性中風、周邊動脈疾病；香港未登記） |
-| 預測新適應症 | 腦幹型先兆偏頭痛 (Migraine with Brainstem Aura) |
+| 預測新適應症 | 伴腦幹先兆偏頭痛 (Migraine with brainstem aura) |
 | TxGNN 預測分數 | 99.44% |
 | 證據等級 | L3 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 |
-| 建議決策 | Hold |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
+| 建議決策 | Hold（列為研究問題） |
+
+註：證據包內香港許可證的核准適應症文字皆為空白，因此不列「原適應症」欄。
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏 Clopidogrel 的詳細作用機轉資料。根據已知資訊，Clopidogrel 是 Thienopyridine 類前驅藥，經肝臟 CYP2C19 代謝後不可逆地抑制血小板表面的 P2Y12（ADP 受體），從而阻止血小板聚集與活化，廣泛應用於動脈粥樣硬化性心血管疾病的抗血栓治療。
+Clopidogrel 是不可逆的 P2Y12 受體拮抗劑，屬於前驅藥，主要經 CYP2C19 代謝活化。
+證據包沒有提供 DrugBank 的詳細作用機轉資料，以下說明取自預測的機轉推論。
 
-腦幹型先兆偏頭痛（舊稱基底型偏頭痛）的病理核心，是起源於腦幹及枕葉皮質的皮質擴散性抑制（CSD）。**卵圓孔未閉（PFO）相關微栓子假說**認為：PFO 的右向左分流使攜帶 ADP 活化血小板的微栓子繞過肺循環過濾，直接進入體循環並優先影響椎基底動脈供血區域，觸發 CSD。Clopidogrel 抑制 P2Y12 可從源頭減少此類微栓子的形成，理論上對 PFO 合併腦幹型先兆偏頭痛患者最具針對性。
+偏頭痛先兆的可能誘發因素有兩個。
+- 血小板活化及其釋放的血清素。
+- 微小栓子經 PFO 等右向左分流通道造成的反常栓塞。
 
-此外，2019 年的動物研究（PMID 31722730）確認三叉神經核尾側（TNC）的小膠質細胞上有 P2Y12 受體表達，拮抗 P2Y12 可透過 RhoA/ROCK 通路抑制三叉神經痛覺傳導，此機轉獨立於 PFO，理論上對非 PFO 腦幹型先兆患者亦可能有效。然而，**現有文獻多為廣義先兆偏頭痛或 PFO 相關偏頭痛研究，專門針對「腦幹型先兆」亞型的直接臨床證據目前幾乎空白**。
+抗血小板藥物在理論上可以介入這兩條路徑。
+另有前臨床研究指出，小膠質細胞的 P2Y12 訊號（RhoA/ROCK）參與慢性偏頭痛，但這一項屬於一般偏頭痛的機轉。
+
+需要注意的限制：
+- 現有臨床資料涵蓋的是「伴先兆偏頭痛」整體，且以 PFO 患者為主，沒有任何一項專門針對腦幹先兆亞型。
+- 因此推論到此亞型屬於間接外推。
+- 部分文獻其實是 PFO 封堵術（PRIMA 試驗）或其他抗血小板藥（ticagrelor、ticlopidine）的研究，並非 clopidogrel 本身。
 
 ---
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記。
+此預測適應症（伴腦幹先兆偏頭痛）目前無相關臨床試驗登記。
 
-> **補充說明**：廣義偏頭痛（Rank 2，migraine disorder）有 8 個相關試驗，包括完成的 Phase 4 RCT（CANOA 研究，NCT00799045），但均未特別針對「腦幹型先兆偏頭痛」亞型進行分層分析。若要推進此方向，應參考 migraine disorder 的臨床試驗設計。
+較上層的「偏頭痛 (Migraine disorder)」在預測清單中排名第 2，有下列與 clopidogrel 直接相關的試驗，可作為間接參考：
+
+| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
+|---------|------|------|------|---------|
+| [NCT00799045](https://clinicaltrials.gov/study/NCT00799045) | Phase 4 | 完成 | 220 | CANOA：阿斯匹靈加 clopidogrel，預防經導管 ASD 封堵術後新發偏頭痛 |
+| [NCT02938182](https://clinicaltrials.gov/study/NCT02938182) | Phase 4 | 未知 | 50 | Clopidogrel 用於伴右向左分流的偏頭痛預防 |
+| [NCT05546320](https://clinicaltrials.gov/study/NCT05546320) | Phase 4 | 未知 | 1000 | COMPETE：比較抗凝、抗血小板與偏頭痛專用藥物對合併 PFO 偏頭痛的效果，尚無結果 |
 
 ---
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|------|------|------|---------|
-| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | RCT | European Heart Journal | PRIMA 試驗：PFO 經皮閉合術用於難治性先兆偏頭痛的多中心隨機對照試驗，術後輔助 Clopidogrel |
-| [24836213](https://pubmed.ncbi.nlm.nih.gov/24836213/) | 2014 | Pilot RCT | Cephalalgia | Clopidogrel 作為偏頭痛預防性治療的先導隨機對照試驗，顯示初步療效信號 |
-| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Systematic Review | Headache | 系統性回顧抗血栓藥物在偏頭痛預防中的角色，涵蓋 Clopidogrel 相關研究 |
-| [16103551](https://pubmed.ncbi.nlm.nih.gov/16103551/) | 2005 | Observational | Heart | 首篇報告 Clopidogrel 顯著減少 PFO 及 ASD 經導管閉合術後先兆偏頭痛的臨床觀察 |
-| [32848048](https://pubmed.ncbi.nlm.nih.gov/32848048/) | 2020 | Observational Cohort | J Investigative Medicine | Clopidogrel 75mg/day 對兩種以上預防藥物無效的 PFO 偏頭痛患者，3-6 個月療效評估 |
-| [30478067](https://pubmed.ncbi.nlm.nih.gov/30478067/) | 2018 | Open-label Pilot | Neurology | TRACTOR 試驗：Ticagrelor 用於難治性 PFO 偏頭痛，源自 Clopidogrel 及 Prasugrel 的先期臨床觀察 |
-| [30478066](https://pubmed.ncbi.nlm.nih.gov/30478066/) | 2018 | Retrospective Cohort | Neurology | 回顧性分析 Thienopyridine 類藥物（含 Clopidogrel）在 PFO 偏頭痛患者的臨床療效 |
-| [24770421](https://pubmed.ncbi.nlm.nih.gov/24770421/) | 2014 | Retrospective Cohort | Cephalalgia | Clopidogrel 作為右向左分流偏頭痛患者的主要預防療法，確立血小板活化與偏頭痛的機轉連結 |
-| [15966922](https://pubmed.ncbi.nlm.nih.gov/15966922/) | 2005 | Observational | J Interventional Cardiology | 13 例 ASD 封堵術後激烈偏頭痛，300mg Clopidogrel 幾乎即刻緩解疼痛（5/5 例） |
-| [22992406](https://pubmed.ncbi.nlm.nih.gov/22992406/) | 2012 | Observational | Cephalalgia | ASD 閉合術後新發偏頭痛，抗血小板藥物（Clopidogrel/Ticlopidine）與症狀改善的關聯 |
+|------|-----|------|------|---------|
+| [24836213](https://pubmed.ncbi.nlm.nih.gov/24836213/) | 2014 | 先導 RCT | Cephalalgia | 隨機對照先導試驗，評估 clopidogrel 預防偏頭痛（摘要未提供結果數據） |
+| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | 系統性回顧 | Headache | 探討抗血栓藥物用於偏頭痛預防的角色 |
+| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | RCT（PFO 封堵，非藥物） | Eur Heart J | PRIMA：對藥物治療無效的伴先兆偏頭痛，評估經皮 PFO 封堵 |
+| [16103551](https://pubmed.ncbi.nlm.nih.gov/16103551/) | 2005 | 世代研究 | Heart | 封堵術後抗凝方案改變與先兆偏頭痛症狀的關係，標題指出 clopidogrel 可減少症狀 |
+| [32848048](https://pubmed.ncbi.nlm.nih.gov/32848048/) | 2020 | 世代／病例系列 | J Investig Med | 難治性偏頭痛合併 PFO，在原有預防藥物上加 clopidogrel 75 mg/日，追蹤 3、6 個月 |
+| [24770421](https://pubmed.ncbi.nlm.nih.gov/24770421/) | 2014 | 回溯性世代 | Cephalalgia | 回顧 clopidogrel 作為右向左分流偏頭痛患者的主要治療 |
+| [30478066](https://pubmed.ncbi.nlm.nih.gov/30478066/) | 2018 | 回溯性世代 | Neurology | 回顧 thienopyridine 類藥物用於偏頭痛合併 PFO 的仿單外使用經驗 |
+| [30478067](https://pubmed.ncbi.nlm.nih.gov/30478067/) | 2018 | 開放標籤先導（ticagrelor，非 clopidogrel） | Neurology | TRACTOR：評估 ticagrelor 對難治性偏頭痛合併 PFO 的效果 |
+| [15966922](https://pubmed.ncbi.nlm.nih.gov/15966922/) | 2005 | 病例系列 | J Interv Cardiol | ASD 封堵後 13 人中 5 人出現劇烈偏頭痛，給予 300 mg clopidogrel 後疼痛迅速緩解 |
+| [22992406](https://pubmed.ncbi.nlm.nih.gov/22992406/) | 2012 | 個案報告（ticlopidine） | Cephalalgia | ASD 封堵後新發偏頭痛，ticlopidine 有效 |
+
+---
+
+## 香港上市資訊
+
+香港共有 20 張許可證，以下列出 5 張。證據包未提供劑型與核准適應症文字。
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-58832 | NORPLAT TAB 75MG | CHARIOT PHARMA LIMITED |
+| HK-60493 | CLOPRA TAB 75MG | HEALTHCARE PHARMASCIENCE LIMITED |
+| HK-58265 | DCLOT-75 TAB 75MG | DELTAPHARM LIMITED |
+| HK-60372 | COPIDREL TAB 75MG | VIEWBEST HOLDINGS LIMITED |
+| HK-66774 | LOPIGROL TABLETS 75MG | THE INTERNATIONAL MEDICAL COMPANY LIMITED |
 
 ---
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
+
+已知的一點提醒：clopidogrel 是前驅藥，主要經 CYP2C19 活化，因此併用會影響此酵素的藥物時需注意。
 
 ---
 
@@ -99,13 +131,18 @@ TxGNN 模型預測它可能對**腦幹型先兆偏頭痛 (Migraine with Brainste
 **決策：Hold**
 
 **理由：**
-腦幹型先兆偏頭痛為偏頭痛的特定亞型，目前無任何臨床試驗專門針對此亞型評估 Clopidogrel 療效；現有 16 篇文獻均來自廣義先兆偏頭痛或 PFO 相關偏頭痛的研究，機轉推論雖合理（PFO 微栓子 + P2Y12 神經炎症雙重假說），但缺乏針對腦幹先兆亞型的直接臨床驗證，尚屬「研究假說」階段。
+- 預測分數很高（99.44%），但此亞型沒有任何臨床試驗，現有文獻以觀察性研究為主，證據等級為 L3。
+- 較有價值的證據集中在 PFO 相關的一般先兆偏頭痛，直接外推到腦幹先兆屬於間接推論。
+- 建議先列為研究問題，不進入臨床應用評估。
 
 **若要推進需要：**
-- 取得 Clopidogrel 正式作用機轉資料（MOA）及完整仿單警語與禁忌
-- 以 PFO 合併腦幹型先兆偏頭痛為主要納入標準，設計前瞻性試驗（可參考 NCT02938182 設計架構）
-- 優先評估 **Rank 2「migraine disorder」**（L2 等級，CANOA Phase 4 RCT 已完成），其證據基礎更充分（8 個臨床試驗、20 篇文獻、建議 Proceed with Guardrails），作為推進路徑的首選入口
-- 確認 Clopidogrel 在香港的上市登記狀態及監管要求，釐清目前「未上市」是否為資料缺漏
+- 補充香港衛生署仿單的警語與禁忌症，這是進入安全性篩選的前提。
+- 補充 DrugBank 作用機轉資料。
+- 取得 CANOA（PMID 26551304、32965476）及 COMPETE 的實際結果，確認 clopidogrel 在偏頭痛的療效與出血風險。
+- 查證腦幹先兆亞型是否有獨立的病例或亞群分析。
+- 評估此亞型患者是否有 PFO 等右向左分流，作為可能的目標族群。
+
+*本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證後才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -2,7 +2,7 @@
 layout: default
 title: Rivaroxaban
 parent: 僅模型預測 (L5)
-nav_order: 657
+nav_order: 766
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,78 +29,95 @@ indication_count: 4
 
 </div>
 
-# Rivaroxaban：從 抗凝血治療 到 類風濕性關節炎
+# Rivaroxaban：從抗凝血治療到類風濕性關節炎
 
 ## 一句話總結
 
-Rivaroxaban（DB06228）是 Factor Xa 抑制劑，臨床上用於抗凝血治療；由於原適應症許可證資料缺失，僅能依藥物已知藥理類別描述。TxGNN 模型將**類風濕性關節炎 (Rheumatoid Arthritis)** 列為最高分預測適應症，但目前**無相關臨床試驗**、僅有 **3 篇文獻**，且經評估後均與 RA 治療機轉無直接關聯。
+Rivaroxaban（利伐沙班）是直接 Factor Xa 抑制劑，屬於口服抗凝血藥。
+TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** 有效。
+目前有 **0 個臨床試驗**，另有 **3 篇文獻**，但都沒有直接測試 rivaroxaban 用於類風濕性關節炎，因此這個預測仍停留在假說層級。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無資料（許可證清單為空，未於香港上市） |
 | 預測新適應症 | 類風濕性關節炎 (Rheumatoid Arthritis) |
 | TxGNN 預測分數 | 99.57% |
-| 證據等級 | L5 |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 |
+| 證據等級 | L4（依 Evidence Pack 評級，僅有機轉層級的假說） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
 | 建議決策 | Hold |
+
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（MOA: [Data Gap]）。根據已知藥理分類，rivaroxaban 為口服 Factor Xa 抑制劑，屬抗凝血藥物類別。
+Rivaroxaban 是直接 Factor Xa 抑制劑。目前缺乏詳細的作用機轉資料，以下推論僅屬假說。
 
-**評估結論：此預測機轉關聯性薄弱。** 現有文獻僅涉及自體免疫疾病患者的凝血酶生成異常（屬於 RA 共病之血栓風險升高現象），以及一般靜脈血栓栓塞治療綜述，並未提出 rivaroxaban 作為 RA 疾病調節治療的機轉或療效證據。TxGNN 的高分很可能反映「RA 患者血栓風險升高 → 常合併使用抗凝藥物」這一共病關聯，而非 rivaroxaban 對 RA 本身具有治療作用。此為典型的知識圖譜共現偏誤（confounding by comorbidity），並非有效的老藥新用機轉假說。
+可能的關聯在於凝血與發炎的交互作用。自體免疫疾病患者的凝血酶生成 (thrombin generation) 會改變。凝血酶與 Factor Xa 可能透過 PAR 受體訊號促進關節滑膜發炎。若此推論成立，抑制 Factor Xa 在機轉上有可能影響類風濕性關節炎的發炎過程。
+
+需要強調的是，0.996 的高分是知識圖譜的預測結果，沒有臨床資料支持。目前尚無研究證實 rivaroxaban 能改善類風濕性關節炎的疾病活動度或結局。
+
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [33141212](https://pubmed.ncbi.nlm.nih.gov/33141212/) | 2020 | Review | JAMA | 下肢靜脈血栓栓塞（DVT/PE）診斷與治療綜述，未涉及 RA |
-| [34175144](https://pubmed.ncbi.nlm.nih.gov/34175144/) | 2021 | Cohort/Lab | Rev Med Interne | 探討自體免疫疾病患者凝血酶生成試驗，用於評估血栓風險而非治療 RA |
-| [29621248](https://pubmed.ncbi.nlm.nih.gov/29621248/) | 2018 | Cohort | PLoS ONE | 比較房顫患者使用 rivaroxaban 與 apixaban 之服藥順從性，與 RA 無關 |
+| [33141212](https://pubmed.ncbi.nlm.nih.gov/33141212/) | 2020 | Review | JAMA | 下肢靜脈血栓栓塞的診斷與治療回顧。下肢深層靜脈栓塞的發生率為每 10 萬人年 88–112 例，且隨年齡上升。初次事件後 10 年內的復發率為 20–36%。與類風濕性關節炎無直接關聯。 |
+| [34175144](https://pubmed.ncbi.nlm.nih.gov/34175144/) | 2021 | Review | La Revue de médecine interne | 凝血酶生成試驗 (TGA) 可用於評估自體免疫疾病（如抗磷脂症候群）的高凝血狀態與心血管風險。僅提供凝血與自體免疫關聯的背景，未測試 rivaroxaban。 |
+| [29621248](https://pubmed.ncbi.nlm.nih.gov/29621248/) | 2018 | Cohort | PLoS One | 比較非瓣膜性心房顫動患者使用 rivaroxaban 與 apixaban 的服藥順從性。與類風濕性關節炎無關。 |
+
+---
 
 ## 香港上市資訊
 
-目前未在香港上市，無許可證資料。
+香港共有 20 張許可證，以下列出 5 張主要許可證。Evidence Pack 未提供劑型與核准適應症文字。
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-68572 | RALTEG 20 TABLETS 20MG | I & C (HONG KONG) LIMITED |
+| HK-68378 | RIVACRYST TABLETS 20MG | ABBOTT LAB LTD |
+| HK-61395 | XARELTO TAB 20MG | BAYER HEALTHCARE LIMITED |
+| HK-68356 | XARELTO TABLETS 10MG | BAYER HEALTHCARE LIMITED |
+| HK-65785 | XARELTO TABLETS 20MG (ITALY) | BAYER HEALTHCARE LIMITED |
+
+---
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
-> 註：TFDA/香港仿單警語、禁忌症與藥物交互作用資料均為缺口（DG001，Blocking），目前無法進行 S1 安全性初評。
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 證據等級僅 L5（無臨床試驗、文獻與適應症無直接治療關聯），且評估已明確指出這是共病關聯而非治療機轉。
-- 藥物 MOA 與安全性仿單資料均缺失（DG001 為 Blocking 缺口），無法進行後續安全性初評。
+- 沒有任何臨床試驗，文獻也未直接測試 rivaroxaban 用於類風濕性關節炎，目前僅有模型預測與假說層級的機轉推論。
+- 香港藥物主管機關的仿單警語與禁忌症資料缺口屬於阻擋性缺口，無法進入安全性初篩。
 
 **若要推進需要：**
-- 補齊 TFDA/香港仿单警語與禁忌症資料（DG001）
-- 補齊 DrugBank 完整 MOA 資料（DG002）
-- 尋找 rivaroxaban 直接作用於 RA 疾病機轉（如抗發炎、免疫調節路徑）的機轉研究，而非僅止於共病血栓風險文獻
+- 取得香港衛生署的仿單，補齊警語、禁忌症與核准適應症，以通過安全性初篩。
+- 補充 rivaroxaban 的作用機轉資料（例如查詢 DrugBank）。
+- 文獻檢索：針對 Factor Xa／凝血酶訊號與類風濕性關節炎滑膜發炎的前臨床研究。
+- 評估抗凝血治療用於慢性關節炎的出血風險與效益，並說明類風濕性關節炎常用藥物（如 NSAIDs）併用時的出血風險。
 
----
+**其他預測適應症（同樣建議 Hold）：**
+- 痛風（L5）：無可信的機轉關聯，唯一一篇文獻是 benzbromarone 的 CYP450 體外交互作用研究。
+- HIV 感染（L4）：既有試驗與文獻是抗凝血治療在 HIV 患者的出血風險與 CYP3A4／P-gp 藥物交互作用，屬於安全性議題，不是療效訊號。
+- 短指併指症候群（L5）：無任何試驗與文獻，也沒有機轉依據。
 
-### 附註：其他預測適應症（同一藥物，均建議 Hold）
-
-本次 Evidence Pack 同時評估了 4 個候選適應症，除上述 RA 外，其餘三項證據更弱或機轉更不合理：
-
-| 排名 | 疾病 | TxGNN 分數 | 證據等級 | 主要問題 |
-|------|------|-----------|---------|---------|
-| 2 | Gout（痛風） | 99.51% | L5 | 唯一文獻為降尿酸藥 benzbromarone 與 CYP450 的藥物交互作用研究，與 rivaroxaban 療效無關 |
-| 3 | HIV infectious disease | 99.17% | L4 | 所有證據（含 1 個 Phase 2 試驗、7 篇文獻）皆圍繞「HIV 患者合併房顫/VTE 時使用 rivaroxaban 之出血風險與抗病毒藥交互作用」，屬安全性議題而非抗病毒治療證據 |
-| 4 | Brachydactyly-syndactyly syndrome（先天性肢端發育疾病） | 99.10% | L5 | 無任何臨床試驗或文獻，亦無生物學合理性 |
-
-四項預測均建議 **Hold**，本藥物目前不具備進入下一階段評估（S1）的證據基礎。
+> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

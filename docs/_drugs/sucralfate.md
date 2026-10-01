@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sucralfate
-parent: 僅模型預測 (L5)
-nav_order: 708
-evidence_level: L5
+parent: 中證據等級 (L3-L4)
+nav_order: 821
+evidence_level: L3
 indication_count: 2
 ---
 
 # Sucralfate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+證據等級: **L3** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,86 @@ indication_count: 2
 
 </div>
 
-# SUCRALFATE：原始適應症資料缺失 → 預測十二指腸胃逆流 (Duodenogastric Reflux)
+# Sucralfate：從黏膜保護劑到十二指腸胃逆流
 
 ## 一句話總結
 
-> Sucralfate（DrugBank DB00364）目前**未於香港上市**，Evidence Pack 中缺乏原始適應症與作用機轉（MOA）資料。
-> TxGNN 模型預測它可能對**十二指腸胃逆流 (Duodenogastric Reflux)** 有效，
-> 目前有 **13 篇文獻**支持，但**無相關臨床試驗登記**。
-
----
+Sucralfate 是一種黏膜保護劑，目前在香港有 5 張藥品許可證。
+TxGNN 模型預測它可能對**十二指腸胃逆流 (Duodenogastric Reflux)** 有效。
+目前沒有臨床試驗登記，有 **13 篇文獻**，其中直接測試 sucralfate 的只有少數幾篇小型研究。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料缺失（無許可證、`original_indications` 為空） |
 | 預測新適應症 | 十二指腸胃逆流 (Duodenogastric Reflux) |
-| TxGNN 預測分數 | 99.37%（rank 10605） |
-| 證據等級 | L3（多篇觀察性研究/小型 RCT，但無正式登記之臨床試驗） |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 |
+| TxGNN 預測分數 | 99.37% |
+| 證據等級 | L3 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 5 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前 Evidence Pack 缺乏 Sucralfate 的作用機轉（MOA）與原始適應症資料（對應 DG002：MOA 缺失；DG001：仿單警語/禁忌缺失，屬 Blocking 等級）。
+目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位為空）。以下說明來自一般藥理知識，不是這份資料包提供的內容。Sucralfate 是黏膜保護劑，會附著在受損的胃黏膜上，據報也能結合膽酸與胃蛋白酶。
 
-不過從既有文獻可觀察到機轉上的合理性：十二指腸胃逆流 (DGR) 的病理機轉是十二指腸內容物（含膽酸、胰液）逆流入胃，造成胃黏膜的化學性損傷（如 Nath & Warshaw 1984, PMID 6372664）。多篇 1985–2003 年的文獻直接測試了 sucralfate 於此類「鹼性逆流性胃炎 (alkaline reflux gastritis)」的療效，包括兩篇隨機對照試驗（Buch et al. 1985, PMID 3839973；Santarelli et al. 2003, PMID 12923369），顯示 sucralfate 的黏膜保護/膽酸吸附作用在此適應症下已有實際臨床觀察基礎，與 TxGNN 的預測方向一致。
+十二指腸胃逆流是鹼性的十二指腸內容物（含膽汁）逆流回胃，可造成鹼性（膽汁性）逆流性胃炎與食道炎。Sucralfate 若能附著黏膜並結合膽酸，在機轉上與這種黏膜損傷的病理相符，因此這個預測有一定合理性。
 
-換言之，這個預測並非單純模型外推，而是與既有（雖然年代較久的）臨床文獻相呼應。
-
----
+TxGNN 分數很高（99.37%），但這只是模型預測，不是臨床證據。實際支持程度要看下方文獻。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記
-
----
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [3839973](https://pubmed.ncbi.nlm.nih.gov/3839973/) | 1985 | RCT | Am J Med | 隨機雙盲研究：sucralfate（6g/天）改善鹼性逆流性胃炎患者症狀與內視鏡/組織學表現 |
-| [3475771](https://pubmed.ncbi.nlm.nih.gov/3475771/) | 1987 | RCT | Scand J Gastroenterol Suppl | 前瞻性隨機試驗，比較 sucralfate 與安慰劑用於胃炎（涵蓋十二指腸胃逆流相關型態） |
-| [1391144](https://pubmed.ncbi.nlm.nih.gov/1391144/) | 1992 | RCT | Minerva Gastroenterol Dietol | 比較 cisapride 與 sucralfate 治療十二指腸胃逆流性胃炎相關消化不良 |
-| [12923369](https://pubmed.ncbi.nlm.nih.gov/12923369/) | 2003 | RCT | Eur J Gastroenterol Hepatol | 隨機試驗比較 sucralfate、rabeprazole 與不治療，用於膽囊切除術後鹼性逆流性胃炎 |
-| [17285081](https://pubmed.ncbi.nlm.nih.gov/17285081/) | 2006 | Review | J Chir | 十二指腸胃及胃食道膽汁逆流之病理生理、診斷（24小時膽汁監測）與治療現況回顧 |
-| [14723838](https://pubmed.ncbi.nlm.nih.gov/14723838/) | 2004 | Review | Curr Treat Options Gastroenterol | 十二指腸胃逆流所致鹼性食道炎之藥物/手術治療選項回顧，PPI 為首選藥物治療 |
-| [6372664](https://pubmed.ncbi.nlm.nih.gov/6372664/) | 1984 | Review | Annu Rev Med | 鹼性逆流性胃炎與食道炎之病理生理及診斷特徵回顧 |
-| [10228771](https://pubmed.ncbi.nlm.nih.gov/10228771/) | 1999 | Review | Hepatogastroenterology | 十二指腸轉流手術治療病理性十二指腸胃逆流之適應症、技術與結果回顧 |
-| [3838414](https://pubmed.ncbi.nlm.nih.gov/3838414/) | 1985 | Review | Am J Gastroenterol | 美國腸胃科醫學會委員會報告：sucralfate 於非潰瘍適應症（含胃炎、食道炎）之應用 |
-| [3552846](https://pubmed.ncbi.nlm.nih.gov/3552846/) | 1987 | Review | Gastroenterol Clin Biol | 十二指腸胃逆流藥物治療之藥理學基礎（無摘要可用） |
-
----
+| [3839973](https://pubmed.ncbi.nlm.nih.gov/3839973/) | 1985 | RCT | Am J Med | 雙盲試驗，23 位胃手術後、有鹼性逆流性胃炎症狀的患者，sucralfate 每日 6 g 對照安慰劑，療程 6 週，評估症狀、內視鏡與組織學（摘要被截斷，未見結果） |
+| [12923369](https://pubmed.ncbi.nlm.nih.gov/12923369/) | 2003 | 隨機試驗（依標題） | Eur J Gastroenterol Hepatol | 膽囊切除術後鹼性反應性胃炎，比較 sucralfate、rabeprazole 與不治療（摘要未見結果） |
+| [3475771](https://pubmed.ncbi.nlm.nih.gov/3475771/) | 1987 | Review | Scand J Gastroenterol Suppl | 摘要提到以 sucralfate 對照安慰劑做半年的前瞻性隨機試驗，對象為有症狀的胃炎患者（摘要被截斷，未見結果） |
+| [1391144](https://pubmed.ncbi.nlm.nih.gov/1391144/) | 1992 | 臨床研究 | Minerva Gastroenterol Dietol | 18 位十二指腸胃逆流性胃炎患者，cisapride 與 sucralfate 各 9 位，療程 2 個月。兩種藥物分屬不同類別，無法單獨判斷 sucralfate 的效果 |
+| [3616071](https://pubmed.ncbi.nlm.nih.gov/3616071/) | 1987 | 病例系列（依標題） | Rev Esp Enferm Apar Dig | 評估 50 例術後膽汁逆流性胃炎以 sucralfate 治療的情形（無摘要） |
+| [3838414](https://pubmed.ncbi.nlm.nih.gov/3838414/) | 1985 | Review | Am J Gastroenterol | sucralfate 用於非潰瘍族群（胃炎、食道炎、口腔炎）前景看好，但尚未確立，需更多研究 |
+| [17285081](https://pubmed.ncbi.nlm.nih.gov/17285081/) | 2006 | Review | J Chir | 回顧十二指腸胃逆流與胃食道膽汁逆流的病理、診斷（24 小時膽汁監測）與治療 |
+| [14723838](https://pubmed.ncbi.nlm.nih.gov/14723838/) | 2004 | Review | Curr Treat Options Gastroenterol | 指出目前最佳藥物治療是質子幫浦抑制劑，內外科治療都不容易 |
+| [6372664](https://pubmed.ncbi.nlm.nih.gov/6372664/) | 1984 | Review | Annu Rev Med | 回顧鹼性逆流性胃炎與食道炎的診斷特徵與病理 |
+| [3552846](https://pubmed.ncbi.nlm.nih.gov/3552846/) | 1987 | Review | Gastroenterol Clin Biol | 十二指腸胃逆流藥物治療的藥理基礎（無摘要） |
 
 ## 香港上市資訊
 
-目前無許可證資料（Sucralfate 未於香港上市，`total_licenses` = 0）
-
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-44717 | SUCATE TAB 500MG | JEAN-MARIE PHARMACAL CO LTD |
+| HK-56646 | SUCRATE GEL SUSPENSION 20% | MEKIM LTD |
+| HK-36063 | SUCARI TAB 500MG | JEAN-MARIE PHARMACAL CO LTD |
+| HK-41750 | APO-SUCRALFATE TAB 1G | HIND WING CO LTD |
+| HK-49933 | INOSEA CHEWABLE TAB | SATO PHARMACEUTICAL (HK) CO LTD |
 
 ## 安全性考量
 
-> 安全性資訊請參考原廠仿單。
-
-⚠️ 需特別注意：此藥物的仿單警語與禁忌資料（DG001）標記為 **Blocking** 等級，現階段無法完成 S1 安全性初評，這是本次評估決策的主要限制因素。
-
----
+安全性資訊請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- DG001（Blocking）：缺乏仿單警語/禁忌資料，導致本案無法進入 S1 安全性初評，屬硬性阻礙。
-- Sucralfate 目前未於香港上市（0 張許可證），且新適應症無任何正式登記之臨床試驗，僅有 1985–2006 年間的歷史文獻（含 4 篇小型 RCT），證據等級為 L3。
-- 原始適應症與 MOA 資料（DG002）皆缺失，機轉關聯性分析目前僅能依賴文獻內容推論，尚未經正式驗證。
+- 目前只有 1 個小型（23 人）、1985 年的 RCT 直接測試 sucralfate 用於鹼性逆流性胃炎。沒有臨床試驗登記，也沒有 Phase 3 證據，不符合 L1 或 L2。
+- 香港仿單的警語與禁忌資料尚缺（屬阻斷性資料缺口），無法進入安全性篩選。
+- 這項預測在機轉上合理，值得作為研究問題，但現有證據還不足以推進。
 
 **若要推進需要：**
-- 取得 Sucralfate 完整仿單/藥品標籤資料（警語、禁忌、DDI），解除 DG001 blocking gap
-- 補充 DrugBank 或其他來源的 MOA 與原始適應症資料（DG002）
-- 若香港無上市計畫，評估其他地區（如已上市市場）之監管路徑作為輔助佐證
-- 規劃前瞻性臨床試驗以更新此適應症的證據等級（現有 RCT 均為 1980–2000 年代小樣本研究）
+- 取得香港衛生署的仿單，確認警語與禁忌症。
+- 查詢 DrugBank 的作用機轉資料，並確認原核准適應症。
+- 取得 PMID 3839973 與 12923369 的全文，確認療效結果。
+- 評估是否需要新的對照試驗，尤其是對照質子幫浦抑制劑（PPI）的設計。
 
-**附註（其他候選適應症）：** 本輪預測另有 rank 2 候選「十二指腸阻塞 (duodenal obstruction, score 99.30%)」，經系統評估其機轉關聯薄弱（阻塞屬機械性/結構性問題，非黏膜化學性損傷），已判定為 **Hold**，研判為 TxGNN embedding 鄰近 peptic ulcer 所致之偽陽性，不建議進一步投入資源。
+**補充：** 預測排名第 2 的「十二指腸阻塞 (Duodenal Obstruction)」機轉連結薄弱，沒有直接證據支持（證據等級 L5），建議 Hold。
+
+---
+
+*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Melphalan
-parent: 中證據等級 (L3-L4)
-nav_order: 481
-evidence_level: L3
+parent: 僅模型預測 (L5)
+nav_order: 551
+evidence_level: L5
 indication_count: 5
 ---
 
 # Melphalan
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,120 +29,105 @@ indication_count: 5
 
 </div>
 
-# MELPHALAN：從（原適應症資料缺失）到性腺生殖細胞腫瘤
+# Melphalan：從原適應症（許可證未載明）到性腺生殖細胞腫瘤
 
 ## 一句話總結
 
-Melphalan（苯丙氨酸氮芥）是傳統烷化劑類化療藥物，本 Evidence Pack 未提供其原適應症的詳細登記資料。
-TxGNN 模型預測它可能對**性腺生殖細胞腫瘤 (Gonadal Germ Cell Tumor)** 有效，
-目前有 **8 個臨床試驗**和 **4 篇文獻**支持這個方向，但多數研究設計為 Phase 1/2 單臂試驗，尚無專屬此適應症的隨機對照試驗。
-
----
+Melphalan 是一種雙功能氮芥類（nitrogen mustard）烷化劑，香港有 2 張許可證，但證據包中未載明原適應症。
+TxGNN 模型預測它可能對**性腺生殖細胞腫瘤 (Gonadal Germ Cell Tumor)** 有效。
+目前有 **7 個臨床試驗**和 **4 篇文獻**與此方向相關，其中直接對應的只有 1 個 Phase 2 試驗，而且是多藥合併方案。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未收錄（本 Evidence Pack 無核准適應症資料；Melphalan 藥理上為苯丙氨酸氮芥類烷化劑） |
+| 原適應症 | 許可證資料未載明 |
 | 預測新適應症 | 性腺生殖細胞腫瘤 (Gonadal Germ Cell Tumor) |
 | TxGNN 預測分數 | 99.77% |
-| 證據等級 | L3 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L3（證據包標示 L2，但唯一的 Phase 2 試驗未確認為 RCT，依規則下修） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 2 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉（MOA）資料。根據已知資訊，Melphalan 是苯丙氨酸氮芥類烷化劑（alkylating agent），透過與 DNA 形成交聯而抑制腫瘤細胞分裂，是血液腫瘤與高劑量化療領域廣泛使用的細胞毒性藥物。
+目前缺乏詳細的作用機轉資料（DrugBank MOA 尚未取得）。根據已知資訊，Melphalan 是雙功能氮芥類烷化劑，透過使 DNA 交叉鏈結來殺傷腫瘤細胞。
 
-值得注意的是，文獻證據顯示 Melphalan（早期文獻中稱為 "sarcolysin"）自 1950-1970 年代即被用於治療睪丸精原細胞瘤 (seminoma) 及睪丸生殖細胞腫瘤（PMID 13392619、4270380、24913），顯示此次 TxGNN 的預測方向並非全新概念，而是呼應了歷史上已存在的臨床使用經驗。
+生殖細胞腫瘤對 DNA 損傷型化療藥物高度敏感。高劑量 Melphalan 搭配自體幹細胞救援，是復發、預後不良個案的合理挽救策略。
 
-在近代臨床試驗中，Melphalan 常作為高劑量化療合併自體幹細胞移植前置方案的組成藥物之一。其中 NCT00936936 專門針對「預後不良之復發性生殖細胞腫瘤」設計，第一階段化療即包含 gemcitabine、docetaxel、melphalan、carboplatin 四藥合併，第二階段接續 ifosfamide、carboplatin、etoposide，顯示 Melphalan 在此類腫瘤的救援性治療中具實質臨床角色，與 TxGNN 99.77% 的預測分數相符。
-
----
+不過，現有試驗多為合併方案，Melphalan 的獨立貢獻無法從資料中區分。此預測目前只能視為「值得研究的問題」，還不是已證實的療效。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00936936](https://clinicaltrials.gov/study/NCT00936936) | Phase 2 | 完成 | 64 | 兩階段高劑量化療（含 melphalan）用於預後不良之復發性生殖細胞腫瘤，並評估安全性 |
-| [NCT00003425](https://clinicaltrials.gov/study/NCT00003425) | Phase 1/2 | 完成 | 25 | 遞增劑量 melphalan 併用自體周邊血幹細胞支持及 amifostine 細胞保護於癌症病人 |
-| [NCT00638898](https://clinicaltrials.gov/study/NCT00638898) | Phase 1 | 完成 | 25 | Busulfan+Melphalan+Topotecan 高劑量化療後接自體造血幹細胞移植，用於晚期/復發腫瘤 |
-| [NCT00060255](https://clinicaltrials.gov/study/NCT00060255) | Phase 2 | 完成 | 451 | 8 種不同高劑量化療方案（含 melphalan）合併自體移植，用於血液腫瘤及特定實體瘤 |
-| [NCT00536601](https://clinicaltrials.gov/study/NCT00536601) | N/A | 完成 | 174 | 不同高劑量化療方案（含/不含全身放療）於自體移植前使用，涵蓋血液腫瘤及實體瘤 |
-| [NCT01272817](https://clinicaltrials.gov/study/NCT01272817) | N/A | 完成 | 36 | 非骨髓清除式異體移植，前置方案採 melphalan+cladribine 或全淋巴照射 |
-| [NCT00002750](https://clinicaltrials.gov/study/NCT00002750) | Phase 1 | 完成 | 6 | 鞘內注射 melphalan 治療復發性/持續性腫瘤性腦膜炎 |
-| [NCT00003926](https://clinicaltrials.gov/study/NCT00003926) | Phase 1 | 終止 | 13 | Amifostine 細胞保護併自體幹細胞移植，用於高風險/復發小兒實體瘤及腦瘤 |
+| [NCT00936936](https://clinicaltrials.gov/study/NCT00936936) | Phase 2 | 完成 | 64 | 復發、預後不良生殖細胞腫瘤的兩輪高劑量化療（含 Melphalan），與適應症最貼近；Melphalan 的角色未能單獨確認 |
+| [NCT00060255](https://clinicaltrials.gov/study/NCT00060255) | Phase 2 | 完成 | 451 | 血液惡性腫瘤與部分實體瘤的自體移植，八種高劑量方案；生殖細胞腫瘤僅是其中一個亞群 |
+| [NCT00003425](https://clinicaltrials.gov/study/NCT00003425) | Phase 1/2 | 完成 | 25 | 劑量遞增 Melphalan 併自體幹細胞支持與 Amifostine 保護；族群為混合實體瘤 |
+| [NCT00638898](https://clinicaltrials.gov/study/NCT00638898) | Phase 1 | 完成 | 25 | Busulfan/Melphalan/Topotecan 後接自體移植，支持含 Melphalan 方案的可行性與安全性 |
+| [NCT00536601](https://clinicaltrials.gov/study/NCT00536601) | NA | 完成 | 174 | 血液惡性腫瘤與部分實體瘤的自體移植，無對照比較 |
+| [NCT01272817](https://clinicaltrials.gov/study/NCT01272817) | NA | 完成 | 36 | 非清髓性異體移植，Melphalan 最多只是預處理成分，間接相關 |
+| [NCT00002750](https://clinicaltrials.gov/study/NCT00002750) | Phase 1 | 完成 | 6 | 鞘內注射 Melphalan 用於腫瘤性腦膜炎，途徑與情境不同，僅有間接的安全性參考 |
 
-**註**：上述試驗多數非專門針對性腺生殖細胞腫瘤設計（僅 NCT00936936 直接相關），其餘為涵蓋多種腫瘤之高劑量化療/幹細胞移植前置方案研究，Melphalan 在其中作為方案組成成分之一。
-
----
+另有 NCT00003926（Phase 1，Amifostine 化學保護，人數 13，已終止）屬支持性照護研究，不評估療效，未列入表中。
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [4270380](https://pubmed.ncbi.nlm.nih.gov/4270380/) | 1973 | Review | Oncology | 睪丸生殖細胞腫瘤化療回顧，涵蓋烷化劑類藥物角色 |
-| [24913](https://pubmed.ncbi.nlm.nih.gov/24913/) | 1977 | Review | The Urologic Clinics of North America | 精原細胞瘤 (Seminoma) 治療綜述 |
-| [13392619](https://pubmed.ncbi.nlm.nih.gov/13392619/) | 1956 | 病例系列 | Voprosy onkologii | 以 sarcolysin（melphalan）治療睪丸精原細胞瘤及其轉移之臨床經驗 |
-| [14151951](https://pubmed.ncbi.nlm.nih.gov/14151951/) | 1964 | 機轉研究 | Acta Unio Internationalis Contra Cancrum | 荷爾蒙及烷化劑類藥物對腦下垂體促濾泡功能之影響 |
+| [24913](https://pubmed.ncbi.nlm.nih.gov/24913/) | 1977 | 回顧 | Urologic Clinics of North America | 精原細胞瘤（Seminoma）相關回顧，無摘要 |
+| [4270380](https://pubmed.ncbi.nlm.nih.gov/4270380/) | 1973 | 回顧 | Oncology | 睪丸生殖細胞腫瘤的化療回顧，無摘要 |
+| [13392619](https://pubmed.ncbi.nlm.nih.gov/13392619/) | 1956 | 歷史病例系列 | Voprosy Onkologii | 以 Sarcolysin（Melphalan）治療睪丸精原細胞瘤及其轉移的經驗，無摘要 |
 
-**註**：以上文獻多為 1950-1970 年代之早期回顧或病例系列，摘要內容未完整收錄，尚無近代隨機對照試驗直接針對此適應症。
+另有 1 篇（PMID 14151951）為 1964 年的藥理生理研究，與主題無關，已排除。
 
----
+文獻皆為 1950–1970 年代的舊資料，且沒有摘要可供核對。這些文獻只能說明 Melphalan 在此領域有歷史使用紀錄，不能作為現代療效證據。
 
 ## 香港上市資訊
 
-目前無香港上市許可證登記，Melphalan 未在本地上市（`market_status: 未上市`，許可證數 0）。
-
----
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-03792 | ALKERAN TAB 2MG | Aspen Pharmacare Asia Limited |
+| HK-37994 | ALKERAN FOR INJ 50MG | Aspen Pharmacare Asia Limited |
 
 ## 細胞毒性
 
+以下為依藥物類別（烷化劑）所作的判斷，並非來自證據包內的 toxicity 資料。
+
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 傳統細胞毒性藥物（Nitrogen Mustard 類烷化劑） |
-| 骨髓抑制風險 | 請參考原廠仿單的警語與注意事項（本 Evidence Pack 無 toxicity 資料；惟依藥物類別及臨床試驗設計普遍需搭配幹細胞救援研判，預期具顯著骨髓抑制風險） |
-| 致吐性分級 | 請參考原廠仿單的警語與注意事項 |
-| 監測項目 | CBC（含白血球分類）、血小板、肝腎功能、電解質 |
+| 細胞毒性分類 | 傳統細胞毒性藥物（氮芥類烷化劑） |
+| 骨髓抑制風險 | 高（高劑量使用時需要幹細胞救援） |
+| 致吐性分級 | 中度（依劑型與劑量而異） |
+| 監測項目 | CBC（含分類）、肝腎功能 |
 | 處置防護 | 需依細胞毒性藥物處置規範操作 |
 
----
+正式警語與注意事項請參考原廠仿單。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。本 Evidence Pack 標記 TFDA 仿單警語/禁忌症資料為 **Blocking** 等級缺口（DG001），目前無法完成安全性初評；藥物交互作用查詢亦無結果（`query_status: not_found`）。
-
----
+安全性資訊請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 存在 Blocking 等級資料缺口（仿單警語與禁忌症未取得，DG001），依規則無法進入安全性初評（S1）。
-- 性腺生殖細胞腫瘤此一預測適應症目前僅有 Phase 1/2 單臂試驗及早期回顧文獻支持，尚無完成之隨機對照試驗，證據等級僅達 L3；且藥物目前未於香港上市。
+- 直接對應的證據只有 1 個多藥合併的 Phase 2 試驗，Melphalan 的獨立貢獻不明，文獻也都是數十年前的舊資料。
+- 香港藥品仿單的警語與禁忌尚未取得，這是阻擋性缺口，無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得 TFDA／原廠仿單完整警語與禁忌症資料，解除 Blocking 缺口（DG001）
-- 補充 DrugBank 作用機轉 (MOA) 資料，強化機轉關聯性分析（DG002）
-- 針對性腺生殖細胞腫瘤設計或尋找專屬之前瞻性對照試驗以驗證療效
-- 評估香港上市或恩慈療法（compassionate use）申請路徑之可行性
+- 下載並解析香港衛生署的 Melphalan 仿單，補齊警語、禁忌症與原適應症。
+- 查詢 DrugBank 取得作用機轉（MOA）。
+- 取得 NCT00936936 的結果，確認 Melphalan 在方案中的角色與療效數據。
+- 補充現代（近 20 年）生殖細胞腫瘤高劑量化療的文獻。
 
----
+**其他預測適應症（供參考）：**
+- 乳癌（女性）：有多項高劑量 Melphalan 併幹細胞救援的 Phase 1–2 研究，但資料多已陳舊，且以合併方案為主。
+- 卵巢原始生殖細胞腫瘤：僅有間接的混合實體瘤證據。
+- 卵巢絨毛膜癌、卵巢惡性非上皮腫瘤：僅有模型預測，無試驗或文獻，建議 Hold。
 
-### 附錄：其他預測適應症一覽（供參考）
-
-| 排名 | 預測適應症 | TxGNN 分數 | 臨床試驗數 | 文獻數 | 備註 |
-|------|-----------|-----------|-----------|--------|------|
-| 2 | Ovarian primitive germ cell tumor | 99.75% | 3 | 1 | 僅 1 篇病例報告直接相關，證據薄弱（近似 L4） |
-| 3 | Choriocarcinoma of ovary | 99.74% | 0 | 0 | 無任何試驗或文獻證據（L5，僅模型預測） |
-| 4 | Female breast carcinoma | 99.67% | 5 | 20 | 文獻中含多篇歷史 RCT（如 vinorelbine vs. melphalan、SWOG 輔助化療研究），證據相對充分，但需另立候選案評估 |
-| 5 | Malignant non-epithelial tumor of ovary | 99.55% | 0 | 0 | 無任何試驗或文獻證據（L5，僅模型預測） |
-
-> 排名 4（female breast carcinoma）證據量明顯較豐富，若後續資源允許，建議另立獨立評估報告深入分析。
+本報告結果僅供研究參考，不構成醫療建議。預測適應症需經臨床驗證後才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

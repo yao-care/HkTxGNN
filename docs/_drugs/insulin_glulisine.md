@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Glulisine
 parent: 高證據等級 (L1-L2)
-nav_order: 402
+nav_order: 465
 evidence_level: L1
 indication_count: 5
 ---
@@ -29,11 +29,13 @@ indication_count: 5
 
 </div>
 
-# Insulin Glulisine：從糖尿病血糖控制到第1型糖尿病（TxGNN 確認既有適應症，非真正老藥新用）
+# Insulin Glulisine：從糖尿病血糖控制到第 1 型糖尿病
 
 ## 一句話總結
 
-Insulin Glulisine（商品名 Apidra）是速效胰島素類似物，臨床上用於糖尿病患者的餐前（bolus）血糖控制。TxGNN 模型評分最高的候選是**第1型糖尿病 (Type 1 Diabetes Mellitus)**，有 **75+ 個臨床試驗**與 **19 篇文獻**支持，但這實際上是藥物既有的標準適應症，而非新發現的老藥新用機會。其餘4個候選適應症皆為 L5 等級，僅有分子層次或共病層次的間接推論，缺乏臨床實證。
+Insulin glulisine（商品名 Apidra）是速效人類胰島素類似物，用於餐時血糖控制。
+TxGNN 預測它對**第 1 型糖尿病 (Type 1 Diabetes Mellitus)** 有效，目前有 **50 個臨床試驗**和 **19 篇文獻**。
+這個預測很可能只是知識圖譜中既有的藥物與疾病關聯，**不是新的老藥新用發現**。
 
 ---
 
@@ -41,80 +43,100 @@ Insulin Glulisine（商品名 Apidra）是速效胰島素類似物，臨床上�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料庫未記錄正式適應症文字（臨床已知：糖尿病患者血糖控制） |
-| 預測新適應症 | 第1型糖尿病 (Type 1 Diabetes Mellitus)（實為既有適應症，非新發現） |
+| 預測新適應症 | 第 1 型糖尿病 (Type 1 Diabetes Mellitus) |
 | TxGNN 預測分數 | 99.55% |
 | 證據等級 | L1 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Hold |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 1 張 |
+| 建議決策 | Proceed with Guardrails |
+
+香港許可證資料未載明核准適應症，原適應症欄位因此省略。依文獻（PMID 19496630），本藥核准用於改善成人、青少年與兒童糖尿病的血糖控制。
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank MOA 欄位為空值，屬 High 等級資料缺口）。根據臨床已知資訊，Insulin Glulisine 是速效胰島素類似物，透過補充外源性胰島素直接治療胰島素缺乏，是第1型糖尿病基礎-餐前（basal-bolus）治療方案中的標準成分之一。
+目前缺乏 DrugBank 的詳細作用機轉資料。依文獻，Insulin glulisine 是 3(B)-Lys、29(B)-Glu 的人類胰島素類似物，會結合胰島素受體並降低血糖。它比一般人類胰島素起效更快、作用時間更短，約 1 小時達高峰，持續約 4 小時，適合餐前或餐後立即注射。
 
-**需要特別指出的是**：TxGNN 排名第一的預測適應症「第1型糖尿病」本身就是這個藥物的核心臨床用途，而非新發現的老藥新用機會。根據隨附的 repurposing_rationale 分析，這代表模型正確識別了知識圖譜中既有的「胰島素—糖尿病」藥理關係，而非發掘新關聯——換言之，這並非真正的「再利用」候選，高分只是模型驗證了常識。
-
-至於排名2-5的候選（甲硫胺酸反應性功能障礙症候群、opsismodysplasia、局部型與典型型 stiff person 症候群），皆屬罕見疾病中「糖尿病為共病或部分表現型」的間接關聯（例如 stiff person 症候群與 T1DM 因共享抗 GAD65 自體免疫機轉而常共病），並非胰島素 glulisine 對這些疾病本身的病因有特異治療作用。這些候選證據等級均為 L5，僅有模型預測，無任何臨床試驗或文獻支持。
+第 1 型糖尿病是胰島素絕對缺乏的疾病，外源性胰島素直接補充缺少的激素，機轉上完全吻合。這個高分預測（99.55%）最可能反映知識圖譜中已有的藥物與疾病連結，而不是新穎的再利用訊號。因此不宜將它包裝成再利用發現。
 
 ---
 
 ## 臨床試驗證據
 
+共 50 個試驗，其中多項直接針對第 1 型糖尿病。以下列出 10 個最相關者。
+資料庫摘要只有試驗設計與目的，未提供結果，因此「主要發現」欄寫的是研究設計與目標。
+
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT01202474](https://clinicaltrials.gov/study/NCT01202474) | Phase 4 | 完成 | 100 | Apidra 併用 Lantus 於俄羅斯兒童青少年T1DM basal-bolus療法之療效安全性 |
-| [NCT02688933](https://clinicaltrials.gov/study/NCT02688933) | Phase 4 | 完成 | 638 | Toujeo(U300) vs Lantus 於成人T1DM之CGM血糖控制比較 |
-| [NCT02685449](https://clinicaltrials.gov/study/NCT02685449) | Phase 4 | 未知 | 70 | 兒童T1DM於CSII給藥情境下純蛋白餐所需胰島素劑量之交叉試驗 |
-| [NCT00546702](https://clinicaltrials.gov/study/NCT00546702) | Phase 3 | 完成 | 142 | Glulisine併用Glargine於T1DM患者26週療效安全性之非隨機試驗 |
-| [NCT00290979](https://clinicaltrials.gov/study/NCT00290979) | Phase 3 | 完成 | 250 | Glulisine vs Insulin Lispro於T1DM之28週非劣性隨機對照試驗 |
-| [NCT00467376](https://clinicaltrials.gov/study/NCT00467376) | Phase 3 | 完成 | 485 | Glulisine vs Insulin Lispro（併用Lantus）於T1/2DM患者之隨機對照試驗 |
-| [NCT04974528](https://clinicaltrials.gov/study/NCT04974528) | Phase 3 | 完成 | 319 | 吸入式Afrezza vs 速效胰島素類似物(含glulisine)於兒童T1/2DM之隨機對照試驗 |
-| [NCT00271284](https://clinicaltrials.gov/study/NCT00271284) | Phase 3 | 完成 | 88 | Glargine vs Detemir併用Glulisine於T1DM血糖變異度之交叉隨機試驗 |
-| [NCT00046150](https://clinicaltrials.gov/study/NCT00046150) | Phase 3 | 完成 | 59 | HMR1964(glulisine) vs Insulin Aspart於CSII之安全性隨機對照試驗 |
-| [NCT01792830](https://clinicaltrials.gov/study/NCT01792830) | Phase 3 | 完成 | 175 | Glargine-based出院方案於心臟手術後高血糖T2DM病人之前瞻性研究 |
+| [NCT00290979](https://clinicaltrials.gov/study/NCT00290979) | Phase 3 | 完成 | 250 | 第 1 型糖尿病，28 週隨機對照，檢驗 glulisine 相對 lispro 的 HbA1c 非劣性與安全性 |
+| [NCT00271284](https://clinicaltrials.gov/study/NCT00271284) | Phase 3 | 完成 | 88 | 交叉隨機，比較搭配 glulisine 的 glargine 與 detemir 對空腹血糖變異度的影響 |
+| [NCT00046150](https://clinicaltrials.gov/study/NCT00046150) | Phase 3 | 完成 | 59 | 12 週，胰島素幫浦 (CSII) 中 glulisine 與 aspart 的安全性比較（導管阻塞、低血糖等） |
+| [NCT00546702](https://clinicaltrials.gov/study/NCT00546702) | Phase 3 | 完成 | 142 | 開放、非隨機，搭配 glargine 治療 26 週，評估 HbA1c 變化與安全性 |
+| [NCT00467376](https://clinicaltrials.gov/study/NCT00467376) | Phase 3 | 完成 | 485 | 第 1 或 2 型糖尿病，12 週，與 lispro 比較療效與低血糖頻率 |
+| [NCT00964574](https://clinicaltrials.gov/study/NCT00964574) | Phase 4 | 完成 | 68 | 第 1 型糖尿病搭配 glargine，開放非隨機，評估療效、劑量與病人滿意度 |
+| [NCT01202474](https://clinicaltrials.gov/study/NCT01202474) | Phase 4 | 完成 | 100 | 兒童與青少年 Apidra 加 Lantus，評估 HbA1c 達標比例（俄羅斯） |
+| [NCT01678235](https://clinicaltrials.gov/study/NCT01678235) | Phase 4 | 完成 | 64 | 兒童幫浦治療，雙盲交叉比較 glulisine 與 aspart 對高升糖指數餐後血糖的影響 |
+| [NCT00913497](https://clinicaltrials.gov/study/NCT00913497) | Phase 4 | 完成 | 16 | 學齡前兒童交叉試驗，比較 glulisine 與 aspart 對早餐後血糖的影響 |
+| [NCT00489190](https://clinicaltrials.gov/study/NCT00489190) | Phase 4 | 完成 | 45 | 12 週皮下注射，收集療效與安全性資料 |
+
+至少 NCT00290979、NCT00271284、NCT00046150、NCT00546702 四項屬已完成的 Phase 3 第 1 型糖尿病試驗，其中前三項為隨機試驗，符合 L1 條件。
+Evidence Pack 中另有一個 Phase 3 試驗（NCT01792830）是心臟手術後的第 2 型糖尿病，不能作為第 1 型糖尿病的證據。
 
 ---
 
 ## 文獻證據
 
+共 19 篇，以下列出 10 篇（優先 RCT，其次系統性回顧與 Review）。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [16308840](https://pubmed.ncbi.nlm.nih.gov/16308840/) | 2005 | RCT | Horm Metab Res | Glulisine vs Insulin Lispro於683名T1DM患者之多中心隨機對照試驗 |
-| [23243636](https://pubmed.ncbi.nlm.nih.gov/23243636/) | 2012 | Systematic Review | Drugs of Today | 兒童青少年T1DM之胰島素類似物（含glulisine）系統性回顧 |
-| [19496630](https://pubmed.ncbi.nlm.nih.gov/19496630/) | 2009 | Review | Drugs | Insulin Glulisine於糖尿病管理之藥物綜述 |
-| [18076215](https://pubmed.ncbi.nlm.nih.gov/18076215/) | 2008 | Review (PK/PD) | Clin Pharmacokinet | Glulisine臨床藥物動力學與藥效學特性回顧 |
-| [35933650](https://pubmed.ncbi.nlm.nih.gov/35933650/) | 2022 | Comparative Cohort | Acta Diabetol | Glulisine vs Lispro/Aspart用於T1DM胰島素幫浦治療之比較世代研究 |
-| [21457066](https://pubmed.ncbi.nlm.nih.gov/21457066/) | 2011 | RCT | Diabetes Technol Ther | Glulisine vs Aspart/Lispro於CSII給藥之隨機對照試驗 |
-| [21291333](https://pubmed.ncbi.nlm.nih.gov/21291333/) | 2011 | RCT | Diabetes Technol Ther | Glulisine vs Lispro於兒童T1DM basal-bolus療法26週療效安全性比較 |
-| [16123473](https://pubmed.ncbi.nlm.nih.gov/16123473/) | 2005 | PK Study | Diabetes Care | 兒童青少年T1DM之glulisine藥物動力學與餐後血糖控制安全性 |
-| [19614947](https://pubmed.ncbi.nlm.nih.gov/19614947/) | 2009 | Clinical Study | Diabetes Obes Metab | Glulisine於日本T1DM患者之療效安全性研究 |
-| [26838553](https://pubmed.ncbi.nlm.nih.gov/26838553/) | 2016 | Case Report | Acta Diabetol | T1DM患者局部胰島素過敏經改用glulisine後顯著緩解之個案報告 |
+| [16308840](https://pubmed.ncbi.nlm.nih.gov/16308840/) | 2005 | RCT | Horm Metab Res | 多國、開放、平行組試驗，683 位成人第 1 型糖尿病隨機分組，比較 glulisine 與 lispro 的療效與安全性 |
+| [21457066](https://pubmed.ncbi.nlm.nih.gov/21457066/) | 2011 | RCT | Diabetes Technol Ther | 幫浦治療中 glulisine 與 aspart、lispro 的三方交叉隨機比較，關注導管阻塞 |
+| [21291333](https://pubmed.ncbi.nlm.nih.gov/21291333/) | 2011 | 臨床試驗 | Diabetes Technol Ther | 兒童與青少年 26 週基礎-餐時方案，標題指出 glulisine 與 lispro 療效及安全性相當 |
+| [19614947](https://pubmed.ncbi.nlm.nih.gov/19614947/) | 2009 | 臨床試驗 | Diabetes Obes Metab | 日本第 1 型糖尿病患者以 glargine 為基礎胰島素，比較 glulisine 與 lispro |
+| [23243636](https://pubmed.ncbi.nlm.nih.gov/23243636/) | 2012 | 系統性回顧 | Drugs Today | 兒童與青少年第 1 型糖尿病的胰島素類似物，涵蓋 lispro、aspart、glulisine |
+| [19496630](https://pubmed.ncbi.nlm.nih.gov/19496630/) | 2009 | Review | Drugs | 核准用於成人、青少年與兒童糖尿病；起效較快，與 lispro 對血糖的效果相近 |
+| [16706558](https://pubmed.ncbi.nlm.nih.gov/16706558/) | 2006 | Review | Drugs | 起效較快、作用時間短於一般人類胰島素；第 1 型糖尿病大型試驗中 HbA1c 控制與其相近 |
+| [35933650](https://pubmed.ncbi.nlm.nih.gov/35933650/) | 2022 | 比較性臨床研究 | Acta Diabetol | 幫浦治療的第 1 型糖尿病患者，比較 glulisine 與 lispro、aspart 的 HbA1c、空腹血糖、高低血糖與酮酸中毒發生率 |
+| [28544684](https://pubmed.ncbi.nlm.nih.gov/28544684/) | 2017 | 臨床研究 | Pediatr Int | 20 位兒童用於 CSII 一年，餐後血糖顯著改善（早餐後由 192.5 降至 162.0 mg/dL） |
+| [16123473](https://pubmed.ncbi.nlm.nih.gov/16123473/) | 2005 | PK/PD 研究 | Diabetes Care | 兒童與青少年第 1 型糖尿病，餐前注射 glulisine 與一般人類胰島素的藥動學、餐後血糖與安全性比較 |
+
+---
+
+## 香港上市資訊
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-56757 | APIDRA SOLOSTAR SOLUTION FOR INJ 100 UNITS/ML (PRE-FILLED PEN) | 注射液（預填筆，依品名判斷） | 許可證資料未載明 |
+
+持證商：SANOFI HONG KONG LIMITED。
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。目前 TFDA 仿單警語/禁忌資料缺失（屬 Blocking 等級資料缺口），無法完成安全性初評。
+安全性資訊請參考原廠仿單。
 
 ---
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：Proceed with Guardrails**
 
 **理由：**
-- 排名第一的預測「第1型糖尿病」實為此藥物既有的標準適應症，並非新發現的老藥新用機會——TxGNN 高分只是正確驗證了胰島素與糖尿病之間的既有藥理關係。
-- 排名2-5的候選皆為 L5 等級，僅有分子鄰近性或共病層次的間接推論，無任何臨床試驗或文獻支持。
-- 此藥物於本地區尚未取得許可證（0張），且仿單警語/禁忌資料為 Blocking 等級缺口，無法進行安全性初評。
+- 已有多個完成的 Phase 3 第 1 型糖尿病試驗（含隨機對照）與 RCT 文獻，療效證據充分。
+- 這是已上市的胰島素，預測反映的是既有用途，並非新的再利用發現。同時香港仿單的警語與禁忌資料尚缺。
 
 **若要推進需要：**
-- 取得正式仿單以完成安全性初評（DG001，Blocking）
-- 補充 DrugBank 作用機轉資料（DG002，High）
-- 若考慮本地上市，應以現行核准適應症（糖尿病血糖控制）申請許可證，而非以此候選作為老藥新用申請基礎
-- 若仍要評估候選2-5，需先取得機轉層級以上的實證支持，目前不建議投入資源
+- 取得衛生署（Department of Health）仿單，確認香港核准適應症，補齊警語與禁忌（目前為阻擋性資料缺口）。
+- 補上 DrugBank 的作用機轉資料。
+- 報告與對外呈現時，不要將本項標示為再利用發現。
+
+**其他預測適應症：** 硫胺素反應性功能障礙症候群、Opsismodysplasia、局部僵硬肢體症候群、典型僵人症候群，證據等級皆為 L5，無試驗與文獻。
+它們多半反映糖尿病共病或自體免疫關聯，並非胰島素的治療效果，建議 **Hold**。
+
+*本報告僅供研究參考，不構成醫療建議；預測結果需經臨床驗證。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

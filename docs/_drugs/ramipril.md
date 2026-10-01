@@ -2,7 +2,7 @@
 layout: default
 title: Ramipril
 parent: 僅模型預測 (L5)
-nav_order: 630
+nav_order: 739
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,31 +29,34 @@ indication_count: 5
 
 </div>
 
-# Ramipril：從（未提供原適應症）到缺氧/肺病相關肺動脈高壓
+# Ramipril：從原核准適應症（許可證資料未載明）到缺氧性肺高壓
 
 ## 一句話總結
 
-Ramipril（DrugBank ID: DB00178）目前的證據包未提供香港上市許可證或原適應症資料。TxGNN 模型預測它可能對**缺氧/肺病相關肺動脈高壓（Pulmonary Hypertension owing to Lung Disease and/or Hypoxia）**有效，雖然檢索到 **20 篇文獻**，但經核對後皆為與「hypoxia」關鍵字命中的一般缺氧生物學研究，**未有一篇直接涉及 ramipril 或此適應症**，證據強度極低。
+Ramipril 是一種 ACE 抑制劑，香港已有 6 張許可證，但資料中沒有載明核准適應症。
+TxGNN 模型預測它可能對**因肺部疾病和/或缺氧引起的肺高壓 (Pulmonary hypertension owing to lung disease and/or hypoxia)** 有效。
+目前**沒有臨床試驗**，列出的 20 篇文獻也都是一般缺氧生物學研究，**沒有一篇直接研究 ramipril**，因此證據僅停留在模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無許可證資料（香港未上市，許可證數為 0） |
-| 預測新適應症 | 缺氧/肺病相關肺動脈高壓 (Pulmonary Hypertension owing to Lung Disease and/or Hypoxia) |
+| 原適應症 | 許可證資料未載明 |
+| 預測新適應症 | 因肺部疾病和/或缺氧引起的肺高壓 (Pulmonary hypertension owing to lung disease and/or hypoxia) |
 | TxGNN 預測分數 | 99.93% |
-| 證據等級 | L5（僅模型預測，文獻為關鍵字誤配） |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L5 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 6 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（MOA 為資料缺口）。根據一般藥理分類知識，Ramipril 屬 ACE 抑制劑類藥物，主要透過抑制腎素-血管收縮素-醛固酮系統（RAAS）發揮作用。
+目前缺乏詳細的作用機轉資料。Ramipril 屬於 ACE 抑制劑類別，這是依藥物類別的一般知識推論，並非來自本次提供的資料。
+一個可能但未經證實的機轉是：抑制 ACE 會降低血管收縮素 II 引起的肺血管收縮與血管重塑，因而可能對肺高壓有幫助。
 
-證據包中的機轉假說提出：RAAS 抑制理論上可能影響缺氧性肺血管收縮，因而與肺動脈高壓存在間接機轉關聯性假說。
-
-然而，這僅是理論推測。提供的 20 篇文獻經查核，皆為以「hypoxia」關鍵字命中的一般缺氧生物學研究（涵蓋腦老化、胃癌代謝、多發性硬化症等主題），**沒有一篇實際研究 ramipril、ACE 抑制劑或肺動脈高壓治療**，屬於檢索關鍵字誤配，不構成直接或間接的臨床證據支持。
+不過 ACE 抑制劑並不是此類肺高壓的既定療法。
+現有文獻從標題判斷，都是談缺氧在腦老化、癌症、纖維化等方面的一般生物學，沒有研究 ramipril 或 ACE 抑制用於缺氧性肺高壓。
+因此這個預測的合理性只停留在假說層次，需要專門的文獻與試驗檢索來驗證。
 
 ## 臨床試驗證據
 
@@ -61,39 +64,56 @@ Ramipril（DrugBank ID: DB00178）目前的證據包未提供香港上市許可�
 
 ## 文獻證據
 
+以下文獻為檢索到的缺氧相關研究，**皆未直接涉及 ramipril 或 ACE 抑制**，僅供背景參考。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Review | Ageing Research Reviews | 缺氧與腦老化、神經退化性疾病關聯之綜述 |
-| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | Review | Metabolic Brain Disease | 缺氧導致認知功能障礙的分子機轉 |
-| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | Review | J Cellular Biochemistry | 缺氧調控生物學功能之綜述 |
-| [31706510](https://pubmed.ncbi.nlm.nih.gov/31706510/) | 2019 | Review | Trends in Cancer | 去泛素化酶（DUBs）與缺氧、癌症之關聯 |
-| [34535359](https://pubmed.ncbi.nlm.nih.gov/34535359/) | 2021 | Review | Clinical Oncology | 缺氧的治療性調節（放療抗性） |
-| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Review | Respiratory Care Clinics | 低血氧症的機轉綜述 |
-| [40347693](https://pubmed.ncbi.nlm.nih.gov/40347693/) | 2025 | Review | Redox Biology | 缺氧與多發性硬化症之關聯 |
-| [40815459](https://pubmed.ncbi.nlm.nih.gov/40815459/) | 2025 | Review | Rev Med Inst Mex Seguro Soc | 高海拔缺氧生理學 |
-| [37328448](https://pubmed.ncbi.nlm.nih.gov/37328448/) | 2023 | Basic Research | Advanced Science | 胃癌細胞在缺氧下的醣解代謝機轉 |
-| [33278780](https://pubmed.ncbi.nlm.nih.gov/33278780/) | 2021 | Basic Research | Redox Biology | 蟹足腫纖維母細胞在缺氧下的代謝改變 |
+| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Review | Ageing Research Reviews | 探討缺氧與腦老化，缺氧可能造成神經退化，高海拔環境也可能有保護作用 |
+| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | Review | Metabolic Brain Disease | 整理急慢性缺氧造成認知功能受損的臨床證據與分子機轉 |
+| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | Review | Journal of Cellular Biochemistry | 缺氧對細胞代謝、血管新生等過程的調控，與血管疾病、發炎、癌症有關 |
+| [31706510](https://pubmed.ncbi.nlm.nih.gov/31706510/) | 2019 | Review | Trends in Cancer | 去泛素化酶如何調控缺氧誘導因子 (HIF)，及其在癌症中的角色 |
+| [34535359](https://pubmed.ncbi.nlm.nih.gov/34535359/) | 2021 | Review | Clinical Oncology | 腫瘤缺氧使放療與免疫治療效果變差，並討論改善缺氧的治療策略 |
+| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Review | Respiratory Care Clinics of North America | 說明低氧血症的四種基本機轉，包括低環境氧、通氣不足、通氣灌流不匹配與右至左分流 |
+| [40347693](https://pubmed.ncbi.nlm.nih.gov/40347693/) | 2025 | Review | Redox Biology | 整理缺氧與多發性硬化症病理及症狀的關係，因果方向尚不明 |
+| [40815459](https://pubmed.ncbi.nlm.nih.gov/40815459/) | 2025 | Review | Rev Med Inst Mex Seguro Soc | 討論高海拔低壓缺氧與高地居民的適應性變化 |
+| [37328448](https://pubmed.ncbi.nlm.nih.gov/37328448/) | 2023 | Basic research | Advanced Science | NAT10/SEPT9/HIF-1α 迴路使胃癌細胞依賴糖解，提高缺氧耐受性 |
+| [33278780](https://pubmed.ncbi.nlm.nih.gov/33278780/) | 2021 | Basic research | Redox Biology | 缺氧下瘢痕疙瘩纖維母細胞的糖代謝與粒線體功能改變 |
 
-> **重要提醒**：以上文獻皆為「hypoxia」關鍵字命中的一般缺氧生物學研究，主題涵蓋神經退化、腫瘤代謝、皮膚疾病等，**沒有一篇涉及 ramipril、ACE 抑制劑或肺動脈高壓治療**，屬檢索關鍵字誤配，不應視為支持本項預測的臨床證據。
+## 香港上市資訊
+
+許可證資料未提供劑型與核准適應症，以下僅列出品名與廠商。
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-36855 | TRITACE 2.5MG TAB | SANOFI HONG KONG LIMITED |
+| HK-36856 | TRITACE 5MG TAB | SANOFI HONG KONG LIMITED |
+| HK-55956 | APT-RAMIPRIL TAB 5MG | JEAN-MARIE PHARMACAL CO LTD |
+| HK-55957 | APT-RAMIPRIL TAB 2.5MG | JEAN-MARIE PHARMACAL CO LTD |
+| HK-57336 | APO-RAMIPRIL CAP 5MG | HIND WING CO LTD |
+
+登記總數為 6 張，資料中僅提供上述 5 張的明細。
 
 ## 安全性考量
 
-安全性資訊為資料缺口（Blocking 等級）：TFDA/香港官方仿單警語、禁忌症、藥物交互作用皆未取得，導致**無法進入 S1 安全性初評階段**。建議推進前必須先取得官方仿單資料。
+安全性資訊請參考原廠仿單。藥物交互作用查詢沒有找到資料。
+
+另外，針對預測清單中的「惡性腎血管性高血壓」，模型的說明提到 ACE 抑制劑在雙側腎動脈狹窄或單一腎臟狹窄的患者可能誘發急性腎衰竭。若後續評估此方向，應先處理腎臟安全性。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 提供的 20 篇文獻經核對後皆與 ramipril、ACE 抑制劑或肺動脈高壓無直接關聯，屬關鍵字誤配，不構成可評估證據，證據等級僅為 L5。
-- 安全性仿單資料缺失屬 Blocking 等級缺口，無法進行安全性初評。
-- 其餘 4 個預測適應症（肺動脈高壓其他分型、惡性高血壓腎病、惡性腎血管性高血壓、Braddock 症候群）皆無任何文獻或試驗佐證，同為 L5，暫不評估。
+- 預測分數雖高（99.93%），但沒有臨床試驗，文獻也沒有直接研究 ramipril 用於缺氧性肺高壓，僅屬 L5 模型預測。
+- ACE 抑制劑並非此病症的既定療法，作用機轉資料與香港仿單的警語、禁忌症也都缺漏，目前無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得 TFDA/香港官方仿單，補齊警語與禁忌症資料（Blocking，優先處理）
-- 查詢 DrugBank API 補齊作用機轉（MOA）資料
-- 針對「ramipril + 肺動脈高壓」重新執行精準文獻與臨床試驗檢索，排除關鍵字誤配結果
-- 若欲評估香港上市可行性，需另行查證許可證登記狀態
+- 針對 ramipril/ACE 抑制劑與肺高壓做專門的文獻與試驗檢索。
+- 補齊 DrugBank 作用機轉資料。
+- 取得香港衛生署的仿單，確認警語、禁忌症與核准適應症。
+- 同清單中的「惡性高血壓性腎病」和「惡性腎血管性高血壓」機轉合理性較高（模型建議列為 Research Question），可優先檢索這兩個方向。其餘肺高壓（多因素機轉不明）與 Braddock 症候群缺乏可信的機轉連結，維持 Hold。
+
+> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

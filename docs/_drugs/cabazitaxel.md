@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cabazitaxel
-parent: 高證據等級 (L1-L2)
-nav_order: 119
-evidence_level: L2
+parent: 僅模型預測 (L5)
+nav_order: 137
+evidence_level: L5
 indication_count: 10
 ---
 
 # Cabazitaxel
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,105 +29,112 @@ indication_count: 10
 
 </div>
 
-# Cabazitaxel：從前列腺癌到女性乳癌
+# Cabazitaxel：從（原適應症未載明）到女性乳癌
 
 ## 一句話總結
 
-Cabazitaxel（紫杉烷類第三代衍生物）原本經 FDA 核准用於多西他賽治療後進展的轉移性去勢抵抗性前列腺癌（mCRPC）。TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效，機轉上源於其突破 P-糖蛋白（P-gp）介導多重耐藥性的獨特能力。目前有 **0 個登記臨床試驗**（本次查詢結果）及 **20 篇文獻**支持這個方向，其中包含 Phase 2 RCT 與 Phase 1/II 臨床研究。
-
----
+Cabazitaxel 是一種紫杉烷（taxane）類微管穩定劑，目前輸入資料未載明其原適應症。
+TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效，
+目前**無臨床試驗登記**，但有 **20 篇文獻**（本報告列出其中 18 篇）支持這個方向，其中包含 1 項 Phase 2 隨機對照試驗。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 轉移性去勢抵抗性前列腺癌 mCRPC（FDA 核准；香港未上市） |
+| 原適應症 | 資料未載明（香港許可證的核准適應症欄位皆為空白） |
 | 預測新適應症 | 女性乳癌 (Female Breast Carcinoma) |
 | TxGNN 預測分數 | 99.92% |
-| 證據等級 | L2 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails |
-
----
+| 證據等級 | L2（有 1 項 Phase 2 RCT，但輸入資料無法確認其完成狀態與結果） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 5 張 |
+| 建議決策 | Proceed with Guardrails（僅限研究層級，見結論） |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（香港仿單及 DrugBank MOA 均有資料缺口）。根據已知資訊，Cabazitaxel 屬於**紫杉烷類（Taxane）**細胞毒性藥物，其核心機制為**穩定微管、抑制微管去聚合**，使細胞周期停滯於 G2/M 期，導致癌細胞凋亡。相較於第一代（Paclitaxel）及第二代（Docetaxel）紫杉烷，Cabazitaxel 對 P-糖蛋白（P-gp/MDR1）的親和力極低，可有效突破多重耐藥機制。
+目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位為資料缺口）。根據文獻，Cabazitaxel 屬於紫杉烷類微管穩定劑，與 paclitaxel、docetaxel 同類。乳癌是對紫杉烷類有反應的腫瘤，因此 TxGNN 的預測在生物學上相當一致。
 
-乳癌是紫杉烷類最重要的適應症群之一。Paclitaxel 和 Docetaxel 已是乳癌標準化療的核心成分，而相當比例的晚期乳癌患者在接受這些藥物後會發展出耐藥性。Cabazitaxel 的低 P-gp 親和力正好針對此耐藥機制提供理論上的克服途徑。PMID 25416788 直接以 MCF-7 乳癌細胞株建立 Cabazitaxel 耐藥模型，證實其交叉耐藥程度顯著低於 Paclitaxel 和 Docetaxel（15 倍 vs. 200 倍）。
+文獻另提供兩項機轉層面的線索：
+- 在 βIII-tubulin 高表現的情況下，Cabazitaxel 的療效優於 docetaxel（PMID 28567478）。
+- 在三陰性乳癌中，Cabazitaxel 可能透過調節巨噬細胞，增強 CD47 標靶免疫治療的效果（PMID 33753567）。
 
-更直接的支持來自 PMID 28567478，該研究證實在 **βIII-tubulin 高度表現**的乳癌模型中，Cabazitaxel 療效優於 Docetaxel，而 βIII-tubulin 高表現正是腫瘤侵襲性及紫杉烷耐藥的重要標誌物。這進一步強化了 TxGNN 預測的生物合理性。
-
----
+需要注意：這些多屬前臨床研究。目前沒有 Phase 3 證據，也沒有確認的優越性。這是一個站得住腳的研究問題，並非用藥建議。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記（本次資料庫查詢結果為 0）。
-
-> **附註**：部分已登記的 Cabazitaxel 乳癌相關臨床試驗（如 NCT01934894）可在 ClinicalTrials.gov 查詢，建議進行補充查詢以確認完整清單。
-
----
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|------|------|------|---------|
-| [28768217](https://pubmed.ncbi.nlm.nih.gov/28768217/) | 2017 | Phase 2 RCT | European Journal of Cancer | GENEVIEVE 研究：Cabazitaxel vs. 週劑量 Paclitaxel 作為可手術 HER2 陰性乳癌新輔助治療，比較 pCR 率 |
-| [21339064](https://pubmed.ncbi.nlm.nih.gov/21339064/) | 2011 | Phase 1/II | European Journal of Cancer | Cabazitaxel + Capecitabine 用於紫杉烷/蒽環素治療後進展的轉移性乳癌，評估 MTD、安全性及藥動學 |
-| [29678476](https://pubmed.ncbi.nlm.nih.gov/29678476/) | 2018 | Phase II | Clinical Breast Cancer | Cabazitaxel + Lapatinib 治療合併顱內轉移的 HER2+ 轉移性乳癌（NCT01934894），探索劑量及顱內活性 |
-| [25416788](https://pubmed.ncbi.nlm.nih.gov/25416788/) | 2015 | 機轉研究 | Molecular Cancer Therapeutics | 以 MCF-7 乳癌細胞株建立 Cabazitaxel 耐藥模型；交叉耐藥程度顯著低於 Paclitaxel/Docetaxel |
-| [33753567](https://pubmed.ncbi.nlm.nih.gov/33753567/) | 2021 | 前臨床 | Journal for Immunotherapy of Cancer | Cabazitaxel 調節腫瘤相關巨噬細胞功能，協同增強 CD47 靶向免疫療法對三陰性乳癌的療效 |
-| [30529259](https://pubmed.ncbi.nlm.nih.gov/30529259/) | 2019 | 前臨床 | Journal of Controlled Release | Cabazitaxel 奈米粒子在基底型患者來源乳癌異種移植模型中達 6/8 完全緩解，優於游離藥物 |
-| [38562610](https://pubmed.ncbi.nlm.nih.gov/38562610/) | 2024 | 前臨床 | International Journal of Nanomedicine | PACA 奈米粒子載 Cabazitaxel 在三陰性乳癌 PDX 模型中療效顯著，並調節腫瘤微環境 M2 巨噬細胞 |
-| [28567478](https://pubmed.ncbi.nlm.nih.gov/28567478/) | 2017 | 前臨床/機轉 | Cancer Chemotherapy and Pharmacology | βIII-tubulin 高表現乳癌中，Cabazitaxel 結合力及抗腫瘤療效優於 Docetaxel |
-| [26651178](https://pubmed.ncbi.nlm.nih.gov/26651178/) | 2016 | 回顧/專利分析 | Expert Opinion on Therapeutic Patents | 紫杉烷類抗癌藥物專利回顧，涵蓋 Cabazitaxel 在乳癌、前列腺癌等多種癌症的開發脈絡 |
-| [33247980](https://pubmed.ncbi.nlm.nih.gov/33247980/) | 2021 | 回顧/藥動學 | British Journal of Clinical Pharmacology | 紫杉烷類（含 Cabazitaxel）治療藥物監測（TDM）與個人化劑量調整的全面回顧 |
+輸入資料僅提供部分文獻，其中 PMID 28768217 的內容不完整，其結果無法從本輸入驗證。以下依 RCT > 臨床試驗 > 回顧 > 前臨床排序，列出最相關的 10 篇：
 
----
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [28768217](https://pubmed.ncbi.nlm.nih.gov/28768217/) | 2017 | RCT（Phase 2） | Eur J Cancer | GENEVIEVE 試驗：比較 Cabazitaxel 與每週 paclitaxel 作為新輔助治療，對象為 HER2 陰性乳癌；主要指標為病理完全緩解率（結果未提供） |
+| [21339064](https://pubmed.ncbi.nlm.nih.gov/21339064/) | 2011 | Phase 1/2 | Eur J Cancer | Cabazitaxel 併用 capecitabine，用於接受過 anthracycline 與 taxane 治療後惡化的轉移性乳癌，評估最大耐受劑量與安全性 |
+| [29678476](https://pubmed.ncbi.nlm.nih.gov/29678476/) | 2018 | Phase 2 劑量探索 | Clin Breast Cancer | Cabazitaxel 併用 lapatinib，用於 HER2 陽性且有顱內轉移的乳癌（NCT01934894） |
+| [33247980](https://pubmed.ncbi.nlm.nih.gov/33247980/) | 2021 | Review | Br J Clin Pharmacol | 紫杉烷類藥物的治療藥物監測與劑量調整回顧 |
+| [25416788](https://pubmed.ncbi.nlm.nih.gov/25416788/) | 2015 | 機轉研究 | Mol Cancer Ther | Cabazitaxel 抗藥性機制；在 MCF-7 乳癌細胞株中，其交叉抗藥性低於 paclitaxel 與 docetaxel |
+| [28567478](https://pubmed.ncbi.nlm.nih.gov/28567478/) | 2017 | 前臨床機轉 | Cancer Chemother Pharmacol | βIII-tubulin 表現使 Cabazitaxel 療效優於 docetaxel |
+| [33753567](https://pubmed.ncbi.nlm.nih.gov/33753567/) | 2021 | 前臨床機轉 | J Immunother Cancer | Cabazitaxel 作用於巨噬細胞，改善三陰性乳癌 CD47 標靶免疫治療 |
+| [30529259](https://pubmed.ncbi.nlm.nih.gov/30529259/) | 2019 | 前臨床 | J Control Release | 奈米粒子包覆的 Cabazitaxel 在病人來源乳癌異種移植模型中療效較游離藥物佳 |
+| [28504249](https://pubmed.ncbi.nlm.nih.gov/28504249/) | 2017 | 前臨床 | Acta Pharmacol Sin | 高分子微胞包覆的 Cabazitaxel 用於抑制乳癌轉移 |
+| [38562610](https://pubmed.ncbi.nlm.nih.gov/38562610/) | 2024 | 前臨床 | Int J Nanomedicine | 不同聚氰基丙烯酸酯奈米粒子變體包覆 Cabazitaxel 的前臨床療效 |
+
+其餘文獻多為藥物遞送配方研究（脂質體、NLC、胜肽共軛等）與一般性回顧。
 
 ## 香港上市資訊
 
-Cabazitaxel 目前**在香港尚未取得上市許可**，無任何登記藥品。
-
----
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-61193 | JEVTANA（Sanofi Hong Kong） | 輸注用濃縮液與溶劑 60mg | 資料未載明 |
+| HK-68945 | CABAZITAXEL EVER PHARMA 45mg/4.5ml | 輸注用濃縮液 | 資料未載明 |
+| HK-68946 | CABAZITAXEL EVER PHARMA 50mg/5ml | 輸注用濃縮液 | 資料未載明 |
+| HK-68947 | CABAZITAXEL EVER PHARMA 60mg/6ml | 輸注用濃縮液 | 資料未載明 |
+| HK-68385 | CABAZITAXEL（Chemill Pharma）60mg/1.5ml | 輸注用濃縮液與溶劑 | 資料未載明 |
 
 ## 細胞毒性
 
-Cabazitaxel 為紫杉烷類抗腫瘤藥物（細胞毒性化療藥），適用本章節。
-
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 傳統細胞毒性藥物（Taxane 類，第三代半合成紫杉烷衍生物） |
-| 骨髓抑制風險 | **高度**（嗜中性白血球減少為最常見嚴重不良反應，TROPIC 研究中 Grade 3/4 發生率 >80%） |
-| 致吐性分級 | 低至中度（依 ASCO/MASCC 分級標準） |
-| 監測項目 | CBC（含分類計數，每週期前必查）、肝功能（ALT/AST/bilirubin）、腎功能（Cr）、電解質、周邊神經病變評估 |
-| 處置防護 | 需依細胞毒性藥物處置規範（Cytotoxic Handling Guidelines）操作；靜脈注射給藥，需防範藥物外滲 |
+| 細胞毒性分類 | 傳統細胞毒性藥物（紫杉烷類微管抑制劑） |
+| 骨髓抑制風險 | 高（文獻指出嗜中性白血球減少與神經病變為主要不良反應） |
+| 致吐性分級 | 低至中度（依藥物類別判斷，輸入資料未提供） |
+| 監測項目 | CBC（含分類）、肝腎功能 |
+| 處置防護 | 需依細胞毒性藥物處置規範操作 |
 
----
+其餘細節請參考原廠仿單的警語與注意事項。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單（香港未上市，建議參照 EMA/FDA 核准仿單）。
+安全性資訊請參考原廠仿單。
 
-> **注意**：根據已知毒性特性，Cabazitaxel 的嚴重骨髓抑制（尤其嗜中性白血球低下性發燒）及腸胃道毒性（腹瀉、噁心）在臨床應用上需要特別監測，建議閱讀原廠完整處方資訊。
+## 其他預測適應症（供參考）
 
----
+TxGNN 另預測 9 項適應症，皆無臨床試驗與文獻，證據等級為 L5，建議 Hold：
+
+| 預測適應症 | TxGNN 分數 | 評估 |
+|-----------|-----------|------|
+| 鐮刀型血球疾病相關 5 種變體（Hb D、β-地中海貧血、Hb C、Hb E、遺傳性胎兒血紅素持續存在症） | 99.89% | 無明確機轉；相同分數顯示可能是知識圖譜的共用假象 |
+| HIV 感染 | 99.82% | 無抗病毒機轉；骨髓抑制性化療用於免疫低下族群風險高 |
+| 甲狀腺機能亢進 | 99.77% | 微管穩定與甲狀腺激素過多之間無已知關聯 |
+| 神經母細胞瘤 | 99.75% | 增生性實體瘤，機轉上可想像，但無任何證據，且為兒童族群 |
+| 類風濕性關節炎 | 99.72% | 已有更安全的疾病修飾療法，風險效益比低 |
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-Cabazitaxel 對多重耐藥性乳癌的療效具有明確的生物合理性（P-gp 低親和力、βIII-tubulin 優勢），且已有 Phase 2 RCT（GENEVIEVE）及多項 Phase 1/II 臨床研究直接探索乳癌適應症，文獻基礎達 L2 等級，支持進一步評估。然而香港目前無此藥上市，需考量取得藥物的途徑及臨床試驗框架。
+乳癌為對紫杉烷類有反應的腫瘤，且已有 Phase 2 RCT（GENEVIEVE）及多項機轉研究支持。但目前無臨床試驗登記、無 Phase 3 證據、無確認的優越性，因此僅能視為值得研究的問題，不是用藥建議。
 
 **若要推進需要：**
-- 補全香港仿單安全性資料（建議參照 FDA/EMA 核准仿單的警語、禁忌及 DDI 資訊）
-- 補全 Cabazitaxel 作用機轉（MOA）的詳細資料（DrugBank API 查詢）
-- 對 ClinicalTrials.gov 進行更廣泛查詢（搜尋詞：`cabazitaxel AND breast cancer`），補充目前缺失的臨床試驗登記資料
-- 評估香港未上市藥物的臨床試驗申請途徑（藥物及毒藥監管局）
-- 確認目標族群（建議聚焦：紫杉烷耐藥後的轉移性乳癌，尤其 TNBC 或 HER2+ 合併 CNS 轉移）
-- 制定嗜中性白血球低下性發燒的預防及管理計畫（G-CSF 預防性使用方案）
+- 取得 GENEVIEVE 試驗的完整結果（病理完全緩解率與安全性）
+- 補齊 DrugBank 作用機轉資料（MOA）
+- 下載並解析香港衛生署仿單，取得警語與禁忌症（此為阻斷性資料缺口，未補齊前無法進入安全性篩選）
+- 確認原適應症與各許可證的核准適應症文字
+- 評估是否有 Phase 3 或更大型的乳癌試驗，並與現有標準紫杉烷治療比較
+
+*本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Detemir
 parent: 高證據等級 (L1-L2)
-nav_order: 400
+nav_order: 463
 evidence_level: L1
 indication_count: 5
 ---
@@ -29,14 +29,13 @@ indication_count: 5
 
 </div>
 
-# Insulin Detemir：作用機轉本身即為第一型糖尿病基礎胰島素治療
+# Insulin Detemir：預測新適應症為第 1 型糖尿病（實為標籤內用途）
 
 ## 一句話總結
 
-Insulin Detemir（DB01307）是全球廣泛使用的長效基礎胰島素類似物。
-本評估包中原始適應症與作用機轉資料因故缺失，但 TxGNN 模型仍以 **99.77%** 的高分預測其對**第一型糖尿病 (Type 1 Diabetes Mellitus)** 有效——
-這實際上是**確認而非發現**，因為胰島素本來就是 T1DM 的標準治療藥物，
-目前有 **超過 50 個臨床試驗**（多為 Phase 3 大型 RCT）與 **19 篇文獻**支持。
+Insulin Detemir（商品名 Levemir）是長效基礎胰島素類似物，在香港已有 3 張上市許可證。
+TxGNN 預測它對**第 1 型糖尿病 (Type 1 Diabetes Mellitus)** 有效，目前有 **50 個臨床試驗**和 **19 篇文獻**支持。
+但這項適應症本來就是藥物的既有用途，應視為模型的陽性對照，不算新的老藥新用發現。
 
 ---
 
@@ -44,61 +43,72 @@ Insulin Detemir（DB01307）是全球廣泛使用的長效基礎胰島素類似�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料缺失（未記錄），依藥理機轉判斷應為糖尿病基礎胰島素治療 |
-| 預測新適應症 | 第一型糖尿病 (Type 1 Diabetes Mellitus) |
+| 預測新適應症 | 第 1 型糖尿病 (Type 1 Diabetes Mellitus) |
 | TxGNN 預測分數 | 99.77% |
 | 證據等級 | L1 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 3 張 |
 | 建議決策 | Proceed with Guardrails |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉（MOA）資料。但已知 Insulin Detemir 是一種以 14 碳脂肪酸醯化修飾的長效人類胰島素類似物，此修飾使其能可逆結合白蛋白，達到緩慢吸收與長達 24 小時的穩定降血糖效果，屬於**胰島素受體促效劑**，機轉上促進周邊組織葡萄糖攝取並抑制肝糖新生。
+目前缺乏詳細的作用機轉資料（原始 MOA 欄位為空）。文獻摘要提供了以下說明：Insulin Detemir 是以 14 碳脂肪酸修飾的可溶性長效人類胰島素類似物。脂肪酸使它能可逆地結合白蛋白，吸收因此變慢，代謝作用可持續最長約 24 小時。它與胰島素受體結合，補充第 1 型糖尿病患者缺少的內源性胰島素。
 
-值得特別說明的是：這個案例與典型的「老藥新用」不同。第一型糖尿病並非 Insulin Detemir 的新適應症，而是它**本來就在治療**的核心適應症；本評估包中「原適應症」欄位缺失，並非藥物真的沒有已知用途，而是資料收集階段的缺口。TxGNN 的高分預測，本質上反映了知識圖譜正確捕捉到「胰島素—T1DM」這組已確立的藥理關係，可視為模型準確性的驗證，而非新發現。
+第 1 型糖尿病的核心問題是胰島 β 細胞無法分泌足夠的胰島素，需要終身補充。基礎胰島素類似物正是為此設計，與 NPH 胰島素相比，藥效變異較小，夜間低血糖風險也較低。因此這個預測的機轉合理，並與藥物的既有用途一致。
+
+原始適應症資料（`original_indications`）與香港許可證的核准適應症文字皆為空白，屬於來源資料缺漏，不代表這是新用途。發布前應先到香港衞生署資料庫確認實際的核准適應症。
 
 ---
 
 ## 臨床試驗證據
 
+以下列出最相關的 10 項，另有 40 項未列出。多數為第 3 期隨機對照試驗，直接比較 Insulin Detemir 與其他基礎胰島素。
+
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT01486940](https://clinicaltrials.gov/study/NCT01486940) | Phase 3 | 完成 | 598 | 多國多中心 RCT，比較 detemir+aspart 與 NPH+人類胰島素在 T1DM basal-bolus 療法之血糖控制 |
-| [NCT03220425](https://clinicaltrials.gov/study/NCT03220425) | Phase 3 | 完成 | 752 | 大型 RCT，評估 2400 nmol/mL 劑型 detemir 於 T1DM basal-bolus 療法之療效與安全性 |
-| [NCT01709929](https://clinicaltrials.gov/study/NCT01709929) | Phase 3 | 完成 | 2287 | 大型非隨機安全性研究，評估 detemir 治療胰島素依賴型 T1DM/T2DM 之安全性 |
-| [NCT01513473](https://clinicaltrials.gov/study/NCT01513473) | Phase 3 | 完成 | 350 | 兒童青少年 T1DM，比較 degludec 與 detemir 之效力與安全性（含 26 週延伸試驗） |
-| [NCT01831765](https://clinicaltrials.gov/study/NCT01831765) | Phase 3 | 完成 | 1290 | FIAsp 併用 detemir vs. aspart 併用 detemir，於成人 T1DM 之療效安全性比較 |
-| [NCT00474045](https://clinicaltrials.gov/study/NCT00474045) | Phase 3 | 完成 | 470 | 多國 RCT，detemir 用於妊娠合併 T1DM 孕婦之血糖控制與安全性 |
-| [NCT00095082](https://clinicaltrials.gov/study/NCT00095082) | Phase 3 | 完成 | 447 | detemir+aspart vs. glargine+aspart 於 T1DM basal-bolus 療法之效力安全性比較 |
-| [NCT00487240](https://clinicaltrials.gov/study/NCT00487240) | Phase 3 | 完成 | 387 | 比較胰島素 lispro 魚精蛋白懸液與 detemir 作為 T1DM 基礎胰島素之效力安全性 |
-| [NCT00447382](https://clinicaltrials.gov/study/NCT00447382) | Phase 3 | 完成 | 330 | 12 個月雙盲 RCT，比較不同製程之 detemir 於 T1DM basal-bolus 療法之安全性 |
-| [NCT00687284](https://clinicaltrials.gov/study/NCT00687284) | N/A | 完成 | 2188 | 大型觀察性研究，評估 Levemir® 作為起始胰島素治療對血糖控制之影響（斯洛伐克） |
+| [NCT03220425](https://clinicaltrials.gov/study/NCT03220425) | Phase 3 | 完成 | 752 | 6 個月開放標籤平行試驗，比較 Detemir 與 NPH 胰島素在基礎－餐時療法中的療效與安全性 |
+| [NCT01486940](https://clinicaltrials.gov/study/NCT01486940) | Phase 3 | 完成 | 598 | Detemir＋Aspart 對比 NPH＋人類可溶性胰島素，比較血糖控制 |
+| [NCT01513473](https://clinicaltrials.gov/study/NCT01513473) | Phase 3 | 完成 | 350 | 兒童與青少年 26 週試驗，Degludec 對比 Detemir（Detemir 為對照組） |
+| [NCT00447382](https://clinicaltrials.gov/study/NCT00447382) | Phase 3 | 完成 | 330 | 12 個月雙盲試驗，比較新舊兩種製程生產的 Detemir 之安全性與療效 |
+| [NCT00095082](https://clinicaltrials.gov/study/NCT00095082) | Phase 3 | 完成 | 447 | Detemir 對比 Glargine（均搭配 Aspart），檢驗 Detemir 是否至少同樣有效且安全 |
+| [NCT00487240](https://clinicaltrials.gov/study/NCT00487240) | Phase 3 | 完成 | 387 | Lispro 魚精蛋白懸液（ILPS）對比 Detemir，用於第 1 型糖尿病基礎－餐時療法 |
+| [NCT00474045](https://clinicaltrials.gov/study/NCT00474045) | Phase 3 | 完成 | 470 | 第 1 型糖尿病孕婦，Detemir 對比 NPH 胰島素的血糖控制與安全性 |
+| [NCT00595374](https://clinicaltrials.gov/study/NCT00595374) | Phase 3 | 完成 | 114 | 成人第 1 型糖尿病，Detemir＋Aspart 對比 NPH＋Aspart |
+| [NCT00605137](https://clinicaltrials.gov/study/NCT00605137) | Phase 3 | 完成 | 83 | 日本兒童第 1 型糖尿病，Detemir 與 NPH 的安全性 |
+| [NCT01461616](https://clinicaltrials.gov/study/NCT01461616) | Phase 3 | 完成 | 19 | 三交叉試驗，觀察對 IGFBP-1 與 IGF-I 的影響；屬機轉性結果，不能直接證明臨床療效 |
 
 ---
 
 ## 文獻證據
 
+以下列出最相關的 10 篇，優先列出隨機對照試驗，其次為系統性回顧，最後為綜述。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT 試驗：degludec 與 detemir（併用 aspart）於妊娠合併 T1DM 之非劣效性比較 |
-| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | 系統性回顧/網絡統合分析 | Value in Health | 成人 T1DM 基礎胰島素療法之相對效力與安全性統合分析 |
-| [21878861](https://pubmed.ncbi.nlm.nih.gov/21878861/) | 2011 | 系統性回顧/統合分析 | Pol Arch Med Wewn | Detemir 與 NPH 胰島素於 T1DM 之系統性回顧與統合分析 |
-| [20539842](https://pubmed.ncbi.nlm.nih.gov/20539842/) | 2010 | Review | Vasc Health Risk Manag | T1DM 與 T2DM 治療更新，聚焦長效胰島素類似物 detemir |
-| [23110609](https://pubmed.ncbi.nlm.nih.gov/23110609/) | 2012 | Review | Drugs | Insulin detemir 於糖尿病管理應用之綜合回顧 |
-| [17326333](https://pubmed.ncbi.nlm.nih.gov/17326333/) | 2006 | Review | Vasc Health Risk Manag | Insulin detemir 於 T1DM 與 T2DM 治療之獨特機轉與臨床應用 |
-| [15691219](https://pubmed.ncbi.nlm.nih.gov/15691219/) | 2005 | Review | BioDrugs | Insulin detemir 於 T1DM 與 T2DM 焦點回顧 |
-| [15516157](https://pubmed.ncbi.nlm.nih.gov/15516157/) | 2004 | Review | Drugs | Insulin detemir 於 T1DM 與 T2DM 管理應用之回顧 |
-| [37290466](https://pubmed.ncbi.nlm.nih.gov/37290466/) | 2023 | Review | Lancet Diabetes Endocrinol | 妊娠合併 T1DM 之生活型態、藥物治療與新科技管理更新 |
-| [18454569](https://pubmed.ncbi.nlm.nih.gov/18454569/) | 2008 | Review | Paediatr Drugs | 兒童青少年 T1DM 胰島素類似物製劑應用回顧 |
+| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT 試驗：第 1 型糖尿病孕婦中，比較 Degludec 與 Detemir（均搭配 Aspart）的療效與安全性，採非劣性設計 |
+| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | 系統性回顧／統合分析 | Clin Ther | 比較 Degludec 與 Glargine、Detemir 等長效基礎胰島素在第 1、2 型糖尿病的療效與耐受性 |
+| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | 系統性回顧／網絡統合分析 | Value Health | 評估成人第 1 型糖尿病各基礎胰島素方案的相對療效與安全性 |
+| [21878861](https://pubmed.ncbi.nlm.nih.gov/21878861/) | 2011 | 系統性回顧／統合分析 | Pol Arch Med Wewn | 比較 Detemir 與 NPH 在第 1 型糖尿病的血糖控制；先前研究的獲益並非各研究一致 |
+| [23110609](https://pubmed.ncbi.nlm.nih.gov/23110609/) | 2012 | 綜述 | Drugs | 說明 Detemir 為基礎胰島素，藥效延長來自自我聚合與白蛋白結合；血糖鉗夾試驗中，藥效變異小於 NPH |
+| [15516157](https://pubmed.ncbi.nlm.nih.gov/15516157/) | 2004 | 綜述 | Drugs | Detemir 的療效比 NPH 更可預測、更持久，個體內變異較小 |
+| [17326333](https://pubmed.ncbi.nlm.nih.gov/17326333/) | 2006 | 綜述 | Vasc Health Risk Manag | Detemir 藥動學變異較小，可降低低血糖（尤其夜間低血糖）風險 |
+| [20539842](https://pubmed.ncbi.nlm.nih.gov/20539842/) | 2010 | 綜述 | Vasc Health Risk Manag | 與 NPH 比較，HbA1c 無顯著差異，低血糖率較低 |
+| [37290466](https://pubmed.ncbi.nlm.nih.gov/37290466/) | 2023 | 綜述 | Lancet Diabetes Endocrinol | 更新第 1 型糖尿病孕期管理，包括生活方式、藥物治療與新型技術 |
+| [18454569](https://pubmed.ncbi.nlm.nih.gov/18454569/) | 2008 | 綜述 | Paediatr Drugs | 胰島素類似物在兒童與青少年第 1 型糖尿病的使用 |
 
 ---
 
 ## 香港上市資訊
 
-Insulin Detemir 目前**未於香港取得藥劑製品註冊證**，無許可證資料可供列示。
+許可證資料中的劑型與核准適應症文字皆為空白，僅能列出以下資訊：
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-65011 | LEVEMIR FLEXPEN SOLUTION FOR INJECTION IN PRE-FILLED PEN 100U/ML | NOVO NORDISK HONG KONG LIMITED |
+| HK-53538 | LEVEMIR FLEXPEN INJ 100U/ML | NOVO NORDISK HONG KONG LIMITED |
+| HK-67929 | LEVEMIR FLEXPEN SOLUTION FOR INJECTION IN PRE-FILLED PEN 100U/ML | NOVO NORDISK HONG KONG LIMITED |
 
 ---
 
@@ -113,15 +123,18 @@ Insulin Detemir 目前**未於香港取得藥劑製品註冊證**，無許可證
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 第一型糖尿病此一「預測適應症」有充分的 L1 等級證據（多個大型 Phase 3 RCT、系統性回顧），但需明確認知這是對藥物**既有核心用途**的確認，而非真正的老藥新用發現。
-- 藥物目前未於香港上市，若要推進需先確認正式的上市註冊路徑。
+- 已有多個完成的第 3 期隨機對照試驗與系統性回顧，直接支持 Insulin Detemir 用於第 1 型糖尿病，證據等級為 L1。
+- 這是既有標籤用途，不是新發現。仿單的警語與禁忌資料尚未取得，這是阻擋性的資料缺口，所以決策附帶防護條件。
 
 **若要推進需要：**
-- 補齊 DrugBank 完整 MOA 與原始適應症資料，釐清資料缺口成因
-- 取得原廠仿單警語、禁忌症與藥物交互作用資料（DG001，Blocking 等級，目前無法進入 S1 安全性初評）
-- 若考慮於香港上市，需啟動藥劑製品註冊申請流程評估
+- 下載並解析香港衞生署的仿單，補齊警語、禁忌症與核准適應症，這是進入安全性篩選的前提。
+- 在本地許可證資料庫確認核准適應症，修正 `original_indications` 空白的問題。
+- 補上 DrugBank 的作用機轉資料。
+- 在報告中將此項標示為陽性對照，不作為新適應症宣傳。
 
-**附註：** 其餘 4 個候選適應症（autoimmune oophoritis、opsismodysplasia、thiamine-responsive dysfunction syndrome、classic stiff person syndrome）皆為 L5（僅模型預測、無臨床試驗或文獻支持），研判為知識圖譜共病節點造成的間接關聯而非藥理學合理連結，建議維持 **Hold**，暫不投入資源。
+**其他預測適應症：** 排名第 2 至第 5 的預測（自體免疫性卵巢炎、Opsismodysplasia、硫胺素反應性功能障礙症候群、典型僵硬人症候群）都沒有臨床試驗或文獻，證據等級為 L5，建議 **Hold**。它們的高分可能來自與第 1 型糖尿病的共病或共同自體免疫背景，不代表基礎胰島素有治療效果。
+
+*本報告僅供研究參考，不構成醫療建議；預測結果需經臨床驗證。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

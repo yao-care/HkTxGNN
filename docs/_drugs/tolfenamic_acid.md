@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tolfenamic Acid
-parent: 高證據等級 (L1-L2)
-nav_order: 756
-evidence_level: L2
+parent: 僅模型預測 (L5)
+nav_order: 872
+evidence_level: L5
 indication_count: 5
 ---
 
 # Tolfenamic Acid
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,15 +29,13 @@ indication_count: 5
 
 </div>
 
-# Tolfenamic Acid：從消炎止痛適應症到偏頭痛（Headache Disorder）
+# Tolfenamic Acid：從非類固醇消炎止痛藥到頭痛疾患
 
 ## 一句話總結
 
-Tolfenamic Acid 是 fenamate 類非類固醇消炎止痛藥（NSAID），透過抑制 COX 及前列腺素/白三烯合成發揮鎮痛消炎作用；此藥目前**未在香港上市**。
-TxGNN 模型預測它可能對**偏頭痛 (Headache Disorder)** 有效，
-目前**無相關臨床試驗登記**，但有 **20 篇文獻**支持，其中多篇為 1980-90 年代北歐雙盲對照試驗。
-
-> ⚠️ 需特別說明：文獻顯示 Tolfenamic Acid 用於偏頭痛急性/預防治療在北歐多國（如挪威、丹麥、芬蘭）已是**既有核准適應症**，並非全新假說，僅是香港尚未引進此用途。
+Tolfenamic Acid（托芬那酸）是一種 NSAID，會抑制環氧化酶（COX）並減少前列腺素合成。
+TxGNN 模型預測它可能對**頭痛疾患 (Headache Disorder)** 有效，目前有 **0 個臨床試驗登記**，但有 **19 篇文獻**支持，其中包含多項偏頭痛的雙盲隨機試驗。
+此預測較可能是既有適應症缺漏，而非真正的老藥新用：該藥在多個國家已用於偏頭痛，來源資料的原適應症欄位則是空白。
 
 ---
 
@@ -45,23 +43,23 @@ TxGNN 模型預測它可能對**偏頭痛 (Headache Disorder)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無資料（香港未上市，無許可證核准適應症文字；依文獻脈絡為 NSAID 類消炎止痛藥） |
-| 預測新適應症 | 偏頭痛 (Headache Disorder) |
+| 原適應症 | 香港許可證未載明適應症 |
+| 預測新適應症 | 頭痛疾患 (Headache Disorder) |
 | TxGNN 預測分數 | 99.74% |
-| 證據等級 | L2 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 |
+| 證據等級 | L1（依據多項已發表的雙盲隨機對照試驗，非已登記的 Phase 3 試驗） |
+| 香港上市 | ✓ 已上市（唯一許可證為獸醫用產品） |
+| 許可證數 | 1 張 |
 | 建議決策 | Proceed with Guardrails |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank MOA 為資料缺口）。根據評估包內文獻與再利用推論摘要，Tolfenamic Acid 屬於 fenamate 類 NSAID，藥理機轉為抑制環氧化酶 (COX) 以降低前列腺素合成，並可能同時拮抗前列腺素/白三烯受體，減少發炎與疼痛傳導。
+DrugBank 缺乏詳細的作用機轉資料。不過文獻顯示，Tolfenamic Acid 是強效的前列腺素合成抑制劑，並被報導會影響白三烯（leukotriene）路徑（PMID 7816789）。前列腺素會使痛覺受器敏感化、引起血管擴張與水腫，也參與血小板聚集和血清素釋放。這些都與偏頭痛的病理生理有關，不過前列腺素在偏頭痛中的角色目前仍屬假說。
 
-此機轉與偏頭痛急性期血管周圍發炎、痛覺敏感化的病理生理具有一致性：多篇 1979-2004 年間的雙盲隨機對照試驗顯示，Tolfenamic Acid 在急性偏頭痛治療效果與 sumatriptan、ergotamine 相當，在預防性治療上效果與 propranolol、pizotifen 相近。
+在機轉上，COX 抑制與頭痛的連結是直接的。臨床上，偏頭痛的急性發作治療和預防性治療都有雙盲試驗，對照藥包括 paracetamol、ergotamine、propranolol、pizotifen 與 sumatriptan。
 
-值得注意的是，這並非全新的機轉假說——Tolfenamic Acid 在北歐多國已核准用於偏頭痛之急性與預防性治療超過 40 年，TxGNN 的高分預測（99.74%）與大量歷史臨床證據一致，屬於「已知但當地尚未引進」的老藥新用情境，而非純粹推論性假說。
+需要注意的是，原適應症與原機轉欄位在來源資料中皆為空白。該藥在多國已有偏頭痛適應症，因此這項預測較像補回遺漏的標示內容，而不是全新的用途。
 
 ---
 
@@ -75,30 +73,32 @@ TxGNN 模型預測它可能對**偏頭痛 (Headache Disorder)** 有效，
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [2375249](https://pubmed.ncbi.nlm.nih.gov/2375249/) | 1990 | RCT | Acta Neurol Scand | 雙盲交叉試驗比較 tolfenamic acid 與 paracetamol 治療普通型偏頭痛 |
-| [3727918](https://pubmed.ncbi.nlm.nih.gov/3727918/) | 1986 | RCT | Acta Neurol Scand | Tolfenamic acid、propranolol 與安慰劑預防性治療偏頭痛之隨機雙盲交叉試驗 |
-| [9563211](https://pubmed.ncbi.nlm.nih.gov/9563211/) | 1998 | RCT | Headache | Tolfenamic acid 速釋劑型與口服 sumatriptan 急性治療效果相當 |
-| [12474702](https://pubmed.ncbi.nlm.nih.gov/12474702/) | 2002 | RCT | Medicina (Kaunas) | Tolfenamic acid 300mg vs pizotifen 預防偏頭痛之前瞻性隨機平行組試驗 |
-| [7976233](https://pubmed.ncbi.nlm.nih.gov/7976233/) | 1994 | RCT | Acta Neurol Scand | Tolfenamic acid vs propranolol 預防性治療隨機雙盲交叉試驗（76 名患者） |
-| [6394143](https://pubmed.ncbi.nlm.nih.gov/6394143/) | 1984 | RCT | Cephalalgia | Tolfenamic acid、metoclopramide、caffeine 及其組合治療急性偏頭痛 |
-| [6984358](https://pubmed.ncbi.nlm.nih.gov/6984358/) | 1982 | RCT | Cephalalgia | Tolfenamic acid 併用 caffeine、metoclopramide 或 pyridoxine 治療急性偏頭痛 |
-| [7051739](https://pubmed.ncbi.nlm.nih.gov/7051739/) | 1982 | RCT | Acta Neurol Scand | Tolfenamic acid vs 安慰劑預防性治療之雙盲交叉比較研究（31 名患者） |
-| [89390](https://pubmed.ncbi.nlm.nih.gov/89390/) | 1979 | RCT | Lancet | Tolfenamic acid 與 ergotamine 治療急性偏頭痛效果相當，副作用（噁心）較少 |
-| [15652076](https://pubmed.ncbi.nlm.nih.gov/15652076/) | 2004 | Review | Clinical Evidence | 偏頭痛整體治療證據回顧 |
+| [2375249](https://pubmed.ncbi.nlm.nih.gov/2375249/) | 1990 | RCT | Acta Neurol Scand | 雙盲交叉試驗，比較 tolfenamic acid（200/400 mg）與 paracetamol（500/1000 mg）用於無預兆偏頭痛（摘要未呈現結果） |
+| [3727918](https://pubmed.ncbi.nlm.nih.gov/3727918/) | 1986 | RCT | Acta Neurol Scand | 31 位患者，預防性治療；tolfenamic acid 與 propranolol 皆較安慰劑顯著減少發作次數、總發作時間與額外用藥 |
+| [7976233](https://pubmed.ncbi.nlm.nih.gov/7976233/) | 1994 | RCT | Acta Neurol Scand | 76 位患者，隨機雙盲交叉，預防性治療 tolfenamic acid vs propranolol（摘要未呈現完整結果） |
+| [12474702](https://pubmed.ncbi.nlm.nih.gov/12474702/) | 2002 | RCT | Medicina (Kaunas) | 192 位患者，隨機雙盲平行組，預防偏頭痛 tolfenamic acid 300 mg vs pizotifen（摘要未呈現結果） |
+| [9563211](https://pubmed.ncbi.nlm.nih.gov/9563211/) | 1998 | RCT | Headache | 141 位患者，急性治療；快速釋放型 tolfenamic acid 的首次發作中 77% 頭痛降為輕度或無痛，標題指出療效與 sumatriptan 相當 |
+| [89390](https://pubmed.ncbi.nlm.nih.gov/89390/) | 1979 | RCT | Lancet | 雙盲交叉；與 ergotamine 同樣能縮短發作時間、減輕強度，但噁心較少 |
+| [7051739](https://pubmed.ncbi.nlm.nih.gov/7051739/) | 1982 | RCT | Acta Neurol Scand | 雙盲交叉；預防性治療在發作次數、總時間、嚴重度與嘔吐次數上均優於安慰劑 |
+| [6984358](https://pubmed.ncbi.nlm.nih.gov/6984358/) | 1982 | 臨床研究 | Cephalalgia | 10 位患者共 60 次發作；測試 tolfenamic acid 併用咖啡因、metoclopramide 或 pyridoxine，標題指出與咖啡因併用有助益 |
+| [10234467](https://pubmed.ncbi.nlm.nih.gov/10234467/) | 1999 | 回溯性研究 | Cephalalgia | 50 位患者；與 sumatriptan 併用可降低偏頭痛復發 |
+| [7816790](https://pubmed.ncbi.nlm.nih.gov/7816790/) | 1994 | Review | Pharmacol Toxicol | 回顧 tolfenamic acid 用於偏頭痛急性與預防性治療，並討論前列腺素的角色 |
 
 ---
 
 ## 香港上市資訊
 
-目前 Tolfenamic Acid 尚未在香港取得任何藥品許可證，無上市品項可供列出。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-50767 | TOLFEDINE TAB 20MG (VET)（廠商：ALFAMEDIC LIMITED） | 未載明 | 未載明 |
+
+此許可證品名標示為 **VET（獸醫用）**，不是人用藥品。香港目前沒有可確認的人用 Tolfenamic Acid 許可證。
 
 ---
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
-> 註：本評估包標示 TFDA/HK 仿單警語與禁忌症為 **Blocking 等級資料缺口 (DG001)**，尚未完成 S1 安全性初評所需之最低資料。
 
 ---
 
@@ -107,26 +107,21 @@ TxGNN 模型預測它可能對**偏頭痛 (Headache Disorder)** 有效，
 **決策：Proceed with Guardrails**
 
 **理由：**
-偏頭痛適應症有 9 篇隨機對照試驗（含 2 篇 tier-1 等級）支持療效，且此用途在北歐多國已是核准適應症，機轉與臨床證據一致性高；但香港尚未上市、無許可證，且仿單警語/禁忌症資料為 Blocking 缺口，尚不足以直接進入安全性審查。
+- 偏頭痛已有多項雙盲隨機對照試驗，涵蓋急性與預防性治療，機轉也直接相關，所以證據等級為 L1。
+- 這些試驗多為 1980–1990 年代的小型研究，且沒有臨床試驗登記。香港唯一的許可證是獸醫用，安全性仿單資料也缺漏，因此需設下防護條件。
+
+**其他預測適應症：**
+- 類風濕性關節炎同樣有 RCT 與機轉研究支持（L1，Proceed with Guardrails），但僅為症狀緩解，不具疾病修飾作用。
+- 肌腱炎、三叉自主神經性頭痛、特發性肉芽腫性肌炎僅有模型預測、無實際研究（L5，Hold）。偏頭痛的證據不應外推到三叉自主神經性頭痛。
 
 **若要推進需要：**
-- 取得 TFDA/HK 官方仿單警語、禁忌症與 DDI 資料（DG001，Blocking）
-- 補齊 DrugBank 作用機轉 (MOA) 資料（DG002，High）
-- 若計畫在香港申請新適應症，需評估當地藥品許可證申請路徑（目前 0 張許可證、未上市）
-- 近期文獻多集中於 1979-2004 年，建議檢索近 20 年是否有新機轉研究或安全性再評估
+- 取得香港衛生署的人用產品仿單，補齊警語與禁忌症（此為阻擋性資料缺口，未補齊前無法進入安全性篩選）。
+- 確認香港是否有人用 Tolfenamic Acid 產品，以及是否核准偏頭痛適應症。
+- 補查 DrugBank 的作用機轉資料。
+- 評估是否有近年的對照 triptan 或現行標準治療的試驗。
+- 建立 NSAID 類別的安全性監測計畫（腸胃道、腎功能、心血管風險）。
 
----
-
-## 附錄：其他預測適應症（初步篩選，非本次評估重點）
-
-| 排名 | 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 備註 |
-|------|--------|-----------|---------|---------|------|------|
-| 3 | 類風濕性關節炎 (Rheumatoid Arthritis) | 99.70% | L2 | S2 | Proceed with Guardrails | 15 篇文獻，多為 1970-90 年代雙盲對照試驗，屬藥物原有抗風濕適應症範疇 |
-| 2 | 肌腱炎 (Tendinitis) | 99.71% | L5 | S0 | Hold | 無臨床試驗或文獻，僅為圖譜推論 |
-| 4 | 叢集性頭痛 (Trigeminal Autonomic Cephalalgia) | 99.68% | L5 | S0 | Hold | 無實證支持，NSAID 對此類頭痛機轉效果通常有限 |
-| 5 | 特發性肉芽腫性肌炎 | 99.68% | L5 | S0 | Hold | 缺乏藥理學合理性佐證，建議排除 |
-
-若需針對類風濕性關節炎適應症產出獨立完整評估報告，可另行請求。
+本報告結果僅供研究參考，不構成醫療建議，老藥新用候選需經臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

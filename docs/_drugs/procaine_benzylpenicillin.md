@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Procaine Benzylpenicillin
-parent: 高證據等級 (L1-L2)
-nav_order: 617
-evidence_level: L2
+parent: 中證據等級 (L3-L4)
+nav_order: 719
+evidence_level: L3
 indication_count: 5
 ---
 
 # Procaine Benzylpenicillin
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **5** 個
+證據等級: **L3** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,33 +29,33 @@ indication_count: 5
 
 </div>
 
-# Procaine Benzylpenicillin：原適應症資料缺失，預測適用於細菌性關節炎 (Bacterial Arthritis)
+# 普魯卡因青黴素 (Procaine Benzylpenicillin)：從（原適應症資料缺漏）到細菌性關節炎
 
 ## 一句話總結
 
-Procaine Benzylpenicillin（DB09320）目前**未在香港上市**，原始核准適應症亦無記錄可查。
-TxGNN 模型預測它可能對**細菌性關節炎（Bacterial Arthritis）**有效，
-目前有 **20 篇文獻**支持（含 1 篇隨機對照試驗），但**無註冊臨床試驗**。
+普魯卡因青黴素是一種 β-內醯胺類抗生素，但香港許可證與 DrugBank 都沒有登載原適應症。
+TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有效，
+目前有 **0 個臨床試驗**和 **20 篇文獻**，文獻多為 1970 至 1980 年代的淋病性關節炎報告。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料缺失（未上市，無許可證核准適應症記錄） |
+| 原適應症 | 許可證未登載 |
 | 預測新適應症 | 細菌性關節炎 (Bacterial Arthritis) |
 | TxGNN 預測分數 | 99.89% |
-| 證據等級 | L2 |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L3 |
+| 香港上市 | ✓ 已上市（唯一許可證為獸醫用製劑） |
+| 許可證數 | 1 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉（MOA）資料，原始核准適應症也無記錄。根據文獻脈絡，procaine benzylpenicillin 屬長效青黴素類抗生素，作用機轉是抑制細菌細胞壁合成，對淋病奈瑟氏菌（*Neisseria gonorrhoeae*）等致病菌具殺菌活性。
+DrugBank 目前沒有收錄詳細的作用機轉。就藥物類別而言，普魯卡因青黴素屬於 β-內醯胺類，透過抑制細菌細胞壁合成殺菌，理論上適用於對青黴素敏感的細菌所致的化膿性或淋病性關節炎。
 
-細菌性關節炎（尤其淋病性關節炎 gonococcal arthritis）在歷史文獻中最早、最常見的治療方式即為 procaine penicillin。20 篇相關文獻中多數（如 PMID 824468、4457644、4632360）直接描述使用本藥治療淋病性關節炎的臨床經驗，其中包含一項 1976 年發表於 *JAMA* 的雙盲隨機劑量比較試驗（PMID 824468），比較低劑量與高劑量 procaine penicillin 療效，63 名患者均對治療有反應。
+文獻也支持這個方向。1976 年 JAMA 的雙盲隨機試驗（63 位淋病性關節炎病人）比較了低劑量與高劑量青黴素療法。低劑量組使用普魯卡因青黴素 G 60 萬單位肌肉注射，每 12 小時一次，最長 10 天。高劑量組在相同方案之外，前 3 天加上每日 1,000 萬單位的靜脈注射水溶性青黴素 G。但這些研究年代久遠，現今淋病奈瑟菌的抗藥性型態已大不相同，不能直接推論到現在的臨床使用。
 
-然而，這批文獻年代集中在 1963-1981 年，屬於盤尼西林抗藥性淋病奈瑟氏菌（PPNG）尚未普及前的年代；現今臨床實務中，青黴素因抗藥性問題已非淋病性關節炎的首選用藥，這是機轉合理性之外必須考量的限制。
+從另一個角度看，這比較像是「已知的抗菌用途沒有登載在許可證資料中」，而不是真正的新穎老藥新用。
 
 ## 臨床試驗證據
 
@@ -65,34 +65,48 @@ TxGNN 模型預測它可能對**細菌性關節炎（Bacterial Arthritis）**有
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [824468](https://pubmed.ncbi.nlm.nih.gov/824468/) | 1976 | RCT | JAMA | 63 名淋病性關節炎患者雙盲隨機試驗，比較低劑量與高劑量 procaine penicillin，兩組皆有效 |
-| [6785887](https://pubmed.ncbi.nlm.nih.gov/6785887/) | 1981 | Review | Seminars in Arthritis and Rheumatism | 散播性淋病感染與淋病性關節炎之臨床表現、診斷、治療與預防回顧 |
-| [4457644](https://pubmed.ncbi.nlm.nih.gov/4457644/) | 1974 | Case series | The Journal of Rheumatology | 淋病性關節炎臨床特徵與青黴素治療結果 |
-| [4632360](https://pubmed.ncbi.nlm.nih.gov/4632360/) | 1973 | Case series | Canadian Medical Association Journal | 6 例淋病性關節炎病例，皆對抗生素治療有反應 |
-| [4996345](https://pubmed.ncbi.nlm.nih.gov/4996345/) | 1971 | Review | Annals of Internal Medicine | 散播性淋病感染綜述 |
-| [6047243](https://pubmed.ncbi.nlm.nih.gov/6047243/) | 1967 | Case report | American Journal of Diseases of Children | Bacteroides 感染性關節炎病例報告 |
-| [14072732](https://pubmed.ncbi.nlm.nih.gov/14072732/) | 1963 | Case series | Clinical Pediatrics | 兒童細菌感染：敗血性關節炎與細菌性腦膜炎 |
-| [123435](https://pubmed.ncbi.nlm.nih.gov/123435/) | 1975 | Guideline | Archives of Dermatology | 1974 年淋病建議治療方案 |
-| [4198268](https://pubmed.ncbi.nlm.nih.gov/4198268/) | 1973 | Case series | Obstetrics and Gynecology | 女性淋病感染臨床觀察 |
-| [1262374](https://pubmed.ncbi.nlm.nih.gov/1262374/) | 1976 | Animal study | The Journal of Bone and Joint Surgery | 兔敗血性關節模型，併用全身性 procaine penicillin 治療並評估軟骨溶解程度 |
+| [824468](https://pubmed.ncbi.nlm.nih.gov/824468/) | 1976 | 比較性臨床試驗（摘要描述為雙盲隨機） | JAMA | 63 位淋病性關節炎病人，比較低劑量與高劑量青黴素療法（摘要未完整提供結果） |
+| [6785887](https://pubmed.ncbi.nlm.nih.gov/6785887/) | 1981 | 臨床回顧 | Semin Arthritis Rheum | 播散性淋病感染與淋病性關節炎的臨床表現、診斷、治療與預防 |
+| [4996345](https://pubmed.ncbi.nlm.nih.gov/4996345/) | 1971 | 回顧／病例系列 | Ann Intern Med | 播散性淋病感染綜述 |
+| [123435](https://pubmed.ncbi.nlm.nih.gov/123435/) | 1975 | 治療指引／回顧 | Arch Dermatol | 1974 年淋病建議治療方案 |
+| [4457644](https://pubmed.ncbi.nlm.nih.gov/4457644/) | 1974 | 臨床病例系列／世代研究 | J Rheumatol | 淋病性關節炎臨床特徵與青黴素治療結果 |
+| [4632360](https://pubmed.ncbi.nlm.nih.gov/4632360/) | 1973 | 病例系列（6 例） | CMAJ | 6 例淋病性關節炎，均對抗生素治療有反應，1 例另需手術 |
+| [6047243](https://pubmed.ncbi.nlm.nih.gov/6047243/) | 1967 | 病例報告 | Am J Dis Child | 擬桿菌關節炎 |
+| [14072732](https://pubmed.ncbi.nlm.nih.gov/14072732/) | 1963 | 回顧 | Clin Pediatr | 兒童細菌感染：化膿性關節炎與細菌性腦膜炎 |
+| [4723112](https://pubmed.ncbi.nlm.nih.gov/4723112/) | 1973 | 未分類 | N Engl J Med | 淋病性關節炎的青黴素劑量 |
+| [1262374](https://pubmed.ncbi.nlm.nih.gov/1262374/) | 1976 | 動物實驗 | J Bone Joint Surg Am | 兔子化膿性關節以全身性普魯卡因青黴素治療，加做沖洗可延緩膠原蛋白流失 |
+
+另有 10 篇文獻未列入表格，其中一篇（豬隻黴漿菌關節炎）與人類用藥無關。
+
+## 香港上市資訊
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-23022 | FATROMYCINE S INJECTABLE SUSP (VET) | 未登載（品名為注射懸液劑） | 未登載 |
+
+這張許可證是**獸醫用產品**（製造商：WAI LUNG HONG AGRIBUSINESS LTD），並非人用藥。目前香港沒有登記人用的普魯卡因青黴素製劑。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+安全性資訊請參考原廠仿單。香港衛生署仿單的警語與禁忌尚未取得，DrugBank 也查無藥物交互作用資料。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 存在**阻斷性資料缺口（DG001）**：缺乏仿單警語與禁忌症資料，無法完成 S1 安全性初評。
-- 現有支持證據雖含 1 篇 RCT，但全數文獻集中於 1963-1981 年，缺乏當代抗藥性（如 PPNG 盛行率）資料佐證其現行適用性；本品目前也未在香港上市。
+- 目前只有年代久遠的淋病性關節炎文獻，沒有臨床試驗登記，也沒有現代抗藥性資料。
+- 唯一的香港許可證是獸醫製劑，且安全性資料缺漏，無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得原廠仿單或藥品安全資料表，完成安全性初評（解決 DG001）
-- 補充作用機轉（MOA）詳細資料（解決 DG002）
-- 更新現代抗藥性流行病學資料，重新評估青黴素於細菌性關節炎的當代適用性
-- 若擬於香港上市，需完成藥品許可證申請及在地臨床資料佐證
+- 取得香港衛生署仿單，補齊警語與禁忌（目前阻擋性缺口）。
+- 補齊 DrugBank 的作用機轉資料。
+- 確認人用劑型在香港的可得性與給藥途徑。
+- 查核現今淋病奈瑟菌及其他關節炎致病菌對青黴素的抗藥性，並與現行治療指引比對。
+- 取得 1976 年 JAMA 試驗全文，確認設計與結果。
+- 同時評估「化膿性中耳炎」這個預測。它有 1951 至 1952 年的普魯卡因青黴素劑量比較研究（證據等級 L3），但同樣是歷史文獻。其餘三個預測（慢性中耳炎、中耳疾病、耳咽管炎）證據薄弱，建議維持 Hold。
+
+> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證後才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

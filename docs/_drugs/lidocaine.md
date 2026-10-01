@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lidocaine
-parent: 僅模型預測 (L5)
-nav_order: 454
-evidence_level: L5
+parent: 中證據等級 (L3-L4)
+nav_order: 521
+evidence_level: L4
 indication_count: 10
 ---
 
 # Lidocaine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L4** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,35 +29,33 @@ indication_count: 10
 
 </div>
 
-Using the v5 藥物再利用評估報告 prompt spec to structure this directly from the Evidence Pack (no additional skill applies to this task — it's a documented report-writing format already given in full).
-
-# Lidocaine：從局部麻醉到點狀角結膜上皮炎
+# Lidocaine：從局部麻醉到點狀上皮角結膜炎
 
 ## 一句話總結
 
-> Lidocaine 是已知的 amide 類局部麻醉劑（本資料包未收錄其香港核准適應症與作用機轉細節）。
-> TxGNN 模型預測它可能對**點狀角結膜上皮炎 (Punctate Epithelial Keratoconjunctivitis)** 有效，
-> 但目前**沒有臨床試驗、也沒有文獻**支持這個方向，且僅有的機轉推論反而指向安全疑慮。
+Lidocaine（利多卡因）是鈉離子通道阻斷劑，香港已有多張許可證，主要作為局部麻醉劑使用。
+TxGNN 模型預測它可能對**點狀上皮角結膜炎 (Punctate Epithelial Keratoconjunctivitis)** 有效。
+但目前**沒有任何臨床試驗或文獻**支持，僅有模型預測，屬於高度不確定的假說。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 未收錄（本資料包無許可證/適應症資料） |
-| 預測新適應症 | 點狀角結膜上皮炎 (Punctate Epithelial Keratoconjunctivitis) |
+| 原適應症 | 許可證資料未載明適應症文字（一般用途為局部麻醉） |
+| 預測新適應症 | 點狀上皮角結膜炎 (Punctate Epithelial Keratoconjunctivitis) |
 | TxGNN 預測分數 | 99.99% |
-| 證據等級 | L5 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 |
+| 證據等級 | L5（僅有模型預測） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏 Lidocaine 詳細的作用機轉資料（Data Gap，待查 DrugBank）。
+目前缺乏詳細的作用機轉資料。Lidocaine 是鈉離子通道阻斷劑，能阻斷感覺神經傳導，在眼表提供止痛效果。
 
-更關鍵的是，本候選的機轉推論本身並不支持「治療用途」：局部麻醉藥理論上可暫時緩解角結膜刺激症狀，但已知**長期或反覆的局部麻醉劑暴露反而會誘發或惡化點狀角膜上皮病變**（毒性角膜病變），與治療目的相悖。也就是說，這個預測更像是一個潛在**安全性訊號**，而非可驗證的治療假說。
+然而，這只能緩解症狀，並無已知的疾病修飾作用，無法改變點狀上皮角結膜炎本身的病程。模型給出的高分，較可能來自知識圖譜中眼表疾病與麻醉藥之間的共同鄰近節點，而非真實的治療關聯。
 
-搭配零筆臨床試驗、零筆文獻的證據狀態，這個排名第一的預測目前不具備進一步評估的基礎。
+此外，長期局部使用麻醉藥與角膜上皮病變有關。用在本身就是上皮病變的疾病上，有潛在的安全疑慮，方向甚至可能是有害的。
 
 ## 臨床試驗證據
 
@@ -69,24 +67,44 @@ Using the v5 藥物再利用評估報告 prompt spec to structure this directly 
 
 ## 香港上市資訊
 
-Lidocaine 目前未於香港上市，資料包中無許可證登記（0 張）。
+共 20 張許可證，以下列出 5 張主要許可證。許可證資料未提供核准適應症文字，劑型依品名判斷。
+
+| 許可證號 | 品名 | 劑型 | 廠商 |
+|---------|------|------|------|
+| HK-54965 | YOO YOUNG LIDOCAINE HYDROCHLORIDE INJ 1% | 注射劑 | HANG LUNG TRADING (H.K.) CO |
+| HK-22973 | LIGNOCAINE INJ 2% B.P. | 注射劑 | STAR MEDICAL SUPPLIES LTD |
+| HK-19619 | XYLOCAINE JELLY 2% | 凝膠劑 | ASPEN PHARMACARE ASIA LIMITED |
+| HK-51722 | AXCEL LIGNOCAINE GEL 2%W/W | 凝膠劑 | KOTRA PHARMA (HONG KONG) COMPANY |
+| HK-59762 | LIDO-ANES SPRAY 10% | 噴劑 | MAIN LIFE CORP LTD |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。（本資料包標記「TFDA 仿單警語/禁忌」為 Blocking 等級資料缺口，尚無法完成 S1 安全性初評。）
+- **眼表使用疑慮**：長期局部使用麻醉藥與角膜上皮病變有關，對於本身即為上皮病變的疾病需特別留意。
+
+其餘安全性資訊（警語、禁忌症、藥物交互作用）請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 排名第一的預測適應症（點狀角結膜上皮炎）零臨床試驗、零文獻，證據等級僅 L5，且唯一的機轉論述指向的是毒性風險而非療效。
-- 作用機轉（MOA）與仿單警語兩項關鍵資料皆缺失，其中仿單警語為 Blocking 等級缺口，無法進入 S1 安全性初評。
+- 此預測僅有模型分數，沒有任何試驗或文獻佐證。
+- 機轉上 lidocaine 只能緩解症狀，無法治療疾病本身，且可能加重角膜上皮問題。
 
 **若要推進需要：**
-- 補齊 Lidocaine 完整仿單警語與禁忌症資料（DG001，來源：TFDA 官網仿單 PDF）
-- 補齊 DrugBank 作用機轉資料（DG002）
-- 若改為評估其他候選（如 rank 5「atopic conjunctivitis」L4 或 rank 6「conjunctival disorder」L2/S1），需先排除文獻誤配問題——rank 6 有近半文獻是因病名字面含 "conjunctival injection and tearing" 而誤收的 SUNCT/SUNA 頭痛症候群研究，且其試驗證據多反映 Lidocaine 既有的眼科手術麻醉用途，而非針對該疾病的新治療訊號
+- 取得香港衛生署仿單，補齊警語與禁忌症（目前為阻擋性資料缺口，無法進入安全性篩選）。
+- 補充作用機轉資料，例如查詢 DrugBank。
+- 有前臨床或臨床資料顯示對眼表上皮無害，甚至有益。
+
+**其他預測適應症的參考：**
+
+| 預測適應症 | 證據等級 | 說明 |
+|-----------|---------|------|
+| 異位性結膜炎 (Atopic Conjunctivitis) | L4 | 有神經反射的合理假說（前臨床研究與小型人體生理研究），但缺乏 lidocaine 的臨床療效資料，列為研究問題。 |
+| 結膜疾患 (Conjunctival Disorder) | L4 | 18 個試驗皆將 lidocaine 用於手術麻醉，並非治療結膜疾病；文獻以 SUNCT/SUNA（三叉神經自律神經頭痛）為主。若要深入，SUNCT/SUNA 是較有支持的方向。 |
+| 其餘（腎病症候群、結節性黴菌感染等） | L4–L5 | 無治療性依據，多為藥物動力學或毒性報告。 |
+
+本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

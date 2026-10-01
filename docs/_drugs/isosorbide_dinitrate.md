@@ -2,7 +2,7 @@
 layout: default
 title: Isosorbide Dinitrate
 parent: 僅模型預測 (L5)
-nav_order: 417
+nav_order: 481
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,13 +29,13 @@ indication_count: 5
 
 </div>
 
-# Isosorbide Dinitrate：從心絞痛到肺動脈高壓（研究假說階段）
+# Isosorbide Dinitrate：從心血管用藥到落髮（Alopecia）
 
 ## 一句話總結
 
-Isosorbide Dinitrate（ISDN）是傳統的有機硝酸酯類血管擴張劑，藥理上用於心絞痛與心臟衰竭。TxGNN 模型針對此藥產生 5 個新適應症預測，其中僅**肺動脈高壓 (Pulmonary Hypertension)** 有實質文獻佐證——**20 篇 PubMed 文獻**橫跨 1979–2025 年，機轉與 ISDN 的 NO 供體/血管擴張作用高度吻合；其餘落髮相關預測（雄性禿、先天性稀毛症等）雖 TxGNN 分數更高，卻完全查無臨床試驗或文獻，機轉上也與其病理（自體免疫、基因突變）無關，判斷為模型假陽性。
-
-> 註：Evidence Pack 未提供 ISDN 的正式原適應症登記文字與 MOA 資料（原廠仿單/DrugBank 查詢均標記為缺口，見下方安全性考量），本報告的「原適應症」為該藥類別公開已知的臨床用途，非取自本 Evidence Pack 的許可證資料。
+Isosorbide dinitrate（硝酸異山梨酯）是一種一氧化氮（NO）供體型血管擴張劑，香港已有 5 張許可證，但許可證資料未載明原適應症。
+TxGNN 預測它可能對**落髮 (Alopecia)** 有效，分數很高（99.99%），但**沒有任何臨床試驗或文獻**支持，只屬模型預測（L5）。
+在其他預測適應症中，**肺高壓 (Pulmonary Hypertension)** 有 20 篇文獻，機轉上合理，是較值得深入研究的方向。
 
 ---
 
@@ -43,46 +43,73 @@ Isosorbide Dinitrate（ISDN）是傳統的有機硝酸酯類血管擴張劑，�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 心絞痛／心臟衰竭（有機硝酸酯類；Evidence Pack 無許可證資料佐證） |
-| 預測新適應症 | 肺動脈高壓 (Pulmonary Hypertension) |
-| TxGNN 預測分數 | 99.98%（模型排名 733） |
-| 證據等級 | L3（觀察性/血液動力學臨床研究，含 1 篇 RCT） |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 原適應症 | 許可證資料未載明 |
+| 預測新適應症 | 落髮 (Alopecia) |
+| TxGNN 預測分數 | 99.99% |
+| 證據等級 | L5 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 5 張 |
 | 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-ISDN 屬於 NO 供體，經 guanylate cyclase–cGMP 路徑誘發血管平滑肌鬆弛，達到全身及局部血管擴張效果。這是其治療心絞痛/心臟衰竭的核心機轉，也是預測邏輯的出發點。
+目前缺乏 DrugBank 的詳細作用機轉資料。已知 isosorbide dinitrate 是 NO 供體，能放鬆血管平滑肌、擴張血管。
 
-肺血管床對 NO–cGMP 路徑高度敏感，理論上 ISDN 可降低平均肺動脈壓（mPAP）並減輕右心後負荷。這條機轉關聯已有近 45 年（1979–2025）持續的人體血液動力學研究支持，涵蓋 COPD 相關 PH、間質性肺纖維化相關 PH、原發性 PH 及心因性 PH 等多種次族群，一致觀察到急性肺血管阻力/壓力下降。
+對落髮而言，唯一能想到的連結是「改善頭皮微循環」，這是拿其他血管擴張劑類推的推測。提供的資料中沒有任何機轉或臨床訊號支持。高分很可能來自知識圖譜的鄰近節點效應，不代表已驗證的作用路徑。
 
-相對地，同一批預測中分數更高的「落髮」相關適應症（alopecia、congenital hypotrichosis milia、hypotrichosis simplex of the scalp、diffuse alopecia areata）查詢臨床試驗、ICTRP、文獻資料庫皆為 0 筆結果，且其自身的機轉推論也承認「病理與血管擴張無直接關聯」，屬於模型內插但缺乏實證支持的高分候選，建議暫不推進。
+此外，同批預測中的先天性稀毛症（congenital hypotrichosis milia）、頭皮單純性稀毛症（hypotrichosis simplex of the scalp）屬遺傳性疾病，NO 擴血管不太可能矯正。瀰漫性圓禿（diffuse alopecia areata）是 T 細胞介導的自體免疫疾病，硝酸鹽的作用路徑也不涉及。這四項預測都應視為知識圖譜的假象。
 
 ---
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記（ClinicalTrials.gov 與 ICTRP 皆為 0 筆）。
+目前無相關臨床試驗登記。
 
 ---
 
 ## 文獻證據
 
+目前無相關文獻。
+
+---
+
+## 補充：其他預測適應症
+
+### 肺高壓 (Pulmonary Hypertension)：預測分數 99.98%，證據等級 L3
+
+機轉上合理：NO 經 sGC–cGMP 路徑放鬆血管平滑肌，降低肺與體循環阻力及心臟前負荷。已有數項小型人體血流動力學研究（1979、1984、1996、2025 年），對象為 COPD、末期心臟病或其他心肺共病相關的肺高壓。這些屬早期血流動力學證據，不是 Phase 3 療效證據。
+
+主要疑慮：
+- 全身性低血壓
+- 肺部疾病中可能惡化通氣灌流匹配與血氧
+- 肺高壓亞型的選擇
+
+以下研究設計多由標題推斷，需全文確認。臨床試驗登記為 0 筆。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [19620510](https://pubmed.ncbi.nlm.nih.gov/19620510/) | 2009 | RCT | Hypertension | 固定劑量 ISDN/hydralazine 改善高血壓誘發舒張性心衰竭之心肌重塑 |
-| [373940](https://pubmed.ncbi.nlm.nih.gov/373940/) | 1979 | 隨機雙盲對照 | Clin Pharmacol Ther | 口服 ISDN 在 COPD 合併肺高壓患者中降低肺動脈壓 |
-| [39164577](https://pubmed.ncbi.nlm.nih.gov/39164577/) | 2025 | 臨床研究 | Heart and Vessels | Bolus ISDN 在合併心肺共病之肺高壓患者中降低 mPAP，且不明顯減少心輸出量 |
-| [3409916](https://pubmed.ncbi.nlm.nih.gov/3409916/) | 1988 | 臨床研究（2年追蹤） | European Heart Journal | ISDN 長期治療使間質性肺纖維化患者的肺高壓獲得持續性血液動力學改善 |
-| [6423015](https://pubmed.ncbi.nlm.nih.gov/6423015/) | 1984 | 臨床研究 | Bull Eur Physiopathol Respir | 舌下 ISDN 顯著降低 COPD 患者肺動脈壓與右心作功 |
-| [8908227](https://pubmed.ncbi.nlm.nih.gov/8908227/) | 1996 | 臨床研究 | Acta Anaesthesiol Scand | ISDN 對末期心肌病患者肺血管的選擇性優於 NTG |
-| [7125407](https://pubmed.ncbi.nlm.nih.gov/7125407/) | 1982 | 臨床研究 | Annals of Internal Medicine | 舌下 isoproterenol 合併 ISDN 為少數能顯著降低原發性肺高壓肺血管阻力的組合 |
-| [28810603](https://pubmed.ncbi.nlm.nih.gov/28810603/) | 2017 | 動物實驗 | Exp Ther Med | 氣管內給予 ISDN 改善心肌梗塞後心衰竭大鼠之肺動脈壓與心室重塑 |
-| [39398794](https://pubmed.ncbi.nlm.nih.gov/39398794/) | 2024 | 世代研究 | Cureus | 洗腎患者肺高壓負擔評估及治療策略回顧（提供疾病族群背景） |
-| [3348140](https://pubmed.ncbi.nlm.nih.gov/3348140/) | 1988 | 臨床研究 | Am J Cardiol | 開心手術中靜脈注射 ISDN 顯著改善右側心衰竭之肺血管阻力 |
+| [373940](https://pubmed.ncbi.nlm.nih.gov/373940/) | 1979 | 隨機雙盲（COPD 合併肺高壓） | Clin Pharmacol Ther | 18 位患者，口服 ISDN 對比安慰劑，評估血流動力學反應 |
+| [6423015](https://pubmed.ncbi.nlm.nih.gov/6423015/) | 1984 | 臨床血流動力學研究 | Bull Eur Physiopathol Respir | 27 位 COPD 患者，舌下 ISDN 降低肺動脈壓與心輸出量，但未降低肺血管阻力（硝化甘油可降低） |
+| [3409916](https://pubmed.ncbi.nlm.nih.gov/3409916/) | 1988 | 臨床研究 | Eur Heart J | 18 位間質性肺纖維化患者，急性反應良好，兩年治療在血氣穩定者維持血流動力學改善 |
+| [8908227](https://pubmed.ncbi.nlm.nih.gov/8908227/) | 1996 | 臨床血流動力學研究 | Acta Anaesthesiol Scand | 比較硝化甘油與 ISDN 對末期心肌病患者肺血管的影響 |
+| [7125407](https://pubmed.ncbi.nlm.nih.gov/7125407/) | 1982 | 臨床研究 | Ann Intern Med | 10 位原發性肺高壓女性，ISDN 是唯一能降低肺動脈壓的藥物 |
+| [39164577](https://pubmed.ncbi.nlm.nih.gov/39164577/) | 2025 | 臨床血流動力學研究（設計待確認） | Heart Vessels | 評估 ISDN 靜脈推注對 mPAP 與血壓的影響，前毛細血管型可能使心輸出量與血壓下降 |
+| [28810603](https://pubmed.ncbi.nlm.nih.gov/28810603/) | 2017 | 前臨床（大鼠） | Exp Ther Med | 氣管內給予 ISDN 改善心衰大鼠的肺動脈壓與心室重塑 |
+| [2498122](https://pubmed.ncbi.nlm.nih.gov/2498122/) | 1989 | 前臨床（大鼠） | Exp Mol Pathol | 比較 ISDN 等藥物對野百合鹼誘發肺高壓的影響 |
+
+---
+
+## 香港上市資訊
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-68629 | APT-ISOSORBIDE DINITRATE TABLETS 10MG | 未載明 | 未載明 |
+| HK-40553 | APO-ISDN SUBLINGUAL TAB 5MG | 未載明 | 未載明 |
+| HK-36369 | APO-ISDN TAB 10MG | 未載明 | 未載明 |
+| HK-44851 | ISORDE PLUS TAB 10MG | 未載明 | 未載明 |
+| HK-68203 | SOLBID TABLETS 10MG | 未載明 | 未載明 |
 
 ---
 
@@ -90,23 +117,23 @@ ISDN 屬於 NO 供體，經 guanylate cyclase–cGMP 路徑誘發血管平滑肌
 
 安全性資訊請參考原廠仿單。
 
-> Evidence Pack 標記此藥的 TFDA/香港仿單警語與禁忌症資料為**阻斷性缺口（DG001，Blocking）**——在補齊前無法進入安全性初評（S1）。DDI 查詢亦無結果（`query_status: not_found`）。此為推進本適應症前的首要待辦事項。
-
 ---
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：Hold**（落髮）
 
 **理由：**
-肺動脈高壓的機轉關聯性明確，且有近 45 年、跨多種病因次族群一致的人體血液動力學證據支持（L3），是本次五個預測中唯一具實證基礎者。但香港未上市（0 張許可證）、且仿單警語/禁忌症資料存在阻斷性缺口（DG001），現有文獻也多為急性血液動力學觀察而非長期療效與安全性 RCT，尚不足以支持進入臨床決策階段。
+- 落髮預測只有模型分數，沒有試驗、文獻或可信機轉支持。其餘三項毛髮相關預測同樣缺乏依據，很可能是知識圖譜假象。
+- 若要在本藥找新用途，肺高壓（L3，建議定位為 Research Question）比落髮更值得優先投入，但現有證據只有早期血流動力學研究。
 
 **若要推進需要：**
-- 取得 ISDN 完整仿單/處方資訊，補齊警語、禁忌症、DDI（DG001，Blocking，最優先）
-- 補充正式 MOA 佐證文件（DG002，查詢 DrugBank API）
-- 針對肺動脈高壓設計前瞻性隨機對照試驗，驗證長期療效與安全性（現有證據多為急性反應）
-- 確認香港上市/許可證申請路徑
-- 落髮相關預測（alopecia 系列）證據不足、機轉不合理，建議列為低優先或排除
+- 取得香港衛生署仿單，確認原適應症、警語與禁忌（目前為阻擋性資料缺口）
+- 補齊 DrugBank 作用機轉資料
+- 若轉向肺高壓：全文審閱上述文獻以確認研究設計，並評估低血壓與血氧惡化風險及適用的肺高壓亞型
+- 若仍要研究落髮：先做頭皮微循環或毛囊層面的機轉驗證，再考慮臨床設計
+
+> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

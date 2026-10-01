@@ -2,7 +2,7 @@
 layout: default
 title: Glycol Salicylate
 parent: 僅模型預測 (L5)
-nav_order: 356
+nav_order: 415
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,83 +29,76 @@ indication_count: 10
 
 </div>
 
-# Glycol Salicylate：從局部抗炎止痛到 Glanzmann 血小板無力症
+# Glycol salicylate：從外用止痛到 Glanzmann 血小板無力症
 
 ## 一句話總結
 
-Glycol salicylate（乙二醇水楊酸酯）是一種外用水楊酸類藥物，已知用於局部抗炎止痛（肌肉骨骼疼痛）。TxGNN 模型預測它最有可能對 **Glanzmann 血小板無力症 (Glanzmann thrombasthenia)** 有效，但目前 **無任何臨床試驗或文獻** 支持此方向，且機轉分析顯示此預測極可能為假陽性。
-
----
+Glycol salicylate（水楊酸羥乙酯）是外用水楊酸類成分，在香港以止痛貼布等產品上市。
+TxGNN 模型預測它可能對 **Glanzmann 血小板無力症 (Glanzmann thrombasthenia)** 有效。
+目前**沒有臨床試驗和文獻**支持，且機轉分析顯示這個預測很可能方向相反，較可能加重出血。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無登錄資料（已知為局部水楊酸類止痛外用製劑） |
+| 原適應症 | 許可證未載明適應症文字；從產品名稱判斷為外用止痛貼布（肌肉關節疼痛） |
 | 預測新適應症 | Glanzmann 血小板無力症 (Glanzmann thrombasthenia) |
 | TxGNN 預測分數 | 98.17% |
-| 證據等級 | L5 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L5（僅有模型預測） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 13 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（MOA 為資料缺口）。根據已知資訊，Glycol salicylate 屬水楊酸酯類外用藥物，其機轉與其他水楊酸類藥物相似——主要透過抑制 COX-1/COX-2 酶，減少前列腺素（PGE2、TXA2）合成，達到局部抗炎與止痛效果。
+目前缺乏詳細的作用機轉資料（DrugBank 未提供 MOA）。根據已知資訊，水楊酸類藥物會抑制 COX-1，減少血栓素 A2 依賴的血小板聚集。Glycol salicylate 作為外用水楊酸酯，主要用於局部止痛與抗發炎。
 
-Glanzmann 血小板無力症（Glanzmann thrombasthenia）是一種先天性血小板功能障礙，源於 GPIIb/IIIa（整合素 αIIbβ3）缺陷，導致血小板無法正常聚集，患者常有嚴重出血傾向。
+Glanzmann 血小板無力症是 GPIIb/IIIa 缺失或功能異常引起的出血性疾病。抗血小板作用預期會**加重出血，而不是治療疾病**。模型的高分很可能反映的是知識圖譜中與血小板生物學的鄰近關係，而不是治療方向。
 
-**然而，此預測存在重大機轉疑慮**：水楊酸類透過抑制 COX-1 → 降低 TXA2 → 抑制血小板活化，與 Glanzmann 血小板無力症的病理路徑在生物網絡上確有交集，但其臨床意義相反。水楊酸/NSAID 在血小板功能障礙患者中屬已知禁忌，可能進一步加重出血風險。TxGNN 模型很可能將「生物路徑共享」誤判為「治療潛力」，屬圖形預測假陽性。
-
----
+因此，**這個預測在機轉上不合理**，不建議視為有效的老藥新用候選。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
-目前無針對 Glanzmann 血小板無力症的相關文獻。
-
-> **附註（次要適應症）**：針對 rank 2 預測適應症「自體免疫疾病 (autoimmune disease)」，有 1 篇相關文獻可供參考：
->
-> | PMID | 年份 | 類型 | 期刊 | 主要發現 |
-> |------|------|------|------|---------|
-> | [7759034](https://pubmed.ncbi.nlm.nih.gov/7759034/) | 1995 | 臨床研究（含 RCT 元素） | Fortschritte der Medizin | Hydroxyethylsalicylate 凝膠（本藥同類劑型）用於非關節性風濕性背痛，113 名患者雙盲多中心試驗顯示止痛效果顯著優於安慰劑，局部與全身耐受性佳 |
-
----
+目前無相關文獻。
 
 ## 香港上市資訊
 
-Glycol salicylate 目前在香港**未登錄上市**，無任何許可證紀錄。
+共 13 張許可證，以下列出 5 張主要許可證。資料中的劑型與核准適應症欄位皆為空白。
 
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-66114 | FORTOCOOL PAIN PATCH | FP HEALTHCARE LIMITED |
+| HK-56055 | PANADOL PAIN RELIEF PATCH | HALEON HONG KONG LIMITED |
+| HK-38738 | SALONSIP PLASTER | HISAMITSU PHARMACEUTICAL (HONG KONG) CO., LIMITED |
+| HK-59071 | MENTHOLATUM DEEP COLD PATCH | MENTHOLATUM (ASIA PACIFIC) LIMITED |
+| HK-66949 | KORI AFTER HAP F HOT PATCH | MING TAI PHARMACEUTICALS COMPANY O/B SURE BRILLIANT INDUSTRIAL LIMITED |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **機轉層面的顧慮**：水楊酸類的抗血小板作用可能加重出血傾向。對 Glanzmann 血小板無力症這類血小板功能缺陷疾病，這是主要風險。
+- **藥物交互作用**：DrugBank 查無交互作用資料。
 
-> ⚠️ **特別提示**：水楊酸類藥物在血小板功能障礙疾病（包括 Glanzmann 血小板無力症、von Willebrand 病相關疾病）患者中通常屬禁忌，可能進一步抑制血小板活化並加重出血風險。若評估本藥用於任何血小板疾病適應症，應極度謹慎並優先查閱出血風險相關安全資料。
-
----
+香港衛生署仿單的警語與禁忌症資料尚未取得，其餘安全性資訊請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 最高排名預測（Glanzmann 血小板無力症）完全無臨床試驗或文獻支持（L5 證據等級），且機轉分析顯示水楊酸類藥物在血小板功能異常疾病中可能屬禁忌，而非治療選項。
-- 香港目前未上市，缺乏監管基礎，且 0 張許可證意味著需從頭建立法規路徑。
+- 這個預測沒有任何臨床試驗或文獻支持，僅為 L5 模型預測。
+- 機轉上，抗血小板作用與這個出血性疾病的治療方向相反，且外用製劑的全身暴露量低。
 
 **若要推進需要：**
-- 補充詳細的作用機轉資料（MOA），確認藥物與各靶疾病的生物路徑關聯是否具有治療意義（而非禁忌）
-- 優先重新評估次要適應症「**自體免疫疾病（rank 2）**」的可行性：該預測有抗炎機轉依據，且有初步臨床文獻支持（hydroxyethylsalicylate 凝膠用於風濕性疾病），屬相對可行方向
-- 系統性搜尋 hydroxyethylsalicylate 或 glycol salicylate 局部外用於關節炎、風濕性疾病的更多臨床資料
-- 若考慮香港上市，需評估藥監局登記路徑（本藥在香港無任何上市紀錄）
+- 取得香港衛生署仿單的警語與禁忌症資料（目前是阻斷性資料缺口，無法進入安全性篩選）。
+- 補齊 DrugBank 的作用機轉資料。
+- 若仍想探索，建議轉向排名第 2 的「自體免疫疾病 (autoimmune disease)」（分數 98.16%，L4）。1995 年有一篇 hydroxyethylsalicylate 凝膠用於風濕性疾病的臨床研究（PMID [7759034](https://pubmed.ncbi.nlm.nih.gov/7759034/)），一項雙盲多中心試驗（113 位非關節性風濕背痛患者）顯示止痛效果優於安慰劑。
+- 該研究反映的是症狀緩解，不是免疫調節，且研究設計與納入疾病需再確認。這個方向目前只能列為研究問題（Research Question），不是推薦候選。
+
+*本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

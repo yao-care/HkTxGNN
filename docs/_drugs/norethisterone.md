@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Norethisterone
-parent: 高證據等級 (L1-L2)
-nav_order: 530
-evidence_level: L2
+parent: 僅模型預測 (L5)
+nav_order: 617
+evidence_level: L5
 indication_count: 1
 ---
 
 # Norethisterone
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,99 @@ indication_count: 1
 
 </div>
 
-# Norethisterone：從黃體素療法到續發性閉經 (Amenorrhea)
+# Norethisterone：從原適應症未載明到閉經 (Amenorrhea)
 
 ## 一句話總結
 
-Norethisterone 是一種合成黃體素（progestin），廣泛用於避孕與月經相關治療，但本次 Evidence Pack 未收錄其正式核准適應症與完整作用機轉資料。TxGNN 模型預測它可能對**續發性閉經 (Amenorrhea)** 有效，目前有 **8 個臨床試驗**（含 3 個已完成的 Phase 3 RCT）和 **20 篇文獻**支持這個方向，但多數證據來自它作為 GnRH 拮抗劑合併療法中的 add-back 成分，而非單方直接治療閉經的證據。
-
----
+Norethisterone 是一種合成黃體素 (progestogen)，在香港有 12 張上市許可證，但本次資料未載明其原適應症。
+TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，預測分數很高。
+目前有 **8 個臨床試驗**和 **20 篇文獻**，但都只是間接證據，沒有單獨以 Norethisterone 治療閉經的研究。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未收錄（原始適應症與 MOA 待查證，對應資料缺口 DG002） |
-| 預測新適應症 | 續發性閉經 (Amenorrhea) |
-| TxGNN 預測分數 | 99.60%（rank 7685） |
-| 證據等級 | L2 |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails |
-
----
+| 原適應症 | 資料未載明（香港許可證資料中沒有適應症文字） |
+| 預測新適應症 | 閉經 (Amenorrhea) |
+| TxGNN 預測分數 | 99.60% |
+| 證據等級 | L4（資料包評定；Phase 3 試驗皆為含 Norethisterone 的複方，屬間接證據） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 12 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（Evidence Pack 標記為資料缺口）。但根據已知臨床藥理學常識，norethisterone 是合成黃體素，可抑制下視丘-腦下垂體-卵巢軸並抑制子宮內膜增生，臨床上常作為誘導/調節閉經的黃體素成分使用。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Norethisterone 是合成黃體素類藥物。黃體素能穩定並抑制子宮內膜，因此機轉上可能影響月經週期。
 
-本資料集中的關聯證據，主要並非測試 norethisterone 單方治療閉經，而是它在 GnRH 拮抗劑（relugolix、elagolix）合併療法中作為「add-back」成分，用於子宮肌瘤／大量經血治療，其中「誘導閉經 (amenorrhea induction)」是這些試驗的關鍵次要療效指標之一。這代表機轉關聯明確且成熟，但目前所附試驗多屬間接（合併療法脈絡），尚無 norethisterone 單方對閉經適應症的直接對照試驗。
+但這個關聯目前只是推論，尚未驗證。TxGNN 分數雖然很高，但它只是知識圖譜的預測結果。本資料包缺少原適應症與作用機轉，所以無法確認預測與藥物原有用途之間的關係。
 
----
+現有試驗中，Norethisterone acetate 只是 relugolix／estradiol／norethisterone 複方中的「add-back」成分。這些試驗治療的是子宮肌瘤引起的經血過多，閉經只是次要的出血結果，並非要治療的疾病。
+
+另一個要留意的方向問題：在避孕相關研究中，閉經常被當成黃體素類藥物造成的月經變化（副作用）。例如 1981 年的 Phase I 試驗就記錄了閉經、點狀出血等月經異常的發生率。因此「誘發閉經」和「治療閉經」是不同的臨床問題，不能混為一談。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT03049735](https://clinicaltrials.gov/study/NCT03049735) | Phase 3 | 完成 | 388 | LIBERTY 1：relugolix + estradiol + norethindrone acetate 對比安慰劑，治療子宮肌瘤相關大量經血，達成閉經為關鍵次要指標 |
-| [NCT03103087](https://clinicaltrials.gov/study/NCT03103087) | Phase 3 | 完成 | 382 | LIBERTY 2：與 LIBERTY 1 同設計、同藥物組合的重複驗證試驗 |
-| [NCT03412890](https://clinicaltrials.gov/study/NCT03412890) | Phase 3 | 完成 | 477 | LIBERTY EXTENSION：長期開放性延伸試驗，驗證持續閉經效果與安全性 |
-| [NCT06953076](https://clinicaltrials.gov/study/NCT06953076) | N/A | 招募中 | 111 | Relugolix + estradiol + norethisterone 治療期間子宮肌瘤超音波影像變化觀察 |
-| [NCT03751124](https://clinicaltrials.gov/study/NCT03751124) | Phase 3 | 完成 | 229 | Relugolix + estradiol + norethindrone acetate 停藥後隨機分組研究，評估長期療效安全性 |
-| [NCT01441635](https://clinicaltrials.gov/study/NCT01441635) | Phase 2 | 完成 | 271 | Elagolix 治療子宮肌瘤大量經血之概念驗證研究，未提及 norethisterone，關聯性較弱 |
-| [NCT05620355](https://clinicaltrials.gov/study/NCT05620355) | Phase 3 | 未知 | 312 | BG2109 合併 add-back 療法治療子宮肌瘤大量經血，成分細節不明，追蹤已中斷 |
-| [NCT01817530](https://clinicaltrials.gov/study/NCT01817530) | Phase 2 | 完成 | 571 | Elagolix 合併/不合併 add-back 療法治療子宮肌瘤大量經血，未見 norethisterone 成分 |
-
----
+| [NCT03049735](https://clinicaltrials.gov/study/NCT03049735) | Phase 3 | 完成 | 388 | LIBERTY 1：Relugolix 併用 estradiol 與 norethindrone acetate，對照安慰劑，用於子宮肌瘤相關經血過多（24 週）。為複方證據，非單用 Norethisterone |
+| [NCT03103087](https://clinicaltrials.gov/study/NCT03103087) | Phase 3 | 完成 | 382 | LIBERTY 2：與 LIBERTY 1 設計相同的重複試驗，同樣為複方間接證據 |
+| [NCT03412890](https://clinicaltrials.gov/study/NCT03412890) | Phase 3 | 完成 | 477 | LIBERTY 延伸試驗：開放標示、單組，提供複方 28 週長期療效與安全性，無對照組 |
+| [NCT03751124](https://clinicaltrials.gov/study/NCT03751124) | Phase 3 | 完成 | 229 | 隨機停藥試驗：評估 relugolix 複方（含 norethindrone acetate）最長 104 週的長期療效與安全性，目標疾病並非閉經 |
+| [NCT05620355](https://clinicaltrials.gov/study/NCT05620355) | Phase 3 | 未知 | 312 | BG2109 單用或併用 add-back 治療，對照安慰劑，用於子宮肌瘤經血過多。與 Norethisterone 及閉經的關聯無法從現有欄位確認 |
+| [NCT01817530](https://clinicaltrials.gov/study/NCT01817530) | Phase 2 | 完成 | 571 | Elagolix 單用或併用 add-back，用於子宮肌瘤經血過多。主藥為 Elagolix，直接相關性低 |
+| [NCT01441635](https://clinicaltrials.gov/study/NCT01441635) | Phase 2 | 完成 | 271 | Elagolix 對照安慰劑的概念驗證試驗。Norethisterone 並非試驗藥物，相關性極低 |
+| [NCT06953076](https://clinicaltrials.gov/study/NCT06953076) | 不適用 | 招募中 | 111 | MySaturn：以超音波觀察 relugolix／estradiol／norethisterone 治療期間肌瘤外觀變化，屬影像學終點，尚無結果 |
 
 ## 文獻證據
 
+多數文獻缺少摘要，「主要發現」僅依標題與現有資訊整理。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [37863160](https://pubmed.ncbi.nlm.nih.gov/37863160/) | 2024 | RCT（亞族群分析） | Am J Obstet Gynecol | Relugolix + estradiol + norethindrone acetate 合併療法在黑人/非裔美籍女性子宮肌瘤患者中顯著改善大量經血，療效持續 52 週 |
-| [38530848](https://pubmed.ncbi.nlm.nih.gov/38530848/) | 2024 | RCT | PLoS One | WHICH 試驗：NET-EN 與 DMPA-IM 注射避孕藥對雌二醇水平、月經型態及 HIV 風險相關指標的比較 |
-| [6786825](https://pubmed.ncbi.nlm.nih.gov/6786825/) | 1981 | 臨床試驗（Phase I） | Contraception | Norethisterone enanthate 與 acetate 之 Phase I 試驗，觀察到治療後閉經、點狀出血等月經異常發生率 |
-| [37103532](https://pubmed.ncbi.nlm.nih.gov/37103532/) | 2023 | Review | Obstet Gynecol | 口服 GnRH 拮抗劑（合併賀爾蒙 add-back）治療子宮肌瘤的療效與安全性綜述 |
-| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | Systematic Review (Cochrane) | Cochrane Database Syst Rev | 複方注射避孕藥（含 norethisterone 類成分）之避孕效果與可接受性系統性回顧 |
-| [18843662](https://pubmed.ncbi.nlm.nih.gov/18843662/) | 2008 | Systematic Review (Cochrane) | Cochrane Database Syst Rev | 同上主題較早版本之系統性回顧 |
-| [12335903](https://pubmed.ncbi.nlm.nih.gov/12335903/) | 1979 | Review | Contraception, fertilité, sexualité | 子宮內膜異位症與不孕症相關黃體素治療綜述 |
-| [2660092](https://pubmed.ncbi.nlm.nih.gov/2660092/) | 1989 | Review | Pediatr Clin North Am | 賀爾蒙避孕原理綜述，涵蓋青少年應用情境 |
-| [12317413](https://pubmed.ncbi.nlm.nih.gov/12317413/) | 1987 | Review | Current Therapeutics | 口服避孕藥綜述 |
-| [3659794](https://pubmed.ncbi.nlm.nih.gov/3659794/) | 1987 | Review | La Revue du praticien | 黃體素類避孕法綜述（法文文獻） |
-
----
+| [38530848](https://pubmed.ncbi.nlm.nih.gov/38530848/) | 2024 | 隨機試驗 | PLoS One | WHICH 試驗：比較 DMPA-IM 與 NET-EN 注射避孕劑對雌二醇濃度、月經及心理行為指標的影響 |
+| [37863160](https://pubmed.ncbi.nlm.nih.gov/37863160/) | 2024 | RCT 事後分析 | Am J Obstet Gynecol | Relugolix 複方（含 norethindrone acetate）在黑人／非裔女性子宮肌瘤患者中，52 週內明顯改善經血過多 |
+| [6786825](https://pubmed.ncbi.nlm.nih.gov/6786825/) | 1981 | Phase I 臨床試驗 | Contraception | 20 位古巴女性使用 NEN 注射劑或 NET 迷你避孕藥，排卵前 LH 與 FSH 高峰消失，並觀察到閉經、點狀出血等月經異常 |
+| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | Cochrane 系統性回顧 | Cochrane Database Syst Rev | 複方注射避孕劑的避孕效果與月經型態改變 |
+| [18843662](https://pubmed.ncbi.nlm.nih.gov/18843662/) | 2008 | Cochrane 系統性回顧 | Cochrane Database Syst Rev | 同上，為早期版本 |
+| [37103532](https://pubmed.ncbi.nlm.nih.gov/37103532/) | 2023 | 概述 | Obstet Gynecol | 口服 GnRH 拮抗劑（搭配替代量類固醇）治療子宮肌瘤的療效與安全性 |
+| [2660092](https://pubmed.ncbi.nlm.nih.gov/2660092/) | 1989 | Review | Pediatr Clin North Am | 青少年荷爾蒙避孕的原則與處置 |
+| [3914370](https://pubmed.ncbi.nlm.nih.gov/3914370/) | 1985 | Review | Clin Ther | 口服避孕藥現況（無摘要） |
+| [3071312](https://pubmed.ncbi.nlm.nih.gov/3071312/) | 1988 | Review | Aust Fam Physician | 口服避孕藥的選擇（無摘要） |
+| [12335903](https://pubmed.ncbi.nlm.nih.gov/12335903/) | 1979 | Review | Contracept Fertil Sex | 子宮內膜異位症與不孕（無摘要） |
 
 ## 香港上市資訊
 
-目前 norethisterone 在香港**未上市**，查無許可證登記（0 張）。無法提供品名、劑型與核准適應症資訊。
+共 12 張許可證，以下列出 5 張。資料中未提供劑型與核准適應症文字，因此省略這兩欄。
 
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-58408 | NORMENS TAB 5MG | PRIMAL CHEMICAL CO LTD |
+| HK-53880 | MEDORONE TAB 5MG | STAR MEDICAL SUPPLIES LTD |
+| HK-49738 | NORDRON TAB 5MG | HITPHARM PHARMACEUTICAL CO LTD |
+| HK-59181 | NORETONE TAB 5MG | WAI LUN TRADING CO |
+| HK-22468 | NORCOLUT TAB 5MG | MEKIM LTD |
 
 ## 安全性考量
 
-目前查無主要警語、禁忌症資料，DDI 查詢亦無結果（query_status: not_found）。此為 Blocking 等級資料缺口（DG001），需取得官方仿單資料後才能進行安全性初評（S1 階段）。
-
----
+安全性資訊請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-- 有 3 個已完成的 Phase 3 RCT（LIBERTY 1/2/EXTENSION）支持 norethisterone 作為 add-back 成分達成閉經療效指標，證據等級達 L2。
-- 但證據多為合併療法脈絡（與 relugolix、estradiol 共同給藥），非 norethisterone 單方治療閉經的直接證據，且安全性資料（DG001，Blocking）與 MOA 資料（DG002，High）皆缺失，須補齊後才能推進至安全性初評。
+- 8 個臨床試驗中沒有一個是單獨以 Norethisterone 治療閉經。Phase 3 試驗都是含 Norethisterone 的複方，治療的是子宮肌瘤經血過多，閉經只是出血結果。
+- 文獻多為避孕相關的舊文獻，閉經在其中常是副作用。
+- 原適應症、作用機轉與安全性資料都有缺口，且香港仿單資料缺漏屬阻擋性缺口，目前無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得 TFDA／香港衛生署官方仿單，解析警語與禁忌症（解決 DG001，Blocking）
-- 透過 DrugBank API 補齊完整作用機轉資料（解決 DG002）
-- 釐清 norethisterone 單方 vs. 合併療法（relugolix/estradiol add-back）在閉經適應症上的證據差異，評估是否需要額外單方試驗
-- 確認香港上市現況（0 張許可證）之原因，評估是否需申請新藥證或以既有複方途徑切入
+- 取得香港衛生署的仿單，補齊原適應症、警語與禁忌症（阻擋性缺口）。
+- 從 DrugBank 補充作用機轉資料。
+- 檢索 Norethisterone 單方治療閉經（區分原發性與繼發性）的臨床試驗與文獻。
+- 釐清各試驗與文獻中閉經是治療目標還是不良反應，並人工審閱標註為「待審」的文獻。
+- 確認劑型與給藥途徑是否適用於新適應症。
+
+本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -2,15 +2,15 @@
 layout: default
 title: Etelcalcetide
 parent: 中證據等級 (L3-L4)
-nav_order: 289
-evidence_level: L3
+nav_order: 339
+evidence_level: L4
 indication_count: 4
 ---
 
 # Etelcalcetide
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **4** 個
+證據等級: **L4** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,83 +29,76 @@ indication_count: 4
 
 </div>
 
-# Etelcalcetide：從次發性副甲狀腺功能亢進症到高磷血症
+# Etelcalcetide：從次發性副甲狀腺功能亢進到高磷血症
 
 ## 一句話總結
 
-Etelcalcetide 是一種靜脈注射型擬鈣劑（calcimimetic），原本用於血液透析患者的次發性副甲狀腺功能亢進症（SHPT）治療。
-TxGNN 模型預測它可能對**高磷血症 (Hyperphosphatemia)** 有效，
-目前有 **1 個臨床試驗**和 **3 篇文獻**支持這個方向。
-
----
+Etelcalcetide 是靜脈注射的擬鈣劑（鈣敏感受體促效劑），一般用於血液透析患者的次發性副甲狀腺功能亢進（此適應症依一般藥理知識，登記資料未載明）。
+TxGNN 模型預測它可能對**高磷血症 (Hyperphosphatemia)** 有效，目前有 **1 個臨床試驗**（間接證據）和 **3 篇文獻**，但都沒有直接證明它能治療高磷血症。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 次發性副甲狀腺功能亢進症（血液透析患者） |
+| 原適應症 | 次發性副甲狀腺功能亢進（依一般藥理知識，香港許可證未載明適應症文字） |
 | 預測新適應症 | 高磷血症 (Hyperphosphatemia) |
 | TxGNN 預測分數 | 99.42% |
-| 證據等級 | L3 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails |
-
----
+| 證據等級 | L4 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 3 張 |
+| 建議決策 | Hold（列為研究問題） |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Etelcalcetide 是一種鈣敏感受體（CaSR）促效劑（calcimimetic），透過靜脈注射在血液透析結束時給藥，其主要作用為抑制副甲狀腺素（PTH）的分泌。
+目前缺乏詳細的作用機轉資料。以下說明來自一般藥理知識，並非登記資料。Etelcalcetide 是擬鈣劑，作用於鈣敏感受體，降低副甲狀腺素 (PTH)。PTH 下降後，血清鈣與磷通常也會跟著下降，所以對血磷有間接影響是合理的。
 
-就機轉關聯性而言，PTH 受到抑制後，骨骼釋出磷酸鹽的速率下降，血清磷濃度可間接降低；同時，PTH 下降亦可能改善 FGF23 的上游調控，進一步輔助磷代謝趨於正常。這條「CaSR 促效 → PTH 抑制 → 骨吸收減少 → 血磷下降」的生物路徑，具有充分的生理合理性。
+高磷血症在慢性腎臟病的礦物質與骨骼異常 (CKD-MBD) 中，通常與次發性副甲狀腺功能亢進一起處理，很少是單獨的治療目標。血磷的變化也會被磷結合劑、活性維生素 D 和透析處方干擾，很難歸因於 etelcalcetide。
 
-在臨床情境上，SHPT 與高磷血症在慢性腎臟病（CKD）血液透析族群中高度共病——也就是說，Etelcalcetide 在治療其原始適應症（SHPT）的過程中，即有機會附帶改善高磷血症。這使得本次預測屬於「間接但具生物合理性的機轉延伸」，而非無根據的跨領域推測。
-
----
+目前沒有直接證據顯示 etelcalcetide 能以高磷血症作為主要適應症。要判斷臨床價值，需要先設計以血磷為預先設定終點的研究。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT03527511](https://clinicaltrials.gov/study/NCT03527511) | N/A | 已完成 | 21 | 評估 Etelcalcetide 對 CKD 患者破骨細胞的影響；屬 CKD-MBD 骨礦物質代謝研究，涵蓋高磷血症、高副甲亢等共病管理，提供間接機轉支持證據 |
-
----
+| [NCT03527511](https://clinicaltrials.gov/study/NCT03527511) | 不適用 | 完成 | 21 | 探討活性維生素 D 與 etelcalcetide 對慢性腎臟病患者人類蝕骨細胞的影響。屬機轉研究，不是治療試驗，也沒有血磷終點，只能提供間接支持。 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [33305109](https://pubmed.ncbi.nlm.nih.gov/33305109/) | 2020 | Prospective RCT | Kidney International Reports | DUET 試驗：評估 Etelcalcetide 靜脈注射擬鈣劑對血液透析患者 SHPT 的療效，屬多機轉 CKD-MBD 管理策略研究 |
-| [29440923](https://pubmed.ncbi.nlm.nih.gov/29440923/) | 2018 | Review | Int J Nephrology and Renovascular Disease | 回顧 Etelcalcetide 在血液透析患者 SHPT 管理中的角色，含磷酸鹽控制與 PTH 抑制的綜合討論 |
-| [33211001](https://pubmed.ncbi.nlm.nih.gov/33211001/) | 2021 | Case Report | Clinical Nephrology | 腹膜透析患者 SHPT 伴轉移性肺鈣化個案，闡述磷代謝失調在 ESRD 中的臨床後果 |
-
----
+| [33305109](https://pubmed.ncbi.nlm.nih.gov/33305109/) | 2020 | RCT | Kidney International Reports | DUET 試驗，評估 etelcalcetide 控制血液透析患者次發性副甲狀腺功能亢進的療效。主題是 SHPT，不是高磷血症。 |
+| [29440923](https://pubmed.ncbi.nlm.nih.gov/29440923/) | 2018 | Review | International Journal of Nephrology and Renovascular Disease | 回顧 etelcalcetide 在血液透析患者次發性副甲狀腺功能亢進的角色。它在每次透析結束時靜脈給藥，每週三次，可有效降低 PTH。 |
+| [33211001](https://pubmed.ncbi.nlm.nih.gov/33211001/) | 2021 | Case report | Clinical Nephrology | 一名腹膜透析患者因副甲狀腺功能亢進出現暫時性轉移性肺鈣化的個案。與 CKD-MBD 相關，但不是藥效證據。 |
 
 ## 香港上市資訊
 
-Etelcalcetide 目前**未在香港取得上市許可**，無相關藥品登記紀錄。
-
----
+| 許可證號 | 品名 | 劑型 | 製造商 |
+|---------|------|------|--------|
+| HK-65659 | PARSABIV SOLUTION FOR INJECTION 5 MG/1 ML | 注射液 | AMGEN HONG KONG LIMITED |
+| HK-65657 | PARSABIV SOLUTION FOR INJECTION 10 MG/2 ML | 注射液 | AMGEN HONG KONG LIMITED |
+| HK-65658 | PARSABIV SOLUTION FOR INJECTION 2.5 MG/0.5 ML | 注射液 | AMGEN HONG KONG LIMITED |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
----
+另外，本次預測的其他候選適應症評估中提到，etelcalcetide 仿單有上消化道出血的警語（此點未經本次資料核實）。若用於有出血風險的族群，需特別謹慎。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold（列為研究問題）**
 
 **理由：**
-Etelcalcetide 的 CaSR 促效機轉與高磷血症的病理生理具備生物合理性連結，且 SHPT 與高磷血症在血液透析族群中高度共病，臨床情境契合。現有的前瞻性 RCT（DUET 試驗）及系統性回顧提供初步間接支持，達到 L3 證據等級，足以進入可行性評估階段，但尚未有以高磷血症為主要療效終點的專屬臨床試驗。
+- 證據只有一個間接的機轉研究和幾篇 SHPT 相關文獻，沒有以高磷血症為終點的直接證據。血磷變化也難以與併用的磷結合劑、維生素 D 類似物和透析處方區分。
+- 香港藥品安全性資料（仿單警語與禁忌）缺漏，目前無法進入安全性篩選。
 
 **若要推進需要：**
-- 補充詳細作用機轉（MOA）資料（可查詢 DrugBank API）
-- 取得台灣 / 香港 TFDA / DOH 仿單，評估警語、禁忌及適應症外使用之安全性邊界
-- 規劃以高磷血症為主要終點的獨立臨床試驗或次群體分析（建議 Phase 2）
-- 確認香港上市申請路徑（目前未上市，需評估引進可行性）
-- 建立高磷血症特定族群的安全性監測計畫（尤其是低血鈣風險）
+- 取得香港衛生署的仿單，補齊警語與禁忌資料
+- 補充作用機轉資料（如查詢 DrugBank）
+- 以血清磷為預先設定的主要終點，設計或檢索相關研究，並控制磷結合劑與透析處方的干擾
+- 其他預測適應症（食道靜脈曲張出血、食道靜脈曲張未出血、靜脈曲張疾病）只有模型分數，沒有任何臨床或文獻證據，機轉上也缺乏合理連結，很可能是知識圖譜的假象，建議維持 Hold
+
+*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

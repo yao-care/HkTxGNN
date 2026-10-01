@@ -2,15 +2,15 @@
 layout: default
 title: Hydrocortisone
 parent: 高證據等級 (L1-L2)
-nav_order: 376
-evidence_level: L1
+nav_order: 436
+evidence_level: L2
 indication_count: 5
 ---
 
 # Hydrocortisone
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **5** 個
+證據等級: **L2** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,97 +29,88 @@ indication_count: 5
 
 </div>
 
-# Hydrocortisone：從腎上腺皮質功能不全到圓形禿
+# Hydrocortisone：從皮質類固醇外用製劑到圓形禿（斑禿）
 
 ## 一句話總結
 
-Hydrocortisone 是一種糖皮質類固醇（corticosteroid），傳統上用於治療腎上腺皮質功能不全及各類發炎性/過敏性疾病。
-TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，
-目前有 **4 個相關臨床試驗**支持這個方向，其中包含一項直接以 Hydrocortisone 1% 乳膏對比 Clobetasol Propionate 治療兒童圓形禿的 Phase 3 試驗。
-
----
+Hydrocortisone（氫化可體松）是低效價的皮質類固醇，在香港有 20 張許可證，產品多為外用製劑。
+TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，預測分數為 99.97%。
+目前有 **4 個相關登記試驗**，但沒有直接文獻。唯一的 Phase 3 RCT 是把 hydrocortisone 當作對照組，並未直接證明它本身有效。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無資料（香港未上市，無許可證登記；依藥理學分類，Hydrocortisone 傳統用於腎上腺皮質功能不全與發炎性疾病） |
 | 預測新適應症 | 圓形禿 (Alopecia Areata) |
 | TxGNN 預測分數 | 99.97% |
-| 證據等級 | L1 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 |
-| 建議決策 | Proceed with Guardrails |
-
----
+| 證據等級 | L2 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏 DrugBank 詳細的作用機轉資料（列為 High severity 資料缺口 DG002）。根據藥理學一般知識，Hydrocortisone 屬於皮質類固醇（corticosteroid），主要透過抑制發炎反應與免疫細胞浸潤發揮療效。
+目前缺乏詳細的作用機轉資料。根據已知資訊，hydrocortisone 屬於糖皮質素（皮質類固醇）類別，其抗發炎與免疫抑制作用已被廣泛認識，機轉上可能適用於圓形禿。
 
-圓形禿 (Alopecia Areata) 為 T 細胞介導的自體免疫性毛囊攻擊，破壞毛囊原有的免疫豁免狀態。Hydrocortisone 作為皮質類固醇，可抑制局部發炎與免疫細胞浸潤，這正是皮質類固醇治療圓形禿的既有藥理基礎——事實上，局部或病灶內注射皮質類固醇本身就是圓形禿的標準治療選項之一。
+圓形禿是 T 細胞媒介的毛囊自體免疫疾病，皮質類固醇本來就是常用的治療類別。Hydrocortisone 是低效價外用類固醇，在機轉上合理，但效價偏低，實際療效是否足夠仍有疑問。
 
-Hydrocortisone 1% 屬於低效價（low-potency）製劑，臨床上常用於兒童或臉部等敏感部位，以降低皮膚萎縮等副作用風險，但相對於高效價製劑（如 clobetasol）療效較弱。這也解釋了為何現有頭對頭試驗（NCT01453686）將兩者放在一起比較。
-
----
+TxGNN 的高分是網路模型的預測結果，不是臨床證據。此外，這個高分可能部分來自各種毛髮疾病在知識圖譜中彼此距離很近。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | 已完成 | 41 | Hydrocortisone 1% 乳膏對比 Clobetasol Propionate 0.05% 乳膏治療兒童圓形禿，為本適應症**唯一直接藥物層級證據**，是 L1 判定的主要依據 |
-| [NCT00484679](https://clinicaltrials.gov/study/NCT00484679) | Phase 2 | 已完成 | 18 | 探討病灶內注射 Triamcinolone acetonide（同類皮質類固醇，非 hydrocortisone 本體）對腎上腺功能（HPA 軸）之影響，提供同藥物類別安全性佐證 |
-| [NCT06551818](https://clinicaltrials.gov/study/NCT06551818) | NA | 尚未招募 | 72 | 四臂劑量反應試驗，評估落髮/雄性禿治療產品之安全性與療效，設計上與局部皮質類固醇治療相關，但尚無結果可評估 |
-| [NCT04343560](https://clinicaltrials.gov/study/NCT04343560) | NA | 已完成 | 380 | 探討異常類固醇代謝體對骨密度、骨強度與骨重塑之影響，屬全身性皮質類固醇長期使用安全性研究，非圓形禿療效試驗 |
-
----
+| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | 完成 | 41 | 兒童圓形禿的 RCT，比較 clobetasol 0.05% 乳膏與 hydrocortisone 1% 乳膏。Hydrocortisone 是低效價對照組，是目前最接近的直接證據，但需查閱其結果，確認 hydrocortisone 組的反應 |
+| [NCT00484679](https://clinicaltrials.gov/study/NCT00484679) | Phase 2 | 完成 | 18 | 病灶內注射 triamcinolone 治療圓形禿對腎上腺功能的影響。藥物不同，只提供類固醇類別層級的安全性參考 |
+| [NCT06551818](https://clinicaltrials.gov/study/NCT06551818) | 不適用 | 尚未招募 | 72 | 三種劑型生髮產品與安慰劑的四組雙盲試驗，對象為雄性禿。標題不完整，無法確認是否含 hydrocortisone，也無結果 |
+| [NCT04343560](https://clinicaltrials.gov/study/NCT04343560) | 不適用 | 完成 | 380 | 輕度自主性皮質醇分泌者的類固醇代謝體與骨骼變化。不是圓形禿治療試驗，關聯性偏間接 |
 
 ## 文獻證據
 
 目前無相關文獻。
 
----
-
 ## 香港上市資訊
 
-目前於香港無許可證登記（未上市，`total_licenses = 0`）。
+香港共有 20 張許可證，以下列出 5 張。資料中未載明核准適應症。
 
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-67793 | HYTICREME CREAM 1% W/W | WELL FAVOURED LTD |
+| HK-41308 | AQUANIL HC LOTION 1.0% | HONG WO PHARMACEUTICAL COMPANY LIMITED |
+| HK-51050 | H-CORT OINTMENT 1% | TAISHO PHARMACEUTICAL (HK) LTD |
+| HK-45690 | AXCEL HYDROCORTISONE CREAM 1% | KOTRA PHARMA (HONG KONG) COMPANY |
+| HK-39041 | UNI-CORT OINTMENT 1% | NEOCHEM PHARMACEUTICAL LABORATORIES LTD. |
+
+## 其他預測適應症
+
+| 疾病 | TxGNN 分數 | 證據等級 | 說明 |
+|------|-----------|---------|------|
+| 黏蛋白性禿髮 (Alopecia Mucinosa) | 99.97% | L4 | 僅有 1 篇以 cyclosporine 成功治療的病例報告，沒有 hydrocortisone 的證據 |
+| 休止期落髮 (Telogen Effluvium) | 99.97% | L5 | 通常為自限性，缺乏使用 hydrocortisone 的依據。唯一檢索到的文獻是拔毛症病例，與此病無關 |
+| 禿髮性毛囊炎 (Folliculitis Decalvans) | 99.97% | L5 | 僅有模型預測，無試驗或文獻 |
+| 禿髮合併抗體缺乏 | 99.96% | L4 | 文獻為內分泌或免疫症候群病例。Hydrocortisone 在這些病例中較可能是腎上腺功能不全的替代療法，不是治療禿髮 |
+
+這四項都是 Hold，不建議優先投入資源。
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
-> ⚠️ 註：TFDA 仿單警語與禁忌資料目前缺失（資料缺口 DG001，Severity: Blocking），此項缺口將導致**無法進入 S1 安全性初評**，屬推進此候選藥物前必須優先補齊的項目。
-
----
-
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-- 圓形禿候選有一項 Phase 3、已完成的頭對頭試驗（NCT01453686）直接比較 Hydrocortisone 1% 與 Clobetasol Propionate 治療效果，加上明確的皮質類固醇免疫抑制機轉支持，證據等級達 L1。
-- 但目前完全缺乏 TFDA 仿單警語/禁忌與詳細 MOA 資料，安全性初評（S1）尚無法進行，須加上防護措施（Guardrails）後才能推進。
+- 圓形禿方面，唯一的 Phase 3 RCT 把 hydrocortisone 當作低效價對照組，不能證明它本身有效，證據等級為 L2。
+- 香港仿單的警語與禁忌資料仍缺，無法進入安全性篩選。
 
 **若要推進需要：**
-- **[Blocking]** 取得 TFDA（或其他權責藥政機關）仿單警語與禁忌資料（DG001），以完成 S1 安全性初評
-- **[High]** 補齊 DrugBank 詳細作用機轉（MOA）資料（DG002），強化機轉關聯性分析
-- 確認香港（或其他目標市場）是否有上市計畫，目前 total_licenses = 0，屬完全未上市狀態
-- 因無藥物交互作用（DDI）查詢結果（`query_status: not_found`），建議重新執行 DDI 資料庫查詢
+- 查閱 NCT01453686 的結果，確認 hydrocortisone 1% 組的毛髮再生反應，並與安慰劑或其他類固醇比較。
+- 取得香港衛生署的仿單，確認警語與禁忌症。
+- 補充 hydrocortisone 的作用機轉資料（DrugBank）。
+- 評估低效價外用製劑用於頭皮圓形禿的臨床合理性，並與中高效價類固醇比較。
 
----
-
-### 其他候選適應症（優先順序較低，僅供參考）
-
-TxGNN 對 Hydrocortisone 同時預測了其他掉髮相關適應症，但證據強度明顯較弱，目前建議維持 Hold：
-
-| 排名 | 適應症 | TxGNN 分數 | 證據等級 | 建議決策 |
-|------|--------|-----------|---------|---------|
-| 2 | Alopecia mucinosa | 99.97% | L4 | Hold（現有文獻僅為 cyclosporine 治療案例報告，未使用 hydrocortisone） |
-| 3 | Telogen effluvium | 99.97% | L5 | Hold（機轉關聯薄弱，唯一文獻與掉髮病理機轉無直接對應） |
-| 4 | Quinquaud's folliculitis decalvans (毛囊炎性禿髮) | 99.97% | L5 | Hold（完全無臨床試驗或文獻佐證，僅為模型純預測） |
-| 5 | Alopecia antibody deficiency | 99.96% | L4 | Hold（現有文獻多為自體免疫多腺體症候群案例報告，Hydrocortisone 用於治療伴隨的腎上腺功能不全，而非直接治療掉髮本身） |
+*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

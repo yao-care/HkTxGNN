@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Amoxicillin
-parent: 僅模型預測 (L5)
-nav_order: 49
-evidence_level: L5
+parent: 中證據等級 (L3-L4)
+nav_order: 56
+evidence_level: L4
 indication_count: 8
 ---
 
 # Amoxicillin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+證據等級: **L4** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ indication_count: 8
 
 </div>
 
-# Amoxicillin：從細菌感染到多株型高黏滯度症候群
+# Amoxicillin：從細菌感染到單株丙種球蛋白病變（monoclonal gammopathy）
 
 ## 一句話總結
 
-Amoxicillin 是廣效性 β-內醯胺類抗生素，廣泛用於多種細菌性感染治療。
-TxGNN 模型的頂排預測指向**多株型高黏滯度症候群 (Polyclonal Hyperviscosity Syndrome)**，然而此預測**零臨床試驗、零文獻支持（L5）**，極可能為知識圖譜拓撲偽關聯。
-在全部 8 個預測中，**單株免疫球蛋白病變（Rank 6）** 具備病原驅動的機轉合理性，是值得進一步關注的研究方向。
+Amoxicillin 是 β-內醯胺類抗生素，透過抑制細菌細胞壁合成來殺菌。
+TxGNN 模型預測它可能對**單株丙種球蛋白病變 (Monoclonal Gammopathy)** 有效，
+目前有 **1 個臨床試驗**和 **10 篇文獻**與此方向相關，但都是間接或個案層級的證據，沒有直接證實療效。
 
 ---
 
@@ -43,109 +43,87 @@ TxGNN 模型的頂排預測指向**多株型高黏滯度症候群 (Polyclonal Hy
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 廣效性細菌感染（香港無上市許可資料） |
-| 預測新適應症 | 多株型高黏滯度症候群 (Polyclonal Hyperviscosity Syndrome) |
-| TxGNN 預測分數 | 99.63% |
-| 證據等級 | L5 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 |
-| 建議決策 | Hold |
+| 原適應症 | 資料未提供（香港許可證的核准適應症欄位皆為空白） |
+| 預測新適應症 | 單株丙種球蛋白病變 (Monoclonal Gammopathy) |
+| TxGNN 預測分數 | 99.22% |
+| 證據等級 | L4 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
+| 建議決策 | Hold（僅在抗原驅動、對抗生素有反應的亞型，可作為研究問題） |
+
+> 說明：TxGNN 分數最高的前兩名（多株性高黏滯症候群、高澱粉酶血症，皆為 99.63%）沒有任何試驗或文獻，也沒有合理機轉，故不列為主要報告對象。本報告以證據最完整的排名第 6 名「單株丙種球蛋白病變」為主。
 
 ---
 
 ## 為什麼這個預測合理？
 
-### Amoxicillin 的作用機轉
+目前缺乏詳細的作用機轉資料（DrugBank MOA 欄位未提供）。根據已知資訊，Amoxicillin 是 β-內醯胺類抗生素，作用是抑制細菌細胞壁合成，本身並不直接作用於漿細胞或副蛋白（paraprotein）。
 
-本 Evidence Pack 標記 MOA 為資料缺口，但 Amoxicillin 的作用機轉已充分建立於藥理文獻中。作為廣效性 β-內醯胺類抗生素，它透過不可逆結合細菌細胞壁合成所需的**青黴素結合蛋白（PBPs）**，抑制肽聚醣（peptidoglycan）交聯反應，導致細菌細胞壁完整性崩潰、溶菌死亡。此機轉**專一作用於細菌**，對宿主細胞無直接藥理效應。
+相對合理的連結，是抗原驅動、對抗生素有反應的早期免疫增生性小腸疾病（IPSID，又稱 α 重鏈病或「地中海淋巴瘤」）。個案報告顯示，這類患者在抗生素治療或根除幽門螺旋桿菌後，病情曾出現緩解，符合「慢性抗原刺激驅動克隆增生」的假說。Amoxicillin 是幽門螺旋桿菌根除療法的常見成分，但文獻標題並未顯示它是唯一有效的藥物，也沒有對照資料。
 
-### 頂排預測的合理性評估（Rank 1）
-
-**多株型高黏滯度症候群** 通常由多株免疫球蛋白異常升高引起，見於慢性感染、自體免疫疾病等情境，核心病理為蛋白質介導的血液流變異常，與 Amoxicillin 的細菌細胞壁抑制機轉**無直接病理連結**。TxGNN 高分（99.63%）極可能源自知識圖譜中血液/免疫疾病節點的系統性過度連結，屬**模型拓撲偽關聯**，不構成再利用依據。
-
-此外，Rank 2（hyperamylasemia）與 Rank 1 的 TxGNN 分數完全相同（0.9963032007217408），強烈提示批次計算偽影。Rank 3（先天性無白蛋白血症）為遺傳性蛋白合成缺陷，亦無機轉連結可言。
-
-### 具機轉合理性的預測
-
-在 8 個預測中，以下兩者具備相對合理的機轉連結：
-
-**Rank 6 — 單株免疫球蛋白病變（Monoclonal Gammopathy）**：特定子類型「免疫增殖性小腸疾病（IPSID）/地中海淋巴瘤/α 重鏈病」的發病與 *Campylobacter jejuni* 慢性感染驅動相關。抗生素根除感染可去除抗原刺激，導致單株 B 細胞增殖逆轉——即「病原驅動→抗菌清除→腫瘤退縮」的間接再利用邏輯。Amoxicillin 為此類 IPSID 抗菌治療方案的核心藥物，有案例系列和歷史隊列支持（L4）。注意此機轉**不適用於 MGUS 或多發性骨髓瘤**等非感染驅動型單株免疫球蛋白病變。
-
-**Rank 8 — 敗血性鼠疫（Septicemic Plague）**：Amoxicillin 對 *Yersinia pestis* 具體外抑菌活性，動物模型亦顯示療效。然而現行 WHO/CDC 指引優先選用鏈黴素、慶大黴素或多西環素，且存在 β-內醯胺酶耐藥性（blaA/blaB 基因）顧慮，缺乏人體 RCT（L4）。
+其餘文獻多屬支持性照護或偶發關聯，包括骨髓瘤或巨球蛋白血症患者的感染、雙磷酸鹽相關頜骨壞死，以及麴菌半乳甘露聚糖檢驗的偽陽性，都不是在治療丙種球蛋白病變本身。
 
 ---
 
 ## 臨床試驗證據
 
-目前無 Amoxicillin 用於**多株型高黏滯度症候群**的相關臨床試驗登記。
-
-### 補充：單株免疫球蛋白病變（Rank 6）相關試驗
-
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00062231](https://clinicaltrials.gov/study/NCT00062231) | NA | 已終止 | 351 | 比較 Moxifloxacin 單藥 vs. Ciprofloxacin + Amoxicillin 用於嗜中性球低下腫瘤患者發燒的經驗性口服抗菌治療。研究對象為廣泛腫瘤患者，非單株免疫球蛋白病變治療研究，相關性低（C 級）。 |
+| [NCT00062231](https://clinicaltrials.gov/study/NCT00062231) | NA | 已終止 | 351 | 雙盲隨機試驗，比較 moxifloxacin 單藥與 ciprofloxacin 加 amoxicillin/clavulanic acid，用於低風險嗜中性球低下癌症患者的發燒經驗性治療；針對的是發熱性嗜中性球低下，並非丙種球蛋白病變 |
 
 ---
 
 ## 文獻證據
 
-目前無 Amoxicillin 用於**多株型高黏滯度症候群**的相關文獻。
-
-### 補充：單株免疫球蛋白病變（Rank 6）—— 具機轉關聯文獻
+以下依研究類型與相關性挑選，均為個案或觀察性研究，無 RCT。
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [9030995](https://pubmed.ncbi.nlm.nih.gov/9030995/) | 1996 | Case Series / Historical Cohort | Internal Medicine (Tokyo) | 74 歲女性地中海淋巴瘤（α 重鏈病）以抗生素治療後緩解，提供抗菌治療可逆轉 IPSID 的早期案例依據 |
-| [20300878](https://pubmed.ncbi.nlm.nih.gov/20300878/) | 2010 | Case Series | J Gastrointestinal Cancer | 免疫增殖性小腸疾病合併 *H. pylori* 感染，根除治療後疾病退縮 |
-| [8988128](https://pubmed.ncbi.nlm.nih.gov/8988128/) | 1997 | Case Report | Lancet | 免疫增殖性小腸疾病根除 *H. pylori* 後緩解之早期 Lancet 報告 |
-| [21908119](https://pubmed.ncbi.nlm.nih.gov/21908119/) | 2011 | Case Report | Méd Mal Infect | Rothia dentocariosa 肺炎合併血液惡性疾病情境，Amoxicillin 為治療用藥 |
-| [35619805](https://pubmed.ncbi.nlm.nih.gov/35619805/) | 2022 | Case Report | Front Public Health | 巨球蛋白血症患者播散性 *Nocardia vulneris* 感染，Amoxicillin/clavulanic 為藥敏選項之一 |
+| [9030995](https://pubmed.ncbi.nlm.nih.gov/9030995/) | 1996 | Case report | Internal Medicine | 地中海淋巴瘤（α 重鏈病）患者以抗生素治療後獲得改善 |
+| [8988128](https://pubmed.ncbi.nlm.nih.gov/8988128/) | 1997 | Case report | Lancet | 根除幽門螺旋桿菌後，免疫增生性小腸疾病消退 |
+| [20300878](https://pubmed.ncbi.nlm.nih.gov/20300878/) | 2010 | Case report | J Gastrointest Cancer | 20 歲男性根除幽門螺旋桿菌後，免疫增生性小腸疾病消退 |
+| [16253033](https://pubmed.ncbi.nlm.nih.gov/16253033/) | 2005 | Case report | Arch Pathol Lab Med | 非分泌型 IPSID 的病理、免疫表型與分子特徵描述 |
+| [20513124](https://pubmed.ncbi.nlm.nih.gov/20513124/) | 2010 | Cohort | Am J Hematol | 多發性骨髓瘤患者中，麴菌半乳甘露聚糖檢驗偽陽性比例偏高 |
+| [22092390](https://pubmed.ncbi.nlm.nih.gov/22092390/) | 2012 | Cohort | J Oral Pathol Med | 比較骨髓瘤與乳癌患者的雙磷酸鹽相關頜骨壞死治療反應 |
+| [20015614](https://pubmed.ncbi.nlm.nih.gov/20015614/) | 2010 | Case series | Int J Oral Maxillofac Surg | 40 位頜骨壞死患者的手術處置結果 |
+| [35619805](https://pubmed.ncbi.nlm.nih.gov/35619805/) | 2022 | Case report | Front Public Health | 巨球蛋白血症患者發生 Nocardia vulneris 播散性感染 |
+| [18639371](https://pubmed.ncbi.nlm.nih.gov/18639371/) | 2009 | Cohort | Br J Oral Maxillofac Surg | 停用雙磷酸鹽後，頜骨壞死患者出現病理性骨折 |
+| [21908119](https://pubmed.ncbi.nlm.nih.gov/21908119/) | 2011 | Case report | Med Mal Infect | 肺炎與 Rothia dentocariosa 感染的個案 |
 
-### 補充：敗血性鼠疫（Rank 8）相關文獻
+---
 
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [8203841](https://pubmed.ncbi.nlm.nih.gov/8203841/) | 1994 | Animal Model Study | Antimicrob Agents Chemother | Amoxicillin 在鼠疫菌系統感染小鼠模型中顯示體外及體內抑菌活性，與鏈黴素等標準藥物比較 |
-| [21628541](https://pubmed.ncbi.nlm.nih.gov/21628541/) | 2011 | In Vitro Study | Antimicrob Agents Chemother | 評估多種抗生素對胞內 *Y. pestis* 的殺菌效力，為機轉層面的體外依據 |
-| [3957763](https://pubmed.ncbi.nlm.nih.gov/3957763/) | 1986 | Case Report (Veterinary) | JAVMA | 貓腺鼠疫以 Amoxicillin + Streptomycin 成功治療，屬非人體情境使用 |
+## 香港上市資訊
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-52757 | PROMOX CAP 500MG | 未提供 | 未提供 |
+| HK-35653 | AMOXICAP 250 CAP | 未提供 | 未提供 |
+| HK-39546 | AMOXYCILLIN CAP 250MG (BRIGHT FUTURE) | 未提供 | 未提供 |
+| HK-55778 | AMOXICILLIN ORAL SUSPENSION BP 125MG/5ML | 未提供 | 未提供 |
+| HK-56083 | T.V. MOX CAP 500MG | 未提供 | 未提供 |
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+安全性資訊請參考原廠仿單。DrugBank 藥物交互作用查詢無結果。
 
 ---
 
 ## 結論與下一步
 
-**決策：Hold（頂排預測 — 多株型高黏滯度症候群）**
+**決策：Hold**
 
 **理由：**
-Amoxicillin 對多株型高黏滯度症候群的 TxGNN 高分預測缺乏機轉合理性，且無任何臨床試驗或文獻支持；相同分數出現在多個預測中（批次計算偽影），進一步確認此預測為知識圖譜系統性偽關聯，不建議推進。
+證據僅限於個案報告與間接關聯，沒有任何針對此適應症的臨床試驗。唯一的試驗是發熱性嗜中性球低下的抗生素比較，與丙種球蛋白病變的療效無關。機轉上，唯有抗原驅動、對抗生素有反應的 IPSID 亞型有可討論的空間，且沒有證據顯示 amoxicillin 本身就是關鍵有效成分。TxGNN 的高分僅代表圖譜關聯，不代表療效。
 
----
+**若要推進需要：**
+- 補齊香港衛生署仿單的警語與禁忌資料（目前為阻擋性缺口）
+- 補齊 DrugBank 的作用機轉資料
+- 以系統性文獻回顧確認抗生素（特別是含 amoxicillin 的幽門螺旋桿菌根除療法）在 IPSID 的實際反應
+- 若要進一步研究，限定於抗原驅動、早期的亞型，設計前瞻性觀察研究
 
-### 附：全部 8 個預測決策摘要
-
-| 排名 | 適應症 | 證據等級 | 建議 | 備註 |
-|------|--------|---------|------|------|
-| 1 | 多株型高黏滯度症候群 | L5 | Hold | 無機轉連結，模型偽關聯 |
-| 2 | 高澱粉酶血症 | L5 | Hold | TxGNN 分數與 Rank 1 完全相同，批次計算偽影 |
-| 3 | 先天性無白蛋白血症 | L5 | Hold | 遺傳性合成缺陷，Amoxicillin 無任何病理連結 |
-| 4 | 血型不相容 | L5 | Hold | 唯一文獻（PMID 40350274）為感染情境性使用，非再利用依據 |
-| 5 | 血液系統前惡性疾病 | L5 | Hold | 克隆演化病理，無抗菌機轉連結 |
-| **6** | **單株免疫球蛋白病變** | **L4** | **Research Question** | **IPSID 子類型具病原驅動機轉，有案例系列支持** |
-| 7 | 血液病合併後天性周邊神經病變 | L5 | Hold | 免疫/副腫瘤機轉，無機轉連結 |
-| **8** | **敗血性鼠疫** | **L4** | **Research Question** | **體外/動物實驗有依據，缺乏人體 RCT，耐藥性顧慮** |
-
----
-
-**若要推進（Rank 6：單株免疫球蛋白病變 / IPSID）需要：**
-- 取得香港 (Department of Health) Amoxicillin 上市許可及核准適應症資料
-- 補充 Amoxicillin 完整 MOA 及安全性資訊（TFDA 仿單 PDF 解析或 DrugBank API）
-- 系統性回顧 IPSID 標準治療指引中 Amoxicillin（含/不含 metronidazole）的使用證據
-- 評估是否有機會設計聚焦 IPSID 族群的小型前瞻性佇列研究
+> 本報告結果僅供研究參考，不構成醫療建議。預測的新適應症需經臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

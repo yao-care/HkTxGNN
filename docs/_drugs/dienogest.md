@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dienogest
-parent: 中證據等級 (L3-L4)
-nav_order: 233
-evidence_level: L4
+parent: 僅模型預測 (L5)
+nav_order: 270
+evidence_level: L5
 indication_count: 10
 ---
 
 # Dienogest
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ indication_count: 10
 
 </div>
 
-# Dienogest：從子宮內膜異位症到閉經 (Amenorrhea)
+# Dienogest：從子宮內膜異位症到閉經
 
 ## 一句話總結
 
-Dienogest 是一種第四代合成黃體素，在多個國家被核准用於**子宮內膜異位症**的治療（代表品牌：Visanne）。TxGNN 模型預測其對**閉經 (Amenorrhea)** 可能有效，目前共檢索到 **4 個臨床試驗**及 **6 篇文獻**，惟現有證據顯示閉經為 Dienogest 的藥理機轉表現型（預期副作用），而非真正的治療新適應症，此為典型的機轉假陽性預測。
+Dienogest 是一種黃體素類藥物，臨床上主要用於子宮內膜異位症。
+TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但閉經其實是 dienogest 已知的藥理作用（出血型態改變），並非治療目標。
+目前有 4 個相關臨床試驗和 6 篇文獻，但**全部都在研究子宮內膜異位症，沒有任何一項直接針對閉經的療效**。
 
 ---
 
@@ -41,25 +43,23 @@ Dienogest 是一種第四代合成黃體素，在多個國家被核准用於**�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 子宮內膜異位症（由臨床試驗推斷；正式仿單資料缺失） |
+| 原適應症 | 子宮內膜異位症（依相關試驗與 Visanne 產品推斷；香港許可證資料未載明適應症文字） |
 | 預測新適應症 | 閉經 (Amenorrhea) |
 | TxGNN 預測分數 | 99.71% |
-| 證據等級 | L4 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L5（無任何研究以閉經為治療標的；系統自動標示為 L4，但沒有機轉或前臨床研究支持） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 5 張 |
 | 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏正式的作用機轉原始資料，以下說明根據現有臨床文獻推斷。
+目前缺乏詳細的作用機轉資料。根據已知資訊，dienogest 是選擇性黃體素類藥物，會抑制子宮內膜增生與排卵，因此使用者常出現月經停止或出血型態改變。
 
-**藥物機轉：** Dienogest 為第四代純黃體素（pure progestin），具有高選擇性黃體素受體結合能力及極低的雄激素活性。其核心作用機轉為**抑制 GnRH 脈衝分泌**，進而降低促性腺激素（LH/FSH）釋放，最終抑制卵巢雌激素合成，製造低雌激素的「假性停經」環境。2026 年的最新研究（PMID 41329046）更進一步量化了其高抑制率（inhibition ratio）與轉化指數（transformation index），證實其對子宮內膜的深度抑制能力。
+這正是預測分數偏高的可能原因：知識圖譜中「藥物－閉經」的關聯，很可能反映的是這個**藥物副作用或藥理效應**，而不是治療效益。閉經在子宮內膜異位症治療中，最多只是達到症狀控制的手段之一，不是需要被治療的疾病。
 
-**機轉關聯性：** 子宮內膜異位症（原適應症）與閉經（預測新適應症）的關聯在於：Dienogest 治療過程中，閉經是其**刻意誘導的藥理效果**——藉由停止月經來切斷異位內膜組織的荷爾蒙驅動。臨床試驗中閉經發生率常被列為觀察指標，但這是機轉效果的呈現，而非治療目標疾病。
-
-**預測合理性的根本限制：** TxGNN 預測分數高達 99.71%，反映的是知識圖譜中「Dienogest → 誘導閉經」的強烈節點關聯，而非 Dienogest 可用來「治療疾病態閉經（如下視丘性閉經、原發性閉經）」的臨床證據。目前所有相關試驗均以**子宮內膜異位症患者**為研究對象，閉經僅為次要觀察終點或不良事件記錄，而非主要療效指標。
+其餘 9 個預測適應症（如原發性卵巢衰竭、乳房纖維囊腫、生長激素缺乏症、染色體異常症候群等）證據同樣薄弱，均為 L5 或間接證據，建議一律 Hold。
 
 ---
 
@@ -67,10 +67,12 @@ Dienogest 是一種第四代合成黃體素，在多個國家被核准用於**�
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT07164183](https://clinicaltrials.gov/study/NCT07164183) | Phase 3 | 招募中 | 290 | 比較 Indinol Forto® 200mg 與 Visanne 2mg 治療子宮內膜異位症的療效與安全性（非劣效性設計）；與閉經治療無直接關聯 |
-| [NCT04495855](https://clinicaltrials.gov/study/NCT04495855) | N/A | 完成 | 968 | 真實世界臨床實踐中 Dienogest（Visanne）治療子宮內膜異位症的觀察研究；閉經為次要觀察終點，非主要療效指標 |
-| [NCT02425462](https://clinicaltrials.gov/study/NCT02425462) | N/A | 完成 | 895 | 亞洲女性子宮內膜異位症患者使用 Dienogest 的生活品質改善前瞻性觀察研究；閉經為觀察側面 |
-| [NCT07204093](https://clinicaltrials.gov/study/NCT07204093) | N/A | 招募結束進行中 | 138 | 比較 Dienogest vs Drospirenone 搭配經皮雌激素在子宮內膜異位症患者的滿意度與耐受性；聚焦荷爾蒙補充組合，與治療閉經無直接關聯 |
+| [NCT04495855](https://clinicaltrials.gov/study/NCT04495855) | N/A | 完成 | 968 | 真實世界使用 Visanne 治療子宮內膜異位症；可能記錄出血結果，但未以閉經為主題 |
+| [NCT07204093](https://clinicaltrials.gov/study/NCT07204093) | N/A | 進行中（不再招募） | 138 | 比較經皮雌二醇加 dienogest 與 drospirenone 治療子宮內膜異位症的病人滿意度 |
+| [NCT07164183](https://clinicaltrials.gov/study/NCT07164183) | Phase 3 | 招募中 | 290 | Indinol Forto 與 Visanne 2 mg 的非劣性隨機試驗；標題被截斷，目標疾病應為子宮內膜異位症，需回原登記頁確認 |
+| [NCT02425462](https://clinicaltrials.gov/study/NCT02425462) | N/A | 完成 | 895 | 亞洲女性使用 Visanne 治療子宮內膜異位症的生活品質觀察性世代研究 |
+
+以上試驗都不是以閉經為適應症，只能算間接證據。
 
 ---
 
@@ -78,12 +80,26 @@ Dienogest 是一種第四代合成黃體素，在多個國家被核准用於**�
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [39090694](https://pubmed.ncbi.nlm.nih.gov/39090694/) | 2024 | Systematic Review | BMC Pharmacology & Toxicology | 系統性回顧並以 Bayesian 分析量化 Dienogest 不良反應盛行率；閉經為高頻副作用，支持其機轉表現型的理解 |
-| [41329046](https://pubmed.ncbi.nlm.nih.gov/41329046/) | 2026 | Clinical Study | Eur J Contraception & Reprod Health Care | 2mg Dienogest 的高抑制率與轉化指數研究，進一步佐證其誘導閉經的機轉特性 |
-| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Review | Reviews in Endocrine & Metabolic Disorders | 子宮內膜異位症荷爾蒙治療的內分泌背景回顧，詳述雌激素依賴性、黃體素阻抗及 Dienogest 的角色 |
-| [29161960](https://pubmed.ncbi.nlm.nih.gov/29161960/) | 2018 | Prospective Cohort | Reproductive Sciences | 514 名卵巢子宮內膜異位瘤患者長期使用 Dienogest（>12 個月）的療效、安全性及復發率多中心回顧研究 |
-| [40543564](https://pubmed.ncbi.nlm.nih.gov/40543564/) | 2025 | Observational | J Pediatric & Adolescent Gynecology | 米勒管異常的 3D 模型與虛擬實境可視化研究，探討與閉經相關的婦科結構異常診斷及手術規劃 |
-| [34918698](https://pubmed.ncbi.nlm.nih.gov/34918698/) | 2021 | Case Report | Medicine | 多囊性卵巢症候群合併卵巢顆粒細胞瘤案例報告；與閉經鑑別診斷相關背景文獻 |
+| [39090694](https://pubmed.ncbi.nlm.nih.gov/39090694/) | 2024 | 系統性回顧/統合分析 | BMC Pharmacol Toxicol | 彙整 dienogest 的不良反應與發生率（子宮內膜異位症、子宮腺肌症） |
+| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Review | Rev Endocr Metab Disord | 說明子宮內膜異位症荷爾蒙治療的內分泌基礎 |
+| [29161960](https://pubmed.ncbi.nlm.nih.gov/29161960/) | 2018 | 世代研究 | Reprod Sci | 514 位卵巢子宮內膜瘤患者長期使用 dienogest 的療效、安全性與復發率 |
+| [41329046](https://pubmed.ncbi.nlm.nih.gov/41329046/) | 2026 | 藥效學研究 | Eur J Contracept Reprod Health Care | 2 mg dienogest 抑制率與轉化指數高；提及子宮內膜異位症治療的目標包含誘導閉經 |
+| [40543564](https://pubmed.ncbi.nlm.nih.gov/40543564/) | 2025 | Review | J Pediatr Adolesc Gynecol | 苗勒氏管異常的進階影像視覺化；與 dienogest 關聯低 |
+| [34918698](https://pubmed.ncbi.nlm.nih.gov/34918698/) | 2021 | 個案報告 | Medicine | 多囊卵巢症候群患者的卵巢顆粒細胞瘤；與 dienogest 關聯低 |
+
+沒有 RCT，也沒有以閉經為治療目標的文獻。
+
+---
+
+## 香港上市資訊
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-60781 | VISANNE TAB 2MG | BAYER HEALTHCARE LIMITED |
+| HK-68772 | ENDOSAFE TABLETS 2MG | LOTUS PHARMACEUTICAL HK LIMITED |
+| HK-67958 | DIENOGEST TEVA TABLETS 2MG | TEVA PHARMACEUTICAL HONG KONG LIMITED |
+| HK-68699 | DIENOPIL TABLETS 2MG | DKSH HONG KONG LIMITED |
+| HK-59784 | QLAIRA TAB | BAYER HEALTHCARE LIMITED |
 
 ---
 
@@ -98,13 +114,18 @@ Dienogest 是一種第四代合成黃體素，在多個國家被核准用於**�
 **決策：Hold**
 
 **理由：**
-TxGNN 模型雖給出 99.71% 的高預測分數，但「閉經」在此語境下是 Dienogest 本身的**藥理機轉效果**，而非其治療的目標疾病。以 Dienogest 治療疾病態閉經（如下視丘性閉經、原發性閉經）在機轉上是矛盾的——Dienogest 本身即為誘導閉經的藥物，適用於有月經的子宮內膜異位症患者，而非用於補充荷爾蒙缺乏狀態的閉經患者。此為**機轉假陽性 (mechanistic false positive)** 的典型案例，知識圖譜的拓撲相似性產生了誤導性高分。
+- 閉經是 dienogest 的已知藥理效應（出血型態改變），高預測分數很可能只反映這層關聯，不代表治療效益。所有連結試驗都在研究子宮內膜異位症，沒有任何直接證據。
+- 其餘預測適應症也都缺乏證據，目前沒有值得推進的候選。
 
 **若要推進需要：**
-- 明確界定目標閉經類型（下視丘性、垂體性、子宮性、卵巢性），評估 Dienogest 的機轉是否對特定亞型有真正的治療意義
-- 補充完整的 Dienogest 作用機轉資料（DrugBank MOA 查詢）
-- 取得原廠仿單安全性資料（主要警語、禁忌症、TFDA 核准適應症）
-- 優先評估排名第 3 的預測適應症**纖維囊性乳房疾病 (Breast Fibrocystic Disease)**（評分：Research Question，L4），其有 1 篇先導研究（[PMID 19499407](https://pubmed.ncbi.nlm.nih.gov/19499407/)）顯示高劑量 Dienogest 可使乳腺組織顯著縮小，機轉合理性（抗雌激素效應）較閉經更具臨床意義，值得進一步探索
+- 重新定義臨床問題：若目標是「出血控制」或「月經抑制」，需要另設適應症與療效指標，而不是閉經本身。
+- 取得香港衛生署仿單的警語與禁忌症，完成安全性篩選。
+- 補齊作用機轉資料（可查詢 DrugBank）。
+- 確認 NCT07164183 的實際目標疾病，並確認各試驗是否有閉經相關的次要結果。
+
+---
+
+> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

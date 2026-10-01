@@ -2,7 +2,7 @@
 layout: default
 title: Riluzole
 parent: 僅模型預測 (L5)
-nav_order: 650
+nav_order: 759
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,13 +29,13 @@ indication_count: 5
 
 </div>
 
-# Riluzole：適應症資料缺失 → bilateral parasagittal parieto-occipital polymicrogyria
+# Riluzole：從原核准適應症（資料未載明）到雙側旁矢狀頂枕葉多小腦回畸形
 
 ## 一句話總結
 
-Riluzole（DrugBank DB00740）目前在本證據包中缺乏原適應症與作用機轉資料。
-TxGNN 模型將 **bilateral parasagittal parieto-occipital polymicrogyria**（雙側矢狀旁枕葉多小腦回畸形）列為排名第一的預測適應症（分數 99.99%），
-但**沒有任何臨床試驗或文獻佐證**，且模型自身的機轉推論文字明確指出此預測與 riluzole 已知藥理作用**無病理連結**，屬於低可信度候選。
+Riluzole（利魯唑）已在香港上市，但本次資料中沒有記載它的原適應症。
+TxGNN 模型預測它可能對**雙側旁矢狀頂枕葉多小腦回畸形 (Bilateral Parasagittal Parieto-occipital Polymicrogyria)** 有效。
+目前**沒有臨床試驗和文獻**支持，僅有模型預測。
 
 ---
 
@@ -43,29 +43,31 @@ TxGNN 模型將 **bilateral parasagittal parieto-occipital polymicrogyria**（�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無資料（DrugBank 未提供，香港無許可證可交叉核對） |
-| 預測新適應症 | bilateral parasagittal parieto-occipital polymicrogyria |
+| 預測新適應症 | 雙側旁矢狀頂枕葉多小腦回畸形 (Bilateral Parasagittal Parieto-occipital Polymicrogyria) |
 | TxGNN 預測分數 | 99.99% |
-| 證據等級 | L5（僅有模型預測，無實際研究） |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 |
+| 證據等級 | L5 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 2 張 |
 | 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏 riluzole 的正式作用機轉（MOA）欄位資料（Data Gap DG002）。但本證據包中其他候選適應症的機轉推論文字有提及：riluzole 已知具有**麩胺酸釋放抑制**及**電位依賴型鈉離子通道阻斷**作用，是目前用於下運動神經元退化性疾病（如 ALS）的核心神經保護藥物。
+目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位為空）。
+根據預測的推論說明，Riluzole 是麩胺酸釋放抑制劑，也會調節鈉離子通道。
 
-然而，排名第一的預測 **bilateral parasagittal parieto-occipital polymicrogyria** 屬於大腦皮質發育畸形（神經元遷移異常），與上述麩胺酸調節/鈉通道阻斷機轉**沒有已知的病理連結**。模型自身的 `repurposing_rationale` 也明確指出，這個高分很可能反映知識圖譜中「神經系統疾病」的結構性相似，而非真正的機轉特異性——換句話說，這是一個**機轉薄弱、可能屬於嵌入空間偽相關**的候選。
+多小腦回畸形是胚胎發育期形成的大腦皮質結構異常。調節麩胺酸神經傳導，預期無法逆轉已形成的結構缺陷，因此**目前找不到明確的機轉連結**。
 
-值得注意的是，同一批預測中排名第 3（lower motor neuron syndrome with late-adult onset）與排名第 5（lethal arthrogryposis-anterior horn cell disease syndrome）雖然 TxGNN 分數略低，但機轉推論明確指向**下運動神經元退化**，與 riluzole 的已知藥理作用高度一致，機轉合理性遠優於排名第一的候選。
+TxGNN 的高分更可能來自知識圖譜的拓撲關係，而不是已證實的生物學關聯。在現有資料中，這個預測沒有任何臨床或文獻證據佐證，應視為純模型預測。
 
 ---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記
+
+---
 
 ## 文獻證據
 
@@ -75,19 +77,16 @@ TxGNN 模型將 **bilateral parasagittal parieto-occipital polymicrogyria**（�
 
 ## 香港上市資訊
 
-本藥物目前**未在香港取得藥品許可證**（許可證數：0），無可比對之核准適應症資料。
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-42525 | RILUTEK TAB 50MG | SANOFI HONG KONG LIMITED |
+| HK-67243 | TEGLUTIK ORAL SUSPENSION 5MG/ML | LEE'S PHARMACEUTICAL (H.K) LIMITED |
 
 ---
 
 ## 安全性考量
 
-安全性資料存在關鍵缺口：
-
-- **[DG001／Blocking]** 尚未取得當地藥監機關（原始資料標示為 TFDA）之仿單警語與禁忌症，此缺口已導致本候選**無法進入 S1 安全性初評**。
-- **[DG002／High]** 作用機轉（MOA）資料缺失，影響機轉關聯性分析的完整度。
-- 藥物交互作用查詢結果為「not_found」，無資料可供評估。
-
-安全性資訊請待補齊上述缺口後再行評估，暫不建議以現有資料作臨床決策依據。
+安全性資訊請參考原廠仿單。
 
 ---
 
@@ -96,14 +95,20 @@ TxGNN 模型將 **bilateral parasagittal parieto-occipital polymicrogyria**（�
 **決策：Hold**
 
 **理由：**
-- 排名第一的預測適應症在機轉層面明確缺乏合理性，且無任何臨床試驗或文獻支持（L5／S0）。
-- 存在 Blocking 等級安全性資料缺口（DG001），本候選依規則已中斷於 S1 安全性初評之前。
+- 只有模型預測（L5），沒有任何臨床試驗或文獻佐證，機轉上也看不出合理的連結。
+- 香港仿單的警語與禁忌資料尚未取得，無法進入安全性篩選。
 
 **若要推進需要：**
-- 補齊當地藥品監管機關之仿單警語與禁忌症資料，解除 DG001 Blocking 缺口
-- 透過 DrugBank API 補齊作用機轉（MOA）資料（DG002）
-- 若考慮繼續此藥物的老藥新用評估，建議優先轉向機轉合理性較高的候選——**rank 3（lower motor neuron syndrome with late-adult onset）**與**rank 5（lethal arthrogryposis-anterior horn cell disease syndrome）**，兩者皆與下運動神經元退化機轉直接相關，而非本報告標題所示、機轉薄弱的 rank 1 候選
-- 需完成香港藥品許可證申請流程（現況：未上市，0 張許可證）
+- 取得香港衛生署的仿單（警語、禁忌症、核准適應症），這是目前的阻擋項。
+- 補齊 Riluzole 的作用機轉（MOA）和原適應症資料，可從 DrugBank 取得。
+- 做針對性的文獻搜尋，確認是否有多小腦回畸形相關的研究。
+- 優先評估其他預測候選，其中以「晚發性成人下運動神經元症候群 (Lower Motor Neuron Syndrome with Late-adult Onset)」的生物學合理性最高。該疾病涉及運動神經元退化，與 Riluzole 的麩胺酸調節與神經保護機轉相符，但同樣沒有試驗或文獻佐證，下一步應針對 Riluzole 與下運動神經元疾病做文獻檢索。
+- 其餘三個候選的機轉連結薄弱或缺乏支持，同樣維持 Hold：
+  - 軸向脊椎干骺端發育不良 (Axial Spondylometaphyseal Dysplasia)：骨骼發育異常，與 Riluzole 的作用無已知關聯。
+  - 多毛症-視網膜色素變性-侏儒症候群 (Trichomegaly-Retina Pigmentary Degeneration-Dwarfism Syndrome)：僅有推測性的視網膜神經保護理由。
+  - 致死性關節攣縮-前角細胞疾病症候群 (Lethal Arthrogryposis-Anterior Horn Cell Disease Syndrome)：雖與運動神經元有鬆散關聯，但此病為先天性且致死，安全性與可行性存疑。
+
+> 本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

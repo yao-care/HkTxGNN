@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Captopril
-parent: 中證據等級 (L3-L4)
-nav_order: 135
-evidence_level: L3
+parent: 僅模型預測 (L5)
+nav_order: 153
+evidence_level: L5
 indication_count: 4
 ---
 
 # Captopril
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **4** 個
+證據等級: **L5** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,112 +29,85 @@ indication_count: 4
 
 </div>
 
-# Captopril：從高血壓到惡性腎血管性高血壓
+# Captopril：從降血壓用藥（ACE 抑制劑）到惡性高血壓腎病變
 
 ## 一句話總結
 
-Captopril 是第一個上市的口服 ACE 抑制劑（ACEi），原本用於高血壓及心臟衰竭的治療。TxGNN 模型預測它可能對**惡性腎血管性高血壓（Malignant Renovascular Hypertension）** 有效，目前有 **0 個臨床試驗**和 **20 篇文獻**支持這個方向。
-
----
+Captopril 是血管收縮素轉化酶（ACE）抑制劑，在香港已上市。
+TxGNN 模型預測它可能對**惡性高血壓腎病變 (Malignant Hypertensive Renal Disease)** 有效。
+目前**沒有臨床試驗**，僅有 **1 篇**相關文獻，且是診斷用途的個案報告，不是治療證據，所以這個預測仍停留在模型層級。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 高血壓（ACEi 一線藥物；仿單資料待補充） |
-| 預測新適應症 | 惡性腎血管性高血壓（Malignant Renovascular Hypertension） |
+| 預測新適應症 | 惡性高血壓腎病變 (Malignant Hypertensive Renal Disease) |
 | TxGNN 預測分數 | 99.28% |
-| 證據等級 | L3 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails |
-
-> **選取依據說明**：TxGNN 共預測 4 個適應症，前兩項分數相同（99.28%）。本報告以**惡性腎血管性高血壓（rank 2）** 為主要討論對象，因其文獻支持較充分（20 篇 vs 1 篇）且建議等級較高（Proceed with Guardrails vs Hold）。
-
----
+| 證據等級 | L5（僅有模型預測，無治療性研究） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 12 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-Captopril 是 ACE 抑制劑（Angiotensin-Converting Enzyme Inhibitor）的先驅藥物，透過競爭性阻斷 ACE，抑制 Angiotensin I 轉化為 Angiotensin II（Ang II），從而降低周邊血管阻力、抑制醛固酮分泌，達到降壓及減少水鈉滯留的效果。
+目前缺乏詳細的作用機轉資料。Captopril 屬於 ACE 抑制劑類別，可抑制腎素-血管收縮素-醛固酮系統（RAAS）。惡性高血壓伴隨腎臟受損，通常與 RAAS 過度活化有關，因此機轉上有可能適用。
 
-腎血管性高血壓的核心病理鏈為：腎動脈狹窄（RAS）→ 腎臟缺血 → 腎素大量釋放 → RAAS 過度活化 → Ang II 驅動血壓持續上升。惡性期定義為血壓 >180/120 mmHg 並伴隨視乳頭水腫或終器官損傷。Captopril 直接截斷 Ang II 的生成，是此病態最精準的藥理介入點，機轉合理性高。文獻記載 Captopril 在腎素依賴性高血壓患者中可使血壓顯著下降，並可誘導血漿腎素活性（PRA）顯著上升，已被用作腎血管性高血壓的診斷性激發試驗。
+不過，香港許可證資料沒有提供核准適應症文字，所以無法核對這個預測與已核准用途的重疊程度。
 
-**關鍵安全考量**：若惡性腎血管性高血壓伴隨**雙側腎動脈狹窄**，移除 Ang II 對出球小動脈的代償性收縮後，腎小球過濾壓可能驟降，有誘發急性腎功能惡化的風險。此為使用 ACEi 前必須排除的臨床禁忌，需影像學確認腎動脈通暢性。
-
----
+這個預測更像是既有降血壓用途的延伸，而不是真正的新用途訊號。它需要對照原廠仿單的核准適應症來確認。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
-### 惡性腎血管性高血壓（Rank 2，20 篇）
-
-共 20 篇相關文獻，依相關性列出前 10 篇：
-
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|------|------|------|---------|
-| [6145432](https://pubmed.ncbi.nlm.nih.gov/6145432/) | 1984 | 臨床觀察 | Biull Vsesoiuz Kardiol | Captopril 用於穩定期及惡性高血壓患者的療效觀察 |
-| [232024](https://pubmed.ncbi.nlm.nih.gov/232024/) | 1979 | 臨床研究 | Clin Science | Captopril 誘導 PRA 升高用於鑑別腎血管性高血壓，44/44 患者達陽性閾值 |
-| [2040938](https://pubmed.ncbi.nlm.nih.gov/2040938/) | 1991 | Review | J Pediatrics | 兒童惡性高血壓的病理生理與治療概覽 |
-| [17008836](https://pubmed.ncbi.nlm.nih.gov/17008836/) | 2006 | Review | Minerva Medica | 腎血管性高血壓臨床概念：RAAS 阻斷為核心治療策略 |
-| [8070421](https://pubmed.ncbi.nlm.nih.gov/8070421/) | 1994 | Review/Case Series | Endocrinol Metab Clin NA | 腎素分泌腫瘤：Captopril 給藥後血壓顯著下降，確認腎素依賴性 |
-| [11334320](https://pubmed.ncbi.nlm.nih.gov/11334320/) | 2001 | Case Report + Review | Clinical Nephrology | NF1 合併腎血管性高血壓 2 例，Captopril 激發試驗確認 RAAS 過度活化 |
-| [10955932](https://pubmed.ncbi.nlm.nih.gov/10955932/) | 2000 | Case Series | Pediatric Nephrology | 27 名 NF1 兒童接受 Captopril 試驗評估腎血管性病變及繼發性高血壓 |
-| [3928961](https://pubmed.ncbi.nlm.nih.gov/3928961/) | 1985 | Case Report | Klin Wochenschr | 腹主動脈縮窄合併雙側腎動脈狹窄，Captopril 長期控制嚴重腎血管性高血壓 |
-| [1436350](https://pubmed.ncbi.nlm.nih.gov/1436350/) | 1992 | Case Report | Nephron | VHL 病合併嗜鉻細胞瘤致高腎素血症，Captopril 使血壓改善，腎素分泌進一步上升 |
-| [1572120](https://pubmed.ncbi.nlm.nih.gov/1572120/) | 1992 | Case Report | Clin Nuclear Med | 惡性高血壓患者 Captopril 腎閃爍圖偽陽性，腎動脈無狹窄但腎功能代償異常 |
-
-### 惡性高血壓性腎病（Rank 1，1 篇）
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|------|------|------|---------|
-| [28902735](https://pubmed.ncbi.nlm.nih.gov/28902735/) | 2017 | Case Report | Clin Nuclear Med | Captopril 腎圖陽性但無腎動脈狹窄，發現腎細胞癌致腎素依賴性高血壓，腎切除後血壓恢復正常 |
-
----
-
-## 預測適應症一覽
-
-| 排名 | 適應症 | TxGNN 分數 | 證據等級 | 建議 |
-|------|--------|-----------|---------|------|
-| 1 | 惡性高血壓性腎病（Malignant Hypertensive Renal Disease） | 99.28% | L4 | Hold |
-| 2 | 惡性腎血管性高血壓（Malignant Renovascular Hypertension） | 99.28% | L3 | **Proceed with Guardrails** |
-| 3 | 機轉不明肺動脈高壓（PH with Unclear Multifactorial Mechanism） | 99.15% | L5 | Hold |
-| 4 | 肺病或低氧引發之肺動脈高壓（PH due to Lung Disease/Hypoxia） | 99.15% | L5 | Hold |
-
-> **Rank 3 & 4 說明**：肺動脈高壓的標準治療以 ERA（Bosentan）、PDE5i（Sildenafil）、前列環素類為主，ACEi 療效未獲確立。文獻中找到的 20 篇「低氧相關」文獻與 Captopril 無直接關聯（均為低氧病理機轉研究），不支持推進。
-
----
+|------|-----|------|------|---------|
+| [28902735](https://pubmed.ncbi.nlm.nih.gov/28902735/) | 2017 | 個案報告（診斷） | Clinical Nuclear Medicine | 一名病人的 captopril 腎造影呈陽性，但腎動脈正常，原因是巨大的嫌色細胞腎細胞癌。切除腎臟後，腎素依賴性高血壓緩解。這篇是診斷用途，沒有 captopril 治療成效的資料。 |
 
 ## 香港上市資訊
 
-Captopril 目前在香港**未上市**，無任何許可證紀錄。
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-44589 | CAPRIL TAB 25MG | APT PHARMA LIMITED |
+| HK-59936 | CAPTOPRIL FARMOZ TAB 50MG | TRENTON-BOMA LTD |
+| HK-36331 | APO-CAPTO TAB 25MG | HIND WING CO LTD |
+| HK-41933 | RILCAPTON TAB 25MG | STAR MEDICAL SUPPLIES LTD |
+| HK-42701 | CAPTOPRIL STADA 25 TAB 25MG | STADA PHARMACEUTICALS (ASIA) LIMITED |
 
----
+上表列出 5 張主要許可證，其餘 7 張未列出。
+
+## 其他預測適應症（簡述）
+
+- **惡性腎血管性高血壓**（分數 99.28%）：證據等級 L4，建議為「研究問題」。
+  - 已檢索到約 20 篇文獻，多為疾病回顧、個案報告，或把 captopril 腎造影當診斷工具的研究。
+  - 只有 1984 年的 PMID 6145432 直接討論 captopril 用於穩定型與惡性高血壓，但缺乏摘要，設計與結果無法判斷，需要閱讀全文。
+  - 無登記臨床試驗。
+- **不明多因素機轉的肺高壓**（分數 99.15%）：僅有模型預測，沒有試驗與文獻，建議 Hold。
+- **肺病及/或缺氧所致肺高壓**（分數 99.15%）：檢索到的文獻只是泛談缺氧生物學，完全沒有提到 captopril。
+  - 血管擴張劑可能加重肺部通氣灌注不匹配，療效方向不確定，建議 Hold。
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
-> ⚠️ **機轉特異性安全警示**：使用 ACEi 治療腎血管性高血壓前，須影像學排除雙側腎動脈狹窄（bilateral RAS）。雙側 RAS 患者使用 ACEi 後，因出球小動脈代償性收縮消失，可能引發急性腎功能惡化（GFR 驟降），為此適應症使用的首要安全把關項目。
-
----
-
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**（針對惡性腎血管性高血壓）
+**決策：Hold**
 
 **理由：**
-Captopril 的 ACEi 機轉直接對應腎血管性高血壓的 RAAS 過度活化病理，文獻中有臨床觀察及多篇案例研究記錄其在腎素依賴性高血壓中的確實療效，機轉合理性強、文獻支持達 L3 等級。但雙側 RAS 禁忌及仿單資料缺口為推進前的關鍵障礙。
+- 首要預測（惡性高血壓腎病變）只有模型分數，沒有臨床試驗，唯一文獻是診斷性個案報告。
+- 香港仿單的警語與禁忌資料缺失，屬於阻斷性缺口，無法進入安全性篩選。
 
 **若要推進需要：**
-- 補充香港 / TFDA 仿單安全警語與禁忌症（DG001，Blocking 級）
-- 補充正式 MOA 文獻引用（DG002，High 級）
-- 使用前影像學確認腎動脈通暢性（排除雙側 RAS，避免急性腎損傷）
-- 評估香港上市申請可行性（目前零許可證，需從頭申請）
+- 取得香港衛生署的仿單，補齊核准適應症、警語與禁忌症（阻斷性缺口）。
+- 從 DrugBank 補齊作用機轉資料。
+- 對照核准適應症，確認「惡性高血壓腎病變」是否只是既有降血壓用途的延伸。
+- 全文審閱 PMID 6145432，評估 captopril 用於惡性高血壓的實際證據。
+- 若要研究這個方向，優先考慮「惡性腎血管性高血壓」，它的間接證據較多。
+
+*本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證後才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

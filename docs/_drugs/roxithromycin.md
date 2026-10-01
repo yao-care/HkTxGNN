@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Roxithromycin
-parent: 中證據等級 (L3-L4)
-nav_order: 666
-evidence_level: L4
+parent: 僅模型預測 (L5)
+nav_order: 776
+evidence_level: L5
 indication_count: 10
 ---
 
 # Roxithromycin
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,77 +29,81 @@ indication_count: 10
 
 </div>
 
-# Roxithromycin：從細菌感染到痲瘋病
+# Roxithromycin：從細菌感染治療到痲瘋病 (Leprosy)
 
 ## 一句話總結
 
-Roxithromycin 是巨環內酯類 (macrolide) 抗生素，目前在香港未上市，原廠核准適應症的完整文字資料尚缺（見數據缺口 DG001）。
+Roxithromycin 是巨環內酯類 (macrolide) 抗生素，原本用於抗菌治療。
 TxGNN 模型預測它可能對**痲瘋病 (Leprosy)** 有效，
-目前有 **0 個臨床試驗**和 **5 篇文獻**支持，證據主要來自體外／動物研究及巨環內酯類藥物的類別效應 (class-effect) 推論，尚無 roxithromycin 專一性人體數據。
-
----
+目前**沒有臨床試驗**，只有 **5 篇文獻**，其中 3 篇是前臨床研究，2 篇是回顧性文章。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 未知（原廠仿單資料缺失，見 DG001；roxithromycin 屬巨環內酯類抗生素，一般用於細菌感染） |
 | 預測新適應症 | 痲瘋病 (Leprosy) |
 | TxGNN 預測分數 | 99.70% |
-| 證據等級 | L4 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Hold |
+| 證據等級 | L4（僅有前臨床研究） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 5 張 |
+| 建議決策 | Hold（列為研究問題） |
 
----
+香港許可證資料未載明核准適應症，因此無法列出原適應症。
 
 ## 為什麼這個預測合理？
 
-目前缺乏 roxithromycin 詳細的作用機轉資料（DG002，見數據缺口）。根據文獻證據本身的描述，巨環內酯類抗生素普遍透過可逆結合細菌核糖體次單元來抑制蛋白質合成（PMID 12762831），此為該藥物家族的共同機轉。
+目前缺乏詳細的作用機轉資料。Roxithromycin 屬於巨環內酯類，這類藥物的已知機轉是結合細菌 50S 核糖體次單元，抑制蛋白質合成。
 
-痲瘋病由 *Mycobacterium leprae* 感染引起。文獻顯示同屬巨環內酯類的 clarithromycin、minocycline、fosfomycin 具抗發炎與免疫調節活性，且對 *M. leprae* 有體外/動物體內活性；roxithromycin 在小鼠足墊模型中也顯示具殺菌活性（PMID 1648889），但效果不及 clarithromycin。
+巨環內酯類在體外和小鼠模型中，對麻風桿菌 (*Mycobacterium leprae*) 都有活性，所以這個預測在生物學上說得通。1991 年的小鼠足墊感染研究發現，roxithromycin 和 clarithromycin 都有穩定的活性，而且具殺菌效果；erythromycin 和 azithromycin 則無效。
 
-然而必須注意：現有證據幾乎都是巨環內酯類的**類別效應**研究，而非 roxithromycin 專一性的人體臨床數據；現行痲瘋病標準治療仍以 dapsone、rifampicin、clofazimine 三聯療法為主，roxithromycin 尚未有明確定位。
-
----
+不過，同一研究顯示 clarithromycin 的效果比 roxithromycin 好，部分原因可能是 clarithromycin 在感染部位的濃度較高。另有 1999 年日本的回顧文章提到，roxithromycin 等藥物兼具抗發炎和免疫調節作用，可能有助於控制痲瘋病的周邊神經病變。目前沒有針對 roxithromycin 的人體試驗。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記
-
----
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [12762831](https://pubmed.ncbi.nlm.nih.gov/12762831/) | 2003 | Review | American Journal of Clinical Dermatology | 回顧巨環內酯類抗生素於皮膚感染的應用，說明其抑制蛋白質合成之共同機轉 |
-| [10481449](https://pubmed.ncbi.nlm.nih.gov/10481449/) | 1999 | Cohort/Clinical | 日本ハンセン病学会雑誌 | Clarithromycin、Roxithromycin、Minocycline、Fosfomycin 具抗發炎與免疫調節作用，並對 *M. leprae* 顯示活性 |
-| [1648889](https://pubmed.ncbi.nlm.nih.gov/1648889/) | 1991 | Animal | Antimicrobial Agents and Chemotherapy | 小鼠足墊模型顯示 roxithromycin 與 clarithromycin 對 *M. leprae* 具殺菌活性，但 clarithromycin 效果較優 |
-| [3072920](https://pubmed.ncbi.nlm.nih.gov/3072920/) | 1988 | In vitro/Animal | Antimicrobial Agents and Chemotherapy | 評估新一代巨環內酯類藥物對 *M. leprae* 之體外活性 |
-| [2665640](https://pubmed.ncbi.nlm.nih.gov/2665640/) | 1989 | In vitro | Antimicrobial Agents and Chemotherapy | 於小鼠腹腔巨噬細胞模型中，測試多種抗微生物製劑對 *M. leprae* 之抑制效果 |
+| [1648889](https://pubmed.ncbi.nlm.nih.gov/1648889/) | 1991 | 前臨床（小鼠模型） | Antimicrob Agents Chemother | Roxithromycin 與 clarithromycin 對小鼠麻風桿菌感染穩定有效且具殺菌力，clarithromycin 較佳；erythromycin 與 azithromycin 無效 |
+| [3072920](https://pubmed.ncbi.nlm.nih.gov/3072920/) | 1988 | 前臨床（體外／體內） | Antimicrob Agents Chemother | 比較多種新型巨環內酯類對麻風桿菌的體外與體內活性 |
+| [2665640](https://pubmed.ncbi.nlm.nih.gov/2665640/) | 1989 | 前臨床（體外） | Antimicrob Agents Chemother | 在小鼠巨噬細胞中快速篩選 25 種以上抗菌藥對麻風桿菌的作用 |
+| [10481449](https://pubmed.ncbi.nlm.nih.gov/10481449/) | 1999 | Review | Nihon Hansenbyo Gakkai Zasshi | Clarithromycin、roxithromycin 等藥物兼具抗麻風桿菌、抗發炎與免疫調節作用，討論其用於痲瘋病周邊神經病變 |
+| [12762831](https://pubmed.ncbi.nlm.nih.gov/12762831/) | 2003 | Review | Am J Clin Dermatol | 巨環內酯類用於皮膚感染的選擇與使用指引 |
 
----
+## 香港上市資訊
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-59865 | RUXID TAB 150MG | AUSTRALIAN MEDIC-CARE COMPANY LTD |
+| HK-45894 | ROXINOX TAB 150MG | DELTAPHARM LIMITED |
+| HK-59862 | RUXID TAB 300MG | AUSTRALIAN MEDIC-CARE COMPANY LTD |
+| HK-64539 | ROXITHRO TABLETS 150MG | MEDILINE (HONG KONG) COMPANY LIMITED |
+| HK-51356 | POLIROXIN TAB 150MG | NATURAL HEALTH RESOURCES COMPANY LIMITED |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+安全性資訊請參考原廠仿單。DrugBank 未查到藥物交互作用資料。
 
----
+另有一項前臨床訊號值得留意：巨環內酯類在體外會抑制 trastuzumab emtansine (T-DM1) 對 HER2 陽性乳癌細胞的細胞毒性（PMID 37971309）。若病人同時使用抗體藥物複合體，需評估這項潛在交互作用。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 證據等級為 L4，僅有體外／動物研究及巨環內酯類藥物類別效應推論，缺乏 roxithromycin 專一性人體臨床數據，且現行痲瘋病治療已有成熟三聯療法。
-- 藥物於香港尚未上市，且仿單安全性資料（警語、禁忌症）為 Blocking 等級數據缺口（DG001），無法進行安全性初評。
+- 痲瘋病的證據只有 1980 至 1990 年代的前臨床研究和回顧文章，沒有人體試驗。
+- 巨環內酯類中，clarithromycin 的抗痲瘋病證據比 roxithromycin 更完整，所以 roxithromycin 比較適合當作研究問題，不適合直接推進。
+- 其餘 9 個預測適應症（如多毛症、牙周相關畸形症候群、肺高壓、偏頭痛、乳癌等）多為 L5 或 L4，缺乏機轉連結或證據，也都建議 Hold。
 
 **若要推進需要：**
-- 取得 TFDA/香港衛生署仿單警語與禁忌症資料（DG001，Blocking）
-- 補充 roxithromycin 明確作用機轉資料（DG002）
-- roxithromycin 專一性（非 class-effect）之抗 *M. leprae* 人體或至少體外/動物比較數據
-- 評估其相對於現行 dapsone/rifampicin/clofazimine 三聯療法的臨床定位與加成價值
+- 補齊 roxithromycin 的作用機轉資料（可由 DrugBank 查詢）
+- 取得香港衛生署的仿單，確認警語與禁忌症
+- 搜尋 roxithromycin 用於痲瘋病的人體研究，並與 clarithromycin 做比較
+- 確認痲瘋病的現行標準療法，評估 roxithromycin 是否只適合當輔助或替代用藥
+
+本報告僅供研究參考，不構成醫療建議；老藥新用候選需經過臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

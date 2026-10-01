@@ -2,7 +2,7 @@
 layout: default
 title: Rasagiline
 parent: 僅模型預測 (L5)
-nav_order: 635
+nav_order: 744
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,35 +29,41 @@ indication_count: 5
 
 </div>
 
-# Rasagiline：從原發性帕金森氏症到 PLA2G6-associated neurodegeneration
+# Rasagiline：從帕金森氏症到 PLA2G6 相關神經退化症
 
 ## 一句話總結
 
-Rasagiline 是選擇性 MAO-B（單胺氧化酶 B）抑制劑，原用於治療原發性帕金森氏症。
-TxGNN 模型預測它可能對 **PLA2G6-associated neurodegeneration** 有效，
-但目前**無任何臨床試驗**、**無任何文獻**支持這個方向，純屬模型預測。
+Rasagiline 是不可逆的 MAO-B 抑制劑，一般用於帕金森氏症（本次資料中的原適應症欄位為空白，此處依藥物類別補充）。
+TxGNN 模型預測它可能對 **PLA2G6 相關神經退化症 (PLA2G6-associated neurodegeneration)** 有效。
+目前**沒有臨床試驗，也沒有文獻**支持，僅有模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 原發性帕金森氏症（Parkinson's Disease）※ |
-| 預測新適應症 | PLA2G6-associated neurodegeneration |
-| TxGNN 預測分數 | 99.71%（排名 6048） |
-| 證據等級 | L5 |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 張 |
+| 預測新適應症 | PLA2G6 相關神經退化症 (PLA2G6-associated neurodegeneration) |
+| TxGNN 預測分數 | 99.71% |
+| 證據等級 | L5（僅有模型預測） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 6 張 |
 | 建議決策 | Hold |
-
-※ 註：evidence pack 未提供正式的原適應症/MOA 欄位資料（皆為 Data Gap），此處引用自模型 rationale 內文。
 
 ## 為什麼這個預測合理？
 
-正式的作用機轉（MOA）欄位缺乏資料。根據 TxGNN rationale 內文，Rasagiline 為選擇性 MAO-B 抑制劑，透過減少多巴胺分解、提升紋狀體多巴胺濃度，並具潛在神經保護作用，已核准用於成人原發性帕金森氏症。
+Rasagiline 是不可逆的 MAO-B 抑制劑，能提高紋狀體多巴胺濃度，也有人提出它可能具神經保護作用。DrugBank 的作用機轉欄位目前缺資料，以上說明來自預測理由的描述。
 
-PLA2G6 相關神經退化症（PLAN，含 INAD、NBIA2）部分亞型（如非典型神經軸索病變）可出現帕金森症樣運動症狀，理論上與多巴胺路徑退化有重疊，MAO-B 抑制在理論上可能有症狀緩解價值。
+PLA2G6 相關神經退化症包含一種對多巴胺有反應的帕金森表型（PARK14），病理上有多巴胺神經元受損與 α-突觸核蛋白異常。Rasagiline 已確立用於帕金森氏症，所以在症狀層面上有類比的合理性。
 
-但該疾病的主要病理是磷脂代謝異常導致的軸索病變與鐵沉積，與 rasagiline 的作用機轉**無直接因果關聯**。此關聯僅屬 TxGNN 模型的間接預測，**目前無任何臨床或臨床前證據支持**，機轉合理性偏弱。
+這個連結仍屬**推測**。目前沒有任何臨床證據，原適應症資料也缺漏。0.997 的高分只是模型預測，不能視為療效證據。
+
+### 其他預測適應症（皆為 L5，無試驗與文獻）
+
+| 排名 | 預測適應症 | 分數 | 建議 | 機轉評估 |
+|------|-----------|------|------|---------|
+| 2 | Rasmussen 亞急性腦炎 | 99.56% | Hold | 無明確關聯。此病為 T 細胞介導的免疫性腦炎，MAO-B 抑制不針對此病理 |
+| 3 | 脊髓炎 (myelitis) | 99.32% | Hold | 無直接關聯。成因為免疫或感染性，與多巴胺機轉無關 |
+| 4 | 少年型帕金森症（Hunt 型） | 99.25% | Research Question | 與帕金森氏症表型類似，機轉上合理，但缺少此罕見型的證據，疾病術語對應需先驗證 |
+| 5 | 轉醛酶缺乏症 | 99.19% | Hold | 無機轉關聯。這是戊糖磷酸途徑的先天代謝缺陷，高分可能來自圖譜結構的偏差 |
 
 ## 臨床試驗證據
 
@@ -67,27 +73,39 @@ PLA2G6 相關神經退化症（PLAN，含 INAD、NBIA2）部分亞型（如非�
 
 目前無相關文獻。
 
+## 香港上市資訊
+
+香港共有 6 張許可證，以下列出資料中的 5 張。劑型與核准適應症欄位在資料中皆為空白。
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-67707 | RASAGILINE TABLETS 1MG | CHEMILL PHARMA LIMITED |
+| HK-68563 | SINOREN TABLETS 1MG | SINO PACIFIC PHARMA COMPANY LIMITED |
+| HK-60594 | AZILECT TAB 1MG | Lundbeck HK Limited |
+| HK-68329 | RASAGILINE GENEPHARM TABLETS 1MG | SB PHARMA LIMITED |
+| HK-68530 | RASAGEN TABLETS 1MG | LOTUS PHARMACEUTICAL HK LIMITED |
+
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
-（註：TFDA/香港仿單警語與禁忌症資料缺失，屬 Blocking 等級資料缺口，已影響本案進入 S1 安全性初評。）
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 證據等級僅 L5，無任何臨床試驗或文獻支持此適應症關聯。
-- 機轉關聯性薄弱，rationale 明確指出 PLA2G6 相關神經退化症與 rasagiline 機轉無直接因果關係，僅為模型間接預測。
-- 藥品目前未在本地上市，無許可證資料可供交叉比對。
+- 主要預測（PLA2G6 相關神經退化症）只有模型分數，沒有任何臨床試驗或文獻，證據等級為 L5。
+- 香港仿單的警語與禁忌資料尚未取得，無法進行安全性篩選。
+- 若要優先探索，排名 4 的少年型帕金森症機轉最合理，可作為研究問題。
 
 **若要推進需要：**
-- 補齊 TFDA/香港仿單警語與禁忌症資料（DG001，Blocking，為進入 S1 安全性初評的必要條件）。
-- 補齊正式 MOA 資料以強化機轉分析（DG002）。
-- 尋找 PLA2G6-associated neurodegeneration 之直接臨床前或病例證據。
+- 取得香港衛生署的仿單，補齊警語與禁忌症。
+- 從 DrugBank 補齊作用機轉與原適應症資料。
+- 檢索 PLA2G6 相關神經退化症（含 PARK14）與 MAO-B 抑制劑的文獻和前臨床研究。
+- 確認疾病術語對應，尤其是少年型帕金森症。
+- 評估這類超罕見疾病是否有可行的試驗設計，如個案系列或登錄研究。
 
-**備註：** 本次預測清單中，rank 4「paralysis agitans, juvenile, of Hunt」（青少年型帕金森症）證據等級較高（L4/S1，Research Question），機轉合理性也較 rank 1 為中度（黑質多巴胺神經元功能缺損為共同終點），可能是更值得優先探索的方向，建議另案評估。
+> 本報告為模型預測，僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

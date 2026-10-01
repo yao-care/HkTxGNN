@@ -2,7 +2,7 @@
 layout: default
 title: Montelukast
 parent: 高證據等級 (L1-L2)
-nav_order: 507
+nav_order: 588
 evidence_level: L2
 indication_count: 5
 ---
@@ -33,7 +33,10 @@ indication_count: 5
 
 ## 一句話總結
 
-Montelukast 是白三烯受體（CysLT1）拮抗劑，原始核准適應症為氣喘（依 evidence pack 內部記載，非本次分析之新預測）。TxGNN 模型另外預測它可能對**支氣管炎（Bronchitis）**有效，目前有 **23 個臨床試驗**和 **20 篇文獻**支持這個方向，但其中相當比例與異體幹細胞移植後閉塞性細支氣管炎（GVHD/BOS）相關試驗經標記為與 montelukast 無直接關聯的雜訊。
+Montelukast 是一種白三烯受體拮抗劑，主要用於氣喘等氣道疾病。
+TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，
+目前有 **20 個臨床試驗**和 **19 篇文獻**與此方向相關。
+但「支氣管炎」實際涵蓋多種不同疾病，且無任何單一亞型有明確的 Phase 3 RCT 支持。
 
 ---
 
@@ -41,40 +44,46 @@ Montelukast 是白三烯受體（CysLT1）拮抗劑，原始核准適應症為�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 氣喘（依 evidence pack 內部文字記載為原始核准適應症；香港未上市，無許可證資料可佐證） |
+| 原適應症 | 氣喘（香港許可證未載明適應症文字，此為證據包註記的已知核准用途） |
 | 預測新適應症 | 支氣管炎 (Bronchitis) |
 | TxGNN 預測分數 | 99.95% |
 | 證據等級 | L2 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-Montelukast 是選擇性 CysLT1（cysteinyl leukotriene receptor 1）拮抗劑，透過阻斷白三烯 D4 介導的氣道發炎、支氣管收縮與黏液分泌發揮療效——這是它在氣喘核准上市的核心機轉（DrugBank 未提供正式 MOA 文字，此描述引自 evidence pack 內部之機轉關聯性分析）。
+Montelukast 是選擇性的 CysLT1 受體拮抗劑。它阻斷半胱胺醯白三烯（cysteinyl leukotriene）的作用，減少氣道發炎、嗜酸性球浸潤、支氣管收縮與黏液分泌。DrugBank 的作用機轉欄位目前缺資料，以上機轉來自證據包的藥理推論。
 
-白三烯路徑同樣參與嗜酸性球性支氣管炎（NAEB）及病毒誘發性支氣管痙攣的氣道發炎，因此 CysLT1 拮抗在理論上可能減緩發炎與黏液分泌，這是本預測機轉上的合理基礎。目前直接支持的證據集中在兩類：(1) NAEB／病毒性細支氣管炎的隨機對照試驗（如 NCT00863317、NCT01121016），顯示中等程度正面訊號；(2) 異體幹細胞移植後閉塞性細支氣管炎症候群（BOS）的小型 Phase 2 試驗（FAM 複方療法），顯示 montelukast 常以合併療法角色出現。
+這些機轉與部分「支氣管炎」相關疾病相符，例如非氣喘性嗜酸性球支氣管炎、病毒感染後的氣道發炎和細支氣管炎。但證據依亞型而異：
 
-**需留意的限制**：本組候選試驗中有相當比例（如 ibrutinib、ruxolitinib、belumosudil 治療 GVHD 相關 bronchiolitis obliterans 的試驗）與 montelukast 並無直接關聯，屬疾病詞比對產生的雜訊，已由系統標記為 Grade C。此外，多數高品質證據其實針對「細支氣管炎（bronchiolitis）」而非典型成人「支氣管炎（bronchitis）」，兩者病理機轉與族群不完全相同，解讀時需注意用詞差異。
+- **非氣喘性嗜酸性球支氣管炎 (NAEB)**：有加用 montelukast 的 RCT 支持（PMID 25563311）。
+- **病毒性細支氣管炎與學齡前喘鳴**：有安慰劑對照試驗，但療效不確定。
+- **移植後細支氣管炎症候群 (BOS)**：只有單臂試驗、回溯性資料和大鼠前臨床研究。
+
+因此，TxGNN 的高分反映了機轉上的合理性，不代表臨床效益已被證實。以現有資料看，montelukast 用於支氣管炎最多只是一個「研究假說」。
 
 ---
 
 ## 臨床試驗證據
 
+以下為與支氣管炎、細支氣管炎最相關的 10 項試驗（另有多項因未涉及 montelukast 或僅為關鍵字比對而略過）。
+
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00076973](https://clinicaltrials.gov/study/NCT00076973) | Phase 3 | 已完成 | 1125 | 比較兩劑量 MK0476（montelukast）與安慰劑，治療 3-24 個月大 RSV 細支氣管炎患兒之呼吸道症狀 |
-| [NCT00863317](https://clinicaltrials.gov/study/NCT00863317) | 未分期 | 已完成 | 141 | 雙盲安慰劑對照 RCT，評估每日口服 montelukast 對嬰兒首次病毒性細支氣管炎病程的影響 |
-| [NCT03369119](https://clinicaltrials.gov/study/NCT03369119) | Phase 4 | 已完成 | 100 | 住院學齡前兒童急性氣喘發作，於標準治療外加口服 montelukast 的附加療效評估 |
-| [NCT01121016](https://clinicaltrials.gov/study/NCT01121016) | Phase 4 | 狀態未明 | 63 | 雙盲安慰劑對照，評估 montelukast 加成吸入型 budesonide 治療非氣喘性嗜酸性球性支氣管炎（NAEB） |
-| [NCT00524693](https://clinicaltrials.gov/study/NCT00524693) | 未分期 | 已完成 | 51 | 雙盲安慰劑對照 RCT，評估 montelukast 對急性 RSV 細支氣管炎臨床病程與細胞激素之影響 |
-| [NCT01370187](https://clinicaltrials.gov/study/NCT01370187) | 未分期 | 已完成 | 146 | 評估 montelukast 治療 3-12 個月嬰兒急性細支氣管炎及細支氣管炎後病毒誘發性喘鳴 |
-| [NCT00656058](https://clinicaltrials.gov/study/NCT00656058) | Phase 2 | 已完成 | 25 | 多機構前瞻性研究，評估 montelukast 治療幹細胞移植後閉塞性細支氣管炎 |
-| [NCT01307462](https://clinicaltrials.gov/study/NCT01307462) | Phase 2 | 已完成 | 36 | FAM 療法（fluticasone + azithromycin + montelukast）治療幹細胞移植後閉塞性細支氣管炎 |
-| [NCT01211509](https://clinicaltrials.gov/study/NCT01211509) | Phase 4 | 已完成 | 30 | 雙盲安慰劑對照 RCT，評估 montelukast 減緩肺移植後閉塞性細支氣管炎症候群（BOS）進展 |
-| [NCT02479074](https://clinicaltrials.gov/study/NCT02479074) | Phase 4 | 已完成 | 49 | 評估 montelukast 與 prednisolone 於慢性咳嗽鑑別診斷中，對咳嗽次數（feNO ≥30ppb 患者）之反應 |
+| [NCT00076973](https://clinicaltrials.gov/study/NCT00076973) | Phase 3 | 完成 | 1125 | 雙盲安慰劑對照，兩種劑量 MK0476（montelukast）用於 3–24 個月 RSV 細支氣管炎嬰幼兒的呼吸道症狀；供應資料中未含結果 |
+| [NCT00863317](https://clinicaltrials.gov/study/NCT00863317) | NA | 完成 | 141 | 隨機雙盲安慰劑對照，每日 montelukast 用於首次細支氣管炎嬰兒，評估急性病程長度 |
+| [NCT01370187](https://clinicaltrials.gov/study/NCT01370187) | NA | 完成 | 146 | Montelukast 用於 3–12 個月嬰兒急性細支氣管炎及細支氣管炎後病毒性喘鳴 |
+| [NCT00524693](https://clinicaltrials.gov/study/NCT00524693) | NA | 完成 | 51 | 雙盲安慰劑對照，評估 montelukast 對急性 RSV 細支氣管炎臨床進程與細胞激素的影響 |
+| [NCT04613180](https://clinicaltrials.gov/study/NCT04613180) | Phase 4 | 未知 | 100 | Montelukast 用於兒童復發性阻塞性支氣管炎的治療與預防 |
+| [NCT01121016](https://clinicaltrials.gov/study/NCT01121016) | Phase 4 | 未知 | 63 | 隨機雙盲安慰劑對照，budesonide 加用 montelukast 用於非氣喘性嗜酸性球支氣管炎的咳嗽控制 |
+| [NCT00656058](https://clinicaltrials.gov/study/NCT00656058) | Phase 2 | 完成 | 25 | Montelukast 用於幹細胞移植後閉塞性細支氣管炎（多中心單組） |
+| [NCT01307462](https://clinicaltrials.gov/study/NCT01307462) | Phase 2 | 完成 | 36 | Fluticasone + azithromycin + montelukast（FAM）用於移植後閉塞性細支氣管炎 |
+| [NCT01211509](https://clinicaltrials.gov/study/NCT01211509) | Phase 4 | 完成 | 30 | 隨機雙盲安慰劑對照，montelukast 用於肺移植後 BOS |
+| [NCT03369119](https://clinicaltrials.gov/study/NCT03369119) | Phase 4 | 完成 | 100 | 住院學齡前兒童急性氣喘，標準治療加口服 montelukast 是否有額外益處 |
 
 ---
 
@@ -82,28 +91,42 @@ Montelukast 是選擇性 CysLT1（cysteinyl leukotriene receptor 1）拮抗劑�
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [25563311](https://pubmed.ncbi.nlm.nih.gov/25563311/) | 2015 | RCT | Chinese Medical Journal | Montelukast 加成 budesonide 治療非氣喘性嗜酸性球性支氣管炎，改善氣道發炎、咳嗽與生活品質 |
-| [20976161](https://pubmed.ncbi.nlm.nih.gov/20976161/) | 2010 | RCT | PLoS One | 隨機對照試驗比較魚油與 montelukast 對運動誘發支氣管收縮及氣道發炎之影響 |
-| [24118637](https://pubmed.ncbi.nlm.nih.gov/24118637/) | 2014 | 系統性回顧 | Pediatr Allergy Immunol | 系統性回顧 montelukast 預防細支氣管炎後喘鳴之療效 |
-| [38504551](https://pubmed.ncbi.nlm.nih.gov/38504551/) | 2024 | 回顧 | Ther Adv Respir Dis | 回顧 montelukast 治療肺／幹細胞移植後閉塞性細支氣管炎症候群（BOS）之潛力與可能機轉 |
-| [38485149](https://pubmed.ncbi.nlm.nih.gov/38485149/) | 2024 | 臨床指引 | Eur Respir J | ERS/EBMT 臨床指引：成人肺部慢性移植物抗宿主病（cGVHD）治療 |
-| [27229850](https://pubmed.ncbi.nlm.nih.gov/27229850/) | 2016 | 世代研究 | Respiratory Research | Budesonide/formoterol、montelukast 與 N-acetylcysteine 治療幹細胞移植後 BOS 之療效 |
-| [26475726](https://pubmed.ncbi.nlm.nih.gov/26475726/) | 2016 | 世代研究（Phase II） | Biol Blood Marrow Transplant | Fluticasone、azithromycin、montelukast（FAM）治療幹細胞移植後新發 BOS 之單臂多中心試驗 |
-| [35114411](https://pubmed.ncbi.nlm.nih.gov/35114411/) | 2022 | Phase II 試驗 | Transplant Cell Ther | 前瞻性 Phase II 試驗評估 montelukast 治療幹細胞移植後 BOS，並探討其致病機轉 |
-| [22819521](https://pubmed.ncbi.nlm.nih.gov/22819521/) | 2012 | 先導研究 | Respiratory Medicine | Montelukast 加成療法 vs 雙倍劑量 budesonide 治療非氣喘性嗜酸性球性支氣管炎之先導研究 |
-| [16707408](https://pubmed.ncbi.nlm.nih.gov/16707408/) | 2006 | 藥動學研究 | J Clin Pharmacol | 評估 montelukast 於 3-6 個月大嬰兒之藥物動力學與安全性 |
+| [25563311](https://pubmed.ncbi.nlm.nih.gov/25563311/) | 2015 | RCT | Chinese Medical Journal | Montelukast 加 budesonide 對比 budesonide 單用，評估非氣喘性嗜酸性球支氣管炎的生活品質、氣道嗜酸性球發炎與咳嗽緩解 |
+| [24118637](https://pubmed.ncbi.nlm.nih.gov/24118637/) | 2014 | 系統性回顧 | Pediatric Allergy and Immunology | 評估 montelukast 預防細支氣管炎後喘鳴的效果 |
+| [38504551](https://pubmed.ncbi.nlm.nih.gov/38504551/) | 2024 | Review | Therapeutic Advances in Respiratory Disease | 回顧 montelukast 用於肺臟與造血幹細胞移植後 BOS 的治療潛力及可能機轉 |
+| [38485149](https://pubmed.ncbi.nlm.nih.gov/38485149/) | 2024 | 指引 | European Respiratory Journal | ERS/EBMT 成人肺部慢性移植物抗宿主病治療臨床指引 |
+| [26475726](https://pubmed.ncbi.nlm.nih.gov/26475726/) | 2016 | Phase II 單臂 | Biology of Blood and Marrow Transplantation | FAM 療法用於造血細胞移植後新發 BOS，36 位患者 |
+| [35114411](https://pubmed.ncbi.nlm.nih.gov/35114411/) | 2022 | Phase II 單臂 | Transplantation and Cellular Therapy | 前瞻性 Phase II 試驗，測試 montelukast 能否改變 HCT 後 BOS 的肺功能下降，並探討病理機轉 |
+| [27229850](https://pubmed.ncbi.nlm.nih.gov/27229850/) | 2016 | Cohort | Respiratory Research | Budesonide/formoterol、montelukast 與 N-acetylcysteine 用於 HSCT 後 BOS 的治療效果 |
+| [22819521](https://pubmed.ncbi.nlm.nih.gov/22819521/) | 2012 | 前導研究 | Respiratory Medicine | 加用 montelukast 對比加倍 budesonide 劑量，用於非氣喘性嗜酸性球支氣管炎 |
+| [25846070](https://pubmed.ncbi.nlm.nih.gov/25846070/) | 2016 | 臨床研究 | World Journal of Pediatrics | RSV 細支氣管炎合併肺炎黴漿菌感染的特徵，及加用 montelukast 的效果 |
+| [28545478](https://pubmed.ncbi.nlm.nih.gov/28545478/) | 2017 | 前臨床 | Journal of Cardiothoracic Surgery | 大鼠移植相關閉塞性細支氣管炎中，LTB4 與 montelukast 的角色 |
 
 ---
 
 ## 香港上市資訊
 
-目前 montelukast 在香港**未上市**，無許可證資料。
+共 20 張許可證，以下列出 5 張主要許可證（資料未提供劑型與核准適應症文字，從品名可見多為口嚼錠與錠劑）：
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-67558 | OXAIR CHEWABLE TABLETS 5MG | YUNG SHIN CO LTD |
+| HK-67154 | MONTELUCASTE FARMOZ TABLETS 10MG | TRENTON-BOMA LTD |
+| HK-68873 | MONTRIN CHEWABLE TABLETS 5MG | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED |
+| HK-61366 | PMS-MONTELUKAST CHEWABLE TAB 4MG | TRENTON-BOMA LTD |
+| HK-64808 | ASMAX CHEWABLE TABLETS 5MG | LSB (HK) LIMITED |
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。（本次評估未能取得 TFDA/香港仿單警語與禁忌症資料，屬 Blocking 等級資料缺口，暫無法進行 S1 安全性初評。）
+證據包中的警語與禁忌症資料缺漏，藥物交互作用查詢無結果。以下為文獻中提及的重點：
+
+- **神經精神不良事件**：美國 FDA 於 2020 年加註黑框警語，涵蓋精神健康方面的不良反應（PMID 37758273）。兒童資料見 PMID 39836401、39578088，觀察性研究結果並不一致。
+- **懷孕使用**：有系統性回顧與統合分析評估母體與胎兒結局（PMID 39129058）。
+- **兒童使用**：需特別留意用藥監測，因幼兒不易自述副作用。
+
+完整警語與禁忌症請參考原廠仿單。
 
 ---
 
@@ -112,15 +135,18 @@ Montelukast 是選擇性 CysLT1（cysteinyl leukotriene receptor 1）拮抗劑�
 **決策：Hold**
 
 **理由：**
-- 支氣管炎預測分數高（99.95%），且有明確機轉基礎與部分正向 RCT（如 NAEB、病毒性細支氣管炎試驗），但整體證據等級僅 L2，且候選試驗清單中混入大量 GVHD/幹細胞移植相關雜訊，需人工篩選確認真正相關子集。
-- 仿單警語／禁忌症資料缺失（DG001，Blocking 等級），依規範無法進入 S1 安全性初評，這是目前推進的硬性阻礙。
-- 香港尚無上市許可證，若要推進亦需先確認當地藥證與供應可行性。
+- 「支氣管炎」是多種疾病的集合，目前沒有任何單一亞型有確認的 Phase 3 療效證據。最大的 Phase 3 試驗（NCT00076973）是 RSV 細支氣管炎，資料中沒有結果可供判讀。
+- NAEB 有 RCT 支持，但樣本小、只是加用療法。病毒性細支氣管炎的試驗結果不一致，BOS 只有單臂研究。
+- 氣喘是已核准的用途，屬於對照組，不算真正的老藥新用發現。
+- 神經精神不良事件是需要納入風險評估的重點。
 
 **若要推進需要：**
-- 取得 TFDA／香港仿單警語與禁忌症資料，解除 DG001 阻塞
-- 補充 DrugBank 作用機轉（MOA）正式資料，取代目前引自 evidence pack 內部文字之描述
-- 人工複核臨床試驗清單，剔除 GVHD/BOS 相關雜訊，聚焦真正的「支氣管炎／NAEB」適應症證據
-- 釐清「bronchitis」與「bronchiolitis」在本候選中的用詞界線，避免適應症錯置
+- 選定單一目標亞型（建議先看 NAEB 或移植後 BOS），再重新界定預測適應症。
+- 取得 NCT00076973、NCT00863317 等試驗的實際結果，並更新細支氣管炎的統合分析。
+- 補齊香港衛生署仿單的警語與禁忌症，以及 DrugBank 的作用機轉。
+- 制定神經精神事件的監測計畫，並釐清兒童與孕婦族群的使用限制。
+
+*本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

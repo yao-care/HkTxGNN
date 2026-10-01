@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Goserelin
-parent: 高證據等級 (L1-L2)
-nav_order: 359
-evidence_level: L1
+parent: 僅模型預測 (L5)
+nav_order: 418
+evidence_level: L5
 indication_count: 3
 ---
 
 # Goserelin
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,96 @@ indication_count: 3
 
 </div>
 
-# Goserelin：從 乳癌輔助治療 到 閉經 (Amenorrhea)
+# Goserelin：從 GnRH 促效劑到閉經 (Amenorrhea)
 
 ## 一句話總結
 
-Goserelin 是一種 GnRH 受體促效劑，在香港尚未取得上市許可，但在國際上廣泛用於乳癌輔助治療、前列腺癌及子宮內膜異位症。TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效（即治療性閉經誘導），目前有 **7 個臨床試驗**和 **19 篇文獻**支持這個方向。
-
----
+Goserelin 是 GnRH（促性腺激素釋放素）促效劑，在香港有 4 張許可證，但資料中未載明原核准適應症。
+TxGNN 預測它可能與**閉經 (Amenorrhea)** 有關，目前有 **7 個臨床試驗**和 **20 篇文獻**。
+證據多半顯示 Goserelin 是「誘發閉經、保護卵巢功能」，而不是「治療病理性閉經」，方向與預測字面意思不同。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 乳癌輔助治療、前列腺癌、子宮內膜異位症（香港未上市，國際通用） |
 | 預測新適應症 | 閉經 (Amenorrhea) |
 | TxGNN 預測分數 | 99.99% |
-| 證據等級 | L1 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails |
-
----
+| 證據等級 | L1（3 個已完成 Phase 3 試驗，但作用方向有落差） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 4 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-Goserelin 的核心機轉為 GnRH 受體促效劑：**持續給藥 → 垂體 GnRH 受體下調 → LH/FSH 分泌受抑制 → 卵巢雌激素合成降低 → 誘發可逆性閉經**。閉經本身即為 goserelin 的直接生理效果，因此本預測具備高度機轉合理性。
+目前缺乏詳細的作用機轉資料（DrugBank MOA 欄位為空）。依一般藥理，Goserelin 持續給藥會抑制腦下垂體分泌 LH/FSH，使卵巢雌二醇下降，造成可逆的閉經（PMID 1533675）。
 
-原適應症（荷爾蒙依賴性腫瘤、子宮內膜異位症）與本預測新適應症（閉經）在機轉上屬於同一條路徑的不同應用場景。治療閉經的兩條臨床路徑均有強力支持：其一為**卵巢功能抑制（Ovarian Suppression）**，作為乳癌輔助治療的核心機制之一；其二為**化療期間卵巢保護**，透過暫時性卵巢抑制，降低化療誘發性卵巢早衰（Premature Ovarian Insufficiency）風險，藉此保護生育功能。
+因此 TxGNN 的高分較可能反映「藥物與閉經」的關聯，而不是治療關係。多數 Phase 3 試驗把 Goserelin 用於兩種情境，閉經或卵巢功能都是結果指標：
+- 化療期間預防卵巢衰竭
+- 乳癌的卵巢抑制
 
-此外，goserelin 亦被研究用於子宮腺肌症（誘導閉經以減輕症狀、保留生育能力）及因嚴重子宮出血需暫停月經的特殊臨床情境（如先天性再生不良性貧血所致的青春期月經過多）。上述適用場景均以同一 GnRH 促效劑機轉為基礎，臨床一致性高，支持此預測的合理性。
-
----
+「治療病理性閉經」缺乏機轉與臨床支持。若要推進，應改寫為「化療期間的卵巢保護」或「治療性誘發閉經」。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00427245](https://clinicaltrials.gov/study/NCT00427245) | Phase 3 | 完成 | 400 | OPTION 試驗：Goserelin 在化療期間給藥，評估是否能降低停經前乳癌患者早期停經發生率；為同類研究中樣本數最大的 Phase 3 試驗 |
-| [NCT00068601](https://clinicaltrials.gov/study/NCT00068601) | Phase 3 | 完成 | 257 | 化療 + Goserelin 對比單用化療，主要終點為卵巢衰竭（早期停經）率；研究 goserelin 是否能預防化療誘發的卵巢功能喪失 |
-| [NCT02483767](https://clinicaltrials.gov/study/NCT02483767) | Phase 3 | 完成 | 98 | 前瞻性隨機對照試驗，停經前乳癌患者化療期間加入 GnRH 促效劑 goserelin，主要終點為卵巢功能保存 |
-| [NCT01218581](https://clinicaltrials.gov/study/NCT01218581) | Phase 2/3 | 完成 | 32 | 芳香酶抑制劑 vs GnRH 促效劑用於子宮腺肌症管理，直接評估 goserelin 誘導閉經、保留生育能力之療效 |
-| [NCT02132390](https://clinicaltrials.gov/study/NCT02132390) | Phase 3 | 狀態不明 | 300 | Toremifene ± Goserelin 用於停經前荷爾蒙受體陽性乳癌（含或不含化療誘發閉經），化療誘發閉經為重要觀察終點 |
-| [NCT03475758](https://clinicaltrials.gov/study/NCT03475758) | Phase 2 | 狀態不明 | 100 | Goserelin 用於含環磷醯胺化療期間的卵巢保護，主要終點為月經結果（menstruation outcome） |
-| [NCT00488722](https://clinicaltrials.gov/study/NCT00488722) | 不適用 | 狀態不明 | 不詳 | Zoladex（goserelin）+ CEF 新輔助化療單臂研究；goserelin 可誘導可逆性閉經，臨床效果類似卵巢切除術 |
-
----
+| [NCT00427245](https://clinicaltrials.gov/study/NCT00427245) | Phase 3 | 完成 | 400 | OPTION 試驗：停經前乳癌化療期間，比較加用 Goserelin 與不加，能否預防提早停經 |
+| [NCT00068601](https://clinicaltrials.gov/study/NCT00068601) | Phase 3 | 完成 | 257 | 早期荷爾蒙受體陰性乳癌，化療期間使用 LHRH 類似物以降低卵巢衰竭 |
+| [NCT02483767](https://clinicaltrials.gov/study/NCT02483767) | Phase 3 | 完成 | 98 | 停經前乳癌化療期間，隨機比較加用 Goserelin 對卵巢功能的保護效果 |
+| [NCT01218581](https://clinicaltrials.gov/study/NCT01218581) | Phase 2/3 | 完成 | 32 | 比較芳香環轉化酶抑制劑與 GnRH 促效劑治療子宮腺肌症（與閉經僅間接相關） |
+| [NCT03475758](https://clinicaltrials.gov/study/NCT03475758) | Phase 2 | 未知 | 100 | 含 Cyclophosphamide 的化療期間使用 Goserelin 保護卵巢，觀察月經結果 |
+| [NCT02132390](https://clinicaltrials.gov/study/NCT02132390) | Phase 3 | 未知 | 300 | 停經前荷爾蒙受體陽性乳癌，Toremifene 加或不加 Goserelin（Goserelin 作為癌症治療的卵巢抑制） |
+| [NCT00488722](https://clinicaltrials.gov/study/NCT00488722) | 未分期 | 未知 | 未提供 | 單臂試驗：Zoladex 3.6mg 合併 CEF 化療作為乳癌術前輔助治療 |
 
 ## 文獻證據
 
+註：多數摘要只呈現研究目的，未列具體結果，下表僅摘要摘要中可見的內容。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [28472240](https://pubmed.ncbi.nlm.nih.gov/28472240/) | 2017 | Meta-analysis | Annals of Oncology | OPTION 試驗最終結果：GnRH 促效劑於化療期間給藥可顯著降低卵巢早衰（POI）發生率，支持 goserelin 的卵巢保護效益 |
-| [12353820](https://pubmed.ncbi.nlm.nih.gov/12353820/) | 2002 | Systematic Review | Breast Cancer Res Treat | LHRH 促效劑在早期乳癌大型臨床試驗回顧：goserelin 誘發可逆性卵巢切除，療效不亞於 CMF 化療 |
-| [17159194](https://pubmed.ncbi.nlm.nih.gov/17159194/) | 2007 | RCT | J Clin Oncol | IBCSG Trial VIII：比較化療、goserelin 或序貫治療對閉經、熱潮紅及生活品質的影響，分層分析顯示年齡差異 |
-| [14679153](https://pubmed.ncbi.nlm.nih.gov/14679153/) | 2003 | RCT | J Natl Cancer Inst | IBCSG Trial VIII：停經前淋巴結陰性乳癌患者，化療後序貫 goserelin vs 各單獨治療之隨機比較 |
-| [25187267](https://pubmed.ncbi.nlm.nih.gov/25187267/) | 2015 | RCT | Cancer Res Treat | 卵巢切除（goserelin）改善無化療誘發閉經之 Stage II/III 荷爾蒙受體陽性乳癌患者存活率 |
-| [12488406](https://pubmed.ncbi.nlm.nih.gov/12488406/) | 2002 | RCT | J Clin Oncol | ZEBRA 研究：goserelin vs CMF 用於停經前淋巴結陽性乳癌輔助治療，分析早期停經的長期影響 |
-| [8513962](https://pubmed.ncbi.nlm.nih.gov/8513962/) | 1993 | RCT | Fertility and Sterility | Goserelin vs 低劑量口服避孕藥用於子宮內膜異位症骨盆疼痛，評估停藥後症狀復發率 |
-| [12734855](https://pubmed.ncbi.nlm.nih.gov/12734855/) | 2003 | Review | Br J Surgery | 停經前早期乳癌輔助治療中卵巢切除之回顧：比較各種誘導閉經方式的適應症與侵入性 |
-| [26951320](https://pubmed.ncbi.nlm.nih.gov/26951320/) | 2016 | Cohort | J Clin Oncol | 乳癌卵巢抑制治療中雌二醇監測必要性評估：探討 goserelin 誘導閉經的充分性確認方法 |
-| [1533675](https://pubmed.ncbi.nlm.nih.gov/1533675/) | 1992 | Review | J R Army Med Corps | 閉經誘導方法回顧：goserelin 效果良好但成本較高；適合需要完全停經且不可接受突破性出血的特殊場景 |
-
----
+| [17159194](https://pubmed.ncbi.nlm.nih.gov/17159194/) | 2007 | RCT（閉經次要分析） | J Clin Oncol | IBCSG VIII：比較化療、Goserelin 及兩者序貫治療對閉經、熱潮紅與生活品質的影響 |
+| [12488406](https://pubmed.ncbi.nlm.nih.gov/12488406/) | 2002 | RCT | J Clin Oncol | ZEBRA 試驗：Goserelin 對比 CMF 用於淋巴結陽性停經前乳癌，關注過早停經等長期影響 |
+| [14679153](https://pubmed.ncbi.nlm.nih.gov/14679153/) | 2003 | RCT | J Natl Cancer Inst | 淋巴結陰性乳癌：化療後接 Goserelin，對比單一療法 |
+| [8513962](https://pubmed.ncbi.nlm.nih.gov/8513962/) | 1993 | RCT | Fertil Steril | Goserelin 對比低劑量口服避孕藥治療子宮內膜異位症骨盆痛（與閉經間接相關） |
+| [28472240](https://pubmed.ncbi.nlm.nih.gov/28472240/) | 2017 | Review/Meta-analysis | Ann Oncol | OPTION 試驗：化療期間使用 GnRH 促效劑是否降低卵巢早衰風險 |
+| [12353820](https://pubmed.ncbi.nlm.nih.gov/12353820/) | 2002 | Review | Breast Cancer Res Treat | Goserelin 誘發可逆性卵巢抑制，在荷爾蒙敏感的早期乳癌中療效至少不劣於 CMF 化療 |
+| [1533675](https://pubmed.ncbi.nlm.nih.gov/1533675/) | 1992 | Review | J R Army Med Corps | 討論以 Goserelin 誘發閉經（例如用於戰時女性人員），相較連續口服避孕藥有其優勢 |
+| [12734855](https://pubmed.ncbi.nlm.nih.gov/12734855/) | 2003 | Review | Br J Surg | 停經前及更年期前乳癌輔助治療中，各種卵巢抑制方式的比較 |
+| [25187267](https://pubmed.ncbi.nlm.nih.gov/25187267/) | 2015 | Cohort | Cancer Res Treat | 化療後未閉經的 II/III 期荷爾蒙受體陽性乳癌，以 Goserelin 卵巢抑制的價值 |
+| [26951320](https://pubmed.ncbi.nlm.nih.gov/26951320/) | 2016 | Cohort | J Clin Oncol | 乳癌卵巢抑制治療期間是否需要監測雌二醇 |
 
 ## 香港上市資訊
 
-Goserelin 目前在香港**未取得上市許可**，衛生署藥物許可證紀錄為 0 張。如需在香港使用，需透過特別途徑（如醫院管理局藥事委員會的特別申請）取得。
+資料中未提供劑型與核准適應症，下表僅列許可證號、品名與持證商。
 
----
+| 許可證號 | 品名 | 持證商 |
+|---------|------|--------|
+| HK-42691 | ZOLADEX LA DEPOT INJ 10.8MG | ASTRAZENECA HONG KONG LIMITED |
+| HK-31178 | ZOLADEX DEPOT INJ 3.6MG | ASTRAZENECA HONG KONG LIMITED |
+| HK-65753 | GOSERELIN ALVOGEN IMPLANT IN A PREFILLED SYRINGE 10.8MG | LOTUS PHARMACEUTICAL HK LIMITED |
+| HK-65754 | GOSERELIN ALVOGEN IMPLANT IN A PREFILLED SYRINGE 3.6MG | LOTUS PHARMACEUTICAL HK LIMITED |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
----
-
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-多項已完成的 Phase 3 RCT（OPTION 試驗、NCT00068601、NCT02483767、IBCSG Trial VIII 等）直接驗證了 goserelin 誘導或調控閉經的臨床效益，TxGNN 預測分數高達 99.99%，證據等級達 L1；然而香港目前尚未核准 goserelin 上市，且安全性仿單與 MOA 資料存在缺口，需補齊後方可進入正式評估流程。
+- 雖有 3 個已完成的 Phase 3 試驗，但它們證明的是「Goserelin 在化療期間保護卵巢」，並非治療病理性閉經，預測字面意思缺乏支持。
+- 香港仿單的警語與禁忌尚未取得（阻斷性資料缺口），無法進入安全性篩選。
 
 **若要推進需要：**
-- 確認香港取得 goserelin 的合規途徑（未上市藥品之特別申請流程）
-- 取得完整原廠仿單（警語、禁忌、DDI、不良反應資料）
-- 補充 DrugBank MOA 詳細資料以完整機轉關聯性分析
-- 明確臨床適應症定位：治療性閉經誘導（如子宮腺肌症）vs 化療期間卵巢保護（兩者機轉相同但監管路徑不同）
-- 建立卵巢功能恢復監測計畫（基線與治療期間 E₂、LH、FSH 定期追蹤）
+- 將研究問題改寫為「化療期間卵巢保護」或「治療性誘發閉經」，並重新評估這個新問題的證據。
+- 取得香港衛生署仿單，補齊警語、禁忌與核准適應症。
+- 補齊 DrugBank 作用機轉資料。
+- 評估卵巢保護情境的安全性，例如更年期樣症狀與生育相關考量。
+
+**其他預測：** 「腎發育不全 (Renal hypoplasia)」及其雙側型（排名 2、3）分數約 99.1%，但沒有任何臨床試驗或文獻，也找不到機轉關聯，僅屬模型預測（L5），建議 Hold。
+
+*本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -2,15 +2,15 @@
 layout: default
 title: Pimozide
 parent: 中證據等級 (L3-L4)
-nav_order: 586
-evidence_level: L3
+nav_order: 684
+evidence_level: L4
 indication_count: 5
 ---
 
 # Pimozide
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **5** 個
+證據等級: **L4** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,78 @@ indication_count: 5
 
 </div>
 
-# Pimozide：從思覺失調症／妥瑞氏症到拔毛癖 (Trichotillomania)
+# Pimozide：從妥瑞氏症到拔毛症
 
 ## 一句話總結
 
-Pimozide 是強效 D2 多巴胺受體拮抗劑抗精神病藥，臨床文獻脈絡顯示其長期用於思覺失調症、妥瑞氏症等疾患，但目前未在香港上市。TxGNN 模型預測它可能對**拔毛癖 (Trichotillomania)** 有效，目前有 **10 篇文獻**支持這個方向，尚無專門登記的臨床試驗。
-
----
+Pimozide 是一種抗精神病藥（二苯基丁基哌啶類），文獻顯示它主要用於妥瑞氏症與精神分裂症。
+TxGNN 模型預測它可能對**拔毛症 (Trichotillomania)** 有效。
+目前**沒有登記中的臨床試驗**，只有 **10 篇文獻**，且多為綜述與個案報告，證據偏弱。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無官方記錄（DrugBank、香港藥證均未載明；文獻脈絡顯示長期用於思覺失調症、妥瑞氏症） |
-| 預測新適應症 | 拔毛癖 (Trichotillomania) |
-| TxGNN 預測分數 | 99.996%（排名第 172） |
-| 證據等級 | L3 |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails |
-
----
+| 原適應症 | 香港許可證未載明適應症（文獻顯示用於妥瑞氏症、精神分裂症） |
+| 預測新適應症 | 拔毛症 (Trichotillomania) |
+| TxGNN 預測分數 | 99.996% |
+| 證據等級 | L4 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 2 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏正式的作用機轉（MOA）資料——DrugBank 查詢與香港藥證資料皆未記載。根據文獻脈絡，pimozide 屬 diphenylbutylpiperidine 類抗精神病藥，為強效 D2 多巴胺受體拮抗劑，主要臨床應用見於思覺失調症與妥瑞氏症之治療。
+目前缺乏 DrugBank 的詳細作用機轉資料。根據文獻，Pimozide 是多巴胺 D2 受體拮抗劑。
 
-Pimozide 的 D2 阻斷作用可調節與強迫／衝動控制相關的紋狀體多巴胺迴路。皮膚科與精神科文獻長期將低劑量 pimozide 作為 SSRI-refractory 拔毛癖的 augmentation（輔助）選項使用，其中一篇開放性世代研究（PMID 1532960）直接觀察到此類病人在加用低劑量 pimozide 後症狀改善。
+拔毛症與妥瑞氏症、強迫症同屬重複性行為的疾病譜系。多巴胺過度活躍，可能與這類疾病的皮質-紋狀體-視丘迴路有關。Pimozide 在妥瑞氏症中的用途已被確立，因此機轉上可能適用於拔毛症。
 
-不過，這些機轉關聯多屬臨床觀察與推論，而非針對拔毛癖設計的對照試驗直接驗證，因此證據強度仍有限。
-
----
+直接的臨床訊號只有 1992 年的一份小型、非對照報告。該報告指出低劑量 Pimozide 可增強血清素再吸收抑制劑（SRI）對拔毛症的療效。後續文獻多為綜述與個案報告。對 SRI 無效的病例，也有人改試 Risperidone。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [1532960](https://pubmed.ncbi.nlm.nih.gov/1532960/) | 1992 | Cohort（開放性 augmentation 系列） | J Clin Psychiatry | 低劑量 pimozide 加用於 SSRI 治療的拔毛癖病人，症狀有改善 |
-| [15554735](https://pubmed.ncbi.nlm.nih.gov/15554735/) | 2004 | Review | Am J Clin Dermatol | Pimozide 於皮膚科實務之全面回顧，含拔毛癖等心身性皮膚疾患用途 |
-| [36802832](https://pubmed.ncbi.nlm.nih.gov/36802832/) | 2023 | Evidence Mapping/Review | J Cutan Med Surg | 原發性心身性皮膚疾患藥物治療之 RCT 證據圖譜 |
-| [30446201](https://pubmed.ncbi.nlm.nih.gov/30446201/) | 2018 | Review | Clin Dermatol | 抗精神病藥於皮膚科應用之機轉與臨床角色回顧 |
-| [27320510](https://pubmed.ncbi.nlm.nih.gov/27320510/) | 2016 | Review | Tijdschr Psychiatr | 兒童拔毛癖治療選項回顧，指出藥物治療研究投入有限 |
-| [11475941](https://pubmed.ncbi.nlm.nih.gov/11475941/) | 2001 | Review | CNS Drugs | 心因性皮膚搔抓症之臨床特徵與治療方法回顧 |
-| [10497682](https://pubmed.ncbi.nlm.nih.gov/10497682/) | 1999 | Review | Ann Acad Med Singap | 拔毛癖此一常被低估診斷之精神疾病回顧 |
-| [28225970](https://pubmed.ncbi.nlm.nih.gov/28225970/) | 2017 | Case Report | An Bras Dermatol | 拔毛癖病例報告，與圓禿之皮膚鏡鑑別診斷 |
-| [10357517](https://pubmed.ncbi.nlm.nih.gov/10357517/) | 1999 | Case Series（不同藥物） | J Child Adolesc Psychopharmacol | SSRI 難治性拔毛癖加用 risperidone（非 pimozide）之三例報告 |
-| [10900563](https://pubmed.ncbi.nlm.nih.gov/10900563/) | 2000 | Case Series（不同疾病） | Int J Psychiatry Med | 妄想性寄生蟲病臨床特徵，非直接針對拔毛癖 |
+| [36802832](https://pubmed.ncbi.nlm.nih.gov/36802832/) | 2023 | 證據地圖／系統性回顧 | J Cutan Med Surg | 整理原發性精神皮膚疾病藥物治療的隨機對照試驗證據，指出目前缺乏臨床指引 |
+| [15554735](https://pubmed.ncbi.nlm.nih.gov/15554735/) | 2004 | Review | Am J Clin Dermatol | 全面回顧 Pimozide 在皮膚科的應用，如單症狀疑病性精神病 |
+| [30446201](https://pubmed.ncbi.nlm.nih.gov/30446201/) | 2018 | Review | Clin Dermatol | 抗精神病藥因中樞與周邊作用，可用於皮膚科 |
+| [1532960](https://pubmed.ncbi.nlm.nih.gov/1532960/) | 1992 | 病例系列（開放標籤） | J Clin Psychiatry | 低劑量 Pimozide 可增強 SRI 對拔毛症的療效，為最直接的臨床證據 |
+| [27320510](https://pubmed.ncbi.nlm.nih.gov/27320510/) | 2016 | Review | Tijdschr Psychiatr | 兒童拔毛症治療選項，藥物研究投入有限 |
+| [10497682](https://pubmed.ncbi.nlm.nih.gov/10497682/) | 1999 | Review | Ann Acad Med Singap | 拔毛症是被低估的慢性精神疾病 |
+| [28225970](https://pubmed.ncbi.nlm.nih.gov/28225970/) | 2017 | 個案報告 | An Bras Dermatol | 拔毛症與圓禿的鑑別診斷，治療標準化仍有缺口 |
+| [10357517](https://pubmed.ncbi.nlm.nih.gov/10357517/) | 1999 | 個案報告 | J Child Adolesc Psychopharmacol | 3 例 SRI 無效的拔毛症加用 Risperidone 有效（非 Pimozide） |
 
----
+## 香港上市資訊
 
-## 其他預測適應症總覽
-
-Evidence Pack 中另列出 4 個 TxGNN 預測適應症，證據強度與建議階段各異，供後續研究優先順序參考：
-
-| 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 備註 |
-|------|-----------|-----------|---------|---------|------|------|
-| 2 | 躁症 (Manic bipolar affective disorder) | 99.993% | L4 | S0 | Hold | 1970-80 年代舊研究顯示抗躁效果，但已被副作用更少的新一代抗精神病藥取代，且 pimozide 有 QT 延長風險 |
-| 3 | 失眠 (Insomnia) | 99.968% | L5 | S0 | Hold | 僅 3 篇 1970 年代思覺失調症觀察報告，未以失眠為療效指標，關聯性弱 |
-| 4 | 重度情感性疾患 (Major affective disorder) | 99.960% | L3 | S1 | Research Question | 有 1 個 Phase 2 完成試驗（NCT00374244），但受試族群為 clozapine 部分反應之思覺失調症患者，非原發情感性疾患，適應症匹配度中等 |
-| 5 | 注意力不足過動症 (ADHD) | 99.922% | L5 | S0 | Hold | 20 篇文獻多為妥瑞氏症合併 ADHD 之管理，判斷為知識圖譜鄰近節點產生的偽陽性訊號，機轉上 D2 拮抗反而可能惡化 ADHD 症狀 |
-
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-56613 | VICK-PIMOZIDE TAB 1MG | VICKMANS LABORATORIES LTD |
+| HK-56612 | VICK-PIMOZIDE TAB 4MG | VICKMANS LABORATORIES LTD |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。目前缺乏 TFDA（香港衛生署）仿單警語、禁忌症與藥物交互作用資料。
+安全性資訊請參考原廠仿單。
 
-文獻脈絡中另提及 pimozide 屬已知具 QT 間期延長風險之抗精神病藥物（見排名 2 之躁症適應症證據討論），惟此非正式標籤警語，僅供臨床參考。
-
----
+此外，本預測的機轉分析提到，Pimozide 有 QT 間期延長的風險，也有 CYP3A4／CYP2D6 交互作用的負擔。文獻另有 Paroxetine 與 Pimozide 交互作用的個案報告。拔毛症的標準治療常用 SRI，因此合併用藥的風險需特別留意。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-拔毛癖為 TxGNN 最高分預測，且有一篇直接觀察 pimozide augmentation 療效的世代研究及多篇專家綜述支持其在 SSRI-refractory 個案中的輔助角色；但缺乏對照試驗，且無專門登記中的臨床試驗，證據等級僅達 L3。同時，本評估存在一項 **Blocking 級資料缺口**（TFDA 仿單警語/禁忌未取得），依規範無法進入 S1 安全性初評，須優先補齊。
+- 證據等級僅為 L4，沒有任何臨床試驗，唯一直接證據是 1992 年的小型非對照報告。
+- 香港仿單的警語與禁忌資料尚未取得，無法進行安全性篩選。
 
 **若要推進需要：**
-- 補齊 TFDA（香港衛生署）仿單警語與禁忌症資料（Blocking 缺口，來源：官網下載仿單 PDF 解析）
-- 補齊正式作用機轉（MOA）資料（來源：DrugBank API 查詢）
-- 評估香港引進/上市可行性（目前為未上市藥物，0 張許可證）
-- 若擬推進，應設計前瞻性對照試驗驗證 pimozide augmentation 於拔毛癖之療效與 QT 安全性監測方案
+- 取得香港衛生署仿單的警語與禁忌資料，完成安全性篩選。
+- 補充 DrugBank 的作用機轉資料。
+- 評估 QT 延長與 CYP 交互作用風險，特別是合併 SRI 時。
+- 與 Risperidone 等替代藥物比較，確認 Pimozide 的定位。
+- 規劃對照試驗，或至少做更系統的文獻回顧。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

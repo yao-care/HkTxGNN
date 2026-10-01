@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Estriol
-parent: 高證據等級 (L1-L2)
-nav_order: 287
-evidence_level: L1
+parent: 中證據等級 (L3-L4)
+nav_order: 337
+evidence_level: L3
 indication_count: 1
 ---
 
 # Estriol
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **1** 個
+證據等級: **L3** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,81 @@ indication_count: 1
 
 </div>
 
-# Estriol：從更年期雌激素補充到閉經（Amenorrhea）
+# Estriol：從（原適應症未載明）到閉經
 
 ## 一句話總結
 
-Estriol（E3）是人體天然弱效雌激素，傳統上用於更年期相關症狀（如泌尿生殖道萎縮、陰道乾燥）的補充治療。
-TxGNN 模型預測它可能對**閉經（Amenorrhea）** 有效，
-目前有 **2 個已完成的 Phase 3 臨床試驗**（招募逾 2,500 名受試者）和 **13 篇文獻**（含 1 篇直接研究 Estriol 於功能性下視丘閉經的臨床介入研究）支持這個方向。
-
----
+Estriol 是一種弱效雌激素，香港已有 1 張陰道錠許可證，但資料中未載明原核准適應症。
+TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效。
+目前僅有小型機轉與內分泌研究支持，**3 個登記的臨床試驗都無直接證據**，相關文獻約 6 篇（1 篇為小型介入研究）。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 更年期雌激素補充治療（臺灣目前無核准登記） |
-| 預測新適應症 | 閉經（Amenorrhea） |
+| 預測新適應症 | 閉經 (Amenorrhea) |
 | TxGNN 預測分數 | 99.18% |
-| 證據等級 | L1 |
-| 臺灣上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails |
-
----
+| 證據等級 | L3 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 1 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉正式資料。根據文獻已知資訊，Estriol（E3）是人體天然弱效雌激素，對 ERα/ERβ 受體具部分促效活性，其生物效力約為 Estradiol（E2）的 1/10 至 1/80。Estriol 可透過**下視丘–腦垂體–卵巢軸（HPG axis）**的神經內分泌回饋機制，調節促黃體素（LH）的脈衝分泌頻率。
+目前缺乏詳細的作用機轉資料。Estriol 是弱效雌激素，適用於低雌激素狀態的機轉推論如下。
 
-在**功能性下視丘閉經（Functional Hypothalamic Amenorrhea, FHA）**中，GnRH 脈衝產生器受心理社會或代謝壓力抑制，導致 LH/FSH 低下與無排卵。低劑量 Estriol 可透過正/負回饋調節，協助恢復 LH 脈衝頻率，進而重建月經週期。在低雌激素性繼發性閉經（如早發性卵巢功能不足，POI/POF）的情境中，Estriol 亦可補充雌激素缺乏，恢復子宮內膜週期及內分泌回饋軸功能。
+功能性下視丘閉經 (FHA) 的核心特徵，是下視丘 GnRH 脈衝分泌受損，加上體內雌激素偏低。已發表研究指出，低劑量 estriol 可調節 FHA 患者的黃體生成素 (LH) 分泌（PMID 22137494），也可能扮演神經內分泌調節角色（PMID 37371858）。此外，雌激素補充也用於低雌激素性閉經，例如卵巢早衰（PMID 16526238）。因此在生物學上，這個預測是合理的。
 
-相較於 Estradiol，Estriol 效力較弱，理論上安全性輪廓更為溫和，尤其適合長期神經內分泌調節用途。2012 年 *Fertility and Sterility* 期刊發表的臨床介入研究（PMID 22137494）已直接驗證 Estriol 給藥能顯著調節 FHA 患者的 LH 分泌，為此預測提供了最直接的機轉支持。
-
----
+但要注意兩點。第一，0.99 的分數只是知識圖譜的預測，實際證據僅限於小型機轉或內分泌研究。第二，閉經病因異質性高（FHA、卵巢早衰、多囊性卵巢症候群、懷孕等），單用雌激素不可能適用於所有類型。
 
 ## 臨床試驗證據
 
+以下 3 個試驗都無法直接支持 estriol 用於閉經。
+
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT04209543](https://clinicaltrials.gov/study/NCT04209543) | Phase 3 | 完成 | 1,570 | E4Comfort Study I：雙盲安慰劑對照試驗，評估 Estetrol（E4）15/20 mg 對停經後女性中重度血管運動症狀（VMS）之療效，及 E4 20 mg 的子宮內膜安全性 |
-| [NCT04090957](https://clinicaltrials.gov/study/NCT04090957) | Phase 3 | 完成 | 1,015 | E4Comfort Study II：雙盲安慰劑對照試驗，評估 Estetrol（E4）15/20 mg 對中重度 VMS 的症狀緩解效果與整體安全性 |
-| [NCT04487392](https://clinicaltrials.gov/study/NCT04487392) | Phase 2 | 已撤回 | 0 | 光生物調控（Photobiomodulation）對停經後外陰陰道萎縮的效果評估；研究介入為物理療法而非 Estriol 直接給藥，且已撤回未執行，不具證據效力 |
-
-> ⚠️ **重要提示**：上述 Phase 3 試驗（NCT04209543、NCT04090957）的研究藥物為 **Estetrol（E4，四羥雌激素）**，與本報告評估的 **Estriol（E3，三羥雌激素）**為不同化合物。兩者同屬天然雌激素家族，但分子結構與受體結合效力有所差異。引用上述試驗作為 Estriol 之支持證據時，需注意此侷限性。
-
----
+| [NCT04090957](https://clinicaltrials.gov/study/NCT04090957) | Phase 3 | 完成 | 1015 | 評估 Estetrol (E4) 用於停經後女性中重度血管舒縮症狀；藥物疑為 estetrol 而非 estriol，且適應症不是閉經 |
+| [NCT04209543](https://clinicaltrials.gov/study/NCT04209543) | Phase 3 | 完成 | 1570 | 同為 Estetrol 用於停經後血管舒縮症狀，最多只能提供雌激素類別安全性的間接參考 |
+| [NCT04487392](https://clinicaltrials.gov/study/NCT04487392) | Phase 2 | 撤回 | 0 | 光生物調節用於停經後外陰陰道萎縮，未收案，無可用資料 |
 
 ## 文獻證據
 
+多數文獻缺少摘要，以下內容依標題與分類摘要。文獻中沒有 RCT。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [37371858](https://pubmed.ncbi.nlm.nih.gov/37371858/) | 2023 | Narrative/Systematic Review | *Biomedicines* | 低劑量雌激素作為功能性下視丘閉經（FHA）的神經內分泌調節劑，探討誘發正回饋機制的可能性與治療潛力 |
-| [22137494](https://pubmed.ncbi.nlm.nih.gov/22137494/) | 2012 | 臨床介入研究 | *Fertility and Sterility* | **核心直接證據**：Estriol 給藥可顯著調節 FHA 患者的下視丘–腦垂體功能及 LH 分泌，直接支持 E3 於閉經的臨床應用 |
-| [16526238](https://pubmed.ncbi.nlm.nih.gov/16526238/) | 2005 | 世代/觀察性研究 | *Medicinski Pregled* | 雌孕素對早發性原發性卵巢衰竭（PPOF）女性脂質與荷爾蒙指標的影響；高性腺激素性閉經患者之雌激素補充療效 |
-| [4102186](https://pubmed.ncbi.nlm.nih.gov/4102186/) | 1971 | Case Series | *Lancet* | 2 例早發性卵巢衰竭患者的內分泌學發現，早期記錄閉經合併低雌激素的臨床表現 |
-| [14194444](https://pubmed.ncbi.nlm.nih.gov/14194444/) | 1964 | 臨床試驗 | *J Obstet Gynaecol Br Commonw* | 人類促性腺激素對特發性繼發性閉經患者的臨床試驗，探討 FSH/hCG 在閉經治療中的角色 |
-| [13931724](https://pubmed.ncbi.nlm.nih.gov/13931724/) | 1963 | 基礎研究/藥理學回顧 | *J Clin Endocrinol Metab* | 抗排卵化合物的早期作用機轉研究，奠定雌激素調節 HPG 軸的藥理基礎 |
-| [7026111](https://pubmed.ncbi.nlm.nih.gov/7026111/) | 1981 | Review | *Clinical Obstetrics and Gynecology* | 荷爾蒙避孕與腫瘤風險的回顧，提供雌激素長期使用的安全性背景資料 |
-| [2949864](https://pubmed.ncbi.nlm.nih.gov/2949864/) | 1986 | 觀察性研究 | *中西醫結合雜誌* | 中醫「腎虛」概念與閉經/月經稀少患者性腺功能變化的關係，提供跨文化診療背景 |
-| [5935707](https://pubmed.ncbi.nlm.nih.gov/5935707/) | 1966 | Case Series | *Am J Obstet Gynecol* | 妊娠期給予 Medroxyprogesterone Acetate 後的長期婦科及內分泌表現，包含繼發性閉經案例 |
-| [4254759](https://pubmed.ncbi.nlm.nih.gov/4254759/) | 1971 | Case Report/Clinical Review | *Br J Psychiatry* | 神經性厭食症相關功能性閉經病例，提供 FHA 在特定臨床情境的表現 |
+| [22137494](https://pubmed.ncbi.nlm.nih.gov/22137494/) | 2012 | 小型介入研究 | Fertility and Sterility | 評估 estriol 對功能性下視丘閉經患者下視丘—腦下垂體功能與 LH 分泌的影響，是與本預測最直接相關的研究 |
+| [37371858](https://pubmed.ncbi.nlm.nih.gov/37371858/) | 2023 | 回顧／假說 | Biomedicines | 探討低劑量雌激素作為 FHA 神經內分泌調節劑，可能觸發正回饋機制 |
+| [16526238](https://pubmed.ncbi.nlm.nih.gov/16526238/) | 2005 | 臨床研究 | Medicinski Pregled | 雌激素／黃體素療法對原發性卵巢早衰（高促性腺激素性閉經）女性血脂與荷爾蒙的影響，為間接證據 |
+| [14194444](https://pubmed.ncbi.nlm.nih.gov/14194444/) | 1964 | 臨床試驗（歷史文獻） | J Obstet Gynaecol Br Commonw | 人類促性腺激素用於特發性續發性閉經，非雌激素，僅供背景參考 |
+| [4102186](https://pubmed.ncbi.nlm.nih.gov/4102186/) | 1971 | 病例報告 | Lancet | 兩例卵巢早衰患者的內分泌檢查結果，屬間接證據 |
 
----
+## 香港上市資訊
 
-## 臺灣上市資訊
-
-Estriol 目前**未在臺灣取得藥品許可證**（市場狀態：未上市，許可證數：0）。若需臨床應用，須依《藥事法》相關規定申請專案進口，或評估是否採用已在臺上市的同類雌激素製劑（如 Estradiol 製劑）替代。
-
----
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-54191 | GYNOFLOR VAGINAL TAB（廠商：DKSH Hong Kong Limited） | 陰道錠（依品名判斷） | 資料中未載明 |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
----
-
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-TxGNN 預測分數達 99.18%，2012 年有直接臨床介入研究（PMID 22137494）驗證 Estriol 對 FHA 患者 LH 分泌的調節效果，機轉合理性明確；惟 Estriol 在臺灣尚未上市、安全性資料空缺，且高等級臨床試驗為 Estetrol（E4）而非 Estriol（E3），需謹慎區分後再推進。
+證據等級為 L3，僅有小型機轉與內分泌研究，登記的 3 個臨床試驗都與 estriol 治療閉經無直接關係。香港衛生署仿單的警語與禁忌尚未取得，無法進入安全性篩選。目前只適合作為研究問題保留。
 
 **若要推進需要：**
-- 補充 MOA 詳細資料（查詢 DrugBank API，填補 DG002 資料空缺）
-- 下載並解析原廠仿單 PDF，取得警語與禁忌症（填補 DG001 阻塞性資料空缺）
-- 確認 Phase 3 試驗（E4Comfort I/II）為 Estetrol 而非 Estriol，評估是否需補充 E3 專屬 Phase 2/3 試驗作為監管支持
-- 規劃臺灣專案進口申請，或評估以 Estradiol 等已上市雌激素製劑作為橋接方案
-- 針對 FHA 及 POI/POF 患者族群，建立長期雌激素補充的安全性監測計畫（包含乳房、子宮內膜及心血管風險評估）
+- 取得香港衛生署仿單（警語、禁忌症、核准適應症），完成安全性篩選
+- 從 DrugBank 補齊作用機轉 (MOA) 資料
+- 核對 NCT04090957 和 NCT04209543 完整紀錄，確認藥物是 estetrol 還是 estriol
+- 依閉經病因分型（如 FHA、卵巢早衰）界定可能受益的族群
+- 補充 estriol 用於 FHA 或低雌激素性閉經的對照試驗或系統性回顧
+- 確認陰道給藥途徑是否適用於全身性雌激素補充的目標
+
+> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -2,7 +2,7 @@
 layout: default
 title: Biotin
 parent: 中證據等級 (L3-L4)
-nav_order: 106
+nav_order: 120
 evidence_level: L4
 indication_count: 2
 ---
@@ -29,85 +29,81 @@ indication_count: 2
 
 </div>
 
-# Biotin：從維生素 B7 補充到消化不良
+# Biotin：從營養補充到消化不良
 
 ## 一句話總結
 
-Biotin（生物素，維生素 B7）是人體羧化酶不可或缺的輔酶，主要作為營養補充劑用於 Biotin 缺乏症的補充治療。TxGNN 模型預測它可能對**消化不良 (Dyspepsia)** 有效，預測分數高達 99.43%，但實際檢索到的 **2 個臨床試驗**和 **7 篇文獻**中，大多數與 Biotin 直接用於消化不良的療效並無直接關聯。
-
----
+Biotin（生物素）是水溶性維生素，常見於複方維生素與營養注射劑中，本次資料未提供明確的原適應症。
+TxGNN 模型預測它可能對**消化不良 (Dyspepsia)** 有效，但目前僅有 **2 個registry 試驗**（皆與本適應症無直接關聯）和 **7 篇文獻**（無 biotin 專屬的療效證據），實質上仍屬模型預測階段。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無登記核准適應症（Biotin 缺乏症補充／輔酶補充） |
+| 原適應症 | 資料未提供 |
 | 預測新適應症 | 消化不良 (Dyspepsia) |
 | TxGNN 預測分數 | 99.43% |
 | 證據等級 | L4 |
-| 台灣上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 5 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Biotin 是丙酮酸羧化酶（pyruvate carboxylase）、乙醯 CoA 羧化酶（acetyl-CoA carboxylase）等多種羧化酶的必需輔酶，核心功能為支持能量代謝與脂肪酸合成。
+目前缺乏詳細的作用機轉資料。Biotin 是多種羧化酶（carboxylase）的輔因子，參與脂肪酸、胺基酸與葡萄糖的代謝。缺乏 biotin 時，可能出現皮膚與消化道相關症狀，因此在「營養缺乏相關的腸胃不適」這條路徑上，機轉上有一定合理性。
 
-機轉假說方面，Biotin 缺乏時已知可引發消化道相關症狀（如噁心、腹部不適），因此推測適量補充 Biotin 或可改善消化道黏膜細胞的代謝功能，間接緩解消化不良症狀。另有研究指出 Biotin 可能影響腸道菌叢組成，形成間接的腸道環境調節機轉。
+不過，檢索到的文獻並未顯示 biotin 可治療消化不良。唯一較相關的文獻（PMID 25384804）探討的是含多種成分的營養補充品用於功能性消化不良，無法分離出 biotin 的單獨效果。TxGNN 的高分（99.43%）僅是計算預測，不等同臨床證據。
 
-然而，上述機轉均屬假說層次，目前無任何直接實驗或臨床數據證實 Biotin 對消化不良具有因果性療效。TxGNN 的高分預測可能反映知識圖譜中 Biotin 與消化道相關節點的關聯性，而非真實療效的強力信號。
-
----
+另一個預測適應症為**胃輕癱 (Gastroparesis)**（分數 99.42%），但目前沒有任何臨床試驗或文獻支持，證據等級為 L5。
 
 ## 臨床試驗證據
 
-搜尋結果共返回 2 個試驗，但相關性評估均為 Grade C（低相關），疑似資料庫錯誤匹配：
-
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT05389813](https://clinicaltrials.gov/study/NCT05389813) | Phase 2/3 | 未知 | 150 | 比較 Oxycodone 與 Pregabalin 於術後疼痛控制的效果，研究對象與 Biotin 或消化不良完全無關 |
-| [NCT03360435](https://clinicaltrials.gov/study/NCT03360435) | N/A | 已完成 | 99 | 減重手術後患者使用經皮貼片的維生素吸收研究，可能涵蓋 Biotin，但研究目的為評估吸收率，非消化不良治療 |
-
-> ⚠️ 實質上**無有效臨床試驗**直接評估 Biotin 對消化不良的療效。
-
----
+| [NCT05389813](https://clinicaltrials.gov/study/NCT05389813) | Phase 2/3 | 未知 | 150 | Oxycodone 與 Pregabalin 用於術後預防性止痛的比較；與 biotin、消化不良皆無關，可能是誤檢索 |
+| [NCT03360435](https://clinicaltrials.gov/study/NCT03360435) | N/A | 完成 | 99 | 減重手術後經皮維生素貼片的吸收情形；可能含 biotin，但結果指標為吸收而非消化不良療效 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [25384804](https://pubmed.ncbi.nlm.nih.gov/25384804/) | 2014 | 臨床研究（補充品干預） | Minerva Gastroenterol Dietol | 功能性消化不良患者接受複合補充品治療（含海藻酸鈉、鳳梨酵素、薑等多種成分）有效，Biotin 並非主要成分 |
-| [15863846](https://pubmed.ncbi.nlm.nih.gov/15863846/) | 2005 | Case Report | The Journal of Dermatology | 1 例嬰兒因胺基酸配方長期餵食導致 Biotin 缺乏，該嬰兒原診斷有消化不良，但本文聚焦於皮膚症狀 |
-| [21695955](https://pubmed.ncbi.nlm.nih.gov/21695955/) | 2011 | Review/Experimental | Experimental & Clinical Gastroenterology | 含 Biotin 的複合益生元補充品（Stimbifid）可改善抗生素治療期間的腸道菌叢，Biotin 為多成分之一 |
-| [25110039](https://pubmed.ncbi.nlm.nih.gov/25110039/) | 2014 | Observational | Int J Molecular Medicine | IBS 患者胃竇內分泌細胞組織學研究，未涉及 Biotin |
-| [24891930](https://pubmed.ncbi.nlm.nih.gov/24891930/) | 2014 | Observational | World J Gastrointest Endoscopy | IBS 患者胃體黏膜內分泌細胞研究，未涉及 Biotin |
-| [11304845](https://pubmed.ncbi.nlm.nih.gov/11304845/) | 2001 | Observational | Journal of Clinical Pathology | H. pylori 相關胃炎中 IL-10 的免疫組化定位研究，與 Biotin 無關 |
-| [10354275](https://pubmed.ncbi.nlm.nih.gov/10354275/) | 1999 | Observational | Kidney International | IgA 腎病患者小腸黏膜 T 細胞研究，與 Biotin 或消化不良無直接關聯 |
+| [25384804](https://pubmed.ncbi.nlm.nih.gov/25384804/) | 2014 | 臨床研究（設計未確認） | Minerva Gastroenterol Dietol | 含藻酸鈉、鳳梨、木瓜、薑等的複方補充品，用於 H. pylori 治療後的功能性消化不良；非 biotin 專屬 |
+| [15863846](https://pubmed.ncbi.nlm.nih.gov/15863846/) | 2005 | Case report | J Dermatol | 5 個月大嬰兒曾被診斷為消化不良，僅以胺基酸配方奶餵養，發生 biotin 缺乏並出現皮膚病變 |
+| [25110039](https://pubmed.ncbi.nlm.nih.gov/25110039/) | 2014 | 觀察性研究 | Int J Mol Med | 腸躁症患者胃竇內分泌細胞的研究；與 biotin 無直接關聯 |
+| [24891930](https://pubmed.ncbi.nlm.nih.gov/24891930/) | 2014 | 觀察性研究 | World J Gastrointest Endosc | 腸躁症患者胃底體部黏膜內分泌細胞的研究；與 biotin 無直接關聯 |
+| [21695955](https://pubmed.ncbi.nlm.nih.gov/21695955/) | 2011 | Review | Eksp Klin Gastroenterol | 含菊糖、寡果糖及多種維生素（含 biotin）的補充品，用於支氣管肺疾病患者抗生素治療期間的腸道菌叢調節 |
+| [11304845](https://pubmed.ncbi.nlm.nih.gov/11304845/) | 2001 | 觀察性研究 | J Clin Pathol | H. pylori 相關胃炎中 IL-10 的細胞來源與作用；與 biotin 無直接關聯 |
+| [10354275](https://pubmed.ncbi.nlm.nih.gov/10354275/) | 1999 | 觀察性研究 | Kidney Int | IgA 腎病變患者的小腸 T 細胞與壓力蛋白；與 biotin 無直接關聯 |
 
-> ⚠️ 7 篇文獻中，僅 PMID 25384804 與功能性消化不良有直接相關，但該研究使用的是多成分補充品，無法單獨歸因於 Biotin 的療效。
+## 香港上市資訊
 
----
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-17391 | HUAZIN INJ | 未提供 | 未提供 |
+| HK-36207 | SOLUVIT N INJ | 未提供 | 未提供 |
+| HK-56452 | CERNEVIT FOR INJ | 未提供 | 未提供 |
+| HK-52479 | AMINOLEBAN EN POWDER | 未提供 | 未提供 |
+| HK-54177 | AMINOLEBAN ORAL POWDER | 未提供 | 未提供 |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
----
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-儘管 TxGNN 預測分數高達 99.43%，但現有臨床試驗與文獻均未能直接支持 Biotin 用於消化不良的療效；唯一相關的臨床研究使用多成分補充品，無法歸因於 Biotin 的單獨效果，整體證據停留在機轉假說層次（L4）。
+- 目前沒有任何研究直接顯示 biotin 可改善消化不良；已檢索的兩個試驗與本適應症無關，文獻多為觀察性或複方補充品研究。
+- 高 TxGNN 分數僅代表模型預測，且原適應症、作用機轉與安全性資料皆有缺口，無法進入安全性篩選。
 
 **若要推進需要：**
-- 補充 Biotin 完整的作用機轉資料（MOA），尤其是其對消化道黏膜或腸道菌叢的直接作用
-- 設計專門評估「單一 Biotin 補充 vs. 消化不良症狀」的前瞻性機轉研究或小型 Proof-of-Concept 臨床試驗
-- 取得藥物完整安全性資料（禁忌症、警語）以進行初步 S1 安全性評估
-- 確認台灣當地的上市許可途徑，評估 Biotin 以膳食補充品或藥品身份進入市場的法規可行性
+- 取得香港衛生署的仿單，補齊警語、禁忌症與核准適應症
+- 補充 DrugBank 的作用機轉資料，釐清 biotin 與消化不良的機轉連結
+- 搜尋 biotin 單一成分用於消化不良或胃輕癱的臨床研究，或設計小型探索性試驗
+- 評估 biotin 缺乏是否為消化不良的可能成因，並確認適用的給藥途徑（目前香港許可證多為注射劑與複方產品）
+
+> 本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

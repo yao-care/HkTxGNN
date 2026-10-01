@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sulfasalazine
-parent: 中證據等級 (L3-L4)
-nav_order: 712
-evidence_level: L3
+parent: 僅模型預測 (L5)
+nav_order: 825
+evidence_level: L5
 indication_count: 5
 ---
 
 # Sulfasalazine
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,101 +29,111 @@ indication_count: 5
 
 </div>
 
-# Sulfasalazine：從類風濕性關節炎到骨關節炎（Osteoarthritis）
+# Sulfasalazine：TxGNN 預測新適應症評估（首位預測：先天性短指並指症候群）
 
 ## 一句話總結
 
-Sulfasalazine（DB00795）長期用於類風濕性關節炎與發炎性腸道疾病的抗發炎治療（依本評估資料包內文獻脈絡佐證，非結構化欄位提供）。
-TxGNN 模型對本藥物產出多個高分預測，其中僅**骨關節炎 (Osteoarthritis)** 有實質證據支持，
-目前有 **2 個臨床試驗**（皆非直接測試 sulfasalazine 於 OA）與 **9+ 篇相關文獻**（以體外/動物模型為主）。
-其餘 4 個更高分的預測（如短指併指症候群等罕見遺傳疾病）經機轉評估後判定為知識圖譜偽陽性，無臨床意義。
-
----
+Sulfasalazine 在香港已有 5 張上市許可證，但資料中沒有登載原適應症。
+TxGNN 預測分數最高的新適應症是**先天性短指並指症候群 (Brachydactyly-Syndactyly Syndrome)**，目前**沒有任何臨床試驗或文獻**支持，推測是知識圖譜的拓樸假象。
+五個預測中，只有**骨關節炎 (Osteoarthritis)** 有間接的前臨床證據（1 篇動物實驗、數篇細胞實驗），沒有人體療效資料。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 類風濕性關節炎（依文獻佐證推論，資料包未提供結構化原適應症欄位） |
-| 預測新適應症 | 骨關節炎 (Osteoarthritis) |
-| TxGNN 預測分數 | 99.64%（rank 7135） |
-| 證據等級 | L3 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 |
+| 預測新適應症（排名第 1） | 先天性短指並指症候群 (Brachydactyly-Syndactyly Syndrome) |
+| TxGNN 預測分數 | 99.94% |
+| 證據等級 | L5（僅有模型預測） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 5 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank MOA 欄位為資料缺口，DG002）。根據文獻內容，Sulfasalazine 及其代謝物（5-ASA、sulfapyridine）已知可抑制 NF-κB 通路、降低 IL-1/TNF-α 等促發炎細胞激素釋放，並在多篇體外與動物模型研究中證實可下調軟骨基質金屬蛋白酶（MMP）活性、減少蛋白聚糖與膠原蛋白流失，對軟骨具保護作用（見 PMID 19690126、26466556、24329131）。
+目前缺乏詳細的作用機轉資料。Sulfasalazine 屬於抗發炎／免疫調節類藥物，但資料包內的作用機轉欄位是空的，且原適應症也沒有登載。
 
-骨關節炎雖傳統上被視為退化性疾病，但近年病理生理學已確立其低度發炎（low-grade inflammation）與軟骨基質降解的角色，這與 sulfasalazine 的抗發炎/軟骨保護機轉在理論上有合理連結。然而，現有證據幾乎全部來自體外、細胞或動物模型，**尚無任何針對人類 OA 病人族群設計的臨床試驗**直接測試 sulfasalazine 的療效，現有兩個臨床試驗實際上是評估其他藥物（CRx-102、tofacitinib+MTX）於 RA 族群，僅背景相關。
+先天性短指並指症候群是罕見的先天性肢體畸形。抗發炎藥物與這類先天畸形之間，找不到合理的生物學連結，也沒有任何試驗或文獻。0.999 的高分很可能是知識圖譜結構造成的假象，不能當作療效依據。
 
-> ⚠️ **其他 4 個高分預測為知識圖譜偽陽性**：短指併指症候群、缺損性小眼球-根性肢端發育不良症候群、OA 遺傳易感性、先天性稀毛併幼年型黃斑部退化症等，TxGNN 分數雖高達 99.6%–99.9%，但皆為罕見先天發育性/遺傳性疾病，與 sulfasalazine 已知的抗發炎機轉無生物學關聯，且完全無臨床試驗或文獻佐證，應視為節點鄰近性造成的雜訊，不建議進一步評估。
+其他四個預測的狀況：
 
----
+| 排名 | 預測疾病 | 分數 | 證據等級 | 判斷 |
+|------|---------|------|---------|------|
+| 2 | 眼缺損性小眼症－根段肢體發育不良症候群 | 99.94% | L5 | 罕見發育異常，無連結，疑為圖譜假象 |
+| 3 | 骨關節炎易感性 | 99.88% | L5 | 是基因易感性標籤，不是可治療的臨床疾病，只能透過下方「骨關節炎」間接關聯 |
+| 4 | 先天性毛髮稀少合併青少年黃斑部失養症 | 99.66% | L5 | 罕見單基因疾病，無生物學依據 |
+| 5 | 骨關節炎 | 99.64% | L4 | 有間接前臨床證據，見下節 |
+
+## 值得關注的替代方向：骨關節炎
+
+骨關節炎是五個預測中唯一有實質證據的，雖然分數排名第 5。其間接機轉線索包括：
+
+- 抑制 NF-κB 訊號。
+- 抑制胱胺酸／麩胺酸反向轉運體（system xc⁻，SLC7A11），這與鐵死亡 (ferroptosis) 有關。
+- 前臨床研究顯示，它能減少細胞激素誘發的軟骨蛋白聚醣與膠原釋放，並下調基質金屬蛋白酶。
+- 在前十字韌帶切斷合併半月板切除的動物模型中，它能減輕軟骨破壞。
+- 含 sulfasalazine 的玻尿酸製劑在大鼠骨關節炎模型中，減輕了發炎與軟骨降解。
+- 較早期的研究顯示，它能抑制前列腺素與白三烯的釋放。
+
+目前**沒有任何人體骨關節炎療效資料**。
 
 ## 臨床試驗證據
 
+首位預測（先天性短指並指症候群）：目前無相關臨床試驗登記。
+
+骨關節炎預測下的 2 筆試驗，經檢視後都不能當作直接證據：
+
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00551707](https://clinicaltrials.gov/study/NCT00551707) | Phase 2 | 完成 | 51 | 評估 CRx-102（dipyridamole+低劑量 prednisolone）於活動性 RA，**未使用 sulfasalazine**，相關性中等（Grade B） |
-| [NCT03975790](https://clinicaltrials.gov/study/NCT03975790) | N/A | 完成 | 479 | Xeljanz（tofacitinib）+MTX 停用 vs 續用之真實世界比較研究，**未使用 sulfasalazine**，相關性低（Grade C） |
-
-⚠️ 目前無直接測試 sulfasalazine 用於 OA 病人的臨床試驗登記。
-
----
+| [NCT00551707](https://clinicaltrials.gov/study/NCT00551707) | Phase 2 | 完成 | 51 | CRx-102（dipyridamole 加低劑量 prednisolone）用於類風濕性關節炎的隨機雙盲試驗；資料未顯示 sulfasalazine 是試驗藥物，不能視為直接證據 |
+| [NCT03975790](https://clinicaltrials.gov/study/NCT03975790) | N/A | 完成 | 479 | 回溯性世代研究，比較 tofacitinib 合併 methotrexate 後停用或繼續 MTX 的結果；未評估 sulfasalazine，也非針對骨關節炎，不相關 |
 
 ## 文獻證據
 
+首位預測（先天性短指並指症候群）：目前無相關文獻。
+
+骨關節炎預測下的相關文獻（依證據強度挑選，皆為前臨床或回顧性質）：
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [29548914](https://pubmed.ncbi.nlm.nih.gov/29548914/) | 2018 | Preclinical (in vitro/動物) | Int J Biol Macromol | SASP-玻尿酸複合物於 OA 大鼠模型可抑制發炎並減緩軟骨退化 |
-| [26466556](https://pubmed.ncbi.nlm.nih.gov/26466556/) | 2016 | Preclinical (動物模型) | J Orthop Res | Sulfasalazine 透過抑制 cystine/glutamate 反向轉運體，減緩 ACLT+MMx 誘發之軟骨破壞 |
-| [19690126](https://pubmed.ncbi.nlm.nih.gov/19690126/) | 2009 | Preclinical (軟骨外植體) | Rheumatology | Sulfasalazine 阻斷細胞激素刺激下的蛋白聚糖/膠原蛋白釋放，下調 MMP |
-| [24329131](https://pubmed.ncbi.nlm.nih.gov/24329131/) | 2014 | Preclinical (軟骨細胞蛋白質體) | Mod Rheumatol | Sulfasalazine 與 tofacitinib 對關節軟骨細胞蛋白質表現的影響 |
-| [12205730](https://pubmed.ncbi.nlm.nih.gov/12205730/) | 2002 | Clinical (RA 病人) | Yonsei Med J | Sulfasalazine 治療對 RA 病人尿液膠原交聯排出量（結締組織代謝標記）之影響 |
-| [1673814](https://pubmed.ncbi.nlm.nih.gov/1673814/) | 1991 | Preclinical (人類滑膜組織) | Wien Klin Wochenschr | Sulfasalazine 及其代謝物抑制 OA/RA 病人滑膜組織之 LTC4 釋放 |
-| [35958605](https://pubmed.ncbi.nlm.nih.gov/35958605/) | 2022 | Review | Front Immunol | 發炎性關節炎（含 OA）中鐵死亡機轉之回顧 |
-| [11478054](https://pubmed.ncbi.nlm.nih.gov/11478054/) | 2001 | Review | Hand Clinics | RA 與 OA 藥物治療現況回顧 |
-| [9567207](https://pubmed.ncbi.nlm.nih.gov/9567207/) | 1998 | Review | Curr Opin Rheumatol | 風濕性疾病臨床試驗更新回顧（含 OA） |
+| [29548914](https://pubmed.ncbi.nlm.nih.gov/29548914/) | 2018 | 前臨床（細胞／動物） | Int J Biol Macromol | Sulfasalazine 玻尿酸製劑可持續釋放藥物達 60 天，並減輕大鼠骨關節炎模型的發炎與軟骨降解 |
+| [26466556](https://pubmed.ncbi.nlm.nih.gov/26466556/) | 2016 | 前臨床（動物） | J Orthop Res | 抑制 system xc⁻，減輕前十字韌帶切斷合併半月板切除造成的軟骨破壞 |
+| [19690126](https://pubmed.ncbi.nlm.nih.gov/19690126/) | 2009 | 前臨床（細胞） | Rheumatology (Oxford) | 阻斷細胞激素刺激的軟骨釋放蛋白聚醣與膠原，並下調 MMP |
+| [24329131](https://pubmed.ncbi.nlm.nih.gov/24329131/) | 2014 | 前臨床（細胞） | Mod Rheumatol | Sulfasalazine 與 tofacitinib 會改變關節軟骨細胞的蛋白質表現 |
+| [1673814](https://pubmed.ncbi.nlm.nih.gov/1673814/) | 1991 | 前臨床（細胞） | Wien Klin Wochenschr | Sulfasalazine 及其代謝物影響人類滑膜組織的前列腺素與白三烯釋放 |
+| [12205730](https://pubmed.ncbi.nlm.nih.gov/12205730/) | 2002 | 臨床觀察 | Yonsei Med J | 類風濕性關節炎患者使用 sulphasalazine 與尿液膠原交聯物排泄的關係（研究對象為類風濕性關節炎，非骨關節炎） |
+| [35958605](https://pubmed.ncbi.nlm.nih.gov/35958605/) | 2022 | Review | Front Immunol | 回顧鐵死亡在發炎性關節炎（含骨關節炎）中的角色 |
 
----
+## 香港上市資訊
 
-## 其他 TxGNN 預測（低置信度，建議忽略）
+資料中的劑型與核准適應症欄位皆為空白，因此只列許可證號、品名與廠商：
 
-| 疾病 | TxGNN 分數 | 證據等級 | 評估 |
-|------|-----------|---------|------|
-| 短指併指症候群 (Brachydactyly-syndactyly syndrome) | 99.94% | L5 | 罕見骨骼發育基因缺陷，與抗發炎機轉無關，判定為偽陽性 |
-| 缺損性小眼球-根性肢端發育不良症候群 | 99.94% | L5 | 罕見先天眼部/骨骼發育畸形，與 sulfasalazine 機轉無關 |
-| 骨關節炎易感性（遺傳） | 99.88% | L5 | GWAS 本體論詞條，非可介入之臨床表現型 |
-| 先天性稀毛併幼年型黃斑部退化症 | 99.66% | L5 | 遺傳性毛髮/視網膜退化症候群，機轉無關 |
-
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-61726 | ZOPYRIN ENTERIC-COATED TABLETS 500MG | LSB (HK) LIMITED |
+| HK-53542 | SULPHASALAZINE ENTERIC COATED TAB 500MG | EUROPHARM LAB CO LTD |
+| HK-60601 | SARIDINE-E ENTERIC COATED TAB 500MG | ATLANTIC PHARMACEUTICAL LIMITED |
+| HK-43380 | PMS-SULFASALAZINE E.C. TAB 500MG | TRENTON-BOMA LTD |
+| HK-25960 | SALAZOPYRIN EN TAB 0.5G ENTERIC COATED | PFIZER CORPORATION HONG KONG LIMITED |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
-
-⚠️ 本資料包標記兩項待補資料缺口：
-- **TFDA/香港衛生署仿單警語與禁忌**（Blocking，DG001）— 缺此資料無法進入 S1 安全性初評
-- **完整作用機轉資料**（High，DG002）— 需查詢 DrugBank API 補齊
-
----
+安全性資訊請參考原廠仿單。DDI 查詢也沒有找到資料。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-骨關節炎預測具機轉合理性，且有多篇體外/動物模型研究支持 sulfasalazine 之軟骨保護與抗發炎作用，但缺乏針對 OA 病人族群的直接臨床試驗數據，現有臨床試驗皆非以 sulfasalazine 為介入藥物。其餘 4 個更高分預測經評估為知識圖譜偽陽性，無需進一步行動。
+- 排名第 1 的預測沒有任何試驗、文獻或機轉支持，高分很可能是圖譜假象，不宜投入資源。
+- 骨關節炎有間接前臨床證據，可列為「研究問題 (Research Question)」。但目前沒有人體療效資料，兩筆登記試驗也不相關。
 
 **若要推進需要：**
-- 補齊 TFDA/香港衛生署仿單警語與禁忌資料（DG001，Blocking，S1 安全性初評前置條件）
-- 透過 DrugBank API 補齊完整 MOA 資料（DG002）
-- 尋找或設計針對 OA 病人族群的前瞻性臨床試驗（目前證據僅止於體外/動物模型）
-- 確認香港上市可行性（目前 sulfasalazine 於香港未上市，需評估藥證申請路徑）
+- 取得香港衛生署的仿單，確認核准適應症、警語與禁忌症（資料缺口 DG001，目前阻擋安全性篩選）。
+- 補齊作用機轉資料（資料缺口 DG002，可查詢 DrugBank）。
+- 若要探索骨關節炎方向，需先檢索 sulfasalazine 用於骨關節炎的人體試驗。可檢查 NCT00551707 的試驗內容是否真的涉及 sulfasalazine。
+- 先天性短指並指症候群等罕見疾病預測，建議不要推進，除非另有基因或通路層面的證據。
+
+> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

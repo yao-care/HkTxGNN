@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lenvatinib
-parent: 高證據等級 (L1-L2)
-nav_order: 445
-evidence_level: L2
+parent: 中證據等級 (L3-L4)
+nav_order: 510
+evidence_level: L3
 indication_count: 10
 ---
 
 # Lenvatinib
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **10** 個
+證據等級: **L3** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,78 @@ indication_count: 10
 
 </div>
 
-# Lenvatinib：老藥新用評估 —— 脂肪肉瘤 (Liposarcoma)
+# Lenvatinib：從多激酶抑制劑既有用途到脂肪肉瘤
 
 ## 一句話總結
 
-Lenvatinib 目前尚未在香港上市，此份 Evidence Pack 也缺乏其原始核准適應症紀錄。
-TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，
-目前有 **1 個已完成臨床試驗**和 **4 篇文獻**支持這個方向。
+Lenvatinib 是一種多激酶抑制劑，已在香港上市，但本次資料未提供其原適應症。
+TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效。
+目前有 **1 個已完成的臨床試驗**和 **4 篇文獻**，其中只有 1 個單臂 Phase Ib/II 試驗直接支持，且為 lenvatinib 併用 eribulin 的組合。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料缺乏（香港未上市，無許可證紀錄） |
 | 預測新適應症 | 脂肪肉瘤 (Liposarcoma) |
 | TxGNN 預測分數 | 99.51% |
-| 證據等級 | L2 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Research Question（研究假說階段，尚非 Go/Hold 二分決策） |
+| 證據等級 | L3 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 2 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏 Lenvatinib 詳細的原始適應症與完整作用機轉資料。根據 Evidence Pack 中其他適應症條目所附的機轉描述，Lenvatinib 是一種多標靶酪胺酸激酶抑制劑（TKI），標的包括 VEGFR1-3、FGFR1-4、PDGFRα、RET 與 KIT，主要透過抑制腫瘤血管新生發揮抗腫瘤活性。
+目前缺乏詳細的作用機轉資料（DrugBank MOA 尚未取得）。以下為一般藥理背景，並非來自本次資料集：Lenvatinib 是多激酶抑制劑，作用標的包括 VEGFR1-3、FGFR1-4、PDGFRα、RET、KIT，因此在肉瘤中具有抗血管新生的合理性。
 
-脂肪肉瘤（尤其去分化型）為血管依賴性生長之軟組織惡性腫瘤，LEADER 研究（NCT03526679）已針對晚期脂肪肉瘤與平滑肌肉瘤，評估 Lenvatinib 併用 eribulin（微管抑制劑）之安全性與療效，並於 2022 年發表於 *Clinical Cancer Research*，是目前最直接的標的族群證據。
-
-機轉上，Lenvatinib 的抗血管新生活性與 eribulin 的微管抑制作用併用，於脂肪肉瘤動物與臨床模型中顯示協同抗腫瘤效果；VEGFR 抑制對肉瘤血管依賴性生長具理論基礎，支持此預測方向。
+支持這個預測的臨床訊號，來自 lenvatinib 併用 eribulin（微管抑制型化療藥）的 LEADER 研究。該研究在晚期脂肪肉瘤與平滑肌肉瘤中測試此組合。由於是併用療法，無法區分 lenvatinib 本身的貢獻。0.995 的 TxGNN 分數僅是模型預測，不能取代臨床證據。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT03526679](https://clinicaltrials.gov/study/NCT03526679) | Phase 1/2 | 已完成 | 30 | Lenvatinib 併用 eribulin 治療無法手術/轉移性脂肪肉瘤與平滑肌肉瘤之安全性與療效評估（LEADER Study） |
+| [NCT03526679](https://clinicaltrials.gov/study/NCT03526679) | Phase 1/2 | 完成 | 30 | LEADER 研究：lenvatinib + eribulin 用於無法手術或轉移性脂肪細胞肉瘤與平滑肌肉瘤，為單臂試驗，無對照組 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [36129471](https://pubmed.ncbi.nlm.nih.gov/36129471/) | 2022 | 臨床試驗（Phase 1b/2, 單臂） | Clin Cancer Res | LEADER 研究：Lenvatinib + eribulin 治療晚期脂肪肉瘤與平滑肌肉瘤之安全性與療效 |
-| [39103896](https://pubmed.ncbi.nlm.nih.gov/39103896/) | 2024 | 轉譯/臨床前研究 | Exp Hematol Oncol | CDK4 作為軟組織肉瘤預後生物標記，其抑制劑於去分化脂肪肉瘤序貫治療之協同效果 |
-| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | 臨床前研究 | Anticancer Res | Eribulin 與不同機轉抗癌藥物併用之廣譜臨床前抗腫瘤活性評估（含脂肪肉瘤） |
-| [34326745](https://pubmed.ncbi.nlm.nih.gov/34326745/) | 2021 | 病例報告 | Case Rep Oncol | 個案化（含標靶）治療使去分化脂肪肉瘤肺轉移病灶明顯縮小 |
+| [36129471](https://pubmed.ncbi.nlm.nih.gov/36129471/) | 2022 | Phase Ib/II 單臂試驗 | Clin Cancer Res | LEADER 研究發表，評估 lenvatinib + eribulin 用於晚期脂肪肉瘤與平滑肌肉瘤的安全性與療效（摘要未提供具體數據） |
+| [34326745](https://pubmed.ncbi.nlm.nih.gov/34326745/) | 2021 | Case report | Case Rep Oncol | 去分化脂肪肉瘤肺轉移個案，經標靶、手術、化療的綜合治療後腫瘤明顯縮小（摘要未載明是否使用 lenvatinib） |
+| [39103896](https://pubmed.ncbi.nlm.nih.gov/39103896/) | 2024 | 前臨床／生物標記研究 | Exp Hematol Oncol | 探討 CDK4 作為軟組織肉瘤預後標記，以及抑制 CDK4 在去分化脂肪肉瘤序列治療中的協同效果，與 lenvatinib 無直接關聯 |
+| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | 前臨床組合研究 | Anticancer Res | Eribulin 與不同機轉抗癌藥併用的廣譜前臨床抗腫瘤活性，說明併用 eribulin 的合理性 |
 
 ## 香港上市資訊
 
-Lenvatinib 目前未在香港上市，無許可證登記資料。
+| 許可證號 | 品名 | 劑型 | 廠商 |
+|---------|------|------|------|
+| HK-64507 | LENVIMA CAPSULES 10MG | 膠囊（依品名） | EISAI (HONG KONG) COMPANY LIMITED |
+| HK-64508 | LENVIMA CAPSULES 4MG | 膠囊（依品名） | EISAI (HONG KONG) COMPANY LIMITED |
 
 ## 細胞毒性
 
-Lenvatinib 屬抗腫瘤藥物（多標靶酪胺酸激酶抑制劑），列出以下資訊：
-
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 標靶藥物（TKI，非傳統細胞毒性化療藥物） |
-| 骨髓抑制風險 | 請參考原廠仿單的警語與注意事項（本 Evidence Pack 未提供毒性資料） |
-| 致吐性分級 | 請參考原廠仿單的警語與注意事項 |
-| 監測項目 | 請參考原廠仿單的警語與注意事項 |
-| 處置防護 | 請參考原廠仿單的警語與注意事項 |
+| 細胞毒性分類 | 標靶藥物（多激酶抑制劑） |
+| 其他項目 | 請參考原廠仿單的警語與注意事項 |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+安全性資訊請參考原廠仿單。目前尚未取得香港衛生署仿單的警語與禁忌資料。
 
 ## 結論與下一步
 
-**決策：Research Question（研究假說階段）**
+**決策：Hold**
 
 **理由：**
-- 現有證據為單臂、已完成之 Phase 1b/2 試驗（LEADER, n=30）加上少量臨床前/病例證據，機轉合理但缺乏隨機對照驗證，對應證據等級 L2；
-- Lenvatinib 本身於香港未上市，且仿單警語、禁忌症與 MOA 資料均缺乏（見 Evidence Pack DG001、DG002），尚不足以支持 Go 或 Proceed with Guardrails。
+脂肪肉瘤目前只有 1 個單臂 Phase Ib/II 試驗（n=30），且為 lenvatinib 併用 eribulin，無隨機對照證據，也無法分離 lenvatinib 的單獨貢獻。此外，安全性與 MOA 資料都有缺口。
 
 **若要推進需要：**
-- 補齊 TFDA/香港仿单警語與禁忌症資料（DG001，Blocking，需下載仿單 PDF 解析）
-- 補齊完整作用機轉（MOA）資料（DG002，High，查詢 DrugBank API）
-- 針對脂肪肉瘤族群之隨機對照試驗以驗證 LEADER 研究結果
-- 確認 Lenvatinib 於香港之上市與許可證狀態
+- 取得香港衛生署仿單的警語與禁忌資料（目前為阻斷性缺口）
+- 補齊 DrugBank 作用機轉資料
+- 取得 LEADER 研究的完整療效與安全性數據，並針對脂肪肉瘤亞型分析
+- 尋找 lenvatinib 單藥或隨機對照的脂肪肉瘤證據
+
+**補充：** 同一份資料中，預測排名第 7 的腎細胞癌 (renal carcinoma) 已有 Phase 3 CLEAR 試驗等 L1 證據，且 lenvatinib 已上市用於該適應症。該項較接近確認既有用途，而非新的老藥新用，可另行評估。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

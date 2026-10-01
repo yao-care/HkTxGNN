@@ -2,7 +2,7 @@
 layout: default
 title: Ceftazidime
 parent: 中證據等級 (L3-L4)
-nav_order: 150
+nav_order: 171
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,80 +29,86 @@ indication_count: 10
 
 </div>
 
-# Ceftazidime：從細菌感染症到高澱粉酶血症
+# Ceftazidime：從細菌感染到高澱粉酶血症
 
 ## 一句話總結
 
-Ceftazidime 是第三代頭孢菌素類抗生素，對革蘭氏陰性菌（含 *Pseudomonas aeruginosa*）具有廣效殺菌活性，全球廣泛用於複雜性細菌感染治療。
-TxGNN 模型預測它可能對**高澱粉酶血症 (Hyperamylasemia)** 有效，
-目前有 **0 個臨床試驗**和 **1 篇文獻**支持這個方向。
-
----
+Ceftazidime 是第三代頭孢菌素類抗生素，資料中未記載原適應症，依藥物類別推定用於細菌感染。
+TxGNN 預測它可能對**高澱粉酶血症 (Hyperamylasemia)** 有效，但目前只有 **0 個臨床試驗**和 **1 篇文獻**，且文獻僅為間接證據。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港未上市，無已核准適應症資料 |
 | 預測新適應症 | 高澱粉酶血症 (Hyperamylasemia) |
 | TxGNN 預測分數 | 99.51% |
 | 證據等級 | L4 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 8 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（MOA）。根據已知資訊，Ceftazidime 是第三代頭孢菌素（beta-lactam）抗生素，透過結合細菌青黴素結合蛋白（PBPs）來抑制細胞壁合成，對 *E. coli*、*Klebsiella* spp.、*Pseudomonas aeruginosa* 等革蘭氏陰性菌具有強效殺菌活性。其在複雜性尿路感染、院內肺炎及菌血症中的療效已被大量臨床研究證實。
+目前缺乏詳細的作用機轉資料。Ceftazidime 屬於第三代頭孢菌素，一般認為它抑制細菌細胞壁合成，對腸內菌科與綠膿桿菌有活性。
 
-**高澱粉酶血症（Hyperamylasemia）** 指血清澱粉酶濃度超過正常上限的實驗室發現，常見於急性胰腺炎、ERCP 術後或慢性腎臟病，本身為異常指標而非獨立診斷。部分研究指出膽道細菌感染可能是 ERCP 術後胰腺炎的輔助誘發因子，因此預防性抗生素理論上可能間接減少術後澱粉酶的過度升高。
+高澱粉酶血症是實驗室檢驗異常，不是可直接用抗生素治療的感染。唯一的關聯是抗生素預防可能降低 ERCP 後胰臟炎，並連帶減少澱粉酶上升，這只是預防感染帶來的間接效果。Ceftazidime 本身對澱粉酶沒有已知的直接作用。
 
-然而，澱粉酶升高的核心驅動力為機械性損傷或炎症級聯反應，而非細菌直接作用。Ceftazidime 對澱粉酶水平並無任何直接藥理機轉，連結基礎薄弱。TxGNN 的高分預測較可能反映知識圖譜中「感染→膽道炎→胰腺炎→澱粉酶升高」的間接路徑，而非真實的藥物再利用信號。
-
----
+因此這個預測的機轉支持度低，較可能是知識圖譜的關聯假象，而不是真正可轉化的新用途。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|------|------|------|---------|
-| [11985972](https://pubmed.ncbi.nlm.nih.gov/11985972/) | 2001 | RCT | Journal of Gastrointestinal Surgery | 前瞻性研究評估 ERCP 術前例行性抗生素預防對術後胰腺炎及高澱粉酶血症的影響；預防性抗生素可降低化膿性感染風險，但對澱粉酶水平的直接影響尚不確定，不足以支持 Ceftazidime 用於此適應症 |
-
----
+|------|-----|------|------|---------|
+| [11985972](https://pubmed.ncbi.nlm.nih.gov/11985972/) | 2001 | 前瞻性研究（研究設計待確認） | J Gastrointest Surg | 探討常規抗生素預防能否降低 ERCP 後胰臟炎。摘要被截斷，無法確認是否使用 ceftazidime |
 
 ## 香港上市資訊
 
-Ceftazidime 在香港目前**未取得任何上市許可**（共 0 張許可證），無已核准適應症資料。如需臨床使用，須透過特殊進口管道（Special Drugs Permit）向香港衞生署申請。
+共 8 張許可證，以下列出 5 張主要許可證。資料中的劑型與核准適應症皆為空白。
 
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-21523 | FORTUM FOR INJ 2G | SANDOZ HONG KONG LIMITED |
+| HK-21522 | FORTUM FOR INJ 500MG | SANDOZ HONG KONG LIMITED |
+| HK-21251 | FORTUM FOR INJ 1G | SANDOZ HONG KONG LIMITED |
+| HK-57297 | CEFTAZIDIME FOR INJ 1G (REYOUNG) | JINDUN PHARMA (H.K.) LIMITED |
+| HK-61251 | CEFTAZIDIME POWDER FOR SOLUTION FOR INJECTION 2G | CEUTICAL TRADING COMPANY LIMITED |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
----
+## 其他預測適應症（證據較強者）
+
+排名第一的高澱粉酶血症證據薄弱。同一批預測中，以下兩項較值得優先評估：
+
+| 預測適應症 | TxGNN 分數 | 證據等級 | 建議 | 重點 |
+|-----------|-----------|---------|------|------|
+| 泌尿道感染 (UTI) | 99.41% | L2 | Proceed with Guardrails | 有數個 Phase 2 試驗，如 [NCT00690378](https://clinicaltrials.gov/study/NCT00690378)（NXL104/ceftazidime 用於複雜性 UTI）、[NCT02497781](https://clinicaltrials.gov/study/NCT02497781)（兒童複雜性 UTI）。多數為 ceftazidime-avibactam 複方，不能直接外推到單方 |
+| 感染性中耳炎 | 99.19% | L3 | Research Question | 1992–2000 年數個小型研究，涵蓋綠膿桿菌所致慢性化膿性中耳炎的兒童，如 [PMID 10826908](https://pubmed.ncbi.nlm.nih.gov/10826908/)（ceftazidime 對 aztreonam，各 15 名兒童）。證據老舊且規模小 |
+
+UTI 很可能是已核准的既有用途，而不是真正的老藥新用，需對照許可證確認。
+
+其餘預測適應症（多囊性高黏滯症候群、先天性無白蛋白血症、Ureaplasma 尿道炎、血型不合等）機轉不合理或缺乏證據，皆為 Hold。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-Hyperamylasemia 為實驗室指標而非獨立疾病診斷，Ceftazidime 對澱粉酶水平缺乏直接藥理機轉。目前無任何直接相關臨床試驗，唯一文獻亦僅間接涉及 ERCP 術後抗生素預防，無法支撐此再利用方向。此外，Ceftazidime 在香港尚無上市許可，進一步增加臨床推進的障礙。
+- 高澱粉酶血症是檢驗異常，機轉上只有間接關聯，沒有臨床試驗，僅有 1 篇未確認使用 ceftazidime 的文獻。
+- 香港衛生署仿單的警語與禁忌資料缺漏，屬阻擋性缺口，無法進入安全性篩選。
 
-> **附注：** TxGNN 模型對本藥物的其他預測中，**尿路感染（Rank 4）** 具備 L1 等級臨床證據及「Proceed with Guardrails」建議，遠優於本報告焦點的 Hyperamylasemia。建議優先評估 UTI 方向的報告。
+**若要推進需要：**
+- 取得香港衛生署仿單，補齊警語、禁忌與核准適應症（許可證的適應症欄位目前為空）
+- 補充作用機轉資料（DrugBank）
+- 確認 PMID 11985972 的全文，看是否使用 ceftazidime 及是否以澱粉酶為終點
+- 建議把評估重心轉向 UTI 與慢性化膿性中耳炎，並先確認其是否已是核准適應症
 
-**若要推進 Hyperamylasemia 方向需要：**
-- 補充 Ceftazidime 完整作用機轉（MOA）資料（來源：DrugBank API）
-- 取得香港衞生署上市核准或特殊進口許可
-- 針對「抗生素預防 ERCP 術後胰腺炎」且以澱粉酶為主要終點的前瞻性試驗
-- 至少一個機轉層面的細菌感染-澱粉酶連結研究
+> 本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

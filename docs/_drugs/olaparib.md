@@ -2,7 +2,7 @@
 layout: default
 title: Olaparib
 parent: 高證據等級 (L1-L2)
-nav_order: 541
+nav_order: 628
 evidence_level: L1
 indication_count: 1
 ---
@@ -29,113 +29,110 @@ indication_count: 1
 
 </div>
 
-# Olaparib：邁向乳癌（Female Breast Carcinoma）新適應症評估
+# Olaparib：從卵巢癌到女性乳癌
 
 ## 一句話總結
 
-Olaparib（DrugBank ID: DB09074）是 PARP1/2 抑制劑，目前在香港/台灣**尚未上市**，核准適應症資料闕如。
-TxGNN 模型預測它對**乳癌 (Female Breast Carcinoma)** 有效，
-目前有 **超過 70 個臨床試驗**（含多個 Phase 3 RCT）和 **20 篇文獻**支持這個方向，證據等級達 L1。
-
----
+Olaparib 是口服 PARP 抑制劑，最早用於 BRCA 突變的卵巢癌維持治療。
+TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效。
+目前有 **40 多個相關臨床試驗登記**和 **19 篇文獻**支持這個方向，其中包含多篇 Phase 3 隨機對照試驗（OlympiA、OlympiAD）的發表。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無公開核准適應症資料（香港/台灣未上市，licenses 為空） |
-| 預測新適應症 | 乳癌 (Female Breast Carcinoma) |
+| 原適應症 | 卵巢癌（BRCA 突變、鉑類敏感復發，依臨床試驗描述；香港許可證未載明適應症文字） |
+| 預測新適應症 | 女性乳癌 (Female Breast Carcinoma) |
 | TxGNN 預測分數 | 99.09% |
 | 證據等級 | L1 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 2 張 |
 | 建議決策 | Proceed with Guardrails |
-
----
 
 ## 為什麼這個預測合理？
 
-目前 DrugBank 結構化的 `original_moa` 欄位缺乏資料（DG002），但從證據包中的預測理由可還原其作用機轉：Olaparib 為 **PARP1/2 抑制劑**，阻斷單股 DNA 損傷的鹼基切除修復（BER）路徑。
+目前缺乏詳細的作用機轉資料庫記錄。以下說明來自一般藥理知識與已發表文獻，並非本次資料包內建的欄位。
 
-在帶有 **BRCA1/2 生殖系突變**（同源重組修復缺陷, HRD）的腫瘤細胞中，PARP 抑制會導致雙股 DNA 損傷無法修復，產生「合成致死」效應而選擇性殺死腫瘤細胞。這個機轉並非單純的模型推測——它已是 Lynparza（olaparib）在多個國際市場中，用於 HER2 陰性、germline BRCA 突變乳癌核准適應症的核心藥理依據，並經 OlympiAD、OlympiA 等多項大型 Phase 3 RCT 驗證。
+Olaparib 抑制 PARP1/2。BRCA1/2 或其他同源重組修復（HR）缺陷的細胞無法修復單股 DNA 斷裂，這些斷裂會變成雙股斷裂，最終導致「合成致死」。
 
-換言之，此預測的機轉關聯性極高：BRCA1/2 突變導致的 DNA 修復缺陷同時存在於卵巢癌與乳癌等腫瘤中，PARP 抑制劑的合成致死效應具有跨癌別的適用邏輯，這也是本項預測在證據等級被評為 L1（≥2 個已完成 Phase 3 RCT）的原因。
+帶有 BRCA1/2 突變的乳癌本身就是 HR 缺陷的腫瘤，與卵巢癌共享同一個脆弱點。這也是模型給出高分（99.09%）的原因。
 
----
+預期的獲益主要在有生物標記的族群，例如種系 BRCA1/2 突變、HER2 陰性的乳癌。對未經篩選的乳癌，證據較弱。
 
 ## 臨床試驗證據
 
+以下列出與乳癌最相關的 10 個試驗。資料包中的 Phase 3 試驗（NCT02282020、NCT06580314、NCT03402841）都是卵巢癌研究，不列為乳癌證據。
+
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT06580314](https://clinicaltrials.gov/study/NCT06580314) | Phase 3 | 招募中 | 880 | 比較 Olaparib 維持治療 1 年 vs 2 年（合併/不合併 Bevacizumab），探討 BRCA1/2 突變或 HRD 陽性腫瘤治療期程最適化 |
-| [NCT02282020](https://clinicaltrials.gov/study/NCT02282020) | Phase 3 | 已完成 | 266 | Olaparib 單藥 vs 醫師選擇化療，用於 germline BRCA 突變之鉑敏感復發卵巢癌／乳癌族群（OlympiAD 試驗設計） |
-| [NCT01445418](https://clinicaltrials.gov/study/NCT01445418) | Phase 1 | 已完成 | 103 | Olaparib 併用 Carboplatin 治療乳癌與卵巢癌（BRCA1/2 突變攜帶者及三陰性乳癌），評估最佳劑量與安全性 |
-| [NCT05932862](https://clinicaltrials.gov/study/NCT05932862) | Phase 1 | 招募中 | 429 | XL309（ISM3091）單獨或併用 Olaparib 治療晚期實體瘤，評估安全性、藥動學與初步療效 |
-| [NCT01237067](https://clinicaltrials.gov/study/NCT01237067) | Phase 1 | 已完成 | 77 | Olaparib 併用 Carboplatin 用於難治性/復發性婦科癌症（含乳癌），PK/PD 探索性研究 |
-| [NCT02264678](https://clinicaltrials.gov/study/NCT02264678) | Phase 1/2 | 進行中未招募 | 357 | Ceralasertib 併用細胞毒性化療及/或 DNA 損傷修復抑制劑（含 Olaparib 相關機轉）之模組化安全性研究 |
-| [NCT04553926](https://clinicaltrials.gov/study/NCT04553926) | N/A | 已完成 | 661 | Lynparza（Olaparib）錠劑韓國上市後監測研究，真實世界安全性與有效性資料 |
-| [NCT02684318](https://clinicaltrials.gov/study/NCT02684318) | Phase 1b/2 | 狀態未知 | 100 | PM01183 併用 Olaparib 治療晚期實體瘤之探索性研究 |
-| [NCT06065059](https://clinicaltrials.gov/study/NCT06065059) | Phase 1/2 | 已終止 | 7 | TNG348（USP1 抑制劑）單獨或併用 Olaparib 治療 BRCA1/2 突變或 HRD 陽性實體瘤，因故提前終止 |
-| [NCT03162627](https://clinicaltrials.gov/study/NCT03162627) | Phase 1 | 進行中未招募 | 90 | Selumetinib 併用 Olaparib 治療 Ras 路徑異常之子宮內膜癌、卵巢癌等多癌別籃式試驗 |
-
----
+| [NCT00679783](https://clinicaltrials.gov/study/NCT00679783) | Phase 2 | 完成 | 99 | AZD2281（olaparib）用於 BRCA 突變或三陰性乳癌與卵巢癌，評估反應率與相關標記 |
+| [NCT05498155](https://clinicaltrials.gov/study/NCT05498155) | Phase 2 | 進行中（不再招募） | 50 | Olaparib 單用或合併 durvalumab，作為 BRCA 突變、HER2 陰性早期乳癌的術前治療 |
+| [NCT06201234](https://clinicaltrials.gov/study/NCT06201234) | Phase 2 | 招募中 | 176 | Olaparib 加或不加 elacestrant，用於 gBRCA1/2 突變、HR 陽性 HER2 陰性的晚期乳癌 |
+| [NCT02624973](https://clinicaltrials.gov/study/NCT02624973) | Phase 2 | 進行中（不再招募） | 200 | PETREMAC：高風險乳癌的個人化術前治療 |
+| [NCT01445418](https://clinicaltrials.gov/study/NCT01445418) | Phase 1 | 完成 | 103 | Olaparib 合併 carboplatin，用於 BRCA 突變帶原者及三陰性乳癌，含擴展世代 |
+| [NCT02418624](https://clinicaltrials.gov/study/NCT02418624) | Phase 1 | 完成 | 25 | Carboplatin 加 olaparib，再接 olaparib 單用，用於 BRCA 突變 HER2 陰性晚期乳癌；先確認合併劑量 |
+| [NCT01116648](https://clinicaltrials.gov/study/NCT01116648) | Phase 1/2 | 進行中（不再招募） | 155 | Cediranib 加 olaparib，用於復發三陰性乳癌或卵巢癌 |
+| [NCT02208375](https://clinicaltrials.gov/study/NCT02208375) | Phase 1 | 進行中（不再招募） | 159 | Olaparib 合併 vistusertib 或 capivasertib，用於復發三陰性乳癌等 |
+| [NCT05358639](https://clinicaltrials.gov/study/NCT05358639) | Phase 1 | 進行中（不再招募） | 36 | Olaparib 合併 navitoclax，用於 BRCA1/2 或 PALB2 突變的三陰性乳癌 |
+| [NCT04330040](https://clinicaltrials.gov/study/NCT04330040) | Phase 4 | 完成 | 202 | 印度族群，含 gBRCA1/2 突變轉移性乳癌與鉑類敏感復發卵巢癌 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [36228963](https://pubmed.ncbi.nlm.nih.gov/36228963/) | 2022 | RCT | Ann Oncol | OlympiA 試驗總存活期分析：輔助 Olaparib 用於 germline BRCA1/2 突變高風險早期乳癌 |
-| [34081848](https://pubmed.ncbi.nlm.nih.gov/34081848/) | 2021 | RCT | NEJM | 輔助 Olaparib 用於 BRCA1/2 突變乳癌之關鍵性研究 |
-| [28578601](https://pubmed.ncbi.nlm.nih.gov/28578601/) | 2017 | RCT | NEJM | OlympiAD 試驗：Olaparib 用於 germline BRCA 突變轉移性乳癌 |
-| [30689707](https://pubmed.ncbi.nlm.nih.gov/30689707/) | 2019 | RCT | Ann Oncol | OlympiAD 最終總存活期與耐受性結果 |
-| [36893711](https://pubmed.ncbi.nlm.nih.gov/36893711/) | 2023 | RCT | Eur J Cancer | OlympiAD 延伸追蹤：總存活期與安全性更新 |
-| [38588696](https://pubmed.ncbi.nlm.nih.gov/38588696/) | 2024 | RCT | Nature | PARTNER 試驗：新輔助 Olaparib 併用化療用於三陰性乳癌 |
-| [33119476](https://pubmed.ncbi.nlm.nih.gov/33119476/) | 2020 | Phase 2 單臂 | J Clin Oncol | TBCRC 048：Olaparib 用於帶有同源重組相關基因突變之轉移性乳癌 |
-| [34143979](https://pubmed.ncbi.nlm.nih.gov/34143979/) | 2021 | Phase 1/2 併用試驗 | Cancer Cell | I-SPY2 試驗：Durvalumab 併用 Olaparib 及 Paclitaxel 用於高風險 HER2 陰性乳癌 |
-| [33710534](https://pubmed.ncbi.nlm.nih.gov/33710534/) | 2021 | Review | Target Oncol | PARP 抑制劑用於乳癌治療之綜述 |
-| [31650727](https://pubmed.ncbi.nlm.nih.gov/31650727/) | 2020 | Review | Ann Lab Med | BRCA1/2 致病變異型乳癌之治療與預防策略綜述 |
-
----
+| [34081848](https://pubmed.ncbi.nlm.nih.gov/34081848/) | 2021 | RCT（OlympiA） | N Engl J Med | 評估 olaparib 作為 BRCA1/2 種系突變早期乳癌的輔助治療 |
+| [36228963](https://pubmed.ncbi.nlm.nih.gov/36228963/) | 2022 | RCT（OlympiA） | Ann Oncol | 高風險 HER2 陰性早期乳癌，olaparib 對比安慰劑 1 年；報告整體存活期，首次期中分析已顯示無侵襲性疾病存活期顯著改善 |
+| [28578601](https://pubmed.ncbi.nlm.nih.gov/28578601/) | 2017 | RCT（OlympiAD） | N Engl J Med | 評估 olaparib 用於 gBRCA 突變轉移性乳癌 |
+| [30689707](https://pubmed.ncbi.nlm.nih.gov/30689707/) | 2019 | RCT（OlympiAD） | Ann Oncol | Olaparib 較醫師選擇的化療延長無惡化存活期；最終整體存活期中位數 19.3 對 17.1 個月（P = 0.513，無顯著差異） |
+| [36893711](https://pubmed.ncbi.nlm.nih.gov/36893711/) | 2023 | RCT（OlympiAD 延長追蹤） | Eur J Cancer | 延長追蹤 25.7 個月，更新整體存活期與安全性 |
+| [38588696](https://pubmed.ncbi.nlm.nih.gov/38588696/) | 2024 | Phase 2-3 RCT（PARTNER） | Nature | 559 位種系 BRCA 野生型三陰性乳癌，術前 carboplatin-paclitaxel 加或不加 olaparib |
+| [34143979](https://pubmed.ncbi.nlm.nih.gov/34143979/) | 2021 | Phase 2 隨機試驗（I-SPY2） | Cancer Cell | Durvalumab、olaparib 加 paclitaxel 提高 HER2 陰性乳癌的病理完全緩解率（20%-37%） |
+| [33119476](https://pubmed.ncbi.nlm.nih.gov/33119476/) | 2020 | Phase 2 試驗（TBCRC 048） | J Clin Oncol | Olaparib 用於體細胞 BRCA1/2 突變或其他 HR 相關基因突變的轉移性乳癌 |
+| [33710534](https://pubmed.ncbi.nlm.nih.gov/33710534/) | 2021 | Review | Targeted Oncology | PARP 抑制劑用於乳癌的整理；olaparib 與 talazoparib 已核准用於種系 BRCA 突變、HER2 陰性乳癌 |
+| [31218365](https://pubmed.ncbi.nlm.nih.gov/31218365/) | 2019 | Review | Ann Oncol | PARP 抑制劑十年臨床發展回顧，說明 PARP 抑制與 BRCA 缺陷之間的合成致死關係 |
 
 ## 香港上市資訊
 
-Olaparib 目前在香港（及台灣）**未上市**，`taiwan_regulatory.licenses` 無任何登記資料，故無許可證資訊可列。
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-65987 | LYNPARZA TABLETS 150MG | ASTRAZENECA HONG KONG LIMITED |
+| HK-65988 | LYNPARZA TABLETS 100MG | ASTRAZENECA HONG KONG LIMITED |
 
----
+本次資料未取得這兩張許可證的核准適應症文字，是否已含乳癌需另行確認。
 
 ## 細胞毒性
 
-Olaparib 屬於**標靶抗腫瘤藥物**（PARP 抑制劑），非傳統細胞毒性化療藥物，但仍具血液學毒性風險，故列出本章節：
-
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 標靶藥物（PARP1/2 抑制劑，非傳統細胞毒性化療藥） |
-| 骨髓抑制風險 | 中度（PARP 抑制劑類效應，臨床上常見貧血、嗜中性白血球減少、血小板減少） |
-| 致吐性分級 | 低至中度 |
-| 監測項目 | 全血球計數（CBC，含分類）、腎功能、肝功能 |
-| 處置防護 | 請參考原廠仿單的警語與注意事項（DG001 標記為 Blocking，尚無法完成 S1 安全性初評） |
+| 細胞毒性分類 | 標靶藥物（PARP 抑制劑） |
+| 骨髓抑制風險 | 中（PARP 抑制劑類別常見貧血、嗜中性白血球減少、血小板減少；此為類別知識，非本次資料包內容） |
+| 致吐性分級 | 低至中 |
+| 監測項目 | CBC（含分類）、肝腎功能 |
+| 處置防護 | 口服抗腫瘤藥，建議依機構的危害性藥品處置規範操作 |
 
----
+實際警語與注意事項請參考原廠仿單。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。（`key_warnings`、`contraindications`、DDI 查詢均無可用資料，且 TFDA 仿單警語/禁忌為 Blocking 等級的資料缺口，尚未完成安全性初評）
-
----
+安全性資訊請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 機轉關聯性極強且已有 5 個以上 Phase 3 RCT（OlympiA、OlympiAD 系列）直接支持 Olaparib 用於 BRCA1/2 突變乳癌，證據等級達 L1。
-- 但香港/台灣尚未上市、無許可證資料，且仿單警語/禁忌屬於 Blocking 等級的資料缺口（DG001），安全性初評（S1）無法完成，須以防護措施推進。
+- OlympiA 與 OlympiAD 這兩個 Phase 3 隨機對照試驗已發表，且 TxGNN 分數很高（99.09%），機轉（BRCA 缺陷的合成致死）也吻合，因此證據等級為 L1。
+- 獲益集中在 BRCA1/2 突變、HER2 陰性等有生物標記的族群，對未篩選的乳癌證據較弱，所以須設下使用條件。
+- 香港許可證的核准適應症文字與安全性資料都尚未取得，無法直接視為可放行。
 
 **若要推進需要：**
-- 補齊 TFDA／當地藥監局仿單警語與禁忌資料（DG001，Blocking）
-- 補齊結構化作用機轉資料（DG002，High），與 DrugBank API 對接確認 MOA 與藥物分類
-- 確認是否有意向廠商申請香港/台灣上市及乳癌適應症登記
-- 補充藥物交互作用（DDI）與骨髓抑制毒性之正式監測計畫
+- 取得香港衛生署的仿單（警語、禁忌症），並確認 HK-65987 和 HK-65988 是否已核准乳癌適應症。
+- 補齊 DrugBank 的作用機轉記錄。
+- 限定 BRCA1/2 突變檢測陽性、HER2 陰性的病人，並訂定檢測流程。
+- 建立血液學監測計畫（CBC、肝腎功能）。
+- 追蹤進行中的乳癌試驗（如 NCT05498155、NCT06201234）與 PARTNER 的完整結果。
+
+本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證後才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

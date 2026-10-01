@@ -2,7 +2,7 @@
 layout: default
 title: Ibuprofen
 parent: 僅模型預測 (L5)
-nav_order: 383
+nav_order: 444
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,86 +29,81 @@ indication_count: 5
 
 </div>
 
-# Ibuprofen：從資料缺口的原適應症到肢端骨骼發育不全症（Acromesomelic Dysplasia, Hunter-Thompson Type）
+# Ibuprofen：從解熱鎮痛消炎到肢中骨發育不良（Hunter-Thompson 型）
 
 ## 一句話總結
 
-Ibuprofen（DrugBank ID: DB01050）目前**原始適應症清單與正式 MOA 資料皆為缺口**，僅能從證據包內的機轉描述得知其為 COX-1/COX-2 抑制劑（NSAID 類）。TxGNN 模型針對此藥給出 5 項罕見骨骼/肌肉相關疾病預測，最高分為**肢端骨骼發育不全症 Hunter-Thompson 型**（預測分數 99.74%），但**目前無任何臨床試驗或文獻佐證**，且證據包內附帶的機轉評估多數直接指出生物學關聯薄弱，甚至可能是知識圖譜的結構性偽陽性。
-
----
+Ibuprofen（布洛芬）是常見的非類固醇消炎止痛藥（NSAID），在香港已有多張許可證。
+TxGNN 模型預測它可能對**肢中骨發育不良，Hunter-Thompson 型 (Acromesomelic dysplasia, Hunter-Thompson type)** 有效，預測分數很高。
+但目前**沒有任何臨床試驗或文獻**支持，屬於純模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料缺口（原始適應症清單未提供；依機轉描述為 NSAID 類鎮痛/抗發炎用藥） |
-| 預測新適應症 | 肢端骨骼發育不全症 Hunter-Thompson 型 (Acromesomelic Dysplasia, Hunter-Thompson Type)，另有 4 項罕見骨骼/肌肉疾病候選（詳下） |
-| TxGNN 預測分數 | 99.74%（rank 1，其餘 4 項介於 99.66%–99.71%） |
-| 證據等級 | L5（5 項預測皆無臨床試驗或文獻，僅為模型推論） |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 張 |
+| 預測新適應症 | 肢中骨發育不良，Hunter-Thompson 型 (Acromesomelic dysplasia, Hunter-Thompson type) |
+| TxGNN 預測分數 | 99.74% |
+| 證據等級 | L5 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏正式的作用機轉資料（`original_moa` 為資料缺口，屬 DG002 高嚴重度缺口）。但證據包內各候選適應症的機轉推理欄位皆提及：Ibuprofen 為 **COX-1/COX-2 抑制劑**，其藥理作用為抗發炎與鎮痛。
+目前缺乏詳細的作用機轉資料。Ibuprofen 一般已知是非選擇性 COX-1/COX-2 抑制劑，透過抑制前列腺素合成來達到消炎與止痛效果。
 
-以下是 5 項預測適應症的機轉評估摘要，**多數評估結果傾向不支持該預測**：
+Hunter-Thompson 型肢中骨發育不良是罕見的遺傳性骨骼發育異常，主要影響肢體生長與形態。前列腺素抑制與這類疾病的致病機轉之間，**沒有已知的關聯**。頂多只能推測 NSAID 對伴隨的疼痛有症狀緩解作用，這並不是改變疾病本身的治療。
 
-| 排名 | 預測適應症 | 分數 | 機轉合理性評估 |
-|------|-----------|------|----------------|
-| 1 | Acromesomelic dysplasia, Hunter-Thompson type | 99.74% | 為 GDF5 基因功能喪失導致的骨骼結構性缺陷，與 COX 抑制機轉無已知關聯；評估認為此高分**可能是知識圖譜結構偽陽性**，非真實機轉關聯 |
-| 2 | Brachyolmia-amelogenesis imperfecta syndrome | 99.71% | 脊椎短小合併牙釉質形成不全的遺傳症候群，**無文獻支持** NSAID 對此有治療作用 |
-| 3 | Myosclerosis | 99.68% | 進行性肌肉纖維化疾病，理論上抗發炎作用「或許」可延緩伴隨發炎的纖維化，但屬**極弱的間接推測**，無直接證據 |
-| 4 | Brachyolmia | 99.67% | 軟骨內成骨調控異常（PAPSS2、TRPV4 相關），與 COX 抑制機轉**無已知交集** |
-| 5 | Brachydactyly-syndactyly syndrome | 99.66% | 胚胎發育期基因調控異常導致的肢體結構缺陷，**非發炎或疼痛相關病理**，與藥理作用無合理連結 |
+這個高分預測較可能來自知識圖譜中的鄰近節點特徵（例如相近的骨骼或疼痛相關疾病），而不是已被證實的生物學依據。
 
-整體而言，這組預測分數雖高，但機轉層面的支持度普遍偏弱，僅 myosclerosis 存在理論上（非實證）的間接可能性。原適應症資料本身的缺口也使得「原適應症與新適應症關聯性」難以完整評估。
+其他排名前 5 的預測也有相同問題，都是罕見遺傳或先天畸形疾病，都沒有機轉或臨床證據：
 
----
+| 排名 | 預測疾病 | TxGNN 分數 |
+|------|---------|-----------|
+| 2 | 短軀幹發育不良合併釉質發育不全症候群 (Brachyolmia-amelogenesis imperfecta syndrome) | 99.71% |
+| 3 | 肌硬化症 (Myosclerosis) | 99.68% |
+| 4 | 短軀幹發育不良 (Brachyolmia) | 99.67% |
+| 5 | 短指併指症候群 (Brachydactyly-syndactyly syndrome) | 99.66% |
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記（5 項預測適應症皆查無 ClinicalTrials.gov 或 ICTRP 資料）。
-
----
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
-目前無相關文獻（5 項預測適應症皆查無 PubMed 資料）。
-
----
+目前無相關文獻。
 
 ## 香港上市資訊
 
-Ibuprofen 目前**未在香港取得藥品許可證**（許可證數：0），無可列出之許可證資料。
+香港共有 20 張含 Ibuprofen 的許可證，以下列出 5 張：
 
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-55058 | INFACALM IBUPROFEN INFANT DROPS 40MG/ML | TIANDA PHARMACEUTICALS LIMITED |
+| HK-43233 | BUPOGESIC 200 TAB 200MG | VICKMANS LABORATORIES LTD |
+| HK-67025 | WILLIPO IBUPROFEN TABLETS 200MG | WELLDONE PHARMACEUTICALS LIMITED |
+| HK-51501 | NUROFEN GEL 5%W/W | RECKITT BENCKISER HONG KONG LTD |
+| HK-51805 | AMBUFEN 400 TAB 400MG | NATURAL HEALTH RESOURCES COMPANY LIMITED |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
-> 補充說明：證據包標記 TFDA/仿單警語與禁忌症資料為 **Blocking 等級缺口（DG001）**，此缺口直接導致本案**無法進入 S1 安全性初評**，需先取得官方仿單資料方可評估禁忌症與交互作用風險。
-
----
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 5 項預測適應症均為 L5（純模型推論），無任何臨床試驗或文獻佐證；證據包內附帶的機轉評估多數認為生物學關聯薄弱，甚至可能是知識圖譜結構性偽陽性。
-- 安全性資料存在 Blocking 等級缺口（DG001），無法完成 S1 安全性初評。
-- 香港目前未上市（0 張許可證），基礎法規資訊尚未齊備。
+- 這項預測只有模型分數，沒有臨床試驗、文獻或明確的機轉支持（L5）。
+- Ibuprofen 的 COX 抑制作用無法合理解釋對骨骼發育異常的療效。
 
 **若要推進需要：**
-- 取得 Ibuprofen 完整仿單警語與禁忌症資料，解除 DG001（Blocking）
-- 向 DrugBank API 查詢正式 MOA 資料，解除 DG002（High），以驗證或推翻各候選適應症的機轉假說
-- 針對相對較有理論可能性的 myosclerosis，進一步搜尋跨語言/區域資料庫是否有相關實證研究
-- 若持續查無支持證據，建議將此組候選標記為低優先度，暫緩資源投入
+- 補齊 Ibuprofen 的作用機轉與原適應症資料（可查詢 DrugBank）。
+- 取得香港衛生署核准的仿單，完成警語與禁忌症的安全性篩選。
+- 有文獻或動物模型顯示 COX／前列腺素路徑與此疾病有關，才值得重新評估。
+- 若只是要緩解此類疾病的疼痛，應改以症狀治療為目標重新定義適應症，不宜視為疾病修飾治療。
+
+*本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

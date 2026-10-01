@@ -2,15 +2,15 @@
 layout: default
 title: Fenofibrate
 parent: 中證據等級 (L3-L4)
-nav_order: 312
-evidence_level: L3
+nav_order: 363
+evidence_level: L4
 indication_count: 5
 ---
 
 # Fenofibrate
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **5** 個
+證據等級: **L4** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,101 +29,88 @@ indication_count: 5
 
 </div>
 
-# Fenofibrate：從高脂蛋白血症到同合子家族性高膽固醇血症
+# Fenofibrate：從血脂異常到同合子家族性高膽固醇血症
 
 ## 一句話總結
 
-Fenofibrate 是 fibrate 類藥物，透過活化 PPARα 調節脂質代謝，主要用於治療高三酸甘油酯血症與混合型高脂蛋白血症。TxGNN 模型預測它可能對**同合子家族性高膽固醇血症（Homozygous Familial Hypercholesterolemia, HoFH）**有效，目前有 **11 篇文獻**支持這個方向，但尚無直接以 fenofibrate 為研究藥物的 HoFH 登記臨床試驗。
-
----
+Fenofibrate 是一種降血脂藥，屬於 PPAR-alpha 促效劑（fibrate 類），主要用於降低三酸甘油酯。
+TxGNN 模型預測它可能對**同合子家族性高膽固醇血症 (Homozygous Familial Hypercholesterolemia, HoFH)** 有效，
+但目前僅有 **1 個臨床試驗**（研究的是 alirocumab，不是 fenofibrate）和 **10 篇文獻**（多為綜述），沒有直接證據支持這個方向。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 高三酸甘油酯血症 / 混合型高脂蛋白血症（香港無核准許可證） |
+| 原適應症 | 許可證未載明；依藥理類別推論為血脂異常（高三酸甘油酯、混合型高脂血症） |
 | 預測新適應症 | 同合子家族性高膽固醇血症 (Homozygous Familial Hypercholesterolemia) |
 | TxGNN 預測分數 | 99.91% |
-| 證據等級 | L3 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails |
-
----
+| 證據等級 | L4 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 19 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-Fenofibrate 屬於 fibrate 類藥物，透過活化核轉錄因子 **PPARα（peroxisome proliferator-activated receptor alpha）**發揮多重降脂機轉（詳細 MOA 資料尚待補充，以下摘自現有文獻推論）：
+目前缺乏 DrugBank 的詳細作用機轉資料。根據已知藥理，Fenofibrate 透過活化 PPAR-alpha，降低三酸甘油酯，並小幅降低 LDL-C。
 
-- **上調 LPL**（脂蛋白脂酶）→ 加速分解 VLDL 與 chylomicron 中的三酸甘油酯
-- **下調 ApoC-III**（LPL 內源性抑制劑）→ 進一步增強 TG 清除效率
-- **增加肝臟脂肪酸 β-氧化** → 減少 VLDL 從頭合成
-- **上調 ApoA-I / ApoA-II** → 提升 HDL 膽固醇水平
+HoFH 患者的 LDL 受體缺失或嚴重缺損。Fenofibrate 的降 LDL 效果主要靠增加 LDL 清除，在這類患者身上預期效果有限。
+TxGNN 的高分（0.999）較可能來自藥物與整個高脂血症知識網路的關聯，而不是 HoFH 的特異機轉。
+1984 年一項小型研究中，唯一的 HoFH 患者總膽固醇和 LDL-C 降幅最大，但只有 1 人，不足以支持結論。
 
-HoFH 的核心病理為 LDL receptor（LDLR）**完全缺失或嚴重缺陷**，導致血漿 LDL-C 居高不下（常見 > 500 mg/dL），造成極早期且嚴重的心血管疾病。Fenofibrate 雖不能直接修補 LDLR 缺陷，但可作為多藥聯合方案的**輔助角色**：
-
-1. **降低殘餘 TG 負擔**：清除 VLDL/IDL 等 atherogenic 微粒，改善整體脂質譜
-2. **改善次要心血管風險**：減少炎症指標（如 ICAM-1、MCP-1）、改善內皮功能
-3. **聯合治療加成**：與 PCSK9 抑制劑（如 alirocumab）或 lomitapide 聯用時，可在 HoFH 主力藥物降低 LDL-C 之外，進一步優化 TG 和 HDL 指標
-
-最直接的支持來自 1984 年的長期臨床研究（PMID 6593751）：22 例 Type II 高脂蛋白血症患者（含 1 名 HoFH 患者）接受 fenofibrate 300 mg/day 治療 4–12 個月，總膽固醇平均下降 22%、LDL-C 下降 24%，其中 HoFH 患者降幅最為顯著，支持此預測的生物合理性。
-
----
+目前 HoFH 的處置主要靠高強度降 LDL 治療，例如 PCSK9 抑制劑、lomitapide、LDL 血漿分離術，嚴重時考慮肝臟移植。Fenofibrate 即使有效，也只可能是輔助角色。
 
 ## 臨床試驗證據
 
-目前無直接以 fenofibrate 為研究藥物的 HoFH 登記臨床試驗。以下試驗提供 HoFH 治療領域的背景脈絡：
-
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | 完成 | 18 | 評估 Alirocumab（PCSK9 抑制劑）於 8–17 歲 HoFH 兒童/青少年的 LDL-C 降低療效，顯示 HoFH 領域對輔助降脂治療的強烈需求（研究藥物非 fenofibrate） |
-
----
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | 完成 | 18 | 開放標籤試驗，評估 alirocumab 用於 8-17 歲 HoFH 兒童與青少年的 LDL-C 降幅。研究藥物不是 fenofibrate，無法提供直接證據 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [6593751](https://pubmed.ncbi.nlm.nih.gov/6593751/) | 1984 | 臨床縱貫研究 | Pharmacological Research Communications | 22 例 Type II 高脂蛋白血症（含 1 名 HoFH）fenofibrate 300 mg/day 治療 4–12 個月；總膽固醇降 22%、LDL 降 24%，HoFH 患者降幅最大 |
-| [24734312](https://pubmed.ncbi.nlm.nih.gov/24734312/) | 2014 | 藥動學研究 | Pharmacotherapy | Lomitapide（HoFH 核准藥物）與 fenofibrate 的藥物動力學交互作用研究，確認 fenofibrate 在 HoFH 多藥管理中的臨床使用情境 |
-| [24946816](https://pubmed.ncbi.nlm.nih.gov/24946816/) | 2014 | 回顧 / 病例系列 | Internal Medicine Journal | HoFH 治療回顧：標準降脂藥物效果有限，新興療法（PCSK9i、mipomersen）及肝移植作為替代；確立了聯合藥物治療在 HoFH 的地位 |
-| [2042836](https://pubmed.ncbi.nlm.nih.gov/2042836/) | 1991 | 回顧 | Annals of the New York Academy of Sciences | FH 兒童/青少年藥物治療回顧：fenofibrate 在減少 atherogenic 脂蛋白方面有效，列為選項之一 |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | 臨床實務指引 | Endocrine Practice | AACE/ACE 血脂異常與心血管疾病預防指引，涵蓋 fenofibrate 等非他汀類藥物在複雜高脂血症（包括家族性高膽固醇血症）中的地位 |
-| [37979722](https://pubmed.ncbi.nlm.nih.gov/37979722/) | 2024 | 回顧 | Indian Heart Journal | 非他汀類降脂藥物最新綜述：fenofibrate 單藥最明確適應症為 TG > 500 mg/dL；在混合型血脂異常或他汀不耐患者中有補充價值 |
-| [26432726](https://pubmed.ncbi.nlm.nih.gov/26432726/) | 2015 | 回顧 | Indian Heart Journal | LDL-C、他汀類藥物與 PCSK9 抑制劑回顧，討論嚴重高膽固醇血症（含 HoFH）的殘餘風險管理，提供聯合治療背景 |
-| [35499807](https://pubmed.ncbi.nlm.nih.gov/35499807/) | 2022 | 回顧 | Current Atherosclerosis Reports | 妊娠期血脂異常管理回顧，討論 fibrate 類藥物使用限制，提供特殊族群安全性背景 |
-| [14620392](https://pubmed.ncbi.nlm.nih.gov/14620392/) | 2003 | 藥物回顧 | Pharmacotherapy | Ezetimibe 膽固醇吸收抑制劑詳細評估；fenofibrate 作為比較對象，顯示在混合高脂血症聯合治療中的應用背景 |
-| [9129869](https://pubmed.ncbi.nlm.nih.gov/9129869/) | 1997 | 藥物回顧 | Drugs | Atorvastatin 在高膽固醇血症及高三酸甘油酯血症的療效回顧，提供 HoFH 高強度降脂需求的對照背景 |
-
----
+| [6593751](https://pubmed.ncbi.nlm.nih.gov/6593751/) | 1984 | Cohort | Pharmacol Res Commun | 22 名 II 型高脂蛋白血症患者用 fenofibrate 4-12 個月，LDL-C 降 24%。其中 1 名 HoFH 患者降幅最大 |
+| [24946816](https://pubmed.ncbi.nlm.nih.gov/24946816/) | 2014 | Review | Intern Med J | HoFH 的肝臟移植治療案例與新興降脂療法。標準降脂藥與 LDL 血漿分離術效果可能不足 |
+| [2042836](https://pubmed.ncbi.nlm.nih.gov/2042836/) | 1991 | Review | Ann N Y Acad Sci | 兒童與青少年血脂異常的藥物與手術治療，提到 fenofibrate 等藥物在家族性高膽固醇血症中曾有降脂成效 |
+| [37979722](https://pubmed.ncbi.nlm.nih.gov/37979722/) | 2024 | Review | Indian Heart J | 非史他汀降脂藥綜述。Fenofibrate 單方最明確的適應症是空腹三酸甘油酯 >500 mg/dl，可降低急性胰臟炎風險 |
+| [35499807](https://pubmed.ncbi.nlm.nih.gov/35499807/) | 2022 | Review | Curr Atheroscler Rep | 妊娠期血脂異常的處置，與 HoFH 關聯間接 |
+| [26432726](https://pubmed.ncbi.nlm.nih.gov/26432726/) | 2015 | Review | Indian Heart J | LDL 膽固醇、史他汀與 PCSK9 抑制劑綜述，重度高膽固醇血症以史他汀、ezetimibe 等為主 |
+| [14620392](https://pubmed.ncbi.nlm.nih.gov/14620392/) | 2003 | Review | Pharmacotherapy | Ezetimibe 膽固醇吸收抑制劑的介紹，與 fenofibrate 無直接關係 |
+| [9129869](https://pubmed.ncbi.nlm.nih.gov/9129869/) | 1997 | Review | Drugs | Atorvastatin 藥理與治療潛力綜述，與 fenofibrate 無直接關係 |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guideline | Endocr Pract | AACE/ACE 血脂異常處置與心血管疾病預防指引 |
+| [24734312](https://pubmed.ncbi.nlm.nih.gov/24734312/) | 2014 | 藥動學研究 | Pharmacotherapy | Lomitapide（HoFH 核准用藥）與 fenofibrate 等降脂藥的藥物動力學交互作用 |
 
 ## 香港上市資訊
 
-Fenofibrate 目前在香港**無核准藥品許可證登記**（香港衛生署藥物辦公室資料：0 張許可證）。如需使用，須透過特殊用藥申請途徑。
+香港共有 19 張許可證，以下列出 5 張主要許可證。資料中未記載劑型與核准適應症文字。
 
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-59427 | FENOGET CAP 200MG | CHARIOT PHARMA LIMITED |
+| HK-50649 | LIPANTHYL SUPRA TAB 160MG | ABBOTT LAB LTD |
+| HK-53289 | LEXEMIN CAP 100MG | HEALTH ALLIANCE INTERNATIONAL CO LTD |
+| HK-59426 | FENOGET CAP 67MG | CHARIOT PHARMA LIMITED |
+| HK-67885 | LIPANTHYL MICRO CAPSULES 267MG | ABBOTT LAB LTD |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
-> 藥品警語、禁忌症及藥物交互作用資料目前尚缺（Data Gap DG001）。如需詳細資料，請至衛生署官網或原廠網站下載仿單 PDF 取得完整資訊。
-
----
-
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-1984 年的直接臨床研究（PMID 6593751）提供了 fenofibrate 在 HoFH 患者中降脂效果的初步人體證據，多藥動學與回顧性文獻進一步支持其作為聯合治療輔助藥物的合理性。然而，目前缺乏針對 HoFH 適應症的 fenofibrate 專屬 Phase 2/3 RCT，整體證據主要為觀察性研究與文獻回顧（L3 等級），且香港目前無相關上市許可，臨床轉化需謹慎推進。
+- 唯一的臨床試驗研究的是 alirocumab，不是 fenofibrate。文獻只有零星的小型早期研究和綜述。
+- 機轉上，HoFH 的 LDL 受體缺失，fenofibrate 的降 LDL 途徑預期效果有限，高預測分數更可能反映模型的網路關聯。
 
 **若要推進需要：**
-- 補充完整 MOA 資料（DrugBank DB01039 API 查詢，Data Gap DG002）
-- 取得香港衛生署仿單或原廠安全性資料，補充警語與禁忌症（Data Gap DG001）
-- 設計 fenofibrate 作為輔助藥物的 HoFH 聯合治療方案（與 PCSK9 抑制劑、lomitapide 的搭配評估）
-- 評估香港特殊用藥申請（Named Patient / Hospital Authority 特別申請）可行性
-- 若條件許可，考慮發起 Investigator-Initiated Trial（IIT），研究 fenofibrate 在 HoFH 標準治療基礎上的輔助效益
+- 取得香港衛生署仿單的警語與禁忌資料（目前為阻擋性缺口，無法進入安全性篩選）
+- 補齊 DrugBank 的作用機轉資料
+- 系統性檢索 fenofibrate 用於 HoFH 的臨床研究，確認是否有比 1984 年單一病例更直接的證據
+- 若仍想探索血脂領域，同一份預測中的**高脂蛋白血症 (Hyperlipoproteinemia)** 有多個已完成的 Phase 3 RCT 支持（證據等級 L1，評估為 Proceed with Guardrails）。但這很可能是既有或已確立的用途，而非真正的老藥新用，且需先確認香港許可證核准的適應症
+
+> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

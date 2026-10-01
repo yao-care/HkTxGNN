@@ -2,7 +2,7 @@
 layout: default
 title: Adefovir Dipivoxil
 parent: 僅模型預測 (L5)
-nav_order: 23
+nav_order: 24
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,107 +29,99 @@ indication_count: 10
 
 </div>
 
-# Adefovir Dipivoxil：從慢性乙型肝炎到慢性丙型肝炎病毒感染
+# Adefovir Dipivoxil：從慢性 B 型肝炎到慢性 C 型肝炎
 
 ## 一句話總結
 
-Adefovir Dipivoxil 是一種核苷酸類似物（acyclic nucleoside phosphonate），FDA 核准用於治療慢性乙型肝炎（HBV），品牌名 Hepsera；目前香港未上市。
-TxGNN 模型預測它可能對**慢性丙型肝炎病毒感染 (Chronic Hepatitis C Virus Infection)** 有效，預測分數高達 **99.97%**；
-然而深入分析後，此為**知識圖譜偽陽性預測**——蒐集到的 9 個臨床試驗均屬 HBV 研究，且 Adefovir 的 DNA 聚合酶靶標與 HCV 的 RNA 複製機轉根本不符。
-
----
+Adefovir Dipivoxil 是口服核苷酸類似物，原本用於慢性 B 型肝炎。TxGNN 預測它可能對**慢性 C 型肝炎 (Chronic Hepatitis C Virus Infection)** 有效，但檢索到的 10 個臨床試驗和 15 篇文獻都是 B 型肝炎研究，或 B、C 型肝炎合併討論的綜述，**沒有任何一筆直接顯示對 C 型肝炎有效**。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 慢性乙型肝炎病毒感染（HBV，FDA 核准；HK 未上市） |
-| 預測新適應症 | 慢性丙型肝炎病毒感染 (Chronic HCV Infection) |
+| 原適應症 | 慢性 B 型肝炎（許可證未載明適應症，此為依 Evidence Pack 說明的推定） |
+| 預測新適應症 | 慢性 C 型肝炎 (Chronic Hepatitis C Virus Infection) |
 | TxGNN 預測分數 | 99.97% |
-| 證據等級 | L4（機轉不符，無直接 HCV 研究） |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L5（僅有模型預測；Evidence Pack 標示為 L4，但檢索到的證據皆非針對 HCV） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 2 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-Adefovir Dipivoxil 的活性代謝物 adefovir diphosphate 作為 dATP 的競爭性類似物，進入細胞後透過以下機轉抑制 HBV 複製：
+目前缺乏詳細的作用機轉資料（DrugBank MOA 欄位為空）。依已知藥理，Adefovir Dipivoxil 是無環核苷酸類似物的前驅藥，其活性代謝物（二磷酸型）抑制 DNA 聚合酶與反轉錄酶，因此對 B 型肝炎病毒 (HBV) 有效。
 
-1. 競爭性抑制 HBV DNA 聚合酶（具逆轉錄酶活性），干擾病毒前基因組 RNA 反轉為 DNA
-2. 整合進病毒 DNA 後導致鏈終止
-3. 對野生型及拉米夫定耐藥株（YMDD 變異）均有效
+C 型肝炎病毒 (HCV) 是 RNA 病毒，複製依賴 NS5B RNA 依賴性 RNA 聚合酶，沒有 Adefovir 會作用的 DNA 聚合酶或反轉錄步驟。**機轉上找不到直接關聯。**
 
-**⚠️ 機轉分析：此 HCV 預測在生物學上不成立。** HCV 是正鏈 RNA 病毒（Flaviviridae 科），複製完全依賴 NS5B RNA 依賴性 RNA 聚合酶（RdRp），整個複製週期**不存在任何 DNA 中間體或逆轉錄步驟**。Adefovir 的作用靶點（HBV DNA 聚合酶）在 HCV 感染週期中完全缺席，理論上對 NS5B 無任何抑制活性。
+分數偏高很可能只反映知識圖譜中「病毒性肝炎」節點彼此相近，不代表藥理上的實際療效。
 
-TxGNN 預測分數 0.9997 極可能源於知識圖譜中 HBV 與 HCV 共享「慢性病毒性肝炎（chronic viral hepatitis）」超類節點，造成基於圖譜節點距離近似的偽陽性關聯，而非真實的藥物–疾病交互作用信號。
-
----
+**需要說明兩點：**
+- 慢性 B 型肝炎（排名第 6）是 Adefovir 的既有適應症，只因來源資料的原適應症欄位為空才出現在預測清單中，不是真正的老藥新用發現。
+- 在所有預測中，證據最完整的是 **HIV 感染**（排名第 2）：有 1 個已完成的 Phase 3 隨機雙盲試驗（NCT00001082，505 人）和多個 Phase 2 試驗，也有 RCT 文獻（JAMA 1999、AIDS 2001）。但 HIV 適應症的腎毒性風險較高，且已有更好的替代藥（如 Tenofovir）。
 
 ## 臨床試驗證據
 
-> ⚠️ **重要說明：** 以下所有試驗均為 HBV 相關研究（或已撤回試驗），**無任何直接針對 HCV 的 Adefovir Dipivoxil 臨床試驗登記**。
+以下是檢索到的相關試驗，相關性評估均為 C 級（非 HCV 證據）。
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00371761](https://clinicaltrials.gov/study/NCT00371761) | Phase 3 | 完成 | 25 | 台灣 HBeAg 陽性慢性 HBV 比較研究（PegIntron vs Adefovir），為 HBV 試驗，非 HCV |
-| [NCT00013702](https://clinicaltrials.gov/study/NCT00013702) | Phase 2 | 完成 | 30 | HIV 合併 HBV 肝硬化患者加用 Adefovir 療效與安全性評估，非 HCV |
-| [NCT00275938](https://clinicaltrials.gov/study/NCT00275938) | Phase 2/3 | 完成 | 120 | 干擾素 α2b + 利巴韋林治療慢性 HBV 肝炎，Adefovir 非主要研究藥物 |
-| [NCT00051077](https://clinicaltrials.gov/study/NCT00051077) | Phase 2 | 撤回 | 0 | HBV/HCV/HIV 三重感染研究，已撤回且 n=0，無任何有效數據 |
-| [NCT01205165](https://clinicaltrials.gov/study/NCT01205165) | Phase 4 | 完成 | 104 | 韓國 CHB 患者 Adefovir 抗病毒效果 52 週評估，非 HCV |
-| [NCT00645294](https://clinicaltrials.gov/study/NCT00645294) | Phase 1/2 | 完成 | 47 | 兒童及青少年慢性 HBV 感染者 Adefovir 單劑藥動學研究，無 HCV 療效評估 |
-| [NCT01925820](https://clinicaltrials.gov/study/NCT01925820) | Phase 4 | 未知 | 540 | HBeAg 陰性 CHB：Pegasys + Entecavir 三臂比較，ADV 僅列於背景藥物清單 |
-
----
+| [NCT00371761](https://clinicaltrials.gov/study/NCT00371761) | Phase 3 | 完成 | 25 | PegIntron 對比 Adefovir，用於 HBeAg 陽性慢性 B 型肝炎（台灣），Adefovir 為 HBV 對照組 |
+| [NCT00013702](https://clinicaltrials.gov/study/NCT00013702) | Phase 2 | 完成 | 30 | Adefovir 加 Lamivudine，用於 HIV 合併失代償 B 型肝炎 |
+| [NCT00275938](https://clinicaltrials.gov/study/NCT00275938) | Phase 2/3 | 完成 | 120 | 干擾素 alpha-2b 加 Ribavirin，用於慢性 B 型肝炎，未見 Adefovir |
+| [NCT00051077](https://clinicaltrials.gov/study/NCT00051077) | Phase 2 | 撤回 | 0 | Adefovir、PEG-干擾素與 Ribavirin，用於 HBV/HCV/HIV 三重感染；未收案，無資料 |
+| [NCT00810524](https://clinicaltrials.gov/study/NCT00810524) | Phase 4 | 未知 | 600 | 早期與傳統抗病毒治療對慢性 HBV 長期預後的影響 |
+| [NCT02560649](https://clinicaltrials.gov/study/NCT02560649) | Phase 4 | 未知 | 324 | 反應導向療法，NUC 治療後加 PEG-IFN，用於 HBeAg 陽性 B 型肝炎 |
+| [NCT00973219](https://clinicaltrials.gov/study/NCT00973219) | 不適用 | 完成 | 151 | PEG-IFN 合併 Adefovir 或 Tenofovir，用於 HBeAg 陰性低病毒量 B 型肝炎 |
+| [NCT01205165](https://clinicaltrials.gov/study/NCT01205165) | Phase 4 | 完成 | 104 | Adefovir 用於韓國慢性 B 型肝炎，主要指標為 HBV DNA 下降 |
+| [NCT00645294](https://clinicaltrials.gov/study/NCT00645294) | Phase 1/2 | 完成 | 47 | Adefovir 單次給藥於 2–17 歲慢性 B 型肝炎兒童的藥動學與安全性 |
+| [NCT01925820](https://clinicaltrials.gov/study/NCT01925820) | Phase 4 | 未知 | 540 | Pegasys 加 Entecavir，用於 HBeAg 陰性慢性 B 型肝炎 |
 
 ## 文獻證據
 
-以下文獻均涉及 HBV 治療或病毒性肝炎通論，無 Adefovir 直接治療 HCV 的療效報告：
+沒有 RCT，僅有綜述與間接資料；以下皆非 Adefovir 對 HCV 的直接證據。
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [25892855](https://pubmed.ncbi.nlm.nih.gov/25892855/) | 2015 | Observational | Mediators Inflamm | 慢性 HBV/HCV 患者抗病毒治療前後循環 B 細胞 TLR-9、CD86、CD95 表型差異，HCV 為背景病例 |
-| [25027705](https://pubmed.ncbi.nlm.nih.gov/25027705/) | 2014 | Review | Minerva Gastroenterol Dietol | HBV/HCV 抗病毒藥物（含 adefovir dipivoxil）對腎功能影響的綜述，討論腎毒性風險 |
-| [16937041](https://pubmed.ncbi.nlm.nih.gov/16937041/) | 2006 | Review | Wien Med Wochenschr | 慢性 B/C 型肝炎現有治療與未來展望，以 HBV 治療策略（pegIFN、lamivudine、adefovir）為核心 |
-| [19149648](https://pubmed.ncbi.nlm.nih.gov/19149648/) | 2009 | Review | Med Chem | Bicyclol 新型抗 HBV/HCV 藥物研究，Adefovir 僅為背景比較藥物 |
-| [22370225](https://pubmed.ncbi.nlm.nih.gov/22370225/) | 2012 | Guideline | Orvosi Hetilap | 匈牙利 B/C/D 型病毒性肝炎診療共識指引（2012 年版），含 Adefovir HBV 治療建議 |
-| [16880074](https://pubmed.ncbi.nlm.nih.gov/16880074/) | 2006 | Review | Gastroenterol Clin North Am | HBV 感染治療路徑，Adefovir 作為核苷酸類似物的臨床地位討論 |
-| [15588803](https://pubmed.ncbi.nlm.nih.gov/15588803/) | 2004 | Review | Best Pract Res Clin Gastroenterol | 慢性病毒性肝炎治療策略，涵蓋 HBV（干擾素、lamivudine、adefovir）與 HCV（IFN+RBV）並行討論 |
+| [25027705](https://pubmed.ncbi.nlm.nih.gov/25027705/) | 2014 | Review | Minerva Gastroenterol Dietol | B、C 型肝炎抗病毒藥物及其對腎功能的影響；Adefovir 列於 B 型肝炎藥物 |
+| [16937041](https://pubmed.ncbi.nlm.nih.gov/16937041/) | 2006 | Review | Wien Med Wochenschr | B、C 型肝炎現行治療與未來展望 |
+| [11825542](https://pubmed.ncbi.nlm.nih.gov/11825542/) | 2002 | Review | Curr Gastroenterol Rep | 肝移植後 B、C 型肝炎的處置 |
+| [25309089](https://pubmed.ncbi.nlm.nih.gov/25309089/) | 2014 | Review | World J Gastroenterol | 中國 B、C 型肝炎的臨床特徵與現行處置 |
+| [15125867](https://pubmed.ncbi.nlm.nih.gov/15125867/) | 2004 | Review | J Clin Virol | 臨床使用的抗病毒藥物總覽 |
+| [29743798](https://pubmed.ncbi.nlm.nih.gov/29743798/) | 2018 | Guideline | J Clin Exp Hepatol | 印度 INASL 的 B 型肝炎預防、診斷與處置共識聲明 |
+| [16386596](https://pubmed.ncbi.nlm.nih.gov/16386596/) | 2005 | 臨床研究 | Transplant Proc | Adefovir 用於肝移植後 Lamivudine 抗藥性 HBV，非 HCV |
+| [17530355](https://pubmed.ncbi.nlm.nih.gov/17530355/) | 2007 | 未分類 | J Gastroenterol | B、C 型肝炎抗病毒治療的抗藥性問題 |
+| [24175223](https://pubmed.ncbi.nlm.nih.gov/24175223/) | 2012 | 未分類 | World J Virol | 抗病毒治療預防 B 或 C 型肝炎相關肝癌 |
+| [23495004](https://pubmed.ncbi.nlm.nih.gov/23495004/) | 2013 | 未分類 | Med Res Rev | 抗病毒藥物開發現況（HCV 部分講的是直接作用抗病毒藥物，與 Adefovir 無關） |
 
----
+## 香港上市資訊
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-63344 | HEPTOVANCE TABLET 10MG | SINO PACIFIC PHARMA COMPANY LIMITED |
+| HK-64175 | APO-ADEFOVIR TABLETS 10MG | HIND WING CO LTD |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
----
+文獻中另有 Adefovir 相關腎毒性的報告，可作為風險提示：
+- 長期使用的腎毒性統合分析（[PMID 27977591](https://pubmed.ncbi.nlm.nih.gov/27977591/)）
+- Adefovir 引起 Fanconi 症候群與低磷血症性骨軟化症的個案（[PMID 32289307](https://pubmed.ncbi.nlm.nih.gov/32289307/)）
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-Adefovir Dipivoxil 靶向 HBV DNA 聚合酶，而 HCV 複製機轉完全依賴 NS5B RNA 依賴性 RNA 聚合酶，兩者無任何共同靶點。TxGNN 的 99.97% 高分預測係知識圖譜節點共享所致的偽陽性，所有蒐集到的「相關」試驗均屬 HBV 研究。此外，現代直接抗病毒藥物（DAA，如 Sofosbuvir/Velpatasvir 複方）治療 HCV 基因型 1–6 型已達 >95% SVR12，此方向完全無再利用研究價值。
+- 機轉上與 HCV 無直接關聯，所有檢索到的試驗與文獻都是 HBV 研究或 B、C 型肝炎合併綜述，沒有 Adefovir 對 HCV 有效的證據。
+- 現今 HCV 已有直接作用抗病毒藥物（DAA）可治癒，Adefovir 不具備優勢，且有腎毒性風險。
 
 **若要推進需要：**
+- 補齊 DrugBank 作用機轉資料，並確認 HCV 的體外抗病毒活性有無實證。
+- 取得香港衛生署的仿單，補齊警語與禁忌症；許可證上的核准適應症文字目前也是空的。
+- 若要評估 Adefovir 的其他方向，建議改看 HIV 感染（排名第 2）。這是本 Evidence Pack 中證據最完整的一項，但需先權衡腎毒性與現有替代藥。
 
-此方向**不建議推進**（機轉根本不符，且已有高效 HCV 特異性療法）。
-
-建議將 Adefovir Dipivoxil 的後續評估重點轉向以下兩個方向：
-
-1. **B 型肝炎病毒感染（Rank 6，TxGNN 99.87%，L1 證據，Proceed with Guardrails）**
-   - FDA 核准適應症（Hepsera），多項已完成 Phase 3 RCT 支持療效（如 NCT00116805、NCT01300234、NCT00857675）
-   - 需評估香港上市可行性及正式申請許可證流程
-   - 長期用藥（>5 年）需定期監測 eGFR 及血清磷，預防 Fanconi syndrome
-   - 注意：現行 AASLD/EASL 指引已將 TDF/TAF 列為一線，Adefovir 多用於特定二線或過渡情境
-
-2. **HIV 感染（Rank 2，TxGNN 99.95%，L1 證據，Hold）**
-   - 藥物最初即針對 HIV 開發；Phase 3 RCT（NCT00001082，n=505）已完成，具最高級別直接臨床證據
-   - 因所需治療劑量（120 mg/day）遠高於 HBV 劑量（10 mg/day），腎毒性（Fanconi syndrome）為劑量限制性毒性
-   - Tenofovir（TDF/TAF）在安全性與療效上已完全取代，此方向**無再利用可行性**
-
-> ⚠️ **本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證方可應用。**
+*本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

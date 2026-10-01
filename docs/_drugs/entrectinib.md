@@ -2,7 +2,7 @@
 layout: default
 title: Entrectinib
 parent: 中證據等級 (L3-L4)
-nav_order: 272
+nav_order: 319
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ indication_count: 10
 
 </div>
 
-# Entrectinib：從 NTRK/ROS1/ALK 融合陽性實體瘤到多發性內分泌腫瘤
+# Entrectinib：從 TRK/ROS1/ALK 陽性實體腫瘤到多發性內分泌腫瘤
 
 ## 一句話總結
 
-Entrectinib 是獲 FDA 核准的選擇性酪胺酸激酶抑制劑，靶向 NTRK1/2/3、ROS1 及 ALK 融合陽性實體瘤。
-TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neoplasia)** 有效，
-目前有 **2 個臨床試驗**和 **1 篇文獻**支持，但關聯性有限，疑似系統誤分類。
+Entrectinib 是 TRK、ROS1、ALK 激酶抑制劑，已在香港上市。
+TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neoplasia)** 有效。
+目前有 2 個相關性偏低的臨床試驗和 1 篇機轉文獻，都沒有針對此疾病的直接臨床證據。
 
 ---
 
@@ -43,34 +43,31 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neo
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | NTRK/ROS1/ALK 融合陽性實體瘤（FDA 核准，香港未登記） |
 | 預測新適應症 | 多發性內分泌腫瘤 (Multiple Endocrine Neoplasia) |
 | TxGNN 預測分數 | 98.58% |
 | 證據等級 | L4 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Research Question |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 2 張 |
+| 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏正式的作用機轉文件（MOA 為 Data Gap）。根據本證據包中的臨床試驗與文獻資料，Entrectinib 是針對神經營養酪胺酸激酶受體（NTRK1、NTRK2、NTRK3）、ROS1 及 ALK 的口服選擇性小分子抑制劑，透過競爭性占據 ATP 結合口袋，阻斷融合蛋白的持續活化訊號，進而抑制腫瘤細胞增生與轉移。
+目前缺乏詳細的作用機轉資料。已知 Entrectinib 的主要標靶是 TRK、ROS1 和 ALK，用於帶有這些基因融合的實體腫瘤。
 
-多發性內分泌腫瘤（MEN）在機轉上以 **RET 原癌基因突變**為主要驅動力，尤其是 MEN2A 和 MEN2B。Entrectinib 的主要靶點（NTRK/ROS1/ALK）與 RET 屬於不同激酶家族。雖然部分廣譜 TKI 對 RET 具有微弱的脫靶活性，但 RET 並非 Entrectinib 的設計靶點，專一性 RET 抑制劑為 selpercatinib 與 pralsetinib。
+多發性內分泌腫瘤第 2 型 (MEN2) 由 RET 基因的生殖細胞突變驅動。Entrectinib 並非 RET 抑制劑，兩者的連結只是間接的。唯一的機轉相關文獻是 2024 年一篇 RET 驅動癌症的抗藥性研究，內容是 RET 抑制劑 selpercatinib 的抗藥機制，與 Entrectinib 的療效無關。
 
-系統評估顯示，本次查詢返回的 2 項臨床試驗（ROSALINE 乳癌試驗、SMMART 籃型試驗）均非針對 MEN 設計，極可能是資料庫標籤誤分類。唯一相關文獻（PMID 38438731）探討的是 selpercatinib 在 RET 驅動癌症中的抗藥機轉，為間接機轉研究，並非 Entrectinib 直接用於 MEN 的療效證據。
+因此，TxGNN 的高分**沒有任何疾病特異性的臨床證據支持**。
 
 ---
 
 ## 臨床試驗證據
 
-> ⚠️ **注意：以下試驗均非針對多發性內分泌腫瘤設計，疑為資料庫誤分類，請勿直接引用為 MEN 適應症的支持證據。**
-
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT04551495](https://clinicaltrials.gov/study/NCT04551495) | Phase 2 | 停止新入組 | 65 | ROSALINE 試驗：Entrectinib 聯合內分泌治療針對 ROS1 陽性浸潤性小葉乳癌（ILC），非 MEN 設計；與乳癌適應症高度相關 |
-| [NCT03878524](https://clinicaltrials.gov/study/NCT03878524) | Phase 1 | 已終止 | 2 | SMMART PRIME 籃型試驗，已提早終止，僅招募 2 名受試者，無統計意義數據 |
+| [NCT04551495](https://clinicaltrials.gov/study/NCT04551495) | Phase 2 | 進行中（不再招募） | 65 | 針對 ROS1 併用內分泌治療的術前輔助研究，對象為浸潤性乳小葉癌。並非內分泌腫瘤症候群試驗，「內分泌」僅來自內分泌治療。未提供結果 |
+| [NCT03878524](https://clinicaltrials.gov/study/NCT03878524) | Phase 1 | 已終止 | 2 | SMMART PRIME 平台試驗，以病人腫瘤檢體篩選有效藥物組合。僅收 2 人，並非針對 MEN，沒有可解讀的療效資料 |
 
 ---
 
@@ -78,13 +75,16 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neo
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [38438731](https://pubmed.ncbi.nlm.nih.gov/38438731/) | 2024 | 機轉/轉譯研究 | NPJ Precision Oncology | 探討甲狀腺髓樣癌患者接受 selpercatinib 治療後的 RET 脫靶抗藥機轉，提示 RET 通路具可介入性，但無 Entrectinib 直接療效數據 |
+| [38438731](https://pubmed.ncbi.nlm.nih.gov/38438731/) | 2024 | 前臨床/機轉 | NPJ Precision Oncology | 一名 RET 突變的轉移性甲狀腺髓質癌患者接受 selpercatinib 治療後，出現由其他致癌基因引起的抗藥性。研究的是 RET 抑制劑抗藥機制，並非 Entrectinib |
 
 ---
 
 ## 香港上市資訊
 
-Entrectinib 目前在香港**尚未上市**，無任何藥品許可證登記。如需取得本藥，須透過特別審批途徑（如未經註冊藥物申請）。
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-66639 | ROZLYTREK CAPSULES 100MG | ROCHE HONG KONG LIMITED |
+| HK-66640 | ROZLYTREK CAPSULES 200MG | ROCHE HONG KONG LIMITED |
 
 ---
 
@@ -92,11 +92,9 @@ Entrectinib 目前在香港**尚未上市**，無任何藥品許可證登記。�
 
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 標靶藥物（TRK/ROS1/ALK 選擇性酪胺酸激酶抑制劑，非傳統細胞毒性化療） |
-| 骨髓抑制風險 | 中度（臨床試驗中可見貧血、嗜中性白血球減少、血小板減少） |
-| 致吐性分級 | 低至中度（口服 TKI 典型致吐等級） |
-| 監測項目 | CBC（含分類計數）、肝功能（ALT/AST）、QTc 間期、體重、中樞神經系統症狀評估 |
-| 處置防護 | 請參考原廠仿單的警語與注意事項；一般口服抗癌藥物防護原則適用 |
+| 細胞毒性分類 | 標靶藥物（TRK/ROS1/ALK 激酶抑制劑） |
+
+其他項目（骨髓抑制風險、致吐性、監測項目、處置防護）請參考原廠仿單的警語與注意事項。
 
 ---
 
@@ -104,35 +102,21 @@ Entrectinib 目前在香港**尚未上市**，無任何藥品許可證登記。�
 
 安全性資訊請參考原廠仿單。
 
-> 注意：第 3、5 號預測適應症的證據評估發現，**血小板減少症**與**肺動脈高壓**（PTTM 相關）均出現於 Entrectinib 治療的**不良反應報告**中（PMID 41002576），而非治療目標，使用時應列為安全性監測訊號。
-
 ---
 
 ## 結論與下一步
 
-**決策：Research Question**
+**決策：Hold**
 
 **理由：**
-TxGNN 預測分數達 98.58%，但機轉支持薄弱——MEN 的主要驅動基因為 RET，而非 Entrectinib 的核心靶點 NTRK/ROS1/ALK。列出的 2 項臨床試驗均非針對 MEN 設計，疑似資料庫誤分類；唯一文獻亦屬間接機轉研究。在任何前臨床數據出現前，此預測不具推進臨床的基礎。
+- 這項預測只有模型分數，沒有 MEN 特異性的臨床證據，也沒有合理的機轉連結。
+- 排名第 8 的**女性乳癌**證據較完整（L2），包含 Phase 2 basket 試驗 NCT02568267（n=534）和 ROS1 相關的 NCT04551495。這個方向只適用於 NTRK 融合或 ROS1 陽性的腫瘤，可另外評估。
 
 **若要推進需要：**
-- 確認 Entrectinib 對 RET 突變型（MEN2A/2B 相關 RET 突變）的 IC₅₀ 數據，評估脫靶抑制是否具臨床意義
-- 在 MEN 相關細胞株（如 MTC TT 細胞）或小鼠模型進行前臨床活性測試
-- 排除資料庫誤分類：確認 NCT04551495 及 NCT03878524 是否確有 MEN 患者入組亞組
-
----
-
-## ⚡ 補充：本次預測中更具潛力的候選適應症
-
-在本次 10 項 TxGNN 預測中，以下適應症具有明顯更強的臨床證據，建議優先評估：
-
-| 排名 | 適應症 | 預測分數 | 證據等級 | 建議決策 | 關鍵亮點 |
-|------|--------|---------|---------|---------|---------|
-| **#8** | **女性乳癌 (Female Breast Carcinoma)** | **97.76%** | **L2** | **Proceed with Guardrails** | Entrectinib 已獲 FDA 核准用於 NTRK fusion 陽性實體瘤（含乳癌亞型）；STARTRK-2（NCT02568267，534 名受試者）為核心樞軸試驗；ROSALINE 試驗（NCT04551495）專門針對 ROS1 陽性 ILC；ETV6-NTRK3 融合基因出現於 ~90% 的乳腺分泌型癌 |
-
-> **女性乳癌適應症守護條件**：必須以 NGS 或 FISH 確認 NTRK1/2/3、ROS1 或 ALK 融合基因陽性，不建議用於未篩選族群。香港未上市為地區核准問題，非療效缺乏，可透過未經註冊藥物途徑申請。
-
-> ⚠️ 以下預測疑為「反向關聯」（不良反應誤判為治療目標），建議作為**安全性監測訊號**而非再利用候選：血小板減少症（#3, #6, #7, #9）、肺動脈高壓（#5）。
+- 取得 Entrectinib 與 RET 或 MEN 之間的直接機轉或前臨床證據。
+- 取得原廠仿單的原適應症、警語與禁忌症。
+- 補充 DrugBank 的作用機轉資料。
+- 評估是否改以乳癌（融合陽性或 ROS1 選擇性族群）作為主要候選適應症。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Magnesium Trisilicate
-parent: 僅模型預測 (L5)
-nav_order: 472
-evidence_level: L5
+parent: 中證據等級 (L3-L4)
+nav_order: 542
+evidence_level: L4
 indication_count: 5
 ---
 
 # Magnesium Trisilicate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L4** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,106 +29,75 @@ indication_count: 5
 
 </div>
 
-# Magnesium Trisilicate：從傳統制酸劑到消化性潰瘍相關適應症的再評估
+# Magnesium Trisilicate：從制酸劑到活動性消化性潰瘍
 
 ## 一句話總結
 
-Magnesium Trisilicate 是傳統制酸劑成分，目前在香港未有上市許可證，也缺乏正式登記的原適應症資料。
-TxGNN 模型針對**5 個消化性潰瘍相關疾病**產生預測，其中證據較完整的是**胃空腸吻合口潰瘍 (Gastrojejunal Ulcer)**與**胃潰瘍 (Gastric Ulcer)**，
-分別有 **20 篇**與**7 篇**文獻及 **1 個臨床試驗**支持，但多數證據屬於「抗酸劑」藥物類別的間接證據，而非本藥物專一的臨床試驗結果。
-
----
+Magnesium Trisilicate（三矽酸鎂）是一種制酸劑，在香港已有多張上市許可證。
+TxGNN 模型預測它可能對**活動性消化性潰瘍 (Active Peptic Ulcer Disease)** 有效。
+目前**無相關臨床試驗**，僅有 **4 篇文獻**，且都沒有直接以它治療此適應症為主題，證據以模型預測為主。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無正式登記資料；文獻脈絡顯示傳統作為制酸劑使用 |
-| 預測新適應症 | 胃空腸吻合口潰瘍 (Gastrojejunal Ulcer)（證據最完整，詳見下方多適應症總表） |
-| TxGNN 預測分數 | 99.81%（胃空腸吻合口潰瘍） |
-| 證據等級 | L3（本候選藥物中最高等級） |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Research Question（部分適應症）／Hold（其餘適應症及整體上市決策） |
-
-### 5 個預測適應症總表
-
-| 排名 | 疾病 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
-|------|------|-----------|---------|---------|------|
-| 1 | Active Peptic Ulcer Disease | 99.86% | L4 | S1 | Hold |
-| 2 | Peptic Ulcer Perforation | 99.81% | L5 | S0 | Hold |
-| 3 | Gastrojejunal Ulcer | 99.81% | L3 | S2 | Research Question |
-| 4 | Gastroduodenitis | 99.72% | L5 | S0 | Hold |
-| 5 | Gastric Ulcer (disease) | 99.58% | L3 | S2 | Research Question |
-
----
+| 預測新適應症 | 活動性消化性潰瘍 (Active Peptic Ulcer Disease) |
+| TxGNN 預測分數 | 99.86% |
+| 證據等級 | L4 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank MOA 為資料缺口）。不過根據收集到的文獻脈絡，Magnesium Trisilicate 屬於**典型制酸劑（antacid）**，在胃內與胃酸反應生成氯化鎂與膠體矽酸，中和胃酸、提高胃內 pH、降低胃蛋白酶活性，並在潰瘍表面形成保護層。
+目前缺乏詳細的作用機轉資料。Magnesium Trisilicate 屬於制酸劑，一般認為它能中和胃酸，並形成矽膠層覆蓋黏膜。在消化性潰瘍中，這種機轉可以緩解症狀，理論上也可能有助於潰瘍癒合，因此模型的預測在機轉上說得通。
 
-這個中和胃酸、保護黏膜的機轉，與消化性潰瘍（含胃潰瘍、胃空腸吻合口潰瘍等酸相關疾病）的致病機轉直接相關——酸暴露是潰瘍形成與延遲癒合的關鍵因素。歷史上（1930-1980 年代）已有多篇臨床研究將 Magnesium Trisilicate 單獨或與氫氧化鋁複方用於消化性潰瘍治療。
-
-但需注意：多數文獻描述的是「peptic ulcer」這個籠統類別，並未特異指向「胃空腸吻合口潰瘍（marginal ulcer，通常發生於胃空腸吻合術後）」這個較窄的臨床實體，屬於機轉可外推、但疾病顆粒度不完全吻合的情況。此外，rank 1、2、4 三個適應症（活動性潰瘍、潰瘍穿孔、胃十二指腸炎）缺乏藥物專一或機轉高度吻合的證據支持，尤其潰瘍穿孔屬外科結構性急症，制酸治療機轉關聯薄弱。
-
----
+但這只是合理推測，不是已驗證的結論。目前檢索到的 4 篇文獻，沒有一篇直接評估 Magnesium Trisilicate 對活動性消化性潰瘍的療效。其中一篇 1970 年的雙盲試驗甚至把它當作安慰劑對照組。0.9986 的分數只代表模型預測。
 
 ## 臨床試驗證據
 
-僅「胃潰瘍 (Gastric Ulcer)」適應症有 1 個相關登記試驗，且相關性評級為 C（低）：
-
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT07310927](https://clinicaltrials.gov/study/NCT07310927) | Phase 2/3 | 招募中 | 140 | Alginate vs Sucralfate 併用 PPI 治療 GERD 症狀緩解；未使用 Magnesium Trisilicate，適應症也非胃潰瘍，僅同屬制酸/黏膜保護藥物類別，相關性低 |
-
-其餘 4 個預測適應症（活動性潰瘍病、潰瘍穿孔、胃空腸吻合口潰瘍、胃十二指腸炎）**目前無相關臨床試驗登記**。
-
----
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
-以下為「胃空腸吻合口潰瘍」與「胃潰瘍」兩項適應症中，與 Magnesium Trisilicate 直接相關或機轉高度相關的文獻（合併列出，最多 10 篇，優先列 RCT）：
-
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [14248445](https://pubmed.ncbi.nlm.nih.gov/14248445/) | 1965 | RCT（雙盲） | British Medical Journal | 雙盲比較 bismuth aluminate 與 magnesium trisilicate 治療消化性潰瘍，併行胃酸分析 |
-| [20321118](https://pubmed.ncbi.nlm.nih.gov/20321118/) | 1938 | Case series | Canadian Medical Association Journal | Magnesium Trisilicate 治療消化性潰瘍之早期臨床觀察 |
-| [15425465](https://pubmed.ncbi.nlm.nih.gov/15425465/) | 1950 | Cohort | Am J Digestive Diseases | 氫氧化鋁+Magnesium Trisilicate+黏蛋白治療 125 例消化性潰瘍患者 |
-| [20271751](https://pubmed.ncbi.nlm.nih.gov/20271751/) | 1947 | Cohort | Archives of Surgery | 同上複方之胃鏡與臨床追蹤研究 |
-| [6328685](https://pubmed.ncbi.nlm.nih.gov/6328685/) | 1984 | Cohort/比較性研究 | S Afr Medical Journal | 含 Magnesium Trisilicate 之抗酸劑（Gelusil）vs Ranitidine，4 週潰瘍癒合率無顯著差異 |
-| [4301560](https://pubmed.ncbi.nlm.nih.gov/4301560/) | 1968 | Cohort | Wiener Medizinische Wochenschrift | Magnesium Trisilicate-hyoscyamine 複方（Neoplex B）制酸效果之臨床功能分析 |
-| [6547921](https://pubmed.ncbi.nlm.nih.gov/6547921/) | 1984 | Mechanistic/機轉研究 | Fortschritte der Medizin | Sucralfate、氫氧化鋁、Magnesium Trisilicate 對胃潰瘍局部電位差之影響 |
-| [6091079](https://pubmed.ncbi.nlm.nih.gov/6091079/) | 1984 | 比較性研究 | Postgraduate Medical Journal | 四種抗酸劑之隨機雙盲比較（含 Magnesium Trisilicate 類製劑） |
-| [6293043](https://pubmed.ncbi.nlm.nih.gov/6293043/) | 1982 | Cohort | Scand J Gastroenterol Suppl | 制酸劑療法對礦物質代謝之影響（安全性相關） |
-| [4909818](https://pubmed.ncbi.nlm.nih.gov/4909818/) | 1970 | Cohort（對照組使用含 Mg trisilicate 安慰劑） | Gut | Duogastrone（carbenoxolone）治療十二指腸潰瘍試驗 |
-
----
+| [2986275](https://pubmed.ncbi.nlm.nih.gov/2986275/) | 1985 | 隨機雙盲試驗 | Scand J Gastroenterol | 比較 sucralfate 與 alginate/antacid 用於反流性食道炎，約 70% 的患者症狀改善或消失。未涉及 Magnesium Trisilicate。 |
+| [4909818](https://pubmed.ncbi.nlm.nih.gov/4909818/) | 1970 | 雙盲臨床研究 | Gut | Duogastrone 用於十二指腸潰瘍，可控制症狀並可能促進癒合。對照組安慰劑含 Magnesium Trisilicate，並非測試藥。 |
+| [2877526](https://pubmed.ncbi.nlm.nih.gov/2877526/) | 1986 | Review | Z Gastroenterol | 回顧胃食道逆流的治療，制酸劑與 alginate 屬第一階段用藥。 |
+| [432256](https://pubmed.ncbi.nlm.nih.gov/432256/) | 1979 | 藥劑學研究（與主題無關） | Die Pharmazie | 制酸劑類吸附劑會大幅降低口服避孕藥中 norethisterone acetate 的溶出率。 |
 
 ## 香港上市資訊
 
-目前香港無 Magnesium Trisilicate 相關許可證登記（`market_status`: 未上市，`total_licenses`: 0）。
+香港共有 20 張許可證，以下列出 5 張主要許可證：
 
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-43991 | MAGNESIUM TRISILICATE | STANDARD CHEMICAL CORPORATION LIMITED |
+| HK-15701 | TRI-MAG GEL TAB | NATIONAL PHARMACEUTICAL CO LTD |
+| HK-05463 | TRI MAG GEL SUSPENSION | NATIONAL PHARMACEUTICAL CO LTD |
+| HK-05192 | GELUMAG TAB | SYNCO (H.K.) LIMITED |
+| HK-05270 | GELUSIL TAB | JOHNSON & JOHNSON CONSUMER (HONG KONG) LIMITED |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
-
----
+安全性資訊請參考原廠仿單。DDI 資料庫查無資料。文獻 (PMID 432256) 提示制酸劑類吸附劑可能降低其他口服藥的溶出或吸收，併用其他藥物時值得留意。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 藥物在香港未上市、無登記許可證，且缺乏 TFDA/仿單警語、禁忌症與 MOA 等關鍵安全性資料（阻斷性資料缺口 DG001）。
-- 雖然「胃空腸吻合口潰瘍」與「胃潰瘍」兩項適應症達到 L3 證據等級並標記為 Research Question，但現有文獻多為 1930-1980 年代的抗酸劑類別研究，僅 1 篇為雙盲 RCT，且多數研究對象是複方製劑而非單一成分，證據強度不足以支持直接推進。
+- 「活動性消化性潰瘍」目前只有模型預測，沒有臨床試驗，文獻也沒有直接支持。
+- 安全性與作用機轉資料仍有缺口，尚不足以進入安全性篩選。
 
 **若要推進需要：**
-- 補齊作用機轉（MOA）與仿單警語/禁忌資料（DG001、DG002）
-- 確認香港上市/許可證登記可行性
-- 若聚焦「胃空腸吻合口潰瘍」，需要針對此特定臨床實體（而非籠統消化性潰瘍）設計之對照試驗，以縮小疾病顆粒度落差
-- 排除潰瘍穿孔、胃十二指腸炎等機轉關聯薄弱或無實證支持的適應症
+- 取得香港衛生署仿單，補齊警語與禁忌症。
+- 補充作用機轉資料（可查詢 DrugBank）。
+- 進一步評估「胃空腸吻合口潰瘍 (Gastrojejunal Ulcer)」這個預測。它的證據較多（等級 L3），包含 1938–1965 年的歷史研究，其中 1965 年 BMJ 有一項雙盲試驗直接涉及 Magnesium Trisilicate。但這些研究年代久遠、多為複方製劑，且針對一般消化性潰瘍，需要重新核實相關性。
+- 若要重新評估「活動性消化性潰瘍」，需要以 Magnesium Trisilicate 單方或明確複方為對象的對照研究。
+
+> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證後才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -2,7 +2,7 @@
 layout: default
 title: Lopinavir
 parent: 僅模型預測 (L5)
-nav_order: 461
+nav_order: 529
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,38 +29,32 @@ indication_count: 3
 
 </div>
 
-# Lopinavir：從 HIV 感染治療到貓科後天免疫缺陷症候群
+# Lopinavir：從 HIV-1 感染到貓後天免疫缺乏症候群
 
 ## 一句話總結
 
-Lopinavir 是蛋白酶抑制劑類抗病毒藥物，原用於人類 HIV 感染治療（常與 ritonavir 併用組成 HAART 療法）。
-TxGNN 模型評分最高的預測適應症為**貓科後天免疫缺陷症候群 (Feline AIDS / FIV 相關疾病)**，
-但這是非人類（獸醫）疾病實體，目前**無任何臨床試驗或文獻**支持，證據等級僅 **L5**。
+Lopinavir 是 HIV-1 蛋白酶抑制劑，在香港以與 ritonavir 的複方錠劑上市。
+TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome)** 有效。
+目前**沒有臨床試驗，也沒有文獻**支持這個組合，僅有模型預測，且這是獸醫領域的疾病。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無許可證資料（香港未上市，Evidence Pack 未收錄核准適應症） |
-| 預測新適應症 | 貓科後天免疫缺陷症候群 (Feline AIDS) |
+| 預測新適應症 | 貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome) |
 | TxGNN 預測分數 | 99.90% |
 | 證據等級 | L5 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 6 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（original_moa 列為資料缺口）。但從本 Evidence Pack 收錄的文獻摘要可確認，
-lopinavir/ritonavir (LPV/RTV) 屬於 HIV-1 蛋白酶抑制劑，臨床上作為人類 HAART 處方的一部分，
-機轉為抑制病毒 Gag-Pol 多蛋白前驅物裂解，阻斷病毒顆粒成熟。
+目前缺乏詳細的作用機轉資料。Lopinavir 是已知的 HIV-1 蛋白酶抑制劑，香港的產品多為 lopinavir/ritonavir 複方錠劑。以下推論來自一般藥理知識，而非本次提供的資料。
 
-貓科後天免疫缺陷症候群由貓免疫缺陷病毒 (FIV) 引起，FIV 與 HIV 同屬 lentivirus（慢病毒）家族，
-兩者蛋白酶結構具部分保守性，這是 TxGNN 給出高分關聯的可能生物學基礎。
+貓免疫缺乏病毒 (FIV) 和 HIV 同屬慢病毒，也編碼天門冬胺酸蛋白酶，所以模型的預測在概念上說得通。但 FIV 蛋白酶的受質專一性和對抑制劑的敏感度與 HIV-1 不同，不能直接假設 lopinavir 有效。
 
-然而，Evidence Pack 本身對此候選的機轉說明已明確指出：「雖同屬 lentivirus 蛋白酶抑制概念上可類推，
-但無任何人類或動物臨床/文獻資料支持，純屬 TxGNN 知識圖譜上的拓樸相似性推論」。且 FIV 相關疾病屬獸醫適應症，
-非人類疾病，即使機轉假說成立，也無法直接轉譯為人用藥品的新適應症申請。因此本候選屬於「概念上可類推、但證據極弱」的類型。
+這個預測是動物疾病，對人類臨床沒有直接意義。0.999 的分數只是模型預測，沒有任何試驗或文獻佐證。
 
 ## 臨床試驗證據
 
@@ -69,6 +63,18 @@ lopinavir/ritonavir (LPV/RTV) 屬於 HIV-1 蛋白酶抑制劑，臨床上作為�
 ## 文獻證據
 
 目前無相關文獻
+
+## 香港上市資訊
+
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-55200 | KALETRA TAB | ABBVIE LIMITED |
+| HK-65831 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG | VIATRIS HEALTHCARE HONG KONG LIMITED |
+| HK-68129 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG | CHEMILL PHARMA LIMITED |
+| HK-66612 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG | HIND WING CO LTD |
+| HK-66676 | LOPINAVIR AND RITONAVIR TABLETS USP 100MG/25MG | CONTROLLED MEDICATIONS LIMITED |
+
+香港共有 6 張許可證，上表列出資料中的 5 張。資料未提供劑型與核准適應症文字。
 
 ## 安全性考量
 
@@ -79,15 +85,18 @@ lopinavir/ritonavir (LPV/RTV) 屬於 HIV-1 蛋白酶抑制劑，臨床上作為�
 **決策：Hold**
 
 **理由：**
-三個 TxGNN 預測候選證據等級均僅 L4-L5。最高分候選（貓科 FIV 相關疾病）為獸醫適應症，
-無任何人類或動物臨床/文獻證據；次高分候選（simian immunodeficiency virus infection）雖有 3 篇文獻，
-但均為 macaque 動物模型下合併抗反轉錄病毒療法（含 lopinavir/ritonavir）的觀察性研究，非單一藥物人體適應症證據；
-第三候選（罕見神經發育疾病）與 lopinavir 機轉無已知生物學關聯，判斷為模型端假陽性。整體證據不足以支持推進人體臨床開發。
+- 這個預測只有模型分數，證據等級為 L5，沒有任何臨床試驗或文獻。
+- 目標疾病是貓的獸醫疾病，不屬於人用藥物再利用的範疇。
 
 **若要推進需要：**
-- 補齊 lopinavir 完整 MOA 與 TFDA/香港仿單安全性資料（目前為 Blocking 等級資料缺口）
-- 重新檢視 TxGNN 候選清單，排除獸醫適應症，聚焦與 lopinavir 已知蛋白酶抑制機轉直接相關的人類病毒感染疾病
-- 若持續看好慢病毒（lentivirus）感染方向，需補充人類臨床或至少人類病毒株體外藥效資料
+- 取得 lopinavir 對 FIV 蛋白酶的體外抑制活性資料
+- 確認是否有獸醫領域的研究或需求
+- 補齊 DrugBank 的作用機轉資料
+- 取得香港衛生署仿單的警語與禁忌症
+
+**補充：** 同一次預測中，排名第 2 的「猿猴免疫缺乏病毒感染」有 3 篇非人類靈長類的前臨床文獻（L4）。這是 HIV 的動物模型，不是新的人類適應症，因此不構成真正的老藥新用機會。排名第 3 的罕見神經發育疾病則看不出任何機轉關聯，其高分很可能是模型假象。
+
+> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -2,7 +2,7 @@
 layout: default
 title: Fluconazole
 parent: 僅模型預測 (L5)
-nav_order: 321
+nav_order: 376
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,77 +29,70 @@ indication_count: 1
 
 </div>
 
-# Fluconazole：從抗真菌到點狀上皮角結膜炎
+# Fluconazole：從抗黴菌感染到點狀上皮角膜結膜炎
 
 ## 一句話總結
 
-Fluconazole 是 azole 類廣效抗真菌藥，藉由阻斷真菌麥角固醇合成發揮作用，臨床上廣泛用於全身性及局部真菌感染的治療。
-TxGNN 模型預測它可能對**點狀上皮角結膜炎（Punctate Epithelial Keratoconjunctivitis，PEK）**有效，預測分數高達 **99.24%**。
-然而，目前**無任何臨床試驗或文獻**支持此方向，證據僅止於模型推測。
-
----
+Fluconazole 是一種唑類（azole）抗黴菌藥。
+TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis)** 有效。
+目前**沒有臨床試驗與文獻**支持，僅有模型預測，證據等級為 L5。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 真菌感染（抗真菌藥，依 DrugBank 分類） |
-| 預測新適應症 | 點狀上皮角結膜炎 (Punctate Epithelial Keratoconjunctivitis) |
+| 預測新適應症 | 點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis) |
 | TxGNN 預測分數 | 99.24% |
 | 證據等級 | L5 |
-| 香港上市 | ✗ 未上市（本批資料未收錄） |
-| 許可證數 | 0 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-Fluconazole 為 azole 類抗真菌藥，藉由抑制真菌 CYP51A1（lanosterol 14α-demethylase）阻斷麥角固醇合成，破壞真菌細胞膜完整性。由於口服生物可用率約 90%，全身吸收良好，理論上藥物可透過血-眼屏障在房水中達到有效濃度，具備眼部感染治療的生理基礎。
+目前缺乏詳細的作用機轉資料。Fluconazole 是唑類抗黴菌藥，已知作用是抑制黴菌的 CYP51（羊毛甾醇 14-α-去甲基酶），阻斷黴菌細胞膜成分的合成。
 
-點狀上皮角結膜炎（PEK）是角膜上皮出現多灶性點狀混濁的臨床表型，病因以腺病毒、HSV、乾眼症及 Thygeson's SPK 等為主；真菌性 PEK 屬罕見亞型，多見於免疫功能低下或手術後患者。TxGNN 的高分推測來自知識圖譜路徑：Fluconazole → 抗真菌機轉 → 真菌性角膜炎 → 角結膜炎表型 → PEK，屬間接推斷路徑。
+點狀上皮角膜結膜炎最常見的原因是病毒感染（如腺病毒）、毒性反應或乾眼症，抗黴菌機轉與這些常見病因沒有明確關聯。
 
-此機轉連結的特異性不足：PEK 的主流病因並非真菌，fluconazole 對非真菌性 PEK 無直接作用機轉支持。目前臨床資料完全缺如，無法驗證模型預測的臨床意義。
-
----
+模型給出高分，可能只是知識圖譜中的鄰近關係所致，例如與黴菌性角膜炎等眼部感染疾病相鄰，並不代表已驗證有療效。目前也沒有原適應症與機轉資料，機轉層面的評估相當有限。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
 目前無相關文獻。
 
----
-
 ## 香港上市資訊
 
-本批資料未收錄香港上市許可證（market_status：未上市，許可證數：0）。Fluconazole 於各主要市場均有廣泛上市產品，建議另行查閱香港衛生署藥物辦公室資料庫確認實際上市狀態。
-
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-67056 | DIFLUVID CAPSULES 150MG | HOVID LIMITED |
+| HK-60609 | SYSCAN - 150 CAP 150MG | TRENTON-BOMA LTD |
+| HK-60027 | FLUCONAZOL FARMOZ CAP 200MG (WEST PHARMA) | TRENTON-BOMA LTD |
+| HK-67485 | FLUCONAZOLE SOLUTION FOR INFUSION 100MG/50ML | HONG KONG MEDICAL SUPPLIES LTD |
+| HK-67082 | FLUZAMED CAPSULES 50MG | THE INTERNATIONAL MEDICAL COMPANY LIMITED |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
----
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-TxGNN 預測分數雖高（99.24%），但點狀上皮角結膜炎並非真菌性疾病的主流表型，機轉連結屬間接推斷，且臨床試驗與文獻證據完全缺如（L5），現階段不具備推進條件。
+- 目前只有 TxGNN 模型預測，沒有任何臨床試驗或文獻支持，機轉上也與此疾病的常見病因缺乏明確關聯。
 
 **若要推進需要：**
-- 確認目標族群：聚焦「真菌性 PEK」此一罕見亞型（免疫低下 / 術後患者），而非所有 PEK
-- 補充基礎證據：搜尋 fluconazole 用於真菌性角膜炎 / 角結膜炎的相關病例報告或觀察性研究
-- 確認香港上市狀態：查閱衛生署資料庫，補齊許可證及仿單警語資訊（DG001）
-- 補充 MOA 詳細資料：查詢 DrugBank API 取得完整藥理機轉（DG002）
-- 若基礎依據確立後，再考慮設計針對真菌性 PEK 的前瞻性觀察性研究
+- 針對 fluconazole 與眼表疾病，進行 PubMed 與 ClinicalTrials.gov 的專項搜尋
+- 確認是否存在黴菌病因的亞群，這是機轉上唯一可能成立的切入點
+- 補齊香港衛生署仿單中的警語與禁忌症
+- 從 DrugBank 補充作用機轉資料
+- 評估給藥途徑（口服、注射或眼用製劑）是否適用於眼表疾病
+
+> 本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

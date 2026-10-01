@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Vilanterol
-parent: 僅模型預測 (L5)
-nav_order: 795
-evidence_level: L5
+parent: 高證據等級 (L1-L2)
+nav_order: 919
+evidence_level: L1
 indication_count: 5
 ---
 
 # Vilanterol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L1** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,118 @@ indication_count: 5
 
 </div>
 
-# Vilanterol：邁向阻塞性肺病（Obstructive Lung Disease）適應症的老藥新用評估
+# Vilanterol：從長效 β2 支氣管擴張劑到阻塞性肺病
 
 ## 一句話總結
 
-Vilanterol（DrugBank ID: DB09082）目前在本 Evidence Pack 中缺乏原始核准適應症與作用機轉紀錄。
-TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有效，
-目前有 **80+ 個臨床試驗**（含多個大型 Phase 3 RCT）和 **20 篇文獻**支持這個方向。
+Vilanterol 是長效 β2 受體促效劑（LABA），主要以複方吸入劑形式使用（如 FF/VI、UMEC/VI、FF/UMEC/VI）。
+TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有效，目前有 **46 個臨床試驗**和 **20 篇文獻**支持，其中多項為已完成的 Phase 3 RCT。
+不過這個預測與其現有用途（COPD 維持治療）高度重疊，更接近**既有適應症的確認**，而非真正的老藥新用。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無資料（原始適應症紀錄未提供，屬資料缺口） |
+| 原適應症 | 來源資料未提供（許可證適應症欄位為空） |
 | 預測新適應症 | 阻塞性肺病 (Obstructive Lung Disease) |
 | TxGNN 預測分數 | 99.97% |
-| 證據等級 | L1（≥2 個已完成的 Phase 3 RCT） |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 |
+| 證據等級 | L1 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 5 張 |
 | 建議決策 | Proceed with Guardrails |
+
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（Evidence Pack 標記為資料缺口 DG002），原始核准適應症也未提供對應紀錄。
+目前缺乏 DrugBank 的詳細作用機轉資料。依藥理類別，Vilanterol 是長效 β2 腎上腺素受體促效劑，透過 β2 受體／cAMP 路徑使氣道平滑肌鬆弛，直接針對 COPD 的氣流受限。
 
-不過從臨床試驗與文獻證據可以觀察到，Vilanterol 作為長效型 β2 受體促效劑 (LABA)，
-在全球已被廣泛以複方形式（與 Fluticasone Furoate、Umeclidinium 等成分組合）
-用於慢性阻塞性肺病 (COPD) 與氣喘的治療，累積了大量 Phase 3 等級的隨機對照試驗證據
-（如 IMPACT、FULFIL、CAPTAIN、SUMMIT 等指標性試驗）。
+阻塞性肺病的核心問題是氣流阻塞，支氣管擴張劑正是對應這個病理環節的藥物。多項 Phase 3 RCT 已證實含 Vilanterol 的複方（FF/VI、UMEC/VI、FF/UMEC/VI）可改善肺功能與健康狀態。因此預測在機轉與臨床上都說得通。
 
-這些試驗的治療族群與終點高度集中於「阻塞性肺病」的氣流限制、急性惡化與肺功能改善，
-與 TxGNN 預測的新適應症具有直接的臨床一致性。換言之，此預測方向與該成分已被驗證的
-臨床應用範疇高度吻合，機轉上的合理性可由既有大規模 RCT 佐證，但仍需補齊正式的 MOA
-與原適應症紀錄以完善審查基礎。
+有兩點需要注意：
+- 現有證據幾乎都來自**複方**試驗，Vilanterol 單獨的貢獻無法單獨分離。
+- 此藥已在 COPD 使用，原適應症欄位為空，很可能是來源資料缺漏，而非真的沒有適應症。
+
+---
 
 ## 臨床試驗證據
 
+共檢索到 46 個試驗，以下列出 10 個最相關者。
+
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT01313676](https://clinicaltrials.gov/study/NCT01313676) | Phase 3 | 完成 | 16568 | FF/Vilanterol 對中度 COPD 合併心血管疾病風險患者存活率的影響（SUMMIT 試驗） |
-| [NCT02924688](https://clinicaltrials.gov/study/NCT02924688) | Phase 3 | 完成 | 2436 | FF/UMEC/VI 三合一療法 vs FF/VI 雙合一於控制不佳氣喘患者之療效比較 |
-| [NCT02345161](https://clinicaltrials.gov/study/NCT02345161) | Phase 3 | 完成 | 1811 | FF/UMEC/VI 每日一次 vs Budesonide/Formoterol 每日兩次於 COPD 之肺功能與健康狀態改善 |
-| [NCT02105974](https://clinicaltrials.gov/study/NCT02105974) | Phase 3 | 完成 | 1621 | FF/VI 100/25mcg vs VI 25mcg 單方於 COPD 之肺功能貢獻度評估 |
-| [NCT02729051](https://clinicaltrials.gov/study/NCT02729051) | Phase 3 | 完成 | 1055 | 「封閉式」三合一（FF/UMEC/VI）vs「開放式」三合一（FF/VI + UMEC）於 COPD 肺功能比較 |
-| [NCT01686633](https://clinicaltrials.gov/study/NCT01686633) | Phase 3 | 完成 | 1040 | FF/VI 200/25mcg 與 100/25mcg 兩劑量及 FF 單方於持續性氣喘之療效比較 |
-| [NCT03219255](https://clinicaltrials.gov/study/NCT03219255) | N/A | 完成 | 1047 | Relvar 100 Ellipta（FF/VI）於 COPD 長期臨床實務之特殊藥物使用調查 |
-| [NCT01316913](https://clinicaltrials.gov/study/NCT01316913) | Phase 3 | 完成 | 872 | UMEC/VI 兩劑量 vs UMEC 單方 vs Tiotropium 於 COPD 之療效與安全性比較 |
-| [NCT01822899](https://clinicaltrials.gov/study/NCT01822899) | Phase 3 | 完成 | 717 | UMEC/VI vs Fluticasone Propionate/Salmeterol 於 COPD 之療效與安全性比較 |
-| [NCT03478696](https://clinicaltrials.gov/study/NCT03478696) | Phase 4 | 完成 | 732 | 單一吸入器三合一（FF/UMEC/VI）vs 多吸入器療法（Budesonide/Formoterol + Tiotropium）於 COPD 之肺功能與症狀比較 |
+| [NCT01313676](https://clinicaltrials.gov/study/NCT01313676) | Phase 3 | 完成 | 16568 | FF/VI 對比安慰劑，評估中度 COPD 且有心血管風險患者的存活率 |
+| [NCT02345161](https://clinicaltrials.gov/study/NCT02345161) | Phase 3 | 完成 | 1811 | FF/UMEC/VI 對比 budesonide/formoterol，24 週肺功能與健康狀態 |
+| [NCT01316913](https://clinicaltrials.gov/study/NCT01316913) | Phase 3 | 完成 | 872 | UMEC/VI 對比 UMEC 單方及 tiotropium，24 週療效與安全性 |
+| [NCT02729051](https://clinicaltrials.gov/study/NCT02729051) | Phase 3 | 完成 | 1055 | 單一吸入器三合一療法與 FF/VI + UMEC 開放式三合一療法比較，24 週 |
+| [NCT01336608](https://clinicaltrials.gov/study/NCT01336608) | Phase 3 | 完成 | 446 | FF/VI 對 COPD 患者動脈硬度的影響，24 週 |
+| [NCT02105974](https://clinicaltrials.gov/study/NCT02105974) | Phase 3 | 完成 | 1621 | FF/VI 對比 VI 單方，評估 FF 對肺功能的貢獻，12 週 |
+| [NCT01323634](https://clinicaltrials.gov/study/NCT01323634) | Phase 3 | 完成 | 519 | FF/VI 對比 fluticasone propionate/salmeterol，24 小時肺功能 |
+| [NCT01822899](https://clinicaltrials.gov/study/NCT01822899) | Phase 3 | 完成 | 717 | UMEC/VI 對比 fluticasone propionate/salmeterol，12 週 |
+| [NCT02152605](https://clinicaltrials.gov/study/NCT02152605) | Phase 3 | 完成 | 498 | UMEC/VI 對比安慰劑，生活品質與症狀，12 週 |
+| [NCT03474081](https://clinicaltrials.gov/study/NCT03474081) | Phase 4 | 完成 | 800 | 單一吸入器三合一療法對比 tiotropium 單方，12 週 |
+
+另有多項氣喘（asthma）試驗，如 NCT02924688（n=2436）和 NCT01686633（n=1040）。這些屬於不同適應症，此處不列入。
+
+---
 
 ## 文獻證據
 
+共檢索到 20 篇文獻，以下列出 10 篇（RCT 與其事後分析優先，其次為統合分析與觀察性研究）。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [29668352](https://pubmed.ncbi.nlm.nih.gov/29668352/) | 2018 | RCT | New England Journal of Medicine | IMPACT 試驗：COPD 患者單一吸入器三合一療法 vs 雙合一療法比較 |
-| [28375647](https://pubmed.ncbi.nlm.nih.gov/28375647/) | 2017 | RCT | American Journal of Respiratory and Critical Care Medicine | FULFIL 試驗：COPD 患者每日一次三合一療法療效驗證 |
-| [32918892](https://pubmed.ncbi.nlm.nih.gov/32918892/) | 2021 | RCT | The Lancet Respiratory Medicine | CAPTAIN 試驗：FF/UMEC/VI 三合一 vs FF/VI 於控制不佳氣喘之療效與安全性 |
-| [29094315](https://pubmed.ncbi.nlm.nih.gov/29094315/) | 2017 | RCT | Advances in Therapy | UMEC/VI 與 Tiotropium/Olodaterol 於症狀性 COPD 之療效直接比較 |
-| [35849317](https://pubmed.ncbi.nlm.nih.gov/35849317/) | 2022 | Meta-analysis | Advances in Therapy | FF/UMEC/VI 與其他 COPD 療法之網絡統合分析 |
-| [39696097](https://pubmed.ncbi.nlm.nih.gov/39696097/) | 2024 | Systematic Review/Meta-analysis | BMC Pulmonary Medicine | UMEC/VI 與其他支氣管擴張劑於 COPD 治療之系統性回顧與統合分析 |
-| [31389190](https://pubmed.ncbi.nlm.nih.gov/31389190/) | 2019 | Systematic Review | The Clinical Respiratory Journal | UMEC/VI 固定劑量複方於 COPD 之系統性回顧 |
-| [32162970](https://pubmed.ncbi.nlm.nih.gov/32162970/) | 2020 | RCT (事後分析) | American Journal of Respiratory and Critical Care Medicine | FF/UMEC/VI 降低 COPD 患者全因死亡率（IMPACT 試驗事後分析） |
-| [39797646](https://pubmed.ncbi.nlm.nih.gov/39797646/) | 2024 | Cohort Study | BMJ | 單一吸入器三合一療法於 COPD 之療效與安全性比較（新使用者世代研究） |
-| [37213116](https://pubmed.ncbi.nlm.nih.gov/37213116/) | 2023 | Cohort Study | JAMA Internal Medicine | 複方吸入劑新使用者之 COPD 急性惡化與肺炎住院比較 |
+| [29668352](https://pubmed.ncbi.nlm.nih.gov/29668352/) | 2018 | RCT | N Engl J Med | IMPACT 試驗：每日一次單一吸入器三合一療法與雙重療法比較 |
+| [32918892](https://pubmed.ncbi.nlm.nih.gov/32918892/) | 2021 | RCT | Lancet Respir Med | CAPTAIN 試驗：FF/UMEC/VI 對比 FF/VI 用於控制不佳的氣喘 |
+| [28375647](https://pubmed.ncbi.nlm.nih.gov/28375647/) | 2017 | 試驗摘要 | Am J Respir Crit Care Med | FULFIL 試驗：三合一療法對比 ICS/LABA 雙重療法 |
+| [32162970](https://pubmed.ncbi.nlm.nih.gov/32162970/) | 2020 | RCT 事後分析 | Am J Respir Crit Care Med | FF/UMEC/VI 相較 UMEC/VI 降低全因死亡率 |
+| [31281061](https://pubmed.ncbi.nlm.nih.gov/31281061/) | 2019 | RCT 事後分析 | Lancet Respir Med | 血中嗜酸性球數與三合一／雙重療法療效的關係 |
+| [39696097](https://pubmed.ncbi.nlm.nih.gov/39696097/) | 2024 | 統合分析 | BMC Pulm Med | UMEC/VI 與其他支氣管擴張劑的療效比較 |
+| [35849317](https://pubmed.ncbi.nlm.nih.gov/35849317/) | 2022 | 網絡統合分析 | Adv Ther | FF/UMEC/VI 與其他三合一及雙重療法的療效比較 |
+| [29094315](https://pubmed.ncbi.nlm.nih.gov/29094315/) | 2017 | 隨機研究 | Adv Ther | UMEC/VI 與 tiotropium/olodaterol 的首次直接比較 |
+| [39797646](https://pubmed.ncbi.nlm.nih.gov/39797646/) | 2024 | 世代研究 | BMJ | 兩種單一吸入器三合一療法的真實世界療效與安全性比較 |
+| [28956463](https://pubmed.ncbi.nlm.nih.gov/28956463/) | 2017 | 回顧 | Expert Rev Respir Med | FF/VI 用於穩定期 COPD 的角色 |
+
+---
 
 ## 香港上市資訊
 
-Vilanterol 目前在香港**未上市**，無許可證資料。
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-62693 | RELVAR ELLIPTA 吸入粉劑 100/25 mcg | GlaxoSmithKline Limited |
+| HK-62694 | RELVAR ELLIPTA 吸入粉劑 200/25 mcg | GlaxoSmithKline Limited |
+| HK-63414 | ANORO ELLIPTA 吸入粉劑 62.5/25 mcg | GlaxoSmithKline Limited |
+| HK-65911 | TRELEGY ELLIPTA 吸入粉劑 100/62.5/25 mcg | GlaxoSmithKline Limited |
+| HK-67942 | TRELEGY ELLIPTA 吸入粉劑 200/62.5/25 mcg | GlaxoSmithKline Limited |
+
+資料中未提供核准適應症文字，需另行向衞生署查證。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。目前缺乏香港仿單警語、禁忌症與藥物交互作用資料（資料缺口 DG001，嚴重度：Blocking），此為進入安全性初評 (S1) 前須補齊的關鍵項目。
+安全性資訊請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 國際間已有多個大型已完成 Phase 3 RCT（如 IMPACT、FULFIL、CAPTAIN、SUMMIT）支持 Vilanterol 相關複方於阻塞性肺病的療效，證據等級達 L1。
-- 然而香港仿單警語/禁忌症資料為 Blocking 等級缺口，且該藥目前未在香港上市（0 張許可證），在補齊安全性資料前不宜直接推進。
+有多項已完成的 Phase 3 RCT（含 16,568 人的存活率研究）與高品質文獻支持含 Vilanterol 的複方用於 COPD，證據等級為 L1，且已在香港上市。但這屬於既有用途，證據來自複方，且安全性資料有缺口，因此以附帶條件方式推進。
 
 **若要推進需要：**
-- 取得香港/原廠仿單之警語、禁忌症與藥物交互作用資料，完成 S1 安全性初評
-- 補齊 Vilanterol 的詳細作用機轉 (MOA) 資料
-- 確認原始核准適應症紀錄，釐清此候選是否為既有適應症之在地化上市申請，而非全新老藥新用假說
+- 向衞生署查證各許可證的核准適應症，確認 COPD 是否已在標示內，並注意氣喘適應症具地區差異
+- 取得香港仿單的警語與禁忌症
+- 補充 DrugBank 的作用機轉資料
+- 釐清 Vilanterol 單獨的貢獻，目前證據多為複方試驗
+
+另外，排名第 2 至 5 的預測（間質性肺氣腫、代償性肺氣腫、透亮肺、氣管狹窄）目前證據不足或缺乏機轉依據，建議全部 **Hold**。
+
+*本報告僅供研究參考，不構成醫療建議，老藥新用候選需經臨床驗證後才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

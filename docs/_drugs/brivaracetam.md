@@ -2,15 +2,15 @@
 layout: default
 title: Brivaracetam
 parent: 中證據等級 (L3-L4)
-nav_order: 112
-evidence_level: L3
+nav_order: 127
+evidence_level: L4
 indication_count: 10
 ---
 
 # Brivaracetam
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+證據等級: **L4** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ indication_count: 10
 
 </div>
 
-# Brivaracetam：從局部發作性癲癇到視覺性癲癇
+# Brivaracetam：從局灶性癲癇到視覺性癲癇
 
 ## 一句話總結
 
-Brivaracetam（BRV）是第三代抗發作藥物，已在美國、歐盟等多國核准用於**局部發作性癲癇（Focal-onset Seizures）**的輔助或單藥治療，但香港目前尚無許可證登記。TxGNN 模型預測它可能對**視覺性癲癇（Visual Epilepsy，即光敏性癲癇）**有效，目前有 **0 個臨床試驗**登記，並有 **19 篇文獻**提供間接機轉支持。
+Brivaracetam（商品名 BRIVIACT）是一種抗癲癇藥物，文獻記載其用於局灶性癲癇發作的輔助或單一治療。
+TxGNN 模型預測它可能對**視覺性癲癇 (Visual Epilepsy)** 有效，但目前**沒有相關臨床試驗**，19 篇文獻多為一般癲癇的綜述，沒有直接針對此適應症的證據。
+證據等級僅為 **L4**，目前只能視為研究假說。
 
 ---
 
@@ -41,46 +43,66 @@ Brivaracetam（BRV）是第三代抗發作藥物，已在美國、歐盟等多�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 局部發作性癲癇（Focal-onset Seizures） |
-| 預測新適應症 | 視覺性癲癇（Visual Epilepsy） |
+| 原適應症 | 香港許可證未載明；依文獻為局灶性癲癇發作（輔助或單一治療） |
+| 預測新適應症 | 視覺性癲癇 (Visual Epilepsy) |
 | TxGNN 預測分數 | 99.51% |
-| 證據等級 | L3 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L4 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 6 張 |
 | 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-BRV 是 levetiracetam（LEV）的丙基類似物，核心機轉為高親和力結合**突觸囊泡蛋白 2A（SV2A）**——SV2A 是突觸傳遞的關鍵調節蛋白，BRV 對其結合親和力較 LEV 高出 **15–30 倍**，且腦滲透速度更快，能更迅速抑制皮質過度同步放電。
+DrugBank 的 MOA 欄位目前沒有資料，以下機轉引自文獻。Brivaracetam 是高親和力的突觸囊泡蛋白 2A（SV2A）配體，是 levetiracetam 的丙基類似物。它與 SV2A 的結合力比 levetiracetam 高約 15–30 倍，腦部穿透也較快（PMID 32120063、18500360、38811492）。
 
-視覺性癲癇屬**反射性癲癇**的一種，由閃光或視覺刺激誘發，核心病生理涉及視覺皮質的過度同步興奮。由於 BRV 的 SV2A 抑制機轉廣泛適用於多種局部發作類型，理論上可抑制視覺刺激誘發的皮質同步放電。多份文獻確認 BRV 在包含光誘發模型在內的多種動物發作模型中展現高效抗發作活性（PMID 38811492、40568060）。
+視覺性癲癇即光敏感性癲癇，特徵是閃光刺激會引發腦電圖的光誘發陣發性反應（PPR）。這是癲癇發作的一種，與局灶性癲癇同屬神經元過度興奮。SV2A 調節是否能抑制這類發作，在機轉上說得通。
 
-此外，BRV 在早期光敏性模型研究（photoparoxysmal response, PPR 模型）中已顯示能消除 EEG 光發作性反應，並在 Phase IIa 隨機雙盲交叉試驗中確認其 CNS 起效速度快於 LEV，為此預測提供機轉層面的可信度基礎。然而，目前所收集的 19 篇文獻以局部癲癇一般性療效和安全性研究為主，尚無直接針對視覺性癲癇此特定適應症的介入試驗。
+有兩項研究比模型預測更貼近這個適應症，但它們在資料包中列在其他預測適應症下：
+- **光敏感模型研究**（PMID 17785672）：以光敏感模型評估 brivaracetam 的療效概念驗證。
+- **隨機雙盲交叉試驗**（PMID 32949370）：在光敏感癲癇患者中比較 brivaracetam 與 levetiracetam 對 PPR 的起效速度。
+
+這兩項研究若確認直接對應本適應症，證據等級有機會上調至 L2/L3。目前 TxGNN 分數（0.995）仍只是模型預測。
 
 ---
 
 ## 臨床試驗證據
 
-目前無針對視覺性癲癇的相關臨床試驗登記。
+目前無相關臨床試驗登記。
 
 ---
 
 ## 文獻證據
 
+此適應症下檢索到的 19 篇文獻，多為一般癲癇、懷孕與癲癇持續狀態的綜述，沒有一篇專門針對視覺性癲癇。下表優先列出與光敏感模型最相關的研究，其次為 RCT 與綜述。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [38811492](https://pubmed.ncbi.nlm.nih.gov/38811492/) | 2024 | Narrative Review | Advances in therapy | BRV 前臨床特徵（含光敏性模型資料）與癲癇臨床效益之系統性敘述回顧 |
-| [40568060](https://pubmed.ncbi.nlm.nih.gov/40568060/) | 2025 | Narrative Review | Journal of epilepsy research | BRV 藥理、臨床療效與安全性全面回顧；確認高 SV2A 親和力及快速血腦屏障穿透為核心優勢 |
-| [38576178](https://pubmed.ncbi.nlm.nih.gov/38576178/) | 2024 | Phase III RCT | Epilepsia open | 亞洲成人局部發作患者第 III 期隨機雙盲安慰劑對照試驗，確認亞洲族群療效與耐受性 |
-| [31195850](https://pubmed.ncbi.nlm.nih.gov/31195850/) | 2019 | RCT Pooled | Expert review of neurotherapeutics | 匯總 RCT 分析：BRV 局部癲癇療效與安全性，並與 LEV 特性詳細比較 |
-| [31937513](https://pubmed.ncbi.nlm.nih.gov/31937513/) | 2020 | Pooled Safety Analysis | Epilepsy & behavior | 深入匯總安全性分析：BRV 輔助治療局部發作的不良反應全貌 |
-| [38970892](https://pubmed.ncbi.nlm.nih.gov/38970892/) | 2024 | Observational Cohort | Epilepsy & behavior | EXPERIENCE 研究：BRV 在老年（≥65歲）與青壯年癲癇患者的真實世界療效與耐受性比較 |
-| [39664134](https://pubmed.ncbi.nlm.nih.gov/39664134/) | 2024 | Systematic Review | Cureus | BRV 在成人與兒童癲癇管理角色的系統性回顧；涵蓋換藥原因及療效評估 |
-| [37483441](https://pubmed.ncbi.nlm.nih.gov/37483441/) | 2023 | Systematic Review / Meta-analysis | Frontiers in neurology | 兒童癲癇 BRV 安全性與療效系統性回顧及 Meta 分析 |
-| [32120063](https://pubmed.ncbi.nlm.nih.gov/32120063/) | 2020 | Review | Neuropharmacology | 現行抗癲癇藥物作用機轉綜述，含 BRV 的 SV2A 調控路徑詳述 |
-| [26165169](https://pubmed.ncbi.nlm.nih.gov/26165169/) | 2015 | Meta-analysis | Expert opinion on pharmacotherapy | 不同劑量 BRV（50/100/200 mg）輔助治療局部發作之療效與安全性 Meta 分析 |
+| [32949370](https://pubmed.ncbi.nlm.nih.gov/32949370/) | 2020 | RCT（交叉） | CNS Drugs | 光敏感癲癇患者中，比較 brivaracetam 與 levetiracetam 對光誘發陣發性反應的起效速度（列於其他預測適應症下） |
+| [38576178](https://pubmed.ncbi.nlm.nih.gov/38576178/) | 2024 | RCT（Phase III） | Epilepsia Open | 亞洲成人未控制局灶性發作患者的輔助 brivaracetam 療效與安全性（非視覺性癲癇） |
+| [17785672](https://pubmed.ncbi.nlm.nih.gov/17785672/) | 2007 | 光敏感模型研究 | Neurology | 以光敏感模型評估 brivaracetam，作為癲癇療效的概念驗證（列於其他預測適應症下） |
+| [32120063](https://pubmed.ncbi.nlm.nih.gov/32120063/) | 2020 | Review | Neuropharmacology | 現行抗癲癇藥物的作用機轉回顧，涵蓋 SV2A 配體 |
+| [40568060](https://pubmed.ncbi.nlm.nih.gov/40568060/) | 2025 | Review | J Epilepsy Res | Brivaracetam 的藥理、療效與安全性；已核准用於局灶性發作 |
+| [31195850](https://pubmed.ncbi.nlm.nih.gov/31195850/) | 2019 | Review | Expert Rev Neurother | Brivaracetam 用於局灶性癲癇的療效與耐受性 |
+| [38811492](https://pubmed.ncbi.nlm.nih.gov/38811492/) | 2024 | Review | Adv Ther | Brivaracetam 的前臨床特性與臨床效益 |
+| [39664134](https://pubmed.ncbi.nlm.nih.gov/39664134/) | 2024 | 系統性回顧 | Cureus | Brivaracetam 用於成人與兒童癲癇的角色 |
+| [37483441](https://pubmed.ncbi.nlm.nih.gov/37483441/) | 2023 | 系統性回顧與統合分析 | Front Neurol | Brivaracetam 用於兒童癲癇的安全性與療效 |
+| [26165169](https://pubmed.ncbi.nlm.nih.gov/26165169/) | 2015 | 統合分析 | Expert Opin Pharmacother | 不同劑量 brivaracetam 用於部分發作癲癇的療效與安全性 |
+
+---
+
+## 香港上市資訊
+
+Brivaracetam 在香港共有 6 張許可證，皆由 UCB Pharma (Hong Kong) Limited 持有。下表列出其中 5 張，許可證資料中沒有核准適應症與劑型文字。
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-65942 | BRIVIACT Solution for Injection/Infusion 50mg/5ml | UCB Pharma (Hong Kong) Limited |
+| HK-65939 | BRIVIACT Tablets 100mg | UCB Pharma (Hong Kong) Limited |
+| HK-65943 | BRIVIACT Tablets 50mg | UCB Pharma (Hong Kong) Limited |
+| HK-65940 | BRIVIACT Oral Solution 10mg/ml | UCB Pharma (Hong Kong) Limited |
+| HK-65938 | BRIVIACT Tablets 10mg | UCB Pharma (Hong Kong) Limited |
 
 ---
 
@@ -95,14 +117,19 @@ BRV 是 levetiracetam（LEV）的丙基類似物，核心機轉為高親和力�
 **決策：Hold**
 
 **理由：**
-BRV 的 SV2A 機轉對視覺性（光敏性）癲癇具有理論支持，且已有早期光敏性模型的間接臨床數據（見相關文獻脈絡），然而目前針對此特定適應症無任何臨床試驗登記，現有 19 篇文獻亦以一般局部癲癇療效資料為主，缺乏直接介入證據；加以 BRV 在香港尚無上市許可，整體條件尚不成熟，建議先深化研究問題的科學論證再推進。
+- 視覺性癲癇沒有任何臨床試驗登記，文獻也沒有直接針對此適應症的證據，目前僅有機轉合理性與模型預測。
+- 香港衛生署仿單的警語與禁忌資料尚未取得（DG001，阻斷性缺口），無法進入安全性篩選。
 
 **若要推進需要：**
-- 針對光敏性癲癇（PPR 陽性患者）設計前瞻性概念驗證研究（Phase IIa）
-- 補充完整作用機轉資料（DrugBank MOA 及 TFDA 仿單安全性警語）
-- 系統性整合現有光敏性模型（PPR model）臨床資料，建立更完整的間接證據鏈
-- 評估香港罕見癲癇症候群的未被滿足臨床需求，確認 BRV 的差異化市場定位
-- 如具備優先適應症，可評估向香港衛生署申請孤兒藥認定或恩慈使用資格
+- 確認 PMID 32949370 與 17785672 的光敏感（PPR）人體資料是否直接對應視覺性癲癇。若成立，可重新評估證據等級。
+- 取得香港衛生署仿單，補齊警語、禁忌與交互作用資料。
+- 補充 DrugBank 的 MOA 資料。
+
+**其他預測適應症的參考訊號：**
+- **癲癇持續狀態 (Status Epilepticus)**（L3）是本組預測中證據最強的一項。已有 2 篇靜脈注射 brivaracetam 的系統性回顧（PMID 32278203、31342405），以及一項已完成的兒童頭對頭試驗 NCT07163572（152 人，對照 levetiracetam）。該試驗階段為 NA，且無公開結果，多數證據來自回溯性與觀察性資料，尚無 Phase 2/3 RCT。
+- **β-酮硫解酶缺乏症 (Beta-ketothiolase Deficiency)** 沒有合理的 SV2A 機轉與臨床證據，疑為知識圖譜假象，不建議推進。
+
+*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Adenosine
-parent: 中證據等級 (L3-L4)
-nav_order: 24
-evidence_level: L4
+parent: 僅模型預測 (L5)
+nav_order: 25
+evidence_level: L5
 indication_count: 2
 ---
 
 # Adenosine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,102 +29,76 @@ indication_count: 2
 
 </div>
 
-# Adenosine：從上心室性心搏過速到兒茶酚胺誘發性多型性室性心搏過速
+# Adenosine：從原適應症（資料未載明）到束支傳導阻滯（已淘汰術語）
 
 ## 一句話總結
 
-Adenosine 是人體內源性嘌呤核苷，臨床上已廣泛用於終止上心室性心搏過速（SVT）的急性發作。TxGNN 模型預測它可能對**兒茶酚胺誘發性多型性室性心搏過速（Catecholaminergic Polymorphic Ventricular Tachycardia, CPVT）**有效，目前有 **1 個臨床試驗**（腺苷 A1 受體路徑間接驗證）和 **13 篇文獻**（含 1 篇直接病例報告）支持這個方向。
-
-> ℹ️ **注意**：TxGNN 排名第 1 的預測（Obsolete Bundle Branch Block）因疾病本體術語已廢棄（MONDO retired term），評分被判定為知識圖譜殘留訊號（artifact），不具臨床意義，本報告以排名第 2 的 CPVT 為主要評估對象。
-
----
+Adenosine（腺苷）在香港已上市，但本次資料中沒有記載原適應症。
+TxGNN 模型預測它可能對**束支傳導阻滯 (obsolete bundle branch block)** 有效。
+這個預測目前沒有任何臨床試驗或文獻支持，且該疾病名稱在本體論中已被標為「淘汰」。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 上心室性心搏過速（SVT）（香港無上市許可，依通用醫學知識填入） |
-| 預測新適應症 | 兒茶酚胺誘發性多型性室性心搏過速（CPVT） |
-| TxGNN 預測分數 | 99.42% |
-| 證據等級 | L4 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 預測新適應症 | 束支傳導阻滯 (obsolete bundle branch block) |
+| TxGNN 預測分數 | 99.94% |
+| 證據等級 | L5（僅有模型預測） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 3 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-**Adenosine 的作用機轉**
+目前缺乏詳細的作用機轉資料。因此無法用輸入資料檢驗 adenosine 對束支傳導阻滯是否有機轉上的合理性。
 
-Adenosine 透過激活腺苷 A1 受體（A1R），耦合 Gi 蛋白抑制腺苷酸環化酶（adenylyl cyclase），降低細胞內 cAMP 濃度，進而減弱蛋白激酶 A（PKA）活性。在心臟中，此機轉可快速抑制房室結（AV node）傳導，使其成為終止折返性 SVT 的標準急救用藥。
+已知 adenosine 會抑制房室結傳導。對已有傳導阻滯的患者，這種作用不但無法治療，還可能使情況惡化。所以從機轉推論，這個預測並不合理。
 
-**CPVT 的致病路徑與腺苷的理論對抗機轉**
-
-CPVT 的核心病理為 RyR2（心臟型 ryanodine receptor 2）功能增益突變，導致交感刺激（兒茶酚胺釋放）期間細胞內 Ca²⁺ 異常外漏，引發延遲後去極化（DAD）及致命性室性心搏過速。致病路徑可簡述如下：
-
-> **兒茶酚胺 → β-AR → ↑cAMP → PKA 磷酸化 RyR2（Ser2808/Ser2814）→ DAD → 室速**
-
-腺苷的訊號路徑恰好逆向而行：
-
-> **A1R 激動 → Gi → ↓腺苷酸環化酶 → ↓cAMP → ↓PKA 活性 → ↓RyR2 過度磷酸化**
-
-理論上，腺苷可藉由降低 cAMP/PKA 活性，對抗兒茶酚胺誘發的鈣離子失調，從而預防或終止 CPVT 發作。
-
-**直接臨床佐證**
-
-PMID 18313614（2008）提供最直接的臨床證據：一位 CPVT 患者在雙向性室性心搏過速（bidirectional VT）發作期間，靜脈注射 ATP（在體內迅速代謝為腺苷）後，心律成功終止並恢復正常。PMID 23747301（2013）的體外實驗進一步揭示，ATP 可與 CPVT 突變相關的 RyR2 中央結構域直接結合，從分子層面強化了機轉的合理性。此外，AGP100（選擇性 A1 腺苷受體激動劑）已進入 Phase 2a 臨床試驗（NCT07263139），顯示腺苷 A1R 路徑已受到業界認可，正式進入 CPVT 的臨床驗證階段。
-
----
+此外，「obsolete bundle branch block」是本體論中被標示為淘汰的疾病名稱，很可能是舊版或重複的節點，不是臨床上可執行的適應症。高分可能只是模型在知識圖譜上的假象。
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT07263139](https://clinicaltrials.gov/study/NCT07263139) | Phase 2a | 招募中 | 10 | 研究 AGP100（選擇性 A1 腺苷受體激動劑）用於 CPVT 患者的安全性、耐受性與初步臨床療效；AGP100 與腺苷共享 Gi/cAMP 下游訊號，屬腺苷 A1R 路徑在 CPVT 的首個 Phase 2 臨床驗證，預計 2027 年 6 月完成 |
-
-> ⚠️ **注意**：此試驗的研究藥物為 AGP100，而非腺苷本身，屬路徑間接驗證（B 級相關性）。樣本數極小（n=10），目前仍在招募中，尚無公布結果。
-
----
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [18313614](https://pubmed.ncbi.nlm.nih.gov/18313614/) | 2008 | Case Report | Heart Rhythm | **直接佐證**：靜脈注射 ATP（代謝為腺苷）成功終止 CPVT 患者的雙向性室性心搏過速，為腺苷用於 CPVT 提供最直接的臨床案例 |
-| [23747301](https://pubmed.ncbi.nlm.nih.gov/23747301/) | 2013 | In vitro mechanistic | Biochim Biophys Acta | ATP 與 CPVT 突變相關 RyR2 中央結構域直接結合，揭示腺苷核苷酸在 RyR2 分子層面的作用位點，強化機轉合理性 |
-| [38776406](https://pubmed.ncbi.nlm.nih.gov/38776406/) | 2024 | Translational/Animal | Cardiovascular Research | PDE2A/4B 基因療法透過改善 cAMP 細胞內區域分隔，有效防治心臟衰竭與心律不整，支持 ↓cAMP/PKA 路徑作為治療靶點的可行性 |
-| [41691612](https://pubmed.ncbi.nlm.nih.gov/41691612/) | 2026 | In vitro organoid | J Physiol | 人類心臟-神經微組織模型揭示 CPVT 亦是交感神經元層面的疾病，強調腎上腺素能訊號路徑（腺苷作用的對立路徑）在 CPVT 中的核心角色 |
-| [40165484](https://pubmed.ncbi.nlm.nih.gov/40165484/) | 2025 | Clinical Review (多學會共識) | Europace | ESC/HRS/APHRS 等多學會共識聲明：心電生理藥物誘發試驗指引，包含 CPVT 診斷建議與腺苷相關藥物的使用規範 |
-| [35577932](https://pubmed.ncbi.nlm.nih.gov/35577932/) | 2022 | Basic science | Communications Biology | TECRL 缺失導致心肌細胞粒線體功能異常，與 CPVT 部分表型相關，提示疾病異質性 |
-| [30209242](https://pubmed.ncbi.nlm.nih.gov/30209242/) | 2018 | Translational | Science Translational Medicine | SR Ca²⁺ 外漏（RyR2 路徑）是心律不整的關鍵機轉，選擇性 RyR2 穩定劑（rycal S36）可改善動物模型存活率 |
-| [23858002](https://pubmed.ncbi.nlm.nih.gov/23858002/) | 2013 | Mechanistic | J General Physiology | Calsequestrin 對 RyR2 的腔內 Ca²⁺ 調控機制，在 CPVT 病理條件下功能異常 |
-| [21699856](https://pubmed.ncbi.nlm.nih.gov/21699856/) | 2011 | Observational/Case series | Heart Rhythm | RyR2 突變 CPVT 患者後起搏異常再極化現象；電生理研究（EPS）對 CPVT 診斷價值有限 |
-| [18368865](https://pubmed.ncbi.nlm.nih.gov/18368865/) | 2007 | Clinical Review | J Assoc Physicians India | 結構正常心臟室性心搏過速（含 CPVT）的分類與治療邏輯；涵蓋腺苷反應性心律不整的診斷意義 |
+目前無相關文獻。
 
----
+## 香港上市資訊
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-43112 | ADENOSCAN INJ 3MG/ML | SANOFI HONG KONG LIMITED |
+| HK-18525 | HEPATOSWISS FOR IV INFUSION INJ | WILCOME PHARMACEUTICAL CO LTD |
+| HK-18057 | HEPATOSWISS IM INJ | WILCOME PHARMACEUTICAL CO LTD |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
-> ⚠️ **特別提示**：Adenosine 在已知高度房室傳導阻斷、病竇症候群或嚴重低血壓患者中為禁忌。CPVT 患者在使用腺苷前，須先排除同時存在的傳導系統異常，且應在備有除顫器的監護環境下給藥。Adenosine 半衰期極短（＜10 秒），若考慮慢性 CPVT 管理需額外評估用藥策略。
-
----
+另外，依上述機轉推論，adenosine 的房室結抑制作用可能加重既有的傳導阻滯，這是本預測的主要安全疑慮。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-Adenosine 對 CPVT 具有強力的機轉合理性（cAMP/PKA 路徑的鏡像對抗），且有 1 篇病例報告（PMID 18313614）提供直接臨床佐證，A1R 路徑亦已進入 Phase 2a 臨床驗證（AGP100）。然而，針對腺苷本身的直接臨床試驗缺失，現有資料僅達 L4 證據等級，且香港無上市許可，尚不具備直接推進條件。
+- 這個預測只有模型分數，沒有試驗或文獻佐證，疾病名稱本身也已淘汰。
+- adenosine 的已知電生理作用不支持用於傳導阻滯，甚至可能有害。
 
 **若要推進需要：**
-- 補充 DrugBank 完整 MOA 資料，確認腺苷 A1R 路徑的藥理細節及已知交互作用
-- 系統性文獻回顧：彙整所有 ATP/腺苷用於心室心律不整（尤其 CPVT）的個案報告與機轉研究
-- 密切追蹤 NCT07263139（AGP100 Phase 2a）結果，評估 A1R 激動路徑在 CPVT 的臨床可行性與安全性
-- 評估腺苷超短半衰期（＜10 秒）對慢性 CPVT 管理的根本限制，研究長效 A1R 激動劑或口服前體藥物（prodrug）的開發可能性
-- 若追蹤 AGP100 結果正面，考慮設計針對腺苷（或 ATP）用於急性 CPVT 終止的 Proof-of-Concept 小型研究，並向相關藥監機構申請審查
+- 確認該疾病節點對應到目前有效的疾病術語，或確認它只是重複節點
+- 補齊 adenosine 的作用機轉資料（DrugBank）
+- 取得香港衞生署仿單的警語、禁忌與核准適應症
+- 若確認無有效對應，建議不再往此方向投入
+
+**補充觀察（排名第 2 的預測）：**
+TxGNN 對**兒茶酚胺敏感型多形性心室頻脈 (CPVT)** 的預測分數為 99.42%，證據等級為 L4，屬於「研究問題」而非治療建議。
+- **臨床試驗：** 僅有 1 個 Phase 2a 試驗（NCT07263139，10 人，招募中），但試驗藥物是 AGP100，與 adenosine 無關。
+- **文獻：** 有 1 篇個案報告（PMID 18313614）指出 adenosine triphosphate (ATP) 可終止 CPVT 的雙向性心室頻脈，另有 ATP 與 RyR2 的前臨床研究。這些都不是 adenosine 本身的證據。
+- **後續方向：** 若要探索，較合理的問題是急性終止心律或診斷用途，不是長期治療。
+
+本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經過臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

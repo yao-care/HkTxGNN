@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Perampanel
-parent: 高證據等級 (L1-L2)
-nav_order: 573
-evidence_level: L2
+parent: 中證據等級 (L3-L4)
+nav_order: 668
+evidence_level: L3
 indication_count: 5
 ---
 
 # Perampanel
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **5** 個
+證據等級: **L3** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,105 @@ indication_count: 5
 
 </div>
 
-# Perampanel：從癲癇到視覺誘發型癲癇
+# Perampanel：從局部與全身強直陣攣癲癇發作到視覺性癲癇
 
 ## 一句話總結
 
-Perampanel 是一種選擇性非競爭性 AMPA 型麩胺酸受體拮抗劑，原本用於治療部分發作型（focal-onset）與續發性全身性強直陣攣型癲癇。
-TxGNN 模型預測它可能對**視覺誘發型癲癇 (Visual Epilepsy)** 有效，
-目前有 **3 個臨床試驗**和 **20 篇文獻**支持這個方向，但尚無試驗直接以此亞型為入組標準設計。
+Perampanel（吡侖帕奈）是一種 AMPA 受體拮抗劑，原本用於癲癇的局部發作與全身強直陣攣發作。
+TxGNN 模型預測它可能對**視覺性癲癇 (Visual Epilepsy)** 有效，目前有 **3 個臨床試驗**和 **20 篇文獻**。這些資料大多是一般癲癇研究，沒有直接針對視覺誘發發作的證據。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 癲癇（部分發作型／續發性全身性強直陣攣發作）— 依文獻描述，本地無官方許可證記錄 |
-| 預測新適應症 | 視覺誘發型癲癇 (Visual Epilepsy) |
+| 原適應症 | 癲癇（局部發作、全身強直陣攣發作；依文獻資料，香港許可證未載明適應症文字） |
+| 預測新適應症 | 視覺性癲癇 (Visual Epilepsy) |
 | TxGNN 預測分數 | 99.92% |
-| 證據等級 | L2 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L3 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 7 張 |
 | 建議決策 | Hold |
+
+---
 
 ## 為什麼這個預測合理？
 
-Perampanel 為選擇性非競爭性 AMPA 型麩胺酸受體拮抗劑，作用於突觸後膜以降低皮質神經元的過度興奮性，藉此抑制癲癇發作的產生與擴散。這個機轉不特異於特定的發作誘發模式，理論上除了對一般部分發作型與全身性強直陣攣型癲癇有效外，也可能同樣作用於「反射性癲癇 (reflex epilepsy)」這類由特定刺激（如視覺閃光、聲音、思考活動）誘發的亞型。
+Perampanel 是選擇性、非競爭性的 AMPA 受體拮抗劑。AMPA 受體負責麩胺酸介導的興奮性突觸傳遞，阻斷它可以降低神經元過度興奮。文獻指出它已在多國核准，作為局部發作的輔助治療，並用於原發性全身強直陣攣發作。
 
-視覺誘發型癲癇（光敏感性癲癇）與 Perampanel 原適應症同屬皮質過度興奮性所致的癲癇發作，病理生理基礎相近。現有的 NCT02900755（評估 EEG 與認知功能變化）提供了皮質興奮性指標的間接生理學支持，顯示 Perampanel 對 EEG 相關參數具有可測量的作用，但目前尚無試驗以「視覺／光敏感型癲癇」作為明確的入組標準，此為推論性質的機轉延伸，而非直接證實。
+視覺性癲癇屬於反射性癲癇，也就是由視覺刺激誘發的發作。其背後是皮質過度興奮與麩胺酸神經傳導異常，所以阻斷 AMPA 在機轉上說得通。這個適應症可視為已核准用途中的反射性癲癇亞型，不算全新的疾病領域。TxGNN 分數很高，反映的正是這種與癲癇節點的距離很近。
+
+不過，這個高分主要來自圖譜上的接近程度，不等於已有針對視覺誘發發作的臨床證據。資料包也缺少結構化的 MOA 欄位（資料缺口 DG002），上述機轉說明來自預測理由與文獻摘要。
+
+---
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT03780907](https://clinicaltrials.gov/study/NCT03780907) | Phase 2 | 完成 | 18 | 評估 E2007（Perampanel）於部分性及全身性癲癇患者之耐受性、安全性與藥物動力學 |
-| [NCT02900755](https://clinicaltrials.gov/study/NCT02900755) | Phase 4 | 完成 | 30 | 評估 Perampanel 對癲癇患者認知功能與腦電圖 (EEG) 之影響 |
-| [NCT03653741](https://clinicaltrials.gov/study/NCT03653741) | Phase 4 | 完成 | 12 | 評估 Perampanel 對神經生理學檢測（EEG、SEP、BAEP、VEP）之影響，含視覺誘發電位 |
+| [NCT03780907](https://clinicaltrials.gov/study/NCT03780907) | Phase 2 | 完成 | 18 | 隨機、雙盲、安慰劑對照，評估 E2007（perampanel 的研發代號）在難治性局部或全身發作患者的耐受性、安全性與藥動學。標題被截斷，無法確認受試者是否包含視覺誘發發作，需查閱納入條件 |
+| [NCT02900755](https://clinicaltrials.gov/study/NCT02900755) | Phase 4 | 完成 | 30 | 評估 perampanel 對癲癇患者認知與腦電圖的影響，屬安全性與神經生理資料，未檢驗對視覺反射性發作的療效 |
+| [NCT03653741](https://clinicaltrials.gov/study/NCT03653741) | Phase 4 | 完成 | 12 | 評估 perampanel 對 EEG、體感誘發電位、腦幹聽覺誘發電位與視覺誘發電位等神經生理檢查的影響，樣本小且非針對此適應症 |
+
+---
 
 ## 文獻證據
 
+下表文獻多為一般癲癇研究，沒有任何一篇專門針對視覺性癲癇。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [29898971](https://pubmed.ncbi.nlm.nih.gov/29898971/) | 2018 | Practice guideline | Neurology | AAN/AES 新型抗癲癇藥物治療新發癲癇之療效與耐受性指引更新 |
-| [36150304](https://pubmed.ncbi.nlm.nih.gov/36150304/) | 2022 | Review | Epilepsy & Behavior | Perampanel 單一療法用於癲癇之臨床試驗與真實世界證據回顧 |
-| [36206645](https://pubmed.ncbi.nlm.nih.gov/36206645/) | 2022 | 系統性回顧/統合分析 | Seizure | Perampanel 治療癲癇之療效與安全性系統性回顧與 RCT 統合分析 |
-| [36878742](https://pubmed.ncbi.nlm.nih.gov/36878742/) | 2023 | 系統性回顧/統合分析 | Brain & Development | Perampanel 於兒童青少年癲癇之療效、耐受性與安全性統合分析 |
-| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | 系統性回顧/網絡統合分析 | Journal of Neurology | 特發性全身性癲癇之抗癲癇藥物療效比較網絡統合分析 |
-| [36034267](https://pubmed.ncbi.nlm.nih.gov/36034267/) | 2022 | 真實世界世代研究 | Frontiers in Neurology | Perampanel 作為兒童失神性癲癇加藥/二線單一療法之真實世界經驗 |
-| [37775491](https://pubmed.ncbi.nlm.nih.gov/37775491/) | 2023 | 世代研究 | Medical Journal of Malaysia | Perampanel 輔助治療於癲癇患者之療效與安全性 |
-| [26111428](https://pubmed.ncbi.nlm.nih.gov/26111428/) | 2015 | 藥動/藥效學評估 | Expert Opin Drug Metab Toxicol | Perampanel 治療部分發作型癲癇之藥動學與藥效學評估 |
-| [37329172](https://pubmed.ncbi.nlm.nih.gov/37329172/) | 2023 | 世代研究 | Ann Clin Transl Neurol | Perampanel 於已知及推定基因病因之兒童癲癇的療效 |
-| [24559052](https://pubmed.ncbi.nlm.nih.gov/24559052/) | 2014 | 藥物開發回顧 | Expert Opin Drug Discov | Perampanel 治療癲癇之發現與開發歷程 |
+| [36206645](https://pubmed.ncbi.nlm.nih.gov/36206645/) | 2022 | 系統性回顧與 RCT 統合分析 | Seizure | 彙整 perampanel 在癲癇的療效與安全性 RCT |
+| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | 系統性回顧與網絡統合分析 | J Neurol | 比較多種抗癲癇藥物（單一與輔助治療）在特發性全身性癲癇的療效與安全性 |
+| [36878742](https://pubmed.ncbi.nlm.nih.gov/36878742/) | 2023 | 系統性回顧與統合分析 | Brain Dev | 評估 perampanel 在兒童與青少年癲癇的療效、耐受性與安全性 |
+| [25878177](https://pubmed.ncbi.nlm.nih.gov/25878177/) | 2015 | 三項 Phase 3 試驗合併分析 | Neurology | 評估併用酵素誘導型抗癲癇藥（CYP3A4 誘導劑）對 perampanel 療效與安全性的影響 |
+| [36150304](https://pubmed.ncbi.nlm.nih.gov/36150304/) | 2022 | 臨床試驗／真實世界證據 | Epilepsy Behav | 回顧 perampanel 作為單一療法的臨床試驗與真實世界證據 |
+| [29898971](https://pubmed.ncbi.nlm.nih.gov/29898971/) | 2018 | 指引 | Neurology | AAN／AES 新發癲癇治療指引更新，涵蓋新一代抗癲癇藥物的療效與耐受性 |
+| [24559052](https://pubmed.ncbi.nlm.nih.gov/24559052/) | 2014 | 回顧 | Expert Opin Drug Discov | perampanel 的發現與開發歷程，說明其為首個抑制突觸後膜興奮的抗癲癇藥 |
+| [26111428](https://pubmed.ncbi.nlm.nih.gov/26111428/) | 2015 | 回顧 | Expert Opin Drug Metab Toxicol | perampanel 在局部發作的藥動學與藥效學評估 |
+| [36034267](https://pubmed.ncbi.nlm.nih.gov/36034267/) | 2022 | 世代研究 | Front Neurol | 評估 perampanel 作為首個輔助治療與二線單一療法，在兒童失神癲癇的療效與耐受性 |
+| [41043235](https://pubmed.ncbi.nlm.nih.gov/41043235/) | 2025 | 前瞻性多中心世代研究 | Epilepsy Behav | 評估早期使用 perampanel 對發作、睡眠品質、憂鬱症狀與生活品質的影響 |
+
+---
 
 ## 香港上市資訊
 
-目前 Perampanel 在香港（本評估所依資料庫）**未上市**，無任何許可證登記（0 張），亦無核准適應症文字可供參考。
+Perampanel 在香港共有 7 張許可證，下表列出 5 張主要許可證，皆由 Eisai (Hong Kong) Company Limited 持有。資料庫中沒有核准適應症文字，也沒有劑型欄位，劑型欄依品名判斷。
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-62761 | FYCOMPA TABLETS 8MG | 錠劑 | 資料庫未載明 |
+| HK-62762 | FYCOMPA TABLETS 4MG | 錠劑 | 資料庫未載明 |
+| HK-62763 | FYCOMPA TABLETS 2MG | 錠劑 | 資料庫未載明 |
+| HK-62764 | FYCOMPA TABLETS 6MG | 錠劑 | 資料庫未載明 |
+| HK-67556 | FYCOMPA ORAL SUSPENSION 0.5MG/ML | 口服懸液 | 資料庫未載明 |
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+安全性資訊請參考原廠仿單。香港衛生署仿單的警語與禁忌尚未取得（資料缺口 DG001），藥物交互作用資料庫也查無資料。
 
-> 註：本地藥品仿單警語與禁忌資料目前缺失（屬 Blocking 等級資料缺口），在取得前無法完成安全性初評。
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 頂位預測適應症（視覺誘發型癲癇）證據等級為 L2，機轉推論合理，但現有臨床試驗與文獻均未直接以此亞型為研究對象，屬間接支持。
-- 藥物本身在本地尚未上市，且仿單警語/禁忌資料缺失為 Blocking 等級缺口，依規則無法進入安全性初評（S1），故整體不宜升級為 Go 或 Proceed with Guardrails。
-- 其餘預測適應症（audiogenic seizures、thinking seizures、eating seizures、orgasm-induced seizures）證據等級為 L2–L5，多數僅有動物模型或個案報告支持，證據強度不足以優先推進。
+- 目前沒有任何研究直接證明 perampanel 對視覺性癲癇有效。唯一的隨機對照試驗（NCT03780907，n=18）是一般癲癇的耐受性與藥動學研究，其餘文獻也都是一般癲癇資料。
+- 香港仿單的安全性資訊缺失，在資料缺口 DG001 補齊前，無法進入安全性篩選。
+- 預測清單中的其他適應症證據更弱：聲源性發作 (audiogenic seizures) 僅有動物模型資料（L4）；思考誘發發作 (thinking seizures) 為 L3 但沒有專門證據；進食性發作 (eating seizures) 僅有不相關的病例報告（L4）；性高潮誘發發作 (orgasm-induced seizures) 只有模型預測（L5）。這四項同樣建議暫緩。
 
 **若要推進需要：**
-- 取得 TFDA／當地藥品仿單完整警語與禁忌資料，解除 Blocking 缺口（DG001）
-- 補齊 Perampanel 完整作用機轉（MOA）資料，供機轉關聯性正式分析（DG002）
-- 針對視覺誘發／光敏感型癲癇亞型規劃前瞻性觀察研究或臨床試驗
-- 評估本地藥證申請可行性
+- 取得並解析香港衛生署的仿單，補齊警語、禁忌與核准適應症（DG001）。
+- 補充 perampanel 的結構化作用機轉資料（DG002）。
+- 查閱 NCT03780907 的納入條件，確認是否包含光敏感或視覺誘發發作的患者。
+- 檢索光敏感性癲癇與反射性癲癇的病例系列、個案報告或回溯性研究，確認有無直接的人體證據。
+- 若出現直接證據，再評估是否設計針對視覺誘發發作的前瞻性研究。
+
+本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

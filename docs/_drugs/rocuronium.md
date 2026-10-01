@@ -2,7 +2,7 @@
 layout: default
 title: Rocuronium
 parent: 僅模型預測 (L5)
-nav_order: 659
+nav_order: 768
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,89 +29,73 @@ indication_count: 10
 
 </div>
 
-# Rocuronium：從神經肌肉阻斷到偏頭痛
+# Rocuronium：從神經肌肉阻斷劑到偏頭痛
 
 ## 一句話總結
 
-Rocuronium 是非去極化型神經肌肉阻斷劑，臨床上作為麻醉誘導與維持時的骨骼肌鬆弛輔助用藥。
-TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
-但目前僅有 **1 個相關性極低的臨床試驗**、**無直接文獻支持**，且證據本身指出機轉上並無已知關聯。
-
----
+Rocuronium 是非去極化型神經肌肉阻斷劑，臨床上用於麻醉時的肌肉鬆弛。
+TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目前只有 **1 個臨床試驗**（與偏頭痛無關）和 **0 篇文獻**，實質上僅有模型預測，**沒有任何證據支持這個方向**。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無正式核准適應症紀錄；已知作用為神經肌肉阻斷劑（麻醉輔助用藥） |
+| 原適應症 | 香港許可證未載明適應症；藥理類別為神經肌肉阻斷劑 |
 | 預測新適應症 | 偏頭痛 (Migraine Disorder) |
 | TxGNN 預測分數 | 99.90% |
 | 證據等級 | L5 |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 5 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-Rocuronium 為非去極化型神經肌肉阻斷劑，選擇性作用於神經肌肉接合處的菸鹼型乙醯膽鹼受體，
-用於阻斷骨骼肌收縮訊號傳導，臨床上僅用於麻醉誘導/維持期間的肌肉鬆弛，不穿透血腦屏障。
+目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位尚未取得）。根據已知藥理，Rocuronium 是非去極化型神經肌肉阻斷劑，作用於運動終板的菸鹼型乙醯膽鹼受體 (nicotinic ACh receptor) 並拮抗之。它沒有已知的中樞神經或三叉神經血管系統作用。
 
-根據 Evidence Pack 自身的機轉分析，Rocuronium 的作用範圍侷限於周邊神經肌肉接合處，
-與偏頭痛的中樞病理生理（三叉神經血管系統活化、CGRP 路徑）**沒有已知的生物學關聯**。
-TxGNN 給出的高分數（99.90%）主要來自知識圖譜的間接連結，而非直接機轉證據或臨床數據支持，
-因此此預測目前應視為**低度可信的候選項目**，而非具有明確機轉基礎的再利用機會。
+以機轉來看，這個預測**缺乏合理性**。偏頭痛的病理與三叉神經血管活化、CGRP 路徑等有關，與骨骼肌的神經肌肉接合處無關。此外，Rocuronium 使用時必須有呼吸支持，不適合用於慢性、發作性的疾病。
 
----
+TxGNN 給出 99.90% 的高分，最可能是知識圖譜中節點相鄰造成的假象 (knowledge-graph artifact)，而非真正的藥理關聯。這個分數不應被視為療效訊號。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT01431326](https://clinicaltrials.gov/study/NCT01431326) | N/A | 已完成 | 3520 | 兒科藥物動力學研究，rocuronium 僅作為術中麻醉輔助用藥被納入，非治療偏頭痛之介入試驗 |
-
----
+| [NCT01431326](https://clinicaltrials.gov/study/NCT01431326) | N/A | 完成 | 3,520 | 兒童標準治療下「研究不足藥物」的藥物動力學研究。並未測試 Rocuronium 對偏頭痛的效果，無療效訊號（相關性：C） |
 
 ## 文獻證據
 
-目前無相關文獻
-
----
+目前無相關文獻。
 
 ## 香港上市資訊
 
-目前未在香港上市，無許可證資料。
-
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-67201 | ROCURONIUM BROMIDE SOLUTION FOR INJECTION/INFUSION 50MG/5ML | MAIN LIFE CORP LTD |
+| HK-64818 | ROCURONIUM KABI SOLUTION FOR INJECTION/INFUSION 50MG/5ML | FRESENIUS KABI HONG KONG LIMITED |
+| HK-59706 | ROCURONIUM SOLUTION FOR INJ 10MG/ML | MEKIM LTD |
+| HK-67000 | ROCURONIUM B. BRAUN SOLUTION FOR INJECTION/INFUSION 50MG/5ML | B. BRAUN MEDICAL (HK) LTD |
+| HK-67219 | ROCURONIUM BROMIDE KALCEKS SOLUTION FOR INJECTION/INFUSION 50MG/5ML | SB PHARMA LIMITED |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
----
-
-## 補充說明
-
-在本次 Evidence Pack 的 10 個候選適應症中，排名第 10 的「headache disorder」證據等級較高（L4 / S1 / Research Question），
-主要來自 9 個圍術期麻醉管理試驗及 3 篇文獻，內容多探討 rocuronium-sugammadex 反轉方案是否能降低 ECT 或術後肌痛相關頭痛的發生率——
-這屬於**降低麻醉相關副作用**的間接證據，而非治療原發性偏頭痛/頭痛疾患的直接機轉證據，但相對於 rank 1「migraine disorder」而言證據基礎稍強，未來若要研究方向調整可優先參考。
-
----
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- Evidence Pack 本身的機轉分析已指出 Rocuronium 的藥理作用與偏頭痛病理生理無已知關聯，唯一相關臨床試驗（NCT01431326）也非針對此適應症的介入性研究。
-- 證據等級僅 L5（純模型預測，無實質研究支持），且香港未上市、無許可證資料可供銜接。
+- 證據等級為 L5，只有模型預測，唯一的臨床試驗與偏頭痛無關。
+- 機轉上沒有合理的關聯。其他排名靠前的預測也呈現同樣情形，包括 migraine with brainstem aura、cauda equina syndrome、irritable bowel syndrome 等，全部是 Hold，且機轉均不成立。
+- 排名第 10 的 headache disorder 雖有 L4 證據，但內容是麻醉或電痙攣治療 (ECT) 後頭痛屬於術後不良反應，並非 Rocuronium 治療頭痛。
 
-**若要推進需要：**
-- 補齊 MOA 與正式核准適應症資料（目前為 Data Gap，阻礙安全性初評）
-- 針對偏頭痛/頭痛相關症狀的直接機轉研究或前臨床證據
-- 若考慮切入頭痛相關副作用減緩（如 rank 10 候選），需釐清是否屬於治療性適應症或僅為圍術期副作用管理範疇
-- 香港上市與許可證資料補充，以評估法規路徑可行性
+**若要重新評估需要：**
+- 取得香港衛生署仿單，補齊警語與禁忌症資料。
+- 從 DrugBank 補齊作用機轉 (MOA)。
+- 人工複核知識圖譜中 Rocuronium 到偏頭痛的連結路徑，確認是否為假象。
+- 出現以 Rocuronium 治療偏頭痛或頭痛的直接臨床或前臨床研究後，再重新啟動評估。
+
+> 本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經過臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

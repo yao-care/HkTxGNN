@@ -2,7 +2,7 @@
 layout: default
 title: Tenofovir Disoproxil
 parent: 僅模型預測 (L5)
-nav_order: 730
+nav_order: 844
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,74 +29,96 @@ indication_count: 4
 
 </div>
 
-# Tenofovir Disoproxil：原適應症資料待補 → 預測適應症：猿猴免疫缺乏病毒感染 (SIV Infection)
+# Tenofovir Disoproxil：從 HIV-1 感染到猴免疫缺陷病毒感染
 
 ## 一句話總結
 
-Tenofovir Disoproxil（DrugBank DB00300）在本次 Evidence Pack 中缺乏原始適應症與作用機轉資料。TxGNN 模型預測它對**猿猴免疫缺乏病毒感染 (Simian Immunodeficiency Virus Infection)** 有高度關聯（分數 99.95%），但支持證據薄弱——僅 2 個臨床試驗且皆非直接針對此病症、無相關文獻。此藥目前未在香港上市。
+Tenofovir Disoproxil (TDF) 是 tenofovir 的前驅藥，屬核苷酸反轉錄酶抑制劑，已核准用於人類 HIV-1 感染。
+TxGNN 模型預測它可能對**猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)** 有效。
+不過目前只有 **2 個間接相關的臨床試驗**（一個撤回、一個狀態不明），**沒有文獻**支持。SIV 本身就是 HIV 的非人靈長類動物模型，所以這不算新的人類適應症訊號。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料缺失（DrugBank 原始資料未提供，見 DG002） |
-| 預測新適應症 | 猿猴免疫缺乏病毒感染 (Simian Immunodeficiency Virus Infection) |
-| TxGNN 預測分數 | 99.95%（rank 1373） |
-| 證據等級 | L5 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 預測新適應症 | 猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection) |
+| TxGNN 預測分數 | 99.95% |
+| 證據等級 | L5（僅有模型預測，無直接研究；資料包初步標示為 L4，但提供的試驗均非 SIV 研究） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
 | 建議決策 | Hold |
+
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank 未提供，列於 DG002）。原適應症資料同樣缺失，因此本報告無法進行機轉層面的關聯性分析；藥物與預測新適應症之間的相似性判斷需待人工補齊資料後才能進行。
+目前缺乏詳細的作用機轉資料。已知 TDF 是 tenofovir 的前驅藥，屬核苷酸反轉錄酶抑制劑，並已核准用於人類 HIV-1 感染。
 
-值得特別注意的是：**猿猴免疫缺乏病毒感染 (SIV) 是恆河猴等靈長類的動物模型疾病，並非人類臨床適應症**。此預測很可能反映 TxGNN 知識圖譜中 HIV／SIV 節點在拓撲結構上的高度相似性（SIV 常被用作 HIV 感染的動物模型），而非直接可轉譯的人類臨床意義。列出的 2 個臨床試驗實際上都是以人類 HIV 感染者為受試對象，其中僅有一篇在背景說明中提及 SIV 感染獼猴的病毒衰減動力學作為比較基準，並非針對 SIV 感染本身的治療性試驗。
+SIV 與 HIV 同屬慢病毒，共享反轉錄酶的生物學特性，所以知識圖譜把兩者連起來在機轉上說得通。但 SIV 是 HIV-1 的動物模型，這個預測其實是在重述已知適應症，不是發現新的人類用途。
 
-因此，在補齊 MOA 與原適應症資料之前，此預測的機轉合理性無法被充分驗證。
+此外，該預測的其他候選疾病訊號更弱：
+- **貓後天免疫缺乏症候群 (FIV)**：有 2 篇動物研究（含直接測試 PMPA/tenofovir 的貓研究），但價值僅限於獸醫或前臨床。
+- **伴隨共濟失調步態、無語言與皮質白質減少的神經發育障礙**：無可信的機轉連結，無任何試驗或文獻。
+- **家族性複合型高脂血症（已過時術語）**：無明確機轉連結，可能是本體論對應造成的假訊號。
+
+---
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | NA | 已撤回 (WITHDRAWN) | 0 | 探討抗反轉錄病毒治療下 HIV RNA 兩階段衰減動力學，並以 SIV 感染獼猴的衰減率作為比較基準；試驗本身已撤回，無收案 |
-| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Phase 1/2 | 狀態未知 (UNKNOWN) | 12 | Vedolizumab 併用抗反轉錄病毒治療於初治 HIV 感染者，目標為達成病毒學持續緩解；為人類 HIV 試驗，非直接針對 SIV 感染 |
+| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | N/A | 已撤回 | 0 | 以 raltegravir 研究 HIV 病毒衰減動力學。並非 SIV 研究，TDF 也不是受試介入，且未產生任何資料 |
+| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Phase 1/2 | 狀態不明 | 12 | Vedolizumab 合併抗反轉錄病毒療法，用於未曾治療的 HIV 感染者以追求持久病毒學緩解。TDF 至多是背景療法，屬間接證據，且疾病為人類 HIV 而非 SIV |
 
-**兩試驗皆非直接針對「猿猴免疫缺乏病毒感染」設計，僅間接提及 SIV 作為比較模型。**
+---
 
 ## 文獻證據
 
-目前無相關文獻。
+目前無相關文獻
+
+---
 
 ## 香港上市資訊
 
-目前未在香港上市，無許可證登記（`total_licenses = 0`）。
+香港共有 20 張含 TDF 的許可證，以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-65666 | TENO B TABLETS 300MG | JACOBSON MARKETING LIMITED |
+| HK-67751 | FORVIC 300 TABLETS 300MG | HEALTH ALLIANCE INTERNATIONAL CO LTD |
+| HK-64889 | TENOFOVIR DISOPROXIL FUMARATE TABLETS 300MG | SINO PACIFIC PHARMA COMPANY LIMITED |
+| HK-56075 | VIREAD TAB 300MG | GILEAD SCIENCES HONG KONG LIMITED |
+| HK-65885 | TENOFOVIR SANDOZ TABLETS 300MG | SANDOZ HONG KONG LIMITED |
+
+---
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
-（本 Evidence Pack 標記 DG001 為 Blocking 等級缺口：香港/TFDA 仿單警語與禁忌症資料尚未取得，導致無法進行 S1 安全性初評。）
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 安全性資料完全缺失（DG001，Blocking），無法進行任何安全性初評；
-- 預測適應症「猿猴免疫缺乏病毒感染」為動物模型疾病，非直接人類臨床適應症，其與人類 HIV 感染的等價性尚待確認；
-- 現有 2 個臨床試驗均非直接支持此適應症（1 個已撤回、1 個狀態未知），無文獻佐證，證據等級僅達 L5；
-- 藥物未在香港上市，無既有法規基礎可承接。
+- 唯一與 SIV 直接相關的試驗已撤回、未收案；另一個試驗狀態不明，TDF 只是背景療法。
+- 沒有任何文獻。
+- SIV 是 HIV-1 的動物模型，而 TDF 已核准用於人類 HIV-1，所以這個預測沒有新的人類臨床價值。
 
 **若要推進需要：**
-- 補齊 TFDA/香港仿單警語與禁忌症資料（DG001；來源：官方仿單 PDF 解析）
-- 補齊 DrugBank 作用機轉 (MOA) 資料（DG002；來源：DrugBank API 查詢）
-- 確認 TxGNN 預測的「SIV 感染」是否應對應至人類 HIV 感染這一實際適應症，並考慮以人類疾病本體重新過濾預測結果
-- 補充「猿猴免疫缺乏病毒感染」相關的人類等價研究或機轉文獻
+- 確認是否有 TDF 或 tenofovir 直接用於 SIV 的前臨床研究（目前提供的資料中沒有）。
+- 補齊原適應症與核准適應症文字。香港衛生署許可證目前沒有適應症內容。
+- 取得香港衛生署仿單的警語與禁忌症，才能進行安全性篩選。
+- 補齊 DrugBank 的作用機轉資料。
+- 若目標是新的人類適應症，應轉向其他候選疾病，或重新篩選預測結果。
 
 ---
 
-**附註**：同一批預測中，rank 2「貓後天免疫缺乏症候群 (Feline AIDS)」分數相同（99.95%），但支持證據較多（4 個臨床試驗、2 篇文獻），惟同樣屬動物疾病模型，非人類適應症，建議一併納入後續資料補齊範圍。
+*本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

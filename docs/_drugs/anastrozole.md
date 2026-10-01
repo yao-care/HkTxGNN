@@ -2,7 +2,7 @@
 layout: default
 title: Anastrozole
 parent: 高證據等級 (L1-L2)
-nav_order: 53
+nav_order: 60
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,105 +29,111 @@ indication_count: 10
 
 </div>
 
-# Anastrozole：從芳香酶抑制到女性乳腺癌
+# Anastrozole：預測適應症為女性乳癌（既有用途的模型驗證）
 
 ## 一句話總結
 
-Anastrozole 是第三代非固醇類芳香酶抑制劑，透過強效抑制 CYP19A1 酶，將停經後女性的循環雌二醇水平壓低逾 85%，切斷雌激素受體陽性（ER+）乳癌細胞的增殖驅動訊號。
-TxGNN 模型以極高分數預測它對**女性乳腺癌 (Female Breast Carcinoma)** 有效，
-目前有 **50 個臨床試驗**和 **20 篇文獻**支持這個方向。
-
----
+Anastrozole 是非類固醇類芳香環轉化酶抑制劑，資料包未記載原適應症，但它在停經後荷爾蒙受體陽性乳癌的用途早已確立。
+TxGNN 預測它對**女性乳癌 (female breast carcinoma)** 有效，這與既有用途相符，可視為模型的正向對照。
+目前有 **50 個臨床試驗**和 **20 篇文獻**支持，其中包含多個已完成的大型 Phase 3 試驗。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港未登記（國際廣泛核准用於 ER+ 停經後乳癌輔助治療及化學預防） |
-| 預測新適應症 | 女性乳腺癌 (Female Breast Carcinoma) |
+| 預測新適應症 | 女性乳癌 (female breast carcinoma) |
 | TxGNN 預測分數 | 99.68% |
 | 證據等級 | L1 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 11 張 |
 | 建議決策 | Proceed with Guardrails |
-
----
 
 ## 為什麼這個預測合理？
 
-Anastrozole 透過選擇性抑制芳香酶（CYP19A1），阻斷末梢組織（脂肪、肌肉、肝臟）中雄激素轉化為雌激素的最後一步。停經後女性幾乎全部的循環雌激素來自此酶，因此 Anastrozole 能將血漿雌二醇壓低超過 85%，遠優於 Tamoxifen 的部分阻斷機轉。ER+ 乳癌細胞依賴雌激素驅動 ERα 訊號、細胞週期蛋白 D1 表達及增殖，切斷此通路可有效抑制腫瘤生長並降低復發風險。
+目前缺乏 DrugBank 的詳細作用機轉資料。根據評估內容，Anastrozole 是非類固醇類芳香環轉化酶抑制劑。它降低停經後女性周邊組織的雌激素合成，從而抑制荷爾蒙受體陽性乳癌腫瘤的生長。
 
-里程碑式的 ATAC 試驗（9,366 名停經後患者，中位追蹤 68 個月）確立 Anastrozole 輔助治療顯著優於 Tamoxifen（HR 0.87，無病存活），奠定其為 ER+ 停經後乳癌輔助治療的國際標準。IBIS-II 試驗則進一步擴展至化學預防層面，10 年隨訪數據顯示即使停藥後保護效益仍持續，支持其在高風險族群的預防性應用。
+這個預測與已知機轉一致，高分（0.997）反映的是既有適應症，而不是新發現。因此本案更像模型的正向對照，而非真正的老藥新用候選。資料包中原適應症欄位為空，這是資料缺口，不代表沒有既有用途。
 
-此 TxGNN 預測屬「模型正確識別已知適應症」的案例：Anastrozole 已獲美國 FDA、EMA 及多個主要藥政機構核准用於女性乳腺癌，但目前在香港並無登記許可證。本報告的核心價值在於評估引進香港市場的可行性，而非開拓全新適應症。
-
----
+這個結論適用於停經後、荷爾蒙受體陽性的患者。其他預測項目（如神經母細胞瘤等）並無類似的機轉支持，見結論。
 
 ## 臨床試驗證據
 
+以下從 50 個登記試驗中，列出已完成的大型 Phase 3 與其他最相關的 10 個。
+
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00849030](https://clinicaltrials.gov/study/NCT00849030) | Phase 3 | 完成 | 9,358 | ATAC 試驗：比較 Arimidex 單藥、Nolvadex 單藥及兩者聯合作為停經後乳癌輔助治療，確立 Anastrozole 優先地位 |
-| [NCT00066573](https://clinicaltrials.gov/study/NCT00066573) | Phase 3 | 完成 | 7,576 | MA.27 試驗：Exemestane vs Anastrozole 輔助治療 ER+ 停經後乳癌頭對頭比較，評估化療後復發預防 |
-| [NCT00248170](https://clinicaltrials.gov/study/NCT00248170) | Phase 3 | 完成 | 4,172 | Letrozole vs Anastrozole 輔助治療 HR+、淋巴結陽性停經後乳癌，5 年隨訪評估生存及復發 |
-| [NCT00072462](https://clinicaltrials.gov/study/NCT00072462) | Phase 3 | 完成 | 2,980 | IBIS-II DCIS：Anastrozole vs Tamoxifen 用於停經後 ER+ 乳管原位癌術後預防局部及對側乳癌復發 |
-| [NCT00556374](https://clinicaltrials.gov/study/NCT00556374) | Phase 3 | 完成 | 3,420 | 評估 Denosumab 在接受 NSAI（含 Anastrozole）治療的非轉移性乳癌患者中預防首次臨床骨折的療效 |
-| [NCT00301457](https://clinicaltrials.gov/study/NCT00301457) | Phase 3 | 完成 | 1,914 | Tamoxifen 2-3 年序貫後，比較 Anastrozole 3 年 vs 6 年輔助療程對 HR+ 停經後乳癌無病存活的影響 |
-| [NCT00143390](https://clinicaltrials.gov/study/NCT00143390) | Phase 3 | 完成 | 298 | Exemestane vs Anastrozole 初始荷爾蒙治療停經後晚期/復發乳癌非劣性比較，評估腫瘤進展時間 |
-| [NCT01626222](https://clinicaltrials.gov/study/NCT01626222) | Phase 3 | 完成 | 301 | 4EVER 試驗：Everolimus 聯合 Exemestane 治療接受 NSAI（含 Anastrozole）後進展的 ER+/HER2- 停經後晚期乳癌 |
-| [NCT06311383](https://clinicaltrials.gov/study/NCT06311383) | N/A（觀察性） | 完成 | 2,610 | 德國真實世界觀察研究：評估 Ribociclib + AI/Fulvestrant 等一線方案在 HR+/HER2- 晚期乳癌的實務有效性與生活品質 |
-| [NCT01151215](https://clinicaltrials.gov/study/NCT01151215) | Phase 2 | 終止 | 482 | MINT 試驗：AZD8931 聯合 Anastrozole vs Anastrozole 單藥治療 HR+、內分泌治療初治局部晚期或轉移性乳癌 |
-
----
+| [NCT00849030](https://clinicaltrials.gov/study/NCT00849030) | Phase 3 | 完成 | 9358 | 停經後乳癌輔助治療：Arimidex 單用 vs Nolvadex 單用 vs 兩者併用（ATAC 試驗） |
+| [NCT00066573](https://clinicaltrials.gov/study/NCT00066573) | Phase 3 | 完成 | 7576 | Exemestane vs Anastrozole 用於停經後受體陽性原發性乳癌，比較預防復發效果 |
+| [NCT00248170](https://clinicaltrials.gov/study/NCT00248170) | Phase 3 | 完成 | 4172 | Letrozole vs Anastrozole 用於荷爾蒙受體與淋巴結陽性乳癌輔助治療 |
+| [NCT00072462](https://clinicaltrials.gov/study/NCT00072462) | Phase 3 | 完成 | 2980 | IBIS-II DCIS：Tamoxifen vs Anastrozole 用於原位乳管癌術後 |
+| [NCT00301457](https://clinicaltrials.gov/study/NCT00301457) | Phase 3 | 完成 | 1914 | Tamoxifen 2–3 年後，比較 Anastrozole 6 年 vs 3 年的輔助治療 |
+| [NCT00256698](https://clinicaltrials.gov/study/NCT00256698) | Phase 3 | 完成 | 514 | FACT：Anastrozole 單用 vs 併用 Fulvestrant，用於首次復發的受體陽性乳癌 |
+| [NCT00143390](https://clinicaltrials.gov/study/NCT00143390) | Phase 3 | 完成 | 298 | Exemestane vs Anastrozole 作為晚期/復發乳癌初始荷爾蒙治療，驗證非劣性 |
+| [NCT00556374](https://clinicaltrials.gov/study/NCT00556374) | Phase 3 | 完成 | 3420 | Denosumab vs 安慰劑，預防接受芳香環轉化酶抑制劑的非轉移性乳癌患者發生骨折 |
+| [NCT01151215](https://clinicaltrials.gov/study/NCT01151215) | Phase 2 | 提前終止 | 482 | AZD8931 併用 Anastrozole vs Anastrozole 單用，用於晚期或轉移性乳癌（MINT） |
+| [NCT04711252](https://clinicaltrials.gov/study/NCT04711252) | Phase 3 | 進行中（不再招募） | 1370 | SERENA-4：AZD9833 + Palbociclib vs Anastrozole + Palbociclib，用於晚期乳癌一線治療 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [15639680](https://pubmed.ncbi.nlm.nih.gov/15639680/) | 2005 | Phase 3 RCT（里程碑） | Lancet | ATAC 試驗 5 年輔助治療結果：Anastrozole 顯著優於 Tamoxifen 延長無病存活（HR 0.87），確立 ER+ 停經後乳癌輔助治療新標準 |
-| [31839281](https://pubmed.ncbi.nlm.nih.gov/31839281/) | 2020 | Phase 3 RCT（化學預防） | Lancet | IBIS-II 長期隨訪：Anastrozole 較安慰劑顯著降低高風險停經後女性乳癌發生率，停藥後保護效益持續，支持化學預防應用 |
-| [26686313](https://pubmed.ncbi.nlm.nih.gov/26686313/) | 2016 | RCT | Lancet | IBIS-II DCIS：Anastrozole 在停經後 ER+ DCIS 患者中優於 Tamoxifen，降低局部及對側乳癌復發風險 |
-| [28415634](https://pubmed.ncbi.nlm.nih.gov/28415634/) | 2017 | Meta-analysis | Oncotarget | 系統性回顧及統合分析多個 RCT：Anastrozole 在無病存活、遠端復發等指標優於 Tamoxifen，安全性特徵可控 |
-| [20923259](https://pubmed.ncbi.nlm.nih.gov/20923259/) | 2010 | Drug Monograph | Expert Opin Drug Safety | 全面回顧 Anastrozole 在 ER+ 乳癌輔助治療的療效與安全性，多項 RCT 一致顯示其優於 Tamoxifen |
-| [28614542](https://pubmed.ncbi.nlm.nih.gov/28614542/) | 2017 | Literature Review | Rev Assoc Med Bras | 系統性回顧 Anastrozole 在乳癌化學預防與治療的藥理、藥動學特性及臨床應用 |
-| [14687437](https://pubmed.ncbi.nlm.nih.gov/14687437/) | 2003 | Review | Curr Med Res Opin | 概述 Anastrozole 臨床試驗歷程，包括較 Megestrol Acetate 二線治療及較 Tamoxifen 一線治療的優勢 |
-| [16034487](https://pubmed.ncbi.nlm.nih.gov/16034487/) | 2005 | Drug Profile | Drugs of Today | 回顧 Anastrozole 作用機轉及主要臨床試驗，確認為 ER+ 乳癌輔助治療中唯一在當時獲完整核准的 AI |
-| [16761927](https://pubmed.ncbi.nlm.nih.gov/16761927/) | 2006 | Review | Expert Rev Anticancer Ther | ATAC 試驗深入分析：Anastrozole 展現顯著療效及耐受性優勢，骨骼事件為主要需監測副作用 |
-| [19445563](https://pubmed.ncbi.nlm.nih.gov/19445563/) | 2009 | Comparative Review | Expert Opin Pharmacother | 比較 Anastrozole、Letrozole、Exemestane 三種第三代 AI 在早期乳癌的療效、安全性及藥理差異 |
+| [31839281](https://pubmed.ncbi.nlm.nih.gov/31839281/) | 2020 | RCT | Lancet | IBIS-II 長期結果：Anastrozole vs 安慰劑用於預防高風險女性乳癌 |
+| [15639680](https://pubmed.ncbi.nlm.nih.gov/15639680/) | 2005 | RCT | Lancet | ATAC 5 年結果：Anastrozole 較 Tamoxifen 顯著延長無病存活期 |
+| [26686313](https://pubmed.ncbi.nlm.nih.gov/26686313/) | 2016 | RCT | Lancet | IBIS-II DCIS：雙盲試驗比較 Anastrozole 與 Tamoxifen 預防原位乳管癌術後的局部與對側乳癌 |
+| [28415634](https://pubmed.ncbi.nlm.nih.gov/28415634/) | 2017 | 統合分析 | Oncotarget | 統合分析比較 Anastrozole 與 Tamoxifen 作為乳癌輔助治療的療效與安全性 |
+| [30499075](https://pubmed.ncbi.nlm.nih.gov/30499075/) | 2020 | 統合分析 | Pathol Oncol Res | 原位乳管癌內分泌治療的統合分析，含 Tamoxifen 與 Anastrozole 的比較 |
+| [19445563](https://pubmed.ncbi.nlm.nih.gov/19445563/) | 2009 | Review | Expert Opin Pharmacother | 比較 Anastrozole、Letrozole、Exemestane 在早期乳癌的角色 |
+| [28614542](https://pubmed.ncbi.nlm.nih.gov/28614542/) | 2017 | Review | Rev Assoc Med Bras | Anastrozole 用於乳癌化學預防與治療的文獻回顧 |
+| [16439860](https://pubmed.ncbi.nlm.nih.gov/16439860/) | 2006 | Review | Oncology | Anastrozole 在晚期、早期乳癌到預防的整個病程中的角色 |
+| [34048027](https://pubmed.ncbi.nlm.nih.gov/34048027/) | 2021 | 藥物基因體學 | Clin Pharmacol Ther | 4,465 名早期乳癌患者中，SNP 基因型與 Anastrozole、Exemestane 療效的交互作用 |
+| [32701512](https://pubmed.ncbi.nlm.nih.gov/32701512/) | 2020 | 藥物基因體學 | JCI Insight | 芳香環轉化酶抑制劑的藥物基因體學，及 Anastrozole 的其他作用機轉 |
 
----
+## 香港上市資訊
+
+香港共有 11 張許可證，以下列出 5 張主要許可證。資料中劑型與核准適應症欄位皆為空，品名顯示為 1 mg 錠劑。
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-42327 | ARIMIDEX TAB 1MG | ASTRAZENECA HONG KONG LIMITED |
+| HK-60845 | ANASTROZOLE TAB 1MG | KAI YUEN PHARMACEUTICAL CO |
+| HK-59928 | ANASTROZOLE TAB 1MG | HONG KONG MEDICAL SUPPLIES LTD |
+| HK-61332 | ANASTROZOLE STADA TAB 1MG | STADA PHARMACEUTICALS (ASIA) LIMITED |
+| HK-59104 | AREMED 1 TAB 1MG | HEALTHCARE PHARMASCIENCE LIMITED |
 
 ## 細胞毒性
 
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 標靶內分泌治療（非固醇類芳香酶抑制劑），非傳統細胞毒性化療藥 |
-| 骨髓抑制風險 | 低（非直接細胞毒性機轉，不抑制骨髓造血） |
-| 致吐性分級 | 低 |
-| 監測項目 | 骨密度（DEXA，建議每 1-2 年監測）、肝功能、血脂、關節症狀 |
-| 處置防護 | 一般口服藥物處置規範，無需細胞毒性藥物特殊防護措施 |
+| 細胞毒性分類 | 內分泌治療藥物（芳香環轉化酶抑制劑），非傳統細胞毒性化療藥物 |
 
----
+其餘細胞毒性項目（骨髓抑制、致吐性、處置防護）請參考原廠仿單的警語與注意事項。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **需監測的風險**：骨質流失與心血管風險。多項試驗（如 denosumab 預防芳香環轉化酶抑制劑相關骨折）也在處理骨骼安全議題。
+- **使用範圍**：療效僅適用於停經後、荷爾蒙受體陽性的患者。
+- **肌肉骨骼副作用**：芳香環轉化酶抑制劑與肌肉骨骼及結締組織副作用有關。
 
----
+警語、禁忌症與藥物交互作用資料目前查無資料，請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-Anastrozole 擁有包括 ATAC、IBIS-II 等多個大型 Phase 3 RCT 的 L1 等級強力證據，已是全球 ER+ 停經後乳癌輔助治療及化學預防的國際標準方案之一；TxGNN 的高分預測（全疾病庫 Rank 6,566，99.68% 信心分數）與現有生物學機轉完全吻合，屬「模型正確識別已知適應症」的高可信案例。香港目前缺乏登記許可，是引進的主要障礙而非療效或安全性疑慮。
+- 多個已完成的大型 Phase 3 隨機對照試驗（如 ATAC、MA.27、FACE、IBIS-II）支持 Anastrozole 用於乳癌，證據等級為 L1。
+- 這是既有用途，並非真正的老藥新用，應搭配患者族群限制與骨骼、心血管監測。
+
+**其他預測項目：**
+排名第 2 至第 10 的預測（神經母細胞瘤、節神經母細胞瘤、單核球性白血病、橫紋肌肉瘤、骨髓性白血病等）皆為 Hold。它們缺乏機轉依據，多數沒有臨床試驗或文獻，可能是知識圖譜的假象。少數有文獻者僅為間接資料，例如乳癌轉移病例報告、奈米粒子前臨床研究，並非療效證據。
 
 **若要推進需要：**
-- 向香港衛生署藥物辦公室提交藥物登記申請，引用 EMA／FDA 已核准的完整仿單資料
-- 補充 TFDA 仿單警語、禁忌症及藥物交互作用（DDI）詳細資訊，填補現有資料缺口
-- 確認香港本地 ER+ 停經後乳癌治療指引及用藥標準，評估與現行化療方案的整合路徑
-- 建立骨密度（BMD）監測計畫及關節肌肉症狀管理的臨床路徑（已知長期使用副作用）
-- 評估是否需申請優先審查資格，加速市場引進時程
+- 取得香港衛生署仿單的警語與禁忌症
+- 補齊 DrugBank 的作用機轉資料
+- 補上各許可證的核准適應症與劑型
+- 確認原適應症欄位，區分既有用途與真正新適應症
+
+*本報告僅供研究參考，不構成醫療建議；預測結果需經臨床驗證。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

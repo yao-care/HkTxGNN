@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ritonavir
-parent: 僅模型預測 (L5)
-nav_order: 656
-evidence_level: L5
+parent: 中證據等級 (L3-L4)
+nav_order: 765
+evidence_level: L4
 indication_count: 3
 ---
 
 # Ritonavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+證據等級: **L4** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,85 @@ indication_count: 3
 
 </div>
 
-# Ritonavir：從 HIV-1 感染到貓後天免疫缺乏症候群（證據極弱，機轉關聯性存疑）
+# Ritonavir：從 HIV 抗病毒治療到貓後天免疫缺乏症候群
 
 ## 一句話總結
 
-> Ritonavir 是 HIV-1 蛋白酶抑制劑（同時為強效 CYP3A4 抑制劑，常作為 PK booster）。
-> TxGNN 模型將**貓後天免疫缺乏症候群 (Feline AIDS / FIV)** 列為預測分數最高的新適應症，
-> 但目前僅有的 **1 個臨床試驗**經人工判讀後確認與此疾病無關（實際為人類 HIV 治療研究），
-> 且**無任何文獻支持**，此預測的證據強度極低。
-
----
+Ritonavir 是 HIV 蛋白酶抑制劑，臨床上也常作為藥物動力學增強劑（抑制 CYP3A4）。
+TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome)** 有效。
+目前只有 **1 個間接相關的臨床試驗**，且**無直接文獻**支持。這是獸醫疾病，並非人類老藥新用標的。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | HIV-1 感染（正式核准適應症文字為資料缺口，依已知蛋白酶抑制劑機轉推斷） |
-| 預測新適應症 | 貓後天免疫缺乏症候群 (Feline AIDS / FIV) |
+| 預測新適應症 | 貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome) |
 | TxGNN 預測分數 | 99.92% |
-| 證據等級 | L5（僅有模型預測，無實際支持研究） |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L4 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 10 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏 Ritonavir 詳細的正式作用機轉資料（Data Gap，DG002）。根據 Evidence Pack 中的機轉關聯性分析，Ritonavir 是 HIV-1 蛋白酶抑制劑，同時也是強效 CYP3A4 抑制劑，臨床上常被用作其他蛋白酶抑制劑的藥動學增強劑（booster）。
+目前缺乏 DrugBank 的詳細作用機轉資料。已知 Ritonavir 抑制 HIV-1 蛋白酶，也是強效 CYP3A4 抑制劑。
+貓免疫缺乏症候群由貓免疫缺乏病毒 (FIV) 引起，FIV 與 HIV 同屬慢病毒 (lentivirus)。
+TxGNN 的高分很可能來自知識圖譜中共通的慢病毒生物學，以及 HIV 相關的既有註記。
 
-然而，FIV（貓免疫缺陷病毒）雖與 HIV 同屬慢病毒屬（lentivirus），但其蛋白酶胺基酸序列與 HIV-1 蛋白酶同源性偏低，目前**沒有證據**顯示 Ritonavir 對 FIV 蛋白酶具交叉抑制活性。此外，FIV 感染是獸醫（貓科動物）適應症，並非人類疾病，通常不落在人用藥物再利用評估的範疇內。
-
-現有的唯一一筆臨床試驗證據（NCT02770508）經人工複核後判定為**知識圖譜疾病本體匹配錯誤**——該試驗實際研究對象是人類 HIV-1 感染者使用 darunavir/ritonavir 方案，與貓 FIV 無關，很可能是因 "acquired immunodeficiency syndrome" 字串重疊所致的誤判。整體而言，此預測**機轉上證據薄弱**，建議不予採信為獨立適應症候選。
-
----
+不過，目前資料中沒有 FIV 蛋白酶對 Ritonavir 敏感性的證據。
+與此預測並列的第二名是猴免疫缺乏病毒 (SIV) 感染，分數相同（99.92%）。
+SIV 的體外研究顯示 Ritonavir 對 SIVmac239 有抑制作用（EC50 約 13 nM，HIV-1 約 25 nM），支持蛋白酶在慢病毒間的保守性。
+但這屬於間接的前臨床證據，不是針對貓的療效資料。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Phase 4 | 完成 | 145 | 研究對象為**人類** HIV-1 感染者，比較 ritonavir boosted darunavir + lamivudine 與其他合併療法之安全性及療效。⚠️ 與貓 FIV 感染無關，判定為知識圖譜本體匹配錯誤，非有效支持證據。 |
+| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Phase 4 | 完成 | 145 | 比較 Ritonavir 增強型 Darunavir 加 Lamivudine，與 Darunavir 加 Tenofovir/Emtricitabine（或 Lamivudine）用於未治療過的 HIV-1 感染者 |
 
----
+此試驗是人類 HIV-1 研究，Ritonavir 僅作增強劑，與貓的疾病無直接關聯，不提供直接療效證據。
 
 ## 文獻證據
 
-目前無相關文獻
+目前無相關文獻。
 
----
+補充：同分的 SIV 預測有幾篇前臨床研究，可作為間接參考。
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [12709355](https://pubmed.ncbi.nlm.nih.gov/12709355/) | 2003 | 體外研究 | Antimicrob Agents Chemother | Ritonavir 抑制 SIVmac239 的 EC50 約 13 nM，與對 HIV-1 的活性相近 |
+| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | 動物研究 | J Virol Methods | 口服含 Lopinavir/Ritonavir 的 HAART 用於 SHIV 感染獼猴，觀察 CD8 亞群變化 |
 
 ## 香港上市資訊
 
-Ritonavir 目前於香港**尚未取得上市許可**（0 張許可證），無相關品名、劑型或核准適應症資料可供列示。
-
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-68558 | RITONAVIR TABLETS USP 100MG | VIATRIS HEALTHCARE HONG KONG LIMITED |
+| HK-61528 | NORVIR TABLET 100MG | ABBVIE LIMITED |
+| HK-68129 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG | CHEMILL PHARMA LIMITED |
+| HK-65831 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG | VIATRIS HEALTHCARE HONG KONG LIMITED |
+| HK-67683 | PAXLOVID TABLETS | PFIZER CORPORATION HONG KONG LIMITED |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
-> 補充說明：本評估的安全性資料存在 **Blocking 等級資料缺口（DG001）**——尚無 TFDA/當地藥監機構仿單之警語與禁忌症資料，此缺口會直接阻擋此候選進入 S1 安全性初評階段，需優先補齊。
-
----
-
-## 其他預測候選（供參考，非本報告主要評估對象）
-
-Evidence Pack 中同時列出另外兩個 TxGNN 預測候選，證據品質差異顯著，列出以供研究方向參考：
-
-| 排名 | 預測疾病 | TxGNN 分數 | 證據等級 | 建議 | 備註 |
-|------|---------|-----------|---------|------|------|
-| 2 | 猴免疫缺陷病毒感染 (SIV infection) | 99.92% | L3 | Research Question | 多篇體外/獼猴動物模式文獻證實 SIV 對 ritonavir 類蛋白酶抑制劑敏感（PMID 12709355、15040537），機轉關聯性遠優於排名第一的候選，但屬轉譯前臨床證據，非可上市之人類新適應症 |
-| 3 | 罕見神經發育疾病（步態失調、語言缺失、大腦白質減少） | 99.92% | L5 | Hold | 查無任何機轉關聯、臨床試驗或文獻支持，判定為知識圖譜雜訊 |
-
----
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 排名第一的預測適應症（貓 FIV）為獸醫疾病，且唯一的臨床試驗證據經複核後確認與此疾病無關（本體匹配錯誤），證據等級僅 L5，不具備推進基礎。
-- 安全性資料存在 Blocking 等級缺口（DG001），即使機轉合理也無法進入下一階段安全性初評。
+- 預測疾病是貓的獸醫疾病，不是人類適應症。唯一的臨床試驗是人類 HIV-1 的已核准用途，不能支持此預測。
+- 同分的 SIV 預測只有間接的前臨床證據，沒有 Ritonavir 單獨療效的資料。
 
 **若要推進需要：**
-- 補齊 TFDA/香港衛生署仿單警語與禁忌症資料（DG001，Blocking，來源：官網仿單 PDF 解析）
-- 補齊 Ritonavir 完整作用機轉資料（DG002，High，來源：DrugBank API）
-- 修正知識圖譜疾病本體對應問題，避免動物專屬疾病（如 FIV）被誤判為人類適應症候選
-- 若欲延續抗反轉錄病毒機轉方向的探索，建議改以排名第二之 SIV 感染（L3，具動物模式文獻支持）作為研究假設起點，而非目前排名第一之候選
+- 確認推進方向是否屬於獸醫用藥開發；若只針對人類老藥新用，建議不列為候選。
+- 取得 Ritonavir 對 FIV 蛋白酶的體外敏感性與動物療效資料。
+- 取得 DrugBank 的作用機轉資料，並下載香港衛生署仿單，補齊警語與禁忌症。
+
+第三名預測（伴有共濟失調步態、無語言與皮質白質減少的神經發展障礙）沒有任何試驗或文獻，也找不到機轉連結，應視為模型假象，不建議投入資源。
+
+> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

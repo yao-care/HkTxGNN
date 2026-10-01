@@ -2,7 +2,7 @@
 layout: default
 title: Deferasirox
 parent: 中證據等級 (L3-L4)
-nav_order: 212
+nav_order: 246
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,13 +29,13 @@ indication_count: 5
 
 </div>
 
-# Deferasirox：從鐵過載到 HIV 感染
+# Deferasirox：從鐵螯合治療到 HIV 感染
 
 ## 一句話總結
 
-Deferasirox 是口服鐵螯合劑，原本用於治療慢性輸血相關鐵過載（血鐵沉著症）。
-TxGNN 模型預測它可能對 **HIV 感染性疾病 (HIV infectious disease)** 有效，
-目前有 **0 個臨床試驗**和 **2 篇文獻**支持這個方向。
+Deferasirox 是口服鐵螯合劑，臨床上用於治療慢性鐵過載（此為藥物類別的通用知識，香港許可證資料中未載明適應症）。
+TxGNN 模型預測它可能對 **HIV 感染 (HIV infectious disease)** 有效。
+目前**沒有臨床試驗**，只有 **2 篇文獻**，且僅為前臨床機轉研究和藥物概述，另有跡象顯示作用方向可能相反。
 
 ---
 
@@ -43,23 +43,22 @@ TxGNN 模型預測它可能對 **HIV 感染性疾病 (HIV infectious disease)** 
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 慢性鐵過載（輸血相關血鐵沉著症） |
-| 預測新適應症 | HIV 感染性疾病 (HIV infectious disease) |
+| 預測新適應症 | HIV 感染 (HIV infectious disease) |
 | TxGNN 預測分數 | 99.40% |
 | 證據等級 | L4 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 7 張 |
 | 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（MOA 為 Data Gap）。根據藥物既有資訊，Deferasirox 是三牙配位基鐵螯合劑（tridentate iron chelator），主要透過高親和力結合 Fe³⁺，降低體內非轉鐵蛋白結合鐵（NTBI）的濃度，從而緩解因長期輸血造成的器官鐵沉積。
+目前缺乏詳細的作用機轉資料。Deferasirox 屬於鐵螯合劑，其作用是結合體內過量的鐵。機轉上是否適用於 HIV 感染，目前無法從現有資料確認。
 
-HIV-1 Tat 蛋白是病毒複製的關鍵轉錄激活因子。體外細胞實驗顯示，胞內溶酶體中的鐵離子可促進 Tat 蛋白形成寡聚體，進而抑制其對 HIV-1 LTR 啟動子的反式激活（transactivation），理論上降低細胞內可利用鐵濃度可抑制病毒複製。此外，核糖核苷酸還原酶（ribonucleotide reductase）是 HIV DNA 合成所需的鐵依賴性酵素，鐵螯合可能進一步干擾病毒 DNA 合成。
+HIV 複製與宿主的鐵狀態有關。2021 年一篇前臨床研究（PMID 34550543）指出，內溶酶體中的鐵會提高 HIV-1 Tat 蛋白的寡聚化與 β-catenin 表現，進而**抑制** Tat 介導的 HIV-1 LTR 轉錄活化。這是根據標題推斷的內容。
 
-然而，上述機轉目前僅有 endolysosome 鐵分佈的細胞實驗支持，Deferasirox 在 HIV 感染臨床情境下的藥效學尚無直接驗證，距離臨床應用存在重大知識缺口。
+這帶來一個方向上的疑慮。鐵螯合劑降低細胞內鐵，理論上可能解除這種抑制，反而增加病毒轉錄活性，與治療效果相反。作用方向尚未釐清，TxGNN 的高分（0.994）目前沒有任何臨床數據支持。
 
 ---
 
@@ -73,14 +72,22 @@ HIV-1 Tat 蛋白是病毒複製的關鍵轉錄激活因子。體外細胞實驗�
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | 基礎／細胞實驗 | Journal of Neurovirology | 胞內溶酶體鐵可促進 HIV-1 Tat 蛋白寡聚化，進而抑制 LTR 啟動子轉錄激活；提示降低胞內鐵濃度或可減少 HIV-1 複製，並影響 HAND 病程 |
-| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | 藥物綜述 | Journal of the American Pharmacists Association | 新藥介紹，涵蓋 deferasirox 的基本藥理與核准適應症，無 HIV 相關療效資料 |
+| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | 前臨床／體外機轉研究 | Journal of Neurovirology | 內溶酶體鐵可抑制 Tat 介導的 HIV-1 LTR 轉錄活化，作用方向與鐵螯合可能相反 |
+| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | 新藥概述 | J Am Pharm Assoc | ramelteon、tipranavir、nepafenac 與 deferasirox 的新藥介紹，未針對 HIV 適應症 |
 
 ---
 
 ## 香港上市資訊
 
-Deferasirox 目前在香港**未取得上市許可**，無相關許可證記錄。
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-68031 | JADENU TABLETS 90MG | Novartis Pharmaceuticals (HK) Limited |
+| HK-68030 | JADENU TABLETS 360MG | Novartis Pharmaceuticals (HK) Limited |
+| HK-66517 | PMS-DEFERASIROX DISPERSIBLE TABLETS 250MG | Trenton-Boma Ltd |
+| HK-64787 | JADENU TABLETS 360MG | Novartis Pharmaceuticals (HK) Limited |
+| HK-64785 | JADENU TABLETS 90MG | Novartis Pharmaceuticals (HK) Limited |
+
+共 7 張許可證，以上列出 5 張。
 
 ---
 
@@ -95,14 +102,18 @@ Deferasirox 目前在香港**未取得上市許可**，無相關許可證記錄�
 **決策：Hold**
 
 **理由：**
-目前僅有 2 篇間接相關文獻（1 篇體外細胞實驗、1 篇藥物綜述），尚無任何針對 HIV 感染的臨床試驗登記。雖然鐵螯合抑制 HIV 複製的機轉在理論上有一定合理性，但現有證據等級僅達 L4（前臨床/機轉研究），且 Deferasirox 於香港尚未上市，不足以支持近期開發決策。
+- 沒有任何臨床試驗，文獻僅有前臨床機轉研究與一般藥物概述，證據等級為 L4。
+- 現有機轉線索顯示鐵螯合可能促進而非抑制 HIV 轉錄，在方向釐清前不建議推進。
 
 **若要推進需要：**
-- 補充 Deferasirox 完整作用機轉（MOA）及 DrugBank 安全性資料
-- 確認 HIV 感染細胞模型與動物模型中的體外／體內藥效數據
-- 評估鐵螯合療法與現行 ART（抗逆轉錄病毒療法）的藥物交互作用風險
-- 查詢 EMA／FDA 原廠仿單，取得完整警語、禁忌症及特殊族群安全性資訊
-- 若計畫於香港進行臨床研究，需先完成香港衞生署藥品上市許可或臨床試驗豁免申請
+- 從 DrugBank 補齊作用機轉資料。
+- 取得香港衛生署仿單，完成警語與禁忌症的安全性篩檢。
+- 取得體外或動物實驗數據，確認鐵螯合對 HIV 複製的作用方向。
+- 若後續要檢視其他預測（如慢性 C 型肝炎），需注意現有文獻多在 β-地中海貧血患者中討論鐵過載，並非 deferasirox 的抗病毒證據。
+
+---
+
+*本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

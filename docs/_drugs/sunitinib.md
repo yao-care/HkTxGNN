@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sunitinib
-parent: 高證據等級 (L1-L2)
-nav_order: 716
-evidence_level: L2
+parent: 僅模型預測 (L5)
+nav_order: 829
+evidence_level: L5
 indication_count: 5
 ---
 
 # Sunitinib
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,106 +29,100 @@ indication_count: 5
 
 </div>
 
-# Sunitinib（DB01268）：老藥新用評估－脂肪肉瘤（Liposarcoma）
+# Sunitinib：從腎細胞癌到脂肪肉瘤
 
 ## 一句話總結
 
-Sunitinib 目前在香港未上市，原始適應症資料付之闕如（僅能由證據內容推知其原用於腎細胞癌、GIST 等領域）。
-TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，
-目前有 **3 個臨床試驗**和 **9 篇文獻**支持這個方向。
-
----
+Sunitinib 是多標的酪胺酸激酶抑制劑，已是腎細胞癌的認可療法（依證據包的機轉說明）。
+TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效。
+目前有 **3 個臨床試驗**和 **9 篇文獻**與這個方向相關，但都是混合型非 GIST 肉瘤的 Phase 2 研究，**沒有脂肪肉瘤專屬的療效數據**。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無資料（香港未上市，無許可證核准適應症紀錄） |
+| 原適應症 | 香港許可證未載明適應症；依證據包機轉說明為腎細胞癌 |
 | 預測新適應症 | 脂肪肉瘤 (Liposarcoma) |
 | TxGNN 預測分數 | 99.87% |
-| 證據等級 | L2 |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails |
-
----
+| 證據等級 | L2（證據包評定；但相關試驗為單臂 Phase 2，非隨機對照） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 6 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DG002：MOA 資料缺口）。但根據證據包內的機轉推論，Sunitinib 為多標靶酪胺酸激酶抑制劑（RTK inhibitor），標靶包括 VEGFR1-3、PDGFR-α/β、KIT、FLT3，作用機轉以抑制腫瘤血管新生為核心。
+目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位為空）。根據證據包的推論，Sunitinib 是多標的受體酪胺酸激酶抑制劑，作用於 VEGFR、PDGFR 和 KIT，可能抑制軟組織肉瘤中的血管新生與 PDGFR 驅動的訊號。
 
-脂肪肉瘤（尤其黏液樣型伴 FUS-DDIT3 融合基因）具高度血管新生依賴性，部分亞型也表現 PDGFR，理論上對抗血管新生治療存在反應性。不過脂肪肉瘤並非單一分子靶點驅動的疾病，其機轉關聯屬於間接推論，而非直接標靶對應。
+Sunitinib 在腎細胞癌和對 imatinib 抗藥的 GIST 等實體瘤已有應用，而這些腫瘤帶有類似的訊號異常。軟組織肉瘤常被當成同一種疾病治療，因此模型把脂肪肉瘤列為可能的新適應症。
 
-值得注意的是，兩個 Phase 2 完成試驗（NCT00400569、NCT00474994）均直接針對含脂肪肉瘤亞型的不可切除/轉移性軟組織肉瘤族群使用 sunitinib 治療，為此預測提供臨床層級的實證基礎，而非僅止於機轉推論。
-
----
+不過要注意，現有的 Phase 2 研究收的是混合組織型的非 GIST 肉瘤（含平滑肌肉瘤、脂肪肉瘤、MFH 等），沒有提供脂肪肉瘤亞型的結果。預測分數高，不等於脂肪肉瘤有直接證據。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00400569](https://clinicaltrials.gov/study/NCT00400569) | Phase 2 | 已完成 | 48 | 開放性單一機構試驗，評估 sunitinib 用於不可切除/轉移性軟組織肉瘤（含脂肪肉瘤、平滑肌肉瘤、纖維肉瘤、MFH）之劑量與療效（相關性 A 級） |
-| [NCT00474994](https://clinicaltrials.gov/study/NCT00474994) | Phase 2 | 已完成 | 53 | 多中心試驗，評估 sunitinib 連續給藥治療轉移性/局部晚期非 GIST 肉瘤（含脂肪肉瘤患者），機轉為阻斷腫瘤血管新生（相關性 A 級） |
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | 已完成 | 131 | SARC024 傘型試驗，評估 **regorafenib**（非 sunitinib）於多種肉瘤亞型之療效，僅供肉瘤治療脈絡參考，藥物不符（相關性 C 級） |
-
----
+| [NCT00474994](https://clinicaltrials.gov/study/NCT00474994) | Phase 2 | 完成 | 53 | 連續給藥 Sunitinib 治療非 GIST 肉瘤，族群包含脂肪肉瘤；未提供各組織型的反應數據 |
+| [NCT00400569](https://clinicaltrials.gov/study/NCT00400569) | Phase 2 | 完成 | 48 | 單中心開放標籤試驗，用於轉移性或無法切除的軟組織肉瘤（含脂肪肉瘤）；未提供亞型結果 |
+| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | 完成 | 131 | 測試的是 regorafenib，不是 Sunitinib，只能作為同類藥物的間接佐證 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [21154746](https://pubmed.ncbi.nlm.nih.gov/21154746/) | 2011 | RCT/Phase2 | Int J Cancer | Sunitinib 用於復發/難治軟組織肉瘤（平滑肌肉瘤、脂肪肉瘤、MFH）之 Phase 2 安全性與療效研究 |
-| [38254762](https://pubmed.ncbi.nlm.nih.gov/38254762/) | 2024 | Review | Cancers | 脂肪肉瘤的基因、表觀遺傳與轉錄體變異回顧，探討標靶治療選擇 |
-| [24555529](https://pubmed.ncbi.nlm.nih.gov/24555529/) | 2014 | Review | Expert Rev Anticancer Ther | 成人軟組織肉瘤新興療法回顧 |
-| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Review | Magyar Onkologia | 依組織學亞型分類之軟組織肉瘤藥物治療回顧 |
-| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Review | Ann Oncol | 依組織學/非組織學導向之軟組織肉瘤治療，提及 trabectedin 對黏液樣脂肪肉瘤具高度活性 |
-| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Review/Protocol | BMC Cancer | REGOSARC 試驗計畫書，背景提及 sunitinib 於軟組織肉瘤之活性數據 |
-| [28423517](https://pubmed.ncbi.nlm.nih.gov/28423517/) | 2017 | Cohort/Genomic | Oncotarget | 骨外黏液樣軟骨肉瘤次世代定序分析，評估對 sunitinib 之潛在反應因子 |
-| [38717131](https://pubmed.ncbi.nlm.nih.gov/38717131/) | 2024 | Cohort/Case series | Am J Surg Pathol | 黏液樣發炎性肌纖維母細胞肉瘤 25 例臨床病理分析（間接肉瘤分子標靶脈絡） |
-| [23482782](https://pubmed.ncbi.nlm.nih.gov/23482782/) | 2013 | Case Report | Anticancer Res | 重度預治療轉移性脂肪肉瘤患者使用 sunitinib 後獲得長期臨床效益之個案報告 |
-
----
+| [21154746](https://pubmed.ncbi.nlm.nih.gov/21154746/) | 2011 | Phase 2 試驗 | Int J Cancer | 單一機構研究，評估 Sunitinib 用於復發或難治的平滑肌肉瘤、脂肪肉瘤和 MFH 的安全性與療效（可得摘要未含結果數據） |
+| [38254762](https://pubmed.ncbi.nlm.nih.gov/38254762/) | 2024 | Review | Cancers | 整理脂肪肉瘤的基因、表觀遺傳與轉錄體變異，探討標靶治療的選擇 |
+| [24555529](https://pubmed.ncbi.nlm.nih.gov/24555529/) | 2014 | Review | Expert Rev Anticancer Ther | 成人軟組織肉瘤的新興療法概述 |
+| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Review | Magyar Onkologia | 軟組織肉瘤的藥物治療越來越依組織亞型決定 |
+| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Review | Ann Oncol | 以組織型為導向的治療；trabectedin 對脂肪肉瘤（尤其黏液型）活性高 |
+| [23482782](https://pubmed.ncbi.nlm.nih.gov/23482782/) | 2013 | Case report | Anticancer Res | 一例多線治療後的轉移性脂肪肉瘤，使用 Sunitinib 獲得長期臨床效益 |
+| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | 試驗計畫書 | BMC Cancer | REGOSARC：regorafenib 用於晚期軟組織肉瘤的隨機 Phase 2 試驗設計（非 Sunitinib） |
+| [28423517](https://pubmed.ncbi.nlm.nih.gov/28423517/) | 2017 | 基因體研究 | Oncotarget | 骨外黏液樣軟骨肉瘤的定序，並評估 Sunitinib 獲益的預測因子（非脂肪肉瘤） |
+| [38717131](https://pubmed.ncbi.nlm.nih.gov/38717131/) | 2024 | Case series | Am J Surg Pathol | 黏液樣發炎性肌纖維母細胞肉瘤的病理分析，與本藥關聯性低 |
 
 ## 香港上市資訊
 
-目前無香港上市許可證（未上市，`total_licenses: 0`）。
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-55406 | SUTENT CAP 12.5MG | Pfizer Corporation Hong Kong Limited |
+| HK-55405 | SUTENT CAP 50MG | Pfizer Corporation Hong Kong Limited |
+| HK-67681 | ALSUNI CAPSULES 12.5MG | Lotus Pharmaceutical HK Limited |
+| HK-68626 | SUNITINIB CAPSULES 12.5MG | Chemill Pharma Limited |
+| HK-68627 | SUNITINIB CAPSULES 50MG | Chemill Pharma Limited |
 
----
+共 6 張許可證，上表列出其中 5 張。各許可證的劑型與核准適應症在資料中均未載明。
 
 ## 細胞毒性
 
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 標靶藥物（多重酪胺酸激酶抑制劑，非傳統細胞毒性化療藥物） |
+| 細胞毒性分類 | 標靶藥物（多標的酪胺酸激酶抑制劑，作用於 VEGFR、PDGFR、KIT） |
 | 骨髓抑制風險 | 請參考原廠仿單的警語與注意事項 |
 | 致吐性分級 | 請參考原廠仿單的警語與注意事項 |
 | 監測項目 | 請參考原廠仿單的警語與注意事項 |
 | 處置防護 | 請參考原廠仿單的警語與注意事項 |
 
----
-
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。（DG001：TFDA/香港仿單警語與禁忌症資料為 Blocking 等級資料缺口，尚未取得）
-
----
+安全性資訊請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-兩個 Phase 2 完成試驗直接於含脂肪肉瘤亞型的軟組織肉瘤族群測試 sunitinib，並有個案報告支持長期臨床效益；機轉上（抗血管新生 TKI）與脂肪肉瘤生物學具合理連結，證據等級達 L2，但尚不足以支持無保留推進。
+- 現有證據都是混合組織型非 GIST 肉瘤的 Phase 2 研究，脂肪肉瘤沒有獨立的療效數據，且 Phase 2 為單臂試驗，證據強度有限。
+- 香港仿單的警語與禁忌資料缺口屬於阻斷性（Blocking），目前無法進入安全性篩選。
 
 **若要推進需要：**
-- 補齊 TFDA/香港衛生署仿單警語與禁忌症資料（DG001，Blocking，阻斷 S1 安全性初評）
-- 確認完整作用機轉資料（DG002）
-- 因香港未上市，需評估藥證申請或專案進口／恩慈療法途徑
-- 針對黏液樣脂肪肉瘤（FUS-DDIT3 融合）等特定亞型進行生物標記驗證，以強化分子層級的患者篩選依據
+- 取得 Phase 2 試驗（NCT00474994、NCT00400569、PMID 21154746）中脂肪肉瘤亞型的療效與安全性數據
+- 下載並解析衛生署（Department of Health）的仿單，補齊警語、禁忌與藥物交互作用
+- 補充 DrugBank 的作用機轉資料
+- 與脂肪肉瘤現行標準治療（如 doxorubicin、trabectedin）比較其定位
+- 補齊香港許可證的劑型與核准適應症資料
 
----
+**補充：**同一份證據包中，**未分類腎細胞癌 (Unclassified RCC)** 這項預測的證據較完整（L2，建議 Proceed with Guardrails），有多個 Phase 2 試驗和非透明細胞型腎癌的 Phase 2 與真實世界研究，可作為後續優先評估的候選。
 
-*附註：本證據包（candidate_id: TW-DB01268-multi）另評估 4 個較弱候選適應症——ovarian myxoid liposarcoma（L4/Research Question）、Xp11.2 易位相關腎細胞癌（L4/Research Question）、unclassified renal cell carcinoma（L2/Proceed with Guardrails，具 12 篇文獻及 5 個試驗，含多個非透明細胞 RCC 之隨機對照試驗如 ASPEN、ESPN）、以及 neuroblastoma 相關腎細胞癌（L5/Hold，因資料配對錯誤，證據等同無）。若欲評估 unclassified RCC 候選，建議另行產出獨立報告。*
+*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

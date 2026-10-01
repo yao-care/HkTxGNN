@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rifampicin
-parent: 中證據等級 (L3-L4)
-nav_order: 647
-evidence_level: L3
+parent: 僅模型預測 (L5)
+nav_order: 756
+evidence_level: L5
 indication_count: 5
 ---
 
 # Rifampicin
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,92 @@ indication_count: 5
 
 </div>
 
-Using the pharmacist-report skill implicit in this task: producing the Traditional Chinese repurposing evaluation report per v5 spec below, based strictly on the supplied Evidence Pack.
-
-# Rifampicin：從結核病 (TB) 到結膜炎 (Conjunctivitis)
+# Rifampicin：從抗結核抗生素到結膜炎
 
 ## 一句話總結
 
-Rifampicin 是廣譜抗生素，文獻證據顯示其核心用途為結核病 (TB) 治療（正式仿單資料尚未取得）。
-TxGNN 模型預測它可能對**結膜炎 (Conjunctivitis)** 有效，
-目前**無註冊臨床試驗**，但有 **20 篇文獻**支持這個方向，其中包含 1975 年一項針對沙眼（trachoma）的人體對照試驗。
+Rifampicin（利福平）是廣譜抗生素，許可證資料未載明原適應症，依一般藥理知識，主要用於結核病治療。
+TxGNN 模型預測它可能對**結膜炎 (Conjunctivitis)** 有效，目前**無臨床試驗**，但有 **20 篇文獻**，多為細菌培養與藥敏調查，另有少數早期沙眼研究。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 尚無正式仿單登記資料（DG001）；文獻佐證顯示主要用於結核病 (TB) 合併治療 |
+| 原適應症 | 香港許可證資料未載明（依一般知識為結核病等細菌感染） |
 | 預測新適應症 | 結膜炎 (Conjunctivitis) |
 | TxGNN 預測分數 | 99.95% |
-| 證據等級 | L3 |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 |
+| 證據等級 | L4（僅有機轉推論與間接研究，缺乏結膜炎療效試驗） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 15 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-DrugBank 的正式 MOA 欄位標記為資料缺口（DG002），但本證據包彙整的文獻明確指出，rifampicin 的作用機轉是抑制細菌 RNA 聚合酶，阻斷 mRNA 合成，因而具有廣譜殺菌活性，涵蓋分枝桿菌（結核桿菌）與披衣菌屬（*Chlamydia trachomatis*）等病原體。
+目前缺乏詳細的作用機轉資料。依一般藥理知識，Rifampicin 抑制細菌 RNA 聚合酶，對葡萄球菌、奈瑟菌與披衣菌都有活性。細菌性結膜炎常由這些菌種引起，所以抗菌機轉上有合理的關聯。
 
-結膜炎（尤其是沙眼／包涵體結膜炎）常由 *Chlamydia trachomatis* 引起，而多篇文獻（PMID 6635446、PMID 5411121）指出，rifampicin 按重量計算是對抗 *C. trachomatis* 活性最強的抗生素之一，機轉上與其抗結核作用同源。1970 年代已有局部眼用 rifampicin 藥膏治療沙眼的人體對照試驗（PMID 1096630），顯示這並非純粹的知識圖譜雜訊。
+文獻中與此方向最接近的是披衣菌相關研究。1983 年的綜述指出，Rifampin 以重量計是對砂眼披衣菌活性最強的抗生素，局部治療沙眼的效果與四環黴素相當。1975 年突尼西亞的對照試驗也比較了 1% Rifampicin 眼膏與四環黴素眼膏治療沙眼。另有腦膜炎雙球菌結膜炎的個案，在局部治療後加用全身性 Rifampin，未出現併發症。
 
-值得特別提醒的是，本證據包同批預測中的「多發性內分泌腫瘤 (MEN)」與「HIV 感染」兩項，已被明確標註為知識圖譜的間接雜訊訊號（機轉上無合理生物學路徑，詳見文末附註），不應與本項「結膜炎」預測混淆。相較之下，結膜炎預測有實際的體外實驗與歷史臨床證據支持，屬於證據基礎相對紮實的老藥新用方向，但仍以早期、小規模研究為主，缺乏現代註冊臨床試驗驗證。
+不過現有證據大多只說明結膜炎的病原菌分布與藥敏，並未證明 Rifampicin 能治療結膜炎。分數雖高，仍只是模型預測。另外，資料集中的「conjunctivitis」與「conjunctivitis (disease)」兩筆預測互為重複，證據相同。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [1096630](https://pubmed.ncbi.nlm.nih.gov/1096630/) | 1975 | 對照試驗 | Am J Ophthalmol | 突尼西亞學童沙眼對照試驗：1% 四環素藥膏 vs. 1% rifampicin 藥膏 vs. 5% 硼酸藥膏，為早期人體對照研究 |
-| [6635446](https://pubmed.ncbi.nlm.nih.gov/6635446/) | 1983 | Review | Rev Infect Dis | Rifampin 按重量計算是對 *C. trachomatis* 活性最強的抗生素，局部治療沙眼療效與四環素相當 |
-| [5411121](https://pubmed.ncbi.nlm.nih.gov/5411121/) | 1970 | 體外實驗 | Nature | Rifampicin 及其衍生物具抗沙眼病原體（*C. trachomatis*）之體外活性證據 |
-| [5005929](https://pubmed.ncbi.nlm.nih.gov/5005929/) | 1971 | 臨床報告 | Ann Ophthalmol | 早期眼科臨床使用 rifampicin 之報告（摘要未提供） |
-| [15228931](https://pubmed.ncbi.nlm.nih.gov/15228931/) | 2004 | Review | An Pediatr | 細菌性結膜炎常見病原菌與抗生素敏感性回顧，支持經驗性抗生素治療策略 |
-| [19941479](https://pubmed.ncbi.nlm.nih.gov/19941479/) | 2010 | Review | Curr Med Chem | 探討沙眼等被忽視細菌感染疾病，提及 rifampin 於相關治療方案中的角色 |
-| [33457332](https://pubmed.ncbi.nlm.nih.gov/33457332/) | 2020 | 觀察性研究 | Adv Biomed Res | 伊朗中部結膜炎患者之細菌病原體與抗生素敏感性分析 |
-| [21484175](https://pubmed.ncbi.nlm.nih.gov/21484175/) | 2011 | 觀察性研究 | J Ophthalmic Inflamm Infect | 奈及利亞拉哥斯結膜炎病原菌分布與質體分析 |
-| [2483893](https://pubmed.ncbi.nlm.nih.gov/2483893/) | 1989 | Review | Ann Ig | 回顧 *Chlamydia trachomatis* 致病機轉，涵蓋沙眼與包涵體結膜炎 |
-| [21191558](https://pubmed.ncbi.nlm.nih.gov/21191558/) | 2010 | 觀察性研究 | Rev Esp Quimioter | *Corynebacterium macginleyi* 引起結膜炎菌株之抗生素敏感性分析 |
+| [1096630](https://pubmed.ncbi.nlm.nih.gov/1096630/) | 1975 | 對照臨床研究 | Am J Ophthalmol | 突尼西亞學童沙眼，比較 1% Rifampicin 眼膏、1% 四環黴素眼膏與硼酸對照，每日兩次、共 10 週 |
+| [6635446](https://pubmed.ncbi.nlm.nih.gov/6635446/) | 1983 | Review | Rev Infect Dis | Rifampin 對砂眼披衣菌活性最強；少數研究顯示局部治療沙眼與四環黴素相當 |
+| [5411121](https://pubmed.ncbi.nlm.nih.gov/5411121/) | 1970 | 實驗研究 | Nature | 報告 Rifampicin 與 Rifamycin SV 衍生物的抗沙眼活性（無摘要） |
+| [5005929](https://pubmed.ncbi.nlm.nih.gov/5005929/) | 1971 | Review | Ann Ophthalmol | Rifampicin 簡介（無摘要） |
+| [19941479](https://pubmed.ncbi.nlm.nih.gov/19941479/) | 2010 | Review | Curr Med Chem | 被忽視的細菌性疾病（含沙眼、布魯里潰瘍），談到 Rifampin 組合療法 |
+| [14686993](https://pubmed.ncbi.nlm.nih.gov/14686993/) | 2003 | 個案報告 | Clin Microbiol Infect | 6 歲男童原發性腦膜炎雙球菌結膜炎，局部治療後加用全身性 Rifampin，無併發症 |
+| [7806886](https://pubmed.ncbi.nlm.nih.gov/7806886/) | 1994 | 病例系列 | J Infect | 3 例原發性腦膜炎雙球菌結膜炎，建議局部加全身治療，並對密切接觸者給予預防性用藥 |
+| [33457332](https://pubmed.ncbi.nlm.nih.gov/33457332/) | 2020 | 橫斷面研究 | Adv Biomed Res | 伊朗卡尚結膜炎病患的細菌分布與藥敏 |
+| [15228931](https://pubmed.ncbi.nlm.nih.gov/15228931/) | 2004 | 觀察性研究 | An Pediatr (Barc) | 細菌性結膜炎常見病原與抗生素敏感性 |
+| [8363150](https://pubmed.ncbi.nlm.nih.gov/8363150/) | 1993 | 觀察性研究 | An Esp Pediatr | 50 例新生兒結膜炎，84% 培養陽性，多數菌種對多數藥物敏感 |
 
 ## 香港上市資訊
 
-目前查無香港上市許可證資料（市場狀態：未上市，總許可證數：0）。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-28162 | RIFADIN CAP 150MG | — | — |
+| HK-30377 | RICIN CAP 300MG | — | — |
+| HK-28163 | RIFADIN SYRUP 2% | — | — |
+| HK-22592 | RIFASYNT 300 CAP 300MG | — | — |
+| HK-61828 | YUAN CHOU-RIFAMPICIN CAPSULES 300MG | — | — |
+
+共 15 張許可證，以上為前 5 張。資料中未載明劑型與核准適應症。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。目前 TFDA/香港官方仿單資料尚未取得（DG001，Blocking 等級），DDI 查詢亦無結果，故本階段**無法完成安全性初評 (S1)**。
+- **藥物交互作用**：資料庫查無交互作用紀錄。但相關文獻一致指出，Rifampicin 是強力的 CYP 酶誘導劑，會降低口服避孕藥與多種抗反轉錄病毒藥物（如 dolutegravir、nevirapine）的血中濃度，用藥前需評估併用藥物。
+
+警語與禁忌症資料缺漏，請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 藥物目前未在香港上市，缺乏當地正式仿單與警語資料（DG001 為 Blocking 等級缺口），無法完成安全性初評。
-- 結膜炎適應症證據等級為 L3，主要來自 1970-80 年代的體外實驗與小規模對照試驗，缺乏現代註冊臨床試驗（ClinicalTrials.gov 上無相關登記）驗證其在當代治療角色。
+- 抗菌機轉合理，且有沙眼的早期局部使用研究，但目前沒有針對結膜炎的療效試驗。
+- 現有文獻多為病原與藥敏調查，無法證明療效。
+- 香港仿單的警語與禁忌症也尚未取得，無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得官方仿單以完成 DG001 安全性初評
-- 補齊 DrugBank 正式 MOA 資料（DG002）
-- 檢索近 10 年眼科臨床證據，確認 rifampicin 是否已被新一代抗生素取代
-- 若考慮開發，需評估眼用局部劑型（現有證據多為藥膏劑型，而非現行口服劑型）之可行性
+- 取得香港衛生署仿單，補齊警語與禁忌症。
+- 從 DrugBank 補充作用機轉資料。
+- 評估眼科局部劑型的可行性。香港現有許可證多為口服膠囊與糖漿，是否有眼用劑型尚未確認。
+- 針對細菌性或披衣菌結膜炎，搜尋 Rifampicin 局部或全身使用的對照試驗，並與現行標準眼用抗生素比較。
+- 比較 Rifampicin 抗藥性易於產生的風險，與現有替代藥物的利弊。
 
----
+**其他預測適應症（供參考）：**
+- 痤瘡：現有文獻多為化膿性汗腺炎（clindamycin 加 rifampicin），不能直接套用於尋常性痤瘡。
+- HIV：Rifampicin 本身無抗反轉錄病毒作用，相關試驗皆為結核病併 HIV 的交互作用與劑量研究。
+- 多發性內分泌腫瘤：無任何證據，可能是知識圖譜的假象。
 
-### 附註：其他預測候選（本報告未採納）
-
-本證據包同批尚有 3 項預測適應症，因證據品質或機轉合理性問題，未列入本報告主體，特此說明以避免誤用：
-
-| 適應症 | TxGNN 分數 | 狀態 | 說明 |
-|--------|-----------|------|------|
-| 多發性內分泌腫瘤 (MEN) | 99.86% | Hold | 證據包明確標註為知識圖譜雜訊訊號，MEN 為 RET/MEN1 基因突變疾病，與 rifampicin 之 RNA 聚合酶抑制機轉無已知關聯 |
-| 痤瘡 (acne，實際多指 hidradenitis suppurativa/acne inversa) | 99.74% | 未評分 | 文獻顯示 rifampicin + clindamycin 併用已是歐洲/北美指引中治療化膿性汗腺炎的**既有標準療法**，並非全新適應症；但 TxGNN 節點標記為「acne (disease)」易與尋常痤瘡混淆，需注意疾病定義差異 |
-| HIV 感染 | 99.59% | Hold | ⚠️ 證據包明確警告此為假性訊號。所有相關試驗與文獻均為「rifampicin 治療結核病時與抗反轉錄病毒藥物之藥物交互作用（CYP3A4/UGT1A1 誘導）研究」，rifampicin 並無抗 HIV 病毒活性，誤讀恐導致嚴重臨床誤導 |
+*本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

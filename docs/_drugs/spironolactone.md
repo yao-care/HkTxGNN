@@ -2,7 +2,7 @@
 layout: default
 title: Spironolactone
 parent: 僅模型預測 (L5)
-nav_order: 704
+nav_order: 817
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,82 +29,75 @@ indication_count: 2
 
 </div>
 
-# Spironolactone：原適應症資料缺失 → 預測 Hypotrichosis Simplex of the Scalp
+# Spironolactone：從（原適應症資料未提供）到頭皮單純性毛髮稀少症
 
 ## 一句話總結
 
-Spironolactone（DB00421）目前香港未上市，且原始適應症與作用機轉資料皆缺失。
-TxGNN 模型預測其可能對**頭皮單純性少毛症 (Hypotrichosis Simplex of the Scalp)** 有效，
-但目前**無任何臨床試驗或文獻**支持，且機轉合理性分析認為此預測**可能是假陽性**。
-
----
+Spironolactone（螺內酯）在香港已有 9 張上市許可證，但本次資料未載明其核准適應症。
+TxGNN 模型預測它可能對**頭皮單純性毛髮稀少症 (Hypotrichosis Simplex of the Scalp)** 有效。
+目前**沒有臨床試驗，也沒有文獻**支持，僅有模型預測分數。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無資料（未提供 original_indications，亦無香港許可證資料） |
-| 預測新適應症 | 頭皮單純性少毛症 (Hypotrichosis Simplex of the Scalp) |
+| 原適應症 | 資料未提供（香港許可證未載明適應症文字） |
+| 預測新適應症 | 頭皮單純性毛髮稀少症 (Hypotrichosis Simplex of the Scalp) |
 | TxGNN 預測分數 | 99.26% |
-| 證據等級 | L5（僅模型預測，無實際研究） |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 |
+| 證據等級 | L5（僅有模型預測） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 9 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏 Spironolactone 的作用機轉資料（MOA 標記為缺失）。根據藥理學公開知識，Spironolactone 為醛固酮拮抗劑兼抗雄激素藥物，常見用於雄激素驅動之落髮（androgenetic alopecia）。
+目前缺乏詳細的作用機轉資料。一般認為 Spironolactone 是鹽皮質素受體拮抗劑，並帶有抗雄性素作用，臨床上也有人將它超適應症用於雄性素相關的落髮。但這只是背景知識，不能當作本適應症的證據。
 
-然而，本 Evidence Pack 內附的機轉關聯性分析明確指出：**此次預測的兩個適應症在生物學上可能與 Spironolactone 的已知機轉無關**。
+頭皮單純性毛髮稀少症是罕見的遺傳性落髮疾病，成因主要不是雄性素驅動。因此抗雄性素機轉與此疾病之間的連結，目前只是推測，尚未驗證。
 
-- **Hypotrichosis simplex of the scalp** 為體染色體顯性遺傳疾病（與 CDSN、APCDD1 等基因突變相關），毛囊發育異常屬遺傳性問題，與雄激素訊號路徑無直接病理關聯。
-- **Congenital hypotrichosis with milia** 為罕見遺傳症候群，涉及毛囊與皮脂腺發育缺陷，同樣非雄激素依賴性疾病。
-
-分析認為，TxGNN 的高分（>99%）較可能反映知識圖譜中「hypotrichosis」節點與「androgenetic alopecia」等概念的語意鄰近性，而非真實的機轉證據，**應視為潛在假陽性**，不建議直接採信分數本身。
-
----
+排名第二的預測是**先天性毛髮稀少伴粟粒疹 (Congenital Hypotrichosis Milia)**，分數 99.04%，同樣沒有任何試驗或文獻。這是極罕見的先天性疾病，現有資料無法建立合理的機轉連結。這兩項預測可能只是反映知識圖譜中與其他毛髮相關表型的鄰近關係，需要獨立驗證。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記。
-
----
+目前無相關臨床試驗登記
 
 ## 文獻證據
 
-目前無相關文獻。
-
----
+目前無相關文獻
 
 ## 香港上市資訊
 
-此藥物目前尚未在香港上市，無許可證資料可供列出。
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-68285 | SMIRON TABLETS 25MG | WELLDONE PHARMACEUTICALS LIMITED |
+| HK-67773 | SPIROLON 100 TABLETS 100MG | HEALTHCARE PHARMASCIENCE LIMITED |
+| HK-63188 | EURO-SPIRO TABLETS 25MG | EUROPHARM LAB CO LTD |
+| HK-61599 | SPIRONOLACTONE ACTAVIS TABLETS 25MG | TEVA PHARMACEUTICAL HONG KONG LIMITED |
+| HK-19636 | ALDACTONE TAB 25MG | PFIZER CORPORATION HONG KONG LIMITED |
 
----
+以上列出 5 張主要許可證，共 9 張。
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
-> 補充說明：本 Evidence Pack 標記「TFDA 仿單警語/禁忌」為 **Blocking** 等級資料缺口——這是進入下一階段安全性初評（S1）的必要條件，目前尚未補齊。
-
----
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 兩個預測適應症皆為 L5（僅有模型分數，無臨床試驗、無文獻、無觀察性研究支持）。
-- 附帶的機轉分析本身即質疑此預測的生物學合理性，認為高分可能源於知識圖譜語意鄰近效應而非真實機轉關聯，存在假陽性風險。
-- 藥物在香港未上市，且缺乏 MOA 與安全性（警語、禁忌、DDI）等基礎資料，尚不具備進入安全性初評（S1）的條件。
+- 證據等級為 L5，僅有 TxGNN 分數，沒有任何臨床試驗或文獻。
+- 此疾病的成因主要不是雄性素驅動，機轉連結尚未驗證。
+- 香港仿單的警語與禁忌資料也尚未取得，目前無法進入安全性篩選。
 
 **若要推進需要：**
-- 補齊 TFDA/香港衛生署仿單警語與禁忌症資料（Blocking 缺口 DG001）
-- 補齊 Spironolactone 作用機轉資料，並釐清原始核准適應症（DrugBank 查詢，High 缺口 DG002）
-- 針對此少毛症適應症方向，進行體外/體內機轉驗證研究，先排除假陽性可能，再考慮投入臨床試驗或文獻搜尋資源
+- 取得香港衛生署仿單，補齊警語與禁忌症資料。
+- 從 DrugBank 補充完整的作用機轉資料。
+- 文獻檢索，確認 Spironolactone 與遺傳性毛髮稀少症是否有病例報告或機轉研究。
+- 確認給藥途徑的相容性，目前資料為待確認。
+- 評估這兩項預測是否值得投入，因為疾病極為罕見，且機轉連結薄弱。
+
+> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

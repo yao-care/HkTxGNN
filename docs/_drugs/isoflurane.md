@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Isoflurane
-parent: 中證據等級 (L3-L4)
-nav_order: 414
-evidence_level: L3
+parent: 僅模型預測 (L5)
+nav_order: 478
+evidence_level: L5
 indication_count: 5
 ---
 
 # Isoflurane
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,15 +29,12 @@ indication_count: 5
 
 </div>
 
-# Isoflurane：從全身麻醉到躁鬱症躁期
+# Isoflurane：從全身麻醉到變異型心絞痛
 
 ## 一句話總結
 
-Isoflurane 是廣泛使用的吸入性全身麻醉劑，原本用於手術麻醉誘導與維持。
-TxGNN 模型將其列為對**躁鬱症躁期 (Manic Bipolar Affective Disorder)** 可能有效的候選方向，
-目前**無臨床試驗登記**，僅有 **3 篇文獻**（多為 1990 年代小規模研究）支持這個機轉連結，證據仍薄弱。
-
-> 註：本次評估 TxGNN 共產出 5 個預測適應症，其餘 4 個（Prinzmetal angina、Tourette 氏症候群、trichotillomania、輕鬱症）皆無任何臨床試驗或文獻佐證（證據等級 L5，僅為模型關聯分數），本報告聚焦於唯一有實證支持的候選方向。
+Isoflurane（異氟烷）是一種吸入式全身麻醉劑，在香港已有多張許可證。
+TxGNN 模型預測它可能對**變異型心絞痛 (Prinzmetal angina)** 有效，但目前**沒有任何臨床試驗與文獻**支持，僅是模型預測。
 
 ---
 
@@ -45,23 +42,32 @@ TxGNN 模型將其列為對**躁鬱症躁期 (Manic Bipolar Affective Disorder)*
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 全身麻醉（吸入性麻醉劑，用於麻醉誘導/維持；Evidence Pack 未收錄台灣/香港核准適應症文字） |
-| 預測新適應症 | 躁鬱症躁期 (Manic Bipolar Affective Disorder) |
-| TxGNN 預測分數 | 99.57%（rank 8053） |
-| 證據等級 | L3 |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 張 |
+| 原適應症 | 吸入式麻醉（許可證未載明適應症文字，依藥物類別判斷） |
+| 預測新適應症 | 變異型心絞痛 (Prinzmetal angina) |
+| TxGNN 預測分數 | 99.67% |
+| 證據等級 | L5 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 4 張 |
 | 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏 Isoflurane 詳細的作用機轉資料收錄（Evidence Pack 標記為資料缺口）。根據已知資訊，Isoflurane 屬吸入性全身麻醉劑類別，其麻醉效果已在手術麻醉領域廣泛驗證。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Isoflurane 是揮發性吸入麻醉劑，一般認為透過增強 GABA-A 受體訊號、拮抗 NMDA 受體來產生麻醉效果。
 
-躁鬱症躁期預測的機轉連結並非藥理受體層級的直接關聯，而是程序性的：Isoflurane 麻醉可誘導腦電圖「爆發抑制 (burst-suppression)」狀態，此現象與電痙攣治療 (ECT) 誘導癲癇發作後的皮質抑制效果類似。1990 年代曾有文獻探索以「Isoflurane 麻醉下爆發抑制 (BSIA)」作為 ECT 的替代方案，用於治療頑固型憂鬱／躁鬱病人。
+變異型心絞痛的成因是冠狀動脈痙攣。揮發性麻醉劑有血管平滑肌鬆弛與冠狀動脈擴張的作用，這可能是模型作出此預測的線索。不過 Isoflurane 造成的冠狀動脈擴張，也曾引發「冠狀動脈竊血」的爭議。
 
-換言之，這個預測反映的是麻醉深度誘導的附帶效應，而非 Isoflurane 對精神疾病病理（如多巴胺／單胺調控）具有專一治療機轉，加上吸入性麻醉劑本質上不適合作為慢性精神科用藥，機轉合理性屬中等偏弱。
+此外，Isoflurane 是短時間使用的吸入麻醉劑，不適合用於長期控制血管痙攣。目前也沒有臨床或文獻證據，模型分數本身不能視為療效證據。
+
+**其他預測適應症（皆為 Hold）：**
+
+| 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 說明 |
+|------|-----------|-----------|---------|------|
+| 2 | 妥瑞氏症 (Tourette syndrome) | 99.61% | L5 | 僅有模型預測，無試驗與文獻 |
+| 3 | 躁型雙相情感障礙 (manic bipolar affective disorder) | 99.57% | L4 | 有間接文獻：小型開放性比較研究（burst-suppression isoflurane 麻醉對比電痙攣治療於重度憂鬱）與動物躁症模型的 PET 研究 |
+| 4 | 拔毛症 (trichotillomania) | 99.54% | L5 | 僅有模型預測，無試驗與文獻 |
+| 5 | 輕鬱症 (dysthymic disorder) | 99.27% | L5 | 僅有模型預測，無試驗與文獻 |
 
 ---
 
@@ -73,17 +79,34 @@ TxGNN 模型將其列為對**躁鬱症躁期 (Manic Bipolar Affective Disorder)*
 
 ## 文獻證據
 
+針對排名第一的變異型心絞痛，目前無相關文獻。
+
+以下為排名第三（躁型雙相情感障礙）檢索到的間接文獻，僅供參考：
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [8462536](https://pubmed.ncbi.nlm.nih.gov/8462536/) | 1993 | 開放性比較研究 (Cohort) | European Journal of Anaesthesiology | 12 名難治型重度憂鬱症病人接受爆發抑制-Isoflurane 麻醉 (BSIA) 與 ECT 之個體內比較，兩者皆顯示明顯改善 |
-| [7502646](https://pubmed.ncbi.nlm.nih.gov/7502646/) | 1995 | 個案報告 | AANA Journal | 躁鬱症病人（服用 lithium、sertraline）接受 Isoflurane 全身麻醉時之惡性高熱鑑別診斷案例 |
-| [18930636](https://pubmed.ncbi.nlm.nih.gov/18930636/) | 2008 | 臨床前研究（動物 PET 影像） | Psychiatry Research | 大鼠躁症模型（ICV ouabain）於 Isoflurane 麻醉下進行 FDG-PET，觀察額葉葡萄糖代謝變化 |
+| [8462536](https://pubmed.ncbi.nlm.nih.gov/8462536/) | 1993 | 開放性個體內比較研究 | European Journal of Anaesthesiology | 12 位重度憂鬱患者接受 burst-suppression isoflurane 麻醉與電痙攣治療，兩者皆有明顯改善 |
+| [18930636](https://pubmed.ncbi.nlm.nih.gov/18930636/) | 2008 | 前臨床動物研究 | Psychiatry Research | 以 FDG-PET 觀察大鼠躁症模型的腦部葡萄糖代謝，isoflurane 僅作為實驗麻醉用 |
+| [7502646](https://pubmed.ncbi.nlm.nih.gov/7502646/) | 1995 | 病例報告 | AANA Journal | 惡性高熱的鑑別診斷討論，病人有躁鬱症病史，未提供療效訊號 |
+
+---
+
+## 香港上市資訊
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-58404 | TERRELL ISOFLURANE LIQUID FOR INHALATION | 吸入液 | 未載明 |
+| HK-50284 | ATTANE (ISOFLURANE) LIQ FOR INHAL'N (VET) | 吸入液（獸用） | 未載明 |
+| HK-51392 | I.S.O. INHALATION ANAESTHETIC LIQUID 1ML/ML (VET) | 吸入液（獸用） | 未載明 |
+| HK-40926 | ISOFLURANE | 吸入液 | 未載明 |
+
+其中 HK-50284 與 HK-51392 為獸用產品。
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單（Evidence Pack 中 TFDA/香港仿單警語、禁忌症及 DDI 資料均未收錄）。
+安全性資訊請參考原廠仿單。
 
 ---
 
@@ -92,13 +115,16 @@ TxGNN 模型將其列為對**躁鬱症躁期 (Manic Bipolar Affective Disorder)*
 **決策：Hold**
 
 **理由：**
-唯一具實證支持的預測適應症（躁鬱症躁期）僅達 L3 證據等級，且核心文獻為 1990 年代 12 人小樣本開放性比較研究與個案報告，缺乏隨機對照試驗；其機轉連結為麻醉誘導之爆發抑制現象，非專一藥理機轉，加上吸入性麻醉劑不具備慢性精神科用藥的可行性，現階段不足以支持推進。
+- 排名第一的變異型心絞痛僅有模型預測，無任何試驗或文獻，證據等級為 L5。
+- 吸入麻醉劑為短時間使用，與慢性疾病的長期治療不相容。
 
 **若要推進需要：**
-- 補齊 TFDA／香港仿單警語與禁忌症資料（DG001，Blocking，目前無法進入安全性初評）
-- 補齊 Isoflurane 完整作用機轉 (MOA) 資料（DG002，High）
-- 若欲驗證躁鬱症方向，需現代前瞻性對照研究更新 1990 年代 BSIA 舊證據，並評估其相對於 ECT／藥物治療的風險效益
-- 評估吸入性麻醉劑於精神科重複／慢性給藥情境下的操作可行性與病人負擔
+- 取得香港衛生署仿單，確認警語與禁忌症
+- 補充詳細的作用機轉資料（MOA）
+- 針對冠狀動脈痙攣與 isoflurane 的血管效應進行文獻回顧或前臨床研究
+- 評估給藥途徑的可行性（吸入麻醉是否適用於此適應症）
+
+*本報告僅供研究參考，不構成醫療建議；預測結果需經臨床驗證。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -2,7 +2,7 @@
 layout: default
 title: Rufinamide
 parent: 僅模型預測 (L5)
-nav_order: 667
+nav_order: 777
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,62 +29,76 @@ indication_count: 5
 
 </div>
 
-# Rufinamide：從 Lennox-Gastaut 症候群 (LGS) 到熱性感染相關癲癇症候群 (FIRES)
+# Rufinamide：從抗癲癇用藥到發熱感染相關癲癇症候群 (FIRES)
 
 ## 一句話總結
 
-> Rufinamide 是已知核准用於 Lennox-Gastaut 症候群 (LGS) 的廣效抗癲癇藥物，但其詳細作用機轉資料目前缺失。
-> TxGNN 模型預測它可能對**熱性感染相關癲癇症候群 (Febrile Infection-Related Epilepsy Syndrome, FIRES)** 有效，
-> 但目前**無臨床試驗**、**無相關文獻**支持，僅屬模型拓樸相似性預測。
+Rufinamide 是已在香港上市的抗癲癇藥物。
+TxGNN 模型預測它可能對**發熱感染相關癲癇症候群 (Febrile Infection-Related Epilepsy Syndrome, FIRES)** 有效。
+目前**沒有臨床試驗**，也**沒有文獻**支持，僅有模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | Lennox-Gastaut 症候群 (LGS)（依證據包內其他候選項之機轉描述推得，非直接來自香港許可證欄位） |
-| 預測新適應症 | 熱性感染相關癲癇症候群 (Febrile Infection-Related Epilepsy Syndrome, FIRES) |
+| 原適應症 | 許可證資料未載明具體適應症（屬上市抗癲癇藥物） |
+| 預測新適應症 | 發熱感染相關癲癇症候群 (FIRES) |
 | TxGNN 預測分數 | 99.57% |
 | 證據等級 | L5 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 3 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏 Rufinamide 詳細的作用機轉資料（列為 High 等級資料缺口 DG002，待查詢 DrugBank API）。根據證據包中其他候選適應症的機轉描述可得知，Rufinamide 核准用於 Lennox-Gastaut 症候群 (LGS)，透過鈉通道調節機轉發揮廣效抗癲癇作用，對 LGS 常見的混合型發作（含全身性與局部性成分）具療效。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Rufinamide 是一種已上市的抗癲癇藥，其在癲癇發作控制上的角色已為臨床所用，因此知識圖譜中與癲癇相關的鄰近節點可能把它連到 FIRES。
 
-FIRES 是一種好發於兒童、常伴隨高死亡率的難治型癲癇性腦病，多在感染後急性發生。臨床病理生理上，FIRES 與 LGS 同屬「癲癇性腦病」譜系，皆呈現多灶性/廣泛性皮質過度放電，且對傳統抗癲癇藥物反應不佳，這是兩者機轉延伸具一定合理性的基礎。
-
-然而需特別指出：此候選項（rank 1）在證據包中的 `repurposing_rationale` 欄位標示為 **pending**，代表模型本身尚未產出針對 FIRES 的具體機轉關聯說明。因此上述 LGS/FIRES 病理生理重疊僅為背景推論，並非直接機轉證據，建議視為**研究假設**而非**臨床假設**。
+FIRES 是一種難治型、由發炎驅動的癲癇症候群。模型分數很高，但這很可能反映的是圖譜中的「癲癇」共同關聯，而非已驗證的藥理依據。若只靠鈉離子通道這類抗癲癇機轉，未必足以處理 FIRES 的發炎特性，這一點需要專家評估。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
-目前無相關文獻
+目前無相關文獻。
+
+## 香港上市資訊
+
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-64099 | INOVELON TABLETS 400MG | EISAI (HONG KONG) COMPANY LIMITED |
+| HK-64097 | INOVELON TABLETS 100MG | EISAI (HONG KONG) COMPANY LIMITED |
+| HK-64098 | INOVELON TABLETS 200MG | EISAI (HONG KONG) COMPANY LIMITED |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
-> 註：TFDA 仿單警語/禁忌資料目前為 **Blocking** 等級缺口（DG001），在此資料補齊前，本候選無法進入 S1 安全性初評階段。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- Rufinamide 詳細作用機轉（MOA）與仿單安全性資料（警語、禁忌）皆為缺失，其中仿單資料屬 Blocking 等級缺口，無法進行 S1 安全性初評。
-- 本候選（FIRES）及其他 4 個 TxGNN 預測適應症（perioral myoclonia with absences、photosensitive occipital lobe epilepsy、atypical childhood epilepsy with centrotemporal spikes、cryptogenic late-onset epileptic spasms）皆無任何臨床試驗或文獻支持，證據等級均為 L5，僅為模型拓樸相似性預測。
-- 香港目前未上市，無許可證資料可供交叉比對適應症關聯性。
+- 目前只有模型預測（L5），沒有任何臨床試驗或文獻佐證，也缺乏 MOA 與香港仿單的安全性資料，無法進入安全性篩選。
+- FIRES 屬發炎驅動型癲癇，單靠抗癲癇機轉的合理性尚未被驗證。
+
+**其他預測適應症（同為 L5，建議皆為 Hold）：**
+
+| 預測適應症 | TxGNN 分數 | 備註 |
+|-----------|-----------|------|
+| 口周肌陣攣伴失神 (Perioral myoclonia with absences) | 99.51% | 屬全身性癲癇，部分鈉離子通道藥物有加重此類發作的風險，需專家審查機轉與安全性 |
+| 光敏感性枕葉癲癇 (Photosensitive occipital lobe epilepsy) | 99.44% | 屬局部性癲癇，概念上與抗癲癇藥相符，但無法由現有資料驗證 |
+| 非典型兒童中央顳區棘波癲癇 (Atypical childhood epilepsy with centrotemporal spikes) | 99.44% | 部分鈉離子通道阻斷劑可能使棘慢波活化，推進前需做兒童安全性評估 |
+| 隱因性晚發型癲癇性痙攣 (Cryptogenic late-onset epileptic spasms) | 99.44% | 可能與 Rufinamide 用於嚴重兒童癲癇有關，但無試驗或文獻佐證 |
 
 **若要推進需要：**
-- 取得 TFDA/香港衛生署仿單完整警語與禁忌症資料，解除 DG001 Blocking 缺口
-- 查詢 DrugBank API 補充 Rufinamide 詳細作用機轉資料（DG002）
-- 針對 FIRES 等候選適應症搜尋近期病例系列研究、系統性回顧或臨床試驗登記，補足 L5 以上證據
-- 若確認具治療潛力，評估香港恩慈療法或專案進口管道的可行性（因目前未上市）
+- 取得香港衛生署核准仿單，補齊警語、禁忌與核准適應症
+- 補充 Rufinamide 的作用機轉（MOA）資料（例如查詢 DrugBank）
+- 針對 FIRES 檢索臨床試驗與文獻，確認是否有病例報告或觀察性研究
+- 邀請癲癇專科專家審查機轉合理性與兒童用藥安全性
+
+*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證後才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

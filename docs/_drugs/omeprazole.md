@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Omeprazole
-parent: 僅模型預測 (L5)
-nav_order: 545
-evidence_level: L5
+parent: 中證據等級 (L3-L4)
+nav_order: 632
+evidence_level: L3
 indication_count: 2
 ---
 
 # Omeprazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+證據等級: **L3** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,9 +33,8 @@ indication_count: 2
 
 ## 一句話總結
 
-Omeprazole 是質子幫浦抑制劑（PPI），原本用於消化性潰瘍、逆流性食道炎等胃酸相關疾病。
-TxGNN 模型預測它可能對**十二指腸胃逆流 (Duodenogastric Reflux)** 有效，
-目前有 **1 個臨床試驗**和 **20 篇文獻**支持這個方向，但多屬機轉／觀察性研究，尚無直接針對此適應症的隨機對照試驗。
+Omeprazole 是質子幫浦抑制劑（PPI），一般用於消化性潰瘍、胃食道逆流等胃酸相關疾病。本次資料未提供香港許可證的核准適應症。
+TxGNN 模型預測它可能對**十二指腸胃逆流 (Duodenogastric Reflux)** 有效。目前有 **1 個臨床試驗**（與療效無直接關聯）和 **19 篇文獻**，以小型生理學研究、世代研究與動物實驗為主，沒有直接療效證據。
 
 ---
 
@@ -43,21 +42,22 @@ TxGNN 模型預測它可能對**十二指腸胃逆流 (Duodenogastric Reflux)** 
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 胃酸相關疾病（消化性潰瘍、逆流性食道炎等）——香港許可證資料缺失，無法列出正式核准適應症文字 |
 | 預測新適應症 | 十二指腸胃逆流 (Duodenogastric Reflux) |
-| TxGNN 預測分數 | 99.64%（score 0.99642，排名第 7131） |
-| 證據等級 | L3（人體觀察性研究，無專門針對此適應症的完成 RCT） |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| TxGNN 預測分數 | 99.64% |
+| 證據等級 | L3 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-Evidence Pack 中未提供 Omeprazole 的作用機轉資料（[Data Gap]）。就已知藥理學背景，Omeprazole 屬質子幫浦抑制劑（PPI），透過不可逆抑制胃壁細胞 H⁺/K⁺-ATPase 來降低胃酸分泌，此為 PPI 類藥物的共通機轉。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Omeprazole 屬於質子幫浦抑制劑，其抑制胃酸分泌的作用已有臨床應用基礎。
 
-十二指腸胃逆流 (DGR) 的病理機轉牽涉膽汁與十二指腸內容物逆流入胃／食道，胃酸環境的改變會影響逆流物對黏膜的刺激程度。文獻中多篇研究直接探討 Omeprazole 對 DGR 的影響（如降低或改變逆流物性質），顯示兩者機轉上具有直接關聯性；但也有研究提出胃酸抑制可能改變逆流物的細胞毒性、甚至在動物模型中觀察到促進黏膜增生的訊號，顯示此關聯性方向並非單純「治療性」，需要更嚴謹評估。
+十二指腸胃逆流是膽汁與十二指腸內容物逆流入胃。PPI 只抑制胃酸，並不直接阻止這種逆流。若有益處，也是間接的，例如減輕酸相關的黏膜傷害，或改變胃內容量。Barrett 食道的小型人體生理學研究曾在 omeprazole 治療下測量膽汁逆流，但從標題看不出對十二指腸胃逆流本身有明確治療效果。
+
+TxGNN 的高分反映的是知識圖譜上的關聯，不等於臨床證據。另有兩項大鼠研究（PMID 33027361、10389684）提示，在十二指腸胃逆流情境下阻斷胃酸，可能促進胃部致癌。這個安全疑慮應先於療效宣稱釐清。
 
 ---
 
@@ -65,9 +65,7 @@ Evidence Pack 中未提供 Omeprazole 的作用機轉資料（[Data Gap]）。�
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT02685150](https://clinicaltrials.gov/study/NCT02685150) | NA | 已完成 | 157 | 內視鏡三模式影像（NBI/AFI/WLI）用於區分功能性消化不良與逆流性疾病（含酸逆流與膽汁逆流），非直接測試 Omeprazole 療效 |
-
-僅有 1 個相關試驗，且非直接評估 Omeprazole 治療 DGR 的療效試驗，屬於診斷工具研究。
+| [NCT02685150](https://clinicaltrials.gov/study/NCT02685150) | 不適用 (NA) | 完成 | 157 | 以內視鏡三模式影像（NBI、AFI、WLI）區分功能性消化不良與逆流性疾病。屬診斷影像研究，未測試 omeprazole，也無治療結果 |
 
 ---
 
@@ -75,32 +73,38 @@ Evidence Pack 中未提供 Omeprazole 的作用機轉資料（[Data Gap]）。�
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | Eur J Clin Pharmacol | PPI 藥理學與臨床應用回顧，涵蓋消化性潰瘍、GERD 等適應症 |
-| [9824338](https://pubmed.ncbi.nlm.nih.gov/9824338/) | 1998 | 臨床研究 | Gut | Omeprazole 20mg 每日兩次可降低 Barrett's 食道患者的十二指腸胃逆流與十二指腸胃食道逆流 |
-| [10994616](https://pubmed.ncbi.nlm.nih.gov/10994616/) | 2000 | 臨床研究 | Scand J Gastroenterol | Omeprazole 對 Barrett's 食道患者胃竇十二指腸胃逆流的影響 |
-| [16641575](https://pubmed.ncbi.nlm.nih.gov/16641575/) | 2006 | 前瞻性臨床研究（兒童） | J Pediatr Gastroenterol Nutr | Omeprazole 治療兒童食道膽汁逆流的前瞻性研究結果 |
-| [19491829](https://pubmed.ncbi.nlm.nih.gov/19491829/) | 2009 | 觀察性研究 | Am J Gastroenterol | 比較 PPI 治療反應者與非反應者的十二指腸胃食道逆流程度 |
-| [11232672](https://pubmed.ncbi.nlm.nih.gov/11232672/) | 2001 | 觀察性研究 | Am J Gastroenterol | Barrett's 食道患者的酸/膽汁逆流程度較逆流性食道炎高，PPI 治療效果分析 |
-| [21916229](https://pubmed.ncbi.nlm.nih.gov/21916229/) | 2011 | 觀察性研究 | Eksp Klin Gastroenterol | 十二指腸潰瘍患者 DGR 特徵及幽門螺旋桿菌根除後的變化 |
-| [12836018](https://pubmed.ncbi.nlm.nih.gov/12836018/) | 2003 | 病例系列 | Eur J Pediatr | 6 名兒童/青少年原發性十二指腸胃逆流病例報告 |
-| [33027361](https://pubmed.ncbi.nlm.nih.gov/33027361/) | 2020 | 動物研究 | Acta Cir Bras | Omeprazole 對大鼠 DGR 誘發胃腺癌模型的影響，探討是否具保護作用 |
-| [10389684](https://pubmed.ncbi.nlm.nih.gov/10389684/) | 1999 | 動物研究 | Dig Dis Sci | 胃酸阻斷（Omeprazole）在大鼠 DGR 模型中可能促進胃癌發生 — 重要安全訊號 |
-
-> 注意：後兩篇動物研究提示長期胃酸抑制合併 DGR 可能有促進黏膜增生/癌變的訊號，屬於需在安全性評估中特別留意的機轉性警示。
+| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | 回顧 | Eur J Clin Pharmacol | PPI 臨床使用與藥動學回顧，為消化性潰瘍、幽門螺旋桿菌感染、胃食道逆流等的首選藥物 |
+| [9824338](https://pubmed.ncbi.nlm.nih.gov/9824338/) | 1998 | 臨床生理學研究 | Gut | 評估 omeprazole 20 mg 每日兩次對 Barrett 食道之十二指腸胃逆流與胃食道膽汁逆流的影響（摘要未提供結果） |
+| [10994616](https://pubmed.ncbi.nlm.nih.gov/10994616/) | 2000 | 臨床生理學研究 | Scand J Gastroenterol | 探討 omeprazole 對 Barrett 食道患者胃竇十二指腸胃逆流的影響，背景指出 omeprazole 可能減少逆流 |
+| [11232672](https://pubmed.ncbi.nlm.nih.gov/11232672/) | 2001 | 世代／臨床生理學研究 | Am J Gastroenterol | 比較 Barrett 食道與逆流性食道炎的酸與膽汁逆流，並測試 PPI 治療的效果 |
+| [9841990](https://pubmed.ncbi.nlm.nih.gov/9841990/) | 1998 | 世代研究 | J Gastrointest Surg | 比較良性與惡性 Barrett 食道的膽汁逆流，以及藥物抑酸與 Nissen 胃底折疊術的影響 |
+| [16641575](https://pubmed.ncbi.nlm.nih.gov/16641575/) | 2006 | 前瞻性研究 | J Pediatr Gastroenterol Nutr | 以 omeprazole 治療兒童食道膽汁逆流的前瞻性研究（摘要未提供結果） |
+| [12836018](https://pubmed.ncbi.nlm.nih.gov/12836018/) | 2003 | 觀察性／世代（兒童） | Eur J Pediatr | 6 名兒童原發性十二指腸胃逆流病例，對一般制酸治療反應不佳，24 小時胃膽紅素監測顯示膽汁暴露過高 |
+| [19491829](https://pubmed.ncbi.nlm.nih.gov/19491829/) | 2009 | 未分類 | Am J Gastroenterol | 比較 PPI 每日一次治療有反應與無反應的 GERD 患者，其十二指腸胃食道逆流與酸逆流程度 |
+| [10389684](https://pubmed.ncbi.nlm.nih.gov/10389684/) | 1999 | 動物研究（大鼠） | Dig Dis Sci | 十二指腸胃逆流合併 omeprazole 阻斷胃酸，可能促進前腸癌變（安全疑慮） |
+| [33027361](https://pubmed.ncbi.nlm.nih.gov/33027361/) | 2020 | 動物研究（大鼠） | Acta Cir Bras | 探討 omeprazole 與亞硝酸鹽對十二指腸胃逆流大鼠胃黏膜的作用，標題質疑其是否具保護效果 |
 
 ---
 
 ## 香港上市資訊
 
-Omeprazole 目前**未於香港取得藥品許可證**（`total_licenses = 0`），Evidence Pack 中無許可證資料可供列表。
+共 20 張許可證，以下列出 5 張。資料未提供劑型與核准適應症。
+
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-67684 | OMEPRAZOLE JEAN-MARIE GASTRO-RESISTANT CAPSULES 20MG | EUROPHARM LAB CO LTD |
+| HK-53339 | OMEDIN 20 CAP 20MG (ENTERIC COATED PELLETS) | DELTAPHARM LIMITED |
+| HK-49774 | GOMEC CAP 20MG (E.C. GRANULES) | TRENTON-BOMA LTD |
+| HK-65429 | OMEPRAZOLE GP GASTRO-RESISTANT CAPSULES 20MG | WINGS PHARMACEUTICAL LTD |
+| HK-57208 | OMECID CAP 20MG ENTERIC-COATED GRANULES | STAR MEDICAL SUPPLIES LTD |
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **文獻提示的疑慮**：兩項大鼠研究（PMID 10389684、15052437 的 lansoprazole 研究）顯示，在十二指腸胃逆流情境下阻斷胃酸，可能促進胃癌發生。這來自動物實驗，尚未在人體證實，但推進前需評估。
 
-> 補充說明：本 Evidence Pack 標記 TFDA 仿單警語/禁忌為 **Blocking 等級資料缺口**（DG001），代表目前無法完成安全性初評（S1）；作用機轉（MOA）資料亦缺失（DG002，High 等級）。這兩項資料需優先補齊。
+其餘警語、禁忌症與藥物交互作用資料，請參考原廠仿單。
 
 ---
 
@@ -109,15 +113,15 @@ Omeprazole 目前**未於香港取得藥品許可證**（`total_licenses = 0`）
 **決策：Hold**
 
 **理由：**
-- 現有證據多為機轉性／動物研究與觀察性人體研究（L3），尚無專門針對「Omeprazole 治療十二指腸胃逆流」設計的完成 RCT。
-- 該藥於香港未上市（0 張許可證），且安全性資料存在 Blocking 等級缺口，無法完成安全性初評。
-- 部分動物研究顯示長期胃酸抑制併 DGR 可能有促進癌變的機轉性疑慮，需先釐清風險方向。
+- 沒有任何試驗直接測試 omeprazole 對十二指腸胃逆流的療效。唯一的臨床試驗是診斷影像研究，其餘文獻是小型生理學研究、世代研究與動物實驗，證據等級僅 L3。
+- PPI 不能直接阻止膽汁逆流，且動物研究提示可能有致癌風險。TxGNN 的高分不足以支持推進。
 
 **若要推進需要：**
-- 取得 TFDA／原廠仿單完整警語與禁忌症資料（解除 DG001 Blocking 缺口）
-- 補充 Omeprazole 詳細作用機轉資料（DG002）
-- 尋找或發起針對 DGR 適應症的前瞻性臨床研究，釐清療效與致癌訊號的關聯性
-- 評估香港上市可行性（目前無許可證登記）
+- 取得香港衛生署仿單的警語與禁忌症（目前為阻斷性資料缺口，無法進入安全性篩選）
+- 補充 omeprazole 作用機轉資料（可查詢 DrugBank）
+- 系統性回顧 PPI 對十二指腸胃逆流的人體療效證據，並確認前述文獻的實際結果
+- 評估長期抑酸在膽汁逆流情境下的胃部致癌風險
+- 設計以十二指腸胃逆流為主要終點的對照臨床研究
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

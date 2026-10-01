@@ -2,7 +2,7 @@
 layout: default
 title: Ciprofloxacin
 parent: 中證據等級 (L3-L4)
-nav_order: 171
+nav_order: 196
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ indication_count: 10
 
 </div>
 
-# Ciprofloxacin：從廣效抗生素到瀰漫性硬皮病
+# Ciprofloxacin：從抗菌治療到瀰漫性硬皮症
 
 ## 一句話總結
 
-Ciprofloxacin 是氟喹諾酮類廣效抗生素，長期用於多種細菌感染的治療。
-TxGNN 模型預測它可能對**瀰漫性硬皮病 (Diffuse Scleroderma)** 有潛在療效，
-目前有 **0 個臨床試驗**和 **2 篇文獻**支持這個方向，整體證據基礎薄弱。
+Ciprofloxacin 是氟喹諾酮類（fluoroquinolone）抗菌藥，在香港已有 20 張許可證。
+TxGNN 模型預測它可能對**瀰漫性硬皮症 (Diffuse Scleroderma)** 有效，但目前**沒有臨床試驗登記**，只有 **2 篇文獻**，且尚未看到明確的療效結果，屬於研究假說階段。
 
 ---
 
@@ -43,27 +42,27 @@ TxGNN 模型預測它可能對**瀰漫性硬皮病 (Diffuse Scleroderma)** 有�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 廣效抗生素（細菌感染治療） |
-| 預測新適應症 | 瀰漫性硬皮病 (Diffuse Scleroderma) |
+| 預測新適應症 | 瀰漫性硬皮症 (Diffuse Scleroderma) |
 | TxGNN 預測分數 | 99.87% |
 | 證據等級 | L4 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-Ciprofloxacin 是第三代氟喹諾酮類廣效抗生素，其作用機轉為抑制細菌的 DNA gyrase（促旋酶）與 Topoisomerase IV，阻斷細菌 DNA 複製與修復，達到殺菌效果。本 Evidence Pack 未提供正式 MOA 資料，上述資訊源自公開藥理學文獻；若需正式記錄，建議查詢 DrugBank API（DB00537）補全。
+目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位為空）。Ciprofloxacin 屬氟喹諾酮類抗菌藥，一般認為透過抑制細菌 DNA gyrase 與 topoisomerase IV 發揮殺菌作用。
 
-TxGNN 模型對此預測提出**雙重機轉假說**：
+硬皮症的特徵是微血管損傷、皮膚與內臟纖維化。模型未提供預測所依據的圖譜路徑，因此無法確認 TxGNN 的推論依據。
 
-1. **抗纖維化特性**：體外研究顯示 Ciprofloxacin 可能抑制 TGF-β 相關訊號通路，進而減少膠原蛋白過度沉積。瀰漫性硬皮病（系統性硬化症，SSc）的核心病理即為皮膚及內臟的進行性纖維化，若此機轉在體內成立，將提供一合理的生物學連結。
+現有文獻提供兩個方向：
 
-2. **腸道細菌過生長（SIBO）介導路徑**：SSc 患者常因腸道運動功能障礙而併發小腸細菌過生長，氟喹諾酮類（含 Ciprofloxacin）可有效清除過生長細菌，間接改善 GI 症狀及系統性炎症反應，可能對整體疾病表現產生影響。
+- 一篇 2010 年研究探討口服 ciprofloxacin 對硬皮症皮膚的抗纖維化作用。
+- 另一篇探討系統性硬化症合併小腸細菌過度增生 (SIBO)，抗菌藥可能改善腸道症狀。
 
-然而，上述兩條路徑目前均缺乏大型臨床驗證，屬於機轉層級的推論，機轉尚未確立，需謹慎對待。
+這兩篇都沒有顯示對皮膚或器官纖維化的疾病修飾效果。
 
 ---
 
@@ -77,22 +76,28 @@ TxGNN 模型對此預測提出**雙重機轉假說**：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Clinical Pilot Study | The Journal of Dermatology | 雙盲隨機臨床試驗探討口服 Ciprofloxacin 能否降低硬皮病皮膚纖維化嚴重程度，為目前最直接的臨床試驗性證據 |
-| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Observational/Diagnostic Study | British Journal of Rheumatology | 24 名系統性硬化症患者小腸細菌過生長的診斷與抗菌治療結果研究，支持 SIBO 介導路徑假說 |
+| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | 對照研究（設計依標題與摘要推測，尚待確認） | J Dermatol | 評估口服 ciprofloxacin 是否降低硬皮症嚴重度，摘要提到採雙盲隨機對照設計。可取得的摘要被截斷，未見結果數據 |
+| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | 診斷研究 | Br J Rheumatol | 24 位有吸收不良症狀的系統性硬化症患者，探討小腸細菌過度增生的偵測方法與治療結果。針對腸道症狀，並非皮膚纖維化 |
 
 ---
 
 ## 香港上市資訊
 
-根據本 Evidence Pack，Ciprofloxacin 在香港目前登記為**未上市**，無任何有效許可證紀錄。如需進一步確認，建議直接查詢香港衛生署藥物辦公室資料庫。
+共 20 張許可證，以下列出 5 張：
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-52577 | VIPROLOX 250 TAB 250MG | TRENTON-BOMA LTD |
+| HK-53688 | LOXIN TAB 250MG | JEAN-MARIE PHARMACAL CO LTD |
+| HK-51940 | ZOXAN-250 TAB 250MG | STAR MEDICAL SUPPLIES LTD |
+| HK-47031 | POLI-CIFLOXIN 250 TAB 250MG | NATURAL HEALTH RESOURCES COMPANY LIMITED |
+| HK-50313 | INTERFLOX 500 TAB 500MG | NATURAL HEALTH RESOURCES COMPANY LIMITED |
 
 ---
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
-> **注意事項**：根據 Evidence Pack 預測排名，Rank 9（伴發周圍神經病變的血液疾病）有特殊安全性疑慮——Ciprofloxacin 本身的 FDA Black Box Warning 即包含周圍神經病變風險，在已有此類症狀的患者中使用需特別謹慎。
 
 ---
 
@@ -101,24 +106,19 @@ TxGNN 模型對此預測提出**雙重機轉假說**：
 **決策：Hold**
 
 **理由：**
-目前針對瀰漫性硬皮病僅有 2 篇低等級文獻（Level 4：前臨床/機轉研究層級），無任何已登記或進行中的臨床試驗，雙重機轉假說尚未獲得體內或大型臨床數據驗證，證據量不足以支持進一步推進。
+- 目前只有模型預測分數很高，加上 2 篇尚未看到明確療效結果的文獻，也沒有臨床試驗登記，證據等級為 L4。
+- 現有文獻不足以說明 ciprofloxacin 對硬皮症皮膚或器官纖維化有實質益處。
 
 **若要推進需要：**
-- 補全正式 MOA 資料（建議查詢 DrugBank DB00537）
-- 取得正式安全性資料（仿單警語、禁忌症）
-- 確認抗纖維化（TGF-β 通路抑制）的前臨床證據強度與物種外推性
-- 評估啟動 Ciprofloxacin 治療 SSc 的 Phase 1 探索性試驗的可行性
-- 確認香港監管申請路徑（目前未上市，需考量申請許可證的可行性）
+- 取得 2010 年研究（PMID 20507401）全文，確認設計、樣本數與結果是否顯示抗纖維化效果。
+- 釐清 TxGNN 預測的圖譜路徑與機轉依據。
+- 補齊香港衛生署仿單的警語與禁忌資料，這是進入安全性篩選的前提。
+- 評估長期使用氟喹諾酮的安全性與抗藥性風險。
 
----
+**補充：同一藥物的其他預測**
+在其他預測中，**敗血性鼠疫 (Septicemic Plague)** 的證據最強，為 L2，建議決策為 Proceed with Guardrails。該預測有一項已完成的 Phase 2 隨機非劣性試驗 ([NCT01243437](https://clinicaltrials.gov/study/NCT01243437)，200 人)，以及 2025 年發表於 NEJM 的腺鼠疫 RCT ([40768716](https://pubmed.ncbi.nlm.nih.gov/40768716/))。不過這些研究主要針對腺鼠疫，延伸到敗血型屬間接證據，且屬於抗菌藥用於其抗菌譜內的感染，並非機轉上的全新再利用。若要優先評估，建議以此項為主。
 
-> **附記：更高強度的次要預測**
->
-> 本 Evidence Pack 中，**Rank 10（敗血型鼠疫，Septicemic Plague）** 擁有遠更強的臨床證據支撐（L2 等級，建議 Proceed with Guardrails），包含 1 項已完成的 Phase 2 非劣效性 RCT（NCT01243437，n=200）及 2 項 RCT 方案（IMASOY，PMIDs 32807214、38970065、40768716），且 WHO、美國 CDC 均認可氟喹諾酮類作為鼠疫替代一線治療。若需就 Ciprofloxacin 最具臨床意義的再利用方向撰寫後續報告，建議以敗血型鼠疫為優先。
-
----
-
-*本報告僅供研究參考，不構成醫療建議。所有老藥新用候選均需經過完整臨床驗證方可應用。*
+*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

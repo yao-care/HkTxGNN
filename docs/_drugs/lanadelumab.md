@@ -2,7 +2,7 @@
 layout: default
 title: Lanadelumab
 parent: 僅模型預測 (L5)
-nav_order: 433
+nav_order: 498
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,14 +29,13 @@ indication_count: 10
 
 </div>
 
-# Lanadelumab：從遺傳性血管性水腫（HAE）預防到 C1 抑制因子缺乏症
+# Lanadelumab：從原適應症（許可證未載明）到 C1 抑制劑缺乏症
 
 ## 一句話總結
 
-Lanadelumab（Takhzyro®）是一種人類單株抗體，用於預防遺傳性血管性水腫（HAE）發作。
-TxGNN 模型預測其對**C1 抑制因子缺乏症（C1 Inhibitor Deficiency）**有效——
-但這其實正是 HAE 的病因分型，兩者高度重疊。目前有 **22 個臨床試驗**和 **20 篇文獻**支持，
-其中已包含 1 個完成的 Phase 3 隨機對照試驗（HELP Study）。
+Lanadelumab（商品名 Takhzyro）是一種抑制血漿激肽釋放酶的單株抗體，香港已有 1 張許可證，但許可證資料未載明核准適應症。
+TxGNN 模型預測它可能對 **C1 抑制劑缺乏症 (C1 inhibitor deficiency)** 有效。
+目前有 **23 個臨床試驗**和 **20 篇文獻**支持，其中包含 1 個 Phase 3 隨機、雙盲、安慰劑對照試驗（HELP）。
 
 ---
 
@@ -44,44 +43,45 @@ TxGNN 模型預測其對**C1 抑制因子缺乏症（C1 Inhibitor Deficiency）*
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 遺傳性血管性水腫（HAE）發作預防（此為藥品的全球已知用途，非源自本地許可證資料——見下方說明） |
-| 預測新適應症 | C1 抑制因子缺乏症（C1 Inhibitor Deficiency） |
-| TxGNN 預測分數 | 99.996%（模型排名第 198） |
-| 證據等級 | L2（1 個完成的 Phase 3 RCT：NCT02586805） |
-| 本地上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Hold |
+| 原適應症 | 許可證未載明 |
+| 預測新適應症 | C1 抑制劑缺乏症 (C1 inhibitor deficiency) |
+| TxGNN 預測分數 | 99.996% |
+| 證據等級 | L2（見下方說明） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 1 張 |
+| 建議決策 | Proceed with Guardrails |
+
+證據等級說明：依本報告的判定規則，完成的 Phase 3 隨機對照試驗只有 HELP 一個，其餘 Phase 3 為開放標籤或單臂試驗，因此判為 L2。Evidence Pack 內部評分為 L1，兩者有落差。
 
 ---
 
 ## 為什麼這個預測合理？
 
-作用機轉部分本地資料缺乏（`original_moa` 為 Data Gap），但根據收集到的文獻摘要（PMID 30267321），
-Lanadelumab 是全人源單株抗體，標靶抑制血漿激肽釋放酶（plasma kallikrein）。SERPING1 基因突變會導致
-C1 抑制因子（C1-INH）缺乏或功能異常，使激肽釋放酶活性失控，進而過度產生緩激肽（bradykinin，一種血管
-擴張物質），被認為是血管性水腫症狀的成因。
+Lanadelumab 是完全人源化的單株抗體，專一抑制血漿激肽釋放酶 (plasma kallikrein)。
+C1 抑制劑缺乏（SERPING1 基因功能喪失或功能異常）時，激肽釋放酶的活性失去控制，會產生過量的緩激肽 (bradykinin)。緩激肽是造成血管性水腫發作的主要介質。
 
-值得特別說明的是：TxGNN 預測的「新適應症」C1 inhibitor deficiency，實際上就是 HAE Type I/II 的病因學分型，
-與 Lanadelumab 目前全球已核准的適應症（HAE 發作預防）幾乎是同一疾病實體。因此本案與其說是「老藥新用」，
-更接近「已知全球核准用途的證據彙整」——TxGNN 在此正確識別出藥物與其真實作用族群的強關聯，可視為模型
-準確性的驗證案例，而非全新的機轉外推。
+Lanadelumab 直接阻斷這條路徑，從源頭減少緩激肽生成。因此機轉與疾病的致病路徑高度吻合，這也是預測分數極高的合理原因。
+
+其餘 9 個預測疾病（如 serpinopathy、胰臟炎、Glanzmann 血小板無力症等）都沒有臨床試驗或文獻，機轉關聯薄弱或不存在，建議一律 Hold，本報告不展開。
 
 ---
 
 ## 臨床試驗證據
 
+以下依相關性挑選 10 個試驗（共 23 個）。
+
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT02586805](https://clinicaltrials.gov/study/NCT02586805) | Phase 3 | 完成 | 125 | HELP Study：隨機雙盲安慰劑對照，評估 DX-2930（lanadelumab）長期預防 HAE 急性發作之療效與安全性 |
-| [NCT02741596](https://clinicaltrials.gov/study/NCT02741596) | Phase 3 | 完成 | 212 | HELP Study Extension：開放標籤長期安全性與療效追蹤 |
-| [NCT04180163](https://clinicaltrials.gov/study/NCT04180163) | Phase 3 | 完成 | 12 | 日本受試者中評估 lanadelumab 療效與安全性 |
-| [NCT05460325](https://clinicaltrials.gov/study/NCT05460325) | Phase 3 | 完成 | 20 | 中國受試者中評估安全性、藥動學與療效，治療 26 週 |
-| [NCT04070326](https://clinicaltrials.gov/study/NCT04070326) | Phase 3 | 完成 | 21 | SPRING Study：2 至 <12 歲兒童受試者安全性、藥動學與藥效學評估 |
-| [NCT04130191](https://clinicaltrials.gov/study/NCT04130191) | N/A | 完成 | 140 | ENABLE：三年期真實世界研究，比較用藥前後 HAE 發作次數 |
-| [NCT03845400](https://clinicaltrials.gov/study/NCT03845400) | N/A | 完成 | 168 | EMPOWER：美加地區觀察性研究，比較用藥前後發作率 |
-| [NCT04861090](https://clinicaltrials.gov/study/NCT04861090) | N/A | 完成 | 207 | 回溯性病歷回顧，評估真實世界長期預防治療成效 |
-| [NCT05397431](https://clinicaltrials.gov/study/NCT05397431) | N/A | 完成 | 155 | 日本上市後使用調查，長期投藥之副作用與症狀改善追蹤 |
-| [NCT06346899](https://clinicaltrials.gov/study/NCT06346899) | N/A | 完成 | 115 | 中國真實世界研究：lanadelumab 與 icatibant 治療 HAE 之有效性與安全性 |
+| [NCT02586805](https://clinicaltrials.gov/study/NCT02586805) | Phase 3 | 完成 | 125 | HELP 試驗：多中心、隨機、雙盲、安慰劑對照，評估預防第 I/II 型 HAE 急性發作的療效與安全性，為關鍵證據 |
+| [NCT02741596](https://clinicaltrials.gov/study/NCT02741596) | Phase 3 | 完成 | 212 | HELP 延伸試驗：開放標籤，評估長期安全性與預防發作的療效 |
+| [NCT04070326](https://clinicaltrials.gov/study/NCT04070326) | Phase 3 | 完成 | 21 | SPRING 試驗：2 至未滿 12 歲兒童，評估安全性、藥動學、藥效學 |
+| [NCT04180163](https://clinicaltrials.gov/study/NCT04180163) | Phase 3 | 完成 | 12 | 日本受試者開放標籤試驗，評估療效與安全性 |
+| [NCT05460325](https://clinicaltrials.gov/study/NCT05460325) | Phase 3 | 完成 | 20 | 中國受試者開放標籤試驗，治療 26 週，評估安全性、藥動學與療效 |
+| [NCT04444895](https://clinicaltrials.gov/study/NCT04444895) | Phase 3 | 完成 | 73 | 長期安全性與療效試驗，對象為 C1-INH 正常的非組織胺性血管性水腫（與 C1-INH 缺乏族群不同，僅供參考） |
+| [NCT04130191](https://clinicaltrials.gov/study/NCT04130191) | N/A | 完成 | 140 | ENABLE：真實世界研究，比較使用前後的 HAE 發作次數 |
+| [NCT03845400](https://clinicaltrials.gov/study/NCT03845400) | N/A | 完成 | 168 | EMPOWER：美加觀察性研究，比較開始治療前後的發作率 |
+| [NCT04861090](https://clinicaltrials.gov/study/NCT04861090) | N/A | 完成 | 207 | 回溯性病歷回顧，評估真實世界中的無發作比例 |
+| [NCT05397431](https://clinicaltrials.gov/study/NCT05397431) | N/A | 完成 | 155 | 日本上市後使用成績調查，長期用藥的副作用與症狀改善 |
 
 ---
 
@@ -89,16 +89,24 @@ C1 抑制因子（C1-INH）缺乏或功能異常，使激肽釋放酶活性失�
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/) | 2018 | RCT | JAMA | Lanadelumab 對比安慰劑之隨機臨床試驗，證實可顯著預防 HAE 發作（HELP Study） |
-| [34287942](https://pubmed.ncbi.nlm.nih.gov/34287942/) | 2022 | 延伸研究 | Allergy | HELP OLE 研究：評估 lanadelumab 長期療效與安全性 |
-| [40434599](https://pubmed.ncbi.nlm.nih.gov/40434599/) | 2025 | Meta分析 | Drugs in R&D | 網絡統合分析比較 lanadelumab 與 garadacimab、C1INH、berotralstat 等長期預防藥物 |
-| [39508959](https://pubmed.ncbi.nlm.nih.gov/39508959/) | 2024 | 系統性回顧 | Clin Rev Allergy Immunol | 系統性回顧接受長期預防治療患者仍發生 HAE 發作之特徵 |
-| [30539362](https://pubmed.ncbi.nlm.nih.gov/30539362/) | 2019 | Review | BioDrugs | 回顧 lanadelumab 於 C1-INH 缺乏症之臨床前與 Phase I 研究 |
-| [32187470](https://pubmed.ncbi.nlm.nih.gov/32187470/) | 2020 | Review | NEJM | 遺傳性血管性水腫之整體疾病回顧 |
-| [30267321](https://pubmed.ncbi.nlm.nih.gov/30267321/) | 2018 | Review | Drugs | Lanadelumab 全球首次核准回顧，含機轉說明 |
-| [39701274](https://pubmed.ncbi.nlm.nih.gov/39701274/) | 2025 | 真實世界研究 | J Allergy Clin Immunol Pract | 多國 INTEGRATED 研究：lanadelumab 真實世界有效性 |
-| [37898409](https://pubmed.ncbi.nlm.nih.gov/37898409/) | 2024 | Review | J Allergy Clin Immunol | 亞太地區 C1-INH 缺乏症 HAE 疾病負擔回顧 |
-| [35079346](https://pubmed.ncbi.nlm.nih.gov/35079346/) | 2022 | Review | Clin Transl Allergy | C1 抑制因子預防治療之臨床考量與指引回顧 |
+| [30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/) | 2018 | RCT | JAMA | Lanadelumab 與安慰劑比較，預防 HAE 發作的隨機臨床試驗（HELP 試驗結果） |
+| [34287942](https://pubmed.ncbi.nlm.nih.gov/34287942/) | 2022 | 開放標籤延伸試驗 | Allergy | HELP OLE：評估 12 歲以上第 1/2 型 HAE 的長期療效與安全性 |
+| [39508959](https://pubmed.ncbi.nlm.nih.gov/39508959/) | 2024 | 系統性回顧 | Clin Rev Allergy Immunol | 整理接受長期預防治療的 HAE 患者仍發生發作的比例與特徵 |
+| [40434599](https://pubmed.ncbi.nlm.nih.gov/40434599/) | 2025 | 網絡統合分析 | Drugs R D | 間接比較 garadacimab、lanadelumab、皮下 C1INH、berotralstat 等長期預防藥物 |
+| [39836016](https://pubmed.ncbi.nlm.nih.gov/39836016/) | 2025 | 間接治療比較 | J Comp Eff Res | 12 歲以下兒童 HAE，比較 lanadelumab 與 C1 酯酶抑制劑的療效與安全性 |
+| [39701274](https://pubmed.ncbi.nlm.nih.gov/39701274/) | 2025 | 觀察性研究 | J Allergy Clin Immunol Pract | INTEGRATED：多國真實世界療效研究 |
+| [30539362](https://pubmed.ncbi.nlm.nih.gov/30539362/) | 2019 | Review | BioDrugs | 回顧 lanadelumab 的前臨床與 Phase I 研究，說明其抑制激肽釋放酶的機轉 |
+| [32187470](https://pubmed.ncbi.nlm.nih.gov/32187470/) | 2020 | Review | N Engl J Med | 遺傳性血管性水腫的綜述 |
+| [33556593](https://pubmed.ncbi.nlm.nih.gov/33556593/) | 2021 | Case series | J Allergy Clin Immunol Pract | Lanadelumab 用於後天性 C1 抑制劑缺乏血管性水腫的療效 |
+| [36379410](https://pubmed.ncbi.nlm.nih.gov/36379410/) | 2023 | 臨床報告 | J Allergy Clin Immunol Pract | 同樣探討 lanadelumab 在後天性 C1 抑制劑缺乏血管性水腫的療效 |
+
+---
+
+## 香港上市資訊
+
+| 許可證號 | 品名 | 劑型 | 廠商 |
+|---------|------|------|------|
+| HK-67123 | TAKHZYRO SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 300MG/2ML | 注射液（預充填針筒） | Takeda Pharmaceuticals (Hong Kong) Limited |
 
 ---
 
@@ -106,24 +114,23 @@ C1 抑制因子（C1-INH）缺乏或功能異常，使激肽釋放酶活性失�
 
 安全性資訊請參考原廠仿單。
 
-⚠️ 需特別注意：本評估存在一項 **Blocking 等級資料缺口（DG001）**——TFDA 仿單警語/禁忌症資料缺失，
-直接導致**無法進入 S1 安全性初評**，須先取得官方仿單 PDF 並解析後方可補齊。
+目前查無藥物交互作用資料。
 
 ---
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：Proceed with Guardrails**
 
 **理由：**
-- 療效證據強度已達 L2（1 個完成的 Phase 3 RCT + 大量真實世界研究佐證），但因 DG001（TFDA 仿單警語/禁忌缺失，Blocking 等級）尚無法完成安全性初評，不宜貿然推進。
-- 本案實質為「已知全球核准適應症（HAE 預防）」的證據彙整，而非新機轉外推，需與法規團隊確認正確的推進路徑（新藥上市申請 vs. 老藥新用研究）。
+- 機轉與 C1 抑制劑缺乏的致病路徑直接對應，且有 HELP 這個 Phase 3 隨機對照試驗，加上多個 Phase 3 延伸試驗與各國真實世界研究支持。
+- 香港的核准適應症與仿單警語目前缺漏，無法完成安全性篩選，因此需保留防護條件。
 
 **若要推進需要：**
-- 取得 TFDA（或本地相當機構）官方仿單，完成警語、禁忌症與 DDI 資料補齊
-- 補充 DrugBank MOA 結構化資料（DG002）
-- 確認本地藥品上市/引進計畫現況（目前 0 張許可證）
-- 釐清此候選案應歸類為「新藥適應症申請」而非典型「老藥新用」研究案
+- 取得香港衞生署的仿單，確認核准適應症、警語與禁忌症。
+- 查證香港許可證的適應症是否已涵蓋 C1 抑制劑缺乏相關的遺傳性血管性水腫預防。
+- 後天性 C1 抑制劑缺乏目前僅有病例系列證據，若要延伸此族群，需要更高等級的研究。
+- 補齊詳細的作用機轉資料（DrugBank）。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

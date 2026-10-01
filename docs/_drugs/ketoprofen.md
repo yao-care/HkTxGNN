@@ -2,7 +2,7 @@
 layout: default
 title: Ketoprofen
 parent: 僅模型預測 (L5)
-nav_order: 426
+nav_order: 490
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,64 +29,79 @@ indication_count: 5
 
 </div>
 
-# Ketoprofen：適應症資料缺失，TxGNN 預測罕見骨骼發育不良症候群
+# Ketoprofen：從非類固醇消炎止痛藥（NSAID）到肢中發育不良 Hunter-Thompson 型
 
 ## 一句話總結
 
-Ketoprofen 原始適應症與作用機轉資料在本次證據包中皆缺失（僅知其 DrugBank ID），且未在香港上市。
-TxGNN 模型將其列為 **acromesomelic dysplasia, Hunter-Thompson type**（肢端中部骨骼發育不良，Hunter-Thompson 型）等 5 個罕見遺傳性疾病的高分候選，
-但**零臨床試驗、零文獻支持**，且模型自身的機轉推理也判斷這極可能是知識圖譜稀疏節點造成的雜訊，而非真實訊號。
+Ketoprofen 是一種非選擇性 COX 抑制型的非類固醇消炎止痛藥（NSAID）。
+TxGNN 模型預測它可能對**肢中發育不良 Hunter-Thompson 型 (Acromesomelic dysplasia, Hunter-Thompson type)** 有效。
+目前有 **0 個臨床試驗**和 **0 篇文獻**支持，僅有模型預測，機轉上也找不到可信的關聯。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料缺失（DrugBank 未提供，香港未上市） |
-| 預測新適應症 | acromesomelic dysplasia, Hunter-Thompson type（肢端中部骨骼發育不良症） |
-| TxGNN 預測分數 | 99.98%（排名 644） |
-| 證據等級 | L5（僅模型預測，無實際研究） |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 原適應症 | 香港許可證資料未載明 |
+| 預測新適應症 | 肢中發育不良 Hunter-Thompson 型 (Acromesomelic dysplasia, Hunter-Thompson type) |
+| TxGNN 預測分數 | 99.98% |
+| 證據等級 | L5（僅模型預測） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏 Ketoprofen 詳細的作用機轉（MOA）資料，原始適應症在本資料集中亦未記載。根據已知藥理分類，Ketoprofen 屬於非類固醇消炎止痛藥（NSAID），主要機轉為抑制 COX-1/COX-2 酶、減少前列腺素合成，發揮消炎、止痛與解熱作用。
+目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位為空）。已知 Ketoprofen 屬於 NSAID，透過非選擇性抑制 COX 酵素來減少前列腺素合成，用於消炎止痛。
 
-TxGNN 將其列為 acromesomelic dysplasia、brachyolmia-amelogenesis imperfecta syndrome、myosclerosis、brachyolmia、colobomatous microphthalmia-rhizomelic dysplasia syndrome 等 5 個罕見遺傳性骨骼／發育疾病的高分候選（分數皆 >99.9%）。然而這些疾病的病理機轉（如 GDF5 基因異常、軟骨生成與生長板訊息傳導障礙、結構蛋白／礦化基因缺陷）與 NSAID 的抗發炎鎮痛機轉並無已知關聯。
+這個預測在機轉上**難以成立**。此疾病是遺傳性骨骼發育不良，主要與 GDF5/CDMP1 功能喪失有關，會干擾軟骨生成。COX 抑制並不作用於這條路徑。0.9998 的高分較可能反映知識圖譜的拓樸結構，而不是實際的生物學關聯。
 
-證據包本身的 `repurposing_rationale` 也明確指出：這些高分很可能是知識圖譜中罕見疾病節點連結稀疏所導致的**模型雜訊**，而非真實生物學訊號，5 個候選皆呈現相同模式（高分、零試驗、零文獻）。
+模型對本藥的其他預測也是類似情況，證據都停在 L5，建議皆為 Hold：
+
+| 排名 | 預測疾病 | 分數 | 機轉評估 |
+|------|---------|------|---------|
+| 2 | Brachyolmia-amelogenesis imperfecta syndrome | 99.98% | 無可信關聯，屬骨骼與牙釉質發育異常 |
+| 3 | Myosclerosis | 99.98% | 關聯薄弱，NSAID 至多緩解症狀，無疾病修飾證據 |
+| 4 | Brachyolmia | 99.98% | 無可信關聯，屬遺傳性骨骼發育不良 |
+| 5 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.98% | 無可信關聯，屬先天性眼部與肢體畸形 |
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記。
+目前無相關臨床試驗登記
 
 ## 文獻證據
 
-目前無相關文獻。
+目前無相關文獻
 
 ## 香港上市資訊
 
-Ketoprofen 目前未在香港上市，無許可證登記。
+香港共有 20 張許可證，以下列出 5 張主要許可證。資料中未提供劑型與核准適應症。
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-68597 | HOHOTAPE MEDICAL PLASTER 30MG | BEST UNITED MARKETING LIMITED |
+| HK-57684 | KETO-TDDS PLASTER 30MG | WELL FAVOURED LTD |
+| HK-62603 | DERUMA-60 CATAPLASMA PLASTER 60MG | JULIUS CHEN & COMPANY (HK) LIMITED |
+| HK-18544 | KETOFEN CAP 50MG | WILCOME PHARMACEUTICAL CO LTD |
+| HK-58787 | MECOL PATCH 30MG | WELLDONE PHARMACEUTICALS LIMITED |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
-> 註：TFDA/香港仿單警語與禁忌症資料為 Blocking 等級缺口（DG001），在補齊前無法進行安全性初評（S1）。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 5 個預測候選皆為 L5（僅模型分數，零臨床試驗、零文獻），且證據包自身機轉分析已判斷高分可能為圖譜稀疏節點造成的雜訊，缺乏可信生物學假說。
-- 原始適應症、MOA、香港上市與安全性資料全數缺失，無法建立最基本的比對基礎。
+- 只有模型預測（L5），沒有任何臨床試驗或文獻。
+- 預測疾病的病理機轉（GDF5 相關的軟骨生成障礙）與 COX 抑制無關，因此不建議推進。
 
 **若要推進需要：**
-- 補齊 Ketoprofen 原始適應症與 MOA 資料（DrugBank API）
-- 取得 TFDA／香港仿單的警語與禁忌症資料，解除 DG001 阻塞
-- 若後續要重新評估，建議優先確認 TxGNN 對此類罕見疾病節點的預測是否存在系統性雜訊，而非逐一深入單一候選
+- 補齊 DrugBank 的 MOA 資料，重新評估機轉關聯。
+- 取得香港衛生署仿單的警語與禁忌症，完成安全性篩選。
+- 找到能連結 COX/前列腺素路徑與此疾病的實驗或文獻證據；若找不到，建議放棄此預測。
+
+*本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

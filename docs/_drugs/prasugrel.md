@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Prasugrel
-parent: 中證據等級 (L3-L4)
-nav_order: 609
-evidence_level: L4
+parent: 僅模型預測 (L5)
+nav_order: 709
+evidence_level: L5
 indication_count: 10
 ---
 
 # Prasugrel
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,73 +29,80 @@ indication_count: 10
 
 </div>
 
-# Prasugrel：從抗血小板治療到肺動脈高壓
+# Prasugrel：從急性冠心症抗血小板治療到肺高壓
 
 ## 一句話總結
 
-Prasugrel 是一種 thienopyridine 類 P2Y12 血小板抑制劑，目前尚未在香港上市，也缺乏正式的核准適應症與作用機轉資料。
-TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有效，
-目前有 **2 個臨床試驗**和 **2 篇文獻**與此方向相關，但均非直接測試 Prasugrel 於肺動脈高壓的療效。
+Prasugrel 是 P2Y12 抗血小板藥物，文獻脈絡顯示它用於接受經皮冠狀動脈介入（PCI）的急性冠心症（ACS）患者。
+TxGNN 模型預測它可能對**肺高壓 (Pulmonary Hypertension)** 有效，但目前**沒有直接相關的臨床試驗或文獻**，僅有模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 抗血小板治療（急性冠心症／PCI 術後，屬藥物已知用途背景，非香港許可證資料） |
-| 預測新適應症 | 肺動脈高壓 (Pulmonary Hypertension) |
-| TxGNN 預測分數 | 99.88% |
-| 證據等級 | L4 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 原適應症 | 香港許可證未載明適應症；文獻脈絡為 ACS 患者 PCI 後的抗血小板治療 |
+| 預測新適應症 | 肺高壓 (Pulmonary Hypertension) |
+| TxGNN 預測分數 | 99.88%（模型排名 3040） |
+| 證據等級 | L5 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 2 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏官方作用機轉（MOA）資料。根據評估包內的文獻佐證，Prasugrel 屬於 thienopyridine 類 P2Y12 血小板抑制劑，其抗血小板效果已於急性冠心症合併經皮冠狀動脈介入術（PCI）患者中被證實（見文獻 PMID 21241206）。
+Prasugrel 是不可逆的 P2Y12 受體拮抗劑，屬 thienopyridine 類，作用是抑制血小板活化與聚集。目前資料缺乏完整的作用機轉說明，以下推論僅來自證據包中的機轉假設。
 
-肺動脈高壓的病理機轉涉及原位血栓形成（in-situ thrombosis），抗血小板／抗凝藥物理論上可能有輔助角色。然而，目前所附的臨床試驗與文獻均非直接測試 Prasugrel 於肺動脈高壓之療效，僅為抗栓藥物領域的旁支資料，機轉連結薄弱且缺乏特異性證據。
-
-換言之，這個預測目前仍停留在「藥理類別層級」的間接推論階段，尚無針對 Prasugrel 與肺動脈高壓的直接研究。
+血小板活化與肺血管病變之間存在理論上的關聯，因此機轉上可以想像抗血小板治療對肺高壓有幫助。但這只是概念性的推測，目前沒有任何資料直接支持，高分只代表模型的預測。
 
 ## 臨床試驗證據
 
+檢索到的 2 項試驗與 Prasugrel、肺高壓都無直接關係（相關性評為 C 級），僅供參考。
+
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | N/A | 已完成 | 500 | 觀察性橫斷面研究，描述西班牙高齡非瓣膜性心房顫動患者使用 NOAC（新型口服抗凝血劑）之情形；藥物類別（抗凝血劑而非抗血小板）與疾病（心房顫動而非肺動脈高壓）均與本適應症不符，相關性低 |
-| [NCT04846556](https://clinicaltrials.gov/study/NCT04846556) | N/A | 已完成 | 300 | 回溯性多中心研究，探討癌症相關血栓（CAT）病人是否符合 CARAVAGGIO 試驗收案條件，與 Prasugrel 及肺動脈高壓皆無直接關聯 |
-
-**注意：** 以上兩個試驗經相關性評分均為 C 級（低相關），僅反映抗栓藥物研究領域的背景資料，非 Prasugrel 用於肺動脈高壓的直接證據。
+| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | N/A | 完成 | 500 | 西班牙高齡非瓣膜性心房顫動患者的 NOAC 使用管理，觀察性研究，與本藥無關 |
+| [NCT04846556](https://clinicaltrials.gov/study/NCT04846556) | N/A | 完成 | 300 | 癌症相關血栓患者是否符合 CARAVAGGIO 試驗收案條件的回溯研究，與本藥無關 |
 
 ## 文獻證據
 
+下列 2 篇為世代研究，同樣沒有直接討論 Prasugrel 與肺高壓的關係。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Cohort | Current Medical Research and Opinion | 探討 ACS 患者接受 PCI 後使用 clopidogrel／prasugrel 之遵從性與持續性影響因素，屬用藥行為研究，非療效證據 |
-| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Cohort | Kardiologiia | 分析 COVID-19 感染前慢性病背景治療對重症死亡風險的影響（ACTIV 登記研究），與肺動脈高壓治療無直接關聯 |
+| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Cohort | Current Medical Research and Opinion | ACS 患者 PCI 後使用 clopidogrel 及依從性的相關因素，Prasugrel 僅在指引背景中提及 |
+| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Cohort | Kardiologiia | COVID-19 前的共病用藥對致死結果的影響（ACTIVE 登錄研究），與肺高壓治療無關 |
+
+## 香港上市資訊
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-66424 | PRASUGREL TABLETS 5MG（Camber Pharmaceuticals Hong Kong Limited） | — | — |
+| HK-66423 | PRASUGREL TABLETS 10MG（Camber Pharmaceuticals Hong Kong Limited） | — | — |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
-> 補充說明：本評估包標記「TFDA/香港仿單警語與禁忌」為 **Blocking** 等級資料缺口（DG001），在此資料補齊前，無法進行 S1 安全性初評。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 現有的 2 個臨床試驗與 2 篇文獻均非直接測試 Prasugrel 於肺動脈高壓之療效，僅為抗栓藥物領域的間接背景資料，機轉連結薄弱（證據等級 L4，決策階段 S0）。
-- 藥物本身缺乏作用機轉（MOA）與安全性仿單資料（Blocking 等級缺口），尚不足以支持推進至下一階段評估。
+- 肺高壓這項預測只有模型分數，沒有任何直接的臨床試驗或文獻支持，證據等級為 L5。
+- 檢索到的試驗與文獻都與 Prasugrel 和肺高壓無關，機轉連結也只是假設。
 
 **若要推進需要：**
-- 補齊 TFDA／香港仿單的警語與禁忌資料（DG001，Blocking）
-- 補齊 Prasugrel 完整作用機轉資料（DG002）
-- 尋找直接針對「Prasugrel + 肺動脈高壓」的臨床試驗或機轉研究，而非僅類別層級的間接推論
-- 確認香港上市登記狀態（目前為 0 張許可證，未上市）
+- 取得香港衛生署仿單，確認警語、禁忌症與核准適應症。
+- 補齊 DrugBank 的作用機轉資料，並分析 P2Y12 抑制與肺血管病變的機轉關聯。
+- 搜尋 P2Y12 抑制劑用於肺高壓的前臨床或臨床研究。
 
----
+**其他預測方向（供參考）：**
+- 偏頭痛 (Migraine Disorder) 的證據相對較多，等級為 L4。
+- 有 thienopyridine 類藥物的回溯性研究和 ticagrelor 的開放標示先導試驗，主要用於合併卵圓孔未閉（PFO）的患者。
+- 這些證據屬於藥物類別層級，不是 Prasugrel 本身的資料。
+- 該方向可作為研究問題，建議另行評估。
 
-**補充觀察：** 同一評估包中，排名第 2 的候選適應症「偏頭痛 (migraine disorder)」證據等級較高（L3，決策階段 S1，建議為 Research Question），有同類 P2Y12 抑制劑（ticagrelor）及 thienopyridine 類藥物於 PFO 相關偏頭痛的直接文獻支持（PMID 30478067、30478066），機轉推論較肺動脈高壓更具體，建議後續評估時可一併比較優先順序。
+*本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

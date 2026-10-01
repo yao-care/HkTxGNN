@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Mefenamic Acid
-parent: 高證據等級 (L1-L2)
-nav_order: 478
-evidence_level: L2
+parent: 僅模型預測 (L5)
+nav_order: 548
+evidence_level: L5
 indication_count: 5
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,105 +29,105 @@ indication_count: 5
 
 </div>
 
-使用 v5 藥物再利用評估報告 Prompt 格式，根據提供的 Evidence Pack 產出報告如下。
-
----
-
-# Mefenamic Acid：從（原適應症資料缺口）到類風濕性關節炎
+# Mefenamic Acid：從（原適應症未載明）到類風濕性關節炎
 
 ## 一句話總結
 
-> Mefenamic Acid 是 fenamate 類非類固醇消炎止痛藥（NSAID），其官方核准之原始適應症在本次證據包中屬於資料缺口（DG002），故無法直接引述。
-> TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** 有效，
-> 目前雖無登記中的臨床試驗，但有 **20 篇文獻**（含 3 篇 RCT）支持這個方向。
-
----
+Mefenamic Acid（甲滿酸）是芬那酸類（fenamate）非類固醇消炎藥（NSAID）。
+TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** 有效，
+目前**無臨床試驗登記**，但有 **20 篇文獻**支持這個方向，其中包含數篇 1970 年代的雙盲對照試驗。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料缺口（DrugBank 未提供，屬 DG002） |
+| 原適應症 | 資料未載明（香港許可證資料中適應症欄位皆為空） |
 | 預測新適應症 | 類風濕性關節炎 (Rheumatoid Arthritis) |
 | TxGNN 預測分數 | 99.73% |
-| 證據等級 | L2 |
-| 台灣上市 | 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails |
-
----
+| 證據等級 | L2（依 Evidence Pack 評分；注意：多為 1970 年代小型試驗，且無已完成的 Phase 2/3 註冊試驗，實質強度偏低） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-Mefenamic Acid 屬於 fenamate 類 NSAID，透過非選擇性抑制 COX-1/COX-2 酵素，減少前列腺素（prostaglandin）合成，產生抗發炎與鎮痛作用。這個機轉本身就是類風濕性關節炎治療的核心藥理路徑之一，因為類風濕性關節炎的關節腫脹、疼痛與晨僵主要由前列腺素介導的滑膜發炎反應所驅動。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Mefenamic Acid 是芬那酸類 NSAID，一般認為透過抑制環氧合酶（COX）、減少前列腺素生成而產生止痛與消炎作用。
 
-雖然本證據包無法提供 Mefenamic Acid 正式核准的原始適應症文字（DrugBank 標註為資料缺口），但這並非代表證據缺口——文獻回顧顯示 Mefenamic Acid 事實上長期被作為 NSAID 用於發炎性關節疾病，且與 ibuprofen、sulindac、flurbiprofen 等同類藥物有多篇直接頭對頭比較試驗，證實其抗發炎/鎮痛效果與其他核准用於類風濕性關節炎的 NSAID 相當。
+類風濕性關節炎的症狀（疼痛、關節腫脹、晨僵）與前列腺素介導的發炎有關，因此 NSAID 用於症狀緩解在機轉上合理。但這屬於**症狀控制而非疾病修飾**，也是此藥所屬類別本來就有的作用，因此「老藥新用」的創新性低。
 
-換句話說，TxGNN 的預測與已知藥理機轉高度一致：COX 抑制 → 前列腺素減少 → 關節發炎與疼痛緩解，這條路徑在類風濕性關節炎中有明確的生物學合理性，也有數十年臨床使用經驗佐證。
-
----
+TxGNN 的高分（99.73%）很可能來自 NSAID 類別的相似性，而不是這個藥物獨有的訊號。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記（ClinicalTrials.gov 與 ICTRP 查詢皆為 0 筆）。
-
----
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
+以下依 RCT > 臨床研究 > 回顧排序，列出與類風濕性關節炎最相關者：
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [373989](https://pubmed.ncbi.nlm.nih.gov/373989/) | 1979 | RCT | Current Medical Research and Opinion | 雙盲交叉試驗比較 mefenamic acid、sulindac、flurbiprofen，皆顯著優於安慰劑，改善疼痛評分與晨僵 |
-| [330287](https://pubmed.ncbi.nlm.nih.gov/330287/) | 1977 | RCT | J Int Med Res | 隨機雙盲研究：mefenamic acid 與 ibuprofen 抗發炎鎮痛效果無顯著差異 |
-| [796645](https://pubmed.ncbi.nlm.nih.gov/796645/) | 1976 | RCT | The Medical Journal of Australia | 雙盲交叉試驗：mefenamic acid（1500mg/day）與 ibuprofen（1200mg/day）療效相當，副作用輕微且多為腸胃道 |
-| [4294443](https://pubmed.ncbi.nlm.nih.gov/4294443/) | 1967 | Cohort/Open-label | Annals of the Rheumatic Diseases | Mefenamic acid 用於類風濕性關節炎之早期臨床觀察 |
-| [5333309](https://pubmed.ncbi.nlm.nih.gov/5333309/) | 1966 | Review | British Medical Journal | Mefenamic acid 藥理與臨床應用回顧 |
-| [306128](https://pubmed.ncbi.nlm.nih.gov/306128/) | 1978 | Review | Scottish Medical Journal | 回顧 mefenamic acid 於類風濕性關節炎治療中的角色 |
-| [20668](https://pubmed.ncbi.nlm.nih.gov/20668/) | 1977 | Review | Seminars in Arthritis and Rheumatism | 抗發炎藥物綜述，涵蓋 mefenamic acid 等 NSAID 之比較 |
-| [2670397](https://pubmed.ncbi.nlm.nih.gov/2670397/) | 1989 | Review | Clinical Pharmacy | NSAID 藥理綜述，說明 COX 抑制與前列腺素合成之關聯（以 diclofenac 為主，間接支持同類藥物機轉） |
-| [23611159](https://pubmed.ncbi.nlm.nih.gov/23611159/) | 2014 | Formulation Study | Pharmaceutical Development and Technology | 開發三重同心時控釋放 mefenamic acid 錠劑，針對類風濕性關節炎劑型改良 |
-| [16223958](https://pubmed.ncbi.nlm.nih.gov/16223958/) | 2006 | Preclinical | Molecular Pharmacology | Mefenamic acid 於阿茲海默症模型顯示神經保護作用，並提及長期 NSAID 治療類風濕性關節炎患者可降低失智風險之流行病學觀察 |
+| [373989](https://pubmed.ncbi.nlm.nih.gov/373989/) | 1979 | 雙盲交叉試驗 (24 人) | Curr Med Res Opin | Mefenamic acid 1500 mg、flurbiprofen、sulindac 在疼痛、關節壓痛指數、晨僵上均顯著優於安慰劑 |
+| [330287](https://pubmed.ncbi.nlm.nih.gov/330287/) | 1977 | 隨機雙盲試驗 (40 人) | J Int Med Res | 與 ibuprofen 相比，止痛與消炎效果無顯著差異，副作用相近 |
+| [796645](https://pubmed.ncbi.nlm.nih.gov/796645/) | 1976 | 雙盲交叉試驗 | Med J Aust | 1500 mg/日與 ibuprofen 1200 mg/日相比表現相當，副作用輕微且以腸胃道為主 |
+| [4294443](https://pubmed.ncbi.nlm.nih.gov/4294443/) | 1967 | 臨床研究 | Ann Rheum Dis | Mefenamic acid 用於類風濕性關節炎的早期臨床研究（無摘要） |
+| [5920657](https://pubmed.ncbi.nlm.nih.gov/5920657/) | 1966 | 臨床比較 | Br Med J | 與 flufenamic acid、aspirin、phenylbutazone 比較（無摘要） |
+| [6039589](https://pubmed.ncbi.nlm.nih.gov/6039589/) | 1967 | 臨床比較 | Ann Rheum Dis | 門診類風濕性關節炎病人藥物評估方法及與 phenylbutazone、aspirin 的比較（無摘要） |
+| [10439](https://pubmed.ncbi.nlm.nih.gov/10439/) | 1976 | 臨床研究 (684 人) | J Rheumatol | 以單盲方法評估 10 種抗風濕藥的止痛效果 |
+| [306128](https://pubmed.ncbi.nlm.nih.gov/306128/) | 1978 | Review | Scott Med J | Mefenamic acid 在類風濕性關節炎治療中的定位（無摘要） |
+| [1455792](https://pubmed.ncbi.nlm.nih.gov/1455792/) | 1992 | 臨床研究 (125 人) | Vopr Kurortol Fizioter | 以 dimexide 溶液電泳給藥，完全或部分緩解率約 75%（非口服，非對照設計） |
+| [29548675](https://pubmed.ncbi.nlm.nih.gov/29548675/) | 2018 | 病例交叉研究 | Am J Cardiol | 探討非選擇性 NSAID 對類風濕性關節炎病人中風與心肌梗塞風險的影響（安全性研究） |
 
-（本適應症共有 20 篇相關文獻，以上列出證據等級最高之 10 篇）
+**註：** 上列文獻多為 1960–1970 年代的小樣本研究，未使用現代疾病活動度指標，也未與 DMARD、生物製劑比較，僅能支持症狀緩解。
 
----
+## 香港上市資訊
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-42367 | EUROTAN-F SUSP 250MG/5ML | 未載明 | 未載明 |
+| HK-50543 | GYNOGESIC CAP 250MG | 未載明 | 未載明 |
+| HK-07380 | MEFENSTAN CAP 250MG (IVORY) | 未載明 | 未載明 |
+| HK-29271 | MEFENAMIC ACID TAB 250MG | 未載明 | 未載明 |
+| HK-66441 | MEFETON TABLETS 500MG | 未載明 | 未載明 |
+
+（共 20 張許可證，此處列出 5 張。）
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **藥物交互作用**：資料庫查詢未找到相關記錄。
+- **相關文獻提示的安全訊號**：
+  - 長期使用可能造成小腸病變併絨毛萎縮（2017 年病例報告與文獻回顧）
+  - 曾有病例報告與自體免疫性溶血性貧血相關（1968 年，3 例，停藥後恢復）
+  - NSAID 過度使用與慢性腎病變、藥物過度使用型頭痛有關聯
 
-> 註：本證據包已標記「TFDA 仿單警語/禁忌」為 Blocking 等級資料缺口（DG001），在補齊此資料前，不應進入安全性初評（S1）階段。
-
----
+主要警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-- 有 3 篇 1970-80 年代的頭對頭 RCT 支持 mefenamic acid 於類風濕性關節炎的鎮痛/抗發炎效果與其他核准 NSAID 相當，機轉合理性高。
-- 但現有證據皆為數十年前的舊研究，缺乏現代臨床試驗驗證，且安全性仿單資料（DG001，Blocking）尚未補齊，暫不宜直接進入安全性初評。
+- 證據主要是數十年前的小型症狀緩解試驗，顯示效果與 ibuprofen 相當；這是 NSAID 類別的既有作用，不是新的療效發現。
+- 沒有臨床試驗登記，也缺少作用機轉與香港仿單資料（後者屬阻擋性缺口，無法進入安全性篩選）。
 
 **若要推進需要：**
-- 補齊 TFDA 仿單警語與禁忌症資料（DG001，Blocking，需完成才能進入 S1）
-- 補充正式作用機轉（MOA）資料，以強化機轉關聯性分析（DG002）
-- 評估是否需要現代臨床試驗（現有 RCT 皆為 1970-80 年代研究）
-- 若考慮上市，需規劃台灣藥品許可證申請（目前市場狀態為未上市，0 張許可證）
+- 取得香港衛生署核准仿單，確認原適應症、警語與禁忌症
+- 補充 DrugBank 作用機轉資料
+- 確認香港許可證是否已含關節炎相關適應症（若已核准，則不屬於新用途）
+- 與現行 RA 治療標準（DMARD、生物製劑）比較，評估此藥的臨床定位
 
 ---
 
-## 附錄：其他預測候選適應症一覽
+**其他預測適應症（供參考）：**
 
-本次 Evidence Pack（TW-DB00784-multi）共預測 5 個候選適應症，除上述類風濕性關節炎外，其餘結果如下：
+| 預測適應症 | 分數 | 證據等級 | 決策 | 說明 |
+|-----------|------|---------|------|------|
+| 頭痛疾患 (Headache Disorder) | 99.64% | L2 | Research Question | 有偏頭痛預防與經期偏頭痛的小型雙盲試驗，證據較貼近偏頭痛而非所有頭痛；需留意藥物過度使用風險 |
+| 骨關節炎易感性 | 99.72% | L5 | Hold | 屬遺傳風險概念，非可治療的臨床適應症，無證據 |
+| 三叉神經自主神經性頭痛 | 99.55% | L5 | Hold | 僅有模型預測，無證據 |
+| 結腸缺損性小眼球-肢根型發育不良症候群 | 99.49% | L5 | Hold | 罕見發育症候群，無合理機轉，疑為知識圖譜假象 |
 
-| 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 決策 | 說明 |
-|------|-----------|-----------|---------|------|------|
-| 3 | 頭痛症 (Headache Disorder，含偏頭痛) | 99.64% | L2 | Proceed with Guardrails | 19 篇文獻，含多篇經期偏頭痛預防/急性治療 RCT，機轉與前列腺素介導之腦血管發炎相關，證據品質與 RA 相近 |
-| 2 | 骨關節炎易感性 (Osteoarthritis Susceptibility) | 99.72% | L5 | Hold | "易感性" 為基因風險標籤而非可治療表型，無文獻或試驗支持，機轉連結薄弱 |
-| 4 | 三叉神經自律神經頭痛 (Trigeminal Autonomic Cephalalgia) | 99.55% | L5 | Hold | 病理機轉以 CGRP 為主，與 NSAID 之 COX 抑制機轉關聯薄弱，臨床上對傳統 NSAID 反應通常不佳，無文獻支持 |
-| 5 | Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome | 99.49% | L5 | Hold | 罕見遺傳性發育畸形症候群，與 NSAID 藥理機轉無合理連結，判定為知識圖譜噪聲 |
-
-除類風濕性關節炎外，**頭痛症/偏頭痛**是另一個具有中等證據強度（L2）的候選方向，值得後續一併評估；其餘 3 項證據等級皆為 L5（僅模型預測、無實際研究支持），建議維持 Hold。
+*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

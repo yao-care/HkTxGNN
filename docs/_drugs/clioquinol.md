@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Clioquinol
-parent: 中證據等級 (L3-L4)
-nav_order: 180
-evidence_level: L3
+parent: 僅模型預測 (L5)
+nav_order: 206
+evidence_level: L5
 indication_count: 7
 ---
 
 # Clioquinol
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **7** 個
+證據等級: **L5** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,14 +29,12 @@ indication_count: 7
 
 </div>
 
-# Clioquinol：從外用皮膚感染症到皮膚念珠菌病
+# Clioquinol：從局部抗感染用藥到皮膚念珠菌症
 
 ## 一句話總結
 
-Clioquinol（氯碘羥喹）是一種鹵化 8-羥基喹啉衍生物，歷史上以 Vioform 等外用製劑廣泛用於皮膚感染症的治療。
-TxGNN 模型預測它可能對**皮膚念珠菌病 (Cutaneous Candidiasis)** 有效，
-目前有 **6 篇文獻**（均為 1965–1988 年歷史臨床評估）支持這個方向，且無登記中的臨床試驗。
-值得注意的是，此預測本質上屬於**歷史適應症的恢復**，而非全新再利用發現。
+Clioquinol（DrugBank：DB04815）是一種金屬螯合型的抗菌、抗真菌成分，香港目前有 20 張含此成分的外用許可證，但 Evidence Pack 沒有列出原適應症。
+TxGNN 模型預測它可能對**皮膚念珠菌症 (Cutaneous Candidiasis)** 有效，目前**無臨床試驗**，只有數篇年代較早、且多為複方製劑的文獻，直接證據有限。
 
 ---
 
@@ -44,23 +42,24 @@ TxGNN 模型預測它可能對**皮膚念珠菌病 (Cutaneous Candidiasis)** 有
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 外用皮膚感染症（歷史製劑 Vioform / Locacorten-Vioform 用途） |
-| 預測新適應症 | 皮膚念珠菌病 (Cutaneous Candidiasis) |
+| 原適應症 | 資料未提供（許可證的核准適應症欄位皆為空） |
+| 預測新適應症 | 皮膚念珠菌症 (Cutaneous Candidiasis) |
 | TxGNN 預測分數 | 99.84% |
-| 證據等級 | L3 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails |
+| 證據等級 | L3（僅有早期臨床評估，且多為複方製劑） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
+| 建議決策 | Hold（列為研究問題，待補證據，且僅限外用） |
 
 ---
 
 ## 為什麼這個預測合理？
 
-**作用機轉（MOA）**：DrugBank 詳細 MOA 資料目前尚缺，但根據已知藥理特性，Clioquinol 透過**金屬離子螯合作用**發揮抗真菌效果——特異性螯合 Zn²⁺、Cu²⁺ 和 Fe³⁺，從而抑制念珠菌等真菌賴以維生的金屬依賴性酵素系統，並同步破壞真菌細胞膜的完整性，對表淺皮膚念珠菌感染具有直接作用位點。
+目前缺乏 DrugBank 的詳細作用機轉資料。根據一般藥理知識，Clioquinol 能螯合鋅、銅、鐵等金屬離子，具有抗真菌與抗細菌活性，因此對念珠菌有局部作用在機轉上是合理的。
 
-**原適應症與新適應症的關聯性**：Clioquinol 的歷史使用記錄直接支持此預測。歷史製劑 Locacorten-Vioform（含 clioquinol 3% + flumethasone 0.02%）在多個國家曾被正式核准用於皮膚念珠菌病及繼發性感染皮膚病的治療。現有文獻（如 1975 年 430 例雙盲研究、1979 年 80 例平行比較試驗）均直接記錄了含 clioquinol 製劑對皮膚念珠菌感染的臨床療效。**此案例本質上是歷史適應症的恢復，而非純粹新發現的再利用方向。**
+值得注意的是，Clioquinol（商品名 Vioform）歷史上本來就是外用抗感染藥，所以這項預測比較像是**重新確認舊有用途**，而不是真正的新適應症。
+全身性使用 Clioquinol 曾與亞急性脊髓視神經病變（SMON）相關，因此任何用途都應限於外用。
 
-**機轉適用性**：外用途徑可最大程度降低系統性毒性風險（包括曾引發嚴重爭議的 SMON 神經毒性）。現代外用配方技術可進一步優化皮膚滲透性與局部藥物濃度，為歷史用途的現代化重建提供可行基礎。2021 年研究亦確認 clioquinol 與 ciclopirox、terbinafine 聯合用藥具有協同抗真菌活性，顯示其現代應用潛力不限於單藥使用。
+其他預測中，Majocchi 肉芽腫、毛外型與毛內型感染、深部癬（tinea profunda）都涉及毛囊或深層組織，外用藥穿透力有限，通常需要全身性治療，合理性較低。
 
 ---
 
@@ -72,40 +71,64 @@ TxGNN 模型預測它可能對**皮膚念珠菌病 (Cutaneous Candidiasis)** 有
 
 ## 文獻證據
 
+以下為與皮膚念珠菌症預測相關的文獻（依證據力排序）。多數文獻使用的是含 Clioquinol 的複方，或是否含 Clioquinol 尚未確認，無法單獨歸因於 Clioquinol。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|------|------|------|---------|
-| [155507](https://pubmed.ncbi.nlm.nih.gov/155507/) | 1979 | Clinical Evaluation | Current Medical Research and Opinion | HNA 乳霜 vs. iodochlorhydroxyquin-HC 治療皮膚念珠菌病：整體優異療效 95% vs. 43%（共 80 例） |
-| [6459255](https://pubmed.ncbi.nlm.nih.gov/6459255/) | 1981 | Comparative Clinical Study | Journal of International Medical Research | 154 名患者隨機平行比較研究（含 67 名皮膚念珠菌病），含 iodochlorhydroxyquin 的 BGI 複方與 HNN 複方整體療效相當 |
-| [128475](https://pubmed.ncbi.nlm.nih.gov/128475/) | 1975 | Prospective Clinical Evaluation | Dermatologica | 430 名患者雙盲研究：Locacorten（0.02%）-Vioform（3%）複方在繼發性感染皮膚病的微生物轉陰及臨床改善，顯著優於單用 Vioform 或 Locacorten |
-| [136333](https://pubmed.ncbi.nlm.nih.gov/136333/) | 1976 | Clinical Evaluation | Current Therapeutic Research | 含 halcinonide 與 iodochlorhydroxyquin 的新型抗真菌複方臨床評估 |
-| [4220930](https://pubmed.ncbi.nlm.nih.gov/4220930/) | 1965 | Case Series / Observational | Zeitschrift fur Haut | 探討酵母菌在腸病性肢端皮炎（Danbolt-Closs acrodermatitis enteropathica）病因中的角色，涉及 clioquinol 治療背景 |
-| [2978600](https://pubmed.ncbi.nlm.nih.gov/2978600/) | 1988 | Observational / Prevention Study | Przeglad dermatologiczny | 體外研究：多種肥皂添加物對白色念珠菌菌株的殺菌效果，強鹼性皂液中 clioquinol 展現最強殺真菌活性 |
+|------|-----|------|------|---------|
+| [128475](https://pubmed.ncbi.nlm.nih.gov/128475/) | 1975 | 雙盲臨床研究 | Dermatologica | 430 名患者；Locacorten-Vioform（含 Clioquinol）乳膏對合併細菌感染的皮膚病效果顯著，優於單一成分與安慰劑（針對細菌感染，非念珠菌） |
+| [6459255](https://pubmed.ncbi.nlm.nih.gov/6459255/) | 1981 | 隨機對照 | J Int Med Res | 154 名患者（含 67 例皮膚念珠菌症）；比較兩種類固醇加抗菌複方乳膏，其中一種含 iodochlorhydroxyquin（Clioquinol），療效相當 |
+| [155507](https://pubmed.ncbi.nlm.nih.gov/155507/) | 1979 | 臨床評估 | Curr Med Res Opin | 以 iodochlorhydroxyquin-hydrocortisone 為對照組，治療 40 例念珠菌症的有效率為 43%，試驗藥 HNA 為 95%（試驗藥並非 Clioquinol 製劑） |
+| [136333](https://pubmed.ncbi.nlm.nih.gov/136333/) | 1976 | 臨床評估 | Curr Ther Res | Halcinonide 與抗真菌複方的評估；是否含 Clioquinol 未確認，無摘要 |
+
+其他預測適應症的相關文獻如下：
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [33772895](https://pubmed.ncbi.nlm.nih.gov/33772895/) | 2021 | 前臨床 | Mycoses | Clioquinol 併用 ciclopirox 與 terbinafine，在皮癬菌症替代模型中評估活性與刺激性（淺部黴菌症） |
+| [13521766](https://pubmed.ncbi.nlm.nih.gov/13521766/) | 1958 | 歷史臨床報告 | Antibiotic Med Clin Ther | Vioform-氫皮質酮乳膏與乳液用於淺部黴菌感染，受類固醇混雜影響 |
+
+「頭皮或鬍鬚皮癬」檢索到的 20 篇文獻皆為關鍵字誤配（鬍鬚重建、植髮等），與 Clioquinol 無關，不列為證據，需以更精確的查詢重新檢索。
+
+---
+
+## 香港上市資訊
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-64376 | EURO-HYDROFORM CREAM | 乳膏（資料未標示） | 資料未提供 |
+| HK-21173 | HYDROCORTISONE WITH CLIOQUINOL CREAM | 乳膏（資料未標示） | 資料未提供 |
+| HK-53961 | TOPICAN CREAM | 乳膏（資料未標示） | 資料未提供 |
+| HK-36901 | QUINOSONE CREAM | 乳膏（資料未標示） | 資料未提供 |
+| HK-28056 | SUPRAL CREAM | 乳膏（資料未標示） | 資料未提供 |
+
+（共 20 張許可證，此處列出 5 張。品名皆含 Cream，判斷為外用乳膏。）
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **重要風險**：全身性使用 Clioquinol 與亞急性脊髓視神經病變（SMON）相關，任何用途都應限於外用。
 
-> ⚠️ **重要背景說明**：根據現有藥理文獻及 `predicted_indications` 的機轉分析，Clioquinol **系統性使用（口服）**曾與日本 SMON（亞急性脊髓視神經病變）群聚事件相關，多國因此限制或撤回其口服製劑。本預測指向的**外用局部製劑**之安全性資料相對有利，但詳細警語、禁忌及當前法規狀態請查閱原廠說明書或向相關藥監機關確認。
+其餘警語、禁忌症與藥物交互作用查無資料，請參考香港衛生署核准的原廠仿單。
 
 ---
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-Clioquinol 用於皮膚念珠菌病屬於歷史適應症的現代恢復，有 L3 等級的歷史臨床觀察性研究支持，歷史製劑 Locacorten-Vioform 亦有實際使用先例可稽；限定**外用局部途徑**可有效規避系統性 SMON 毒性的關鍵安全疑慮，可行性基礎明確。
+- 皮膚念珠菌症在機轉上合理，且 Clioquinol 歷史上即為外用抗感染藥，但現有文獻多為含類固醇或其他成分的複方製劑，無法單獨歸因於 Clioquinol，也沒有臨床試驗。
+- 安全性資料（仿單警語與禁忌）有缺口，屬於阻擋性缺口，尚無法進入安全性篩選。
+- 其餘預測（Majocchi 肉芽腫、毛外／毛內型感染、深部癬）僅有模型預測，且外用穿透力不足，建議暫緩。
 
 **若要推進需要：**
-- 查閱 DrugBank API 補齊完整 MOA 資料及藥理分類
-- 下載並解析原廠仿單 PDF，補充 TFDA 警語與禁忌資料（目前均為資料缺口）
-- 委託現代化外用配方設計與皮膚滲透性（Franz cell 等）研究
-- 針對當代臨床念珠菌分離株進行體外抗真菌活性確認試驗（含 MIC 測定）
-- 系統性文獻回顧，聚焦外用 clioquinol 的安全性與現代臨床應用資料
-- 評估香港藥監法規路徑：是否以現有製劑（仿製或進口）申請許可，抑或需全新配方開發
-- 探索與 ciclopirox、terbinafine 等現行外用抗真菌藥的聯合用藥協同效應（2021 年體外數據提供初步依據）
+- 取得香港衛生署仿單，補齊警語、禁忌症與核准適應症
+- 補查 DrugBank 的作用機轉資料
+- 針對 Clioquinol 單方（或明確標示含 Clioquinol 的製劑）重新做文獻檢索，區分其與類固醇的貢獻
+- 對「頭皮或鬍鬚皮癬」重做精準檢索
+- 確認現有 20 張許可證的核准適應症，判斷皮膚念珠菌症是否已涵蓋，避免把既有用途誤判為新適應症
+- 明確限定外用途徑，並規劃 SMON 相關風險的溝通與監測
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -2,7 +2,7 @@
 layout: default
 title: Trifluoperazine
 parent: 中證據等級 (L3-L4)
-nav_order: 773
+nav_order: 893
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,87 +29,89 @@ indication_count: 1
 
 </div>
 
-# Triflupromazine（Trifluoperazine）：從精神分裂症到躁鬱症（Manic Bipolar Affective Disorder）
+# Trifluoperazine：從精神病類用藥到躁狂型雙極性情感疾患
 
 ## 一句話總結
 
-Trifluoperazine 是典型 phenothiazine 類抗精神病藥，目前香港未上市，原始適應症與作用機轉資料均缺失。
-TxGNN 模型預測它可能對**躁鬱症躁狂發作 (Manic Bipolar Affective Disorder)** 有效，
-目前**無相關臨床試驗登記**，僅有 **20 篇文獻**（多為個案報告與回顧性文章）提供機轉層級的間接支持。
-
----
+Trifluoperazine（三氟拉嗪）是 phenothiazine 類的高效價多巴胺 D2 拮抗劑，屬傳統抗精神病藥。
+TxGNN 模型預測它可能對**躁狂型雙極性情感疾患 (Manic Bipolar Affective Disorder)** 有效。
+目前**沒有臨床試驗**，只有 **20 篇間接相關文獻**，且多數不是針對此藥治療躁狂的研究，證據等級僅 L4，建議 **Hold**。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無資料（香港未上市，原始適應症未記錄） |
-| 預測新適應症 | 躁鬱症躁狂發作 (Manic Bipolar Affective Disorder) |
-| TxGNN 預測分數 | 99.51% |
+| 原適應症 | 許可證資料未載明適應症文字（藥理類別為 phenothiazine 類抗精神病藥） |
+| 預測新適應症 | 躁狂型雙極性情感疾患 (Manic Bipolar Affective Disorder) |
+| TxGNN 預測分數 | 99.51%（模型排名 8837） |
 | 證據等級 | L4 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 5 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-本資料集中 `original_moa` 標記為缺失，無法從官方資料直接確認 Trifluoperazine 的作用機轉。不過根據文獻層級的機轉推論（PMID 970489），Trifluoperazine 屬於典型 phenothiazine 類抗精神病藥，主要藥理作用為 D2 多巴胺受體拮抗。
+目前缺乏詳細的作用機轉資料，原適應症欄位也是空的。根據已知資訊，Trifluoperazine 是高效價 phenothiazine 類 D2 多巴胺受體拮抗劑。抗精神病藥作為一個類別，已用於急性躁狂的治療，機轉上可能適用於躁狂型雙極性疾患。
 
-躁狂發作與中樞多巴胺功能亢進假說一致，這也是典型抗精神病藥被用於急性躁狂治療的經典機轉基礎。然而，這個關聯目前只建立在**藥物類別層級（class-level）**的推論上——文獻中提及 Trifluoperazine 多半是作為抗精神病藥類別的一員被討論（如躁狂管理、NMS 副作用案例），而非針對躁鬱症躁狂發作設計的 Trifluoperazine 專屬對照試驗。
+生物學上的合理性主要來自「躁狂的多巴胺假說」。1976 年一篇個案研究（PMID 970489）發現：多巴胺促效劑 piribedil 與 d-amphetamine 會誘發躁狂發作，多巴胺阻斷劑 pimozide 則有抗躁狂效果。Trifluoperazine 同樣阻斷多巴胺受體，因此推論它可能有類似作用。
 
-換言之，機轉上「合理」，但目前缺乏藥物專一性（drug-specific）的直接臨床證據來驗證這個預測。
-
----
+這只是**類別層級的間接支持**。目前沒有任何針對 Trifluoperazine 治療躁狂的藥物專屬療效資料。由於原適應症與 MOA 資料都是空的，也無法用已標示的用途來交叉驗證 TxGNN 的高分（0.995）。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
+
+以下文獻沒有 RCT，而且多數是其他抗精神病藥或副作用的研究，只能作為間接背景。依類型排序：系統性回顧／回顧 > 機轉假說 > 其他。
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [11279762](https://pubmed.ncbi.nlm.nih.gov/11279762/) | 2001 | RCT（不同藥物） | Cochrane Database Syst Rev | Clotiapine 用於急性精神病症狀之隨機對照試驗回顧，非 Trifluoperazine 直接證據 |
-| [17017818](https://pubmed.ncbi.nlm.nih.gov/17017818/) | 2006 | Review | J Clin Psychiatry | 回顧典型與非典型抗精神病藥對躁鬱症合併焦慮症狀的療效 |
-| [39202628](https://pubmed.ncbi.nlm.nih.gov/39202628/) | 2024 | Systematic Review | Medicina (Kaunas) | 抗精神病藥誘發「兔子症候群」口部運動障礙之系統性回顧 |
-| [19461391](https://pubmed.ncbi.nlm.nih.gov/19461391/) | 2009 | Review | J Psychiatr Practice | 懷孕期間抗精神病藥使用與安全性回顧 |
-| [40926568](https://pubmed.ncbi.nlm.nih.gov/40926568/) | 2026 | Review（基礎研究） | J Appl Toxicol | Phenothiazine 衍生物對細胞凋亡機轉的影響回顧 |
-| [970489](https://pubmed.ncbi.nlm.nih.gov/970489/) | 1976 | Review/Mechanistic | Am J Psychiatry | 探討躁狂發作的多巴胺機轉假說，為典型抗精神病藥治療躁狂的機轉基礎 |
-| [30601177](https://pubmed.ncbi.nlm.nih.gov/30601177/) | 2021 | Review | Am J Ther | 哺乳期精神科用藥（含躁鬱症治療）安全性評分系統 |
-| [24943390](https://pubmed.ncbi.nlm.nih.gov/24943390/) | 2014 | Cohort/處方模式 | J Clin Psychopharmacol | 烏干達精神科機構躁鬱症等診斷之抗精神病藥處方模式調查 |
-| [20851282](https://pubmed.ncbi.nlm.nih.gov/20851282/) | 2010 | Case report | Gen Hosp Psychiatry | Risperidone 誘發口吃個案報告，提及 Trifluoperazine 等藥物曾有類似副作用文獻 |
-| [19164500](https://pubmed.ncbi.nlm.nih.gov/19164500/) | 2010 | Case report | J Psychopharmacol | Ziprasidone 誘發自發性性高潮個案，提及 Trifluoperazine 曾有類似報告 |
+| [39202628](https://pubmed.ncbi.nlm.nih.gov/39202628/) | 2024 | 系統性回顧 | Medicina (Kaunas) | 回顧藥物引起的口部垂直性異動症（「兔子症候群」）的臨床特徵、機轉與處置，屬抗精神病藥副作用議題 |
+| [11279762](https://pubmed.ncbi.nlm.nih.gov/11279762/) | 2001 | 回顧（Cochrane） | Cochrane Database Syst Rev | 探討 clotiapine 用於急性精神病性發作的鎮靜，非 Trifluoperazine 專屬 |
+| [17017818](https://pubmed.ncbi.nlm.nih.gov/17017818/) | 2006 | 回顧 | J Clin Psychiatry | 回顧典型與非典型抗精神病藥對原發或共病焦慮症狀的療效 |
+| [19461391](https://pubmed.ncbi.nlm.nih.gov/19461391/) | 2009 | 回顧 | J Psychiatr Pract | 抗精神病藥在懷孕期間的使用與安全性 |
+| [40926568](https://pubmed.ncbi.nlm.nih.gov/40926568/) | 2026 | 回顧 | J Appl Toxicol | 回顧 phenothiazine 衍生物對細胞凋亡的影響，指出這類藥物用於精神分裂症、雙極性躁狂與精神病 |
+| [970489](https://pubmed.ncbi.nlm.nih.gov/970489/) | 1976 | 機轉假說（個案研究） | Am J Psychiatry | 多巴胺促效劑誘發躁狂，多巴胺阻斷劑 pimozide 有抗躁狂效果，支持躁狂的多巴胺機轉 |
+| [14309092](https://pubmed.ncbi.nlm.nih.gov/14309092/) | 1965 | 未分類 | Int J Neuropsychiatry | 研究 haloperidol 用於精神分裂症與躁狂患者（無摘要，依標題判斷，非 Trifluoperazine） |
+| [14084030](https://pubmed.ncbi.nlm.nih.gov/14084030/) | 1963 | 未分類（雙盲研究） | Curr Ther Res | 在 tranylcypromine 合併 Trifluoperazine 的維持治療患者中停用 Trifluoperazine 的影響（無摘要，依標題判斷；主題非躁狂） |
+| [13761179](https://pubmed.ncbi.nlm.nih.gov/13761179/) | 1961 | 未分類 | Am J Psychiatry | tranylcypromine 合併 Trifluoperazine 治療激動型憂鬱（無摘要，依標題判斷） |
+| [2102674](https://pubmed.ncbi.nlm.nih.gov/2102674/) | 1990 | 個案報告 | Br J Psychiatry | Trifluoperazine 與 carbamazepine 過量後出現類神經安定劑惡性症候群（NMS），為安全性訊號 |
 
-**注意**：以上文獻多數為抗精神病藥「類別層級」討論，直接針對 Trifluoperazine 用於躁鬱症躁狂發作的研究極為有限，證據強度偏低。
+## 香港上市資訊
 
----
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-67926 | NEUROCLIN TABLETS 5MG | HIND WING CO LTD |
+| HK-09272 | APO-TRIFLUOPERAZINE TAB 5MG | HIND WING CO LTD |
+| HK-09271 | APO-TRIFLUOPERAZINE TAB 1MG | HIND WING CO LTD |
+| HK-67218 | MODALINA TABLETS 2MG | HIND WING CO LTD |
+| HK-67217 | MODALINA TABLETS 1MG | HIND WING CO LTD |
+
+目前資料中，各許可證的劑型與核准適應症欄位皆為空白，無法確認香港實際核准的適應症。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+安全性資訊請參考原廠仿單。目前未取得香港衛生署仿單的警語與禁忌症，藥物交互作用查詢也無結果。
 
-> ⚠️ 資料缺口提示：TFDA 仿單警語/禁忌資料缺失（Blocking），目前**無法進行 S1 安全性初評**。此為推進本候選前必須補齊的關鍵資料。
-
----
+文獻中出現的安全性訊號（非仿單內容，僅供參考）：
+- 與 carbamazepine 合用過量後出現類 NMS 表現（PMID 2102674）
+- 有 phenothiazine 治療期間出現癲癇發作與腦電圖變化的報告（PMID 6069087）
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 證據等級僅 L4（機轉層級推論，無藥物專一性臨床試驗），且無任何臨床試驗登記支持。
-- 安全性初評因 TFDA 仿單警語/禁忌資料缺失而無法執行（Blocking data gap）。
-- 香港未上市，缺乏在地監管與上市資訊佐證。
+- 證據只有 TxGNN 的模型預測、多巴胺假說與抗精神病藥的類別層級背景，沒有 Trifluoperazine 治療躁狂的臨床試驗或藥物專屬療效資料。
+- 衛生署仿單的警語與禁忌症資料缺口屬 Blocking 等級，目前無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得 TFDA（或香港藥劑業及毒藥管理局）官方仿單，解析警語與禁忌症，解除 Blocking 缺口。
-- 查詢 DrugBank API 補齊 Trifluoperazine 之作用機轉（MOA）原始資料。
-- 檢索是否存在 Trifluoperazine 專屬（而非藥物類別層級）用於躁鬱症躁狂發作之對照試驗或觀察性研究。
-- 確認香港上市狀態與潛在許可證途徑。
+- 取得並解析香港衛生署的仿單（警語、禁忌症、核准適應症）
+- 補齊原適應症與作用機轉資料，例如查詢 DrugBank
+- 搜尋 Trifluoperazine 用於躁狂或雙極性疾患的藥物專屬臨床研究，包括 RCT 與觀察性研究
+- 與已有躁狂適應症與較完整證據的其他抗精神病藥比較
+- 完成藥物交互作用查詢，並確認 NMS 與癲癇等風險的監測計畫
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

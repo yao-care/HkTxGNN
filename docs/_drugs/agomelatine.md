@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Agomelatine
-parent: 高證據等級 (L1-L2)
-nav_order: 26
-evidence_level: L1
+parent: 僅模型預測 (L5)
+nav_order: 27
+evidence_level: L5
 indication_count: 10
 ---
 
 # Agomelatine
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,81 @@ indication_count: 10
 
 </div>
 
-# Agomelatine：從重鬱症到憂鬱型憂鬱症 (Melancholia)
+# Agomelatine：從憂鬱症到嬰兒良性陣發性斜頸
 
 ## 一句話總結
 
-Agomelatine 是一種新型褪黑激素受體促效劑 / 5-HT2C 受體拮抗劑類抗憂鬱藥，已獲歐洲藥品管理局（EMA）核准用於**重鬱症（Major Depressive Disorder）**治療，但目前在香港尚未上市。
-TxGNN 模型預測它可能對**憂鬱型憂鬱症（Melancholia）**有效（預測分數 99.88%），
-目前有 **20 篇文獻**支持這個方向，包含多篇 Lancet 級別的系統性回顧與網絡 Meta-Analysis，證據等級達 **L1**。
-
----
+Agomelatine（阿戈美拉汀）是一種抗憂鬱藥，香港有 2 張許可證，但許可證資料未載明適應症。
+TxGNN 模型預測它可能對**嬰兒良性陣發性斜頸 (Benign Paroxysmal Torticollis of Infancy)** 有效，分數很高。
+但目前**沒有任何臨床試驗或文獻**支持，僅屬模型預測，建議暫緩（Hold）。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 重鬱症（Major Depressive Disorder，EMA 核准） |
-| 預測新適應症 | 憂鬱型憂鬱症（Melancholia） |
-| TxGNN 預測分數 | 99.88% |
-| 證據等級 | L1 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails |
-
----
+| 原適應症 | 許可證未載明；藥理上屬抗憂鬱藥（憂鬱症） |
+| 預測新適應症 | 嬰兒良性陣發性斜頸 (Benign Paroxysmal Torticollis of Infancy) |
+| TxGNN 預測分數 | 99.96%（排名 1271） |
+| 證據等級 | L5 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 2 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-Agomelatine 是第一個超越傳統單胺系統的抗憂鬱藥，具備**雙重且互補的藥理機轉**：
+DrugBank 目前沒有提供 Agomelatine 的作用機轉欄位。根據文獻，它是 MT1/MT2 褪黑激素受體促效劑，同時是 5-HT2C 血清素受體拮抗劑，可調節晝夜節律，並提高額葉皮質的多巴胺與正腎上腺素。這些機轉與憂鬱症直接相關。
 
-**MT1/MT2 褪黑激素受體促效**：激動下視丘視叉上核（SCN）的褪黑激素受體，重設生理時鐘、恢復睡眠-覺醒週期。這對憂鬱型憂鬱症尤為關鍵，因 Melancholia 的核心病理特徵正是晝夜節律嚴重紊亂（早醒、晨間症狀加重、HPA 軸過度活化）。
+嬰兒良性陣發性斜頸是嬰幼兒的陣發性動作障礙，與憂鬱症在病理上沒有明顯關聯。從現有資料看不出 Agomelatine 的機轉能如何作用於這個疾病。
 
-**5-HT2C 血清素受體拮抗**：去抑制前額葉皮質的正腎上腺素與多巴胺釋放，直接改善 Melancholia 最典型的兩個症狀：**快感缺失（Anhedonia）**與**精神動作遲滯**。現有文獻（PMID 40129874）明確將 agomelatine 列為具抗 anhedonia 療效的優先藥物。
-
-憂鬱型憂鬱症（Melancholia）在 DSM-5 及 ICD-10/11 中均為重鬱症的特殊亞型，EMA 核准 agomelatine 的 MDD 適應症在臨床上本質上已涵蓋 Melancholia 病患族群。多個 Phase 3 RCT（已整合入 Cipriani 2018 *Lancet* 網絡 Meta-Analysis）確認了其抗憂鬱療效，使本預測具有極高的臨床與機轉合理性。
-
----
+99.96% 的高分很可能來自知識圖譜中的鄰近關係，而不是真正的藥理依據。此外，嬰兒使用這個藥物會有重大的安全性疑慮。這個預測目前不具可信度。
 
 ## 臨床試驗證據
 
-目前無針對「憂鬱型憂鬱症（Melancholia）」的獨立臨床試驗登記。Agomelatine 的抗憂鬱療效已通過多個涵蓋 Melancholia 亞型在內的大型 Phase 3 RCT 驗證，相關試驗數據已整合於下列高品質文獻（Network Meta-Analysis）中。
-
----
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/) | 2018 | Network Meta-Analysis | *Lancet* | 21 種抗憂鬱藥急性期療效網絡 Meta-Analysis，agomelatine 有效性與可接受性均優於安慰劑 |
-| [36253442](https://pubmed.ncbi.nlm.nih.gov/36253442/) | 2023 | Systematic Review / Meta-Analysis | *Molecular Psychiatry* | MDD 維持期抗憂鬱藥隨機對照試驗 Meta-Analysis，agomelatine 顯示良好的復發預防效果 |
-| [39684343](https://pubmed.ncbi.nlm.nih.gov/39684343/) | 2024 | Systematic Review / Meta-Analysis | *Int J Molecular Sciences* | Agomelatine 治療糖尿病合併重鬱症患者之療效與安全性系統性評估 |
-| [37960759](https://pubmed.ncbi.nlm.nih.gov/37960759/) | 2023 | Meta-Analysis | *Medicine* | Agomelatine 治療憂鬱症有效性與安全性的系統性 Meta-Analysis |
-| [41135546](https://pubmed.ncbi.nlm.nih.gov/41135546/) | 2025 | Systematic Review | *Lancet* | 抗憂鬱藥對心臟代謝及生理參數影響的大型網絡 Meta-Analysis，含 agomelatine 副作用輪廓評估 |
-| [27508501](https://pubmed.ncbi.nlm.nih.gov/27508501/) | 2016 | Systematic Review | *Psychotherapy & Psychosomatics* | 新世代抗憂鬱藥安全性批判性回顧，含 agomelatine 詳細安全性分析 |
-| [24328686](https://pubmed.ncbi.nlm.nih.gov/24328686/) | 2014 | Review | *Expert Opin Pharmacotherapy* | Agomelatine 作用機轉（MT1/MT2 促效 + 5-HT2C 拮抗）、療效及耐受性完整評述 |
-| [32568567](https://pubmed.ncbi.nlm.nih.gov/32568567/) | 2020 | Review | *Expert Opin Drug Discovery* | Agomelatine 從臨床前研究到憂鬱症治療的完整開發歷程，強調其超越單胺系統的創新機轉 |
-| [40129874](https://pubmed.ncbi.nlm.nih.gov/40129874/) | 2025 | Narrative Review | *PCN Reports* | Anhedonia 藥物與非藥物治療全面回顧，agomelatine 列為具明確抗 anhedonia 療效的優先藥物 |
-| [31206585](https://pubmed.ncbi.nlm.nih.gov/31206585/) | 2019 | Cochrane Review | *Cochrane Database Syst Rev* | Agomelatine 與褪黑激素用於預防季節性情感障礙（SAD）的 Cochrane 系統性回顧 |
-
----
+目前無相關文獻。
 
 ## 香港上市資訊
 
-Agomelatine 目前在香港**尚未上市**，無任何許可證紀錄。
-
-> 備註：Agomelatine 以 **Valdoxan®**（Servier）品牌名稱在歐洲 EMA 核准市場銷售，適應症為成人重鬱症。如需引進香港市場，須向香港衞生署藥物辦公室提出申請。
-
----
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-59904 | VALDOXAN TAB 25MG（廠商：SERVIER HONG KONG LIMITED） | 未載明 | 未載明 |
+| HK-67815 | AGOMELATINE TEVA TABLETS 25MG（廠商：TEVA PHARMACEUTICAL HONG KONG LIMITED） | 未載明 | 未載明 |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
----
+## 其他預測適應症（供參考）
+
+同一藥物的其他預測適應症中，以下幾項證據明顯較強：
+
+| 預測適應症 | TxGNN 分數 | 證據等級 | 建議 | 說明 |
+|-----------|-----------|---------|------|------|
+| 憂鬱症（Melancholia） | 99.88% | L2 | Proceed with Guardrails | 有多篇統合分析支持抗憂鬱療效，包括 21 種抗憂鬱藥的網絡統合分析（Lancet 2018）。Agomelatine 在多個地區已用於重度憂鬱症，所以較像適應症確認，而非真正的老藥新用。 |
+| 精神官能性憂鬱（Neurotic depression） | 99.88% | L2 | Proceed with Guardrails | 這是舊式診斷名稱，證據沿用一般憂鬱症資料，使用前需先對應到現代診斷。 |
+| 輕鬱症（Dysthymic disorder） | 99.86% | L4 | Research Question | 現有證據是抗憂鬱藥類別的統合分析，未證實包含 Agomelatine，需要 Agomelatine 專屬資料。 |
+| 懼曠症（Agoraphobia） | 99.95% | L4 | Hold | 唯一文獻是憂鬱症族群的觀察性研究，並非懼曠症。 |
+
+其餘預測（Ohdo 症候群及其變體、木樣結膜炎、Keppen-Lubinsky 症候群等罕見遺傳疾病）都只有模型預測，沒有任何證據，也找不到機轉關聯，應視為圖譜關聯的假訊號。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-Agomelatine 的 EMA 核准適應症（重鬱症）在臨床上本質上已涵蓋憂鬱型憂鬱症（Melancholia）亞型；其雙重藥理機轉（晝夜節律正常化 + 快感缺失改善）與 Melancholia 的核心病生理高度契合，且 Lancet 級別大型網絡 Meta-Analysis 已確認其抗憂鬱療效，達 L1 證據等級。主要障礙在於香港尚未上市，以及本次 Evidence Pack 中作用機轉（MOA）與安全性資料的缺口。
+- 首位預測（嬰兒良性陣發性斜頸）沒有試驗與文獻，機轉上也無合理連結，只有模型分數。
+- 嬰兒使用的安全性疑慮大，目前不建議投入資源。
 
 **若要推進需要：**
-- 取得 EMA 原廠仿單，補齊安全性資料（肝功能監測要求、禁忌症、藥物交互作用清單）
-- 向香港衞生署藥物辦公室評估藥品引進許可申請的可行性
-- 確認 Melancholia 亞型在香港臨床編碼與醫療系統中的對應路徑
-- 若計劃開展本地研究，建議設計以 Melancholia 核心症狀（Anhedonia、HPA 軸指標、睡眠多項生理記錄）為終點的前瞻性觀察研究
+- 若要評估此藥的再利用價值，建議改以證據較強的憂鬱症相關適應症為主，並以肝功能監測（肝酵素上升為已知風險）作為防護措施。
+- 取得香港衛生署許可證仿單，補齊核准適應症、警語與禁忌症，這是進入安全性篩選前的必要資料。
+- 補齊 DrugBank 的作用機轉資料。
+- 若仍要探索嬰兒良性陣發性斜頸，需先有機轉假說與前臨床研究，並評估兒童用藥安全性。
+
+> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

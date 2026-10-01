@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dexketoprofen
-parent: 高證據等級 (L1-L2)
-nav_order: 226
-evidence_level: L1
+parent: 僅模型預測 (L5)
+nav_order: 261
+evidence_level: L5
 indication_count: 10
 ---
 
 # Dexketoprofen
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,123 @@ indication_count: 10
 
 </div>
 
-# Dexketoprofen：從急性疼痛到偏頭痛 (Migraine Disorder)
+# Dexketoprofen：從 NSAID 止痛藥到偏頭痛
 
 ## 一句話總結
 
-Dexketoprofen 是一種 COX 抑制劑（NSAID 類），廣泛用於急性疼痛的緩解，目前在香港尚無上市許可。
-TxGNN 模型在 10 個預測適應症中，**偏頭痛 (Migraine Disorder)** 擁有最充分的臨床實證（證據等級 L1），
-目前有 **8 個臨床試驗**和 **20 篇文獻**直接支持這個方向，涵蓋多個 Phase 4 RCT 及 2025 年 AHS 急診治療指引。
-
-> **說明**：TxGNN 評分最高的預測為**肌腱炎 (Tendinitis)**（99.90%，排名第 1），但其臨床證據僅達 L4（1 篇文獻）。偏頭痛為 TxGNN 排名第 6（99.87%），卻是實際臨床證據最強的適應症，本報告以偏頭痛為主要分析對象。
-
----
+Dexketoprofen 是 ketoprofen 的活性 S-鏡像異構物，屬於 COX 抑制型非類固醇消炎止痛藥（NSAID）。
+TxGNN 模型預測它可能對多種疾病有效，其中證據最完整的是**偏頭痛 (Migraine Disorder)**，目前有 **7 個臨床試驗**和 **20 篇文獻**支持。
+排名第 1 的**肌腱炎 (Tendinitis)** 目前只有 1 篇間接文獻。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 急性疼痛（全球已核准，香港未上市） |
-| 預測新適應症 | 偏頭痛 (Migraine Disorder) |
-| TxGNN 預測分數 | 99.87%（全球排名第 3,368） |
-| 證據等級 | L1 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails |
+| 預測新適應症（排名第 1） | 肌腱炎 (Tendinitis) |
+| 預測新適應症（證據最強） | 偏頭痛 (Migraine Disorder) |
+| TxGNN 預測分數 | 肌腱炎 99.90%；偏頭痛 99.87% |
+| 證據等級 | 肌腱炎 L4；偏頭痛 L1 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 1 張 |
+| 建議決策 | 偏頭痛：Proceed with Guardrails；肌腱炎：Research Question |
 
----
+> 證據等級說明：偏頭痛的 L1 是依證據包評分。有多個已完成的 Phase 4 RCT、多篇 RCT 和 1 篇統合分析，但這些試驗都不是 Phase 3，與本報告的 L1 條件（≥2 個已完成的 Phase 3 RCT）並不完全吻合。
 
 ## 為什麼這個預測合理？
 
-Dexketoprofen 是 ketoprofen 的右旋活性異構體，屬於非類固醇消炎藥（NSAID）。雖然 Evidence Pack 中的詳細 MOA 資料缺失，但根據藥物類別的已知藥理學，dexketoprofen 透過非選擇性抑制 COX-1 及 COX-2 酶，阻斷花生四烯酸轉化為前列腺素（prostaglandins）的通路，從而達到消炎、止痛效果。其右旋異構體特性使其止痛效力高於外消旋 ketoprofen，起效速度亦相對快速。
+目前缺乏詳細的作用機轉資料（DrugBank MOA 欄位空白）。根據已知資訊，Dexketoprofen 是 ketoprofen 的 S-鏡像異構物，屬於 COX-1/COX-2 抑制劑。它透過阻斷前列腺素合成，減少發炎與疼痛訊號。
 
-偏頭痛的發作機制涉及前列腺素（特別是 PGE2 和 PGI2）介導的腦膜血管擴張，以及三叉頸複合體（trigemino-cervical complex）的痛覺敏化。COX 抑制可有效阻斷此通路，這正是為何同類 NSAID（如 ibuprofen、naproxen）已被多國指引納入偏頭痛急性期治療的科學根據。Dexketoprofen 的高效力與快速起效特性，使其在急診室急性偏頭痛治療情境下尤具潛力。
+偏頭痛發作時有前列腺素參與的周邊與中樞敏感化及神經性發炎，因此與其他 NSAID 一樣，Dexketoprofen 在機轉上適用於急性偏頭痛。這個預測有臨床證據支持，包括安慰劑對照 RCT 和統合分析。
 
-多項已完成的 Phase 4 RCT（包括 dexketoprofen vs. 安慰劑、vs. paracetamol、vs. ibuprofen 的直接頭對頭比較）已在急診環境下驗證靜脈注射 dexketoprofen 的療效，2025 年美國頭痛學會（AHS）最新急診指引亦將腸外 NSAID 納入偏頭痛治療建議，進一步確立了此方向的臨床價值。
-
----
+肌腱炎的推論同樣是 COX 抑制的類別效應（NSAID 在肌腱病變中用於緩解症狀）。但目前唯一的文獻研究的是急診非外傷性肌肉骨骼疼痛，並非肌腱炎專屬，屬間接證據。
 
 ## 臨床試驗證據
 
+以下為偏頭痛與頭痛相關試驗（已依相關性挑選）：
+
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT02159547](https://clinicaltrials.gov/study/NCT02159547) | Phase 4 | 完成 | 224 | IV dexketoprofen vs. 安慰劑雙盲 RCT，主要終點為急性偏頭痛終止，直接驗證 dexketoprofen 優效性 |
-| [NCT01730326](https://clinicaltrials.gov/study/NCT01730326) | Phase 4 | 完成 | 200 | IV dexketoprofen vs. paracetamol 頭對頭比較，急診急性偏頭痛急性鎮痛效果評估 |
-| [NCT04533568](https://clinicaltrials.gov/study/NCT04533568) | Phase 4 | 完成 | 160 | IV ibuprofen vs. IV dexketoprofen 同類 NSAID 頭對頭比較，急診無先兆偏頭痛 |
-| [NCT04252521](https://clinicaltrials.gov/study/NCT04252521) | N/A | 完成 | 150 | 三臂雙盲 RCT：metoclopramide vs. dexketoprofen vs. 聯合用藥，急性偏頭痛急診療效 |
-| [NCT04372264](https://clinicaltrials.gov/study/NCT04372264) | Phase 4 | 狀態不明 | 210 | IV paracetamol vs. dexketoprofen vs. ibuprofen VAS 評分三藥比較，急性偏頭痛急診 |
-| [NCT04519346](https://clinicaltrials.gov/study/NCT04519346) | N/A | 完成 | 150 | 真皮中胚層療法 vs. 全身性治療（dexketoprofen 對照組），無先兆偏頭痛 RCT |
-| [NCT05780671](https://clinicaltrials.gov/study/NCT05780671) | N/A | 完成 | 160 | 輔助氧療研究：dexketoprofen 50mg + metoclopramide 為標準背景治療方案 |
-| [NCT06061588](https://clinicaltrials.gov/study/NCT06061588) | N/A | 完成 | 140 | VR 技術對偏頭痛治療影響研究，dexketoprofen 為背景標準治療藥物 |
+| [NCT02159547](https://clinicaltrials.gov/study/NCT02159547) | Phase 4 | 完成 | 224 | 靜脈注射 Dexketoprofen 對比安慰劑，用於急診偏頭痛發作（尚無結果摘要） |
+| [NCT01730326](https://clinicaltrials.gov/study/NCT01730326) | Phase 4 | 完成 | 200 | 靜脈注射 Dexketoprofen 對比 Paracetamol，用於急診急性偏頭痛頭痛 |
+| [NCT04372264](https://clinicaltrials.gov/study/NCT04372264) | Phase 4 | 未知 | 210 | 靜脈注射 Paracetamol、Dexketoprofen、Ibuprofen 的 VAS 疼痛評分比較 |
+| [NCT04252521](https://clinicaltrials.gov/study/NCT04252521) | N/A | 完成 | 150 | Metoclopramide、Dexketoprofen 及兩者合併於急性偏頭痛的雙盲比較 |
+| [NCT04533568](https://clinicaltrials.gov/study/NCT04533568) | Phase 4 | 完成 | 160 | 靜脈注射 Ibuprofen 對比 Dexketoprofen，用於偏頭痛相關頭痛 |
+| [NCT04519346](https://clinicaltrials.gov/study/NCT04519346) | N/A | 完成 | 150 | 皮內中胚層療法對比全身性療法（推測 Dexketoprofen 為對照，尚未確認） |
+| [NCT03830398](https://clinicaltrials.gov/study/NCT03830398) | Phase 4 | 未知 | 225 | Paracetamol 對比 Dexketoprofen，用於電痙攣治療後頭痛（非偏頭痛） |
+| [NCT05780671](https://clinicaltrials.gov/study/NCT05780671) | N/A | 完成 | 160 | 補充氧氣的效果；標準治療含 Dexketoprofen 50 mg（間接相關） |
 
----
+肌腱炎、纖維肌痛等其他預測適應症目前無相關臨床試驗登記。
 
 ## 文獻證據
 
+以下為偏頭痛相關文獻。證據包中多數摘要被截斷，因此「主要發現」只列出研究比較的內容，不含結果數據。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | 臨床指引 | Headache | 2025 年 AHS 急診偏頭痛腸外給藥指引更新，納入 NSAID 類為急性治療選項 |
-| [31725614](https://pubmed.ncbi.nlm.nih.gov/31725614/) | 2019 | Meta-analysis | Medicine | Dexketoprofen 治療偏頭痛 RCT 系統回顧與 Meta 分析，探討 vs. 安慰劑的鎮痛效果 |
-| [37291500](https://pubmed.ncbi.nlm.nih.gov/37291500/) | 2023 | 系統回顧 | BMC Neurology | 急性偏頭痛藥物網絡 Meta 分析，含 metoclopramide 與 dexketoprofen 等多藥比較 |
-| [25944813](https://pubmed.ncbi.nlm.nih.gov/25944813/) | 2016 | RCT | Cephalalgia | IV dexketoprofen vs. 安慰劑：急診偏頭痛隨機安慰劑對照試驗，驗證有效終止發作 |
-| [32359776](https://pubmed.ncbi.nlm.nih.gov/32359776/) | 2020 | RCT | AJEM | IV metoclopramide vs. dexketoprofen vs. 聯合用藥：急性偏頭痛雙盲 RCT（急診） |
-| [24394884](https://pubmed.ncbi.nlm.nih.gov/24394884/) | 2014 | RCT | EMJ | IV paracetamol vs. IV dexketoprofen：急性偏頭痛急診隨機對照試驗 |
-| [25056381](https://pubmed.ncbi.nlm.nih.gov/25056381/) | 2014 | RCT | Expert Rev Neurother | Frovatriptan 與 dexketoprofen 聯合 vs. 單藥治療急性偏頭痛的療效與耐受性 RCT |
-| [24412801](https://pubmed.ncbi.nlm.nih.gov/24412801/) | 2014 | Phase II RCT | J Pain | Dexketoprofen trometamol 劑量優化研究：25mg vs. 50mg vs. 安慰劑，雙盲交叉設計 |
-| [34085549](https://pubmed.ncbi.nlm.nih.gov/34085549/) | 2021 | RCT | Ann Saudi Med | 真皮中胚層療法 vs. IV dexketoprofen：無先兆偏頭痛急診隨機對照試驗 |
-| [24363238](https://pubmed.ncbi.nlm.nih.gov/24363238/) | 2014 | RCT | Cephalalgia | Frovatriptan + dexketoprofen（25/37.5mg）vs. frovatriptan 單藥：多中心偏頭痛 RCT |
+| [31725614](https://pubmed.ncbi.nlm.nih.gov/31725614/) | 2019 | Meta-analysis | Medicine | 統合分析 Dexketoprofen 對比安慰劑於偏頭痛發作的止痛效果 |
+| [25944813](https://pubmed.ncbi.nlm.nih.gov/25944813/) | 2016 | RCT | Cephalalgia | 靜脈注射 Dexketoprofen 對比安慰劑，用於急診偏頭痛 |
+| [24394884](https://pubmed.ncbi.nlm.nih.gov/24394884/) | 2014 | RCT | Emerg Med J | 靜脈注射 Paracetamol 對比 Dexketoprofen，用於急診急性偏頭痛 |
+| [32359776](https://pubmed.ncbi.nlm.nih.gov/32359776/) | 2020 | RCT | Am J Emerg Med | Metoclopramide、Dexketoprofen 及合併使用的止痛效果與安全性 |
+| [24412801](https://pubmed.ncbi.nlm.nih.gov/24412801/) | 2014 | Phase II RCT | J Pain | 25 mg 與 50 mg Dexketoprofen 對比安慰劑的劑量優化研究（93 位病人） |
+| [24363238](https://pubmed.ncbi.nlm.nih.gov/24363238/) | 2014 | RCT | Cephalalgia | Frovatriptan 加 Dexketoprofen 對比單用 Frovatriptan |
+| [34085549](https://pubmed.ncbi.nlm.nih.gov/34085549/) | 2021 | RCT | Ann Saudi Med | 皮內中胚層療法對比靜脈注射 Dexketoprofen，用於無預兆偏頭痛 |
+| [25056381](https://pubmed.ncbi.nlm.nih.gov/25056381/) | 2014 | RCT | Expert Rev Neurother | Frovatriptan 與 Dexketoprofen 的療效與耐受性 |
+| [37291500](https://pubmed.ncbi.nlm.nih.gov/37291500/) | 2023 | Meta-analysis | BMC Neurol | Metoclopramide 與其他偏頭痛藥物的網絡統合分析 |
+| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | Guideline | Headache | 美國頭痛學會 2025 年急診偏頭痛注射藥物治療指引更新 |
 
----
+其他預測適應症：
+- 肌腱炎僅有 [30744914](https://pubmed.ncbi.nlm.nih.gov/30744914/)（2019，RCT，Am J Emerg Med），比較靜脈注射 Dexketoprofen 與 Paracetamol 治療急診非外傷性肌肉骨骼疼痛，非肌腱炎專屬。
+- 纖維肌痛、類風濕性關節炎等目前無文獻。
+
+## 香港上市資訊
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-65491 | SKUDEXA TABLETS 75MG/25MG（A. MENARINI HONG KONG LIMITED） | — | — |
+
+證據包未提供劑型與核准適應症。品名規格為 75mg/25mg，可能是複方，實際成分與適應症請以仿單確認。
+
+## 其他預測適應症
+
+| 排名 | 適應症 | 預測分數 | 證據等級 | 建議 |
+|-----|--------|---------|---------|------|
+| 1 | 肌腱炎 (Tendinitis) | 99.90% | L4 | Research Question |
+| 2 | 纖維肌痛 (Fibromyalgia) | 99.88% | L5 | Hold |
+| 3 | 纖維性肌炎 (Myositis Fibrosa) | 99.88% | L5 | Hold |
+| 4 | 特發性肉芽腫性肌炎 | 99.88% | L5 | Hold |
+| 5 | 類風濕性關節炎 | 99.88% | L5 | Hold |
+| 7 | 頭痛疾患 (Headache Disorder) | 99.86% | L2 | Research Question |
+| 8 | 腦幹先兆偏頭痛 | 99.86% | L2 | Research Question |
+| 9 | 外生骨疣 (Exostosis) | 99.85% | L5 | Hold |
+| 10 | 先天性少毛症伴粟丘疹 | 99.83% | L5 | Hold |
+
+- **纖維肌痛**：屬中樞敏感化疾病，NSAID 一般效果有限。
+- **類風濕性關節炎**：NSAID 只能緩解症狀，無法改變疾病進程。
+- **頭痛疾患**：直接證據幾乎都來自偏頭痛。唯一的非偏頭痛藥物試驗 NCT03830398 狀態未知，也無結果。
+- **腦幹先兆偏頭痛**：現有 RCT 針對一般偏頭痛族群，沒有此亞型的專屬分析，NSAID 也不處理先兆症狀。
+- **外生骨疣、先天性少毛症伴粟丘疹**：找不到合理機轉，很可能是知識圖譜的假象。
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
----
-
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Proceed with Guardrails（僅限偏頭痛急性治療）**
 
 **理由：**
-Dexketoprofen 用於急性偏頭痛治療已有多項完成的 Phase 4 RCT 及 meta-analysis 直接驗證療效，2025 年 AHS 最新急診指引亦支持靜脈注射 NSAID 作為偏頭痛治療選項，整體證據等級達 L1，臨床轉化條件充分。香港目前未上市為主要障礙，但不影響研究價值評估。
+- 偏頭痛有多個已完成的 Phase 4 RCT、安慰劑對照研究與統合分析，急性發作期的證據最充分。
+- 這些證據只涵蓋急性治療，不含預防，且各地區核准標示不一。
+- 其餘適應症多為純模型預測或間接證據，建議暫緩（Hold）或列為研究問題。
 
 **若要推進需要：**
-- 補充詳細 MOA 資料（建議查詢 DrugBank API，目前缺失為 High severity）
-- 獲取仿單警語與禁忌症（下載原廠仿單 PDF 解析，目前為 Blocking 缺口）
-- 評估香港市場准入可行性（目前未上市，需評估藥品引進或申請上市途徑）
-- 明確靜脈注射 vs. 口服劑型在目標適應症的合規性及給藥策略
-- 制定腎功能不全、消化道潰瘍病史等高風險族群的安全性監測計畫
+- 取得香港衛生署（Department of Health）仿單，確認警語、禁忌與核准適應症。這是目前的阻斷性資料缺口，未補齊前無法進入安全性篩選。
+- 確認 SKUDEXA 的實際成分（是否為複方）與劑型，並釐清與研究所用劑型（靜脈注射與口服）的差異。
+- 補充 DrugBank 作用機轉資料。
+- 建立 NSAID 風險控管：胃腸道、腎臟與心血管風險，避免用於 NSAID 過敏或高出血風險病人。
+- 肌腱炎需要專屬臨床試驗才能評估。
+
+本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

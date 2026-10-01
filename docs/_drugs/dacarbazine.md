@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dacarbazine
-parent: 中證據等級 (L3-L4)
-nav_order: 204
-evidence_level: L4
+parent: 僅模型預測 (L5)
+nav_order: 237
+evidence_level: L5
 indication_count: 1
 ---
 
 # Dacarbazine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,98 +29,90 @@ indication_count: 1
 
 </div>
 
-# DACARBAZINE：從黑色素瘤到上呼吸消化道腫瘤
+# Dacarbazine：從烷化劑類抗腫瘤藥到上呼吸消化道腫瘤
 
 ## 一句話總結
 
-DACARBAZINE 是一種烷化劑，國際上核准用於黑色素瘤及霍奇金淋巴瘤的治療，但目前在台灣尚未取得上市許可。
-TxGNN 模型預測它可能對**上呼吸消化道腫瘤 (Upper Aerodigestive Tract Neoplasm)** 有效，
-目前有 **1 個臨床試驗**（採用共享活性代謝物之 Temozolomide）和 **20 篇文獻**提供相關資訊。
-
----
+Dacarbazine（DTIC）是一種甲基化烷化劑類抗腫瘤藥，在香港已有 3 張上市許可證。
+TxGNN 模型預測它可能對**上呼吸消化道腫瘤 (Upper Aerodigestive Tract Neoplasm)** 有效。
+目前僅有 **1 個間接的臨床試驗**（研究藥物為 temozolomide，並非 dacarbazine）。文獻中沒有直接證明 dacarbazine 對此適應症有效的研究，證據以模型預測為主。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 黑色素瘤、霍奇金淋巴瘤（國際核准；台灣未取得許可證） |
 | 預測新適應症 | 上呼吸消化道腫瘤 (Upper Aerodigestive Tract Neoplasm) |
 | TxGNN 預測分數 | 99.26% |
-| 證據等級 | L4 |
-| 台灣上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L4（僅有同類藥物的間接研究與機轉推論） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 3 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（MOA Data Gap）。根據已知資訊，DACARBAZINE 是一種咪唑四氮雜類烷化劑，須經肝臟代謝後產生活性代謝物 MTIC（甲基三氮烯咪唑醯胺）。MTIC 透過甲基化 DNA O⁶ 位鳥嘌呤，誘導錯配修復（MMR）途徑失效，最終導致 DNA 雙鏈斷裂與細胞凋亡。值得注意的是，Temozolomide（另一種可直接產生 MTIC 的口服烷化劑）與 DACARBAZINE 共享此活性代謝物，兩者在機轉上具有高度相關性。
+目前缺乏詳細的作用機轉資料。根據已知資訊，dacarbazine 是甲基化烷化劑，其活性代謝物 MTIC 與 temozolomide 釋出的活性物質相同。因此在 MGMT 修復能力低的腫瘤中，兩者機轉上可能有類似的抗腫瘤活性。
 
-上呼吸消化道腫瘤（UADT）涵蓋口腔、咽喉、喉部、鼻腔、鼻竇及食道等部位的惡性腫瘤。這類腫瘤細胞增殖旺盛，部分具有 MGMT 啟動子甲基化特徵，理論上對烷化劑誘發的 DNA 損傷應具敏感性，此為 TxGNN 預測的機轉基礎。
+這是同類藥物層級的推論。本次收集到唯一的臨床訊號來自 temozolomide，並非 dacarbazine。我們沒有找到 dacarbazine 在上呼吸消化道腫瘤的專屬試驗或研究。
 
-然而，現有證據提供了重要的警示訊號：唯一相關的臨床試驗（NCT00423150，使用共享 MTIC 之 Temozolomide）在 86 人入組後即遭提前終止，顯示此烷化機轉在 UADT 的臨床轉化並不順利。可能原因包括：UADT 腫瘤中 MGMT 非甲基化比例過高、腫瘤微環境抵抗，或單藥療效本身不足。因此，雖然機轉假設具有一定合理性，直接的臨床可行性仍存在重大疑問。
-
----
+TxGNN 分數 (99.26%) 是知識圖譜的預測結果，不是臨床證據。此外，輸入資料中缺少原適應症與作用機轉，以上機轉說明是根據一般藥理知識推論的。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00423150](https://clinicaltrials.gov/study/NCT00423150) | Phase 2 | 已終止 ⚠️ | 86 | Temozolomide（與 Dacarbazine 共享活性代謝物 MTIC）用於 MGMT 甲基化之晚期上呼吸消化道癌（含頭頸癌、食道癌）及大腸直腸癌——86 人入組後提前終止，整體反應率偏低，療效訊號不明確 |
-
-> **注意**：上表試驗藥物為 Temozolomide，非 DACARBAZINE 本身。兩者共享活性代謝物 MTIC，可提供間接參考，但不能直接等同；終止狀態為重大負面訊號。
-
----
+| [NCT00423150](https://clinicaltrials.gov/study/NCT00423150) | Phase 2 | 提前終止 | 86 | 以 MGMT 啟動子甲基化篩選病人，評估 temozolomide 用於晚期上呼吸消化道癌（含大腸直腸癌、非小細胞肺癌、頭頸癌、食道癌）的療效與安全性。藥物為 temozolomide 而非 dacarbazine，屬間接證據，且提前終止限制了結果的可解讀性 |
 
 ## 文獻證據
 
+以下文獻多數與 dacarbazine 用於此適應症無直接關係，僅供背景參考。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [41481311](https://pubmed.ncbi.nlm.nih.gov/41481311/) | 2026 | Phase 3 RCT | JAMA Oncology | Toripalimab vs DACARBAZINE 作為晚期肢端型黑色素瘤一線治療——確認 Dacarbazine 現為黑色素瘤標準對照藥物，PD-1 抑制劑顯著優於 Dacarbazine |
-| [23443801](https://pubmed.ncbi.nlm.nih.gov/23443801/) | 2013 | Phase 2（已發表結果） | Molecular Cancer Therapeutics | NCT00423150 結果：MGMT 甲基化可篩選 UADT/大腸直腸癌患者，但 Temozolomide 單藥反應率仍偏低，間接說明共享 MTIC 機轉在此適應症的侷限性 |
-| [7826911](https://pubmed.ncbi.nlm.nih.gov/7826911/) | 1994 | 臨床研究 | Annals of Oncology | DACARBAZINE + 5-FU 組合用於晚期甲狀腺髓質癌（MTC），為 Dacarbazine 直接用於 UADT 鄰近神經內分泌腫瘤的稀少臨床紀錄 |
-| [8346929](https://pubmed.ncbi.nlm.nih.gov/8346929/) | 1993 | 病例系列 | Gan to Kagaku Ryoho | CYVADIC 方案（含 DTIC/Dacarbazine）用於頭頸部老年型血管肉瘤，提供 Dacarbazine 用於頭頸部罕見惡性腫瘤的早期臨床依據 |
-| [34654328](https://pubmed.ncbi.nlm.nih.gov/34654328/) | 2024 | 回顧性研究 | Ear, Nose & Throat Journal | 頭頸部惡性副神經節瘤 6 例分析，探討罕見 UADT 惡性腫瘤的基因突變與治療策略 |
-| [20627492](https://pubmed.ncbi.nlm.nih.gov/20627492/) | 2010 | Review | Clinical Oncology | 甲狀腺髓質癌全面回顧，介紹化療（含 Dacarbazine 組合）在難治性 MTC 中的角色與侷限 |
-| [20564093](https://pubmed.ncbi.nlm.nih.gov/20564093/) | 2010 | 回顧性研究 | Cancer | 頭頸部節外及節內霍奇金淋巴瘤特徵與預後——ABVD 方案（含 Dacarbazine）在頭頸部 HL 的療效分析 |
-| [11163509](https://pubmed.ncbi.nlm.nih.gov/11163509/) | 2001 | 病例系列 | Int J Radiat Oncol Biol Phys | 嗅神經母細胞瘤（鼻腔罕見惡性腫瘤）放療分析，屬 UADT 腫瘤範疇，提供局部控制的背景資訊 |
-| [25772801](https://pubmed.ncbi.nlm.nih.gov/25772801/) | 2015 | Review | J Clinical Neuroscience | Temozolomide（共享 MTIC）用於侵襲性腦垂體腫瘤，支持烷化劑於神經內分泌腫瘤的潛在療效 |
-| [34705104](https://pubmed.ncbi.nlm.nih.gov/34705104/) | 2022 | 流行病學回顧 | J Cancer Res Clin Oncol | EB 病毒相關癌症全球負擔估算，部分涉及 UADT（鼻咽癌等），提供流行病學背景 |
+| [41481311](https://pubmed.ncbi.nlm.nih.gov/41481311/) | 2026 | RCT (Phase 3) | JAMA Oncology | 在肢端型晚期黑色素瘤中，比較 toripalimab 與 dacarbazine 作為第一線治療（dacarbazine 為對照組，適應症不同） |
+| [23443801](https://pubmed.ncbi.nlm.nih.gov/23443801/) | 2013 | Phase 2 試驗 | Molecular Cancer Therapeutics | 即 NCT00423150 的發表文獻，探討 MGMT 啟動子甲基化能否預測晚期上呼吸消化道癌與大腸直腸癌病人對 temozolomide 的反應 |
+| [7826911](https://pubmed.ncbi.nlm.nih.gov/7826911/) | 1994 | 臨床研究 | Annals of Oncology | 以 dacarbazine 合併 5-FU 治療晚期甲狀腺髓質癌（適應症不同） |
+| [8346929](https://pubmed.ncbi.nlm.nih.gov/8346929/) | 1993 | Review | Gan to Kagaku Ryoho | 血管肉瘤的化療回顧，提到 CYVADIC 方案（含 DTIC）用於頭頸部血管肉瘤 |
+| [20627492](https://pubmed.ncbi.nlm.nih.gov/20627492/) | 2010 | Review | Clinical Oncology | 甲狀腺髓質癌的綜述（適應症不同） |
+| [25772801](https://pubmed.ncbi.nlm.nih.gov/25772801/) | 2015 | Review | J Clin Neurosci | temozolomide 用於侵襲性腦下垂體腫瘤（適應症不同） |
+| [12113649](https://pubmed.ncbi.nlm.nih.gov/12113649/) | 2002 | Review | Am J Clin Dermatol | 黑色素瘤的處置概念綜述 |
+| [11163509](https://pubmed.ncbi.nlm.nih.gov/11163509/) | 2001 | Review | Int J Radiat Oncol Biol Phys | 嗅神經母細胞瘤的放射治療（非藥物研究） |
+| [34654328](https://pubmed.ncbi.nlm.nih.gov/34654328/) | 2024 | 回溯性病例系列 | Ear Nose Throat J | 6 例頭頸部惡性副神經節瘤的臨床病理與治療選擇 |
+| [20564093](https://pubmed.ncbi.nlm.nih.gov/20564093/) | 2010 | 回溯性研究 | Cancer | 頭頸部霍奇金淋巴瘤的特徵與預後（適應症不同） |
 
----
+## 香港上市資訊
+
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-44067 | DACARBAZINE FOR INJ 200MG | PFIZER CORPORATION HONG KONG LIMITED |
+| HK-52120 | D.T.I FOR INJ 100MG | HEALTHCARE PHARMASCIENCE LIMITED |
+| HK-52119 | D.T.I FOR INJ 200MG | HEALTHCARE PHARMASCIENCE LIMITED |
 
 ## 細胞毒性
 
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 傳統細胞毒性藥物（烷化劑 / Imidazotetrazine 類） |
-| 骨髓抑制風險 | 中至高度（白血球減少及血小板減少為劑量限制性毒性，通常於給藥後 2–4 週達谷值） |
-| 致吐性分級 | 中至高度（靜脈給藥；建議預防性止吐） |
-| 監測項目 | 全血球計數含分類（每療程前及療程中監測）、肝腎功能、基線電解質 |
-| 處置防護 | 需依細胞毒性藥物處置規範操作；靜脈注射應避免外滲（具組織刺激性）；調配需在生物安全櫃中進行 |
+| 細胞毒性分類 | 傳統細胞毒性藥物（甲基化烷化劑） |
+| 處置防護 | 需依細胞毒性藥物處置規範操作 |
 
----
+骨髓抑制風險、致吐性分級與監測項目，請參考原廠仿單的警語與注意事項。
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
----
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-雖然 DACARBAZINE 的 MTIC 烷化機轉對 UADT 腫瘤理論上具有合理性，但唯一相關的代謝物共享臨床試驗（Temozolomide，NCT00423150）已因療效不足提前終止，且 DACARBAZINE 在台灣無上市許可、安全性資訊缺口嚴重，現有直接臨床證據不足以支持進一步推進。
+- 目前只有 TxGNN 預測分數和 temozolomide 的間接試驗（Phase 2、提前終止），沒有 dacarbazine 用於上呼吸消化道腫瘤的直接證據。
+- 香港仿單的警語、禁忌與作用機轉資料也尚未取得，無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得 DACARBAZINE 完整仿單，補足作用機轉（MOA）與安全性警語資料
-- 詳細分析 NCT00423150 終止原因（療效不足 vs. 安全性問題），評估是否具有族群篩選空間
-- 評估 UADT 腫瘤 MGMT 甲基化狀態的篩選策略，確認潛在受益族群比例
-- 考量聯合用藥方案（如 Dacarbazine + 免疫治療），而非單藥模式
-- 台灣特殊用藥申請或同情用藥途徑的法規可行性評估
+- 從香港衛生署下載並解析仿單，補齊警語、禁忌症與核准適應症。
+- 從 DrugBank 補齊 dacarbazine 的作用機轉（MOA）。
+- 搜尋 dacarbazine 本身用於頭頸部、食道等上呼吸消化道腫瘤的臨床研究。
+- 評估 MGMT 啟動子甲基化作為病人選擇生物標記的可行性，並釐清 temozolomide 的證據能否合理外推到 dacarbazine。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

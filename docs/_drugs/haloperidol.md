@@ -2,7 +2,7 @@
 layout: default
 title: Haloperidol
 parent: 僅模型預測 (L5)
-nav_order: 366
+nav_order: 425
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,89 +29,79 @@ indication_count: 5
 
 </div>
 
-以下是根據 Evidence Pack 生成的藥物再利用評估報告：
-
----
-
-# Haloperidol：從精神科用藥到先天性岩藻糖基化障礙
+# Haloperidol：從抗精神病用藥到先天性糖基化異常（岩藻糖基化缺陷型）
 
 ## 一句話總結
 
-Haloperidol 是第一代典型抗精神病藥物，以 D2 多巴胺受體拮抗為核心藥理機轉，同時兼具 D1、5-HT2A、α-adrenergic 及 H1 受體拮抗活性。
-TxGNN 模型預測它可能對**先天性岩藻糖基化障礙（Congenital Disorder of Glycosylation with Defective Fucosylation）**有效，
-但目前**無任何臨床試驗或文獻**支持此方向，且機轉分析顯示缺乏直接藥理連結。
-
----
+Haloperidol 在香港已有 18 張上市許可證，一般認知是抗精神病藥，但本次資料未載明其核准適應症。
+TxGNN 模型預測它可能對**岩藻糖基化缺陷型先天性糖基化異常 (Congenital disorder of glycosylation with defective fucosylation)** 有效，
+目前**沒有任何臨床試驗或文獻**支持，僅有模型預測分數。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未收錄（香港許可證資料庫無對應記錄） |
-| 預測新適應症 | 先天性岩藻糖基化障礙 (Congenital Disorder of Glycosylation with Defective Fucosylation) |
+| 預測新適應症 | 岩藻糖基化缺陷型先天性糖基化異常 (Congenital disorder of glycosylation with defective fucosylation) |
 | TxGNN 預測分數 | 99.91% |
-| 證據等級 | L5 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L5（僅有模型預測） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 18 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-**此預測的機轉連結目前缺乏直接支持，需謹慎解讀。**
+目前缺乏詳細的作用機轉資料。Haloperidol 一般被認為是多巴胺 D2 受體拮抗劑，但本次資料並未提供 MOA，也沒有找到它與岩藻糖基化（fucosylation）路徑的關聯。
 
-Haloperidol 的主要藥理作用為阻斷 D2 多巴胺受體，並兼具 D1、5-HT2A、α-adrenergic 及 H1 受體拮抗活性，屬第一代典型抗精神病藥物（First-generation antipsychotic）。其在精神科的臨床應用以正性症狀控制（幻覺、妄想）為主。然而本 Evidence Pack 中作用機轉資料（MOA）標註為資料缺口，建議從 DrugBank 補充完整機轉描述。
+**現有資料不支持任何機轉連結。** 這個預測的唯一依據是 TxGNN 知識圖譜分數 0.9991（模型排名第 2416），沒有試驗或文獻佐證。這是模型輸出，不是臨床證據。原適應症與新適應症的相似性分析也尚未完成。
 
-先天性岩藻糖基化障礙（CDG type IIc）由 *SLC35C1* 基因突變所致，造成 GDP-岩藻糖無法正常轉運至高基氏體，導致細胞表面醣蛋白岩藻糖基化異常，臨床表現包括智能障礙、復發性感染及白血球黏附缺陷。
+TxGNN 對此藥的其他預測也是同樣情況，全部為 L5、無試驗、無文獻：
 
-目前**無任何已知機轉**能將 D2 受體拮抗連結至岩藻糖轉運路徑或 GDP-fucose 代謝。Evidence Pack 中的機轉分析明確指出：TxGNN 高分推測來源於知識圖譜中遠端共病或間接蛋白交互作用的統計關聯，而非直接藥理連結，亦無任何生物標誌假說或細胞模型支持。
-
----
+| 排名 | 預測適應症 | 預測分數 | 備註 |
+|------|-----------|---------|------|
+| 2 | 視網膜失養症，伴或不伴眼外異常 (Retinal dystrophy with or without extraocular anomalies) | 99.91% | 可能經由 sigma-1 受體，但只是推測，尚未評估 |
+| 3 | 無腦畸形 (Hydranencephaly) | 99.90% | 屬結構性先天腦畸形，缺乏藥理依據 |
+| 4 | X 連鎖近視 (Myopia X-linked) | 99.89% | 無佐證 |
+| 5 | 夏科-馬利-杜斯氏症，脫髓鞘型 1G (Charcot-Marie-Tooth disease, demyelinating, type 1G) | 99.89% | Haloperidol 已知有錐體外症狀等神經系統副作用，用於神經病變需謹慎（一般藥理提醒，非來自本次資料） |
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
 目前無相關文獻。
 
----
+## 香港上市資訊
+
+香港共有 18 張許可證，以下列出 5 張主要許可證。資料未提供劑型與核准適應症文字。
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-64839 | HALOPERIDOL-NEURAXPHARM TABLETS 1MG | HIND WING CO LTD |
+| HK-54962 | HALOPERIDOL INJ 5MG/ML | AMDIPHARM MERCURY (HONG KONG) LIMITED |
+| HK-65060 | HALOPERIDOL-NEURAXPHARM DECANOATE SOLUTION FOR INJECTION 100MG/ML | HIND WING CO LTD |
+| HK-65430 | HALOPERIDOL-NEURAXPHARM TABLETS 5MG | HIND WING CO LTD |
+| HK-62669 | HALOPERIDOL KERN PHARMA ORAL DROPS 2MG/ML | HIND WING CO LTD |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
-> **附加注意**：本次評估的 5 個 TxGNN 預測適應症中，有部分存在潛在致害風險：
-> - **視網膜退化症**（Rank 2）：Haloperidol 長期使用已知可能引發視網膜色素上皮病變，多巴胺訊號減少可能加重光適應缺陷，機轉方向與治療目標相反。
-> - **X 連鎖近視**（Rank 4）：多巴胺（透過 D1 受體）能抑制眼軸延長，而 D2 拮抗劑理論上可能促進眼軸延長，加重近視。
-> - **夏科馬里牙病 CMT1G**（Rank 5）：部分抗精神病藥物具周邊神經毒性，可能加重 CMT 患者症狀。
-
----
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-五個 TxGNN 預測適應症均為 L5（僅模型預測，無任何臨床試驗或文獻支持），且機轉分析逐一顯示無合理藥理連結；部分預測（視網膜退化症、X 連鎖近視、CMT1G）甚至存在潛在加重病情的理論風險，不建議在未建立合理機轉假說前推進。
-
-| 預測排名 | 適應症 | 機轉評估 | 建議 |
-|---------|--------|---------|------|
-| 1 | 先天性岩藻糖基化障礙 | 無連結 | Hold |
-| 2 | 視網膜退化症 | 可能有害 | Hold |
-| 3 | 水腦症 | 結構性缺損，不適合藥物干預 | Hold |
-| 4 | X 連鎖近視 | 機轉方向相反 | Hold |
-| 5 | CMT1G 脫髓鞘神經病 | 無連結，潛在神經毒性 | Hold |
+- 證據等級為 L5，只有 TxGNN 分數，沒有試驗、文獻，也沒有可成立的機轉連結。
+- 香港仿單的警語與禁忌資料缺漏（屬阻斷性缺口），無法進入安全性篩選。
 
 **若要推進需要：**
-- 補充香港藥監局核准適應症、警語及禁忌資料（Data Gap DG001）
-- 從 DrugBank API 補充完整作用機轉說明（Data Gap DG002）
-- 委託罕見疾病代謝專家評估 GDP-fucose 路徑與多巴胺系統的可能交互假說
-- 若有意探索視網膜或近視方向，需先行排除 Haloperidol 本身的眼毒性風險，並改以多巴胺促進劑為研究方向
+- 取得香港衛生署仿單，補齊警語、禁忌與核准適應症（阻斷性缺口）。
+- 從 DrugBank 補充作用機轉（MOA）資料。
+- 檢索 Haloperidol 與岩藻糖基化異常、或與其他預測疾病的機轉研究和文獻，確認是否有生物學依據。
+- 若前述查證找到支持證據，再評估給藥途徑相容性與相似性分析。
+
+*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

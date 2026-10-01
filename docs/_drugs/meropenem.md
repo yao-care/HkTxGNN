@@ -2,15 +2,15 @@
 layout: default
 title: Meropenem
 parent: 中證據等級 (L3-L4)
-nav_order: 484
-evidence_level: L3
+nav_order: 557
+evidence_level: L4
 indication_count: 5
 ---
 
 # Meropenem
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **5** 個
+證據等級: **L4** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ indication_count: 5
 
 </div>
 
-# Meropenem：從細菌感染治療到細菌性關節炎 (Bacterial Arthritis)
+# Meropenem：從細菌感染到細菌性關節炎
 
 ## 一句話總結
 
-Meropenem 是廣效型 Carbapenem 類抗生素，原用於治療嚴重全身性細菌感染。
+Meropenem 是廣譜碳青黴烯類（carbapenem）抗生素，在香港已有 16 張許可證。
 TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有效，
-目前有 **1 個臨床試驗**（藥物相關性較低）和 **20 篇文獻**支持這個方向，其中多篇聚焦骨關節感染致病菌之藥物敏感性。
+但目前僅有 1 個間接相關的臨床試驗（與 meropenem 無直接關聯）和數篇文獻，證據等級為 **L4（機轉／前臨床層級）**。
 
 ---
 
@@ -43,23 +43,23 @@ TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 細菌感染症（廣效型 Carbapenem 類抗生素；香港未上市，無核准適應症文字可查） |
+| 原適應症 | 資料中未提供（許可證的核准適應症欄位皆為空白） |
 | 預測新適應症 | 細菌性關節炎 (Bacterial Arthritis) |
 | TxGNN 預測分數 | 99.92% |
-| 證據等級 | L3 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails |
+| 證據等級 | L4 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 16 張 |
+| 建議決策 | Hold（列為研究問題） |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏 DrugBank 詳細作用機轉資料（Data Gap）。但根據既有藥理學共識與本次證據收集所得之機轉論述，Meropenem 屬 Carbapenem 類 β-內醯胺抗生素，透過抑制細菌青黴素結合蛋白 (Penicillin-Binding Protein, PBP)，阻斷細胞壁合成而產生殺菌作用，對多數格蘭氏陽性菌、格蘭氏陰性菌及厭氧菌均具廣效殺菌活性。
+目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位為空）。根據藥物類別，Meropenem 是廣譜碳青黴烯類抗生素，透過結合青黴素結合蛋白（PBP）抑制細菌細胞壁合成，對多種格蘭氏陰性與陽性菌具殺菌作用。
 
-Meropenem 原本用於治療嚴重全身性細菌感染（如院內肺炎、複雜性腹腔內感染、腦膜炎、菌血症等），與細菌性關節炎同屬需要高組織穿透力、快速殺菌之嚴重感染範疇，兩者在治療邏輯上具高度相似性。
+細菌性關節炎（化膿性關節炎）由細菌感染關節腔所致，因此廣譜抗生素在機轉上有合理性。不過，實際療效取決於**致病菌種**與**藥物在骨關節組織的穿透濃度**。
 
-證據包中的機轉關聯性分析指出：「Meropenem 為廣效 PBP 抑制劑，對造成化膿性/感染性關節炎之常見致病菌（Staphylococcus spp.、Streptococcus spp.、部分格蘭氏陰性菌）具殺菌活性，且已知可穿透關節滑液及骨關節組織，臨床上已作為嚴重或多重抗藥性骨關節感染的經驗性/搶救性治療選項」。換言之，這並非全新機轉假說，而是既有臨床實務（骨關節感染經驗性用藥）的知識圖譜再確認，機轉關聯性強。
+需要注意，0.9992 的高分主要反映抗菌藥物的「類別效應」，並不代表此適應症已被專門驗證。
 
 ---
 
@@ -67,64 +67,74 @@ Meropenem 原本用於治療嚴重全身性細菌感染（如院內肺炎、複�
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT01371656](https://clinicaltrials.gov/study/NCT01371656) | Phase 3 | 已完成 | 624 | 研究急性白血病/幹細胞移植兒童病人使用 levofloxacin 預防菌血症之效果；研究藥物為 **levofloxacin 而非 meropenem**，且終點為感染預防而非細菌性關節炎治療，相關性等級 C，僅供高風險感染族群背景參考 |
-
-**說明：** 目前無直接針對 meropenem 治療細菌性關節炎之臨床試驗登記，此為證據等級未達 L1/L2 的主因。
+| [NCT01371656](https://clinicaltrials.gov/study/NCT01371656) | Phase 3 | 完成 | 624 | 以 levofloxacin 預防急性白血病或接受造血幹細胞移植兒童的菌血症；未測試 meropenem，也非針對細菌性關節炎，僅屬間接參考 |
 
 ---
 
 ## 文獻證據
 
+以下為與細菌性關節炎／骨關節感染較相關者（無 RCT）：
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [39489417](https://pubmed.ncbi.nlm.nih.gov/39489417/) | 2024 | 回溯性世代研究 | Indian Journal of Medical Microbiology | 22 例骨骼肌肉受侵犯之類鼻疽感染回顧，敗血性關節炎與骨髓炎病例分離株對 meropenem 均具敏感性 |
-| [35146367](https://pubmed.ncbi.nlm.nih.gov/35146367/) | 2021 | 回溯性世代研究 | Le infezioni in medicina | 骨關節類鼻疽感染回溯性世代研究，描述此類罕見骨關節侵犯病人之臨床特徵 |
-| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | 世代研究 | Clinical Laboratory | 分析 4 歲以下兒童骨關節感染 (BJI) 之病原菌分布與抗藥性 |
-| [37713001](https://pubmed.ncbi.nlm.nih.gov/37713001/) | 2024 | 回溯性研究 | Eur J Orthop Surg Traumatol | 建立非脊椎骨科感染經驗性抗生素選擇之抗生素圖譜 (antibiogram) |
-| [38139869](https://pubmed.ncbi.nlm.nih.gov/38139869/) | 2023 | Case Report | Pharmaceuticals (Basel) | 免疫功能正常成人罕見髖關節化膿性關節炎案例（Bacillus/Paenibacillus 感染） |
-| [33857030](https://pubmed.ncbi.nlm.nih.gov/33857030/) | 2021 | 體外研究 | J Bone Joint Surg Am | 評估 meropenem 等替代抗生素於 PMMA 骨水泥中之熱穩定性與釋放藥動學，支持局部骨關節感染治療應用潛力 |
-| [31319190](https://pubmed.ncbi.nlm.nih.gov/31319190/) | 2019 | 動物模型研究 | Int J Antimicrob Agents | 兔隻模型中以 colistin 骨水泥治療碳青黴烯酶陽性克雷伯氏菌人工關節感染，反映抗藥性骨關節感染治療之臨床挑戰 |
-| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Review | Int J Antimicrob Agents | 探討多重抗藥性/廣泛抗藥性細菌感染之抗生素標籤外使用與正式治療建議，涵蓋 carbapenem 類藥物角色 |
-| [2808217](https://pubmed.ncbi.nlm.nih.gov/2808217/) | 1989 | 體外藥理研究 | J Antimicrob Chemother | Meropenem 對臨床分離株（含 Pseudomonas）之體外抑菌/殺菌活性經典研究，確立廣效殺菌基礎 |
-| [38134096](https://pubmed.ncbi.nlm.nih.gov/38134096/) | 2023 | Case Report | Medicine | 痛風性關節炎病人併發 Campylobacter fetus 引發腰肌膿瘍之案例報告 |
+| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Review | Int J Antimicrob Agents | 探討多重抗藥菌感染時傳統與新型抗生素的仿單外使用與正式建議 |
+| [36678359](https://pubmed.ncbi.nlm.nih.gov/36678359/) | 2022 | Review | Pathogens | 類鼻疽（melioidosis）的抗生素與噬菌體治療選項 |
+| [35146367](https://pubmed.ncbi.nlm.nih.gov/35146367/) | 2021 | 回顧性世代研究 | Le Infezioni in Medicina | 骨關節類鼻疽的臨床特徵 |
+| [39489417](https://pubmed.ncbi.nlm.nih.gov/39489417/) | 2024 | 回顧性研究 | Indian J Med Microbiol | 22 例肌肉骨骼類鼻疽，所有菌株對 meropenem 皆敏感 |
+| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | 回顧性分析 | Clin Lab | 幼童骨關節感染的病原菌分布與抗藥性 |
+| [37713001](https://pubmed.ncbi.nlm.nih.gov/37713001/) | 2024 | 抗生素敏感性分析 | Eur J Orthop Surg Traumatol | 為成人非脊椎骨科感染（含化膿性關節炎）建立經驗性用藥的 antibiogram |
+| [33857030](https://pubmed.ncbi.nlm.nih.gov/33857030/) | 2021 | 體外研究 | J Bone Joint Surg Am | 評估 meropenem 等抗生素在 PMMA 骨水泥中的熱穩定性與釋放動力學 |
+| [38139869](https://pubmed.ncbi.nlm.nih.gov/38139869/) | 2023 | Case report | Pharmaceuticals | 髖關節化膿性關節炎，以 linezolid 長期治療（非 meropenem） |
+| [31319190](https://pubmed.ncbi.nlm.nih.gov/31319190/) | 2019 | 動物研究 | Int J Antimicrob Agents | 兔子模型中含 colistin 骨水泥墊片治療產碳青黴烯酶克雷伯氏菌人工關節感染 |
+
+---
+
+## 香港上市資訊
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-65140 | MEROPENEM KABI POWDER FOR SOLUTION FOR INJECTION OR INFUSION 1G（Fresenius Kabi） | 注射劑 | 資料未提供 |
+| HK-64809 | MEROPENEM POWDER FOR SOLUTION FOR INJECTION OR INFUSION 0.5G（Jindun Pharma） | 注射劑 | 資料未提供 |
+| HK-40372 | MERONEM FOR INJ（Zuellig Pharma） | 注射劑 | 資料未提供 |
+| HK-64908 | MEROPENEM POWDER FOR SOLUTION FOR INJECTION OR INFUSION 1G（Jindun Pharma） | 注射劑 | 資料未提供 |
+| HK-64617 | MEROPENEM POWDER FOR SOLUTION FOR INJECTION OR INFUSION 500MG（I & C (Hong Kong)） | 注射劑 | 資料未提供 |
+
+---
+
+## 其他預測適應症（供參考）
+
+| 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
+|------|-----------|-----------|---------|------|
+| 2 | 會厭炎 (Epiglottitis) | 99.91% | L5 | Hold |
+| 3 | 金黃色葡萄球菌感染 (S. aureus infection) | 99.85% | L3 | Research Question |
+| 4 | 喉炎 (Laryngitis) | 99.59% | L4 | Hold |
+| 5 | 副傷寒 (Paratyphoid fever) | 99.57% | L4 | Research Question |
+
+副傷寒的合理性來自抗藥性：碳青黴烯類對廣泛抗藥（XDR）傷寒／副傷寒沙門氏菌仍有活性，可作為一線藥物失效時的備選。金黃色葡萄球菌感染僅限於對甲氧西林敏感的菌株（MSSA），MRSA 因 PBP2a 而不可靠。
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
-
-> 補充說明：本次評估中「TFDA/當地仿單警語與禁忌症」被標記為 **Blocking 等級資料缺口 (DG001)**，在補齊前無法進入 S1 安全性初評階段，藥物交互作用查詢也未取得結果（query_status: not_found）。
-
----
-
-## 其他預測適應症（供未來評估參考）
-
-除細菌性關節炎外，本次評估同時針對 Meropenem 產出以下候選適應症，證據強度差異較大，列於此供後續排序參考：
-
-| 排名 | 疾病 | TxGNN 分數 | 證據等級 | 建議決策 | 備註 |
-|------|------|-----------|---------|---------|------|
-| 2 | 會厭炎 (Epiglottitis) | 99.91% | L5 | Hold | 無任何臨床試驗或文獻直接佐證，僅為知識圖譜相似性預測 |
-| 3 | 金黃色葡萄球菌感染 (Staphylococcus aureus infection) | 99.85% | L3 | Proceed with Guardrails | 對 MSSA 有明確活性，但對 MRSA 普遍無效，須以藥敏結果為前提 |
-| 4 | 喉炎 (Laryngitis) | 99.59% | L4 | Hold | 現有文獻多屬深頸部感染/縱膈炎相關病例，非直接針對喉炎療效 |
-| 5 | 副傷寒 (Paratyphoid fever) | 99.57% | L3 | Proceed with Guardrails | 屬 XDR 傷寒/副傷寒沙門氏菌之搶救性治療選項，缺乏前瞻性對照試驗 |
+安全性資訊請參考原廠仿單。藥物交互作用查詢無結果。
 
 ---
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**（針對細菌性關節炎 Bacterial Arthritis）
+**決策：Hold（列為研究問題）**
 
 **理由：**
-- 多篇回溯性世代研究與病例報告顯示，meropenem 對造成骨關節感染之常見致病菌（含類鼻疽菌、多重抗藥性格蘭氏陰性菌）具殺菌活性且能穿透骨關節組織，臨床實務上已作為嚴重/抗藥性骨關節感染之經驗性或搶救性用藥，機轉關聯性強，非首次假說。
-- 但唯一收錄之臨床試驗（NCT01371656）研究藥物為 levofloxacin 而非 meropenem，相關性偏低，目前無直接證實 meropenem 治療細菌性關節炎療效之對照試驗，故證據等級僅達 L3，不宜視為一線適應症擴充。
+- 唯一的臨床試驗並未測試 meropenem，文獻多為個案報告、回顧性研究與體外／動物研究，缺乏直接支持細菌性關節炎的對照試驗。高預測分數反映的是抗菌藥物的類別效應。
+- 安全性資料（仿單警語、禁忌症）尚缺，目前無法進入安全性篩選。
 
 **若要推進需要：**
-- 補齊 DG001（TFDA/當地仿單警語與禁忌症，Blocking）— 這是進入 S1 安全性初評的必要前提，目前完全缺乏資料
-- 補齊 DG002（DrugBank 完整作用機轉資料）— 強化機轉關聯性論證的正式文件基礎
-- 因香港目前未上市（0 張許可證），需評估上市申請或供應管道，才能進一步推進臨床應用
-- 針對細菌性關節炎（尤其明確致病菌別、抗藥性型態）設計前瞻性療效研究或高品質回溯性對照研究，以提升證據等級至 L2 以上
-- 建立目標病原菌藥敏監測機制（特別排除 MRSA 等 meropenem 無效菌株情境），避免不當經驗性使用
+- 取得香港衛生署的仿單，補齊警語、禁忌症與核准適應症
+- 補齊作用機轉（MOA）資料
+- 針對 meropenem 治療化膿性關節炎的臨床與藥動學證據（關節液／骨組織穿透濃度、依致病菌種與敏感性分層的療效）
+- 評估給藥途徑與療程（靜脈注射，需與骨關節感染的標準療程比對）
+
+*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

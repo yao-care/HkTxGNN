@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Midazolam
-parent: 高證據等級 (L1-L2)
-nav_order: 496
-evidence_level: L2
+parent: 中證據等級 (L3-L4)
+nav_order: 575
+evidence_level: L3
 indication_count: 1
 ---
 
 # Midazolam
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **1** 個
+證據等級: **L3** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,100 +29,97 @@ indication_count: 1
 
 </div>
 
-# Midazolam：從鎮靜/麻醉給藥到失眠 (Insomnia)
+# Midazolam：從注射鎮靜劑到失眠
 
 ## 一句話總結
 
-> Midazolam 是苯二氮平類（benzodiazepine）鎮靜劑，臨床上主要用於手術/程序性鎮靜與麻醉誘導（原始適應症資料未完整提供）。
-> TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，
-> 目前有 **32 個臨床試驗**和 **11 篇文獻**可供參考，其中 4 篇為直接測試 midazolam 於失眠的隨機對照試驗（RCT）。
-
----
+Midazolam（咪達唑侖）在香港以注射劑型上市，目前記錄中沒有原適應症文字。
+TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，預測分數 99.7%。
+共檢索到 32 個臨床試驗登記和 11 篇文獻，其中只有少數直接相關：4 篇 1980 至 1990 年代的口服 midazolam 助眠臨床研究，以及 2 個以睡眠為結果指標的試驗。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 鎮靜/麻醉給藥（原始適應症清單資料缺失） |
 | 預測新適應症 | 失眠 (Insomnia) |
 | TxGNN 預測分數 | 99.74% |
-| 證據等級 | L2 |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L3 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 9 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-Midazolam 為苯二氮平類藥物，作用於 GABA-A 受體的正向調節位點，與現有安眠藥（如 flurazepam、triazolam）屬同一機轉家族，藥理上支持其鎮靜/催眠效果，機轉關聯明確。
+DrugBank 的作用機轉欄位目前缺資料。以下藥理說明來自一般藥理知識，不是輸入資料。Midazolam 是苯二氮平類 (benzodiazepine)，作為 GABA-A 受體的正向異位調節劑，產生鎮靜與催眠作用。這個機轉與失眠治療直接相關，也符合模型給出的高分。
 
-從證據來看，1980-1990 年代確實有多篇針對 midazolam 治療失眠的隨機對照試驗，顯示其在短期改善入睡困難、失眠伴隨神經肌肉疾病等情境下具有療效，且耐受性優於部分傳統鎮靜劑（如 barbiturate 類 Vesparax）。
+這個預測未必是真正的「新用途」。1981 至 1990 年間已有口服 midazolam 用於睡眠障礙的臨床研究，包括劑量探索研究和與 flurazepam 的 14 天比較。因此這個候選可能對應的是既有或歷史用途，而非全新適應症。
 
-然而必須指出：midazolam 半衰期短、易產生耐受性與反彈性失眠，且屬管制藥品。近期的臨床試驗證據幾乎都將其作為**術前/術中鎮靜的背景用藥或比較對照組**（例如與 dexmedetomidine 比較術後睡眠品質、ICU 鎮靜），而非作為慢性失眠的主動治療標的——這與早期（1980s）的直接適應症研究形成時間上的斷層，提示臨床實務已逐漸將其排除於慢性失眠常規治療之外。
-
----
+本次資料中的 `original_indications` 欄位是空的，9 張許可證中列出的 5 張也都沒有適應症文字。這很可能是資料缺漏，需要對照香港衛生署核准的仿單確認。
 
 ## 臨床試驗證據
 
+以下列出與 midazolam 和睡眠最相關的試驗。其餘試驗多為右美托咪定、針灸、護理介入等，與本預測無直接關係。
+
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT06407518](https://clinicaltrials.gov/study/NCT06407518) | NA | 招募中 | 280 | 口服 midazolam 用於術前睡眠障礙/焦慮病人，評估對術後疼痛的影響（直接測試 midazolam 於睡眠障礙族群） |
-| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Phase 4 | 已完成 | 111 | IV dexmedetomidine 與 midazolam 比較 TURP 術後睡眠品質，兩者結果相近 |
-| [NCT01966315](https://clinicaltrials.gov/study/NCT01966315) | NA | 已終止（僅5人） | 5 | Dexmedetomidine vs midazolam 對 ICU 機械通氣病人睡眠品質與譫妄發生率之比較 |
-| [NCT00826553](https://clinicaltrials.gov/study/NCT00826553) | Phase 1 | 已終止（僅6人） | 6 | 以多項睡眠圖比較 α2 agonist 與 GABA agonist（含 midazolam 類）鎮靜藥對睡眠階段的影響 |
-| [NCT04082767](https://clinicaltrials.gov/study/NCT04082767) | Phase 3 | 未知 | 120 | Dexmedetomidine vs midazolam 於重症通氣兒童之鎮靜效果與安全性比較 |
-| [NCT00744380](https://clinicaltrials.gov/study/NCT00744380) | NA | 已完成 | 23 | Dexmedetomidine vs midazolam 促進 ICU 病人脫離呼吸器之隨機雙盲試驗 |
-| [NCT06498869](https://clinicaltrials.gov/study/NCT06498869) | NA | 已完成 | 178 | 大腸鏡檢查鎮靜方案（含 midazolam）合併 ketamine 對睡眠品質（PSQI）之影響 |
-| [NCT01791296](https://clinicaltrials.gov/study/NCT01791296) | Phase 4 | 已完成 | 100 | 以 dexmedetomidine 為主之夜間睡眠鎮靜方案，評估對 ICU 譫妄發生率與醫療成本之影響 |
-| [NCT06041711](https://clinicaltrials.gov/study/NCT06041711) | NA | 已完成 | 66 | 比較全身麻醉與區域麻醉對全髖關節置換術病人睡眠品質之影響 |
-| [NCT03624595](https://clinicaltrials.gov/study/NCT03624595) | NA | 進行中未招募 | 502 | 低劑量 dexmedetomidine 對心臟手術後譫妄之效果，睡眠障礙為背景致病因子之一 |
+| [NCT06407518](https://clinicaltrials.gov/study/NCT06407518) | NA | 招募中 | 280 | 術前口服 midazolam 用於有睡眠障礙或焦慮的大腸直腸癌患者，觀察術後疼痛。族群與失眠有重疊，但主要終點不是失眠，尚無結果 |
+| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Phase 4 | 完成 | 111 | 比較右美托咪定與 midazolam 鎮靜後的術後睡眠品質。midazolam 是鎮靜對照，僅為間接支持 |
+| [NCT01966315](https://clinicaltrials.gov/study/NCT01966315) | NA | 已終止 | 5 | 以 24 小時睡眠多項生理檢查比較右美托咪定與 midazolam 對 ICU 病人睡眠的影響。僅收 5 人，資料極少 |
+| [NCT00826553](https://clinicaltrials.gov/study/NCT00826553) | Phase 1 | 已終止 | 6 | 比較 α2 促效劑與 GABA 促效劑對睡眠階段的影響。僅收 6 人，資料極少 |
+| [NCT07336095](https://clinicaltrials.gov/study/NCT07336095) | Phase 3 | 尚未招募 | 195 | 口服褪黑激素對比口服 midazolam 作為兒童扁桃腺切除術前用藥，觀察焦慮 |
+| [NCT06480500](https://clinicaltrials.gov/study/NCT06480500) | Phase 2 | 招募中 | 110 | 以 midazolam 作為對照，測試氯胺酮加網路認知行為治療對難治型憂鬱症自殺意念的效果。與失眠無關 |
+| [NCT04082767](https://clinicaltrials.gov/study/NCT04082767) | Phase 3 | 未知 | 120 | 右美托咪定對比 midazolam 用於重症通氣兒童的鎮靜 |
+| [NCT04149626](https://clinicaltrials.gov/study/NCT04149626) | Phase 2 | 未知 | 60 | 骨科手術區域麻醉下，右美托咪定、midazolam、remifentanil 的鎮靜比較 |
+| [NCT00744380](https://clinicaltrials.gov/study/NCT00744380) | NA | 完成 | 23 | 右美托咪定對比 midazolam 用於 ICU 病人拔管前的鎮靜轉換 |
 
----
+目前沒有任何已完成的 Phase 2/3 試驗，直接評估 midazolam 治療失眠。
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | RCT | Br J Clin Pharmacol | Midazolam 15mg 與 Vesparax 治療神經肌肉疾病續發性失眠，midazolam 耐受性較佳且無宿醉效應 |
-| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | RCT（多中心，14天） | J Clin Psychopharmacol | 慢性失眠病人使用 flurazepam 與 midazolam 14 天，評估睡眠、表現與血漿濃度 |
-| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | RCT（劑量摸索） | Arzneimittel-Forschung | 口服 midazolam 10-30mg 治療輕中度失眠，確立最適劑量範圍 |
-| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | RCT（多中心，14天） | J Clin Psychopharmacol | 上述多中心研究之執行摘要，佐證 flurazepam 與 midazolam 長期使用之睡眠效果 |
-| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Review | Acta Psychiatr Scand Suppl | 綜述各類苯二氮平類安眠藥（含 midazolam）之臨床使用定位 |
-| [17988972](https://pubmed.ncbi.nlm.nih.gov/17988972/) | 2007 | Review | Orvosi hetilap | 失眠與腦血流灌注不足之關聯性綜述 |
-| [36615100](https://pubmed.ncbi.nlm.nih.gov/36615100/) | 2022 | Cohort（藥物為 lemborexant，非 midazolam） | J Clin Med | 探討新型安眠藥 lemborexant 是否能降低高風險病人內視鏡鎮靜後之譫妄，間接提及苯二氮平類可能增加譫妄風險 |
-| [22729271](https://pubmed.ncbi.nlm.nih.gov/22729271/) | 2013 | 前臨床（藥物為 zolpidem，非 midazolam） | Psychopharmacology | 探討另一安眠藥 zolpidem 對鎮靜、焦慮與記憶之影響 |
-| [36912148](https://pubmed.ncbi.nlm.nih.gov/36912148/) | 2024 | Case series/Review | Am J Hosp Palliat Care | COVID-19 臨終病人症狀處置案例，提及鎮靜藥物使用情境 |
-| [21396773](https://pubmed.ncbi.nlm.nih.gov/21396773/) | 2011 | 前臨床（動物模型） | Pain | 神經病理性疼痛小鼠模型中睡眠障礙與皮質 GABA 傳導改變之關聯 |
-
----
+| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | 臨床研究（雙盲） | Br J Clin Pharmacol | 30 位繼發於神經肌肉疾病的失眠女性，midazolam 15 mg 對比 Vesparax。兩者都有效，midazolam 耐受性較好，且沒有宿醉現象 |
+| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | 臨床研究（劑量探索） | Arzneimittel-Forschung | 75 位住院的輕中度失眠患者，口服 midazolam 10–30 mg，多中心先導研究，評估療效與耐受性以找出最適劑量 |
+| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | 臨床研究（隨機、雙盲、多中心） | J Clin Psychopharmacol | 慢性失眠患者使用 flurazepam 與 midazolam 14 天，觀察睡眠、表現與情緒。此篇為研究介紹，摘要中沒有結果 |
+| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | 多中心臨床研究 | J Clin Psychopharmacol | 上述 14 天研究的執行摘要，無摘要內容可引用 |
+| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Review | Acta Psychiatr Scand Suppl | 討論安眠藥的臨床使用與需要多種安眠藥的理由。苯二氮平類皆有臨床療效 |
+| [36615100](https://pubmed.ncbi.nlm.nih.gov/36615100/) | 2022 | 臨床研究 | J Clin Med | Lemborexant 用於胰膽疾病患者內視鏡後的失眠與譫妄預防。主題不是 midazolam，僅為間接參考 |
+| [17988972](https://pubmed.ncbi.nlm.nih.gov/17988972/) | 2007 | Review | Orv Hetil | 失眠與腦部低灌流的關係，屬間接相關 |
 
 ## 香港上市資訊
 
-Midazolam 於本資料集標示為**未上市**，目前無許可證登記資料。
+香港共有 9 張許可證，以下列出 5 張。記錄中沒有劑型與核准適應症文字。
 
----
+| 許可證號 | 品名 | 製造商 |
+|---------|------|-------|
+| HK-67778 | MIDAZ SOLUTION FOR INJECTION OR INFUSION 15MG/3ML | JACOBSON MARKETING LIMITED |
+| HK-55150 | MIDAZOLAM INJ 1MG/ML (HAMELN) | MEKIM LTD |
+| HK-25854 | DORMICUM INJ 5MG/ML | DKSH HONG KONG LIMITED |
+| HK-20343 | DORMICUM INJ 15MG/3ML | DKSH HONG KONG LIMITED |
+| HK-32941 | DORMICUM INJ 5MG/5ML | DKSH HONG KONG LIMITED |
+
+從品名看，這 5 張都是注射劑型。歷史上的助眠研究用的是口服劑型，兩者之間有劑型落差。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
-
----
+安全性資訊請參考原廠仿單。DDI 查詢結果為無資料。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 雖然機轉上（GABA-A 正向調節）及早期 RCT（1980s，4 篇）支持 midazolam 對失眠有效，但近期證據多顯示其臨床角色已轉移至術中/程序性鎮靜，且存在耐受性與反彈性失眠風險，不利於慢性失眠常規使用。
-- 安全性資料（TFDA/當地仿單警語、禁忌症、DDI）完全缺失，且列為 **Blocking** 等級資料缺口（DG001），無法完成 S1 安全性初評。
-- 藥物於當地未上市（0 張許可證），推進前需先確認法規可及性。
+- 機轉合理，且有 1980 至 1990 年代的口服 midazolam 助眠研究支持，但這些研究較舊，也沒有近期的 Phase 2/3 試驗。
+- 香港上市的都是注射劑型，仿單的警語與禁忌資料缺漏（屬阻擋性缺口），無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得完整仿單警語、禁忌症與藥物交互作用資料，解除 DG001 封鎖
-- 補充正式作用機轉文獻資料，解除 DG002
-- 評估管制藥品法規限制，以及長期使用之耐受性/戒斷風險管理方案
-- 若考慮用於慢性失眠，需設計能規避耐受性與反彈性失眠之給藥方案並重新驗證
+- 取得香港衛生署的仿單，確認核准適應症、警語與禁忌，並補齊安全性篩選所需資料。
+- 補齊 DrugBank 的作用機轉資料。
+- 確認是否已有口服劑型的核准或供應，並評估注射劑型用於失眠的可行性。
+- 全文查證 1981 至 1990 年代的臨床研究設計與結果，並與現行安眠藥的證據比較。
+- 追蹤 NCT06407518 的結果。
+
+本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證後才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

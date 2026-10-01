@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Stavudine
-parent: 僅模型預測 (L5)
-nav_order: 706
-evidence_level: L5
+parent: 中證據等級 (L3-L4)
+nav_order: 819
+evidence_level: L4
 indication_count: 3
 ---
 
 # Stavudine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+證據等級: **L4** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,72 @@ indication_count: 3
 
 </div>
 
-# STAVUDINE：從（原適應症資料缺失）到貓後天免疫缺乏症候群
+# Stavudine：從抗 HIV 治療到貓免疫缺陷病毒感染
 
 ## 一句話總結
 
-> STAVUDINE 的原始適應症與作用機轉資料目前缺失（Data Gap DG002），香港亦無相關藥品許可證或上市紀錄。
-> TxGNN 模型預測其可能對**貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome)** 有效，預測分數達 **99.55%**，
-> 但目前**無臨床試驗**支持，僅有 **2 篇文獻**，且文獻實際研究對象為另一化合物 stampidine（並非 stavudine 本身），證據關聯性薄弱。
-
----
+Stavudine 是一種胸腺嘧啶核苷類逆轉錄酶抑制劑（NRTI），屬於抗病毒藥物。
+TxGNN 模型預測它可能對**貓後天免疫缺陷症候群 (Feline Acquired Immunodeficiency Syndrome)** 有效。
+目前**沒有臨床試驗**，只有 **2 篇動物前臨床文獻**，且都是研究 Stavudine 衍生物 Stampidine，不是 Stavudine 本身，證據屬間接。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料缺失（本評估未取得核准適應症紀錄） |
-| 預測新適應症 | 貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome) |
-| TxGNN 預測分數 | 99.55%（rank 8316） |
-| 證據等級 | L5（僅有間接動物文獻，且研究對象非同一化合物） |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 原適應症 | 香港許可證未載明（藥理分類為抗病毒 NRTI） |
+| 預測新適應症 | 貓後天免疫缺陷症候群 (Feline Acquired Immunodeficiency Syndrome) |
+| TxGNN 預測分數 | 99.55% |
+| 證據等級 | L4 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 2 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏 STAVUDINE 的詳細作用機轉（MOA）資料，也沒有可用的原始核准適應症紀錄可供比對（Data Gap DG002）。這使得機轉關聯性分析難以進行完整交叉比對。
+目前缺乏詳細的作用機轉資料。Stavudine 是胸腺嘧啶核苷類 NRTI，一般認為它透過抑制病毒的逆轉錄酶來阻斷病毒複製。
 
-根據本評估收集到的文獻脈絡，STAVUDINE 曾在動物實驗中與 didanosine 併用作為抗反轉錄病毒治療方案的一部分，用於治療猴免疫缺乏病毒 (SIV) 感染的獼猴模式（PMID 22013040）。這顯示 STAVUDINE 屬於雙脫氧核苷類（dideoxynucleoside）反轉錄酶抑制劑，與其他慢病毒（lentivirus）感染如 HIV、SIV、FIV 在藥理機轉上具有跨物種的潛在關聯性——這也可能是 TxGNN 模型將其連結至貓後天免疫缺乏症候群與 SIV 感染的原因。
+貓免疫缺陷病毒 (FIV) 是慢病毒，和 HIV 同屬一類，同樣依賴逆轉錄酶複製。因此 NRTI 類藥物在機轉上有可能對 FIV 起作用，這也是 TxGNN 給出高分的合理背景。
 
-然而需特別注意：rank 1 預測（貓後天免疫缺乏症候群）所附的兩篇文獻實際討論的化合物是 **stampidine**，一種結構相關但不同的實驗性 NRTI 前驅藥，並非 STAVUDINE 本身。此差異意味著現有證據對 STAVUDINE 用於此適應症的直接支持力有限，屬於**類別層級（class-level）**而非**藥物層級（drug-level）**的關聯推論，關聯性偏弱。
-
----
+不過現有文獻研究的是 Stavudine 的衍生物 Stampidine（芳基磷醯胺酸酯類），不是 Stavudine 本身，所以只能算間接支持。另外，這個預測的對象是貓的疾病，屬於獸醫領域，並非人類適應症。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [16570826](https://pubmed.ncbi.nlm.nih.gov/16570826/) | 2006 | 動物藥動學/毒理學研究（⚠️研究對象為 stampidine，非 stavudine） | Arzneimittel-Forschung | Stampidine 口服 100 mg/kg 於犬與 FIV 感染貓可達治療血中濃度，無明顯毒性 |
-| [12654652](https://pubmed.ncbi.nlm.nih.gov/12654652/) | 2003 | 動物體內抗病毒活性研究（⚠️研究對象為 stampidine，非 stavudine） | Antimicrobial Agents and Chemotherapy | 單次口服 stampidine 50-100 mg/kg 使 FIV 感染貓的病毒量短暫下降 ≥1 log，六隻中五隻無副作用 |
+| [12654652](https://pubmed.ncbi.nlm.nih.gov/12654652/) | 2003 | 動物體內療效研究 | Antimicrob Agents Chemother | Stampidine（Stavudine 衍生物）單次口服 50 或 100 mg/kg，6 隻慢性 FIV 感染貓中有 5 隻的血中病毒量短暫下降 1 個 log 以上，且無副作用 |
+| [16570826](https://pubmed.ncbi.nlm.nih.gov/16570826/) | 2006 | 動物藥動學／毒性研究 | Arzneimittel-Forschung | Stampidine 在犬與 FIV 感染貓口服 100 mg/kg 的無毒劑量下，血漿濃度可達 IC50 的 3-4 個 log 以上 |
 
----
+## 香港上市資訊
+
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-63085 | STAVUDINE CAPSULES 30MG | I & C (HONG KONG) LIMITED |
+| HK-63084 | STAVUDINE CAPSULES 40MG | I & C (HONG KONG) LIMITED |
 
 ## 安全性考量
 
-> 安全性資訊請參考原廠仿單。（key_warnings、contraindications、DDI 皆為 Data Gap，見 DG001）
-
----
+安全性資訊請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 無任何臨床試驗支持，僅有的 2 篇文獻研究對象是結構相關但不同的化合物（stampidine），並非 STAVUDINE 本身，證據直接性不足。
-- 預測適應症「貓後天免疫缺乏症候群」為獸醫學疾病，非人類醫療適應症，不具直接臨床轉譯價值。
-- 香港未上市（0 張許可證），MOA 與仿單安全性資料均為 Blocking/High 等級的資料缺口（DG001、DG002），無法進入 S1 安全性初評。
-
-**補充說明（其他預測適應症）：**
-Evidence Pack 另列 2 項預測：rank 2「simian immunodeficiency virus infection」有較直接的 stavudine 相關文獻（如 PMID 22013040、15040537），但 SIV 為非人類感染疾病，仍須轉譯至人類 HIV 相關情境才具意義；rank 3「神經發育障礙合併步態失調」已由系統標註 **L5 / S0 / Hold**，並明確警示可能為嵌入空間偽相關（spurious signal），且與 stavudine 已知粒線體毒性存在因果方向混淆風險，不建議推進。
+- 證據只有動物前臨床研究，且研究對象是衍生物 Stampidine，不是 Stavudine 本身。
+- 預測對象是貓的疾病，不是人類適應症。
+- 另有 SIV 預測項目的文獻，提到猕猴使用二去氧核苷類似物治療後發生致命性胰臟炎（原文標題被截斷，確切藥物需再確認）。這是需要留意的安全性訊號。
 
 **若要推進需要：**
-- 補齊 STAVUDINE 本身（而非類似物 stampidine）於慢病毒感染的直接藥理與體內外數據
-- 取得香港衛生署／原廠仿單之警語、禁忌症、DDI 等安全性資料（DG001）
-- 取得 STAVUDINE 完整作用機轉（MOA）資料（DG002）
-- 若考慮人類適應症轉譯（如 rank 2 相關之抗反轉錄病毒交叉活性），需重新定義為人類臨床可操作的適應症族群，而非直接沿用動物疾病名稱
+- 確認 Stavudine 本身（而非 Stampidine）在 FIV 的體外或動物療效資料
+- 取得香港衛生署仿單的警語與禁忌症
+- 取得詳細的作用機轉資料（DrugBank）
+- 釐清這項預測是否有人類或獸醫上的轉譯價值
+
+*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

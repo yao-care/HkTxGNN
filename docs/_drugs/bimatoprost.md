@@ -2,7 +2,7 @@
 layout: default
 title: Bimatoprost
 parent: 僅模型預測 (L5)
-nav_order: 104
+nav_order: 118
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,14 @@ indication_count: 10
 
 </div>
 
-# Bimatoprost：從青光眼到含牙齒/牙周成分的畸形症候群
+# Bimatoprost：從青光眼／高眼壓到牙周相關畸形症候群
 
 ## 一句話總結
 
-Bimatoprost 是一種合成前列腺素 F2α 類似物（prostamide），原本核准用於治療**眼壓過高及開角型青光眼**，並另有 FDA 核准的睫毛生長適應症（Latisse™）。
-TxGNN 模型預測它可能對**含牙齒/牙周成分的畸形症候群（malformation syndrome with odontal and/or periodontal component）** 有效，
-目前有 **0 個臨床試驗**及 **20 篇文獻**支持，但需注意這 20 篇均為**牙周炎一般性研究，並非 Bimatoprost 直接應用的證據**。
+Bimatoprost 是前列腺醯胺（prostamide）F2α 類似物，原本用於青光眼與高眼壓治療。
+TxGNN 模型預測它可能對**伴有牙齒及／或牙周成分的畸形症候群**有效，但目前**沒有臨床試驗**，檢索到的 **20 篇文獻**都是一般牙周炎文獻，沒有任何一篇提到 bimatoprost。這項預測僅來自圖譜模型。
+
+> ⚠ 排名第 8 的預測適應症「禿髮 (alopecia)」有完整的臨床試驗，證據明顯強於本項，詳見文末補充章節。
 
 ---
 
@@ -43,23 +44,22 @@ TxGNN 模型預測它可能對**含牙齒/牙周成分的畸形症候群（malfo
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 眼壓過高／開角型青光眼（根據文獻推斷） |
-| 預測新適應症 | 含牙齒/牙周成分的畸形症候群（malformation syndrome with odontal and/or periodontal component） |
+| 預測新適應症 | 伴有牙齒及／或牙周成分的畸形症候群 (malformation syndrome with odontal and/or periodontal component) |
 | TxGNN 預測分數 | 99.997% |
-| 證據等級 | L5 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L5（僅有模型預測） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 4 張 |
 | 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-Bimatoprost 屬於前列腺素類似物（prostamide F2α analog），其核心藥理機制為結合 FP 前列腺素受體，調節前列腺素相關訊號路徑以降低眼壓。目前缺乏詳細的完整 MOA 資料，但根據現有文獻，前列腺素路徑調節是其主要藥理基礎。
+目前缺乏詳細的作用機轉資料。根據已知資訊，bimatoprost 是前列腺醯胺 F2α 類似物，用於降低眼壓，機轉上與牙周或牙齒發育畸形並無已知的直接關聯。
 
-前列腺素（尤其是 PGE2）在牙周組織的慢性炎症與骨質破壞過程中扮演關鍵介質角色，牙周炎病理進程中前列腺素濃度顯著升高，骨吸收與組織破壞均與此訊號路徑密切相關。TxGNN 模型可能基於此分子層面的路徑關聯，預測前列腺素受體調節劑（如 Bimatoprost）對含牙周成分的畸形症候群具有潛在效益。
+檢索到的文獻主要討論牙周炎的治療、微生物群與發炎機轉。這些論文沒有提到 bimatoprost，因此無法作為支持證據。
 
-然而，此連結目前仍屬純理論假設。現有系統蒐集到的 20 篇文獻均為牙周炎（periodontitis）一般性治療研究，論文標題與摘要均未涉及 Bimatoprost，無法作為支持此適應症的直接證據。從知識圖譜的網路距離而言，這是一個間接且尚未被研究驗證的預測。
+TxGNN 分數 (0.99997) 來自知識圖譜的網路鄰近性，不是臨床證據。目前找不到可信的機轉連結，這項預測應視為假說，不宜視為療效訊號。
 
 ---
 
@@ -71,20 +71,31 @@ Bimatoprost 屬於前列腺素類似物（prostamide F2α analog），其核心�
 
 ## 文獻證據
 
-> ⚠️ **重要說明**：以下文獻為系統以「Bimatoprost + 牙周相關疾病」關鍵字搜尋所得，論文內容均為**牙周炎一般性研究**，並非 Bimatoprost 用於此適應症的直接應用研究，僅作為疾病背景參考。
+以下文獻皆為牙周炎的一般性文獻，**均未提及 bimatoprost**。
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|------|------|------|---------|
-| [35688447](https://pubmed.ncbi.nlm.nih.gov/35688447/) | 2022 | Guideline | J Clin Periodontol | Stage IV 牙周炎治療的 EFP S3 臨床實務指引，涵蓋嚴重牙周喪失的處置建議 |
-| [37435999](https://pubmed.ncbi.nlm.nih.gov/37435999/) | 2023 | Review | Periodontology 2000 | 再生牙周手術（針對骨內缺損和根分叉缺損）的併發症及治療失誤分析 |
-| [35420698](https://pubmed.ncbi.nlm.nih.gov/35420698/) | 2022 | Systematic Review | Cochrane | 牙周治療對糖尿病患者血糖控制效果的 Cochrane 系統性回顧 |
-| [39233377](https://pubmed.ncbi.nlm.nih.gov/39233377/) | 2024 | Review | Periodontology 2000 | 睡眠障礙（阻塞性睡眠呼吸中止）為牙周健康新興風險因子的文獻回顧 |
-| [38907216](https://pubmed.ncbi.nlm.nih.gov/38907216/) | 2024 | Review | J Nanobiotechnology | 生物材料介導的巨噬細胞免疫療法應用於牙周炎治療的研究現況 |
-| [38362600](https://pubmed.ncbi.nlm.nih.gov/38362600/) | 2024 | Clinical Study | J Dental Research | 牙周炎（Stage III/IV，n=47）患者治療前後口腔與腸道菌群的縱向變化 |
-| [36883660](https://pubmed.ncbi.nlm.nih.gov/36883660/) | 2023 | Review | J Dental Research | 牙齦纖維母細胞在牙周炎中作為非典型先天免疫細胞的病理調節角色 |
-| [22057194](https://pubmed.ncbi.nlm.nih.gov/22057194/) | 2012 | Review | Diabetologia | 牙周炎與糖尿病的雙向關係；糖尿病使牙周炎風險增加約三倍 |
-| [29291254](https://pubmed.ncbi.nlm.nih.gov/29291254/) | 2018 | Systematic Review | Cochrane | 支持性牙周治療（SPT）維持已治療成年患者牙齒的長期效果 |
-| [20599785](https://pubmed.ncbi.nlm.nih.gov/20599785/) | 2010 | Review | Biochem Pharmacol | 補體系統過度活化或失調在牙周炎免疫病理機制中的角色 |
+|------|-----|------|------|---------|
+| [35420698](https://pubmed.ncbi.nlm.nih.gov/35420698/) | 2022 | 系統性回顧 | Cochrane Database Syst Rev | 牙周炎治療對糖尿病患者血糖控制的影響 |
+| [35688447](https://pubmed.ncbi.nlm.nih.gov/35688447/) | 2022 | 指引 | J Clin Periodontol | EFP 第 IV 期牙周炎治療臨床實務指引 |
+| [22057194](https://pubmed.ncbi.nlm.nih.gov/22057194/) | 2012 | Review | Diabetologia | 牙周炎與糖尿病的雙向關係 |
+| [37435999](https://pubmed.ncbi.nlm.nih.gov/37435999/) | 2023 | Review | Periodontology 2000 | 牙周再生手術的併發症與處置失誤 |
+| [39233377](https://pubmed.ncbi.nlm.nih.gov/39233377/) | 2024 | Review | Periodontology 2000 | 睡眠與牙周健康的關聯 |
+| [36883660](https://pubmed.ncbi.nlm.nih.gov/36883660/) | 2023 | Review | J Dent Res | 牙齦纖維母細胞在牙周炎致病中的角色 |
+| [29193334](https://pubmed.ncbi.nlm.nih.gov/29193334/) | 2018 | Review | Periodontology 2000 | 植體周圍與牙周邊緣軟組織的比較 |
+| [12010523](https://pubmed.ncbi.nlm.nih.gov/12010523/) | 2002 | Review | J Clin Periodontol | 刮除與根面整平的實證觀點 |
+| [38907216](https://pubmed.ncbi.nlm.nih.gov/38907216/) | 2024 | Review | J Nanobiotechnology | 以生醫材料調控巨噬細胞的牙周炎免疫治療 |
+| [9495612](https://pubmed.ncbi.nlm.nih.gov/9495612/) | 1998 | 觀察性研究 | J Clin Periodontol | 齦下菌斑中的微生物複合體 |
+
+---
+
+## 香港上市資訊
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-60394 | LUMIGAN OPHTHALMIC SOLUTION 0.01% | ALLERGAN HONG KONG LIMITED |
+| HK-68341 | ZIMED PRESERVATIVE FREE EYE DROPS SOLUTION 0.3MG/ML | DCH AURIGA (HONG KONG) LIMITED - UNIVERSAL DIVISION |
+| HK-63183 | GANFORT PF EYE DROPS | ALLERGAN HONG KONG LIMITED |
+| HK-56429 | GANFORT EYE DROPS | ALLERGAN HONG KONG LIMITED |
 
 ---
 
@@ -94,20 +105,43 @@ Bimatoprost 屬於前列腺素類似物（prostamide F2α analog），其核心�
 
 ---
 
+## 補充：證據較強的預測適應症——禿髮 (Alopecia)
+
+在 10 個預測適應症中，只有**禿髮**有實質的臨床試驗（排名第 8，TxGNN 分數 99.993%，證據等級 L2）。
+
+機轉上，prostamide/前列腺素訊號被認為可延長生長期 (anagen) 並刺激毛囊。這與 bimatoprost 已上市的睫毛增長作用一致。不過 MOA 欄位缺資料，這裡依據的是一般藥理知識。
+
+| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
+|---------|------|------|------|---------|
+| [NCT01325337](https://clinicaltrials.gov/study/NCT01325337) | Phase 2 | 完成 | 307 | Bimatoprost 對比 vehicle 與 minoxidil 5%，用於男性雄性禿 |
+| [NCT01325350](https://clinicaltrials.gov/study/NCT01325350) | Phase 2 | 完成 | 306 | Bimatoprost 對比 vehicle 與 minoxidil 2%，用於女性型禿髮 |
+| [NCT01904721](https://clinicaltrials.gov/study/NCT01904721) | Phase 2 | 完成 | 244 | Bimatoprost 用於男性雄性禿的安全性與療效 |
+| [NCT05600673](https://clinicaltrials.gov/study/NCT05600673) | Phase 1/2 | 完成 | 30 | 併用二氧化碳飛梭雷射治療斑禿，無法單獨評估藥物效果 |
+| [NCT01023841](https://clinicaltrials.gov/study/NCT01023841) | Phase 4 | 完成 | 71 | 兒童睫毛稀疏，屬睫毛而非頭皮 |
+
+- 上表只列出代表性試驗。另有多個 Phase 1 藥動與耐受性試驗，以及 1 個撤回（0 人）的試驗。
+- 資料中**沒有 Phase 3 試驗**，各試驗的療效結果也未收錄。
+- 斑禿方面，目前只有一項非隨機開放性研究（對比 clobetasol）與兒童個案報告。
+
+---
+
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 雖然 TxGNN 給出高達 99.997% 的預測分數，但前列腺素路徑與牙周組織的關聯屬分子網路推斷，現有 20 篇文獻均為一般牙周炎治療研究，與 Bimatoprost 無直接關聯，實際臨床可行性未知，尚不具備進入開發流程的最低證據門檻（L5）。
-- ⚡ **關鍵提示**：在本次預測清單中，Bimatoprost 用於**脫髮（alopecia，Rank 8）** 已有 **11 個臨床試驗**（含多項已完成的 Phase 2 研究）及 **20 篇直接相關文獻**，機轉合理且前列腺素誘導睫毛/毛髮生長的副作用已獲 FDA 認可（Latisse™），若要探索老藥新用，強烈建議優先評估脫髮適應症。
+- 本項預測（牙周相關畸形症候群）沒有試驗、沒有直接文獻，也沒有可信的機轉連結，證據等級為 L5，僅為模型預測。
+- 若要投入資源，禿髮是更值得評估的方向。
 
 **若要推進需要：**
-- 補充 Bimatoprost 完整作用機轉資料（DrugBank MOA 查詢）
-- 前列腺素 FP 受體在牙周組織中表達與功能的前臨床研究
-- 香港衛生署批准的仿單安全性資料（主要警語、禁忌症）
-- 動物模型驗證 Bimatoprost 對牙周骨質破壞的影響
-- 若優先資源有限，建議轉向評估**脫髮（Rank 8）**——已有充分臨床證據支持，進入門檻顯著較低
+- 取得香港衛生署的仿單，補齊警語與禁忌症
+- 從 DrugBank 補上作用機轉 (MOA) 資料
+- 取得並檢視禿髮 Phase 2 試驗（NCT01325337、NCT01325350、NCT01904721）的療效結果
+- 釐清頭皮外用劑型與現有眼用製劑的給藥途徑差異
+
+---
+
+*本報告結果僅供研究參考，不構成醫療建議。預測適應症需經臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

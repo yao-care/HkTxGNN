@@ -2,7 +2,7 @@
 layout: default
 title: Nepafenac
 parent: 高證據等級 (L1-L2)
-nav_order: 518
+nav_order: 602
 evidence_level: L1
 indication_count: 5
 ---
@@ -29,92 +29,94 @@ indication_count: 5
 
 </div>
 
-# Nepafenac：從白內障術後眼部發炎疼痛到廣泛眼科發炎相關疾病
+# Nepafenac：從白內障術後眼部發炎與疼痛到眼部疾病 (Eye Disease)
 
 ## 一句話總結
 
-Nepafenac 是外用非類固醇消炎止痛藥（NSAID）前驅藥，國際上核准用於白內障手術相關的眼部疼痛與發炎。
-TxGNN 模型預測它對**廣義眼科疾病 (Eye Disease)** 具高度關聯性，
-目前有 **41 個臨床試驗**和 **20 篇文獻**支持，其中多項為已完成的 Phase 3/4 隨機對照試驗。
-需注意：此預測與其已知用途高度重疊，屬於既有適應症的證據延伸，而非全新的老藥新用假說。
-
----
+Nepafenac 是眼用非類固醇消炎藥 (NSAID)，文獻記載的核准用途是白內障術後的眼部發炎與疼痛。
+TxGNN 模型預測它可能對**眼部疾病 (Eye Disease)** 有效，但這是範圍很廣的上位疾病名稱，證據大多來自已上市用途。
+目前有 **41 個臨床試驗**和 **20 篇文獻**，其中多個已完成的 Phase 3 隨機對照試驗支持術後發炎與疼痛的用途。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 白內障手術後疼痛與發炎（國際仿單適應症；香港無核准許可證資料） |
-| 預測新適應症 | 廣義眼科疾病 (Eye Disease) |
+| 原適應症 | 白內障術後眼部發炎與疼痛（依文獻；香港許可證資料未載明適應症文字） |
+| 預測新適應症 | 眼部疾病 (Eye Disease) |
 | TxGNN 預測分數 | 99.85% |
 | 證據等級 | L1 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 2 張 |
 | 建議決策 | Proceed with Guardrails |
-
----
 
 ## 為什麼這個預測合理？
 
-Nepafenac 為外用 NSAID 前驅藥，經眼組織酯酶水解為活性代謝物 amfenac，抑制 COX-1/COX-2，阻斷前列腺素合成，藉此減少眼內發炎、疼痛與黃斑水腫。這個機轉已在白內障手術後、雷射虹膜切開術後、玻璃體內注射後等多種眼科發炎情境中被驗證。
+目前缺乏 DrugBank 的詳細作用機轉欄位資料。從藥理特性來看，Nepafenac 是前驅藥 (prodrug)，經眼部組織水解酶轉換為 amfenac，後者抑制 COX-1 與 COX-2。前列腺素合成減少，可合理解釋它對術後眼部發炎、疼痛與黃斑部水腫的作用。前臨床與臨床資料也顯示，它經局部點眼後能到達眼後段。
 
-TxGNN 預測的新適應症「eye disease」本質上與 nepafenac 已確立的核心用途高度重疊——多項 Phase 3/4 隨機對照試驗（如 NCT01109173, n=2120；NCT01853072, n=881）直接針對白內障手術後發炎與糖尿病患者黃斑水腫進行驗證，證據充分。
-
-換句話說，這個預測更像是模型正確辨識出藥物既有的強項，而非發掘全新的治療方向。其價值在於系統性確認 nepafenac 在「廣義眼科發炎疾病」這個更大類別下的證據密度，可作為評估其在香港上市可行性的基礎。
-
----
+「眼部疾病」是非特異性的上位疾病名稱。現有臨床證據大多反映已上市用途，也就是白內障術後的發炎與疼痛，而不是新適應症的驗證。由於原適應症與作用機轉的藥物層級欄位是空的，無法從本次輸入資料確認預測適應症與核准用途的重疊程度。若要延伸到標示外的用途，例如黃斑部水腫、雷射後或注射後的情境，需要針對個別適應症另行確認。
 
 ## 臨床試驗證據
 
+共 41 個相關試驗，以下列出 10 個最相關者。
+
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT01001806](https://clinicaltrials.gov/study/NCT01001806) | Phase 4 | 完成 | 126 | 比較 nepafenac 與其他 NSAID 眼用藥物之房水穿透濃度，支持其眼內抗發炎藥動學基礎 |
-| [NCT00818844](https://clinicaltrials.gov/study/NCT00818844) | Phase 4 | 完成 | 40 | 直接驗證 nepafenac 降低黃斑前膜手術後黃斑體積/水腫 |
-| [NCT01426854](https://clinicaltrials.gov/study/NCT01426854) | Phase 3 | 完成 | 260 | 安慰劑對照，證實 0.1% 懸液對中國成人白內障術後發炎與疼痛療效優於安慰劑 |
-| [NCT03499873](https://clinicaltrials.gov/study/NCT03499873) | Phase 3 | 完成 | 448 | 學名藥與原廠 Ilevro 生體相等性研究，證實白內障術後止痛消炎療效一致 |
-| [NCT00939276](https://clinicaltrials.gov/study/NCT00939276) | Phase 3 | 提前終止 | 175 | 評估糖尿病視網膜病變患者術後黃斑水腫發生率，因提前終止證據力打折 |
-| [NCT02955641](https://clinicaltrials.gov/study/NCT02955641) | N/A | 狀態不明 | 100 | 評估雷射周邊虹膜切開術後是否需要抗發炎眼藥水 |
-| [NCT01109173](https://clinicaltrials.gov/study/NCT01109173) | Phase 3 | 完成 | 2120 | 大型試驗評估 0.3% 懸液對白內障術後發炎與疼痛之預防與治療效果 |
-| [NCT01853072](https://clinicaltrials.gov/study/NCT01853072) | Phase 3 | 完成 | 881 | 證實 0.3% 每日一次劑量在糖尿病患者白內障術後臨床結果優於安慰劑 |
-| [NCT01872611](https://clinicaltrials.gov/study/NCT01872611) | Phase 3 | 完成 | 819 | 同上設計之獨立試驗，再次驗證糖尿病患者術後療效優越性 |
-| [NCT01318499](https://clinicaltrials.gov/study/NCT01318499) | Phase 2 | 完成 | 1342 | 比較 0.3% 與 0.1% 懸液及安慰劑，確立劑量反應關係 |
-
----
+| [NCT01109173](https://clinicaltrials.gov/study/NCT01109173) | Phase 3 | 完成 | 2120 | Nepafenac 0.3% 用於預防與治療白內障術後眼部發炎與疼痛的安全性與療效 |
+| [NCT01853072](https://clinicaltrials.gov/study/NCT01853072) | Phase 3 | 完成 | 881 | Nepafenac 0.3% 對照賦形劑，評估糖尿病患者白內障術後的臨床結果 |
+| [NCT01872611](https://clinicaltrials.gov/study/NCT01872611) | Phase 3 | 完成 | 819 | 設計與上一項相同，同樣針對糖尿病患者白內障術後 |
+| [NCT03499873](https://clinicaltrials.gov/study/NCT03499873) | Phase 3 | 完成 | 448 | Nepafenac 0.3% 學名藥與 Ilevro 的臨床等效性與安全性（雙盲、安慰劑對照） |
+| [NCT01426854](https://clinicaltrials.gov/study/NCT01426854) | Phase 3 | 完成 | 260 | 中國成人白內障術後，Nepafenac 0.1% 對照安慰劑的安全性與療效 |
+| [NCT00405730](https://clinicaltrials.gov/study/NCT00405730) | Phase 3 | 完成 | 227 | 歐洲研究，Nepafenac 0.1% 對照 ketorolac 與安慰劑，用於術後發炎與疼痛 |
+| [NCT00939276](https://clinicaltrials.gov/study/NCT00939276) | Phase 3 | 已終止 | 175 | 評估 Nevanac 對糖尿病視網膜病變患者術後黃斑部水腫的效果；提前終止，結論力有限 |
+| [NCT00782717](https://clinicaltrials.gov/study/NCT00782717) | Phase 2 | 完成 | 263 | 糖尿病視網膜病變患者白內障術後，評估 Nevanac 降低黃斑部水腫發生率 |
+| [NCT01331005](https://clinicaltrials.gov/study/NCT01331005) | Phase 2 | 完成 | 125 | 局部 NSAID 對非中心性糖尿病黃斑部水腫黃斑體積的影響（對照安慰劑） |
+| [NCT00818844](https://clinicaltrials.gov/study/NCT00818844) | Phase 4 | 完成 | 40 | 視網膜前膜手術後，Nepafenac 0.1% 對黃斑體積的影響（對照安慰劑） |
 
 ## 文獻證據
 
+多數文獻摘要在輸入資料中被截斷，以下「主要發現」僅依可見的摘要與標題整理，不含未呈現的結果數據。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [39936354](https://pubmed.ncbi.nlm.nih.gov/39936354/) | 2025 | Systematic Review | Eur J Ophthalmol | 系統性回顧與統合分析：nepafenac 併用類固醇可減少白內障術後黃斑水腫、改善視力預後 |
-| [34210237](https://pubmed.ncbi.nlm.nih.gov/34210237/) | 2022 | Review | Clin Exp Optom | 回顧 nepafenac 於白內障手術中降低發炎、疼痛及囊樣黃斑水腫風險，穿透力佳、副作用低 |
-| [34120417](https://pubmed.ncbi.nlm.nih.gov/34120417/) | 2021 | RCT | Korean J Ophthalmol | 微創白內障術後，0.1% nepafenac 與 1% prednisolone 消炎效果比較 |
-| [32672612](https://pubmed.ncbi.nlm.nih.gov/32672612/) | 2020 | RCT | Ophthalmol Glaucoma | 雷射周邊虹膜切開術後，0.1% nepafenac 消炎效果與安全性不劣於 1% prednisolone |
-| [22795976](https://pubmed.ncbi.nlm.nih.gov/22795976/) | 2012 | RCT | J Cataract Refract Surg | 預防性 nepafenac 對比 ketorolac 與安慰劑，評估白內障術後黃斑體積變化 |
-| [35196591](https://pubmed.ncbi.nlm.nih.gov/35196591/) | 2022 | RCT | Ophthalmol Glaucoma | 雷射虹膜切開術後，0.1% nepafenac 與 0.09% bromfenac 消炎效果比較 |
-| [24345317](https://pubmed.ncbi.nlm.nih.gov/24345317/) | 2014 | RCT | Am J Ophthalmol | 隨機前瞻性研究評估 nepafenac 眼藥水對白內障患者眼壓的影響 |
-| [29199864](https://pubmed.ncbi.nlm.nih.gov/29199864/) | 2018 | Cohort/Interventional | Curr Eye Res | 前房內使用 nepafenac 之安全性與抑制前列腺素合成之療效驗證 |
-| [25493620](https://pubmed.ncbi.nlm.nih.gov/25493620/) | 2016 | Interaction Study | J Glaucoma | 探討 nepafenac 與前列腺素類降眼壓藥物併用對原發性隅角開放性青光眼患者眼壓的影響 |
-| [30284393](https://pubmed.ncbi.nlm.nih.gov/30284393/) | 2018 | Comparative Study | Acta Ophthalmol | 比較 nepafenac 與不含防腐劑 diclofenac 於白內障術後之療效與耐受性 |
+| [39936354](https://pubmed.ncbi.nlm.nih.gov/39936354/) | 2025 | 系統性回顧與統合分析 | Eur J Ophthalmol | 統合 RCT，評估在局部類固醇之外加用 Nepafenac 對中心黃斑厚度、黃斑體積與視力的影響 |
+| [24345529](https://pubmed.ncbi.nlm.nih.gov/24345529/) | 2014 | Phase 3 試驗 | J Cataract Refract Surg | 評估每日一次 Nepafenac 0.3% 預防與治療白內障術後疼痛與發炎 |
+| [32672612](https://pubmed.ncbi.nlm.nih.gov/32672612/) | 2020 | RCT | Ophthalmol Glaucoma | 雷射周邊虹膜切開術後，比較 Nepafenac 0.1% 與 prednisolone 1% 控制發炎 |
+| [35196591](https://pubmed.ncbi.nlm.nih.gov/35196591/) | 2022 | RCT | Ophthalmol Glaucoma | 雷射虹膜切開術後，比較 Nepafenac 0.1% 與 bromfenac 0.09% 的安全性與療效 |
+| [22795976](https://pubmed.ncbi.nlm.nih.gov/22795976/) | 2012 | 隨機對照研究 | J Cataract Refract Surg | 預防性使用 Nepafenac 或 ketorolac 對照安慰劑，評估術後黃斑體積 |
+| [24345317](https://pubmed.ncbi.nlm.nih.gov/24345317/) | 2014 | 隨機前瞻研究 | Am J Ophthalmol | 評估 Nepafenac 0.1% 點眼對白內障眼睛眼壓的影響 |
+| [34210237](https://pubmed.ncbi.nlm.nih.gov/34210237/) | 2022 | Review | Clin Exp Optom | 回顧 Nepafenac 在白內障手術的角色：高眼部穿透性，副作用風險低 |
+| [16466612](https://pubmed.ncbi.nlm.nih.gov/16466612/) | 2006 | Review／專家意見 | Curr Med Res Opin | 討論 Nepafenac 的眼部穿透與抑制視網膜發炎的臨床效用 |
+| [17259381](https://pubmed.ncbi.nlm.nih.gov/17259381/) | 2007 | 動物研究 | Diabetes | 大鼠糖尿病模型中，局部 Nepafenac 抑制視網膜微血管病變 |
+| [26474497](https://pubmed.ncbi.nlm.nih.gov/26474497/) | 2016 | 前臨床藥動學研究 | Exp Eye Res | 局部給藥後，Nepafenac 及其活性代謝物 amfenac 可分布至眼後段 |
 
----
+## 香港上市資訊
+
+| 許可證號 | 品名 | 劑型／規格 | 廠商 |
+|---------|------|-----------|------|
+| HK-67972 | NEVANAC OPHTHALMIC SUSPENSION 0.1% W/V | 眼用懸液 0.1% w/v（依品名） | Novartis Pharmaceuticals (HK) Limited |
+| HK-57847 | NEVANAC OPHTHALMIC SUSP 0.1%W/V | 眼用懸液 0.1% w/v（依品名） | Novartis Pharmaceuticals (HK) Limited |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
-
----
+安全性資訊請參考原廠仿單。本次未取得香港衛生署的仿單警語與禁忌資料，藥物交互作用查詢也無結果。
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-多個已完成的 Phase 2/3 隨機對照試驗（含大型試驗 n=2120、n=881、n=819）一致支持 nepafenac 於眼科發炎相關適應症的療效與安全性，證據等級達 L1。但此預測本質上是既有適應症的延伸驗證，而非全新老藥新用方向，實際效益在於支持其於香港申請上市或擴大適應症範圍。
+- 有多個已完成的 Phase 3 隨機對照試驗（樣本數達數百至兩千人），支持 Nepafenac 用於白內障術後發炎與疼痛，且已在香港上市。
+- 但「眼部疾病」是非特異性上位詞，證據多反映已上市用途；新增適應症需逐項確認，安全性資料也尚未取得。
 
 **若要推進需要：**
-- 取得 TFDA／香港衛生署仿單警語與禁忌症資料（目前為 Blocking 等級資料缺口，無法進入安全性初評）
-- 補充 DrugBank 作用機轉（MOA）正式資料，目前僅能依文獻推論
-- 若計畫於香港申請上市，需準備完整的許可證申請與在地臨床橋接資料
+- 取得香港衛生署仿單，補齊警語與禁忌（目前是阻斷性資料缺口）
+- 補充 DrugBank 作用機轉資料，確認原適應症與預測適應症的重疊範圍
+- 將「眼部疾病」拆解為具體適應症（如糖尿病患者術後黃斑部水腫），逐項評估證據
+- 評估終止或小樣本試驗（如 NCT00939276）的結論限制，必要時等待更大型確認性試驗
+
+**其他預測：** 視神經乳突炎 (optic papillitis)、頭皮單純性稀毛症、脂漏性角化症與 von Hippel 異常，證據為 L4–L5，僅有動物研究或模型預測，建議一律 Hold。
+
+*本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

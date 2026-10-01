@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Estradiol Valerate
-parent: 中證據等級 (L3-L4)
-nav_order: 286
-evidence_level: L4
+parent: 僅模型預測 (L5)
+nav_order: 336
+evidence_level: L5
 indication_count: 10
 ---
 
 # Estradiol Valerate
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,71 +29,66 @@ indication_count: 10
 
 </div>
 
-# Estradiol Valerate：從雌激素補充療法到脆性X症候群女性攜帶者症狀型
-
----
+# Estradiol Valerate：從原適應症（資料未提供）到 X 染色體脆折症女性帶因者的症狀表現
 
 ## 一句話總結
 
-Estradiol Valerate（EV）是 17β-雌二醇（E2）的酯類前體藥物，廣泛用作雌激素補充療法（HRT），但目前在香港尚無任何核准上市紀錄。TxGNN 模型預測它可能對**脆性X症候群女性攜帶者症狀型（Symptomatic form of fragile X syndrome in female carrier）** 有效，預測機轉基於 FXPOI（脆性X相關原發性卵巢功能不全）繼發性 E2 缺乏的間接推斷。目前**無臨床試驗及文獻**直接支持此特定適應症。
-
----
+Estradiol Valerate（戊酸雌二醇）是一種雌激素酯類藥物，香港已有 2 張許可證，但本次資料未載明原核准適應症。
+TxGNN 模型預測它可能對**女性帶因者的症狀性 X 染色體脆折症 (symptomatic form of fragile X syndrome in female carrier)** 有效，預測分數很高，但目前**沒有任何臨床試驗或文獻**支持，僅屬模型推論。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無香港核准適應症（藥品未上市） |
-| 預測新適應症 | 脆性X症候群女性攜帶者症狀型 (Symptomatic form of fragile X syndrome in female carrier) |
+| 預測新適應症 | 女性帶因者的症狀性 X 染色體脆折症 (symptomatic form of fragile X syndrome in female carrier) |
 | TxGNN 預測分數 | 99.94% |
-| 證據等級 | L4 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L5（僅有模型預測） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 2 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏 Estradiol Valerate 詳細的作用機轉資料（資料缺口 DG002）。根據已知藥理，EV 為 17β-雌二醇的戊酸酯衍生物，口服或肌肉注射後於肝臟及腸道水解，釋放活性 E2，透過雌激素受體 ERα 和 ERβ 發揮雌激素效應，調節下視丘—腦垂體—卵巢（HPO）軸的負回饋機制、維護骨密度、心血管功能及女性第二性徵。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Estradiol Valerate 是雌激素類藥物，香港的兩張許可證（ESTRADE TAB 2MG、QLAIRA TAB）都是含此成分的口服製劑。但由於原適應症資料也缺漏，無法確認它在原適應症的療效基礎，也無法比對新舊適應症的關聯。
 
-**預測的機轉連結**：脆性X症候群女性攜帶者（FMR1 基因含 55–200 次 CGG 重複的「前突變」）中，約 20% 會發展為 **FXPOI（Fragile X-associated Primary Ovarian Insufficiency）**，即脆性X相關卵巢早衰。FXPOI 的根本病理為 FMR1 前突變 RNA 在卵巢顆粒細胞中的毒性積累，導致卵泡加速耗竭，E2 分泌大幅下降。E2 缺乏引發的繼發症狀（熱潮紅、骨質疏鬆、心血管風險、認知功能變化等），理論上可由 EV 作為 HRT 加以緩解，邏輯具有間接合理性。
+從疾病生物學來看，X 染色體脆折症的前突變 (premutation) 女性帶因者可能發生 FMR1 相關的原發性卵巢功能不全 (primary ovarian insufficiency, POI)。針對這個卵巢表現型，雌激素補充在機轉上有合理性。
 
-然而，此預測屬**間接推斷**：EV 針對的是 FXPOI 所造成的**繼發性 E2 缺乏**，而非 FXPOI 的根本病因（FMR1 前突變 RNA 毒性）。TxGNN 模型可能泛化了「卵巢功能不全 → E2 缺乏 → HRT 有效」的廣義路徑，而非識別出針對此罕見遺傳症候群的特異性療效。預測的機轉特異性有限。
-
----
+但這只是推論。現有資料中沒有任何試驗或文獻支持，模型的高分只是知識圖譜上的關聯，不能視為療效證據。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記。
-
----
+目前無相關臨床試驗登記
 
 ## 文獻證據
 
-目前無相關文獻。
+目前無相關文獻
 
----
+## 香港上市資訊
+
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-48266 | ESTRADE TAB 2MG | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED |
+| HK-59784 | QLAIRA TAB | BAYER HEALTHCARE LIMITED |
+
+兩張許可證的劑型與核准適應症在資料中均為空白，需另行查證。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單（資料缺口 DG001：TFDA 仿單警語/禁忌症尚未取得，屬 Blocking 級缺口，建議下載仿單 PDF 並解析後補充）。
-
----
+安全性資訊請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-TxGNN 預測分數高（99.94%），FXPOI 繼發性 E2 缺乏使用 HRT 的機轉邏輯具間接合理性，但目前完全缺乏針對此特定適應症的臨床試驗及文獻，EV 在香港亦未持有任何藥品許可證，整體證據基礎不足以推進至臨床決策階段。
+- 這個預測只有模型分數，沒有任何試驗或文獻佐證（L5），機轉推論也缺乏資料支持。
+- 香港藥品仿單的警語與禁忌尚未取得，無法進入安全性篩檢。
 
 **若要推進需要：**
-- 系統性搜尋 FXPOI 女性患者 HRT 管理的臨床指引（如 ESHRE、ACOG POI 指引）及相關文獻
-- 確認 EV 與其他 E2 製劑（transdermal patch、estradiol gel）在 FXPOI 症狀管理上的比較療效與安全性
-- 補充 EV 詳細作用機轉（MOA）資料（建議查詢 DrugBank API，對應資料缺口 DG002）
-- 下載並解析原廠仿單，評估警語與禁忌症（對應資料缺口 DG001）
-- 評估香港衛生署（Department of Health）藥品許可證申請可行性及監管路徑
+- 取得香港衛生署的仿單，補齊核准適應症、警語與禁忌症。
+- 補充 DrugBank 的作用機轉資料。
+- 針對 FMR1 前突變帶因者的 POI，檢索雌激素補充的臨床與觀察性研究。
+- 本次 Evidence Pack 另有 9 個預測適應症。其中「卵巢功能障礙 (ovarian dysfunction)」的機轉最合理（POI 的雌激素補充），但唯一直接相關的 Phase 3 試驗 NCT02922348 已撤銷、零收案。其餘多數為染色體異常類疾病，缺乏可辨識的機轉關聯，建議先從卵巢功能障礙方向釐清。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

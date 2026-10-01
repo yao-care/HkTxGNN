@@ -2,7 +2,7 @@
 layout: default
 title: Griseofulvin
 parent: 僅模型預測 (L5)
-nav_order: 361
+nav_order: 420
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,11 +29,12 @@ indication_count: 5
 
 </div>
 
-# Griseofulvin：從皮癬菌感染到蠅蛆病
+# Griseofulvin：從抗黴菌用藥到蠅蛆症 (Myiasis)
 
 ## 一句話總結
 
-Griseofulvin 是經典抗真菌抗生素，廣泛用於皮癬菌（Dermatophyte）引起的頭癬、體癬、甲癬等感染。TxGNN 模型預測它可能對**蠅蛆病 (Myiasis)** 有效，然而目前**無任何臨床試驗**，僅有 **1 篇 1970 年的獸醫文獻**作為間接參考，整體證據極為薄弱，且機轉關聯性評估為極弱。
+Griseofulvin 是一種抗黴菌藥，香港已有多張藥品許可證。
+TxGNN 模型預測它可能對**蠅蛆症 (Myiasis)** 有效，但目前**沒有任何臨床試驗**，只有 **1 篇**關聯性不明的舊文獻。這個預測很可能是知識圖譜的假象，不建議推進。
 
 ---
 
@@ -41,23 +42,34 @@ Griseofulvin 是經典抗真菌抗生素，廣泛用於皮癬菌（Dermatophyte�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 皮癬菌感染（頭癬、體癬、甲癬） |
-| 預測新適應症 | 蠅蛆病 (Myiasis) |
+| 原適應症 | 許可證資料未載明（藥理上屬抗黴菌藥） |
+| 預測新適應症 | 蠅蛆症 (Myiasis) |
 | TxGNN 預測分數 | 99.41% |
-| 證據等級 | L5 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | **Hold** |
+| 證據等級 | L5（僅有模型預測） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 9 張 |
+| 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Griseofulvin 是源自灰黃青黴（*Penicillium griseofulvum*）的抗生素，其主要機轉為干擾真菌微管蛋白（tubulin）的聚合，抑制有絲分裂，對皮癬菌產生抑菌作用。因此，TxGNN 的預測可能源自「anti-tubulin」這個跨物種的共同節點在知識圖譜中的路徑擴散。
+目前缺乏詳細的作用機轉資料。已知 griseofulvin 是抗黴菌藥，透過干擾真菌微管與有絲分裂發揮作用。
 
-然而，蠅蛆病（Myiasis）是由雙翅目（Diptera）蒼蠅幼蟲（蛆）寄生人體組織所致，本質上是**節肢動物感染**，與皮癬菌（真菌）在生物學上差異極大。昆蟲幼蟲的 tubulin 結構與真菌 tubulin 差異顯著，Griseofulvin 對真菌的選擇性抑制安全窗口並不適用於節肢動物，且目前完全缺乏相關體外或體內活性資料支持此推論。**機轉關聯性評分：極弱（0/5）。**
+但這與蠅蛆症（蠅類幼蟲寄生於皮膚或傷口）之間**沒有合理的藥理關聯**。Griseofulvin 對雙翅目幼蟲沒有已知的活性。0.994 的高分很可能來自知識圖譜中「寄生性皮膚病」鄰近節點的關聯，而非真正的藥理依據。
 
-值得注意的是，排名 2–4 的三個蠅蛆病亞型（癤腫性、傷口性、遷移性）TxGNN 分數完全相同（均為 0.9934），強烈提示這些為知識圖譜中同一路徑衍生的批次子節點輸出，而非獨立的正向預測訊號。
+蠅蛆症的標準處置是移除幼蟲，並搭配 ivermectin 等抗寄生蟲藥物，這些藥物的作用途徑與 griseofulvin 完全不同。
+
+### 其他預測適應症
+
+| 預測適應症 | TxGNN 分數 | 證據 | 評估 |
+|-----------|-----------|------|------|
+| 癤性蠅蛆症 (Furuncular myiasis) | 99.34% | 無 | 僅為預測，無藥理依據，Hold |
+| 傷口蠅蛆症 (Wound myiasis) | 99.34% | 無 | 僅為預測，處置以清創與抗寄生蟲治療為主，Hold |
+| 匐行性蠅蛆症 (Creeping myiasis) | 99.34% | 無 | 無抗幼蟲機轉，現有療法（ivermectin、albendazole）途徑不同，Hold |
+| 細粒棘球絛蟲感染 (*Echinococcus granulosus*) | 99.32% | 無 | 屬「研究問題」，見下方說明 |
+
+**細粒棘球絛蟲感染**是唯一有假說層級關聯的項目。Griseofulvin 干擾真菌微管，而 benzimidazole 類藥物（albendazole、mebendazole）正是靠作用於寄生蟲微管蛋白治療棘球蚴病。Griseofulvin 是否對該蟲的微管蛋白有活性，目前完全未經檢驗，而且已有有效的核准療法。若要研究，第一步應是體外的殺原頭節或微管蛋白結合試驗，而非臨床評估。
 
 ---
 
@@ -71,13 +83,23 @@ Griseofulvin 是經典抗真菌抗生素，廣泛用於皮癬菌（Dermatophyte�
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [4098614](https://pubmed.ncbi.nlm.nih.gov/4098614/) | 1970 | Veterinary Review / Case Series | The Veterinary record | 犬貓寄生蟲性皮膚病概述（獸醫文獻；與 Griseofulvin 用於人類蠅蛆病的關聯性待確認） |
+| [4098614](https://pubmed.ncbi.nlm.nih.gov/4098614/) | 1970 | Review | The Veterinary Record | 犬貓寄生蟲性皮膚病綜述。無摘要可供判讀，未見 griseofulvin 對蠅蛆症有效的直接證據 |
+
+其餘預測適應症目前無相關文獻。
 
 ---
 
 ## 香港上市資訊
 
-Griseofulvin 目前在香港**未上市**，無任何許可證登記記錄。
+香港共有 9 張許可證，以下列出 5 張。資料中未載明劑型與核准適應症。
+
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-34137 | GRISEOFULVIN TAB 125MG (VICKMANS) | Vickmans Laboratories Ltd |
+| HK-33380 | GRISEOFULVIN TAB 500MG | APT Pharma Limited |
+| HK-26326 | FUYOU TAB 500MG | Wilcome Pharmaceutical Co Ltd |
+| HK-66191 | NACOSIL GRISEOFULVIN TABLETS 250MG | Welldone Pharmaceuticals Limited |
+| HK-31024 | MEDOFULVIN 125 TAB 125MG | Star Medical Supplies Ltd |
 
 ---
 
@@ -92,12 +114,13 @@ Griseofulvin 目前在香港**未上市**，無任何許可證登記記錄。
 **決策：Hold**
 
 **理由：**
-蠅蛆病為節肢動物寄生感染，與 Griseofulvin 的抗真菌 tubulin 抑制機轉生物學上幾乎無交集，機轉關聯性極弱（0/5）；現有證據僅限 1 篇 1970 年獸醫文獻（非人體研究），無臨床試驗支持，證據等級為 L5；且多個蠅蛆病亞型分數完全相同，確認為 KG 批次輸出偽訊號。
+- 蠅蛆症的四個預測適應症都只有模型分數，沒有臨床試驗、實質文獻，也沒有合理的作用機轉。高分應視為知識圖譜的假象。
+- 現有標準療法明確有效，且 griseofulvin 缺乏抗幼蟲活性，沒有推進的理由。
 
 **若要推進需要：**
-- 取得 Griseofulvin 完整 MOA 資料（補足 DG002），確認對節肢動物是否存在任何潛在活性
-- 補充香港及其他地區藥品仿單安全性、警語與禁忌資料（補足 DG001）
-- 若仍評估此方向，需先完成體外實驗以確認對雙翅目幼蟲的抑制活性，再考慮動物模型驗證（目前幾乎無依據建議直接推進）
+- 取得香港衛生署核准的仿單，確認原適應症、警語與禁忌
+- 補齊 griseofulvin 的作用機轉資料
+- 僅針對細粒棘球絛蟲感染這個研究問題：先做體外殺原頭節或微管蛋白結合試驗，確認有活性後才考慮進一步評估
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

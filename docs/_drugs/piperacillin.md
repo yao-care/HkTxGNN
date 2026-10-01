@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Piperacillin
-parent: 中證據等級 (L3-L4)
-nav_order: 590
-evidence_level: L4
+parent: 僅模型預測 (L5)
+nav_order: 689
+evidence_level: L5
 indication_count: 5
 ---
 
 # Piperacillin
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,87 +33,93 @@ indication_count: 5
 
 ## 一句話總結
 
-Piperacillin 是一種 β-lactam 類廣效抗生素，原用於治療細菌感染。
+Piperacillin 是一種注射用 β-內醯胺類抗生素，目前在香港有多張上市許可證。
 TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** 有效，
-目前有 **18 篇文獻**支持，但經檢視後，文獻內容並未實際證明其對 RA 本身具治療效果。
-
----
+但目前**沒有臨床試驗**，檢索到的 17 篇文獻多為感染或藥物不良反應的個案報告，並不支持療效。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 細菌感染（原適應症詳細資料缺失，香港無許可證登記可查） |
+| 原適應症 | 資料未提供 |
 | 預測新適應症 | 類風濕性關節炎 (Rheumatoid Arthritis) |
 | TxGNN 預測分數 | 99.94% |
-| 證據等級 | L4 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L5（僅模型預測；系統內部標註為 L4，但文獻未提供機轉或前臨床研究，故依判定規則歸為 L5） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 14 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏 Piperacillin 完整的作用機轉資料（DrugBank MOA 欄位為資料缺失）。根據藥物分類與文獻中片段描述，Piperacillin 屬於 β-lactam 類抗生素，透過抑制細菌細胞壁合成達到殺菌效果，本身不具抗發炎或免疫調節機轉。
+目前缺乏詳細的作用機轉資料。Piperacillin 屬於青黴素類（penicillin）抗生素，一般認為是透過抑制細菌細胞壁合成而殺菌。
 
-現有的 18 篇 PubMed 文獻，內容並非「Piperacillin 治療 RA」的直接證據，而是描述 RA 病人在接受免疫抑制治療（如 etanercept、methotrexate、JAK1 抑制劑 upadacitinib）期間，因免疫功能低下併發細菌感染（化膿性心包炎、人工關節感染、蜂窩性組織炎、敗血性休克等），進而使用 piperacillin（多與 tazobactam 併用）治療感染併發症的個案報告。
+類風濕性關節炎是自體免疫疾病，治療核心是免疫調節與抗發炎。Piperacillin 沒有已知的免疫調節或抗發炎活性，機轉上看不出與類風濕性關節炎的關聯。0.999 的高分很可能是知識圖譜的人為結果，而非生物學上的真實訊號。
 
-因此，這個預測反映的較可能是「RA 患者常見感染併發症的共同治療模式」在知識圖譜中的共現關聯，而非 piperacillin 對 RA 疾病本身具有藥理學上的治療潛力。TxGNN 的高分數不應直接解讀為機轉合理性的證據。
-
----
+檢索到的文獻中，類風濕性關節炎只是病人的背景疾病。這些報告描述的是病人因免疫抑制而感染、使用 piperacillin/tazobactam 治療感染，並不是在治療類風濕性關節炎本身。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
+
+以下為檢索到的主要文獻，均無法支持 piperacillin 對類風濕性關節炎的療效：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [41257433](https://pubmed.ncbi.nlm.nih.gov/41257433/) | 2025 | Cohort | Br J Clin Pharmacol | 建立 ampicillin/sulbactam 或 piperacillin/tazobactam 誘發嗜酸性球增多的風險預測模型（非 RA 相關） |
-| [33987340](https://pubmed.ncbi.nlm.nih.gov/33987340/) | 2021 | Cohort | Ann Transl Med | 抗生素相關藥物性肝損傷之盛行率與臨床特徵 |
-| [38169875](https://pubmed.ncbi.nlm.nih.gov/38169875/) | 2023 | Case Series | Clin Nephrol Case Stud | 鈣化防禦症之眼部缺血性表現案例（非 RA） |
-| [36945293](https://pubmed.ncbi.nlm.nih.gov/36945293/) | 2023 | Case Report | Cureus | RA 緩解 9 年後復發性胸腔積液個案 |
-| [37599303](https://pubmed.ncbi.nlm.nih.gov/37599303/) | 2023 | Case Report | Orthopadie | RA 病人人工膝關節 H. influenzae 感染，以 piperacillin/tazobactam 治療併發肺炎 |
-| [38343452](https://pubmed.ncbi.nlm.nih.gov/38343452/) | 2024 | Case Report | Proc (Bayl Univ Med Cent) | RA 病人低劑量 methotrexate 毒性致全血球減少 |
-| [34178513](https://pubmed.ncbi.nlm.nih.gov/34178513/) | 2021 | Case Report | Cureus | RA 病人低劑量 methotrexate 引發全血球減少 |
-| [22605835](https://pubmed.ncbi.nlm.nih.gov/22605835/) | 2012 | Case Report | BMJ Case Rep | RA 病人 etanercept 治療併發化膿性心包炎，以 piperacillin-tazobactam 經驗性治療 |
-| [29390256](https://pubmed.ncbi.nlm.nih.gov/29390256/) | 2017 | Case Report | Medicine | 修格蘭氏症候群併發全血球減少、腦出血個案 |
-| [40119266](https://pubmed.ncbi.nlm.nih.gov/40119266/) | 2025 | Case Report | BMC Infect Dis | 抗藥性 Edwardsiella tarda 引發敗血性休克個案 |
+| [33987340](https://pubmed.ncbi.nlm.nih.gov/33987340/) | 2021 | 世代研究 | Ann Transl Med | 抗生素相關藥物性肝損傷的盛行率與臨床特徵 |
+| [41257433](https://pubmed.ncbi.nlm.nih.gov/41257433/) | 2025 | 回溯性世代／預測模型 | Br J Clin Pharmacol | 建立使用 ampicillin/sulbactam 或 piperacillin/tazobactam 者嗜酸性球增多的預測模型 |
+| [37599303](https://pubmed.ncbi.nlm.nih.gov/37599303/) | 2023 | 個案報告 | Orthopadie | 類風濕性關節炎病人人工膝關節的流感嗜血桿菌感染，曾使用 piperacillin/tazobactam 治療肺炎 |
+| [22605835](https://pubmed.ncbi.nlm.nih.gov/22605835/) | 2012 | 個案報告 | BMJ Case Rep | 使用 etanercept 的類風濕性關節炎病人發生化膿性心包膜炎，經驗性使用 piperacillin/tazobactam |
+| [40119266](https://pubmed.ncbi.nlm.nih.gov/40119266/) | 2025 | 個案報告＋文獻回顧 | BMC Infect Dis | 抗藥性 Edwardsiella tarda 造成敗血性休克 |
+| [41268563](https://pubmed.ncbi.nlm.nih.gov/41268563/) | 2025 | 個案報告 | Front Immunol | 長期免疫抑制的類風濕性關節炎病人發生大腸桿菌引起的非典型丹毒 |
+| [30371923](https://pubmed.ncbi.nlm.nih.gov/30371923/) | 2019 | 個案報告 | Orthopedics | 類風濕性關節炎病人股骨氣腫性骨髓炎，以髓內抗生素骨水泥治療 |
+| [38343452](https://pubmed.ncbi.nlm.nih.gov/38343452/) | 2024 | 個案報告 | Proc (Bayl Univ Med Cent) | 低劑量 methotrexate 毒性導致全血球減少，以 leucovorin 解救 |
 
-以上文獻多為感染併發症之個案報告，**未提供 piperacillin 直接治療 RA 疾病本身的證據**。
-
----
+另有數篇個案報告（如 methotrexate 毒性、Sjögren 症候群、Felty 症候群感染等）與 piperacillin 對類風濕性關節炎的療效無關，此處不逐一列出。
 
 ## 香港上市資訊
 
-Piperacillin 目前**未於香港上市**，查無許可證登記資料。
-
----
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-56958 | PIPERACILLIN SODIUM FOR INJ. 4G | 注射劑 | 資料未提供 |
+| HK-66929 | PIPERACILLIN AND TAZOBACTAM POWDER FOR SOLUTION FOR INFUSION 4.5G | 輸注用粉劑 | 資料未提供 |
+| HK-65419 | PIPERACILLIN/TAZOBACTAM KABI POWDER FOR SOLUTION FOR INFUSION 4G/0.5G | 輸注用粉劑 | 資料未提供 |
+| HK-60314 | PYBACTAM 4.5G POWDER FOR SOLN FOR INJ/INF | 注射／輸注用粉劑 | 資料未提供 |
+| HK-52054 | TAZOBACTAM/PIPERACILLIN SOD F/ INJ 2.25G (ZHUHAI UNITED LAB) | 注射劑 | 資料未提供 |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。（TFDA 仿單警語與禁忌症資料缺失，屬 Blocking 等級資料缺口，無法進行 S1 安全性初評）
+- **肝損傷**：文獻顯示 piperacillin 類抗生素與藥物性肝損傷有關（PMID 33987340）。
+- **嗜酸性球增多**：使用 piperacillin/tazobactam 的病人有發生嗜酸性球增多的風險（PMID 41257433）。
 
----
+其餘安全性資訊請參考原廠仿單。
+
+## 其他預測適應症
+
+以下預測全部只有模型分數，沒有臨床試驗，也沒有支持性文獻：
+
+| 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 說明 |
+|------|-----------|-----------|---------|------|
+| 2 | 眼缺損性小眼症-肢根型發育不良症候群 | 99.89% | L5 | 罕見發育遺傳疾病，抗菌藥物沒有可辨識的作用標的 |
+| 3 | 短指-併指症候群 | 99.86% | L5 | 先天性肢體畸形，與抗菌機轉無關 |
+| 4 | 硬化性膽管炎 | 99.82% | L5 | 僅有間接關聯（抗生素曾用於研究，piperacillin 經膽汁排泄），但也與藥物性肝損傷有關 |
+| 5 | 骨關節炎易感性 | 99.56% | L5 | 指遺傳易感性，非抗菌藥物標的；唯一文獻是 linezolid 與 vancomycin 的比較，與 piperacillin 無關 |
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 18 篇文獻中無一篇直接證明 piperacillin 對 RA 疾病本身有治療效果，皆為 RA 患者因免疫抑制治療併發細菌感染而使用抗生素之個案，屬共病共現而非機轉證據。
-- 無任何臨床試驗登記，且藥物作用機轉（細胞壁合成抑制）與 RA 病理（自體免疫發炎）無生物學合理性。
-- 香港未上市、無許可證資料，且 TFDA 仿單安全性資料缺失（Blocking），無法進行安全性初評。
-- 其餘四個預測適應症（rank 2-5：coloboma-microphthalmia 症候群、短指併指症候群、硬化性膽管炎、骨關節炎易感性）皆為 L5 等級，無任何文獻或試驗支持，判斷為模型嵌入相似性雜訊。
+- 沒有臨床試驗，文獻只是類風濕性關節炎病人的感染或不良反應報告，機轉上也沒有合理的關聯。
+- 五個預測適應症都沒有實質證據，TxGNN 的高分應視為知識圖譜的人為結果。
 
 **若要推進需要：**
-- 補齊 DrugBank 作用機轉（MOA）資料
-- 取得 TFDA/原廠仿單完整警語與禁忌症資料，解除 Blocking 缺口
-- 若仍考慮此方向，需要體外或動物模式的機轉研究，證明 piperacillin 對 RA 發炎路徑的直接作用，而非僅止於感染併發症治療的共現關聯
+- 補齊香港衛生署仿單的警語與禁忌症（目前為阻擋性資料缺口）
+- 補齊作用機轉資料（可查詢 DrugBank）
+- 找到具體的免疫調節或抗發炎機轉假說與前臨床證據，否則不建議投入資源
+
+> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

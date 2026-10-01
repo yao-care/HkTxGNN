@@ -2,7 +2,7 @@
 layout: default
 title: Carbetocin
 parent: 僅模型預測 (L5)
-nav_order: 137
+nav_order: 156
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,76 +29,67 @@ indication_count: 2
 
 </div>
 
-# Carbetocin：從產後子宮收縮不良到 Isotretinoin-Like Syndrome
+# Carbetocin：從長效催產素受體促效劑到類異維 A 酸症候群 (Isotretinoin-like Syndrome)
 
 ## 一句話總結
 
-Carbetocin（卡貝縮宮素）是一種 oxytocin receptor agonist，臨床上用於預防剖腹產後子宮收縮不良與產後出血。TxGNN 模型預測它可能與 **Isotretinoin-Like Syndrome** 及 **Goodman Syndrome** 有關聯，預測分數分別達 99.1% 與 99.1%，然而目前兩個適應症均**無任何臨床試驗或文獻支持**，屬純模型預測結果。
-
----
+Carbetocin 是長效催產素受體促效劑，香港已有 1 張上市許可證。
+TxGNN 模型預測它可能對 **類異維 A 酸症候群 (isotretinoin-like syndrome)** 有效，
+但目前**沒有臨床試驗、也沒有文獻**支持，僅有模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 產後子宮收縮不良（剖腹產後出血預防）|
-| 預測新適應症 #1 | Isotretinoin-Like Syndrome |
-| 預測新適應症 #2 | Goodman Syndrome |
-| TxGNN 預測分數 | 99.1%（#1）/ 99.1%（#2）|
-| 證據等級 | L5（僅模型預測，無實際研究）|
-| 台灣上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | **Hold** |
-
----
+| 預測新適應症 | 類異維 A 酸症候群 (isotretinoin-like syndrome) |
+| TxGNN 預測分數 | 99.15% |
+| 證據等級 | L5 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 1 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-Carbetocin 是合成的 oxytocin 類似物，透過激動子宮肌層的 oxytocin receptor，引發持續性的子宮收縮，臨床主要用於預防剖腹產後的子宮無力與大量出血。其作用靶點明確：oxytocin receptor（OXTR），屬 G protein-coupled receptor（Gq 路徑）。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Carbetocin 屬於長效催產素受體促效劑，但香港許可證未載明適應症，無法對照原適應症與新適應症的關聯。
 
-**Isotretinoin-like syndrome**（又稱 retinoic acid embryopathy）是孕期暴露於 isotretinoin 所致的致畸形症候群，表現為顱顏、心臟、CNS 及胸腺異常，本質上是胚胎發育缺陷。Oxytocin 系統雖在顱顏發育中有部分表現，但與 retinoic acid 信號路徑的交集極為間接，carbetocin 並不具備矯正胚胎發育異常的已知機轉。
+類異維 A 酸症候群是一種致畸胎表型，特徵為類似維 A 酸的顱顏、心臟與中樞神經畸形。這是**產前暴露**造成的結構性發育異常。目前資料中沒有任何證據顯示催產素受體訊號可以逆轉或治療這類異常，對出生後才使用的子宮收縮劑來說，也看不出明確的治療依據。
 
-**Goodman syndrome**（acrocephalopolysyndactyly type IV，或 CACP syndrome / PRG4 突變）屬罕見遺傳性骨骼畸形，涉及顱縫早閉或軟骨/滑液蛋白缺陷。Oxytocin receptor 激動對顱縫融合或 PRG4 蛋白表現均無直接調控作用，治療合理性缺乏生物學依據。
+0.991 的分數只是知識圖譜的預測結果，可能反映圖譜拓樸結構，未必代表生物學上的相關性。
 
-TxGNN 的高分（0.991）極可能來自知識圖譜的拓撲近鄰性雜訊，而非真實的治療機轉連結。
-
----
+另一個預測適應症是 Goodman 症候群（一種罕見的先天性尖頭多指（趾）畸形，分數 99.06%）。同樣沒有臨床試驗或文獻，也沒有已知的機轉連結。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
 目前無相關文獻。
 
----
+## 香港上市資訊
 
-## 台灣上市資訊
-
-Carbetocin 在台灣目前**未取得藥品許可證**，無上市記錄。
-
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-50670 | DURATOCIN INJ 100MCG/ML | FERRING PHARMACEUTICALS LTD |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
----
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-兩個預測適應症均為 L5 等級，無任何臨床試驗或文獻支持，且機轉關聯性分析顯示 carbetocin 的 oxytocin receptor 激動路徑與這兩個罕見症候群（胚胎致畸形症、遺傳性骨骼畸形）在生物學上缺乏直接關聯，TxGNN 高分屬圖譜預測雜訊的可能性高，不宜推進再利用評估。
+- 證據等級只有 L5，僅有模型預測，沒有任何臨床試驗或文獻。
+- 這兩種疾病都屬先天性結構異常，與 Carbetocin 的藥理作用之間沒有可辨識的連結。
 
-**若要重新評估需要：**
-- 補充 carbetocin 完整 MOA 資料（建議查詢 DrugBank API，填補 DG002 缺口）
-- 確認 TFDA 仿單警語與禁忌（DG001 為 Blocking 等級，需優先補齊）
-- 若未來有文獻指向 oxytocin 系統與胚胎發育/罕見遺傳症候群的直接機轉連結，再重新進入評估流程
+**若要推進需要：**
+- 取得香港衛生署的仿單，確認原適應症、警語與禁忌症。
+- 補齊 DrugBank 的作用機轉資料，再評估催產素受體訊號與該疾病病理的連結。
+- 進行文獻與臨床試驗檢索。若仍無任何支持證據，建議不再投入資源。
+
+*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

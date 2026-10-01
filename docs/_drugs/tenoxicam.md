@@ -2,7 +2,7 @@
 layout: default
 title: Tenoxicam
 parent: 高證據等級 (L1-L2)
-nav_order: 731
+nav_order: 845
 evidence_level: L2
 indication_count: 5
 ---
@@ -29,97 +29,94 @@ indication_count: 5
 
 </div>
 
-# Tenoxicam：從關節/肌肉骨骼止痛消炎到類風濕性關節炎的再確證
+# Tenoxicam：從一般 NSAID 用途到類風濕性關節炎
 
 ## 一句話總結
 
-Tenoxicam (DB00469) 是 oxicam 類 NSAID，目前**未在香港上市**，本地無任何許可證資料。
-TxGNN 模型將**類風濕性關節炎 (Rheumatoid Arthritis)** 列為最高分預測適應症，
-目前有 **1 個臨床試驗**和 **20 篇文獻**支持——但這實際上是該藥物在其他市場早已核准的**既有用途**，而非全新假說。
-
----
+Tenoxicam 是 oxicam 類非類固醇消炎止痛藥（NSAID），本次資料未登載明確的原適應症。
+TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** 有效，
+目前有 **1 個臨床試驗登記**（與 RA 無直接關聯）和 **20 篇文獻**，其中多篇為 RA 的雙盲比較試驗。
+Tenoxicam 在風濕疾病的使用歷史很長，這更像是既有用途的確認，而不是全新的老藥新用。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料缺口（香港未上市，無許可證資料可查） |
+| 原適應症 | 資料未提供（香港許可證未登載適應症文字） |
 | 預測新適應症 | 類風濕性關節炎 (Rheumatoid Arthritis) |
 | TxGNN 預測分數 | 99.90% |
 | 證據等級 | L2 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 2 張 |
 | 建議決策 | Proceed with Guardrails |
-
----
 
 ## 為什麼這個預測合理？
 
-Tenoxicam 是 oxicam 類非類固醇消炎止痛藥 (NSAID)，透過非選擇性抑制 COX-1/COX-2 降低前列腺素合成，達到消炎、鎮痛與解熱效果——這是 NSAID 類藥物治療類風濕性關節炎 (RA) 的標準藥理機轉。
+Tenoxicam 屬於 oxicam 類 NSAID，透過抑制 COX-1/COX-2 來減少前列腺素介導的發炎與疼痛。
+DrugBank 的作用機轉欄位目前缺資料，上述機轉說明來自預測流程的推論。
 
-需特別說明：本評估報告的結構化 MOA 欄位本身是資料缺口，但透過文獻與 TxGNN 推理路徑仍可還原其藥理邏輯。事實上，pack 中的推理備註明確指出——**RA 是 tenoxicam 已核准的既有適應症，而非新發現的再利用假說**，TxGNN 給出的高分反映的是模型正確捕捉到了真實已知的藥理關係，而非發掘出全新的機轉關聯。
+發炎與疼痛是類風濕性關節炎的核心症狀，所以機轉上相當吻合。
+文獻也顯示，口服、直腸與注射劑型的 tenoxicam 都用於症狀治療，涵蓋類風濕性關節炎、骨關節炎、僵直性脊椎炎等風濕疾病。
+Tenoxicam 在這些疾病中療效至少與其他 NSAID 相當。
 
-文獻證據也支持此點：多篇 1985-1996 年的臨床研究（含至少 2 篇 RCT）顯示 tenoxicam 在 RA 治療上療效與 piroxicam、aceclofenac 等同類 NSAID 相當，安全性亦可比擬。這也解釋了為何此候選在證據強度上遠高於同批預測中的其他罕見症候群（如 brachydactyly-syndactyly syndrome），後者被判定為知識圖譜嵌入雜訊。
+要注意的是，這個適應症很可能本來就是既有的標示用途，需要和香港 Department of Health 的核准適應症核對。
+NSAID 只能緩解症狀，不能改變疾病進程，這點在評估時要區分清楚。
 
----
+TxGNN 的其他預測中，只有**頭痛疾患 (Headache Disorder)** 有一定支持：一個 Phase 4 試驗正在比較靜脈注射 tenoxicam 與 ibuprofen 治療急性偏頭痛，尚無結果。
+**骨關節炎易感性**需先改定義為「症狀性骨關節炎」再評估。
+**短指併指症候群**與**眼缺損小眼畸形-肢根型發育不良症候群**沒有合理機轉，可能是知識圖譜的假象，建議暫緩。
 
 ## 臨床試驗證據
 
+目前沒有直接針對 RA 的試驗登記。下表是此預測項下唯一的登記試驗，但它研究的是術後疼痛，並非 RA。
+
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT05508451](https://clinicaltrials.gov/study/NCT05508451) | NA | 完成 | 80 | 比較 tenoxicam 單方、paracetamol 單方及兩者合併於雙頜手術後疼痛之鎮痛效果，與關節疼痛適應症高度相關 |
-
----
+| [NCT05508451](https://clinicaltrials.gov/study/NCT05508451) | N/A | 完成 | 80 | 比較 tenoxicam、paracetamol 及兩者合併用於雙顎手術後疼痛；未見 RA 族群，對 RA 無直接證據 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [1593574](https://pubmed.ncbi.nlm.nih.gov/1593574/) | 1992 | RCT | J Rheumatol | 102 名 RA 患者比較 tenoxicam 20mg 與 piroxicam 20mg，療效無差異，安全性相當 |
-| [8894360](https://pubmed.ncbi.nlm.nih.gov/8894360/) | 1996 | RCT | Clin Rheumatol | 292 名 RA 患者比較 aceclofenac 與 tenoxicam，兩組皆有臨床改善，完成率 81.1% |
-| [1711963](https://pubmed.ncbi.nlm.nih.gov/1711963/) | 1991 | Review | Drugs | Tenoxicam 藥理與治療效益回顧：對 RA、OA、僵直性脊椎炎等風濕疾病療效與其他 NSAID 相當 |
-| [8137596](https://pubmed.ncbi.nlm.nih.gov/8137596/) | 1994 | Review (PK) | Clin Pharmacokinet | Tenoxicam 臨床藥物動力學回顧，口服完全吸收，血漿蛋白結合率約 99% |
-| [3915889](https://pubmed.ncbi.nlm.nih.gov/3915889/) | 1985 | Cohort/Open Trial | Eur J Rheumatol Inflamm | 79 名關節炎/RA 患者以肛門栓劑投予 tenoxicam 6 週，療效正向 |
-| [3915885](https://pubmed.ncbi.nlm.nih.gov/3915885/) | 1985 | Cohort/Open Trial | Eur J Rheumatol Inflamm | 雙盲平行試驗顯示 tenoxicam 20mg 每日對 OA/RA/僵直性脊椎炎療效不亞於 piroxicam |
-| [3262939](https://pubmed.ncbi.nlm.nih.gov/3262939/) | 1988 | PK Study | Ther Drug Monit | 單劑 40mg tenoxicam 於 RA/OA 患者血漿與滑液藥物動力學分析 |
-| [8187453](https://pubmed.ncbi.nlm.nih.gov/8187453/) | 1994 | Mechanistic/Lab | Clin Rheumatol | Tenoxicam 對 RA 患者及健康對照組嗜中性球趨化性之影響研究 |
-| [41419140](https://pubmed.ncbi.nlm.nih.gov/41419140/) | 2026 | Preclinical/Formulation | Eur J Pharm Sci | 開發 baricitinib+tenoxicam 共載奈米海綿凝膠，用於 RA 局部治療 |
-| [2292331](https://pubmed.ncbi.nlm.nih.gov/2292331/) | 1990 | 多中心研究 | J Int Med Res | 2,963 名 OA/RA 患者於基層醫療環境接受 tenoxicam 20mg/日治療 12 週，症狀改善 |
+| [8894360](https://pubmed.ncbi.nlm.nih.gov/8894360/) | 1996 | RCT（雙盲） | Clin Rheumatol | 292 位 RA 患者，比較 aceclofenac 與 tenoxicam 三個月，兩組臨床指標均有改善 |
+| [1593574](https://pubmed.ncbi.nlm.nih.gov/1593574/) | 1992 | 比較性臨床研究（可能為 RCT） | J Rheumatol | 102 位 RA 患者，tenoxicam 20 mg 與 piroxicam 20 mg 療效無差異，不良反應發生率相近 |
+| [2695152](https://pubmed.ncbi.nlm.nih.gov/2695152/) | 1989 | RCT（雙盲） | Br J Clin Pract | 1,328 位骨關節炎或 RA 患者，tenoxicam 與 piroxicam 均改善疼痛與僵硬，RA 組僵硬改善最明顯 |
+| [3915885](https://pubmed.ncbi.nlm.nih.gov/3915885/) | 1985 | 臨床試驗（雙盲） | Eur J Rheumatol Inflamm | 骨關節炎、RA、僵直性脊椎炎；每日一次 20 mg，療效至少與 piroxicam 相當 |
+| [1711963](https://pubmed.ncbi.nlm.nih.gov/1711963/) | 1991 | Review | Drugs | tenoxicam 對 RA、骨關節炎等風濕疾病為有效的止痛消炎藥，療效至少與其他 NSAID 相當 |
+| [3317800](https://pubmed.ncbi.nlm.nih.gov/3317800/) | 1987 | Review | Scand J Rheumatol Suppl | 彙整 133 項臨床研究，雙盲比較顯示療效，最適劑量為 20 mg |
+| [2292331](https://pubmed.ncbi.nlm.nih.gov/2292331/) | 1990 | 多中心臨床研究 | J Int Med Res | 一般診所 2,963 位骨關節炎或 RA 患者，每日 20 mg 連續使用 12 週，並有長期延伸追蹤 |
+| [2512637](https://pubmed.ncbi.nlm.nih.gov/2512637/) | 1989 | 長期臨床試驗 | Scand J Rheumatol Suppl | 20 位 RA 患者，合併基礎療法使用四年，初期雙盲比較 tenoxicam 與 piroxicam，兩者均有顯著改善 |
+| [3915889](https://pubmed.ncbi.nlm.nih.gov/3915889/) | 1985 | 開放性研究 | Eur J Rheumatol Inflamm | 79 位關節病變或 RA 患者，使用栓劑每日 20 mg 共 6 週 |
+| [41419140](https://pubmed.ncbi.nlm.nih.gov/41419140/) | 2026 | 前臨床製劑研究 | Eur J Pharm Sci | baricitinib 與 tenoxicam 共載之奈米海綿外用凝膠，供 RA 局部治療 |
 
----
+## 香港上市資訊
 
-## 其他預測適應症（補充參考）
-
-本次評估共產生 5 個預測適應症，除首選 RA 外，其餘證據強度差異顯著：
-
-| 排名 | 疾病 | TxGNN 分數 | 證據等級 | 建議 |
-|------|------|-----------|---------|------|
-| 2 | Brachydactyly-syndactyly syndrome | 99.80% | L5 | Hold（先天骨骼發育症候群，與 NSAID 機轉無關聯，判定為模型雜訊） |
-| 3 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.80% | L5 | Hold（同上，胚胎發育異常，無機轉關聯性） |
-| 4 | Osteoarthritis susceptibility | 99.70% | L4 | Research Question（NSAID 類別層級證據充分，但無 tenoxicam 專屬試驗） |
-| 5 | Headache disorder（急性偏頭痛） | 99.68% | L3 | Research Question（有 1 個 Phase 4 IV tenoxicam vs ibuprofen 試驗，尚未收案完成） |
-
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-41325 | XOTILON TAB 20MG | PERFECT GROUPS LTD |
+| HK-45225 | TENOX TAB 20MG | DELTAPHARM LIMITED |
 
 ## 安全性考量
 
-> 安全性資訊請參考原廠仿單。目前缺乏 TFDA/HK 仿單警語、禁忌症及藥物交互作用資料（列為 Blocking 等級資料缺口），此項為進入 S1 安全性初評的必要前提。
-
----
+安全性資訊請參考原廠仿單。DDI 查詢未找到資料。
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-- RA 適應症有 2 篇 RCT（tier 1）及多篇長期臨床觀察支持，證據等級達 L2，且此為國際間已知的既有適應症而非投機性假說，機轉合理性高。
-- 但該藥物目前**未在香港上市**，無本地許可證與仿單資料，安全性初評（S1）所需的關鍵資訊（仿單警語、禁忌症）為 Blocking 缺口，尚無法進行完整風險評估。
+有多篇 RA 雙盲比較研究（對照 piroxicam、aceclofenac）支持 tenoxicam 的症狀療效，機轉也直接吻合。
+但這些研究多為 1980–1990 年代的發表，沒有已登記的 Phase 2/3 試驗，且香港仿單的安全性資料尚未取得。
 
 **若要推進需要：**
-- 取得 TFDA/香港衛生署仿單警語與禁忌症資料（DG001，Blocking，需下載仿單 PDF 解析）
-- 補齊 DrugBank 結構化 MOA 資料（DG002，High）
-- 若考慮香港市場准入，需啟動當地藥證申請流程並評估與現有 NSAID（如 piroxicam、diclofenac）的市場區隔
-- 其餘 4 個預測適應症目前證據不足，暫不建議投入資源（Hold / Research Question）
+- 取得香港 Department of Health 的仿單，確認核准適應症、警語與禁忌症
+- 確認 RA 是否已是香港的核准適應症，以判斷這屬於既有用途或新增適應症
+- 補充 DrugBank 的作用機轉資料
+- 完成安全性篩檢（目前為阻擋項）
+- 將「骨關節炎易感性」重新定義為症狀性骨關節炎後再評估
+- 持續追蹤 NCT06786650（偏頭痛 Phase 4 試驗）的結果
+
+> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

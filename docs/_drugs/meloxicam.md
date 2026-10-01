@@ -2,7 +2,7 @@
 layout: default
 title: Meloxicam
 parent: 僅模型預測 (L5)
-nav_order: 480
+nav_order: 550
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,100 +29,78 @@ indication_count: 5
 
 </div>
 
-# MELOXICAM：從消炎鎮痛（NSAID）適應症到 Acromesomelic Dysplasia, Hunter-Thompson Type（罕見骨骼疾病）
+# Meloxicam：從 NSAID 消炎止痛到肢中發育不良（Hunter-Thompson 型）
 
 ## 一句話總結
 
-Meloxicam 是一種 COX-2 優先抑制型 NSAID，但本評估包中缺乏其原始核准適應症的完整記錄（該藥目前**未在本地上市**）。
-TxGNN 模型將其與**Acromesomelic Dysplasia, Hunter-Thompson Type**（一種罕見骨骼發育異常）連結，預測分數高達 **99.92%**，
-但目前**無任何臨床試驗、無文獻、無上市紀錄**支持這個方向，且證據包本身已標註此關聯機轉上高度存疑。
-
----
+Meloxicam 是偏向抑制 COX-2 的非類固醇消炎止痛藥（NSAID）。
+TxGNN 模型預測它可能對**肢中發育不良 Hunter-Thompson 型 (Acromesomelic Dysplasia, Hunter-Thompson Type)** 有效，但目前**沒有任何臨床試驗或文獻**支持，僅為模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料缺失（drug.original_indications 為空；該藥物未在本地上市，無許可證核准適應症可查） |
-| 預測新適應症 | Acromesomelic Dysplasia, Hunter-Thompson Type |
-| TxGNN 預測分數 | 99.92%（KG 排名第 2073） |
-| 證據等級 | L5（僅模型預測，無臨床/文獻證據） |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 預測新適應症 | 肢中發育不良 Hunter-Thompson 型 (Acromesomelic Dysplasia, Hunter-Thompson Type) |
+| TxGNN 預測分數 | 99.92% |
+| 證據等級 | L5 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏 Meloxicam 詳細作用機轉資料的結構化紀錄（DG002，High severity data gap）。根據證據包內附的機轉分析，Meloxicam 屬於 **COX-2 優先抑制型 NSAID**，其抗發炎/鎮痛效果來自抑制前列腺素合成路徑。
+目前缺乏詳細的作用機轉資料。Meloxicam 屬於 NSAID 類別，已知作用是抑制 COX-2 以減輕發炎與疼痛。
 
-然而，Acromesomelic Dysplasia, Hunter-Thompson Type 是由 **GDF5/CDMP1（BMP 訊息通路）基因突變**所導致的生長板軟骨細胞分化缺陷，屬於**結構性骨骼發育異常，並非發炎介導疾病**。證據包中的機轉分析明確指出：Meloxicam 的 COX-2 抑制/抗發炎機轉與此疾病的致病路徑**沒有已知交集**。
+不過，這個預測在機轉上**找不到已建立的關聯**。此疾病是 GDF5 相關的骨骼發育不良，根本原因是 BMP 訊號傳遞缺陷，而 Meloxicam 對這條路徑沒有已知作用。它唯一可能的角色是緩解疼痛或發炎的症狀，並不能改變疾病本身。0.9992 的高分僅代表模型預測，不等於有實證支持。
 
-換言之，TxGNN 給出的高分很可能反映的是知識圖譜中「骨骼系統疾病」節點與「NSAID 藥物」節點之間的**拓樸鄰近性（即兩者在圖上距離近，但不代表藥理上有真實關聯）**，而非真實的藥理學連結。此為模型侷限性的典型案例，需特別謹慎看待。
+模型的其他預測同樣缺乏證據，且都屬於罕見遺傳性骨骼或結締組織疾病：
 
----
+| 排名 | 預測疾病 | 分數 | 機轉評估 |
+|------|---------|------|---------|
+| 2 | 短軀幹發育不良合併琺瑯質發育不全症候群 (Brachyolmia-Amelogenesis Imperfecta Syndrome) | 99.92% | LTBP3 相關（影響 TGF-β），COX 抑制無已知關聯 |
+| 3 | 肌硬化症 (Myosclerosis) | 99.90% | NSAID 理論上可緩解疼痛，但無疾病修飾證據 |
+| 4 | 短軀幹發育不良 (Brachyolmia) | 99.89% | 遺傳性缺陷（如 PAPSS2、TRPV4），COX-2 抑制無法處理 |
+| 5 | 假性軟骨發育不全 (Pseudoachondroplasia) | 99.81% | COMP 突變致病；臨床上 NSAID 用於關節痛的症狀控制，但這不是針對疾病本身的再利用訊號 |
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記。
-
----
+目前無相關臨床試驗登記
 
 ## 文獻證據
 
-目前無相關文獻。
-
----
+目前無相關文獻
 
 ## 香港上市資訊
 
-本藥物（Meloxicam）在本地目前**未上市**，無許可證登記資料可供查詢（`total_licenses = 0`）。
+Meloxicam 在香港共有 20 張許可證，以下列出 5 張主要許可證：
 
----
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-53980 | MOXIC FORTE TAB 15MG | HANG LUNG TRADING (H.K.) CO |
+| HK-51173 | MELOX TAB 7.5MG | STAR MEDICAL SUPPLIES LTD |
+| HK-41788 | MOBIC TAB 7.5MG | BOEHRINGER INGELHEIM (HK) LTD |
+| HK-54750 | APO-MELOXICAM TAB 15MG | HIND WING CO LTD |
+| HK-68090 | REMOXIN TABLETS 15MG | SB PHARMA LIMITED |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
-> ⚠️ 注意：`key_warnings`、`contraindications`、DDI 查詢結果目前均無資料。其中**仿單警語/禁忌（DG001）已被標記為 Blocking severity**，代表在缺乏此資料前，此候選**無法進入 S1 安全性初評階段**。
-
----
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 證據等級為 L5（僅有模型預測，無任何臨床試驗、文獻或上市支持），且證據包本身的機轉分析已指出此預測很可能是知識圖譜拓樸假訊號，機轉合理性極低。
-- 安全性資料存在 Blocking 等級缺口（DG001：仿單警語/禁忌未知），依規則無法進入下一階段評估。
-- 藥物於本地未上市，缺乏在地法規與適應症基礎資料。
+- 五個預測適應症都只有模型分數，沒有臨床試驗、文獻或機轉關聯支持（L5），且與 Meloxicam 的 COX-2 抑制作用沒有合理連結。
+- 香港衛生署仿單的警語與禁忌症資料尚未取得，無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得 TFDA（或當地藥監局）官方仿單，解析警語與禁忌（解決 DG001，Blocking）
-- 透過 DrugBank API 取得完整 MOA 資料，確認 Meloxicam 的藥理分類與作用位點（解決 DG002）
-- 針對 rank 1 預測（Hunter-Thompson Type），需獨立驗證是否為知識圖譜拓樸假訊號，建議諮詢罕見骨骼疾病領域專家評估機轉合理性
-- 若持續推進，應優先評估證據包中機轉相對較合理的候選（見下方附錄，rank 5 pseudoachondroplasia）
+- 取得香港衛生署仿單的警語與禁忌症資料。
+- 從 DrugBank 補齊 Meloxicam 的作用機轉資料。
+- 找出 COX-2 抑制與 GDF5/BMP 訊號路徑之間的機轉證據，或先做前臨床研究。
+- 若目標只是症狀控制（如假性軟骨發育不全的關節痛），應另外定義為症狀治療研究，不宜視為疾病再利用。
 
----
-
-## 附錄：同批其他預測候選（供參考）
-
-本次證據包共包含 5 個 TxGNN 預測候選，皆屬同一等級（L5 / Hold），列表如下供橫向比較：
-
-| 排名 | 預測適應症 | TxGNN 分數 | 機轉合理性評估 | 建議 |
-|------|-----------|-----------|---------------|------|
-| 1 | Acromesomelic Dysplasia, Hunter-Thompson Type | 99.92% | 極低——很可能為知識圖譜拓樸假訊號，非真實藥理關聯 | Hold |
-| 2 | Brachyolmia-Amelogenesis Imperfecta Syndrome | 99.92% | 極低——骨骼/牙釉質發育基因疾病，非發炎性，無機轉關聯 | Hold |
-| 3 | Myosclerosis | 99.90% | 低——理論上或可調節纖維化相關發炎反應，但無任何實證支持 | Hold |
-| 4 | Brachyolmia | 99.89% | 極低——軟骨基質/生長板缺陷，非發炎機轉，與 COX 抑制無重疊 | Hold |
-| 5 | Pseudoachondroplasia | 99.81% | 相對較高但仍屬臆測——COMP 蛋白錯誤摺疊觸發 ER 壓力與類發炎（NF-κB）路徑，理論上與 NSAID 機轉較接近，但無臨床前/臨床證據佐證 | Hold |
-
-**說明：** 五者證據等級皆為 L5，均無臨床試驗或文獻支持，建議決策皆為 Hold。若未來需優先深入研究，機轉層面相對值得關注的是 rank 5（Pseudoachondroplasia），但仍需臨床前研究驗證後才可能提升證據等級。
-
----
-
-> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過完整臨床驗證後才能應用於實際治療。
+*本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

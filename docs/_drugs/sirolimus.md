@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sirolimus
-parent: 高證據等級 (L1-L2)
-nav_order: 690
-evidence_level: L2
+parent: 僅模型預測 (L5)
+nav_order: 802
+evidence_level: L5
 indication_count: 5
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,98 +29,90 @@ indication_count: 5
 
 </div>
 
-# Sirolimus：從器官移植排斥預防到脂肪肉瘤 (Liposarcoma)
+# Sirolimus：從器官移植免疫抑制到脂肪肉瘤
 
 ## 一句話總結
 
-Sirolimus（DrugBank DB00877）是一種 mTOR 抑制劑，其文獻脈絡（如 PMID 16434506、20534289）顯示原本用於腎臟移植後免疫抑制與排斥預防。
-TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，
-目前有 **5 個臨床試驗**和 **12 篇文獻**支持這個方向，其中包含一項 sirolimus 本體用於黏液性脂肪肉瘤的單臂 Phase 2 試驗。
-
-> ⚠️ 本 Evidence Pack 的 `original_indications` 欄位為空、`original_moa` 標記為 [Data Gap]，且香港未上市（無許可證資料），下方原適應症相關描述僅基於文獻脈絡推論，非正式核准資料。
-
----
+Sirolimus（Rapamycin，香港商品名 Rapamune）是 mTOR 抑制劑，常用於腎臟移植後的免疫抑制。香港許可證資料未列出核准適應症文字。
+TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，目前有 **5 個臨床試驗**和 **12 篇文獻**。但這些試驗大多使用其他 rapalog 藥物（temsirolimus、everolimus、ridaforolimus），尚無 sirolimus 在脂肪肉瘤的直接療效數據。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 本地無核准適應症登記資料（香港未上市；文獻脈絡指向腎臟移植排斥預防） |
 | 預測新適應症 | 脂肪肉瘤 (Liposarcoma) |
 | TxGNN 預測分數 | 99.89% |
-| 證據等級 | L2 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 |
-| 建議決策 | Research Question（研究假說階段） |
-
----
+| 證據等級 | L4（Evidence Pack 標示 L2，但缺乏 RCT 且屬類別效應推論，依判定規則下修） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 3 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（Evidence Pack 標記為 [Data Gap]）。但根據 sirolimus 的藥理類別（mTOR 抑制劑）與現有文獻證據，可推論其機轉關聯性：
+目前缺乏詳細的作用機轉資料（DrugBank MOA 尚未取得）。根據文獻，sirolimus 是 mTOR（哺乳動物雷帕黴素標靶蛋白）抑制劑，在實驗模型中能抑制而非促進腫瘤生長。
 
-去分化脂肪肉瘤（dedifferentiated liposarcoma, DDL）存在 Akt-mTOR 及 MAPK 路徑活化（PMID 26518767），mTOR 抑制劑（sirolimus 及其同類藥物 temsirolimus、everolimus/ridaforolimus）具明確分子標靶依據。MDM2/CDK4 擴增亦與 mTOR 路徑交互作用，這是此類脂肪肉瘤的常見分子特徵。
+去分化脂肪肉瘤中已有研究證實 Akt-mTOR 與 MAPK 路徑被活化（PMID 26518767），因此抑制 mTOR 在機轉上有合理性。前臨床研究也顯示，rapamycin 合併 chloroquine（阻斷自噬）在去分化脂肪肉瘤的患者來源異種移植 (PDOX) 小鼠模型中能抑制腫瘤生長。
 
-更直接的證據是，sirolimus 本體已在一項單臂 Phase 2 試驗（NCT02821507）中用於治療轉移性或無法切除的黏液性脂肪肉瘤與軟骨肉瘤，顯示藥廠與研究機構已認可其機轉合理性並付諸臨床測試。同類 mTOR 抑制劑 ridaforolimus（AP23573）也在晚期肉瘤（含脂肪肉瘤）的 Phase 2 試驗中獲得正向訊號（NCT00093080）。
-
----
+目前的臨床證據多為其他 rapalog 在混合肉瘤族群的單臂 Phase 2 或 Phase 1/2 試驗，不是 RCT。因此這個預測目前屬於類別效應的推論。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Phase 2 | 已完成 | 70 | sirolimus 合併 cyclophosphamide 用於轉移性/無法切除黏液性脂肪肉瘤及軟骨肉瘤，直接相關（本體藥物） |
-| [NCT00093080](https://clinicaltrials.gov/study/NCT00093080) | Phase 2 | 已完成 | 216 | ridaforolimus（sirolimus 類似物）用於晚期肉瘤（含脂肪肉瘤） |
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Phase 2 | 進行中（未招募） | 48 | ribociclib 合併 everolimus 用於去分化脂肪肉瘤及平滑肌肉瘤 |
-| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Phase 1/2 | 已完成 | 24 | Torisel（temsirolimus）合併脂質體 doxorubicin 用於軟組織及骨肉瘤 |
-| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | Phase 2 | 已完成 | 46 | cixutumumab 合併 temsirolimus 用於兒童復發/難治性肉瘤 |
-
----
+| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Phase 2 | 完成 | 70 | Sirolimus 合併 cyclophosphamide 用於轉移性或無法切除的黏液性脂肪肉瘤與軟骨肉瘤，單臂試驗，尚無可見的療效結果 |
+| [NCT00093080](https://clinicaltrials.gov/study/NCT00093080) | Phase 2 | 完成 | 216 | Ridaforolimus（mTOR 抑制劑）用於晚期肉瘤，脂肪肉瘤可能為其中的亞群 |
+| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Phase 2 | 進行中（不再招募） | 48 | Ribociclib 合併 everolimus 用於晚期去分化脂肪肉瘤與平滑肌肉瘤，疾病吻合但藥物非 sirolimus |
+| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Phase 1/2 | 完成 | 24 | Temsirolimus 合併微脂體 doxorubicin 用於復發性軟組織與骨肉瘤 |
+| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | Phase 2 | 完成 | 46 | Cixutumumab 合併 temsirolimus 用於兒童復發或難治性實體瘤，族群為兒童，適用性低 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | RCT | Clin Cancer Res | Ribociclib+Everolimus 於去分化脂肪肉瘤及平滑肌肉瘤之 Phase 2 結果，CDK4 與 mTOR 雙標靶具協同效果 |
-| [39796641](https://pubmed.ncbi.nlm.nih.gov/39796641/) | 2024 | Review | Cancers | 軟組織肉瘤新型治療藥物綜述 |
-| [37400145](https://pubmed.ncbi.nlm.nih.gov/37400145/) | 2023 | Review | Cancer Genomics Proteomics | Chloroquine 與 rapamycin 合併抑制自噬，用於高分化脂肪肉瘤治療 |
-| [26518767](https://pubmed.ncbi.nlm.nih.gov/26518767/) | 2016 | Cohort | Tumour Biology | 去分化脂肪肉瘤中 Akt-mTOR 與 MAPK 路徑活化之免疫組織化學分析 |
-| [16434506](https://pubmed.ncbi.nlm.nih.gov/16434506/) | 2006 | Cohort | J Am Soc Nephrol | Sirolimus 早期停用 cyclosporine 後可降低成人腎臟移植患者癌症風險 |
-| [37222206](https://pubmed.ncbi.nlm.nih.gov/37222206/) | 2023 | Review | Curr Opin Oncol | 晚期肉瘤新型標靶治療綜述 |
-| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Review | Bull Cancer | 罕見結締組織腫瘤與肉瘤之標靶治療 |
-| [25519700](https://pubmed.ncbi.nlm.nih.gov/25519700/) | 2015 | 臨床前 | Mol Cancer Ther | MLN0128（ATP 競爭性 mTOR 激酶抑制劑）於骨與軟組織肉瘤具抗腫瘤活性 |
-| [36309387](https://pubmed.ncbi.nlm.nih.gov/36309387/) | 2022 | 臨床前 | In Vivo | Chloroquine 合併 rapamycin 於去分化脂肪肉瘤 PDOX 小鼠模型中抑制腫瘤生長 |
-| [26093731](https://pubmed.ncbi.nlm.nih.gov/26093731/) | 2015 | Cohort | Transplant Proc | 腎臟移植免疫抑制治療患者之癌症篩檢研究 |
-
----
+| [16434506](https://pubmed.ncbi.nlm.nih.gov/16434506/) | 2006 | RCT | J Am Soc Nephrol | 腎臟移植早期停用 cyclosporine 並改用 sirolimus，可降低癌症風險（結局為癌症風險，非肉瘤療效） |
+| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | Phase 2 試驗報告 | Clin Cancer Res | Ribociclib 合併 everolimus 用於去分化脂肪肉瘤與平滑肌肉瘤 |
+| [26518767](https://pubmed.ncbi.nlm.nih.gov/26518767/) | 2016 | 前臨床／轉譯研究 | Tumour Biol | 99 例去分化脂肪肉瘤檢體顯示 Akt-mTOR 與 MAPK 路徑活化，並有 mTOR 抑制劑的體外抗腫瘤試驗 |
+| [37400145](https://pubmed.ncbi.nlm.nih.gov/37400145/) | 2023 | 前臨床 | Cancer Genomics Proteomics | Chloroquine 合併 rapamycin 阻斷自噬，對高分化脂肪肉瘤有協同效果 |
+| [36309387](https://pubmed.ncbi.nlm.nih.gov/36309387/) | 2022 | 前臨床 (PDOX) | In Vivo | Chloroquine 合併 rapamycin 在去分化脂肪肉瘤 PDOX 模型中抑制腫瘤生長 |
+| [25519700](https://pubmed.ncbi.nlm.nih.gov/25519700/) | 2015 | 前臨床 | Mol Cancer Ther | ATP 競爭型 mTOR 激酶抑制劑 MLN0128 對骨與軟組織肉瘤有抗腫瘤活性；第一代 rapalog 的臨床效益有限 |
+| [39796641](https://pubmed.ncbi.nlm.nih.gov/39796641/) | 2024 | Review | Cancers | 軟組織肉瘤新療法的進展回顧 |
+| [37222206](https://pubmed.ncbi.nlm.nih.gov/37222206/) | 2023 | Review | Curr Opin Oncol | 晚期肉瘤標靶藥物的臨床試驗回顧 |
+| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Review | Bull Cancer | 罕見結締組織腫瘤與肉瘤的標靶治療 |
+| [26093731](https://pubmed.ncbi.nlm.nih.gov/26093731/) | 2015 | 世代研究／回顧 | Transplant Proc | 長期免疫抑制的腎臟移植患者之癌症篩檢 |
 
 ## 香港上市資訊
 
-目前無香港許可證登記資料（`taiwan_regulatory.market_status` = 未上市，`total_licenses` = 0）。
-
----
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-50220 | RAPAMUNE TAB 1MG | PFIZER CORPORATION HONG KONG LIMITED |
+| HK-61049 | RAPAMUNE TAB 0.5MG | PFIZER CORPORATION HONG KONG LIMITED |
+| HK-67922 | RAPAMUNE ORAL SOLUTION 1MG/ML | PFIZER CORPORATION HONG KONG LIMITED |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
-
-> 資料缺口提示：本 Evidence Pack 標記「HK 仿單警語/禁忌」為 **Blocking** 等級缺口（DG001），此項缺失使本候選**無法進入 S1 安全性初評階段**；「作用機轉 (MOA)」為 **High** 等級缺口（DG002），影響機轉關聯性分析的嚴謹度。
-
----
+安全性資訊請參考原廠仿單。目前尚未取得香港衛生署仿單的警語與禁忌資料，藥物交互作用查詢也無結果。
 
 ## 結論與下一步
 
-**決策：Research Question（研究假說階段）**
+**決策：Hold**
 
 **理由：**
-- 已有 sirolimus 本體用於黏液性脂肪肉瘤的 Phase 2 試驗（NCT02821507）及同類藥物的多項 Phase 2 證據，機轉層面（mTOR 路徑活化）具合理性，對應證據等級 L2。
-- 但香港無上市許可、無安全性仿單資料（Blocking 缺口），且 MOA 資料缺失，尚不足以支持進入正式安全性評估流程。
+- 目前沒有 sirolimus 在脂肪肉瘤的直接療效數據，臨床證據來自其他 rapalog 的單臂 Phase 2 試驗，且混合了不同肉瘤亞型。
+- 香港仿單的安全性資料缺漏，無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得 sirolimus 完整 MOA 與 DrugBank 分類資料（DG002）
-- 取得香港（或參考地區）仿單警語與禁忌症資料，解除 Blocking 缺口（DG001）
-- 完成待分類文獻（多筆 `classification.study_type` 及 `relevance` 為 pending）之系統性分級
-- 評估 sirolimus 現有劑型是否符合脂肪肉瘤治療所需給藥途徑
+- 取得香港衛生署仿單，補齊警語與禁忌。
+- 補充 DrugBank 的作用機轉資料。
+- 取得 NCT02821507（sirolimus 合併 cyclophosphamide）的結果，並確認其中脂肪肉瘤亞群的療效。
+- 檢視 NCT00093080 等試驗的脂肪肉瘤亞群分析。
+
+**補充：**
+同一份 Evidence Pack 中，**淋巴管平滑肌瘤病 (LAM，lymphangiomyoma)** 與**良性 PEComa** 的證據較強，兩者都有 TSC/mTORC1 的明確機轉。
+- LAM 有 Phase 3 試驗 NCT00414648（MILES，sirolimus 用於 LAM），並有 NCT03150914 等 sirolimus 試驗。
+- 良性 PEComa 有 everolimus 的 Phase 3 RCT（NCT00790400）。
+- 兩者的評級均為 L2，建議決策為 Proceed with Guardrails，建議優先評估。
+
+> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證後才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

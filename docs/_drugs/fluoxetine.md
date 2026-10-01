@@ -2,7 +2,7 @@
 layout: default
 title: Fluoxetine
 parent: 中證據等級 (L3-L4)
-nav_order: 329
+nav_order: 385
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,74 +29,79 @@ indication_count: 5
 
 </div>
 
-# Fluoxetine：從抑鬱症到類分裂人格障礙
+# Fluoxetine：從憂鬱症到分裂樣人格障礙
 
 ## 一句話總結
 
-Fluoxetine 是一種選擇性血清素再回收抑制劑（SSRI），廣泛用於治療抑鬱症、強迫症及恐慌症。
-TxGNN 模型預測它可能對**類分裂人格障礙（Schizoid Personality Disorder）**有效，
-目前有 **0 個臨床試驗**和 **3 篇文獻**支持這個方向。
-
----
+Fluoxetine（氟西汀）是選擇性血清素再回收抑制劑（SSRI），一般用於憂鬱症等情緒與焦慮相關疾病。
+TxGNN 模型預測它可能對**分裂樣人格障礙 (Schizoid Personality Disorder)** 有效，但目前**沒有臨床試驗**，3 篇文獻也都只是間接相關，證據僅屬機轉推論層級。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料缺失（香港許可證資料未收錄） |
-| 預測新適應症 | 類分裂人格障礙 (Schizoid Personality Disorder) |
+| 原適應症 | 憂鬱症等（依一般藥理知識；香港許可證資料未提供核准適應症文字） |
+| 預測新適應症 | 分裂樣人格障礙 (Schizoid Personality Disorder) |
 | TxGNN 預測分數 | 99.92% |
 | 證據等級 | L4 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏 Fluoxetine 的詳細作用機轉資料（MOA 為資料缺口）。根據已知資訊，Fluoxetine 是一種 SSRI，透過阻斷突觸前神經元對血清素（5-HT）的再回收，提升突觸間隙血清素濃度，進而影響情緒調節、社交動機與情感表達。其原本適應症（抑鬱症、強迫症）均涉及血清素系統失調的核心病生理。
+目前缺乏詳細的作用機轉資料（DrugBank MOA 尚未取得）。Fluoxetine 屬於 SSRI，可提高突觸間血清素濃度，其在情緒與焦慮症狀上的療效已被廣泛使用。
 
-類分裂人格障礙的核心特徵為廣泛的情感淡漠、社交迴避，以及對人際親密關係缺乏欲望。血清素系統在社交動機與情感表達中扮演調節角色，SSRI 理論上或可改善情感淡漠症狀，這構成了機轉上的關聯性基礎。
+分裂樣人格障礙屬 Cluster A 人格障礙，患者常有社交孤立，並可能伴隨憂鬱、焦慮或社交焦慮。血清素調節可能改善這些共病症狀，但這只是推論，尚未有分裂樣人格障礙的直接研究證實。
 
-然而，血清素系統與類分裂人格障礙核心病理（自我孤立、廣泛情感缺失）之間的直接因果關係尚未建立。患者本身通常缺乏主動求治動機，且現有文獻均為間接性研究，此預測目前屬機轉類比推論，直接臨床證據極為有限。
-
----
+0.999 的 TxGNN 分數來自知識圖譜預測，不是臨床證據。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|------|------|------|---------|
-| [29955451](https://pubmed.ncbi.nlm.nih.gov/29955451/) | 2016 | Narrative Review | The Mental Health Clinician | 回顧 Cluster A 人格障礙（含類分裂 PD、偏執型 PD、思覺失調型 PD）之藥物治療文獻，探討 SSRI 等藥物的潛在應用價值 |
-| [10929788](https://pubmed.ncbi.nlm.nih.gov/10929788/) | 2000 | Cross-sectional | Comprehensive Psychiatry | 評估 148 位身體畸形恐懼症（BDD）患者的人格障礙與特質，含類分裂傾向；部分受試者參與 fluvoxamine 治療研究，提供間接人格障礙藥理資訊 |
-| [16390895](https://pubmed.ncbi.nlm.nih.gov/16390895/) | 2006 | Cohort | American Journal of Psychiatry | 追蹤抑鬱症患者 6 個月治療結果，評估人格特質（含人格障礙共病）對療效及病程的預測價值 |
+|------|-----|------|------|---------|
+| [29955451](https://pubmed.ncbi.nlm.nih.gov/29955451/) | 2016 | Review | The Mental Health Clinician | 回顧 Cluster A 人格障礙（含分裂樣）的藥物治療，顯示相關證據有限 |
+| [10929788](https://pubmed.ncbi.nlm.nih.gov/10929788/) | 2000 | Cohort | Comprehensive Psychiatry | 評估 148 名身體臆形症患者的人格障礙與特質，其中 26 人參與 fluvoxamine 治療研究；並非針對分裂樣人格障礙的療效 |
+| [16390895](https://pubmed.ncbi.nlm.nih.gov/16390895/) | 2006 | Cohort | American Journal of Psychiatry | 追蹤憂鬱症患者 6 個月治療的病程與預測因子，與分裂樣人格障礙無直接關聯 |
 
----
+以上文獻都沒有直接評估 fluoxetine 對分裂樣人格障礙的療效。
+
+## 香港上市資訊
+
+香港共有 20 張許可證，以下列出 5 張主要許可證。資料未提供劑型與核准適應症文字，劑型僅由品名判斷為膠囊。
+
+| 許可證號 | 品名 | 劑型 | 廠商 |
+|---------|------|------|------|
+| HK-68820 | APO-FLUOXETINE CAPSULES 20MG | 膠囊 | HIND WING CO LTD |
+| HK-35706 | MAGRILAN CAP 20MG | 膠囊 | STAR MEDICAL SUPPLIES LTD |
+| HK-68648 | AROZAC CAPSULES 10MG | 膠囊 | APT PHARMA LIMITED |
+| HK-41383 | APO-FLUOXETINE CAP 20MG | 膠囊 | HIND WING CO LTD |
+| HK-60977 | FLUOXETINE CAPSULES BP 20MG | 膠囊 | AUROBINDO PHARMA LIMITED |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
----
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-現有文獻均為間接性證據（敘事回顧、橫斷面研究、憂鬱症世代研究），缺乏直接針對 Fluoxetine 治療類分裂人格障礙的臨床試驗或前導性研究。血清素系統與 Schizoid PD 核心症狀的因果關係尚未確立，當前證據基礎（L4）不足以支持推進再利用研究。
+- 沒有任何臨床試驗，文獻也只有間接證據，目前僅為模型預測加上機轉推論。
+- 香港藥品仿單的警語與禁忌尚未取得，無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得完整的藥物作用機轉（MOA）與 DrugBank 資料（現為資料缺口）
-- 取得香港衛生署仿單警語與禁忌症資料（現為 Blocking 資料缺口）
-- 直接針對類分裂人格障礙的前導性臨床研究或系統性回顧
-- 優先評估**思覺失調型人格障礙（Schizotypal PD，本次預測排名第 4）**作為替代目標——該適應症已有 Fluoxetine 直接臨床研究（[PMID 1853957](https://pubmed.ncbi.nlm.nih.gov/1853957/)，12 週開放性試驗），證據等級達 L3，建議決策為「Research Question」，研究價值顯著高於本報告主目標
+- 取得香港衛生署藥品仿單的警語與禁忌資料
+- 補齊 DrugBank 作用機轉資料
+- 針對分裂樣人格障礙設計專屬的臨床研究，或補足直接證據
+- 同批預測中，**分裂樣型人格障礙 (Schizotypal Personality Disorder)** 是唯一有 fluoxetine 直接用於該疾病的研究（PMID 1853957，1991；PMID 9448667，1998；均為早期非對照研究，且合併境界型人格障礙患者），可優先評估為研究方向
+- 嬰兒良性陣發性斜頸的預測沒有任何證據，且涉及嬰幼兒用藥，需另做安全性評估
+
+*本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

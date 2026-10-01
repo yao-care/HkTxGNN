@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Methionine
-parent: 僅模型預測 (L5)
-nav_order: 486
-evidence_level: L5
+parent: 中證據等級 (L3-L4)
+nav_order: 561
+evidence_level: L4
 indication_count: 10
 ---
 
 # Methionine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L4** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,31 +29,33 @@ indication_count: 10
 
 </div>
 
-# Methionine：原適應症資料缺失，預測可能適用於 Acne（痤瘡）
+# Methionine：從必需胺基酸到痤瘡
 
 ## 一句話總結
 
-Methionine（DrugBank ID：DB00134）是一種必需胺基酸，本次評估組並未收錄其原始核准適應症與作用機轉資料（Data Gap）。TxGNN 模型在其眾多候選適應症中，將 **Acne（痤瘡）** 列為評分最高的預測標的（分數 **99.9996%**），但目前僅有 **4 篇文獻**支持、**無任何臨床試驗**，且證據方向與治療假說並不一致，證據等級評定為 **L5**。
+Methionine（甲硫胺酸）是一種必需胺基酸，在香港有 20 張許可證，但許可證資料未載明核准適應症。
+TxGNN 模型預測它可能對**痤瘡 (Acne)** 有效。
+目前**沒有臨床試驗**，只檢索到 **4 篇文獻**，且沒有一篇顯示 methionine 能治療痤瘡。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無公開資料（本評估組未收錄，屬資料缺口） |
-| 預測新適應症 | Acne (痤瘡) |
-| TxGNN 預測分數 | 99.9996%（該藥物全部候選適應症中排名第 27） |
-| 證據等級 | L5 |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 張 |
+| 原適應症 | 許可證未載明 |
+| 預測新適應症 | 痤瘡 (Acne) |
+| TxGNN 預測分數 | 99.9996% |
+| 證據等級 | L4 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏 Methionine 的作用機轉（MOA）資料，其原始核准適應症也未收錄於本次評估組。根據模型推論的理論基礎，Methionine 是 homocysteine 的代謝前驅物，理論上與含硫胺基酸代謝路徑相關，這可能是模型將其與痤瘡連結的統計基礎。
+目前缺乏詳細的作用機轉資料。Methionine 是含硫必需胺基酸，參與體內甲硫胺酸循環與麩胱甘肽（glutathione）相關的硫代謝路徑。這是一般生化知識，Evidence Pack 並未提供具體的 MOA 或痤瘡相關機轉。
 
-然而，支持這個預測的文獻證據方向其實相反：其中一篇文獻描述的是異維A酸（isotretinoin，一種用於治療囊腫型痤瘡的藥物）會「升高」患者血漿 homocysteine 濃度，這是該藥物的**副作用觀察**，並非「補充 Methionine 可改善痤瘡」的治療性證據。其餘文獻涉及 MTHFR 基因突變新生兒腦病變、Sweet氏症候群、嗜中性球 C5a 功能觀察，與痤瘡致病機轉的關聯性也相當薄弱。
+在檢索到的文獻中，與痤瘡唯一相關的發現是：使用 isotretinoin 治療囊腫性痤瘡的病人，血漿同半胱胺酸（homocysteine，甲硫胺酸循環的代謝產物）升高。這只是藥物副作用與代謝物的關聯，**不能證明補充 methionine 能改善痤瘡**。其餘 3 篇文獻（MTHFR 突變個案、Sweet 症候群、C5a 嗜中性球功能）與此假說基本無關。
 
-整體而言，此預測較接近知識圖譜的統計相似性推論，缺乏可驗證、方向一致的生物學路徑說明，機轉合理性偏低。
+因此 99.9996% 的分數只是模型預測，並非臨床支持。目前找不到 methionine 與痤瘡之間直接的機轉連結。
 
 ## 臨床試驗證據
 
@@ -63,14 +65,22 @@ Methionine（DrugBank ID：DB00134）是一種必需胺基酸，本次評估組�
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [11277950](https://pubmed.ncbi.nlm.nih.gov/11277950/) | 2001 | Cohort（藥物副作用觀察） | International Journal of Dermatology | 異維A酸治療囊腫型痤瘡患者血漿 homocysteine 濃度升高，屬藥物副作用觀察，非 Methionine 治療性證據 |
-| [39357918](https://pubmed.ncbi.nlm.nih.gov/39357918/) | 2024 | Case Report | BMJ Case Reports | MTHFR 基因突變新生兒病例，合併新生兒痤瘡、稀疏毛髮、類馬凡氏體型等表現 |
-| [3859500](https://pubmed.ncbi.nlm.nih.gov/3859500/) | 1985 | Case Report/Observational | Journal of the American Academy of Dermatology | Sweet氏症候群合併囊腫結節型痤瘡患者的嗜中性球趨化活性觀察 |
-| [3161955](https://pubmed.ncbi.nlm.nih.gov/3161955/) | 1985 | Observational | The Journal of Investigative Dermatology | 感染性與非感染性皮膚疾病（含痤瘡）患者嗜中性球 C5a 功能短暫缺失之體外觀察 |
+| [11277950](https://pubmed.ncbi.nlm.nih.gov/11277950/) | 2001 | Cohort | Int J Dermatol | 使用 isotretinoin 治療囊腫性痤瘡的病人，血漿同半胱胺酸升高。這是藥物副作用的觀察，並未顯示 methionine 有療效 |
+| [39357918](https://pubmed.ncbi.nlm.nih.gov/39357918/) | 2024 | Case report | BMJ Case Reports | 新型 MTHFR 突變的新生兒，出現腦病變、掉髮與類馬凡氏特徵，皮膚表現包括新生兒痤瘡。與 methionine 治療痤瘡無直接關係 |
+| [3859500](https://pubmed.ncbi.nlm.nih.gov/3859500/) | 1985 | Laboratory study | J Am Acad Dermatol | Sweet 症候群合併結節囊腫性痤瘡病人的血漿趨化因子與嗜中性球功能，isotretinoin 治療期間趨化性略降。與 methionine 無關 |
+| [3161955](https://pubmed.ncbi.nlm.nih.gov/3161955/) | 1985 | Laboratory study | J Invest Dermatol | 135 位感染性與非感染性皮膚病人（含聚合性痤瘡）的嗜中性球對 C5a 反應。與 methionine 無關 |
 
 ## 香港上市資訊
 
-目前未於香港藥品許可證資料庫中登記（本藥品尚未上市）。
+共 20 張許可證，以下列出 5 張主要許可證，許可證資料均未載明劑型與核准適應症。
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-17391 | HUAZIN INJ | 未載明 | 未載明 |
+| HK-57540 | AMINOL-S INJ | 未載明 | 未載明 |
+| HK-62100 | AMINOGEN-S SOLUTION FOR INFUSION | 未載明 | 未載明 |
+| HK-60459 | PAN-VASOL SOLUTION FOR INJECTION | 未載明 | 未載明 |
+| HK-58914 | PAN-AMIN G INJ | 未載明 | 未載明 |
 
 ## 安全性考量
 
@@ -81,14 +91,17 @@ Methionine（DrugBank ID：DB00134）是一種必需胺基酸，本次評估組�
 **決策：Hold**
 
 **理由：**
-- 唯一支持 Acne 適應症的文獻證據方向薄弱且相反（描述的是他藥副作用觀察，而非 Methionine 治療效果），證據等級僅 L5，無臨床試驗佐證。
-- Methionine 的作用機轉（MOA）與仿單安全性資料（警語、禁忌症）均為缺口，其中仿單資料缺口屬 Blocking 等級，尚無法進入安全性初評（S1）。
+- 沒有任何臨床試驗，文獻中也沒有支持 methionine 治療痤瘡的證據，分數僅來自模型預測。
+- 香港藥品仿單的警語與禁忌資料尚未取得（阻擋性缺口），無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得香港衛生署核准仿單的警語與禁忌症資料（Blocking，需優先補齊）
-- 取得 Methionine 明確的作用機轉資料，以評估與 Acne 的機轉關聯性是否成立
-- 針對 Acne 適應症尋找具治療意圖（而非藥物副作用觀察）的直接證據，如體外/動物治療性研究或早期臨床試驗
-- 另可留意本候選藥物中證據等級較高的白內障相關預測（cortical cataract、nuclear senile cataract、mature cataract，評為 L4／S1／Research Question）：這些適應症有多篇動物與離體研究支持 methionine→cysteine→麩胱甘肽（GSH）抗氧化路徑對水晶體透明度的潛在保護作用，機轉關聯性明顯優於 Acne，但仍缺乏人體介入性試驗資料，可作為後續研究方向的優先參考
+- 取得香港衞生署的仿單，補齊警語、禁忌症與核准適應症。
+- 補充 methionine 的作用機轉資料（例如查詢 DrugBank）。
+- 針對「methionine 與痤瘡」重新做有目的的文獻檢索，確認是否有直接證據。
+- 確認各許可證產品的劑型與給藥途徑（目前資料為空白），評估是否適用於痤瘡。
+- 另有預測適應症 cortical cataract 與 nuclear senile cataract 有間接的前臨床文獻，僅列為研究問題，方向（有益或有害）不明。若要改看白內障方向，需重新評估。
+
+> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -2,7 +2,7 @@
 layout: default
 title: Fosfomycin
 parent: 高證據等級 (L1-L2)
-nav_order: 335
+nav_order: 393
 evidence_level: L2
 indication_count: 5
 ---
@@ -29,94 +29,82 @@ indication_count: 5
 
 </div>
 
-# Fosfomycin：從泌尿道感染到淋球菌性尿道炎
+# Fosfomycin：從尿路感染到淋菌性尿道炎
 
 ## 一句話總結
 
-Fosfomycin 是一種廣效抗生素，以抑制細菌細胞壁合成為主要機轉，臨床上用於泌尿道感染治療。
-TxGNN 模型預測它可能對**淋球菌性尿道炎 (Gonococcal Urethritis)** 有效，
-目前有 **6 篇文獻**支持這個方向，其中包含 **1 篇隨機對照試驗（RCT）**。
-
----
+Fosfomycin（磷黴素）是一種抗生素，一般主要用於尿路感染。
+TxGNN 模型預測它可能對**淋菌性尿道炎 (Gonococcal Urethritis)** 有效。
+目前**無已登記的臨床試驗**，但有 **6 篇文獻**，其中包含 1 篇隨機對照試驗。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 泌尿道感染（廣效抗生素；香港許可證資料無） |
-| 預測新適應症 | 淋球菌性尿道炎 (Gonococcal Urethritis) |
+| 原適應症 | 尿路感染（依一般藥理知識；香港許可證未登載適應症文字） |
+| 預測新適應症 | 淋菌性尿道炎 (Gonococcal Urethritis) |
 | TxGNN 預測分數 | 99.99% |
 | 證據等級 | L2 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Research Question |
-
----
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 1 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-### 作用機轉
+目前缺乏 DrugBank 的詳細作用機轉資料，以下說明依據一般藥理知識。Fosfomycin 抑制 MurA 酵素（UDP-N-acetylglucosamine enolpyruvyl transferase），阻斷細菌細胞壁肽聚醣合成的第一步。它對多種革蘭氏陰性菌有體外活性，包括淋病雙球菌 (*Neisseria gonorrhoeae*)。
 
-Fosfomycin 透過**不可逆地抑制 MurA 酶**（UDP-N-acetylglucosamine-1-enolpyruvyl transferase），阻斷細菌細胞壁肽聚糖（peptidoglycan）前驅物的合成，從而發揮殺菌效果。MurA 為細菌特有靶點，對人體細胞無直接毒性，安全窗口相對寬裕。此外，fosfomycin 分子量極小（138 Da）且水溶性高，組織滲透性良好。
+Fosfomycin 主要用於尿路感染，而淋菌性尿道炎同樣是泌尿生殖道的細菌感染。這個預測等於把既有的泌尿道抗菌用途延伸到另一種致病菌，機轉上說得通。
 
-> 注意：詳細 MOA 資料（DrugBank）目前為 Data Gap，上述描述以已知藥理學共識為基礎。
+其他預測適應症的可信度差異很大：
 
-### 對淋球菌的作用
+- **Ureaplasma 尿道炎**：Ureaplasma 沒有細胞壁，細胞壁合成抑制劑理論上無效，可能是偽陽性。
+- **子宮發炎性疾病**：僅有與療效無關的兒童藥物動力學研究。
+- **黃色肉芽腫性腎盂腎炎**：通常需要手術，單靠抗生素不太可能是主要療法。
+- **會厭炎**：屬呼吸道急症，有既定的靜脈抗生素治療，fosfomycin 沒有支持理由。
 
-*Neisseria gonorrhoeae*（淋球菌）含有 MurA 靶點，體外研究已確認其對 fosfomycin 敏感。2016 年一項 RCT（PMID 27064136）在 126 名男性患者中直接驗證了 fosfomycin trometamol 口服方案（3g，第 1、3、5 天）治療單純性淋球菌性尿道炎的臨床療效，提供了機轉可轉化為臨床效益的最直接證據。
-
-### 背景與限制
-
-現行 WHO 指引以 ceftriaxone 為淋球菌性尿道炎的首選治療。然而，全球淋球菌對多種抗生素（青黴素、四環素、氟喹諾酮）的耐藥率持續攀升，替代療法的需求日益迫切。Fosfomycin 因作用靶點獨特，與現有常用抗生素無交叉耐藥性，具備替代或後備治療潛力，但單藥長期抗藥性演變風險仍是主要顧慮。
-
----
+這四項均無疾病專屬的臨床證據，皆為 L5、建議 Hold。
 
 ## 臨床試驗證據
 
-目前 ClinicalTrials.gov 及 ICTRP 均**無淋球菌性尿道炎相關臨床試驗登記**。
-
----
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|------|------|------|---------|
-| [27064136](https://pubmed.ncbi.nlm.nih.gov/27064136/) | 2016 | RCT | Clin Microbiol Infect | Fosfomycin trometamol 3g 口服（第 1、3、5 天）治療 126 名男性單純性淋球菌性尿道炎，療效優於對照組 |
-| [832528](https://pubmed.ncbi.nlm.nih.gov/832528/) | 1977 | Clinical Cohort | Chemotherapy | 70 例急性／亞急性淋球菌性尿道炎以 IM fosfomycin 治療，4g 單次劑量治癒率 86%，分次給藥方案治癒率 92% |
-| [832523](https://pubmed.ncbi.nlm.nih.gov/832523/) | 1977 | Clinical Bacteriological Study | Chemotherapy | 959 名多種感染症患者的大型臨床研究，含淋球菌性尿道炎，系統評估 fosfomycin 廣效抗菌活性 |
-| [35820778](https://pubmed.ncbi.nlm.nih.gov/35820778/) | 2023 | Secondary Analysis | Sex Transm Infect | NABOGO 試驗次要分析：評估無症狀肛門、咽喉、陰道及尿道淋球菌感染的自然清除率，提供疾病自然史背景資料 |
-| [17878816](https://pubmed.ncbi.nlm.nih.gov/17878816/) | 2007 | Case Report | J Fr Ophtalmol | 29 歲男性淋球菌性結膜炎合併角膜穿孔病例，致病菌對青黴素、四環素、氟喹諾酮均耐藥，高劑量靜脈 fosfomycin 治療後預後良好 |
-| [19593988](https://pubmed.ncbi.nlm.nih.gov/19593988/) | 2009 | Review/Case Series | Natl J Andrology | 探討非淋球菌奈瑟菌對男性泌尿生殖道感染診斷與治療的影響，提供 Neisseria 屬感染的鑑別診斷背景 |
-
----
+|------|-----|------|------|---------|
+| [27064136](https://pubmed.ncbi.nlm.nih.gov/27064136/) | 2016 | RCT | Clin Microbiol Infect | 開放式隨機試驗，152 名男性、126 人完成。介入組口服 fosfomycin trometamol 3 g（第 1、3、5 天）用於單純性淋菌性尿道炎。提供的摘要未含療效數據 |
+| [832528](https://pubmed.ncbi.nlm.nih.gov/832528/) | 1977 | 臨床研究（歷史性） | Chemotherapy | 70 名患者肌肉注射 fosfomycin。總量 4 g 分次給藥，12 人中 11 人治癒（92%）。單次 4 g，43 人中 37 人治癒（86%） |
+| [832523](https://pubmed.ncbi.nlm.nih.gov/832523/) | 1977 | 細菌學臨床評估 | Chemotherapy | 西班牙多家醫院共 959 名患者，涵蓋淋菌性尿道炎等多種感染，評估 fosfomycin 的廣譜抗菌表現 |
+| [19593988](https://pubmed.ncbi.nlm.nih.gov/19593988/) | 2009 | Review | Zhonghua Nan Ke Xue | 探討非淋病性奈瑟菌對男性泌尿生殖道感染診治的影響，與 fosfomycin 的關聯較間接 |
+| [35820778](https://pubmed.ncbi.nlm.nih.gov/35820778/) | 2023 | 次級分析 | Sex Transm Infect | NABOGO 試驗的次級分析，探討無症狀淋病感染的自發清除，並非 fosfomycin 專屬研究 |
+| [17878816](https://pubmed.ncbi.nlm.nih.gov/17878816/) | 2007 | 病例報告 | J Fr Ophtalmol | 成人淋菌性結膜炎併發角膜穿孔。菌株對青黴素類、四環素類與氟喹諾酮類抗藥，改以高劑量注射治療後好轉。摘要未顯示所用藥物 |
 
 ## 香港上市資訊
 
-Fosfomycin 在香港目前**未上市**，無任何許可證紀錄。若要評估再利用可行性，需先規劃新藥引進申請路徑。
-
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-43159 | MONUROL SACHETS 3G | ZENFIELDS (H.K.) LIMITED |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
-> 目前警語、禁忌症及藥物交互作用資料均為 Data Gap（DG001），需從 FDA/EMA 仿單 PDF 補充後方可進入正式安全性評估。
-
----
-
 ## 結論與下一步
 
-**決策：Research Question**
+**決策：Hold**
 
 **理由：**
-文獻中有 1 篇 2016 年 RCT 直接驗證 fosfomycin trometamol 治療男性淋球菌性尿道炎的療效，輔以 1977 年多項臨床研究，整體證據等級達 L2。在淋球菌耐藥危機加劇的背景下，fosfomycin 作為替代或後備療法具研究價值，但尚需更大規模試驗確認，且香港未上市的現狀需同步解決。
+- 有 1 篇 RCT 與早期臨床研究支持方向，證據等級為 L2。但該 RCT 為開放式設計，且摘要未提供療效數據，也沒有已登記的臨床試驗。
+- 香港仿單的警語與禁忌資料缺漏，屬阻擋性缺口，無法進入安全性篩選。作用機轉也缺乏 DrugBank 資料。
 
 **若要推進需要：**
-- 補充安全性資料（警語、禁忌、DDI），目前為 Blocking Data Gap
-- 從 DrugBank 取得完整 MOA 資料（High Data Gap）
-- 評估香港／區域淋球菌對 fosfomycin 的當地耐藥性流行病學
-- 規劃香港衛生署新藥引進申請路徑（目前 0 張許可證）
-- 設計前瞻性 RCT 以驗證當地人群療效，並評估與 ceftriaxone 的比較效果
+- 取得香港衛生署的仿單，解析警語與禁忌症，完成安全性篩選。
+- 取得 27064136 全文，確認療效、對照組與微生物治癒率。
+- 確認近年淋病雙球菌對 fosfomycin 的敏感性與抗藥性資料。
+- 補齊 DrugBank 作用機轉資料。
+- 確認香港許可證的劑型與核准適應症，評估劑型（3 g 口服散劑）與適應症的相容性。
+
+*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

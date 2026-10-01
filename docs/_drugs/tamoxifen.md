@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tamoxifen
-parent: 中證據等級 (L3-L4)
-nav_order: 720
-evidence_level: L4
+parent: 僅模型預測 (L5)
+nav_order: 833
+evidence_level: L5
 indication_count: 10
 ---
 
 # Tamoxifen
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ indication_count: 10
 
 </div>
 
-# Tamoxifen：從乳癌到乳房佩吉特氏病
+# Tamoxifen：預測新適應症為乳房佩吉特氏症 (Mammary Paget Disease)
 
 ## 一句話總結
 
-Tamoxifen 是一種選擇性雌激素受體調節劑（SERM），核心藥理作用為競爭性結合雌激素受體（ER），已知核准用途為 ER 陽性乳癌之治療與預防。
-TxGNN 模型預測它可能對**乳房佩吉特氏病（Mammary Paget Disease）**有效，
-目前有 **1 個間接相關臨床試驗**和 **13 篇文獻**（多為個案報告與小型世代研究）支持這個方向，證據等級偏低（L4）。
+Tamoxifen（DrugBank：DB00675）是一種抗雌激素藥物，在香港已有 14 張許可證，但資料中沒有登載核准適應症文字。
+TxGNN 模型預測它可能對**乳房佩吉特氏症 (Mammary Paget Disease)** 有效。
+目前只有 **1 個間接相關的臨床試驗**和 **13 篇文獻**，其中直接談到 tamoxifen 治療的只有零星個案報告，證據偏弱。
 
 ---
 
@@ -43,23 +43,22 @@ TxGNN 模型預測它可能對**乳房佩吉特氏病（Mammary Paget Disease）
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 乳癌（ER 陽性）— 香港許可證資料缺失，此為 Tamoxifen 已知核准用途 |
-| 預測新適應症 | 乳房佩吉特氏病 (Mammary Paget Disease) |
+| 預測新適應症 | 乳房佩吉特氏症 (Mammary Paget Disease) |
 | TxGNN 預測分數 | 99.69% |
-| 證據等級 | L4 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L4（沿用 Evidence Pack 評級；直接證據僅有個案報告，無對照試驗） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 14 張 |
 | 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏 Tamoxifen 詳細作用機轉的結構化資料（DrugBank MOA 查詢為空）。根據已知藥理學知識與本證據包內文獻／試驗描述可交叉確認，Tamoxifen 為 SERM，透過競爭性結合雌激素受體、抑制 ER 訊號驅動之腫瘤生長，此機轉已於 ER 陽性乳癌中被廣泛證實。
+目前缺乏詳細的作用機轉資料。Tamoxifen 一般被認為是雌激素受體拮抗劑，在雌激素受體陽性的腫瘤中可抑制雌激素驅動的細胞增殖。
 
-乳房佩吉特氏病（Mammary Paget Disease）是一種罕見的乳頭表皮內病變，90% 以上病例合併潛在的乳管癌（多為 ER 陽性）。Tamoxifen 的抗雌激素機轉理論上可作用於合併之乳癌成分，這也是 TxGNN 產生此預測的合理基礎。
+乳房佩吉特氏症通常伴隨乳房內原位癌或侵襲性乳癌。如果癌細胞表現荷爾蒙受體，抗雌激素治療在機轉上才說得通。
 
-然而，Paget 氏病本身（表皮內 Paget 細胞）並非典型的雌激素依賴性病灶，目前沒有直接證據顯示 Tamoxifen 對 Paget 細胞本身具有治療機轉。現有臨床試驗（NCT00002920）僅涉及背景族群重疊（同一試驗收案族群包含 Paget's disease 患者，但試驗本身測試的是 MPA 預防子宮內膜病變，並非測試 Tamoxifen 治療 Paget 氏病），文獻證據也以個案報告與小型世代研究為主，尚無針對此適應症的前瞻性試驗。
+但佩吉特氏細胞的受體狀態不一，常常不利於內分泌治療，所以療效不確定。Tamoxifen 在這裡比較可能是用於治療底層乳癌的輔助療法，而不是直接治療佩吉特氏症。
 
 ---
 
@@ -67,30 +66,40 @@ TxGNN 模型預測它可能對**乳房佩吉特氏病（Mammary Paget Disease）
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00002920](https://clinicaltrials.gov/study/NCT00002920) | Phase 3 | 已完成 | 313 | 收案族群包含 Paget's disease 患者，但試驗本身測試 medroxyprogesterone 在服用 tamoxifen 之停經後乳癌患者中預防子宮內膜病變的效果，**非**直接測試 tamoxifen 治療 Paget 氏病（相關性評級：C，背景族群重疊而非直接證據） |
+| [NCT00002920](https://clinicaltrials.gov/study/NCT00002920) | Phase 3 | 完成 | 313 | 比較 medroxyprogesterone 與觀察，用於預防服用 tamoxifen 的停經後乳癌患者的子宮內膜病變。納入族群含乳頭佩吉特氏症，但研究的是 tamoxifen 的副作用，不是對佩吉特氏症的療效 |
 
 ---
 
 ## 文獻證據
 
+這 10 篇中沒有隨機對照試驗，多為個案報告與回顧。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [34463889](https://pubmed.ncbi.nlm.nih.gov/34463889/) | 2022 | Case Report | Investigational New Drugs | 荷爾蒙受體陽性轉移性乳腺外 Paget 氏病以 tamoxifen 治療成功案例 |
-| [14965622](https://pubmed.ncbi.nlm.nih.gov/14965622/) | 2001 | Case Report | Breast (Edinburgh) | 廣泛乳頭 Paget 氏病案例，以 Tamoxifen 治療獲得部分反應 |
-| [1648987](https://pubmed.ncbi.nlm.nih.gov/1648987/) | 1991 | Review | British Journal of Surgery | 48 例乳頭 Paget 氏病回顧性分析，其中 1 例以 tamoxifen 治療 |
-| [16277886](https://pubmed.ncbi.nlm.nih.gov/16277886/) | 2005 | Cohort | Clinical Breast Cancer | 保乳治療後局部復發表現為乳頭 Paget 氏病之世代研究 |
-| [25759627](https://pubmed.ncbi.nlm.nih.gov/25759627/) | 2014 | Meta-Analysis | Breast Care (Basel) | 乳房切除術 vs. 保乳手術治療 Paget 氏病後局部復發率統合分析 |
-| [8955252](https://pubmed.ncbi.nlm.nih.gov/8955252/) | 1996 | Case Report | American Surgeon | 男性乳房 Paget 氏病組織學確診案例，回顧全球 32 例文獻 |
-| [29694313](https://pubmed.ncbi.nlm.nih.gov/29694313/) | 2018 | Case Report | Il Giornale di Chirurgia | 男性乳頭 Paget 氏病案例報告 |
-| [12924421](https://pubmed.ncbi.nlm.nih.gov/12924421/) | 2003 | Case Report | Surgery Today | 同時性雙側乳癌合併 Paget 氏病與浸潤性導管癌案例 |
-| [19112575](https://pubmed.ncbi.nlm.nih.gov/19112575/) | 2009 | Case Report | Archives of Gynecology and Obstetrics | 外陰與乳房 Paget 氏病合併潛在癌症之罕見案例 |
-| [17319355](https://pubmed.ncbi.nlm.nih.gov/17319355/) | 2006 | Case Series | Nigerian Journal of Clinical Practice | 奈及利亞乳頭-乳暈複合體 Paget 氏病 8 例臨床特徵分析 |
+| [25759627](https://pubmed.ncbi.nlm.nih.gov/25759627/) | 2014 | 統合分析（分類為 Cohort） | Breast Care | 比較佩吉特氏症乳房切除與保乳手術後的局部復發，總復發率達 20–40% |
+| [34463889](https://pubmed.ncbi.nlm.nih.gov/34463889/) | 2022 | 個案報告 | Investigational New Drugs | 荷爾蒙受體陽性的轉移性乳房外佩吉特氏症，使用 tamoxifen 後治療成功 |
+| [14965622](https://pubmed.ncbi.nlm.nih.gov/14965622/) | 2001 | 個案報告 | Breast | 範圍廣泛的乳頭佩吉特氏症，tamoxifen 有反應；放射線治療後仍需補強以控制復發 |
+| [1648987](https://pubmed.ncbi.nlm.nih.gov/1648987/) | 1991 | 回顧 | Br J Surg | 48 位乳頭佩吉特氏症患者，僅 1 例使用 tamoxifen，主要治療為乳房切除 |
+| [29694313](https://pubmed.ncbi.nlm.nih.gov/29694313/) | 2018 | 個案報告 | Il Giornale di Chirurgia | 男性乳房佩吉特氏症，目前沒有標準處置或指引 |
+| [8955252](https://pubmed.ncbi.nlm.nih.gov/8955252/) | 1996 | 回顧 | Am Surg | 回顧全球 32 例男性乳房佩吉特氏症 |
+| [16277886](https://pubmed.ncbi.nlm.nih.gov/16277886/) | 2005 | 病例系列 | Clin Breast Cancer | 保乳治療後，佩吉特氏症可作為局部復發的表現 |
+| [17319355](https://pubmed.ncbi.nlm.nih.gov/17319355/) | 2006 | 病例系列 | Niger J Clin Pract | 尼日利亞單一醫院的 240 位乳癌患者中，8 位（3.3%）為乳頭乳暈佩吉特氏症 |
+| [12924421](https://pubmed.ncbi.nlm.nih.gov/12924421/) | 2003 | 個案報告 | Surg Today | 同時性雙側乳癌，合併佩吉特氏症與侵襲性乳管癌 |
+| [19112575](https://pubmed.ncbi.nlm.nih.gov/19112575/) | 2009 | 病例系列 | Arch Gynecol Obstet | 外陰與乳房佩吉特氏症合併同時性底層癌症 |
 
 ---
 
 ## 香港上市資訊
 
-Tamoxifen 目前**未於香港上市**（許可證登記數：0 張）。無可提取之許可證明細或核准適應症文字。
+香港共有 14 張許可證，以下列出 5 張。資料中未載明劑型與核准適應症。
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-40706 | TAMIFEN TAB 10MG | 錠劑（依品名判斷） | 未提供 |
+| HK-19529 | NOLVADEX-D TAB 20MG | 錠劑（依品名判斷） | 未提供 |
+| HK-65771 | ZYMOPLEX TABLETS 10MG | 錠劑（依品名判斷） | 未提供 |
+| HK-36024 | TAMOXIFEN TAB 20MG | 錠劑（依品名判斷） | 未提供 |
+| HK-67326 | TAMOXEN TABLETS 20MG | 錠劑（依品名判斷） | 未提供 |
 
 ---
 
@@ -98,9 +107,9 @@ Tamoxifen 目前**未於香港上市**（許可證登記數：0 張）。無可�
 
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 荷爾蒙類抗腫瘤藥物（SERM），非傳統細胞毒性化療藥物 |
-| 骨髓抑制風險 | 低（SERM 機轉不同於傳統細胞毒素，本證據包無 toxicity 明細資料） |
-| 致吐性分級 | 低 |
+| 細胞毒性分類 | 內分泌治療藥物（選擇性雌激素受體調節劑，SERM），非傳統細胞毒性化療 |
+| 骨髓抑制風險 | 請參考原廠仿單的警語與注意事項 |
+| 致吐性分級 | 請參考原廠仿單的警語與注意事項 |
 | 監測項目 | 請參考原廠仿單的警語與注意事項 |
 | 處置防護 | 請參考原廠仿單的警語與注意事項 |
 
@@ -110,6 +119,8 @@ Tamoxifen 目前**未於香港上市**（許可證登記數：0 張）。無可�
 
 安全性資訊請參考原廠仿單。
 
+上述 Phase 3 試驗（NCT00002920）的主題是預防 tamoxifen 相關的子宮內膜病變，顯示子宮內膜安全性是使用時需要留意的議題。
+
 ---
 
 ## 結論與下一步
@@ -117,13 +128,15 @@ Tamoxifen 目前**未於香港上市**（許可證登記數：0 張）。無可�
 **決策：Hold**
 
 **理由：**
-乳房 Paget 氏病與 Tamoxifen 的機轉連結建立在「Paget 氏病常合併潛在 ER+ 乳管癌」的間接推論上，Paget 細胞本身並非典型雌激素依賴病灶；現有證據以個案報告與小型回顧性研究為主（最高僅達 Cohort/Meta-analysis 層級），缺乏針對此適應症的前瞻性試驗，TxGNN 評分之決策階段亦標註為 S1（Research Question）。此外藥物在香港尚未上市，仿單警語、禁忌症資料（DG001，Blocking）與作用機轉資料（DG002，High）均缺失，無法完成安全性初評。
+- 對佩吉特氏症本身，證據只有少數個案報告，沒有對照試驗，唯一的 Phase 3 試驗研究的是 tamoxifen 的副作用。
+- 佩吉特氏細胞的受體狀態不一，tamoxifen 比較可能是治療底層乳癌，而不是治療佩吉特氏症。
+- 同一份 Evidence Pack 中，「乳房原位癌」與「雌激素受體陽性乳癌」兩個預測有 L1 證據，優先序明顯較高，建議另行評估。
 
 **若要推進需要：**
-- 補齊 TFDA/香港仿單警語與禁忌症資料（DG001，Blocking，來源：官方仿單 PDF 解析）
-- 補齊 DrugBank 作用機轉資料（DG002，High），釐清機轉關聯性
-- 針對乳房 Paget 氏病設計前瞻性臨床研究，驗證療效假說
-- 確認香港上市規劃與許可證申請路徑（目前 0 張許可證）
+- 取得香港衛生署的仿單，補齊核准適應症、警語與禁忌症。
+- 補充 tamoxifen 的作用機轉資料（例如查詢 DrugBank）。
+- 取得佩吉特氏症患者的雌激素與黃體素受體狀態資料，確認哪些族群可能獲益。
+- 如果要繼續評估，需要前瞻性或回溯性的對照研究，區分佩吉特氏症與底層乳癌各自的療效貢獻。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

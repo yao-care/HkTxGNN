@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Trametinib
-parent: 高證據等級 (L1-L2)
-nav_order: 761
-evidence_level: L2
+parent: 僅模型預測 (L5)
+nav_order: 879
+evidence_level: L5
 indication_count: 5
 ---
 
 # Trametinib
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,122 +29,82 @@ indication_count: 5
 
 </div>
 
-# Trametinib：從 BRAF V600 突變黑色素瘤到非皮膚型黑色素瘤
+# Trametinib：從 BRAF V600E/K 突變黑色素瘤到脈絡膜缺失症
 
 ## 一句話總結
 
-Trametinib（DB08911）是選擇性 MEK1/2 抑制劑，目前核准用於 BRAF V600E/K 突變之皮膚型黑色素瘤（多與 dabrafenib 併用）。TxGNN 模型預測它可能對**非皮膚型黑色素瘤（Non-cutaneous Melanoma）**——如黏膜、肢端、葡萄膜等亞型——同樣有效，目前有 **60+ 個相關臨床試驗**支持這個方向，但多數試驗設計仍以皮膚型 BRAF 突變族群為主，非皮膚亞型的專屬證據仍有限。
-
-> 註：此藥物在 TxGNN 預測清單中共有 5 個候選適應症（choroideremia、non-cutaneous melanoma、epithelioid cell melanoma、eyelid melanoma、scrotum melanoma）。本報告聚焦於證據強度最高、最具行動性的第 2 名候選——非皮膚型黑色素瘤；其餘候選整理於文末附表。
-
----
+Trametinib 是 MEK1/2 抑制劑，與 dabrafenib 併用於 BRAF V600E/K 突變黑色素瘤。
+TxGNN 模型預測它可能對**脈絡膜缺失症 (Choroideremia)** 有效，預測分數很高（99.31%）。
+但目前**沒有任何臨床試驗或文獻**支持，只有模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 皮膚型 BRAF V600E/K 突變黑色素瘤（多與 dabrafenib 併用，正式適應症文字缺乏 HK 許可證資料佐證） |
-| 預測新適應症 | 非皮膚型黑色素瘤 (Non-cutaneous Melanoma) |
-| TxGNN 預測分數 | 99.30% |
-| 證據等級 | L2 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails |
-
----
+| 原適應症 | BRAF V600E/K 突變黑色素瘤（香港許可證未載明適應症，此為依 Evidence Pack 其他欄位的說明） |
+| 預測新適應症 | 脈絡膜缺失症 (Choroideremia) |
+| TxGNN 預測分數 | 99.31% |
+| 證據等級 | L5 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 2 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-Trametinib 是選擇性 MEK1/2 抑制劑，透過阻斷 MAPK/ERK 訊號路徑抑制腫瘤細胞增生。目前已核准用於 BRAF V600E/K 突變陽性之皮膚型黑色素瘤，通常與 BRAF 抑制劑 dabrafenib 併用，以延緩單一抑制劑常見的抗藥性。
+目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位為空）。已知 Trametinib 是 MEK1/2 抑制劑，其療效已在 BRAF 突變黑色素瘤中被證實。
 
-非皮膚型黑色素瘤（涵蓋黏膜、肢端、葡萄膜、結膜等亞型）與皮膚型黑色素瘤在組織起源上不同，但部分亞型（尤其是肢端型與結膜型）仍帶有 BRAF 突變，理論上可共享相同的 MAPK 路徑活化機轉。證據包中的臨床試驗如 NCT02083354 即明確納入「Acral lentiginous or cutaneous melanoma」病人群，顯示這個機轉延伸並非純粹推測。
+脈絡膜缺失症是 X 染色體連鎖的視網膜退化疾病，成因是 *CHM* 基因（REP1 蛋白）功能喪失。這個病的致病機轉與 MEK/MAPK 路徑沒有已知的關聯。
 
-需注意的是，非皮膚型亞型中 BRAF 突變盛行率明顯低於皮膚型（如葡萄膜黑色素瘤幾乎不帶 BRAF 突變，其驅動基因多為 GNAQ/GNA11），因此臨床應用上需要嚴格的分子分型篩選，不能直接外推整個「非皮膚型黑色素瘤」族群。
-
-**作用機轉補充**：正式的 DrugBank MOA 欄位目前為資料缺口（DG002），以上機轉描述取自本次證據包之預測理由分析，建議後續正式查證 DrugBank API 以補齊完整機轉資料。
-
----
+MEK 抑制劑本身還有眼部毒性，例如視網膜病變和視網膜靜脈阻塞。對視網膜已退化的患者，風險方向反而相反。因此，這個高分預測缺乏生物學和臨床資料支持，較可能是知識圖譜上的關聯假象。
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT01941927](https://clinicaltrials.gov/study/NCT01941927) | Phase 2 | 完成 | 20 | Trametinib + GSK2141795（AKT抑制劑）用於 BRAF 野生型黑色素瘤，涵蓋非典型亞型族群 |
-| [NCT01972347](https://clinicaltrials.gov/study/NCT01972347) | Phase 2 | 進行中 | 35 | Dabrafenib+trametinib 新輔助治療 Stage IIIB-C BRAF V600 突變黑色素瘤 |
-| [NCT02910700](https://clinicaltrials.gov/study/NCT02910700) | Phase 2 | 進行中 | 52 | Nivolumab+trametinib+dabrafenib 三藥併用治療轉移性黑色素瘤 |
-| [NCT03149029](https://clinicaltrials.gov/study/NCT03149029) | Phase 2 | 進行中 | 16 | 縮短療程 MAPK 標靶治療（含 trametinib）+ pembrolizumab |
-| [NCT02083354](https://clinicaltrials.gov/study/NCT02083354) | Phase 2 | 完成 | 77 | Dabrafenib+trametinib 用於肢端（Acral）或皮膚型 BRAF V600 突變黑色素瘤，直接涵蓋非典型解剖部位亞型 |
-| [NCT01584648](https://clinicaltrials.gov/study/NCT01584648) | Phase 3 | 完成 | 423 | 樞紐試驗：Dabrafenib+trametinib vs dabrafenib 單方治療一線 BRAF 突變黑色素瘤 |
-| [NCT01245062](https://clinicaltrials.gov/study/NCT01245062) | Phase 3 | 完成 | 322 | Trametinib 單方 vs 化療（dacarbazine/paclitaxel）用於 BRAF V600E/K 突變黑色素瘤 |
-| [NCT01597908](https://clinicaltrials.gov/study/NCT01597908) | Phase 3 | 完成 | 704 | Dabrafenib+trametinib vs vemurafenib 用於 BRAF V600E/K 突變黑色素瘤 |
-| [NCT02039947](https://clinicaltrials.gov/study/NCT02039947) | Phase 2 | 完成 | 127 | Dabrafenib+trametinib 用於 BRAF 突變黑色素瘤腦轉移病人（非皮膚原發部位擴散情境） |
-| [NCT01940809](https://clinicaltrials.gov/study/NCT01940809) | Phase 1 | 終止 | 15 | Ipilimumab±dabrafenib/trametinib/nivolumab，樣本小且提前終止 |
-
----
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
-目前無「非皮膚型黑色素瘤」直接相關文獻。
-
-> 補充：本證據包中相近的解剖亞型候選（結膜/眼瞼黑色素瘤、上皮樣細胞黑色素瘤，見文末附表）各有 2 篇個案報告／回顧文獻支持 BRAF/MEK 抑制劑於該類部位的反應性，可作為機轉延伸的間接佐證，詳見附表對應候選。
-
----
+目前無相關文獻。
 
 ## 香港上市資訊
 
-目前 Trametinib 在香港尚未取得任何藥品許可證（`market_status: 未上市`，`total_licenses: 0`），無許可證資料可列出。
-
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-64520 | MEKINIST TABLETS 0.5MG | NOVARTIS PHARMACEUTICALS (HK) LIMITED |
+| HK-64521 | MEKINIST TABLETS 2MG | NOVARTIS PHARMACEUTICALS (HK) LIMITED |
 
 ## 細胞毒性
 
-**Trametinib 為抗腫瘤標靶藥物（MEK1/2 抑制劑），適用本章節。**
-
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 標靶藥物（MEK1/2 抑制劑），非傳統細胞毒性化療藥物 |
+| 細胞毒性分類 | 標靶藥物（MEK1/2 抑制劑） |
 | 骨髓抑制風險 | 請參考原廠仿單的警語與注意事項 |
 | 致吐性分級 | 請參考原廠仿單的警語與注意事項 |
 | 監測項目 | 請參考原廠仿單的警語與注意事項 |
 | 處置防護 | 請參考原廠仿單的警語與注意事項 |
 
-（此藥目前查無 TFDA 仿單警語/禁忌資料，為 Blocking 等級資料缺口，見下方結論。）
-
----
-
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **眼部毒性**：MEK 抑制劑可能引起視網膜病變與視網膜靜脈阻塞。用於視網膜退化疾病需特別謹慎。
 
----
-
-## 其他 TxGNN 預測候選適應症（本評估包共 5 項）
-
-| 排序 | 預測適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
-|------|-----------|-----------|---------|---------|------|
-| 1 | Choroideremia | 99.31% | L5 | S0 | Hold |
-| **2** | **Non-cutaneous melanoma（本報告主題）** | **99.30%** | **L2** | **S3** | **Proceed with Guardrails** |
-| 3 | Epithelioid cell melanoma | 99.28% | L4 | S1 | Research Question |
-| 4 | Eyelid melanoma | 99.26% | L4 | S1 | Research Question |
-| 5 | Scrotum melanoma | 99.21% | L5 | S0 | Hold |
-
-Choroideremia（遺傳性視網膜退化疾病）與 scrotum melanoma（罕見部位黑色素瘤）雖 TxGNN 分數接近，但完全無臨床試驗或文獻支持，機轉上也缺乏與 MAPK/MEK 路徑的直接關聯，暫不建議推進。
-
----
+其餘警語、禁忌症與藥物交互作用（DDI 查詢無結果）請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-- 多個已完成的 Phase 2/3 試驗證實 trametinib（多與 dabrafenib 併用）在 BRAF V600 突變黑色素瘤中具療效，其中 NCT02083354 已涵蓋肢端型（Acral）等非典型皮膚亞型，機轉延伸至非皮膚型黑色素瘤具合理性。
-- 但目前試驗證據仍以皮膚型 BRAF 突變族群為主體，非皮膚亞型（尤其葡萄膜型）的 BRAF 突變盛行率低，需嚴格分子分型篩選才能對應到真正受益族群。
+脈絡膜缺失症只有模型預測，沒有試驗或文獻，證據等級為 L5。MEK 抑制與該病的致病機轉沒有已知關聯，且 MEK 抑制劑的眼部毒性可能對視網膜疾病不利。
+
+**其他預測適應症的參考：**
+Evidence Pack 中排名第 2 的非皮膚黑色素瘤有較多證據（證據等級 L2，含多個黑色素瘤相關試驗）。不過這些試驗多為皮膚黑色素瘤，亞型是否適用仍需確認。眼瞼黑色素瘤有 BRAF/MEK 抑制劑的個案報告（L4）。若要優先投入資源，建議先評估這些黑色素瘤亞型。
 
 **若要推進需要：**
-- **補齊 TFDA 仿單警語與禁忌資料**（DG001，Blocking 等級，目前無法完成 S1 安全性初評）
-- **查詢 DrugBank API 補齊正式 MOA 紀錄**（DG002）
-- 香港目前未上市，需評估藥證申請路徑或透過恩慈療法／專案進口機制
-- 針對非皮膚型黑色素瘤各亞型（黏膜、肢端、葡萄膜）分別確認 BRAF 突變盛行率與現有臨床反應資料，避免以皮膚型試驗結果一概外推
+- 取得 DrugBank 的 MOA 資料，補齊機轉分析
+- 取得香港衞生署仿單的警語與禁忌症（目前為阻擋性資料缺口，無法進入安全篩選）
+- 針對脈絡膜缺失症與 MEK/MAPK 路徑建立前臨床機轉證據，並評估眼部毒性風險
+- 若轉向黑色素瘤亞型，需確認各亞型的 BRAF 突變狀態與實際使用的藥物
+
+> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

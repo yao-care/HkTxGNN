@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Minoxidil
-parent: 高證據等級 (L1-L2)
-nav_order: 500
-evidence_level: L2
+parent: 中證據等級 (L3-L4)
+nav_order: 581
+evidence_level: L4
 indication_count: 5
 ---
 
 # Minoxidil
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **5** 個
+證據等級: **L4** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,66 +29,59 @@ indication_count: 5
 
 </div>
 
-# Minoxidil：原適應症資料缺失 → 預測新適應症以瀰漫性圓禿（Diffuse Alopecia Areata）證據最強
+# Minoxidil：從雄激素性禿髮到遺傳性頭皮稀毛症
 
 ## 一句話總結
 
-本次證據包中 Minoxidil 的原始核准適應症資料缺失（香港未上市，無許可證紀錄，作用機轉亦為 Data Gap）。TxGNN 針對 5 個候選適應症進行預測，其中證據最紮實的是**瀰漫性圓禿 (Diffuse Alopecia Areata)**，有 **3 個臨床試驗**與 **20 篇文獻**支持；其餘 4 項候選多半僅有模型預測分數、缺乏直接臨床證據，其中「Pseudopelade of Brocq」經文獻檢視判斷極可能為疾病標籤與文獻檢索錯配，不建議採信。
+Minoxidil 是外用及口服的生髮藥物，在香港以 5% 外用溶液和泡沫劑型上市。
+TxGNN 模型預測它可能對**遺傳性頭皮稀毛症 (Hypotrichosis Simplex of the Scalp)** 有效。
+目前**沒有臨床試驗**，只有 **3 篇個案報告**，且每篇都合併其他療法。
 
-## 快速總覽（主要候選：瀰漫性圓禿）
+## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料缺失（香港未上市，無許可證紀錄） |
-| 預測新適應症 | 瀰漫性圓禿 (Diffuse Alopecia Areata) |
-| TxGNN 預測分數 | 99.9998%（KG 排名第 5） |
-| 證據等級 | L2 |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails |
-
-### 全部候選一覽
-
-| 排名 | 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
-|------|--------|-----------|---------|---------|------|
-| 1 | Hypotrichosis simplex of the scalp | 99.9999% | L4 | S1 | Research Question |
-| 2 | Congenital hypotrichosis with milia | 99.9999% | L5 | S0 | Hold |
-| 3 | **Diffuse alopecia areata** | 99.9998% | L2 | S2 | **Proceed with Guardrails** |
-| 4 | Pseudopelade of Brocq | 99.92%（KG 排名第 2107） | L4 | S0 | Hold（疑似錯配） |
-| 5 | Pulmonary arterial hypertension | 99.92%（KG 排名第 2266） | L4 | S1 | Research Question |
+| 原適應症 | 雄激素性禿髮（依文獻記載；香港許可證資料未載明適應症文字） |
+| 預測新適應症 | 遺傳性頭皮稀毛症 (Hypotrichosis Simplex of the Scalp) |
+| TxGNN 預測分數 | 99.9999% |
+| 證據等級 | L4 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏 Minoxidil 詳細的作用機轉資料（DrugBank MOA 為 Data Gap）。根據既有藥理學共識與文獻內容可知，Minoxidil 為 K+ channel opener，已廣泛用於雄性禿（androgenetic alopecia）及其他非疤痕性落髮，機轉為延長毛囊生長期（anagen phase）並促進毛囊周邊血流。
+目前缺乏 DrugBank 的詳細作用機轉資料。依現有資訊，Minoxidil 是已確立的生髮藥物，其硫酸鹽代謝物會開啟 K-ATP 通道，可能延長生長期 (anagen)，並可能上調 VEGF。
 
-瀰漫性圓禿（AA）為自體免疫性、非疤痕性落髮，毛囊結構未遭破壞，這與 Minoxidil 促進「存活毛囊」再生的機轉方向一致；口服／外用 Minoxidil 已廣泛作為 AA 的臨床輔助治療（常與 JAK 抑制劑、皮質類固醇合併使用）。相對地，排名第 4 的 Pseudopelade of Brocq 屬原發性**疤痕性**落髮（毛囊已纖維化破壞），機轉上與 Minoxidil 不匹配——經檢視其 20 篇文獻全數為雄性禿相關研究，判斷為 TxGNN 疾病標籤與文獻檢索的錯配，非真實適應症證據，不建議採信。
+遺傳性頭皮稀毛症是一種罕見的單基因顯性遺傳疾病，特徵是毛髮生長不良、長度與密度不足。文獻提到病例與 *CDSN* 基因變異有關。它和雄激素性禿髮同屬毛髮週期或毛囊微小化的問題，因此機轉上有合理的對應。
 
-## 臨床試驗證據（瀰漫性圓禿）
+但這個預測目前只有低層級證據支持。三篇報告中，Minoxidil 都與其他介入合併使用（口服加生長因子、加植物萃取物、加 PRP 注射），無法區分 Minoxidil 本身的療效。另外，*CDSN* 突變造成的遺傳缺陷是否對 Minoxidil 有反應，仍不確定。
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT01900041](https://clinicaltrials.gov/study/NCT01900041) | Phase 2 | 完成 | 74 | Pantovigar 併用 2% minoxidil vs 單用 2% minoxidil，針對女性型落髮（含 AA）之多中心、開放標籤比較試驗（Grade B：與 minoxidil 直接相關，惟公開資料未確認 minoxidil 是否為比較臂之一） |
-| [NCT06527729](https://clinicaltrials.gov/study/NCT06527729) | Early Phase 1 | 完成 | 28 | Sildenafil 脂質奈米載體治療 AA，介入藥物非 minoxidil，僅疾病相同（Grade C，關聯性低） |
-| [NCT04011748](https://clinicaltrials.gov/study/NCT04011748) | Phase 2 | 狀態未知 | 20 | 幹細胞教育療法治療 AA，介入與 minoxidil 機轉無關（Grade C） |
+## 臨床試驗證據
 
-## 文獻證據（瀰漫性圓禿，節錄 10 篇最相關）
+目前無相關臨床試驗登記。
+
+## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [35796224](https://pubmed.ncbi.nlm.nih.gov/35796224/) | 2022 | RCT | Dermatologic Therapy | Methotrexate 1% gel vs minoxidil 5% gel 治療局部性 AA 之隨機對照試驗（n=50） |
-| [36257912](https://pubmed.ncbi.nlm.nih.gov/36257912/) | 2022 | RCT | Dermatologic Therapy | Latanoprost、minoxidil 5%、betamethasone 及組合方案治療 AA 之多組盲性隨機對照試驗 |
-| [37870096](https://pubmed.ncbi.nlm.nih.gov/37870096/) | 2023 | 網絡統合分析 | Cochrane Database Syst Rev | AA 各類治療（含 minoxidil）之網絡統合分析比較療效 |
-| [36800063](https://pubmed.ncbi.nlm.nih.gov/36800063/) | 2023 | 系統性回顧 | Lasers Med Sci | 雷射光療合併外用 minoxidil 治療 AA 之系統性回顧與統合分析 |
-| [33940103](https://pubmed.ncbi.nlm.nih.gov/33940103/) | 2022 | 系統性回顧 | J Am Acad Dermatol | 兒童 AA 治療之系統性回顧 |
-| [38169088](https://pubmed.ncbi.nlm.nih.gov/38169088/) | 2024 | 專家共識 | J Eur Acad Dermatol Venereol | 歐洲 AA 全身性治療專家共識聲明 |
-| [35244759](https://pubmed.ncbi.nlm.nih.gov/35244759/) | 2023 | 回顧 | Arch Dermatol Res | 口服 minoxidil 用於雄性禿與休止期落髮之回顧 |
-| [31499158](https://pubmed.ncbi.nlm.nih.gov/31499158/) | 2021 | 病例系列 | J Am Acad Dermatol | Tofacitinib 併用口服 minoxidil 治療重度 AA |
-| [38634160](https://pubmed.ncbi.nlm.nih.gov/38634160/) | 2024 | 待分類 | Skin Res Technol | 微針注射 minoxidil 併用 triamcinolone acetonide 治療 AA 之回溯性觀察 |
-| [37024053](https://pubmed.ncbi.nlm.nih.gov/37024053/) | 2023 | 待分類 | J Am Acad Dermatol | AA 病人 tofacitinib 與 baricitinib 轉換治療之臨床反應回顧 |
+| [35761391](https://pubmed.ncbi.nlm.nih.gov/35761391/) | 2022 | 個案報告 | Dermatologic Therapy | 以口服 Minoxidil 合併生長因子治療遺傳性頭皮稀毛症（無摘要，依標題整理） |
+| [39902296](https://pubmed.ncbi.nlm.nih.gov/39902296/) | 2024 | 個案報告 | Frontiers in Genetics | 一名 *CDSN* 突變的 8 歲男童，使用植物萃取物合併 Minoxidil 治療 |
+| [36651821](https://pubmed.ncbi.nlm.nih.gov/36651821/) | 2023 | 個案報告 | J Dermatol Treat | 一名 14 歲患者，以 PRP 注射合併外用 Minoxidil 2% 治療，報告成功 |
 
 ## 香港上市資訊
 
-目前 Minoxidil 於香港**未上市**，無許可證登記紀錄。
+許可證資料未提供劑型與適應症欄位，下表劑型由品名推斷。
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-56024 | HUDSON MOXIDIL SOLUTION 5% | 外用溶液 | 許可證資料未載明 |
+| HK-56023 | OSCO MOXIDIL SOLUTION 5% | 外用溶液 | 許可證資料未載明 |
+| HK-51765 | MINOXI 5 SOLUTION 5%W/V | 外用溶液 | 許可證資料未載明 |
+| HK-52161 | REGAINE EXTRA STRENGTH FOR MEN TOPICAL SOLN 5% | 外用溶液 | 許可證資料未載明 |
+| HK-64008 | REGAINE FOR MEN TOPICAL FOAM 5%W/W | 外用泡沫 | 許可證資料未載明 |
+
+以上為 20 張許可證中的 5 張。
 
 ## 安全性考量
 
@@ -96,17 +89,18 @@ indication_count: 5
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails（限瀰漫性圓禿此候選）；其餘 4 項候選維持 Hold / Research Question**
+**決策：Hold**
 
 **理由：**
-- 瀰漫性圓禿有 1 個 Phase 2 RCT（Grade B）及多篇 RCT／統合分析／專家共識文獻支持，機轉外推合理，證據等級達 L2。
-- 其餘候選（hypotrichosis simplex、congenital hypotrichosis with milia、pulmonary arterial hypertension）僅有病例報告或 1970 年代非目標族群之血行動力學觀察，證據薄弱；Pseudopelade of Brocq 判斷為文獻檢索錯配，不建議採信。
+- TxGNN 分數極高，但實際證據只有 3 篇個案報告，且 Minoxidil 皆為合併療法的一部分，無法判斷單獨療效。
+- 香港衛生署仿單的警語與禁忌資料尚未取得，這是阻擋進入安全性篩選的缺口。
 
 **若要推進需要：**
-- 補齊 TFDA／香港仿單警語與禁忌（DG001，Blocking，目前無法進入 S1 安全性初評）
-- 補齊 DrugBank 作用機轉資料（DG002，High，影響機轉關聯性分析）
-- 確認 NCT01900041 中 minoxidil 是否確實為比較臂之一，以提升該試驗證據等級
-- 各候選之給藥途徑相容性（route_compatibility）與原適應症相似度（similarity_to_original）目前均為 pending，需補齊後才能完成完整評估
+- 取得香港衛生署仿單，補齊警語與禁忌症資料
+- 取得 DrugBank 的作用機轉資料，強化機轉連結分析
+- 取得三篇個案報告的全文，確認 Minoxidil 的劑量、劑型（口服或外用）和療效指標
+- 設計能分離 Minoxidil 單獨效果的研究（例如 Minoxidil 單藥對照），並評估 *CDSN* 相關基因型是否有反應
+- 確認香港上市產品皆為外用劑型；若考慮口服 Minoxidil，需另行評估其安全性與法規狀態
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

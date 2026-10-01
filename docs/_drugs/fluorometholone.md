@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Fluorometholone
-parent: 中證據等級 (L3-L4)
-nav_order: 327
-evidence_level: L3
+parent: 僅模型預測 (L5)
+nav_order: 383
+evidence_level: L5
 indication_count: 5
 ---
 
 # Fluorometholone
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,66 +29,92 @@ indication_count: 5
 
 </div>
 
-# Fluorometholone：從眼科局部消炎到細菌感染後眼部疾病
+# Fluorometholone：從眼用局部類固醇到感染後血管炎
 
 ## 一句話總結
 
-Fluorometholone 是一種眼科局部用糖皮質素，主要用於控制眼表炎症反應。TxGNN 模型預測它可能對**細菌感染後疾病 (Post-bacterial Disorder)** 有效，目前有 **2 個臨床試驗**直接測試此治療方向。
+Fluorometholone 是局部用糖皮質類固醇，在香港以眼藥水劑型上市。
+TxGNN 模型預測它可能對**感染後血管炎 (Postinfectious Vasculitis)** 有效。
+目前**沒有任何臨床試驗或文獻**直接支持這個方向，僅有模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 眼科局部炎症治療（糖皮質素眼藥水） |
-| 預測新適應症 | 細菌感染後疾病 (Post-bacterial Disorder) |
-| TxGNN 預測分數 | 99.91% |
-| 證據等級 | L3 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails |
+| 預測新適應症 | 感染後血管炎 (Postinfectious Vasculitis) |
+| TxGNN 預測分數 | 99.91%（全體排名 2453） |
+| 證據等級 | L5（僅有模型預測） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 6 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏完整的作用機轉資料。根據臨床研究背景資訊，Fluorometholone 屬於合成糖皮質素類眼科製劑，設計用於局部眼表使用，具有良好的角膜穿透性，且相較於 prednisolone 引發眼壓升高的風險較低。糖皮質素類藥物通過抑制磷脂酶 A2 活性、下調 IL-1β、IL-6、TNF-α 等促炎細胞因子來發揮廣泛的抗炎效果。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Fluorometholone 屬於糖皮質類固醇類別，其抗發炎作用在眼科發炎性疾病中已被廣泛使用。從類別層級來看，全身性類固醇確實是免疫介導型血管炎的可能治療方向。
 
-細菌感染後疾病（Post-bacterial Disorder）在眼科場景中的典型表現包括：細菌性角膜潰瘍恢復期（病原體清除後的持續角膜炎症）及沙眼（Chlamydia trachomatis 細菌性感染）引起的後遺性眼瞼內翻。兩者共同的病理機轉均為感染控制後殘留炎症持續造成組織損傷與瘢痕形成，fluorometholone 的抗炎特性恰好可在此時介入，減少後遺炎症損傷、保護視力功能。
+但這個推論有明顯限制。Fluorometholone 在香港僅有眼用劑型，全身暴露量極低，難以達到治療血管炎所需的藥物濃度。目前沒有任何針對此藥物與此疾病的專屬證據，路徑相容性（劑型與給藥途徑）也尚未評估。
 
-兩項已識別的臨床試驗均在完整抗生素覆蓋下使用 fluorometholone，體現了「先控感染、後抗炎」的核心安全原則，亦反映研究者認為此藥有足夠的前期依據值得進一步探索。
+因此，這個預測較適合視為研究線索，還不能作為臨床應用的依據。
 
 ## 臨床試驗證據
 
+目前無相關臨床試驗登記。
+
+## 文獻證據
+
+目前無相關文獻。
+
+## 其他預測適應症（供參考）
+
+TxGNN 對此藥物另有 4 個預測結果。其中有試驗資料的是「感染後疾患 (Post-bacterial Disorder)」，證據等級為 L4，建議為「研究問題 (Research Question)」。
+
+| 預測適應症 | 分數 | 證據等級 | 建議 | 說明 |
+|-----------|------|---------|------|------|
+| 細菌感染後疾患 (Post-bacterial Disorder) | 99.91% | L4 | Research Question | 有 2 個相關試驗，見下方 |
+| 外耳炎 (Otitis Externa) | 99.90% | L5 | Hold | 僅有模型預測，無耳用劑型與安全性資料 |
+| 感染性尿道狹窄 (Infective Urethral Stricture) | 99.90% | L5 | Hold | 僅有模型預測，無劑型與證據 |
+| 感染後症候群 (Post-infectious Syndrome) | 99.90% | L4 | Hold | 詞彙過於籠統，可能來自本體論的寬鬆對應 |
+
+「細菌感染後疾患」相關試驗：
+
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT07308938](https://clinicaltrials.gov/study/NCT07308938) | Phase 2 | 尚未招募 | 174 | 評估局部 fluorometholone 作為細菌性角膜潰瘍標準抗生素治療外的輔助療法，主要終點為 3 個月最佳矯正視力（BCVA） |
-| [NCT01949454](https://clinicaltrials.gov/study/NCT01949454) | N/A | 已完成 | 154 | 沙眼性眼瞼內翻（倒睫）手術後使用 fluorometholone 0.1% 圍術期輔助抗炎治療，評估是否可降低術後復發性倒睫風險及瘢痕形成 |
+| [NCT07308938](https://clinicaltrials.gov/study/NCT07308938) | Phase 2 | 尚未招募 | 174 | 評估局部 fluorometholone 作為細菌性角膜潰瘍輔助療法，3 個月時最佳矯正視力是否優於單用抗生素 |
+| [NCT01949454](https://clinicaltrials.gov/study/NCT01949454) | 不適用 (NA) | 完成 | 154 | 沙眼性倒睫手術圍手術期使用 0.1% fluorometholone，觀察能否降低倒睫復發；未提供結果 |
+
+這兩個試驗都僅能產生假說，尚無結果數據。細菌性角膜炎使用類固醇需審慎評估，風險包括延遲癒合與感染持續。
+
+## 香港上市資訊
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-34273 | FLUMETHOLON EYE DROPS 0.1% | Santen Pharmaceutical (Hong Kong) Limited |
+| HK-34274 | FLUMETHOLON EYE DROPS 0.02% | Santen Pharmaceutical (Hong Kong) Limited |
+| HK-54720 | TOLON EYE DROPS 0.1% | Lafarge Co., Limited |
+| HK-64966 | FULUSON OPHTHALMIC SOLUTION 0.1% W/V | LSB (HK) Limited |
+| HK-19538 | FML LIQUIFILM OPHTHALMIC SUSP 0.1% | Allergan Hong Kong Limited |
+
+香港共登記 6 張許可證，上表列出其中 5 張。
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
-## 其他 TxGNN 預測一覽
-
-除主要預測（Post-bacterial Disorder）外，TxGNN 對 Fluorometholone 尚有以下 4 項預測，分數相近但證據基礎差異明顯：
-
-| 排名 | 適應症 | 預測分數 | 證據等級 | 建議 | 備注 |
-|------|--------|---------|---------|------|------|
-| 1 | 感染後血管炎 (Postinfectious Vasculitis) | 99.91% | L5 | Hold | 機轉合理但系統性給藥路徑不明，眼科局部製劑不適用 |
-| 3 | 外耳炎 (Otitis Externa) | 99.90% | L5 | Hold | 劑型為眼用製劑，耳用可行性未知；鼓膜穿孔時有安全疑慮 |
-| 4 | 感染性尿道狹窄 (Infective Urethral Stricture) | 99.90% | L5 | Hold | 需系統給藥，眼科局部製劑無法達到目標部位；可能為 KG 過度泛化 |
-| 5 | 感染後綜合症 (Post-infectious Syndrome) | 99.90% | L4 | Research Question | 有一項間接相關的 Phase 4 試驗（NCT05771194，術後眼表干預，40 人），屬早期訊號 |
-
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-2 項臨床試驗直接測試 fluorometholone 在細菌感染後眼科疾病的應用，其中 NCT01949454（沙眼相關眼瞼內翻，154 人）已完成，提供初步可行性與安全性依據；Phase 2 試驗 NCT07308938（細菌性角膜潰瘍，174 人）目前處於招募前階段，顯示研究者對此方向具有足夠信心進行進一步評估。
+- 首要預測（感染後血管炎）僅有模型分數，沒有試驗或文獻，證據等級為 L5。
+- 藥物只有眼用劑型、全身暴露極低，與血管炎的治療需求有明顯落差。
 
 **若要推進需要：**
-- 補充完整 MOA 資料（DrugBank API 查詢 DB00324）
-- 取得安全性仿單資訊（香港衛生署許可仿單或原廠說明書警語、禁忌症）
-- 評估劑型與給藥路徑相容性：Fluorometholone 現有劑型為眼用製劑，若未來考慮擴展至外耳炎等其他感染後適應症，需先確認劑型適配性
-- 持續追蹤 NCT07308938 的招募進展與 Phase 2 結果，該試驗將提供迄今最直接的療效證據
+- 補齊 Fluorometholone 的作用機轉資料（DrugBank）。
+- 取得香港衛生署仿單，確認警語與禁忌症。
+- 評估劑型與給藥途徑是否與血管炎相容。
+- 若要優先探索，建議改看「細菌感染後疾患」（角膜潰瘍輔助治療）。可追蹤 NCT07308938 的進展，並先做類固醇安全性審查。
+
+*本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

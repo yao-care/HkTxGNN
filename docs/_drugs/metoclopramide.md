@@ -2,15 +2,15 @@
 layout: default
 title: Metoclopramide
 parent: 中證據等級 (L3-L4)
-nav_order: 492
-evidence_level: L3
+nav_order: 568
+evidence_level: L4
 indication_count: 5
 ---
 
 # Metoclopramide
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **5** 個
+證據等級: **L4** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,71 +29,91 @@ indication_count: 5
 
 </div>
 
-# Metoclopramide：從止吐／腸胃促動力用途到胃潰瘍（Gastric Ulcer）
+# Metoclopramide：從（原適應症未載明）到胃潰瘍（Gastric Ulcer）
 
 ## 一句話總結
 
-Metoclopramide 是一種 D2 受體拮抗劑／5-HT4 受體促效劑，目前已知用途為止吐及促進腸胃排空，本評估中香港未有上市許可證資料。TxGNN 模型預測它可能對**胃潰瘍 (Gastric Ulcer)** 有效，目前有 **2 個臨床試驗**和 **20 篇文獻**可供參考，但直接支持該適應症的證據仍薄弱。
+Metoclopramide（甲氧氯普胺）是一種促腸胃蠕動與止吐藥，香港已有多張許可證上市，但證據包中未載明核准適應症。
+TxGNN 模型預測它可能對**胃潰瘍 (Gastric Ulcer)** 有效，
+目前有 **2 個臨床試驗**（皆非直接的潰瘍療效試驗）和 **20 篇文獻**（多為老舊綜述與動物實驗），整體證據等級僅 **L4**。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無香港許可證資料；已知全球用途為止吐與腸胃促動力（見下方機轉說明） |
+| 原適應症 | 資料未載明（許可證的核准適應症欄位皆為空） |
 | 預測新適應症 | 胃潰瘍 (Gastric Ulcer) |
 | TxGNN 預測分數 | 99.93% |
-| 證據等級 | L3 |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L4 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 19 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-正式的 DrugBank 作用機轉資料目前缺失（資料缺口 DG002）。根據收集到的文獻（如 PMID 6336644），Metoclopramide 是中樞與周邊多巴胺（D2）拮抗劑，其藥理作用在於促進胃排空、增加下食道括約肌張力，並透過作用於延腦化學受體觸發區產生止吐效果，臨床上常用於預防化療（如順鉑）引起的嘔吐。
+目前缺乏詳細的作用機轉資料。根據一般藥理知識，Metoclopramide 是多巴胺 D2 受體拮抗劑，同時具 5-HT4 促效作用，屬於促腸胃蠕動藥（prokinetic），可加速胃排空並止吐。
 
-胃潰瘍的標準治療機轉是抑酸（PPI、H2 拮抗劑）或黏膜保護，Metoclopramide 並不具備這類藥理作用。TxGNN 給出 99.93% 的高分，較可能反映知識圖譜中「胃部」相關節點在拓撲結構上的鄰近性，而非直接的疾病修飾證據。其在胃潰瘍情境下較合理的角色，僅限於輔助改善胃排空延遲相關症狀，或用於上消化道出血內視鏡前清空胃內容物以利視野，並非治療潰瘍本身。因此機轉層面上，此預測的直接治療合理性有限。
+胃潰瘍與胃排空遲緩、噁心嘔吐等症狀有關，因此 Metoclopramide 在機轉上最多只能改善潰瘍伴隨的症狀。它不抑制胃酸，也不促進黏膜修復，所以沒有機轉支持它能直接癒合潰瘍。
+
+99.93% 的高分較可能反映知識圖譜中它與腸胃道藥物距離相近，而不是經驗證的治療關聯。動物實驗（大鼠、天竺鼠）曾顯示保護作用，但尚無人體潰瘍癒合的證據。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT03747107](https://clinicaltrials.gov/study/NCT03747107) | N/A | 完成 | 19 | 蘇格蘭 Tayside 藥師主導之初級照護處方安全品質改善計畫，非針對 Metoclopramide 治療胃潰瘍之介入性試驗，相關性低 |
-| [NCT05746377](https://clinicaltrials.gov/study/NCT05746377) | Phase 4 | 狀態未知 | 60 | 評估上消化道出血病人內視鏡前給予 Metoclopramide 清空胃內容物、改善視野與減少重複內視鏡需求，非直接治療潰瘍本身之療效終點 |
+| [NCT05746377](https://clinicaltrials.gov/study/NCT05746377) | Phase 4 | 未知 | 60 | 上消化道出血內視鏡前給予 Metoclopramide，評估是否減少重複內視鏡並改善視野；目的不是治療潰瘍，尚無結果 |
+| [NCT03747107](https://clinicaltrials.gov/study/NCT03747107) | N/A | 完成 | 19 | 藥師主導的基層醫療處方安全改善計畫；並非 Metoclopramide 療效試驗，關聯性低 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [16807979](https://pubmed.ncbi.nlm.nih.gov/16807979/) | 2006 | RCT | Yonsei Med J | 靜脈注射 Metoclopramide 併 Ranitidine 可減少門診腹腔鏡婦科手術病人麻醉誘導前之胃內容物殘留 |
-| [6336644](https://pubmed.ncbi.nlm.nih.gov/6336644/) | 1983 | Review | Ann Intern Med | 綜述 Metoclopramide 藥理與臨床應用，說明其止吐及腸胃促動力作用，未涉及潰瘍治療機轉 |
-| [19225](https://pubmed.ncbi.nlm.nih.gov/19225/) | 1977 | Review | Drugs | 胃十二指腸潰瘍藥物治療綜述 |
-| [797497](https://pubmed.ncbi.nlm.nih.gov/797497/) | 1976 | Review | Clin Pharmacokinet | 討論藥物與疾病（含胃潰瘍）對胃排空速率的影響 |
-| [775822](https://pubmed.ncbi.nlm.nih.gov/775822/) | 1976 | 臨床研究（德文） | ZFA | 以 Metoclopramide 治療胃十二指腸潰瘍 |
-| [4779253](https://pubmed.ncbi.nlm.nih.gov/4779253/) | 1973 | 臨床研究 | Curr Med Res Opin | 探討吸菸、Metoclopramide 與 Carbenoxolone 對胃潰瘍膽汁逆流之影響 |
-| [6106882](https://pubmed.ncbi.nlm.nih.gov/6106882/) | 1980 | 臨床研究（德文） | Medizinische Klinik | 胃潰瘍保守治療綜述 |
-| [2730234](https://pubmed.ncbi.nlm.nih.gov/2730234/) | 1989 | 動物實驗 | Arch Int Pharmacodyn Ther | Metoclopramide 於白老鼠阿斯匹靈誘發及幽門結紮胃潰瘍模型中具保護作用，效果與 Ranitidine 比較 |
-| [6436177](https://pubmed.ncbi.nlm.nih.gov/6436177/) | 1984 | 動物實驗 | Indian J Physiol Pharmacol | 天竺鼠實驗誘發性胃潰瘍模型中，Metoclopramide 具保護作用但不影響胃酸分泌 |
-| [6782467](https://pubmed.ncbi.nlm.nih.gov/6782467/) | 1981 | 臨床研究（德文） | MMW | Domperidone 與 Metoclopramide 對血清 Gastrin 濃度及胃酸分泌之影響，兩者均未顯著改變 |
+| [16807979](https://pubmed.ncbi.nlm.nih.gov/16807979/) | 2006 | 臨床研究（隨機雙盲） | Yonsei Med J | 靜脈注射 Metoclopramide 加 ranitidine 對日間手術術前胃內容物的影響（非潰瘍族群） |
+| [6336644](https://pubmed.ncbi.nlm.nih.gov/6336644/) | 1983 | Review | Ann Intern Med | Metoclopramide 的藥理與臨床應用：止吐、促進腸胃平滑肌運動 |
+| [19225](https://pubmed.ncbi.nlm.nih.gov/19225/) | 1977 | Review | Drugs | 胃及十二指腸潰瘍的藥物治療綜述 |
+| [2730234](https://pubmed.ncbi.nlm.nih.gov/2730234/) | 1989 | 前臨床（大鼠） | Arch Int Pharmacodyn Ther | 在阿斯匹靈及幽門結紮模型中，Metoclopramide 有潰瘍保護與抗分泌作用 |
+| [6436177](https://pubmed.ncbi.nlm.nih.gov/6436177/) | 1984 | 前臨床（天竺鼠） | Indian J Physiol Pharmacol | 對多種實驗性潰瘍有保護作用，且不影響胃酸，可能與促進胃排空、減少幽門逆流有關 |
+| [28652516](https://pubmed.ncbi.nlm.nih.gov/28652516/) | 2017 | 前臨床（大鼠） | J Smooth Muscle Res | 探討人工潰瘍位置與促動力藥對胃排空的影響 |
+
+## 香港上市資訊
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-29060 | SYNTOMIDE TAB 10MG | 未載明 | 未載明 |
+| HK-07173 | PRIMPERAN INJ 10MG/2ML | 未載明 | 未載明 |
+| HK-64279 | CLOPERAN 10 TABLETS 10MG | 未載明 | 未載明 |
+| HK-49285 | SINPRIM F.C. TAB 10MG | 未載明 | 未載明 |
+| HK-47468 | MARIL INJ 10MG/2ML | 未載明 | 未載明 |
+
+## 其他預測適應症
+
+| 預測適應症 | TxGNN 分數 | 證據等級 | 說明 |
+|-----------|-----------|---------|------|
+| 胃十二指腸炎 (Gastroduodenitis) | 99.90% | L4 | 僅有促動力與止吐的症狀性關聯，無臨床試驗 |
+| 消化性潰瘍 (Peptic Ulcer Disease) | 99.85% | L4 | 多為間接綜述；文獻中含神經毒性報告（PMID 3059051），需留意安全性 |
+| 消化性潰瘍穿孔 (Peptic Ulcer Perforation) | 99.78% | L5 | 無機轉依據；穿孔屬外科急症，通常不宜使用促動力藥 |
+| 胃空腸吻合口潰瘍 (Gastrojejunal Ulcer) | 99.78% | L5 | 無潰瘍特異性證據 |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
-（TFDA 仿單警語／禁忌症資料為阻斷性缺口 DG001，目前無法進行 S1 安全性初評；藥物交互作用查詢亦無結果。）
+另外，文獻中有 Metoclopramide 神經毒性的報告（[PMID 3059051](https://pubmed.ncbi.nlm.nih.gov/3059051/)），與其已知的中樞神經及錐體外症狀不良反應一致，若進一步評估需列為重點。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- Metoclopramide 的已知藥理機轉（多巴胺拮抗、促胃排空）與胃潰瘍標準治療所需的抑酸／黏膜保護機轉本質不同，證據回顧本身也指出 TxGNN 高分較可能反映知識圖譜拓撲鄰近性而非真實療效訊號。
-- 現有 2 個臨床試驗均非以「治療胃潰瘍」為主要終點（分別為處方安全品質改善計畫與內視鏡前清胃輔助用藥），直接證據不足；文獻證據多為 1970-1980 年代小型研究或動物實驗。
-- TFDA 仿單警語與禁忌症資料缺失（DG001，阻斷性），目前無法完成安全性初評，不宜進入下一階段。
+- 沒有直接針對胃潰瘍療效的臨床試驗，現有證據多為 1970–1990 年代的綜述與動物實驗。
+- 機轉上只能解釋症狀改善（胃排空、噁心），無法支持潰瘍癒合；99.93% 的高分不代表已有臨床支持。
+- 證據包中的香港仿單警語、禁忌與核准適應症皆缺漏，被標為阻擋性資料缺口，尚無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得 TFDA／原廠仿單完整警語與禁忌症資料（DG001），完成 S1 安全性初評
-- 補齊正式 DrugBank 作用機轉資料（DG002），釐清機轉關聯性
-- 若要繼續此方向，需針對「Metoclopramide 治療胃潰瘍」設計具明確療效終點（如潰瘍癒合率、症狀緩解）的介入性試驗，而非僅以促動力／清胃為終點的間接研究
+- 從香港衛生署下載並解析仿單，補齊核准適應症、警語與禁忌症（DG001，阻擋性）。
+- 從 DrugBank 補齊作用機轉資料（DG002）。
+- 釐清目標是「癒合潰瘍」還是「緩解潰瘍相關症狀」，並據此設計臨床問題。
+- 若鎖定症狀緩解，需有隨機對照試驗，並與標準的胃酸抑制療法比較。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

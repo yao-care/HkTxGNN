@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Trimethoprim
-parent: 高證據等級 (L1-L2)
-nav_order: 774
-evidence_level: L1
+parent: 僅模型預測 (L5)
+nav_order: 895
+evidence_level: L5
 indication_count: 2
 ---
 
 # Trimethoprim
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,87 @@ indication_count: 2
 
 </div>
 
-# Trimethoprim：預測用於結膜炎（Conjunctivitis）
+# Trimethoprim：從抗菌用藥到點狀上皮角結膜炎
 
 ## 一句話總結
 
-Trimethoprim 是一種抗菌藥物，機轉為抑制細菌二氫葉酸還原酶（DHFR）以阻斷葉酸合成路徑；此藥目前在香港未上市，亦無核准適應症登記紀錄。
-TxGNN 模型預測它可能對**結膜炎 (Conjunctivitis)** 有效，
-目前有 **3 個臨床試驗**（含 1 個直接相關的 Phase 4 RCT）與 **20 篇文獻**支持這個方向。
-
----
+Trimethoprim 是細菌二氫葉酸還原酶抑制劑，屬於抗菌藥物，香港已有多張上市許可證。
+TxGNN 模型預測它可能對**點狀上皮角結膜炎 (Punctate Epithelial Keratoconjunctivitis)** 有效。
+目前針對這個適應症，**沒有任何臨床試驗或文獻**支持，只有模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 尚無登記資料（香港未上市，無核准適應症紀錄） |
-| 預測新適應症 | 結膜炎 (Conjunctivitis) |
-| TxGNN 預測分數 | 99.17% |
-| 證據等級 | L1 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 |
-| 建議決策 | Proceed with Guardrails |
-
----
+| 預測新適應症 | 點狀上皮角結膜炎 (Punctate Epithelial Keratoconjunctivitis) |
+| TxGNN 預測分數 | 99.57%（模型排名 8012） |
+| 證據等級 | L5 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 13 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-藥物層級的作用機轉資料目前為資料缺口（DG002），但針對「結膜炎」這項預測，證據包已提供具體的機轉關聯：Trimethoprim 抑制細菌二氫葉酸還原酶（DHFR），阻斷葉酸合成路徑，對結膜炎常見致病菌（*Haemophilus influenzae*、*Staphylococcus*、*Streptococcus* 等）具直接抗菌活性。
+Trimethoprim 抑制細菌的二氫葉酸還原酶，阻斷葉酸合成，因此具有抗菌作用。目前缺乏其他詳細的作用機轉資料。
 
-這並非單純的知識圖譜外推——Trimethoprim 與 polymyxin B 併用的眼用製劑（如 Polytrim）已是國際臨床常規用藥，用於治療細菌性結膜炎多年，機轉與適應症高度吻合。這也解釋了為何此項預測有實際的頭對頭臨床試驗（NCT00581542）與多篇歷史文獻支持。
+點狀上皮角結膜炎常由病毒（例如腺病毒）引起，也可能是毒性或免疫介導的反應。抗菌活性對這類病因沒有明確的機轉依據。
 
-需注意：同一份證據包中另有一項分數更高（99.57%）的預測——點狀上皮角結膜炎 (punctate epithelial keratoconjunctivitis)，但該適應症多與病毒性感染或角膜上皮損傷相關，與 trimethoprim 的抗菌機轉缺乏直接病理生理連結，且無任何臨床試驗或文獻佐證（L5，Hold），故本報告聚焦於證據等級較高的結膜炎預測。
-
----
+TxGNN 給出 99.57% 的高分，是知識圖譜的推論結果，推測是因為它與細菌性結膜炎在圖譜上距離很近。這個分數不等於有臨床或機轉證據。因此，這個預測在機轉上的說服力偏低。
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT00581542](https://clinicaltrials.gov/study/NCT00581542) | Phase 4 | 完成 | 124 | 頭對頭比較 Polytrim（polymyxin B/trimethoprim）眼用溶液與 moxifloxacin 治療兒童結膜炎，直接相關 |
-| [NCT00168532](https://clinicaltrials.gov/study/NCT00168532) | Phase 3 | 完成 | 218 | 麻疹感染預防性抗生素試驗，結膜炎為次要評估終點之一，間接相關 |
-| [NCT03187834](https://clinicaltrials.gov/study/NCT03187834) | Phase 4 | 完成 | 252 | 抗生素抗藥性與腸道/鼻咽微生物體研究，非以結膜炎治療效果為主要終點 |
-
----
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [19043945](https://pubmed.ncbi.nlm.nih.gov/19043945/) | 2008 | RCT | J Pediatr Ophthalmol Strabismus | 比較 polymyxin B/trimethoprim 與 0.5% moxifloxacin 治療細菌性結膜炎的臨床起效速度 |
-| [6204534](https://pubmed.ncbi.nlm.nih.gov/6204534/) | 1984 | Cohort | Am J Ophthalmol | 評估含 trimethoprim 眼用製劑（併 polymyxin B ± sulfacetamide）治療細菌性結膜炎/瞼緣炎之療效與安全性 |
-| [8595639](https://pubmed.ncbi.nlm.nih.gov/8595639/) | 1995 | Cohort | Clin Ther | 兒童急性細菌性結膜炎使用 trimethoprim-polymyxin B 眼用溶液治療之調查結果 |
-| [30007329](https://pubmed.ncbi.nlm.nih.gov/30007329/) | 2018 | Review | J Pediatric Infect Dis Soc | 新生兒披衣菌結膜炎治療系統性回顧與統合分析，含口服 trimethoprim 等抗生素方案 |
-| [16491721](https://pubmed.ncbi.nlm.nih.gov/16491721/) | 2006 | Review | J Pediatr Ophthalmol Strabismus | 探討細菌性結膜炎疫情控制，強調使用抗菌藥物縮短病程與傳染期 |
-| [20084257](https://pubmed.ncbi.nlm.nih.gov/20084257/) | 2001 | Review | Paediatr Child Health | 兒童急性感染性結膜炎之病因、臨床特徵與治療回顧 |
-| [24892274](https://pubmed.ncbi.nlm.nih.gov/24892274/) | 2015 | Case Report | Ophthalmic Plast Reconstr Surg | 矽膠支架相關慢性結膜炎，培養出對 trimethoprim/sulfamethoxazole 敏感之 Nocardia nova |
-| [34943657](https://pubmed.ncbi.nlm.nih.gov/34943657/) | 2021 | Pending | Antibiotics (Basel) | 台灣 MSSA 眼部感染之臨床特徵與分子特性分析 |
-| [10537781](https://pubmed.ncbi.nlm.nih.gov/10537781/) | 1999 | Case Report | Curr Opin Ophthalmol | 貓抓病之眼部表現，涵蓋相關結膜/淋巴腺症候群 |
-| [8924168](https://pubmed.ncbi.nlm.nih.gov/8924168/) | 1996 | Review | Laryngorhinootologie | 貓抓病病因、臨床表現、診斷與治療概述 |
-
----
+目前無相關文獻。
 
 ## 香港上市資訊
 
-目前無許可證登記資料（香港未上市，`total_licenses` = 0）。
+目前共有 13 張許可證，以下列出 5 張主要許可證。來源資料未提供劑型與核准適應症。
 
----
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-56426 | TRIMETHOPRIM SUSP 50MG/5ML | SINO-ASIA PHARMACEUTICAL SUPPLIES LTD |
+| HK-43066 | CO-SEPTIC TAB | JEAN-MARIE PHARMACAL CO LTD |
+| HK-21138 | SULFAPRIM INJECTABLE SOLN (VET) | WAI LUNG HONG AGRIBUSINESS LTD（獸用） |
+| HK-21598 | TRIMETRIN CAP | VICKMANS LABORATORIES LTD |
+| HK-09295 | APO-SULFATRIM 400-80MG TAB | HIND WING CO LTD |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
-> ⚠️ 資料缺口提醒：TFDA/HK 仿單警語與禁忌症資料（DG001）為 **Blocking** 等級缺口，尚無法完成 S1 安全性初評。
-
----
-
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-- 結膜炎預測有 L1 等級證據支持，包含 1 個直接相關的完成 Phase 4 RCT（NCT00581542），且含 trimethoprim 的眼用複方製劑已是國際臨床常規用藥，機轉與適應症高度吻合。
-- 另一項預測（點狀上皮角結膜炎，TxGNN 分數 99.57%）證據等級僅 L5，無臨床試驗或文獻支持，且機轉關聯性存疑，建議維持 Hold，不列入此階段推進範圍。
+- 這個適應症只有模型預測（L5），沒有試驗、文獻或明確的機轉依據。
+- 該疾病常為病毒性或免疫性，抗菌藥物的合理性不足。
+
+**補充：排名第 2 的預測「結膜炎」**
+
+這個預測的證據明顯較強（模型分數 99.17%，系統建議為 Proceed with Guardrails）。
+但有兩點需要留意：
+- 證據等級 L2 的判定偏樂觀。
+- 唯一直接相關的試驗是 Phase 4，並非 Phase 3。
+
+| 證據 | 內容 |
+|------|------|
+| [NCT00581542](https://clinicaltrials.gov/study/NCT00581542) | Phase 4，已完成，124 人。比較 Polytrim（polymyxin B/trimethoprim）眼用液與 moxifloxacin 治療結膜炎。 |
+| [PMID 19043945](https://pubmed.ncbi.nlm.nih.gov/19043945/) | 2008 年 RCT。比較 polymyxin B/trimethoprim 與 moxifloxacin 治療細菌性結膜炎的臨床起效速度。 |
+| [PMID 30007329](https://pubmed.ncbi.nlm.nih.gov/30007329/) | 2018 年系統性回顧。討論包含 trimethoprim 在內的抗生素治療新生兒披衣菌結膜炎。 |
+
+機轉上只適用於細菌性結膜炎，病毒性、過敏性與披衣菌性結膜炎都不在涵蓋範圍內。這個組合眼用藥看起來更像既有用法，而非真正的老藥新用。
 
 **若要推進需要：**
-- 補齊 TFDA/HK 仿單警語與禁忌症資料（DG001，Blocking，來源：TFDA 官網仿單 PDF）
-- 補齊藥物層級作用機轉（MOA）完整資料（DG002，來源：DrugBank API）
-- 確認香港上市/引進路徑，目前無任何許可證登記
-- 若欲評估點狀上皮角結膜炎適應症，需先補足臨床試驗與文獻證據，再重新進行機轉關聯性分析
+- 補齊原適應症與核准適應症資料，目前來源中的核准適應症文字全為空白。
+- 補充 DrugBank 的作用機轉資料。
+- 取得香港衛生署仿單的警語與禁忌資料（目前為阻斷性缺口，無法進入安全性篩選）。
+- 針對點狀上皮角結膜炎補做專門文獻檢索，確認是否有病因為細菌的亞群。
+- 確認結膜炎使用的路徑（眼用劑型），目前路徑相容性尚未評估。
+- 在香港登記系統確認眼用 trimethoprim 複方的上市狀態。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

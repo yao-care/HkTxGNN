@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Fluticasone Furoate
-parent: 高證據等級 (L1-L2)
-nav_order: 332
-evidence_level: L2
+parent: 中證據等級 (L3-L4)
+nav_order: 388
+evidence_level: L3
 indication_count: 5
 ---
 
 # Fluticasone Furoate
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **5** 個
+證據等級: **L3** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,92 @@ indication_count: 5
 
 </div>
 
-# Fluticasone Furoate：從氣喘到異位性濕疹
+# Fluticasone Furoate：從鼻用／吸入型糖皮質素到異位性皮膚炎
 
 ## 一句話總結
 
-Fluticasone Furoate 是新一代高選擇性吸入型糖皮質類固醇（ICS），國際上核准用於氣喘及慢性阻塞性肺病（COPD）的每日一次吸入治療。
-TxGNN 模型預測它可能對**異位性濕疹（Atopic Eczema）**有效，
-目前有 **11 個臨床試驗**和 **2 篇文獻**支持這個方向。
-
----
+Fluticasone furoate 是一種糖皮質素（glucocorticoid），在香港以鼻噴劑與吸入粉劑產品上市。
+TxGNN 模型預測它可能對**異位性皮膚炎（Atopic Eczema）**有效，分數 99.98%。
+目前有 **10 個相關臨床試驗**和 **2 篇文獻**，但試驗多半使用的是 propionate 鹽類，並非 furoate 本身，所以只算類別層級的間接證據。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 氣喘（Asthma）、慢性阻塞性肺病（COPD）—依國際核准及現有文獻 |
-| 預測新適應症 | 異位性濕疹（Atopic Eczema） |
+| 預測新適應症 | 異位性皮膚炎（Atopic Eczema） |
 | TxGNN 預測分數 | 99.98% |
-| 證據等級 | L2 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Research Question |
-
----
+| 證據等級 | L3 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 6 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉（MOA）資料。根據 Evidence Pack 中的機轉說明，Fluticasone Furoate 是高選擇性糖皮質激素受體（GR）促效劑，透過抑制 NF-κB／AP-1 轉錄因子，減少 IL-4、IL-13、TSLP、IL-31 等 Th2 細胞激素分泌，並抑制肥大細胞與嗜伊紅性球的組織浸潤。
+目前缺乏詳細的作用機轉資料。根據已知資訊，fluticasone furoate 屬於糖皮質素受體促效劑，具抗發炎與免疫抑制作用（降低細胞激素與嗜酸性球活性）。這類作用在異位性皮膚炎的皮膚發炎中，機轉上是合理的。
 
-異位性濕疹的核心病理正是 Th2 免疫細胞過度活化所驅動的表皮屏障破壞與慢性炎症反應，與上述作用機轉高度吻合。這在理論上支持 FF 以外用劑型應用於 AD 治療的生物合理性。
+外用糖皮質素本來就是異位性皮膚炎的標準治療類別。TxGNN 的高分預測與這個藥理邏輯相符。
 
-值得注意的是，現有臨床試驗大多以同類藥物 fluticasone propionate（外用 Cutivate 製劑）為研究對象，fluticasone furoate 外用劑型於 AD 的專屬 Phase 3 RCT 尚付之闕如。目前的證據屬於「class-level」類別橋接推論，需要後續 FF 外用劑型的獨立驗證。
-
----
+不過，目前的臨床試驗多半使用 fluticasone propionate（另一種鹽類）的外用劑型。因此證據只能支持「這個類別有效」，不能直接證明 furoate 有效。香港現有的 furoate 產品是鼻噴劑與吸入劑，也沒有外用皮膚劑型。若要用於皮膚，需要另外的皮膚暴露與安全性資料。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00690105](https://clinicaltrials.gov/study/NCT00690105) | Phase 4 | 已完成 | 577 | Tacrolimus 0.1% vs Fluticasone 0.005% 軟膏於成人中重度 AD（頭頸「紅臉」病灶）雙盲多中心試驗，確立外用 fluticasone 類在成人 AD 的療效基準 |
-| [NCT00689832](https://clinicaltrials.gov/study/NCT00689832) | Phase 4 | 已完成 | 487 | Tacrolimus 0.03% vs Fluticasone 0.005% 軟膏於 2 歲以上兒科中重度 AD，大型兒科試驗，間接支持兒科族群的 fluticasone 類療效 |
-| [NCT03742414](https://clinicaltrials.gov/study/NCT03742414) | Phase 2 | 招募完成進行中 | 398 | SEAL 研究：評估強化皮膚屏障（含 fluticasone propionate 前瞻性使用）預防過敏進展（allergic march），機轉與 AD 早期介入高度契合，預計 2028 年完成 |
-| [NCT01772056](https://clinicaltrials.gov/study/NCT01772056) | Phase 3 | 已終止 | 54 | 雙盲 RCT 評估 fluticasone propionate 每週兩次維持治療兒童 AD（16 週），設計等級最高但提前終止，削弱整體證據效力 |
-| [NCT01915914](https://clinicaltrials.gov/study/NCT01915914) | Phase 4 | 已完成 | 107 | 開放性隨機比較試驗，評估 fluticasone 間歇維持給藥（每週兩次）合併日常保濕劑於兒科穩定 AD 的復發預防效果 |
-| [NCT00119158](https://clinicaltrials.gov/study/NCT00119158) | Phase 4 | 已完成 | 90 | 雙盲車輛對照配對探索性研究，評估 Elidel 1% 聯合 Cutivate 0.05% 外用於重度 AD，設計嚴謹，提供 class-level 間接支持 |
-| [NCT00546000](https://clinicaltrials.gov/study/NCT00546000) | Phase 4 | 已完成 | 56 | 開放性多中心研究，評估 Cutivate (fluticasone propionate 0.05%) 乳液對嬰幼兒 AD 患者 HPA 軸的影響 |
-| [NCT00616538](https://clinicaltrials.gov/study/NCT00616538) | Phase 4 | 已完成 | 121 | 隨機研究者盲試驗，比較 EpiCream 與 fluticasone propionate 0.05% 於兒科中重度 AD 的療效與安全性 |
-| [NCT04706559](https://clinicaltrials.gov/study/NCT04706559) | N/A | 已完成 | 98 | 評估益生菌補充於兒科 AD 的臨床效果（SCORAD 評估），fluticasone 為背景治療而非主要干預 |
-| [NCT03594565](https://clinicaltrials.gov/study/NCT03594565) | Early Phase 1 | 已完成 | 13 | 探索鼻用類固醇處理第 1 型糖尿病兒童 CGM 感測器皮膚反應，樣本極小（n=13），相關性有限 |
-
----
+| [NCT01772056](https://clinicaltrials.gov/study/NCT01772056) | Phase 3 | 提前終止 | 54 | 雙盲 RCT：每週兩次 fluticasone propionate 0.05% 乳膏，用於兒童輕中度異位性皮膚炎的維持治療以降低復發。為設計最強的一項，但提前終止且使用 propionate |
+| [NCT00690105](https://clinicaltrials.gov/study/NCT00690105) | Phase 4 | 完成 | 577 | Tacrolimus 0.1% 對比 fluticasone 0.005% 軟膏，用於成人中重度臉頸部異位性皮膚炎。重點在 tacrolimus，與本藥關聯較弱 |
+| [NCT00689832](https://clinicaltrials.gov/study/NCT00689832) | Phase 4 | 完成 | 487 | Tacrolimus 0.03% 對比 fluticasone 0.005% 軟膏，用於 2 歲以上兒童。與本藥關聯較弱 |
+| [NCT00616538](https://clinicaltrials.gov/study/NCT00616538) | Phase 4 | 完成 | 121 | 研究者盲性 RCT：Epiceram 對比中效外用類固醇（fluticasone propionate 0.05%），用於兒童中重度異位性皮膚炎 |
+| [NCT01915914](https://clinicaltrials.gov/study/NCT01915914) | Phase 4 | 完成 | 107 | 開放性隨機試驗：fluticasone propionate 0.05% 乳膏間歇給藥（每週兩次）預防兒童復發，搭配保濕 |
+| [NCT00119158](https://clinicaltrials.gov/study/NCT00119158) | Phase 4 | 完成 | 90 | 雙盲、載體對照的配對探索性試驗：Elidel 與 Cutivate 0.05% 併用於嚴重異位性皮膚炎 |
+| [NCT00546000](https://clinicaltrials.gov/study/NCT00546000) | Phase 4 | 完成 | 56 | 開放性試驗：Cutivate（propionate）0.05% 洗劑對嬰幼兒異位性皮膚炎 HPA 軸的影響 |
+| [NCT03742414](https://clinicaltrials.gov/study/NCT03742414) | Phase 2 | 進行中（不再招募） | 398 | SEAL 研究：以皮膚屏障保養加主動式 fluticasone propionate 乳膏，預防過敏進程。fluticasone 並非唯一介入 |
+| [NCT03594565](https://clinicaltrials.gov/study/NCT03594565) | Early Phase 1 | 完成 | 13 | 小型病例系列：鼻用類固醇處理第 1 型糖尿病兒童連續血糖監測貼片引起的皮膚反應，屬探索性 |
+| [NCT00426283](https://clinicaltrials.gov/study/NCT00426283) | Phase 2 | 完成 | 42 | 吞服 fluticasone propionate 對比安慰劑，用於嗜酸性食道炎。屬食道適應症，可能是映射誤差 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Review | Neuroimmunomodulation | 鼻用皮質類固醇與腎上腺抑制之文獻回顧，探討 ICS 全身性效應的 HPA 軸評估方法；指出 ICS 在過敏性鼻炎、氣喘、AD 共病時的系統性副作用需整合考量 |
-| [40066386](https://pubmed.ncbi.nlm.nih.gov/40066386/) | 2025 | Case Report | Indian J Otolaryngol Head Neck Surg | 過敏原免疫治療（AIT）用於自體免疫背景患者的個案報告，提及 AD 為 AIT 新興適應症之一，對 fluticasone furoate 本身的直接支持性有限 |
+| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Review | Neuroimmunomodulation | 鼻用類固醇與腎上腺抑制：過敏性鼻炎常與氣喘、異位性皮膚炎並存，需以 HPA 軸評估類固醇的全身性影響 |
+| [40066386](https://pubmed.ncbi.nlm.nih.gov/40066386/) | 2025 | Case study | Indian J Otolaryngol Head Neck Surg | 自體免疫背景下的過敏原免疫治療病例報告，與 fluticasone 關聯間接 |
 
----
+## 香港上市資訊
+
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-68739 | FLUTICASONE FUROATE NITTO NASAL SPRAY 27.5MCG/SPRAY | PRIMAL CHEMICAL CO LTD |
+| HK-56691 | AVAMYS NASAL SPRAY 27.5MCG/SPRAY | GLAXOSMITHKLINE LIMITED |
+| HK-62693 | RELVAR ELLIPTA INHALATION POWDER 100MCG/25MCG | GLAXOSMITHKLINE LIMITED |
+| HK-62694 | RELVAR ELLIPTA INHALATION POWDER 200MCG/25MCG | GLAXOSMITHKLINE LIMITED |
+| HK-67942 | TRELEGY ELLIPTA INHALATION POWDER 200MCG/62.5MCG/25MCG | GLAXOSMITHKLINE LIMITED |
+
+共 6 張許可證，上表列出 5 張。資料中未提供核准適應症與劑型。
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
----
-
 ## 結論與下一步
 
-**決策：Research Question**
+**決策：Hold**
 
 **理由：**
-Fluticasone furoate 在作用機轉上（GR 介導的 Th2 炎症抑制）與異位性濕疹核心病理高度吻合，且同類藥物 fluticasone propionate 外用劑型已有多項規模達數百人的 Phase 3/4 臨床試驗支持；然而，FF 外用劑型專屬的 AD 概念驗證試驗至今付之闕如，且現有 Phase 3 試驗（NCT01772056）已提前終止，全部證據均屬 class-level 橋接推論，尚不足以直接確立 FF 外用的療效。
+- 目前的皮膚科證據幾乎都來自 fluticasone propionate 或其他藥物的試驗，沒有直接針對 furoate 的異位性皮膚炎試驗。
+- 唯一的 Phase 3 RCT 提前終止（54 人），安全性資料也不足。
+- 現有 furoate 產品是鼻用與吸入劑型，沒有外用皮膚劑型，給藥途徑不相容。
 
 **若要推進需要：**
-- 取得 Fluticasone furoate 外用劑型的完整藥物動力學（PK）及皮膚滲透率資料
-- 規劃 FF 外用劑型針對 AD 的 Phase 2 概念驗證（Proof of Concept）試驗
-- 補充作用機轉（MOA）正式資料（建議查詢 DrugBank API）
-- 補充安全性資訊，包括警語與禁忌症（建議下載原廠仿單 PDF 解析）
-- 評估香港市場可行性：目前無本地許可證，須確認進口及臨床試驗申請路徑
+- 補上作用機轉（MOA）資料
+- 補上香港衛生署仿單的警語與禁忌症
+- 針對 furoate 皮膚外用的暴露量與全身性吸收（含 HPA 軸抑制）評估
+- 與外用 propionate 或其他外用類固醇的頭對頭比較，並確認外用製劑的開發或取得可行性
+- 合併重複的預測項目：「atopic eczema」與「dermatitis, atopic」使用相同證據，應視為同一項
+
+**其他預測適應症的補充：**
+- 支氣管炎（bronchitis）證據較強（L2），有 furoate 與 vilanterol 的 RELVAR 相關研究。但這比較像是現有吸入劑用途的反映，不是真正的新用途。
+- 接觸性皮膚炎（L4）與 HEMA 致敏（L5）沒有直接證據，建議暫緩。
+
+> 本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

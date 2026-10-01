@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Carbamazepine
-parent: 中證據等級 (L3-L4)
-nav_order: 136
-evidence_level: L3
+parent: 僅模型預測 (L5)
+nav_order: 154
+evidence_level: L5
 indication_count: 10
 ---
 
 # Carbamazepine
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,12 @@ indication_count: 10
 
 </div>
 
-# Carbamazepine：從癲癇／三叉神經痛到三叉神經腫瘤
+# Carbamazepine：從癲癇相關用途到三叉神經腫瘤
 
 ## 一句話總結
 
-Carbamazepine 是廣泛使用的第一線抗癲癇與神經痛藥物，全球已核准用於癲癇發作及三叉神經痛治療。TxGNN 模型預測它可能對**三叉神經腫瘤 (Trigeminal Nerve Neoplasm)** 有效，目前有 **1 個臨床試驗**和 **20 篇文獻**支持這個方向。
+Carbamazepine（卡巴馬平）是一種鈉離子通道阻斷型抗癲癇藥，證據包中未載明原適應症。
+TxGNN 模型預測它可能對**三叉神經腫瘤 (Trigeminal Nerve Neoplasm)** 有效，但目前僅有 **1 個相關性低的臨床試驗**和多篇個案報告與回顧文獻，且沒有直接證明抗腫瘤效果的證據。這個高分較可能反映的是它對三叉神經痛的既有用途。
 
 ---
 
@@ -41,23 +42,25 @@ Carbamazepine 是廣泛使用的第一線抗癲癇與神經痛藥物，全球已
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無香港核准紀錄（全球已核准用於癲癇、三叉神經痛） |
+| 原適應症 | 資料未提供（香港許可證的核准適應症欄位皆為空） |
 | 預測新適應症 | 三叉神經腫瘤 (Trigeminal Nerve Neoplasm) |
 | TxGNN 預測分數 | 99.998% |
-| 證據等級 | L3 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L4（僅有前臨床／機轉層級與個案報告，無相關 RCT） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 6 張 |
 | 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-Carbamazepine 是電壓依賴性鈉通道阻斷劑（voltage-gated sodium channel blocker），透過穩定神經元膜電位、抑制高頻重複放電，達到抗癲癇與鎮痛效果。雖然本 Evidence Pack 的 MOA 欄位標記為資料缺口，但 CBZ 鈉通道阻斷的藥理機轉已在神經藥理學文獻中廣泛驗證。
+目前缺乏詳細的作用機轉資料。Carbamazepine 屬於電壓門控鈉離子通道阻斷劑，可降低神經異常放電。以下機轉說明來自一般藥理知識，並未在來源紀錄中驗證。
 
-三叉神經腫瘤（包括神經鞘瘤、脂肪瘤、惡性淋巴瘤等）可透過壓迫或浸潤三叉神經纖維，引發異位放電（ectopic discharge），臨床上表現為三叉神經痛（TN）或反射性癲癇發作。CBZ 鈉通道阻斷機轉理論上可抑制此類異位放電，緩解腫瘤壓迫性神經痛症狀。TxGNN 模型正是透過「TN ↔ 腫瘤性壓迫」的疾病本體論連結捕捉到此預測訊號。
+預測分數很高，最可能的原因是 carbamazepine 本來就用於三叉神經痛。腫瘤壓迫或刺激三叉神經時，可能引發神經痛，此時藥物能減少異位放電、緩解症狀。這屬於**症狀控制**，並非抗腫瘤作用。
 
-需特別注意的是：現有案例報告顯示，當三叉神經痛症狀對 CBZ **無反應**時，反而提示臨床醫師應進一步影像學排查腫瘤病因。因此 CBZ 在本適應症的潛在角色，主要是**症狀緩解（symptom management）**，而非直接的抗腫瘤治療。
+文獻中多篇個案也顯示，原本被當成三叉神經痛而用 carbamazepine 治療的患者，後來發現背後有淋巴瘤、脂肪瘤、腦膜瘤或黑色素瘤等病灶。有些患者的疼痛一度改善，但藥物並未控制腫瘤本身。因此，這個預測不宜解讀為藥物具有抗腫瘤療效。
+
+其他排名較前的預測多為反射性癲癇（如聽源性、驚嚇性、閱讀性癲癇），機轉上與鈉通道阻斷有合理關聯，但人體證據都很薄弱。
 
 ---
 
@@ -65,30 +68,36 @@ Carbamazepine 是電壓依賴性鈉通道阻斷劑（voltage-gated sodium channe
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT06853119](https://clinicaltrials.gov/study/NCT06853119) | N/A | 尚未招募 | 120 | MRI 分析三叉神經痛患者的腦網絡動態變化與微結構，評估血腦屏障及水交換率，探索神經可塑性機轉（純觀察性影像研究，不測試 CBZ 療效） |
+| [NCT06853119](https://clinicaltrials.gov/study/NCT06853119) | N/A | 尚未招募 | 120 | 以 MRI 觀察三叉神經痛患者的腦功能與結構變化。未測試 carbamazepine，也與腫瘤無關（相關性：C） |
 
 ---
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [36824641](https://pubmed.ncbi.nlm.nih.gov/36824641/) | 2022 | Review | Acta Clinica Croatica | CBZ 為三叉神經痛第一線醫療用藥；腫瘤性壓迫為繼發性 TN 的病因之一 |
-| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | Review | Expert Review of Neurotherapeutics | TN 多種治療方式系統回顧；CBZ 仍是主要藥物選擇；血管壓迫引起局部脫髓鞘和異位放電的機轉 |
-| [30741017](https://pubmed.ncbi.nlm.nih.gov/30741017/) | 2023 | Case Report | British Journal of Neurosurgery | 三叉神經原發性惡性淋巴瘤；CBZ 處方後症狀未改善，MRI 確認 Meckel's cave 腫塊——呈現 CBZ 無效即應排查腫瘤的典型路徑 |
-| [25142539](https://pubmed.ncbi.nlm.nih.gov/25142539/) | 2014 | Case Report | 臨床神経学 | 惡性淋巴瘤沿三叉神經蔓延；初始 CBZ 治療有效，四個月後出現非神經痛性鈍痛及複視等顱神經症狀 |
-| [15235745](https://pubmed.ncbi.nlm.nih.gov/15235745/) | 2004 | Case Report | Arquivos de Neuro-Psiquiatria | Meckel's cave 原發性黑色素瘤；TN 疼痛對 CBZ 無效，微血管減壓術後復發，最終確診腫瘤 |
-| [25968963](https://pubmed.ncbi.nlm.nih.gov/25968963/) | 2015 | Case Report/Review | World Neurosurgery | 靜脈血管瘤引發 TN；CBZ 為標準初始治療；中央髓鞘機械性損傷與異常傳導的機轉 |
-| [3181365](https://pubmed.ncbi.nlm.nih.gov/3181365/) | 1988 | 動物研究 | Experimental Neurology | CBZ 靜脈給藥立即抑制實驗性神經瘤的自發放電（A-α/β 及 A-δ 纖維），提供 CBZ 對神經瘤異位放電的直接藥理學證據 |
-| [25433061](https://pubmed.ncbi.nlm.nih.gov/25433061/) | 2014 | Case Report/Review | Neurological Surgery | 腦橋小腦角脂肪瘤引發 TN；CBZ 因副作用控制不佳而接受手術切除部分腫瘤 |
-| [22647513](https://pubmed.ncbi.nlm.nih.gov/22647513/) | 2012 | Case Report | Neurological Surgery | 合併舌咽神經痛與三叉神經痛；CBZ 為功能性顱神經痛的第一線藥物，失效則轉微血管減壓術 |
-| [33989821](https://pubmed.ncbi.nlm.nih.gov/33989821/) | 2021 | Case Report | World Neurosurgery | 岩斜區腦膜瘤引發 TN；腫瘤包裹第五對顱神經，以 Kawase 入路切除；CBZ 為術前症狀控制藥物 |
+|------|-----|------|------|------|
+| [36824641](https://pubmed.ncbi.nlm.nih.gov/36824641/) | 2022 | Review | Acta Clin Croat | 三叉神經痛治療選項回顧，指出病因可能是血管壓迫或腫瘤 |
+| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | Review | Expert Rev Neurother | 三叉神經痛的多種藥物與手術治療 |
+| [30741017](https://pubmed.ncbi.nlm.nih.gov/30741017/) | 2023 | Case report | Br J Neurosurg | 三叉神經原發性惡性淋巴瘤，先前用 carbamazepine 症狀未改善 |
+| [25142539](https://pubmed.ncbi.nlm.nih.gov/25142539/) | 2014 | Case report | Rinsho Shinkeigaku | 三叉神經周圍擴散的惡性淋巴瘤，起初以 carbamazepine 改善，後來失效 |
+| [15235745](https://pubmed.ncbi.nlm.nih.gov/15235745/) | 2004 | Case report | Arq Neuropsiquiatr | Meckel's cave 原發性黑色素瘤，carbamazepine 無法緩解疼痛 |
+| [25433061](https://pubmed.ncbi.nlm.nih.gov/25433061/) | 2014 | Case report | No Shinkei Geka | 小腦橋腦角脂肪瘤引發三叉神經痛，因副作用而疼痛控制不佳 |
+| [9109911](https://pubmed.ncbi.nlm.nih.gov/9109911/) | 1997 | 個案描述 | Neurology | 放射線治療後神經肌強直，對 carbamazepine 有反應 |
+| [3181365](https://pubmed.ncbi.nlm.nih.gov/3181365/) | 1988 | 動物實驗（大鼠） | Exp Neurol | Carbamazepine 抑制實驗性神經瘤的自發性放電 |
 
 ---
 
 ## 香港上市資訊
 
-目前無香港上市許可證紀錄（total_licenses = 0）。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-40924 | APO-CARBAMAZEPINE TAB 200MG | 未提供 | 未提供 |
+| HK-44773 | TEGRETOL CR 200 TAB 200MG | 未提供 | 未提供 |
+| HK-35117 | TEGRETOL SYRUP 2% | 未提供 | 未提供 |
+| HK-40975 | TAVER TAB 200MG | 未提供 | 未提供 |
+| HK-35635 | CARZEPIN TAB 200MG | 未提供 | 未提供 |
+
+（共 6 張許可證，上表列出 5 張。）
 
 ---
 
@@ -103,13 +112,19 @@ Carbamazepine 是電壓依賴性鈉通道阻斷劑（voltage-gated sodium channe
 **決策：Hold**
 
 **理由：**
-現有文獻的核心訊號是「三叉神經腫瘤引發 TN 症狀，CBZ 用於症狀緩解」，而非 CBZ 直接治療或改變三叉神經腫瘤本身的自然病程。多份案例報告顯示 CBZ 對腫瘤性 TN 的療效不一（部分有效、部分無效），且 CBZ 治療失敗往往反而是發現腫瘤的重要臨床線索。CBZ 在香港目前無上市核准，安全性資料欠缺，尚無法進入正式評估。
+- 高預測分數很可能來自三叉神經痛的既有用途，而不是抗腫瘤效果。現有證據多為個案報告，且多數顯示 carbamazepine 只能暫時緩解症狀，無法控制腫瘤。
+- 唯一的臨床試驗是與本藥無關的觀察性 MRI 研究。
 
 **若要推進需要：**
-- 釐清研究定位：確認以「腫瘤性 TN 的症狀緩解」而非「抗腫瘤」作為老藥新用方向，後者缺乏機轉支持
-- 補充完整 MOA 資料（DrugBank API 查詢 DB00564）
-- 取得仿單警語與禁忌症（TFDA 官網下載 PDF 解析，DG001 缺口）
-- 設計針對三叉神經腫瘤壓迫性疼痛症狀控制的前瞻性觀察性研究或病例系列分析
+- 釐清研究問題：是「腫瘤相關神經痛的症狀控制」，還是「抗腫瘤作用」。前者已屬既有用途，後者目前沒有支持證據。
+- 取得香港衛生署仿單中的適應症、警語與禁忌，完成安全性篩選。
+- 補齊原適應症與作用機轉資料。
+- 若關注反射性癲癇方向（聽源性、驚嚇性、閱讀性等），需另行評估，並收集對照性臨床資料。
+
+**其他預測的簡要判斷：**
+- 聽源性癲癇、思考性癲癇、驚嚇性癲癇、閱讀性癲癇：列為研究問題，證據僅限動物實驗、個案報告與間接試驗。
+- 性高潮誘發癲癇、排尿誘發癲癇、β-酮硫解酶缺乏症、先天型 Rett 症候群：僅有模型預測，或檢索到的文獻無關，宜擱置。
+- 進食誘發癲癇：僅有零星個案，多數文獻與該適應症無關，宜擱置。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

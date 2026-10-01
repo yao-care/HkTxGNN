@@ -2,7 +2,7 @@
 layout: default
 title: Larotrectinib
 parent: 中證據等級 (L3-L4)
-nav_order: 438
+nav_order: 503
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,76 +29,98 @@ indication_count: 10
 
 </div>
 
-# Larotrectinib：從 NTRK 融合陽性實體瘤 到 多發性內分泌腫瘤
+# Larotrectinib：從 NTRK 融合陽性實體腫瘤到多發性內分泌腫瘤
 
 ## 一句話總結
 
-Larotrectinib 是一款 TRK（tropomyosin receptor kinase）抑制劑，目前核准用於治療帶有 NTRK1/2/3 基因融合的實體腫瘤，與腫瘤原發部位無關。
-TxGNN 模型預測它可能對**多發性內分泌腫瘤（Multiple Endocrine Neoplasia, MEN）**有效，
-但目前僅有 **1 個間接相關的臨床試驗**和 **2 篇文獻**支持，證據等級偏低（L4），機轉關聯性也較薄弱。
+Larotrectinib 是選擇性 TRK（NTRK1/2/3）抑制劑，原本用於治療 NTRK 基因融合陽性的實體腫瘤。
+TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neoplasia, MEN)** 有效，但目前只有 **1 個間接相關的臨床試驗**和 **2 篇間接相關的文獻**，且都不是直接研究 larotrectinib 用於 MEN，證據薄弱。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | NTRK 基因融合陽性實體瘤（國際核准適應症；本地無許可證登記資料） |
-| 預測新適應症 | Multiple Endocrine Neoplasia（多發性內分泌腫瘤） |
+| 原適應症 | NTRK 基因融合陽性實體腫瘤（香港許可證未載明適應症文字，此處依證據包的機轉說明） |
+| 預測新適應症 | 多發性內分泌腫瘤 (Multiple Endocrine Neoplasia) |
 | TxGNN 預測分數 | 99.24% |
 | 證據等級 | L4 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 3 張 |
 | 建議決策 | Hold |
+
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏 Larotrectinib 詳細的作用機轉資料庫記錄（DrugBank MOA 欄位缺失）。根據證據包內的臨床試驗描述，Larotrectinib 是一種 TRK 抑制劑，透過阻斷 NTRK1/2/3 基因融合所產生的異常激酶活性來抑制腫瘤生長，其適應症判定不看腫瘤發生部位，只看是否帶有 NTRK 融合。
+Larotrectinib 是選擇性 TRK（NTRK1/2/3）抑制劑。目前缺乏詳細的作用機轉資料庫記錄，以上描述來自證據包的機轉說明。它的療效建立在腫瘤帶有 NTRK 融合這項生物標記上，與腫瘤長在哪個器官無關。
 
-TxGNN 預測其對多發性內分泌腫瘤（MEN）有效，但這個預測的機轉合理性有限：MEN2（與甲狀腺髓質癌相關的亞型）主要驅動基因是 **RET**，並非 Larotrectinib 所標靶的 NTRK。只有在罕見的、同時帶有 NTRK 融合的甲狀腺癌病例中，才存在理論上的機轉關聯，整體證據基礎相當薄弱。
+MEN，特別是 MEN2，主要由 **RET** 基因突變驅動，並常伴隨甲狀腺髓樣癌。Larotrectinib **不作用於 RET**，因此這個預測的機轉連結是間接的。它只來自兩個方向：一是激酶抑制劑在 RET 驅動的內分泌腫瘤中的治療經驗，二是甲狀腺癌中罕見的 NTRK 融合。
 
-支持這個方向的資料，目前只有 1 個大型多臂籃式試驗（MATCH，依分子標記分派治療，並非針對 Larotrectinib+MEN 專門設計，相關性評為 C 級／間接相關）與 2 篇非直接相關的文獻。
+所以，TxGNN 的高分**沒有得到 TRK 特異性機轉的支持**。若 MEN 患者的腫瘤剛好帶有 NTRK 融合，才有理由使用 larotrectinib，此時依據是融合標記，不是 MEN 這個診斷。
+
+---
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT02465060](https://clinicaltrials.gov/study/NCT02465060) | Phase 2 | 進行中（未招募） | 6452 | MATCH 籃式試驗：依基因檢測結果將實體瘤/淋巴瘤/骨髓瘤患者分派至不同標靶藥物臂，非專為 Larotrectinib＋MEN 設計，僅間接相關（相關性 C 級） |
+| [NCT02465060](https://clinicaltrials.gov/study/NCT02465060) | Phase 2 | 進行中（不再招募） | 6452 | NCI-MATCH：依基因檢測結果分派治療的泛癌種試驗，對象為晚期難治性實體腫瘤、淋巴瘤或多發性骨髓瘤。並非針對 MEN，也非隨機分派；是否受益取決於有無 NTRK 融合。 |
+
+---
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [31322645](https://pubmed.ncbi.nlm.nih.gov/31322645/) | 2019 | Review | Endocrine Reviews | 回顧晚期甲狀腺癌之激酶抑制劑治療現況（含多種藥物），非 Larotrectinib 專門研究 |
-| [38438731](https://pubmed.ncbi.nlm.nih.gov/38438731/) | 2024 | Preclinical/Mechanistic | NPJ Precision Oncology | 探討 RET 抑制劑（selpercatinib/pralsetinib）於 RET 驅動甲狀腺髓質癌之抗藥機轉，非 Larotrectinib 直接研究 |
+| [31322645](https://pubmed.ncbi.nlm.nih.gov/31322645/) | 2019 | Review | Endocrine Reviews | 回顧晚期甲狀腺癌的標靶治療。核准藥物多為抗血管新生的多標靶激酶抑制劑，也有針對特定突變的適應症。未專門探討 larotrectinib。 |
+| [38438731](https://pubmed.ncbi.nlm.nih.gov/38438731/) | 2024 | 前臨床／個案 | NPJ Precision Oncology | 一名 RET 突變的轉移性甲狀腺髓樣癌患者接受 selpercatinib 後，出現由其他致癌基因引起的抗藥性。與 larotrectinib 無直接關係。 |
+
+---
 
 ## 香港上市資訊
 
-Larotrectinib 目前**未於香港上市**，無許可證登記資料。
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-66491 | VITRAKVI CAPSULES 100MG | BAYER HEALTHCARE LIMITED |
+| HK-66492 | VITRAKVI CAPSULES 25MG | BAYER HEALTHCARE LIMITED |
+| HK-66493 | VITRAKVI ORAL SOLUTION 20MG/ML | BAYER HEALTHCARE LIMITED |
+
+---
 
 ## 細胞毒性
 
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 標靶藥物（TRK 酪胺酸激酶抑制劑），非傳統細胞毒性化療藥物 |
-| 骨髓抑制風險 | 請參考原廠仿單的警語與注意事項（證據包中僅間接提及血小板低下為已知不良反應，程度資料缺失） |
-| 致吐性分級 | 請參考原廠仿單的警語與注意事項 |
-| 監測項目 | 建議監測 CBC（含血小板） |
-| 處置防護 | 請參考原廠仿單的警語與注意事項 |
+| 細胞毒性分類 | 標靶藥物（TRK 抑制劑），非傳統細胞毒性化療藥物 |
+
+其他細胞毒性相關項目（骨髓抑制風險、致吐性分級、監測項目、處置防護）請參考原廠仿單的警語與注意事項。
+
+---
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-目前僅有 1 個間接相關的大型籃式試驗和 2 篇非直接相關文獻支持，證據等級為 L4，且機轉關聯薄弱——MEN2 的主要驅動基因是 RET 而非 Larotrectinib 標靶的 NTRK，僅在罕見的 NTRK 融合陽性亞群才有理論基礎。
+- TxGNN 分數雖高（99.24%），但 larotrectinib 不作用於 MEN 的主要驅動基因 RET，且沒有任何直接研究支持。
+- 唯一的臨床試驗是泛癌種的 NCI-MATCH，2 篇文獻也都不是研究 larotrectinib。香港仿單的警語與禁忌資料尚未取得，無法進入安全性篩選。
 
 **若要推進需要：**
-- 補齊 Larotrectinib 完整 MOA 與本地（香港）仿單安全性資料（現存 Blocking 級資料缺口：仿單警語/禁忌未取得）
-- 篩選出真正帶有 NTRK 融合的 MEN／甲狀腺髓質癌病例證據，而非泛用籃式試驗結果
-- 注意證據包中排名第 6 的候選適應症（PR 陰性乳癌、NTRK 融合驅動亞群）證據等級達 L2、決策階段已至 S2，且有 Larotrectinib 本尊的 Phase 2 basket trial（NCT02576431）直接支持，證據強度明顯優於本候選，建議優先評估
+- 取得香港衛生署的仿單，補齊警語與禁忌症，這是目前的阻斷性缺口。
+- 補充 DrugBank 的詳細作用機轉資料。
+- 確認 MEN 患者中 NTRK 融合的實際盛行率，並搜尋 larotrectinib 用於 MEN 或甲狀腺髓樣癌的病例報告或試驗。
+- 若走標記導向的路線，改以「NTRK 融合陽性」作為適用條件，而不是以 MEN 為整體適應症。
+- 其他預測中，「孕激素受體陰性乳癌」（排名 6）有已完成的 Phase 2 試驗 NCT02576431（215 人，NTRK 融合實體腫瘤）。但該試驗不專屬乳癌，效益僅限融合陽性患者，同樣適合走標記導向的評估。
+
+*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

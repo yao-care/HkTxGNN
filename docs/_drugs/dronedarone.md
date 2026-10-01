@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dronedarone
-parent: 高證據等級 (L1-L2)
-nav_order: 251
-evidence_level: L1
+parent: 中證據等級 (L3-L4)
+nav_order: 296
+evidence_level: L3
 indication_count: 10
 ---
 
 # Dronedarone
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **10** 個
+證據等級: **L3** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,108 +29,96 @@ indication_count: 10
 
 </div>
 
-# Dronedarone：從心房顫動到中風疾病
+# Dronedarone：從心房顫動到中風
 
 ## 一句話總結
 
-Dronedarone 是一種非碘化的多通道阻斷型第三類抗心律失常藥物，在全球多個國家已核准用於心房顫動（AF）與心房撲動的治療，但香港尚未上市。TxGNN 模型預測它可能對**中風疾病 (Stroke Disorder)** 有效，目前有 **19 個臨床試驗**和 **20 篇文獻**支持這個方向。
-
----
+Dronedarone 是一種多離子通道阻斷型抗心律不整藥，用於心房顫動（AF）的節律控制。
+TxGNN 模型預測它可能對**中風 (Stroke Disorder)** 有效，預測分數很高。
+目前有 **19 個相關臨床試驗**和 **20 篇文獻**，但多數是間接證據，沒有以中風為主要終點、針對 dronedarone 的前瞻性試驗。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 心房顫動／心房撲動（國際核准；香港尚未上市） |
-| 預測新適應症 | 中風疾病 (Stroke Disorder) |
+| 原適應症 | 心房顫動（Evidence Pack 未收錄許可證適應症文字，此為依預測理由所述） |
+| 預測新適應症 | 中風 (Stroke Disorder) |
 | TxGNN 預測分數 | 99.97% |
-| 證據等級 | L1 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails |
-
----
+| 證據等級 | L3 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 1 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-Dronedarone 是 Amiodarone 的非碘化類似物，具備多通道阻斷特性（Class I–IV 複合效應），透過抑制鈉通道（Nav1.5）、鉀通道（Kv11.1、Kv4.3）、鈣通道（Cav1.2）及 β 腎上腺素受體，有效控制心房顫動節律並降低心率。其再利用機制建立在明確的因果鏈上：**AF → 左心房血栓形成 → 心源性栓塞型中風**。透過維持竇性心律，可顯著減少左心房血栓脫落，從而預防缺血性中風。
+目前缺乏 DrugBank 的詳細作用機轉資料。已知 dronedarone 具有多離子通道阻斷與抗腎上腺素作用，可控制心律與心率。它是治療心房顫動的抗心律不整藥。
 
-最強直接證據來自 ATHENA Phase 3 大型 RCT（n > 4,600）：Dronedarone 使 AF 患者中風相對風險降低 **34%**（HR 0.66, p = 0.03）。機轉研究（PMID 28992468）進一步揭示，Dronedarone 在抗心律失常效應之外，尚具有獨立的直接抗凝血（弱 Factor Xa/IIa 抑制）與抗血小板活性，構成雙重腦血管保護機制。此外，PMID 22366819 回顧了 Dronedarone 對心臟及腦部缺血/再灌流損傷的多效性（pleiotropic effects），進一步豐富其機轉基礎。
+心房顫動是心因性栓塞性中風的主要原因。若能有效維持竇性心律，理論上可降低中風風險。ATHENA 試驗的事後分析也提示，dronedarone 使用者的中風率較低。另有一項前臨床研究（PMID 28992468）指出，dronedarone 可能有獨立於抗心律不整作用之外的抗凝血與抗血小板效果。
 
-值得注意的是，PALLAS 試驗（NCT01151137, n = 3,236）顯示，在**高風險永久性 AF** 族群中 Dronedarone 反而增加中風及心血管死亡風險，導致試驗提早終止。因此，預測的獲益僅適用於**非永久性 AF**（陣發性或持續性）且心功能保存（LVEF ≥ 35%）的患者族群，需嚴格把關適用條件。
-
----
+但這條關聯是**間接的**。TxGNN 的高分很可能來自知識圖譜中「心房顫動－中風」的關聯，而不是 dronedarone 對中風的直接證據。目前沒有前瞻性試驗證實 dronedarone 能預防中風，中風預防的標準仍是抗凝血治療。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT01288352](https://clinicaltrials.gov/study/NCT01288352) | Phase 4 | 已完成 | 2,789 | EAST 試驗：早期 AF 節律控制策略（Dronedarone 為主要抗心律失常藥）vs 常規治療，中風為複合主要終點組成，結果顯示早期節律控制顯著降低心血管事件 |
-| [NCT07270848](https://clinicaltrials.gov/study/NCT07270848) | Phase 4 | 未開始招募 | 1,898 | 多中心前瞻性 RCT，直接比較 Dronedarone 早期節律控制的療效、安全性及生活品質改善，為近期設計最直接相關試驗 |
-| [NCT05293080](https://clinicaltrials.gov/study/NCT05293080) | Phase 3 | 未開始招募 | 1,746 | 急性缺血性中風合併 AF 患者早期節律控制（含 Dronedarone），主要終點為預防不良心血管結局及中風再發 |
-| [NCT05130268](https://clinicaltrials.gov/study/NCT05130268) | Phase 4 | 已完成 | 339 | 首次確診 AF 患者早期 Dronedarone vs 常規治療 RCT，直接評估腦血管結局改善，2024 年完成 |
-| [NCT01151137](https://clinicaltrials.gov/study/NCT01151137) | Phase 3 | 已終止 | 3,236 | PALLAS 試驗：高風險永久性 AF 患者，主要終點為預防中風/全身性栓塞/心肌梗塞/心血管死亡；因 Dronedarone 組事件率升高提早終止（重要安全性警示） |
-| [NCT01856075](https://clinicaltrials.gov/study/NCT01856075) | 觀察性 | 已完成 | 1,015 | Dronedarone vs 其他抗心律失常藥真實世界比較效果研究（德、西、義、美四國多中心），評估含中風在內的心血管結局 |
-| [NCT05279833](https://clinicaltrials.gov/study/NCT05279833) | 系統性回顧 | 已完成 | 87,810 | Dronedarone vs Sotalol 的系統性文獻回顧與網絡 Meta 分析，綜合評估兩藥的安全性與有效性 |
-| [NCT00911508](https://clinicaltrials.gov/study/NCT00911508) | 觀察性 | 已完成 | 2,204 | CABANA 試驗：導管消融 vs 抗心律失常藥物策略（含 Dronedarone），評估 AF 患者長期心血管結局 |
-| [NCT01266681](https://clinicaltrials.gov/study/NCT01266681) | N/A | 不明 | 100 | Dronedarone vs Amiodarone 持續性 AF 心臟復律後竇律維持 RCT，間接評估中風預防獲益 |
-| [NCT02618577](https://clinicaltrials.gov/study/NCT02618577) | Phase 3 | 已終止 | 2,608 | NOAH 試驗：AF 高心率發作患者 NOAC（Edoxaban）預防中風，含評估與 Dronedarone 合用之交互作用影響 |
-
----
+| [NCT01151137](https://clinicaltrials.gov/study/NCT01151137) | Phase 3 | 提前終止 | 3236 | 安慰劑對照，評估 dronedarone 400mg 每日兩次用於永久性心房顫動且有額外風險因子者，能否預防中風、全身性栓塞、心肌梗塞或心血管死亡等主要事件 |
+| [NCT01288352](https://clinicaltrials.gov/study/NCT01288352) | Phase 4 | 完成 | 2789 | EAST-AFNET 4：早期節律控制（抗心律不整藥或導管消融）對比常規照護，複合終點含中風；dronedarone 為可選藥物之一，屬策略層級證據 |
+| [NCT05130268](https://clinicaltrials.gov/study/NCT05130268) | Phase 4 | 完成 | 339 | 首次診斷心房顫動者，早期 dronedarone 對比常規照護的務實型隨機試驗；所提供資料無結果 |
+| [NCT01856075](https://clinicaltrials.gov/study/NCT01856075) | N/A | 完成 | 1015 | 真實世界觀察性研究，比較 dronedarone 與其他抗心律不整藥的相對效果；未確認中風結果 |
+| [NCT07270848](https://clinicaltrials.gov/study/NCT07270848) | Phase 4 | 尚未招募 | 1898 | 針對 dronedarone 早期節律控制的療效、安全性與生活品質的前瞻性研究，尚無資料 |
+| [NCT05293080](https://clinicaltrials.gov/study/NCT05293080) | Phase 3 | 尚未招募 | 1746 | EAST-STROKE：急性缺血性中風合併心房顫動者的早期節律控制；非 dronedarone 專屬，尚無結果 |
+| [NCT04704050](https://clinicaltrials.gov/study/NCT04704050) | Phase 4 | 提前終止 | 22 | EDORA：消融後使用 dronedarone 對心房纖維化進展與復發的影響（對比安慰劑） |
+| [NCT01266681](https://clinicaltrials.gov/study/NCT01266681) | N/A | 未知 | 100 | 比較 amiodarone 與 dronedarone 於電擊復律後維持竇性心律；結果指標非中風 |
+| [NCT05279833](https://clinicaltrials.gov/study/NCT05279833) | N/A | 完成 | 87810 | 系統性文獻回顧／網絡統合分析，比較 Multaq 與 sotalol 的安全性與療效 |
+| [NCT00911508](https://clinicaltrials.gov/study/NCT00911508) | N/A | 完成 | 2204 | CABANA：導管消融對比藥物治療（節律或心率控制）用於心房顫動 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [40387892](https://pubmed.ncbi.nlm.nih.gov/40387892/) | 2025 | RCT 次要分析 | Clin Res Cardiology | EAST-AFNET 4 子分析：長期評估 Amiodarone 與 Dronedarone 早期節律控制的安全性與心血管結局，探討兩藥的臨床適用差異 |
-| [28992468](https://pubmed.ncbi.nlm.nih.gov/28992468/) | 2017 | 機轉研究 | Atherosclerosis | Dronedarone 具獨立於抗心律失常作用之外的直接抗凝血（Factor Xa 抑制）及抗血小板效應，為 ATHENA 中風下降提供雙重機制解釋 |
-| [37485722](https://pubmed.ncbi.nlm.nih.gov/37485722/) | 2023 | 回顧性世代研究 | Circ Arrhythm Electrophysiol | 大型退伍軍人資料庫真實世界數據：Dronedarone vs Sotalol 在 AF 患者的竇律維持療效與安全性頭對頭比較 |
-| [35293087](https://pubmed.ncbi.nlm.nih.gov/35293087/) | 2022 | ATHENA 事後分析 | Eur J Heart Failure | ATHENA 試驗事後分析：Dronedarone 用於合併 HFpEF/HFmrEF 的 AF 患者可降低心血管事件，拓展其潛在適用族群 |
-| [28496906](https://pubmed.ncbi.nlm.nih.gov/28496906/) | 2013 | 回顧性資料庫研究 | J Atrial Fibrillation | 真實世界 10,455 例分析：比較 Dronedarone vs 其他抗心律失常藥在中風、心衰竭、間質性肺病及肝損傷的相對風險 |
-| [22082198](https://pubmed.ncbi.nlm.nih.gov/22082198/) | 2011 | Phase 3 RCT | N Engl J Med | PALLAS 試驗：高風險永久性 AF 患者使用 Dronedarone 顯著增加中風及心血管死亡風險，為核心安全性警示文獻 |
-| [20730068](https://pubmed.ncbi.nlm.nih.gov/20730068/) | 2010 | 藥物核准回顧 | Vasc Health Risk Manag | Dronedarone FDA 核准回顧：ATHENA 試驗證實全因死亡率與心血管住院降低，事後分析提示中風風險下降 |
-| [24469871](https://pubmed.ncbi.nlm.nih.gov/24469871/) | 2013 | 療效與耐受性回顧 | Cardiology Journal | 系統性評估 Dronedarone 用於 AF 治療的臨床療效、耐受性及與其他抗心律失常藥物的比較定位 |
-| [22166900](https://pubmed.ncbi.nlm.nih.gov/22166900/) | 2012 | 綜合性回顧 | Lancet | AF 管理全面概述，涵蓋 Dronedarone 在節律控制與心源性中風預防的角色及其與新型口服抗凝藥的配合使用 |
-| [37777298](https://pubmed.ncbi.nlm.nih.gov/37777298/) | 2023 | 指引章節 | Am J Cardiology | AF 頻率控制 vs 節律控制最新指引，詳述 Dronedarone 的適應族群選擇、禁忌條件及臨床決策框架 |
-
----
+| [40387892](https://pubmed.ncbi.nlm.nih.gov/40387892/) | 2025 | RCT 次分析 | Clin Res Cardiol | 在 EAST-AFNET 4 中評估 amiodarone 與 dronedarone 早期節律控制的長期安全性與療效 |
+| [22082198](https://pubmed.ncbi.nlm.nih.gov/22082198/) | 2011 | RCT | N Engl J Med | 檢驗 dronedarone 能否降低高風險永久性心房顫動的重大血管事件 |
+| [28496906](https://pubmed.ncbi.nlm.nih.gov/28496906/) | 2013 | 觀察性研究 | J Atr Fibrillation | 真實世界回溯性世代研究，比較 dronedarone 與 amiodarone 等藥物的心血管事件、中風、心衰竭、間質性肺病及肝損傷風險 |
+| [37485722](https://pubmed.ncbi.nlm.nih.gov/37485722/) | 2023 | 世代研究 | Circ Arrhythm Electrophysiol | 退伍軍人族群中，dronedarone 與 sotalol 的療效與安全性比較 |
+| [35293087](https://pubmed.ncbi.nlm.nih.gov/35293087/) | 2022 | ATHENA 事後分析 | Eur J Heart Fail | 探討 dronedarone 用於合併保留或輕度降低射血分率心衰竭的心房顫動患者 |
+| [28992468](https://pubmed.ncbi.nlm.nih.gov/28992468/) | 2017 | 前臨床／機轉 | Atherosclerosis | 指出 ATHENA 中風減少無法單靠抗心律不整作用解釋，dronedarone 可能直接影響血液血栓形成性（抗凝血與抗血小板效果） |
+| [20730068](https://pubmed.ncbi.nlm.nih.gov/20730068/) | 2010 | 回顧 | Vasc Health Risk Manag | 回顧核准與療效；ATHENA 事後分析提示中風風險下降 |
+| [22166900](https://pubmed.ncbi.nlm.nih.gov/22166900/) | 2012 | 回顧 | Lancet | 心房顫動處置的進展，涵蓋口服抗凝血藥與中風風險分層 |
+| [22920480](https://pubmed.ncbi.nlm.nih.gov/22920480/) | 2012 | 回顧 | Curr Cardiol Rev | 心房顫動中風預防的概念與爭議，warfarin 長期為主要有效療法 |
+| [33888353](https://pubmed.ncbi.nlm.nih.gov/33888353/) | 2021 | 真實世界研究 | Clin Ther | dronedarone 可能經抑制 P-糖蛋白而提高 digoxin 血中濃度，評估併用者的洋地黃中毒風險 |
 
 ## 香港上市資訊
 
-Dronedarone 目前在香港**尚未取得藥物許可證**，無任何上市記錄（許可證數：0）。
-
-> 國際上，Dronedarone 以品牌名 **Multaq®** 在美國（FDA，2009 年）、歐盟（EMA）、澳洲（TGA）等地已獲核准，適應症為非永久性心房顫動或心房撲動患者的竇律維持治療。若在香港推進本藥使用，需先完成香港衛生署的藥物注冊程序。
-
----
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-59499 | MULTAQ TAB 400MG | SANOFI HONG KONG LIMITED |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **禁忌與使用限制**（依預測理由所述）：永久性心房顫動、失代償或嚴重心衰竭的患者不宜使用。
+- **藥物交互作用**：文獻（PMID 33888353）指出，dronedarone 可能經 P-糖蛋白抑制提高 digoxin 濃度。另有多篇文獻討論與直接口服抗凝血藥併用時的交互作用與出血風險。
+- **其他考量**：dronedarone 會減慢心率與傳導，在無節律器保護的竇房結功能異常患者中，可能加重心搏過緩。
 
-> **來自全球臨床試驗的重要安全提示（供參考）：**
->
-> - **PALLAS 試驗警示**：高風險永久性 AF 合併心血管危險因子患者使用 Dronedarone，中風與心血管死亡風險**顯著增加**，試驗提早終止。此族群為明確禁忌。
-> - **心衰竭禁忌**：ANDROMEDA 試驗顯示 Dronedarone 增加嚴重心衰（NYHA III-IV 級）患者死亡率，LVEF < 35% 患者禁用。
-> - **竇房結功能障礙禁忌**：因 Class I 效應（Nav1.5 阻斷）可能惡化竇性停搏，無人工節律器患者禁用。
-> - **藥物交互作用**：透過抑制 P-glycoprotein 可升高 Digoxin 血中濃度（PMID 33888353）；與 Rivaroxaban 合用可提高後者暴露量（PMID 27693025）；需關注與 NOAC 合用之出血與中風風險（PMID 41152878, 40243197）。
-
----
+其餘安全性資訊請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-EAST（Phase 4, n=2,789）及 ATHENA（Phase 3, n>4,600）等多個大型 RCT 提供 L1 等級證據，支持 Dronedarone 在**非永久性 AF 且心功能保存**族群中使中風相對風險降低 34%（HR 0.66）；機轉研究確認其兼具直接抗凝血與抗血小板雙重保護效應，生物學合理性充分。然而，PALLAS 試驗揭示的永久性 AF 族群安全性禁忌，以及香港尚未上市的現狀，需要系統性應對。
+- 「心房顫動－中風」的關聯合理，但證據多來自事後分析、觀察性研究與策略層級試驗，沒有以中風為主要終點、針對 dronedarone 的前瞻性試驗。
+- 中風預防的標準仍是抗凝血治療，且 dronedarone 在永久性心房顫動與心衰竭患者有安全疑慮。
+- 已完成的 Phase 3 試驗 NCT01151137 已提前終止，未形成正面的中風預防證據。
 
 **若要推進需要：**
-- 補齊香港衛生署仿單的完整警語與禁忌症資料（目前為資料缺口）
-- 確認 Dronedarone 詳細作用機轉（MOA）文獻（目前為資料缺口）
-- 向香港衛生署申請藥物注冊許可（目前 0 張許可證）
-- 嚴格訂定適用族群標準：**非永久性 AF（陣發性或持續性）、LVEF ≥ 35%、無病態竇房結、無嚴重肝腎功能不全**
-- 制定與 NOAC 或 Digoxin 合用時的藥物交互作用監測方案
-- 追蹤 NCT05130268 完整結果發表（2024 年完成招募，腦血管結局數據待公布）
-- 待 NCT07270848（n=1,898，預計 2028 年完成）結果以進一步強化療效與安全性證據
+- 取得 NCT05130268 的結果與中風相關終點，並追蹤 NCT07270848 的進展。
+- 確認 ATHENA 事後分析所示的中風減少，能否在前瞻性試驗中重現。
+- 取得香港衛生署仿單的警語與禁忌症資料，完成安全性篩選。
+- 補充 DrugBank 的作用機轉資料，釐清抗凝血與抗血小板效果是否有臨床意義。
+
+其餘預測適應症（排名 2–10）多為過時本體詞條、與中風重疊，或缺乏機轉依據的知識圖譜關聯，證據等級為 L5，建議 Hold。
+
+**免責聲明：** 本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

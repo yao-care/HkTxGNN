@@ -2,7 +2,7 @@
 layout: default
 title: Pimecrolimus
 parent: 高證據等級 (L1-L2)
-nav_order: 585
+nav_order: 683
 evidence_level: L2
 indication_count: 4
 ---
@@ -33,80 +33,80 @@ indication_count: 4
 
 ## 一句話總結
 
-Pimecrolimus（DB00337）是外用 calcineurin 抑制劑，目前臨床上已用於異位性皮膚炎的治療。
+Pimecrolimus 是局部外用的鈣調神經磷酸酶抑制劑，市售品 Elidel 主要用於異位性皮膚炎。
 TxGNN 模型預測它可能對**脂漏性皮膚炎 (Seborrheic Dermatitis)** 有效，
-目前有 **1 個直接針對此適應症的臨床試驗**、外加同一機轉延伸的多項比較試驗，以及 **18 篇文獻**支持這個方向。
-
----
+目前有 **1 個臨床試驗**和 **18 篇文獻**支持這個方向。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 異位性皮膚炎（依臨床試驗資料庫記載為 Elidel® 已核准適應症；本地無許可證資料佐證） |
+| 原適應症 | 香港許可證未記載；依文獻與試驗資料為異位性皮膚炎 |
 | 預測新適應症 | 脂漏性皮膚炎 (Seborrheic Dermatitis) |
 | TxGNN 預測分數 | 99.73% |
 | 證據等級 | L2 |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 1 張 |
 | 建議決策 | Proceed with Guardrails |
-
----
 
 ## 為什麼這個預測合理？
 
-Pimecrolimus 是 ascomycin 衍生的非類固醇 calcineurin 抑制劑，選擇性作用於 T 細胞與肥大細胞：抑制 T 細胞增生，減少 IL-2、IL-4、interferon-gamma、TNF-α 等發炎細胞激素的產生與釋放，同時抑制肥大細胞去顆粒化。此機轉正是它被用於異位性皮膚炎的核心理由（文獻 PMID 16033622）。
+目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位為空）。根據文獻，pimecrolimus 是外用鈣調神經磷酸酶抑制劑，會抑制 T 細胞活化，並減少 IL-2、IL-4、干擾素-γ、TNF-α 等發炎細胞激素的釋放，也會抑制肥胖細胞脫顆粒（PMID 16033622）。
 
-脂漏性皮膚炎的病理牽涉 *Malassezia* 誘發的局部 T 細胞/發炎反應，與異位性皮膚炎的免疫路徑有重疊。calcineurin 抑制可壓制這條發炎級聯，因此機轉外推具有合理性——這不只是圖譜關聯，而是有藥理基礎支持的推論。
+脂漏性皮膚炎是慢性、反覆發作的發炎性皮膚病，好發於皮脂腺豐富的部位。發炎反應與皮膚共生黴菌 Malassezia 有關。T 細胞介導的皮膚發炎在機轉上可被鈣調神經磷酸酶抑制劑抑制，另有報告指 pimecrolimus 可能具有部分抗黴菌活性。因此，把它從異位性皮膚炎延伸到臉部脂漏性皮膚炎，在藥理上合理。
 
-更重要的是，這個方向已有多個獨立 RCT 佐證，包括與 sertaconazole 之頭對頭比較試驗，以及至少 2 篇針對 RCT 的系統性回顧，顯示 pimecrolimus 1% cream 在脂漏性皮膚炎的療效與耐受性與現行療法（皮質類固醇、抗黴菌劑）相當，證據強度已超越單純模型預測。
-
----
+臨床上，它常被視為外用皮質類固醇以外的替代選擇，可避免長期使用類固醇的副作用。不過這個連結是依據已知藥理與文獻，並非來自本次提供的 MOA 記錄。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00403559](https://clinicaltrials.gov/study/NCT00403559) | Phase 2 | 完成 | 113 | 4 週雙盲、主動對照試驗，探索 Elidel（pimecrolimus）用於脂漏性皮膚炎之療效 |
+| [NCT00403559](https://clinicaltrials.gov/study/NCT00403559) | Phase 2 | 完成 | 113 | 4 週隨機雙盲、活性藥對照試驗，探索 Elidel 治療脂漏性皮膚炎的療效 |
 
-> 註：此為直接以「seborrheic dermatitis」為目標登記的試驗；文獻中另有多項與 ketoconazole、sertaconazole 之頭對頭比較試驗未在 ClinicalTrials.gov 單獨登記為此適應症，詳見下方文獻證據。
-
----
+目前沒有 Phase 3 RCT，這是證據停在 L2 的原因。
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [23715821](https://pubmed.ncbi.nlm.nih.gov/23715821/) | 2013 | RCT（對照 sertaconazole） | Irish J Med Sci | Sertaconazole 2% 與 pimecrolimus 1% 治療脂漏性皮膚炎之療效比較 |
-| [34910320](https://pubmed.ncbi.nlm.nih.gov/34910320/) | 2022 | RCT（對照 sertaconazole） | Clin Exp Dermatol | 隨機盲性試驗，pimecrolimus 1% vs sertaconazole 2% 治療顏面脂漏性皮膚炎，療效與安全性相當 |
-| [22142161](https://pubmed.ncbi.nlm.nih.gov/22142161/) | 2012 | 系統性回顧（RCT） | Expert Rev Clin Pharmacol | Pimecrolimus 1% cream 為耐受性良好且有效的脂漏性皮膚炎治療選項，療效與皮質類固醇/抗黴菌劑相當 |
-| [36072203](https://pubmed.ncbi.nlm.nih.gov/36072203/) | 2022 | 系統性回顧（RCT） | Cureus | 針對顏面脂漏性皮膚炎，回顧 calcineurin 抑制劑等四類藥物之療效與安全性 |
-| [18677657](https://pubmed.ncbi.nlm.nih.gov/18677657/) | 2009 | RCT（對照 ketoconazole） | J Dermatolog Treat | 開放性隨機比較研究：pimecrolimus 1% cream 與 ketoconazole 2% cream 治療脂漏性皮膚炎 |
-| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | 系統性回顧 | Am J Clin Dermatol | 顏面脂漏性皮膚炎外用治療系統性回顧，涵蓋抗黴菌、角質溶解、皮質類固醇三大類藥物 |
-| [20000875](https://pubmed.ncbi.nlm.nih.gov/20000875/) | 2010 | 開放性研究 | Am J Clin Dermatol | Pimecrolimus 1% cream 對難治型顏面脂漏性皮膚炎為有效且耐受性良好之治療 |
-| [16033622](https://pubmed.ncbi.nlm.nih.gov/16033622/) | 2005 | Review | Int J Clin Pract | 說明 pimecrolimus 之 T 細胞/肥大細胞作用機轉，並回顧其於異位性皮膚炎以外之應用 |
-| [23441238](https://pubmed.ncbi.nlm.nih.gov/23441238/) | 2013 | Review | J Clin Aesthet Dermatol | Pimecrolimus 為長期使用之安全替代方案，可避免外用皮質類固醇長期副作用 |
-| [15700745](https://pubmed.ncbi.nlm.nih.gov/15700745/) | 2004 | 臨床研究 | Drugs Exp Clin Res | Pimecrolimus 1% cream 用於顏面及軀幹脂漏性皮膚炎之療效、耐受性與安全性評估 |
+| [34910320](https://pubmed.ncbi.nlm.nih.gov/34910320/) | 2022 | RCT | Clin Exp Dermatol | 比較 pimecrolimus 1% 與 sertaconazole 2% 治療臉部脂漏性皮膚炎（摘要未提供結果） |
+| [23715821](https://pubmed.ncbi.nlm.nih.gov/23715821/) | 2013 | RCT | Ir J Med Sci | 比較 sertaconazole 2% 與 pimecrolimus 1% 乳膏治療脂漏性皮膚炎的療效（摘要未提供結果） |
+| [22142161](https://pubmed.ncbi.nlm.nih.gov/22142161/) | 2012 | 系統性回顧（RCT） | Expert Rev Clin Pharmacol | Pimecrolimus 1% 乳膏耐受性良好且有效，與對照藥物的療效相當 |
+| [36072203](https://pubmed.ncbi.nlm.nih.gov/36072203/) | 2022 | 系統性回顧（RCT） | Cureus | 回顧 pimecrolimus 治療臉部脂漏性皮膚炎的療效與安全性 |
+| [18677657](https://pubmed.ncbi.nlm.nih.gov/18677657/) | 2009 | 開放性隨機對照 | J Dermatolog Treat | 比較 pimecrolimus 1% 與 ketoconazole 2% 乳膏 |
+| [20000875](https://pubmed.ncbi.nlm.nih.gov/20000875/) | 2010 | 開放性研究 | Am J Clin Dermatol | 用於頑固性臉部脂漏性皮膚炎，有效且耐受良好 |
+| [28589618](https://pubmed.ncbi.nlm.nih.gov/28589618/) | 2018 | 未分類研究 | J Cosmet Dermatol | 比較 pimecrolimus 1% 不同用藥療程治療臉部脂漏性皮膚炎 |
+| [15700745](https://pubmed.ncbi.nlm.nih.gov/15700745/) | 2004 | 未分類研究 | Drugs Exp Clin Res | 評估對臉部與上軀幹脂漏性皮膚炎的療效、耐受性與安全性 |
+| [19255921](https://pubmed.ncbi.nlm.nih.gov/19255921/) | 2009 | 未分類研究 | J Dermatolog Treat | 密切追蹤治癒與緩解時間及副作用，說明其仿單外使用日益增加 |
+| [19391059](https://pubmed.ncbi.nlm.nih.gov/19391059/) | 2010 | 未分類研究 | J Dermatolog Treat | 探討反覆使用於復發性脂漏性皮膚炎的有效性與安全性 |
 
----
+## 香港上市資訊
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-51217 | ELIDEL CREAM 1% | VIATRIS HEALTHCARE HONG KONG LIMITED |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
----
+目前香港衛生署仿單的警語與禁忌資料尚未取得，藥物交互作用查詢也無結果。不過，外用鈣調神經磷酸酶抑制劑屬類別性的黑框警語（惡性腫瘤風險）。這個議題已有觀察性研究與統合分析（如 PMID 36370744）可供參考。
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-已有多個獨立 RCT（含與 sertaconazole、ketoconazole 之頭對頭比較）及至少 2 篇系統性回顧支持 pimecrolimus 用於脂漏性皮膚炎，機轉外推合理，證據等級達 L2；但本地（香港）尚未上市、無許可證與仿單資料，安全性初評無法完成。
+有 1 個完成的 Phase 2 活性藥對照 RCT（n=113），加上多項 RCT 與兩篇 RCT 系統性回顧，支持臉部脂漏性皮膚炎的療效。但缺乏 Phase 3 證據，且香港仿單的安全資料仍缺漏，因此需加上防護條件。
 
 **若要推進需要：**
-- 補齊仿單警語與禁忌資料（Blocking：目前無法進入 S1 安全性初評）
-- 補齊完整作用機轉（MOA）正式來源資料，取代目前僅能引用文獻推論
-- 評估本地（香港）上市/許可證申請可行性
+- 取得香港衛生署仿單的警語與禁忌資料（目前為阻擋性缺口，無法進入安全性篩選）
+- 補齊 DrugBank 的作用機轉資料
+- 限定使用範圍：僅限臉部、短療程，並排除誤診的黴菌感染（如 tinea incognito，PMID 20347654）
+- 納入惡性腫瘤風險的追蹤與年齡、療程限制
+- 若要提高證據等級，需要針對脂漏性皮膚炎的 Phase 3 RCT
+
+> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

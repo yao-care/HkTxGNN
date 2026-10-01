@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Budesonide
-parent: 中證據等級 (L3-L4)
-nav_order: 117
-evidence_level: L3
+parent: 僅模型預測 (L5)
+nav_order: 133
+evidence_level: L5
 indication_count: 10
 ---
 
 # Budesonide
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,99 @@ indication_count: 10
 
 </div>
 
-# Budesonide：從氣道炎症疾病到異位性濕疹
+# Budesonide：從既有上市適應症到異位性濕疹
 
 ## 一句話總結
 
-Budesonide 是一種強效局部糖皮質激素（GC），國際上廣泛用於哮喘、慢性阻塞性肺病（COPD）及鼻息肉等氣道與黏膜炎症疾病。
-TxGNN 模型預測它可能對**異位性濕疹 (Atopic Eczema)** 有效，
-目前有 **2 個相關臨床試驗記錄**和 **20 篇文獻**，但其中直接測試 Budesonide 用於**人類**異位性濕疹局部治療的高品質 RCT 尚付闕如。
-
----
+Budesonide 是一種糖皮質素（glucocorticoid），已在香港以多種產品上市，但目前資料中沒有可引用的核准適應症文字。
+TxGNN 模型預測它可能對**異位性濕疹 (Atopic Eczema)** 有效，預測分數很高。
+目前有 **2 個臨床試驗**和 **20 篇文獻**與此方向相關，但沒有任何一項直接證明 budesonide 治療濕疹有效。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 哮喘、COPD、鼻息肉等氣道炎症疾病（國際已知；香港無許可登記） |
 | 預測新適應症 | 異位性濕疹 (Atopic Eczema) |
 | TxGNN 預測分數 | 99.96% |
-| 證據等級 | L3 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L4（僅有前臨床配方研究與類別機轉推論） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-Budesonide 是一種非鹵化合成糖皮質激素，其核心作用機轉為與細胞內糖皮質激素受體（GR）結合後，透過基因組途徑下調 NF-κB 及 AP-1 活性，從而抑制 IL-4、IL-5、IL-13 等 Th2 細胞因子的表達，並減少嗜酸性粒細胞募集、黏液分泌及黏膜炎症反應。相較於傳統鹵化類固醇，Budesonide 具有較高局部效力與較低全身生物利用度的特點，理論上更適合局部長期使用。
+目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位為空）。根據已知資訊，budesonide 屬於糖皮質素類藥物，其抗發炎作用在多種發炎性疾病中已被廣泛使用。外用皮質類固醇本來就是異位性皮膚炎的標準藥物類別，所以機轉上可能適用於濕疹。
 
-異位性濕疹（Atopic Eczema / Atopic Dermatitis）的核心病理機制正是 **Th2 免疫通路過度活化（IL-4/IL-13 軸）** 與**皮膚屏障蛋白（filaggrin 等）缺損**的惡性循環——這與 Budesonide 的主要抑制靶點高度重疊。在臨床實踐中，局部皮質類固醇（TCS）已是異位性皮膚炎的標準第一線治療藥物，而 Budesonide 屬中效 TCS 類別，藥理地位符合此治療策略。
+TxGNN 的高分（99.96%）很可能反映的是這個「類別效應」，而不是 budesonide 本身的專屬證據。
 
-2024 年的前臨床配方研究（PMID 38275852）進一步顯示，將 Budesonide 封裝於 pH 敏感型 Eudragit L100 奈米顆粒並製成水凝膠，可利用異位性皮損的局部 pH 下降特性實現定向釋藥，改善皮膚穿透性並降低全身副作用風險。此外，一項針對犬類異位性皮膚炎的隨機對照試驗（PMID 21062310）亦顯示 0.025% Budesonide 護髮護膚品（Barazone）可顯著改善皮損及瘙癢評分。然而，上述均屬動物或前臨床研究，**人類皮膚局部 Budesonide 製劑的直接 RCT 仍缺如**，是本預測的核心資料缺口。
+需要注意的是，目前沒有找到 budesonide 治療濕疹的臨床療效資料。唯一與皮膚劑型相關的是 2024 年的前臨床奈米粒子水凝膠研究。多篇文獻反而報告了 budesonide 的接觸性過敏，這是一個安全性警訊。
 
----
+「dermatitis, atopic」（排名 3）與本項是同一疾病的重複條目，證據內容相同，已合併處理。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT01028560](https://clinicaltrials.gov/study/NCT01028560) | Phase 1/2 | 完成 | 58 | 過敏免疫治療對高風險哮喘/濕疹兒童的預防效果研究；非 Budesonide 直接療效試驗，相關性低 |
-| [NCT04680117](https://clinicaltrials.gov/study/NCT04680117) | NA | 未知 | 150 | 嚴重小兒哮喘表型分析，涵蓋特應性（atopy）表徵描述；非 Budesonide 介入試驗，狀態不明 |
+| [NCT01028560](https://clinicaltrials.gov/study/NCT01028560) | Phase 1/2 | 完成 | 58 | 過敏原免疫療法用於預防異位性喘鳴幼童的氣喘。濕疹只是受試者的過敏背景，並未測試 budesonide |
+| [NCT04680117](https://clinicaltrials.gov/study/NCT04680117) | 不適用（觀察性） | 未知 | 150 | 重度兒童氣喘的內生型（endotype）特徵分析，並未測試 budesonide 治療濕疹 |
 
-> ⚠️ 現有 2 個登記試驗均非直接測試 Budesonide 用於異位性濕疹的療效，試驗相關性有限。
-
----
+兩個試驗與本適應症的相關性都被評為 C 級（低度相關）。
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [38275852](https://pubmed.ncbi.nlm.nih.gov/38275852/) | 2024 | 配方/前臨床 | Gels (Basel) | Budesonide 奈米粒子水凝膠用於兒童異位性皮膚炎局部治療，pH 敏感遞送系統提高皮膚穿透率 |
-| [21062310](https://pubmed.ncbi.nlm.nih.gov/21062310/) | 2010 | RCT（犬類） | J Vet Pharmacol Ther | 0.025% Budesonide 護膚品（Barazone）隨機雙盲交叉試驗，顯著改善犬異位性皮膚炎皮損及瘙癢 |
-| [9496795](https://pubmed.ncbi.nlm.nih.gov/9496795/) | 1998 | 介入性 | Pediatr Dermatol | 異位性皮膚炎兒童局部使用 Budesonide，膝測量法（knemometry）評估對短期生長的影響 |
-| [8864369](https://pubmed.ncbi.nlm.nih.gov/8864369/) | 1996 | 介入性/安全性 | Dermatology (Basel) | 兒童異位性皮膚炎局部 GC（含 Budesonide）治療後 IGF 軸、骨骼及膠原代謝的系統安全性評估 |
-| [19875223](https://pubmed.ncbi.nlm.nih.gov/19875223/) | 2010 | RCT（呼吸道終點） | Allergol Immunopathol | 特應性與非特應性嬰幼兒反覆喘鳴對 Budesonide 的療效差異，終點為呼吸道而非皮膚 |
-| [35133669](https://pubmed.ncbi.nlm.nih.gov/35133669/) | 2022 | 橫斷面 | Contact Dermatitis | 亞洲皮膚科中心異位性皮膚炎患者接觸性致敏率分析，含皮質類固醇系列 |
-| [24603519](https://pubmed.ncbi.nlm.nih.gov/24603519/) | 2014 | 橫斷面 | Dermatitis | 異位性皮膚炎青少年及成人對歐洲標準系列及皮質類固醇（含 Budesonide）的接觸過敏分析 |
-| [30053491](https://pubmed.ncbi.nlm.nih.gov/30053491/) | 2018 | 橫斷面 | J Am Acad Dermatol | 成人異位性皮膚炎使用個人護理品及局部藥物誘發接觸性皮炎的風險因素研究 |
-| [33931866](https://pubmed.ncbi.nlm.nih.gov/33931866/) | 2021 | 描述性 | Contact Dermatitis | 意大利 2018–2019 年基線系列 Budesonide 貼片測試結果彙整，過去二十年過敏趨勢下降 |
-| [19183418](https://pubmed.ncbi.nlm.nih.gov/19183418/) | 2009 | 橫斷面 | Allergy | 641 名兒童異位性皮膚炎局部治療致敏患病率及危險因素，Budesonide 為重要接觸致敏原 |
-
----
+| [21062310](https://pubmed.ncbi.nlm.nih.gov/21062310/) | 2010 | 隨機對照試驗（犬隻） | J Vet Pharmacol Ther | 0.025% budesonide 護毛劑可改善犬異位性皮膚炎的皮膚病灶與搔癢。此為獸醫研究，不能直接類推人類 |
+| [38275852](https://pubmed.ncbi.nlm.nih.gov/38275852/) | 2024 | 前臨床配方研究 | Gels | 將 budesonide 載入 pH 敏感奈米粒子水凝膠，用於異位性皮膚炎局部治療，尚無臨床資料 |
+| [9496795](https://pubmed.ncbi.nlm.nih.gov/9496795/) | 1998 | 開放式縱向試驗 | Pediatr Dermatol | 14 名 5–12 歲異位性皮膚炎兒童，以測腿儀評估外用 budesonide 對短期生長的影響 |
+| [8864369](https://pubmed.ncbi.nlm.nih.gov/8864369/) | 1996 | 臨床研究 | Dermatology | 外用糖皮質素可經皮吸收，可能抑制兒童生長，研究其對 IGF 軸與骨、膠原代謝的影響 |
+| [35184304](https://pubmed.ncbi.nlm.nih.gov/35184304/) | 2022 | 病例報告 | Contact Dermatitis | budesonide 斑貼試驗後出現全身性過敏性皮膚炎 |
+| [33931866](https://pubmed.ncbi.nlm.nih.gov/33931866/) | 2021 | 斑貼試驗 | Contact Dermatitis | 義大利 SIDAPA 基準系列中的 budesonide 斑貼試驗。budesonide 是皮質類固醇過敏的標記物，近二十年過敏率呈下降趨勢 |
+| [35133669](https://pubmed.ncbi.nlm.nih.gov/35133669/) | 2022 | 橫斷面研究 | Contact Dermatitis | 亞洲皮膚科中心比較有無異位性皮膚炎患者的接觸致敏模式 |
+| [24603519](https://pubmed.ncbi.nlm.nih.gov/24603519/) | 2014 | 橫斷面研究 | Dermatitis | 異位性皮膚炎青少年與成人對歐洲標準系列及皮質類固醇系列半抗原的接觸過敏 |
+| [14616123](https://pubmed.ncbi.nlm.nih.gov/14616123/) | 2003 | 研究 | Allergy | 氣喘患者中糖皮質素過敏的發生情形 |
+| [37927648](https://pubmed.ncbi.nlm.nih.gov/37927648/) | 2023 | 病例報告 | Cureus | 一名有異位性皮膚炎病史的患者，因類固醇出現第一型過敏反應（血管性水腫與蕁麻疹） |
 
 ## 香港上市資訊
 
-Budesonide 目前在香港**未取得任何藥物許可登記**，無已上市產品資料可供參考。安全性資訊及適應症詳情，請查閱原廠國際仿單（如 AstraZeneca Pulmicort® 或同類產品）。
+資料中 20 張許可證的劑型與核准適應症欄位皆為空白，以下僅列出前 5 張：
 
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-68212 | NEFECON MODIFIED-RELEASE CAPSULES 4MG | EVEREST MEDICINES II (HK) LIMITED |
+| HK-60236 | BIOSONIDE NASAL SPRAY 100MCG/DOSE | JULIUS CHEN & COMPANY (HK) LIMITED |
+| HK-64964 | CORTIMENT PROLONGED RELEASE TABLETS 9 MG | FERRING PHARMACEUTICALS LTD |
+| HK-51729 | BUDESONIDE PH&T 50 NASAL SPRAY 50MCG/DOSE | HONG KONG MEDICAL SUPPLIES LTD |
+| HK-64327 | BUDENA NASAL SPRAY 64 MCG/SPRAY | MEKIM LTD |
+
+從品名判斷，這 5 張都是鼻噴劑或口服緩釋劑型，未見皮膚外用劑型。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+安全性資訊請參考原廠仿單。目前尚未取得香港衛生署仿單的警語與禁忌資料，DrugBank 也查無藥物交互作用紀錄。
 
----
+文獻中出現的訊號：
+- **接觸致敏**：多篇報告指出 budesonide 可引起接觸性過敏，甚至全身性過敏反應。異位性皮膚炎患者的皮膚屏障受損，值得特別留意。
+- **兒童生長**：外用糖皮質素可經皮吸收，可能影響兒童生長。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-Budesonide 抑制 Th2/IL-4/IL-13 炎症通路的機轉與異位性濕疹病理高度吻合，前臨床配方研究及動物 RCT 亦提供初步支持，但目前缺乏直接針對**人類**異位性濕疹的 Budesonide 局部製劑 RCT 或觀察性研究，整體臨床證據等級僅為 L3；加之香港無藥品登記，現階段尚不具備進入臨床開發的充分基礎。
+- 高預測分數主要來自糖皮質素的類別效應，缺乏 budesonide 專屬的臨床證據。
+- 唯一的皮膚劑型研究仍在前臨床階段，且文獻中有多項接觸過敏的安全性警訊。
+- 目前的證據等級為 L4。
 
 **若要推進需要：**
-- 透過 DrugBank API 補充 Budesonide 完整作用機轉（MOA）及藥理類別資料
-- 系統回顧已有局部皮質類固醇用於異位性皮膚炎的 RCT，評估 Budesonide 相對於現有藥物（如 hydrocortisone butyrate、mometasone）的差異化優勢
-- 設計並執行直接針對異位性皮膚炎局部 Budesonide 新型配方（如 pH 敏感奈米顆粒水凝膠）的 Phase 2 人體臨床試驗
-- 補充仿單警語、禁忌症及藥物交互作用資料，完成 S1 安全性初評
-- 評估香港衛生署藥物登記路徑，或考量以局部製劑申請新適應症擴展
+- 取得香港衛生署仿單，補齊警語與禁忌（此缺口目前阻擋安全性篩選）。
+- 補齊 budesonide 的作用機轉資料。
+- 確認是否有適合皮膚使用的劑型與給藥途徑（已列出的香港產品中未見外用劑型）。
+- 找到 budesonide 與現有外用類固醇在異位性皮膚炎的head-to-head 臨床證據，並評估接觸致敏風險。
+
+**其他預測適應症：** 「支氣管炎」（排名 2）的證據較多（L3，「研究問題」層級），但需先界定具體亞型（如嗜酸性或慢性支氣管炎）。若要優先評估，可考慮以該項為起點。
+
+> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -2,7 +2,7 @@
 layout: default
 title: Propylthiouracil
 parent: 中證據等級 (L3-L4)
-nav_order: 622
+nav_order: 727
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,69 +29,92 @@ indication_count: 3
 
 </div>
 
-# Propylthiouracil (PTU)：從甲狀腺機能亢進到甲狀腺素受體β基因突變甲狀腺素抵抗症
+# Propylthiouracil：從甲狀腺機能亢進到甲狀腺素抵抗症（THRB 突變）
 
 ## 一句話總結
 
-Propylthiouracil (PTU, DrugBank DB00550) 為 thionamide 類抗甲狀腺藥物，臨床文獻脈絡顯示其長期用於甲狀腺機能亢進／甲狀腺毒症的治療。
-TxGNN 模型預測它可能對**甲狀腺素受體β基因突變所致甲狀腺素抵抗症 (Resistance to Thyroid Hormone due to THRB mutation)** 有效，
-但目前**無相關臨床試驗**，僅有 **6 篇文獻**（皆為病例報告或機轉/動物研究），證據強度有限。
+Propylthiouracil（PTU）是抗甲狀腺藥物，原本用於治療甲狀腺機能亢進。
+TxGNN 模型預測它可能對**甲狀腺素受體 β 突變所致的甲狀腺素抵抗症 (Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta)** 有效。
+目前**沒有臨床試驗**，僅有 **6 篇文獻**，且都是疾病本身的研究，沒有 PTU 療效資料。機轉分析也不支持這個預測。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料缺乏（香港未上市，無許可證資料；文獻脈絡顯示常用於甲狀腺機能亢進/甲狀腺毒症） |
-| 預測新適應症 | 甲狀腺素受體β基因突變所致甲狀腺素抵抗症 (Resistance to Thyroid Hormone due to THRB mutation) |
-| TxGNN 預測分數 | 99.66%（排名第 6809） |
+| 原適應症 | 甲狀腺機能亢進（Evidence Pack 未明列，依藥理推定） |
+| 預測新適應症 | 甲狀腺素抵抗症（THRB 突變）(Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta) |
+| TxGNN 預測分數 | 99.66% |
 | 證據等級 | L4 |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 張 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 3 張 |
 | 建議決策 | Hold |
+
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏 DrugBank 提供的完整作用機轉（MOA）敘述。根據證據包中文獻的旁證，PTU 屬於 thionamide 類抗甲狀腺藥物，機轉為抑制甲狀腺過氧化酶（TPO），阻斷碘化物有機化與碘酪胺酸偶合形成 T4/T3，並額外抑制周邊組織 type 1 脫碘酶（T4→T3 轉換），藉此降低循環甲狀腺激素濃度。
+目前缺乏 DrugBank 的詳細作用機轉資料。根據 Evidence Pack 的分析，PTU 抑制甲狀腺過氧化酶（減少甲狀腺素合成），也抑制周邊組織 T4 轉換為 T3。
 
-甲狀腺素受體β基因突變所致甲狀腺素抵抗症（RTH-beta）的病理生理，是受體對 T3/T4 敏感度下降，導致代償性甲狀腺激素過量分泌，本質上並非激素合成路徑的異常。PTU 降低激素合成量，理論上可緩解受體功能正常的外周組織（如心臟）因高濃度激素暴露產生的毒性症狀，但**無法改善核心受體缺陷**。
+甲狀腺素抵抗症（RTH-β）的缺陷在受體端，患者的 T4/T3 偏高，TSH 卻無法被抑制。PTU 降低甲狀腺素產量，預期會讓 TSH 進一步上升，有甲狀腺腫大或增生的風險。因此，雖然 TxGNN 分數高達 0.997，機轉上並不支持。
 
-更需注意的是，降低激素濃度可能加劇 TSH 驅動的甲狀腺增生——證據包中的動物模型文獻（PMID 22919057、21909131）甚至提示持續性 TSH 刺激與濾泡性甲狀腺癌的發生相關。整體而言此機轉利弊並存，且現有 6 篇文獻均為病例報告或基礎機轉/動物研究，**無一篇是針對 PTU 治療此疾病的直接研究**，預測合理性偏向假說階段。
+現有文獻談的是疾病本身（突變、小鼠模型、新生兒影響），沒有任何 PTU 治療此疾病的療效資料。文獻中的 PTU 相關線索（見下方 PMID 10724359）反而是誤診為甲狀腺毒症、用 PTU 後甲狀腺腫變大的案例。
+
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [14684607](https://pubmed.ncbi.nlm.nih.gov/14684607/) | 2004 | Review | Endocrinology | 探討 TRβ 基因突變於心臟中作為顯性負性受體，闡述甲狀腺素抗性的心臟機轉 |
-| [18561095](https://pubmed.ncbi.nlm.nih.gov/18561095/) | 2009 | Case Report | Exp Clin Endocrinol Diabetes | 土耳其家族 TRβ 基因 P453A 突變造成的甲狀腺素抵抗案例 |
-| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | Case Report | Clinical Endocrinology | TRβ 基因 M313T 突變家族，新生兒甲狀腺毒症合併母體不孕案例 |
-| [10724359](https://pubmed.ncbi.nlm.nih.gov/10724359/) | 1999 | Case Report | Endocrine Journal | 泰國女性 TRβ 基因新發 L330S 突變致甲狀腺素抵抗，曾以 PTU 治療但甲狀腺腫反而增大 |
-| [22919057](https://pubmed.ncbi.nlm.nih.gov/22919057/) | 2012 | Preclinical | Endocrinology | Thrb(PV/PV) 小鼠模型顯示持續性 TSH 刺激與濾泡性甲狀腺癌發生相關 |
-| [21909131](https://pubmed.ncbi.nlm.nih.gov/21909131/) | 2012 | Preclinical | Oncogene | 同一小鼠模型顯示甲狀腺素促進腫瘤細胞增生，闡述 RTH 與甲狀腺癌的分子機轉 |
+| [18561095](https://pubmed.ncbi.nlm.nih.gov/18561095/) | 2009 | 病例／家族研究 | Exp Clin Endocrinol Diabetes | 土耳其一個家族（母子）帶有 THRB P453A 突變，出現甲狀腺素抵抗症表現 |
+| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | 病例報告 | Clin Endocrinol | 同一家族的兩例 THRB M313T 突變：一名嬰兒出現新生兒甲狀腺毒症，母親有不孕問題 |
+| [10724359](https://pubmed.ncbi.nlm.nih.gov/10724359/) | 1999 | 病例報告 | Endocr J | 泰國女性帶有新發 L330S 突變，先前被當作甲狀腺毒症以 PTU 治療 9 個月，甲狀腺腫反而更大 |
+| [14684607](https://pubmed.ncbi.nlm.nih.gov/14684607/) | 2004 | 回顧／前臨床 | Endocrinology | 探討 TRβ 突變在心臟造成甲狀腺素抵抗的角色 |
+| [22919057](https://pubmed.ncbi.nlm.nih.gov/22919057/) | 2012 | 動物研究（小鼠） | Endocrinology | 在 THRB 單一等位基因突變的小鼠中，TSH 與不對稱甲狀腺癌發生有關 |
+| [21909131](https://pubmed.ncbi.nlm.nih.gov/21909131/) | 2012 | 動物研究（小鼠） | Oncogene | 在濾泡性甲狀腺癌小鼠模型中，甲狀腺素活化腫瘤細胞增生 |
+
+---
 
 ## 香港上市資訊
 
-目前未在香港上市，無許可證資料。
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-47993 | CP-PTU TAB 50MG | CHRISTO PHARM LTD |
+| HK-04990 | PROPYLTHIOURACIL TAB 50MG (SYNCO) | SYNCO (H.K.) LIMITED |
+| HK-59451 | PYROID TAB 50MG | NATURAL HEALTH RESOURCES COMPANY LIMITED |
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。（本評估目前缺乏 TFDA/香港仿單警語、禁忌症及藥物交互作用資料）
+安全性資訊請參考原廠仿單。
+
+補充：Evidence Pack 在其他預測適應症的分析中提到，PTU 有肝毒性黑框警語，兒童尤其需要注意。此項不在本藥物的警語欄位內，需以仿單核實。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-針對此適應症無任何臨床試驗支持，僅有的 6 篇文獻皆為病例報告或機轉/動物研究，且機轉分析顯示降低激素合成可能無法改善核心受體缺陷，甚至可能加劇 TSH 驅動的甲狀腺增生風險，利弊並存、證據不足以支持推進。
+- 機轉上，降低甲狀腺素產量不針對受體端缺陷，還可能加重 TSH 刺激與甲狀腺腫。
+- 證據僅限病例報告與動物研究，沒有臨床試驗，也沒有 PTU 療效資料。
+- TxGNN 分數高，但在本案中沒有獲得實質證據支持。
 
 **若要推進需要：**
-- 補齊 TFDA／香港衛生署仿單警語與禁忌症資料（阻斷性缺口，影響安全性初評）
-- 補齊完整作用機轉（MOA）資料
-- 針對 RTH-beta 族群使用 PTU 的直接臨床證據（現無相關試驗登記）
-- 釐清該藥物於香港的上市與許可證狀態
+- 有 PTU 用於 THRB 突變 RTH 的臨床療效證據；目前連初步訊號都沒有。
+- 取得香港衛生署仿單的警語與禁忌症資料，並補上 DrugBank 作用機轉。
+- 若要沿 PTU 的抗甲狀腺機轉繼續研究，Evidence Pack 中排名第 2 的「新生兒甲狀腺毒症」（證據等級 L3）是較合理的方向，但需先審查肝毒性風險。
+
+*本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

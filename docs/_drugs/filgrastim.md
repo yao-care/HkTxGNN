@@ -2,7 +2,7 @@
 layout: default
 title: Filgrastim
 parent: 僅模型預測 (L5)
-nav_order: 317
+nav_order: 370
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,70 +29,73 @@ indication_count: 5
 
 </div>
 
-# Filgrastim：從嗜中性白血球減少症到原發性血小板釋放障礙
+# Filgrastim：從嗜中性白血球相關治療到血小板釋放異常疾病
 
 ## 一句話總結
 
-Filgrastim 是重組人類顆粒球群落刺激因子（G-CSF），廣泛用於化療後嗜中性白血球減少症的預防與治療。TxGNN 模型預測它可能對**原發性血小板釋放障礙 (Primary Release Disorder of Platelets)** 有效，目前有 **0 個直接臨床試驗**和 **1 篇間接文獻**，整體支持證據不足。
-
----
+Filgrastim 是 G-CSF（顆粒球群落刺激因子），主要作用於嗜中性白血球譜系。本次提供的香港許可證資料未載明原適應症。
+TxGNN 模型預測它可能對**血小板原發性釋放異常 (Primary Release Disorder of Platelets)** 有效，但目前只有 **0 個直接相關臨床試驗**和 **1 篇間接相關文獻**，且機轉上找不到合理連結。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無香港許可證登記 |
-| 預測新適應症 | 原發性血小板釋放障礙 (Primary Release Disorder of Platelets) |
+| 預測新適應症 | 血小板原發性釋放異常 (Primary Release Disorder of Platelets) |
 | TxGNN 預測分數 | 99.998% |
-| 證據等級 | L5 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L4（僅有間接文獻，未直接檢驗此疾病） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 8 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-Filgrastim 透過結合 G-CSF 受體（G-CSFR），啟動 JAK2/STAT3 下游訊號路徑，促進骨髓中骨髓系祖細胞增殖與分化，以及周邊血液中嗜中性白血球的成熟動員。本次 Evidence Pack 的作用機轉欄位尚待補充（DG002），完整 MOA 資料需查詢 DrugBank API 取得。
+目前缺乏詳細的作用機轉資料。Filgrastim 是 G-CSF 類生物製劑，已知主要作用在嗜中性白血球譜系，促進其增生與分化。
 
-原發性血小板釋放障礙是一類血小板功能障礙，核心缺陷在於血小板顆粒（dense granule 或 alpha granule）的釋放機制異常，常見成因包括 SNARE 複合體缺陷或顆粒形成不全（如 Hermansky-Pudlak 症候群）。G-CSF 雖可間接上調 TPO（血小板生成素），理論上能促進巨核球分化，但對血小板顆粒的胞內釋放路徑並無已知的直接調控機制。
+血小板原發性釋放異常是血小板顆粒分泌或釋放功能缺陷所致。G-CSF 不參與血小板顆粒分泌的調控，也不是促血小板生成劑，兩者之間沒有已知的機轉關聯。
 
-此項預測屬**遠距機轉推論**：TxGNN 知識圖譜的連結路徑可能為「G-CSF → 骨髓增殖 → 巨核球 → 血小板顆粒」的多跳推論，而非真正的直接機轉對應，生物學合理性偏低。
-
----
+這個高分預測較可能是知識圖譜中節點距離相近所產生的假象，而非真正的藥理連結。原 MOA 資料缺漏，因此無法進一步交叉驗證。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|------|------|------|---------|
-| [29770133](https://pubmed.ncbi.nlm.nih.gov/29770133/) | 2018 | Clinical Cohort | Frontiers in Immunology | G-CSF 動員健康捐贈者周邊血液幹細胞時，優先動員特定淋巴球亞群；研究聚焦於異體 HSCT 移植後免疫調節，未直接探討血小板釋放功能，與目標適應症相關性低 |
+|------|-----|------|------|---------|
+| [29770133](https://pubmed.ncbi.nlm.nih.gov/29770133/) | 2018 | 健康捐贈者幹細胞動員研究（類型未明確） | Frontiers in Immunology | G-CSF 動員健康捐贈者周邊血幹細胞時，會優先動員特定淋巴球亞群。與血小板疾病無直接關係 |
 
----
+## 香港上市資訊
+
+香港共有 8 張許可證，以下列出 5 張。資料中未提供劑型與核准適應症。
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-45427 | NEUPOGEN PRE-FILLED SYRINGE 0.3MG/0.5ML | AMGEN HONG KONG LIMITED |
+| HK-60951 | NIVESTIM SOLUTION FOR INJECTION/INFUSION IN PRE-FILLED SYRINGE 300MCG/0.5ML | PFIZER CORPORATION HONG KONG LIMITED |
+| HK-64300 | ZARZIO SOLUTION FOR INJECTION OR INFUSION IN PRE-FILLED SYRINGE 48MU/0.5ML | SANDOZ HONG KONG LIMITED |
+| HK-35878 | NEUPOGEN INJ 0.3MG/ML | AMGEN HONG KONG LIMITED |
+| HK-68517 | ACCOFIL SOLUTION FOR INJECTION OR INFUSION IN PRE-FILLED SYRINGE 30MU/0.5ML | JACOBSON MARKETING LIMITED |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
----
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-TxGNN 預測的 5 項適應症（原發性血小板釋放障礙、偽 von Willebrand 病、Glanzmann 血小板無力症、Scott 症候群、先天性血小板減少症出血障礙）均為 L5 等級，無直接臨床試驗支持，且各適應症的機轉分析均顯示 G-CSF 對目標血小板病理機制缺乏直接介入能力；香港目前無上市許可，MOA 及安全性資料亦待補充。
+- 此預測缺乏機轉依據與直接臨床證據。唯一的文獻是健康捐贈者幹細胞動員研究，並未檢驗 G-CSF 對此疾病的作用。
+- 同一藥物的其他預測（pseudo-von Willebrand disease、Glanzmann thrombasthenia、Scott syndrome、先天性血小板減少出血性疾病）同樣無機轉支持，建議一併 Hold。
+- 這些疾病中即使用到 G-CSF，也僅是移植動員或支持性用途，並非針對疾病本身治療。
 
 **若要推進需要：**
-- 補充 Filgrastim 完整 MOA 資料，查詢 DrugBank API（解決 DG002）
-- 補充香港仿單警語與禁忌症資料（解決 DG001）
-- 搜尋 G-CSF 對血小板顆粒功能影響的體外或動物研究，以評估機轉可行性
-- 若考慮先天性血小板減少症（Rank 5），可針對 G-CSF 促血小板生成的 off-label 使用進行系統性文獻回顧
+- 補齊 DrugBank 的作用機轉（MOA）資料，重新評估機轉連結
+- 取得香港衛生署仿單，確認警語、禁忌與核准適應症
+- 尋找 G-CSF 用於血小板功能異常的直接臨床或前臨床證據，否則不建議投入資源
+
+*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

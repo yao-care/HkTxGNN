@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Regorafenib
-parent: 高證據等級 (L1-L2)
-nav_order: 639
-evidence_level: L2
+parent: 僅模型預測 (L5)
+nav_order: 748
+evidence_level: L5
 indication_count: 10
 ---
 
 # Regorafenib
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,103 +29,91 @@ indication_count: 10
 
 </div>
 
-# Regorafenib：從轉移性大腸直腸癌到脂肪肉瘤
+# Regorafenib：從大腸直腸癌到脂肪肉瘤
 
 ## 一句話總結
 
-Regorafenib 是一種多重酪胺酸激酶抑制劑，國際上核准用於轉移性大腸直腸癌、腸胃道基質瘤（GIST）與肝細胞癌，但**目前未在香港上市**。TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，目前有 **2 個已完成的 Phase 2 臨床試驗**和 **9 篇文獻**涉及此適應症——但須注意，其中關鍵試驗的脂肪肉瘤亞組結果實際上是**陰性**的，詳見下文。
-
----
+Regorafenib 是口服多激酶抑制劑，文獻記載它原本用於治療轉移性大腸直腸癌與胃腸道基質瘤 (GIST)。
+TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，目前有 **2 個臨床試驗**和 **9 篇文獻**可供參考。
+但這些隨機對照試驗的結果**並不支持**脂肪肉瘤這個方向。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無香港許可證資料；據國際文獻，原廠核准適應症為轉移性大腸直腸癌、GIST、肝細胞癌 |
 | 預測新適應症 | 脂肪肉瘤 (Liposarcoma) |
 | TxGNN 預測分數 | 99.76% |
-| 證據等級 | L2 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails（需嚴格解讀，見結論） |
-
----
+| 證據等級 | L2（有已完成的 Phase 2 RCT，但脂肪肉瘤世代結果為陰性） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 1 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-Regorafenib 是口服多重激酶抑制劑，標靶血管新生相關受體（VEGFR1-3、TIE2）、間質受體（PDGFR-β、FGFR）及致癌相關受體酪胺酸激酶（KIT、RET、RAF）。它是第一個在轉移性大腸直腸癌標準治療失敗後展現存活效益的小分子多激酶抑制劑，於 2012 年獲國際藥證核准，其後也擴展至 GIST 與肝細胞癌。
+Regorafenib 是多激酶抑制劑，標靶包括血管新生相關激酶 (VEGFR1-3、TIE2)、基質激酶 (PDGFR-β、FGFR) 和致癌受體酪胺酸激酶 (KIT、RET、RAF)。DrugBank 的作用機轉欄位目前沒有資料，以上描述來自文獻回顧。
 
-軟組織肉瘤（含脂肪肉瘤）在腫瘤生物學上同樣高度依賴血管新生與間質訊號傳遞，這是 TxGNN 預測脂肪肉瘤的機轉基礎——同類機轉藥物 pazopanib（VEGFR 抑制劑）已核准用於軟組織肉瘤。
+抗血管新生與基質激酶阻斷，在軟組織肉瘤中有合理的理論基礎。同類藥物 pazopanib 已用於非脂肪細胞型軟組織肉瘤，regorafenib 也曾在這類肉瘤中顯示療效。因此模型預測它對脂肪肉瘤有效，從機轉上看並非沒有道理。
 
-然而，機轉合理≠療效已證實。REGOSARC 試驗（NCT01900743）依組織型分層分析顯示，regorafenib 對平滑肌肉瘤、滑膜肉瘤等**非脂肪性**肉瘤有效，但**對脂肪肉瘤未見效益**；SARC024 試驗的脂肪肉瘤世代（PMID 32701199）進一步證實「不支持將 regorafenib 常規用於此族群」。換言之，血管新生機轉在脂肪肉瘤中可能被其他驅動路徑（如 MDM2/CDK4 擴增）掩蓋，導致單藥療效不彰。
-
----
+不過，脂肪肉瘤在生物學上自成一類。高分化與去分化亞型的特徵是 MDM2/CDK4 擴增，與其他軟組織肉瘤的驅動機制不同。REGOSARC 試驗顯示，regorafenib 對平滑肌肉瘤、滑膜肉瘤和其他非脂肪細胞型肉瘤有效，**對脂肪肉瘤則無效**。0.998 的 TxGNN 分數只是模型預測，不能取代臨床證據。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT01900743](https://clinicaltrials.gov/study/NCT01900743) | Phase 2 | 完成 | 219 | REGOSARC：法奧德三國隨機雙盲安慰劑對照試驗，評估 regorafenib 於蒽環類治療失敗後轉移性軟組織肉瘤（含脂肪肉瘤世代）之療效與安全性 |
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | 完成 | 131 | SARC024：口服 regorafenib 於特定肉瘤亞型（含脂肪肉瘤）之 blanket protocol 試驗 |
-
----
+| [NCT01900743](https://clinicaltrials.gov/study/NCT01900743) | Phase 2 | 完成 | 219 | REGOSARC：多國隨機、雙盲、安慰劑對照，用於曾接受 anthracycline 治療的轉移性軟組織肉瘤，設有脂肪肉瘤世代。療效主要出現在其他亞型 |
+| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | 完成 | 131 | SARC024：針對特定肉瘤亞型（含脂肪肉瘤世代）的 blanket protocol，設計部分為非比較性，世代規模小 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [27751846](https://pubmed.ncbi.nlm.nih.gov/27751846/) | 2016 | RCT | Lancet Oncol | REGOSARC 主報告：regorafenib 於蒽環類治療後轉移性軟組織肉瘤之安全性與療效評估 |
-| [32701199](https://pubmed.ncbi.nlm.nih.gov/32701199/) | 2020 | RCT | The Oncologist | SARC024 脂肪肉瘤世代：regorafenib 對照安慰劑，結果**不支持**常規用於治療難治性脂肪肉瘤 |
-| [29902612](https://pubmed.ncbi.nlm.nih.gov/29902612/) | 2018 | RCT（交叉後分析） | Eur J Cancer | REGOSARC 更新分析：regorafenib 對平滑肌肉瘤、滑膜肉瘤等有效，但**對脂肪肉瘤無效** |
-| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | RCT Protocol | BMC Cancer | REGOSARC 試驗設計：血管新生訊號於肉瘤生物學中的關鍵角色 |
-| [28295221](https://pubmed.ncbi.nlm.nih.gov/28295221/) | 2017 | RCT 次分析（QoL） | Cancer | REGOSARC 之 Q-TWiST 分析：regorafenib 改善無症狀進展存活時間 |
-| [29931504](https://pubmed.ncbi.nlm.nih.gov/29931504/) | 2018 | Review | Targeted Oncology | 回顧 regorafenib 於各類肉瘤（含脂肪肉瘤、GIST）治療角色之演變 |
-| [40975452](https://pubmed.ncbi.nlm.nih.gov/40975452/) | 2025 | Review | Crit Rev Oncol Hematol | 進展期軟組織肉瘤一線治療後之維持療法回顧 |
-| [33290314](https://pubmed.ncbi.nlm.nih.gov/33290314/) | 2021 | 回顧性研究（非 regorafenib） | Anticancer Drugs | Anlotinib（非 regorafenib）於脂肪肉瘤之療效，僅供 TKI 類別效應參考 |
-| [26266019](https://pubmed.ncbi.nlm.nih.gov/26266019/) | 2015 | 病例報告（非 regorafenib） | Rare Tumors | Pazopanib（非 regorafenib）於尤文氏肉瘤之個案，僅供機轉類比參考 |
-
----
+| [27751846](https://pubmed.ncbi.nlm.nih.gov/27751846/) | 2016 | RCT | The Lancet Oncology | REGOSARC 主要報告：評估 regorafenib 用於曾接受 anthracycline 治療的轉移性軟組織肉瘤的療效與安全性 |
+| [29902612](https://pubmed.ncbi.nlm.nih.gov/29902612/) | 2018 | RCT | European Journal of Cancer | REGOSARC 更新分析：對平滑肌肉瘤、滑膜肉瘤等非脂肪細胞型肉瘤有效，**對脂肪肉瘤無效** |
+| [32701199](https://pubmed.ncbi.nlm.nih.gov/32701199/) | 2020 | RCT | The Oncologist | SARC024 脂肪肉瘤世代：結果與先前資料一致，**不支持**在此族群常規使用 regorafenib |
+| [28295221](https://pubmed.ncbi.nlm.nih.gov/28295221/) | 2017 | RCT 事後分析 | Cancer | REGOSARC 的 Q-TWiST 探索性分析，評估臨床獲益（針對非脂肪細胞型肉瘤） |
+| [29931504](https://pubmed.ncbi.nlm.nih.gov/29931504/) | 2018 | Review | Targeted Oncology | 回顧 regorafenib 在肉瘤治療中日益重要的角色，指出療效依組織亞型而異 |
+| [40975452](https://pubmed.ncbi.nlm.nih.gov/40975452/) | 2025 | Review | Critical Reviews in Oncology/Hematology | 晚期軟組織肉瘤一線治療後的維持療法回顧 |
+| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | 試驗計畫書 | BMC Cancer | REGOSARC 試驗設計說明 |
+| [33290314](https://pubmed.ncbi.nlm.nih.gov/33290314/) | 2021 | 回溯性研究（間接） | Anti-Cancer Drugs | 研究藥物為 anlotinib，用於無法切除或轉移性高分化／去分化脂肪肉瘤，非 regorafenib |
+| [26266019](https://pubmed.ncbi.nlm.nih.gov/26266019/) | 2015 | 個案報告（間接） | Rare Tumors | pazopanib 用於 Ewing 肉瘤，為 SARC024 增設 Ewing 肉瘤世代提供依據，與脂肪肉瘤無直接關係 |
 
 ## 香港上市資訊
 
-目前查無香港許可證登記（`market_status: 未上市`，許可證數 0），regorafenib 尚未在香港取得任何藥品註冊。
-
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-63304 | STIVARGA TAB 40MG | BAYER HEALTHCARE LIMITED |
 
 ## 細胞毒性
 
-Regorafenib 屬抗腫瘤藥物（多重酪胺酸激酶抑制劑），故列出以下資訊：
-
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 標靶藥物（多重酪胺酸激酶抑制劑，非傳統細胞毒性化療藥物） |
-| 骨髓抑制風險 | 資料有限；文獻主要記載皮膚、肝臟及心血管毒性，非典型骨髓抑制表現，建議常規監測 |
-| 致吐性分級 | 低（口服 TKI 類別一般屬低致吐性） |
-| 監測項目 | 肝功能（AST/ALT/bilirubin）、血壓、皮膚（手足皮膚反應）、CBC |
-| 處置防護 | 口服標靶藥物，不需傳統細胞毒性藥物之特殊配置防護，但建議依機構標準作業程序處理 |
-
-（骨髓抑制/毒性描述參考 PMID 23700287〔手足皮膚反應統合分析〕、23981115〔肝毒性統合分析〕、36583425〔血壓上升〕、38761350〔TKI 毒性系統性回顧〕。）
-
----
+| 細胞毒性分類 | 標靶藥物（多激酶抑制劑），非傳統細胞毒性藥物 |
+| 骨髓抑制風險 | 請參考原廠仿單的警語與注意事項 |
+| 致吐性分級 | 低（依藥物類別判斷） |
+| 監測項目 | 肝功能、血壓、皮膚（手足皮膚反應）；血液學參數請依仿單 |
+| 處置防護 | 請參考原廠仿單及機構的抗腫瘤藥物處置規範 |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
----
+文獻提到，這類抗血管新生多激酶抑制劑常見的不良反應包括手足皮膚反應、高血壓、腹瀉、疲倦與肝毒性。這些是文獻層級的描述，不能取代香港衛生署核准的仿單內容。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-脂肪肉瘤此一適應症有 2 個已完成的 Phase 2 RCT 支撐（達 L2 證據等級），但**須特別注意**：REGOSARC 與 SARC024 兩項試驗的脂肪肉瘤亞組分析均為陰性結果，regorafenib 單藥對此適應症未展現顯著療效。因此「Proceed with Guardrails」意指僅適合在臨床試驗或合併治療研究框架下探索，**不建議常規單藥使用**於脂肪肉瘤患者。
+脂肪肉瘤有 2 個已完成的 Phase 2 試驗，但 REGOSARC 與 SARC024 的脂肪肉瘤世代都未顯示療效，SARC024 作者更明確表示不支持常規使用。這個高分預測目前被實際臨床證據否定，不宜推進。
 
 **若要推進需要：**
-- TFDA/香港仿單警語與禁忌資料（DG001，Blocking 級缺口，目前無法進入安全性初評）
-- 完整作用機轉資料來源確認（DG002）
-- 針對脂肪肉瘤的合併治療（如免疫治療、化療併用）後續試驗數據，以釐清單藥無效後的替代策略
-- 香港藥品上市/許可證申請評估（目前完全未上市，無本地安全性與可近性資料）
+- 從 REGOSARC 與 SARC024 的原始論文確認脂肪肉瘤世代的 PFS 與反應率數據，並依亞型（高分化／去分化、黏液樣、多形性）分層檢視
+- 取得香港衛生署仿單的警語與禁忌資料，這是目前進入安全性篩選的阻礙
+- 補齊 DrugBank 作用機轉資料
+- 考慮組合治療策略（SARC024 作者建議探索）
+- 另一個值得追蹤的方向是**腎細胞癌**。透明細胞腎細胞癌（預測排名第 3）與一般腎細胞癌（排名第 10）的證據等級為 L3，有單臂 Phase 2 與前臨床資料，但目前尚無隨機對照證據，且需與既有 VEGFR-TKI 及免疫檢查點抑制劑組合比較。其餘 7 項預測目前僅有模型分數，應維持 Hold。
+
+本報告僅供研究參考，不構成醫療建議；老藥新用候選須經臨床驗證後才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

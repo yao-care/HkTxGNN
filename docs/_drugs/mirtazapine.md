@@ -2,7 +2,7 @@
 layout: default
 title: Mirtazapine
 parent: 僅模型預測 (L5)
-nav_order: 501
+nav_order: 582
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,11 +29,13 @@ indication_count: 3
 
 </div>
 
-# MIRTAZAPINE：從精神科用藥到 Ohdo Syndrome 及其變異型
+# Mirtazapine：從憂鬱症到 Ohdo 症候群及其變異型
 
 ## 一句話總結
 
-Mirtazapine（DB00370）為 NaSSA（正腎上腺素及特定血清素抗憂鬱劑）類抗憂鬱藥物，目前**未在香港取得任何許可證**。TxGNN 模型預測其可能對 **Ohdo Syndrome 及其變異型**（一種罕見的先天染色質重塑基因缺陷症候群）有效，但**目前無任何臨床試驗或文獻支持**，屬純模型關聯推測。
+Mirtazapine 是一種抗憂鬱藥，在香港已有多張上市許可證。
+TxGNN 模型預測它可能對 **Ohdo 症候群及其變異型 (Ohdo syndrome and variants)** 有效。
+目前**沒有任何臨床試驗或文獻**支持這個預測，僅有模型分數。
 
 ---
 
@@ -41,23 +43,30 @@ Mirtazapine（DB00370）為 NaSSA（正腎上腺素及特定血清素抗憂鬱�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無資料（evidence pack 未提供核准適應症；依內部 MOA 敘述推測為憂鬱症相關適應症） |
-| 預測新適應症 | Ohdo syndrome and variants |
+| 原適應症 | 許可證資料未載明適應症文字（Mirtazapine 屬抗憂鬱藥，一般用於憂鬱症） |
+| 預測新適應症 | Ohdo 症候群及其變異型 (Ohdo syndrome and variants) |
 | TxGNN 預測分數 | 99.42% |
-| 證據等級 | L5（僅模型預測，無實際研究） |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L5 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank MOA 欄位為 [Data Gap]）。根據 evidence pack 中的機轉推論敘述，Mirtazapine 屬於 NaSSA 類抗憂鬱藥，主要透過 α2-腎上腺素受體拮抗及 5-HT2A/5-HT2C/5-HT3/H1 受體拮抗發揮作用。
+目前缺乏詳細的作用機轉資料。Mirtazapine 已知的藥理作用包括 alpha-2 受體拮抗，以及 5-HT2、5-HT3 和 H1 受體阻斷。這些作用與 Ohdo 症候群沒有明顯的關聯。
 
-Ohdo syndrome（含 SBBYSS 亞型）主因為 KAT6B/KAT6A 基因突變導致染色質重塑異常，是一種先天發育性疾病，與單胺受體調節機轉之間**沒有已知的生物學路徑交集**。同樣地，第二項預測「blepharophimosis - intellectual disability syndrome, Ohdo type」是 Ohdo syndrome 的亞型，機轉關聯性同樣缺乏支持。
+Ohdo 症候群（KAT6B 相關）是一種罕見的先天性神經發展疾病，成因是染色質修飾蛋白功能異常。從現有資料看，Mirtazapine 的作用路徑與這個致病機轉之間**無法建立機轉上的連結**。
 
-第三項預測「benign paroxysmal torticollis of infancy」（嬰兒陣發性良性斜頸）多與 CACNA1A 離子通道病變相關；Mirtazapine 的抗組織胺與 5-HT2/5-HT3 拮抗特性理論上與偏頭痛相關噁心/嘔吐症狀有間接連結，但此關聯屬推測性，並未觸及該疾病離子通道功能異常的病理生理核心。三項預測皆為 TxGNN 知識圖譜的高分關聯，**不具明確藥理機轉支持**。
+TxGNN 的 0.994 分是知識圖譜推算的結果，沒有試驗或文獻佐證，只能視為假說。
+
+**其他預測適應症（同樣僅有模型預測）：**
+
+| 排名 | 預測疾病 | TxGNN 分數 | 證據等級 | 備註 |
+|------|---------|-----------|---------|------|
+| 2 | Blepharophimosis - intellectual disability syndrome, Ohdo type | 99.11% | L5 | 與第 1 名屬同一疾病家族，不能算獨立的佐證 |
+| 3 | 嬰兒良性陣發性斜頸 (Benign paroxysmal torticollis of infancy) | 99.11% | L5 | 此病被視為偏頭痛相關或離子通道相關的陣發性疾病，血清素或抗組織胺藥物偶爾被用於偏頭痛預防，因此僅有推測性的關聯。此病在嬰兒期可自行緩解，而嬰幼兒使用抗憂鬱藥有安全疑慮 |
 
 ---
 
@@ -75,15 +84,21 @@ Ohdo syndrome（含 SBBYSS 亞型）主因為 KAT6B/KAT6A 基因突變導致染�
 
 ## 香港上市資訊
 
-Mirtazapine 目前於香港**未取得任何許可證**（`total_licenses = 0`），無法提供品名、劑型與核准適應症資訊。
+香港共有 20 張許可證，以下列出 5 張主要許可證：
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-66562 | MIRTA ORODISPERSIBLE TABLETS 30MG | SB PHARMA LIMITED |
+| HK-52381 | REMERON SOLTAB ORODISPERSIBLE TAB 15MG | ORGANON HONG KONG LIMITED |
+| HK-67333 | MIRZENTAC TABLETS 30MG | SB PHARMA LIMITED |
+| HK-53225 | PMS-MIRTAZAPINE TAB 30MG | TRENTON-BOMA LTD |
+| HK-56412 | PMS-MIRTAZAPINE TAB 15MG | TRENTON-BOMA LTD |
 
 ---
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
-（說明：evidence pack 標記 DG001 為 Blocking 等級缺口——缺乏 TFDA/仿單警語與禁忌症資料，尚無法進入 S1 安全性初評；藥物交互作用查詢亦無結果。）
 
 ---
 
@@ -92,14 +107,17 @@ Mirtazapine 目前於香港**未取得任何許可證**（`total_licenses = 0`�
 **決策：Hold**
 
 **理由：**
-- 三項預測適應症皆屬證據等級 L5，僅有 TxGNN 模型關聯分數，無任何臨床試驗或文獻佐證。
-- 機轉關聯性分析顯示，Mirtazapine 的受體藥理與 Ohdo syndrome 相關的染色質調控病因之間缺乏合理連結。
-- 藥物於香港未上市，且安全性資料（警語、禁忌症）為 Blocking 等級缺口，無法進行安全性初評。
+- 三個預測都只有模型分數，沒有臨床試驗、文獻或機轉證據，證據等級為 L5。
+- Mirtazapine 的已知藥理與 Ohdo 症候群的致病機轉缺乏連結，仿單安全性資料也尚未取得，目前不宜推進。
 
 **若要推進需要：**
-- 取得 DrugBank 完整 MOA 資料，釐清機轉關聯性（DG002）。
-- 下載並解析 TFDA／原廠仿單，補齊警語與禁忌症資料，以解除 S1 安全性初評的 Blocking 缺口（DG001）。
-- 針對三項預測適應症持續監測是否有新臨床試驗或文獻登記，目前皆為零筆。
+- 取得香港衛生署仿單的警語與禁忌症資料，才能進行安全性篩選。
+- 補齊 Mirtazapine 的作用機轉資料（例如查詢 DrugBank）。
+- 檢索 Mirtazapine 與 KAT6B、染色質修飾或相關神經發展疾病的前臨床與文獻證據。
+- 若考慮嬰兒良性陣發性斜頸，需另行評估嬰幼兒使用抗憂鬱藥的安全性。
+- 目前所有預測只有模型分數，需先有任何實際研究證據，才值得重新評估。
+
+*本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

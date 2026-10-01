@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Chloramphenicol
-parent: 高證據等級 (L1-L2)
-nav_order: 160
-evidence_level: L1
+parent: 僅模型預測 (L5)
+nav_order: 182
+evidence_level: L5
 indication_count: 9
 ---
 
 # Chloramphenicol
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **9** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,107 +29,89 @@ indication_count: 9
 
 </div>
 
-# Chloramphenicol：從廣效細菌感染到結膜炎
+# Chloramphenicol：從廣譜抗菌治療到結膜炎
 
 ## 一句話總結
 
-Chloramphenicol 是自 1948 年起臨床使用的廣效抗菌藥物，歷史適應症涵蓋腦膜炎、傷寒、霍亂及眼部感染。TxGNN 模型預測它可能對**結膜炎 (Conjunctivitis)** 有效，此預測與臨床現實高度吻合——目前有 **19 篇文獻**（含 5 項 RCT、1 篇 Cochrane 系統性回顧）支持此方向；在英國、澳洲等多國，氯黴素眼藥水已是細菌性結膜炎的第一線標準治療，香港「未上市」狀態屬監管落差，而非科學空缺。
-
----
+Chloramphenicol（氯黴素）是廣譜抑菌性抗生素，香港已有 20 張許可證，多為眼藥水與眼用軟膏。
+TxGNN 模型預測它可能對**結膜炎 (Conjunctivitis)** 有效，目前無登記中的臨床試驗，但有 **17 篇文獻**，其中包含多篇隨機對照試驗與 Cochrane 系統性回顧。
+結膜炎其實是已知的既有用途，並非真正的新適應症，需先核對本地仿單。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 廣效細菌感染（腦膜炎、傷寒、霍亂等） |
+| 原適應症 | 許可證資料未登載適應症文字 |
 | 預測新適應症 | 結膜炎 (Conjunctivitis) |
 | TxGNN 預測分數 | 99.66% |
-| 證據等級 | L1 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L1（依據已發表的隨機對照試驗與 Cochrane 回顧，非已登記的 Phase 3 試驗） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
 | 建議決策 | Proceed with Guardrails |
-
----
 
 ## 為什麼這個預測合理？
 
-Chloramphenicol 的作用機轉為結合細菌 50S 核糖體的 23S rRNA，抑制肽鏈延伸，達到廣效抑菌效果。對結膜炎主要致病菌——金黃色葡萄球菌（*Staphylococcus aureus*）、肺炎鏈球菌（*Streptococcus pneumoniae*）及流感嗜血桿菌（*Haemophilus influenzae*）——均具直接抑菌活性。局部眼用劑型（0.5% 眼藥水）在結膜囊可達有效治療濃度，全身吸收量極低。
+Pack 的 MOA 欄位是空的，以下機轉來自證據分析。Chloramphenicol 是廣譜抑菌性抗生素，抑制細菌 50S 核糖體次單位，涵蓋結膜炎常見的細菌病原。文獻指出，它自 1948 年進入臨床，因已知毒性主要以局部製劑使用。在英國，眼用 chloramphenicol 廣泛用於結膜炎，美國則很少處方。
 
-細菌性結膜炎需要對致病菌具廣效覆蓋的局部抗生素，氯黴素的廣效抗菌譜恰好符合此臨床需求。多項 RCT 及 Cochrane 系統性回顧均已驗證其療效，隨機對照試驗中治療成功率介於 81–93%，且體外敏感性研究（PMID 7671609）顯示氯黴素在結膜炎分離株中敏感率位居前列。
+許多比較性試驗都以它作為結膜炎的對照藥，包括 fusidic acid、framycetin、trimethoprim-polymyxin B、norfloxacin、moxifloxacin 等。1995 年的體外感受性研究也顯示，它對結膜炎與眼瞼炎分離菌的感受性名列前茅。因此這個預測很可能對應的是既有適應症，而不是真正的藥物再利用。
 
-值得特別說明的是，此預測並非傳統意義上的「藥物再利用」——氯黴素眼藥水已在英國、澳洲等主要市場作為細菌性結膜炎第一線標準治療長達數十年。香港市場「未上市」反映的是監管現況，科學證據基礎已相當充足。
-
----
+原適應症欄位為空，應視為資料缺漏。在把它當成再利用候選之前，需先確認本地許可證的核准適應症。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記（針對氯黴素用於結膜炎的專項 ClinicalTrials.gov 登記試驗）。
-
----
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|------|------|------|---------|
-| [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | Systematic Review (Cochrane) | Cochrane Database of Systematic Reviews | 系統性回顧新生兒結膜炎預防介入措施（含氯黴素），為現有最高等級證據 |
-| [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | RCT | Current Therapeutic Research | Moxifloxacin vs 氯黴素治療細菌性眼部感染頭對頭比較，確認氯黴素為既定標準治療 |
-| [17947266](https://pubmed.ncbi.nlm.nih.gov/17947266/) | 2007 | RCT（等效試驗） | British Journal of Ophthalmology | 2.5% 聚維酮碘眼藥水 vs 氯黴素預防墨西哥南部地方流行區新生兒結膜炎的等效性評估 |
-| [3554881](https://pubmed.ncbi.nlm.nih.gov/3554881/) | 1987 | RCT（單盲） | Acta Ophthalmologica | 梭酸 1% vs 氯黴素 0.5% 治療急性化膿性結膜炎（n=250），臨床成功率 84% vs 81%，差異無統計顯著性 |
-| [8333258](https://pubmed.ncbi.nlm.nih.gov/8333258/) | 1993 | RCT | Acta Ophthalmologica | 挪威 38 名全科醫師招募急性結膜炎患者，梭酸 vs 氯黴素，細菌學結果及治療反應無顯著差異 |
-| [3300139](https://pubmed.ncbi.nlm.nih.gov/3300139/) | 1987 | RCT | Acta Ophthalmologica | 坦尚尼亞細菌性結膜炎三組開放隨機試驗，氯黴素臨床成功率 48%（vs 梭酸 93%），耐藥性為主因 |
-| [16378567](https://pubmed.ncbi.nlm.nih.gov/16378567/) | 2005 | Systematic Review | British Journal of General Practice | 急性細菌性結膜炎局部抗生素 Cochrane 系統性回顧更新版，綜合評估含氯黴素之治療方案 |
-| [6188739](https://pubmed.ncbi.nlm.nih.gov/6188739/) | 1983 | RCT（多中心雙盲） | Journal of Antimicrobial Chemotherapy | 230 名推定細菌性結膜炎患者多中心雙盲試驗，確認氯黴素療效，不良反應極少 |
-| [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | Safety Review | Drug Safety | ⚠️ 局部眼用氯黴素與再生不良性貧血關聯性安全性回顧；英國廣泛使用 vs 美國罕用，爭議持續存在 |
-| [7671609](https://pubmed.ncbi.nlm.nih.gov/7671609/) | 1995 | 體外研究 | Cornea | 結膜炎（n=385）及瞼緣炎（n=173）分離株體外敏感性比較，氯黴素敏感率位居所有測試抗生素前列 |
-
----
+|------|-----|------|------|---------|
+| [3300139](https://pubmed.ncbi.nlm.nih.gov/3300139/) | 1987 | RCT | Acta Ophthalmol | 坦尚尼亞急性結膜炎：fusidic acid 臨床成功率 93%，chloramphenicol 48%，framycetin 74%。作者將差異歸因於 fusidic acid 的體外抗藥率較低 |
+| [8333258](https://pubmed.ncbi.nlm.nih.gov/8333258/) | 1993 | RCT | Acta Ophthalmol | 挪威 38 位家醫的急性結膜炎病人：fusidic acid 每日 2 次與 chloramphenicol 每日 6 次相比，療效無顯著差異 |
+| [3554881](https://pubmed.ncbi.nlm.nih.gov/3554881/) | 1987 | RCT | Acta Ophthalmol | 單盲隨機試驗：fusidic acid 成功率 84%，chloramphenicol 81%。chloramphenicol 組局部刺痛等輕微副作用較多（14% vs 5%） |
+| [6188739](https://pubmed.ncbi.nlm.nih.gov/6188739/) | 1983 | RCT | J Antimicrob Chemother | 230 位疑似細菌性結膜炎病人的隨機雙盲多中心試驗：各組藥物皆有效，副作用很少 |
+| [17947266](https://pubmed.ncbi.nlm.nih.gov/17947266/) | 2007 | RCT | Br J Ophthalmol | 墨西哥砂眼流行區的等效性試驗：比較 2.5% povidone-iodine 與眼用 chloramphenicol 預防新生兒結膜炎 |
+| [16378567](https://pubmed.ncbi.nlm.nih.gov/16378567/) | 2005 | 系統性回顧 | Br J Gen Pract | Cochrane 更新：局部抗生素治療急性細菌性結膜炎，並探討是否適用於基層醫療 |
+| [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | 系統性回顧 | Cochrane Database Syst Rev | 預防新生兒眼炎的各種介入措施 |
+| [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | 比較研究 | Curr Ther Res | 比較 moxifloxacin 與 chloramphenicol 治療細菌性眼部感染 |
+| [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | 安全性回顧 | Drug Saf | 討論局部眼用 chloramphenicol 與再生不良性貧血是否有關，該議題至今仍有爭議 |
+| [7671609](https://pubmed.ncbi.nlm.nih.gov/7671609/) | 1995 | 體外感受性研究 | Cornea | 結膜炎與眼瞼炎分離菌對多種局部抗生素的感受性，chloramphenicol 排名最高 |
 
 ## 香港上市資訊
 
-香港目前無 Chloramphenicol 相關上市許可證登記（市場狀態：未上市，許可證數：0）。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-61895 | EUROPHEN EYE DROPS 0.5%W/V | 滴眼液（依品名判斷） | 許可證資料未登載 |
+| HK-61645 | VANAFEN OPHTHALMIC OINTMENT 1% W/W | 眼用軟膏（依品名判斷） | 許可證資料未登載 |
+| HK-09064 | CHLORAMPHENICOL EYE DROPS 0.5% (FAMAR S.A.) | 滴眼液（依品名判斷） | 許可證資料未登載 |
+| HK-64734 | CHLOPHEN EYE DROPS 0.5%W/V | 滴眼液（依品名判斷） | 許可證資料未登載 |
+| HK-45559 | CHLOROPH EYE OINT 1% | 眼用軟膏（依品名判斷） | 許可證資料未登載 |
 
-若有意在香港引入氯黴素眼用製劑，可參考英國 MHRA 及澳洲 TGA 已核准之 OTC 眼藥水資料，評估香港衛生署的申請路徑。
-
----
+以上為 20 張許可證中的 5 張。
 
 ## 安全性考量
 
-> ⚠️ **關鍵安全警示**：雖本次查詢未能取得香港仿單詳細警語及禁忌症（Data Gap），但文獻（PMID 8800624）記載，局部眼用氯黴素存在罕見但嚴重的**再生不良性貧血（aplastic anemia）**風險。此為氯黴素特有的骨髓毒性，局部用藥雖風險遠低於全身用藥，英美等國監管機構仍對此保持持續關注並要求說明書明確標注。
+安全性資訊請參考原廠仿單。
 
-安全性詳細資訊請參考原廠仿單。
-
----
+文獻中有一項需特別留意的訊號：局部眼用 chloramphenicol 是否與再生不良性貧血有關，仍有爭議（PMID 8800624）。全身性使用的骨髓毒性則是此藥已知的主要風險。
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-氯黴素眼藥水用於細菌性結膜炎擁有多項 RCT 及 Cochrane 系統性回顧支持（證據等級 L1），已在英國、澳洲作為第一線標準治療使用數十年；香港「未上市」屬監管落差而非科學空缺，若決定進入香港市場，科學基礎充分，但再生不良性貧血的罕見嚴重風險需納入風險管理框架。
+- 結膜炎有多篇 RCT 與 Cochrane 回顧支持，且香港已有眼用製劑上市，實質上是既有用途。
+- 香港衛生署仿單的警語與禁忌資料尚缺，再生不良性貧血的安全性訊號也需要審視。
 
 **若要推進需要：**
-- 補充香港衛生署仿單警語及禁忌症完整資料（目前 Data Gap，建議下載原廠仿單 PDF 解析）
-- 確認 DrugBank 完整 MOA 資料（DB00446）
-- 制定再生不良性貧血風險管理方案（Risk Management Plan），包含患者說明書警示及監測機制
-- 評估香港衛生署藥物申請路徑（參考英國 MHRA 已核准資料作為支持文件）
+- 取得香港衛生署仿單（PDF），確認核准適應症、警語與禁忌症（此為阻斷性資料缺口）
+- 補齊 DrugBank 的作用機轉資料
+- 評估局部眼用製劑與再生不良性貧血的風險，並建立監測與病人衛教方式
+- 確認 fusidic acid 等試驗中的抗藥性資料是否適用於香港本地流行病學
 
----
+**其他預測適應症：**
+TxGNN 的其餘預測（瀰漫性硬皮症、感染後血管炎、感染後疾患、Chagas 心肌病變等）皆為 **Hold**。這些預測沒有臨床或藥理證據支持。例如硬皮症的文獻只是把 chloramphenicol acetyltransferase (CAT) 報告基因當成實驗工具，並未測試 chloramphenicol 本身。
 
-## 附錄：其他預測適應症概覽
-
-| 排名 | 適應症 | 分數 | 決策 | 說明 |
-|------|--------|------|------|------|
-| 1 | 結膜炎 (Conjunctivitis) | 99.66% | ✅ Proceed with Guardrails | L1 證據，多國第一線用藥，HK 監管落差 |
-| 2 | 瀰漫性硬皮症 (Diffuse Scleroderma) | 99.65% | ⛔ Hold | ⚠️ **方法學偽訊號**：全部文獻均以氯黴素乙醯轉移酶（CAT）作為分子生物學研究工具，非治療用途 |
-| 3 | 感染後血管炎 (Postinfectious Vasculitis) | 99.58% | ⛔ Hold | 免疫介導機轉，抗生素窗口已過；無文獻或試驗支持 |
-| 4 | 細菌感染後疾患 (Post-bacterial Disorder) | 99.57% | 🔬 Research Question | L3；NCT05972772（Phase 2/3，恙蟲病/立克次體）最具相關性 |
-| 5 | 感染後症候群 (Post-infectious Syndrome) | 99.56% | ⛔ Hold | ⚠️ **訊號方向倒置**：唯一相關試驗為再生不良性貧血研究，氯黴素為誘因而非治療藥 |
-| 6 | 感染性尿道狹窄 (Infective Urethral Stricture) | 99.52% | ⛔ Hold | 唯一文獻為 1964 年個案報告，年代久遠且關聯性不明 |
-| 7 | 南美錐蟲病心肌病 (Chagas Cardiomyopathy) | 99.51% | ⛔ Hold | ⚠️ **機轉根本不相容**：原蟲感染（真核生物），氯黴素靶點（70S 細菌核糖體）無效 |
-| 8 | 感染相關溶血性尿毒症候群 (HUS) | 99.50% | ⛔ Hold | ⚠️ **潛在有害**：使用抗生素（含氯黴素）可能增加志賀毒素釋放，加重 HUS |
-| 9 | 點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis) | 99.17% | ⛔ Hold | 文獻均聚焦微孢子蟲（真核原蟲），氯黴素無直接機轉支持 |
-
-> 本報告僅供研究參考，不構成醫療建議。藥物再利用候選需經臨床驗證後方可應用。
+*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

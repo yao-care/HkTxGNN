@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ustekinumab
-parent: 僅模型預測 (L5)
-nav_order: 783
-evidence_level: L5
+parent: 高證據等級 (L1-L2)
+nav_order: 905
+evidence_level: L2
 indication_count: 5
 ---
 
 # Ustekinumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L2** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ indication_count: 5
 
 </div>
 
-# Ustekinumab：從乾癬到皮膚炎 (Dermatitis)
+# Ustekinumab：從斑塊性乾癬與發炎性腸道疾病到皮膚炎
 
 ## 一句話總結
 
-> Ustekinumab（DrugBank ID: DB05679）依文獻證據為 IL-12/IL-23 p40 antagonist，已知核准用於乾癬、乾癬性關節炎、克隆氏症與潰瘍性大腸炎等自體免疫疾病（結構化許可證資料目前缺失，見下方說明）。
-> TxGNN 模型預測它可能對**皮膚炎 (Dermatitis)** 有效，
-> 目前有 **7 個臨床試驗**（含 2 個已完成的 Phase 2 RCT 直接針對異位性皮膚炎）和 **20+ 篇文獻**支持這個方向。
+Ustekinumab 是 IL-12/IL-23 抑制劑，原本用於中重度斑塊性乾癬、乾癬性關節炎、克隆氏症與潰瘍性結腸炎（依文獻記載）。
+TxGNN 模型預測它可能對**皮膚炎 (Dermatitis)** 有效，目前有 **6 個臨床試驗**和 **20 篇文獻**。
+其中直接相關的兩項 Phase 2 RCT 在異位性皮膚炎上未顯示明確優於安慰劑，因此目前建議暫緩推進。
 
 ---
 
@@ -43,23 +43,23 @@ indication_count: 5
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 乾癬 (Psoriasis) 等（依文獻引用，結構化欄位資料缺失，見 DG001/DG002） |
+| 原適應症 | 香港許可證未載明適應症；文獻記載為中重度斑塊性乾癬、乾癬性關節炎、克隆氏症、潰瘍性結腸炎 |
 | 預測新適應症 | 皮膚炎 (Dermatitis) |
 | TxGNN 預測分數 | 99.99% |
-| 證據等級 | L2（已完成 Phase 2 雙盲安慰劑對照 RCT） |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L2 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 8 張 |
 | 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-Evidence Pack 中結構化的 `original_moa` 欄位標記為缺失（DG002），但收集到的文獻本身提供了機轉描述：PMID 27304428 指出「Ustekinumab is an IL-12/IL-23p40 antagonist that suppresses Th1, Th17 and Th22 activation」；PMID 36208443 進一步說明其為「human interleukin-12 and -23 antagonist」，已核准用於乾癬、乾癬性關節炎、克隆氏症、潰瘍性大腸炎。
+Ustekinumab 阻斷 IL-12 與 IL-23 共有的 p40 次單元，進而抑制 Th1、Th17 及 Th22 路徑。這些路徑在慢性或接觸性皮膚炎中可能扮演角色，也是它用於乾癬的基礎，因此模型給出高分有其道理。
 
-異位性皮膚炎（atopic dermatitis）與乾癬同屬 Th1/Th17/Th22 軸活化相關的慢性炎症性皮膚疾病，兩者在免疫病理機轉上有重疊，這也是多篇文獻（如 PMID 29164954 系統性回顧）探討 IL-12/23 抑制劑跨適應症應用的理論基礎。
+但機轉契合度只是部分成立。異位性皮膚炎主要由 Th2 路徑驅動，不是 ustekinumab 的主要作用標的。兩項 Phase 2 RCT（PMID 27304428、28338223）也未顯示明確療效，臨床訊號偏弱甚至偏負面。
 
-日本第二期臨床試驗（NCT01945086, PMID 28338223）已直接驗證 ustekinumab 在重度異位性皮膚炎患者中的療效與安全性，支持 TxGNN 預測方向具有實質機轉與臨床證據支撐，而非單純圖譜關聯推論。
+TxGNN 分數極高（0.9999），與臨床結果不一致。這類「泛皮膚炎」預測不宜直接推進，Th1/Th17 為主的特定亞型仍可進一步探索。以上評估僅依據提供的試驗與文獻紀錄，未取得試驗層級的結果數據。
 
 ---
 
@@ -67,13 +67,13 @@ Evidence Pack 中結構化的 `original_moa` 欄位標記為缺失（DG002），
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT01806662](https://clinicaltrials.gov/study/NCT01806662) | Phase 2 | 完成 | 32 | Ustekinumab 用於對前線治療反應不佳的慢性異位性皮膚炎，隨機化先導性研究 |
-| [NCT01945086](https://clinicaltrials.gov/study/NCT01945086) | Phase 2 | 完成 | 79 | 日本重度異位性皮膚炎患者，雙盲安慰劑對照，評估兩劑量 ustekinumab 之療效與安全性 |
-| [NCT02074982](https://clinicaltrials.gov/study/NCT02074982) | Phase 3 | 完成 | 676 | Secukinumab 與 ustekinumab 於中重度斑塊型乾癬之療效比較（CLEAR 研究） |
-| [NCT05535738](https://clinicaltrials.gov/study/NCT05535738) | Phase 2/3 | 招募中 | 45 | 以接觸性皮膚炎模型結合生物製劑（含 ustekinumab 類別）研究皮膚發炎機轉 |
-| [NCT01356758](https://clinicaltrials.gov/study/NCT01356758) | N/A | 完成 | 126 | 重度乾癬患者使用生物製劑之心血管風險評估 |
-| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | N/A | 完成 | 1000 | 皮膚乾癬患者生物製劑十年存活率之藥物基因學觀察性研究 |
-| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Phase 4 | 未開始招募 | 10 | 皮內微裝置測試 FDA 核准藥物（含異位性皮膚炎與乾癬適應症）之皮膚遞送 |
+| [NCT01945086](https://clinicaltrials.gov/study/NCT01945086) | Phase 2 | 完成 | 79 | 日本成人重度異位性皮膚炎，雙盲、安慰劑對照，比較兩種劑量。已發表結果未顯示明確療效 |
+| [NCT01806662](https://clinicaltrials.gov/study/NCT01806662) | Phase 2 | 完成 | 32 | 慢性異位性皮膚炎、對先前治療反應不佳者的隨機先導試驗。直接證據，但樣本小、屬探索性，未提供結果 |
+| [NCT05535738](https://clinicaltrials.gov/study/NCT05535738) | Phase 2/3 | 招募中 | 45 | 以接觸性皮膚炎模型研究生物製劑對皮膚發炎的影響。屬機轉研究，尚無結果 |
+| [NCT02074982](https://clinicaltrials.gov/study/NCT02074982) | Phase 3 | 完成 | 676 | Secukinumab 對比 ustekinumab 用於斑塊性乾癬（CLEAR）。ustekinumab 為對照藥，非皮膚炎證據 |
+| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | N/A | 完成 | 1000 | 乾癬生物製劑 10 年存活率的藥物基因學觀察研究，無皮膚炎療效指標 |
+| [NCT01356758](https://clinicaltrials.gov/study/NCT01356758) | N/A | 完成 | 126 | 重度乾癬患者使用生物製劑的心血管風險評估，非皮膚炎療效 |
+| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Phase 4 | 尚未招募 | 10 | 皮膚原位微型裝置測試藥物，屬方法學研究，無 ustekinumab 療效證據 |
 
 ---
 
@@ -81,22 +81,36 @@ Evidence Pack 中結構化的 `original_moa` 欄位標記為缺失（DG002），
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [27304428](https://pubmed.ncbi.nlm.nih.gov/27304428/) | 2017 | RCT (Phase II) | Exp Dermatol | 33 名中重度異位性皮膚炎患者接受 ustekinumab，評估療效與安全性 |
-| [28338223](https://pubmed.ncbi.nlm.nih.gov/28338223/) | 2017 | RCT (Phase II) | Br J Dermatol | 日本重度異位性皮膚炎雙盲安慰劑對照試驗，驗證 ustekinumab 療效與安全性 |
-| [33074565](https://pubmed.ncbi.nlm.nih.gov/33074565/) | 2021 | 系統性回顧/Meta-analysis | Allergy | 為 EAACI 臨床指引彙整異位性皮膚炎全身性治療證據 |
-| [29098604](https://pubmed.ncbi.nlm.nih.gov/29098604/) | 2018 | 系統性回顧/Meta-analysis | Am J Clin Dermatol | 評估生物製劑於異位性皮膚炎之療效，含 ustekinumab |
-| [29164954](https://pubmed.ncbi.nlm.nih.gov/29164954/) | 2018 | 系統性回顧 | J Dermatolog Treat | 系統性回顧 ustekinumab 於異位性皮膚炎治療之證據 |
-| [36208443](https://pubmed.ncbi.nlm.nih.gov/36208443/) | 2022 | Review | Dermatol Ther | 綜整 ustekinumab 適應症外使用（off-label）之文獻與臨床試驗 |
-| [39201826](https://pubmed.ncbi.nlm.nih.gov/39201826/) | 2024 | Narrative Review | Children (Basel) | 兒童異位性皮膚炎、乾癬等疾病之生物製劑治療綜述 |
-| [33849369](https://pubmed.ncbi.nlm.nih.gov/33849369/) | 2022 | 真實世界證據 | J Dermatolog Treat | 分析真實世界中 ustekinumab 用於異位性皮膚炎之療效 |
-| [39987634](https://pubmed.ncbi.nlm.nih.gov/39987634/) | 2025 | 真實世界安全性分析 | Int Immunopharmacol | 基於 FDA FAERS 資料庫分析 ustekinumab 用於乾癬/乾癬性關節炎之安全性 |
-| [31514420](https://pubmed.ncbi.nlm.nih.gov/31514420/) | 2019 | Review | Children (Basel) | 兒童乾癬與異位性皮膚炎之生物製劑治療選項綜述 |
+| [28338223](https://pubmed.ncbi.nlm.nih.gov/28338223/) | 2017 | RCT | Br J Dermatol | 日本重度異位性皮膚炎的 Phase II 雙盲、安慰劑對照試驗，未顯示明確療效 |
+| [27304428](https://pubmed.ncbi.nlm.nih.gov/27304428/) | 2017 | RCT | Exp Dermatol | 33 位中重度異位性皮膚炎的 Phase II 雙盲、安慰劑對照試驗，未顯示明確優於安慰劑 |
+| [33074565](https://pubmed.ncbi.nlm.nih.gov/33074565/) | 2021 | 系統性回顧/統合分析 | Allergy | 為 EAACI 指引評估中重度異位性皮膚炎的全身性治療證據 |
+| [29164954](https://pubmed.ncbi.nlm.nih.gov/29164954/) | 2018 | 系統性回顧 | J Dermatolog Treat | 專門評估 ustekinumab 治療異位性皮膚炎的療效與安全性 |
+| [29098604](https://pubmed.ncbi.nlm.nih.gov/29098604/) | 2018 | 系統性回顧/統合分析 | Am J Clin Dermatol | 評估生物製劑在異位性皮膚炎的療效，背景為現有全身性治療療效有限 |
+| [33849369](https://pubmed.ncbi.nlm.nih.gov/33849369/) | 2022 | 世代研究 | J Dermatolog Treat | 真實世界分析，既有報告多為個案且結果互相矛盾 |
+| [36208443](https://pubmed.ncbi.nlm.nih.gov/36208443/) | 2022 | 回顧 | Dermatol Ther | 整理 ustekinumab 的仿單外使用文獻 |
+| [35130397](https://pubmed.ncbi.nlm.nih.gov/35130397/) | 2021 | 回顧 | Dermatol Online J | 回顧 TNF-α 與 IL-12/23 抑制劑在皮膚科的仿單外使用 |
+| [29469709](https://pubmed.ncbi.nlm.nih.gov/29469709/) | 2017 | 個案報告 | Dermatol Online J | 頑固性潰瘍性類脂質漸進性壞死（肉芽腫性皮膚炎），換用 ustekinumab 後潰瘍清除 |
+| [37929636](https://pubmed.ncbi.nlm.nih.gov/37929636/) | 2024 | 個案報告 | Australas J Dermatol | 克隆氏症合併重度異位性皮膚炎，併用 ustekinumab 與 dupilumab，追蹤 7 個月無藥物間干擾 |
+
+---
+
+## 香港上市資訊
+
+香港共有 8 張許可證，以下列出 5 張主要許可證。資料中未記載劑型與核准適應症。
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-68573 | WEZLANA 預充填注射液 90MG/1ML | AMGEN HONG KONG LIMITED |
+| HK-60838 | STELARA 預充填注射液 45MG/0.5ML | JOHNSON & JOHNSON (HONG KONG) LTD. |
+| HK-62387 | STELARA 預充填注射液 90MG/1ML（瑞士） | JOHNSON & JOHNSON (HONG KONG) LTD. |
+| HK-65510 | STELARA 靜脈輸注濃縮液 130MG/26ML | JOHNSON & JOHNSON (HONG KONG) LTD. |
+| HK-62386 | STELARA 預充填注射液 45MG/0.5ML（瑞士） | JOHNSON & JOHNSON (HONG KONG) LTD. |
 
 ---
 
 ## 安全性考量
 
-> 安全性資訊請參考原廠仿單。目前 `key_warnings`、`contraindications`、`DDI` 皆為資料缺口（DG001，Blocking 等級），需優先補齊才能進行 S1 安全性初評。
+安全性資訊請參考原廠仿單。
 
 ---
 
@@ -105,13 +119,13 @@ Evidence Pack 中結構化的 `original_moa` 欄位標記為缺失（DG002），
 **決策：Hold**
 
 **理由：**
-- 雖有 2 個已完成的 Phase 2 雙盲安慰劑對照 RCT（NCT01945086、NCT01806662）及多篇系統性回顧支持 ustekinumab 用於異位性皮膚炎的療效訊號（證據等級 L2），但香港目前**未上市、無任何許可證**，且安全性資料為 **Blocking** 等級缺口（DG001），無法進入下一階段安全性初評。
+- 直接相關的兩項 Phase 2 RCT 在異位性皮膚炎上未顯示明確療效，機轉上也只有部分契合（異位性皮膚炎以 Th2 為主）。TxGNN 分數很高，但臨床證據不足以支持推進。
+- 同一份預測清單中的其他項目（新生兒皮肌炎、痤瘡瘢痕瘤、慢性萎縮性肢端皮膚炎、無肌病性皮肌炎）都只有模型預測（L5），沒有試驗或文獻，也一併暫緩。
 
 **若要推進需要：**
-- 取得原廠仿單或香港藥品安全性資料（警語、禁忌、DDI）— 對應 DG001
-- 補齊結構化作用機轉資料（DrugBank API 查詢）— 對應 DG002
-- 確認香港藥品進口／上市法規路徑（現為 0 張許可證）
-- 若鎖定異位性皮膚炎適應症，需規劃 Phase 3 RCT 以確立療效（現有僅為 Phase 2 證據）
+- 取得 NCT01945086、NCT01806662 的完整試驗結果，確認劑量與分層分析的細節
+- 評估 Th1/Th17 為主的皮膚炎亞型（如接觸性皮膚炎）是否值得另行探索，並追蹤 NCT05535738 的結果
+- 補齊香港衛生署仿單的警語與禁忌資料，以及 DrugBank 的作用機轉資料
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

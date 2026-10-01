@@ -2,15 +2,15 @@
 layout: default
 title: Laronidase
 parent: 中證據等級 (L3-L4)
-nav_order: 437
-evidence_level: L3
+nav_order: 502
+evidence_level: L4
 indication_count: 2
 ---
 
 # Laronidase
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **2** 個
+證據等級: **L4** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,11 @@ indication_count: 2
 
 </div>
 
-# Laronidase：從黏多醣症第一型 (MPS I) 到具骨骼侵犯之溶酶体贮積症
+# Laronidase：從黏多醣症 I 型（MPS I）到伴隨骨骼病變的溶小體儲積症
 
 ## 一句話總結
 
-Laronidase 是重組人類 α-L-iduronidase 酵素替代療法，原本用於治療黏多醣症第一型 (MPS I)。
-TxGNN 模型預測它對**具骨骼侵犯之溶酶体贮積症 (Lysosomal Storage Disease with Skeletal Involvement)** 有效，
-目前有 **4 篇文獻**支持——但需注意，此病名實質上與 MPS I 高度重疊，此預測更像是模型確認既有適應症，而非發現全新用途。
+Laronidase 是重組人類 α-L-艾杜糖醛酸酶（alpha-L-iduronidase），用於酵素replacement療法（ERT），文獻顯示其主要用於黏多醣症 I 型（MPS I）。TxGNN 模型預測它可能對**伴隨骨骼病變的溶小體儲積症 (lysosomal storage disease with skeletal involvement)** 有效。目前**沒有臨床試驗**，只有 **4 篇文獻**，且多屬間接證據。這個預測很可能只是 MPS I 既有機轉的重新歸類，而不是真正的新適應症。
 
 ---
 
@@ -43,29 +41,29 @@ TxGNN 模型預測它對**具骨骼侵犯之溶酶体贮積症 (Lysosomal Storag
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 黏多醣症第一型 (Mucopolysaccharidosis I, MPS I)（香港無許可證資料，依文獻整理） |
-| 預測新適應症 | 具骨骼侵犯之溶酶体贮積症 (Lysosomal Storage Disease with Skeletal Involvement) |
-| TxGNN 預測分數 | 99.31%（模型排名第 11,496 位） |
-| 證據等級 | L3 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 |
-| 建議決策 | Proceed with Guardrails（見下文說明，實質為既有適應症確認） |
+| 原適應症 | 香港許可證資料未載明；依文獻推定為 MPS I（需對照核准仿單確認） |
+| 預測新適應症 | 伴隨骨骼病變的溶小體儲積症 (lysosomal storage disease with skeletal involvement) |
+| TxGNN 預測分數 | 99.31% |
+| 證據等級 | L4 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 1 張 |
+| 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-Laronidase 的官方 MOA 欄位目前缺乏正式資料（DrugBank 查詢待補，列為 High 等級資料缺口）。但依文獻整理，Laronidase 是重組人類 α-L-iduronidase 酵素，其藥理機轉是外源性補充 MPS I 患者體內缺乏的該酵素，分解堆積的醣胺聚醣 (GAG，包括 dermatan sulfate 與 heparan sulfate)，屬酵素替代療法 (ERT) 的核心機轉。
+目前缺乏詳細的作用機轉資料（DrugBank 未提供 MOA）。根據文獻，Laronidase 是重組 α-L-艾杜糖醛酸酶，用來補充 MPS I 患者缺乏的酵素，分解溶小體內堆積的硫酸乙醯肝素（heparan sulfate）和硫酸皮膚素（dermatan sulfate）。
 
-TxGNN 預測的「具骨骼侵犯之溶酶体贮積症」實質上是 MPS I（Hurler / Hurler-Scheie / Scheie 症候群）的廣義描述，骨骼侵犯正是 MPS I 的典型臨床表現之一。因此這個預測並非典型的「老藥新用」假說，而是模型正確辨識出藥物與其核心已知藥理標的之間的直接對應關係。
+MPS I 本身就是一種伴隨骨骼病變（多發性骨發育不全，dysostosis multiplex）的溶小體儲積症。因此這個高分預測，最可能反映的是 MPS I 既有的機轉，而不是找到了新用途。體外研究顯示 Laronidase 可被培養的纖維母細胞與成骨細胞攝取（PMID 18758061），這支持它與骨骼組織有合理關聯。
 
-**重要提醒**：本 Evidence Pack 同時包含第二個候選——Sanfilippo syndrome (MPS III)，TxGNN 分數 99.22%，但機轉分析判定**不成立**：Sanfilippo 症候群的病因是 heparan sulfamidase、NAGLU、HGSNAT 或 GNS 等酵素缺乏，與 laronidase 補充的 α-L-iduronidase 屬於不同代謝路徑，無生化活性關聯。此候選被評為 L5 證據等級、S0 決策階段，建議 **Hold**，很可能是知識圖譜將「MPS」大類疾病節點過度泛化所致的偽陽性關聯，不建議進一步投入資源。
+不過「伴隨骨骼病變的溶小體儲積症」是很廣的分類。現有資料沒有骨骼專屬的療效數據，也無法比對它與已核准 MPS I 適應症的重疊程度。因此在確認核准仿單之前，不宜把它當成真正的老藥新用。
 
 ---
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記（查詢日期 2026-03-26，ClinicalTrials.gov 與 ICTRP 均無篩選結果）。
+目前無相關臨床試驗登記
 
 ---
 
@@ -73,10 +71,18 @@ TxGNN 預測的「具骨骼侵犯之溶酶体贮積症」實質上是 MPS I（Hu
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Review | BioDrugs | 介紹 laronidase 作為 MPS I（含 Hurler syndrome）酵素替代療法的開發歷程，取得美歐孤兒藥資格及 FDA 快速審查 |
-| [25345091](https://pubmed.ncbi.nlm.nih.gov/25345091/) | 2014 | Review | Pediatric Endocrinology Reviews | 說明 MPS I 由 α-L-iduronidase 缺乏導致 GAG 堆積，涵蓋 Hurler、Scheie 及中間型的疾病光譜與診斷方式 |
-| [23127271](https://pubmed.ncbi.nlm.nih.gov/23127271/) | 2012 | Cohort/Case series | Pediatric Neurology | Scheie syndrome（減弱型 MPS I）患者接受酵素替代療法 6.5 年追蹤，記錄骨骼、肝脾及關節活動度變化 |
-| [18758061](https://pubmed.ncbi.nlm.nih.gov/18758061/) | 2008 | In vitro mechanistic study | Biological & Pharmaceutical Bulletin | 證實 laronidase 主要經由 mannose-6-phosphate 受體被 MPS I 患者纖維母細胞與成骨細胞攝取並運送至溶酶體 |
+| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Review（藥物專論） | BioDrugs | 介紹 Laronidase 作為 MPS I 酵素replacement療法的開發歷程，已獲美國與歐洲孤兒藥資格 |
+| [25345091](https://pubmed.ncbi.nlm.nih.gov/25345091/) | 2014 | Review | Pediatric Endocrinology Reviews | 說明 MPS I 因 α-L-艾杜糖醛酸酶缺乏導致 GAG 堆積，涵蓋 Hurler、Scheie 等表型與診斷 |
+| [23127271](https://pubmed.ncbi.nlm.nih.gov/23127271/) | 2012 | Case report | Pediatric Neurology | Scheie 症候群男童接受 6.5 年酵素replacement療法，追蹤後整體狀況下降、疾病仍進展 |
+| [18758061](https://pubmed.ncbi.nlm.nih.gov/18758061/) | 2008 | 體外／前臨床 | Biological & Pharmaceutical Bulletin | Laronidase 主要經甘露糖-6-磷酸受體被纖維母細胞與成骨細胞攝取，並運送到溶小體 |
+
+---
+
+## 香港上市資訊
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-56438 | ALDURAZYME CONC. SOLUTION FOR IV INFUSION 2.9MG/5ML（藥商：SANOFI HONG KONG LIMITED） | 靜脈輸注濃縮液（依品名） | 許可證資料未載明 |
 
 ---
 
@@ -84,23 +90,24 @@ TxGNN 預測的「具骨骼侵犯之溶酶体贮積症」實質上是 MPS I（Hu
 
 安全性資訊請參考原廠仿單。
 
-> 註：香港仿單警語與禁忌症資料目前為 Blocking 等級缺口（無法進入 S1 安全性初評），需先取得原廠/藥監局仿單後才能完成安全性評估。
-
 ---
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**（僅限確認既有適應症之機轉關聯，非新適應症拓展）
+**決策：Hold**
 
 **理由：**
-- 預測結果本質上是 TxGNN 對藥物已知核心適應症（MPS I）的機轉確認，證據等級 L3，但缺乏對照試驗與正式安全性資料。
-- Laronidase 香港未上市（0 張許可證），且仿單警語/禁忌症資料缺失（Blocking），無法完成基本安全性初評。
-- 第二候選 Sanfilippo syndrome 機轉不成立，判定為 Hold，不建議投入資源。
+- 這個預測沒有任何臨床試驗支持，文獻也只有兩篇綜述、一篇體外研究和一篇個案報告，對此分類都只是間接證據。
+- 預測很可能只是 MPS I 既有適應症的重新歸類。香港核准適應症與仿單安全資料也都缺漏，目前無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得 TFDA/香港仿單警語與禁忌症資料，完成 S1 安全性初評（Blocking 缺口）
-- 補齊 DrugBank 正式 MOA 資料
-- 釐清「具骨骼侵犯之溶酶体贮積症」與現行 MPS I 適應症之邊界，確認是否具備獨立於既有適應症的臨床開發價值
+- 下載並解析香港衛生署核准仿單，確認正式適應症、警語與禁忌症，判斷這是否真的超出現有 MPS I 適應症。
+- 補齊 DrugBank 的作用機轉資料。
+- 找出骨骼病變的專屬療效指標，例如影像或關節活動度數據。
+
+**補充：** 同一份資料中的第二個預測「Sanfilippo 症候群 (MPS III)」（TxGNN 分數 99.22%，證據等級 L4）同樣建議 **Hold**。MPS III 缺乏的是不同的酵素，Laronidase 無法補上，且靜脈酵素無法有效穿越血腦屏障，而 MPS III 以神經症狀為主。現有文獻全部是 MPS I 研究，機轉依據薄弱。
+
+*本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

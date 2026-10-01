@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Medroxyprogesterone Acetate
-parent: 高證據等級 (L1-L2)
-nav_order: 477
-evidence_level: L2
+parent: 僅模型預測 (L5)
+nav_order: 547
+evidence_level: L5
 indication_count: 5
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,108 +29,110 @@ indication_count: 5
 
 </div>
 
-# MEDROXYPROGESTERONE ACETATE：從避孕／荷爾蒙相關用途到繼發性閉經（Amenorrhea）評估
+# Medroxyprogesterone Acetate：從（原適應症資料缺漏）到閉經（Amenorrhea）
 
 ## 一句話總結
 
-MEDROXYPROGESTERONE ACETATE (MPA) 是一種合成黃體素（孕激素受體促效劑），臨床上長期作為避孕（如 Depo-Provera）與荷爾蒙補充治療的成分。TxGNN 模型預測它可能對**繼發性閉經 (Amenorrhea)** 有效，目前有 **10 個臨床試驗**和 **20 篇文獻**與此主題相關，但多數證據描述的是「MPA 誘發閉經」（避孕副作用／孕激素撤退試驗），而非「MPA 治療閉經」的直接療效終點，證據方向需進一步釐清。
-
----
+Medroxyprogesterone acetate（MPA）是一種合成黃體素，在香港已有多款口服與注射製劑上市，但本次資料未提供原適應症。
+TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，
+目前有 **9 個臨床試驗**和 **20 篇文獻**列於此方向，但多數為間接證據。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無許可證核准紀錄（當地未上市）；國際上慣用於避孕、荷爾蒙補充治療 |
-| 預測新適應症 | 繼發性閉經 (Amenorrhea) |
-| TxGNN 預測分數 | 99.9994% |
-| 證據等級 | L2 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Hold |
+| 原適應症 | 資料未提供 |
+| 預測新適應症 | 閉經 (Amenorrhea) |
+| TxGNN 預測分數 | 99.99% |
+| 證據等級 | L2（系統評分；見下方說明） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 10 張 |
+| 建議決策 | Proceed with Guardrails |
 
----
+> 證據等級說明：清單中僅 NCT02449161 為 Phase 3 RCT，且已提前終止、且以閉經為誘導結果而非治療目標。依本報告的 L1–L5 規則（需已完成的 Phase 2/3 RCT），嚴格來說此預測沒有直接支持的已完成 RCT，實際證據較接近 L3。沿用系統評分 L2 僅供參考，請審閱者留意。
 
 ## 為什麼這個預測合理？
 
-目前缺乏 DrugBank 詳細的作用機轉資料（Data Gap）。根據試驗與文獻證據可以推論：MPA 為合成黃體素，其藥理作用是活化孕激素受體，長期給藥（尤其是肌肉注射劑型 DMPA）會抑制下視丘－腦下垂體－卵巢軸（HPO axis），並造成子宮內膜萎縮，臨床上早已知悉這會誘發閉經——這正是 DMPA 作為避孕藥時常見的副作用。
+目前缺乏詳細的作用機轉資料。根據已知資訊，MPA 是合成黃體素（progestin），
+可使經雌激素刺激的子宮內膜轉為分泌期，並抑制內膜增生；停藥後會引發撤退性出血。
+這些作用與月經週期相關的療效指標直接相關。
 
-同時，MPA 也被廣泛用於「孕激素撤退試驗（progestin withdrawal test）」，作為鑑別次發性閉經病因的標準診斷／治療工具之一，也用於術後子宮內膜萎縮誘導（例如子宮內膜消融術後）。這是 MPA 與「閉經」這個適應症在機轉與臨床實務上最直接的連結，也支持 TxGNN 模型將兩者關聯起來的合理性。
-
-然而必須特別指出一個重要區辨：資料庫中大部分證據描述的是 MPA「造成」閉經（避孕情境），而非以 MPA 主動「治療」閉經作為主要療效終點的直接證據。唯一直接評估此議題的 Phase 3 RCT（NCT02449161，子宮內膜消融術後 MPA 對閉經率之影響）已提前終止（TERMINATED），終止原因尚待查明，這使得預測合理性存在但證據強度有限。
-
----
+需要特別注意：次發性閉經是 MPA 廣為人知的仿單適應症，
+因此這個預測可能不算真正的「老藥新用」。
+在把它視為新適應症之前，應先核對香港仿單的核准範圍。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT02449161](https://clinicaltrials.gov/study/NCT02449161) | Phase 3 | 已終止 | 60 | 子宮內膜消融術後 MPA 對閉經率影響之 RCT，已提前終止，原因待查 |
-| [NCT03309176](https://clinicaltrials.gov/study/NCT03309176) | Phase 4 | 已完成 | 42 | 評估 Clomiphene 誘導排卵前是否需孕激素撤退性出血 |
-| [NCT07020429](https://clinicaltrials.gov/study/NCT07020429) | NA | 尚未招募 | 276 | 中藥複方（Huanjingjian 湯劑）治療卵巢早衰之 RCT，非以 MPA 為介入藥物 |
-| [NCT06671548](https://clinicaltrials.gov/study/NCT06671548) | Phase 3 | 招募中 | 120 | Relugolix 治療子宮肌瘤相關經血過多，非以 MPA 為介入藥物 |
-| [NCT00392093](https://clinicaltrials.gov/study/NCT00392093) | Phase 4 | 已完成 | 108 | HRT 對停經期／停經後 SLE 婦女疾病活動度、停經症狀與骨密度之影響 |
-| [NCT02792153](https://clinicaltrials.gov/study/NCT02792153) | Phase 1 | 已撤回 (0人) | 0 | 雌二醇對厭食症患者食物恐懼消退之研究，非以 MPA 為介入藥物 |
-| [NCT01463202](https://clinicaltrials.gov/study/NCT01463202) | Phase 4 | 已完成 | 184 | 產後 DMPA 給藥時機對哺乳持續性、避孕持續性與產後憂鬱之影響 |
-| [NCT03018366](https://clinicaltrials.gov/study/NCT03018366) | Phase 2 | 已完成 | 29 | 功能性下視丘性閉經（低雌激素狀態）與心血管疾病風險因子之相關性研究 |
-| [NCT01300676](https://clinicaltrials.gov/study/NCT01300676) | Phase 2/3 | 已完成 | 79 | Tualang 蜂蜜與 HRT 對停經後婦女安全性影響之比較 |
-| [NCT00808132](https://clinicaltrials.gov/study/NCT00808132) | Phase 3 | 已完成 | 1886 | Bazedoxifene/結合雌激素組合對子宮內膜增生與骨質疏鬆預防之療效安全性大型 RCT |
-
----
+| [NCT02449161](https://clinicaltrials.gov/study/NCT02449161) | Phase 3 | 提前終止 | 60 | 子宮內膜消融術後使用 MPA 對內膜閉經率的影響；閉經是誘導結果，非治療目標 |
+| [NCT03309176](https://clinicaltrials.gov/study/NCT03309176) | Phase 4 | 完成 | 42 | 寡經或閉經女性在 clomiphene 排卵誘導前，是否需要黃體素引發撤退性出血 |
+| [NCT03018366](https://clinicaltrials.gov/study/NCT03018366) | Phase 2 | 完成 | 29 | 功能性下視丘閉經的年輕女性心血管風險因子；閉經非主要終點 |
+| [NCT01463202](https://clinicaltrials.gov/study/NCT01463202) | Phase 4 | 完成 | 184 | 產後施打 DMPA 的時機對哺乳與避孕持續率的影響；閉經僅為副作用 |
+| [NCT00808132](https://clinicaltrials.gov/study/NCT00808132) | Phase 3 | 完成 | 1886 | Bazedoxifene/結合型雌激素對子宮內膜增生與骨質疏鬆的影響；與閉經關聯間接 |
+| [NCT06671548](https://clinicaltrials.gov/study/NCT06671548) | Phase 3 | 招募中 | 120 | Relugolix 用於子宮肌瘤相關月經過多；與 MPA 及閉經的關聯無法確認 |
+| [NCT00392093](https://clinicaltrials.gov/study/NCT00392093) | Phase 4 | 完成 | 108 | 荷爾蒙補充治療對停經前後紅斑性狼瘡女性的疾病活動度影響；間接相關 |
+| [NCT01300676](https://clinicaltrials.gov/study/NCT01300676) | Phase 2/3 | 完成 | 79 | Tualang 蜂蜜與 HRT 對停經後女性安全性指標的影響；與閉經無關 |
+| [NCT07020429](https://clinicaltrials.gov/study/NCT07020429) | NA | 尚未招募 | 276 | 中藥方劑用於卵巢早衰；MPA 可能為對照組，尚無結果 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [9554247](https://pubmed.ncbi.nlm.nih.gov/9554247/) | 1998 | RCT | Contraception | 100 名 DMPA 誘發閉經婦女隨機分派改用 Cyclofem 或持續 DMPA，比較陰道出血恢復情形 |
-| [38530848](https://pubmed.ncbi.nlm.nih.gov/38530848/) | 2024 | Cohort (RCT衍生分析) | PLoS One | DMPA-IM 與 NET-EN 對雌二醇濃度、經期與心理行為指標之比較（WHICH 試驗） |
-| [842303](https://pubmed.ncbi.nlm.nih.gov/842303/) | 1977 | 比較研究 | Acta Obstet Gynecol Scand | MPA 誘發閉經婦女之子宮內膜組織學與 MPA/雌二醇/FSH/LH 濃度分析，並與次發性閉經婦女比較 |
-| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | 系統性回顧 (Cochrane) | Cochrane Database Syst Rev | 複方注射避孕藥（含 MPA 類）之療效與可接受度系統性回顧 |
-| [8725701](https://pubmed.ncbi.nlm.nih.gov/8725701/) | 1996 | Review | J Reprod Med | DMPA 使用者的諮詢重點與副作用（含閉經）處置建議 |
-| [6119259](https://pubmed.ncbi.nlm.nih.gov/6119259/) | 1981 | Review | Int J Gynaecol Obstet | 產後避孕方法選擇與產後閉經期之考量 |
-| [8492647](https://pubmed.ncbi.nlm.nih.gov/8492647/) | 1993 | Review | MCN Am J Matern Child Nurs | Depo-Provera 臨床應用綜述 |
-| [6454820](https://pubmed.ncbi.nlm.nih.gov/6454820/) | 1981 | Review | Med J Aust | 注射型避孕藥物綜述 |
-| [12222332](https://pubmed.ncbi.nlm.nih.gov/12222332/) | 1991 | Review | Entre Nous | 每月一次雌激素/黃體素複方注射劑綜述 |
-| [1604074](https://pubmed.ncbi.nlm.nih.gov/1604074/) | 1992 | Review | Rev Med Liege | 荷爾蒙避孕法綜述 |
+| [9554247](https://pubmed.ncbi.nlm.nih.gov/9554247/) | 1998 | 隨機試驗 | Contraception | 100 位 DMPA 引起閉經的女性，改用 Cyclofem 後 6 個月內 82% 恢復出血，繼續 DMPA 者僅 10% |
+| [38530848](https://pubmed.ncbi.nlm.nih.gov/38530848/) | 2024 | RCT（系統歸類為 Cohort） | PLoS One | WHICH 試驗：比較 DMPA-IM 與 NET-EN 對雌二醇與月經型態的影響 |
+| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | 系統性回顧 | Cochrane Database Syst Rev | 複合注射式避孕藥的效果與出血型態改變 |
+| [842303](https://pubmed.ncbi.nlm.nih.gov/842303/) | 1977 | 臨床研究 | Acta Obstet Gynecol Scand | 比較 MPA 引起的閉經與次發性閉經女性的內膜組織學與荷爾蒙濃度 |
+| [8725701](https://pubmed.ncbi.nlm.nih.gov/8725701/) | 1996 | Review | J Reprod Med | DMPA 避孕的諮詢與副作用處理 |
+| [6119259](https://pubmed.ncbi.nlm.nih.gov/6119259/) | 1981 | Review | Int J Gynaecol Obstet | 產後避孕的時機與方法選擇 |
+| [6141923](https://pubmed.ncbi.nlm.nih.gov/6141923/) | 1984 | Review | Drug Intell Clin Pharm | 藥物引起的不孕症 |
+| [8829701](https://pubmed.ncbi.nlm.nih.gov/8829701/) | 1996 | Review | Int J Fertil Menopausal Stud | 長效避孕方法的比較 |
+| [120837](https://pubmed.ncbi.nlm.nih.gov/120837/) | 1979 | Review | IARC Monographs | MPA 的致癌風險評估 |
+| [5935707](https://pubmed.ncbi.nlm.nih.gov/5935707/) | 1966 | 臨床報告 | Am J Obstet Gynecol | 孕期使用 MPA 後的長期婦科與內分泌表現 |
 
----
+## 香港上市資訊
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-00488 | PROVERA TAB 100 MG | — | 資料未提供 |
+| HK-67226 | MEDWIN SUSPENSION FOR INJECTION IN PRE-FILLED SYRINGE 150MG/1ML | 注射懸液（預充填注射器） | 資料未提供 |
+| HK-00445 | PROVERA TAB 5 MG | — | 資料未提供 |
+| HK-43794 | DEPO-PROVERA CONTRACEPTIVE INJ 150MG/ML | 注射劑 | 資料未提供 |
+| HK-54973 | APO-MEDROXY TAB 5MG | — | 資料未提供 |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
-> 註：本次資料收集無法取得仿單警語與禁忌症資料（Blocking Data Gap），此為推進本候選適應症前必須優先補齊的項目。
+另外，本次資料未取得香港衛生署仿單的警語與禁忌，且藥物交互作用查詢無結果，
+因此尚無法進行安全性初篩。
 
----
+## 其他預測適應症
 
-## 其他預測候選適應症（低優先，僅供參考）
-
-除繼發性閉經外，本次模型另預測 4 個候選適應症，但證據強度明顯較弱：
-
-| 排名 | 疾病 | TxGNN 分數 | 證據等級 | 建議 |
-|------|------|-----------|---------|------|
-| 2 | 乳腺纖維囊性病 (Breast fibrocystic disease) | 99.95% | L3 | Research Question（僅1980年代小型治療性試驗，無現代RCT） |
-| 3 | 良性乳腺增生 (Benign mammary dysplasia) | 99.92% | L4 | Hold（專屬文獻僅3篇，與排名2高度重疊） |
-| 4 | 子宮頸子宮內膜異位 (Cervix endometriosis) | 99.92% | L4 | Hold（無直接針對此亞型的治療證據） |
-| 5 | 皮膚疤痕子宮內膜異位 (Endometriosis in cutaneous scar) | 99.92% | L5 | Hold（無臨床試驗、無文獻，純機轉外推） |
-
----
+| 排名 | 疾病 | TxGNN 分數 | 證據等級 | 建議 | 重點 |
+|------|------|-----------|---------|------|------|
+| 2 | 乳房纖維囊腫 (Breast fibrocystic disease) | 99.95% | L3 | 研究問題 | 有小型臨床研究（如 Depo-Provera 治療乳腺病），但 HRT 研究顯示含黃體素方案可能增加乳房密度與上皮增生，作用方向不明，需排除乳房安全疑慮 |
+| 3 | 良性乳腺發育不良 (Benign mammary dysplasia) | 99.92% | L4 | Hold | 與上一項本質相近，僅一篇直接相關的人體研究，其餘為犬類組織學與機轉論文，建議與纖維囊腫合併處理 |
+| 4 | 子宮頸子宮內膜異位 (Cervix endometriosis) | 99.92% | L4 | Hold | 僅有病例報告、動物研究與一般性回顧，無子宮頸專屬的療效資料 |
+| 5 | 皮膚疤痕子宮內膜異位 (Endometriosis in cutaneous scar) | 99.92% | L5 | Hold | 僅有模型預測，無試驗與文獻；標準處置為手術切除 |
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：Proceed with Guardrails**
 
 **理由：**
-- 本藥物在當地尚未上市（0 張許可證），且仿單警語／禁忌症資料缺失屬 Blocking 等級資料缺口，無法完成 S1 安全性初評。
-- 頂尖候選適應症「繼發性閉經」雖有 Phase 3/4 試驗與 Cochrane 回顧支持（評為 L2），但唯一直接對應本適應症的 Phase 3 RCT 已提前終止，且多數證據描述的是「MPA 誘發閉經」而非「MPA 治療閉經」的療效終點，證據方向尚待釐清。
-- 其餘 4 個候選適應症證據等級落在 L3–L5，證據明顯不足，暫不建議推進。
+MPA 的作用（分泌期轉化、撤退性出血）與閉經相關的月經週期終點有合理的機轉關聯，且有數個 Phase 2–4 試驗。
+但直接證據薄弱：唯一的 Phase 3 RCT 已提前終止且非以治療閉經為目標，
+而且次發性閉經可能本來就是 MPA 的既有適應症，故此案未必屬於真正的老藥新用。
 
 **若要推進需要：**
-- 補齊當地衛生主管機關（或原廠）仿單之警語與禁忌症資料（解除 Blocking gap）
-- 向 DrugBank 或原廠取得完整作用機轉（MOA）資料
-- 查明 NCT02449161 提前終止之原因，評估是否有後續或替代試驗
-- 若確立推進，需另行設計或尋找以「MPA 治療閉經」為主要療效終點的前瞻性研究
-- 評估當地上市／引進之法規可行性（目前完全未上市）
+- 取得香港衛生署仿單，確認核准適應症（是否已含閉經）、警語與禁忌
+- 補齊 MPA 的作用機轉資料（DrugBank）
+- 針對閉經（原發性 / 次發性 / 功能性下視丘）分型，尋找以治療閉經為主要終點的直接證據
+- 補完藥物交互作用查詢，並依仿單建立安全性監測計畫
+- 乳房相關預測（排名 2–3）需先排除乳房安全疑慮，再決定是否推進
+
+> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

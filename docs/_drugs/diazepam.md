@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Diazepam
-parent: 高證據等級 (L1-L2)
-nav_order: 231
-evidence_level: L1
+parent: 僅模型預測 (L5)
+nav_order: 267
+evidence_level: L5
 indication_count: 10
 ---
 
 # Diazepam
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,103 @@ indication_count: 10
 
 </div>
 
-# Diazepam：從焦慮症到失眠
+# Diazepam：從原適應症（資料未提供）到失眠
 
 ## 一句話總結
 
-Diazepam（安定/Valium）是廣泛使用的苯二氮平類藥物，國際上已核准用於焦慮症、肌肉痙攣及癲癇等適應症，惟香港目前並無正式上市許可。TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，目前有 **24 個臨床試驗**和 **18 篇文獻**支持這個方向。需注意長期使用存在耐受性、依賴性及認知損害等顯著安全疑慮。
-
----
+Diazepam 是苯二氮平類（benzodiazepine）藥物，在香港有 20 張許可證。本次提供的資料未載明其原適應症。
+TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，但目前的 20 個試驗與 15 篇文獻，**沒有任何一項直接檢驗 diazepam 治療失眠的療效**。多數證據談的是安眠藥停藥、依賴與風險，屬於安全性背景。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 焦慮症、肌肉痙攣、癲癇（國際核准用途；香港無核准許可證） |
 | 預測新適應症 | 失眠 (Insomnia) |
-| TxGNN 預測分數 | 99.99% |
-| 證據等級 | L1 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
-| 建議決策 | Proceed with Guardrails |
-
----
+| TxGNN 預測分數 | 99.9997% |
+| 證據等級 | L3（僅有綜述與觀察性研究，無 diazepam 治療失眠的已完成 RCT） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-Diazepam 是 GABA-A 受體的**正性變構調節劑（Positive Allosteric Modulator, PAM）**。它與 GABA-A 受體上的苯二氮平結合位點作用，增強氯離子通道的開放頻率，強化 GABAergic 抑制傳導，從而產生鎮靜催眠、抗焦慮及肌肉鬆弛等效果。
+Diazepam 是 GABA-A 受體的正向異位調節劑（PAM）。它增強抑制性神經傳導，理論上可帶來鎮靜並縮短入睡時間，這是模型預測合理的機轉基礎。不過本次資料缺少 DrugBank 的作用機轉欄位，以上是依預測理由推論，並非原廠資料。
 
-失眠的核心問題在於睡眠啟動困難（sleep-onset insomnia）及睡眠維持困難（sleep-maintenance insomnia）。Diazepam 透過增強中樞神經抑制傳導，可直接縮短入睡潛伏期並延長睡眠持續時間，藥理機轉上與失眠治療高度契合——1981 年的 RCT 已直接比較 Diazepam 與其他 BZD 類安眠藥在失眠患者中的療效（PMID 6113175）。
+苯二氮平類藥物早已用於失眠，例如 1981 年有一項雙盲研究比較 lormetazepam 與 diazepam 用於 100 位失眠門診病人。但 TxGNN 分數只是圖譜關聯，不等於臨床證據。原適應症資料缺漏，也無法確認這個預測與現有核准適應症的重疊程度。
 
-然而，現有大量文獻揭示 Diazepam 長期用於失眠的重大限制：耐受性（efficacy diminishes over time）、生理及心理依賴性，以及認知損害風險——研究顯示長期使用可透過粒線體 18kDa 轉位蛋白（TSPO）途徑增強微膠細胞突觸吞噬，導致持久性認知功能下降（PMID 35228700）。現代臨床指引已明確建議以認知行為療法（CBTI）及選擇性更強的新型藥物（如雙 orexin 受體拮抗劑）取代傳統苯二氮平類藥物作為慢性失眠的第一線治療。
-
----
+另一項限制是安全性。長期使用會有耐受、依賴、次日功能受損與戒斷問題。臨床試驗中最多的正是安眠藥減量與停藥研究，也反映了這些風險。
 
 ## 臨床試驗證據
 
+以下試驗都不是在檢驗 diazepam 治療失眠的療效，主要與安眠藥或苯二氮平類的停藥、依賴及風險有關。
+
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT02831894](https://clinicaltrials.gov/study/NCT02831894) | Phase 2 | 完成 | 74 | 評估 BZD（含 Diazepam）漸進減藥速率與個體特質的交互作用，確認失眠族群的 BZD 高度依賴現象 |
-| [NCT04050176](https://clinicaltrials.gov/study/NCT04050176) | Phase 3 | 進行中（停止招募） | 260 | 評估盲化漸進減藥合併 CBTI 對催眠藥（含 BZD）依賴失眠患者的戒斷效果，RCT 設計 |
-| [NCT03461042](https://clinicaltrials.gov/study/NCT03461042) | Phase 4 | 完成 | 17 | 雙盲安慰劑對照試驗，評估 Ramelteon 輔助慢性失眠患者 BZD 減藥的效果 |
-| [NCT02648776](https://clinicaltrials.gov/study/NCT02648776) | 觀察性 | 未知 | 1,400 | 台灣前瞻性研究，評估老年失眠患者使用催眠藥（含 Diazepam）之風險效益及藥物動力學特性 |
-| [NCT03687086](https://clinicaltrials.gov/study/NCT03687086) | 非干預性 | 完成 | 188 | 老年族群催眠藥減藥介入研究，評估新型機制促進長期停用催眠藥的可行性 |
-| [NCT04751851](https://clinicaltrials.gov/study/NCT04751851) | 非干預性 | 完成 | 128 | 評估接受與承諾療法（ACT）合併減藥計畫對 BZD 依賴失眠患者的戒斷效果，遠距心理治療介入 |
-| [NCT04364321](https://clinicaltrials.gov/study/NCT04364321) | 非分期 | 未知 | 74 | 直接比較單次 Clonazepam 與間歇性口服 Diazepam 預防兒童反覆發燒性痙攣，佐證 Diazepam 之 CNS 抑制效果 |
-| [NCT02530580](https://clinicaltrials.gov/study/NCT02530580) | Phase 1 | 完成 | 12 | 評估選擇性 GABA 調節劑（以 Diazepam 為陽性對照），直接確認 BZD 類藥物在失眠相關神經調節的作用機轉 |
-| [NCT07417813](https://clinicaltrials.gov/study/NCT07417813) | 觀察性 | 招募中 | 121 | 評估新型雙 orexin 受體拮抗劑 Lemborexant 取代 BZD（含 Diazepam）治療精神疾病合併失眠的效果 |
-| [NCT02281175](https://clinicaltrials.gov/study/NCT02281175) | 非干預性 | 完成 | 114 | 評估針對老年 BZD 使用者的心理社會介入計畫（PASSE-65+）促進漸進減藥之效果，BZD 依賴失眠直接相關 |
-
----
+| [NCT02831894](https://clinicaltrials.gov/study/NCT02831894) | Phase 2 | 完成 | 74 | 探討減量速度與個人特質對失眠患者停用安眠藥的影響 |
+| [NCT04050176](https://clinicaltrials.gov/study/NCT04050176) | Phase 3 | 進行中（不再招募） | 260 | 盲法減量加 CBT-I 對比開放標籤減量，評估停藥率 |
+| [NCT02648776](https://clinicaltrials.gov/study/NCT02648776) | 觀察性 | 未知 | 1400 | 台灣老年人安眠藥的風險與效益世代研究 |
+| [NCT03687086](https://clinicaltrials.gov/study/NCT03687086) | N/A | 完成 | 188 | 以非藥物策略協助老年人停用安眠藥 |
+| [NCT04751851](https://clinicaltrials.gov/study/NCT04751851) | N/A | 完成 | 128 | 遠距接受與承諾治療（ACT）對苯二氮平戒斷的效果 |
+| [NCT03461042](https://clinicaltrials.gov/study/NCT03461042) | Phase 4 | 完成 | 17 | 以 ramelteon 輔助苯二氮平類與非苯二氮平類安眠藥減量，樣本極小 |
+| [NCT05935553](https://clinicaltrials.gov/study/NCT05935553) | Phase 2/3 | 招募中 | 93 | 以 baclofen 輔助苯二氮平依賴者減量 |
+| [NCT01893632](https://clinicaltrials.gov/study/NCT01893632) | Phase 2 | 提前終止 | 2 | Gabapentin 治療苯二氮平依賴，僅收 2 人 |
+| [NCT02281175](https://clinicaltrials.gov/study/NCT02281175) | N/A | 完成 | 114 | PASSE-65+ 心理社會介入，協助老年人逐步減用苯二氮平 |
+| [NCT04364321](https://clinicaltrials.gov/study/NCT04364321) | N/A | 未知 | 74 | Clonazepam 單劑對比間歇性 diazepam 預防復發性熱性痙攣（適應症不同） |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [6113175](https://pubmed.ncbi.nlm.nih.gov/6113175/) | 1981 | RCT | J Int Med Res | 100 名失眠患者雙盲試驗：Lormetazepam 1mg vs **Diazepam 5mg**，Lormetazepam 在縮短入睡時間及延長睡眠持續時間均優於 Diazepam（p<0.05） |
-| [39374004](https://pubmed.ncbi.nlm.nih.gov/39374004/) | 2024 | RCT | JAMA Intern Med | 盲化 BZD 漸進減藥合併 CBTI 之 RCT，揭示安慰劑效應在 BZD 減藥過程中的重要角色，支持 CBTI 優先於 BZD 的治療策略 |
-| [40570297](https://pubmed.ncbi.nlm.nih.gov/40570297/) | 2025 | 世代研究 | Sleep | 慢性 BZD/BZRA 使用破壞老年失眠患者的睡眠巨觀架構及 NREM 慢波振盪－睡眠紡錘波耦合，損害記憶鞏固功能 |
-| [39581171](https://pubmed.ncbi.nlm.nih.gov/39581171/) | 2024 | Review | Bioorg Chem | GABA-A 受體小分子調節劑（含 Diazepam）在失眠、癲癇、焦慮等神經系統疾病的臨床應用及安全性綜述 |
-| [35228700](https://pubmed.ncbi.nlm.nih.gov/35228700/) | 2022 | 基礎/轉譯 | Nature Neurosci | 長期 Diazepam 使用透過 TSPO 途徑增強微膠細胞突觸吞噬，損害樹突棘結構可塑性，導致持久性認知損害 |
-| [7595266](https://pubmed.ncbi.nlm.nih.gov/7595266/) | 1995 | Review | J Fam Pract | 系統性回顧老年社區失眠者使用 BZD 之效益與風險：短期有效，但跌倒、骨折風險顯著增加，不建議長期使用 |
-| [7525193](https://pubmed.ncbi.nlm.nih.gov/7525193/) | 1994 | 臨床指引 | Drugs | BZD 合理使用指南：失眠以短期或間歇性使用為原則；Diazepam 屬長效型，老年人易有藥物蓄積問題 |
-| [6135990](https://pubmed.ncbi.nlm.nih.gov/6135990/) | 1983 | Review | NEJM | 苯二氮平類藥物現狀之 NEJM 經典綜述，確立 BZD（含 Diazepam）在失眠及焦慮治療中的地位與限制 |
-| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Meta-analysis | Acta Pharm Zagreb | 評估不同鎮靜安眠藥物在老年慢性病患者的效果與不良反應，提供安全可接受的最適劑量依據 |
-| [40921193](https://pubmed.ncbi.nlm.nih.gov/40921193/) | 2025 | 世代研究 | Neuropsychopharm Rep | 睡眠藥物處方集實施後 BZD 用藥模式改變：BZD 使用量下降，新型藥物取代 Diazepam 的臨床成效分析 |
+| [6113175](https://pubmed.ncbi.nlm.nih.gov/6113175/) | 1981 | 雙盲比較試驗 | J Int Med Res | 100 位失眠門診病人，lormetazepam 1 mg 在入睡時間等指標優於 diazepam 5 mg（7 天） |
+| [39374004](https://pubmed.ncbi.nlm.nih.gov/39374004/) | 2024 | RCT（依標題判斷，設計未確認） | JAMA Intern Med | 遮蔽式減量加行為介入，用於停用苯二氮平受體促效劑類安眠藥 |
+| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | 統合分析 | Acta Pharm | 評估鎮靜藥用於老年慢性病患者的劑量、結果與不良反應 |
+| [39581171](https://pubmed.ncbi.nlm.nih.gov/39581171/) | 2024 | Review | Bioorg Chem | GABA-A 受體調節劑的臨床應用，diazepam 為代表性正向異位調節劑，並伴隨鎮靜等副作用 |
+| [7595266](https://pubmed.ncbi.nlm.nih.gov/7595266/) | 1995 | 系統性回顧 | J Fam Pract | 社區老年人使用苯二氮平治療失眠的效益與風險，缺乏長期療效研究 |
+| [7525193](https://pubmed.ncbi.nlm.nih.gov/7525193/) | 1994 | Review（指引） | Drugs | 苯二氮平合理使用指引，作為安眠藥只建議短期使用 |
+| [40570297](https://pubmed.ncbi.nlm.nih.gov/40570297/) | 2025 | 世代研究 | Sleep | 長期使用苯二氮平類影響老年慢性失眠者的睡眠結構與腦波 |
+| [40583063](https://pubmed.ncbi.nlm.nih.gov/40583063/) | 2025 | 臨床證據加機轉研究 | Cell Mol Biol Lett | 長期使用苯二氮平類及 Z-drugs 與乳癌風險上升有關 |
+| [35228700](https://pubmed.ncbi.nlm.nih.gov/35228700/) | 2022 | 前臨床（動物） | Nat Neurosci | 長期 diazepam 經 TSPO 增強微膠細胞吞噬突觸，造成小鼠認知受損 |
+| [6114852](https://pubmed.ncbi.nlm.nih.gov/6114852/) | 1981 | Review | Drugs | Triazolam 用於失眠的藥理與療效（非 diazepam，可作類別參考） |
 
----
+## 香港上市資訊
+
+香港共登記 20 張許可證，以下列出 5 張。資料未提供劑型與核准適應症欄位，劑型由品名推斷。
+
+| 許可證號 | 品名 | 劑型（由品名判斷） | 製造商 |
+|---------|------|------|--------|
+| HK-11468 | DIAZEPAM TAB 2MG | 錠劑 | Unicorn Laboratories |
+| HK-32730 | KRATIUM 10 TAB 10MG | 錠劑 | Star Medical Supplies |
+| HK-45358 | DIAZEPAM INJ 5MG/ML | 注射劑 | Luen Cheong Hong |
+| HK-11508 | DIAZEPAM TAB 1MG | 錠劑 | Unicorn Laboratories |
+| HK-38493 | SEDAPAM-5 TAB 5MG | 錠劑 | Synco (H.K.) |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
----
+本次資料缺少香港衛生署仿單的警語與禁忌，藥物交互作用查詢也無結果。從文獻可見的類別風險包括：
+
+- 長期使用可能造成依賴、耐受與戒斷。
+- 長期使用可能造成認知受損，有動物實驗證據（PMID 35228700）。
+- 長期使用可能增加乳癌風險，屬相關性研究（PMID 40583063）。
+- Diazepam 本身有濫用與誤用風險（見「barbiturate abuse」預測項下的文獻）。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-Diazepam 的 GABA-A 受體調節機轉提供充分的藥理學依據，且 RCT 及大型觀察性研究均確認其在失眠治療中的既有使用基礎（證據等級 L1）；然而，現代臨床指引已明確建議以 CBTI 或新型選擇性藥物取代 BZD 作為優先選擇，且香港目前無核准上市許可，進一步推進需先解決監管層面的問題。
+- 沒有任何試驗或文獻直接證明 diazepam 治療失眠的療效，現有證據多是安眠藥停藥與依賴的安全性背景。
+- 仿單警語與禁忌屬於阻斷性資料缺口，尚無法進入安全性篩選。
+- 同一藥物的其他 9 個預測（如 ADHD、cauda equina syndrome 等）機轉連結薄弱，同樣列為 Hold。「失眠」與「sleep disorder, initiating and maintaining sleep」兩項證據高度重疊，不應視為獨立支持。
 
 **若要推進需要：**
-- 評估在香港申請 Diazepam 上市許可的可行性及必要性
-- 取得完整 Diazepam 藥品安全資訊（原廠仿單警語、禁忌症）
-- 明確定義目標適應症範圍：短期／情境性失眠（較具合理性）vs 慢性失眠（安全性疑慮高）
-- 制定長期使用安全監測計畫，包含認知功能評估（MMSE/MoCA）、依賴性篩查及跌倒風險評估
-- 考慮以輔助短期橋接角色定位（配合 CBTI），而非單獨作為慢性失眠長期治療
+- 取得香港衛生署仿單（警語、禁忌、核准適應症），並確認失眠是否已在標示內。
+- 補齊 DrugBank 的原適應症與作用機轉資料。
+- 搜尋並評估 diazepam 對照安慰劑或其他安眠藥的失眠隨機對照試驗，尤其是短期使用的療效與次日功能影響。
+- 擬定針對老年人與長期使用者的依賴、跌倒與認知風險監測與停藥計畫。
+
+*本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

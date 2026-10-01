@@ -2,7 +2,7 @@
 layout: default
 title: Naproxen
 parent: 僅模型預測 (L5)
-nav_order: 514
+nav_order: 598
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,11 +29,12 @@ indication_count: 4
 
 </div>
 
-# Naproxen：從 NSAID 疼痛消炎適應症到罕見骨骼發育症候群
+# Naproxen：從消炎止痛到 Brachydactyly-Syndactyly 症候群
 
 ## 一句話總結
 
-Naproxen 是常見的非類固醇消炎止痛藥（NSAID），原始核准適應症資料目前尚未收集完整。TxGNN 模型將其與 4 個罕見先天性骨骼/發育症候群連結，分數最高的是**肢端骨發育異常—併指症候群 (Brachydactyly-Syndactyly Syndrome)**，但目前**無任何臨床試驗、無文獻**支持，且模型本身提供的機轉推論文字明確指出這些連結**缺乏藥理學基礎**。
+Naproxen 是非類固醇消炎止痛藥（NSAID），透過抑制 COX 酵素減少前列腺素造成的發炎與疼痛。
+TxGNN 模型預測它可能對**短指併指症候群 (Brachydactyly-Syndactyly Syndrome)** 有效，但目前**沒有任何臨床試驗或文獻**支持，也找不到合理的機轉連結，僅屬模型推測。
 
 ---
 
@@ -41,53 +42,62 @@ Naproxen 是常見的非類固醇消炎止痛藥（NSAID），原始核准適應
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料尚未收集（HK 許可證與仿單資料均缺，僅知 Naproxen 為 NSAID 類藥物） |
-| 預測新適應症 | 肢端骨發育異常—併指症候群 (Brachydactyly-Syndactyly Syndrome) |
-| TxGNN 預測分數 | 99.35%（圖譜排名第 10,858 名） |
-| 證據等級 | L5（僅有模型預測，無臨床或文獻證據） |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 預測新適應症 | 短指併指症候群 (Brachydactyly-Syndactyly Syndrome) |
+| TxGNN 預測分數 | 99.35%（全體排名第 10,858） |
+| 證據等級 | L5（僅有模型預測） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-Naproxen 的完整作用機轉（MOA）資料目前缺乏，但根據 Evidence Pack 中各候選項的機轉分析文字，可確認 Naproxen 屬 NSAID 類藥物，機轉為抑制 COX-1/COX-2 以緩解疼痛與發炎。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Naproxen 是非選擇性 COX-1/COX-2 抑制劑，主要作用是降低前列腺素介導的發炎與疼痛。
 
-TxGNN 這次預測的 4 個新適應症，全部是罕見先天性骨骼/眼部發育異常症候群（分別涉及肢端骨形成缺陷、BMP/GDF5 訊號路徑異常、結締組織礦化缺陷等胚胎發育機制）。這些疾病的病理生理與 NSAID 的抗發炎/止痛機轉**沒有已知交集**。
+短指併指症候群是罕見的先天性肢體畸形，成因屬於基因與發育異常。抑制前列腺素合成，預期無法改變這類疾病的病程。
 
-Evidence Pack 提供的 `repurposing_rationale.mechanistic_link` 對每一項都明確標註「無已知機制連結」「僅為圖譜拓樸相似性訊號，非真實藥理機轉」，並直接提示這些高分預測應視為**潛在偽陽性**，而非真正的再利用機會。
+因此，**目前找不到合理的機轉連結**。0.9935 的高分只是知識圖譜的計算結果，缺乏生物學依據與臨床資料支持，不應把高分當成有效的證據。長期使用 NSAID 還有腸胃道、腎臟與心血管風險。
+
+其他三個預測適應症同樣屬於罕見先天性或遺傳性骨骼發育異常，同樣找不到機轉連結，也沒有任何試驗或文獻：
+
+| 排名 | 預測適應症 | TxGNN 分數 |
+|------|-----------|-----------|
+| 2 | 眼缺損小眼畸形-肢根型發育不良症候群 (Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome) | 99.22% |
+| 3 | 肢中節發育不良 Hunter-Thompson 型 (Acromesomelic Dysplasia, Hunter-Thompson Type) | 99.17% |
+| 4 | 短軀幹-牙釉質發育不全症候群 (Brachyolmia-Amelogenesis Imperfecta Syndrome) | 99.06% |
 
 ---
-
-## 其他候選適應症（Rank 2–4，同屬低信心）
-
-| 排名 | 疾病名稱 | TxGNN 分數 | 證據等級 | 機轉關聯 |
-|------|---------|-----------|---------|---------|
-| 2 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.22% | L5 | 無已知關聯 |
-| 3 | Acromesomelic dysplasia, Hunter-Thompson type | 99.17% | L5 | 無已知關聯（GDF5/BMP 路徑） |
-| 4 | Brachyolmia-amelogenesis imperfecta syndrome | 99.06% | L5 | 無已知關聯 |
-
-4 個候選皆無臨床試驗（ClinicalTrials.gov、ICTRP）與文獻（PubMed）檢索結果。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
 目前無相關文獻。
 
+---
+
 ## 香港上市資訊
 
-Naproxen 目前**未在香港上市**，無有效許可證資料可列出。
+Naproxen 在香港共有 20 張許可證，以下列出 5 張：
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-43951 | SOREN TAB 275MG | HEALTHCARE PHARMASCIENCE LIMITED |
+| HK-65797 | NAPROXEN TABLETS 250MG | PRUDENTLINK LIMITED |
+| HK-56618 | SYN-NAPROXEN TAB 250MG | SYNCO (H.K.) LIMITED |
+| HK-68279 | SELADIN TABLETS 250MG | YUNG SHIN CO LTD |
+| HK-44905 | NAPXEN TAB 250MG | APT PHARMA LIMITED |
+
+---
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
-（註：TFDA/HK 仿單警語與禁忌資料為 Blocking 等級缺口，尚未補齊，無法進入安全性初評 S1 階段。）
 
 ---
 
@@ -96,14 +106,16 @@ Naproxen 目前**未在香港上市**，無有效許可證資料可列出。
 **決策：Hold**
 
 **理由：**
-- 4 個預測適應症皆為 L5 證據等級（僅模型分數，無臨床或文獻佐證），且模型自身提供的機轉分析已明確指出與 Naproxen 藥理機轉無關聯，偽陽性風險高。
-- 安全性初評所需的仿單警語/禁忌資料為 Blocking 缺口，目前無法進行下一步評估。
+- 這個預測只有模型分數（L5），沒有任何臨床試驗或文獻，也找不到合理的機轉連結。
+- 目標疾病是基因與發育起源的罕見畸形，COX 抑制無法針對其成因，而長期使用 NSAID 的風險反而確定存在。
 
 **若要推進需要：**
-- 補齊 Naproxen 完整 MOA 資料（DrugBank API）
-- 補齊 TFDA/HK 仿單警語與禁忌症資料，解除 Blocking 缺口
-- 若持續評估此候選，建議先釐清 TxGNN 高分是否為知識圖譜拓樸偽陽性，而非真實藥理訊號
-- 目前 4 項候選皆缺乏臨床/文獻支持，建議暫緩投入資源，待有機轉層級新證據再重啟評估
+- 找出 Naproxen（或 COX/前列腺素路徑）與該疾病之間的生物學關聯，例如相關基因或訊號路徑的機轉研究
+- 前臨床或病例層級的證據，用以支持任何療效假設
+- 補齊香港衛生署仿單的警語與禁忌資料，並完成完整的安全性評估
+- 補充 DrugBank 的作用機轉資料
+
+*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

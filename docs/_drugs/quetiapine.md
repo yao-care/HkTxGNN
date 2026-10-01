@@ -2,7 +2,7 @@
 layout: default
 title: Quetiapine
 parent: 僅模型預測 (L5)
-nav_order: 627
+nav_order: 734
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,33 +29,32 @@ indication_count: 5
 
 </div>
 
-# QUETIAPINE：從精神疾病用藥到視網膜萎縮症合併眼外異常
+# Quetiapine：從精神科用藥到視網膜失養症
 
 ## 一句話總結
 
-Quetiapine（喹硫平）是一種非典型抗精神病藥，目前尚未在香港取得藥品許可證。
-TxGNN 模型預測它可能對**視網膜色素失養症合併/不合併眼外異常 (Retinal Dystrophy with or without Extraocular Anomalies)** 有效，
-但目前**無臨床試驗**、**15 篇文獻中無一篇實際提及 quetiapine**，機轉合理性亦被判定為低。
+Quetiapine 是一種非典型抗精神病藥，在香港已有多張上市許可證。
+TxGNN 模型預測它可能對**視網膜失養症（伴或不伴眼外異常，Retinal Dystrophy）**有效，但目前**沒有任何臨床試驗**，檢索到的 15 篇文獻也都與 quetiapine 無關，證據僅來自模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 未提供（香港未上市；已知為非典型抗精神病藥） |
-| 預測新適應症 | 視網膜色素失養症合併/不合併眼外異常 (Retinal Dystrophy with or without Extraocular Anomalies) |
-| TxGNN 預測分數 | 99.57%（排名第 8077） |
+| 原適應症 | 許可證資料未載明（藥物屬非典型抗精神病藥） |
+| 預測新適應症 | 視網膜失養症，伴或不伴眼外異常 (Retinal Dystrophy) |
+| TxGNN 預測分數 | 99.57% |
 | 證據等級 | L5 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-Quetiapine 的主要藥理機轉為 D2 及 5-HT2A 受體拮抗，作用於中樞神經傳導路徑，臨床上用於精神分裂症、雙相情感障礙等精神疾病。目前缺乏更詳細的作用機轉資料（DrugBank MOA 欄位未提供）。
+目前缺乏詳細的作用機轉資料（DrugBank 欄位未提供）。根據已知資訊，quetiapine 是非典型抗精神病藥，主要作用在 D2 與 5-HT2A 受體拮抗，另有 H1 與 alpha-1 活性。
 
-視網膜色素失養症合併眼外異常屬於**先天性、結構性/遺傳性疾病**，病因多為基因突變導致眼球發育缺陷，與神經傳導物質受體調節在生物學上沒有已知關聯。
+視網膜失養症多為遺傳性疾病，成因是光受體或視網膜色素上皮細胞功能異常。目前沒有受體層級的理由能把 quetiapine 與這類疾病連起來。
 
-進一步檢視支持文獻後發現，15 篇被 PubMed 檢索到的文獻雖與「視網膜/眼外異常」主題相關（眼眶感染、複視、先天性眼瞼下垂、水晶體異常等眼科案例報告與回顧），但**沒有一篇摘要實際提及 quetiapine**。這顯示 TxGNN 給出的高分（0.9957）很可能是知識圖譜中 quetiapine 與其他精神/神經節點連結所產生的雜訊擴散，而非真正的藥理學關聯，證據包本身的機轉分析也持相同結論。
+因此，這個預測的 99.57% 高分只代表知識圖譜上的關聯，**不代表有機轉或臨床依據**。現階段不宜把它視為合理的老藥新用候選。
 
 ## 臨床試驗證據
 
@@ -63,24 +62,32 @@ Quetiapine 的主要藥理機轉為 D2 及 5-HT2A 受體拮抗，作用於中樞
 
 ## 文獻證據
 
-⚠️ 以下文獻經 TxGNN 疾病關鍵字檢索匹配，但**摘要中均未提及 quetiapine**，僅供背景參考，不構成機轉支持證據。
+檢索到的文獻都是一般眼科或眼眶先天異常的主題，標題與摘要均未提及 quetiapine 或任何藥物治療。研究類型皆未能判定，以下列出 10 篇。
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Seminars in Ultrasound, CT, and MR | 眼眶感染之病因與分期回顧，未涉及藥物治療 |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Seminars in Neurology | 複視之臨床評估方法，非藥物介入相關 |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan Journal of Ophthalmology | 先天性水晶體形狀異常之回顧 |
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Documenta Ophthalmologica | Wagner-Stickler 症候群複合體之眼科表現 |
-| [19064847](https://pubmed.ncbi.nlm.nih.gov/19064847/) | 2008 | Review | Archives of Ophthalmology | 眼眶動靜脈畸形之臨床特徵與處置 |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatric Radiology | 小兒眼眶病灶之影像學鑑別診斷 |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Case Report | Klinische Monatsblätter für Augenheilkunde | 先天性眼瞼下垂之分型與治療考量 |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Case Report | American Journal of Ophthalmology | 單側隱眼畸形（cryptophthalmia）病例報告 |
-| [24413161](https://pubmed.ncbi.nlm.nih.gov/24413161/) | 2014 | Case Report | Journal of Neuro-Ophthalmology | 先天性滑車—動眼神經聯帶運動病例 |
-| [19826317](https://pubmed.ncbi.nlm.nih.gov/19826317/) | 2009 | Case Report | Optometry and Vision Science | 先天性眼外肌纖維化合併變異性協同性外展 |
+| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | 未分類 | Taiwan J Ophthalmol | 水晶體形狀的先天異常概述，與 quetiapine 無關 |
+| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | 未分類 | Pediatr Radiol | 兒童眼眶病變的影像鑑別診斷 |
+| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | 未分類 | Int J Mol Sci | 先天性眼外肌纖維化合併視神經盤與視網膜異常 |
+| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | 未分類 | Am J Ophthalmol | 空洞性視神經盤異常相關黃斑病變的致病機轉與處置 |
+| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | 未分類 | J Binocul Vis Ocul Motil | 先天性顱神經失神經支配疾病與眼肌麻痺 |
+| [24413161](https://pubmed.ncbi.nlm.nih.gov/24413161/) | 2014 | 病例報告 | J Neuroophthalmol | 一例先天性滑車神經與動眼神經聯動 |
+| [19826317](https://pubmed.ncbi.nlm.nih.gov/19826317/) | 2009 | 病例報告 | Optom Vis Sci | 一例先天性眼外肌纖維化的協同性外斜 |
+| [19064847](https://pubmed.ncbi.nlm.nih.gov/19064847/) | 2008 | 病例系列 | Arch Ophthalmol | 眼眶動靜脈畸形的臨床特徵與處置 |
+| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | 未分類 | Semin Neurol | 複視的系統性評估方法 |
+| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | 未分類 | Doc Ophthalmol | Wagner-Stickler 症候群的玻璃體視網膜病變 |
 
 ## 香港上市資訊
 
-Quetiapine 目前**未在香港取得藥品許可證**，無上市資料可供列出。
+許可證資料未載明劑型與核准適應症。
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-65854 | QUETIAPINE TABLETS 100MG | 未載明 | 未載明 |
+| HK-58567 | QUETIAPINE-TEVA TAB 25MG | 未載明 | 未載明 |
+| HK-64304 | ACCORD QUETIAPINE EXTENDED RELEASE TABLETS 200MG | 未載明 | 未載明 |
+| HK-65348 | QUESERO EXTENDED RELEASE TABLETS 200MG | 未載明 | 未載明 |
+| HK-52580 | SEROQUEL TAB 300MG | 未載明 | 未載明 |
 
 ## 安全性考量
 
@@ -91,16 +98,21 @@ Quetiapine 目前**未在香港取得藥品許可證**，無上市資料可供�
 **決策：Hold**
 
 **理由：**
-- 證據等級僅 L5（純模型預測），無任何臨床試驗支持，15 篇文獻檢索結果均與 quetiapine 無直接關聯。
-- 預測適應症為先天性結構性疾病，與 quetiapine 已知的受體拮抗機轉缺乏生物學合理性，證據包內部分析亦判定為知識圖譜雜訊可能性高。
-- 藥物在香港尚未上市，缺乏本地安全性與法規資料。
-- 同一評估批次中其餘 4 個候選適應症（醣基化缺陷症、水腦畸形、17p13.3 微缺失症候群、多小腦回症候群）亦均為 L5、無實證支持，建議一併保留（Hold）。
+- 沒有臨床試驗，文獻也與 quetiapine 無關，證據等級只有 L5。
+- 機轉上沒有可說明的連結，高分只來自圖譜預測。
+- 其餘四個預測適應症同樣只有模型分數，沒有試驗或文獻，也都沒有機轉依據：
+  - 岩藻糖化缺陷的先天性糖基化異常
+  - 無腦迴畸形（水腦無腦症）
+  - 17p13.3 遠端微缺失症候群
+  - 多小腦迴畸形合併小腦發育不全與關節攣縮
 
 **若要推進需要：**
-- 補齊 Quetiapine 完整作用機轉（MOA）與 DrugBank 分類資料
-- 取得原廠仿單警語、禁忌症及 DDI 資料
-- 尋找是否有實際將 quetiapine 用於眼科/視網膜疾病的機轉研究或病例報告，以驗證 TxGNN 分數是否具生物學意義
-- 若無法找到機轉層級支持，建議將此預測標記為低優先級雜訊候選
+- 補齊 quetiapine 的作用機轉資料，並分析它與視網膜失養症病理的關聯。
+- 以 quetiapine 與視網膜疾病（含前臨床模型）為關鍵字重新檢索，確認是否有直接證據。
+- 取得香港衛生署仿單，補上警語、禁忌與交互作用資料，才能進入安全性初篩。
+- 若無上述直接證據，不建議繼續投入資源。
+
+> 本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證才能應用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

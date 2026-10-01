@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Itraconazole
-parent: 中證據等級 (L3-L4)
-nav_order: 420
-evidence_level: L4
+parent: 僅模型預測 (L5)
+nav_order: 484
+evidence_level: L5
 indication_count: 1
 ---
 
 # Itraconazole
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ indication_count: 1
 
 </div>
 
-# Itraconazole：從黴菌感染到肺囊蟲病 (Pneumocystosis)
+# Itraconazole：從抗真菌治療到肺囊蟲病 (Pneumocystosis)
 
 ## 一句話總結
 
-Itraconazole 是三唑類抗黴菌藥，原用於全身性黴菌感染的治療與預防。
-TxGNN 模型預測它可能對**肺囊蟲病 (Pneumocystosis)** 有效，
-目前有 **0 個臨床試驗**，僅有 **20 篇文獻**（多為間接相關的伺機性感染文獻）支持，且機轉關聯性存疑。
+Itraconazole 是一種 azole 類抗真菌藥，可抑制真菌的麥角固醇合成。
+TxGNN 模型預測它可能對**肺囊蟲病 (Pneumocystosis)** 有效，但目前**沒有任何臨床試驗**，且**沒有文獻直接證實它對肺囊蟲病有效**。
+19 篇文獻多為同一批免疫低下族群的感染症綜述或個案，機轉上也有疑慮，建議暫緩（Hold）。
 
 ---
 
@@ -43,58 +43,72 @@ TxGNN 模型預測它可能對**肺囊蟲病 (Pneumocystosis)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無正式核准適應症資料；依藥物類別推斷為全身性黴菌感染（三唑類抗黴菌藥） |
 | 預測新適應症 | 肺囊蟲病 (Pneumocystosis) |
-| TxGNN 預測分數 | 99.34%（排名第 11034） |
-| 證據等級 | L4 |
-| 香港上市 | 未上市 |
-| 許可證數 | 0 張 |
+| TxGNN 預測分數 | 99.34% |
+| 證據等級 | L4（僅有機轉層級的間接研究） |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 19 張 |
 | 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-Itraconazole 為三唑類抗黴菌藥，作用機轉是抑制真菌的 CYP51（lanosterol 14α-demethylase），阻斷 ergosterol（麥角固醇）合成，進而破壞真菌細胞膜完整性。
+目前缺乏詳細的作用機轉資料，DrugBank 端的 MOA 欄位尚未取得。根據已知資訊，itraconazole 抑制真菌的 CYP51（lanosterol 14-alpha-demethylase），阻斷麥角固醇合成，用於多種黴菌感染。
 
-然而 *Pneumocystis jirovecii*（引起肺囊蟲病的病原體）在分類上屬於非典型真菌，其細胞膜主要以 cholesterol 構成，幾乎不含 ergosterol。這代表唑類抗黴菌藥的藥理標靶在此病原體上基礎薄弱，機轉關聯性偏低。實際上有文獻（PMID 12606318）指出 *Pneumocystis carinii* 對唑類抗黴菌藥存在天然抗性。
+**這個預測的機轉基礎薄弱。**
+- 肺囊蟲 (*Pneumocystis jirovecii*) 的細胞膜幾乎不含麥角固醇，主要依賴膽固醇等其他固醇，azole 類藥物的作用標的因此存疑。
+- 2003 年一項研究選殖了 *P. carinii* 的 Erg11 基因，發現該菌對 azole 類藥物天生抗藥，部分潛在抗藥位點與抗 azole 的生物相同。
+- 肺囊蟲病的標準一線預防與治療用藥屬於另一藥類，不是 itraconazole。
 
-因此 TxGNN 給出的高分（0.993）與機轉分析並不一致，較可能是模型從「伺機性感染」（HIV/器官移植/免疫低下族群中黴菌感染與肺囊蟲病常同時出現）的共現模式中間接學習到的關聯，而非真正的藥理標靶匹配。正式的 DrugBank MOA 記錄目前仍缺失（見 Data Gap DG002），上述機轉分析僅供參考，尚待正式來源確認。
+高分較可能來自圖譜上的共現關係。Itraconazole 常用於 HIV、器官移植、骨髓移植等免疫低下族群的其他黴菌感染，而這些族群也是肺囊蟲病的高風險群。文獻關聯多半反映這種共現，而不是療效證據。
 
 ---
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記。
+目前無相關臨床試驗登記
 
 ---
 
 ## 文獻證據
 
+所有文獻的相關性審查狀態均為「待審」，下列摘要僅根據標題與摘要內容整理。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [11737382](https://pubmed.ncbi.nlm.nih.gov/11737382/) | 2001 | RCT | HIV Medicine | 隨機雙盲安慰劑對照試驗：itraconazole 膠囊用於預防 HIV 感染者深部黴菌感染 |
-| [21418688](https://pubmed.ncbi.nlm.nih.gov/21418688/) | 2010 | Review | BMJ Clinical Evidence | HIV 患者伺機性感染（含肺囊蟲肺炎）之初級與次級預防策略回顧 |
-| [30429396](https://pubmed.ncbi.nlm.nih.gov/30429396/) | 2018 | Cohort | Indian J Med Microbiol | 比較免疫功能正常與低下族群呼吸道黴菌病原譜及其與 CD4 細胞數的相關性 |
-| [26036497](https://pubmed.ncbi.nlm.nih.gov/26036497/) | 2015 | Cohort | Transplantation Proceedings | 腎臟移植患者侵襲性黴菌感染單中心經驗 |
-| [12606318](https://pubmed.ncbi.nlm.nih.gov/12606318/) | 2003 | 機轉研究 | Am J Respir Cell Mol Biol | 鑑定 *Pneumocystis carinii* 的 lanosterol 14α-demethylase，指出其對唑類抗黴菌藥具天然抗性 |
-| [2121456](https://pubmed.ncbi.nlm.nih.gov/2121456/) | 1990 | Review | Drugs | 全身性原蟲/伺機性感染（含 *Pneumocystis carinii*）治療與預防藥物總論 |
-| [8016481](https://pubmed.ncbi.nlm.nih.gov/8016481/) | 1993 | Review | Seminars in Respiratory Infections | 肺移植後感染（含黴菌與肺囊蟲）之預防與治療回顧 |
-| [8397916](https://pubmed.ncbi.nlm.nih.gov/8397916/) | 1993 | Review | Curr Clin Top Infect Dis | 骨髓移植患者感染預防與治療回顧 |
-| [36891307](https://pubmed.ncbi.nlm.nih.gov/36891307/) | 2023 | Case Report | Frontiers in Immunology | STAT1 突變兒童併發馬爾尼菲籃狀菌與肺囊蟲共感染病例 |
-| [8967681](https://pubmed.ncbi.nlm.nih.gov/8967681/) | 1996 | Case Report | Annals of Internal Medicine | Rifabutin 預防合併 itraconazole 治療引發葡萄膜炎的不良事件病例 |
+| [11737382](https://pubmed.ncbi.nlm.nih.gov/11737382/) | 2001 | RCT | HIV Medicine | 第三期雙盲安慰劑對照試驗，評估 itraconazole 預防 HIV 感染者的深部黴菌感染。終點不是肺囊蟲病，摘要未呈現結果 |
+| [2121456](https://pubmed.ncbi.nlm.nih.gov/2121456/) | 1990 | Review | Drugs | 系統性原蟲感染（含 *P. carinii*）的治療與預防綜述，摘要未顯示與 itraconazole 的關聯 |
+| [8016481](https://pubmed.ncbi.nlm.nih.gov/8016481/) | 1993 | Review | Seminars in Respiratory Infections | 肺臟移植後感染的預防、辨識與治療進展 |
+| [8397916](https://pubmed.ncbi.nlm.nih.gov/8397916/) | 1993 | Review | Current Clinical Topics in Infectious Diseases | 骨髓移植受者的感染預防與治療策略 |
+| [21418688](https://pubmed.ncbi.nlm.nih.gov/21418688/) | 2010 | Review | BMJ Clinical Evidence | HIV 機會性感染的一級與二級預防 |
+| [30429396](https://pubmed.ncbi.nlm.nih.gov/30429396/) | 2018 | Cohort | Indian Journal of Medical Microbiology | 比較免疫正常與免疫低下宿主的呼吸道黴菌病原分布，並分析與 CD4 細胞數的關係 |
+| [26036497](https://pubmed.ncbi.nlm.nih.gov/26036497/) | 2015 | Cohort | Transplantation Proceedings | 腎臟移植後侵襲性黴菌感染的單中心經驗 |
+| [12606318](https://pubmed.ncbi.nlm.nih.gov/12606318/) | 2003 | 機轉研究 | Am J Respir Cell Mol Biol | 選殖 *P. carinii* 的 Erg11（azole 標的酵素），指出該菌對 azole 類天生抗藥，不利於此預測 |
+| [36891307](https://pubmed.ncbi.nlm.nih.gov/36891307/) | 2023 | Case report | Frontiers in Immunology | STAT1 突變患童同時感染 *T. marneffei* 與 *P. jirovecii* 的個案 |
+| [8967681](https://pubmed.ncbi.nlm.nih.gov/8967681/) | 1996 | Case report | Annals of Internal Medicine | rifabutin 預防用藥合併 itraconazole 治療相關的葡萄膜炎（安全性訊號，非療效） |
 
 ---
 
 ## 香港上市資訊
 
-Itraconazole 目前**未於香港上市**，查無許可證資料。
+香港共有 19 張許可證，以下列出 5 張。資料中未提供劑型與核准適應症。
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-54674 | ITRANSTAD CAP 100MG | HONG KONG MEDICAL SUPPLIES LTD |
+| HK-63889 | ITRAZOL ORAL SOLUTION 10MG/ML | HIND WING CO LTD |
+| HK-50434 | CANDITRAL CAP 100MG | SB PHARMA LIMITED |
+| HK-50868 | ITRACON CAP 100MG | HEALTH ALLIANCE INTERNATIONAL CO LTD |
+| HK-51056 | SPORANOX CAP 100MG | JOHNSON & JOHNSON (HONG KONG) LTD. |
 
 ---
 
 ## 安全性考量
 
-目前查無主要警語、禁忌症或藥物交互作用資料（Data Gap DG001，屬 Blocking 等級，影響安全性初評），且因未於香港上市而無本地仿單可參考，建議查詢原廠（如美國/歐盟）核准仿單以取得完整安全性資訊。
+安全性資訊請參考原廠仿單。
+
+文獻中另有 itraconazole 與 rifabutin 併用時出現葡萄膜炎的個案報告（1996），僅作為交互作用的參考訊號。
 
 ---
 
@@ -103,14 +117,16 @@ Itraconazole 目前**未於香港上市**，查無許可證資料。
 **決策：Hold**
 
 **理由：**
-- 機轉分析顯示唑類抗黴菌藥對 *Pneumocystis jirovecii*（缺乏 ergosterol 細胞膜）的藥理標靶基礎薄弱，與 TxGNN 高分不一致，需視為模型對感染共現模式的間接學習結果。
-- 無任何直接測試 itraconazole 治療/預防肺囊蟲病的臨床試驗，僅有間接相關文獻，證據等級僅達 L4；安全性資料（DG001，Blocking）缺失，無法進入 S1 安全性初評。
+- 沒有任何臨床試驗，文獻也沒有直接證明 itraconazole 對肺囊蟲病有效，證據等級僅為 L4。
+- 肺囊蟲缺乏麥角固醇、對 azole 天生抗藥，機轉上不支持此預測。99.34% 的高分應視為圖譜共現的結果，不應當成療效訊號。
 
 **若要推進需要：**
-- 補齊 TFDA/原廠仿單警語與禁忌症資料（DG001，Blocking）
-- 透過 DrugBank API 或原廠資料正式確認作用機轉（DG002）
-- 尋求體外/動物實驗證據，確認 itraconazole 對 *Pneumocystis* 是否存在非 ERG11 依賴的替代作用機制
-- 若無法補強機轉合理性，建議將此候選降低優先序或排除
+- 取得香港衛生署仿單的警語與禁忌症（目前是阻斷性資料缺口，無法進入安全性篩選）。
+- 從 DrugBank 補齊作用機轉資料。
+- 人工審查 19 篇文獻的相關性，確認是否有直接以 itraconazole 治療或預防肺囊蟲病的研究。
+- 與標準一線用藥比較，說明 itraconazole 的潛在定位；若無明確優勢，建議不再推進。
+
+*本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Flucloxacillin
-parent: 僅模型預測 (L5)
-nav_order: 320
-evidence_level: L5
+parent: 中證據等級 (L3-L4)
+nav_order: 375
+evidence_level: L4
 indication_count: 10
 ---
 
 # Flucloxacillin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L4** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,74 @@ indication_count: 10
 
 </div>
 
-# Flucloxacillin：從 葡萄球菌感染症 到 結膜炎
+# Flucloxacillin：從細菌感染到結膜炎
 
 ## 一句話總結
 
-Flucloxacillin 是一種抗青黴素酶盤尼西林類窄效抗生素，主要用於治療 Methicillin 敏感性金黃葡萄球菌（MSSA）引起的皮膚軟組織感染、骨髓炎及心內膜炎。
-TxGNN 模型預測它可能對**結膜炎 (Conjunctivitis)** 有效，
-目前有 **0 個臨床試驗**和 **2 篇間接相關文獻**，整體直接證據不足。
-
----
+Flucloxacillin 是耐 β-內醯胺酶的青黴素類抗生素，對甲氧西林敏感的金黃色葡萄球菌 (MSSA) 有活性。
+TxGNN 模型預測它可能對**結膜炎 (Conjunctivitis)** 有效，但目前**沒有臨床試驗**，僅有 **2 篇間接相關文獻**（皆為 Review），屬於待驗證的研究假說。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料缺失（香港未上市，無許可證） |
 | 預測新適應症 | 結膜炎 (Conjunctivitis) |
 | TxGNN 預測分數 | 99.84% |
-| 證據等級 | L5 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 證據等級 | L4 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 3 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知藥理資訊，Flucloxacillin 是 Isoxazolyl penicillin 類抗生素，透過與細菌青黴素結合蛋白（PBP）共價結合、抑制細胞壁肽聚糖合成來殺菌。其最大特點是對 β-lactamase（青黴素酶）具有抵抗性，因此對 MSSA 具有強效覆蓋，但對 MRSA 無效。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Flucloxacillin 屬於耐 β-內醯胺酶的青黴素類抗生素，對 MSSA 有效，而 MSSA 是細菌性結膜炎的常見致病菌之一。
 
-細菌性結膜炎的常見致病菌包含金黃葡萄球菌（*S. aureus*），此為 Flucloxacillin 最強覆蓋的目標菌種。就機轉而言，若結膜炎由 MSSA 引起，Flucloxacillin 的抗菌活性在理論上可能有效——這是 TxGNN 預測的主要生物合理性來源。
+因此，機轉上可能適用於結膜炎，但這個連結是間接的。檢索到的文獻談的是葡萄球菌燙傷樣皮膚症候群和非典型單純疱疹表現中的結膜受累，並沒有直接證明 Flucloxacillin 能治療結膜炎。
 
-然而，臨床轉化存在明顯障礙：結膜炎的標準治療為**局部眼科劑型**（眼藥水或眼藥膏），Flucloxacillin 目前無此劑型；現有文獻中對「結膜炎」的提及，也僅出現在 Staphylococcal Scalded Skin Syndrome（SSSS）的前驅症狀描述中，而非針對 Flucloxacillin 治療結膜炎的療效研究。整體評估，預測的機轉邏輯具備合理出發點，但缺乏實際臨床研究支撐。
-
----
+結膜炎通常以局部（眼用）製劑治療，全身性給藥（口服）是否有角色尚未確立。香港目前的登記劑型為口服膠囊和口服溶液，與局部用藥需求之間的劑型相容性也未評估。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|------|------|------|---------|
-| [12627992](https://pubmed.ncbi.nlm.nih.gov/12627992/) | 2003 | Review | Am J Clin Dermatol | 葡萄球菌燙傷樣皮膚症候群（SSSS）診斷與處置回顧；結膜炎為 SSSS 前驅症狀之一，間接說明 flucloxacillin 治療 MSSA 相關感染的脈絡 |
-| [1286123](https://pubmed.ncbi.nlm.nih.gov/1286123/) | 1992 | Case Report | Int J STD & AIDS | 疱疹病毒非典型表現個案報告；無摘要，與 Flucloxacillin 之關聯性不明，參考價值有限 |
-
----
+|------|-----|------|------|---------|
+| [12627992](https://pubmed.ncbi.nlm.nih.gov/12627992/) | 2003 | Review | American Journal of Clinical Dermatology | 葡萄球菌燙傷樣皮膚症候群的診斷與處置。結膜炎只是常見前驅症狀之一，並非治療對象 |
+| [1286123](https://pubmed.ncbi.nlm.nih.gov/1286123/) | 1992 | Review | International Journal of STD & AIDS | 單純疱疹病毒感染的非典型表現，無摘要可供判讀，與 Flucloxacillin 療效無直接關聯 |
 
 ## 香港上市資訊
 
-Flucloxacillin 目前在香港**未上市**，無任何藥品許可證登記紀錄。
-
----
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-42222 | FLUCLOXACILLIN CAP 250MG (BRIGHT FUTURE) | Bright Future Pharmaceuticals Factory |
+| HK-50542 | FLUCLOXACILLIN ORAL SOLUTION 125MG/5ML | The International Medical Company Limited |
+| HK-51790 | FLUCLOXACILLIN CAP 250MG (ATHLONE) | The International Medical Company Limited |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
-
----
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-TxGNN 預測分數雖高（99.84%），但目前缺乏任何臨床試驗或直接文獻支持 Flucloxacillin 用於結膜炎治療；現有 2 篇文獻均屬間接引用，且該藥在香港未上市、無局部眼科劑型，臨床轉化路徑尚未確立，現階段不具推進條件。
+- 沒有任何臨床試驗，僅有 2 篇間接相關的 Review，證據等級為 L4。
+- 結膜炎通常以局部用藥治療，全身性 Flucloxacillin 的角色不明。
+- 香港仿單的警語與禁忌資料尚未取得，無法進行安全性篩選。
+
+TxGNN 排名前 10 的其他預測適應症（類風濕性關節炎、痲瘋病、Prinzmetal 心絞痛、血栓性疾病等）皆無合理機轉，證據等級為 L5，均建議 Hold。「conjunctivitis (disease)」是結膜炎的重複本體論條目，應與本條目合併，不需另行評估。
 
 **若要推進需要：**
-- 補齊作用機轉資料（DrugBank MOA API 查詢）
-- 搜尋葡萄球菌性細菌性結膜炎的抗生素治療直接文獻，確認 flucloxacillin 同類藥物（如 oxacillin、nafcillin）的眼科應用案例
-- 評估眼科局部劑型（滴眼液）的開發可行性
-- 確認香港或其他市場的上市路徑與法規要求
-- 取得安全性完整資料：仿單警語、禁忌症及藥物交互作用
+- 取得香港衛生署核准仿單，補齊警語與禁忌症。
+- 補充 Flucloxacillin 的作用機轉資料（如 DrugBank）。
+- 搜尋 Flucloxacillin 全身性給藥治療細菌性結膜炎的直接臨床證據。
+- 評估劑型和給藥途徑是否相容（口服 vs. 眼部局部給藥）。
+- 若前述條件成立，再考慮設計以 MSSA 結膜炎為對象的臨床研究。
+
+*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

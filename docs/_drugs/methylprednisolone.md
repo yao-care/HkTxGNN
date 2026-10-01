@@ -2,7 +2,7 @@
 layout: default
 title: Methylprednisolone
 parent: 中證據等級 (L3-L4)
-nav_order: 491
+nav_order: 567
 evidence_level: L3
 indication_count: 5
 ---
@@ -29,11 +29,13 @@ indication_count: 5
 
 </div>
 
-# Methylprednisolone：從系統性抗發炎治療到圓形禿（Alopecia Areata）
+# Methylprednisolone：從全身性抗發炎／免疫抑制治療到圓形禿
 
 ## 一句話總結
 
-Methylprednisolone 是臨床廣泛使用的系統性糖皮質激素，原始適應症資料在本次盤點中未取得完整香港許可證清單（未上市），但其抗發炎/免疫抑制用途已行之有年。TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，目前有 **18 個相關臨床試驗**（其中直接針對本藥物與此適應症者 2 個）與 **20 篇文獻**支持這個方向。
+Methylprednisolone（甲基培尼皮質醇）是糖皮質素（glucocorticoid）類藥物，香港已有 8 張許可證，但資料中未附核准適應症文字。
+TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效。
+目前有 **2 個直接相關的臨床試驗**（其餘 16 筆檢索結果與圓形禿無關）和 **20 篇文獻**支持這個方向，但沒有隨機對照試驗（RCT）。
 
 ---
 
@@ -41,57 +43,67 @@ Methylprednisolone 是臨床廣泛使用的系統性糖皮質激素，原始適�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港無許可證資料可查（未上市）；作為系統性皮質類固醇廣泛用於發炎/自體免疫疾病 |
 | 預測新適應症 | 圓形禿 (Alopecia Areata) |
-| TxGNN 預測分數 | 99.99%（rank 397） |
+| TxGNN 預測分數 | 99.99% |
 | 證據等級 | L3 |
-| 香港上市 | ✗ 未上市 |
-| 許可證數 | 0 張 |
+| 香港上市 | ✓ 已上市 |
+| 許可證數 | 8 張 |
 | 建議決策 | Proceed with Guardrails |
 
 ---
 
 ## 為什麼這個預測合理？
 
-Methylprednisolone 為糖皮質激素，透過抑制 T 細胞媒介的毛囊周圍發炎反應，阻斷自體免疫對毛囊的攻擊，機轉上與圓形禿（一種自體免疫性禿髮）的病理生理高度吻合。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Methylprednisolone 屬於糖皮質素類藥物，具有廣泛的抗發炎與免疫抑制作用。
 
-事實上，全身性脈衝式糖皮質激素（口服 mega-pulse 或靜脈注射）用於重症、頑固型圓形禿，在皮膚科臨床上已是行之多年的常規/off-label 用法，並非全新假說。
+圓形禿是 T 細胞介導的自體免疫疾病：免疫細胞攻擊毛囊，毛囊的免疫豁免（immune privilege）隨之崩解。高劑量脈衝療法（口服或靜脈注射）可抑制這種毛囊免疫攻擊，因此在機轉上說得通，也與 0.9999 的高預測分數一致。
 
-目前累積的證據以回顧性世代研究與病例系列為主，缺乏針對 methylprednisolone 本身、與適應症直接對應的大型雙盲 RCT（本 Evidence Pack 中列出的 Phase 3 試驗多為 baricitinib、sirolimus 等其他藥物用於系統性紅斑狼瘡，非本藥物直接證據）。因此雖然機轉合理、臨床實務普及，正式的高等級對照試驗證據仍偏薄弱。
+這個方向也有臨床實務佐證。文獻中有多篇以 Methylprednisolone 脈衝治療嚴重或頑固型圓形禿的研究，包括口服 mega-pulse、靜脈脈衝，以及與 methotrexate 或 cyclosporine 併用。近年 JAK 抑制劑成為主流選項，但仍有病人因資格或可近性問題無法使用，類固醇脈衝因此保有替代角色。
 
 ---
 
 ## 臨床試驗證據
 
+檢索共得 18 筆試驗，其中 15 筆是紅斑性狼瘡（SLE）等其他疾病的試驗，並未測試 Methylprednisolone 用於圓形禿，屬檢索誤配，已排除。與圓形禿直接或間接相關的如下：
+
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT01167946](https://clinicaltrials.gov/study/NCT01167946) | Phase 4 | 完成 | 42 | 口服 mega pulse methylprednisolone 用於重症頑固型圓形禿之療效與安全性，藥物與適應症完全對應，唯樣本數較小 |
-| [NCT01017510](https://clinicaltrials.gov/study/NCT01017510) | N/A | 狀態未知 | 20 | 比較 DERMOJET 與傳統針筒進行病灶內類固醇注射治療圓形禿之技術性研究 |
-
-> 註：本次查詢共命中 18 個臨床試驗，其餘 16 個多為 baricitinib、sirolimus 等其他藥物用於系統性紅斑狼瘡或不相關適應症（如攝護腺癌、頭痛神經阻斷）之研究，與 methylprednisolone 治療圓形禿相關性低，故未列入。
+| [NCT01167946](https://clinicaltrials.gov/study/NCT01167946) | Phase 4 | 完成 | 42 | 口服 mega-pulse Methylprednisolone 用於嚴重、治療抗性的圓形禿。以更高劑量、更頻繁的脈衝設計，探討既有脈衝療法失敗是否因劑量不足。未確認有隨機分組或對照組。 |
+| [NCT01017510](https://clinicaltrials.gov/study/NCT01017510) | N/A | 未知 | 20 | 比較無針注射器 DERMOJET 與一般針筒的病灶內注射，用於圓形禿。僅涉及給藥方式，無法確認具體使用哪種類固醇。 |
+| [NCT07101471](https://clinicaltrials.gov/study/NCT07101471) | N/A | 完成 | 296 | 觀察性研究，評估 Tofacitinib 用於禿髮的安全性與療效，部分病人併用 prednisolone。屬間接的背景證據。 |
 
 ---
 
 ## 文獻證據
 
+20 篇文獻中沒有 RCT，以下列出最相關的 10 篇，依綜述與臨床研究排序：
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [32270396](https://pubmed.ncbi.nlm.nih.gov/32270396/) | 2020 | 系統性回顧 | Dermatology and therapy | Cyclosporine 併用或不併用系統性皮質類固醇治療圓形禿的系統性回顧 |
-| [35986630](https://pubmed.ncbi.nlm.nih.gov/35986630/) | 2022 | 世代/回顧性 | Dermatologic therapy | Methylprednisolone 單獨 vs 併用 methotrexate 治療廣泛性圓形禿之回顧分析 |
-| [36865845](https://pubmed.ncbi.nlm.nih.gov/36865845/) | 2022 | 世代/回顧性 | Indian journal of dermatology | 類固醇脈衝療法治療圓形禿之性別差異回顧研究 |
-| [30745958](https://pubmed.ncbi.nlm.nih.gov/30745958/) | 2019 | 世代研究 | Open access Macedonian journal of medical sciences | Methotrexate 併用小劑量脈衝 methylprednisolone 治療重症圓形禿（越南經驗） |
-| [22426909](https://pubmed.ncbi.nlm.nih.gov/22426909/) | 2012 | 世代/病例系列 | Saudi medical journal | 口服 mega pulse methylprednisolone 治療重症頑固型圓形禿之療效與安全性 |
-| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | 敘述性回顧 | Dermatology practical & conceptual | 類固醇脈衝療法治療圓形禿之療效與不良反應回顧 |
-| [28378336](https://pubmed.ncbi.nlm.nih.gov/28378336/) | 2017 | 敘述性回顧 | International journal of dermatology | 全禿/普禿治療回顧 |
-| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | 敘述性回顧 | Pediatric dermatology | 兒童脈衝式類固醇治療圓形禿之劑量與給藥回顧 |
-| [25566921](https://pubmed.ncbi.nlm.nih.gov/25566921/) | 2015 | 病例系列 | Indian journal of dermatology, venereology and leprology | 靜脈 methylprednisolone 脈衝療法治療重症圓形禿 |
-| [18608727](https://pubmed.ncbi.nlm.nih.gov/18608727/) | 2008 | 病例系列 | The Journal of dermatological treatment | Cyclosporine 併用 methylprednisolone 治療重症圓形禿 |
+| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Review | Dermatol Pract Concept | 回顧類固醇脈衝療法用於圓形禿的療效、復發率、副作用與預測反應的因子 |
+| [32270396](https://pubmed.ncbi.nlm.nih.gov/32270396/) | 2020 | 系統性回顧 | Dermatol Ther | 探討 cyclosporine 單用或併用全身性類固醇治療圓形禿，各研究結果不一 |
+| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Review | Pediatr Dermatol | 整理兒童圓形禿脈衝類固醇的劑量方案與副作用，指出劑量尚無共識 |
+| [35986630](https://pubmed.ncbi.nlm.nih.gov/35986630/) | 2022 | 回溯性分析 | Dermatol Ther | 26 位廣泛性圓形禿病人，比較 Methylprednisolone 單用（14 人）與併用 methotrexate（12 人） |
+| [25566921](https://pubmed.ncbi.nlm.nih.gov/25566921/) | 2015 | 臨床研究 | Indian J Dermatol Venereol Leprol | 評估靜脈 Methylprednisolone 脈衝用於嚴重、治療抗性的圓形禿 |
+| [22426909](https://pubmed.ncbi.nlm.nih.gov/22426909/) | 2012 | 前瞻性臨床研究 | Saudi Med J | 口服 mega-pulse Methylprednisolone 的高強度方案，用於嚴重治療抗性圓形禿 |
+| [21592197](https://pubmed.ncbi.nlm.nih.gov/21592197/) | 2011 | 臨床研究 | J Dermatol | 分析 70 位病人接受脈衝治療的預後因子，以釐清合適的適用對象 |
+| [9777767](https://pubmed.ncbi.nlm.nih.gov/9777767/) | 1998 | 開放式前瞻研究 | J Am Acad Dermatol | 45 位病程不足 12 個月的病人接受單次靜脈脈衝 |
+| [8274789](https://pubmed.ncbi.nlm.nih.gov/8274789/) | 1993 | 前瞻性小型研究 | Dermatology | 9 位近期發病的嚴重病人接受靜脈脈衝，其中 8 位病程被控制住 |
+| [25872976](https://pubmed.ncbi.nlm.nih.gov/25872976/) | 2015 | 回溯性研究 | Pediatr Dermatol | 嚴重兒童圓形禿即使早期介入靜脈脈衝，復發率仍高 |
 
 ---
 
 ## 香港上市資訊
 
-目前查無 methylprednisolone 香港上市許可證資料（`market_status: 未上市`，`total_licenses: 0`）。
+共 8 張許可證，以下列出 5 張主要許可證。資料中未提供劑型與核准適應症文字。
+
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-64851 | METPROVELL TABLETS 4MG | HEALTHCARE PHARMASCIENCE LIMITED |
+| HK-63244 | MEDASON POWDER FOR SOLUTION FOR INJECTION 40MG | I & C (HONG KONG) LIMITED |
+| HK-63243 | MEDASON POWDER FOR SOLUTION FOR INJECTION 500MG | I & C (HONG KONG) LIMITED |
+| HK-00490 | DEPO MEDROL STERILE AQ SUSP 40MG/ML | PFIZER CORPORATION HONG KONG LIMITED |
+| HK-00456 | SOLU MEDROL 500 MG FOR INJ | PFIZER CORPORATION HONG KONG LIMITED |
 
 ---
 
@@ -106,13 +118,17 @@ Methylprednisolone 為糖皮質激素，透過抑制 T 細胞媒介的毛囊周�
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 機轉合理且臨床已有多年脈衝式類固醇治療重症圓形禿的實務經驗，但目前僅有回顧性世代研究與病例系列支持（L3），缺乏針對本藥物的大型 RCT，Phase 3 試驗證據來自其他藥物（baricitinib、sirolimus），不能直接歸因。
+- 圓形禿有多項臨床研究、回溯性分析與綜述支持 Methylprednisolone 脈衝療法，機轉上合理，且有 Phase 4 試驗直接測試。但缺乏 RCT，多數文獻反映復發率偏高、長期類固醇有副作用，證據等級停在 L3。
+- 同一批預測中，其餘 4 個適應症（黏液性禿髮、休止期落髮、禿髮性毛囊炎、抗體缺乏相關禿髮）都只有模型分數或零星病例報告，屬 L4–L5，建議 Hold。其中休止期落髮多為自限性、非自體免疫，類固醇可能有害無益。
 
 **若要推進需要：**
-- 補齊香港仿單警語/禁忌資料（DG001，Blocking，需下載並解析原廠仿單）
-- 補齊詳細作用機轉資料（DG002，High，可查詢 DrugBank API）
-- 針對重症圓形禿的 methylprednisolone 脈衝療法安全性監測計畫（血糖、血壓、骨密度、感染風險）
-- 評估是否有更新之前瞻性對照試驗可強化證據等級至 L2 以上
+- 取得香港衛生署仿單，確認警語、禁忌與適應症文字（目前為阻斷性資料缺口，無法進入安全性篩選）。
+- 補充作用機轉資料（DrugBank）。
+- 設計或尋找隨機對照試驗，並釐清口服與靜脈脈衝的劑量與頻率。
+- 制定復發追蹤與長期類固醇不良反應的監測計畫。
+- 與 JAK 抑制劑等現行標準治療做比較，界定適用族群，例如無法使用 JAK 抑制劑的病人。
+
+*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經過臨床驗證才能應用。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。
