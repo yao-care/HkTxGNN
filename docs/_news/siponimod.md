@@ -3,7 +3,7 @@ layout: default
 title: "Siponimod 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Siponimod 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Siponimod 的相關健康新聞報導。原適應症：。預測適應症 12 個。"
 permalink: /news/siponimod/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/siponimod/
 ---
 
 <p class="key-answer" data-question="Siponimod 有什麼相關新聞？">
-<strong>Siponimod</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Siponimod</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 12 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,7 +24,9 @@ permalink: /news/siponimod/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症（10 個）</strong>:<ul>
+<li><strong>預測適應症（12 個）</strong>:<ul>
+<li>偏頭痛 (Migraine disorder) (99.7%)</li>
+<li>類風濕性關節炎 (99.2%)</li>
 <li>pulmonary hypertension (99.7%)</li>
 <li>migraine disorder (99.7%)</li>
 <li>kyphoscoliotic heart disease (99.6%)</li>
