@@ -161,7 +161,7 @@
       "@id": "https://hktxgnn.yao.care/#website",
       "name": "HkTxGNN 老藥新用驗證報告",
       "url": "https://hktxgnn.yao.care/",
-      "description": "用 AI 預測台灣健保藥品的潛在新適應症，並提供臨床證據驗證報告",
+      "description": "用 AI 預測香港註冊藥品的潛在新適應症，並提供臨床證據驗證報告",
       "isPartOf": {
         "@id": "https://hktxgnn.yao.care/#software"
       },
@@ -178,7 +178,7 @@
       "@type": "Article",
       "@id": "https://hktxgnn.yao.care/#article",
       "headline": "老藥新用，從數據到證據",
-      "description": "用 AI 預測台灣健保藥品的潛在新適應症，提供 191 個藥物的臨床試驗與文獻證據驗證報告",
+      "description": "用 AI 預測香港註冊藥品的潛在新適應症，提供 {{ site.drugs.size }} 個藥物頁面的臨床試驗與文獻證據驗證報告",
       "author": {
         "@id": "https://www.yao.care/#organization"
       },
@@ -249,7 +249,7 @@
           "name": "資料來源有哪些？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "本平台整合 TxGNN（AI 預測）、ClinicalTrials.gov（臨床試驗）、PubMed（學術文獻）、DrugBank（藥物資訊）、TFDA（台灣上市資訊）、DDInter（藥物交互作用）等公開資料來源。"
+            "text": "本平台整合 TxGNN（AI 預測）、ClinicalTrials.gov（臨床試驗）、PubMed（學術文獻）、DrugBank（藥物資訊）、香港衛生署藥物辦公室（香港註冊資料）、DDInter（藥物交互作用）等公開資料來源。"
           }
         }
       ]
@@ -298,7 +298,7 @@
           "@type": "HowToStep",
           "position": 2,
           "name": "資料收集",
-          "text": "針對每個預測配對，自動收集 ClinicalTrials.gov、PubMed、DrugBank、TFDA 等來源的證據。"
+          "text": "針對每個預測配對，自動收集 ClinicalTrials.gov、PubMed、DrugBank、香港衛生署藥物辦公室等來源的證據。"
         },
         {
           "@type": "HowToStep",
@@ -346,15 +346,15 @@
       "@type": "CollectionPage",
       "@id": "{{ page.url | absolute_url }}#webpage",
       "name": "藥物列表 - HkTxGNN",
-      "description": "HkTxGNN 所有藥物驗證報告列表，共 191 種藥物",
+      "description": "HkTxGNN 所有藥物驗證報告列表，共 {{ site.drugs.size }} 個藥物頁面",
       "url": "{{ page.url | absolute_url }}"
     },
     {
       "@type": "ItemList",
       "@id": "{{ page.url | absolute_url }}#itemlist",
       "name": "HkTxGNN 藥物驗證報告",
-      "description": "191 種台灣健保藥品的老藥新用驗證報告",
-      "numberOfItems": 191,
+      "description": "香港註冊藥品的老藥新用驗證報告",
+      "numberOfItems": {{ site.drugs.size }},
       "itemListOrder": "https://schema.org/ItemListOrderAscending"
     },
     {
@@ -389,7 +389,7 @@
       "@type": "CollectionPage",
       "@id": "{{ page.url | absolute_url }}#webpage",
       "name": "健康新聞監測 - HkTxGNN",
-      "description": "{{ page.description | default: '自動監測 191 種藥物與適應症的最新健康新聞報導' }}",
+      "description": "{{ page.description | default: '自動監測藥物與適應症的最新健康新聞報導' }}",
       "url": "{{ page.url | absolute_url }}",
       "isPartOf": {
         "@id": "https://hktxgnn.yao.care/#website"
