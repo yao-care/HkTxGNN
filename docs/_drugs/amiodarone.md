@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Amiodarone
-parent: 中證據等級 (L3-L4)
-nav_order: 52
-evidence_level: L4
+parent: 高證據等級 (L1-L2)
+nav_order: 54
+evidence_level: L1
 indication_count: 10
 ---
 
 # Amiodarone
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L1** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,127 @@ indication_count: 10
 
 </div>
 
-# Amiodarone：從心律不整到兒茶酚胺敏感性多形性心室頻脈 (CPVT)
+# Amiodarone：從心室纖維顫動到心室心搏過速
 
 ## 一句話總結
 
-Amiodarone 是一種抗心律不整藥物，香港有 7 張許可證，但許可證資料未載明核准適應症文字。
-TxGNN 模型預測它可能對**兒茶酚胺敏感性多形性心室頻脈 (Catecholaminergic Polymorphic Ventricular Tachycardia, CPVT)** 有效。
-目前**沒有相關臨床試驗**，只有 **10 篇文獻**（系統性回顧、世代研究、病例報告），且多數只是附帶提到 amiodarone，並非直接證據。
+Amiodarone（胺碘酮）是一種多通道抗心律不整藥物，原本用於心室纖維顫動（ventricular fibrillation）。
+我們依 TxGNN 預測分數與證據強度，以排名第 3 的**心室心搏過速 (Ventricular Tachycardia)** 作為主要評估對象。
+目前有 **18 個臨床試驗**和 **20 篇文獻**支持這個方向，其中包含 3 個已完成的 Phase 3 試驗與多個 Phase 4 比較試驗。
+
+> 說明：TxGNN 分數最高的是「兒茶酚胺敏感性多形性心室心搏過速 (CPVT)」（99.78%），但其文獻僅為病例與世代描述，且 amiodarone 並非該病的標準治療，因此證據上以心室心搏過速作為主要評估重點。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證資料未載明（Amiodarone 為已知的抗心律不整藥物） |
-| 預測新適應症 | 兒茶酚胺敏感性多形性心室頻脈 (CPVT) |
-| TxGNN 預測分數 | 99.78% |
-| 證據等級 | L4 |
+| 原適應症 | 心室纖維顫動（資料來自知識圖譜；香港許可證未載明核准適應症文字） |
+| 預測新適應症 | 心室心搏過速 (Ventricular Tachycardia) |
+| TxGNN 預測分數 | 99.64% |
+| 證據等級 | L1 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 7 張 |
-| 建議決策 | Hold |
+| 建議決策 | Proceed with Guardrails |
+
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。依一般藥理知識，Amiodarone 是多離子通道阻斷劑（鉀、鈉、鈣通道），並帶有非競爭性的 β 腎上腺素拮抗作用。這使它在機轉上部分適用於由腎上腺素刺激誘發的心律不整。
+目前缺乏詳細的作用機轉（MOA）資料庫條目，但依文獻所述，Amiodarone 屬 Vaughan Williams 第 III 類抗心律不整藥，可阻斷鉀離子通道以延長再極化時間，同時也具有鈉通道、鈣通道及 β 腎上腺素受體阻斷作用。
 
-CPVT 的成因是 RyR2 或 CASQ2 基因異常，造成舒張期鈣離子滲漏與延遲後去極化。文獻指出，真正有效的藥物是 β 阻斷劑與 flecainide（直接作用於 RyR2）。Amiodarone 在病例報告中只作為救援用藥出現，沒有證據顯示它是 CPVT 的有效標準治療。
+心室纖維顫動與心室心搏過速同屬心室性心律不整，常見機轉都是折返與觸發活動。Amiodarone 的多通道作用可直接針對這些機轉，因此用於心室心搏過速在機轉上相當合理，屬於接近原適應症的用法（on-label 或 near-label）。
 
-TxGNN 的高分（0.998）反映的是知識圖譜中的網路鄰近性，不是臨床證據。這個預測需要謹慎解讀。
+---
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記
+以下列出最相關的 10 個試驗（依相關性分級排序）：
+
+| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
+|---------|------|------|------|---------|
+| [NCT01401647](https://clinicaltrials.gov/study/NCT01401647) | Phase 3 | 完成 | 3024 | Amiodarone、lidocaine 或安慰劑用於院外心臟驟停（VF／無脈搏 VT） |
+| [NCT00000531](https://clinicaltrials.gov/study/NCT00000531) | Phase 3 | 完成 | 未提供 | AVID：抗心律不整藥物（以 amiodarone 為主）vs 植入式去顫器，用於致命性心室心律不整 |
+| [NCT00257959](https://clinicaltrials.gov/study/NCT00257959) | Phase 4 | 完成 | 400 | OPTIC：amiodarone + β 阻斷劑 vs 單用 β 阻斷劑 vs sotalol，預防 ICD 電擊 |
+| [NCT02830360](https://clinicaltrials.gov/study/NCT02830360) | Phase 4 | 完成 | 416 | 心肌梗塞後持續性單形性 VT：導管消融 vs 抗心律不整藥物 |
+| [NCT03299517](https://clinicaltrials.gov/study/NCT03299517) | Phase 4 | 未知 | 80 | 急診穩定性 VT：amiodarone vs lidocaine |
+| [NCT00383799](https://clinicaltrials.gov/study/NCT00383799) | Phase 4 | 提前終止 | 302 | PROCAMIO：IV amiodarone vs IV procainamide 用於寬 QRS 心搏過速 |
+| [NCT03855826](https://clinicaltrials.gov/study/NCT03855826) | Phase 4 | 未知 | 756 | Nifekalant 用於 VT/VF，amiodarone 可能為對照組 |
+| [NCT01722942](https://clinicaltrials.gov/study/NCT01722942) | N/A | 未知 | 1100 | CHAGASICS：Chagas 心肌病變中 amiodarone vs ICD |
+| [NCT01097330](https://clinicaltrials.gov/study/NCT01097330) | Phase 3 | 提前終止 | 12 | 導管消融 vs amiodarone 用於 ICD 患者的電擊預防（收案過少） |
+| [NCT02114528](https://clinicaltrials.gov/study/NCT02114528) | Phase 4 | 提前終止 | 3 | 抗心律不整藥物 vs 導管消融（僅收 3 人） |
+
+另有多個消融 vs 藥物比較試驗（部分已撤回或提前終止），資料價值有限。
+
+---
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | 系統性回顧 | Life (Basel) | 整理中國 CPVT 患者的臨床特徵、基因發現與心律不整結果，並與西方族群比較 |
-| [26513538](https://pubmed.ncbi.nlm.nih.gov/26513538/) | 2015 | Review | Expert Opin Pharmacother | 心室性心律不整藥物治療進展；抗心律不整藥物在急性轉復與慢性預防中仍重要 |
-| [39076628](https://pubmed.ncbi.nlm.nih.gov/39076628/) | 2022 | 世代研究 | Rev Cardiovasc Med | 中國城市 CPVT 患者的臨床特徵、基因基礎、醫療資源使用與費用 |
-| [30116135](https://pubmed.ncbi.nlm.nih.gov/30116135/) | 2018 | 病例報告 | Turk Pediatri Arsivi | 2 歲男童以心臟驟停表現，最後診斷為 CPVT |
-| [39735866](https://pubmed.ncbi.nlm.nih.gov/39735866/) | 2024 | 病例報告 | Front Cardiovasc Med | 青少年 CPVT 在左側心臟交感神經切除後，再做右側切除而成功控制 |
-| [29668588](https://pubmed.ncbi.nlm.nih.gov/29668588/) | 2018 | 病例報告 | Medicine | 9 歲兒童 RYR2 突變的 CPVT，延遲診斷 6 年 |
-| [22553997](https://pubmed.ncbi.nlm.nih.gov/22553997/) | 2012 | 病例報告 | PACE | CASQ2 突變的 CPVT 青少年，flecainide 抑制去顫器誘發的風暴 |
-| [37852665](https://pubmed.ncbi.nlm.nih.gov/37852665/) | 2023 | 病例報告 | BMJ Case Rep | 幼童院外心臟驟停，反覆室性心律不整，需偏離標準復甦流程 |
-| [17125720](https://pubmed.ncbi.nlm.nih.gov/17125720/) | 2006 | 病例報告 | Rev Esp Cardiol | CPVT 患者因 ICD 放電誘發心律不整風暴 |
-| [22218697](https://pubmed.ncbi.nlm.nih.gov/22218697/) | 2012 | 病例報告 | Anesth Analg | 長 QT 症候群新生兒的難治性心室頻脈，使用 lidocaine、esmolol 與 amiodarone 多重藥物治療 |
+| [27354046](https://pubmed.ncbi.nlm.nih.gov/27354046/) | 2017 | RCT | European Heart Journal | PROCAMIO：IV procainamide 與 amiodarone 用於可耐受的寬 QRS 心搏過速之安全性與療效比較 |
+| [20730062](https://pubmed.ncbi.nlm.nih.gov/20730062/) | 2010 | Review | Vasc Health Risk Manag | Amiodarone 是終止與預防 VF/VT 的主要抗心律不整藥物，電擊難治性心臟驟停時最有效 |
+| [36878200](https://pubmed.ncbi.nlm.nih.gov/36878200/) | 2023 | Review | Cardiology | 心室心律不整的藥物治療總覽 |
+| [28900864](https://pubmed.ncbi.nlm.nih.gov/28900864/) | 2017 | Review | Curr Cardiol Rep | ICD 電擊患者何時用藥、何時消融；抗心律不整藥療效不完全且副作用多 |
+| [9137212](https://pubmed.ncbi.nlm.nih.gov/9137212/) | 1997 | Review | J Am Coll Cardiol | 靜脈注射 amiodarone 的藥理與對惡性心室心律不整的療效 |
+| [30084131](https://pubmed.ncbi.nlm.nih.gov/30084131/) | 2018 | Cohort | Emerg Med Australas | 救護人員於院前給予 amiodarone 治療穩定性 VT 的安全性與療效 |
+| [41217320](https://pubmed.ncbi.nlm.nih.gov/41217320/) | 2026 | 子研究 | J Am Coll Cardiol | VANISH2 子研究：導管消融 vs sotalol 或 amiodarone |
+| [37380314](https://pubmed.ncbi.nlm.nih.gov/37380314/) | 2023 | 研究 | JACC Clin Electrophysiol | 消融 vs 升級抗心律不整藥物對 VT 與 ICD 治療負擔的影響 |
+| [10666663](https://pubmed.ncbi.nlm.nih.gov/10666663/) | 2000 | Review | Curr Opin Cardiol | Amiodarone 主要與次要預防試驗（EMIAT、CAMIAT 等）回顧 |
+| [8258259](https://pubmed.ncbi.nlm.nih.gov/8258259/) | 1993 | 病例 | Clin Pharm | Amiodarone 引起的甲狀腺功能異常 |
+
+---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-27296 | CORDARONE INJECTABLE SOLUTION 0.15G/3ML | SANOFI HONG KONG LIMITED |
-| HK-27294 | CORDARONE TAB 200MG | SANOFI HONG KONG LIMITED |
-| HK-66829 | AMIODARONE RIVOPHARM TABLETS 200MG | I & C (HONG KONG) LIMITED |
-| HK-65597 | AMIODARONE GP TABLETS 200MG | CNW (HK) LTD |
-| HK-60895 | AMIODARONE SANDOZ TAB 200MG | SANDOZ HONG KONG LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-27296 | CORDARONE INJECTABLE SOLUTION 0.15G/3ML（Sanofi） | 注射劑 | 資料未載明 |
+| HK-27294 | CORDARONE TAB 200MG（Sanofi） | 錠劑 | 資料未載明 |
+| HK-66829 | AMIODARONE RIVOPHARM TABLETS 200MG | 錠劑 | 資料未載明 |
+| HK-65597 | AMIODARONE GP TABLETS 200MG | 錠劑 | 資料未載明 |
+| HK-60895 | AMIODARONE SANDOZ TAB 200MG | 錠劑 | 資料未載明 |
+
+另有 HK-65675（AMIODARONE-HAMELN 注射濃縮液）與 HK-58487（ADARONE 錠 200MG），共 7 張許可證，皆為有效的單一成分製劑。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌或需謹慎疾病**（非仿單文字）：長 QT 症候群（含家族性）、尖端扭轉型心搏過速、房室傳導阻滯、病竇症候群、肝臟疾病與藥物性肝損傷、甲狀腺功能低下與亢進（含 Graves 病、甲狀腺毒症）、間質性肺病、嗜酸性肺炎、過敏性肺炎、周邊神經病變、視神經炎、角膜沉積、低血鉀等。
+- **藥物交互作用**：共查得 100 筆。主要（Major）等級包括 cisapride、clarithromycin、dolasetron、eliglustat、clotrimazole、dexamethasone、hydrocortisone、amphotericin B 各劑型、agalsidase beta 等；中度包括 famotidine、cimetidine、aprepitant、bisacodyl、budesonide 等。
+- **文獻提示的毒性**：肺毒性（纖維化、肺泡出血）、甲狀腺功能異常、QT 延長、低血壓。
+
+詳細警語與禁忌請參考原廠仿單。
+
+---
+
+## 其他預測適應症簡評
+
+| 排名 | 預測適應症 | 分數 | 證據等級 | 建議 |
+|------|-----------|------|---------|------|
+| 1 | CPVT | 99.78% | L4 | Hold：標準治療為 β 阻斷劑與 flecainide，amiodarone 通常被認為無效或較差 |
+| 2 | 持續性嬰兒心室心搏過速 | 99.65% | L2 | 研究問題：有 IV amiodarone 兒科 RCT（PMID 16316969），但多為上心室或交界性心搏過速，需留意嬰兒安全性 |
+| 4–9 | 舊版束支傳導阻滯、類風濕性關節炎、短指並指症候群、肝素輔因子 II 缺乏、拔毛症、眼缺損小眼畸形—肢根型發育不良症候群 | 99.2–99.6% | L5 | Hold：無試驗或文獻支持；部分文獻反映的是藥物不良反應 |
+| 10 | 痛風 | 99.19% | L5 | Hold：文獻多為藥物交互作用情境，非療效證據 |
+
+---
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：Proceed with Guardrails**（針對心室心搏過速）
 
 **理由：**
-- 沒有任何臨床試驗，文獻也多為病例報告，且只是附帶提到 amiodarone。CPVT 的有效藥物是 β 阻斷劑與 flecainide，amiodarone 只見於救援用藥的個案。
-- 高預測分數只代表模型的網路鄰近性，不能當作療效證據。
-
-**補充：** 同一份 Evidence Pack 中，第 3 位預測「心室頻脈 (Ventricular Tachycardia)」的證據明顯更強，證據等級 L1、建議 Proceed with Guardrails。它有 PROCAMIO 隨機試驗（PMID 27354046）、OPTIC 試驗（NCT00257959）與 Cochrane 系統性回顧支持。不過這是既有用途的確認，不是真正的老藥新用。若要選擇優先評估的方向，建議優先看該項。
+- 有 3 個已完成的 Phase 3 試驗（含 n=3024 的大型試驗）與多個 Phase 4 比較試驗，加上 RCT 文獻，證據等級為 L1，且屬於接近原適應症的使用。
+- 但 amiodarone 的毒性與交互作用負擔重，必須設定安全防護。
 
 **若要推進需要：**
-- 取得香港衛生署仿單的警語與禁忌症，安全性資料缺口為阻斷級，未補齊前無法進入安全性篩選
-- 補齊 Amiodarone 的作用機轉資料（可查詢 DrugBank）
-- 針對 CPVT 設計或蒐集 amiodarone 與 β 阻斷劑、flecainide 的比較資料
-- 評估兒童與年輕族群的長期安全性（甲狀腺、肺、肝、眼睛毒性與 QT 延長）
-
-*本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。*
+- 取得香港衛生署仿單，確認核准適應症、警語與禁忌（目前為阻擋性資料缺口）。
+- 補充詳細作用機轉（MOA）資料。
+- 建立監測計畫：肺功能、甲狀腺功能、肝功能、心電圖（QT 間期）、眼科檢查。
+- 針對 100 筆交互作用建立用藥審查流程，尤其是 Major 等級者。
+- 若考慮嬰兒心室心搏過速，需另行評估兒科劑量與安全性。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

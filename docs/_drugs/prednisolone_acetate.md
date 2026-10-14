@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Prednisolone Acetate
-parent: 中證據等級 (L3-L4)
-nav_order: 712
-evidence_level: L4
+parent: 僅模型預測 (L5)
+nav_order: 727
+evidence_level: L5
 indication_count: 5
 ---
 
 # Prednisolone Acetate
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ indication_count: 5
 
 </div>
 
-# Prednisolone Acetate：從眼科炎症到寄生蟲性結膜炎
+# Prednisolone Acetate：從葡萄膜炎與結膜炎到寄生蟲性結膜炎
 
 ## 一句話總結
 
-Prednisolone Acetate 是局部用皮質類固醇，在香港以眼用懸液劑及動物用耳滴劑上市，用於抗發炎。
-TxGNN 模型預測它可能對**寄生蟲性結膜炎 (Parasitic Conjunctivitis)** 有效，
-但目前**無臨床試驗**，僅有 **1 篇文獻**（一般性綜述），證據薄弱，僅屬模型預測層級。
+Prednisolone Acetate 是局部使用的皮質類固醇，原本用於葡萄膜炎、虹彩睫狀體炎、結膜炎等眼部發炎疾病。
+TxGNN 模型預測它可能對**寄生蟲性結膜炎 (Parasitic Conjunctivitis)** 有效（預測分數 99.74%），
+但目前**沒有直接支持的臨床試驗或文獻**，僅屬模型預測階段。
 
 ---
 
@@ -43,57 +43,52 @@ TxGNN 模型預測它可能對**寄生蟲性結膜炎 (Parasitic Conjunctivitis)
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證未登載適應症文字 |
+| 原適應症 | 葡萄膜炎、虹彩疾病、睫狀體疾病、全葡萄膜炎、結膜炎、虹彩睫狀體炎等（來自知識圖譜；香港許可證未載明適應症文字） |
 | 預測新適應症 | 寄生蟲性結膜炎 (Parasitic Conjunctivitis) |
 | TxGNN 預測分數 | 99.74% |
-| 證據等級 | L4 |
+| 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 4 張 |
 | 建議決策 | Hold |
-
-> 其他預測適應症：乳突狀結膜炎 (Papillary Conjunctivitis，99.72%，L4，有類別層級證據，列為 Research Question，為最具研究價值的方向)、非病毒性漿液性結膜炎 (L5)、慢性濾泡性結膜炎 (L4)、結膜濾泡症 (L5)，詳見下方說明。
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Prednisolone Acetate 屬於局部皮質類固醇，一般透過抑制發炎反應來減輕眼表疾病的症狀。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Prednisolone Acetate 是局部皮質類固醇，具有抗發炎作用，已用於多種眼部發炎疾病，包括一般結膜炎。機轉上，抑制發炎反應對寄生蟲性結膜炎的發炎成分可能有幫助。
 
-寄生蟲性結膜炎（例如 *Dirofilaria repens* 感染）的根本處理是移除寄生蟲，通常需手術取出。類固醇最多只能作為輔助用藥以減輕發炎，且在寄生蟲未清除時使用，可能使感染惡化。目前唯一檢索到的文獻是一篇人畜共通眼部感染的一般性綜述，並無 prednisolone 的療效資料。0.997 的高分僅是模型預測，不等於臨床有效。
+不過，類固醇無法處理寄生蟲感染的病因。若在沒有抗寄生蟲治療的情況下使用，反而可能使感染惡化。因此這個預測在臨床上只能視為「輔助控制發炎」的假說，不能單獨作為治療。
 
-相比之下，**乳突狀結膜炎**（過敏性、春季型、巨乳突性）屬免疫介導的發炎，局部類固醇是合理且常用的藥物類別，是這批預測中機轉最貼近的方向。
+另外值得注意，排名前四的預測（寄生蟲性、非病毒性漿液性、慢性濾泡性結膜炎、結膜濾泡增生）與既有結膜炎適應症高度相近，較像是既有適應症類別的重新標示，而非真正的藥物再利用。結膜濾泡增生常屬良性、非發炎性表現，使用類固醇的理由較弱。
 
 ---
 
 ## 臨床試驗證據
 
-**寄生蟲性結膜炎：** 目前無相關臨床試驗登記。
+針對首要預測（寄生蟲性結膜炎）：目前無相關臨床試驗登記。
 
-**其他預測適應症的相關試驗（間接證據）：**
+作為參考，排名第 5 的預測「乳突性結膜炎 (Papillary Conjunctivitis)」有 1 項間接相關試驗：
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT04705584](https://clinicaltrials.gov/study/NCT04705584) | NA | 未知 | 180 | 比較 Cyclosporine 2% 與 Tacrolimus 0.3% 治療頑固性春季角結膜炎，作為類固醇的替代方案；prednisolone 角色未確認 |
-| [NCT01437982](https://clinicaltrials.gov/study/NCT01437982) | Phase 4 | 完成 | 140 | Loteprednol 0.5% 眼用懸液的上市後安全性與療效監測；為不同藥物，僅支持同類藥物的安全性 |
+| [NCT01437982](https://clinicaltrials.gov/study/NCT01Ｕ437982) | Phase 4 | 完成 | 140 | Lotemax（loteprednol etabonate）0.5% 眼用懸液的上市後安全性監測；使用的是另一種類固醇，僅能間接參考，且未確認有乳突性結膜炎專屬的評估指標 |
 
 ---
 
 ## 文獻證據
 
-**寄生蟲性結膜炎：**
+針對首要預測（寄生蟲性結膜炎）：目前無相關文獻。
+
+作為參考，排名第 5 的預測「乳突性結膜炎」有以下文獻（多數針對 loteprednol etabonate 或其他疾病，並非 Prednisolone Acetate 本身）：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [26846596](https://pubmed.ncbi.nlm.nih.gov/26846596/) | 2016 | Review | Eye (London) | 新興眼部人畜共通感染 *Dirofilaria repens* 的綜述，無 prednisolone 專屬資料 |
-
-**乳突狀結膜炎（類別層級證據，節選）：**
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [26984315](https://pubmed.ncbi.nlm.nih.gov/26984315/) | 2016 | Review | Advances in Therapy | 局部眼用類固醇（loteprednol）對眼壓的影響，點出眼壓升高風險 |
-| [9713785](https://pubmed.ncbi.nlm.nih.gov/9713785/) | 1998 | Cohort | Journal of Glaucoma | Loteprednol 長期使用的眼壓變化；雙盲研究顯示對巨乳突性結膜炎有效 |
-| [29260110](https://pubmed.ncbi.nlm.nih.gov/29260110/) | 2017 | Retrospective case series | Am J Ophthalmol Case Rep | 藥物難治性巨乳突性結膜炎的手術切除結果 |
-| [18020605](https://pubmed.ncbi.nlm.nih.gov/18020605/) | 1998 | Review | BioDrugs | Loteprednol 在眼部發炎治療的臨床潛力 |
+| [26984315](https://pubmed.ncbi.nlm.nih.gov/26984315/) | 2016 | Review | Advances in Therapy | 局部眼用類固醇有升高眼壓的風險，loteprednol 的酯類結構可能降低此風險 |
+| [18020605](https://pubmed.ncbi.nlm.nih.gov/18020605/) | 1998 | Review | BioDrugs | Loteprednol etabonate 為「軟藥」設計，局部抗發炎且降低全身副作用 |
+| [9713785](https://pubmed.ncbi.nlm.nih.gov/9713785/) | 1998 | 臨床研究 | Journal of Glaucoma | 分析長期使用 loteprednol 的眼壓變化；先前雙盲研究顯示其對巨大乳突性結膜炎等有效 |
+| [29260110](https://pubmed.ncbi.nlm.nih.gov/29260110/) | 2017 | Cohort | Am J Ophthalmol Case Rep | 藥物難治性巨大乳突性結膜炎的手術切除結果 |
+| [12917176](https://pubmed.ncbi.nlm.nih.gov/12917176/) | 2003 | 臨床研究 | Ophthalmology | 局部 cyclosporine A 0.5% 用於上輪部角結膜炎的初步成效 |
+| [18724159](https://pubmed.ncbi.nlm.nih.gov/18724159/) | 2008 | Case report | Cornea | 菊池病相關乳突性結膜炎個案 |
 
 ---
 
@@ -101,18 +96,23 @@ TxGNN 模型預測它可能對**寄生蟲性結膜炎 (Parasitic Conjunctivitis)
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-19548 | 1% PRED FORTE STERILE OPHTH SUSP | 眼用懸液劑 | — |
-| HK-24139 | ECONOPRED PLUS OPHTHAL SUSP 1% | 眼用懸液劑 | — |
-| HK-67491 | MITEX EAR DROPS AND CUTANEOUS SUSPENSION FOR DOGS AND CATS (VET) | 動物用耳滴劑／皮膚懸液 | — |
-| HK-67882 | SUROLAN EAR DROPS AND CUTANEOUS SUSPENSION (VET) | 動物用耳滴劑／皮膚懸液 | — |
+| HK-19548 | 1% PRED FORTE STERILE OPHTH SUSP（Allergan） | 眼用懸液 | 未載明 |
+| HK-24139 | ECONOPRED PLUS OPHTHAL SUSP 1%（Novartis） | 眼用懸液 | 未載明 |
+| HK-67491 | MITEX EAR DROPS AND CUTANEOUS SUSPENSION FOR DOGS AND CATS（獸用） | 耳滴劑／皮膚用懸液 | 未載明 |
+| HK-67882 | SUROLAN EAR DROPS AND CUTANEOUS SUSPENSION（獸用） | 耳滴劑／皮膚用懸液 | 未載明 |
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（來自知識圖譜，非仿單內容）：
+  - 眼部：單純皰疹病毒角膜炎、開放角青光眼、高眼壓、眼部感染性疾病、黴菌性眼感染、病毒性眼感染、眼結核、角膜色素沉著
+  - 全身：糖尿病、糖尿病酮酸中毒、紫質症（含遺傳性）、G6PD 缺乏症、肝醣儲積症、胱胺酸尿症、半乳糖血症
 
-類別層級的文獻提示，局部眼用類固醇的主要顧慮是**眼壓升高**（可能導致青光眼），長期使用另有白內障風險。此外，若寄生蟲感染未先處理，使用類固醇可能使病況惡化。
+  其中「眼部感染性疾病」與本次預測的寄生蟲性結膜炎直接相關，需特別留意。
+- **長期使用風險**：文獻指出局部類固醇可能升高眼壓，長期使用也有白內障等疑慮，慢性結膜炎尤其需要注意。
+
+其餘警語、禁忌與藥物交互作用資訊，請參考原廠仿單。
 
 ---
 
@@ -121,18 +121,15 @@ TxGNN 模型預測它可能對**寄生蟲性結膜炎 (Parasitic Conjunctivitis)
 **決策：Hold**
 
 **理由：**
-- 寄生蟲性結膜炎的預測只有模型分數支持，唯一文獻是一般性綜述，且該病的主要處置是移除寄生蟲，類固醇僅可能作輔助，甚至有風險。
-- 相對地，乳突狀結膜炎有類別層級的支持，可另列為研究問題，但仍缺乏 prednisolone acetate 的直接證據。
+- 預測分數雖高（99.74%），但屬純模型預測（L5），沒有針對 Prednisolone Acetate 的直接試驗或文獻。類固醇無法治療寄生蟲病因，且知識圖譜將眼部感染列為禁忌，使用不當可能使感染惡化。
+- 多數預測與既有結膜炎適應症重疊，新增的再利用價值有限。
 
 **若要推進需要：**
-- 取得香港衞生署仿單的警語與禁忌資料（目前為阻擋性資料缺口）
-- 補齊作用機轉資料（例如查詢 DrugBank）
-- 針對 prednisolone acetate 的直接臨床研究，優先評估乳突狀結膜炎
-- 確認寄生蟲性結膜炎中類固醇作為輔助治療的臨床角色與感染風險
-
----
-
-*本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。*
+- 確認香港仿單核准的適應症文字與警語、禁忌
+- 補充 Prednisolone Acetate 的作用機轉資料
+- 針對寄生蟲性結膜炎搜尋直接證據，並評估「抗寄生蟲藥物＋類固醇」併用的合理性
+- 若轉向排名第 5 的乳突性結膜炎，需取得 Prednisolone Acetate 本身的對照研究，不宜僅以 loteprednol 的證據類推
+- 制訂眼壓與感染惡化的監測計畫
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

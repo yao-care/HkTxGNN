@@ -2,7 +2,7 @@
 layout: default
 title: Sofosbuvir
 parent: 僅模型預測 (L5)
-nav_order: 810
+nav_order: 825
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,86 +29,122 @@ indication_count: 5
 
 </div>
 
-# Sofosbuvir：從 C 型肝炎到 B 型肝炎病毒感染
+# Sofosbuvir：從慢性 C 型肝炎到 E 型肝炎（及其他病毒性肝炎）
 
 ## 一句話總結
 
-Sofosbuvir 是 C 型肝炎 (HCV) 直接作用抗病毒藥物，在香港以 Epclusa、Vosevi 兩種複方上市。
-TxGNN 模型預測它可能對 **B 型肝炎病毒感染 (Hepatitis B virus infection)** 有效。
-目前有 1 個直接針對 HBV 的 Phase 2 單臂試驗（21 人）可參考，但沒有 RCT，且多數文獻顯示的是 HBV 再活化風險，而非療效。
+Sofosbuvir 是 C 型肝炎病毒 (HCV) 的核苷酸類聚合酶抑制劑，原本用於慢性 C 型肝炎治療。
+TxGNN 模型對 B 型肝炎的預測分數最高，但綜合證據後，**E 型肝炎 (Hepatitis E virus infection)** 才是機轉與臨床線索較合理的方向。
+目前 E 型肝炎有 **2 個臨床試驗**（其中 1 個直接相關）和 **約 20 篇文獻**，但臨床效果並不穩定。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | B 型肝炎病毒感染 (Hepatitis B virus infection) |
-| TxGNN 預測分數 | 99.77% |
-| 證據等級 | L4（證據包評定） |
+| 原適應症 | 慢性 C 型肝炎病毒感染 (chronic hepatitis C virus infection) |
+| 預測新適應症 | B 型肝炎病毒感染 (TxGNN 排名第 1)；E 型肝炎為證據較佳的候選 |
+| TxGNN 預測分數 | B 型肝炎 99.77%；E 型肝炎 99.49% |
+| 證據等級 | B 型肝炎 L2（資料編譯結果；實為 HCV/HBV 共感染資料，不支持直接抗 HBV 療效）；E 型肝炎 L2 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 2 張 |
-| 建議決策 | Hold |
+| 建議決策 | B 型肝炎：Hold（僅屬研究問題）；E 型肝炎：Proceed with Guardrails |
+
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Sofosbuvir 是核苷酸類似物，抑制 HCV 的 NS5B RNA 聚合酶。HBV 則是靠反轉錄酶／DNA 聚合酶複製，所以機轉上沒有明確的直接抗病毒連結。
+目前缺乏詳細的作用機轉資料。根據已知資訊，sofosbuvir 是 HCV NS5B RNA 依賴性 RNA 聚合酶的核苷酸類似物抑制劑，其活性三磷酸代謝物可中止病毒 RNA 合成。
 
-TxGNN 的高分（99.77%）較可能反映知識圖譜中它與 HCV、肝炎的網絡鄰近性，而不是已知的抗 HBV 活性。
+**B 型肝炎：** HBV 是 DNA 病毒，透過 RNA 中間體以反轉錄酶/聚合酶複製，與 sofosbuvir 的作用標的並無明確的直接機轉關聯。TxGNN 的極高分數可能反映的是「肝炎／抗病毒」的共同脈絡，而非真正的抗 HBV 活性。現有臨床資料多為 HCV/HBV 共感染，重點在 HBV 再活化的安全風險，而非療效。不過，一項 Phase 2 研究 (ledipasvir/sofosbuvir 用於 HBV 單一感染) 觀察到 HBsAg 的些微下降，僅屬探索性訊號。
 
-臨床上確實有一個訊號：Phase 2 單臂研究（PMID 36045503）觀察到，HBV 單一感染者使用 ledipasvir/sofosbuvir 後 HBsAg 有小幅下降。這來自 HBV/HCV 共感染者的回溯觀察，但樣本小、無對照組，不足以證明療效。另一方面，多項研究報告 HCV 清除後出現 HBV 再活化，安全性訊號與預測方向相反。
+**E 型肝炎：** HEV 是正股單股 RNA 病毒，複製依賴 RNA 依賴性 RNA 聚合酶，機轉上對核苷酸類似物具潛在敏感性。體外研究顯示 sofosbuvir 可抑制 HEV 複製，與 ribavirin 併用有加成效果；兔子模型中高劑量 sofosbuvir 亦有抑制作用。然而臨床上，慢性 E 型肝炎病人使用後病毒量雖初期下降，卻未達持續病毒學反應，並曾觀察到抗藥性相關變異。
+
+**其他：** A 型肝炎僅有體外證據；Omsk 出血熱 (同屬黃病毒科) 僅有理論推測，無任何研究；「動物病毒性肝炎」並非具臨床意義的人類適應症。
+
+---
 
 ## 臨床試驗證據
 
-證據包列出的 50 個試驗中，絕大多數是 HCV 療效或給藥模式研究，與 HBV 療效無關。下表僅列與 HBV 直接相關者：
+以下以 E 型肝炎 (證據較佳的候選) 為主，並附 B 型肝炎中相關性較高的試驗。
+
+**E 型肝炎**
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT03312023](https://clinicaltrials.gov/study/NCT03312023) | Phase 2 | 完成 | 21 | Ledipasvir/sofosbuvir 12 週用於 HBV 感染者，評估 HBsAg 與 HBV DNA 變化 |
-| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Phase 2/3 | 完成 | 23 | HCV/HBV 共感染者接受抗 HCV 藥物期間，HBV 再活化的發生率與危險因子 |
-| [NCT02613871](https://clinicaltrials.gov/study/NCT02613871) | Phase 3 | 完成 | 111 | 台灣 HCV/HBV 共感染者使用 ledipasvir/sofosbuvir 的抗病毒療效與安全性（主要終點為 HCV） |
-| [NCT04997564](https://clinicaltrials.gov/study/NCT04997564) | Phase 4 | 未知 | 120 | 中國 HCV/HBV 共感染者使用 SOF/VEL 並預防性併用 TAF，監測 HBV 再活化 |
+| [NCT03282474](https://clinicaltrials.gov/study/NCT03282474) | Phase 2 | 完成 | 10 | HepNet 單臂前導試驗，sofosbuvir 治療慢性 E 型肝炎；已發表結果顯示病毒量初期下降，但無持續病毒學反應 |
+| [NCT03549312](https://clinicaltrials.gov/study/NCT03549312) | Phase 4 | 未知 | 25 | HIV/HCV 共感染病人轉換抗病毒方案研究，與 HEV 關聯薄弱且間接 |
+
+**B 型肝炎（相關性較高者）**
+
+| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
+|---------|------|------|------|---------|
+| [NCT03312023](https://clinicaltrials.gov/study/NCT03312023) | Phase 2 | 完成 | 21 | Ledipasvir/sofosbuvir 12 週用於 HBV 感染者，單臂小型研究 |
+| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Phase 2/3 | 完成 | 23 | HCV/HBV 共感染接受直接抗病毒藥物，評估 HBV 再活化，並非 HBV 療效 |
+| [NCT04997564](https://clinicaltrials.gov/study/NCT04997564) | Phase 4 | 未知 | 120 | SOF/VEL 合併預防性 TAF，用於 HCV/HBV 共感染，重點為管理 HBV 再活化 |
+
+其餘 B 型肝炎與 A 型肝炎名下列出的試驗，多為 HCV 治療或公共衛生計畫，與該新適應症無直接關聯，故不列入。動物病毒性肝炎與 Omsk 出血熱目前無相關臨床試驗登記。
+
+---
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [36045503](https://pubmed.ncbi.nlm.nih.gov/36045503/) | 2023 | Phase 2 單臂試驗 | J Med Virol | HBV 單一感染者使用 LDV/SOF 12 週，以 HBsAg 下降為主要終點，訊號有限 |
-| [34864948](https://pubmed.ncbi.nlm.nih.gov/34864948/) | 2022 | 追蹤研究 | Clin Infect Dis | 台灣 HCV/HBV 共感染者使用 LDV/SOF 後追蹤 108 週，評估 HBV 再活化 |
-| [31722032](https://pubmed.ncbi.nlm.nih.gov/31722032/) | 2020 | 世代研究 | Trans R Soc Trop Med Hyg | 埃及 HCV 與 HCV/HBV 共感染者使用 sofosbuvir/daclatasvir 的療效 |
-| [29334502](https://pubmed.ncbi.nlm.nih.gov/29334502/) | 2018 | 研究 | J Clin Gastroenterol | 評估 ledipasvir-sofosbuvir 治療期間 HBV 再活化的風險 |
-| [33523503](https://pubmed.ncbi.nlm.nih.gov/33523503/) | 2021 | 前瞻觀察研究 | J Viral Hepat | 癌症病人接受抗 HCV 藥物期間的 HBV 再活化 |
-| [33031326](https://pubmed.ncbi.nlm.nih.gov/33031326/) | 2020 | 病例報告＋文獻回顧 | Medicine | Sofosbuvir＋ribavirin 治癒 HCV 後發生 HBV 再活化 |
-| [37517414](https://pubmed.ncbi.nlm.nih.gov/37517414/) | 2023 | 流行病學模型 | Lancet Gastroenterol Hepatol | 2022 年全球 HBV 盛行率與照護cascade（背景資料） |
+| [35814503](https://pubmed.ncbi.nlm.nih.gov/35814503/) | 2022 | Review | J Clin Exp Hepatol | 整理 sofosbuvir 治療 E 型肝炎的體外與體內證據 |
+| [37334496](https://pubmed.ncbi.nlm.nih.gov/37334496/) | 2023 | 試驗分析 | Hepatology | NCT03282474 試驗中，治療使病毒量初期下降但未達持續反應，並出現抗藥性相關變異 |
+| [36942308](https://pubmed.ncbi.nlm.nih.gov/36942308/) | 2023 | 病例報告 | IDCases | Ribavirin 難治的持續性 HEV，使用 ledipasvir/sofosbuvir 加 ribavirin 後有反應 |
+| [31404927](https://pubmed.ncbi.nlm.nih.gov/31404927/) | 2019 | 病例系列 | Open Forum Infect Dis | 3 位器官移植者在 ribavirin 失敗後加用 sofosbuvir，未達持續病毒學反應 |
+| [26408347](https://pubmed.ncbi.nlm.nih.gov/26408347/) | 2016 | 體外研究 | Gastroenterology | Sofosbuvir 抑制 HEV 基因型 3 複製，與 ribavirin 有加成效果 |
+| [35247472](https://pubmed.ncbi.nlm.nih.gov/35247472/) | 2022 | 動物/體外 | Antiviral Res | 高劑量 sofosbuvir 及合併 ribavirin 在兔子急性 HEV 模型中抑制病毒複製 |
+| [36045503](https://pubmed.ncbi.nlm.nih.gov/36045503/) | 2023 | Phase 2 | J Med Virol | Ledipasvir/sofosbuvir 用於 HBV 單一感染者，觀察 HBsAg 下降 |
+| [29653132](https://pubmed.ncbi.nlm.nih.gov/29653132/) | 2018 | 體外研究 | Antiviral Res | Sofosbuvir 在細胞模型中抑制 A 型肝炎病毒複製 |
+| [33523503](https://pubmed.ncbi.nlm.nih.gov/33523503/) | 2021 | 前瞻性觀察 | J Viral Hepat | 癌症病人接受 HCV 直接抗病毒藥物時的 HBV 再活化風險 |
+| [31542053](https://pubmed.ncbi.nlm.nih.gov/31542053/) | 2019 | 病例報告 | J Med Case Rep | SOF/VEL 治療 HCV 期間發生 HBV 再活化 |
+
+---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-65046 | EPCLUSA TABLETS 400MG/100MG | GILEAD SCIENCES HONG KONG LIMITED |
-| HK-65775 | VOSEVI TABLETS | GILEAD SCIENCES HONG KONG LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-65046 | EPCLUSA TABLETS 400MG/100MG | 錠劑 | （資料未載明） |
+| HK-65775 | VOSEVI TABLETS | 錠劑 | （資料未載明） |
+
+兩張許可證均由 Gilead Sciences Hong Kong Limited 持有，狀態皆為有效。
+
+---
 
 ## 安全性考量
 
-證據包中沒有仿單警語、禁忌症與藥物交互作用資料，請參考原廠仿單。
+- **藥物交互作用**：共查得 8 項，其中：
+  - **重大 (Major)**：Apalutamide、Enzalutamide、Lorlatinib
+  - **中度 (Moderate)**：Fostamatinib、Warfarin、Dicoumarol、Encorafenib
+  - **輕微 (Minor)**：Cyclosporine
+- **HBV 再活化**：現有文獻一致指出，HCV/HBV 共感染者接受 sofosbuvir 為基礎的直接抗病毒藥物時，有 HBV 再活化風險，通常需搭配 HBV 核苷（酸）類似物（如 TAF）預防。
 
-- **HBV 再活化（文獻訊號）**：多篇研究顯示，HBV 感染者或曾暴露者在使用含 sofosbuvir 的 HCV 治療期間或之後，可能發生 HBV 再活化（如 PMID 33031326、29334502、33523503）。這與「用於治療 HBV」的方向直接衝突。
+其他警語與禁忌症請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：**
+- **E 型肝炎：Proceed with Guardrails**
+- **B 型肝炎：Hold（僅屬研究問題）**
+- **A 型肝炎、Omsk 出血熱、動物病毒性肝炎：Hold**
 
 **理由：**
-- Sofosbuvir 與 HBV 複製機轉沒有直接連結，TxGNN 高分較可能來自網絡鄰近性。
-- 唯一直接相關的是小型單臂 Phase 2 研究，證據不足以支持療效。
-- 文獻中的 HBV 再活化訊號，使安全性顧慮高於潛在效益。
+- B 型肝炎雖然 TxGNN 分數最高，但機轉上缺乏直接依據，現有臨床資料主要是共感染與再活化安全議題，並非療效證據。
+- E 型肝炎有機轉合理性、體外及動物證據及一項直接臨床前導試驗，但臨床結果顯示無持續病毒學反應並有抗藥性變異，因此只適合在嚴格監測下作為 ribavirin 難治病人的探索性選項，而非常規適應症。
 
 **若要推進需要：**
-- 取得香港衛生署仿單的警語與禁忌症，並完成 S1 安全性篩選。
-- 補充 DrugBank 的作用機轉資料。
-- 取得 NCT03312023 的完整結果，評估 HBsAg 下降幅度是否具臨床意義。
-- 若仍要探索，需有 HBV 單一感染者的對照試驗，並納入再活化監測計畫。
-- 同一藥物的預測中，**E 型肝炎病毒感染**（排名第 2，體外與小型病例報告有證據，證據等級 L3）機轉合理性較高，可優先評估。
-
-*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。*
+- 取得香港核准適應症文字與仿單的警語、禁忌症資料
+- 取得詳細作用機轉資料（MOA）
+- E 型肝炎：設計較大規模、有對照組的試驗，評估 sofosbuvir 合併 ribavirin 的療效及抗藥性風險，並釐清最適劑量
+- B 型肝炎：需先有獨立的機轉或體外證據，才有必要投入臨床研究；同時確認 HBV 再活化的篩檢與預防流程
+- 針對 A 型肝炎等僅有體外或理論依據的方向，需先累積前臨床及動物證據
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

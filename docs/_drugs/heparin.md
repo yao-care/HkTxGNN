@@ -2,7 +2,7 @@
 layout: default
 title: Heparin
 parent: 僅模型預測 (L5)
-nav_order: 427
+nav_order: 435
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,74 +29,104 @@ indication_count: 2
 
 </div>
 
-# Heparin（肝素）：從抗凝血藥到蛋白 C 缺乏所致血栓形成傾向
+# Heparin：從肺栓塞與瀰漫性血管內凝血到原發性蛋白 C 缺乏血栓傾向症
 
 ## 一句話總結
 
-Heparin 是一種抗凝血藥，在香港已有多張上市許可證。
-TxGNN 模型預測它可能對**體染色體隱性蛋白 C 缺乏所致血栓形成傾向 (Thrombophilia due to protein C deficiency, autosomal recessive)** 有效。
-目前**沒有任何臨床試驗或文獻**直接支持這個預測，只有模型分數。
+Heparin（肝素）是常用的抗凝血藥物，原本用於肺栓塞、瀰漫性血管內凝血、猛爆性紫斑症等疾病。
+TxGNN 模型預測它可能對**體染色體隱性蛋白 C 缺乏所致血栓傾向症 (Thrombophilia due to protein C deficiency, autosomal recessive)** 有效。
+目前**沒有臨床試驗與文獻**直接支持這個方向，僅有模型預測與機轉推論。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 體染色體隱性蛋白 C 缺乏所致血栓形成傾向 (Thrombophilia due to protein C deficiency, autosomal recessive) |
+| 原適應症 | 肺栓塞、瀰漫性血管內凝血、猛爆性紫斑症（來自知識圖譜；香港許可證未載明適應症文字） |
+| 預測新適應症 | 體染色體隱性蛋白 C 缺乏所致血栓傾向症 (Thrombophilia due to protein C deficiency, autosomal recessive) |
 | TxGNN 預測分數 | 99.29% |
-| 證據等級 | L5（僅有模型預測） |
+| 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料，資料庫中也未收錄原適應症。就一般藥理知識，Heparin 會增強抗凝血酶 (antithrombin) 的作用，進而抑制凝血酶 (thrombin) 與第 Xa 因子。
+目前缺乏詳細的作用機轉資料。就一般藥理而言，Heparin 會增強抗凝血酶 (antithrombin) 對凝血酶與第 Xa 因子的抑制作用，進而降低血液凝固性。
 
-蛋白 C 缺乏會讓體內天然抗凝機制減弱，造成血栓形成傾向。抗凝治療也常用於嚴重蛋白 C 缺乏的處置。因此在機轉上，Heparin 用於此類血栓形成傾向是說得通的。
+蛋白 C 缺乏症患者因為缺少蛋白 C 的天然抗凝血活性，容易處於高凝血狀態。Heparin 的作用可能部分彌補這項缺失。Heparin 的原適應症包含猛爆性紫斑症，而這正是嚴重（同型合子）蛋白 C 缺乏的重症表現之一，兩者在病理上有關聯。
 
-不過，這只是模型分數與機轉推論。本次資料中沒有任何直接證據支持，原適應症與機轉資料也都缺漏，因此只能視為「僅有預測」的訊號。
+不過這個推論只建立在模型預測分數與機轉推理上，沒有針對此適應症的試驗或文獻佐證，需要更直接的證據才能確認。
+
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
-目前無相關文獻。
+目前沒有文獻直接針對此預測適應症。
+
+---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-10765 | HEPARIN (LEO) INJ 1000U/ML | DKSH HONG KONG LIMITED |
-| HK-57802 | HEPARIN SODIUM INJ 1,000 IU/ML | PFIZER CORPORATION HONG KONG LIMITED |
-| HK-27750 | MULTIPARIN INJ 5000 UNITS/ML | LUEN CHEONG HONG LTD |
-| HK-33423 | REPARCOL CREAM 250U/G（外用乳膏） | MEYER PHARMACEUTICALS LTD |
-| HK-64529 | VAXCEL HEPARIN SODIUM SOLUTION FOR INJECTION 5000IU/ML | KOTRA PHARMA (HONG KONG) COMPANY |
+香港共有 20 張有效的單一成分許可證，以下列出 5 張主要許可證，其餘許可證未列出。這些許可證的核准適應症文字與劑型欄位皆無資料。
 
-上表僅列出 20 張許可證中的 5 張。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-10765 | HEPARIN (LEO) INJ 1000U/ML | 注射劑 | 未載明 |
+| HK-57802 | HEPARIN SODIUM INJ 1,000 IU/ML | 注射劑 | 未載明 |
+| HK-27750 | MULTIPARIN INJ 5000 UNITS/ML | 注射劑 | 未載明 |
+| HK-64529 | VAXCEL HEPARIN SODIUM SOLUTION FOR INJECTION 5000IU/ML | 注射劑 | 未載明 |
+| HK-15279 | HEPARIN INJ 5000 IU/ML (LEO) | 注射劑 | 未載明 |
+
+另有多張外用乳膏、軟膏許可證（例如 HK-33423、HK-31672、HK-61130），僅供局部使用，不適用於本次全身性適應症的評估。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（來自藥物與疾病關聯資料，並非仿單文字）：
+  - 出血與凝血相關：血友病、凝血疾病、血小板低下、肝素引起的血小板低下症 (HIT)、抗凝血酶 III 缺乏、顱內出血、腦出血、胎盤早期剝離、Glanzmann 血小板無力症、血小板質的缺陷
+  - 消化道：活動性消化性潰瘍、潰瘍性結腸炎、發炎性腸道疾病
+  - 其他：肝衰竭、膽道疾病、阻塞性黃疸、骨質疏鬆症、感染性心內膜炎、視網膜疾病（含糖尿病視網膜病變、高血壓視網膜病變）、閉塞性動脈硬化症
+- **藥物交互作用**：資料庫共有 100 筆交互作用紀錄，以下為部分範例。
+  - 中度：Acetylsalicylic acid（阿斯匹靈）、Glimepiride、Glipizide、Glyburide、Repaglinide、Nateglinide 等降血糖藥物，以及 Fenfluramine、Sibutramine
+  - 等級未知：Mesalazine、Doxycycline、Pantoprazole、Calcitriol 等
+
+仿單上的警語與禁忌尚待取得，請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- TxGNN 分數很高（99.29%），機轉上也說得通，但沒有任何臨床試驗或文獻佐證，證據等級只有 L5。
-- 原適應症、作用機轉與安全性資料都缺漏，現階段無法進入安全性篩選。
+- 此預測雖然分數高 (99.29%)，但目前沒有任何臨床試驗或文獻佐證，證據等級僅為 L5。
+- 作用機轉資料與香港仿單安全資料尚缺，無法進行安全性篩選。
 
 **若要推進需要：**
-- 針對性檢索：蛋白 C 缺乏、暴發性紫癜 (purpura fulminans)、新生兒血栓等主題的臨床試驗與文獻。
-- 補齊 Heparin 的作用機轉（可查詢 DrugBank）。
-- 取得香港衞生署仿單，確認核准適應症、警語與禁忌症。
-- 評估劑型與給藥途徑是否適用於目標族群（特別是新生兒或嚴重病例）。
+- 取得 Heparin 的詳細作用機轉資料（DrugBank）
+- 下載並解析香港衛生署的仿單，取得警語與禁忌
+- 搜尋 Heparin 用於蛋白 C 缺乏症（含新生兒猛爆性紫斑症）的病例報告、系統性回顧或治療指引
+- 與現行標準治療（如蛋白 C 濃縮製劑、維生素 K 拮抗劑）比較其角色
+- 評估出血風險及 HIT 風險，並制定監測計畫
 
-**補充：**排名第 2 的預測「血小板釋放障礙 (primary release disorder of platelets)」目前只有間接證據（等級 L4，決策同為 Hold）。該疾病本身有出血傾向，而 Heparin 會增加出血風險，機轉方向可疑，不建議優先推進。
+---
 
-> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證後才能應用。
+### 附註：另一個預測適應症（原發性血小板釋放障礙）
+
+模型也預測 Heparin 可能對**原發性血小板釋放障礙 (Primary release disorder of platelets)** 有效（分數 99.06%，證據等級 L5，建議 Hold）。目前沒有臨床試驗，檢索到的文獻多為凝血、HIT、血栓及重症醫學的一般性綜述，並未探討 Heparin 治療此疾病。
+
+血小板釋放障礙屬於出血傾向的血小板功能缺陷，而 Heparin 是增加出血風險的抗凝劑，也可能引起 HIT 等血小板相關併發症。機轉上找不到合理的連結，高分可能來自網絡鄰近性而非真正的治療訊號。在取得直接證據前不建議推進。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Baclofen
-parent: 中證據等級 (L3-L4)
-nav_order: 92
-evidence_level: L4
+parent: 僅模型預測 (L5)
+nav_order: 94
+evidence_level: L5
 indication_count: 2
 ---
 
 # Baclofen
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,109 @@ indication_count: 2
 
 </div>
 
-# Baclofen：從已上市藥物到注意力不足過動症
+# Baclofen：從痙攣（原適應症資料缺漏）到注意力不足過動症／尼古丁依賴
+
+注意：本報告依資料以 predicted_indications[0]（注意力不足過動症）為主要預測。另一個排名第 2 的預測（尼古丁依賴）證據明顯較多，我也一併列出供參考。
 
 ## 一句話總結
 
-Baclofen 是 GABA-B 受體促效劑，已在香港取得 12 張許可證。
-TxGNN 模型預測它可能對**注意力不足過動症 (Attention Deficit-Hyperactivity Disorder, ADHD)** 有效。
-目前**沒有臨床試驗**，檢索到的 10 篇文獻中沒有任何一篇在測試 baclofen 用於 ADHD，這個預測只有模型分數支持。
+Baclofen 是 GABA-B 受體促效劑，在香港有 12 張有效許可證，但本次彙整的資料中未載明核准適應症文字。
+TxGNN 模型預測它可能對**注意力不足過動症 (ADHD)** 有效（分數 99.3%），但目前**沒有臨床試驗**，且 9 篇文獻中沒有任何一篇直接研究 baclofen 用於 ADHD。
+另一個預測**尼古丁依賴 (Nicotine Dependence)** 有 **3 個 Phase 2 臨床試驗**和多篇文獻，證據相對較多。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 注意力不足過動症 (ADHD) |
+| 原適應症 | 本次彙整資料中未載明 |
+| 預測新適應症 | 注意力不足過動症 (Attention Deficit-Hyperactivity Disorder) |
 | TxGNN 預測分數 | 99.32% |
-| 證據等級 | L4 |
+| 證據等級 | L5（僅有模型預測） |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 12 張 |
 | 建議決策 | Hold |
 
+**對照：尼古丁依賴**（TxGNN 分數 99.19%，證據等級 L2，建議為「研究問題」，需審慎看待，因試驗規模小且多數提前終止）。
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Baclofen 屬於 GABA-B 受體促效劑，以下是背景藥理推論。
+目前缺乏詳細的作用機轉資料。已知 baclofen 是 GABA-B 受體促效劑，可能調節皮質與紋狀體的興奮／抑制平衡以及多巴胺訊號，而這些與衝動性和注意力有關。但這是依機轉所做的推論，並未被現有證據證實。
 
-GABA 的抑制作用可能調節單胺類與皮質-紋狀體迴路。這些迴路與衝動性和抽動有關，理論上可能影響 ADHD 的部分症狀。
+檢索到的文獻主要涉及成人 ADHD 的 methylphenidate 處方、妥瑞氏症與抽動症治療，以及齧齒類動物的衝動決策神經迴路研究。這些與 baclofen 治療 ADHD 並無直接關聯。模型的高分可能來自與妥瑞氏症等神經精神疾病在知識圖譜上的相近性。
 
-不過，檢索到的文獻多為抽動症（Tourette syndrome）與 ADHD 藥物的綜述，或大鼠的衝動決策、腦電圖研究。沒有任何研究直接在 ADHD 患者身上測試 baclofen。0.993 的分數只是知識圖譜的預測，不能當成療效證據。
+至於尼古丁依賴，GABA-B 活化可抑制中腦邊緣多巴胺釋放與獎賞訊號，機轉上能合理解釋對尼古丁獎賞、渴求與戒斷的影響。大鼠實驗也顯示 baclofen 可減弱尼古丁的獎賞效應與戒斷表現。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記。
+**注意力不足過動症：** 目前無相關臨床試驗登記。
+
+**尼古丁依賴（對照）：**
+
+| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
+|---------|------|------|------|---------|
+| [NCT01228994](https://clinicaltrials.gov/study/NCT01228994) | Phase 2 | 提前終止 | 6 | 檢驗 baclofen 對吸菸者戒菸的效果是否優於安慰劑；僅 6 人，無法評估療效 |
+| [NCT00257894](https://clinicaltrials.gov/study/NCT00257894) | Phase 2 | 提前終止 | 41 | 評估 baclofen 對中重度吸菸者吸菸衝動、戒斷與強化效果的影響；提前終止，解讀受限 |
+| [NCT01821560](https://clinicaltrials.gov/study/NCT01821560) | Phase 2 | 完成 | 44 | 以 fMRI 探討 baclofen 對吸菸者腦部與行為反應的影響；規模小，終點非明確戒菸結果 |
+
+所提供的紀錄中沒有療效結果，故臨床效益無法確認。
 
 ## 文獻證據
 
+**注意力不足過動症（皆非直接研究 baclofen 於 ADHD）：**
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [10342599](https://pubmed.ncbi.nlm.nih.gov/10342599/) | 1999 | 病例系列（資料庫標為 Review） | J Child Neurol | 450 位抽動症／妥瑞氏症患者接受 baclofen 與肉毒桿菌毒素 A 治療，以耶魯整體抽動嚴重度量表評估。針對的是抽動，不是 ADHD，且合併其他藥物 |
-| [35345730](https://pubmed.ncbi.nlm.nih.gov/35345730/) | 2022 | Review/Meta-analysis | Cureus | 比較行為介入、抗精神病藥與 α 促效劑對妥瑞氏症抽動的療效。ADHD 只是常見共病 |
-| [26366961](https://pubmed.ncbi.nlm.nih.gov/26366961/) | 2015 | Review | Clin Neuropharmacol | 自閉症譜系兒童與青少年的情緒穩定劑回顧，涉及易怒與注意力不足等行為問題。摘要未見 baclofen 用於 ADHD 的資料 |
-| [11393328](https://pubmed.ncbi.nlm.nih.gov/11393328/) | 2001 | Review | Paediatr Drugs | 妥瑞氏症臨床特徵與治療策略，一線抽動抑制藥物包含 clonidine 等，屬間接相關 |
-| [24295630](https://pubmed.ncbi.nlm.nih.gov/24295630/) | 2013 | Review | Int Rev Neurobiol | 妥瑞氏症新興治療展望，提到 ADHD 為常見共病，屬間接相關 |
-| [24062084](https://pubmed.ncbi.nlm.nih.gov/24062084/) | 2014 | 前臨床（大鼠） | Psychopharmacology | 刺激腹側海馬 α2A 腎上腺素受體可降低衝動決策。研究藥物是 guanfacine，不是 baclofen |
-| [21300040](https://pubmed.ncbi.nlm.nih.gov/21300040/) | 2011 | 前臨床（大鼠） | Brain Res | 比較自發性高血壓大鼠（ADHD 模型）與對照組對神經傳導物質促效劑的腦電圖反應，屬機轉研究 |
-| [24496320](https://pubmed.ncbi.nlm.nih.gov/24496320/) | 2014 | 前臨床（大鼠） | Neuropsychopharmacology | 前扣帶皮質與基底外側杏仁核在認知努力成本效益決策中的角色，與 baclofen 無直接關聯 |
-| [24103016](https://pubmed.ncbi.nlm.nih.gov/24103016/) | 2013 | 前臨床（大鼠） | Eur J Neurosci | 韁核功能對大鼠社會性遊戲行為的必要性，與 baclofen 無直接關聯 |
-| [30122296](https://pubmed.ncbi.nlm.nih.gov/30122296/) | 2019 | 臨床評論 | L'Encephale | 成人 ADHD 的 methylphenidate 標示外使用管理。討論的是 methylphenidate，不是 baclofen |
+| [30122296](https://pubmed.ncbi.nlm.nih.gov/30122296/) | 2019 | Review | L'Encephale | 成人 ADHD 的 methylphenidate 超適應症處方管理 |
+| [24295630](https://pubmed.ncbi.nlm.nih.gov/24295630/) | 2013 | Review | Int Rev Neurobiol | 妥瑞氏症新興治療策略 |
+| [11393328](https://pubmed.ncbi.nlm.nih.gov/11393328/) | 2001 | Review | Paediatr Drugs | 妥瑞氏症臨床特徵與處置策略 |
+| [35345730](https://pubmed.ncbi.nlm.nih.gov/35345730/) | 2022 | Review | Cureus | 行為介入、抗精神病藥與 α 促效劑治療妥瑞氏症抽動 |
+| [10342599](https://pubmed.ncbi.nlm.nih.gov/10342599/) | 1999 | Review | J Child Neurol | 450 名抽動症／妥瑞氏症患者使用 baclofen／肉毒桿菌毒素治療的報告 |
+| [24062084](https://pubmed.ncbi.nlm.nih.gov/24062084/) | 2014 | 動物實驗 | Psychopharmacology | α2A 腎上腺素受體刺激可降低衝動決策 |
+
+**尼古丁依賴（對照，節選）：**
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [29250815](https://pubmed.ncbi.nlm.nih.gov/29250815/) | 2018 | Review | Pharmacotherapy | 現有與新興戒菸藥物治療 |
+| [24654737](https://pubmed.ncbi.nlm.nih.gov/24654737/) | 2014 | Review | Expert Opin Emerg Drugs | 菸害依賴新興藥物 |
+| [11841892](https://pubmed.ncbi.nlm.nih.gov/11841892/) | 2002 | Review | Drug Alcohol Depend | GABA-B 促效劑可能降低多種成癮藥物的使用 |
+| [24553576](https://pubmed.ncbi.nlm.nih.gov/24553576/) | 2014 | 動物實驗 | Psychopharmacology | Baclofen 減弱尼古丁獎賞與戒斷表現 |
+| [18682277](https://pubmed.ncbi.nlm.nih.gov/18682277/) | 2008 | 動物實驗 | Neurosci Lett | 不同劑量 baclofen 對大鼠尼古丁條件性位置偏好的影響 |
+| [19250803](https://pubmed.ncbi.nlm.nih.gov/19250803/) | 2009 | 動物實驗 | Eur Neuropsychopharmacol | Baclofen 預防尼古丁尋求行為復發 |
+| [25868070](https://pubmed.ncbi.nlm.nih.gov/25868070/) | 2015 | RCT（摘要） | Neuropsychopharmacology | Baclofen 用於酒精與尼古丁共病依賴的雙盲安慰劑對照試驗 |
 
 ## 香港上市資訊
 
-香港共有 12 張許可證，以下列出 5 張。資料中沒有劑型與核准適應症文字。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-66213 | BACLOFEN INTRATHECAL SINTETICA 輸注液 40MG/20ML | 未載明 | 未載明 |
+| HK-66245 | BACLOFEN INTRATHECAL SINTETICA 輸注液 10MG/5ML | 未載明 | 未載明 |
+| HK-56406 | APT-BACLOFEN TAB 10MG | 錠劑 | 未載明 |
+| HK-51460 | LIORESAL INTRATHECAL INJ 10MG/5ML | 注射劑 | 未載明 |
+| HK-00226 | LIORESAL 10 TAB 10 MG | 錠劑 | 未載明 |
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-66213 | BACLOFEN INTRATHECAL SINTETICA SOLUTION FOR INFUSION 40MG/20ML | MEKIM LTD |
-| HK-66245 | BACLOFEN INTRATHECAL SINTETICA SOLUTION FOR INFUSION 10MG/5ML | MEKIM LTD |
-| HK-56406 | APT-BACLOFEN TAB 10MG | APT PHARMA LIMITED |
-| HK-66246 | BACLOFEN INTRATHECAL SINTETICA SOLUTION FOR INJECTION 0.05MG/1ML | MEKIM LTD |
-| HK-56975 | FENISAL TAB 10MG | NATURAL HEALTH RESOURCES COMPANY LIMITED |
+香港共有 12 張有效單一成分許可證，上表僅列出其中 5 張。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病（非仿單內容）：** 癲癇、腎臟疾病、精神疾患（含思覺失調症、思覺失調情感性疾患）、腦血管疾患與腦中風、自律神經疾患（含自律神經反射異常）、膀胱頸部疾病等。
+- **藥物交互作用：** 共查得 100 筆。主要為嚴重等級的 Morphine（含脂質體嗎啡）；中度等級包括 Dronabinol、Metoclopramide、Nabilone、Opium、Sibutramine、Difenoxin、Diphenoxylate。多為中樞神經抑制相關，合併使用需特別留意。
+
+其他警語與仿單禁忌請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：Hold（注意力不足過動症）**
 
 **理由：**
-ADHD 這個方向沒有臨床試驗，文獻只有綜述、間接相關報告與前臨床研究，證據等級僅 L4。高預測分數不足以支持推進。
-
-**補充說明：** 同一份 Evidence Pack 中，第 2 順位預測適應症**尼古丁依賴 (nicotine dependence)** 的證據明顯較強。它有 3 個 Phase 2 試驗（其中 1 個已完成，2 個提前終止）和多篇前臨床研究，證據等級 L2。若要優先投入資源，建議先評估這個方向。
+- ADHD 的預測僅有模型分數，沒有臨床試驗，文獻亦無直接證據，證據等級為 L5。
+- 此外，知識圖譜標示 baclofen 與精神疾患相關的禁忌，需格外審慎。
 
 **若要推進需要：**
-- 補齊 baclofen 的作用機轉資料（DrugBank）
-- 取得香港衛生署仿單的警語與禁忌症
-- 找到或設計 baclofen 用於 ADHD 的人體研究（目前完全沒有）
-- 評估劑型與給藥途徑的相容性：香港許可證有口服錠劑與鞘內給藥劑型，ADHD 若要使用，通常只能考慮口服
+- 取得 baclofen 的詳細作用機轉資料與香港仿單警語、禁忌。
+- 針對 ADHD 進行系統性文獻回顧，並先以臨床前或小型探索性研究驗證。
+- 評估神經精神安全性（含兒童族群）。
+- 若轉向尼古丁依賴：該預測為 L2，但三個 Phase 2 試驗兩個提前終止、樣本小且無療效結果，需設計足夠樣本的 Phase 2b/3 隨機對照試驗，並以戒菸率為主要終點。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

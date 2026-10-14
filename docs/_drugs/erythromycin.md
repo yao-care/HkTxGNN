@@ -2,7 +2,7 @@
 layout: default
 title: Erythromycin
 parent: 中證據等級 (L3-L4)
-nav_order: 332
+nav_order: 337
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,19 +29,20 @@ indication_count: 5
 
 </div>
 
-# Erythromycin：從大環內酯類抗生素到點狀上皮性角結膜炎
+# Erythromycin：從細菌感染到點狀上皮角膜結膜炎
 
 ## 一句話總結
 
-Erythromycin（紅黴素）是大環內酯類抗生素，在香港已有多張上市許可證。
-TxGNN 模型預測它可能對**點狀上皮性角結膜炎 (Punctate Epithelial Keratoconjunctivitis)** 有效。
-目前**沒有相關臨床試驗**，只有 **2 篇間接相關文獻**（一篇疾病回顧、一篇病例報告），證據很薄弱。
+Erythromycin（紅黴素）是巨環內酯類（macrolide）抗生素，原本用於痤瘡、中耳炎、肺炎、百日咳、淋病、尿道炎、結膜炎等多種感染。
+TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis)** 有效，
+目前**沒有臨床試驗**，只有 **1 篇文獻**（兒童慢性瞼緣角膜結膜炎的處置回顧）支持，證據相當有限。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 點狀上皮性角結膜炎 (Punctate Epithelial Keratoconjunctivitis) |
+| 原適應症 | 痤瘡、中耳炎、鏈球菌感染、細菌性肺炎、金黃色葡萄球菌感染、淋病、百日咳、尿道炎、結膜炎等（來自知識圖譜，香港許可證未載明適應症文字） |
+| 預測新適應症 | 點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis) |
 | TxGNN 預測分數 | 99.89% |
 | 證據等級 | L4 |
 | 香港上市 | ✓ 已上市 |
@@ -50,57 +51,56 @@ TxGNN 模型預測它可能對**點狀上皮性角結膜炎 (Punctate Epithelial
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Erythromycin 屬於大環內酯類抗生素，兼具抗菌與抗發炎活性。它可能有助於伴隨細菌感染或眼瞼炎成分的眼表發炎。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Erythromycin 是巨環內酯類抗生素，一般認為它結合細菌 50S 核糖體次單位以抑制蛋白質合成，同時具有抗發炎特性。它的結膜炎療效已是既有適應症之一，機轉上可能適用於角膜結膜的相關病變。
 
-點狀上皮性角結膜炎是眼表發炎性疾病。若病程中有細菌或眼瞼炎因素，大環內酯類的抗菌與抗發炎作用在機轉上可能適用。
+慢性瞼緣角膜結膜炎伴隨點狀上皮角膜病變，常與葡萄球菌性瞼緣炎和瞼板腺功能異常有關。因此抗菌與抗發炎雙重作用在理論上說得通。
 
-不過這個關聯是**推論**，並非已被證實的機轉。0.999 的 TxGNN 分數只是模型預測，不能取代臨床證據。
+不過支持證據僅有一篇兒童處置回顧，沒有任何臨床試驗。此預測目前停留在合理推論的層次。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [11495307](https://pubmed.ncbi.nlm.nih.gov/11495307/) | 2001 | Review | Journal of Pediatric Ophthalmology and Strabismus | 回顧兒童慢性眼瞼角結膜炎的病史、症狀、臨床徵象與治療，屬疾病層級的回顧，並非針對 Erythromycin |
-| [32826651](https://pubmed.ncbi.nlm.nih.gov/32826651/) | 2021 | Case report | Cornea | 免疫功能正常成人因禽類傳播而感染微孢子蟲角結膜炎，以宏基因體定序診斷，與 Erythromycin 療效無直接關係 |
-
-這兩篇文獻都沒有檢驗 Erythromycin 對此疾病的療效。
+| [11495307](https://pubmed.ncbi.nlm.nih.gov/11495307/) | 2001 | Review | Journal of Pediatric Ophthalmology and Strabismus | 描述兒童慢性瞼緣角膜結膜炎的病史、症狀、臨床徵象與治療 |
 
 ## 香港上市資訊
 
-香港共有 19 張許可證，以下列出 5 張。資料中未提供劑型與核准適應症文字。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-59507 | RYPED ORAL SUSP 125MG 5ML | 口服懸液 | 許可證資料未載明 |
+| HK-07399 | NICE-ERYCIN CAP 250MG | 膠囊 | 許可證資料未載明 |
+| HK-54210 | ERYTHROMYCIN CAP 250MG (RED/WHITE) | 膠囊 | 許可證資料未載明 |
+| HK-20451 | ERISMYCINE SUSP 125MG BASE/5ML | 懸液 | 許可證資料未載明 |
+| HK-30882 | ERYSOL POWDER FOR ORAL SUSP 200MG/5ML | 口服懸液用粉劑 | 許可證資料未載明 |
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-59507 | RYPED ORAL SUSP 125MG 5ML | MEDREICH FAR EAST LIMITED |
-| HK-07399 | NICE-ERYCIN CAP 250MG | VICKMANS LABORATORIES LTD |
-| HK-54210 | ERYTHROMYCIN CAP 250MG (RED/WHITE) | VICKMANS LABORATORIES LTD |
-| HK-20451 | ERISMYCINE SUSP 125MG BASE/5ML | CHRISTO PHARM LTD |
-| HK-30882 | ERYSOL POWDER FOR ORAL SUSP 200MG/5ML | FP HEALTHCARE LIMITED |
+此外還有另外 14 張有效許可證，包含外用凝膠與乳膏產品（如 ERYACNE GEL 4%、ERYMED CREAM 2%）。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜中的禁忌疾病**（非仿單內容）：長 QT 症候群（含家族性）、尖端扭轉型心室頻脈、遺傳性卟啉症（porphyria）、腎臟疾病、肝臟疾病、膽囊疾病、血液疾病、困難梭狀芽孢桿菌結腸炎、剝脫性皮膚炎、重症肌無力、神經肌肉接合部疾病、葉酸缺乏性貧血、聽力障礙等。
+- **藥物交互作用**：共查詢到 100 筆，以下為部分範例。
+  - 重大（Major）：Loperamide、Clarithromycin
+  - 中度（Moderate）：Famotidine、Hydrocortisone、Pioglitazone、Alosetron、Aprepitant、Dexamethasone、Cimetidine 等
+
+完整的警語與禁忌請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 沒有臨床試驗，文獻也只是間接相關，證據僅止於機轉推論，目前不足以支持推進。
-- 資料中同時缺少作用機轉與香港仿單的警語與禁忌症。
+- 預測分數雖高，但沒有臨床試驗，文獻僅 1 篇兒童處置回顧，屬於 L4 層級。
+- 香港許可證缺少適應症文字與仿單警語，無法進入安全性篩選。
 
 **若要推進需要：**
-- 補齊 DrugBank 的作用機轉資料。
-- 取得香港衛生署的仿單，確認警語與禁忌症。
-- 搜尋 Erythromycin（特別是眼用劑型）用於眼表疾病的直接研究。
-- 確認香港現有許可證是否有適合眼部使用的劑型。目前列出的多為口服劑型，路徑相容性尚未評估。
-- 同一批預測中，**披衣菌性性病淋巴肉芽腫 (Lymphogranuloma venereum)** 與**壞死性潰瘍性牙齦炎**的文獻較多，機轉也更連貫，可優先作為研究題目。
-
-*本報告結果僅供研究參考，不構成醫療建議。預測的新適應症需經臨床驗證後才能應用。*
+- 取得香港衛生署的仿單，確認警語、禁忌與核准適應症。
+- 補充 Erythromycin 的作用機轉資料（MOA）。
+- 搜尋並評估眼用 Erythromycin 治療瞼緣角膜結膜炎的對照研究，並與既有療法（如瞼緣清潔、四環黴素類藥物）比較。
+- 確認眼科給藥途徑（如眼藥膏）在香港的可得性。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

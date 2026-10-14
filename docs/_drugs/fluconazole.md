@@ -2,7 +2,7 @@
 layout: default
 title: Fluconazole
 parent: 僅模型預測 (L5)
-nav_order: 376
+nav_order: 382
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,18 +29,19 @@ indication_count: 1
 
 </div>
 
-# Fluconazole：從抗黴菌感染到點狀上皮角膜結膜炎
+# Fluconazole：從念珠菌感染到點狀上皮角膜結膜炎
 
 ## 一句話總結
 
-Fluconazole 是一種唑類（azole）抗黴菌藥。
-TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis)** 有效。
-目前**沒有臨床試驗與文獻**支持，僅有模型預測，證據等級為 L5。
+Fluconazole 是三唑類抗黴菌藥，原本用於口咽、食道、陰道念珠菌感染、念珠菌血症及隱球菌腦膜炎等。
+TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis)** 有效，
+但目前**沒有臨床試驗和文獻**支持，僅有模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 口腔念珠菌病、念珠菌病、外陰陰道念珠菌病、食道念珠菌病、隱球菌腦膜炎、念珠菌血症、播散性念珠菌病（來自知識圖譜，香港許可證未載明適應症文字） |
 | 預測新適應症 | 點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis) |
 | TxGNN 預測分數 | 99.24% |
 | 證據等級 | L5 |
@@ -50,11 +51,11 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Fluconazole 是唑類抗黴菌藥，已知作用是抑制黴菌的 CYP51（羊毛甾醇 14-α-去甲基酶），阻斷黴菌細胞膜成分的合成。
+目前缺乏詳細的作用機轉資料。一般認為 fluconazole 是三唑類抗黴菌藥，可抑制真菌 CYP51（羊毛固醇 14-α-去甲基酶），干擾真菌細胞膜的麥角固醇合成。這是從藥物類別推論，並非本次整理資料所提供的內容。
 
-點狀上皮角膜結膜炎最常見的原因是病毒感染（如腺病毒）、毒性反應或乾眼症，抗黴菌機轉與這些常見病因沒有明確關聯。
+點狀上皮角膜結膜炎常見原因為病毒（如腺病毒）或非感染性因素，並非典型的黴菌感染。因此，抗黴菌作用在機轉上並不明顯適用。模型給出高分，可能是因為圖譜中它與其他眼表或感染性角膜炎疾病有關聯，但這只是假設。
 
-模型給出高分，可能只是知識圖譜中的鄰近關係所致，例如與黴菌性角膜炎等眼部感染疾病相鄰，並不代表已驗證有療效。目前也沒有原適應症與機轉資料，機轉層面的評估相當有限。
+目前這項預測是唯一的支持訊號，沒有試驗或文獻佐證。在釐清病因與機轉前，應謹慎看待這個高分。
 
 ## 臨床試驗證據
 
@@ -66,33 +67,41 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-67056 | DIFLUVID CAPSULES 150MG | HOVID LIMITED |
-| HK-60609 | SYSCAN - 150 CAP 150MG | TRENTON-BOMA LTD |
-| HK-60027 | FLUCONAZOL FARMOZ CAP 200MG (WEST PHARMA) | TRENTON-BOMA LTD |
-| HK-67485 | FLUCONAZOLE SOLUTION FOR INFUSION 100MG/50ML | HONG KONG MEDICAL SUPPLIES LTD |
-| HK-67082 | FLUZAMED CAPSULES 50MG | THE INTERNATIONAL MEDICAL COMPANY LIMITED |
+香港共有 20 張有效的單一成分許可證，無已註銷者。下表列出 5 張主要許可證，其核准適應症文字在資料中皆為空白。
+
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-31175 | DIFLUCAN CAP 50MG（Pfizer） | 膠囊 | 未提供 |
+| HK-32536 | DIFLUCAN INJ 2MG/ML（Pfizer） | 注射劑 | 未提供 |
+| HK-52849 | FLUCONAZOLE-TEVA CAP 50MG | 膠囊 | 未提供 |
+| HK-52848 | FLUCONAZOLE-TEVA CAP 150MG | 膠囊 | 未提供 |
+| HK-67485 | FLUCONAZOLE SOLUTION FOR INFUSION 100MG/50ML | 輸注液 | 未提供 |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（來自圖譜關聯，非仿單內容）：long QT 症候群、家族性 long QT 症候群、腎臟疾病、輸尿管積膿、肝臟疾病、膽囊疾病。
+- **藥物交互作用**：共查得 100 筆，以下為部分摘要。
+  - **重度 (Major)**：Chlorpropamide
+  - **中度 (Moderate)**：Famotidine、Rabeprazole、Omeprazole、Dexlansoprazole、Hydrocortisone、Dexamethasone、Betamethasone、Triamcinolone、Budesonide、Aprepitant、Loperamide、Saxagliptin
+  - **輕度 (Minor)**：Amphotericin B、Clarithromycin
+
+其他警語與禁忌請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 目前只有 TxGNN 模型預測，沒有任何臨床試驗或文獻支持，機轉上也與此疾病的常見病因缺乏明確關聯。
+- 預測分數很高（99.24%），但這是唯一的證據，沒有任何臨床試驗或文獻。
+- 該疾病多為病毒性或非感染性，抗黴菌機轉並不明顯適用。
 
 **若要推進需要：**
-- 針對 fluconazole 與眼表疾病，進行 PubMed 與 ClinicalTrials.gov 的專項搜尋
-- 確認是否存在黴菌病因的亞群，這是機轉上唯一可能成立的切入點
-- 補齊香港衛生署仿單中的警語與禁忌症
-- 從 DrugBank 補充作用機轉資料
-- 評估給藥途徑（口服、注射或眼用製劑）是否適用於眼表疾病
-
-> 本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。
+- 釐清目標病因，確認是否有黴菌成分，並檢視與其他眼表疾病的關聯
+- 補齊作用機轉資料
+- 文獻與試驗檢索，包括眼科局部或全身使用 fluconazole 的研究
+- 取得香港仿單的警語與禁忌，完成安全性篩選
+- 評估給藥途徑是否適合眼部用藥（目前路徑相容性尚未評估）
+- 若要考慮用於 long QT 或肝腎疾病患者，需制定安全監測計畫
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

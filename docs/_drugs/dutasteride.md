@@ -2,7 +2,7 @@
 layout: default
 title: Dutasteride
 parent: 僅模型預測 (L5)
-nav_order: 300
+nav_order: 305
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ indication_count: 10
 
 </div>
 
-# Dutasteride：從 5-α 還原酶抑制劑到 Ambras 型先天性全身多毛症
+# Dutasteride：從良性攝護腺增生到 Ambras 型全身性多毛症
 
 ## 一句話總結
 
-Dutasteride 是一種 5-α 還原酶抑制劑，可降低雙氫睪固酮（DHT），目前在香港已有 11 張許可證。
-TxGNN 模型預測它可能對 **Ambras 型先天性全身多毛症 (Ambras type hypertrichosis universalis congenita)** 有效，預測分數很高。
-但目前**沒有任何臨床試驗或文獻**支持，僅是模型預測（證據等級 L5）。
+Dutasteride 是一種 5-α 還原酶抑制劑，原本用於治療良性攝護腺增生。
+TxGNN 模型預測它可能對 **Ambras 型先天性全身性多毛症 (Ambras type hypertrichosis universalis congenita)** 有效，
+但目前**沒有任何臨床試驗或文獻**直接支持這個預測，僅屬模型推論。
 
 ---
 
@@ -43,8 +43,9 @@ TxGNN 模型預測它可能對 **Ambras 型先天性全身多毛症 (Ambras type
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | Ambras 型先天性全身多毛症 (Ambras type hypertrichosis universalis congenita) |
-| TxGNN 預測分數 | 99.998%（全體排名第 111） |
+| 原適應症 | 良性攝護腺增生 (benign prostatic hyperplasia) |
+| 預測新適應症 | Ambras 型先天性全身性多毛症 (Ambras type hypertrichosis universalis congenita) |
+| TxGNN 預測分數 | 99.998% |
 | 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 11 張 |
@@ -54,23 +55,11 @@ TxGNN 模型預測它可能對 **Ambras 型先天性全身多毛症 (Ambras type
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（原廠 MOA 欄位空缺）。已知 Dutasteride 透過抑制 5-α 還原酶來降低 DHT，並作用於毛囊，因此與毛髮相關疾病有間接的生物學關聯。
+目前缺乏詳細的作用機轉資料。就一般藥理知識而言，Dutasteride 是第 1 型與第 2 型 5-α 還原酶的雙重抑制劑，可降低二氫睪固酮 (DHT)，因此用於攝護腺增生，也常見於雄性禿的仿單外使用。
 
-不過，Ambras 症候群是先天性遺傳疾病，並非雄性素驅動的疾病，降低 DHT 沒有明確的機轉依據。這個高分較可能來自知識圖譜中與毛髮相關節點的距離相近，而不是真正的治療關聯。
+不過，Ambras 症候群是罕見的遺傳疾患（與 8q 染色體重排影響 TRPS1 調控有關），並非已知由雄性素驅動。因此兩者的機轉關聯很薄弱，此預測可能只是反映知識圖譜中「毛髮相關」的鄰近關係，而非真正的治療依據。
 
-**其他預測適應症（供參考）：**
-
-| 排名 | 預測適應症 | 分數 | 證據等級 | 備註 |
-|------|-----------|------|---------|------|
-| 2 | 多毛症 (hypertrichosis) | 99.997% | L5 | 多與雄性素無關，機轉上不預期有效 |
-| 3 | 伴牙齒／牙周異常的畸形症候群 | 99.997% | L5 | 檢索到的 20 筆文獻皆為一般牙周炎文獻，未提及 Dutasteride |
-| 4 | 以 Dandy-Walker 畸形為主要表現的症候群 | 99.996% | L5 | 無合理機轉 |
-| 5 | 孤立性遺傳性毛幹異常 | 99.996% | L5 | 毛幹結構缺陷，非雄性素介導 |
-| 6 | 頭皮單純性毛髮稀少症 | 99.771% | L5 | 遺傳成因與 DHT 無關，療效純屬推測 |
-| 7 | 先天性毛髮稀少伴粟丘疹 | 99.753% | L5 | 發育性毛囊缺陷，無臨床資料 |
-| 8 | 瀰漫性圓禿 | 99.675% | L4 | 僅有 1 篇女性雄性禿的敘述性回顧，屬間接證據 |
-| 9 | 腦幹先兆偏頭痛 | 99.667% | L5 | 無證據連結 |
-| 10 | 家族性孤立性睫毛過長 | 99.565% | L5 | 非已知雄性素驅動 |
+其他排名靠前的預測（一般多毛症、毛髮軸異常、單純性頭皮毛髮稀少症等）也多半屬於毛髮主題的連結，同樣缺乏證據。部分預測（如牙周畸形症候群、Dandy-Walker 症候群）則找不到合理的機轉連結，疑為圖譜人為產物。
 
 ---
 
@@ -82,27 +71,44 @@ TxGNN 模型預測它可能對 **Ambras 型先天性全身多毛症 (Ambras type
 
 ## 文獻證據
 
-目前無相關文獻。
+針對首位預測（Ambras 型多毛症）目前無相關文獻。
+
+作為參考，排名第 8 的預測「瀰漫性圓禿 (diffuse alopecia areata)」有一篇間接相關的文獻：
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [41714473](https://pubmed.ncbi.nlm.nih.gov/41714473/) | 2026 | Review | American Journal of Clinical Dermatology | 女性雄性素性禿的敘述性回顧，涵蓋病理生理、臨床評估與治療；僅支持 Dutasteride 與雄性素性禿的關聯，不直接適用於圓禿（自身免疫性） |
 
 ---
 
 ## 香港上市資訊
 
-香港共有 11 張許可證，以下列出 5 張主要許可證：
+香港共有 11 張有效許可證（皆為單一成分登記，無已註銷者），列出其中 5 張：
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-64673 | APO-DUTASTERIDE CAPSULES 0.5MG | HIND WING CO LTD |
-| HK-61577 | AVODART CAPSULES 0.5MG | GLAXOSMITHKLINE LIMITED |
-| HK-68564 | DUTASTERIDE SANDOZ CAPSULES 0.5MG | SANDOZ HONG KONG LIMITED |
-| HK-67952 | DUTABIT 0.5 CAPSULES 0.5MG | HANG LUNG TRADING (H.K.) CO |
-| HK-65480 | PMS-DUTASTERIDE CAPSULES 0.5MG | TRENTON-BOMA LTD |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-61577 | AVODART CAPSULES 0.5MG（GlaxoSmithKline） | 膠囊 | — |
+| HK-64673 | APO-DUTASTERIDE CAPSULES 0.5MG（Hind Wing） | 膠囊 | — |
+| HK-68564 | DUTASTERIDE SANDOZ CAPSULES 0.5MG（Sandoz） | 膠囊 | — |
+| HK-61184 | DUODART CAPSULE 0.5MG/0.4MG（GlaxoSmithKline） | 膠囊 | — |
+| HK-68297 | DUTASTERIDE/TAMSULOSIN HYDROCHLORIDE SANDOZ CAPSULES 0.5MG/0.4MG（Sandoz） | 膠囊 | — |
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的相關禁忌疾病**：多發性系統萎縮、姿勢性姿態心搏過速症候群 (POTS)、姿勢性低血壓、肝病、膽囊疾病、陰莖異常勃起、術中虹膜鬆弛症候群 (IFIS)。此為知識圖譜的藥物—疾病關聯，並非仿單文字，需以仿單確認。
+- **藥物交互作用**：共查得 100 筆，以下為主要的中度交互作用：
+  - Aprepitant
+  - Cimetidine
+  - Clarithromycin
+  - Clotrimazole
+  - Miconazole
+
+  其餘多筆（如 Omeprazole、Metformin、Simvastatin、Prednisone 等）交互作用等級未明。
+- **發育安全疑慮**：5-α 還原酶抑制可能影響發育過程，若考慮用於先天性或發育性疾病，需特別謹慎。
+
+仿單的警語與禁忌資料請參考原廠仿單。
 
 ---
 
@@ -111,16 +117,15 @@ TxGNN 模型預測它可能對 **Ambras 型先天性全身多毛症 (Ambras type
 **決策：Hold**
 
 **理由：**
-- 首要預測適應症沒有任何臨床試驗或文獻，僅有模型分數，且機轉上缺乏合理依據，屬於 L5。
-- 其餘預測適應症也多為 L5，只有瀰漫性圓禿有一篇間接的回顧文獻（L4），且該文獻談的是雄性禿，並非圓禿本身。
+- 預測分數雖高（99.998%），但沒有任何臨床試驗或文獻佐證，證據等級僅 L5。
+- Ambras 症候群並非雄性素驅動的疾病，機轉連結只是推測，前十名預測也多為毛髮主題的圖譜關聯，缺乏實質治療依據。
 
 **若要推進需要：**
-- 補齊藥物作用機轉（MOA）資料，例如查詢 DrugBank。
-- 取得香港衛生署的仿單，補齊警語與禁忌症，才能進行安全性篩選。
-- 針對機轉較合理的毛髮相關適應症（如雄性素敏感型亞型）做系統性文獻檢索，確認是否有直接證據。
-- 由臨床專家判斷這些高分預測是否為知識圖譜的假象，再決定是否投入後續研究。
-
-> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+- 補充 Dutasteride 的作用機轉資料（DrugBank）。
+- 取得香港衛生署的仿單，確認警語、禁忌與核准適應症。
+- 進行機轉層面的文獻回顧，確認 DHT 在 Ambras 症候群或其他多毛症中是否有任何角色。
+- 若要探索毛髮相關用途，建議優先評估與雄性素有明確關聯的疾病（如雄性素性禿），而非本預測的罕見遺傳性疾病。
+- 評估給藥途徑與族群，並建立安全性監測計畫。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

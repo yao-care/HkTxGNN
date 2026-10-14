@@ -2,7 +2,7 @@
 layout: default
 title: Citalopram
 parent: 僅模型預測 (L5)
-nav_order: 198
+nav_order: 202
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,101 +29,116 @@ indication_count: 5
 
 </div>
 
-# Citalopram：從憂鬱症到強迫症
+# Citalopram：從憂鬱症與焦慮症到強迫症
 
 ## 一句話總結
 
-Citalopram 是選擇性血清素再吸收抑制劑（SSRI），香港已有多張許可證，但許可證資料未載明原適應症，一般用於憂鬱症。
-TxGNN 模型預測它可能對**強迫症 (Obsessive-Compulsive Disorder, OCD)** 有效。
-目前有 **28 個臨床試驗**和 **15 篇文獻**支持這個方向，但多數試驗測試的是其 S-鏡像異構物 escitalopram，citalopram 本身的 OCD 證據僅限於早期開放性研究。
+Citalopram 是一種選擇性血清素再攝取抑制劑（SSRI），原本用於憂鬱症與焦慮症等情緒障礙的治療。
+TxGNN 模型預測它可能對**強迫症 (Obsessive-Compulsive Disorder, OCD)** 有效，
+目前有 **4 個臨床試驗**和 **15 篇文獻**支持這個方向，但試驗多屬 SSRI 類別層級的證據，並非 citalopram 專屬的 Phase 3 RCT。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證未載明（依藥理類別為 SSRI 抗憂鬱劑） |
+| 原適應症 | 焦慮症、神經症、輕鬱症、單極性憂鬱症、內因性憂鬱症、重度憂鬱症（香港許可證未載明核准適應症文字，此為知識圖譜資料） |
 | 預測新適應症 | 強迫症 (Obsessive-Compulsive Disorder) |
 | TxGNN 預測分數 | 99.74% |
-| 證據等級 | L3（Evidence Pack 初判為 L2，但未找到以 citalopram 本身在 OCD 進行的已完成 Phase 2/3 RCT，故依規則降為 L3） |
+| 證據等級 | L1（僅依類別層級證據，屬保守上限，需先確認 citalopram 試驗組別） |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 10 張 |
 | 建議決策 | Proceed with Guardrails |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，citalopram 屬於 SSRI 類別，抑制血清素再吸收是這類藥物的共同作用。
+Citalopram 屬於 SSRI，透過抑制血清素再攝取，提高突觸間隙的血清素濃度。目前缺乏詳細的作用機轉資料，上述為 SSRI 類別的已知機轉。
 
-OCD 對血清素再吸收抑制劑有反應，這是該疾病藥物治療的核心依據（PMID 12607204、10471169）。因此 citalopram 用於 OCD 在機轉上合理，也與 TxGNN 的高分預測一致。
+血清素系統失調被認為與強迫症的病理有密切關係，SSRI 也是強迫症的一線藥物治療。文獻如〈Obsessive compulsive disorder: serotonin and beyond〉也闡述了這一點。憂鬱症、焦慮症與強迫症常共病，且共享血清素相關的神經機轉，因此機轉上可能適用於強迫症。
 
-有兩個限制需要注意：
-- 多數已登記的 OCD 試驗測試的是 escitalopram，不是 citalopram，只能算旁證。
-- OCD 常需要比憂鬱症更高的劑量（PMID 38703743），但 citalopram 有劑量相關的 QT 間期延長風險，劑量上限因此受限。
+Citalopram 本身在強迫症的直接資料包括成人、難治型及兒童青少年的開放標籤研究與初步研究。不過，這些研究規模小、多為開放標籤。所納入的臨床試驗多屬 SSRI 類別層級或以其他藥物為對照，**沒有一項已確認為 citalopram 專屬的 Phase 3 RCT**，因此 L1 等級應視為保守上限。
+
+---
 
 ## 臨床試驗證據
 
-以下列出最相關的 10 個試驗（全部 28 個中挑選）。
-
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00116532](https://clinicaltrials.gov/study/NCT00116532) | Phase 4 | 完成 | 30 | Escitalopram 直接用於 OCD，評估療效與最適劑量（非 citalopram） |
-| [NCT00215137](https://clinicaltrials.gov/study/NCT00215137) | Phase 2 | 完成 | 14 | Escitalopram 用於 OCD 的小型先導研究，支持力道弱 |
-| [NCT00305500](https://clinicaltrials.gov/study/NCT00305500) | Phase 3 | 完成 | 100 | 高劑量 escitalopram（最高 50 mg/日）用於成人 OCD，開放標示、無對照，不算 RCT |
-| [NCT00723060](https://clinicaltrials.gov/study/NCT00723060) | Phase 4 | 完成 | 176 | 雙盲隨機比較常規劑量（20 mg）與高劑量（40 mg）escitalopram 用於 OCD |
-| [NCT00708240](https://clinicaltrials.gov/study/NCT00708240) | Phase 4 | 未知 | 40 | Escitalopram 用於青少年 OCD，並探討執行功能與腦區活化 |
-| [NCT00086645](https://clinicaltrials.gov/study/NCT00086645) | Phase 2 | 完成 | 149 | Citalopram 對比安慰劑，用於自閉症兒童的重複行為；疾病不同，僅供安全性與耐受性參考 |
-| [NCT00609531](https://clinicaltrials.gov/study/NCT00609531) | Phase 1 | 完成 | 12 | 以功能性磁振造影研究 citalopram 對自閉症重複行為的影響，屬機轉性研究 |
-| [NCT00115011](https://clinicaltrials.gov/study/NCT00115011) | Phase 4 | 完成 | 30 | Escitalopram 用於自傷性摳皮，屬 OCD 譜系疾病但非 OCD |
-| [NCT00680602](https://clinicaltrials.gov/study/NCT00680602) | Phase 4 | 完成 | 158 | 團體認知行為治療 vs. fluoxetine 用於 OCD，提供 SSRI 類別背景 |
-| [NCT00074815](https://clinicaltrials.gov/study/NCT00074815) | Phase 3 | 完成 | 124 | 認知行為治療合併血清素再吸收抑制劑，用於 SRI 部分反應的兒童 OCD |
+| [NCT00074815](https://clinicaltrials.gov/study/NCT00074815) | Phase 3 | 完成 | 124 | 兒童強迫症對 SRI 部分反應者，評估認知行為治療是否提升 SRI 療效（需確認 citalopram 角色） |
+| [NCT02022709](https://clinicaltrials.gov/study/NCT02022709) | Phase 4 | 完成 | 78 | 曝露與反應預防（ERP）、SSRI 及兩者合併用於強迫症，並探討療效預測因子（未確認 citalopram 為特定組別） |
+| [NCT00680602](https://clinicaltrials.gov/study/NCT00680602) | Phase 4 | 完成 | 158 | 團體認知行為治療 vs. fluoxetine 用於強迫症（所用藥物為 fluoxetine，非 citalopram） |
+| [NCT02285699](https://clinicaltrials.gov/study/NCT02285699) | NA | 完成 | 43 | 強迫症患者腸道菌相的先導研究，非介入性，與 citalopram 療效無直接關聯 |
+
+---
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [38703743](https://pubmed.ncbi.nlm.nih.gov/38703743/) | 2024 | 系統性回顧/統合分析 | Comprehensive Psychiatry | 探討 OCD 使用仿單外高劑量血清素再吸收抑制劑的長期安全性與耐受性 |
-| [35121274](https://pubmed.ncbi.nlm.nih.gov/35121274/) | 2022 | 統合分析 | Journal of Psychiatric Research | 網絡統合分析，比較藥物、心理治療及兩者合併對兒童青少年 OCD 的療效 |
-| [32982805](https://pubmed.ncbi.nlm.nih.gov/32982805/) | 2020 | 統合回顧 | Frontiers in Psychiatry | 評估抗憂鬱劑在兒童青少年（含 OCD）急性治療的療效、耐受性與自殺風險 |
-| [28477500](https://pubmed.ncbi.nlm.nih.gov/28477500/) | 2017 | 統合分析 | Journal of Affective Disorders | OCD 對安慰劑與抗憂鬱劑的反應皆低於其他焦慮症 |
-| [10572334](https://pubmed.ncbi.nlm.nih.gov/10572334/) | 1999 | 開放性隨機試驗 | European Psychiatry | 16 位難治型 OCD 患者，比較 citalopram 單用與合併 clomipramine |
-| [12839522](https://pubmed.ncbi.nlm.nih.gov/12839522/) | 2003 | 開放性研究 | Psychiatry and Clinical Neurosciences | 15 位兒童青少年 OCD 接受 citalopram 8 週治療的初步報告 |
-| [10471169](https://pubmed.ncbi.nlm.nih.gov/10471169/) | 1999 | 回顧/評論 | International Clinical Psychopharmacology | 回顧 citalopram 用於 OCD 的證據及 OCD 的血清素神經生物學 |
-| [22305974](https://pubmed.ncbi.nlm.nih.gov/22305974/) | 2012 | 回顧 | BMJ Clinical Evidence | OCD 的流行病學與治療證據回顧 |
-| [12607204](https://pubmed.ncbi.nlm.nih.gov/12607204/) | 2000 | 回顧 | World Journal of Biological Psychiatry | 說明 OCD 對血清素類藥物有反應，及其神經解剖基礎 |
-| [34313207](https://pubmed.ncbi.nlm.nih.gov/34313207/) | 2022 | 研究 | CNS Spectrums | 探討 BDNF Val66Met 基因多型對 escitalopram 或 paroxetine 治療 OCD 反應的影響 |
+| [35818708](https://pubmed.ncbi.nlm.nih.gov/35818708/) | 2022 | 系統性回顧 | Expert Opin Pharmacother | 強迫型人格障礙（OCPD）藥物治療的 RCT 系統性回顧，與 OCD 不同 |
+| [10572334](https://pubmed.ncbi.nlm.nih.gov/10572334/) | 1999 | 臨床研究 | Eur Psychiatry | 難治型強迫症：citalopram 單用 vs. 併用 clomipramine（16 人，隨機開放標籤） |
+| [15089116](https://pubmed.ncbi.nlm.nih.gov/15089116/) | 2004 | 世代／藥動學 | CNS Drugs | 初步探討強迫症患者 citalopram 血中濃度與臨床反應的關係 |
+| [12839522](https://pubmed.ncbi.nlm.nih.gov/12839522/) | 2003 | 開放標籤研究 | Psychiatry Clin Neurosci | 15 名兒童青少年強迫症，8 週 citalopram 治療的初步報告 |
+| [9466233](https://pubmed.ncbi.nlm.nih.gov/9466233/) | 1997 | 開放標籤試驗 | J Child Adolesc Psychopharmacol | 23 名兒童青少年，10 週後 Y-BOCS 由 30 降至 21（p<0.001） |
+| [9241005](https://pubmed.ncbi.nlm.nih.gov/9241005/) | 1997 | 單盲研究 | J Clin Psychopharmacol | 比較 fluvoxamine、paroxetine 與 citalopram 在強迫症的抗強迫療效 |
+| [9395151](https://pubmed.ncbi.nlm.nih.gov/9395151/) | 1997 | 開放標籤先導研究 | Acta Psychiatr Scand | citalopram 治療強迫症的 24 週開放標籤先導研究 |
+| [10471169](https://pubmed.ncbi.nlm.nih.gov/10471169/) | 1999 | 回顧／評論 | Int Clin Psychopharmacol | 回顧 citalopram 在強迫症的應用 |
+| [12607204](https://pubmed.ncbi.nlm.nih.gov/12607204/) | 2000 | 回顧 | World J Biol Psychiatry | 強迫症的血清素機轉及其他神經傳導路徑 |
+| [22305974](https://pubmed.ncbi.nlm.nih.gov/22305974/) | 2012 | 回顧 | BMJ Clin Evid | 強迫症的流行病學與治療證據回顧 |
+
+---
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-62273 | LOPRAXER TABLETS 40MG | 未載明 | 未載明 |
-| HK-53122 | PMS-CITALOPRAM TAB 20MG | 未載明 | 未載明 |
-| HK-61066 | AUROPRAM 20 TAB 20MG | 未載明 | 未載明 |
-| HK-53084 | APO-CITALOPRAM TAB 20MG | 未載明 | 未載明 |
-| HK-52953 | EUROPRAM TAB 20MG | 未載明 | 未載明 |
+| HK-35361 | CIPRAM TAB 20MG（Lundbeck HK） | 錠劑 | 資料未載明 |
+| HK-52953 | EUROPRAM TAB 20MG | 錠劑 | 資料未載明 |
+| HK-53084 | APO-CITALOPRAM TAB 20MG | 錠劑 | 資料未載明 |
+| HK-53122 | PMS-CITALOPRAM TAB 20MG | 錠劑 | 資料未載明 |
+| HK-60203 | AUROPRAM 10 TAB 10MG | 錠劑 | 資料未載明 |
 
-以上為 10 張許可證中的 5 張。
+另有 5 張許可證（LOPRAXER 20/40MG、AUROPRAM 20/40、SELON 20MG），合計 10 張，皆為有效的單一成分許可證。
+
+---
 
 ## 安全性考量
 
-- **主要警語**：Citalopram 有劑量相關的 QT 間期延長警語。每日最高劑量為 40 mg，老年人及 CYP2C19 弱代謝者最高為 20 mg。這會限制 OCD 所需的高劑量策略。
-- 香港衛生署仿單的警語、禁忌症及藥物交互作用資料尚未取得，需另行補充。
+- **知識圖譜標示的禁忌疾病（非仿單內容）**：長 QT 症候群（含家族性）、尖端扭轉型心室頻脈、癲癇、雙相情緒障礙、重度情感性疾患、肝病、膽囊疾病、低血鉀、凝血疾病、心臟病與心血管疾病、抗精神病藥惡性症候群、抗利尿激素不當分泌症候群（含腎因性）、血清素症候群。
+- **藥物交互作用**：共查得 100 筆，以下為部分代表：
+  - 高嚴重度（Major）：Bupropion、Omeprazole、Cimetidine、Lorcaserin、Cisapride、Clarithromycin、Dexfenfluramine、Diethylpropion、Dolasetron
+  - 中度（Moderate）：Famotidine、Loperamide、Morphine、Acetylsalicylic acid（阿斯匹靈）、Bisacodyl 等
+  - 輕度（Minor）：Aprepitant、Clotrimazole
+
+其中 QT 延長相關藥物（如 cisapride、dolasetron、clarithromycin）及血清素類藥物的併用，需特別留意。
+
+其餘警語與禁忌的仿單資料，請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-- OCD 對 SSRI 有反應，機轉合理，TxGNN 分數也很高（99.74%），且有多個 escitalopram 的 OCD 試驗與統合分析可作類別佐證。
-- Citalopram 本身的 OCD 證據只有早期小型開放性研究，且高劑量受 QT 風險限制，因此需要設置安全防護。
+- SSRI 為強迫症一線用藥，機轉合理，且有多項 citalopram 在成人與兒童強迫症的開放標籤與初步研究支持。
+- 但現有臨床試驗多為類別層級或以其他藥物為對照，L1 等級僅屬保守上限，因此需加上防護措施再推進。
 
 **若要推進需要：**
-- 取得 citalopram 在 OCD 的直接證據，例如以 citalopram 本身進行的隨機對照試驗。
-- 取得香港衛生署仿單的警語與禁忌症，並補充作用機轉與藥物交互作用資料。
-- 訂定 QT 風險管控計畫，包括劑量上限、心電圖監測，以及老年人與 CYP2C19 弱代謝者的減量原則。
+- 確認 NCT00074815、NCT02022709 的 citalopram 組別設計，核實證據等級
+- 取得 citalopram 專屬的隨機對照試驗證據（強迫症）
+- 取得香港仿單資料（核准適應症、警語與禁忌）
+- 評估 QT 延長、血清素症候群與併用藥物交互作用的監測計畫
+- 補充詳細作用機轉資料
 
-**其他預測適應症：** 分裂型、妄想型、孤僻型及做作型人格障礙的預測，分數皆為 99.68%，幾乎相同，疑為知識圖譜傳播造成。這四項幾乎沒有直接證據，建議皆為 **Hold**。
+---
 
-*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。*
+### 其他預測適應症（附註）
+
+TxGNN 另預測 schizotypal、paranoid、schizoid 與 histrionic 人格障礙（分數皆約 99.68%），但目前僅有模型預測，缺乏直接臨床試驗或文獻證據（證據等級 L5），建議決策為 **Hold**。這四者分數相同，可能反映圖譜的共同訊號，而非個別疾病的證據。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

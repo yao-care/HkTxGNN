@@ -2,7 +2,7 @@
 layout: default
 title: Methotrexate
 parent: 僅模型預測 (L5)
-nav_order: 562
+nav_order: 571
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,13 +29,12 @@ indication_count: 5
 
 </div>
 
-# 甲氨蝶呤 (Methotrexate)：從既有用途到肺母細胞瘤
+# Methotrexate：從急性淋巴母細胞白血病／類風濕性關節炎／淋巴瘤到肺母細胞瘤
 
 ## 一句話總結
 
-Methotrexate（甲氨蝶呤）是一種抗葉酸代謝藥物，在香港已有 8 張許可證，但資料中未提供其核准適應症文字。
-TxGNN 模型預測它可能對**肺母細胞瘤 (Pulmonary Blastoma)** 有效，預測分數很高。
-不過目前**沒有任何臨床試驗或文獻**直接支持這個方向，僅為模型預測。
+Methotrexate（甲氨蝶呤）是已上市多年的抗代謝藥物，原本用於急性淋巴母細胞白血病、淋巴瘤、類風濕性關節炎與乾癬等。
+TxGNN 模型預測它可能對**肺母細胞瘤 (Pulmonary Blastoma)** 有效，但目前**沒有臨床試驗和文獻**支持，僅為模型預測。
 
 ---
 
@@ -43,24 +42,21 @@ TxGNN 模型預測它可能對**肺母細胞瘤 (Pulmonary Blastoma)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未提供（香港許可證的適應症欄位皆為空白） |
+| 原適應症 | 急性淋巴母細胞白血病、非何杰金氏淋巴瘤、類風濕性關節炎、乾癬、蕈樣肉芽腫等（來自知識圖譜；香港許可證未提供適應症文字） |
 | 預測新適應症 | 肺母細胞瘤 (Pulmonary Blastoma) |
 | TxGNN 預測分數 | 99.45% |
-| 證據等級 | L5（僅有模型預測） |
+| 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
-| 許可證數 | 8 張 |
+| 許可證數 | 8 張（皆為有效單方許可證） |
 | 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（原始 MOA 欄位為空）。
-Methotrexate 一般被歸類為抑制 DHFR（二氫葉酸還原酶）的抗葉酸藥物。它會干擾核苷酸合成，對快速分裂的細胞影響較大。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Methotrexate 是一種抗葉酸藥物（antifolate），可抑制 DHFR 酶，對快速分裂的細胞具有細胞毒性。它在淋巴瘤與白血病等血液惡性腫瘤中的療效已被證實，因此機轉上可能適用於增生快速的惡性腫瘤。
 
-肺母細胞瘤是罕見的肺部惡性腫瘤，增生活躍。從機轉推論，抗葉酸藥物有可能作用於這類細胞。
-但這個理由相當籠統，並非針對此腫瘤的專一性機轉。
-目前也沒有任何試驗或文獻直接測試 methotrexate 用於肺母細胞瘤，所以預測分數高不等於臨床上有效。
+肺母細胞瘤是罕見的肺部惡性腫瘤。模型給出高分，主要反映 Methotrexate 與各類腫瘤之間的整體網路關聯。除了「一般細胞毒性化療」這個推論外，沒有任何針對肺母細胞瘤的證據，也沒有說明為何此藥對該腫瘤特別適用。這個預測應視為待驗證的假說，而非臨床建議。
 
 ---
 
@@ -78,38 +74,43 @@ Methotrexate 一般被歸類為抑制 DHFR（二氫葉酸還原酶）的抗葉�
 
 ## 香港上市資訊
 
-資料顯示共 8 張許可證，以下列出 5 張主要許可證。各證的劑型與核准適應症在資料中皆為空白。
+香港共有 8 張有效許可證，以下列出 5 張（皆為單方製劑，許可證資料未提供劑型與核准適應症文字）：
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-29818 | METHOTREXAT-EBEWE CONC FOR IV INF 5000MG | SANDOZ HONG KONG LIMITED |
-| HK-67078 | METHOTREXATE TABLETS 2.5MG | HONG KONG MEDICAL SUPPLIES LTD |
-| HK-16293 | METHOTREXATE INJ 50MG/2ML | PFIZER CORPORATION HONG KONG LIMITED |
-| HK-36225 | METHOTREXAT TAB 2.5MG (EBEWE) | SANDOZ HONG KONG LIMITED |
-| HK-27062 | EMTHEXATE TAB 2.5MG | TEVA PHARMACEUTICAL HONG KONG LIMITED |
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-29818 | METHOTREXAT-EBEWE CONC FOR IV INF 5000MG | Sandoz Hong Kong Limited |
+| HK-67078 | METHOTREXATE TABLETS 2.5MG | Hong Kong Medical Supplies Ltd |
+| HK-16293 | METHOTREXATE INJ 50MG/2ML | Pfizer Corporation Hong Kong Limited |
+| HK-36225 | METHOTREXAT TAB 2.5MG (EBEWE) | Sandoz Hong Kong Limited |
+| HK-27062 | EMTHEXATE TAB 2.5MG | Teva Pharmaceutical Hong Kong Limited |
 
-從品名可知，香港同時有注射劑與口服錠劑型。
+香港同時有口服錠劑與注射劑型的產品。
 
 ---
 
 ## 細胞毒性
 
-Methotrexate 屬抗腫瘤代謝拮抗劑（抗葉酸類）。預測的新適應症也是惡性腫瘤，因此列出本章節。
-下表是依藥物類別的一般知識整理，並非取自本次資料，實際內容請以原廠仿單為準。
-
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 傳統細胞毒性藥物（抗葉酸代謝拮抗劑） |
-| 骨髓抑制風險 | 中至高（劑量越高風險越大） |
-| 致吐性分級 | 低至中度（依劑量而異） |
-| 監測項目 | CBC（含分類）、肝功能、腎功能；高劑量時需監測血中藥物濃度 |
+| 細胞毒性分類 | 傳統細胞毒性藥物（抗葉酸／抗代謝類） |
+| 骨髓抑制風險 | 高（知識圖譜顯示白血球減少、血小板減少、貧血為相關禁忌狀況） |
+| 致吐性分級 | 低至中度，依劑量而異（高劑量時風險較高） |
+| 監測項目 | CBC（含分類）、肝功能、腎功能；高劑量治療時另需監測血中藥物濃度 |
 | 處置防護 | 需依細胞毒性藥物處置規範操作 |
+
+詳細警語與劑量調整請參考原廠仿單。
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌或需謹慎的疾病**（非仿單內容）：肝衰竭、肝臟疾病、腎臟疾病、膽囊疾病、胃潰瘍／消化性潰瘍、潰瘍性結腸炎／發炎性腸道疾病、血小板減少、白血球減少、貧血（含巨球性貧血）、間質性肺病、肺纖維化、口腔炎、免疫系統疾病、物質濫用／依賴、膿輸尿管。
+- **藥物交互作用**：共查得 100 筆。
+  - **Major 等級**：Rabeprazole、Amoxicillin、Acetylsalicylic acid（阿斯匹靈）。
+  - **Moderate 等級（部分）**：Doxycycline、Tetracycline、Clarithromycin、Mesalazine、Balsalazide、Amphotericin B、Bupropion、Pioglitazone、Acarbose，以及多種類固醇（Hydrocortisone、Dexamethasone、Betamethasone、Triamcinolone、Budesonide）。
+  - **Minor 等級**：Potassium citrate。
+
+香港仿單的警語與禁忌尚未取得，正式評估前必須補齊。
 
 ---
 
@@ -118,16 +119,15 @@ Methotrexate 屬抗腫瘤代謝拮抗劑（抗葉酸類）。預測的新適應�
 **決策：Hold**
 
 **理由：**
-- 這個適應症只有模型預測分數，沒有任何臨床試驗或文獻，證據等級為 L5。
-- 香港仿單的警語與禁忌資料尚未取得，無法進入安全性初篩。
+- 肺母細胞瘤的預測分數雖高（99.45%），但沒有任何臨床試驗或文獻，證據等級僅為 L5，且缺乏機轉資料與仿單安全性資料。
+- 本報告彙整的其他預測中，**何杰金氏淋巴瘤**有較多證據（證據等級 L2、44 個相關試驗），可作為後續優先評估的方向。不過其中多為多藥化療或移植預防 GVHD 的方案，Methotrexate 的單獨貢獻無法判斷。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單，確認警語、禁忌症與核准適應症。
-- 補充 methotrexate 的作用機轉資料（例如查詢 DrugBank）。
-- 搜尋肺母細胞瘤的病例報告或化療方案，確認是否有任何直接使用紀錄。
-- 同一次預測中，「原發性肺淋巴瘤」、「小細胞肺癌」、「何杰金氏淋巴瘤」已有較多間接證據（等級 L3–L4），可優先評估。多數證據來自多藥合併方案或移植支持性用途，無法單獨歸因於 methotrexate。
-
-> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證後才能應用。
+- 取得香港仿單的警語、禁忌與適應症文字，完成基本安全性篩選。
+- 補充 DrugBank 的作用機轉資料。
+- 系統性搜尋肺母細胞瘤的病例報告與治療文獻，確認是否有 Methotrexate 的實際使用紀錄。
+- 評估該罕見腫瘤的現行標準治療，判斷 Methotrexate 是否有臨床定位。
+- 若要轉向證據較多的預測（如何杰金氏淋巴瘤），需另行評估並釐清 Methotrexate 在現行治療中的角色。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

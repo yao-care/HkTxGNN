@@ -2,7 +2,7 @@
 layout: default
 title: Sulbactam
 parent: 中證據等級 (L3-L4)
-nav_order: 822
+nav_order: 837
 evidence_level: L3
 indication_count: 1
 ---
@@ -29,87 +29,100 @@ indication_count: 1
 
 </div>
 
-# Sulbactam：從 β-內醯胺酶抑制劑（抗菌複方成分）到細菌性關節炎
+# Sulbactam：從膽管炎與葡萄球菌感染到細菌性關節炎
 
 ## 一句話總結
 
-Sulbactam 是 β-內醯胺酶抑制劑，常與 ampicillin、cefoperazone 等抗生素組成複方，用於抗菌治療。
-TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有效，但目前**沒有臨床試驗登記**，只有**20 篇檢索文獻**，其中約 10 篇與主題較相關，且多為 1980 年代的小型研究與病例報告。
-原適應症資料在輸入中缺漏，因此無法確認香港核准的適應症文字。
+Sulbactam 是一種不可逆的 β-內醯胺酶抑制劑，原本用於膽管炎、金黃色葡萄球菌感染及大腸桿菌感染等細菌性疾病。
+TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有效，
+目前**沒有臨床試驗登記**，但有 **20 篇相關文獻**，其中數篇為 sulbactam/ampicillin 用於骨關節感染的臨床研究。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 膽管炎、金黃色葡萄球菌感染、大腸桿菌感染等（香港許可證未載明核准適應症文字，此處依知識圖譜資料） |
 | 預測新適應症 | 細菌性關節炎 (Bacterial Arthritis) |
 | TxGNN 預測分數 | 99.79% |
 | 證據等級 | L3 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 8 張 |
-| 建議決策 | Hold |
+| 建議決策 | Proceed with Guardrails |
+
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏 DrugBank 的詳細作用機轉資料。以下說明來自一般藥理知識，並未對照輸入資料驗證。Sulbactam 是不可逆的 class A β-內醯胺酶抑制劑，也能結合 *Acinetobacter baumannii* 的 PBP，因此本身對該菌有活性。
+目前缺乏經整理的詳細作用機轉資料。根據藥物類別推論，Sulbactam 是不可逆的 β-內醯胺酶抑制劑，本身也能透過結合青黴素結合蛋白（PBP）對不動桿菌屬 (Acinetobacter) 具有內在活性。與 ampicillin 合併使用時，可擴大對產 β-內醯胺酶的金黃色葡萄球菌、厭氧菌及革蘭氏陰性菌的涵蓋範圍。
 
-與 ampicillin 合用時，它能恢復對產 β-內醯胺酶的金黃色葡萄球菌、腸內菌科細菌與厭氧菌的涵蓋範圍。這些正是細菌性關節炎的常見致病菌，所以在機轉上，這個預測合理。
+細菌性（化膿性）關節炎的常見致病菌包括金黃色葡萄球菌等，與 Sulbactam 原有的抗感染適應症（金黃色葡萄球菌與大腸桿菌感染）高度重疊。這也解釋了為何模型給出很高的預測分數：新適應症與既有抗感染適應症在知識圖譜中非常接近。
 
-需要留意，0.998 的高分很可能反映的是「抗菌藥物類別」的關聯，而不是新的作用機轉。這個預測比較像傳統抗感染用途的延伸，不算真正跨領域的老藥新用。
+需注意，此關聯是由類別藥理推論而來，而非有明確整理的機轉資料；且高分主要反映與既有適應症的相近性，不等同於已有直接的療效證據。
 
-另外，文獻中的臨床資料幾乎都是 **ampicillin/sulbactam 複方**，並非 sulbactam 單獨使用，解讀時要注意這一點。
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
+
+以下依證據類型優先排序，列出與主題較相關的文獻（多數文獻的分類尚待確認）：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [2677956](https://pubmed.ncbi.nlm.nih.gov/2677956/) | 1989 | RCT | Pediatr Infect Dis J | 以 2:1 隨機分配，比較 ampicillin/sulbactam 與 ceftriaxone 治療兒童軟組織感染（105 人）、化膿性關節炎（11 人）與骨髓炎（9 人）。摘要未完整提供療效結果 |
-| [3026009](https://pubmed.ncbi.nlm.nih.gov/3026009/) | 1986 | 開放式比較試驗 | Rev Infect Dis | 比較 sulbactam/ampicillin（13 人）與 cefotaxime（9 人）作為骨、關節、軟組織感染的起始治療。前者全部病人獲得臨床治癒或改善 |
-| [3026018](https://pubmed.ncbi.nlm.nih.gov/3026018/) | 1986 | 臨床試驗 | Rev Infect Dis | 9 名兒童骨髓炎／化膿性關節炎，先靜脈注射 sulbactam/ampicillin，再改口服 sultamicillin。已知致病菌皆敏感，且所有病人血清殺菌力價達 1:8 以上 |
-| [3252119](https://pubmed.ncbi.nlm.nih.gov/3252119/) | 1988 | 臨床試驗 | Mikrobiyol Bul | 84 名各類感染病人接受 ampicillin/sulbactam，其中 5 人為化膿性關節炎與骨髓炎 |
-| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Review | Int J Antimicrob Agents | 比較新舊抗生素治療多重抗藥菌感染的仿單外使用與正式建議 |
-| [16269877](https://pubmed.ncbi.nlm.nih.gov/16269877/) | 2005 | Review | Acta Orthop Traumatol Turc | 化膿性關節炎的診斷與起始抗生素治療方案 |
-| [1745624](https://pubmed.ncbi.nlm.nih.gov/1745624/) | 1991 | 體外藥敏研究／回顧 | Pharmacotherapy | 比較 ampicillin-sulbactam 與 ticarcillin-clavulanate 的體外活性及臨床療效 |
-| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | 回溯性世代研究 | Clin Lab | 分析 4 歲以下兒童骨關節感染的致病菌分布與抗藥性 |
-| [9263167](https://pubmed.ncbi.nlm.nih.gov/9263167/) | 1997 | Case report | J Rheumatol | 貓咬傷後 *Pasteurella multocida* 感染性關節炎合併痛風，以 ampicillin/sulbactam 加關節抽吸治療後痊癒 |
-| [16148860](https://pubmed.ncbi.nlm.nih.gov/16148860/) | 2005 | Case report | Pediatr Infect Dis J | 4 歲女童 *Fusobacterium necrophorum* 化膿性關節炎，ampicillin-sulbactam 治療後復發，改用 meropenem 加 clindamycin 才根除 |
+| [2677956](https://pubmed.ncbi.nlm.nih.gov/2677956/) | 1989 | 隨機對照試驗 | Pediatr Infect Dis J | 兒童軟組織與骨骼感染（含 11 例化膿性關節炎）隨機分組，比較 ampicillin/sulbactam 與 ceftriaxone |
+| [3026009](https://pubmed.ncbi.nlm.nih.gov/3026009/) | 1986 | 隨機對照（開放性） | Rev Infect Dis | 骨、關節及軟組織感染，sulbactam＋ampicillin 與 cefotaxime 比較，樣本數小（13 對 9 例） |
+| [3026018](https://pubmed.ncbi.nlm.nih.gov/3026018/) | 1986 | 臨床研究 | Rev Infect Dis | 9 名兒童骨髓炎／化膿性關節炎，以 sulbactam/ampicillin 靜脈注射後續接口服 sultamicillin 序貫治療，致病菌皆對該組合敏感 |
+| [3252119](https://pubmed.ncbi.nlm.nih.gov/3252119/) | 1988 | 臨床試驗 | Mikrobiyol Bul | 84 名各類感染患者（含 5 例化膿性關節炎與骨髓炎）接受 ampicillin＋sulbactam 治療 |
+| [9263167](https://pubmed.ncbi.nlm.nih.gov/9263167/) | 1997 | 病例報告 | J Rheumatol | 貓咬傷後多殺巴斯德菌關節炎合併痛風，經 ampicillin/sulbactam 治療後感染緩解、關節功能恢復 |
+| [1745624](https://pubmed.ncbi.nlm.nih.gov/1745624/) | 1991 | 體外比較／回顧 | Pharmacotherapy | 比較 ampicillin-sulbactam 與 ticarcillin-clavulanate 的體外活性與臨床療效 |
+| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | 回顧 | Int J Antimicrob Agents | 多重抗藥菌感染中，新舊抗生素的仿單外使用與正式建議之比較 |
+| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | 回溯性研究 | Clin Lab | 幼童骨關節感染的致病菌分布與抗藥性分析 |
+
+說明：上述文獻多為 1980–1990 年代的小規模研究，且該批文獻的相關性標記尚待人工確認，尚無近年的高品質對照試驗。
+
+---
 
 ## 香港上市資訊
 
-目前共有 8 張許可證，以下列出 5 張主要許可證。輸入資料未提供劑型與核准適應症文字。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-27636 | UNASYN 750 FOR INJ | 注射劑 | 未提供 |
+| HK-32893 | SULPERAZON FOR INJ 500MG/500MG | 注射劑 | 未提供 |
+| HK-56070 | KINTAMVY FOR INJ 0.75G | 注射劑 | 未提供 |
+| HK-56071 | KINTAMVY FOR INJ 1.5G | 注射劑 | 未提供 |
+| HK-56893 | NASPALUN FOR INTRAVENOUS INJ | 注射劑 | 未提供 |
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-56071 | KINTAMVY FOR INJ 1.5G | JINDUN PHARMA (H.K.) LIMITED |
-| HK-68971 | XACDURO POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION | ZAI LAB (HONG KONG) LIMITED |
-| HK-61003 | CEFOPERAZONE AND SULBACTAM FOR INJECTION 1G (SHENZHEN LIJIAN) | CEUTICAL TRADING COMPANY LIMITED |
-| HK-56893 | NASPALUN FOR INTRAVENOUS INJ | MAIN LIFE CORP LTD |
-| HK-63480 | SITANDING POWDER FOR SOLUTION FOR INJECTION 1G | JINDUN PHARMA (H.K.) LIMITED |
+共 8 張有效單方許可證（上表僅列 5 張，另有 XACDURO、SITANDING 及頭孢哌酮／舒巴坦產品）。劑型與核准適應症文字在許可證資料中均為空白。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（來自藥物與疾病關係資料，非仿單文字）：腎臟疾病、輸尿管積膿、困難梭菌結腸炎、新生兒壞死性腸炎、傳染性單核球增多症、慢性 EB 病毒感染症候群。
+
+其他警語、禁忌症與藥物交互作用資料目前缺乏，請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：Proceed with Guardrails**
 
 **理由：**
-- 目前沒有登記的臨床試驗，文獻多為 1980 年代以 ampicillin/sulbactam 複方進行的小型研究與病例報告。
-- 香港仿單的警語與禁忌症資料缺漏，屬於阻擋性缺口（Blocking），無法進入安全性篩選。
-- 這個預測比較像傳統抗感染用途的延伸，系統建議等級為「研究問題（Research Question）」。
+- Sulbactam（多與 ampicillin 合併）已在香港上市，且有數項針對骨關節感染（含化膿性關節炎）的小型臨床研究，機轉上合理。但證據多屬早期、小規模研究，無臨床試驗登記，目前僅屬 L3，宜視為待驗證的研究問題。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單，確認警語、禁忌症與現有核准適應症。
-- 補齊 DrugBank 的作用機轉與原適應症資料。
-- 確認細菌性關節炎是否已被現有 ampicillin/sulbactam 的核准適應症涵蓋，避免重複評估。
-- 對照現行化膿性關節炎治療指引與本地抗藥性資料，釐清 sulbactam 的實際定位。
-- 查詢 ICTRP 與區域試驗註冊庫，確認是否有進行中的相關試驗。
-
-*本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。*
+- 人工審閱文獻，確認各研究中化膿性關節炎的獨立療效數據
+- 取得香港原廠仿單，確認核准適應症、警語與禁忌症
+- 補充作用機轉與抗藥性（如不動桿菌、MRSA）資料
+- 評估與現行標準療法（如 cefazolin、頭孢菌素類）相比的定位與必要性
+- 腎功能不全等高風險族群的安全性與劑量調整計畫
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

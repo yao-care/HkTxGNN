@@ -2,7 +2,7 @@
 layout: default
 title: Octreotide
 parent: 僅模型預測 (L5)
-nav_order: 624
+nav_order: 636
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,19 +29,19 @@ indication_count: 2
 
 </div>
 
-# Octreotide：從原核准適應症到外陰倒置性毛囊角化症
+# Octreotide：從肢端肥大症到外陰倒置性毛囊角化症
 
 ## 一句話總結
 
-Octreotide 是一種在香港已上市的注射劑，本次資料未載明其原核准適應症。
-TxGNN 模型預測它可能對**外陰倒置性毛囊角化症 (Vulvar Inverted Follicular Keratosis)** 有效，另外還預測了**脂漏性角化症 (Seborrheic Keratosis)**。
-目前**沒有任何臨床試驗或文獻**支持，只有模型分數。
+Octreotide 是體抑素（somatostatin）類似物，原本用於肢端肥大症、垂體機能亢進與類癌症候群。
+TxGNN 模型預測它可能對**外陰倒置性毛囊角化症 (vulvar inverted follicular keratosis)** 有效，但目前**沒有任何臨床試驗或文獻**支持，僅屬模型推論。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 外陰倒置性毛囊角化症 (Vulvar Inverted Follicular Keratosis) |
+| 原適應症 | 肢端肥大症、垂體機能亢進、類癌症候群 |
+| 預測新適應症 | 外陰倒置性毛囊角化症 (vulvar inverted follicular keratosis) |
 | TxGNN 預測分數 | 99.58% |
 | 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
@@ -50,11 +50,11 @@ TxGNN 模型預測它可能對**外陰倒置性毛囊角化症 (Vulvar Inverted 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。以下是依一般藥理知識所做的推論，並非來自本次輸入資料。Octreotide 屬於體抑素 (somatostatin) 類似物，作用於 SSTR2/SSTR5 受體，可抑制生長激素與 IGF-1 訊號。理論上，這條路徑可能影響良性角質細胞增生，但這只是未經驗證的假說。
+目前缺乏詳細的作用機轉資料。一般認為 Octreotide 是體抑素類似物，主要作用於體抑素受體 SSTR2 與 SSTR5，可抑制生長激素等激素分泌，這與其在肢端肥大症與類癌症候群的用途相符。
 
-這兩個預測疾病（外陰倒置性毛囊角化症、脂漏性角化症）都是良性表皮病變，通常以局部切除、冷凍或刮除處理。它們的分數幾乎相同（99.58% 與 99.55%），很可能來自知識圖譜中相近的區域，不應視為兩個獨立的發現。
+外陰倒置性毛囊角化症是良性上皮病變，目前**沒有已知機轉**將體抑素受體訊號與此疾病連結。任何假設（例如抗增生作用）都屬推測，尚未經驗證。高分可能源自知識圖譜中與皮膚病變節點的鄰近關係，而非實際的生物學依據。
 
-對良性病變使用全身性注射胜肽藥物，在缺乏支持資料的情況下，效益與風險比不利。
+另一個排名第二的預測為**脂漏性角化症 (seborrheic keratosis)**，分數 99.55%，同樣沒有任何臨床或文獻證據。兩者分數極為接近，顯示預測可能來自共同的圖譜鄰居，而非疾病特異性的生物機轉。
 
 ## 臨床試驗證據
 
@@ -66,35 +66,43 @@ TxGNN 模型預測它可能對**外陰倒置性毛囊角化症 (Vulvar Inverted 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-68447 | OCTREOTIDE SOLUTION FOR INJECTION OR INFUSION 0.5MG/1ML | HONG KONG MEDICAL SUPPLIES LTD |
-| HK-59308 | OCTREOTIDE INJ 100MCG/ML | HONG KONG MEDICAL SUPPLIES LTD |
-| HK-62639 | DBL OCTREOTIDE INJECTION 0.5MG/ML | PFIZER CORPORATION HONG KONG LIMITED |
-| HK-68446 | OCTREOTIDE SOLUTION FOR INJECTION OR INFUSION 0.1MG/1ML | HONG KONG MEDICAL SUPPLIES LTD |
-| HK-32471 | SANDOSTATIN INJ 0.1MG/ML | NOVARTIS PHARMACEUTICALS (HK) LIMITED |
+資料顯示 Octreotide 在香港有 20 張有效單方許可證（無複方、無已註銷）。以下列出 5 張主要許可證，核准適應症欄位於現有資料中未提供。
 
-以上列出 5 張主要許可證，全部為注射劑型。劑型欄位與核准適應症在本次資料中均為空白。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-32471 | SANDOSTATIN INJ 0.1MG/ML（Novartis） | 注射劑 | 請參考原廠仿單 |
+| HK-33912 | SANDOSTATIN INJ 0.5MG/ML（Novartis） | 注射劑 | 請參考原廠仿單 |
+| HK-44140 | SANDOSTATIN LAR FOR INJ 20MG（Novartis） | 長效注射劑 | 請參考原廠仿單 |
+| HK-62639 | DBL OCTREOTIDE INJECTION 0.5MG/ML（Pfizer） | 注射劑 | 請參考原廠仿單 |
+| HK-68938 | OCTREOTIDE BENDALIS SOLUTION FOR INJECTION/INFUSION 0.1MG/1ML（Mekim） | 注射劑 | 請參考原廠仿單 |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌或需謹慎情形**（來自模型知識圖譜，非仿單內容）：高血糖、糖尿病、糖尿病酮酸中毒、低血糖、甲狀腺功能低下（含黏液水腫、先天性甲狀腺功能低下）、肝硬化與肝病、膽囊疾病與膽結石（膽石症、膽囊結石、膽總管結石）、腸阻塞與腸道阻塞、心臟驟停、心臟傳導疾病、腎衰竭與尿毒症、維生素 B12 缺乏。
+- **藥物交互作用**：查詢共找到 100 筆，以下為資料中列出的部分中等程度（Moderate）交互作用，主要為降血糖藥物：
+  - 口服及注射降血糖藥：Acarbose、Metformin、Glimepiride、Chlorpropamide、Alogliptin、Linagliptin
+  - SGLT2 抑制劑：Canagliflozin、Dapagliflozin、Empagliflozin
+  - GLP-1 類藥物：Albiglutide、Dulaglutide、Semaglutide
+  - 各類胰島素：Insulin aspart、degludec、detemir、glargine、glulisine、human (isophane / regular / inhalation)
+
+  Octreotide 會影響血糖調節，與上述藥物併用時需密切監測血糖。
+
+仿單的正式警語與禁忌請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 證據僅有模型預測分數（L5），沒有臨床試驗與文獻。
-- 目標疾病是良性且有簡單局部療法的病變，全身性注射不具明顯優勢。
+- 兩個預測適應症（外陰倒置性毛囊角化症、脂漏性角化症）皆僅有模型分數，沒有臨床試驗、文獻或已知機轉支持，證據等級為 L5。
+- 疾病為良性皮膚病變，而 Octreotide 為需注射的藥物，且具血糖、膽道、心臟傳導等安全性顧慮，風險效益比目前無從支持推進。
 
 **若要推進需要：**
-- 取得香港衛生署 (Department of Health) 的仿單，補齊警語與禁忌症，並確認原核准適應症。
-- 補充 Octreotide 的作用機轉資料（可查詢 DrugBank）。
-- 進行文獻檢索，確認體抑素受體在角質細胞與脂漏性角化症中是否有表現。
-- 評估局部給藥的可行性（目前給藥途徑相容性尚待確認）。
-
-> 本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證才能應用。
+- 取得 Octreotide 詳細的作用機轉資料，並釐清體抑素受體在角化症相關皮膚組織的表現與角色
+- 進行文獻與臨床試驗的系統性檢索，確認是否存在任何病例報告或前臨床研究
+- 取得香港衛生署的仿單（警語、禁忌與核准適應症），完成安全性篩選
+- 評估給藥途徑的適配性（目前為注射劑，是否適合局部或皮膚病變用途尚待評估）
+- 若有機轉假設，先以前臨床或探索性研究驗證，再考慮進入臨床階段
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

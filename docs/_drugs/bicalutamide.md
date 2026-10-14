@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Bicalutamide
-parent: 中證據等級 (L3-L4)
-nav_order: 116
-evidence_level: L4
+parent: 僅模型預測 (L5)
+nav_order: 119
+evidence_level: L5
 indication_count: 10
 ---
 
 # Bicalutamide
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,15 @@ indication_count: 10
 
 </div>
 
-# Bicalutamide：從雄性素受體拮抗劑到多毛症（Hypertrichosis）
+# Bicalutamide：從前列腺癌相關用途到女性乳癌
 
 ## 一句話總結
 
-Bicalutamide 是非類固醇型雄性素受體拮抗劑，在香港已有 11 張許可證。
-TxGNN 預測它可能對**多毛症 (Hypertrichosis)** 有效，但直接證據很薄弱：只有 **1 篇**針對回溯性研究的評論信，**沒有臨床試驗**。
-本次預測清單中證據最多的是**女性乳癌**（1 個 Phase 2 試驗、約 20 篇文獻），詳見「其他預測適應症」。
+Bicalutamide 是一種非類固醇型雄激素受體（AR）拮抗劑，香港已有多張許可證上市。
+TxGNN 模型的首位預測為**多毛症 (Hypertrichosis)**，但證據僅有 1 篇評論信件，並不充分。
+證據最完整的是**女性乳癌 (Female Breast Carcinoma)**，目前有 **1 個 Phase 2 臨床試驗**和 **20 篇文獻**支持，因此本報告以乳癌作為主要評估對象。
+
+> 備註：本資料中香港許可證未提供核准適應症文字，原適應症無法由許可證確認。
 
 ---
 
@@ -43,28 +45,31 @@ TxGNN 預測它可能對**多毛症 (Hypertrichosis)** 有效，但直接證據�
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 多毛症 (Hypertrichosis) |
-| TxGNN 預測分數 | 99.69% |
-| 證據等級 | L4 |
+| 原適應症 | 資料未提供（許可證無適應症文字） |
+| 預測新適應症 | 女性乳癌 (Female Breast Carcinoma)（TxGNN 排名第 9；排名第 1 為多毛症，證據僅 L4） |
+| TxGNN 預測分數 | 99.11% |
+| 證據等級 | L2（依資料編譯時的評分；Phase 2 試驗尚未完成，嚴格依規則可能偏低） |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 11 張 |
-| 建議決策 | Hold |
+| 建議決策 | Proceed with Guardrails |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Bicalutamide 是雄性素受體（AR）拮抗劑，毛囊細胞表現雄性素受體，因此阻斷 AR 訊號在機轉上有可能降低毛髮過度生長。
+目前缺乏詳細的作用機轉資料。已知 Bicalutamide 是非類固醇型 AR 拮抗劑，透過阻斷雄激素受體訊號發揮作用。
 
-這個方向有一個具體線索。有一篇研究以「Bicalutamide 改善女性落髮患者 minoxidil 誘發的多毛症」（35 例回溯性回顧）為題，我們目前只取得針對它的評論信，原始研究尚未取得。因此這個預測目前只有間接支持。
+部分乳癌依賴 AR 訊號，特別是 AR 陽性的三陰性乳癌（TNBC）、頂漿分泌型癌（apocrine）及管腔 AR 型（LAR）亞型。這些亞型缺乏雌激素受體、黃體素受體及 HER2，傳統內分泌與標靶治療難以使用，因此 AR 成為可能的治療標的。
 
-須注意，此預測的對象是一般性的「多毛症」，證據所指的則是 minoxidil 誘發的多毛症。兩者不能直接等同。用於女性時，還需權衡肝毒性與胎兒（致畸胎）風險。
+前臨床研究顯示 Bicalutamide 可抑制 MDA-MB-231 細胞的增殖與侵襲，與薑黃素合用有療效，與 ERK 抑制劑共同標靶可經由 FOXC2 誘發鐵死亡，並可增強化療在發炎性乳癌細胞株的效果。不過，臨床上 Bicalutamide 併用芳香環轉化酶抑制劑於 ER+/AR+ 晚期乳癌的 Phase 2 單臂研究，並未顯示協同效果（6 個月臨床獲益率 16.7%，客觀反應率 0%，研究提前終止）。因此，需依 AR 表現篩選病人。
 
 ---
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記。
+| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
+|---------|------|------|------|---------|
+| [NCT03650894](https://clinicaltrials.gov/study/NCT03650894) | Phase 2 | 進行中（不再招募） | 30 | Nivolumab + Bicalutamide + Ipilimumab 用於轉移性 HER2 陰性乳癌；單臂小型試驗，尚無結果，無法分離 Bicalutamide 的貢獻 |
 
 ---
 
@@ -72,90 +77,70 @@ TxGNN 預測它可能對**多毛症 (Hypertrichosis)** 有效，但直接證據�
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [35304167](https://pubmed.ncbi.nlm.nih.gov/35304167/) | 2022 | 評論信（針對回溯性研究） | J Am Acad Dermatol | 針對「Bicalutamide 改善女性落髮患者 minoxidil 誘發多毛症」一文的評論；無摘要，原研究內容未提供 |
-
----
-
-## 其他預測適應症
-
-TxGNN 對 Bicalutamide 還預測了下列適應症，其中只有**女性乳癌**有實質的臨床與文獻線索。
-
-| 排名 | 預測適應症 | 分數 | 證據等級 | 評估 |
-|------|-----------|------|---------|------|
-| 2 | 伴牙齒／牙周異常的畸形症候群 | 99.59% | L5 | 檢索到的 20 篇文獻談的是一般牙周炎，均未提及 Bicalutamide，屬關鍵字誤配；高分應是知識圖譜的假象 |
-| 3 | Ambras 型先天性全身多毛症 | 99.57% | L5 | 僅有模型預測，可能源自多毛表型；這是先天性遺傳疾病，雄性素拮抗並非已知的矯正機轉 |
-| 4 | 以 Dandy-Walker 畸形為主要特徵的症候群 | 99.57% | L5 | 雄性素受體拮抗與後顱窩結構畸形之間無合理機轉 |
-| 5 | 孤立性遺傳性毛幹異常 | 99.53% | L5 | 毛幹缺陷屬結構性、由基因驅動，無證據顯示阻斷雄性素可矯正 |
-| 6 | 痲瘋病 (Leprosy) | 99.41% | L5 | 找不到雄性素受體拮抗與麻風桿菌感染或免疫反應之間的機轉 |
-| 7 | 多發性內分泌腫瘤 | 99.22% | L5 | 兩個登記試驗（NCT02615223、NCT03878524）皆與該疾病無關，屬廣義關鍵字誤配 |
-| 8 | 肺動脈高壓 | 99.18% | L5 | 唯一文獻是副腫瘤性硬皮病，與 Bicalutamide 治療肺高壓無關 |
-| 10 | 腎因性抗利尿不適當症候群 | 99.03% | L5 | 該病為血管加壓素 V2 受體功能增益疾病，與雄性素受體拮抗無關 |
-
-### 重點：女性乳癌（排名 9，分數 99.11%）
-
-**機轉合理性**：部分乳癌表現雄性素受體，尤其是 AR 陽性的三陰性乳癌與大汗腺癌。Bicalutamide 可阻斷 AR 訊號。前臨床研究顯示它能降低三陰性乳癌細胞的增殖與侵襲、抑制 AR／β-catenin 訊號，並在體外及體內增強化療效果。另有 1 例 AR 陽性轉移性乳癌達完全緩解的個案報告。
-
-**臨床試驗**
-
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT03650894](https://clinicaltrials.gov/study/NCT03650894) | Phase 2 | 進行中（不再招募） | 30 | Nivolumab + Bicalutamide + Ipilimumab 用於轉移性 HER2 陰性乳癌；預計 2026-12 完成，未提供結果 |
-
-**代表性文獻**
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [31434793](https://pubmed.ncbi.nlm.nih.gov/31434793/) | 2020 | Phase 2 單臂試驗 | Oncologist | Bicalutamide + 芳香環轉化酶抑制劑用於 ER+／AR+ 晚期乳癌：6 個月臨床獲益率 16.7%、客觀反應率 0%，未見協同作用，試驗提前終止 |
-| [24888812](https://pubmed.ncbi.nlm.nih.gov/24888812/) | 2016 | 個案報告 | J Clin Oncol | AR 陽性轉移性乳癌對 Bicalutamide 達完全緩解 |
-| [40853613](https://pubmed.ncbi.nlm.nih.gov/40853613/) | 2025 | Review | Curr Med Sci | 回顧三陰性乳癌的抗雄性素治療現況，含 Bicalutamide 與合併療法 |
-| [29940524](https://pubmed.ncbi.nlm.nih.gov/29940524/) | 2018 | Review | Cancer Treat Rev | AR 作為三陰性乳癌的潛在治療標靶 |
-| [24740738](https://pubmed.ncbi.nlm.nih.gov/24740738/) | 2014 | Review | J Mol Endocrinol | 重新檢視 AR 在乳癌中的角色 |
-| [32332626](https://pubmed.ncbi.nlm.nih.gov/32332626/) | 2020 | 前臨床（體外） | Medicine | Bicalutamide 抑制 MDA-MB-231 三陰性乳癌細胞的增殖與侵襲 |
-| [29069648](https://pubmed.ncbi.nlm.nih.gov/29069648/) | 2017 | 前臨床 | Cell Physiol Biochem | Bicalutamide 拮抗 AR，抑制 ER 陰性乳癌的 β-catenin 轉錄複合體 |
-| [31917699](https://pubmed.ncbi.nlm.nih.gov/31917699/) | 2020 | 前臨床 | Anti-Cancer Drugs | Bicalutamide 合併薑黃素對 AR 陽性三陰性乳癌有治療效果 |
-| [39063165](https://pubmed.ncbi.nlm.nih.gov/39063165/) | 2024 | 前臨床（體外及體內） | Int J Mol Sci | Bicalutamide 增強人類與犬發炎性乳癌細胞株對傳統化療的效果 |
-| [40974527](https://pubmed.ncbi.nlm.nih.gov/40974527/) | 2026 | 前臨床 | Sci China Life Sci | AR／ERK 共同抑制經 FOXC2 誘發三陰性乳癌細胞鐵死亡，Bicalutamide 與 ERK 抑制劑 GDC-0994 有協同作用 |
-
-**證據等級說明**：資料包標為 L2，但唯一的 Phase 2 試驗尚未完成、無結果，且為合併療法，無法分離 Bicalutamide 的單獨貢獻。已完成的 Phase 2 單臂研究（PMID 31434793）結果偏負面。依判定規則，較保守應視為 L3–L4。若要推進，必須以 AR 生物標記篩選病人。
+| [31434793](https://pubmed.ncbi.nlm.nih.gov/31434793/) | 2020 | Phase 2 單臂臨床研究 | The Oncologist | Bicalutamide + 芳香環轉化酶抑制劑用於 ER+/AR+ 晚期乳癌，未見協同效果，研究提前終止 |
+| [40853613](https://pubmed.ncbi.nlm.nih.gov/40853613/) | 2025 | Review | Current Medical Science | 抗雄激素療法於 TNBC 的現況，探討與化療、免疫治療合併 |
+| [29940524](https://pubmed.ncbi.nlm.nih.gov/29940524/) | 2018 | Review | Cancer Treatment Reviews | AR 是 TNBC（LAR 亞型）的潛在標的 |
+| [32145961](https://pubmed.ncbi.nlm.nih.gov/32145961/) | 2020 | Review | Bulletin du Cancer | AR 陽性 TNBC 約占 TNBC 的 30%，預後並未較佳 |
+| [24740738](https://pubmed.ncbi.nlm.nih.gov/24740738/) | 2014 | Review | J Mol Endocrinol | 重新檢視 AR 在乳癌的角色 |
+| [32332626](https://pubmed.ncbi.nlm.nih.gov/32332626/) | 2020 | 前臨床 | Medicine | Bicalutamide 抑制 MDA-MB-231 細胞增殖與侵襲 |
+| [31917699](https://pubmed.ncbi.nlm.nih.gov/31917699/) | 2020 | 前臨床 | Anti-Cancer Drugs | Bicalutamide 合併薑黃素對 AR 陽性 TNBC 有強療效 |
+| [40974527](https://pubmed.ncbi.nlm.nih.gov/40974527/) | 2026 | 前臨床 | Sci China Life Sci | AR/ERK 共同標靶經 FOXC2 誘發 TNBC 鐵死亡 |
+| [39063165](https://pubmed.ncbi.nlm.nih.gov/39063165/) | 2024 | 前臨床 | Int J Mol Sci | Bicalutamide 增強化療在人類與犬發炎性乳癌細胞株的效果 |
+| [35027319](https://pubmed.ncbi.nlm.nih.gov/35027319/) | 2022 | Review | Clin Breast Cancer | 乳癌頂漿分泌型癌的分子與臨床特徵（ER 陰性、AR 陽性） |
 
 ---
 
 ## 香港上市資訊
 
-共 11 張許可證，以下列出 5 張主要許可證。資料中未載明劑型與核准適應症。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-41794 | CASODEX TAB 50MG | 錠劑 | 資料未提供 |
+| HK-49624 | CASODEX TAB 150MG | 錠劑 | 資料未提供 |
+| HK-68650 | HEXALIS TABLETS 50MG | 錠劑 | 資料未提供 |
+| HK-68649 | HEXALIS TABLETS 150MG | 錠劑 | 資料未提供 |
+| HK-59232 | BICALOX TAB 50MG | 錠劑 | 資料未提供 |
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-68650 | HEXALIS TABLETS 50MG | LOTUS PHARMACEUTICAL HK LIMITED |
-| HK-59232 | BICALOX TAB 50MG | UNITED ITALIAN CORP (HK) LTD |
-| HK-65485 | BICAMIDE TABLETS 50MG | LSB (HK) LIMITED |
-| HK-49624 | CASODEX TAB 150MG | ASTRAZENECA HONG KONG LIMITED |
-| HK-57576 | PMS-BICALUTAMIDE TAB 50MG | TRENTON-BOMA LTD |
+（共 11 張有效單方許可證，上表僅列 5 張。）
+
+---
+
+## 細胞毒性
+
+| 項目 | 內容 |
+|------|------|
+| 細胞毒性分類 | 標靶／內分泌治療（AR 拮抗劑），非傳統細胞毒性藥物 |
+| 骨髓抑制風險 | 低（但資料顯示貧血為知識圖譜中的禁忌疾病之一） |
+| 致吐性分級 | 低 |
+| 監測項目 | 肝功能、血糖、CBC |
+| 處置防護 | 請參考原廠仿單的警語與注意事項 |
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌／需謹慎疾病**（來自藥物－疾病關聯，非仿單原文）：肝病、膽囊疾病、藥物性肝損傷、高血糖、糖尿病、糖尿病酮酸中毒、貧血（含巨球性貧血）、間質性肺病。
+- **藥物交互作用**：共查得 100 筆，以下為部分範例。
+  - 嚴重（Major）：Cisapride、Dolasetron
+  - 中度（Moderate）：Famotidine、Loperamide、Aprepitant、Clarithromycin、Levofloxacin、Granisetron、Budesonide 等
+  - 輕度（Minor）：Metronidazole
 
-另依評估，若用於女性，需特別權衡肝毒性與胎兒（致畸胎）風險。
+仿單的警語與禁忌資料尚未取得，請參考原廠仿單。
 
 ---
 
 ## 結論與下一步
 
-**決策：Hold**（針對預測排名第 1 的多毛症）
+**決策：Proceed with Guardrails**
 
 **理由：**
-- 多毛症只有 1 篇針對回溯性研究的評論信，沒有臨床試驗，原始研究也未取得，證據不足以推進。
-- 其餘多數預測（牙周畸形、Dandy-Walker、痲瘋病等）屬模型假象或關鍵字誤配，同樣建議暫緩。
-- 女性乳癌是唯一值得優先追蹤的方向，但目前證據仍偏前臨床，且已完成的 Phase 2 結果偏負面。
+- 乳癌是所有預測中證據最完整的一項，有 1 個 Phase 2 試驗及多篇前臨床與綜述文獻支持 AR 標的。但臨床證據仍薄弱，且 ER+/AR+ 的 Phase 2 單臂研究結果為陰性，效益可能僅限於特定亞型。
+- 其餘預測（多毛症、先天畸形症候群、痲瘋病等）多為證據極少或機轉不明的圖譜預測，建議維持 Hold。
 
 **若要推進需要：**
-- **多毛症：** 取得原始研究「Bicalutamide Improves Minoxidil-Induced Hypertrichosis in Female Pattern Hair Loss」全文並評估，證據若屬觀察性研究可升為 L3。同時釐清目標族群（minoxidil 誘發 vs. 其他多毛症）。
-- **女性乳癌：** 追蹤 NCT03650894 的結果，並確認 AR 陽性的篩選標準。
-- **安全性：** 取得香港衛生署核准的仿單，補齊警語、禁忌症與藥物交互作用資料。
-- **機轉：** 補齊 DrugBank 的作用機轉資料。
+- 取得 Phase 2 試驗（NCT03650894）結果，並設計 AR 表現篩選的病人族群
+- 補充作用機轉資料與香港仿單的警語、禁忌及核准適應症
+- 針對肝功能、血糖及藥物交互作用（尤其 QT 延長相關藥物）制定監測計畫
+- 評估單藥於 AR 陽性 TNBC 的療效，並與已知 AR 抑制劑（如 enzalutamide）比較
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

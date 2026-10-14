@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cyclophosphamide
-parent: 僅模型預測 (L5)
-nav_order: 230
-evidence_level: L5
+parent: 高證據等級 (L1-L2)
+nav_order: 234
+evidence_level: L2
 indication_count: 5
 ---
 
 # Cyclophosphamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L2** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,119 +29,146 @@ indication_count: 5
 
 </div>
 
-# Cyclophosphamide：從（香港登記資料未載明適應症）到骨髓性白血病
+# Cyclophosphamide：從淋巴瘤與乳癌等惡性腫瘤到骨髓性白血病
 
 ## 一句話總結
 
-Cyclophosphamide 是烷化劑類抗癌藥，在香港有 4 張上市許可證，但登記資料沒有列出核准適應症。
-TxGNN 模型預測它可能對**骨髓性白血病 (Myeloid Leukemia)** 有效。
-目前有 **50 個臨床試驗**和 **20 篇文獻**與此方向相關，但大多是把它當作移植前處理、移植後 GVHD 預防或 CAR-T 淋巴清除的一環，並非單獨評估它對白血病的療效。
+Cyclophosphamide 是烷化劑類細胞毒性藥物，原本用於蕈狀肉芽腫、多發性骨髓瘤、神經母細胞瘤、淋巴瘤、乳癌、視網膜母細胞瘤等癌症。
+TxGNN 模型預測它可能對**骨髓性白血病 (Myeloid Leukemia)** 有效，
+目前有 **30 個臨床試驗**和 **20 篇文獻**支持這個方向，但多數是將它當作移植前預處理或移植後 GVHD 預防的一環，其單獨貢獻不易釐清。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證資料未載明 |
+| 原適應症 | 蕈狀肉芽腫、多發性骨髓瘤、神經母細胞瘤、淋巴瘤、乳癌、視網膜母細胞瘤等（香港許可證未登載適應症文字，此為知識圖譜所列適應症） |
 | 預測新適應症 | 骨髓性白血病 (Myeloid Leukemia) |
 | TxGNN 預測分數 | 99.47% |
-| 證據等級 | L3（見下方說明） |
+| 證據等級 | L2 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 4 張 |
 | 建議決策 | Proceed with Guardrails |
 
-證據等級說明：Evidence Pack 標示為 L2，但依判定規則，L2 需要 1 個已完成的 Phase 2/3 RCT。最直接的完成型 Phase 2 試驗 NCT01707004 是單臂試驗，不符合 RCT 條件。其餘證據以系統性回顧、網絡統合分析和世代研究為主，因此這裡判為 L3。
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank MOA 欄位為空）。根據一般藥理知識，Cyclophosphamide 是一種前驅藥，經肝臟活化後成為 DNA 烷化劑。它同時有細胞毒殺和淋巴清除（免疫抑制）作用。這些說明來自通用藥理，不是 Evidence Pack 提供的資料。
+目前缺乏詳細的作用機轉資料。Cyclophosphamide 是烷化劑，具細胞毒性與淋巴細胞清除／免疫抑制作用。
 
-這兩種作用剛好對應它在骨髓性白血病（尤其是 AML）移植治療中的角色：
+在骨髓性白血病中，它主要用於兩種情境：
+1. 作為異體造血幹細胞移植的預處理方案成分（如 busulfan-cyclophosphamide、cyclophosphamide/fludarabine）。
+2. 作為移植後 cyclophosphamide（PTCy），選擇性清除具同種反應性的 T 細胞，預防單倍體相合及其他異體移植的移植物抗宿主病（GVHD）。
 
-- 與 busulfan 合併的清髓性前處理（Bu/Cy）。
-- 高劑量使用。
-- 移植後 Cyclophosphamide（PTCy）預防 GVHD。
+這與它原有的腫瘤與免疫抑制用途在機轉上相符。需要注意的是，多數試驗把它放在多藥或移植方案中，因此很難分離出 cyclophosphamide 本身的獨立貢獻。
 
-因此，這個預測比較像是印證既有的臨床用法，而不是全新的老藥新用。現有證據也沒有顯示它單獨用於白血病的療效。
+---
 
 ## 臨床試驗證據
 
-從 50 個相關試驗中挑選最相關的 10 個。多數試驗中 Cyclophosphamide 只是組成之一。
+資料中共有 30 個相關試驗，以下列出與 cyclophosphamide 最相關的 10 個：
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT01707004](https://clinicaltrials.gov/study/NCT01707004) | Phase 2 | 完成 | 20 | Decitabine 加全身放射後接骨髓移植與高劑量 Cyclophosphamide，用於復發/難治型 AML；單臂試驗 |
-| [NCT02724163](https://clinicaltrials.gov/study/NCT02724163) | Phase 3 | 招募中 | 700 | 兒童 AML 國際隨機試驗，比較誘導化療組合並找 gemtuzumab 劑量；未顯示 Cyclophosphamide 是受測變項 |
-| [NCT02294552](https://clinicaltrials.gov/study/NCT02294552) | Phase 2 | 完成 | 200 | 高劑量移植後 Cyclophosphamide 預防異體移植後 GVHD |
-| [NCT03246906](https://clinicaltrials.gov/study/NCT03246906) | Phase 2 | 終止 | 150 | 隨機比較 cyclosporine/sirolimus 合併 MMF 或 PTCy 預防 GVHD |
-| [NCT04888741](https://clinicaltrials.gov/study/NCT04888741) | Phase 2 | 未知 | 400 | 非親緣移植中比較 Thymoglobulin 與含 PTCy 的 GVHD 預防 |
-| [NCT02627573](https://clinicaltrials.gov/study/NCT02627573) | Phase 2 | 終止 | 32 | 隨機比較 PTCy 與 Thymoglobulin，對象為慢性骨髓增生性腫瘤和 MDS |
-| [NCT02759822](https://clinicaltrials.gov/study/NCT02759822) | 不適用 | 未知 | 30 | 單倍體移植加 PTCy 治療急性白血病的前瞻性觀察世代 |
-| [NCT02094794](https://clinicaltrials.gov/study/NCT02094794) | Phase 2 | 進行中（不招募） | 108 | 全骨髓與淋巴放射（TMLI）加 Cyclophosphamide 與 etoposide 作為高風險 ALL/AML 移植前處理 |
-| [NCT00047060](https://clinicaltrials.gov/study/NCT00047060) | Phase 1/2 | 完成 | 5 | 血液幹細胞移植治療晚期蕈樣肉芽腫/Sézary 症候群；樣本極小 |
-| [NCT00005804](https://clinicaltrials.gov/study/NCT00005804) | Phase 2 | 完成 | 未提供 | 非親緣骨髓移植治療血液惡性腫瘤；未確認 Cyclophosphamide 的角色 |
+| [NCT04473911](https://clinicaltrials.gov/study/NCT04473911) | Phase 1 | 完成 | 25 | 單倍體周邊血幹細胞移植，以 PTCy 為核心預防 GVHD，適用骨髓性惡性腫瘤 |
+| [NCT00315705](https://clinicaltrials.gov/study/NCT00315705) | Phase 1/2 | 完成 | 50 | Clofarabine 併 etoposide、cyclophosphamide 用於兒童復發／難治急性白血病 |
+| [NCT00003187](https://clinicaltrials.gov/study/NCT00003187) | Phase 2/3 | 完成 | 19 | 非親屬捐贈骨髓移植，比較傳統與去 T 細胞移植 |
+| [NCT00390793](https://clinicaltrials.gov/study/NCT00390793) | Phase 2 | 完成 | 107 | Hyper-CVAD 併 dasatinib 用於 Ph+ ALL，結果受 dasatinib 干擾 |
+| [NCT01350245](https://clinicaltrials.gov/study/NCT01350245) | Phase 2 | 完成 | 28 | 兩步驟單倍體異體移植用於血液惡性腫瘤 |
+| [NCT04904588](https://clinicaltrials.gov/study/NCT04904588) | Phase 2 | 進行中（不招募） | 300 | HLA 不全相合非親屬捐贈移植併 PTCy 預防 GVHD |
+| [NCT00309842](https://clinicaltrials.gov/study/NCT00309842) | Phase 2 | 完成 | 213 | 臍帶血移植，採 cyclophosphamide/fludarabine/TBI 清髓預處理 |
+| [NCT05515029](https://clinicaltrials.gov/study/NCT05515029) | Phase 3 | 進行中（不招募） | 56 | PTCy 併 abatacept、vedolizumab 及鈣調神經磷酸酶抑制劑預防 GVHD（兒童與年輕成人） |
+| [NCT02724163](https://clinicaltrials.gov/study/NCT02724163) | Phase 3 | 進行中（不招募） | 700 | 兒童 AML 國際隨機試驗，評估 gemtuzumab ozogamicin 與誘導化療 |
+| [NCT07183878](https://clinicaltrials.gov/study/NCT07183878) | N/A | 招募中 | 138 | 隨機比較 Ven-BUCY 與標準 BUCY 預處理用於高風險 AML／MDS |
+
+---
 
 ## 文獻證據
 
-本次沒有 RCT 文獻，依「Review > 世代研究」排序，共列 10 篇。
+資料中的文獻以世代研究與回顧為主，未見隨機對照試驗：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [36357773](https://pubmed.ncbi.nlm.nih.gov/36357773/) | 2023 | 系統性回顧/網絡統合分析 | Bone Marrow Transplant | 比較成人 AML 緩解期異體移植的清髓性前處理方案，Bu/Cy 為常用方案 |
-| [28883081](https://pubmed.ncbi.nlm.nih.gov/28883081/) | 2017 | 專家立場聲明 | Haematologica | EBMT 對成人 AML 單倍體移植的立場聲明 |
-| [32857869](https://pubmed.ncbi.nlm.nih.gov/32857869/) | 2020 | Review | Am J Hematol | 探討 PTCy 時代下 NK 細胞同種反應性在 AML 的角色 |
-| [40434956](https://pubmed.ncbi.nlm.nih.gov/40434956/) | 2025 | 世代研究 | Future Oncol | 比較 BuCy 與 FluBu 前處理用於 AML 異體移植 |
-| [39939431](https://pubmed.ncbi.nlm.nih.gov/39939431/) | 2025 | 世代研究 | Bone Marrow Transplant | EBMT 1,823 名 AML 病人使用 PTCy，依細胞遺傳/分子風險分析前處理強度的影響 |
-| [40437709](https://pubmed.ncbi.nlm.nih.gov/40437709/) | 2025 | 世代研究 | Eur J Haematol | 65 歲以下 AML 使用 ATG 加 PTCy，比較清髓與減量前處理的存活 |
-| [35955881](https://pubmed.ncbi.nlm.nih.gov/35955881/) | 2022 | 世代研究 | Int J Mol Sci | 兒童 AML 配對手足/非親緣移植使用 PTCy 的首批資料 |
-| [25345651](https://pubmed.ncbi.nlm.nih.gov/25345651/) | 2015 | 比較研究 | Am J Hematol | 165 名 AML 病人比較清髓移植與 Cy/Flu 非清髓移植，存活結果無差異 |
-| [33325761](https://pubmed.ncbi.nlm.nih.gov/33325761/) | 2021 | 病例系列 | Leuk Lymphoma | 27 名高白血球或白血球淤滯的 AML 病人使用高劑量 Cyclophosphamide（60 mg/kg）降低腫瘤負荷 |
-| [29039989](https://pubmed.ncbi.nlm.nih.gov/29039989/) | 2017 | 病例系列 | Pediatr Hematol Oncol | 17 名復發/難治型兒童 AML 使用 clofarabine、Cyclophosphamide 與 etoposide，41% 有反應 |
+| [36357773](https://pubmed.ncbi.nlm.nih.gov/36357773/) | 2023 | 系統性回顧／網絡統合分析 | Bone Marrow Transplant | 比較成人 AML 緩解期異體移植的清髓性預處理方案（含 Bu/Cy） |
+| [14662323](https://pubmed.ncbi.nlm.nih.gov/14662323/) | 2003 | Review | Exp Hematol | 比較 Bu-Cy 與 TBI-Cy 預處理用於 AML 的研究，結果並不一致 |
+| [38758817](https://pubmed.ncbi.nlm.nih.gov/38758817/) | 2024 | Cohort | Cancer | EBMT 報告：單倍體移植中 PTCy、ATG 及兩者合併預防 GVHD 的比較 |
+| [40434956](https://pubmed.ncbi.nlm.nih.gov/40434956/) | 2025 | Cohort | Future Oncol | 比較 BuCy 與 FluBu 預處理，FluBu 療效相近而毒性可能較低 |
+| [25345651](https://pubmed.ncbi.nlm.nih.gov/25345651/) | 2015 | Cohort | Am J Hematol | 165 位 AML 患者，Cy/Flu 非清髓移植與清髓移植存活結果比較 |
+| [36842566](https://pubmed.ncbi.nlm.nih.gov/36842566/) | 2023 | Cohort | Transpl Immunol | PTCy 與早期混合嵌合現象，需在 GVHD 預防與復發風險間取得平衡 |
+| [38466265](https://pubmed.ncbi.nlm.nih.gov/38466265/) | 2024 | Cohort | Cytotherapy | 使用 PTCy 的單倍體移植治療 AML 之預後因子 |
+| [41046309](https://pubmed.ncbi.nlm.nih.gov/41046309/) | 2026 | Cohort | Bone Marrow Transplant | AML 第一次緩解期，單一臍帶血移植與 PTCy 單倍體移植的登錄資料比較 |
+| [42373850](https://pubmed.ncbi.nlm.nih.gov/42373850/) | 2026 | Cohort | Bone Marrow Transplant | ALWP/EBMT：次發性 AML 中單倍體與不全相合非親屬移植（均用 PTCy）比較 |
+| [35955881](https://pubmed.ncbi.nlm.nih.gov/35955881/) | 2022 | 回溯研究 | Int J Mol Sci | 兒童 AML 在相合手足及非親屬移植後使用 PTCy 的經驗 |
+
+---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-51711 | ENDOXAN TAB 50MG | BAXTER HEALTHCARE LIMITED |
-| HK-51308 | ENDOXAN FOR INJ 1G | BAXTER HEALTHCARE LIMITED |
-| HK-01327 | ENDOXAN 200 MG INJ | BAXTER HEALTHCARE LIMITED |
-| HK-50943 | CYCRAM FOR INJ 1G | HEALTHCARE PHARMASCIENCE LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-51711 | ENDOXAN TAB 50MG | — | — |
+| HK-51308 | ENDOXAN FOR INJ 1G | — | — |
+| HK-01327 | ENDOXAN 200 MG INJ | — | — |
+| HK-50943 | CYCRAM FOR INJ 1G | — | — |
 
-劑型欄位與核准適應症在登記資料中均為空白，需查閱衛生署仿單。
+上述 4 張許可證皆為有效的單一成分製劑，目前資料未載明劑型與核准適應症文字。
+
+---
 
 ## 細胞毒性
 
-以下為藥物類別的通用知識，Evidence Pack 未提供 toxicity 資料，實際內容請以原廠仿單為準。
-
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 傳統細胞毒性藥物（烷化劑，前驅藥） |
-| 骨髓抑制風險 | 高（可造成嗜中性白血球減少、血小板減少） |
-| 致吐性分級 | 中至高（隨劑量升高，高劑量偏高） |
-| 監測項目 | CBC（含分類）、肝腎功能、尿液檢查（出血性膀胱炎）、電解質 |
+| 細胞毒性分類 | 傳統細胞毒性藥物（烷化劑） |
+| 骨髓抑制風險 | 高（一般於高劑量預處理方案中特別明顯），詳細數據請參考原廠仿單 |
+| 致吐性分級 | 中至高（依劑量而異） |
+| 監測項目 | CBC（含分類）、肝腎功能、電解質、尿液檢查（出血性膀胱炎） |
 | 處置防護 | 需依細胞毒性藥物處置規範操作 |
+
+請參考原廠仿單的警語與注意事項。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。警語、禁忌症都沒有可用資料，藥物交互作用查詢也無結果。
+- **藥物交互作用**：資料庫共查得 100 筆交互作用，以下為部分範例（皆為 Moderate，除註明外）：
+  - 抗黴菌藥：Amphotericin B（含脂質複合物、膽固醇硫酸酯、脂質體劑型）
+  - 磺醯脲類降血糖藥：Chlorpropamide、Acetohexamide、Glimepiride、Glipizide、Glyburide、Tolazamide、Tolbutamide
+  - 其他降血糖藥：Nateglinide、Repaglinide、Troglitazone
+  - 其他：Bupropion、Aprepitant、Metronidazole、Nitisinone
+  - Minor 等級：Levofloxacin、Ondansetron
 
-文獻提示：PMID [25612567](https://pubmed.ncbi.nlm.nih.gov/25612567/)（2015）報告 Cyclophosphamide 治療後早期發生次發性 AML，屬於治療相關骨髓腫瘤的風險。
+其餘警語與禁忌症請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-- Cyclophosphamide 已深入 AML 移植實務（Bu/Cy 前處理、PTCy），有系統性回顧、大型世代研究和多個 Phase 2 試驗支持。
-- 但現有證據多屬組合方案的一部分，沒有單獨療效的隨機對照資料，證據等級為 L3。
-- 香港仿單的警語與禁忌症尚缺，這是 Evidence Pack 標示的阻斷性缺口，安全性篩選前不宜再往前推。
+- 已有多項已完成的 Phase 2 及 Phase 2/3 試驗，並有大量移植相關世代研究支持 cyclophosphamide 於骨髓性白血病的預處理與 PTCy 用途，證據等級為 L2。
+- 但絕大多數試驗是多藥或移植方案，cyclophosphamide 的獨立貢獻難以分離，且部分試驗規模很小。
 
 **若要推進需要：**
-- 取得衛生署仿單，補齊警語、禁忌症與核准適應症（DG001，阻斷性）。
-- 補齊 DrugBank 作用機轉資料（DG002）。
-- 明確界定使用情境（清髓前處理、PTCy 或淋巴清除），並針對各情境整理 Cyclophosphamide 特有的效果。
-- 建立骨髓抑制、出血性膀胱炎與次發性惡性腫瘤的監測計畫。
+- 取得作用機轉（MOA）資料以補強機轉分析
+- 取得香港衛生署仿單的警語與禁忌症資料，並確認核准適應症文字（此項為完成安全性篩選的必要條件）
+- 釐清各移植方案中 cyclophosphamide 的具體角色與劑量，優先分析 PTCy 相關試驗
+- 針對移植情境擬定骨髓抑制、出血性膀胱炎及心臟毒性等的監測計畫
 
-本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。
+---
+
+## 其他預測適應症（供參考）
+
+| 排名 | 預測適應症 | 分數 | 證據等級 | 建議 |
+|------|-----------|------|---------|------|
+| 2 | 節細胞神經母細胞瘤 (Ganglioneuroblastoma) | 99.43% | L4 | Research Question |
+| 3 | 椎骨異常合併內分泌及 T 細胞功能異常 | 99.38% | L5 | Hold |
+| 4 | 腹膜後腫瘤 (Retroperitoneal neoplasm) | 99.37% | L4 | Research Question |
+| 5 | 淋巴結癌 (Lymph node cancer) | 99.31% | L1 | Proceed with Guardrails |
+
+淋巴結癌的 L1 證據主要來自淋巴結陽性乳癌的輔助化療 Phase 3 試驗（如 NCT00003782，n=5351），反映的是既有適應症的使用，並非真正的新適應症。椎骨異常合併 T 細胞功能異常一項目前僅有模型預測，無試驗與文獻，且免疫抑制劑對此類 T 細胞功能障礙可能不利，應暫緩。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

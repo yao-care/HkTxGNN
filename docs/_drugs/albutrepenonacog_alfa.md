@@ -2,7 +2,7 @@
 layout: default
 title: Albutrepenonacog Alfa
 parent: 僅模型預測 (L5)
-nav_order: 29
+nav_order: 31
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,12 +29,12 @@ indication_count: 6
 
 </div>
 
-# Albutrepenonacog alfa：從血友病 B 到類血友病性血管性假性疾病 (Pseudo-von Willebrand Disease)
+# Albutrepenonacog alfa：從血友病到偽性血管性血友病（pseudo-von Willebrand disease）
 
 ## 一句話總結
 
-Albutrepenonacog alfa 是重組第九凝血因子與白蛋白的融合蛋白（品牌名 IDELVION），一般用於血友病 B。Evidence Pack 並未載明原適應症，此為依藥物屬性的推定。
-TxGNN 預測它可能對**假性血管性血友病 (Pseudo-von Willebrand Disease)** 有效，但目前**沒有任何臨床試驗或文獻**支持，只有模型預測。
+Albutrepenonacog alfa 是與白蛋白融合的重組第九凝血因子（rFIX-FP），原本用於血友病（hemophilia）的治療。
+TxGNN 模型預測它可能對**偽性血管性血友病 (pseudo-von Willebrand disease)** 有效，但目前**沒有任何臨床試驗或文獻**支持，僅有模型預測分數，且機轉上缺乏合理依據。
 
 ---
 
@@ -42,8 +42,8 @@ TxGNN 預測它可能對**假性血管性血友病 (Pseudo-von Willebrand Diseas
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未載明（香港許可證的適應症欄位皆為空白；依藥物屬性推定為血友病 B） |
-| 預測新適應症 | 假性血管性血友病 (Pseudo-von Willebrand Disease) |
+| 原適應症 | 血友病（hemophilia）、女性帶因者的症狀性血友病 |
+| 預測新適應症 | 偽性血管性血友病 (pseudo-von Willebrand disease) |
 | TxGNN 預測分數 | 99.94% |
 | 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
@@ -54,27 +54,27 @@ TxGNN 預測它可能對**假性血管性血友病 (Pseudo-von Willebrand Diseas
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Albutrepenonacog alfa 是重組第九因子融合蛋白，作用是補充缺乏的第九因子，支持內源性凝血路徑。
+目前缺乏詳細的作用機轉資料。已知 Albutrepenonacog alfa 是融合白蛋白的重組第九凝血因子，可延長半衰期，用於 B 型血友病（缺乏第九因子）的補充治療。
 
-假性血管性血友病是血小板型疾病，成因是血小板 GPIbα 功能增強，過度結合 VWF。這類患者並不缺乏第九因子，補充第九因子無法處理根本缺陷。
+偽性血管性血友病是血小板型疾病，由 GP1BA 基因功能增強變異造成，使血小板與血管性血友病因子（VWF）過度結合。第九因子補充無法修正這個血小板受體缺陷。因此，兩者雖同屬出血性疾病，但這個預測目前僅建立在知識圖譜的高分上，很可能反映的是「出血疾病」表型的相似，而非共同的標靶或路徑。
 
-因此，99.94% 的高分較可能反映知識圖譜中，這個藥物與凝血、出血相關節點距離接近，而不是已驗證的機轉。**這個預測在機轉上缺乏支持。**
+其他預測的適應症也有類似問題：
 
-### 其他預測適應症（同樣僅為模型預測）
-
-| 排名 | 預測適應症 | TxGNN 分數 | 機轉評估 |
-|------|-----------|-----------|---------|
-| 2 | 血小板原發性釋放障礙 | 99.94% | 缺陷在血小板分泌功能，補充第九因子無法矯正 |
-| 3 | Glanzmann 血小板無力症 | 99.92% | 缺陷在 GPIIb/IIIa，標準處置為血小板輸注或旁路藥物 |
-| 4 | Scott 症候群 | 99.63% | 與 tenase 複合體有概念上的關聯，但缺陷在血小板表面，屬推測 |
-| 5 | 膠原蛋白受體缺陷所致出血體質 | 99.28% | 缺陷在血小板受體功能，與第九因子無關 |
-| 6 | 先天性血小板減少所致出血性疾病 | 99.26% | 問題在血小板數量或功能，且可能增加血栓風險 |
+| 排名 | 預測適應症 | 分數 | 機轉評估 |
+|------|-----------|------|---------|
+| 2 | 血小板釋放功能異常 (primary release disorder of platelets) | 99.94% | 第九因子無法矯正血小板功能缺陷 |
+| 3 | Glanzmann 血小板無力症 | 99.92% | 缺陷在 αIIbβ3 整合素與血小板聚集，屬不同路徑；標準治療為血小板輸注、重組第七因子 |
+| 4 | Scott 症候群 | 99.63% | 第九因子屬 tenase 複合體，理論上可能部分補償，但限制因素是膜表面而非第九因子，效益屬推測 |
+| 5 | 膠原蛋白受體缺陷所致出血體質 | 99.28% | 第九因子不影響受體介導的血小板黏附 |
+| 6 | 先天性血小板減少所致出血性疾病 | 99.26% | 第九因子無法矯正血小板數量 |
 
 ---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
+
+---
 
 ## 文獻證據
 
@@ -84,12 +84,14 @@ TxGNN 預測它可能對**假性血管性血友病 (Pseudo-von Willebrand Diseas
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-65142 | IDELVION Powder and Solvent for Solution for Injection 250IU | CSL Behring Asia Pacific Limited |
-| HK-65143 | IDELVION Powder and Solvent for Solution for Injection 500IU | CSL Behring Asia Pacific Limited |
-| HK-65144 | IDELVION Powder and Solvent for Solution for Injection 1000IU | CSL Behring Asia Pacific Limited |
-| HK-65145 | IDELVION Powder and Solvent for Solution for Injection 2000IU | CSL Behring Asia Pacific Limited |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-65142 | IDELVION 注射用粉末及溶劑 250IU | 注射劑（粉末及溶劑） | 資料未提供 |
+| HK-65143 | IDELVION 注射用粉末及溶劑 500IU | 注射劑（粉末及溶劑） | 資料未提供 |
+| HK-65144 | IDELVION 注射用粉末及溶劑 1000IU | 注射劑（粉末及溶劑） | 資料未提供 |
+| HK-65145 | IDELVION 注射用粉末及溶劑 2000IU | 注射劑（粉末及溶劑） | 資料未提供 |
+
+四張許可證均為單方、有效，持證商為 CSL Behring Asia Pacific Limited。
 
 ---
 
@@ -104,16 +106,14 @@ TxGNN 預測它可能對**假性血管性血友病 (Pseudo-von Willebrand Diseas
 **決策：Hold**
 
 **理由：**
-- 6 個預測適應症全都是 L5，沒有臨床試驗或文獻。
-- 這些疾病的缺陷都在血小板或 VWF，第九因子並不缺乏，補充它在機轉上不合理。
-- 補充第九因子還可能增加血栓風險，卻沒有明確的療效依據。
+- 僅有 TxGNN 模型預測（證據等級 L5），無臨床試驗與文獻支持。
+- 偽性血管性血友病的病因是血小板受體缺陷，第九因子補充無法針對此機轉，預測可能源自出血性疾病表型的相似性。
 
 **若要推進需要：**
-- 補齊香港衛生署仿單的警語與禁忌資料，並確認原核准適應症。
-- 取得 DrugBank 的作用機轉資料。
-- 找到能說明第九因子如何影響血小板功能缺陷的機轉或前臨床證據。若找不到，建議不再優先推進這些預測。
-
-> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+- 取得 Albutrepenonacog alfa 完整的作用機轉資料。
+- 取得香港原廠仿單，完成警語與禁忌症的安全性評估。
+- 進行文獻與病例回顧，確認是否有第九因子用於血小板型出血疾病的任何證據。
+- 若仍要探索，應優先評估機轉上較有可能的 Scott 症候群，並以前臨床研究驗證。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

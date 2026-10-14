@@ -2,7 +2,7 @@
 layout: default
 title: Atropine
 parent: 中證據等級 (L3-L4)
-nav_order: 82
+nav_order: 84
 evidence_level: L4
 indication_count: 2
 ---
@@ -33,15 +33,16 @@ indication_count: 2
 
 ## 一句話總結
 
-Atropine（阿托品）是抗膽鹼藥物，在香港有注射劑與眼藥水上市，但資料中未載明核准適應症。
-TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
-目前**沒有臨床試驗**，僅有 **13 篇文獻**（列出 10 篇，多為前臨床或間接證據）。
+Atropine（阿托品）是一種非選擇性的蕈毒鹼型乙醯膽鹼受體拮抗劑，在香港已有多張單方許可證。
+TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目前**沒有臨床試驗**，僅有 **11 篇文獻**，且多為動物或體外研究，部分與 atropine 無直接關聯。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未載明 |
+| 原適應症 | 香港許可證資料未載明 |
 | 預測新適應症 | 偏頭痛 (Migraine Disorder) |
 | TxGNN 預測分數 | 99.56% |
 | 證據等級 | L4 |
@@ -49,38 +50,44 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 | 許可證數 | 12 張 |
 | 建議決策 | Hold |
 
-另一個預測適應症為**伴腦幹先兆的偏頭痛 (Migraine with Brainstem Aura)**（分數 99.42%，證據等級 L5，建議 Hold），僅有 1 篇小鼠研究，本報告以偏頭痛為主。
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Atropine 一般已知為毒蕈鹼型（muscarinic）膽鹼受體拮抗劑，但這部分並非來自本次資料包，僅供參考。
+Atropine 是非選擇性的蕈毒鹼型乙醯膽鹼受體拮抗劑。前臨床文獻指出，膽鹼系統與偏頭痛的病理有關，包括：
 
-前臨床文獻提示，副交感與膽鹼訊號可能參與偏頭痛的病理：
-- 大鼠研究顯示，刺激副交感蝶顎神經節會造成硬腦膜血漿蛋白外漏（PMID 9344563）。
-- 硬腦膜肥大細胞介導的膽鹼調控與神經源性發炎有關（PMID 36485173）。
+- 腦膜肥大細胞介導的膽鹼調控與神經源性發炎（PMID 36485173）
+- 刺激大鼠副交感蝶腭神經節，會造成硬腦膜血漿蛋白外滲（PMID 9344563）
+- 中樞膽鹼系統參與囓齒類動物的抗痛覺作用（PMID 8930196）
 
-因此，阻斷毒蕈鹼受體理論上可能調節這些路徑。不過，這些證據都是動物或體外實驗，沒有 atropine 用於偏頭痛的人體療效資料。其餘文獻（菸鹼受體、CGRP、其他抗膽鹼藥 anisodamine）與 atropine 的關聯薄弱。
+此外，慢性陣發性偏頭痛（chronic paroxysmal hemicrania）的自主神經研究（PMID 2943405）顯示，全身性給予 atropine 可明顯減少發作相關的出汗、流淚與鼻分泌。相關抗膽鹼藥 anisodamine 的藥理學文獻也提供間接支持。
 
-實務上，全身性抗膽鹼副作用（口乾、心搏過速、視力模糊、眼壓升高）是重要障礙，且缺乏適用於偏頭痛的劑量、給藥途徑與安全性資料。
+這些資料顯示以蕈毒鹼阻斷作為機轉有一定合理性，但都屬動物或體外數據，**不能證明 atropine 對偏頭痛的臨床療效**。TxGNN 的高分是計算預測，並非臨床證據。目前缺乏完整的藥物作用機轉資料彙整與原適應症資訊。
+
+另一個預測適應症「伴腦幹先兆的偏頭痛」目前僅有 1 篇小鼠研究（PMID 31945385），而且該研究顯示膽鹼活化會抑制皮質擴散性抑制（CSD）。這個方向與蕈毒鹼拮抗劑的作用相反，可能反而不利於 atropine，因此證據更弱（L5）。
+
+---
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記
+目前無相關臨床試驗登記。
+
+---
 
 ## 文獻證據
 
+以下列出與 atropine 或偏頭痛機轉較相關的文獻（其餘 4 篇為與 atropine 無關的個案、不良反應或其他藥物研究，不列入）：
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [17186568](https://pubmed.ncbi.nlm.nih.gov/17186568/) | 2007 | Review | J Appl Toxicol | 回顧 anisodamine（atropine 衍生物）的藥理特性，屬相關抗膽鹼藥而非 atropine 本身 |
-| [2943405](https://pubmed.ncbi.nlm.nih.gov/2943405/) | 1986 | 臨床觀察 | Cephalalgia | 4 名慢性陣發性偏頭痛（hemicrania）患者，全身給予 atropine 明顯減少發作相關的流汗、流淚與鼻分泌；疾病類型與偏頭痛不同 |
-| [36485173](https://pubmed.ncbi.nlm.nih.gov/36485173/) | 2024 | 前臨床 | Eur J Neurosci | 大鼠偏頭痛模型顯示，脊膜肥大細胞介導的膽鹼調控參與神經源性發炎 |
-| [9344563](https://pubmed.ncbi.nlm.nih.gov/9344563/) | 1997 | 前臨床 | Exp Neurol | 刺激大鼠副交感蝶顎神經節可誘發硬腦膜血漿蛋白外漏 |
-| [10193781](https://pubmed.ncbi.nlm.nih.gov/10193781/) | 1999 | 前臨床 | Br J Pharmacol | 豚鼠基底動脈中，部分止痛藥可抑制菸鹼誘發的血管舒張；與 atropine 關聯較弱 |
-| [15882801](https://pubmed.ncbi.nlm.nih.gov/15882801/) | 2005 | 前臨床 | Neurosci Lett | CGRP 與菸鹼受體在臉部血流變化中的角色；與 atropine 關聯較弱 |
-| [1786517](https://pubmed.ncbi.nlm.nih.gov/1786517/) | 1991 | 前臨床 | Br J Pharmacol | Ergotamine 與 dihydroergotamine 為 5-HT1C 受體強效促效劑；與 atropine 無直接關聯 |
-| [8930196](https://pubmed.ncbi.nlm.nih.gov/8930196/) | 1996 | 未分類 | J Pharmacol Exp Ther | 中樞膽鹼系統參與 sumatriptan 在囓齒動物的止痛作用 |
-| [40590589](https://pubmed.ncbi.nlm.nih.gov/40590589/) | 2024 | Case report | Pain Med Case Rep | 肉毒桿菌毒素治療慢性偏頭痛併多發性硬化患者導致垂頭症候群；與 atropine 無關 |
-| [18091300](https://pubmed.ncbi.nlm.nih.gov/18091300/) | 2007 | Case report | Optom Vis Sci | Topiramate 相關的眼壓升高與近視偏移；與 atropine 無關 |
+| [17186568](https://pubmed.ncbi.nlm.nih.gov/17186568/) | 2007 | Review | J Appl Toxicol | Anisodamine 是 atropine 衍生物，為非特異性膽鹼拮抗劑，效力與毒性低於 atropine |
+| [2943405](https://pubmed.ncbi.nlm.nih.gov/2943405/) | 1986 | 臨床觀察 | Cephalalgia | 4 名慢性陣發性偏頭痛患者，全身性 atropine 明顯減少發作相關出汗、流淚與鼻分泌 |
+| [36485173](https://pubmed.ncbi.nlm.nih.gov/36485173/) | 2024 | 前臨床機轉研究 | Eur J Neurosci | 大鼠偏頭痛模型中，腦膜肥大細胞介導的膽鹼調控參與神經源性發炎 |
+| [9344563](https://pubmed.ncbi.nlm.nih.gov/9344563/) | 1997 | 動物研究 | Exp Neurol | 刺激大鼠副交感蝶腭神經節可誘發硬腦膜血漿蛋白外滲 |
+| [8930196](https://pubmed.ncbi.nlm.nih.gov/8930196/) | 1996 | 動物研究 | J Pharmacol Exp Ther | 中樞膽鹼系統參與 sumatriptan 在囓齒類的抗痛覺作用 |
+| [10193781](https://pubmed.ncbi.nlm.nih.gov/10193781/) | 1999 | 體外藥理 | Br J Pharmacol | 豚鼠基底動脈尼古丁誘發舒張的機轉研究，atropine 僅作為實驗背景用藥 |
+
+---
 
 ## 香港上市資訊
 
@@ -92,27 +99,36 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 | HK-08619 | ATROPINE SULPHATE EYE DROPS 1% 'MINIMS' | 未載明 | 未載明 |
 | HK-68445 | ATROJEAN EYE DROPS 0.01% W/V | 未載明 | 未載明 |
 
+另有 7 張單方許可證（含注射劑與 DHAMOTIL、DIAMOTIL、CELIDIN、SYNCOMIL 等錠劑品項），共計 12 張有效許可證，無已註銷者。
+
+---
+
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **藥物交互作用**：已查得 100 筆交互作用紀錄，以下為部分主要項目。
+  - 中度：Botulinum toxin type A、Fentanyl、Chlorpheniramine、Acebutolol、Codeine、Tramadol、Dihydrocodeine、Alfentanil、Amitriptyline、Amantadine、Hyoscyamine、Loperamide、Aclidinium、Galantamine、Acetylcholine、Ethanol
+  - 輕微：Acetaminophen、Hydrochlorothiazide
+
+  這些多與其他抗膽鹼藥、中樞抑制劑或鴉片類藥物併用時的加成效應有關。
+
+其他警語與禁忌症請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- TxGNN 分數雖高，但沒有任何臨床試驗，也沒有 atropine 治療偏頭痛的人體療效資料，證據僅止於間接的前臨床研究（L4）。
-- 全身性抗膽鹼副作用明顯，且缺乏偏頭痛相關的劑量、給藥途徑與安全性資料。
-- 伴腦幹先兆的偏頭痛預測僅有 1 篇小鼠研究，且該研究中膽鹼受體活化是抑制皮質擴散性抑制，作用方向可能與 atropine 相反，需讀全文確認。
+- 偏頭痛適應症僅有前臨床與間接機轉證據（L4），沒有任何臨床試驗，TxGNN 高分僅是計算預測。
+- 伴腦幹先兆的偏頭痛證據更弱（L5），且唯一的文獻方向可能與 atropine 的作用相反。
 
 **若要推進需要：**
-- 取得香港衛生署仿單的警語與禁忌症，完成安全性初篩
-- 補充 atropine 的作用機轉資料（如自 DrugBank 查詢）
-- 取得已上市製劑的核准適應症資料
-- 全文審閱文獻，確認膽鹼阻斷對偏頭痛與皮質擴散性抑制的作用方向
-- 評估是否有可行的給藥途徑與劑量，並先進行小規模探索性研究
-
-*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。*
+- 補齊 atropine 在香港許可證的核准適應症與劑型資料，以及原廠仿單的警語與禁忌症
+- 補充 DrugBank 的作用機轉資料
+- 進行系統性文獻回顧，確認 atropine 或其他蕈毒鹼拮抗劑在偏頭痛的人體數據
+- 評估給藥途徑與劑量的可行性（全身性抗膽鹼副作用，如口乾、心搏過速、尿滯留、青光眼風險）
+- 若前述評估支持，再設計小規模探索性臨床試驗
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

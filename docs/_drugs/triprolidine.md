@@ -2,7 +2,7 @@
 layout: default
 title: Triprolidine
 parent: 中證據等級 (L3-L4)
-nav_order: 896
+nav_order: 911
 evidence_level: L4
 indication_count: 7
 ---
@@ -29,13 +29,13 @@ indication_count: 7
 
 </div>
 
-# Triprolidine：從抗組織胺藥到過敏性蕁麻疹
+# Triprolidine：從過敏性鼻炎到過敏性蕁麻疹
 
 ## 一句話總結
 
-Triprolidine 是第一代 H1 受體拮抗劑（抗組織胺藥），香港已有多張許可證，但資料中未載明核准適應症。
-TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效。
-目前**沒有臨床試驗**，只有 **6 篇文獻**，且多為其他抗組織胺藥的間接證據，沒有 triprolidine 本身的療效試驗。
+Triprolidine 是第一代 H1 組織胺受體拮抗劑，原本用於過敏性鼻炎、感冒症狀、蕁麻疹等過敏相關疾病。
+TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效，
+但目前**沒有臨床試驗**，僅有 **2 篇間接文獻**，且該適應症實質上屬於既有適應症「蕁麻疹」的子類型，並非真正的新用途。
 
 ---
 
@@ -43,7 +43,7 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未載明（香港許可證的適應症欄位皆為空白） |
+| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、感冒、異位性結膜炎、蕁麻疹、血管性水腫等（來自知識圖譜，香港許可證未載明適應症文字） |
 | 預測新適應症 | 過敏性蕁麻疹 (Allergic Urticaria) |
 | TxGNN 預測分數 | 99.99% |
 | 證據等級 | L4 |
@@ -55,11 +55,11 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Triprolidine 是第一代 H1 受體拮抗劑。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Triprolidine 是第一代 H1 受體拮抗劑（常見於與偽麻黃鹼組成的複方感冒藥），其成分在蕁麻疹與血管性水腫等過敏性疾病中的角色已為人所知。
 
-過敏性蕁麻疹的風團與紅暈，主要來自肥大細胞釋放組織胺。阻斷 H1 受體在機轉上直接相關，這也符合模型給出的高分。
+過敏性蕁麻疹的核心機制是肥大細胞釋放組織胺，造成風團與紅斑。H1 受體阻斷可直接對抗這個路徑，因此機轉上高度合理。由於過敏性蕁麻疹屬於已列於適應症的「蕁麻疹」之子類型，這比較像是**適應症範圍內的延伸**，而非真正的藥物再利用，這也與極高的 TxGNN 分數相符。
 
-但這個合理性主要來自藥物類別，不是 Triprolidine 本身的臨床資料。檢索到的文獻多半是其他抗組織胺藥（如 acrivastine、非鎮靜型 H1 拮抗劑）的回顧。與 Triprolidine 直接相關的只有一篇 1965 年的皮膚反應研究，並非療效試驗。
+其他排名較高的預測（寒冷性蕁麻疹、鼻腔疾病、咽炎、急性喉咽炎、頑固性異位性皮膚炎、異位性 IgE 反應性）多為與既有適應症重疊的症狀緩解，或證據更薄弱的推測。
 
 ---
 
@@ -73,32 +73,35 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [7911009](https://pubmed.ncbi.nlm.nih.gov/7911009/) | 1994 | RCT（間接） | Allergy | 雙盲、安慰劑對照交叉試驗，10 位花粉過敏者。評估 acrivastine 抑制皮膚點刺試驗風團反應的起效時間；藥物為 acrivastine，與 triprolidine 為間接關係 |
-| [1715267](https://pubmed.ncbi.nlm.nih.gov/1715267/) | 1991 | Review | Drugs | acrivastine 的藥理與療效回顧。雙盲試驗顯示對慢性蕁麻疹與過敏性鼻炎有效且耐受性佳 |
-| [8094649](https://pubmed.ncbi.nlm.nih.gov/8094649/) | 1993 | Review | Dermatologic Clinics | 新型 H1 抗組織胺藥因鎮靜與抗膽鹼副作用少，為蕁麻疹與輕度血管性水腫的第一線治療 |
-| [2568212](https://pubmed.ncbi.nlm.nih.gov/2568212/) | 1989 | Review | Clinical Pharmacy | 回顧非鎮靜型 H1 拮抗劑（terfenadine、astemizole、loratadine、acrivastine）；acrivastine 是 triprolidine 的側鏈縮減代謝物 |
-| [1983393](https://pubmed.ncbi.nlm.nih.gov/1983393/) | 1990 | Review/評論 | Drug and Therapeutics Bulletin | 三種新型非鎮靜抗組織胺藥的評論（無摘要） |
-| [14283425](https://pubmed.ncbi.nlm.nih.gov/14283425/) | 1965 | 藥效學研究 | British Journal of Dermatology | triprolidine 與皮膚對紫外線反應的研究（無摘要）；唯一與 triprolidine 直接相關，但不是蕁麻疹療效試驗 |
+| [2568212](https://pubmed.ncbi.nlm.nih.gov/2568212/) | 1989 | Review | Clinical Pharmacy | 回顧非鎮靜型 H1 拮抗劑（terfenadine、astemizole、loratadine、acrivastine）；acrivastine 為 triprolidine 的衍生代謝物，僅屬間接關聯 |
+| [14283425](https://pubmed.ncbi.nlm.nih.gov/14283425/) | 1965 | 其他（實驗研究） | Br J Dermatol | 探討 triprolidine 與皮膚對紫外線反應的關係，與蕁麻疹療效無直接關聯 |
+
+註：寒冷性蕁麻疹相關的 RCT（PMID 2901993）比較的是 acrivastine 與 cyproheptadine，並非 triprolidine，屬間接證據。
 
 ---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-50191 | TRIPROLIDINE HYDROCHLORIDE | SUNRISE TRADING CO |
-| HK-53400 | TRIPROLIDINE HYDROCHLORIDE | SUNRISE TRADING CO |
-| HK-39992 | TRIPROLIDINE HCL CAP 2.5MG (UNITED LAB) | THE UNITED LABORATORIES LTD |
-| HK-54211 | PHARMANIAGA PSEUDOEPHEDRINE T TAB | HEALTHCARE PHARMASCIENCE LIMITED |
-| HK-61804 | DUOFED TABLETS | NEOCHEM PHARMACEUTICAL LABORATORIES LTD. |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-50191 | TRIPROLIDINE HYDROCHLORIDE | — | — |
+| HK-53400 | TRIPROLIDINE HYDROCHLORIDE | — | — |
+| HK-39992 | TRIPROLIDINE HCL CAP 2.5MG (UNITED LAB) | — | — |
+| HK-54211 | PHARMANIAGA PSEUDOEPHEDRINE T TAB | — | — |
+| HK-61804 | DUOFED TABLETS | — | — |
 
-後兩者看起來是含 pseudoephedrine 的複方製劑。以上僅列 20 張許可證中的 5 張。
+共 20 張有效許可證，以上僅列出前 5 張。
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（非仿單內容，僅供參考）：高血壓、癲癇、腎臟疾病、肝臟疾病、胰臟炎、甲狀腺功能低下、消化性潰瘍、發炎性腸病、糖尿病、良性攝護腺肥大、冠狀動脈疾病、心肌梗塞、青光眼相關的高眼壓、心臟傳導疾病等。
+- **藥物交互作用**（共查得 100 筆，以下列出主要者）：
+  - **重大 (Major)**：氯化鉀、檸檬酸鉀
+  - **中度 (Moderate)**：抗膽鹼藥物（atropine、scopolamine、hyoscyamine、glycopyrronium、dicyclomine、trospium 等）、嗎啡、loperamide、metoclopramide、dronabinol、nabilone、eluxadoline
+
+其餘警語與禁忌症請參考原廠仿單。
 
 ---
 
@@ -107,18 +110,13 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 **決策：Hold**
 
 **理由：**
-- 模型分數很高，機轉上也合理，但沒有任何 triprolidine 專屬的蕁麻疹療效試驗，證據只是同類藥物的間接推論。
-- 更好研究的抗組織胺藥已涵蓋此用途，且香港仿單的警語與禁忌資料缺失，無法進入安全性篩選。
-- 目前只適合列為研究問題。
-- 其他預測適應症（寒冷性蕁麻疹、鼻腔疾病、咽炎、急性喉咽炎、頑固性異位性皮膚炎、異位性 IgE 反應）證據更弱，同樣建議 Hold。
+- 預測的「過敏性蕁麻疹」本質上屬於既有適應症的子類型，不構成新的再利用機會；且沒有 Triprolidine 專屬的臨床試驗，現有文獻皆為間接證據。
+- 作用機轉資料缺漏，香港仿單的警語與禁忌資料亦未取得，目前無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單，補齊警語與禁忌資料，這是目前的阻斷項。
-- 補充詳細的作用機轉資料（可查詢 DrugBank）。
-- 搜尋 triprolidine 本身的蕁麻疹臨床資料，並與已上市的第二代抗組織胺藥比較其增益。
-- 確認香港許可證的核准適應症，釐清原適應症與劑型。
-
-*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證才能應用。*
+- 取得香港衛生署仿單，確認警語、禁忌症與正式核准適應症。
+- 補充 DrugBank 的作用機轉資料。
+- 若關注真正的新適應症，應另行檢視證據更具體的候選，並蒐集 Triprolidine 專屬的臨床證據。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

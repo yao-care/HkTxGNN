@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Formoterol
-parent: 僅模型預測 (L5)
-nav_order: 391
-evidence_level: L5
+parent: 高證據等級 (L1-L2)
+nav_order: 399
+evidence_level: L1
 indication_count: 6
 ---
 
 # Formoterol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+證據等級: **L1** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,101 +29,119 @@ indication_count: 6
 
 </div>
 
-# Formoterol：從氣喘／慢性阻塞性肺病（COPD）到呼吸道畸形
+# Formoterol：從肺氣腫與氣喘到支氣管炎
 
 ## 一句話總結
 
-Formoterol 是長效 β2 腎上腺素受器促效劑，香港上市的相關產品（如 Foster、Symbicort、Duaklir）主要用於氣喘與 COPD 的支氣管擴張治療。
-TxGNN 模型預測它可能對**呼吸道畸形 (Respiratory Malformation)** 有效，分數很高，但目前**沒有任何針對此適應症的臨床試驗或文獻**。檢索到的 25 個試驗和 10 篇文獻都是氣喘與 COPD 研究，只是關鍵字相符，這個預測應視為模型的關聯性假象。
+Formoterol 是長效 β2 受體促效劑（LABA），原本用於肺氣腫、內因性氣喘與過敏性氣喘。
+TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，目前有 **19 個臨床試驗**和 **20 篇文獻**支持這個方向。
+不過這項預測較接近既有 COPD 用途的延伸，並非全新的藥物再利用。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 呼吸道畸形 (Respiratory Malformation) |
+| 原適應症 | 肺氣腫、內因性氣喘、過敏性氣喘（來自知識圖譜；許可證未載明核准適應症文字） |
+| 預測新適應症 | 支氣管炎 (Bronchitis) |
 | TxGNN 預測分數 | 99.92% |
-| 證據等級 | L5（無直接研究支持；證據包標示為 L4，但未見前臨床或機轉研究） |
+| 證據等級 | L1 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 13 張 |
-| 建議決策 | Hold |
+| 建議決策 | Proceed with Guardrails |
+
+> 說明：TxGNN 排名第 1 的預測為「呼吸道畸形」（分數 99.92%），但其機轉上缺乏合理連結，證據等級僅 L5，建議 Hold。本報告改以證據最完整、最具臨床意義的「支氣管炎」作為主要評估對象。
+
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Formoterol 是長效 β2 促效劑，作用是放鬆支氣管平滑肌，改善氣流阻塞，在氣喘與 COPD 中的療效已被證實。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Formoterol 是長效 β2 受體促效劑，可放鬆氣道平滑肌、改善氣流受限，吸入後數分鐘內起效，作用可維持約 12 小時。
 
-但呼吸道畸形是發育過程中的結構性缺陷，支氣管擴張劑只能緩解症狀，無法矯正結構異常。因此機轉上沒有直接關聯。
+慢性支氣管炎屬於 COPD 範疇，與其原適應症（肺氣腫、氣喘）同為阻塞性氣道疾病。Formoterol 在 COPD 的使用已有大量 Phase 3 試驗支持，因此 TxGNN 的預測在臨床上合理。
 
-0.999 的高分較可能反映知識圖譜中，Formoterol 與阻塞性呼吸道表型距離很近，而不是真實的治療訊號。此預測的合理性偏低。
+需要注意：對急性支氣管炎、嗜酸性支氣管炎，以及造血幹細胞移植後的閉塞性細支氣管炎，證據較弱，多為小型 Phase 2 研究。因此這比較像是既有用途的延伸，而非全新適應症。
+
+---
 
 ## 臨床試驗證據
 
-以下試驗都是氣喘或 COPD 研究，沒有一個針對呼吸道畸形。
+以下列出最相關的 10 項試驗（資料中共 19 項）：
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT03324607](https://clinicaltrials.gov/study/NCT03324607) | Phase 2/3 | 完成 | 20 | Glycopyrrolate/Formoterol 用於 COPD，以 129Xe MRI 評估通氣與氣體交換異常；針對後天疾病，與先天畸形無關 |
-| [NCT03453112](https://clinicaltrials.gov/study/NCT03453112) | Phase 3 | 完成 | 494 | Foster NEXThaler 對比 pMDI 用於控制良好的氣喘，非劣性試驗；族群與呼吸道畸形無關 |
-| [NCT00861926](https://clinicaltrials.gov/study/NCT00861926) | Phase 3 | 完成 | 1714 | Foster 維持與緩解治療 (MART) 對比固定劑量加 Salbutamol，用於氣喘；族群不符 |
-| [NCT00130351](https://clinicaltrials.gov/study/NCT00130351) | Phase 3 | 完成 | 155 | Formoterol 新型吸入裝置的患者使用性評估（氣喘） |
-| [NCT01577082](https://clinicaltrials.gov/study/NCT01577082) | Phase 3 | 完成 | 542 | CHF 1535（BDP/Formoterol）對比 BDP，用於控制不佳的成人氣喘 |
-| [NCT03888131](https://clinicaltrials.gov/study/NCT03888131) | Phase 3 | 完成 | 750 | BDP/Formoterol 對比 Symbicort，用於 COPD 的肺功能非劣性試驗 |
-| [NCT03197818](https://clinicaltrials.gov/study/NCT03197818) | Phase 3 | 完成 | 708 | BDP/Formoterol/Glycopyrronium 三合一對比 Symbicort，用於 COPD |
-| [NCT02345161](https://clinicaltrials.gov/study/NCT02345161) | Phase 3 | 完成 | 1811 | FF/UMEC/VI 對比 Budesonide/Formoterol，用於 COPD，為期 24 週 |
-| [NCT01245569](https://clinicaltrials.gov/study/NCT01245569) | Phase 3 | 完成 | 419 | Foster 對比 Seretide，用於 COPD |
-| [NCT00931385](https://clinicaltrials.gov/study/NCT00931385) | Phase 3 | 完成 | 99 | BI 1744 CL 與 Foradil（Formoterol）在 COPD 的 24 小時 FEV1 曲線比較 |
+| [NCT00064415](https://clinicaltrials.gov/study/NCT00064415) | Phase 3 | 完成 | 799 | arformoterol（formoterol 對映異構物）用於 COPD 的 12 個月長期安全性 |
+| [NCT00250679](https://clinicaltrials.gov/study/NCT00250679) | Phase 3 | 完成 | 443 | arformoterol 吸入溶液用於 COPD 的 6 個月長期安全性 |
+| [NCT01437540](https://clinicaltrials.gov/study/NCT01437540) | Phase 3 | 完成 | 590 | aclidinium/formoterol 複方用於穩定型 COPD 的長期安全性與耐受性 |
+| [NCT01437397](https://clinicaltrials.gov/study/NCT01437397) | Phase 3 | 完成 | 1692 | aclidinium/formoterol 複方 24 週支氣管擴張效果 |
+| [NCT01462942](https://clinicaltrials.gov/study/NCT01462942) | Phase 3 | 完成 | 2443 | aclidinium/formoterol 複方對穩定型 COPD 的療效與安全性 |
+| [NCT01572792](https://clinicaltrials.gov/study/NCT01572792) | Phase 3 | 完成 | 921 | aclidinium/formoterol 複方 28 週延伸研究 |
+| [NCT00064402](https://clinicaltrials.gov/study/NCT00064402) | Phase 3 | 完成 | 741 | arformoterol 12 週維持治療的支氣管擴張效果 |
+| [NCT00624754](https://clinicaltrials.gov/study/NCT00624754) | Phase 2 | 完成 | 32 | budesonide/formoterol 用於異體造血幹細胞移植後閉塞性細支氣管炎 |
+| [NCT01078623](https://clinicaltrials.gov/study/NCT01078623) | Phase 2 | 完成 | 176 | aclidinium/formoterol 兩種複方劑量範圍研究（COPD） |
+| [NCT06571942](https://clinicaltrials.gov/study/NCT06571942) | Phase 4 | 未知 | 128 | 吸入三合一療法對 COPD 或無阻塞慢性支氣管炎小氣道的影響 |
+
+---
 
 ## 文獻證據
 
-以下文獻同樣與呼吸道畸形無關，僅列出檢索結果。
+以下列出最相關的 10 篇（資料中共 20 篇）：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [22541245](https://pubmed.ncbi.nlm.nih.gov/22541245/) | 2012 | RCT | J Allergy Clin Immunol | Budesonide/Formoterol pMDI 用於非裔美國氣喘患者的長期安全性 |
-| [35115339](https://pubmed.ncbi.nlm.nih.gov/35115339/) | 2022 | RCT（交叉試驗） | Eur Respir J | 成人氣喘重複給藥時，Budesonide/Formoterol 與 Salbutamol 的支氣管擴張與副作用比較 |
-| [40840693](https://pubmed.ncbi.nlm.nih.gov/40840693/) | 2026 | 系統性回顧／統合分析 | J Am Pharm Assoc | BGF 對比 GFF 用於 COPD 的安全性與療效 |
-| [20528601](https://pubmed.ncbi.nlm.nih.gov/20528601/) | 2010 | Review | J Asthma | Symbicort pMDI 用於持續性氣喘的療效與安全性回顧 |
-| [24842803](https://pubmed.ncbi.nlm.nih.gov/24842803/) | 2014 | Review | Prog Neuropsychopharmacol Biol Psychiatry | 唐氏症認知功能障礙的神經傳導物質治療策略；與 Formoterol 關聯薄弱 |
-| [35034195](https://pubmed.ncbi.nlm.nih.gov/35034195/) | 2022 | 臨床生理學研究 | Eur J Appl Physiol | COPD 睡眠期間呼吸力學異常的代償反應 |
-| [30662579](https://pubmed.ncbi.nlm.nih.gov/30662579/) | 2018 | 世代研究 | Can Respir J | 妊娠氣喘婦女的吸入器使用錯誤與母胎結果 |
-| [14738234](https://pubmed.ncbi.nlm.nih.gov/14738234/) | 2004 | 臨床研究 | Eur Respir J | Formoterol 可對抗氣喘患者的血小板活化因子 (PAF) 誘發效應 |
-| [37691104](https://pubmed.ncbi.nlm.nih.gov/37691104/) | 2023 | Case report | J Med Case Rep | 長新冠患者的小氣道疾病三年追蹤 |
-| [41686546](https://pubmed.ncbi.nlm.nih.gov/41686546/) | 2026 | Case report | Medicine | 肺癌術後患者的 Schizophyllum commune 相關過敏性支氣管肺黴菌症 |
+| [31015757](https://pubmed.ncbi.nlm.nih.gov/31015757/) | 2019 | Meta-analysis | Int J Chron Obstruct Pulmon Dis | 評估 budesonide/formoterol 用於穩定型 COPD 的風險 |
+| [20714376](https://pubmed.ncbi.nlm.nih.gov/20714376/) | 2010 | Review | Int J Chron Obstruct Pulmon Dis | 噴霧型 formoterol 用於 COPD 的療效與安全性回顧 |
+| [27143870](https://pubmed.ncbi.nlm.nih.gov/27143870/) | 2016 | Review | Int J Chron Obstruct Pulmon Dis | LAMA + LABA 雙重療法用於 COPD 的科學依據 |
+| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guideline | Basic Clin Pharmacol Toxicol | 芬蘭穩定型 COPD 診斷與藥物治療指引 |
+| [41654451](https://pubmed.ncbi.nlm.nih.gov/41654451/) | 2026 | Pharmacovigilance | Clin Ther | 以 FAERS、JADER、CVAR 資料庫評估 budesonide/formoterol 的真實世界安全性 |
+| [25835160](https://pubmed.ncbi.nlm.nih.gov/25835160/) | 2015 | 臨床研究 | Am J Respir Crit Care Med | budesonide/formoterol 用於造血幹細胞移植後閉塞性細支氣管炎 |
+| [27229850](https://pubmed.ncbi.nlm.nih.gov/27229850/) | 2016 | 臨床研究 | Respir Res | budesonide/formoterol、montelukast 與 N-acetylcysteine 用於移植後閉塞性細支氣管炎 |
+| [27916620](https://pubmed.ncbi.nlm.nih.gov/27916620/) | 2017 | 臨床研究 | Chest | glycopyrrolate/formoterol MDI 用於 COPD 的療效與安全性（PINNACLE-1/2） |
+| [28740376](https://pubmed.ncbi.nlm.nih.gov/28740376/) | 2017 | RCT | Int J Chron Obstruct Pulmon Dis | fluticasone propionate/formoterol 用於 COPD 的隨機對照試驗 |
+| [35432356](https://pubmed.ncbi.nlm.nih.gov/35432356/) | 2022 | Cohort | Front Immunol | 非氣喘性嗜酸性支氣管炎與嗜酸性氣喘患者的嗜酸性球前驅細胞比較 |
+
+---
 
 ## 香港上市資訊
 
-香港共有 13 張 Formoterol 相關許可證，以下列出 5 張。資料未提供劑型與核准適應症。
-
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-61392 | FOSTER PRESSURISED INHALATION SOLUTION 100/6 MICROGRAMS PER ACTUATION | — | — |
-| HK-62090 | FLUTIFORM 250 MICROGRAM/10 MICROGRAM PER ACTUATION PRESSURISED INHALATION SUSPENSION | — | — |
-| HK-64503 | DUAKLIR GENUAIR INHALATION POWDER 340 MCG/12 MCG | — | — |
-| HK-60618 | VANNAIR PRESSURIZED METERED-DOSE INHALER 80/4.5MCG/DOSE | — | — |
-| HK-49176 | SYMBICORT TURBUHALER 160/4.5MCG/DOSE | — | — |
+| HK-61392 | FOSTER PRESSURISED INHALATION SOLUTION 100/6 MICROGRAMS PER ACTUATION | 未載明 | 未載明 |
+| HK-62090 | FLUTIFORM 250 MICROGRAM/10 MICROGRAM PER ACTUATION PRESSURISED INHALATION SUSPENSION | 未載明 | 未載明 |
+| HK-64503 | DUAKLIR GENUAIR INHALATION POWDER 340 MCG/12 MCG | 未載明 | 未載明 |
+| HK-60618 | VANNAIR PRESSURIZED METERED-DOSE INHALER 80/4.5MCG/DOSE | 未載明 | 未載明 |
+| HK-49176 | SYMBICORT TURBUHALER 160/4.5MCG/DOSE | 未載明 | 未載明 |
+
+共 13 張有效許可證，此處僅列 5 張。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **禁忌症（來自知識圖譜的藥物－疾病關聯，非仿單內容）**：高血壓、long QT 症候群（含家族性）、癲癇、肝臟疾病、膽囊疾病，以及腦下垂體功能低下相關疾病等。
+- **藥物交互作用**：共查得 100 筆，以下為部分範例。
+  - 中度：acarbose、famotidine、clarithromycin、cisapride、dolasetron、ephedrine、isometheptene，以及多種降血糖藥（如 canagliflozin、dapagliflozin、empagliflozin、alogliptin、albiglutide、dulaglutide、chlorpropamide）
+  - 輕度：beclomethasone、betamethasone、budesonide、dexamethasone 等皮質類固醇
+
+香港仿單的警語與禁忌資料尚未取得，詳細內容請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：Proceed with Guardrails**
 
 **理由：**
-- 呼吸道畸形是結構性發育缺陷，β2 促效劑無法矯正，機轉上找不到合理連結。
-- 0.999 的分數應視為知識圖譜的關聯性假象。所有檢索到的試驗與文獻都是氣喘或 COPD，沒有直接證據。
+- 針對支氣管炎（以慢性支氣管炎／COPD 表型為主），有多項大型 Phase 3 試驗與 meta-analysis 支持，證據等級為 L1。但此用途與 Formoterol 現有的 COPD 與氣喘用途高度重疊，屬延伸應用。
+- 排名第 1 的「呼吸道畸形」與第 3 的「Rienhoff 症候群」缺乏機轉依據，也沒有臨床證據，建議 Hold。「氣喘相關性狀易感性」是遺傳性狀而非可治療的疾病，同樣建議 Hold。
 
 **若要推進需要：**
-- 找出針對呼吸道畸形（如先天性肺氣道畸形）的 Formoterol 研究，或提出可檢驗的機轉假說。
-- 取得香港衛生署仿單的警語與禁忌資料，並補齊 DrugBank 作用機轉資料。
-
-**其他預測適應症的參考：**
-- 支氣管炎、阻塞性肺病與氣喘的證據較強（L1，建議 Proceed with Guardrails）。
-- 這三者屬於現有的氣喘與 COPD 適應症範圍，不是新的老藥新用機會。
-- 大部分證據來自固定劑量複方（如 Budesonide/Formoterol），無法單獨歸因於 Formoterol。
-- 使用時需注意心血管監測。氣喘不可單用 LABA，需併用吸入型類固醇。
-
-*本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證後才能應用。*
+- 明確限定適用表型（慢性支氣管炎／COPD），急性支氣管炎、嗜酸性支氣管炎與移植後閉塞性細支氣管炎不納入。
+- 取得香港仿單的核准適應症、警語與禁忌資料。
+- 補充作用機轉資料。
+- 擬定心血管風險監測計畫，涵蓋高血壓與 QT 延長風險族群。
+- 使用固定劑量複方並遵循指引；氣喘患者不可單用 LABA 而不併用吸入型類固醇。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

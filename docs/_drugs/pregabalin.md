@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pregabalin
-parent: 中證據等級 (L3-L4)
-nav_order: 714
-evidence_level: L4
+parent: 僅模型預測 (L5)
+nav_order: 729
+evidence_level: L5
 indication_count: 5
 ---
 
 # Pregabalin
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,31 +29,32 @@ indication_count: 5
 
 </div>
 
-# Pregabalin：從神經性疼痛到肌腱炎
+# Pregabalin：從焦慮症、纖維肌痛到肌腱炎
+
+predicted_indications[0] 為肌腱炎（tendinitis），但 rank 5 的偏頭痛（migraine disorder）證據明顯較充分。下文以 rank 1 為主軸，並在結論補充偏頭痛的比較。
 
 ## 一句話總結
 
-Pregabalin 是作用於電壓門控鈣離子通道 α2δ 次單元的藥物，可降低神經性疼痛與中樞敏感化相關的疼痛。
-TxGNN 模型預測它可能對**肌腱炎 (Tendinitis)** 有效，但目前**沒有任何臨床試驗**，6 篇相關文獻也都是間接證據，並沒有直接測試 pregabalin 治療肌腱炎。
+Pregabalin 原本用於焦慮症、纖維肌痛、肌筋膜疼痛症候群與帶狀疱疹後神經痛。
+TxGNN 模型預測它可能對**肌腱炎 (Tendinitis)** 有效，但目前**沒有相關臨床試驗**，且檢索到的 6 篇文獻皆未直接研究以 pregabalin 治療肌腱炎，證據僅停留在模型預測層級。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 焦慮症、纖維肌痛、肌筋膜疼痛症候群、帶狀疱疹後神經痛（來自知識圖譜，香港許可證未載明適應症文字） |
 | 預測新適應症 | 肌腱炎 (Tendinitis) |
-| TxGNN 預測分數 | 99.71%（排名 6011） |
-| 證據等級 | L4 |
+| TxGNN 預測分數 | 99.71% |
+| 證據等級 | L5（僅有模型預測，無直接研究；文獻評分標示為 L4，但內容未直接涉及肌腱炎） |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-Pregabalin 與 α2δ 次單元結合後，會減少興奮性神經傳導物質的釋放，從而減輕神經性疼痛與中樞敏感化。DrugBank 的作用機轉欄位本次未取得，以上說明來自預測的機轉推論。
+目前缺乏詳細的作用機轉資料（原廠 MOA 欄位無資料）。依一般藥理知識，pregabalin 結合電壓閘控鈣離子通道的 α2δ 亞單位，減少興奮性神經傳導物質釋放，因此可緩解神經病變性或中樞敏感化的疼痛。
 
-肌腱炎常伴隨持續性疼痛，理論上 pregabalin 的鎮痛機轉可能有幫助。不過目前沒有任何研究直接在肌腱炎患者身上測試它。檢索到的文獻只涵蓋肩袖修補術後的鎮痛、神經相關的疼痛症候群，以及一個動物神經病變模型。
-
-0.997 的 TxGNN 分數只代表知識圖譜上的關聯，並沒有臨床證據支持。這個預測目前只能視為待驗證的假說。
+肌腱炎主要是發炎或退化性的肌肉骨骼疾病，與 pregabalin 已核准的神經痛、纖維肌痛、肌筋膜疼痛有部分疼痛機轉重疊，但關聯是間接的，最多只能作為疼痛控制的輔助。0.997 的高分是圖譜運算結果，不等於臨床證據。
 
 ## 臨床試驗證據
 
@@ -63,45 +64,50 @@ Pregabalin 與 α2δ 次單元結合後，會減少興奮性神經傳導物質�
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | RCT | Arthroscopy | 關節鏡肩袖修補術前後口服 pregabalin，術後疼痛分數與單次肌間溝臂叢神經阻斷相當（術後鎮痛，並非肌腱炎治療） |
-| [32839073](https://pubmed.ncbi.nlm.nih.gov/32839073/) | 2021 | 回溯性世代研究 | J Orthop Sci | 評估肩袖修補術後 pregabalin 的鎮痛效果與減少鴉片類用量；過去研究結果不一致（術後鎮痛，並非肌腱炎治療） |
-| [40818536](https://pubmed.ncbi.nlm.nih.gov/40818536/) | 2025 | 社論 | Arthroscopy | 討論梨狀肌症候群的診斷與坐骨神經鬆解術，與 pregabalin 無直接關聯 |
-| [37051935](https://pubmed.ncbi.nlm.nih.gov/37051935/) | 2023 | 個案報告 | Pain Pract | 馬拉松後因腿後肌腱炎引發股後皮神經夾擠的個案，與 pregabalin 療效無直接關聯 |
-| [41017607](https://pubmed.ncbi.nlm.nih.gov/41017607/) | 2025 | 個案報告／回顧 | Praxis | 服用 ciprofloxacin 後的氟喹諾酮相關失能，肌腱病變為該類抗生素的副作用，與 pregabalin 無關 |
-| [39703364](https://pubmed.ncbi.nlm.nih.gov/39703364/) | 2024 | 前臨床 | Adv Pharmacol Pharm Sci | 植物萃取物在大鼠長春新鹼神經病變模型中減輕痛覺過敏，與 pregabalin 及肌腱炎皆無直接關聯 |
+| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | RCT | Arthroscopy | 關節鏡肩袖修補術後，口服 pregabalin 的疼痛分數與肌間溝臂叢神經阻斷相當；屬術後鎮痛，非肌腱炎治療 |
+| [32839073](https://pubmed.ncbi.nlm.nih.gov/32839073/) | 2021 | 回溯性世代研究 | J Orthop Sci | 評估肩袖修補術後 pregabalin 的鎮痛與減少鴉片類用量效果；非肌腱炎 |
+| [41017607](https://pubmed.ncbi.nlm.nih.gov/41017607/) | 2025 | 病例報告/回顧 | Praxis | 環丙沙星相關氟喹諾酮失能（含肌腱病變等副作用）；與 pregabalin 治療無關 |
+| [37051935](https://pubmed.ncbi.nlm.nih.gov/37051935/) | 2023 | 病例報告 | Pain Pract | 馬拉松後股後皮神經壓迫，與腿後肌腱炎相關；未評估 pregabalin |
+| [40818536](https://pubmed.ncbi.nlm.nih.gov/40818536/) | 2025 | 社論 | Arthroscopy | 梨狀肌症候群的診斷與坐骨神經鬆解；與 pregabalin 無關 |
+| [39703364](https://pubmed.ncbi.nlm.nih.gov/39703364/) | 2024 | 前臨床（動物） | Adv Pharmacol Pharm Sci | 植物萃取物改善長春新鹼誘發的大鼠神經病變；與 pregabalin 治療肌腱炎無關 |
 
 ## 香港上市資訊
 
-香港共有 20 張 pregabalin 許可證，以下列出 5 張。資料中未提供劑型與核准適應症欄位，劑型依品名標示。
+下表列出 5 張主要許可證（共 20 張，皆為有效單方製劑；資料中未載明劑型與核准適應症文字）。
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-66282 | PRELYNCA CAPSULES 75MG | 膠囊 | — |
-| HK-68026 | PREGABALIN TEVA CAPSULES 25MG | 膠囊 | — |
-| HK-68027 | PREGABALIN TEVA CAPSULES 50MG | 膠囊 | — |
-| HK-65819 | PREGATAS 25 CAPSULES 25MG | 膠囊 | — |
-| HK-62490 | PMS-PREGABALIN CAPSULES 300MG | 膠囊 | — |
+| HK-53029 | LYRICA CAP 25MG | 膠囊 | 未載明 |
+| HK-53026 | LYRICA CAP 300MG | 膠囊 | 未載明 |
+| HK-62124 | BRILLIOR CAPSULES 50MG | 膠囊 | 未載明 |
+| HK-63581 | PREGABALIN SANDOZ CAPSULES 50MG | 膠囊 | 未載明 |
+| HK-68026 | PREGABALIN TEVA CAPSULES 25MG | 膠囊 | 未載明 |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌相關疾病**（非仿單內容）：焦慮症、神經症、輕鬱症、血小板低下、血管性水腫（含遺傳性與後天性）、肌病變與肌肉疾病、橫紋肌溶解症、家族性週期性麻痺、結節性筋膜炎、腎功能不全、房室傳導阻滯。
+- **藥物交互作用**：共查得 100 筆，以下為主要項目。
+  - 重大（Major）：Morphine、Morphine（脂質體）。
+  - 中度（Moderate）：Pioglitazone、Rosiglitazone、Troglitazone、Difenoxin、Diphenoxylate、Dronabinol、Nabilone、Metoclopramide、Opium、Sibutramine。
+- 與鴉片類併用的中樞神經與呼吸抑制風險需特別留意。
+- 完整警語與禁忌請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-肌腱炎這個方向沒有臨床試驗，文獻也只有術後鎮痛與間接相關的報告，證據等級為 L4。高 TxGNN 分數不能取代臨床證據，目前不建議推進。
+- 肌腱炎沒有任何臨床試驗，文獻也都不是直接研究 pregabalin 治療肌腱炎，僅有 0.997 的模型分數。
+- 作用機轉的連結間接，最多是疼痛輔助，無法改善肌腱病變本身。
 
 **若要推進需要：**
-- 取得香港衛生署核准的仿單，確認警語與禁忌症（目前缺漏，屬阻擋性缺口）
-- 補齊 DrugBank 的作用機轉資料
-- 設計 pregabalin 治療肌腱炎或肌腱病變疼痛的對照研究，或先進行系統性文獻回顧
-- 補充原適應症資料，用於評估與新適應症的關聯性
+- 設計 pregabalin 用於肌腱炎（或肌腱病變）疼痛的對照試驗。
+- 取得詳細的作用機轉資料，並取得香港仿單的警語與禁忌。
+- 評估肌病變、腎功能不全等圖譜標示風險在目標族群的影響。
 
-**補充說明：** 同一份資料中，**偏頭痛 (Migraine Disorder)** 的預測（排名第 5，分數 99.47%）證據明顯較多，等級為 L2。它有兒童偏頭痛預防的 RCT（對照 propranolol 與 valproate）、開放標籤研究與前臨床資料，但唯一登記的 Phase 3 試驗（NCT00447369）已撤銷，且現有 RCT 規模小、多為兒童、為頭對頭設計。若要挑選優先方向，建議以偏頭痛作為研究問題另行評估。
-
-*本報告僅供研究參考，不構成醫療建議。藥物再利用候選需經臨床驗證後才能應用。*
+**補充：其他預測適應症比較**
+- **偏頭痛（rank 5，分數 99.47%）**：有 1 個 Phase 3 試驗（NCT00447369），但已撤回、無數據；另有數項兒童隨機試驗（pregabalin 對比 valproate、propranolol）與網絡統合分析，證據評為 L2，屬值得進一步研究的方向，但多為小型兒科研究，需要確認性試驗。
+- **肌纖維化（myositis fibrosa）、特發性肉芽腫性肌炎、包涵體肌炎**：無相關研究，僅有模型預測，皆建議 Hold。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

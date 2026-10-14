@@ -2,7 +2,7 @@
 layout: default
 title: Levetiracetam
 parent: 中證據等級 (L3-L4)
-nav_order: 513
+nav_order: 522
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,107 +29,99 @@ indication_count: 5
 
 </div>
 
-# Levetiracetam：從癲癇到視覺性癲癇 (Visual Epilepsy)
+# Levetiracetam：從局部癲癇到視覺性癲癇
 
 ## 一句話總結
 
-Levetiracetam 是第二代抗癲癇藥，文獻記載的核准用途為局部發作癲癇的輔助或單一治療。
+Levetiracetam 是第二代抗癲癇藥物，原本用於局部癲癇（partial epilepsy）的治療。
 TxGNN 模型預測它可能對**視覺性癲癇 (Visual Epilepsy)** 有效，
-目前有 **8 個臨床試驗**和 **20 篇文獻**列於此預測下。
-但這些研究都屬於一般癲癇、創傷性腦損傷或腦出血後發作預防等族群，**沒有任何一項直接針對視覺誘發或光敏感性癲癇**。
+但目前**無已登記的臨床試驗**，僅有 **20 篇間接文獻**，且多為一般癲癇族群的研究，並非針對視覺誘發型癲癇。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 癲癇（局部發作）。香港許可證資料未載明適應症文字，此項依文獻記載 |
+| 原適應症 | 局部癲癇 (Partial Epilepsy) |
 | 預測新適應症 | 視覺性癲癇 (Visual Epilepsy) |
 | TxGNN 預測分數 | 99.98% |
-| 證據等級 | L4（僅有間接的機轉與一般癲癇證據） |
+| 證據等級 | L4 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏 DrugBank 的詳細作用機轉資料。根據已知資訊，Levetiracetam 會結合突觸囊泡蛋白 SV2A，調節神經傳導物質釋放，進而降低神經元過度興奮與發作擴散。
+目前缺乏詳細的作用機轉資料（原廠資料庫未收錄）。根據文獻資訊，Levetiracetam 可結合突觸囊泡蛋白 SV2A，調節神經傳導物質釋放，進而可能降低皮質的過度興奮性。
 
-視覺性（光敏感性）癲癇屬於反射性癲癇，由閃光或特定視覺圖樣誘發，本質上是腦部對視覺刺激的過度興奮。Levetiracetam 抑制過度興奮的機轉，理論上可能適用。同類預測中，聽源性發作 (audiogenic seizures) 另有動物模型數據，包括 DBA/2 小鼠與音源點燃模型，以及一項貓的開放標籤隨機試驗。
+視覺性癲癇屬於反射性癲癇，由光刺激或視覺圖像誘發，核心機轉同樣是皮質過度興奮。因此從機轉上看，使用 SV2A 調節劑是合理的推論。
 
-不過，這個預測目前主要來自知識圖譜中與癲癇的鄰近關係。所列試驗與文獻涵蓋新生兒發作、創傷性腦損傷、腦出血、癲癇重積狀態與全身性癲癇，沒有任何一項直接檢驗視覺或光敏感性癲癇。同一藥物的其他預測適應症有：
-
-| 預測適應症 | 證據等級 | 說明 |
-|-----------|---------|------|
-| 聽源性發作 | L4 | 有動物與獸醫研究，缺乏人體證據 |
-| 性高潮誘發發作 | L5 | 無試驗也無文獻 |
-| 進食誘發發作 | L5 | 僅有不直接相關的文獻 |
-| 排尿誘發發作 | L5 | 僅有一般癲癇文獻 |
+不過需要特別說明：0.9998 的高分很可能反映的是該藥在癲癇領域的廣泛使用，而非針對視覺性癲癇的特異性證據。已檢索到的文獻中，沒有任何一篇專門研究視覺誘發型癲癇。
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT04573803](https://clinicaltrials.gov/study/NCT04573803) | Phase 3 | 尚未招募 | 1649 | MAST：創傷性腦損傷後發作的抗癲癇藥療程長短，以及 7 天 Phenytoin 與 Levetiracetam 預防比較；尚無結果 |
-| [NCT00855738](https://clinicaltrials.gov/study/NCT00855738) | Phase 4 | 完成 | 111 | 新型抗癲癇藥（含 Levetiracetam）作為局部癲癇首選雙藥治療的觀察性研究 |
-| [NCT00105040](https://clinicaltrials.gov/study/NCT00105040) | Phase 2 | 完成 | 87 | 隨機、雙盲、安慰劑對照；評估 Levetiracetam 輔助治療對 4–16 歲難治型局部發作兒童的認知與神經心理影響 |
-| [NCT03107507](https://clinicaltrials.gov/study/NCT03107507) | Phase 4 | 未知 | 40 | Levetiracetam 控制新生兒發作的療效，樣本小 |
-| [NCT07336992](https://clinicaltrials.gov/study/NCT07336992) | Phase 3 | 尚未招募 | 580 | 預防性 Levetiracetam 用於急性腦出血的隨機雙盲試驗，族群與終點不同 |
-| [NCT04559529](https://clinicaltrials.gov/study/NCT04559529) | Phase 2 | 完成 | 62 | 以 Levetiracetam 為藥理探針，檢驗精神病患者海馬迴過度活化，非癲癇用途 |
-| [NCT04277936](https://clinicaltrials.gov/study/NCT04277936) | Phase 2 | 終止 | 1 | 同為精神病海馬迴研究，僅收 1 人，無可用數據 |
-| [NCT00203216](https://clinicaltrials.gov/study/NCT00203216) | NA | 完成 | 31 | 開放標籤，Levetiracetam 預防偏頭痛（含視覺先兆），與視覺性癲癇無直接關係 |
-
-另有 [NCT04833907](https://clinicaltrials.gov/study/NCT04833907)（Canavan 病基因治療，Phase 1/2），Levetiracetam 並非受試藥物，與此預測無關，未列入上表。
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
+以下文獻均來自一般癲癇族群，屬間接證據：
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [32385134](https://pubmed.ncbi.nlm.nih.gov/32385134/) | 2020 | RCT | Pediatrics | Levetiracetam 與 Phenobarbital 用於新生兒發作的隨機試驗 |
-| [35963261](https://pubmed.ncbi.nlm.nih.gov/35963261/) | 2022 | RCT | The Lancet Neurology | PEACH：預防性 Levetiracetam 用於急性腦出血的 Phase 3 雙盲試驗 |
-| [38678766](https://pubmed.ncbi.nlm.nih.gov/38678766/) | 2024 | RCT | Seizure | Phenytoin 與 Levetiracetam 用於急性腦炎症候群兒童的急性症狀性發作 |
-| [30487494](https://pubmed.ncbi.nlm.nih.gov/30487494/) | 2018 | RCT | Mymensingh Med J | Phenobarbital 與 Levetiracetam 用於兒童癲癇的療效與耐受性比較 |
-| [34286461](https://pubmed.ncbi.nlm.nih.gov/34286461/) | 2022 | 系統性回顧/統合分析 | Neurocritical Care | Levetiracetam 用於神經重症發作預防的療效、劑量與不良事件 |
-| [40450767](https://pubmed.ncbi.nlm.nih.gov/40450767/) | 2025 | 統合分析 | Epilepsy & Behavior | Levetiracetam 用於特發性全身性癲癇肌躍型發作（特別是 JME）的療效與安全性 |
-| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | 網絡統合分析 | Journal of Neurology | 特發性全身性癲癇各種抗癲癇藥的療效與安全性比較 |
-| [36209676](https://pubmed.ncbi.nlm.nih.gov/36209676/) | 2022 | 網絡統合分析 | Seizure | 苯二氮平類難治型癲癇重積狀態的治療比較 |
-| [38316735](https://pubmed.ncbi.nlm.nih.gov/38316735/) | 2024 | 指引 | Neurocritical Care | 中重度創傷性腦損傷成人的發作預防臨床指引 |
-| [35976303](https://pubmed.ncbi.nlm.nih.gov/35976303/) | 2022 | Review | Arq Neuropsiquiatr | 癲癇重積狀態的診斷、監測與治療回顧 |
-
-以上文獻皆未針對視覺或光敏感性癲癇。與光敏感性較相關的資料出現在聽源性發作的預測項下，例如 PMID 16302877（特發性全身性癲癇的光敏感性回顧）與 PMID 12915340（Levetiracetam 在全身性發作的初步療效），但仍不是視覺性癲癇的直接證據。
+| [32385134](https://pubmed.ncbi.nlm.nih.gov/32385134/) | 2020 | RCT | Pediatrics | Levetiracetam 與 phenobarbital 用於新生兒癲癇的隨機對照比較 |
+| [35963261](https://pubmed.ncbi.nlm.nih.gov/35963261/) | 2022 | RCT（Phase 3） | The Lancet Neurology | PEACH 試驗：預防性使用 levetiracetam 於急性腦出血後的癲癇預防 |
+| [38678766](https://pubmed.ncbi.nlm.nih.gov/38678766/) | 2024 | RCT | Seizure | Phenytoin 與 levetiracetam 用於急性腦炎症候群兒童的症狀性癲癇 |
+| [34286461](https://pubmed.ncbi.nlm.nih.gov/34286461/) | 2022 | 系統性回顧/統合分析 | Neurocritical Care | Levetiracetam 用於神經重症的癲癇預防 |
+| [39808752](https://pubmed.ncbi.nlm.nih.gov/39808752/) | 2025 | 系統性回顧/網絡統合分析 | Neurology | 中風後癲癇的抗癲癇藥物比較 |
+| [40450767](https://pubmed.ncbi.nlm.nih.gov/40450767/) | 2025 | 系統性回顧/統合分析 | Epilepsy & Behavior | Levetiracetam 用於特發性全面性癲癇的肌躍型發作 |
+| [39899098](https://pubmed.ncbi.nlm.nih.gov/39899098/) | 2025 | Review | Continuum | 首次發作、叢集性發作與癲癇重積狀態的處置 |
+| [21936590](https://pubmed.ncbi.nlm.nih.gov/21936590/) | 2011 | Review | CNS Drugs | Levetiracetam 在癲癇的整體概述 |
+| [38015929](https://pubmed.ncbi.nlm.nih.gov/38015929/) | 2023 | Cohort | Brain | STXBP1 相關疾患的臨床與發展結果 |
+| [35848684](https://pubmed.ncbi.nlm.nih.gov/35848684/) | 2022 | Case report | J Postgrad Med | Levetiracetam 引起牙齦增生的個案 |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-67539 | LECETAM 250 TABLETS 250MG | 未載明 | 未載明 |
-| HK-66922 | ACCORD LEVETIRACETAM 750 TABLETS 750MG | 未載明 | 未載明 |
-| HK-48231 | KEPPRA TAB 500MG | 未載明 | 未載明 |
-| HK-67102 | JUBLEVET TABLETS 250MG | 未載明 | 未載明 |
-| HK-56760 | APO-LEVETIRACETAM TAB 500MG | 未載明 | 未載明 |
+| HK-48231 | KEPPRA TAB 500MG | 錠劑 | 未提供 |
+| HK-48230 | KEPPRA TAB 250MG | 錠劑 | 未提供 |
+| HK-65180 | LEVETIRACETAM SANDOZ TABLETS 250MG | 錠劑 | 未提供 |
+| HK-65814 | HOSPIRA LEVETIRACETAM CONCENTRATE FOR IV INFUSION 500MG/5ML | 靜脈輸注濃縮液 | 未提供 |
+| HK-67462 | LEVETIRACETAM I&C ORAL SOLUTION 100MG/ML | 口服溶液 | 未提供 |
 
-香港共有 20 張許可證，上表為其中 5 張。這些許可證資料中的劑型與適應症欄位均為空白。
+香港共有 20 張有效單方許可證，無已註銷者。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **藥物交互作用**：資料庫共記錄 100 筆交互作用，其中中度者包括 Morphine、Dronabinol、Metoclopramide、Nabilone、Opium、Sibutramine 等，多與中樞神經抑制的加成效應相關。
+- **知識圖譜標示的禁忌疾病**：精神與情緒類（焦慮症、精神病性疾患、思覺失調情感性疾患、人格解體疾患等）、肝臟與腎臟疾病、膽囊疾病，以及血液學異常（嗜中性白血球減少、顆粒球缺乏症、白血球減少、全血球減少）。此為知識圖譜關聯，並非仿單原文，須以仿單為準。
+- **文獻中的相關安全訊號**：個案報告顯示可能出現牙齦增生、低血鈉；另有 levetiracetam 引起癲癇惡化的病例系列；動物研究提示對耳蝸功能可能有影響。
 
-文獻中另有一項提醒：2025 年一篇病例系列（PMID 40245446）報告 Levetiracetam 可能引起發作加劇，在特定族群中最高約 18%。若用於新族群，需特別留意。
+主要警語與正式禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高（99.98%），但所有試驗與文獻都來自一般癲癇或發作預防情境，沒有直接檢驗視覺性癲癇的研究。
-- 香港仿單的警語與禁忌資料尚未取得，無法進入安全性篩選。
+- 預測分數雖高，但沒有任何臨床試驗，也沒有針對視覺性癲癇的直接研究，現有證據都來自一般癲癇族群的間接推論，目前只屬於研究假說層級。
+- 該藥已在香港上市，用於癲癇的安全性背景明確，但香港許可證的核准適應症文字未取得，無法確認現行標示範圍。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單，補齊警語與禁忌資料。
-- 補充 DrugBank 的作用機轉資料。
-- 搜尋光敏感性癲癇與眼瞼肌躍性癲癇 (Jeavons 症候群) 中使用 Levetiracetam 的臨床資料，例如病例系列或光敏感性反應研究。
-- 若有直接證據，再評估是否升級決策；否則維持為研究性問題。
+- 取得香港衛生署核准仿單，確認適應症、警語與禁忌症（目前此項為阻斷性資料缺口）
+- 補充詳細的作用機轉資料
+- 針對光敏感或視覺誘發型癲癇族群的文獻搜尋，或設計小型前瞻性研究／病例系列
+- 評估與該族群常見合併用藥之交互作用，以及精神、肝腎與血液學風險的監測計畫
 
-本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。
+---
+
+**補充：同一藥物的其他預測適應症**
+
+| 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
+|-----------|-----------|---------|------|
+| 聽源性癲癇 (Audiogenic Seizures) | 99.96% | L4 | 研究問題：有動物模型與貓的開放標籤 RCT 支持，無人體證據 |
+| 排尿誘發型癲癇 (Micturition-induced Seizures) | 99.96% | L4 | 研究問題：僅有一般癲癇的間接證據 |
+| 進食誘發型癲癇 (Eating Seizures) | 99.96% | L5 | Hold：僅有模型預測與無關聯文獻 |
+| 性高潮誘發型癲癇 (Orgasm-induced Seizures) | 99.96% | L5 | Hold：無任何臨床試驗或文獻 |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

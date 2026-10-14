@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Norepinephrine
-parent: 中證據等級 (L3-L4)
-nav_order: 616
-evidence_level: L4
+parent: 僅模型預測 (L5)
+nav_order: 628
+evidence_level: L5
 indication_count: 3
 ---
 
 # Norepinephrine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ indication_count: 3
 
 </div>
 
-# Norepinephrine：從升壓治療（低血壓／休克）到阻塞性肺病
+# Norepinephrine：從氣喘／低血壓到阻塞性肺病
 
 ## 一句話總結
 
-Norepinephrine（去甲腎上腺素）是靜脈輸注的升壓藥，臨床上用於低血壓與休克。
-TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有效，但目前沒有任何臨床試驗把它用於這個適應症。
-現有的 **18 個相關試驗**和 **18 篇文獻**都只是間接關聯，證據停留在機轉層級，建議 **Hold**。
+Norepinephrine（去甲腎上腺素）是一種全身性血管加壓劑，知識圖譜列出的原適應症包含氣喘、支氣管炎、肺氣腫與低血壓。
+TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有效，但目前僅有 **1 個間接相關的臨床試驗**（相關性評為 C 級）和一批以機轉背景為主的文獻，**沒有直接的臨床證據**。
 
 ---
 
@@ -43,82 +42,79 @@ TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 香港許可證未登載適應症文字；知識圖譜列出氣喘、支氣管炎、肺氣腫、支氣管擴張、低血壓等 |
 | 預測新適應症 | 阻塞性肺病 (Obstructive Lung Disease) |
 | TxGNN 預測分數 | 99.84% |
-| 證據等級 | L4 |
+| 證據等級 | L4（僅有機轉層面的間接研究） |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 7 張 |
 | 建議決策 | Hold |
-
-註：香港許可證資料中沒有核准適應症文字，因此無法列出官方的原適應症。標題中的「升壓治療」是依藥理與證據包的說明推得。
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Norepinephrine 主要是 alpha-1 受體的血管收縮劑，beta 受體作用較弱。它在臨床上用於新生兒與敗血性休克等情境的低血壓。
+目前缺乏詳細的作用機轉資料。已知 Norepinephrine 作用於腎上腺素受體（α 與 β），這些受體參與氣道平滑肌張力、氣道神經支配與神經免疫對發炎的調控。多篇文獻回顧討論了腎上腺素訊號在氣喘與慢性阻塞性肺病 (COPD) 中的角色，這提供了生物學上的合理性。
 
-文獻顯示，COPD 患者的血漿去甲腎上腺素濃度升高，自主神經也參與調控氣道口徑。這些發現說明交感神經系統與阻塞性肺病有關，但比較像是疾病的生物標記或後果，並不代表補充或給予 norepinephrine 具有治療效果。
+不過，這些證據都是間接的。原適應症清單（氣喘、支氣管炎、肺氣腫）來自早期兒茶酚胺類藥物的舊式標示，並不代表現行臨床做法。Norepinephrine 是全身性血管加壓劑，並無作為氣道治療藥物的既定角色。其全身性 α 腎上腺素作用與心血管效應，對阻塞性肺病患者反而是安全性顧慮。
 
-因此，這個預測**缺乏直接的治療機轉支持**。全身性血管收縮、心律不整風險與僅能靜脈給藥，都不利於慢性肺病的長期使用。0.998 的高分只反映知識圖譜中的關聯，沒有臨床資料支持。
+因此，高分預測僅代表模型的計算結果，不等於具有臨床療效。
 
 ---
 
 ## 臨床試驗證據
 
-搜尋共回傳 18 個試驗，以下列出與主題最相關的 10 個。**沒有任何一個試驗評估 norepinephrine 治療阻塞性肺病。**
-
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT02360865](https://clinicaltrials.gov/study/NCT02360865) | 不適用 | 完成 | 18 | COPD 運動耐受不良的機轉研究，未以 norepinephrine 為治療 |
-| [NCT01536587](https://clinicaltrials.gov/study/NCT01536587) | Phase 4 | 完成 | 32 | Salmeterol 支氣管擴張對 COPD 患者自主神經活性的影響，屬不同藥物 |
-| [NCT01219738](https://clinicaltrials.gov/study/NCT01219738) | 不適用 | 完成 | 20 | 吸入 budesonide 對氣道血管平滑肌腎上腺素促效劑攝取的作用 |
-| [NCT02564406](https://clinicaltrials.gov/study/NCT02564406) | 不適用 | 完成 | 35 | 體外 CO2 移除用於 COPD 高碳酸血症病例，與 norepinephrine 無關 |
-| [NCT02966665](https://clinicaltrials.gov/study/NCT02966665) | Phase 1 | 招募中 | 420 | 高血壓的血管功能與運動復健研究，未測試 norepinephrine 治療肺病 |
-| [NCT05655065](https://clinicaltrials.gov/study/NCT05655065) | 不適用 | 招募中 | 30 | 休克且中心靜脈壓偏高的患者，提高平均動脈壓對腎功能的影響 |
-| [NCT00834509](https://clinicaltrials.gov/study/NCT00834509) | 不適用 | 完成 | 181 | 阻塞性睡眠呼吸中止症的血液診斷試驗，非介入性治療研究 |
-| [NCT02627378](https://clinicaltrials.gov/study/NCT02627378) | Phase 1 | 完成 | 35 | MERS 呼吸衰竭的 ECMO 支持，血管加壓劑僅為附帶使用 |
-| [NCT05664204](https://clinicaltrials.gov/study/NCT05664204) | 不適用 | 招募中 | 200 | 肺移植術中系統性 VA-ECMO 與按需使用的比較 |
-| [NCT07332442](https://clinicaltrials.gov/study/NCT07332442) | Phase 3 | 招募中 | 250 | 阻塞性睡眠呼吸中止症，以 eszopiclone 提高覺醒閾值以改善 CPAP 依從性，與 norepinephrine 無關 |
+| [NCT02966665](https://clinicaltrials.gov/study/NCT02966665) | Phase 1 | 招募中 | 420 | 高血壓復健、運動與骨骼肌傳入回饋對血管功能的影響；並未測試 Norepinephrine 治療阻塞性肺病，相關性評為 C 級（無直接證據） |
 
 ---
 
 ## 文獻證據
 
-未找到任何 RCT。以下依評論優先，其餘為世代研究與前臨床研究。
+以下依資料中的研究類型列出，皆為回顧或機轉／生理學研究，沒有針對 Norepinephrine 治療阻塞性肺病的臨床試驗。
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [2048831](https://pubmed.ncbi.nlm.nih.gov/2048831/) | 1991 | Review | Am Rev Respir Dis | 自主神經（膽鹼、去甲腎上腺素、肽類）調控氣喘與 COPD 的氣道口徑 |
-| [1617386](https://pubmed.ncbi.nlm.nih.gov/1617386/) | 1992 | Review | Br Med Bull | 交感神經以去甲腎上腺素使氣管支氣管血管收縮 |
-| [21271508](https://pubmed.ncbi.nlm.nih.gov/21271508/) | 2011 | Review | Pneumologie | 氣道神經支配（含去甲腎上腺素）與氣喘、COPD 的氣道狹窄有關 |
-| [3332227](https://pubmed.ncbi.nlm.nih.gov/3332227/) | 1987 | Review | Crit Care Clin | 重症情境中兒茶酚胺（含 norepinephrine）的角色 |
-| [40870471](https://pubmed.ncbi.nlm.nih.gov/40870471/) | 2025 | Review | Medicina (Kaunas) | COPD 合併焦慮與憂鬱的敘述性回顧 |
-| [6777857](https://pubmed.ncbi.nlm.nih.gov/6777857/) | 1980 | Cohort | Scand J Clin Lab Invest | 9 名阻塞性肺病患者血漿去甲腎上腺素升高，且與血氧飽和度呈負相關 |
-| [9009625](https://pubmed.ncbi.nlm.nih.gov/9009625/) | 1996 | Cohort | Monaldi Arch Chest Dis | 測量 COPD 早期的荷爾蒙（含去甲腎上腺素）與血行動力學 |
-| [29030339](https://pubmed.ncbi.nlm.nih.gov/29030339/) | 2018 | 生理研究 | Am J Physiol Heart Circ Physiol | 評估 COPD 患者運動時肌肉 alpha 腎上腺素反應性 |
-| [35870527](https://pubmed.ncbi.nlm.nih.gov/35870527/) | 2022 | 面板研究 | Environ Pollut | 空氣污染暴露與 COPD 患者神經內分泌壓力荷爾蒙的關聯 |
-| [38987587](https://pubmed.ncbi.nlm.nih.gov/38987587/) | 2024 | 前臨床 | Nature | 小鼠腦幹 Dbh+ 神經元調控過敏原誘發的氣道高反應性 |
+| [29696025](https://pubmed.ncbi.nlm.nih.gov/29696025/) | 2018 | Review | Frontiers in Immunology | 腎上腺素訊號位於過敏性氣喘與病毒感染的交會點，討論長效與短效腎上腺素藥物在氣喘控制中的角色 |
+| [41601146](https://pubmed.ncbi.nlm.nih.gov/41601146/) | 2026 | Review | Annals of Medicine | 肺部神經免疫迴路在呼吸道病理中的角色與精準治療標的 |
+| [21271508](https://pubmed.ncbi.nlm.nih.gov/21271508/) | 2011 | Review | Pneumologie | 氣喘與 COPD 的氣道神經支配；交感神經纖維釋放 Norepinephrine，神經機制參與氣道高反應性與發炎 |
+| [40870471](https://pubmed.ncbi.nlm.nih.gov/40870471/) | 2025 | Review | Medicina (Kaunas) | COPD 合併焦慮與憂鬱的風險因子、臨床影響與處置 |
+| [24486056](https://pubmed.ncbi.nlm.nih.gov/24486056/) | 2014 | Review | Seminars in Immunology | 交感神經系統與免疫系統的神經免疫調控 |
+| [3332227](https://pubmed.ncbi.nlm.nih.gov/3332227/) | 1987 | Review | Critical Care Clinics | 重症照護中的兒茶酚胺（Norepinephrine、Epinephrine、Dopamine） |
+| [3966494](https://pubmed.ncbi.nlm.nih.gov/3966494/) | 1985 | 生理學研究 | American Journal of Medicine | 低血氧對慢性阻塞性肺病患者鈉與水排泄的影響 |
+| [22005192](https://pubmed.ncbi.nlm.nih.gov/22005192/) | 2011 | 觀察性研究 | Advances in Cardiology | 阻塞性睡眠呼吸中止症的血行動力學與自主神經變化 |
+| [11099681](https://pubmed.ncbi.nlm.nih.gov/11099681/) | 2000 | 未分類 | American Journal of Medicine | COPD 合併急性呼吸衰竭時高血壓的機轉，涉及 Norepinephrine 等心血管荷爾蒙 |
+| [35870527](https://pubmed.ncbi.nlm.nih.gov/35870527/) | 2022 | 未分類（面板研究） | Environmental Pollution | 空氣污染暴露與 COPD 患者神經內分泌壓力荷爾蒙的關聯 |
 
 ---
 
 ## 香港上市資訊
 
-共 7 張許可證，列出 5 張。資料中沒有登載核准適應症，因此不列該欄。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-62831 | NORADRENALINE AGUETTANT CONCENTRATE FOR SOLUTION FOR INFUSION 1MG/ML | 輸注濃縮液 | 未登載 |
+| HK-64209 | NORADRENALINE SINTETICA CONCENTRATE FOR SOLUTION FOR INFUSION 4MG/4ML | 輸注濃縮液 | 未登載 |
+| HK-68241 | NOREPINEPHRINE TAI YU CONCENTRATE FOR SOLUTION FOR INFUSION 4MG/4ML | 輸注濃縮液 | 未登載 |
+| HK-65386 | LEVOPHED SF CONCENTRATE FOR SOLUTION FOR INFUSION 1MG/ML | 輸注濃縮液 | 未登載 |
+| HK-66232 | APT-NORADRENALINE CONCENTRATE FOR SOLUTION FOR INFUSION 4MG/4ML | 輸注濃縮液 | 未登載 |
 
-| 許可證號 | 品名 | 劑型 | 持證商 |
-|---------|------|------|--------|
-| HK-62831 | Noradrenaline Aguettant 1mg/ml | 輸注用濃縮溶液 | Hong Kong Medical Supplies Ltd |
-| HK-64209 | Noradrenaline Sintetica 4mg/4ml | 輸注用濃縮溶液 | Mekim Ltd |
-| HK-68241 | Norepinephrine Tai Yu 4mg/4ml | 輸注用濃縮溶液 | The International Medical Company Ltd |
-| HK-65386 | Levophed SF 1mg/ml | 輸注用濃縮溶液 | Pfizer Corporation Hong Kong Ltd |
-| HK-66232 | APT-Noradrenaline 4mg/4ml | 輸注用濃縮溶液 | Jacobson Marketing Ltd |
+（共 7 張有效單方許可證，上表列出其中 5 張。）
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**：高血壓性疾病 (hypertensive disorder)、高血壓 (hypertension)、血栓性疾病 (thrombotic disease)。此為知識圖譜的藥物－疾病關係，並非仿單原文。
+- **藥物交互作用**：共查得 70 筆，目前顯示的多為中度 (Moderate) 交互作用，主要涉及降血糖藥物，例如：
+  - Metformin、Acarbose、Repaglinide、Chlorpropamide
+  - Pioglitazone、Sitagliptin、Saxagliptin、Linagliptin、Alogliptin
+  - Canagliflozin、Dapagliflozin、Empagliflozin
+  - Semaglutide、Dulaglutide、Albiglutide
+  - 各類胰島素（Insulin aspart、degludec、detemir）
+  - Phentermine、Diethylpropion
+
+其他安全性資訊（警語、禁忌）請參考原廠仿單。
 
 ---
 
@@ -127,22 +123,21 @@ TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有
 **決策：Hold**
 
 **理由：**
-- 沒有任何臨床試驗直接測試 norepinephrine 用於阻塞性肺病。文獻只顯示 COPD 患者的去甲腎上腺素濃度升高，這是疾病的伴隨現象，不是治療證據。
-- 此藥為靜脈輸注升壓劑，有全身性血管收縮與心律不整風險，與慢性氣道疾病的長期治療不相容。
-
-**其他預測適應症：**
-- **呼吸道畸形 (Respiratory Malformation)，分數 99.84%，L4，Hold。** 血管加壓劑無法矯正結構性缺陷，現有試驗多為敗血症、通氣或睡眠呼吸障礙研究。
-- **Rienhoff 症候群，分數 99.83%，L5，Hold。** 無任何試驗或文獻，且無法建立機轉關聯。
+- 目前沒有任何直接評估 Norepinephrine 治療阻塞性肺病的臨床證據，唯一的試驗僅間接相關，文獻多為機轉背景討論。
+- Norepinephrine 是靜脈輸注的全身性血管加壓劑，其心血管效應對此族群有安全疑慮，且知識圖譜亦標示高血壓與血栓性疾病為禁忌。
 
 **若要推進需要：**
-- 取得香港衛生署（Department of Health）仿單，補齊警語與禁忌症。這是目前的阻斷性缺口，未補齊無法進入安全性篩選。
-- 補充 norepinephrine 的作用機轉資料（例如查詢 DrugBank）。
-- 取得能說明知識圖譜預測路徑的解釋，判斷高分是否有生物學依據。
-- 若仍要探討，先以前臨床或機轉研究驗證 alpha／beta 腎上腺素受體在氣道的作用，再考慮臨床設計。
+- 補齊作用機轉 (MOA) 資料
+- 取得香港衛生署仿單的警語與禁忌資料，完成安全性篩選
+- 針對氣道給藥途徑與全身性心血管風險進行專門評估
+- 以文獻與路徑分析確認是否存在可驗證的研究假設，再考慮前臨床或早期臨床研究
 
 ---
 
-*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。*
+## 其他預測適應症（附註）
+
+- **呼吸道畸形 (Respiratory Malformation)**（TxGNN 分數 99.84%，證據等級 L5）：文獻多為呼吸中樞的神經調控、產前藥物暴露與先天異常風險等，並非治療證據；對結構性畸形而言，血管加壓劑不具合理的治療標的。建議 Hold。
+- **Rienhoff 症候群 (Rienhoff Syndrome)**（TxGNN 分數 99.83%，證據等級 L5）：目前無臨床試驗與文獻，無法評估生物學合理性。建議 Hold。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

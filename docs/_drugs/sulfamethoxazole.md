@@ -2,15 +2,15 @@
 layout: default
 title: Sulfamethoxazole
 parent: 中證據等級 (L3-L4)
-nav_order: 824
-evidence_level: L4
+nav_order: 839
+evidence_level: L3
 indication_count: 1
 ---
 
 # Sulfamethoxazole
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **1** 個
+證據等級: **L3** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,35 +29,33 @@ indication_count: 1
 
 </div>
 
-# Sulfamethoxazole：從磺胺類抗菌藥到急性傳染性結膜炎
+# Sulfamethoxazole：從細菌感染（含結膜炎）到急性傳染性結膜炎
 
 ## 一句話總結
 
-Sulfamethoxazole 是磺胺類抗菌藥，在香港已有多張上市許可證。
+Sulfamethoxazole（磺胺甲噁唑）是一種磺胺類抗菌藥，原本用於中耳炎、奴卡菌症、弓形蟲症、肺囊蟲症、志賀氏菌症等感染，原適應症清單中已包含結膜炎。
 TxGNN 模型預測它可能對**急性傳染性結膜炎 (Acute Contagious Conjunctivitis)** 有效，
-但目前只有 **0 個臨床試驗**和 **1 篇文獻**，且該文獻並未直接評估此藥的療效。
+目前有 **0 個臨床試驗**和 **1 篇文獻**（回顧性世代研究）支持這個方向。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 感染性中耳炎、奴卡菌症、弓形蟲症、肺囊蟲症、志賀氏菌症、結膜炎等（來自知識圖譜，香港許可證未載明適應症文字） |
 | 預測新適應症 | 急性傳染性結膜炎 (Acute Contagious Conjunctivitis) |
 | TxGNN 預測分數 | 99.63% |
-| 證據等級 | L4 |
+| 證據等級 | L3 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 10 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-Sulfamethoxazole 屬於磺胺類抗菌藥，作用是抑制細菌的二氫蝶酸合成酶 (dihydropteroate synthase)，阻斷細菌葉酸合成。這個機轉說明來自一般藥理知識，並非 Evidence Pack 所提供的資料。DrugBank 的原作用機轉資料目前缺漏，也沒有原適應症紀錄。
+目前缺乏詳細的作用機轉資料。根據一般藥理知識，Sulfamethoxazole 是磺胺類抗菌藥，抑制細菌的二氫蝶酸合成酶 (dihydropteroate synthase)，阻斷細菌葉酸合成；與 trimethoprim 合用時，可在連續兩個步驟上同時阻斷，產生協同效果。以上機轉說明來自一般藥理學，並非來自本報告所整理的資料。
 
-急性傳染性結膜炎多為細菌感染，常見菌種包括金黃色葡萄球菌、肺炎鏈球菌與流感嗜血桿菌。因此從抗菌角度來看，預測有一定合理性。TxGNN 分數很高 (99.63%)，但這只是計算模型的預測，不等於臨床證據。
+急性傳染性結膜炎常由細菌引起（如流感嗜血桿菌、肺炎鏈球菌、金黃色葡萄球菌），因此抗菌機轉在生物學上合理。
 
-這個預測仍有幾項限制：
-- 病毒性與過敏性結膜炎不會對抗菌藥有反應。
-- 磺胺類藥物的抗藥性是已知問題。
-- 眼部組織的藥物穿透性與給藥途徑（全身性或局部）尚未被評估。香港現有許可證的品項中，至少有一項是輸注用濃縮液，並非眼用劑型。
+需要注意：原適應症清單已包含「結膜炎」，所以這個預測更像是與既有用途重疊，而非真正的新適應症再利用。99.63% 的 TxGNN 分數僅是計算預測，不等於臨床證據。
 
 ## 臨床試驗證據
 
@@ -67,38 +65,54 @@ Sulfamethoxazole 屬於磺胺類抗菌藥，作用是抑制細菌的二氫蝶酸
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [31788487](https://pubmed.ncbi.nlm.nih.gov/31788487/) | 2019 | 觀察性研究（橫斷面微生物研究，依標題推斷） | Medical Hypothesis, Discovery & Innovation Ophthalmology Journal | 回溯分析希臘西部兒童急性細菌性結膜炎的病原菌與抗生素感受性；摘要不完整，未見此藥的直接療效資料 |
+| [31788487](https://pubmed.ncbi.nlm.nih.gov/31788487/) | 2019 | 世代研究（回顧性） | Medical Hypothesis, Discovery & Innovation Ophthalmology Journal | 分析希臘西部兒童急性細菌性結膜炎的細菌學與抗生素感受性型態；該病通常以廣譜局部抗生素經驗性治療 |
+
+此文獻為流行病學與感受性分析，摘要中未見直接評估 Sulfamethoxazole 療效的結論。
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-43066 | CO-SEPTIC TAB | JEAN-MARIE PHARMACAL CO LTD |
-| HK-21598 | TRIMETRIN CAP | VICKMANS LABORATORIES LTD |
-| HK-09295 | APO-SULFATRIM 400-80MG TAB | HIND WING CO LTD |
-| HK-59021 | COBACIDE TAB | VAST RESOURCES PHARMACEUTICAL LTD |
-| HK-65292 | DBL SULFAMETHOXAZOLE AND TRIMETHOPRIM CONCENTRATE FOR SOLUTION FOR INFUSION 400MG/80MG | PFIZER CORPORATION HONG KONG LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-43066 | CO-SEPTIC TAB | 未載明 | 未載明 |
+| HK-21598 | TRIMETRIN CAP | 未載明 | 未載明 |
+| HK-09295 | APO-SULFATRIM 400-80MG TAB | 未載明 | 未載明 |
+| HK-59021 | COBACIDE TAB | 未載明 | 未載明 |
+| HK-65292 | DBL SULFAMETHOXAZOLE AND TRIMETHOPRIM CONCENTRATE FOR SOLUTION FOR INFUSION 400MG/80MG | 未載明（品名顯示為輸注用濃縮液） | 未載明 |
+
+以上為 10 張有效許可證中的 5 張，均為單方許可證，無已註銷者。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **禁忌症（來自知識圖譜的藥物－疾病禁忌關聯，非仿單文字）**：
+  - 血液系統：血小板低下、嗜中性白血球低下、顆粒球缺乏症、葉酸缺乏性貧血、G6PD 缺乏症
+  - 腎臟：腎臟疾病、腎衰竭、尿毒症、腎絲球腎炎
+  - 肝膽：肝臟疾病、膽囊疾病
+  - 代謝：紫質症（含遺傳性紫質症）、胱胺酸尿症、半乳糖血症、肝醣儲積症
+  - 腸道：困難梭狀芽孢桿菌結腸炎、新生兒壞死性腸炎
+  - 其他：輸尿管積膿
+- **藥物交互作用**：共查詢到 100 筆。列出的樣本中，中度交互作用主要涉及：
+  - 降血糖藥（Chlorpropamide、Glimepiride、Acetohexamide、Glipizide、Glyburide）
+  - 各類胰島素（human、aspart、degludec、detemir、glargine、glulisine）
+  - Balsalazide、Picosulfuric acid
+  
+  輕度交互作用包括 Famotidine、Clarithromycin、Dolasetron、Palonosetron、Cisapride、Granisetron。
+
+其餘警語請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 目前只有模型預測，加上一篇討論結膜炎病原菌的觀察性文獻，沒有任何研究直接測試 sulfamethoxazole 對結膜炎的療效。
-- 安全性資料缺漏，且香港許可證的核准適應症與劑型資料也不完整，目前無法進入安全性篩選。
+- 預測的適應症與原適應症清單中的「結膜炎」重疊，並非真正的新用途，且目前沒有任何臨床試驗，僅有 1 篇與療效無直接關聯的流行病學文獻。
+- TxGNN 高分只是模型預測；香港許可證缺少核准適應症文字，仿單安全性資料也尚未取得，無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單，補齊警語、禁忌與核准適應症（此項為阻斷性缺口）
-- 補齊 DrugBank 的作用機轉資料
-- 查找結膜炎常見致病菌對磺胺類（含 trimethoprim 複方）的感受性資料
-- 評估給藥途徑的可行性，包括全身性給藥是否能達到眼部有效濃度，或是否需要眼用劑型
-- 更廣泛搜尋臨床試驗與比較性研究，確認是否有實際療效證據
-
-*本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。*
+- 取得香港衛生署的仿單，確認核准適應症、警語與禁忌症
+- 補充作用機轉資料（如 DrugBank）
+- 確認眼科局部給藥的劑型與途徑是否可行（目前許可證劑型多未載明，且路徑相容性尚未評估）
+- 蒐集 Sulfamethoxazole 用於結膜炎的直接療效證據（臨床試驗或感受性研究）
+- 評估當地結膜炎病原菌對磺胺類藥物的抗藥性情形
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

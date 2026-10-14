@@ -2,7 +2,7 @@
 layout: default
 title: Darunavir
 parent: 中證據等級 (L3-L4)
-nav_order: 242
+nav_order: 247
 evidence_level: L4
 indication_count: 4
 ---
@@ -29,82 +29,98 @@ indication_count: 4
 
 </div>
 
-# Darunavir：從 HIV-1 感染到猿猴免疫缺陷病毒感染
+# Darunavir：從 HIV 感染到猴免疫缺陷病毒感染（SIV）
 
 ## 一句話總結
 
-Darunavir 是 HIV-1 蛋白酶抑制劑，原本用於人類 HIV-1 感染。
-TxGNN 模型預測它可能對**猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)** 有效。
-目前**沒有臨床試驗**，只有 **4 篇**獼猴前臨床研究，且 darunavir 只是聯合抗病毒療法的成分之一，不是被單獨測試的藥物。
+Darunavir 是 HIV-1 蛋白酶抑制劑，原本用於 HIV 感染與愛滋病（AIDS）的治療。
+TxGNN 模型預測它可能對**猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)** 有效，
+目前**沒有臨床試驗**，僅有 **4 篇**獼猴動物模型文獻，且 Darunavir 在其中多半是抗病毒療法的組成，而非被研究的對象。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | HIV-1 感染（許可證資料未載明適應症文字，此為藥理分類） |
-| 預測新適應症 | 猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection) |
+| 原適應症 | HIV 感染、AIDS |
+| 預測新適應症 | 猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection) |
 | TxGNN 預測分數 | 99.97% |
 | 證據等級 | L4 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 17 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank 未提供 MOA）。根據已知資訊，Darunavir 屬於 HIV-1 蛋白酶抑制劑，在人類 HIV-1 感染中的療效已被證實。SIV 是 HIV 在獼猴身上的標準動物模型，兩種病毒的蛋白酶高度相關，因此模型的連結在生物學上說得通。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Darunavir 屬於 HIV-1 蛋白酶抑制劑類別，其在 HIV 感染中的療效已被證實。SIV 是與 HIV 親緣相近的慢病毒，因此機轉上推測 Darunavir 可能對 SIV 蛋白酶也有活性，這也是模型給出極高分數的可能原因。
 
-不過要小心解讀。這個「新適應症」是動物疾病模型，不是新的人類適應症。它主要反映 darunavir 既有的抗反轉錄病毒機轉，並不代表發現了新的治療用途。
+不過這個預測本質上與原適應症高度重疊。SIV 感染主要是研究 HIV/AIDS 的動物模型，並不是需要另外開發的人類適應症。已檢索到的 4 篇文獻都是獼猴的前臨床研究，評估強化或合併抗病毒療法，部分搭配 auranofin 或組蛋白去乙醯酶抑制劑（SAHA）等輔助藥物。Darunavir 在其中看起來是治療組合的一部分，並非主要的研究藥物。
+
+整體而言，這是間接的動物證據，對人類臨床的新增價值有限。
+
+其他預測項目（排名 2–4）的評估如下：
+
+- **貓免疫缺陷症候群（FIV）**：FIV 蛋白酶與 HIV 蛋白酶結構相關，但受質特異性與抑制劑敏感性不同，且沒有資料顯示 Darunavir 能抑制它。此外這是獸醫適應症，不在人類藥物再利用範圍內。
+- **罕見神經發育障礙（共濟失調步態、無語言、皮質白質減少）**：未發現可信的機轉關聯，高分可能是知識圖譜的假關聯。
+- **家族性複合型高脂血症（已廢止術語）**：疾病術語已被廢止，對應不可靠。HIV 蛋白酶抑制劑（含 ritonavir 增效的 Darunavir）臨床上與血脂異常相關，預期會惡化而非改善高脂血症，因此判斷為假關聯並有安全疑慮。
+
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
-## 文獻證據
+---
 
-四篇文獻都是 SIV 感染獼猴的前臨床動物研究（證據包分級為 Tier 3），沒有 RCT。
+## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | 動物前臨床研究 | AIDS Res Hum Retroviruses | 在 SIVmac239 感染的恆河猴中，比較兩種複方注射型 cART 方案（含 FTC、TDF 的三藥方案等）的病毒抑制效果 |
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | 動物前臨床研究 | PLoS One | 在 SIV 感染的中國恆河猴中，探討強化 cART 合併 HDAC 抑制劑 SAHA 對病毒庫的影響 |
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | 動物前臨床研究 | PLoS Pathog | 高強度多藥 ART 方案在 SIVmac251 感染獼猴中達成長期病毒抑制，並限制病毒庫 |
-| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | 動物前臨床研究 | AIDS | 金化合物 auranofin 搭配 ART，可縮小猴 AIDS 模型的病毒庫，並在停藥後抑制病毒量 |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | 前臨床（非人靈長類） | PLoS Pathogens | 高度強化的多藥抗病毒療法，在 SIVmac251 感染的獼猴中達成長期病毒抑制，並限制病毒庫 |
+| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | 前臨床（非人靈長類，比較研究） | AIDS Res Hum Retroviruses | 比較兩種複方注射型抗病毒療法，在 SIVmac239 感染獼猴中的抑制效果 |
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | 前臨床（非人靈長類） | PLoS One | 在 SIV 感染的中國獼猴中，合併抗病毒療法與 SAHA（組蛋白去乙醯酶抑制劑）的效果 |
+| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | 前臨床（非人靈長類） | AIDS | 金製劑 auranofin 可限制猴 AIDS 模型的病毒庫，並在停止抗病毒療法後抑制病毒量 |
 
-這些研究測試的是整個聯合療法，無法從提供的資料中分離出 darunavir 的個別貢獻。
+---
 
 ## 香港上市資訊
 
-香港共有 17 張許可證，以下列出 5 張。證據包未提供劑型與核准適應症文字。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-58980 | PREZISTA TAB 600MG（強生） | — | — |
+| HK-63272 | PREZISTA TABLETS 800MG（強生） | — | — |
+| HK-64960 | PREZCOBIX TABLETS 800MG/150MG（強生） | — | — |
+| HK-65912 | SYMTUZA TABLETS（強生） | — | — |
+| HK-66733 | DARUNAVIR SANDOZ TABLETS 800MG（Sandoz） | — | — |
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-66733 | DARUNAVIR SANDOZ TABLETS 800MG | SANDOZ HONG KONG LIMITED |
-| HK-68460 | DARUNAVIR TABLETS 800MG | CHEMILL PHARMA LIMITED |
-| HK-67175 | DARUNAVIR KRKA TABLETS 600MG | SINO PACIFIC PHARMA COMPANY LIMITED |
-| HK-58980 | PREZISTA TAB 600MG | JOHNSON & JOHNSON (HONG KONG) LTD. |
-| HK-68320 | PROTOMUNE TABLETS 400MG | LOTUS PHARMACEUTICAL HK LIMITED |
+香港共有 17 張有效的單一成分許可證，上表僅列出 5 張主要者。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的疾病禁忌關聯**：肝衰竭、肝病、膽囊疾病、高血糖、肝硬化、糖尿病、糖尿病酮酸中毒、慢性 C 型肝炎、C 型肝炎病毒感染、慢性 B 型肝炎、高三酸甘油脂血症、血友病（含女性帶因者的症狀型血友病）。這些來自知識圖譜，並非仿單內容，僅供參考。
+- **藥物交互作用**：共查得 100 筆。主要等級為「Major」的有 **Cisapride**。其餘多為「Moderate」，包括降血糖藥（Acarbose、Metformin、Pioglitazone、Alogliptin、Albiglutide、Canagliflozin、Dapagliflozin、Saxagliptin、Chlorpropamide、Acetohexamide）、皮質類固醇（Hydrocortisone、Dexamethasone、Betamethasone、Budesonide、Triamcinolone）、Aprepitant 與 Clarithromycin。
+
+仿單層級的警語與禁忌請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 只有前臨床動物研究，沒有臨床試驗，且 darunavir 只是聯合方案的成分之一。
-- SIV 是動物模型，不是新的人類適應症，因此不構成實質的藥物再利用機會。
-- 同一份預測清單中，其他預測也不支持推進：
-  - 貓後天免疫缺乏症候群：只有人類 HIV-1 的 Phase 4 試驗（NCT02770508），對貓病毒屬間接證據。
-  - 神經發展疾患：找不到合理機轉，高分很可能是知識圖譜的假象。
-  - 高脂血症：HIV 蛋白酶抑制劑本身會升高血脂，方向相反，且該疾病術語已被本體標為過時。
+- 預測的適應症 SIV 感染屬於動物模型疾病，與 Darunavir 原本的 HIV 適應症高度重疊，不具人類臨床上的新增價值。現有 4 篇文獻都是前臨床研究，且 Darunavir 不是研究的主要對象。其餘預測項目缺乏機轉依據，其中高脂血症還有安全疑慮。
 
 **若要推進需要：**
-- 取得香港衛生署仿單的警語與禁忌資料（目前是阻擋性缺口，無法進入安全性篩選）。
-- 補齊 DrugBank 的作用機轉資料。
-- 找出 darunavir 單藥或其個別貢獻的 SIV／FIV 專屬數據。
-- 先確認是否真有人類疾病的再利用目標，再評估是否值得投入。
+- 確認文獻中 Darunavir 實際扮演的角色（是治療組合的一部分，還是被評估的對象）
+- 取得詳細的作用機轉資料（MOA）
+- 取得香港衛生署仿單的警語與禁忌資料
+- 若要探索真正的新適應症，需重新篩選有人類臨床意義的預測項目
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

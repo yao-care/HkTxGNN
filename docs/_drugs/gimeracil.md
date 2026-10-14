@@ -2,7 +2,7 @@
 layout: default
 title: Gimeracil
 parent: 高證據等級 (L1-L2)
-nav_order: 406
+nav_order: 414
 evidence_level: L1
 indication_count: 5
 ---
@@ -29,19 +29,19 @@ indication_count: 5
 
 </div>
 
-# Gimeracil：從 S-1 複方成分到大腸腫瘤
+# Gimeracil：從胃癌到大腸腫瘤
 
 ## 一句話總結
 
-Gimeracil 是 S-1 複方（tegafur + gimeracil + oteracil）的成分之一，本身是 DPD 酶抑制劑。
+Gimeracil 是 S-1 複方（tegafur／gimeracil／oteracil）的成分之一，原本用於胃癌治療。
 TxGNN 模型預測它可能對**大腸腫瘤 (Colonic Neoplasm)** 有效，
-目前有 **8 個臨床試驗**支持這個方向（含 2 個已完成的 Phase 3 RCT），但**無相關文獻**。
-所有證據都來自 S-1 固定複方，並非 gimeracil 單獨使用。
+目前有 **6 個臨床試驗**和 **12 篇文獻**支持這個方向（所有證據均來自 S-1 複方，並非 gimeracil 單獨使用）。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 胃癌（來自知識圖譜；香港許可證未載明適應症文字） |
 | 預測新適應症 | 大腸腫瘤 (Colonic Neoplasm) |
 | TxGNN 預測分數 | 99.88% |
 | 證據等級 | L1 |
@@ -51,53 +51,60 @@ TxGNN 模型預測它可能對**大腸腫瘤 (Colonic Neoplasm)** 有效，
 
 ## 為什麼這個預測合理？
 
-Gimeracil 是可逆性的 dihydropyrimidine dehydrogenase (DPD) 抑制劑，本身不具細胞毒性。
-在 S-1 複方中，它減緩 5-FU 的分解，讓體內 5-FU 濃度升高且維持更久。這是 S-1 對大腸直腸癌有效的藥理基礎。
+Gimeracil 是 S-1 中的 DPD（二氫嘧啶去氫酶）抑制劑。抑制 DPD 後，tegafur 轉換出的 5-FU 降解變慢，可維持較高且較持久的 5-FU 暴露量。
 
-目前缺乏 DrugBank 的詳細作用機轉資料，原適應症欄位也沒有資料。
-不過臨床試驗登記顯示，含 gimeracil 的 S-1 已被廣泛用於大腸癌的輔助治療與轉移性治療，
-包括與 capecitabine 的直接比較，以及與 oxaliplatin、bevacizumab 等藥物的組合。
-這些都支持 TxGNN 的預測，最佳解讀是「gimeracil 作為 S-1 的一部分」。
+5-FU 是大腸直腸癌治療的核心抗代謝藥物，因此這個機轉與大腸腫瘤直接相關。胃癌與大腸腫瘤同屬消化道腫瘤，對氟尿嘧啶類藥物都有反應。
+
+需要注意：gimeracil 不會單獨給藥，所有證據都來自 S-1 複方。此外，目前缺乏詳細的作用機轉資料庫記載，以上機轉說明來自已知藥理與模型的推論。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Phase 3 | 完成 | 1535 | UFT+Leucovorin 對比 S-1（TS-1），用於 Stage III 結腸癌輔助治療。直接在目標疾病測試含 gimeracil 的療程，為本組最強證據 |
-| [NCT01918852](https://clinicaltrials.gov/study/NCT01918852) | Phase 3 | 完成 | 161 | S-1 對比 capecitabine，用於轉移性結直腸癌第一線治療（SALTO 試驗）。屬直接比較，但樣本數小 |
-| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Phase 3 | 未知 | 1191 | SOX（oxaliplatin + S-1）對比 XELOX，用於 Stage III 結直腸癌輔助化療。規模大且高度相關，但無結果資料 |
-| [NCT02618356](https://clinicaltrials.gov/study/NCT02618356) | Phase 2 | 未知 | 82 | Raltitrexed 併用 S-1，用於標準化療失敗的轉移性結直腸癌，主要終點為無惡化存活期 |
-| [NCT00524706](https://clinicaltrials.gov/study/NCT00524706) | Phase 1/2 | 未知 | 42 | S-1、口服 leucovorin 與 oxaliplatin 併用（SOL），用於未經治療的轉移性結直腸癌，支持可行性與劑量 |
-| [NCT00974389](https://clinicaltrials.gov/study/NCT00974389) | Phase 2 | 未知 | 40 | S-1 併用 bevacizumab，用於先前化療失敗的無法切除或復發性結直腸癌 |
-| [NCT06255379](https://clinicaltrials.gov/study/NCT06255379) | Phase 2 | 尚未招募 | 52 | Fruquintinib 併用 tegafur/gimeracil/oteracil，用於晚期轉移性結直腸癌第三線治療，僅代表持續有研究興趣 |
-| [NCT02216149](https://clinicaltrials.gov/study/NCT02216149) | Phase 2 | 已終止 | 20 | 比較 S-1 與 capecitabine（併用 oxaliplatin）對冠狀動脈血流的影響。終點為心血管安全性，非療效 |
+| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Phase 3 | 已完成 | 1535 | UFT+Leucovorin 對比 TS-1（S-1），用於 Stage III 結腸癌輔助治療 |
+| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Phase 3 | 未知 | 1191 | SOX 對比 XELOX，用於 Stage III 大腸直腸癌輔助化療 |
+| [NCT00974389](https://clinicaltrials.gov/study/NCT00974389) | Phase 2 | 未知 | 40 | S-1 + Bevacizumab，用於前線治療失敗後的無法切除或復發大腸直腸癌 |
+| [NCT02618356](https://clinicaltrials.gov/study/NCT02618356) | Phase 2 | 未知 | 82 | Raltitrexed + S-1，用於標準化療失敗的轉移性大腸直腸癌 |
+| [NCT06255379](https://clinicaltrials.gov/study/NCT06255379) | Phase 2 | 尚未招募 | 52 | Fruquintinib + S-1，用於晚期轉移性大腸直腸癌第三線治療 |
+| [NCT02216149](https://clinicaltrials.gov/study/NCT02216149) | Phase 2 | 已終止 | 20 | S-1 與 Capecitabine 併用 Oxaliplatin 對冠狀動脈血流的影響（心臟安全性終點，非療效試驗） |
 
 ## 文獻證據
 
-目前無相關文獻。
+本次文獻多為個案報告與臨床前研究，沒有 RCT。
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [32936722](https://pubmed.ncbi.nlm.nih.gov/32936722/) | 2021 | 個案報告／回顧 | J Oncol Pharm Pract | S-1 引起高三酸甘油脂血症；S-1 為大腸直腸癌有效藥物之一 |
+| [20841935](https://pubmed.ncbi.nlm.nih.gov/20841935/) | 2010 | 藥動學研究 | Gan To Kagaku Ryoho | 以小鼠腹膜轉移模型評估 S-1 用於大腸癌腹膜轉移 |
+| [20811661](https://pubmed.ncbi.nlm.nih.gov/20811661/) | 2010 | 臨床前（異種移植） | Oncol Rep | Irinotecan 併用 S-1 可克服大腸癌異種移植對 5-FU 的抗藥性 |
+| [21084813](https://pubmed.ncbi.nlm.nih.gov/21084813/) | 2010 | 回顧性分析 | Gan To Kagaku Ryoho | 87 位接受 S-1/irinotecan 的病人中，3–4 級血液毒性發生率為 16.1% |
+| [18630468](https://pubmed.ncbi.nlm.nih.gov/18630468/) | 2008 | 個案報告 | Anticancer Res | S-1 併用 CPT-11 使大腸癌肝轉移達完全緩解 |
+| [29394831](https://pubmed.ncbi.nlm.nih.gov/29394831/) | 2017 | 個案報告 | Gan To Kagaku Ryoho | SOX 併 panitumumab 降階治療後，成功進行兩階段肝切除 |
+| [29483452](https://pubmed.ncbi.nlm.nih.gov/29483452/) | 2018 | 個案報告 | Gan To Kagaku Ryoho | 橫結腸癌合併肝轉移與門靜脈腫瘤栓塞，經化療後有效 |
+| [28414195](https://pubmed.ncbi.nlm.nih.gov/28414195/) | 2017 | 個案報告 | Eur J Dermatol | TS-1 引起紅皮症、廣泛黏膜受累及手足症候群 |
+| [41253353](https://pubmed.ncbi.nlm.nih.gov/41253353/) | 2025 | 個案報告 | Gan To Kagaku Ryoho | Oxaliplatin 引起急性周邊神經病變合併尿滯留（病人曾使用 S-1） |
+| [35444144](https://pubmed.ncbi.nlm.nih.gov/35444144/) | 2022 | 個案報告 | Gan To Kagaku Ryoho | 大腸癌術後腹膜復發，以腹腔鏡手術反覆切除 |
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-67976 | TEGO CAPSULES 20MG/5.8MG/19.6MG | LOTUS PHARMACEUTICAL HK LIMITED |
-| HK-67977 | TEGO CAPSULES 25MG/7.25MG/24.5MG | LOTUS PHARMACEUTICAL HK LIMITED |
-| HK-61181 | TS-ONE 25 CAP | DKSH HONG KONG LIMITED |
-| HK-61182 | TS-ONE 20 CAP | DKSH HONG KONG LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-67976 | TEGO CAPSULES 20MG/5.8MG/19.6MG | 未載明 | 未載明 |
+| HK-67977 | TEGO CAPSULES 25MG/7.25MG/24.5MG | 未載明 | 未載明 |
+| HK-61181 | TS-ONE 25 CAP | 未載明 | 未載明 |
+| HK-61182 | TS-ONE 20 CAP | 未載明 | 未載明 |
 
 ## 細胞毒性
 
-Gimeracil 本身不具細胞毒性，但它所屬的 S-1 複方含有 fluoropyrimidine（tegafur），以下依 S-1 複方的藥物類別判斷。
-
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 傳統細胞毒性藥物（Fluoropyrimidine 類複方；gimeracil 為 DPD 抑制劑） |
-| 骨髓抑制風險 | 中度（依藥物類別判斷） |
-| 致吐性分級 | 低至中度（依藥物類別判斷） |
+| 細胞毒性分類 | 傳統細胞毒性藥物（Fluoropyrimidine 類複方；gimeracil 本身為 DPD 抑制劑，用以增強 5-FU） |
+| 骨髓抑制風險 | 中度。文獻顯示 S-1 併用 irinotecan 時，3–4 級血液毒性發生率約 16.1% |
+| 致吐性分級 | 低至中度 |
 | 監測項目 | CBC（含分類）、肝腎功能、電解質 |
 | 處置防護 | 需依細胞毒性藥物處置規範操作 |
 
-具體警語請參考原廠仿單。
+其他文獻記載的 S-1 相關不良反應包括手足症候群、紅皮症與黏膜病變、高三酸甘油脂血症。詳細警語請參考原廠仿單。
 
 ## 安全性考量
 
@@ -108,23 +115,15 @@ Gimeracil 本身不具細胞毒性，但它所屬的 S-1 複方含有 fluoropyri
 **決策：Proceed with Guardrails**
 
 **理由：**
-有 2 個已完成的 Phase 3 RCT（NCT00660894、NCT01918852）以及多個 Phase 2/3 試驗支持 S-1 用於結直腸癌，證據等級為 L1。
-但證據全部針對 S-1 固定複方，且多項試驗狀態為「未知」、無文獻佐證，因此需附帶限制條件。
-
-**Guardrails：**
-- 建議僅適用於 S-1 療程，不適用於 gimeracil 單獨使用。
-- 需注意劑量與 DPD 相關毒性。
-- Phase 3 試驗以亞洲族群為主，推論到其他族群需謹慎。
+- 有 1 個已完成的大型 Phase 3 試驗（NCT00660894，n=1535）直接評估 S-1 用於 Stage III 結腸癌，另有 1 個大型 Phase 3（NCT03448549，n=1191），機轉上與 5-FU 治療大腸癌的邏輯一致。
+- 不過，所有證據均來自 S-1 複方而非 gimeracil 單藥；多數試驗狀態為「未知」，且文獻以個案報告和臨床前研究為主。仿單警語與禁忌資料也尚未取得，故需附帶條件推進。
 
 **若要推進需要：**
-- 取得香港衛生署仿單的警語與禁忌症資料（目前為阻斷性資料缺口）。
-- 補齊 DrugBank 作用機轉資料。
-- 補充相關文獻，特別是 NCT00660894 與 NCT01918852 的發表結果。
-- 確認香港 4 張許可證的核准適應症（目前無資料），以判斷大腸直腸癌是否已在標示內。
-
-**其他預測適應症：** 排名 2–5 的預測（盲腸絨毛狀腺瘤、惡性胃顆粒細胞瘤、結腸脂肪瘤、盲腸神經內分泌腫瘤 G1）分數皆約 99.8%，但沒有任何試驗或文獻支持，證據等級 L5，建議 **Hold**。這些分數可能只反映知識圖譜中與大腸癌的鄰近關係。
-
-本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證才能應用。
+- 取得香港衛生署仿單，補齊警語、禁忌症與核准適應症資料（目前為阻擋性資料缺口）
+- 補充 DrugBank 的詳細作用機轉資料
+- 取得 NCT00660894 與 NCT03448549 的最終結果，確認療效與安全性
+- 確認 S-1 在香港的大腸直腸癌核准狀態，並建立 DPD 相關毒性與血液學監測計畫
+- 其他排名較低的預測（如盲腸絨毛狀腺瘤、結腸脂肪瘤、盲腸神經內分泌腫瘤 G1 等）僅有模型預測、無臨床證據，且生物學上缺乏合理依據，不建議推進
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

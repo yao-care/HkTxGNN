@@ -2,7 +2,7 @@
 layout: default
 title: Salmeterol
 parent: 高證據等級 (L1-L2)
-nav_order: 785
+nav_order: 800
 evidence_level: L1
 indication_count: 5
 ---
@@ -29,21 +29,20 @@ indication_count: 5
 
 </div>
 
-# Salmeterol：從氣喘／慢性阻塞性肺病維持治療到支氣管炎
+# Salmeterol：從肺氣腫與氣喘到支氣管炎
 
 ## 一句話總結
 
-Salmeterol 是長效 β2 腎上腺素受體促效劑（LABA），常用於氣喘與慢性阻塞性肺病（COPD）的維持治療。
+Salmeterol 是長效 β2 腎上腺素受體促效劑（LABA），原本用於肺氣腫、內因性氣喘與過敏性氣喘。
 TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，
-目前有 **15 個臨床試驗**和 **20 篇文獻**支持這個方向。
-這個預測很可能屬於既有用途的延伸（慢性支氣管炎是 COPD 的一種表現型），不是全新的藥物再利用發現。
-
----
+目前有 **9 個臨床試驗**和 **20 篇文獻**支持這個方向。
+不過支氣管炎與原適應症同屬慢性阻塞性肺病（COPD）家族，較接近原用途的延伸，而非全新的再利用。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 肺氣腫、內因性氣喘、過敏性氣喘（來自知識圖譜；香港許可證未載明適應症文字） |
 | 預測新適應症 | 支氣管炎 (Bronchitis) |
 | TxGNN 預測分數 | 99.92% |
 | 證據等級 | L1 |
@@ -51,87 +50,81 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，
 | 許可證數 | 15 張 |
 | 建議決策 | Proceed with Guardrails |
 
----
-
 ## 為什麼這個預測合理？
 
-目前缺乏 DrugBank 的詳細作用機轉資料。根據已知資訊，Salmeterol 是 LABA 類藥物。它刺激 β2 受體後，可放鬆氣道平滑肌，也可能提高纖毛擺動頻率，有助於黏液纖毛清除。
+目前缺乏詳細的作用機轉資料（資料庫未收錄）。根據已知資訊，Salmeterol 是長效 β2 受體促效劑，可放鬆氣道平滑肌、緩解氣流受限。慢性支氣管炎屬 COPD 的一種表型，在肺氣腫與氣喘中已證實的支氣管擴張作用，機轉上可適用於支氣管炎。
 
-慢性支氣管炎是 COPD 的常見表現型（慢性咳嗽、咳痰、氣流受阻），而 Salmeterol 本來就用於 COPD 的維持治療。因此從機轉與臨床用途來看，這個預測相當合理。
+有一項研究（PMID 15970448）顯示，Salmeterol 在輕至中度慢性支氣管炎患者中，可能改善黏液纖毛清除與咳嗽清除。此外，市售的 salmeterol/fluticasone 複方已被用於 COPD，涵蓋慢性支氣管炎族群。
 
-使用上通常要與吸入型類固醇（ICS）或長效抗膽鹼藥（LAMA）併用，並遵守仿單的安全性警語。
-
----
+整體而言，這是同一疾病家族內的延伸。TxGNN 分數很高，但應理解為與既有適應症高度重疊，不是全新的作用機轉發現。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00268177](https://clinicaltrials.gov/study/NCT00268177) | Phase 3 | 完成 | 130 | 13 週雙盲試驗，比較 Salmeterol/Fluticasone 與安慰劑對 COPD 患者支氣管抗發炎活性的影響 |
-| [NCT02173691](https://clinicaltrials.gov/study/NCT02173691) | Phase 3 | 完成 | 584 | 6 個月雙盲試驗，比較 Tiotropium、Salmeterol 與安慰劑在 COPD 的支氣管擴張療效與安全性 |
-| [NCT00064402](https://clinicaltrials.gov/study/NCT00064402) | Phase 3 | 完成 | 741 | 安慰劑與活性藥對照試驗，評估 Arformoterol 12 週維持治療 COPD 的效果（Salmeterol 可能為對照，屬間接證據） |
-| [NCT00064415](https://clinicaltrials.gov/study/NCT00064415) | Phase 3 | 完成 | 799 | 開放標示的 12 個月長期安全性研究，Arformoterol 用於 COPD（Salmeterol 可能為對照） |
-| [NCT00269087](https://clinicaltrials.gov/study/NCT00269087) | Phase 3 | 完成 | 122 | GW815SF（Salmeterol/Fluticasone 50/500µg）用於 COPD（慢性支氣管炎、肺氣腫）的 56 週長期安全性研究 |
-| [NCT01110200](https://clinicaltrials.gov/study/NCT01110200) | Phase 4 | 完成 | 639 | 比較 Fluticasone/Salmeterol 與單用 Salmeterol，對 COPD 住院後急性惡化率的影響 |
-| [NCT00857766](https://clinicaltrials.gov/study/NCT00857766) | Phase 4 | 完成 | 249 | 16 週雙盲試驗，評估 Fluticasone/Salmeterol 對 COPD 患者動脈硬化程度的影響 |
-| [NCT00633217](https://clinicaltrials.gov/study/NCT00633217) | Phase 4 | 完成 | 247 | 12 週試驗，比較 Fluticasone/Salmeterol 的 HFA 定量噴霧劑與 DISKUS 乾粉吸入劑在 COPD 的療效與安全性 |
-| [NCT00403286](https://clinicaltrials.gov/study/NCT00403286) | Phase 2 | 完成 | 457 | 劑量探索試驗，以 Advair Diskus（Fluticasone/Salmeterol）為參考，評估 Fluticasone/Formoterol 在 COPD 的肺功能與安全性 |
-| [NCT01332409](https://clinicaltrials.gov/study/NCT01332409) | N/A | 完成 | 2000 | 日本上市後特別調查，評估 Salmeterol/Fluticasone 在 COPD（慢性支氣管炎／肺氣腫）的安全性與療效，以肺炎發生為優先項目 |
-
----
+| [NCT00268177](https://clinicaltrials.gov/study/NCT00268177) | Phase 3 | 完成 | 130 | Salmeterol/Fluticasone 50/500 對比安慰劑，評估 COPD 患者的支氣管抗發炎作用 |
+| [NCT02173691](https://clinicaltrials.gov/study/NCT02173691) | Phase 3 | 完成 | 584 | Tiotropium、Salmeterol 氣霧劑與安慰劑的六個月 COPD 療效與安全性比較 |
+| [NCT00269087](https://clinicaltrials.gov/study/NCT00269087) | Phase 3 | 完成 | 122 | Salmeterol/Fluticasone 50/500 用於 COPD（慢性支氣管炎、肺氣腫）的 56 週長期安全性 |
+| [NCT00064402](https://clinicaltrials.gov/study/NCT00064402) | Phase 3 | 完成 | 741 | Arformoterol 對比安慰劑與活性對照，用於 COPD（Salmeterol 可能為活性對照，屬間接證據） |
+| [NCT00064415](https://clinicaltrials.gov/study/NCT00064415) | Phase 3 | 完成 | 799 | Arformoterol 12 個月 COPD 長期安全性研究（間接證據） |
+| [NCT00269126](https://clinicaltrials.gov/study/NCT00269126) | Phase 3 | 完成 | 150 | 比較兩種藥物對 COPD 的效果，詳情無法確認 |
+| [NCT00403286](https://clinicaltrials.gov/study/NCT00403286) | Phase 2 | 完成 | 457 | Fluticasone/Formoterol 劑量探索，以 Advair（含 Salmeterol）為參考（間接證據） |
+| [NCT01361984](https://clinicaltrials.gov/study/NCT01361984) | Phase 4 | 未知 | 20 | 噴霧 Arformoterol 與 Serevent 乾粉吸入劑在 COPD 的比較 |
+| [NCT00233051](https://clinicaltrials.gov/study/NCT00233051) | NA | 終止 | 20 | 誘發痰液發炎介質基因表現作為 COPD 藥物反應生物標記，療效價值有限 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [19124357](https://pubmed.ncbi.nlm.nih.gov/19124357/) | 2008 | RCT | Ther Adv Respir Dis | 以 12 個月比較 Arformoterol 與 Salmeterol 在 COPD 的安全性與耐受性，並檢視是否出現耐受現象 |
-| [12970006](https://pubmed.ncbi.nlm.nih.gov/12970006/) | 2003 | RCT | Chest | 比較同一吸入器中 Fluticasone 250µg/Salmeterol 50µg 與安慰劑及單一成分在 COPD 的療效與安全性 |
-| [9916607](https://pubmed.ncbi.nlm.nih.gov/9916607/) | 1998 | RCT（開放標示） | Clin Ther | 比較吸入 Salmeterol 與口服 Theophylline 在輕中度 COPD 的療效、耐受性與生活品質 |
-| [15970448](https://pubmed.ncbi.nlm.nih.gov/15970448/) | 2006 | 臨床研究 | Pulm Pharmacol Ther | 在 14 位輕中度慢性支氣管炎患者中，評估 Salmeterol 對黏液纖毛清除與咳嗽清除的急性影響（摘要未提供結果數據） |
-| [19210134](https://pubmed.ncbi.nlm.nih.gov/19210134/) | 2009 | 世代研究 | Curr Med Res Opin | 比較慢性支氣管炎患者起始 Fluticasone/Salmeterol 與其他吸入維持治療的住院、急診與醫療費用 |
-| [17196106](https://pubmed.ncbi.nlm.nih.gov/17196106/) | 2006 | 統合分析 | Respir Res | 彙整分析 COPD 患者在常規治療上加用 Salmeterol 50mcg 每日兩次，對比安慰劑的臨床結果改善 |
-| [15329047](https://pubmed.ncbi.nlm.nih.gov/15329047/) | 2004 | Review | Drugs | 回顧 Salmeterol/Fluticasone 乾粉吸入劑用於 COPD 的證據 |
-| [16915216](https://pubmed.ncbi.nlm.nih.gov/16915216/) | 2006 | 病人經驗試驗 | MedGenMed | 以 Advair Diskus 250/50 治療 COPD（伴隨慢性支氣管炎）的病人經驗研究 |
-| [10832348](https://pubmed.ncbi.nlm.nih.gov/10832348/) | 2000 | 專家評論 | MMW Fortschr Med | 針對吸菸引起的慢性支氣管炎與肺氣腫，建議運用完整的藥物治療選項 |
-
----
+| [15970448](https://pubmed.ncbi.nlm.nih.gov/15970448/) | 2006 | RCT／臨床生理 | Pulm Pharmacol Ther | Salmeterol 對慢性支氣管炎患者（n=14）黏液纖毛與咳嗽清除的急性效果 |
+| [17557771](https://pubmed.ncbi.nlm.nih.gov/17557771/) | 2007 | RCT | Thorax | Salmeterol/Fluticasone 對 COPD 氣道發炎的影響 |
+| [12970006](https://pubmed.ncbi.nlm.nih.gov/12970006/) | 2003 | 臨床試驗 | Chest | Fluticasone 250/Salmeterol 50 Diskus 用於 COPD 的療效與安全性 |
+| [17196106](https://pubmed.ncbi.nlm.nih.gov/17196106/) | 2006 | 統合分析 | Respir Res | Salmeterol 相較安慰劑／常規治療，改善 COPD 臨床結果 |
+| [19124357](https://pubmed.ncbi.nlm.nih.gov/19124357/) | 2008 | 臨床試驗 | Ther Adv Respir Dis | Arformoterol 與 Salmeterol 在 COPD 的一年安全性與耐受性 |
+| [15329047](https://pubmed.ncbi.nlm.nih.gov/15329047/) | 2004 | Review | Drugs | 吸入型 Salmeterol/Fluticasone 用於 COPD 的回顧 |
+| [19210134](https://pubmed.ncbi.nlm.nih.gov/19210134/) | 2009 | 世代研究 | Curr Med Res Opin | 慢性支氣管炎患者起始 Fluticasone/Salmeterol 與其他維持治療的醫療利用及費用比較 |
+| [9916607](https://pubmed.ncbi.nlm.nih.gov/9916607/) | 1998 | 開放性研究 | Clin Ther | 吸入 Salmeterol 與口服茶鹼用於輕中度 COPD 的療效、耐受性與生活品質 |
+| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | 指引 | Basic Clin Pharmacol Toxicol | 芬蘭穩定期 COPD 診斷與藥物治療指引 |
+| [12236842](https://pubmed.ncbi.nlm.nih.gov/12236842/) | 2002 | Review | Br J Clin Pharmacol | 長效 β2 促效劑拮抗現象的藥理回顧 |
 
 ## 香港上市資訊
 
-目前共有 15 張許可證，以下列出 5 張主要許可證。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-35936 | SEREVENT INHALER 25MCG/ACTUATION | 吸入劑 | 詳見原廠仿單 |
+| HK-48128 | SERETIDE INHALER 25/50 | 吸入劑 | 詳見原廠仿單 |
+| HK-44735 | SERETIDE ACCUHALER 50MCG/250MCG | 吸入劑 | 詳見原廠仿單 |
+| HK-51376 | SEROFLO 125 INHALER | 吸入劑 | 詳見原廠仿單 |
+| HK-65890 | SIRDUPLA PRESSURISED INHALATION SUSPENSION 25MCG/250MCG | 吸入懸浮液 | 詳見原廠仿單 |
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-35936 | SEREVENT INHALER 25MCG/ACTUATION | GLAXOSMITHKLINE LIMITED |
-| HK-51376 | SEROFLO 125 INHALER | CONTROLLED MEDICATIONS LIMITED |
-| HK-51378 | SEROFLO 50 INHALER | CONTROLLED MEDICATIONS LIMITED |
-| HK-48128 | SERETIDE INHALER 25/50 | GLAXOSMITHKLINE LIMITED |
-| HK-65890 | SIRDUPLA PRESSURISED INHALATION SUSPENSION 25MCG/250MCG PER METERED DOSE | VIATRIS HEALTHCARE HONG KONG LIMITED |
-
----
+（共 15 張有效許可證，皆為單一成分登記，無已註銷者；以上僅列 5 張主要許可證。劑型欄位依品名判斷。）
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **藥物交互作用**：共記錄 100 筆交互作用，其中重要者：
+  - **Major**：Clarithromycin（強效 CYP3A4 抑制劑，需特別留意）
+  - **Moderate**：Epinephrine、Famotidine、Isometheptene，以及多種降血糖藥物（如 Acarbose、Alogliptin、Canagliflozin、Dapagliflozin、Empagliflozin、Dulaglutide、Albiglutide、Chlorpropamide），另有 Diethylpropion、Dolasetron
+  - **Minor**：多種皮質類固醇（Hydrocortisone、Dexamethasone、Budesonide 等）
+- **知識圖譜標示的疾病禁忌（非仿單內容）**：高血壓、長 QT 症候群、癲癇、高血糖、骨質疏鬆等。
+- **類別層級的警語**：文獻（Cochrane 系統性回顧，PMID 30521673、23543548）指出，氣喘患者單獨規律使用 LABA 與嚴重不良事件風險增加有關，應與吸入型皮質類固醇併用。
 
----
+香港仿單的警語與禁忌資料尚未取得，正式使用前請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 有多個已完成的 Phase 3 試驗和多篇 RCT，證據等級達 L1，且臨床用途集中在 COPD（含慢性支氣管炎）。
-- 這比較像既有用途的延伸，而非全新適應症。目前缺少香港仿單的警語與禁忌資料，所以只建議在管控條件下推進。
+- 多個已完成的 Phase 3 試驗（如 NCT00268177、NCT02173691、NCT00269087）在 COPD／慢性支氣管炎族群中直接測試 Salmeterol 或其複方，且 Salmeterol 複方已在香港上市。
+- 但此適應症與原適應症高度重疊，屬疾病家族內延伸；且香港仿單安全性資料仍缺漏。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單，補齊警語與禁忌症（目前列為阻礙項目）。
-- 確認香港核准適應症的實際文字，判斷「支氣管炎」是否已涵蓋在既有適應症內。
-- 補充 DrugBank 的作用機轉資料。
-- 釐清所指的是慢性支氣管炎還是急性支氣管炎。現有證據主要針對 COPD／慢性支氣管炎。
-- 遵守併用原則：LABA 應與 ICS 或 LAMA 併用，並依仿單與指引監測安全性。
+- 取得並解析香港衛生署核准仿單的警語、禁忌與核准適應症文字
+- 補充詳細作用機轉（MOA）資料
+- 訂定安全使用防護：LABA 不單獨用於氣喘、併用強效 CYP3A4 抑制劑（如 Clarithromycin）的管理，以及心血管（QT 延長、高血壓）監測
+- 釐清「慢性支氣管炎」與「COPD」在實際核准適應症中的涵蓋範圍
 
-*本報告僅供研究參考，不構成醫療建議；預測結果需經臨床驗證。*
+*附註：模型預測排名較後的「呼吸道畸形」與「Rienhoff 症候群」缺乏機轉與臨床證據支持，建議 Hold，不在本報告推進範圍內。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

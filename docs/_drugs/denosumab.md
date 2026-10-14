@@ -2,7 +2,7 @@
 layout: default
 title: Denosumab
 parent: 僅模型預測 (L5)
-nav_order: 251
+nav_order: 256
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,19 +29,21 @@ indication_count: 2
 
 </div>
 
-# Denosumab：從骨質疏鬆／骨相關疾病到嚴重非增殖性糖尿病視網膜病變
+# Denosumab：從骨質疏鬆症到嚴重非增殖性糖尿病視網膜病變
 
 ## 一句話總結
 
-Denosumab 是 RANKL 抑制劑，香港已有 Prolia、Xgeva 等產品上市。
-TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy)** 有效。
-目前**沒有任何臨床試驗或文獻**直接支持這個預測，僅有模型分數。
+Denosumab 是一種 RANKL 抑制劑，原本用於骨質疏鬆症（含停經後骨質疏鬆與藥物引起的骨質疏鬆）。
+TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy)** 有效，
+但目前**沒有臨床試驗**，也**沒有直接相關文獻**，僅屬模型預測。
+
+> 說明：模型另預測「糖尿病視網膜病變 (Diabetic Retinopathy)」（分數 99.23%），有 2 篇間接文獻。以下主要以排名第一的預測適應症為準，並於相關段落補充第二項預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | Evidence Pack 未提供核准適應症文字（依產品名稱與試驗背景，推測為骨質疏鬆與骨相關疾病） |
+| 原適應症 | 骨質疏鬆症、停經後骨質疏鬆症、藥物引起的骨質疏鬆症（來自知識圖譜；香港許可證未提供核准適應症文字） |
 | 預測新適應症 | 嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy) |
 | TxGNN 預測分數 | 99.63% |
 | 證據等級 | L5（僅有模型預測） |
@@ -51,51 +53,58 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Denosumab 是 RANKL 抑制劑，用於骨代謝相關疾病，其在原適應症中的作用已被廣泛使用。
+目前缺乏詳細的作用機轉資料。已知 Denosumab 是針對 RANKL 的單株抗體，可抑制 RANK/RANKL 訊號，減少破骨細胞活化，進而降低骨流失。
 
-從 RANK/RANKL/OPG 訊號通路連到視網膜的發炎或血管病變，在機轉上有可能，但目前只是推測。本資料集中沒有試驗或文獻證實這條路徑。TxGNN 的高分來自知識圖譜的關聯，不等於已有實證。
+RANK/RANKL 訊號也曾被報告與發炎及血管病變有關，理論上可能與視網膜微血管疾病有關聯。不過這只是**合理但尚未驗證的推測**，無法由目前資料證實。
 
-**相鄰預測：糖尿病視網膜病變（一般）**，TxGNN 分數 99.23%，證據同樣薄弱：
-- 臨床試驗 [NCT00925600](https://clinicaltrials.gov/study/NCT00925600)（Phase 3、已完成、769 人）評估攝護腺癌患者因雄性素剝奪治療而使用 Denosumab 時的水晶體混濁。它的終點是水晶體，不是視網膜，只能提供眼部安全性參考，不能視為療效證據。
-- 文獻 [PMID 38899553](https://pubmed.ncbi.nlm.nih.gov/38899553/)（2024，Diabetes Obes Metab）探討 Denosumab 對第 2 型糖尿病發生率與併發症的影響，屬間接證據。
-- 文獻 [PMID 36960265](https://pubmed.ncbi.nlm.nih.gov/36960265/)（2023，Cureus）評估第 2 型糖尿病患者的骨折風險工具 FRAX，與視網膜結果無關。
+第二項預測（糖尿病視網膜病變）有兩篇間接文獻。其中一篇 2024 年的真實世界世代研究與統合分析顯示，Denosumab 相較於雙磷酸鹽類，與較低的第 2 型糖尿病發生率、足部潰瘍風險及全因死亡率相關。該研究並未直接回答視網膜病變的療效。另一篇是糖尿病族群的 FRAX 骨折風險評估，與 Denosumab 對視網膜的作用無關。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記。
+目前無相關臨床試驗登記
 
 ## 文獻證據
 
-目前無相關文獻。
+針對排名第一的預測（嚴重非增殖性糖尿病視網膜病變）：目前無相關文獻。
+
+針對第二項預測（糖尿病視網膜病變），僅有以下間接文獻：
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [38899553](https://pubmed.ncbi.nlm.nih.gov/38899553/) | 2024 | 世代研究／統合分析（依標題推斷，未經確認） | Diabetes, Obesity & Metabolism | Denosumab 相較雙磷酸鹽類，與較低的第 2 型糖尿病發生率、足部潰瘍風險及全因死亡率相關；未直接評估視網膜病變療效 |
+| [36960265](https://pubmed.ncbi.nlm.nih.gov/36960265/) | 2023 | 觀察性／臨床工具評估（依標題推斷，未經確認） | Cureus | 評估第 2 型糖尿病成人使用 FRAX 工具的骨折風險；與 Denosumab 視網膜療效無直接關係 |
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-68757 | WYOST SOLUTION FOR INJECTION 120MG/1.7ML | SANDOZ HONG KONG LIMITED |
-| HK-68756 | JUBBONTI SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 60MG/1ML | SANDOZ HONG KONG LIMITED |
-| HK-61163 | XGEVA SOLUTION FOR INJECTION 120MG | AMGEN HONG KONG LIMITED |
-| HK-60588 | PROLIA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 60MG/ML (USA) | AMGEN HONG KONG LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-68757 | WYOST SOLUTION FOR INJECTION 120MG/1.7ML（Sandoz） | 注射液 | 未提供 |
+| HK-68756 | JUBBONTI SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 60MG/1ML（Sandoz） | 預充填注射液 | 未提供 |
+| HK-61163 | XGEVA SOLUTION FOR INJECTION 120MG（Amgen） | 注射液 | 未提供 |
+| HK-60588 | PROLIA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 60MG/ML（Amgen） | 預充填注射液 | 未提供 |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **藥物交互作用**：已查得 100 筆交互作用紀錄，以下為部分中度（Moderate）等級項目：
+  - 皮質類固醇：Hydrocortisone、Triamcinolone、Dexamethasone、Betamethasone、Budesonide、Prednisolone、Prednisone、Methylprednisolone
+  - 免疫調節或抑制相關藥物：Tacrolimus、Mercaptopurine、Dupilumab、Levamisole
+  - 放射性或放射免疫藥物：Ibritumomab tiuxetan、Tositumomab、Iobenguane (I-131)
+
+其他警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 預測新適應症沒有任何直接的臨床或文獻證據，只有模型分數，證據等級為 L5。
-- 機轉資料缺漏，RANKL 與視網膜病變的關聯仍屬推測，香港仿單的安全性資料也尚未取得。
+- 排名第一的預測目前僅有模型分數（99.63%），沒有臨床試驗和直接文獻，屬於 L5。第二項預測也只有間接文獻（L4），無法支持視網膜病變療效。
+- 作用機轉資料缺漏，機轉連結無法驗證。
 
 **若要推進需要：**
-- 取得香港衛生署仿單的警語與禁忌症，完成安全性初篩。
-- 補齊 Denosumab 的作用機轉資料（DrugBank）。
-- 進行 RANKL/OPG 與糖尿病視網膜病變的機轉文獻回顧，尋找前臨床證據。
-- 若有前臨床或觀察性證據，再評估設計小型概念驗證研究；目前也需考量全身性給藥用於眼部疾病的可行性與風險。
-
-> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+- 補齊 Denosumab 的作用機轉資料，並評估 RANK/RANKL 與視網膜微血管病變的機轉關聯
+- 進行前臨床研究（如糖尿病視網膜病變動物模型）或回溯性世代研究，直接評估視網膜病變結局
+- 取得香港衛生署核准仿單，確認警語、禁忌症與核准適應症
+- 評估給藥途徑的可行性（目前為全身性注射劑，是否適合眼科用途尚待確認）
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

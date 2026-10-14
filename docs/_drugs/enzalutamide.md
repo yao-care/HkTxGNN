@@ -2,7 +2,7 @@
 layout: default
 title: Enzalutamide
 parent: 僅模型預測 (L5)
-nav_order: 320
+nav_order: 325
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,75 +29,100 @@ indication_count: 7
 
 </div>
 
-# Enzalutamide：預測新適應症為前列腺癌／腦癌易感性 (prostate cancer/brain cancer susceptibility)
+# Enzalutamide：從攝護腺癌到攝護腺癌／腦癌易感性
 
 ## 一句話總結
 
-Enzalutamide 是雄性素受體 (AR) 訊號抑制劑，在香港已有 4 張許可證上市。
-TxGNN 預測它可能對**前列腺癌／腦癌易感性 (prostate cancer/brain cancer susceptibility)** 有效。
-但這個預測目前有 **0 個臨床試驗**和 **0 篇文獻**支持，僅有模型預測。
+Enzalutamide 是雄性素受體（AR）抑制劑，原本用於治療攝護腺癌。
+TxGNN 模型預測它可能對**攝護腺癌／腦癌易感性 (prostate cancer/brain cancer susceptibility)** 有效，但**目前沒有任何臨床試驗或文獻**直接支持這個預測，僅屬模型推論。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 前列腺癌／腦癌易感性 (prostate cancer/brain cancer susceptibility) |
+| 原適應症 | 攝護腺癌 (prostate cancer) |
+| 預測新適應症 | 攝護腺癌／腦癌易感性 (prostate cancer/brain cancer susceptibility) |
 | TxGNN 預測分數 | 99.71% |
 | 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 4 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-Enzalutamide 是 AR 訊號抑制劑，能阻斷 AR 與配體結合、核轉位及 DNA 結合。這使它和前列腺癌之間有合理的機轉關聯，因為前列腺癌的生長高度依賴雄性素訊號。
+Enzalutamide 是 AR 抑制劑，作用包括阻斷雄性素與受體結合、抑制受體進入細胞核，以及阻止受體與 DNA 結合。目前缺乏詳細的作用機轉資料庫記載，以上為一般已知的藥理特性。
 
-但這個預測的疾病實體是「遺傳易感性」分類，不是可直接治療的疾病狀態。0.997 的高分很可能反映的是知識圖譜中與前列腺癌的鄰近程度，不代表有實際療效證據。目前沒有檢索到任何相關試驗或文獻，所以機轉推論缺乏臨床支持。
+這個預測的高分，很可能來自它與已核准的攝護腺癌適應症在知識圖譜上高度重疊。「攝護腺癌／腦癌易感性」是遺傳性癌症易感性的分類，描述的是體質傾向，不是可直接用藥治療的疾病狀態。因此，模型的高分更像是反映疾病分類上的接近，不代表有新的療效訊號。
 
-另外，資料中缺少原適應症的記錄。Enzalutamide 已在市場上流通，前列腺癌很可能本來就是既有的核准用途，不是真正的老藥新用。這一點需要對照藥監資料確認。
+目前沒有試驗或文獻檢驗 enzalutamide 在這個分類上的作用，預測在臨床上暫時無法採取行動。
+
+**補充說明：**其他預測的適應症也都缺乏直接證據。
+- 「男性生殖器官癌症」雖有較多試驗與文獻，但內容主要是攝護腺癌，也就是原有適應症，不算新的再利用機會。
+- 攝護腺平滑肌瘤、攝護腺纖維瘤、良性攝護腺葉狀腫瘤等罕見良性腫瘤，目前只有 AR 訊號傳導的理論推測，沒有試驗或文獻。
+- Brenner 瘤沒有明確的雄性素受體依賴性，預測可能只是反映疾病分類上的接近。
+
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
 目前無相關文獻。
+
+---
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 廠商 |
 |---------|------|------|
 | HK-63493 | XTANDI CAPSULES 40MG | Astellas Pharma Hong Kong Company Limited |
-| HK-68934 | ENZACORD 40 CAPSULES 40MG | Jacobson Marketing Limited |
-| HK-68830 | XTANDI FILM-COATED TABLETS 80MG | Astellas Pharma Hong Kong Company Limited |
 | HK-68829 | XTANDI FILM-COATED TABLETS 40MG | Astellas Pharma Hong Kong Company Limited |
+| HK-68830 | XTANDI FILM-COATED TABLETS 80MG | Astellas Pharma Hong Kong Company Limited |
+| HK-68934 | ENZACORD 40 CAPSULES 40MG | Jacobson Marketing Limited |
+
+---
 
 ## 細胞毒性
 
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 標靶／荷爾蒙治療（AR 訊號抑制劑），非傳統細胞毒性藥物 |
-| 其他項目 | 請參考原廠仿單的警語與注意事項 |
+| 細胞毒性分類 | 標靶／荷爾蒙治療藥物（AR 抑制劑），非傳統細胞毒性化療 |
+
+骨髓抑制風險、致吐性分級、監測項目與處置防護，請參考原廠仿單的警語與注意事項。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **藥物交互作用**：已查得 100 筆交互作用紀錄，以下為其中部分。
+  - **嚴重 (Major)**：Bupropion、Dolasetron、Eliglustat
+  - **中度 (Moderate)**：Famotidine、Rabeprazole、Omeprazole、Hydrocortisone、Dexamethasone、Clarithromycin、Aprepitant、Loperamide、Saxagliptin、Empagliflozin 等
+
+其餘警語與禁忌症請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-本預測的疾病實體是遺傳易感性分類，不是可治療的疾病，也沒有任何試驗或文獻支持，僅有模型預測 (L5)。
-
-同一份資料中，排名第 6 的「男性生殖器官癌 (male reproductive organ cancer)」有較多證據（L2，含 Phase 2 及 Phase 3 試驗）。但這些證據多屬前列腺癌的既有用途，尚不能視為新適應症。
+- 預測分數雖高（99.71%），但沒有任何直接的臨床試驗或文獻支持，證據等級為 L5。
+- 該適應症是遺傳易感性分類，不是可治療的疾病狀態，高分很可能來自與原適應症（攝護腺癌）的重疊。
 
 **若要推進需要：**
-- 確認 Enzalutamide 在香港的實際核准適應症，判斷前列腺癌是否屬於既有用途
-- 取得香港衛生署仿單，補齊警語與禁忌症
-- 補充 DrugBank 的作用機轉資料
-- 若要評估排名第 6 的項目，需檢視完整的 50 項試驗清單，並把 AR-V7、神經內分泌轉分化等抗藥性文獻列為療效與安全的注意事項
+- 釐清「攝護腺癌／腦癌易感性」在臨床上要治療的具體族群與目標，例如帶有特定基因變異的攝護腺癌患者。
+- 針對該族群進行文獻與試驗檢索，確認是否有 enzalutamide 的直接研究。
+- 補齊作用機轉與香港仿單的警語、禁忌症資料，再進行安全性評估。
+- 若要評估真正的新適應症，建議改以有機轉依據的候選疾病重新篩選，例如 AR 依賴性的良性攝護腺間質腫瘤，並先做前臨床驗證。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

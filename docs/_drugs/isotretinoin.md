@@ -2,7 +2,7 @@
 layout: default
 title: Isotretinoin
 parent: 僅模型預測 (L5)
-nav_order: 483
+nav_order: 491
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,13 +29,12 @@ indication_count: 2
 
 </div>
 
-# Isotretinoin：從原適應症資料缺漏到惡性腎血管性高血壓
+# Isotretinoin：從高血壓到惡性腎血管性高血壓
 
 ## 一句話總結
 
-Isotretinoin 是一種維甲酸類（retinoid）藥物，在香港已有 13 張上市許可證，但本次資料未載明原適應症。
-TxGNN 模型預測它可能對**惡性腎血管性高血壓 (Malignant Renovascular Hypertension)** 有效，另有一個分數相同的預測是惡性高血壓性腎病。
-目前**沒有任何臨床試驗或文獻**支持，證據僅來自模型分數（L5）。
+Isotretinoin 在本次資料中的原適應症為高血壓（hypertensive disorder / hypertension），但此項來自知識圖譜的適應症邊，與該藥的臨床用途不符。該藥是全身性類視黃醇（retinoid），實務上主要用於嚴重痤瘡。
+TxGNN 模型預測它可能對**惡性腎血管性高血壓 (malignant renovascular hypertension)** 有效，但目前有 **0 個臨床試驗**和 **0 篇文獻**支持，僅屬模型預測。
 
 ---
 
@@ -43,24 +42,25 @@ TxGNN 模型預測它可能對**惡性腎血管性高血壓 (Malignant Renovascu
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 惡性腎血管性高血壓 (Malignant Renovascular Hypertension) |
+| 原適應症 | 高血壓（hypertensive disorder / hypertension；來自知識圖譜，與實際臨床用途存疑） |
+| 預測新適應症 | 惡性腎血管性高血壓 (malignant renovascular hypertension) |
 | TxGNN 預測分數 | 99.01% |
 | 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 13 張 |
 | 建議決策 | Hold |
 
+另有一項預測適應症為**惡性高血壓性腎病 (malignant hypertensive renal disease)**，分數同為 99.01%，同樣沒有任何臨床試驗或文獻。兩項預測很可能來自圖譜中相近的區域，不應視為彼此獨立的證據。
+
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料，也沒有原適應症資料，因此無法把藥物機轉和預測疾病逐項對照。Isotretinoin 屬於維甲酸類藥物，這是目前唯一可依循的機轉線索。
+目前缺乏詳細的作用機轉資料。Isotretinoin 是全身性類視黃醇，實際上主要用於嚴重痤瘡，並非降血壓藥物。因此資料中「原適應症為高血壓」的說法本身需要審慎看待，TxGNN 的預測可能建立在這個存疑的關聯上。
 
-有報告指出，維甲酸訊號會影響腎臟近腎絲球細胞（juxtaglomerular cells）的腎素表現。這可能使腎素－血管張力素系統的活性上升而非下降，所以對高血壓的作用方向不確定，甚至可能不利。
+在機轉上，一種可能但尚未驗證的連結是：類視黃醇可能影響腎素-血管張力素系統（RAS）／腎素訊號、血管重塑與內皮功能。對於惡性高血壓性腎病，也有前臨床腎損傷模型提出類視黃醇可調節腎臟發炎與纖維化。不過這些都未在 isotretinoin 用於惡性高血壓或其腎病變的情境中得到驗證。
 
-另一個預測「惡性高血壓性腎病」的分數與本預測完全相同（99.01%），兩者很可能來自知識圖譜中的同一個鄰近區域，不應視為兩個獨立訊號。
-
-整體來看，這個分數只能當作產生假說的線索，不能視為療效證據。
+此外，isotretinoin 已知有血管與代謝方面的不良反應（血脂異常、致畸胎性，以及少數血壓或顱內壓變化的報告）。惡性高血壓的患者病況危急，通常需要立即使用已證實有效的治療，因此對此預測應特別謹慎。
 
 ---
 
@@ -78,23 +78,32 @@ TxGNN 模型預測它可能對**惡性腎血管性高血壓 (Malignant Renovascu
 
 ## 香港上市資訊
 
-共 13 張許可證，以下列出 5 張主要許可證。資料中未載明劑型與核准適應症，故省略這兩欄。
+香港共有 13 張有效許可證（皆為單一成分，無已註銷者）。下表列出其中 5 張，資料中未提供劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-55931 | REDUCAR CAP 10MG | HEALTH ALLIANCE INTERNATIONAL CO LTD |
-| HK-56026 | REDUCAR CAP 20MG | HEALTH ALLIANCE INTERNATIONAL CO LTD |
-| HK-20965 | ROACCUTANE CAP 10MG | ZUELLIG PHARMA LIMITED |
-| HK-52035 | ACNOTIN 20 CAP 20MG | DCH AURIGA (HONG KONG) LIMITED - HEALTHCARE DIVISION |
-| HK-50197 | ORATANE CAP 20MG | UNITED ITALIAN CORP (HK) LTD |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-55931 | REDUCAR CAP 10MG | 未提供 | 未提供 |
+| HK-56026 | REDUCAR CAP 20MG | 未提供 | 未提供 |
+| HK-20965 | ROACCUTANE CAP 10MG | 未提供 | 未提供 |
+| HK-20966 | ROACCUTANE CAP 20MG | 未提供 | 未提供 |
+| HK-50197 | ORATANE CAP 20MG | 未提供 | 未提供 |
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。藥物交互作用查詢無結果。
+- **知識圖譜標示的禁忌疾病**（來自 TxGNN 知識圖譜，非仿單內容），主要類別如下：
+  - 精神與情緒：焦慮症、精神官能症、輕鬱症、精神病性障礙、思覺失調相關疾病
+  - 肝腎胰膽：腎臟疾病、肝臟疾病、胰臟炎、膽囊疾病
+  - 免疫與血管性水腫：各型血管性水腫（含遺傳性）、全身性紅斑性狼瘡
+  - 代謝：糖尿病、糖尿病酮酸中毒、缺鉀
+  - 其他：發炎性腸道疾病、骨質疏鬆（含停經後）、嗜中性白血球低下、顆粒球缺乏症、低血壓性疾患
+- **藥物交互作用**：資料庫共記錄 98 項。已列出的主要項目如下：
+  - **Major（嚴重）**：Doxycycline、Minocycline、Tetracycline、Vitamin A
+  - **Moderate（中度）**：各類皮質類固醇（Betamethasone、Budesonide、Dexamethasone、Hydrocortisone、Prednisolone、Prednisone、Triamcinolone）、Warfarin、Dicoumarol、Naltrexone、乙醇（Ethanol）等
+- 其他已知的重要風險包括致畸胎性、肝毒性與高血脂，尤其致畸胎性需要嚴格的避孕管理。
 
-依現有評估，isotretinoin 具致畸胎性，也會使血脂升高。對於心血管與腎臟風險偏高的族群，這兩點都是不利因素。
+其餘安全性資訊請參考原廠仿單。
 
 ---
 
@@ -103,16 +112,16 @@ TxGNN 模型預測它可能對**惡性腎血管性高血壓 (Malignant Renovascu
 **決策：Hold**
 
 **理由：**
-- 這個預測只有模型分數，沒有試驗、文獻或機轉資料佐證。維甲酸訊號還可能推高腎素活性，作用方向不確定。
-- 安全性上的疑慮（致畸胎性、血脂升高）也不利於在高風險心血管與腎臟族群使用。
+- 兩項預測皆僅有模型分數支持（L5），沒有任何臨床試驗或文獻，作用機轉資料也缺失。
+- 「原適應症為高血壓」與 isotretinoin 的實際用途不符，預測的基礎本身存疑。
+- 目標族群病況危急，而該藥有明確的安全疑慮，不適合在缺乏證據下推進。
 
 **若要推進需要：**
-- 系統性搜尋 PubMed 與 ClinicalTrials.gov，確認是否有相關研究。
-- 補齊 isotretinoin 的作用機轉資料（可查詢 DrugBank），並做機轉審查，特別是腎素－血管張力素系統的作用方向。
-- 取得香港衛生署仿單，補上警語與禁忌症，才能進入安全性篩選。
-- 補齊各許可證的核准適應症，釐清原適應症。
-
-*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。*
+- 確認並修正原適應症的資料來源，釐清預測是否建立在錯誤關聯上。
+- 補充 isotretinoin 的作用機轉資料（如 DrugBank）。
+- 取得香港衛生署仿單，確認警語、禁忌與核准適應症。
+- 進行系統性文獻檢索，尋找類視黃醇與 RAS、腎血管病變相關的前臨床或臨床證據。
+- 若仍要探索，應先從前臨床研究（L4）著手，並制定嚴格的安全監測與避孕管理計畫。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -2,7 +2,7 @@
 layout: default
 title: Teriflunomide
 parent: 高證據等級 (L1-L2)
-nav_order: 849
+nav_order: 864
 evidence_level: L1
 indication_count: 1
 ---
@@ -33,16 +33,17 @@ indication_count: 1
 
 ## 一句話總結
 
-Teriflunomide 是一種口服免疫調節藥物，在香港已上市。
+Teriflunomide 原本用於治療多發性硬化症 (Multiple Sclerosis)。
 TxGNN 模型預測它對**復發緩解型多發性硬化症 (Relapsing-Remitting Multiple Sclerosis)** 有效，
-目前有 **25 個臨床試驗**和 **19 篇文獻**支持，其中包含 2 個已完成的 Phase 3 試驗。
-這其實是既有的核准用途，並非真正的新適應症。
+目前有 **12 個臨床試驗**和 **20 篇文獻**支持。需要說明的是，這其實是已核准的適應症（屬原適應症的亞型），並非嚴格意義上的新用途，因此預測結果主要用來驗證模型，而不是提供新的證據。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料中未記載（香港許可證的適應症欄位為空） |
+| 原適應症 | 多發性硬化症 (Multiple Sclerosis) |
 | 預測新適應症 | 復發緩解型多發性硬化症 (Relapsing-Remitting Multiple Sclerosis) |
 | TxGNN 預測分數 | 99.24% |
 | 證據等級 | L1 |
@@ -50,78 +51,85 @@ TxGNN 模型預測它對**復發緩解型多發性硬化症 (Relapsing-Remitting
 | 許可證數 | 2 張 |
 | 建議決策 | Proceed with Guardrails |
 
+---
+
 ## 為什麼這個預測合理？
 
-Teriflunomide 的活性代謝物會抑制二氫乳清酸脫氫酶 (DHODH)，阻斷嘧啶的從頭合成。
-活化的 T 細胞和 B 細胞增殖需要大量嘧啶，因此這個機轉可減少淋巴球增殖，
-而這些細胞正是復發緩解型多發性硬化症病理的主要推手。
+目前缺乏資料庫中詳細的作用機轉記載。依據已知藥理，teriflunomide 的活性代謝物會抑制二氫乳清酸脫氫酶 (DHODH)，阻斷嘧啶的從頭合成，進而限制活化 T 細胞與 B 細胞的增生，因此能減少復發次數與病灶活動。
 
-需說明的是，Evidence Pack 的 DrugBank 作用機轉欄位是空的，上述機轉說明來自文獻（如 PMID 31098896）與預測推論。
-此外，Evidence Pack 中原適應症也為空白，應視為資料不完整。
-文獻與臨床試驗皆顯示，teriflunomide 已是復發型多發性硬化症的既有疾病修飾治療，
-因此這項預測屬於既有適應症的確認。TxGNN 的高分（99.24%）與已知的藥物—疾病知識圖譜關聯相符。
+復發緩解型多發性硬化症是多發性硬化症最常見的病程型態，teriflunomide 已被核准用於復發型多發性硬化症。因此這項預測與既有適應症高度一致，0.992 的高分反映的是模型能重現已知事實，並不代表發現了新的治療機會。
+
+---
 
 ## 臨床試驗證據
 
-以下依相關性挑選 10 項（共 25 項）：
-
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00134563](https://clinicaltrials.gov/study/NCT00134563) | Phase 3 | 完成 | 1088 | 隨機、雙盲、安慰劑對照，評估 teriflunomide 降低復發頻率與延緩失能累積 |
-| [NCT00803049](https://clinicaltrials.gov/study/NCT00803049) | Phase 3 | 完成 | 742 | 上述試驗的長期延伸，記錄 7 mg 與 14 mg 的長期安全性與療效 |
-| [NCT00883337](https://clinicaltrials.gov/study/NCT00883337) | Phase 3 | 完成 | 324 | Teriflunomide 與干擾素 beta-1a 的評估者盲性比較 |
-| [NCT00228163](https://clinicaltrials.gov/study/NCT00228163) | Phase 2 | 完成 | 147 | Phase 2 試驗的延伸，評估長期安全性與療效 |
-| [NCT02490982](https://clinicaltrials.gov/study/NCT02490982) | N/A | 完成 | 106 | 真實世界觀察性研究，評估至少兩年的療效 |
-| [NCT02776072](https://clinicaltrials.gov/study/NCT02776072) | N/A | 完成 | 2978 | 回溯性真實世界研究，比較 DMF、GA、teriflunomide、fingolimod |
-| [NCT03302442](https://clinicaltrials.gov/study/NCT03302442) | N/A | 完成 | 3000 | 法國 MS 世代中比較 DMF 與 teriflunomide 的臨床與 MRI 結果 |
-| [NCT03561402](https://clinicaltrials.gov/study/NCT03561402) | N/A | 完成 | 24 | 以生物標記探討 teriflunomide 治療者的疾病活動度 |
-| [NCT01881191](https://clinicaltrials.gov/study/NCT01881191) | N/A | 完成 | 50 | 以 MRI 評估 teriflunomide 對灰質病變的影響 |
-| [NCT06843382](https://clinicaltrials.gov/study/NCT06843382) | N/A | 尚未招募 | 100 | 比較 teriflunomide 與 DMF 對疲勞耐受度的影響 |
+| [NCT00134563](https://clinicaltrials.gov/study/NCT00134563) | Phase 3 | 完成 | 1088 | 雙盲、安慰劑對照，評估 teriflunomide 降低復發頻率與延緩失能累積 |
+| [NCT00883337](https://clinicaltrials.gov/study/NCT00883337) | Phase 3 | 完成 | 324 | Teriflunomide 兩種劑量與干擾素 β-1a 的療效與安全性比較 |
+| [NCT00803049](https://clinicaltrials.gov/study/NCT00803049) | Phase 3 | 完成 | 742 | 7 mg 與 14 mg 的長期延伸研究，記錄長期安全性與耐受性 |
+| [NCT00228163](https://clinicaltrials.gov/study/NCT00228163) | Phase 2 | 完成 | 147 | Phase 2 延伸研究，評估長期安全性與療效 |
+| [NCT04788615](https://clinicaltrials.gov/study/NCT04788615) | Phase 3 | 完成 | 185 | Ofatumumab 與第一線 DMT（醫師選擇）比較，開放標示、評估者盲性 |
+| [NCT02490982](https://clinicaltrials.gov/study/NCT02490982) | N/A | 完成 | 106 | Teriflunomide 的真實世界觀察性療效研究 |
+| [NCT03535298](https://clinicaltrials.gov/study/NCT03535298) | Phase 4 | 進行中（不再招募） | 800 | DELIVER-MS：早期高效治療與升階治療策略比較 |
+| [NCT03500328](https://clinicaltrials.gov/study/NCT03500328) | N/A | 完成 | 900 | 早期積極治療與升階治療的實用性試驗 |
+| [NCT03464448](https://clinicaltrials.gov/study/NCT03464448) | N/A | 完成 | 30 | 探討調節性 B 細胞在 teriflunomide 作用機轉中的角色 |
+| [NCT07189325](https://clinicaltrials.gov/study/NCT07189325) | Phase 3 | 招募中 | 250 | 抗 CD20 維持與降階策略的非劣性試驗，與 teriflunomide 僅間接相關 |
+
+注：其中直接評估 teriflunomide 的 Phase 3 試驗為 NCT00134563、NCT00883337 與 NCT00803049。其餘多屬策略比較或間接相關研究。
+
+---
 
 ## 文獻證據
 
-以下依證據層級挑選 10 篇（共 19 篇）：
-
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [32757523](https://pubmed.ncbi.nlm.nih.gov/32757523/) | 2020 | RCT | N Engl J Med | Ofatumumab 對比 teriflunomide（對照組）用於多發性硬化症 |
-| [36001711](https://pubmed.ncbi.nlm.nih.gov/36001711/) | 2022 | RCT | N Engl J Med | Ublituximab 對比 teriflunomide（對照組）用於復發型 MS |
-| [40202623](https://pubmed.ncbi.nlm.nih.gov/40202623/) | 2025 | RCT | N Engl J Med | Tolebrutinib 對比 teriflunomide（對照組）用於復發型 MS |
-| [39307151](https://pubmed.ncbi.nlm.nih.gov/39307151/) | 2024 | RCT | Lancet Neurol | Evobrutinib 對比 teriflunomide（活性對照）的兩項 Phase 3 試驗 |
-| [33779698](https://pubmed.ncbi.nlm.nih.gov/33779698/) | 2021 | RCT | JAMA Neurol | OPTIMUM 試驗：ponesimod 對比 teriflunomide |
-| [38174776](https://pubmed.ncbi.nlm.nih.gov/38174776/) | 2024 | 網絡統合分析 | Cochrane Database Syst Rev | 比較免疫調節與免疫抑制治療用於 RRMS |
-| [37528262](https://pubmed.ncbi.nlm.nih.gov/37528262/) | 2023 | 統合分析 | Neurotherapeutics | 上市後真實世界研究中 DMF 與 teriflunomide 的比較 |
-| [31098896](https://pubmed.ncbi.nlm.nih.gov/31098896/) | 2019 | Review | Drugs | Teriflunomide 治療 RRMS 的回顧，抑制 DHODH 與嘧啶合成 |
-| [26758290](https://pubmed.ncbi.nlm.nih.gov/26758290/) | 2016 | Review | CNS Drugs | 依歐盟仿單回顧 teriflunomide 的療效、安全性與處方考量 |
-| [38619037](https://pubmed.ncbi.nlm.nih.gov/38619037/) | 2024 | 開放標籤延伸 | Mult Scler | TERIKIDS 延伸研究：teriflunomide 用於兒童復發型 MS |
+| [32757523](https://pubmed.ncbi.nlm.nih.gov/32757523/) | 2020 | RCT | N Engl J Med | Ofatumumab 與 teriflunomide 在多發性硬化症的比較 |
+| [33779698](https://pubmed.ncbi.nlm.nih.gov/33779698/) | 2021 | RCT | JAMA Neurol | OPTIMUM：ponesimod 與 teriflunomide 的 Phase 3 比較 |
+| [36001711](https://pubmed.ncbi.nlm.nih.gov/36001711/) | 2022 | RCT | N Engl J Med | Ublituximab 與 teriflunomide 在復發型多發性硬化症的比較 |
+| [39307151](https://pubmed.ncbi.nlm.nih.gov/39307151/) | 2024 | RCT | Lancet Neurol | Evobrutinib 與 teriflunomide（活性對照）的兩項 Phase 3 試驗 |
+| [40202623](https://pubmed.ncbi.nlm.nih.gov/40202623/) | 2025 | RCT | N Engl J Med | Tolebrutinib 與 teriflunomide 在復發型多發性硬化症的比較 |
+| [38174776](https://pubmed.ncbi.nlm.nih.gov/38174776/) | 2024 | 網絡統合分析 | Cochrane Database Syst Rev | 復發緩解型多發性硬化症免疫調節與免疫抑制治療的比較 |
+| [38032059](https://pubmed.ncbi.nlm.nih.gov/38032059/) | 2023 | 網絡統合分析 | Cochrane Database Syst Rev | 多發性硬化症免疫治療不良反應的比較 |
+| [31098896](https://pubmed.ncbi.nlm.nih.gov/31098896/) | 2019 | Review | Drugs | Teriflunomide 在復發緩解型多發性硬化症的綜述，指出其為有效且耐受性良好的口服藥 |
+| [33620411](https://pubmed.ncbi.nlm.nih.gov/33620411/) | 2021 | Review | JAMA | 多發性硬化症的診斷與治療綜述 |
+| [37578431](https://pubmed.ncbi.nlm.nih.gov/37578431/) | 2023 | 觀察性研究 | Eur J Neurol | 真實世界中 dimethyl fumarate 與 teriflunomide 的療效比較 |
+
+---
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-63504 | AUBAGIO TAB 14MG | 錠劑（資料未載明） | 資料未載明 |
-| HK-68466 | EPSYRAM TABLETS 14MG | 錠劑（資料未載明） | 資料未載明 |
+| HK-63504 | AUBAGIO TAB 14MG（賽諾菲） | 錠劑（14 mg） | 資料未載明 |
+| HK-68466 | EPSYRAM TABLETS 14MG（I & C (Hong Kong) Limited） | 錠劑（14 mg） | 資料未載明 |
+
+---
 
 ## 安全性考量
 
-- **藥物交互作用**：資料庫查無相關交互作用紀錄。
-- 一般需留意肝毒性與致畸胎性，並依標準流程使用加速排除（washout）程序。此為依臨床常規提出的提醒，Evidence Pack 未包含香港仿單的警語與禁忌資料，詳細內容請參考原廠仿單。
+- **藥物交互作用**：已查詢到 100 筆交互作用紀錄，以下為部分列舉：
+  - 嚴重 (Major)：acarbose、hydrocortisone、pioglitazone、bupropion、triamcinolone、acetylsalicylic acid、dexamethasone、betamethasone、budesonide、clarithromycin、minocycline 等
+  - 中度 (Moderate)：alosetron、cimetidine、empagliflozin、sitagliptin
+  - 輕微 (Minor)：zinc sulfate、zinc acetate
+
+警語與禁忌症資料請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-有 2 個已完成的 Phase 3 試驗（NCT00134563、NCT00803049）直接支持療效與長期安全性，
-另有多項 RCT 以 teriflunomide 作為活性對照，證據等級為 L1。
-這是既有的核准用途，不是真正的老藥新用，但香港仿單的安全性資料與適應症紀錄仍缺漏。
+- Teriflunomide 已有 Phase 3 安慰劑對照及主動對照試驗支持，且多項大型 RCT 以它作為活性對照藥，並已在香港上市。證據等級為 L1。
+- 這是既有適應症，而非新的再利用方向；加上仿單的警語與禁忌症資料目前缺漏，因此需附帶安全性防護條件。
 
 **若要推進需要：**
-- 從香港衛生署取得兩張許可證的核准適應症與仿單，確認警語與禁忌
-- 補齊 DrugBank 的作用機轉與原適應症資料
-- 維持標準安全監測（肝功能、育齡族群避孕與 washout 程序）
-
-*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。*
+- 取得香港衛生署核准仿單，補齊警語與禁忌症，並確認核准適應症文字（目前許可證資料中為空白）
+- 補充詳細的作用機轉資料（DrugBank MOA）
+- 針對高風險交互作用（例如糖皮質素類及部分降血糖藥）制定用藥審查與監測計畫
+- 若要主張真正的新用途，需另行評估其他適應症，而非以本預測作為依據
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

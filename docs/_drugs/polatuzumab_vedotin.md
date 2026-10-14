@@ -2,7 +2,7 @@
 layout: default
 title: Polatuzumab Vedotin
 parent: 僅模型預測 (L5)
-nav_order: 695
+nav_order: 710
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,13 +29,15 @@ indication_count: 1
 
 </div>
 
-# Polatuzumab Vedotin：從原適應症未載明到 HER2 陽性乳癌
+# Polatuzumab Vedotin：從原適應症（資料未載明）到 HER2 陽性乳癌
 
 ## 一句話總結
 
-Polatuzumab Vedotin 是一種 CD79b 導向的抗體藥物複合體（ADC），攜帶微管抑制劑 MMAE，在香港已有上市許可證，但本次資料未載明原適應症。
+Polatuzumab vedotin 是一種抗體藥物複合體（ADC），在香港已由羅氏（Roche）取得上市許可，但本次整理的資料未載明其核准適應症。
 TxGNN 模型預測它可能對 **HER2 陽性乳癌 (HER2 positive breast carcinoma)** 有效。
-目前有 **0 個臨床試驗**和 **0 篇文獻**支持，只有模型預測分數。
+目前**沒有臨床試驗和文獻**支持這個方向，僅有模型預測。
+
+---
 
 ## 快速總覽
 
@@ -49,58 +51,77 @@ TxGNN 模型預測它可能對 **HER2 陽性乳癌 (HER2 positive breast carcino
 | 許可證數 | 2 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Polatuzumab Vedotin 是 CD79b 導向的 ADC，透過抗體把微管抑制劑 MMAE 送進細胞。
+目前缺乏詳細的作用機轉資料（MOA）。根據已知資訊，Polatuzumab vedotin 是一種靶向 CD79b 的抗體藥物複合體，攜帶破壞微管的 MMAE（monomethyl auristatin E）作為細胞毒性藥物。
 
-預測分數很高，可能是因為 MMAE 這類微管抑制劑也用於 HER2 導向的 ADC，例如 trastuzumab emtansine。這只是細胞毒性藥物成分（payload）類別的關聯，不是標靶層面的證據。
+CD79b 是 B 細胞受體的組成成分，主要表現於 B 細胞惡性腫瘤，並非 HER2 陽性乳癌的已知靶點。兩者之間唯一可能的連結，是 MMAE 對增生中細胞的一般細胞毒性作用，但這並非特定於此腫瘤類型。
 
-CD79b 是 B 細胞專屬抗原，預期不會表現在乳癌細胞上。因此抗體部分在 HER2 陽性乳癌中沒有合理的腫瘤標靶依據，這個預測的機轉支持度偏弱。此外，原適應症與機轉資料不完整，也限制了機轉面的評估。
+TxGNN 分數雖高（99.34%），但僅是模型預測。現有資料中沒有任何機轉或生物學證據支持 CD79b 與 HER2 陽性乳癌有關，也無法與已整理的標靶資料交叉驗證。因此，這個預測的合理性目前**偏低**，需要進一步的生物學驗證。
+
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
 目前無相關文獻。
+
+---
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-66664 | POLIVY POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 140MG（廠商：ROCHE HONG KONG LIMITED） | 輸注濃縮液用粉末（依品名） | 資料未載明 |
-| HK-67107 | POLIVY POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 30MG（廠商：ROCHE HONG KONG LIMITED） | 輸注濃縮液用粉末（依品名） | 資料未載明 |
+| HK-66664 | POLIVY POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 140MG | 未載明 | 未載明 |
+| HK-67107 | POLIVY POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 30MG | 未載明 | 未載明 |
+
+兩張許可證皆為單一成分製劑，狀態有效，持有者為 ROCHE HONG KONG LIMITED。
+
+---
 
 ## 細胞毒性
 
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 抗體藥物複合體（ADC），攜帶微管抑制劑 MMAE 作為細胞毒性成分 |
+| 細胞毒性分類 | 抗體藥物複合體（ADC），攜帶微管抑制劑 MMAE |
 | 骨髓抑制風險 | 請參考原廠仿單的警語與注意事項 |
 | 致吐性分級 | 請參考原廠仿單的警語與注意事項 |
-| 監測項目 | 請參考原廠仿單的警語與注意事項 |
-| 處置防護 | 請依細胞毒性藥物處置規範操作，詳見原廠仿單 |
+| 監測項目 | 請參考原廠仿單的警語與注意事項（一般建議包含 CBC 與肝腎功能） |
+| 處置防護 | 請參考原廠仿單；ADC 含細胞毒性成分，一般應依細胞毒性藥物處置規範操作 |
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **藥物交互作用**：已查詢到 100 筆交互作用紀錄，以下列出部分主要項目：
+  - **嚴重 (Major)**：Clarithromycin、Cobicistat、Deferiprone、Samarium (153Sm) lexidronam
+  - **中度 (Moderate)**：Aprepitant、Cimetidine、Naltrexone、Metronidazole、Miconazole、Rosuvastatin、Simvastatin、Tinidazole、Ticagrelor、Chloroquine、Hydroxychloroquine 等
+
+其他警語與禁忌症資料，請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 證據只有模型預測分數，沒有任何臨床試驗或文獻（L5）。
-- 抗體標的 CD79b 不在乳癌細胞上，預測很可能來自 MMAE 這類藥物成分的關聯，而不是真正的標靶作用。
+- 目前只有模型預測（證據等級 L5），沒有任何臨床試驗或文獻支持。
+- 藥物靶點 CD79b 與 HER2 陽性乳癌之間缺乏已知的生物學連結，且作用機轉與原適應症資料皆不完整。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單，補齊警語與禁忌症（目前是阻擋性資料缺口，無法進入安全性篩選）。
-- 從 DrugBank 補上作用機轉資料。
-- 補上原適應症與核准適應症文字，才能評估新舊適應症的關聯。
-- 查核 CD79b 在 HER2 陽性乳癌的表現，並搜尋相關前臨床研究。若找不到任何支持證據，建議降低此預測的優先順序。
-
-> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+- 補齊 DrugBank 的作用機轉資料，以及香港許可證的核准適應症與仿單內容
+- 評估 CD79b 在 HER2 陽性乳癌中是否表現（組織或細胞株層級的前臨床研究）
+- 進行文獻與臨床試驗的系統性檢索，確認是否有尚未納入的證據
+- 與現有 HER2 標靶 ADC 比較，釐清此預測相對於既有療法的價值
+- 補齊安全性資料後，再進入安全性篩選
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

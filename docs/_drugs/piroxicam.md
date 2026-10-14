@@ -2,7 +2,7 @@
 layout: default
 title: Piroxicam
 parent: 僅模型預測 (L5)
-nav_order: 692
+nav_order: 707
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,20 +29,20 @@ indication_count: 5
 
 </div>
 
-# Piroxicam：從非類固醇消炎藥 (NSAID) 到結膜缺損性小眼症-肢根型發育不良症候群
+# Piroxicam：從類風濕性關節炎到先天性骨骼與肢體發育異常症候群（預測）
 
 ## 一句話總結
 
-Piroxicam 一般被認為是非選擇性 COX 抑制劑類的消炎止痛藥，香港已有 20 張許可證。
-TxGNN 模型預測它可能對**結膜缺損性小眼症-肢根型發育不良症候群 (Colobomatous microphthalmia-rhizomelic dysplasia syndrome)** 有效。
-目前**沒有任何臨床試驗與文獻**支持，只有模型分數，屬於純計算預測。
+Piroxicam 是一種非類固醇消炎止痛藥（NSAID），原本用於類風濕性關節炎、骨關節炎等關節疾病。
+TxGNN 模型預測它可能對**科羅波瑪性小眼症-根性肢體發育不良症候群 (colobomatous microphthalmia-rhizomelic dysplasia syndrome)** 有效，
+但目前**沒有任何臨床試驗或文獻**支持，僅為模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證資料未登載適應症（一般認為屬 NSAID 類消炎止痛藥） |
-| 預測新適應症 | 結膜缺損性小眼症-肢根型發育不良症候群 (Colobomatous microphthalmia-rhizomelic dysplasia syndrome) |
+| 原適應症 | 類風濕性關節炎、骨關節炎、關節病變（來自知識圖譜，香港許可證未載明適應症文字） |
+| 預測新適應症 | 科羅波瑪性小眼症-根性肢體發育不良症候群 (colobomatous microphthalmia-rhizomelic dysplasia syndrome) |
 | TxGNN 預測分數 | 99.996% |
 | 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
@@ -51,20 +51,18 @@ TxGNN 模型預測它可能對**結膜缺損性小眼症-肢根型發育不良�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Piroxicam 一般被認為是非選擇性 COX 抑制劑，屬於 NSAID，作用在於抗發炎與止痛。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Piroxicam 屬於非選擇性 COX 抑制劑類的 NSAID，其在關節炎類疾病中的消炎止痛效果已被廣泛使用，但機轉上並無明確證據顯示適用於預測的新適應症。
 
-預測的新適應症是一種罕見的先天發育疾病，特徵為眼部缺損合併骨骼發育異常。其成因屬於發育與遺傳層面，並非發炎性疾病。從已知資訊看，COX 抑制與這類疾病的致病機轉之間，沒有明顯的連結。
+預測的新適應症是罕見的先天性發育異常症候群，推測為基因性病因，沒有已知由 COX／前列腺素驅動的病理機制可供 Piroxicam 作用。0.99996 的高分較可能反映知識圖譜中的網路相似性，而非生物學上的合理性。
 
-因此目前找不到有資料支持的機轉關聯。唯一的依據是 TxGNN 知識圖譜給出的高分（99.996%，排名 173），這只是計算預測，不是臨床證據。分數接近滿分也不代表療效機率，因為這類罕見疾病的圖譜資料本來就稀疏。
+同一批預測還包括另外四個疾病，分數相近（99.99%），整體判斷如下：
 
-TxGNN 對 Piroxicam 的其他高分預測同樣沒有證據支持：
-
-| 排名 | 預測疾病 | TxGNN 分數 | 證據等級 | 機轉評估 |
-|------|---------|-----------|---------|---------|
-| 2 | 短指-並指症候群 (Brachydactyly-syndactyly syndrome) | 99.996% | L5 | 先天性肢體畸形，無機轉依據 |
-| 3 | Hunter-Thompson 型肢中發育不良 (Acromesomelic dysplasia, Hunter-Thompson type) | 99.996% | L5 | 遺傳性骨骼發育不良，無機轉依據 |
-| 4 | 短軀幹-牙釉質發育不全症候群 (Brachyolmia-amelogenesis imperfecta syndrome) | 99.996% | L5 | 骨骼與牙釉質缺損，無機轉依據 |
-| 5 | 肌硬化症 (Myosclerosis) | 99.995% | L5 | 抗發炎或可緩解症狀，但無證據顯示能影響肌肉纖維化，屬推測 |
+| 排名 | 預測疾病 | 分數 | 機轉關聯評估 |
+|------|---------|------|-------------|
+| 2 | 短指-併指症候群 (brachydactyly-syndactyly syndrome) | 99.996% | 無；先天性肢體畸形，消炎無法矯正結構缺陷 |
+| 3 | 肢中發育不良，Hunter-Thompson 型 (acromesomelic dysplasia, Hunter-Thompson type) | 99.996% | 無；與 GDF5 訊號路徑缺陷相關，COX 抑制不作用於此路徑 |
+| 4 | 短軀幹-牙釉質發育不全症候群 (brachyolmia-amelogenesis imperfecta syndrome) | 99.996% | 無；NSAID 對牙釉質形成與骨骼生長無已知影響 |
+| 5 | 肌硬化症 (myosclerosis) | 99.995% | 僅有微弱、推測性的關聯（肌肉纖維化可能伴隨發炎，NSAID 理論上可緩解症狀）；若要探索，此項最合理 |
 
 ## 臨床試驗證據
 
@@ -76,35 +74,40 @@ TxGNN 對 Piroxicam 的其他高分預測同樣沒有證據支持：
 
 ## 香港上市資訊
 
-香港共有 20 張許可證，以下列出 5 張。品名為許可證登載名稱，劑型由品名判斷，許可證資料未登載核准適應症。
+香港共有 20 張有效的單方許可證，無已註銷者。許可證資料中未載明劑型與核准適應症文字。以下列出 5 張主要許可證：
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62392 | POZZIE GEL 1%W/W | 外用凝膠 | 未登載 |
-| HK-55642 | PHARMOR TORICAM GEL 10MG/G | 外用凝膠 | 未登載 |
-| HK-66650 | PIRADEN GEL 0.5% W/W | 外用凝膠 | 未登載 |
-| HK-37734 | ROSIDEN INJ 20MG/ML | 注射劑 | 未登載 |
-| HK-45432 | CP-PIROX 20 CAP 20MG | 膠囊劑 | 未登載 |
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-62392 | POZZIE GEL 1%W/W | WELLDONE PHARMACEUTICALS LIMITED |
+| HK-55642 | PHARMOR TORICAM GEL 10MG/G | WILSON TRADING COMPANY LIMITED |
+| HK-66650 | PIRADEN GEL 0.5% W/W | DELTAPHARM LIMITED |
+| HK-37734 | ROSIDEN INJ 20MG/ML | JULIUS CHEN & COMPANY (HK) LIMITED |
+| HK-45432 | CP-PIROX 20 CAP 20MG | CHRISTO PHARM LTD |
+
+從品名可見，香港上市產品包含外用凝膠、注射劑、膠囊與錠劑等多種型態。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜中的禁忌疾病**（非仿單文字，僅供參考）：高血壓、腎臟疾病、肝臟疾病（含急性肝衰竭、肝炎、藥物性肝損傷）、膽囊疾病、充血性心衰竭、心肌梗塞與其他心血管疾病、中風與腦血管疾病、凝血疾病、活動性消化性潰瘍、貧血、血紅素病變、物質濫用／依賴、視覺障礙，以及血栓性疾病。
+- **藥物交互作用**：資料庫共查得 100 筆交互作用，以下為部分範例：
+  - 中度：阿斯匹靈 (Acetylsalicylic acid)、Metformin、Glimepiride、Chlorpropamide、多種皮質類固醇（Hydrocortisone、Dexamethasone、Betamethasone、Triamcinolone、Budesonide）、Mesalazine、Balsalazide、Aprepitant、檸檬酸鉀、碳酸氫鉀
+  - 輕度：Famotidine、Ranitidine、Cimetidine、Linaclotide
+
+仿單的警語與禁忌資訊尚未取得，請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 目前只有模型分數，沒有臨床試驗、文獻或機轉依據，證據等級為 L5。
-- 預測的疾病屬於先天性發育異常，與 COX 抑制的作用方向看不出關聯，不建議投入資源。
+- 五個預測適應症皆只有模型分數，沒有臨床試驗或文獻，且多為基因性先天發育異常，與 COX 抑制的機轉缺乏關聯，高分很可能是網路相似性造成的假象。
+- 作用機轉資料缺漏，且仿單安全性資訊尚未取得，無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得 Piroxicam 的作用機轉資料（如 DrugBank），評估與該疾病致病基因或路徑是否有交集。
-- 取得香港衛生署的仿單，補齊警語與禁忌症，才能進行安全性篩選。
-- 文獻調查是否有 Piroxicam 或 COX 抑制劑用於此類眼骨發育症候群的病例報告或前臨床研究。
-- 若上述都找不到支持，建議維持 Hold，不再推進。
-
-本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證才能應用。
+- 補齊 Piroxicam 的作用機轉資料（如查詢 DrugBank）
+- 下載並解析香港衛生署的仿單，取得警語與禁忌症
+- 若仍想探索，優先針對肌硬化症 (myosclerosis) 做文獻回顧與機轉驗證，再評估是否值得進行前臨床研究
+- 對其餘四個先天發育異常症候群，除非找到明確的生物學證據，否則不建議投入資源
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

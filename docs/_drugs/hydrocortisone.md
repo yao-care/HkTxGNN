@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Hydrocortisone
-parent: 高證據等級 (L1-L2)
-nav_order: 436
-evidence_level: L2
+parent: 僅模型預測 (L5)
+nav_order: 444
+evidence_level: L5
 indication_count: 5
 ---
 
 # Hydrocortisone
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,85 @@ indication_count: 5
 
 </div>
 
-# Hydrocortisone：從皮質類固醇外用製劑到圓形禿（斑禿）
+# Hydrocortisone：從自體免疫與發炎性疾病到圓形禿 (Alopecia Areata)
 
 ## 一句話總結
 
-Hydrocortisone（氫化可體松）是低效價的皮質類固醇，在香港有 20 張許可證，產品多為外用製劑。
-TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，預測分數為 99.97%。
-目前有 **4 個相關登記試驗**，但沒有直接文獻。唯一的 Phase 3 RCT 是把 hydrocortisone 當作對照組，並未直接證明它本身有效。
+Hydrocortisone（氫化可體松）是一種糖皮質素，原本用於腎上腺皮質功能不全、克隆氏症、自體免疫疾病及部分白血病等。
+TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，
+目前有 **1 個已完成的 Phase 3 臨床試驗**和 **多篇文獻**，但該試驗中 hydrocortisone 是低效價的對照組，並非主要試驗藥物。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 腎上腺皮質功能不全、Addison 氏病、克隆氏症、自體免疫疾病、足癬等（來自知識圖譜；香港許可證未載明適應症文字） |
 | 預測新適應症 | 圓形禿 (Alopecia Areata) |
 | TxGNN 預測分數 | 99.97% |
-| 證據等級 | L2 |
+| 證據等級 | L2（僅 1 個已完成的 Phase 3 RCT，且 hydrocortisone 為對照組，實際解讀宜保守） |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，hydrocortisone 屬於糖皮質素（皮質類固醇）類別，其抗發炎與免疫抑制作用已被廣泛認識，機轉上可能適用於圓形禿。
+目前缺乏詳細的作用機轉資料。根據已知資訊，hydrocortisone 是糖皮質素，具有抗發炎與免疫抑制作用，其在多種自體免疫與發炎性疾病中的療效已被證實。
 
-圓形禿是 T 細胞媒介的毛囊自體免疫疾病，皮質類固醇本來就是常用的治療類別。Hydrocortisone 是低效價外用類固醇，在機轉上合理，但效價偏低，實際療效是否足夠仍有疑問。
+圓形禿是 T 細胞媒介的自體免疫疾病，毛囊的免疫豁免狀態崩解後引發免疫攻擊，因此抑制局部免疫活性在機轉上具合理性。皮質類固醇（外用、病灶內注射）本來就是圓形禿的常用治療選項，這也是模型給出高分的可能原因。
 
-TxGNN 的高分是網路模型的預測結果，不是臨床證據。此外，這個高分可能部分來自各種毛髮疾病在知識圖譜中彼此距離很近。
+不過需要注意：hydrocortisone 1% 屬於低效價外用類固醇。唯一的直接比較試驗中，它是對照藥物，用來對比效價更強的 clobetasol propionate。因此其療效很可能不如高效價類固醇，作為圓形禿的新用途，競爭力有限。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | 完成 | 41 | 兒童圓形禿的 RCT，比較 clobetasol 0.05% 乳膏與 hydrocortisone 1% 乳膏。Hydrocortisone 是低效價對照組，是目前最接近的直接證據，但需查閱其結果，確認 hydrocortisone 組的反應 |
-| [NCT00484679](https://clinicaltrials.gov/study/NCT00484679) | Phase 2 | 完成 | 18 | 病灶內注射 triamcinolone 治療圓形禿對腎上腺功能的影響。藥物不同，只提供類固醇類別層級的安全性參考 |
-| [NCT06551818](https://clinicaltrials.gov/study/NCT06551818) | 不適用 | 尚未招募 | 72 | 三種劑型生髮產品與安慰劑的四組雙盲試驗，對象為雄性禿。標題不完整，無法確認是否含 hydrocortisone，也無結果 |
-| [NCT04343560](https://clinicaltrials.gov/study/NCT04343560) | 不適用 | 完成 | 380 | 輕度自主性皮質醇分泌者的類固醇代謝體與骨骼變化。不是圓形禿治療試驗，關聯性偏間接 |
+| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | 完成 | 41 | 兒童圓形禿：clobetasol propionate 0.05% 乳膏 vs. hydrocortisone 1% 乳膏的隨機對照試驗；hydrocortisone 為低效價對照組，樣本數小 |
 
 ## 文獻證據
 
-目前無相關文獻。
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [24226568](https://pubmed.ncbi.nlm.nih.gov/24226568/) | 2014 | RCT | JAMA Dermatology | 兒童圓形禿：clobetasol 0.05% 與 hydrocortisone 1% 的隨機臨床試驗 |
+| [15692503](https://pubmed.ncbi.nlm.nih.gov/15692503/) | 2005 | Case report | J Am Acad Dermatol | 4 例先天性圓形禿，追蹤 3–5 年，使用 minoxidil 及多種外用藥物 |
+| [13368875](https://pubmed.ncbi.nlm.nih.gov/13368875/) | 1956 | 歷史病例系列 | Medical Times | 以 cortisone、hydrocortisone 及其類似物治療圓形禿的早期報告 |
+| [13610145](https://pubmed.ncbi.nlm.nih.gov/13610145/) | 1958 | 歷史臨床報告 | Der Hautarzt | 皮內注射 hydrocortisone 後圓形禿毛髮再生 |
+| [13525930](https://pubmed.ncbi.nlm.nih.gov/13525930/) | 1958 | Review | J Med Soc N J | 圓形禿與常見頭皮問題的臨床概述 |
+| [19289325](https://pubmed.ncbi.nlm.nih.gov/19289325/) | 2009 | Case report | Endocr Pract | 自體免疫多腺體症候群第 3 型合併全禿，屬間接證據 |
+| [24326563](https://pubmed.ncbi.nlm.nih.gov/24326563/) | 2013 | 動物研究 | J Investig Dermatol Symp Proc | 以 PTH 促效劑／拮抗劑治療小鼠圓形禿，屬間接證據 |
 
 ## 香港上市資訊
 
-香港共有 20 張許可證，以下列出 5 張。資料中未載明核准適應症。
+香港共有 20 張有效許可證（皆為單一成分），以下列出 5 張主要許可證。資料中未載明劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-67793 | HYTICREME CREAM 1% W/W | WELL FAVOURED LTD |
-| HK-41308 | AQUANIL HC LOTION 1.0% | HONG WO PHARMACEUTICAL COMPANY LIMITED |
-| HK-51050 | H-CORT OINTMENT 1% | TAISHO PHARMACEUTICAL (HK) LTD |
-| HK-45690 | AXCEL HYDROCORTISONE CREAM 1% | KOTRA PHARMA (HONG KONG) COMPANY |
-| HK-39041 | UNI-CORT OINTMENT 1% | NEOCHEM PHARMACEUTICAL LABORATORIES LTD. |
-
-## 其他預測適應症
-
-| 疾病 | TxGNN 分數 | 證據等級 | 說明 |
-|------|-----------|---------|------|
-| 黏蛋白性禿髮 (Alopecia Mucinosa) | 99.97% | L4 | 僅有 1 篇以 cyclosporine 成功治療的病例報告，沒有 hydrocortisone 的證據 |
-| 休止期落髮 (Telogen Effluvium) | 99.97% | L5 | 通常為自限性，缺乏使用 hydrocortisone 的依據。唯一檢索到的文獻是拔毛症病例，與此病無關 |
-| 禿髮性毛囊炎 (Folliculitis Decalvans) | 99.97% | L5 | 僅有模型預測，無試驗或文獻 |
-| 禿髮合併抗體缺乏 | 99.96% | L4 | 文獻為內分泌或免疫症候群病例。Hydrocortisone 在這些病例中較可能是腎上腺功能不全的替代療法，不是治療禿髮 |
-
-這四項都是 Hold，不建議優先投入資源。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-25551 | SOLU-CORTEF FOR INJ 100MG（Pfizer） | 注射劑（依品名） | 資料未載明 |
+| HK-55477 | HYDROCORTISONE TAB 20MG (VICKMANS) | 錠劑（依品名） | 資料未載明 |
+| HK-67793 | HYTICREME CREAM 1% W/W | 乳膏（依品名） | 資料未載明 |
+| HK-51050 | H-CORT OINTMENT 1%（Taisho） | 軟膏（依品名） | 資料未載明 |
+| HK-64623 | HYDROCORTISONE POWDER FOR SOLUTION FOR INJECTION 100MG | 注射劑（依品名） | 資料未載明 |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌相關疾病**：高血壓、癲癇、胃潰瘍、腎臟疾病、肝臟疾病、膽囊疾病、高血糖、單純皰疹病毒角膜炎、麻疹、常見疣及肛門生殖器 HPV 感染、各類腦下垂體功能低下與生長激素缺乏等（此為知識圖譜關聯，非仿單文字）。
+- **藥物交互作用**：資料庫共有 100 筆交互作用紀錄，其中 **Adalimumab 為 Major 等級**；其他如 Ibuprofen、Ketorolac、Nifedipine、Isotretinoin、Ethinylestradiol、Acarbose、Zidovudine 等多為 Moderate 等級，Salbutamol、Formoterol 為 Minor 等級。
+
+詳細警語與禁忌請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 圓形禿方面，唯一的 Phase 3 RCT 把 hydrocortisone 當作低效價對照組，不能證明它本身有效，證據等級為 L2。
-- 香港仿單的警語與禁忌資料仍缺，無法進入安全性篩選。
+- 雖有 1 個已完成的 Phase 3 RCT，但 hydrocortisone 1% 在其中是低效價對照組，缺乏其單獨療效的證據；機轉資料與仿單安全性資料也不完整。高效價類固醇在圓形禿中已有更合理的選擇，因此不建議優先推進。
+- 其他預測適應症（alopecia mucinosa、telogen effluvium、folliculitis decalvans、alopecia antibody deficiency）證據更弱：多為 L4–L5，或僅是替代療法的間接關聯，同樣建議 Hold。
 
 **若要推進需要：**
-- 查閱 NCT01453686 的結果，確認 hydrocortisone 1% 組的毛髮再生反應，並與安慰劑或其他類固醇比較。
-- 取得香港衛生署的仿單，確認警語與禁忌症。
-- 補充 hydrocortisone 的作用機轉資料（DrugBank）。
-- 評估低效價外用製劑用於頭皮圓形禿的臨床合理性，並與中高效價類固醇比較。
-
-*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證才能應用。*
+- 取得 NCT01453686 與 JAMA Dermatology 試驗中 hydrocortisone 組的實際療效數據
+- 與高效價外用類固醇及病灶內注射做比較，評估相對價值
+- 補齊作用機轉資料（MOA）
+- 下載並解析香港衛生署仿單，確認警語、禁忌與核准適應症
+- 確認適用劑型／給藥途徑（外用或病灶內注射）與現有許可證的相容性
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

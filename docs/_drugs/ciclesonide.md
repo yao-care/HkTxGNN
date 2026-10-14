@@ -2,7 +2,7 @@
 layout: default
 title: Ciclesonide
 parent: 僅模型預測 (L5)
-nav_order: 191
+nav_order: 195
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,19 +29,19 @@ indication_count: 6
 
 </div>
 
-# Ciclesonide：從吸入／鼻用類固醇到異位性皮膚炎
+# Ciclesonide：從氣喘與過敏性鼻炎到異位性皮膚炎
 
 ## 一句話總結
 
-Ciclesonide 是一種糖皮質激素類藥物，香港目前有吸入劑（ALVESCO）與鼻噴劑（OMNARIS）上市。
-TxGNN 模型預測它可能對**異位性皮膚炎 (Atopic Eczema)** 有效，分數很高。
-但目前**沒有任何臨床試驗或文獻**直接支持這個方向，僅屬模型預測。
+Ciclesonide 是一種吸入型皮質類固醇前驅藥，原本用於氣喘與過敏性鼻炎。
+TxGNN 模型預測它可能對**異位性皮膚炎 (Atopic Eczema)** 有效，
+但目前**沒有臨床試驗**，也**沒有直接相關文獻**支持，僅屬模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證資料未提供適應症文字 |
+| 原適應症 | 氣喘、內因性氣喘、過敏性氣喘、過敏性鼻炎、血管運動性鼻炎 |
 | 預測新適應症 | 異位性皮膚炎 (Atopic Eczema) |
 | TxGNN 預測分數 | 99.96% |
 | 證據等級 | L5 |
@@ -51,11 +51,11 @@ TxGNN 模型預測它可能對**異位性皮膚炎 (Atopic Eczema)** 有效，�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據一般藥理知識，Ciclesonide 是糖皮質激素前驅藥，經酯酶活化為 des-ciclesonide，再作用於糖皮質激素受體，產生抗發炎效果。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Ciclesonide 是吸入型皮質類固醇，進入體內後經酯酶活化為 des-ciclesonide，作用於糖皮質素受體，產生抗發炎效果。
 
-異位性皮膚炎屬於 Th2 主導的皮膚發炎，糖皮質激素的抗發炎作用在機轉上可能適用。這個推論只來自一般藥理，沒有本案的直接證據。
+異位性皮膚炎的核心是皮膚的過敏性發炎，局部皮質類固醇本身就是標準治療。因此從抗發炎機轉來看，此預測具有合理性。
 
-要注意的是，模型同時列出「atopic eczema」與「dermatitis, atopic」兩個節點（排名 1 與 3），指的是同一疾病，應合併，避免把同一訊號重複計算。另外，目前上市的劑型是吸入與鼻用，能否用於皮膚仍待確認。
+不過這屬於類別層級的推論。Ciclesonide 目前的劑型是吸入與鼻用，資料中沒有確立的皮膚外用劑型，也沒有針對此適應症的研究。其他排名較高的預測還包括異位性皮膚炎的重複條目（dermatitis, atopic，分數 99.73%）、支氣管炎（99.70%）與接觸性皮膚炎（99.25%），同樣缺乏直接證據。
 
 ## 臨床試驗證據
 
@@ -65,45 +65,40 @@ TxGNN 模型預測它可能對**異位性皮膚炎 (Atopic Eczema)** 有效，�
 
 目前無相關文獻。
 
-## 其他預測適應症的參考資訊
-
-| 預測適應症 | TxGNN 分數 | 證據 | 評估 |
-|-----------|-----------|------|------|
-| 2-hydroxyethyl methacrylate sensitization | 99.76% | 無 | 屬過敏原暴露狀態而非可治療疾病，治療理由薄弱 |
-| bronchitis | 99.70% | 1 篇芬蘭 COPD 指引（[25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/)，2015） | 只涵蓋穩定期 COPD，屬間接證據 |
-| contact dermatitis | 99.25% | 1 篇病例報告（[22957490](https://pubmed.ncbi.nlm.nih.gov/22957490/)，2012） | 屬過敏安全性訊號，不是療效證據 |
-| asthma-related traits, susceptibility to | 99.13% | 無 | 屬遺傳易感性，需先對應到臨床氣喘適應症 |
+（補充：在其他預測適應症中，支氣管炎有一篇芬蘭 COPD 指引 [PMID 25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/)，僅為吸入型類固醇的間接證據；接觸性皮膚炎有一篇病例報告 [PMID 22957490](https://pubmed.ncbi.nlm.nih.gov/22957490/)，指出吸入型 budesonide 引起全身過敏性皮膚炎，並與 ciclesonide 在貼膚試驗中有交叉反應，屬於安全性訊號，並非療效證據。）
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 持證商 |
-|---------|------|--------|
-| HK-53034 | ALVESCO 80 INHALER 80MCG/ACTUATION | DKSH HONG KONG LIMITED |
-| HK-53035 | ALVESCO 160 INHALER 160MCG/ACTUATION | DKSH HONG KONG LIMITED |
-| HK-59322 | OMNARIS NASAL SPRAY 50MCG | DKSH HONG KONG LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-53034 | ALVESCO 80 INHALER 80MCG/ACTUATION | 吸入劑 | 未提供 |
+| HK-59322 | OMNARIS NASAL SPRAY 50MCG | 鼻噴劑 | 未提供 |
+| HK-53035 | ALVESCO 160 INHALER 160MCG/ACTUATION | 吸入劑 | 未提供 |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（來自知識圖譜關聯，非仿單文字）：單純疱疹病毒角膜炎、腎上腺皮質功能不全、愛迪生氏症、骨質疏鬆（含停經後骨質疏鬆）、黴菌感染、皮癬菌病、高眼壓、青光眼、寄生蟲感染。
+- **藥物交互作用**：共查得 63 筆，以下為主要項目：
+  - 重度：Cladribine
+  - 中度：Clarithromycin、Miconazole、Cobicistat、Atazanavir、Fosamprenavir、Amprenavir、Boceprevir、Ceritinib、Conivaptan、Fostamatinib、Insulin human（吸入型速效）、Abametapir（外用）
+  - 輕度：Formoterol、Salbutamol、Arformoterol
+  - 其中多個中度交互作用屬於 CYP3A4 抑制劑類，使用時需留意。
 
-文獻中有一篇病例報告：吸入 budesonide 引發系統性過敏性皮膚炎，貼膚試驗顯示與 ciclesonide 有交叉反應。對已知有糖皮質激素接觸過敏的患者，需留意交叉過敏風險。
+其餘警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 首要預測適應症沒有任何臨床試驗或文獻，證據等級僅 L5，分數再高也只是模型預測。
-- 目前上市劑型（吸入、鼻噴）與皮膚適應症所需的給藥途徑可能不符，安全性資料也不完整。
+- 預測分數雖高（99.96%），但沒有任何臨床試驗或文獻，證據等級僅為 L5。
+- 現有劑型為吸入與鼻用，缺乏皮膚外用的劑型依據，且有皮質類固醇交叉過敏的安全性訊號。
 
 **若要推進需要：**
-- 補齊作用機轉資料（DrugBank）
-- 取得香港衛生署仿單，完成警語與禁忌症審查
-- 合併重複的疾病節點（atopic eczema 與 dermatitis, atopic）
-- 檢索 ClinicalTrials.gov 與 PubMed，確認是否有 ciclesonide 用於異位性皮膚炎的研究
-- 評估給藥途徑的可行性（是否需要外用劑型）
-
-本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證後才能應用。
+- 補充作用機轉資料，並釐清 ciclesonide 在皮膚局部的活化與藥效。
+- 評估是否有外用劑型或給藥途徑的可行性。
+- 進行文獻與臨床試驗的系統性檢索，並與現有局部類固醇做比較。
+- 取得香港衛生署仿單，完成警語與禁忌症的安全性審查。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

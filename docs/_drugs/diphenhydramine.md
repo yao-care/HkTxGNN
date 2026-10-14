@@ -2,7 +2,7 @@
 layout: default
 title: Diphenhydramine
 parent: 僅模型預測 (L5)
-nav_order: 278
+nav_order: 283
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,20 +29,21 @@ indication_count: 1
 
 </div>
 
-# Diphenhydramine：從抗組織胺用藥到酒糟性結膜炎
+# Diphenhydramine：從過敏性鼻炎與結膜炎到酒糟性結膜炎
 
 ## 一句話總結
 
-Diphenhydramine（苯海拉明）是第一代 H1 受體拮抗劑，香港已有多張許可證上市。
-TxGNN 模型預測它可能對**酒糟性結膜炎 (Rosacea Conjunctivitis)** 有效。
-目前**沒有任何臨床試驗或文獻**支持這個方向，僅有模型預測。
+Diphenhydramine 是第一代 H1 組織胺受體拮抗劑，原本用於過敏性鼻炎、血管運動性鼻炎、各類過敏性結膜炎及失眠。
+TxGNN 模型預測它可能對**酒糟性結膜炎 (Rosacea Conjunctivitis)** 有效，
+但目前**沒有任何臨床試驗或文獻**支持這個方向，僅有模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 失眠、血管運動性鼻炎、過敏性鼻炎、異位性結膜炎、乳突性結膜炎、春季結膜炎（香港許可證未載明適應症文字，此處依知識圖譜資料） |
 | 預測新適應症 | 酒糟性結膜炎 (Rosacea Conjunctivitis) |
-| TxGNN 預測分數 | 99.20%（全體排名第 12,931） |
+| TxGNN 預測分數 | 99.20% |
 | 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 20 張 |
@@ -50,16 +51,11 @@ TxGNN 模型預測它可能對**酒糟性結膜炎 (Rosacea Conjunctivitis)** �
 
 ## 為什麼這個預測合理？
 
-Diphenhydramine 是第一代 H1 受體拮抗劑。本次輸入資料未提供詳細作用機轉，以下推論來自一般藥理知識，並非本次資料所證實。阻斷 H1 受體，理論上可緩解組織胺引起的搔癢與紅腫。
+目前缺乏詳細的作用機轉資料。根據已知藥理知識，diphenhydramine 是第一代 H1 受體拮抗劑，可阻斷組織胺引起的眼部搔癢、紅腫與充血，因此在過敏性結膜炎中有明確用途。這是它與預測新適應症之間唯一較合理的連結。
 
-不過，眼部酒糟性病變的主要成因不是組織胺，而是：
-- 瞼板腺功能障礙
-- 先天免疫與發炎失調
-- 可能的蠕形蟎或微生物因素
+不過，酒糟性（眼部酒糟）結膜炎的成因主要是瞼板腺功能異常、淚膜不穩定、蠕形蟎（Demodex）定植，以及先天免疫活化、基質金屬蛋白酶與 IL-1、TNF-α 等發炎路徑，組織胺最多只扮演次要角色。因此 0.992 的高分較可能反映的是模型中與已核准結膜炎適應症的網絡接近性，而非針對此疾病的特異生物學依據。
 
-因此這個機轉連結**薄弱且間接**。0.992 的 TxGNN 分數只是模型預測，不是臨床證據，也不代表藥物機轉與疾病相符。
-
-另一個疑慮是：口服或局部使用的 diphenhydramine 具抗膽鹼作用，可能加重眼睛乾澀，而乾眼正是眼部酒糟性病變的常見表現。推進前必須先評估這項風險。
+另外，第一代抗組織胺的抗膽鹼作用可能加重乾眼，而乾眼正是眼部酒糟的常見問題，這點需要特別留意。
 
 ## 臨床試驗證據
 
@@ -71,38 +67,39 @@ Diphenhydramine 是第一代 H1 受體拮抗劑。本次輸入資料未提供詳
 
 ## 香港上市資訊
 
-香港共有 20 張許可證，以下列出 5 張主要許可證。資料中未提供劑型與核准適應症文字。
+香港共有 20 張有效的單一成分許可證（無已註銷者），以下列出 5 張主要許可證，其核准適應症文字在資料中皆未載明：
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-66947 | JOYISH DIPHENHYDRAMINE HYDROCHLORIDE CAPSULES 25MG | WELLDONE PHARMACEUTICALS LIMITED |
-| HK-13049 | NA-DRAMINE SYRUP 20MG/5ML | NATIONAL PHARMACEUTICAL CO LTD |
-| HK-20605 | DIPHENAMINE SYRUP 20MG/5ML | VICKMANS LABORATORIES LTD |
-| HK-36413 | ANTICIN CREAM 2% | UNICORN LABORATORIES O/B AMERICAN UNICORN LABORATORIES LIMITED |
-| HK-12272 | BENDROL ELIXIR 25MG/5ML | MARCHING PHARMACEUTICAL LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-66947 | JOYISH DIPHENHYDRAMINE HYDROCHLORIDE CAPSULES 25MG | 膠囊（依品名） | 未載明 |
+| HK-13049 | NA-DRAMINE SYRUP 20MG/5ML | 糖漿（依品名） | 未載明 |
+| HK-67555 | DIPHENHYDRAMINE HYDROCHLORIDE INJECTION USP 50MG/1ML | 注射劑（依品名） | 未載明 |
+| HK-36413 | ANTICIN CREAM 2% | 乳膏（依品名） | 未載明 |
+| HK-46402 | DIPHENHYDRAMINE ORAL SOLN 0.2% | 口服溶液（依品名） | 未載明 |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **藥物交互作用**：本次資料查詢共找到 100 筆交互作用紀錄（以下為已列出的 20 筆中的主要項目）。
+  - **嚴重 (Major)**：Potassium citrate、Eliglustat
+  - **中度 (Moderate)**：多為抗膽鹼類藥物（如 Atropine、Hyoscyamine、Glycopyrronium、Dicyclomine）、鴉片類（如 Morphine）及其他中樞神經抑制相關藥物（如 Bupropion、Dronabinol、Nabilone、Metoclopramide、Loperamide）
+- **與新適應症相關的考量**：第一代抗組織胺的抗膽鹼效應可能加重乾眼，需在眼部酒糟族群中特別評估。
 
-需特別留意的潛在風險：diphenhydramine 的抗膽鹼作用可能使乾眼惡化，而眼部酒糟性病變本身常伴隨乾眼。
+其餘警語與禁忌症資訊請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 證據僅限模型預測（L5），沒有臨床試驗與文獻。
-- 機轉連結薄弱，且抗膽鹼作用可能與疾病表現相衝突。
+- 目前僅有 TxGNN 模型預測（L5），沒有臨床試驗與文獻佐證。
+- 酒糟性結膜炎的主要病理機轉與組織胺關聯有限，且抗膽鹼效應可能加重乾眼，風險效益並不明確。
 
 **若要推進需要：**
-- 取得香港衛生署核准的仿單，確認警語、禁忌與核准適應症。
-- 補齊 diphenhydramine 的作用機轉資料（例如查詢 DrugBank）。
-- 檢索文獻與臨床試驗，確認 H1 拮抗劑在眼部酒糟性病變或相關眼表發炎的既有研究。
-- 評估抗膽鹼作用對乾眼的影響，並確認可行的給藥途徑（目前途徑相容性尚未評估）。
-- 與原適應症的機轉相似度分析目前仍待完成。
-
-*本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。*
+- 取得香港衛生署仿單，確認警語、禁忌症與核准適應症（目前安全性資料有缺口）。
+- 補充詳細的作用機轉資料（MOA）。
+- 進行文獻與臨床試驗的系統性檢索，確認有無眼部酒糟使用抗組織胺的先導證據。
+- 評估眼用劑型的可行性（目前路徑相容性尚未評估）。
+- 設計針對乾眼惡化風險的安全性評估。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

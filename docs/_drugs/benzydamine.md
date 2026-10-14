@@ -2,7 +2,7 @@
 layout: default
 title: Benzydamine
 parent: 僅模型預測 (L5)
-nav_order: 107
+nav_order: 110
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,13 +29,13 @@ indication_count: 1
 
 </div>
 
-# Benzydamine：從咽喉局部消炎止痛到良性前列腺增生
+# Benzydamine：從局部口咽抗發炎到良性攝護腺增生
 
 ## 一句話總結
 
-Benzydamine 在香港以漱口液、咽喉噴劑、含片等局部劑型上市，許可證資料未載明適應症，依品名與劑型推測為口咽局部消炎止痛。
-TxGNN 模型預測它可能對**良性前列腺增生 (Benign Prostatic Hyperplasia, BPH)** 有效。
-目前**沒有臨床試驗和文獻**支持，僅有模型分數。
+Benzydamine 是一種局部作用、具抗發炎、止痛與局部麻醉特性的藥物，在香港主要以口咽用劑型（漱口液、噴霧、口含錠、凝膠）上市。
+TxGNN 模型預測它可能對**良性攝護腺增生 (Benign Prostatic Hyperplasia, BPH)** 有效，
+但目前**沒有任何臨床試驗或文獻**支持，僅屬模型預測。
 
 ---
 
@@ -43,10 +43,10 @@ TxGNN 模型預測它可能對**良性前列腺增生 (Benign Prostatic Hyperpla
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證未載明（依品名推測為咽喉局部消炎，需查原廠仿單確認） |
-| 預測新適應症 | 良性前列腺增生 (Benign Prostatic Hyperplasia) |
+| 原適應症 | 資料中未載明核准適應症文字 |
+| 預測新適應症 | 良性攝護腺增生 (Benign Prostatic Hyperplasia) |
 | TxGNN 預測分數 | 99.26% |
-| 證據等級 | L5（僅有模型預測） |
+| 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
@@ -55,15 +55,11 @@ TxGNN 模型預測它可能對**良性前列腺增生 (Benign Prostatic Hyperpla
 
 ## 為什麼這個預測合理？
 
-目前沒有完整的作用機轉資料可供查核，TxGNN 的知識圖譜連結因此無法對照原始紀錄驗證。一般認為 Benzydamine 是局部作用的消炎止痛藥，可能降低促發炎細胞激素（如 TNF-α、IL-1β），並具有穩定細胞膜的作用。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Benzydamine 是一種局部作用、類似非類固醇抗發炎藥（NSAID）的藥物，具有抗發炎、止痛與局部麻醉特性，並可抑制促發炎細胞激素（如 TNF-α、IL-1β）的產生。
 
-慢性前列腺發炎被認為可能與 BPH 的發生有關，所以「抗發炎 → BPH」在理論上說得通。不過這只是未經驗證的假說。
+慢性攝護腺發炎被認為可能與 BPH 的發生與進展有關，因此從抗發炎的角度推論，Benzydamine 用於 BPH 在機轉上有其可能性。不過這個連結目前只是假說，沒有任何臨床或文獻證據支持。
 
-有兩點需要保留：
-- Benzydamine 對 BPH 的既有標靶（5-α 還原酶、α1 腎上腺素受體）沒有已知作用。
-- 已上市產品（漱口液、噴劑、外用）為局部使用，全身暴露量低，能否在前列腺組織達到有效濃度並不清楚。
-
-因此 99.26% 的分數只能視為計算層面的假說，不能當作療效證據。
+另一個重要限制是給藥途徑：Benzydamine 主要作為局部或黏膜用藥（口腔漱口液、噴霧、陰道用等），全身或攝護腺組織的藥物暴露量並不確定。給藥途徑相容性尚待評估。
 
 ---
 
@@ -81,15 +77,15 @@ TxGNN 模型預測它可能對**良性前列腺增生 (Benign Prostatic Hyperpla
 
 ## 香港上市資訊
 
-香港共有 20 張許可證，以下列出 5 張主要許可證。資料中劑型與核准適應症欄位皆為空白。
+香港共有 20 張有效許可證（皆為單方，無已註銷者）。以下列出 5 張主要許可證；資料中未提供劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-59261 | ZUHOTAN SPRAY 1.5MG/ML | VAST RESOURCES PHARMACEUTICAL LTD |
-| HK-31754 | DIFFLAM SOLN FOR GARGLE 0.15% | INOVA PHARMACEUTICALS (HONG KONG) LIMITED |
-| HK-42350 | DANTUM SOLUTION 0.15% | SYNCO (H.K.) LIMITED |
-| HK-56224 | DIFFLAM ANTI-INFLAMMATORY THROAT SPRAY 0.15% | INOVA PHARMACEUTICALS (HONG KONG) LIMITED |
-| HK-42365 | DIFFLAM ANTI-INFLAMMATORY LOZ 3MG S/F | INOVA PHARMACEUTICALS (HONG KONG) LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-31754 | DIFFLAM SOLN FOR GARGLE 0.15% | 漱口液（依品名） | 資料未載明 |
+| HK-56224 | DIFFLAM ANTI-INFLAMMATORY THROAT SPRAY 0.15% | 喉噴霧（依品名） | 資料未載明 |
+| HK-36674 | DIFFLAM GEL 5% | 凝膠（依品名） | 資料未載明 |
+| HK-42365 | DIFFLAM ANTI-INFLAMMATORY LOZ 3MG S/F | 口含錠（依品名） | 資料未載明 |
+| HK-64739 | PHARIXIA MOUTHWASH 1.5MG/ML | 漱口水（依品名） | 資料未載明 |
 
 ---
 
@@ -104,17 +100,15 @@ TxGNN 模型預測它可能對**良性前列腺增生 (Benign Prostatic Hyperpla
 **決策：Hold**
 
 **理由：**
-- 只有 TxGNN 模型分數，沒有任何臨床試驗或文獻，證據等級為 L5。
-- 香港現有產品皆為局部劑型，全身暴露量低，是否適用於前列腺尚屬未知。
+- 預測分數雖高（99.26%），但僅為模型預測，沒有臨床試驗或文獻佐證（證據等級 L5）。
+- 現有劑型皆為局部口咽用藥，攝護腺的藥物暴露不明，機轉連結仍屬推測。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單，確認原核准適應症與安全性資訊（警語、禁忌）。
-- 補齊作用機轉資料，例如從 DrugBank 查詢。
-- 檢索 Benzydamine 與前列腺發炎、BPH 相關的前臨床或機轉研究。
-- 評估給藥途徑與組織分佈，確認局部劑型能否作用於前列腺。
-- 若有初步支持證據，再評估是否需要新劑型或全身給藥的可行性。
-
-> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+- 補齊作用機轉（MOA）資料，並驗證抗發炎機轉與 BPH 病理的關聯
+- 進行文獻與臨床試驗登記的系統性檢索，確認是否存在任何相關研究
+- 評估給藥途徑可行性（是否能在攝護腺達到有效濃度）
+- 取得香港原廠仿單，完成警語、禁忌與藥物交互作用的安全性篩查
+- 若上述評估通過，再考慮前臨床（如 BPH 動物或細胞模型）驗證
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

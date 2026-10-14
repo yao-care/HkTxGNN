@@ -2,7 +2,7 @@
 layout: default
 title: Pheniramine
 parent: 中證據等級 (L3-L4)
-nav_order: 672
+nav_order: 687
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,19 +29,21 @@ indication_count: 3
 
 </div>
 
-# Pheniramine：從第一代抗組織胺（原適應症資料缺漏）到過敏性蕁麻疹
+# Pheniramine：從過敏性鼻炎等過敏與上呼吸道症狀到過敏性蕁麻疹
 
 ## 一句話總結
 
-Pheniramine 是第一代 H1 抗組織胺，目前輸入資料中沒有記載其原適應症。
-TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效，
-目前有 **1 個臨床試驗**和 **20 篇文獻**，但都沒有直接證明 Pheniramine 本身的療效。
+Pheniramine 是第一代 H1 受體拮抗劑（抗組織胺），原本用於過敏性鼻炎、蕁麻疹、血管性水腫及感冒相關症狀。
+TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效，但目前**沒有臨床試驗**，檢索到的 4 篇文獻也**未提供療效證據**。
+此預測與既有適應症高度重疊，較像是現有用途的再確認，而非真正的新用途。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證未載明適應症文字 |
+| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、異位性結膜炎、蕁麻疹、血管性水腫等（香港許可證未載明適應症文字，此處依知識圖譜適應症資料） |
 | 預測新適應症 | 過敏性蕁麻疹 (Allergic Urticaria) |
 | TxGNN 預測分數 | 99.67% |
 | 證據等級 | L4 |
@@ -49,69 +51,78 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 | 許可證數 | 5 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Pheniramine 屬於第一代 H1 受體拮抗劑（抗組織胺）。阻斷組織胺引起的風團、紅暈與搔癢，是這類藥物治療蕁麻疹的公認機轉，所以預測在生物學上說得通。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Pheniramine 屬於第一代 H1 受體拮抗劑，透過阻斷 H1 受體，緩解組織胺引起的蕁麻疹與搔癢，機轉上適用於過敏性蕁麻疹。
 
-不過這個高分（99.67%）很可能反映的是整個藥物類別的已知適應症，不是真正的新發現。目前也無法判斷蕁麻疹對 Pheniramine 是否屬於仿單外使用，因為原適應症與 MOA 欄位都沒有資料。
+過敏性蕁麻疹與 Pheniramine 已知的適應症（蕁麻疹、血管性水腫、過敏性鼻炎）在病理機轉上同屬組織胺介導的過敏反應。因此「過敏性蕁麻疹」較接近既有適應症的重述，而非真正的藥物再利用。TxGNN 的高分（99.67%）與這種重疊相符。
 
-現有文獻多為同類藥物（chlorpheniramine、dexchlorpheniramine）的回顧或比較研究，以及 Pheniramine 的過敏反應病例報告，沒有 Pheniramine 針對蕁麻疹的療效數據。
+需要注意的是，檢索到的文獻並未提供支持療效的直接證據（詳見下方文獻證據），因此這個預測目前只有模型分數與機轉推論作為依據。
+
+---
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT02082054](https://clinicaltrials.gov/study/NCT02082054) | Phase 2 | 未知 | 125 | 在季節性過敏性鼻炎患者中，評估不同劑量 atropine 併用 pseudoephedrine/chlorpheniramine 的安全性與療效。與 Pheniramine 及蕁麻疹無直接關聯，相關性低 |
+目前無相關臨床試驗登記。
+
+---
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [39265704](https://pubmed.ncbi.nlm.nih.gov/39265704/) | 2024 | 隨機 Phase I 比較試驗 | Eur J Pharm Sci | 比較 bilastine 與 dexchlorpheniramine 注射劑對組織胺誘發風團與紅暈反應的抑制，對象是不同的抗組織胺 |
-| [14709123](https://pubmed.ncbi.nlm.nih.gov/14709123/) | 2004 | 臨床研究 | Med J Aust | 評估氫皮質酮持續輸注，加或不加 chlorpheniramine，預防蛇毒抗血清的急性不良反應 |
-| [35652393](https://pubmed.ncbi.nlm.nih.gov/35652393/) | 2024 | Review | Curr Rev Clin Exp Pharmacol | Chlorpheniramine 的綜合回顧，提到可用於慢性蕁麻疹、氣喘等多種用途 |
-| [2859711](https://pubmed.ncbi.nlm.nih.gov/2859711/) | 1985 | Review | Z Hautkr | 彙整 astemizole 全球試驗，指出其對慢性蕁麻疹等有效，並優於包括 pheniramine 在內的傳統抗組織胺 |
-| [15698856](https://pubmed.ncbi.nlm.nih.gov/15698856/) | 2005 | 動物實驗 | Life Sci | H1 與 H3 受體合併阻斷可減少天竺鼠皮膚微血管通透性增加 |
-| [31852144](https://pubmed.ncbi.nlm.nih.gov/31852144/) | 2019 | 病例報告＋藥物安全回顧 | Medicine | 兩例 chlorpheniramine 誘發過敏性休克，並回顧藥物安全資料庫 |
-| [40125237](https://pubmed.ncbi.nlm.nih.gov/40125237/) | 2025 | 病例報告 | Cureus | 多重藥物過敏症候群患者對 Pheniramine 產生立即型過敏反應 |
-| [40324831](https://pubmed.ncbi.nlm.nih.gov/40324831/) | 2025 | 病例報告 | Indian J Pharmacol | 同時靜脈注射 Pheniramine 與氫皮質酮後發生意識喪失 |
-| [18597008](https://pubmed.ncbi.nlm.nih.gov/18597008/) | 2008 | 大規模問卷調查 | Methods Find Exp Clin Pharmacol | 以視覺類比量表調查 1,742 位患者，分析各種 H1 抗組織胺的鎮靜程度 |
-| [12444322](https://pubmed.ncbi.nlm.nih.gov/12444322/) | 2002 | 臨床研究 | Int Arch Allergy Immunol | 以替代藥物做單次口服耐受試驗，處理藥物不良反應 |
+| [1] [2859711](https://pubmed.ncbi.nlm.nih.gov/2859711/) | 1985 | Review | Zeitschrift fur Hautkrankheiten | 回顧 Astemizole（另一種抗組織胺）的 39 項試驗、逾 2,300 名患者，顯示其對慢性蕁麻疹等有效；內容主要針對 Astemizole，非 Pheniramine |
+| [2] [40324831](https://pubmed.ncbi.nlm.nih.gov/40324831/) | 2025 | Case report | Indian J Pharmacol | 靜脈注射 Pheniramine 與 Hydrocortisone 併用後發生意識喪失的嚴重不良事件 |
+| [3] [40125237](https://pubmed.ncbi.nlm.nih.gov/40125237/) | 2025 | Case report | Cureus | 多重藥物過敏症候群患者對 Pheniramine 產生立即型過敏反應 |
+| [4] [16854350](https://pubmed.ncbi.nlm.nih.gov/16854350/) | 2006 | Case report | Allergol Immunopathol | 松毛蟲引起的嚴重顏面水腫，表現類似過敏反應，與 Pheniramine 療效無直接關係 |
+
+> 表中編號僅為排列順序，PMID 以連結文字為準。上述文獻均未直接證實 Pheniramine 對過敏性蕁麻疹的療效，其中兩篇反而是 Pheniramine 相關的不良反應報告。
+
+---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-67341 | REDISIL EYE DROPS | WELL FAVOURED LTD |
-| HK-17005 | NAPHCON-A OPHTH SOLN | ALCON HONG KONG LTD |
-| HK-50058 | FORTOLIN NITE TAB | FORTUNE PHARMACAL COMPANY LIMITED |
-| HK-51135 | NAZORIN EYE DROPS | WELL FAVOURED LTD |
-| HK-66127 | FORTOLIN DAY & NIGHT TABLETS | FORTUNE PHARMACAL COMPANY LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-67341 | REDISIL EYE DROPS | 未提供 | 未提供 |
+| HK-17005 | NAPHCON-A OPHTH SOLN | 未提供 | 未提供 |
+| HK-50058 | FORTOLIN NITE TAB | 未提供 | 未提供 |
+| HK-51135 | NAZORIN EYE DROPS | 未提供 | 未提供 |
+| HK-66127 | FORTOLIN DAY & NIGHT TABLETS | 未提供 | 未提供 |
 
-這 5 張許可證的劑型與核准適應症欄位目前都沒有資料。從品名看，產品包含眼藥水與錠劑。
+5 張許可證皆為有效的單一成分許可證，品項包含眼用製劑與口服錠劑。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的潛在禁忌疾病**（來自藥物－疾病關聯資料，並非仿單原文，需以仿單核實）：
+  - 心血管與代謝：高血壓、糖尿病、糖尿病酮酸中毒、高血糖、甲狀腺功能低下（含黏液水腫、先天性甲狀腺功能低下）
+  - 肝腎與消化：肝衰竭、肝病、腎臟病、胰臟炎、膽囊疾病、胃潰瘍、消化性潰瘍、胃炎、發炎性腸道疾病
+  - 神經精神：癲癇、失眠、精神疾病（含思覺失調類疾患）
+  - 呼吸與泌尿：慢性阻塞性肺病 (COPD)、支氣管炎、良性攝護腺肥大、膿輸尿管
+  - 其他：血小板減少症、疱疹樣皮膚炎
+- **文獻中的安全訊號**：有 Pheniramine 靜脈注射後意識喪失，以及對 Pheniramine 本身產生立即型過敏反應的病例報告。
 
-文獻中有 Pheniramine 的過敏反應與嚴重不良事件病例報告（見 PMID 40125237、40324831），屬個案層級的訊號。
+其餘警語、禁忌症與藥物交互作用資料，請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- H1 阻斷用於蕁麻疹的機轉合理，但沒有任何 Pheniramine 專屬的療效證據，唯一的臨床試驗也與此適應症無關。
-- 預測分數高，較可能是類別效應，不是新發現。目前證據等級為 L4，原適應症、MOA 與安全性資料都有缺口。
+- 「過敏性蕁麻疹」與 Pheniramine 既有適應症高度重疊，不是真正的新適應症；且目前沒有臨床試驗，檢索到的文獻也不含直接療效證據，只有模型預測與機轉推論。
+- 原廠仿單的警語與禁忌症資料尚未取得，安全性評估無法進行。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單，確認原適應症、警語與禁忌症
-- 補齊 DrugBank 的作用機轉資料
-- 確認蕁麻疹是否已在香港核准適應症內，判斷是否屬於新用途
-- 搜尋 Pheniramine 單方或複方用於蕁麻疹的臨床研究
-- 另兩項預測（鼻腔疾病、急性喉咽炎）證據更弱：前者只有動物與生理研究，後者完全沒有試驗與文獻，建議同樣暫緩
-
-> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+- 取得香港衛生署核准的仿單，確認警語、禁忌症與核准適應症文字
+- 補齊作用機轉資料（可查詢 DrugBank）
+- 檢索 Pheniramine 用於蕁麻疹的直接臨床研究（RCT 或觀察性研究）
+- 釐清此預測是否有超出現有適應症的新價值；若沒有，可考慮改評估其他預測（例如鼻腔疾病、急性喉咽炎），但這兩項目前也僅有模型預測（L5）
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

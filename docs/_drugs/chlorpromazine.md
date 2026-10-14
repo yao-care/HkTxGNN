@@ -2,7 +2,7 @@
 layout: default
 title: Chlorpromazine
 parent: 僅模型預測 (L5)
-nav_order: 185
+nav_order: 188
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,32 +29,32 @@ indication_count: 10
 
 </div>
 
-# Chlorpromazine：從抗精神病藥到視網膜失養症
+# Chlorpromazine：從精神分裂症等精神疾病到遺傳性視網膜失養症（預測）
 
 ## 一句話總結
 
-Chlorpromazine（氯丙嗪）是第一代抗精神病藥，主要透過阻斷多巴胺 D2 受體發揮作用。
-TxGNN 模型預測它可能對**視網膜失養症（Retinal Dystrophy，伴或不伴眼外異常）**有效，但目前有 **0 個臨床試驗**，14 篇文獻也沒有一篇直接支持這個方向。
-這個預測較可能是知識圖譜結構造成的假象，並非真實的藥理訊號。
+Chlorpromazine（氯丙嗪）是經典的第一代抗精神病藥，原本用於精神分裂症、躁鬱症躁期、精神病性疾患及急性間歇性紫質症等。
+TxGNN 模型預測它可能對**伴或不伴眼外異常的視網膜失養症 (Retinal dystrophy with or without extraocular anomalies)** 有效，但目前**沒有任何臨床試驗**，僅有 **1 篇 1967 年的文獻**，且內容是藥物引起的光毒性反應，並非療效證據。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 視網膜失養症，伴或不伴眼外異常 (Retinal dystrophy with or without extraocular anomalies) |
-| TxGNN 預測分數 | 99.95%（模型排名第 1565 名） |
-| 證據等級 | L5 |
+| 原適應症 | 躁期雙相情感障礙、精神病性疾患、精神分裂症、思覺失調情感性疾患等（香港許可證未載明適應症文字，此為知識圖譜資料） |
+| 預測新適應症 | 伴或不伴眼外異常的視網膜失養症 (Retinal dystrophy with or without extraocular anomalies) |
+| TxGNN 預測分數 | 99.95% |
+| 證據等級 | L4（僅有 1 篇個案/毒性觀察文獻，且指向不良反應） |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 3 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-**這個預測在機轉上並不合理。** 目前缺乏詳細的作用機轉資料，但已知 Chlorpromazine 是 D2、5-HT2A、H1 及 alpha-1 受體拮抗劑。這些路徑都不是遺傳性視網膜失養症的已知致病驅動因子。
+目前缺乏詳細的作用機轉資料。已知 chlorpromazine 主要是多巴胺 D2 受體拮抗劑，在精神分裂症與精神病性疾患中的療效已被長期證實。
 
-Chlorpromazine 本身還與眼部不良反應有關，包括水晶體與角膜沉積，以及高累積劑量下的色素性視網膜病變。安全性訊號和預測方向相反。文獻中唯一貼近的是 1968 年的〈Phenothiazine-retinopathy〉，談的是藥物造成視網膜病變，而不是治療它。
+然而，遺傳性視網膜失養症是基因缺陷導致的視網膜退化，與精神疾病的病理差異很大。唯一的文獻是 1967 年關於高劑量 chlorpromazine 與 thioridazine 引起光毒性反應的報告，記錄的是**藥物不良反應**，不但不支持療效，反而可能不利於此適應症。
 
-0.9995 的高分最可能來自圖譜拓樸的偽影（graph-topology artefact），不代表生物學上的關聯。
+因此，99.95% 的高分屬於模型的計算結果，缺乏臨床或機轉證據支持，應謹慎解讀。
 
 ## 臨床試驗證據
 
@@ -62,51 +62,62 @@ Chlorpromazine 本身還與眼部不良反應有關，包括水晶體與角膜�
 
 ## 文獻證據
 
-TxGNN 取回 14 篇文獻，大多只是因主題關鍵字（眼外肌、先天性眼部異常）被比對到，與 Chlorpromazine 的治療效果無關。下表列出 10 篇，型別以文獻自帶分類為準。
-
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [5647013](https://pubmed.ncbi.nlm.nih.gov/5647013/) | 1968 | 未分類（無摘要） | Ophthalmologica | 依標題為吩噻嗪類藥物引起的視網膜病變，屬安全性訊號 |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Seminars in Neurology | 複視的問診與檢查流程，與 Chlorpromazine 無關 |
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Seminars in Ultrasound, CT, and MR | 眼眶感染的成因與影像表現，與 Chlorpromazine 無關 |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klinische Monatsblatter fur Augenheilkunde | 先天性上眼瞼下垂的臨床特徵，與 Chlorpromazine 無關 |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan Journal of Ophthalmology | 水晶體形狀的先天異常，與 Chlorpromazine 無關 |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatric Radiology | 兒童眼部病變的鑑別診斷與影像特徵，與 Chlorpromazine 無關 |
-| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | Review | Journal of Binocular Vision and Ocular Motility | 先天性顱神經失神經支配疾病中的眼肌麻痺，與 Chlorpromazine 無關 |
-| [31359131](https://pubmed.ncbi.nlm.nih.gov/31359131/) | 2019 | 未分類 | Human Genetics | 視黃酸訊號相關的眼部發育缺陷之遺傳架構，與 Chlorpromazine 無關 |
-| [10192514](https://pubmed.ncbi.nlm.nih.gov/10192514/) | 1999 | Review | Progress in Retinal and Eye Research | 眼外肌本體感覺的作用，與 Chlorpromazine 無關 |
-| [30747268](https://pubmed.ncbi.nlm.nih.gov/30747268/) | 2019 | Cohort | Neuroradiology | 眼肌麻痺的神經影像與臨床特徵，與 Chlorpromazine 無關 |
+| [5336672](https://pubmed.ncbi.nlm.nih.gov/5336672/) | 1967 | 個案報告/毒性觀察 | JAMA | 高劑量 chlorpromazine 與 thioridazine 可誘發光毒性反應（不良反應，非療效） |
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-53900 | CHLOZINE EXTRA TAB 100MG | APT PHARMA LIMITED |
-| HK-44623 | CHLOZINE PLUS TAB 50MG | APT PHARMA LIMITED |
-| HK-44714 | CHLOZINE TAB 25MG | APT PHARMA LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-53900 | CHLOZINE EXTRA TAB 100MG | 未載明 | 未載明 |
+| HK-44623 | CHLOZINE PLUS TAB 50MG | 未載明 | 未載明 |
+| HK-44714 | CHLOZINE TAB 25MG | 未載明 | 未載明 |
+
+三張許可證皆為單方、有效，持證商為 APT PHARMA LIMITED。
 
 ## 安全性考量
 
-- **與此預測相關的安全訊號**：Chlorpromazine 與水晶體與角膜沉積、高累積劑量下的色素性視網膜病變有關。若用於視網膜疾病，風險方向與預期相反。
+- **知識圖譜標示的禁忌疾病（非仿單原文）**：包括
+  - 心血管與心律：long QT 症候群、torsades de pointes、心臟傳導疾病、猝死性心臟停止、心肌梗塞、直立性低血壓
+  - 血液：嗜中性白血球低下、顆粒球缺乏症、白血球低下、血小板低下、貧血
+  - 神經：癲癇、基底核疾病、眼瞼痙攣
+  - 其他：肝病、膽囊疾病、高血糖、良性前列腺肥大、物質濫用/依賴、肥胖、女性乳癌
+- **藥物交互作用**：資料庫共查得 100 筆交互作用，其中較需注意的為 **Major 等級**：
+  - Bupropion
+  - Morphine
 
-其他警語、禁忌症與藥物交互作用資料，請參考原廠仿單。
+  另有多項 Moderate 等級，例如 acarbose、famotidine、epinephrine、hydrocortisone、metformin、pioglitazone、amphotericin B、atropine、loperamide 等（涵蓋降血糖藥、抗膽鹼藥等）。
+- **眼部相關風險**：chlorpromazine 已知有光毒性及眼部（水晶體/角膜沉積）副作用，對視網膜疾病族群尤需考量。
+
+仿單的警語與禁忌症資料尚未取得，詳細內容請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 這個預測只有模型分數，沒有臨床試驗，也沒有支持性文獻，而且機轉上找不到合理連結。
-- 藥物本身的視網膜毒性訊號還與預期方向相反。
+- 此預測僅來自模型分數，沒有臨床試驗；唯一文獻顯示的是光毒性不良反應，與預期療效方向相反。
+- 缺乏作用機轉資料，加上已知眼部副作用，目前不適合推進。
 
 **若要推進需要：**
-- 找出視網膜失養症與 D2/5-HT2A/H1/alpha-1 路徑之間任何可驗證的機轉假說；若找不到，建議直接排除。
-- 取得香港衛生署仿單的警語與禁忌症，補齊安全性資料。
-- 補齊 DrugBank 的作用機轉資料。
+- 取得香港仿單的警語與禁忌症，完成基本安全性篩選
+- 補充作用機轉資料，釐清 chlorpromazine 與視網膜失養症之間是否有合理的生物學連結
+- 進行前臨床（視網膜模型）研究，並評估光毒性風險
+- 若無任何支持證據，建議不再優先考慮此適應症
 
-**其他候選提醒：** 同一藥物的排名第 10 名預測「早發性精神分裂症 (Early-onset schizophrenia)」是本次唯一有實質證據的候選。它有 1 個觀察性試驗登記（NCT06128408，僅間接相關）和 8 篇觀察性或藥物基因學文獻，證據等級為 L3，目前無 RCT。這其實是成人適應症向兒童與青少年族群的延伸。若要推進，建議另行評估這個候選，並特別檢視兒童的錐體外症狀、鎮靜與代謝風險。
+---
 
-> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+### 補充：其他預測適應症
+
+資料中其他預測項目證據同樣薄弱：
+
+| 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
+|------|-----------|-----------|---------|------|
+| 2–9 | 糖基化先天異常（岩藻糖化缺陷）、X 連鎖近視、症候群性近視、無腦迴畸形、腦裂畸形合併小腦發育不全等、Charcot-Marie-Tooth 1G 型、非典型甘胺酸腦病變等 | 99.92%–99.94% | L5 | Hold（無臨床或文獻證據，亦無可辨識的機轉連結） |
+| 10 | 早發型精神分裂症 (Early-onset schizophrenia) | 99.47% | L4 | 研究問題（Research Question） |
+
+其中**早發型精神分裂症**與原適應症最接近，有 6 篇文獻，但皆為觀察性、基因關聯、神經影像或劑量研究，沒有試驗登記或兒童 RCT。它較屬於既有適應症的年齡層延伸，而非真正的藥物再利用；若要推進，需要兒童療效與安全性數據，並特別留意錐體外症狀、鎮靜與代謝副作用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

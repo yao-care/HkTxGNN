@@ -2,7 +2,7 @@
 layout: default
 title: Allopurinol
 parent: 僅模型預測 (L5)
-nav_order: 38
+nav_order: 40
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,96 @@ indication_count: 10
 
 </div>
 
-# Allopurinol：從痛風／高尿酸血症到肝性卟啉症
+# Allopurinol：從痛風到肝性卟啉症
 
 ## 一句話總結
 
-Allopurinol（別嘌醇）是黃嘌呤氧化酶抑制劑，一般用於痛風與高尿酸血症；本資料包未收錄其原適應症。
-TxGNN 模型預測它可能對**肝性卟啉症 (Hepatic Porphyria)** 有效，但目前**沒有臨床試驗**，僅有 **2 篇間接文獻**，且兩篇都沒有以 allopurinol 為研究對象。
+Allopurinol 是黃嘌呤氧化酶（xanthine oxidase）抑制劑，原本用於痛風、高尿酸血症與急性尿酸腎病變。
+TxGNN 模型預測它可能對**肝性卟啉症 (Hepatic Porphyria)** 有效，但目前**沒有臨床試驗**，僅有 **2 篇間接文獻**（一篇假說論文、一篇大鼠研究），證據非常薄弱。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料包未提供（許可證的適應症欄位皆為空白） |
+| 原適應症 | 痛風、高尿酸血症、急性尿酸腎病變 |
 | 預測新適應症 | 肝性卟啉症 (Hepatic Porphyria) |
 | TxGNN 預測分數 | 99.95% |
-| 證據等級 | L5（資料包標為 L4，但所附文獻未涉及 allopurinol，實質上僅有模型預測） |
+| 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Allopurinol 已知的作用是抑制黃嘌呤氧化酶，降低尿酸生成。這個作用與肝臟血基質（heme）合成之間，並沒有已確立的關聯。
+目前缺乏詳細的作用機轉資料。已知 Allopurinol 是黃嘌呤氧化酶抑制劑，透過減少尿酸生成來治療痛風與高尿酸血症。
 
-肝性卟啉症的核心問題在於肝臟 5-胺基酮戊酸合成酶（5-ALAS）被誘導、血基質合成失衡。目前檢索到的文獻只提出以色胺酸或抑制血基質利用來調控 5-ALAS 的假說，並未測試 allopurinol。
+與肝性卟啉症可能的關聯在於血基質（heme）代謝。有文獻指出 Allopurinol 可能影響肝臟血基質代謝，也有報告提到它會降解肝臟細胞色素 P450 的血基質，理論上可能改變 5-胺基乙醯丙酸合成酶（ALA synthase）的調控。一篇 2019 年的假說論文也提出，以代謝方式調控 ALA synthase 可能成為急性肝性卟啉症的治療方向。
 
-**這個高分需謹慎看待。** 前臨床研究曾指出 allopurinol 可能影響肝臟血基質與細胞色素 P450 的代謝，因此在提出任何再利用假說之前，必須先排除它誘發卟啉症發作的風險。
+不過，方向性並不確定。Allopurinol 在某些情境下反而被視為可能誘發卟啉症的藥物，因此它可能加重而非改善病情。這項預測目前較像是圖譜相似性的結果，缺乏直接的臨床資料支持。
+
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [31443750](https://pubmed.ncbi.nlm.nih.gov/31443750/) | 2019 | 假說／綜述 | Medical Hypotheses | 提出以色胺酸或抑制色胺酸 2,3-雙加氧酶（TDO）的血基質利用，來調控 5-ALAS，作為急性肝性卟啉症的可能療法；未涉及 allopurinol |
-| [1567472](https://pubmed.ncbi.nlm.nih.gov/1567472/) | 1992 | 動物研究 | Biochemical Pharmacology | 大鼠研究顯示 carbamazepine 會加劇血基質流失、惡化卟啉症；研究藥物為 carbamazepine，並非 allopurinol |
+| [31443750](https://pubmed.ncbi.nlm.nih.gov/31443750/) | 2019 | 假說/回顧 | Medical Hypotheses | 提出以色胺酸或抑制色胺酸 2,3-雙加氧酶利用血基質，來調控肝臟 ALA synthase，作為急性肝性卟啉症的潛在療法（非 Allopurinol 直接研究） |
+| [1567472](https://pubmed.ncbi.nlm.nih.gov/1567472/) | 1992 | 動物研究（大鼠） | Biochemical Pharmacology | 研究 carbamazepine 對大鼠肝臟血基質代謝的影響，探討其加重肝性卟啉症的機轉（非 Allopurinol 直接研究） |
+
+兩篇文獻都沒有直接檢驗 Allopurinol 對卟啉症患者的療效。
+
+---
 
 ## 香港上市資訊
 
-共 20 張許可證，以下列出 5 張主要許可證（資料包未提供劑型與核准適應症）：
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-35846 | ALLOPURINOL TAB 100MG | — | — |
+| HK-66571 | ALLOPURINOL TCK TABLETS 100MG | — | — |
+| HK-21594 | SYNPURINOL TAB 100MG | — | — |
+| HK-30121 | ALLOPURINOL TAB 100MG | — | — |
+| HK-52620 | SYNORID TAB 100MG | — | — |
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-35846 | ALLOPURINOL TAB 100MG | HOVID LIMITED |
-| HK-66571 | ALLOPURINOL TCK TABLETS 100MG | KAERU PHARMACEUTICAL (HK) LIMITED |
-| HK-21594 | SYNPURINOL TAB 100MG | SYNCO (H.K.) LIMITED |
-| HK-30121 | ALLOPURINOL TAB 100MG | CHRISTO PHARM LTD |
-| HK-52620 | SYNORID TAB 100MG | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED |
+共 20 張有效單方許可證，此處僅列出前 5 張；目前整理的資料中未包含劑型與核准適應症文字。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌相關疾病**（來自知識圖譜，非仿單文字）：肝臟疾病、膽囊疾病、腎功能不全、過敏性血管炎（含皮膚白血球破碎性血管炎、過敏性皮膚血管炎）、抗腎絲球基底膜疾病。
+- **藥物交互作用**：共查得 100 筆，以下為部分範例：
+  - 中度：氫氧化鋁（Aluminum hydroxide）、Attapulgite、高嶺土（Kaolin）、Magaldrate、Sucralfate
+  - 輕度：Amoxicillin、Chlorpropamide
+  - 其他（等級未知）：Metformin、Omeprazole、Pantoprazole、Glimepiride、Doxycycline、Morphine 等
+- 針對本次預測適應症，Allopurinol 本身可能被視為卟啉症的潛在誘發因子，使用上須特別謹慎。
+
+其餘警語與禁忌請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 0.9995 的高分沒有任何 allopurinol 專屬的臨床或文獻證據支持，機轉上也缺乏合理連結。
-- 前臨床線索反而提示可能有卟啉症誘發的安全疑慮。
-- 其他預測適應症（肝門靜脈硬化、肝肺症候群、門靜脈血栓等）分數幾乎相同（約 0.9994），且都沒有證據，較可能是圖譜鄰近結構造成的假象。
+- 沒有任何臨床試驗，僅有一篇假說論文與一篇大鼠研究（且皆非直接針對 Allopurinol），屬於 L5 等級的模型預測。
+- 機轉方向不明，Allopurinol 在某些情境下可能加重卟啉症，安全疑慮大於潛在效益。
 
 **若要推進需要：**
-- 取得香港衛生署仿單的警語與禁忌資料，這是目前的阻斷性缺口。
-- 補齊 DrugBank 的作用機轉資料。
-- 系統性檢視 allopurinol 對血基質合成、細胞色素 P450 及卟啉症的影響，先排除它誘發卟啉症的風險。
-- 若安全性無疑慮，再檢索或設計 allopurinol 專屬的機轉研究與臨床證據。
-
-*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。*
+- 取得詳細的作用機轉資料，釐清 Allopurinol 對血基質合成與 ALA synthase 的實際影響方向
+- 進行前臨床研究，確認它在卟啉症模型中是改善還是誘發病情
+- 取得香港仿單的警語與禁忌資料，完成安全性篩選
+- 評估是否有病例報告或登錄資料，說明卟啉症患者使用 Allopurinol 的實際經驗
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

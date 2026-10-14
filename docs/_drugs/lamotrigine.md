@@ -2,7 +2,7 @@
 layout: default
 title: Lamotrigine
 parent: 僅模型預測 (L5)
-nav_order: 497
+nav_order: 506
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,13 +29,15 @@ indication_count: 5
 
 </div>
 
-# Lamotrigine：從癲癇到三叉神經腫瘤（另有更可信的候選：三叉神經痛）
+# Lamotrigine：從癲癇到三叉神經痛
 
 ## 一句話總結
 
-Lamotrigine 是已上市的抗癲癇藥，在香港有 20 張許可證。
-TxGNN 排名第一的預測是**三叉神經腫瘤 (Trigeminal Nerve Neoplasm)**，但目前**沒有任何臨床試驗**，文獻也只談三叉神經痛，沒有談腫瘤，較可能是疾病名稱對應錯誤。
-同一份預測中，**三叉神經痛 (Trigeminal Neuralgia)** 有 4 個臨床試驗和 19 篇文獻，是更值得追蹤的方向。
+Lamotrigine 是一種抗癲癇藥物，原本用於癲癇、部分性癲癇與 Lennox-Gastaut 症候群等。
+TxGNN 模型排名第一的預測是「三叉神經腫瘤」，但這項預測缺乏機轉支持，應視為模型假象。
+證據最完整的新適應症是**三叉神經痛 (Trigeminal Neuralgia)**，目前有 **2 個臨床試驗**和 **多篇文獻**支持（以下以三叉神經痛為主要評估對象）。
+
+> 說明：預測排名第一的「三叉神經腫瘤」(TxGNN 分數 99.97%) 僅有 2 篇與腫瘤治療無關的三叉神經痛文獻，沒有臨床試驗，也沒有可信的機轉連結，分數高的原因應是圖譜上與三叉神經痛相近。因此本報告把有實際證據的「三叉神經痛」作為主要評估對象，並另列其他預測供參考。
 
 ---
 
@@ -43,114 +45,102 @@ TxGNN 排名第一的預測是**三叉神經腫瘤 (Trigeminal Nerve Neoplasm)**
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 三叉神經腫瘤 (Trigeminal Nerve Neoplasm) |
-| TxGNN 預測分數 | 99.97% |
-| 證據等級 | L5（僅有模型預測） |
+| 原適應症 | 癲癇（部分性癲癇、Lennox-Gastaut 症候群等；香港許可證資料中未載明核准適應症文字） |
+| 預測新適應症 | 三叉神經痛 (Trigeminal Neuralgia)；排名第一的「三叉神經腫瘤」不建議推進 |
+| TxGNN 預測分數 | 三叉神經痛 99.89%（三叉神經腫瘤 99.97%） |
+| 證據等級 | L2（三叉神經痛）；三叉神經腫瘤為 L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 20 張 |
-| 建議決策 | Hold |
-
-許可證資料中沒有記載核准適應症，因此本表省略「原適應症」欄。
+| 建議決策 | 三叉神經痛：Proceed with Guardrails；三叉神經腫瘤：Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-Lamotrigine 會阻斷電位門控鈉離子通道，並減少麩胺酸釋放。這個機轉對神經痛和癲癇合理，但對神經腫瘤沒有明確的腫瘤學依據。原始資料中的作用機轉欄位是空的，以上機轉描述來自分析內容。
+目前缺乏詳細的作用機轉資料（資料庫未收錄）。根據已知藥理，lamotrigine 可阻斷電壓門控鈉通道並抑制麩胺酸釋放，這是抗癲癇藥物的典型作用方式。
 
-**這個高分很可能是對應錯誤。** 分數 99.97% 較像是知識圖譜把「三叉神經腫瘤」與「三叉神經痛」混為一談。目前取得的兩篇文獻都在談三叉神經痛，沒有一篇是 lamotrigine 用於腫瘤的研究。
+三叉神經痛的成因多為血管壓迫三叉神經根，造成局部去髓鞘與異常放電。鈉通道阻斷可減少這種過度興奮的神經放電，與一線藥物 carbamazepine、oxcarbazepine 的機轉相同。歐洲神經學會 (EAN) 2019 年指引將 lamotrigine 列為輔助或替代選項，而非一線用藥。
 
-建議先確認疾病名稱的對應是否正確，再投入其他工作。
+相對地，「三叉神經腫瘤」的高分很可能來自圖譜上與三叉神經痛的鄰近關係。Lamotrigine 沒有已知的抗腫瘤活性，兩篇檢索到的文獻也都不是在談以 lamotrigine 治療腫瘤。
 
 ---
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記。
+以下為三叉神經痛的試驗（三叉神經腫瘤無臨床試驗）：
+
+| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
+|---------|------|------|------|---------|
+| [NCT00913107](https://clinicaltrials.gov/study/NCT00913107) | Phase 2/3 | 完成 | 21 | Lamotrigine 與 carbamazepine 用於三叉神經痛的療效與安全性比較；樣本小，僅支持 Phase 2 等級證據 |
+| [NCT00203229](https://clinicaltrials.gov/study/NCT00203229) | NA | 完成 | 20 | 雙盲、安慰劑對照的附加治療試驗，評估 lamotrigine 減少發作的效果與安全性；階段未分類且人數少 |
+
+---
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | Review | Expert Rev Neurother | 三叉神經痛的內科與外科治療總覽，與腫瘤無關 |
-| [30650431](https://pubmed.ncbi.nlm.nih.gov/30650431/) | 2018 | Case report | Stereotact Funct Neurosurg | 海綿狀血管畸形引起三叉神經痛的伽瑪刀放射手術病例，與 lamotrigine 無關 |
+| [37892981](https://pubmed.ncbi.nlm.nih.gov/37892981/) | 2023 | 系統性回顧 | Biomedicines | 彙整三叉神經痛各類藥物的療效與副作用 |
+| [30860637](https://pubmed.ncbi.nlm.nih.gov/30860637/) | 2019 | 指引 | Eur J Neurol | 歐洲神經學會三叉神經痛處置指引 |
+| [34108244](https://pubmed.ncbi.nlm.nih.gov/34108244/) | 2021 | Review | Pract Neurol | 三叉神經痛實務指南，涵蓋診斷與藥物及手術治療 |
+| [31908187](https://pubmed.ncbi.nlm.nih.gov/31908187/) | 2020 | Review | Mol Pain | 從病理生理到藥物治療的概覽 |
+| [38870050](https://pubmed.ncbi.nlm.nih.gov/38870050/) | 2024 | Review | Expert Rev Neurother | carbamazepine 與 oxcarbazepine 有效但副作用多；第三代抗癲癇藥可作為輔助或單一療法 |
+| [24297457](https://pubmed.ncbi.nlm.nih.gov/24297457/) | 2013 | 系統性回顧 | Cochrane Database Syst Rev | Lamotrigine 用於慢性神經痛與纖維肌痛，更新未新增研究 |
+| [38246671](https://pubmed.ncbi.nlm.nih.gov/38246671/) | 2024 | 文獻回顧 | No Shinkei Geka | carbamazepine 為一線；lamotrigine 等在日本為仿單外使用，亦有效 |
+| [11903537](https://pubmed.ncbi.nlm.nih.gov/11903537/) | 2001 | Review | Headache | 抗癲癇藥物於叢集性頭痛與三叉神經痛的應用 |
 
 ---
 
-## 其他預測適應症：三叉神經痛（排名第 2）
+## 其他預測適應症（供參考）
 
-TxGNN 分數 99.89%，證據等級 **L2**，建議 **Proceed with Guardrails**。
-
-Lamotrigine 和一線藥 carbamazepine、oxcarbazepine 屬同一類機轉（鈉離子通道阻斷）。目前直接證據僅來自小型試驗，且未提供試驗結果數據。
-
-### 臨床試驗
-
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT00913107](https://clinicaltrials.gov/study/NCT00913107) | Phase 2/3 | 完成 | 21 | Lamotrigine 與 carbamazepine 用於三叉神經痛的療效與安全性比較；最直接的證據，但樣本數小 |
-| [NCT00203229](https://clinicaltrials.gov/study/NCT00203229) | 未標示 | 完成 | 20 | 雙盲、安慰劑對照的附加治療試驗；設計嚴謹但樣本數小 |
-| [NCT00243152](https://clinicaltrials.gov/study/NCT00243152) | 未標示 | 完成 | 6 | 以 fMRI 評估 lamotrigine 對神經性顏面痛的作用；屬機轉探索，不能證明療效 |
-| [NCT04996199](https://clinicaltrials.gov/study/NCT04996199) | Phase 4 | 未知 | 132 | Carbamazepine 與 oxcarbazepine 的比較，未含 lamotrigine，僅作一線用藥背景參考 |
-
-### 文獻（精選 10 篇，共 19 篇）
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [30860637](https://pubmed.ncbi.nlm.nih.gov/30860637/) | 2019 | Guideline | Eur J Neurol | 歐洲神經學會三叉神經痛治療指引；lamotrigine 的定位需查閱指引全文確認 |
-| [37892981](https://pubmed.ncbi.nlm.nih.gov/37892981/) | 2023 | 系統性回顧 | Biomedicines | 彙整三叉神經痛藥物治療的療效與副作用 |
-| [21621166](https://pubmed.ncbi.nlm.nih.gov/21621166/) | 2011 | 臨床研究 | J Chin Med Assoc | 比較 lamotrigine 與 carbamazepine 的療效與副作用 |
-| [30081317](https://pubmed.ncbi.nlm.nih.gov/30081317/) | 2018 | Case report | Mult Scler Relat Disord | 多發性硬化患者的難治性三叉神經痛，以 pregabalin 加 lamotrigine 合併治療成功 |
-| [38870050](https://pubmed.ncbi.nlm.nih.gov/38870050/) | 2024 | Review | Expert Rev Neurother | 藥物治療更新；第三代抗癲癇藥可能是輔助或單獨治療的選項 |
-| [34108244](https://pubmed.ncbi.nlm.nih.gov/34108244/) | 2021 | Review | Pract Neurol | 三叉神經痛實務指南 |
-| [31908187](https://pubmed.ncbi.nlm.nih.gov/31908187/) | 2020 | Review | Mol Pain | 從病理生理到藥物治療的總覽 |
-| [30178160](https://pubmed.ncbi.nlm.nih.gov/30178160/) | 2018 | Review | Drugs | 典型與非典型三叉神經痛的現有與創新藥物選項 |
-| [39365662](https://pubmed.ncbi.nlm.nih.gov/39365662/) | 2025 | Cohort | Pain | 丹麥全國資料，分析三叉神經痛的共病軌跡 |
-| [25299564](https://pubmed.ncbi.nlm.nih.gov/25299564/) | 2014 | Review | BMJ Clin Evid | 三叉神經痛的臨床證據回顧 |
+| 預測適應症 | TxGNN 分數 | 證據等級 | 評估 |
+|-----------|-----------|---------|------|
+| 三叉神經腫瘤 | 99.97% | L5 | 無機轉連結，相關文獻皆為三叉神經痛，不建議推進 |
+| 聲音誘發型癲癇 (Audiogenic seizures) | 99.38% | L4 | 僅有動物模型研究，屬原有抗癲癇作用的確認，無新增再利用價值 |
+| 進食誘發型癲癇 (Eating seizures) | 99.38% | L4 | 無直接療效證據，且與原有癲癇適應症重疊 |
+| 性高潮誘發型癲癇 (Orgasm-induced seizures) | 99.38% | L5 | 無臨床試驗或文獻，僅為模型預測 |
 
 ---
 
 ## 香港上市資訊
 
-以下列出 5 張主要許可證，資料中未提供劑型與核准適應症。
+香港共有 20 張有效單方許可證，無已註銷者。核准適應症文字在資料中未提供。
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-56609 | LAMOTRIGINE-TEVA 100MG TAB | TEVA Pharmaceutical Hong Kong Limited |
-| HK-58050 | PMS-LAMOTRIGINE TAB 25MG | Trenton-Boma Ltd |
-| HK-66706 | LAMOGA-100 TABLETS 100MG | Health Alliance International Co Ltd |
-| HK-68228 | EPSYLAM DT 50 DISPERSIBLE TABLETS 50MG | Hang Lung Trading (H.K.) Co |
-| HK-66707 | LAMOGA-25 TABLETS 25MG | Health Alliance International Co Ltd |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-37451 | LAMICTAL TAB 100MG（GlaxoSmithKline） | 錠劑 | — |
+| HK-37452 | LAMICTAL TAB 50MG（GlaxoSmithKline） | 錠劑 | — |
+| HK-39443 | LAMICTAL DISPERSIBLE TAB 5MG（GlaxoSmithKline） | 分散錠 | — |
+| HK-56609 | LAMOTRIGINE-TEVA 100MG TAB（Teva） | 錠劑 | — |
+| HK-57291 | APO-LAMOTRIGINE TAB 100MG（Hind Wing） | 錠劑 | — |
+
+另有 PMS-Lamotrigine、Lamoga、Epsylam DT、Lamotrix、Lamepil 等其他品牌，合計 20 張。
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（來自藥物－疾病關聯，非仿單原文）：焦慮症、神經官能症、情感遲鈍症、肝病、膽囊疾病、血小板減少、嗜中性球減少、顆粒球缺乏症、貧血（含巨球性貧血）、全血球減少、再生不良性貧血、非感染性腦膜炎。
+- **藥物交互作用**：資料庫共查得 100 筆。列出的前 20 筆中，中度交互作用包括 Morphine（含脂質體劑型）、Dronabinol、Nabilone、Metoclopramide、Opium、Orlistat；Metformin 為輕度；其餘（如 Omeprazole、Pantoprazole、Doxycycline、Vancomycin 等）等級未知。
 
-三叉神經痛的用藥防護提醒（來自分析內容，非仿單資料）：
-- 需緩慢調整劑量，因為有嚴重皮疹和史蒂芬強生症候群的風險。
-- 需檢視與 valproate 及酵素誘導劑的藥物交互作用。
+香港仿單的警語與禁忌尚未取得，請參考原廠仿單。
 
 ---
 
 ## 結論與下一步
 
-**決策：Hold（三叉神經腫瘤）；三叉神經痛可 Proceed with Guardrails**
+**決策：Proceed with Guardrails（三叉神經痛）／Hold（三叉神經腫瘤及其他癲癇亞型預測）**
 
 **理由：**
-- 三叉神經腫瘤只有模型分數，沒有試驗，文獻也不相關，很可能是疾病對應錯誤。
-- 三叉神經痛有 2 個小型的完成試驗（n=21 與 n=20），機轉與一線藥相近，但缺乏大型確認性 Phase 3 試驗，因此為 L2。
+- 三叉神經痛有 1 項已完成的 Phase 2/3 對照試驗（對照 carbamazepine）與 1 項雙盲安慰劑對照試驗，達 L2 證據，且機轉合理；但樣本僅約 20 人，指引僅列為輔助或替代選項。
+- 三叉神經腫瘤的高分缺乏機轉與證據支持，不應推進。
 
 **若要推進需要：**
-- 檢查 TxGNN 疾病名稱對應，確認「三叉神經腫瘤」是否誤對應到三叉神經痛。
-- 取得香港衛生署仿單，補齊警語、禁忌與交互作用資料。
-- 查閱歐洲神經學會 2019 指引全文，確認 lamotrigine 是附加或二線用藥。
-- 取得 NCT00913107、NCT00203229 的結果數據，確認小型試驗的療效。
-- 將 lamotrigine 定位為鈉離子通道一線藥物之後的附加或二線治療。
-
----
-
-*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後方可應用。*
+- 取得香港仿單的警語、禁忌與核准適應症資料，完成安全性篩選（目前為阻斷性資料缺口）
+- 補充藥物作用機轉資料
+- 設計較大樣本的對照試驗，或系統性彙整 lamotrigine 對三叉神經痛的現有試驗數據
+- 針對知識圖譜標示的血液疾病與肝病風險，擬定監測計畫
+- 確認三叉神經痛為仿單外使用，並評估其法規路徑
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

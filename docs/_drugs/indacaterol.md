@@ -2,7 +2,7 @@
 layout: default
 title: Indacaterol
 parent: 僅模型預測 (L5)
-nav_order: 459
+nav_order: 467
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,18 +29,20 @@ indication_count: 5
 
 </div>
 
-# Indacaterol：從長效 β2 支氣管擴張劑到腎因性抗利尿不適當症候群
+# Indacaterol：從慢性阻塞性肺病（推測）到腎因性抗利尿不適當症候群
 
 ## 一句話總結
 
-Indacaterol 是長效 β2 腎上腺素受體促效劑（吸入型支氣管擴張劑），香港以 Onbrez Breezhaler 等品名上市。
-TxGNN 模型預測它可能對**腎因性抗利尿不適當症候群 (NSIAD)** 有效，但目前**沒有直接支持的臨床試驗或文獻**，僅有模型預測（證據等級 L5）。
+Indacaterol 是一種超長效 β2 腎上腺素受體促效劑，香港已有多張吸入劑許可證。
+TxGNN 模型預測它可能對**腎因性抗利尿不適當症候群 (Nephrogenic Syndrome of Inappropriate Antidiuresis, NSIAD)** 有效，
+但目前**沒有任何臨床試驗或文獻**支持，且機轉上的作用方向可能不利。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 腎因性抗利尿不適當症候群 (Nephrogenic Syndrome of Inappropriate Antidiuresis, NSIAD) |
+| 原適應症 | 本次整理的資料中，許可證未載明核准適應症 |
+| 預測新適應症 | 腎因性抗利尿不適當症候群 (NSIAD) |
 | TxGNN 預測分數 | 99.54% |
 | 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
@@ -49,27 +51,17 @@ TxGNN 模型預測它可能對**腎因性抗利尿不適當症候群 (NSIAD)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據藥物類別，Indacaterol 是長效 β2 腎上腺素受體促效劑，透過 Gs/cAMP 訊號路徑作用。
+目前缺乏詳細的作用機轉資料。已知 Indacaterol 是超長效 β2 腎上腺素受體促效劑，以吸入粉末劑型上市，多與其他支氣管擴張劑或吸入性類固醇組成複方產品。
 
-從機轉來看，這個預測**缺乏可信的關聯**。NSIAD 的成因是 AVPR2 基因的功能增益突變，使腎臟的 cAMP 訊號已呈持續活化。再進一步活化 Gs 訊號，不太可能帶來幫助，理論上還可能加重水分滯留。0.995 的高分只是知識圖譜的推算結果，沒有任何試驗或文獻佐證。
+NSIAD 由抗利尿激素 V2 受體（AVPR2）的功能獲得性突變引起，會增加 cAMP 訊號並促使集尿管的水通道蛋白-2 插入細胞膜。β2 促效劑同樣會提高 cAMP，理論上可能**加重**水分滯留，而非改善病情。因此兩者的關聯僅屬推測，作用方向甚至可能不利。
 
-同一份預測清單中的其他候選也是相同情況，均為 L5、建議 Hold：
+99.54% 的高分只是模型預測，沒有試驗或文獻佐證，不宜視為療效證據。
 
-| 排名 | 預測適應症 | TxGNN 分數 | 機轉評估 |
-|------|-----------|-----------|---------|
-| 2 | 頭痛疾患 (Headache disorder) | 99.53% | 頭痛是吸入型 β2 促效劑常見的不良反應，方向相反 |
-| 3 | 三叉神經自主神經性頭痛 | 99.33% | 無已知機轉關聯 |
-| 4 | 腱鞘周圍炎 (Paratenonitis) | 99.26% | 無已知機轉關聯，吸入劑在肌肉骨骼部位的全身暴露極低 |
-| 5 | 鈣化性肌腱炎 | 99.25% | 無證據顯示 β2 促效作用影響肌腱鈣沉積 |
+另外四個較低排名的預測（頭痛疾患、三叉自律神經頭痛、腱鞘周圍炎、鈣化性肌腱炎）同樣只有模型預測，且機轉依據薄弱：頭痛本身就是 β2 促效劑的已知副作用，吸入給藥的全身暴露量也低，不利於肌腱疾病。
 
 ## 臨床試驗證據
 
-針對 NSIAD 沒有任何臨床試驗。以下兩項試驗是連結到排名 2「頭痛疾患」的資料，相關性評級皆為 C（無關），僅供參考：
-
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT02576626](https://clinicaltrials.gov/study/NCT02576626) | Phase 4 | 完成 | 40 | 比較 Indacaterol/Glycopyrronium 乾粉吸入器與噴霧器對穩定期 COPD 的 FEV1 與呼吸困難的影響，與頭痛無關 |
-| [NCT02165826](https://clinicaltrials.gov/study/NCT02165826) | Phase 3 | 完成 | 1,323 | 評估 Roflumilast 遞增劑量用於 COPD 的耐受性與藥動學，不是 Indacaterol 試驗，也與頭痛療效無關 |
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
@@ -77,35 +69,41 @@ TxGNN 模型預測它可能對**腎因性抗利尿不適當症候群 (NSIAD)** �
 
 ## 香港上市資訊
 
-香港共有 13 張許可證，以下列出 5 張主要許可證，核准適應症文字在資料中未提供：
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-67628 | ONBREZ BREEZHALER 吸入粉末 150mcg/膠囊 | 吸入粉末膠囊 | 未載明 |
+| HK-67725 | ONBREZ BREEZHALER 吸入粉末 300mcg/膠囊 | 吸入粉末膠囊 | 未載明 |
+| HK-60180 | ONBREZ BREEZHALER 吸入粉末 150mcg/膠囊 | 吸入粉末膠囊 | 未載明 |
+| HK-60179 | ONBREZ BREEZHALER 吸入粉末 300mcg/膠囊 | 吸入粉末膠囊 | 未載明 |
+| HK-67120 | ATECTURA BREEZHALER 吸入粉末硬膠囊 150mcg/160mcg | 吸入粉末硬膠囊 | 未載明 |
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-67628 | ONBREZ BREEZHALER INHALATION POWDER 150MCG/CAPSULE | Novartis Pharmaceuticals (HK) Limited |
-| HK-67725 | ONBREZ BREEZHALER INHALATION POWDER 300MCG/CAPSULE | Novartis Pharmaceuticals (HK) Limited |
-| HK-60180 | ONBREZ BREEZHALER INHALATION POWDER 150 MCG/CAPSULE | Novartis Pharmaceuticals (HK) Limited |
-| HK-60179 | ONBREZ BREEZHALER INHALATION POWDER 300 MCG/CAPSULE | Novartis Pharmaceuticals (HK) Limited |
-| HK-67120 | ATECTURA BREEZHALER INHALATION POWDER HARD CAPSULES 150MCG/160MCG | Novartis Pharmaceuticals (HK) Limited |
+以上為 13 張許可證中的 5 張，皆由 Novartis Pharmaceuticals (HK) Limited 持有，狀態皆為有效。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜中的禁忌疾病關聯**（來自模型知識圖譜，非仿單內容）：高血壓、長 QT 症候群（含家族性）、癲癇、高血糖、缺鉀症、糖尿病、糖尿病酮酸中毒、心因性猝死、心臟傳導疾病、甲狀腺毒症／甲狀腺機能亢進、葛瑞夫茲氏病、冠狀動脈疾病。
+- **藥物交互作用**：共查得 100 筆，以下為部分例子。
+  - 中度：Acarbose、Isometheptene、Famotidine、Epinephrine、Albiglutide、Alogliptin、Metformin、Pioglitazone、Canagliflozin、Chlorpropamide、Clarithromycin、Dapagliflozin、Saxagliptin
+  - 輕度：Hydrocortisone、Aprepitant、Triamcinolone、Dexamethasone、Beclomethasone dipropionate、Betamethasone、Budesonide
+
+  多種降血糖藥列為中度交互作用，與 β2 促效劑可能升高血糖的特性相符。
+
+仿單的警語與禁忌症資料尚未取得，完整安全性資訊請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 所有預測適應症都只有模型分數，沒有臨床試驗或文獻支持（L5）。
-- 首位的 NSIAD 在機轉上有反向風險，β2 促效可能加重 cAMP 訊號過度活化。
+- 所有預測適應症都只有模型預測（L5），沒有任何臨床試驗或文獻支持。
+- 對於排名第一的 NSIAD，β2 促效劑提高 cAMP 的作用，理論上可能加重水分滯留，方向可能相反。
 
 **若要推進需要：**
-- 取得香港衛生署仿單，確認警語、禁忌與核准適應症。
-- 補齊 DrugBank 的作用機轉資料，重新評估機轉關聯。
-- 針對 NSIAD 做系統性文獻檢索，以及 AVPR2/cAMP 路徑的前臨床機轉研究。
-- 在取得任何支持證據前，不建議進入後續評估階段。
-
-本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。
+- 取得香港仿單的警語與禁忌症，完成安全性初篩。
+- 補齊 Indacaterol 的作用機轉資料，釐清與 NSIAD 的機轉關聯與作用方向。
+- 進行文獻與臨床試驗檢索；若仍無證據，建議不再推進這些預測。
+- 若仍考慮推進，先做體外或動物的機轉驗證，確認 β2 促效劑對 AVPR2 相關 cAMP 訊號與水分排泄的影響。
+- 釐清各許可證的核准適應症，以確認原適應症。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

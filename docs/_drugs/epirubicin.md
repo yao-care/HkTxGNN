@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Epirubicin
-parent: 中證據等級 (L3-L4)
-nav_order: 323
-evidence_level: L4
+parent: 僅模型預測 (L5)
+nav_order: 328
+evidence_level: L5
 indication_count: 7
 ---
 
 # Epirubicin
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **7** 個
+證據等級: **L5** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,99 +29,121 @@ indication_count: 7
 
 </div>
 
-# Epirubicin：從多種惡性腫瘤化療到原發性肺淋巴瘤
+# Epirubicin：從乳癌到原發性肺淋巴瘤
 
 ## 一句話總結
 
-Epirubicin 是蔥環類（anthracycline）細胞毒性化療藥物，香港已有多張注射劑許可證，但資料中未載明核准適應症。
+Epirubicin（表柔比星）是一種蒽環類（anthracycline）化療藥，原本用於乳癌治療。
 TxGNN 模型預測它可能對**原發性肺淋巴瘤 (Primary Pulmonary Lymphoma)** 有效。
-目前**沒有登記中的臨床試驗**，僅有 **8 篇間接文獻**（多為病例報告、世代研究與含 epirubicin 的霍奇金淋巴瘤療程），證據偏弱。
+但目前**沒有相關臨床試驗**，只有 **6 篇**間接文獻，且多為一般淋巴瘤或病例報告，直接證據很弱。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證資料未載明 |
+| 原適應症 | 乳癌（乳腺癌、乳房腫瘤） |
 | 預測新適應症 | 原發性肺淋巴瘤 (Primary Pulmonary Lymphoma) |
 | TxGNN 預測分數 | 99.71% |
-| 證據等級 | L4 |
+| 證據等級 | L4（沒有直接研究，只有機轉合理性與間接文獻） |
 | 香港上市 | ✓ 已上市 |
-| 許可證數 | 10 張 |
+| 許可證數 | 10 張（皆為有效單一成分許可證） |
 | 建議決策 | Hold |
+
+註：香港許可證資料未載明核准適應症文字，上方原適應症取自藥物知識圖譜的適應症關聯。
+
+---
 
 ## 為什麼這個預測合理？
 
-Epirubicin 是 doxorubicin 的 4' 差向異構物，屬於抑制拓撲異構酶 II 的蔥環類藥物。蔥環類為基礎的複方化療（如 CHOP 類療程）本來就廣泛用於淋巴瘤，所以在機轉上，這個預測有一定合理性。
+Epirubicin 是 doxorubicin 的 4' 位差向異構物，屬於蒽環類藥物。它的作用方式是抑制拓撲異構酶 II 並嵌入 DNA，使腫瘤細胞 DNA 受損而死亡。這類藥物對快速增殖的腫瘤都有細胞毒性。
 
-不過，目前的支持證據都是間接的：
-- 含 epirubicin 的霍奇金淋巴瘤療程（MOPPEBVCAD、VEBEP）。
-- 一般淋巴瘤的世代研究。
-- 肺部或胸膜淋巴瘤的個案報告。
+淋巴瘤是對蒽環類敏感的腫瘤，epirubicin 也曾用於 CEOP/CEPP、VEBEP 等淋巴瘤方案。因此從生物學角度來看，它對淋巴系統惡性腫瘤有作用是合理的。
 
-沒有任何針對肺部淋巴瘤使用 epirubicin 的專屬研究。DrugBank 的作用機轉欄位目前缺資料，上述機轉說明來自預測資料的推論整理。
+不過目前資料有幾個限制：
+
+- 取得的文獻多在談一般淋巴瘤（瀰漫性大 B 細胞淋巴瘤、何杰金氏淋巴瘤）或肺／胸膜淋巴瘤的個案，沒有研究直接在原發性肺淋巴瘤中測試 epirubicin。
+- 標準 R-CHOP 方案已使用 doxorubicin 作為蒽環類骨幹，epirubicin 在此沒有明顯優勢。
+- 詳細的作用機轉資料目前缺乏，上述機轉說明是根據蒽環類藥物的一般特性。
+
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [7686469](https://pubmed.ncbi.nlm.nih.gov/7686469/) | 1993 | Review | Drugs | Epirubicin 藥效學、藥動學及化療應用回顧，在多種惡性腫瘤中療效與 doxorubicin 相當 |
-| [39192408](https://pubmed.ncbi.nlm.nih.gov/39192408/) | 2024 | Cohort | Zhongguo Shi Yan Xue Ye Xue Za Zhi | Rituximab 時代原發性結外 DLBCL 的單中心回溯分析，並非 epirubicin 專屬 |
-| [16428496](https://pubmed.ncbi.nlm.nih.gov/16428496/) | 2006 | Cohort | Clin Cancer Res | MOPPEBVCAD（含 epirubicin）加有限放療治療晚期霍奇金淋巴瘤的 10 年結果、晚期毒性與次發腫瘤 |
-| [10526668](https://pubmed.ncbi.nlm.nih.gov/10526668/) | 1999 | Cohort | Cancer J Sci Am | VEBEP 加受累野放療治療晚期霍奇金氏病的先導研究 |
-| [36237246](https://pubmed.ncbi.nlm.nih.gov/36237246/) | 2022 | Case report | Transl Cancer Res | 胸膜 MALT 淋巴瘤誤診的個案與文獻回顧，非 epirubicin 專屬 |
-| [1866500](https://pubmed.ncbi.nlm.nih.gov/1866500/) | 1991 | Review | Rev Invest Clin | 原發性肺非霍奇金淋巴瘤個案報告 |
-| [8386780](https://pubmed.ncbi.nlm.nih.gov/8386780/) | 1993 | Case report | Rinsho Ketsueki | 小細胞肺癌術後化療後出現惡性淋巴瘤，對化療明顯抗藥 |
-| [40728626](https://pubmed.ncbi.nlm.nih.gov/40728626/) | 2025 | Subgroup analysis | Ann Hematol | Pola-R-CHP 在 DLBCL 的表現，療程不含 epirubicin，相關性低 |
+| [7686469](https://pubmed.ncbi.nlm.nih.gov/7686469/) | 1993 | Review | Drugs | 回顧 epirubicin 的藥效、藥動與癌症化療用途；在晚期與早期乳癌等腫瘤中，療效與 doxorubicin 方案相當 |
+| [1866500](https://pubmed.ncbi.nlm.nih.gov/1866500/) | 1991 | Review（個案） | Rev Invest Clin | 一例肺部非何杰金氏淋巴瘤，伴出血性胸水，診斷困難 |
+| [40728626](https://pubmed.ncbi.nlm.nih.gov/40728626/) | 2025 | Cohort | Ann Hematol | 117 位 DLBCL 病人一線使用 Pola-R-CHP 的真實世界療效與安全性（與 epirubicin 無直接關係） |
+| [39192408](https://pubmed.ncbi.nlm.nih.gov/39192408/) | 2024 | Cohort | Zhongguo Shi Yan Xue Ye Xue Za Zhi | 利妥昔單抗時代原發性結外 DLBCL 的臨床特徵與預後因子 |
+| [10526668](https://pubmed.ncbi.nlm.nih.gov/10526668/) | 1999 | Cohort | Cancer J Sci Am | VEBEP 密集方案加受累野放療用於晚期何杰金氏病的長期結果 |
+| [36237246](https://pubmed.ncbi.nlm.nih.gov/36237246/) | 2022 | Case report | Transl Cancer Res | 中國首例胸膜 MALT 淋巴瘤，易被誤診 |
 
-另有一篇霍奇金淋巴瘤放療研究（PMID 7525516）與 epirubicin 無直接關係，未列入。
+---
 
 ## 香港上市資訊
 
-香港共登記 10 張許可證，以下列出 5 張主要許可證。資料中未載明劑型與核准適應症。
+香港共有 10 張有效許可證，以下列出 5 張（皆為注射液）。許可證資料未提供核准適應症文字。
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-65836 | ACCORD EPIRUBICIN HYDROCHLORIDE SOLUTION FOR INJECTION OR INFUSION 200MG/100ML | JACOBSON MARKETING LIMITED |
-| HK-66403 | ANTHRACIN SOLUTION FOR INJECTION 50MG/25ML | FRESENIUS KABI HONG KONG LIMITED |
-| HK-61697 | CIAZIL SOLUTION FOR INJECTION 10MG/5ML | LSB (HK) LIMITED |
-| HK-66402 | ANTHRACIN SOLUTION FOR INJECTION 200MG/100ML | FRESENIUS KABI HONG KONG LIMITED |
-| HK-65837 | ACCORD EPIRUBICIN HYDROCHLORIDE SOLUTION FOR INJECTION OR INFUSION 50MG/25ML | JACOBSON MARKETING LIMITED |
+| 許可證號 | 品名 | 劑型 | 持有廠商 |
+|---------|------|------|---------|
+| HK-44164 | PHARMORUBICIN CS INJ 2MG/ML | 注射液 | Pfizer Corporation Hong Kong |
+| HK-50380 | EPIRUBICIN EBEWE INJ 2MG/ML | 注射液 | Sandoz Hong Kong |
+| HK-61697 | CIAZIL SOLUTION FOR INJECTION 10MG/5ML | 注射液 | LSB (HK) |
+| HK-66403 | ANTHRACIN SOLUTION FOR INJECTION 50MG/25ML | 注射液 | Fresenius Kabi Hong Kong |
+| HK-65836 | ACCORD EPIRUBICIN HYDROCHLORIDE SOLUTION FOR INJECTION OR INFUSION 200MG/100ML | 注射液／輸注液 | Jacobson Marketing |
+
+---
 
 ## 細胞毒性
 
-以下為蔥環類藥物的一般特性，資料包中無 DrugBank toxicity 內容，詳細請以原廠仿單為準。
-
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 傳統細胞毒性藥物（蔥環類，拓撲異構酶 II 抑制劑） |
-| 骨髓抑制風險 | 高（常見嗜中性白血球減少） |
-| 致吐性分級 | 中至高，視劑量而定 |
-| 監測項目 | CBC（含分類）、肝腎功能、心臟功能（如 LVEF）；蔥環類另需留意累積劑量心臟毒性 |
+| 細胞毒性分類 | 傳統細胞毒性藥物（蒽環類，拓撲異構酶 II 抑制劑／DNA 嵌入劑） |
+| 骨髓抑制風險 | 高（知識圖譜亦顯示對嗜中性白血球低下、血小板低下為禁忌關聯） |
+| 致吐性分級 | 中至高度，視劑量而定 |
+| 監測項目 | CBC（含分類）、肝腎功能、心臟功能（如 LVEF）、口腔黏膜狀況 |
 | 處置防護 | 需依細胞毒性藥物處置規範操作 |
+
+以上為依藥物類別的一般判斷，詳細警語請參考原廠仿單。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌關聯疾病**（非仿單原文）：肝衰竭／肝病、腎臟病、膽囊疾病、血小板低下、嗜中性白血球低下、顆粒球缺乏症、心肌梗塞、冠狀動脈血栓、心肌病變（含肥厚型）、心臟傳導疾病、心因性猝死、心內膜心肌纖維化、血紅素病變、膿輸尿管、口腔炎。整體以**心臟毒性、骨髓抑制與肝腎功能不全**為主要考量。
+- **藥物交互作用**：共查得 100 筆，以下為已列出的部分。
+  - **嚴重 (Major)**：cimetidine、dolasetron
+  - **中度 (Moderate)**：acarbose、famotidine、pioglitazone、loperamide、bupropion、clarithromycin、levofloxacin、minocycline、naltrexone、palonosetron 等
+  - **輕微 (Minor)**：metronidazole
+
+仿單的主要警語與禁忌症資料尚未取得，請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 目前沒有任何臨床試驗，文獻多為病例報告、世代研究或不含 epirubicin 的研究。
-- 沒有肺部淋巴瘤使用 epirubicin 的直接證據，僅有機轉上的合理性。
+- 沒有任何針對原發性肺淋巴瘤的臨床試驗，文獻也多為一般淋巴瘤或個案，只有機轉合理性與模型分數支持。
+- 標準的 doxorubicin 為基礎方案（如 R-CHOP）已存在，epirubicin 沒有明確優勢，且有心臟毒性與骨髓抑制等顯著風險。
 
 **若要推進需要：**
-- 補齊香港衛生署仿單的警語與禁忌資料（目前為阻擋性缺口）。
-- 補充 DrugBank 的作用機轉資料。
-- 搜尋原發性肺淋巴瘤中含 epirubicin 療程的直接研究，並釐清 epirubicin 相對於標準 R-CHOP 的增益。
-- 同批預測中，**上消化道腫瘤**（L1，主要為含 epirubicin 的 ECF/EOX 療程，屬既有用法）與**小細胞肺癌**（L2）的證據明顯較強，可優先評估。
+- 取得並整理香港仿單的警語與禁忌症。
+- 補充詳細的作用機轉資料。
+- 系統性檢索 epirubicin 用於肺部／結外淋巴瘤的回溯性研究，並與 doxorubicin 方案比較。
+- 評估該族群的心臟與血液毒性監測計畫。
 
-> 本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。
+**其他預測適應症的參考：**
+同一份分析中，**小細胞肺癌**有 3 項 Phase 3 試驗（含 NCT00003606，直接測試在順鉑／依託泊苷方案加 epirubicin 與 cyclophosphamide 的價值），以及**上消化道腫瘤**（胃食道腺癌的 ECF/EOX 方案、MAGIC 試驗）有隨機試驗支持，證據明顯優於本適應症。若要優先投入資源，建議先評估這兩個方向，不過其效益與方向仍須回頭檢視試驗結果，且 epirubicin 在這些領域已逐漸被新方案取代。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

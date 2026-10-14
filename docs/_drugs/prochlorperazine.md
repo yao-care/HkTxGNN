@@ -2,7 +2,7 @@
 layout: default
 title: Prochlorperazine
 parent: 僅模型預測 (L5)
-nav_order: 721
+nav_order: 736
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ indication_count: 10
 
 </div>
 
-# Prochlorperazine：從（原適應症資料未載明）到視網膜營養不良
+# Prochlorperazine：從思覺失調症到視網膜失養症（模型預測首位）
 
 ## 一句話總結
 
-Prochlorperazine 是一種吩噻嗪（phenothiazine）類藥物，在香港已有 12 張許可證，但所取得的資料中沒有記載原核准適應症。
-TxGNN 模型預測它可能對**視網膜營養不良（伴或不伴眼外異常）**有效，預測分數很高（99.998%）。
-不過目前**沒有任何臨床試驗**，檢索到的 15 篇文獻也都沒有提到本藥，證據僅有模型預測。
+Prochlorperazine 是吩噻嗪（phenothiazine）類藥物，原本用於思覺失調症。
+TxGNN 模型預測分數最高的新適應症是**視網膜失養症 (retinal dystrophy with or without extraocular anomalies)**，但目前**沒有任何臨床試驗或文獻**支持。
+相對之下，排名第 10 的**躁期雙相情緒障礙 (manic bipolar affective disorder)** 在機轉上較合理，有 **7 篇間接文獻**，但沒有臨床試驗。
 
 ---
 
@@ -43,8 +43,8 @@ TxGNN 模型預測它可能對**視網膜營養不良（伴或不伴眼外異常
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證資料未載明 |
-| 預測新適應症 | 視網膜營養不良，伴或不伴眼外異常 (Retinal dystrophy with or without extraocular anomalies) |
+| 原適應症 | 思覺失調症（許可證資料未載明適應症文字，依知識圖譜適應症資料） |
+| 預測新適應症 | 視網膜失養症 (retinal dystrophy with or without extraocular anomalies) |
 | TxGNN 預測分數 | 99.998% |
 | 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
@@ -55,56 +55,56 @@ TxGNN 模型預測它可能對**視網膜營養不良（伴或不伴眼外異常
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Prochlorperazine 屬於吩噻嗪類藥物，依藥物類別推測，其作用與多巴胺 D2 受體拮抗有關。這是依類別推論，並非取自本次資料。
+目前缺乏詳細的作用機轉資料。Prochlorperazine 屬於吩噻嗪類藥物，一般認為其作用為多巴胺 D2 受體拮抗，這也是抗精神病藥效的基礎。
 
-視網膜營養不良是遺傳性視網膜退化疾病，屬於基因與結構層面的病變。目前沒有任何證據顯示 D2 拮抗作用能改變這類疾病的病程，因此機轉上並無已知的連結。
+首位預測的視網膜失養症，是由光受體或視網膜色素上皮功能的單基因缺陷所致，D2 拮抗作用與這些路徑之間沒有已知關聯。此高分應視為模型預測，並無試驗或文獻佐證，**無法認為機轉上合理**。
 
-TxGNN 分數很高，但它只代表知識圖譜上的關聯，不代表藥效。檢索到的文獻主要談眼外肌與眼眶疾病，看起來是疾病關鍵字的比對結果，不是藥物與疾病之間的證據。
+本次預測清單中的其他前幾名（水腦無腦畸形、先天性糖基化異常、X 連鎖近視、CMT1G、多小腦回畸形、非典型甘胺酸腦病變等）同樣缺乏機轉連結，也沒有任何證據。唯一例外是排名第 10 的躁期雙相情緒障礙：D2 拮抗正是抗精神病藥用於急性躁狂與躁動的機轉，與原適應症一致。不過現有文獻多為 1959–1965 年的病例報告與調查，證據屬間接性質，且已有研究更充分的抗精神病藥可用。
 
 ---
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記。
+目前無相關臨床試驗登記。（首位預測及排名第 10 的躁期雙相情緒障礙均無登記試驗。）
 
 ---
 
 ## 文獻證據
 
-以下 10 篇為檢索結果中的代表性文獻，皆為疾病背景類文獻，**沒有一篇提到 prochlorperazine 或其治療效果**。
+首位預測（視網膜失養症）目前無相關文獻。以下為排名第 10 的躁期雙相情緒障礙之文獻，僅供參考：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Seminars in Neurology | 複視的系統性問診與檢查方法 |
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Seminars in Ultrasound, CT, and MR | 眼眶感染多由鼻竇炎引起，臨床表現包括眼球突出、眼球運動受限 |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klinische Monatsblatter fur Augenheilkunde | 先天性眼瞼下垂的型態、合併症與檢查原則 |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan Journal of Ophthalmology | 先天性水晶體形狀異常的分類與表現 |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatric Radiology | 小兒眼部病變的鑑別診斷與影像特徵 |
-| [10192514](https://pubmed.ncbi.nlm.nih.gov/10192514/) | 1999 | Review | Progress in Retinal and Eye Research | 眼外肌本體感受器及其在視覺空間感知中的角色 |
-| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | Review | Journal of Binocular Vision and Ocular Motility | 先天性顱神經失神經支配疾病與眼肌麻痺 |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Case report | American Journal of Ophthalmology | 兩例單側隱眼畸形的臨床特徵 |
-| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | 未分類 | International Journal of Molecular Sciences | 先天性眼外肌纖維化合併視神經乳頭與視網膜異常 |
-| [31359131](https://pubmed.ncbi.nlm.nih.gov/31359131/) | 2019 | 未分類 | Human Genetics | 視黃酸訊息路徑相關的眼部發育缺陷之遺傳架構 |
+| [19461391](https://pubmed.ncbi.nlm.nih.gov/19461391/) | 2009 | Review | Journal of Psychiatric Practice | 回顧懷孕期間使用抗精神病藥的使用情形與安全性 |
+| [26819726](https://pubmed.ncbi.nlm.nih.gov/26819726/) | 2015 | Cohort | Journal of Pharmaceutical Health Care and Sciences | 以 FAERS 通報資料評估抗精神病藥與高血糖不良事件的關聯 |
+| [14242542](https://pubmed.ncbi.nlm.nih.gov/14242542/) | 1965 | Review | Obstetrics and Gynecology | 產褥期嚴重精神疾患的臨床處置建議 |
+| [14233737](https://pubmed.ncbi.nlm.nih.gov/14233737/) | 1964 | Review | American Journal of Psychiatry | 電痙攣治療併用吩噻嗪類與利血平的調查報告 |
+| [14222730](https://pubmed.ncbi.nlm.nih.gov/14222730/) | 1964 | Review | L'Encephale | 精神抑制劑治療過程中出現的精神失調表現 |
+| [14062306](https://pubmed.ncbi.nlm.nih.gov/14062306/) | 1963 | Review | La Tunisie Medicale | 躁動的本質與一般醫師的急診處置 |
+| [13617778](https://pubmed.ncbi.nlm.nih.gov/13617778/) | 1959 | Case report | Annales Medico-Psychologiques | 輕度躁鬱症患者使用 prochlorperazine 後出現意識混亂、夢樣發作 |
 
 ---
 
 ## 香港上市資訊
 
-本藥在香港共有 12 張許可證，以下列出 5 張主要許可證。取得的資料中未載明劑型與核准適應症。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-46144 | SERATIL TAB 5MG (WHITE) | 未載明 | 未載明 |
+| HK-06335 | METIL TAB 5MG | 未載明 | 未載明 |
+| HK-61940 | PROCHLOR TABLETS 5MG | 未載明 | 未載明 |
+| HK-11609 | PERATIL TAB 5MG (BLUE) | 未載明 | 未載明 |
+| HK-50611 | METIL-B TAB 5MG | 未載明 | 未載明 |
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-46144 | SERATIL TAB 5MG (WHITE) | CHRISTO PHARM LTD |
-| HK-06335 | METIL TAB 5MG | VICKMANS LABORATORIES LTD |
-| HK-61940 | PROCHLOR TABLETS 5MG | WAI LUN TRADING CO |
-| HK-11609 | PERATIL TAB 5MG (BLUE) | SYNCO (H.K.) LIMITED |
-| HK-50611 | METIL-B TAB 5MG | VICKMANS LABORATORIES LTD |
+本品共有 12 張有效單方許可證，上表僅列出其中 5 張。
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜中的禁忌疾病**（非仿單文字）：涵蓋心血管（高血壓、直立性低血壓、長 QT 症候群、尖端扭轉型心室頻脈、冠狀動脈疾病、心肌梗塞）、神經（癲癇、基底核疾病、局部手部肌張力不全、眼瞼痙攣、多系統萎縮）、血液（血小板低下、嗜中性白血球低下、顆粒球缺乏症）、肝腎與消化（肝病、腎病、膽囊疾病、胃潰瘍）、代謝（高血糖、肥胖）、其他（良性攝護腺增生、物質濫用/依賴、女性乳癌）等。
+- **藥物交互作用**：資料庫共 100 筆，其中列為**重大 (Major)** 的有 **Bupropion** 與 **Potassium citrate**；其餘多為中度，如降血糖藥（Metformin、Pioglitazone、Alogliptin、Acarbose、Canagliflozin、Chlorpropamide、Albiglutide）、抗膽鹼藥（Atropine、Hyoscyamine、Glycopyrronium）、Morphine、Clarithromycin、Epinephrine 等。
+
+其餘警語與禁忌症請參考原廠仿單。
 
 ---
 
@@ -113,16 +113,14 @@ TxGNN 分數很高，但它只代表知識圖譜上的關聯，不代表藥效�
 **決策：Hold**
 
 **理由：**
-- 預測只來自模型分數，沒有臨床試驗，檢索到的文獻也與本藥無關，證據等級為 L5。
-- 此疾病為遺傳性視網膜退化，沒有合理的藥理機轉支持，且安全性資料尚未取得。
+- 首位預測的視網膜失養症及其他前九名預測，皆無臨床試驗、無文獻，也找不到任何機轉連結，僅為模型運算的結果，不足以支持推進。
+- 排名第 10 的躁期雙相情緒障礙在機轉上較合理（證據等級 L4，可列為研究問題），但文獻老舊且屬間接證據，已有證據充分的替代藥物。
 
 **若要推進需要：**
-- 取得香港衞生署的仿單，確認核准適應症、警語與禁忌。
-- 補齊 DrugBank 的作用機轉資料，再評估與視網膜營養不良之間有無機轉連結。
-- 針對本藥與視網膜疾病重新做精準文獻檢索，並確認有無前臨床研究。
-- 其他預測中，**躁期雙相情緒障礙**（排名 10，L4）可作為較值得研究的方向，因為多巴胺 D2 拮抗劑與抗精神病藥物有類別上的關聯。目前只有類別層級與歷史安全性報告，缺乏療效證據，需先評估是否優於現有核准藥物，並留意癲癇閾值、錐體外症狀與遲發性運動障礙等風險。
-
-> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+- 取得完整作用機轉資料（MOA）
+- 取得香港衛生署仿單的警語與禁忌症，以進行安全性篩選
+- 若欲探索躁狂適應症：進行系統性文獻回顧，並與現有抗精神病藥比較是否有明確優勢
+- 對於視網膜失養症等罕見遺傳疾病：需先有前臨床或機轉研究，才值得重新評估
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

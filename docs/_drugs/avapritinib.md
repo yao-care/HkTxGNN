@@ -2,7 +2,7 @@
 layout: default
 title: Avapritinib
 parent: 僅模型預測 (L5)
-nav_order: 83
+nav_order: 85
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,20 @@ indication_count: 10
 
 </div>
 
-# Avapritinib：從 KIT/PDGFRA 激酶抑制劑到軸性脊椎幹骺端發育不良
+# Avapritinib：從胃腸道基質瘤到軸向脊椎骨幹骺端發育不良
 
 ## 一句話總結
 
-Avapritinib 是 KIT/PDGFRA 激酶抑制劑，已在香港上市，但本資料未提供其原適應症。
-TxGNN 模型預測它可能對**軸性脊椎幹骺端發育不良 (Axial Spondylometaphyseal Dysplasia)** 有效。
-目前**沒有任何臨床試驗或文獻**支持，僅有模型預測分數。
+Avapritinib 原本用於治療胃腸道基質瘤 (gastrointestinal stromal tumor)。
+TxGNN 模型預測它可能對**軸向脊椎骨幹骺端發育不良 (axial spondylometaphyseal dysplasia)** 有效，
+但目前**沒有任何臨床試驗或文獻**支持，僅為模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證資料未提供 |
-| 預測新適應症 | 軸性脊椎幹骺端發育不良 (Axial Spondylometaphyseal Dysplasia) |
+| 原適應症 | 胃腸道基質瘤 (gastrointestinal stromal tumor) |
+| 預測新適應症 | 軸向脊椎骨幹骺端發育不良 (axial spondylometaphyseal dysplasia) |
 | TxGNN 預測分數 | 99.92% |
 | 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
@@ -51,11 +51,27 @@ TxGNN 模型預測它可能對**軸性脊椎幹骺端發育不良 (Axial Spondyl
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Avapritinib 是 KIT 與 PDGFRA 激酶抑制劑，但原適應症資料不完整，無法直接比較原適應症與新適應症的關聯。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Avapritinib 是 KIT/PDGFRA 激酶抑制劑，在胃腸道基質瘤中的療效與這兩個標的相關。
 
-**這個預測在機轉上找不到合理連結。** 軸性脊椎幹骺端發育不良是罕見的遺傳性骨骼發育異常，與 KIT/PDGFRA 訊號路徑沒有已知關聯。99.92% 的分數只反映模型判斷，沒有試驗或文獻佐證。
+然而，軸向脊椎骨幹骺端發育不良是罕見的骨骼疾病（文獻提及可能與 CFAP410/C21orf2 相關），與 KIT 或 PDGFRA 訊號傳遞沒有已知的關聯。**目前無法建立機轉上的合理連結**，0.999 的高分只是知識圖譜的預測結果，不代表生物學上的支持。
 
-Top 10 預測中，有 7 個屬於運動神經元疾病（ALS 及相關疾病），推測反映知識圖譜中的鄰近關係。其中最有生物學合理性的是**肌萎縮性側索硬化症 (ALS)**：KIT 訊號相關的肥大細胞與神經發炎路徑曾被提出與 ALS 有關，其他酪胺酸激酶抑制劑也曾被探索。但本資料中沒有 Avapritinib 的 ALS 數據，其中樞神經穿透性與神經安全性也尚未釐清，仍屬弱且間接的假說。
+### 其他排名前列的預測
+
+排名前 10 的預測皆為 L5（僅模型預測、無臨床或文獻證據），建議皆為 Hold：
+
+| 排名 | 預測疾病 | TxGNN 分數 | 說明 |
+|------|---------|-----------|------|
+| 2 | 雙側旁矢狀頂枕多小腦回 | 99.92% | 與 KIT/PDGFRA 無已知關聯 |
+| 3 | 肌萎縮性脊髓側索硬化症 (ALS) | 99.92% | 僅有假說層級：其他 KIT 抑制劑（如 masitinib）曾被研究；但 Avapritinib 無資料，且有認知不良反應與顱內出血風險 |
+| 4 | 睫毛過長-視網膜色素變性-侏儒症候群 | 99.92% | 極罕見，無已知關聯 |
+| 5 | ALS 易感性 | 99.91% | 與 ALS 重疊，可能為重複的本體論詞條 |
+| 6 | ALS 第 22 型 | 99.91% | 與 TUBA4A 變異相關，可能只是圖譜鄰近性 |
+| 7 | 晚發性下運動神經元症候群 | 99.91% | 可能來自運動神經元疾病的圖譜相似性 |
+| 8 | 致死性關節攣縮-前角細胞疾病症候群 | 99.90% | 全身性激酶抑制劑缺乏生物學依據 |
+| 9 | 單肢肌萎縮症 | 99.89% | 屬良性、自限性疾病，風險效益不利 |
+| 10 | Mills 症候群 | 99.89% | 僅經 ALS 群集的圖譜鄰近性 |
+
+前 10 名中有 5 個與運動神經元疾病相關，可能反映知識圖譜的群集效應，而非獨立的訊號。
 
 ## 臨床試驗證據
 
@@ -67,11 +83,13 @@ Top 10 預測中，有 7 個屬於運動神經元疾病（ALS 及相關疾病）
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-67294 | AYVAKIT TABLETS 300MG | CSTONE PHARM (HK) HOLDING LIMITED |
-| HK-67293 | AYVAKIT TABLETS 200MG | CSTONE PHARM (HK) HOLDING LIMITED |
-| HK-67292 | AYVAKIT TABLETS 100MG | CSTONE PHARM (HK) HOLDING LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-67292 | AYVAKIT TABLETS 100MG | 未提供 | 未提供 |
+| HK-67293 | AYVAKIT TABLETS 200MG | 未提供 | 未提供 |
+| HK-67294 | AYVAKIT TABLETS 300MG | 未提供 | 未提供 |
+
+三張許可證皆為單方、有效，持證商為 CSTONE PHARM (HK) HOLDING LIMITED。
 
 ## 細胞毒性
 
@@ -85,24 +103,25 @@ Top 10 預測中，有 7 個屬於運動神經元疾病（ALS 及相關疾病）
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **藥物交互作用**：資料庫共收錄 100 筆交互作用，其中以下為部分重要項目：
+  - **嚴重 (Major)**：Aprepitant、Acetylsalicylic acid（阿斯匹靈）、Clarithromycin、Dexamethasone、Cobicistat、Deferasirox、Deferiprone、Ibritumomab tiuxetan、Tositumomab (I-131)、Samarium (153Sm) lexidronam
+  - **中度 (Moderate)**：Cimetidine、Clotrimazole、Miconazole、Fenfluramine、Dexfenfluramine、Sibutramine、Glycerol phenylbutyrate、Metreleptin、Troglitazone、Strontium chloride Sr-89
+
+其他警語與禁忌症資料請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 證據等級為 L5，只有模型預測，沒有試驗、文獻或明確的機轉連結。
-- 香港仿單的警語與禁忌症資料尚未取得，無法進入安全性初篩。
+- 預測新適應症僅有 TxGNN 模型分數支持，沒有臨床試驗、文獻，也沒有合理的機轉連結。
+- Avapritinib 已知有神經認知不良反應與出血風險，對罕見骨骼或神經退化性疾病的風險效益難以支持。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單，補齊原適應症、警語與禁忌症。
-- 補充 Avapritinib 的作用機轉資料（可查詢 DrugBank）。
-- 若要探索神經退化方向，先評估 ALS 相關的前臨床證據、中樞神經穿透性與神經安全性。
-- 將 ALS 相關的重複預測（含易感性、第 22 型等）合併評估，不當作獨立適應症。
-- 在出現任何支持證據前，不建議投入資源在罕見遺傳性骨骼或皮質發育異常的預測上。
-
-*本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。*
+- 補齊 Avapritinib 的作用機轉資料，並分析 KIT/PDGFRA 與預測疾病的生物學關聯
+- 取得香港仿單的警語、禁忌與核准適應症資料，完成安全性篩選
+- 進行文獻與試驗檢索，確認是否存在前臨床證據
+- 若要探索，優先考慮機轉假說較明確的 ALS，並評估中樞神經穿透性與安全性
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

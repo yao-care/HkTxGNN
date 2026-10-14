@@ -2,7 +2,7 @@
 layout: default
 title: Emicizumab
 parent: 僅模型預測 (L5)
-nav_order: 311
+nav_order: 316
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,119 +29,105 @@ indication_count: 10
 
 </div>
 
-# Emicizumab：從先天性 A 型血友病到偽性類血友病性 von Willebrand 病 (Pseudo-von Willebrand disease)
+# Emicizumab：從血友病到後天性血友病 A（後天性凝血因子缺乏）
 
 ## 一句話總結
 
-Emicizumab 是模擬活化第 VIII 因子 (FVIIIa) 功能的雙特異性抗體，原本用於先天性 A 型血友病的預防治療。
-TxGNN 模型預測它可能對 **偽性 von Willebrand 病 (pseudo-von Willebrand disease)** 有效，但**目前無任何臨床試驗或文獻**支持，機轉上也缺乏合理性，屬於高分但證據薄弱的預測。
-本報告同時整理其他 9 個預測適應症，其中**後天性血友病 A** 的證據最強（見「其他預測適應症」章節）。
+Emicizumab 是一種雙特異性抗體，原本用於治療血友病（hemophilia）。
+TxGNN 模型的首位預測為 pseudo-von Willebrand disease，但該預測完全缺乏臨床證據；本報告改以證據最充分的**後天性凝血因子缺乏 (Acquired coagulation factor deficiency，主要為後天性血友病 A)** 作為重點評估對象，目前有 **20 篇文獻**支持，其中包含 2 項前瞻性試驗（Phase 2 與 Phase 3，皆為單臂開放標示）。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 先天性 A 型血友病（依文獻描述；香港許可證未提供適應症文字） |
-| 預測新適應症 | 偽性 von Willebrand 病 (pseudo-von Willebrand disease) |
-| TxGNN 預測分數 | 99.99%（全體排名第 514） |
-| 證據等級 | L5 |
+| 原適應症 | 血友病（hemophilia）、女性帶因者的症狀性血友病（香港許可證未收錄適應症文字） |
+| 預測新適應症 | 後天性凝血因子缺乏 (Acquired coagulation factor deficiency)，以後天性血友病 A 為主 |
+| TxGNN 預測分數 | 99.90%（全體排名第 2678） |
+| 證據等級 | L2（僅有單臂、非隨機試驗，未達 L1） |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 4 張 |
-| 建議決策 | Hold |
+| 建議決策 | Proceed with Guardrails |
+
+> 說明：TxGNN 分數最高的前三項預測（pseudo-von Willebrand disease 99.99%、primary release disorder of platelets 99.99%、Glanzmann thrombasthenia 99.98%）分數雖高，但缺乏臨床證據或機轉依據，詳見結論。
+
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Emicizumab 是一種雙特異性抗體，能同時結合 FIXa 與 FX，取代 FVIII 的輔因子功能，促進凝血酶生成。
+目前缺乏詳細的作用機轉資料（資料庫未收錄）。根據藥理學資料，emicizumab 是雙特異性抗體，同時結合活化的凝血因子 IX (FIXa) 與因子 X (FX)，取代活化因子 VIII 的輔因子功能，結合親和力 (KD) 分別約為 1.52 μM 與 0.98 μM。
 
-偽性 von Willebrand 病是血小板型疾病，成因是 GPIb 功能增強型突變，使血小板與 VWF 的親和力異常升高。Emicizumab 補的是凝血因子 (FVIII) 的功能，並不處理血小板缺陷。
+後天性血友病 A 是自體抗體中和內源性因子 VIII 所致的出血疾病，和先天性血友病 A 在功能缺陷上相同（缺乏 FVIII 活性）。Emicizumab 在結構上與 FVIII 無關，一般不會被抗 FVIII 自體抗體中和，因此在機轉上直接且合理。
 
-因此這個高分主要來自知識圖譜中「出血性疾病」的鄰近關係，缺乏生物學上的直接支持。目前沒有臨床試驗或文獻。
+現有證據包括日本 Phase 3 研究（AGEHA）、德國 Phase 2 研究（GTH-AHA-EMI）、共識建議、比較性世代研究與真實世界資料。
+
+---
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記
+目前無相關臨床試驗登記（臨床試驗登記庫中未檢索到資料）。不過下列文獻已報告兩項前瞻性試驗（AGEHA、GTH-AHA-EMI）的結果，詳見文獻證據。
+
+---
 
 ## 文獻證據
 
-目前無相關文獻
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [36696195](https://pubmed.ncbi.nlm.nih.gov/36696195/) | 2023 | 前瞻性 Phase 3（AGEHA，單臂） | J Thromb Haemost | Emicizumab 預防後天性血友病 A 出血的首個前瞻性研究 |
+| [39134043](https://pubmed.ncbi.nlm.nih.gov/39134043/) | 2025 | 前瞻性研究最終分析 | Thromb Haemost | 納入不適合免疫抑制治療者與長期預防資料 |
+| [37858328](https://pubmed.ncbi.nlm.nih.gov/37858328/) | 2023 | Phase 2（GTH-AHA-EMI，單臂） | Lancet Haematol | 前 12 週預防出血並可延後免疫抑制治療 |
+| [38049124](https://pubmed.ncbi.nlm.nih.gov/38049124/) | 2024 | 共識建議 | Hamostaseologie | GTH-AHA 工作小組的使用建議 |
+| [40795229](https://pubmed.ncbi.nlm.nih.gov/40795229/) | 2025 | 世代研究 | Blood Adv | 2 年追蹤顯示存活獲益，免疫抑制可延後 |
+| [38936699](https://pubmed.ncbi.nlm.nih.gov/38936699/) | 2024 | 比較性世代研究 | J Thromb Haemost | 比較 emicizumab 與免疫抑制治療的處置策略 |
+| [39361769](https://pubmed.ncbi.nlm.nih.gov/39361769/) | 2024 | 真實世界回溯性世代 | Blood Adv | 美國 12 個血友病中心 62 名仿單外使用患者 |
+| [39536818](https://pubmed.ncbi.nlm.nih.gov/39536818/) | 2025 | Review | J Thromb Haemost | Emicizumab 時代的後天性血友病 A 處置方式 |
+| [40683780](https://pubmed.ncbi.nlm.nih.gov/40683780/) | 2025 | Review | Blood Rev | 後天性血友病 A 處置的最新趨勢 |
+| [37276345](https://pubmed.ncbi.nlm.nih.gov/37276345/) | 2023 | 病例系列 | Haemophilia | Emicizumab 用於後天性血友病 A 的病例經驗 |
+
+---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-65932 | HEMLIBRA 注射液 60MG/0.4ML | ROCHE HONG KONG LIMITED |
-| HK-65934 | HEMLIBRA 注射液 30MG/1ML | ROCHE HONG KONG LIMITED |
-| HK-65935 | HEMLIBRA 注射液 150MG/1ML | ROCHE HONG KONG LIMITED |
-| HK-65933 | HEMLIBRA 注射液 105MG/0.7ML | ROCHE HONG KONG LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-65932 | HEMLIBRA SOLUTION FOR INJECTION 60MG/0.4ML | 注射液 | 未提供 |
+| HK-65934 | HEMLIBRA SOLUTION FOR INJECTION 30MG/1ML | 注射液 | 未提供 |
+| HK-65935 | HEMLIBRA SOLUTION FOR INJECTION 150MG/1ML | 注射液 | 未提供 |
+| HK-65933 | HEMLIBRA SOLUTION FOR INJECTION 105MG/0.7ML | 注射液 | 未提供 |
 
-## 其他預測適應症
+製造商皆為 ROCHE HONG KONG LIMITED。
 
-Evidence Pack 共含 10 個預測適應症，以下依證據強度整理。
-
-| 排名 | 預測適應症 | 分數 | 證據等級 | 決策 | 說明 |
-|-----|-----------|------|---------|------|------|
-| 5 | 後天性凝血因子缺乏症（證據集中於**後天性血友病 A**） | 99.90% | L2 | Proceed with Guardrails | 機轉直接、有前瞻性研究，詳見下方 |
-| 3 | Glanzmann 血小板無力症 | 99.98% | L4 | Hold | 缺陷在血小板聚集，Emicizumab 無法修復。相關文獻談的是 rFVIIa，並非 Emicizumab |
-| 1 | 偽性 von Willebrand 病 | 99.99% | L5 | Hold | 見上文 |
-| 2、4、6、7、9 | 原發性血小板釋放障礙、Scott 症候群、膠原蛋白受體缺陷、先天性血小板減少出血症、胎兒新生兒同種免疫性血小板減少症 | 99.5–99.99% | L5 | Hold | 缺陷在血小板，機轉上無支持，也無臨床證據 |
-| 8 | 血栓性血小板減少性紫斑症 (TTP) | 99.61% | L5 | Hold | 促凝藥物在血栓性微血管病變中機轉不利，可能惡化病情。**視為偽陽性，不建議推進** |
-| 10 | flood factor deficiency | 99.40% | L5 | Hold | 疾病名稱含糊，可能是資料映射錯誤，需先確認疾病本體條目 |
-
-### 後天性血友病 A 的機轉
-
-後天性血友病 A 是自體抗體中和 FVIII 所致。Emicizumab 結構上與 FVIII 無關，不會被抗 FVIII 抑制物中和，因此能直接恢復止血功能。
-
-證據限於後天性血友病 A，不能推廣到所有後天性凝血因子缺乏。評為 L2 而非 L1，是因為前瞻性研究均為單臂、非隨機試驗，沒有 RCT。
-
-### 相關臨床試驗
-
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT04398628](https://clinicaltrials.gov/study/NCT04398628) | N/A | 招募中 | 3000 | ATHN Transcends：非腫瘤性血液疾病治療安全性與效果的自然史觀察性世代研究。非介入性、非疾病特異，是否納入後天性血友病 A 病人尚無法確認 |
-
-此試驗亦出現在 Glanzmann 血小板無力症的證據中，但同樣無法確認有納入該疾病的 Emicizumab 使用者。
-
-### 相關文獻（列出 10 篇，另有其餘未列）
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [36696195](https://pubmed.ncbi.nlm.nih.gov/36696195/) | 2023 | Phase 3 單臂試驗 (AGEHA) | J Thromb Haemost | 首個 Emicizumab 用於後天性血友病 A 的前瞻性、多中心、開放標籤 Phase 3 研究 |
-| [37858328](https://pubmed.ncbi.nlm.nih.gov/37858328/) | 2023 | Phase 2 單臂試驗 (GTH-AHA-EMI) | Lancet Haematol | 檢驗 Emicizumab 能否在前 12 週預防出血並延後免疫抑制治療 |
-| [39134043](https://pubmed.ncbi.nlm.nih.gov/39134043/) | 2025 | Phase 3 最終分析 (AGEHA) | Thromb Haemost | 納入不適合免疫抑制治療的病人 (Cohort 2) 與長期預防資料 |
-| [39361769](https://pubmed.ncbi.nlm.nih.gov/39361769/) | 2024 | 多中心真實世界世代研究 | Blood Adv | 美國 12 個血友病中心、62 位病人的仿單外使用，中位治療 10 週 |
-| [40795229](https://pubmed.ncbi.nlm.nih.gov/40795229/) | 2025 | 世代研究 | Blood Adv | GTH-AHA-EMI 病人的 2 年追蹤，探討 Emicizumab 與延後免疫抑制的存活效益 |
-| [38936699](https://pubmed.ncbi.nlm.nih.gov/38936699/) | 2024 | 比較性分析（類型待確認） | J Thromb Haemost | 比較 Emicizumab 與免疫抑制治療，評估能否減少早期積極免疫抑制的需求 |
-| [38049124](https://pubmed.ncbi.nlm.nih.gov/38049124/) | 2024 | 共識建議 | Hamostaseologie | GTH-AHA 工作小組的 Emicizumab 使用建議 |
-| [39536818](https://pubmed.ncbi.nlm.nih.gov/39536818/) | 2025 | Review | J Thromb Haemost | 後天性血友病 A 在 Emicizumab 時代的敘述性回顧與處置方式 |
-| [36795341](https://pubmed.ncbi.nlm.nih.gov/36795341/) | 2023 | Review | Blood Transfus | 探討 Emicizumab 用於後天性血友病 A 的優缺點 |
-| [37276345](https://pubmed.ncbi.nlm.nih.gov/37276345/) | 2023 | 病例系列 | Haemophilia | Emicizumab 用於後天性血友病 A 的病例系列 |
+---
 
 ## 安全性考量
 
-- **血栓性微血管病變**：Emicizumab 與 aPCC（活化凝血酶原複合物）併用時有仿單警語，血栓風險需特別留意。這也是 TTP 預測不建議推進的原因之一。
+- **藥物交互作用**（共 5 筆）：
+  - **Anti-inhibitor coagulant complex (aPCC)：重大 (Major)**，併用有血栓性微血管病變與血栓事件風險。
+  - Coagulation factor VIIa（重組）：中度。
+  - Antihemophilic factor（重組人類因子 VIII）：中度。
+  - 藥理標的：凝血因子 IX、凝血因子 X（作用機轉所致）。
+- **TTP 的安全訊號**：emicizumab 促進凝血，並有血栓性微血管病變的通報，對 TTP 屬機轉上不適合。
+- **檢驗干擾**：emicizumab 會干擾以 aPTT 與一階段凝血試驗為基礎的檢驗，監測時須注意。
 
-其餘警語、禁忌症與藥物交互作用資料，請參考原廠仿單。
+其他警語與禁忌症請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
-**決策：Hold**（針對排名第 1 的偽性 von Willebrand 病）
+**決策：Proceed with Guardrails**（針對後天性血友病 A）
 
 **理由：**
-- 只有模型分數，沒有任何臨床試驗或文獻。機轉上 FVIII 模擬功能也無法修復血小板 GPIb 缺陷，屬於 L5 證據。
-- 本候選整體中，僅**後天性血友病 A** 值得優先評估（L2，Proceed with Guardrails）。
+- 有 Phase 3 與 Phase 2 前瞻性研究及多項世代資料支持，機轉直接合理，但試驗皆為單臂非隨機，故為 L2。
+- 其餘預測多為 L5 或機轉不符，建議 Hold：pseudo-von Willebrand disease、血小板釋放障礙、Scott syndrome、膠原受體缺陷、體質性血小板減少、FNAIT 缺乏機轉依據。**TTP** 很可能是偽陽性且有潛在傷害。Glanzmann thrombasthenia 僅有間接文獻（rFVIIa），列為研究問題。「flood factor deficiency」疾病名稱不明確，需先釐清。
 
 **若要推進需要：**
-- 確認採用哪個預測適應症作為主要評估對象，建議改以後天性血友病 A 為主軸。
-- 取得香港衞生署的仿單，補足警語、禁忌症與核准適應症。
-- 取得 Emicizumab 的完整作用機轉資料 (DrugBank)。
-- 後天性血友病 A 的推進條件：
-  - 釐清仿單外使用的法規狀態。
-  - 訂定併用 aPCC 等旁路製劑的血栓風險管控。
-  - 制定是否併用免疫抑制治療的決策準則。
-  - 補齊其餘未列出的文獻。
-- 偽性 von Willebrand 病與其他血小板疾病：除非有新的機轉或臨床證據，否則不建議投入。
-
-*本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。*
+- 取得香港衛生署核准的仿單，確認適應症、警語與禁忌症（目前缺漏）。
+- 補充詳細的作用機轉資料（DrugBank）。
+- 以隨機對照或較大型前瞻性資料確認療效，並比較 emicizumab 與免疫抑制治療。
+- 制定血栓風險管理（避免併用 aPCC、謹慎併用 rFVIIa）與檢驗監測計畫。
+- 確認香港對後天性血友病 A 仿單外使用的法規與給付路徑。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

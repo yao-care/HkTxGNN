@@ -2,7 +2,7 @@
 layout: default
 title: Riluzole
 parent: 僅模型預測 (L5)
-nav_order: 759
+nav_order: 774
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,13 +29,13 @@ indication_count: 5
 
 </div>
 
-# Riluzole：從原核准適應症（資料未載明）到雙側旁矢狀頂枕葉多小腦回畸形
+# Riluzole：從肌萎縮性脊髓側索硬化症到雙側矢狀旁頂枕多小腦回症
 
 ## 一句話總結
 
-Riluzole（利魯唑）已在香港上市，但本次資料中沒有記載它的原適應症。
-TxGNN 模型預測它可能對**雙側旁矢狀頂枕葉多小腦回畸形 (Bilateral Parasagittal Parieto-occipital Polymicrogyria)** 有效。
-目前**沒有臨床試驗和文獻**支持，僅有模型預測。
+Riluzole 原本用於治療肌萎縮性脊髓側索硬化症（ALS）。
+TxGNN 模型預測它可能對**雙側矢狀旁頂枕多小腦回症 (bilateral parasagittal parieto-occipital polymicrogyria)** 有效，
+但目前**沒有臨床試驗和文獻**支持這個預測，僅為模型推論。
 
 ---
 
@@ -43,7 +43,8 @@ TxGNN 模型預測它可能對**雙側旁矢狀頂枕葉多小腦回畸形 (Bila
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 雙側旁矢狀頂枕葉多小腦回畸形 (Bilateral Parasagittal Parieto-occipital Polymicrogyria) |
+| 原適應症 | 肌萎縮性脊髓側索硬化症 (ALS) |
+| 預測新適應症 | 雙側矢狀旁頂枕多小腦回症 (bilateral parasagittal parieto-occipital polymicrogyria) |
 | TxGNN 預測分數 | 99.99% |
 | 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
@@ -54,39 +55,44 @@ TxGNN 模型預測它可能對**雙側旁矢狀頂枕葉多小腦回畸形 (Bila
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位為空）。
-根據預測的推論說明，Riluzole 是麩胺酸釋放抑制劑，也會調節鈉離子通道。
+目前缺乏詳細的作用機轉資料。依一般藥理知識，Riluzole 是麩胺酸釋放抑制劑，並可調節電壓門控鈉離子通道。皮質發育異常（如多小腦回症）常伴隨癲癇與興奮性訊號異常，因此在麩胺酸系統上存在理論上的關聯。
 
-多小腦回畸形是胚胎發育期形成的大腦皮質結構異常。調節麩胺酸神經傳導，預期無法逆轉已形成的結構缺陷，因此**目前找不到明確的機轉連結**。
+不過，多小腦回症是結構性的神經發育缺陷，Riluzole 不太可能逆轉這種結構異常。0.9999 的 TxGNN 分數只是計算預測，不等於臨床有效。
 
-TxGNN 的高分更可能來自知識圖譜的拓撲關係，而不是已證實的生物學關聯。在現有資料中，這個預測沒有任何臨床或文獻證據佐證，應視為純模型預測。
+**其他候選適應症參考：** 同一份預測中，生物學上最合理的是「晚發成人型下運動神經元症候群 (lower motor neuron syndrome with late-adult onset)」（分數 99.99%，排名第 3）。它與 ALS 同屬運動神經元疾病，降低麩胺酸興奮毒性的機轉可能適用，適合作為專家審閱與文獻檢索的優先對象。但目前同樣無試驗或文獻佐證，仍為 L5。其餘候選（軸向脊椎干骺端發育不良、毛髮過長-視網膜色素變性-侏儒症候群、致死性關節攣縮-前角細胞疾病症候群）機轉關聯薄弱或僅間接相關。
 
 ---
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記
+目前無相關臨床試驗登記。
 
 ---
 
 ## 文獻證據
 
-目前無相關文獻
+目前無相關文獻。
 
 ---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-42525 | RILUTEK TAB 50MG | SANOFI HONG KONG LIMITED |
-| HK-67243 | TEGLUTIK ORAL SUSPENSION 5MG/ML | LEE'S PHARMACEUTICAL (H.K) LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-42525 | RILUTEK TAB 50MG（賽諾菲香港） | 錠劑（依品名） | 未提供 |
+| HK-67243 | TEGLUTIK ORAL SUSPENSION 5MG/ML（Lee's Pharmaceutical） | 口服懸液劑（依品名） | 未提供 |
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌相關疾病**（來自知識圖譜關聯，非仿單文字）：嗜中性白血球低下、顆粒球缺乏症、物質濫用/依賴、高膽紅素血症、遺傳性高膽紅素血症、Gilbert 症候群、間質性肺病、藥物性肝損傷。
+- **藥物交互作用**：共查得 44 筆，以下為部分範例：
+  - 中度：Obeticholic acid、Naltrexone、Deferasirox、Osilodrostat、Anagrelide、Asparaginase、Brentuximab vedotin、Clofarabine、Methotrexate、Epirubicin
+  - 輕度：Omeprazole、Caffeine、Theophylline、Aminophylline
+  - 等級未明：Metformin、Simvastatin、Ranitidine、Cyanocobalamin、Salbutamol、Ibuprofen
+
+完整警語與禁忌請參考原廠仿單。
 
 ---
 
@@ -95,20 +101,14 @@ TxGNN 的高分更可能來自知識圖譜的拓撲關係，而不是已證實�
 **決策：Hold**
 
 **理由：**
-- 只有模型預測（L5），沒有任何臨床試驗或文獻佐證，機轉上也看不出合理的連結。
-- 香港仿單的警語與禁忌資料尚未取得，無法進入安全性篩選。
+- 此預測僅有模型分數，沒有任何臨床試驗或文獻佐證（L5），且多小腦回症為結構性發育異常，藥理上難以預期有療效。
+- 作用機轉資料與仿單安全資訊也尚未取得，無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單（警語、禁忌症、核准適應症），這是目前的阻擋項。
-- 補齊 Riluzole 的作用機轉（MOA）和原適應症資料，可從 DrugBank 取得。
-- 做針對性的文獻搜尋，確認是否有多小腦回畸形相關的研究。
-- 優先評估其他預測候選，其中以「晚發性成人下運動神經元症候群 (Lower Motor Neuron Syndrome with Late-adult Onset)」的生物學合理性最高。該疾病涉及運動神經元退化，與 Riluzole 的麩胺酸調節與神經保護機轉相符，但同樣沒有試驗或文獻佐證，下一步應針對 Riluzole 與下運動神經元疾病做文獻檢索。
-- 其餘三個候選的機轉連結薄弱或缺乏支持，同樣維持 Hold：
-  - 軸向脊椎干骺端發育不良 (Axial Spondylometaphyseal Dysplasia)：骨骼發育異常，與 Riluzole 的作用無已知關聯。
-  - 多毛症-視網膜色素變性-侏儒症候群 (Trichomegaly-Retina Pigmentary Degeneration-Dwarfism Syndrome)：僅有推測性的視網膜神經保護理由。
-  - 致死性關節攣縮-前角細胞疾病症候群 (Lethal Arthrogryposis-Anterior Horn Cell Disease Syndrome)：雖與運動神經元有鬆散關聯，但此病為先天性且致死，安全性與可行性存疑。
-
-> 本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。
+- 取得香港衛生署仿單的警語與禁忌症，並補齊作用機轉資料
+- 系統性檢索多小腦回症與 Riluzole 的文獻及試驗登記
+- 優先請專家評估「晚發成人型下運動神經元症候群」這個生物學上更合理的候選
+- 若有進展，再評估劑型（錠劑／口服懸液）與目標族群的適配性
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

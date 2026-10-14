@@ -2,15 +2,15 @@
 layout: default
 title: Desmopressin
 parent: 中證據等級 (L3-L4)
-nav_order: 254
-evidence_level: L4
+nav_order: 259
+evidence_level: L3
 indication_count: 10
 ---
 
 # Desmopressin
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L3** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,83 +29,123 @@ indication_count: 10
 
 </div>
 
-# Desmopressin：從現有用途到先天性凝血酶原缺乏症
+# Desmopressin：從血友病／血管性血友病到原發性血小板釋放障礙
 
 ## 一句話總結
 
-Desmopressin 是一種已在香港上市的合成抗利尿激素類似物，有錠劑、口溶錠和注射劑等劑型。
-TxGNN 模型預測它可能對**先天性凝血酶原缺乏症 (Congenital Prothrombin Deficiency)** 有效，但目前**沒有直接支持的臨床試驗或文獻**，高分較可能來自知識圖譜中與其他先天性凝血因子疾病的相近性。
+Desmopressin 原本用於遺傳性血管性血友病（von Willebrand disease）、血友病與夜間遺尿症。
+TxGNN 模型的預測中，最值得進一步評估的是**原發性血小板釋放障礙 (Primary release disorder of platelets)**，
+目前**無臨床試驗登記**，但有 **9 篇文獻**（含 1 篇 2023 年綜述、1 篇兒童世代研究）提供間接支持。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 先天性凝血酶原缺乏症 (Congenital Prothrombin Deficiency) |
-| TxGNN 預測分數 | 99.70% |
-| 證據等級 | L4 |
+| 原適應症 | 目前許可證資料未載明適應症文字；知識圖譜列出的原適應症為遺傳性血管性血友病、血友病、夜間遺尿症 |
+| 預測新適應症 | 原發性血小板釋放障礙 (Primary release disorder of platelets)（綜合評估後的首選；TxGNN 排名第 1 的是先天性凝血酶原缺乏症，但機轉連結薄弱） |
+| TxGNN 預測分數 | 99.26%（排名第 1 的先天性凝血酶原缺乏症為 99.70%） |
+| 證據等級 | L3 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 14 張 |
-| 建議決策 | Hold |
+| 建議決策 | Proceed with Guardrails |
+
+> 說明：TxGNN 分數高低並不代表臨床價值。前 10 名預測中，只有「原發性血小板釋放障礙」達到 L3 並進入下一階段；其餘多為 Hold 或研究問題。
+
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Desmopressin 透過刺激內皮細胞釋放，提高血漿中的第八凝血因子 (FVIII) 與血管性血友病因子 (VWF)，因此臨床上常用於輕度 A 型血友病與部分類型的血管性血友病。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Desmopressin 是合成的血管加壓素類似物，透過 V2 受體促使內皮細胞釋放血管性血友病因子（VWF）與第八凝血因子（FVIII）。其在血管性血友病與輕度血友病 A 的療效已被證實，機轉上可能適用於部分血小板功能異常。
 
-不過，先天性凝血酶原缺乏症是第二凝血因子 (FII) 不足，Desmopressin **不會提高凝血酶原**，機轉上沒有直接支持它有效的理由。相關文獻中最接近的，是 1989 年一例先天性第五、第八因子合併缺乏的個案報告，其中的 FVIII 部分可能對 Desmopressin 有反應，但這並不能推論到 FII 缺乏。
+原發性血小板釋放障礙與儲存池缺陷屬於血小板功能異常。文獻顯示，Desmopressin 可提高 VWF 與 FVIII、增強血小板黏附與促凝活性，並縮短這類病人的出血時間。一項兒童研究評估了其對阿斯匹靈樣缺陷（遺傳性血小板病變）初級止血的影響。2023 年的綜述也整理了它作為止血與節血藥物的角色。
 
-因此這個高分預測比較像是圖譜上「同屬先天性凝血因子疾病」的相近性，而非有藥理依據的關聯。
+但證據多為小型或觀察性研究，個體反應不一，確切機轉仍有爭議（VWF/FVIII 濃縮製劑對此類疾病無效，顯示作用不僅止於 VWF 上升）。因此建議以試驗性輸注確認反應並加強監測。
+
+### 其他預測的簡要評估
+
+| 預測疾病 | TxGNN 分數 | 證據等級 | 評估 |
+|---------|-----------|---------|------|
+| 先天性凝血酶原缺乏症 | 99.70% | L5 | 機轉連結薄弱，Desmopressin 不影響凝血酶原；高分可能反映網路鄰近性。Hold |
+| 遺傳性血栓傾向 | 99.44% | L5 | 促血栓狀態，與止血藥機轉相悖；文獻僅有與遺傳性 TTP 相關的病例報告，可能為偽陽性並帶有安全訊號。Hold |
+| Glanzmann 血小板無力症 | 99.30% | L4 | 無法修正缺失的 αIIbβ3 受體；僅有間接證據，標準治療為血小板輸注、rFVIIa 與抗纖溶藥。列為研究問題 |
+| 偽血管性血友病（血小板型） | 99.16% | L4 | 可能加重血小板凝集與血小板低下，一般需避免。Hold |
+| Scott 症候群 | 99.16% | L4 | 缺陷在磷脂醯絲胺酸暴露，Desmopressin 無直接作用。列為研究問題 |
+| 「flood factor deficiency」 | 99.15% | L4 | 疾病名稱疑似來源資料錯置，僅連結到一般 VWD 綜述；需先確認疾病對應。列為研究問題 |
+| 血栓性血小板低下紫斑症 | 98.95% | L4 | 病例報告顯示 Desmopressin 可誘發或惡化 TTP，屬負面安全訊號。Hold |
+| 膠原蛋白受體缺陷出血體質 | 98.95% | L4 | 理論上可能代償，但無直接資料。列為研究問題 |
+| 遺傳性血小板增多伴橫向肢體缺陷 | 98.95% | L5 | 無文獻、無合理機轉，視為計算假象。Hold |
+
+---
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT04567511](https://clinicaltrials.gov/study/NCT04567511) | Phase 4 | 招募中 | 20 | 單臂、開放標籤，評估 Emicizumab 用於輕度 A 型血友病的止血特性。試驗未使用 Desmopressin，疾病也不同，與本適應症無關 |
+目前無相關臨床試驗登記。
+
+---
 
 ## 文獻證據
 
+以下為原發性血小板釋放障礙相關文獻（依類型與相關性挑選）：
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [7684674](https://pubmed.ncbi.nlm.nih.gov/7684674/) | 1993 | Review | Drugs | 先天性出血性疾病的治療選擇，涵蓋 A 型血友病與血管性血友病，屬一般性回顧 |
-| [21115138](https://pubmed.ncbi.nlm.nih.gov/21115138/) | 2011 | Review | Autoimmunity Reviews | 後天性血友病 A 的診斷、病因與治療，並非先天性凝血酶原缺乏症 |
-| [2607619](https://pubmed.ncbi.nlm.nih.gov/2607619/) | 1989 | Case report | Rinsho Ketsueki | 1 例先天性第五、第八因子合併缺乏者使用 DDAVP，是本組最相關的一篇，但缺乏的因子不同 |
-| [1942544](https://pubmed.ncbi.nlm.nih.gov/1942544/) | 1991 | Case report | Rinsho Ketsueki | 1 例第五、第八因子合併缺乏的孕婦，以第八因子濃縮劑支持剖腹產，並未使用 Desmopressin |
+| [36656570](https://pubmed.ncbi.nlm.nih.gov/36656570/) | 2023 | Review | Eur J Haematol | Desmopressin 可釋放 VWF 與 FVIII、增強血小板黏附並縮短出血時間，可用於輕度血友病 A、特定 VWD 亞型及尿毒症與肝病出血；須留意低血鈉及罕見動脈血栓事件 |
+| [21509710](https://pubmed.ncbi.nlm.nih.gov/21509710/) | 2011 | Cohort | Klin Padiatr | 評估兒童阿斯匹靈樣缺陷（遺傳性血小板病變）使用 Desmopressin 後對初級止血的影響 |
+| [23051555](https://pubmed.ncbi.nlm.nih.gov/23051555/) | 2013 | Cohort | Haemophilia | 輸注 Desmopressin 後，與微粒結合的 VWF 增加，可能解釋其對血小板疾病的作用 |
+| [22057877](https://pubmed.ncbi.nlm.nih.gov/22057877/) | 2011 | Case report | Hamostaseologie | Hermansky-Pudlak 症候群（δ 顆粒釋放缺陷）以難治性月經過多為首發表現 |
+| [22726100](https://pubmed.ncbi.nlm.nih.gov/22726100/) | 2012 | Review | Haemophilia | 遺傳性血小板疾病總覽，涵蓋分泌與儲存缺陷 |
+| [18278172](https://pubmed.ncbi.nlm.nih.gov/18278172/) | 2008 | Review | Thromb Haemost | 先天性血小板功能異常的分類與表現 |
+| [16580053](https://pubmed.ncbi.nlm.nih.gov/16580053/) | 2006 | Review | Thromb Res | VWD 預防性治療；Desmopressin 為多數病人的主要治療 |
+| [30986390](https://pubmed.ncbi.nlm.nih.gov/30986390/) | 2019 | Review | Gastroenterology | AGA 肝硬化凝血臨床實務更新（間接相關） |
+| [34818873](https://pubmed.ncbi.nlm.nih.gov/34818873/) | 2022 | RCT | Haematologica | VWF A1 結構域適體 BT200 的首次人體試驗，與 Desmopressin 無直接關聯 |
+
+---
 
 ## 香港上市資訊
 
-香港共有 14 張許可證，以下列出 5 張主要許可證（資料未載明核准適應症與劑型，劑型可由品名判斷）：
+香港共有 14 張有效許可證，皆為單方製劑，無已註銷者；資料中未載明劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-37371 | MINIRIN TAB 0.1MG | FERRING PHARMACEUTICALS LTD |
-| HK-67930 | NURITAN TABLETS 0.1MG | STAR MEDICAL SUPPLIES LTD |
-| HK-68708 | MINIS TABLETS 0.1MG | SB PHARMA LIMITED |
-| HK-54452 | MINIRIN MELT ORAL LYOPHILISATE 60MCG | FERRING PHARMACEUTICALS LTD |
-| HK-32872 | MINIRIN INJ 4MCG/ML | FERRING PHARMACEUTICALS LTD |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-37371 | MINIRIN TAB 0.1MG（Ferring） | 錠劑 | 未載明 |
+| HK-37370 | MINIRIN TAB 0.2MG（Ferring） | 錠劑 | 未載明 |
+| HK-54452 | MINIRIN MELT ORAL LYOPHILISATE 60MCG（Ferring） | 口溶凍晶劑 | 未載明 |
+| HK-32872 | MINIRIN INJ 4MCG/ML（Ferring） | 注射劑 | 未載明 |
+| HK-38155 | OCTOSTIM INJ 15UG/ML（Ferring） | 注射劑 | 未載明 |
+
+其餘 9 張包括 NURITAN、MINIS、PMS-DESMOPRESSIN、NOCDURNA 與 MINIRIN MELT 120MCG 等不同規格與廠牌。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌或需謹慎疾病**：高血壓、冠狀動脈疾病、腎功能不全、囊性纖維化、呼吸道感染、過敏性與血管運動性鼻炎、原發性多飲／渴感性尿崩症、水中毒、血管性血友病（特定亞型）。此為知識圖譜關聯，並非仿單文字。
+- **血栓與血小板相關訊號**：病例報告顯示 Desmopressin 可誘發或惡化血栓性血小板低下紫斑症（TTP）；對 VWD 2B 型可能造成血小板低下。凡有 TTP、血栓傾向或血小板型 VWD 者，應避免使用。
+- **低血鈉**：文獻綜述指出使用可能併發低血鈉。
+- **藥物交互作用**：已查得 100 筆，以下為主要項目：
+  - 重大（Major）：Hydrocortisone、Triamcinolone、Dexamethasone、Beclomethasone、Betamethasone、Budesonide、Prednisolone、Prednisone
+  - 中度（Moderate）：Epinephrine、Loperamide、Morphine、Opium、Chlorpropamide
+  - 輕微（Minor）：Acetylsalicylic acid
 
-另外，2023 年的一篇回顧 ([PMID 36656570](https://pubmed.ncbi.nlm.nih.gov/36656570/)) 指出，Desmopressin 的使用可能併發低血鈉，並偶有動脈血栓事件。
+仿單的警語與禁忌資料尚未取得，其餘安全性資訊請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：Proceed with Guardrails**（僅限原發性血小板釋放障礙）
 
 **理由：**
-- 這個預測沒有任何直接證據支持。唯一的臨床試驗與 Desmopressin 無關，文獻僅有一般性回顧與不同因子缺乏的個案報告。
-- 機轉上 Desmopressin 不提高凝血酶原，且香港仿單的警語與禁忌尚未取得，無法進入安全性篩選。
+- 此適應症有機轉合理性，並有綜述、兒童世代與機轉研究的間接支持（L3），但無臨床試驗，且反應存在個體差異。
+- 其他預測多為機轉薄弱、證據不足，或有明確負面安全訊號（TTP、血栓傾向、血小板型 VWD），建議 Hold 或僅列為研究問題。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單，補齊警語與禁忌症
-- 補充 Desmopressin 的作用機轉資料（如查詢 DrugBank）
-- 尋找 Desmopressin 用於凝血酶原缺乏症的直接臨床或機轉證據，目前沒有
-
-**其他預測適應症（供參考）：**
-- 「血小板釋放障礙 (primary release disorder of platelets)」是這組預測中機轉最合理的一項，有兒童 aspirin-like defect 的研究 ([PMID 21509710](https://pubmed.ncbi.nlm.nih.gov/21509710/)) 與 2023 年回顧支持，建議列為優先研究問題，但仍缺乏前瞻性對照數據。
-- 「遺傳性血栓形成傾向」「假性血管性血友病」「血栓性血小板減少性紫癜」的預測方向與 Desmopressin 的促止血作用相反，較可能是安全性警訊，而非治療機會。
-
-*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。*
+- 取得香港仿單的警語與禁忌，並補齊作用機轉資料
+- 設計前瞻性小型試驗或登錄研究，以出血時間、血小板功能與 VWF/FVIII 為指標
+- 訂定使用護欄：先做試驗性輸注確認反應、監測血鈉與血小板計數，排除 TTP、血栓傾向與 2B 型 VWD
+- 釐清「flood factor deficiency」的疾病對應是否為資料錯置
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

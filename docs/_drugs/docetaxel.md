@@ -2,7 +2,7 @@
 layout: default
 title: Docetaxel
 parent: 高證據等級 (L1-L2)
-nav_order: 283
+nav_order: 288
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,18 +29,22 @@ indication_count: 10
 
 </div>
 
-# Docetaxel：預測新適應症為女性乳癌
+# Docetaxel：從多種實體腫瘤到女性乳癌
 
 ## 一句話總結
 
-Docetaxel（多西他賽）是 Taxane 類細胞毒性化療藥物，香港已有 20 張許可證。
-TxGNN 模型預測它對**女性乳癌 (Female Breast Carcinoma)** 有效，目前有 **40 個臨床試驗**和 **20 篇文獻**支持，其中包含多個已完成的 Phase 3 試驗。
-乳癌其實是 docetaxel 早已確立的用途，因此本預測較接近既有用途的確認，而非真正的老藥新用。
+Docetaxel（歐洲紫杉醇類藥物）原本用於非小細胞肺癌、前列腺癌、頭頸癌、胃癌與乳癌等治療。
+TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效，
+目前有 **40 個臨床試驗**和 **20 篇文獻**支持這個方向。
+需要說明的是，乳癌本身已是 docetaxel 的既有適應症，因此這項預測更接近對既有用途的驗證，而非真正的新用途。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 非小細胞肺癌、前列腺癌、頭頸癌、胃癌、乳癌等（香港許可證未提供適應症文字，此處依知識圖譜適應症關聯） |
 | 預測新適應症 | 女性乳癌 (Female Breast Carcinoma) |
 | TxGNN 預測分數 | 99.90% |
 | 證據等級 | L1 |
@@ -48,92 +52,110 @@ TxGNN 模型預測它對**女性乳癌 (Female Breast Carcinoma)** 有效，目�
 | 許可證數 | 20 張 |
 | 建議決策 | Proceed with Guardrails |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前 DrugBank 缺乏詳細的作用機轉（MOA）資料。不過 docetaxel 的藥理機轉已相當明確：它穩定微管，使快速分裂的腫瘤細胞停滯在 G2/M 期並走向凋亡。
+目前缺乏詳細的作用機轉資料。根據已知資訊，docetaxel 是一種微管穩定型紫杉烷類藥物，能造成有絲分裂停滯並誘導快速分裂細胞凋亡。
 
-乳癌細胞增殖活躍，對微管標靶的細胞毒性藥物敏感，這個機轉在乳癌中已有長期臨床實證。因此 TxGNN 給出高分並不意外。
+乳癌已是 docetaxel 的既有適應症，因此高預測分數與其已確立的機轉和臨床用途一致。文獻中也有綜述指出，docetaxel 最初即是為乳癌開發，並在肺癌等其他腫瘤展現高度活性。
 
-需要留意的是，資料庫中沒有記錄原適應症，香港許可證的核准適應症欄位也是空白。我們無法從本次資料直接確認香港仿單是否載明乳癌適應症。
+其他排名較前的預測疾病（如 Ewing 肉瘤、橫紋肌肉瘤）多半是以 gemcitabine 併用的方式使用，效果有限；肺部罕見腫瘤則僅有個案報告，證據明顯弱於乳癌。
+
+---
 
 ## 臨床試驗證據
 
+資料共列出 40 個與乳癌相關的試驗，以下依相關性挑選 10 個：
+
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00002707](https://clinicaltrials.gov/study/NCT00002707) | Phase 3 | 完成 | 2411 | 比較術前 AC 加或不加 docetaxel（術前或術後）用於可手術乳癌 |
-| [NCT00054587](https://clinicaltrials.gov/study/NCT00054587) | Phase 3 | 完成 | 3010 | Docetaxel + epirubicin 對比 FEC100，用於淋巴結陽性乳癌，HER2 陽性者序貫加 trastuzumab |
-| [NCT00615602](https://clinicaltrials.gov/study/NCT00615602) | Phase 3 | 完成 | 489 | FE75C 後接劑量密集 docetaxel，比較 trastuzumab 6 個月與 12 個月 |
-| [NCT00129935](https://clinicaltrials.gov/study/NCT00129935) | Phase 3 | 完成 | 1384 | EC→T 對比 ET→X，用於淋巴結陽性、HER2 陰性乳癌的輔助治療 |
-| [NCT00431080](https://clinicaltrials.gov/study/NCT00431080) | Phase 3 | 完成 | 478 | 劑量密集 FE75C 後接 docetaxel 或 paclitaxel，用於淋巴結陽性乳癌 |
-| [NCT01547741](https://clinicaltrials.gov/study/NCT01547741) | Phase 3 | 狀態未知 | 1871 | Docetaxel + cyclophosphamide 對比含 anthracycline 方案，用於 HER2 陰性乳癌 |
-| [NCT00015938](https://clinicaltrials.gov/study/NCT00015938) | Phase 2 | 完成 | 95 | Docetaxel + vinorelbine + filgrastim，用於 HER2 陰性第四期乳癌 |
-| [NCT01208480](https://clinicaltrials.gov/study/NCT01208480) | Phase 2 | 完成 | 45 | Bevacizumab + docetaxel + carboplatin 術前治療三陰性乳癌 |
-| [NCT01352494](https://clinicaltrials.gov/study/NCT01352494) | Phase 2 | 狀態未知 | 99 | Docetaxel + gemcitabine 用於局部晚期乳癌的術前治療 |
-| [NCT02897050](https://clinicaltrials.gov/study/NCT02897050) | Phase 2 | 暫停 | 170 | 術前 docetaxel ± 節拍式 capecitabine/cyclophosphamide，後接 FEC，用於三陰性乳癌 |
+| [NCT00021255](https://clinicaltrials.gov/study/NCT00021255) | Phase 3 | 完成 | 3222 | 輔助治療 HER2 陽性乳癌：AC-T、AC-TH 與 TCH（docetaxel + carboplatin + trastuzumab）比較 |
+| [NCT00003782](https://clinicaltrials.gov/study/NCT00003782) | Phase 3 | 完成 | 5351 | 腋下淋巴結陽性乳癌輔助治療：AC-T、AT、ATC 三組比較 |
+| [NCT00003519](https://clinicaltrials.gov/study/NCT00003519) | Phase 3 | 完成 | 2778 | 輔助治療：Adriamycin/Taxotere 對比 Adriamycin/Cytoxan |
+| [NCT00002707](https://clinicaltrials.gov/study/NCT00002707) | Phase 3 | 完成 | 2411 | 術前 AC 加或不加 docetaxel（術前或術後）用於可手術乳癌 |
+| [NCT00333775](https://clinicaltrials.gov/study/NCT00333775) | Phase 3 | 完成 | 736 | Bevacizumab 併用 docetaxel 對比 docetaxel 加安慰劑，用於 HER2 陰性轉移性乳癌第一線 |
+| [NCT00887536](https://clinicaltrials.gov/study/NCT00887536) | Phase 3 | 完成 | 1613 | TC 加 bevacizumab 對比 TC 單獨及 TAC，用於高風險 HER2 陰性乳癌 |
+| [NCT00667251](https://clinicaltrials.gov/study/NCT00667251) | Phase 3 | 完成 | 652 | 紫杉烷化療併用 lapatinib 或 trastuzumab，用於 HER2 陽性轉移性乳癌第一線 |
+| [NCT03588091](https://clinicaltrials.gov/study/NCT03588091) | Phase 3 | 完成 | 355 | 新輔助 pyrotinib + trastuzumab + docetaxel 對比安慰劑組合 |
+| [NCT00431080](https://clinicaltrials.gov/study/NCT00431080) | Phase 3 | 完成 | 478 | 劑量密集 FE75C 後接 docetaxel 對比 paclitaxel，用於淋巴結陽性乳癌輔助治療 |
+| [NCT00321633](https://clinicaltrials.gov/study/NCT00321633) | Phase 2 | 完成 | 148 | 隨機比較 carboplatin 與 docetaxel，用於遺傳性轉移性乳癌 |
+
+> 註：Phase 3 試驗多數以 docetaxel 為組合療程的一部分，無法單獨區分 docetaxel 的貢獻，部分試驗亦主要評估併用藥物。
+
+---
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [28398846](https://pubmed.ncbi.nlm.nih.gov/28398846/) | 2017 | RCT | J Clin Oncol | ABC 系列試驗：比較 TC（docetaxel + cyclophosphamide）6 週期與含 taxane 的 AC 方案，用於早期乳癌輔助治療 |
-| [11481357](https://pubmed.ncbi.nlm.nih.gov/11481357/) | 2001 | 隨機 Phase IIb | J Clin Oncol | 術前劑量密集 doxorubicin + docetaxel，比較加不加 tamoxifen 對病理反應的影響 |
-| [26874836](https://pubmed.ncbi.nlm.nih.gov/26874836/) | 2017 | Phase 2 | Breast Cancer | Docetaxel + cyclophosphamide + trastuzumab 用於 HER2 陽性乳癌的術前治療 |
-| [12599222](https://pubmed.ncbi.nlm.nih.gov/12599222/) | 2003 | Phase 2 | Cancer | Capecitabine 併用 docetaxel 與 epirubicin，用於未治療的晚期乳癌 |
-| [16020974](https://pubmed.ncbi.nlm.nih.gov/16020974/) | 2005 | Phase 2 | Oncology | 每週 docetaxel + gemcitabine 用於轉移性乳癌第一線治療 |
-| [15585076](https://pubmed.ncbi.nlm.nih.gov/15585076/) | 2004 | Phase 2 | Clin Breast Cancer | Docetaxel + cisplatin 用於局部晚期乳癌的術前治療 |
-| [19856651](https://pubmed.ncbi.nlm.nih.gov/19856651/) | 2009 | Phase 1/2 劑量探索 | Tumori | Docetaxel + gemcitabine 用於曾接受 anthracycline 治療的轉移性乳癌 |
-| [27997437](https://pubmed.ncbi.nlm.nih.gov/27997437/) | 2017 | 世代研究 | Anti-Cancer Drugs | 回溯性分析輔助 docetaxel 化療與乳癌相關淋巴水腫的關聯 |
-| [7595719](https://pubmed.ncbi.nlm.nih.gov/7595719/) | 1995 | Review | J Clin Oncol | Docetaxel 的臨床前與臨床特性回顧 |
-| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Review | Drug Ther Bull | 回顧 paclitaxel 與 docetaxel 在乳癌與卵巢癌的角色 |
+| [28398846](https://pubmed.ncbi.nlm.nih.gov/28398846/) | 2017 | RCT | J Clin Oncol | ABC 系列輔助試驗：比較 TC（docetaxel + cyclophosphamide）與含紫杉烷的 AC 方案用於早期乳癌 |
+| [10791395](https://pubmed.ncbi.nlm.nih.gov/10791395/) | 2000 | Review | Lancet | 紫杉烷類為晚期乳癌、肺癌、卵巢癌的實證治療選項 |
+| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Review | Drug Ther Bull | Paclitaxel 與 docetaxel 在乳癌與卵巢癌的評估 |
+| [18624687](https://pubmed.ncbi.nlm.nih.gov/18624687/) | 2008 | Review | Expert Opin Drug Metab Toxicol | Docetaxel 開發經驗：藥理、藥動與藥物基因體學 |
+| [12868800](https://pubmed.ncbi.nlm.nih.gov/12868800/) | 2003 | Review | Breast Cancer Res Treat | Docetaxel 與 anthracycline 併用於轉移性乳癌，兩者活性高且毒性不重疊 |
+| [9364543](https://pubmed.ncbi.nlm.nih.gov/9364543/) | 1997 | 臨床研究 | Oncology (Williston Park) | Docetaxel 併用 vinorelbine 用於轉移性乳癌與非小細胞肺癌 |
+| [20514452](https://pubmed.ncbi.nlm.nih.gov/20514452/) | 2010 | Cohort | Oncol Rep | 第 8 號染色體基因組變化可預測含紫杉烷新輔助化療的反應 |
+| [16020974](https://pubmed.ncbi.nlm.nih.gov/16020974/) | 2005 | Phase II | Oncology | 每週 docetaxel + gemcitabine 用於轉移性乳癌第一線 |
+| [12599222](https://pubmed.ncbi.nlm.nih.gov/12599222/) | 2003 | 臨床研究 | Cancer | Capecitabine 併用 docetaxel 與 epirubicin 用於晚期乳癌第一線 |
+| [27997437](https://pubmed.ncbi.nlm.nih.gov/27997437/) | 2017 | 回溯性研究 | Anti-cancer Drugs | 輔助 docetaxel 化療與乳癌相關淋巴水腫的關聯 |
+
+---
 
 ## 香港上市資訊
 
-香港共有 20 張許可證，以下列出 5 張主要許可證。資料中未提供劑型與核准適應症文字。
+共 20 張有效許可證（皆為單方），以下列出 5 張主要許可證。資料中未提供劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-41354 | TAXOTERE CONC FOR INF. 80MG/2ML (VIAL) | SANOFI HONG KONG LIMITED |
-| HK-64612 | ACCORD DOCETAXEL CONCENTRATE FOR SOLUTION FOR INFUSION 80MG/4ML | I & C (HONG KONG) LIMITED |
-| HK-64613 | ACCORD DOCETAXEL CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/1ML | I & C (HONG KONG) LIMITED |
-| HK-65779 | DOCETAXEL CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/1ML | SINO PACIFIC PHARMA COMPANY LIMITED |
-| HK-65780 | DOCETAXEL CONCENTRATE FOR SOLUTION FOR INFUSION 80MG/4ML | SINO PACIFIC PHARMA COMPANY LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-41354 | TAXOTERE CONC FOR INF. 80MG/2ML (VIAL)（Sanofi） | 注射濃縮液 | 資料未提供 |
+| HK-41353 | TAXOTERE CONC FOR INF 20MG/0.5ML (VIAL)（Sanofi） | 注射濃縮液 | 資料未提供 |
+| HK-64613 | ACCORD DOCETAXEL 20MG/1ML（I & C） | 注射濃縮液 | 資料未提供 |
+| HK-68552 | DAXOTEL 80MG/4ML（Fresenius Kabi） | 注射濃縮液 | 資料未提供 |
+| HK-62664 | DOCETAXEL ACTAVIS 80MG/2ML（Teva） | 注射濃縮液 | 資料未提供 |
+
+---
 
 ## 細胞毒性
 
-以下內容依藥物類別（Taxane 類）判斷，並非來自本次 Evidence Pack 的 toxicity 資料，實際請以原廠仿單為準。
-
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 傳統細胞毒性藥物（Taxane 類、微管穩定劑） |
-| 骨髓抑制風險 | 高（嗜中性白血球減少為常見劑量限制毒性） |
-| 致吐性分級 | 低 |
-| 監測項目 | CBC（含分類）、肝功能、體液滯留與周邊水腫 |
+| 細胞毒性分類 | 傳統細胞毒性藥物（紫杉烷類，微管穩定劑） |
+| 骨髓抑制風險 | 高（知識圖譜顯示與嗜中性白血球低下、血小板低下、貧血、粒線球缺乏等相關） |
+| 致吐性分級 | 低至中度（依藥物類別判斷） |
+| 監測項目 | CBC（含分類）、肝功能與膽紅素、周邊神經症狀、體液滯留 |
 | 處置防護 | 需依細胞毒性藥物處置規範操作 |
+
+具體警語與劑量調整請參考原廠仿單。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌或高風險情況**（非仿單原文）：肝臟疾病、膽囊疾病、血小板低下、嗜中性白血球低下、粒線球缺乏、周邊神經疾病／神經病變、貧血、高膽紅素血症（含 Gilbert 症候群）、腹瀉性疾病、肺水腫、口腔炎、運動神經炎、心包填塞。
+- **藥物交互作用**（共 100 筆，以下為主要項目）：
+  - **重大**：Clarithromycin
+  - **中度**：Aprepitant、Metronidazole、Cimetidine、Eliglustat、Miconazole、Rolapitant、Rosuvastatin、Simvastatin、Tinidazole、Troglitazone
+  - **輕度**：Dexamethasone、Levofloxacin、Prednisolone、Prednisone
 
-香港衛生署仿單的警語與禁忌尚未取得，藥物交互作用查詢也無結果。
+仿單層級的警語與禁忌尚未取得，請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 已有多個完成的 Phase 3 試驗（總人數逾數千人）直接以 docetaxel 方案治療乳癌，證據等級為 L1。
-- 這是既有用途的確認，而非新發現。安全性資料（DG001，阻斷級缺口）尚未補齊，因此需附帶防護條件。
+- 多個大型 Phase 3 試驗（含 NCT00021255、NCT00003782、NCT00333775 等）已將 docetaxel 納入乳癌輔助或轉移性治療方案，證據等級為 L1，且香港已有 20 張有效許可證。
+- 乳癌屬既有用途，並非真正的藥物再利用；同時 docetaxel 骨髓抑制與神經毒性風險明確，需以護欄方式管理。
 
 **若要推進需要：**
-- 取得香港衛生署仿單，確認乳癌適應症、警語與禁忌
-- 補充 DrugBank 作用機轉資料（DG002）
-- 確認各許可證的核准適應症與劑型
-- 建立血液學毒性與體液滯留的監測計畫
-
-**其他預測適應症：**
-Ewing 肉瘤（L2）與橫紋肌肉瘤（L3）僅有研究層級的證據，其餘預測多為 L4-L5，建議暫緩（Hold）。
-
-*本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證後才能應用。*
+- 取得香港衛生署仿單的警語、禁忌與核准適應症文字
+- 補充詳細的作用機轉資料（MOA）
+- 若關注真正的再利用方向，可另行評估 Ewing 肉瘤（L2，docetaxel 多與 gemcitabine 併用）與橫紋肌肉瘤（L2），但其療效有限，屬研究性議題
+- 針對骨髓抑制與周邊神經病變建立監測計畫，並檢視與 CYP3A4 抑制劑（如 clarithromycin）的併用
+- 其餘預測（肺部罕見腫瘤、原發性肺淋巴瘤及多個橫紋肌肉瘤亞型）證據僅限個案報告或無資料，建議暫緩（Hold）
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

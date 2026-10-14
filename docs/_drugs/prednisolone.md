@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Prednisolone
-parent: 中證據等級 (L3-L4)
-nav_order: 711
-evidence_level: L3
+parent: 僅模型預測 (L5)
+nav_order: 726
+evidence_level: L5
 indication_count: 5
 ---
 
 # Prednisolone
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,97 +29,101 @@ indication_count: 5
 
 </div>
 
-# Prednisolone：從糖皮質素（類固醇）治療到圓禿 (Alopecia Areata)
+# Prednisolone：從自體免疫疾病到圓形禿
 
 ## 一句話總結
 
-Prednisolone 是糖皮質素類藥物，在香港已有 20 張許可證，但許可證資料未載明原適應症。
-TxGNN 模型預測它可能對**圓禿 (Alopecia Areata)** 有效。目前有 18 筆臨床試驗登記和 20 篇文獻，但沒有任何一筆試驗直接以 prednisolone 治療圓禿。支持主要來自系統性類固醇脈衝療法的文獻，多為回顧性或非對照研究。
+Prednisolone 是糖皮質素（glucocorticoid），原本用於自體免疫疾病、腎上腺皮質功能不全、克隆氏症及急性淋巴性白血病等。
+TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，
+目前**沒有臨床試驗登記**，但有 **20 篇文獻**支持這個方向，其中包含 1 篇安慰劑對照 RCT。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證資料未載明 |
-| 預測新適應症 | 圓禿 (Alopecia Areata) |
+| 原適應症 | 自體免疫疾病、腎上腺皮質功能不全、克隆氏症、急性淋巴性白血病等（香港許可證未載明適應症文字，此處依知識圖譜資料） |
+| 預測新適應症 | 圓形禿 (Alopecia Areata) |
 | TxGNN 預測分數 | 99.99% |
-| 證據等級 | L3 |
+| 證據等級 | L2（依本報告資料編製的評級；僅有 1 篇小型 RCT 與多篇回顧，無已登記的臨床試驗） |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 20 張 |
-| 建議決策 | Hold |
+| 建議決策 | Proceed with Guardrails |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Prednisolone 屬於糖皮質素類藥物，具有廣泛的抗發炎與免疫抑制作用。以下機轉推論依據一般糖皮質素藥理，而非 DrugBank 的專屬資料。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Prednisolone 屬於糖皮質素類藥物，具有廣泛的抗發炎與免疫抑制作用（抑制 T 細胞活化及促發炎細胞激素），其在多種自體免疫疾病中的療效已被證實。
 
-圓禿是 T 細胞介導的自體免疫疾病。免疫細胞攻擊毛囊，毛囊的免疫豁免狀態喪失，造成非瘢痕性掉髮。抑制免疫反應的藥物在機轉上有合理性，這也是臨床上使用系統性類固醇脈衝療法的原因。有研究指出，口服脈衝類固醇可能透過改變血清與組織的 TNF-α 濃度發揮作用 (PMID 30294905)。
+圓形禿是 T 細胞介導的自體免疫疾病：細胞毒性 CD8+ T 細胞攻擊毛囊，使毛囊喪失免疫豁免。糖皮質素的免疫抑制作用與此機轉相符。有研究指出，口服脈衝類固醇可能透過改變血清與組織 TNF-α 濃度而發揮作用。
 
-TxGNN 分數極高 (99.99%)，但這只是計算預測。臨床資料有以下限制：
-- 多數報告使用的是 methylprednisolone 或未指明的類固醇。
-- 直接以 prednisolone 為主的研究只有少數。
-- 研究多為非對照或回顧性設計。
-- 停藥後復發與系統性副作用是文獻中反覆出現的問題。
+不過，療效通常不持久，停藥後復發常見，長期全身性使用也有明顯副作用（下視丘-腦下垂體-腎上腺軸抑制、骨質流失、代謝影響），因此多採用脈衝或短期療程。
 
 ## 臨床試驗證據
 
-18 筆登記中，只有 3 筆與圓禿或類固醇治療有關聯。其餘 15 筆多為紅斑性狼瘡 (SLE) 等其他疾病的試驗，與 prednisolone 治療圓禿無直接關聯，未列入。
-
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT01167946](https://clinicaltrials.gov/study/NCT01167946) | Phase 4 | 完成 | 42 | 口服 mega-pulse methylprednisolone 用於嚴重難治型圓禿。藥物為 methylprednisolone，非 prednisolone，是否隨機對照未載明 |
-| [NCT01017510](https://clinicaltrials.gov/study/NCT01017510) | 不適用 | 未知 | 20 | 比較無針注射器 DERMOJET 與一般針筒的病灶內注射。屬給藥技術研究，無法確認藥物是否為類固醇 |
-| [NCT07101471](https://clinicaltrials.gov/study/NCT07101471) | 不適用（觀察性） | 完成 | 296 | Tofacitinib 用於圓禿的安全性與效果觀察，受試者可合併輔助性 prednisolone。主角是 tofacitinib，非 prednisolone |
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
-下表主要發現皆依摘要整理。
-
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [15692475](https://pubmed.ncbi.nlm.nih.gov/15692475/) | 2005 | 安慰劑對照試驗（依標題） | J Am Acad Dermatol | 口服脈衝 prednisolone 治療圓禿。摘要指出先前此類研究皆非隨機或安慰劑對照 |
-| [37870096](https://pubmed.ncbi.nlm.nih.gov/37870096/) | 2023 | 網絡統合分析 | Cochrane Database Syst Rev | 比較圓禿的各類治療（免疫抑制劑、生髮劑、接觸免疫療法） |
-| [30191561](https://pubmed.ncbi.nlm.nih.gov/30191561/) | 2019 | 系統性回顧 | Australas J Dermatol | 評估圓禿各種系統性治療的證據，不同療法的療效證據強度不一 |
-| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | 回顧 | Dermatol Pract Concept | 整理類固醇脈衝療法的療效、復發率、副作用與預後因子 |
-| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | 回顧 | Pediatr Dermatol | 兒童圓禿脈衝類固醇的劑量與副作用，指出劑量方案尚未建立共識 |
-| [21572877](https://pubmed.ncbi.nlm.nih.gov/21572877/) | 2009 | 臨床研究 | Dermato-endocrinology | 中劑量 prednisolone 脈衝療法。系統性 prednisolone 在早期似乎有效，但顯著副作用可能導致停藥 |
-| [22426909](https://pubmed.ncbi.nlm.nih.gov/22426909/) | 2012 | 臨床研究 | Saudi Med J | 以強化脈衝類固醇（methylprednisolone）治療嚴重圓禿 |
-| [28140540](https://pubmed.ncbi.nlm.nih.gov/28140540/) | 2017 | 世代研究 | J Dtsch Dermatol Ges | 兒童重症圓禿先高劑量再低劑量的系統性類固醇。高劑量反應最快，但停藥後復發難免 |
-| [30294905](https://pubmed.ncbi.nlm.nih.gov/30294905/) | 2019 | 機轉研究 | J Cosmet Dermatol | 探討口服脈衝類固醇可能透過 TNF-α 變化發揮作用 |
-| [32779249](https://pubmed.ncbi.nlm.nih.gov/32779249/) | 2020 | 回顧性研究 | J Eur Acad Dermatol Venereol | 138 位慢性圓禿患者使用 azathioprine、methotrexate、cyclosporine 作為類固醇節省藥物的持續使用率 |
+| [15692475](https://pubmed.ncbi.nlm.nih.gov/15692475/) | 2005 | RCT | J Am Acad Dermatol | 安慰劑對照的口服脈衝 prednisolone 治療圓形禿 |
+| [37870096](https://pubmed.ncbi.nlm.nih.gov/37870096/) | 2023 | 網絡統合分析 | Cochrane Database Syst Rev | 比較圓形禿的各種治療（免疫抑制劑、生髮刺激劑、接觸免疫療法） |
+| [30191561](https://pubmed.ncbi.nlm.nih.gov/30191561/) | 2019 | 系統性回顧 | Australas J Dermatol | 評估圓形禿全身性治療的證據，療效證據參差 |
+| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Review | Dermatol Pract Concept | 回顧皮質類固醇脈衝療法的療效、復發率與副作用 |
+| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Review | Pediatr Dermatol | 兒童脈衝類固醇的劑量方案與副作用，劑量尚無共識 |
+| [21572877](https://pubmed.ncbi.nlm.nih.gov/21572877/) | 2009 | 世代研究 | Dermato-endocrinology | 中劑量 prednisolone 脈衝療法；早期有效，但副作用可能導致停藥 |
+| [28140540](https://pubmed.ncbi.nlm.nih.gov/28140540/) | 2017 | 世代研究 | J Dtsch Dermatol Ges | 重度兒童圓形禿：先高劑量再低劑量全身性類固醇 |
+| [26179196](https://pubmed.ncbi.nlm.nih.gov/26179196/) | 2015 | 長期追蹤研究 | Dermatol Ther | 65 名兒童/青少年口服脈衝加外用類固醇，長期追蹤 |
+| [30294905](https://pubmed.ncbi.nlm.nih.gov/30294905/) | 2019 | 機轉研究 | J Cosmet Dermatol | 口服脈衝類固醇可能透過改變 TNF-α 濃度發揮作用 |
+| [32779249](https://pubmed.ncbi.nlm.nih.gov/32779249/) | 2020 | 回溯性研究 | J Eur Acad Dermatol Venereol | 138 名慢性圓形禿患者使用類固醇節省藥物的持續率 |
 
 ## 香港上市資訊
 
-共 20 張許可證，以下列出 5 張。各許可證均未載明劑型與核准適應症。
+香港共有 20 張有效單方許可證（無已取消），以下列出 5 張：
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-66155 | PREDNISOLONE TABLETS 5MG | 未載明 | 未載明 |
-| HK-30888 | XEPASONE TAB 5MG | 未載明 | 未載明 |
-| HK-55339 | PANADIN TAB 5MG | 未載明 | 未載明 |
-| HK-62772 | KORUS PREDNISOLONE TABLETS 5MG | 未載明 | 未載明 |
-| HK-67196 | PREDNISOLONE TABLETS 5MG | 未載明 | 未載明 |
+| HK-66155 | PREDNISOLONE TABLETS 5MG | 錠劑（5 mg） | 未提供 |
+| HK-30888 | XEPASONE TAB 5MG | 錠劑（5 mg） | 未提供 |
+| HK-55339 | PANADIN TAB 5MG | 錠劑（5 mg） | 未提供 |
+| HK-66075 | SUNOSYN SYRUP 3MG/5ML | 糖漿 | 未提供 |
+| HK-60249 | PREDNISOLONE-V SUSPENSION 10MG/5ML | 懸液劑 | 未提供 |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（取自藥物-疾病關聯資料，非仿單文字）：高血壓、癲癇、高血糖、鬱血性心衰竭、單純皰疹病毒角膜炎、麻疹、紫質症、尿素循環障礙（如瓜胺酸血症、高精胺酸血症）、腦下垂體功能低下與生長激素缺乏相關疾病等。
+- **藥物交互作用**：共查得 100 筆，以下為部分例子：
+  - 重大（Major）：Adalimumab
+  - 中度（Moderate）：Zidovudine、Isotretinoin、Acarbose、Nifedipine、Ibuprofen、Ketorolac、Ethinylestradiol、Aldesleukin、Alemtuzumab 等
+  - 輕微（Minor）：Formoterol、Salbutamol
+- 長期全身性使用的風險包括下視丘-腦下垂體-腎上腺軸抑制、骨質流失與代謝影響。
+
+警語與禁忌的仿單資料尚未取得，請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：Proceed with Guardrails**
 
 **理由：**
-- 機轉上合理，系統性類固醇也已用於圓禿，但直接以 prednisolone 為對象的臨床證據很少。已登記的試驗中沒有針對 prednisolone 的 Phase 2/3 RCT，文獻多為回顧性或非對照研究，並反覆提到停藥後復發與系統性副作用。
-- 香港仿單的警語與禁忌資料尚未取得，無法進行安全性篩選 (S1)。
+- 圓形禿為 T 細胞介導的自體免疫疾病，機轉與 prednisolone 的免疫抑制作用相符，且有 1 篇安慰劑對照 RCT 與多篇系統性回顧及世代研究支持。
+- 但療效不持久、停藥後易復發，長期全身性使用副作用明顯，且缺乏已登記的臨床試驗。
 
 **若要推進需要：**
-- 取得香港衛生署仿單的警語與禁忌症，完成安全性篩選。
-- 補齊 DrugBank 的作用機轉資料。
-- 查核 PMID 15692475 的設計與結果，確認是否為可用的 prednisolone 安慰劑對照證據。
-- 搜尋或設計直接以 prednisolone 為對象的圓禿對照試驗，並評估與 JAK 抑制劑等現行療法的定位。
-- 釐清復發率、長期使用的副作用，以及兒童族群的劑量方案。
-- 其餘預測適應症（黏蛋白性禿髮、休止期落髮、禿髮性毛囊炎、遺傳性稀毛症合併皮膚水泡）證據更弱，目前均建議 Hold。
+- 取得香港仿單的警語與禁忌資料，完成安全性篩選
+- 補充作用機轉（MOA）資料
+- 建立脈衝或短期療程的劑量方案與復發處置計畫
+- 規劃對照試驗，並與 JAK 抑制劑等現有選項比較
+- 針對高血壓、高血糖、心衰竭、癲癇等患者及併用 Adalimumab 等藥物者，制定篩選與監測計畫
 
-*本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證才能應用。*
+---
+
+### 其他預測適應症（供參考）
+
+| 預測適應症 | TxGNN 分數 | 證據等級 | 建議 | 說明 |
+|-----------|-----------|---------|------|------|
+| 黏蛋白性禿髮 (Alopecia mucinosa) | 99.99% | L4 | Hold | 僅有 1 例使用 cyclosporine 成功的個案報告及 1 篇不相關的獸醫研究，未顯示 prednisolone 療效 |
+| 休止期落髮 (Telogen effluvium) | 99.98% | L5 | Hold | 通常為自限性非免疫性疾病，使用類固醇的理由薄弱，僅有模型預測 |
+| 禿髮性毛囊炎 (Folliculitis decalvans) | 99.98% | L4 | Hold | 僅有 1 例三合一療法（isotretinoin、clindamycin、類固醇）個案，無法區分 prednisolone 的貢獻 |
+| 遺傳性少毛症伴反覆皮膚水疱 | 99.98% | L5 | Hold | 罕見遺傳性疾病，無明確機轉連結，僅有模型預測 |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

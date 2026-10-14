@@ -2,15 +2,15 @@
 layout: default
 title: Mitoxantrone
 parent: 中證據等級 (L3-L4)
-nav_order: 585
-evidence_level: L3
+nav_order: 594
+evidence_level: L4
 indication_count: 5
 ---
 
 # Mitoxantrone
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **5** 個
+證據等級: **L4** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ indication_count: 5
 
 </div>
 
-# Mitoxantrone：從抗腫瘤化療到上呼吸消化道腫瘤
+# Mitoxantrone：從急性骨髓性白血病到上呼吸消化道腫瘤
 
 ## 一句話總結
 
-Mitoxantrone（米托蒽醌）是一種蒽醌類抗腫瘤藥物，原本用於乳癌、急性白血病與非何杰金氏淋巴瘤等惡性腫瘤（依文獻）。
-TxGNN 模型預測它可能對**上呼吸消化道腫瘤 (Upper Aerodigestive Tract Neoplasm)** 有效。
-目前有 **1 個臨床試驗**（與 mitoxantrone 的關聯度低）和 **20 篇文獻**，其中直接證據多為單臂 Phase 1/2 研究。
+Mitoxantrone 是一種蒽二酮類（anthracenedione）抗腫瘤藥物，原本用於急性骨髓性白血病等血液腫瘤。
+TxGNN 模型預測它可能對**上呼吸消化道腫瘤 (Upper Aerodigestive Tract Neoplasm)** 有效，
+目前**無登記的臨床試驗**，僅有約 **18 篇文獻**，多為早期 Phase 2 研究、藥動學研究與前臨床資料，證據偏弱。
 
 ---
 
@@ -43,31 +43,31 @@ TxGNN 模型預測它可能對**上呼吸消化道腫瘤 (Upper Aerodigestive Tr
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證資料未載明（文獻描述為乳癌、急性白血病、非何杰金氏淋巴瘤等） |
+| 原適應症 | 急性骨髓性白血病（含多種亞型）及骨髓性白血病 |
 | 預測新適應症 | 上呼吸消化道腫瘤 (Upper Aerodigestive Tract Neoplasm) |
 | TxGNN 預測分數 | 99.78% |
-| 證據等級 | L3 |
+| 證據等級 | L4 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 2 張 |
-| 建議決策 | Hold（列為研究問題） |
+| 建議決策 | Hold |
+
+註：原適應症取自知識圖譜的適應症資料，香港許可證上的核准適應症文字目前為空白。
 
 ---
 
 ## 為什麼這個預測合理？
 
-原廠 MOA 欄位缺資料，以下機轉來自文獻。Mitoxantrone 是拓樸異構酶 II 抑制劑，也是 DNA 嵌入劑。它是與 doxorubicin 結構相似的蒽醌類抗腫瘤藥，作用機轉與蒽環類藥物相近。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Mitoxantrone 是拓樸異構酶 II (topoisomerase II) 抑制劑，也是 DNA 嵌入劑，具有廣泛的細胞毒性。這種機轉在理論上可能延伸到頭頸部的鱗狀細胞癌與唾液腺腫瘤。
 
-上呼吸消化道腫瘤多為鱗狀細胞癌，也包含唾液腺腫瘤等頭頸部惡性腫瘤。已有研究在復發或轉移性頭頸部鱗狀細胞癌、唾液腺惡性腫瘤與腺樣囊性癌中測試 mitoxantrone，包括合併 cisplatin 或 ifosfamide 的 Phase 2 單臂研究。2025 年還有一項脂質體 mitoxantrone 用於復發或轉移性頭頸部鱗狀細胞癌的 Phase 1b 研究。
+原適應症為血液惡性腫瘤，新適應症為頭頸部實體腫瘤，兩者在組織類型上差異大，關聯主要來自共通的細胞毒性機轉。文獻中有 Phase 2 研究探討 Mitoxantrone 用於頭頸癌、鼻咽癌及腺樣囊性癌，以及 Mitoxantrone 合併 Cisplatin 用於唾液腺惡性腫瘤的小型研究。不過，頭頸癌目前並沒有確立 Mitoxantrone 的治療角色。
 
-高 TxGNN 分數與這些文獻方向一致，但只能說明機轉與臨床線索相符，本身不構成臨床證據。現有直接研究以小規模單臂研究為主，尚無隨機對照試驗。
+另外，其他排名較高的預測還包括小細胞肺癌（L4）、原發性肺淋巴瘤（L3，有 fludarabine＋mitoxantrone 方案的回溯性經驗）、肺部高分化胎兒型腺癌與肺母細胞瘤（皆為 L5，僅有模型預測）。
 
 ---
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT06953739](https://clinicaltrials.gov/study/NCT06953739) | Phase 3 | 尚未招募 | 60 | 比較 pegaspargase 併用 P-GEMD 與 P-Gemox 用於結外 NK/T 細胞淋巴瘤。資料未顯示 mitoxantrone 在任何治療組，且尚無結果，關聯度低，不能作為支持證據 |
+目前無相關臨床試驗登記。
 
 ---
 
@@ -75,47 +75,54 @@ TxGNN 模型預測它可能對**上呼吸消化道腫瘤 (Upper Aerodigestive Tr
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [39952083](https://pubmed.ncbi.nlm.nih.gov/39952083/) | 2025 | 臨床試驗（Phase 1b，單臂） | Oral Oncology | 脂質體 mitoxantrone 用於復發或轉移性頭頸部鱗狀細胞癌，評估安全性與療效 |
-| [31324333](https://pubmed.ncbi.nlm.nih.gov/31324333/) | 2019 | 系統性回顧 | Bulletin du Cancer | 整理轉移性或局部復發頭頸部腺樣囊性癌的全身性治療 |
-| [3512224](https://pubmed.ncbi.nlm.nih.gov/3512224/) | 1986 | Review | Drug Intelligence & Clinical Pharmacy | Mitoxantrone 為蒽醌類抗腫瘤藥，在頭頸癌等癌別有部分活性 |
-| [11290867](https://pubmed.ncbi.nlm.nih.gov/11290867/) | 2001 | Phase 2（單臂） | Anti-Cancer Drugs | Ifosfamide 併用 mitoxantrone 用於復發或轉移性頭頸部鱗狀細胞癌，22 位病人入組 |
-| [12045460](https://pubmed.ncbi.nlm.nih.gov/12045460/) | 2002 | Phase 2（單臂） | Anti-Cancer Drugs | Mitoxantrone 併用 cisplatin 用於復發或轉移性唾液腺惡性腫瘤，14 位病人 |
-| [8922205](https://pubmed.ncbi.nlm.nih.gov/8922205/) | 1996 | Phase 2 | Annals of Oncology | EORTC 頭頸癌合作組評估 mitoxantrone 用於腺樣囊性癌 |
-| [1735075](https://pubmed.ncbi.nlm.nih.gov/1735075/) | 1992 | PK/PD 臨床研究 | Cancer | 15 位晚期鼻咽癌病人的 mitoxantrone 藥動學與藥效學 |
-| [36070368](https://pubmed.ncbi.nlm.nih.gov/36070368/) | 2022 | 藥物基因體篩選 | Science Translational Medicine | 以 56 株頭頸部鱗狀細胞癌病人來源細胞進行藥物基因體研究，用於精準治療 |
-| [1985750](https://pubmed.ncbi.nlm.nih.gov/1985750/) | 1991 | 前瞻性治療系列 | Cancer | 未分化甲狀腺癌化放療，65 歲以上病人使用 mitoxantrone |
-| [11269736](https://pubmed.ncbi.nlm.nih.gov/11269736/) | 2001 | Phase 1 | Cancer Chemotherapy and Pharmacology | Mitoxantrone 併用 raltitrexed、levofolinic acid 與 5-FU 用於晚期實體腫瘤（含頭頸癌） |
+| [12045460](https://pubmed.ncbi.nlm.nih.gov/12045460/) | 2002 | Phase 2 | Anti-cancer Drugs | Mitoxantrone 合併 Cisplatin 用於復發/轉移性唾液腺惡性腫瘤，共納入 14 位患者 |
+| [8418245](https://pubmed.ncbi.nlm.nih.gov/8418245/) | 1993 | Phase 2（多中心） | J Clin Oncol | 在東南亞晚期鼻咽癌患者中評估 Mitoxantrone 的安全性與療效 |
+| [8922205](https://pubmed.ncbi.nlm.nih.gov/8922205/) | 1996 | Phase 2 | Ann Oncol | EORTC 頭頸癌合作組評估 Mitoxantrone 用於腺樣囊性癌 |
+| [1650529](https://pubmed.ncbi.nlm.nih.gov/1650529/) | 1991 | Phase 2 | Am J Clin Oncol | 19 位無法治癒的頭頸癌患者接受 Mitoxantrone，依白血球最低點調整劑量 |
+| [6542006](https://pubmed.ncbi.nlm.nih.gov/6542006/) | 1984 | Phase 2 | Eur J Cancer Clin Oncol | EORTC 對 335 位實體瘤與淋巴瘤患者的 Mitoxantrone 研究，含頭頸癌 |
+| [1735075](https://pubmed.ncbi.nlm.nih.gov/1735075/) | 1992 | 藥動學/藥效學 | Cancer | 15 位晚期鼻咽癌患者的 Mitoxantrone 藥動學，三室模型 |
+| [1985750](https://pubmed.ncbi.nlm.nih.gov/1985750/) | 1991 | 前瞻性研究 | Cancer | 退行性甲狀腺巨細胞癌的化放療合併方案，older patients 使用 Mitoxantrone |
+| [31324333](https://pubmed.ncbi.nlm.nih.gov/31324333/) | 2019 | 系統性回顧 | Bull Cancer | 頭頸部腺樣囊性癌的全身性治療回顧 |
+| [3512224](https://pubmed.ncbi.nlm.nih.gov/3512224/) | 1986 | Review | Drug Intell Clin Pharm | Mitoxantrone 藥物綜述，指出頭頸癌有部分活性 |
+| [36070368](https://pubmed.ncbi.nlm.nih.gov/36070368/) | 2022 | 前臨床 | Sci Transl Med | 頭頸部鱗狀細胞癌的藥物基因體學篩選 |
+
+注意：PMID 39472118（甲狀腺切除術中淋巴結顯影）為示蹤劑用途，不屬於抗腫瘤治療證據，未列入。
 
 ---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-53817 | MITOXANTRON EBEWE INJ 2MG/ML | SANDOZ HONG KONG LIMITED |
-| HK-49349 | SANTRONE INJ 2MG/ML | HEALTHCARE PHARMASCIENCE LIMITED |
-
-兩張許可證均為注射劑（2 mg/ml），資料中未載明劑型欄位與核准適應症。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-53817 | MITOXANTRON EBEWE INJ 2MG/ML | 注射劑（資料未載明） | 資料未載明 |
+| HK-49349 | SANTRONE INJ 2MG/ML | 注射劑（資料未載明） | 資料未載明 |
 
 ---
 
 ## 細胞毒性
 
-以下為依藥物類別的判斷，證據包未提供 DrugBank toxicity 資料，實際內容請以原廠仿單為準。
-
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 傳統細胞毒性藥物（蒽醌類，拓樸異構酶 II 抑制劑） |
-| 骨髓抑制風險 | 高（此類藥物常見的劑量限制性毒性） |
-| 致吐性分級 | 低至中度 |
-| 監測項目 | CBC（含分類）、肝腎功能、心臟功能（蒽環類相關藥物須留意累積心毒性） |
+| 細胞毒性分類 | 傳統細胞毒性藥物（蒽二酮類，拓樸異構酶 II 抑制劑） |
+| 骨髓抑制風險 | 高（文獻中記載白血球低下為劑量限制毒性，並以白血球最低點調整劑量） |
+| 致吐性分級 | 低至中度（依藥物類別判斷） |
+| 監測項目 | CBC（含分類）、肝功能、心臟功能（如 LVEF） |
 | 處置防護 | 需依細胞毒性藥物處置規範操作 |
+
+其他詳細警語請參考原廠仿單。
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌相關疾病**（非仿單內容）：肝衰竭、肝病、膽囊疾病、血小板低下、嗜中性白血球低下、顆粒球缺乏症、白血球低下、貧血（含巨球性貧血）、心臟衰竭、癲癇、感染性疾病（含黴菌感染、皮癬菌病）。
+- **藥物交互作用**：共查得 100 筆，以下為資料中較重要者：
+  - 重大 (Major)：Dolasetron
+  - 中度 (Moderate)：Clarithromycin、Eliglustat、Rolapitant
+  - 輕微 (Minor)：Levofloxacin
+  - 其餘多筆（如 Metformin、Omeprazole、Morphine 等）嚴重度未知
+
+仿單的警語與禁忌資料目前缺乏，請以原廠仿單為準。
 
 ---
 
@@ -124,17 +131,15 @@ TxGNN 模型預測它可能對**上呼吸消化道腫瘤 (Upper Aerodigestive Tr
 **決策：Hold**
 
 **理由：**
-- 預測分數高（99.78%），文獻也顯示 mitoxantrone 在頭頸部鱗狀細胞癌與唾液腺腫瘤中有活性訊號，但直接證據多為小規模單臂 Phase 1/2 研究，沒有隨機對照試驗。
-- 唯一登記的臨床試驗與 mitoxantrone 關聯度低，且香港仿單的警語與禁忌資料缺失（blocking 級缺口），目前無法進入安全性篩選，因此列為研究問題。
+- 目前沒有登記的臨床試驗，文獻多為 1980～1990 年代的小型 Phase 2 研究與藥動學資料，證據等級僅為 L4。頭頸癌目前沒有確立 Mitoxantrone 的角色，且藥物具有明顯骨髓抑制與心臟毒性風險。
+- 在所有預測中，原發性肺淋巴瘤（L3）的證據相對較強，若要優先探索，可考慮作為研究問題。
 
 **若要推進需要：**
-- 取得香港衛生署仿單，補齊警語、禁忌症與藥物交互作用，解除安全性篩選的阻擋。
-- 補齊 DrugBank 的作用機轉資料，並確認香港核准適應症。
-- 追蹤脂質體 mitoxantrone 在復發或轉移性頭頸部鱗狀細胞癌的後續 Phase 2 以上研究。
-- 評估香港上市的是傳統注射劑，而文獻近年的新證據多為脂質體劑型，兩者是否可類比。
-- 同一藥物另有預測適應症「小細胞肺癌」，已有脂質體 mitoxantrone 的 Phase 2 試驗（NCT04352413，已終止），可另案評估。
-
-> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證後才能應用。
+- 取得香港衛生署的仿單，補齊警語、禁忌與核准適應症
+- 補齊詳細的作用機轉資料
+- 設計針對頭頸癌（如唾液腺或鼻咽癌）的前瞻性研究，並與現有標準治療比較
+- 建立心臟毒性與血液學的監測計畫
+- 評估較新劑型（如脂質體 Mitoxantrone）是否能改善安全性
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

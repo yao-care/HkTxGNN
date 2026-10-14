@@ -2,7 +2,7 @@
 layout: default
 title: Flurbiprofen
 parent: 僅模型預測 (L5)
-nav_order: 386
+nav_order: 394
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,68 +29,86 @@ indication_count: 5
 
 </div>
 
-# Flurbiprofen：從 NSAID 類消炎止痛藥到肢端中段發育不良（Hunter-Thompson 型）
+# Flurbiprofen：從類風濕性關節炎到 Hunter-Thompson 型肢中發育不良
 
 ## 一句話總結
 
-Flurbiprofen 是一種一般認為屬於非類固醇消炎止痛藥（NSAID）的成分，香港已有 3 張上市許可證。
-TxGNN 模型預測它可能對**肢端中段發育不良，Hunter-Thompson 型 (Acromesomelic dysplasia, Hunter-Thompson type)** 有效。
-目前**沒有任何臨床試驗或文獻**支持，屬於純模型預測。
+Flurbiprofen 是一種非選擇性 COX 抑制劑（NSAID），原本用於類風濕性關節炎、骨關節炎等關節疾病。
+TxGNN 模型預測它可能對 **Hunter-Thompson 型肢中發育不良 (Acromesomelic dysplasia, Hunter-Thompson type)** 有效，但目前 **沒有任何臨床試驗或文獻**支持，僅為模型預測，且缺乏可信的機轉依據。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 肢端中段發育不良，Hunter-Thompson 型 (Acromesomelic dysplasia, Hunter-Thompson type) |
-| TxGNN 預測分數 | 99.99%（全體排名第 497） |
-| 證據等級 | L5（僅有模型預測） |
+| 原適應症 | 類風濕性關節炎、骨關節炎、關節病變（香港許可證未載明核准適應症文字，此為知識圖譜之適應症） |
+| 預測新適應症 | Hunter-Thompson 型肢中發育不良 (Acromesomelic dysplasia, Hunter-Thompson type) |
+| TxGNN 預測分數 | 99.99% |
+| 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 3 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Flurbiprofen 一般被認為是非選擇性 COX 抑制劑（NSAID），但這是通識性描述，並非本次輸入資料中的機轉。抑制 COX 會減少前列腺素合成，主要作用是消炎與止痛。
+目前缺乏詳細的作用機轉資料。Flurbiprofen 屬於非選擇性 COX 抑制劑，具止痛與抗發炎作用，在關節炎類疾病中的症狀緩解效果已為人所知。
 
-這個預測疾病是罕見的骨骼發育異常，一般認為與 BMP/CDMP1（GDF5）訊號傳遞缺陷有關。輸入資料中沒有任何內容把前列腺素合成抑制和這條路徑連起來。因此，**目前找不到有依據的機轉連結**。99.99% 的高分只代表模型輸出，沒有臨床或文獻佐證。
+然而，Hunter-Thompson 型肢中發育不良是罕見的遺傳性骨骼發育不良，與 CDMP1/GDF5 功能喪失變異有關，這些變異會破壞軟骨與肢體發育中的 BMP 訊號傳遞。Flurbiprofen 並不作用於 GDF5/BMP 路徑，**沒有可信的機轉連結**。
 
-同批的前 5 名預測還包括指趾短小併指症候群、眼缺損小眼畸形併肢根型發育不良症候群、短軀幹併釉質發育不全症候群，以及肌硬化症 (myosclerosis)。這些預測也都沒有試驗或文獻支持。前四者是先天結構發育疾病，NSAID 不太可能改變其病程。肌硬化症頂多只能推測 NSAID 可緩解疼痛或發炎，那是症狀處理，並非疾病修飾。
+極高的 TxGNN 分數（0.9999）較可能反映知識圖譜中與骨骼、關節疾病節點的鄰近性，而非藥理學上的合理性。因此這個預測應視為計算上的人為結果，而非有力的再利用線索。
+
+其他排名前列的預測（brachydactyly-syndactyly syndrome、colobomatous microphthalmia-rhizomelic dysplasia syndrome、brachyolmia-amelogenesis imperfecta syndrome）同樣為先天發育異常，也都沒有機轉或實證支持。排名第 5 的肌硬化症 (myosclerosis) 僅有微弱且推測性的關聯：NSAID 理論上可緩解肌肉骨骼疼痛，但沒有證據顯示能改變纖維化進程。
+
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
 目前無相關文獻。
 
+---
+
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-68354 | SULAN TABLETS 100MG | WELLDONE PHARMACEUTICALS LIMITED |
-| HK-64202 | FUKON TABLETS 50MG | HITPHARM PHARMACEUTICAL CO LTD |
-| HK-61431 | STREPFEN HONEY & LEMON LOZENGE 8.75MG | RECKITT BENCKISER HONG KONG LTD |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-68354 | SULAN TABLETS 100MG | 錠劑 | 未載明 |
+| HK-64202 | FUKON TABLETS 50MG | 錠劑 | 未載明 |
+| HK-61431 | STREPFEN HONEY & LEMON LOZENGE 8.75MG | 口含錠 | 未載明 |
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病（非仿單內容）**：高血壓、腎臟疾病、肝臟疾病、膽囊疾病、消化性潰瘍（含活動性）、物質濫用/依賴、凝血疾病、心肌梗塞、冠狀動脈血栓、血紅素病變、心血管疾病、心臟病、膿輸尿管。
+- **藥物交互作用**：共查得 100 筆，以下為部分範例：
+  - 中度：Acetylsalicylic acid（阿斯匹靈）、Hydrocortisone、Dexamethasone、Betamethasone、Triamcinolone、Budesonide（皮質類固醇類）、Metformin、Glimepiride、Chlorpropamide（降血糖藥）、Mesalazine、Balsalazide、Aprepitant
+  - 輕微：Famotidine、Cimetidine、Linaclotide
+
+其餘警語與正式禁忌症請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 沒有任何臨床試驗或文獻支持，證據等級只有 L5，且找不到有依據的機轉連結。
-- 原廠仿單的警語與禁忌症資料尚未取得，無法進行安全性篩選。
+- 預測僅來自模型分數，沒有任何臨床試驗或文獻，證據等級為 L5。
+- 該疾病的致病機轉（GDF5/BMP 訊號缺陷）與 COX 抑制無關，高分很可能是圖譜鄰近性造成的假象。
 
 **若要推進需要：**
-- 取得香港衛生署核准的仿單，確認原適應症、警語與禁忌症。
-- 補齊 Flurbiprofen 的作用機轉資料，例如從 DrugBank 查詢。
-- 釐清 COX 抑制與 BMP/GDF5 訊號或骨骼發育之間是否有機轉關聯，可先做前臨床或機轉文獻回顧。
-- 若機轉找不到關聯，建議不再往此適應症推進，改看其他預測。
-
-*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證後才能應用。*
+- 補齊作用機轉（MOA）資料，並重新評估是否存在任何可信的機轉連結。
+- 取得香港衛生署的仿單（警語、禁忌症與核准適應症），完成安全性篩選。
+- 建議優先檢視其他預測（例如肌硬化症）是否有可驗證的症狀緩解假說，或改以原適應症為主的開發方向，而非追蹤此預測。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

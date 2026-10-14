@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Orphenadrine
-parent: 僅模型預測 (L5)
-nav_order: 634
-evidence_level: L5
+parent: 中證據等級 (L3-L4)
+nav_order: 647
+evidence_level: L3
 indication_count: 7
 ---
 
 # Orphenadrine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+證據等級: **L3** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,15 @@ indication_count: 7
 
 </div>
 
-# Orphenadrine：從肌肉鬆弛（抗膽鹼藥）到視網膜失養症
+# Orphenadrine：從帕金森氏症到思覺失調症
 
 ## 一句話總結
 
-Orphenadrine 是抗膽鹼（毒蕈鹼拮抗）類肌肉鬆弛藥，臨床上也用於改善抗精神病藥引起的帕金森症狀。
-TxGNN 模型預測它可能對**視網膜失養症（retinal dystrophy with or without extraocular anomalies）**有效。
-目前**無臨床試驗**，檢索到的 **16 篇文獻**都是眼科背景文獻，沒有一篇直接研究 orphenadrine，因此證據只有模型預測。
+Orphenadrine 是一種抗膽鹼藥物，原本用於帕金森氏症 (Parkinson disease) 及相關帕金森症候群。
+TxGNN 模型預測它可能對**思覺失調症 (Schizophrenia)** 有效，
+目前**無臨床試驗登記**，僅有 **17 篇文獻**，且多為輔助處理抗精神病藥物副作用的研究，並非直接證明抗精神病療效。
+
+> 說明：TxGNN 預測分數最高的是視網膜失養症，但該項完全沒有試驗或文獻支持。本報告選擇有文獻證據的思覺失調症作為主要評估對象。
 
 ---
 
@@ -43,77 +45,92 @@ TxGNN 模型預測它可能對**視網膜失養症（retinal dystrophy with or w
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 視網膜失養症（伴或不伴眼外異常） |
-| TxGNN 預測分數 | 99.29% |
-| 證據等級 | L5 |
+| 原適應症 | 帕金森氏症（parkinsonian disorder / Parkinson disease） |
+| 預測新適應症 | 思覺失調症 (Schizophrenia) |
+| TxGNN 預測分數 | 99.13% |
+| 證據等級 | L3 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 20 張 |
-| 建議決策 | Hold |
+| 建議決策 | Hold（列為研究問題，暫不推進） |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏 DrugBank 的詳細作用機轉資料。根據已知的藥理特性，orphenadrine 是抗膽鹼藥，同時具有 H1 抗組織胺與 NMDA 拮抗作用。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Orphenadrine 是抗膽鹼（抗毒蕈鹼）藥物，同時具有抗組織胺及 NMDA 受體通道阻斷的活性。其在帕金森氏症的療效來自於阻斷膽鹼作用以改善動作症狀。
 
-**機轉上看不出可信的關聯。** 遺傳性視網膜失養症是光受器或視網膜色素上皮的基因性退化。上述三條藥理路徑都不處理這類病因，0.993 的高分只是知識圖譜的推論結果，檢索到的證據無法支持。
+在臨床上，Orphenadrine 長期與抗精神病藥（如 haloperidol）併用，用來處理藥物引起的錐體外症候群。因此它與思覺失調症的關聯，主要是「處理治療副作用」，而不是治療疾病本身。
+
+NMDA 通道阻斷作用與思覺失調症的麩胺酸假說有理論上的連結，但目前只有前臨床研究（大鼠聽覺驚嚇的前脈衝抑制實驗）。此外，抗膽鹼藥物可能加重遲發性運動不良與認知功能損害，這是需要留意的風險。
+
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
-以下文獻是以疾病關鍵字檢索到的，內容為眼部先天異常、眼外肌等背景知識，**都沒有評估 orphenadrine**，只能視為疾病背景參考，不構成藥物療效證據。
+以下依研究類型排序，部分文獻的研究設計僅依標題暫定分類。
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Seminars in Neurology | 複視的系統性評估方法與鑑別診斷 |
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Seminars in Ultrasound, CT, and MR | 眼眶感染多由鼻竇炎引起，臨床表現含眼球突出與眼球運動受限 |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klinische Monatsblatter fur Augenheilkunde | 先天性眼瞼下垂的分型、合併症與檢查重點 |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan Journal of Ophthalmology | 水晶體大小、形狀與位置的先天異常 |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatric Radiology | 兒童眼部病變的鑑別診斷與影像特徵 |
-| [10192514](https://pubmed.ncbi.nlm.nih.gov/10192514/) | 1999 | Review | Progress in Retinal and Eye Research | 眼外肌本體感覺器與空間視覺知覺的角色 |
-| [30747268](https://pubmed.ncbi.nlm.nih.gov/30747268/) | 2019 | Review | Neuroradiology | 眼肌麻痺的神經影像與臨床特徵 |
-| [37408430](https://pubmed.ncbi.nlm.nih.gov/37408430/) | 2023 | Review | 中華眼科雜誌 | 眼外肌結構與神經支配的研究進展 |
-| [39582415](https://pubmed.ncbi.nlm.nih.gov/39582415/) | 2024 | Cohort | Birth Defects Research | 歐洲 15 國先天性眼部異常盛行率 |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Case report | American Journal of Ophthalmology | 兩例單側隱眼畸形的臨床特徵 |
+| [29341071](https://pubmed.ncbi.nlm.nih.gov/29341071/) | 2018 | Review | Cochrane Database Syst Rev | 抗膽鹼藥物用於抗精神病藥引起的遲發性運動不良 |
+| [10796321](https://pubmed.ncbi.nlm.nih.gov/10796321/) | 2000 | Review | Cochrane Database Syst Rev | 抗膽鹼藥物用於神經抑制劑引起的遲發性運動不良 |
+| [3698889](https://pubmed.ncbi.nlm.nih.gov/3698889/) | 1986 | 臨床研究 | L'Encephale | 22 名患者；Orphenadrine 顯著減少 haloperidol 引起的錐體外症狀，停藥後明顯惡化 |
+| [8369232](https://pubmed.ncbi.nlm.nih.gov/8369232/) | 1993 | 臨床研究（安慰劑對照） | Schizophr Res | 比較安慰劑、Orphenadrine 與遞增劑量 chlorpromazine 對慢性思覺失調症注意力作業的影響 |
+| [324238](https://pubmed.ncbi.nlm.nih.gov/324238/) | 1977 | 臨床研究 | Acta Psychiatr Scand | 118 名長期服用抗精神病藥者，評估是否需要抗帕金森藥 |
+| [4571143](https://pubmed.ncbi.nlm.nih.gov/4571143/) | 1972 | 臨床比較（安慰劑對照） | Psychol Med | 比較 amantadine、Orphenadrine 與安慰劑對吩噻嗪引起帕金森症的控制 |
+| [2616635](https://pubmed.ncbi.nlm.nih.gov/2616635/) | 1989 | 自然觀察研究 | Pharmacopsychiatry | 44 名門診患者，haloperidol 合併 Orphenadrine 後的殘餘帕金森症狀 |
+| [3962752](https://pubmed.ncbi.nlm.nih.gov/3962752/) | 1986 | 臨床研究 | Acta Neurol | Orphenadrine 血漿濃度與錐體外副作用改善的關係 |
+| [12459931](https://pubmed.ncbi.nlm.nih.gov/12459931/) | 2003 | 前臨床 | Psychopharmacology | NMDA 通道阻斷劑對大鼠前脈衝抑制的影響 |
+| [19524386](https://pubmed.ncbi.nlm.nih.gov/19524386/) | 2009 | 分析方法 | J Pharm Biomed Anal | 建立思覺失調症患者血漿 Orphenadrine 濃度的 HPLC 檢測法 |
+
+另有數篇 1959–1965 年的歷史報告（如 reserpine 合併 Orphenadrine 的高劑量治療），因年代久遠且多無摘要，未列入。
+
+---
 
 ## 香港上市資訊
 
-以下為主要 5 張許可證，資料中沒有劑型與核准適應症。
+香港共有 20 張有效許可證（皆為單方），以下列出 5 張。資料中未提供劑型與核准適應症。
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-46326 | TENSIONLEX TAB 100MG | YAT SENG TRADING CO |
-| HK-65487 | MANGA TABLETS | R. MANSTIEN (AUSTRALIA) LIMITED |
-| HK-55766 | MYOFLEX TAB | LEAMYK INVESTMENT LIMITED |
-| HK-62231 | JMP PARACETAMOL & ORPHENADRINE CITRATE TABLETS | SYNCO (H.K.) LIMITED |
-| HK-19321 | NORGESIC TAB | INOVA PHARMACEUTICALS (HONG KONG) LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-46326 | TENSIONLEX TAB 100MG | 未提供 | 未提供 |
+| HK-65487 | MANGA TABLETS | 未提供 | 未提供 |
+| HK-55766 | MYOFLEX TAB | 未提供 | 未提供 |
+| HK-62231 | JMP PARACETAMOL & ORPHENADRINE CITRATE TABLETS | 未提供 | 未提供 |
+| HK-19321 | NORGESIC TAB | 未提供 | 未提供 |
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（來自 TxGNN 知識圖譜，非仿單內容）：青光眼、良性攝護腺肥大、膀胱頸阻塞、幽門狹窄、重症肌無力、賁門弛緩症、癲癇、肝腎功能不全、心臟傳導疾病、消化性潰瘍、血小板減少、貧血等。
+- **藥物交互作用**（共查得 100 筆，以下為主要者）：
+  - 嚴重 (Major)：Morphine（含脂質體劑型）、Potassium citrate、Potassium chloride
+  - 中度 (Moderate)：Hyoscyamine、Atropine、Glycopyrronium、Dicyclomine、Loperamide、Bupropion、Metoclopramide 等多種抗膽鹼或腸胃道藥物
+
+其他警語與禁忌請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 只有模型分數，沒有臨床試驗，文獻也與藥物無關，機轉上也看不出關聯，證據等級為 L5。
-- 視網膜失養症是基因性退化疾病，orphenadrine 的藥理作用不針對其病因。
-
-**其他預測適應症：**
-- 精神分裂症（rank 5）的證據較多，評為 L3。但文獻多半談的是 orphenadrine 用於改善抗精神病藥引起的錐體外症狀，不是治療精神病核心症狀。
-- 抗膽鹼藥可能加重認知功能問題與遲發性運動障礙，安全性需要審慎評估。
-- 其餘預測（醣基化異常、多小腳迴、CMT1G、近視）皆無試驗與文獻，同為 Hold。
+- 思覺失調症方面僅有以副作用管理為主的文獻，沒有臨床試驗，也沒有證據顯示 Orphenadrine 本身具抗精神病療效。
+- 抗膽鹼藥可能加重遲發性運動不良與認知問題，風險與效益尚不明確。
 
 **若要推進需要：**
-- 補齊 DrugBank 作用機轉資料，並取得香港衛生署仿單的警語與禁忌症。
-- 以機轉為基礎，做針對性的文獻與前臨床檢索，確認是否有直接證據。
-- 若要優先探索，建議先從精神分裂症方向釐清其臨床意義，再決定是否推進。
-
-*本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證才能應用。*
+- 補齊詳細的作用機轉資料（MOA）。
+- 取得香港衛生署仿單的警語與禁忌資料。
+- 設計針對 NMDA 阻斷作用與思覺失調症症狀（而非錐體外副作用）的前瞻性研究。
+- 評估對認知功能與遲發性運動不良的長期影響。
+- 其他預測適應症（視網膜失養症、糖基化先天異常、X 連鎖近視、CMT1G 等）完全沒有證據，且機轉上缺乏關聯，不建議優先投入。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

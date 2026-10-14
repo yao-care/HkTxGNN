@@ -2,7 +2,7 @@
 layout: default
 title: Naproxen
 parent: 僅模型預測 (L5)
-nav_order: 598
+nav_order: 608
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,12 +29,13 @@ indication_count: 4
 
 </div>
 
-# Naproxen：從消炎止痛到 Brachydactyly-Syndactyly 症候群
+# Naproxen：從關節炎與疼痛症狀到短指併指症候群
 
 ## 一句話總結
 
-Naproxen 是非類固醇消炎止痛藥（NSAID），透過抑制 COX 酵素減少前列腺素造成的發炎與疼痛。
-TxGNN 模型預測它可能對**短指併指症候群 (Brachydactyly-Syndactyly Syndrome)** 有效，但目前**沒有任何臨床試驗或文獻**支持，也找不到合理的機轉連結，僅屬模型推測。
+Naproxen 是一種非類固醇消炎止痛藥（NSAID），原本用於關節炎、痛風、肌腱炎、偏頭痛等疼痛與發炎性疾病。
+TxGNN 模型預測它可能對**短指併指症候群 (Brachydactyly-Syndactyly Syndrome)** 有效，
+但目前**沒有任何臨床試驗或文獻**支持這個方向，僅為模型的計算預測。
 
 ---
 
@@ -42,9 +43,10 @@ TxGNN 模型預測它可能對**短指併指症候群 (Brachydactyly-Syndactyly 
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 滑囊炎、類風濕性關節炎、僵直性脊椎炎、肌腱炎、痛風、偏頭痛、骨關節炎等（香港許可證未載明適應症文字，此處依知識圖譜資料） |
 | 預測新適應症 | 短指併指症候群 (Brachydactyly-Syndactyly Syndrome) |
-| TxGNN 預測分數 | 99.35%（全體排名第 10,858） |
-| 證據等級 | L5（僅有模型預測） |
+| TxGNN 預測分數 | 99.35% |
+| 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
@@ -53,19 +55,13 @@ TxGNN 模型預測它可能對**短指併指症候群 (Brachydactyly-Syndactyly 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Naproxen 是非選擇性 COX-1/COX-2 抑制劑，主要作用是降低前列腺素介導的發炎與疼痛。
+目前缺乏詳細的作用機轉資料（MOA）。依一般藥理知識，Naproxen 是非選擇性 COX-1/COX-2 抑制劑，透過減少前列腺素合成來緩解發炎與疼痛。
 
-短指併指症候群是罕見的先天性肢體畸形，成因屬於基因與發育異常。抑制前列腺素合成，預期無法改變這類疾病的病程。
+短指併指症候群是先天性骨骼畸形，成因屬發育期的遺傳異常（常涉及 HOXD13 或 BMP/GDF5 等訊息路徑）。抗發炎作用並不能矯正結構性的發育缺陷，因此機轉上**難以支持**這項預測。
 
-因此，**目前找不到合理的機轉連結**。0.9935 的高分只是知識圖譜的計算結果，缺乏生物學依據與臨床資料支持，不應把高分當成有效的證據。長期使用 NSAID 還有腸胃道、腎臟與心血管風險。
+這個高分較可能來自知識圖譜中與骨骼、肌肉骨骼疾病註記的鄰近關係（Naproxen 的原適應症包含關節病變與骨關節炎），而非真正的藥理關聯。
 
-其他三個預測適應症同樣屬於罕見先天性或遺傳性骨骼發育異常，同樣找不到機轉連結，也沒有任何試驗或文獻：
-
-| 排名 | 預測適應症 | TxGNN 分數 |
-|------|-----------|-----------|
-| 2 | 眼缺損小眼畸形-肢根型發育不良症候群 (Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome) | 99.22% |
-| 3 | 肢中節發育不良 Hunter-Thompson 型 (Acromesomelic Dysplasia, Hunter-Thompson Type) | 99.17% |
-| 4 | 短軀幹-牙釉質發育不全症候群 (Brachyolmia-Amelogenesis Imperfecta Syndrome) | 99.06% |
+其他排名靠前的預測（先天性骨骼或眼部畸形症候群、肢中部發育不良、短脊椎－牙釉質發育不全症候群）也有相同問題：都是遺傳性發育異常，且同樣沒有證據支持。
 
 ---
 
@@ -83,21 +79,29 @@ TxGNN 模型預測它可能對**短指併指症候群 (Brachydactyly-Syndactyly 
 
 ## 香港上市資訊
 
-Naproxen 在香港共有 20 張許可證，以下列出 5 張：
+Naproxen 在香港有 20 張有效的單方許可證，以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-43951 | SOREN TAB 275MG | HEALTHCARE PHARMASCIENCE LIMITED |
-| HK-65797 | NAPROXEN TABLETS 250MG | PRUDENTLINK LIMITED |
-| HK-56618 | SYN-NAPROXEN TAB 250MG | SYNCO (H.K.) LIMITED |
-| HK-68279 | SELADIN TABLETS 250MG | YUNG SHIN CO LTD |
-| HK-44905 | NAPXEN TAB 250MG | APT PHARMA LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-43951 | SOREN TAB 275MG | 錠劑（依品名） | 未提供 |
+| HK-65797 | NAPROXEN TABLETS 250MG | 錠劑（依品名） | 未提供 |
+| HK-56618 | SYN-NAPROXEN TAB 250MG | 錠劑（依品名） | 未提供 |
+| HK-68279 | SELADIN TABLETS 250MG | 錠劑（依品名） | 未提供 |
+| HK-44905 | NAPXEN TAB 250MG | 錠劑（依品名） | 未提供 |
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌相關疾病**（來自知識圖譜的藥物－疾病關聯，非仿單內容）：高血壓、心臟衰竭、冠狀動脈疾病、心肌梗塞、中風與腦血管疾病、肝臟疾病與肝衰竭、腎臟疾病、血液凝固異常、貧血、糖尿病、癲癇、骨質疏鬆、肥胖、物質濫用／依賴等。
+- **藥物交互作用**：共查得 100 筆，以下為資料中列出的中度交互作用（部分）：
+  - 制酸／胃藥類：Famotidine、Ranitidine、Cimetidine、Rabeprazole、Dexlansoprazole
+  - 類固醇類：Hydrocortisone、Dexamethasone、Betamethasone、Budesonide、Triamcinolone
+  - 其他 NSAID／水楊酸類：Acetylsalicylic acid、Mesalazine、Balsalazide
+  - 降血糖藥：Metformin、Chlorpropamide
+  - 其他：Aprepitant、Potassium citrate、Potassium bicarbonate、Picosulfuric acid、Polyethylene glycol (3350 with electrolytes)
+
+仿單的警語與禁忌症資料尚未取得，請參考原廠仿單。
 
 ---
 
@@ -106,16 +110,13 @@ Naproxen 在香港共有 20 張許可證，以下列出 5 張：
 **決策：Hold**
 
 **理由：**
-- 這個預測只有模型分數（L5），沒有任何臨床試驗或文獻，也找不到合理的機轉連結。
-- 目標疾病是基因與發育起源的罕見畸形，COX 抑制無法針對其成因，而長期使用 NSAID 的風險反而確定存在。
+- 此預測僅來自模型計算，沒有任何臨床試驗或文獻（證據等級 L5）。
+- 短指併指症候群是發育性的遺傳畸形，Naproxen 的 COX 抑制與抗發炎作用在機轉上無法解釋其療效。
 
 **若要推進需要：**
-- 找出 Naproxen（或 COX/前列腺素路徑）與該疾病之間的生物學關聯，例如相關基因或訊號路徑的機轉研究
-- 前臨床或病例層級的證據，用以支持任何療效假設
-- 補齊香港衛生署仿單的警語與禁忌資料，並完成完整的安全性評估
-- 補充 DrugBank 的作用機轉資料
-
-*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。*
+- 補齊 Naproxen 的作用機轉資料與香港仿單的警語、禁忌症資料。
+- 以文獻與前臨床研究，確認 Naproxen 與 GDF5/BMP 或 HOXD13 相關路徑之間是否真有關聯。
+- 如果仍要探索，需先確認這個疾病有哪些可治療的目標（例如繼發性疼痛的症狀處置），再另行評估。這類用途屬於症狀緩解，不是疾病修飾。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

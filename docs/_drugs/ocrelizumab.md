@@ -2,7 +2,7 @@
 layout: default
 title: Ocrelizumab
 parent: 僅模型預測 (L5)
-nav_order: 623
+nav_order: 635
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,19 +29,18 @@ indication_count: 5
 
 </div>
 
-# Ocrelizumab：從（原適應症未載明）到 HER2 陽性乳癌
+# Ocrelizumab：從進行性多發性硬化症到 HER2 陽性乳癌
 
 ## 一句話總結
 
-Ocrelizumab 是一種抗 CD20 單株抗體，會清除 B 細胞，但 Evidence Pack 未載明其原適應症。
-TxGNN 模型預測它可能對 **HER2 陽性乳癌 (HER2 positive breast carcinoma)** 有效，
-但目前**沒有任何臨床試驗**，也**沒有與 ocrelizumab 或乳癌直接相關的文獻**，僅有模型預測。
+Ocrelizumab 是一種靶向 CD20 的人源化單株抗體，原本用於進行性多發性硬化症。
+TxGNN 模型預測它可能對 **HER2 陽性乳癌 (HER2 positive breast carcinoma)** 有效，但目前**沒有任何臨床試驗或直接相關文獻**支持這個方向，僅屬模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未載明 |
+| 原適應症 | 進行性多發性硬化症（許可證資料未載明核准適應症文字，此為知識圖譜所列） |
 | 預測新適應症 | HER2 陽性乳癌 (HER2 positive breast carcinoma) |
 | TxGNN 預測分數 | 99.89% |
 | 證據等級 | L5 |
@@ -51,51 +50,60 @@ TxGNN 模型預測它可能對 **HER2 陽性乳癌 (HER2 positive breast carcino
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank MOA 為資料缺口）。依一般背景知識，ocrelizumab 是抗 CD20 單株抗體，透過清除 B 細胞發揮作用。
+目前缺乏詳細的作用機轉資料。已知 ocrelizumab 是一種人源化抗 CD20 單株抗體，可選擇性清除表現 CD20 的 B 細胞，在多發性硬化症（包含復發型與原發進行型）的療效已有大型試驗證實。
 
-HER2 陽性乳癌是由 HER2 訊號驅動的上皮性腫瘤，腫瘤細胞不表現 CD20。因此目前找不到 ocrelizumab 與此疾病之間有直接的機轉關聯。
+然而，就現有資料而言，**無法建立合理的機轉連結**。HER2 陽性乳癌的病理主要由 HER2 訊號驅動，編譯資料中沒有任何以 CD20 或 B 細胞清除為基礎的乳癌治療依據。0.999 的高分只是圖譜模型的預測，不等同於生物學上的支持。
 
-TxGNN 的高分（0.9989）僅是知識圖譜預測，可能反映的是藥物的抗體類別特徵，而非生物學上的合理性。「腫瘤浸潤 B 細胞」雖可作為間接假說，但本資料中沒有任何支持證據。
-
-同一藥物的其他預測適應症（PR 陽性乳癌、normal-like 亞型、luminal A/B、PR 陰性乳癌）分數皆約 99.8%，同樣缺乏證據與機轉支持，這也顯示這批預測可能來自同一種模型偏差。
+同時，預測清單中的其他乳癌亞型（PR 陽性、PR 陰性、類正常乳房型、Luminal A/B）分數幾乎相同（約 0.998），顯示這較可能反映圖譜結構上的共同訊號，而非各亞型特有的生物學。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
-目前無相關文獻
+針對 HER2 陽性乳癌，目前無相關文獻。
 
-（註：針對排名第 4 的「luminal A/B 乳癌」預測，系統雖檢索到 19 篇文獻，但已提供的 10 篇標題涉及 B 細胞發育、B 型肝炎疫苗、HLA-B 等，屬關鍵字比對的誤配，與 ocrelizumab 或乳癌無關，故不列入。）
+另外說明：在排名第 4 的預測（Luminal A/B 乳房腫瘤）下雖檢索到 18 篇文獻（以下列出部分代表），但內容全部是 ocrelizumab 用於多發性硬化症、抗 CD20 免疫學或其他自體免疫疾病，**沒有任何一篇探討乳癌**，應視為以藥名檢索的偶然結果，不能作為乳癌證據：
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [28002688](https://pubmed.ncbi.nlm.nih.gov/28002688/) | 2017 | RCT | N Engl J Med | Ocrelizumab 對原發進行型多發性硬化症優於安慰劑（僅支持原適應症） |
+| [28002679](https://pubmed.ncbi.nlm.nih.gov/28002679/) | 2017 | RCT | N Engl J Med | 復發型多發性硬化症中 ocrelizumab 對比干擾素 β-1a（僅支持原適應症） |
+| [40245351](https://pubmed.ncbi.nlm.nih.gov/40245351/) | 2025 | RCT | Neurology | 第 3 期 OCARINA II：皮下注射與靜脈注射的藥物暴露非劣性 |
+| [37307006](https://pubmed.ncbi.nlm.nih.gov/37307006/) | 2023 | Cohort | JAMA Neurol | 復發緩解型多發性硬化症中 rituximab 與 ocrelizumab 比較 |
+| [37033984](https://pubmed.ncbi.nlm.nih.gov/37033984/) | 2023 | Review | Front Immunol | 抗 CD20 療法在多發性硬化症的應用 |
+| [35192158](https://pubmed.ncbi.nlm.nih.gov/35192158/) | 2022 | Review | Drugs | Ocrelizumab 在多發性硬化症的綜述 |
+| [35176351](https://pubmed.ncbi.nlm.nih.gov/35176351/) | 2022 | Review | J Allergy Clin Immunol | 次發性低γ球蛋白血症的診斷與處置指引 |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-67765 | OCREVUS CONCENTRATE FOR SOLUTION FOR INFUSION 300MG/10ML（廠商：ROCHE HONG KONG LIMITED） | 未載明 | 未載明 |
+| HK-67765 | OCREVUS CONCENTRATE FOR SOLUTION FOR INFUSION 300MG/10ML（廠商：ROCHE HONG KONG LIMITED） | 輸注用濃縮液（依品名） | 未載明 |
 
 ## 安全性考量
 
-- **藥物交互作用**：DDI 查詢結果為查無資料。
+- **藥物交互作用**：共查得 100 筆交互作用，以下為部分範例：
+  - 中度：皮質類固醇類，包括 hydrocortisone、prednisolone、prednisone、dexamethasone、betamethasone、budesonide、triamcinolone
+  - 中度：放射性藥物，如 iobenguane (I-131)、ibritumomab tiuxetan、tositumomab、samarium (153Sm) lexidronam
+  - 中度：albendazole、pentamidine、levamisole
+  - 輕度：鋅鹽類（硫酸鋅、醋酸鋅、葡萄糖酸鋅、氯化鋅）
 
-其餘警語與禁忌症資料尚缺，安全性資訊請參考原廠仿單。
+主要警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 預測僅來自模型分數，沒有臨床試驗與相關文獻，證據等級為 L5。
-- 機轉上，CD20 靶點與 HER2 驅動的上皮性腫瘤缺乏合理連結。
+- 這個預測僅來自 TxGNN 模型分數，沒有任何臨床試驗或乳癌相關文獻，也沒有可成立的機轉連結，證據等級為 L5。
+- 檢索到的 Phase 3 RCT 屬於多發性硬化症的證據，無法提升乳癌適應症的證據等級。
 
 **若要推進需要：**
-- 補齊香港衛生署仿單的警語與禁忌症，以及核准適應症（目前為阻斷性資料缺口）
-- 從 DrugBank 補充作用機轉（MOA）資料
-- 提出腫瘤 B 細胞或 CD20 相關的生物學假說，並以前臨床或機轉研究驗證
-- 重新以藥名與疾病進行精準文獻檢索，排除關鍵字誤配
-
-> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+- 取得完整作用機轉資料，並評估 CD20/B 細胞與 HER2 陽性乳癌之間是否存在合理的生物學連結
+- 進行乳癌相關的前臨床或機轉研究，並針對乳癌重新做文獻與試驗檢索
+- 取得香港衛生署核准的仿單，補齊警語與禁忌症，以進行安全性篩選
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

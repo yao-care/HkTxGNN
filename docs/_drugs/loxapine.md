@@ -2,7 +2,7 @@
 layout: default
 title: Loxapine
 parent: 僅模型預測 (L5)
-nav_order: 535
+nav_order: 544
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,95 +29,89 @@ indication_count: 5
 
 </div>
 
-# Loxapine：從精神科急性躁動治療到躁狂型雙相情感障礙
+# Loxapine：從雙極性疾患／思覺失調症到躁期雙極性情感疾患
 
 ## 一句話總結
 
-Loxapine 是第一代抗精神病藥，香港已上市吸入粉劑劑型（Adasuve），文獻顯示其用於思覺失調症或雙相障礙相關的急性躁動。
-TxGNN 模型預測它可能對**躁狂型雙相情感障礙 (Manic Bipolar Affective Disorder)** 有效。
-目前沒有登記的臨床試驗，但有 **20 篇文獻**，其中包含 2 項 Phase III RCT 的統合分析。這些證據支持的是「雙相 I 型相關躁動」，不是躁狂症狀本身。
-
----
+Loxapine 是第一代抗精神病藥（dibenzoxazepine 類），原本用於雙極性疾患、重度情感性疾患與思覺失調症。
+TxGNN 模型預測它可能對**躁期雙極性情感疾患 (Manic Bipolar Affective Disorder)** 有效，
+目前**無臨床試驗登記**，但有 **20 篇文獻**支持這個方向（多為回顧型文章，主要涉及吸入式 loxapine 治療急性躁動）。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證未載明；文獻顯示吸入劑型用於思覺失調症或雙相 I 型障礙相關的急性躁動 |
-| 預測新適應症 | 躁狂型雙相情感障礙 (Manic Bipolar Affective Disorder) |
+| 原適應症 | 雙極性疾患、重度情感性疾患、思覺失調症（許可證未載明適應症文字，此處依知識圖譜資料） |
+| 預測新適應症 | 躁期雙極性情感疾患 (Manic Bipolar Affective Disorder) |
 | TxGNN 預測分數 | 99.99% |
-| 證據等級 | L1（證據為間接證據，見下方說明） |
+| 證據等級 | L3（見下方說明） |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 1 張 |
 | 建議決策 | Proceed with Guardrails |
 
----
+**證據等級說明：** 本次整理的資料中沒有任何臨床試驗登記，文獻以回顧與系統性回顧為主，依判定規則屬 L3。文獻提到吸入式 loxapine 有兩項 Phase 3 隨機對照試驗，但原始試驗不在本次資料內，無法查證，因此未據此提高等級。
 
 ## 為什麼這個預測合理？
 
-DrugBank 記錄缺乏詳細的作用機轉欄位。根據預測理由，Loxapine 是二苯并氧氮平 (dibenzoxazepine) 類抗精神病藥，具有 D2 與 5-HT2A 受體拮抗作用。這個受體特性與急性躁狂治療中常用的抗精神病藥相同。
+目前缺乏詳細的作用機轉資料。根據已知藥理，Loxapine 屬於 dibenzoxazepine 類抗精神病藥，具有多巴胺 D2 與血清素 5-HT2A 受體拮抗作用。這類機轉與抗躁症及抗躁動作用相符。
 
-原用途（精神病相關躁動）與預測用途（雙相躁狂）在臨床上高度重疊，躁動本來就是躁狂發作常見的表現。直接證據來自吸入型 Loxapine 用於雙相 I 型障礙急性躁動的兩項 Phase III RCT 統合分析（PMID 22226343）。
+躁期雙極性情感疾患與原適應症中的雙極性疾患屬同一疾病範疇。吸入式 loxapine (Adasuve) 已在美國與歐盟核准用於雙極性 I 型或思覺失調症相關的急性躁動，文獻也支持此用途。
 
-需要留意的是，這些證據並未證明它能治療躁狂症候群本身，所以機轉連結屬於藥物類別層級的推論。
-
----
+需要注意：此預測較接近原有適應症的延伸，是針對躁期或躁動表現與給藥途徑的細分，並非真正的新用途。針對「躁症本身」（有別於躁動）的直接證據仍屬間接。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
-文獻 PMID 29163985 提到兩項 Phase III 隨機、雙盲、安慰劑對照試驗（NCT00628589、NCT00721955），共納入 344 名思覺失調症躁動患者與 314 名雙相 I 型障礙患者。但這兩項試驗不在本證據包的臨床試驗欄位中，其狀態需另行確認。
-
----
-
 ## 文獻證據
+
+下表列出 10 篇相關文獻（本次共 20 篇，皆以吸入式 loxapine 或急性躁動為主題，多為回顧型文章）。
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [29724638](https://pubmed.ncbi.nlm.nih.gov/29724638/) | 2018 | RCT（PLACID，評估者盲性） | Eur Neuropsychopharmacol | 比較吸入 Loxapine 與肌肉注射 aripiprazole 用於思覺失調症或雙相 I 型障礙急性躁動的療效與安全性 |
-| [22226343](https://pubmed.ncbi.nlm.nih.gov/22226343/) | 2012 | 2 項 Phase III RCT 統合分析 | Int J Clin Pract | 以效應量描述吸入 Loxapine 對思覺失調症或雙相障礙躁動的療效 |
-| [29163985](https://pubmed.ncbi.nlm.nih.gov/29163985/) | 2017 | RCT 反應者分析 | BJPsych Open | 兩項 Phase III 試驗中，5 或 10 mg 吸入 Loxapine 以 PANSS-EC 評估對躁動有效 |
-| [27151529](https://pubmed.ncbi.nlm.nih.gov/27151529/) | 2016 | 系統性回顧與統合分析 | Hum Psychopharmacol | 評估思覺失調症或雙相障礙躁動的短期藥物介入 |
-| [23740380](https://pubmed.ncbi.nlm.nih.gov/23740380/) | 2013 | Review（藥物概述） | CNS Drugs | Adasuve 已在美國與歐盟核准用於雙相障礙或思覺失調症的急性躁動；血中濃度中位 2 分鐘達峰 |
-| [31496709](https://pubmed.ncbi.nlm.nih.gov/31496709/) | 2019 | Review | Neuropsychiatr Dis Treat | 檢視吸入 Loxapine 用於思覺失調症或雙相 I 型障礙躁動的安全性、療效與病人接受度 |
-| [30721526](https://pubmed.ncbi.nlm.nih.gov/30721526/) | 2019 | Review（專家評論） | Drugs R D | 討論吸入 Loxapine 處理雙相障礙與思覺失調症急性躁動的角色，強調非強制性處置 |
-| [37581475](https://pubmed.ncbi.nlm.nih.gov/37581475/) | 2023 | Review | Expert Opin Pharmacother | 雙相障礙躁動常見於躁狂發作，核准的藥物選項有限 |
-| [38301034](https://pubmed.ncbi.nlm.nih.gov/38301034/) | 2024 | Review（間接） | Prim Care Companion CNS Disord | 探討肌肉注射之外處理急性躁動的替代方式 |
-| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Review（間接，非 Loxapine 專屬） | Acta Psychiatr Scand | 回顧雙相躁狂的治療選項，包含情緒穩定劑與抗精神病藥的選擇 |
-
----
+| [27151529](https://pubmed.ncbi.nlm.nih.gov/27151529/) | 2016 | 系統性回顧／統合分析 | Hum Psychopharmacol | 評估思覺失調症或雙極性疾患相關急性躁動的短期藥物治療 |
+| [23740380](https://pubmed.ncbi.nlm.nih.gov/23740380/) | 2013 | Review | CNS Drugs | 吸入式 loxapine 在美歐獲准用於急性躁動；血中濃度約 2 分鐘達峰，並有兩項隨機雙盲試驗 |
+| [22226343](https://pubmed.ncbi.nlm.nih.gov/22226343/) | 2012 | 試驗效果量分析 | Int J Clin Pract | 從兩項 Phase III 隨機對照試驗的效果量評估吸入式 loxapine 療效 |
+| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Review | Acta Psychiatr Scand | 回顧躁症治療選項，提出心情穩定劑與抗精神病藥的選擇建議 |
+| [31496709](https://pubmed.ncbi.nlm.nih.gov/31496709/) | 2019 | Review | Neuropsychiatr Dis Treat | 檢視吸入式 loxapine 治療躁動的安全性、療效與病人接受度 |
+| [30721526](https://pubmed.ncbi.nlm.nih.gov/30721526/) | 2019 | Review | Drugs R D | 專家回顧吸入式 loxapine 用於雙極性疾患與思覺失調症的急性躁動 |
+| [38301034](https://pubmed.ncbi.nlm.nih.gov/38301034/) | 2024 | Review | Prim Care Companion CNS Disord | 討論急性躁動處置的替代方式 |
+| [37581475](https://pubmed.ncbi.nlm.nih.gov/37581475/) | 2023 | Review | Expert Opin Pharmacother | 探討雙極性疾患相關躁動的藥物治療改善方向 |
+| [35913401](https://pubmed.ncbi.nlm.nih.gov/35913401/) | 2022 | Review | Expert Rev Neurother | 回顧 loxapine 五十年來用於急性行為困擾的非強制鎮靜經驗 |
+| [28208695](https://pubmed.ncbi.nlm.nih.gov/28208695/) | 2017 | Review | Int J Mol Sci | 評估吸入式 loxapine 治療精神疾患急性躁動的療效與耐受性 |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-67228 | ADASUVE INHALATION POWDER, PRE-DISPENSED 9.1MG（廠商：LEE'S PHARMACEUTICAL (H.K) LIMITED） | 吸入粉劑（依品名判斷） | 許可證資料未載明 |
-
----
+| HK-67228 | ADASUVE INHALATION POWDER, PRE-DISPENSED 9.1MG | 吸入粉劑 | 許可證資料未載明 |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **禁忌症（知識圖譜資料，非仿單內容）：** 癲癇、良性攝護腺肥大、物質濫用／依賴、女性乳癌、心血管疾病、心臟病、青光眼、抗精神病藥惡性症候群、阿茲海默症、遲發性運動障礙、口舌顏面運動障礙、高泌乳素血症（含家族性與後天性）、泌乳素分泌型腦下垂體腫瘤。
+- **藥物交互作用：** 共記錄 100 項。列出的重要項目中，**嚴重 (Major)** 包括 Bupropion、Morphine、Potassium citrate；**中度 (Moderate)** 包括 Epinephrine、Atropine、Hyoscyamine、Loperamide、Dicyclomine、Glycopyrronium 等（多為抗膽鹼或中樞抑制相關）。
+- **其他注意事項（依藥物類別與文獻推論）：** 吸入劑型有支氣管痙攣風險，需限用於無氣道疾病的病人；另有鎮靜與錐體外症狀。
 
----
+詳細警語請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 吸入型 Loxapine 已有 Phase III RCT 支持用於雙相 I 型障礙的急性躁動，且香港已有上市許可證。
-- 但證據針對的是「躁動」而非「躁狂症候群」，安全性資料與作用機轉資料也有缺口，因此不宜直接給 Go。
+- 此預測與 loxapine 既有的雙極性疾患適應症高度重疊，且吸入式劑型已在香港上市，文獻也支持其用於躁動。
+- 但沒有臨床試驗登記，文獻多為回顧，對躁症本身的直接證據有限。
 
 **若要推進需要：**
-- 取得香港衛生署仿單，補齊警語與禁忌症，這是目前的阻斷性缺口
-- 補充 DrugBank 的作用機轉資料
-- 確認 NCT00628589、NCT00721955 的登記狀態與完整結果
-- 釐清「雙相躁動」與「躁狂發作」的適應症界線，並確認香港核准適應症的實際文字
-- 其餘 4 項預測（視網膜失養症、無腦回畸形、X 連鎖近視、糖基化先天異常）皆無臨床試驗與有效文獻，且缺乏機轉依據，建議維持 Hold
+- 取得吸入式 loxapine 兩項 Phase 3 隨機對照試驗的原始資料並查證
+- 補充作用機轉（MOA）資料
+- 取得香港衛生署仿單的警語與禁忌，並確認許可證核准適應症
+- 建立支氣管痙攣、鎮靜與錐體外症狀的監測及病人篩選計畫
+- 評估大量藥物交互作用的處方審查機制
 
-*本報告僅供研究參考，不構成醫療建議；老藥新用候選需經過臨床驗證才能應用。*
+## 其他預測的備註
+
+排名第 2 至第 5 的預測（視網膜失養症、無腦畸形、X 連鎖近視、岩藻糖化缺陷之先天性糖基化異常）皆無試驗或文獻支持，也找不到合理的作用機轉，證據等級均為 L5，建議 **Hold**。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

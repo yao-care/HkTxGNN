@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cefoperazone
-parent: 僅模型預測 (L5)
-nav_order: 168
-evidence_level: L5
+parent: 高證據等級 (L1-L2)
+nav_order: 171
+evidence_level: L1
 indication_count: 10
 ---
 
 # Cefoperazone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L1** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,115 +33,92 @@ indication_count: 10
 
 ## 一句話總結
 
-Cefoperazone 是第三代頭孢菌素類抗生素，在香港以單方或與 sulbactam 複方注射劑上市。
-TxGNN 模型預測分數最高的是**硬化性膽管炎**，但該項僅為模型預測、毫無研究支持；證據最完整的是**肺炎 (Pneumonia)**，有 **2 個臨床試驗**和 **20 篇文獻**（其中 1 篇已撤稿）。
-肺炎本身落在抗菌譜範圍內，較接近既有用途而非真正的老藥新用。
-
----
+Cefoperazone 是第三代頭孢菌素類抗生素，在香港以單方及與 sulbactam 的複方注射劑上市。
+TxGNN 模型預測它可能對**肺炎 (Pneumonia)** 有效，目前有 **2 個臨床試驗**和 **20 篇文獻**支持這個方向，其中包含 2 項隨機對照試驗。
+需注意：肺炎本來就屬於抗生素的使用範圍，嚴格來說較接近既有用途的延伸，而非全新的再利用。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 未提供（許可證資料中的核准適應症皆為空白） |
-| 預測新適應症 | 肺炎 (Pneumonia)，為證據最完整的候選；TxGNN 排名第 1 者為硬化性膽管炎 |
-| TxGNN 預測分數 | 肺炎 99.93%（硬化性膽管炎 99.98%） |
-| 證據等級 | L1（肺炎；注意事項見下） |
+| 原適應症 | 資料中未提供許可證核准適應症文字 |
+| 預測新適應症 | 肺炎 (Pneumonia) |
+| TxGNN 預測分數 | 99.93% |
+| 證據等級 | L1 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 4 張 |
-| 建議決策 | Proceed with Guardrails（肺炎）；其餘候選 Hold |
+| 建議決策 | Proceed with Guardrails |
 
----
+**說明：**排名第 1 的預測為硬化性膽管炎（分數 99.98%），但完全沒有臨床試驗與文獻支持，屬於僅有模型預測（L5）。本報告改以證據最完整的**肺炎**為主要評估對象。
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Cefoperazone 是第三代頭孢菌素，對多種革蘭氏陰性菌有活性，在香港多以 sulbactam 複方形式使用。
+目前缺乏詳細的作用機轉資料（資料庫中未收錄）。根據已知資訊，Cefoperazone 是第三代頭孢菌素，具抗綠膿桿菌活性，一般認為是透過結合青黴素結合蛋白（PBP）、抑制細菌細胞壁合成而殺菌。
 
-肺炎屬於細菌感染，落在其抗菌譜之內。醫院內感染肺炎與醫療照護相關肺炎已有 cefoperazone-sulbactam 的隨機對照研究。因此這更像是既有抗菌用途的驗證，而非跨疾病類別的再利用。
+它常與 sulbactam（β-內醯胺酶抑制劑）合用。Sulbactam 本身對鮑氏不動桿菌 (*Acinetobacter baumannii*) 也有內在活性，因此複方能涵蓋醫院內感染及多重抗藥性病原體。
 
-其他高分預測則缺乏合理機轉：
+肺炎是細菌感染，與抗生素的作用相符。已有隨機試驗將 cefoperazone-sulbactam 與 cefepime、piperacillin-tazobactam 比較，用於院內肺炎。需留意，目前證據主要針對 **sulbactam 複方**，而非單用 cefoperazone。
 
-- **硬化性膽管炎**：cefoperazone 有大量膽汁排泄，可能有助於繼發性細菌性膽管炎。但原發性硬化性膽管炎屬免疫介導疾病，沒有已知抗菌機轉。
-- **類風濕性關節炎**：檢索到的 4 篇皆為 RA 病人感染的個案報告，反映的是感染風險，並非療效，很可能是共現造成的假象。
-- **痛風、罕見發育異常症候群**：無機轉、無證據，推測為知識圖譜的假象。
-
----
-
-## 臨床試驗證據（肺炎）
+## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT01280461](https://clinicaltrials.gov/study/NCT01280461) | N/A（註冊資料未標示，摘要自稱 Phase 3） | 未知 | 142 | 開放標籤隨機試驗，比較 cefoperazone/sulbactam 與 cefepime 用於醫院內及醫療照護相關肺炎 |
-| [NCT02060149](https://clinicaltrials.gov/study/NCT02060149) | Phase 1/2 | 未知 | 90 | 霧化鹼性溶液合併 cefoperazone/sulbactam 加 minocycline，用於廣泛抗藥性鮑氏不動桿菌肺炎；介入重點非 cefoperazone，相關性較低 |
+| [NCT07671755](https://clinicaltrials.gov/study/NCT07671755) | 不適用 (NA) | 完成 | 80 | Colistin 單用 vs. colistin 併用 cefoperazone-sulbactam，治療多重抗藥鮑氏不動桿菌呼吸器相關肺炎；與該複方直接相關，但設計與結果未載明 |
+| [NCT02060149](https://clinicaltrials.gov/study/NCT02060149) | Phase 1/2 | 未知 | 90 | 霧化鹼性溶液輔助 cefoperazone-sulbactam 加 minocycline，治療廣泛抗藥鮑氏不動桿菌肺炎；試驗重點是鹼性溶液，不是 cefoperazone 本身 |
 
----
-
-## 文獻證據（肺炎）
+## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [31138577](https://pubmed.ncbi.nlm.nih.gov/31138577/) | 2019 | RCT | Antimicrob Agents Chemother | Cefoperazone-sulbactam 對比 cefepime 治療 HAP/HCAP 的非劣性隨機試驗 |
-| [34168466](https://pubmed.ncbi.nlm.nih.gov/34168466/) | 2021 | RCT | Infect Drug Resist | Cefoperazone-sulbactam 對比 piperacillin-tazobactam 治療 HAP/VAP 的療效比較 |
-| [1643821](https://pubmed.ncbi.nlm.nih.gov/1643821/) | 1992 | 隨機試驗 | Diagn Microbiol Infect Dis | 院內肺炎單藥治療，cefoperazone 成功率 80%，ceftriaxone 70%，療效相當 |
-| [6456894](https://pubmed.ncbi.nlm.nih.gov/6456894/) | 1981 | 臨床試驗 | Drugs | 肺炎與腎盂腎炎各 15 例，分離菌皆對 cefoperazone 敏感 |
-| [34871744](https://pubmed.ncbi.nlm.nih.gov/34871744/) | 2022 | 回溯性比較 | Int J Antimicrob Agents | Cefoperazone-sulbactam 對比 piperacillin-tazobactam 用於老年肺炎 |
-| [37443505](https://pubmed.ncbi.nlm.nih.gov/37443505/) | 2023 | 回溯性研究 | Medicine | 815 位重症社區型肺炎病人，比較 cefoperazone-sulbactam 與 piperacillin-tazobactam |
-| [29319497](https://pubmed.ncbi.nlm.nih.gov/29319497/) | 2018 | 比較研究 | Int J Clin Pharmacol Ther | Tigecycline 加高劑量 cefoperazone-sulbactam 對比 tigecycline 單用，治療廣泛抗藥鮑氏不動桿菌 VAP |
-| [24726664](https://pubmed.ncbi.nlm.nih.gov/24726664/) | 2014 | 世代研究 | Int J Infect Dis | 老年碳青黴烯抗藥鮑氏不動桿菌 HAP，及 cefoperazone/sulbactam 的體外效果 |
-| [17120738](https://pubmed.ncbi.nlm.nih.gov/17120738/) | 2006 | 比較研究 | J Huazhong Univ Sci Technol | 靜脈 moxifloxacin 對比 cefoperazone 加 azithromycin 治療社區型肺炎（n=40） |
-
-> ⚠ PMID 35685727 已遭撤稿（撤稿通知為 PMID 38125170），不應納入證據。
-
----
-
-## 其他預測適應症摘要
-
-| 預測適應症 | TxGNN 分數 | 證據等級 | 決策 | 說明 |
-|-----------|-----------|---------|------|------|
-| 硬化性膽管炎 | 99.98% | L5 | Hold | 無試驗、無文獻；僅有膽汁排泄的理論推想 |
-| 類風濕性關節炎 | 99.97% | L5 | Hold | 4 篇皆為感染個案報告，非療效證據 |
-| 支氣管炎 | 99.77% | L3 | 研究問題 | 有 1980–90 年代臨床研究與痰液滲透資料，但年代久遠，未反映現今抗藥性 |
-| 腦膜炎雙球菌感染 | 99.51% | L4 | Hold | 僅 1987 年一篇細菌性腦膜炎初步報告，且腦脊髓液滲透有限，非首選 |
-| 感染性中耳炎 | 99.50% | L4 | Hold | 文獻無 cefoperazone 療效結果，僅間接證據 |
-| IgG4 相關硬化性膽管炎 | 99.48% | L5 | Hold | 屬免疫性疾病，無抗菌機轉、無證據 |
-| 痛風 | 99.83% | L5 | Hold | 與尿酸代謝或發炎無已知關聯 |
-| 科洛波瘤性小眼症-肢根型骨發育不良症候群 | 99.92% | L5 | Hold | 罕見遺傳疾病，無證據，疑為知識圖譜假象 |
-| 短指併指症候群 | 99.90% | L5 | Hold | 罕見先天畸形，無證據，疑為知識圖譜假象 |
-
----
+| [31138577](https://pubmed.ncbi.nlm.nih.gov/31138577/) | 2019 | RCT | Antimicrob Agents Chemother | 開放label非劣性試驗：cefoperazone-sulbactam 對比 cefepime，用於院內及醫療照護相關肺炎 |
+| [34168466](https://pubmed.ncbi.nlm.nih.gov/34168466/) | 2021 | RCT/臨床比較 | Infect Drug Resist | Cefoperazone-sulbactam 對比 piperacillin-tazobactam，用於院內肺炎與呼吸器相關肺炎 |
+| [41110353](https://pubmed.ncbi.nlm.nih.gov/41110353/) | 2025 | RCT | Phytomedicine | 新加大元散治療多重抗藥革蘭氏陰性菌肺炎，並非以 cefoperazone 為主要介入 |
+| [17120738](https://pubmed.ncbi.nlm.nih.gov/17120738/) | 2006 | 臨床比較 | J Huazhong Univ Sci Technol | 靜脈 moxifloxacin 對比 cefoperazone 加 azithromycin，用於社區型肺炎（40 人） |
+| [6456894](https://pubmed.ncbi.nlm.nih.gov/6456894/) | 1981 | 臨床試驗 | Drugs | 15 例肺炎與 15 例腎盂腎炎，分離菌均對 cefoperazone 敏感 |
+| [35685727](https://pubmed.ncbi.nlm.nih.gov/35685727/) | 2022 | 臨床比較 | Evid Based Complement Alternat Med | Polymyxin B、cefoperazone-sulbactam 及 tigecycline 治療多重抗藥鮑氏不動桿菌肺炎（該文後來已被撤稿，應審慎看待） |
+| [24726664](https://pubmed.ncbi.nlm.nih.gov/24726664/) | 2014 | 回顧性分析 | Int J Infect Dis | 老年碳青黴烯抗藥鮑氏不動桿菌院內肺炎，並評估 cefoperazone/sulbactam 的體外效果 |
+| [41868911](https://pubmed.ncbi.nlm.nih.gov/41868911/) | 2026 | 模型研究 | Am J Transl Res | 肝功能不全患者使用 cefoperazone-sulbactam 的劑量優化 |
+| [2671141](https://pubmed.ncbi.nlm.nih.gov/2671141/) | 1989 | Review | Infect Dis Clin North Am | 第三代頭孢菌素回顧，包括 cefoperazone 的抗綠膿桿菌活性 |
+| [1754734](https://pubmed.ncbi.nlm.nih.gov/1754734/) | 1991 | 回顧 | Semin Respir Infect | 比較胺基糖苷類與 β-內醯胺類（含 cefoperazone）治療革蘭氏陰性菌肺炎 |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-61003 | CEFOPERAZONE AND SULBACTAM FOR INJECTION 1G (SHENZHEN LIJIAN) | 注射劑 | 未提供 |
-| HK-63480 | SITANDING POWDER FOR SOLUTION FOR INJECTION 1G | 注射劑 | 未提供 |
-| HK-56893 | NASPALUN FOR INTRAVENOUS INJ | 靜脈注射劑 | 未提供 |
-| HK-32893 | SULPERAZON FOR INJ 500MG/500MG（輝瑞） | 注射劑 | 未提供 |
-
----
+| HK-61003 | CEFOPERAZONE AND SULBACTAM FOR INJECTION 1G (SHENZHEN LIJIAN) | 注射劑 | 資料中未提供 |
+| HK-63480 | SITANDING POWDER FOR SOLUTION FOR INJECTION 1G | 注射劑 | 資料中未提供 |
+| HK-56893 | NASPALUN FOR INTRAVENOUS INJ | 靜脈注射劑 | 資料中未提供 |
+| HK-32893 | SULPERAZON FOR INJ 500MG/500MG | 注射劑 | 資料中未提供 |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜中的禁忌疾病關聯**（來自模型的藥物-疾病關係，非仿單內容）：肝病、膽囊疾病、凝血疾病、困難梭狀桿菌結腸炎、新生兒壞死性腸炎、先天性凝血酶原缺乏、維生素 K 缺乏出血症、消化系統疾病、腸道疾病。
+- **藥物交互作用**：共查得 14 項，皆為中度。主要包括：
+  - 抗凝血劑：warfarin、heparin
+  - 胺基糖苷類：kanamycin、neomycin、streptomycin、amikacin（含脂質體）、gentamicin
+  - 其他：ethanol、chloramphenicol、picosulfuric acid、ethinylestradiol、mycophenolic acid、pemetrexed
 
----
+仿單的警語與禁忌症資料尚未取得，詳細內容請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails（僅限肺炎）；其他所有候選 Hold**
+**決策：Proceed with Guardrails**
 
 **理由：**
-- 肺炎有多項 cefoperazone-sulbactam 的隨機比較研究，機轉合理。但這屬於既有抗菌用途，並非嚴格意義的老藥新用。
-- 其餘高分預測（如硬化性膽管炎、類風濕性關節炎、痛風）沒有機轉或臨床證據，僅為模型輸出，不宜推進。
+- 肺炎有 2 項隨機對照試驗（對比 cefepime 及 piperacillin-tazobactam）支持 cefoperazone-sulbactam，且用途符合抗生素類別，屬既有用途的延伸。
+- 但證據主要針對 sulbactam 複方，仿單安全性資料尚未取得，因此需附帶限制條件。
 
 **若要推進需要：**
-- 確認證據等級：試驗為複方（含 sulbactam）而非單方，且 NCT01280461 註冊資料階段為 N/A，需查全文核實是否為 Phase 3；也需確認已完成的 Phase 3 RCT 數量是否達 L1 標準。
-- 排除已撤稿的 PMID 35685727。
-- 依本地抗菌譜與抗藥性資料（特別是碳青黴烯抗藥鮑氏不動桿菌）評估使用。
-- 補充香港衛生署仿單的警語、禁忌與核准適應症（目前為阻擋性資料缺口，無法進入安全性篩選）。
-- 補充作用機轉資料（DrugBank）。
-- 如評估支氣管炎，需現代對照研究或確認現有標示。
+- 取得並解析香港衛生署仿單，確認核准適應症、警語與禁忌症
+- 使用前確認病原菌藥物敏感性，並遵循抗生素管理原則
+- 針對肝功能不全、凝血異常、併用抗凝血劑或胺基糖苷類的患者建立監測計畫
+- 釐清證據是否適用於單方 cefoperazone，或僅適用於 sulbactam 複方
+- 補充作用機轉資料
+
+**其他預測的處理建議：**
+- **支氣管炎**（L3）、**腦膜炎雙球菌感染**（L3）、**感染性中耳炎**（L4）：證據多為老舊、小型或間接研究，建議 Hold，視為既有抗菌用途的延伸。腦膜炎方面，cefoperazone 的腦脊髓液穿透性不如 ceftriaxone 與 cefotaxime，無優先使用理由。
+- **類風濕性關節炎**（L4）：檢索到的文獻僅為感染併發症個案報告，並非針對疾病本身，建議 Hold。
+- **硬化性膽管炎、IgG4 相關硬化性膽管炎、痛風、先天發育異常症候群**：僅有模型預測，無證據與合理機轉，建議 Hold。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -2,7 +2,7 @@
 layout: default
 title: Nonivamide
 parent: 僅模型預測 (L5)
-nav_order: 615
+nav_order: 627
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,39 +29,33 @@ indication_count: 10
 
 </div>
 
-# Nonivamide：從外用止痛類製劑到肺動脈高壓
+# Nonivamide：從外用止痛（原適應症資料缺漏）到肺動脈高壓
 
 ## 一句話總結
 
-Nonivamide 是辣椒素（capsaicin）的類似物，在香港以外用液劑成分上市（如 Tiger Balm、Salonpas、Ammeltz 等產品），但許可證資料未登載核准適應症。
+Nonivamide 是合成的辣椒素類似物（TRPV1 促效劑），在香港以外用止痛類產品形式上市。
 TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有效，
-目前**沒有臨床試驗，也沒有文獻**支持，僅有模型預測分數。
+但目前**沒有任何臨床試驗或文獻**支持，僅為模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 香港許可證未提供核准適應症文字 |
 | 預測新適應症 | 肺動脈高壓 (Pulmonary Hypertension) |
 | TxGNN 預測分數 | 99.81% |
-| 證據等級 | L5（僅有模型預測） |
+| 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 12 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Nonivamide 是辣椒素類似物，也是 TRPV1 促效劑。TRPV1 表現於血管周圍的感覺神經，因此血管活性作用在理論上可想像。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Nonivamide 是辣椒素類似物，作為 TRPV1 促效劑，會活化感覺神經並釋放 CGRP，外用時有血管擴張與局部刺激（發紅）效果。
 
-不過，這個推論純屬推測。原適應症資料缺漏，也沒有任何試驗或文獻支持肺動脈高壓這個方向，分數高不等於機轉已被證實。
+TRPV1 在肺血管與感覺神經中有表現，也曾被研究用於血管張力調節。但對 Nonivamide 與肺動脈高壓之間，目前並未建立直接關聯。99.81% 的高分來自知識圖譜的圖結構推論，不等於有生物學或臨床證據。
 
-排名第 2 至第 10 的預測（都同樣沒有證據）大致分為三類：
-
-| 類別 | 預測適應症 | 機轉合理性 |
-|------|-----------|-----------|
-| 血管類 | 周邊動脈疾病、周邊血管疾病、間歇性跛行 | 低至中。TRPV1 活化與 CGRP 釋放可能影響血管張力，但未經驗證 |
-| 神經類 | 偏頭痛 | 相對最合理。TRPV1 促效劑可耗竭三叉神經感覺神經元的 CGRP 與 P 物質，辣椒素曾在頭痛情境被探索；nonivamide 是否適用尚無資料 |
-| 心律不整類 | 心室頻脈、兒茶酚胺敏感性多形性心室頻脈 | 缺乏依據。心臟感覺傳入神經雖有 TRPV1，但對心律不整的影響未確立，甚至可能誘發心律不整 |
-| 其他 | 急性淋巴母細胞白血病、脊柱後凸性心臟病、過敏性休克 | 無合理機轉，分數可能是知識圖譜的假象。Nonivamide 是感覺刺激物，可引發神經性發炎，對過敏性休克不太可能有益 |
+其他預測適應症中，機轉上相對合理的是**偏頭痛**（TRPV1 與 CGRP 為三叉神經血管痛覺訊號的核心，辣椒素類藥物可使痛覺神經去敏感化），但同樣沒有 Nonivamide 專屬的研究資料。周邊動脈疾病、間歇性跛行等僅有「局部血管擴張」的推測；急性淋巴芽細胞白血病、過敏性休克、CPVT、脊柱後側彎性心臟病則缺乏合理的機轉連結。
 
 ## 臨床試驗證據
 
@@ -73,15 +67,17 @@ TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有�
 
 ## 香港上市資訊
 
-共 12 張許可證，以下列出 5 張主要許可證（許可證資料未登載劑型與核准適應症）：
+下表為香港已登記的 12 張許可證（皆為有效單一成分製劑）。資料中未提供劑型與核准適應症。
 
 | 許可證號 | 品名 | 廠商 |
 |---------|------|------|
-| HK-66440 | TIGER BALM LOTION | Haw Par Brothers International (H.K.) Ltd |
-| HK-66526 | NEW AMMELTZ YOKO YOKO EXTRA STRENGTH LIQUID | Kobayashi Pharmaceutical (Hong Kong) Company Limited |
-| HK-62002 | SALONPAS LOTION | Hisamitsu Pharmaceutical (Hong Kong) Co., Limited |
-| HK-00349 | AMMELTZ LOTION | Kobayashi Pharmaceutical (Hong Kong) Company Limited |
-| HK-42348 | NEW AMMELTZ YOKO YOKO LIQUID | Kobayashi Pharmaceutical (Hong Kong) Company Limited |
+| HK-66440 | TIGER BALM LOTION | Haw Par Brothers International (HK) |
+| HK-66526 | NEW AMMELTZ YOKO YOKO EXTRA STRENGTH LIQUID | Kobayashi Pharmaceutical (HK) |
+| HK-62002 | SALONPAS LOTION | Hisamitsu Pharmaceutical (HK) |
+| HK-00349 | AMMELTZ LOTION | Kobayashi Pharmaceutical (HK) |
+| HK-42348 | NEW AMMELTZ YOKO YOKO LIQUID | Kobayashi Pharmaceutical (HK) |
+
+另有 7 張許可證（如 PANOPAS SOLUTION、STRONG MAITREE-PAS PLASTER、WIDE PASS E PLASTER 等）未在此列出。
 
 ## 安全性考量
 
@@ -92,17 +88,15 @@ TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有�
 **決策：Hold**
 
 **理由：**
-- 所有預測適應症都只有模型分數（L5），沒有任何臨床試驗或文獻佐證。
-- 現有產品都是外用製劑，而肺動脈高壓等全身性疾病所需的給藥途徑尚未評估。心室頻脈等項目還有潛在的安全疑慮。
+- 所有預測適應症皆只有模型分數，無臨床試驗與文獻佐證（L5），且 Nonivamide 與肺動脈高壓的機轉連結屬推測。
+- 作用機轉與仿單安全性資料皆缺漏，無法進行安全性篩選。
 
 **若要推進需要：**
-- 取得 DrugBank 的作用機轉資料，補上機轉連結分析。
-- 下載並解析香港衛生署仿單，補齊警語、禁忌與核准適應症。
-- 以 PubMed 與 ClinicalTrials.gov 檢索 nonivamide／capsaicin 相關研究，優先檢視偏頭痛與周邊血管疾病。
-- 評估給藥途徑與現有外用劑型是否相容。
-- 在完成上述工作之前，不建議進入安全性篩選階段。
-
-*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。*
+- 補齊 DrugBank 的作用機轉（MOA）資料，並取得香港衛生署仿單的警語與禁忌資料
+- 確認各許可證的劑型與核准適應症
+- 進行系統性文獻回顧與前臨床研究，評估 TRPV1 促效劑對肺血管的作用
+- 評估外用劑型是否適用於全身性疾病（給藥途徑相容性尚待確認）
+- 若要探索替代方向，可優先評估機轉較合理的偏頭痛，並先檢視其安全性風險
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

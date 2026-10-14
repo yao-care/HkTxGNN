@@ -2,7 +2,7 @@
 layout: default
 title: Benzylpenicillin
 parent: 僅模型預測 (L5)
-nav_order: 109
+nav_order: 112
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,13 +29,12 @@ indication_count: 7
 
 </div>
 
-# Benzylpenicillin：從細菌感染到冠周炎 (Pericoronitis)
+# Benzylpenicillin：從鏈球菌感染等細菌性感染到牙周炎（Pericoronitis）
 
 ## 一句話總結
 
-Benzylpenicillin（青黴素 G）是經典的青黴素類抗菌藥，香港有 3 張注射劑型許可證。
-TxGNN 模型預測它可能對**冠周炎 (Pericoronitis)** 有效。
-目前**沒有臨床試驗**，相關的 20 篇文獻也**沒有直接測試 benzylpenicillin**，證據屬間接推論。
+Benzylpenicillin（青黴素 G）是經典的注射用 β-內醯胺類抗生素，原本用於鏈球菌感染、腦膜炎、心內膜炎、炭疽等多種細菌性感染。
+TxGNN 模型預測它可能對**冠周炎 (Pericoronitis)** 有效，但目前**沒有任何臨床試驗或文獻**支持，僅屬模型預測的研究假說。
 
 ---
 
@@ -43,23 +42,23 @@ TxGNN 模型預測它可能對**冠周炎 (Pericoronitis)** 有效。
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證未載明核准適應症 |
+| 原適應症 | 鏈球菌感染、腦膜炎球菌感染、肺炎鏈球菌腦膜炎、炭疽、心內膜炎、金黃色葡萄球菌感染等（來自知識圖譜；香港許可證未載明適應症文字） |
 | 預測新適應症 | 冠周炎 (Pericoronitis) |
 | TxGNN 預測分數 | 99.36% |
-| 證據等級 | L4（僅有機轉與間接研究，無直接臨床證據） |
+| 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 3 張 |
-| 建議決策 | Hold |
+| 建議決策 | Hold（僅列為研究問題） |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，benzylpenicillin 屬於青黴素類抗菌藥，對敏感細菌有殺菌作用。冠周炎是多種細菌混合造成的牙源性感染，機轉上可能適用。
+目前缺乏詳細的作用機轉資料。Benzylpenicillin 屬於青黴素類抗生素，一般認為其作用是抑制細菌細胞壁合成而產生殺菌效果，對鏈球菌等敏感菌有效。
 
-冠周炎常見於智齒（尤其下顎）萌出不完全時，牙齦覆蓋部分牙冠而發炎。文獻指出其菌叢以厭氧菌為主，青黴素類（如 amoxicillin）與 metronidazole 被認為有效（PMID 1873287）。牙科抗生素的系統性回顧也建議，需使用抗生素時應先以 β-內醯胺類單一藥物治療（PMID 35959239）。
+冠周炎是由鏈球菌與厭氧菌等引起的多菌種牙源性感染，這些菌多半對青黴素敏感，因此在機轉上有合理性。不過，牙源性感染通常使用口服青黴素（如 penicillin V、amoxicillin），注射型 benzylpenicillin 主要可能用於嚴重病例。
 
-不過這個連結是間接的。本次沒有找到任何 benzylpenicillin 用於冠周炎的對照研究。2003 年的微生物研究還發現，下顎智齒冠周炎中有產 β-內醯胺酶的細菌（PMID 12789143），這可能限制未加酶抑制劑的青黴素效果。
+需要注意的是，TxGNN 分數僅為模型預測，並無實際研究佐證。同一份預測清單中的其他口腔疾病（如牙齦萎縮、口瘡、白斑）與抗菌機轉關聯薄弱，顯示高分可能部分反映知識圖譜中與口腔疾病節點的鄰近性，而非真實療效。
 
 ---
 
@@ -71,38 +70,29 @@ TxGNN 模型預測它可能對**冠周炎 (Pericoronitis)** 有效。
 
 ## 文獻證據
 
-以下文獻多數不是直接測試 benzylpenicillin 的研究。
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [39068391](https://pubmed.ncbi.nlm.nih.gov/39068391/) | 2024 | RCT（漱口水，非青黴素） | BMC oral health | 含 chlorhexidine、amoxicillin、metronidazole 等的複方漱口水用於急性冠周炎，評估疼痛與最大開口度 |
-| [35959239](https://pubmed.ncbi.nlm.nih.gov/35959239/) | 2022 | 系統性回顧（metronidazole） | JAC-antimicrobial resistance | 牙科感染應在確有全身症狀時才用抗生素，首選 β-內醯胺類單一藥物 |
-| [36268928](https://pubmed.ncbi.nlm.nih.gov/36268928/) | 2022 | Review | European journal of translational myology | 孕期牙髓治療的抗生素使用回顧 |
-| [29693642](https://pubmed.ncbi.nlm.nih.gov/29693642/) | 2018 | Review | Antibiotics (Basel) | 兒童口顏面感染的抗生素處方，提醒牙科濫用抗生素的問題 |
-| [26067725](https://pubmed.ncbi.nlm.nih.gov/26067725/) | 2015 | 回溯性世代研究 | J Contemp Dent Pract | 大學醫院牙科急診中牙源性感染的盛行率與處置 |
-| [12789143](https://pubmed.ncbi.nlm.nih.gov/12789143/) | 2003 | 微生物研究 | Oral Surg Oral Med Oral Pathol Oral Radiol Endod | 下顎智齒冠周炎中有產 β-內醯胺酶的細菌，可能影響青黴素效果 |
-| [1873287](https://pubmed.ncbi.nlm.nih.gov/1873287/) | 1991 | 問卷調查 | Br J Oral Maxillofac Surg | 英國口腔顎面外科醫師認為青黴素類與 metronidazole 對急性冠周炎有效 |
-| [40381916](https://pubmed.ncbi.nlm.nih.gov/40381916/) | 2025 | 監測研究 | J Infect Chemother | 日本牙源性感染分離菌的抗菌藥感受性監測 |
-| [21027620](https://pubmed.ncbi.nlm.nih.gov/21027620/) | 1946 | 病例報告 | Am J Orthod Oral Surg | 以抽吸並灌注青黴素治療急性冠周炎引起的頜下膿瘍（年代久遠） |
-| [14353202](https://pubmed.ncbi.nlm.nih.gov/14353202/) | 1954 | 歷史文獻 | Fogorvosi szemle | 以青黴素與 procaine 局部注射治療下顎智齒冠周炎（無摘要） |
+目前無相關文獻。
 
 ---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-43500 | PAN-PENICILLIN G SOD FOR INJ 1M IU | DCH Auriga (Hong Kong) Limited - Universal Division |
-| HK-60173 | NORAPENY FOR IM/IV INJ 1000000IU | Jindun Pharma (H.K.) Limited |
-| HK-68195 | PENICILLIN G SODIUM SANDOZ POWDER FOR SOLUTION FOR INJECTION/INFUSION 1000000IU | Sandoz Hong Kong Limited |
-
-三張許可證的品名都顯示為注射劑型（肌肉或靜脈注射），資料中沒有載明核准適應症與劑型欄位。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-43500 | PAN-PENICILLIN G SOD FOR INJ 1M IU | 注射劑 | 未提供 |
+| HK-60173 | NORAPENY FOR IM/IV INJ 1000000IU | 注射劑（肌肉／靜脈） | 未提供 |
+| HK-68195 | PENICILLIN G SODIUM SANDOZ POWDER FOR SOLUTION FOR INJECTION/INFUSION 1000000IU | 注射／輸注用粉末 | 未提供 |
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌相關疾病**（非仿單文字，僅供參考）：腎臟疾病、輸尿管積膿、困難梭狀芽孢桿菌結腸炎、新生兒壞死性腸炎、傳染性單核球增多症、慢性 Epstein-Barr 病毒感染症候群。
+- **藥物交互作用**：共查得 21 項，主要如下：
+  - **重大 (Major)**：Methotrexate（可能降低其排除而增加毒性，應謹慎）
+  - **中度 (Moderate)**：Doxycycline、Minocycline、Tetracycline、Oxytetracycline、Demeclocycline（四環素類）、Chloramphenicol、Warfarin、Dicoumarol、Ethinylestradiol、Mycophenolic acid、Picosulfuric acid、Iodide I-123、Iodide I-131
+  - 另有輕度（Clarithromycin、Erythromycin）及等級未明（Salbutamol、Acyclovir、Gentamicin、Levothyroxine）的交互作用。
+
+主要警語與正式禁忌症請參考原廠仿單。
 
 ---
 
@@ -111,16 +101,13 @@ TxGNN 模型預測它可能對**冠周炎 (Pericoronitis)** 有效。
 **決策：Hold**
 
 **理由：**
-- 冠周炎確實是抗菌藥常用的適應症，但沒有任何臨床試驗，也沒有直接測試 benzylpenicillin 的對照研究。
-- 冠周炎多為局部、輕中度的感染，且可能有產 β-內醯胺酶的細菌，注射用青黴素 G 是否合適也存疑。
+- 冠周炎的預測僅有模型分數，無任何臨床試驗或文獻佐證（L5）。雖然抗菌機轉在牙源性感染上有合理性，但臨床上已有口服青黴素等標準選擇，注射型的新增價值有限。
 
 **若要推進需要：**
-- 取得香港衛生署仿單的警語與禁忌症，這是目前的阻擋性資料缺口。
-- 補充 benzylpenicillin 的作用機轉資料（可查詢 DrugBank）。
-- 進行系統性文獻回顧，比較 benzylpenicillin 與現行標準用藥（amoxicillin、metronidazole）在冠周炎的療效，並評估注射劑型的必要性。
-- 若要優先探索其他方向，預測排名第 3 的**口瘡（復發性口腔潰瘍）**已有 penicillin G 鉀含片的隨機對照試驗（PMID 33273940、14676759、20188604）。但這些研究用的是局部含片，與香港目前的注射劑型不同，且本次資料未提供其療效結果，仍需另行評估。
-
-> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+- 補充作用機轉資料（MOA）及香港許可證的核准適應症與仿單警語、禁忌症
+- 系統性檢索冠周炎抗生素治療的臨床試驗與文獻，並與現行標準療法（口服青黴素、amoxicillin 等）比較
+- 釐清注射給藥是否適用於重症冠周炎的情境（給藥途徑相容性評估）
+- 完成安全性篩選，特別是與 methotrexate 等藥物的交互作用，以及腎功能不全患者的使用考量
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

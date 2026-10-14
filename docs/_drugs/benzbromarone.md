@@ -2,7 +2,7 @@
 layout: default
 title: Benzbromarone
 parent: 僅模型預測 (L5)
-nav_order: 102
+nav_order: 105
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,80 +29,96 @@ indication_count: 1
 
 </div>
 
-# Benzbromarone：從高尿酸血症／痛風到腎性低尿酸血症（不建議推進）
+# Benzbromarone：從痛風與高尿酸血症到腎性低尿酸血症（預測可能為偽陽性）
 
 ## 一句話總結
 
-Benzbromarone 是促尿酸排泄藥，臨床上用於降低血中尿酸（許可證資料未載明適應症，此為藥理常識）。
-TxGNN 模型預測它可能對**腎性低尿酸血症 (Renal Hypouricemia)** 有效，但目前**沒有臨床試驗**，文獻中也沒有支持治療效果的證據。文獻只把它當作診斷用的探針藥物。從機轉看，這個預測方向很可能是相反的。
+Benzbromarone 是一種促尿酸排泄藥物，原本用於治療痛風與高尿酸血症。
+TxGNN 模型預測它可能對**腎性低尿酸血症 (Hypouricemia, Renal)** 有效，但目前**沒有臨床試驗**，僅有 **18 篇文獻**，且多為病例報告，其中 benzbromarone 只是作為診斷用試驗藥物。
+依機轉分析，這很可能是**偽陽性預測**，甚至帶有禁忌訊號。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證未載明（藥理上用於痛風／高尿酸血症） |
-| 預測新適應症 | 腎性低尿酸血症 (Renal Hypouricemia) |
+| 原適應症 | 痛風、高尿酸血症（香港許可證未列出適應症文字，此為知識圖譜資料） |
+| 預測新適應症 | 腎性低尿酸血症 (Hypouricemia, Renal) |
 | TxGNN 預測分數 | 99.07% |
-| 證據等級 | L5（僅有模型預測） |
+| 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 3 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料，以下分析根據一般藥理知識，而非 Evidence Pack 的資料。Benzbromarone 抑制腎小管的尿酸轉運蛋白 URAT1 (SLC22A12)，阻斷尿酸再吸收，因此血中尿酸會下降。
+目前缺乏詳細的作用機轉資料（資料庫未收錄）。但根據已知藥理，benzbromarone 是強效的 URAT1（SLC22A12）抑制劑，會阻斷腎小管對尿酸的再吸收，進而降低血清尿酸。
 
-腎性低尿酸血症主要由 URAT1（或 GLUT9）的功能喪失變異引起，患者本來就因尿酸再吸收缺陷而大量排出尿酸。再給予 URAT1 抑制劑，等於重現甚至加重疾病表型，可能增加運動誘發急性腎損傷、腎結石和血尿的風險，這些都是文獻中描述的已知併發症。
+腎性低尿酸血症本身的成因，正是 URAT1（或 GLUT9）功能喪失性突變，造成尿酸大量由尿液排出、血清尿酸過低。換言之，benzbromarone 的藥理作用是**模擬疾病機轉**，而不是矯正它。
 
-TxGNN 的高分（99.07%）較可能反映知識圖譜中 benzbromarone、URAT1 與尿酸代謝之間的關聯，而不是治療關係。因此這個預測在機轉上互相矛盾，不應視為有效的老藥新用線索。
+TxGNN 的高分（0.99）很可能來自知識圖譜中共同的 URAT1 節點（藥物標靶與基因疾病關聯），而非真正的治療關係。若用於此病症，預期會加重表型，增加運動誘發急性腎損傷與泌尿道結石的風險。因此這是**可能的偽陽性預測，反映的是禁忌訊號，而非再利用機會**。
+
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
-以下文獻中，benzbromarone 多半作為「診斷腎小管尿酸轉運缺陷的測試藥物」，並非治療用途。沒有 RCT。
+下表列出較相關的文獻（共 18 篇，皆未顯示支持 benzbromarone 作為治療）。這些文獻主要把 benzbromarone 當作診斷或生理探針（與 pyrazinamide 抑制試驗搭配），用來區分腎小管尿酸轉運缺陷的類型。
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Review | Clinical Rheumatology | 為風濕科醫師整理低尿酸血症的病因與臨床處置 |
-| [14694169](https://pubmed.ncbi.nlm.nih.gov/14694169/) | 2004 | Cohort | JASN | 分析 32 位日本腎性低尿酸血症患者，探討 SLC22A12 (URAT1) 基因與尿酸排泄的關係 |
-| [8893184](https://pubmed.ncbi.nlm.nih.gov/8893184/) | 1996 | Case report | Nephron | 以 pyrazinamide 與 benzbromarone 分析 Fanconi 症候群合併低尿酸血症的尿酸轉運 |
-| [8863890](https://pubmed.ncbi.nlm.nih.gov/8863890/) | 1996 | Case report | Acta Paediatrica | 患者反覆發生運動後急性腎衰竭；benzbromarone/pyrazinamide 測試顯示近端小管分泌前再吸收缺陷 |
-| [3380222](https://pubmed.ncbi.nlm.nih.gov/3380222/) | 1988 | Case report | Nephron | 腎性低尿酸血症患者服用 benzbromarone 後尿酸清除率進一步升高 |
-| [8302413](https://pubmed.ncbi.nlm.nih.gov/8302413/) | 1993 | Case report | Nephron | 低尿酸血症合併尿路結石；probenecid 與 benzbromarone 都使尿酸清除率明顯上升，以鹼化尿液治療結石 |
-| [4009341](https://pubmed.ncbi.nlm.nih.gov/4009341/) | 1985 | Case series | J Pediatrics | 4 位遺傳性腎性低尿酸血症兒童，pyrazinamide 與 benzbromarone 對多數患者的清除率比值無影響 |
-| [1501741](https://pubmed.ncbi.nlm.nih.gov/1501741/) | 1992 | Case report | Nephron | 2 位受試者中，pyrazinamide 未能抑制 benzbromarone 的促尿酸排泄作用 |
-| [11676906](https://pubmed.ncbi.nlm.nih.gov/11676906/) | 2001 | Case report | Anales Espanoles de Pediatria | 12 個月男嬰因腎性低尿酸血症出現膀胱尿酸結石，對 benzbromarone 有反應，符合分泌前缺陷 |
-| [9144014](https://pubmed.ncbi.nlm.nih.gov/9144014/) | 1997 | Case report | Internal Medicine | 2 例腎性低尿酸血症合併腎結石，以 benzbromarone 與 pyrazinamide 抑制試驗分型 |
+| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Review | Clinical Rheumatology | 低尿酸血症的病因與臨床處理，供風濕科醫師參考 |
+| [8976099](https://pubmed.ncbi.nlm.nih.gov/8976099/) | 1996 | Review | Nihon Rinsho | 尿酸代謝異常的概念與分類（高尿酸與低尿酸） |
+| [14694169](https://pubmed.ncbi.nlm.nih.gov/14694169/) | 2004 | 世代／基因分析 | JASN | 32 名腎性低尿酸血症患者的 SLC22A12 (URAT1) 突變分析 |
+| [4009341](https://pubmed.ncbi.nlm.nih.gov/4009341/) | 1985 | 病例系列 | J Pediatr | 遺傳性腎性低尿酸血症兒童中，benzbromarone 不改變尿酸清除率比值 |
+| [10879667](https://pubmed.ncbi.nlm.nih.gov/10879667/) | 2000 | 病例系列 | Clin Nephrol | 腎性低尿酸血症合併運動誘發急性腎衰竭與慢性腎功能不全 |
+| [8863890](https://pubmed.ncbi.nlm.nih.gov/8863890/) | 1996 | 病例報告 | Acta Paediatr | 反覆運動誘發急性腎衰竭；benzbromarone/pyrazinamide 試驗顯示近端腎小管再吸收缺陷 |
+| [12862209](https://pubmed.ncbi.nlm.nih.gov/12862209/) | 2003 | 病例報告 | Hypertens Res | 降壓治療期間發生運動誘發急性腎衰竭，合併特發性腎性低尿酸血症 |
+| [8893184](https://pubmed.ncbi.nlm.nih.gov/8893184/) | 1996 | 病例報告／生理研究 | Nephron | Fanconi 症候群合併明顯腎性低尿酸血症，以 pyrazinamide 與 benzbromarone 分析尿酸轉運 |
+| [3380222](https://pubmed.ncbi.nlm.nih.gov/3380222/) | 1988 | 病例報告／生理研究 | Nephron | 孤立性腎尿酸轉運缺陷；給予 benzbromarone 後尿酸清除率進一步上升 |
+| [14655203](https://pubmed.ncbi.nlm.nih.gov/14655203/) | 2003 | 病例報告 | Am J Kidney Dis | 兩位男性手足的遺傳性腎性低尿酸血症合併運動誘發急性腎衰竭 |
+
+---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-29832 | NARCARICIN MITE TAB 50MG | WAH HING TRADING CO |
-| HK-37906 | NARCARICIN CAP 50MG | WILCOME PHARMACEUTICAL CO LTD |
-| HK-58488 | EURICON TAB 50MG | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-29832 | NARCARICIN MITE TAB 50MG | 錠劑（50 mg） | 許可證資料未載明 |
+| HK-37906 | NARCARICIN CAP 50MG | 膠囊劑（50 mg） | 許可證資料未載明 |
+| HK-58488 | EURICON TAB 50MG | 錠劑（50 mg） | 許可證資料未載明 |
+
+---
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
+
+另外，從機轉推論，benzbromarone 若用於腎性低尿酸血症，可能進一步增加尿酸排泄，使運動誘發急性腎損傷與尿路結石的風險上升。上述文獻也指出，這類患者本身已有這些併發症的風險。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 沒有任何臨床試驗，文獻多為病例報告，且僅將 benzbromarone 用作診斷探針，並非治療證據。
-- 機轉上，促尿酸排泄藥可能加重腎性低尿酸血症，並增加急性腎損傷與結石風險。高分預測應視為圖譜關聯的假象。
+- 目前只有模型預測，沒有任何臨床試驗，證據等級為 L5。
+- Benzbromarone 抑制 URAT1，與腎性低尿酸血症的致病機轉同向，預期會惡化病情，屬於禁忌訊號，不建議推進再利用。
 
 **若要推進需要：**
-- 取得香港衛生署仿單的警語與禁忌資料。
-- 補齊 DrugBank 的作用機轉資料，確認 URAT1 抑制與疾病機轉的關係。
-- 除非有新的機轉或臨床證據推翻上述判斷，否則不建議投入資源。
-
-*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證才能應用。*
+- 確認 TxGNN 高分是否僅來自 URAT1 共同節點，並將此預測標記為偽陽性或反向（禁忌）關聯。
+- 補齊香港仿單的警語、禁忌症與核准適應症資料。
+- 補齊 DrugBank 的作用機轉資料。
+- 若要將此訊號正式列入安全性資料，建議在仿單與知識圖譜中確認腎性低尿酸血症是否應列為禁忌或慎用族群。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

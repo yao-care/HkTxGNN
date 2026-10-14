@@ -2,7 +2,7 @@
 layout: default
 title: Ranolazine
 parent: 僅模型預測 (L5)
-nav_order: 743
+nav_order: 758
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,72 +29,91 @@ indication_count: 1
 
 </div>
 
-# Ranolazine：從原適應症（資料未提供）到腎因性抗利尿激素分泌不當症候群
+# Ranolazine：從慢性心絞痛（原適應症資料缺漏）到腎因性抗利尿不適當症候群
 
 ## 一句話總結
 
-Ranolazine 目前在香港有 3 張緩釋錠許可證，但本次資料未登載原適應症。
-TxGNN 模型預測它可能對**腎因性抗利尿激素分泌不當症候群 (Nephrogenic Syndrome of Inappropriate Antidiuresis, NSIAD)** 有效。
-目前**沒有臨床試驗和文獻**支持，只有模型預測。
+Ranolazine 是晚期鈉電流（late sodium current）抑制劑，在香港已有 3 張有效許可證，目前以單方製劑上市。
+TxGNN 模型預測它可能對**腎因性抗利尿不適當症候群 (Nephrogenic Syndrome of Inappropriate Antidiuresis, NSIAD)** 有效。
+目前**沒有任何臨床試驗或文獻**支持，僅有模型預測分數，屬於初步假說。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未提供 |
-| 預測新適應症 | 腎因性抗利尿激素分泌不當症候群 (NSIAD) |
-| TxGNN 預測分數 | 99.65%（排名 7050） |
+| 原適應症 | 香港許可證資料未載明 |
+| 預測新適應症 | 腎因性抗利尿不適當症候群 (NSIAD) |
+| TxGNN 預測分數 | 99.65% |
 | 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 3 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料，原適應症也未提供，因此無法從資料中建立藥物與 NSIAD 之間的機轉關聯。
+目前缺乏詳細的作用機轉資料。就一般藥理知識而言，Ranolazine 是晚期鈉電流（INa-late）抑制劑，對部分脂肪酸氧化以及部分鉀、鈣電流也有作用。
 
-NSIAD 的成因是 AVPR2（血管加壓素 V2 受體）的功能增益變異。這類變異使 cAMP 訊號持續活化，在沒有血管加壓素的情況下，AQP2 仍會促進水分再吸收。依一般藥理知識（非本次資料提供），ranolazine 是晚期鈉電流（Nav1.5）抑制劑，對脂肪酸氧化也有部分影響。這兩者都沒有已知作用於 V2 受體、cAMP/AQP2 訊號或腎臟水分調節。
+NSIAD 是由血管加壓素 V2 受體（AVPR2）功能獲得性突變所造成，會導致水分滯留與低血鈉，且與血管加壓素本身無關。Ranolazine 對 V2 受體或腎集合管的 cAMP／水通道蛋白-2（AQP2）路徑**沒有已知的直接作用**，因此兩者之間的機轉關聯目前只是推測。
 
-因此，0.996 的高分應視為未經驗證的圖譜預測，可能來自網路鄰近性造成的假象，不能當作生物學上的支持。
+TxGNN 的高分（0.996）屬於計算預測，不等同於證據。若要驗證，需先做前臨床研究，例如 V2 受體訊號分析或 AQP2 轉運試驗。此外，NSIAD 是罕見疾病，多見於兒童，目前以限水、尿素等方式處理。
+
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
 目前無相關文獻。
 
+---
+
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-63607 | RANEXA PROLONGED-RELEASE TABLETS 375MG | A. MENARINI HONG KONG LIMITED |
-| HK-63608 | RANEXA PROLONGED-RELEASE TABLETS 500MG | A. MENARINI HONG KONG LIMITED |
-| HK-63609 | RANEXA PROLONGED-RELEASE TABLETS 750MG | A. MENARINI HONG KONG LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-63607 | RANEXA PROLONGED-RELEASE TABLETS 375MG | 緩釋錠 | 資料未載明 |
+| HK-63608 | RANEXA PROLONGED-RELEASE TABLETS 500MG | 緩釋錠 | 資料未載明 |
+| HK-63609 | RANEXA PROLONGED-RELEASE TABLETS 750MG | 緩釋錠 | 資料未載明 |
 
-劑型與核准適應症在本次資料中皆未登載。
+三張許可證均由 A. MENARINI HONG KONG LIMITED 持有，皆為有效的單方製劑。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（來自 TxGNN 知識圖譜的藥物—疾病禁忌關聯，非仿單內容）：長 QT 症候群、家族性長 QT 症候群、尖端扭轉型心室頻脈、腎臟疾病、輸尿管積膿、肝硬化。
+- **藥物交互作用**：共記錄 100 筆，以下為資料中列出的部分項目。
+  - **嚴重 (Major)**：Aprepitant、Dexamethasone、Clarithromycin、Dolasetron、Eliglustat
+  - **中度 (Moderate)**：Famotidine、Metformin、Loperamide、Bisacodyl、Budesonide、Canagliflozin、Dapagliflozin、Empagliflozin 等
+  - **輕微 (Minor)**：Bupropion、Lorcaserin、Cimetidine
+- 此外，Ranolazine 涉及 CYP3A4 與 P-gp 的交互作用，並會延長 QT 間期。對於罕見且多為兒童的 NSIAD，這些風險需審慎權衡。
+
+仿單的警語與禁忌症請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 證據等級為 L5，只有模型預測，沒有任何臨床試驗或文獻，也找不到合理的機轉連結。
-- 香港衛生署仿單的警語與禁忌資料缺漏，無法進入安全性篩選。
+- 目前僅有模型預測，沒有任何臨床或文獻證據（L5）。
+- 藥理上缺乏與 V2 受體路徑的已知關聯，且藥物交互作用多、有 QT 延長風險，因此不建議推進。
 
 **若要推進需要：**
-- 下載並解析香港衛生署仿單，補齊原適應症、警語與禁忌症
-- 從 DrugBank 補充作用機轉（MOA）
-- 驗證 ranolazine 與 AVPR2/cAMP/AQP2 路徑之間是否有任何實驗證據
-- 檢索 NSIAD 相關的臨床前或病例研究，確認預測是否只是圖譜假象
-- 評估給藥途徑與 NSIAD 治療情境的相容性
-
-*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。*
+- 前臨床機轉驗證（V2 受體訊號、AQP2 轉運試驗）
+- 取得完整作用機轉（MOA）資料
+- 取得香港原廠仿單的警語與禁忌症，完成安全性篩選
+- 補齊香港許可證的核准適應症資料
+- 評估在目標族群（多為兒童）使用的風險效益，包含 QT 與藥物交互作用
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

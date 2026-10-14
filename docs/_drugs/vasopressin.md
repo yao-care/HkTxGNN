@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Vasopressin
-parent: 僅模型預測 (L5)
-nav_order: 913
-evidence_level: L5
+parent: 中證據等級 (L3-L4)
+nav_order: 928
+evidence_level: L4
 indication_count: 2
 ---
 
 # Vasopressin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+證據等級: **L4** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,73 +29,92 @@ indication_count: 2
 
 </div>
 
-# Vasopressin：從原適應症（資料未載明）到先天性凝血酶原缺乏症
+# Vasopressin：從（原適應症未載明）到先天性凝血酶原缺乏症
 
 ## 一句話總結
 
-Vasopressin（血管加壓素）在香港有上市產品，但本次資料未載明其原適應症。
-TxGNN 模型預測它可能對**先天性凝血酶原缺乏症 (Congenital Prothrombin Deficiency)** 有效。
-目前**無臨床試驗**，檢索到的 3 篇文獻都在談其他凝血因子缺乏，沒有直接證據支持這個方向。
+Vasopressin（血管加壓素）在香港已有上市許可，但目前整理的資料中未載明其核准適應症。
+TxGNN 模型預測它可能對**先天性凝血酶原缺乏症 (Congenital Prothrombin Deficiency)** 有效，
+但目前**沒有臨床試驗**，僅有 **3 篇文獻**，且內容多與去氨加壓素（desmopressin）相關，屬於間接證據。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未載明 |
 | 預測新適應症 | 先天性凝血酶原缺乏症 (Congenital Prothrombin Deficiency) |
 | TxGNN 預測分數 | 99.63% |
-| 證據等級 | L5（僅有模型預測；原始資料標示 L4，但檢索到的文獻都不是在談凝血酶原缺乏症） |
+| 證據等級 | L4 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 1 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Vasopressin 的 MOA 在來源資料中是缺口，無法進一步查核機轉。
+目前缺乏詳細的作用機轉資料。Vasopressin 的相關文獻多半談的是其 V2 選擇性類似物去氨加壓素（DDAVP）。DDAVP 透過 V2 受體促使內皮細胞釋放儲存的第八凝血因子（FVIII）與血管性血友病因子（vWF），因此在 FVIII、FV 缺乏等狀態有合理的機轉依據。
 
-已知 vasopressin 及其類似物 desmopressin (DDAVP) 透過 V2 受體，促使內皮細胞儲存庫釋放第 VIII 因子與血管性血友病因子 (vWF)。這個作用與出血性疾病有關，但**沒有已知證據顯示它能提升凝血酶原（第 II 因子）**。
+然而，先天性凝血酶原（第二凝血因子）缺乏症並不屬於上述機轉可直接涵蓋的範圍，目前沒有已建立的機轉證據顯示 vasopressin 能改善凝血酶原缺乏。TxGNN 的高分（99.63%）較可能反映知識圖譜中與出血性疾病節點的網路鄰近性，而非經驗證的藥理機轉。因此這個預測應視為待驗證的假說。
 
-檢索到的文獻討論的是第 VIII 因子，以及第 V、VIII 因子合併缺乏，與凝血酶原缺乏並不相同。因此 0.996 的高分較可能反映知識圖譜中「出血性疾病」節點彼此相近，而不是已被驗證的藥理作用。這項預測目前只能視為待驗證的假說。
+另外，檢索到的文獻研究對象是 desmopressin 而非 vasopressin 本身，不能直接推論 vasopressin 的療效。
+
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [21115138](https://pubmed.ncbi.nlm.nih.gov/21115138/) | 2011 | Review | Autoimmunity Reviews | 後天性血友病 A（第 VIII 因子自體抗體）的診斷、病因、臨床表現與治療選項；與凝血酶原缺乏無直接關係 |
-| [2607619](https://pubmed.ncbi.nlm.nih.gov/2607619/) | 1989 | Case report | Rinsho Ketsueki | 1 例先天性第 V、VIII 因子合併缺乏的病例，使用 DDAVP；並非凝血酶原缺乏 |
-| [1942544](https://pubmed.ncbi.nlm.nih.gov/1942544/) | 1991 | Case report | Rinsho Ketsueki | 先天性第 V、VIII 因子合併缺乏的孕婦，以第 VIII 因子濃縮劑替代治療下進行剖腹產；與 vasopressin 無直接關係 |
+| [21115138](https://pubmed.ncbi.nlm.nih.gov/21115138/) | 2011 | Review | Autoimmunity Reviews | 後天性血友病 A 的診斷、病因、臨床表現與治療選項回顧；病因為針對 FVIII 的自體抗體 |
+| [2607619](https://pubmed.ncbi.nlm.nih.gov/2607619/) | 1989 | Case report | Rinsho Ketsueki | 1 例 43 歲男性先天性 FV、FVIII 合併缺乏，使用 DDAVP 治療（研究藥物為 desmopressin） |
+| [1942544](https://pubmed.ncbi.nlm.nih.gov/1942544/) | 1991 | Case report | Rinsho Ketsueki | 1 例 25 歲孕婦先天性 FV、FVIII 合併缺乏，以 FVIII 濃縮製劑替代治療下完成剖腹產 |
+
+這些文獻均未直接探討凝血酶原缺乏症，也未直接評估 vasopressin。
+
+---
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-07904 | PITRESSIN INJ 20U/ML（藥廠：PFIZER CORPORATION HONG KONG LIMITED） | 未載明（品名標示為注射劑） | 未載明 |
+| HK-07904 | PITRESSIN INJ 20U/ML | 未載明 | 未載明 |
+
+製造商為 PFIZER CORPORATION HONG KONG LIMITED，狀態為有效。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **藥物交互作用**：已查得 100 筆交互作用紀錄，以下為部分主要項目：
+  - **嚴重 (Major)**：Dolasetron、Cisapride、Papaverine、Macimorelin
+  - **中度 (Moderate)**：Famotidine、Epinephrine、Loperamide、Chlorpropamide、Clarithromycin、Levofloxacin、Ondansetron、Granisetron、Palonosetron、Promethazine、Cilostazol、Heparin 等
+  - **輕微 (Minor)**：Metronidazole
+
+其他警語與禁忌症請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 沒有臨床試驗，文獻也未直接涉及凝血酶原缺乏，高 TxGNN 分數缺乏臨床佐證。
-- 已知藥理作用（提升第 VIII 因子與 vWF）與凝血酶原缺乏不符。
-- 安全性與原適應症資料有缺口，無法進入安全性篩選。
-- 另一項預測「藥物誘發性骨質疏鬆症」（分數 99.62%）同樣沒有試驗或文獻，證據等級 L5，也維持 Hold。
+- 目前沒有任何臨床試驗，文獻僅為間接證據（且研究藥物為 desmopressin），機轉上也缺乏支持 vasopressin 對凝血酶原缺乏的依據。TxGNN 分數高但證據僅達 L4。
+- 另一個預測適應症「藥物引起的骨質疏鬆」僅有模型預測（L5），無任何研究支持，同樣建議 Hold。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單，補齊原適應症、警語與禁忌症。
-- 從 DrugBank 補上 MOA，重新評估機轉關聯。
-- 系統性檢索 vasopressin／desmopressin 與凝血酶原（第 II 因子）缺乏的直接證據。
-- 確認製劑途徑與預測適應症的臨床使用情境是否相容。
-
-> 本報告僅供研究參考，不構成醫療建議；預測結果需經臨床驗證。
+- 補齊 vasopressin 的作用機轉資料（MOA）
+- 取得香港仿單，確認核准適應症、警語與禁忌症
+- 針對凝血酶原缺乏症，進行 vasopressin（而非 desmopressin）的機轉或前臨床研究
+- 釐清 vasopressin 與 desmopressin 的差異，評估文獻證據是否可外推
+- 評估與 QT 延長相關藥物（如 dolasetron、cisapride）等嚴重交互作用的風險管理
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -2,7 +2,7 @@
 layout: default
 title: Andexanet Alfa
 parent: 僅模型預測 (L5)
-nav_order: 61
+nav_order: 63
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,18 +29,21 @@ indication_count: 4
 
 </div>
 
-# Andexanet alfa：從 Xa 因子抑制劑抗凝作用逆轉到 Glanzmann 血小板無力症
+# Andexanet alfa：從 FXa 抑制劑逆轉到血友病（Glanzmann 血小板無力症等出血性疾病）
 
 ## 一句話總結
 
-Andexanet alfa 是重組的 Xa 因子誘餌蛋白，原本用於中和 Xa 因子抑制劑（如 apixaban、rivaroxaban）的抗凝血作用。
-TxGNN 模型預測它可能對 **Glanzmann 血小板無力症 (Glanzmann thrombasthenia)** 有效，但目前**沒有臨床試驗，也沒有直接文獻**支持，屬於純模型預測。
+Andexanet alfa 是重組的 FXa 誘餌蛋白，用於逆轉 FXa 抑制劑的抗凝血作用。
+TxGNN 模型預測它可能對 **Glanzmann 血小板無力症 (Glanzmann thrombasthenia)** 有效（另有 3 個預測：血小板釋放障礙、偽血管性血友病、血友病）。
+目前**沒有臨床試驗**支持，僅有與預測疾病關聯薄弱的文獻，整體屬於模型預測階段。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證未載明適應症；依機轉資料判斷為逆轉 Xa 因子抑制劑的抗凝作用 |
+| 原適應症 | 香港許可證未載明適應症文字（依藥理屬 FXa 抑制劑逆轉劑） |
 | 預測新適應症 | Glanzmann 血小板無力症 (Glanzmann thrombasthenia) |
 | TxGNN 預測分數 | 99.77% |
 | 證據等級 | L5 |
@@ -48,66 +51,69 @@ TxGNN 模型預測它可能對 **Glanzmann 血小板無力症 (Glanzmann thromba
 | 許可證數 | 1 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-DrugBank 中缺少詳細的作用機轉欄位。根據現有的分析資料，andexanet alfa 是重組且無催化活性的 Xa 因子誘餌，會捕捉並隔離 Xa 因子抑制劑，使游離的 Xa 因子恢復功能。
+目前缺乏詳細的作用機轉資料庫記錄。根據藥理知識，andexanet alfa 是一種無催化活性的重組 FXa 誘餌，會結合並隔離直接 FXa 抑制劑（也包括經抗凝血酶作用的 LMWH／fondaparinux），使內源性 FXa 恢復功能。
 
-Glanzmann 血小板無力症是遺傳性血小板聚集缺陷，成因是整合素 αIIb/β3 缺乏。這與 Xa 因子誘餌的作用**沒有合理的機轉關聯**。0.998 的高分較可能來自知識圖譜中「凝血」與「出血性疾病」節點彼此相近，而非真正的治療依據。
+然而，Glanzmann 血小板無力症是整合素 αIIbβ3（GPIIb/IIIa）缺陷造成的血小板聚集障礙，與 FXa 抑制無關。其他預測疾病也有同樣問題：血小板釋放障礙是顆粒內容物釋放缺陷，偽血管性血友病是血小板 GPIbα 功能增強突變，血友病則是 FVIII 或 FIX 缺乏（位於 FXa 上游）。Andexanet alfa 都無法補足或繞過這些缺陷。
 
-此外，andexanet alfa 帶有血栓栓塞風險，對出血性疾病患者是額外的不利因素。整體而言，這個預測應視為圖譜關聯的產物，不宜當作有生物學依據的候選。
+因此，**未發現合理的機轉連結**。0.998 的高分較可能反映知識圖譜中凝血／出血疾病之間的網路鄰近性，只是計算預測，不代表療效。
+
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
-目前無相關文獻。
+以下 9 篇文獻是以「血友病」檢索得到，主要與 andexanet alfa 的抗凝血逆轉用途或 DOAC 對檢驗的干擾有關，**並未測試它對血友病的治療效果**。其餘三個預測疾病則無文獻。
 
-## 其他預測適應症（參考）
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [38620086](https://pubmed.ncbi.nlm.nih.gov/38620086/) | 2024 | 世代研究 | Circulation | ANNEXA-4 次分析：服用 FXa 抑制劑的急性消化道出血患者使用 andexanet alfa 的療效與安全性 |
+| [33742436](https://pubmed.ncbi.nlm.nih.gov/33742436/) | 2021 | 指引／回顧 | Thromb Haemost | ICSH 更新 DOAC 實驗室檢測建議，提及 DOAC 逆轉劑的核准 |
+| [31962376](https://pubmed.ncbi.nlm.nih.gov/31962376/) | 2020 | 實驗室比較研究 | Haemophilia | 以 andexanet alfa 中和 rivaroxaban，降低其對 FVIII／FIX 檢測的干擾（屬檢驗用途，非治療） |
+| [31298165](https://pubmed.ncbi.nlm.nih.gov/31298165/) | 2019 | Review | Curr Pharm Des | 新型止血藥物與抗凝血拮抗劑的圍手術期麻醉考量 |
+| [30309890](https://pubmed.ncbi.nlm.nih.gov/30309890/) | 2018 | Review | Blood | 創傷出血患者逆轉抗 FXa 藥物的未滿足需求 |
+| [26519420](https://pubmed.ncbi.nlm.nih.gov/26519420/) | 2016 | Review | Drug Saf | NOAC 逆轉策略的發展現況與未來展望 |
+| [27254626](https://pubmed.ncbi.nlm.nih.gov/27254626/) | 2016 | Review | Dtsch Med Wochenschr | 加護病房凝血障礙新知，含 NOAC 出血處置 |
+| [36819179](https://pubmed.ncbi.nlm.nih.gov/36819179/) | 2023 | Review | EJHaem | 英國醫院 andexanet alfa 使用方案回顧 |
+| [42033142](https://pubmed.ncbi.nlm.nih.gov/42033142/) | 2026 | 立場聲明 | Br J Haematol | 英國血液學會對 andexanet alfa 使用的立場聲明 |
 
-以下三項預測同樣缺乏臨床試驗，且證據不足以支持推進。
-
-| 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 說明 |
-|------|-----------|-----------|---------|------|
-| 2 | 血小板釋放功能障礙 (primary release disorder of platelets) | 99.76% | L5 | 血小板顆粒分泌缺陷與 Xa 因子抑制劑隔離無關，無試驗也無文獻 |
-| 3 | 偽性血管性血友病 (pseudo-von Willebrand disease) | 99.65% | L5 | 成因是 GP1BA 功能增強變異，機轉與 Xa 因子誘餌無關，無試驗也無文獻 |
-| 4 | 血友病 (hemophilia) | 99.10% | L4 | 無臨床試驗。列出的 10 篇文獻只是共同提及，並非 andexanet alfa 用於血友病的證據 |
-
-血友病的相關文獻多為 DOAC 或 andexanet 逆轉的綜述與指引、DOAC 干擾 FVIII/FIX 檢驗的研究，以及另一個藥物 marstacimab（TFPI 抑制劑）的核准報告。
-
-有一個推測性的角度：andexanet alfa 被報告在體外可結合 TFPI，而 TFPI 正是血友病 TFPI 導向療法的標的。但這僅屬假說層級，需先做前臨床凝血酶生成試驗，才能考慮臨床評估。
+---
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-68130 | ANDEXXA POWDER FOR SOLUTION FOR INFUSION 200MG | 未載明 | 未載明 |
+| HK-68130 | ANDEXXA POWDER FOR SOLUTION FOR INFUSION 200MG（AstraZeneca Hong Kong） | 未載明 | 未載明 |
 
-持證商為 ASTRAZENECA HONG KONG LIMITED。
+---
 
 ## 安全性考量
 
-- **主要警語**：帶有血栓栓塞風險警示（依預測理由資料，非仿單原文）。
-- **藥物交互作用**：DDI 資料庫查無資料。
+安全性資訊請參考原廠仿單。
 
-其餘安全性資訊請參考原廠仿單。
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 預測新適應症沒有臨床試驗與文獻，僅有模型分數，且機轉上缺乏合理連結。
-- 藥物本身的血栓栓塞風險對出血性疾病族群不利，因此不建議推進。
+- 四個預測疾病都沒有臨床試驗，也找不到合理的機轉連結；高 TxGNN 分數只是計算預測。
+- 檢索到的文獻都是在談抗凝血逆轉，並未評估 andexanet alfa 對這些出血性疾病的療效，因此不構成支持證據。
 
 **若要推進需要：**
-- 取得香港衛生署核准仿單，補齊警語與禁忌症（目前為阻擋性資料缺口）。
-- 補齊 DrugBank 作用機轉資料。
-- 針對血友病的 TFPI 結合假說，先做前臨床凝血酶生成試驗，再決定是否值得臨床評估。
-- 若無新證據，其餘三項預測（Glanzmann 血小板無力症、血小板釋放功能障礙、偽性血管性血友病）不建議進一步投入資源。
-
-*本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證後才能應用。*
+- 取得 andexanet alfa 完整的作用機轉資料，確認是否存在任何對血小板或內源性凝血缺陷的作用。
+- 取得香港原廠仿單，釐清核准適應症、警語與禁忌症（目前無法進行安全性篩選）。
+- 提出可驗證的機轉假說，並先做前臨床研究。
+- 若臨床上確有此類患者，應留意其屬於「血友病等患者同時服用 FXa 抑制劑」的情境，這是現有適應症內的逆轉用途，不屬於新適應症。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

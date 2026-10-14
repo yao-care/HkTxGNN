@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Desvenlafaxine
-parent: 僅模型預測 (L5)
-nav_order: 258
-evidence_level: L5
+parent: 中證據等級 (L3-L4)
+nav_order: 263
+evidence_level: L4
 indication_count: 10
 ---
 
 # Desvenlafaxine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L4** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,104 @@ indication_count: 10
 
 </div>
 
-# Desvenlafaxine：從 SNRI 類抗憂鬱藥到強迫症
+# Desvenlafaxine：從憂鬱症到強迫症
 
 ## 一句話總結
 
-Desvenlafaxine 是 venlafaxine 的活性代謝物，屬於血清素-正腎上腺素再吸收抑制劑（SNRI）。
-TxGNN 模型預測它可能對**強迫症 (Obsessive-Compulsive Disorder, OCD)** 有效。
-目前有 **2 個相關臨床試驗**和 **4 篇文獻**，但沒有任何一項直接以 desvenlafaxine 治療強迫症，直接證據仍缺。
+Desvenlafaxine 是一種血清素與正腎上腺素再回收抑制劑（SNRI），原本用於重度憂鬱症與焦慮症的治療。
+TxGNN 模型預測它可能對**強迫症 (Obsessive-Compulsive Disorder)** 有效，但目前**沒有任何臨床試驗**，僅有 **3 篇間接相關文獻**，證據相當有限。
+在所有預測中，以**輕度慢性憂鬱（持續性憂鬱症，Dysthymic Disorder）**的證據較完整（2 個臨床試驗、2 篇文獻），可作為後續優先研究的方向。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 憂鬱症（單極性憂鬱、內因性憂鬱、重度憂鬱症）、焦慮症（來自知識圖譜；香港許可證未載明適應症文字） |
 | 預測新適應症 | 強迫症 (Obsessive-Compulsive Disorder) |
 | TxGNN 預測分數 | 99.91% |
-| 證據等級 | L4（僅有機轉推論與母藥 venlafaxine 的間接證據） |
+| 證據等級 | L4 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 7 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知藥理，desvenlafaxine 是 SNRI 類抗憂鬱藥，也是 venlafaxine 的活性代謝物。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Desvenlafaxine 屬於 SNRI 類別，是 venlafaxine 的活性代謝物，抑制血清素與正腎上腺素的再回收。
 
-強迫症已知對血清素系統藥物有反應，包括 clomipramine 和 SSRI，因此在類別層級上，SNRI 用於強迫症有合理的機轉連結。
+血清素系統在強迫症的病理生理中扮演關鍵角色，SSRI 與 clomipramine 的療效已獲證實，因此 SNRI 在機轉上有合理的關聯。不過，Desvenlafaxine 的血清素選擇性相對較弱，不如已證實對強迫症有效的藥物，且目前沒有任何針對強迫症的試驗。
 
-不過，目前的直接臨床證據來自母藥 venlafaxine，而非 desvenlafaxine 本身。Venlafaxine 與 paroxetine 的雙盲比較（n=150）是最接近的證據。
+TxGNN 的高分可能部分來自精神疾病之間在知識圖譜中的相近性，不應直接視為療效證據。
+
+---
 
 ## 臨床試驗證據
 
+目前無相關臨床試驗登記（針對強迫症）。
+
+作為參考，排名第 8 的預測適應症「持續性憂鬱症 (Dysthymic Disorder)」有以下試驗：
+
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT03299166](https://clinicaltrials.gov/study/NCT03299166) | Phase 2/3 | 完成 | 426 | 評估 troriluzole 輔助治療對 SSRI、clomipramine、venlafaxine 或 desvenlafaxine 反應不足的強迫症患者。試驗藥物不是 desvenlafaxine |
-| [NCT01527786](https://clinicaltrials.gov/study/NCT01527786) | Phase 3 | 完成 | 25 | Desvenlafaxine 用於產後憂鬱症的功能恢復先導研究。藥物相符但適應症不同，無法提供強迫症療效證據 |
+| [NCT01537068](https://clinicaltrials.gov/study/NCT01537068) | Phase 4 | 完成 | 59 | Desvenlafaxine 對照安慰劑，用於慢性憂鬱（結果未提供） |
+| [NCT01948895](https://clinicaltrials.gov/study/NCT01948895) | 不適用 | 完成 | 30 | 8 週開放標示、彈性劑量單一療法，用於輕度慢性憂鬱（結果未提供） |
+
+---
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [14624187](https://pubmed.ncbi.nlm.nih.gov/14624187/) | 2003 | RCT | J Clin Psychopharmacol | 首個 SNRI 用於強迫症的雙盲比較，150 位患者，比較 venlafaxine 與 paroxetine 的療效和耐受性 |
-| [24766145](https://pubmed.ncbi.nlm.nih.gov/24766145/) | 2014 | Review | Expert Opin Pharmacother | 回顧具明顯血清素作用的抗憂鬱藥在強迫症的雙盲研究，支持血清素系統的關鍵角色 |
-| [36686097](https://pubmed.ncbi.nlm.nih.gov/36686097/) | 2022 | Review | Cureus | 產後憂鬱症的綜合回顧，提到其可能導致母親日後發生強迫症和焦慮，與 desvenlafaxine 療效無直接關聯 |
-| [40224942](https://pubmed.ncbi.nlm.nih.gov/40224942/) | 2025 | 臨床試驗（非強迫症） | Psychiatry Clin Psychopharmacol | Risperidone 增強治療抗憂鬱藥難治型身體症狀障礙，並非針對強迫症 |
+| [24766145](https://pubmed.ncbi.nlm.nih.gov/24766145/) | 2014 | Review | Expert Opin Pharmacother | 回顧具明顯血清素作用的抗憂鬱藥用於強迫症的雙盲研究，支持血清素系統的關鍵角色（未專門測試 desvenlafaxine） |
+| [36686097](https://pubmed.ncbi.nlm.nih.gov/36686097/) | 2022 | Review | Cureus | 產後憂鬱症綜述，提及其與日後強迫症、焦慮的關聯（關聯性低） |
+| [40224942](https://pubmed.ncbi.nlm.nih.gov/40224942/) | 2025 | 臨床研究 | Psychiatry Clin Psychopharmacol | Risperidone 輔助治療抗憂鬱藥無效的身體症狀症（不同疾病） |
+
+以上文獻均未直接測試 desvenlafaxine 對強迫症的效果。
+
+---
 
 ## 香港上市資訊
 
-共 7 張許可證，以下列出 5 張：
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-59473 | PRISTIQ EXTENDED-RELEASE TAB 50MG（Pfizer） | 緩釋錠 | 請參考原廠仿單 |
+| HK-59472 | PRISTIQ EXTENDED-RELEASE TAB 100MG（Pfizer） | 緩釋錠 | 請參考原廠仿單 |
+| HK-65147 | PRISTIQ EXTENDED-RELEASE TABLETS 25MG（Pfizer） | 緩釋錠 | 請參考原廠仿單 |
+| HK-67626 | APO-DESVENLAFAXINE EXTENDED-RELEASE TABLETS 50MG（Hind Wing） | 緩釋錠 | 請參考原廠仿單 |
+| HK-67625 | APO-DESVENLAFAXINE EXTENDED-RELEASE TABLETS 100MG（Hind Wing） | 緩釋錠 | 請參考原廠仿單 |
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-68804 | DESPAXOR EXTENDED-RELEASE TABLETS 50MG | SYNCO (H.K.) LIMITED |
-| HK-67626 | APO-DESVENLAFAXINE EXTENDED-RELEASE TABLETS 50MG | HIND WING CO LTD |
-| HK-65147 | PRISTIQ EXTENDED-RELEASE TABLETS 25MG | PFIZER CORPORATION HONG KONG LIMITED |
-| HK-68803 | DESPAXOR EXTENDED-RELEASE TABLETS 100MG | SYNCO (H.K.) LIMITED |
-| HK-59473 | PRISTIQ EXTENDED-RELEASE TAB 50MG | PFIZER CORPORATION HONG KONG LIMITED |
+此外尚有 DESPAXOR 50mg（HK-68804）與 100mg（HK-68803）兩張許可證（Synco），共 7 張，皆為有效的單方許可證。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（非仿單文字，僅供參考）：高血壓、癲癇、雙極性疾患、肝病、腎功能不全、閉角型青光眼、心血管疾病、腦血管疾病、血液凝固疾病、高三酸甘油脂血症、膽囊疾病、抗利尿激素分泌不當症候群、抗精神病藥惡性症候群、血清素症候群、間質性肺病。
+- **藥物交互作用**（共查得 100 筆，列出部分主要者）：
+  - 重度：Bupropion、Lorcaserin、Dexfenfluramine、Fenfluramine、Diethylpropion、Dolasetron、Granisetron、Mazindol（多與血清素症候群或 QT 風險相關）
+  - 中度：Epinephrine、Ephedrine、Morphine、Acetylsalicylic acid（阿斯匹靈）、Dronabinol、Mannitol 等
+
+仿單的警語與禁忌資料尚未取得，詳細安全性資訊請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 強迫症預測只有類別層級的機轉推論。現有的直接證據來自 venlafaxine，沒有 desvenlafaxine 用於強迫症的試驗。
-- 香港仿單的警語與禁忌資料尚未取得，無法進入安全性篩選。
+- 強迫症預測僅有模型分數與間接文獻，無任何直接試驗，且 desvenlafaxine 的血清素選擇性較弱，機轉上不如 SSRI 有說服力。
+- 其他高分預測（人格障礙、Ohdo 症候群、嬰兒良性陣發性斜頸等）多為知識圖譜的關聯假象，缺乏合理依據。
 
 **若要推進需要：**
-- 取得香港衛生署仿單，補齊警語、禁忌與適應症資料。
-- 補充作用機轉資料（例如查詢 DrugBank）。
-- 尋找或設計 desvenlafaxine 用於強迫症的直接臨床研究，並與 venlafaxine 的證據做比較。
-
-**其他預測適應症的參考：**
-- **持續性憂鬱症 (Dysthymic Disorder)**：有 3 個 desvenlafaxine 相關試驗，其中 Phase 4 安慰劑對照（NCT01537068，n=59）為直接證據，但規模小、未提供結果，證據等級為 L2。
-- **憂鬱型憂鬱症 (Melancholia)**：這項預測似乎對應重度憂鬱症，而該藥已在此適應症上市，較像原適應症而非新用途，需對照仿單確認。
-- **人格障礙類、Ohdo 症候群、嬰兒良性陣發性斜頸**：沒有任何臨床試驗或文獻，也沒有合理機轉，可能是知識圖譜的假象。
-
-*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。*
+- 取得香港仿單的警語、禁忌與核准適應症，並補齊作用機轉資料
+- 針對強迫症的文獻檢索，或與已證實有效的 SSRI 做藥理比較
+- 若要優先投入資源，建議轉向**持續性憂鬱症**：檢視 NCT01537068 與 NCT01948895 的結果，評估是否值得設計更大型的 RCT
+- 「憂鬱症亞型（melancholia）」多與現有 MDD 適應症重疊，並非真正的再利用，需做亞型專屬分析才有意義
+- 激越／焦慮相關的廣場恐懼症僅有類別層級的間接理由，需有 desvenlafaxine 專屬資料
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

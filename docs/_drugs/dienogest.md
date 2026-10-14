@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dienogest
-parent: 僅模型預測 (L5)
-nav_order: 270
-evidence_level: L5
+parent: 中證據等級 (L3-L4)
+nav_order: 275
+evidence_level: L4
 indication_count: 10
 ---
 
 # Dienogest
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L4** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ indication_count: 10
 
 </div>
 
-# Dienogest：從子宮內膜異位症到閉經
+# Dienogest：從子宮內膜異位症相關用途到閉經
 
 ## 一句話總結
 
-Dienogest 是一種黃體素類藥物，臨床上主要用於子宮內膜異位症。
-TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但閉經其實是 dienogest 已知的藥理作用（出血型態改變），並非治療目標。
-目前有 4 個相關臨床試驗和 6 篇文獻，但**全部都在研究子宮內膜異位症，沒有任何一項直接針對閉經的療效**。
+Dienogest 是一種第四代黃體素類藥物，在香港已有 5 張有效許可證。
+TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但目前**沒有臨床試驗**，僅有 **7 篇相關文獻**，且多為間接證據，只能視為研究假說。
 
 ---
 
@@ -43,10 +42,10 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但閉經其實�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 子宮內膜異位症（依相關試驗與 Visanne 產品推斷；香港許可證資料未載明適應症文字） |
+| 原適應症 | 香港許可證資料未提供適應症文字（文獻顯示臨床上用於子宮內膜異位症） |
 | 預測新適應症 | 閉經 (Amenorrhea) |
 | TxGNN 預測分數 | 99.71% |
-| 證據等級 | L5（無任何研究以閉經為治療標的；系統自動標示為 L4，但沒有機轉或前臨床研究支持） |
+| 證據等級 | L4 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 5 張 |
 | 建議決策 | Hold |
@@ -55,24 +54,17 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但閉經其實�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，dienogest 是選擇性黃體素類藥物，會抑制子宮內膜增生與排卵，因此使用者常出現月經停止或出血型態改變。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Dienogest 是 19-去甲睪固酮衍生的黃體素，具有強效黃體素活性與抗排卵作用，並會抑制內源性雌二醇。
 
-這正是預測分數偏高的可能原因：知識圖譜中「藥物－閉經」的關聯，很可能反映的是這個**藥物副作用或藥理效應**，而不是治療效益。閉經在子宮內膜異位症治療中，最多只是達到症狀控制的手段之一，不是需要被治療的疾病。
+文獻指出，閉經是 Dienogest 治療子宮內膜異位症時常見的藥物效應，所以兩者的關聯主要是「副作用或藥效表現」，而不是治療標的。
 
-其餘 9 個預測適應症（如原發性卵巢衰竭、乳房纖維囊腫、生長激素缺乏症、染色體異常症候群等）證據同樣薄弱，均為 L5 或間接證據，建議一律 Hold。
+從機轉上看，這個預測的合理性有限。閉經常與低雌激素狀態有關，而 Dienogest 會進一步降低雌激素，可能使情況惡化。只有在雌激素充足的續發性閉經中，黃體素誘發的撤退性出血才可能有作用，但目前沒有直接證據支持。
 
 ---
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT04495855](https://clinicaltrials.gov/study/NCT04495855) | N/A | 完成 | 968 | 真實世界使用 Visanne 治療子宮內膜異位症；可能記錄出血結果，但未以閉經為主題 |
-| [NCT07204093](https://clinicaltrials.gov/study/NCT07204093) | N/A | 進行中（不再招募） | 138 | 比較經皮雌二醇加 dienogest 與 drospirenone 治療子宮內膜異位症的病人滿意度 |
-| [NCT07164183](https://clinicaltrials.gov/study/NCT07164183) | Phase 3 | 招募中 | 290 | Indinol Forto 與 Visanne 2 mg 的非劣性隨機試驗；標題被截斷，目標疾病應為子宮內膜異位症，需回原登記頁確認 |
-| [NCT02425462](https://clinicaltrials.gov/study/NCT02425462) | N/A | 完成 | 895 | 亞洲女性使用 Visanne 治療子宮內膜異位症的生活品質觀察性世代研究 |
-
-以上試驗都不是以閉經為適應症，只能算間接證據。
+目前無相關臨床試驗登記。
 
 ---
 
@@ -80,32 +72,37 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但閉經其實�
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [39090694](https://pubmed.ncbi.nlm.nih.gov/39090694/) | 2024 | 系統性回顧/統合分析 | BMC Pharmacol Toxicol | 彙整 dienogest 的不良反應與發生率（子宮內膜異位症、子宮腺肌症） |
-| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Review | Rev Endocr Metab Disord | 說明子宮內膜異位症荷爾蒙治療的內分泌基礎 |
-| [29161960](https://pubmed.ncbi.nlm.nih.gov/29161960/) | 2018 | 世代研究 | Reprod Sci | 514 位卵巢子宮內膜瘤患者長期使用 dienogest 的療效、安全性與復發率 |
-| [41329046](https://pubmed.ncbi.nlm.nih.gov/41329046/) | 2026 | 藥效學研究 | Eur J Contracept Reprod Health Care | 2 mg dienogest 抑制率與轉化指數高；提及子宮內膜異位症治療的目標包含誘導閉經 |
-| [40543564](https://pubmed.ncbi.nlm.nih.gov/40543564/) | 2025 | Review | J Pediatr Adolesc Gynecol | 苗勒氏管異常的進階影像視覺化；與 dienogest 關聯低 |
-| [34918698](https://pubmed.ncbi.nlm.nih.gov/34918698/) | 2021 | 個案報告 | Medicine | 多囊卵巢症候群患者的卵巢顆粒細胞瘤；與 dienogest 關聯低 |
+| [39090694](https://pubmed.ncbi.nlm.nih.gov/39090694/) | 2024 | 系統性回顧/統合分析 | BMC Pharmacol Toxicol | 整理 Dienogest 的不良反應與發生率，用於子宮內膜異位症與子宮腺肌症 |
+| [29161960](https://pubmed.ncbi.nlm.nih.gov/29161960/) | 2018 | 回溯性世代研究 | Reprod Sci | 514 位卵巢子宮內膜瘤女性長期使用 Dienogest 2 mg，評估療效、安全性與復發率 |
+| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Review | Rev Endocr Metab Disord | 子宮內膜異位症的荷爾蒙治療與內分泌背景 |
+| [41329046](https://pubmed.ncbi.nlm.nih.gov/41329046/) | 2026 | 藥理/機轉研究 | Eur J Contracept Reprod Health Care | 2 mg Dienogest 有高抑制率，支持其用於子宮內膜異位症 |
+| [40543564](https://pubmed.ncbi.nlm.nih.gov/40543564/) | 2025 | Review | J Pediatr Adolesc Gynecol | 苗勒氏管異常的進階影像視覺化與手術規劃 |
+| [34918698](https://pubmed.ncbi.nlm.nih.gov/34918698/) | 2021 | 病例報告 | Medicine | 多囊卵巢症候群患者的卵巢顆粒細胞瘤 |
+| [42438810](https://pubmed.ncbi.nlm.nih.gov/42438810/) | 2026 | 病例報告 | JCEM Case Rep | 服用 Dienogest 後雌激素變化，使原發性副甲狀腺機能亢進顯現 |
 
-沒有 RCT，也沒有以閉經為治療目標的文獻。
+以上文獻多數談的是 Dienogest 用於子宮內膜異位症，沒有直接證明它能治療閉經。
 
 ---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-60781 | VISANNE TAB 2MG | BAYER HEALTHCARE LIMITED |
-| HK-68772 | ENDOSAFE TABLETS 2MG | LOTUS PHARMACEUTICAL HK LIMITED |
-| HK-67958 | DIENOGEST TEVA TABLETS 2MG | TEVA PHARMACEUTICAL HONG KONG LIMITED |
-| HK-68699 | DIENOPIL TABLETS 2MG | DKSH HONG KONG LIMITED |
-| HK-59784 | QLAIRA TAB | BAYER HEALTHCARE LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-60781 | VISANNE TAB 2MG（拜耳） | 未提供 | 未提供 |
+| HK-68772 | ENDOSAFE TABLETS 2MG（Lotus） | 未提供 | 未提供 |
+| HK-67958 | DIENOGEST TEVA TABLETS 2MG（Teva） | 未提供 | 未提供 |
+| HK-68699 | DIENOPIL TABLETS 2MG（DKSH） | 未提供 | 未提供 |
+| HK-59784 | QLAIRA TAB（拜耳） | 未提供 | 未提供 |
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（來自 TxGNN 知識圖譜，並非仿單文字）：高血壓、癲癇、焦慮與神經症、紫質症、腎臟疾病、肝臟與膽囊疾病、甲狀腺功能低下、系統性紅斑狼瘡、氣喘、糖尿病（含酮酸中毒）、高三酸甘油脂血症、高鈣血症與腎鈣化、女性乳癌、血栓性靜脈炎等。
+- **藥物交互作用**：共 37 筆紀錄，已列出的 20 筆中包括多項高風險（Major）交互作用，如 Sugammadex、Griseofulvin、Bexarotene、Brigatinib、Dabrafenib、Encorafenib。另有多項中度（Moderate）交互作用，如 Linaclotide、Metreleptin、Prucalopride、Adalimumab、Anakinra 等。
+- **其他提醒**：文獻中的病例報告提到，Dienogest 改變雌激素狀態後，可能影響鈣代謝。
+
+完整警語與禁忌請參考原廠仿單。
 
 ---
 
@@ -114,18 +111,14 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但閉經其實�
 **決策：Hold**
 
 **理由：**
-- 閉經是 dienogest 的已知藥理效應（出血型態改變），高預測分數很可能只反映這層關聯，不代表治療效益。所有連結試驗都在研究子宮內膜異位症，沒有任何直接證據。
-- 其餘預測適應症也都缺乏證據，目前沒有值得推進的候選。
+- 雖然 TxGNN 分數很高，但沒有任何臨床試驗，文獻也只有間接證據。閉經本身是 Dienogest 的藥效表現，用它來治療閉經在機轉上有疑慮，還可能加重低雌激素狀態。
 
 **若要推進需要：**
-- 重新定義臨床問題：若目標是「出血控制」或「月經抑制」，需要另設適應症與療效指標，而不是閉經本身。
-- 取得香港衛生署仿單的警語與禁忌症，完成安全性篩選。
-- 補齊作用機轉資料（可查詢 DrugBank）。
-- 確認 NCT07164183 的實際目標疾病，並確認各試驗是否有閉經相關的次要結果。
-
----
-
-> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+- 取得香港衛生署核准適應症與仿單的警語、禁忌資料
+- 補齊詳細的作用機轉資料
+- 釐清目標族群（例如雌激素充足的續發性閉經），並做直接的文獻或機轉評估
+- 評估低雌激素風險（如骨質流失）與前述禁忌疾病、藥物交互作用的影響
+- 若仍有價值，先設計小規模探索性研究，再考慮進一步開發
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

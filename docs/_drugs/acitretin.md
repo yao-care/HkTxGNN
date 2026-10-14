@@ -2,15 +2,15 @@
 layout: default
 title: Acitretin
 parent: 中證據等級 (L3-L4)
-nav_order: 21
-evidence_level: L4
+nav_order: 22
+evidence_level: L3
 indication_count: 4
 ---
 
 # Acitretin
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **4** 個
+證據等級: **L3** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,97 @@ indication_count: 4
 
 </div>
 
-# Acitretin：從全身性類視色素到痤瘡 (Acne)
+# Acitretin：從（原適應症未載明）到痤瘡（Acne）
 
 ## 一句話總結
 
-Acitretin 是口服全身性類視色素（retinoid），香港已有多張上市許可證，但資料中未登載原適應症。
-TxGNN 模型預測它可能對**痤瘡 (Acne)** 有效，但目前僅有 **1 個間接相關的臨床試驗**（研究的是 isotretinoin，不是 acitretin）和 **1 篇 acitretin 個案報告**，證據薄弱。
+Acitretin 是第二代口服維生素 A 類（retinoid）藥物，在香港已有 6 張有效許可證，但本次整理的資料中未載明其核准適應症。
+TxGNN 模型預測它可能對**痤瘡 (acne)** 有效，目前有 **1 個臨床試驗**和 **18 篇文獻**，但這些證據主要針對化膿性汗腺炎（又稱反常性痤瘡，acne inversa），並非尋常痤瘡，因此支持力道有限。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料缺漏（香港許可證未登載核准適應症） |
-| 預測新適應症 | 痤瘡 (Acne) |
+| 原適應症 | 資料未載明 |
+| 預測新適應症 | 痤瘡 (acne (disease)) |
 | TxGNN 預測分數 | 99.94% |
-| 證據等級 | L4 |
+| 證據等級 | L3 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 6 張 |
-| 建議決策 | Hold |
+| 建議決策 | Hold（列為研究問題） |
+
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Acitretin 屬於全身性類視色素。類視色素這一類藥物已知能降低皮脂腺活性，並使毛囊角質化恢復正常，這兩點都與痤瘡的病理相符。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Acitretin 屬於第二代口服 retinoid，可調節角質細胞的分化與增生，並具有抗發炎作用。這些作用與毛囊角化異常及發炎有關，機轉上與痤瘡有可能的關聯。
 
-不過文獻對 acitretin 本身的支持很有限。只有一篇個案報告，描述一位嚴重結節囊腫性痤瘡合併化膿性汗腺炎的病人；另有幾篇指引和回顧只是籠統提到類視色素。痤瘡的標準口服類視色素是 isotretinoin，不是 acitretin。目前沒有 acitretin 用於尋常性痤瘡的隨機對照試驗（RCT）。
+不過，Acitretin 直接抑制皮脂腺的活性比 isotretinoin 弱，而 isotretinoin 才是治療嚴重痤瘡的主力藥物。現有證據多數來自化膿性汗腺炎（HS，又稱 acne inversa）。TxGNN 預測的「acne」可能與 acne inversa 混淆，因此是否適用於尋常痤瘡仍不確定。
 
-Acitretin 有強烈致畸性，停藥後還需要很長的避孕期。因此若要推進此適應症，必須證明它相較 isotretinoin 有明確優勢。
+---
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT04663906](https://clinicaltrials.gov/study/NCT04663906) | N/A | 未知 | 300 | 探討口服 isotretinoin 是否增加感染 Covid-19 及併發症的風險。研究對象不是 acitretin，重點是安全性而非療效，對 acitretin 治療痤瘡沒有直接證據（相關性評級：C） |
+| [NCT07708480](https://clinicaltrials.gov/study/NCT07708480) | Phase 4 | 完成 | 70 | 比較 apremilast 與 acitretin 治療中重度化膿性汗腺炎，主要指標為 IHS4 分數，為間接證據，結果尚未確認 |
+
+---
 
 ## 文獻證據
 
-目前沒有 RCT。下表依 指引／系統性回顧／回顧 > 個案報告的順序排列，多數文獻談的是類視色素整體或化膿性汗腺炎（acne inversa），並非尋常性痤瘡。
-
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [25640693](https://pubmed.ncbi.nlm.nih.gov/25640693/) | 2015 | 指引 | J Eur Acad Dermatol Venereol | 歐洲化膿性汗腺炎（acne inversa）治療指引，主題是汗腺炎而非尋常性痤瘡 |
-| [41692081](https://pubmed.ncbi.nlm.nih.gov/41692081/) | 2026 | 回顧 | Clin Dermatol | 回顧維生素 A 與類視色素在皮膚科的應用，列出 acitretin 為口服類視色素之一 |
-| [26617362](https://pubmed.ncbi.nlm.nih.gov/26617362/) | 2016 | 回顧 | Dermatol Clin | 化膿性汗腺炎的藥物治療選項多、證據等級低 |
-| [9074840](https://pubmed.ncbi.nlm.nih.gov/9074840/) | 1997 | 回顧 | Drugs | 類視色素在皮膚科的現況與未來角色，涵蓋重度痤瘡及相關皮膚病 |
-| [1617858](https://pubmed.ncbi.nlm.nih.gov/1617858/) | 1992 | 回顧 | Clin Pharmacokinet | isotretinoin 對重度痤瘡有明顯益處；acitretin 與 etretinate 主要成功用於乾癬 |
-| [8573927](https://pubmed.ncbi.nlm.nih.gov/8573927/) | 1995 | 回顧 | Dermatology | isotretinoin 的抗痤瘡效果源於抑制皮脂腺活性，討論新型口服類視色素的抗痤瘡效果能否預測 |
-| [11586072](https://pubmed.ncbi.nlm.nih.gov/11586072/) | 2001 | 綜述 | Skin Pharmacol Appl Skin Physiol | 類視色素功能多樣，對特定皮膚結構有相對選擇性 |
-| [2112772](https://pubmed.ncbi.nlm.nih.gov/2112772/) | 1990 | 實驗研究 | Prostaglandins | 包含 acitretin 在內的類視色素可抑制嗜酸性球釋放 LTC4，顯示抗發炎作用 |
+| [25640693](https://pubmed.ncbi.nlm.nih.gov/25640693/) | 2015 | 指引 | J Eur Acad Dermatol Venereol | 歐洲化膿性汗腺炎/反常性痤瘡治療指引 |
+| [40888828](https://pubmed.ncbi.nlm.nih.gov/40888828/) | 2025 | 系統性回顧 | Am J Clin Dermatol | 掌蹠膿疱症的種族差異 |
+| [28476075](https://pubmed.ncbi.nlm.nih.gov/28476075/) | 2017 | 系統性回顧（Cochrane） | Cochrane Database Syst Rev | 盤狀紅斑性狼瘡的藥物治療 |
+| [29234829](https://pubmed.ncbi.nlm.nih.gov/29234829/) | 2018 | Review | Hautarzt | 反常性痤瘡的藥物治療 |
+| [41692081](https://pubmed.ncbi.nlm.nih.gov/41692081/) | 2026 | Review | Clin Dermatol | 維生素 A 與 retinoid 在皮膚科的應用，涵蓋 acitretin |
+| [9074840](https://pubmed.ncbi.nlm.nih.gov/9074840/) | 1997 | Review | Drugs | retinoid 在皮膚科的使用現況與未來潛力，含嚴重痤瘡 |
+| [8573927](https://pubmed.ncbi.nlm.nih.gov/8573927/) | 1995 | Review | Dermatology | retinoid 與皮脂腺活性，討論新型口服 retinoid 的抗痤瘡效果能否預測 |
+| [11586072](https://pubmed.ncbi.nlm.nih.gov/11586072/) | 2001 | Review | Skin Pharmacol Appl Skin Physiol | retinoid 未來可受益的皮膚科適應症 |
+| [12080949](https://pubmed.ncbi.nlm.nih.gov/12080949/) | 2002 | 病例報告 | Cutis | 結節囊腫型痤瘡合併化膿性汗腺炎，以 acitretin 治療 |
 | [20874789](https://pubmed.ncbi.nlm.nih.gov/20874789/) | 2011 | 臨床研究 | Br J Dermatol | acitretin 治療化膿性汗腺炎的長期結果 |
-| [12080949](https://pubmed.ncbi.nlm.nih.gov/12080949/) | 2002 | 個案報告 | Cutis | 一位重度結節囊腫性痤瘡合併化膿性汗腺炎的病人，曾接受兩個完整療程的 isotretinoin，症狀有改善但仍有持續性引流囊腫，後續改用 acitretin 治療 |
+
+---
 
 ## 香港上市資訊
 
-資料中的劑型與核准適應症欄位皆為空白，因此只列出品名與廠商。總許可證數為 6 張，以下為資料提供的 5 張。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-39193 | NEOTIGASON CAP 10MG | 膠囊 | 資料未載明 |
+| HK-39194 | NEOTIGASON CAP 25MG | 膠囊 | 資料未載明 |
+| HK-68898 | ZETIN CAPSULES 10MG | 膠囊 | 資料未載明 |
+| HK-68899 | ZETIN CAPSULES 25MG | 膠囊 | 資料未載明 |
+| HK-66608 | SORIF CAPSULES 10MG | 膠囊 | 資料未載明 |
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-39193 | NEOTIGASON CAP 10MG | Teva Pharmaceutical Hong Kong |
-| HK-39194 | NEOTIGASON CAP 25MG | Teva Pharmaceutical Hong Kong |
-| HK-68898 | ZETIN CAPSULES 10MG | United Italian Corp (HK) Ltd |
-| HK-68899 | ZETIN CAPSULES 25MG | United Italian Corp (HK) Ltd |
-| HK-66608 | SORIF CAPSULES 10MG | Jacobson Marketing Limited |
+---
 
 ## 安全性考量
 
-- **致畸性**：Acitretin 有強烈致畸性，停藥後需要很長的避孕期，因此在懷孕相關情境中不適用。
-- **兒童使用**：長期使用類視色素可能影響骨骼與生長，兒童使用需特別謹慎。
+- **藥物交互作用**：資料庫共有 100 筆交互作用，以下為主要項目：
+  - **重大 (Major)**：Doxycycline、Minocycline、Tetracycline（四環黴素類）、Vitamin A
+  - **中度 (Moderate)**：Acetohexamide、Chlorpropamide、Glimepiride、Glipizide、Glyburide、Tolazamide、Tolbutamide（降血糖磺醯脲類）、Naltrexone
+- **知識圖譜標示的潛在禁忌疾病**（來自知識圖譜關聯，非仿單內容）：肝衰竭、藥物性肝損傷、胰臟炎、糖尿病與酮酸中毒、高三酸甘油脂血症、低 α 脂蛋白血症、焦慮與神經症、情緒低落症、物質濫用/依賴、肥胖、假性腦瘤、顱內高壓、視覺障礙與失明、夜盲症、骨質增生。
+- 其他警語與禁忌症請參考原廠仿單。Acitretin 的致畸胎性極強，懷孕期間禁用（資料中的分析亦指出此點）。
 
-香港衛生署仿單的警語與禁忌症資料尚未取得，藥物交互作用查無資料，完整安全性資訊請參考原廠仿單。
+---
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：Hold（列為研究問題）**
 
 **理由：**
-- 目前只有模型預測分數高（99.94%）。臨床試驗僅有一個研究 isotretinoin 的間接試驗，文獻也只有一篇 acitretin 個案報告，沒有 RCT。
-- 痤瘡已有 isotretinoin 這個標準口服類視色素，而 acitretin 的致畸風險和長期避孕要求更嚴格。
-
-TxGNN 對其他三個適應症（兒童系統性紅斑性狼瘡、胎兒紅血球母細胞增多症、家族性皮膚微血管擴張與口咽癌易感症候群）也給出高分（99.1%–99.3%），但都沒有臨床試驗或文獻支持，建議一併維持 Hold。其中胎兒／周產期相關適應症與 acitretin 的致畸性相衝突，臨床上不可行。
+- 現有證據多針對化膿性汗腺炎，而非尋常痤瘡，且唯一的臨床試驗屬間接證據。TxGNN 的「acne」標籤可能與 acne inversa 混淆。
+- 痤瘡已有 isotretinoin 等更成熟的選擇，而 Acitretin 具有致畸胎性與長滯留時間等重大安全風險，貿然推進風險效益比不明。
 
 **若要推進需要：**
-- 取得香港衛生署仿單（警語、禁忌症、核准適應症）
-- 補齊 DrugBank 作用機轉資料，釐清 acitretin 與痤瘡的機轉關聯
-- 系統性搜尋 acitretin 用於尋常性痤瘡的對照研究，並與 isotretinoin 比較療效與安全性
-- 制定含避孕與妊娠風險管理的安全監測計畫
+- 釐清預測對象是尋常痤瘡還是化膿性汗腺炎，若是後者，可重新定位為化膿性汗腺炎的再利用評估。
+- 補充作用機轉資料，並取得香港仿單的警語、禁忌症與核准適應症。
+- 針對尋常痤瘡設計或尋找 Acitretin 的對照試驗證據。
+- 建立育齡女性的避孕與妊娠監測計畫，並評估肝功能、血脂與骨骼的監測方案。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

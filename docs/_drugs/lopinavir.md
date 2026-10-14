@@ -2,7 +2,7 @@
 layout: default
 title: Lopinavir
 parent: 僅模型預測 (L5)
-nav_order: 529
+nav_order: 538
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,18 +29,20 @@ indication_count: 3
 
 </div>
 
-# Lopinavir：從 HIV-1 感染到貓後天免疫缺乏症候群
+# Lopinavir：從 HIV 感染到貓後天免疫缺乏症候群
 
 ## 一句話總結
 
-Lopinavir 是 HIV-1 蛋白酶抑制劑，在香港以與 ritonavir 的複方錠劑上市。
-TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome)** 有效。
-目前**沒有臨床試驗，也沒有文獻**支持這個組合，僅有模型預測，且這是獸醫領域的疾病。
+Lopinavir 是一種 HIV 蛋白酶抑制劑，原本用於 HIV 感染與 AIDS 的治療。
+TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome)** 有效，但目前**沒有臨床試驗與文獻**直接支持這個預測，僅屬模型推論（證據等級 L5）。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | HIV 感染、AIDS（香港許可證未載明適應症文字，此為知識圖譜資料） |
 | 預測新適應症 | 貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome) |
 | TxGNN 預測分數 | 99.90% |
 | 證據等級 | L5 |
@@ -48,55 +50,76 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired 
 | 許可證數 | 6 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Lopinavir 是已知的 HIV-1 蛋白酶抑制劑，香港的產品多為 lopinavir/ritonavir 複方錠劑。以下推論來自一般藥理知識，而非本次提供的資料。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Lopinavir 是 HIV 蛋白酶抑制劑，在 HIV 感染中的療效已被證實。貓免疫缺乏病毒 (FIV) 與 HIV-1 同屬慢病毒，因此機轉上可能存在共同的蛋白酶標靶。
 
-貓免疫缺乏病毒 (FIV) 和 HIV 同屬慢病毒，也編碼天門冬胺酸蛋白酶，所以模型的預測在概念上說得通。但 FIV 蛋白酶的受質專一性和對抑制劑的敏感度與 HIV-1 不同，不能直接假設 lopinavir 有效。
+不過，FIV 的蛋白酶在受質特異性與對抑制劑的敏感度上都與 HIV-1 不同，交叉活性並不確定。0.999 的高分只是計算預測結果，沒有任何臨床試驗或文獻佐證。
 
-這個預測是動物疾病，對人類臨床沒有直接意義。0.999 的分數只是模型預測，沒有任何試驗或文獻佐證。
+另外值得注意，這個疾病是獸醫領域的適應症，對人類患者的藥物再利用價值有限。
+
+---
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記
+目前無相關臨床試驗登記。
+
+---
 
 ## 文獻證據
 
-目前無相關文獻
+目前無相關文獻。
+
+> 補充：排名第 2 的預測「猴免疫缺乏病毒 (SIV) 感染」有 3 篇獼猴前臨床研究（PMID 16973590、17350308、12951220），屬間接證據（L4）。因僅取得標題與摘要片段，無法確認每篇研究是否以 Lopinavir 為受試藥物。SIV 本身是 HIV 的動物模型，對人類的再利用價值同樣有限。排名第 3 的神經發展障礙預測，則未發現明確機轉關聯，不建議採信。
+
+---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-55200 | KALETRA TAB | ABBVIE LIMITED |
-| HK-65831 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG | VIATRIS HEALTHCARE HONG KONG LIMITED |
-| HK-68129 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG | CHEMILL PHARMA LIMITED |
-| HK-66612 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG | HIND WING CO LTD |
-| HK-66676 | LOPINAVIR AND RITONAVIR TABLETS USP 100MG/25MG | CONTROLLED MEDICATIONS LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-68129 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG（Chemill Pharma） | 未載明 | 未載明 |
+| HK-65831 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG（Viatris） | 未載明 | 未載明 |
+| HK-55200 | KALETRA TAB（AbbVie） | 未載明 | 未載明 |
+| HK-66676 | LOPINAVIR AND RITONAVIR TABLETS USP 100MG/25MG（Controlled Medications） | 未載明 | 未載明 |
+| HK-66612 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG（Hind Wing） | 未載明 | 未載明 |
 
-香港共有 6 張許可證，上表列出資料中的 5 張。資料未提供劑型與核准適應症文字。
+（另有 KALETRA ORAL SOL，HK-48165，AbbVie，共 6 張有效許可證。）
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **主要警語與禁忌症**：香港仿單的警語與禁忌症資料尚未取得，請參考原廠仿單。
+- **知識圖譜中標示的禁忌或需謹慎的疾病**（非仿單文字）：
+  - 心臟與心律：long QT 症候群、torsades de pointes、心臟傳導疾病、房室傳導阻滯、猝發性心臟停止、心肌缺血、冠狀動脈疾病、心肌病變
+  - 肝膽胰：胰臟炎、肝病、肝硬化、膽囊疾病、慢性 B 型與 C 型肝炎
+  - 代謝：高血糖、糖尿病、糖尿病酮酸中毒、高三酸甘油脂血症、低鉀血症、高膽紅素血症、Gilbert 症候群
+  - 其他：血友病
+- **藥物交互作用**：共 65 項，以下為部分：
+  - 重大 (Major)：Dolasetron、Papaverine
+  - 中度 (Moderate)：Acarbose、Dapagliflozin、Metformin、Levofloxacin、Ondansetron、Palonosetron、Famotidine，以及多種瀉劑（Bisacodyl、Lactulose 等）
+  - 輕微 (Minor)：Cimetidine、Clotrimazole
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 這個預測只有模型分數，證據等級為 L5，沒有任何臨床試驗或文獻。
-- 目標疾病是貓的獸醫疾病，不屬於人用藥物再利用的範疇。
+- 首要預測（貓免疫缺乏症候群）僅有模型分數，沒有任何臨床試驗或文獻，證據等級為 L5。
+- 疾病屬獸醫領域，且 FIV 與 HIV 蛋白酶存在差異，對人類的再利用價值有限。
+- 藥物本身交互作用多（65 項），並涉及多項心臟與代謝禁忌。
 
 **若要推進需要：**
-- 取得 lopinavir 對 FIV 蛋白酶的體外抑制活性資料
-- 確認是否有獸醫領域的研究或需求
-- 補齊 DrugBank 的作用機轉資料
-- 取得香港衛生署仿單的警語與禁忌症
-
-**補充：** 同一次預測中，排名第 2 的「猿猴免疫缺乏病毒感染」有 3 篇非人類靈長類的前臨床文獻（L4）。這是 HIV 的動物模型，不是新的人類適應症，因此不構成真正的老藥新用機會。排名第 3 的罕見神經發育疾病則看不出任何機轉關聯，其高分很可能是模型假象。
-
-> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+- 取得 Lopinavir 的作用機轉資料（MOA）
+- 取得香港仿單的警語與禁忌症
+- 驗證 Lopinavir 對 FIV 蛋白酶的體外抑制活性
+- 確認排名第 2 之 SIV 相關研究是否確實以 Lopinavir 為受試藥物
+- 先釐清此預測的目標族群（獸醫用途或人類用途），再決定是否值得投入
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

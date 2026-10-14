@@ -2,7 +2,7 @@
 layout: default
 title: Vincristine
 parent: 中證據等級 (L3-L4)
-nav_order: 922
+nav_order: 937
 evidence_level: L3
 indication_count: 3
 ---
@@ -29,101 +29,109 @@ indication_count: 3
 
 </div>
 
-# Vincristine：從抗腫瘤化療到神經節母細胞瘤
+# Vincristine：從急性淋巴性白血病與淋巴瘤到神經節母細胞瘤
 
 ## 一句話總結
 
-Vincristine（長春新鹼）是長春花生物鹼類的抗腫瘤化療藥物。
-TxGNN 模型預測它可能對**神經節母細胞瘤 (Ganglioneuroblastoma)** 有效。
-目前有 **4 個相關臨床試驗**和 **5 篇文獻**，但試驗都不是以 Vincristine 為單獨變因，文獻以病例報告為主，證據偏間接。
+Vincristine（長春新鹼）是一種長春花生物鹼類抗癌藥，原本用於急性淋巴性白血病、何杰金氏淋巴瘤、非何杰金氏淋巴瘤等血液腫瘤。
+TxGNN 模型預測它可能對**神經節母細胞瘤 (Ganglioneuroblastoma)** 有效，
+目前**無登記的臨床試驗**，有 **6 篇文獻**（多為個案報告）支持這個方向。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 急性淋巴性白血病、何杰金氏淋巴瘤、非何杰金氏淋巴瘤、被套細胞淋巴瘤、蘭格漢氏細胞組織球增生症等（香港許可證未載明核准適應症文字，此處依知識圖譜資料列出） |
 | 預測新適應症 | 神經節母細胞瘤 (Ganglioneuroblastoma) |
 | TxGNN 預測分數 | 99.31% |
 | 證據等級 | L3 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 3 張 |
-| 建議決策 | Hold |
+| 建議決策 | Hold（列為研究問題，待更多證據） |
 
-*註：Evidence Pack 未提供原適應症文字（藥物資料與香港許可證皆為空），故不列此欄。*
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。依一般藥理知識，Vincristine 會結合微管蛋白、阻止微管組裝，使細胞停在有絲分裂期而死亡。這屬於抗有絲分裂的細胞毒性機轉，並非 Evidence Pack 所提供的資料。
+目前缺乏資料庫中詳細的作用機轉記載。依 vincristine 已知的藥理學，它是長春花生物鹼，會結合微管蛋白（tubulin）、抑制微管組裝，使快速分裂的細胞停滯於有絲分裂期。
 
-神經節母細胞瘤和神經母細胞瘤同屬神經嵴來源的神經母細胞系腫瘤，前者是這個腫瘤家族中的組織學亞型。Vincristine 在多藥合併的神經母細胞瘤誘導化療中常被用作骨幹藥物。不過 Evidence Pack 並未列出試驗的化療組成，這一點需對照原始試驗方案確認。
+神經節母細胞瘤屬於交感神經系統的神經母細胞性腫瘤。Vincristine 是此類腫瘤多藥化療方案的常見成分，常與 cyclophosphamide、doxorubicin 和鉑類藥物併用。因此，機轉上的合理性很高，與模型的高分預測一致。
 
-因此這個預測比較像是既有臨床實務的延伸，而不是全新的適應症。高分 (0.993) 與這個背景吻合。
+需注意：此機轉連結是根據 vincristine 的已知藥理推論，並非來自本報告所彙整的資料。現有文獻多為併用化療的個案，難以單獨歸因於 vincristine 的貢獻。
+
+---
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT03786783](https://clinicaltrials.gov/study/NCT03786783) | Phase 2 | 完成 | 42 | 在新診斷高風險神經母細胞瘤的化療中加入 dinutuximab 與 sargramostim 的先導試驗；Vincristine 可能屬於化療骨幹，但非單獨測試變因 |
-| [NCT03126916](https://clinicaltrials.gov/study/NCT03126916) | Phase 3 | 招募中 | 750 | 在強化治療中加入 131I-MIBG 或 ALK 抑制劑（lorlatinib），針對高風險神經母細胞瘤或神經節母細胞瘤；尚無結果 |
-| [NCT06172296](https://clinicaltrials.gov/study/NCT06172296) | Phase 3 | 招募中 | 478 | 在多模式強化治療中加入 dinutuximab；Vincristine 至多為背景成分，尚無結果 |
-| [NCT01798004](https://clinicaltrials.gov/study/NCT01798004) | Phase 1 | 完成 | 150 | 誘導化療後以 busulfan/melphalan 清髓並接受幹細胞移植；與 Vincristine 僅間接相關 |
+目前無相關臨床試驗登記。
+
+---
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [31342649](https://pubmed.ncbi.nlm.nih.gov/31342649/) | 2019 | 前瞻性臨床試驗 | Pediatr Blood Cancer | 日本 JN-L-10 試驗，以影像定義風險因子決定低風險神經母細胞瘤的手術時機，以降低治療併發症；未聚焦 Vincristine |
-| [15701990](https://pubmed.ncbi.nlm.nih.gov/15701990/) | 2005 | 病例報告 | J Pediatr Hematol Oncol | 以阻塞性黃疸表現的神經節母細胞瘤，接受含 cisplatin、pirarubicin/doxorubicin、cyclophosphamide 與 vincristine 的化療 |
-| [8255850](https://pubmed.ncbi.nlm.nih.gov/8255850/) | 1993 | 病例報告 | Postgrad Med J | 脊椎神經節母細胞瘤，以含 doxorubicin、vincristine、cyclophosphamide、etoposide、ifosfamide、cisplatin 的合併化療達到組織學完全緩解 |
-| [7421294](https://pubmed.ncbi.nlm.nih.gov/7421294/) | 1980 | 病例系列 | J Thorac Cardiovasc Surg | 31 位胸腔內神經節母細胞瘤患者，治療包含切除、放療或化療，存活 27 位 |
-| [8888754](https://pubmed.ncbi.nlm.nih.gov/8888754/) | 1996 | 病例報告 | J Pediatr Hematol Oncol | 嬰兒第 4 期多灶性神經節母細胞瘤併胃部侵犯 |
+| [31342649](https://pubmed.ncbi.nlm.nih.gov/31342649/) | 2019 | 前瞻性臨床試驗（單臂，標題被截斷，細節未經確認） | Pediatric Blood & Cancer | 日本兒童癌症研究組 JN-L-10：用影像定義風險因子決定低風險神經母細胞瘤的手術時機；vincristine 的角色未明 |
+| [7421294](https://pubmed.ncbi.nlm.nih.gov/7421294/) | 1980 | 個案系列 | J Thorac Cardiovasc Surg | 31 位胸腔內神經節母細胞瘤患者，27 位存活；治療包含切除、放療或化療，單用放療者早期死亡 |
+| [8255850](https://pubmed.ncbi.nlm.nih.gov/8255850/) | 1993 | 個案報告 | Postgrad Med J | 脊椎神經節母細胞瘤，以含 vincristine 的多藥化療（doxorubicin、cyclophosphamide、etoposide、ifosfamide、cisplatin）達到完全緩解 |
+| [15701990](https://pubmed.ncbi.nlm.nih.gov/15701990/) | 2005 | 個案報告 | J Pediatr Hematol Oncol | 以阻塞性黃疸表現的神經節母細胞瘤，接受含 vincristine 的化療（cisplatin、pirarubicin/doxorubicin、cyclophosphamide） |
+| [3071124](https://pubmed.ncbi.nlm.nih.gov/3071124/) | 1988 | 個案報告 | Hinyokika Kiyo | 成人腎上腺神經節母細胞瘤伴大型區域淋巴結轉移，採多模式治療 |
+| [8888754](https://pubmed.ncbi.nlm.nih.gov/8888754/) | 1996 | 個案報告 | J Pediatr Hematol Oncol | 嬰兒第 4 期多灶性神經節母細胞瘤，併胃部侵犯 |
 
-*另有 1988 年日本成人腎上腺神經節母細胞瘤病例報告（PMID 3071124），多模式治療，摘要未提及 Vincristine，故未列入表中。*
+---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-50937 | VINRACINE INJ 1MG/ML | HEALTHCARE PHARMASCIENCE LIMITED |
-| HK-58669 | VINCRISTINE SULFATE FOR INJ 1MG | MAIN LIFE CORP LTD |
-| HK-59252 | VINCRISTINE SULPHATE PHARMACHEMIE INJ 1MG/ML | TEVA PHARMACEUTICAL HONG KONG LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-50937 | VINRACINE INJ 1MG/ML | 注射劑 | 資料未載明 |
+| HK-58669 | VINCRISTINE SULFATE FOR INJ 1MG | 注射劑 | 資料未載明 |
+| HK-59252 | VINCRISTINE SULPHATE PHARMACHEMIE INJ 1MG/ML | 注射劑 | 資料未載明 |
 
-*這 3 張許可證在資料中均未提供劑型與核准適應症。*
+三張許可證均為單方製劑，狀態有效。
+
+---
 
 ## 細胞毒性
 
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 傳統細胞毒性藥物（長春花生物鹼類，抗微管） |
-| 骨髓抑制風險 | 一般認為相對較低，主要毒性為神經毒性（Evidence Pack 無 toxicity 資料，依一般藥理知識） |
-| 致吐性分級 | 低 |
-| 監測項目 | CBC、肝功能、神經學評估（周邊神經病變、便秘） |
+| 細胞毒性分類 | 傳統細胞毒性藥物（長春花生物鹼類，抗微管藥物） |
+| 骨髓抑制風險 | 請參考原廠仿單（本報告彙整資料未提供） |
+| 致吐性分級 | 請參考原廠仿單 |
+| 監測項目 | 建議監測 CBC（含分類）、肝功能（尤其膽紅素）、神經學評估 |
 | 處置防護 | 需依細胞毒性藥物處置規範操作 |
 
-以上內容並非來自 Evidence Pack，請以原廠仿單的警語與注意事項為準。
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。DDI 查詢結果為無資料，香港衛生署仿單的警語與禁忌尚未取得。
+- **禁忌症（來自知識圖譜的藥物－疾病禁忌關聯，非仿單文字）**：肝衰竭、膽汁淤積（含良性復發性肝內膽汁淤積、家族性肝內膽汁淤積）、高膽紅素血症（含遺傳性高膽紅素血症、Gilbert 症候群）、周邊神經疾病與周邊神經病變（含 Charcot-Marie-Tooth 病、運動性周邊神經病變、神經炎）、神經肌肉疾病、白血球低下、急性尿酸腎病變、感染性疾病（含黴菌感染、皮癬菌病）。
+- **藥物交互作用**：共查得 100 筆，以下為部分重點：
+  - **重度**：Clarithromycin
+  - **中度**：Aprepitant、Dexamethasone、Metronidazole、Eliglustat、Naltrexone、Glycerol phenylbutyrate、Miconazole、Rolapitant、Rosuvastatin、Simvastatin、Tinidazole、Troglitazone
+  - **輕度**：Levofloxacin
+
+香港仿單的警語與禁忌尚未取得，請以原廠仿單為準。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 神經節母細胞瘤屬於神經母細胞系腫瘤，Vincristine 在此類化療中已有使用，但現有試驗都不是以 Vincristine 為變因，文獻以病例報告為主，證據停在 L3。
-- 香港仿單的警語與禁忌尚未取得，這項資料缺口屬於阻擋性，目前無法進入安全性篩選。
+- 機轉合理且 TxGNN 分數很高，但目前無登記臨床試驗，文獻主要是個案報告與小型系列，且 vincristine 均為多藥併用，難以判定其單獨貢獻。
+- 香港仿單的警語與禁忌資料缺口屬阻擋性（Blocking），尚無法進入安全性篩選階段。
+- 此外，vincristine 已是神經母細胞性腫瘤標準化療方案的常用成分，這個預測的新穎性有限。
 
 **若要推進需要：**
-- 下載並解析香港衛生署仿單，補齊警語、禁忌與核准適應症
-- 查證 NCT03786783、NCT03126916、NCT06172296 的化療方案組成，確認 Vincristine 是否在其中
-- 補上 DrugBank 的作用機轉與原適應症資料
-- 針對神經母細胞瘤家族的標準方案做文獻整理，確認神經節母細胞瘤是否已有明確的標準用法
-
-**其他預測適應症（排名 2、3）：**
-- 排名 2 的「椎體異常合併內分泌與 T 細胞功能異常」沒有任何試驗或文獻，機轉上也看不出關聯，高分可能是知識圖譜的假象，建議 Hold。
-- 排名 3 的「後腹腔腫瘤」是解剖位置分類而非單一疾病。文獻僅見個別組織型的間接證據（如副神經節瘤、橫紋肌肉瘤），無法一概而論，建議 Hold。
-
-*本報告結果僅供研究參考，不構成醫療建議；預測的老藥新用候選需經臨床驗證才能應用。*
+- 取得並解析香港衛生署的仿單（警語、禁忌、核准適應症）。
+- 補齊 DrugBank 的作用機轉資料。
+- 系統性檢索神經母細胞性腫瘤的 vincristine 方案研究（如兒童腫瘤協作組的方案），並確認 JN-L-10 試驗中 vincristine 的實際角色。
+- 評估高風險族群（肝功能異常、既有周邊神經病變）的安全性監測計畫，以及與強效 CYP3A4 抑制劑（如 clarithromycin）併用的處理原則。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

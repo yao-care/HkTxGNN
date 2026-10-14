@@ -2,7 +2,7 @@
 layout: default
 title: Triptorelin
 parent: 僅模型預測 (L5)
-nav_order: 897
+nav_order: 912
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,71 +29,91 @@ indication_count: 5
 
 </div>
 
-# Triptorelin：從原適應症（資料未提供）到多毛症
+# Triptorelin：從（原適應症未載明）到多毛症（Hypertrichosis）
 
 ## 一句話總結
 
-Triptorelin 是 GnRH 促效劑，在香港有 5 張許可證，但本次輸入資料未提供原適應症。
-TxGNN 模型預測它可能對**多毛症 (Hypertrichosis)** 有效，但目前**無臨床試驗**，只有 **1 篇個案報告**，且該報告談的是其他藥物造成的副作用，並未支持 triptorelin 的療效。
+Triptorelin 是一種 GnRH（促性腺激素釋放素）促效劑，在香港已有 5 張有效許可證，但資料中未載明核准適應症。
+TxGNN 模型預測它可能對**多毛症 (Hypertrichosis)** 有效，但目前**沒有臨床試驗**，僅有 **1 篇個案報告**，且該報告並未顯示 triptorelin 能治療多毛症。這項預測目前只是模型推論。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 資料未載明（香港許可證未提供核准適應症文字） |
 | 預測新適應症 | 多毛症 (Hypertrichosis) |
 | TxGNN 預測分數 | 99.997% |
-| 證據等級 | L5（僅有模型預測，文獻未支持 triptorelin 與多毛症的關聯） |
+| 證據等級 | L5（僅模型預測；唯一文獻為個案報告，不支持療效） |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 5 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Triptorelin 屬於 GnRH 促效劑，作用是抑制促性腺激素驅動的性荷爾蒙軸。
+目前缺乏詳細的作用機轉資料。已知 Triptorelin 屬於 GnRH 促效劑，會抑制腦下垂體－性腺軸，降低性腺的雄性素分泌。
 
-多毛症一般不依賴雄性素，與這個機轉的關聯偏弱。因此，這個預測目前只能視為圖譜運算的結果，機轉上的合理性有限。
+多毛症與一般認知的「多毛（hirsutism）」不同，傳統上並非由雄性素驅動，因此 triptorelin 與多毛症之間只有間接關聯。
 
-唯一的文獻是一篇個案報告，描述環孢素（ciclosporin）在一位同時使用雌二醇與 triptorelin 的跨性別女性身上誘發全身性多毛。這是另一種藥物造成的副作用，並非 triptorelin 治療多毛症的證據。
+唯一檢索到的文獻（PMID 41822646）是一名接受睪固酮阻斷治療的跨性別女性，因 ciclosporin 而出現全身性多毛症。報告將多毛症歸因於 ciclosporin，而非荷爾蒙治療；她同時使用 estradiol 與 triptorelin，這只說明雄性素抑制下仍可能發生多毛症，**並不表示 triptorelin 能改善多毛症**。0.99997 的高分是模型預測，不應視為臨床支持。
 
-排名第 2 至第 5 的預測（Ambras 型先天性全身多毛症、伴牙齒或牙周異常的畸形症候群、以 Dandy-Walker 畸形為主的症候群、遺傳性毛幹異常）同樣沒有臨床試驗，也沒有 triptorelin 相關文獻，且都缺乏合理的機轉連結。
+其餘 4 項預測（Ambras 型先天性全身多毛症、牙/牙周畸形症候群、Dandy-Walker 畸形相關症候群、遺傳性毛幹異常）皆屬發育性或遺傳性結構缺陷，GnRH 促效劑沒有已知的機轉可以矯正，且均無臨床試驗與文獻，推測是知識圖譜中網絡鄰近關係所造成。
+
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [41822646](https://pubmed.ncbi.nlm.nih.gov/41822646/) | 2026 | Case report | Cureus | 25 歲跨性別女性因乾癬使用環孢素後出現全身性多毛，同時服用雌二醇與 triptorelin。顯示即使在雄性素被抑制的情況下，環孢素仍可誘發多毛。這是副作用報告，不是 triptorelin 的療效證據 |
+| [41822646](https://pubmed.ncbi.nlm.nih.gov/41822646/) | 2026 | 個案報告 | Cureus | 25 歲跨性別女性（重度斑塊型乾癬）使用 ciclosporin 後出現全身性多毛症，當時同時服用 estradiol 與 triptorelin；多毛症歸因於 ciclosporin，非 triptorelin 的療效證據 |
+
+---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-51941 | DIPHERELINE PR FOR INJ 11.25MG | Beaufour Ipsen International (Hong Kong) Limited |
-| HK-47655 | DIPHERELINE PR FOR INJ 3.75MG | Beaufour Ipsen International (Hong Kong) Limited |
-| HK-36917 | DECAPEPTYL 0.1MG INJ SC | Ferring Pharmaceuticals Ltd |
-| HK-33730 | DECAPEPTYL-CR FOR INJ 3.75MG | Ferring Pharmaceuticals Ltd |
-| HK-62788 | DIPHERELINE P.R. POWDER AND SOLVENT FOR SUSPENSION FOR INJECTION 22.5MG | Beaufour Ipsen International (Hong Kong) Limited |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-51941 | DIPHERELINE PR FOR INJ 11.25MG | 未載明 | 未載明 |
+| HK-47655 | DIPHERELINE PR FOR INJ 3.75MG | 未載明 | 未載明 |
+| HK-36917 | DECAPEPTYL 0.1MG INJ SC | 未載明 | 未載明 |
+| HK-33730 | DECAPEPTYL-CR FOR INJ 3.75MG | 未載明 | 未載明 |
+| HK-62788 | DIPHERELINE P.R. POWDER AND SOLVENT FOR SUSPENSION FOR INJECTION 22.5MG | 未載明 | 未載明 |
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的潛在禁忌疾病**（來自 TxGNN 知識圖譜的藥物－疾病關聯，非仿單內容）：高血壓、腎臟疾病、膿輸尿管（pyoureter）、肝臟疾病、膽囊疾病、高血糖、糖尿病、糖尿病酮酸中毒、肥胖、單基因肥胖、泌尿道阻塞、脊髓疾病。
+- **藥物交互作用**：共查得 100 筆，以下為部分範例：
+  - 重度（Major）：Dolasetron
+  - 中度（Moderate）：Acarbose、Metformin、Pioglitazone、Glimepiride、Chlorpropamide、Alogliptin、Saxagliptin、Canagliflozin、Dapagliflozin、Empagliflozin、Albiglutide、Dulaglutide、Famotidine、Clarithromycin、Palonosetron、Loperamide、Bisacodyl 等。多數為降血糖藥，使用時需留意血糖控制。
+
+香港仿單的警語與禁忌資料尚未取得，詳細內容請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高，但沒有任何臨床試驗，唯一的文獻是其他藥物誘發多毛的個案報告，機轉上的關聯也偏弱。
-- 目前缺少香港衛生署仿單的警語與禁忌症資料，無法進入安全性篩選。
+- 唯一的文獻是個案報告，且未顯示 triptorelin 對多毛症有療效；無臨床試驗，機轉上也僅有間接關聯。高 TxGNN 分數只是模型預測。
+- 另外 4 項預測為先天性或遺傳性結構缺陷，沒有合理的機轉依據。
 
 **若要推進需要：**
-- 取得香港衛生署仿單（警語、禁忌症、核准適應症），補齊原適應症與安全性資料
-- 補充 DrugBank 的作用機轉資料，重新評估與多毛症的機轉連結
-- 檢索是否有 GnRH 促效劑直接用於多毛症（例如多囊性卵巢症候群相關多毛）的研究
-- 若上述都找不到直接證據，建議不再優先推進此候選
+- 取得 DrugBank 的作用機轉資料，並補齊香港核准適應症資料
+- 取得並解析香港仿單的警語與禁忌，完成安全性篩選
+- 進行系統性文獻回顧，確認 GnRH 促效劑與多毛症之間是否有直接證據
+- 若仍有意探索，先以機轉研究或小規模觀察性研究驗證，再考慮臨床試驗
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -2,7 +2,7 @@
 layout: default
 title: Efavirenz
 parent: 中證據等級 (L3-L4)
-nav_order: 303
+nav_order: 308
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,19 +29,21 @@ indication_count: 3
 
 </div>
 
-# Efavirenz：從 HIV-1 感染到貓免疫缺陷病毒相關疾病
+# Efavirenz：從 HIV 感染到貓免疫缺乏症候群
 
 ## 一句話總結
 
-Efavirenz 是一種非核苷類逆轉錄酶抑制劑（NNRTI），在香港已上市，使用於人類 HIV 治療的抗病毒藥物。
+Efavirenz 是一種非核苷類逆轉錄酶抑制劑（NNRTI），原本用於治療 HIV 感染與愛滋病。
 TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome)** 有效，
-但目前僅有 **1 篇體外生化／結構研究**支持，無直接的臨床試驗證據（列出的 2 個試驗皆為人類 HIV-1 研究，Efavirenz 僅為對照藥）。
+但目前**沒有臨床試驗**，只有 **1 篇**體外生化/結構比較研究，證據停留在模型預測與機轉推測階段。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 未提供（許可證資料中適應症欄位為空白） |
+| 原適應症 | HIV 感染、愛滋病（HIV infectious disease、AIDS） |
 | 預測新適應症 | 貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome) |
 | TxGNN 預測分數 | 99.80% |
 | 證據等級 | L4 |
@@ -49,70 +51,79 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired 
 | 許可證數 | 7 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Efavirenz 屬於 NNRTI 類抗逆轉錄病毒藥物，直接抑制病毒逆轉錄酶。貓免疫缺陷病毒（FIV）同為慢病毒，會造成類似後天免疫缺乏的症候群，因此在機轉上可能有交叉活性。
+目前缺乏詳細的作用機轉資料。已知 Efavirenz 是 HIV-1 的 NNRTI，結合在 HIV-1 逆轉錄酶（RT）的別位口袋（allosteric pocket），藉此抑制病毒複製。
 
-2023 年一篇生化與結構比較研究，將 nevirapine、efavirenz、rilpivirine 與 FIV 及 HIV 的逆轉錄酶進行比較，提示 NNRTI 對 FIV 可能有潛力。但這只是體外／結構層次的證據，沒有貓的活體療效或安全性資料。
+貓免疫缺乏病毒（FIV）與 HIV 同屬慢病毒（lentivirus），也編碼與 HIV-1 RT 相關的逆轉錄酶，因此從機轉上推測，NNRTI 可能對 FIV 有作用。目前唯一一篇文獻比較了 nevirapine、efavirenz 與 rilpivirine 對 FIV 與 HIV 逆轉錄酶的生化與結構特性，屬間接的機轉性證據。
 
-需要注意：TxGNN 的高分（0.998）僅是知識圖譜的模型預測。此外，NNRTI 對 HIV-1 逆轉錄酶具高度專一性，對其他慢病毒（如野生型 SIV）通常效果不佳，因此此預測仍需實驗驗證。
+需要特別留意：FIV RT 的 NNRTI 結合口袋與 HIV-1 RT 不同，因此 Efavirenz 是否真能抑制 FIV RT，無法由現有資料確定。TxGNN 的高分是計算預測，並非臨床證據。
+
+---
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Phase 2 | 完成 | 208 | Dolutegravir 用於未治療過的 HIV-1 成人之劑量選擇；Efavirenz 僅為對照，無貓或 FIV 族群 |
-| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Phase 3 | 完成 | 844 | Dolutegravir + abacavir/lamivudine 對比 Atripla（含 Efavirenz）用於人類 HIV-1；僅為間接證據 |
+目前無相關臨床試驗登記。
 
-以上試驗皆為人類 HIV-1 研究，並未檢驗 Efavirenz 對 FIV 或貓的療效。
+---
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | 體外生化／結構研究 | Journal of Veterinary Science | 比較 nevirapine、efavirenz、rilpivirine 對 FIV 與 HIV 逆轉錄酶的作用，探討 NNRTI 治療 FIV 的潛力 |
+| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | 體外生化/結構研究 | Journal of Veterinary Science | 比較 nevirapine、efavirenz、rilpivirine 對 FIV 與 HIV 逆轉錄酶的作用，探討 NNRTI 用於 FIV 感染的潛力；摘要未呈現 efavirenz 對 FIV RT 的具體抑制結果 |
+
+---
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-66814 | APT-EFAVIRENZ TABLETS 600MG | 未提供 | 未提供 |
-| HK-61617 | EFAVIRENZ SANDOZ TABLETS 600MG | 未提供 | 未提供 |
-| HK-66482 | EFAVIRENZ TABLETS USP 600MG | 未提供 | 未提供 |
-| HK-66634 | EFAVIRENZ TABLETS 200MG | 未提供 | 未提供 |
-| HK-59769 | ESTIVA-600 TAB 600MG | 未提供 | 未提供 |
+| HK-66814 | APT-EFAVIRENZ TABLETS 600MG | 錠劑（資料未列明） | 資料未列明 |
+| HK-61617 | EFAVIRENZ SANDOZ TABLETS 600MG | 錠劑（資料未列明） | 資料未列明 |
+| HK-66482 | EFAVIRENZ TABLETS USP 600MG | 錠劑（資料未列明） | 資料未列明 |
+| HK-66634 | EFAVIRENZ TABLETS 200MG | 錠劑（資料未列明） | 資料未列明 |
+| HK-59769 | ESTIVA-600 TAB 600MG | 錠劑（資料未列明） | 資料未列明 |
+
+另有 2 張有效許可證（HK-66705 EZETENO TABLETS；HK-67928 Efavirenz/Emtricitabine/Tenofovir Disoproxil Fumarate 複方錠），共 7 張，皆為有效狀態。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病（非仿單內容）**：肝衰竭、肝病、脂肪肝、非酒精性脂肪肝炎、慢性 B 型/C 型肝炎、腎臟病、Fanconi 腎小管症候群、癲癇、焦慮症、精神官能症、輕度憂鬱症、妄想症、妄想型思覺失調症、乳酸中毒、高三酸甘油脂血症、肥胖、低磷血症、骨軟化症、佝僂病、膽囊疾病等。
+- **藥物交互作用**：共查得 100 筆，以下為部分例子。
+  - 重大（Major）：Dolasetron
+  - 中度（Moderate）：Acarbose、Famotidine、Rabeprazole、Hydrocortisone、Dexamethasone、Pioglitazone、Bupropion、Aprepitant、Clarithromycin、Saxagliptin 等
+
+具體警語與禁忌請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-目前僅有一篇體外生化／結構研究，且缺乏貓的活體療效與安全性資料。列出的臨床試驗皆為人類 HIV-1 研究，與此預測無直接關聯。高 TxGNN 分數只是模型預測。
+- 貓免疫缺乏症候群的預測僅有 1 篇體外研究支持，且無法確認 Efavirenz 對 FIV RT 有抑制作用，也沒有動物或臨床資料。
+- FIV RT 與 HIV-1 RT 的 NNRTI 口袋存在差異，Efavirenz 的活性不能預設成立。
 
 **若要推進需要：**
-- FIV 感染貓的體外細胞培養抗病毒活性資料
-- 貓的藥動學與安全性資料
-- 取得香港衛生署仿單，確認警語與禁忌
-- 補齊藥物作用機轉（MOA）資料
-- 確認獸醫用藥的法規途徑，因為香港許可證為人用藥品
+- 取得該文獻完整內容，確認 Efavirenz 對 FIV RT 的抑制活性（如 IC50）
+- 進行 FIV 感染細胞的體外抗病毒試驗，再考慮貓的動物模型與安全性評估
+- 補齊 Efavirenz 的作用機轉資料與香港仿單的警語、禁忌資訊
+- 釐清此適應症屬獸醫用途，需另行評估法規路徑
 
 ---
 
-## 其他預測適應症（供參考）
+### 附註：其他預測適應症
 
-### 猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)
-- TxGNN 分數：99.80%，證據等級 L4，建議 Hold
-- 有多篇獼猴 RT-SHIV（帶有 HIV-1 逆轉錄酶的嵌合病毒）模型研究，例如 [PMID 15328115](https://pubmed.ncbi.nlm.nih.gov/15328115/)（2004）與 [PMID 15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/)（2005），評估 Efavirenz 單用或合併療法。
-- 這些屬於抗病毒治療與抗藥性的動物模型研究，並非顯示對野生型 SIV 有效；野生型 SIV 一般對 NNRTI 不敏感，也不支持新的人類臨床適應症。
-- 唯一列出的試驗 NCT00863668 已撤回（0 人），且與 Efavirenz 無關。
-
-### 伴有共濟失調步態、無語言及皮質白質減少的神經發展障礙
-- TxGNN 分數：99.77%，證據等級 L5，建議 Hold
-- 無臨床試驗與文獻，也無法從資料建立與 Efavirenz 抗病毒機轉的連結，僅為模型預測。
+| 預測適應症 | TxGNN 分數 | 證據等級 | 說明 |
+|-----------|-----------|---------|------|
+| 猿猴免疫缺乏病毒感染 | 99.80% | L3 | 有多篇恆河猴 RT-SHIV（含 HIV-1 RT 的嵌合病毒）模型研究，顯示含 Efavirenz 的療法可抑制病毒量。野生型 SIV 對 NNRTI 天生抗藥，因此這屬於研究模型而非人類新適應症，僅作為 Efavirenz 作用機轉的佐證。 |
+| 伴共濟失調步態、無語言及皮質白質減少的神經發展障礙 | 99.77% | L5 | 僅有模型預測，無文獻與試驗。Efavirenz 對 CYP46A1 的作用僅為待驗證的假說，且其神經精神副作用對此族群是安全疑慮。 |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

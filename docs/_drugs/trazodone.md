@@ -2,7 +2,7 @@
 layout: default
 title: Trazodone
 parent: 僅模型預測 (L5)
-nav_order: 885
+nav_order: 900
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,28 +33,29 @@ indication_count: 10
 
 ## 一句話總結
 
-Trazodone 是一種抗憂鬱藥，文獻指出其核准用途為憂鬱症（香港許可證資料未載明適應症）。
-TxGNN 模型預測它可能對**強迫症 (Obsessive-Compulsive Disorder)** 有效。
-目前**無已登記的臨床試驗**，但有 **20 篇文獻**，其中 1 篇為 1992 年的小型雙盲安慰劑對照研究，其餘多為個案報告與開放標示研究。
+Trazodone 是一種血清素調節型抗憂鬱藥，原本用於憂鬱症與焦慮症治療。
+TxGNN 模型預測它可能對**強迫症 (Obsessive-Compulsive Disorder)** 有效，
+目前沒有已登記的臨床試驗，但有 **20 篇文獻**，其中包含 1 篇雙盲安慰劑對照試驗。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 單極性憂鬱症、內因性憂鬱症、重度憂鬱症、焦慮症（來自知識圖譜；香港許可證未載明適應症文字） |
 | 預測新適應症 | 強迫症 (Obsessive-Compulsive Disorder) |
 | TxGNN 預測分數 | 99.95% |
-| 證據等級 | L2（僅 1 篇雙盲 RCT，結果待全文確認） |
+| 證據等級 | L2（僅有 1 項雙盲安慰劑對照 RCT，且為 1992 年的早期研究，缺乏已登記的臨床試驗） |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 11 張 |
-| 建議決策 | Hold |
+| 建議決策 | Hold（列為研究問題，暫不推進） |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料集中的 MOA 欄位為空）。以下說明來自一般藥理知識與文獻。Trazodone 屬於血清素拮抗／再吸收抑制劑 (SARI)，主要作用是拮抗 5-HT2A/2C 受體，並有較弱的血清素再吸收抑制作用。文獻（PMID 1365657）也指出，它最強的藥理效應是 5-HT2 受體拮抗，而非再吸收抑制。
+目前缺乏詳細的作用機轉資料。根據一般藥理知識，Trazodone 作用於血清素系統，包括 5-HT2A 受體拮抗與較弱的血清素再攝取抑制。其代謝物 m-CPP 也具有血清素活性。這些推論來自一般藥理學，而非本次彙整資料中的正式 MOA。
 
-強迫症對血清素再吸收抑制劑反應較好，因此血清素系統被認為與其病理有關。Trazodone 作用於血清素系統，在機轉上有合理性。已有多篇 1980 至 1990 年代的個案報告與開放標示研究，嘗試用於對 clomipramine 無效的患者，或與 fluoxetine 併用。
+強迫症的一線藥物（SSRI、clomipramine）同樣作用於血清素通路，因此在機轉上有合理的關聯。憂鬱症與強迫症常共病，也支持兩者在神經生物學上有重疊。
 
-不過文獻結果並不一致。例如 1986 年一項 11 位患者的試驗，併用 trazodone 與色胺酸，療效有限且耐受性不佳。TxGNN 的高分是知識圖譜上的預測，不是臨床證據。
+不過，文獻中的臨床結果並不一致。Trazodone 在 clomipramine 無效的患者中，整體僅有輕微改善（9 位患者中 3 位反應良好）。Trazodone 與色胺酸合併的開放性前導研究則結果不理想。因此這個預測在機轉上可信，但臨床效益尚未被穩固證實。
 
 ## 臨床試驗證據
 
@@ -62,52 +63,56 @@ TxGNN 模型預測它可能對**強迫症 (Obsessive-Compulsive Disorder)** 有�
 
 ## 文獻證據
 
+下表列出最相關的 10 篇（優先列出 RCT，其次為回顧與病例系列）。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [1629380](https://pubmed.ncbi.nlm.nih.gov/1629380/) | 1992 | RCT | Journal of Clinical Psychopharmacology | 雙盲、安慰劑對照，測試 trazodone 對強迫症的療效（提供的摘要被截斷，結果需查全文） |
-| [27744763](https://pubmed.ncbi.nlm.nih.gov/27744763/) | 2017 | Review | Postgraduate Medicine | 回顧 trazodone 在精神與內科疾病的使用，包含機轉、劑量與不良反應 |
-| [26088119](https://pubmed.ncbi.nlm.nih.gov/26088119/) | 2015 | Review | Current Pharmaceutical Design | 整理 trazodone 的仿單外使用，強迫症為其中一項 |
-| [8993077](https://pubmed.ncbi.nlm.nih.gov/8993077/) | 1996 | Review | Psychopharmacology Bulletin | 討論強迫症的單一與多重藥物治療，強調血清素再吸收抑制劑的核心地位 |
-| [8331098](https://pubmed.ncbi.nlm.nih.gov/8331098/) | 1993 | Review | Journal of Clinical Psychiatry | 回顧難治型強迫症的生物學治療策略，多為 SRI 合併其他藥物 |
-| [8134850](https://pubmed.ncbi.nlm.nih.gov/8134850/) | 1994 | Review | Southern Medical Journal | 回顧強迫症的藥物處置 |
-| [2119885](https://pubmed.ncbi.nlm.nih.gov/2119885/) | 1990 | 個案系列 | Clinical Neuropharmacology | 9 位對 clomipramine 無效者，整體有輕度但顯著的改善，3 位反應良好 |
-| [3501130](https://pubmed.ncbi.nlm.nih.gov/3501130/) | 1987 | 世代研究 | Psychopathology | 治療有反應者的尾狀核葡萄糖代謝出現變化 (PET) |
-| [3571943](https://pubmed.ncbi.nlm.nih.gov/3571943/) | 1986 | 開放式前導試驗 | International Clinical Psychopharmacology | 11 位患者併用 trazodone 與色胺酸，效益有限且部分耐受不佳 |
-| [4009160](https://pubmed.ncbi.nlm.nih.gov/4009160/) | 1985 | 個案報告 | Journal of Nervous and Mental Disease | 2 位合併憂鬱的重度強迫症患者，使用後明顯改善 |
+| [1629380](https://pubmed.ncbi.nlm.nih.gov/1629380/) | 1992 | RCT | J Clin Psychopharmacol | 雙盲安慰劑對照研究，評估 trazodone 於強迫症患者的抗強迫療效 |
+| [26088119](https://pubmed.ncbi.nlm.nih.gov/26088119/) | 2015 | Review | Curr Pharm Des | 整理 trazodone 的仿單外使用（含強迫症）之證據、益處與風險 |
+| [27744763](https://pubmed.ncbi.nlm.nih.gov/27744763/) | 2017 | Review | Postgrad Med | 回顧 trazodone 在各種精神與內科疾病的應用 |
+| [8993077](https://pubmed.ncbi.nlm.nih.gov/8993077/) | 1996 | Review | Psychopharmacol Bull | 討論強迫症的單一與多重藥物治療，強調血清素再攝取抑制劑的核心角色 |
+| [8134850](https://pubmed.ncbi.nlm.nih.gov/8134850/) | 1994 | Review | South Med J | 回顧強迫症的藥物治療，血清素失調為核心假說 |
+| [2119885](https://pubmed.ncbi.nlm.nih.gov/2119885/) | 1990 | 病例系列/開放標籤 | Clin Neuropharmacol | 9 位 clomipramine 無效患者整體輕度改善，3 位明顯反應，停藥後症狀復發、再用藥後緩解 |
+| [3501130](https://pubmed.ncbi.nlm.nih.gov/3501130/) | 1987 | 世代/開放標籤 | Psychopathology | 治療反應與尾狀核葡萄糖代謝變化相關 |
+| [8434675](https://pubmed.ncbi.nlm.nih.gov/8434675/) | 1993 | 病例系列 | Am J Psychiatry | Trazodone 用於強迫症與拔毛癖 |
+| [3571943](https://pubmed.ncbi.nlm.nih.gov/3571943/) | 1986 | 開放性前導研究 | Int Clin Psychopharmacol | 11 位患者合併 trazodone 與色胺酸，效果不理想，部分患者耐受性差 |
+| [6703152](https://pubmed.ncbi.nlm.nih.gov/6703152/) | 1984 | 病例報告 | Am J Psychiatry | 強迫症使用 trazodone 的病例報告 |
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-55397 | TRITTICO PROLONGED RELEASE TAB 75MG | LEE'S PHARMACEUTICAL (H.K) LIMITED |
-| HK-68897 | JECETRAZO TABLETS 50MG | JULIUS CHEN & COMPANY (HK) LIMITED |
-| HK-62870 | MESYREL TABLETS 50MG | LOTUS PHARMACEUTICAL HK LIMITED |
-| HK-60457 | APO-TRAZODONE TAB 50MG | HIND WING CO LTD |
-| HK-62384 | TRITCOPRESS TABLET 50MG | VICKMANS LABORATORIES LTD |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-55397 | TRITTICO PROLONGED RELEASE TAB 75MG | 未載明 | 未載明 |
+| HK-55398 | TRITTICO PROLONGED RELEASE TAB 150MG | 未載明 | 未載明 |
+| HK-26791 | TRITTICO TAB 50MG | 未載明 | 未載明 |
+| HK-62870 | MESYREL TABLETS 50MG | 未載明 | 未載明 |
+| HK-60457 | APO-TRAZODONE TAB 50MG | 未載明 | 未載明 |
 
-共 11 張許可證，上表列出 5 張。
+另有 6 張單一成分許可證（共 11 張，皆有效、無註銷），包含 PMS-TRAZODONE（50/75/100 mg）、JECETRAZO、TRITCOPRESS、TRAZOPRESS 等品項。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **禁忌／需謹慎的相關疾病（來自知識圖譜，非仿單內容）：** 多系統萎縮症、姿位性心搏過速症候群、姿位性低血壓、長 QT 症候群（含家族性）、尖端扭轉型心室頻脈、低鉀血症、良性攝護腺增生、凝血疾病、心臟病、心血管疾病、陰莖異常勃起、抗利尿激素分泌不當症候群（含腎因性）。
+- **藥物交互作用：** 共查得 100 筆，以下為部分範例。
+  - 嚴重等級 (Major)：Bupropion、Lorcaserin、Dolasetron、Palonosetron、Cisapride、Dexfenfluramine、Fenfluramine。
+  - 中度等級 (Moderate)：Famotidine、Loperamide、Aprepitant、Morphine、Clarithromycin、Dronabinol、Eliglustat 等。
+  - 多數嚴重交互作用與 QT 延長或血清素相關風險有關，與上述心臟相關疾病的警示相呼應。
+
+香港仿單的警語與禁忌資料尚未取得，正式使用前請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 強迫症的證據主要是老舊的個案報告與開放標示研究，僅有 1 篇小型雙盲 RCT，且結果尚未核實。已有 clomipramine 及其他 SSRI 等明確的一線藥物可用。
-- 香港仿單的警語與禁忌資料缺失（資料缺口 DG001，屬 Blocking），無法進入安全性篩選。
+- 強迫症的機轉合理，但沒有已登記的臨床試驗，僅有 1 篇 1992 年的小型 RCT，其他多為病例報告與開放性研究，結果也不一致。強迫症已有確立的一線藥物（SSRI、clomipramine），trazodone 較適合作為難治型個案的輔助選項探索。
+- 其他預測適應症（恐慌症／懼曠症、輕鬱症、人格障礙類等）證據更弱或僅為模型預測，不宜優先推進。
 
 **若要推進需要：**
-- 取得 1992 年 Pigott 等人雙盲 RCT（PMID 1629380）的全文，確認主要療效結果。
-- 下載並解析香港衛生署的仿單，補齊警語、禁忌與交互作用。
-- 補充 DrugBank 的作用機轉資料。
-- 評估是否有新的、設計良好的對照試驗（目前無登記試驗），並與一線藥物比較。
-
-**其他預測適應症（簡述）：** 恐慌症／懼曠症證據等級 L2，但研究為 1980 年代的小規模研究，同樣建議列為研究問題。心境惡劣障礙 (Dysthymia) 的證據多為抗憂鬱藥類別層級，等級 L4。人格障礙類、嬰兒良性陣發性斜頸、Ohdo 症候群等，沒有有效證據或機轉連結，應視為圖譜上的假象，建議 Hold。
-
-*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。*
+- 取得正式的作用機轉（MOA）資料。
+- 取得香港仿單的警語與禁忌資料（目前為阻斷性缺口）。
+- 閱讀 1992 年 RCT 全文，確認樣本數、劑量與主要結果。
+- 設計現代化、足夠樣本數的對照試驗，並針對 QT 延長、姿位性低血壓與血清素相關交互作用制定監測計畫。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

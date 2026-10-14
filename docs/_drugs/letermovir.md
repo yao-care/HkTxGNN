@@ -2,7 +2,7 @@
 layout: default
 title: Letermovir
 parent: 僅模型預測 (L5)
-nav_order: 511
+nav_order: 520
 evidence_level: L5
 indication_count: 1
 ---
@@ -33,14 +33,17 @@ indication_count: 1
 
 ## 一句話總結
 
-Letermovir 是一種抗巨細胞病毒（CMV）藥物，在香港以 PREVYMIS 之名上市。
-TxGNN 模型預測它可能對**外陰陰道念珠菌病 (Vulvovaginal Candidiasis)** 有效，但目前**沒有任何臨床試驗或文獻**支持這個方向，且機轉上找不到合理關聯。
+Letermovir 是一種抗巨細胞病毒（CMV）藥物，原本用於治療 CMV 感染。
+TxGNN 模型預測它可能對**外陰陰道念珠菌病 (Vulvovaginal Candidiasis)** 有效，
+但目前**沒有任何臨床試驗或文獻**支持這個方向，僅為模型預測。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 巨細胞病毒 (CMV) 感染（香港許可證資料未載明適應症文字，此為依藥理分類判斷） |
+| 原適應症 | 巨細胞病毒感染 (Cytomegalovirus infection) |
 | 預測新適應症 | 外陰陰道念珠菌病 (Vulvovaginal Candidiasis) |
 | TxGNN 預測分數 | 99.88% |
 | 證據等級 | L5 |
@@ -48,50 +51,67 @@ TxGNN 模型預測它可能對**外陰陰道念珠菌病 (Vulvovaginal Candidias
 | 許可證數 | 4 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-**目前看不出合理性。**
+目前缺乏詳細的作用機轉資料。就已知藥理而言，Letermovir 抑制 CMV DNA 終止酶複合體（pUL56/pUL51/pUL89），這個標的是疱疹病毒特有的，在念珠菌（真菌）中沒有已知的同源物。
 
-Letermovir 是 CMV 抗病毒藥，作用是抑制病毒 DNA 終止酶複合體（pUL56/UL89/UL51）。資料庫中沒有詳細的作用機轉紀錄，以上說明是依一般藥理知識補充，並非來自所提供的資料。
+因此，從現有資料看不出 Letermovir 具有抗黴菌活性的合理機轉。病毒感染與黴菌感染的病原體類型、藥物標的都不同，兩者之間缺乏直接的藥理關聯。
 
-念珠菌（如白色念珠菌）是真菌，沒有與這個病毒標靶同源的蛋白，Letermovir 也沒有已知的抗真菌活性。CMV 感染與念珠菌感染的病原體類型不同，兩者之間也沒有明顯的共通病理路徑。
+TxGNN 的高分（0.9988）來自知識圖譜的網路結構，並沒有任何試驗或文獻佐證。它可能反映的是網路假象，例如與其他抗感染藥物的共同關聯，或與免疫功能低下患者常見疾病的關聯，而非真正的藥理效果。這個預測應謹慎看待。
 
-因此，99.88% 的高分很可能是知識圖譜或嵌入向量的假象，例如來自共享的網路鄰居節點，而不是有生物學依據的訊號。這個分數不應被解讀為療效的支持證據。
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
 目前無相關文獻。
 
+---
+
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-66124 | PREVYMIS TABLETS 240MG | MERCK SHARP & DOHME (ASIA) LTD |
-| HK-66123 | PREVYMIS TABLETS 480MG | MERCK SHARP & DOHME (ASIA) LTD |
-| HK-66125 | PREVYMIS CONCENTRATE FOR SOLUTION FOR INFUSION 240MG/12ML | MERCK SHARP & DOHME (ASIA) LTD |
-| HK-66122 | PREVYMIS CONCENTRATE FOR SOLUTION FOR INFUSION 480MG/24ML | MERCK SHARP & DOHME (ASIA) LTD |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-66124 | PREVYMIS TABLETS 240MG | — | — |
+| HK-66125 | PREVYMIS CONCENTRATE FOR SOLUTION FOR INFUSION 240MG/12ML | — | — |
+| HK-66122 | PREVYMIS CONCENTRATE FOR SOLUTION FOR INFUSION 480MG/24ML | — | — |
+| HK-66123 | PREVYMIS TABLETS 480MG | — | — |
+
+以上 4 張許可證皆為單一成分製劑，狀態有效，持證商為 MERCK SHARP & DOHME (ASIA) LTD。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **藥物交互作用**：本報告彙整的資料共有 100 筆交互作用紀錄，以下為部分例子：
+  - **嚴重（Major）**：Eliglustat、Naloxegol、Cisapride
+  - **中度（Moderate）**：Hydrocortisone、Dexamethasone、Betamethasone、Budesonide、Triamcinolone、Omeprazole、Lansoprazole、Aprepitant、Clarithromycin、Pioglitazone、Glimepiride、Saxagliptin 等
+
+警語與禁忌症的資料不足，請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 這項預測只有模型分數支持（L5），沒有任何臨床試驗或文獻佐證。
-- 從藥理上看，抗 CMV 藥物對真菌沒有已知作用，模型的高分很可能是假象。
+- 預測僅來自模型分數，沒有任何臨床試驗或文獻佐證（證據等級 L5）。
+- Letermovir 的已知標的為病毒特有，對念珠菌沒有明確的藥理依據，高分很可能是知識圖譜的假象。
 
 **若要推進需要：**
-- 找出可支持的證據，例如體外抗念珠菌活性的前臨床資料，或任何相關臨床觀察。
-- 確認 TxGNN 給出高分的圖譜路徑，判斷是否為假象。
-- 取得香港衛生署仿單的警語與禁忌資料，才能進行安全性篩選。
-- 補齊詳細的作用機轉資料，以及原適應症的官方核准文字。
+- 補充作用機轉（MOA）資料，並確認是否有任何對真菌的活性依據
+- 進行體外抗念珠菌活性試驗，作為最基本的前臨床證據
+- 取得香港衛生署的仿單，補齊警語與禁忌症資料
+- 確認給藥途徑與劑型是否適用於陰道局部或全身治療
+- 在上述證據出現之前，不建議投入進一步開發資源
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

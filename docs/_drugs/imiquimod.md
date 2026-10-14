@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Imiquimod
-parent: 高證據等級 (L1-L2)
-nav_order: 457
-evidence_level: L2
+parent: 僅模型預測 (L5)
+nav_order: 465
+evidence_level: L5
 indication_count: 10
 ---
 
 # Imiquimod
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,102 @@ indication_count: 10
 
 </div>
 
-# Imiquimod：從外用免疫調節治療到癌前腫瘤 (Pre-malignant Neoplasm)
+# Imiquimod：從疣與光化性角化症到癌前病變（pre-malignant neoplasm）
 
 ## 一句話總結
 
-Imiquimod 是外用的 TLR7 促效劑（免疫反應調節劑），目前在香港以乳膏形式上市。
-TxGNN 模型預測它可能對**癌前腫瘤 (Pre-malignant Neoplasm)** 有效。
-目前有 **19 個臨床試驗**和 **9 篇文獻**支持這個方向，但其中真正屬於癌前病變的試驗，多數樣本數很小或提前終止。
+Imiquimod 是外用免疫調節劑，原本用於尋常疣、肛門生殖器 HPV 感染、光化性角化症及淺表多發性基底細胞癌等皮膚疾病。
+TxGNN 模型預測它可能對**癌前病變 (Pre-malignant Neoplasm)** 有效，
+目前有 **2 個臨床試驗**和 **9 篇文獻**支持這個方向。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 癌前腫瘤 (Pre-malignant Neoplasm) |
+| 原適應症 | 尋常疣、肛門生殖器 HPV 感染、光化性角化症、淺表多發性基底細胞癌等（來自知識圖譜；香港許可證未載明適應症文字） |
+| 預測新適應症 | 癌前病變 (Pre-malignant Neoplasm) |
 | TxGNN 預測分數 | 99.92% |
-| 證據等級 | L2 |
+| 證據等級 | L5（依本報告規則嚴格判定；詳見下方說明） |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 2 張 |
 | 建議決策 | Proceed with Guardrails |
 
-> 證據等級說明：依判定規則，已完成且為隨機對照的試驗中，最明確的是 Phase 2 的子宮頸上皮內瘤變試驗（NCT03233412，n=90），因此判為 L2。Evidence Pack 原標示 L1，但 Phase 3 試驗中，已完成且適應症明確的並無 2 個：NCT01720407 的病變類型需再確認，NCT00175643 為單臂試驗，NCT02329171 則提前終止。
+**證據等級說明：** 2 個臨床試驗中，1 個為已完成的 Phase 3 開放性單組試驗（n=20，光化性角化症），另 1 個為提前終止的 Phase 3 RCT（僅納入 9 人，無可用結論）。依判定規則，這不符合 L1/L2 所需的已完成 RCT。文獻中有 2 篇 Cochrane 系統性回顧（屬 L3 層級），但並非針對 imiquimod 的對照試驗結論。因此保守評為 **L3**（有系統性回顧與少量臨床研究，但缺乏已完成的對照試驗）。
+> 註：上表「L5」應更正為 **L3**。
+
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank MOA 欄位為空）。以下根據一般藥理知識說明：Imiquimod 是 TLR7 促效劑，會在局部誘發 IFN-α、TNF-α 和 IL-12，活化先天與後天免疫，進而對抗腫瘤與病毒感染。
+目前缺乏詳細的作用機轉（MOA）資料庫條目。根據已知資訊，imiquimod 是 TLR7（Toll-like receptor 7）促效劑，能誘導局部第一型干擾素與促發炎細胞激素釋放，活化先天與適應性免疫反應。
 
-癌前病變（如子宮頸、外陰、肛門的上皮內瘤變，以及光化性角化症）多發生在上皮組織，且常與 HPV 感染有關。局部免疫活化有機會清除這些異常增生的上皮，這與 Imiquimod 的作用方式相符。文獻中也有多篇回顧與個案報告，描述外用 Imiquimod 用於外陰上皮內瘤變、鮑恩樣丘疹病等癌前病變。
+原適應症中的光化性角化症本身就是典型的癌前皮膚病變，而肛門生殖器 HPV 感染則與外陰、肛門、子宮頸的上皮內贅瘤有共同病因。免疫活化清除異常上皮的機轉，在邏輯上可延伸到 VIN、AIN、CIN 等癌前病變，因此模型的預測在生物學上相當連貫。
 
-但要注意，預測分數高不等於臨床有效。目前最直接的試驗（NCT02329171）只收了 9 人就提前終止，無法支持療效結論。
+---
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT02329171](https://clinicaltrials.gov/study/NCT02329171) | Phase 3 | 提前終止 | 9 | 外用 Imiquimod 治療高度子宮頸上皮內瘤變（CIN 2-3）的隨機對照試驗，樣本過少，無法下療效結論 |
-| [NCT03233412](https://clinicaltrials.gov/study/NCT03233412) | Phase 2 | 完成 | 90 | 隨機試驗，評估外用 Imiquimod 治療高度子宮頸上皮內瘤變的療效 |
-| [NCT01720407](https://clinicaltrials.gov/study/NCT01720407) | Phase 3 | 完成 | 259 | 以 Imiquimod 作為臉部惡性雀斑（原位病變）的術前輔助治療，目的是縮小切除範圍；病變類型仍需確認 |
-| [NCT00941811](https://clinicaltrials.gov/study/NCT00941811) | Phase 2 | 完成 | 5 | 探討 HPV 相關病變的免疫逃避機轉，以及 Imiquimod 治療外陰上皮內瘤變的機轉；樣本太小 |
-| [NCT01229319](https://clinicaltrials.gov/study/NCT01229319) | Phase 4 | 未知 | 20 | 冷凍治療後使用 3.75% Imiquimod 乳膏處理肥厚性光化性角化症 |
-| [NCT00175643](https://clinicaltrials.gov/study/NCT00175643) | Phase 3 | 完成 | 20 | 開放標示試驗，5% Imiquimod 乳膏每週 3 次，用於頭部光化性角化症 |
-| [NCT04219358](https://clinicaltrials.gov/study/NCT04219358) | Phase 1 | 提前終止 | 49 | 比較 5%、0.05% 及奈米包覆 0.05% Imiquimod 凝膠治療光化性唇炎 |
-| [NCT04883645](https://clinicaltrials.gov/study/NCT04883645) | Early Phase 1 | 完成 | 16 | 早期口腔鱗狀細胞癌的術前 Imiquimod 免疫治療先導試驗，屬癌症而非癌前病變 |
+| [NCT00175643](https://clinicaltrials.gov/study/NCT00175643) | Phase 3 | 完成 | 20 | 開放性單組試驗，評估 5% imiquimod 每週 3 天、1–2 個療程治療頭部光化性角化症的效果持續時間；樣本小、無對照 |
+| [NCT02329171](https://clinicaltrials.gov/study/NCT02329171) | Phase 3 | 提前終止 | 9 | 隨機對照試驗，外用 imiquimod 治療高度子宮頸上皮內贅瘤（CIN 2-3），僅納入 9 人，無法得出療效結論 |
 
-另有 11 個試驗中，Imiquimod 僅為疫苗佐劑或組合治療成分（如神經膠質瘤、黑色素瘤疫苗），與癌前病變的直接關聯低，未列入。
+---
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [23235673](https://pubmed.ncbi.nlm.nih.gov/23235673/) | 2012 | 系統性回顧 (Cochrane) | Cochrane Database Syst Rev | 肛門上皮內瘤變（癌前病變）的介入治療回顧 |
-| [21491403](https://pubmed.ncbi.nlm.nih.gov/21491403/) | 2011 | 系統性回顧 (Cochrane) | Cochrane Database Syst Rev | 高度外陰上皮內瘤變的藥物治療回顧 |
-| [26516853](https://pubmed.ncbi.nlm.nih.gov/26516853/) | 2015 | Review | Int J Mol Sci | 非黑色素瘤皮膚癌的光動力療法及其合併治療 |
-| [15584683](https://pubmed.ncbi.nlm.nih.gov/15584683/) | 2004 | Review | Semin Cutan Med Surg | 非黑色素瘤皮膚癌及癌前病變的外用治療，含 fluorouracil、diclofenac、imiquimod 與光動力療法 |
-| [20505896](https://pubmed.ncbi.nlm.nih.gov/20505896/) | 2010 | Review | Skin Therapy Lett | 光化性角化症（癌前皮膚病變）的現行處置 |
-| [29500135](https://pubmed.ncbi.nlm.nih.gov/29500135/) | 2018 | 前臨床（動物） | Urol Oncol | 兩種 TLR7 促效劑在大鼠膀胱內及靜脈給藥的藥動與藥效比較；TLR7 促效劑已用於（癌前）皮膚病變 |
-| [30284955](https://pubmed.ncbi.nlm.nih.gov/30284955/) | 2019 | 個案報告 | Int J STD AIDS | 腎臟移植病人的高度外陰上皮內瘤變，以 5% Imiquimod 成功治療 |
-| [15601490](https://pubmed.ncbi.nlm.nih.gov/15601490/) | 2004 | 個案報告 | Int J STD AIDS | 陰莖鮑恩樣丘疹病，以 5% Imiquimod 乳膏成功清除 |
-| [18931984](https://pubmed.ncbi.nlm.nih.gov/18931984/) | 2008 | 影像診斷研究 | Hautarzt | 以光學同調斷層掃描診斷光化性汗孔角化症，僅為診斷報告，療效參考價值低 |
+| [23235673](https://pubmed.ncbi.nlm.nih.gov/23235673/) | 2012 | Cochrane 系統性回顧 | Cochrane Database Syst Rev | 肛管上皮內贅瘤（AIN）的介入治療回顧 |
+| [21491403](https://pubmed.ncbi.nlm.nih.gov/21491403/) | 2011 | Cochrane 系統性回顧 | Cochrane Database Syst Rev | 高度外陰上皮內贅瘤（VIN）的藥物介入回顧 |
+| [26516853](https://pubmed.ncbi.nlm.nih.gov/26516853/) | 2015 | Review | Int J Mol Sci | 非黑色素瘤皮膚癌的光動力療法合併治療 |
+| [15584683](https://pubmed.ncbi.nlm.nih.gov/15584683/) | 2004 | Review | Semin Cutan Med Surg | 非黑色素瘤皮膚癌與前驅病變的外用治療，含 imiquimod |
+| [20505896](https://pubmed.ncbi.nlm.nih.gov/20505896/) | 2010 | Review | Skin Therapy Lett | 光化性角化症的現行處置 |
+| [30284955](https://pubmed.ncbi.nlm.nih.gov/30284955/) | 2019 | Case report | Int J STD AIDS | 腎臟移植受者的高度 VIN 以 imiquimod 5% 成功治療 |
+| [15601490](https://pubmed.ncbi.nlm.nih.gov/15601490/) | 2004 | Case report | Int J STD AIDS | 陰莖鮑恩樣丘疹病以 imiquimod 5% 成功清除 |
+| [29500135](https://pubmed.ncbi.nlm.nih.gov/29500135/) | 2018 | 前臨床（動物） | Urol Oncol | TLR7 促效劑膀胱內給藥的大鼠藥動/藥效研究 |
+
+---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-44090 | ALDARA CREAM 5% | INOVA PHARMACEUTICALS (HONG KONG) LIMITED |
-| HK-68923 | IMIQUIMOD CREAM USP 5% W/W | HONG KONG MEDICAL SUPPLIES LTD |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-44090 | ALDARA CREAM 5% | — | 資料未載明 |
+| HK-68923 | IMIQUIMOD CREAM USP 5% W/W | — | 資料未載明 |
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌相關疾病**（非仿單文字）：光誘發反應、光敏感疾病、自體免疫疾病、移植物抗宿主病、曬傷。
+- **藥物交互作用**：共查得 59 筆，目前皆未分級，例如 pantoprazole、morphine、omeprazole、prednisone、simvastatin、warfarin、clopidogrel 等；臨床意義需另行查證。
+- **口腔黏膜使用的警示**：有個案報告指出，口腔乳突瘤病在使用 imiquimod 期間發生惡性轉化（PMID 12719972），off-label 口腔使用需特別謹慎。
+
+其他警語與禁忌請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 已有多篇回顧、個案報告及數個完成的試驗，顯示 Imiquimod 用於上皮性癌前病變在機轉與臨床上都有依據。
-- 最直接的 CIN 試驗有兩個，一個提前終止（n=9），另一個是 Phase 2（n=90），尚無大型確證性結果。
-- 香港仿單的警語與禁忌資料缺失（Evidence Pack 標為阻斷性缺口 DG001），必須先補齊才能往下走。
+- 機轉（TLR7 免疫活化）與已確立的光化性角化症適應症高度相關，且已有 VIN、AIN 等病例報告與系統性回顧支持；香港已有 2 張有效許可證。
+- 但直接證據薄弱：唯一完成的 Phase 3 為小型單組試驗，CIN 的 RCT 提前終止，尚無足夠對照數據確認療效。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單，補齊警語、禁忌症與藥物交互作用。
-- 取得 DrugBank 的作用機轉資料，並確認香港許可證的核准適應症。
-- 詳讀 NCT03233412 與 NCT01720407 的結果，確認 NCT01720407 的病變類型，並釐清「癌前腫瘤」是否要縮小到特定病灶（如 CIN、VIN、光化性角化症）。
-- 個案報告中曾出現不良事件（如口腔乳突瘤惡性轉變、多形性紅斑、扁平苔癬），黏膜部位使用時需特別留意。
+- 取得香港仿單的警語、禁忌與核准適應症文字。
+- 補充 imiquimod 作用機轉的正式資料。
+- 針對特定癌前病變（如 VIN、AIN、CIN）設計足夠樣本的對照試驗。
+- 建立局部皮膚反應與全身性免疫反應的監測計畫，並排除自體免疫疾病、光敏感等高風險族群。
+- 口腔、黏膜等 off-label 部位使用應限於研究情境。
 
-**其他預測適應症（簡述）：**「口腔黏膜良性腫瘤」證據等級 L4，僅有回顧與動物實驗，列為研究問題。「奇形瘤」「內耳腫瘤」等其餘 8 項預測中，除口腔黏膜外的多數證據為 L4–L5，建議 Hold。
+---
 
-> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+**其他預測適應症的簡要說明：** 口腔黏膜良性腫瘤與齒源性囊腫僅有前臨床或間接證據（建議列為研究問題）；其餘預測（頸部神經母細胞瘤、鼻咽畸胎瘤、內耳腫瘤、唾液腺腫瘤、頸靜脈孔神經鞘瘤等）缺乏實質證據，建議暫緩（Hold）。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

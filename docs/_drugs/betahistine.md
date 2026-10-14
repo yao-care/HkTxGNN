@@ -2,7 +2,7 @@
 layout: default
 title: Betahistine
 parent: 僅模型預測 (L5)
-nav_order: 111
+nav_order: 114
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ indication_count: 10
 
 </div>
 
-# Betahistine：從內耳眩暈（梅尼爾氏症）到不寧腿症候群
+# Betahistine：從梅尼爾氏症到周邊性眩暈
 
 ## 一句話總結
 
-Betahistine（倍他啶）是組織胺類似物，臨床上主要用於梅尼爾氏症與周邊性眩暈。TxGNN 模型預測它可能對**不寧腿症候群 (Restless Legs Syndrome)** 有效，但目前**沒有任何臨床試驗或文獻**支持這個方向，只有模型分數。
-
-> 註：香港許可證資料未載明核准適應症，上述原適應症是依本次檢索到的文獻與預測資料推斷。
+Betahistine 是組織胺類似物，原本用於梅尼爾氏症（Meniere disease）與內淋巴水腫的治療。
+TxGNN 模型預測的新適應症中，證據最完整的是**周邊性眩暈 (Peripheral Vertigo)**，目前有 **1 項已發表 RCT（BEMED）**、**2 篇 Cochrane 系統性回顧**與多篇文獻；但這大致仍屬於已核准的梅尼爾氏症／眩暈用途，並非真正的跨領域再利用，且已發表的療效證據並不一致。
 
 ---
 
@@ -43,21 +42,23 @@ Betahistine（倍他啶）是組織胺類似物，臨床上主要用於梅尼爾
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 註冊資料未載明（文獻顯示為梅尼爾氏症、周邊性眩暈） |
-| 預測新適應症 | 不寧腿症候群 (Restless Legs Syndrome) |
-| TxGNN 預測分數 | 98.51% |
-| 證據等級 | L5（僅有模型預測） |
+| 原適應症 | 梅尼爾氏症（Meniere disease）、內淋巴水腫（endolymphatic hydrops） |
+| 預測新適應症 | 周邊性眩暈 (Peripheral Vertigo) |
+| TxGNN 預測分數 | 98.07% |
+| 證據等級 | L1（依已發表 RCT 與 Cochrane 回顧判定；無登記臨床試驗） |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 11 張 |
-| 建議決策 | Hold |
+| 建議決策 | Proceed with Guardrails |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏 DrugBank 的詳細作用機轉資料。根據文獻，Betahistine 是弱的組織胺 H1 受體促效劑，同時是較強的 H3 受體拮抗劑（inverse agonist）。這會增加內耳微循環與組織胺的更新，並促進前庭代償。
+Betahistine 是組織胺 H1 受體的弱促效劑，同時是 H3 受體的強效拮抗劑／反向促效劑。目前認為它透過改善內耳微循環（如增加耳蝸血流），並透過組織胺調節促進中樞前庭代償，進而緩解眩暈。
 
-組織胺訊號在不寧腿症候群中曾被學界討論，這是預測在機轉上唯一的可能連結。但本次取得的資料中，**沒有記載任何具體的機轉證據**。原適應症（內耳與前庭疾病）與不寧腿症候群（神經系統的感覺運動障礙）在病理上差異很大。高分很可能只反映知識圖譜中的關聯，不代表實際療效。
+梅尼爾氏症本身就是周邊前庭疾病的一種，因此預測對周邊性眩暈有效，機轉上相當合理。Betahistine 已在多國用於梅尼爾氏症、良性陣發性姿勢性眩暈（BPPV）、前庭神經炎等周邊性眩暈。
+
+需要說明的是，這個預測**大致屬於既有適應症的延伸**，不是真正的新領域再利用。此外，BEMED 試驗與 Cochrane 回顧顯示相較於安慰劑的獲益有限或不一致，療效宣稱應保持審慎。
 
 ---
 
@@ -69,38 +70,32 @@ Betahistine（倍他啶）是組織胺類似物，臨床上主要用於梅尼爾
 
 ## 文獻證據
 
-目前無相關文獻。
-
----
-
-## 其他預測適應症概覽
-
-排名第一的預測缺乏證據，以下整理同一藥物其他預測適應症的證據狀況供參考。
-
-| 預測適應症 | TxGNN 分數 | 證據等級 | 證據摘要 | 建議 |
-|-----------|-----------|---------|---------|------|
-| 活動期梅尼爾氏症（耳蝸型／前庭型／耳蝸前庭型） | 98.34% | L3–L4 | 多為回顧文獻、動物與機轉研究、世代研究。BEMED 隨機對照試驗（[PMID 26797774](https://pubmed.ncbi.nlm.nih.gov/26797774/)）與 Cochrane 回顧（[PMID 36827524](https://pubmed.ncbi.nlm.nih.gov/36827524/)）的結果並不一致 | 前庭型：Proceed with Guardrails；其餘：Research Question |
-| 周邊性眩暈 | 98.07% | L2 | 有 Phase 2 RCT（[NCT03908567](https://clinicaltrials.gov/study/NCT03908567)，n=124，已完成），測試鼻內劑型 AM-125；另有統合分析與 Cochrane 回顧 | Proceed with Guardrails |
-| 良性陣發性姿勢性眩暈 (BPPV，對應「vertigo, benign recurrent, 2」) | 97.78% | L3 | 多為復位術加藥的小型研究，超越復位術本身的額外效益尚未證實。疾病對應不精確 | Research Question |
-| 耳硬化症 | 98.19% | L4 | 僅 2 篇回顧層級文獻 | Research Question |
-| 老年性聽力損失 | 97.93% | L5 | 無證據 | Hold |
-| Kir6.2 缺陷所致高胰島素血症、家族性高胰島素血症低血糖 | 97.77%、97.32% | L5 | 無證據，也無合理機轉，可能是知識圖譜的鄰近性假象 | Hold |
-
-需注意：梅尼爾氏症與周邊性眩暈在許多地區本來就是 Betahistine 的核准用途，因此**不算真正的老藥新用訊號**。
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [26797774](https://pubmed.ncbi.nlm.nih.gov/26797774/) | 2016 | RCT | BMJ | BEMED 試驗：長期、多中心、雙盲、安慰劑對照、劑量探討試驗；後續評論指出 betahistine 在減少眩暈發作次數上未顯著優於安慰劑 |
+| [36827524](https://pubmed.ncbi.nlm.nih.gov/36827524/) | 2023 | Cochrane 系統性回顧 | Cochrane Database Syst Rev | 評估 betahistine、利尿劑、抗病毒藥與類固醇等全身性藥物對梅尼爾氏症的效果 |
+| [27327415](https://pubmed.ncbi.nlm.nih.gov/27327415/) | 2016 | Cochrane 系統性回顧 | Cochrane Database Syst Rev | 評估 betahistine 相較安慰劑對各種原因眩暈症狀的效果 |
+| [23778722](https://pubmed.ncbi.nlm.nih.gov/23778722/) | 2014 | 統合分析 | Eur Arch Otorhinolaryngol | 12 項雙盲、隨機、安慰劑對照研究，探討 betahistine 對梅尼爾氏症與前庭性眩暈的反應 |
+| [12582782](https://pubmed.ncbi.nlm.nih.gov/12582782/) | 2003 | RCT | Eur Arch Otorhinolaryngol | 144 位梅尼爾氏症或陣發性姿勢性眩暈患者，雙盲安慰劑對照比較 betahistine 的療效與安全性 |
+| [41487075](https://pubmed.ncbi.nlm.nih.gov/41487075/) | 2026 | RCT | J Otolaryngol Head Neck Surg | 比較銀杏萃取物 EGb 761 與 betahistine 用於病因不明的頭暈／眩暈 |
+| [26245698](https://pubmed.ncbi.nlm.nih.gov/26245698/) | 2015 | Review | Acta Otolaryngol | 臨床研究與統合分析顯示 betahistine 對梅尼爾氏症、BPPV、前庭神經炎等周邊性眩暈有效且安全 |
+| [41038567](https://pubmed.ncbi.nlm.nih.gov/41038567/) | 2025 | 系統性回顧 | Acta Otorrinolaringol Esp | 比較 cinnarizine/dimenhydrinate 複方與 betahistine 治療眩暈的療效與安全性 |
+| [37000080](https://pubmed.ncbi.nlm.nih.gov/37000080/) | 2023 | 系統性回顧與統合分析 | Medicine | 評估 Epley 手法加 betahistine 用於後半規管 BPPV |
+| [24177346](https://pubmed.ncbi.nlm.nih.gov/24177346/) | 2013 | 評論 | J Vestib Res | 闡明 betahistine 緩解眩暈與促進前庭代償的作用機轉 |
 
 ---
 
 ## 香港上市資訊
 
-香港共有 11 張許可證，以下列出 5 張主要許可證。註冊資料未載明劑型與核准適應症，劑型依品名判斷為錠劑。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-37181 | BETASERC TAB 8MG | 錠劑 | 未提供 |
+| HK-38792 | BETASERC TAB 16MG | 錠劑 | 未提供 |
+| HK-51514 | BETASERC TAB 24MG | 錠劑 | 未提供 |
+| HK-49502 | BETA-SYNTO TAB 8MG | 錠劑 | 未提供 |
+| HK-45998 | ALFINOR 8 TAB 8MG | 錠劑 | 未提供 |
 
-| 許可證號 | 品名 | 廠商 | 劑型 |
-|---------|------|------|------|
-| HK-66795 | METERLON TABLETS 8MG | WELLDONE PHARMACEUTICALS LIMITED | 錠劑 |
-| HK-49502 | BETA-SYNTO TAB 8MG | CNW FAR EAST LIMITED | 錠劑 |
-| HK-38792 | BETASERC TAB 16MG | ABBOTT LAB LTD | 錠劑 |
-| HK-45998 | ALFINOR 8 TAB 8MG | STAR MEDICAL SUPPLIES LTD | 錠劑 |
-| HK-66796 | UNDIZZ TABLETS 16MG | WELLDONE PHARMACEUTICALS LIMITED | 錠劑 |
+共 11 張有效單方許可證，上表僅列出其中 5 張；其餘為 METERLON、UNDIZZ、EFORMAT、BETAHIST FORTE、JOYISH 等品牌。
 
 ---
 
@@ -112,19 +107,25 @@ Betahistine（倍他啶）是組織胺類似物，臨床上主要用於梅尼爾
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：Proceed with Guardrails**
 
 **理由：**
-- 不寧腿症候群的預測只有模型分數（98.51%），沒有臨床試驗、文獻，也沒有記載的機轉連結，證據等級僅 L5。
-- 香港仿單的警語與禁忌尚未取得，資料缺口 DG001 被標為 Blocking，無法進入安全性初篩。
+- 周邊性眩暈有已發表 RCT（BEMED）、Cochrane 回顧與統合分析支持，且 betahistine 已在香港上市，機轉合理。但這屬於既有用途的延伸，且 BEMED 與 Cochrane 顯示相較安慰劑的獲益有限或不一致，因此需審慎宣稱療效。
 
 **若要推進需要：**
-- 補充 Betahistine 與不寧腿症候群的機轉證據（例如組織胺 H3 訊號與多巴胺系統的關聯），並檢索是否有任何相關研究。
-- 下載並解析香港衛生署的仿單，補齊警語與禁忌症。
-- 補上 DrugBank 的作用機轉資料，並確認香港許可證的核准適應症。
-- 若要探討有實際證據的方向，可優先評估周邊性眩暈與前庭型梅尼爾氏症，但這兩者屬既有用途，不是新適應症。
+- 取得香港衛生署核准仿單，確認核准適應症、警語與禁忌症
+- 取得詳細的作用機轉資料（MOA）
+- 針對 BEMED 與 Cochrane 的不一致結果做進一步證據整合，並界定可能受益的亞群（如特定病因或劑量）
+- 若要在周邊性眩暈中主張特定適應症，需補充登記的臨床試驗證據
 
-*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經過臨床驗證才能應用。*
+**其他預測適應症備註：**
+- 活動期梅尼爾氏症（前庭型）：L3，Proceed with Guardrails；為梅尼爾氏症亞型，證據以回顧與觀察性研究為主。
+- 活動期梅尼爾氏症（耳蝸型）：L4，Hold；僅有機轉與前臨床研究（耳蝸血流）。
+- 活動期梅尼爾氏症（耳蝸前庭型）：L4，Hold；無專屬證據，僅為間接支持。
+- 良性復發性眩暈 2 型：L2，列為研究問題；證據多來自鄰近的 BPPV 研究。
+- 耳硬化症：L4，Hold；證據間接，至多緩解伴隨的前庭症狀。
+- 不寧腿症候群、老年性聽力損失：L5，Hold；僅有模型預測。
+- 高胰島素血症相關疾病（Kir6.2 缺乏、家族性高胰島素低血糖）：L5，Hold；無合理機轉連結，可能為知識圖譜的假關聯。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

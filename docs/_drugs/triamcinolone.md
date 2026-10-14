@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Triamcinolone
-parent: 中證據等級 (L3-L4)
-nav_order: 888
-evidence_level: L4
+parent: 僅模型預測 (L5)
+nav_order: 903
+evidence_level: L5
 indication_count: 10
 ---
 
 # Triamcinolone
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,93 @@ indication_count: 10
 
 </div>
 
-# Triamcinolone：從原適應症（許可證未載明）到黏蛋白性禿髮
+# Triamcinolone：從自體免疫與發炎性疾病到禿髮性黏蛋白症（Alopecia Mucinosa）
 
 ## 一句話總結
 
-Triamcinolone（曲安奈德）是一種皮質類固醇，香港目前有 20 張許可證。
-TxGNN 模型預測它可能對**黏蛋白性禿髮 (Alopecia Mucinosa，即毛囊黏蛋白病)** 有效，
-但目前**沒有臨床試驗**，只有 **4 篇文獻**（皆為個案報告或教育性題目），且沒有任何一篇顯示使用過 triamcinolone。
+Triamcinolone（去炎松）是一種強效糖皮質類固醇，原本用於自體免疫疾病、發炎性腸道疾病、腎上腺功能不全及相關血液腫瘤等適應症。
+TxGNN 模型預測它可能對**禿髮性黏蛋白症 (Alopecia Mucinosa)** 有效，但目前**沒有臨床試驗**，僅有 **2 篇個案報告**，且其中一篇討論的是 bexarotene 凝膠而非 triamcinolone，證據相當薄弱。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 黏蛋白性禿髮 (Alopecia Mucinosa) |
+| 原適應症 | 自體免疫疾病、克隆氏症／發炎性腸道疾病、腎上腺功能不全、先天性腎上腺增生等（來自知識圖譜；香港許可證未載明核准適應症文字） |
+| 預測新適應症 | 禿髮性黏蛋白症 (Alopecia Mucinosa) |
 | TxGNN 預測分數 | 99.99% |
-| 證據等級 | L4 |
+| 證據等級 | L4（僅有個案報告與機轉推論，無直接臨床證據） |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Triamcinolone 屬於糖皮質素類藥物，一般認為透過糖皮質素受體產生抗發炎與免疫抑制作用。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Triamcinolone 屬於強效糖皮質類固醇，具有抗發炎與免疫抑制作用，在多種自體免疫與發炎性疾病中的療效已被證實。
 
-毛囊黏蛋白病是一種毛囊發炎性疾病。對局部病灶，病灶內注射或外用類固醇在機轉上合理，因此模型給出高分。
+禿髮性黏蛋白症（毛囊黏蛋白症）的特徵是毛囊周圍淋巴球浸潤及黏蛋白沉積。因此，局部（病灶內注射或外用）類固醇在機轉上是合理的嘗試方向。
 
-不過，目前檢索到的文獻全是個案報告或教育性題目，唯一提到的治療是 bexarotene 凝膠，並未使用 triamcinolone。證據只是間接的。0.9999 的分數是模型預測，不是臨床證據。
+但需要強調：TxGNN 分數雖高，現有文獻僅為個案報告，且其中 2014 年的報告討論的是 bexarotene 凝膠，並非 triamcinolone。因此高分並未獲得針對此藥物的臨床證據支持。
+
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [23968145](https://pubmed.ncbi.nlm.nih.gov/23968145/) | 2014 | 個案報告 | International Journal of Dermatology | 以 bexarotene 凝膠成功治療持續性特發性毛囊黏蛋白病（非 triamcinolone） |
-| [4136515](https://pubmed.ncbi.nlm.nih.gov/4136515/) | 1974 | 個案報告 | Archives of Dermatology | 黏蛋白性禿髮合併神經毛囊變化（無摘要，未見 triamcinolone 資料） |
-| [14170262](https://pubmed.ncbi.nlm.nih.gov/14170262/) | 1964 | 個案報告 | Hifuka Kiyo. Acta Dermatologica | Pinkus 型黏蛋白性禿髮（毛囊黏蛋白病）一例（無摘要） |
-| [9917176](https://pubmed.ncbi.nlm.nih.gov/9917176/) | 1998 | 教育性題目 | European Journal of Dermatology | 毛囊黏蛋白病的臨床測驗題（無療效資料） |
+| [23968145](https://pubmed.ncbi.nlm.nih.gov/23968145/) | 2014 | 個案報告 | Int J Dermatol | 以 bexarotene 凝膠成功治療持續性特發性毛囊黏蛋白症，與 triamcinolone 無直接關係 |
+| [14170262](https://pubmed.ncbi.nlm.nih.gov/14170262/) | 1964 | 個案報告 | Hifuka kiyo. Acta dermatologica | 禿髮性黏蛋白症（Pinkus 型）個案，無摘要可供判讀 |
+
+---
 
 ## 香港上市資訊
 
-香港共有 20 張許可證，以下列出 5 張。資料中未載明劑型與核准適應症。
+香港共有 20 張有效單一成分許可證，皆為外用、口腔用或鼻用製劑。以下列出 5 張主要許可證；資料中未載明劑型與核准適應症。
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-53955 | MECOL ORABASE OINTMENT 1MG/G | WELLDONE PHARMACEUTICALS LIMITED |
-| HK-63140 | KOWELL ORABASE PASTE 0.1%W/W | WELLDONE PHARMACEUTICALS LIMITED |
-| HK-64378 | EURALOG PASTE 0.1% W/W | EUROPHARM LAB CO LTD |
-| HK-57710 | SUNBIN MEDICINE CREAM 0.1% | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED |
-| HK-18543 | LECORT IN ORAL BASE 0.1% | WILCOME PHARMACEUTICAL CO LTD |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-53955 | MECOL ORABASE OINTMENT 1MG/G | 資料未載明 | 資料未載明 |
+| HK-63140 | KOWELL ORABASE PASTE 0.1%W/W | 資料未載明 | 資料未載明 |
+| HK-64378 | EURALOG PASTE 0.1% W/W | 資料未載明 | 資料未載明 |
+| HK-57710 | SUNBIN MEDICINE CREAM 0.1% | 資料未載明 | 資料未載明 |
+| HK-65848 | APO-TRIAMCINOLONE AQ NASAL SPRAY 55MCG/DOSE | 資料未載明 | 資料未載明 |
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌相關疾病**（來自知識圖譜，非仿單內容）：高血壓、癲癇、肝臟疾病、膽囊疾病、高血糖、麻疹、充血性心衰竭、單純疱疹病毒角膜炎，以及多種腦下垂體功能低下相關疾病。
+- **藥物交互作用**：資料庫共記錄 100 筆，其中顯示者包括：
+  - 重大 (Major)：Adalimumab
+  - 中等 (Moderate)：Zidovudine、Isotretinoin、Acarbose、Acebutolol、Acetazolamide、Ketorolac、Nifedipine、Ibuprofen、Ethinylestradiol 等
+  - 輕微 (Minor)：Formoterol、Salbutamol
+
+仿單的警語與禁忌症資料尚未取得，詳細安全性資訊請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 目前只有模型預測加上無關 triamcinolone 的個案報告，無任何臨床試驗，證據等級為 L4。
-- 香港仿單的警語與禁忌資料尚未取得，無法進行安全性篩選。
+- 雖然 TxGNN 分數很高，但沒有任何臨床試驗，文獻僅有兩篇個案報告，其中一篇還是不同藥物，無法支持 triamcinolone 對此疾病的療效。
+- 此預測目前只能視為研究假說。
 
 **若要推進需要：**
-- 取得香港衛生署仿單，補齊警語、禁忌與核准適應症
-- 補充 DrugBank 的作用機轉資料
-- 針對 triamcinolone 與毛囊黏蛋白病做專題文獻搜尋，包含病灶內注射的個案或病例系列
-- 確認可用劑型與給藥途徑（目前香港許可證多為外用或口腔基質製劑，是否含注射劑型待確認）
-
-**補充：同一份預測清單中的其他候選**
-- 「Quinquaud 禿髮性毛囊炎 (Folliculitis Decalvans)」有 23 位病人的回顧性研究（PMID 25277850 與 25775663 疑為同一研究重複收錄），證據等級 L3，較值得優先做全文審閱。
-- 其餘候選（如 telogen effluvium、各類罕見遺傳性禿髮、類固醇抗性腎病症候群）多為僅有模型預測，部分甚至與疾病定義相衝突，建議維持 Hold。
-
-> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證後才能應用。
+- 系統性檢索 triamcinolone（尤其是病灶內注射）用於毛囊黏蛋白症的病例系列或回顧性研究
+- 取得香港仿單的警語與禁忌症，並補齊作用機轉資料
+- 確認劑型可行性（香港現有製劑多為外用、口腔用及鼻用，病灶內注射劑型是否可取得需另行確認）
+- 評估該病與皮膚 T 細胞淋巴瘤的關聯，並設計皮膚病理追蹤
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

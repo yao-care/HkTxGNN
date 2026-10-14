@@ -2,7 +2,7 @@
 layout: default
 title: Warfarin
 parent: 中證據等級 (L3-L4)
-nav_order: 929
+nav_order: 944
 evidence_level: L4
 indication_count: 7
 ---
@@ -29,18 +29,20 @@ indication_count: 7
 
 </div>
 
-# Warfarin：從抗凝血治療到肝素輔因子 II 缺乏症
+# Warfarin：從血栓性疾病到遺傳性血栓傾向（肝素輔因子 II 缺乏症）
 
 ## 一句話總結
 
-Warfarin 是口服抗凝血藥，在香港已有 4 張許可證上市。
-TxGNN 模型預測它可能對**肝素輔因子 II 缺乏症 (Heparin Cofactor 2 Deficiency)** 有效。
-目前**沒有臨床試驗**，只有 **5 篇文獻**（1 篇回顧、4 篇病例報告），證據偏弱。
+Warfarin（華法林）是口服維生素 K 拮抗型抗凝血劑，原本用於肺栓塞、血栓性疾病與顱內栓塞。
+TxGNN 模型預測它可能對**肝素輔因子 II 缺乏症 (Heparin Cofactor 2 Deficiency)** 有效，但目前僅有 **3 篇個案報告**，**沒有臨床試驗**支持。這類預測大多屬於既有血栓適應症的延伸，而非全新機轉。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 肺栓塞、血栓性疾病、顱內栓塞（來自知識圖譜；香港許可證未載明適應症文字） |
 | 預測新適應症 | 肝素輔因子 II 缺乏症 (Heparin Cofactor 2 Deficiency) |
 | TxGNN 預測分數 | 99.87% |
 | 證據等級 | L4 |
@@ -48,56 +50,85 @@ TxGNN 模型預測它可能對**肝素輔因子 II 缺乏症 (Heparin Cofactor 2
 | 許可證數 | 4 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Warfarin 會降低維生素 K 依賴性凝血因子，這是已知的抗凝血機轉，也是長期預防血栓的常用選項。
+目前缺乏詳細的作用機轉資料。依藥理學常識，Warfarin 抑制維生素 K 依賴的凝血因子（II、VII、IX、X）合成，從而降低血栓形成風險。
 
-肝素輔因子 II 的功能是抑制凝血酶，缺乏時會形成遺傳性血栓傾向。這類病人發生血栓後，需要長期抗凝血治療，所以 warfarin 在機轉上合理。
+肝素輔因子 II 缺乏症是一種遺傳性血栓傾向，患者容易反覆發生靜脈或心臟內血栓。Warfarin 的作用位於凝血抑制物的下游，因此在這類患者作為血栓後的長期預防用藥，機轉上說得通。
 
-不過這更接近抗凝血藥的常規使用，不算典型的老藥新用。目前支持證據只有病例報告與家族報告，沒有對照試驗，也無法確認療效。
+不過這與 Warfarin 已核准的血栓性疾病適應症屬同一機轉，較像是**既有適應症類別內的延伸**，而非真正的新機轉再利用。
+
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [11177584](https://pubmed.ncbi.nlm.nih.gov/11177584/) | 2001 | Review | AIDS Patient Care STDs | 回顧 HIV 感染者的血栓事件與高凝血狀態，包括抗凝血蛋白缺乏 |
-| [3778142](https://pubmed.ncbi.nlm.nih.gov/3778142/) | 1986 | 實驗室方法 | Arch Pathol Lab Med | 建立肝素輔因子 II 的檢測方法；肝病、消耗性凝血病、子癇前症會出現低值 |
-| [2214444](https://pubmed.ncbi.nlm.nih.gov/2214444/) | 1990 | Case report | Kyobu Geka | 14 歲女性家族性肝素輔因子 II 缺乏，右心室血栓，經手術取出 |
-| [2033902](https://pubmed.ncbi.nlm.nih.gov/2033902/) | 1991 | Case report | Nihon Kyobu Shikkan Gakkai Zasshi | 48 歲女性反覆血栓與肺梗塞，使用 warfarin 7 年，住院後改用低劑量 heparin |
-| [11570053](https://pubmed.ncbi.nlm.nih.gov/11570053/) | 2001 | Case report（家族） | J UOEH | 一個多發血栓家族，其中一名兒童給予 warfarin 後仍再發深部靜脈栓塞 |
+| [2214444](https://pubmed.ncbi.nlm.nih.gov/2214444/) | 1990 | 個案報告 | Kyobu Geka | 14 歲女性家族性肝素輔因子 II 缺乏，右心室出現血栓 |
+| [2033902](https://pubmed.ncbi.nlm.nih.gov/2033902/) | 1991 | 個案報告 | Nihon Kyobu Shikkan Gakkai Zasshi | 先天性抗凝血酶缺乏併肺梗塞，曾使用 Warfarin 治療 7 年 |
+| [11570053](https://pubmed.ncbi.nlm.nih.gov/11570053/) | 2001 | 個案報告（家族） | Journal of UOEH | 家族多發血栓，患童開始 Warfarin 後仍再發深層靜脈血栓 |
+
+這些報告僅描述病例，無法證明 Warfarin 對此疾病的療效。
+
+---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-41422 | WARFARIN TAB 3MG (TEVA) | TEVA Pharmaceutical Hong Kong Limited |
-| HK-61443 | ORFARIN TABLETS 3MG | Hong Kong Medical Supplies Ltd |
-| HK-41423 | WARFARIN TAB 5MG (TEVA) | TEVA Pharmaceutical Hong Kong Limited |
-| HK-41421 | WARFARIN TAB 1MG (TEVA) | TEVA Pharmaceutical Hong Kong Limited |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-41422 | WARFARIN TAB 3MG (TEVA) | — | 資料未載明 |
+| HK-61443 | ORFARIN TABLETS 3MG | — | 資料未載明 |
+| HK-41423 | WARFARIN TAB 5MG (TEVA) | — | 資料未載明 |
+| HK-41421 | WARFARIN TAB 1MG (TEVA) | — | 資料未載明 |
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（非仿單文字）：高血壓、肝衰竭／肝病、膽囊疾病、充血性心衰竭、甲狀腺功能低下、腎病症候群、腎功能不全、精神疾病、結締組織疾病、骨病、物質濫用／依賴、凝血疾病、高血脂、貧血、膽汁鬱積、慢性腹瀉等。
+- **藥物交互作用**：共查得 100 筆，以下為部分示例。
+  - **嚴重（Major）**：乙醯水楊酸（Aspirin）、Metronidazole
+  - **中度（Moderate）**：Ranitidine、Rabeprazole、Doxycycline、Hydrocortisone、Dexamethasone、Metformin、Amoxicillin、Bupropion、Aprepitant 等
+
+詳細警語與禁忌請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高，但支持證據僅有病例與家族報告，沒有臨床試驗。其中一例在使用 warfarin 期間仍再發血栓，也無法證明療效。
-- 這個適應症與 warfarin 的抗凝血本業高度重疊，新增的研究價值有限。
+- 證據僅限於 3 篇個案報告，無臨床試驗，且個案中甚至有 Warfarin 治療下仍再發血栓的情形。
+- 此預測屬既有血栓適應症的延伸，新增價值有限。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單，確認核准適應症、警語與禁忌症
-- 補充作用機轉資料（可查詢 DrugBank）
-- 在遺傳性血栓傾向族群中，收集 warfarin 的療效與出血風險資料
-- 若要優先評估，可考慮同一份預測清單中的**血栓傾向 (Thrombophilia)**。該項有 1 個 Phase 3 試驗與多篇回顧文獻（證據等級 L2），但試驗是否直接針對 warfarin 尚未確認
+- 取得 Warfarin 的作用機轉資料與香港仿單（警語、禁忌、核准適應症）
+- 針對肝素輔因子 II 缺乏症的族群，進行回溯性世代研究或系統性回顧，評估 Warfarin 的療效與出血風險
+- 與現行指引及直接口服抗凝血劑（DOAC）比較，釐清其臨床定位
 
-> 本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。
+---
+
+### 附註：其他預測適應症（供參考）
+
+| 排名 | 預測適應症 | 分數 | 證據等級 | 決策 | 說明 |
+|------|-----------|------|---------|------|------|
+| 2 | 第五因子過多伴自發性血栓 | 99.84% | L5 | Hold | 無試驗或文獻，僅有模型預測 |
+| 3 | 抗凝血酶缺乏症第 2 型 | 99.84% | L4 | Hold | 僅有 1 篇個案報告，未顯示療效 |
+| 4 | 血栓傾向 (Thrombophilia) | 99.75% | L2 | Research Question | 有 1 個 Phase 3 試驗（NCT00895505，D-dimer 引導延長預防，狀態不明、無結果），間接相關，主要為既有適應症延伸 |
+| 5 | 類風濕性關節炎 | 99.21% | L4 | Hold | 4 個 Phase 1 試驗皆為藥物交互作用研究，無療效證據 |
+| 6 | 乳房纖維囊腫 | 99.20% | L5 | Hold | 僅有 Danazol 交互作用個案，分數可能反映交互作用訊號 |
+| 7 | 良性乳腺發育不良 | 99.10% | L5 | Hold | 上一項的同義詞，可能是知識圖譜的假象 |
+
+其中**類風濕性關節炎**及**乳房疾病**的高分很可能來自藥物交互作用的共現訊號，而非療效，不建議作為再利用方向。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

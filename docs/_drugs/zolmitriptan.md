@@ -2,7 +2,7 @@
 layout: default
 title: Zolmitriptan
 parent: 中證據等級 (L3-L4)
-nav_order: 944
+nav_order: 959
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,18 +29,19 @@ indication_count: 3
 
 </div>
 
-# Zolmitriptan：從急性偏頭痛到腦幹先兆偏頭痛
+# Zolmitriptan：從偏頭痛到腦幹先兆偏頭痛
 
 ## 一句話總結
 
-Zolmitriptan 是 5-HT1B/1D 受體促效劑（triptan 類），文獻顯示其用於偏頭痛急性期治療。
-TxGNN 模型預測它可能對**腦幹先兆偏頭痛 (Migraine with Brainstem Aura)** 有效，但目前**沒有臨床試驗**，只有 **18 篇間接文獻**，且沒有一篇直接在此亞型測試 zolmitriptan。
+Zolmitriptan 是 5-HT1B/1D 受體促效劑（triptan 類藥物），原本用於偏頭痛的急性治療。
+TxGNN 模型預測它可能對**腦幹先兆偏頭痛 (Migraine with Brainstem Aura)** 有效，
+目前**沒有直接的臨床試驗**，僅有 **20 篇間接文獻**（多為一般偏頭痛的回顧與研究）。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 急性偏頭痛（依文獻判斷；香港許可證未提供適應症文字） |
+| 原適應症 | 偏頭痛（Migraine disorder） |
 | 預測新適應症 | 腦幹先兆偏頭痛 (Migraine with Brainstem Aura) |
 | TxGNN 預測分數 | 99.99% |
 | 證據等級 | L4 |
@@ -48,18 +49,15 @@ TxGNN 模型預測它可能對**腦幹先兆偏頭痛 (Migraine with Brainstem A
 | 許可證數 | 2 張 |
 | 建議決策 | Hold |
 
+> 註：香港許可證資料中未載明核准適應症文字，「原適應症」係根據知識圖譜的適應症資料。
+
 ## 為什麼這個預測合理？
 
-DrugBank 的作用機轉欄位目前缺資料。不過文獻摘要指出，zolmitriptan 是選擇性 5-HT1B/1D 受體促效劑，臨床前研究顯示它能同時抑制中樞與周邊的三叉神經血管活化。大型隨機對照試驗顯示，它對一般偏頭痛的 2 小時緩解率與無痛率良好。
+目前缺乏詳細的作用機轉資料（原廠資料未收錄）。不過，根據前臨床藥理文獻（PMID 9399012），Zolmitriptan 是一種中樞與周邊皆有作用的 5-HT1B/1D 受體促效劑，能抑制三叉神經血管系統的活化。
 
-腦幹先兆偏頭痛屬於偏頭痛亞型，所以從機轉上看，模型預測有生物學上的合理性。
+腦幹先兆偏頭痛是偏頭痛的一種亞型，與一般偏頭痛有相同的三叉神經血管病理生理基礎，因此 TxGNN 的預測在生物學上有一定合理性。
 
-但這不是乾淨的老藥新用機會，原因有三：
-- 現有文獻談的是一般偏頭痛、兒童偏頭痛、其他 triptan（frovatriptan、eletriptan）和臨床前藥理，沒有針對腦幹先兆的 zolmitriptan 研究。
-- 此藥本來就用於偏頭痛，新適應症與原適應症高度重疊，新增價值有限。
-- triptan 類仿單通常把偏癱型或基底型偏頭痛列為禁忌或警示，原因是理論上有血管收縮疑慮。這一點需對照香港現行仿單確認。
-
-另外兩個預測（萎縮性蚓狀皮膚病 atrophoderma vermiculata、眉部毛囊性紅斑 ulerythema ophryogenesis）預測分數都很高（99.90%、99.83%）。但兩者都找不到機轉關聯、沒有任何試驗或文獻，證據等級皆為 L5，很可能是知識圖譜的假象，不建議推進。
+**但必須特別注意：** triptan 類藥物在此亞型（舊稱基底型偏頭痛）上，歷來有慎用或禁用的考量，理論上是擔心後循環血管收縮。目前提供的資料中，沒有任何試驗直接檢驗這個亞型。現有文獻包含一般偏頭痛回顧、美國頭痛學會（AHS）證據評估、經期與前庭性偏頭痛回顧，以及一篇經顱都卜勒研究，全部屬於間接證據。
 
 ## 臨床試驗證據
 
@@ -67,47 +65,59 @@ DrugBank 的作用機轉欄位目前缺資料。不過文獻摘要指出，zolmi
 
 ## 文獻證據
 
+以下依類型優先順序列出代表性文獻（皆為間接證據，無直接針對腦幹先兆偏頭痛的研究）：
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [27329280](https://pubmed.ncbi.nlm.nih.gov/27329280/) | 2016 | RCT | Headache | TEENZ 試驗（NCT01211145）：評估 zolmitriptan 鼻噴劑用於 12–17 歲青少年偏頭痛急性治療，主要終點為 2 小時無痛率（偏頭痛一般族群，非腦幹先兆） |
-| [22644173](https://pubmed.ncbi.nlm.nih.gov/22644173/) | 2012 | RCT 次族群分析 | Neurol Sci | frovatriptan 與 zolmitriptan 2.5 mg 用於有先兆偏頭痛的比較，僅 18 位受試者（一般先兆，非腦幹先兆） |
-| [18624801](https://pubmed.ncbi.nlm.nih.gov/18624801/) | 2008 | 隨機研究 | Cephalalgia | 36 位早期異常性疼痛的偏頭痛患者隨機分入六種 triptan 組，比較疼痛減輕程度 |
-| [11903526](https://pubmed.ncbi.nlm.nih.gov/11903526/) | 2001 | 臨床報告 | Headache | 報告 triptan 用於基底型偏頭痛與長時間先兆偏頭痛的經驗（最接近目標適應症，但摘要未載明具體藥物與結果） |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | 指引／證據評估 | Headache | 美國頭痛學會對成人偏頭痛急性治療藥物的證據評估 |
-| [25916333](https://pubmed.ncbi.nlm.nih.gov/25916333/) | 2015 | 統合分析 | J Headache Pain | frovatriptan 與 rizatriptan、zolmitriptan、almotriptan 在有先兆偏頭痛的療效比較 |
-| [12083998](https://pubmed.ncbi.nlm.nih.gov/12083998/) | 2002 | Review | Expert Opin Pharmacother | zolmitriptan 為 5-HT1B/1D 促效劑，隨機對照試驗顯示 2 小時反應率與無痛率良好 |
-| [10473025](https://pubmed.ncbi.nlm.nih.gov/10473025/) | 1999 | Review | Drugs | 2.5 mg 與 5 mg 口服起效快，45 分鐘即可見明顯緩解，多數反應者療效可維持 |
-| [9399012](https://pubmed.ncbi.nlm.nih.gov/9399012/) | 1997 | 臨床前藥理 | Cephalalgia | 兼具 5HT1B/1D 部分促效作用，可抑制中樞與周邊三叉神經血管活化 |
-| [25538676](https://pubmed.ncbi.nlm.nih.gov/25538676/) | 2014 | Review | Front Neurol | 前庭型偏頭痛現有治療選項回顧（相關亞型，非腦幹先兆） |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Review | Headache | 美國頭痛學會對成人偏頭痛急性藥物治療的證據評估 |
+| [12083998](https://pubmed.ncbi.nlm.nih.gov/12083998/) | 2002 | Review | Expert Opin Pharmacother | 隨機對照試驗顯示 Zolmitriptan 在 2 小時緩解率與無痛率上有良好療效，也改善噁心、畏光、畏聲 |
+| [10473025](https://pubmed.ncbi.nlm.nih.gov/10473025/) | 1999 | Review | Drugs | 2.5 與 5 mg 起效快（45 分鐘可見頭痛緩解），療效顯著優於安慰劑 |
+| [25916333](https://pubmed.ncbi.nlm.nih.gov/25916333/) | 2015 | Review（統合分析） | J Headache Pain | 比較 frovatriptan 與 zolmitriptan 等 triptan 在有先兆偏頭痛的療效；先兆期服藥多半無效 |
+| [22644173](https://pubmed.ncbi.nlm.nih.gov/22644173/) | 2012 | 隨機交叉試驗次群組分析 | Neurol Sci | 18 位有先兆偏頭痛患者中比較 frovatriptan 與 zolmitriptan 2.5 mg（樣本小） |
+| [12864759](https://pubmed.ncbi.nlm.nih.gov/12864759/) | 2003 | 臨床研究 | Headache | 以經顱都卜勒觀察口服 zolmitriptan 或 sumatriptan 治療前後的顱內血流速度變化 |
+| [9399012](https://pubmed.ncbi.nlm.nih.gov/9399012/) | 1997 | 前臨床 | Cephalalgia | Zolmitriptan 為中樞與周邊皆有作用的 5-HT1B/1D 促效劑 |
+| [25538676](https://pubmed.ncbi.nlm.nih.gov/25538676/) | 2014 | Review | Front Neurol | 前庭性偏頭痛的現有治療選項 |
+| [27910087](https://pubmed.ncbi.nlm.nih.gov/27910087/) | 2017 | Review | Headache | 經期偏頭痛的治療選項 |
+| [22298171](https://pubmed.ncbi.nlm.nih.gov/22298171/) | 2012 | 個案報告 | Cardiol J | Zolmitriptan 誘發急性心肌梗塞的個案（安全性警訊） |
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-62233 | PMS-ZOLMITRIPTAN TABLETS 2.5MG | TRENTON-BOMA LTD |
-| HK-43324 | ZOMIG TAB 2.5MG | DKSH HONG KONG LIMITED |
-
-兩張許可證在資料中都沒有劑型與核准適應症文字。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-62233 | PMS-ZOLMITRIPTAN TABLETS 2.5MG | 錠劑（依品名） | 資料未載明 |
+| HK-43324 | ZOMIG TAB 2.5MG | 錠劑（依品名） | 資料未載明 |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。藥物交互作用查詢未找到資料。
+- **知識圖譜標示的禁忌疾病**（非仿單原文，僅供參考）：
+  - 心血管：高血壓、冠狀動脈疾病、心肌梗塞、心肌缺血、變異型心絞痛（Prinzmetal angina）、Wolff-Parkinson-White 症候群
+  - 腦血管：中風、腦梗塞、短暫性腦缺血發作、腦缺血、椎基底動脈循環不全、顱內動脈硬化
+  - 周邊血管：周邊動脈疾病、間歇性跛行、雷諾氏病、缺血性腸病
+  - 其他：腎臟疾病、肝臟疾病、膽囊疾病、血紅素病變
+  - **偏癱型偏頭痛（家族性或偶發性）**
+- **藥物交互作用**：共 82 筆，其中重要者為 **Major** 等級：
+  - 血清素相關藥物：Lorcaserin、Dexfenfluramine、Fenfluramine、Sibutramine
+  - 5-HT3 拮抗劑：Dolasetron、Palonosetron、Ondansetron、Granisetron
+  - **Moderate** 等級：Morphine、Cimetidine、Obeticholic acid
+- **與本預測特別相關**：triptan 在腦幹先兆偏頭痛的後循環血管收縮疑慮，以及上述腦血管缺血類禁忌，是此適應症最需優先釐清的風險。
+
+香港仿單的警語與禁忌資料尚未取得，請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- TxGNN 分數很高，但沒有任何臨床試驗，也沒有針對腦幹先兆的 zolmitriptan 研究，證據只到 L4。
-- triptan 類對此亞型可能有禁忌或警示，在安全性釐清前不宜推進。
+- 預測分數雖高，但完全沒有直接臨床試驗，證據僅為間接文獻（L4）。
+- Triptan 在此亞型有歷史性的安全疑慮（後循環血管收縮），且知識圖譜中另有多項腦血管缺血相關禁忌，在釐清安全性前不宜推進。
 
 **若要推進需要：**
-- 取得香港衛生署核准的仿單，確認警語與禁忌症，特別是基底型與偏癱型偏頭痛。此項是目前的阻擋性資料缺口。
-- 補齊 DrugBank 的作用機轉資料。
-- 搜尋並評估 zolmitriptan 或其他 triptan 在腦幹先兆偏頭痛的直接證據，包括病例報告與安全性資料。
-- 評估此預測相對於現有偏頭痛適應症的實際新增價值。
+- 取得香港仿單的警語與禁忌資料，確認腦幹先兆偏頭痛是否列為禁忌或慎用
+- 補充 Zolmitriptan 的詳細作用機轉資料
+- 系統性搜尋 triptan 用於腦幹先兆（基底型）偏頭痛的直接證據與安全性報告
+- 如要研究，需先設計嚴格的安全性監測方案（含心腦血管風險篩選）
 
-*本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。*
+另外，本次預測中排名第 2、3 的「atrophoderma vermiculata」與「ulerythema ophryogenesis」皆無臨床試驗與文獻，也找不到合理的機轉連結，屬純計算預測，建議維持 Hold。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

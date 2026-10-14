@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Flunarizine
-parent: 高證據等級 (L1-L2)
-nav_order: 379
-evidence_level: L2
+parent: 僅模型預測 (L5)
+nav_order: 385
+evidence_level: L5
 indication_count: 1
 ---
 
 # Flunarizine
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,14 +29,14 @@ indication_count: 1
 
 </div>
 
-# Flunarizine：從（原適應症資料缺漏）到偏頭痛
+# Flunarizine：從（原適應症資料未提供）到偏頭痛
 
 ## 一句話總結
 
-Flunarizine 是一種鈣離子通道阻斷劑，在香港已有 9 張許可證，但本次資料中缺少原適應症與作用機轉。
+Flunarizine 是一種鈣離子通道阻斷劑，香港已有多張單方許可證，但本報告所用資料未記載其核准適應症。
 TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
-目前有 **19 個臨床試驗**和 **20 篇文獻**支持這個方向，其中多項為與其他預防藥物的直接比較。
-值得注意的是，Flunarizine 在多國本來就是偏頭痛預防用藥，這可能不是真正的「新用途」。
+目前有 **13 個臨床試驗**和 **20 篇文獻**支持這個方向。
+需要說明的是，flunarizine 在許多地區本來就是偏頭痛預防用藥，因此這項預測更像是對既有用途的確認，而非真正的新適應症。
 
 ---
 
@@ -44,10 +44,9 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未提供（香港許可證的核准適應症欄位皆為空白） |
 | 預測新適應症 | 偏頭痛 (Migraine Disorder) |
 | TxGNN 預測分數 | 99.12% |
-| 證據等級 | L2 |
+| 證據等級 | L1（資料庫評定；但詳見下方說明） |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 9 張 |
 | 建議決策 | Proceed with Guardrails |
@@ -56,34 +55,30 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏 DrugBank 記載的詳細作用機轉資料。根據一般藥理知識，Flunarizine 是非選擇性鈣離子通道阻斷劑（T 型與 L 型），另有鈉離子通道阻斷，以及抗組織胺與多巴胺 D2 拮抗作用。以下機轉說明來自通用藥理知識，並非本次資料紀錄。
+Flunarizine 是二苯哌嗪類（diphenylpiperazine）鈣離子通道阻斷劑，同時具有組織胺 H1 拮抗與多巴胺 D2 阻斷活性。藥理資料也顯示它作用於 D2 受體及 T 型鈣離子通道（Cav3.1、Cav3.2、Cav3.3）。它能抑制神經元鈣離子過載，降低皮質擴散性抑制（cortical spreading depression）的易感性。皮質擴散性抑制被認為是偏頭痛前兆的生理基礎，也是三叉神經血管系統活化的誘因，因此這個機轉直接支持偏頭痛預防用途。
 
-這些作用可能降低皮質擴散性抑制（cortical spreading depression）與神經元過度興奮，而這兩者與偏頭痛的病理生理有關。因此機轉上支持 TxGNN 的高分預測。
+目前缺乏詳細的藥物層級作用機轉紀錄，以上機轉說明依據已知藥理學，而非本報告所用的資料記錄。
 
-另外，多項試驗與文獻把 Flunarizine 當成偏頭痛預防的標準用藥或對照組，歐洲頭痛聯盟（EHF）也有專門針對 Flunarizine 的統合分析。這顯示它可能早已是既有適應症，而非嚴格意義上的老藥新用。
+偏頭痛預防是 flunarizine 在多個國家的主要用途，多篇文獻也將它列為預防性用藥的首選之一。不過本報告資料中，香港許可證的核准適應症欄位皆為空白，無法確認本地標示的適應症。
 
 ---
 
 ## 臨床試驗證據
 
-本次資料共 19 個試驗，以下列出與 Flunarizine 最相關的 10 個：
-
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT02639598](https://clinicaltrials.gov/study/NCT02639598) | Phase 4 | 完成 | 62 | Flunarizine 10 mg/日 vs Topiramate 50 mg/日，用於慢性偏頭痛預防 |
-| [NCT03712917](https://clinicaltrials.gov/study/NCT03712917) | NA | 完成 | 120 | 比較枕大神經阻斷、Topiramate 與 Flunarizine 用於陣發性偏頭痛 |
-| [NCT06162819](https://clinicaltrials.gov/study/NCT06162819) | NA | 未知 | 84 | Flunarizine vs Amitriptyline 用於偏頭痛預防（巴基斯坦） |
-| [NCT07354126](https://clinicaltrials.gov/study/NCT07354126) | NA | 招募中 | 44 | Flunarizine vs Propranolol 用於兒童偏頭痛（PedMIDAS） |
-| [NCT06499116](https://clinicaltrials.gov/study/NCT06499116) | Phase 4 | 尚未招募 | 460 | 基層醫療中比較 Amitriptyline、Flunarizine、Topiramate、Propranolol 的預防效果 |
-| [NCT04064814](https://clinicaltrials.gov/study/NCT04064814) | Phase 4 | 完成 | 60 | 青少年偏頭痛預防，加上 α-硫辛酸的療效與安全性 |
-| [NCT03828539](https://clinicaltrials.gov/study/NCT03828539) | Phase 4 | 完成 | 777 | Erenumab vs Topiramate；受試者需曾使用或不適用 Flunarizine 等預防藥 |
-| [NCT06753825](https://clinicaltrials.gov/study/NCT06753825) | NA | 進行中（不再招募） | 60 | 經皮脈衝射頻 vs 鈣離子通道阻斷劑，用於兒童偏頭痛 |
-| [NCT07068815](https://clinicaltrials.gov/study/NCT07068815) | Phase 1 | 尚未招募 | 60 | 傅氏皮下針療法 vs Flunarizine，用於無先兆偏頭痛 |
-| [NCT00752466](https://clinicaltrials.gov/study/NCT00752466) | Phase 1 | 完成 | 75 | Flunarizine 與 Topiramate 併用的藥物動力學交互作用研究 |
+| [NCT02639598](https://clinicaltrials.gov/study/NCT02639598) | Phase 4 | 完成 | 62 | Flunarizine 10 mg/日 vs topiramate 50 mg/日用於慢性偏頭痛預防 |
+| [NCT03712917](https://clinicaltrials.gov/study/NCT03712917) | N/A | 完成 | 120 | 比較枕大神經阻斷、topiramate 與 flunarizine 用於陣發性偏頭痛 |
+| [NCT06499116](https://clinicaltrials.gov/study/NCT06499116) | Phase 4 | 尚未招募 | 460 | 基層醫療中 amitriptyline、flunarizine、topiramate、propranolol 的預防效果比較 |
+| [NCT07655700](https://clinicaltrials.gov/study/NCT07655700) | Phase 4 | 尚未招募 | 177 | Propranolol、flunarizine 及兩者合併用於偏頭痛預防 |
+| [NCT07354126](https://clinicaltrials.gov/study/NCT07354126) | N/A | 招募中 | 44 | Flunarizine vs propranolol 用於兒童偏頭痛（PedMIDAS） |
+| [NCT06162819](https://clinicaltrials.gov/study/NCT06162819) | N/A | 未知 | 84 | Flunarizine vs amitriptyline 用於偏頭痛預防 |
+| [NCT07751497](https://clinicaltrials.gov/study/NCT07751497) | Phase 2 | 尚未招募 | 400 | Rimegepant vs flunarizine 用於前庭性偏頭痛預防（非劣性） |
+| [NCT04766762](https://clinicaltrials.gov/study/NCT04766762) | N/A | 未知 | 96 | 針灸治療無預兆偏頭痛；flunarizine 為既有治療選項 |
+| [NCT00752466](https://clinicaltrials.gov/study/NCT00752466) | Phase 1 | 完成 | 75 | Flunarizine 與 topiramate 的藥物動力學交互作用研究（無療效資料） |
+| [NCT07068815](https://clinicaltrials.gov/study/NCT07068815) | Phase 1 | 尚未招募 | 60 | 傅氏皮下針 vs flunarizine 用於無預兆偏頭痛 |
 
-**說明：**
-- 多數試驗為 Phase 4 或 NA，且缺乏已公布的結果，因此無法確認療效大小。
-- 另有 NCT00740259（Flunarizine 用於思覺失調症）等試驗與偏頭痛無關，未列入。
+> 另有數個試驗（如 NCT04702971、NCT02747940、NCT04064814、NCT06753825、NCT02580968）與 flunarizine 療效的關聯較間接，未列入。
 
 ---
 
@@ -91,16 +86,16 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [37723437](https://pubmed.ncbi.nlm.nih.gov/37723437/) | 2023 | 統合分析 | J Headache Pain | 歐洲頭痛聯盟針對 Flunarizine 用於偏頭痛預防的系統性回顧與統合分析 |
-| [30428122](https://pubmed.ncbi.nlm.nih.gov/30428122/) | 2019 | RCT | Acta Neurol Scand | Flunarizine 合併經皮眶上神經刺激，偏頭痛預防效果較單一療法佳 |
-| [37563914](https://pubmed.ncbi.nlm.nih.gov/37563914/) | 2023 | RCT | J Clin Pharmacol | 60 名青少年隨機分為 Flunarizine 或 Flunarizine 加 α-硫辛酸 |
-| [2404346](https://pubmed.ncbi.nlm.nih.gov/2404346/) | 1990 | RCT | S Afr Med J | Flunarizine 與 Propranolol 雙盲比較，用於偏頭痛預防（58 人） |
-| [8349477](https://pubmed.ncbi.nlm.nih.gov/8349477/) | 1993 | 比較研究 | Headache | Flunarizine 與 Nifedipine 用於偏頭痛預防的療效比較 |
-| [40553594](https://pubmed.ncbi.nlm.nih.gov/40553594/) | 2025 | 統合分析 | J Assoc Physicians India | Amitriptyline 與 Propranolol、Flunarizine 用於偏頭痛預防的比較 |
-| [39388181](https://pubmed.ncbi.nlm.nih.gov/39388181/) | 2024 | 網絡統合分析 | JAMA Netw Open | 兒童偏頭痛預防藥物的療效與安全性比較 |
-| [39365169](https://pubmed.ncbi.nlm.nih.gov/39365169/) | 2024 | 系統性回顧 | Health Technol Assess | 成人慢性偏頭痛預防藥物的系統性回顧與經濟模型 |
-| [31413170](https://pubmed.ncbi.nlm.nih.gov/31413170/) | 2019 | 治療指引 | Neurology | 美國神經學會／頭痛學會兒童偏頭痛預防藥物指引更新 |
-| [22683887](https://pubmed.ncbi.nlm.nih.gov/22683887/) | 2012 | 治療指引 | Can J Neurol Sci | 加拿大頭痛學會偏頭痛預防指引 |
+| [39365169](https://pubmed.ncbi.nlm.nih.gov/39365169/) | 2024 | 系統性回顧 | Health Technol Assess | 比較成人慢性偏頭痛各種預防藥物的臨床與成本效益 |
+| [39388181](https://pubmed.ncbi.nlm.nih.gov/39388181/) | 2024 | 網絡統合分析 | JAMA Netw Open | 評估兒童偏頭痛預防藥物的療效與安全性 |
+| [31413170](https://pubmed.ncbi.nlm.nih.gov/31413170/) | 2019 | 指引 | Neurology | AAN/AHS 兒童偏頭痛預防藥物治療指引更新 |
+| [40553594](https://pubmed.ncbi.nlm.nih.gov/40553594/) | 2025 | 統合分析 | J Assoc Physicians India | Amitriptyline 與 propranolol、flunarizine 用於偏頭痛預防的比較 |
+| [37073858](https://pubmed.ncbi.nlm.nih.gov/37073858/) | 2023 | 系統性回顧 | Cochrane Database Syst Rev | 前庭性偏頭痛預防的藥物介入 |
+| [30428122](https://pubmed.ncbi.nlm.nih.gov/30428122/) | 2019 | 臨床研究 | Acta Neurol Scand | Flunarizine 合併經皮眶上神經刺激可改善偏頭痛預防效果 |
+| [3878734](https://pubmed.ncbi.nlm.nih.gov/3878734/) | 1985 | 臨床研究 | Cephalalgia | 56 名患者服用 flunarizine 10 mg/日 3 個月，78.5% 頭痛改善 |
+| [41572863](https://pubmed.ncbi.nlm.nih.gov/41572863/) | 2026 | Review | Dtsch Arztebl Int | 偏頭痛預防藥物綜述 |
+| [28497257](https://pubmed.ncbi.nlm.nih.gov/28497257/) | 2017 | Review | Der Nervenarzt | 預防性治療可選用 β 阻斷劑、三環抗憂鬱藥、flunarizine、抗癲癇藥等 |
+| [21049704](https://pubmed.ncbi.nlm.nih.gov/21049704/) | 2010 | Review | J Assoc Physicians India | 首選預防藥物包括 β 阻斷劑、flunarizine、topiramate、valproate、amitriptyline |
 
 ---
 
@@ -108,19 +103,20 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-49233 | FURNAZM TAB 5MG | 未載明 | 未載明 |
-| HK-41240 | SUZIN CAP 10MG | 未載明 | 未載明 |
-| HK-21275 | FLUZINE TAB 5MG | 未載明 | 未載明 |
-| HK-61872 | VANID CAPSULES 5MG | 未載明 | 未載明 |
-| HK-42370 | SIBERID-5 TAB 5MG | 未載明 | 未載明 |
+| HK-49233 | FURNAZM TAB 5MG | 未提供 | 未提供 |
+| HK-41240 | SUZIN CAP 10MG | 未提供 | 未提供 |
+| HK-21275 | FLUZINE TAB 5MG | 未提供 | 未提供 |
+| HK-61872 | VANID CAPSULES 5MG | 未提供 | 未提供 |
+| HK-42370 | SIBERID-5 TAB 5MG | 未提供 | 未提供 |
 
-本表為 9 張許可證中的前 5 張。
+> 共 9 張有效單方許可證，上表僅列 5 張。
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **藥物交互作用**：資料顯示 4 筆藥理作用紀錄，涉及 D2 受體及 Cav3.1、Cav3.2、Cav3.3 鈣離子通道，屬藥理靶點資訊，而非具臨床分級的藥物配對交互作用。Flunarizine 與 topiramate 的藥動交互作用曾於 NCT00752466 研究。
+- **需留意的風險**：憂鬱、錐體外症狀／類帕金森氏症（尤其是年長者）、體重增加與嗜睡，以及與中樞神經抑制劑併用的風險。這些依據一般藥理知識整理，詳細警語與禁忌請參考原廠仿單。
 
 ---
 
@@ -129,14 +125,14 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 多個直接比較試驗與統合分析，以及國際治療指引，都把 Flunarizine 作為偏頭痛預防選項，證據以 L2 為佳。
-- 但原適應症、作用機轉與香港核准適應症資料都缺漏，且安全性資料尚未取得，無法確認這是新適應症還是既有適應症。
+- 多項直接比較 flunarizine 與其他偏頭痛預防藥物的臨床試驗（含已完成的 Phase 4 研究），加上多篇系統性回顧與指引，支持其用於偏頭痛預防。
+- 但本報告資料中未見已完成且附結果的 Phase 3 RCT，系統評定的 L1 等級宜謹慎看待。Flunarizine 本就是既有的偏頭痛預防藥，這是確認既有用途，不算真正的藥物再利用。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單，確認 Flunarizine 目前核准的適應症，判斷偏頭痛是否已在標示內
-- 查詢 DrugBank 補齊作用機轉與原適應症
-- 取得仿單中的警語與禁忌症，完成安全性篩選
-- 追蹤 NCT06499116、NCT07354126 等進行中試驗的結果
+- 取得香港衛生署許可證的核准適應症與仿單警語、禁忌（目前缺漏）
+- 補充詳細的藥物作用機轉資料
+- 確認香港本地標示是否已涵蓋偏頭痛預防
+- 制定針對憂鬱、錐體外症狀、鎮靜與體重增加的監測計畫，特別是老年族群
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

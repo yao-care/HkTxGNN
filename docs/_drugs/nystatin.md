@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nystatin
-parent: 中證據等級 (L3-L4)
-nav_order: 621
-evidence_level: L3
+parent: 僅模型預測 (L5)
+nav_order: 633
+evidence_level: L5
 indication_count: 5
 ---
 
 # Nystatin
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ indication_count: 5
 
 </div>
 
-# Nystatin：從抗真菌治療到外陰陰道炎
+# Nystatin：從皮膚／口腔／外陰陰道念珠菌感染到外陰陰道炎
 
 ## 一句話總結
 
-Nystatin（制黴菌素）是多烯類（polyene）抗真菌藥，香港已有多張製劑許可證。
-TxGNN 模型預測它可能對**外陰陰道炎 (Vulvovaginitis)** 有效，目前有 **0 個相關臨床試驗**，但有 **20 篇文獻**（以綜述和觀察性研究為主）。
-這個預測很可能是既有的標示用途，並非全新的老藥新用。
+Nystatin 是多烯類（polyene）抗黴菌藥，原本用於皮膚、口腔及外陰陰道念珠菌感染。
+TxGNN 模型預測它可能對**外陰陰道炎 (Vulvovaginitis)** 有效，目前有 **0 個臨床試驗**和 **20 篇文獻**與此方向相關。
+需注意：此預測主要反映的是既有適應症（念珠菌性外陰陰道炎），並非真正的新用途。
 
 ---
 
@@ -43,26 +43,23 @@ TxGNN 模型預測它可能對**外陰陰道炎 (Vulvovaginitis)** 有效，目�
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 皮膚念珠菌感染、口腔念珠菌感染、念珠菌感染、外陰陰道念珠菌感染（來自知識圖譜，香港許可證未載明適應症文字） |
 | 預測新適應症 | 外陰陰道炎 (Vulvovaginitis) |
 | TxGNN 預測分數 | 99.92% |
-| 證據等級 | L3 |
+| 證據等級 | L3（有系統性回顧與綜述文獻，無臨床試驗） |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 20 張 |
-| 建議決策 | Proceed with Guardrails |
-
-香港許可證資料中沒有提供核准適應症文字，因此「原適應症」欄位省略。
+| 建議決策 | Proceed with Guardrails（僅限念珠菌性外陰陰道炎） |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前 DrugBank 的作用機轉欄位是空的。根據藥物類別判斷，Nystatin 是多烯類抗真菌藥，會結合真菌細胞膜上的麥角固醇（ergosterol）並形成孔洞。孔洞造成細胞內容物滲漏，真菌因而死亡。
+目前缺乏詳細的作用機轉資料庫記載。根據已知藥理，Nystatin 是多烯類抗黴菌藥，會結合真菌細胞膜上的麥角固醇（ergosterol），形成孔洞，造成細胞內容物外漏而殺死真菌。
 
-外陰陰道炎中最常見的一類是念珠菌感染（外陰陰道念珠菌症），約 85–90% 由白色念珠菌引起。Nystatin 的抗真菌機轉直接對應這類感染，所以 TxGNN 給出很高的分數，與藥理上的預期一致。
+外陰陰道炎中，由念珠菌引起的類型與 Nystatin 的作用機轉直接相關，而外陰陰道念珠菌感染本來就是它的既有適應症。因此這個預測較接近「既有適應症的重新確認」，不是真正的藥物再利用。
 
-需要注意兩點：
-- 這個預測很可能是既有的標示用途。「原適應症」和「作用機轉」為空，應視為資料缺口，不宜當成新發現。
-- Nystatin 對非真菌性的外陰陰道炎（如細菌性陰道炎、滴蟲感染）沒有作用。
+Nystatin 預期對非黴菌性外陰陰道炎（如細菌性陰道病、滴蟲性陰道炎）無效。
 
 ---
 
@@ -74,40 +71,43 @@ TxGNN 模型預測它可能對**外陰陰道炎 (Vulvovaginitis)** 有效，目�
 
 ## 文獻證據
 
-本次資料中沒有識別出 RCT。下表依證據強度排序，「類型」欄中的動物實驗與體外研究是依摘要內容判讀。
+本次共有 20 篇相關文獻，以下依優先順序（綜述優先）列出 10 篇。這些文獻中沒有 RCT。
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [20406393](https://pubmed.ncbi.nlm.nih.gov/20406393/) | 2011 | 世代研究 | Mycoses | 分析 287 株複雜性外陰陰道念珠菌症的分離株，比較 fluconazole 與 nystatin 的體外感受性和臨床結果的關聯 |
-| [39771534](https://pubmed.ncbi.nlm.nih.gov/39771534/) | 2024 | Review | Pharmaceutics | 回顧 fluconazole 抗藥性外陰陰道念珠菌症的處置，替代療法包括硼酸、nystatin、oteseconazole、ibrexafungerp |
-| [25775428](https://pubmed.ncbi.nlm.nih.gov/25775428/) | 2015 | Review | BMJ Clinical Evidence | 外陰陰道念珠菌症是僅次於細菌性陰道炎的第二常見陰道炎，白色念珠菌佔 85–90% |
-| [21774671](https://pubmed.ncbi.nlm.nih.gov/21774671/) | 2011 | Review | J Womens Health | 復發性外陰陰道念珠菌症的硼酸臨床證據，非白色念珠菌對 azole 類較不敏感 |
-| [21718579](https://pubmed.ncbi.nlm.nih.gov/21718579/) | 2010 | Review | BMJ Clinical Evidence | 外陰陰道念珠菌症的證據回顧（早期版本） |
-| [12228137](https://pubmed.ncbi.nlm.nih.gov/12228137/) | 2002 | Review | BMJ | 外陰陰道念珠菌症綜述（無摘要） |
-| [19454049](https://pubmed.ncbi.nlm.nih.gov/19454049/) | 2007 | Review | BMJ Clinical Evidence | 外陰陰道念珠菌症的證據回顧（早期版本） |
-| [1436934](https://pubmed.ncbi.nlm.nih.gov/1436934/) | 1992 | Review | Obstet Gynecol Clin North Am | Nystatin 於 1950 年代用於外陰陰道念珠菌症，後來被 imidazole 和 triazole 類取代成為首選 |
-| [30359236](https://pubmed.ncbi.nlm.nih.gov/30359236/) | 2018 | 動物實驗 | BMC Microbiology | 大鼠模型顯示 nystatin 可增強對白色念珠菌的黏膜免疫反應，並保護陰道上皮超微結構 |
-| [32104010](https://pubmed.ncbi.nlm.nih.gov/32104010/) | 2020 | 體外研究 | Infect Drug Resist | 測試氧化鋅奈米粒子和 nystatin 對抗 fluconazole 抗藥性白色念珠菌分離株的活性 |
+| [39771534](https://pubmed.ncbi.nlm.nih.gov/39771534/) | 2024 | Review | Pharmaceutics | 回顧抗氟康唑外陰陰道念珠菌感染的處置，替代療法包括硼酸、Nystatin 及新藥 |
+| [21774671](https://pubmed.ncbi.nlm.nih.gov/21774671/) | 2011 | Review | J Womens Health | 復發性外陰陰道念珠菌感染的硼酸臨床證據；非白色念珠菌對唑類較不敏感 |
+| [25775428](https://pubmed.ncbi.nlm.nih.gov/25775428/) | 2015 | Review | BMJ Clin Evid | 外陰陰道念珠菌感染為陰道炎第二常見原因，白色念珠菌占 85–90% |
+| [21718579](https://pubmed.ncbi.nlm.nih.gov/21718579/) | 2010 | Review | BMJ Clin Evid | 同上（較早版本） |
+| [19454049](https://pubmed.ncbi.nlm.nih.gov/19454049/) | 2007 | Review | BMJ Clin Evid | 同上（較早版本） |
+| [1436934](https://pubmed.ncbi.nlm.nih.gov/1436934/) | 1992 | Review | Obstet Gynecol Clin North Am | Nystatin 於 1950 年代用於外陰陰道念珠菌感染，後被咪唑類與三唑類取代為首選 |
+| [2212172](https://pubmed.ncbi.nlm.nih.gov/2212172/) | 1990 | Review | J Am Acad Dermatol | 陰道念珠菌感染有多種有效抗黴菌藥，劑型本身對療效影響證據有限 |
+| [10796183](https://pubmed.ncbi.nlm.nih.gov/10796183/) | 2000 | 系統性回顧 | Cochrane Database Syst Rev | 懷孕期陰道念珠菌感染的局部治療 |
+| [20406393](https://pubmed.ncbi.nlm.nih.gov/20406393/) | 2011 | 臨床研究 | Mycoses | 287 株複雜性外陰陰道念珠菌感染菌株，比較氟康唑與 Nystatin 的體外敏感性與臨床結果 |
+| [16047929](https://pubmed.ncbi.nlm.nih.gov/16047929/) | 2005 | 臨床研究 | Ceska Gynekologie | 以 nifuratel 合併 Nystatin 陰道製劑治療混合型外陰陰道感染 |
 
 ---
 
 ## 香港上市資訊
 
-共 20 張許可證，以下列出 5 張。許可證資料未提供劑型與核准適應症文字，劑型是依品名判讀。
+香港共有 20 張有效單一成分許可證，以下列出 5 張主要許可證（資料中未載明劑型與核准適應症文字）。
 
-| 許可證號 | 品名 | 劑型（依品名判讀） | 廠商 |
-|---------|------|------|------|
-| HK-44908 | PMS-NYSTATIN SUSP 100000U/ML | 懸液劑 | TRENTON-BOMA LTD |
-| HK-58764 | NYDASIN VAGINAL SUPP 100,000U | 陰道栓劑 | YAT SENG TRADING CO |
-| HK-45763 | NYSTATIN OINTMENT 100000IU/G | 軟膏 | HON MAN MEDICINE (WING LEE) COMPANY |
-| HK-34420 | NYSTATIN CAP 500000U | 膠囊劑 | YUNG SHIN CO LTD |
-| HK-34392 | NYSTATIN VAG TAB 100000U | 陰道錠 | YUNG SHIN CO LTD |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-44908 | PMS-NYSTATIN SUSP 100000U/ML | 口服懸液 | — |
+| HK-58764 | NYDASIN VAGINAL SUPP 100,000U | 陰道栓劑 | — |
+| HK-45763 | NYSTATIN OINTMENT 100000IU/G | 軟膏 | — |
+| HK-34420 | NYSTATIN CAP 500000U | 膠囊 | — |
+| HK-34392 | NYSTATIN VAG TAB 100000U | 陰道錠 | — |
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌相關疾病**：腎上腺皮質功能不全、艾迪森氏症、皮膚萎縮、微血管擴張、微血管疾病、遺傳性出血性微血管擴張症。這些來自知識圖譜關聯，而非仿單內容，且可能反映複方製劑（如含皮質類固醇者）的成分，需以仿單確認。
+- **藥物交互作用**：已查得 100 筆，等級均為「未知」，例如環孢素 (Cyclosporine)、氟康唑 (Fluconazole)、紅黴素 (Erythromycin)、硼替佐米 (Bortezomib)、曲馬多 (Tramadol)。臨床意義尚待確認。
+
+其餘警語與禁忌請參考原廠仿單。
 
 ---
 
@@ -116,22 +116,20 @@ TxGNN 模型預測它可能對**外陰陰道炎 (Vulvovaginitis)** 有效，目�
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 機轉與念珠菌性外陰陰道炎高度吻合，文獻也支持（L3：綜述加觀察性研究），香港已有陰道栓劑和陰道錠等製劑上市。
-- 但沒有 RCT 或臨床試驗資料，安全性資料也缺漏，因此不能給出無條件的 Go。
-
-**使用防護（Guardrails）：**
-- 使用前先確認病因為念珠菌，Nystatin 對細菌性或滴蟲性外陰陰道炎無效。
-- Fluconazole 抗藥或非白色念珠菌感染需另行處置。
+- 預測的「外陰陰道炎」實質上是念珠菌性外陰陰道炎，屬 Nystatin 既有適應症，且香港已有多款陰道錠與栓劑上市；但近年文獻顯示唑類已為首選，Nystatin 多作為替代方案。
+- 若指非黴菌性外陰陰道炎，則機轉上不支持，不建議推進。
 
 **若要推進需要：**
-- 取得香港衛生署仿單，補齊警語、禁忌症和核准適應症（目前是阻擋性資料缺口）。
-- 從 DrugBank 補齊作用機轉。
-- 回到來源文章確認 BMJ Clinical Evidence 等綜述是否納入 RCT，作為證據升級（L1/L2）的依據。
+- 釐清目標族群，僅限念珠菌性外陰陰道炎，並排除細菌性及滴蟲性病因
+- 取得香港衛生署仿單，確認核准適應症、警語與禁忌
+- 補充詳細的作用機轉資料（MOA）
+- 若要主張新價值（如抗氟康唑菌株），需有對照試驗數據
 
-**其他預測：**
-排名 2–5 的預測（眼眶區域疾病、眼附屬器眶部疾病、囊性畸胎瘤、脊髓皮樣囊腫）沒有機轉依據或臨床證據，全部建議 **Hold**。排名 2 所配對的兩個試驗與 Nystatin 無關。
+---
 
-本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證。
+### 其他預測（供參考）
+
+排名 2–5 的預測（眼眶區域疾病、眼眶附屬器疾病、囊性畸胎瘤、脊髓皮樣囊腫）均無機轉依據，證據等級為 L5，建議決策為 **Hold**。其中唯一相關的試驗 NCT03178149 研究的是另一種藥物 ASP7317 用於地圖狀萎縮，與 Nystatin 無關，這些預測很可能是知識圖譜的假關聯。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -2,15 +2,15 @@
 layout: default
 title: Oxymetazoline
 parent: 中證據等級 (L3-L4)
-nav_order: 639
-evidence_level: L3
+nav_order: 652
+evidence_level: L4
 indication_count: 3
 ---
 
 # Oxymetazoline
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **3** 個
+證據等級: **L4** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ indication_count: 3
 
 </div>
 
-# Oxymetazoline：從鼻減充血劑到鼻腔疾病
+# Oxymetazoline：從咽喉炎與感冒到鼻腔疾病
 
 ## 一句話總結
 
-Oxymetazoline 是局部使用的 α-腎上腺素受體促效劑，在香港以鼻用製劑上市，用於鼻塞的減充血。
-TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效。
-目前有 **17 個臨床試驗**和 **5 篇文獻**與此方向相關，但其中多數是間接證據，且這個預測更接近既有用途，不算真正的新適應症。
+Oxymetazoline 是一種局部使用的 α-腎上腺素受體促效劑（鼻用血管收縮劑），原本用於咽喉炎與感冒的症狀緩解。
+TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
+目前**沒有臨床試驗**，僅有 **5 篇間接相關文獻**，證據相當有限。
 
 ---
 
@@ -43,42 +43,27 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效。
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 局部鼻減充血（許可證資料未載明適應症文字，此為依藥理類別的判斷） |
+| 原適應症 | 咽喉炎 (pharyngitis)、感冒 (common cold)（來自知識圖譜的適應症資料；香港許可證未載明核准適應症文字） |
 | 預測新適應症 | 鼻腔疾病 (Nasal Cavity Disease) |
 | TxGNN 預測分數 | 99.96% |
-| 證據等級 | L3 |
+| 證據等級 | L4 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 13 張 |
-| 建議決策 | Proceed with Guardrails |
+| 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏 DrugBank 的詳細作用機轉資料。Oxymetazoline 屬於局部使用的 α-腎上腺素受體促效劑。它使鼻黏膜血管收縮，降低黏膜腫脹，改善鼻腔通氣。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Oxymetazoline 是局部使用的擬交感神經藥物，可作用於 α1 與 α2 腎上腺素受體（另可結合 5-HT1B、5-HT1D、5-HT2C 受體），使鼻黏膜血管收縮，進而減輕鼻塞與出血。這在機轉上適用於黏膜腫脹、充血或血管脆弱的鼻腔問題。
 
-這個機轉與鼻腔疾病（以鼻塞、黏膜充血為主要表現）在生物學上相符。它與藥物本身既有的鼻減充血用途高度重疊，所以預測較接近「符合現有用途」，而不是全新的適應症。
-
-TxGNN 的高分（99.96%）很可能反映這種已知的藥物類別與疾病關聯。原適應症欄位為空、MOA 缺漏，比較像資料不完整，並非新用途的訊號。這裡的證據強度相當於一個已上市的減充血劑，不能視為強力的新用途證據。
+不過需要留意：「鼻腔疾病」是範圍很廣的類別，與原有適應症（感冒、鼻塞）高度重疊。0.9996 的高分很可能反映的是與現有用途的相近性，而非真正新穎的再利用訊號。
 
 ---
 
 ## 臨床試驗證據
 
-以下列出 10 個相對相關的試驗。多數是「鼻腔處置或評估」情境，不是以 oxymetazoline 治療疾病為主要終點。
-
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT03228914](https://clinicaltrials.gov/study/NCT03228914) | Phase 4 | 完成 | 20 | 比較 0.05% oxymetazoline 與 1:1000 epinephrine 在鼻竇內視鏡手術前使用的出血量與術野可見度 |
-| [NCT03620513](https://clinicaltrials.gov/study/NCT03620513) | Phase 4 | 完成 | 160 | 雙盲隨機試驗，比較局部麻醉或減充血劑預處理對纖維鼻咽喉鏡檢查疼痛與不適的影響，支持鼻腔處置用途，並非治療疾病 |
-| [NCT03380715](https://clinicaltrials.gov/study/NCT03380715) | NA | 完成 | 106 | 比較 Co-phenylcaine（減充血加局部麻醉）鼻噴霧與鼻霧化，用於硬式鼻內視鏡檢查前 |
-| [NCT01411969](https://clinicaltrials.gov/study/NCT01411969) | NA | 完成 | 16 | 以 0.05% oxymetazoline 噴霧減充血後，用聲學鼻量測法評估外用鼻擴張貼片對鼻腔波形的影響 |
-| [NCT00147940](https://clinicaltrials.gov/study/NCT00147940) | Phase 4 | 終止 | 20 | 以聲學鼻量測法與鼻音計檢視鼻腔容積與鼻音度的相關性，樣本小且已終止，證據薄弱 |
-| [NCT00562120](https://clinicaltrials.gov/study/NCT00562120) | Phase 2 | 完成 | 21 | 隨機、雙盲、安慰劑對照的四向交叉試驗，在季節性過敏性鼻炎患者中評估 H3 受體拮抗劑對鼻過敏原激發後鼻塞的影響。試驗藥物與終點尚未確認，不能直接作為支持依據 |
-| [NCT06457100](https://clinicaltrials.gov/study/NCT06457100) | Phase 1/2 | 未知 | 60 | 鼻竇內視鏡手術中，比較靜脈輸注 esmolol 與 lidocaine 對術後恢復品質的影響，與 oxymetazoline 關聯間接 |
-| [NCT03962634](https://clinicaltrials.gov/study/NCT03962634) | Phase 2 | 終止 | 3 | Kovanaze（tetracaine 加 oxymetazoline）鼻噴劑對比 articaine 用於上顎牙髓麻醉，屬牙科用途，非鼻腔疾病 |
-| [NCT06443255](https://clinicaltrials.gov/study/NCT06443255) | Phase 3 | 完成 | 16 | 比較 cocaine、lidocaine/xylometazoline 與生理食鹽水的鼻內鎮痛，所用藥物是另一種咪唑啉類，並非 oxymetazoline |
-| [NCT07173023](https://clinicaltrials.gov/study/NCT07173023) | NA | 尚未招募 | 30 | 比較兩種後鼻孔閉鎖的手術技術，oxymetazoline 至多是圍手術期輔助用藥 |
+目前無相關臨床試驗登記。
 
 ---
 
@@ -86,59 +71,55 @@ TxGNN 的高分（99.96%）很可能反映這種已知的藥物類別與疾病�
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [9929658](https://pubmed.ncbi.nlm.nih.gov/9929658/) | 1998 | 臨床生理研究 | Annals of the New York Academy of Sciences | 36 位受試者，以化學感覺誘發電位、心理物理測驗與聲學鼻量測法，評估感冒（急性鼻炎）對嗅覺功能的影響 |
-| [25496205](https://pubmed.ncbi.nlm.nih.gov/25496205/) | 2015 | 世代研究 | Journal of Plastic Surgery and Hand Surgery | 以聲學鼻量測法比較單側完全唇顎裂修補後兒童與對照組的鼻腔通氣 |
-| [8615587](https://pubmed.ncbi.nlm.nih.gov/8615587/) | 1996 | 動物實驗 | Annals of Otology, Rhinology & Laryngology | 在兔急性細菌性上頜竇炎模型中，評估 oxymetazoline 滴鼻對局部組織防禦的影響 |
-| [28490409](https://pubmed.ncbi.nlm.nih.gov/28490409/) | 2017 | 病例系列 | American Journal of Rhinology & Allergy | 遺傳性出血性毛細血管擴張症的鼻部毛細血管擴張，以內視鏡引導 coblation 治療的手術技巧 |
-| [38024464](https://pubmed.ncbi.nlm.nih.gov/38024464/) | 2023 | 病例報告 | Global Pediatric Health | 9 歲男童鼻硬結症罕見病例，介紹典型鼻塞表現與組織學診斷 |
+| [9929658](https://pubmed.ncbi.nlm.nih.gov/9929658/) | 1998 | 臨床研究 | Ann N Y Acad Sci | 36 名受試者，探討感冒（急性鼻炎）對嗅覺功能的影響 |
+| [8615587](https://pubmed.ncbi.nlm.nih.gov/8615587/) | 1996 | 動物研究 | Ann Otol Rhinol Laryngol | 兔子急性鼻竇炎模型，評估 oxymetazoline 滴鼻對早期局部組織防禦的影響 |
+| [25496205](https://pubmed.ncbi.nlm.nih.gov/25496205/) | 2015 | 觀察性研究 | J Plast Surg Hand Surg | 以聲學鼻量測法評估唇顎裂修復後兒童的鼻腔通氣，oxymetazoline 可能作為測量時的減充血劑 |
+| [28490409](https://pubmed.ncbi.nlm.nih.gov/28490409/) | 2017 | 技術/操作報告 | Am J Rhinol Allergy | 遺傳性出血性毛細血管擴張症的鼻部微血管擴張之內視鏡 coblation 治療，與 oxymetazoline 的關聯屬周邊 |
+| [38024464](https://pubmed.ncbi.nlm.nih.gov/38024464/) | 2023 | 病例報告 | Global Pediatric Health | 9 歲男童鼻硬結症罕見病例 |
+
+以上文獻皆為間接證據，沒有人體對照試驗直接證實 oxymetazoline 對「鼻腔疾病」的療效。
 
 ---
 
 ## 香港上市資訊
 
-香港共有 13 張許可證，以下列出 5 張主要許可證。資料中的核准適應症與劑型欄位皆為空白。
+目前共有 13 張有效單一成分許可證（無已註銷者），以下列出 5 張主要許可證。資料中未提供劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-51462 | OXY-NASE PAEDIATRIC NASAL SOL 0.025% | TAISHO PHARMACEUTICAL (HK) LTD |
-| HK-43745 | LOGICIN RAPID RELIEF NASAL SPRAY 0.05% | ASPEN PHARMACARE ASIA LIMITED |
-| HK-52653 | OXY-NASE NASAL DROPS 0.05%W/V | TAISHO PHARMACEUTICAL (HK) LTD |
-| HK-58133 | NASAL RELIEF SPRAY 0.05% | WILSON TRADING COMPANY LIMITED |
-| HK-51937 | OXY-NASE NASAL SPRAY 0.05% | TAISHO PHARMACEUTICAL (HK) LTD |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-01416 | AFRIN NASAL SPRAY 0.05%（拜耳） | 鼻用噴劑 | 資料未載明 |
+| HK-51937 | OXY-NASE NASAL SPRAY 0.05%（大正製藥） | 鼻用噴劑 | 資料未載明 |
+| HK-52653 | OXY-NASE NASAL DROPS 0.05%W/V（大正製藥） | 滴鼻液 | 資料未載明 |
+| HK-51938 | OXY-NASE PAEDIATRIC NASAL SPRAY 0.025%（大正製藥） | 兒童鼻用噴劑 | 資料未載明 |
+| HK-43745 | LOGICIN RAPID RELIEF NASAL SPRAY 0.05%（Aspen） | 鼻用噴劑 | 資料未載明 |
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。香港衛生署仿單的警語與禁忌尚未取得。
-
-依現有評估與文獻，可作為參考的重點有：
-- **長期使用**：可能出現反彈性鼻充血（藥物性鼻炎）。
-- **心血管**：對心血管疾病等易感族群可能有影響。
-- **藥物交互作用**：文獻提示與 MAO 抑制劑有臨床上相關的交互作用（PMID 36425231）。
+- **知識圖譜標示的禁忌疾病**：高血壓、糖尿病（含酮酸中毒）、良性前列腺增生、心臟病／心血管疾病／冠狀動脈疾病、狹角（閉角）青光眼、甲狀腺機能亢進（Graves 病、甲狀腺毒症）、眼部感染性疾病／結膜炎、動脈硬化／粥樣硬化、視覺障礙／失明。此來源為知識圖譜關聯，並非仿單原文。
+- **藥物交互作用**：oxymetazoline 屬擬交感神經藥物，與單胺氧化酶抑制劑（MAOI）併用需特別留意，可能增加升壓等心血管風險。
+- 香港仿單的警語與禁忌資料尚未取得，詳細內容請參考原廠仿單。
 
 ---
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-- 「鼻腔疾病」與 oxymetazoline 已知的鼻減充血用途高度吻合，且該藥在香港已有多張鼻用製劑許可證。
-- 但直接支持證據偏弱：相關試驗多為手術或檢查前的輔助用藥、樣本小，或未直接使用 oxymetazoline。高 TxGNN 分數也主要反映既有用途，所以視為「現有用途的確認」，不算新用途發現。
+- 目前沒有臨床試驗，文獻皆為間接或周邊證據（證據等級 L4），且「鼻腔疾病」與既有適應症高度重疊，不算新穎的再利用方向。
+- 香港仿單的警語與禁忌資料尚缺，無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單，補齊警語與禁忌（目前是阻斷性資料缺口，無法進入安全性篩選）。
-- 補上 DrugBank 的作用機轉資料。
-- 釐清原適應症：許可證的核准適應症文字為空，需回頭確認。
-- 確認 NCT00562120 等待查證的試驗所用藥物與終點，才能作為證據等級的依據。
-- 為長期使用訂定監測與用藥指引（避免反彈性充血），並關注心血管疾病患者及 MAOI 併用者。
+- 取得並解析香港衛生署仿單，補齊警語、禁忌與核准適應症
+- 補充詳細的作用機轉（MOA）資料
+- 將預測適應症具體化（例如鼻出血、鼻息肉、過敏性鼻炎等），並找出直接的人體對照研究
+- 評估心血管、高血壓等族群的安全性監測與使用限制
 
-**其他預測適應症（供參考）：**
-- **頭痛疾患 (Headache Disorder)**：TxGNN 分數 99.04%，證據等級 L3，僅有小型回顧性研究（PMID 31919839，tetracaine 加 oxymetazoline 用於偏頭痛持續狀態）與個案觀察，無法分離 oxymetazoline 單獨的貢獻，建議視為研究問題。
-- **急性喉咽炎 (Acute Laryngopharyngitis)**：TxGNN 分數 99.95%，無任何試驗或文獻，且鼻黏膜局部給藥難以到達喉咽部，建議暫緩 (Hold)。
+---
 
-*本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證後才能應用。*
+**備註：** 第二名預測「急性喉咽炎」（分數 99.95%）無任何試驗或文獻，且咽喉炎本已是原適應症，建議暫緩。第三名「頭痛疾病」（分數 99.04%）有 tetracaine 加 oxymetazoline 鼻內給藥治療偏頭痛持續狀態的研究，但屬複方，無法區分 oxymetazoline 單獨的貢獻，證據等級為 L3，可列為後續研究問題。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

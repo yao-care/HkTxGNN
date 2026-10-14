@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Obinutuzumab
-parent: 僅模型預測 (L5)
-nav_order: 622
-evidence_level: L5
+parent: 高證據等級 (L1-L2)
+nav_order: 634
+evidence_level: L1
 indication_count: 3
 ---
 
 # Obinutuzumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+證據等級: **L1** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,109 +29,122 @@ indication_count: 3
 
 </div>
 
-# Obinutuzumab：從（原適應症資料缺漏）到 CLL/SLL 亞型與濾泡性淋巴瘤
+# Obinutuzumab：從急性淋巴性白血病／Richter 症候群到濾泡性淋巴瘤
 
 ## 一句話總結
 
-Obinutuzumab 是一種經糖基化改造的第二型抗 CD20 單株抗體，輸入資料中未載明原適應症。
-TxGNN 預測分數最高的是兩個**慢性淋巴球性白血病/小淋巴球性淋巴瘤 (CLL/SLL) 亞型**，目前沒有任何試驗或文獻支持。
-預測排名第 3 的**濾泡性淋巴瘤 (Follicular Lymphoma)** 則有 **44 個臨床試驗**和 **19 篇文獻**，其中包含 2 個已完成的 Phase 3 試驗。
+Obinutuzumab 是一種醣基工程化的第二型抗 CD20 單株抗體，資料中記載的原適應症為急性淋巴性白血病與 Richter 症候群。
+TxGNN 模型預測它可能對**濾泡性淋巴瘤 (Follicular Lymphoma)** 有效，目前有 **40 個臨床試驗**和 **20 篇文獻**支持這個方向（其中包含多項隨機對照試驗）。
+需要注意：濾泡性淋巴瘤其實是 obinutuzumab 已確立的治療領域，此預測較接近「補足資料庫中適應症標示的缺口」，而非全新的藥物再利用。
+
+---
 
 ## 快速總覽
 
-| 項目 | 排名 1、2：CLL/SLL 亞型 | 排名 3：濾泡性淋巴瘤 |
-|------|------|------|
-| 預測新適應症 | CLL/SLL（免疫球蛋白重鏈可變區體細胞高突變型）、生發中心前 CLL/SLL | 濾泡性淋巴瘤 (Follicular Lymphoma) |
-| TxGNN 預測分數 | 99.21%（兩者相同） | 99.18% |
-| 證據等級 | L5 | L1 |
-| 建議決策 | Hold | Proceed with Guardrails |
-
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 急性淋巴性白血病、Richter 症候群（來自知識圖譜；香港許可證未提供適應症文字） |
+| 預測新適應症 | 濾泡性淋巴瘤 (Follicular Lymphoma) |
+| TxGNN 預測分數 | 99.18% |
+| 證據等級 | L1 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 1 張 |
+| 建議決策 | Proceed with Guardrails |
 
-> 香港許可證資料中沒有核准適應症文字，因此「原適應症」欄位省略。
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank MOA 欄位為空）。根據輸入資料，Obinutuzumab 是抗 CD20 單株抗體。CLL/SLL 與濾泡性淋巴瘤都屬於表現 CD20 的 B 細胞惡性腫瘤，因此機轉上可能適用。文獻中描述它可透過直接誘導細胞死亡、增強抗體依賴性細胞毒殺 (ADCC) 與吞噬作用，以及活化補體來作用。
+目前缺乏詳細的作用機轉（MOA）資料欄位，但從已知文獻可知，obinutuzumab 是人源化、醣基工程化的第二型抗 CD20 IgG1 單株抗體，相較於 rituximab，能增強抗體依賴性細胞毒性（ADCC）、吞噬作用，並直接誘導 B 細胞死亡。
 
-**CLL/SLL 亞型（排名 1、2）：** 這兩個預測只有模型分數，沒有試驗或文獻。兩者分數完全相同，很可能對應同一個本體論節點，建議合併或對應到上層的 CLL/SLL 詞條後再審查。
+濾泡性淋巴瘤是 CD20 陽性的 B 細胞惡性腫瘤，藥物靶點與疾病生物學直接吻合。原適應症（B 細胞來源的白血病／淋巴增生疾病）與濾泡性淋巴瘤同屬 B 細胞惡性腫瘤，因此機轉上高度相關。
 
-**濾泡性淋巴瘤（排名 3）：** 文獻標題顯示，Phase 3 GALLIUM 試驗（PMID 29856692、37404773、28976863）比較了 Obinutuzumab 與 Rituximab 為基礎的免疫化療。此外還有 BTK 抑制劑、Lenalidomide、Venetoclax、Polatuzumab 等組合的 Phase 2 研究。這看起來更像是已確立的用途，而非全新的老藥新用，需先對照仿單確認核准狀態，才能算作老藥新用發現。
+此外，所提供的文獻顯示 obinutuzumab 在濾泡性淋巴瘤已有關鍵性隨機試驗（如 GALLIUM），代表輸入資料中的適應症欄位並不完整，而不是發現了全新用途。
 
-## 臨床試驗證據（濾泡性淋巴瘤，共 44 筆，列出最相關 10 筆）
+另有兩個預測（CLL/SLL 的分子亞型，分數同為 99.21%）僅有模型預測、沒有試驗或文獻，且屬於已核准的 CLL/SLL 適應症之子分類，對再利用評估的參考價值有限，故本報告以濾泡性淋巴瘤為主。
 
-CLL/SLL 亞型目前無相關臨床試驗登記。
+---
+
+## 臨床試驗證據
+
+資料中共有 40 個相關試驗，以下列出最相關的 10 個（優先選擇相關性評級高、與 obinutuzumab 直接相關者）。
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT01332968](https://clinicaltrials.gov/study/NCT01332968) | Phase 3 | 完成 | 1401 | Obinutuzumab 加化療 vs Rituximab 加化療，用於未治療的晚期惰性非何杰金氏淋巴瘤，緩解者接續維持治療 |
-| [NCT01059630](https://clinicaltrials.gov/study/NCT01059630) | Phase 3 | 完成 | 413 | Bendamustine 單用 vs 加 Obinutuzumab，用於 Rituximab 難治的惰性非何杰金氏淋巴瘤 |
-| [NCT03332017](https://clinicaltrials.gov/study/NCT03332017) | Phase 2 | 完成 | 217 | Zanubrutinib 加 Obinutuzumab vs Obinutuzumab 單用，用於復發/難治濾泡性淋巴瘤（對應 ROSEWOOD） |
-| [NCT05100862](https://clinicaltrials.gov/study/NCT05100862) | Phase 3 | 招募中 | 780 | Zanubrutinib 加抗 CD20 抗體 vs Lenalidomide 加 Rituximab，用於復發/難治濾泡性或邊緣區淋巴瘤 |
-| [NCT05929222](https://clinicaltrials.gov/study/NCT05929222) | Phase 3 | 招募中 | 190 | 早期濾泡性淋巴瘤，局部放療 vs 放療加 Obinutuzumab（GAZEBO） |
-| [NCT05045664](https://clinicaltrials.gov/study/NCT05045664) | Phase 3 | 招募中 | 100 | 早期濾泡性淋巴瘤，放療加抗 CD20 抗體 |
-| [NCT03817853](https://clinicaltrials.gov/study/NCT03817853) | Phase 4 | 完成 | 114 | 未治療的晚期濾泡性淋巴瘤，評估 Obinutuzumab 短時間輸注的安全性 |
-| [NCT03269669](https://clinicaltrials.gov/study/NCT03269669) | Phase 2 | 進行中（不招募） | 73 | 早期復發/難治濾泡性淋巴瘤，Obinutuzumab 合併不同藥物的隨機試驗 |
-| [NCT02611323](https://clinicaltrials.gov/study/NCT02611323) | Phase 1/2 | 完成 | 133 | Obinutuzumab、Polatuzumab vedotin 與 Venetoclax 組合，用於復發/難治濾泡性淋巴瘤 |
-| [NCT05899621](https://clinicaltrials.gov/study/NCT05899621) | N/A | 招募中 | 332 | 真實世界研究，觀察 Obinutuzumab 為基礎的療法用於未治療濾泡性淋巴瘤 |
+| [NCT05100862](https://clinicaltrials.gov/study/NCT05100862) | Phase 3 | 進行中（不再招募） | 799 | Zanubrutinib + obinutuzumab 對比 lenalidomide + rituximab，用於復發／難治性濾泡性或邊緣區淋巴瘤 |
+| [NCT02871219](https://clinicaltrials.gov/study/NCT02871219) | Phase 2 | 完成 | 96 | Obinutuzumab + lenalidomide 用於未治療的濾泡性淋巴瘤 |
+| [NCT03817853](https://clinicaltrials.gov/study/NCT03817853) | Phase 4 | 完成 | 114 | Obinutuzumab 短時間輸注（約 90 分鐘）的安全性與可行性，非比較療效 |
+| [NCT05169658](https://clinicaltrials.gov/study/NCT05169658) | Phase 2 | 完成 | 42 | 皮下 mosunetuzumab ± polatuzumab 與 obinutuzumab 用於未治療的惰性 B 細胞淋巴瘤（探索性） |
+| [NCT05387616](https://clinicaltrials.gov/study/NCT05387616) | Phase 2 | 狀態未知 | 98 | Copanlisib + obinutuzumab 免化療組合，用於高腫瘤負荷的未治療濾泡性淋巴瘤 |
+| [NCT00825149](https://clinicaltrials.gov/study/NCT00825149) | Phase 1 | 完成 | 137 | Obinutuzumab 合併 CHOP、FC 或 bendamustine 的早期安全性與療效 |
+| [NCT02391545](https://clinicaltrials.gov/study/NCT02391545) | Phase 1b/2 | 提前終止 | 55 | Duvelisib 合併 rituximab 或 obinutuzumab；因提前終止，證據有限 |
+| [NCT04889716](https://clinicaltrials.gov/study/NCT04889716) | Phase 2 | 進行中（不再招募） | 23 | CD19 CAR-T 後接 mosunetuzumab 或 glofitamab + obinutuzumab；obinutuzumab 非主軸 |
+| [NCT07126678](https://clinicaltrials.gov/study/NCT07126678) | NA | 招募中 | 15 | Zanubrutinib、bendamustine、obinutuzumab 固定療程，樣本小、尚無結果 |
+| [NCT04796922](https://clinicaltrials.gov/study/NCT04796922) | Phase 3 | 已撤回 | 0 | Parsaclisib 合併 rituximab 或 obinutuzumab；未收案，無證據貢獻 |
 
-## 文獻證據（濾泡性淋巴瘤，共 19 篇，列出最相關 10 篇）
+---
 
-CLL/SLL 亞型目前無相關文獻。摘要多被截斷，以下僅摘述研究設計與題旨。
+## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [29856692](https://pubmed.ncbi.nlm.nih.gov/29856692/) | 2018 | RCT | J Clin Oncol | GALLIUM：Obinutuzumab 相較 Rituximab 顯著延長無惡化存活期，本篇分析化療組合的影響 |
-| [37404773](https://pubmed.ncbi.nlm.nih.gov/37404773/) | 2023 | RCT | HemaSphere | GALLIUM 最終分析，比較兩種免疫化療用於未治療的惰性淋巴瘤 |
-| [37506346](https://pubmed.ncbi.nlm.nih.gov/37506346/) | 2023 | RCT | J Clin Oncol | ROSEWOOD：Zanubrutinib 加 Obinutuzumab vs Obinutuzumab 單用，用於復發/難治濾泡性淋巴瘤 |
-| [28976863](https://pubmed.ncbi.nlm.nih.gov/28976863/) | 2017 | Review（資料庫分類） | N Engl J Med | 比較 Rituximab 與 Obinutuzumab 化療用於未治療的晚期濾泡性淋巴瘤 |
-| [31296423](https://pubmed.ncbi.nlm.nih.gov/31296423/) | 2019 | Phase 2 單臂試驗 | Lancet Haematol | GALEN：Obinutuzumab 加 Lenalidomide 用於復發/難治濾泡性淋巴瘤 |
-| [35359000](https://pubmed.ncbi.nlm.nih.gov/35359000/) | 2022 | Phase 1b/2 | Blood Adv | Atezolizumab 加 Obinutuzumab 與 Bendamustine 用於未治療濾泡性淋巴瘤 |
-| [39830356](https://pubmed.ncbi.nlm.nih.gov/39830356/) | 2024 | 快速回顧 | Front Pharmacol | Obinutuzumab 用於濾泡性淋巴瘤的療效、安全性與成本效益 |
+| [29856692](https://pubmed.ncbi.nlm.nih.gov/29856692/) | 2018 | RCT | J Clin Oncol | GALLIUM 研究：obinutuzumab 對比 rituximab 合併化療，用於未治療濾泡性淋巴瘤；分析化療骨架對療效與安全性的影響（1,202 名患者） |
+| [37404773](https://pubmed.ncbi.nlm.nih.gov/37404773/) | 2023 | RCT | HemaSphere | GALLIUM 最終分析：先前主要分析顯示 obinutuzumab 組的無惡化存活期（PFS）優於 rituximab 組 |
+| [37506346](https://pubmed.ncbi.nlm.nih.gov/37506346/) | 2023 | RCT（Phase 2） | J Clin Oncol | ROSEWOOD：zanubrutinib + obinutuzumab 對比 obinutuzumab 單用，用於復發／難治性濾泡性淋巴瘤 |
+| [28976863](https://pubmed.ncbi.nlm.nih.gov/28976863/) | 2017 | 臨床試驗報告 | N Engl J Med | Obinutuzumab 與 rituximab 化學免疫療法用於初治晚期濾泡性淋巴瘤的比較 |
+| [31296423](https://pubmed.ncbi.nlm.nih.gov/31296423/) | 2019 | 單臂 Phase 2 | Lancet Haematol | GALEN：obinutuzumab + lenalidomide 用於復發／難治性濾泡性淋巴瘤 |
+| [37767550](https://pubmed.ncbi.nlm.nih.gov/37767550/) | 2024 | Phase 1b/2 | Haematologica | Polatuzumab vedotin + bendamustine + rituximab 或 obinutuzumab 用於復發／難治性濾泡性淋巴瘤 |
+| [38041532](https://pubmed.ncbi.nlm.nih.gov/38041532/) | 2024 | 系統性回顧／網絡統合分析 | Cancer | 初治晚期濾泡性淋巴瘤維持與鞏固治療策略的比較 |
+| [28324270](https://pubmed.ncbi.nlm.nih.gov/28324270/) | 2017 | Review | Targeted Oncology | Obinutuzumab 用於 rituximab 難治或復發濾泡性淋巴瘤的回顧（含 GADOLIN 研究） |
 | [31360086](https://pubmed.ncbi.nlm.nih.gov/31360086/) | 2017 | Review | Blood Lymphat Cancer | Obinutuzumab 單用及合併治療濾泡性淋巴瘤的影響 |
-| [38660754](https://pubmed.ncbi.nlm.nih.gov/38660754/) | 2024 | Review | Turk J Haematol | 濾泡性淋巴瘤處置進展的綜述 |
-| [28324270](https://pubmed.ncbi.nlm.nih.gov/28324270/) | 2017 | Review | Target Oncol | Obinutuzumab 用於 Rituximab 難治/復發濾泡性淋巴瘤的評述 |
+| [41681868](https://pubmed.ncbi.nlm.nih.gov/41681868/) | 2026 | 治療指引 | Cancers | 西班牙淋巴瘤小組（GELTAMO）2025 濾泡性淋巴瘤診斷、治療與追蹤指引 |
+
+---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-64100 | GAZYVA CONCENTRATE FOR SOLUTION FOR INFUSION 1000MG/40ML | ROCHE HONG KONG LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-64100 | GAZYVA CONCENTRATE FOR SOLUTION FOR INFUSION 1000MG/40ML（廠商：ROCHE HONG KONG LIMITED） | 輸注用濃縮液 | 資料中未提供適應症文字 |
+
+---
 
 ## 細胞毒性
 
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 標靶藥物（第二型抗 CD20 單株抗體） |
+| 細胞毒性分類 | 免疫治療（抗 CD20 單株抗體），非傳統細胞毒性化療藥物 |
+| 骨髓抑制風險 | 請參考原廠仿單（文獻提示需留意血球低下，但本次資料未提供具體數據） |
+| 致吐性分級 | 請參考原廠仿單 |
+| 監測項目 | 建議監測 CBC（含分類）、B 型肝炎病毒狀態、感染徵象；輸注期間監測輸注反應 |
+| 處置防護 | 請參考原廠仿單與院內抗體藥物處置規範 |
 
-其餘項目（骨髓抑制風險、致吐性、監測項目、處置防護）：請參考原廠仿單的警語與注意事項。
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。DDI 查詢結果為無資料。
+- **藥物交互作用**：資料庫共記錄 81 項交互作用，以下為部分主要項目：
+  - 嚴重（Major）：Deferiprone、Samarium (153Sm) lexidronam、Adalimumab、Baricitinib、Certolizumab pegol、Cladribine、Clozapine
+  - 中度（Moderate）：Strontium chloride Sr-89、Roflumilast、Chloramphenicol、Zidovudine、Alemtuzumab、Azathioprine、Anakinra，以及多種疫苗（如破傷風類毒素、炭疽疫苗、霍亂活疫苗）
+- **需特別留意的風險類別**（依藥物類別與研究判斷）：輸注相關反應、感染、血球低下、B 型肝炎再活化、進行性多灶性白質腦病（PML）。
+
+警語與禁忌症的仿單內容尚未取得，請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
-**決策：**
-- **CLL/SLL 亞型（排名 1、2）：Hold**
-- **濾泡性淋巴瘤（排名 3）：Proceed with Guardrails**
+**決策：Proceed with Guardrails**
 
 **理由：**
-- CLL/SLL 亞型只有模型預測（L5），沒有試驗或文獻，且兩個詞條可能重複。
-- 濾泡性淋巴瘤有 2 個已完成的 Phase 3 試驗（NCT01332968、NCT01059630）和多項 Phase 2 隨機試驗，證據等級為 L1。但這比較像既有適應症的確認，而非新發現。
+- 濾泡性淋巴瘤有多項隨機對照證據（GALLIUM 的 Phase 3 RCT、ROSEWOOD 的 Phase 2 RCT）及大量臨床試驗，機轉（CD20 靶向）也直接吻合，因此證據等級為 L1。
+- 但這屬於已確立的適應症，並非真正的新用途，且香港許可證未提供適應症文字，需先釐清本地核准範圍。
 
 **若要推進需要：**
-- 補齊香港衛生署仿單的警語與禁忌症（目前為阻擋性資料缺口 DG001）
-- 補上作用機轉資料（DG002，可查詢 DrugBank）
-- 對照仿單，確認濾泡性淋巴瘤是否已是香港核准適應症
-- 取得完整文獻紀錄，核實 GALLIUM 與 GADOLIN 的對應
-- 合併或對應 CLL/SLL 兩個重複詞條到上層詞條，再評估是否需要補證據
-- 建議僅限於已研究的病患族群
-
-> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證後才能應用。
+- 取得香港仿單，確認核准適應症範圍（治療線別、合併藥物）與警語、禁忌症
+- 補充作用機轉（MOA）資料
+- 建立輸注反應、感染、血球低下、B 型肝炎再活化與 PML 的監測計畫
+- 針對 81 項交互作用，特別是免疫抑制劑與疫苗，制定合併用藥審查流程
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

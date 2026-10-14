@@ -2,7 +2,7 @@
 layout: default
 title: Colistin
 parent: 僅模型預測 (L5)
-nav_order: 223
+nav_order: 227
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,126 +29,98 @@ indication_count: 10
 
 </div>
 
-# Colistin：從細菌感染到慢性鼻竇炎（及其他預測適應症）
+# Colistin：從大腸桿菌感染與外耳炎到慢性鼻竇炎（鼻竇炎）
 
 ## 一句話總結
 
-Colistin（黏菌素，polymyxin E）是一種多黏菌素類抗生素，用於治療多重抗藥性革蘭氏陰性菌感染。
-TxGNN 預測的前 10 名新適應症中，排名第一為**感染後血管炎 (postinfectious vasculitis)**，但該項僅有模型預測、無任何研究支持；
-證據相對最具體的是**慢性鼻竇炎 (chronic rhinosinusitis)**，目前有 **1 篇霧化 bacitracin/colimycin 的隨機對照先導研究**（合併用藥）及數篇間接文獻。
+Colistin（黏菌素）是多黏菌素類抗生素，原本用於治療大腸桿菌感染與外耳炎等革蘭氏陰性菌相關感染。
+TxGNN 模型的前幾名預測（如感染後血管炎）缺乏任何研究支持，證據較多的預測是**鼻竇炎 (Sinusitis)**，目前有 **0 個臨床試驗**和 **11 篇相關文獻**，但多為病例報告、綜述或前臨床研究，屬於研究假說階段。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未提供（香港許可證未載明適應症文字；依藥理為革蘭氏陰性菌感染） |
-| 預測新適應症 | 感染後血管炎 (postinfectious vasculitis)（排名第 1） |
-| TxGNN 預測分數 | 99.91%（排名第 1 的預測） |
-| 證據等級 | L5（排名第 1 的預測）；同批預測中最高為 L3（慢性鼻竇炎） |
+| 原適應症 | 大腸桿菌感染、外耳炎、外耳疾病（香港許可證未登載適應症文字，此為知識圖譜資料） |
+| 預測新適應症 | 感染後血管炎 (Postinfectious Vasculitis)（排名第 1）；證據較多者為鼻竇炎 (Sinusitis)（排名第 8） |
+| TxGNN 預測分數 | 感染後血管炎 99.91%；鼻竇炎 99.25% |
+| 證據等級 | 感染後血管炎 L5；鼻竇炎 L4 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 2 張 |
-| 建議決策 | Hold（排名第 1 的預測）；慢性鼻竇炎為 Research Question |
+| 建議決策 | Hold（鼻竇炎方向可列為 Research Question） |
 
-> 補充：TxGNN 分數極高（皆 >99%）但與實際證據不成正比，排名第 1 的預測很可能只是知識圖譜中與感染相關節點相近所致。
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Colistin 是多黏菌素類抗生素，會結合革蘭氏陰性菌外膜的脂多醣 (LPS)，破壞外膜完整性而殺菌。
+目前缺乏詳細的作用機轉資料。根據已知資訊，colistin 是多黏菌素類抗生素，會破壞革蘭氏陰性菌的外膜，對綠膿桿菌等多重抗藥性革蘭氏陰性菌有殺菌作用。
 
-**感染後血管炎、感染後症候群等：**這類疾病多為免疫複合物介導，並非活動性感染，機轉上沒有明確路徑。
-Chagas 心肌病由寄生蟲引起，感染相關溶血性尿毒症候群 (HUS) 由毒素造成內皮損傷，且 Colistin 有腎毒性；感染性尿道狹窄為纖維化後遺症。這些預測都缺乏機轉依據，較可能是知識圖譜的假象。
+**排名第 1 的預測（感染後血管炎）**機轉上缺乏合理連結。此疾病屬感染後的免疫媒介反應，colistin 最多只能透過清除誘發病原體產生間接作用。此外 colistin 具腎毒性，對血管炎患者是顧慮。排名 2–6 的預測（感染後疾病、感染後症候群、恰加斯心肌病變、感染相關溶血性尿毒症候群、感染性尿道狹窄）同樣缺乏機轉依據，且部分情況（如 STEC 相關 HUS）通常避免使用抗生素。
 
-**慢性鼻竇炎與鼻竇炎：**Colistin 對綠膿桿菌等革蘭氏陰性菌有活性，特別是囊性纖維化 (CF) 或多重抗藥性病例。
-霧化或局部給藥可降低全身暴露，機轉上較合理，但目前只有個案與間接證據。
+**證據較多的方向是鼻竇炎。**囊狀纖維化及免疫低下患者的鼻竇炎常由綠膿桿菌等革蘭氏陰性菌引起，colistin 對這些菌有活性，因此機轉上有合理性。慢性鼻竇炎與慢性篩竇炎的支持程度較低，主要依據類推。
+
+---
 
 ## 臨床試驗證據
 
-以下僅列出與 Colistin 較相關者（各預測適應症的試驗多為活動性抗藥菌感染，屬間接證據）。
+目前無相關臨床試驗登記。
 
-**post-bacterial disorder（排名第 2）**
-
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT06488794](https://clinicaltrials.gov/study/NCT06488794) | Phase 2/3 | 尚未招募 | 400 | 霧化 colistimethate 預防兒童呼吸器相關肺炎（對照安慰劑） |
-| [NCT06440304](https://clinicaltrials.gov/study/NCT06440304) | Phase 4 | 招募中 | 108 | 碳青黴烯抗藥鮑氏不動桿菌感染的治療策略 |
-| [NCT01631968](https://clinicaltrials.gov/study/NCT01631968) | N/A | 完成 | 2948 | 含 erythromycin 與 colistin 骨水泥預防膝關節置換術後感染 |
-| [NCT01732250](https://clinicaltrials.gov/study/NCT01732250) | Phase 4 | 完成 | 406 | Colistin 單用 vs 合併 meropenem 治療多重抗藥菌感染 |
-| [NCT01970371](https://clinicaltrials.gov/study/NCT01970371) | Phase 3 | 完成 | 69 | Plazomicin vs colistin 治療碳青黴烯抗藥腸桿菌感染 |
-| [NCT02452047](https://clinicaltrials.gov/study/NCT02452047) | Phase 3 | 完成 | 50 | Imipenem/relebactam vs colistimethate + imipenem 治療抗藥菌感染 |
-| [NCT03894046](https://clinicaltrials.gov/study/NCT03894046) | Phase 3 | 完成 | 207 | Sulbactam-durlobactam vs colistin 為基礎方案治療不動桿菌感染 |
-| [NCT06198764](https://clinicaltrials.gov/study/NCT06198764) | Phase 3 | 招募中 | 80 | 中國成人碳青黴烯抗藥革蘭氏陰性菌感染，colistimethate 合併 meropenem |
-| [NCT06827756](https://clinicaltrials.gov/study/NCT06827756) | Phase 4 | 完成 | 90 | Norfloxacin、nitazoxanide、colistin 用於自發性細菌性腹膜炎二級預防 |
-| [NCT05922124](https://clinicaltrials.gov/study/NCT05922124) | Phase 4 | 招募中 | 734 | Cefiderocol + 氨苄西林舒巴坦 vs colistin 為基礎方案治療 CRAB |
-
-**post-infectious syndrome（排名第 3）**
-
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT02389036](https://clinicaltrials.gov/study/NCT02389036) | Phase 3 | 完成 | 20010 | ICU 消化道選擇性去污染（含 colistin）預防感染的整群交叉試驗 |
-| [NCT06051513](https://clinicaltrials.gov/study/NCT06051513) | N/A | 招募中 | 404 | Colistimethate 治療碳青黴烯抗藥腸桿菌感染 |
-| [NCT01023087](https://clinicaltrials.gov/study/NCT01023087) | N/A | 完成 | 70 | Polymyxin E 相關腎功能損害的觀察研究（安全性） |
-| [NCT02134106](https://clinicaltrials.gov/study/NCT02134106) | Phase 2/3 | 撤回 | 0 | XDR 革蘭氏陰性菌合併抗生素試驗，未收案，無資料 |
-
-其餘預測適應症（感染後血管炎、Chagas 心肌病、感染相關 HUS、感染性尿道狹窄、副傷寒、鼻竇炎、慢性鼻竇炎、慢性篩竇炎）目前無相關臨床試驗登記。
-
-> 以上試驗皆針對活動性感染的治療或預防，並非「感染後疾病」，與預測適應症僅為關鍵字層級的間接關聯。
+---
 
 ## 文獻證據
 
-**慢性鼻竇炎 / 鼻竇炎（證據最具體）**
+以下為排名第 8 的鼻竇炎預測相關文獻（優先列出與 colistin 較直接相關者）：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [18575008](https://pubmed.ncbi.nlm.nih.gov/18575008/) | 2008 | 雙盲隨機對照交叉先導研究（依標題判斷） | Rhinology | 霧化 bacitracin/colimycin 用於頑固性慢性鼻竇炎（金黃色葡萄球菌），為合併用藥，無法分離 colistin 貢獻 |
-| [19308657](https://pubmed.ncbi.nlm.nih.gov/19308657/) | 2009 | 個案報告 | Int J Hematol | 靜脈注射 colistin 成功治療 AML 患者由多重抗藥綠膿桿菌引起的鼻竇炎、眼眶蜂窩性組織炎與肺炎 |
-| [25016384](https://pubmed.ncbi.nlm.nih.gov/25016384/) | 2014 | 藥動學研究 | J Antimicrob Chemother | CF 患者經鼻給予 tobramycin 與 colistin 的全身吸收，作為安全性替代指標 |
-| [34296343](https://pubmed.ncbi.nlm.nih.gov/34296343/) | 2022 | Review | Eur Arch Otorhinolaryngol | CF 相關慢性鼻竇炎治療選項回顧 |
-| [23406585](https://pubmed.ncbi.nlm.nih.gov/23406585/) | 2013 | 世代研究（間接） | Am J Rhinol Allergy | CF 患者鼻竇手術與密集追蹤對致病菌的影響，非 colistin 特異 |
-| [27879058](https://pubmed.ncbi.nlm.nih.gov/27879058/) | 2017 | 世代研究（間接） | Int Forum Allergy Rhinol | 鼻竇手術可改善原發性纖毛運動障礙患者生活品質與肺功能 |
-| [24315789](https://pubmed.ncbi.nlm.nih.gov/24315789/) | 2014 | 體外／前臨床 | Int J Antimicrob Agents | Colistin 對浮游態綠膿桿菌的殺菌效果不依賴羥自由基生成 |
-| [41599109](https://pubmed.ncbi.nlm.nih.gov/41599109/) | 2025 | 體外／前臨床 | Pharmaceutics | Ceragenins 合併 ivacaftor 抑制鼻竇炎致病菌生物膜（非 colistin） |
+| [34296343](https://pubmed.ncbi.nlm.nih.gov/34296343/) | 2022 | Review | Eur Arch Otorhinolaryngol | 囊狀纖維化合併慢性鼻竇炎的治療選項綜述，此類鼻竇炎常對標準治療反應不佳 |
+| [19308657](https://pubmed.ncbi.nlm.nih.gov/19308657/) | 2009 | Case report | Int J Hematol | 急性骨髓性白血病患者因多重抗藥性綠膿桿菌引起鼻竇炎、眼眶蜂窩性組織炎與肺炎，靜脈注射 colistin 治療成功 |
+| [25016384](https://pubmed.ncbi.nlm.nih.gov/25016384/) | 2014 | 藥物動力學研究 | J Antimicrob Chemother | 囊狀纖維化患者經鼻給予 tobramycin 與 colistin（CMS）後有系統性吸收，與安全性評估相關 |
+| [24315789](https://pubmed.ncbi.nlm.nih.gov/24315789/) | 2014 | 體外/前臨床 | Int J Antimicrob Agents | colistin 對綠膿桿菌的殺菌作用不依賴氫氧自由基形成 |
+| [33155505](https://pubmed.ncbi.nlm.nih.gov/33155505/) | 2021 | 前臨床/給藥方法 | Acta Otolaryngol | 自體纖維蛋白膠合併抗生素，可用於鼻竇手術後局部抗生素治療 |
+| [41599109](https://pubmed.ncbi.nlm.nih.gov/41599109/) | 2025 | 體外/前臨床 | Pharmaceutics | Ceragenins 合併 ivacaftor 可抑制引起鼻竇炎細菌的生物膜形成（非 colistin 研究） |
 
-**副傷寒**
+其餘文獻（如原發性纖毛不動症鼻竇手術、嗜中性白血球低下發燒研究、耳鼻喉科綠膿桿菌抗藥性回溯研究等）與 colistin 療效僅為間接相關，故未列出。
 
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [14126225](https://pubmed.ncbi.nlm.nih.gov/14126225/) | 1964 | 歷史臨床觀察 | Iryo | 傷寒與副傷寒觀察報告，無摘要，標題未顯示 colistin 證據 |
+排名 7 的副傷寒另有 1 篇 1964 年的臨床觀察報告（[14126225](https://pubmed.ncbi.nlm.nih.gov/14126225/)，Iryo），未顯示 colistin 療效。
+
+---
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-63662 | COLISTIN POWDER FOR SOLUTION FOR INJECTION 150MG | 注射用粉劑（依品名） | 未提供 |
-| HK-42135 | MULTIBIO SUSPENSION INJ (VET) | 注射懸液（依品名） | 未提供（獸醫用產品） |
+| HK-63662 | COLISTIN POWDER FOR SOLUTION FOR INJECTION 150MG | 未登載 | 未登載 |
+| HK-42135 | MULTIBIO SUSPENSION INJ (VET) | 未登載 | 未登載 |
 
-## 細胞毒性
+HK-42135 為獸醫用產品，不適用於人類。
 
-Colistin 為抗菌藥物，非抗腫瘤藥物，不適用此章節。
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（來自知識圖譜關聯，非仿單內容）：腎臟疾病、輸尿管積膿、單純皰疹感染、困難梭狀桿菌結腸炎、新生兒壞死性腸炎、重症肌無力（含成人型）、神經肌肉接合部疾病、膝狀神經節帶狀皰疹、出血性大皰性鼓膜炎。
+- **腎毒性**：colistin 具腎毒性，在感染後血管炎與溶血性尿毒症候群等腎臟受損情境尤須注意。
+- **鼻腔給藥**：已有研究顯示經鼻給藥仍有系統性吸收，需評估安全性。
 
-補充：Evidence Pack 中的觀察研究（NCT01023087）以 polymyxin E 相關腎功能損害為主題，且 Colistin 已知具腎毒性，在感染相關 HUS 等腎損傷情境需特別留意。香港衛生署仿單的警語與禁忌尚未取得，藥物交互作用查詢無結果。
+其他警語與藥物交互作用資料請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
-**決策：Hold**（排名第 1 的感染後血管炎，及其餘 L5 預測）
-慢性鼻竇炎、鼻竇炎建議列為 **Research Question**，可另行深入評估。
+**決策：Hold**（鼻竇炎方向可列為 Research Question）
 
 **理由：**
-- 前六名預測（感染後血管炎、post-bacterial disorder、post-infectious syndrome、Chagas 心肌病、感染相關 HUS、感染性尿道狹窄）機轉上缺乏依據，多為知識圖譜假象，或試驗僅屬活動性感染的間接證據。
-- 慢性鼻竇炎有霧化 colimycin 合併用藥的先導研究，機轉上較合理，但僅屬 L3，且非 colistin 單獨效果。
-- 高 TxGNN 分數不代表療效，證據不足。
+- 預測分數最高的前 6 項皆僅有模型預測，無臨床試驗或文獻，且機轉連結薄弱或不成立，另有腎毒性顧慮。
+- 鼻竇炎（尤其是囊狀纖維化或免疫低下患者的綠膿桿菌感染）有合理機轉及少量病例報告，但沒有臨床試驗，證據僅為 L4。
 
 **若要推進需要：**
-- 取得香港衛生署仿單（警語、禁忌、適應症），此為目前阻擋安全性初篩的缺口
-- 補齊 MOA 資料（DrugBank）
-- 針對慢性鼻竇炎：確認 PMID 18575008 的實際試驗設計與結果，並評估霧化／局部給藥的安全性（腎毒性、神經毒性、氣道刺激）
-- 確認局部給藥劑型在香港是否可取得（現有許可證為注射劑）
-- 評估與現行標準療法（局部類固醇、其他抗生素）的相對價值，以及 CF 族群的適用性
-
-> 本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。
+- 取得詳細的作用機轉（MOA）資料。
+- 取得香港仿單的警語與禁忌，完成安全性篩選。
+- 針對鼻竇炎設計局部或吸入給藥的安全性與療效研究，並評估系統性吸收與腎毒性。
+- 確認給藥途徑與現有劑型（注射劑）的相容性。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Selenium
-parent: 中證據等級 (L3-L4)
-nav_order: 788
-evidence_level: L4
+parent: 僅模型預測 (L5)
+nav_order: 803
+evidence_level: L5
 indication_count: 1
 ---
 
 # Selenium
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ indication_count: 1
 
 </div>
 
-# Selenium：從 未載明原適應症 到 硬化性膽管炎
+# Selenium：從（原適應症未載明）到硬化性膽管炎
 
 ## 一句話總結
 
-Selenium（硒）在香港有 4 張上市許可證，劑型包含輸注濃縮液、注射液與口服溶液，但資料中未載明原適應症。
-TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** 有效，預測分數很高。
-不過目前**沒有臨床試驗**，只有 **5 篇間接文獻**，且都沒有顯示療效，證據仍相當薄弱。
+Selenium（硒）是人體必需的微量元素，目前在香港有 4 張單一成分許可證，但本次compiled 資料中未載明其核准適應症。
+TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** 有效，但目前**沒有臨床試驗**，僅有 **5 篇**觀察性或間接相關的文獻，證據屬於模型預測階段。
 
 ---
 
@@ -43,9 +42,10 @@ TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** �
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 資料中未載明 |
 | 預測新適應症 | 硬化性膽管炎 (Sclerosing Cholangitis) |
 | TxGNN 預測分數 | 99.04% |
-| 證據等級 | L4 |
+| 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 4 張 |
 | 建議決策 | Hold |
@@ -54,11 +54,11 @@ TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 尚未取得）。因此無法把預測連結到明確的藥物標靶，只能根據文獻做合理推測。
+目前缺乏詳細的作用機轉資料。硒是麩胱甘肽過氧化酶（glutathione peroxidase）及多種硒蛋白的必要成分，參與抗氧化防禦。
 
-硒是麩胱甘肽過氧化酶 (glutathione peroxidase) 與其他硒蛋白的輔因子，參與抗氧化防禦。氧化壓力與膽汁淤積性肝病、肝纖維化有關，這是兩者之間可能的機轉連結。
+在膽汁淤積性肝病中，氧化壓力與發炎被認為是致病因素之一，也與肝纖維化有關。因此理論上，硒的抗氧化作用可能減緩膽汁淤積性肝損傷。不過這只是合理的推測，尚未經證實。
 
-現有文獻顯示，原發性硬化性膽管炎 (PSC) 患者的肝臟有硒與銅滯留，且脂溶性營養素攝取不足。這些發現指出 PSC 患者的微量元素狀態有改變，**並不代表補充硒有治療效果**。TxGNN 分數雖然高，但這是圖譜模型的預測，目前沒有任何文獻記載其治療機轉。
+需要特別注意的是，現有文獻顯示原發性硬化性膽管炎 (PSC) 患者的肝臟有硒與銅滯留，但這可能反映代謝改變或膽汁淤積本身，而非治療標靶，作用方向（有益或有害）並不明確。此外，硒是靜脈營養的組成成分，與靜脈營養相關肝病的膽汁淤積有關，但與 PSC 本身無直接關聯。目前沒有證據顯示補充硒能改善 PSC 的預後。
 
 ---
 
@@ -72,28 +72,32 @@ TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** �
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [9053974](https://pubmed.ncbi.nlm.nih.gov/9053974/) | 1995 | 觀察性研究 | Scand J Gastroenterol | 研究 32 名 PSC 患者的微量元素代謝，發現肝臟有銅與硒滯留 |
-| [39601354](https://pubmed.ncbi.nlm.nih.gov/39601354/) | 2025 | 觀察性研究 | Liver Int | PSC 患者的飲食品質不佳，脂溶性維生素攝取不足（與北歐營養建議比較） |
-| [29148959](https://pubmed.ncbi.nlm.nih.gov/29148959/) | 2017 | 臨床個案 | JPEN | 一名 PSC 合併潰瘍性結腸炎、嚴重吸收不良的病人，探討靜脈營養與脂質乳劑的影響（間接相關） |
-| [17109383](https://pubmed.ncbi.nlm.nih.gov/17109383/) | 2006 | 前臨床（小鼠） | Proteomics | 比較毒性誘發肝纖維化與硬化性膽管炎小鼠模型的肝臟蛋白質體變化 |
-| [18941372](https://pubmed.ncbi.nlm.nih.gov/18941372/) | 2008 | 回顧 | Eur J Cancer Prev | 大腸直腸癌化學預防藥物回顧（間接相關） |
+| [39601354](https://pubmed.ncbi.nlm.nih.gov/39601354/) | 2025 | Cohort | Liver Int | PSC 患者脂溶性維生素攝取與整體飲食品質偏低，並與北歐營養建議比較 |
+| [9053974](https://pubmed.ncbi.nlm.nih.gov/9053974/) | 1995 | Cohort | Scand J Gastroenterol | 32 位 PSC 患者的微量元素代謝研究，顯示肝臟有銅與硒滯留 |
+| [29148959](https://pubmed.ncbi.nlm.nih.gov/29148959/) | 2017 | Cohort（個案） | JPEN J Parenter Enteral Nutr | 重度吸收不良合併 PSC 與潰瘍性結腸炎患者的靜脈營養調整，討論氧化壓力與抗氧化狀態 |
+| [17109383](https://pubmed.ncbi.nlm.nih.gov/17109383/) | 2006 | 前臨床（小鼠蛋白質體學） | Proteomics | 比較毒性誘發肝纖維化與硬化性膽管炎小鼠模型的肝臟蛋白質變化 |
+| [18941372](https://pubmed.ncbi.nlm.nih.gov/18941372/) | 2008 | Review | Eur J Cancer Prev | 大腸直腸癌化學預防的回顧，與硬化性膽管炎關聯性間接 |
 
 ---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-68022 | SELENIUM AGUETTANT CONCENTRATE FOR SOLUTION FOR INFUSION 100MCG/10ML | HONG KONG MEDICAL SUPPLIES LTD |
-| HK-63846 | SELESYN ORAL SOLUTION 100MCG/2ML | VIUTURE MEDICAL CONSULTANCY LIMITED |
-| HK-63948 | SELESYN SOLUTION FOR INJECTION 500MCG/10ML | VIUTURE MEDICAL CONSULTANCY LIMITED |
-| HK-63847 | SELESYN SOLUTION FOR INJECTION 100MCG/2ML | VIUTURE MEDICAL CONSULTANCY LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-68022 | SELENIUM AGUETTANT CONCENTRATE FOR SOLUTION FOR INFUSION 100MCG/10ML | 未載明 | 未載明 |
+| HK-63846 | SELESYN ORAL SOLUTION 100MCG/2ML | 未載明 | 未載明 |
+| HK-63948 | SELESYN SOLUTION FOR INJECTION 500MCG/10ML | 未載明 | 未載明 |
+| HK-63847 | SELESYN SOLUTION FOR INJECTION 100MCG/2ML | 未載明 | 未載明 |
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。目前尚未取得香港衛生署的仿單警語與禁忌資料，藥物交互作用查詢也無結果。
+- **藥物交互作用**（共 6 筆，來源：DDInter）：
+  - **嚴重**：Dimercaprol
+  - **中度**：Levofloxacin、Triethylenetetramine、Deferiprone、Tolevamer、Eltrombopag
+
+其他安全性資訊（警語、禁忌症）請參考原廠仿單。
 
 ---
 
@@ -102,19 +106,15 @@ TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** �
 **決策：Hold**
 
 **理由：**
-- TxGNN 分數很高，但沒有臨床試驗，文獻也只顯示 PSC 患者的微量元素狀態異常，沒有證據顯示補充硒能改善病情。
-- 作用機轉與仿單安全性資料都還缺漏，無法進入安全性篩選。
+- TxGNN 分數雖高（99.04%），但僅屬計算預測，沒有任何臨床試驗，文獻也僅為觀察性或間接相關的研究。
+- 肝臟硒滯留的意義與作用方向不明，且缺乏作用機轉與仿單安全性資料，目前不宜推進。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單（警語、禁忌、核准適應症）
-- 從 DrugBank 補齊作用機轉資料
-- 搜尋硒補充用於 PSC 或膽汁淤積性肝病的介入性研究（臨床試驗與文獻）
-- 評估給藥途徑與 PSC 患者的相容性（目前尚待確認）
-- 釐清 PSC 患者肝臟硒滯留的方向與意義，是缺乏、過量還是代謝異常，再決定補充是否合理
-
----
-
-*本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證後才能應用。*
+- 補充 DrugBank 的作用機轉資料，並釐清硒與 PSC 病理（氧化壓力、纖維化）的機轉連結
+- 取得香港衛生署核准適應症與仿單的警語、禁忌症
+- 進行 PSC 患者血中與肝臟硒狀態的研究，釐清硒缺乏或滯留的臨床意義
+- 前臨床（如 Abcb4 基因剔除小鼠）驗證硒補充的效果，再評估早期臨床試驗
+- 評估與 PSC 常用藥物及上述交互作用藥物的併用風險，以及不同給藥途徑（口服或注射）的適用性
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

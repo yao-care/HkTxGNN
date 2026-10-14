@@ -2,7 +2,7 @@
 layout: default
 title: Dexmedetomidine
 parent: 僅模型預測 (L5)
-nav_order: 263
+nav_order: 268
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,110 +29,91 @@ indication_count: 5
 
 </div>
 
-# Dexmedetomidine：從鎮靜到腎因性抗利尿不適當症候群
+# Dexmedetomidine：從鎮靜用藥到頭痛疾患（Headache Disorder）
 
 ## 一句話總結
 
-Dexmedetomidine 是 α2 腎上腺素受體促效劑，臨床試驗登記資料描述其核准用於成人 ICU 與處置性鎮靜。
-TxGNN 預測它可能對**腎因性抗利尿不適當症候群 (Nephrogenic Syndrome of Inappropriate Antidiuresis, NSIAD)** 有效，但**目前沒有任何臨床試驗或文獻支持**，且機轉上有明顯疑慮。
-在其他預測適應症中，證據最多的是**頭痛疾患 (Headache Disorder)**，有 12 個相關登記試驗與 7 篇文獻，但集中在硬脊膜穿刺後頭痛 (PDPH)。
+Dexmedetomidine 是 α2 腎上腺素受體促效劑，在香港以注射濃縮液上市，用於鎮靜。
+TxGNN 模型的預測中，證據最完整的是**頭痛疾患 (Headache Disorder)**，目前有 **4 個臨床試驗**和 **7 篇文獻**，但證據主要集中在硬脊膜穿刺後頭痛（PDPH）這個次類型。
+
+> 說明：本報告以預測清單中證據最充分的第 4 名（頭痛疾患）為主要評估對象。第 1 名（腎因性抗利尿不適當症候群，預測分數 99.60%）沒有任何臨床試驗或文獻，且機轉上不合理，故不作為主軸。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證未列適應症文字；依試驗登記描述為 ICU 與處置性鎮靜 |
-| 預測新適應症 | 腎因性抗利尿不適當症候群 (NSIAD) |
-| TxGNN 預測分數 | 99.60% |
-| 證據等級 | L5（僅有模型預測） |
+| 原適應症 | 目前香港許可證資料中未載明核准適應症 |
+| 預測新適應症 | 頭痛疾患 (Headache Disorder)，證據集中於硬脊膜穿刺後頭痛 |
+| TxGNN 預測分數 | 99.30% |
+| 證據等級 | L2（僅限 PDPH）；整體頭痛疾患證據有限 |
 | 香港上市 | ✓ 已上市 |
-| 許可證數 | 10 張 |
-| 建議決策 | Hold |
+| 許可證數 | 10 張（皆為有效的單方許可證） |
+| 建議決策 | Proceed with Guardrails（建議以 PDPH 為範圍進行研究） |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank MOA 欄位為空）。已知 Dexmedetomidine 是 α2 腎上腺素受體促效劑，可降低血管加壓素釋放並促進利尿。
+目前缺乏詳細的作用機轉資料。根據已知資訊，dexmedetomidine 是高選擇性的中樞 α2 腎上腺素受體促效劑。臨床試驗摘要指出，它具有鎮痛與抗焦慮作用，並可能因腦血管收縮而降低腦血流量。
 
-這正是此預測的問題所在。NSIAD 由血管加壓素 V2 受體 (AVPR2) 的活化型突變引起，與 ADH 無關。抑制上游血管加壓素分泌，理論上無法改善受體本身持續活化的狀況。
+PDPH 的特徵是腦脊髓液外漏後的嚴重姿勢性頭痛，與腦血管擴張有關。α2 促效作用可能降低疼痛訊號傳遞並減少腦血管擴張，這是其可能有效的機轉依據。霧化（nebulized）給藥是這些研究採用的新途徑。
 
-因此，0.996 的高分目前缺乏機轉支持，未經驗證，不宜視為有效訊號。
+需注意：這些證據只針對 PDPH（繼發性頭痛），不能推論到原發性頭痛疾患。多數研究樣本小，設計也不一致。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記。
+| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
+|---------|------|------|------|---------|
+| [NCT04910477](https://clinicaltrials.gov/study/NCT04910477) | Phase 3 | 完成 | 90 | 剖腹產後 PDPH：霧化 dexmedetomidine 對比 neostigmine/atropine 與生理食鹽水 |
+| [NCT04327726](https://clinicaltrials.gov/study/NCT04327726) | 不適用 (NA) | 完成 | 43 | 脊髓麻醉剖腹產產婦 PDPH：霧化 dexmedetomidine 的療效（隨機對照） |
+| [NCT06470854](https://clinicaltrials.gov/study/NCT06470854) | 不適用 (NA) | 完成 | 50 | PDPH：霧化 dexmedetomidine 對比雙側枕大神經阻斷（病例對照） |
+| [NCT03513757](https://clinicaltrials.gov/study/NCT03513757) | Phase 4 | 完成 | 40 | 兒童 MRI 鎮靜：propofol 輸注對比 dexmedetomidine 加 propofol；頭痛非主要目標，相關性低 |
 
 ## 文獻證據
 
-目前無相關文獻。
-
-## 其他預測適應症的證據概況
-
-以下為同一批預測中的其他適應症，其中頭痛疾患是唯一有實質證據的方向。
-
-| 預測適應症 | TxGNN 分數 | 證據等級 | 決策 | 說明 |
-|-----------|-----------|---------|------|------|
-| 偏頭痛 (Migraine Disorder) | 99.49% | L4 | Hold | 僅有 1 個 PDPH 試驗，屬繼發性頭痛，為間接證據 |
-| 腦幹型先兆偏頭痛 | 99.35% | L5 | Hold | 無試驗與文獻 |
-| **頭痛疾患 (Headache Disorder)** | 99.30% | L3 | Research Question | 證據集中於 PDPH，詳見下方 |
-| 三叉自主神經性頭痛 | 99.09% | L5 | Hold | 無試驗與文獻，機轉推論屬臆測 |
-
-### 頭痛疾患：臨床試驗（僅列與 PDPH 直接相關者）
-
-12 個計入的試驗中，有數個是以麻醉為主的試驗，頭痛只是結果指標或關鍵字，故不列出。
-
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT04327726](https://clinicaltrials.gov/study/NCT04327726) | 未分期 | 完成 | 43 | 霧化 Dexmedetomidine 治療剖腹產後 PDPH 的隨機對照試驗 |
-| [NCT06514040](https://clinicaltrials.gov/study/NCT06514040) | 未分期 | 完成 | 48 | 霧化 Dexmedetomidine 對比口服 Sumatriptan 治療 PDPH |
-| [NCT06470854](https://clinicaltrials.gov/study/NCT06470854) | 未分期 | 完成 | 50 | 霧化 Dexmedetomidine 對比雙側枕大神經阻斷（病例對照設計） |
-| [NCT04910477](https://clinicaltrials.gov/study/NCT04910477) | Phase 3 | 完成 | 90 | 霧化 Dexmedetomidine 對比 Neostigmine/Atropine 與生理食鹽水安慰劑，雙盲隨機 |
-| [NCT06824025](https://clinicaltrials.gov/study/NCT06824025) | Early Phase 1 | 尚未招募 | 111 | 霧化 Neostigmine/Atropine 對比 Lignocaine 治療 PDPH；Dexmedetomidine 非明確試驗組，僅作疾病脈絡參考 |
-
-### 頭痛疾患：文獻
-
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [36651373](https://pubmed.ncbi.nlm.nih.gov/36651373/) | 2023 | RCT（雙盲） | Minerva Anestesiologica | 比較霧化 Dexmedetomidine 與 Neostigmine/Atropine 對剖腹產後 PDPH 的保守治療效果 |
-| [33993346](https://pubmed.ncbi.nlm.nih.gov/33993346/) | 2021 | RCT | Journal of Anesthesia | 在 PDPH 保守治療中加入霧化 Dexmedetomidine，並以經顱都卜勒評估腦血流動力學效應 |
-| [41120897](https://pubmed.ncbi.nlm.nih.gov/41120897/) | 2025 | 系統性回顧與統合分析 | BMC Anesthesiology | 評估霧化 Dexmedetomidine 治療剖腹產後 PDPH 的療效與安全性 |
-| [39799300](https://pubmed.ncbi.nlm.nih.gov/39799300/) | 2025 | 病例報告 | BMC Anesthesiology | 兩例產科 PDPH 使用霧化 Dexmedetomidine 的經驗 |
-| [31345663](https://pubmed.ncbi.nlm.nih.gov/31345663/) | 2019 | 評論／短報 | Int J Obstet Anesth | 提出霧化 Dexmedetomidine 可能作為 PDPH 的解方（假說層級） |
+| [41120897](https://pubmed.ncbi.nlm.nih.gov/41120897/) | 2025 | 系統性回顧/統合分析 | BMC Anesthesiology | 評估霧化 dexmedetomidine 治療剖腹產後 PDPH 的療效與安全性 |
+| [36651373](https://pubmed.ncbi.nlm.nih.gov/36651373/) | 2023 | RCT | Minerva Anestesiologica | 比較霧化 dexmedetomidine 與 neostigmine/atropine 治療 PDPH |
+| [33993346](https://pubmed.ncbi.nlm.nih.gov/33993346/) | 2021 | RCT | Journal of Anesthesia | 在 PDPH 保守治療中加入 dexmedetomidine，並以經顱都卜勒評估腦血流動力學效應 |
+| [39799300](https://pubmed.ncbi.nlm.nih.gov/39799300/) | 2025 | 病例報告 | BMC Anesthesiology | 兩例產科 PDPH 使用霧化 dexmedetomidine 治療 |
+| [31345663](https://pubmed.ncbi.nlm.nih.gov/31345663/) | 2019 | 評論 | Int J Obstet Anesth | 討論霧化 dexmedetomidine 是否為 PDPH 的解方 |
 
-證據多為小型、以產科為主的研究，沒有 Phase 2/3 標示的試驗，也沒有原發性頭痛（如偏頭痛）的試驗。結論不應外推到 PDPH 以外的頭痛。
+另有 2 篇文獻（PMID 23757186 的 ADHD 藥物過量回顧、PMID 41700262 的後部可逆性腦病變症候群病例）與本適應症相關性低，未列入。
 
 ## 香港上市資訊
 
-共 10 張許可證，以下列出 5 張。資料庫未提供劑型與核准適應症文字。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-49806 | PRECEDEX INJ 100MCG/ML（輝瑞） | 注射劑 | 資料未載明 |
+| HK-66810 | DEXMEDETOMIDINE SANDOZ 濃縮輸注液 200MCG/2ML | 輸注濃縮液 | 資料未載明 |
+| HK-67869 | DEXMEDETOMIDINE FRESENIUS 濃縮輸注液 0.2MG/2ML | 輸注濃縮液 | 資料未載明 |
+| HK-68011 | DEXMEDETOMIDINE B. BRAUN 濃縮輸注液 200MCG/2ML | 輸注濃縮液 | 資料未載明 |
+| HK-66522 | DEXMEDETOMIDINE ORION 濃縮輸注液 200MCG/2ML | 輸注濃縮液 | 資料未載明 |
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-66810 | DEXMEDETOMIDINE SANDOZ CONCENTRATE FOR SOLUTION FOR INFUSION 200MCG/2ML | Sandoz Hong Kong Limited |
-| HK-67869 | DEXMEDETOMIDINE FRESENIUS CONCENTRATE FOR SOLUTION FOR INFUSION 0.2MG/2ML | Fresenius Kabi Hong Kong Limited |
-| HK-68011 | DEXMEDETOMIDINE B. BRAUN CONCENTRATE FOR SOLUTION FOR INFUSION 200MCG/2ML | B. Braun Medical (HK) Ltd |
-| HK-68375 | DEXMEDETOMIDINE KABI CONCENTRATE FOR SOLUTION FOR INFUSION 0.2MG/2ML | Fresenius Kabi Hong Kong Limited |
-| HK-63931 | DEXMEDETOMIDINE CONCENTRATE FOR SOLUTION FOR INFUSION 0.2MG/2ML | Jindun Pharma (H.K.) Limited |
+此為 10 張許可證中的 5 張，其餘許可證同為 dexmedetomidine 單方注射製劑。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。DrugBank 查無藥物交互作用資料。
+- **知識圖譜標示的相關疾病（非仿單內容）**：高血壓、低血壓、腎臟疾病、肝臟疾病、膽囊疾病、糖尿病、糖尿病酮酸中毒、房室傳導阻滯、輸尿管積膿。使用前須謹慎評估。
+- **藥物交互作用**：共查到 59 筆。中度交互作用包括 morphine、opium、dronabinol、nabilone、diphenoxylate、ethanol、papaverine、sibutramine、amyl nitrite、diazoxide、phentolamine，主要需留意中樞抑制與血壓變化的疊加。
+- **血行動力學風險**：dexmedetomidine 可能造成心搏過緩與低血壓，這在頭痛病患，尤其是腦幹型偏頭痛先兆患者中值得留意。
 
-若未來在頭痛方向推進，需特別監測心搏過緩、低血壓與鎮靜。
+正式的警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Hold**（首要預測：NSIAD）
+**決策：Proceed with Guardrails**（限於 PDPH 範圍；其他預測適應症為 Hold）
 
 **理由：**
-- NSIAD 預測僅有模型分數，沒有任何試驗或文獻，而且機轉上與 AVPR2 活化型突變相矛盾，高分未經驗證。
-- 頭痛疾患方向有小型 PDPH 研究支持（Research Question 階段），但屬繼發性頭痛，不能代表原發性頭痛或偏頭痛。
+- 頭痛疾患中的 PDPH 有 1 個已完成的 Phase 3 試驗、數項 RCT 與 1 篇 2025 年統合分析，臨床訊號一致。但樣本小、不同研究設計混雜，且僅限繼發性頭痛，不宜外推到整體頭痛疾患。
+- 其他預測中，偏頭痛 (migraine disorder) 僅有 1 個招募中的試驗（NCT07769255，n=146，尚無結果），屬 L4 研究問題；腎因性 SIAD、腦幹先兆偏頭痛與三叉自主神經性頭痛皆無證據（L5），其中 SIAD 的機轉上不合理（AVPR2 功能獲得性突變作用於受體，α2 促效無法改善），很可能是計算上的假象。
 
 **若要推進需要：**
-- NSIAD：確認是否有任何機轉或個案證據，否則不建議投入資源。
-- 頭痛／PDPH：取得更大型、多中心的隨機對照試驗，確認霧化劑型的劑量與安全性。
-- 偏頭痛等原發性頭痛：需要專屬的臨床試驗，PDPH 資料無法替代。
-- 補齊香港衛生署仿單的警語與禁忌資料，以及 DrugBank 的作用機轉。
-
-*本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證後才能應用。*
+- 取得完整仿單，確認核准適應症、警語與禁忌症
+- 取得詳細作用機轉資料
+- 進行較大規模、設計嚴謹的多中心 RCT，確認霧化 dexmedetomidine 對 PDPH 的療效與劑量
+- 確認霧化給藥途徑在香港的法規適用性與製劑可得性
+- 建立心率、血壓的監測計畫，特別針對低血壓與房室傳導阻滯高風險族群
+- 持續追蹤 NCT07769255 的偏頭痛試驗結果
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

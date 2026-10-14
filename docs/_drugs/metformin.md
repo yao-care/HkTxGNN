@@ -2,7 +2,7 @@
 layout: default
 title: Metformin
 parent: 僅模型預測 (L5)
-nav_order: 559
+nav_order: 568
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,13 +29,13 @@ indication_count: 5
 
 </div>
 
-# Metformin：從第二型糖尿病到典型僵人症候群
+# Metformin：從第二型糖尿病到僵人症候群（Classic Stiff Person Syndrome）
 
 ## 一句話總結
 
-Metformin（二甲雙胍）是香港已上市的口服降血糖藥，一般用於第二型糖尿病。
-TxGNN 模型預測它可能對**典型僵人症候群 (Classic Stiff Person Syndrome)** 有效。
-目前**沒有臨床試驗和文獻**支持，僅有模型預測。
+Metformin（二甲雙胍）原本用於治療第二型糖尿病。
+TxGNN 模型預測它可能對**典型僵人症候群 (Classic Stiff Person Syndrome)** 有效，
+但目前**沒有任何臨床試驗或文獻**支持這個方向，僅為模型預測。
 
 ---
 
@@ -43,7 +43,7 @@ TxGNN 模型預測它可能對**典型僵人症候群 (Classic Stiff Person Synd
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證資料未載明適應症文字（第二型糖尿病為一般藥理知識，非本次資料所載） |
+| 原適應症 | 第二型糖尿病 (Type 2 Diabetes Mellitus) |
 | 預測新適應症 | 典型僵人症候群 (Classic Stiff Person Syndrome) |
 | TxGNN 預測分數 | 99.45% |
 | 證據等級 | L5 |
@@ -51,24 +51,26 @@ TxGNN 模型預測它可能對**典型僵人症候群 (Classic Stiff Person Synd
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
+註：原適應症取自 TxGNN 知識圖譜的適應症資料，香港許可證的核准適應症文字在本次資料中皆為空白。
+
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Metformin 在降血糖上的療效已被廣泛使用，一般認為它透過活化 AMPK 來改善胰島素敏感性。這是通用藥理知識，並非本次資料所載。
+目前缺乏詳細的作用機轉資料。Metformin 在第二型糖尿病的療效已被證實，一般認為其作用與改善胰島素敏感性、活化 AMPK 路徑有關，但這部分並非來自本次彙整的資料，僅供參考。
 
-僵人症候群主要是自體免疫疾病，多與抗 GAD65 抗體有關，也常合併自體免疫性糖尿病。這可能是模型把兩者連在一起的原因之一。Metformin 的 AMPK 活化和抗發炎作用，理論上可能影響免疫或代謝路徑。
+僵人症候群是一種自體免疫性神經疾病（常見抗 GAD65 抗體），常與第一型糖尿病及其他自體免疫疾病並存。因此可推測 Metformin 透過 AMPK 活化與免疫代謝調節可能有某種關聯。但 Metformin 的抗發炎作用在這類神經疾病中尚未被證實，本次資料也不支持任何直接機轉。
 
-這個關聯目前只是推測，未經驗證。高圖譜分數不等於臨床證據，機轉上是否真的適用仍需文獻和實驗確認。
+需要特別注意：同屬僵硬類疾病的**局限性僵肢症候群 (Focal Stiff Limb Syndrome)** 得到完全相同的分數 (99.45%)，顯示預測可能來自知識圖譜中相近疾病的鄰近關係，而非獨立證據。
 
-**同一次預測中的其他候選（皆為 L5、Hold）：**
+### 其他預測適應症（皆為 L5，建議 Hold）
 
-| 排名 | 預測疾病 | 分數 | 說明 |
-|------|---------|------|------|
-| 2 | 局部僵硬肢症候群 (Focal Stiff Limb Syndrome) | 99.45% | 屬僵人症候群譜系，分數與第 1 名相同，可能來自共同的圖譜鄰居，不算獨立支持 |
-| 3 | Opsismodysplasia | 99.40% | 罕見骨骼發育不良，與 INPPL1 (SHIP2) 變異及 PI3K/Akt 訊號有關，僅為路徑層面的假說，兒童安全性需另行評估 |
-| 4 | 硫胺素反應性功能障礙症候群 (Thiamine-responsive Dysfunction Syndrome) | 99.40% | 此症候群含糖尿病，通常以硫胺素和胰島素處理。Metformin 是否影響硫胺素狀態需先查文獻，這也是潛在安全疑慮 |
-| 5 | 藥物引起的局部脂肪失養症 (Drug-induced Localized Lipodystrophy) | 99.06% | 多為注射部位病變（如胰島素）。Metformin 可能間接減少胰島素用量，但不能治療局部脂肪組織變化本身 |
+| 排名 | 預測適應症 | TxGNN 分數 | 備註 |
+|------|-----------|-----------|------|
+| 2 | 局限性僵肢症候群 (Focal Stiff Limb Syndrome) | 99.45% | 與排名 1 同分，推測來自相近疾病的圖譜關聯 |
+| 3 | 骨發育不良症 (Opsismodysplasia) | 99.40% | INPPL1 突變影響 PI3K/AKT 訊號，與 Metformin 的胰島素/AMPK/mTOR 路徑理論上有重疊，但未經驗證 |
+| 4 | 硫胺素反應性功能異常症候群 (Thiamine-responsive Dysfunction Syndrome) | 99.40% | Metformin 至多是治療合併的糖尿病，而非改善疾病本身；與有機陽離子轉運蛋白的交互作用也需留意 |
+| 5 | 藥物誘發性局部脂肪營養不良 (Drug-induced Localized Lipodystrophy) | 99.06% | 改善胰島素敏感性有生物學上的合理性，但局部型病理不同，相關性不確定 |
 
 ---
 
@@ -86,21 +88,27 @@ TxGNN 模型預測它可能對**典型僵人症候群 (Classic Stiff Person Synd
 
 ## 香港上市資訊
 
-Metformin 在香港共有 20 張許可證，以下列出 5 張主要許可證。資料中未提供劑型與核准適應症文字。
+香港共有 20 張有效單方許可證（無已註銷）。以下列出 5 張主要許可證：
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-49681 | METFORMIN BDC TAB 500MG | TRENTON-BOMA LTD |
-| HK-61081 | PANFOMIN TAB 500MG | VAST RESOURCES PHARMACEUTICAL LTD |
-| HK-58075 | DIABETMIN 850 TAB 850MG | HOVID LIMITED |
-| HK-33714 | SIAMFORMET TAB 0.5G | KAI YUEN PHARMACEUTICAL CO |
-| HK-66869 | METPHAR XR 750 EXTENDED-RELEASE TABLETS 750MG | PRIMAL CHEMICAL CO LTD |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-27087 | GLUCOPHAGE TAB 500MG（Merck Pharmaceutical (HK)） | 未標示 | 未標示 |
+| HK-50383 | GLUCOPHAGE TAB 1000MG（Merck Pharmaceutical (HK)） | 未標示 | 未標示 |
+| HK-68753 | GLUCOPHAGE XR PROLONGED-RELEASE TABLETS 500MG（Merck Pharmaceutical (HK)） | 未標示 | 未標示 |
+| HK-65175 | METFORMIN SANDOZ TABLETS 500MG（Sandoz Hong Kong） | 未標示 | 未標示 |
+| HK-66869 | METPHAR XR 750 EXTENDED-RELEASE TABLETS 750MG（Primal Chemical） | 未標示 | 未標示 |
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **禁忌症（來自知識圖譜，非仿單內容）**：圖譜標示的相關疾病包括肝衰竭、腎臟疾病、胰臟炎、肝臟疾病、膽囊疾病、充血性心衰竭、腎上腺皮質功能不全、腦下垂體功能低下及相關先天性疾病（如 Kallmann 症候群、Sheehan 症候群）等。
+- **藥物交互作用**：共查得 100 筆，以下為部分範例：
+  - **嚴重 (Major)**：Acetazolamide、乙醇 (Ethanol)
+  - **中度 (Moderate)**：Dolutegravir、Abemaciclib、Ranitidine、Nifedipine、Ibuprofen、Ketorolac、Hydrochlorothiazide、Ethinylestradiol、Hydrocortisone、Epinephrine、Salbutamol 等
+  - **輕微 (Minor)**：Acarbose、外用 Hydrocortisone
+
+仿單的警語與禁忌症資料目前缺漏，詳細內容請參考原廠仿單。
 
 ---
 
@@ -109,17 +117,14 @@ Metformin 在香港共有 20 張許可證，以下列出 5 張主要許可證。
 **決策：Hold**
 
 **理由：**
-- 僅有 TxGNN 模型預測（分數 99.45%），沒有任何臨床試驗或文獻支持，證據等級為 L5。
-- 缺少作用機轉資料和香港仿單的警語與禁忌，無法進行安全性篩選。
+- 預測僅來自模型分數，沒有任何臨床試驗或文獻佐證（證據等級 L5），且機轉連結屬推測。
+- 排名 1 與 2 的分數完全相同，顯示預測可能是圖譜鄰近效應，而非獨立訊號。
 
 **若要推進需要：**
-- 補充 Metformin 的作用機轉資料（例如查詢 DrugBank）。
-- 下載並解析香港衛生署的仿單，取得警語與禁忌症。
-- 檢索 Metformin 與僵人症候群（含抗 GAD65 自體免疫）的文獻，確認是否有病例報告或機轉研究。
-- 確認給藥途徑與目標族群是否相容，目前該項仍待評估。
-- 若後續要考慮硫胺素反應性功能障礙症候群，先查 Metformin 與硫胺素轉運或狀態的關係。
-
-本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證後才能應用。
+- 取得 Metformin 的詳細作用機轉資料（MOA）
+- 取得香港衛生署仿單的警語與禁忌症，完成安全性篩選
+- 系統性檢索 Metformin 與僵人症候群、抗 GAD65 自體免疫的文獻與試驗，確認是否存在支持證據
+- 若有初步證據，再評估神經疾病族群使用的安全性與合適劑型
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

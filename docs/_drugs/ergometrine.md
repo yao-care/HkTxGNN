@@ -2,7 +2,7 @@
 layout: default
 title: Ergometrine
 parent: 僅模型預測 (L5)
-nav_order: 329
+nav_order: 334
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,13 @@ indication_count: 10
 
 </div>
 
-# Ergometrine：從（未載明原適應症）到偏頭痛
+# Ergometrine：從產科用途到毛髮過多症（預測）
 
 ## 一句話總結
 
-Ergometrine 是麥角生物鹼類藥物，香港登記產品為 SYNTOMETRINE 注射劑，但登記資料未載明原適應症。
-TxGNN 模型的首位預測為毛髮過多症 (hypertrichosis)，但完全沒有證據支持；證據最多的方向是**偏頭痛 (Migraine Disorder)**，目前有 **0 個臨床試驗**和 **約 20 篇文獻**（多為近緣藥物 methylergonovine 的小型研究，本報告列出其中 10 篇），證據強度偏弱。
+Ergometrine 是麥角生物鹼類子宮收縮藥，香港目前有一張上市許可證（SYNTOMETRINE INJ），但本報告所編的資料中沒有記載其核准適應症。
+TxGNN 模型預測它可能對**多毛症 (hypertrichosis)** 有效，但目前**沒有任何臨床試驗與文獻**支持，也找不到機轉上的關聯。
+排名較前的預測中，只有偏頭痛有間接文獻，且其安全疑慮多於療效證據。
 
 ---
 
@@ -42,27 +43,25 @@ TxGNN 模型的首位預測為毛髮過多症 (hypertrichosis)，但完全沒有
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證未載明 |
-| 預測新適應症 | 毛髮過多症 (Hypertrichosis)（TxGNN 排名第 1，無任何證據）；較有研究價值的方向：偏頭痛 (Migraine Disorder) |
-| TxGNN 預測分數 | 毛髮過多症 99.96%；偏頭痛 99.93% |
-| 證據等級 | 毛髮過多症 L5；偏頭痛 L3 |
+| 原適應症 | 資料未載明（許可證的核准適應症欄位為空白） |
+| 預測新適應症 | 多毛症 (hypertrichosis) |
+| TxGNN 預測分數 | 99.96% |
+| 證據等級 | L5（僅有模型預測） |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 1 張 |
-| 建議決策 | Hold（偏頭痛方向可列為 Research Question） |
-
-> 注意：TxGNN 分數僅代表模型預測，前 10 名分數皆在 99.8% 以上，差異不大，不代表臨床有效機率。
+| 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位為空）。根據已知資訊，Ergometrine 是麥角生物鹼，作用於子宮平滑肌，也作用於血清素、腎上腺素與多巴胺受體。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Ergometrine 是麥角生物鹼，主要透過血清素、α-腎上腺素與多巴胺受體作用於子宮平滑肌，產生子宮收縮。
 
-**毛髮過多症（排名第 1）：** 看不出任何機轉關聯。藥物的已知作用與毛髮生長無關，高分僅來自知識圖譜推論，沒有試驗或文獻。
+這個機轉與毛囊調控之間找不到任何可辨識的連結。99.96% 的高分來自知識圖譜的推論，沒有任何試驗或文獻佐證，較可能是圖譜相似性造成的假象，而非真實的藥理關聯。
 
-**偏頭痛（排名第 7）：** 機轉上有合理性。麥角生物鹼作用於 5-HT1B/1D 等血清素受體，並造成顱內血管收縮。Ergometrine 的近緣藥物 methylergonovine 有小型非對照或回溯性研究，用於難治型偏頭痛預防與經期偏頭痛。但 ergometrine 本身的直接證據有限，從 methylergonovine 外推需要謹慎。
+其他高分預測也有類似問題，例如 Ambras 型先天性全身多毛症、腎因性抗利尿不適當症候群、Dandy-Walker 畸形相關症候群、遺傳性毛幹異常、痲瘋病，皆無合理機轉。
 
-**其他預測：** 排名第 2–6、9 的疾病（Ambras 型先天性全身多毛症、腎因性抗利尿不適當症候群、牙周相關畸形症候群、Dandy-Walker 畸形症候群、遺傳性毛幹異常、痲瘋病）皆無合理藥理機轉。牙周炎的 20 筆文獻只是疾病關鍵字重疊，與藥物無關。偏頭痛伴腦幹先兆（排名第 8）與肺高壓（排名第 10）的文獻反而顯示麥角類血管收縮作用可能造成傷害，方向可能相反。
+唯一在生物學上較說得通的是**偏頭痛**（排名第 7，分數 99.93%）。麥角類藥物如 ergotamine、二氫麥角胺和 methysergide 作用於 5-HT1B/1D 受體，造成顱內血管收縮，這是已確立的偏頭痛機轉。Ergometrine 具有相同的麥角灵骨架和 5-HT 受體活性，但主要作用是子宮收縮，並非已確立的偏頭痛藥物。
 
 ---
 
@@ -74,22 +73,18 @@ TxGNN 模型的首位預測為毛髮過多症 (hypertrichosis)，但完全沒有
 
 ## 文獻證據
 
-以下為偏頭痛方向（排名第 7）的文獻，依研究類型（世代研究優先）與相關性挑選：
+針對首要預測（多毛症），目前無相關文獻。
+
+下表為次要預測「偏頭痛」與「肺高壓」的間接文獻，僅供參考，並不支持多毛症：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [2759844](https://pubmed.ncbi.nlm.nih.gov/2759844/) | 1989 | Cohort | Headache | 40 名經期偏頭痛患者接受間歇性 ergonovine 預防性治療，追蹤 6 個月 |
-| [23432443](https://pubmed.ncbi.nlm.nih.gov/23432443/) | 2013 | Cohort | Headache | 口服 methylergonovine 用於難治型偏頭痛與叢集性頭痛預防 |
-| [19895705](https://pubmed.ncbi.nlm.nih.gov/19895705/) | 2009 | Cohort | Head & Face Medicine | 急診女性偏頭痛患者靜脈注射 methylergonovine 的療效與耐受性（開放式先導研究） |
-| [7216754](https://pubmed.ncbi.nlm.nih.gov/7216754/) | 1980 | Cohort | Headache | 偏頭痛間歇期治療的長期結果 |
-| [9793694](https://pubmed.ncbi.nlm.nih.gov/9793694/) | 1998 | Review | Cephalalgia | Methysergide（ergometrine 衍生物）用於偏頭痛預防，兼具 5-HT2 拮抗與 5-HT1 促效作用 |
-| [23216317](https://pubmed.ncbi.nlm.nih.gov/23216317/) | 2013 | Review | Headache | 偏頭痛藥物的血清素相關心臟不良事件（QT 延長、冠狀動脈痙攣） |
-| [556819](https://pubmed.ncbi.nlm.nih.gov/556819/) | 1977 | Review | Neurology | 偏頭痛預防藥物似乎對頸動脈痛也有效（8 名女性） |
-| [15293589](https://pubmed.ncbi.nlm.nih.gov/15293589/) | 2004 | Review | Am J Crit Care | Prinzmetal 變異型心絞痛（冠狀動脈血管痙攣）概述 |
-| [5761912](https://pubmed.ncbi.nlm.nih.gov/5761912/) | 1969 | Review | Br Med J | 復發性頭痛的預防 |
-| [10971665](https://pubmed.ncbi.nlm.nih.gov/10971665/) | 2000 | Case report | Headache | 有先兆慢性偏頭痛患者產後發生腦血管病變 |
-
-以上皆非隨機對照試驗，多為小型開放式或回溯性研究，且主要針對 methylergonovine 而非 ergometrine。
+| [9793694](https://pubmed.ncbi.nlm.nih.gov/9793694/) | 1998 | Review | Cephalalgia | Methysergide（麥角衍生物）用於偏頭痛預防，屬相關藥物而非 ergometrine 本身 |
+| [41844474](https://pubmed.ncbi.nlm.nih.gov/41844474/) | 2026 | Review | Int J Obstet Anesth | 心臟疾病孕婦使用子宮收縮劑的重點回顧，涉及肺高壓族群的使用風險 |
+| [22731893](https://pubmed.ncbi.nlm.nih.gov/22731893/) | 2012 | Review | Anaesthesia | 子癇前症對麻醉科的處置重點 |
+| [10971665](https://pubmed.ncbi.nlm.nih.gov/10971665/) | 2000 | Case report | Headache | 一名有先兆偏頭痛病人產後發生腦血管病變，提示血管收縮型麥角類藥物的安全疑慮 |
+| [20509463](https://pubmed.ncbi.nlm.nih.gov/20509463/) | 2009 | Review | J R Coll Physicians Edinb | 麥角 1900–1940 年的歷史回顧，無療效證據 |
+| [3214444](https://pubmed.ncbi.nlm.nih.gov/3214444/) | 1988 | Preclinical (animal) | Arzneimittel-Forschung | Nilvadipine 的心血管動物研究，與 ergometrine 無關 |
 
 ---
 
@@ -97,39 +92,33 @@ TxGNN 模型的首位預測為毛髮過多症 (hypertrichosis)，但完全沒有
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-01698 | SYNTOMETRINE INJ | 資料未載明 | 資料未載明 |
-
-製造商：DCH AURIGA (HONG KONG) LIMITED - HEALTHCARE DIVISION。
+| HK-01698 | SYNTOMETRINE INJ | 資料未載明 | 資料未載明（製造商：DCH Auriga (Hong Kong) Limited） |
 
 ---
 
 ## 安全性考量
 
-- **藥物交互作用**：DrugBank 查無相關資料。
-- 文獻提示的潛在風險：麥角類藥物的血管收縮作用可能誘發冠狀動脈痙攣、心肌缺血；有心臟或肺血管疾病的孕產婦使用後曾出現急性肺高壓危象（PMID 26050249）；長期使用麥角類藥物（如 Sansert、Ergotrate）曾有胸膜增厚的報告（PMID 6773347）。
-- 香港衛生署仿單的警語與禁忌尚未取得，請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（來自 TxGNN 知識圖譜，非仿單文字）：高血壓、癲癇、腎臟病、輸尿管積膿、肝病、膽囊疾病、中風、腦血管疾病、缺血性中風易感性、腦梗塞、閉塞性動脈硬化症、HELLP 症候群。
+- **藥物交互作用**：共查得 83 筆。主要（Major）等級包括 Isometheptene、Epinephrine、Lorcaserin、Clarithromycin、Ephedrine、Cobicistat。中度（Moderate）等級包括 Doxycycline、Aprepitant、Dexamethasone、Cimetidine、Miconazole 等。評估偏頭痛時，需特別留意 CYP3A4 抑制劑與 triptan 類藥物。
+- **其他考量**：Ergometrine 具子宮收縮作用，圍產期以外的孕婦不宜使用。血管收縮作用也可能提高血管痙攣和缺血風險，與肺高壓的文獻警示一致。
+
+仿單的警語與禁忌資料尚未取得，詳細安全性資訊請參考原廠仿單。
 
 ---
 
 ## 結論與下一步
 
-**決策：Hold**（偏頭痛方向可列為 Research Question）
+**決策：Hold**
 
 **理由：**
-- TxGNN 首位預測（毛髮過多症）及其餘多數預測沒有證據，也沒有合理機轉，僅為模型輸出。
-- 偏頭痛方向有機轉合理性與小型觀察性研究，但證據來自近緣藥物 methylergonovine，沒有登記試驗，且心血管血管痙攣風險明顯，不宜直接推進。
-- 肺高壓與伴腦幹先兆偏頭痛的文獻反映的是安全警訊，而非治療證據。
+- 首要預測（多毛症）與其餘多數高分預測皆無試驗、無文獻，也找不到機轉連結，屬圖譜推論的假象。
+- 偏頭痛雖有生物學上的合理性，但現有文獻僅為相關藥物的專論與一則顯示安全疑慮的病例報告，且血管收縮與高藥物交互作用負擔使風險偏高。肺高壓則屬禁忌訊號，並非再利用機會。
 
 **若要推進需要：**
-- 取得香港衛生署仿單（警語、禁忌症、原核准適應症），完成 S1 安全性篩選（目前為阻斷性缺口）。
-- 補齊 DrugBank 的作用機轉資料。
-- 系統性比較 ergometrine 與 methylergonovine 的藥理與藥動差異，評估外推是否成立。
-- 設計以心血管安全為核心的評估（排除冠心病、血管痙攣、周邊血管疾病族群）。
-- 確認給藥途徑與劑型：現有登記為注射劑，慢性偏頭痛預防通常需要口服劑型。
-
----
-
-*本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。*
+- 取得香港衛生署的仿單，確認原適應症、警語與禁忌。
+- 補充 DrugBank 的作用機轉資料。
+- 若要探索偏頭痛，需先做針對 ergometrine 本身的文獻回顧，並與已確立的麥角類、triptan 類藥物比較，再評估血管缺血風險與交互作用管理計畫。
+- 多毛症及其他無機轉依據的預測，除非有新的生物學證據，否則不建議投入資源。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

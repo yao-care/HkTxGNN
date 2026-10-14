@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ertapenem
-parent: 僅模型預測 (L5)
-nav_order: 331
-evidence_level: L5
+parent: 中證據等級 (L3-L4)
+nav_order: 336
+evidence_level: L4
 indication_count: 2
 ---
 
 # Ertapenem
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+證據等級: **L4** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ indication_count: 2
 
 </div>
 
-# Ertapenem：從廣效碳青黴烯類抗生素到細菌性關節炎
+# Ertapenem：從細菌性肺炎到細菌性關節炎
 
 ## 一句話總結
 
-Ertapenem 是一種廣效碳青黴烯類（carbapenem）注射抗生素，在香港已有 4 張許可證。
-TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有效。
-目前**沒有直接相關的臨床試驗**，文獻有 **10 篇**，多為單一病例報告與間接資料，證據偏弱。
+Ertapenem 是廣譜碳青黴烯類（carbapenem）抗生素，原本用於細菌性肺炎、鏈球菌肺炎及消化鏈球菌（Peptostreptococcus）感染。
+TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有效，但目前**無登記的臨床試驗**，僅有 **10 篇文獻**（多為病例報告與小型觀察性研究）支持，屬於早期的模型預測方向。
 
 ---
 
@@ -43,22 +42,25 @@ TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有�
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 細菌性肺炎、鏈球菌肺炎、消化鏈球菌感染 |
 | 預測新適應症 | 細菌性關節炎 (Bacterial Arthritis) |
 | TxGNN 預測分數 | 99.72% |
-| 證據等級 | L3（僅有觀察性研究與病例報告，且多為間接證據） |
+| 證據等級 | L4 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 4 張 |
 | 建議決策 | Hold |
+
+註：資料中的原適應症來自知識圖譜，香港許可證的核准適應症文字並無記載。
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Ertapenem 是廣效碳青黴烯類抗生素，對多種腸內菌科細菌（Enterobacterales，包含產 ESBL 菌株）與厭氧菌有活性。
+目前缺乏詳細的作用機轉資料（MOA 欄位為空）。不過 Ertapenem 屬於碳青黴烯類，其類別機轉已相當明確：結合細菌的青黴素結合蛋白（PBP），抑制細胞壁合成，進而殺菌。
 
-細菌性關節炎屬於細菌感染，致病菌常包含上述細菌。從抗菌譜來看，Ertapenem 用於這類關節感染有合理的藥理基礎。文獻中的個案也支持這個方向，例如肺炎克雷伯氏菌（*Klebsiella pneumoniae*）與 *Prevotella bivia* 引起的化膿性關節炎。
+它對多數腸內桿菌科細菌、鏈球菌與厭氧菌都有活性，而這些正是細菌性關節炎與骨關節感染常見的致病菌。原適應症（肺炎、厭氧菌感染）與新適應症同屬細菌感染，因此在機轉上有合理的延伸性。
 
-不過 TxGNN 分數只是知識圖譜的預測，不是臨床證據。現有文獻多為個案報告與回溯性資料，尚未證明 Ertapenem 對細菌性關節炎的療效與最佳用法。
+須注意：TxGNN 的高分（0.997）是計算預測，不等於臨床證據。目前支持的資料以個案報告和小型觀察性研究為主。
 
 ---
 
@@ -72,33 +74,36 @@ TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有�
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [24709258](https://pubmed.ncbi.nlm.nih.gov/24709258/) | 2014 | 世代研究 | Antimicrob Agents Chemother | 回溯分析 306 名門診接受 Ertapenem 治療的成人，適應症以腹腔內感染最多，也包含骨與關節感染，探討長期門診治療的安全性與療效 |
-| [31220276](https://pubmed.ncbi.nlm.nih.gov/31220276/) | 2019 | 世代研究 | J Antimicrob Chemother | 10 名骨與關節感染患者以皮下注射 β-lactam 作長期抑制性治療，評估安全性與結果（非專指 Ertapenem） |
-| [41878879](https://pubmed.ncbi.nlm.nih.gov/41878879/) | 2026 | 世代研究 | J Antimicrob Chemother | 評估 Temocillin 對第三代頭孢菌素抗藥腸內菌科所致骨關節感染的體外活性，作為碳青黴烯類的可能替代（非 Ertapenem 研究） |
-| [29183082](https://pubmed.ncbi.nlm.nih.gov/29183082/) | 2017 | 回顧 | JAMA | 化膿性汗腺炎的診斷與治療進展，與細菌性關節炎關聯低 |
-| [22233826](https://pubmed.ncbi.nlm.nih.gov/22233826/) | 2011 | 病例報告 | J Chemother | 肺炎克雷伯氏菌所致腕關節化膿性關節炎，以 Ertapenem 加 Levofloxacin 治療成功 |
-| [31352398](https://pubmed.ncbi.nlm.nih.gov/31352398/) | 2019 | 病例報告 | BMJ Case Rep | 糖尿病足合併 *Citrobacter koseri* 骨髓炎與化膿性關節炎，以 Ertapenem 治療成功 |
-| [37578166](https://pubmed.ncbi.nlm.nih.gov/37578166/) | 2023 | 病例報告 | J Investig Med High Impact Case Rep | 免疫功能正常成人的 *Prevotella bivia* 化膿性關節炎，附文獻回顧 |
-| [31585203](https://pubmed.ncbi.nlm.nih.gov/31585203/) | 2020 | 病例報告 | Anaerobe | 首例 *Clostridium paraputrificum* 肩關節化膿性關節炎合併骨髓炎，附文獻回顧 |
-| [38924836](https://pubmed.ncbi.nlm.nih.gov/38924836/) | 2024 | 體外研究 | Diagn Microbiol Infect Dis | Auranofin 可恢復 Ertapenem 對碳青黴烯抗藥大腸桿菌的敏感性（非關節感染） |
-| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | 流行病學 | Clin Lab | 分析 4 歲以下兒童骨關節感染的病原菌分布與抗藥性 |
+| [24709258](https://pubmed.ncbi.nlm.nih.gov/24709258/) | 2014 | 世代研究 | Antimicrob Agents Chemother | 306 位門診長期使用 Ertapenem 的回溯性研究，適應症包含骨關節感染，探討長期療效與安全性 |
+| [31220276](https://pubmed.ncbi.nlm.nih.gov/31220276/) | 2019 | 世代研究 | J Antimicrob Chemother | 10 位骨關節感染患者以皮下 β-內醯胺類做長期抑制性治療 |
+| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | 世代研究 | Clin Lab | 分析 4 歲以下兒童骨關節感染的致病菌分布與抗藥性 |
+| [41878879](https://pubmed.ncbi.nlm.nih.gov/41878879/) | 2026 | 世代研究 | J Antimicrob Chemother | 探討 Temocillin 作為第三代頭孢菌素抗藥腸內桿菌骨關節感染的替代選擇（碳青黴烯為現行常用治療） |
+| [22233826](https://pubmed.ncbi.nlm.nih.gov/22233826/) | 2011 | 個案報告 | J Chemother | 肺炎克雷伯菌引起的腕關節敗血性關節炎，以 Ertapenem 加 Levofloxacin 成功治療 |
+| [31352398](https://pubmed.ncbi.nlm.nih.gov/31352398/) | 2019 | 個案報告 | BMJ Case Rep | 糖尿病足 Citrobacter koseri 骨髓炎合併敗血性關節炎，以 Ertapenem 成功治療 |
+| [31585203](https://pubmed.ncbi.nlm.nih.gov/31585203/) | 2020 | 個案報告與回顧 | Anaerobe | 副腐敗梭菌引起的肩關節敗血性關節炎與骨髓炎 |
+| [37578166](https://pubmed.ncbi.nlm.nih.gov/37578166/) | 2023 | 個案報告與回顧 | J Investig Med High Impact Case Rep | 免疫功能正常成人的 Prevotella bivia 敗血性關節炎 |
+| [38924836](https://pubmed.ncbi.nlm.nih.gov/38924836/) | 2024 | 體外研究 | Diagn Microbiol Infect Dis | Auranofin 可恢復 Ertapenem 對碳青黴烯抗藥大腸桿菌的敏感性 |
+| [29183082](https://pubmed.ncbi.nlm.nih.gov/29183082/) | 2017 | 回顧 | JAMA | 化膿性汗腺炎的診斷與治療進展（與本適應症關聯較低） |
 
 ---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-51101 | INVANZ FOR INJ 1G | MERCK SHARP & DOHME (ASIA) LTD |
-| HK-64357 | CSPC-ETA ERTAPENEM POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION OR INJECTION 1G | JINDUN PHARMA (H.K.) LIMITED |
-| HK-68079 | ERTAPENEM KABI POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 1G | FRESENIUS KABI HONG KONG LIMITED |
-| HK-68815 | ERTEMILL POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION/INJECTION 1G | CHEMILL PHARMA LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-51101 | INVANZ FOR INJ 1G（Merck Sharp & Dohme） | 未載明 | 未載明 |
+| HK-64357 | CSPC-ETA ERTAPENEM POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION OR INJECTION 1G（Jindun Pharma） | 未載明 | 未載明 |
+| HK-68079 | ERTAPENEM KABI POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 1G（Fresenius Kabi） | 未載明 | 未載明 |
+| HK-68815 | ERTEMILL POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION/INJECTION 1G（Chemill Pharma） | 未載明 | 未載明 |
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌/需留意疾病**：癲癇、腎臟疾病、輸尿管積膿、困難梭狀芽孢桿菌結腸炎、新生兒壞死性腸炎（此為模型知識圖譜資料，非仿單原文）。
+- **藥物交互作用**：共查得 38 筆。其中 **Major** 等級為 Bupropion（可能增加癲癇風險，需特別留意）；**Moderate** 等級為 Picosulfuric acid、聚乙二醇（含電解質的 3350）、硫酸鈉；其餘多為等級未明。
+
+其他警語與仿單禁忌請參考原廠仿單。
 
 ---
 
@@ -107,18 +112,15 @@ TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有�
 **決策：Hold**
 
 **理由：**
-- 細菌性關節炎沒有任何臨床試驗，文獻僅有個案報告與間接資料，無法支持推進。
-- 香港衛生署仿單的警語與禁忌資料尚未取得，無法進行安全性篩選。
+- 目前僅有個案報告、小型世代研究與體外資料，無任何登記的臨床試驗，證據等級為 L4；TxGNN 高分僅屬計算預測。
+- 作用機轉資料與香港仿單的警語及適應症資料尚有缺口，無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得香港衛生署仿單，補齊核准適應症、警語與禁忌症。
-- 補充作用機轉資料（例如查詢 DrugBank）。
-- 系統性搜尋 Ertapenem 治療骨關節感染的回溯性研究，並確認關節腔穿透性與劑量。
-- 評估是否有前瞻性研究或試驗可以進一步驗證。
-
-**補充：** 同一份資料中，第二順位預測「金黃色葡萄球菌感染」的證據較強。該項有多篇 Cefazolin 加 Ertapenem 治療持續性 MSSA 菌血症的病例系列與世代研究，另有 1 項進行中的 Phase 2 試驗（NCT04886284）。若要優先評估，可考慮改以該適應症作為切入點。
-
-*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證才能應用。*
+- 取得香港衛生署仿單，補齊警語、禁忌與核准適應症
+- 補充 DrugBank 的作用機轉資料
+- 針對細菌性關節炎或骨關節感染，系統性收集 Ertapenem 的比較性研究，或設計前瞻性研究
+- 評估癲癇風險與 Bupropion 等藥物交互作用的處置方式
+- 另有一個值得關注的方向：金黃色葡萄球菌感染（預測排名第 2）。Ertapenem 合併 Cefazolin 用於 MSSA 菌血症已有 Phase 2（NCT04886284，招募中）與 Phase 4（NCT07148960）試驗，證據進展較快，可作為後續評估重點。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

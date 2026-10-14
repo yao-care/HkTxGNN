@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Hesperidin
-parent: 中證據等級 (L3-L4)
-nav_order: 428
-evidence_level: L4
+parent: 僅模型預測 (L5)
+nav_order: 436
+evidence_level: L5
 indication_count: 10
 ---
 
 # Hesperidin
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ indication_count: 10
 
 </div>
 
-# Hesperidin：從原適應症未登載到骨髓增生性腫瘤
+# Hesperidin：從香港已上市單方製劑到骨髓增生性腫瘤
 
 ## 一句話總結
 
-Hesperidin（橙皮苷）是柑橘類黃酮，在香港已有 17 張許可證，但資料中沒有登載原適應症。
-TxGNN 模型預測它可能對**骨髓增生性腫瘤 (Myeloproliferative Neoplasm)** 有效。
-目前**沒有臨床試驗**，僅有 **2 篇前臨床文獻**（電腦模擬與細胞實驗），證據等級為 L4。
+Hesperidin（橙皮苷）是一種柑橘類黃酮，在香港已有 17 張單方製劑許可證。
+TxGNN 模型預測它可能對**骨髓增生性腫瘤 (Myeloproliferative Neoplasm)** 有效，但目前**沒有臨床試驗**，僅有 **1 篇電腦模擬文獻**，證據非常有限。
 
 ---
 
@@ -43,10 +42,10 @@ TxGNN 模型預測它可能對**骨髓增生性腫瘤 (Myeloproliferative Neopla
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料中未登載 |
+| 原適應症 | 資料中未載明核准適應症文字 |
 | 預測新適應症 | 骨髓增生性腫瘤 (Myeloproliferative Neoplasm) |
 | TxGNN 預測分數 | 99.47% |
-| 證據等級 | L4 |
+| 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 17 張 |
 | 建議決策 | Hold |
@@ -55,15 +54,9 @@ TxGNN 模型預測它可能對**骨髓增生性腫瘤 (Myeloproliferative Neopla
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料，Hesperidin 原本的適應症也沒有登載。已知它是柑橘類黃酮糖苷，其配基（aglycone）為 hesperetin。以下的合理性只能從前臨床研究推得，並非來自已證實的臨床療效。
+目前缺乏詳細的作用機轉資料。Hesperidin 在香港以單方製劑形式上市，多數產品名稱（如 Daflon 類）屬於一般認知的靜脈循環相關黃酮製劑，但本次資料並未載明核准適應症，因此無法據此判斷與新適應症的關聯。
 
-現有文獻集中在**慢性骨髓性白血病（CML，骨髓增生性腫瘤的一種）**：
-- 一篇電腦模擬研究以藥物再利用方式，針對 CML 中 BCR-ABL 相關標的進行篩選。
-- 一篇細胞實驗顯示 hesperetin 可提高人類骨髓性白血病細胞的膜黃體素受體表現，並降低活性氧（ROS）。
-
-這些訊號只涉及 CML。其他類型的骨髓增生性腫瘤（例如 JAK2 驅動的疾病）沒有任何支持證據。
-
-另有一個限制：兩篇研究中至少一篇使用的是 hesperetin，而非 hesperidin。Hesperidin 口服生物利用度偏低，能否達到有效濃度仍是未知數。因此這個預測目前主要靠模型分數支撐。
+支持此預測的唯一文獻是一項針對慢性骨髓性白血病（CML，一種相關的骨髓增生性腫瘤）的電腦模擬藥物再利用研究，以分子對接預測潛在標的。這屬於計算預測，沒有針對 Hesperidin 的實驗或臨床驗證。99.47% 的高分僅代表模型預測，不等於療效證據。
 
 ---
 
@@ -77,30 +70,21 @@ TxGNN 模型預測它可能對**骨髓增生性腫瘤 (Myeloproliferative Neopla
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [31759365](https://pubmed.ncbi.nlm.nih.gov/31759365/) | 2019 | 電腦模擬篩選 | Asian Pac J Cancer Prev | 以藥物再利用的電腦模擬方法，針對 CML 中 BCR-ABL 相關標的（Grb-2）尋找潛在藥物，藉此應對 TKI 抗藥性。 |
-| [40751800](https://pubmed.ncbi.nlm.nih.gov/40751800/) | 2025 | 細胞實驗 | Med Oncol | Hesperetin 可提高人類骨髓性白血病細胞的膜黃體素受體表現，並降低 ROS。 |
-
-兩篇皆屬前臨床研究，沒有 RCT、觀察性研究或系統性回顧。
+| [31759365](https://pubmed.ncbi.nlm.nih.gov/31759365/) | 2019 | 電腦模擬研究 | Asian Pac J Cancer Prev | 以電腦模擬方式篩選可作用於 CML 中 BCR 激酶域相關標的（Grb-2）的再利用藥物，無 Hesperidin 的實驗或臨床驗證 |
 
 ---
 
 ## 香港上市資訊
 
-香港共有 17 張許可證，以下列出 5 張。資料中未提供劑型與核准適應症。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-33940 | DAFLON TAB 500MG | 未載明 | 未載明 |
+| HK-67813 | DAFLON TABLETS 1000MG | 未載明 | 未載明 |
+| HK-61727 | UNI-DAPHON TABLETS | 未載明 | 未載明 |
+| HK-68056 | AVENOR TABLETS 500MG | 未載明 | 未載明 |
+| HK-66397 | VEN-Q TABLETS | 未載明 | 未載明 |
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-61727 | UNI-DAPHON TABLETS | VICKMANS LABORATORIES LTD |
-| HK-68056 | AVENOR TABLETS 500MG | SB PHARMA LIMITED |
-| HK-66397 | VEN-Q TABLETS | DELTAPHARM LIMITED |
-| HK-60527 | HESMIN TAB | NATURAL HEALTH RESOURCES COMPANY LIMITED |
-| HK-61118 | BF-DEPILE CAP | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL LABORATORIES LIMITED |
-
----
-
-## 安全性考量
-
-安全性資訊請參考原廠仿單。藥物交互作用查詢未找到資料。
+共 17 張有效單方許可證，以上列出 5 張。
 
 ---
 
@@ -109,17 +93,14 @@ TxGNN 模型預測它可能對**骨髓增生性腫瘤 (Myeloproliferative Neopla
 **決策：Hold**
 
 **理由：**
-- 沒有臨床試驗，僅有 2 篇前臨床文獻，且只涉及 CML，無法延伸到整個骨髓增生性腫瘤類別。
-- 作用機轉、原適應症與安全性資料都有缺口，暫時無法進入安全性篩選。
+- 此預測僅有模型分數與一篇電腦模擬研究支持，沒有臨床試驗、動物實驗或針對 Hesperidin 的實驗數據，證據等級為 L5。
+- 作用機轉與安全性資料都有缺口，現階段不足以進入臨床考量。
 
 **若要推進需要：**
-- 取得香港衛生署仿單，補齊警語與禁忌症。
-- 補充 Hesperidin 的作用機轉資料（DrugBank）。
-- 釐清 hesperidin 與 hesperetin 的差異，評估口服後實際可達到的血中濃度。
-- 在動物模型中驗證 CML 或其他骨髓增生性腫瘤的療效。
-- 評估其他預測適應症：排名第 8 的「骨髓性白血病」有 16 篇細胞與電腦模擬文獻，前臨床訊號比本項更完整，可優先研究。
-
-> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+- 補齊作用機轉資料（MOA）
+- 取得香港許可證的仿單，確認核准適應症、警語與禁忌
+- 進行細胞株與動物模型的前臨床驗證，並確認可達到的組織藥物濃度
+- 另可留意：資料中排名第 8 的**髓性白血病 (Myeloid Leukemia)** 有多項體外與電腦模擬研究（如 CD33 標的、細胞凋亡、與 cytarabine 併用），前臨床證據相對較多（L4），可作為優先研究方向。不過也有研究指出 C7 位的 rutinoside 結構可能降低類黃酮促細胞凋亡的活性，需一併評估。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

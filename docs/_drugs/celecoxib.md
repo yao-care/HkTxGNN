@@ -2,7 +2,7 @@
 layout: default
 title: Celecoxib
 parent: 僅模型預測 (L5)
-nav_order: 175
+nav_order: 178
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,69 +29,97 @@ indication_count: 10
 
 </div>
 
-# Celecoxib：從 COX-2 選擇性消炎止痛藥到肢中發育不良（Hunter-Thompson 型）
+# Celecoxib：從類風濕性關節炎到肢端中段發育不良（Hunter-Thompson 型）
 
 ## 一句話總結
 
-Celecoxib 是一種 COX-2 選擇性抑制劑，在香港已上市。
-TxGNN 模型預測它可能對**肢中發育不良，Hunter-Thompson 型 (Acromesomelic Dysplasia, Hunter-Thompson Type)** 有效。
-目前**沒有任何臨床試驗或文獻**支持這個預測，僅有模型分數。
+Celecoxib 是選擇性 COX-2 抑制劑，原本用於類風濕性關節炎、僵直性脊椎炎、骨關節炎等關節發炎疾病。
+TxGNN 模型預測它可能對**肢端中段發育不良，Hunter-Thompson 型 (Acromesomelic dysplasia, Hunter-Thompson type)** 有效。
+目前**沒有任何臨床試驗或文獻**支持這個預測，且機轉上缺乏合理連結，僅屬模型推測。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 肢中發育不良，Hunter-Thompson 型 (Acromesomelic Dysplasia, Hunter-Thompson Type) |
+| 原適應症 | 類風濕性關節炎、僵直性脊椎炎、骨關節炎、幼年型特發性關節炎等（來自知識圖譜；香港許可證資料未提供適應症文字） |
+| 預測新適應症 | 肢端中段發育不良，Hunter-Thompson 型 (Acromesomelic dysplasia, Hunter-Thompson type) |
 | TxGNN 預測分數 | 99.88% |
 | 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Celecoxib 是 COX-2 選擇性抑制劑，能降低前列腺素生成，用於消炎止痛。
+目前缺乏詳細的作用機轉資料。Celecoxib 屬於 COX-2 選擇性 NSAID，透過抑制前列腺素合成來減輕發炎與疼痛，在關節炎相關疾病中的療效已被證實。
 
-這個預測的合理性偏低。Hunter-Thompson 型肢中發育不良是由 CDMP1/GDF5 相關基因變異造成的遺傳性骨骼發育不良。COX-2 路徑對這類疾病沒有明確的疾病修飾作用。模型給出高分，較可能是因為知識圖譜中它與肌肉骨骼相關術語距離接近，而非真實的機轉關聯。
+然而，Hunter-Thompson 型肢端中段發育不良是罕見的遺傳性骨骼發育異常，成因為 CDMP1/GDF5 功能喪失，屬於結構性的發育缺陷。COX-2 抑制只能緩解發炎，不預期能矯正這類先天性骨骼發育問題。
+
+因此，**我們判斷這個預測缺乏可信的機轉連結**。99.88% 的高分只是圖譜演算法的結果，不等於有生物學或臨床上的支持。
+
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
 目前無相關文獻。
 
+---
+
 ## 香港上市資訊
 
-香港共有 20 張許可證，以下列出 5 張主要許可證：
+Celecoxib 在香港共有 20 張有效許可證，皆為單一成分製劑，無已註銷者。以下列出 5 張主要許可證：
 
-| 許可證號 | 品名 | 持有廠商 |
-|---------|------|---------|
-| HK-68903 | ECKERD CELECOXIB CAPSULES 200MG | WILSON TRADING COMPANY LIMITED |
-| HK-68726 | CELECOXIB CAPSULES 200MG | NATURAL HEALTH RESOURCES COMPANY LIMITED |
-| HK-67848 | CELECOXIB CAPSULES 200MG | CHEMILL PHARMA LIMITED |
-| HK-44731 | CELEBREX CAP 200MG | VIATRIS HEALTHCARE HONG KONG LIMITED |
-| HK-52808 | CELCOX CAP 100MG | GAILY PHARMACEUTICAL COMPANY LIMITED |
+| 許可證號 | 品名 | 廠商 | 規格 |
+|---------|------|------|------|
+| HK-44731 | CELEBREX CAP 200MG | VIATRIS HEALTHCARE HONG KONG LIMITED | 200 mg |
+| HK-61703 | CELECOXIB SANDOZ CAPSULES 200MG | SANDOZ HONG KONG LIMITED | 200 mg |
+| HK-61704 | CELECOXIB SANDOZ CAPSULES 100MG | SANDOZ HONG KONG LIMITED | 100 mg |
+| HK-67377 | HOVID CELECOXIB CAPSULES 200MG | HOVID LIMITED | 200 mg |
+| HK-64176 | APO-CELECOXIB CAPSULES 100MG | HIND WING CO LTD | 100 mg |
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌或需謹慎疾病**（來自圖譜推論，非仿單原文）：
+  - 心血管：高血壓、充血性心衰竭、心肌梗塞、中風與腦血管疾病
+  - 腎臟、肝臟、膽囊疾病
+  - 消化性潰瘍（含活動性潰瘍）
+  - 氣喘（含過敏性、內因性）
+  - 貧血與血紅蛋白病變
+  - 物質濫用或依賴
+- **藥物交互作用**：資料庫共查得 100 筆。
+  - 嚴重（Major）：Eliglustat
+  - 中度（Moderate）：Hydrocortisone、Metformin、Cimetidine、Levofloxacin、Metronidazole、Naltrexone，以及多種降血糖藥（Glimepiride、Glipizide、Glyburide、Chlorpropamide、Acetohexamide、Nateglinide、Exenatide）和水楊酸類藥物（Mesalazine、Balsalazide、Olsalazine）等
+
+完整警語與禁忌請以原廠仿單為準。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-這個預測只有模型分數，沒有臨床試驗、文獻或合理的機轉支持，應暫緩推進。
+- 此適應症為罕見遺傳性骨骼發育疾病，COX-2 抑制無法作用於其病因。
+- 沒有任何臨床試驗或文獻，證據等級僅 L5，高預測分數不足以支持推進。
 
 **若要推進需要：**
-- 取得 Celecoxib 的作用機轉與原適應症資料，並下載香港衛生署的仿單，補齊安全性資訊
-- 找出 COX-2 與 GDF5/CDMP1 相關骨骼發育之間的機轉證據；目前沒有，建議不再投入資源
+- 找出 GDF5/CDMP1 訊號路徑與前列腺素或 COX-2 路徑之間是否存在任何生物學關聯
+- 前臨床模型（細胞或動物）的初步佐證
+- 完整的作用機轉資料與香港仿單的警語、禁忌資料
 
-**補充：** 同一份分析中，排名第 9 的「發炎性脊椎病變 (Inflammatory Spondylopathy，即軸心型脊椎關節炎／僵直性脊椎炎)」證據明顯較強。它有 Phase 3 與 Phase 4 隨機試驗，也有多篇文獻，證據等級為 L1，建議決策為 Proceed with Guardrails。若要選一個方向深入評估，建議改以這個適應症為主，另行產出報告。推進前須先確認香港標示中對這個適應症的核准狀態，並留意 NSAID 的心血管、腸胃與腎臟風險。
-
-> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+**補充：** 同一批預測中，「發炎性脊椎病變 (inflammatory spondylopathy)」對應僵直性脊椎炎，已有多個已完成的 Phase 3/4 隨機試驗支持。但那屬於原有適應症的確認，並非新的藥物再利用。若要尋找實質再利用機會，建議另行評估其他預測。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

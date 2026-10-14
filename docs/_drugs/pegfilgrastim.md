@@ -2,7 +2,7 @@
 layout: default
 title: Pegfilgrastim
 parent: 僅模型預測 (L5)
-nav_order: 658
+nav_order: 671
 evidence_level: L5
 indication_count: 2
 ---
@@ -33,9 +33,8 @@ indication_count: 2
 
 ## 一句話總結
 
-Pegfilgrastim 是長效型 G-CSF（顆粒球群落刺激因子）類似物，一般用於嗜中性白血球減少症（Evidence Pack 未收錄原適應症，此為一般藥理知識）。
-TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy)** 有效。
-目前**0 個臨床試驗**和 **0 篇文獻**支持，僅有模型預測。
+Pegfilgrastim 是長效型 G-CSF（顆粒球群落刺激因子），香港已有 4 張有效許可證，目前的許可證資料未列出核准適應症文字。
+TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy)** 有效，但目前**沒有任何臨床試驗或文獻**支持，僅屬模型預測。
 
 ---
 
@@ -43,25 +42,25 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未提供（香港許可證未載明核准適應症） |
-| 預測新適應症 | 嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy) |
+| 原適應症 | 香港許可證資料未載明 |
+| 預測新適應症 | 嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy) |
 | TxGNN 預測分數 | 99.89% |
-| 證據等級 | L5（僅有模型預測） |
+| 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 4 張 |
 | 建議決策 | Hold |
 
-另有一個相關預測：**糖尿病視網膜病變 (Diabetic Retinopathy)**，分數 99.73%。它是上述疾病的上位概念，兩者不是獨立證據。
+另有一個相關預測為「糖尿病視網膜病變 (diabetic retinopathy)」，分數 99.73%，同為 L5。兩者高度重疊，並非獨立的證據訊號。
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Pegfilgrastim 屬於 G-CSF 類藥物，一般用途與嗜中性白血球的生成有關，但其在糖尿病視網膜病變的機轉無法從現有資料驗證。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Pegfilgrastim 是聚乙二醇化的 G-CSF，一般認為能刺激嗜中性白血球增生，並動員造血前驅細胞。
 
-一個尚未驗證的假說是：G-CSF 可能動員骨髓來源的前驅細胞，進而影響糖尿病微血管的修復。但這只是推測。促血管新生或發炎相關的作用在晚期視網膜病變中也可能有害，作用方向目前未知。
+理論上，骨髓來源前驅細胞的動員可能有助於血管修復，或調節發炎反應，這是連結到糖尿病視網膜病變的可能假說。
 
-99.89% 的高分是知識圖譜中的關聯，不是臨床證據。原適應症與新適應症的關聯性（相似度）也尚待評估。
+但方向並不確定。G-CSF 引起的嗜中性白血球活化與白血球－內皮細胞交互作用，也可能加重視網膜血管損傷，新生血管形成同樣是理論上的疑慮。此外，現行標準治療（抗 VEGF、雷射、皮質類固醇）門檻很高。這個假說尚未驗證，目前的資料也無法確認其機轉連結。
 
 ---
 
@@ -79,22 +78,24 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-54933 | NEULASTIM PRE-FILLED SYRINGE INJ 6MG/0.6 ML | AMGEN HONG KONG LIMITED |
-| HK-66770 | FULPHILA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 6MG/0.6ML | PRIMEDICA LIMITED |
-| HK-67124 | ZIEXTENZO SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 6MG/0.6ML | SANDOZ HONG KONG LIMITED |
-| HK-68176 | PELGRAZ SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 6MG/0.6ML | JACOBSON MARKETING LIMITED |
-
-四張許可證皆為預填充針筒注射劑（6 mg/0.6 mL），許可證資料未載明核准適應症。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-66770 | FULPHILA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 6MG/0.6ML | 預充填注射劑 | 資料未載明 |
+| HK-68176 | PELGRAZ SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 6MG/0.6ML | 預充填注射劑 | 資料未載明 |
+| HK-54933 | NEULASTIM PRE-FILLED SYRINGE INJ 6MG/0.6 ML | 預充填注射劑 | 資料未載明 |
+| HK-67124 | ZIEXTENZO SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 6MG/0.6ML | 預充填注射劑 | 資料未載明 |
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **藥物交互作用**：已查詢到 100 筆交互作用紀錄，以下為其中列出的部分（均為中度），包括：
+  - 化療與細胞毒性藥物：Paclitaxel、Mercaptopurine、Azacitidine、Arsenic trioxide、Trimetrexate、Altretamine
+  - 標靶與免疫相關藥物：Abemaciclib、Acalabrutinib、Avapritinib、Alemtuzumab、Aldesleukin、Belantamab mafodotin
+  - 放射性藥物與診斷劑：Ibritumomab tiuxetan、Tositumomab、Iobenguane (I-131)、Fludeoxyglucose (18F)
+  - 其他：Pegvaliase、Levamisole
 
-藥物交互作用查詢無結果。香港衛生署仿單的警語與禁忌尚未取得，這是目前的阻斷性資料缺口。
+主要警語與禁忌症請參考原廠仿單。
 
 ---
 
@@ -103,19 +104,15 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 **決策：Hold**
 
 **理由：**
-- 目前只有 TxGNN 模型預測（L5），沒有任何臨床試驗或文獻。
-- 作用方向不明，促血管新生或發炎效應還可能對晚期視網膜病變有害，所以不建議推進。
+- 預測分數雖高，但僅來自圖譜模型，沒有任何臨床試驗或文獻佐證（L5）。
+- 作用機轉資料缺失，且 G-CSF 對視網膜血管的影響方向不明，甚至可能有害。
 
 **若要推進需要：**
-- 針對「G-CSF 與糖尿病視網膜病變」做專門文獻搜尋（前臨床與臨床）
-- 補齊 DrugBank 的作用機轉資料，再分析機轉關聯
-- 取得香港衛生署仿單的警語與禁忌資料，才能進入安全性篩選
-- 評估給藥途徑相容性：目前為皮下注射預填充針筒，眼科用途所需途徑尚未釐清
-- 評估原適應症與新適應症的相似度
-
----
-
-> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+- 取得香港仿單的警語、禁忌症與核准適應症，完成安全性篩選
+- 補充作用機轉資料，並釐清 G-CSF 對視網膜血管、新生血管形成的影響
+- 進行前臨床（動物模型）或文獻回顧，驗證骨髓前驅細胞動員對糖尿病視網膜病變的作用方向
+- 與抗 VEGF 等標準治療比較，評估臨床價值
+- 評估給藥途徑（全身性注射對比眼科局部給藥）的可行性
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

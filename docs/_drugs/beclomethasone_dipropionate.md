@@ -2,7 +2,7 @@
 layout: default
 title: Beclomethasone Dipropionate
 parent: 中證據等級 (L3-L4)
-nav_order: 95
+nav_order: 97
 evidence_level: L3
 indication_count: 1
 ---
@@ -29,13 +29,13 @@ indication_count: 1
 
 </div>
 
-# Beclomethasone Dipropionate：從（原適應症資料缺漏）到異位性皮膚炎
+# Beclomethasone Dipropionate：從氣喘與過敏性鼻炎到異位性皮膚炎
 
 ## 一句話總結
 
-Beclomethasone Dipropionate 是一種糖皮質素（corticosteroid），在香港以吸入劑及鼻噴劑形式上市，但本資料未載明原適應症。
+Beclomethasone dipropionate 是一種合成糖皮質素，原本用於氣喘、過敏性鼻炎、血管運動性鼻炎及鼻息肉等呼吸道疾病。
 TxGNN 模型預測它可能對**異位性皮膚炎 (Atopic Eczema)** 有效，
-目前**無臨床試驗登記**，有 **18 篇文獻**（其中僅 1 篇為 RCT，且為 1984 年的小型交叉試驗）。
+目前**無臨床試驗登記**，有 **9 篇文獻**與此方向相關，但多為間接證據或安全性研究。
 
 ---
 
@@ -43,23 +43,27 @@ TxGNN 模型預測它可能對**異位性皮膚炎 (Atopic Eczema)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未載明 |
+| 原適應症 | 氣喘、過敏性鼻炎、血管運動性鼻炎、鼻息肉（來自知識圖譜；香港許可證未載明適應症文字） |
 | 預測新適應症 | 異位性皮膚炎 (Atopic Eczema) |
 | TxGNN 預測分數 | 99.41% |
 | 證據等級 | L3 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 20 張 |
-| 建議決策 | Hold（列為研究問題） |
+| 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Beclomethasone dipropionate 是糖皮質素受體促效劑，為前驅藥，在體內轉換為活性的 17-單丙酸酯。其廣泛的抗發炎與免疫抑制作用，理論上可抑制異位性皮膚炎中以第二型輔助 T 細胞（Th2）為主的皮膚發炎。
+目前缺乏詳細的作用機轉資料。根據已知資訊，beclomethasone dipropionate 屬於糖皮質素類別，
+透過活化糖皮質素受體，降低促發炎細胞激素表現並抑制免疫細胞活化。此推論來自該類藥物的一般藥理，而非本藥專屬的機轉資料。
 
-不過要注意，糖皮質素類藥物本來就是異位性皮膚炎的既有治療選項。0.994 的高分可能反映的是「類別層級」的既有知識，而非這個藥物特有的新發現。因此這個預測較像是既有用藥的延伸，而非真正的新穎再利用訊號。
+異位性皮膚炎是 Th2 驅動的發炎性皮膚病，常與氣喘、過敏性鼻炎並存（即所謂「異位性三聯症」）。
+外用與全身性皮質類固醇本來就是該疾病的既有治療類別，因此機轉上具生物學合理性，也與模型的高預測分數一致。
 
-此外，文獻中研究的給藥途徑差異很大（口服、鼻用、外用、密封敷料、微胞製劑），彼此無法直接比較，也不能直接對應到香港目前上市的吸入劑與鼻噴劑。
+不過，現有文獻也提示了風險：
+- 有研究指出，外用或鼻用類固醇可能造成全身吸收與腎上腺抑制，兒童尤其需要注意。
+- 一項體外研究（PMID 8765824）顯示，外用類固醇在異位性皮膚炎患者中可能增強自發性 IgE 生成，這是潛在的反向免疫訊號。
 
 ---
 
@@ -71,47 +75,48 @@ TxGNN 模型預測它可能對**異位性皮膚炎 (Atopic Eczema)** 有效，
 
 ## 文獻證據
 
-以下依 RCT > 臨床研究 > 回顧 > 其他的順序列出，最多 10 篇。
+以下依證據價值排列（臨床研究優先，其次為綜述與前臨床／機轉研究）。
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [6434024](https://pubmed.ncbi.nlm.nih.gov/6434024/) | 1984 | RCT | Br Med J (Clin Res Ed) | 26 名重度異位性皮膚炎兒童，雙盲安慰劑對照交叉試驗；口服加鼻用 beclomethasone 治療 4 週後改善顯著優於安慰劑，未見不良反應，但 24 小時尿皮質醇略降 |
-| [1476023](https://pubmed.ncbi.nlm.nih.gov/1476023/) | 1992 | 臨床研究 | Acta Derm Venereol Suppl | 口服 BDP 治療難治性兒童異位性皮膚炎，14 人中 10 人病情穩定控制；但在維持劑量下觀察到線性生長減緩的跡象 |
-| [14522624](https://pubmed.ncbi.nlm.nih.gov/14522624/) | 2003 | 臨床研究 | J Dermatolog Treat | 8 名學齡前兒童使用類固醇濕敷療法，評估短期生長與骨代謝（安全性導向） |
-| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | 回顧 | Neuroimmunomodulation | 鼻用類固醇與腎上腺抑制的關聯（安全性背景，非針對皮膚炎療效） |
-| [30911861](https://pubmed.ncbi.nlm.nih.gov/30911861/) | 2019 | 前臨床 | AAPS PharmSciTech | BDP 混合微胞水凝膠於亞慢性皮膚炎動物模型的配方開發，無臨床療效資料 |
-| [37023229](https://pubmed.ncbi.nlm.nih.gov/37023229/) | 2023 | 計算方法 | J Chem Inf Model | DrugRep-KG 知識圖譜藥物再利用方法論文，僅為預測 |
-| [11488426](https://pubmed.ncbi.nlm.nih.gov/11488426/) | 2001 | 回顧 | Jpn J Pharmacol | 過敏性疾病用藥回顧，指出糖皮質素為最有效藥物（間接證據） |
-| [14616123](https://pubmed.ncbi.nlm.nih.gov/14616123/) | 2003 | 回顧 | Allergy | 氣喘患者的糖皮質素過敏（間接證據） |
-| [19874229](https://pubmed.ncbi.nlm.nih.gov/19874229/) | 2009 | 動物研究 | Immunopharmacol Immunotoxicol | 小鼠實驗比較 mometasone furoate 與 BDP 的局部抗發炎及全身效應，mometasone 局部效力較強、口服全身效應較低 |
-| [9463794](https://pubmed.ncbi.nlm.nih.gov/9463794/) | 1998 | 回顧 | Drugs | 外用 mometasone 的藥理與治療回顧，其對異位性皮膚炎的效果與同效價糖皮質素相近（以 beclomethasone 類似物為主，非 BDP 本身） |
-
-**證據限制：**
-- 唯一的 RCT 樣本僅 26 人，且為 40 年前的口服加鼻用組合，不代表現行劑型。
-- 多篇文獻聚焦安全性（腎上腺抑制、生長遲緩），提示全身給藥於兒童有風險。
-- 其餘文獻多為間接證據，或與 BDP 用於異位性皮膚炎關聯薄弱。
+| [1476023](https://pubmed.ncbi.nlm.nih.gov/1476023/) | 1992 | 臨床研究 | Acta Derm Venereol Suppl | 口服 BDP 用於兒童難治性異位性皮膚炎，10/14 名病患病情穩定控制（平均 1000 μg/天），但有線性生長減緩及腎上腺功能影響的跡象 |
+| [14522624](https://pubmed.ncbi.nlm.nih.gov/14522624/) | 2003 | 臨床研究 | J Dermatolog Treat | 兒童使用類固醇濕敷包覆療法治療異位性皮膚炎，評估短期生長與骨代謝變化（安全性為主，8 名兒童） |
+| [374799](https://pubmed.ncbi.nlm.nih.gov/374799/) | 1979 | 比較性臨床研究 | Nihon Hifuka Gakkai Zasshi | 比較外用 BDP 與 betamethasone 17-valerate、fluocinonide 的全身效應（安全性為主） |
+| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | 綜述 | Neuroimmunomodulation | 鼻用類固醇與腎上腺抑制，與本適應症為間接相關 |
+| [14616123](https://pubmed.ncbi.nlm.nih.gov/14616123/) | 2003 | 綜述／臨床評論 | Allergy | 氣喘患者的皮質類固醇過敏，間接相關 |
+| [11488426](https://pubmed.ncbi.nlm.nih.gov/11488426/) | 2001 | 綜述 | Jpn J Pharmacol | 過敏性疾病治療藥物概述，指出糖皮質素療效最佳，提及 BDP 吸入使用 |
+| [7813169](https://pubmed.ncbi.nlm.nih.gov/7813169/) | 1994 | 綜述 | Clin Ter | 懷孕期間過敏症的用藥考量，間接相關 |
+| [30911861](https://pubmed.ncbi.nlm.nih.gov/30911861/) | 2019 | 前臨床研究 | AAPS PharmSciTech | BDP 微胞水凝膠於亞慢性皮膚炎動物模型的配方優化與評估 |
+| [8765824](https://pubmed.ncbi.nlm.nih.gov/8765824/) | 1996 | 體外／機轉研究 | J Allergy Clin Immunol | 外用類固醇可增強異位性皮膚炎患者體外自發性 IgE 生成 |
 
 ---
 
 ## 香港上市資訊
 
+香港共有 20 張有效許可證，均為單一成分製劑，無已註銷者。以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：
+
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-63314 | BECLOMETASONE PRESSURISED INHALATION BP 200MCG/ACTUATION (CFC FREE) | 吸入劑（由品名判斷） | 資料未載明 |
-| HK-58338 | BELAX AQUA NASAL SPRAY 42MCG/DOSE | 鼻噴劑（由品名判斷） | 資料未載明 |
-| HK-60130 | BECLOMETASONE PRESSURISED INHALATION BP 250MCG | 吸入劑（由品名判斷） | 資料未載明 |
-| HK-28384 | BECONASE AQUEOUS NASAL SPRAY 0.05% | 鼻噴劑（由品名判斷） | 資料未載明 |
-| HK-61115 | BECLO-RINO AQUEOUS NASAL SPRAY 50MCG/DOSE | 鼻噴劑（由品名判斷） | 資料未載明 |
+| HK-28384 | BECONASE AQUEOUS NASAL SPRAY 0.05%（GlaxoSmithKline） | 鼻噴劑 | 資料未載明 |
+| HK-42586 | NASOBEC AQUEOUS NASAL SPRAY 50MCG（Teva） | 鼻噴劑 | 資料未載明 |
+| HK-43841 | BECLAZONE 50 CFC-FREE INHALER（Teva） | 吸入劑 | 資料未載明 |
+| HK-63314 | BECLOMETASONE PRESSURISED INHALATION BP 200MCG/ACTUATION (CFC FREE)（Chemillennium） | 加壓吸入劑 | 資料未載明 |
+| HK-61392 | FOSTER PRESSURISED INHALATION SOLUTION 100/6 MICROGRAMS PER ACTUATION（Zenfields） | 加壓吸入溶液 | 資料未載明 |
 
-以上為 20 張許可證中的 5 張。目前香港上市劑型皆為吸入或鼻用，資料中未見外用劑型，這與異位性皮膚炎所需的給藥途徑不一致。
+上市劑型以鼻噴劑與吸入劑為主，未見皮膚外用劑型，這點對於異位性皮膚炎的適用性是一大限制。
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（非仿單內容）：肝病、膽囊疾病、麻疹、單純疱疹病毒角膜炎、腎上腺皮質功能不全、艾迪森氏病、水痘帶狀疱疹感染、黴菌感染、皮癬菌病、高眼壓、青光眼、寄生蟲感染、感染性疾病、下呼吸道疾病、副鼻竇疾病、鼻腔疾病、上呼吸道疾病、分枝桿菌感染、痲瘋病。
+- **藥物交互作用**：共查詢到 49 筆，以下為部分範例：
+  - 重大 (Major)：Desmopressin
+  - 中度 (Moderate)：Acetazolamide、Furosemide、Hydrochlorothiazide、Bumetanide、Cisplatin、Amphotericin B 各劑型、Foscarnet 等
+  - 輕微 (Minor)：Formoterol、Salbutamol、Arformoterol
+- **文獻提示的風險**：全身吸收後可能造成腎上腺抑制、兒童生長減緩及骨代謝改變；另有皮質類固醇接觸性或即發性過敏的報告。
 
-補充說明：藥物交互作用查詢無結果。文獻中提示，全身性或大範圍使用 beclomethasone 可能造成腎上腺（HPA 軸）抑制，兒童並可能出現生長減緩（見 PMID 1476023、6434024、19571596）。
+其餘警語與禁忌症請參考原廠仿單。
 
 ---
 
@@ -120,15 +125,16 @@ TxGNN 模型預測它可能對**異位性皮膚炎 (Atopic Eczema)** 有效，
 **決策：Hold**
 
 **理由：**
-- 糖皮質素類治療異位性皮膚炎的機轉合理，但高預測分數可能主要來自類別知識，而非 BDP 特有的新訊號。
-- 直接證據僅有一項 1984 年的小型 RCT，無臨床試驗登記；香港現有劑型（吸入、鼻用）也無法直接對應皮膚適應症。
+- 模型預測分數高，且糖皮質素用於異位性皮膚炎在藥理上合理，但本藥缺乏臨床試驗，現有文獻多為間接證據或安全性研究，證據等級僅 L3。
+- 香港現有劑型皆為鼻用或吸入劑，無皮膚外用劑型，且兒童全身性副作用與潛在 IgE 增強訊號都需釐清。異位性皮膚炎已有多種成熟的外用類固醇可選，本藥的增益價值尚不明確。
 
 **若要推進需要：**
-- 取得香港衛生署仿單的警語與禁忌症（目前為阻擋性資料缺口）。
-- 補充 DrugBank 的作用機轉資料。
-- 釐清與既有外用糖皮質素相比的差異化價值（療效、安全性或劑型優勢）。
-- 評估是否需要外用劑型，以及兒童使用的生長與 HPA 軸風險。
-- 進行更新的文獻檢索，尋找現代對照試驗。
+- 補齊本藥的作用機轉資料
+- 與現有外用類固醇做頭對頭比較，確認其增益價值
+- 評估皮膚外用劑型的可行性與給藥途徑相容性
+- 設計針對兒童的全身吸收、腎上腺抑制與生長監測計畫
+- 取得香港仿單的警語與禁忌症資料，完成安全性篩選
+- 釐清 IgE 增強訊號的臨床意義
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

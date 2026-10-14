@@ -2,15 +2,15 @@
 layout: default
 title: Levothyroxine
 parent: 中證據等級 (L3-L4)
-nav_order: 520
-evidence_level: L4
+nav_order: 529
+evidence_level: L3
 indication_count: 10
 ---
 
 # Levothyroxine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L3** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,107 @@ indication_count: 10
 
 </div>
 
-# Levothyroxine：從甲狀腺素補充到地方性甲狀腺腫
+# Levothyroxine：從甲狀腺功能低下到地方性甲狀腺腫
 
 ## 一句話總結
 
-Levothyroxine（左旋甲狀腺素）是合成甲狀腺素，屬甲狀腺荷爾蒙補充藥物。
-TxGNN 模型預測它可能對**地方性甲狀腺腫 (Endemic Goiter)** 有效，但目前僅有 **1 個不直接相關的臨床試驗**和 **20 篇文獻**，且其中多為碘缺乏的流行病學研究，只有 1 篇（1988 年）直接測試 levothyroxine。
+Levothyroxine（左旋甲狀腺素）是合成甲狀腺素，原本用於甲狀腺功能低下、橋本氏甲狀腺炎及甲狀腺癌術後治療等。
+TxGNN 模型預測它可能對**地方性甲狀腺腫 (Endemic Goiter)** 有效，
+目前有 **0 個已登記臨床試驗**，但有 **約 20 篇文獻**（多為 1988–1998 年的歐洲臨床研究）支持這個方向。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 甲狀腺功能低下、黏液水腫、先天性甲狀腺功能低下、橋本氏甲狀腺炎、甲狀腺癌等（取自知識圖譜；香港許可證未載明適應症文字） |
 | 預測新適應症 | 地方性甲狀腺腫 (Endemic Goiter) |
 | TxGNN 預測分數 | 99.81% |
-| 證據等級 | L4 |
+| 證據等級 | L3 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 12 張 |
-| 建議決策 | Hold |
+| 建議決策 | Proceed with Guardrails |
+
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Levothyroxine 是甲狀腺荷爾蒙補充劑，可抑制促甲狀腺素（TSH）分泌。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Levothyroxine 是甲狀腺素 (T4) 的合成替代品，在甲狀腺功能低下的療效已被證實。
 
-地方性甲狀腺腫多由缺碘引起。缺碘使甲狀腺素合成不足，TSH 升高，進而刺激甲狀腺增生腫大。文獻也顯示，缺碘地區的病人基礎 TSH 明顯偏高。理論上，補充 levothyroxine 可抑制 TSH，減緩甲狀腺生長，所以機轉上說得通。
+地方性甲狀腺腫的主要成因是缺碘，缺碘會使 TSH 升高，進而刺激甲狀腺組織增生。Levothyroxine 可抑制 TSH 分泌，因而可能縮小甲狀腺體積。這是直接且容易理解的機轉。
 
-不過，這類疾病的標準預防和治療是補碘（碘化油、加碘鹽或補充劑），不是甲狀腺素。本次提供的文獻多為流行病學或補碘研究，缺乏 levothyroxine 單獨用於地方性甲狀腺腫的療效資料。1988 年有一項德國多中心研究，比較 levothyroxine 單用與 levothyroxine 加碘，但摘要未呈現完整療效結果。
+文獻顯示，單用 levothyroxine、單用碘，或兩者合併，都曾在研究中比較過。有文獻指出，單用 levothyroxine 並無法改善甲狀腺內的碘缺乏，停藥後可能復發，因此碘補充仍是首選的基礎治療。支持證據年代較久，且無已登記的臨床試驗。
+
+---
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT04482907](https://clinicaltrials.gov/study/NCT04482907) | Phase NA | 完成 | 68 | 以蒔蘿（Anethum graveolens）對比安慰劑，用於甲狀腺炎與結節性甲狀腺腫；**未評估 levothyroxine**，也未針對地方性甲狀腺腫 |
+目前無相關臨床試驗登記
+
+---
 
 ## 文獻證據
 
+下表依研究類型優先列出（本次資料中未見標示為 RCT 的地方性甲狀腺腫研究；以多中心臨床研究、臨床研究、回顧為主）：
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [3278876](https://pubmed.ncbi.nlm.nih.gov/3278876/) | 1988 | 多中心治療研究 | Dtsch Med Wochenschr | 74 名瀰漫性地方性甲狀腺腫患者，比較 levothyroxine 150 μg 與 levothyroxine 加碘化鉀治療 6 個月，再以碘預防 3 個月，觀察腫大縮小（**唯一直接相關**） |
-| [25629792](https://pubmed.ncbi.nlm.nih.gov/25629792/) | 2015 | 介入研究（補碘） | Curr Med Res Opin | 460 名孕婦，比較地方性甲狀腺腫地區補碘與否對甲狀腺功能和出生結果的影響 |
-| [4312017](https://pubmed.ncbi.nlm.nih.gov/4312017/) | 1969 | 介入研究（碘化油） | Am J Clin Nutr | 厄瓜多與秘魯以碘化油預防和治療地方性甲狀腺腫（非 levothyroxine） |
-| [6309889](https://pubmed.ncbi.nlm.nih.gov/6309889/) | 1983 | 觀察性 | J Clin Endocrinol Metab | 58 名希臘患者注射碘化油後，甲狀腺腫縮小，甲狀腺荷爾蒙與免疫指標變化 |
-| [2031356](https://pubmed.ncbi.nlm.nih.gov/2031356/) | 1991 | Review | World J Surg | 缺碘是主因，補碘是預防與治療基礎；碘預防計畫在推行上有技術和社經困難 |
-| [7704809](https://pubmed.ncbi.nlm.nih.gov/7704809/) | 1994 | Review | Curr Ther Endocrinol Metab | 地方性甲狀腺腫綜述（無摘要） |
-| [36839362](https://pubmed.ncbi.nlm.nih.gov/36839362/) | 2023 | Review | Nutrients | 碘缺乏與碘預防的總覽與更新 |
-| [6304776](https://pubmed.ncbi.nlm.nih.gov/6304776/) | 1983 | 觀察性 | Prog Clin Biol Res | 缺碘地區患者 TSH 明顯高於對照組，且與血清 T4 呈負相關 |
-| [263304](https://pubmed.ncbi.nlm.nih.gov/263304/) | 1978 | 觀察性 | J Clin Endocrinol Metab | 剛果重度地方性甲狀腺腫地區，母親與新生兒甲狀腺功能比較 |
-| [3090091](https://pubmed.ncbi.nlm.nih.gov/3090091/) | 1986 | 觀察性 | J Clin Endocrinol Metab | 義大利中度缺碘地區 1,218 人的甲狀腺功能與腫大程度調查 |
+| [2515973](https://pubmed.ncbi.nlm.nih.gov/2515973/) | 1989 | 多中心隨機試驗 | Eur J Clin Invest | 166 位缺碘性甲狀腺腫患者隨機分為 levothyroxine、碘或兩者合併，進行 12 個月比較 |
+| [3278876](https://pubmed.ncbi.nlm.nih.gov/3278876/) | 1988 | 多中心臨床研究 | Dtsch Med Wochenschr | 74 位患者，比較 levothyroxine 單用與 levothyroxine＋碘合併 6 個月的甲狀腺腫縮小效果 |
+| [7900936](https://pubmed.ncbi.nlm.nih.gov/7900936/) | 1993 | 臨床研究 | Clin Endocrinol | 評估 levothyroxine 或碘對甲狀腺大小及甲狀腺生長刺激免疫球蛋白的影響 |
+| [8676600](https://pubmed.ncbi.nlm.nih.gov/8676600/) | 1996 | 臨床研究 | Klin Padiatr | 青少年 106 人，碘單用與碘＋levothyroxine 比較，並觀察血脂變化 |
+| [9011485](https://pubmed.ncbi.nlm.nih.gov/9011485/) | 1996 | 臨床研究 | Dtsch Med Wochenschr | 中老年患者比較碘與 levothyroxine 的療效 |
+| [1789063](https://pubmed.ncbi.nlm.nih.gov/1789063/) | 1991 | 臨床研究（雙盲） | Acta Endocrinol | 比較碘單用與碘＋levothyroxine 對甲狀腺內碘濃度的影響 |
+| [9711053](https://pubmed.ncbi.nlm.nih.gov/9711053/) | 1998 | 生體相等性研究 | Med Klin | 比較 levothyroxine＋碘複方與單用 levothyroxine 的生體可用率 |
+| [24393641](https://pubmed.ncbi.nlm.nih.gov/24393641/) | 1998 | 族群補充研究 | Asia Pac J Clin Nutr | 馬來西亞原住民每日 100 µg levothyroxine，追蹤約 1.5 年 |
+| [8147031](https://pubmed.ncbi.nlm.nih.gov/8147031/) | 1993 | Review | Z Gesamte Inn Med | 缺碘是主因；單用 levothyroxine 無法矯正甲狀腺內碘缺乏，建議治療應包含碘 |
+| [11256036](https://pubmed.ncbi.nlm.nih.gov/11256036/) | 2001 | 臨床研究 | Dtsch Med Wochenschr | 比較兩種劑量的 levothyroxine＋碘複方對正常甲狀腺功能彌漫性甲狀腺腫的效果 |
+
+---
 
 ## 香港上市資訊
 
-香港共有 12 張 levothyroxine 許可證，以下列出 5 張主要許可證。資料中未提供劑型與核准適應症文字。
+香港共有 12 張有效許可證，皆為單一成分製劑，以下列出 5 張主要許可證（資料中未載明劑型與核准適應症文字）：
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-63576 | ELTROXIN TABLETS 50MCG | Aspen Pharmacare Asia |
-| HK-56044 | LEVOTHYROXINE TAB 50MCG | Teva Pharmaceutical Hong Kong |
-| HK-60796 | LEVOTHYROXINE TAB 100MCG | Teva Pharmaceutical Hong Kong |
-| HK-57830 | OROXINE TAB 200MCG | Aspen Pharmacare Asia |
-| HK-57829 | OROXINE TAB 50MCG | Aspen Pharmacare Asia |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-63576 | ELTROXIN TABLETS 50MCG | 錠劑 | — |
+| HK-56044 | LEVOTHYROXINE TAB 50MCG | 錠劑 | — |
+| HK-67851 | EUTHYROX TABLETS 100 MICROGRAMS | 錠劑 | — |
+| HK-57830 | OROXINE TAB 200MCG | 錠劑 | — |
+| HK-58763 | LEVOTHYROXINE TAB 50MCG | 錠劑 | — |
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌相關疾病**（來源為知識圖譜關聯，非仿單內容）：高血壓、冠狀動脈疾病、心肌梗塞、骨質疏鬆（含停經後骨質疏鬆）、糖尿病及糖尿病酮酸中毒、腦下垂體功能不足相關疾病（如全垂體功能低下、Sheehan 症候群、Kallmann 症候群）、胸腺疾病等。
+- **長期抑制 TSH 的風險**：文獻指出可能造成骨質流失及心房顫動。
+- **藥物交互作用**：共查得 100 筆，以下為部分中度交互作用：
+  - 降血糖藥：Acarbose、Metformin、Pioglitazone、Alogliptin、Canagliflozin、Dapagliflozin、Empagliflozin、Chlorpropamide、Albiglutide、Dulaglutide
+  - 制酸劑／胃酸抑制劑：Omeprazole、Rabeprazole、Dexlansoprazole、Calcium acetate、Calcium phosphate、Magnesium oxide
+  - 其他：Epinephrine、Isometheptene、Diethylpropion
+  - 輕度：Cimetidine
 
-另外，本藥用於甲狀腺腫的 TSH 抑制療法，若劑量過高，一般認為有骨質流失與心房顫動的風險，需選擇適合的病人並監測 TSH。
+其餘警語與禁忌請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：Proceed with Guardrails**
 
 **理由：**
-- 模型分數雖高（99.81%），但缺乏 levothyroxine 用於地方性甲狀腺腫的療效證據，僅屬模型預測加機轉合理，證據等級為 L4。
-- 這類疾病的標準處置是補碘，levothyroxine 的角色不明。
+- 機轉明確（缺碘 → TSH 升高 → 甲狀腺增生，levothyroxine 抑制 TSH），且有多項臨床研究（包括一項多中心隨機試驗）比較過 levothyroxine、碘與合併治療。
+- 但證據多為 1988–1998 年的舊研究，無已登記試驗；碘補充仍是首選，levothyroxine 單用存在停藥復發及長期抑制的心臟、骨骼風險，因此需設定使用條件。
 
 **若要推進需要：**
-- 取得 PMID 3278876 全文，確認 levothyroxine 單用與合併碘的療效數據。
-- 找出直接比較 levothyroxine 與補碘、且以地方性甲狀腺腫為對象的隨機對照試驗。
-- 補齊香港衛生署仿單的警語與禁忌症，以及 DrugBank 的作用機轉資料。
-
-**其他預測適應症備註：**
-- 同一份預測中，**結節性甲狀腺腫 (Nodular Goiter)** 有多個直接測試 levothyroxine 的試驗（如 NCT00552253、NCT00277589、NCT00941551）和一篇 levothyroxine 對比放射碘的隨機試驗，證據等級 L2、建議 Proceed with Guardrails，比地方性甲狀腺腫更值得優先評估。
-- 腎發育不全、雙側腎缺如、Potter 序列等預測在機轉上無合理連結，且無任何證據，很可能是知識圖譜的人為假象。
-
-> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證後才能應用。
+- 取得香港原廠仿單，確認核准適應症、警語與禁忌（目前缺乏此資料）
+- 補充 levothyroxine 的作用機轉資料
+- 取得近年的對照試驗或指引，確認 levothyroxine 與碘合併治療相對於碘單用的增益
+- 訂定適用族群（如不適合碘治療者）及 TSH 目標範圍，並監測心血管與骨密度
+- 針對併用降血糖藥、制酸劑及鈣／鎂製劑的患者，建立交互作用管理方案
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

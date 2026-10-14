@@ -2,7 +2,7 @@
 layout: default
 title: Ursodeoxycholic Acid
 parent: 僅模型預測 (L5)
-nav_order: 904
+nav_order: 919
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,36 +29,33 @@ indication_count: 1
 
 </div>
 
-# Ursodeoxycholic Acid（熊去氧膽酸）：從已上市膽汁酸藥物到同型合子家族性高膽固醇血症
+# Ursodeoxycholic Acid：從膽結石與原發性膽汁性膽管炎到同型合子家族性高膽固醇血症
 
 ## 一句話總結
 
-Ursodeoxycholic Acid (UDCA) 是一種親水性膽汁酸，已在香港上市多年。
+Ursodeoxycholic Acid（熊去氧膽酸，UDCA）原本用於膽結石（含膽囊結石、膽總管結石）、原發性膽汁性膽管炎及 Reynolds 症候群。
 TxGNN 模型預測它可能對**同型合子家族性高膽固醇血症 (Homozygous Familial Hypercholesterolemia)** 有效，
-但目前**沒有任何臨床試驗或文獻**支持，僅有模型預測分數。
+但目前**沒有任何臨床試驗或文獻**支持，僅有模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 膽結石、膽囊結石、膽總管結石、原發性膽汁性膽管炎、Reynolds 症候群（來自 TxGNN 知識圖譜） |
 | 預測新適應症 | 同型合子家族性高膽固醇血症 (Homozygous Familial Hypercholesterolemia) |
-| TxGNN 預測分數 | 99.86%（模型排名第 3498 名） |
-| 證據等級 | L5（僅有模型預測） |
+| TxGNN 預測分數 | 99.86% |
+| 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 13 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。UDCA 是親水性膽汁酸，機轉上可能與脂質代謝有關，但這些連結都尚未被驗證。可能的途徑包括：
+目前缺乏詳細的作用機轉資料。根據已知資訊，UDCA 是一種膽酸類藥物，會改變膽酸組成，理論上可能減少腸道膽固醇吸收及肝臟分泌膽固醇進入膽汁，因而影響膽固醇的恆定。這是模型預測背後一個合理但尚未驗證的推測。
 
-- 減少腸道膽固醇吸收
-- 降低膽汁中的膽固醇飽和度
-- 膽汁酸訊號（如 FXR 相關）對肝臟膽固醇與脂蛋白處理的影響
+不過，同型合子家族性高膽固醇血症主要由 LDL 受體功能異常所致（LDLR、APOB、PCSK9 或 LDLRAP1 變異）。在受體介導的 LDL 清除途徑幾乎喪失的情況下，膽酸相關作用不太可能彌補，因此預測的療效在生物學上仍不確定。
 
-另一方面，同型合子家族性高膽固醇血症主要由 LDL 受體功能喪失造成，也可能來自 APOB、PCSK9 或 LDLRAP1 的缺陷。依賴 LDL 受體上調的機轉，在這個疾病中預期效果不佳。若 UDCA 有任何益處，只能來自不依賴 LDL 受體的途徑，而目前沒有任何證據顯示這種作用存在。
-
-因此，99.86% 的高預測分數**不應被解讀為臨床上合理**。在取得支持性證據之前，這只是一個待驗證的假說。
+TxGNN 分數（99.86%）只是模型預測，不能視為臨床證據。
 
 ## 臨床試驗證據
 
@@ -70,37 +67,37 @@ TxGNN 模型預測它可能對**同型合子家族性高膽固醇血症 (Homozyg
 
 ## 香港上市資訊
 
-香港共有 13 張許可證，以下列出 5 張主要許可證：
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-58164 | PMS-URSODIOL C TAB 250MG | 未提供 | 未提供 |
+| HK-55453 | URSODEX CAP 250MG | 未提供 | 未提供 |
+| HK-55451 | URSONIC CAP 50MG | 未提供 | 未提供 |
+| HK-65027 | URSODEOXYCHOLIC ACID CAPSULES BP 250MG | 未提供 | 未提供 |
+| HK-57786 | URSOFALK CAP 250MG | 未提供 | 未提供 |
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-58164 | PMS-URSODIOL C TAB 250MG | TRENTON-BOMA LTD |
-| HK-55453 | URSODEX CAP 250MG | EUROPHARM LAB CO LTD |
-| HK-55451 | URSONIC CAP 50MG | EUROPHARM LAB CO LTD |
-| HK-65027 | URSODEOXYCHOLIC ACID CAPSULES BP 250MG | CHEMILLENNIUM INTERNATIONAL (HK) LIMITED |
-| HK-57786 | URSOFALK CAP 250MG | A. MENARINI HONG KONG LIMITED |
+本藥在香港共有 13 張有效單方許可證，上表僅列出 5 張主要許可證。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **藥物交互作用**：已查得 100 筆交互作用紀錄，以下為部分範例：
+  - 輕微 (Minor)：Cyclosporine、Aluminum hydroxide、Magaldrate
+  - 等級未知：Pravastatin、Ramipril、Lorazepam、Tramadol、Fluconazole、Erythromycin、Sildenafil 等
+
+其他安全性資訊（警語、禁忌症）請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 證據等級為 L5，僅有模型預測，沒有臨床試驗、文獻或機轉資料支持。
-- 疾病的主要病因（LDL 受體功能喪失）與 UDCA 可能的作用方式並不匹配。
-- 香港仿單的警語與禁忌資料也尚未取得，無法進入安全性篩選。
+- 目前僅有模型預測（證據等級 L5），沒有臨床試驗或文獻佐證。
+- 同型合子家族性高膽固醇血症的病因主要是 LDL 受體功能缺陷，UDCA 的膽酸作用機轉難以彌補，生物學上的合理性不足。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單，補齊警語與禁忌症資料
-- 補齊 UDCA 的作用機轉資料（可查詢 DrugBank）
-- 系統性檢索文獻與臨床試驗登記，確認是否有 UDCA 與高膽固醇血症相關的研究
-- 釐清 UDCA 是否可能透過不依賴 LDL 受體的途徑作用，並以前臨床或機轉研究驗證
-- 確認給藥途徑與劑型是否適用於目標族群
-
-> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+- 取得 UDCA 詳細的作用機轉資料，分析與 LDL 代謝途徑的關聯
+- 進行系統性文獻檢索與臨床試驗登記查詢，確認是否有任何相關研究
+- 以前臨床研究（如 LDLR 缺陷模型）驗證對血脂的影響
+- 取得香港衛生署仿單，補齊警語、禁忌症與核准適應症資料，再進行安全性篩選
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

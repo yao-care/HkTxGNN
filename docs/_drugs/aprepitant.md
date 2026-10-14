@@ -2,7 +2,7 @@
 layout: default
 title: Aprepitant
 parent: 僅模型預測 (L5)
-nav_order: 67
+nav_order: 69
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ indication_count: 10
 
 </div>
 
-# Aprepitant：從（原適應症未提供）到腎因性抗利尿激素分泌不當症候群
+# Aprepitant：從化療相關噁心嘔吐到腎因性抗利尿不適當症候群
 
 ## 一句話總結
 
-Aprepitant 是一種 NK1 受體拮抗劑，在香港已上市，原適應症資料在本次資料包中缺漏。
-TxGNN 模型預測它可能對**腎因性抗利尿激素分泌不當症候群 (Nephrogenic Syndrome of Inappropriate Antidiuresis)** 有效，
-但目前**沒有任何臨床試驗或直接相關文獻**支持，僅有模型預測。
+Aprepitant 是一種 NK1 受體拮抗劑，在香港已有 7 張有效許可證。
+TxGNN 模型預測它可能對**腎因性抗利尿不適當症候群 (nephrogenic syndrome of inappropriate antidiuresis)** 有效，但目前**沒有任何臨床試驗或相關文獻**支持，僅屬模型預測。
 
 ---
 
@@ -43,8 +42,8 @@ TxGNN 模型預測它可能對**腎因性抗利尿激素分泌不當症候群 (N
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料缺漏（香港許可證未附適應症文字） |
-| 預測新適應症 | 腎因性抗利尿激素分泌不當症候群 (Nephrogenic Syndrome of Inappropriate Antidiuresis) |
+| 原適應症 | 香港許可證資料未載明核准適應症 |
+| 預測新適應症 | 腎因性抗利尿不適當症候群 (nephrogenic syndrome of inappropriate antidiuresis) |
 | TxGNN 預測分數 | 99.97% |
 | 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
@@ -55,11 +54,11 @@ TxGNN 模型預測它可能對**腎因性抗利尿激素分泌不當症候群 (N
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Aprepitant 的 DrugBank 作用機轉欄位為空，因此無法從輸入資料驗證任何機轉連結。
+目前缺乏詳細的作用機轉資料。已知 Aprepitant 屬於 NK1（Substance P）受體拮抗劑。NK1／Substance P 訊號與中樞神經系統的血管加壓素調節及水分平衡可能有關，因此在理論上存在連結。
 
-TxGNN 的分數來自知識圖譜的推論，並非實際研究結果。此疾病與血管加壓素/V2 受體軸有關，但 aprepitant 與這條路徑的關聯在本資料中沒有依據，屬於推測。
+不過，腎因性 SIADH 的成因是腎臟 V2 受體（AVPR2）功能獲得性突變，作用點在血管加壓素釋放的下游。中樞 NK1 拮抗不太可能矯正受體層級的缺陷，所以機轉上的合理性有限。高分預測目前只是模型輸出，沒有實證支持。
 
-在其他預測適應症中，肺高壓（substance P/NK1 訊號與肺血管重塑）與蛛網膜下腔出血（NK1 拮抗與血腦屏障/水腫調節）有前臨床層面的假說，但這只是背景知識，並未得到本次資料支持。
+其他排名前 10 的預測（如多毛症、肺高壓、麻風、蛛網膜下腔出血等）同樣沒有臨床試驗支持，多數也缺乏合理機轉，可能是知識圖譜的關聯假象。肺高壓項下唯一連結的文獻（PMID 28261651）是 pazopanib 合併 cisplatin 的 Phase I 試驗，與 aprepitant 及肺高壓無關，應視為誤配，不提高證據等級。
 
 ---
 
@@ -71,15 +70,7 @@ TxGNN 的分數來自知識圖譜的推論，並非實際研究結果。此疾�
 
 ## 文獻證據
 
-針對首要預測（腎因性抗利尿激素分泌不當症候群），目前無相關文獻。
-
-以下是其他預測適應症檢索到的文獻，均不涉及 aprepitant，不計為支持證據：
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [28261651](https://pubmed.ncbi.nlm.nih.gov/28261651/) | 2016 | Phase I 試驗 | Oncology and Therapy | Pazopanib 併用 cisplatin 用於晚期實體腫瘤的劑量遞增試驗（與本藥及肺高壓無關，預測適應症：肺高壓） |
-| [35420698](https://pubmed.ncbi.nlm.nih.gov/35420698/) | 2022 | 系統性回顧 | Cochrane Database Syst Rev | 治療牙周炎對糖尿病患者血糖控制的影響（預測適應症：牙周相關畸形症候群，與本藥無關） |
-| [35688447](https://pubmed.ncbi.nlm.nih.gov/35688447/) | 2022 | 臨床指引 | J Clin Periodontol | EFP 第四期牙周炎治療指引（與本藥無關） |
+目前無相關文獻。
 
 ---
 
@@ -87,17 +78,24 @@ TxGNN 的分數來自知識圖譜的推論，並非實際研究結果。此疾�
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-52425 | EMEND CAP 80MG | — | 資料未提供 |
-| HK-52424 | EMEND TRI-PACK CAP | — | 資料未提供 |
-| HK-67479 | ATANTO TRI-PACK CAPSULES 125MG AND 80MG | — | 資料未提供 |
-| HK-68461 | APREPITANT STADA CAPSULES 125MG AND 80MG | — | 資料未提供 |
-| HK-67467 | EMEGON TRI-PACK CAPSULES 125MG AND 80MG | — | 資料未提供 |
+| HK-52425 | EMEND CAP 80MG | — | 資料未載明 |
+| HK-52424 | EMEND TRI-PACK CAP | — | 資料未載明 |
+| HK-67479 | ATANTO TRI-PACK CAPSULES 125MG AND 80MG | — | 資料未載明 |
+| HK-68461 | APREPITANT STADA CAPSULES 125MG AND 80MG | — | 資料未載明 |
+| HK-67467 | EMEGON TRI-PACK CAPSULES 125MG AND 80MG | — | 資料未載明 |
+
+（共 7 張有效許可證，以上列出 5 張。）
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**：肝衰竭（liver failure）。此為知識圖譜中的藥物－疾病禁忌關聯，並非仿單文字。
+- **藥物交互作用**：共查得 100 筆，其中較重要的包括：
+  - 重度（Major）：Fentanyl、Alfentanil、Acalabrutinib
+  - 中度（Moderate）：Paclitaxel、Abemaciclib、Nifedipine、Ibuprofen、Hydrocortisone、Fluvoxamine、Gefitinib 等
+
+其他警語與禁忌症請參考原廠仿單。
 
 ---
 
@@ -106,18 +104,14 @@ TxGNN 的分數來自知識圖譜的推論，並非實際研究結果。此疾�
 **決策：Hold**
 
 **理由：**
-- 首要預測適應症沒有任何臨床試驗或文獻，證據等級為 L5，僅有圖譜模型分數。
-- 作用機轉資料與香港仿單安全性資料皆缺漏（後者在資料缺口中被列為 Blocking），無法進入安全性篩選。
+- 預測分數雖高，但沒有任何臨床試驗或相關文獻，證據等級僅 L5。
+- 腎因性 SIADH 的病因在腎臟 V2 受體，與 NK1 拮抗的作用位置不吻合。
 
 **若要推進需要：**
-- 從衛生署下載並解析仿單，補齊原適應症、警語與禁忌症
-- 透過 DrugBank 補齊作用機轉，評估與血管加壓素/V2 受體路徑的關聯是否有依據
-- 檢索 aprepitant 與腎因性抗利尿激素分泌不當症候群的專屬文獻與試驗（目前檢索無結果）
-- 若要優先探索，肺高壓與蛛網膜下腔出血有前臨床假說，可作為研究問題另案評估
-
----
-
-*本報告結果僅供研究參考，不構成醫療建議。預測適應症需經臨床驗證後才能應用。*
+- 取得 Aprepitant 完整的作用機轉資料，並釐清 NK1 訊號與 AVPR2 病理之間是否有可驗證的連結
+- 進行前臨床或機轉研究，驗證 NK1 拮抗對水分平衡的作用
+- 補齊香港仿單的核准適應症、警語與禁忌症
+- 若後續出現其他支持證據，再重新評估排名較前的其他預測適應症
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

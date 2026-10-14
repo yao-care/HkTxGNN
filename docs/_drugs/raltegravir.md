@@ -2,7 +2,7 @@
 layout: default
 title: Raltegravir
 parent: 中證據等級 (L3-L4)
-nav_order: 738
+nav_order: 753
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,20 +29,21 @@ indication_count: 3
 
 </div>
 
-# Raltegravir：從 HIV-1 感染到猴免疫缺陷病毒感染
+# Raltegravir：從 HIV 感染到猿猴免疫缺陷病毒感染
 
 ## 一句話總結
 
-Raltegravir 是 HIV-1 整合酶抑制劑，原本用於 HIV-1 感染的治療。
-TxGNN 模型預測它可能對**猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)** 有效，
-目前有 **1 個臨床試驗**（已撤銷、無受試者）和 **19 篇文獻**，但幾乎都是非人類靈長類的前臨床研究。這比較像既有機轉在動物模型上的延伸，不算真正的新適應症。
+Raltegravir 是一種 HIV 整合酶抑制劑，原本用於 HIV 感染與 AIDS 的治療。
+TxGNN 模型預測它可能對**猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)** 有效，
+目前**沒有臨床試驗**，但有 **15 篇文獻**（皆為前臨床或動物模型研究）。
+SIV 主要是 HIV 的非人類靈長類研究模型，因此這個結果較像是驗證動物模型，而非真正的新適應症。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | HIV-1 感染（許可證資料未載明適應症文字，依一般藥理知識） |
-| 預測新適應症 | 猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection) |
+| 原適應症 | HIV 感染、AIDS |
+| 預測新適應症 | 猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection) |
 | TxGNN 預測分數 | 99.78% |
 | 證據等級 | L4 |
 | 香港上市 | ✓ 已上市 |
@@ -51,63 +52,65 @@ TxGNN 模型預測它可能對**猴免疫缺陷病毒感染 (Simian Immunodefici
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據一般藥理知識，Raltegravir 是整合酶股轉移抑制劑 (INSTI)，能阻斷病毒 DNA 嵌入宿主基因體這個步驟。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Raltegravir 屬於整合酶鏈轉移抑制劑（INSTI），可阻斷病毒基因組整合進宿主細胞 DNA 的步驟，其在 HIV 感染中的療效已被證實。
 
-SIV 與 HIV 同屬慢病毒，是研究 HIV 的標準獼猴模型，兩者的整合酶高度相似。多篇研究也顯示 SIVmac239 對 INSTI 敏感，且相同的整合酶抗藥突變在兩種病毒中呈現類似表型。因此機轉上合理。
+SIV 與 HIV 同屬慢病毒，整合酶的催化核心高度保守，因此 Raltegravir 在機轉上可能抑制 SIV 的整合。文獻也支持這一點，包括 SIVmac251 感染獼猴的治療研究、SIV/SHIV 的 INSTI 抗藥性分析，以及局部使用整合酶抑制劑對獼猴暴露後的保護作用。
 
-不過 SIV 感染不是人類疾病，Raltegravir 也早已用於 HIV-1。0.998 的高分很可能反映的是已知的 HIV-1 整合酶關聯，而非新的再利用機會。
+不過 SIV 感染主要是 HIV 研究用的動物模型，並非與 HIV 不同的人類治療適應症。這個預測較適合視為前臨床模型的佐證，而不是真正的藥物再利用機會。
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | NA | 已撤銷 | 0 | 評估 Raltegravir 治療下 HIV 的衰減動力學。該試驗針對人類 HIV，且未收案，沒有產出任何資料 |
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
+下列文獻皆為前臨床研究（動物或體外），沒有 RCT。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [20233398](https://pubmed.ncbi.nlm.nih.gov/20233398/) | 2010 | 動物研究 (NHP) | Retrovirology | 以兩種 NRTI 加 Raltegravir 治療 SIVmac251 感染的靈長類，建立新的猴 AIDS 治療方案與動物模型 |
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | 動物研究 (NHP) | PLoS Pathogens | 高強度多藥 ART 在猴 AIDS 模型中誘發長期病毒抑制，並限制病毒庫 |
-| [29643246](https://pubmed.ncbi.nlm.nih.gov/29643246/) | 2018 | 動物研究 (NHP) | Journal of Virology | 在 SIV 感染獼猴中，以整合酶抑制劑分析 2-LTR 環在有無 CD8+ 細胞下的動態 |
-| [29466356](https://pubmed.ncbi.nlm.nih.gov/29466356/) | 2018 | 動物研究 (NHP) | PLoS One | 兩隻接受 tenofovir/emtricitabine 加 Raltegravir 的獼猴出現病毒反彈，並找到多個抗藥突變 |
-| [31597776](https://pubmed.ncbi.nlm.nih.gov/31597776/) | 2019 | 動物研究 (NHP) | Journal of Virology | 評估感染一年內開始 ART 的 SIV 獼猴，其持續存在的病毒基因體是否完整 |
-| [24622515](https://pubmed.ncbi.nlm.nih.gov/24622515/) | 2014 | 動物研究 (NHP，SHIV) | Science Translational Medicine | 局部使用整合酶抑制劑，對獼猴陰道 SHIV 感染有暴露後保護效果 |
-| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | 動物研究 (NHP) | mBio | 即使 ART 有效，慢病毒仍持續存在於腦部 |
-| [26378179](https://pubmed.ncbi.nlm.nih.gov/26378179/) | 2015 | 體外研究 | Journal of Virology | 描述 SIVmac239 對 INSTI 的抗藥性圖譜 |
-| [24920794](https://pubmed.ncbi.nlm.nih.gov/24920794/) | 2014 | 體外研究 | Journal of Virology | 將 HIV-1 整合酶抗藥突變導入 SIVmac239，評估其對 INSTI 的敏感性 |
-| [32166319](https://pubmed.ncbi.nlm.nih.gov/32166319/) | 2020 | 體外／機轉（安全性） | Clinical Infectious Diseases | Dolutegravir 與 Raltegravir 在人類／猴脂肪組織中有促脂肪生成、促纖維化作用，並誘發胰島素阻抗 |
+| [20233398](https://pubmed.ncbi.nlm.nih.gov/20233398/) | 2010 | 前臨床（獼猴） | Retrovirology | 以兩種核苷類逆轉錄酶抑制劑合併 Raltegravir，在 SIVmac251 感染的非人類靈長類建立新的抗病毒療法 |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | 動物研究 | PLoS Pathogens | 高強度多藥 ART 在猿猴 AIDS 模型中達到長期病毒抑制並限制病毒庫 |
+| [29643246](https://pubmed.ncbi.nlm.nih.gov/29643246/) | 2018 | 前臨床（獼猴） | Journal of Virology | 在整合酶抑制劑治療的獼猴中，分析有無 CD8+ 細胞時 2-LTR 環狀 DNA 的動態 |
+| [24622515](https://pubmed.ncbi.nlm.nih.gov/24622515/) | 2014 | 前臨床（獼猴） | Science Translational Medicine | 局部整合酶抑制劑凝膠對獼猴陰道 SHIV 感染具暴露後保護作用 |
+| [29466356](https://pubmed.ncbi.nlm.nih.gov/29466356/) | 2018 | 前臨床（獼猴） | PLoS ONE | 在未達完全抑制的 ART（含 Raltegravir 強化）下，SIV 感染獼猴出現抗藥突變 |
+| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | 動物研究 | AIDS | Auranofin 在猿猴 AIDS 模型中限制病毒庫，並在停用 ART 後抑制病毒量 |
+| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | 前臨床 | mBio | 慢病毒感染在有效 ART 下仍持續存在於腦部 |
+| [26378179](https://pubmed.ncbi.nlm.nih.gov/26378179/) | 2015 | 前臨床（體外） | Journal of Virology | SIVmac239 對 INSTI 的抗藥性圖譜 |
+| [24920794](https://pubmed.ncbi.nlm.nih.gov/24920794/) | 2014 | 前臨床（體外） | Journal of Virology | 將 HIV-1 整合酶抗藥突變導入 SIVmac239 後，對 INSTI 感受性的影響 |
+| [25583721](https://pubmed.ncbi.nlm.nih.gov/25583721/) | 2015 | 前臨床（體外） | Antimicrob Agents Chemother | 以猿猴嗜性 HIV 作為整合酶抑制劑抗藥性研究模型 |
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-65872 | ISENTRESS TABLETS 600MG | MERCK SHARP & DOHME (ASIA) LTD |
-| HK-56630 | ISENTRESS TAB 400MG | MERCK SHARP & DOHME (ASIA) LTD |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-65872 | ISENTRESS TABLETS 600MG | — | 未提供 |
+| HK-56630 | ISENTRESS TAB 400MG | — | 未提供 |
+
+兩張許可證均為單方製劑，狀態有效，持有者為 MERCK SHARP & DOHME (ASIA) LTD。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（來自 TxGNN 知識圖譜，非仿單內容）：肌病變 (myopathy)、肌肉疾病、骨骼肌疾病、家族性週期性麻痺、橫紋肌溶解症、結節性筋膜炎。
+- **藥物交互作用**：共查得 36 筆，以下為已列出者的主要項目：
+  - **嚴重 (Major)**：硫酸鋅、醋酸鋅、氫氧化鋁、碳酸鈣（含多價陽離子，可能影響吸收）
+  - **中度 (Moderate)**：氧化鎂、硫酸鎂、氯化鎂、Orlistat
+  - **輕微 (Minor)**：Famotidine、Ranitidine、Cimetidine、Nizatidine 等 H2 受體阻斷劑，Omeprazole、Pantoprazole、Lansoprazole 等質子幫浦抑制劑，以及 Pioglitazone、Dexamethasone
 
-另有一項體外研究（PMID 32166319）提示，Raltegravir 可能影響脂肪組織與胰島素敏感性，但尚屬機轉層級的證據。
+其餘安全性資訊請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 證據僅限於非人類靈長類與體外的前臨床研究（L4），沒有任何有效的人類試驗支持。
-- SIV 是動物病毒，Raltegravir 在人類 HIV-1 的用途早已確立，這項預測的實際再利用價值有限。
+- 預測的適應症 SIV 感染是 HIV 的動物研究模型，並非獨立的人類治療適應症，沒有臨床試驗，證據僅停留在前臨床（L4）。
+- 此結果只是驗證動物模型，不具再利用價值。另外兩個預測（貓免疫缺陷症候群、神經發展障礙）缺乏證據，不建議推進。
 
 **若要推進需要：**
-- 先釐清此預測的目標：是用於獸醫或動物模型研究，還是只是 HIV-1 關聯的延伸。若為後者，不建議投入資源。
-- 補齊香港衛生署仿單的警語與禁忌資料，以及 DrugBank 的作用機轉資料。
-
-**同一藥物的其他預測（均為 Hold）：**
-- 貓後天免疫缺乏症候群（FIV）：證據等級 L4。列出的 Phase 3 試驗都是人類 HIV-1，沒有貓的資料，也沒有相關文獻。
-- 一種罕見的神經發育疾病：證據等級 L5。沒有試驗、沒有文獻，也找不到合理的機轉關聯，很可能是知識圖譜的假象，不建議推進。
-
-*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。*
+- 先確認是否存在真正的人類新適應症，例如 HIV 暴露後預防等，而非以 SIV 為目標
+- 補充 Raltegravir 的作用機轉資料（DrugBank）
+- 取得香港衛生署仿單的警語與禁忌症，完成安全性篩選
+- 補齊許可證的劑型與核准適應症資訊
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

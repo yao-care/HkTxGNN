@@ -2,7 +2,7 @@
 layout: default
 title: Trimethoprim
 parent: 僅模型預測 (L5)
-nav_order: 895
+nav_order: 910
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,20 +29,20 @@ indication_count: 2
 
 </div>
 
-# Trimethoprim：從抗菌用藥到點狀上皮角結膜炎
+# Trimethoprim：從尿路感染到點狀上皮角膜結膜炎
 
 ## 一句話總結
 
-Trimethoprim 是細菌二氫葉酸還原酶抑制劑，屬於抗菌藥物，香港已有多張上市許可證。
-TxGNN 模型預測它可能對**點狀上皮角結膜炎 (Punctate Epithelial Keratoconjunctivitis)** 有效。
-目前針對這個適應症，**沒有任何臨床試驗或文獻**支持，只有模型預測。
+Trimethoprim 是一種抗菌藥物，原本用於尿路感染、中耳炎、肺囊蟲肺炎、志賀氏菌症及結膜炎等感染性疾病。
+TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis)** 有效，但目前**沒有任何臨床試驗和文獻**直接支持這個預測，僅屬模型推論。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 點狀上皮角結膜炎 (Punctate Epithelial Keratoconjunctivitis) |
-| TxGNN 預測分數 | 99.57%（模型排名 8012） |
+| 原適應症 | 尿路感染、感染性中耳炎、肺囊蟲肺炎、志賀氏菌症、結膜炎等（香港許可證未提供適應症文字，此為知識圖譜資料） |
+| 預測新適應症 | 點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis) |
+| TxGNN 預測分數 | 99.57% |
 | 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 13 張 |
@@ -50,11 +50,9 @@ TxGNN 模型預測它可能對**點狀上皮角結膜炎 (Punctate Epithelial Ke
 
 ## 為什麼這個預測合理？
 
-Trimethoprim 抑制細菌的二氫葉酸還原酶，阻斷葉酸合成，因此具有抗菌作用。目前缺乏其他詳細的作用機轉資料。
+目前缺乏詳細的作用機轉資料。一般已知 Trimethoprim 抑制細菌的二氫葉酸還原酶，阻斷葉酸合成，因而對常見細菌具抗菌活性。
 
-點狀上皮角結膜炎常由病毒（例如腺病毒）引起，也可能是毒性或免疫介導的反應。抗菌活性對這類病因沒有明確的機轉依據。
-
-TxGNN 給出 99.57% 的高分，是知識圖譜的推論結果，推測是因為它與細菌性結膜炎在圖譜上距離很近。這個分數不等於有臨床或機轉證據。因此，這個預測在機轉上的說服力偏低。
+模型給分很高，可能是因為它在知識圖譜中與結膜炎、瞼緣結膜炎等眼部感染適應症距離相近。但點狀上皮角膜結膜炎常由病毒（如腺病毒）或非感染性原因引起，抗菌機轉未必能處理其根本病因。因此這個高分更可能反映網絡鄰近性，而非真正的機轉關聯。
 
 ## 臨床試驗證據
 
@@ -62,54 +60,49 @@ TxGNN 給出 99.57% 的高分，是知識圖譜的推論結果，推測是因為
 
 ## 文獻證據
 
-目前無相關文獻。
+針對預測的新適應症（點狀上皮角膜結膜炎），目前無相關文獻。
+
+與其相鄰的「結膜炎」已是原適應症之一，該方向的文獻較多，但不能視為對新適應症的支持，因此不列於此。
 
 ## 香港上市資訊
 
-目前共有 13 張許可證，以下列出 5 張主要許可證。來源資料未提供劑型與核准適應症。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-56426 | TRIMETHOPRIM SUSP 50MG/5ML | 未提供 | 未提供 |
+| HK-43066 | CO-SEPTIC TAB | 未提供 | 未提供 |
+| HK-21598 | TRIMETRIN CAP | 未提供 | 未提供 |
+| HK-09295 | APO-SULFATRIM 400-80MG TAB | 未提供 | 未提供 |
+| HK-65292 | DBL SULFAMETHOXAZOLE AND TRIMETHOPRIM CONCENTRATE FOR SOLUTION FOR INFUSION 400MG/80MG | 未提供 | 未提供 |
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-56426 | TRIMETHOPRIM SUSP 50MG/5ML | SINO-ASIA PHARMACEUTICAL SUPPLIES LTD |
-| HK-43066 | CO-SEPTIC TAB | JEAN-MARIE PHARMACAL CO LTD |
-| HK-21138 | SULFAPRIM INJECTABLE SOLN (VET) | WAI LUNG HONG AGRIBUSINESS LTD（獸用） |
-| HK-21598 | TRIMETRIN CAP | VICKMANS LABORATORIES LTD |
-| HK-09295 | APO-SULFATRIM 400-80MG TAB | HIND WING CO LTD |
+目前共有 13 張有效許可證（皆為單一成分登記），此處僅列出 5 張。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（來自知識圖譜關聯，非仿單文字）：紫質症（含遺傳性紫質症）、腎臟疾病、肝臟疾病、膽囊疾病、血小板低下、嗜中性白血球低下、顆粒球缺乏症、困難梭狀芽孢桿菌結腸炎、新生兒壞死性腸炎、G6PD 缺乏症、肝醣儲積症、胱胺酸尿症、半乳糖血症、葉酸缺乏性貧血。
+- **藥物交互作用**：資料庫查得 100 筆交互作用。其中屬於**嚴重 (Major)** 的包括：
+  - 檸檬酸鉀 (Potassium citrate)
+  - 碳酸氫鉀 (Potassium bicarbonate)
+  - 氯化鉀 (Potassium chloride)
+  - 葡萄糖酸鉀 (Potassium gluconate)
+
+  中度 (Moderate) 的包括 Metformin、Pioglitazone、Rosiglitazone、Repaglinide、Balsalazide、Picosulfuric acid、Sapropterin 等。鉀製劑與 Trimethoprim 併用需特別留意高血鉀風險。
+
+仿單的警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 這個適應症只有模型預測（L5），沒有試驗、文獻或明確的機轉依據。
-- 該疾病常為病毒性或免疫性，抗菌藥物的合理性不足。
-
-**補充：排名第 2 的預測「結膜炎」**
-
-這個預測的證據明顯較強（模型分數 99.17%，系統建議為 Proceed with Guardrails）。
-但有兩點需要留意：
-- 證據等級 L2 的判定偏樂觀。
-- 唯一直接相關的試驗是 Phase 4，並非 Phase 3。
-
-| 證據 | 內容 |
-|------|------|
-| [NCT00581542](https://clinicaltrials.gov/study/NCT00581542) | Phase 4，已完成，124 人。比較 Polytrim（polymyxin B/trimethoprim）眼用液與 moxifloxacin 治療結膜炎。 |
-| [PMID 19043945](https://pubmed.ncbi.nlm.nih.gov/19043945/) | 2008 年 RCT。比較 polymyxin B/trimethoprim 與 moxifloxacin 治療細菌性結膜炎的臨床起效速度。 |
-| [PMID 30007329](https://pubmed.ncbi.nlm.nih.gov/30007329/) | 2018 年系統性回顧。討論包含 trimethoprim 在內的抗生素治療新生兒披衣菌結膜炎。 |
-
-機轉上只適用於細菌性結膜炎，病毒性、過敏性與披衣菌性結膜炎都不在涵蓋範圍內。這個組合眼用藥看起來更像既有用法，而非真正的老藥新用。
+- 預測分數雖高（99.57%），但僅來自模型推論，沒有任何臨床試驗或文獻支持。
+- 抗菌機轉與非細菌性的點狀上皮角膜結膜炎之間缺乏合理連結。
 
 **若要推進需要：**
-- 補齊原適應症與核准適應症資料，目前來源中的核准適應症文字全為空白。
-- 補充 DrugBank 的作用機轉資料。
-- 取得香港衛生署仿單的警語與禁忌資料（目前為阻斷性缺口，無法進入安全性篩選）。
-- 針對點狀上皮角結膜炎補做專門文獻檢索，確認是否有病因為細菌的亞群。
-- 確認結膜炎使用的路徑（眼用劑型），目前路徑相容性尚未評估。
-- 在香港登記系統確認眼用 trimethoprim 複方的上市狀態。
+- 取得詳細的作用機轉資料，並釐清其與該疾病病因（病毒性或非感染性）的關聯
+- 文獻回顧或前臨床研究，確認是否有針對此適應症的證據
+- 下載並解析香港衛生署的仿單，補齊警語、禁忌症與核准適應症
+- 確認可用的眼用劑型與給藥途徑
+- 若考慮眼部感染方向，另行評估「結膜炎」；該適應症已屬原適應症，並非真正的再利用
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

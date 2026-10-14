@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Probenecid
-parent: 僅模型預測 (L5)
-nav_order: 717
-evidence_level: L5
+parent: 中證據等級 (L3-L4)
+nav_order: 732
+evidence_level: L4
 indication_count: 3
 ---
 
 # Probenecid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+證據等級: **L4** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,95 +29,85 @@ indication_count: 3
 
 </div>
 
-# Probenecid：從痛風／高尿酸血症到腎性低尿酸血症
+# Probenecid：從痛風到腎性低尿酸血症
 
 ## 一句話總結
 
-Probenecid（丙磺舒）是促尿酸排泄藥，一般用於痛風與高尿酸血症（本資料包未收錄原適應症，此處依一般藥理知識說明）。
-TxGNN 模型預測它可能對**腎性低尿酸血症 (Hypouricemia, renal)** 有效，但目前**沒有臨床試驗**，只有 **20 篇疾病相關文獻**，且沒有一篇顯示 Probenecid 能治療這個疾病。
-這個預測在藥理方向上很可能是反的，不建議推進。
-
----
+Probenecid 是一種促尿酸排泄藥，原本用於痛風與高尿酸血症。
+TxGNN 模型預測它可能對**腎性低尿酸血症 (Hypouricemia, Renal)** 有效，但目前**沒有臨床試驗**，僅有 **20 篇相關文獻**，且文獻多顯示 probenecid 只是診斷用探針，並非治療。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 腎性低尿酸血症 (Hypouricemia, renal) |
+| 原適應症 | 痛風、高尿酸血症（來自知識圖譜；香港許可證未載明適應症文字） |
+| 預測新適應症 | 腎性低尿酸血症 (Hypouricemia, Renal) |
 | TxGNN 預測分數 | 99.73% |
-| 證據等級 | L5（僅有模型預測，無支持療效的研究） |
+| 證據等級 | L4 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 2 張 |
 | 建議決策 | Hold |
 
----
-
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。以下推論來自一般藥理知識，不是資料包內容。Probenecid 會抑制腎小管的尿酸再吸收轉運體 URAT1（SLC22A12），也會抑制 OAT1/OAT3，因此增加尿酸從腎臟排出，血中尿酸下降。
+目前缺乏詳細的作用機轉資料。根據已知資訊，probenecid 是促尿酸排泄藥，會抑制腎臟的 URAT1 (SLC22A12) 與 OAT1/OAT3 轉運蛋白，增加尿酸從腎臟排出，因此可用於痛風與高尿酸血症。
 
-遺傳性腎性低尿酸血症，主要成因是 URAT1 功能喪失，使腎臟尿酸再吸收不足，血尿酸本來就偏低。Probenecid 的作用等於人為重現這個疾病的病理機轉，理論上可能讓低尿酸更嚴重，而不是改善。
+腎性低尿酸血症的病因，主要是 URAT1 (SLC22A12) 或 GLUT9 (SLC2A9) 功能喪失，使尿酸在腎小管重吸收不足、排泄過多。兩者涉及同一條尿酸轉運路徑，這很可能就是 TxGNN 給出高分的原因。
 
-TxGNN 的高分（0.997）較可能來自知識圖譜中「藥物—尿酸轉運體—疾病」的鄰近關係，而不是治療方向一致。文獻中 Probenecid 多半被當作診斷探針，用來測試尿酸轉運功能（例如 PMID 8341392、7099326、854144），不是治療用途。
-
----
+但這種關聯**不是治療性的**。這個疾病的問題是尿酸「已經排太多」，probenecid 只會進一步促進尿酸流失，無法矯正根本缺陷，預期無效甚至有害（可能增加運動誘發急性腎損傷與泌尿道結石的風險）。文獻中 probenecid 主要用於負荷試驗，根據尿酸清除率的反應來區分缺陷類型。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
-資料包共 20 篇文獻，以下列出最相關的 10 篇（綜述與世代研究優先，其次為個案報告）。所有文獻的相關性標記皆為「待審」。
+共 20 篇文獻，以下列出最相關者（多為綜述、個案報告，無 RCT）：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Review | Clin Rheumatol | 給風濕科醫師的低尿酸血症更新，依病因分類整理 |
-| [16678460](https://pubmed.ncbi.nlm.nih.gov/16678460/) | 2006 | Review | Mol Genet Metab | 遺傳性腎性低尿酸血症多由 URAT1（SLC22A12）功能喪失突變造成 |
-| [14694169](https://pubmed.ncbi.nlm.nih.gov/14694169/) | 2004 | Cohort | J Am Soc Nephrol | 32 位日本患者的臨床與 SLC22A12 基因分析，說明 URAT1 基因與尿酸排泄的關係 |
-| [7771493](https://pubmed.ncbi.nlm.nih.gov/7771493/) | 1995 | Case report/Review | Am J Kidney Dis | 腎性低尿酸血症與運動誘發急性腎衰竭，討論預防方式 |
-| [14655203](https://pubmed.ncbi.nlm.nih.gov/14655203/) | 2003 | Case report | Am J Kidney Dis | 兩位男性手足患遺傳性腎性低尿酸血症，並發運動誘發急性腎衰竭 |
-| [8533596](https://pubmed.ncbi.nlm.nih.gov/8533596/) | 1995 | Case report | Acta Paediatr Jpn | 15 歲男孩運動後急性腎衰竭，Probenecid 與 Pyrazinamide 測試顯示尿酸轉運完全缺陷 |
-| [8341392](https://pubmed.ncbi.nlm.nih.gov/8341392/) | 1993 | Case report（機轉） | Nephron | 患者對 Probenecid 與 Pyrazinamide 皆無反應，Probenecid 作為診斷探針 |
-| [7099326](https://pubmed.ncbi.nlm.nih.gov/7099326/) | 1982 | Case report（機轉） | Nephron | 家族性腎性低尿酸血症，尿酸排泄在 Probenecid 後反而下降 |
-| [854144](https://pubmed.ncbi.nlm.nih.gov/854144/) | 1977 | Case report | Nephron | 家族性低尿酸血症，尿酸清除率對 Probenecid 與 Pyrazinamide 反應減弱 |
-| [9510398](https://pubmed.ncbi.nlm.nih.gov/9510398/) | 1998 | 臨床研究（類型待確認） | Intern Med | 16 位日本腎性低尿酸血症患者，探討血尿的風險因子 |
-
-以上文獻都只描述疾病本身或把 Probenecid 當診斷工具，沒有任何一篇評估 Probenecid 的治療效果。
-
----
+| [16678460](https://pubmed.ncbi.nlm.nih.gov/16678460/) | 2006 | Review | Mol Genet Metab | 遺傳性腎性低尿酸血症多由 SLC22A12 (URAT1) 功能喪失突變所致 |
+| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Review | Clin Rheumatol | 針對風濕科醫師的低尿酸血症更新，涵蓋病因分類 |
+| [7771493](https://pubmed.ncbi.nlm.nih.gov/7771493/) | 1995 | Review/個案 | Am J Kidney Dis | 腎性低尿酸血症與運動誘發急性腎衰竭，探討預防方式 |
+| [14694169](https://pubmed.ncbi.nlm.nih.gov/14694169/) | 2004 | 世代研究（基因分析） | J Am Soc Nephrol | 32 位患者的 SLC22A12 定序，URAT1 基因影響尿酸排泄 |
+| [854144](https://pubmed.ncbi.nlm.nih.gov/854144/) | 1977 | 病例系列（生理研究） | Nephron | 患者對 probenecid 與 pyrazinamide 的尿酸清除反應減弱，提示近端小管重吸收缺陷 |
+| [8976099](https://pubmed.ncbi.nlm.nih.gov/8976099/) | 1996 | Review | Nihon Rinsho | 尿酸代謝異常的概念與分類 |
+| [3813739](https://pubmed.ncbi.nlm.nih.gov/3813739/) | 1987 | 病例系列 | Arch Intern Med | 糖尿病患者的腎性低尿酸血症，尿酸清除增加 |
+| [1944743](https://pubmed.ncbi.nlm.nih.gov/1944743/) | 1991 | 病例系列 | Nephron | 第 1 型糖尿病合併腎性低尿酸血症 |
+| [9583212](https://pubmed.ncbi.nlm.nih.gov/9583212/) | 1998 | 個案報告 | Acta Paediatr Jpn | 女童腎性低尿酸血症併運動後急性腎衰竭 |
+| [2709741](https://pubmed.ncbi.nlm.nih.gov/2709741/) | 1989 | 個案報告 | Klin Wochenschr | 腎性低尿酸血症患者發生尿酸腎病變，probenecid 可增加尿酸排泄分率 |
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-57027 | U-ACID TAB 500MG | SYNCO (H.K.) LIMITED |
-| HK-16674 | PROBENECID TAB 500MG (WHITE) | SYNCO (H.K.) LIMITED |
-
----
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-57027 | U-ACID TAB 500MG | 未載明 | 未載明 |
+| HK-16674 | PROBENECID TAB 500MG (WHITE) | 未載明 | 未載明 |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（非仿單內容，僅供參考）：肝衰竭、腎臟疾病與腎功能受損、血液疾病（血小板低下、白血球低下、顆粒球缺乏、嗜中性白血球低下等）、消化性潰瘍、肌肉病變與橫紋肌溶解症、腹瀉性疾病（含困難梭狀芽孢桿菌結腸炎）等。
+- **藥物交互作用**：資料庫共記錄 71 項，以下為部分重點：
+  - **嚴重 (Major)**：Phenylbutyric acid、Glycerol phenylbutyrate
+  - **中度 (Moderate)**：Acetylsalicylic acid（阿斯匹靈）、磺醯脲類降血糖藥（chlorpropamide、glimepiride、glipizide、glyburide、tolbutamide、tolazamide、acetohexamide）、repaglinide、nateglinide
+  - **輕微 (Minor)**：Famotidine、amoxicillin、levofloxacin、eluxadoline
+- 就本預測適應症而言，需特別留意運動誘發急性腎損傷與泌尿道結石的風險。
 
----
+其餘警語與禁忌的仿單資料目前缺乏，請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 只有模型預測，沒有任何臨床試驗，文獻也不支持 Probenecid 有治療效果。
-- 藥理方向很可能相反：Probenecid 會增加尿酸排泄，可能加重低尿酸血症，並增加運動誘發急性腎衰竭的風險。
+- 本預測缺乏臨床試驗，且機轉上 probenecid 會加重尿酸流失，不具治療合理性；TxGNN 高分反映的是共同轉運路徑，而非療效。
+- 文獻中 probenecid 只是診斷用探針。
 
 **若要推進需要：**
-- 由臨床藥理專家確認預測方向，通常應直接排除此適應症。
-- 補齊 DrugBank 的作用機轉資料，並取得香港衛生署仿單的警語與禁忌。
-- 同一藥物的另外兩項預測（Lesch-Nyhan 症候群、HPRT 部分缺乏症）也建議維持 Hold：它們只對高尿酸這一面有間接關聯，且增加尿中尿酸負荷有結石與腎病變風險，標準治療是 Allopurinol 這類黃嘌呤氧化酶抑制劑。
-
-> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+- 說明如何以機轉支持療效（目前機轉分析指向無效或有害）
+- 取得完整的作用機轉資料與香港仿單的警語、禁忌
+- 若仍要探索，需先進行嚴謹的安全性評估，特別是腎損傷與結石風險
+- 建議改為評估其他預測適應症（如 HPRT 部分缺乏症的高尿酸血症與痛風），但該類患者尿酸產生過多，通常優先使用黃嘌呤氧化酶抑制劑，且同樣缺乏臨床證據
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

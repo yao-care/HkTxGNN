@@ -2,7 +2,7 @@
 layout: default
 title: Theophylline
 parent: 僅模型預測 (L5)
-nav_order: 856
+nav_order: 871
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,89 +29,105 @@ indication_count: 5
 
 </div>
 
-# Theophylline：從支氣管擴張劑（氣喘／慢性呼吸道疾病）到血栓性疾病
+# Theophylline：從氣喘到血栓性疾病
 
 ## 一句話總結
 
-Theophylline（茶鹼）是一種支氣管擴張劑，文獻記載用於氣喘、支氣管炎與肺氣腫。
-TxGNN 模型預測它可能對**血栓性疾病 (Thrombotic Disease)** 有效，分數很高（99.62%）。
-但目前**沒有任何臨床試驗**，現有文獻也與此用途無直接關聯，證據僅停留在模型預測層級。
+Theophylline（茶鹼）是一種黃嘌呤類支氣管擴張劑，原本用於氣喘、支氣管炎、肺氣腫等呼吸道疾病。
+TxGNN 模型預測它可能對**血栓性疾病 (Thrombotic Disease)** 有效，但目前**沒有任何臨床試驗**，檢索到的 **19 篇文獻**也幾乎都與此用途無關，證據僅停留在模型預測層級。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證未載明；文獻描述為支氣管擴張劑（氣喘、支氣管炎、肺氣腫） |
+| 原適應症 | 氣喘、支氣管炎、肺氣腫等呼吸道疾病（香港許可證未載明適應症文字，此處依知識圖譜的適應症資料） |
 | 預測新適應症 | 血栓性疾病 (Thrombotic Disease) |
 | TxGNN 預測分數 | 99.62% |
-| 證據等級 | L5 |
+| 證據等級 | L5（僅有模型預測） |
 | 香港上市 | ✓ 已上市 |
-| 許可證數 | 8 張 |
+| 許可證數 | 8 張（皆為有效的單一成分製劑） |
 | 建議決策 | Hold |
+
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Theophylline 是甲基黃嘌呤類藥物，在呼吸道疾病中的用途已有長期文獻記載。以下機轉只是推測，現有文獻並未證實：它可能透過抑制磷酸二酯酶 (PDE) 與拮抗腺苷受體，提高血小板內的 cAMP，進而抑制血小板活化。
+Theophylline 是非選擇性磷酸二酯酶 (PDE) 抑制劑，同時也是腺苷受體拮抗劑。目前缺乏藥物資料庫中的詳細作用機轉資料，以上是根據其已知藥理特性所作的說明。
 
-血小板活化是動脈血栓形成的重要環節，所以這個方向在機轉上說得通。不過證據包內的 10 篇文獻都不是在研究 theophylline 的抗血栓作用。內容包括 ticlopidine 藥動學、血小板與生物標記檢測方法、theophylline 偵測感測器、腦水腫等，因此模型預測目前沒有獨立佐證。
+在血小板中，PDE 受抑制會使 cAMP 上升，理論上可以抑制血小板聚集。這是它與血栓形成之間的潛在機轉連結。不過這條連結只是推論，原適應症（呼吸道疾病）與血栓性疾病在病理上差異很大。
+
+TxGNN 給出 0.996 的高分，但這純屬計算預測。檢索到的文獻大多與主題不符，例如抗血小板藥 ticlopidine 的藥物動力學、血小板標記物檢測、血液 microRNA 樣本處理，以及茶鹼的檢測感測器。沒有任何一篇評估 theophylline 預防或治療血栓。
+
+---
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記
+目前無相關臨床試驗登記。
+
+---
 
 ## 文獻證據
 
-以下文獻皆為間接相關，沒有任何一篇直接評估 theophylline 用於血栓性疾病。
+下表為檢索到的文獻中相對較相關者，沒有 RCT，以回顧性文章為先。**這些文獻沒有一篇直接證明 theophylline 對血栓性疾病有效。**
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [8055680](https://pubmed.ncbi.nlm.nih.gov/8055680/) | 1994 | 藥動學回顧（其他藥物：ticlopidine） | Clin Pharmacokinet | 說明抗血小板藥 ticlopidine 的藥動學，與 theophylline 無直接關係 |
-| [6771102](https://pubmed.ncbi.nlm.nih.gov/6771102/) | 1980 | Review | CRC Crit Rev Biochem | 前列腺素與血小板的關係：前列環素提高血小板 cAMP 而抑制聚集，提供背景機轉 |
-| [8981060](https://pubmed.ncbi.nlm.nih.gov/8981060/) | 1996 | 體外研究 | Gen Pharmacol | Milrinone 與腺苷透過提高 cAMP 抑制人類血小板反應（非 theophylline） |
-| [26764324](https://pubmed.ncbi.nlm.nih.gov/26764324/) | 2016 | 體外研究 | J Nutr | 陳年大蒜萃取物透過 cAMP/cGMP 訊號抑制血小板聚集（非 theophylline） |
-| [749930](https://pubmed.ncbi.nlm.nih.gov/749930/) | 1978 | 檢測方法 | Br J Haematol | 血小板第四因子放射免疫分析；theophylline 僅作為採血抗凝劑成分 |
-| [29254574](https://pubmed.ncbi.nlm.nih.gov/29254574/) | 2018 | 分析方法 | Anal Chim Acta | Theophylline 偵測感測器；指出藥物濃度過高有毒性，需嚴格監測 |
-| [25856065](https://pubmed.ncbi.nlm.nih.gov/25856065/) | 2015 | 檢測方法 | Platelets | 血漿可溶性 CLEC-2 可作為血小板活化標記，與血栓風險評估相關 |
-| [6241135](https://pubmed.ncbi.nlm.nih.gov/6241135/) | 1984 | 觀察性研究 | Cor Vasa | 心肌梗塞與血栓性靜脈炎患者的 theophylline 抗性 T 細胞比例增加（以 theophylline 作為細胞分型工具） |
-| [14231672](https://pubmed.ncbi.nlm.nih.gov/14231672/) | 1964 | 臨床論述（德文） | Z Gesamte Inn Med | 血栓栓塞疾病導致的慢性肺心症；無摘要可供判讀 |
-| [29956444](https://pubmed.ncbi.nlm.nih.gov/29956444/) | 2018 | 基礎研究 | J Thromb Haemost | 內皮細胞 Weibel-Palade 小體的分泌調控，屬止血與發炎的基礎生物學 |
+| [8055680](https://pubmed.ncbi.nlm.nih.gov/8055680/) | 1994 | Review | Clinical Pharmacokinetics | 抗血小板藥 ticlopidine 的藥物動力學，與 theophylline 無直接關係 |
+| [6771102](https://pubmed.ncbi.nlm.nih.gov/6771102/) | 1980 | Review | CRC Critical Reviews in Biochemistry | 前列腺素、血小板與動脈粥狀硬化；說明 cAMP 上升可抑制血小板聚集 |
+| [21719422](https://pubmed.ncbi.nlm.nih.gov/21719422/) | 2011 | 離體研究 | Rheumatology (Oxford) | Behçet 氏症患者的血小板與嗜中性球活化，與年齡、性別及疾病活動度的關係 |
+| [8981060](https://pubmed.ncbi.nlm.nih.gov/8981060/) | 1996 | 藥理研究 | General Pharmacology | Milrinone 與腺苷合併抑制人類血小板反應，機轉上與 cAMP 路徑相關 |
+| [25856065](https://pubmed.ncbi.nlm.nih.gov/25856065/) | 2015 | 檢測研究 | Platelets | 血漿可溶性 CLEC-2 的測定，作為血小板活化標記 |
+| [29220362](https://pubmed.ncbi.nlm.nih.gov/29220362/) | 2017 | 方法學研究 | PLoS One | 最佳化血漿製備以監測血小板儲存分子 |
+| [32824700](https://pubmed.ncbi.nlm.nih.gov/32824700/) | 2020 | 方法學研究 | Cells | 抗凝劑與樣本處理對血液 microRNA 定量的影響 |
+| [15475744](https://pubmed.ncbi.nlm.nih.gov/15475744/) | 2004 | 觀察性研究 | Inflammatory Bowel Diseases | 發炎性腸道疾病患者的血小板-白血球聚集 |
+| [749930](https://pubmed.ncbi.nlm.nih.gov/749930/) | 1978 | 檢測研究 | British Journal of Haematology | 血小板第 4 因子放射免疫分析；theophylline 僅作為檢體製備中的添加劑 |
+| [29254574](https://pubmed.ncbi.nlm.nih.gov/29254574/) | 2018 | 分析方法開發 | Analytica Chimica Acta | 茶鹼電化學適體感測器，與治療血栓無關 |
+
+---
 
 ## 香港上市資訊
 
-香港共登記 8 張許可證，以下列出其中 5 張主要許可證。證據包未提供劑型與核准適應症文字。
+香港共有 8 張有效許可證，皆為單一成分製劑，以下列出 5 張。資料中未載明劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-45955 | SLO-THEO CAP 100MG (EXTENDED-RELEASE) | PRIMAL CHEMICAL CO LTD |
-| HK-45954 | SLO-THEO CAP 50MG (EXTENDED-RELEASE) | PRIMAL CHEMICAL CO LTD |
-| HK-19359 | NUELIN-SR 125 TAB 125MG S R WHITE | INOVA PHARMACEUTICALS (HONG KONG) LIMITED |
-| HK-45831 | NUELIN SR 200 TAB 200MG (INDIA) | INOVA PHARMACEUTICALS (HONG KONG) LIMITED |
-| HK-45832 | NUELIN SR 300 TAB 300MG (INDIA) | INOVA PHARMACEUTICALS (HONG KONG) LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-45955 | SLO-THEO CAP 100MG (EXTENDED-RELEASE) | 緩釋膠囊（依品名） | — |
+| HK-19359 | NUELIN-SR 125 TAB 125MG S R WHITE | 緩釋錠（依品名） | — |
+| HK-45832 | NUELIN SR 300 TAB 300MG (INDIA) | 緩釋錠（依品名） | — |
+| HK-45831 | NUELIN SR 200 TAB 200MG (INDIA) | 緩釋錠（依品名） | — |
+| HK-45954 | SLO-THEO CAP 50MG (EXTENDED-RELEASE) | 緩釋膠囊（依品名） | — |
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **禁忌症（知識圖譜資料，非仿單內容）**：知識圖譜中與 theophylline 相關的禁忌或需謹慎的疾病包括高血壓、肝衰竭與肝病、癲癇、焦慮與精神疾病（含思覺失調類）、紫質症、腎臟病、消化性潰瘍、開角型青光眼、甲狀腺功能低下、糖尿病（含酮酸中毒）、良性前列腺肥大、血小板減少、嗜中性球減少及顆粒球缺乏等。此清單僅供參考，實際禁忌請以原廠仿單為準。
+- **藥物交互作用**：共記錄 100 筆。
+  - **重大 (Major)**：Bupropion。
+  - **中度 (Moderate)**：Clarithromycin、Cimetidine、Famotidine、Ranitidine、Omeprazole、Rabeprazole、Doxycycline、Tetracycline、Minocycline、Hydrocortisone、Dexamethasone、Betamethasone、Budesonide、Triamcinolone、活性碳等。
+  - **輕微 (Minor)**：Ephedrine。
+- **治療窗狹窄**：theophylline 血中濃度過高易中毒，臨床上需監測血中濃度。個體間代謝差異（如 CYP1A2 基因多型）也會影響劑量。
 
-補充：證據包內的文獻（PMID 29254574）指出，theophylline 在血中濃度過高時有毒性，使用時需嚴格監測。
+其餘警語請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-TxGNN 分數雖高，但沒有任何臨床試驗，現有文獻也沒有直接支持 theophylline 抗血栓作用的內容，證據等級僅 L5。此外，香港仿單的警語與禁忌症資料缺漏（資料缺口 DG001，屬阻斷性），無法進入安全性篩選。
+- 這個預測只來自模型計算，沒有臨床試驗，檢索到的文獻也沒有直接評估 theophylline 對血栓的作用，證據等級僅 L5。
+- 機轉上雖有 cAMP 抑制血小板的理論連結，但很薄弱。theophylline 治療窗狹窄、交互作用多，而現有的抗血栓藥物已經很成熟，貿然推進並不合理。
 
 **若要推進需要：**
-- 取得香港衛生署仿單，補齊警語、禁忌症與核准適應症
-- 補充 theophylline 的作用機轉資料（例如查詢 DrugBank）
-- 針對 theophylline 與血小板功能／血栓的直接證據（體外血小板聚集、動物模型、人體研究）做專項文獻檢索
-- 治療窗狹窄，需規劃血中濃度監測與藥物交互作用管理
+- 先做前臨床或離體研究，確認 theophylline 在可達到的安全血中濃度下能否抑制血小板聚集或血栓形成。
+- 取得詳細的作用機轉資料，並補齊香港原廠仿單的警語與禁忌資料。
+- 若前臨床結果正向，再設計小型探索性臨床試驗，並規劃血中濃度監測與抗血小板、抗凝血藥物的交互作用評估。
 
-**其他預測適應症（供優先排序參考）：**
-- **鼻腔疾病（L2，Research Question）**：有 1 個已完成的 Phase 2 試驗 [NCT03990766](https://clinicaltrials.gov/study/NCT03990766)，為鼻用 theophylline 沖洗治療病毒感染後嗅覺障礙，樣本僅 27 人，且隨機與盲性設計、療效結果皆需再確認。
-- **阻塞性肺病（L3，Proceed with Guardrails）**：有多篇氣喘與 COPD 的臨床研究和回顧文獻，現有證據包中的登記試驗多為觀察性研究或其他吸入藥物研究，無法確認為 theophylline 療效試驗，因此等級上限為 L3。
-
-*本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證才能應用。*
+**補充：** 同一批預測中，「阻塞性肺病 (Obstructive Lung Disease)」有多個已完成的 Phase 3 試驗，但那屬於 theophylline 的原有適應症，並非真正的新用途。「鼻腔疾病」和「氣管疾病」證據較少，可列為後續研究方向，血栓性疾病則不是目前的優先選項。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

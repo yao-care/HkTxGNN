@@ -2,7 +2,7 @@
 layout: default
 title: Bexarotene
 parent: 僅模型預測 (L5)
-nav_order: 115
+nav_order: 118
 evidence_level: L5
 indication_count: 3
 ---
@@ -33,93 +33,108 @@ indication_count: 3
 
 ## 一句話總結
 
-Bexarotene 是 RXR 選擇性的 retinoid（rexinoid），原本用於皮膚 T 細胞淋巴瘤（CTCL）。
-TxGNN 模型預測它可能對**原發性皮膚 B 細胞淋巴瘤 (Primary Cutaneous B-cell Lymphoma)** 有效，但目前**沒有任何直接測試 bexarotene 於 B 細胞疾病的研究**。
-支持這個方向的只有 2 個間接相關的臨床試驗（1 個 Phase 1 T 細胞研究、1 個已撤回）和一批綜述與病例報告，這個預測較可能是知識圖譜的鄰近效應。
+Bexarotene 是一種口服類視色素（rexinoid），原本用於**原發性皮膚 T 細胞淋巴瘤 (CTCL)**。
+TxGNN 模型預測它可能對**原發性皮膚 B 細胞淋巴瘤 (Primary Cutaneous B-cell Lymphoma)** 有效，但目前**沒有相關臨床試驗**，現有文獻也**沒有任何一篇直接評估 bexarotene 用於 B 細胞淋巴瘤**，證據僅止於模型預測。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 皮膚 T 細胞淋巴瘤 (CTCL)（香港許可證未載明適應症，依藥物分類與文獻判斷） |
+| 原適應症 | 原發性皮膚 T 細胞淋巴瘤（香港許可證未載明適應症文字，此處引用藥物知識圖譜的適應症資料） |
 | 預測新適應症 | 原發性皮膚 B 細胞淋巴瘤 (Primary Cutaneous B-cell Lymphoma) |
 | TxGNN 預測分數 | 99.44% |
-| 證據等級 | L5（Evidence Pack 標示為 L4，但供應資料中沒有 B 細胞相關的機轉研究，故從嚴判定） |
+| 證據等級 | L5（僅有模型預測，無實際研究） |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 1 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位為空）。已知 Bexarotene 是 RXR 選擇性 retinoid，能誘導惡性 T 細胞凋亡並使細胞週期停滯，這是它取得 CTCL 適應症的基礎。
+目前缺乏詳細的作用機轉資料。就一般藥理知識推論，bexarotene 是選擇性的類視色素 X 受體 (RXR) 促效劑，可誘導惡性 T 細胞株凋亡與分化，這是它用於 CTCL 的基礎。
 
-「原發性皮膚淋巴瘤」同時涵蓋 T 細胞與 B 細胞亞型，兩者都以皮膚為主要侵犯器官。TxGNN 給出高分，很可能是因為 bexarotene 與 CTCL 在知識圖譜中共用這個「原發性皮膚淋巴瘤」上層節點。
+原適應症（T 細胞淋巴瘤）與預測適應症（B 細胞淋巴瘤）同屬原發性皮膚淋巴瘤，臨床上常被一併討論和鑑別診斷。這可能是模型給出高分的原因。不過，這個高分更可能反映知識圖譜中與已核准 CTCL 適應症的網絡鄰近性，而不是 B 細胞特有的作用機轉。
 
-現有資料不支持 B 細胞特異的機轉理由。在有直接證據之前，應把這個預測視為圖譜鄰近所產生的假象，而不是真正的新適應症訊號。
+RXR 訊號是否與皮膚 B 細胞淋巴瘤的生物學相關，目前尚未建立，也沒有任何已檢索到的研究在 B 細胞疾病中評估 bexarotene。因此這個預測在機轉上仍屬假說。
+
+---
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT01134341](https://clinicaltrials.gov/study/NCT01134341) | Phase 1 | 完成 | 34 | Pralatrexate 合併口服 bexarotene 用於復發/難治性 CTCL 的劑量探索，評估劑量、安全性與早期療效。研究對象是 T 細胞淋巴瘤，未測試 B 細胞疾病 |
-| [NCT05106192](https://clinicaltrials.gov/study/NCT05106192) | NA | 已撤回 | 0 | 以無針注射系統施打 triamcinolone 治療皮膚淋巴瘤斑塊（含 T 與 B 細胞型）。不涉及 bexarotene，也沒有產出資料 |
+目前無相關臨床試驗登記。
+
+---
 
 ## 文獻證據
 
+以下文獻皆為綜述、病例系列或病例報告，沒有 RCT，也沒有直接測試 bexarotene 於 B 細胞淋巴瘤的研究。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [31466585](https://pubmed.ncbi.nlm.nih.gov/31466585/) | 2019 | Review | Dermatologic Clinics | 皮膚 B 細胞淋巴瘤的診斷與處置。治療指引資料有限，各機構做法不一，以局部治療為主 |
-| [34059248](https://pubmed.ncbi.nlm.nih.gov/34059248/) | 2021 | Review | Medical Clinics of North America | 皮膚淋巴瘤（含 CTCL 與 B 細胞型）的診斷與處置概述 |
-| [19786826](https://pubmed.ncbi.nlm.nih.gov/19786826/) | 2009 | Review | Skin Pharmacology and Physiology | 皮膚淋巴瘤的新型與實驗性皮膚導向治療 |
-| [14616487](https://pubmed.ncbi.nlm.nih.gov/14616487/) | 2003 | Review | Australasian Journal of Dermatology | 原發性皮膚淋巴瘤處置。傳統策略包括外用類固醇、光療、放療、retinoid 等 |
-| [20806174](https://pubmed.ncbi.nlm.nih.gov/20806174/) | 2010 | Review | Therapeutische Umschau | 皮膚淋巴瘤的 WHO/EORTC 分類與概述 |
-| [31932947](https://pubmed.ncbi.nlm.nih.gov/31932947/) | 2020 | Review | Der Pathologe | 皮膚淋巴瘤的臨床表現、診斷與治療。晚期 MF 與 Sézary 症候群的全身治療包括 bexarotene（T 細胞疾病） |
-| [22031653](https://pubmed.ncbi.nlm.nih.gov/22031653/) | 2011 | Case report | Dermatology Online Journal | 局部復發的原發性皮膚邊緣區 B 細胞淋巴瘤病例 |
-| [23941646](https://pubmed.ncbi.nlm.nih.gov/23941646/) | 2013 | Case report | Journal of Cutaneous Pathology | 皮膚濾泡輔助 T 細胞淋巴瘤的診斷陷阱。曾被誤診為 B 細胞淋巴瘤，rituximab 治療失敗 |
-| [22508770](https://pubmed.ncbi.nlm.nih.gov/22508770/) | 2012 | Case report | Archives of Dermatology | 5 例皮膚濾泡輔助 T 細胞淋巴瘤病例系列（T 細胞亞型） |
-| [29881891](https://pubmed.ncbi.nlm.nih.gov/29881891/) | 2018 | Case series | Der Hautarzt | 163 例原發性皮膚淋巴瘤的臨床病例系列 |
+| [20806174](https://pubmed.ncbi.nlm.nih.gov/20806174/) | 2010 | Review | Therapeutische Umschau | 概述皮膚淋巴瘤（T 與 B 細胞）的分類與特性，屬非何杰金氏淋巴瘤 |
+| [14616487](https://pubmed.ncbi.nlm.nih.gov/14616487/) | 2003 | Review | Australas J Dermatol | 皮膚淋巴瘤處置綜述，傳統療法包含類視色素 |
+| [31932947](https://pubmed.ncbi.nlm.nih.gov/31932947/) | 2020 | Review | Der Pathologe | 晚期蕈樣肉芽腫與 Sézary 症候群需系統性治療（含 bexarotene），針對 T 細胞型 |
+| [31511903](https://pubmed.ncbi.nlm.nih.gov/31511903/) | 2019 | Review | Der Hautarzt | 與上篇相同主題，bexarotene 用於晚期 T 細胞型 |
+| [19786826](https://pubmed.ncbi.nlm.nih.gov/19786826/) | 2009 | Review | Skin Pharmacol Physiol | 皮膚淋巴瘤（含 B 細胞型）的新型與實驗性皮膚導向療法 |
+| [29881891](https://pubmed.ncbi.nlm.nih.gov/29881891/) | 2018 | Case series | Der Hautarzt | 163 例原發性皮膚淋巴瘤的臨床實務病例系列 |
+| [23941646](https://pubmed.ncbi.nlm.nih.gov/23941646/) | 2013 | Case series | J Cutan Pathol | 皮膚濾泡輔助 T 細胞淋巴瘤的診斷陷阱（T 細胞亞型，非 B 細胞） |
+| [22508770](https://pubmed.ncbi.nlm.nih.gov/22508770/) | 2012 | Case series | Arch Dermatol | 5 例皮膚濾泡輔助 T 細胞淋巴瘤（T 細胞亞型，非 B 細胞） |
+| [15861527](https://pubmed.ncbi.nlm.nih.gov/15861527/) | 2005 | Case report | Croat Med J | 蕈樣肉芽腫患者併發 EBV 相關皮膚 B 細胞病變，以外用 acyclovir 治療（與 bexarotene 無關） |
+| [15636695](https://pubmed.ncbi.nlm.nih.gov/15636695/) | 2004 | Case report | Clin Lymphoma | 兒童期淋巴瘤樣丘疹病合併小腸退行性大細胞淋巴瘤 |
 
-以上文獻均未直接評估 bexarotene 對 B 細胞淋巴瘤的療效。
+---
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-68294 | TARGRETIN CAPSULES 75MG（廠商：MAIN LIFE CORP LTD） | 膠囊劑（依品名） | 未提供 |
+| HK-68294 | TARGRETIN CAPSULES 75MG（製造商：MAIN LIFE CORP LTD） | —（依品名為膠囊） | — |
+
+---
 
 ## 細胞毒性
 
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 標靶藥物（RXR 選擇性 retinoid / rexinoid），非傳統細胞毒性化療 |
-| 骨髓抑制風險 | 低至中（文獻提及口服劑型可見嗜中性白血球低下） |
-| 致吐性分級 | 低 |
-| 監測項目 | 血脂（三酸甘油酯、膽固醇）、甲狀腺功能（中樞性甲狀腺低下）、CBC 含分類、肝功能 |
-| 處置防護 | 具致畸胎性，需嚴格避孕與排除懷孕；孕婦應避免接觸藥物 |
+| 細胞毒性分類 | 標靶藥物（RXR 選擇性促效劑，類視色素類） |
+| 骨髓抑制風險 | 資料有限；藥物知識圖譜將白血球低下列為相關禁忌疾病，建議追蹤血球 |
+| 致吐性分級 | 低（依藥物類別判斷） |
+| 監測項目 | CBC（含分類）、肝功能、血脂（三酸甘油酯、膽固醇）、甲狀腺功能 |
+| 處置防護 | 具致畸性，處置與使用的防護要求請依原廠仿單 |
 
-以上依藥物類別與文獻判斷，詳細內容請參考原廠仿單的警語與注意事項。
+詳細警語請參考原廠仿單。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。DrugBank 與香港仿單資料均缺，且查無藥物交互作用資料。
+- **藥物知識圖譜所列相關禁忌疾病（非仿單文字）**：肝衰竭、肝病、胰臟炎、膽囊疾病、膽道疾病、阻塞性黃疸、甲狀腺功能低下（含黏液水腫、先天性甲狀腺功能低下）、糖尿病（含糖尿病酮酸中毒）、物質濫用/依賴、白血球低下。
+- **藥物交互作用**：共查得 100 筆。
+  - 重大 (Major)：Albiglutide、Alogliptin、Dulaglutide、Eluxadoline、Exenatide。
+  - 中度 (Moderate)：Hydrocortisone、Dexamethasone、Betamethasone、Triamcinolone 等皮質類固醇，以及 Glimepiride、Glipizide、Glyburide 等磺醯脲類降血糖藥，另有 Cisapride、Eliglustat、Granisetron 等。
 
-文獻中常提及的 bexarotene 相關風險有高三酸甘油酯血症、中樞性甲狀腺低下與致畸胎性。
+仿單的警語與禁忌症內容請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 現有證據沒有任何針對 B 細胞淋巴瘤的 bexarotene 研究，唯二的相關試驗一個是 T 細胞的 Phase 1，一個已撤回。
-- 高預測分數很可能來自與 CTCL 共用的「原發性皮膚淋巴瘤」節點，而非 B 細胞特異的生物學。
+- 這個預測只有模型分數支持，沒有任何臨床試驗，文獻也未直接評估 bexarotene 對 B 細胞淋巴瘤的效果。
+- RXR 機轉與 B 細胞淋巴瘤的關聯尚未建立，高分可能只是反映它與已核准 CTCL 適應症的網絡鄰近性。
 
 **若要推進需要：**
-- 找到 bexarotene 在 B 細胞淋巴瘤的前臨床或臨床證據（目前為零）。
-- 補齊作用機轉資料（DrugBank），並說明 RXR 訊號在 B 細胞惡性腫瘤中的角色。
-- 取得香港衛生署仿單的警語與禁忌症，才能進入安全性篩選。
-- 若目標是實際可行的方向，同一份資料中的 **Sézary 症候群**（預測排名第 2，證據等級 L2）機轉直接，臨床上更接近既有 CTCL 適應症，值得優先評估。
+- 補充 B 細胞淋巴瘤中 RXR 訊號相關的前臨床或機轉研究。
+- 取得完整的作用機轉資料及香港原廠仿單（含警語與禁忌症）。
+- 若仍想推進，先設計小型探索性研究。
 
-*本報告僅供研究參考，不構成醫療建議；預測結果需經臨床驗證後才能應用。*
+**補充觀察：**
+同一份資料中，bexarotene 對 **Sézary 症候群**（CTCL 的白血病型變異）的支持度明顯較高。已有 1 項 Phase 3 試驗（NCT00056056，提前終止）及多項 Phase 1/2 併用研究，這更接近已核准適應症的延伸，而非真正的藥物再利用。若要集中資源，建議優先評估該方向。其中的臨床使用護欄包括致畸性、高三酸甘油酯血症與中樞性甲狀腺功能低下（需定期監測血脂與甲狀腺功能），並須審查併用藥物。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -2,7 +2,7 @@
 layout: default
 title: Ipratropium
 parent: 高證據等級 (L1-L2)
-nav_order: 474
+nav_order: 482
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,106 +29,129 @@ indication_count: 10
 
 </div>
 
-# Ipratropium：從抗膽鹼支氣管擴張劑到阻塞性肺疾病 (Obstructive Lung Disease)
+# Ipratropium：從慢性阻塞性肺病 (COPD) 到阻塞性肺病 (Obstructive Lung Disease)
 
 ## 一句話總結
 
-Ipratropium 是抗膽鹼類吸入型支氣管擴張劑，已在香港上市。
-TxGNN 模型預測它可能對**阻塞性肺疾病 (Obstructive Lung Disease)** 有效，目前有 **50 個臨床試驗**和 **20 篇文獻**與這個方向相關，其中多數是間接證據。
-這很可能是既有的核准用途，不是真正的新用途，需先核對仿單適應症。
+Ipratropium 是吸入型抗膽鹼支氣管擴張劑，原本用於慢性阻塞性肺病 (COPD)、過敏性及血管運動性鼻炎、支氣管炎等。
+TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有效，目前有 **25 個臨床試驗**和 **20 篇文獻**支持這個方向。
+但此預測與原有適應症高度重疊，本質上屬於「適應症內確認」，並非真正的跨疾病再利用。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 阻塞性肺疾病 (Obstructive Lung Disease) |
+| 原適應症 | 慢性阻塞性肺病、過敏性鼻炎、血管運動性鼻炎、支氣管炎、肺氣腫等（來自知識圖譜；香港許可證未載明適應症文字） |
+| 預測新適應症 | 阻塞性肺病 (Obstructive Lung Disease) |
 | TxGNN 預測分數 | 99.97% |
 | 證據等級 | L1 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 7 張 |
 | 建議決策 | Proceed with Guardrails |
 
-香港許可證資料未提供核准適應症文字，因此無法填寫「原適應症」，也無法確認預測是否屬於既有適應症。
+---
 
 ## 為什麼這個預測合理？
 
-Ipratropium 是非選擇性的蕪毒鹼受體 (muscarinic) 拮抗劑。它阻斷迷走神經膽鹼性的支氣管收縮，並減少呼吸道黏液分泌，機轉上直接對應阻塞性氣道疾病。這段機轉說明來自預測模型的推論，DrugBank 的 MOA 欄位目前沒有資料。
+目前缺乏詳細的作用機轉資料（原始 MOA 欄位未提供）。依文獻補充，Ipratropium 是非選擇性蕈毒鹼受體拮抗劑，可阻斷氣道平滑肌 M3 受體所介導的支氣管收縮，這是 COPD 與氣喘支氣管擴張的既定機轉。
 
-文獻證據也支持這個方向。多篇回顧與 Cochrane 系統性回顧探討 ipratropium 在 COPD 的角色，包括與 tiotropium、短效與長效 β2 促效劑的比較。臨床試驗中也有多項以 ipratropium 或含 ipratropium 的複方（如 Combivent、Berodual）作為治療組或對照組的 COPD 研究。
+阻塞性肺病涵蓋 COPD、肺氣腫與支氣管疾病，與 Ipratropium 已知適應症直接重疊，因此這個預測在機轉上合理，但主要是「同適應症的泛化」，而非全新用途。
 
-需要注意，這個預測很可能只是重現已知的適用範圍。現有資料缺少原適應症與 MOA，這是輸入資料的缺口，不代表發現了新用途。在核對仿單前，不宜把它當成真正的老藥新用候選。
+---
 
 ## 臨床試驗證據
 
-在 50 個檢索到的試驗中，以下 10 個與 ipratropium 或含 ipratropium 的產品最直接相關。其餘多為給藥方式、輔助療法或其他藥物的研究，僅間接相關。
+資料共收錄 25 個試驗，以下列出最相關的 10 個（依相關性分級與規模選取）：
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT02177253](https://clinicaltrials.gov/study/NCT02177253) | Phase 3 | 完成 | 1118 | Ipratropium/salbutamol Respimat 對比 Combivent、ipratropium 單方與安慰劑，為期 12 週的 COPD 療效與安全性研究 |
-| [NCT02194205](https://clinicaltrials.gov/study/NCT02194205) | Phase 3 | 終止 | 360 | Combivent HFA 對比 CFC 劑型與安慰劑，為期 1 年的 COPD 研究 |
-| [NCT00388882](https://clinicaltrials.gov/study/NCT00388882) | Phase 4 | 完成 | 327 | Tiotropium 對比 Combivent CFC MDI，為期 12 週的 COPD 研究 |
-| [NCT01350128](https://clinicaltrials.gov/study/NCT01350128) | Phase 2 | 完成 | 103 | PT001 四種劑量，以 Atrovent HFA 為開放標籤活性對照 |
-| [NCT06040424](https://clinicaltrials.gov/study/NCT06040424) | Phase 3 | 未知 | 74 | Ipratropium/levosalbutamol 固定複方對比自由複方，穩定期 COPD 非劣性試驗 |
-| [NCT01243788](https://clinicaltrials.gov/study/NCT01243788) | Phase 4 | 未知 | 450 | Salmeterol/fluticasone 對比 ipratropium/albuterol，中國中重度 COPD 病人 |
-| [NCT02238197](https://clinicaltrials.gov/study/NCT02238197) | 無分期（上市後監測） | 完成 | 477 | Atrovent 500µg/2ml 吸入液用於 COPD 的日常使用耐受性與療效 |
-| [NCT02238171](https://clinicaltrials.gov/study/NCT02238171) | 無分期（上市後監測） | 完成 | 346 | Atrovent Inhalets 用於 COPD 的日常使用耐受性與療效 |
-| [NCT04315558](https://clinicaltrials.gov/study/NCT04315558) | Phase 2 | 完成 | 21 | 霧化 revefenacin 對比霧化 ipratropium，用於需插管的 COPD 急性呼吸衰竭 |
-| [NCT03480997](https://clinicaltrials.gov/study/NCT03480997) | Phase 1 | 完成 | 46 | Albuterol 或 albuterol/ipratropium 吸入器的支氣管擴張效果（藥效等效性） |
+| [NCT02177253](https://clinicaltrials.gov/study/NCT02177253) | Phase 3 | 完成 | 1118 | Ipratropium/Salbutamol Respimat 與 COMBIVENT 在 COPD 的 12 週支氣管擴張療效與安全性比較 |
+| [NCT01415518](https://clinicaltrials.gov/study/NCT01415518) | Phase 4 | 完成 | 581 | 重度 COPD 中，Symbicort 加入 Atrovent＋茶鹼的療效與耐受性 |
+| [NCT02172469](https://clinicaltrials.gov/study/NCT02172469) | Phase 3 | 完成 | 215 | Tiotropium 與 Atrovent MDI 在 COPD 的比較（菲律賓患者） |
+| [NCT00239434](https://clinicaltrials.gov/study/NCT00239434) | Phase 3 | 完成 | 200 | Tiotropium 每日一次與 Atrovent MDI 在 COPD 的比較 |
+| [NCT00371527](https://clinicaltrials.gov/study/NCT00371527) | NA | 完成 | 200 | 隨機雙盲安慰劑對照，評估 Ipratropium 對無肺部基礎疾病的急性支氣管炎的症狀控制 |
+| [NCT02172404](https://clinicaltrials.gov/study/NCT02172404) | Phase 3 | 完成 | 160 | HandiHaler 與 MDI 的操作技巧與易用性比較（偏重器械而非療效） |
+| [NCT01136421](https://clinicaltrials.gov/study/NCT01136421) | Phase 3 | 完成 | 124 | COPD 急性惡化時，硫酸鎂與 Ipratropium 搭配短效 β2 促效劑的比較 |
+| [NCT01350128](https://clinicaltrials.gov/study/NCT01350128) | Phase 2 | 完成 | 103 | PT001 四種劑量在中重度 COPD 的療效，以 Atrovent HFA 為活性對照 |
+| [NCT02686086](https://clinicaltrials.gov/study/NCT02686086) | NA | 完成 | 60 | COPD 患者使用振動網式與噴射式霧化器給予支氣管擴張劑後的肺容積與症狀評分 |
+| [NCT04446637](https://clinicaltrials.gov/study/NCT04446637) | Phase 3 | 撤回 | 0 | Ipratropium/Levosalbutamol 固定複方與自由複方的比較（無入組，無資料） |
 
-證據的限制：
-- 多項試驗把 ipratropium 當作對照藥或複方成分，不是單獨檢驗它的療效。
-- NCT02194205 已終止，證據權重有限。
+---
 
 ## 文獻證據
 
+資料共收錄 20 篇文獻，以下列出最相關者（以回顧與統合分析為主，未見 RCT 類型標註）：
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [38457591](https://pubmed.ncbi.nlm.nih.gov/38457591/) | 2024 | 回溯性分析（資料庫分類為 RCT） | Medicine | 118 位 COPD 病人，比較益生菌加 budesonide 與 ipratropium 對肺功能與腸道菌群的影響 |
-| [26391969](https://pubmed.ncbi.nlm.nih.gov/26391969/) | 2015 | 系統性回顧 | Cochrane Database Syst Rev | 比較 tiotropium 與 ipratropium 用於穩定期 COPD |
-| [20163324](https://pubmed.ncbi.nlm.nih.gov/20163324/) | 2010 | 系統性回顧 | Expert Opin Drug Metab Toxicol | 回顧 albuterol、ipratropium 及其複方在 COPD 的機轉、療效與安全性 |
-| [16625543](https://pubmed.ncbi.nlm.nih.gov/16625543/) | 2006 | 系統性回顧 | Cochrane Database Syst Rev | Ipratropium 對比短效 β2 促效劑，用於穩定期 COPD |
-| [16856113](https://pubmed.ncbi.nlm.nih.gov/16856113/) | 2006 | 系統性回顧 | Cochrane Database Syst Rev | Ipratropium 對比長效 β2 促效劑，用於穩定期 COPD |
-| [1835291](https://pubmed.ncbi.nlm.nih.gov/1835291/) | 1991 | 雙盲交叉試驗 | Am J Med | 21 位穩定期 COPD 病人，單次 ipratropium 與茶鹼的急性支氣管擴張效果比較 |
-| [23170031](https://pubmed.ncbi.nlm.nih.gov/23170031/) | 2012 | Review | Ann Pharmacother | 評估 ipratropium 與 tiotropium 併用於 COPD 的療效與安全性 |
-| [15257628](https://pubmed.ncbi.nlm.nih.gov/15257628/) | 2004 | Review | Drugs | 回顧 ipratropium/fenoterol（Berodual）經 Respimat 用於氣喘與 COPD |
-| [28461224](https://pubmed.ncbi.nlm.nih.gov/28461224/) | 2017 | 研究 | EBioMedicine | 探討輕中度 COPD 男女病人對 ipratropium 的 FEV1 反應是否有性別差異 |
-| [2977109](https://pubmed.ncbi.nlm.nih.gov/2977109/) | 1988 | Review | Clin Pharm | 回顧 ipratropium 的藥理、藥動學、療效、不良反應與劑量 |
+| [26391969](https://pubmed.ncbi.nlm.nih.gov/26391969/) | 2015 | Cochrane 回顧 | Cochrane Database Syst Rev | Tiotropium 與 Ipratropium 用於穩定期 COPD 的比較 |
+| [24043433](https://pubmed.ncbi.nlm.nih.gov/24043433/) | 2013 | Cochrane 回顧 | Cochrane Database Syst Rev | 同上之前版本 |
+| [35616126](https://pubmed.ncbi.nlm.nih.gov/35616126/) | 2022 | Review | Cochrane Database Syst Rev | 硫酸鎂作為 COPD 急性惡化的輔助治療 |
+| [23170031](https://pubmed.ncbi.nlm.nih.gov/23170031/) | 2012 | Review | Ann Pharmacother | Ipratropium 與 Tiotropium 併用於 COPD 的療效與安全性 |
+| [20163324](https://pubmed.ncbi.nlm.nih.gov/20163324/) | 2010 | Review | Expert Opin Drug Metab Toxicol | Albuterol、Ipratropium 及其複方在 COPD 的機轉、療效與安全性 |
+| [10565879](https://pubmed.ncbi.nlm.nih.gov/10565879/) | 1999 | Review | Respir Care Clin N Am | 抗膽鹼支氣管擴張劑；Ipratropium 單用及與 Albuterol 併用的肺功能改善已獲證實 |
+| [2977109](https://pubmed.ncbi.nlm.nih.gov/2977109/) | 1988 | Review | Clin Pharm | Ipratropium 的藥理、藥動、療效、不良反應與劑量 |
+| [6129123](https://pubmed.ncbi.nlm.nih.gov/6129123/) | 1982 | Review | Drugs | 支氣管擴張劑併用的加成效果 |
+| [38457591](https://pubmed.ncbi.nlm.nih.gov/38457591/) | 2024 | 回溯性研究 | Medicine | 益生菌併用 Budesonide 與 Ipratropium 對 COPD 肺功能與腸道菌相的影響（118 位患者） |
+| [15257628](https://pubmed.ncbi.nlm.nih.gov/15257628/) | 2004 | Review | Drugs | Ipratropium/Fenoterol 以 Respimat 給藥於氣喘與 COPD |
+
+---
 
 ## 香港上市資訊
 
-共 7 張許可證，以下列出 5 張主要許可證。資料未提供劑型與核准適應症文字，因此省略這兩欄。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-23564 | ATROVENT SOLN FOR INHALATION 0.025% | 吸入溶液 | 未載明 |
+| HK-50402 | ATROVENT M/D INHALER 20MCG/PUFF-CFC FREE | 吸入器 | 未載明 |
+| HK-36372 | ATROVENT SOLN FOR INHALATION 500MCG/2ML | 吸入溶液 | 未載明 |
+| HK-64628 | IPRATRAN NEBULISER SOLUTION 0.25MG/ML | 霧化溶液 | 未載明 |
+| HK-62900 | IPRATROPIUM BROMIDE ALDO-UNION INHALER 20MCG/ACTUATION | 吸入器 | 未載明 |
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-23564 | ATROVENT SOLN FOR INHALATION 0.025% | BOEHRINGER INGELHEIM (HK) LTD |
-| HK-50402 | ATROVENT M/D INHALER 20MCG/PUFF-CFC FREE | BOEHRINGER INGELHEIM (HK) LTD |
-| HK-36372 | ATROVENT SOLN FOR INHALATION 500MCG/2ML | BOEHRINGER INGELHEIM (HK) LTD |
-| HK-64628 | IPRATRAN NEBULISER SOLUTION 0.25MG/ML | WINGS PHARMACEUTICAL LTD |
-| HK-62900 | IPRATROPIUM BROMIDE ALDO-UNION INHALER 20MCG/ACTUATION | MEKIM LTD |
+（共 7 張有效許可證，皆為單方；其餘 2 張為 HK-51066 IPRAVENT INHALER 與 HK-41964 COMBIVENT SOL FOR INHALATION。）
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。DDI 查詢無結果。
+- **知識圖譜標示的禁忌或需謹慎疾病**：高血壓、長 QT 症候群、癲癇、低血鉀、糖尿病與酮酸中毒、良性攝護腺增生、高眼壓、閉角型青光眼、代謝性酸中毒、心搏停止、心臟傳導疾病、甲狀腺功能亢進、膀胱頸阻塞、心肌缺血與冠狀動脈疾病等。此資料來自知識圖譜，並非仿單文字。
+- **藥物交互作用**：共查得 100 筆，以中度為主，多為其他抗膽鹼或抗蕈毒鹼藥物，例如 Atropine、Hyoscyamine、Glycopyrronium、Scopolamine、Trospium、Promethazine、Chlorpheniramine、Aclidinium，疊加可能增強抗膽鹼副作用。另有與吸入型胰島素的中度交互作用。
+- **其他訊號**：有 1 篇病例報告記載吸入 Ipratropium 引發嚴重過敏性反應，另有 1 篇記載吸入後單側瞳孔放大。
 
-文獻中有兩項與安全性相關的訊號：
-- **過敏性休克**：有吸入 ipratropium 後發生嚴重過敏性休克的病例報告（[PMID 8449120](https://pubmed.ncbi.nlm.nih.gov/8449120/)）。
-- **單側瞳孔放大**：有嬰兒吸入 ipratropium 後出現單側瞳孔放大的病例報告（[PMID 40069469](https://pubmed.ncbi.nlm.nih.gov/40069469/)），這是抗膽鹼藥物的眼部效應。
+仿單警語與禁忌的正式資料尚缺，請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 有多個已完成的 Phase 3 試驗（如 NCT02177253）與多篇 Cochrane 系統性回顧，證據等級可達 L1，機轉也直接對應阻塞性氣道疾病。
-- 這很可能是既有適應症，而非新用途，且香港仿單的警語與禁忌資料仍缺（屬阻擋性缺口），因此需設防護條件。
+- 已有多個已完成的 Phase 3 試驗（如 NCT02177253，n=1118）支持 Ipratropium 用於阻塞性氣道疾病，且香港已有 7 張有效許可證。
+- 此預測與已知適應症基本重疊，屬於適應症內的確認，新增價值有限。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單，確認核准適應症是否已涵蓋阻塞性肺疾病，並補齊警語與禁忌症。
-- 若確認屬既有適應症，改以「既有適應症的證據整理」呈現，不列為老藥新用候選。
-- 從 DrugBank 補上 MOA 與原適應症資料。
-- 其餘預測（排名第 2 至 10，如鼻腔疾病、咽炎、氣管疾病、過敏性休克等）證據不足或僅為模型預測，建議維持 Hold 或列為研究問題。過敏性休克一項另有 ipratropium 本身引發過敏反應的安全訊號，不宜視為治療候選。
+- 取得香港衛生署仿單，確認核准適應症與正式警語、禁忌
+- 補齊作用機轉的正式資料
+- 明確界定「阻塞性肺病」的目標族群與給藥途徑，與現行 COPD 標示做區隔
+- 針對高風險族群（心血管疾病、青光眼、攝護腺疾病）建立安全性監測，並留意過敏反應
 
-> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+---
+
+## 其他預測適應症簡述
+
+| 排名 | 預測適應症 | 分數 | 證據等級 | 建議 |
+|------|-----------|------|---------|------|
+| 2 | 鼻腔疾病 | 99.86% | L4 | 研究問題（多為已核准的鼻炎適應症，文獻為間接證據） |
+| 3 | 咽炎 | 99.85% | L4 | Hold |
+| 4 | 急性喉咽炎 | 99.84% | L5 | Hold |
+| 5 | 呼吸道畸形 | 99.80% | L3 | 研究問題 |
+| 6 | 乳突狀結膜炎 | 99.75% | L5 | Hold |
+| 7 | Rienhoff 症候群 | 99.69% | L5 | Hold |
+| 8 | 氣管疾病 | 99.66% | L4 | 研究問題（多為前臨床證據） |
+| 9 | 過敏性休克 | 99.38% | L4 | Hold（有 Ipratropium 引發過敏性休克的病例報告） |
+| 10 | 食物依賴性運動誘發過敏性休克 | 99.36% | L5 | Hold |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

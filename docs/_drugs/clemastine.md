@@ -2,15 +2,15 @@
 layout: default
 title: Clemastine
 parent: 中證據等級 (L3-L4)
-nav_order: 203
-evidence_level: L3
+nav_order: 207
+evidence_level: L4
 indication_count: 6
 ---
 
 # Clemastine
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **6** 個
+證據等級: **L4** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,54 +29,61 @@ indication_count: 6
 
 </div>
 
-# Clemastine：從過敏性疾病到過敏性蕁麻疹
+# Clemastine：從過敏性鼻炎與蕁麻疹到過敏性蕁麻疹
 
 ## 一句話總結
 
-Clemastine 是第一代 H1 受體拮抗劑（抗組織胺），傳統上用於過敏性鼻炎與蕁麻疹等過敏症狀。
-TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效，
-目前有 **1 個相關性待確認的臨床試驗**和 **13 篇文獻**（多數為間接證據）支持這個方向。
+Clemastine 是第一代 H1 組織胺受體拮抗劑，原本用於過敏性鼻炎、蕁麻疹、血管性水腫等過敏相關症狀。
+TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效，但目前**沒有登記的臨床試驗**，僅有少量間接文獻（多為其他抗組織胺藥物的回顧），證據屬於初步階段。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未提供（香港許可證未載明適應症文字） |
+| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、異位性結膜炎、乳突狀結膜炎、春季結膜炎、家族性皮膚劃紋症、蕁麻疹、血管性水腫（香港許可證未載明核准適應症文字，以上來自知識圖譜） |
 | 預測新適應症 | 過敏性蕁麻疹 (Allergic Urticaria) |
 | TxGNN 預測分數 | 99.99% |
-| 證據等級 | L3 |
+| 證據等級 | L4 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 2 張 |
-| 建議決策 | Proceed with Guardrails |
+| 建議決策 | Hold |
+
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Clemastine 屬於第一代 H1 受體拮抗劑，其在過敏性疾病中的療效已有長期臨床使用歷史，機轉上適用於過敏性蕁麻疹。
+目前缺乏詳細的作用機轉資料。不過 Clemastine 屬於第一代 H1 受體拮抗劑，阻斷 H1 受體是控制組織胺引起的風團與紅斑的標準機轉，也是蕁麻疹的基礎治療方式。
 
-蕁麻疹的風團與紅斑主要由肥大細胞釋放組織胺所驅動，H1 受體阻斷與病理機轉直接對應。因此，這項預測較接近「與現有用途一致或已成熟的用途」，而非全新的老藥新用。原適應症欄位為空，較可能是資料缺漏，不代表藥物先前沒有臨床使用。
+需要注意的是，蕁麻疹和血管性水腫本來就在 Clemastine 的原適應症內，所以這項預測**更像是原適應症範圍內的延伸，而非真正的藥物再利用**。TxGNN 的高分很可能反映了這種與既有適應症的高度重疊。
 
-證據等級定為 L3 而非 L2，是因為唯一的 Phase 2 試驗標題被截斷，無法確認介入藥物是 clemastine；支持文獻也多半在討論其他抗組織胺藥物。
+支持的證據是間接的：一篇 1981 年比較 Clemastine 與其他抗組織胺藥物的病人評估，以及針對其他抗組織胺藥物（acrivastine、loratadine、astemizole）的回顧，這些回顧中 Clemastine 常被當作對照藥物。
+
+---
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT01154361](https://clinicaltrials.gov/study/NCT01154361) | Phase 2 | 完成 | 未提供 | 以 icatibant 治療 ACE 抑制劑引起的血管性水腫，與接受標準療法（甲基培尼皮質醇 + clemastine）的歷史對照組比較；clemastine 僅為對照療法的一部分 |
+目前無相關臨床試驗登記。
 
-此試驗與 clemastine 治療蕁麻疹的關聯性有限，升級證據等級前需先至 ClinicalTrials.gov 確認。
+---
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [40055203](https://pubmed.ncbi.nlm.nih.gov/40055203/) | 2025 | Review | Naunyn-Schmiedeberg's Arch Pharmacol | 回顧 2015–2024 專利，指出 clemastine 傳統用於過敏性鼻炎與蕁麻疹，並有神經退化、心血管與癌症等新興應用 |
-| [1715267](https://pubmed.ncbi.nlm.nih.gov/1715267/) | 1991 | Review | Drugs | acrivastine 回顧；在季節性過敏性鼻炎中療效與 clemastine 相近（間接證據） |
-| [7528133](https://pubmed.ncbi.nlm.nih.gov/7528133/) | 1994 | Review | Drugs | loratadine 回顧；療效與 clemastine 等多種抗組織胺藥相當（間接證據） |
-| [2523301](https://pubmed.ncbi.nlm.nih.gov/2523301/) | 1989 | Review | Drugs | loratadine 初步回顧；對過敏性鼻炎與慢性蕁麻疹有效（間接證據） |
-| [2859711](https://pubmed.ncbi.nlm.nih.gov/2859711/) | 1985 | Review | Z Hautkr | astemizole 全球試驗回顧；優於 clemastine 等傳統抗組織胺藥（間接證據） |
-| [6119852](https://pubmed.ncbi.nlm.nih.gov/6119852/) | 1981 | 臨床研究 | Wis Med J | 病患對 clemastine fumarate 的評估，並與其他抗組織胺藥比較（無摘要） |
-| [2873823](https://pubmed.ncbi.nlm.nih.gov/2873823/) | 1986 | 觀察性研究 | Asian Pac J Allergy Immunol | 泰國兒童蕁麻疹流行病學，非 clemastine 專屬 |
-| [30838475](https://pubmed.ncbi.nlm.nih.gov/30838475/) | 2019 | 病例報告 | Drug Saf Case Rep | Tc-99m macrosalb 過敏性反應，病患接受 clemastine 與 prednisone 後康復 |
+| [6119852](https://pubmed.ncbi.nlm.nih.gov/6119852/) | 1981 | 病人評估／抗組織胺比較 | Wisconsin Medical Journal | 病人對 Clemastine fumarate 的評估，並與其他抗組織胺藥物比較（無摘要） |
+| [40055203](https://pubmed.ncbi.nlm.nih.gov/40055203/) | 2025 | Review | Naunyn-Schmiedeberg's Archives of Pharmacology | 回顧 2015–2024 年專利，Clemastine 傳統用於過敏性鼻炎與蕁麻疹，並出現神經退化、心血管疾病、癌症等新興應用 |
+| [1715267](https://pubmed.ncbi.nlm.nih.gov/1715267/) | 1991 | Review（他藥） | Drugs | Acrivastine 在季節性過敏性鼻炎的療效與 Clemastine 相近 |
+| [7528133](https://pubmed.ncbi.nlm.nih.gov/7528133/) | 1994 | Review（他藥） | Drugs | Loratadine 療效與包括 Clemastine 在內的多種抗組織胺相當 |
+| [2523301](https://pubmed.ncbi.nlm.nih.gov/2523301/) | 1989 | Review（他藥） | Drugs | Loratadine 對過敏性鼻炎與慢性蕁麻疹有效 |
+| [2859711](https://pubmed.ncbi.nlm.nih.gov/2859711/) | 1985 | Review（他藥） | Zeitschrift fur Hautkrankheiten | Astemizole 優於包括 Clemastine 在內的傳統抗組織胺 |
+| [2873823](https://pubmed.ncbi.nlm.nih.gov/2873823/) | 1986 | 描述性世代研究 | Asian Pac J Allergy Immunol | 142 位泰國兒童蕁麻疹的流行病學描述，非 Clemastine 專屬療效資料 |
+| [19739446](https://pubmed.ncbi.nlm.nih.gov/19739446/) | 2009 | 評論／信件 | Lakartidningen | 關於 Clemastine 急性治療文件不足的評論（無摘要） |
+| [30838475](https://pubmed.ncbi.nlm.nih.gov/30838475/) | 2019 | 病例報告 | Drug Safety - Case Reports | Tc-99m Macrosalb 過敏性反應，以 Clemastine 與 prednisone 治療後恢復，非療效研究 |
+| [40456207](https://pubmed.ncbi.nlm.nih.gov/40456207/) | 2025 | 病例報告 | J Neurosurg Case Lessons | Tisseel 纖維蛋白膠過敏性反應，與 Clemastine 療效無直接關聯 |
+
+---
 
 ## 香港上市資訊
 
@@ -85,36 +92,33 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 | HK-49809 | CLEMASTINE TAB 1MG (CHIN TENG) | 未載明 | 未載明 |
 | HK-50305 | ZEMIN TAB 1MG | 未載明 | 未載明 |
 
-## 細胞毒性
-
-本藥為抗組織胺藥，非抗腫瘤藥物，不適用。
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（來自 TxGNN 知識圖譜，非仿單文字）：高血壓、消化性潰瘍、良性前列腺增生、高眼壓、狹角（閉角）青光眼、甲狀腺功能亢進（含 Graves 病、甲狀腺毒症）、膀胱頸阻塞。這與第一代抗組織胺的抗膽鹼作用相符。
+- **藥物交互作用**：共查得 100 筆，以下為部分項目：
+  - **嚴重 (Major)**：氯化鉀、檸檬酸鉀
+  - **中度 (Moderate)**：抗膽鹼類藥物（atropine、hyoscyamine、scopolamine、glycopyrronium、dicyclomine 等）、鴉片類（morphine、opium）、loperamide、metoclopramide、dronabinol、nabilone 等，主要可能是疊加抗膽鹼或中樞抑制效應。
+
+仿單的警語與禁忌資料尚未取得，詳細內容請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-H1 阻斷與蕁麻疹的機轉直接吻合，且藥物已在香港上市、臨床使用歷史長，但缺乏直接以 clemastine 治療蕁麻疹的高品質試驗，現有證據多為其他抗組織胺藥的間接資料。
+- 過敏性蕁麻疹本身與 Clemastine 的原適應症高度重疊，不是真正的新適應症，且沒有登記的臨床試驗，現有文獻多為其他藥物的間接證據。
+- 其餘預測（寒冷性蕁麻疹、鼻腔疾病、急性喉咽炎、頑固性異位性皮膚炎、異位性 IgE 反應性）證據更弱，多為 L4–L5，其中部分項目過於籠統或不是可治療的疾病實體。
 
 **若要推進需要：**
-- 取得香港衛生署仿單，確認核准適應症、警語與禁忌症
-- 確認 NCT01154361 的介入藥物與適應症（目前看來 clemastine 僅為對照療法）
-- 補充作用機轉（MOA）資料
-- 尋找 clemastine 直接用於蕁麻疹的對照試驗或系統性回顧
-
-## 其他預測適應症（供參考）
-
-| 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
-|-----------|-----------|---------|------|
-| 冷型蕁麻疹 (Cold Urticaria) | 99.95% | L4 | Research Question（有 1984 年 ketotifen 與 clemastine 雙盲交叉研究，屬間接證據） |
-| 鼻腔疾病 (Nasal Cavity Disease) | 99.87% | L5 | Hold（分類過於籠統，需先縮小為過敏性鼻炎等具體疾病） |
-| 急性喉咽炎 (Acute Laryngopharyngitis) | 99.84% | L5 | Hold（多為感染性，抗膽鹼作用的乾燥效果可能加重不適） |
-| 頑固性異位性皮膚炎 (Recalcitrant Atopic Dermatitis) | 99.65% | L5 | Hold（組織胺非主要致病因子，無證據） |
-| 異位性 IgE 反應性 (IgE Responsiveness, Atopic) | 99.54% | L5 | Hold（屬表型而非可治療適應症，可能是知識圖譜的假象） |
+- 取得香港仿單的警語、禁忌與核准適應症文字，完成安全性篩查
+- 補充詳細作用機轉資料
+- 釐清是否要作為「新適應症」，或僅視為既有適應症的確認
+- 尋找 Clemastine 對蕁麻疹（含寒冷性蕁麻疹）的直接比較研究或隨機對照試驗
+- 針對知識圖譜標示的禁忌族群（青光眼、前列腺肥大、高血壓等）制定安全監測計畫
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

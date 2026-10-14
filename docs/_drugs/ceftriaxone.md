@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ceftriaxone
-parent: 僅模型預測 (L5)
-nav_order: 173
-evidence_level: L5
+parent: 高證據等級 (L1-L2)
+nav_order: 176
+evidence_level: L2
 indication_count: 7
 ---
 
 # Ceftriaxone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+證據等級: **L2** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,72 +29,101 @@ indication_count: 7
 
 </div>
 
-# Ceftriaxone：從抗生素用途到高澱粉酶血症
+# Ceftriaxone：從細菌感染到感染性中耳炎
 
 ## 一句話總結
 
-Ceftriaxone 是第三代頭孢菌素類抗生素，香港已有多張許可證上市。
-TxGNN 模型預測它可能對**高澱粉酶血症 (Hyperamylasemia)** 有效，但目前**沒有臨床試驗**，3 篇檢索到的文獻也都不支持療效。這個高分預測很可能是知識圖譜的假象。
+Ceftriaxone 是第三代頭孢菌素類抗生素，原本用於鏈球菌感染、細菌性肺炎、細菌性腦膜炎、淋病等多種細菌感染。
+TxGNN 模型預測它可能對**感染性中耳炎 (Infectious Otitis Media)** 有效，
+目前有 **1 個臨床試驗**（但未直接測試 ceftriaxone）和 **18 篇文獻**支持這個方向，其中包含 1 篇隨機對照試驗。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 高澱粉酶血症 (Hyperamylasemia) |
-| TxGNN 預測分數 | 99.39% |
-| 證據等級 | L5（僅有模型預測；證據包自動標為 L4，但檢索到的文獻並無支持療效者） |
+| 原適應症 | 鏈球菌感染、細菌性肺炎、細菌性腦膜炎、淋病等（香港許可證未提供核准適應症文字，此為知識圖譜資料） |
+| 預測新適應症 | 感染性中耳炎 (Infectious Otitis Media) |
+| TxGNN 預測分數 | 99.26% |
+| 證據等級 | L2 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 20 張 |
-| 建議決策 | Hold |
+| 建議決策 | Proceed with Guardrails |
+
+> 說明：本報告以排名第 4 的「感染性中耳炎」為主要評估對象，因為它是目前證據最完整的預測適應症。排名第 1 至 3 名（高澱粉酶血症、多株性高黏滯症候群、先天性無白蛋白血症）以及第 5 名（血型不相容）缺乏合理機轉與臨床證據，詳見文末附註。
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Ceftriaxone 是廣效的第三代頭孢菌素類抗生素，主要用於治療細菌感染，並不具備已知的降低血清澱粉酶的機轉。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Ceftriaxone 是第三代頭孢菌素，對中耳炎的主要致病菌（肺炎鏈球菌、流感嗜血桿菌、卡他莫拉菌）具有抗菌活性。
 
-高澱粉酶血症是一種檢驗數值異常，可由胰臟炎、頭部外傷、顱內出血等多種原因引起。藥物與這個病名的關聯，並沒有合理的治療機轉支持。相反地，Ceftriaxone 與膽泥 (biliary sludge) 有關，罕見時也與胰臟炎有關，方向與預測相反。
+原適應症本身就是呼吸道與腦膜等細菌感染，而中耳炎同樣屬於細菌感染，病原體與原適應症高度重疊。因此這個預測與其說是全新用途，不如說更接近既有適應症的延伸。實務上，對無法口服用藥的兒童，常使用單次肌肉注射 ceftriaxone，並有與 trimethoprim-sulfamethoxazole 比較的隨機對照試驗支持（PMID 8989332）。
 
-因此，0.994 的高分應視為知識圖譜的關聯假象，不應據此推動任何臨床決策。
+使用上需留意抗藥性與抗生素管理：宜保留給口服治療失敗或無法耐受的情況。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記。
+| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
+|---------|------|------|------|---------|
+| [NCT02567825](https://clinicaltrials.gov/study/NCT02567825) | NA | 完成 | 250 | 評估鼓膜置管對復發性急性中耳炎兒童的效果；並未測試 ceftriaxone，僅提供疾病背景 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [10458061](https://pubmed.ncbi.nlm.nih.gov/10458061/) | 1999 | 臨床研究（設計未確認） | Bratislavske lekarske listy | 內視鏡乳頭括約肌切開術後，30 位患者預防性給予 Ceftriaxone 1 g，與未給藥的 30 位比較。膽汁培養菌對 Ceftriaxone 敏感。目標是預防感染併發症，並非治療高澱粉酶血症 |
-| [7522351](https://pubmed.ncbi.nlm.nih.gov/7522351/) | 1994 | 觀察性研究（與 Ceftriaxone 無關） | Southern Medical Journal | 38 位顱內出血患者中，25 位脂肪酶升高、17 位澱粉酶也升高，且無胰臟炎。討論的是酵素升高的意義，未涉及 Ceftriaxone |
-| [36263834](https://pubmed.ncbi.nlm.nih.gov/36263834/) | 2023 | 病例報告 | Revista espanola de enfermedades digestivas | 48 歲男性因胃潰瘍出血就診，診斷為 Weil 症候群（鉤端螺旋體病）。與 Ceftriaxone 治療高澱粉酶血症無直接關聯 |
+| [8989332](https://pubmed.ncbi.nlm.nih.gov/8989332/) | 1997 | RCT | Pediatrics | 單次肌肉注射 ceftriaxone 與 10 天口服 TMP-SMZ 治療急性中耳炎的療效比較 |
+| [12166789](https://pubmed.ncbi.nlm.nih.gov/12166789/) | 2002 | 共識指引 | Clinical Pediatrics | 急性中耳炎處置的共識建議 |
+| [35841649](https://pubmed.ncbi.nlm.nih.gov/35841649/) | 2022 | 世代研究 | Int J Pediatr Otorhinolaryngol | 美國基層醫療中 ceftriaxone 用於急性中耳炎的相關因素，使用增加可能反映抗藥性問題 |
+| [10688388](https://pubmed.ncbi.nlm.nih.gov/10688388/) | 2000 | Review | Clinical Therapeutics | 整合急性中耳炎抗生素治療建議 |
+| [39361280](https://pubmed.ncbi.nlm.nih.gov/39361280/) | 2024 | Review | JAMA Network Open | 兒童門診抗生素處方的適當性 |
+| [20802367](https://pubmed.ncbi.nlm.nih.gov/20802367/) | 2010 | Review | Otol Neurotol | 人工耳蝸兒童中耳炎與腦膜炎的預防與治療 |
+| [11099083](https://pubmed.ncbi.nlm.nih.gov/11099083/) | 2000 | 臨床研究 | Pediatr Infect Dis J | 1 天與 3 天肌肉注射 ceftriaxone 治療無反應性急性中耳炎的細菌學與臨床療效比較 |
+| [9877360](https://pubmed.ncbi.nlm.nih.gov/9877360/) | 1998 | 臨床研究 | Pediatr Infect Dis J | 3 天肌肉注射 ceftriaxone 對無反應性急性中耳炎的細菌學療效 |
+| [6301365](https://pubmed.ncbi.nlm.nih.gov/6301365/) | 1983 | 臨床研究 | Antimicrob Agents Chemother | 50 位成人嚴重細菌感染使用 ceftriaxone，多數感染有良好反應 |
+| [33172868](https://pubmed.ncbi.nlm.nih.gov/33172868/) | 2022 | Case report | Arch Dis Child Educ Pract Ed | 2 歲兒童耳漏合併耳後腫脹，使用靜脈注射 ceftriaxone |
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-52844 | ROCEPHIN POWDER & SOLVENT FOR INJ 250MG IV | ROCHE HONG KONG LIMITED |
-| HK-61060 | CEFTRIAXONE POWDER FOR SOLUTION FOR INJ 1G | CEUTICAL TRADING COMPANY LIMITED |
-| HK-58898 | UNOCEF INJ 1000MG | WINGS PHARMACEUTICAL LTD |
-| HK-64249 | KORIXAL POWDER FOR SOLUTION FOR INJECTION 1G | LSB (HK) LIMITED |
-| HK-49794 | MEDAXONUM FOR 1M INJ 500MG (W. SOLVENT) | STAR MEDICAL SUPPLIES LTD |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-52844 | ROCEPHIN POWDER & SOLVENT FOR INJ 250MG IV | 注射劑 | 未提供 |
+| HK-20195 | ROCEPHIN FOR INJ 2G STERILE PDR FOR INF | 注射劑 | 未提供 |
+| HK-20190 | ROCEPHIN FOR INJ 1G IV STERILE POWDER | 注射劑 | 未提供 |
+| HK-20192 | ROCEPHIN FOR INJ 1G IM STERILE POWDER | 注射劑 | 未提供 |
+| HK-20188 | ROCEPHIN FOR INJ 500MG IV STERILE POWDER | 注射劑 | 未提供 |
+
+香港共有 20 張有效單方許可證，上表僅列出 5 張主要許可證（原廠 ROCEPHIN 系列）。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示之禁忌疾病**：肝臟疾病、膽囊疾病、新生兒黃疸、困難梭菌結腸炎、周產期壞死性腸炎、溶血性貧血。
+- **藥物交互作用**：共查得 100 筆，主要包括：
+  - **嚴重 (Major)**：氯化鈣、葡庚糖酸鈣、葡萄糖酸鈣（含鈣製劑與 ceftriaxone 併用有沉澱風險，尤其在新生兒）
+  - **中度 (Moderate)**：Kanamycin、Neomycin、Streptomycin（胺基糖苷類）、Picosulfuric acid
+
+其他警語與禁忌的仿單資料目前缺乏，請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：Proceed with Guardrails**
 
 **理由：**
-- 這個預測沒有臨床試驗，文獻也沒有任何一篇顯示 Ceftriaxone 能改善高澱粉酶血症。
-- 藥物本身與膽泥、罕見胰臟炎有關，安全性方向與預測相反。
+- 感染性中耳炎的病原體在 ceftriaxone 抗菌譜內，且有 1 篇 RCT 與多篇臨床研究、指引支持其使用，生物學合理性強。但已登記的臨床試驗並未測試 ceftriaxone，因此證據等級定為 L2 而非更高。
 
 **若要推進需要：**
-- 目前不建議針對此適應症投入資源。
-- 若要在此藥上找有價值的再利用方向，證據包中排名第 4 的**感染性中耳炎**較值得優先評估。該項有 2 篇比較療效的研究（1997 年 Ceftriaxone 對 TMP-SMZ，2000 年 1 天對 3 天療程），證據等級為 L2，建議為 Proceed with Guardrails。
-- 補齊香港衛生署仿單的警語與禁忌資料，以及作用機轉（MOA）資料。
+- 取得香港仿單的核准適應症、警語與禁忌，確認中耳炎是否已在標示範圍內
+- 補充作用機轉資料
+- 限定使用情境（口服治療失敗或無法耐受的兒童），並配合抗生素管理與當地抗藥性資料
+- 避免與含鈣製劑併用，並留意肝膽疾病與新生兒黃疸族群
 
-*本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。*
+## 附註：其他預測適應症的評估
+
+| 預測適應症 | TxGNN 分數 | 證據等級 | 建議 | 說明 |
+|-----------|-----------|---------|------|------|
+| 高澱粉酶血症 | 99.39% | L4 | Hold | 無明確機轉；ceftriaxone 可引起膽泥與假性膽石，反而可能升高胰酶 |
+| 多株性高黏滯症候群 | 99.39% | L5 | Hold | 無合理機轉，無試驗與文獻 |
+| 先天性無白蛋白血症 | 99.37% | L5 | Hold | 無治療機轉；僅涉及藥動學（高蛋白結合率） |
+| 化膿性中耳炎 | 99.02% | L3 | 研究問題 | 有 1989 年臨床研究支持急性期；慢性期病原體（如綠膿桿菌、生物膜）不利 |
+| 慢性中耳炎 | 99.01% | L3 | 研究問題 | 僅有舊研究涵蓋急性惡化，其餘多為微生物調查；需限定亞群 |
+| 血型不相容 | 99.12% | L5 | Hold | 無治療機轉；溶血性貧血與膽假性膽石屬不良反應 |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lurasidone
-parent: 僅模型預測 (L5)
-nav_order: 536
-evidence_level: L5
+parent: 中證據等級 (L3-L4)
+nav_order: 545
+evidence_level: L4
 indication_count: 10
 ---
 
 # Lurasidone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L4** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,103 +29,95 @@ indication_count: 10
 
 </div>
 
-# Lurasidone：從非典型抗精神病藥到躁狂型雙相情感障礙
+# Lurasidone：從思覺失調症與雙極性疾患到躁狂型雙極性情感障礙
 
 ## 一句話總結
 
-Lurasidone 是非典型抗精神病藥，在香港以 LATUDA 品牌上市。
-TxGNN 模型預測它可能對**躁狂型雙相情感障礙 (Manic Bipolar Affective Disorder)** 有效。
-目前有 **14 個臨床試驗**和 **20 篇文獻**與雙相情感障礙相關，但多數證據針對雙相憂鬱與維持期，並未明確顯示對急性躁狂有效。
+Lurasidone 是一種非典型抗精神病藥，原本用於雙極性疾患與思覺失調症的治療。
+TxGNN 模型預測它可能對**躁狂型雙極性情感障礙 (Manic Bipolar Affective Disorder)** 有效，
+但目前僅有 **1 個臨床試驗**（已撤回、未收案）與 **約 20 篇相關文獻**（多為指引、回顧與綜合分析），直接證據相當有限。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證資料未載明 |
-| 預測新適應症 | 躁狂型雙相情感障礙 (Manic Bipolar Affective Disorder) |
+| 原適應症 | 雙極性疾患、思覺失調症（香港許可證未登載適應症文字，此處依知識圖譜資料） |
+| 預測新適應症 | 躁狂型雙極性情感障礙 (Manic Bipolar Affective Disorder) |
 | TxGNN 預測分數 | 99.98% |
-| 證據等級 | L1（證據主要針對雙相憂鬱與維持期，非急性躁狂） |
+| 證據等級 | L4 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 3 張 |
-| 建議決策 | Proceed with Guardrails |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏 DrugBank 的詳細作用機轉資料。根據分析資料，Lurasidone 屬非典型抗精神病藥，作用於 D2 與 5-HT2A/5-HT7 受體（拮抗）及 5-HT1A 受體（部分促效）。這種受體組合在機轉上適合用於情緒發作的控制。
+目前缺乏詳細的作用機轉資料。就已知資訊，Lurasidone 屬於非典型抗精神病藥，一般認為其藥理與 D2／5-HT2A 拮抗，以及 5-HT7／5-HT1A 活性有關，這些作用可能與情緒發作的調節相關。
 
-雙相情感障礙包含躁狂、憂鬱與維持期。目前 Phase 3 證據集中在雙相 I 型憂鬱（單用，或併用鋰鹽/valproate）、認知功能與長期安全性。躁狂與雙相憂鬱同屬雙相情感障礙，模型因此給出高分預測，但現有資料**無法直接證明對急性躁狂有效**。
+需要注意，這並不是典型的「藥物再利用」案例。Lurasidone 本來就已被核准用於雙極性疾患（主要是雙極性憂鬱），預測的「躁狂型」與已核准的憂鬱發作屬於不同的疾病階段。兩者同屬雙極性疾患，因此模型預測有其合理性，但現有證據並未直接證實它對躁狂發作有效。
 
-此外，許可證資料中的原適應症欄位為空，無法核對現行核准適應症與預測適應症的關係，這一點需要補查。
+此外，文獻中有一篇個案報告描述 Lurasidone 誘發躁狂（PMID 31298818），提醒在躁狂適應症上需要審慎看待。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT01358357](https://clinicaltrials.gov/study/NCT01358357) | Phase 3 | 完成 | 965 | 雙盲安慰劑對照 RCT：Lurasidone 併用鋰鹽或 divalproex，用於雙相 I 型預防復發 |
-| [NCT02046369](https://clinicaltrials.gov/study/NCT02046369) | Phase 3 | 完成 | 350 | 6 週雙盲安慰劑對照：兒童與青少年雙相 I 型憂鬱 |
-| [NCT01986101](https://clinicaltrials.gov/study/NCT01986101) | Phase 3 | 完成 | 525 | 雙盲安慰劑對照：SM-13496（Lurasidone 開發代號）用於雙相 I 型憂鬱 |
-| [NCT02731612](https://clinicaltrials.gov/study/NCT02731612) | Phase 3 | 完成 | 100 | 6 週雙盲安慰劑對照：輔助治療改善緩解期雙相患者認知功能（ELICE-BD） |
-| [NCT02147379](https://clinicaltrials.gov/study/NCT02147379) | Phase 3 | 完成 | 53 | 隨機開放標籤：Lurasidone 對比常規治療，改善緩解期雙相 I 型認知功能 |
-| [NCT01575561](https://clinicaltrials.gov/study/NCT01575561) | Phase 3 | 完成 | 377 | 12 週開放標籤延伸：Lurasidone 併用鋰鹽或 divalproex 的長期安全性 |
-| [NCT01986114](https://clinicaltrials.gov/study/NCT01986114) | Phase 3 | 完成 | 495 | SM-13496 用於雙相 I 型的長期療效與安全性 |
-| [NCT01914393](https://clinicaltrials.gov/study/NCT01914393) | Phase 3 | 完成 | 702 | 104 週開放標籤延伸：兒童與青少年長期安全性與療效 |
-| [NCT04383691](https://clinicaltrials.gov/study/NCT04383691) | Phase 3 | 提前終止 | 124 | 6 週安慰劑對照：雙相 I 型憂鬱，因提前終止而解讀受限 |
-| [NCT06433635](https://clinicaltrials.gov/study/NCT06433635) | Phase 4 | 進行中（不再招募） | 2726 | 序貫多重分派隨機試驗：比較 Lurasidone 等四種雙相憂鬱治療 |
-
-注意：上表沒有任何以急性躁狂為主要終點的完成試驗。唯一針對躁狂的 [NCT01932541](https://clinicaltrials.gov/study/NCT01932541)（兒童與青少年躁狂）已撤銷，入組人數為 0。
+| [NCT01932541](https://clinicaltrials.gov/study/NCT01932541) | Phase 4 | 已撤回 | 0 | 開放標籤、8 週，評估 Lurasidone 用於 6–17 歲兒童與青少年躁狂（雙極 I、II 型及光譜疾患）；未收任何受試者，無療效或安全性數據 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [39557452](https://pubmed.ncbi.nlm.nih.gov/39557452/) | 2024 | 系統性回顧與劑量反應統合分析 | BMJ Mental Health | 探討 Lurasidone 用於雙相憂鬱的最佳劑量、療效、可接受性與代謝/內分泌影響 |
-| [37595997](https://pubmed.ncbi.nlm.nih.gov/37595997/) | 2023 | 網絡統合分析 | Lancet Psychiatry | 比較急性雙相憂鬱各種藥物的療效與耐受性 |
-| [38487836](https://pubmed.ncbi.nlm.nih.gov/38487836/) | 2024 | 網絡統合分析 | European Psychiatry | 比較 5 種 FDA 核准非典型抗精神病藥（含 Lurasidone）用於雙相憂鬱，納入 16 項 RCT |
-| [33177610](https://pubmed.ncbi.nlm.nih.gov/33177610/) | 2021 | 系統性回顧與網絡統合分析 | Molecular Psychiatry | 比較抗精神病藥與情緒穩定劑在雙相維持期的效果 |
-| [29536616](https://pubmed.ncbi.nlm.nih.gov/29536616/) | 2018 | 臨床指引 | Bipolar Disorders | CANMAT/ISBD 2018 雙相情感障礙處置指引 |
-| [34599629](https://pubmed.ncbi.nlm.nih.gov/34599629/) | 2021 | 臨床指引 | Bipolar Disorders | CANMAT/ISBD 雙相情感障礙混合發作處置建議 |
-| [37815563](https://pubmed.ncbi.nlm.nih.gov/37815563/) | 2023 | Review | JAMA | 雙相情感障礙的診斷與治療綜述 |
-| [38618207](https://pubmed.ncbi.nlm.nih.gov/38618207/) | 2024 | 網絡統合分析 | EClinicalMedicine | 抗精神病藥與情緒穩定劑對雙相患者代謝的影響 |
-| [42580772](https://pubmed.ncbi.nlm.nih.gov/42580772/) | 2026 | 傘式回顧 | BMJ | 各年齡層與情緒階段雙相情感障礙的實證介入 |
-| [24170243](https://pubmed.ncbi.nlm.nih.gov/24170243/) | 2014 | 評論 | Am J Psychiatry | Lurasidone 與雙相情感障礙 |
+| [39557452](https://pubmed.ncbi.nlm.nih.gov/39557452/) | 2024 | 系統性回顧／劑量反應統合分析 | BMJ Mental Health | 探討 Lurasidone 用於雙極性憂鬱的最佳劑量、療效、接受度與代謝／內分泌影響 |
+| [37595997](https://pubmed.ncbi.nlm.nih.gov/37595997/) | 2023 | 系統性回顧／網絡統合分析 | Lancet Psychiatry | 比較急性雙極性憂鬱各藥物療效與耐受性 |
+| [38487836](https://pubmed.ncbi.nlm.nih.gov/38487836/) | 2024 | 系統性回顧／網絡統合分析 | Eur Psychiatry | 比較 FDA 核准非典型抗精神病藥（含 Lurasidone）用於雙極性憂鬱 |
+| [33177610](https://pubmed.ncbi.nlm.nih.gov/33177610/) | 2021 | 系統性回顧／網絡統合分析 | Mol Psychiatry | 比較雙極性疾患維持期的抗精神病藥與情緒穩定劑 |
+| [38618207](https://pubmed.ncbi.nlm.nih.gov/38618207/) | 2024 | 網絡統合分析 | EClinicalMedicine | 評估抗精神病藥與情緒穩定劑對雙極性疾患代謝的影響 |
+| [29536616](https://pubmed.ncbi.nlm.nih.gov/29536616/) | 2018 | 治療指引 | Bipolar Disorders | CANMAT/ISBD 2018 雙極性疾患治療指引 |
+| [34599629](https://pubmed.ncbi.nlm.nih.gov/34599629/) | 2021 | 治療建議 | Bipolar Disorders | CANMAT/ISBD 混合型表現的處置建議 |
+| [37815563](https://pubmed.ncbi.nlm.nih.gov/37815563/) | 2023 | Review | JAMA | 雙極性疾患診斷與治療回顧 |
+| [36472471](https://pubmed.ncbi.nlm.nih.gov/36472471/) | 2022 | Review | J Child Adolesc Psychopharmacol | 兒童雙極性疾患躁狂／混合發作與憂鬱發作的藥物治療流程 |
+| [31298818](https://pubmed.ncbi.nlm.nih.gov/31298818/) | 2019 | 個案報告 | Prim Care Companion CNS Disord | Lurasidone 誘發躁狂 |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-64806 | LATUDA TABLETS 40MG | 錠劑（依品名） | 資料未載明 |
-| HK-64804 | LATUDA TABLETS 80MG | 錠劑（依品名） | 資料未載明 |
-| HK-67186 | LATUDA TABLETS 20MG | 錠劑（依品名） | 資料未載明 |
+| HK-64806 | LATUDA TABLETS 40MG | 未登載 | 未登載 |
+| HK-64804 | LATUDA TABLETS 80MG | 未登載 | 未登載 |
+| HK-67186 | LATUDA TABLETS 20MG | 未登載 | 未登載 |
 
-三張許可證的持有廠商皆為 DKSH Hong Kong Limited。
+三張許可證皆為單一成分、有效狀態，持有人為 DKSH Hong Kong Limited。
 
 ## 安全性考量
 
-現有資料中沒有警語、禁忌症與藥物交互作用的內容（DDI 查詢無結果），請參考原廠仿單。
+- **知識圖譜標示的禁忌或需謹慎疾病**（來自知識圖譜關聯，非仿單文字）：
+  - 神經與心血管：直立性低血壓、姿位性心搏過速症候群、多重系統萎縮、癲癇、中風與腦血管疾病、短暫性腦缺血發作、椎基底動脈循環不全
+  - 代謝：高血糖、糖尿病、糖尿病酮酸中毒、高脂血症
+  - 血液：嗜中性白血球減少、顆粒球缺乏症、白血球減少
+  - 肝腎：肝衰竭、肝病、膽囊疾病、腎功能不全
+  - 運動與其他：抗精神病藥惡性症候群、遲發性運動障礙及相關運動異常、高泌乳素血症（含泌乳素瘤）
+- **藥物交互作用**：資料庫共查得 100 筆，以下為部分範例。
+  - 重大 (Major)：Bupropion、Aprepitant、Morphine、Clarithromycin
+  - 中度 (Moderate)：Acarbose、Metformin、Pioglitazone、Alogliptin、Canagliflozin、Epinephrine、Dexamethasone、Cimetidine 等（多與血糖調控或抗膽鹼作用有關）
 
-依機轉與文獻，若推進評估，建議納入以下監測：
-- **代謝監測**：抗精神病藥有體重增加與代謝影響的文獻證據
-- **錐體外症狀（EPS）監測**
-- **CYP3A4 交互作用審查**
+其餘仿單層級的警語與禁忌請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-- 已有多個完成的 Phase 3 RCT（含 965 人的鋰鹽/valproate 輔助預防復發試驗），證明 Lurasidone 在雙相情感障礙有實質臨床證據，且香港已有 3 張許可證上市。
-- 但證據集中在雙相憂鬱與維持期，缺乏急性躁狂的直接證據，推進時必須限縮範圍並補足資料。
+- 唯一的相關臨床試驗已撤回、未收案，沒有任何療效或安全性數據；現有文獻多為指引與回顧，且主要針對已核准的雙極性憂鬱，並非躁狂。證據僅達 L4。
+- 這並非真正的新適應症再利用，且有 Lurasidone 誘發躁狂的個案報告，需先釐清風險。
 
 **若要推進需要：**
-- 取得香港衛生署仿單（警語與禁忌症，此為阻斷性缺口）
-- 確認 Lurasidone 現行核准適應症，並判斷「躁狂」是否為實際要評估的目標
-- 尋找以急性躁狂為主要終點的試驗證據
-- 補齊 DrugBank 作用機轉資料
-- 建立代謝與錐體外症狀監測計畫，並審查 CYP3A4 交互作用
+- 取得作用機轉（MOA）資料並補足機轉分析
+- 蒐集 Lurasidone 用於急性躁狂的 RCT 或系統性回顧證據，並釐清與已核准適應症的差異
+- 取得香港仿單的警語、禁忌與核准適應症文字，完成安全性篩選
+- 評估知識圖譜所列禁忌疾病（代謝、血液、心血管、錐體外症狀等）的監測計畫
+- 重新評估兒童與青少年族群試驗的可行性
 
-**其他預測適應症：** 排名 2–10 的預測（如視網膜失養症、無腦回畸形、近視相關疾病、Charcot-Marie-Tooth 病等）皆僅有模型預測，沒有臨床試驗或相關文獻，機轉上也無合理連結，證據等級為 L5，建議 Hold。
-
-*本報告僅供研究參考，不構成醫療建議；預測結果需經臨床驗證。*
+**其他預測適應症說明：** 排名第 2 至第 10 的預測（視網膜失養症、無腦迴畸形、糖基化先天異常、多小腦迴畸形、X 連鎖近視、症候群性近視、Charcot-Marie-Tooth 1G 型、非典型甘胺酸腦病變等）僅有模型分數，均無臨床試驗或文獻支持，也找不到合理的機轉關聯，建議列為 Hold。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

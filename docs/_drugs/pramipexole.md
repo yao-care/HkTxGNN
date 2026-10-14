@@ -2,7 +2,7 @@
 layout: default
 title: Pramipexole
 parent: 中證據等級 (L3-L4)
-nav_order: 707
+nav_order: 722
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,19 +29,22 @@ indication_count: 10
 
 </div>
 
-# Pramipexole：從帕金森氏症到注意力不足過動症
+# Pramipexole：從帕金森氏症與不寧腿症候群到注意力不足過動症
 
 ## 一句話總結
 
-Pramipexole（普拉克索）是 D2/D3 偏好型多巴胺促效劑，文獻顯示其已核准用於帕金森氏症，並用於不寧腿症候群。
-TxGNN 模型預測它可能對**注意力不足過動症 (ADHD)** 有效。
-目前只有 **1 個相關性低的臨床試驗**和 **8 篇間接文獻**，且無任何 ADHD 的對照試驗，證據仍屬初步。
+Pramipexole 是一種多巴胺促效劑，原本用於治療帕金森氏症與不寧腿症候群。
+TxGNN 模型預測它可能對**注意力不足過動症 (ADHD)** 有效，但目前**沒有任何臨床試驗登記**，直接相關的文獻僅有 1 篇個案報告與 1 篇相鄰適應症（妥瑞氏症）的 RCT，證據相當薄弱。
+
+資料中另有一個證據較完整的候選方向是**思覺失調症 (schizophrenia)**（1 個 Phase 3 試驗、多篇文獻），報告後段一併說明。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證未載明適應症；文獻顯示為帕金森氏症、不寧腿症候群 |
+| 原適應症 | 帕金森氏症、不寧腿症候群（香港許可證未提供適應症文字，以藥物資料所列適應症為準） |
 | 預測新適應症 | 注意力不足過動症 (Attention Deficit-Hyperactivity Disorder) |
 | TxGNN 預測分數 | 99.998% |
 | 證據等級 | L4 |
@@ -49,62 +52,99 @@ TxGNN 模型預測它可能對**注意力不足過動症 (ADHD)** 有效。
 | 許可證數 | 14 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Pramipexole 是對 D2/D3 受體有偏好性的多巴胺促效劑，其在帕金森氏症與不寧腿症候群中的療效已有文獻支持。
+目前缺乏詳細的作用機轉資料。已知 Pramipexole 是對 D2/D3 受體有偏好的多巴胺促效劑，其在帕金森氏症與不寧腿症候群的療效，來自於補足或調節多巴胺訊號。
 
-ADHD 被認為與多巴胺及正腎上腺素系統失調有關，與 DRD4 等多巴胺受體基因也有關聯（PMID 34182128，體外研究）。因此從機轉上推測，多巴胺促效劑可能適用，但這只是假說，尚未被證實。
+ADHD 的病理被認為與多巴胺調控異常有關，因此從機轉上有合理但間接的推論空間。不過這僅是理論連結，並非 ADHD 的直接臨床證據。
 
-最接近的隨機對照證據來自妥瑞氏症（PMID 22407510），那是另一種相關的神經發展疾病，不是 ADHD。ADHD 本身只有一篇病例報告，且 ADHD 只是被治療疾病的共病。TxGNN 的高分是模型預測，不能視為臨床證據。
+需要特別留意：0.99998 的 TxGNN 分數只是模型預測，**不能當作臨床證據**。目前與 ADHD 直接相關的資料只有一篇個案報告（併用 atomoxetine 與 pramipexole）與一篇妥瑞氏症 RCT。
+
+---
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT00558766](https://clinicaltrials.gov/study/NCT00558766) | N/A | 完成 | 35 | 以經顱磁刺激研究帕金森氏症患者的動作皮質獎賞訊號。未收錄 ADHD 患者，不能直接支持此預測（相關性 C 級） |
+目前無相關臨床試驗登記。
+
+---
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [22407510](https://pubmed.ncbi.nlm.nih.gov/22407510/) | 2012 | RCT | Movement Disorders | 多中心安慰劑對照試驗，探討 Pramipexole 用於妥瑞氏症（非 ADHD） |
-| [19412489](https://pubmed.ncbi.nlm.nih.gov/19412489/) | 2006 | Review | Neuropsychiatr Dis Treat | Pramipexole 用於不寧腿症候群的潛力 |
-| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Review | Revue Neurologique | 不寧腿症候群的回顧 |
-| [15540638](https://pubmed.ncbi.nlm.nih.gov/15540638/) | 2004 | 觀察性研究 | Dev Med Child Neurol | 252 名青春期前睡眠障礙兒童的週期性腿動，並評估對 Pramipexole 的反應 |
-| [37342213](https://pubmed.ncbi.nlm.nih.gov/37342213/) | 2023 | 病例報告 | Front Pain Res | 合併 ADHD 的慢性下背痛與口腔感覺異常，以 atomoxetine 加 Pramipexole 治療後緩解 |
-| [24079375](https://pubmed.ncbi.nlm.nih.gov/24079375/) | 2013 | 前臨床（動物） | J Motor Behav | 自發性高血壓大鼠作為不寧腿與週期性腿動的動物模型，並討論與 ADHD 的共病 |
-| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | 前臨床（體外） | Pharmacol Res | α2A 腎上腺素受體與 DRD4 多型性異聚化，與 ADHD 及衝動控制疾病相關 |
+| [22407510](https://pubmed.ncbi.nlm.nih.gov/22407510/) | 2012 | RCT（妥瑞氏症，相鄰適應症） | Movement Disorders | 多中心、安慰劑對照試驗，評估 pramipexole 對妥瑞氏症的效果；妥瑞氏症常與 ADHD 共病 |
+| [37342213](https://pubmed.ncbi.nlm.nih.gov/37342213/) | 2023 | 個案報告 | Frontiers in Pain Research | 合併 ADHD 的慢性下背痛與口腔感覺異常，使用 atomoxetine 加 pramipexole 後緩解 |
+| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | 前臨床／機轉 | Pharmacological Research | D4 與 α2A 受體異聚體化研究，與 ADHD 的衝動控制機轉相關，非 pramipexole 直接證據 |
+| [19412489](https://pubmed.ncbi.nlm.nih.gov/19412489/) | 2006 | 回顧（不寧腿症候群） | Neuropsychiatric Disease and Treatment | 介紹 pramipexole 用於不寧腿症候群，非 ADHD |
+
+其餘檢索到的文獻（如不寧腿症候群回顧、piribedil 研究、可樂飲料低血鉀個案）與 pramipexole 治療 ADHD 的療效無直接關聯，故不列入。
+
+---
+
+## 其他預測適應症：思覺失調症（證據較充分）
+
+在 10 個預測適應症中，**思覺失調症 (schizophrenia)**（TxGNN 分數 99.52%）是證據最完整的一項，證據等級為 L2：
+
+| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
+|---------|------|------|------|---------|
+| [NCT01320982](https://clinicaltrials.gov/study/NCT01320982) | Phase 3 | 未知 | 400 | Pramipexole、minocycline、aspirin 對比安慰劑，作為抗精神病藥物的輔助治療；無結果資料 |
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [35921506](https://pubmed.ncbi.nlm.nih.gov/35921506/) | 2022 | RCT | J Clin Psychiatry | 16 週、雙盲、安慰劑對照，200 位思覺失調症／情感性思覺失調症患者，pramipexole 0.75 mg 每日兩次作為輔助治療 |
+| [31688399](https://pubmed.ncbi.nlm.nih.gov/31688399/) | 2019 | 系統性回顧／統合分析 | J Clin Psychopharmacol | 促多巴胺藥物用於思覺失調症陰性症狀 |
+| [22153972](https://pubmed.ncbi.nlm.nih.gov/22153972/) | 2012 | 前導 RCT | Eur Neuropsychopharmacol | 24 位患者，pramipexole 輔助治療使 PANSS 總分下降較多，且血清泌乳素明顯降低 |
+| [9088887](https://pubmed.ncbi.nlm.nih.gov/9088887/) | 1997 | 臨床研究 | Eur Neuropsychopharmacol | 15 位 haloperidol 治療患者加用 pramipexole，9 位 PANSS 下降超過 20% |
+| [31496702](https://pubmed.ncbi.nlm.nih.gov/31496702/) | 2019 | 開放標籤前導研究 | Neuropsychiatr Dis Treat | 低劑量 pramipexole 對抗精神病藥誘發的錐體外症狀與精神症狀 |
+| [22182458](https://pubmed.ncbi.nlm.nih.gov/22182458/) | 2012 | 回顧 | Clin Schizophr Relat Psychoses | 整理用於思覺失調症與雙相情緒障礙的再利用輔助藥物 |
+
+需注意：多巴胺促效劑理論上可能加重精神病症狀，且知識圖譜將精神病性疾患列為 pramipexole 的禁忌相關疾病，使用前需審慎評估。
+
+---
 
 ## 香港上市資訊
 
+Pramipexole 在香港共有 14 張有效許可證（均為單一成分，無已註銷者）。資料中未提供劑型與核准適應症文字，以下列出 5 張主要許可證：
+
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-59657 | MIRAPEX ER TAB 0.375MG | 未載明 | 未載明 |
-| HK-57251 | PMS-PRAMIPEXOLE TAB 1.5MG | 未載明 | 未載明 |
-| HK-61740 | PMS-PRAMIPEXOLE TABLETS 0.25MG | 未載明 | 未載明 |
-| HK-65616 | PRAMEXOL 0.25 TABLETS 0.25MG | 未載明 | 未載明 |
-| HK-67304 | APT-PRAMIPEXOLE EXTENDED-RELEASE TABLETS 1.5MG | 未載明 | 未載明 |
+| HK-59657 | MIRAPEX ER TAB 0.375MG（Boehringer Ingelheim） | 緩釋錠 | 請參考原廠仿單 |
+| HK-59658 | MIRAPEX ER TAB 1.5MG（Boehringer Ingelheim） | 緩釋錠 | 請參考原廠仿單 |
+| HK-59656 | MIRAPEX ER TAB 0.75MG（Boehringer Ingelheim） | 緩釋錠 | 請參考原廠仿單 |
+| HK-57251 | PMS-PRAMIPEXOLE TAB 1.5MG（Trenton-Boma） | 錠劑 | 請參考原廠仿單 |
+| HK-60728 | APO-PRAMIPEXOLE TAB 0.25MG（Hind Wing） | 錠劑 | 請參考原廠仿單 |
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌相關疾病**（非仿單文字，僅供參考）：多system萎縮症、姿位性低血壓、體位性心搏過速症候群、藥物誘發運動困難、腎臟疾病、精神病性疾患（含思覺失調類疾患、情感性思覺失調）、黑色素瘤、睡眠呼吸中止症、猝睡症、中樞神經系統疾病等。
+- **藥物交互作用**：共查得 100 筆，以下為主要中度等級者：
+  - Morphine（含脂質體劑型）、Opium
+  - Dronabinol、Nabilone
+  - Metoclopramide（多巴胺拮抗，可能削弱療效）
+  - Cimetidine
+  - Ranitidine 為輕微等級。
+
+其他警語與禁忌請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：Hold**（ADHD 方向）
 
 **理由：**
-ADHD 沒有直接的臨床試驗，只有機轉推測、間接的妥瑞氏症 RCT 與單一病例報告。TxGNN 的高分不能取代臨床證據。證據停留在 L4，屬於研究假說階段。
+- ADHD 目前無任何已登記臨床試驗，直接證據僅有 1 篇個案報告，高預測分數僅為模型推論。
+- 思覺失調症方向證據較佳（L2，有 Phase 3 登記及多篇 RCT），可視為獨立的研究問題另行評估，但需先釐清精神病惡化風險。
 
 **若要推進需要：**
-- 補齊作用機轉資料（DrugBank）
-- 取得香港衛生署仿單的警語與禁忌，這是進入安全性篩選的前提
-- 檢索 Pramipexole 用於 ADHD 的對照試驗，或設計小型概念驗證研究
-- 評估安全性風險，因 ADHD 族群多為兒童與青少年，且多巴胺促效劑可能引起衝動控制問題
-
-**補充：**同一份預測清單中，**思覺失調症 (Schizophrenia)** 的證據更完整（L2，有已發表的 add-on RCT：PMID 35921506，以及 Phase 3 登記試驗 NCT01320982）。若要優先推進，建議另行評估該適應症，但需特別留意精神症狀惡化的安全性訊號。
-
-本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。
+- 補齊作用機轉（MOA）與香港仿單的警語、禁忌資料（目前為阻斷性資料缺口，無法進入安全性篩選）
+- ADHD：設計小規模前導試驗，並先確認妥瑞氏症 RCT 的結果與 ADHD 共病族群的適用性
+- 思覺失調症：取得 NCT01320982 的結果，並與 PMID 35921506 的 RCT 結果交叉比對，評估療效與精神症狀惡化風險
+- 針對精神疾病族群建立安全性監測計畫（精神症狀、衝動控制障礙、嗜睡、低血壓）
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

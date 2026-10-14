@@ -2,7 +2,7 @@
 layout: default
 title: Simvastatin
 parent: 高證據等級 (L1-L2)
-nav_order: 800
+nav_order: 815
 evidence_level: L1
 indication_count: 5
 ---
@@ -29,19 +29,20 @@ indication_count: 5
 
 </div>
 
-# Simvastatin：從降血脂治療到家族性高膽固醇血症
+# Simvastatin：從高三酸甘油酯血症與動脈粥狀硬化到家族性高膽固醇血症
 
 ## 一句話總結
 
-Simvastatin 是一種史他汀（statin）類降血脂藥，在香港已有 20 張許可證。
+Simvastatin 是一種史他汀類（statin）降血脂藥，原本用於高脂血症、動脈粥狀硬化與腦中風相關疾病的治療。
 TxGNN 模型預測它可能對**家族性高膽固醇血症 (Familial Hypercholesterolemia)** 有效，
-目前有 **19 個臨床試驗**和 **18 篇文獻**支持這個方向，其中多個為已完成的 Phase 3 試驗。
+目前有 **8 個臨床試驗**和 **18 篇文獻**支持這個方向。
+需注意，此預測與原適應症（含同型合子家族性高膽固醇血症）高度重疊，較接近同一疾病家族內的延伸，而非真正的跨疾病再利用。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證與 DrugBank 資料均未載明（藥理上屬降血脂藥） |
+| 原適應症 | 高三酸甘油酯血症、中風相關疾病、腦梗塞、動脈粥狀硬化、高脂蛋白血症、同型合子家族性高膽固醇血症等（來自知識圖譜，香港許可證未載明適應症文字） |
 | 預測新適應症 | 家族性高膽固醇血症 (Familial Hypercholesterolemia) |
 | TxGNN 預測分數 | 99.63% |
 | 證據等級 | L1 |
@@ -51,80 +52,82 @@ TxGNN 模型預測它可能對**家族性高膽固醇血症 (Familial Hyperchole
 
 ## 為什麼這個預測合理？
 
-DrugBank 的作用機轉欄位目前沒有資料，以下機轉說明來自本次分析的推論。Simvastatin 抑制 HMG-CoA 還原酶，降低肝臟的膽固醇合成，並使肝細胞表面的 LDL 受器增加，加速血中 LDL-C 清除。
+目前缺乏詳細的作用機轉資料庫記載，但根據已知藥理，Simvastatin 是 HMG-CoA 還原酶抑制劑，可降低肝臟膽固醇合成，並上調 LDL 受體，加速血中 LDL-C 清除。這個機轉與家族性高膽固醇血症（LDL 受體功能異常導致 LDL-C 升高）直接相關。
 
-家族性高膽固醇血症的核心問題是 LDL-C 清除不足，通常由 LDLR、APOB 或 PCSK9 變異造成。異合子型（heterozygous）患者仍保有部分 LDL 受器功能，所以透過 statin 提高受器表現，機轉上直接對應病因。Simvastatin 本身就是 FH 的既有降血脂選項，與預測方向一致。
-
-原適應症欄位為空，這是資料缺口，不構成反對證據。限制在於同合子型（homozygous）且為 LDLR 完全無功能的患者，statin 效果有限，常需合併 ezetimibe 或 PCSK9 抑制劑。
+原適應症已包含同型合子家族性高膽固醇血症與多種高脂血症，因此新預測的疾病與原適應症屬同一疾病家族。需要留意的是，同型合子患者的 LDL 受體殘餘功能有限，藥物反應會減弱。
 
 ## 臨床試驗證據
 
-以下為與 simvastatin 關聯度較高的 10 項（共 19 項）。多數試驗中 simvastatin 是合併用藥或背景治療，並非單獨受試藥物。
-
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) | Phase 3 | 完成 | 720 | ENHANCE：ezetimibe + 高劑量 simvastatin 對比單用 simvastatin，評估異合子型 FH 頸動脈內中膜粥樣硬化進展 |
-| [NCT00129402](https://clinicaltrials.gov/study/NCT00129402) | Phase 3 | 完成 | 248 | ezetimibe 與 simvastatin 併用，用於 10-17 歲異合子型 FH 青少年的療效與安全性 |
-| [NCT00465088](https://clinicaltrials.gov/study/NCT00465088) | Phase 3 | 完成 | 199 | SUPREME：niacin ER + simvastatin 對比 atorvastatin，比較高血脂/混合型血脂異常的 HDL-C 提升（是否限於 FH 未確認） |
-| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Phase 3 | 完成 | 44 | ezetimibe 加 atorvastatin 或 simvastatin，同合子型 FH 的 24 個月長期安全性延伸研究 |
-| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | 完成 | 50 | ezetimibe 加 atorvastatin 或 simvastatin，同合子型 FH 的療效與安全性 |
-| [NCT00654446](https://clinicaltrials.gov/study/NCT00654446) | Phase 3 | 完成 | 442 | rosuvastatin 與 simvastatin 對腎臟影響的比較，族群含異合子型 FH |
-| [NCT00145574](https://clinicaltrials.gov/study/NCT00145574) | Phase 4 | 完成 | 194 | colesevelam 用於穩定使用 statin（含 simvastatin）的兒童異合子型 FH，simvastatin 為背景治療 |
-| [NCT00475826](https://clinicaltrials.gov/study/NCT00475826) | 未分類 | 未知 | 未提供 | 異合子型 FH 患者使用 statin 加 ezetimibe 時，乳糜微粒代謝與亞臨床動脈硬化的關係 |
-| [NCT01623115](https://clinicaltrials.gov/study/NCT01623115) | Phase 3 | 完成 | 486 | alirocumab 加既有降脂治療用於異合子型 FH，simvastatin 可能為背景治療，屬間接證據 |
-| [NCT02107898](https://clinicaltrials.gov/study/NCT02107898) | Phase 3 | 完成 | 216 | alirocumab 加穩定 statin 治療用於異合子型 FH 或高心血管風險者，屬間接證據 |
+| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) | Phase 3 | 完成 | 720 | ENHANCE 試驗：Ezetimibe 加高劑量 Simvastatin 對比單用 Simvastatin，評估異合子家族性高膽固醇血症頸動脈粥狀硬化進展（Simvastatin 為對照組，關聯性最直接） |
+| [NCT00129402](https://clinicaltrials.gov/study/NCT00129402) | Phase 3 | 完成 | 248 | Ezetimibe 併用 Simvastatin 用於 10–17 歲異合子家族性高膽固醇血症青少年的療效與安全性 |
+| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | 完成 | 50 | Ezetimibe 加 Atorvastatin 或 Simvastatin 用於同型合子家族性高膽固醇血症（樣本小） |
+| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Phase 3 | 完成 | 44 | 上述試驗的 24 個月開放標籤延伸，評估長期安全性與耐受性 |
+| [NCT01709500](https://clinicaltrials.gov/study/NCT01709500) | Phase 3 | 完成 | 249 | Alirocumab 用於控制不佳的異合子 FH（Simvastatin 為背景治療） |
+| [NCT03510884](https://clinicaltrials.gov/study/NCT03510884) | Phase 3 | 完成 | 153 | Alirocumab 用於兒童與青少年異合子 FH（Simvastatin 至多為背景治療） |
+| [NCT00654446](https://clinicaltrials.gov/study/NCT00654446) | Phase 3 | 完成 | 442 | Rosuvastatin 與 Simvastatin 對 IIa/IIb 型血脂異常（含異合子 FH）腎臟影響的 6 週比較，關聯性間接 |
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | 完成 | 18 | Alirocumab 用於兒童同型合子 FH，小型開放標籤研究，Simvastatin 至多為背景治療 |
+
+此外另有 Phase 2 試驗 [NCT01890967](https://clinicaltrials.gov/study/NCT01890967)（n=527，LY3015014 劑量範圍研究，Simvastatin 證據間接）。以上多數試驗中，Simvastatin 是併用或背景治療，而非受試主角，僅 ENHANCE 與 NCT00129402 與 Simvastatin 直接相關。
 
 ## 文獻證據
 
-以下為 10 篇代表性文獻（共 18 篇）。部分文獻的摘要在資料中被截斷，主要發現僅依可見內容摘要。
-
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [18376000](https://pubmed.ncbi.nlm.nih.gov/18376000/) | 2008 | RCT | N Engl J Med | simvastatin 單用對比合併 ezetimibe，用於 FH；探討對動脈粥樣硬化進展的影響（摘要未載結果） |
-| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | 系統性回顧 | Cochrane Database Syst Rev | 評估 statin 用於兒童 FH 的證據 |
-| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | 臨床比較研究 | Nutr Metab Cardiovasc Dis | 比較 atorvastatin 與 simvastatin 在異合子型 FH 達成 LDL-C 目標的效果 |
-| [27417002](https://pubmed.ncbi.nlm.nih.gov/27417002/) | 2016 | 未分類 | J Am Coll Cardiol | 量化 statin 在異合子型 FH 對冠心病事件與死亡率的降低幅度 |
-| [15794711](https://pubmed.ncbi.nlm.nih.gov/15794711/) | 2005 | Review | Expert Opin Drug Saf | 評估 simvastatin 用於 FH 的效益與風險，強調長期安全性與耐受性 |
-| [12908847](https://pubmed.ncbi.nlm.nih.gov/12908847/) | 2003 | Review | Drug Saf | simvastatin 用於 FH 患者的效益與風險 |
-| [35629051](https://pubmed.ncbi.nlm.nih.gov/35629051/) | 2022 | 橫斷面/世代研究 | J Clin Med | 26 名 FH 兒童（13 名服用 simvastatin 10 mg）的細胞免疫參數比較 |
-| [41824590](https://pubmed.ncbi.nlm.nih.gov/41824590/) | 2026 | 指引 | J Am Coll Cardiol | 2026 ACC/AHA 等學會血脂異常處置指引，取代 2018 膽固醇指引 |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | 指引 | Endocr Pract | AACE/ACE 血脂異常處置與心血管疾病預防指引 |
-| [30270066](https://pubmed.ncbi.nlm.nih.gov/30270066/) | 2018 | 回溯性研究 | Atherosclerosis | 斯洛伐克 FH 治療現況，指出 statin 為核心治療，但不少患者治療不足 |
+| [18376000](https://pubmed.ncbi.nlm.nih.gov/18376000/) | 2008 | 臨床試驗 | N Engl J Med | ENHANCE 試驗：Simvastatin 加或不加 Ezetimibe 於家族性高膽固醇血症 |
+| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | 系統性回顧 (Cochrane) | Cochrane Database Syst Rev | 兒童家族性高膽固醇血症的史他汀治療 |
+| [28685504](https://pubmed.ncbi.nlm.nih.gov/28685504/) | 2017 | 系統性回顧 (Cochrane) | Cochrane Database Syst Rev | 同上（2017 版） |
+| [25054950](https://pubmed.ncbi.nlm.nih.gov/25054950/) | 2014 | 系統性回顧 (Cochrane) | Cochrane Database Syst Rev | 同上（2014 版） |
+| [20614444](https://pubmed.ncbi.nlm.nih.gov/20614444/) | 2010 | 系統性回顧 (Cochrane) | Cochrane Database Syst Rev | 同上（2010 版） |
+| [41824590](https://pubmed.ncbi.nlm.nih.gov/41824590/) | 2026 | 指引 | J Am Coll Cardiol | 2026 ACC/AHA 血脂異常管理指引，取代 2018 年膽固醇指引 |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | 指引 | Endocr Pract | AACE/ACE 血脂異常管理與心血管疾病預防指引 |
+| [12908847](https://pubmed.ncbi.nlm.nih.gov/12908847/) | 2003 | 臨床研究／回顧 | Drug Saf | Simvastatin 用於家族性高膽固醇血症的效益與風險 |
+| [15794711](https://pubmed.ncbi.nlm.nih.gov/15794711/) | 2005 | 回顧 | Expert Opin Drug Saf | Simvastatin 於家族性高膽固醇血症的效益與風險評估 |
+| [35629051](https://pubmed.ncbi.nlm.nih.gov/35629051/) | 2022 | 橫斷面研究 | J Clin Med | 以 10 mg Simvastatin 治療的 FH 兒童（n=26）之細胞免疫參數 |
 
 ## 香港上市資訊
 
-共 20 張許可證，以下列出 5 張。資料中未載明劑型與核准適應症。
+香港共有 20 張有效許可證，皆為單一成分製劑。資料中未載明劑型與核准適應症文字。以下列出 5 張主要許可證：
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-51793 | APO-SIMVASTATIN TAB 40MG | — | — |
-| HK-55637 | VAS TAB 40MG | — | — |
-| HK-56763 | JMP SIMVASTATIN TAB 20MG | — | — |
-| HK-59425 | PEAUSOIN SIMVASTATIN TAB 10MG | — | — |
-| HK-58993 | SIMPLAQOR TAB 10MG | — | — |
+| HK-34337 | ZOCOR TAB 10MG（原廠，Organon） | 錠劑 | 未載明 |
+| HK-51048 | SIMVASTATIN-TEVA TAB 20MG | 錠劑 | 未載明 |
+| HK-51793 | APO-SIMVASTATIN TAB 40MG | 錠劑 | 未載明 |
+| HK-58993 | SIMPLAQOR TAB 10MG（Sandoz） | 錠劑 | 未載明 |
+| HK-60041 | KARDAK 10 TAB 10MG（Aurobindo） | 錠劑 | 未載明 |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌或需謹慎疾病**（非仿單文字）：肝臟疾病、肌病變／橫紋肌溶解症、胰臟炎、膽囊疾病、糖尿病與高血糖、血小板減少症、痛風、急性冠心症、低血壓等。
+- **藥物交互作用**：共記錄 100 筆。重大等級包括 Amiodarone、Amlodipine、Fenofibrate；中度包括 Paclitaxel、Nifedipine、Omeprazole 等。使用 CYP3A4 抑制劑時需特別注意肌病變風險。
+- 其他警語與禁忌請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-多項已完成的 Phase 3 試驗（如 ENHANCE、ezetimibe 併用 simvastatin 的青少年試驗）直接涉及 simvastatin 與 FH，並有 RCT 與系統性回顧支持，機轉上也直接對應。不過多數試驗中 simvastatin 是合併治療或背景用藥，且香港仿單的安全資料仍有缺口，因此需附帶防護條件。
+- 有多項已完成的 Phase 3 試驗涉及 Simvastatin 與家族性高膽固醇血症，其中 ENHANCE 與青少年 Ezetimibe 併用試驗直接相關。
+- 但多數試驗中 Simvastatin 屬併用或背景治療，且此適應症與原適應症高度重疊，屬同疾病家族延伸。
 
 **若要推進需要：**
-- 取得香港衛生署仿單，補齊警語與禁忌症（目前列為阻斷性缺口，不補齊無法進入安全性篩查）
-- 確認香港許可證的核准適應症是否已涵蓋 FH
-- 補充 DrugBank 的作用機轉資料
-- 納入使用條件：
-  - 同合子型且 LDLR 完全無功能者效果有限，常需合併 ezetimibe 或 PCSK9 抑制劑
-  - 兒童與青少年需依年齡調整劑量並監測
-  - 注意高劑量時的肌病風險與 CYP3A4 藥物交互作用
-- 自家族性高膽固醇血症（顯性遺傳）的預測（排名第 4）共用同一批證據，可一併評估；其餘預測（腦幹梗塞、CETP 缺乏症、CYP7A1 缺乏所致高膽固醇血症）僅有模型預測，證據等級為 L5，建議暫緩（Hold）
+- 取得香港衛生署仿單，確認核准適應症、警語與禁忌
+- 補充 Simvastatin 單藥在異合子與同型合子 FH 的直接證據，並釐清同型合子的反應減弱情形
+- 建立肌病變監測與 CYP3A4 交互作用管理計畫
+- 制定兒童與青少年族群的劑量與用藥指引
 
-> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+---
+
+### 其他預測適應症簡述
+
+| 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
+|-----------|-----------|---------|------|
+| 體染色體顯性高膽固醇血症 | 99.36% | L1 | Proceed with Guardrails（與家族性高膽固醇血症證據高度重疊） |
+| 腦幹梗塞 | 99.41% | L5 | Hold（僅有一篇與 Simvastatin 無關的動物實驗） |
+| 膽固醇酯轉移蛋白缺乏症 | 99.39% | L5 | Hold（僅有模型預測，臨床需求不明確） |
+| 膽固醇 7α-羥化酶缺乏所致高膽固醇血症 | 99.27% | L5 | Hold（僅有模型預測，且此病對史他汀反應可能較差） |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

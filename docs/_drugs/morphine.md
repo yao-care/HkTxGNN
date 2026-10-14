@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Morphine
-parent: 中證據等級 (L3-L4)
-nav_order: 590
-evidence_level: L4
+parent: 僅模型預測 (L5)
+nav_order: 599
+evidence_level: L5
 indication_count: 10
 ---
 
 # Morphine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,14 @@ indication_count: 10
 
 </div>
 
-# 嗎啡（Morphine）：從強效鎮痛到肌筋膜疼痛症候群
+# Morphine：從腹瀉性疾病到不寧腿症候群
 
 ## 一句話總結
 
-嗎啡是 mu 類鴉片受體促效劑，臨床上是強效鎮痛藥。目前 Evidence Pack 未提供香港許可證的適應症文字。
-TxGNN 模型預測它可能對**肌筋膜疼痛症候群 (Myofascial Pain Syndrome)** 有效，但列出的 **33 個臨床試驗**和 **17 篇文獻**大多是依關鍵字檢索到的一般疼痛研究。沒有任何一項直接證明嗎啡能治療此病，建議先擱置（Hold）。
+Morphine（嗎啡）是經典的 mu 類鴉片受體促效劑，在本次資料中的原適應症為腹瀉性疾病（diarrheal disease）。
+TxGNN 模型預測的首位新適應症為**肌筋膜疼痛症候群 (myofascial pain syndrome)**，但該項證據薄弱。依證據強度，較值得關注的是**不寧腿症候群 (restless legs syndrome, RLS)**：有 **1 個臨床試驗**（Phase 1）和多篇觀察性研究、病例報告支持。
+
+> 說明：預測排名第一的肌筋膜疼痛症候群僅有間接文獻，無臨床試驗。以下表格依規定呈現排名第一的預測，並另列證據最強的 RLS 供決策參考。
 
 ---
 
@@ -42,97 +44,123 @@ TxGNN 模型預測它可能對**肌筋膜疼痛症候群 (Myofascial Pain Syndro
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 腹瀉性疾病（diarrheal disease，來自知識圖譜；香港許可證未載明適應症文字） |
 | 預測新適應症 | 肌筋膜疼痛症候群 (Myofascial Pain Syndrome) |
-| TxGNN 預測分數 | 99.75%（模型排名 5358） |
-| 證據等級 | L4 |
+| TxGNN 預測分數 | 99.75% |
+| 證據等級 | L4（肌筋膜疼痛症候群）；證據最強的候選 RLS 為 L3 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 15 張 |
-| 建議決策 | Hold |
+| 建議決策 | Hold（肌筋膜疼痛症候群）；RLS 列為研究問題 |
+
+### 前 10 名預測概覽
+
+| 排名 | 預測適應症 | 分數 | 證據等級 | 建議 |
+|------|-----------|------|---------|------|
+| 1 | 肌筋膜疼痛症候群 | 99.75% | L4 | Hold |
+| 2 | 躁型雙極性情感障礙 | 99.64% | L5 | Hold |
+| 3 | 妥瑞氏症 | 99.48% | L5 | Hold |
+| 4 | 不寧腿症候群 | 99.47% | L3 | 研究問題 |
+| 5 | 注意力不足過動症（注意力不足型） | 99.34% | L5 | Hold |
+| 6 | 偏頭痛 | 99.32% | L4 | Hold |
+| 7 | 拔毛症 | 99.29% | L5 | Hold |
+| 8 | 高鐵血紅素血症 | 99.15% | L5 | Hold |
+| 9 | 伴腦幹先兆的偏頭痛 | 99.15% | L5 | Hold |
+| 10 | 特定發展障礙 | 99.06% | L5 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。嗎啡是 mu 類鴉片受體促效劑，對傷害性疼痛的鎮痛作用已被充分確立。
+目前缺乏詳細的作用機轉資料。根據已知資訊，嗎啡是 mu 類鴉片受體促效劑，具有確立的鎮痛作用，這也是它與疼痛類疾病產生關聯的基礎。
 
-肌筋膜疼痛症候群的疼痛主要來自激痛點周邊的週邊與中樞敏感化，鴉片類藥物並非標準治療。TxGNN 的高分很可能反映知識圖譜中「鎮痛」與「疼痛網絡」的一般性關聯，而不是針對此疾病的特異性機轉。
+**肌筋膜疼痛症候群：**肌筋膜疼痛以周邊肌肉骨骼問題為主，鴉片類藥物並非標準治療。現有文獻為間接證據，包括顳顎關節功能障礙的長期鴉片使用、嗎啡加 dexmedetomidine 用於脊椎融合術肌筋膜浸潤的隨機試驗，以及圍手術期疼痛研究，並未直接證明嗎啡能治療肌筋膜疼痛症候群。
 
-唯一與嗎啡直接相關的訊號，是 2026 年一項把嗎啡加入肌筋膜浸潤液的手術鎮痛研究。那是局部給藥的問題，不能當作全身性使用的證據。
+**不寧腿症候群：**鴉片類藥物作用於內源性鴉片系統，並調節與 RLS 相關的多巴胺與感覺傳導路徑。對於多巴胺促效劑或 α2δ 配體無效、或出現加重現象（augmentation）的難治型 RLS，低劑量鴉片類藥物已在臨床上使用，嗎啡（含脊髓腔內給藥）也有案例與病例系列報告。這是目前機轉與臨床線索最一致的方向。
 
 ---
 
 ## 臨床試驗證據
 
-以下列出 10 個相對最相關的試驗。**沒有任何一個以嗎啡治療肌筋膜疼痛**，多數是非藥物療法或減少鴉片用量的研究。
+肌筋膜疼痛症候群目前無相關臨床試驗登記。
+
+證據最強的候選適應症 RLS 有 1 個試驗：
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT05478928](https://clinicaltrials.gov/study/NCT05478928) | N/A | 未知 | 60 | 侵入性技術（微電解、乾針）治療肌筋膜激痛點。疾病吻合，但無嗎啡介入 |
-| [NCT07413770](https://clinicaltrials.gov/study/NCT07413770) | N/A | 完成 | 60 | 古典按摩用於肌筋膜疼痛症候群，無藥物介入 |
-| [NCT04640896](https://clinicaltrials.gov/study/NCT04640896) | Phase 4 | 完成 | 60 | 頸椎前路手術後，比較激痛點注射與傳統療法處理肌筋膜疼痛 |
-| [NCT06955923](https://clinicaltrials.gov/study/NCT06955923) | Phase 2 | 完成 | 11 | 全膝關節置換術後激痛點注射，觀察疼痛與鴉片用量 |
-| [NCT04504812](https://clinicaltrials.gov/study/NCT04504812) | Phase 3 | 完成 | 1937 | 膝骨關節炎疼痛的分階段策略，屬不同疼痛疾病，無法支持本適應症 |
-| [NCT04862845](https://clinicaltrials.gov/study/NCT04862845) | Phase 1 | 完成 | 90 | 度洛西汀合併普瑞巴林用於抽脂術後疼痛，非肌筋膜疼痛，也未測試嗎啡 |
-| [NCT03813485](https://clinicaltrials.gov/study/NCT03813485) | N/A | 未知 | 24 | 斜方肌潛伏激痛點乾針的肌電圖差異 |
-| [NCT04684784](https://clinicaltrials.gov/study/NCT04684784) | N/A | 完成 | 46 | 乾針對潛伏激痛點肌電活動的影響 |
-| [NCT03944889](https://clinicaltrials.gov/study/NCT03944889) | Early Phase 1 | 完成 | 20 | 辣椒素誘發健康肌肉的敏感化，探討中樞敏感化的影像特徵 |
-| [NCT01878019](https://clinicaltrials.gov/study/NCT01878019) | N/A | 完成 | 92 | 以納洛酮探討慢性疼痛患者的疼痛控制機制 |
+| [NCT01476124](https://clinicaltrials.gov/study/NCT01476124) | Phase 1 | 完成 | 18 | 健康受試者的三階段交叉試驗，評估 gabapentin enacarbil 與嗎啡單獨及併用時的藥動學和耐受性；無 RLS 病人的療效資料 |
 
 ---
 
 ## 文獻證據
 
+### 肌筋膜疼痛症候群（排名第一）
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [41664327](https://pubmed.ncbi.nlm.nih.gov/41664327/) | 2026 | RCT | Asian Spine J | 胸腰椎融合術中，比較右美托咪定加嗎啡與單用 ropivacaine 的肌筋膜浸潤。這是局部術後鎮痛，不是治療肌筋膜疼痛 |
-| [22648287](https://pubmed.ncbi.nlm.nih.gov/22648287/) | 2012 | 臨床研究 | J Anesth | 在多模式治療中加入頸椎小關節注射，用於長期頸部肌筋膜疼痛。並非以嗎啡為主 |
-| [17870625](https://pubmed.ncbi.nlm.nih.gov/17870625/) | 2008 | RCT | Eur J Pain | 107 位開胸術後患者，比較硬膜外（bupivacaine 加嗎啡）與肋間神經冷凍鎮痛，屬術後急性疼痛 |
-| [35066974](https://pubmed.ncbi.nlm.nih.gov/35066974/) | 2022 | 回溯性世代研究 | Pain Pract | 結構化伸展運動對「遺留性疼痛」患者的肌筋膜疼痛緩解與鴉片用量的影響 |
-| [21419546](https://pubmed.ncbi.nlm.nih.gov/21419546/) | 2011 | Review | J Oral Maxillofac Surg | 顳顎關節功能障礙長期使用鴉片類藥物，現有證據既無法支持也無法否定 |
-| [16713811](https://pubmed.ncbi.nlm.nih.gov/16713811/) | 2006 | 臨床經驗 | J Oral Maxillofac Surg | 顳顎關節沖洗術後給予關節內嗎啡，希望延長鎮痛 |
-| [20390305](https://pubmed.ncbi.nlm.nih.gov/20390305/) | 2010 | 縱向研究 | Schmerz | 慢性下背痛患者在鴉片戒斷期間與之後的痛閾改變 |
-| [39793344](https://pubmed.ncbi.nlm.nih.gov/39793344/) | 2025 | 臨床研究 | Eur J Obstet Gynecol Reprod Biol | 陰部神經阻斷是否改善肉毒桿菌毒素注射治療肌筋膜骨盆疼痛後的疼痛，與嗎啡無關 |
-| [16967674](https://pubmed.ncbi.nlm.nih.gov/16967674/) | 2006 | Review | J Calif Dent Assoc | 以口服藥、輸注與注射協助口顏面疼痛的鑑別診斷 |
-| [9214190](https://pubmed.ncbi.nlm.nih.gov/9214190/) | 1997 | 臨床觀察 | Zh Nevrol Psikhiatr | 複方止痛藥 Caffetin 用於頸痛與腰薦痛，10 天內有止痛效果 |
+| [41664327](https://pubmed.ncbi.nlm.nih.gov/41664327/) | 2026 | RCT | Asian Spine J | 脊椎融合術中，dexmedetomidine 加嗎啡與單用 ropivacaine 做肌筋膜浸潤的雙盲比較 |
+| [39793344](https://pubmed.ncbi.nlm.nih.gov/39793344/) | 2025 | RCT | Eur J Obstet Gynecol Reprod Biol | 評估陰部神經阻斷是否改善肌筋膜骨盆疼痛 BTA 注射後的疼痛 |
+| [17870625](https://pubmed.ncbi.nlm.nih.gov/17870625/) | 2008 | RCT | Eur J Pain | 比較硬膜外鎮痛（含嗎啡）與肋間神經冷凍鎮痛用於開胸術後疼痛 |
+| [35066974](https://pubmed.ncbi.nlm.nih.gov/35066974/) | 2022 | Cohort | Pain Pract | 結構化伸展運動計畫對肌筋膜疼痛緩解與鴉片類藥物使用的影響 |
+| [21419546](https://pubmed.ncbi.nlm.nih.gov/21419546/) | 2011 | Review | J Oral Maxillofac Surg | 顳顎關節功能障礙長期使用鴉片類藥物的證據既不能支持也不能否定 |
+| [16713811](https://pubmed.ncbi.nlm.nih.gov/16713811/) | 2006 | Review | J Oral Maxillofac Surg | 顳顎關節灌洗後關節內嗎啡注射的臨床做法 |
+
+上述文獻多為間接證據，無一直接檢驗嗎啡治療肌筋膜疼痛症候群。
+
+### 不寧腿症候群（證據最強的候選）
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [41543123](https://pubmed.ncbi.nlm.nih.gov/41543123/) | 2026 | Cohort | Sleep | 全國 RLS 鴉片登錄系統 5 年資料，評估療效與劑量穩定性 |
+| [39106456](https://pubmed.ncbi.nlm.nih.gov/39106456/) | 2024 | Cohort | Pain | 長期脊髓腔內低劑量嗎啡可緩解嚴重 RLS，且未誘發耐受 |
+| [36697248](https://pubmed.ncbi.nlm.nih.gov/36697248/) | 2023 | Cohort | Neurology | 2 年登錄資料，探討鴉片類藥物的長期安全性、劑量穩定性與療效 |
+| [31883387](https://pubmed.ncbi.nlm.nih.gov/31883387/) | 2020 | Cohort | Acta Neurol Scand | 植入式幫浦給予脊髓腔內嗎啡治療難治型 RLS 的療效與併發症 |
+| [32918469](https://pubmed.ncbi.nlm.nih.gov/32918469/) | 2021 | Cohort | Sleep | 全國 RLS 鴉片登錄系統基線與 1 年追蹤資料 |
+| [27310338](https://pubmed.ncbi.nlm.nih.gov/27310338/) | 2016 | Review | Expert Opin Drug Metab Toxicol | 鴉片類藥物治療 RLS 的藥理與臨床面向 |
+| [27964861](https://pubmed.ncbi.nlm.nih.gov/27964861/) | 2017 | Review | Sleep Med | 疼痛、鴉片類藥物與睡眠對 RLS 治療的意涵 |
+| [29304922](https://pubmed.ncbi.nlm.nih.gov/29304922/) | 2018 | 文獻回顧（專家建議） | Mayo Clin Proc | 總結鴉片類藥物用於難治型 RLS 的基礎與臨床證據 |
+| [31133964](https://pubmed.ncbi.nlm.nih.gov/31133964/) | 2019 | Case report | Front Neurol | 癌症疼痛病人使用嗎啡與 fentanyl 後 RLS 改善 |
+| [36692170](https://pubmed.ncbi.nlm.nih.gov/36692170/) | 2023 | Case report | J Clin Sleep Med | 停用鴉片類藥物期間出現 RLS |
 
 ---
 
 ## 香港上市資訊
 
-香港共有 15 張許可證，以下列出 5 張。Evidence Pack 未提供劑型與核准適應症。
+目前資料顯示共有 15 張有效許可證，皆為單方製劑。許可證資料中未載明劑型與核准適應症文字，以下列出主要 5 張：
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-28287 | MORPHINE SULPHATE INJ 10MG/ML (B. BRAUN) | 未載明 | 未載明 |
-| HK-64596 | OMORFATE ORAL SOLUTION 5MG/5ML | 未載明（品名為口服液） | 未載明 |
-| HK-64155 | UNI-MORPHINE SYRUP (ALCOHOL FREE) 50MG/5ML | 未載明（品名為糖漿） | 未載明 |
-| HK-46999 | MORPHINE SYR (ALCOHOL FREE) 5MG/5ML | 未載明（品名為糖漿） | 未載明 |
-| HK-64157 | UNI-MORPHINE SYRUP (ALCOHOL FREE) 10MG/5ML | 未載明（品名為糖漿） | 未載明 |
+| HK-28287 | MORPHINE SULPHATE INJ 10MG/ML (B. BRAUN) | 注射劑（依品名） | 資料未載明 |
+| HK-64596 | OMORFATE ORAL SOLUTION 5MG/5ML | 口服溶液（依品名） | 資料未載明 |
+| HK-64155 | UNI-MORPHINE SYRUP (ALCOHOL FREE) 50MG/5ML | 糖漿（依品名） | 資料未載明 |
+| HK-45210 | MST CONTINUS TAB 10MG-PROLONGED RELEASE | 持續釋放錠（依品名） | 資料未載明 |
+| HK-40464 | MORPHINE SULPHATE INJ 10MG/ML | 注射劑（依品名） | 資料未載明 |
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（來自知識圖譜的藥物與疾病禁忌關聯，非仿單文字）：高血壓、姿勢性低血壓、長 QT 症候群、尖端扭轉型心律不整、肝衰竭與肝病、腎臟疾病、癲癇、慢性阻塞性肺病、胃潰瘍、胰臟炎、膽囊疾病、甲狀腺功能低下、精神病性疾患與思覺失調相關疾患、焦慮症、鉀缺乏症等。
+- **藥物交互作用**：資料庫共有 100 筆交互作用紀錄，列出的 20 筆中，重大（Major）等級包括 fentanyl、dihydrocodeine、codeine、tramadol、butalbital、乙醇、alprazolam、dichloralphenazone。這些多為中樞神經與呼吸抑制疊加風險，應避免或嚴密監測合併使用。中度等級包括 chlorpheniramine、cetirizine、nifedipine、hydrochlorothiazide、metformin 等。
+- **新適應症相關風險**：用於 RLS 時需注意依賴性、鴉片類藥物引起的睡眠呼吸障礙，以及停藥後 RLS 症狀出現或加重。用於偏頭痛時有藥物過度使用型頭痛與痛覺過敏風險。用於躁症時有濫用傾向與情緒不穩惡化的疑慮。
+
+香港仿單的警語與禁忌尚未取得，詳細資訊請參考原廠仿單。
 
 ---
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：Hold（肌筋膜疼痛症候群）；RLS 作為研究問題優先評估**
 
 **理由：**
-- 沒有任何試驗或文獻證明嗎啡能治療肌筋膜疼痛症候群。高分主要來自知識圖譜的一般鎮痛關聯，證據停留在 L4。
-- 鴉片類藥物並非此病的標準治療，長期使用又有依賴與痛覺過敏的風險，效益與風險目前不成比例。
+- 排名第一的肌筋膜疼痛症候群僅有間接文獻，且鴉片類藥物並非其標準治療，不支持推進。其餘多數預測（雙極性躁症、妥瑞氏症、ADHD、拔毛症、高鐵血紅素血症等）為 L5 純模型預測，或機轉不合理。偏頭痛則因現行指引不建議使用鴉片類藥物而不宜推進。
+- RLS 有觀察性登錄研究、病例系列及專家共識支持，嗎啡（含脊髓腔內給藥）用於難治型 RLS 有臨床基礎，但缺乏嗎啡專屬的 Phase 2/3 RCT，且多數研究以鴉片類藥物整體為對象，嗎啡的特定療效未獲證實。
 
 **若要推進需要：**
-- 取得香港衛生署仿單的警語與禁忌資料（目前為阻斷性缺口，無法進入安全性篩檢）。
-- 補充詳細的作用機轉資料（DrugBank）。
-- 找出以嗎啡（不含其他鴉片類）治療肌筋膜疼痛的對照研究；若無，本方向建議終止。
-
-**補充觀察：** 同一份預測清單中的**不寧腿症候群 (Restless Legs Syndrome)**（排名 4，分數 99.47%，證據等級 L3）證據明顯較強。它有 Cochrane 系統性回顧、全國性鴉片登記研究，以及嗎啡鞘內輸注與癌痛患者的個案報告。但證據多屬鴉片類整體而非嗎啡專屬，且仍有增強現象、依賴與睡眠呼吸障礙的疑慮，值得優先列為研究問題。
-
-*本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證才能應用。*
+- 取得香港仿單的警語與禁忌資料，完成安全性篩選。
+- 補充詳細的作用機轉資料。
+- 針對難治型 RLS 設計嗎啡專屬的對照試驗，或系統性回顧現有登錄與病例資料。
+- 建立依賴性、呼吸抑制、加重現象的風險管理計畫，並確認管制藥品使用規範。
+- 評估適用劑型與給藥途徑（口服與脊髓腔內）。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Clofarabine
-parent: 僅模型預測 (L5)
-nav_order: 211
-evidence_level: L5
+parent: 高證據等級 (L1-L2)
+nav_order: 215
+evidence_level: L1
 indication_count: 10
 ---
 
 # Clofarabine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L1** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,106 +29,133 @@ indication_count: 10
 
 </div>
 
-# Clofarabine：從兒童復發／難治性急性淋巴母細胞白血病到骨髓性白血病
+# Clofarabine：從急性淋巴性白血病到骨髓性白血病
 
 ## 一句話總結
 
-Clofarabine 是嘌呤核苷類似物的抗代謝化療藥。根據試驗與文獻的描述，它原本用於兒童復發或難治性急性淋巴母細胞白血病（ALL）。
-TxGNN 模型預測它可能對**骨髓性白血病 (Myeloid Leukemia)** 有效，目前有 **50 個臨床試驗**和 **20 篇文獻**支持這個方向，其中包含 **3 個已完成的 Phase 3 試驗**。
+Clofarabine 是一種嘌呤核苷類似物，原本用於急性淋巴性白血病（ALL）的治療。
+TxGNN 模型預測它可能對**骨髓性白血病 (Myeloid Leukemia)** 有效，
+目前有 **40 個以上的臨床試驗**（含 2 個已完成的 Phase 3 隨機試驗）和 **20 篇文獻**支持這個方向。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證未載明適應症；試驗與文獻描述其核准用於兒童復發／難治性 ALL |
+| 原適應症 | 急性淋巴性白血病（香港許可證資料未載明核准適應症文字，此處依知識圖譜的適應症資料） |
 | 預測新適應症 | 骨髓性白血病 (Myeloid Leukemia) |
 | TxGNN 預測分數 | 99.88% |
-| 證據等級 | L1（依判定規則：≥2 個已完成 Phase 3；資料包內建標示 L2，因相關性評級尚未完成） |
+| 證據等級 | L1 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 3 張 |
 | 建議決策 | Proceed with Guardrails |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏 DrugBank 的詳細作用機轉資料。根據文獻摘要，clofarabine 是第二代嘌呤核苷類似物。它抑制核糖核苷酸還原酶與 DNA 聚合酶，耗竭 DNA 複製所需的去氧核苷三磷酸，也會破壞粒線體膜完整性而誘發細胞凋亡。設計上結合了 fludarabine 與 cladribine 的優點，並更耐去胺作用。
+Clofarabine 是第二代嘌呤核苷類似物，設計上結合了 fludarabine 與 cladribine 的優點。它透過抑制核糖核苷酸還原酶與 DNA 聚合酶，減少細胞內可用於 DNA 複製的去氧核苷三磷酸，並誘導細胞凋亡。（註：目前整理的資料中，藥物層級的作用機轉欄位為空白，以上機轉說明來自文獻摘要與預測理由。）
 
-ALL 與急性骨髓性白血病（AML）同屬快速增殖的造血系惡性腫瘤，這類藥物對快速分裂的母細胞都有活性。文獻與試驗顯示，clofarabine 已被用於成人與兒童 AML 的誘導、挽救治療及移植前預處理，這使 TxGNN 的高分預測在機轉與臨床上都合理。
+這些作用對快速分裂的骨髓性母細胞與淋巴性母細胞同樣有效。原適應症 ALL 與預測的骨髓性白血病同屬急性白血病，治療上常使用相近的化療策略。因此對骨髓性白血病的使用屬於血液惡性腫瘤內的適應症延伸。
 
-需注意，Phase 3 試驗的療效結果不在本資料包內，無法據此判斷 clofarabine 是否優於標準治療。CoALL 08-09（兒童 ALL）的文獻指出 clofarabine 提高了微量殘存病灶清除率，但預後未改善。成人 ALL 的 HOVON-100 也未見無事件存活期（EFS）改善。這些結果提示，能否清除腫瘤細胞不等於病人存活獲益。
+臨床上，clofarabine 已在 AML 的多項試驗中被評估，包括與 cytarabine 合併、作為移植前預處理，以及用於復發或難治性病人。
+
+---
 
 ## 臨床試驗證據
 
-本預測共有 50 個相關試驗，以下列出 10 個最相關者（Phase 3 優先，其次為完成的 Phase 2）。「主要發現」僅摘自試驗登記說明，資料包未提供結果數據。
+以下列出與骨髓性白血病最相關的試驗（共 10 個，其餘從略）：
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00317642](https://clinicaltrials.gov/study/NCT00317642) | Phase 3 | 完成 | 326 | 雙盲：clofarabine + cytarabine vs cytarabine，用於 ≥55 歲復發／難治 AML |
-| [NCT02085408](https://clinicaltrials.gov/study/NCT02085408) | Phase 3 | 完成 | 727 | 隨機：clofarabine 誘導與緩解後治療 vs 標準 daunorubicin + cytarabine，之後 decitabine 維持 vs 觀察，用於 ≥60 歲新診斷 AML |
-| [NCT00703820](https://clinicaltrials.gov/study/NCT00703820) | Phase 3 | 完成 | 324 | AML08：clofarabine + cytarabine vs 傳統誘導治療，並評估 NK 細胞移植 |
-| [NCT01101880](https://clinicaltrials.gov/study/NCT01101880) | Phase 2 | 完成 | 50 | Clofarabine + 高劑量 cytarabine + G-CSF 引導，用於 65 歲以下新診斷 AML |
-| [NCT00778375](https://clinicaltrials.gov/study/NCT00778375) | Phase 2 | 完成 | 122 | Clofarabine + 低劑量 cytarabine，與 decitabine 交替鞏固，用於 ≥60 歲 AML／高風險 MDS |
-| [NCT00088218](https://clinicaltrials.gov/study/NCT00088218) | Phase 2 | 完成 | 95 | 隨機：clofarabine 單用 vs 合併低劑量 cytarabine，用於 ≥60 歲未治療 AML／高風險 MDS |
-| [NCT01295307](https://clinicaltrials.gov/study/NCT01295307) | Phase 2 | 完成 | 86 | Clofarabine 挽救治療復發／難治 AML |
-| [NCT01457885](https://clinicaltrials.gov/study/NCT01457885) | Phase 2 | 完成 | 75 | Clofarabine + busulfan 清髓性移植，用於未緩解 AML |
-| [NCT00469014](https://clinicaltrials.gov/study/NCT00469014) | Phase 2 | 完成 | 72 | 隨機：busulfan-fludarabine-clofarabine 移植，用於難治 AML／MDS／CML |
-| [NCT00065143](https://clinicaltrials.gov/study/NCT00065143) | Phase 2 | 完成 | 60 | Clofarabine + cytarabine，用於 ≥50 歲新診斷 AML／高風險 MDS |
+| [NCT02085408](https://clinicaltrials.gov/study/NCT02085408) | Phase 3 | 完成 | 727 | Clofarabine 誘導及緩解後治療 vs 標準 daunorubicin + cytarabine，用於 60 歲以上新診斷 AML，後續接 decitabine 維持或觀察 |
+| [NCT00317642](https://clinicaltrials.gov/study/NCT00317642) | Phase 3 | 完成 | 326 | 雙盲試驗，clofarabine + cytarabine vs cytarabine，用於 55 歲以上復發或難治性 AML |
+| [NCT01295307](https://clinicaltrials.gov/study/NCT01295307) | Phase 2 | 完成 | 86 | Clofarabine 用於復發或難治性 AML 的救援治療 |
+| [NCT00469014](https://clinicaltrials.gov/study/NCT00469014) | Phase 2 | 完成 | 72 | Busulfan-fludarabine-clofarabine 預處理後接異體幹細胞移植，用於晚期難治性 AML、MDS |
+| [NCT01643668](https://clinicaltrials.gov/study/NCT01643668) | Phase 2 | 完成 | 34 | Busulfan/clofarabine 減低強度預處理後接異體移植 |
+| [NCT01101880](https://clinicaltrials.gov/study/NCT01101880) | Phase 2 | 完成 | 50 | Clofarabine + 高劑量 cytarabine + G-CSF 預刺激，用於 65 歲以下新診斷 AML 或進展期 MDS |
+| [NCT00044889](https://clinicaltrials.gov/study/NCT00044889) | Phase 2 | 完成 | 40 | 單臂試驗，clofarabine 用於成人難治性或復發 AML |
+| [NCT01193400](https://clinicaltrials.gov/study/NCT01193400) | Phase 2 | 終止 | 75 | Clofarabine + 低劑量 cytarabine 用於 60 歲以上 AML 的誘導與鞏固，因提早終止而受限 |
+| [NCT01160354](https://clinicaltrials.gov/study/NCT01160354) | Phase 1/2 | 終止 | 22 | Plerixafor + clofarabine 用於老年未治療 AML，資料有限 |
+| [NCT01629082](https://clinicaltrials.gov/study/NCT01629082) | Phase 1 | 完成 | 4 | Clofarabine 接 lenalidomide 用於高風險 MDS 與 AML，樣本極小 |
+
+---
 
 ## 文獻證據
 
-本預測共有 20 篇相關文獻，以下列出 10 篇（隨機試驗優先）。
-
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [31246522](https://pubmed.ncbi.nlm.nih.gov/31246522/) | 2019 | RCT (Phase 3) | J Clin Oncol | AML08：兒童 AML 誘導治療中，clofarabine 可取代部分 daunorubicin 與 etoposide |
-| [31905904](https://pubmed.ncbi.nlm.nih.gov/31905904/) | 2019 | 分析 | Cancers | Clofarabine 鞏固方案（CLARA）在微複雜核型的年輕 AML 病人改善無復發存活 |
-| [32187883](https://pubmed.ncbi.nlm.nih.gov/32187883/) | 2020 | Cohort (Phase 2) | Cancer Med | Clofarabine + cytarabine + mitoxantrone 用於難治／復發 AML，反應率高，可有效銜接異體移植（香港團隊） |
-| [36336258](https://pubmed.ncbi.nlm.nih.gov/36336258/) | 2023 | Cohort | Transplant Cell Ther | Clofarabine + busulfan 清髓性預處理，用於活動性骨髓性惡性腫瘤的異體移植 |
-| [31637757](https://pubmed.ncbi.nlm.nih.gov/31637757/) | 2020 | Phase I/II | Am J Hematol | Clofarabine + 低劑量全身照射的非清髓性預處理，用於不適合強烈方案的 AML |
-| [29773602](https://pubmed.ncbi.nlm.nih.gov/29773602/) | 2018 | Phase Ib | Haematologica | 以 clofarabine 取代 fludarabine，用於兒童復發／難治 AML，尋找建議 Phase 2 劑量 |
-| [25457773](https://pubmed.ncbi.nlm.nih.gov/25457773/) | 2015 | Review | Crit Rev Oncol Hematol | 回顧 clofarabine 用於成人 AML 的單藥與各種合併策略 |
-| [22957815](https://pubmed.ncbi.nlm.nih.gov/22957815/) | 2013 | Review | Leuk Lymphoma | 回顧 clofarabine 在 AML 的角色與作用機轉 |
-| [18756533](https://pubmed.ncbi.nlm.nih.gov/18756533/) | 2008 | 臨床研究 | Cancer | Clofarabine 合併方案用於 AML 挽救治療，合併 cytarabine 可行且有效 |
-| [31281098](https://pubmed.ncbi.nlm.nih.gov/31281098/) | 2019 | Review | Lancet Oncol | Clofarabine 與 cytarabine 用於 AML 的評論 |
+| [22957815](https://pubmed.ncbi.nlm.nih.gov/22957815/) | 2013 | Review | Leukemia & Lymphoma | Clofarabine 為第二代嘌呤核苷類似物，抑制核糖核苷酸還原酶與 DNA 聚合酶，在 AML 的角色 |
+| [25457773](https://pubmed.ncbi.nlm.nih.gov/25457773/) | 2015 | Review | Critical Reviews in Oncology/Hematology | Clofarabine 在成人 AML 的單藥與合併治療策略 |
+| [19852733](https://pubmed.ncbi.nlm.nih.gov/19852733/) | 2009 | Review | Future Oncology | 單藥活性不遜於現行標準抗白血病藥物，可安全與其他藥物合併 |
+| [22170975](https://pubmed.ncbi.nlm.nih.gov/22170975/) | 2012 | Review | Annals of Pharmacotherapy | 評估老年未治療 AML 的療效與耐受性 |
+| [16316309](https://pubmed.ncbi.nlm.nih.gov/16316309/) | 2005 | Review | Expert Opinion on Pharmacotherapy | Clofarabine 在 AML 與 ALL 的單藥活性 |
+| [19463072](https://pubmed.ncbi.nlm.nih.gov/19463072/) | 2009 | 回顧性文章 | Expert Opinion on Pharmacotherapy | Clofarabine 為 AML 的新治療選項，單藥及合併皆有活性 |
+| [27621503](https://pubmed.ncbi.nlm.nih.gov/27621503/) | 2015 | Review | Hospital Pharmacy | Clofarabine + cytarabine 治療 AML 的配製與給藥說明 |
+| [36336258](https://pubmed.ncbi.nlm.nih.gov/36336258/) | 2023 | 研究報告 | Transplantation and Cellular Therapy | Clofarabine + busulfan 清髓性預處理，用於活動性骨髓性惡性腫瘤的異體移植 |
+| [24081220](https://pubmed.ncbi.nlm.nih.gov/24081220/) | 2014 | 個案報告 | J Oncol Pharm Pract | 難治性 AML 病人發生 clofarabine 相關腎毒性 |
+| [18780321](https://pubmed.ncbi.nlm.nih.gov/18780321/) | 2008 | 回顧性文章 | Cancer | 探討高風險 AML 的 clofarabine 合併治療組合 |
+
+---
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-67620 | CLOFARABINE CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/20ML（Chemill Pharma） | 未載明（輸注用濃縮液） | 許可證資料未載明 |
-| HK-68623 | CLOFACORD CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/20ML（Jacobson Marketing） | 未載明（輸注用濃縮液） | 許可證資料未載明 |
-| HK-61183 | EVOLTRA CONCENTRATE FOR SOLUTION FOR INFUSION 1MG/ML（Sanofi Hong Kong） | 未載明（輸注用濃縮液） | 許可證資料未載明 |
+| HK-67620 | CLOFARABINE CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/20ML（廠商：CHEMILL PHARMA LIMITED） | 輸注用濃縮液 | 資料未載明 |
+| HK-68623 | CLOFACORD CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/20ML（廠商：JACOBSON MARKETING LIMITED） | 輸注用濃縮液 | 資料未載明 |
+| HK-61183 | EVOLTRA CONCENTRATE FOR SOLUTION FOR INFUSION 1MG/ML（廠商：SANOFI HONG KONG LIMITED） | 輸注用濃縮液 | 資料未載明 |
+
+---
 
 ## 細胞毒性
 
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 傳統細胞毒性藥物（嘌呤核苷類似物、抗代謝藥） |
-| 骨髓抑制風險 | 高（用於白血病誘導與清髓性預處理，預期會有顯著血球低下與感染風險） |
-| 致吐性分級 | 低至中度（依藥物類別判斷） |
-| 監測項目 | CBC（含分類）、肝腎功能、電解質 |
+| 細胞毒性分類 | 傳統細胞毒性藥物（嘌呤核苷類似物，抗代謝藥） |
+| 骨髓抑制風險 | 高（臨床試驗與文獻顯示血液學及感染相關的 3 級以上毒性常見） |
+| 致吐性分級 | 請參考原廠仿單 |
+| 監測項目 | CBC（含分類與血小板）、肝腎功能（文獻記載有腎毒性個案）、膽紅素 |
 | 處置防護 | 需依細胞毒性藥物處置規範操作 |
 
-以上為依藥物類別的判斷，資料包無 DrugBank 毒性資料，請以原廠仿單的警語與注意事項為準。
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌或需謹慎情況**（非仿單內容）：肝病、膽囊疾病、血小板減少、嗜中性球低下、顆粒球缺乏、貧血、高膽紅素血症（含 Gilbert 症候群）、感染性疾病（含黴菌感染）、低血壓、腎衰竭、尿毒症、微血管滲漏症候群。
+- **藥物交互作用**：資料庫共記錄 100 筆，列出的前 20 筆皆為中度等級，包括 amphotericin B（各劑型）、clarithromycin、levofloxacin、minocycline、kanamycin、neomycin、bupropion、mesalazine、pioglitazone、acarbose、naltrexone 等。合併腎毒性或肝毒性藥物時需特別留意。
+
+正式的警語與禁忌請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-有 3 個已完成的 Phase 3 試驗（NCT00317642、NCT02085408、NCT00703820）和多個 Phase 2 研究支持用於骨髓性白血病，證據量充分。但資料包沒有這些試驗的療效結果，且相關 ALL 隨機試驗（CoALL 08-09、HOVON-100）未顯示存活改善。同時香港仿單的警語與禁忌資料缺漏，屬阻擋性缺口。
+- 已有 2 個已完成的 Phase 3 隨機試驗（NCT02085408、NCT00317642）及多個 Phase 2 試驗支持 clofarabine 用於 AML，證據等級為 L1。
+- 但臨床試驗登記不等同於療效已獲證實，且藥物本身骨髓抑制與器官毒性風險高，須設定防護措施。
 
 **若要推進需要：**
-- 取得香港衛生署三張許可證的仿單，補齊核准適應症、警語與禁忌症（阻擋性缺口）
-- 查證三個 Phase 3 試驗的主要終點與存活結果，確認 clofarabine 相對標準治療的實際獲益
-- 補充 DrugBank 的作用機轉資料
-- 建立骨髓抑制、感染與肝腎功能的監測計畫，並確認細胞毒性藥物的調配與處置流程
-- 完成試驗與文獻的相關性評級（目前多數為待評），以確認證據等級
+- 取得上述 Phase 3 試驗的結果（主要終點、整體存活、毒性），確認相對標準治療的實際效益。
+- 取得香港衛生署的仿單資料，確認核准適應症、警語與禁忌。
+- 補充藥物作用機轉資料。
+- 針對年齡層（老年與兒童）、合併療法及移植預處理等使用情境，訂定劑量調整與血液學、腎肝功能監測計畫。
 
-*本報告僅供研究參考，不構成醫療建議；預測結果需經臨床驗證。*
+---
+
+### 其他預測適應症簡述
+
+| 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
+|-----------|-----------|---------|------|
+| 前驅淋巴母細胞淋巴瘤/白血病 | 99.57% | L2 | Proceed with Guardrails（與原適應症同一疾病家族，主要延伸至淋巴母細胞淋巴瘤及成人族群） |
+| 母細胞期慢性骨髓性白血病 (BCR-ABL1 陽性) | 99.43% | L2 | Research Question（試驗非 CML 專屬，資料量小） |
+| 神經母細胞瘤 | 99.52% | L4 | Hold（證據為間接） |
+| 神經節母細胞瘤、後腹腔腫瘤、慢性淋巴球性白血病亞型（2 個）、脊椎異常合併內分泌及 T 細胞功能障礙 | 99.26%–99.54% | L5 | Hold（僅有模型預測，無試驗或文獻） |
+
+另外，「急性淋巴性白血病」本身即為已核准的原適應症，不屬於再利用。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

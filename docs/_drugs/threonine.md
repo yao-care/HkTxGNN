@@ -2,7 +2,7 @@
 layout: default
 title: Threonine
 parent: 僅模型預測 (L5)
-nav_order: 858
+nav_order: 873
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,18 +29,21 @@ indication_count: 1
 
 </div>
 
-# Threonine：從原適應症未記載到胃輕癱
+# Threonine：從胺基酸營養補充到胃輕癱
 
 ## 一句話總結
 
-Threonine（蘇胺酸）是必需胺基酸，在香港有多項含此成分的產品上市，但資料中沒有記載原適應症。
-TxGNN 模型預測它可能對**胃輕癱 (Gastroparesis)** 有效，但目前**沒有臨床試驗**，只有 **1 篇文獻**，而且該文獻並未把蘇胺酸當作治療手段來研究，實際證據等同於零。
+Threonine（蘇胺酸）是人體必需胺基酸，在香港主要作為胺基酸輸注液及營養製劑的成分。
+TxGNN 模型預測它可能對**胃輕癱 (Gastroparesis)** 有效，
+但目前**沒有任何臨床試驗或文獻**支持，僅為模型推論的假說。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料中未記載 |
+| 原適應症 | 香港許可證資料未載明核准適應症 |
 | 預測新適應症 | 胃輕癱 (Gastroparesis) |
 | TxGNN 預測分數 | 99.32% |
 | 證據等級 | L5 |
@@ -48,55 +51,66 @@ TxGNN 模型預測它可能對**胃輕癱 (Gastroparesis)** 有效，但目前**
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料，蘇胺酸也沒有登錄原適應症。已知它是必需胺基酸，存在於多種胺基酸輸液與營養製劑中，但這不足以說明它對胃輕癱有治療作用。
+目前缺乏詳細的作用機轉資料，Threonine 的原適應症在許可證資料中也未載明。根據已知資訊，Threonine 是胺基酸輸注液與營養製劑的成分之一，作為必需胺基酸提供蛋白質合成所需的原料。
 
-TxGNN 分數很高（99.32%），但這只是知識圖譜的推論結果。唯一檢索到的文獻（PMID 28627597）研究的是糖尿病大鼠胃平滑肌細胞凋亡，以及 PI3K-AKT-mTOR 和 AMPK-mTOR 訊號路徑，並沒有以蘇胺酸作為介入措施。
+理論上，Threonine 參與黏液蛋白（mucin）的合成，可能與胃腸黏膜完整性有關，也可能涉及甘胺酸／絲胺酸代謝與神經傳導。這是一個合理但**尚未被驗證**的推測。
 
-這個關聯很可能是名稱造成的假象：AKT 和 mTOR 都是絲胺酸/蘇胺酸激酶（serine/threonine kinase），文獻是因為名稱相符而被配對，並非蘇胺酸本身有療效。目前沒有證據顯示兩者之間存在可驗證的機轉關聯。
+目前沒有證據顯示 Threonine 能改善胃的蠕動或胃排空功能。此預測只應視為產生假說的訊號，不能當作療效依據。
+
+---
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記。
+目前無相關臨床試驗登記
+
+---
 
 ## 文獻證據
 
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [28627597](https://pubmed.ncbi.nlm.nih.gov/28627597/) | 2017 | 前臨床／病理生理研究 | Molecular Medicine Reports | 在糖尿病胃輕癱大鼠模型中，探討胃平滑肌細胞凋亡及 PI3K-AKT-mTOR、AMPK-mTOR 訊號的變化；未評估蘇胺酸作為治療 |
+目前無相關文獻
+
+---
 
 ## 香港上市資訊
 
-下列為含蘇胺酸的主要許可證（共 20 張，列出 5 張）：
+香港共有 20 張有效的單一成分許可證，以下列出 5 張主要許可證（許可證資料中未提供劑型與核准適應症文字）：
 
-| 許可證號 | 品名 | 製造／申請商 |
-|---------|------|-------------|
-| HK-32089 | KETOSTERIL TAB | Fresenius Kabi Hong Kong Limited |
-| HK-57540 | AMINOL-S INJ | Wings Pharmaceutical Ltd |
-| HK-62100 | AMINOGEN-S SOLUTION FOR INFUSION | Wings Pharmaceutical Ltd |
-| HK-60459 | PAN-VASOL SOLUTION FOR INJECTION | Falkan Medical Limited |
-| HK-58914 | PAN-AMIN G INJ | Otsuka Pharmaceutical (H.K.) Limited |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-32089 | KETOSTERIL TAB（Fresenius Kabi） | 未載明 | 未載明 |
+| HK-57540 | AMINOL-S INJ（Wings Pharmaceutical） | 未載明 | 未載明 |
+| HK-62100 | AMINOGEN-S SOLUTION FOR INFUSION（Wings Pharmaceutical） | 未載明 | 未載明 |
+| HK-58914 | PAN-AMIN G INJ（Otsuka） | 未載明 | 未載明 |
+| HK-64293 | SMOFKABIVEN ELECTROLYTE FREE EMULSION FOR INFUSION 493ML（Fresenius Kabi） | 未載明 | 未載明 |
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（來自 TxGNN 知識圖譜的藥物－疾病禁忌關聯，非仿單內容）：苯酮尿症 (phenylketonuria)、苯丙胺酸代謝異常 (disorder of phenylalanine metabolism)。
+
+其餘警語、禁忌症與藥物交互作用資料，請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 證據等級僅 L5：沒有臨床試驗，唯一的文獻不是以蘇胺酸為介入的研究，關聯很可能來自 serine/threonine kinase 的名稱巧合。
-- 缺少原適應症、作用機轉和安全性資料，無法進入安全性初篩。
+- 證據僅來自模型預測（L5），沒有臨床試驗、文獻或已記載的作用機轉支持 Threonine 用於胃輕癱。
+- 安全性資料不足，仿單的警語與禁忌症尚未取得。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單（警語、禁忌症、適應症）
-- 補充 DrugBank 的作用機轉資料
-- 檢索以蘇胺酸（或含蘇胺酸的胺基酸製劑）作為介入、針對胃輕癱的直接研究
-- 若找不到直接證據，建議把此預測視為假陽性，不再投入資源
-
-*本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。*
+- 取得香港衛生署的仿單，補齊警語與禁忌症，完成安全性篩選
+- 補充 Threonine 的作用機轉資料（例如查詢 DrugBank）
+- 文獻回顧：檢視 Threonine 與胃腸黏膜、胃排空或胃腸動力的前臨床及臨床研究
+- 釐清各許可證的核准適應症與劑型，確認原適應症
+- 評估給藥途徑的相容性（目前製劑多為輸注液，與胃輕癱常見的口服治療情境不同）
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

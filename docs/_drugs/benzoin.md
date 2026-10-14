@@ -2,7 +2,7 @@
 layout: default
 title: Benzoin
 parent: 僅模型預測 (L5)
-nav_order: 105
+nav_order: 108
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,69 +29,101 @@ indication_count: 10
 
 </div>
 
-# Benzoin：從（原適應症未載明）到外陰陰道念珠菌症
+# Benzoin：從肛門生殖器人類乳突病毒感染到外陰陰道念珠菌病
 
 ## 一句話總結
 
-Benzoin（安息香）在香港有 2 張許可證，但資料中沒有登載原適應症。
-TxGNN 模型預測它可能對**外陰陰道念珠菌症 (Vulvovaginal Candidiasis)** 有效，
-目前**沒有任何臨床試驗或文獻**支持，屬於純模型預測。
+Benzoin（安息香）是傳統樹脂類外用製劑，原本用於肛門生殖器 HPV 感染、尋常疣、角化性疾病與喉部乳突瘤。
+TxGNN 模型預測排名第一的新適應症為**外陰陰道念珠菌病 (Vulvovaginal Candidiasis)**，但目前**沒有任何臨床試驗或文獻**支持這個方向，僅為模型預測。
+相對地，**人類乳突病毒感染 (HPV infection)** 有 12 篇文獻，但多與原適應症重疊（見下文）。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 外陰陰道念珠菌症 (Vulvovaginal Candidiasis) |
+| 原適應症 | 肛門生殖器 HPV 感染、尋常疣、角化性疾病、喉部乳突瘤（香港許可證未載明適應症文字） |
+| 預測新適應症 | 外陰陰道念珠菌病 (Vulvovaginal Candidiasis) |
 | TxGNN 預測分數 | 97.79% |
 | 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 2 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Benzoin 是安息香樹脂，香港上市產品為複方安息香酊（Compound Benzoin Tincture）及其製備用萃取物。樹脂中含苯甲酸與肉桂酸衍生物，體外試驗有抗菌活性報告，這是模型預測背後唯一可推想的機轉線索。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Benzoin 是樹脂類外用製劑（安息香酊），具有輕度的抗菌、抗septic與保護特性，機轉上可能與抗黴菌活性有關，但這僅是推測，並無直接證據。
 
-不過這個推論很薄弱。本次提供的資料中，沒有任何抗黴菌療效或陰道黏膜安全性的數據。安息香酊以酒精為基底，用在黏膜上很可能造成刺激，因此就算機轉上說得通，實際用於陰道也有明顯疑慮。
+TxGNN 對此適應症給出高分（97.79%），但這是純計算預測，沒有臨床或文獻佐證。
+
+值得注意的是，在其他預測適應症中，證據最多的是 **HPV 感染**（L3）。文獻顯示 Benzoin 複方酊劑主要作為 podophyllin 的載體與保護性固定劑，抗病毒效果來自 podophyllin 而非 Benzoin 本身。因此這較接近原有用途的重疊，而非真正的藥物再利用。
+
+---
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記
+目前無相關臨床試驗登記。
+
+---
 
 ## 文獻證據
 
-目前無相關文獻
+針對排名第一的外陰陰道念珠菌病：目前無相關文獻。
+
+以下為證據最多的預測適應症「人類乳突病毒感染」（排名第 3，TxGNN 分數 96.59%）之主要文獻，供參考：
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [9557098](https://pubmed.ncbi.nlm.nih.gov/9557098/) | 1998 | RCT | Singapore Med J | 比較 0.5%/0.25% podophyllin 乙醇液與 25% podophyllin 安息香酊治療陰莖疣的療效與皮膚刺激 |
+| [7016248](https://pubmed.ncbi.nlm.nih.gov/7016248/) | 1981 | RCT | Br J Vener Dis | 雙盲比較 10% 與 25% podophyllin（安息香複方酊）治療肛門生殖器疣；治療後僅 22% 無疣，兩組無顯著差異 |
+| [3592587](https://pubmed.ncbi.nlm.nih.gov/3592587/) | 1987 | Cohort | Ann Acad Med Singap | 比較醫院施用與自行施用 25% podophyllin 安息香複方酊；六週反應率分別為 66% 與 72% |
+| [8399504](https://pubmed.ncbi.nlm.nih.gov/8399504/) | 1993 | Audit | Int J STD AIDS | 生殖器疣治療稽核，顯示處置策略不明確、監測不佳 |
+| [11126083](https://pubmed.ncbi.nlm.nih.gov/11126083/) | 2000 | Cohort | West Afr J Med | 伊巴丹性病門診生殖器 HPV 感染盛行率調查 |
+| [1674482](https://pubmed.ncbi.nlm.nih.gov/1674482/) | 1991 | Cohort | Int J Gynaecol Obstet | 尼日利亞外陰疣型態回溯分析，與念珠菌病、滴蟲病有明顯關聯 |
+| [4043973](https://pubmed.ncbi.nlm.nih.gov/4043973/) | 1985 | Case report | Genitourin Med | 兒童尖圭濕疣 4 例，局部使用 25% podophyllin 安息香複方酊反應良好 |
+| [458391](https://pubmed.ncbi.nlm.nih.gov/458391/) | 1979 | Case report/Review | J Fam Pract | podophyllum 樹脂安息香複方酊外用於外陰濕疣後發生嚴重毒性（骨髓、肝臟、中樞神經） |
+| [4801097](https://pubmed.ncbi.nlm.nih.gov/4801097/) | 1973 | Case series | Arch Gynakol | podophyllin-安息香療法後尖圭濕疣的光學與電子顯微鏡觀察 |
+| [4801497](https://pubmed.ncbi.nlm.nih.gov/4801497/) | 1973 | Case series | Arch Gynakol | 局部 podophyllin-安息香治療後的超微結構變化 |
+
+---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-43203 | COMPOUND BENZOIN TINCTURE | TRANSO-PHARM (HONG KONG) LIMITED |
-| HK-42429 | EXTRACT FOR MAKING CO BENZOIN TINCTURE | TRANSO-PHARM (HONG KONG) LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-43203 | COMPOUND BENZOIN TINCTURE | 未載明 | 未載明 |
+| HK-42429 | EXTRACT FOR MAKING CO BENZOIN TINCTURE | 未載明 | 未載明 |
+
+兩張許可證均為單一成分、狀態有效，持證商為 TRANSO-PHARM (HONG KONG) LIMITED。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **藥物交互作用**：資料庫查無相關紀錄。
+- **其他風險提示（來自文獻）**：Benzoin 複方酊常與 podophyllin 合用，有案例報告顯示大面積外用 podophyllum 會造成嚴重全身毒性，包括骨髓、肝臟與中樞神經；此毒性主要與 podophyllin 相關。若考慮眼部或耳部使用，也有刺激性與耳毒性疑慮；孕期安全性尚未確立。
 
-另外，酒精基底的安息香酊用於陰道黏膜可能造成刺激，這一點需要在任何後續評估中優先確認。
+其餘警語與禁忌症請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 這個預測只有模型分數，沒有試驗、文獻或安全性資料支持（L5），機轉資料也缺，且黏膜刺激風險明顯。
-- 目前不建議推進。
+- 排名第一的預測適應症（外陰陰道念珠菌病）沒有任何臨床試驗或文獻，僅為模型預測（L5）。
+- 證據最多的 HPV 感染，其文獻主要反映 Benzoin 作為 podophyllin 載體的既有用途，並非 Benzoin 本身的新療效，且伴隨 podophyllum 毒性疑慮。其他預測適應症（如天花、Klebsiella、Vibrio、諾馬病、絨毛膜羊膜炎、感染性關節炎）缺乏證據，且外用樹脂在生物學上難以治療深部或全身性感染。
 
 **若要推進需要：**
-- 補齊 DrugBank 的作用機轉資料與香港衛生署仿單的警語與禁忌
-- 取得 Benzoin 成分對念珠菌屬的體外或體內抗黴菌數據
-- 評估陰道黏膜耐受性，並確認是否有適合的非酒精劑型（目前香港許可證未載明劑型）
-
-**補充：同一藥物的其他預測適應症**
-「人類乳突病毒感染（HPV，生殖器疣）」有 13 篇相關文獻（證據等級 L4，建議同為 Hold）。其中包含 2 篇對照研究（PMID 7016248、9557098）。但這些研究中，安息香酊只是鬼臼樹脂（podophyllin）的載體，抗有絲分裂效果來自鬼臼樹脂而非 Benzoin，且有鬼臼樹脂毒性個案報告（PMID 458391），屬間接證據。其餘 8 個預測適應症目前皆為 L5。
-
-> 本報告結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+- 取得 Benzoin 的作用機轉資料（MOA），並釐清其本身是否具抗黴菌活性
+- 進行體外抗念珠菌活性試驗，作為最低限度的前臨床證據
+- 取得香港衛生署仿單，補齊適應症、警語與禁忌症
+- 評估陰道黏膜使用的刺激性與安全性（含孕期）
+- 釐清 Benzoin 單獨使用與 podophyllin 合併使用之效果與毒性歸屬
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -2,7 +2,7 @@
 layout: default
 title: Imiglucerase
 parent: 中證據等級 (L3-L4)
-nav_order: 454
+nav_order: 462
 evidence_level: L4
 indication_count: 10
 ---
@@ -33,14 +33,14 @@ indication_count: 10
 
 ## 一句話總結
 
-Imiglucerase 是重組葡萄糖腦苷脂酶（glucocerebrosidase），用於戈謝氏症（Gaucher disease）的酵素替代療法（ERT）。許可證資料未載明適應症，此處依文獻判斷。
-TxGNN 模型預測它可能對 **Hurler 症候群（MPS I）** 有效，但目前**沒有臨床試驗**，只有 **2 篇一般性綜述**，且沒有直接的機轉依據。
+Imiglucerase 是重組人類葡萄糖腦苷脂酶（glucocerebrosidase），原本用於戈謝氏症（Gaucher disease）的酵素替代療法。
+TxGNN 模型預測它可能對 **Hurler 症候群 (Hurler syndrome)** 有效，但目前**沒有臨床試驗**，僅有 **1 篇**一般性的溶小體儲積症酵素替代療法回顧文獻，證據非常薄弱。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證未登載（依文獻為戈謝氏症的酵素替代療法） |
+| 原適應症 | 戈謝氏症 (Gaucher disease)（依知識圖譜適應症資料；香港許可證未載明適應症文字） |
 | 預測新適應症 | Hurler 症候群 (Hurler syndrome) |
 | TxGNN 預測分數 | 99.52% |
 | 證據等級 | L4 |
@@ -50,11 +50,13 @@ TxGNN 模型預測它可能對 **Hurler 症候群（MPS I）** 有效，但目�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Imiglucerase 是重組人類葡萄糖腦苷脂酶，經修飾後暴露甘露糖殘基，由巨噬細胞的甘露糖受體攝入。它作用於葡萄糖神經醯胺（glucosylceramide）。
+目前缺乏詳細的作用機轉資料。已知 Imiglucerase 是重組葡萄糖腦苷脂酶，用於補充戈謝氏症患者缺乏的酵素，分解累積的葡萄糖腦苷脂（glucosylceramide）。
 
-Hurler 症候群和戈謝氏症同屬溶小體儲積症（lysosomal storage disorder），治療方式都是靜脈輸注、靠甘露糖受體標靶的酵素替代。模型給出高分，很可能是反映這種類別層級的相似性。
+Hurler 症候群（黏多醣症 I 型，MPS I）則是 α-L-艾杜糖醛酸酶（alpha-L-iduronidase）缺乏所致，累積的受質是醣胺聚醣（glycosaminoglycans）。Imiglucerase 作用的受質與此完全不同，**無法取代缺乏的酵素**，因此沒有直接的機轉依據。兩者唯一的關聯是「同屬溶小體儲積症、皆可採酵素替代療法」這個類別概念。
 
-但兩者缺陷的酵素和基質完全不同。Hurler 症候群是 IDUA（α-L-艾杜糖醛酸酶）缺乏，累積的是葡萄糖胺聚醣。Imiglucerase 水解的是葡萄糖神經醯胺，無法補足 IDUA 的缺陷。因此這個預測只有類別層級的關聯，沒有基質層級的機轉支持。Hurler 症候群本身已有專屬的酵素替代療法。
+高預測分數較可能反映知識圖譜中溶小體疾病群集內的網路鄰近性，而非真實的生物學關聯。MPS I 已有專一的核准酵素替代療法（laronidase）。
+
+同一份回顧文獻也用來支持 Scheie 症候群（MPS I 的較輕型）的預測，其限制相同。
 
 ## 臨床試驗證據
 
@@ -64,34 +66,35 @@ Hurler 症候群和戈謝氏症同屬溶小體儲積症（lysosomal storage diso
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [20534487](https://pubmed.ncbi.nlm.nih.gov/20534487/) | 2010 | Review | Proc Natl Acad Sci U S A | 回顧以 PET 對酵素替代療法進行影像追蹤。文中提到 ERT 已用於戈謝氏症、法布瑞氏症、Hurler 症候群等疾病，但這並非 imiglucerase 用於 Hurler 症候群的證據 |
-| [21211680](https://pubmed.ncbi.nlm.nih.gov/21211680/) | 2010 | Review | La Revue de Médecine Interne | 回顧溶小體儲積症的酵素替代療法，說明 imiglucerase（Cerezyme）取代胎盤來源的 alglucerase，用於戈謝氏症。屬一般性綜述，無 Hurler 症候群的直接數據 |
+| [21211680](https://pubmed.ncbi.nlm.nih.gov/21211680/) | 2010 | Review | La Revue de medecine interne | 回顧溶小體儲積症的酵素替代療法發展，從戈謝氏症的 alglucerase 到重組 imiglucerase，以及法布瑞氏症等；屬間接證據，未直接針對 Hurler 症候群 |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-60392 | CEREZYME POWDER FOR CONCENTRATE FOR SOLUTION FOR INF 400IU（廠商：SANOFI HONG KONG LIMITED） | 許可證未登載 | 許可證未登載 |
+| HK-60392 | CEREZYME POWDER FOR CONCENTRATE FOR SOLUTION FOR INF 400IU | 未載明（輸注濃縮液用粉劑） | 未載明 |
+
+製造商為 SANOFI HONG KONG LIMITED。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **藥物交互作用**：資料庫查得 1 筆中度（Moderate）交互作用，對象為 **Miglustat**（來源：DDInter）。
+
+其他警語與禁忌症資訊請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- Hurler 症候群的預測只有類別層級的關聯。Imiglucerase 無法補足 IDUA 缺陷，且沒有臨床試驗，僅有 2 篇一般性綜述，目前不建議推進。
-- 補充說明：同一份分析中，「伴隨骨骼病變的溶小體儲積症」（實為骨骼型戈謝氏症）有 1 項 Phase 4 單臂試驗（NCT04656600）、1 項 Phase 3 延伸試驗（NCT01842841，為另一種酵素 velaglucerase alfa）和多篇世代研究，建議為 Proceed with Guardrails。但這基本上是符合既有適應症的用途，不是新的再利用機會。
+- Imiglucerase 與 Hurler 症候群缺乏的酵素不同，沒有機轉依據，也沒有任何臨床試驗，僅有一篇間接的回顧文獻。高預測分數可能只是模型的網路鄰近性假象。
+- 此疾病已有專一的酵素替代療法，沒有明顯的未滿足需求支持以 imiglucerase 取代。
 
 **若要推進需要：**
-- 補齊香港衛生署仿單的警語與禁忌資料，這是進入安全性篩選的前提。
-- 補齊許可證的核准適應症與劑型，以確認原適應症。
-- 補充作用機轉資料（例如查詢 DrugBank）。
-- 若仍要探討 Hurler 症候群，需有基質層級的機轉理由或前臨床證據，例如 imiglucerase 是否對 IDUA 缺乏模型有任何作用。
-
-*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證才能應用。*
+- 取得 Imiglucerase 作用機轉的完整資料
+- 前臨床證據，證明其對 α-L-艾杜糖醛酸酶缺乏的受質有任何作用（目前機轉上不成立）
+- 取得香港仿單的警語與禁忌症資料
+- 如需在其他預測適應症中尋找方向，現有證據以「伴隨骨骼表現的溶小體儲積症」最多，但該文獻幾乎全是針對原適應症戈謝氏症，並非真正的新適應症
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

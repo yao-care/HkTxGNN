@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Daptomycin
-parent: 僅模型預測 (L5)
-nav_order: 240
-evidence_level: L5
+parent: 中證據等級 (L3-L4)
+nav_order: 245
+evidence_level: L4
 indication_count: 10
 ---
 
 # Daptomycin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L4** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,12 @@ indication_count: 10
 
 </div>
 
-# Daptomycin：從革蘭氏陽性菌感染到退化性關節炎
+# Daptomycin：從細菌感染到退化性關節炎（預測）
 
 ## 一句話總結
 
-Daptomycin 是一種環狀脂肽類抗生素，用於治療革蘭氏陽性菌感染。
-TxGNN 模型預測它可能對**退化性關節炎 (Osteoarthritis)** 有效，但目前**沒有臨床試驗**，且 9 篇文獻幾乎都是骨關節*感染*的研究，並非針對退化性關節炎本身。這個高分較可能來自知識圖譜中與關節疾病的關鍵字鄰近，而非真正的療效訊號。
+Daptomycin 是一種環狀脂肽類抗生素，在香港已上市，用於治療革蘭氏陽性菌感染。
+TxGNN 模型預測它可能對**退化性關節炎 (Osteoarthritis)** 有效，但目前**沒有臨床試驗**，文獻多半談的是骨關節*感染*，並非退化性關節炎本身，實際支持度很低。
 
 ---
 
@@ -42,10 +42,10 @@ TxGNN 模型預測它可能對**退化性關節炎 (Osteoarthritis)** 有效，�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證資料未載明（一般為革蘭氏陽性菌所致皮膚感染、菌血症等） |
+| 原適應症 | 香港許可證資料中未載明核准適應症 |
 | 預測新適應症 | 退化性關節炎 (Osteoarthritis) |
 | TxGNN 預測分數 | 99.86% |
-| 證據等級 | L5（僅有模型預測；文獻皆為感染研究，不支持新適應症） |
+| 證據等級 | L4 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 4 張 |
 | 建議決策 | Hold |
@@ -54,11 +54,11 @@ TxGNN 模型預測它可能對**退化性關節炎 (Osteoarthritis)** 有效，�
 
 ## 為什麼這個預測合理？
 
-Daptomycin 是環狀脂肽類抗生素，以鈣依賴方式使革蘭氏陽性菌的細胞膜去極化而殺菌。目前缺乏更詳細的作用機轉資料。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Daptomycin 是環狀脂肽類抗生素，對多數革蘭氏陽性病原菌有抗菌作用，已知可用於皮膚感染、菌血症與右側心內膜炎。
 
-原適應症是細菌感染，新適應症是退化性關節炎（非感染性的關節退化），兩者在病理上沒有直接關聯。檢索到的文獻主要是 daptomycin 治療骨關節感染、人工關節感染的經驗，支持的是**既有的抗菌用途**，並非退化性關節炎的療效。
+這個預測的合理性其實很有限。檢索到的文獻討論的是 Daptomycin 治療**骨關節感染與人工關節感染**（如葡萄球菌所致），而不是退化性關節炎。高分最可能來自知識圖譜中與「關節」相關詞彙的鄰近性，而非藥物對疾病本身的作用。沒有任何已知機轉能把 Daptomycin 的抗菌作用與軟骨退化連結起來。
 
-因此，機轉上找不到可信的連結。高預測分數較可能反映知識圖譜中「關節疾病」節點的鄰近效應。相較之下，同一次預測中的**類風濕性關節炎**有兩篇 2025 年前臨床研究（見結論），比退化性關節炎更值得追蹤。
+其他排名較前的預測中，**類風濕性關節炎**有一篇 2025 年動物實驗（PMID 39571268），指出 Daptomycin 可透過抑制發炎細胞激素與 NF-κB 路徑減輕膠原誘發的關節炎。這屬於前臨床證據，且尚無人體試驗。慢性使用還面臨靜脈給藥與肌肉毒性（CPK 升高）等實務障礙。
 
 ---
 
@@ -70,38 +70,43 @@ Daptomycin 是環狀脂肽類抗生素，以鈣依賴方式使革蘭氏陽性菌
 
 ## 文獻證據
 
+以下為退化性關節炎預測項下的文獻（多為骨關節感染，與退化性關節炎的相關性低）：
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [23519823](https://pubmed.ncbi.nlm.nih.gov/23519823/) | 2013 | Cohort | Int Orthop | 評估高劑量 daptomycin 併用 rifampicin 治療革蘭氏陽性菌骨關節感染的安全性與療效 |
-| [22511636](https://pubmed.ncbi.nlm.nih.gov/22511636/) | 2012 | Cohort | J Antimicrob Chemother | daptomycin 治療髖、膝人工關節感染的臨床經驗 |
-| [26235888](https://pubmed.ncbi.nlm.nih.gov/26235888/) | 2015 | Cohort | Int J Antimicrob Agents | 高劑量 daptomycin (>6 mg/kg) 用於複雜性骨關節與植入物相關感染的療效與安全性 |
-| [17999973](https://pubmed.ncbi.nlm.nih.gov/17999973/) | 2008 | Cohort | J Antimicrob Chemother | 比較 daptomycin 與標準療法治療金黃色葡萄球菌菌血症合併骨關節感染的預後 |
-| [21477701](https://pubmed.ncbi.nlm.nih.gov/21477701/) | 2010 | Cohort | Med Clin (Barc) | EU-CORE 資料庫中西班牙醫院使用 daptomycin 的病人特徵與結果 |
-| [23312602](https://pubmed.ncbi.nlm.nih.gov/23312602/) | 2013 | Cohort（調查） | Int J Antimicrob Agents | 傳染病醫師對人工關節感染處置的問卷調查，指出高品質證據不足 |
-| [22854340](https://pubmed.ncbi.nlm.nih.gov/22854340/) | 2012 | In vitro | J Antibiot | 人工關節感染分離出的葡萄球菌之抗生素感受性 |
-| [25650692](https://pubmed.ncbi.nlm.nih.gov/25650692/) | 2015 | Cohort | Surg Infect | 骨關節感染葡萄球菌菌株十年間的抗藥性演變 |
-| [32206362](https://pubmed.ncbi.nlm.nih.gov/32206362/) | 2020 | Case report | Case Rep Orthop | 一名有退化性關節炎診斷的病人，實為慢性紋狀棒狀桿菌化膿性關節炎 |
-
-以上文獻均與 daptomycin 治療退化性關節炎無關，僅涉及骨關節感染。
+| [23519823](https://pubmed.ncbi.nlm.nih.gov/23519823/) | 2013 | Cohort | International Orthopaedics | 高劑量 Daptomycin 合併 Rifampicin 治療革蘭氏陽性骨關節感染的安全性與療效 |
+| [17999973](https://pubmed.ncbi.nlm.nih.gov/17999973/) | 2008 | Cohort | J Antimicrob Chemother | Daptomycin 與標準療法用於金黃色葡萄球菌菌血症相關骨關節感染的療效比較 |
+| [22511636](https://pubmed.ncbi.nlm.nih.gov/22511636/) | 2012 | Cohort | J Antimicrob Chemother | Daptomycin 治療髖、膝人工關節感染的臨床經驗 |
+| [26235888](https://pubmed.ncbi.nlm.nih.gov/26235888/) | 2015 | Cohort | Int J Antimicrob Agents | 高劑量 Daptomycin（>6 mg/kg）用於複雜骨關節與植入物相關感染 |
+| [21477701](https://pubmed.ncbi.nlm.nih.gov/21477701/) | 2010 | Cohort | Medicina Clinica | 西班牙 EU-CORE 資料庫中 Daptomycin 的臨床使用經驗 |
+| [25650692](https://pubmed.ncbi.nlm.nih.gov/25650692/) | 2015 | Cohort | Surgical Infections | 骨關節感染葡萄球菌的微生物特性十年變化 |
+| [22854340](https://pubmed.ncbi.nlm.nih.gov/22854340/) | 2012 | In vitro | J Antibiotics | 人工關節感染葡萄球菌的體外藥物感受性 |
+| [23312602](https://pubmed.ncbi.nlm.nih.gov/23312602/) | 2013 | Survey | Int J Antimicrob Agents | 美國感染症醫師處理人工關節感染的實務調查 |
+| [32206362](https://pubmed.ncbi.nlm.nih.gov/32206362/) | 2020 | Case report | Case Rep Orthop | 一名退化性關節炎病人經診斷為慢性紋狀棒狀桿菌化膿性關節炎 |
+| [41853106](https://pubmed.ncbi.nlm.nih.gov/41853106/) | 2026 | Case report | ASM Case Reports | 原生關節 Corynebacterium propinquum 化膿性關節炎首例報告 |
 
 ---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-57551 | CUBICIN FOR INJ 500MG | MERCK SHARP & DOHME (ASIA) LTD |
-| HK-67114 | DAPTOMYCIN POWDER FOR SOLUTION FOR INJECTION/INFUSION 500MG | I & C (HONG KONG) LIMITED |
-| HK-67646 | DAPTOMYCIN POWDER FOR SOLUTION FOR INJECTION/INFUSION 500MG | PFIZER CORPORATION HONG KONG LIMITED |
-| HK-68014 | DAPTOMYCIN POWDER FOR SOLUTION FOR INJECTION/INFUSION 500MG | CHEMILL PHARMA LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-57551 | CUBICIN FOR INJ 500MG（Merck Sharp & Dohme） | 未載明 | 未載明 |
+| HK-67114 | DAPTOMYCIN POWDER FOR SOLUTION FOR INJECTION/INFUSION 500MG（I & C (Hong Kong)） | 未載明 | 未載明 |
+| HK-67646 | DAPTOMYCIN POWDER FOR SOLUTION FOR INJECTION/INFUSION 500MG（Pfizer Hong Kong） | 未載明 | 未載明 |
+| HK-68014 | DAPTOMYCIN POWDER FOR SOLUTION FOR INJECTION/INFUSION 500MG（Chemill Pharma） | 未載明 | 未載明 |
 
 ---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（來自知識圖譜的藥物－疾病關聯，非仿單原文）：肌病變、肌肉疾病、骨骼肌疾病、家族性週期性麻痺、腹瀉性疾病、困難梭狀芽孢桿菌結腸炎、嬰兒壞死性小腸結腸炎、嗜伊紅性肺炎、肺嗜伊紅球增多症、周邊神經病變、周邊神經系統疾病。
+- **藥物交互作用**（共 12 筆，多為中度）：
+  - 中度：Rosuvastatin、Simvastatin、Ibuprofen、Diclofenac、Celecoxib、Cyclosporine、Mycophenolic acid、Ethinylestradiol、Picosulfuric acid、Iobenguane (I-131)
+  - 輕度：Warfarin、Dicoumarol
+- **與預測適應症相關的安全疑慮**：已有病例報告顯示 Daptomycin 可引起橫紋肌溶解，並因高尿酸血症誘發急性痛風性關節炎（PMID 36693494）。
 
-文獻中有一則值得注意的訊號：一篇個案報告（[PMID 36693494](https://pubmed.ncbi.nlm.nih.gov/36693494/)）記載 daptomycin 引起橫紋肌溶解，並併發急性痛風性關節炎。橫紋肌溶解是 daptomycin 已知的不良反應。
+仿單的警語與禁忌資料尚未取得，請參考原廠仿單。
 
 ---
 
@@ -110,16 +115,14 @@ Daptomycin 是環狀脂肽類抗生素，以鈣依賴方式使革蘭氏陽性菌
 **決策：Hold**
 
 **理由：**
-- 沒有任何臨床試驗，現有文獻談的是骨關節感染，不是退化性關節炎。機轉上也找不到可信的連結，高分很可能是圖譜鄰近效應。
-- 同次預測的痛風等其他項目也無支持證據，其中痛風的個案報告反而是不良反應訊號。
+- 退化性關節炎預測缺乏臨床試驗，且文獻討論的是骨關節感染，並非退化性關節炎的療效，高分很可能是知識圖譜的關聯假象。
+- 此外存在肌肉毒性與需靜脈給藥等實務障礙，目前不建議推進。
 
 **若要推進需要：**
-- 先評估**類風濕性關節炎**方向：2025 年有兩篇前臨床研究（[PMID 39571268](https://pubmed.ncbi.nlm.nih.gov/39571268/)、[40923559](https://pubmed.ncbi.nlm.nih.gov/40923559/)），顯示 daptomycin 或其衍生物在膠原誘導關節炎小鼠模型中可降低發炎細胞激素與 NF-κB 訊號。這仍屬動物或體外證據，需獨立重複驗證，並比較動物實驗劑量與人體 daptomycin 暴露量。
-- 評估長期使用抗生素的風險。
-- 取得香港衛生署仿單，補齊警語與禁忌資料。
-- 若仍要探討退化性關節炎，需先有機轉假說與前臨床資料，目前不建議投入資源。
-
-*本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後才能應用。*
+- 取得香港仿單的警語、禁忌與核准適應症資料。
+- 補齊作用機轉資料。
+- 若要探索，較值得優先研究的是**類風濕性關節炎**（已有動物模型的抗發炎證據），需先做更多前臨床驗證與肌肉安全性評估，再考慮人體研究。
+- 其餘排名較後的預測（如痛風、罕見骨骼發育不良）缺乏證據或有安全疑慮，不建議投入資源。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

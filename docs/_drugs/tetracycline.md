@@ -2,7 +2,7 @@
 layout: default
 title: Tetracycline
 parent: 中證據等級 (L3-L4)
-nav_order: 853
+nav_order: 868
 evidence_level: L4
 indication_count: 4
 ---
@@ -29,77 +29,94 @@ indication_count: 4
 
 </div>
 
-# Tetracycline：從廣譜抗生素到點狀上皮性角結膜炎
+# Tetracycline：從細菌感染（泌尿道感染、肺炎、痤瘡等）到點狀上皮角結膜炎
 
 ## 一句話總結
 
-Tetracycline（四環黴素）是一種四環素類抗生素，在香港已有 9 張許可證。
-TxGNN 模型預測它可能對**點狀上皮性角結膜炎 (Punctate Epithelial Keratoconjunctivitis)** 有效。
-目前**沒有臨床試驗**，只有 **1 篇文獻**（2 例個案觀察），證據非常薄弱。
+Tetracycline 是廣譜四環黴素類抗生素，原本用於泌尿道感染、支氣管炎、肺炎、痤瘡、結膜炎等多種細菌感染。
+TxGNN 模型預測它可能對**點狀上皮角結膜炎 (Punctate Epithelial Keratoconjunctivitis)** 有效，
+但目前**沒有臨床試驗**，僅有 **1 篇個案報告**，證據相當薄弱。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 點狀上皮性角結膜炎 (Punctate Epithelial Keratoconjunctivitis) |
+| 原適應症 | 泌尿道感染、支氣管炎、痤瘡、肺炎、結膜炎等（來自知識圖譜；香港許可證未載明適應症文字） |
+| 預測新適應症 | 點狀上皮角結膜炎 (Punctate Epithelial Keratoconjunctivitis) |
 | TxGNN 預測分數 | 99.58% |
 | 證據等級 | L4 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 9 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫未提供 MOA）。依藥物類別知識，Tetracycline 會抑制細菌 30S 核糖體蛋白質合成，因此具有抗細菌與抗披衣菌的活性。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Tetracycline 是四環黴素類抗生素，對披衣菌（Chlamydia）等病原體的抗菌活性已被證實，並已用於衣原體結膜炎（砂眼與包涵體結膜炎）。
 
-唯一的文獻描述兩名披衣菌濾泡性結膜炎患者。他們先用口服 tetracycline 或 doxycycline 治療，濾泡消退後，仍反覆出現雙側的點狀上皮角膜炎。這篇文獻談的是感染後的後遺症，不是 tetracycline 對該病的治療效果。
+點狀上皮角膜炎可能在衣原體感染緩解後持續或復發，因此與已核准的結膜炎適應症在疾病脈絡上相關。此外，四環黴素類藥物具有抗發炎與抑制基質金屬蛋白酶（MMP）的特性，理論上可能有助於眼表發炎。
 
-所以兩者的關聯只能推論：藥物可能處理披衣菌感染這個上游原因。這是依藥物類別推測的連結，沒有直接證據證明它能治療點狀角膜病變本身。
+不過要注意：TxGNN 的高分（99.58%）很可能反映的是與已知結膜炎適應症在知識圖譜中的鄰近性，而不是直接的療效證據。目前唯一的文獻只描述了「衣原體結膜炎治癒後仍出現角膜炎」，並非證明 Tetracycline 能治療該角膜炎。
+
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [1424659](https://pubmed.ncbi.nlm.nih.gov/1424659/) | 1992 | 臨床觀察（2 例） | Cornea | 披衣菌濾泡性結膜炎經口服 tetracycline 或 doxycycline 治療後濾泡消退，但仍反覆出現雙側點狀上皮角膜炎 |
+| [1424659](https://pubmed.ncbi.nlm.nih.gov/1424659/) | 1992 | 個案報告 | Cornea | 2 例衣原體濾泡性結膜炎患者先以口服 tetracycline 或 doxycycline 治療，濾泡消退後，仍反覆出現雙側點狀上皮角膜炎 |
+
+---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-05419 | NEO-CYCLIN CAP 250MG | Neochem Pharmaceutical Laboratories Ltd. |
-| HK-20019 | TETRACLIN CAP 250MG ORANGE/YELLOW | Unicorn Laboratories（American Unicorn Laboratories Limited） |
-| HK-30208 | MEDOCYCLINE CAP 250MG | Star Medical Supplies Ltd |
-| HK-36081 | TETRACAP 250 CAP 250MG | Hovid Limited |
-| HK-34922 | APO-TETRA CAP 250MG | Hind Wing Co Ltd |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-05419 | NEO-CYCLIN CAP 250MG | 膠囊（資料未載明） | 資料未載明 |
+| HK-20019 | TETRACLIN CAP 250MG ORANGE/YELLOW | 膠囊（資料未載明） | 資料未載明 |
+| HK-30208 | MEDOCYCLINE CAP 250MG | 膠囊（資料未載明） | 資料未載明 |
+| HK-36081 | TETRACAP 250 CAP 250MG | 膠囊（資料未載明） | 資料未載明 |
+| HK-34922 | APO-TETRA CAP 250MG | 膠囊（資料未載明） | 資料未載明 |
+
+（共 9 張有效單方許可證，此處列出前 5 張。）
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **禁忌症／風險疾病（來自知識圖譜，非仿單內容）**：肝衰竭、肝病、腎病／腎衰竭、尿毒症、癲癇、糖尿病酮酸中毒、嗜中性白血球低下、顆粒球缺乏症、痛風、周邊神經病變、凝血疾病、困難梭菌結腸炎、G6PD 缺乏症、呼吸衰竭、腦部疾病等。
+- **藥物交互作用**：共查得 100 筆，以下為其中的主要項目：
+  - **重大 (Major)**：Isotretinoin、Acitretin、Aminolevulinic acid
+  - **中度 (Moderate)**：Ethinylestradiol、Amoxicillin、Ampicillin、Aminophylline、Atovaquone、Aluminum hydroxide（含鋁制酸劑）、Bismuth subcitrate potassium 等
+  - **輕微 (Minor)**：Acetazolamide、Hydrochlorothiazide、Amiloride
+
+其餘警語與禁忌症請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 這個預測沒有任何臨床試驗支持，唯一文獻是 2 例個案觀察，談的是感染後後遺症，不是治療效果，因此只屬 L4。
-- 香港仿單的警語與禁忌資料也尚未取得，無法進入安全性篩選。
+- 預測新適應症沒有任何臨床試驗，僅有 1 篇個案報告，且該報告並未證明 Tetracycline 對此疾病有療效；高 TxGNN 分數主要反映與既有結膜炎適應症的關聯。
+- 同一份資料中，慢性鼻竇炎（chronic rhinosinusitis）的類別層級文獻較多，但多針對 doxycycline 而非 Tetracycline，且 doxycycline 耐受性較佳，單獨針對 Tetracycline 的研究價值有限。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單資料（警語、禁忌症）。
-- 補充 Tetracycline 的作用機轉資料。
-- 搜尋是否有針對點狀上皮角結膜炎的對照研究，並釐清這個症狀是否與披衣菌感染有關。
-- 目前沒有對應的眼用劑型資料，需另行評估給藥途徑。
-
-**補充：同一份預測清單中的其他候選**
-- **慢性鼻竇炎 (Chronic Rhinosinusitis)**：預測分數 99.15%，證據等級 L2，是證據最多的候選。所有臨床試驗用的都是 doxycycline，不是 tetracycline 本身，屬於同類藥物的替代證據。已完成的試驗中最強的是 Phase 3（NCT05157412，n=60），另有多篇系統性回顧與統合分析。已發表的整合結果認為療效仍不確定，對鼻息肉與嗅覺喪失的證據相對較強。若要追蹤，建議以 doxycycline 作為研究對象。
-- **慢性篩竇炎**：證據為 L4，且屬於慢性鼻竇炎的子部位，建議併入上述適應症評估。
-- **鼻竇腫瘤**：證據為 L5，沒有任何支持，不建議追蹤。
-
-> 本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+- 取得香港衛生署仿單中的警語、禁忌症與核准適應症（目前為關鍵缺口，無法進入安全性篩選）
+- 補齊作用機轉（MOA）資料
+- 針對點狀上皮角結膜炎進行系統性文獻回顧，確認是否有 Tetracycline（含眼用劑型）的直接療效證據
+- 釐清給藥途徑：目前路徑相容性尚未評估，口服膠囊是否適合眼表疾病需要確認
+- 評估與 doxycycline 等較新藥物相比，是否具備任何優勢
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

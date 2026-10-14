@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lemborexant
-parent: 僅模型預測 (L5)
-nav_order: 508
-evidence_level: L5
+parent: 高證據等級 (L1-L2)
+nav_order: 517
+evidence_level: L1
 indication_count: 1
 ---
 
 # Lemborexant
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+證據等級: **L1** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,83 +29,101 @@ indication_count: 1
 
 </div>
 
-# Lemborexant：從失眠治療到入睡與維持睡眠障礙（既有用途的模型驗證）
+# Lemborexant：從失眠到入睡與睡眠維持障礙
 
 ## 一句話總結
 
-Lemborexant（香港商品名 DAYVIGO）是雙重食慾素受體拮抗劑，文獻顯示它已在美國、日本、加拿大核准用於成人失眠。
-TxGNN 預測它可能對**入睡與維持睡眠障礙 (sleep disorder, initiating and maintaining sleep)** 有效，但這與它既有的適應症一致，屬於對已知用途的確認，並非真正的新適應症。
-目前有 **1 個臨床試驗登記**和 **20 篇文獻**，其中包含多篇 Phase 3 RCT。
+Lemborexant 是一種雙重食慾素受體拮抗劑（DORA），原本用於治療失眠。
+TxGNN 模型預測它可能對**入睡與睡眠維持障礙 (Sleep disorder, initiating and maintaining sleep)** 有效。
+不過這個預測與原適應症本質上相同，屬於適應症範圍內的對應，而非真正的藥物再利用。
+目前有 **20 篇文獻**支持，其中包含多篇第三期隨機對照試驗與網絡統合分析；本次資料未登記相關臨床試驗。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 入睡與維持睡眠障礙 (sleep disorder, initiating and maintaining sleep) |
+| 原適應症 | 失眠 (Insomnia) |
+| 預測新適應症 | 入睡與睡眠維持障礙 (Sleep disorder, initiating and maintaining sleep) |
 | TxGNN 預測分數 | 99.75% |
-| 證據等級 | L1（依據已發表的 Phase 3 RCT 文獻；登記的試驗僅有 1 個未開始招募的 Phase 2） |
+| 證據等級 | L1 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 2 張 |
 | 建議決策 | Proceed with Guardrails |
 
+---
+
 ## 為什麼這個預測合理？
 
-Lemborexant 資料庫中的作用機轉欄位缺漏，以下說明來自文獻（如 PMID 35972717、37086045），不是本次輸入資料。它是雙重食慾素受體 (OX1R/OX2R) 拮抗劑，透過阻斷促進清醒的食慾素訊號，縮短入睡時間並減少入睡後的清醒時間。
+目前缺乏資料庫中詳細記載的作用機轉資料，以下說明依據已確立的藥理學知識。Lemborexant 是雙重食慾素受體拮抗劑，可同時阻斷 OX1R 與 OX2R 上的食慾素 A/B 訊號，其中對 OX2R 的親和力較高。食慾素是促進清醒的重要神經傳導物質，抑制此訊號可降低促醒驅動力。
 
-預測的疾病是入睡與維持睡眠障礙，也就是失眠，與藥物機轉直接對應。TxGNN 給出的高分（99.75%）與這個機轉一致。
+入睡困難與睡眠維持困難正是失眠的核心表現，因此預測的新適應症與藥物原本的適應症基本上是同一件事。TxGNN 的高分（99.75%）與這個判斷一致。
 
-需要注意的是，失眠本來就是 Lemborexant 的已上市適應症。本次輸入資料中原適應症欄位為空，因此這個結果只能視為對既有用途的確認，不代表發現新的適應症。
+整體而言，這是一個適應症範圍內的對應，而非跨疾病的再利用。證據的重點在於驗證其在不同族群與情境（如長者、合併精神疾病、合併輕度睡眠呼吸中止症）下的表現。
+
+---
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT06928766](https://clinicaltrials.gov/study/NCT06928766) | Phase 2 | 尚未招募 | 15 | 比較 eszopiclone 與 lemborexant 用於低覺醒閾值的阻塞性睡眠呼吸中止症 (OSA) 合併難以入睡或維持睡眠的患者；雙盲、安慰劑對照，尚無結果 |
+目前無相關臨床試驗登記。
 
-此試驗針對合併 OSA 的次族群，並非原發性失眠，因此不增加療效證據，但與呼吸相關風險的評估有關。
+---
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [31880796](https://pubmed.ncbi.nlm.nih.gov/31880796/) | 2019 | RCT (Phase 3) | JAMA Netw Open | 在老年失眠患者中，比較 lemborexant、安慰劑與 zolpidem 緩釋劑 |
-| [32585700](https://pubmed.ncbi.nlm.nih.gov/32585700/) | 2020 | RCT (Phase 3) | Sleep | SUNRISE 2：評估 lemborexant 相較安慰劑在成人失眠的長期療效與耐受性 |
-| [33636648](https://pubmed.ncbi.nlm.nih.gov/33636648/) | 2021 | RCT (Phase 3) | Sleep Med | SUNRISE-2：最長 12 個月連續使用 lemborexant 的療效與安全性 |
-| [35843245](https://pubmed.ncbi.nlm.nih.gov/35843245/) | 2022 | 系統性回顧/網絡統合分析 | Lancet | 比較各類藥物對成人失眠的急性與長期治療效果 |
-| [40555730](https://pubmed.ncbi.nlm.nih.gov/40555730/) | 2025 | 系統性回顧/網絡統合分析 | Transl Psychiatry | 比較 daridorexant、lemborexant、suvorexant 三種 DORA 的療效與安全性 |
-| [36701954](https://pubmed.ncbi.nlm.nih.gov/36701954/) | 2023 | 系統性回顧/網絡統合分析 | Sleep Med Rev | 比較 20 種藥物治療成人失眠的療效與耐受性 |
-| [32531478](https://pubmed.ncbi.nlm.nih.gov/32531478/) | 2020 | 系統性回顧/網絡統合分析 | J Psychiatr Res | lemborexant 與 suvorexant 的療效與安全性比較 |
-| [34121443](https://pubmed.ncbi.nlm.nih.gov/34121443/) | 2021 | 網絡統合分析 | J Manag Care Spec Pharm | lemborexant 與其他失眠治療的療效比較 |
-| [39879708](https://pubmed.ncbi.nlm.nih.gov/39879708/) | 2025 | 事後分析 | Sleep Med | lemborexant 對失眠合併輕度 OSA 患者睡眠結構的影響 |
-| [32096020](https://pubmed.ncbi.nlm.nih.gov/32096020/) | 2020 | 藥物綜述 | Drugs | Lemborexant 首次核准：美國於 2019 年 12 月核准用於成人失眠 |
+| [31880796](https://pubmed.ncbi.nlm.nih.gov/31880796/) | 2019 | RCT (Phase 3) | JAMA Netw Open | 比較 lemborexant、安慰劑與 zolpidem 緩釋劑用於長者失眠 |
+| [32585700](https://pubmed.ncbi.nlm.nih.gov/32585700/) | 2020 | RCT (Phase 3, SUNRISE 2) | Sleep | 評估 lemborexant 相較安慰劑在成人失眠的長期療效與耐受性 |
+| [33636648](https://pubmed.ncbi.nlm.nih.gov/33636648/) | 2021 | RCT (Phase 3) | Sleep Med | 最長 12 個月連續治療的有效性與安全性 |
+| [40555730](https://pubmed.ncbi.nlm.nih.gov/40555730/) | 2025 | 系統性回顧／網絡統合分析 | Transl Psychiatry | 比較 daridorexant、lemborexant、suvorexant 的風險效益 |
+| [35843245](https://pubmed.ncbi.nlm.nih.gov/35843245/) | 2022 | 網絡統合分析 | Lancet | 比較成人失眠藥物的急性與長期療效 |
+| [36701954](https://pubmed.ncbi.nlm.nih.gov/36701954/) | 2023 | 系統性回顧／網絡統合分析 | Sleep Med Rev | 比較 20 種失眠藥物的療效與耐受性 |
+| [36947394](https://pubmed.ncbi.nlm.nih.gov/36947394/) | 2023 | 系統性回顧／網絡統合分析 | Drugs | 整合 153 項隨機試驗，比較失眠藥物的療效與安全性 |
+| [34121443](https://pubmed.ncbi.nlm.nih.gov/34121443/) | 2021 | 網絡統合分析 | J Manag Care Spec Pharm | 比較 lemborexant 與其他失眠治療的療效 |
+| [37257468](https://pubmed.ncbi.nlm.nih.gov/37257468/) | 2023 | 系統性回顧／網絡統合分析 | Arq Neuropsiquiatr | 比較不同 DORA 於失眠治療的表現 |
+| [39277609](https://pubmed.ncbi.nlm.nih.gov/39277609/) | 2024 | 系統性回顧 | Transl Psychiatry | 檢視 lemborexant 與 suvorexant 用於合併精神疾病的失眠 |
+
+---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-67002 | DAYVIGO TABLETS 5MG | EISAI (HONG KONG) COMPANY LIMITED |
-| HK-67001 | DAYVIGO TABLETS 10MG | EISAI (HONG KONG) COMPANY LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-67002 | DAYVIGO TABLETS 5MG | 錠劑（資料未載明） | 資料未載明 |
+| HK-67001 | DAYVIGO TABLETS 10MG | 錠劑（資料未載明） | 資料未載明 |
 
-輸入資料未提供劑型與核准適應症文字。
+兩張許可證皆為有效，持證商為 EISAI (HONG KONG) COMPANY LIMITED。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（來自知識圖譜關聯，非仿單內容）：發作性睡病、發作性睡病伴猝倒症候群、中樞神經系統疾病、Balo 同心圓硬化、X 連鎖腎上腺腦白質失養症。
+
+- **藥物交互作用**：本次查詢共 100 筆交互作用，以下列出部分主要項目：
+  - **嚴重 (Major)**：Ranitidine、Aprepitant、Morphine（含脂質體製劑）、Cimetidine、Clarithromycin、Clotrimazole
+  - **中等 (Moderate)**：Pioglitazone、Bupropion、Dexamethasone、Saxagliptin、Difenoxin、Diphenoxylate、Dronabinol、Eliglustat、Nabilone、Naloxegol、Metoclopramide 等
+
+其他警語與禁忌請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 多篇已發表的 Phase 3 RCT 與網絡統合分析支持 Lemborexant 用於失眠，證據等級為 L1，且香港已有 2 張上市許可證。
-- 這個預測是對既有適應症的確認，不是新用途。安全性資料（仿單警語、禁忌症）仍缺漏，因此需設下防護條件。
+- 已有多項 Phase 3 RCT 與多篇網絡統合分析支持其用於失眠，且香港已有 2 張有效許可證。
+- 這是適應症範圍內的對應，並非真正的新適應症；但仿單層級的安全性資料尚未取得，需設定防護條件。
 
 **若要推進需要：**
-- 取得香港衛生署核准的仿單，確認核准適應症、警語與禁忌症
-- 補充 DrugBank 的作用機轉資料
-- 若考慮合併 OSA 的族群，追蹤 NCT06928766 的結果，並評估呼吸方面的安全性
-
-本報告僅供研究參考，不構成醫療建議，任何臨床應用均需經過臨床驗證。
+- 取得並解析香港衛生署核准的仿單，確認警語與禁忌症
+- 補充詳細的作用機轉資料
+- 確認香港許可證所載的核准適應症與劑型
+- 針對強效 CYP3A 抑制劑（如 Clarithromycin）及中樞神經抑制劑（如 Morphine）的併用，建立用藥審查與監測機制
+- 針對發作性睡病等知識圖譜標示的禁忌族群，制定排除條件
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rifabutin
-parent: 僅模型預測 (L5)
-nav_order: 755
-evidence_level: L5
+parent: 高證據等級 (L1-L2)
+nav_order: 770
+evidence_level: L1
 indication_count: 5
 ---
 
 # Rifabutin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L1** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,101 +29,112 @@ indication_count: 5
 
 </div>
 
-# Rifabutin：從分枝桿菌感染到 HIV 感染症（HIV 相關機會性感染）
+# Rifabutin：從分枝桿菌感染到 HIV 感染相關疾病
 
 ## 一句話總結
 
-Rifabutin（立復丁）是 rifamycin 類抗分枝桿菌藥物，臨床上用於結核病與非結核分枝桿菌感染。
-TxGNN 模型預測它可能對 **HIV 感染症 (HIV infectious disease)** 有效，目前有 **39 個臨床試驗**和 **20 篇文獻**。
-證據主要支持它用於 **HIV 患者的伴隨感染**，即預防與治療鳥分枝桿菌複合群（MAC）及 HIV/結核共感染。它沒有直接的抗病毒作用，不能解讀為治療 HIV 本身。
+Rifabutin 是一種 rifamycin 類抗分枝桿菌藥物，在香港以 MYCOBUTIN 品名上市。
+TxGNN 模型預測它可能對 **HIV 感染疾病 (HIV infectious disease)** 有效，
+目前有 **32 個臨床試驗**和 **20 篇文獻**支持這個方向。
+需要說明的是，Rifabutin 本身沒有直接的抗 HIV 活性，其價值在於治療與預防 HIV 患者的伺機性分枝桿菌感染。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | HIV 感染症 (HIV infectious disease) |
+| 原適應症 | 目前資料未載明 |
+| 預測新適應症 | HIV 感染疾病 (HIV infectious disease) |
 | TxGNN 預測分數 | 99.88% |
-| 證據等級 | L1（有多個已完成的 Phase 3 隨機試驗，但限於 HIV 相關分枝桿菌感染） |
+| 證據等級 | L1 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 1 張 |
 | 建議決策 | Proceed with Guardrails |
 
+---
+
 ## 為什麼這個預測合理？
 
-Rifabutin 屬於 rifamycin 類，作用是抑制細菌的 DNA 依賴性 RNA 聚合酶。它對 HIV 病毒沒有直接活性。目前缺乏 DrugBank 的詳細作用機轉資料，以上說明來自藥物類別的已知知識。
+目前缺乏詳細的作用機轉資料。就已知資訊，Rifabutin 屬於 rifamycin 類，會抑制細菌的 DNA 依賴性 RNA 聚合酶。它沒有直接的抗 HIV 作用。
 
-HIV 患者免疫力低下，常併發 MAC 菌血症與結核病。Rifabutin 在這兩類感染中有長期臨床經驗。與 rifampicin 相比，它對 CYP3A4 的誘導作用較弱，因此更適合與蛋白酶抑制劑（如 lopinavir/ritonavir）併用。TxGNN 的高分很可能反映了這些既有的知識圖譜關聯，而不是對 HIV 病毒本身的療效。
+它在 HIV 領域的價值，是治療與預防 HIV 感染者的分枝桿菌感染，包括鳥型分枝桿菌複合群 (MAC) 與結核病。HIV 患者免疫低下，容易出現這類感染，因此疾病之間有明確的臨床關聯。
 
-因此，這個預測合理的範圍是 **HIV 相關分枝桿菌感染的預防與治療**。若要主張它對 HIV 本身有效，目前沒有證據。
+Rifabutin 對 CYP3A4 的誘導作用比 rifampin 弱。HIV 合併結核病的患者若需使用蛋白酶抑制劑 (PI) 等抗病毒藥物，Rifabutin 常是較合適的 rifamycin 選擇。代價是仍須進行劑量調整與藥物交互作用管理。
+
+---
 
 ## 臨床試驗證據
 
-共 39 個試驗，以下列出最相關的 10 個。其中 Phase 3 試驗是主要的療效證據。
+以下列出最相關的 10 個試驗，依相關性分級排序，A 級優先。
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00002122](https://clinicaltrials.gov/study/NCT00002122) | Phase 3 | 完成 | 720 | 比較 azithromycin 與 rifabutin（單用或併用）預防 HIV 患者播散性 MAC 感染，並比較每日與每週 fluconazole 預防深部黴菌感染 |
-| [NCT00001030](https://clinicaltrials.gov/study/NCT00001030) | Phase 3 | 完成 | 1100 | 比較 clarithromycin、rifabutin 與兩者併用，預防 CD4 ≤ 100 的 HIV 患者發生 MAC 菌血症 |
-| [NCT00001047](https://clinicaltrials.gov/study/NCT00001047) | Phase 3 | 完成 | 400 | 四種治療方案比較，用於 AIDS 患者播散性 MAC 感染（clarithromycin 併用 ethambutol 加 rifabutin 或 clofazimine） |
-| [NCT00002101](https://clinicaltrials.gov/study/NCT00002101) | Phase 3 | 完成 | 450 | 在 clarithromycin/ethambutol 基礎上，比較 rifabutin 兩種劑量與安慰劑治療 MAC 菌血症 |
-| [NCT00002267](https://clinicaltrials.gov/study/NCT00002267) | 未標示階段 | 完成 | 750 | 雙盲安慰劑對照，評估 rifabutin 單用預防 AIDS 患者 MAC 菌血症及對存活的影響 |
-| [NCT00023361](https://clinicaltrials.gov/study/NCT00023361) | 未標示階段 | 完成 | 215 | 以間歇性 rifabutin 方案治療 HIV 相關結核病，評估治療失敗與復發率 |
-| [NCT00651066](https://clinicaltrials.gov/study/NCT00651066) | Phase 2 | 完成 | 47 | 越南 TB/HIV 共感染患者，rifabutin 併用抗病毒治療的藥動學 |
-| [NCT00640887](https://clinicaltrials.gov/study/NCT00640887) | Phase 2 | 完成 | 48 | 南非 TB/HIV 共感染患者，rifabutin 併用抗病毒治療的藥動學 |
-| [NCT01663168](https://clinicaltrials.gov/study/NCT01663168) | Phase 2 | 未知 | 140 | EARNEST 子研究，評估 lopinavir/ritonavir 二線治療下不同 rifabutin 劑量的毒性與藥動學 |
-| [NCT03478033](https://clinicaltrials.gov/study/NCT03478033) | 未標示階段 | 未知 | 230 | 前瞻性世代研究，比較含 rifampicin 或 rifabutin 的標準治療用於 HIV 合併肺結核的療效與安全性 |
+| [NCT00002101](https://clinicaltrials.gov/study/NCT00002101) | Phase 3 | 完成 | 450 | 比較 clarithromycin/ethambutol 加或不加 Rifabutin（兩種劑量）與安慰劑，用於 AIDS 患者 MAC 菌血症 |
+| [NCT00001047](https://clinicaltrials.gov/study/NCT00001047) | Phase 3 | 完成 | 400 | 四種治療方案比較，含 Rifabutin 或 clofazimine，用於 AIDS 合併瀰漫性 MAC 感染 |
+| [NCT00001995](https://clinicaltrials.gov/study/NCT00001995) | 未標示 | 完成 | 200 | 雙盲隨機試驗，評估含 Rifabutin 方案治療 AIDS 患者 MAC 菌血症 |
+| [NCT00001058](https://clinicaltrials.gov/study/NCT00001058) | Phase 2/3 | 完成 | 246 | 比較 clarithromycin 分別合併 Rifabutin、ethambutol 或兩者，用於 AIDS 合併瀰漫性 MAC |
+| [NCT00001030](https://clinicaltrials.gov/study/NCT00001030) | Phase 3 | 完成 | 1100 | Clarithromycin、Rifabutin 與兩者合用，預防 HIV 感染者 MAC 菌血症 |
+| [NCT00002122](https://clinicaltrials.gov/study/NCT00002122) | Phase 3 | 完成 | 720 | Azithromycin 與 Rifabutin 單用或合用，預防瀰漫性 MAC |
+| [NCT00002267](https://clinicaltrials.gov/study/NCT00002267) | 未標示 | 完成 | 750 | 雙盲安慰劑對照，Rifabutin 單藥預防 AIDS 患者 MAC 菌血症 |
+| [NCT00651066](https://clinicaltrials.gov/study/NCT00651066) | Phase 2 | 完成 | 47 | Rifabutin 與抗病毒治療併用於 HIV 合併結核病的藥動學（越南） |
+| [NCT00640887](https://clinicaltrials.gov/study/NCT00640887) | Phase 2 | 完成 | 48 | 同上，在南非進行的藥動學研究 |
+| [NCT00810446](https://clinicaltrials.gov/study/NCT00810446) | 不適用 | 完成 | 72 | Mycobutin 用於 HIV 患者的上市後藥物使用調查，蒐集真實世界安全性資料 |
 
-其餘試驗多為藥物交互作用的藥動學研究，涵蓋 nelfinavir、efavirenz、maraviroc、dolutegravir 等抗病毒藥。
+另有多項藥物交互作用研究（如與 indinavir、nelfinavir、efavirenz、dolutegravir、cabotegravir 的藥動學研究），以及一項尚未開始招募、評估 MAC 治療加入氟喹諾酮的試驗 (NCT07585461)。
+
+---
 
 ## 文獻證據
 
-共 20 篇，以下列出最相關的 10 篇。沒有直接針對 HIV 的 RCT 文獻，多為世代研究、藥動學研究與回顧。
-
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [33294914](https://pubmed.ncbi.nlm.nih.gov/33294914/) | 2021 | 世代/藥動學研究 | J Antimicrob Chemother | 評估使用 lopinavir/ritonavir 二線 ART 的 TB/HIV 共感染兒童之 rifabutin 藥動學與安全性。先前一項兒童研究曾因嚴重嗜中性白血球低下而提早終止 |
-| [31139825](https://pubmed.ncbi.nlm.nih.gov/31139825/) | 2019 | 世代研究 | J Antimicrob Chemother | 評估 rifabutin 用於 lopinavir/ritonavir 治療中的 HIV/TB 共感染兒童之安全性與療效；先前研究中 6 名兒童有 2 名出現需停藥的嗜中性白血球低下 |
-| [25281400](https://pubmed.ncbi.nlm.nih.gov/25281400/) | 2015 | 藥動學/安全性研究 | J Antimicrob Chemother | 評估 rifabutin 與 lopinavir/ritonavir 併用於幼兒的短期安全性與藥動學 |
-| [32979587](https://pubmed.ncbi.nlm.nih.gov/32979587/) | 2020 | 回溯觀察性研究 | Int J Infect Dis | 探討 tenofovir alafenamide 與 rifabutin 併用時抗病毒療效是否受影響；標題結論為併用不會導致 HIV-1 抑制失敗 |
-| [26832753](https://pubmed.ncbi.nlm.nih.gov/26832753/) | 2016 | 族群藥動學彙整分析 | J Antimicrob Chemother | 整合既有資料描述 rifabutin 與 HIV 蛋白酶抑制劑的交互作用，並預測可達治療暴露量的劑量 |
-| [9459473](https://pubmed.ncbi.nlm.nih.gov/9459473/) | 1998 | 觀察性研究 | JAMA | HIV 門診研究顯示 clarithromycin 與 rifabutin 可能對隱孢子蟲感染有化學預防效果 |
-| [9093233](https://pubmed.ncbi.nlm.nih.gov/9093233/) | 1997 | 回顧 | Med Clin North Am | 說明 MAC 是 AIDS 最常見的全身性細菌感染，大環內酯類的出現使治療方案大幅進步 |
-| [23828580](https://pubmed.ncbi.nlm.nih.gov/23828580/) | 2013 | 系統性回顧 (Cochrane) | Cochrane Database Syst Rev | 比較 rifamycin 與 isoniazid 預防結核，對象為 HIV 陰性者，與 HIV 患者間接相關 |
-| [28233512](https://pubmed.ncbi.nlm.nih.gov/28233512/) | 2017 | 回顧 | Microbiol Spectr | 說明 HIV 與結核病互相加劇，並探討共治療的挑戰 |
-| [30217608](https://pubmed.ncbi.nlm.nih.gov/30217608/) | 2018 | 病例報告 | J Fr Ophtalmol | 一名感染 HIV 的 10 歲兒童出現 rifabutin 相關葡萄膜炎，屬安全性訊號 |
+| [33294914](https://pubmed.ncbi.nlm.nih.gov/33294914/) | 2021 | Cohort | J Antimicrob Chemother | TB/HIV 合併感染兒童使用含 lopinavir/ritonavir 的 ART 時，Rifabutin 的藥動學與安全性；先前研究曾因嚴重嗜中性白血球低下而提早終止 |
+| [31139825](https://pubmed.ncbi.nlm.nih.gov/31139825/) | 2019 | Cohort | J Antimicrob Chemother | HIV/TB 合併感染兒童使用 Rifabutin 的安全性與療效；先前研究中 6 名兒童有 2 名出現限制治療的嗜中性白血球低下 |
+| [36385424](https://pubmed.ncbi.nlm.nih.gov/36385424/) | 2023 | Cohort | Br J Clin Pharmacol | Rifabutin 與 dolutegravir 併用的族群藥動學模型 |
+| [23828580](https://pubmed.ncbi.nlm.nih.gov/23828580/) | 2013 | 系統性回顧 | Cochrane Database Syst Rev | 比較 rifamycin 類與 isoniazid 預防 HIV 陰性高風險族群的結核病 |
+| [9093233](https://pubmed.ncbi.nlm.nih.gov/9093233/) | 1997 | Review | Med Clin North Am | 非結核分枝桿菌感染；macrolide 類問世後 MAC 治療方案明顯進步 |
+| [21726477](https://pubmed.ncbi.nlm.nih.gov/21726477/) | 2009 | Review | BMJ Clin Evid | HIV 合併結核病的治療 |
+| [28233512](https://pubmed.ncbi.nlm.nih.gov/28233512/) | 2017 | Review | Microbiol Spectr | HIV 相關結核病 |
+| [17181373](https://pubmed.ncbi.nlm.nih.gov/17181373/) | 2006 | Review | Drugs | HIV/TB 共同感染的實務治療方式 |
+| [8785257](https://pubmed.ncbi.nlm.nih.gov/8785257/) | 1996 | Review | Clin Infect Dis | Rifabutin 用於肺結核，包括 HIV 感染患者 |
+| [21819645](https://pubmed.ncbi.nlm.nih.gov/21819645/) | 2012 | 文獻回顧 | Int J Tuberc Lung Dis | Rifabutin 與含蛋白酶抑制劑的 ART 併用之處置 |
+
+---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-38559 | MYCOBUTIN CAP 150MG | PFIZER CORPORATION HONG KONG LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-38559 | MYCOBUTIN CAP 150MG | 未載明 | 未載明（持證商：輝瑞香港） |
+
+---
 
 ## 安全性考量
 
-資料中的警語、禁忌症與藥物交互作用查詢結果皆為空，詳細內容請參考原廠仿單。以下是從臨床證據中看到的重點：
+- **知識圖譜標示的禁忌相關疾病**：血小板低下、嗜中性白血球低下、顆粒球缺乏症、困難梭狀芽孢桿菌結腸炎、新生兒壞死性腸炎。此為知識圖譜的藥物與疾病關聯，並非仿單原文。
+- **兒童的血液學風險**：文獻指出 HIV/TB 合併感染兒童使用 Rifabutin 搭配蛋白酶抑制劑時，曾出現限制治療的嗜中性白血球低下，與上述知識圖譜訊號一致。
+- **藥物交互作用**：資料庫共有 100 筆交互作用。列出的項目中，**重大 (Major)** 為 eliglustat；**中度 (Moderate)** 包括 clarithromycin、metronidazole、doxycycline、aprepitant、morphine，以及多種皮質類固醇（hydrocortisone、dexamethasone、betamethasone、triamcinolone）、維生素 D 類（cholecalciferol、calcifediol、calcitriol）與降血糖藥（pioglitazone、saxagliptin、linagliptin、chlorpropamide、acetohexamide）。Rifabutin 可誘導 CYP3A4，與抗病毒藥物併用時需要劑量調整。
 
-- **嗜中性白血球低下**：兒童研究（PMID 31139825、33294914）曾出現需停藥的嗜中性白血球低下，需定期監測血球。
-- **葡萄膜炎**：有 HIV 兒童發生 rifabutin 相關葡萄膜炎的病例報告（PMID 30217608），用藥期間需留意眼部症狀。
-- **肝毒性**：需監測肝功能。
-- **CYP3A4 交互作用**：多項試驗顯示 rifabutin 與蛋白酶抑制劑（如 lopinavir/ritonavir、nelfinavir）及其他抗病毒藥併用時，需調整劑量並監測藥物濃度。
+完整的警語與禁忌症請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 有多個已完成的 Phase 3 隨機試驗（如 NCT00002122、NCT00001030、NCT00001047、NCT00002101），支持 rifabutin 用於 HIV 患者的 MAC 預防與治療，證據等級為 L1。
-- 這些證據只涵蓋 HIV 相關分枝桿菌感染，不涵蓋 HIV 本身。香港已有 1 張上市許可證，但資料中沒有其核准適應症文字。
+- 多個已完成的 Phase 3 試驗（MAC 治療與預防，涵蓋數百至上千名 AIDS 患者）支持 Rifabutin 在 HIV 感染者中的臨床價值。
+- 這個價值來自治療與預防伺機性分枝桿菌感染，而不是抗 HIV 作用。因此「HIV 感染疾病」應理解為 HIV 相關的分枝桿菌感染管理。
+- 嗜中性白血球低下風險與大量藥物交互作用需要明確的防護措施。
 
 **若要推進需要：**
-- 將適應症限定為「HIV 相關分枝桿菌感染（MAC 預防/治療、HIV/結核共感染）」，不宣稱可治療 HIV 本身。
-- 取得香港衛生署許可證的核准適應症與仿單，確認警語與禁忌症。
-- 補充 DrugBank 的作用機轉與交互作用資料，並建立與抗病毒藥併用的劑量調整指引。
-- 建立嗜中性白血球低下、葡萄膜炎與肝毒性的監測計畫，兒童族群尤其需要。
-
-**其他預測適應症：** TxGNN 另預測了多發性內分泌腫瘤、硬化性膽管炎、一種罕見神經發育疾患與結膜炎，目前皆為 **Hold**。這些預測沒有臨床試驗支持，也找不到合理的機轉關聯。結膜炎唯一的文獻是藥物引起眼部發炎的回顧，應視為安全性警訊，不是療效證據。
-
-*本報告僅供研究參考，不構成醫療建議。老藥新用候選須經臨床驗證後才能應用。*
+- 補充香港仿單的核准適應症、警語與禁忌症。
+- 補充詳細的作用機轉資料。
+- 明確界定適用範圍（MAC 預防與治療、HIV 合併結核病），避免被誤解為抗 HIV 藥物。
+- 建立血液學監測計畫（嗜中性白血球、血小板），並制定與抗病毒藥物併用的劑量調整指引。
+- 其他預測適應症（多發性內分泌腫瘤、硬化性膽管炎、結膜炎等）目前只有模型預測，沒有臨床試驗或文獻，建議 Hold。結膜炎方面，全身性 Rifabutin 與葡萄膜炎相關，眼部使用更需審慎。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

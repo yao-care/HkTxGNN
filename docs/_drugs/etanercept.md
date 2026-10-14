@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Etanercept
-parent: 僅模型預測 (L5)
-nav_order: 338
-evidence_level: L5
+parent: 中證據等級 (L3-L4)
+nav_order: 343
+evidence_level: L4
 indication_count: 6
 ---
 
 # Etanercept
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+證據等級: **L4** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,92 +29,111 @@ indication_count: 6
 
 </div>
 
-# Etanercept：從自體免疫關節炎治療到類風濕性血管炎
+# Etanercept：從類風濕性關節炎等自體免疫關節疾病到類風濕性血管炎
 
 ## 一句話總結
 
-Etanercept 是 TNF-α 抑制劑（可溶性 TNF 受體–Fc 融合蛋白），在文獻中已用於類風濕性關節炎等自體免疫關節疾病。
-TxGNN 模型預測它可能對**類風濕性血管炎 (Rheumatoid Vasculitis)** 有效，但目前只有 **1 個相關的 Phase 2 試驗（適應症為韋格納肉芽腫，並非類風濕性血管炎）**和 **1 篇系統性回顧**，其餘 **6 個試驗**與多數文獻都無法直接支持這個方向。文獻中另有不少 etanercept 誘發血管炎的通報。
+Etanercept（依那西普）是一種 TNF 抑制劑，原本用於乾癬性關節炎、類風濕性關節炎、僵直性脊椎炎及幼年特發性關節炎等疾病。
+TxGNN 模型預測它可能對**類風濕性血管炎 (Rheumatoid Vasculitis)** 有效，但目前僅有 **1 個關聯性低的臨床試驗**，文獻多為系統性回顧、病例報告與安全性報告，且有使用 etanercept 後反而出現血管炎的報告，因此證據並不支持明確療效。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 乾癬性關節炎、類風濕性關節炎、僵直性脊椎炎、幼年特發性關節炎 |
 | 預測新適應症 | 類風濕性血管炎 (Rheumatoid Vasculitis) |
 | TxGNN 預測分數 | 99.71% |
-| 證據等級 | L3（僅有系統性回顧與觀察性研究，無針對該適應症的 RCT） |
+| 證據等級 | L4 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 7 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏 DrugBank 提供的詳細作用機轉資料。根據文獻，etanercept 是由 p75 TNF 受體與 IgG1 Fc 片段組成的融合蛋白，能結合 TNF-α 並阻斷其活性。TNF-α 是類風濕性關節炎發炎反應的核心細胞激素，這是預測的主要理論基礎。
+目前缺乏詳細的作用機轉資料。根據已知資訊，etanercept 是一種 TNF 受體融合蛋白，透過結合 TNF-α 來阻斷其發炎作用。其在類風濕性關節炎中的療效已被證實。
 
-類風濕性血管炎是類風濕性關節炎最嚴重的關節外表現之一，過去以皮質類固醇和免疫抑制劑治療。近年已有生物製劑被用於此病，並有系統性回顧整理相關經驗。在 ANCA 相關血管炎中，TNF-α 也被認為參與病理，但 TNF 阻斷在該病的角色仍有爭議。
+類風濕性血管炎是類風濕性關節炎最嚴重的關節外併發症之一，致病過程中 TNF-α 是共同的發炎驅動因子，因此從機轉上看，阻斷 TNF 有生物學上的合理性。
 
-不過這個預測的證據明顯偏弱，甚至互相矛盾。唯一的 Phase 2 試驗（NCT00001901）針對韋格納肉芽腫，是另一種血管炎，不能直接外推。此外，多篇病例報告與藥物安全性研究描述 etanercept 相關或誘發的血管炎，形成矛盾的安全性訊號。
+不過，文獻同時記載 etanercept 治療期間可能出現**矛盾性血管炎**，包括皮膚血管炎與腎病變。整體證據呈現正反並存，並不支持明確的治療效益。
+
+---
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00001901](https://clinicaltrials.gov/study/NCT00001901) | Phase 2 | 完成 | 60 | Etanercept 用於韋格納肉芽腫（血管炎的一種）。疾病相關但不是類風濕性血管炎，不能直接外推 |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | 尚未招募 | 80 | 風濕病患者接受肩關節置換術前，免疫抑制劑停藥時間的管理。並未測試 etanercept 對血管炎的效果 |
-| [NCT01557322](https://clinicaltrials.gov/study/NCT01557322) | N/A | 完成 | 1754 | 中度類風濕性關節炎的真實世界治療路徑觀察，無血管炎結果 |
-| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | 完成 | 808 | 中國類風濕性關節炎患者使用生物 DMARD 的橫斷面研究，無血管炎結果 |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | 完成 | 184 | Tocilizumab 治療類風濕性關節炎的非介入性研究，無血管炎結果 |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | 未知 | 750000 | 使用生物製劑後發生其他免疫媒介發炎疾病風險的大型登錄研究，探討風險而非治療 |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | 招募中 | 80 | 風濕科病人接受肩關節置換術時，免疫抑制劑術前停藥時間的管理；並未直接測試 etanercept 對血管炎的療效，僅間接相關 |
+
+---
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | 系統性回顧 | Clin Rheumatol | 依 PRISMA 整理生物製劑用於類風濕性血管炎的文獻，是與此適應症最直接相關的證據 |
-| [28391344](https://pubmed.ncbi.nlm.nih.gov/28391344/) | 2017 | Review | Nephrol Dial Transplant | 討論 TNFα 阻斷在 ANCA 相關血管炎與腎絲球腎炎的角色，指出 TNFα 參與病理，但療效是否適用仍待釐清 |
-| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | 世代研究 | RMD Open | BSRBR-RA 資料，比較 TNF 抑制劑與傳統 DMARD 治療的類風濕性關節炎患者發生類狼瘡及類血管炎事件的風險（屬安全性研究） |
-| [15624748](https://pubmed.ncbi.nlm.nih.gov/15624748/) | 2004 | Review | J Drugs Dermatol | 回顧 etanercept 的用途與副作用，皮膚副作用少見，包括注射部位反應、皮膚型狼瘡與皮膚血管炎 |
-| [15853915](https://pubmed.ncbi.nlm.nih.gov/15853915/) | 2005 | 免疫學／不良事件 | Scand J Immunol | 探討 etanercept 與 infliximab 相關皮膚血管炎的免疫機轉，屬罕見的自體免疫副作用 |
-| [12209493](https://pubmed.ncbi.nlm.nih.gov/12209493/) | 2002 | 病例報告 | Arthritis Rheum | 類風濕性關節炎患者使用 etanercept 後出現結節加速形成與血管炎 |
-| [11792895](https://pubmed.ncbi.nlm.nih.gov/11792895/) | 2002 | 病例報告 | Rheumatology (Oxford) | Etanercept 與 infliximab 相關的皮膚血管炎 |
-| [15801034](https://pubmed.ncbi.nlm.nih.gov/15801034/) | 2005 | 病例報告 | J Rheumatol | Etanercept 治療期間出現增生性狼瘡腎炎與白血球破裂性血管炎 |
-| [25544845](https://pubmed.ncbi.nlm.nih.gov/25544845/) | 2014 | 病例報告 | Case Rep Med | 類風濕性關節炎患者接受抗 TNF 治療期間發生大血管血管炎 |
-| [19648728](https://pubmed.ncbi.nlm.nih.gov/19648728/) | 2009 | 病例報告 | Dermatology | 使用 etanercept 的類風濕性關節炎患者，散播性帶狀疱疹被誤認為類風濕性血管炎，延誤診斷 |
+| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | 系統性回顧 | Clin Rheumatol | 回顧生物製劑用於類風濕性血管炎的治療 |
+| [28391344](https://pubmed.ncbi.nlm.nih.gov/28391344/) | 2017 | Review | Nephrol Dial Transplant | 探討 TNFα 阻斷在 ANCA 相關血管炎與腎絲球腎炎中的角色 |
+| [16624928](https://pubmed.ncbi.nlm.nih.gov/16624928/) | 2006 | Review | J Am Soc Nephrol | 從其他慢性發炎疾病經驗探討 TNF-α 在 ANCA 相關血管炎的角色 |
+| [15853915](https://pubmed.ncbi.nlm.nih.gov/15853915/) | 2005 | Review | Scand J Immunol | etanercept 與 infliximab 相關皮膚血管炎的免疫機轉 |
+| [31632872](https://pubmed.ncbi.nlm.nih.gov/31632872/) | 2019 | 病例報告／安全性 | Cureus | etanercept 相關腎病變 |
+| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | 世代研究 | RMD Open | 類風濕性關節炎患者使用 TNF 抑制劑後，類狼瘡及類血管炎事件的風險比較 |
+| [10955351](https://pubmed.ncbi.nlm.nih.gov/10955351/) | 2000 | 病例報告 | J Rheumatol | etanercept 引起的白血球破碎性血管炎 |
+| [12209493](https://pubmed.ncbi.nlm.nih.gov/12209493/) | 2002 | 病例報告 | Arthritis Rheum | etanercept 治療後出現加速性結節病與血管炎 |
+
+---
 
 ## 香港上市資訊
 
-共 7 張許可證，以下列出 5 張主要許可證，皆由 Pfizer 或 Sandoz 持有。資料中未提供劑型與核准適應症文字。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-55983 | ENBREL 預充填注射筒 25mg | 注射液 | — |
+| HK-59796 | ENBREL 預充填注射筆 50mg | 注射液 | — |
+| HK-55984 | ENBREL 預充填注射筒 50mg | 注射液 | — |
+| HK-48914 | ENBREL 注射用粉劑與溶劑 25mg | 注射劑 | — |
+| HK-67841 | ERELZI 預充填注射筒 25mg/0.5ml | 注射液 | — |
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-55983 | ENBREL SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 25MG | PFIZER CORPORATION HONG KONG LIMITED |
-| HK-59796 | ENBREL SOLUTION FOR INJ IN PRE-FILLED PEN 50MG | PFIZER CORPORATION HONG KONG LIMITED |
-| HK-55984 | ENBREL SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 50MG | PFIZER CORPORATION HONG KONG LIMITED |
-| HK-48914 | ENBREL PDR & SOLVENT FOR INJ 25MG | PFIZER CORPORATION HONG KONG LIMITED |
-| HK-67841 | ERELZI SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 25MG/0.5ML | SANDOZ HONG KONG LIMITED |
+另有 2 張 ERELZI 許可證（HK-67842、HK-67840），共 7 張有效許可證。
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **藥物交互作用**：資料庫共記錄 100 筆交互作用。主要（Major）等級包括多種皮質類固醇（hydrocortisone、prednisone、prednisolone、dexamethasone、betamethasone、budesonide、triamcinolone），以及 deferiprone 及數種放射性藥物（如 iobenguane I-131、ibritumomab tiuxetan、tositumomab）。中度（Moderate）等級包括 metronidazole、tinidazole、rosuvastatin、simvastatin。
+- **與預測適應症相關的安全訊號**：文獻報告 etanercept 可能誘發皮膚血管炎與腎病變，這與預測的新適應症方向相反，需特別留意。
 
-另外，文獻中有多篇病例報告與藥物安全性研究指出，etanercept 可能與皮膚血管炎、類狼瘡反應等事件相關。這與預測的治療方向相反，評估時需特別留意。
+主要警語與禁忌症請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- TxGNN 分數很高（99.71%），但唯一的 Phase 2 試驗針對的是另一種血管炎（韋格納肉芽腫），沒有 etanercept 用於類風濕性血管炎的 RCT。
-- 文獻中同時存在 etanercept 誘發或相關血管炎的安全性訊號，風險效益尚不明朗。
+- 證據僅達 L4，缺乏直接評估 etanercept 治療類風濕性血管炎的臨床試驗；文獻以系統性回顧及病例／安全性報告為主，且有藥物誘發血管炎的矛盾訊號。
+- 高預測分數不足以支持推進。
 
 **若要推進需要：**
-- 仔細閱讀系統性回顧（PMID 33058033）全文，確認 etanercept 在類風濕性血管炎中的實際療效與安全性數據
-- 取得 DrugBank 的作用機轉資料與香港衛生署仿單的警語、禁忌
-- 設計或尋找針對類風濕性血管炎的前瞻性研究，並釐清「治療性」與「藥物誘發性」血管炎的區別
+- 取得詳細作用機轉資料與香港仿單的警語及禁忌症
+- 針對 etanercept 治療類風濕性血管炎進行系統性文獻評讀，釐清療效與誘發血管炎的風險
+- 如有進一步興趣，需設計針對該族群的對照研究，並釐清矛盾性血管炎的發生機制
 
-**補充：**同一份預測清單中，第 3 位的發炎性脊椎病變、第 5 位的多關節型幼年類風濕性關節炎與第 6 位的脊椎疾病，已有 Phase 3 RCT 支持（證據等級 L1）。但這些疾病多半屬 etanercept 已核准的適應症，比較像既有適應症的確認，而非真正的老藥新用。第 2 位的尾骨過度活動與第 4 位的 Kummell 病則沒有任何試驗或文獻，應維持 Hold。
+---
 
-本報告結果僅供研究參考，不構成醫療建議，所有預測均需經臨床驗證。
+### 附註：其他預測適應症概況
+
+| 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
+|-----------|-----------|---------|------|
+| 發炎性脊椎病變 (Inflammatory spondylopathy) | 99.57% | L1 | Proceed with Guardrails |
+| 多關節型幼年類風濕性關節炎 | 99.50% | L1 | Proceed with Guardrails |
+| 脊椎疾病 (Vertebral disease) | 99.16% | L4 | Research Question |
+| 尾骨過動 (Hypermobility of coccyx) | 99.63% | L5 | Hold |
+| Kummell 病 | 99.55% | L5 | Hold |
+
+發炎性脊椎病變與多關節型幼年類風濕性關節炎實質上與 etanercept 已核准的適應症（僵直性脊椎炎／軸性脊椎關節炎、幼年特發性關節炎）重疊，屬於仿單內使用而非真正的藥物再利用。若要推進，標準 TNF 抑制劑的防護包括結核病與 B 型肝炎篩檢、感染監測，以及葡萄膜炎風險與兒童族群的留意。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

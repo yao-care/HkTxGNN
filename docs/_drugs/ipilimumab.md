@@ -2,7 +2,7 @@
 layout: default
 title: Ipilimumab
 parent: 僅模型預測 (L5)
-nav_order: 473
+nav_order: 481
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,19 +29,20 @@ indication_count: 2
 
 </div>
 
-# Ipilimumab：從黑色素瘤到脈絡膜缺失症 (Choroideremia)
+# Ipilimumab：從轉移性黑色素瘤到脈絡膜缺失症（Choroideremia）
 
 ## 一句話總結
 
-Ipilimumab 是 CTLA-4 免疫檢查點抑制抗體，原本用於黑色素瘤等癌症治療。
-TxGNN 模型預測它可能對**脈絡膜缺失症 (Choroideremia)** 有效，但目前有 **0 個臨床試驗**和 **0 篇文獻**支持，屬於純模型預測。
+Ipilimumab 是一種 CTLA-4 免疫檢查點抑制抗體，原本用於轉移性黑色素瘤。
+TxGNN 模型預測它可能對**脈絡膜缺失症 (Choroideremia)** 有效，但目前**沒有任何臨床試驗或文獻**支持這個方向，這項預測僅屬模型推論。
 
-> 註：香港許可證資料未列出核准適應症文字。「黑色素瘤」是依證據包內其他預測項目的說明補充，並非來自許可證原文。
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 轉移性黑色素瘤 (metastatic melanoma)（來自知識圖譜；香港許可證未載明適應症文字） |
 | 預測新適應症 | 脈絡膜缺失症 (Choroideremia) |
 | TxGNN 預測分數 | 99.06% |
 | 證據等級 | L5 |
@@ -49,61 +50,78 @@ TxGNN 模型預測它可能對**脈絡膜缺失症 (Choroideremia)** 有效，�
 | 許可證數 | 2 張 |
 | 建議決策 | Hold |
 
+---
+
 ## 為什麼這個預測合理？
 
-坦白說，這個預測在機轉上**找不到合理的連結**。
+目前缺乏詳細的作用機轉資料。已知 ipilimumab 是 CTLA-4 阻斷抗體，透過解除 T 細胞活化的抑制來增強抗腫瘤免疫，這個機轉在黑色素瘤中已獲證實。
 
-Ipilimumab 是 CTLA-4 阻斷抗體，作用是解除 T 細胞活化的抑制訊號，增強全身抗腫瘤免疫反應。DrugBank 目前缺乏詳細的作用機轉條目，此處說明依據藥物類別。
+然而，脈絡膜缺失症是一種遺傳性視網膜退化疾病，由 CHM (REP1) 基因功能喪失所致，並非由免疫檢查點機制驅動。阻斷 CTLA-4 無法合理地修正這個根本缺陷，兩個適應症之間也看不出機轉上的關聯。
 
-脈絡膜缺失症是 X 染色體連鎖的遺傳性視網膜退化疾病，成因是 *CHM/REP1* 基因功能喪失。目前沒有已知的免疫檢查點路徑參與此疾病。此外，全身性免疫活化可能引起眼部發炎（例如葡萄膜炎），對視網膜疾病患者反而增加風險。
+此外，ipilimumab 引發的全身性免疫活化有眼部免疫相關不良反應的風險（例如葡萄膜炎），對正在退化的視網膜可能有害。因此，這項高分預測很可能是知識圖譜的統計假象，而非真實的藥理訊號。
 
-TxGNN 給出 0.99 的高分，最可能是知識圖譜的假象 (artifact)。沒有任何臨床試驗或文獻佐證，不應把分數當作療效證據。
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
 目前無相關文獻。
 
+---
+
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-63495 | YERVOY CONCENTRATE FOR SOLUTION FOR INFUSION 200MG/40ML | BRISTOL-MYERS SQUIBB PHARMA (HK) LTD |
-| HK-63494 | YERVOY CONCENTRATE FOR SOLUTION FOR INFUSION 50MG/10ML | BRISTOL-MYERS SQUIBB PHARMA (HK) LTD |
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-63495 | YERVOY CONCENTRATE FOR SOLUTION FOR INFUSION 200MG/40ML | Bristol-Myers Squibb Pharma (HK) Ltd |
+| HK-63494 | YERVOY CONCENTRATE FOR SOLUTION FOR INFUSION 50MG/10ML | Bristol-Myers Squibb Pharma (HK) Ltd |
+
+兩張許可證皆為單一成分、有效狀態。
+
+---
 
 ## 細胞毒性
 
 | 項目 | 內容 |
 |------|------|
 | 細胞毒性分類 | 免疫治療（CTLA-4 免疫檢查點抑制劑），非傳統細胞毒性藥物 |
+| 監測項目 | 免疫相關不良反應：大腸炎、肝炎、內分泌病變、葡萄膜炎 |
 
-其餘項目（骨髓抑制風險、致吐性、監測項目、處置防護）請參考原廠仿單的警語與注意事項。
+骨髓抑制風險、致吐性分級與處置防護等資訊，請參考原廠仿單的警語與注意事項。
+
+---
 
 ## 安全性考量
 
-- **眼部風險**：全身性免疫活化可能引起眼部發炎（如葡萄膜炎），對視網膜退化疾病患者需特別留意。
+- **藥物交互作用**：已查詢到 100 筆交互作用紀錄，以下為部分重點。
+  - **嚴重 (Major)**：多種抗凝血藥物，包括 apixaban、betrixaban、bivalirudin、dalteparin、desirudin、edoxaban、argatroban、danaparoid。
+  - **中度 (Moderate)**：多種皮質類固醇（hydrocortisone、triamcinolone、dexamethasone、betamethasone、budesonide、prednisolone、prednisone）、metronidazole、tinidazole、naltrexone、rosuvastatin、simvastatin。
 
-其他安全性資訊（警語、禁忌症）請參考原廠仿單。藥物交互作用查詢無結果。
+其他警語與禁忌症請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 只有模型預測（L5），沒有臨床試驗或文獻，機轉上也找不到合理連結。
-- 全身性免疫活化有眼部發炎風險，對遺傳性視網膜退化疾病的風險效益不明。
+- 這項預測沒有臨床試驗或文獻支持，且脈絡膜缺失症的致病機轉與 CTLA-4 阻斷沒有合理關聯。
+- 藥物的眼部免疫風險可能對退化視網膜不利，不建議推進。
+
+**補充觀察：**
+同一份預測清單中，第 2 位的**非皮膚黑色素瘤 (non-cutaneous melanoma)**（分數 99.02%）有較多證據。這包括已完成的 Phase 2 試驗 NCT02626962（nivolumab 併用 ipilimumab 於未治療的轉移性葡萄膜黑色素瘤，n=52），以及 ipilimumab 用於皮膚、葡萄膜與黏膜黑色素瘤的臨床世代研究（PMID 24999899）。該適應症的評級為 L1、Proceed with Guardrails，但這個等級偏保守。次族群專屬的證據主要來自 Phase 2 與觀察性研究，較嚴格的判定可能接近 L2。若要尋找有實質證據的再利用方向，建議改以該適應症另行評估。
 
 **若要推進需要：**
-- 提出可信的機轉假說，說明 CTLA-4 阻斷與 CHM/REP1 缺失的關聯，並做前臨床驗證。
-- 補齊 DrugBank 作用機轉，以及香港衛生署仿單的警語與禁忌資料。
-- 評估眼部免疫相關不良反應的風險。
-
-**補充：**同一份證據包中，Ipilimumab 對**非皮膚型黑色素瘤**的預測（分數 99.02%）有較多支持，包括多個 Phase 2/3 試驗和文獻，證據等級為 L3。若要優先投入資源，建議先評估該方向。
-
-*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證。*
+- 脈絡膜缺失症的任何機轉或前臨床證據，以支持 CTLA-4 阻斷的合理性
+- 完整的作用機轉資料
+- 眼部免疫相關不良反應（如葡萄膜炎）的風險評估
+- 香港原廠仿單的警語與禁忌症資料
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

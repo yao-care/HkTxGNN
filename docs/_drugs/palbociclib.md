@@ -2,7 +2,7 @@
 layout: default
 title: Palbociclib
 parent: 僅模型預測 (L5)
-nav_order: 644
+nav_order: 657
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,94 +29,115 @@ indication_count: 10
 
 </div>
 
-# Palbociclib：從乳癌到甲狀腺機能亢進症
+# Palbociclib：從乳癌到骨髓性白血病
+
+> 預測排名第 1 的是甲狀腺功能亢進，但其證據僅有模型預測。本報告以**證據最完整的骨髓性白血病 (Myeloid Leukemia)** 作為主要評估對象，其他候選適應症於下方一併說明。
 
 ## 一句話總結
 
-Palbociclib 是 CDK4/6 抑制劑，用於荷爾蒙受體陽性、HER2 陰性的乳癌治療。
-TxGNN 模型預測它可能對**甲狀腺機能亢進症 (Hyperthyroidism)** 有效。
-目前**沒有任何臨床試驗或文獻**支持這個方向，也找不到合理的機轉關聯。
+Palbociclib 是 CDK4/6 抑制劑，在香港已有上市許可證，但本次資料未列出核准適應症。
+TxGNN 模型預測它可能對**骨髓性白血病 (Myeloid Leukemia)** 有效，
+目前有 **4 個臨床試驗**和 **20 篇文獻**支持這個方向，但文獻以前臨床研究為主，試驗均為早期階段。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 甲狀腺機能亢進症 (Hyperthyroidism) |
-| TxGNN 預測分數 | 99.44% |
-| 證據等級 | L5（僅有模型預測） |
+| 原適應症 | 本次資料未提供（香港許可證的核准適應症欄位為空白） |
+| 預測新適應症 | 骨髓性白血病 (Myeloid Leukemia) |
+| TxGNN 預測分數 | 98.94% |
+| 證據等級 | L3（有早期臨床試驗與大量前臨床研究，但無已完成的 Phase 2/3 RCT；依系統判定為 L3） |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 6 張 |
-| 建議決策 | Hold |
+| 建議決策 | Hold（列為研究問題，待更多臨床資料） |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Palbociclib 屬於 CDK4/6 抑制劑，透過阻斷細胞週期 G1 期進程來抑制腫瘤細胞增殖，在 HR+/HER2- 乳癌中的療效已被證實。
+目前缺乏詳細的作用機轉資料。Palbociclib 屬於 CDK4/6 抑制劑，透過阻斷細胞週期 G1 到 S 期的進展來抑制腫瘤細胞增殖。
 
-但 CDK4/6 抑制與甲狀腺激素過量之間，目前沒有可辨識的機轉關聯。0.994 的高分很可能來自知識圖譜中的網絡鄰近性，而非生物學上的理由。這個預測不宜視為治療訊號。
+CDK6 在急性骨髓性白血病 (AML) 中扮演重要角色，特別是 MLL 重排與 NUP98 重排的亞型，會驅動細胞增殖並阻礙分化。因此從機轉上看，抑制 CDK4/6 有合理的生物學基礎。
+
+前臨床研究顯示，palbociclib 與 venetoclax 加 azacitidine 合併使用有協同作用，並可克服 venetoclax 的抗藥性；與 LSD1 或 menin 抑制劑合併也有相似發現。另有一篇個案報告描述 palbociclib 合併 venetoclax 與 azacitidine 用於難治/復發的治療相關 AML。不過有文獻指出，CDK4/6 抑制劑單藥的臨床試驗結果並不理想，合併治療才是較有希望的方向。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記。
+| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
+|---------|------|------|------|---------|
+| [NCT02310243](https://clinicaltrials.gov/study/NCT02310243) | Phase 1/2 | 未知 | 50 | Palbociclib 用於 MLL 重排的急性白血病，尚無結果 |
+| [NCT03132454](https://clinicaltrials.gov/study/NCT03132454) | Phase 1 | 進行中（不再招募） | 32 | Palbociclib 單用或合併 sorafenib、decitabine、dexamethasone 用於復發/難治性白血病 |
+| [NCT05627232](https://clinicaltrials.gov/study/NCT05627232) | Phase 1 | 招募中 | 24 | Tazemetostat 合併 CPX-351，及 palbociclib 前處理後接 CPX-351，用於復發/難治性 AML |
+| [NCT03878524](https://clinicaltrials.gov/study/NCT03878524) | Phase 1 | 已終止 | 2 | 精準腫瘤學試驗，非白血病專屬，僅收 2 人，資訊價值低 |
 
 ## 文獻證據
 
-目前無相關文獻。
+資料中未見 RCT。以下為較相關的前臨床研究、個案報告與綜述。
+
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [38430306](https://pubmed.ncbi.nlm.nih.gov/38430306/) | 2024 | 個案報告 | Cancer Chemother Pharmacol | Palbociclib 合併 venetoclax 與 azacitidine 用於難治/復發的治療相關 AML |
+| [41468895](https://pubmed.ncbi.nlm.nih.gov/41468895/) | 2026 | 前臨床 | Cell Rep Med | Palbociclib 合併 venetoclax 可克服 venetoclax 抗藥性 |
+| [36076608](https://pubmed.ncbi.nlm.nih.gov/36076608/) | 2022 | 前臨床 | Biomed Pharmacother | Palbociclib 增強 venetoclax 加 azacitidine 的抗 AML 活性 |
+| [38890447](https://pubmed.ncbi.nlm.nih.gov/38890447/) | 2024 | 前臨床 | Leukemia | Menin 抑制劑合併激酶抑制劑對 NUP98 易位白血病有效 |
+| [40883610](https://pubmed.ncbi.nlm.nih.gov/40883610/) | 2025 | 前臨床 | EMBO Mol Med | 同時抑制 CDK6 與 LSD1 具協同作用，可克服 AML 分化阻斷 |
+| [42312423](https://pubmed.ncbi.nlm.nih.gov/42312423/) | 2026 | 前臨床 | Haematologica | 同時抑制 CDK2 與 CDK4/6 增強抗白血病活性；CDK4/6 抑制劑單藥臨床試驗結果令人失望 |
+| [40755307](https://pubmed.ncbi.nlm.nih.gov/40755307/) | 2025 | 研究 | Br J Haematol | CDK4/6 抑制劑與 ATRA 在非 APL AML 中可能具協同作用 |
+| [32260549](https://pubmed.ncbi.nlm.nih.gov/32260549/) | 2020 | 綜述 | Int J Mol Sci | CDK6 抑制作為 AML 治療的新策略 |
+| [36400926](https://pubmed.ncbi.nlm.nih.gov/36400926/) | 2023 | 綜述 | Leukemia | 針對細胞週期與細胞凋亡以克服 AML 化療抗藥性 |
+| [25914884](https://pubmed.ncbi.nlm.nih.gov/25914884/) | 2015 | 綜述 | Front Cell Dev Biol | 血液惡性腫瘤中細胞週期調節因子的標靶治療 |
 
 ## 香港上市資訊
 
-資料中未提供核准適應症文字。劑型由品名判斷。
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-64836 | IBRANCE CAPSULES 125MG | 本次資料未提供 | 本次資料未提供 |
+| HK-64837 | IBRANCE CAPSULES 100MG | 本次資料未提供 | 本次資料未提供 |
+| HK-64838 | IBRANCE CAPSULES 75MG | 本次資料未提供 | 本次資料未提供 |
+| HK-66989 | IBRANCE TABLETS 100MG | 本次資料未提供 | 本次資料未提供 |
+| HK-66990 | IBRANCE TABLETS 125MG | 本次資料未提供 | 本次資料未提供 |
 
-| 許可證號 | 品名 | 劑型 | 廠商 |
-|---------|------|------|------|
-| HK-64836 | IBRANCE CAPSULES 125MG | 膠囊劑 | PFIZER CORPORATION HONG KONG LIMITED |
-| HK-64837 | IBRANCE CAPSULES 100MG | 膠囊劑 | PFIZER CORPORATION HONG KONG LIMITED |
-| HK-64838 | IBRANCE CAPSULES 75MG | 膠囊劑 | PFIZER CORPORATION HONG KONG LIMITED |
-| HK-66990 | IBRANCE TABLETS 125MG | 錠劑 | PFIZER CORPORATION HONG KONG LIMITED |
-| HK-66991 | IBRANCE TABLETS 75MG | 錠劑 | PFIZER CORPORATION HONG KONG LIMITED |
-
-共 6 張許可證，上表為資料中可列出的 5 張。
+另有 HK-66991（IBRANCE TABLETS 75MG），共 6 張，均為 PFIZER CORPORATION HONG KONG LIMITED 持有的有效單方許可證。
 
 ## 細胞毒性
 
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 標靶藥物（CDK4/6 抑制劑，細胞抑制型） |
-| 骨髓抑制風險 | 中至高（文獻指出 Palbociclib 具骨髓抑制性，嗜中性白血球減少為常見不良反應） |
-| 監測項目 | CBC（含分類）、肝功能 |
+| 細胞毒性分類 | 標靶藥物（CDK4/6 抑制劑） |
+| 骨髓抑制風險 | 本次資料未提供藥物毒性描述；文獻提到 CDK4/6 抑制劑常見骨髓抑制，需特別留意 |
+| 監測項目 | 至少包含全血球計數 (CBC) |
 
-其餘項目（致吐性分級、處置防護）請參考原廠仿單的警語與注意事項。
+其餘致吐性分級與處置防護，請參考原廠仿單的警語與注意事項。
 
 ## 安全性考量
 
-資料包中的仿單警語、禁忌症與藥物交互作用皆無資料，安全性資訊請參考原廠仿單。
+- **藥物交互作用**：本次共查詢到 100 筆交互作用，以下列出部分主要項目：
+  - 嚴重 (Major)：Clarithromycin、Cobicistat、Deferiprone、Samarium (153Sm) lexidronam
+  - 中度 (Moderate)：Aprepitant、Dexamethasone、Cimetidine、Simvastatin、Cilostazol 等
+- **文獻中的安全訊號**：藥物不良反應通報系統 (FAERS) 分析提示 CDK4/6 抑制劑與血栓栓塞、間質性肺病相關。
 
-文獻中另有以下 CDK4/6 抑制劑類別的安全性訊號，可作為評估時的參考：
-- **血栓栓塞**：藥物警戒與回溯性研究顯示 CDK4/6 抑制劑與血栓栓塞事件相關。
-- **間質性肺病 (ILD)**：屬較少見但可能嚴重的不良反應。
+警語與禁忌症資料缺漏，請參考原廠仿單。
+
+## 其他預測適應症簡述
+
+| 預測適應症 | 分數 | 證據等級 | 評估 |
+|-----------|------|---------|------|
+| 類風濕性關節炎 | 99.36% | L4 | 有個案報告與動物模型支持（CDK6 依賴的滑膜纖維母細胞增生），無臨床試驗，可列為研究問題 |
+| 血栓性疾病 | 99.32% | L4 | 文獻顯示血栓是 CDK4/6 抑制劑的不良反應，方向相反，應視為安全疑慮或偽陽性 |
+| 多發性內分泌腫瘤 | 98.86% | L4 | 登記試驗為乳癌或廣泛腫瘤研究，應為關鍵字誤配，並未測試此疾病 |
+| 甲狀腺功能亢進、甲狀腺素抗性、短指併指症候群、小眼症相關症候群、高甲狀腺素血症、變異型心絞痛 | 98.7%–99.4% | L5 | 僅有模型預測，無機轉連結，亦無研究證據 |
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 本預測沒有臨床試驗與文獻支持，也沒有可辨識的機轉關聯，屬於純模型預測（L5）。
-- 香港仿單的警語與禁忌症資料缺口屬阻斷性缺口，目前無法進入安全性篩選。
+- 骨髓性白血病有合理的機轉與大量前臨床證據，但臨床試驗均為 Phase 1 或 1/2，且無療效結果，尚無已完成的 Phase 2/3 RCT。
+- 文獻也指出 CDK4/6 抑制劑單藥效果有限，後續應以合併療法為重點，並以研究問題的方式持續追蹤。
 
 **若要推進需要：**
-- 補齊香港衛生署仿單的警語與禁忌症，並從 DrugBank 取得 MOA 資料。
-- 提出甲狀腺機能亢進與 CDK4/6 通路之間的生物學假說，再做文獻或機轉驗證。否則建議把研究資源轉向下列其他預測適應症。
-
-**其他預測適應症的證據概況（供參考）：**
-
-| 預測適應症 | TxGNN 分數 | 證據概況 | 建議 |
-|-----------|-----------|---------|------|
-| 骨髓性白血病 | 98.94% | 機轉合理，有 4 個直接相關的 Phase 1 至 1/2 試驗（皆為早期、單臂或組合試驗）。其中 NCT03844997（CPX-351 + Palbociclib，已完成）尚待取得結果。另有多篇臨床前研究與 1 篇病例報告。依本報告規則無已完成的 RCT，屬 L4 | Research Question，優先追蹤 |
-| 類風濕性關節炎 | 99.36% | 有 1 篇病例報告、臨床前模型與 1 篇觀察性研究，無登記試驗。自體免疫族群的安全性未建立，屬 L4 | Research Question |
-| 血栓性疾病 | 99.32% | 現有證據偏向 CDK4/6 抑制劑會增加血栓風險，不支持治療用途 | 作為安全警示，不作為適應症 |
-| 多發性內分泌腫瘤 | 98.86% | 列出的試驗皆為乳癌或其他實體瘤研究，疑為關鍵字誤配，並非 MEN 的證據 | Hold |
-| 其餘 5 項（甲狀腺素抵抗症、短指併指症候群、眼缺損小眼畸形症候群、高甲狀腺素血症、Prinzmetal 心絞痛） | 98.75% 至 99.30% | 無證據，無機轉關聯 | Hold |
-
-本報告僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。
+- 取得 NCT02310243、NCT03132454、NCT05627232 的療效與安全性結果
+- 規劃 palbociclib 合併 venetoclax 加 azacitidine 的前瞻性臨床試驗
+- 補充 DrugBank 作用機轉資料，以及香港仿單的警語、禁忌症與核准適應症
+- 針對血液毒性與血栓風險制定監測計畫
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

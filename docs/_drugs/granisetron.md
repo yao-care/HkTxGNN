@@ -2,7 +2,7 @@
 layout: default
 title: Granisetron
 parent: 僅模型預測 (L5)
-nav_order: 419
+nav_order: 427
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,30 +29,40 @@ indication_count: 5
 
 </div>
 
-# Granisetron：從化療引起的噁心嘔吐到躁期雙相情感障礙
+# Granisetron：從化療引起的噁心嘔吐到躁期雙極性情感疾患
 
 ## 一句話總結
 
-Granisetron 是選擇性 5-HT3 受體拮抗劑，在藥理分類上屬於止吐藥，香港許可證資料未載明核准適應症文字。
-TxGNN 模型預測它可能對**躁期雙相情感障礙 (Manic Bipolar Affective Disorder)** 有效，但目前**沒有任何臨床試驗或文獻**支持，僅有模型預測分數。
+Granisetron 是選擇性 5-HT3 受體拮抗劑，在香港已有多張許可證，屬於止吐類藥物。
+TxGNN 模型預測它可能對**躁期雙極性情感疾患 (Manic Bipolar Affective Disorder)** 有效，
+但目前**沒有任何臨床試驗或文獻**支持，僅有模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證資料未載明（藥理分類為 5-HT3 拮抗型止吐藥） |
-| 預測新適應症 | 躁期雙相情感障礙 (Manic Bipolar Affective Disorder) |
+| 原適應症 | 本次整理的資料中，許可證未載明核准適應症 |
+| 預測新適應症 | 躁期雙極性情感疾患 (Manic Bipolar Affective Disorder) |
 | TxGNN 預測分數 | 99.62% |
-| 證據等級 | L5（僅有模型預測） |
+| 證據等級 | L5 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 11 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-Granisetron 是選擇性 5-HT3 受體拮抗劑，透過阻斷血清素在該受體上的作用發揮效果。本次提供的資料缺乏詳細的作用機轉描述（DrugBank MOA 未取得），以上僅是藥物類別層級的資訊。
+目前缺乏詳細的作用機轉資料。已知 Granisetron 是選擇性 5-HT3 受體拮抗劑。有假說認為，調節 5-HT3 可能影響與情緒調節相關的多巴胺與血清素訊號。
 
-在躁症中，血清素與多巴胺的調節被認為與症狀相關，所以從機轉上推測 5-HT3 阻斷可能有影響。但這只是假設，沒有任何試驗或文獻佐證。目前這個連結完全依賴 TxGNN 的預測分數（0.996），而模型分數不等於臨床證據。
+不過，這只是理論上的推測。資料中沒有任何臨床試驗或文獻佐證，0.996 的高分只是計算模型的預測結果，不能視為療效證據。
+
+**其他預測適應症（同樣僅有模型預測，皆為 L5、建議 Hold）：**
+
+| 排名 | 預測適應症 | TxGNN 分數 | 機轉合理性簡述 |
+|------|-----------|-----------|----------------|
+| 2 | 妥瑞氏症 (Tourette syndrome) | 99.52% | 5-HT3 拮抗可能調節基底核多巴胺迴路；其他同類藥物（如 ondansetron）有小型研究，但 granisetron 無資料 |
+| 3 | 急性傳染性結膜炎 | 99.49% | 5-HT3 拮抗與病毒或細菌感染的病因之間沒有明顯機轉關聯，高分可能是網路關聯的假象 |
+| 4 | 血管性水腫 (Angioedema) | 99.36% | 血清素可能參與神經源性發炎與血管通透性，屬推測性連結，尚未證實 |
+| 5 | 過敏性蕁麻疹 | 99.32% | 肥大細胞釋放血清素及 5-HT3 相關搔癢訊號有推測性依據，但無 granisetron 的臨床資料 |
 
 ## 臨床試驗證據
 
@@ -62,49 +72,42 @@ Granisetron 是選擇性 5-HT3 受體拮抗劑，透過阻斷血清素在該受�
 
 目前無相關文獻。
 
-## 其他預測適應症
-
-以下預測同樣只有模型分數，沒有試驗或文獻，證據等級皆為 L5，建議皆為 Hold。
-
-| 排名 | 預測適應症 | TxGNN 分數 | 備註 |
-|------|-----------|-----------|------|
-| 2 | Tourette 症候群 | 99.52% | 5-HT3 可能間接調節皮質－紋狀體多巴胺迴路，僅為假設 |
-| 3 | 急性傳染性結膜炎 | 99.49% | 找不到合理機轉，病因是病原體，高分很可能是知識圖譜的偽訊號 |
-| 4 | 血管性水腫 | 99.36% | 5-HT3 可能影響神經性發炎與血管通透性，屬推測；還需區分組織胺型與緩激肽型 |
-| 5 | 過敏性蕁麻疹 | 99.32% | 血清素可作用於肥大細胞與搔癢路徑，但既有抗組織胺已是標準治療 |
-
 ## 香港上市資訊
+
+香港共有 11 張有效單方許可證，無已註銷者。本次整理的資料中，各許可證的劑型與核准適應症均未載明，以下列出 5 張主要許可證：
 
 | 許可證號 | 品名 | 廠商 |
 |---------|------|------|
-| HK-62011 | GRANISETRON CONCENTRATE FOR SOLUTION FOR INJECTION OR INFUSION 1MG/1ML | MEKIM LTD |
-| HK-68845 | KANITRON TABLETS 1MG | SB PHARMA LIMITED |
-| HK-68259 | VICKSETPIL TABLETS 1MG | VICKMANS LABORATORIES LTD |
 | HK-36669 | KYTRIL FOR IV INFUSION 0.1% | PRUDENTLINK LIMITED |
-| HK-60439 | GRANISETRON ACTAVIS TAB 1MG | TEVA PHARMACEUTICAL HONG KONG LIMITED |
+| HK-61365 | KYTRIL FILM-COATED TABLETS 1MG | PRUDENTLINK LIMITED |
+| HK-44569 | KYTRIL INJ 1MG/ML AMPOULE | PRUDENTLINK LIMITED |
+| HK-60565 | GRANISETRON KABI CONCENTRATE FOR SOLUTION FOR INJ OR INF 1MG/1ML | FRESENIUS KABI HONG KONG LIMITED |
+| HK-60439 | GRANISETRON ACTAVIS TAB 1MG | TEVA PHARMACEUTICAL HONG KONG |
 
-共 11 張許可證，此處列出 5 張。
+從品名可見，產品包含口服錠劑與注射/輸注劑型。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（來自藥物與疾病的關聯資料，並非仿單文字）：long QT syndrome（長 QT 症候群）、familial long QT syndrome（家族性長 QT 症候群）、potassium deficiency disease（缺鉀症）、sudden cardiac arrest（心因性猝死）、heart conduction disease（心臟傳導疾病）。整體指向 QT 間期延長與心律不整風險。
+- **藥物交互作用**：共查得 100 筆，以下為其中部分。
+  - **嚴重 (Major)**：Fentanyl、Alfentanil、Tramadol、Dextromethorphan、Almotriptan、Sumatriptan、Amiodarone、Amisulpride、Amitriptyline、Anagrelide。這些多與 QT 延長或血清素症候群風險相關。
+  - **中度 (Moderate)**：Abametapir、Abiraterone、Dihydrocodeine、Codeine、Famotidine、Formoterol、Adenosine、Salbutamol、Alfuzosin、Propofol。
+
+其他警語與禁忌請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 所有預測適應症都只有模型分數，沒有臨床試驗或文獻，證據等級為 L5。
-- 香港仿單的警語與禁忌資料尚未取得，無法進入安全性篩選。
-- 躁症的機轉連結僅是推測；急性傳染性結膜炎則缺乏合理機轉，應視為偽訊號。
+- 所有預測適應症都僅有 TxGNN 模型分數，沒有臨床試驗或文獻（證據等級 L5）。
+- 作用機轉資料不足，且與心律相關的禁忌與多項嚴重藥物交互作用，使躁期雙極性情感疾患患者（常併用精神科藥物）的風險更需謹慎評估。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單，包括警語與禁忌症，以及核准適應症文字。
-- 從 DrugBank 補齊完整的作用機轉資料。
-- 系統性檢索 5-HT3 拮抗劑用於躁症或雙相情感障礙的臨床與前臨床文獻。
-- 若有初步證據，再評估劑型與給藥途徑是否符合新適應症所需。
-
-*本報告僅供研究參考，不構成醫療建議。預測結果需經臨床驗證才能應用。*
+- 補充 DrugBank 的作用機轉資料，並取得香港衛生署仿單的警語與禁忌。
+- 系統性搜尋 granisetron 與 5-HT3 拮抗劑用於雙極性疾患（及妥瑞氏症）的臨床前與臨床研究。
+- 釐清與常用情緒穩定劑、抗精神病藥併用時的 QT 延長風險。
+- 若文獻支持，再規劃小型探索性試驗，並納入心電圖與電解質監測。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

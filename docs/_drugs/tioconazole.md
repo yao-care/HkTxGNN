@@ -2,15 +2,15 @@
 layout: default
 title: Tioconazole
 parent: 高證據等級 (L1-L2)
-nav_order: 865
-evidence_level: L2
+nav_order: 880
+evidence_level: L1
 indication_count: 3
 ---
 
 # Tioconazole
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **3** 個
+證據等級: **L1** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,103 @@ indication_count: 3
 
 </div>
 
-# Tioconazole：從（原適應症未載明）到外陰陰道炎
+# Tioconazole：從外陰陰道念珠菌病到外陰陰道炎
 
 ## 一句話總結
 
-Tioconazole 是咪唑類（imidazole）抗黴菌藥，香港有 4 張外用製劑許可證，但證據包中未載明原適應症。
-TxGNN 模型預測它可能對**外陰陰道炎 (Vulvovaginitis)** 有效，目前有 **2 個臨床試驗**和 **20 篇文獻**支持，其中包含 2 篇 tioconazole 本身的 RCT。
-這比較像是已有文獻支持的既有用途（念珠菌性陰道炎），不是典型的老藥新用。
+Tioconazole 是咪唑類（imidazole）抗黴菌藥，原本用於外陰陰道念珠菌病。
+TxGNN 模型預測它可能對**外陰陰道炎 (Vulvovaginitis)** 有效，
+目前有 **19 篇文獻**支持這個方向（無臨床試驗登記），但實質上這幾乎等同於原適應症，僅是標籤範圍較廣。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證資料未提供 |
+| 原適應症 | 外陰陰道念珠菌病 (Vulvovaginal candidiasis) |
 | 預測新適應症 | 外陰陰道炎 (Vulvovaginitis) |
 | TxGNN 預測分數 | 99.23% |
-| 證據等級 | L2 |
+| 證據等級 | L1 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 4 張 |
 | 建議決策 | Proceed with Guardrails |
 
+---
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的 DrugBank 作用機轉資料。根據藥理分類，Tioconazole 是咪唑類抗黴菌藥，抑制黴菌的羊毛固醇 14-α 去甲基酶（CYP51），阻斷麥角固醇合成，破壞黴菌細胞膜。念珠菌是外陰陰道炎最主要的病原，因此機轉上與此適應症直接相關。
+目前缺乏詳細的作用機轉資料庫記載，但此類藥物的機轉已相當明確：Tioconazole 抑制真菌的羊毛固醇 14-α 去甲基酶（CYP51/ERG11），阻斷麥角固醇（ergosterol）合成，破壞真菌細胞膜完整性。此外，它也會抑制人類的 CYP8B1 酵素（參與膽酸合成路徑的一個分支）。
 
-文獻也顯示 tioconazole 早已用於外陰陰道念珠菌症，包括單次劑量 6.5% 軟膏及 2% 陰道乳膏。這很可能屬於**標示內用途**，不是真正的老藥新用，需對照香港許可證的核准適應症確認。
+外陰陰道炎多數由念珠菌屬引起，因此這個預測實質上等同於已確立的適應症（外陰陰道念珠菌病），只是疾病名稱較廣泛。
 
-這個預測只適用於**念珠菌性**外陰陰道炎。目前沒有證據支持它用於細菌性陰道病。滴蟲性陰道炎僅有一個 20 人的開放性單臂研究（見下方文獻）。
+需要注意的是，對於非念珠菌性的外陰陰道炎（細菌性、滴蟲性、萎縮性或刺激性），並沒有證據支持其療效。
+
+---
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT06056947](https://clinicaltrials.gov/study/NCT06056947) | Phase 3 | 完成 | 577 | Fenticonazole + Tinidazole + Lidocaine 不同劑型 vs Gynomax® XL，用於細菌性陰道病、念珠菌性外陰陰道炎、滴蟲性陰道炎及混合感染。藥物並非 tioconazole，僅支持唑類藥物的類別合理性 |
-| [NCT03839875](https://clinicaltrials.gov/study/NCT03839875) | Phase 4 | 完成 | 116 | Gynomax® XL 陰道栓劑的開放性單臂研究，適應症同上。藥物並非 tioconazole，無對照組，僅為間接證據 |
+目前無相關臨床試驗登記。
+
+---
 
 ## 文獻證據
 
+下表列出最相關的 10 篇（優先 RCT，其次為綜述與臨床研究）：
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [3524439](https://pubmed.ncbi.nlm.nih.gov/3524439/) | 1986 | RCT | Antimicrob Agents Chemother | 80 人隨機分組，單次 6.5% tioconazole 軟膏 vs 3 日 clotrimazole 陰道錠；4 週後無症狀率 84% vs 85%，療效相當 |
-| [6347833](https://pubmed.ncbi.nlm.nih.gov/6347833/) | 1983 | RCT | Gynakol Rundsch | 雙盲、安慰劑對照，評估 tioconazole 治療陰道念珠菌症的療效、耐受性、安全性及全身吸收 |
-| [3510114](https://pubmed.ncbi.nlm.nih.gov/3510114/) | 1986 | Review | Drugs | Tioconazole 對皮癬菌和酵母菌有廣效抗菌活性；開放與對照試驗顯示外用製劑治療淺層黴菌感染和陰道念珠菌症有效且安全 |
-| [40464716](https://pubmed.ncbi.nlm.nih.gov/40464716/) | 2025 | Review | Expert Rev Anti Infect Ther | 回顧外陰陰道念珠菌症的非侵入性唑類抗黴菌治療選項與未來方向 |
-| [10470518](https://pubmed.ncbi.nlm.nih.gov/10470518/) | 1999 | Review | Compr Ther | 健康女性外陰陰道炎的流行病學、診斷與治療回顧 |
-| [6094282](https://pubmed.ncbi.nlm.nih.gov/6094282/) | 1984 | 隨機開放試驗 | J Int Med Res | 40 人，單次 6% tioconazole 陰道軟膏 vs 口服 ketoconazole 5 天；兩組皆有效，局部治療症狀緩解較快 |
-| [6873744](https://pubmed.ncbi.nlm.nih.gov/6873744/) | 1983 | 開放性比較試驗 | Gynakol Rundsch | Tioconazole 乳膏 vs econazole 陰道栓劑，3 日療程治療陰道念珠菌症 |
-| [6347834](https://pubmed.ncbi.nlm.nih.gov/6347834/) | 1983 | 開放性比較試驗 | Gynakol Rundsch | Tioconazole vs econazole，3 日療程治療陰道念珠菌症 |
-| [3984688](https://pubmed.ncbi.nlm.nih.gov/3984688/) | 1985 | 臨床研究 | Acta Obstet Gynecol Scand | 29 名有症狀婦女使用 2% 陰道乳膏，黴菌學治癒率 88.5% |
-| [3485546](https://pubmed.ncbi.nlm.nih.gov/3485546/) | 1986 | 開放性單臂研究 | J Int Med Res | 20 名滴蟲性或混合感染患者使用 2% 乳膏 3 天，首次追蹤治癒率 95% (19/20) |
+| [3524439](https://pubmed.ncbi.nlm.nih.gov/3524439/) | 1986 | RCT | Antimicrob Agents Chemother | 80 位患者隨機分組，單劑 6.5% tioconazole 軟膏 vs. 3 天 clotrimazole 陰道錠；4 週後無症狀比例 84% vs. 85%，療效相當 |
+| [6347833](https://pubmed.ncbi.nlm.nih.gov/6347833/) | 1983 | RCT | Gynakol Rundsch | 雙盲比較 tioconazole 與安慰劑用於陰道念珠菌病，並評估全身吸收（無摘要） |
+| [3510114](https://pubmed.ncbi.nlm.nih.gov/3510114/) | 1986 | Review | Drugs | 回顧顯示外用 tioconazole 對表淺皮膚黴菌及陰道念珠菌感染有效且安全 |
+| [40464716](https://pubmed.ncbi.nlm.nih.gov/40464716/) | 2025 | Review | Expert Rev Anti Infect Ther | 探討外陰陰道念珠菌病非侵入性 azole 類藥物的未來治療選項 |
+| [3984688](https://pubmed.ncbi.nlm.nih.gov/3984688/) | 1985 | 臨床研究 | Acta Obstet Gynecol Scand | 2% 陰道乳膏治療 3 天，有症狀患者黴菌學治癒率 88.5% |
+| [6094282](https://pubmed.ncbi.nlm.nih.gov/6094282/) | 1984 | 隨機（開放） | J Int Med Res | 單劑外用 tioconazole 與 5 天口服 ketoconazole 比較，兩組皆有效，外用組症狀改善較快 |
+| [3485546](https://pubmed.ncbi.nlm.nih.gov/3485546/) | 1986 | 開放式單組研究 | J Int Med Res | 2% 乳膏用於 20 位陰道滴蟲或混合感染患者，約 95% 治癒 |
+| [3216880](https://pubmed.ncbi.nlm.nih.gov/3216880/) | 1988 | 臨床研究 | Mycoses | Tioconazole 治療陰道念珠菌病（無摘要） |
+| [6347834](https://pubmed.ncbi.nlm.nih.gov/6347834/) | 1983 | 開放式比較試驗 | Gynakol Rundsch | 3 天療程 tioconazole 與 econazole 比較（無摘要） |
+| [6873744](https://pubmed.ncbi.nlm.nih.gov/6873744/) | 1983 | 開放式比較試驗 | Gynakol Rundsch | Tioconazole 乳膏與 econazole 陰道栓比較（無摘要） |
+
+---
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-22534 | TROSYD DERMAL CREAM 1% | 乳膏（依品名） | 資料未提供 |
-| HK-66184 | TERBUL CREAM 10MG/G | 乳膏（依品名） | 資料未提供 |
-| HK-57887 | GYNO-ELLYCIE VAGINAL OINTMENT 6.5% | 陰道軟膏（依品名） | 資料未提供 |
-| HK-58904 | ELLYCIE NAIL SOLUTION 28% | 甲用溶液（依品名） | 資料未提供 |
+| HK-22534 | TROSYD DERMAL CREAM 1% | 乳膏 | 未提供 |
+| HK-66184 | TERBUL CREAM 10MG/G | 乳膏 | 未提供 |
+| HK-57887 | GYNO-ELLYCIE VAGINAL OINTMENT 6.5% | 陰道軟膏 | 未提供 |
+| HK-58904 | ELLYCIE NAIL SOLUTION 28% | 指甲溶液 | 未提供 |
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **藥物交互作用**：已查詢到 2 筆
+  - Omeprazole（嚴重度等級未知，來源 DDInter）
+  - CYP8B1：Tioconazole 會抑制此人類 P450 酵素（膽酸合成路徑），屬藥理學層面的作用標的資訊
+
+其餘警語與禁忌症請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-Tioconazole 對念珠菌性外陰陰道炎有 2 篇自身 RCT 與多篇比較研究支持，機轉合理，且香港已有陰道軟膏上市。但這些研究多為 1980 年代，且證據僅限於念珠菌性。Phase 3 與 Phase 4 試驗用的是其他唑類藥物，不是直接證據。許可證的核准適應症與安全性資料也都缺漏。
+- 有 2 篇 RCT 支持其用於陰道念珠菌病，且已在香港上市。但「外陰陰道炎」實質上是原適應症的較廣泛表述，並非真正的新適應症，因此需限定範圍。
+- 此決策僅適用於念珠菌引起的外陰陰道炎。
 
 **若要推進需要：**
-- 取得香港衛生署仿單，確認陰道軟膏（HK-57887）的核准適應症與警語、禁忌，判斷這是標示內用途還是真正的新適應症
-- 補齊 DrugBank 作用機轉資料
-- 將適用範圍限定在念珠菌性外陰陰道炎，非念珠菌性感染不納入
-- 外陰炎（rank 2，L3）缺乏以外陰炎為終點的研究，且可能由非黴菌因素引起，僅列為研究問題
-- 停經後萎縮性陰道炎（rank 3，L5）缺乏機轉依據與任何研究證據，建議 Hold，高分可能只是知識圖譜上與其他陰道炎相近所致
+- 明確限定為念珠菌性外陰陰道炎，並以病原學檢查確認；非念珠菌性病因（細菌、滴蟲、萎縮性、刺激性）不應使用。
+- 取得香港衛生署仿單中的警語與禁忌症資料。
+- 補充詳細的作用機轉資料（MOA）。
+- 補充近年的對照試驗與抗藥性（含非白色念珠菌）資料，因現有試驗多為 1980 年代的研究。
 
-*本報告結果僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證才能應用。*
+**其他預測適應症備註：**
+- **外陰炎 (Vulvitis)**（分數 99.20%，證據等級 L2）：證據僅來自陰道念珠菌研究，對孤立性外陰炎屬間接證據，僅可作為研究問題；非感染性外陰炎無合理的機轉連結。
+- **停經後萎縮性陰道炎**（分數 99.19%，證據等級 L5）：無文獻與臨床試驗，且病因是雌激素缺乏而非真菌感染，建議 Hold。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

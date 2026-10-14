@@ -2,15 +2,15 @@
 layout: default
 title: Dupilumab
 parent: 中證據等級 (L3-L4)
-nav_order: 298
-evidence_level: L4
+nav_order: 303
+evidence_level: L3
 indication_count: 10
 ---
 
 # Dupilumab
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L3** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,77 +29,106 @@ indication_count: 10
 
 </div>
 
-# Dupilumab：從第二型發炎性疾病到支氣管炎
+# Dupilumab：從異位性皮膚炎到支氣管炎
 
 ## 一句話總結
 
-Dupilumab（度匹魯單抗）是一種 IL-4Rα 單株抗體，用於特應性皮膚炎、氣喘等第二型發炎性疾病，本次資料未提供正式的原適應症文字。
-TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效。
-目前**沒有任何試驗直接收錄支氣管炎族群**，僅有 **1 個相關氣道疾病臨床試驗**和 **6 篇間接文獻**，證據以間接為主。
+Dupilumab 是一種 IL-4 受體 α 單株抗體，原本用於異位性皮膚炎（atopic dermatitis）。
+TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前僅有 **1 個間接相關的臨床試驗**（針對慢性鼻竇炎，並非支氣管炎）和 **11 篇文獻**，證據屬間接性質，多集中於氣喘與第 2 型發炎的慢性阻塞性肺病（COPD）。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
+| 原適應症 | 異位性皮膚炎（Atopic Dermatitis）。香港許可證資料未載明適應症文字，此處依知識圖譜的適應症資料 |
 | 預測新適應症 | 支氣管炎 (Bronchitis) |
-| TxGNN 預測分數 | 99.92%（全體排名 2291） |
-| 證據等級 | L4 |
+| TxGNN 預測分數 | 99.92% |
+| 證據等級 | L3 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 4 張 |
-| 建議決策 | Hold |
+| 建議決策 | Hold（列為研究問題） |
+
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏 DrugBank 的詳細作用機轉資料。根據文獻，Dupilumab 阻斷 IL-4 受體 α 亞單位（IL-4Rα），同時抑制 IL-4 與 IL-13 訊號，這是第二型氣道發炎的核心路徑。它在嗜酸性氣喘及第二型表型的 COPD 中已有療效證據。
+目前缺乏詳細的作用機轉資料（本報告彙整的資料中未收錄）。依文獻所知，dupilumab 會阻斷 IL-4Rα，進而抑制 IL-4 與 IL-13 訊號，而這兩者是第 2 型發炎的核心驅動因子。
 
-支氣管炎和氣喘、COPD 同屬下呼吸道發炎性疾病，因此模型給出高分。不過兩者的關聯是間接的，主要適用於嗜酸性或第二型亞型，例如嗜酸性塑型性支氣管炎，以及與 COPD 重疊的慢性支氣管炎。一般感染性或非第二型支氣管炎，機轉上沒有明確支持。
+異位性皮膚炎與部分氣道疾病（如氣喘、第 2 型 COPD、嗜酸性塑型性支氣管炎）共享第 2 型發炎的病理基礎。因此，對於嗜酸性球或第 2 型偏高的氣道疾病，機轉上有合理性。
+
+不過需要注意：「支氣管炎」作為泛稱並非明確定義的適應症。目前的支持證據是間接的，僅限於特定表型，例如以慢性支氣管炎為主要表現的第 2 型 COPD，或嗜酸性塑型性支氣管炎。對一般感染性或非第 2 型支氣管炎，沒有證據支持。
+
+---
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Phase 2 | 完成 | 33 | Dupilumab 用於無鼻息肉的慢性鼻竇炎 (CRSsNP) 的隨機雙盲安慰劑對照試驗。屬上呼吸道疾病，不是支氣管炎，僅顯示 Dupilumab 正在第二型氣道疾病中被測試 |
+| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Phase 2 | 完成 | 33 | 隨機、雙盲、安慰劑對照，評估 dupilumab 用於無鼻息肉的慢性鼻竇炎。屬上呼吸道疾病，並非支氣管炎，僅間接相關 |
+
+---
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | RCT（開放標籤延伸） | Lancet Respir Med | TRAVERSE 研究，評估中重度氣喘患者長期使用 Dupilumab 超過 1 年的安全性與療效 |
-| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | 系統性回顧／統合分析 | J Asthma | 整合 RCT，評估 Dupilumab 在未控制氣喘的療效與安全性 |
-| [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | 回顧 | Tuberc Respir Dis | 整理預防 COPD 急性惡化的藥物治療，含新型生物製劑 |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Review | Expert Opin Pharmacother | 討論氣喘合併吸菸相關氣道疾病（含慢性支氣管炎）的治療挑戰 |
-| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Review | Pediatr Pulmonol | 嗜酸性兒童塑型性支氣管炎的新療法（無摘要） |
-| [32428511](https://pubmed.ncbi.nlm.nih.gov/32428511/) | 2020 | 世代／影像研究 | Chest | 以 MRI 評估抗第二型生物製劑對類固醇依賴型氣喘肺通氣的影響 |
+| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | Meta-analysis | J Asthma | 針對控制不佳氣喘的 RCT 統合分析，評估 dupilumab 的療效與安全性 |
+| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | RCT（開放標籤延伸） | Lancet Respir Med | TRAVERSE 研究：中重度氣喘患者使用 dupilumab 超過 1 年的長期安全性與療效 |
+| [42617837](https://pubmed.ncbi.nlm.nih.gov/42617837/) | 2026 | Cohort | Chest | 嗜酸性 COPD 患者中，mepolizumab 與 dupilumab 降低急性惡化的效果無顯著差異（間接比較） |
+| [42511891](https://pubmed.ncbi.nlm.nih.gov/42511891/) | 2026 | Cohort | Biomedicines | 12 名第 2 型 COPD 患者的同情使用病例系列，著重慢性支氣管炎表型的真實世界經驗 |
+| [42839285](https://pubmed.ncbi.nlm.nih.gov/42839285/) | 2026 | Cohort | Respir Res | 德國多中心 COPD 真實世界分析，dupilumab 在第 2 型發炎 COPD 的效果 |
+| [32428511](https://pubmed.ncbi.nlm.nih.gov/32428511/) | 2020 | Cohort | Chest | 抗第 2 型生物製劑對依賴 prednisone 之氣喘患者肺通氣（MRI）的影響 |
+| [42773542](https://pubmed.ncbi.nlm.nih.gov/42773542/) | 2026 | Review | Eur J Clin Invest | COPD 管理更新：從發炎路徑到標靶治療 |
+| [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | Review | Tuberc Respir Dis | 預防 COPD 急性惡化的藥物治療綜述 |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Review | Expert Opin Pharmacother | 氣喘合併吸菸相關氣道疾病（含慢性支氣管炎）的治療挑戰 |
+| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Review | Pediatr Pulmonol | 嗜酸性兒童塑型性支氣管炎的新療法 |
+| [41672525](https://pubmed.ncbi.nlm.nih.gov/41672525/) | 2026 | 病例報告 | Intern Med | 2 例嗜酸性細支氣管炎，以 dupilumab 與 benralizumab 等生物製劑治療成功 |
+
+---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 廠商 |
-|---------|------|------|------|
-| HK-68621 | DUPIXENT 預充填筆 300MG/2ML | 注射液 | SANOFI HONG KONG LIMITED |
-| HK-65961 | DUPIXENT 預充填針筒 300MG/2ML（附護針套） | 注射液 | SANOFI HONG KONG LIMITED |
-| HK-66635 | DUPIXENT 預充填針筒 200MG/1.14ML（附護針套） | 注射液 | SANOFI HONG KONG LIMITED |
-| HK-68620 | DUPIXENT 預充填筆 200MG/1.14ML | 注射液 | SANOFI HONG KONG LIMITED |
+| 許可證號 | 品名 | 劑型 | 核准適應症 |
+|---------|------|------|-----------|
+| HK-68621 | DUPIXENT 預充填注射筆 300MG/2ML | 注射劑 | 資料未載明 |
+| HK-65961 | DUPIXENT 預充填注射器 300MG/2ML（附針頭護套） | 注射劑 | 資料未載明 |
+| HK-66635 | DUPIXENT 預充填注射器 200MG/1.14ML（附針頭護套） | 注射劑 | 資料未載明 |
+| HK-68620 | DUPIXENT 預充填注射筆 200MG/1.14ML | 注射劑 | 資料未載明 |
+
+---
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **藥物交互作用**：已查得 53 筆交互作用紀錄，主要如下：
+  - **重大（Major）**：adalimumab、baricitinib、certolizumab pegol、cladribine，多為免疫抑制疊加的考量。
+  - **中度（Moderate）**：warfarin、roflumilast、cyclosporine、azathioprine、denosumab、dimethyl fumarate 等。
+  - **輕微（Minor）**：各種鋅鹽類。
+- **其他文獻提示的風險**：dupilumab 相關頭頸部皮膚炎（PMID 38565563）、結膜炎或眼瞼炎，以及乾癬樣或膿疱性皮疹的個案報告。
+
+其餘警語與禁忌症請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：Hold（列為研究問題）**
 
 **理由：**
-- 沒有任何試驗直接針對支氣管炎，現有證據都來自氣喘、COPD 與鼻竇炎，屬間接推論（證據等級 L4）。
-- 機轉上只適用於嗜酸性或第二型亞型，尚不能推廣到一般支氣管炎。
+- 唯一列出的試驗針對慢性鼻竇炎而非支氣管炎，文獻支持也僅限氣喘與第 2 型 COPD 等特定表型，對「支氣管炎」本身屬間接證據。
+- 「支氣管炎」並非明確定義的適應症，模型高分不等同於臨床可行性。
 
 **若要推進需要：**
-- 將問題縮小為具體亞型（例如嗜酸性支氣管炎、COPD 合併慢性支氣管炎），並以第二型生物標記（血中嗜酸性球、FeNO）篩選族群。
-- 設計或尋找針對該亞型的 RCT。
-- 取得香港衛生署仿單的警語與禁忌資料，並補齊 DrugBank 作用機轉。
+- 明確界定目標表型（例如第 2 型發炎、嗜酸性球偏高的慢性支氣管炎型 COPD，或嗜酸性塑型性支氣管炎），並確認與已核准的 COPD 適應症之關係。
+- 針對該表型設計前瞻性對照試驗，或取得更多第 2 型 COPD 的 RCT 數據。
+- 補充作用機轉資料與香港仿單的警語及禁忌症。
+- 確認香港核准適應症範圍，評估是否屬於仿單外使用。
 
-**補充：** 同一份預測清單中，排名第 2 的「皮膚炎」（限縮為特應性皮膚炎）有多個已完成的 Phase 3 RCT（證據等級 L1）。但特應性皮膚炎是 Dupilumab 既有的核准適應症，屬於既有適應症的確認，並非真正的老藥新用，建議另案評估，並核對香港許可證的實際核准適應症。
+---
 
-*本報告僅供研究參考，不構成醫療建議；預測結果需經臨床驗證。*
+**補充說明（其他預測）：**
+預測清單中的第 2 名「皮膚炎 (dermatitis)」得分 99.71%，有多項已完成的 Phase 3 RCT（證據等級 L1），但異位性皮膚炎本身即為原核准適應症，並非真正的再利用。其中值得留意的延伸方向為異位性手足皮膚炎（NCT04417894）。其餘預測（如新生兒皮肌炎、糖尿病視網膜病變等）幾乎沒有證據支持，建議維持 Hold。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

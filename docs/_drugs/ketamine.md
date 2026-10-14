@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ketamine
-parent: 中證據等級 (L3-L4)
-nav_order: 488
-evidence_level: L3
+parent: 高證據等級 (L1-L2)
+nav_order: 496
+evidence_level: L2
 indication_count: 1
 ---
 
 # Ketamine
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **1** 個
+證據等級: **L2** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,98 +29,97 @@ indication_count: 1
 
 </div>
 
-# Ketamine：從許可證未載明適應症到頭痛疾患 (Headache Disorder)
+# Ketamine：從麻醉用途到頭痛疾患
 
 ## 一句話總結
 
-Ketamine 在香港有 4 張注射劑許可證，但許可證資料未載明原適應症。
-TxGNN 模型預測它可能對**頭痛疾患 (Headache Disorder)** 有效。
-檢索到 39 個臨床試驗和 19 篇文獻，其中直接針對頭痛的有 **9 個臨床試驗**和 **1 篇回溯性世代研究**，但多數規模小，且尚無已提供的療效結果。
+Ketamine（氯胺酮）是一種 NMDA 受體拮抗劑，在香港以注射劑形式上市。
+TxGNN 模型預測它可能對**頭痛疾患 (Headache Disorder)** 有效，
+目前有 **9 個臨床試驗**和 **20 篇文獻**支持這個方向，其中 1 個 Phase 3 隨機試驗已完成。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證資料未載明 |
+| 原適應症 | 香港許可證未列載適應症文字 |
 | 預測新適應症 | 頭痛疾患 (Headache Disorder) |
 | TxGNN 預測分數 | 99.33% |
-| 證據等級 | L3 |
+| 證據等級 | L2 |
 | 香港上市 | ✓ 已上市 |
 | 許可證數 | 4 張 |
-| 建議決策 | Hold |
+| 建議決策 | Proceed with Guardrails |
+
+> 說明：已完成的 Phase 3 RCT 只有 1 個（THINK 試驗），未達 L1 的「≥2 個」門檻，故依判定規則評為 L2。
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料，資料庫中的 MOA 欄位是空白的。以下推論來自 Ketamine 的一般藥理知識，而非本次提供的紀錄：Ketamine 是 NMDA 受體拮抗劑。
+目前缺乏詳細的作用機轉資料，以下機轉連結是依據 Ketamine 已知藥理推論，並非來自所提供的藥物紀錄。Ketamine 是 NMDA 受體拮抗劑。麩胺酸訊號與中樞敏化被認為和偏頭痛、叢集性頭痛及慢性頭痛有關。
 
-偏頭痛、叢集性頭痛和難治性頭痛，都可能牽涉麩胺酸 (glutamate) 訊號傳遞和中樞敏感化 (central sensitization)。若 NMDA 拮抗能逆轉這種受體介導的敏感化，機轉上就有理由用於頑固型頭痛。部分臨床試驗（如 KetHead）正是以此為假說。
+阻斷 NMDA 受體，可能抑制皮質擴散性抑制（cortical spreading depression）、三叉神經血管痛覺傳導與中樞敏化，因此在難治型或急性頭痛上有合理的止痛作用。
 
-TxGNN 的 99.33% 分數只是計算預測，不是臨床證據。原適應症與新適應症之間的相似性分析，也因原適應症資料缺漏而無法進行。
+此外，相關的系統性回顧與回溯性世代研究（見下方文獻）已探討 Ketamine 對偏頭痛及其他原發性頭痛的效果，與模型預測方向一致。原適應症與新適應症的相似度分析目前尚無資料。
 
 ## 臨床試驗證據
 
-下表列出直接針對頭痛的試驗。其餘 30 個試驗涉及鐵鐮型貧血疼痛、憂鬱症、術後鎮痛等其他適應症，或並未測試 Ketamine，不列入。
-
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT03081416](https://clinicaltrials.gov/study/NCT03081416) | Phase 3 | 完成 | 80 | THINK 試驗：急診原發性頭痛，鼻內亞麻醉劑量 Ketamine 對比標準治療，單盲、安慰劑對照（未提供結果） |
-| [NCT02657031](https://clinicaltrials.gov/study/NCT02657031) | Phase 4 | 完成 | 54 | 急診頭痛，低劑量 Ketamine 對比 Compazine，雙盲隨機（未提供結果） |
-| [NCT02697071](https://clinicaltrials.gov/study/NCT02697071) | NA | 完成 | 34 | 急診急性偏頭痛型頭痛，亞麻醉劑量 Ketamine 對比安慰劑（未提供結果） |
-| [NCT03221569](https://clinicaltrials.gov/study/NCT03221569) | Phase 4 | 未知 | 60 | 全身性緊張型頭痛，靜脈 Ketamine 對比 Ketorolac；狀態未知，無結果 |
-| [NCT05306899](https://clinicaltrials.gov/study/NCT05306899) | Phase 3 | 招募中 | 56 | KetHead：慢性每日頭痛，高劑量靜脈 Ketamine 輸注對比安慰劑 |
-| [NCT04814381](https://clinicaltrials.gov/study/NCT04814381) | Phase 4 | 招募中 | 90 | 難治性慢性叢集性頭痛，單次 Ketamine 併用硫酸鎂輸注 |
-| [NCT04179266](https://clinicaltrials.gov/study/NCT04179266) | Phase 1/2 | 完成 | 23 | 慢性叢集性頭痛，Ketamine 鼻噴劑概念驗證（未提供結果） |
-| [NCT06608277](https://clinicaltrials.gov/study/NCT06608277) | Phase 2 | 招募中 | 175 | 創傷性腦損傷相關頭痛與 PTSD，Ketamine、星狀神經節阻斷及合併治療對比假處置 |
-| [NCT04860713](https://clinicaltrials.gov/study/NCT04860713) | Phase 4 | 完成 | 5 | 急診急性頭痛，口服 Ketamine + Aspirin 對比 Rimegepant，僅 5 人，屬可行性規模 |
-
-**證據限制：**
-- 已完成的試驗中，本次資料都沒有提供結果數據。
-- 其中 NCT03081416 是唯一已完成、且直接針對頭痛的 Phase 3 隨機試驗，但只有 1 個。
-- 目前尚無法確認 Ketamine 對頭痛有效。
+| [NCT03081416](https://clinicaltrials.gov/study/NCT03081416) | Phase 3 | 完成 | 80 | THINK 試驗：鼻內 Ketamine 對比標準治療用於急診原發性頭痛（結果未提供） |
+| [NCT05306899](https://clinicaltrials.gov/study/NCT05306899) | Phase 3 | 招募中 | 56 | KetHead：高劑量靜脈 Ketamine 用於慢性每日頭痛，尚無療效數據 |
+| [NCT04814381](https://clinicaltrials.gov/study/NCT04814381) | Phase 4 | 完成 | 93 | 單次 Ketamine 併用硫酸鎂治療難治型慢性叢集性頭痛 |
+| [NCT02657031](https://clinicaltrials.gov/study/NCT02657031) | Phase 4 | 完成 | 54 | 急診低劑量 Ketamine 對比 Compazine 控制頭痛 |
+| [NCT03221569](https://clinicaltrials.gov/study/NCT03221569) | Phase 4 | 狀態未知 | 60 | Ketamine 對比 Ketorolac 治療緊張型頭痛 |
+| [NCT02697071](https://clinicaltrials.gov/study/NCT02697071) | N/A | 完成 | 34 | 安慰劑對照：次麻醉劑量 Ketamine 治療急診急性偏頭痛型頭痛 |
+| [NCT04179266](https://clinicaltrials.gov/study/NCT04179266) | Phase 1/2 | 完成 | 23 | 鼻內 Ketamine 噴劑治療慢性叢集性頭痛的概念驗證 |
+| [NCT04860713](https://clinicaltrials.gov/study/NCT04860713) | Phase 4 | 完成 | 5 | 口服 Ketamine + 阿斯匹靈對比 Rimegepant；樣本過小，難下結論 |
+| [NCT02403687](https://clinicaltrials.gov/study/NCT02403687) | N/A | 完成 | 300 | PACE 研究：一般鎮痛複方觀察研究，與 Ketamine 頭痛的關聯不明確 |
 
 ## 文獻證據
 
-19 篇文獻中，多數是憂鬱症（含 Esketamine）研究，與頭痛無關，不列入。下表為與頭痛或相關疼痛較相關的文獻。
-
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [35356451](https://pubmed.ncbi.nlm.nih.gov/35356451/) | 2022 | 回溯性世代研究 | Front Neurol | 評估 Lidocaine 與 Ketamine 輸注用於住院頭痛疾患的療效、持續時間與安全性；先前僅有小型病例系列支持（摘要未提供結果數值） |
-| [34919214](https://pubmed.ncbi.nlm.nih.gov/34919214/) | 2022 | Review | Drugs | 叢集性頭痛急性與預防性藥物治療回顧；摘要未顯示 Ketamine 的具體結論 |
-| [38870050](https://pubmed.ncbi.nlm.nih.gov/38870050/) | 2024 | Review | Expert Rev Neurother | 三叉神經痛藥物治療更新，指出 Ketamine 與大麻素類可能是有潛力的輔助或單一治療選項 |
-| [37421541](https://pubmed.ncbi.nlm.nih.gov/37421541/) | 2023 | Review | Curr Pain Headache Rep | 複雜性區域疼痛症候群 (CRPS) 的證據回顧；屬相關疼痛，並非頭痛 |
+| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | 指引 | Headache | 美國頭痛學會更新急診偏頭痛急性治療的注射藥物證據評估 |
+| [34703891](https://pubmed.ncbi.nlm.nih.gov/34703891/) | 2021 | 系統性回顧 | J Dent Anesth Pain Med | 評估 Ketamine 對偏頭痛及其他原發性頭痛，相較安慰劑與其他藥物的療效 |
+| [36310189](https://pubmed.ncbi.nlm.nih.gov/36310189/) | 2023 | 系統性回顧與統合分析 | J Neurol | 難治型慢性叢集性頭痛的預防性治療 |
+| [35356451](https://pubmed.ncbi.nlm.nih.gov/35356451/) | 2022 | 回溯性世代研究 | Front Neurol | 靜脈 Lidocaine 與 Ketamine 輸注用於頭痛疾患的療效、持續時間與安全性 |
+| [34919214](https://pubmed.ncbi.nlm.nih.gov/34919214/) | 2022 | Review | Drugs | 叢集性頭痛的藥物治療回顧 |
+| [32189074](https://pubmed.ncbi.nlm.nih.gov/32189074/) | 2020 | Review | Curr Neurol Neurosci Rep | 成人頭痛的急診與住院處置 |
+| [32410204](https://pubmed.ncbi.nlm.nih.gov/32410204/) | 2020 | Review | Curr Neurol Neurosci Rep | 兒童與青少年頭痛的急診與住院處置 |
+| [38870050](https://pubmed.ncbi.nlm.nih.gov/38870050/) | 2024 | Review | Expert Rev Neurother | 三叉神經痛藥物更新，Ketamine 可能作為輔助或單一治療選項 |
+| [35416105](https://pubmed.ncbi.nlm.nih.gov/35416105/) | 2022 | Review | Expert Opin Drug Saf | Ketamine 與 Esketamine 治療憂鬱症的長期安全性 |
+| [38914860](https://pubmed.ncbi.nlm.nih.gov/38914860/) | 2024 | RCT | Nat Med | 緩釋 Ketamine 錠劑治療難治型憂鬱症的 Phase 2 試驗（非頭痛，屬間接資料） |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-07901 | KETALAR INJ 10MG/ML（輝瑞） | 未載明 | 未載明 |
-| HK-07197 | KETALAR INJ 50MG/ML（輝瑞） | 未載明 | 未載明 |
-| HK-61875 | KETAMINE-HAMELN SOLUTION FOR INJECTION 50MG/ML（MEKIM） | 未載明 | 未載明 |
-| HK-37715 | KETAMINE INJ 10% (VET)（ALFAMEDIC） | 未載明 | 未載明 |
+| HK-37715 | KETAMINE INJ 10% (VET) | 注射劑 | 未提供 |
+| HK-07901 | KETALAR INJ 10MG/ML | 注射劑 | 未提供 |
+| HK-61875 | KETAMINE-HAMELN SOLUTION FOR INJECTION 50MG/ML | 注射劑 | 未提供 |
+| HK-07197 | KETALAR INJ 50MG/ML | 注射劑 | 未提供 |
 
-HK-37715 品名標示為獸醫用 (VET)，與人類用藥的評估無直接關係。四張許可證均為注射劑型。
+> 註：HK-37715 的品名標示為獸醫用（VET）。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
+- **知識圖譜標示的禁忌疾病**（來自藥物－疾病關聯資料，非仿單文字）：高血壓、腦中風與腦血管疾患、心肌梗塞、冠狀動脈疾病與心肌缺血、物質濫用／依賴、呼吸衰竭、甲狀腺功能亢進（含 Graves 病）、譫妄、顱內高壓（含假性腦瘤）、高眼壓、血紅素病變。
+- **藥物交互作用**：共查得 100 筆，以下為部分中度交互作用：Morphine、Diphenoxylate、Dronabinol、Metoclopramide、Nabilone、Opium（可能增加中樞抑制）；Sibutramine、Phentermine、Ephedrine、Fenfluramine、Isometheptene、外用 Epinephrine（可能加重心血管刺激）。
+- 其他警語與正式禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：Proceed with Guardrails**
 
 **理由：**
-- 頭痛相關試驗規模小（5 至 175 人），已完成者均未提供結果，證據等級僅為 L3。
-- 香港仿單的警語與禁忌資料缺漏，屬於阻斷性資料缺口 (DG001)，無法進入 S1 安全性篩選。目前定位是研究問題 (Research Question)。
+- 已有 1 個完成的 Phase 3 RCT（THINK）及多個 Phase 4／隨機試驗直接測試 Ketamine 於頭痛，另有一項 Phase 3 試驗進行中，方向一致且機轉合理。
+- 但已完成試驗的結果數據未提供，樣本普遍偏小，且心血管、顱內壓、濫用風險明確，需設置安全防護。
 
 **若要推進需要：**
-- 取得香港衛生署 (Department of Health) 的仿單，補齊警語、禁忌與適應症資料。
-- 補上 DrugBank 的作用機轉資料，強化機轉連結分析。
-- 取得 NCT03081416、NCT02657031、NCT02697071 的結果或已發表論文，確認療效與安全性。
-- 追蹤 KetHead (NCT05306899) 與 NCT04814381 的最終結果。
-- 確認給藥途徑相容性：試驗使用靜脈、鼻內和口服，香港許可證均為注射劑型，此項目目前尚未評估。
-- 由臨床專家審閱試驗與文獻的相關性，目前多筆仍待審。
-
-本報告結果僅供研究參考，不構成醫療建議。預測的適應症需經臨床驗證後才能應用。
+- 取得 THINK（NCT03081416）及其他已完成試驗的實際療效與安全性結果。
+- 追蹤 KetHead（NCT05306899）的結果。
+- 補齊香港仿單的警語、禁忌症與核准適應症。
+- 補充 DrugBank 的作用機轉資料。
+- 確認給藥途徑（靜脈、鼻內等）與香港現有注射劑型的相容性。
+- 制定篩選高血壓、心腦血管疾病、顱內高壓及物質濫用病史的排除標準，並規劃血壓與精神症狀監測。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。
