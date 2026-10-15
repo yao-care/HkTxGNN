@@ -15,9 +15,8 @@
         "display": "DB00727"
       }
     ],
-    "text": "DB00002"
+    "text": "nitroglycerin"
   },
-  "synonym": [],
   "intendedJurisdiction": [
     {
       "coding": [
@@ -42,10 +41,5 @@
       ]
     }
   ],
-  "extension": [
-    {
-      "url": "https://hktxgnn.yao.care/fhir/StructureDefinition/prediction-source",
-      "valueString": "TxGNN Knowledge Graph"
-    }
-  ]
+  "extension": []
 }

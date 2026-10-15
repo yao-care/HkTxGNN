@@ -15,9 +15,8 @@
         "display": "DB13588"
       }
     ],
-    "text": "DB00002"
+    "text": "naftidrofuryl"
   },
-  "synonym": [],
   "intendedJurisdiction": [
     {
       "coding": [
@@ -42,10 +41,5 @@
       ]
     }
   ],
-  "extension": [
-    {
-      "url": "https://hktxgnn.yao.care/fhir/StructureDefinition/prediction-source",
-      "valueString": "TxGNN Knowledge Graph"
-    }
-  ]
+  "extension": []
 }
