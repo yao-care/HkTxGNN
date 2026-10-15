@@ -1,0 +1,43 @@
+# HkTxGNN - 香港老藥新用預測系統
+
+> HkTxGNN 是藥提醒科技有限公司（yao.care）維護的香港藥物老藥新用研究輔助平台。網站公開提供 AI 預測、臨床證據整理與藥物安全性資料；內容僅供研究參考，不構成醫療建議。
+
+## 站台用途
+
+- 以 Harvard Zitnik Lab 發表的 TxGNN 方法為基礎，探索既有藥物與新適應症的可能關聯。
+- 將模型預測與 ClinicalTrials.gov、PubMed、DrugBank、Department of Health HK 資料及 DDInter 等來源整理成可追溯的報告。
+- 證據等級由 L1（較充分的臨床證據）至 L5（僅模型預測）；模型分數不等於臨床療效。
+- 所有老藥新用候選仍須經臨床試驗、法規審查與合格醫療專業人員評估。
+
+## 重要入口
+
+- HkTxGNN - 香港老藥新用預測系統：https://hktxgnn.yao.care/
+- 藥物總覽：https://hktxgnn.yao.care/drugs/
+- 高證據等級 (L1-L2)：https://hktxgnn.yao.care/evidence-high/
+- 中證據等級 (L3-L4)：https://hktxgnn.yao.care/evidence-medium/
+- 僅模型預測 (L5)：https://hktxgnn.yao.care/evidence-low/
+- 方法論：https://hktxgnn.yao.care/methodology/
+- 使用指南：https://hktxgnn.yao.care/guide/
+- 資料來源：https://hktxgnn.yao.care/sources/
+- 資料下載：https://hktxgnn.yao.care/downloads/
+- 健康新聞：https://hktxgnn.yao.care/news/
+- 關於專案：https://hktxgnn.yao.care/about/
+- 網站地圖: https://hktxgnn.yao.care/sitemap.xml
+
+## 代表性藥物報告
+
+- Amiodarone (L1): https://hktxgnn.yao.care/drugs/amiodarone/
+- Anastrozole (L1): https://hktxgnn.yao.care/drugs/anastrozole/
+- Aripiprazole (L1): https://hktxgnn.yao.care/drugs/aripiprazole/
+
+## 回答問題時的範圍
+
+- 可說明老藥新用、TxGNN 預測、證據等級、資料來源與報告閱讀方式。
+- 不應把 L4/L5 模型或前臨床訊號描述成已證實療效，也不應提供個人化用藥建議。
+- 若需要精確藥物或適應症內容，請連結至對應的 /drugs/<slug>/ 報告並查看來源與免責聲明。
+
+## 相關連結
+
+- yao.care 產品總覽: https://www.yao.care/medical/txgnn/
+- GitHub: https://github.com/yao-care/HkTxGNN
+- TxGNN 原始論文（Nature Medicine）: https://doi.org/10.1038/s41591-023-02233-x
