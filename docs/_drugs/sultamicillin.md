@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 842
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Sultamicillin：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L3）。原適應症：目前資料未載明"
 ---
 
 # Sultamicillin

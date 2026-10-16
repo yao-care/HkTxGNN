@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 881
 evidence_level: L1
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Tiotropium：預測新適應症為阻塞性肺病 (Obstructive Lung Disease)（證據等級 L1）。原適應症：支氣管炎、氣喘、肺氣腫"
 ---
 
 # Tiotropium

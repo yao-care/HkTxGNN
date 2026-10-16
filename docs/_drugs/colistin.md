@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Colistin：預測新適應症為感染後血管炎 (Postinfectious Vasculitis)（證據等級 L5）。原適應症：大腸桿菌感染、外耳炎、外耳疾病"
 ---
 
 # Colistin

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 18
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Acetazolamide：預測新適應症為運動誘發惡性高熱 (Exercise-induced Malignant Hyperthermia)（證據等級 L5）。原適應症：失神型癲癇、充血性心衰竭、開角型青光眼、閉角型青光眼、高山症"
 ---
 
 # Acetazolamide

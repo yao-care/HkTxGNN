@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 268
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Dexmedetomidine：預測新適應症為頭痛疾患 (Headache Disorder)，證據集中於硬脊膜穿刺後頭痛（證據等級 L5）。原適應症：目前香港許可證資料中未載明核准適應症"
 ---
 
 # Dexmedetomidine

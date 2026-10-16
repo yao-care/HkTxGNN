@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 144
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Caffeine：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L4）。原適應症：過敏性鼻炎、血管運動性鼻炎、偏頭痛、咽炎、感冒、鼻咽炎、叢集性頭痛等"
 ---
 
 # Caffeine

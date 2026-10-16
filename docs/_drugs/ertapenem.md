@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 336
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Ertapenem：預測新適應症為細菌性關節炎 (Bacterial Arthritis)（證據等級 L4）。原適應症：細菌性肺炎、鏈球菌肺炎、消化鏈球菌感染"
 ---
 
 # Ertapenem

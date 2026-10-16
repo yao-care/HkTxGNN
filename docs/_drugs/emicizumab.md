@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Emicizumab：預測新適應症為後天性凝血因子缺乏 (Acquired coagulation factor deficiency)，以後天性血友病 A 為主（證據等級 L5）。原適應症：血友病（hemophilia）、女性帶因者的症狀性血友病"
 ---
 
 # Emicizumab

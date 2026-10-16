@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 376
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Filgrastim：預測新適應症為血小板釋放障礙 (Primary release disorder of platelets)（證據等級 L5）。原適應症：體質性嗜中性白血球低下症、嚴重先天性嗜中性白血球低下症、週期性造血異常、慢性家族性嗜中性白血球低下症"
 ---
 
 # Filgrastim

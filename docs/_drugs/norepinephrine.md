@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 628
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Norepinephrine：預測新適應症為阻塞性肺病 (Obstructive Lung Disease)（證據等級 L5）。原適應症：香港許可證未登載適應症文字"
 ---
 
 # Norepinephrine

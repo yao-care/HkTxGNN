@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 902
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Tretinoin：預測新適應症為類風濕性結節病 (Rheumatoid Nodulosis)（證據等級 L5）。原適應症：痤瘡、急性前骨髓細胞白血病、後天性角化症、掌蹠角化症"
 ---
 
 # Tretinoin

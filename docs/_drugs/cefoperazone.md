@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 171
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cefoperazone：預測新適應症為肺炎 (Pneumonia)（證據等級 L1）。原適應症：資料中未提供許可證核准適應症文字"
 ---
 
 # Cefoperazone

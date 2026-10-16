@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 215
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Clofarabine：預測新適應症為骨髓性白血病 (Myeloid Leukemia)（證據等級 L1）。原適應症：急性淋巴性白血病"
 ---
 
 # Clofarabine

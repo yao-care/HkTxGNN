@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 642
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Olodaterol：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L4）。原適應症：慢性阻塞性肺病 (COPD)"
 ---
 
 # Olodaterol

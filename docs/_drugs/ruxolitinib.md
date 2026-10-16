@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 793
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Ruxolitinib：預測新適應症為子宮體血管周上皮樣細胞腫瘤 (uterine corpus perivascular epithelioid cell tumor)（證據等級 L5）。原適應症：真性紅血球增多症、骨髓增生性腫瘤、原發性骨髓纖維化等"
 ---
 
 # Ruxolitinib

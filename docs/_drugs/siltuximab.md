@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 813
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Siltuximab：預測新適應症為TAFRO 症候群 (TAFRO syndrome)（證據等級 L5）。原適應症：Castleman 病、Kimura 病"
 ---
 
 # Siltuximab

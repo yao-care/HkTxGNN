@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 486
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Isoflurane：預測新適應症為Prinzmetal 心絞痛 (Prinzmetal angina)（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症（依藥物類別為吸入性全身麻醉）"
 ---
 
 # Isoflurane

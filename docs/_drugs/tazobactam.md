@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 851
 evidence_level: L1
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Tazobactam：預測新適應症為肺炎 (Pneumonia)（證據等級 L1）。原適應症：細菌性肺炎、腹膜炎、闌尾炎、金黃色葡萄球菌感染"
 ---
 
 # Tazobactam

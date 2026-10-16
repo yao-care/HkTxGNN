@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 587
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Milnacipran：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L3）。原適應症：纖維肌痛症、肌筋膜疼痛症候群"
 ---
 
 # Milnacipran

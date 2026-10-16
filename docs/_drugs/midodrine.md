@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 586
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Midodrine：預測新適應症為低血壓性疾患 (Hypotensive disorder)（證據等級 L5）。原適應症：姿位性低血壓、多系統萎縮、姿勢性心搏過速症候群"
 ---
 
 # Midodrine

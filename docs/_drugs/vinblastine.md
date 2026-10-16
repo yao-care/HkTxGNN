@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 936
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Vinblastine：預測新適應症為橫紋肌肉瘤 (Rhabdomyosarcoma)（證據等級 L3）。原適應症：蕈樣肉芽腫、皮膚 T 細胞淋巴瘤、霍奇金氏淋巴瘤、非霍奇金氏淋巴瘤、外套細胞淋巴瘤、蘭格漢斯細胞組織球增生症"
 ---
 
 # Vinblastine

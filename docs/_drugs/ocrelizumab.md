@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 635
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Ocrelizumab：預測新適應症為HER2 陽性乳癌 (HER2 positive breast carcinoma)（證據等級 L5）。原適應症：進行性多發性硬化症"
 ---
 
 # Ocrelizumab

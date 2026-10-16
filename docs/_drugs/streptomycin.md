@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 835
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Streptomycin：預測新適應症為結膜炎 (Conjunctivitis)（證據等級 L4）。原適應症：肺結核、軟性下疳、鉤端螺旋體病、性病性淋巴肉芽腫、雅司病、壞死性潰瘍性牙齦炎、布氏桿菌病、兔熱病、鼠疫、腹股溝肉芽腫"
 ---
 
 # Streptomycin

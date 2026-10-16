@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 672
 evidence_level: L1
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Peginterferon Alfa-2A：預測新適應症為B 型肝炎病毒感染 (Hepatitis B Virus Infection)（證據等級 L1）。原適應症：慢性 C 型肝炎、C 型肝炎病毒感染、慢性 B 型肝炎"
 ---
 
 # Peginterferon Alfa-2A

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Distigmine：預測新適應症為胸腺增生型重症肌無力 (Myasthenia Gravis with Thymus Hyperplasia)（證據等級 L5）。原適應症：重症肌無力、成人型重症肌無力、神經肌肉接合部疾病、急性膀胱炎"
 ---
 
 # Distigmine

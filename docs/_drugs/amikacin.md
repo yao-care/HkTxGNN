@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 49
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Amikacin：預測新適應症為副傷寒 (Paratyphoid Fever)（證據等級 L5）。原適應症：細菌性肺炎、綠膿桿菌感染、膽管炎、細菌性腦膜炎、大腸桿菌感染等"
 ---
 
 # Amikacin

@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 685
 evidence_level: L1
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Pertuzumab：預測新適應症為黃體素受體陽性乳癌 (Progesterone-receptor positive breast cancer)（證據等級 L1）。原適應症：HER2 陽性乳癌（HER2 positive breast carcinoma）"
 ---
 
 # Pertuzumab

@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 212
 evidence_level: L3
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Clobetasol：預測新適應症為原發性皮膚 T 細胞淋巴瘤 (Primary Cutaneous T-cell Lymphoma)（證據等級 L3）。原適應症：香港許可證資料未載明"
 ---
 
 # Clobetasol

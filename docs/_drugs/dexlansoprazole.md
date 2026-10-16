@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 267
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dexlansoprazole：預測新適應症為活動性消化性潰瘍 (Active Peptic Ulcer Disease)（證據等級 L1）。原適應症：消化性潰瘍、胃食道逆流症、食道炎"
 ---
 
 # Dexlansoprazole

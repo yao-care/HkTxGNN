@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 38
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Aliskiren：預測新適應症為原因不明的多因素肺動脈高壓（pulmonary hypertension with unclear multifactorial mech…（證據等級 L5）。原適應症：高血壓"
 ---
 
 # Aliskiren

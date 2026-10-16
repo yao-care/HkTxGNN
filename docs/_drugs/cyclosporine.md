@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 236
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Cyclosporine：預測新適應症為慢性肉芽腫病，體染色體隱性 (Granulomatous disease, chronic, autosomal recessive)（證據等級 L4）。原適應症：類風濕性關節炎、乾眼症、角結膜乾燥症、修格連氏症候群"
 ---
 
 # Cyclosporine

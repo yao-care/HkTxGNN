@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 557
 evidence_level: L2
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Mefenamic Acid：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L2）。原適應症：資料未載明"
 ---
 
 # Mefenamic Acid

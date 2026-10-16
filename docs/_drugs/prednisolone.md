@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 726
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Prednisolone：預測新適應症為圓形禿 (Alopecia Areata)（證據等級 L5）。原適應症：自體免疫疾病、腎上腺皮質功能不全、克隆氏症、急性淋巴性白血病等"
 ---
 
 # Prednisolone

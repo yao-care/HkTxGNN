@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 145
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Calcifediol：預測新適應症為維生素 D 缺乏症（本體論中已標示為過時術語）（證據等級 L5）。原適應症：高血鈣症、腎鈣質沉著症、磷代謝疾病、低磷血症、佝僂病、骨軟化症、腎性骨病變"
 ---
 
 # Calcifediol

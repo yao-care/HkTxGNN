@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 599
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Morphine：預測新適應症為肌筋膜疼痛症候群 (Myofascial Pain Syndrome)（證據等級 L5）。原適應症：腹瀉性疾病"
 ---
 
 # Morphine

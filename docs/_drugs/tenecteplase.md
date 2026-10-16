@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 857
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Tenecteplase：預測新適應症為後下壁心肌梗塞 (Posteroinferior Myocardial Infarction)（證據等級 L5）。原適應症：心肌梗塞、冠狀動脈血栓"
 ---
 
 # Tenecteplase

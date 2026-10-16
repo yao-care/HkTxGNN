@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 757
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Ranitidine：預測新適應症為活動性消化性潰瘍 (Active Peptic Ulcer Disease)（證據等級 L5）。原適應症：胃潰瘍、胃食道逆流、食道炎、消化不良、十二指腸潰瘍、Zollinger-Ellison 症候群等"
 ---
 
 # Ranitidine

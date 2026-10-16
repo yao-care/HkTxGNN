@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 691
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Phentermine：預測新適應症為維生素過多症 (Hypervitaminosis)（證據等級 L5）。原適應症：肥胖症、單基因肥胖、低血壓"
 ---
 
 # Phentermine

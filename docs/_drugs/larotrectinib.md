@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 512
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Larotrectinib：預測新適應症為多發性內分泌腫瘤 (Multiple Endocrine Neoplasia)（證據等級 L3）。原適應症：香港許可證資料未載明（依藥理類別，核准用途為 NTRK 融合陽性實體腫瘤）"
 ---
 
 # Larotrectinib

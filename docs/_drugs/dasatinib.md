@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 248
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dasatinib：預測新適應症為尤文氏肉瘤 (Ewing sarcoma)（證據等級 L5）。原適應症：慢性骨髓性白血病（BCR-ABL1 陽性）、慢性骨髓性白血病急性母細胞期"
 ---
 
 # Dasatinib

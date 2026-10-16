@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 568
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Metformin：預測新適應症為典型僵人症候群 (Classic Stiff Person Syndrome)（證據等級 L5）。原適應症：第二型糖尿病 (Type 2 Diabetes Mellitus)"
 ---
 
 # Metformin

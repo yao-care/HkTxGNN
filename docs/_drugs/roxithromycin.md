@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 791
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Roxithromycin：預測新適應症為痲瘋病 (Leprosy)（證據等級 L3）。原適應症：呼吸道、泌尿道及軟組織感染"
 ---
 
 # Roxithromycin

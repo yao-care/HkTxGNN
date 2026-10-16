@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 310
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Efmoroctocog Alfa：預測新適應症為偽性血管性血友病 (pseudo-von Willebrand disease)（證據等級 L5）。原適應症：血友病（hemophilia）"
 ---
 
 # Efmoroctocog Alfa

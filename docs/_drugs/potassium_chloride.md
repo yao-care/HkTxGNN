@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 718
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Potassium Chloride：預測新適應症為腎小管酸中毒 (Renal Tubular Acidosis)（證據等級 L4）。原適應症：缺鉀症（potassium deficiency disease）、便秘（constipation disorder）"
 ---
 
 # Potassium Chloride

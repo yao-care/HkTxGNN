@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 766
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Resorcinol：預測新適應症為瘢痕疙瘩性痤瘡 (Acne Keloid)（證據等級 L5）。原適應症：痤瘡、皮膚炎、痤瘡樣皮膚炎"
 ---
 
 # Resorcinol

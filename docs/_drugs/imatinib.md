@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 459
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Imatinib：預測新適應症為心臟纖維肉瘤 (Heart Fibrosarcoma)（證據等級 L4）。原適應症：系統性肥大細胞增生症、胃腸道間質瘤、BCR-ABL1 陽性慢性骨髓性白血病、慢性嗜酸性白血病、隆突性皮膚纖維肉瘤、嗜酸性白血球增多症候群"
 ---
 
 # Imatinib

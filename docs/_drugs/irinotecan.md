@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 484
 evidence_level: L3
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Irinotecan：預測新適應症為女性乳癌 (Female Breast Carcinoma)（證據等級 L3）。原適應症：結腸癌轉移、胰腺癌"
 ---
 
 # Irinotecan

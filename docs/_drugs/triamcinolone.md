@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 903
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Triamcinolone：預測新適應症為禿髮性黏蛋白症 (Alopecia Mucinosa)（證據等級 L5）。原適應症：自體免疫疾病、克隆氏症／發炎性腸道疾病、腎上腺功能不全、先天性腎上腺增生等"
 ---
 
 # Triamcinolone

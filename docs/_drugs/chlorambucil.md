@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 184
 evidence_level: L4
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Chlorambucil：預測新適應症為慢性淋巴球性白血病/小淋巴球淋巴瘤（伴免疫球蛋白重鏈可變區基因體細胞高度突變）（證據等級 L4）。原適應症：何杰金氏淋巴瘤、濾泡性淋巴瘤、成熟 B 細胞腫瘤、急性淋巴母細胞白血病、Richter 症候群"
 ---
 
 # Chlorambucil

@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 157
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Carbamazepine：預測新適應症為三叉神經腫瘤 (trigeminal nerve neoplasm)（證據等級 L4）。原適應症：癲癇、躁鬱症、三叉神經痛、舌咽神經痛等"
 ---
 
 # Carbamazepine

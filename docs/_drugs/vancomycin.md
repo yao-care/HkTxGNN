@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 925
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Vancomycin：預測新適應症為瀰漫性硬皮症 (Diffuse Scleroderma)（證據等級 L5）。原適應症：困難梭狀芽孢桿菌結腸炎、金黃色葡萄球菌感染、心內膜炎、細菌性關節炎、葡萄球菌肺炎等"
 ---
 
 # Vancomycin

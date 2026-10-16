@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 200
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ciprofloxacin：預測新適應症為瀰漫性硬皮病 (Diffuse Scleroderma)（證據等級 L4）。原適應症：傷寒、沙門氏菌感染、副傷寒、細菌性肺炎、炭疽、痢疾、志賀氏菌病等細菌感染"
 ---
 
 # Ciprofloxacin

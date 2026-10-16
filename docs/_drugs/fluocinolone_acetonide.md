@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 387
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Fluocinolone Acetonide：預測新適應症為肥厚性扁平苔癬 (Hypertrophic Lichen Planus)（證據等級 L5）。原適應症：濕疹、異位性皮膚炎、接觸性皮膚炎、脂漏性皮膚炎、盤狀紅斑性狼瘡等皮膚疾病"
 ---
 
 # Fluocinolone Acetonide

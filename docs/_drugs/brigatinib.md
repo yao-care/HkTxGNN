@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 128
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Brigatinib：預測新適應症為牙齦纖維瘤病 (Fibromatosis, gingival)（證據等級 L5）。原適應症：非小細胞肺癌 (Non-small cell lung carcinoma)、肺癌"
 ---
 
 # Brigatinib

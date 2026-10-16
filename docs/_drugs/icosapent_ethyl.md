@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Icosapent Ethyl：預測新適應症為血紅素病變 (Hemoglobinopathy)（證據等級 L5）。原適應症：高三酸甘油脂血症"
 ---
 
 # Icosapent Ethyl

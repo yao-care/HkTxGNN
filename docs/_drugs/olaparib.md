@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 640
 evidence_level: L1
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Olaparib：預測新適應症為女性乳癌 (Female Breast Carcinoma)（證據等級 L1）。原適應症：卵巢癌（含卵巢腺癌、遺傳性乳癌卵巢癌症候群等）"
 ---
 
 # Olaparib

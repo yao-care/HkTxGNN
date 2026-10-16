@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 927
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Varenicline：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：資料未載明"
 ---
 
 # Varenicline

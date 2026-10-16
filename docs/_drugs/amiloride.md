@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 50
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Amiloride：預測新適應症為惡性高血壓性腎病 (Malignant Hypertensive Renal Disease)（證據等級 L5）。原適應症：高血壓、充血性心臟衰竭"
 ---
 
 # Amiloride

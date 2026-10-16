@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 476
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Interferon Beta-1B：預測新適應症為毛細胞白血病 (Hairy Cell Leukemia)（證據等級 L5）。原適應症：復發緩解型多發性硬化症 (Relapsing-Remitting Multiple Sclerosis)"
 ---
 
 # Interferon Beta-1B

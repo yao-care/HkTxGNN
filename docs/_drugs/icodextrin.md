@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 454
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Icodextrin：預測新適應症為腸躁症 (Irritable Bowel Syndrome)（證據等級 L5）。原適應症：香港許可證未載明適應症文字（依其劑型與用途，為腹膜透析液）"
 ---
 
 # Icodextrin

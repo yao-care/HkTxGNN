@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 725
 evidence_level: L2
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Pravastatin：預測新適應症為HIV 感染 (HIV infectious disease)，實質為 HIV 相關血脂異常與心血管風險（證據等級 L2）。原適應症：高三酸甘油酯血症、動脈粥狀硬化、腦中風、腦梗塞、家族性複合型高脂血症等"
 ---
 
 # Pravastatin

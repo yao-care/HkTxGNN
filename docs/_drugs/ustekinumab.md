@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 920
 evidence_level: L2
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Ustekinumab：預測新適應症為皮膚炎 (Dermatitis)（證據等級 L2）。原適應症：乾癬性關節炎、乾癬、類乾癬"
 ---
 
 # Ustekinumab

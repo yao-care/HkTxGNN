@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 456
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Idarucizumab：預測新適應症為血紅素病變 (Hemoglobinopathy)（證據等級 L5）。原適應症：許可證未載明適應症（依機轉為 dabigatran 抗凝血作用的逆轉）"
 ---
 
 # Idarucizumab

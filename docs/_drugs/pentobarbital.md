@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 677
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Pentobarbital：預測新適應症為肥胖症 (Obesity Disorder)（證據等級 L5）。原適應症：癲癇、失眠、癲癇重積狀態、腦缺血、短暫性腦缺血發作"
 ---
 
 # Pentobarbital

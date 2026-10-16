@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 837
 evidence_level: L3
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Sulbactam：預測新適應症為細菌性關節炎 (Bacterial Arthritis)（證據等級 L3）。原適應症：膽管炎、金黃色葡萄球菌感染、大腸桿菌感染等"
 ---
 
 # Sulbactam

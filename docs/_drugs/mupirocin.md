@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 602
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Mupirocin：預測新適應症為葡萄球菌燙傷樣皮膚症候群（證據等級 L5）。原適應症：膿痂疹、大泡性膿痂疹"
 ---
 
 # Mupirocin

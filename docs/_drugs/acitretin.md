@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 22
 evidence_level: L3
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Acitretin：預測新適應症為痤瘡 (acne (disease))（證據等級 L3）。原適應症：資料未載明"
 ---
 
 # Acitretin

@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 639
 evidence_level: L3
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Olanzapine：預測新適應症為泛懼症 (Agoraphobia)（證據等級 L3）。原適應症：雙相情緒障礙、躁症、憂鬱症、焦慮症、精神分裂症"
 ---
 
 # Olanzapine

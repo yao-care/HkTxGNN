@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 27
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Adenosine：預測新適應症為兒茶酚胺敏感性多形性心室心搏過速 (CPVT)（證據等級 L5）。原適應症：心室心搏過速 (ventricular tachycardia)，來源為 TxGNN 知識圖譜"
 ---
 
 # Adenosine

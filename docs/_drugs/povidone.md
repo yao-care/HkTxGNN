@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 721
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Povidone：預測新適應症為先天性魚鱗癬樣紅皮症 (Congenital Ichthyosiform Erythroderma)（證據等級 L5）。原適應症：乾眼症、乾燥性角結膜炎"
 ---
 
 # Povidone

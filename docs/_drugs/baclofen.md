@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 94
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Baclofen：預測新適應症為注意力不足過動症 (Attention Deficit-Hyperactivity Disorder)（證據等級 L5）。原適應症：本次彙整資料中未載明"
 ---
 
 # Baclofen

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 730
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Pretomanid：預測新適應症為念珠菌感染 (Candidiasis)（證據等級 L5）。原適應症：香港許可證未載明適應症文字（依文獻，Pretomanid 用於與 bedaquiline、linezolid 併用治療耐藥結核病）"
 ---
 
 # Pretomanid

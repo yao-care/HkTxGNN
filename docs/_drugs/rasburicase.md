@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 760
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Rasburicase：預測新適應症為腎性低尿酸血症 (Hypouricemia, Renal)（證據等級 L5）。原適應症：高尿酸血症"
 ---
 
 # Rasburicase

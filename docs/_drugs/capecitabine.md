@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 153
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Capecitabine：預測新適應症為印戒細胞胃腺癌 (Signet Ring Cell Gastric Adenocarcinoma)（證據等級 L3）。原適應症：結腸惡性腫瘤轉移、胃癌（胃腺癌、瀰漫型胃腺癌、皮革胃等）"
 ---
 
 # Capecitabine

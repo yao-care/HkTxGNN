@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 91
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Azithromycin：預測新適應症為高澱粉酶血症 (Hyperamylasemia)（證據等級 L5）。原適應症：鏈球菌感染、細菌性肺炎、金黃色葡萄球菌感染、結膜炎等"
 ---
 
 # Azithromycin

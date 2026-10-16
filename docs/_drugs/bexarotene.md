@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 118
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Bexarotene：預測新適應症為原發性皮膚 B 細胞淋巴瘤 (Primary Cutaneous B-cell Lymphoma)（證據等級 L5）。原適應症：原發性皮膚 T 細胞淋巴瘤"
 ---
 
 # Bexarotene

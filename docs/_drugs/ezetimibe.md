@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 361
 evidence_level: L1
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Ezetimibe：預測新適應症為高脂蛋白血症 (Hyperlipoproteinemia)（證據等級 L1）。原適應症：高脂血症、家族性高膽固醇血症、麩固醇血症等"
 ---
 
 # Ezetimibe

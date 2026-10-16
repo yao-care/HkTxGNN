@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 44
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Alteplase：預測新適應症為後側壁心肌梗塞 (Posterolateral Myocardial Infarction)（證據等級 L5）。原適應症：肺栓塞、缺血性中風、心肌梗塞、冠狀動脈血栓"
 ---
 
 # Alteplase

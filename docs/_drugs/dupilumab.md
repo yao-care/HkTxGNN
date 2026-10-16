@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 303
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dupilumab：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L3）。原適應症：異位性皮膚炎（Atopic Dermatitis）。香港許可證資料未載明適應症文字，此處依知識圖譜的適應症資料"
 ---
 
 # Dupilumab

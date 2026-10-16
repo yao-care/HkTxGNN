@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 535
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Lithium Carbonate：預測新適應症為假性軟骨發育不全 (Pseudoachondroplasia)（證據等級 L5）。原適應症：雙相情緒障礙、重度情感性疾患、躁狂型雙相情感障礙"
 ---
 
 # Lithium Carbonate

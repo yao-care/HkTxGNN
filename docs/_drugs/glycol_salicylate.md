@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Glycol Salicylate：預測新適應症為格蘭茲曼血小板無力症 (Glanzmann thrombasthenia)（證據等級 L5）。原適應症：未提供"
 ---
 
 # Glycol Salicylate

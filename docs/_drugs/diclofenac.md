@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Diclofenac：預測新適應症為頭皮單純性毛髮稀少症 (Hypotrichosis simplex of the scalp)（證據等級 L5）。原適應症：光線性角化症、脂漏性角化症、類風濕性關節炎、僵直性脊椎炎、骨關節炎"
 ---
 
 # Diclofenac

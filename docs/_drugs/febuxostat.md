@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 364
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Febuxostat：預測新適應症為腎性低尿酸血症 (Hypouricemia, Renal)（證據等級 L4）。原適應症：高尿酸血症（obsolete hyperuricemia）"
 ---
 
 # Febuxostat

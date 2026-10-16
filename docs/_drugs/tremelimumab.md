@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 901
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tremelimumab：預測新適應症為糖尿病性白內障 (Diabetic Cataract)（證據等級 L5）。原適應症：香港許可證未載明核准適應症"
 ---
 
 # Tremelimumab

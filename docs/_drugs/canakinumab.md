@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 151
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Canakinumab：預測新適應症為家族性地中海熱，顯性遺傳型 (Familial Mediterranean Fever, autosomal dominant)（證據等級 L1）。原適應症：痛風、冷吡啉相關週期性症候群、全身型幼年特發性關節炎等"
 ---
 
 # Canakinumab

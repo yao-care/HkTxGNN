@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 678
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Pentosan Polysulfate：預測新適應症為血小板釋放功能異常 (primary release disorder of platelets)（證據等級 L5）。原適應症：間質性膀胱炎 (interstitial cystitis)"
 ---
 
 # Pentosan Polysulfate

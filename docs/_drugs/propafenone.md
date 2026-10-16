@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 738
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Propafenone：預測新適應症為躁症（Manic bipolar affective disorder）（證據等級 L5）。原適應症：心房顫動、心室心搏過速"
 ---
 
 # Propafenone

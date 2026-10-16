@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Demeclocycline：預測新適應症為慢性篩竇炎 (Chronic Ethmoidal Sinusitis)（證據等級 L5）。原適應症：尿路感染、支氣管炎、炭疽感染、金黃色葡萄球菌感染、淋病等細菌感染"
 ---
 
 # Demeclocycline

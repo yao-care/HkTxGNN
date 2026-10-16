@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Granisetron：預測新適應症為躁期雙極性情感疾患 (Manic Bipolar Affective Disorder)（證據等級 L5）。原適應症：本次整理的資料中，許可證未載明核准適應症"
 ---
 
 # Granisetron

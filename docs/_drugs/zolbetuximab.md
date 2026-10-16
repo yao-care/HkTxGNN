@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 958
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Zolbetuximab：預測新適應症為糖尿病性白內障 (Diabetic Cataract)（證據等級 L5）。原適應症：香港許可證未登載適應症文字（國際上為 CLDN18.2 陽性胃癌／胃食道交界處癌）"
 ---
 
 # Zolbetuximab

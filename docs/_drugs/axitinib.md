@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 89
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Axitinib：預測新適應症為Xp11.2 易位/TFE3 基因融合型腎細胞癌（證據等級 L2）。原適應症：腎細胞癌（透明細胞腎癌等）"
 ---
 
 # Axitinib

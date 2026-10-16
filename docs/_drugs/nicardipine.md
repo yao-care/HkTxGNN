@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 617
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Nicardipine：預測新適應症為肺疾病及（或）缺氧所致肺高壓 (Pulmonary hypertension owing to lung disease and/or h…（證據等級 L4）。原適應症：高血壓 (Hypertension)"
 ---
 
 # Nicardipine

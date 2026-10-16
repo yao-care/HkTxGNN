@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 314
 evidence_level: L3
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Eltrombopag：預測新適應症為HIV 感染相關疾病 (HIV infectious disease)（證據等級 L3）。原適應症：自體免疫性血小板低下症（autoimmune thrombocytopenic）"
 ---
 
 # Eltrombopag

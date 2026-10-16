@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 258
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Desloratadine：預測新適應症為寒冷性蕁麻疹 (Cold Urticaria)（證據等級 L5）。原適應症：過敏性鼻炎、血管運動性鼻炎、特發性蕁麻疹、過敏性蕁麻疹等"
 ---
 
 # Desloratadine

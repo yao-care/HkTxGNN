@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 606
 evidence_level: L3
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Naftifine：預測新適應症為皮膚念珠菌病 (Cutaneous Candidiasis)（證據等級 L3）。原適應症：足癬、體癬、癬菌感染、鼠蹊及肛周皮膚癬菌病"
 ---
 
 # Naftifine

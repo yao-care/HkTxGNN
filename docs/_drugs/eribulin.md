@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 335
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Eribulin：預測新適應症為纖維母細胞腫瘤 (Fibroblastic Neoplasm)（證據等級 L5）。原適應症：脂肪肉瘤"
 ---
 
 # Eribulin

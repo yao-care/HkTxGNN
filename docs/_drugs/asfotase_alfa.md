@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 75
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Asfotase Alfa：預測新適應症為核 DNA 異常所致的粒線體氧化磷酸化異常 (mitochondrial oxidative phosphorylation disord…（證據等級 L5）。原適應症：低磷酸酶症 (hypophosphatasia)"
 ---
 
 # Asfotase Alfa

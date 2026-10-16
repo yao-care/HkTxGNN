@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 397
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Fluvoxamine：預測新適應症為焦慮症 (Anxiety Disorder)（證據等級 L1）。原適應症：社交畏懼症、恐懼症、強迫症"
 ---
 
 # Fluvoxamine

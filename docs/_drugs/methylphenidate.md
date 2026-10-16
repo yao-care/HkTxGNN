@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 575
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Methylphenidate：預測新適應症為顏面指趾生殖器症候群 (Faciodigitogenital syndrome)（證據等級 L5）。原適應症：ADHD、猝睡症、猝睡併猝倒症候群"
 ---
 
 # Methylphenidate

@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 405
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Fusidic Acid：預測新適應症為暴露性角膜炎 (Exposure Keratitis)（證據等級 L4）。原適應症：細菌感染相關疾病"
 ---
 
 # Fusidic Acid

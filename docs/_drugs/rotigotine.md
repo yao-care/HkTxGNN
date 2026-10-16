@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 789
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Rotigotine：預測新適應症為注意力不足過動症 (Attention Deficit-Hyperactivity Disorder)（證據等級 L4）。原適應症：巴金森氏症、不寧腿症候群"
 ---
 
 # Rotigotine

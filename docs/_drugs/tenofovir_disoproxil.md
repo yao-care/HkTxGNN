@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 859
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Tenofovir Disoproxil：預測新適應症為猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)（證據等級 L5）。原適應症：慢性 B 型肝炎病毒感染、HIV 感染、愛滋病"
 ---
 
 # Tenofovir Disoproxil

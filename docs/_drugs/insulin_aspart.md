@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 469
 evidence_level: L1
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Insulin Aspart：預測新適應症為第 1 型糖尿病 (Type 1 Diabetes Mellitus)（證據等級 L1）。原適應症：糖尿病、糖尿病酮酸中毒"
 ---
 
 # Insulin Aspart

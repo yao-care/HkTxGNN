@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 529
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Levothyroxine：預測新適應症為地方性甲狀腺腫 (Endemic Goiter)（證據等級 L3）。原適應症：甲狀腺功能低下、黏液水腫、先天性甲狀腺功能低下、橋本氏甲狀腺炎、甲狀腺癌等"
 ---
 
 # Levothyroxine

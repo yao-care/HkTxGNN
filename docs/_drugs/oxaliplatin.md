@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 649
 evidence_level: L2
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Oxaliplatin：預測新適應症為惡性胸膜間皮瘤 (Malignant Pleural Mesothelioma)（證據等級 L2）。原適應症：結腸惡性腫瘤轉移"
 ---
 
 # Oxaliplatin

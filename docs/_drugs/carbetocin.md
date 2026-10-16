@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 159
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Carbetocin：預測新適應症為isotretinoin-like syndrome（證據等級 L5）。原適應症：Prader-Willi 症候群、Noonan 症候群"
 ---
 
 # Carbetocin

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 178
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Celecoxib：預測新適應症為肢端中段發育不良，Hunter-Thompson 型 (Acromesomelic dysplasia…（證據等級 L5）。原適應症：類風濕性關節炎、僵直性脊椎炎、骨關節炎、幼年型特發性關節炎等"
 ---
 
 # Celecoxib

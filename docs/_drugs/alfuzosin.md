@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 35
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Alfuzosin：預測新適應症為Ambras 型先天性全身性多毛症 (Ambras type hypertrichosis universalis congenita)（證據等級 L5）。原適應症：良性前列腺增生 (Benign Prostatic Hyperplasia)"
 ---
 
 # Alfuzosin

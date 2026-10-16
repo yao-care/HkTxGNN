@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 735
 evidence_level: L3
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Procarbazine：預測新適應症為濾泡性淋巴瘤 (Follicular Lymphoma)（證據等級 L3）。原適應症：何杰金氏淋巴瘤"
 ---
 
 # Procarbazine

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 468
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Indomethacin：預測新適應症為短指併指症候群 (Brachydactyly-Syndactyly Syndrome)（證據等級 L5）。原適應症：滑囊炎、滑膜炎、類風濕性關節炎、僵直性脊椎炎、痛風、骨關節炎、五十肩、動脈導管未閉等"
 ---
 
 # Indomethacin

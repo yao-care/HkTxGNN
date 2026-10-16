@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 42
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Alprazolam：預測新適應症為失眠 (Insomnia)（證據等級 L4）。原適應症：焦慮症、混合性焦慮憂鬱症"
 ---
 
 # Alprazolam

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 230
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Crizotinib：預測新適應症為遺傳性牙齦纖維瘤病 (Fibromatosis, Gingival)（證據等級 L5）。原適應症：非小細胞肺癌、肺癌"
 ---
 
 # Crizotinib

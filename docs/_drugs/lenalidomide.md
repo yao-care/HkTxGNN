@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 518
 evidence_level: L2
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Lenalidomide：預測新適應症為骨髓性白血病 (Myeloid Leukemia)（證據等級 L2）。原適應症：漿細胞骨髓瘤、被套細胞淋巴瘤、B 細胞腫瘤、淋巴肉瘤、骨髓增生異常症候群"
 ---
 
 # Lenalidomide

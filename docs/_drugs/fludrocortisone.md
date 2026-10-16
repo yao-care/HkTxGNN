@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Fludrocortisone：預測新適應症為原發性皮膚 T 細胞淋巴瘤 (primary cutaneous T-cell lymphoma)（證據等級 L5）。原適應症：資料未提供"
 ---
 
 # Fludrocortisone

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 810
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Sertraline：預測新適應症為思覺失調型人格障礙 (Schizoid Personality Disorder)（證據等級 L5）。原適應症：焦慮症、官能症、輕鬱症、創傷後壓力症候群、社交畏懼症、畏懼症、強迫症"
 ---
 
 # Sertraline

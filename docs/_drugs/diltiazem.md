@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 280
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Diltiazem：預測新適應症為缺血性中風易感性 (obsolete susceptibility to ischemic stroke)（證據等級 L5）。原適應症：高血壓、心房顫動、Prinzmetal 心絞痛、心室心搏過速"
 ---
 
 # Diltiazem

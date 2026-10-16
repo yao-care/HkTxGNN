@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 519
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lenvatinib：預測新適應症為脂肪肉瘤 (Liposarcoma)（證據等級 L2）。原適應症：腎細胞癌、甲狀腺癌（腎乳突狀細胞癌、透明細胞腎癌等）"
 ---
 
 # Lenvatinib

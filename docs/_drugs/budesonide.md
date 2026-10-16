@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 136
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Budesonide：預測新適應症為異位性皮膚炎 (Atopic Eczema)（證據等級 L4）。原適應症：克隆氏症、發炎性腸道疾病、氣喘、過敏性鼻炎"
 ---
 
 # Budesonide

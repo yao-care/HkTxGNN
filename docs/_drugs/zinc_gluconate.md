@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 953
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Zinc Gluconate：預測新適應症為早產兒貧血 (Anemia of Prematurity)（證據等級 L5）。原適應症：抗壞血酸缺乏症、壞血病"
 ---
 
 # Zinc Gluconate

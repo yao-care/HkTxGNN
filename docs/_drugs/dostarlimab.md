@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 296
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dostarlimab：預測新適應症為先天性腎上腺功能不全合併 46,XY 性反轉 (CYP11A1 缺乏)（證據等級 L5）。原適應症：香港許可證未登載適應症文字"
 ---
 
 # Dostarlimab

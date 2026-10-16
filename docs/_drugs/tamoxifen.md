@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 848
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tamoxifen：預測新適應症為乳腺原位癌 (Breast Carcinoma in situ)（證據等級 L1）。原適應症：女性乳癌、浸潤性乳管癌、乳管腺癌"
 ---
 
 # Tamoxifen

@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 771
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Rifampicin：預測新適應症為結膜炎 (Conjunctivitis)（證據等級 L4）。原適應症：肺結核 (Pulmonary tuberculosis)"
 ---
 
 # Rifampicin

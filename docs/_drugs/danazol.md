@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 243
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Danazol：預測新適應症為閉經 (Amenorrhea)（證據等級 L3）。原適應症：子宮內膜異位症、子宮內膜異位症（子宮）、乳房纖維囊腫性疾病"
 ---
 
 # Danazol

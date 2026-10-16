@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 665
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Papain：預測新適應症為原發性血小板釋放障礙 (primary release disorder of platelets)（證據等級 L5）。原適應症：資料未載明"
 ---
 
 # Papain

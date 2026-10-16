@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Clomipramine：預測新適應症為焦慮症 (Anxiety Disorder)（證據等級 L5）。原適應症：強迫症 (Obsessive-compulsive disorder)"
 ---
 
 # Clomipramine

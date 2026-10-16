@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 761
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Ravulizumab：預測新適應症為G6PC3 缺陷所致體染色體隱性嚴重先天性嗜中性白血球減少症（證據等級 L5）。原適應症：陣發性夜間血紅素尿症 (Paroxysmal Nocturnal Hemoglobinuria)"
 ---
 
 # Ravulizumab

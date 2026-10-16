@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 654
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Oxytetracycline：預測新適應症為慢性鼻竇炎 (Chronic Rhinosinusitis)（證據等級 L5）。原適應症：泌尿道感染、支氣管炎、肺炎、咽炎、結膜炎等"
 ---
 
 # Oxytetracycline

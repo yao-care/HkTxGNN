@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Flurbiprofen：預測新適應症為Hunter-Thompson 型肢中發育不良 (Acromesomelic dysplasia…（證據等級 L5）。原適應症：類風濕性關節炎、骨關節炎、關節病變"
 ---
 
 # Flurbiprofen

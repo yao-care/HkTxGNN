@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 613
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Neratinib：預測新適應症為黃體素受體陽性乳癌 (Progesterone-receptor positive breast cancer)（證據等級 L5）。原適應症：HER2 陽性乳癌"
 ---
 
 # Neratinib

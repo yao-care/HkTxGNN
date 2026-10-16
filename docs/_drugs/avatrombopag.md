@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 86
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Avatrombopag：預測新適應症為巨型血小板低下合併二尖瓣閉鎖不全 (marcothrombocytopenia with mitral valve insufficien…（證據等級 L5）。原適應症：血小板低下症（Thrombocytopenia）"
 ---
 
 # Avatrombopag

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 502
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lactic Acid：預測新適應症為非典型主動脈縮窄 (Atypical coarctation of aorta)（證據等級 L5）。原適應症：資料未載明"
 ---
 
 # Lactic Acid

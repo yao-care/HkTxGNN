@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 827
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Sorafenib：預測新適應症為脂肪肉瘤 (Liposarcoma)（證據等級 L5）。原適應症：肝細胞癌、腎細胞癌、甲狀腺癌"
 ---
 
 # Sorafenib

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 474
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Insulin Human：預測新適應症為自體免疫性卵巢炎 (Autoimmune Oophoritis)（證據等級 L5）。原適應症：第 2 型糖尿病、第 1 型糖尿病、糖尿病酮酸中毒"
 ---
 
 # Insulin Human

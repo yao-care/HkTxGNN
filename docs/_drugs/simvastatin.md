@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 815
 evidence_level: L1
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Simvastatin：預測新適應症為家族性高膽固醇血症 (Familial Hypercholesterolemia)（證據等級 L1）。原適應症：高三酸甘油酯血症、中風相關疾病、腦梗塞、動脈粥狀硬化、高脂蛋白血症、同型合子家族性高膽固醇血症等"
 ---
 
 # Simvastatin

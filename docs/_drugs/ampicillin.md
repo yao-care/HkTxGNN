@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 59
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ampicillin：預測新適應症為喉炎 (Laryngitis)（證據等級 L4）。原適應症：泌尿道感染、感染性中耳炎、細菌性肺炎、細菌性腦膜炎、金黃色葡萄球菌感染等"
 ---
 
 # Ampicillin

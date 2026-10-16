@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 343
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Etanercept：預測新適應症為類風濕性血管炎 (Rheumatoid Vasculitis)（證據等級 L4）。原適應症：乾癬性關節炎、類風濕性關節炎、僵直性脊椎炎、幼年特發性關節炎"
 ---
 
 # Etanercept

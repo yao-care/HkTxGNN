@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 15
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Acarbose：預測新適應症為局部僵硬肢症候群 (Focal Stiff Limb Syndrome)（證據等級 L5）。原適應症：第 2 型糖尿病"
 ---
 
 # Acarbose

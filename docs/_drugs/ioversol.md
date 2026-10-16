@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 480
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ioversol：預測新適應症為骨關節炎易感性 (Osteoarthritis Susceptibility)（證據等級 L5）。原適應症：本報告所整理的資料中，香港許可證未提供核准適應症文字"
 ---
 
 # Ioversol

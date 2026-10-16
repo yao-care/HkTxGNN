@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 928
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Vasopressin：預測新適應症為99.63%（證據等級 L4）。原適應症：先天性凝血酶原缺乏症 (Congenital Prothrombin Deficiency)"
 ---
 
 # Vasopressin

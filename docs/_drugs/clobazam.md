@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 211
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Clobazam：預測新適應症為熱性感染相關癲癇症候群 (Febrile Infection-Related Epilepsy Syndrome, FIRES)（證據等級 L4）。原適應症：Lennox-Gastaut 症候群、腦回狀頭皮"
 ---
 
 # Clobazam

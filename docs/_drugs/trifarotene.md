@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 907
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Trifarotene：預測新適應症為血漿鋅偏高 (zinc, elevated plasma)（證據等級 L5）。原適應症：痤瘡 (acne)"
 ---
 
 # Trifarotene

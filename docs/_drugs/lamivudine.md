@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 505
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Lamivudine：預測新適應症為猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)（證據等級 L4）。原適應症：慢性 B 型肝炎病毒感染、HIV 感染、愛滋病"
 ---
 
 # Lamivudine

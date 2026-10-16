@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 933
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Verteporfin：預測新適應症為核 DNA 異常所致的粒線體氧化磷酸化異常疾病（證據等級 L5）。原適應症：黃斑部病變 (macular degeneration)"
 ---
 
 # Verteporfin

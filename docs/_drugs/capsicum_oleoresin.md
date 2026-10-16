@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 155
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Capsicum Oleoresin：預測新適應症為周邊運動神經病變-自主神經功能異常症候群 (peripheral motor neuropathy-dysautonomia syndro…（證據等級 L5）。原適應症：本報告整理的資料中未載明"
 ---
 
 # Capsicum Oleoresin

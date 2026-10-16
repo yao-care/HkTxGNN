@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 462
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Imiglucerase：預測新適應症為Hurler 症候群 (Hurler syndrome)（證據等級 L4）。原適應症：戈謝氏症 (Gaucher disease)"
 ---
 
 # Imiglucerase

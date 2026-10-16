@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 262
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Desoximetasone：預測新適應症為圓形禿 (Alopecia Areata)（證據等級 L5）。原適應症：異位性皮膚炎、接觸性皮膚炎、脂漏性皮膚炎、盤狀紅斑性狼瘡等皮膚發炎性疾病"
 ---
 
 # Desoximetasone

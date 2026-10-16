@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 156
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Captopril：預測新適應症為惡性高血壓腎病變 (Malignant Hypertensive Renal Disease)（證據等級 L4）。原適應症：高血壓、糖尿病腎病變"
 ---
 
 # Captopril

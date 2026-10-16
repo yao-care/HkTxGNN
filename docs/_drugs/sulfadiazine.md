@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 838
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Sulfadiazine：預測新適應症為肺囊蟲症 (Pneumocystosis)（證據等級 L4）。原適應症：弓形蟲症（Toxoplasmosis）、潰瘍性結腸炎、發炎性腸道疾病、脈絡視網膜炎等"
 ---
 
 # Sulfadiazine

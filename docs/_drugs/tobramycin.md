@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 885
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Tobramycin：預測新適應症為暴露性角膜炎 (Exposure Keratitis)（證據等級 L4）。原適應症：細菌性腦膜炎、葡萄球菌感染、結膜炎、葡萄膜炎等"
 ---
 
 # Tobramycin

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Hydrocortisone Acetate：預測新適應症為圓形禿 (Alopecia Areata)（證據等級 L5）。原適應症：自體免疫疾病、腎上腺皮質功能不全、克隆氏症、先天性腎上腺增生等"
 ---
 
 # Hydrocortisone Acetate

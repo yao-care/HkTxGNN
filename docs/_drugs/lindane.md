@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 533
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lindane：預測新適應症為頸部神經母細胞瘤 (Cervical Neuroblastoma)（證據等級 L5）。原適應症：疥瘡、挪威疥瘡、頭蝨、陰蝨、蟎感染"
 ---
 
 # Lindane

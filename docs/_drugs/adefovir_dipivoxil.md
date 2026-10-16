@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 26
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Adefovir Dipivoxil：預測新適應症為慢性 C 型肝炎病毒感染 (Chronic Hepatitis C Virus Infection)（證據等級 L5）。原適應症：慢性 B 型肝炎病毒感染"
 ---
 
 # Adefovir Dipivoxil

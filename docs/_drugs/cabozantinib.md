@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 143
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cabozantinib：預測新適應症為脂肪肉瘤 (Liposarcoma)（證據等級 L3）。原適應症：腎細胞癌、透明細胞腎癌、甲狀腺髓質癌"
 ---
 
 # Cabozantinib

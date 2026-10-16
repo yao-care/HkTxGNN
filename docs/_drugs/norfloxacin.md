@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 630
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Norfloxacin：預測新適應症為多發性克隆高黏滯症候群 (Polyclonal Hyperviscosity Syndrome)（證據等級 L5）。原適應症：細菌感染"
 ---
 
 # Norfloxacin

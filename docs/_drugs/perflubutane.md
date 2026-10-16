@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 682
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Perflubutane：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L5）。原適應症：目前許可證資料未載明核准適應症"
 ---
 
 # Perflubutane

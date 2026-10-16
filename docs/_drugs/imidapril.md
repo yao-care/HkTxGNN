@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Imidapril：預測新適應症為原因不明的多因素肺高壓（pulmonary hypertension with unclear multifactorial mechan…（證據等級 L5）。原適應症：高血壓（hypertension）"
 ---
 
 # Imidapril

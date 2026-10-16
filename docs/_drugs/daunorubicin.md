@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 249
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Daunorubicin：預測新適應症為何杰金氏淋巴瘤 (Hodgkin's lymphoma)（證據等級 L3）。原適應症：急性淋巴芽細胞白血病、急性骨髓性白血病等"
 ---
 
 # Daunorubicin

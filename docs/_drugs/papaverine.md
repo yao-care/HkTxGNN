@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 666
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Papaverine：預測新適應症為缺血性疾病 (Ischemic Disease)（證據等級 L4）。原適應症：周邊血管疾病、間歇性跛行、周邊動脈疾病、腦缺血、暫時性腦缺血發作"
 ---
 
 # Papaverine

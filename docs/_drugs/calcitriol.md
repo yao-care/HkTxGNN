@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 147
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Calcitriol：預測新適應症為排名第一為已過時的維生素 D 缺乏症（Obsolete vitamin D deficiency）（證據等級 L5）。原適應症：高血鈣、腎鈣質沉著症、磷代謝異常、低磷血症、副甲狀腺低下、腎性骨病變"
 ---
 
 # Calcitriol

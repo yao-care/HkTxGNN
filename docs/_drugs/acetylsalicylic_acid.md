@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 21
 evidence_level: L3
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Acetylsalicylic Acid：預測新適應症為伴腦幹先兆的偏頭痛 (Migraine with brainstem aura)（證據等級 L3）。原適應症：類風濕性關節炎、偏頭痛、心肌梗塞、冠狀動脈血栓、頭痛、骨關節炎等"
 ---
 
 # Acetylsalicylic Acid

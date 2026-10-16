@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 594
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Mitoxantrone：預測新適應症為上呼吸消化道腫瘤 (Upper Aerodigestive Tract Neoplasm)（證據等級 L4）。原適應症：急性骨髓性白血病（含多種亞型）及骨髓性白血病"
 ---
 
 # Mitoxantrone

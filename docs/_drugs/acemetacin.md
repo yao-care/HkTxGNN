@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 16
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Acemetacin：預測新適應症為骨關節炎易感性 (Osteoarthritis Susceptibility)（證據等級 L5）。原適應症：僵直性脊椎炎、風濕性疾病、纖維肌痛"
 ---
 
 # Acemetacin

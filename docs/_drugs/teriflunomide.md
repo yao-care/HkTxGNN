@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 864
 evidence_level: L1
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Teriflunomide：預測新適應症為復發緩解型多發性硬化症 (Relapsing-Remitting Multiple Sclerosis)（證據等級 L1）。原適應症：多發性硬化症 (Multiple Sclerosis)"
 ---
 
 # Teriflunomide

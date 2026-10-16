@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 571
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Methotrexate：預測新適應症為肺母細胞瘤 (Pulmonary Blastoma)（證據等級 L5）。原適應症：急性淋巴母細胞白血病、非何杰金氏淋巴瘤、類風濕性關節炎、乾癬、蕈樣肉芽腫等"
 ---
 
 # Methotrexate

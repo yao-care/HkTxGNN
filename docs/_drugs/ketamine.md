@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 496
 evidence_level: L2
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Ketamine：預測新適應症為頭痛疾患 (Headache Disorder)（證據等級 L2）。原適應症：香港許可證未列載適應症文字"
 ---
 
 # Ketamine

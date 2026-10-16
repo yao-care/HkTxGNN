@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 217
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Clomifene：預測新適應症為46,XY 性發育異常（睪丸類固醇合成缺陷）（證據等級 L5）。原適應症：女性不孕症 (female infertility)"
 ---
 
 # Clomifene

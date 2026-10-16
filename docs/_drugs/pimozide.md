@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 699
 evidence_level: L3
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Pimozide：預測新適應症為拔毛癖 (Trichotillomania)（證據等級 L3）。原適應症：妥瑞氏症"
 ---
 
 # Pimozide

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 644
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Omalizumab：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L5）。原適應症：氣喘、內因性氣喘、過敏性氣喘、特發性蕁麻疹"
 ---
 
 # Omalizumab

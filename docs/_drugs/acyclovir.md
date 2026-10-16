@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 23
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Acyclovir：預測新適應症為點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis)（證據等級 L5）。原適應症：單純皰疹、帶狀皰疹、水痘、唇皰疹、單純皰疹腦炎、生殖器皰疹"
 ---
 
 # Acyclovir

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 801
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Sebelipase Alfa：預測新適應症為Scheie 症候群 (Scheie syndrome)（證據等級 L5）。原適應症：Wolman 病、溶小體酸性脂肪酶缺乏症、溶小體脂質儲積症"
 ---
 
 # Sebelipase Alfa

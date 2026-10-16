@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 866
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Terlipressin：預測新適應症為肺動脈高壓 (Pulmonary Hypertension)（證據等級 L3）。原適應症：資料未提供"
 ---
 
 # Terlipressin

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 797
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Salbutamol：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L5）。原適應症：氣喘、支氣管疾病"
 ---
 
 # Salbutamol

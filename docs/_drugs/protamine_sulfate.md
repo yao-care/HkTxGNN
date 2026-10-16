@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 743
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Protamine Sulfate：預測新適應症為FGFR1 重排相關骨髓腫瘤 (myeloid neoplasm associated with FGFR1 rearrangement)（證據等級 L5）。原適應症：許可證未載明"
 ---
 
 # Protamine Sulfate

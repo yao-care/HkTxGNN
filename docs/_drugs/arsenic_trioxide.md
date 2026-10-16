@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 72
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Arsenic Trioxide：預測新適應症為骨髓發育不良症候群 (Myelodysplastic Syndrome)（證據等級 L5）。原適應症：急性前骨髓性白血病、骨髓單核球白血病、急性骨髓性白血病（伴 inv(16) 或 t(16"
 ---
 
 # Arsenic Trioxide

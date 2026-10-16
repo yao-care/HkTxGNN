@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 490
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Isosorbide Mononitrate：預測新適應症為99.995%（證據等級 L5）。原適應症：多毛症 (Hypertrichosis)"
 ---
 
 # Isosorbide Mononitrate

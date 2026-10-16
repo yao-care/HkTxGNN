@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 401
 evidence_level: L2
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Fosfomycin：預測新適應症為淋病性尿道炎 (Gonococcal Urethritis)（證據等級 L2）。原適應症：泌尿道感染"
 ---
 
 # Fosfomycin

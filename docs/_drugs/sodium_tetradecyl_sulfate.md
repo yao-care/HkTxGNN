@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 823
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Sodium Tetradecyl Sulfate：預測新適應症為食道靜脈曲張，未出血型（Esophageal varices without bleeding）（證據等級 L2）。原適應症：靜脈曲張（varicose disease）"
 ---
 
 # Sodium Tetradecyl Sulfate

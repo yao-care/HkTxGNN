@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 115
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Betamethasone：預測新適應症為圓形禿 (Alopecia Areata)（證據等級 L2）。原適應症：資料庫未提供許可證層級的核准適應症文字"
 ---
 
 # Betamethasone

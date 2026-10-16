@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 889
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tolvaptan：預測新適應症為多囊腎病變 3 型，伴或不伴多囊肝（證據等級 L1）。原適應症：抗利尿激素不適當分泌症候群、腎因性抗利尿激素不適當症候群、多囊腎病變"
 ---
 
 # Tolvaptan

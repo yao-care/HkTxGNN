@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 584
 evidence_level: L2
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Midazolam：預測新適應症為失眠 (Insomnia)（證據等級 L2）。原適應症：焦慮症 (Anxiety)"
 ---
 
 # Midazolam

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 204
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Cladribine：預測新適應症為副腦膜胚胎型橫紋肌肉瘤 (Parameningeal Embryonal Rhabdomyosarcoma)（證據等級 L5）。原適應症：毛細胞白血病、毛細胞白血病變異型、復發緩解型多發性硬化症"
 ---
 
 # Cladribine

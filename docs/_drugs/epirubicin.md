@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 328
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Epirubicin：預測新適應症為原發性肺淋巴瘤 (Primary Pulmonary Lymphoma)（證據等級 L5）。原適應症：乳癌（乳腺癌、乳房腫瘤）"
 ---
 
 # Epirubicin

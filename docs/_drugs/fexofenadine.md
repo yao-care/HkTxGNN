@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 375
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Fexofenadine：預測新適應症為酒糟性結膜炎 (Rosacea Conjunctivitis)（證據等級 L5）。原適應症：過敏性鼻炎、血管運動性鼻炎、異位性結膜炎、乳突性結膜炎、春季結膜炎、特發性蕁麻疹"
 ---
 
 # Fexofenadine

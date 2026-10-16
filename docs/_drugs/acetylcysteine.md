@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 20
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Acetylcysteine：預測新適應症為血栓性疾病 (Thrombotic Disease)（證據等級 L2）。原適應症：支氣管炎、對乙醯胺酚中毒、囊狀纖維化、支氣管擴張、類澱粉沉積症"
 ---
 
 # Acetylcysteine

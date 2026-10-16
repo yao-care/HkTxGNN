@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 918
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Uracil：預測新適應症為大腸腫瘤 (Colonic Neoplasm)（證據等級 L3）。原適應症：許可證資料未載明核准適應症"
 ---
 
 # Uracil

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Alglucosidase Alfa：預測新適應症為成人多葡聚醣體病 (Adult Polyglucosan Body Disease)（證據等級 L5）。原適應症：肝醣儲積症（glycogen storage disease）"
 ---
 
 # Alglucosidase Alfa

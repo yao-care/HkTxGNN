@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 573
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Methoxy Polyethylene Glycol-Epoetin Beta：預測新適應症為原發性血小板釋放障礙 (primary release disorder of platelets)（證據等級 L5）。原適應症：資料中未載明"
 ---
 
 # Methoxy Polyethylene Glycol-Epoetin Beta

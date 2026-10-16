@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 609
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Natalizumab：預測新適應症為乾癬 (Psoriasis)（證據等級 L5）。原適應症：克隆氏症、發炎性腸道疾病、多發性硬化症"
 ---
 
 # Natalizumab

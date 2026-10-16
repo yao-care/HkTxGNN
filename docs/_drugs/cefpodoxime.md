@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 172
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cefpodoxime：預測新適應症為骨關節炎易感性 (Osteoarthritis Susceptibility)（證據等級 L5）。原適應症：香港許可證資料未列明適應症文字"
 ---
 
 # Cefpodoxime

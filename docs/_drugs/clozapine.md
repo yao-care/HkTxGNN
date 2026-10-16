@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 222
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Clozapine：預測新適應症為躁型雙相情緒障礙 (Manic Bipolar Affective Disorder)（證據等級 L2）。原適應症：香港許可證資料未載明核准適應症"
 ---
 
 # Clozapine

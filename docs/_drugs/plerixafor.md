@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 709
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Plerixafor：預測新適應症為惰性漿細胞骨髓瘤 (Indolent Plasma Cell Myeloma)（證據等級 L5）。原適應症：漿細胞骨髓瘤 (plasma cell myeloma)"
 ---
 
 # Plerixafor

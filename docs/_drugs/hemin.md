@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 434
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Hemin：預測新適應症為血小板減少性紫斑症 (Thrombocytopenic Purpura)（證據等級 L5）。原適應症：急性間歇性紫質症 (acute intermittent porphyria)"
 ---
 
 # Hemin

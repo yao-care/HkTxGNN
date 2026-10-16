@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Chlorpromazine：預測新適應症為伴或不伴眼外異常的視網膜失養症 (Retinal dystrophy with or without extraocular anomal…（證據等級 L5）。原適應症：躁期雙相情感障礙、精神病性疾患、精神分裂症、思覺失調情感性疾患等"
 ---
 
 # Chlorpromazine

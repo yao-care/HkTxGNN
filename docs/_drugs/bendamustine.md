@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 102
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Bendamustine：預測新適應症為被套細胞淋巴瘤 (Mantle Cell Lymphoma)（證據等級 L1）。原適應症：濾泡性淋巴瘤、成熟 B 細胞腫瘤、急性淋巴母細胞白血病、Richter 症候群"
 ---
 
 # Bendamustine

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 894
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Trametinib：預測新適應症為非皮膚性黑色素瘤 (Non-cutaneous Melanoma)（證據等級 L5）。原適應症：轉移性黑色素瘤"
 ---
 
 # Trametinib

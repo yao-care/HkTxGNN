@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 369
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Fenofibrate：預測新適應症為同型接合子家族性高膽固醇血症 (Homozygous Familial Hypercholesterolemia)（證據等級 L4）。原適應症：高三酸甘油脂血症、高血脂症、家族性高血脂症、低 α 脂蛋白血症等"
 ---
 
 # Fenofibrate

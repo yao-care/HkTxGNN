@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 759
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Rasagiline：預測新適應症為PLA2G6 相關神經退化症 (PLA2G6-associated neurodegeneration)（證據等級 L5）。原適應症：帕金森氏症（Parkinson disease）及相關帕金森症候群"
 ---
 
 # Rasagiline

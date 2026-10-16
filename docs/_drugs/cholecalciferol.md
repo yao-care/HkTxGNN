@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 192
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Cholecalciferol：預測新適應症為腎性骨病變 (Renal Osteodystrophy)（證據等級 L5）。原適應症：骨質疏鬆、停經後骨質疏鬆、佝僂病、骨軟化症、維生素 D 缺乏、副甲狀腺低下等"
 ---
 
 # Cholecalciferol

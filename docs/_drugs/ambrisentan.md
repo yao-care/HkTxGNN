@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 47
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ambrisentan：預測新適應症為結締組織疾病相關肺動脈高壓（PAH associated with connective tissue disease）（證據等級 L2）。原適應症：肺動脈高壓（pulmonary arterial hypertension）"
 ---
 
 # Ambrisentan

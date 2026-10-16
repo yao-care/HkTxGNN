@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 695
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Phenytoin：預測新適應症為三叉神經腫瘤 (Trigeminal Nerve Neoplasm)（證據等級 L5）。原適應症：癲癇（含全身強直陣攣發作、局部性癲癇、Lennox-Gastaut 症候群、癲癇持續狀態等）"
 ---
 
 # Phenytoin

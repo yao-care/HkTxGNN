@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 589
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Minocycline：預測新適應症為點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis)（證據等級 L5）。原適應症：泌尿道感染、支氣管炎、痤瘡、牙周炎、淋病等"
 ---
 
 # Minocycline

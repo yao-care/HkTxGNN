@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 632
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Nusinersen：預測新適應症為腎性低鎂血症 (Renal Hypomagnesemia)（證據等級 L5）。原適應症：脊髓性肌肉萎縮症 (spinal muscular atrophy)"
 ---
 
 # Nusinersen

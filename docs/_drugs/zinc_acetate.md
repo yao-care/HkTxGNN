@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 951
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Zinc Acetate：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy)（證據等級 L5）。原適應症：威爾森氏症、皮膚炎、燒傷、痔瘡、外耳炎等"
 ---
 
 # Zinc Acetate

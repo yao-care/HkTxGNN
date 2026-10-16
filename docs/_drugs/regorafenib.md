@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 763
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Regorafenib：預測新適應症為脂肪肉瘤 (Liposarcoma)（證據等級 L2）。原適應症：大腸直腸癌轉移、肝細胞癌、胃腸道基質瘤"
 ---
 
 # Regorafenib

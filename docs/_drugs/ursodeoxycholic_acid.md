@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 919
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Ursodeoxycholic Acid：預測新適應症為同型合子家族性高膽固醇血症 (Homozygous Familial Hypercholesterolemia)（證據等級 L5）。原適應症：膽結石、膽囊結石、膽總管結石、原發性膽汁性膽管炎、Reynolds 症候群"
 ---
 
 # Ursodeoxycholic Acid

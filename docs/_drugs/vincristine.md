@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 937
 evidence_level: L3
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Vincristine：預測新適應症為神經節母細胞瘤 (Ganglioneuroblastoma)（證據等級 L3）。原適應症：急性淋巴性白血病、何杰金氏淋巴瘤、非何杰金氏淋巴瘤、被套細胞淋巴瘤、蘭格漢氏細胞組織球增生症等"
 ---
 
 # Vincristine

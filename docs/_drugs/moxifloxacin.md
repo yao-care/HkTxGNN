@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 601
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Moxifloxacin：預測新適應症為高澱粉酶血症 (Hyperamylasemia)（證據等級 L5）。原適應症：細菌感染"
 ---
 
 # Moxifloxacin

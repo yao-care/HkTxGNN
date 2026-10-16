@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 692
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Phenylalanine：預測新適應症為硬化性膽管炎 (Sclerosing Cholangitis)（證據等級 L4）。原適應症：胺基酸營養補充"
 ---
 
 # Phenylalanine

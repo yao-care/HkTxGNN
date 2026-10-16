@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 125
 evidence_level: L1
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Bleomycin：預測新適應症為網狀細胞肉瘤 (Reticulum Cell Sarcoma)（證據等級 L1）。原適應症：何杰金氏淋巴瘤、非何杰金氏淋巴瘤、頭頸癌等"
 ---
 
 # Bleomycin

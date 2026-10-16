@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 899
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Travoprost：預測新適應症為內臟鈣化防禦 (Visceral Calciphylaxis)（證據等級 L5）。原適應症：開角型青光眼、高眼壓症"
 ---
 
 # Travoprost

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 733
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Procaine：預測新適應症為高鐵血紅素血症 (methemoglobinemia)（證據等級 L5）。原適應症：許可證未載明（局部麻醉藥）"
 ---
 
 # Procaine

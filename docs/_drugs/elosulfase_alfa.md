@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 313
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Elosulfase Alfa：預測新適應症為Scheie 症候群 (Scheie syndrome)（證據等級 L5）。原適應症：黏多醣症（Mucopolysaccharidosis）"
 ---
 
 # Elosulfase Alfa

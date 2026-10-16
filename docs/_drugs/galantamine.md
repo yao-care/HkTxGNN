@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Galantamine：預測新適應症為心因性運動障礙 (Psychogenic Movement Disorders)（證據等級 L5）。原適應症：阿茲海默症"
 ---
 
 # Galantamine

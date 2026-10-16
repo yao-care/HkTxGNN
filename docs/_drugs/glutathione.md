@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 420
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Glutathione：預測新適應症為硬化性膽管炎 (Sclerosing Cholangitis)（證據等級 L4）。原適應症：許可證未載明"
 ---
 
 # Glutathione

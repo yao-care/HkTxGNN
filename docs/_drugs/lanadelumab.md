@@ -5,6 +5,8 @@ parent: 高證據等級 (L1-L2)
 nav_order: 507
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lanadelumab：預測新適應症為C1 抑制劑缺乏症 (C1 inhibitor deficiency)（證據等級 L1）。原適應症：遺傳性血管性水腫 (Hereditary Angioedema)、合併 C1 抑制劑缺乏的遺傳性血管性水腫"
 ---
 
 # Lanadelumab

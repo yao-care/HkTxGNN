@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 583
 evidence_level: L3
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Miconazole：預測新適應症為痤瘡 (Acne)（證據等級 L3）。原適應症：足癬、體癬、皮膚念珠菌症、甲癬、花斑癬、外陰陰道念珠菌症等"
 ---
 
 # Miconazole

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 668
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Paroxetine：預測新適應症為Ohdo 症候群及其變異型 (Ohdo syndrome and variants)（證據等級 L5）。原適應症：焦慮症、神經症、輕鬱症、單極性憂鬱症、重度憂鬱症、創傷後壓力症候群、社交畏懼症、強迫症等"
 ---
 
 # Paroxetine

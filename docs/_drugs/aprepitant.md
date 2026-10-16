@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 69
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Aprepitant：預測新適應症為腎因性抗利尿不適當症候群 (nephrogenic syndrome of inappropriate antidiuresis)（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症"
 ---
 
 # Aprepitant

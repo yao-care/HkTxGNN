@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 197
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cilastatin：預測新適應症為金黃色葡萄球菌感染 (Staphylococcus aureus infection)（證據等級 L3）。原適應症：細菌性肺炎、腹膜炎、鏈球菌肺炎、心內膜炎、細菌性關節炎、子宮內膜炎等"
 ---
 
 # Cilastatin

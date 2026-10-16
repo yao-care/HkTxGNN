@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 633
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Nystatin：預測新適應症為外陰陰道炎 (Vulvovaginitis)（證據等級 L5）。原適應症：皮膚念珠菌感染、口腔念珠菌感染、念珠菌感染、外陰陰道念珠菌感染"
 ---
 
 # Nystatin

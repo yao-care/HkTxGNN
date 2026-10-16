@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 582
 evidence_level: L3
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Micafungin：預測新適應症為泌尿道感染 (Urinary Tract Infection)（證據等級 L3）。原適應症：食道念珠菌症、念珠菌血症、散播性念珠菌症"
 ---
 
 # Micafungin

@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 715
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Posaconazole：預測新適應症為肺囊蟲病 (Pneumocystosis)（證據等級 L4）。原適應症：香港許可證未提供核准適應症文字"
 ---
 
 # Posaconazole

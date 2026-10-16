@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 206
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Clavulanic Acid：預測新適應症為淋病性尿道炎 (Gonococcal Urethritis)（證據等級 L3）。原適應症：泌尿道感染、細菌性肺炎、葡萄球菌感染、鏈球菌肺炎等"
 ---
 
 # Clavulanic Acid

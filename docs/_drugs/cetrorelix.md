@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cetrorelix：預測新適應症為多毛症 (Hypertrichosis)（證據等級 L5）。原適應症：抑制接受控制性卵巢刺激之女性的早發性 LH 高峰"
 ---
 
 # Cetrorelix

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 359
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Evolocumab：預測新適應症為女性帶因者的症狀型血友病 (symptomatic form of hemophilia in female carriers)（證據等級 L5）。原適應症：同型合子家族性高膽固醇血症、症候群性血脂異常"
 ---
 
 # Evolocumab

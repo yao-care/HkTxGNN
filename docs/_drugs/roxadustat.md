@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 790
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Roxadustat：預測新適應症為乾眼症 (Dry Eye Syndrome)（證據等級 L5）。原適應症：難治性貧血 (Refractory Anemia)"
 ---
 
 # Roxadustat

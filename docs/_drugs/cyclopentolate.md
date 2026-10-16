@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 233
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Cyclopentolate：預測新適應症為馬尾症候群 (Cauda Equina Syndrome)（證據等級 L5）。原適應症：睫狀肌麻痺 (Cycloplegia)"
 ---
 
 # Cyclopentolate

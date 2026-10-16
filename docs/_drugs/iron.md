@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 485
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Iron：預測新適應症為Plummer-Vinson 症候群 (Plummer-Vinson syndrome)（證據等級 L4）。原適應症：缺鐵性貧血、葉酸缺乏性貧血、早產兒貧血、低色素性貧血、小球性貧血"
 ---
 
 # Iron

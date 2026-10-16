@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Enzalutamide：預測新適應症為攝護腺癌／腦癌易感性 (prostate cancer/brain cancer susceptibility)（證據等級 L5）。原適應症：攝護腺癌 (prostate cancer)"
 ---
 
 # Enzalutamide

@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 577
 evidence_level: L3
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Metoclopramide：預測新適應症為胃潰瘍 (Gastric Ulcer)（證據等級 L3）。原適應症：胃食道逆流疾病、食道炎、消化性食道炎"
 ---
 
 # Metoclopramide

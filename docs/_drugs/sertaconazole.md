@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 809
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Sertaconazole：預測新適應症為體癬 (Tinea Corporis)（證據等級 L5）。原適應症：足癬（Tinea pedis）。香港許可證未提供核准適應症文字，此為知識圖譜資料"
 ---
 
 # Sertaconazole

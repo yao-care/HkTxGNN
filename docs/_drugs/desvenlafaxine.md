@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 263
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Desvenlafaxine：預測新適應症為強迫症 (Obsessive-Compulsive Disorder)（證據等級 L4）。原適應症：憂鬱症（單極性憂鬱、內因性憂鬱、重度憂鬱症）、焦慮症"
 ---
 
 # Desvenlafaxine

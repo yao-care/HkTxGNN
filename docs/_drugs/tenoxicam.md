@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 860
 evidence_level: L3
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Tenoxicam：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L3）。原適應症：關節炎性關節疾病、關節病變"
 ---
 
 # Tenoxicam

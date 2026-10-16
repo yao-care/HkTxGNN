@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 527
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Levofloxacin：預測新適應症為點狀上皮角結膜炎 (Punctate Epithelial Keratoconjunctivitis)（證據等級 L4）。原適應症：細菌感染"
 ---
 
 # Levofloxacin

@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 210
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Clioquinol：預測新適應症為皮膚念珠菌症 (Cutaneous Candidiasis)（證據等級 L4）。原適應症：足癬、體癬、癬菌感染、鼠蹊與肛周皮癬菌病"
 ---
 
 # Clioquinol

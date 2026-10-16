@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 545
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lurasidone：預測新適應症為躁狂型雙極性情感障礙 (Manic Bipolar Affective Disorder)（證據等級 L4）。原適應症：雙極性疾患、思覺失調症"
 ---
 
 # Lurasidone

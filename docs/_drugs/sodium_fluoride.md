@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 821
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Sodium Fluoride：預測新適應症為會厭炎 (Epiglottitis)（證據等級 L5）。原適應症：維生素缺乏症"
 ---
 
 # Sodium Fluoride

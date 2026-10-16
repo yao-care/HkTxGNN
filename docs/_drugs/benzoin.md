@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 108
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Benzoin：預測新適應症為外陰陰道念珠菌病 (Vulvovaginal Candidiasis)（證據等級 L5）。原適應症：肛門生殖器 HPV 感染、尋常疣、角化性疾病、喉部乳突瘤"
 ---
 
 # Benzoin

@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 356
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Eucalyptus Oil：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L4）。原適應症：資料中未載明"
 ---
 
 # Eucalyptus Oil

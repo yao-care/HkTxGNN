@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 882
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Tipiracil：預測新適應症為盲腸絨毛狀腺瘤 (Cecum Villous Adenoma)（證據等級 L5）。原適應症：大腸直腸癌（惡性結腸腫瘤）"
 ---
 
 # Tipiracil

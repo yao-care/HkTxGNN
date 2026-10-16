@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 492
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Itraconazole：預測新適應症為肺囊蟲病 (Pneumocystosis)（證據等級 L4）。原適應症：食道念珠菌症、念珠菌血症、組織漿菌症、麴菌症、球黴菌症、孢子絲菌症、芽生菌症、鐮刀菌症等"
 ---
 
 # Itraconazole

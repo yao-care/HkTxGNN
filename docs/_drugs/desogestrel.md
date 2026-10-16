@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 260
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Desogestrel：預測新適應症為閉經 (Amenorrhea)（證據等級 L3）。原適應症：香港許可證資料未載明適應症文字（依其上市形式為口服避孕藥）"
 ---
 
 # Desogestrel

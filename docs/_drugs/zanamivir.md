@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 948
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Zanamivir：預測新適應症為腎盂腎炎 (Pyelonephritis)（證據等級 L5）。原適應症：流行性感冒 (Influenza)"
 ---
 
 # Zanamivir

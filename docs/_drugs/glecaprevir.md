@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 416
 evidence_level: L3
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Glecaprevir：預測新適應症為HIV 感染 (HIV infectious disease)（證據等級 L3）。原適應症：慢性 C 型肝炎病毒感染、C 型肝炎病毒感染"
 ---
 
 # Glecaprevir

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 294
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dornase Alfa：預測新適應症為前列腺腺泡黏液性腺癌 (acinar prostate mucinous adenocarcinoma)（證據等級 L5）。原適應症：囊腫性纖維化 (cystic fibrosis)"
 ---
 
 # Dornase Alfa

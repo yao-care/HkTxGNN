@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 905
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Triazolam：預測新適應症為入睡與維持睡眠障礙 (Sleep disorder, initiating and maintaining sleep)（證據等級 L5）。原適應症：失眠 (Insomnia)"
 ---
 
 # Triazolam

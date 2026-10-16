@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 727
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Prednisolone Acetate：預測新適應症為寄生蟲性結膜炎 (Parasitic Conjunctivitis)（證據等級 L5）。原適應症：葡萄膜炎、虹彩疾病、睫狀體疾病、全葡萄膜炎、結膜炎、虹彩睫狀體炎等"
 ---
 
 # Prednisolone Acetate

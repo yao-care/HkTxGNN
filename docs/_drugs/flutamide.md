@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 395
 evidence_level: L3
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Flutamide：預測新適應症為良性生殖系統腫瘤 (Benign reproductive system neoplasm)（證據等級 L3）。原適應症：前列腺癌（前列腺腫瘤、前列腺癌瘤）"
 ---
 
 # Flutamide

@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Dexpanthenol：預測新適應症為肛門直腸狹窄 (Anorectal Stricture)（證據等級 L5）。原適應症：麻痺性腸阻塞、腸阻塞、家族性內臟肌病變、皮膚疾病、日光性角化症、脂漏性角化症、胃輕癱、異位性濕疹、皮膚炎"
 ---
 
 # Dexpanthenol

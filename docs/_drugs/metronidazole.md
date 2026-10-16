@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 579
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Metronidazole：預測新適應症為肺囊蟲症 (Pneumocystosis)（證據等級 L5）。原適應症：腹膜炎、心內膜炎、厭氧菌感染、賈第鞭毛蟲症、細菌性陰道病、顱內膿瘍等"
 ---
 
 # Metronidazole

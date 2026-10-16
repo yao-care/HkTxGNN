@@ -5,6 +5,8 @@ parent: 中證據等級 (L3-L4)
 nav_order: 464
 evidence_level: L3
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Imipramine：預測新適應症為注意力不足過動症 (Attention Deficit-Hyperactivity Disorder)（證據等級 L3）。原適應症：焦慮症、官能症、輕鬱症、夜尿症"
 ---
 
 # Imipramine

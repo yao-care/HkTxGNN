@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Flavoxate：預測新適應症為注意力不足過動症（無注意力不足型）(Attention Deficit Hyperactivity Disorder…（證據等級 L5）。原適應症：香港許可證資料未載明適應症文字"
 ---
 
 # Flavoxate

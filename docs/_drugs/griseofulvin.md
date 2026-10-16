@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Griseofulvin：預測新適應症為蠅蛆症 (Myiasis)（證據等級 L5）。原適應症：足癬、體癬、甲癬、癬類感染、鼠蹊與肛周皮癬菌病、鬚癬、頭皮或鬚部皮癬菌病"
 ---
 
 # Griseofulvin

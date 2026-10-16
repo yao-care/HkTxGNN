@@ -5,6 +5,8 @@ parent: 僅模型預測 (L5)
 nav_order: 271
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Dextromethorphan：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L5）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、鼻炎、鼻咽炎、頭痛疾患"
 ---
 
 # Dextromethorphan
