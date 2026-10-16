@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Palmitic Acid：預測新適應症為非症候群性食道畸形 (non-syndromic esophageal malformation)（證據等級 L5）。原適應症：許可證資料未載明適應症（對應產品為肺表面活性劑氣管內懸液）"
+monitor_inn: "Palmitic Acid"
+predicted_indications: ["non-syndromic esophageal malformation", "esotropia", "esophageal disease", "HER2 positive breast carcinoma", "atypical coarctation of aorta", "dry eye syndrome", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
 ---
 
 # Palmitic Acid

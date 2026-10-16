@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Risperidone：預測新適應症為家族性水平凝視麻痺合併進行性脊柱側彎 (gaze palsy, familial horizontal…（證據等級 L5）。原適應症：躁期雙相情感障礙、雙相情感障礙、思覺失調症、自閉症譜系障礙"
+monitor_inn: "RISPERIDONE"
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 ---
 
 # Risperidone

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Colchicine：預測新適應症為惡性瘧原蟲瘧疾 (Plasmodium falciparum malaria)（證據等級 L5）。原適應症：痛風、家族性地中海熱"
+monitor_inn: "COLCHICINE"
+predicted_indications: ["Plasmodium falciparum malaria", "familial Mediterranean fever, autosomal dominant", "dermatofibrosarcoma protuberans"]
 ---
 
 # Colchicine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Sorafenib：預測新適應症為脂肪肉瘤 (Liposarcoma)（證據等級 L5）。原適應症：肝細胞癌、腎細胞癌、甲狀腺癌"
+monitor_inn: "SORAFENIB"
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma"]
 ---
 
 # Sorafenib

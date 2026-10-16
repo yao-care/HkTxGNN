@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Ibritumomab Tiuxetan：預測新適應症為急性淋巴母細胞白血病 (Acute Lymphoblastic/Lymphocytic Leukemia)（證據等級 L5）。原適應症：濾泡性淋巴瘤、成熟 B 細胞腫瘤"
+monitor_inn: "IBRITUMOMAB TIUXETAN"
+predicted_indications: ["acute lymphoblastic/lymphocytic leukemia", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma"]
 ---
 
 # Ibritumomab Tiuxetan

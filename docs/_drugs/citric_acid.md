@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Citric Acid：預測新適應症為胃部疾病 (Stomach Disease)（證據等級 L4）。原適應症：消化不良 (dyspepsia)、頭痛疾患 (headache disorder)"
+monitor_inn: "CITRIC ACID"
+predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
 ---
 
 # Citric Acid

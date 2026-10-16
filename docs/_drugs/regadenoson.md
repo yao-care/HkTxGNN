@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Regadenoson：預測新適應症為過敏性休克 (Anaphylaxis)（證據等級 L5）。原適應症：心肌灌注造影"
+monitor_inn: "REGADENOSON"
+predicted_indications: ["anaphylaxis", "food-dependent exercise-induced anaphylaxis", "esotropia", "pseudoallergy"]
 ---
 
 # Regadenoson

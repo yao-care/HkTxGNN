@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Levonorgestrel：預測新適應症為痤瘡 (Acne)（證據等級 L4）。原適應症：停經後骨質疏鬆、骨質疏鬆"
+monitor_inn: "LEVONORGESTREL"
+predicted_indications: ["acne (disease)", "Worth syndrome", "pregnancy associated osteoporosis", "autosomal dominant neovascular inflammatory vitreoretinopathy", "blunt duct adenosis of breast"]
 ---
 
 # Levonorgestrel

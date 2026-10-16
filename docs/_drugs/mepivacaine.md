@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Mepivacaine：預測新適應症為胃十二指腸炎 (Gastroduodenitis)（證據等級 L5）。原適應症：目前許可證資料未載明核准適應症"
+monitor_inn: "Mepivacaine"
+predicted_indications: ["gastroduodenitis", "peptic ulcer disease"]
 ---
 
 # Mepivacaine

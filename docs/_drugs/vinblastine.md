@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Vinblastine：預測新適應症為橫紋肌肉瘤 (Rhabdomyosarcoma)（證據等級 L3）。原適應症：蕈樣肉芽腫、皮膚 T 細胞淋巴瘤、霍奇金氏淋巴瘤、非霍奇金氏淋巴瘤、外套細胞淋巴瘤、蘭格漢斯細胞組織球增生症"
+monitor_inn: "Vinblastine"
+predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
 ---
 
 # Vinblastine

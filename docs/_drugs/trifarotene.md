@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Trifarotene：預測新適應症為血漿鋅偏高 (zinc, elevated plasma)（證據等級 L5）。原適應症：痤瘡 (acne)"
+monitor_inn: "Trifarotene"
+predicted_indications: ["zinc, elevated plasma", "pyogenic arthritis-pyoderma gangrenosum-acne syndrome", "demodicidosis of sebaceous gland", "spondyloarthropathy, susceptibility to", "malaria", "Zollinger-Ellison syndrome", "Ehlers-Danlos syndrome", "Beare-Stevenson cutis gyrata syndrome", "isolated congenital adermatoglyphia", "malignant atrophic papulosis"]
 ---
 
 # Trifarotene

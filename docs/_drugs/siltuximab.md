@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Siltuximab：預測新適應症為TAFRO 症候群 (TAFRO syndrome)（證據等級 L5）。原適應症：Castleman 病、Kimura 病"
+monitor_inn: "Siltuximab"
+predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever", "syndrome with combined immunodeficiency", "TAFRO syndrome"]
 ---
 
 # Siltuximab

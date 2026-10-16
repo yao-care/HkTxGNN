@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Aflibercept：預測新適應症為內斜視 (Esotropia)（證據等級 L5）。原適應症：轉移性大腸癌、黃斑部病變、視網膜動脈阻塞、糖尿病黃斑部水腫"
+monitor_inn: "Aflibercept"
+predicted_indications: ["esotropia", "esophageal varices with bleeding", "esophageal varices without bleeding", "varicose disease", "urethral calculus", "adenosine deaminase deficiency", "hemorrhagic disease of newborn", "ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "middle ear neuroendocrine tumor"]
 ---
 
 # Aflibercept

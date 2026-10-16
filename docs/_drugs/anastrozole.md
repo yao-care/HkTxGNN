@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Anastrozole：預測新適應症為女性乳癌 (Female Breast Carcinoma)（證據等級 L1）。原適應症：香港許可證未載明適應症文字（依其機轉與文獻，主要用於荷爾蒙受體陽性乳癌）"
+monitor_inn: "Anastrozole"
+predicted_indications: ["female breast carcinoma", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia", "rhabdomyosarcoma (disease)", "myeloid leukemia", "collagenopathy", "lymphocytic hypereosinophilic syndrome"]
 ---
 
 # Anastrozole

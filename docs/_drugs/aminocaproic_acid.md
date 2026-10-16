@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Aminocaproic Acid：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy)（證據等級 L5）。原適應症：許可證資料未登載"
+monitor_inn: "AMINOCAPROIC ACID"
+predicted_indications: ["severe nonproliferative diabetic retinopathy"]
 ---
 
 # Aminocaproic Acid

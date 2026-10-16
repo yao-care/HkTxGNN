@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Bupivacaine：預測新適應症為慢性萎縮性肢端皮膚炎 (Acrodermatitis chronica atrophicans)（證據等級 L5）。原適應症：皮膚炎 (dermatitis)"
+monitor_inn: "Bupivacaine"
+predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
 ---
 
 # Bupivacaine

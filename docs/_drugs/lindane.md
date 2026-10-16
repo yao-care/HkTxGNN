@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lindane：預測新適應症為頸部神經母細胞瘤 (Cervical Neuroblastoma)（證據等級 L5）。原適應症：疥瘡、挪威疥瘡、頭蝨、陰蝨、蟎感染"
+monitor_inn: "Lindane"
+predicted_indications: ["cervical neuroblastoma", "benign neoplasm of tongue", "epiglottis neoplasm", "odontogenic cyst", "pre-malignant neoplasm", "benign neoplasm of hypopharynx", "schwannoma of jugular foramen", "cystic neoplasm", "benign neoplasm of buccal mucosa", "inner ear neoplasm"]
 ---
 
 # Lindane

@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Magnesium Sulfate：預測新適應症為子癇前症/子癇 (preeclampsia/eclampsia)（證據等級 L1）。原適應症：便秘、子癇前症"
+monitor_inn: "MAGNESIUM SULFATE"
+predicted_indications: ["preeclampsia/eclampsia", "toxemia of pregnancy", "thrombotic disease", "pharyngitis", "nasal cavity disease"]
 ---
 
 # Magnesium Sulfate

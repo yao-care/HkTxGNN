@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Ciclesonide：預測新適應症為異位性皮膚炎 (Atopic Eczema)（證據等級 L5）。原適應症：氣喘、內因性氣喘、過敏性氣喘、過敏性鼻炎、血管運動性鼻炎"
+monitor_inn: "CICLESONIDE"
+predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis", "asthma-related traits, susceptibility to"]
 ---
 
 # Ciclesonide

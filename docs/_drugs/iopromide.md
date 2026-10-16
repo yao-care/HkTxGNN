@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Iopromide：預測新適應症為退化性關節炎易感性 (osteoarthritis susceptibility)（證據等級 L5）。原適應症：許可證未載明核准適應症（一般為放射影像造影劑）"
+monitor_inn: "Iopromide"
+predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis", "rheumatoid arthritis", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "alopecia", "myosclerosis", "hemoglobinopathy", "pseudoachondroplasia"]
 ---
 
 # Iopromide

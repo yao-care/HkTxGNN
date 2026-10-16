@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Conjugated Estrogens：預測新適應症為偏頭痛 (Migraine disorder)（證據等級 L3）。原適應症：心因性性交疼痛 (psychologic dyspareunia)"
+monitor_inn: "Conjugated estrogens"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "rheumatoid arthritis", "heparin cofactor 2 deficiency", "Prinzmetal angina", "hemoglobinopathy", "migraine with or without aura, susceptibility to", "thrombophilia"]
 ---
 
 # Conjugated Estrogens

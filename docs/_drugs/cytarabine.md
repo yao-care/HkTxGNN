@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 9
 last_modified_at: 2026-10-14
 description: "Cytarabine：預測新適應症為小細胞肺癌 (Small Cell Lung Carcinoma)（證據等級 L4）。原適應症：急性淋巴芽細胞白血病、急性骨髓性白血病"
+monitor_inn: "CYTARABINE"
+predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
 ---
 
 # Cytarabine

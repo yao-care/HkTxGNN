@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Alfuzosin：預測新適應症為Ambras 型先天性全身性多毛症 (Ambras type hypertrichosis universalis congenita)（證據等級 L5）。原適應症：良性前列腺增生 (Benign Prostatic Hyperplasia)"
+monitor_inn: "Alfuzosin"
+predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 ---
 
 # Alfuzosin

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cabozantinib：預測新適應症為脂肪肉瘤 (Liposarcoma)（證據等級 L3）。原適應症：腎細胞癌、透明細胞腎癌、甲狀腺髓質癌"
+monitor_inn: "Cabozantinib"
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "renal carcinoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
 ---
 
 # Cabozantinib

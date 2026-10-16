@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Cycloserine：預測新適應症為腸躁症 (Irritable Bowel Syndrome)（證據等級 L5）。原適應症：肺結核"
+monitor_inn: "CYCLOSERINE"
+predicted_indications: ["irritable bowel syndrome", "acne (disease)", "gastroparesis (disease)", "conjunctivitis", "insomnia (disease)", "pharyngitis", "nasal cavity disease"]
 ---
 
 # Cycloserine

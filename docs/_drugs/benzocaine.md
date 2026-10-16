@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Benzocaine：預測新適應症為乳頭狀結膜炎 (Papillary Conjunctivitis)（證據等級 L5）。原適應症：足癬、皮膚炎、咽炎、體癬、黴菌感染"
+monitor_inn: "BENZOCAINE"
+predicted_indications: ["papillary conjunctivitis"]
 ---
 
 # Benzocaine

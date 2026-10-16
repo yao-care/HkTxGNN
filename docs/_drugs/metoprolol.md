@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Metoprolol：預測新適應症為惡性腎血管性高血壓 (Malignant Renovascular Hypertension)（證據等級 L5）。原適應症：高血壓、急性冠心症、心肌梗塞"
+monitor_inn: "Metoprolol"
+predicted_indications: ["malignant renovascular hypertension", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "posteroinferior myocardial infarction", "posterolateral myocardial infarction", "septal myocardial infarction", "chronic pulmonary heart disease", "trichotillomania"]
 ---
 
 # Metoprolol

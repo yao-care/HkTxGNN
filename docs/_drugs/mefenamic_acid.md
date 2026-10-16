@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Mefenamic Acid：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L2）。原適應症：資料未載明"
+monitor_inn: "MEFENAMIC ACID"
+predicted_indications: ["rheumatoid arthritis", "osteoarthritis susceptibility", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 ---
 
 # Mefenamic Acid

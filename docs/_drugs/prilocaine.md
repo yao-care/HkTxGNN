@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Prilocaine：預測新適應症為神經痛 (Neuralgia)（證據等級 L5）。原適應症：早洩 (premature ejaculation)、心因性性交疼痛 (psychologic dyspareunia)"
+monitor_inn: "PRILOCAINE"
+predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia"]
 ---
 
 # Prilocaine

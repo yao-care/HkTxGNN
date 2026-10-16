@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Sofosbuvir：預測新適應症為B 型肝炎病毒感染（證據等級 L5）。原適應症：慢性 C 型肝炎病毒感染 (chronic hepatitis C virus infection)"
+monitor_inn: "SOFOSBUVIR"
+predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever"]
 ---
 
 # Sofosbuvir

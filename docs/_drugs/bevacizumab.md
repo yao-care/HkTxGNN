@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bevacizumab：預測新適應症為會厭腫瘤 (Epiglottis Neoplasm)（證據等級 L5）。原適應症：腹膜癌、原發性腹膜漿液性癌、卵巢惡性上皮腫瘤、乳癌、大腸轉移性惡性腫瘤、神經膠母細胞瘤等"
+monitor_inn: "Bevacizumab"
+predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
 ---
 
 # Bevacizumab

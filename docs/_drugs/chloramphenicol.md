@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 9
 last_modified_at: 2026-10-14
 description: "Chloramphenicol：預測新適應症為結膜炎 (Conjunctivitis)（證據等級 L3）。原適應症：傷寒、沙門氏菌感染、副傷寒、腦膜炎球菌感染、鏈球菌腦膜炎、外耳炎、感染性皮膚病、斑疹熱、立克次體病、錐蟲病、斑疹傷寒、Q 熱"
+monitor_inn: "CHLORAMPHENICOL"
+predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
 ---
 
 # Chloramphenicol

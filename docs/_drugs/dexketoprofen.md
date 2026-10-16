@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dexketoprofen：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L1）。原適應症：資料中未載明"
+monitor_inn: "Dexketoprofen"
+predicted_indications: ["tendinitis", "fibromyalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
 ---
 
 # Dexketoprofen

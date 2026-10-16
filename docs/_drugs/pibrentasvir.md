@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Pibrentasvir：預測新適應症為B 型肝炎病毒感染 (Hepatitis B virus infection)（證據等級 L5）。原適應症：慢性 C 型肝炎病毒感染 (chronic hepatitis C virus infection)"
+monitor_inn: "PIBRENTASVIR"
+predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal"]
 ---
 
 # Pibrentasvir

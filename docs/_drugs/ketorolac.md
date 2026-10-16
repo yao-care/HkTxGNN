@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Ketorolac：預測新適應症為頭痛疾患 (Headache Disorder)（證據等級 L1）。原適應症：過敏性結膜炎、乳突狀結膜炎、春季結膜炎"
+monitor_inn: "ketorolac"
+predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
 ---
 
 # Ketorolac

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Benralizumab：預測新適應症為皮膚炎 (Dermatitis)（證據等級 L5）。原適應症：嗜酸性肺炎、肺嗜酸性球增多症"
+monitor_inn: "BENRALIZUMAB"
+predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
 ---
 
 # Benralizumab

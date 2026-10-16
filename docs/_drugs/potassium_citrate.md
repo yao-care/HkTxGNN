@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Potassium Citrate：預測新適應症為腎結石 (Nephrolithiasis)（證據等級 L2）。原適應症：鉀缺乏症、腎小管酸中毒、急性尿酸腎病變"
+monitor_inn: "POTASSIUM CITRATE"
+predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "nephrolithiasis", "cystinosis"]
 ---
 
 # Potassium Citrate

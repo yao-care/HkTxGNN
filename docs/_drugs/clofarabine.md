@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Clofarabine：預測新適應症為骨髓性白血病 (Myeloid Leukemia)（證據等級 L1）。原適應症：急性淋巴性白血病"
+monitor_inn: "CLOFARABINE"
+predicted_indications: ["myeloid leukemia", "precursor lymphoblastic lymphoma/leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "acute lymphoblastic leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"]
 ---
 
 # Clofarabine

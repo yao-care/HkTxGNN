@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Mebendazole：預測新適應症為泡型包蟲症 (Alveolar Echinococcosis)（證據等級 L3）。原適應症：蟯蟲症、蛔蟲症、鞭蟲症"
+monitor_inn: "Mebendazole"
+predicted_indications: ["acne (disease)", "leishmaniasis, diffuse cutaneous", "echinococcus granulosus infectious disease", "hordeolum", "alveolar echinococcosis", "inhalational botulism", "toxin-mediated infectious botulism", "impetigo", "Sorsby's fundus dystrophy", "demodicidosis of sebaceous gland"]
 ---
 
 # Mebendazole

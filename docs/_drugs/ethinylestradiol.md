@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ethinylestradiol：預測新適應症為血漿鋅偏高 (zinc, elevated plasma)（證據等級 L5）。原適應症：痤瘡、停經後骨質疏鬆、骨質疏鬆、萎縮性外陰、停經後萎縮性陰道炎"
+monitor_inn: "ethinylestradiol"
+predicted_indications: ["zinc, elevated plasma"]
 ---
 
 # Ethinylestradiol

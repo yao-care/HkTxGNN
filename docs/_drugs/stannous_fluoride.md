@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Stannous Fluoride：預測新適應症為腦膜炎球菌感染 (Meningococcal Infection)（證據等級 L5）。原適應症：未載明"
+monitor_inn: "STANNOUS FLUORIDE"
+predicted_indications: ["meningococcal infection"]
 ---
 
 # Stannous Fluoride

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Ganirelix：預測新適應症為多毛症 (Hypertrichosis)（證據等級 L5）。原適應症：預防卵巢刺激期間提早排卵"
+monitor_inn: "GANIRELIX"
+predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
 ---
 
 # Ganirelix

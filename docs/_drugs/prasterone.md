@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Prasterone：預測新適應症為肝素輔因子 2 缺乏症 (Heparin Cofactor 2 Deficiency)（證據等級 L5）。原適應症：全身性紅斑性狼瘡、兒童全身性紅斑性狼瘡、心因性性交疼痛"
+monitor_inn: "PRASTERONE"
+predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "severe nonproliferative diabetic retinopathy"]
 ---
 
 # Prasterone

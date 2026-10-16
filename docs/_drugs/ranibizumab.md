@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Ranibizumab：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy)（證據等級 L5）。原適應症：香港許可證未載明核准適應症文字"
+monitor_inn: "RANIBIZUMAB"
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetes mellitus type 2 associated cataract", "immature cataract", "craniostenosis cataract", "mature cataract"]
 ---
 
 # Ranibizumab

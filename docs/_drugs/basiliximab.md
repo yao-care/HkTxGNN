@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Basiliximab：預測新適應症為漿細胞骨髓瘤 (Plasma Cell Myeloma)（證據等級 L5）。原適應症：資料中未載明"
+monitor_inn: "Basiliximab"
+predicted_indications: ["plasma cell myeloma", "bronchitis", "indolent plasma cell myeloma", "hemoglobinopathy", "gastric carcinoma", "diffuse gastric adenocarcinoma", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "Jeune syndrome situs inversus"]
 ---
 
 # Basiliximab

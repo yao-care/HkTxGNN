@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Oxyquinoline：預測新適應症為骨關節炎 (Osteoarthritis)（證據等級 L5）。原適應症：許可證未載明（產品為牙科用溶液）"
+monitor_inn: "Oxyquinoline"
+predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheumatoid arthritis", "hepatic porphyria", "gout", "pseudoachondroplasia", "brachyolmia", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis"]
 ---
 
 # Oxyquinoline

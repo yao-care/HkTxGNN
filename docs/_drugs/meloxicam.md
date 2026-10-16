@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Meloxicam：預測新適應症為肢中型發育不良，Hunter-Thompson 型 (Acromesomelic dysplasia…（證據等級 L5）。原適應症：類風濕性關節炎、骨關節炎、關節病變、幼年型特發性關節炎、脊椎關節病變"
+monitor_inn: "MELOXICAM"
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia"]
 ---
 
 # Meloxicam

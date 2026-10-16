@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Pheniramine：預測新適應症為過敏性蕁麻疹 (Allergic Urticaria)（證據等級 L4）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、異位性結膜炎、蕁麻疹、血管性水腫等"
+monitor_inn: "Pheniramine"
+predicted_indications: ["allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis"]
 ---
 
 # Pheniramine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Esculin：預測新適應症為閉經 (Amenorrhea)（證據等級 L5）。原適應症：許可證資料未載明核准適應症（產品名稱為痔瘡軟膏類）"
+monitor_inn: "ESCULIN"
+predicted_indications: ["amenorrhea (disease)"]
 ---
 
 # Esculin

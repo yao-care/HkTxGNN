@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Tolfenamic Acid：預測新適應症為頭痛疾患 (Headache Disorder)（證據等級 L2）。原適應症：許可證未載明適應症"
+monitor_inn: "TOLFENAMIC ACID"
+predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis", "trigeminal autonomic cephalalgia", "idiopathic granulomatous myositis"]
 ---
 
 # Tolfenamic Acid

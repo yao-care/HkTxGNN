@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bendamustine：預測新適應症為被套細胞淋巴瘤 (Mantle Cell Lymphoma)（證據等級 L1）。原適應症：濾泡性淋巴瘤、成熟 B 細胞腫瘤、急性淋巴母細胞白血病、Richter 症候群"
+monitor_inn: "Bendamustine"
+predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
 ---
 
 # Bendamustine

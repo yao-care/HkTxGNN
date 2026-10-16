@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Risankizumab：預測新適應症為皮膚炎 (Dermatitis)（證據等級 L2）。原適應症：乾癬、類乾癬"
+monitor_inn: "RISANKIZUMAB"
+predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid"]
 ---
 
 # Risankizumab

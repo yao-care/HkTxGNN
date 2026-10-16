@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sodium Tetradecyl Sulfate：預測新適應症為食道靜脈曲張，未出血型（Esophageal varices without bleeding）（證據等級 L2）。原適應症：靜脈曲張（varicose disease）"
+monitor_inn: "Sodium tetradecyl sulfate"
+predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding", "Steel syndrome", "pseudo-von Willebrand disease", "Immunoerythromyeloid hypoplasia", "primary release disorder of platelets", "reticular dysgenesis", "autosomal dominant familial periodic fever", "hypophosphatasia", "lung fibrosis-immunodeficiency-46,XX gonadal dysgenesis syndrome"]
 ---
 
 # Sodium Tetradecyl Sulfate

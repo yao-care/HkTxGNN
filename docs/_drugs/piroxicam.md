@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Piroxicam：預測新適應症為科羅波瑪性小眼症-根性肢體發育不良症候群 (colobomatous microphthalmia-rhizomelic dysplasi…（證據等級 L5）。原適應症：類風濕性關節炎、骨關節炎、關節病變"
+monitor_inn: "PIROXICAM"
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 ---
 
 # Piroxicam

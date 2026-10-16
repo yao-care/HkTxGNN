@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Gadobenic Acid：預測新適應症為退化性關節炎 (Osteoarthritis)（證據等級 L5）。原適應症：資料未載明"
+monitor_inn: "Gadobenic acid"
+predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheumatoid arthritis", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia-amelogenesis imperfecta syndrome", "benign prostatic hyperplasia (disease)", "myosclerosis", "alopecia"]
 ---
 
 # Gadobenic Acid

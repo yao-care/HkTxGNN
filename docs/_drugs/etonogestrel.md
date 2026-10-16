@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Etonogestrel：預測新適應症為閉經 (Amenorrhea)（證據等級 L5）。原適應症：香港許可證未登載適應症文字（依其劑型與藥理類別，一般為避孕）"
+monitor_inn: "ETONOGESTREL"
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "blunt duct adenosis of breast", "apocrine adenosis of breast", "benign mammary dysplasia"]
 ---
 
 # Etonogestrel

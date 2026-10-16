@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Amantadine：預測新適應症為Rasmussen 亞急性腦炎 (Rasmussen subacute encephalitis)（證據等級 L5）。原適應症：帕金森氏症及相關動作障礙"
+monitor_inn: "Amantadine"
+predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration"]
 ---
 
 # Amantadine

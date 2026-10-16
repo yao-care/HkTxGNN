@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Icatibant：預測新適應症為C1 抑制劑缺乏症 (C1 inhibitor deficiency)（證據等級 L1）。原適應症：遺傳性血管性水腫 (Hereditary angioedema)，含 C1 抑制劑缺乏型"
+monitor_inn: "ICATIBANT"
+predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy"]
 ---
 
 # Icatibant

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Fulvestrant：預測新適應症為HIV 感染 (HIV infectious disease)（證據等級 L4）。原適應症：香港許可證資料未載明核准適應症（臨床上為荷爾蒙受體陽性乳癌）"
+monitor_inn: "FULVESTRANT"
+predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Fulvestrant

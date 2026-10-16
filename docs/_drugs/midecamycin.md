@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Midecamycin：預測新適應症為念珠菌感染 (Candidiasis)（證據等級 L5）。原適應症：資料未載明"
+monitor_inn: "Midecamycin"
+predicted_indications: ["candidiasis", "leprosy", "coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery", "pneumocystosis", "polyp of vocal cord", "uterine polyp", "polyp of middle ear", "polyp of frontal sinus"]
 ---
 
 # Midecamycin

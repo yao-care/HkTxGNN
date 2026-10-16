@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Nimodipine：預測新適應症為同合子家族性高膽固醇血症 (Homozygous Familial Hypercholesterolemia)（證據等級 L5）。原適應症：蛛網膜下腔出血、動脈瘤性蛛網膜下腔出血"
+monitor_inn: "NIMODIPINE"
+predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
 ---
 
 # Nimodipine

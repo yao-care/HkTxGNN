@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Morphine：預測新適應症為肌筋膜疼痛症候群 (Myofascial Pain Syndrome)（證據等級 L5）。原適應症：腹瀉性疾病"
+monitor_inn: "Morphine"
+predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 ---
 
 # Morphine

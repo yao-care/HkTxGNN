@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Lorazepam：預測新適應症為三叉神經腫瘤 (Trigeminal Nerve Neoplasm)（證據等級 L5）。原適應症：焦慮症、癲癇持續狀態、失神癲癇、Lennox-Gastaut 症候群等"
+monitor_inn: "LORAZEPAM"
+predicted_indications: ["trigeminal nerve neoplasm", "insomnia (disease)", "reading seizures", "orgasm-induced seizures", "audiogenic seizures"]
 ---
 
 # Lorazepam

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Rifaximin：預測新適應症為口腔念珠菌症 (Oral Candidiasis)（證據等級 L5）。原適應症：肝性腦病變、肝昏迷"
+monitor_inn: "RIFAXIMIN"
+predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "oral leukoedema", "burning mouth syndrome"]
 ---
 
 # Rifaximin

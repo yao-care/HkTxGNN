@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Levetiracetam：預測新適應症為視覺性癲癇 (Visual Epilepsy)（證據等級 L4）。原適應症：局部癲癇 (Partial Epilepsy)"
+monitor_inn: "LEVETIRACETAM"
+predicted_indications: ["visual epilepsy", "orgasm-induced seizures", "audiogenic seizures", "eating seizures", "micturation-induced seizures"]
 ---
 
 # Levetiracetam

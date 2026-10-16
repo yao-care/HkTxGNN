@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Desonide：預測新適應症為聲帶息肉 (Polyp of Vocal Cord)（證據等級 L5）。原適應症：異位性皮膚炎、接觸性皮膚炎、脂漏性皮膚炎等發炎性皮膚疾病"
+monitor_inn: "DESONIDE"
+predicted_indications: ["polyp of vocal cord", "polyp of middle ear", "polyp of external auditory canal", "polyp of frontal sinus", "polyp of ureter", "polyp of vulva", "fibroepithelial polyp", "neoplastic polyp", "epulis", "uterine polyp"]
 ---
 
 # Desonide

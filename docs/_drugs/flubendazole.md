@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Flubendazole：預測新適應症為膀胱尿路上皮癌 (Urinary Bladder Carcinoma)（證據等級 L5）。原適應症：本次整理的資料未載明"
+monitor_inn: "Flubendazole"
+predicted_indications: ["urinary bladder carcinoma", "urinary bladder neoplasm", "infiltrating bladder urothelial carcinoma", "non-invasive bladder urothelial carcinoma", "bladder urachal urothelial carcinoma", "bladder squamous papilloma", "bladder signet ring cell adenocarcinoma", "bladder colonic type adenocarcinoma", "bladder colloid adenocarcinoma", "bladder mixed adenocarcinoma"]
 ---
 
 # Flubendazole

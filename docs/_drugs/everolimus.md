@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Everolimus：預測新適應症為脂肪肉瘤 (Liposarcoma)（證據等級 L5）。原適應症：腎細胞癌、乳癌、腎血管平滑肌脂肪瘤、結節性硬化症等"
+monitor_inn: "EVEROLIMUS"
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 ---
 
 # Everolimus

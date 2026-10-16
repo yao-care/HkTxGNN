@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Arginine：預測新適應症為胃輕癱 (Gastroparesis)（證據等級 L4）。原適應症：香港許可證資料未載明核准適應症"
+monitor_inn: "ARGININE"
+predicted_indications: ["gastroparesis (disease)"]
 ---
 
 # Arginine

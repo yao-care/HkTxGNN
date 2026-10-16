@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Serine：預測新適應症為家族性內臟肌病 (Familial Visceral Myopathy)（證據等級 L5）。原適應症：開角型青光眼、肺結核"
+monitor_inn: "SERINE"
+predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "unclassified intestinal pseudoobstruction", "myopathic intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B"]
 ---
 
 # Serine

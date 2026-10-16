@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Periciazine：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：本報告資料中未載明"
+monitor_inn: "periciazine"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "dysthymic disorder", "migraine with or without aura, susceptibility to", "ulerythema ophryogenesis"]
 ---
 
 # Periciazine

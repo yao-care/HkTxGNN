@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Ofloxacin：預測新適應症為高澱粉酶血症 (Hyperamylasemia)（證據等級 L5）。原適應症：傷寒、沙門氏菌症、泌尿道感染、支氣管炎、細菌性肺炎等細菌感染"
+monitor_inn: "OFLOXACIN"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]
 ---
 
 # Ofloxacin

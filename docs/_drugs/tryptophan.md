@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Tryptophan：預測新適應症為不寧腿症候群 (Restless Legs Syndrome)（證據等級 L3）。原適應症：資料中未載明核准適應症文字"
+monitor_inn: "TRYPTOPHAN"
+predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia"]
 ---
 
 # Tryptophan

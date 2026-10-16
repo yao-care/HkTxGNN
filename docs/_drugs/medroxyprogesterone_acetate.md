@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Medroxyprogesterone Acetate：預測新適應症為閉經 (Amenorrhea)（證據等級 L4）。原適應症：子宮內膜異位症、子宮內膜癌、停經後骨質疏鬆"
+monitor_inn: "MEDROXYPROGESTERONE ACETATE"
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "cervix endometriosis", "endometriosis in cutaneous scar"]
 ---
 
 # Medroxyprogesterone Acetate

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Vernakalant：預測新適應症為中風 (Stroke Disorder)（證據等級 L4）。原適應症：心房顫動（atrial fibrillation）"
+monitor_inn: "Vernakalant"
+predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "obsolete susceptibility to ischemic stroke", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
 ---
 
 # Vernakalant

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Etodolac：預測新適應症為模型排名第 1 為 acromesomelic dysplasia, Hunter-Thompson type（證據等級 L5）。原適應症：類風濕性關節炎、退化性關節炎、關節病變、幼年型特發性關節炎、脊椎關節病變"
+monitor_inn: "ETODOLAC"
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "spondyloarthropathy, susceptibility to", "brachyolmia", "ankylosing spondylitis", "pseudoachondroplasia", "rheumatoid vasculitis", "hypermobility of coccyx", "inflammatory spondylopathy"]
 ---
 
 # Etodolac

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Idarucizumab：預測新適應症為血紅素病變 (Hemoglobinopathy)（證據等級 L5）。原適應症：許可證未載明適應症（依機轉為 dabigatran 抗凝血作用的逆轉）"
+monitor_inn: "Idarucizumab"
+predicted_indications: ["hemoglobinopathy", "rheumatoid arthritis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "pyruvate kinase deficiency of red cells", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "bronchitis", "gout", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 ---
 
 # Idarucizumab

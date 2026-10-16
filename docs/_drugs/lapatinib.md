@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Lapatinib：預測新適應症為隆突性皮膚纖維肉瘤 (Dermatofibrosarcoma Protuberans)（證據等級 L5）。原適應症：HER2 陽性乳癌 (HER2 positive breast carcinoma)"
+monitor_inn: "LAPATINIB"
+predicted_indications: ["dermatofibrosarcoma protuberans"]
 ---
 
 # Lapatinib

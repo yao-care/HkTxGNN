@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Capmatinib：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L5）。原適應症：許可證資料未載明"
+monitor_inn: "Capmatinib"
+predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "heart disease", "Jeune syndrome situs inversus", "Pierre Robin syndrome associated with a chromosomal anomaly", "orofacial clefting syndrome", "Laubry-Pezzi syndrome", "interventricular septum aneurysm", "hyperthyroidism"]
 ---
 
 # Capmatinib

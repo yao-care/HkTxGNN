@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Oxymetazoline：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L4）。原適應症：咽喉炎 (pharyngitis)、感冒 (common cold)"
+monitor_inn: "Oxymetazoline"
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "headache disorder"]
 ---
 
 # Oxymetazoline

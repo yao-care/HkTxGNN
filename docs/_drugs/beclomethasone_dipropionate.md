@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Beclomethasone Dipropionate：預測新適應症為異位性皮膚炎 (Atopic Eczema)（證據等級 L3）。原適應症：氣喘、過敏性鼻炎、血管運動性鼻炎、鼻息肉"
+monitor_inn: "BECLOMETHASONE DIPROPIONATE"
+predicted_indications: ["atopic eczema"]
 ---
 
 # Beclomethasone Dipropionate

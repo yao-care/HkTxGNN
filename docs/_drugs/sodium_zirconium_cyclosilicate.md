@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sodium Zirconium Cyclosilicate：預測新適應症為乳房纖維囊腫病 (breast fibrocystic disease)（證據等級 L5）。原適應症：香港許可證資料未載明"
+monitor_inn: "Sodium zirconium cyclosilicate"
+predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "blunt duct adenosis of breast", "apocrine adenosis of breast", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2"]
 ---
 
 # Sodium Zirconium Cyclosilicate

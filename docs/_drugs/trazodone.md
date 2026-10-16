@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Trazodone：預測新適應症為強迫症 (Obsessive-Compulsive Disorder)（證據等級 L5）。原適應症：單極性憂鬱症、內因性憂鬱症、重度憂鬱症、焦慮症"
+monitor_inn: "Trazodone"
+predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder", "phobic disorder", "Ohdo syndrome and variants"]
 ---
 
 # Trazodone

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Clotrimazole：預測新適應症為痤瘡 (Acne)（證據等級 L5）。原適應症：足癬、體癬、皮膚念珠菌症、花斑癬、口腔念珠菌症、外陰陰道念珠菌症等"
+monitor_inn: "CLOTRIMAZOLE"
+predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
 ---
 
 # Clotrimazole

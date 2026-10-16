@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Ifosfamide：預測新適應症為女性乳癌 (female breast carcinoma)（證據等級 L5）。原適應症：資料未登載"
+monitor_inn: "IFOSFAMIDE"
+predicted_indications: ["female breast carcinoma", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts"]
 ---
 
 # Ifosfamide

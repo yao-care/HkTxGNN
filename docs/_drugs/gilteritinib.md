@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Gilteritinib：預測新適應症為延髓型小兒麻痺 (Bulbar Polio)（證據等級 L5）。原適應症：骨髓性白血病（急性骨髓性白血病及其各亞型）"
+monitor_inn: "GILTERITINIB"
+predicted_indications: ["bulbar polio"]
 ---
 
 # Gilteritinib

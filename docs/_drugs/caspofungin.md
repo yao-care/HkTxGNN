@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Caspofungin：預測新適應症為胃泌素分泌異常 (Gastrin Secretion Abnormality)（證據等級 L5）。原適應症：食道念珠菌症、念珠菌血症"
+monitor_inn: "CASPOFUNGIN"
+predicted_indications: ["gastrin secretion abnormality"]
 ---
 
 # Caspofungin

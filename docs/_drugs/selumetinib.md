@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Selumetinib：預測新適應症為週邊神經鞘瘤 (Peripheral nerve schwannoma)（證據等級 L5）。原適應症：神經纖維瘤 (neurofibromatosis)"
+monitor_inn: "Selumetinib"
+predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "trigeminal schwannoma"]
 ---
 
 # Selumetinib

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Hydroxyzine：預測新適應症為過敏性蕁麻疹 (Allergic Urticaria)（證據等級 L4）。原適應症：異位性皮膚炎、過敏性鼻炎、蕁麻疹、血管性水腫等"
+monitor_inn: "Hydroxyzine"
+predicted_indications: ["allergic urticaria", "rosacea conjunctivitis", "cold urticaria", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 ---
 
 # Hydroxyzine

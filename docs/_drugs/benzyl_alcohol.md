@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Benzyl Alcohol：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L5）。原適應症：皮膚炎"
+monitor_inn: "BENZYL ALCOHOL"
+predicted_indications: ["bronchitis"]
 ---
 
 # Benzyl Alcohol

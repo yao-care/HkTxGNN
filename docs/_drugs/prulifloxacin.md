@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Prulifloxacin：預測新適應症為心臟疾病 (heart disease)（證據等級 L4）。原適應症：香港許可證未載明核准適應症"
+monitor_inn: "PRULIFLOXACIN"
+predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "partial deletion of the long arm of chromosome 7"]
 ---
 
 # Prulifloxacin

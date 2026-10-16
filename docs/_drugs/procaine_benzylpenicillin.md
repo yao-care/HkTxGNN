@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Procaine Benzylpenicillin：預測新適應症為細菌性關節炎 (Bacterial Arthritis)（證據等級 L5）。原適應症：感染性中耳炎、鏈球菌感染、炭疽、葡萄球菌感染、心內膜炎、咽炎、丹毒、猩紅熱、梅毒等"
+monitor_inn: "PROCAINE BENZYLPENICILLIN"
+predicted_indications: ["bacterial arthritis", "chronic otitis media", "middle ear disease", "suppurative otitis media", "otosalpingitis"]
 ---
 
 # Procaine Benzylpenicillin

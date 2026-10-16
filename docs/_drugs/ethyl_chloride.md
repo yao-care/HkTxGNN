@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ethyl Chloride：預測新適應症為手足搐搦性白內障 (Tetanic Cataract)（證據等級 L5）。原適應症：資料未載明"
+monitor_inn: "Ethyl chloride"
+predicted_indications: ["tetanic cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "craniostenosis cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "acne (disease)"]
 ---
 
 # Ethyl Chloride

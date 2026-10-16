@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Cidofovir：預測新適應症為99.94%（證據等級 L5）。原適應症：硬化性膽管炎 (Sclerosing Cholangitis)"
+monitor_inn: "CIDOFOVIR"
+predicted_indications: ["sclerosing cholangitis", "rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Cidofovir

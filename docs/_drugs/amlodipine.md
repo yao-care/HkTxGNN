@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Amlodipine：預測新適應症為腦幹梗塞 (Brain stem infarction)（證據等級 L5）。原適應症：高血壓、中風、腦血管疾病、腦梗塞、Prinzmetal 心絞痛"
+monitor_inn: "AMLODIPINE"
+predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant renovascular hypertension", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
 ---
 
 # Amlodipine

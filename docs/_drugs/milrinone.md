@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Milrinone：預測新適應症為禿髮 (Alopecia)（證據等級 L5）。原適應症：香港許可證未列出核准適應症文字"
+monitor_inn: "MILRINONE"
+predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "headache disorder"]
 ---
 
 # Milrinone

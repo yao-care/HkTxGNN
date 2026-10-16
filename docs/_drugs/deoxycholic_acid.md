@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Deoxycholic Acid：預測新適應症為糖尿病腎病變 (Diabetic Nephropathy)（第 3 名預測，為唯一有間接文獻的預測）（證據等級 L5）。原適應症：目前資料未記載"
+monitor_inn: "DEOXYCHOLIC ACID"
+predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy"]
 ---
 
 # Deoxycholic Acid

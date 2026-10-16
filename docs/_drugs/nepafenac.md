@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Nepafenac：預測新適應症為眼部疾病 (Eye Disease)（證據等級 L1）。原適應症：香港許可證資料未載明（依文獻與試驗，主要為白內障術後眼部發炎與疼痛）"
+monitor_inn: "NEPAFENAC"
+predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly"]
 ---
 
 # Nepafenac

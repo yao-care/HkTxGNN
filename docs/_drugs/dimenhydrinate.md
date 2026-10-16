@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Dimenhydrinate：預測新適應症為過敏性蕁麻疹 (Allergic Urticaria)（證據等級 L4）。原適應症：中樞神經源性眩暈、暈動症"
+monitor_inn: "DIMENHYDRINATE"
+predicted_indications: ["allergic urticaria", "cold urticaria"]
 ---
 
 # Dimenhydrinate

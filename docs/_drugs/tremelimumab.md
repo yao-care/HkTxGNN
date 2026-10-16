@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tremelimumab：預測新適應症為糖尿病性白內障 (Diabetic Cataract)（證據等級 L5）。原適應症：香港許可證未載明核准適應症"
+monitor_inn: "Tremelimumab"
+predicted_indications: ["diabetic cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "craniostenosis cataract", "mature cataract", "tetanic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic retinopathy"]
 ---
 
 # Tremelimumab

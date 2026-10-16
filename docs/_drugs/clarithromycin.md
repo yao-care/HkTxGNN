@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Clarithromycin：預測新適應症為多發性株高黏滯症候群 (Polyclonal Hyperviscosity Syndrome)（證據等級 L5）。原適應症：感染性中耳炎、鏈球菌感染、細菌性肺炎、金黃色葡萄球菌感染、上顎竇炎、黴漿菌肺炎、披衣菌肺炎等"
+monitor_inn: "CLARITHROMYCIN"
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
 ---
 
 # Clarithromycin

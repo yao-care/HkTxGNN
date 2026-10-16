@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Mycophenolic Acid：預測新適應症為血紅素病變 (Hemoglobinopathy)（證據等級 L4）。原適應症：本次整理的資料中，許可證未載明核准適應症"
+monitor_inn: "MYCOPHENOLIC ACID"
+predicted_indications: ["hemoglobinopathy", "migraine disorder", "migraine with brainstem aura", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations"]
 ---
 
 # Mycophenolic Acid

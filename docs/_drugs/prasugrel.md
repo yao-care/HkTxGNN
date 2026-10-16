@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Prasugrel：預測新適應症為肺高壓 (Pulmonary Hypertension)（證據等級 L5）。原適應症：急性冠心症"
+monitor_inn: "Prasugrel"
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "migraine with or without aura, susceptibility to", "brachydactyly-syndactyly syndrome", "leprosy"]
 ---
 
 # Prasugrel

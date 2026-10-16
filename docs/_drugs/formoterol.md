@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Formoterol：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L1）。原適應症：肺氣腫、內因性氣喘、過敏性氣喘"
+monitor_inn: "Formoterol"
+predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome", "obstructive lung disease", "asthma", "asthma-related traits, susceptibility to"]
 ---
 
 # Formoterol

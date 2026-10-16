@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Pitolisant：預測新適應症為失眠症 (Insomnia)（證據等級 L4）。原適應症：猝睡症（narcolepsy）、猝睡症合併猝倒症候群"
+monitor_inn: "PITOLISANT"
+predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome"]
 ---
 
 # Pitolisant

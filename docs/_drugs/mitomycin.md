@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Mitomycin：預測新適應症為胰臟破骨細胞型巨細胞瘤 (Osteoclastic giant cell tumor of pancreas)（證據等級 L5）。原適應症：胰腺腺癌 (pancreatic adenocarcinoma)"
+monitor_inn: "MITOMYCIN"
+predicted_indications: ["osteoclastic giant cell tumor of pancreas", "solid pseudopapillary carcinoma of pancreas", "pancreatic carcinoma with mixed differentiation", "pancreatic intraductal papillary-mucinous carcinoma", "mixed ductal-endocrine carcinoma of pancreas"]
 ---
 
 # Mitomycin

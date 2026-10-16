@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Crotamiton：預測新適應症為恙蟎皮膚侵擾症 (Trombiculiasis)（證據等級 L5）。原適應症：疥瘡、挪威疥、蟎蟲感染"
+monitor_inn: "Crotamiton"
+predicted_indications: ["trombiculiasis", "lymph node palisaded myofibroblastoma", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy", "disease of uterine broad ligament", "disease of retroperitoneum", "sacrum chordoma", "urethral disease", "hordeolum"]
 ---
 
 # Crotamiton

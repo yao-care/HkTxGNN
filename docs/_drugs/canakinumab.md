@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Canakinumab：預測新適應症為家族性地中海熱，顯性遺傳型 (Familial Mediterranean Fever, autosomal dominant)（證據等級 L1）。原適應症：痛風、冷吡啉相關週期性症候群、全身型幼年特發性關節炎等"
+monitor_inn: "CANAKINUMAB"
+predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "syndrome with combined immunodeficiency", "periodic fever-infantile enterocolitis-autoinflammatory syndrome", "familial Mediterranean fever, autosomal dominant", "extracutaneous mastocytoma", "Blau syndrome", "monosomy X", "liver angiosarcoma"]
 ---
 
 # Canakinumab

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Probenecid：預測新適應症為腎性低尿酸血症 (Hypouricemia, Renal)（證據等級 L4）。原適應症：痛風、高尿酸血症"
+monitor_inn: "PROBENECID"
+predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
 ---
 
 # Probenecid

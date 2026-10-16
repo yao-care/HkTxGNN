@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Ginseng：預測新適應症為藥物性骨質疏鬆症 (Drug-induced Osteoporosis)（證據等級 L5）。原適應症：未載明"
+monitor_inn: "GINSENG"
+predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe nonproliferative diabetic retinopathy", "hemorrhagic disease of newborn", "nuclear senile cataract"]
 ---
 
 # Ginseng

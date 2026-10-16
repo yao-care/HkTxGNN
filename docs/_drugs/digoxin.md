@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Digoxin：預測新適應症為變異型心絞痛 (Prinzmetal angina)（證據等級 L5）。原適應症：心房顫動、毛地黃中毒"
+monitor_inn: "DIGOXIN"
+predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "obsolete susceptibility to ischemic stroke", "hypoalphalipoproteinemia"]
 ---
 
 # Digoxin

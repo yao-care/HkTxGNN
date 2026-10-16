@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Anidulafungin：預測新適應症為膿痂疹 (Impetigo)（證據等級 L5）。原適應症：食道念珠菌症、念珠菌血症"
+monitor_inn: "Anidulafungin"
+predicted_indications: ["impetigo", "malignant pleural mesothelioma", "staphylococcal scalded skin syndrome", "pleural empyema (disease)", "malignant visceral pleura tumor", "bullous impetigo", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "hordeolum", "Clostridium infectious disease"]
 ---
 
 # Anidulafungin

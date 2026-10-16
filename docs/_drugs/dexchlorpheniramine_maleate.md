@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Dexchlorpheniramine Maleate：預測新適應症為急性間歇性紫質症 (Acute Intermittent Porphyria)（證據等級 L5）。原適應症：目前許可證資料未載明"
+monitor_inn: "DEXCHLORPHENIRAMINE MALEATE"
+predicted_indications: ["acute intermittent porphyria"]
 ---
 
 # Dexchlorpheniramine Maleate

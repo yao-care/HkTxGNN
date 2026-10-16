@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Methylprednisolone：預測新適應症為圓禿 (Alopecia Areata)（證據等級 L3）。原適應症：自體免疫疾病、腎上腺皮質功能不全、克隆氏症、急性淋巴性白血病等"
+monitor_inn: "METHYLPREDNISOLONE"
+predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency"]
 ---
 
 # Methylprednisolone

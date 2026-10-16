@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Atorvastatin：預測新適應症為家族性高膽固醇血症 (Familial Hypercholesterolemia)（證據等級 L1）。原適應症：高三酸甘油酯血症、高脂蛋白血症、動脈硬化、中風與腦血管疾病、純合子家族性高膽固醇血症等"
+monitor_inn: "ATORVASTATIN"
+predicted_indications: ["familial hypercholesterolemia", "HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Atorvastatin

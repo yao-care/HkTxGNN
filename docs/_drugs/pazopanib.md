@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Pazopanib：預測新適應症為脂肪肉瘤 (Liposarcoma)，為證據最完整的預測（證據等級 L2）。原適應症：腎細胞癌、軟組織肉瘤"
+monitor_inn: "PAZOPANIB"
+predicted_indications: ["renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "liposarcoma", "childhood kidney cell carcinoma"]
 ---
 
 # Pazopanib

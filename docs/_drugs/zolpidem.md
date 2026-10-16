@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Zolpidem：預測新適應症為入睡與維持睡眠障礙 (Sleep Disorder, Initiating and Maintaining Sleep)（證據等級 L5）。原適應症：失眠 (Insomnia)"
+monitor_inn: "Zolpidem"
+predicted_indications: ["sleep disorder, initiating and maintaining sleep", "benign paroxysmal torticollis of infancy", "agoraphobia"]
 ---
 
 # Zolpidem

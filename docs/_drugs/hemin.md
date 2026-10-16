@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Hemin：預測新適應症為血小板減少性紫斑症 (Thrombocytopenic Purpura)（證據等級 L5）。原適應症：急性間歇性紫質症 (acute intermittent porphyria)"
+monitor_inn: "Hemin"
+predicted_indications: ["thrombocytopenic purpura", "hemophilia", "C1 inhibitor deficiency", "acquired coagulation factor deficiency", "serpinopathy with toxic serpin polymerization", "hereditary angioedema with C1Inh deficiency", "inherited thrombophilia", "symptomatic form of hemophilia in female carriers", "hereditary von Willebrand disease", "congenital factor XI deficiency"]
 ---
 
 # Hemin

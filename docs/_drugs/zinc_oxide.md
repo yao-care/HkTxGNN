@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Zinc Oxide：預測新適應症為痤瘡 (Acne)（證據等級 L4）。原適應症：足癬、皮疹、皮膚炎、體癬、皮膚念珠菌病、痔瘡、燒傷等"
+monitor_inn: "ZINC OXIDE"
+predicted_indications: ["acne (disease)", "anorectal stricture", "anal polyp", "papillary conjunctivitis", "postinfectious vasculitis"]
 ---
 
 # Zinc Oxide

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Terlipressin：預測新適應症為肺動脈高壓 (Pulmonary Hypertension)（證據等級 L3）。原適應症：資料未提供"
+monitor_inn: "Terlipressin"
+predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder", "hyperthyroidism", "glaucoma", "trigeminal autonomic cephalalgia"]
 ---
 
 # Terlipressin

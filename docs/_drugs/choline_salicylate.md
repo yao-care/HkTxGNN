@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Choline Salicylate：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L3）。原適應症：香港許可證資料中未載明核准適應症"
+monitor_inn: "Choline salicylate"
+predicted_indications: ["Prinzmetal angina", "rheumatoid arthritis", "hypertensive disorder", "migraine disorder", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant renovascular hypertension", "malignant hypertensive renal disease", "Raynaud disease", "pulmonary hypertension"]
 ---
 
 # Choline Salicylate

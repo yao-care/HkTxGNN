@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Apixaban：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L4）。原適應症：目前缺乏香港許可證的適應症文字資料"
+monitor_inn: "Apixaban"
+predicted_indications: ["migraine disorder", "migraine with or without aura, susceptibility to", "leprosy", "rheumatoid arthritis", "migraine with brainstem aura", "Prinzmetal angina", "brachydactyly-syndactyly syndrome", "pulmonary hypertension", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "kyphoscoliotic heart disease"]
 ---
 
 # Apixaban

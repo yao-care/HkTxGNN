@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Acetazolamide：預測新適應症為運動誘發惡性高熱 (Exercise-induced Malignant Hyperthermia)（證據等級 L5）。原適應症：失神型癲癇、充血性心衰竭、開角型青光眼、閉角型青光眼、高山症"
+monitor_inn: "ACETAZOLAMIDE"
+predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "unclassified intestinal pseudoobstruction"]
 ---
 
 # Acetazolamide

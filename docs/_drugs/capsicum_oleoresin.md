@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Capsicum Oleoresin：預測新適應症為周邊運動神經病變-自主神經功能異常症候群 (peripheral motor neuropathy-dysautonomia syndro…（證據等級 L5）。原適應症：本報告整理的資料中未載明"
+monitor_inn: "Capsicum oleoresin"
+predicted_indications: ["peripheral motor neuropathy-dysautonomia syndrome", "intellectual disability-dysmorphism-hypogonadism-diabetes mellitus syndrome", "Mietens syndrome", "blepharophimosis - intellectual disability syndrome, Ohdo type", "intellectual disability, Buenos-Aires type", "encephalopathy due to beta-mercaptolactate-cysteine disulfiduria", "mesangial sclerosis, diffuse renal, with ocular abnormalities", "mesoaxial hexadactyly and cardiac malformation", "Langer mesomelic dysplasia", "mesomelic dwarfism-cleft palate-camptodactyly syndrome"]
 ---
 
 # Capsicum Oleoresin

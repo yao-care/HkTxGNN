@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Mesalazine：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L5）。原適應症：潰瘍性結腸炎、發炎性腸道疾病、潰瘍性直腸乙狀結腸炎"
+monitor_inn: "MESALAZINE"
+predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "osteoarthritis susceptibility"]
 ---
 
 # Mesalazine

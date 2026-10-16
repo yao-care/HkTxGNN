@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Silodosin：預測新適應症為Ambras 型先天性全身多毛症 (Ambras type hypertrichosis universalis congenita)（證據等級 L5）。原適應症：良性攝護腺肥大 (benign prostatic hyperplasia)"
+monitor_inn: "SILODOSIN"
+predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
 ---
 
 # Silodosin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Salicylic Acid：預測新適應症為乳頭狀結膜炎 (Papillary Conjunctivitis)（證據等級 L5）。原適應症：香港許可證未登載適應症文字"
+monitor_inn: "Salicylic acid"
+predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia", "spondyloarthropathy, susceptibility to"]
 ---
 
 # Salicylic Acid

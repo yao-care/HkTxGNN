@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Glecaprevir：預測新適應症為HIV 感染 (HIV infectious disease)（證據等級 L3）。原適應症：慢性 C 型肝炎病毒感染、C 型肝炎病毒感染"
+monitor_inn: "GLECAPREVIR"
+predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hepatitis E virus infection"]
 ---
 
 # Glecaprevir

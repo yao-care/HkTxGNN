@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Entecavir：預測新適應症為慢性 C 型肝炎 (Chronic hepatitis C virus infection)（證據等級 L5）。原適應症：慢性 B 型肝炎病毒感染"
+monitor_inn: "ENTECAVIR"
+predicted_indications: ["chronic hepatitis C virus infection", "hepatitis B virus infection", "HIV infectious disease", "hepatitis C virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
 ---
 
 # Entecavir

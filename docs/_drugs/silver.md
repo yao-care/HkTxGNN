@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Silver：預測新適應症為骨 Paget 氏病 (bone Paget disease)（證據等級 L5）。原適應症：香港許可證未載明核准適應症"
+monitor_inn: "Silver"
+predicted_indications: ["bone Paget disease", "amenorrhea (disease)", "non-syndromic esophageal malformation", "juvenile Paget disease", "esotropia", "epidermodysplasia verruciformis", "esophageal disease", "Paget disease of bone", "myelodysplastic syndrome", "primary immunodeficiency with post-measles-mumps-rubella vaccine viral infection"]
 ---
 
 # Silver

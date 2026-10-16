@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dostarlimab：預測新適應症為先天性腎上腺功能不全合併 46,XY 性反轉 (CYP11A1 缺乏)（證據等級 L5）。原適應症：香港許可證未登載適應症文字"
+monitor_inn: "Dostarlimab"
+predicted_indications: ["Congenital adrenal insuffiency with 46, XY sex reversal OR 46,XY disorder of sex development-adrenal insufficiency due to CYP11A1 deficiency", "heart cancer", "familial acne inversa", "chromosome 1p32-p31 deletion syndrome", "porencephaly-microcephaly-bilateral congenital cataract syndrome", "distal 7q11.23 microdeletion syndrome", "leukoencephalopathy-dystonia-motor neuropathy syndrome", "portal vein thrombosis", "progressive demyelinating neuropathy with bilateral striatal necrosis", "LEOPARD syndrome"]
 ---
 
 # Dostarlimab

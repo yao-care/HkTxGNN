@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Nicergoline：預測新適應症為毛髮過多症 (Hypertrichosis)（證據等級 L5）。原適應症：資料未載明"
+monitor_inn: "NICERGOLINE"
+predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "benign prostatic hyperplasia (disease)"]
 ---
 
 # Nicergoline

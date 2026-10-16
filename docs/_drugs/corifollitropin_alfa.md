@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Corifollitropin Alfa：預測新適應症為胃十二指腸炎 (Gastroduodenitis)（證據等級 L5）。原適應症：本report所用資料未提供核准適應症文字"
+monitor_inn: "Corifollitropin alfa"
+predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "peptic esophagitis"]
 ---
 
 # Corifollitropin Alfa

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Procarbazine：預測新適應症為濾泡性淋巴瘤 (Follicular Lymphoma)（證據等級 L3）。原適應症：何杰金氏淋巴瘤"
+monitor_inn: "PROCARBAZINE"
+predicted_indications: ["follicular lymphoma", "neuroblastoma", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
 ---
 
 # Procarbazine

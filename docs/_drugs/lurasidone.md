@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lurasidone：預測新適應症為躁狂型雙極性情感障礙 (Manic Bipolar Affective Disorder)（證據等級 L4）。原適應症：雙極性疾患、思覺失調症"
+monitor_inn: "Lurasidone"
+predicted_indications: ["manic bipolar affective disorder", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 ---
 
 # Lurasidone

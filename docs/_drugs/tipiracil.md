@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Tipiracil：預測新適應症為盲腸絨毛狀腺瘤 (Cecum Villous Adenoma)（證據等級 L5）。原適應症：大腸直腸癌（惡性結腸腫瘤）"
+monitor_inn: "TIPIRACIL"
+predicted_indications: ["cecum villous adenoma", "lipoma of colon", "rectosigmoid junction neoplasm", "cecum neuroendocrine tumor G1", "colonic lymphangioma"]
 ---
 
 # Tipiracil

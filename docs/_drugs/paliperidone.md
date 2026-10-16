@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Paliperidone：預測新適應症為視網膜失養症（伴或不伴眼外異常）（證據等級 L5）。原適應症：精神病性疾患、類思覺失調症、思覺失調症、情感性思覺失調症、精神疾患"
+monitor_inn: "PALIPERIDONE"
+predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation"]
 ---
 
 # Paliperidone

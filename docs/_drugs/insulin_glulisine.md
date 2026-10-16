@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Insulin Glulisine：預測新適應症為第 1 型糖尿病 (type 1 diabetes mellitus)（證據等級 L2）。原適應症：糖尿病、糖尿病酮酸中毒"
+monitor_inn: "INSULIN GLULISINE"
+predicted_indications: ["type 1 diabetes mellitus", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome"]
 ---
 
 # Insulin Glulisine

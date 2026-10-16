@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Pipemidic Acid：預測新適應症為心臟疾病 (Heart Disease)（證據等級 L5）。原適應症：目前許可證資料未載明核准適應症"
+monitor_inn: "PIPEMIDIC ACID"
+predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "partial deletion of the long arm of chromosome 7"]
 ---
 
 # Pipemidic Acid

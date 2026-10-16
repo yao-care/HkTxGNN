@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Hyaluronidase：預測新適應症為糖尿病視網膜病變 (Diabetic Retinopathy)（證據等級 L5）。原適應症：許可證未載明"
+monitor_inn: "Hyaluronidase"
+predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonproliferative diabetic retinopathy", "renal tubular acidosis", "dermatitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "diabetic cataract", "neonatal dermatomyositis", "non-syndromic esophageal malformation"]
 ---
 
 # Hyaluronidase

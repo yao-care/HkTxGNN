@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Benzydamine：預測新適應症為良性攝護腺增生 (Benign Prostatic Hyperplasia)（證據等級 L5）。原適應症：資料中未載明核准適應症文字"
+monitor_inn: "Benzydamine"
+predicted_indications: ["benign prostatic hyperplasia (disease)"]
 ---
 
 # Benzydamine

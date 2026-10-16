@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Desoximetasone：預測新適應症為圓形禿 (Alopecia Areata)（證據等級 L5）。原適應症：異位性皮膚炎、接觸性皮膚炎、脂漏性皮膚炎、盤狀紅斑性狼瘡等皮膚發炎性疾病"
+monitor_inn: "DESOXIMETASONE"
+predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "hereditary hypotrichosis with recurrent skin vesicles", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "primary cutaneous B-cell lymphoma", "atrichia with papular lesions", "vulvar inverted follicular keratosis"]
 ---
 
 # Desoximetasone

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Diazepam：預測新適應症為失眠 (Insomnia)（證據等級 L4）。原適應症：癲癇、癲癇持續狀態、酒精戒斷譫妄、酒精戒斷、Wernicke-Korsakoff 症候群、焦慮、破傷風"
+monitor_inn: "DIAZEPAM"
+predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "antidepressant type abuse", "barbiturate abuse", "hallucinogen abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
 ---
 
 # Diazepam

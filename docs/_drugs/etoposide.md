@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Etoposide：預測新適應症為尤文氏肉瘤 (Ewing Sarcoma)（證據等級 L1）。原適應症：小細胞肺癌、睪丸癌（睪丸生殖細胞腫瘤、精原細胞瘤等）"
+monitor_inn: "ETOPOSIDE"
+predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 ---
 
 # Etoposide

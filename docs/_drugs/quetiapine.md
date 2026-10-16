@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Quetiapine：預測新適應症為視網膜失養症 (retinal dystrophy with or without extraocular anomalies)（證據等級 L5）。原適應症：雙相情緒障礙、重度情感性疾患、躁期雙相情感障礙、思覺失調症"
+monitor_inn: "QUETIAPINE"
+predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
 ---
 
 # Quetiapine

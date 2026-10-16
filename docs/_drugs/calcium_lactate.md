@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Calcium Lactate：預測新適應症為鈣鹼症候群 (Calcium-Alkali Syndrome)（證據等級 L4）。原適應症：骨質疏鬆症、停經後骨質疏鬆症、高血鈣、腎鈣質沉著症、磷代謝疾病、心跳停止"
+monitor_inn: "CALCIUM LACTATE"
+predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization"]
 ---
 
 # Calcium Lactate

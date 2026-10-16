@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ceftazidime：預測新適應症為高澱粉酶血症 (Hyperamylasemia)（證據等級 L5）。原適應症：細菌感染類疾病（鏈球菌感染、細菌性肺炎、腦膜炎、腹膜炎等）"
+monitor_inn: "CEFTAZIDIME"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "urinary tract infection (disease)", "epiglottitis", "Ureaplasma urethritis", "gonococcal urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
 ---
 
 # Ceftazidime

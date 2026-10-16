@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Goserelin：預測新適應症為閉經 (Amenorrhea)（證據等級 L5）。原適應症：子宮內膜異位症 (Endometriosis)"
+monitor_inn: "GOSERELIN"
+predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
 ---
 
 # Goserelin

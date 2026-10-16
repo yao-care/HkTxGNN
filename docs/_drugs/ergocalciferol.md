@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ergocalciferol：預測新適應症為腎性骨失養症 (Renal Osteodystrophy)（證據等級 L5）。原適應症：骨質疏鬆、停經後骨質疏鬆、維生素 D 缺乏、骨軟化症、佝僂病、副甲狀腺低下等"
+monitor_inn: "ERGOCALCIFEROL"
+predicted_indications: ["familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hypophosphatemia (disease)", "renal osteodystrophy", "hypophosphatemic rickets", "calcium-alkali syndrome", "vitamin D-dependent rickets"]
 ---
 
 # Ergocalciferol

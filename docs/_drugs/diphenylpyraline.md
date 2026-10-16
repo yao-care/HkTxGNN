@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Diphenylpyraline：預測新適應症為過敏性蕁麻疹 (Allergic Urticaria)（證據等級 L5）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、結膜炎、蕁麻疹、血管性水腫等"
+monitor_inn: "Diphenylpyraline"
+predicted_indications: ["allergic urticaria", "acute laryngopharyngitis", "nasal cavity disease"]
 ---
 
 # Diphenylpyraline

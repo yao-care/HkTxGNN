@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Sirolimus：預測新適應症為脂肪肉瘤 (Liposarcoma)（證據等級 L5）。原適應症：腎細胞癌（非乳突、透明細胞型）、淋巴管平滑肌瘤病"
+monitor_inn: "SIROLIMUS"
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma"]
 ---
 
 # Sirolimus

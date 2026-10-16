@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Evocalcet：預測新適應症為高磷血症 (Hyperphosphatemia)（證據等級 L4）。原適應症：副甲狀腺機能亢進 (Hyperparathyroidism)"
+monitor_inn: "EVOCALCET"
+predicted_indications: ["hyperphosphatemia (disease)", "tumoral calcinosis, hyperphosphatemic, familial", "familial hyperphosphatemic tumoral calcinosis/hyperphosphatemic hyperostosis syndrome", "pancreatitis", "hereditary hypercarotenemia and vitamin A deficiency"]
 ---
 
 # Evocalcet

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Imatinib：預測新適應症為心臟纖維肉瘤 (Heart Fibrosarcoma)（證據等級 L4）。原適應症：系統性肥大細胞增生症、胃腸道間質瘤、BCR-ABL1 陽性慢性骨髓性白血病、慢性嗜酸性白血病、隆突性皮膚纖維肉瘤、嗜酸性白血球增多症候群"
+monitor_inn: "Imatinib"
+predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
 ---
 
 # Imatinib

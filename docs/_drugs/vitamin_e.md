@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Vitamin E：預測新適應症為先天性膽紅素代謝異常 (Inborn Disorder of Bilirubin Metabolism)（證據等級 L4）。原適應症：膽汁淤積、良性復發性肝內膽汁淤積、家族性肝內膽汁淤積、家族性單純維生素 E 缺乏症"
+monitor_inn: "VITAMIN E"
+predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin metabolism disease", "hereditary North American Indian childhood cirrhosis", "drug-induced liver injury", "microvillus inclusion disease"]
 ---
 
 # Vitamin E

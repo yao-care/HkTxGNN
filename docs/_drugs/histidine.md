@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Histidine：預測新適應症為胃輕癱 (Gastroparesis)（證據等級 L5）。原適應症：資料中未載明核准適應症"
+monitor_inn: "HISTIDINE"
+predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
 ---
 
 # Histidine

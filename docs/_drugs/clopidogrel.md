@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Clopidogrel：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L2）。原適應症：急性冠心症、顱內栓塞、ST 段上升型心肌梗塞"
+monitor_inn: "CLOPIDOGREL"
+predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "osteoarthritis susceptibility"]
 ---
 
 # Clopidogrel

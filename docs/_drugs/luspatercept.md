@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Luspatercept：預測新適應症為Monosomy X（證據等級 L5）。原適應症：β 型地中海貧血及相關血紅素病變"
+monitor_inn: "Luspatercept"
+predicted_indications: ["monosomy X", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "syndrome with combined immunodeficiency", "pyruvate kinase deficiency of red cells", "thalassemia, beta+, silent allele", "familial apolipoprotein C-II deficiency", "adenosine deaminase deficiency", "Hb Bart's hydrops fetalis"]
 ---
 
 # Luspatercept

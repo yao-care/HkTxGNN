@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bromocriptine：預測新適應症為岩藻糖基化缺陷型先天性糖基化異常 (congenital disorder of glycosylation with defective…（證據等級 L5）。原適應症：帕金森氏症、高泌乳素血症、肢端肥大症"
+monitor_inn: "BROMOCRIPTINE"
+predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "syndromic myopia"]
 ---
 
 # Bromocriptine

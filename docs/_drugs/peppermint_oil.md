@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Peppermint Oil：預測新適應症為痲瘋病 (Leprosy)（證據等級 L5）。原適應症：資料未載明"
+monitor_inn: "Peppermint oil"
+predicted_indications: ["leprosy", "pneumocystosis", "coronary artery disease", "myocardial ischemia", "echinococcus granulosus infectious disease", "polyp of vocal cord", "uterine polyp", "polyp of middle ear", "cardiovascular disease", "polyp of frontal sinus"]
 ---
 
 # Peppermint Oil

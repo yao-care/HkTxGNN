@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Esketamine：預測新適應症為畏曠症 (Agoraphobia)（證據等級 L5）。原適應症：焦慮症、神經症、輕度慢性憂鬱"
+monitor_inn: "ESKETAMINE"
+predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
 ---
 
 # Esketamine

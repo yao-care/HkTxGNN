@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Efinaconazole：預測新適應症為皮膚肉瘤 (Skin Sarcoma)（證據等級 L5）。原適應症：甲癬（tinea unguium）"
+monitor_inn: "Efinaconazole"
+predicted_indications: ["skin sarcoma", "sinus histiocytosis with massive lymphadenopathy", "sinonasal undifferentiated carcinoma", "signet ring cell gastric adenocarcinoma", "sex hormone-producing adrenal cortex adenoma", "small intestinal Burkitt lymphoma", "small intestinal diffuse large B-cell lymphoma", "small intestinal enteropathy-associated T-cell lymphoma", "soft tissue neoplasm", "submandibular gland adenocarcinoma"]
 ---
 
 # Efinaconazole

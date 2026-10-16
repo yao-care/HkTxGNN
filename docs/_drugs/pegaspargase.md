@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Pegaspargase：預測新適應症為前驅型淋巴母細胞淋巴瘤/白血病 (precursor lymphoblastic lymphoma/leukemia)（證據等級 L1）。原適應症：急性淋巴性白血病（ALL）"
+monitor_inn: "PEGASPARGASE"
+predicted_indications: ["precursor lymphoblastic lymphoma/leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "follicular lymphoma", "acute lymphoblastic leukemia"]
 ---
 
 # Pegaspargase

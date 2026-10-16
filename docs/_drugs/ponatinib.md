@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Ponatinib：預測新適應症為牙齦纖維瘤病 (Fibromatosis, gingival)（證據等級 L5）。原適應症：慢性骨髓性白血病（BCR-ABL1 陽性）"
+monitor_inn: "PONATINIB"
+predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
 ---
 
 # Ponatinib

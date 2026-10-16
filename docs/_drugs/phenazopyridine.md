@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Phenazopyridine：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L5）。原適應症：資料中未載明核准適應症（泌尿道止痛用途為藥理分類推論）"
+monitor_inn: "Phenazopyridine"
+predicted_indications: ["bronchitis"]
 ---
 
 # Phenazopyridine

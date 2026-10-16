@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Sodium Citrate：預測新適應症為乳突性結膜炎 (Papillary Conjunctivitis)（證據等級 L5）。原適應症：消化性潰瘍、胃食道逆流、消化不良、咽炎、感冒、鼻炎等"
+monitor_inn: "SODIUM CITRATE"
+predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "acute laryngopharyngitis", "stomach disease", "postgastrectomy syndrome"]
 ---
 
 # Sodium Citrate

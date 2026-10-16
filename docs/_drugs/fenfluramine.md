@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Fenfluramine：預測新適應症為16p11.2 近端微缺失症候群 (proximal 16p11.2 microdeletion syndrome)（證據等級 L5）。原適應症：肥胖症、單基因肥胖"
+monitor_inn: "FENFLURAMINE"
+predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "obsolete hypertelorism (disease)", "frontorhiny"]
 ---
 
 # Fenfluramine

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Niacin：預測新適應症為同合子家族性高膽固醇血症 (Homozygous Familial Hypercholesterolemia)（證據等級 L4）。原適應症：高三酸甘油脂血症、高脂血症、家族性高脂血症、維生素缺乏症"
+monitor_inn: "Niacin"
+predicted_indications: ["homozygous familial hypercholesterolemia"]
 ---
 
 # Niacin

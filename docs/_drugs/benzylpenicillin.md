@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Benzylpenicillin：預測新適應症為冠周炎 (Pericoronitis)（證據等級 L5）。原適應症：鏈球菌感染、腦膜炎球菌感染、肺炎鏈球菌腦膜炎、炭疽、心內膜炎、金黃色葡萄球菌感染等"
+monitor_inn: "BENZYLPENICILLIN"
+predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "ulcerative stomatitis", "denture stomatitis", "chemotherapy-induced oral mucositis", "leukoplakia of gingiva"]
 ---
 
 # Benzylpenicillin

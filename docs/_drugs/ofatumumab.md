@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Ofatumumab：預測新適應症為慢性淋巴性白血病/小淋巴球淋巴瘤 (CLL/SLL)（證據等級 L5）。原適應症：急性淋巴性白血病、Richter 症候群"
+monitor_inn: "OFATUMUMAB"
+predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "leukemia, lymphocytic, susceptibility to", "chronic lymphocytic leukemia/small lymphocytic lymphoma"]
 ---
 
 # Ofatumumab

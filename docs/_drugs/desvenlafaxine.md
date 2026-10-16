@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Desvenlafaxine：預測新適應症為強迫症 (Obsessive-Compulsive Disorder)（證據等級 L4）。原適應症：憂鬱症（單極性憂鬱、內因性憂鬱、重度憂鬱症）、焦慮症"
+monitor_inn: "DESVENLAFAXINE"
+predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "dysthymic disorder", "agoraphobia", "melancholia"]
 ---
 
 # Desvenlafaxine

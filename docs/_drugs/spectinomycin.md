@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Spectinomycin：預測新適應症為子宮闊韌帶疾病 (disease of uterine broad ligament)（證據等級 L5）。原適應症：淋病、急性淋球菌性子宮頸炎"
+monitor_inn: "SPECTINOMYCIN"
+predicted_indications: ["disease of uterine broad ligament", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma"]
 ---
 
 # Spectinomycin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Monensin：預測新適應症為胃食道逆流病 (gastroesophageal reflux disease)（證據等級 L5）。原適應症：許可證資料未登載（獸用產品）"
+monitor_inn: "Monensin"
+predicted_indications: ["gastroesophageal reflux disease", "primary biliary cholangitis", "beta-amino acids, renal transport of", "Behcet disease", "B-cell growth factor", "primary basilar invagination", "nevoid basal cell carcinoma syndrome", "Banki syndrome", "Axenfeld-Rieger anomaly with partially absent eye muscles, distinctive face, hydrocephaly, and skeletal abnormalities", "androgenetic alopecia"]
 ---
 
 # Monensin

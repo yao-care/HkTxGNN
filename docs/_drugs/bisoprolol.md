@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Bisoprolol：預測新適應症為惡性高血壓性腎病 (Malignant Hypertensive Renal Disease)（證據等級 L5）。原適應症：高血壓"
+monitor_inn: "Bisoprolol"
+predicted_indications: ["malignant hypertensive renal disease", "malignant renovascular hypertension", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 ---
 
 # Bisoprolol

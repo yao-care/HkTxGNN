@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tenapanor：預測新適應症為念珠菌感染 (Candidiasis)（證據等級 L5）。原適應症：香港許可證未載明（參考美國 FDA：便秘型腸躁症 IBS-C"
+monitor_inn: "Tenapanor"
+predicted_indications: ["candidiasis", "adrenocortical insufficiency", "familial adrenal hypoplasia with absent pituitary luteinizing hormone", "primary cutaneous T-cell lymphoma", "Stevens-Johnson syndrome", "PAGOD syndrome", "aphthous stomatitis", "46,XY disorder of sex development", "Stevens-Johnson syndrome/toxic epidermal necrolysis overlap syndrome", "Crohn's colitis"]
 ---
 
 # Tenapanor

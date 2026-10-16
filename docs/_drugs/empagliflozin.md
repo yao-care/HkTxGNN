@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Empagliflozin：預測新適應症為典型僵人症候群 (Classic Stiff Person Syndrome)（證據等級 L5）。原適應症：第 2 型糖尿病 (Type 2 Diabetes Mellitus)"
+monitor_inn: "EMPAGLIFLOZIN"
+predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
 ---
 
 # Empagliflozin

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ampicillin：預測新適應症為喉炎 (Laryngitis)（證據等級 L4）。原適應症：泌尿道感染、感染性中耳炎、細菌性肺炎、細菌性腦膜炎、金黃色葡萄球菌感染等"
+monitor_inn: "AMPICILLIN"
+predicted_indications: ["laryngitis", "Ureaplasma urethritis", "gonococcal urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 ---
 
 # Ampicillin

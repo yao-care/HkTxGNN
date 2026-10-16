@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Sevoflurane：預測新適應症為變異型心絞痛 (Prinzmetal angina)（證據等級 L5）。原適應症：許可證資料未記載（本藥為吸入式全身麻醉藥）"
+monitor_inn: "SEVOFLURANE"
+predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia", "tendinitis", "myositis fibrosa"]
 ---
 
 # Sevoflurane

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Methoxsalen：預測新適應症為局限性類佩吉特網狀細胞增生症 (Localized Pagetoid Reticulosis)（證據等級 L5）。原適應症：原發性皮膚 T 細胞非何杰金氏淋巴瘤、原發性皮膚 T 細胞淋巴瘤、白斑症"
+monitor_inn: "METHOXSALEN"
+predicted_indications: ["localized pagetoid reticulosis", "indolent primary cutaneous T-cell lymphoma", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma"]
 ---
 
 # Methoxsalen

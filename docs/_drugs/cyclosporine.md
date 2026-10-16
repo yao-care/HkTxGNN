@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Cyclosporine：預測新適應症為慢性肉芽腫病，體染色體隱性 (Granulomatous disease, chronic, autosomal recessive)（證據等級 L4）。原適應症：類風濕性關節炎、乾眼症、角結膜乾燥症、修格連氏症候群"
+monitor_inn: "cyclosporine"
+predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
 ---
 
 # Cyclosporine

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Xylometazoline：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L3）。原適應症：咽炎 (Pharyngitis)、感冒 (Common Cold)"
+monitor_inn: "Xylometazoline"
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 ---
 
 # Xylometazoline

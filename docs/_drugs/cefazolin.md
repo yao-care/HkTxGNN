@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Cefazolin：預測新適應症為感染性中耳炎 (Infectious Otitis Media)（證據等級 L4）。原適應症：香港許可證未提供適應症文字"
+monitor_inn: "CEFAZOLIN"
+predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
 ---
 
 # Cefazolin

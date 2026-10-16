@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Cysteine：預測新適應症為乾眼症 (Dry Eye Syndrome)（證據等級 L4）。原適應症：支氣管炎、對乙醯胺酚中毒、囊狀纖維化、支氣管擴張、類澱粉沉積症"
+monitor_inn: "CYSTEINE"
+predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
 ---
 
 # Cysteine

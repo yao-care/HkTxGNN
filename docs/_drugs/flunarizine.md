@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Flunarizine：預測新適應症為99.12%（證據等級 L5）。原適應症：偏頭痛 (Migraine Disorder)"
+monitor_inn: "FLUNARIZINE"
+predicted_indications: ["migraine disorder"]
 ---
 
 # Flunarizine

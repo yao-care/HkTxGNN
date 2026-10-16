@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Isoleucine：預測新適應症為胃輕癱 (Gastroparesis)（證據等級 L5）。原適應症：資料中未記載"
+monitor_inn: "ISOLEUCINE"
+predicted_indications: ["gastroparesis (disease)"]
 ---
 
 # Isoleucine

@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Ceftriaxone：預測新適應症為感染性中耳炎 (Infectious Otitis Media)（證據等級 L2）。原適應症：鏈球菌感染、細菌性肺炎、細菌性腦膜炎、淋病等"
+monitor_inn: "CEFTRIAXONE"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "infectious otitis media", "blood group incompatibility", "suppurative otitis media", "chronic otitis media"]
 ---
 
 # Ceftriaxone

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Milnacipran：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L3）。原適應症：纖維肌痛症、肌筋膜疼痛症候群"
+monitor_inn: "Milnacipran"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "tendinitis", "papillary conjunctivitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "atrophoderma vermiculata", "migraine with or without aura, susceptibility to", "cauda equina syndrome"]
 ---
 
 # Milnacipran

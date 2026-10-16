@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Vandetanib：預測新適應症為腎細胞癌 (Renal Cell Carcinoma)（證據等級 L5）。原適應症：甲狀腺癌 (thyroid gland carcinoma)"
+monitor_inn: "VANDETANIB"
+predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "renal pelvis carcinoma"]
 ---
 
 # Vandetanib

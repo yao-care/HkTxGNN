@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Choriogonadotropin Alfa：預測新適應症為消化性食道炎 (Peptic Esophagitis)（證據等級 L5）。原適應症：香港許可證資料未載明（依藥理類別，一般用於排卵誘導）"
+monitor_inn: "Choriogonadotropin alfa"
+predicted_indications: ["peptic esophagitis", "postural orthostatic tachycardia syndrome", "esophageal disease", "Raynaud disease", "non-syndromic esophageal malformation", "esophageal ulcer", "His bundle tachycardia", "sinoatrial block", "progressive familial heart block", "sinoatrial node disease"]
 ---
 
 # Choriogonadotropin Alfa

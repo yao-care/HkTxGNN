@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Isosorbide Mononitrate：預測新適應症為99.995%（證據等級 L5）。原適應症：多毛症 (Hypertrichosis)"
+monitor_inn: "ISOSORBIDE MONONITRATE"
+predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "alopecia"]
 ---
 
 # Isosorbide Mononitrate

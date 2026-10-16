@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Ivosidenib：預測新適應症為bulbar polio（延髓型小兒麻痺）（證據等級 L5）。原適應症：骨髓性白血病、急性骨髓性白血病（AML）及其多種亞型"
+monitor_inn: "IVOSIDENIB"
+predicted_indications: ["bulbar polio", "acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent", "acute myeloid leukemia and myelodysplastic syndromes related to radiation"]
 ---
 
 # Ivosidenib

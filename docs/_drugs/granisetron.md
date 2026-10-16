@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Granisetron：預測新適應症為躁期雙極性情感疾患 (Manic Bipolar Affective Disorder)（證據等級 L5）。原適應症：本次整理的資料中，許可證未載明核准適應症"
+monitor_inn: "GRANISETRON"
+predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "acute contagious conjunctivitis", "angioedema", "allergic urticaria"]
 ---
 
 # Granisetron

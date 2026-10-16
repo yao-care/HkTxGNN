@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Nusinersen：預測新適應症為腎性低鎂血症 (Renal Hypomagnesemia)（證據等級 L5）。原適應症：脊髓性肌肉萎縮症 (spinal muscular atrophy)"
+monitor_inn: "Nusinersen"
+predicted_indications: ["renal hypomagnesemia", "generalized pustular psoriasis", "atypical hypotonia-cystinuria syndrome", "spermatic cord cancer", "congenital secondary polycythemia", "acquired secondary polycythemia", "immune dysregulation-inflammatory bowel disease-arthritis-recurrent infections syndrome", "hyperphenylalaninemia due to tetrahydrobiopterin deficiency", "IgG4-related mesenteritis", "leukoencephalopathy-palmoplantar keratoderma syndrome"]
 ---
 
 # Nusinersen

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Anagrelide：預測新適應症為反應性血小板增多症 (Reactive Thrombocytosis)（證據等級 L4）。原適應症：血小板增多症（thrombocythemia）、家族性血小板增多症（familial thrombocytosis）"
+monitor_inn: "ANAGRELIDE"
+predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay syndrome"]
 ---
 
 # Anagrelide

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
 description: "Zuclopenthixol：預測新適應症為視網膜失養症（retinal dystrophy with or without extraocular anomalies）（證據等級 L5）。原適應症：思覺失調症（schizophrenia）"
+monitor_inn: "zuclopenthixol"
+predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 ---
 
 # Zuclopenthixol

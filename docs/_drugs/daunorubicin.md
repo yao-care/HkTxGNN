@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Daunorubicin：預測新適應症為何杰金氏淋巴瘤 (Hodgkin's lymphoma)（證據等級 L3）。原適應症：急性淋巴芽細胞白血病、急性骨髓性白血病等"
+monitor_inn: "Daunorubicin"
+predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
 ---
 
 # Daunorubicin

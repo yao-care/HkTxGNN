@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Mercaptopurine：預測新適應症為骨髓性白血病 (Myeloid Leukemia)（證據等級 L2）。原適應症：急性淋巴芽細胞白血病"
+monitor_inn: "MERCAPTOPURINE"
+predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma"]
 ---
 
 # Mercaptopurine

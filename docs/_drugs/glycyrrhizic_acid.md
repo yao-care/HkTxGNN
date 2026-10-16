@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Glycyrrhizic Acid：預測新適應症為多發性內分泌腫瘤 (Multiple Endocrine Neoplasia)（證據等級 L5）。原適應症：資料未載明"
+monitor_inn: "Glycyrrhizic acid"
+predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "hypoalphalipoproteinemia", "malignant catarrh", "infectious bovine rhinotracheitis", "cytomegalovirus infection", "acne (disease)", "kyphoscoliotic heart disease", "pulmonary hypertension", "rheumatoid arthritis"]
 ---
 
 # Glycyrrhizic Acid

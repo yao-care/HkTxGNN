@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Pinazepam：預測新適應症為失眠 (Insomnia)（證據等級 L5）。原適應症：目前資料未登錄"
+monitor_inn: "PINAZEPAM"
+predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "antidepressant type abuse", "barbiturate abuse", "hallucinogen abuse"]
 ---
 
 # Pinazepam

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lactose：預測新適應症為無出血的食道靜脈曲張 (esophageal varices without bleeding)（證據等級 L5）。原適應症：乳糖不耐症"
+monitor_inn: "Lactose"
+predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease", "Steel syndrome", "cystinosis", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Immunoerythromyeloid hypoplasia", "familial apolipoprotein C-II deficiency", "hypophosphatasia"]
 ---
 
 # Lactose

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Benzoyl Peroxide：預測新適應症為外陰倒置性毛囊角化症 (Vulvar Inverted Follicular Keratosis)（證據等級 L5）。原適應症：痤瘡、異位性皮膚炎、接觸性皮膚炎、脂漏性皮膚炎、脂漏性角化症等"
+monitor_inn: "BENZOYL PEROXIDE"
+predicted_indications: ["vulvar inverted follicular keratosis", "2-hydroxyethyl methacrylate sensitization", "acrodermatitis chronica atrophicans", "acne keloid"]
 ---
 
 # Benzoyl Peroxide

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Pyridostigmine：預測新適應症為重症肌無力合併胸腺增生 (myasthenia gravis with thymus hyperplasia)（證據等級 L3）。原適應症：重症肌無力、成人型重症肌無力、神經肌肉接合部疾病"
+monitor_inn: "Pyridostigmine"
+predicted_indications: ["myasthenia gravis with thymus hyperplasia", "neonatal myasthenia gravis", "autoimmune disease of peripheral nervous system", "myasthenia, limb-girdle, autoimmune", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
 ---
 
 # Pyridostigmine

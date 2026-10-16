@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Potassium Bicarbonate：預測新適應症為胃十二指腸炎 (Gastroduodenitis)（證據等級 L5）。原適應症：消化性潰瘍、胃食道逆流、食道炎、消化不良、鉀缺乏症"
+monitor_inn: "POTASSIUM BICARBONATE"
+predicted_indications: ["gastroduodenitis"]
 ---
 
 # Potassium Bicarbonate

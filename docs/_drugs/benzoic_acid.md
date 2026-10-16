@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Benzoic Acid：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L5）。原適應症：天疱瘡、佩洛尼氏病、陰莖纖維瘤病、閉塞性乾燥性龜頭炎、硬皮症、局部硬皮症、全身性硬化症、皮肌炎"
+monitor_inn: "BENZOIC ACID"
+predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "dry eye syndrome", "palmar fibromatosis", "Ledderhose disease", "infantile digital fibromatosis", "hereditary angioedema with C1Inh deficiency", "posterior leukoencephalopathy syndrome", "C1 inhibitor deficiency"]
 ---
 
 # Benzoic Acid

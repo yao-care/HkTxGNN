@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Rifampicin：預測新適應症為結膜炎 (Conjunctivitis)（證據等級 L4）。原適應症：肺結核 (Pulmonary tuberculosis)"
+monitor_inn: "RIFAMPICIN"
+predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease"]
 ---
 
 # Rifampicin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lurbinectedin：預測新適應症為多發性內分泌腫瘤 (multiple endocrine neoplasia)（證據等級 L5）。原適應症：許可證資料未載明"
+monitor_inn: "Lurbinectedin"
+predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "cytomegalovirus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "infectious bovine rhinotracheitis", "malignant catarrh", "Mills syndrome"]
 ---
 
 # Lurbinectedin

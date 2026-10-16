@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Diiodohydroxyquinoline：預測新適應症為骨放射壞死 (Osteoradionecrosis)（證據等級 L5）。原適應症：阿米巴病（Amebiasis"
+monitor_inn: "Diiodohydroxyquinoline"
+predicted_indications: ["osteoradionecrosis", "radiodermatitis", "pneumonitis", "aspiration pneumonia (disease)", "type 2 diabetes nephropathy", "byssinosis", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "mixed mineral dust pneumoconiosis", "mixed dust pneumoconiosis", "Caplan syndrome"]
 ---
 
 # Diiodohydroxyquinoline

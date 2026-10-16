@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dihydrostreptomycin：預測新適應症為骨關節炎 (Osteoarthritis)（證據等級 L5）。原適應症：許可證未載明核准適應症"
+monitor_inn: "Dihydrostreptomycin"
+predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 ---
 
 # Dihydrostreptomycin

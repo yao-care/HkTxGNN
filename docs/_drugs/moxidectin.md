@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Moxidectin：預測新適應症為高澱粉酶血症 (Hyperamylasemia)（證據等級 L5）。原適應症：盤尾絲蟲症 (Onchocerciasis)"
+monitor_inn: "Moxidectin"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "staphylococcal scalded skin syndrome", "variola minor infection", "aleutian mink disease", "feline panleukopenia", "hordeolum", "blood group incompatibility", "bullous impetigo"]
 ---
 
 # Moxidectin

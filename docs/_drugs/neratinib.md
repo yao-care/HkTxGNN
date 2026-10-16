@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Neratinib：預測新適應症為黃體素受體陽性乳癌 (Progesterone-receptor positive breast cancer)（證據等級 L5）。原適應症：HER2 陽性乳癌"
+monitor_inn: "Neratinib"
+predicted_indications: ["normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "progesterone-receptor negative breast cancer", "breast tumor luminal A or B", "synovium cancer", "tenosynovial giant cell tumor", "malignant giant cell tumor", "tenosynovial giant cell tumor, localized type", "fibroblastic neoplasm", "kidney fibrosarcoma"]
 ---
 
 # Neratinib

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Chlordiazepoxide：預測新適應症為失眠 (Insomnia)（證據等級 L4）。原適應症：焦慮症、酒精戒斷、消化性潰瘍、腸躁症等"
+monitor_inn: "CHLORDIAZEPOXIDE"
+predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "sleep disorder, initiating and maintaining sleep", "barbiturate abuse", "hallucinogen abuse", "antidepressant type abuse", "myofascial pain syndrome"]
 ---
 
 # Chlordiazepoxide

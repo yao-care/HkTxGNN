@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lactic Acid：預測新適應症為非典型主動脈縮窄 (Atypical coarctation of aorta)（證據等級 L5）。原適應症：資料未載明"
+monitor_inn: "Lactic acid"
+predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome", "esophageal disease", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "excretory apparatus of the lacrimal system anomaly", "eye disease", "cauda equina syndrome"]
 ---
 
 # Lactic Acid

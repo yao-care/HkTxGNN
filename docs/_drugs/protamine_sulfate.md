@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Protamine Sulfate：預測新適應症為FGFR1 重排相關骨髓腫瘤 (myeloid neoplasm associated with FGFR1 rearrangement)（證據等級 L5）。原適應症：許可證未載明"
+monitor_inn: "Protamine sulfate"
+predicted_indications: ["myeloid neoplasm associated with FGFR1 rearrangement", "chromosome 17q21.31 duplication syndrome", "aromatase deficiency", "commissural facial cleft", "presbyopia", "chromosome 6q11-q14 deletion syndrome", "chromosome 4q21 deletion syndrome", "CBL-related disorder", "Reynolds syndrome", "hemolytic anemia due to glucophosphate isomerase deficiency"]
 ---
 
 # Protamine Sulfate

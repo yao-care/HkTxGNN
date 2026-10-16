@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Sucralfate：預測新適應症為十二指腸胃逆流 (Duodenogastric Reflux)（證據等級 L2）。原適應症：十二指腸潰瘍"
+monitor_inn: "SUCRALFATE"
+predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 ---
 
 # Sucralfate

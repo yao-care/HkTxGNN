@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Cyanocobalamin：預測新適應症為生物素代謝疾病 (Biotin Metabolic Disease)（證據等級 L5）。原適應症：維生素 B12 缺乏症、惡性貧血、缺鐵性貧血、葉酸缺乏性貧血等"
+monitor_inn: "CYANOCOBALAMIN"
+predicted_indications: ["biotin metabolic disease"]
 ---
 
 # Cyanocobalamin

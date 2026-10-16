@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Aliskiren：預測新適應症為原因不明的多因素肺動脈高壓（pulmonary hypertension with unclear multifactorial mech…（證據等級 L5）。原適應症：高血壓"
+monitor_inn: "ALISKIREN"
+predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "malignant renovascular hypertension", "Braddock syndrome", "chronic pulmonary heart disease", "cerebrovascular disorder"]
 ---
 
 # Aliskiren

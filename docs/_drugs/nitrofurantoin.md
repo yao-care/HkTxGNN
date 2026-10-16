@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Nitrofurantoin：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L5）。原適應症：香港許可證資料未載明適應症文字（此藥一般作為抗菌藥物，用於泌尿道感染）"
+monitor_inn: "NITROFURANTOIN"
+predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Nitrofurantoin

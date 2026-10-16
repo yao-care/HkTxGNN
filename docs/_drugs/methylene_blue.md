@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Methylene Blue：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L5）。原適應症：高鐵血紅素血症、硫血紅素血症"
+monitor_inn: "METHYLENE BLUE"
+predicted_indications: ["bronchitis", "methemoglobinemia, alpha type", "methemoglobinemia due to deficiency of methemoglobin reductase"]
 ---
 
 # Methylene Blue

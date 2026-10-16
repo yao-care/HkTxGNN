@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Yohimbine：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：資料未載明"
+monitor_inn: "Yohimbine"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "migraine with or without aura, susceptibility to", "primary hereditary glaucoma", "headache disorder", "transient ischemic attack (disease)", "common cold", "open-angle glaucoma"]
 ---
 
 # Yohimbine

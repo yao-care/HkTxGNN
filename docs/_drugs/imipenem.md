@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Imipenem：預測新適應症為瀰漫性硬皮症 (Diffuse Scleroderma)（證據等級 L5）。原適應症：細菌性肺炎、腹膜炎、心內膜炎、細菌性關節炎、子宮內膜炎等"
+monitor_inn: "IMIPENEM"
+predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis"]
 ---
 
 # Imipenem

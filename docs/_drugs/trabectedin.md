@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Trabectedin：預測新適應症為女性乳癌 (Female Breast Carcinoma)（證據等級 L3）。原適應症：卵巢癌"
+monitor_inn: "TRABECTEDIN"
+predicted_indications: ["female breast carcinoma"]
 ---
 
 # Trabectedin

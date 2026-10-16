@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Riluzole：預測新適應症為雙側矢狀旁頂枕多小腦回症 (bilateral parasagittal parieto-occipital polymicrogyria)（證據等級 L5）。原適應症：肌萎縮性脊髓側索硬化症 (ALS)"
+monitor_inn: "RILUZOLE"
+predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome"]
 ---
 
 # Riluzole

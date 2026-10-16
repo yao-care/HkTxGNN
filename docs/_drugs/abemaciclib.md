@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Abemaciclib：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L4）。原適應症：許可證未載明（文獻顯示為荷爾蒙受體陽性、HER2 陰性乳癌）"
+monitor_inn: "Abemaciclib"
+predicted_indications: ["rheumatoid arthritis", "hyperthyroidism", "multiple endocrine neoplasia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "homozygous familial hypercholesterolemia", "heart disease", "Laubry-Pezzi syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "Jeune syndrome situs inversus", "amyotrophic lateral sclerosis"]
 ---
 
 # Abemaciclib

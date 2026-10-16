@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Heparin：預測新適應症為體染色體隱性蛋白 C 缺乏所致血栓傾向症 (Thrombophilia due to protein C deficiency…（證據等級 L5）。原適應症：肺栓塞、瀰漫性血管內凝血、猛爆性紫斑症"
+monitor_inn: "HEPARIN"
+predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
 ---
 
 # Heparin

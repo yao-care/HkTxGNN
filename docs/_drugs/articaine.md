@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Articaine：預測新適應症為痛風 (Gout)（證據等級 L5）。原適應症：資料未載明"
+monitor_inn: "Articaine"
+predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthma"]
 ---
 
 # Articaine

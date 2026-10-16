@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Ticarcillin：預測新適應症為淋巴結柵狀肌纖維母細胞瘤 (Lymph node palisaded myofibroblastoma)（證據等級 L5）。原適應症：泌尿道感染、細菌性肺炎、金黃色葡萄球菌感染等細菌性感染"
+monitor_inn: "TICARCILLIN"
+predicted_indications: ["lymph node palisaded myofibroblastoma", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy", "sacrum chordoma"]
 ---
 
 # Ticarcillin

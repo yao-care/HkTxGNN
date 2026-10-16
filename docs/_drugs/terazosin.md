@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Terazosin：預測新適應症為頭皮單純性毛髮稀疏症 (Hypotrichosis simplex of the scalp)（證據等級 L5）。原適應症：高血壓、良性前列腺增生"
+monitor_inn: "TERAZOSIN"
+predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder"]
 ---
 
 # Terazosin

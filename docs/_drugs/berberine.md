@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Berberine：預測新適應症為嚴重子癇前症 (Severe Pre-eclampsia)（證據等級 L5）。原適應症：資料未載明"
+monitor_inn: "Berberine"
+predicted_indications: ["severe pre-eclampsia", "mild pre-eclampsia", "monocytic leukemia", "multiple endocrine neoplasia", "preeclampsia/eclampsia", "spermatocytic seminoma", "placental hemangioma", "tubular variant testicular seminoma", "gestational trophoblastic neoplasm", "toxemia of pregnancy"]
 ---
 
 # Berberine

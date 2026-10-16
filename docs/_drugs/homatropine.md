@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Homatropine：預測新適應症為馬尾症候群 (Cauda Equina Syndrome)（證據等級 L5）。原適應症：消化性潰瘍、葡萄膜炎、虹膜疾病、睫狀肌麻痺等"
+monitor_inn: "Homatropine"
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "overactive bladder (disease)"]
 ---
 
 # Homatropine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Zolazepam：預測新適應症為失眠症 (Insomnia)（證據等級 L5）。原適應症：許可證未載明適應症（獸醫用注射劑，用於動物麻醉與鎮靜）"
+monitor_inn: "Zolazepam"
+predicted_indications: ["insomnia (disease)"]
 ---
 
 # Zolazepam

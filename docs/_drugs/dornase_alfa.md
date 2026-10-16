@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dornase Alfa：預測新適應症為前列腺腺泡黏液性腺癌 (acinar prostate mucinous adenocarcinoma)（證據等級 L5）。原適應症：囊腫性纖維化 (cystic fibrosis)"
+monitor_inn: "Dornase alfa"
+predicted_indications: ["acinar prostate mucinous adenocarcinoma", "chromosome 1p35 deletion syndrome", "ACTH-producing pituitary gland adenoma", "hyperthyroxinemia, euthyroid, caused by generalized 5-prime-deiodinase deficiency", "ACTH-producing pituitary gland carcinoma", "phenytoin toxicity", "hypotonia, ataxia, developmental delay, and tooth enamel defect syndrome", "neurodevelopmental disorder with or without hyperkinetic movements and seizures, autosomal recessive", "Alkuraya-Kucinskas syndrome", "neurodevelopmental disorder with microcephaly, epilepsy, and brain atrophy"]
 ---
 
 # Dornase Alfa

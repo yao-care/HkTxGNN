@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Isosorbide Dinitrate：預測新適應症為肺動脈高壓 (Pulmonary Hypertension)（證據等級 L3）。原適應症：香港許可證資料未提供核准適應症文字"
+monitor_inn: "ISOSORBIDE DINITRATE"
+predicted_indications: ["alopecia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "diffuse alopecia areata"]
 ---
 
 # Isosorbide Dinitrate

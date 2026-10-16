@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Hesperidin：預測新適應症為骨髓增生性腫瘤 (Myeloproliferative Neoplasm)（證據等級 L5）。原適應症：資料中未載明核准適應症文字"
+monitor_inn: "Hesperidin"
+predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "spermatocytic seminoma", "tubular variant testicular seminoma", "gestational trophoblastic neoplasm", "primary peritoneal carcinoma (disease)", "acute lymphoblastic leukemia (disease)", "myeloid leukemia", "Seckel syndrome", "myeloproliferative neoplasm, unclassifiable"]
 ---
 
 # Hesperidin

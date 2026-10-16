@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Exemestane：預測新適應症為99.83%（證據等級 L5）。原適應症：第 2 型抗凝血酶缺乏症 (Antithrombin deficiency type 2)"
+monitor_inn: "EXEMESTANE"
+predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia"]
 ---
 
 # Exemestane

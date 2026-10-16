@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Pioglitazone：預測新適應症為Opsismodysplasia（證據等級 L5）。原適應症：第 2 型糖尿病 (type 2 diabetes mellitus)"
+monitor_inn: "PIOGLITAZONE"
+predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 ---
 
 # Pioglitazone

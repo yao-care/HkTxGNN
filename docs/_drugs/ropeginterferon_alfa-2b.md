@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Ropeginterferon Alfa-2B：預測新適應症為Laubry-Pezzi 症候群 (Laubry-Pezzi syndrome)（證據等級 L5）。原適應症：真性紅血球增多症（acquired polycythemia vera）、漿細胞瘤（plasmacytoma）…"
+monitor_inn: "ROPEGINTERFERON ALFA-2B"
+predicted_indications: ["Laubry-Pezzi syndrome", "interventricular septum aneurysm", "genetic syndromic Pierre Robin syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 7"]
 ---
 
 # Ropeginterferon Alfa-2B

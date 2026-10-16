@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pirfenidone：預測新適應症為纖維母細胞腫瘤 (Fibroblastic Neoplasm)（證據等級 L5）。原適應症：特發性肺纖維化、急性間質性肺炎、特發性間質性肺炎"
+monitor_inn: "Pirfenidone"
+predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
 ---
 
 # Pirfenidone

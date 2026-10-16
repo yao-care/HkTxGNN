@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
 description: "Alteplase：預測新適應症為後側壁心肌梗塞 (Posterolateral Myocardial Infarction)（證據等級 L5）。原適應症：肺栓塞、缺血性中風、心肌梗塞、冠狀動脈血栓"
+monitor_inn: "ALTEPLASE"
+predicted_indications: ["posterolateral myocardial infarction", "posteroinferior myocardial infarction", "septal myocardial infarction", "heparin cofactor 2 deficiency", "congenital coronary artery anomaly", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "coronary stenosis"]
 ---
 
 # Alteplase

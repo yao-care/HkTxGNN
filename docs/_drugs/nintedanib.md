@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Nintedanib：預測新適應症為隆突性皮膚纖維肉瘤 (Dermatofibrosarcoma Protuberans)（證據等級 L4）。原適應症：非小細胞肺癌、肺癌、急性間質性肺炎、特發性肺纖維化、特發性間質性肺炎"
+monitor_inn: "Nintedanib"
+predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "axial spondylometaphyseal dysplasia", "amyotrohpic lateral sclerosis type 22", "fibroblastic neoplasm", "kidney fibrosarcoma", "conventional fibrosarcoma", "amyotrophic lateral sclerosis, susceptibility to"]
 ---
 
 # Nintedanib

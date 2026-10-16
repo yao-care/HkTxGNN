@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Famciclovir：預測新適應症為感染後神經痛 (post-infectious neuralgia)（證據等級 L5）。原適應症：帶狀疱疹 (herpes zoster)"
+monitor_inn: "FAMCICLOVIR"
+predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "AIDS-related disorder"]
 ---
 
 # Famciclovir

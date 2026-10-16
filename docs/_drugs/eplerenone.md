@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Eplerenone：預測新適應症為肺部疾病及／或缺氧所致的肺高壓（證據等級 L4）。原適應症：高血壓 (Hypertension)"
+monitor_inn: "EPLERENONE"
+predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "malignant renovascular hypertension", "Braddock syndrome"]
 ---
 
 # Eplerenone

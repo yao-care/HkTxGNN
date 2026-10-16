@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Desmopressin：預測新適應症為原發性血小板釋放障礙 (Primary release disorder of platelets)（證據等級 L3）。原適應症：目前許可證資料未載明適應症文字"
+monitor_inn: "Desmopressin"
+predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Scott syndrome", "flood factor deficiency", "thrombocytopenic purpura", "bleeding diathesis due to a collagen receptor defect", "hereditary thrombocytosis with transverse limb defect"]
 ---
 
 # Desmopressin

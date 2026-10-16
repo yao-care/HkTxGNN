@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Carfilzomib：預測新適應症為CMM7（黑色素瘤相關條目）（證據等級 L5）。原適應症：漿細胞骨髓瘤 (plasma cell myeloma)"
+monitor_inn: "CARFILZOMIB"
+predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
 ---
 
 # Carfilzomib

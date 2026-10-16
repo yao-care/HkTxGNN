@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Etelcalcetide：預測新適應症為高磷血症 (Hyperphosphatemia)（證據等級 L3）。原適應症：副甲狀腺機能亢進 (Hyperparathyroidism)"
+monitor_inn: "ETELCALCETIDE"
+predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices with bleeding", "esophageal varices without bleeding", "varicose disease"]
 ---
 
 # Etelcalcetide

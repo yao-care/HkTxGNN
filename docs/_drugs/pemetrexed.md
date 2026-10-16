@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Pemetrexed：預測新適應症為惡性腹膜間皮瘤 (Malignant Peritoneal Mesothelioma)（證據等級 L2）。原適應症：非小細胞肺癌、肺癌、惡性胸膜間皮瘤"
+monitor_inn: "PEMETREXED"
+predicted_indications: ["malignant peritoneal mesothelioma", "pleural adenomatoid tumor", "pleural mesothelioma", "pleural epithelioid mesothelioma", "pleural sarcomatoid mesothelioma"]
 ---
 
 # Pemetrexed

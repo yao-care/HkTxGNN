@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Propranolol：預測新適應症為遠端肌病變，Tateyama 型 (distal myopathy, Tateyama type)（證據等級 L5）。原適應症：高血壓、心房顫動、肥厚性心肌病變、血管瘤等"
+monitor_inn: "Propranolol"
+predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "chondroma", "cirrhotic cardiomyopathy", "cardiomyopathy"]
 ---
 
 # Propranolol

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Felbinac：預測新適應症為Brachyolmia-Amelogenesis Imperfecta 症候群（證據等級 L5）。原適應症：骨關節炎、關節病變"
+monitor_inn: "FELBINAC"
+predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "pseudoachondroplasia"]
 ---
 
 # Felbinac

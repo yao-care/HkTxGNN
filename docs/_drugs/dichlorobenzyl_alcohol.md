@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Dichlorobenzyl Alcohol：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L5）。原適應症：許可證資料未載明核准適應症（產品多為喉嚨痛含片）"
+monitor_inn: "DICHLOROBENZYL ALCOHOL"
+predicted_indications: ["bronchitis", "migraine disorder"]
 ---
 
 # Dichlorobenzyl Alcohol

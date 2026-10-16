@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Melphalan：預測新適應症為性腺生殖細胞腫瘤 (Gonadal Germ Cell Tumor)（證據等級 L2）。原適應症：卵巢癌"
+monitor_inn: "MELPHALAN"
+predicted_indications: ["gonadal germ cell tumor", "ovarian primitive germ cell tumor", "choriocarcinoma of ovary", "female breast carcinoma", "malignant non-epithelial tumor of ovary"]
 ---
 
 # Melphalan

@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Trastuzumab：預測新適應症為黃體素受體陽性乳癌 (Progesterone-receptor positive breast cancer)（證據等級 L1）。原適應症：HER2 陽性乳癌"
+monitor_inn: "TRASTUZUMAB"
+predicted_indications: ["progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "progesterone-receptor negative breast cancer", "breast tumor luminal A or B", "malignant cutaneous granular cell skin tumor"]
 ---
 
 # Trastuzumab

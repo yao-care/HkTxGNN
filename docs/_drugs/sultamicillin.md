@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sultamicillin：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L3）。原適應症：目前資料未載明"
+monitor_inn: "Sultamicillin"
+predicted_indications: ["bronchitis", "thrombotic disease", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "rheumatoid arthritis", "antithrombin deficiency type 2", "laryngotracheitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "thrombophilia", "idiopathic granulomatous myositis"]
 ---
 
 # Sultamicillin

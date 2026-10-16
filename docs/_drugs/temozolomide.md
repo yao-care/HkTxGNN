@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Temozolomide：預測新適應症為成人星狀細胞腫瘤 (Adult Astrocytic Tumour)（證據等級 L1）。原適應症：退行性星狀細胞瘤、星狀細胞瘤（不含膠質母細胞瘤）、腦膠質母細胞瘤"
+monitor_inn: "TEMOZOLOMIDE"
+predicted_indications: ["adult astrocytic tumour", "cauda equina neoplasm"]
 ---
 
 # Temozolomide

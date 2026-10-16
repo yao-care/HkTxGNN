@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Haloperidol：預測新適應症為岩藻糖化缺陷型先天性醣基化異常 (congenital disorder of glycosylation with defective…（證據等級 L5）。原適應症：精神病性障礙、思覺失調症、思覺失調樣障礙、情感性思覺失調症、妥瑞氏症"
+monitor_inn: "HALOPERIDOL"
+predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
 ---
 
 # Haloperidol

@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Rifabutin：預測新適應症為HIV 感染疾病 (HIV infectious disease)（證據等級 L1）。原適應症：目前資料未載明"
+monitor_inn: "RIFABUTIN"
+predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "sclerosing cholangitis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "conjunctivitis"]
 ---
 
 # Rifabutin

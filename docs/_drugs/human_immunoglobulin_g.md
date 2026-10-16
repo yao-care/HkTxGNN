@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Human Immunoglobulin G：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy)（證據等級 L5）。原適應症：資料未載明"
+monitor_inn: "Human immunoglobulin G"
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "tetanic cataract", "craniostenosis cataract", "mature cataract"]
 ---
 
 # Human Immunoglobulin G

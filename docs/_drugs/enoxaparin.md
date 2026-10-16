@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Enoxaparin：預測新適應症為體染色體隱性蛋白 C 缺乏所致血栓形成傾向（證據等級 L5）。原適應症：肺栓塞、瀰漫性血管內凝血、猛爆性紫斑、後天性猛爆性紫斑"
+monitor_inn: "Enoxaparin"
+predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
 ---
 
 # Enoxaparin

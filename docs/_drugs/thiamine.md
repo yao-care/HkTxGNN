@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Thiamine：預測新適應症為甲狀腺機能亢進 (Hyperthyroidism)（證據等級 L3）。原適應症：資料未載明"
+monitor_inn: "THIAMINE"
+predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
 ---
 
 # Thiamine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Evolocumab：預測新適應症為女性帶因者的症狀型血友病 (symptomatic form of hemophilia in female carriers)（證據等級 L5）。原適應症：同型合子家族性高膽固醇血症、症候群性血脂異常"
+monitor_inn: "Evolocumab"
+predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity", "hemorrhagic disease of newborn", "ichthyosis, X-linked, without steroid sulfatase deficiency", "inherited thrombophilia", "disorder of other vitamins and cofactors metabolism and transport"]
 ---
 
 # Evolocumab

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Sulfamethoxazole：預測新適應症為急性傳染性結膜炎 (Acute Contagious Conjunctivitis)（證據等級 L3）。原適應症：感染性中耳炎、奴卡菌症、弓形蟲症、肺囊蟲症、志賀氏菌症、結膜炎等"
+monitor_inn: "SULFAMETHOXAZOLE"
+predicted_indications: ["acute contagious conjunctivitis"]
 ---
 
 # Sulfamethoxazole

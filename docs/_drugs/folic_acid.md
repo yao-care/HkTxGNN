@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Folic Acid：預測新適應症為生物素代謝疾病 (Biotin Metabolic Disease)（證據等級 L5）。原適應症：維生素缺乏症、葉酸缺乏性貧血、缺鐵性貧血"
+monitor_inn: "FOLIC ACID"
+predicted_indications: ["biotin metabolic disease"]
 ---
 
 # Folic Acid
