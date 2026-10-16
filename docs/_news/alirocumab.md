@@ -24,7 +24,7 @@ permalink: /news/alirocumab/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>證據等級</strong>: L2</li>
+<li><strong>證據等級</strong>: L5</li>
 <li><strong>預測適應症（10 個）</strong>:<ul>
 <li>ichthyosis, X-linked, without steroid sulfatase deficiency (99.4%)</li>
 <li>disorder of other vitamins and cofactors metabolism and transport (99.4%)</li>

@@ -24,6 +24,7 @@ permalink: /news/hypromellose/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>證據等級</strong>: L5</li>
 <li><strong>預測適應症（10 個）</strong>:<ul>
 <li>hepatic veno-occlusive disease-immunodeficiency syndrome (98.3%)</li>
 <li>pancytopenia due to IKZF1 mutations (98.2%)</li>

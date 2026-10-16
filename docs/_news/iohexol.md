@@ -24,6 +24,7 @@ permalink: /news/iohexol/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>證據等級</strong>: L5</li>
 <li><strong>預測適應症（10 個）</strong>:<ul>
 <li>insomnia (disease) (99.9%)</li>
 <li>anxiety (99.2%)</li>

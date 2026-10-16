@@ -24,7 +24,7 @@ permalink: /news/flucloxacillin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>證據等級</strong>: L5</li>
+<li><strong>證據等級</strong>: L4</li>
 <li><strong>預測適應症（10 個）</strong>:<ul>
 <li>conjunctivitis (99.8%)</li>
 <li>rheumatoid arthritis (99.8%)</li>

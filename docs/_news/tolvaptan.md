@@ -24,6 +24,7 @@ permalink: /news/tolvaptan/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>證據等級</strong>: L1</li>
 <li><strong>預測適應症（10 個）</strong>:<ul>
 <li>polycystic kidney disease 3 with or without polycystic liver disease (100.0%)</li>
 <li>renal-hepatic-pancreatic dysplasia (100.0%)</li>

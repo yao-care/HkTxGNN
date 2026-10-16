@@ -24,6 +24,7 @@ permalink: /news/tremelimumab/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>證據等級</strong>: L5</li>
 <li><strong>預測適應症（10 個）</strong>:<ul>
 <li>diabetic cataract (98.5%)</li>
 <li>diabetes mellitus type 2 associated cataract (98.4%)</li>

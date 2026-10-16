@@ -24,6 +24,7 @@ permalink: /news/pemigatinib/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>證據等級</strong>: L5</li>
 <li><strong>預測適應症（10 個）</strong>:<ul>
 <li>multiple endocrine neoplasia (99.7%)</li>
 <li>amenorrhea (disease) (99.5%)</li>

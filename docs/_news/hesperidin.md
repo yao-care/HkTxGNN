@@ -24,7 +24,7 @@ permalink: /news/hesperidin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>證據等級</strong>: L4</li>
+<li><strong>證據等級</strong>: L5</li>
 <li><strong>預測適應症（10 個）</strong>:<ul>
 <li>myeloproliferative neoplasm (99.5%)</li>
 <li>monocytic leukemia (99.4%)</li>

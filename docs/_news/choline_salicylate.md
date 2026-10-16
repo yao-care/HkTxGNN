@@ -3,7 +3,7 @@ layout: default
 title: "Choline salicylate 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Choline salicylate 的相關健康新聞報導。原適應症：。預測適應症 15 個。"
+description: "Choline salicylate 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/choline_salicylate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/choline_salicylate/
 ---
 
 <p class="key-answer" data-question="Choline salicylate 有什麼相關新聞？">
-<strong>Choline salicylate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 15 個。
+<strong>Choline salicylate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,26 +24,8 @@ permalink: /news/choline_salicylate/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>證據等級</strong>: L4</li>
-<li><strong>預測適應症（15 個）</strong>:<ul>
-<li>Prinzmetal 心絞痛 (99.8%)</li>
-<li>高血壓疾病 (99.8%)</li>
-<li>偏頭痛 (99.8%)</li>
-<li>惡性腎血管性高血壓／惡性高血壓腎病 (99.8%)</li>
-<li>Raynaud 病 (99.8%)</li>
-<li>Prinzmetal angina (99.8%)</li>
-<li>rheumatoid arthritis (99.8%)</li>
-<li>hypertensive disorder (99.8%)</li>
-<li>migraine disorder (99.8%)</li>
-<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.8%)</li>
-<li>pulmonary hypertension with unclear multifactorial mechanism (99.8%)</li>
-<li>malignant renovascular hypertension (99.8%)</li>
-<li>malignant hypertensive renal disease (99.8%)</li>
-<li>Raynaud disease (99.8%)</li>
-<li>pulmonary hypertension (99.8%)</li>
-</ul></li>
 </ul>
-<p><a href="{{ '/drugs/choline-salicylate/' | relative_url }}">查看完整藥物報告 →</a></p>
+<p><a href="{{ '/drugs/choline_salicylate/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
 
 ## 相關新聞（0 則）

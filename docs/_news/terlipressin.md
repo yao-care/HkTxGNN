@@ -24,6 +24,7 @@ permalink: /news/terlipressin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>證據等級</strong>: L3</li>
 <li><strong>預測適應症（10 個）</strong>:<ul>
 <li>open-angle glaucoma (99.8%)</li>
 <li>primary hereditary glaucoma (99.8%)</li>

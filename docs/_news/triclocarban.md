@@ -3,7 +3,7 @@ layout: default
 title: "Triclocarban 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Triclocarban 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Triclocarban 的相關健康新聞報導。原適應症：。預測適應症 9 個。"
 permalink: /news/triclocarban/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/triclocarban/
 ---
 
 <p class="key-answer" data-question="Triclocarban 有什麼相關新聞？">
-<strong>Triclocarban</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Triclocarban</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 9 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,17 @@ permalink: /news/triclocarban/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症（10 個）</strong>:<ul>
-<li>migraine disorder (99.3%)</li>
-<li>migraine with brainstem aura (99.1%)</li>
-<li>migraine with or without aura, susceptibility to (98.6%)</li>
-<li>ulerythema ophryogenesis (98.4%)</li>
-<li>atrophoderma vermiculata (98.2%)</li>
-<li>adrenal gland hyperfunction (97.9%)</li>
-<li>erectile dysfunction (disease) (97.2%)</li>
-<li>pulmonary hypertension (96.3%)</li>
-<li>leprosy (96.0%)</li>
-<li>sciatic neuropathy (95.9%)</li>
+<li><strong>證據等級</strong>: L5</li>
+<li><strong>預測適應症（9 個）</strong>:<ul>
+<li>伴腦幹先兆的偏頭痛 | 99.06% | 與偏頭痛本體相近，無獨立證據 (99.0%)</li>
+<li>偏頭痛（易感性） | 98.63% | 屬基因易感性實體，非可治療的臨床適應症 (99.0%)</li>
+<li>Ulerythema ophryogenesis | 98.36% | 罕見毛囊角化疾病，無合理機轉 (99.0%)</li>
+<li>Atrophoderma vermiculata | 98.25% | 罕見皮膚病，無機轉依據 (99.0%)</li>
+<li>腎上腺功能亢進 | 97.86% | 體外雄激素訊號放大屬安全疑慮，不支持療效 (99.0%)</li>
+<li>勃起功能障礙 | 97.21% | 無療效證據，另有內分泌干擾疑慮 (99.0%)</li>
+<li>肺動脈高壓 | 96.32% | 無血管或肺部機轉 (99.0%)</li>
+<li>痲瘋病 (Leprosy) | 95.95% | 具抗菌活性，概念上較可想像，但無抗痲瘋分枝桿菌數據，仍屬推測 (99.0%)</li>
+<li>坐骨神經病變 | 95.86% | 無神經病變相關證據 (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/triclocarban/' | relative_url }}">查看完整藥物報告 →</a></p>

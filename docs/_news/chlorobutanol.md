@@ -3,7 +3,7 @@ layout: default
 title: "Chlorobutanol 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Chlorobutanol 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Chlorobutanol 的相關健康新聞報導。原適應症：。預測適應症 9 個。"
 permalink: /news/chlorobutanol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/chlorobutanol/
 ---
 
 <p class="key-answer" data-question="Chlorobutanol 有什麼相關新聞？">
-<strong>Chlorobutanol</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Chlorobutanol</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 9 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,16 @@ permalink: /news/chlorobutanol/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>: L5</li>
-<li><strong>預測適應症（10 個）</strong>:<ul>
-<li>erectile dysfunction (disease) (99.8%)</li>
-<li>migraine disorder (99.7%)</li>
-<li>migraine with brainstem aura (99.6%)</li>
-<li>Tourette syndrome (99.5%)</li>
-<li>trichotillomania (99.5%)</li>
-<li>attention deficit-hyperactivity disorder (99.4%)</li>
-<li>migraine with or without aura, susceptibility to (99.3%)</li>
-<li>localized pagetoid reticulosis (99.2%)</li>
-<li>faciodigitogenital syndrome (99.2%)</li>
-<li>atrophoderma vermiculata (99.1%)</li>
+<li><strong>預測適應症（9 個）</strong>:<ul>
+<li>偏頭痛 (Migraine Disorder) | 99.71% | 鎮靜或中樞抑制作用理論上可能影響頭痛症狀，但屬推測 (99.0%)</li>
+<li>腦幹先兆偏頭痛 | 99.58% | 可能源自偏頭痛節點的相似性，無獨立證據 (99.0%)</li>
+<li>妥瑞氏症 (Tourette Syndrome) | 99.54% | 僅可想像非特異性中樞抑制作用，無支持 (99.0%)</li>
+<li>拔毛症 (Trichotillomania) | 99.50% | 可能反映神經精神疾病的圖譜鄰近關係 (99.0%)</li>
+<li>注意力不足過動症 (ADHD) | 99.41% | 鎮靜安眠類藥物無已知治療依據 (99.0%)</li>
+<li>偏頭痛易感性（基因） | 99.34% | 屬遺傳易感性實體，可能是圖譜傳播的假象 (99.0%)</li>
+<li>局部性類佩吉特網狀細胞增生症 | 99.20% | 罕見皮膚 T 細胞淋巴瘤變異型，無合理連結 (99.0%)</li>
+<li>面指趾生殖器症候群 | 99.19% | 罕見遺傳發育疾病，小分子藥物不太可能改變其生物學 (99.0%)</li>
+<li>蠕蟲狀萎縮性皮膚病 | 99.11% | 罕見皮膚萎縮性疾病，無支持 (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/chlorobutanol/' | relative_url }}">查看完整藥物報告 →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Maraviroc 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Maraviroc 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Maraviroc 的相關健康新聞報導。原適應症：。預測適應症 4 個。"
 permalink: /news/maraviroc/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/maraviroc/
 ---
 
 <p class="key-answer" data-question="Maraviroc 有什麼相關新聞？">
-<strong>Maraviroc</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Maraviroc</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 4 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,12 @@ permalink: /news/maraviroc/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症（10 個）</strong>:<ul>
-<li>multiple endocrine neoplasia (99.8%)</li>
-<li>acne (disease) (99.8%)</li>
-<li>primary cutaneous T-cell lymphoma (99.7%)</li>
-<li>pediatric systemic lupus erythematosus (99.7%)</li>
-<li>primary cutaneous T-cell non-Hodgkin lymphoma (99.5%)</li>
-<li>primary cutaneous B-cell lymphoma (99.4%)</li>
-<li>candidiasis (99.3%)</li>
-<li>complement component 4a deficiency (99.2%)</li>
-<li>cytomegalovirus infection (99.2%)</li>
-<li>HER2 positive breast carcinoma (99.2%)</li>
+<li><strong>證據等級</strong>: L5</li>
+<li><strong>預測適應症（4 個）</strong>:<ul>
+<li>痤瘡 | 99.76% | L5 | 僅為推測：CCR5 陽性 T 細胞與巨噬細胞參與發炎性皮膚浸潤，但無痤瘡相關資料 (99.0%)</li>
+<li>原發性皮膚 T 細胞淋巴瘤 | 99.72% | L4 | 僅有一篇 ACKR1 趨化因子網絡的綜述，屬間接概念支持，未測試 maraviroc (99.0%)</li>
+<li>兒童全身性紅斑狼瘡 | 99.71% | L5 | CCR5 表現於活化 T 細胞，有理論依據，但無研究 (99.0%)</li>
+<li>HER2 陽性乳癌 | 99.22% | L4 | 前臨床研究顯示自分泌 CCL5 透過 ERK 路徑介導 trastuzumab 抗藥性；CCL5 經由 CCR5 傳訊，阻斷 CCR5 是合理的研究假設 (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/maraviroc/' | relative_url }}">查看完整藥物報告 →</a></p>
