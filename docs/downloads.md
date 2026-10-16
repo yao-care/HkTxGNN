@@ -53,7 +53,7 @@ HkTxGNN 是該公司「TxGNN 老藥新用」產品線的Hong Kong站。同一套
 
 TxGNN 模型本身由哈佛醫學院 Zitnik Lab 開發並發表於 *Nature Medicine*；
 本平台是藥提醒科技有限公司以該模型為基礎建置的落地系統，負責各國藥證資料串接、
-知識圖譜與深度學習雙引擎預測、PubMed／ClinicalTrials 證據分級，以及 SMART on FHIR 電子病歷整合。
+深度學習預測（已排除知識圖譜中已記錄的用途）、PubMed／ClinicalTrials 證據分級，以及 SMART on FHIR 電子病歷整合。
 
 ---
 

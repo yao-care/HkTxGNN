@@ -36,7 +36,7 @@ description: "HkTxGNN 的資料來源清單：Department of Health HK 藥證資�
 
 各來源有各自的授權條款，引用前請確認：
 
-- **TxGNN**：學術用途，引用 Huang et al. (2023)
+- **TxGNN**：學術用途，引用 Huang et al. (2024)
 - **ClinicalTrials.gov / PubMed**：美國 NIH 公開資料
 - **DrugBank**：非商業用途需遵循其授權條款
 - **Department of Health HK**：依Hong Kong主管機關的開放資料條款
@@ -55,7 +55,7 @@ description: "HkTxGNN 的資料來源清單：Department of Health HK 藥證資�
 
 ## 學術引用
 
-> Huang, K., et al. (2023). A foundation model for clinician-centered drug repurposing. *Nature Medicine*.
+> Huang, K., et al. (2024). A foundation model for clinician-centered drug repurposing. *Nature Medicine*.
 > [DOI: 10.1038/s41591-024-03233-x](https://doi.org/10.1038/s41591-024-03233-x)
 
 ---
@@ -70,7 +70,7 @@ HkTxGNN 是該公司「TxGNN 老藥新用」產品線的Hong Kong站。同一套
 
 TxGNN 模型本身由哈佛醫學院 Zitnik Lab 開發並發表於 *Nature Medicine*；
 本平台是藥提醒科技有限公司以該模型為基礎建置的落地系統，負責各國藥證資料串接、
-知識圖譜與深度學習雙引擎預測、PubMed／ClinicalTrials 證據分級，以及 SMART on FHIR 電子病歷整合。
+深度學習預測（已排除知識圖譜中已記錄的用途）、PubMed／ClinicalTrials 證據分級，以及 SMART on FHIR 電子病歷整合。
 
 ---
 
