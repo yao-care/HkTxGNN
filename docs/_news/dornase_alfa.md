@@ -25,7 +25,7 @@ permalink: /news/dornase_alfa/
 <strong>藥物資訊</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/dornase_alfa/' | relative_url }}">查看完整藥物報告 →</a></p>
+<p><a href="{{ '/drugs/dornase-alfa/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
 
 ## 相關新聞（0 則）

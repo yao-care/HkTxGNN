@@ -25,7 +25,7 @@ permalink: /news/lactic_acid/
 <strong>藥物資訊</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/lactic_acid/' | relative_url }}">查看完整藥物報告 →</a></p>
+<p><a href="{{ '/drugs/lactic-acid/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
 
 ## 相關新聞（0 則）
