@@ -38,7 +38,7 @@ permalink: /news/capsicum_oleoresin/
 <li>mesomelic dwarfism-cleft palate-camptodactyly syndrome (50.0%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/capsicum_oleoresin/' | relative_url }}">查看完整藥物報告 →</a></p>
+<p><a href="{{ '/drugs/capsicum-oleoresin/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
 
 ## 相關新聞（0 則）

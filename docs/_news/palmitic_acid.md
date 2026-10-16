@@ -37,7 +37,7 @@ permalink: /news/palmitic_acid/
 <li>progesterone-receptor negative breast cancer (91.8%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/palmitic_acid/' | relative_url }}">查看完整藥物報告 →</a></p>
+<p><a href="{{ '/drugs/palmitic-acid/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
 
 ## 相關新聞（0 則）

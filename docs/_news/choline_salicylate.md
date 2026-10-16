@@ -43,7 +43,7 @@ permalink: /news/choline_salicylate/
 <li>pulmonary hypertension (99.8%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/choline_salicylate/' | relative_url }}">查看完整藥物報告 →</a></p>
+<p><a href="{{ '/drugs/choline-salicylate/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
 
 ## 相關新聞（0 則）

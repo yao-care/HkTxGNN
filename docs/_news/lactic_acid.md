@@ -37,7 +37,7 @@ permalink: /news/lactic_acid/
 <li>cauda equina syndrome (98.7%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/lactic_acid/' | relative_url }}">查看完整藥物報告 →</a></p>
+<p><a href="{{ '/drugs/lactic-acid/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
 
 ## 相關新聞（0 則）

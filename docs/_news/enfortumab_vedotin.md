@@ -38,7 +38,7 @@ permalink: /news/enfortumab_vedotin/
 <li>HER2 positive breast carcinoma (99.0%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/enfortumab_vedotin/' | relative_url }}">查看完整藥物報告 →</a></p>
+<p><a href="{{ '/drugs/enfortumab-vedotin/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
 
 ## 相關新聞（0 則）

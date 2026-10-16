@@ -5,15 +5,17 @@ nav_order: 20
 permalink: /drugs/
 description: "HkTxGNN 收錄的所有藥物驗證報告與證據等級統計。"
 ---
-{% assign l1_count = site.drugs | where: "evidence_level", "L1" | size %}
-{% assign l2_count = site.drugs | where: "evidence_level", "L2" | size %}
-{% assign l3_count = site.drugs | where: "evidence_level", "L3" | size %}
-{% assign l4_count = site.drugs | where: "evidence_level", "L4" | size %}
-{% assign l5_count = site.drugs | where: "evidence_level", "L5" | size %}
+{%- comment -%}2026-10-16：列表不含舊 ID 轉址頁與 noindex 頁{%- endcomment -%}
+{% assign listed_drugs = site.drugs | where_exp: "d", "d.layout != 'redirect'" | where_exp: "d", "d.noindex != true" %}
+{% assign l1_count = listed_drugs | where: "evidence_level", "L1" | size %}
+{% assign l2_count = listed_drugs | where: "evidence_level", "L2" | size %}
+{% assign l3_count = listed_drugs | where: "evidence_level", "L3" | size %}
+{% assign l4_count = listed_drugs | where: "evidence_level", "L4" | size %}
+{% assign l5_count = listed_drugs | where: "evidence_level", "L5" | size %}
 
 # 藥物總覽
 
-共 {{ site.drugs.size }} 個藥物的驗證報告
+共 {{ listed_drugs.size }} 個藥物的驗證報告
 
 ---
 
@@ -31,7 +33,7 @@ description: "HkTxGNN 收錄的所有藥物驗證報告與證據等級統計。"
 
 ## 完整藥物列表
 
-{% assign all_drugs = site.drugs | sort: 'title' %}
+{% assign all_drugs = listed_drugs | sort: 'title' %}
 
 | 藥物名稱 | 證據等級 | 適應症數 |
 |---------|---------|---------|

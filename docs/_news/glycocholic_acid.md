@@ -38,7 +38,7 @@ permalink: /news/glycocholic_acid/
 <li>coronary thrombosis (99.9%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/glycocholic_acid/' | relative_url }}">查看完整藥物報告 →</a></p>
+<p><a href="{{ '/drugs/glycocholic-acid/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
 
 ## 相關新聞（0 則）

@@ -38,7 +38,7 @@ permalink: /news/glycol_salicylate/
 <li>autoimmune gastritis (97.6%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/glycol_salicylate/' | relative_url }}">查看完整藥物報告 →</a></p>
+<p><a href="{{ '/drugs/glycol-salicylate/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
 
 ## 相關新聞（0 則）

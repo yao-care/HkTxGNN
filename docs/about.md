@@ -64,7 +64,7 @@ TxGNN 模型本身由哈佛醫學院 Zitnik Lab 開發並發表於 *Nature Medic
 
 <blockquote class="expert-quote">
 「TxGNN 整合了 17,080 個生物醫學實體的知識圖譜，使用圖神經網路學習節點間的複雜關聯，能預測藥物對罕見疾病的潛在療效。」
-<cite>— Huang et al., Nature Medicine (2023)</cite>
+<cite>— Huang et al., Nature Medicine (2024)</cite>
 </blockquote>
 
 ---
