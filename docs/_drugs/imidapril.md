@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Imidapril：預測新適應症為原因不明的多因素肺高壓（pulmonary hypertension with unclear multifactorial mechan…（證據等級 L5）。原適應症：高血壓（hypertension）"
 monitor_inn: "Imidapril"
-predicted_indications: ["malignant hypertensive renal disease"]
+predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease"]
 ---
 
 # Imidapril
