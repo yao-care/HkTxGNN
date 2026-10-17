@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Insulin Degludec：預測新適應症為第 1 型糖尿病 (Type 1 Diabetes Mellitus)（證據等級 L1）。原適應症：糖尿病、糖尿病酮酸中毒"
 monitor_inn: "INSULIN DEGLUDEC"
-predicted_indications: ["type 1 diabetes mellitus", "autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome"]
+predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome"]
 ---
 
 # Insulin Degludec

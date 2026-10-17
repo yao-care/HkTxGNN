@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Telmisartan：預測新適應症為腦動脈阻塞 (Cerebral Artery Occlusion)（證據等級 L5）。原適應症：高血壓、中風、腦血管疾病、腦梗塞"
 monitor_inn: "TELMISARTAN"
-predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism"]
+predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis"]
 ---
 
 # Telmisartan

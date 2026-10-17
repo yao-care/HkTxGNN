@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Distigmine：預測新適應症為胸腺增生型重症肌無力 (Myasthenia Gravis with Thymus Hyperplasia)（證據等級 L5）。原適應症：重症肌無力、成人型重症肌無力、神經肌肉接合部疾病、急性膀胱炎"
 monitor_inn: "Distigmine"
-predicted_indications: ["myasthenia gravis with thymus hyperplasia", "myasthenia, limb-girdle, autoimmune", "neonatal myasthenia gravis", "autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly", "fetal akinesia deformation sequence", "congenital myasthenic syndrome with tubular aggregates", "myasthenia, congenital, refractory to acetylcholinesterase inhibitors"]
+predicted_indications: ["hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly", "fetal akinesia deformation sequence", "congenital myasthenic syndrome with tubular aggregates", "myasthenia, congenital, refractory to acetylcholinesterase inhibitors"]
 ---
 
 # Distigmine

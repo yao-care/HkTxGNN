@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Dextromethorphan：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L5）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、鼻炎、鼻咽炎、頭痛疾患"
 monitor_inn: "Dextromethorphan"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
+predicted_indications: ["faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
 ---
 
 # Dextromethorphan

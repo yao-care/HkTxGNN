@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-14
 description: "Deferiprone：預測新適應症為肝性卟啉症 (Hepatic Porphyria)（證據等級 L4）。原適應症：含鐵血黃素沉著症、β 型地中海型貧血及相關血紅素病變"
 monitor_inn: "DEFERIPRONE"
-predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "pyruvate kinase deficiency of red cells", "beta-thalassemia with other manifestations", "pyropoikilocytosis, hereditary"]
+predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
 ---
 
 # Deferiprone

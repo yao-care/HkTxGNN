@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tazemetostat：預測新適應症為腎透明細胞癌 (Clear Cell Renal Carcinoma)（證據等級 L4）。原適應症：上皮樣肉瘤、肉瘤"
 monitor_inn: "Tazemetostat"
-predicted_indications: ["clear cell renal carcinoma", "ovarian myxoid liposarcoma", "liposarcoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "gastric adenocarcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma"]
+predicted_indications: ["clear cell renal carcinoma", "prostatic urethra urothelial carcinoma", "renal pelvis papillary urothelial carcinoma", "gastric adenocarcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma"]
 ---
 
 # Tazemetostat

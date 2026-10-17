@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Docetaxel：預測新適應症為女性乳癌 (Female Breast Carcinoma)（證據等級 L1）。原適應症：非小細胞肺癌、前列腺癌、頭頸癌、胃癌、乳癌等"
 monitor_inn: "DOCETAXEL"
-predicted_indications: ["female breast carcinoma", "Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
+predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
 ---
 
 # Docetaxel

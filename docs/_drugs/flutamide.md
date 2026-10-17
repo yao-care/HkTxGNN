@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Flutamide：預測新適應症為良性生殖系統腫瘤 (Benign reproductive system neoplasm)（證據等級 L3）。原適應症：前列腺癌（前列腺腫瘤、前列腺癌瘤）"
 monitor_inn: "FLUTAMIDE"
-predicted_indications: ["prostate cancer/brain cancer susceptibility", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma"]
+predicted_indications: ["fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma"]
 ---
 
 # Flutamide

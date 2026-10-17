@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Epinephrine：預測新適應症為阻塞性肺病 (Obstructive Lung Disease)（證據等級 L1）。原適應症：開角型青光眼、支氣管炎、低血壓、氣喘、肺氣腫、過敏性休克、支氣管擴張"
 monitor_inn: "Epinephrine"
-predicted_indications: ["obstructive lung disease", "food-dependent exercise-induced anaphylaxis", "Rienhoff syndrome", "respiratory malformation"]
+predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 ---
 
 # Epinephrine

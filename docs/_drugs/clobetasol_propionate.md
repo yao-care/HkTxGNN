@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Clobetasol Propionate：預測新適應症為外陰倒置性毛囊角化症 (Vulvar Inverted Follicular Keratosis)（證據等級 L5）。原適應症：異位性皮膚炎、接觸性皮膚炎、職業性皮膚炎、脂漏性皮膚炎、脂漏性角化症、頭皮皮膚病"
 monitor_inn: "CLOBETASOL PROPIONATE"
-predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis chronica atrophicans", "exanthem (disease)", "acne keloid", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
+predicted_indications: ["vulvar inverted follicular keratosis", "exanthem (disease)", "acne keloid", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
 ---
 
 # Clobetasol Propionate

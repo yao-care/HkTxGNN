@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Metoclopramide：預測新適應症為胃潰瘍 (Gastric Ulcer)（證據等級 L3）。原適應症：胃食道逆流疾病、食道炎、消化性食道炎"
 monitor_inn: "METOCLOPRAMIDE"
-predicted_indications: ["gastric ulcer (disease)", "gastroduodenitis", "peptic ulcer disease", "peptic ulcer perforation", "gastrojejunal ulcer"]
+predicted_indications: ["gastric ulcer (disease)", "gastroduodenitis", "peptic ulcer perforation", "gastrojejunal ulcer"]
 ---
 
 # Metoclopramide

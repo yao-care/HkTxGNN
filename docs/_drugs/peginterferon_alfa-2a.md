@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Peginterferon Alfa-2A：預測新適應症為B 型肝炎病毒感染 (Hepatitis B Virus Infection)（證據等級 L1）。原適應症：慢性 C 型肝炎、C 型肝炎病毒感染、慢性 B 型肝炎"
 monitor_inn: "PEGINTERFERON ALFA-2A"
-predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever"]
+predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever"]
 ---
 
 # Peginterferon Alfa-2A

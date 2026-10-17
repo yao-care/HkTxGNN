@@ -7,8 +7,6 @@ evidence_level: L2
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Emedastine：預測新適應症為過敏性蕁麻疹 (Allergic Urticaria)（證據等級 L2）。原適應症：過敏性結膜炎、乳突性結膜炎、春季結膜炎、蕁麻疹、血管性水腫"
-monitor_inn: "EMEDASTINE"
-predicted_indications: ["allergic urticaria", "cold urticaria"]
 ---
 
 # Emedastine

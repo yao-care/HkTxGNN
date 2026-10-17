@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Megestrol Acetate：預測新適應症為子宮體子宮內膜癌 (Uterine Corpus Endometrial Carcinoma)（證據等級 L2）。原適應症：子宮內膜癌（Endometrial Carcinoma）"
 monitor_inn: "MEGESTROL ACETATE"
-predicted_indications: ["uterine corpus endometrial carcinoma", "endometrial transitional cell carcinoma", "hereditary breast ovarian cancer syndrome", "borderline epithelial tumor of ovary", "uterine carcinosarcoma"]
+predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline epithelial tumor of ovary", "uterine carcinosarcoma"]
 ---
 
 # Megestrol Acetate

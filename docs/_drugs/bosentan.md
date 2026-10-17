@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-14
 description: "Bosentan：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L4）。原適應症：肺動脈高壓、硬皮症、系統性硬化症"
 monitor_inn: "BOSENTAN"
-predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "limited systemic sclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
+predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
 ---
 
 # Bosentan

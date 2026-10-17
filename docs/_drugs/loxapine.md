@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Loxapine：預測新適應症為躁期雙極性情感疾患 (Manic Bipolar Affective Disorder)（證據等級 L5）。原適應症：雙極性疾患、重度情感性疾患、思覺失調症"
 monitor_inn: "LOXAPINE"
-predicted_indications: ["manic bipolar affective disorder", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation"]
+predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation"]
 ---
 
 # Loxapine

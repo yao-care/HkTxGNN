@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Sunitinib：預測新適應症為脂肪肉瘤 (Liposarcoma)（證據等級 L2）。原適應症：腎細胞癌、胃腸道基質瘤（GIST）"
 monitor_inn: "SUNITINIB"
-predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma"]
 ---
 
 # Sunitinib

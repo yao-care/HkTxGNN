@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Fluvoxamine：預測新適應症為焦慮症 (Anxiety Disorder)（證據等級 L1）。原適應症：社交畏懼症、恐懼症、強迫症"
 monitor_inn: "Fluvoxamine"
-predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder", "endogenous depression"]
+predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder", "endogenous depression"]
 ---
 
 # Fluvoxamine

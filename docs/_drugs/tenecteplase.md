@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Tenecteplase：預測新適應症為後下壁心肌梗塞 (Posteroinferior Myocardial Infarction)（證據等級 L5）。原適應症：心肌梗塞、冠狀動脈血栓"
 monitor_inn: "TENECTEPLASE"
-predicted_indications: ["posteroinferior myocardial infarction", "posterolateral myocardial infarction", "septal myocardial infarction", "congenital coronary artery anomaly", "coronary stenosis"]
+predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis"]
 ---
 
 # Tenecteplase

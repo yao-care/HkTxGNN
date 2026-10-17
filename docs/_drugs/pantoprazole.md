@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Pantoprazole：預測新適應症為活動性消化性潰瘍 (Active Peptic Ulcer Disease)（證據等級 L5）。原適應症：消化性潰瘍、胃食道逆流、食道炎、Zollinger-Ellison 症候群等"
 monitor_inn: "PANTOPRAZOLE"
-predicted_indications: ["active peptic ulcer disease", "peptic ulcer perforation", "gastrojejunal ulcer", "duodenogastric reflux", "duodenal obstruction"]
+predicted_indications: ["duodenal obstruction"]
 ---
 
 # Pantoprazole

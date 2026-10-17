@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Enzalutamide：預測新適應症為攝護腺癌／腦癌易感性 (prostate cancer/brain cancer susceptibility)（證據等級 L5）。原適應症：攝護腺癌 (prostate cancer)"
 monitor_inn: "ENZALUTAMIDE"
-predicted_indications: ["prostate cancer/brain cancer susceptibility", "prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "male reproductive organ cancer", "benign prostate phyllodes tumor"]
+predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
 ---
 
 # Enzalutamide

@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Rabeprazole：預測新適應症為Smouldering systemic mastocytosis（惰性全身性肥大細胞增生症）（證據等級 L5）。原適應症：消化性潰瘍、胃食道逆流、食道炎、十二指腸潰瘍、Zollinger-Ellison 症候群等"
-monitor_inn: "Rabeprazole"
-predicted_indications: ["Smouldering systemic mastocytosis", "lymphoadenopathic mastocytosis with eosinophilia"]
 ---
 
 # Rabeprazole

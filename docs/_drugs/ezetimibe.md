@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Ezetimibe：預測新適應症為高脂蛋白血症 (Hyperlipoproteinemia)（證據等級 L1）。原適應症：高脂血症、家族性高膽固醇血症、麩固醇血症等"
 monitor_inn: "EZETIMIBE"
-predicted_indications: ["hyperlipoproteinemia", "familial hypercholesterolemia", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "cholesterol-ester transfer protein deficiency"]
+predicted_indications: ["hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "cholesterol-ester transfer protein deficiency"]
 ---
 
 # Ezetimibe

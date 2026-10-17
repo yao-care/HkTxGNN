@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Hydroxyurea：預測新適應症為女性乳癌 (Female Breast Carcinoma)（證據等級 L4）。原適應症：黑色素瘤、鐮狀細胞貧血、卵巢癌等"
 monitor_inn: "HYDROXYUREA"
-predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin d disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-beta-thalassemia disease syndrome"]
+predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome"]
 ---
 
 # Hydroxyurea

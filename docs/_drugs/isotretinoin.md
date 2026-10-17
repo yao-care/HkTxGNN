@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-14
 description: "Isotretinoin：預測新適應症為惡性腎血管性高血壓 (malignant renovascular hypertension)（證據等級 L5）。原適應症：高血壓"
 monitor_inn: "ISOTRETINOIN"
-predicted_indications: ["malignant renovascular hypertension", "malignant hypertensive renal disease"]
+predicted_indications: ["malignant hypertensive renal disease"]
 ---
 
 # Isotretinoin

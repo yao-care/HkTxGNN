@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Iloprost：預測新適應症為先天性心臟病相關肺動脈高壓 (Pulmonary arterial hypertension associated with congen…（證據等級 L3）。原適應症：肺動脈高壓"
 monitor_inn: "ILOPROST"
-predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arterial hypertension associated with congenital heart disease", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with chronic hemolytic anemia"]
+predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)"]
 ---
 
 # Iloprost

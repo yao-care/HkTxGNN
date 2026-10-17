@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Ephedrine：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L4）。原適應症：過敏性鼻炎、血管運動性鼻炎、支氣管炎、咽炎、感冒等"
 monitor_inn: "Ephedrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["trigeminal autonomic cephalalgia"]
 ---
 
 # Ephedrine

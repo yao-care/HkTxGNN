@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-14
 description: "Dihydrocodeine：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L5）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、鼻咽炎"
 monitor_inn: "Dihydrocodeine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "headache disorder", "cold urticaria", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["allergic urticaria", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "headache disorder", "cold urticaria", "trigeminal autonomic cephalalgia"]
 ---
 
 # Dihydrocodeine

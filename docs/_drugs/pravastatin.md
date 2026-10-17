@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-14
 description: "Pravastatin：預測新適應症為HIV 感染 (HIV infectious disease)，實質為 HIV 相關血脂異常與心血管風險（證據等級 L2）。原適應症：高三酸甘油酯血症、動脈粥狀硬化、腦中風、腦梗塞、家族性複合型高脂血症等"
 monitor_inn: "Pravastatin"
-predicted_indications: ["homozygous familial hypercholesterolemia", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "familial hypercholesterolemia", "hypoalphalipoproteinemia", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "cholesterol-ester transfer protein deficiency"]
+predicted_indications: ["homozygous familial hypercholesterolemia", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "cholesterol-ester transfer protein deficiency"]
 ---
 
 # Pravastatin

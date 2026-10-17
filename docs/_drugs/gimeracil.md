@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Gimeracil：預測新適應症為大腸腫瘤 (Colonic Neoplasm)（證據等級 L1）。原適應症：胃癌"
 monitor_inn: "GIMERACIL"
-predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "malignant gastric granular cell tumor", "lipoma of colon", "cecum neuroendocrine tumor G1"]
+predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1"]
 ---
 
 # Gimeracil

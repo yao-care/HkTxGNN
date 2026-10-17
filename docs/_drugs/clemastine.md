@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Clemastine：預測新適應症為過敏性蕁麻疹 (Allergic Urticaria)（證據等級 L4）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、異位性結膜炎、乳突狀結膜炎、春季結膜炎、家族性皮膚劃紋症、蕁麻疹、血管性水腫"
 monitor_inn: "CLEMASTINE"
-predicted_indications: ["allergic urticaria", "cold urticaria", "nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
+predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 ---
 
 # Clemastine

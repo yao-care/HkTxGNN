@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Alprazolam：預測新適應症為失眠 (Insomnia)（證據等級 L4）。原適應症：焦慮症、混合性焦慮憂鬱症"
 monitor_inn: "ALPRAZOLAM"
-predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 ---
 
 # Alprazolam

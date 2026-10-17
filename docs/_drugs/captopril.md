@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Captopril：預測新適應症為惡性高血壓腎病變 (Malignant Hypertensive Renal Disease)（證據等級 L4）。原適應症：高血壓、糖尿病腎病變"
 monitor_inn: "CAPTOPRIL"
-predicted_indications: ["malignant hypertensive renal disease", "malignant renovascular hypertension", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
+predicted_indications: ["malignant hypertensive renal disease"]
 ---
 
 # Captopril

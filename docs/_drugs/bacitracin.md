@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bacitracin：預測新適應症為點狀上皮角結膜炎 (Punctate Epithelial Keratoconjunctivitis)（證據等級 L5）。原適應症：角膜炎、角結膜炎、瞼緣結膜炎"
 monitor_inn: "BACITRACIN"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "infective urethral stricture", "post-infectious syndrome", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy"]
+predicted_indications: ["otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "infective urethral stricture", "post-infectious syndrome", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy"]
 ---
 
 # Bacitracin

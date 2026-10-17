@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Adalimumab：預測新適應症為類風濕性血管炎 (Rheumatoid Vasculitis)（證據等級 L4）。原適應症：克隆氏症、類風濕性關節炎、乾癬性關節炎、僵直性脊椎炎、潰瘍性結腸炎、幼年特發性關節炎等"
 monitor_inn: "ADALIMUMAB"
-predicted_indications: ["rheumatoid vasculitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "polyarticular juvenile rheumatoid arthritis", "vertebral disease"]
+predicted_indications: ["inflammatory spondylopathy", "vertebral disease"]
 ---
 
 # Adalimumab

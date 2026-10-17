@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Triamcinolone：預測新適應症為禿髮性黏蛋白症 (Alopecia Mucinosa)（證據等級 L5）。原適應症：自體免疫疾病、克隆氏症／發炎性腸道疾病、腎上腺功能不全、先天性腎上腺增生等"
 monitor_inn: "Triamcinolone"
-predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "idiopathic steroid-sensitive nephrotic syndrome", "alopecia universalis onychodystrophy vitiligo", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 ---
 
 # Triamcinolone

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Lovastatin：預測新適應症為同型接合子家族性高膽固醇血症 (Homozygous Familial Hypercholesterolemia)（證據等級 L3）。原適應症：高三酸甘油脂血症、高血脂症、家族性高血脂症、動脈硬化、動脈粥狀硬化等"
 monitor_inn: "LOVASTATIN"
-predicted_indications: ["homozygous familial hypercholesterolemia", "hyperlipoproteinemia", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "familial hypercholesterolemia", "cholesterol-ester transfer protein deficiency"]
+predicted_indications: ["homozygous familial hypercholesterolemia", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "cholesterol-ester transfer protein deficiency"]
 ---
 
 # Lovastatin

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Duloxetine：預測新適應症為嬰兒良性陣發性斜頸 (Benign paroxysmal torticollis of infancy)，排名第 1（證據等級 L5）。原適應症：單極性憂鬱症、重度憂鬱症、焦慮症、纖維肌痛、肌筋膜疼痛症候群、女性壓力性尿失禁"
 monitor_inn: "DULOXETINE"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "schizotypal personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "paranoid personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "schizotypal personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
 ---
 
 # Duloxetine

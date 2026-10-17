@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Phenylpropanolamine：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L4）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、結膜炎等"
 monitor_inn: "PHENYLPROPANOLAMINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "rosacea conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder"]
+predicted_indications: ["rosacea conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder"]
 ---
 
 # Phenylpropanolamine

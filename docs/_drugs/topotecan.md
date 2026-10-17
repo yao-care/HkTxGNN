@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Topotecan：預測新適應症為女性乳癌 (Female Breast Carcinoma)（證據等級 L3）。原適應症：卵巢癌（含卵巢腺癌、卵巢生殖細胞腫瘤等）"
 monitor_inn: "TOPOTECAN"
-predicted_indications: ["female breast carcinoma", "adult germ cell tumor", "testicular yolk sac tumor, solid pattern", "testicular yolk sac tumor, endodermal sinus pattern", "testicular yolk sac tumor, hepatoid pattern"]
+predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 ---
 
 # Topotecan

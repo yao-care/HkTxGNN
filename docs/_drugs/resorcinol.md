@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Resorcinol：預測新適應症為瘢痕疙瘩性痤瘡 (Acne Keloid)（證據等級 L5）。原適應症：痤瘡、皮膚炎、痤瘡樣皮膚炎"
 monitor_inn: "RESORCINOL"
-predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans"]
+predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 ---
 
 # Resorcinol

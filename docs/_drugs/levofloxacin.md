@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Levofloxacin：預測新適應症為點狀上皮角結膜炎 (Punctate Epithelial Keratoconjunctivitis)（證據等級 L4）。原適應症：細菌感染"
 monitor_inn: "LEVOFLOXACIN"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility"]
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility"]
 ---
 
 # Levofloxacin

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Felodipine：預測新適應症為肺高壓…（證據等級 L5）。原適應症：高血壓"
 monitor_inn: "FELODIPINE"
-predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant renovascular hypertension", "malignant hypertensive renal disease", "Braddock syndrome"]
+predicted_indications: ["malignant hypertensive renal disease"]
 ---
 
 # Felodipine

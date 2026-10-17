@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Rosuvastatin：預測新適應症為家族性高膽固醇血症 (Familial Hypercholesterolemia)（證據等級 L1）。原適應症：高三酸甘油脂血症、高脂蛋白血症、動脈粥樣硬化、腦梗塞、同型合子家族性高膽固醇血症等"
 monitor_inn: "ROSUVASTATIN"
-predicted_indications: ["cholesterol-ester transfer protein deficiency", "familial hypercholesterolemia", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "brain stem infarction", "HIV infectious disease"]
+predicted_indications: ["cholesterol-ester transfer protein deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "brain stem infarction", "HIV infectious disease"]
 ---
 
 # Rosuvastatin

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Telbivudine：預測新適應症為慢性 C 型肝炎 (Chronic Hepatitis C Virus Infection)（證據等級 L5）。原適應症：慢性 B 型肝炎"
 monitor_inn: "TELBIVUDINE"
-predicted_indications: ["chronic hepatitis C virus infection", "hepatitis B virus infection", "HIV infectious disease", "hepatitis C virus infection", "disorder of phenylalanine metabolism"]
+predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "disorder of phenylalanine metabolism"]
 ---
 
 # Telbivudine

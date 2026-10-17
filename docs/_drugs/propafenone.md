@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-10-14
 description: "Propafenone：預測新適應症為躁症（Manic bipolar affective disorder）（證據等級 L5）。原適應症：心房顫動、心室心搏過速"
 monitor_inn: "Propafenone"
-predicted_indications: ["manic bipolar affective disorder", "catecholaminergic polymorphic ventricular tachycardia", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "incessant infant ventricular tachycardia", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
+predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
 ---
 
 # Propafenone

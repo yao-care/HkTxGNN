@@ -7,8 +7,6 @@ evidence_level: L2
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Paclitaxel：預測新適應症為女性乳癌 (Female Breast Carcinoma)（證據等級 L2）。原適應症：卵巢癌"
-monitor_inn: "PACLITAXEL"
-predicted_indications: ["female breast carcinoma", "estrogen-receptor negative breast cancer", "hormone-resistant breast carcinoma", "Ehrlich tumor carcinoma", "estrogen-receptor positive breast cancer"]
 ---
 
 # Paclitaxel

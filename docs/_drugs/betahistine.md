@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Betahistine：預測新適應症為周邊性眩暈 (Peripheral Vertigo)（證據等級 L5）。原適應症：梅尼爾氏症（Meniere disease）、內淋巴水腫（endolymphatic hydrops）"
 monitor_inn: "Betahistine"
-predicted_indications: ["restless legs syndrome", "active cochlear Meniere disease", "active vestibular Meniere disease", "active cochleovestibular Meniere disease", "otosclerosis", "peripheral vertigo", "age-related hearing impairment", "vertigo, benign recurrent, 2", "autosomal recessive hyperinsulinism due to Kir6.2 deficiency", "hyperinsulinemic hypoglycemia, familial"]
+predicted_indications: ["restless legs syndrome", "otosclerosis", "age-related hearing impairment", "vertigo, benign recurrent, 2", "autosomal recessive hyperinsulinism due to Kir6.2 deficiency", "hyperinsulinemic hypoglycemia, familial"]
 ---
 
 # Betahistine

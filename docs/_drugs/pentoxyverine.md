@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Pentoxyverine：預測新適應症為急性喉咽炎 (Acute Laryngopharyngitis)（證據等級 L5）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、鼻炎、鼻咽炎"
-monitor_inn: "Pentoxyverine"
-predicted_indications: ["acute laryngopharyngitis", "nasal cavity disease"]
 ---
 
 # Pentoxyverine

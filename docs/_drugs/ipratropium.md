@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ipratropium：預測新適應症為阻塞性肺病 (Obstructive Lung Disease)（證據等級 L1）。原適應症：慢性阻塞性肺病、過敏性鼻炎、血管運動性鼻炎、支氣管炎、肺氣腫等"
 monitor_inn: "Ipratropium"
-predicted_indications: ["obstructive lung disease", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
+predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 ---
 
 # Ipratropium

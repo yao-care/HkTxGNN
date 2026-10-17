@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Bleomycin：預測新適應症為網狀細胞肉瘤 (Reticulum Cell Sarcoma)（證據等級 L1）。原適應症：何杰金氏淋巴瘤、非何杰金氏淋巴瘤、頭頸癌等"
 monitor_inn: "BLEOMYCIN"
-predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "reticulum cell sarcoma", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
+predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "reticulum cell sarcoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
 ---
 
 # Bleomycin
