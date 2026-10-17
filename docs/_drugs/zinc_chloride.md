@@ -27,7 +27,7 @@ description: "Zinc Chloride：預測新適應症為嚴重非增殖性糖尿病�
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

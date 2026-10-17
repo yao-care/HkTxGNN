@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-14
 description: "Cimetidine：預測新適應症為惰性全身性肥大細胞增生症 (Smouldering systemic mastocytosis)（證據等級 L5）。原適應症：胃潰瘍、胃食道逆流、十二指腸潰瘍、Zollinger-Ellison 症候群等"
 monitor_inn: "CIMETIDINE"
-predicted_indications: ["active peptic ulcer disease", "peptic ulcer perforation", "gastrojejunal ulcer", "duodenal obstruction", "acne (disease)", "abnormality of glucagon secretion"]
+predicted_indications: ["duodenal obstruction", "acne (disease)", "abnormality of glucagon secretion"]
 ---
 
 # Cimetidine
@@ -27,7 +27,7 @@ predicted_indications: ["active peptic ulcer disease", "peptic ulcer perforation
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

@@ -27,7 +27,7 @@ predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

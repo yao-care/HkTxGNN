@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Reserpine：預測新適應症為難治型思覺失調症 (treatment-refractory schizophrenia)（證據等級 L5）。原適應症：高血壓、精神病性疾患、思覺失調樣疾患、思覺失調情感性疾患"
-monitor_inn: "RESERPINE"
-predicted_indications: ["treatment-refractory schizophrenia"]
 ---
 
 # Reserpine
@@ -27,7 +25,7 @@ predicted_indications: ["treatment-refractory schizophrenia"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

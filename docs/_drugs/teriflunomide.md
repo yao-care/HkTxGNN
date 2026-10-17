@@ -25,7 +25,7 @@ description: "Teriflunomide：預測新適應症為復發緩解型多發性硬�
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

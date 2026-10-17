@@ -27,7 +27,7 @@ predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "p
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

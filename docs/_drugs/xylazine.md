@@ -27,7 +27,7 @@ predicted_indications: ["migraine disorder", "open-angle glaucoma", "migraine wi
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

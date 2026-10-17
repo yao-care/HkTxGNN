@@ -27,7 +27,7 @@ predicted_indications: ["anemia of prematurity", "injury", "cell proliferation d
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

@@ -27,7 +27,7 @@ predicted_indications: ["hereditary angioedema with C1Inh deficiency", "C1 inhib
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

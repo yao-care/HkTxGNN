@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Etofenamate：預測新適應症為脊椎關節病變易感性 (spondyloarthropathy, susceptibility to)（證據等級 L5）。原適應症：骨關節炎、關節病變"
 monitor_inn: "ETOFENAMATE"
-predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type"]
+predicted_indications: ["spondyloarthropathy, susceptibility to", "ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type"]
 ---
 
 # Etofenamate
@@ -27,7 +27,7 @@ predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hype
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

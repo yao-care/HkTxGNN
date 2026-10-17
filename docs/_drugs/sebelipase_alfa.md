@@ -27,7 +27,7 @@ predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone in
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Phenol：預測新適應症為慢性萎縮性肢端皮膚炎 (Acrodermatitis chronica atrophicans)（證據等級 L5）。原適應症：皮膚炎 (Dermatitis)"
 monitor_inn: "PHENOL"
-predicted_indications: ["secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid"]
+predicted_indications: ["acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid"]
 ---
 
 # Phenol
@@ -27,7 +27,7 @@ predicted_indications: ["secondary interstitial lung disease specific to childho
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Doxylamine：預測新適應症為過敏性蕁麻疹 (Allergic Urticaria)（證據等級 L5）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、蕁麻疹、血管性水腫等"
 monitor_inn: "Doxylamine"
-predicted_indications: ["nasal cavity disease"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 ---
 
 # Doxylamine
@@ -27,7 +27,7 @@ predicted_indications: ["nasal cavity disease"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

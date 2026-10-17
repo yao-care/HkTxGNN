@@ -27,7 +27,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "te
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

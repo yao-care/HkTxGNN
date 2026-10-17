@@ -27,7 +27,7 @@ predicted_indications: ["gastroesophageal reflux disease", "primary biliary chol
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

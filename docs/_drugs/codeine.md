@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Codeine：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L4）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、鼻炎、鼻咽炎、頭痛"
 monitor_inn: "CODEINE"
-predicted_indications: ["trigeminal autonomic cephalalgia", "allergic urticaria"]
+predicted_indications: ["acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria"]
 ---
 
 # Codeine
@@ -27,7 +27,7 @@ predicted_indications: ["trigeminal autonomic cephalalgia", "allergic urticaria"
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

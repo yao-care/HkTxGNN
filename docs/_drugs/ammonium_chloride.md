@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-14
 description: "Ammonium Chloride：預測新適應症為急性喉咽炎 (Acute Laryngopharyngitis)（證據等級 L5）。原適應症：咽炎、普通感冒、鼻咽炎"
 monitor_inn: "AMMONIUM CHLORIDE"
-predicted_indications: ["nasal cavity disease"]
+predicted_indications: ["acute laryngopharyngitis", "nasal cavity disease"]
 ---
 
 # Ammonium Chloride
@@ -27,7 +27,7 @@ predicted_indications: ["nasal cavity disease"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

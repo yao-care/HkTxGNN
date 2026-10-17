@@ -27,7 +27,7 @@ predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small l
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

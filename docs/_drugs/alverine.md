@@ -27,7 +27,7 @@ predicted_indications: ["dysthymic disorder", "neurotic disorder", "anxiety diso
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

@@ -27,7 +27,7 @@ predicted_indications: ["plasma cell myeloma", "bronchitis", "indolent plasma ce
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

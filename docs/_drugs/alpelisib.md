@@ -27,7 +27,7 @@ predicted_indications: ["pulmonary hypertension", "migraine with or without aura
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

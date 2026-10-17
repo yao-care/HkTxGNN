@@ -27,7 +27,7 @@ predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dom
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

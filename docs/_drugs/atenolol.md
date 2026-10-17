@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-14
 description: "Atenolol：預測新適應症為後下壁心肌梗塞 (Posteroinferior Myocardial Infarction)（證據等級 L4）。原適應症：高血壓、心肌梗塞"
 monitor_inn: "ATENOLOL"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "chronic pulmonary heart disease"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
 ---
 
 # Atenolol
@@ -27,7 +27,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

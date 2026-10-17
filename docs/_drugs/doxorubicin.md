@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Doxorubicin：預測新適應症為尤因氏肉瘤 (Ewing Sarcoma)（證據等級 L1）。原適應症：急性淋巴性白血病、何杰金氏淋巴瘤、非何杰金氏淋巴瘤、被套細胞淋巴瘤、蘭格漢斯細胞組織球增生症等"
 monitor_inn: "Doxorubicin"
-predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
+predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "ganglioneuroblastoma (disease)"]
 ---
 
 # Doxorubicin
@@ -27,7 +27,7 @@ predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcino
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

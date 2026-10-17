@@ -27,7 +27,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

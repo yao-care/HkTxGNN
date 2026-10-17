@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-10-14
 description: "Naftifine：預測新適應症為皮膚念珠菌病 (Cutaneous Candidiasis)（證據等級 L3）。原適應症：足癬、體癬、癬菌感染、鼠蹊及肛周皮膚癬菌病"
 monitor_inn: "Naftifine"
-predicted_indications: ["cutaneous candidiasis", "ectothrix infectious disease", "Majocchi granuloma", "pityriasis versicolor", "endothrix infectious disease", "dermatophytosis of scalp or beard", "superficial mycosis", "tinea profunda"]
+predicted_indications: ["ectothrix infectious disease", "Majocchi granuloma", "pityriasis versicolor", "endothrix infectious disease"]
 ---
 
 # Naftifine
@@ -27,7 +27,7 @@ predicted_indications: ["cutaneous candidiasis", "ectothrix infectious disease",
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Delamanid：預測新適應症為非活動性結核病 (Inactive Tuberculosis)（證據等級 L5）。原適應症：多重抗藥性結核病 (Multidrug-resistant tuberculosis)"
 monitor_inn: "Delamanid"
-predicted_indications: ["tuberculosis, bovine", "inactive tuberculosis", "tuberculous ascites", "tuberculosis, avian", "tuberculoma", "allergic urticaria", "cutaneous tuberculosis", "fascioliasis", "inhalational botulism", "urea cycle disorder"]
+predicted_indications: ["allergic urticaria", "fascioliasis", "inhalational botulism", "urea cycle disorder"]
 ---
 
 # Delamanid
@@ -27,7 +27,7 @@ predicted_indications: ["tuberculosis, bovine", "inactive tuberculosis", "tuberc
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

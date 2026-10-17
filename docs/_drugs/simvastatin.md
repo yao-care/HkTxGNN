@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Simvastatin：預測新適應症為家族性高膽固醇血症 (Familial Hypercholesterolemia)（證據等級 L1）。原適應症：高三酸甘油酯血症、中風相關疾病、腦梗塞、動脈粥狀硬化、高脂蛋白血症、同型合子家族性高膽固醇血症等"
 monitor_inn: "SIMVASTATIN"
-predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia, autosomal dominant", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency"]
+predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency"]
 ---
 
 # Simvastatin
@@ -27,7 +27,7 @@ predicted_indications: ["brain stem infarction", "cholesterol-ester transfer pro
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

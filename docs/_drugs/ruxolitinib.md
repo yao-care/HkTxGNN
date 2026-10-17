@@ -27,7 +27,7 @@ predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "b
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

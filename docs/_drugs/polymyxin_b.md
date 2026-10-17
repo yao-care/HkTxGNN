@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Polymyxin B：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L4）。原適應症：許可證資料未載明"
 monitor_inn: "POLYMYXIN B"
-predicted_indications: ["bronchitis", "laryngotracheitis", "conjunctivitis"]
+predicted_indications: ["bronchitis", "laryngotracheitis"]
 ---
 
 # Polymyxin B
@@ -27,7 +27,7 @@ predicted_indications: ["bronchitis", "laryngotracheitis", "conjunctivitis"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

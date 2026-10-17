@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-14
 description: "Homatropine Methylbromide：預測新適應症為胃十二指腸炎 (Gastroduodenitis)（證據等級 L5）。原適應症：消化性潰瘍、大腸急躁症、困難梭狀芽孢桿菌結腸炎、神經循環性衰弱"
 monitor_inn: "HOMATROPINE METHYLBROMIDE"
-predicted_indications: ["gastroduodenitis", "cauda equina syndrome"]
+predicted_indications: ["cauda equina syndrome"]
 ---
 
 # Homatropine Methylbromide
@@ -27,7 +27,7 @@ predicted_indications: ["gastroduodenitis", "cauda equina syndrome"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

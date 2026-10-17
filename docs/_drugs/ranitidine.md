@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Ranitidine：預測新適應症為活動性消化性潰瘍 (Active Peptic Ulcer Disease)（證據等級 L5）。原適應症：胃潰瘍、胃食道逆流、食道炎、消化不良、十二指腸潰瘍、Zollinger-Ellison 症候群等"
 monitor_inn: "RANITIDINE"
-predicted_indications: ["active peptic ulcer disease", "gastrojejunal ulcer", "peptic ulcer perforation", "duodenal obstruction"]
+predicted_indications: ["duodenal obstruction"]
 ---
 
 # Ranitidine
@@ -27,7 +27,7 @@ predicted_indications: ["active peptic ulcer disease", "gastrojejunal ulcer", "p
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

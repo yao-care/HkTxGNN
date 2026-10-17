@@ -25,7 +25,7 @@ description: "Sulfamethoxazole：預測新適應症為急性傳染性結膜炎 (
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

@@ -27,7 +27,7 @@ predicted_indications: ["Prinzmetal angina", "myocardial infarction", "brain sma
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

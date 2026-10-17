@@ -27,7 +27,7 @@ predicted_indications: ["rheumatoid arthritis", "hyperthyroidism", "multiple end
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

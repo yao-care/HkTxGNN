@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Carteolol：預測新適應症為原發性遺傳性青光眼 (Primary Hereditary Glaucoma)（證據等級 L5）。原適應症：高血壓、開角型青光眼、高眼壓"
-monitor_inn: "Carteolol"
-predicted_indications: ["primary hereditary glaucoma"]
 ---
 
 # Carteolol
@@ -27,7 +25,7 @@ predicted_indications: ["primary hereditary glaucoma"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

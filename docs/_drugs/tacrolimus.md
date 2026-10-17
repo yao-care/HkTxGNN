@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Tacrolimus：預測新適應症為脂漏性皮膚炎 (Seborrheic Dermatitis)（證據等級 L5）。原適應症：異位性皮膚炎（atopic eczema / atopic dermatitis）"
 monitor_inn: "TACROLIMUS"
-predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
+predicted_indications: ["parapsoriasis"]
 ---
 
 # Tacrolimus
@@ -27,7 +27,7 @@ predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

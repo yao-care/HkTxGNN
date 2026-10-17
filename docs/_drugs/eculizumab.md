@@ -27,7 +27,7 @@ predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe cong
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

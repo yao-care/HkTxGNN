@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dipyridamole：預測新適應症為Prinzmetal 心絞痛 (Prinzmetal angina)（證據等級 L4）。原適應症：心房顫動"
 monitor_inn: "DIPYRIDAMOLE"
-predicted_indications: ["Prinzmetal angina", "stroke disorder", "thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
+predicted_indications: ["stroke disorder", "thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
 ---
 
 # Dipyridamole
@@ -27,7 +27,7 @@ predicted_indications: ["Prinzmetal angina", "stroke disorder", "thrombotic dise
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

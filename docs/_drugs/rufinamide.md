@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Rufinamide：預測新適應症為熱病相關難治性癲癇症候群 (FIRES)（證據等級 L5）。原適應症：Lennox-Gastaut 症候群"
 monitor_inn: "RUFINAMIDE"
-predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "photosensitive occipital lobe epilepsy", "atypical childhood epilepsy with centrotemporal spikes", "cryptogenic late-onset epileptic spasms"]
+predicted_indications: ["perioral myoclonia with absences"]
 ---
 
 # Rufinamide
@@ -27,7 +27,7 @@ predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

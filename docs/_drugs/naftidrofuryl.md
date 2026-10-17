@@ -25,7 +25,7 @@ description: "Naftidrofuryl：預測新適應症為中風 (Stroke Disorder)（�
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

@@ -27,7 +27,7 @@ predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal u
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

@@ -27,7 +27,7 @@ predicted_indications: ["schizoid personality disorder", "schizotypal personalit
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

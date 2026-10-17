@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Topiramate：預測新適應症為三叉神經腫瘤 (Trigeminal Nerve Neoplasm)（證據等級 L5）。原適應症：癲癇（全身性強直陣攣發作、局部癲癇、Lennox-Gastaut 症候群等）"
 monitor_inn: "TOPIRAMATE"
-predicted_indications: ["trigeminal nerve neoplasm", "visual epilepsy", "micturation-induced seizures", "audiogenic seizures", "startle epilepsy"]
+predicted_indications: ["trigeminal nerve neoplasm"]
 ---
 
 # Topiramate
@@ -27,7 +27,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "visual epilepsy", "mictura
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

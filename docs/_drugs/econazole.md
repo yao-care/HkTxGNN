@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Econazole：預測新適應症為外陰陰道念珠菌症 (Vulvovaginal Candidiasis)，為證據最完整的候選（證據等級 L5）。原適應症：足癬、體癬、皮膚念珠菌症、花斑癬、鼠蹊與肛周皮癬菌病"
 monitor_inn: "Econazole"
-predicted_indications: ["Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease", "dermatophytosis of scalp or beard", "tinea profunda"]
+predicted_indications: ["Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease"]
 ---
 
 # Econazole
@@ -27,7 +27,7 @@ predicted_indications: ["Majocchi granuloma", "ectothrix infectious disease", "e
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

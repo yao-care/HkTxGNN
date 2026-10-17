@@ -27,7 +27,7 @@ predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocy
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Perampanel：預測新適應症為視覺性癲癇 (Visual Epilepsy)（證據等級 L4）。原適應症：局部癲癇 (partial epilepsy)、局部運動性癲癇 (partial motor epilepsy)"
-monitor_inn: "PERAMPANEL"
-predicted_indications: ["visual epilepsy", "audiogenic seizures", "thinking seizures", "eating seizures", "orgasm-induced seizures"]
 ---
 
 # Perampanel
@@ -27,7 +25,7 @@ predicted_indications: ["visual epilepsy", "audiogenic seizures", "thinking seiz
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

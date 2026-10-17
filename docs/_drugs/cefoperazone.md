@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cefoperazone：預測新適應症為肺炎 (Pneumonia)（證據等級 L1）。原適應症：資料中未提供許可證核准適應症文字"
 monitor_inn: "CEFOPERAZONE"
-predicted_indications: ["sclerosing cholangitis", "rheumatoid arthritis", "pneumonia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "gout", "bronchitis", "meningococcal infection", "infectious otitis media", "IgG4-related sclerosing cholangitis"]
+predicted_indications: ["sclerosing cholangitis", "rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "gout", "bronchitis", "meningococcal infection", "infectious otitis media", "IgG4-related sclerosing cholangitis"]
 ---
 
 # Cefoperazone
@@ -27,7 +27,7 @@ predicted_indications: ["sclerosing cholangitis", "rheumatoid arthritis", "pneum
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

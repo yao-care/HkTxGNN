@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-14
 description: "Acetylsalicylic Acid：預測新適應症為伴腦幹先兆的偏頭痛 (Migraine with brainstem aura)（證據等級 L3）。原適應症：類風濕性關節炎、偏頭痛、心肌梗塞、冠狀動脈血栓、頭痛、骨關節炎等"
 monitor_inn: "acetylsalicylic acid"
-predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
 ---
 
 # Acetylsalicylic Acid
@@ -27,7 +27,7 @@ predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculat
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

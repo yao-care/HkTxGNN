@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Avibactam：預測新適應症為鏈球菌肺炎 (Streptococcal pneumonia)（證據等級 L5）。原適應症：腎盂腎炎"
 monitor_inn: "Avibactam"
-predicted_indications: ["streptococcal pneumonia", "influenza, severe, susceptibility to", "ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "staphylococcus aureus infection", "renal tuberculosis", "squamous cell lung carcinoma", "congenital analbuminemia"]
+predicted_indications: ["influenza, severe, susceptibility to", "ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "staphylococcus aureus infection", "renal tuberculosis", "squamous cell lung carcinoma", "congenital analbuminemia"]
 ---
 
 # Avibactam
@@ -27,7 +27,7 @@ predicted_indications: ["streptococcal pneumonia", "influenza, severe, susceptib
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

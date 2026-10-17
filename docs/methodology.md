@@ -3,7 +3,7 @@ layout: default
 title: 方法論
 nav_order: 91
 permalink: /methodology/
-description: "HkTxGNN 的預測與證據驗證方法：TxGNN 知識圖譜預測、證據收集、L1-L5 證據分級與決策建議。"
+description: "HkTxGNN 的預測與證據驗證方法：TxGNN 深度學習預測、證據收集、L1-L5 證據分級與決策建議。"
 ---
 
 # 方法論

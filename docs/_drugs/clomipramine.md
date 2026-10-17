@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Clomipramine：預測新適應症為焦慮症 (Anxiety Disorder)（證據等級 L5）。原適應症：強迫症 (Obsessive-compulsive disorder)"
 monitor_inn: "Clomipramine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "agoraphobia", "major depressive disorder", "endogenous depression", "attention deficit-hyperactivity disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "agoraphobia", "attention deficit-hyperactivity disorder"]
 ---
 
 # Clomipramine
@@ -27,7 +27,7 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "paranoid pe
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

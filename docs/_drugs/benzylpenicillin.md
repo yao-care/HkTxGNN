@@ -27,7 +27,7 @@ predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "u
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

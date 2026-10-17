@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ketoconazole：預測新適應症為痤瘡 (Acne)（證據等級 L4）。原適應症：足癬、脂漏性皮膚炎、體癬、皮膚念珠菌症、花斑癬等"
-monitor_inn: "KETOCONAZOLE"
-predicted_indications: ["acne (disease)"]
 ---
 
 # Ketoconazole
@@ -27,7 +25,7 @@ predicted_indications: ["acne (disease)"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

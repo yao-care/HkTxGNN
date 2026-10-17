@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Nitrazepam：預測新適應症為睡眠起始與維持障礙 (sleep disorder, initiating and maintaining sleep)（證據等級 L4）。原適應症：失眠 (insomnia)、早期肌陣攣性腦病變"
 monitor_inn: "NITRAZEPAM"
-predicted_indications: ["sleep disorder, initiating and maintaining sleep", "acute encephalopathy with biphasic seizures and late reduced diffusion", "Wernicke-Korsakoff syndrome"]
+predicted_indications: ["sleep disorder, initiating and maintaining sleep", "Wernicke-Korsakoff syndrome"]
 ---
 
 # Nitrazepam
@@ -27,7 +27,7 @@ predicted_indications: ["sleep disorder, initiating and maintaining sleep", "acu
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

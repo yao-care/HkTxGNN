@@ -27,7 +27,7 @@ predicted_indications: ["esotropia", "pre-malignant neoplasm", "inner ear neopla
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

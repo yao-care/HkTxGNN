@@ -27,7 +27,7 @@ predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavi
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

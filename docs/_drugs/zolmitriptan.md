@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Zolmitriptan：預測新適應症為腦幹先兆偏頭痛 (Migraine with Brainstem Aura)（證據等級 L4）。原適應症：偏頭痛（Migraine disorder）"
 monitor_inn: "Zolmitriptan"
-predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 ---
 
 # Zolmitriptan
@@ -27,7 +27,7 @@ predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculat
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

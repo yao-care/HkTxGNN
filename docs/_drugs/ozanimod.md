@@ -25,7 +25,7 @@ description: "Ozanimod：預測新適應症為進行性復發型多發性硬化�
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

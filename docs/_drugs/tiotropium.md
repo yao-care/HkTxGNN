@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Tiotropium：預測新適應症為阻塞性肺病 (Obstructive Lung Disease)（證據等級 L1）。原適應症：支氣管炎、氣喘、肺氣腫"
 monitor_inn: "TIOTROPIUM"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "COPD, severe early onset"]
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 ---
 
 # Tiotropium
@@ -27,7 +27,7 @@ predicted_indications: ["obstructive lung disease", "respiratory malformation", 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

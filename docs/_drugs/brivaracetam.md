@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Brivaracetam：預測新適應症為視覺性癲癇 (Visual Epilepsy)（證據等級 L5）。原適應症：局部癲癇 (partial epilepsy)、局部運動性癲癇 (partial motor epilepsy)"
 monitor_inn: "BRIVARACETAM"
-predicted_indications: ["visual epilepsy", "status epilepticus", "audiogenic seizures", "startle epilepsy", "orgasm-induced seizures", "micturation-induced seizures", "eating seizures", "thinking seizures", "beta-ketothiolase deficiency", "adolescent/adult onset autosomal dominant epilepsy with auditory features"]
+predicted_indications: ["beta-ketothiolase deficiency"]
 ---
 
 # Brivaracetam
@@ -27,7 +27,7 @@ predicted_indications: ["visual epilepsy", "status epilepticus", "audiogenic sei
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

@@ -27,7 +27,7 @@ predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep di
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

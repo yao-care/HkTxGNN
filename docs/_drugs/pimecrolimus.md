@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Pimecrolimus：預測新適應症為脂漏性皮膚炎 (Seborrheic Dermatitis)（證據等級 L2）。原適應症：異位性皮膚炎"
 monitor_inn: "PIMECROLIMUS"
-predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
+predicted_indications: ["exanthem (disease)", "acrodermatitis chronica atrophicans"]
 ---
 
 # Pimecrolimus
@@ -27,7 +27,7 @@ predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acroderm
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

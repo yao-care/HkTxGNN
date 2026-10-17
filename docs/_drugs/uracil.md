@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Uracil：預測新適應症為大腸腫瘤 (Colonic Neoplasm)（證據等級 L3）。原適應症：許可證資料未載明核准適應症"
 monitor_inn: "Uracil"
-predicted_indications: ["colonic neoplasm", "gastric carcinoma", "rectosigmoid junction neoplasm", "lipoma of colon", "colonic lymphangioma", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "cavernous hemangioma of colon", "cecal disease", "colon leiomyoma"]
+predicted_indications: ["colonic neoplasm", "rectosigmoid junction neoplasm", "lipoma of colon", "colonic lymphangioma", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "cavernous hemangioma of colon", "cecal disease", "colon leiomyoma"]
 ---
 
 # Uracil
@@ -27,7 +27,7 @@ predicted_indications: ["colonic neoplasm", "gastric carcinoma", "rectosigmoid j
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

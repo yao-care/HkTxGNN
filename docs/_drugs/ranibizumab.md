@@ -27,7 +27,7 @@ predicted_indications: ["diabetes mellitus type 2 associated cataract", "immatur
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Carbinoxamine：預測新適應症為過敏性蕁麻疹 (Allergic Urticaria)（證據等級 L4）。原適應症：過敏性鼻炎、血管運動性鼻炎、感冒、過敏性結膜炎、蕁麻疹、血管性水腫等"
 monitor_inn: "Carbinoxamine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
+predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 ---
 
 # Carbinoxamine
@@ -27,7 +27,7 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "rec
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

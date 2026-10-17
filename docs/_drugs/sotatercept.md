@@ -27,7 +27,7 @@ predicted_indications: ["acute lymphoblastic leukemia (disease)", "severe nonpro
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

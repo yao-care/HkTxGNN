@@ -27,7 +27,7 @@ predicted_indications: ["thrombocytopenia due to immune destruction", "dermatiti
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

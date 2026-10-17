@@ -27,7 +27,7 @@ predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "blu
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

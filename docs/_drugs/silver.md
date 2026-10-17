@@ -27,7 +27,7 @@ predicted_indications: ["bone Paget disease", "amenorrhea (disease)", "non-syndr
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

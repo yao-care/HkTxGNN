@@ -7,8 +7,6 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Capecitabine：預測新適應症為印戒細胞胃腺癌 (Signet Ring Cell Gastric Adenocarcinoma)（證據等級 L3）。原適應症：結腸惡性腫瘤轉移、胃癌（胃腺癌、瀰漫型胃腺癌、皮革胃等）"
-monitor_inn: "CAPECITABINE"
-predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach", "signet ring cell gastric adenocarcinoma", "gastric tubular adenocarcinoma", "gastric cardia adenocarcinoma"]
 ---
 
 # Capecitabine
@@ -27,7 +25,7 @@ predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the st
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

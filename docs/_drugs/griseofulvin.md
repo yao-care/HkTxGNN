@@ -27,7 +27,7 @@ predicted_indications: ["myiasis", "furuncular myiasis", "wound myiasis", "creep
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

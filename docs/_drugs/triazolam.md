@@ -27,7 +27,7 @@ predicted_indications: ["sleep disorder, initiating and maintaining sleep"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

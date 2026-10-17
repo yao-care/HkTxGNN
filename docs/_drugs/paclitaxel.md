@@ -25,7 +25,7 @@ description: "Paclitaxel：預測新適應症為女性乳癌 (Female Breast Carc
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

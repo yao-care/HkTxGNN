@@ -27,7 +27,7 @@ predicted_indications: ["Laubry-Pezzi syndrome", "Pierre Robin syndrome associat
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

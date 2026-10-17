@@ -25,7 +25,7 @@ description: "Brompheniramine：預測新適應症為過敏性蕁麻疹 (Allergi
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

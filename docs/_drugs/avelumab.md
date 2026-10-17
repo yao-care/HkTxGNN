@@ -27,7 +27,7 @@ predicted_indications: ["human herpesvirus 8-related tumor", "middle ear neuroen
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

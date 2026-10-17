@@ -27,7 +27,7 @@ predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

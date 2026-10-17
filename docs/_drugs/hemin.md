@@ -27,7 +27,7 @@ predicted_indications: ["thrombocytopenic purpura", "hemophilia", "C1 inhibitor 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

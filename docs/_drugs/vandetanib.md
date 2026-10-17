@@ -27,7 +27,7 @@ predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

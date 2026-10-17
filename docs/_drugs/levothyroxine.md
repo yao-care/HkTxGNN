@@ -27,7 +27,7 @@ predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

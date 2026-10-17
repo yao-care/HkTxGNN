@@ -27,7 +27,7 @@ predicted_indications: ["irritable bowel syndrome", "acne (disease)", "gastropar
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

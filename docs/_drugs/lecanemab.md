@@ -27,7 +27,7 @@ predicted_indications: ["diabetic cataract", "mature cataract", "tetanic catarac
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

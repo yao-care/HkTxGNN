@@ -27,7 +27,7 @@ predicted_indications: ["Congenital adrenal insuffiency with 46, XY sex reversal
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

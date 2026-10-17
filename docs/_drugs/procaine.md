@@ -27,7 +27,7 @@ predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "T
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

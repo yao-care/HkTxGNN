@@ -27,7 +27,7 @@ predicted_indications: ["homozygous familial hypercholesterolemia", "brain small
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

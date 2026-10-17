@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dupilumab：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L3）。原適應症：異位性皮膚炎（Atopic Dermatitis）。香港許可證資料未載明適應症文字，此處依知識圖譜的適應症資料"
 monitor_inn: "DUPILUMAB"
-predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
+predicted_indications: ["bronchitis", "acne keloid", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
 ---
 
 # Dupilumab
@@ -27,7 +27,7 @@ predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neon
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

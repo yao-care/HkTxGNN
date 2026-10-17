@@ -27,7 +27,7 @@ predicted_indications: ["bronchitis", "thrombotic disease", "heparin cofactor 2 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

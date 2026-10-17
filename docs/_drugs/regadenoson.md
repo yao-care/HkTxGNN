@@ -27,7 +27,7 @@ predicted_indications: ["anaphylaxis", "food-dependent exercise-induced anaphyla
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

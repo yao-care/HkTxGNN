@@ -27,7 +27,7 @@ description: "Isosorbide Mononitrate：預測新適應症為多毛症 (Hypertric
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

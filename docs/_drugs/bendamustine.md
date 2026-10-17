@@ -27,7 +27,7 @@ predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, B
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

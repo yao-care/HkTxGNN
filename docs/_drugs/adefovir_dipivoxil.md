@@ -27,7 +27,7 @@ predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious d
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

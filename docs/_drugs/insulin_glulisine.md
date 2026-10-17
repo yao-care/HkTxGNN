@@ -27,7 +27,7 @@ predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysp
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

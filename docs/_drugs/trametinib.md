@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Trametinib：預測新適應症為非皮膚性黑色素瘤 (Non-cutaneous Melanoma)（證據等級 L5）。原適應症：轉移性黑色素瘤"
 monitor_inn: "TRAMETINIB"
-predicted_indications: ["choroideremia", "non-cutaneous melanoma", "epithelioid cell melanoma", "eyelid melanoma", "scrotum melanoma"]
+predicted_indications: ["choroideremia"]
 ---
 
 # Trametinib
@@ -27,7 +27,7 @@ predicted_indications: ["choroideremia", "non-cutaneous melanoma", "epithelioid 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

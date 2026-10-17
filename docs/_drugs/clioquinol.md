@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Clioquinol：預測新適應症為皮膚念珠菌症 (Cutaneous Candidiasis)（證據等級 L4）。原適應症：足癬、體癬、癬菌感染、鼠蹊與肛周皮癬菌病"
 monitor_inn: "CLIOQUINOL"
-predicted_indications: ["cutaneous candidiasis", "Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease", "superficial mycosis", "dermatophytosis of scalp or beard", "tinea profunda"]
+predicted_indications: ["Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease"]
 ---
 
 # Clioquinol
@@ -27,7 +27,7 @@ predicted_indications: ["cutaneous candidiasis", "Majocchi granuloma", "ectothri
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

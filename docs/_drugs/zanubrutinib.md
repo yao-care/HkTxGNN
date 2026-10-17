@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Zanubrutinib：預測新適應症為骨髓性白血病 (Myeloid Leukemia)（證據等級 L4）。原適應症：被套細胞淋巴瘤、B 細胞腫瘤、淋巴肉瘤"
 monitor_inn: "ZANUBRUTINIB"
-predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma"]
+predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma"]
 ---
 
 # Zanubrutinib
@@ -27,7 +27,7 @@ predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable en
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Latanoprost：預測新適應症為原發性遺傳性青光眼 (Primary Hereditary Glaucoma)（證據等級 L5）。原適應症：開放性青光眼、高眼壓症"
 monitor_inn: "LATANOPROST"
-predicted_indications: ["primary hereditary glaucoma", "visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome"]
+predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome"]
 ---
 
 # Latanoprost
@@ -27,7 +27,7 @@ predicted_indications: ["primary hereditary glaucoma", "visceral calciphylaxis",
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

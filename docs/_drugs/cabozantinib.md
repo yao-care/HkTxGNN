@@ -27,7 +27,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophi
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Desloratadine：預測新適應症為寒冷性蕁麻疹 (Cold Urticaria)（證據等級 L5）。原適應症：過敏性鼻炎、血管運動性鼻炎、特發性蕁麻疹、過敏性蕁麻疹等"
 monitor_inn: "DESLORATADINE"
-predicted_indications: ["cold urticaria", "nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 ---
 
 # Desloratadine
@@ -27,7 +27,7 @@ predicted_indications: ["cold urticaria", "nasal cavity disease", "recalcitrant 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

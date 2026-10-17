@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Pseudoephedrine：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L4）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、鼻咽炎等"
 monitor_inn: "Pseudoephedrine"
-predicted_indications: ["allergic urticaria"]
+predicted_indications: ["acute laryngopharyngitis", "allergic urticaria"]
 ---
 
 # Pseudoephedrine
@@ -27,7 +27,7 @@ predicted_indications: ["allergic urticaria"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

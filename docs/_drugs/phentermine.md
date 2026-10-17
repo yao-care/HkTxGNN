@@ -27,7 +27,7 @@ predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion synd
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

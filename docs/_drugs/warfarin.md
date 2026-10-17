@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Warfarin：預測新適應症為肝素輔因子 II 缺乏症 (Heparin Cofactor 2 Deficiency)（證據等級 L4）。原適應症：肺栓塞、血栓性疾病、顱內栓塞"
 monitor_inn: "Warfarin"
-predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
+predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
 ---
 
 # Warfarin
@@ -27,7 +27,7 @@ predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with s
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

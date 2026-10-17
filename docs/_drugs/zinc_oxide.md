@@ -27,7 +27,7 @@ predicted_indications: ["anorectal stricture", "anal polyp", "papillary conjunct
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

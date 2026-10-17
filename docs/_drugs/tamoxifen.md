@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tamoxifen：預測新適應症為乳腺原位癌 (Breast Carcinoma in situ)（證據等級 L1）。原適應症：女性乳癌、浸潤性乳管癌、乳管腺癌"
 monitor_inn: "Tamoxifen"
-predicted_indications: ["mammary Paget disease", "intraductal cribriform breast adenocarcinoma", "breast carcinoma in situ", "sebaceous breast carcinoma", "hormone-resistant breast carcinoma", "Ehrlich tumor carcinoma", "estrogen-receptor positive breast cancer", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 ---
 
 # Tamoxifen
@@ -27,7 +27,7 @@ predicted_indications: ["mammary Paget disease", "intraductal cribriform breast 
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

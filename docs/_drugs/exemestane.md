@@ -27,7 +27,7 @@ description: "Exemestane：預測新適應症為第 2 型抗凝血酶缺乏症 (
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

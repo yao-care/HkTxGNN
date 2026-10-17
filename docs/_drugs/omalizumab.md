@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Omalizumab：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L5）。原適應症：氣喘、內因性氣喘、過敏性氣喘、特發性蕁麻疹"
 monitor_inn: "OMALIZUMAB"
-predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)"]
+predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "bronchial neoplasm (disease)"]
 ---
 
 # Omalizumab
@@ -27,7 +27,7 @@ predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

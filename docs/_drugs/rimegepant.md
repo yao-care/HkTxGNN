@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Rimegepant：預測新適應症為伴腦幹先兆的偏頭痛 (Migraine with Brainstem Aura)（證據等級 L4）。原適應症：偏頭痛 (Migraine Disorder)"
 monitor_inn: "RIMEGEPANT"
-predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2"]
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2"]
 ---
 
 # Rimegepant
@@ -27,7 +27,7 @@ predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculat
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

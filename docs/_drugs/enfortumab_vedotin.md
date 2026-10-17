@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Enfortumab Vedotin：預測新適應症為痲瘋病 (Leprosy)（證據等級 L5）。原適應症：香港許可證資料未載明"
 monitor_inn: "Enfortumab vedotin"
-predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "infectious bovine rhinotracheitis", "malignant catarrh", "HER2 positive breast carcinoma"]
+predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "infectious bovine rhinotracheitis", "malignant catarrh"]
 ---
 
 # Enfortumab Vedotin
@@ -27,7 +27,7 @@ predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovi
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

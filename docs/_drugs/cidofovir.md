@@ -27,7 +27,7 @@ description: "Cidofovir：預測新適應症為硬化性膽管炎 (Sclerosing Ch
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

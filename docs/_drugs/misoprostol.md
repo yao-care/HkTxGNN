@@ -27,7 +27,7 @@ predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

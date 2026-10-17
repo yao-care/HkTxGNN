@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Loteprednol Etabonate：預測新適應症為慢性濾泡性結膜炎 (Chronic Follicular Conjunctivitis)（證據等級 L5）。原適應症：葡萄膜炎、虹膜疾病、睫狀體疾病、全葡萄膜炎、異位性結膜炎、乳突性結膜炎、春季結膜炎、虹膜炎、虹膜睫狀體炎等"
-monitor_inn: "LOTEPREDNOL ETABONATE"
-predicted_indications: ["chronic follicular conjunctivitis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "conjunctival folliculosis", "pseudomembranous conjunctivitis"]
 ---
 
 # Loteprednol Etabonate
@@ -27,7 +25,7 @@ predicted_indications: ["chronic follicular conjunctivitis", "serous conjunctivi
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

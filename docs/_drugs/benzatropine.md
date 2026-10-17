@@ -27,7 +27,7 @@ predicted_indications: ["PLA2G6-associated neurodegeneration", "attention defici
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

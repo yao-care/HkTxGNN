@@ -27,7 +27,7 @@ predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanc
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

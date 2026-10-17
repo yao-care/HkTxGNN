@@ -27,7 +27,7 @@ predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay sy
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

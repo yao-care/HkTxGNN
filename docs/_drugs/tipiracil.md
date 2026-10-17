@@ -27,7 +27,7 @@ predicted_indications: ["cecum villous adenoma", "lipoma of colon", "rectosigmoi
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

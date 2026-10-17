@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Carbamazepine：預測新適應症為三叉神經腫瘤 (trigeminal nerve neoplasm)（證據等級 L4）。原適應症：癲癇、躁鬱症、三叉神經痛、舌咽神經痛等"
 monitor_inn: "CARBAMAZEPINE"
-predicted_indications: ["trigeminal nerve neoplasm", "audiogenic seizures", "orgasm-induced seizures", "eating seizures", "thinking seizures", "micturation-induced seizures", "reading seizures", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
+predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
 ---
 
 # Carbamazepine
@@ -27,7 +27,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "audiogenic seizures", "org
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

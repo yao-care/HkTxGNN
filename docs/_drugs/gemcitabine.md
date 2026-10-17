@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Gemcitabine：預測新適應症為女性乳癌 (Female Breast Carcinoma)（證據等級 L1）。原適應症：卵巢癌（含卵巢腺癌、卵巢透明細胞腺癌、卵巢生殖細胞腫瘤等）"
 monitor_inn: "GEMCITABINE"
-predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma"]
+predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma"]
 ---
 
 # Gemcitabine
@@ -27,7 +27,7 @@ predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcino
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Phenobarbital：預測新適應症為三叉神經腫瘤 (Trigeminal Nerve Neoplasm)（證據等級 L5）。原適應症：癲癇、局部性癲癇、偏頭痛、Lennox-Gastaut 症候群等"
 monitor_inn: "PHENOBARBITAL"
-predicted_indications: ["trigeminal nerve neoplasm", "eating seizures", "audiogenic seizures", "orgasm-induced seizures", "thinking seizures"]
+predicted_indications: ["trigeminal nerve neoplasm"]
 ---
 
 # Phenobarbital
@@ -27,7 +27,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "eating seizures", "audioge
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## 藥師評估報告
 
