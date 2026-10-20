@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Olanzapine：預測新適應症為泛懼症 (Agoraphobia)（證據等級 L3）。原適應症：雙相情緒障礙、躁症、憂鬱症、焦慮症、精神分裂症"
 monitor_inn: "OLANZAPINE"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder"]
 ---
 
 # Olanzapine

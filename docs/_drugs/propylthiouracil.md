@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Propylthiouracil：預測新適應症為甲狀腺素受體 β 突變引起的甲狀腺素抗性症候群 (Resistance to thyroid hormone due to a mutat…（證據等級 L4）。原適應症：甲狀腺機能亢進、Graves 病、甲狀腺毒症、甲狀腺危象"
 monitor_inn: "PROPYLTHIOURACIL"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "hyperthyroxinemia"]
 ---
 
 # Propylthiouracil

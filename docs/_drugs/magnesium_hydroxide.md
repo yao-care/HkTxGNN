@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Magnesium Hydroxide：預測新適應症為活動性消化性潰瘍 (Active Peptic Ulcer Disease)（證據等級 L3）。原適應症：消化性潰瘍、胃食道逆流、食道炎、便秘、消化不良"
+monitor_inn: "MAGNESIUM HYDROXIDE"
+predicted_indications: ["gastroduodenitis"]
 ---
 
 # Magnesium Hydroxide

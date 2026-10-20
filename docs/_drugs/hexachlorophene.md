@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Hexachlorophene：預測新適應症為皮膚疾病 (Skin Disease)（證據等級 L4）。原適應症：香港許可證未載明"
 monitor_inn: "HEXACHLOROPHENE"
-predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "reticulate pigment disorder"]
+predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "skin disease", "seborrheic dermatitis", "reticulate pigment disorder"]
 ---
 
 # Hexachlorophene

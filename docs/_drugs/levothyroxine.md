@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Levothyroxine：預測新適應症為地方性甲狀腺腫 (Endemic Goiter)（證據等級 L3）。原適應症：甲狀腺功能低下、黏液水腫、先天性甲狀腺功能低下、橋本氏甲狀腺炎、甲狀腺癌等"
 monitor_inn: "Levothyroxine"
-predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
+predicted_indications: ["endemic goiter", "renal hypodysplasia/aplasia", "nodular goiter (disease)", "bilateral renal agenesis", "lingual goiter", "nontoxic goiter", "substernal goiter", "dyshormonogenic goiter", "Potter sequence", "Carney complex"]
 ---
 
 # Levothyroxine

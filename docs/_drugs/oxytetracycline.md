@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Oxytetracycline：預測新適應症為慢性鼻竇炎 (Chronic Rhinosinusitis)（證據等級 L5）。原適應症：泌尿道感染、支氣管炎、肺炎、咽炎、結膜炎等"
 monitor_inn: "OXYTETRACYCLINE"
-predicted_indications: ["paranasal sinus neoplasm (disease)", "postinfectious vasculitis"]
+predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis"]
 ---
 
 # Oxytetracycline

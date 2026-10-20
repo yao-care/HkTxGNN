@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Nystatin：預測新適應症為外陰陰道炎 (Vulvovaginitis)（證據等級 L5）。原適應症：皮膚念珠菌感染、口腔念珠菌感染、念珠菌感染、外陰陰道念珠菌感染"
 monitor_inn: "NYSTATIN"
-predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst"]
+predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst"]
 ---
 
 # Nystatin

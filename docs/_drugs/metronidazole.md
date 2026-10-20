@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Metronidazole：預測新適應症為肺囊蟲症 (Pneumocystosis)（證據等級 L5）。原適應症：腹膜炎、心內膜炎、厭氧菌感染、賈第鞭毛蟲症、細菌性陰道病、顱內膿瘍等"
 monitor_inn: "Metronidazole"
-predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
+predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 ---
 
 # Metronidazole

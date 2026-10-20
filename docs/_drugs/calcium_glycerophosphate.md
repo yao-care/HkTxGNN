@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Calcium Glycerophosphate：預測新適應症為鈣鹼症候群 (Calcium-alkali syndrome)（證據等級 L5）。原適應症：香港許可證未載明核准適應症"
 monitor_inn: "CALCIUM GLYCEROPHOSPHATE"
-predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization", "potassium deficiency disease"]
+predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization", "potassium deficiency disease", "hypophosphatemia (disease)"]
 ---
 
 # Calcium Glycerophosphate

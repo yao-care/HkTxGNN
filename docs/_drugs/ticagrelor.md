@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Ticagrelor：預測新適應症為顱內動脈硬化 (Intracranial Arteriosclerosis)（證據等級 L5）。原適應症：急性冠心症、周邊血管疾病、間歇性跛行、周邊動脈疾病"
 monitor_inn: "TICAGRELOR"
-predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "ischemic disease"]
+predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome"]
 ---
 
 # Ticagrelor

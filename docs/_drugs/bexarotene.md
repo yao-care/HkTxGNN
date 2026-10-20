@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Bexarotene：預測新適應症為原發性皮膚 B 細胞淋巴瘤 (Primary Cutaneous B-cell Lymphoma)（證據等級 L5）。原適應症：原發性皮膚 T 細胞淋巴瘤"
 monitor_inn: "BEXAROTENE"
-predicted_indications: ["primary cutaneous B-cell lymphoma", "lymphosarcoma"]
+predicted_indications: ["primary cutaneous B-cell lymphoma", "Sezary syndrome", "lymphosarcoma"]
 ---
 
 # Bexarotene

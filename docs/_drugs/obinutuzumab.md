@@ -7,8 +7,6 @@ evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Obinutuzumab：預測新適應症為濾泡性淋巴瘤 (Follicular Lymphoma)（證據等級 L1）。原適應症：急性淋巴性白血病、Richter 症候群"
-monitor_inn: "OBINUTUZUMAB"
-predicted_indications: ["follicular lymphoma"]
 ---
 
 # Obinutuzumab

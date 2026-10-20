@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Carbimazole：預測新適應症為新生兒甲狀腺毒症 (Neonatal Thyrotoxicosis)（證據等級 L5）。原適應症：甲狀腺機能亢進、葛瑞夫茲氏症、甲狀腺毒症"
 monitor_inn: "CARBIMAZOLE"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "hyperthyroxinemia"]
 ---
 
 # Carbimazole

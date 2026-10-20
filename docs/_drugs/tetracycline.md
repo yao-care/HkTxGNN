@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Tetracycline：預測新適應症為點狀上皮角結膜炎 (Punctate Epithelial Keratoconjunctivitis)（證據等級 L4）。原適應症：泌尿道感染、支氣管炎、痤瘡、肺炎、結膜炎等"
 monitor_inn: "TETRACYCLINE"
-predicted_indications: ["paranasal sinus neoplasm (disease)"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
 ---
 
 # Tetracycline

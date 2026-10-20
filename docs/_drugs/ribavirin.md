@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Ribavirin：預測新適應症為慢性 B 型肝炎病毒感染 (chronic hepatitis B virus infection)（證據等級 L5）。原適應症：慢性 C 型肝炎、C 型肝炎病毒感染、呼吸道融合病毒感染"
 monitor_inn: "RIBAVIRIN"
-predicted_indications: ["primitive portal vein thrombosis", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis"]
+predicted_indications: ["chronic hepatitis B virus infection", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis"]
 ---
 
 # Ribavirin

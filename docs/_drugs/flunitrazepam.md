@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Flunitrazepam：預測新適應症為失眠 (Insomnia)（證據等級 L3）。原適應症：資料未提供"
 monitor_inn: "FLUNITRAZEPAM"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "anxiety"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "anxiety", "anxiety disorder"]
 ---
 
 # Flunitrazepam
