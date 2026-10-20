@@ -6,8 +6,6 @@ nav_order: 385
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-monitor_inn: "FLUNARIZINE"
-predicted_indications: ["migraine disorder"]
 description: "Flunarizine：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）."
 ---
 
