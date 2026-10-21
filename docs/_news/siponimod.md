@@ -3,7 +3,7 @@ layout: default
 title: "Siponimod 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Siponimod 的相關健康新聞報導。原適應症：。預測適應症 5 個。"
+description: "Siponimod 的相關健康新聞報導。原適應症：。預測適應症 6 個。"
 permalink: /news/siponimod/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/siponimod/
 ---
 
 <p class="key-answer" data-question="Siponimod 有什麼相關新聞？">
-<strong>Siponimod</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 5 個。
+<strong>Siponimod</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 6 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,13 @@ permalink: /news/siponimod/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>: L5</li>
-<li><strong>預測適應症（5 個）</strong>:<ul>
-<li>偏頭痛 (Migraine disorder) | 99.66% | L4 | 僅有 1 篇間接個案報告，另 1 篇為泛論性神經科回顧 (99.0%)</li>
-<li>腦幹型先兆偏頭痛 | 99.56% | L4 | 僅有間接文獻 (99.0%)</li>
-<li>偏頭痛易感性 | 99.49% | L4 | 為遺傳易感性分類詞，非可治療的臨床實體 (99.0%)</li>
-<li>類風濕性關節炎 | 99.16% | L4 | 有 S1P 訊號在免疫疾病的回顧，機轉合理但無 RA 專屬資料；建議列為研究問題 (99.0%)</li>
-<li>骨髓增生異常症候群 | 98.79% | L5 | 淋巴球下降效應可能加重血球低下與感染風險 (99.0%)</li>
+<li><strong>預測適應症（6 個）</strong>:<ul>
+<li>肺動脈高壓 (Pulmonary Hypertension) (99.7%)</li>
+<li>偏頭痛 (Migraine disorder) (99.7%)</li>
+<li>腦幹型先兆偏頭痛 (99.6%)</li>
+<li>偏頭痛易感性 (99.5%)</li>
+<li>類風濕性關節炎 (99.2%)</li>
+<li>骨髓增生異常症候群 (98.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/siponimod/' | relative_url }}">查看完整藥物報告 →</a></p>

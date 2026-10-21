@@ -3,7 +3,7 @@ layout: default
 title: "Icodextrin 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Icodextrin 的相關健康新聞報導。原適應症：。預測適應症 9 個。"
+description: "Icodextrin 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
 permalink: /news/icodextrin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/icodextrin/
 ---
 
 <p class="key-answer" data-question="Icodextrin 有什麼相關新聞？">
-<strong>Icodextrin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 9 個。
+<strong>Icodextrin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ permalink: /news/icodextrin/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>: L5</li>
-<li><strong>預測適應症（9 個）</strong>:<ul>
-<li>非症候群性食道畸形 | 97.41% | 先天結構異常，滲透性透析劑不預期有效 (99.0%)</li>
-<li>C1 酯酶抑制劑缺乏症 | 97.29% | 涉及補體／緩激肽路徑，與 Icodextrin 無關 (99.0%)</li>
-<li>缺鉀症 | 97.19% | Icodextrin 非鉀調節藥物 (99.0%)</li>
-<li>絲胺酸蛋白酶抑制劑病（毒性聚合） | 97.06% | 無蛋白摺疊相關作用 (99.0%)</li>
-<li>遺傳性血管性水腫（C1Inh 缺乏） | 96.81% | 分數可能反映與第 3 項的圖譜重疊 (99.0%)</li>
-<li>食道疾病 | 96.77% | 類別過於廣泛，無合理標的 (99.0%)</li>
-<li>家族性內臟肌病 | 96.34% | 無已知對內臟平滑肌的作用 (99.0%)</li>
-<li>腎小管酸中毒 | 95.81% | 代謝物累積反而可能影響酸鹼平衡，關聯偏向不良反應 (99.0%)</li>
-<li>維生素缺乏症 | 95.78% | Icodextrin 不補充或調節維生素 (99.0%)</li>
+<li><strong>預測適應症（10 個）</strong>:<ul>
+<li>腸躁症 (Irritable Bowel Syndrome) (98.5%)</li>
+<li>非症候群性食道畸形 (97.4%)</li>
+<li>C1 酯酶抑制劑缺乏症 (97.3%)</li>
+<li>缺鉀症 (97.2%)</li>
+<li>絲胺酸蛋白酶抑制劑病（毒性聚合） (97.1%)</li>
+<li>遺傳性血管性水腫（C1Inh 缺乏） (96.8%)</li>
+<li>食道疾病 (96.8%)</li>
+<li>家族性內臟肌病 (96.3%)</li>
+<li>腎小管酸中毒 (95.8%)</li>
+<li>維生素缺乏症 (95.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/icodextrin/' | relative_url }}">查看完整藥物報告 →</a></p>

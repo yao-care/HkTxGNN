@@ -3,7 +3,7 @@ layout: default
 title: "Iohexol 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Iohexol 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Iohexol 的相關健康新聞報導。原適應症：。預測適應症 1 個。"
 permalink: /news/iohexol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/iohexol/
 ---
 
 <p class="key-answer" data-question="Iohexol 有什麼相關新聞？">
-<strong>Iohexol</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Iohexol</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 1 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ permalink: /news/iohexol/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>: L5</li>
-<li><strong>預測適應症（10 個）</strong>:<ul>
-<li>insomnia (disease) (99.9%)</li>
-<li>anxiety (99.2%)</li>
-<li>rheumatoid arthritis (98.9%)</li>
-<li>antithrombin deficiency type 2 (98.8%)</li>
-<li>factor 5 excess with spontaneous thrombosis (98.7%)</li>
-<li>sleep disorder, initiating and maintaining sleep (98.6%)</li>
-<li>heparin cofactor 2 deficiency (98.6%)</li>
-<li>fibromyalgia (98.5%)</li>
-<li>conjunctivitis (98.5%)</li>
-<li>tendinitis (98.4%)</li>
+<li><strong>預測適應症（1 個）</strong>:<ul>
+<li>失眠 (Insomnia) (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/iohexol/' | relative_url }}">查看完整藥物報告 →</a></p>

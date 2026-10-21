@@ -3,7 +3,7 @@ layout: default
 title: "Pemigatinib 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Pemigatinib 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Pemigatinib 的相關健康新聞報導。原適應症：。預測適應症 1 個。"
 permalink: /news/pemigatinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/pemigatinib/
 ---
 
 <p class="key-answer" data-question="Pemigatinib 有什麼相關新聞？">
-<strong>Pemigatinib</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Pemigatinib</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 1 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ permalink: /news/pemigatinib/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>: L5</li>
-<li><strong>預測適應症（10 個）</strong>:<ul>
-<li>multiple endocrine neoplasia (99.7%)</li>
-<li>amenorrhea (disease) (99.5%)</li>
-<li>HER2 positive breast carcinoma (99.5%)</li>
-<li>cytomegalovirus infection (99.5%)</li>
-<li>infectious bovine rhinotracheitis (99.4%)</li>
-<li>malignant catarrh (99.4%)</li>
-<li>amyotrophic lateral sclerosis (99.4%)</li>
-<li>amyotrohpic lateral sclerosis type 22 (99.3%)</li>
-<li>amyotrophic lateral sclerosis, susceptibility to (99.2%)</li>
-<li>axial spondylometaphyseal dysplasia (99.2%)</li>
+<li><strong>預測適應症（1 個）</strong>:<ul>
+<li>多發性內分泌腫瘤 (Multiple Endocrine Neoplasia) (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/pemigatinib/' | relative_url }}">查看完整藥物報告 →</a></p>

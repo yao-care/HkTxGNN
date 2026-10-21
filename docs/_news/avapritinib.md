@@ -3,7 +3,7 @@ layout: default
 title: "Avapritinib 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Avapritinib 的相關健康新聞報導。原適應症：。預測適應症 9 個。"
+description: "Avapritinib 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
 permalink: /news/avapritinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/avapritinib/
 ---
 
 <p class="key-answer" data-question="Avapritinib 有什麼相關新聞？">
-<strong>Avapritinib</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 9 個。
+<strong>Avapritinib</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ permalink: /news/avapritinib/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>: L5</li>
-<li><strong>預測適應症（9 個）</strong>:<ul>
-<li>雙側旁矢狀頂枕多小腦回 | 99.92% | 與 KIT/PDGFRA 無已知關聯 (99.0%)</li>
-<li>肌萎縮性脊髓側索硬化症 (ALS) | 99.92% | 僅有假說層級：其他 KIT 抑制劑（如 masitinib）曾被研究；但 Avapritinib 無資料，且有認知不良反應與顱內出血風險 (99.0%)</li>
-<li>睫毛過長-視網膜色素變性-侏儒症候群 | 99.92% | 極罕見，無已知關聯 (99.0%)</li>
-<li>ALS 易感性 | 99.91% | 與 ALS 重疊，可能為重複的本體論詞條 (99.0%)</li>
-<li>ALS 第 22 型 | 99.91% | 與 TUBA4A 變異相關，可能只是圖譜鄰近性 (99.0%)</li>
-<li>晚發性下運動神經元症候群 | 99.91% | 可能來自運動神經元疾病的圖譜相似性 (99.0%)</li>
-<li>致死性關節攣縮-前角細胞疾病症候群 | 99.90% | 全身性激酶抑制劑缺乏生物學依據 (99.0%)</li>
-<li>單肢肌萎縮症 | 99.89% | 屬良性、自限性疾病，風險效益不利 (99.0%)</li>
-<li>Mills 症候群 | 99.89% | 僅經 ALS 群集的圖譜鄰近性 (99.0%)</li>
+<li><strong>預測適應症（10 個）</strong>:<ul>
+<li>軸向脊椎骨幹骺端發育不良 (axial spondylometaphyseal dysplasia) (99.9%)</li>
+<li>雙側旁矢狀頂枕多小腦回 (99.9%)</li>
+<li>肌萎縮性脊髓側索硬化症 (ALS) (99.9%)</li>
+<li>睫毛過長-視網膜色素變性-侏儒症候群 (99.9%)</li>
+<li>ALS 易感性 (99.9%)</li>
+<li>ALS 第 22 型 (99.9%)</li>
+<li>晚發性下運動神經元症候群 (99.9%)</li>
+<li>致死性關節攣縮-前角細胞疾病症候群 (99.9%)</li>
+<li>單肢肌萎縮症 (99.9%)</li>
+<li>Mills 症候群 (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/avapritinib/' | relative_url }}">查看完整藥物報告 →</a></p>

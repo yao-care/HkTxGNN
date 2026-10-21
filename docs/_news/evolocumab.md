@@ -3,7 +3,7 @@ layout: default
 title: "Evolocumab 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Evolocumab 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Evolocumab 的相關健康新聞報導。原適應症：。預測適應症 1 個。"
 permalink: /news/evolocumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/evolocumab/
 ---
 
 <p class="key-answer" data-question="Evolocumab 有什麼相關新聞？">
-<strong>Evolocumab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Evolocumab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 1 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ permalink: /news/evolocumab/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>: L5</li>
-<li><strong>預測適應症（10 個）</strong>:<ul>
-<li>symptomatic form of hemophilia in female carriers (99.8%)</li>
-<li>familial apolipoprotein C-II deficiency (99.5%)</li>
-<li>thrombocytopenic purpura (99.4%)</li>
-<li>factor XI deficiency (99.3%)</li>
-<li>hemophilia A with vascular abnormality (99.2%)</li>
-<li>disease of catalytic activity (99.1%)</li>
-<li>hemorrhagic disease of newborn (98.9%)</li>
-<li>ichthyosis, X-linked, without steroid sulfatase deficiency (98.8%)</li>
-<li>inherited thrombophilia (98.8%)</li>
-<li>disorder of other vitamins and cofactors metabolism and transport (98.8%)</li>
+<li><strong>預測適應症（1 個）</strong>:<ul>
+<li>女性帶因者的症狀型血友病 (symptomatic form of hemophilia in female carriers) (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/evolocumab/' | relative_url }}">查看完整藥物報告 →</a></p>

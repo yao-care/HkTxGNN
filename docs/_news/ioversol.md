@@ -3,7 +3,7 @@ layout: default
 title: "Ioversol 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Ioversol 的相關健康新聞報導。原適應症：。預測適應症 2 個。"
+description: "Ioversol 的相關健康新聞報導。原適應症：。預測適應症 3 個。"
 permalink: /news/ioversol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ioversol/
 ---
 
 <p class="key-answer" data-question="Ioversol 有什麼相關新聞？">
-<strong>Ioversol</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 2 個。
+<strong>Ioversol</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 3 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,9 +25,10 @@ permalink: /news/ioversol/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>: L5</li>
-<li><strong>預測適應症（2 個）</strong>:<ul>
-<li>骨關節炎 (Osteoarthritis) | 99.63% | L4 | 僅有 1 篇間接文獻，為栓塞術研究，並非 ioversol 的藥理作用 (99.0%)</li>
-<li>類風濕性關節炎 (Rheumatoid Arthritis) | 99.56% | L5 | 兩篇文獻皆與 ioversol 無關 (99.0%)</li>
+<li><strong>預測適應症（3 個）</strong>:<ul>
+<li>骨關節炎易感性 (Osteoarthritis Susceptibility) (99.7%)</li>
+<li>骨關節炎 (Osteoarthritis) (99.6%)</li>
+<li>類風濕性關節炎 (Rheumatoid Arthritis) (99.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ioversol/' | relative_url }}">查看完整藥物報告 →</a></p>

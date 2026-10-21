@@ -3,7 +3,7 @@ layout: default
 title: "Glutathione 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Glutathione 的相關健康新聞報導。原適應症：。預測適應症 4 個。"
+description: "Glutathione 的相關健康新聞報導。原適應症：。預測適應症 5 個。"
 permalink: /news/glutathione/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/glutathione/
 ---
 
 <p class="key-answer" data-question="Glutathione 有什麼相關新聞？">
-<strong>Glutathione</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 4 個。
+<strong>Glutathione</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 5 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ permalink: /news/glutathione/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>: L4</li>
-<li><strong>預測適應症（4 個）</strong>:<ul>
+<li><strong>預測適應症（5 個）</strong>:<ul>
+<li>硬化性膽管炎 (Sclerosing Cholangitis) (98.1%)</li>
 <li>骨髓增生異常症候群 (MDS) (97.5%)</li>
 <li>乾眼症 (96.8%)</li>
 <li>痤瘡 (96.7%)</li>

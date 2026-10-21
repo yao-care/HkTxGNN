@@ -3,7 +3,7 @@ layout: default
 title: "Nonivamide 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Nonivamide 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Nonivamide 的相關健康新聞報導。原適應症：。預測適應症 1 個。"
 permalink: /news/nonivamide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nonivamide/
 ---
 
 <p class="key-answer" data-question="Nonivamide 有什麼相關新聞？">
-<strong>Nonivamide</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Nonivamide</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 1 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ permalink: /news/nonivamide/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>: L5</li>
-<li><strong>預測適應症（10 個）</strong>:<ul>
-<li>pulmonary hypertension (99.8%)</li>
-<li>peripheral arterial disease (99.8%)</li>
-<li>acute lymphoblastic leukemia (disease) (99.8%)</li>
-<li>kyphoscoliotic heart disease (99.8%)</li>
-<li>peripheral vascular disease (99.7%)</li>
-<li>ventricular tachycardia (99.7%)</li>
-<li>anaphylaxis (99.7%)</li>
-<li>migraine disorder (99.7%)</li>
-<li>catecholaminergic polymorphic ventricular tachycardia (99.7%)</li>
-<li>intermittent vascular claudication (99.7%)</li>
+<li><strong>預測適應症（1 個）</strong>:<ul>
+<li>肺動脈高壓 (Pulmonary Hypertension) (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/nonivamide/' | relative_url }}">查看完整藥物報告 →</a></p>
