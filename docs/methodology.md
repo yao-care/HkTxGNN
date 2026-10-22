@@ -17,11 +17,11 @@ description: "HkTxGNN 的預測與證據驗證方法：TxGNN 深度學習預測�
 ## 整體流程
 
 <p class="key-answer" data-question="HkTxGNN 如何產生預測結果？">
-本平台採四階段流程：先以 TxGNN 知識圖譜模型預測藥物與疾病的潛在關聯，再針對每個預測配對自動收集臨床試驗與文獻證據，接著依證據強度判定 L1-L5 等級，最後給出決策建議。
+本平台採四階段流程：先以 TxGNN 模型（深度學習）預測藥物與疾病的潛在關聯，再針對每個預測配對自動收集臨床試驗與文獻證據，接著依證據強度判定 L1-L5 等級，最後給出決策建議。
 </p>
 
 <ol class="actionable-steps">
-<li><strong>TxGNN 預測</strong>：使用知識圖譜結合圖神經網路進行藥物-疾病關係預測。</li>
+<li><strong>TxGNN 預測</strong>：由 TxGNN 模型（深度學習：以生醫知識圖譜訓練的圖神經網路）預測藥物-疾病關係。</li>
 <li><strong>證據收集</strong>：針對每個預測配對，自動收集 ClinicalTrials.gov、PubMed、DrugBank、Department of Health HK 等來源的證據。</li>
 <li><strong>證據等級判定</strong>：依收集到的證據判定 L1-L5 等級，L1 最高（多個 Phase 3 RCT），L5 為僅模型預測。</li>
 <li><strong>決策建議</strong>：依證據等級給出 Go、Proceed、Consider、Explore、Hold 建議。</li>

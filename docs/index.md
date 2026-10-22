@@ -5,7 +5,7 @@ title: HkTxGNN - 香港老藥新用預測系統
 
 # HkTxGNN - 香港老藥新用預測系統
 
-基於 [TxGNN](https://github.com/mims-harvard/TxGNN) 知識圖譜的香港藥品老藥新用預測系統。
+以 [TxGNN](https://github.com/mims-harvard/TxGNN) 模型（深度學習）預測香港藥品老藥新用的研究系統。
 
 ## 系統概覽
 
