@@ -33,7 +33,8 @@ predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", 
 
 </div>
 
-# Canakinumab：從痛風與週期性發燒症候群到家族性地中海熱（顯性遺傳型）
+## Canakinumab：從痛風與週期性發燒症候群到家族性地中海熱（顯性遺傳型）
+{: .text-alpha }
 
 ## 一句話總結
 

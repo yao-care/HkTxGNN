@@ -33,7 +33,8 @@ predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease"
 
 </div>
 
-# Lurbinectedin：從原適應症（許可證未載明）到多發性內分泌腫瘤
+## Lurbinectedin：從原適應症（許可證未載明）到多發性內分泌腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

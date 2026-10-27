@@ -33,7 +33,8 @@ predicted_indications: ["benign prostatic hyperplasia (disease)"]
 
 </div>
 
-# Benzydamine：從局部口咽抗發炎到良性攝護腺增生
+## Benzydamine：從局部口咽抗發炎到良性攝護腺增生
+{: .text-alpha }
 
 ## 一句話總結
 

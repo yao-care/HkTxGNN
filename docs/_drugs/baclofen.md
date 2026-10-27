@@ -33,7 +33,8 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine de
 
 </div>
 
-# Baclofen：從痙攣（原適應症資料缺漏）到注意力不足過動症／尼古丁依賴
+## Baclofen：從痙攣（原適應症資料缺漏）到注意力不足過動症／尼古丁依賴
+{: .text-alpha }
 
 注意：本報告依資料以 predicted_indications[0]（注意力不足過動症）為主要預測。另一個排名第 2 的預測（尼古丁依賴）證據明顯較多，我也一併列出供參考。
 

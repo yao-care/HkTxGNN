@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 </div>
 
-# Potassium Iodide（碘化鉀）：從過敏性鼻炎等上呼吸道疾病到鼻腔疾病
+## Potassium Iodide（碘化鉀）：從過敏性鼻炎等上呼吸道疾病到鼻腔疾病
+{: .text-alpha }
 
 ## 一句話總結
 

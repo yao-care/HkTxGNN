@@ -33,7 +33,8 @@ predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "an
 
 </div>
 
-# Pinazepam：從（原適應症資料不足）到失眠
+## Pinazepam：從（原適應症資料不足）到失眠
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria
 
 </div>
 
-# Riluzole：從肌萎縮性脊髓側索硬化症到雙側矢狀旁頂枕多小腦回症
+## Riluzole：從肌萎縮性脊髓側索硬化症到雙側矢狀旁頂枕多小腦回症
+{: .text-alpha }
 
 ## 一句話總結
 

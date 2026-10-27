@@ -33,7 +33,8 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "h
 
 </div>
 
-# Indacaterol：從慢性阻塞性肺病（推測）到腎因性抗利尿不適當症候群
+## Indacaterol：從慢性阻塞性肺病（推測）到腎因性抗利尿不適當症候群
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease"
 
 </div>
 
-# Remdesivir：從（原適應症資料缺漏）到多發性內分泌腫瘤
+## Remdesivir：從（原適應症資料缺漏）到多發性內分泌腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

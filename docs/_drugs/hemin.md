@@ -33,7 +33,8 @@ predicted_indications: ["thrombocytopenic purpura", "hemophilia", "C1 inhibitor 
 
 </div>
 
-# Hemin：從急性間歇性紫質症到血小板減少性紫斑症
+## Hemin：從急性間歇性紫質症到血小板減少性紫斑症
+{: .text-alpha }
 
 ## 一句話總結
 

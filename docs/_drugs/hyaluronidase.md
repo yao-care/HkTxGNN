@@ -33,7 +33,8 @@ predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonprolifer
 
 </div>
 
-# Hyaluronidase：從（原適應症資料缺漏）到糖尿病視網膜病變
+## Hyaluronidase：從（原適應症資料缺漏）到糖尿病視網膜病變
+{: .text-alpha }
 
 ## 一句話總結
 

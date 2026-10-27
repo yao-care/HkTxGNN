@@ -33,7 +33,8 @@ predicted_indications: ["diabetic cataract", "immature cataract", "diabetes mell
 
 </div>
 
-# Tezepelumab：從嚴重氣喘到糖尿病性白內障
+## Tezepelumab：從嚴重氣喘到糖尿病性白內障
+{: .text-alpha }
 
 ## 一句話總結
 

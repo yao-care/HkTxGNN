@@ -33,7 +33,8 @@ predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid",
 
 </div>
 
-# Ustekinumab：從乾癬性關節炎／乾癬到皮膚炎
+## Ustekinumab：從乾癬性關節炎／乾癬到皮膚炎
+{: .text-alpha }
 
 ## 一句話總結
 

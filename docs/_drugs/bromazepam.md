@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder"]
 
 </div>
 
-# Bromazepam：從（原適應症未載明）到偏頭痛
+## Bromazepam：從（原適應症未載明）到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

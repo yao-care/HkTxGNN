@@ -33,7 +33,8 @@ predicted_indications: ["congenital ichthyosiform erythroderma"]
 
 </div>
 
-# Povidone：從乾眼症到先天性魚鱗癬樣紅皮症
+## Povidone：從乾眼症到先天性魚鱗癬樣紅皮症
+{: .text-alpha }
 
 ## 一句話總結
 

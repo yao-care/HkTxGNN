@@ -33,7 +33,8 @@ predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-inde
 
 </div>
 
-# Docusate：從便秘與貧血相關適應症到 Plummer-Vinson 症候群
+## Docusate：從便秘與貧血相關適應症到 Plummer-Vinson 症候群
+{: .text-alpha }
 
 ## 一句話總結
 

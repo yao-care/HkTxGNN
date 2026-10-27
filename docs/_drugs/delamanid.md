@@ -33,7 +33,8 @@ predicted_indications: ["allergic urticaria", "fascioliasis", "inhalational botu
 
 </div>
 
-# Delamanid：從多重抗藥性結核病到非活動性結核病
+## Delamanid：從多重抗藥性結核病到非活動性結核病
+{: .text-alpha }
 
 ## 一句話總結
 

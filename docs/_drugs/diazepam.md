@@ -33,7 +33,8 @@ predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep di
 
 </div>
 
-# Diazepam：從癲癇與焦慮到失眠
+## Diazepam：從癲癇與焦慮到失眠
+{: .text-alpha }
 
 ## 一句話總結
 

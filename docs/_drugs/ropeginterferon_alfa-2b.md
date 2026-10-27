@@ -33,7 +33,8 @@ predicted_indications: ["Laubry-Pezzi syndrome", "interventricular septum aneury
 
 </div>
 
-# Ropeginterferon alfa-2b：從真性紅血球增多症到 Laubry-Pezzi 症候群
+## Ropeginterferon alfa-2b：從真性紅血球增多症到 Laubry-Pezzi 症候群
+{: .text-alpha }
 
 ## 一句話總結
 

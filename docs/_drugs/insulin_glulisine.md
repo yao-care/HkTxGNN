@@ -33,7 +33,8 @@ predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysp
 
 </div>
 
-# Insulin Glulisine：從糖尿病到第 1 型糖尿病
+## Insulin Glulisine：從糖尿病到第 1 型糖尿病
+{: .text-alpha }
 
 ## 一句話總結
 

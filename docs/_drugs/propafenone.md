@@ -33,7 +33,8 @@ predicted_indications: ["manic bipolar affective disorder", "periodic paralysis 
 
 </div>
 
-# Propafenone：從心房顫動與心室心搏過速到兒茶酚胺敏感性多形性心室心搏過速
+## Propafenone：從心房顫動與心室心搏過速到兒茶酚胺敏感性多形性心室心搏過速
+{: .text-alpha }
 
 ## 一句話總結
 

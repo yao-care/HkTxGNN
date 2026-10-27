@@ -33,7 +33,8 @@ predicted_indications: ["meningococcal infection"]
 
 </div>
 
-# Stannous Fluoride：從（原適應症未載明）到腦膜炎球菌感染
+## Stannous Fluoride：從（原適應症未載明）到腦膜炎球菌感染
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["psychogenic movement disorders", "chronic tic disorder"
 
 </div>
 
-# Donepezil：從阿茲海默症到抽動症（慢性抽動障礙）
+## Donepezil：從阿茲海默症到抽動症（慢性抽動障礙）
+{: .text-alpha }
 
 ## 一句話總結
 

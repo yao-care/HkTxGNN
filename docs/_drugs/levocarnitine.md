@@ -33,7 +33,8 @@ predicted_indications: ["autosomal dominant familial hematuria-retinal arteriola
 
 </div>
 
-# Levocarnitine：從（原適應症未登載）到類風濕性關節炎
+## Levocarnitine：從（原適應症未登載）到類風濕性關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

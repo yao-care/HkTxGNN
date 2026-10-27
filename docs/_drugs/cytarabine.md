@@ -33,7 +33,8 @@ predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma
 
 </div>
 
-# Cytarabine：從急性白血病到小細胞肺癌
+## Cytarabine：從急性白血病到小細胞肺癌
+{: .text-alpha }
 
 ## 一句話總結
 

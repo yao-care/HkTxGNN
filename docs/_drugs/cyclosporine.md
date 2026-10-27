@@ -33,7 +33,8 @@ predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "
 
 </div>
 
-# Cyclosporine：從類風濕性關節炎與乾眼症到慢性肉芽腫病
+## Cyclosporine：從類風濕性關節炎與乾眼症到慢性肉芽腫病
+{: .text-alpha }
 
 ## 一句話總結
 

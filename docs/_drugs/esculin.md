@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)"]
 
 </div>
 
-# Esculin：從痔瘡外用製劑到停經（閉經）
+## Esculin：從痔瘡外用製劑到停經（閉經）
+{: .text-alpha }
 
 ## 一句話總結
 

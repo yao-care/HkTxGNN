@@ -33,7 +33,8 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure ke
 
 </div>
 
-# Minocycline：從細菌感染（泌尿道感染、痤瘡等）到點狀上皮角膜結膜炎
+## Minocycline：從細菌感染（泌尿道感染、痤瘡等）到點狀上皮角膜結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

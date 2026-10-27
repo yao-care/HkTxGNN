@@ -31,7 +31,8 @@ description: "Tazobactam：預測新適應症為肺炎 (Pneumonia)（證據等�
 
 </div>
 
-# Tazobactam：從細菌性肺炎到肺炎（含尿路感染延伸）
+## Tazobactam：從細菌性肺炎到肺炎（含尿路感染延伸）
+{: .text-alpha }
 
 ## 一句話總結
 

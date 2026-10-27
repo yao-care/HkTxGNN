@@ -33,7 +33,8 @@ predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia
 
 </div>
 
-# Apomorphine：從帕金森氏症到精神分裂症（模型預測，證據薄弱）
+## Apomorphine：從帕金森氏症到精神分裂症（模型預測，證據薄弱）
+{: .text-alpha }
 
 ## 一句話總結
 

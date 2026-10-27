@@ -33,7 +33,8 @@ predicted_indications: ["acne (disease)"]
 
 </div>
 
-# Ketoconazole：從皮膚黴菌感染到痤瘡
+## Ketoconazole：從皮膚黴菌感染到痤瘡
+{: .text-alpha }
 
 ## 一句話總結
 

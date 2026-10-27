@@ -33,7 +33,8 @@ predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast ca
 
 </div>
 
-# Ripretinib：從消化道間質瘤（GIST）到多發性內分泌腫瘤
+## Ripretinib：從消化道間質瘤（GIST）到多發性內分泌腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

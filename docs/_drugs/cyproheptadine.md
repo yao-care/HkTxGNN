@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 </div>
 
-# Cyproheptadine：從過敏性鼻炎與蕁麻疹等過敏性疾病到寒冷性蕁麻疹
+## Cyproheptadine：從過敏性鼻炎與蕁麻疹等過敏性疾病到寒冷性蕁麻疹
+{: .text-alpha }
 
 ## 一句話總結
 

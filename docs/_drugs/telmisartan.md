@@ -33,7 +33,8 @@ predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyl
 
 </div>
 
-# Telmisartan：從高血壓與腦血管疾病到腦動脈阻塞
+## Telmisartan：從高血壓與腦血管疾病到腦動脈阻塞
+{: .text-alpha }
 
 ## 一句話總結
 

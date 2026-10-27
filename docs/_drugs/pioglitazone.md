@@ -33,7 +33,8 @@ predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classi
 
 </div>
 
-# Pioglitazone：從第 2 型糖尿病到 Opsismodysplasia（骨發育不良症）
+## Pioglitazone：從第 2 型糖尿病到 Opsismodysplasia（骨發育不良症）
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with s
 
 </div>
 
-# Warfarin：從血栓性疾病到遺傳性血栓傾向（肝素輔因子 II 缺乏症）
+## Warfarin：從血栓性疾病到遺傳性血栓傾向（肝素輔因子 II 缺乏症）
+{: .text-alpha }
 
 ## 一句話總結
 

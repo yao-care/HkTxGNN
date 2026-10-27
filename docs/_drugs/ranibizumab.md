@@ -33,7 +33,8 @@ predicted_indications: ["diabetes mellitus type 2 associated cataract", "immatur
 
 </div>
 
-# Ranibizumab：從糖尿病視網膜病變到嚴重非增殖性糖尿病視網膜病變
+## Ranibizumab：從糖尿病視網膜病變到嚴重非增殖性糖尿病視網膜病變
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe cong
 
 </div>
 
-# Eculizumab：從陣發性夜間血色素尿症與視神經脊髓炎到週期性造血異常（Cyclic Hematopoiesis）
+## Eculizumab：從陣發性夜間血色素尿症與視神經脊髓炎到週期性造血異常（Cyclic Hematopoiesis）
+{: .text-alpha }
 
 ## 一句話總結
 

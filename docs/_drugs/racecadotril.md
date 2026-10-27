@@ -33,7 +33,8 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 </div>
 
-# Racecadotril：從急性腹瀉到高澱粉酶血症
+## Racecadotril：從急性腹瀉到高澱粉酶血症
+{: .text-alpha }
 
 ## 一句話總結
 

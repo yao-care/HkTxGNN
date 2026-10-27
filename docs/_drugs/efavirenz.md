@@ -33,7 +33,8 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 </div>
 
-# Efavirenz：從 HIV 感染到貓免疫缺乏症候群
+## Efavirenz：從 HIV 感染到貓免疫缺乏症候群
+{: .text-alpha }
 
 ## 一句話總結
 

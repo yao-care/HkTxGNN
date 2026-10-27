@@ -33,7 +33,8 @@ predicted_indications: ["hepatic veno-occlusive disease-immunodeficiency syndrom
 
 </div>
 
-# Hypromellose：從眼部潤滑到肝靜脈阻塞性疾病伴免疫缺陷症候群
+## Hypromellose：從眼部潤滑到肝靜脈阻塞性疾病伴免疫缺陷症候群
+{: .text-alpha }
 
 ## 一句話總結
 

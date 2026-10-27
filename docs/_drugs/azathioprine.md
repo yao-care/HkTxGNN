@@ -33,7 +33,8 @@ predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndro
 
 </div>
 
-# Azathioprine：從類風濕性關節炎到發炎性腸道疾病
+## Azathioprine：從類風濕性關節炎到發炎性腸道疾病
+{: .text-alpha }
 
 ## 一句話總結
 

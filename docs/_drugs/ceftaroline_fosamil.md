@@ -33,7 +33,8 @@ predicted_indications: ["rheumatoid arthritis", "osteoarthritis", "osteoarthriti
 
 </div>
 
-# Ceftaroline fosamil：從細菌感染到類風濕性關節炎（模型預測，證據不足）
+## Ceftaroline fosamil：從細菌感染到類風濕性關節炎（模型預測，證據不足）
+{: .text-alpha }
 
 ## 一句話總結
 

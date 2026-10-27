@@ -33,7 +33,8 @@ predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intell
 
 </div>
 
-# Mirtazapine：從憂鬱症到 Ohdo 症候群
+## Mirtazapine：從憂鬱症到 Ohdo 症候群
+{: .text-alpha }
 
 ## 一句話總結
 

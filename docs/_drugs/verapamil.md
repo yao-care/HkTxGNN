@@ -33,7 +33,8 @@ predicted_indications: ["obsolete bundle branch block", "malignant hypertensive 
 
 </div>
 
-# Verapamil：從高血壓與心律不整到惡性腎血管性高血壓
+## Verapamil：從高血壓與心律不整到惡性腎血管性高血壓
+{: .text-alpha }
 
 ## 一句話總結
 

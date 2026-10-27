@@ -33,7 +33,8 @@ predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndro
 
 </div>
 
-# Tenoxicam：從關節疾病到類風濕性關節炎
+## Tenoxicam：從關節疾病到類風濕性關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

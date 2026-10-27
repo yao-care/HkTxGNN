@@ -33,7 +33,8 @@ predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigemin
 
 </div>
 
-# Ketorolac：從過敏性／春季／乳突狀結膜炎到頭痛疾患
+## Ketorolac：從過敏性／春季／乳突狀結膜炎到頭痛疾患
+{: .text-alpha }
 
 ## 一句話總結
 

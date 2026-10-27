@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis", "thrombotic disease", "heparin cofactor 2 
 
 </div>
 
-# Sultamicillin：從（原適應症資料缺漏）到支氣管炎
+## Sultamicillin：從（原適應症資料缺漏）到支氣管炎
+{: .text-alpha }
 
 ## 一句話總結
 

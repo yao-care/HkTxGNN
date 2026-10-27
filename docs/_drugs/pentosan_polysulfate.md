@@ -33,7 +33,8 @@ predicted_indications: ["primary release disorder of platelets", "Glanzmann thro
 
 </div>
 
-# Pentosan polysulfate：從間質性膀胱炎到血小板釋放功能異常
+## Pentosan polysulfate：從間質性膀胱炎到血小板釋放功能異常
+{: .text-alpha }
 
 ## 一句話總結
 

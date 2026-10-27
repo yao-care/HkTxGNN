@@ -33,7 +33,8 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure ke
 
 </div>
 
-# Bacitracin：從角膜炎／角結膜炎到點狀上皮角結膜炎
+## Bacitracin：從角膜炎／角結膜炎到點狀上皮角結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["irritable bowel syndrome", "acne (disease)", "gastropar
 
 </div>
 
-# Cycloserine：從肺結核到腸躁症
+## Cycloserine：從肺結核到腸躁症
+{: .text-alpha }
 
 ## 一句話總結
 

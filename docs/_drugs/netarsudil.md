@@ -31,7 +31,8 @@ description: "Netarsudil：預測新適應症為青光眼 (Glaucoma)（證據等
 
 </div>
 
-# Netarsudil：從開角型青光眼與高眼壓症到青光眼（含原發性遺傳性青光眼）
+## Netarsudil：從開角型青光眼與高眼壓症到青光眼（含原發性遺傳性青光眼）
+{: .text-alpha }
 
 ## 一句話總結
 

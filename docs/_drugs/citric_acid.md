@@ -33,7 +33,8 @@ predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngi
 
 </div>
 
-# Citric Acid：從消化不良與頭痛到胃部疾病
+## Citric Acid：從消化不良與頭痛到胃部疾病
+{: .text-alpha }
 
 ## 一句話總結
 

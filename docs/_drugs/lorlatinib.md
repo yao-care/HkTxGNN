@@ -33,7 +33,8 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 
 </div>
 
-# Lorlatinib：從非小細胞肺癌到牙齦纖維瘤病（預測排名第一）
+## Lorlatinib：從非小細胞肺癌到牙齦纖維瘤病（預測排名第一）
+{: .text-alpha }
 
 ## 一句話總結
 

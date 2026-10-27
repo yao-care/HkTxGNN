@@ -33,7 +33,8 @@ predicted_indications: ["stroke disorder"]
 
 </div>
 
-# Naftidrofuryl：從腦血管疾病到中風
+## Naftidrofuryl：從腦血管疾病到中風
+{: .text-alpha }
 
 ## 一句話總結
 

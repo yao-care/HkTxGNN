@@ -33,7 +33,8 @@ predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy w
 
 </div>
 
-# Propranolol：從高血壓與心律不整到遠端肌病變（Tateyama 型）
+## Propranolol：從高血壓與心律不整到遠端肌病變（Tateyama 型）
+{: .text-alpha }
 
 ## 一句話總結
 

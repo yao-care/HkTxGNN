@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "ca
 
 </div>
 
-# Rocuronium：從神經肌肉阻斷（麻醉輔助）到偏頭痛
+## Rocuronium：從神經肌肉阻斷（麻醉輔助）到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

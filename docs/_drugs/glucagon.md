@@ -33,7 +33,8 @@ predicted_indications: ["irritable bowel syndrome"]
 
 </div>
 
-# Glucagon：從（原適應症資料缺漏）到腸躁症
+## Glucagon：從（原適應症資料缺漏）到腸躁症
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative p
 
 </div>
 
-# Potassium Citrate：從鉀缺乏症與腎小管酸中毒到腎結石
+## Potassium Citrate：從鉀缺乏症與腎小管酸中毒到腎結石
+{: .text-alpha }
 
 ## 一句話總結
 

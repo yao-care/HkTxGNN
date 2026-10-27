@@ -33,7 +33,8 @@ predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-ty
 
 </div>
 
-# Cladribine：從毛細胞白血病到橫紋肌肉瘤
+## Cladribine：從毛細胞白血病到橫紋肌肉瘤
+{: .text-alpha }
 
 ## 一句話總結
 

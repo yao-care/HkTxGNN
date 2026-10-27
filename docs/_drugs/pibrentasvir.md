@@ -33,7 +33,8 @@ predicted_indications: ["hepatitis B virus infection", "HIV infectious disease",
 
 </div>
 
-# Pibrentasvir：從慢性 C 型肝炎到 B 型肝炎病毒感染（模型預測）
+## Pibrentasvir：從慢性 C 型肝炎到 B 型肝炎病毒感染（模型預測）
+{: .text-alpha }
 
 ## 一句話總結
 

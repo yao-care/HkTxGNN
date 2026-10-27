@@ -33,7 +33,8 @@ predicted_indications: ["familial isolated hypoparathyroidism due to impaired PT
 
 </div>
 
-# Cholecalciferol：從骨質疏鬆與維生素 D 缺乏到腎性骨病變
+## Cholecalciferol：從骨質疏鬆與維生素 D 缺乏到腎性骨病變
+{: .text-alpha }
 
 ## 一句話總結
 

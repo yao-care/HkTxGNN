@@ -33,7 +33,8 @@ predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunctio
 
 </div>
 
-# Insulin Glargine：從第 1 型與第 2 型糖尿病到自體免疫性卵巢炎
+## Insulin Glargine：從第 1 型與第 2 型糖尿病到自體免疫性卵巢炎
+{: .text-alpha }
 
 ## 一句話總結
 

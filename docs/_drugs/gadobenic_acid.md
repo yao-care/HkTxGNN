@@ -33,7 +33,8 @@ predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheu
 
 </div>
 
-# Gadobenic acid：從（未載明原適應症）到退化性關節炎
+## Gadobenic acid：從（未載明原適應症）到退化性關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["monosomy X", "hepatic infarction", "hepatic veno-occlus
 
 </div>
 
-# Luspatercept：從 β 型地中海貧血到 Monosomy X（透納氏症）
+## Luspatercept：從 β 型地中海貧血到 Monosomy X（透納氏症）
+{: .text-alpha }
 
 ## 一句話總結
 

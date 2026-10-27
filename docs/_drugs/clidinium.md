@@ -33,7 +33,8 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 </div>
 
-# Clidinium：從腸躁症到馬尾症候群（另評估消化性潰瘍等候選適應症）
+## Clidinium：從腸躁症到馬尾症候群（另評估消化性潰瘍等候選適應症）
+{: .text-alpha }
 
 ## 一句話總結
 

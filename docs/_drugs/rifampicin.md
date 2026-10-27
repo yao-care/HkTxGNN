@@ -33,7 +33,8 @@ predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne 
 
 </div>
 
-# Rifampicin：從肺結核到結膜炎
+## Rifampicin：從肺結核到結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

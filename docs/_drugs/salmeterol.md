@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis", "respiratory malformation", "obstructive l
 
 </div>
 
-# Salmeterol：從肺氣腫與氣喘到支氣管炎
+## Salmeterol：從肺氣腫與氣喘到支氣管炎
+{: .text-alpha }
 
 ## 一句話總結
 

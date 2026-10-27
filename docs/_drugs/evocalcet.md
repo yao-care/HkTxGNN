@@ -33,7 +33,8 @@ predicted_indications: ["hyperphosphatemia (disease)", "tumoral calcinosis, hype
 
 </div>
 
-# Evocalcet：從副甲狀腺機能亢進到高磷血症
+## Evocalcet：從副甲狀腺機能亢進到高磷血症
+{: .text-alpha }
 
 ## 一句話總結
 

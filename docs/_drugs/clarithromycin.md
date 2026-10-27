@@ -33,7 +33,8 @@ predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia",
 
 </div>
 
-# Clarithromycin：從呼吸道與耳鼻喉細菌感染到多發性株高黏滯症候群
+## Clarithromycin：從呼吸道與耳鼻喉細菌感染到多發性株高黏滯症候群
+{: .text-alpha }
 
 ## 一句話總結
 

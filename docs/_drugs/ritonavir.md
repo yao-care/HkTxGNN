@@ -33,7 +33,8 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 </div>
 
-# Ritonavir：從 HIV 感染到猿猴免疫缺陷病毒感染
+## Ritonavir：從 HIV 感染到猿猴免疫缺陷病毒感染
+{: .text-alpha }
 
 ## 一句話總結
 

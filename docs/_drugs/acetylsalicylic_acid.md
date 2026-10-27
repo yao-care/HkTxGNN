@@ -33,7 +33,8 @@ predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", 
 
 </div>
 
-# Acetylsalicylic acid（阿斯匹靈）：從心肌梗塞與關節炎到偏頭痛（伴腦幹先兆）
+## Acetylsalicylic acid（阿斯匹靈）：從心肌梗塞與關節炎到偏頭痛（伴腦幹先兆）
+{: .text-alpha }
 
 ## 一句話總結
 

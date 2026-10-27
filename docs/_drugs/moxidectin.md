@@ -33,7 +33,8 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 </div>
 
-# Moxidectin：從盤尾絲蟲症到高澱粉酶血症（僅模型預測）
+## Moxidectin：從盤尾絲蟲症到高澱粉酶血症（僅模型預測）
+{: .text-alpha }
 
 ## 一句話總結
 

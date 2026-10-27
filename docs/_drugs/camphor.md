@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "er
 
 </div>
 
-# Camphor（樟腦）：從外用止痛與抗刺激製劑到偏頭痛
+## Camphor（樟腦）：從外用止痛與抗刺激製劑到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 
 </div>
 
-# Tropisetron：從化療引起的噁心嘔吐到偏頭痛
+## Tropisetron：從化療引起的噁心嘔吐到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

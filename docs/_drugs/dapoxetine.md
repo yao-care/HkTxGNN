@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine wit
 
 </div>
 
-# Dapoxetine：從早發性射精到偏頭痛
+## Dapoxetine：從早發性射精到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

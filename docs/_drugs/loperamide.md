@@ -33,7 +33,8 @@ predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "
 
 </div>
 
-# Loperamide：從腹瀉與痢疾到急性傳染性結膜炎
+## Loperamide：從腹瀉與痢疾到急性傳染性結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy",
 
 </div>
 
-# Certolizumab Pegol：從克隆氏症到類風濕性血管炎
+## Certolizumab Pegol：從克隆氏症到類風濕性血管炎
+{: .text-alpha }
 
 ## 一句話總結
 

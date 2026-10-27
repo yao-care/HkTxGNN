@@ -33,7 +33,8 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "bronchi
 
 </div>
 
-# Zinc acetate：從皮膚與金屬代謝相關疾病到嚴重非增殖性糖尿病視網膜病變
+## Zinc acetate：從皮膚與金屬代謝相關疾病到嚴重非增殖性糖尿病視網膜病變
+{: .text-alpha }
 
 ## 一句話總結
 

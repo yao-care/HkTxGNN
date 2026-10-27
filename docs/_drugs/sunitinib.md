@@ -33,7 +33,8 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma"]
 
 </div>
 
-# Sunitinib：從腎細胞癌到脂肪肉瘤
+## Sunitinib：從腎細胞癌到脂肪肉瘤
+{: .text-alpha }
 
 ## 一句話總結
 

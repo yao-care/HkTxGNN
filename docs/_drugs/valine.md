@@ -33,7 +33,8 @@ predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyp
 
 </div>
 
-# Valine：從營養補充（原適應症資料缺漏）到硬化性膽管炎
+## Valine：從營養補充（原適應症資料缺漏）到硬化性膽管炎
+{: .text-alpha }
 
 ## 一句話總結
 

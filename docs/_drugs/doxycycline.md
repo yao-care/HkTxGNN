@@ -33,7 +33,8 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis exte
 
 </div>
 
-# Doxycycline：從細菌感染（支氣管炎、痤瘡等）到點狀上皮角膜結膜炎
+## Doxycycline：從細菌感染（支氣管炎、痤瘡等）到點狀上皮角膜結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

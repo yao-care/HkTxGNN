@@ -33,7 +33,8 @@ predicted_indications: ["acne (disease)", "severe nonproliferative diabetic reti
 
 </div>
 
-# Methionine：從 胺基酸營養補充 到 痤瘡（Acne）
+## Methionine：從 胺基酸營養補充 到 痤瘡（Acne）
+{: .text-alpha }
 
 ## 一句話總結
 

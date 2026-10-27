@@ -33,7 +33,8 @@ predicted_indications: ["HIV infectious disease", "hepatitis B virus infection",
 
 </div>
 
-# Glecaprevir：從慢性 C 型肝炎到 HIV 感染
+## Glecaprevir：從慢性 C 型肝炎到 HIV 感染
+{: .text-alpha }
 
 ## 一句話總結
 

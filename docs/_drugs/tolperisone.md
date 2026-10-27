@@ -33,7 +33,8 @@ predicted_indications: ["Laubry-Pezzi syndrome", "Pierre Robin syndrome associat
 
 </div>
 
-# Tolperisone：從肌肉鬆弛治療到 Laubry-Pezzi 症候群（預測）
+## Tolperisone：從肌肉鬆弛治療到 Laubry-Pezzi 症候群（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

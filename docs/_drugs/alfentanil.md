@@ -33,7 +33,8 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 
 </div>
 
-# Alfentanil：從（原適應症未載明）到腎因性抗利尿不當症候群
+## Alfentanil：從（原適應症未載明）到腎因性抗利尿不當症候群
+{: .text-alpha }
 
 ## 一句話總結
 

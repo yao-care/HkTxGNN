@@ -33,7 +33,8 @@ predicted_indications: ["vulvovaginal candidiasis"]
 
 </div>
 
-# Letermovir：從巨細胞病毒感染到外陰陰道念珠菌病
+## Letermovir：從巨細胞病毒感染到外陰陰道念珠菌病
+{: .text-alpha }
 
 ## 一句話總結
 

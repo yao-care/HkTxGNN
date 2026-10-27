@@ -33,7 +33,8 @@ predicted_indications: ["diabetic cataract", "immature cataract", "diabetes mell
 
 </div>
 
-# Zolbetuximab：從 CLDN18.2 陽性胃癌到糖尿病性白內障
+## Zolbetuximab：從 CLDN18.2 陽性胃癌到糖尿病性白內障
+{: .text-alpha }
 
 ## 一句話總結
 

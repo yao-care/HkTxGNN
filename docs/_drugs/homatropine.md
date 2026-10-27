@@ -33,7 +33,8 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 </div>
 
-# Homatropine：從消化性潰瘍與眼科疾病到脊髓馬尾症候群
+## Homatropine：從消化性潰瘍與眼科疾病到脊髓馬尾症候群
+{: .text-alpha }
 
 ## 一句話總結
 

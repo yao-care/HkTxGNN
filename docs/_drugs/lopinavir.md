@@ -33,7 +33,8 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 </div>
 
-# Lopinavir：從 HIV 感染到貓後天免疫缺乏症候群
+## Lopinavir：從 HIV 感染到貓後天免疫缺乏症候群
+{: .text-alpha }
 
 ## 一句話總結
 

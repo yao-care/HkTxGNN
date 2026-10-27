@@ -33,7 +33,8 @@ predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin d dis
 
 </div>
 
-# Cabazitaxel：從原適應症（許可證未載明）到女性乳癌
+## Cabazitaxel：從原適應症（許可證未載明）到女性乳癌
+{: .text-alpha }
 
 ## 一句話總結
 

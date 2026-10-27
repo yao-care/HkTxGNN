@@ -33,7 +33,8 @@ predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase defici
 
 </div>
 
-# Amantadine：從帕金森氏症到 Rasmussen 亞急性腦炎
+## Amantadine：從帕金森氏症到 Rasmussen 亞急性腦炎
+{: .text-alpha }
 
 ## 一句話總結
 

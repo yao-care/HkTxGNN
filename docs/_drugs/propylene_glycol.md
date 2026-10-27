@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopa
 
 </div>
 
-# Propylene Glycol：從乾眼症到支氣管炎
+## Propylene Glycol：從乾眼症到支氣管炎
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["congenital prothrombin deficiency", "inherited thrombop
 
 </div>
 
-# Desmopressin：從血友病／血管性血友病到原發性血小板釋放障礙
+## Desmopressin：從血友病／血管性血友病到原發性血小板釋放障礙
+{: .text-alpha }
 
 ## 一句話總結
 

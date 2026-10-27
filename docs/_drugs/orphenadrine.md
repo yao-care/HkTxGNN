@@ -33,7 +33,8 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-# Orphenadrine：從帕金森氏症到思覺失調症
+## Orphenadrine：從帕金森氏症到思覺失調症
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["homozygous familial hypercholesterolemia", "hyperlipopr
 
 </div>
 
-# Fenofibrate：從高三酸甘油脂血症到同型接合子家族性高膽固醇血症
+## Fenofibrate：從高三酸甘油脂血症到同型接合子家族性高膽固醇血症
+{: .text-alpha }
 
 ## 一句話總結
 

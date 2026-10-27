@@ -33,7 +33,8 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 
 </div>
 
-# Moroctocog alfa：從血友病到原發性血小板釋放障礙
+## Moroctocog alfa：從血友病到原發性血小板釋放障礙
+{: .text-alpha }
 
 ## 一句話總結
 

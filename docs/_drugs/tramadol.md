@@ -33,7 +33,8 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 </div>
 
-# Tramadol：從骨關節炎到先天性骨骼發育不良（Hunter-Thompson 型肢中段發育不良）
+## Tramadol：從骨關節炎到先天性骨骼發育不良（Hunter-Thompson 型肢中段發育不良）
+{: .text-alpha }
 
 ## 一句話總結
 

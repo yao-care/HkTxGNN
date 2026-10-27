@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "brea
 
 </div>
 
-# Dienogest：從子宮內膜異位症相關用途到閉經
+## Dienogest：從子宮內膜異位症相關用途到閉經
+{: .text-alpha }
 
 ## 一句話總結
 

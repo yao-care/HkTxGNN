@@ -33,7 +33,8 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "T
 
 </div>
 
-# Fentanyl：從疼痛處置到腎因性抗利尿激素不適當分泌症候群
+## Fentanyl：從疼痛處置到腎因性抗利尿激素不適當分泌症候群
+{: .text-alpha }
 
 ## 一句話總結
 

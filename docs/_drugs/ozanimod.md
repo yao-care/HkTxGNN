@@ -31,7 +31,8 @@ description: "Ozanimod：預測新適應症為進行性復發型多發性硬化�
 
 </div>
 
-# Ozanimod：從多發性硬化症到進行性復發型多發性硬化症
+## Ozanimod：從多發性硬化症到進行性復發型多發性硬化症
+{: .text-alpha }
 
 ## 一句話總結
 

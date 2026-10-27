@@ -33,7 +33,8 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 </div>
 
-# Labetalol：從高血壓到惡性高血壓腎病變
+## Labetalol：從高血壓到惡性高血壓腎病變
+{: .text-alpha }
 
 ## 一句話總結
 

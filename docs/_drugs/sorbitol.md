@@ -33,7 +33,8 @@ predicted_indications: ["exercise-induced malignant hyperthermia"]
 
 </div>
 
-# Sorbitol：從（未載明原適應症）到運動誘發惡性高熱
+## Sorbitol：從（未載明原適應症）到運動誘發惡性高熱
+{: .text-alpha }
 
 ## 一句話總結
 

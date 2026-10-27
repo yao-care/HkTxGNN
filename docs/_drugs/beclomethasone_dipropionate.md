@@ -33,7 +33,8 @@ predicted_indications: ["atopic eczema"]
 
 </div>
 
-# Beclomethasone Dipropionate：從氣喘與過敏性鼻炎到異位性皮膚炎
+## Beclomethasone Dipropionate：從氣喘與過敏性鼻炎到異位性皮膚炎
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["duodenal obstruction"]
 
 </div>
 
-# Esomeprazole：從消化性潰瘍／胃食道逆流到十二指腸胃逆流
+## Esomeprazole：從消化性潰瘍／胃食道逆流到十二指腸胃逆流
+{: .text-alpha }
 
 ## 一句話總結
 

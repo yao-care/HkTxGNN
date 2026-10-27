@@ -33,7 +33,8 @@ predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia",
 
 </div>
 
-# Amiodarone：從心室纖維顫動到心室心搏過速
+## Amiodarone：從心室纖維顫動到心室心搏過速
+{: .text-alpha }
 
 ## 一句話總結
 

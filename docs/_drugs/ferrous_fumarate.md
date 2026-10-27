@@ -33,7 +33,8 @@ predicted_indications: ["non-syndromic esophageal malformation"]
 
 </div>
 
-# Ferrous Fumarate：從缺鐵性貧血到先天性食道畸形（非症候群型）
+## Ferrous Fumarate：從缺鐵性貧血到先天性食道畸形（非症候群型）
+{: .text-alpha }
 
 ## 一句話總結
 

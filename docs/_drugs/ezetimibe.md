@@ -33,7 +33,8 @@ predicted_indications: ["hyperlipoproteinemia", "cholesterol-ester transfer prot
 
 </div>
 
-# Ezetimibe：從高脂血症到高脂蛋白血症
+## Ezetimibe：從高脂血症到高脂蛋白血症
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["refractory cytopenia of childhood"]
 
 </div>
 
-# Decitabine：從急性骨髓性白血病到兒童難治性血球減少症
+## Decitabine：從急性骨髓性白血病到兒童難治性血球減少症
+{: .text-alpha }
 
 ## 一句話總結
 

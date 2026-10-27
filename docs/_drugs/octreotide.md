@@ -33,7 +33,8 @@ predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic kera
 
 </div>
 
-# Octreotide：從肢端肥大症到外陰倒置性毛囊角化症
+## Octreotide：從肢端肥大症到外陰倒置性毛囊角化症
+{: .text-alpha }
 
 ## 一句話總結
 

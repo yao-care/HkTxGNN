@@ -33,7 +33,8 @@ predicted_indications: ["sclerosing cholangitis", "urinary tract infection (dise
 
 </div>
 
-# Framycetin：從（原適應症未載明）到硬化性膽管炎
+## Framycetin：從（原適應症未載明）到硬化性膽管炎
+{: .text-alpha }
 
 ## 一句話總結
 

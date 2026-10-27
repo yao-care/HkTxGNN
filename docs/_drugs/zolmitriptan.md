@@ -33,7 +33,8 @@ predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 
 </div>
 
-# Zolmitriptan：從偏頭痛到腦幹先兆偏頭痛
+## Zolmitriptan：從偏頭痛到腦幹先兆偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

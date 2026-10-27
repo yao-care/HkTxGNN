@@ -33,7 +33,8 @@ predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusit
 
 </div>
 
-# Cilastatin：從細菌性肺炎等感染症到金黃色葡萄球菌感染
+## Cilastatin：從細菌性肺炎等感染症到金黃色葡萄球菌感染
+{: .text-alpha }
 
 ## 一句話總結
 

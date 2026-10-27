@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "open-angle glaucoma", "migraine wi
 
 </div>
 
-# Xylazine：從（未登載原適應症）到偏頭痛
+## Xylazine：從（未登載原適應症）到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

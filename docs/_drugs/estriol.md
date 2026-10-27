@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)"]
 
 </div>
 
-# Estriol：從更年期症狀到無月經症
+## Estriol：從更年期症狀到無月經症
+{: .text-alpha }
 
 ## 一句話總結
 

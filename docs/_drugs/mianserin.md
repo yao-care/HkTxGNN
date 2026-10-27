@@ -33,7 +33,8 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "dysthymic d
 
 </div>
 
-# Mianserin：從憂鬱症到良性嬰兒陣發性斜頸
+## Mianserin：從憂鬱症到良性嬰兒陣發性斜頸
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["tetanic cataract", "mature cataract", "diabetes mellitu
 
 </div>
 
-# Ethyl chloride：從（原適應症未載明）到白內障（tetanic cataract）
+## Ethyl chloride：從（原適應症未載明）到白內障（tetanic cataract）
+{: .text-alpha }
 
 ## 一句話總結
 

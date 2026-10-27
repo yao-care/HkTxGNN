@@ -33,7 +33,8 @@ predicted_indications: ["malignant hypertensive renal disease"]
 
 </div>
 
-# Isotretinoin：從高血壓到惡性腎血管性高血壓
+## Isotretinoin：從高血壓到惡性腎血管性高血壓
+{: .text-alpha }
 
 ## 一句話總結
 

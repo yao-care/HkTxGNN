@@ -33,7 +33,8 @@ predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 
 </div>
 
-# Topotecan：從卵巢癌到女性乳癌
+## Topotecan：從卵巢癌到女性乳癌
+{: .text-alpha }
 
 ## 一句話總結
 

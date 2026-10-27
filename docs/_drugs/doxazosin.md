@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 
 </div>
 
-# Doxazosin：從高血壓與良性攝護腺肥大到偏頭痛
+## Doxazosin：從高血壓與良性攝護腺肥大到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

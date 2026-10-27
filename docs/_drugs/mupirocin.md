@@ -33,7 +33,8 @@ predicted_indications: ["pleural empyema (disease)", "punctate epithelial kerato
 
 </div>
 
-# Mupirocin：從膿痂疹到葡萄球菌燙傷樣皮膚症候群
+## Mupirocin：從膿痂疹到葡萄球菌燙傷樣皮膚症候群
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syn
 
 </div>
 
-# Roxithromycin：從細菌感染到痲瘋病
+## Roxithromycin：從細菌感染到痲瘋病
+{: .text-alpha }
 
 ## 一句話總結
 

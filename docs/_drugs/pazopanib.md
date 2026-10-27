@@ -33,7 +33,8 @@ predicted_indications: ["liposarcoma"]
 
 </div>
 
-# Pazopanib：從腎細胞癌與軟組織肉瘤到脂肪肉瘤
+## Pazopanib：從腎細胞癌與軟組織肉瘤到脂肪肉瘤
+{: .text-alpha }
 
 ## 一句話總結
 

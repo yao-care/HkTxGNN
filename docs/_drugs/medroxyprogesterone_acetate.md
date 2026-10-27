@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 
 </div>
 
-# Medroxyprogesterone Acetate：從子宮內膜異位症到閉經
+## Medroxyprogesterone Acetate：從子宮內膜異位症到閉經
+{: .text-alpha }
 
 ## 一句話總結
 

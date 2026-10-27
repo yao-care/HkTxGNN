@@ -33,7 +33,8 @@ predicted_indications: ["female breast carcinoma", "unclassified myelodysplastic
 
 </div>
 
-# Ifosfamide：從（原適應症未登載）到女性乳癌
+## Ifosfamide：從（原適應症未登載）到女性乳癌
+{: .text-alpha }
 
 ## 一句話總結
 

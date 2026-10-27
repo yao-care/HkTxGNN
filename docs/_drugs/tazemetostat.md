@@ -33,7 +33,8 @@ predicted_indications: ["clear cell renal carcinoma", "ovarian myxoid liposarcom
 
 </div>
 
-# Tazemetostat：從上皮樣肉瘤到腎透明細胞癌
+## Tazemetostat：從上皮樣肉瘤到腎透明細胞癌
+{: .text-alpha }
 
 ## 一句話總結
 

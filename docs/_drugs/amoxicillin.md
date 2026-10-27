@@ -33,7 +33,8 @@ predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia",
 
 </div>
 
-# Amoxicillin：從細菌感染到多株性高黏滯症候群
+## Amoxicillin：從細菌感染到多株性高黏滯症候群
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hy
 
 </div>
 
-# Dabigatran Etexilate：從（原適應症未登載）到硬化性膽管炎
+## Dabigatran Etexilate：從（原適應症未登載）到硬化性膽管炎
+{: .text-alpha }
 
 ## 一句話總結
 

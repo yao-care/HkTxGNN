@@ -33,7 +33,8 @@ predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcino
 
 </div>
 
-# Docetaxel：從多種實體腫瘤到女性乳癌
+## Docetaxel：從多種實體腫瘤到女性乳癌
+{: .text-alpha }
 
 ## 一句話總結
 

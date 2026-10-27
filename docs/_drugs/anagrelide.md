@@ -33,7 +33,8 @@ predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay sy
 
 </div>
 
-# Anagrelide：從血小板增多症到反應性血小板增多症
+## Anagrelide：從血小板增多症到反應性血小板增多症
+{: .text-alpha }
 
 ## 一句話總結
 

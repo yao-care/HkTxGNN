@@ -33,7 +33,8 @@ predicted_indications: ["renal tubular acidosis"]
 
 </div>
 
-# Potassium Acetate：從鉀缺乏症到腎小管酸中毒
+## Potassium Acetate：從鉀缺乏症到腎小管酸中毒
+{: .text-alpha }
 
 ## 一句話總結
 

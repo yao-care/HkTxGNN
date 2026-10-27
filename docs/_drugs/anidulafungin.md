@@ -33,7 +33,8 @@ predicted_indications: ["impetigo", "malignant pleural mesothelioma", "staphyloc
 
 </div>
 
-# Anidulafungin：從食道念珠菌症與念珠菌血症到膿痂疹（預測）
+## Anidulafungin：從食道念珠菌症與念珠菌血症到膿痂疹（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

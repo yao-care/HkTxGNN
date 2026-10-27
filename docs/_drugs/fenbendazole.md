@@ -33,7 +33,8 @@ predicted_indications: ["urinary bladder carcinoma", "urinary bladder neoplasm",
 
 </div>
 
-# Fenbendazole：從（未載明適應症）到膀胱癌
+## Fenbendazole：從（未載明適應症）到膀胱癌
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate ep
 
 </div>
 
-# Amikacin：從細菌感染到副傷寒
+## Amikacin：從細菌感染到副傷寒
+{: .text-alpha }
 
 ## 一句話總結
 

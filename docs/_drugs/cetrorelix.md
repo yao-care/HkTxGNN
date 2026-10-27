@@ -33,7 +33,8 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 </div>
 
-# Cetrorelix：從控制性卵巢刺激（抑制早發性 LH 高峰）到多毛症（Hypertrichosis）
+## Cetrorelix：從控制性卵巢刺激（抑制早發性 LH 高峰）到多毛症（Hypertrichosis）
+{: .text-alpha }
 
 ## 一句話總結
 

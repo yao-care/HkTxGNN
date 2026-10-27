@@ -33,7 +33,8 @@ predicted_indications: ["myofascial pain syndrome", "manic bipolar affective dis
 
 </div>
 
-# Morphine：從腹瀉性疾病到不寧腿症候群
+## Morphine：從腹瀉性疾病到不寧腿症候群
+{: .text-alpha }
 
 ## 一句話總結
 

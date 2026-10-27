@@ -33,7 +33,8 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 
 </div>
 
-# Domperidone：從消化道症狀（適應症資料缺失）到腎因性抗利尿不適當症候群
+## Domperidone：從消化道症狀（適應症資料缺失）到腎因性抗利尿不適當症候群
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["acute lymphoblastic leukemia (disease)", "severe nonpro
 
 </div>
 
-# Sotatercept：從（原適應症資料未提供）到急性淋巴性白血病
+## Sotatercept：從（原適應症資料未提供）到急性淋巴性白血病
+{: .text-alpha }
 
 ## 一句話總結
 

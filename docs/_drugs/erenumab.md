@@ -31,7 +31,8 @@ description: "Erenumab：預測新適應症為伴隨腦幹先兆的偏頭痛 (Mi
 
 </div>
 
-# Erenumab：從偏頭痛到伴隨腦幹先兆的偏頭痛
+## Erenumab：從偏頭痛到伴隨腦幹先兆的偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

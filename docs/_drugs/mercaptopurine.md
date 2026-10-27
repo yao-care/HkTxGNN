@@ -33,7 +33,8 @@ predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocy
 
 </div>
 
-# Mercaptopurine：從急性淋巴芽細胞白血病到骨髓性白血病
+## Mercaptopurine：從急性淋巴芽細胞白血病到骨髓性白血病
+{: .text-alpha }
 
 ## 一句話總結
 

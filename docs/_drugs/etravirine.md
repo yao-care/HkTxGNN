@@ -33,7 +33,8 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 </div>
 
-# Etravirine：從 HIV 感染到貓免疫缺陷病毒感染（預測）
+## Etravirine：從 HIV 感染到貓免疫缺陷病毒感染（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

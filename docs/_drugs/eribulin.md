@@ -33,7 +33,8 @@ predicted_indications: ["autosomal recessive familial Mediterranean fever", "der
 
 </div>
 
-# Eribulin：從脂肪肉瘤到纖維母細胞腫瘤
+## Eribulin：從脂肪肉瘤到纖維母細胞腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

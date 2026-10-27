@@ -33,7 +33,8 @@ predicted_indications: ["obstructive lung disease", "respiratory malformation", 
 
 </div>
 
-# Terbutaline：從氣喘到阻塞性肺病
+## Terbutaline：從氣喘到阻塞性肺病
+{: .text-alpha }
 
 ## 一句話總結
 

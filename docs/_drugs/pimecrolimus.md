@@ -33,7 +33,8 @@ predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acroderm
 
 </div>
 
-# Pimecrolimus：從異位性皮膚炎到脂漏性皮膚炎
+## Pimecrolimus：從異位性皮膚炎到脂漏性皮膚炎
+{: .text-alpha }
 
 ## 一句話總結
 

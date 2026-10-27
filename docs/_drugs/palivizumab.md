@@ -33,7 +33,8 @@ predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cer
 
 </div>
 
-# Palivizumab：從呼吸道融合病毒感染到良性舌部腫瘤（模型預測，證據極弱）
+## Palivizumab：從呼吸道融合病毒感染到良性舌部腫瘤（模型預測，證據極弱）
+{: .text-alpha }
 
 ## 一句話總結
 

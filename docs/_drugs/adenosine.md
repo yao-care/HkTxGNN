@@ -33,7 +33,8 @@ predicted_indications: ["obsolete bundle branch block"]
 
 </div>
 
-# Adenosine：從心室心搏過速到兒茶酚胺敏感性多形性心室心搏過速
+## Adenosine：從心室心搏過速到兒茶酚胺敏感性多形性心室心搏過速
+{: .text-alpha }
 
 ## 一句話總結
 

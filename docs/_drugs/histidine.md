@@ -33,7 +33,8 @@ predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
 
 </div>
 
-# Histidine：從營養補充（胺基酸輸液成分）到胃輕癱
+## Histidine：從營養補充（胺基酸輸液成分）到胃輕癱
+{: .text-alpha }
 
 ## 一句話總結
 

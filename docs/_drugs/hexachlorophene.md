@@ -33,7 +33,8 @@ predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular kera
 
 </div>
 
-# Hexachlorophene：從（原適應症資料缺漏）到皮膚疾病
+## Hexachlorophene：從（原適應症資料缺漏）到皮膚疾病
+{: .text-alpha }
 
 ## 一句話總結
 

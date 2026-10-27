@@ -33,7 +33,8 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia
 
 </div>
 
-# Duloxetine：從憂鬱症到強迫症（OCD）
+## Duloxetine：從憂鬱症到強迫症（OCD）
+{: .text-alpha }
 
 ## 一句話總結
 

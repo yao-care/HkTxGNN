@@ -33,7 +33,8 @@ predicted_indications: ["familial visceral myopathy", "intestinal obstruction", 
 
 </div>
 
-# Serine：從青光眼與肺結核到家族性內臟肌病
+## Serine：從青光眼與肺結核到家族性內臟肌病
+{: .text-alpha }
 
 ## 一句話總結
 

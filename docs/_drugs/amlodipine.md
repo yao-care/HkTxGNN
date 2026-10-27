@@ -33,7 +33,8 @@ predicted_indications: ["brain stem infarction", "pulmonary hypertension owing t
 
 </div>
 
-# Amlodipine：從高血壓與腦血管疾病到腦出血（Intracerebral Hemorrhage）
+## Amlodipine：從高血壓與腦血管疾病到腦出血（Intracerebral Hemorrhage）
+{: .text-alpha }
 
 ## 一句話總結
 

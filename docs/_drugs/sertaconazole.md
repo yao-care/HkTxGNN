@@ -33,7 +33,8 @@ predicted_indications: ["ectothrix infectious disease", "Majocchi granuloma", "e
 
 </div>
 
-# Sertaconazole：從足癬到體癬
+## Sertaconazole：從足癬到體癬
+{: .text-alpha }
 
 ## 一句話總結
 

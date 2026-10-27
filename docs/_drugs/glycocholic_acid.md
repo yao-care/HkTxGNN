@@ -33,7 +33,8 @@ predicted_indications: ["Prinzmetal angina", "myocardial infarction", "brain sma
 
 </div>
 
-# Glycocholic acid：從（原適應症未載明）到 Prinzmetal 心絞痛
+## Glycocholic acid：從（原適應症未載明）到 Prinzmetal 心絞痛
+{: .text-alpha }
 
 ## 一句話總結
 

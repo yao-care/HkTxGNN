@@ -33,7 +33,8 @@ predicted_indications: ["HER2 positive breast carcinoma"]
 
 </div>
 
-# Polatuzumab Vedotin：從原適應症（資料未載明）到 HER2 陽性乳癌
+## Polatuzumab Vedotin：從原適應症（資料未載明）到 HER2 陽性乳癌
+{: .text-alpha }
 
 ## 一句話總結
 

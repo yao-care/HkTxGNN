@@ -33,7 +33,8 @@ predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protu
 
 </div>
 
-# Pirfenidone：從特發性肺纖維化到纖維母細胞腫瘤
+## Pirfenidone：從特發性肺纖維化到纖維母細胞腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

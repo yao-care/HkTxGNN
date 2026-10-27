@@ -33,7 +33,8 @@ predicted_indications: ["papillary conjunctivitis"]
 
 </div>
 
-# Benzocaine：從皮膚黴菌感染與咽炎到乳頭狀結膜炎
+## Benzocaine：從皮膚黴菌感染與咽炎到乳頭狀結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

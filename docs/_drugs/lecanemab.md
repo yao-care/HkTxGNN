@@ -33,7 +33,8 @@ predicted_indications: ["diabetic cataract", "mature cataract", "tetanic catarac
 
 </div>
 
-# Lecanemab：從阿茲海默症相關適應症到糖尿病性白內障
+## Lecanemab：從阿茲海默症相關適應症到糖尿病性白內障
+{: .text-alpha }
 
 ## 一句話總結
 

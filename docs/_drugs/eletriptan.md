@@ -33,7 +33,8 @@ predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", 
 
 </div>
 
-# Eletriptan：從偏頭痛到伴腦幹先兆的偏頭痛
+## Eletriptan：從偏頭痛到伴腦幹先兆的偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

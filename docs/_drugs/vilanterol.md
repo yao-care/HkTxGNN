@@ -33,7 +33,8 @@ predicted_indications: ["hyperlucent lung", "tracheal stenosis"]
 
 </div>
 
-# Vilanterol：從慢性阻塞性肺病與氣喘到阻塞性肺病
+## Vilanterol：從慢性阻塞性肺病與氣喘到阻塞性肺病
+{: .text-alpha }
 
 ## 一句話總結
 

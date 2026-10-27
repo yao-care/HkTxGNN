@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "thrombotic disease", "acute lar
 
 </div>
 
-# Caffeine：從頭痛／鼻炎到鼻腔疾病
+## Caffeine：從頭痛／鼻炎到鼻腔疾病
+{: .text-alpha }
 
 ## 一句話總結
 

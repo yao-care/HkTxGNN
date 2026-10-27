@@ -33,7 +33,8 @@ predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "sp
 
 </div>
 
-# Tocilizumab：從類風濕性關節炎到僵直性脊椎炎
+## Tocilizumab：從類風濕性關節炎到僵直性脊椎炎
+{: .text-alpha }
 
 ## 一句話總結
 

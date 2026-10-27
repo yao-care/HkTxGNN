@@ -33,7 +33,8 @@ predicted_indications: ["peripheral motor neuropathy-dysautonomia syndrome", "in
 
 </div>
 
-# Capsicum oleoresin：從（原適應症資料缺漏）到周邊運動神經病變-自主神經功能異常症候群
+## Capsicum oleoresin：從（原適應症資料缺漏）到周邊運動神經病變-自主神經功能異常症候群
+{: .text-alpha }
 
 ## 一句話總結
 

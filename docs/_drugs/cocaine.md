@@ -33,7 +33,8 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 </div>
 
-# Cocaine：從局部麻醉（適應症未載明）到脊髓馬尾症候群
+## Cocaine：從局部麻醉（適應症未載明）到脊髓馬尾症候群
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["biotin metabolic disease"]
 
 </div>
 
-# Cyanocobalamin：從維生素 B12 缺乏症到生物素代謝疾病
+## Cyanocobalamin：從維生素 B12 缺乏症到生物素代謝疾病
+{: .text-alpha }
 
 ## 一句話總結
 

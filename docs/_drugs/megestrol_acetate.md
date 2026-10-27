@@ -33,7 +33,8 @@ predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline
 
 </div>
 
-# Megestrol Acetate：從子宮內膜癌到子宮體子宮內膜癌
+## Megestrol Acetate：從子宮內膜癌到子宮體子宮內膜癌
+{: .text-alpha }
 
 ## 一句話總結
 

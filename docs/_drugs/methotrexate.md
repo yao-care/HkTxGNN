@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "wel
 
 </div>
 
-# Methotrexate：從急性淋巴母細胞白血病／類風濕性關節炎／淋巴瘤到肺母細胞瘤
+## Methotrexate：從急性淋巴母細胞白血病／類風濕性關節炎／淋巴瘤到肺母細胞瘤
+{: .text-alpha }
 
 ## 一句話總結
 

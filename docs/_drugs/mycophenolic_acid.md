@@ -33,7 +33,8 @@ predicted_indications: ["hemoglobinopathy", "migraine disorder", "migraine with 
 
 </div>
 
-# Mycophenolic Acid：從器官移植免疫抑制到血紅素病變（Hemoglobinopathy）
+## Mycophenolic Acid：從器官移植免疫抑制到血紅素病變（Hemoglobinopathy）
+{: .text-alpha }
 
 ## 一句話總結
 

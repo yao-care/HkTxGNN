@@ -33,7 +33,8 @@ predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal d
 
 </div>
 
-# Resorcinol：從痤瘡與皮膚炎到瘢痕疙瘩性痤瘡（Acne Keloid）
+## Resorcinol：從痤瘡與皮膚炎到瘢痕疙瘩性痤瘡（Acne Keloid）
+{: .text-alpha }
 
 ## 一句話總結
 

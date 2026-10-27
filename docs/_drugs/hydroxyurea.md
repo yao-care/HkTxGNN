@@ -33,7 +33,8 @@ predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin c dis
 
 </div>
 
-# Hydroxyurea：從黑色素瘤與鐮狀細胞貧血到女性乳癌
+## Hydroxyurea：從黑色素瘤與鐮狀細胞貧血到女性乳癌
+{: .text-alpha }
 
 ## 一句話總結
 

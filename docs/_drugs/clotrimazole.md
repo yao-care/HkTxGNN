@@ -33,7 +33,8 @@ predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atro
 
 </div>
 
-# Clotrimazole：從皮膚與黏膜黴菌感染到外陰陰道炎
+## Clotrimazole：從皮膚與黏膜黴菌感染到外陰陰道炎
+{: .text-alpha }
 
 ## 一句話總結
 

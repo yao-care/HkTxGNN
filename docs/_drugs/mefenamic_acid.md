@@ -33,7 +33,8 @@ predicted_indications: ["rheumatoid arthritis", "osteoarthritis susceptibility",
 
 </div>
 
-# Mefenamic Acid：從疼痛與發炎症狀治療到類風濕性關節炎
+## Mefenamic Acid：從疼痛與發炎症狀治療到類風濕性關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

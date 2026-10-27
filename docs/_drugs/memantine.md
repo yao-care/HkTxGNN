@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphosco
 
 </div>
 
-# Memantine：從 阿茲海默症相關適應症（香港許可證未載明）到 偏頭痛 (Migraine Disorder)
+## Memantine：從 阿茲海默症相關適應症（香港許可證未載明）到 偏頭痛 (Migraine Disorder)
+{: .text-alpha }
 
 ## 一句話總結
 

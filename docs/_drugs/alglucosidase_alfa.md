@@ -33,7 +33,8 @@ predicted_indications: ["adult polyglucosan body disease", "congenital entropion
 
 </div>
 
-# Alglucosidase Alfa：從肝醣儲積症到成人多葡聚醣體病
+## Alglucosidase Alfa：從肝醣儲積症到成人多葡聚醣體病
+{: .text-alpha }
 
 ## 一句話總結
 

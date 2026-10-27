@@ -33,7 +33,8 @@ predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated ost
 
 </div>
 
-# Glutamic Acid：從營養輸液成分到停經後骨質疏鬆症
+## Glutamic Acid：從營養輸液成分到停經後骨質疏鬆症
+{: .text-alpha }
 
 ## 一句話總結
 

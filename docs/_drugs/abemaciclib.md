@@ -33,7 +33,8 @@ predicted_indications: ["rheumatoid arthritis", "hyperthyroidism", "multiple end
 
 </div>
 
-# Abemaciclib：從乳癌（推定）到類風濕性關節炎
+## Abemaciclib：從乳癌（推定）到類風濕性關節炎
+{: .text-alpha }
 
 > 註：資料中香港許可證未提供核准適應症文字，原適應症無法由許可證確認。依文獻與藥物類別，Abemaciclib 為 CDK4/6 抑制劑，用於荷爾蒙受體陽性、HER2 陰性乳癌。
 

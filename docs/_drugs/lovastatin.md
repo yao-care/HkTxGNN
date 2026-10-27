@@ -33,7 +33,8 @@ predicted_indications: ["homozygous familial hypercholesterolemia", "hyperlipopr
 
 </div>
 
-# Lovastatin：從高血脂症到同型接合子家族性高膽固醇血症
+## Lovastatin：從高血脂症到同型接合子家族性高膽固醇血症
+{: .text-alpha }
 
 ## 一句話總結
 

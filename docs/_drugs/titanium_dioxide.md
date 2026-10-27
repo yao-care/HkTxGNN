@@ -33,7 +33,8 @@ predicted_indications: ["drug-induced osteoporosis", "diabetic retinopathy", "di
 
 </div>
 
-# Titanium dioxide：從（原適應症未載明）到藥物誘發性骨質疏鬆症
+## Titanium dioxide：從（原適應症未載明）到藥物誘發性骨質疏鬆症
+{: .text-alpha }
 
 ## 一句話總結
 

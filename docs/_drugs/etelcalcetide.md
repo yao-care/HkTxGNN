@@ -33,7 +33,8 @@ predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices with 
 
 </div>
 
-# Etelcalcetide：從副甲狀腺機能亢進到高磷血症
+## Etelcalcetide：從副甲狀腺機能亢進到高磷血症
+{: .text-alpha }
 
 ## 一句話總結
 

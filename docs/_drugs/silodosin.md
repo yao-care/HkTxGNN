@@ -33,7 +33,8 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 </div>
 
-# Silodosin：從良性攝護腺肥大到 Ambras 型先天性全身多毛症
+## Silodosin：從良性攝護腺肥大到 Ambras 型先天性全身多毛症
+{: .text-alpha }
 
 ## 一句話總結
 

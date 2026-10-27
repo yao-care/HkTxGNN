@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary hypertension with unclear multifactorial mech
 
 </div>
 
-# Lisinopril：從高血壓與心肌梗塞到後下壁心肌梗塞
+## Lisinopril：從高血壓與心肌梗塞到後下壁心肌梗塞
+{: .text-alpha }
 
 ## 一句話總結
 

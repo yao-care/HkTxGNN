@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 
 </div>
 
-# Parecoxib：從疼痛處置（原適應症資料缺漏）到偏頭痛
+## Parecoxib：從疼痛處置（原適應症資料缺漏）到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

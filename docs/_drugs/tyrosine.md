@@ -33,7 +33,8 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 </div>
 
-# Tyrosine：從營養支持用途到 Cauda Equina Syndrome（馬尾症候群）
+## Tyrosine：從營養支持用途到 Cauda Equina Syndrome（馬尾症候群）
+{: .text-alpha }
 
 ## 一句話總結
 

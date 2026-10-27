@@ -33,7 +33,8 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 </div>
 
-# Tenofovir Alafenamide：從 HIV 感染到猴免疫缺陷病毒感染（動物模型）
+## Tenofovir Alafenamide：從 HIV 感染到猴免疫缺陷病毒感染（動物模型）
+{: .text-alpha }
 
 ## 一句話總結
 

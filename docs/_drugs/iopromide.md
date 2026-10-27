@@ -33,7 +33,8 @@ predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis", "rheu
 
 </div>
 
-# Iopromide：從影像診斷造影到退化性關節炎（預測）
+## Iopromide：從影像診斷造影到退化性關節炎（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

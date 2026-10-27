@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with or without aura, sus
 
 </div>
 
-# Abiraterone：從前列腺癌相關用途到偏頭痛
+## Abiraterone：從前列腺癌相關用途到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

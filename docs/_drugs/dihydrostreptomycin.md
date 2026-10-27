@@ -33,7 +33,8 @@ predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheu
 
 </div>
 
-# Dihydrostreptomycin：從（原適應症未載明）到骨關節炎
+## Dihydrostreptomycin：從（原適應症未載明）到骨關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

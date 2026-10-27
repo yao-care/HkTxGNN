@@ -33,7 +33,8 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 </div>
 
-# Ofloxacin：從細菌感染症到高澱粉酶血症
+## Ofloxacin：從細菌感染症到高澱粉酶血症
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 </div>
 
-# Voxilaprevir：從慢性 C 型肝炎到 B 型肝炎病毒感染
+## Voxilaprevir：從慢性 C 型肝炎到 B 型肝炎病毒感染
+{: .text-alpha }
 
 ## 一句話總結
 

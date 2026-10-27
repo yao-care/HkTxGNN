@@ -33,7 +33,8 @@ predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitamin
 
 </div>
 
-# Fenfluramine：從肥胖症到 16p11.2 近端微缺失症候群
+## Fenfluramine：從肥胖症到 16p11.2 近端微缺失症候群
+{: .text-alpha }
 
 ## 一句話總結
 

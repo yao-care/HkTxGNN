@@ -33,7 +33,8 @@ predicted_indications: ["trichotillomania", "manic bipolar affective disorder", 
 
 </div>
 
-# Pimozide：從妥瑞氏症到拔毛癖
+## Pimozide：從妥瑞氏症到拔毛癖
+{: .text-alpha }
 
 ## 一句話總結
 

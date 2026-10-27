@@ -33,7 +33,8 @@ predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with 
 
 </div>
 
-# Calcium Glycerophosphate：從高血鈣與磷代謝異常到鈣鹼症候群（預測）
+## Calcium Glycerophosphate：從高血鈣與磷代謝異常到鈣鹼症候群（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

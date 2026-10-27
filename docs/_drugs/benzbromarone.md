@@ -33,7 +33,8 @@ predicted_indications: ["hypouricemia, renal"]
 
 </div>
 
-# Benzbromarone：從痛風與高尿酸血症到腎性低尿酸血症（預測可能為偽陽性）
+## Benzbromarone：從痛風與高尿酸血症到腎性低尿酸血症（預測可能為偽陽性）
+{: .text-alpha }
 
 ## 一句話總結
 

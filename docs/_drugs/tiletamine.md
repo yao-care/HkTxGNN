@@ -33,7 +33,8 @@ predicted_indications: ["insomnia (disease)"]
 
 </div>
 
-# Tiletamine：從獸醫用解離性麻醉到失眠
+## Tiletamine：從獸醫用解離性麻醉到失眠
+{: .text-alpha }
 
 ## 一句話總結
 

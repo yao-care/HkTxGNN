@@ -33,7 +33,8 @@ predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp
 
 </div>
 
-# Olmesartan：從高血壓到偏頭痛
+## Olmesartan：從高血壓到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

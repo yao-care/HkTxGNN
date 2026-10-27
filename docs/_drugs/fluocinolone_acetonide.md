@@ -33,7 +33,8 @@ predicted_indications: ["hypertrophic lichen planus", "annular atrophic lichen p
 
 </div>
 
-# Fluocinolone Acetonide：從皮膚發炎性疾病到肥厚性扁平苔癬
+## Fluocinolone Acetonide：從皮膚發炎性疾病到肥厚性扁平苔癬
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "osteoarthriti
 
 </div>
 
-# Eucalyptus oil：從外用止痛與感冒舒緩產品到類風濕性關節炎
+## Eucalyptus oil：從外用止痛與感冒舒緩產品到類風濕性關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

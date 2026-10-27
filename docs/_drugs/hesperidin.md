@@ -33,7 +33,8 @@ predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "sp
 
 </div>
 
-# Hesperidin：從香港已上市單方製劑到骨髓增生性腫瘤
+## Hesperidin：從香港已上市單方製劑到骨髓增生性腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

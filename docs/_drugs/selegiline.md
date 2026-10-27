@@ -33,7 +33,8 @@ predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia
 
 </div>
 
-# Selegiline：從帕金森氏症到思覺失調症
+## Selegiline：從帕金森氏症到思覺失調症
+{: .text-alpha }
 
 ## 一句話總結
 

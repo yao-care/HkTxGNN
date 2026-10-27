@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease"
 
 </div>
 
-# Nitroglycerin：從心絞痛類適應症到肺動脈高壓
+## Nitroglycerin：從心絞痛類適應症到肺動脈高壓
+{: .text-alpha }
 
 ## 一句話總結
 

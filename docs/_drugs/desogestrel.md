@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "
 
 </div>
 
-# Desogestrel：從避孕到閉經（Amenorrhea）
+## Desogestrel：從避孕到閉經（Amenorrhea）
+{: .text-alpha }
 
 ## 一句話總結
 

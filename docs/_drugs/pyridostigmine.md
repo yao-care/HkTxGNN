@@ -33,7 +33,8 @@ predicted_indications: ["autoimmune disease of peripheral nervous system", "dise
 
 </div>
 
-# Pyridostigmine：從重症肌無力到重症肌無力合併胸腺增生
+## Pyridostigmine：從重症肌無力到重症肌無力合併胸腺增生
+{: .text-alpha }
 
 ## 一句話總結
 

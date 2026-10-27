@@ -33,7 +33,8 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophi
 
 </div>
 
-# Cabozantinib：從腎細胞癌到脂肪肉瘤
+## Cabozantinib：從腎細胞癌到脂肪肉瘤
+{: .text-alpha }
 
 ## 一句話總結
 

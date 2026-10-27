@@ -33,7 +33,8 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 
 </div>
 
-# Dexamethasone：從腎上腺皮質功能不全與發炎性疾病到圓形禿
+## Dexamethasone：從腎上腺皮質功能不全與發炎性疾病到圓形禿
+{: .text-alpha }
 
 ## 一句話總結
 

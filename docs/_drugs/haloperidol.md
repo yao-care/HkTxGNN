@@ -33,7 +33,8 @@ predicted_indications: ["congenital disorder of glycosylation with defective fuc
 
 </div>
 
-# Haloperidol：從精神病性障礙到醣基化先天異常（岩藻糖化缺陷型）
+## Haloperidol：從精神病性障礙到醣基化先天異常（岩藻糖化缺陷型）
+{: .text-alpha }
 
 ## 一句話總結
 

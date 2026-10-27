@@ -33,7 +33,8 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 
 </div>
 
-# Iloprost：從肺動脈高壓到先天性心臟病相關肺動脈高壓
+## Iloprost：從肺動脈高壓到先天性心臟病相關肺動脈高壓
+{: .text-alpha }
 
 ## 一句話總結
 

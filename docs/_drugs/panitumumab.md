@@ -33,7 +33,8 @@ predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative di
 
 </div>
 
-# Panitumumab：從轉移性大腸腫瘤到藥物誘發性骨質疏鬆
+## Panitumumab：從轉移性大腸腫瘤到藥物誘發性骨質疏鬆
+{: .text-alpha }
 
 ## 一句話總結
 

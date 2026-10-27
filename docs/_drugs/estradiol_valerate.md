@@ -33,7 +33,8 @@ predicted_indications: ["symptomatic form of fragile X syndrome in female carrie
 
 </div>
 
-# Estradiol Valerate：從原發性卵巢衰竭到 FMR1 前突變女性帶因者的症狀性脆性 X 症候群
+## Estradiol Valerate：從原發性卵巢衰竭到 FMR1 前突變女性帶因者的症狀性脆性 X 症候群
+{: .text-alpha }
 
 ## 一句話總結
 

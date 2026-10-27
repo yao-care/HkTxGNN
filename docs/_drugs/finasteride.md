@@ -33,7 +33,8 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 </div>
 
-# Finasteride：從良性攝護腺肥大到先天性多毛症（Ambras 型）
+## Finasteride：從良性攝護腺肥大到先天性多毛症（Ambras 型）
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["non-syndromic esophageal malformation", "vitamin defici
 
 </div>
 
-# Carbenoxolone：從消化性潰瘍到非症候群性食道畸形
+## Carbenoxolone：從消化性潰瘍到非症候群性食道畸形
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
 
 </div>
 
-# Ponatinib：從慢性骨髓性白血病到牙齦纖維瘤病
+## Ponatinib：從慢性骨髓性白血病到牙齦纖維瘤病
+{: .text-alpha }
 
 ## 一句話總結
 

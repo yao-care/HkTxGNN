@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
 
 </div>
 
-# Misoprostol：從（原適應症未登載）到閉經 (Amenorrhea)
+## Misoprostol：從（原適應症未登載）到閉經 (Amenorrhea)
+{: .text-alpha }
 
 ## 一句話總結
 

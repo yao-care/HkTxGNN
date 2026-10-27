@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary hypertension with unclear multifactorial mech
 
 </div>
 
-# Imidapril：從高血壓到肺高壓（肺動脈高壓）
+## Imidapril：從高血壓到肺高壓（肺動脈高壓）
+{: .text-alpha }
 
 ## 一句話總結
 

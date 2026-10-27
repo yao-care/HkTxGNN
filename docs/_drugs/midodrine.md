@@ -33,7 +33,8 @@ predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitog
 
 </div>
 
-# Midodrine：從姿位性低血壓到低血壓性疾患
+## Midodrine：從姿位性低血壓到低血壓性疾患
+{: .text-alpha }
 
 ## 一句話總結
 

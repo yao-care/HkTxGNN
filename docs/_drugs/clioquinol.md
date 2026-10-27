@@ -33,7 +33,8 @@ predicted_indications: ["Majocchi granuloma", "ectothrix infectious disease", "e
 
 </div>
 
-# Clioquinol：從足癬與體癬到皮膚念珠菌症
+## Clioquinol：從足癬與體癬到皮膚念珠菌症
+{: .text-alpha }
 
 ## 一句話總結
 

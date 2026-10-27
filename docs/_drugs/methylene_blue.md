@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis", "methemoglobinemia, alpha type", "methemog
 
 </div>
 
-# Methylene Blue：從高鐵血紅素血症到支氣管炎
+## Methylene Blue：從高鐵血紅素血症到支氣管炎
+{: .text-alpha }
 
 ## 一句話總結
 

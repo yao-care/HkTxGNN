@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine
 
 </div>
 
-# Prasugrel：從急性冠心症到偏頭痛
+## Prasugrel：從急性冠心症到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

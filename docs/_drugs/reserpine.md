@@ -31,7 +31,8 @@ description: "Reserpine：預測新適應症為難治型思覺失調症 (treatme
 
 </div>
 
-# Reserpine：從高血壓與精神病性疾患到難治型思覺失調症
+## Reserpine：從高血壓與精神病性疾患到難治型思覺失調症
+{: .text-alpha }
 
 ## 一句話總結
 

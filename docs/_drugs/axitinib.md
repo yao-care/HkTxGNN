@@ -33,7 +33,8 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipom
 
 </div>
 
-# Axitinib：從腎細胞癌到 Xp11.2 易位/TFE3 基因融合型腎細胞癌
+## Axitinib：從腎細胞癌到 Xp11.2 易位/TFE3 基因融合型腎細胞癌
+{: .text-alpha }
 
 ## 一句話總結
 

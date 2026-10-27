@@ -33,7 +33,8 @@ predicted_indications: ["drug-induced osteoporosis"]
 
 </div>
 
-# Trastuzumab Deruxtecan：從（原適應症資料缺漏）到藥物誘發性骨質疏鬆
+## Trastuzumab Deruxtecan：從（原適應症資料缺漏）到藥物誘發性骨質疏鬆
+{: .text-alpha }
 
 ## 一句話總結
 

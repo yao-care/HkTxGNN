@@ -33,7 +33,8 @@ predicted_indications: ["schizoid personality disorder", "paranoid personality d
 
 </div>
 
-# Fluoxetine：從憂鬱症與強迫症到分裂樣人格障礙
+## Fluoxetine：從憂鬱症與強迫症到分裂樣人格障礙
+{: .text-alpha }
 
 ## 一句話總結
 

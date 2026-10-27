@@ -33,7 +33,8 @@ predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma pr
 
 </div>
 
-# Colchicine：從痛風到瘧疾（惡性瘧原蟲 Plasmodium falciparum malaria）
+## Colchicine：從痛風到瘧疾（惡性瘧原蟲 Plasmodium falciparum malaria）
+{: .text-alpha }
 
 ## 一句話總結
 

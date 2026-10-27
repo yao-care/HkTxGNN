@@ -33,7 +33,8 @@ predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioi
 
 </div>
 
-# Plerixafor：從多發性骨髓瘤到惰性漿細胞骨髓瘤
+## Plerixafor：從多發性骨髓瘤到惰性漿細胞骨髓瘤
+{: .text-alpha }
 
 ## 一句話總結
 

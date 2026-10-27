@@ -33,7 +33,8 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 </div>
 
-# Metoprolol：從高血壓與心肌梗塞到惡性腎血管性高血壓
+## Metoprolol：從高血壓與心肌梗塞到惡性腎血管性高血壓
+{: .text-alpha }
 
 ## 一句話總結
 

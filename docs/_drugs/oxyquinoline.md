@@ -33,7 +33,8 @@ predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheu
 
 </div>
 
-# Oxyquinoline：從（未載明原適應症）到骨關節炎
+## Oxyquinoline：從（未載明原適應症）到骨關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

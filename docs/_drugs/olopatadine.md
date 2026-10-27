@@ -33,7 +33,8 @@ predicted_indications: ["rosacea conjunctivitis"]
 
 </div>
 
-# Olopatadine：從過敏性鼻炎與過敏性結膜炎到酒糟性結膜炎
+## Olopatadine：從過敏性鼻炎與過敏性結膜炎到酒糟性結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

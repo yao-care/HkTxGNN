@@ -33,7 +33,8 @@ predicted_indications: ["obsessive-compulsive disorder", "paranoid personality d
 
 </div>
 
-# Trazodone：從憂鬱症到強迫症
+## Trazodone：從憂鬱症到強迫症
+{: .text-alpha }
 
 ## 一句話總結
 

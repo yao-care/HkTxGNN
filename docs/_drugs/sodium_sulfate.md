@@ -33,7 +33,8 @@ predicted_indications: ["dyspepsia"]
 
 </div>
 
-# Sodium Sulfate：從（原適應症未記載）到消化不良
+## Sodium Sulfate：從（原適應症未記載）到消化不良
+{: .text-alpha }
 
 ## 一句話總結
 

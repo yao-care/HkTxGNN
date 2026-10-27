@@ -33,7 +33,8 @@ predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis", "rheu
 
 </div>
 
-# Cefpodoxime：從細菌感染到退化性關節炎（骨關節炎易感性）
+## Cefpodoxime：從細菌感染到退化性關節炎（骨關節炎易感性）
+{: .text-alpha }
 
 ## 一句話總結
 

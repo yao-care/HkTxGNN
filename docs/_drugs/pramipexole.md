@@ -33,7 +33,8 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 
 </div>
 
-# Pramipexole：從帕金森氏症與不寧腿症候群到注意力不足過動症
+## Pramipexole：從帕金森氏症與不寧腿症候群到注意力不足過動症
+{: .text-alpha }
 
 ## 一句話總結
 

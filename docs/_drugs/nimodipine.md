@@ -33,7 +33,8 @@ predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic
 
 </div>
 
-# Nimodipine：從蛛網膜下腔出血到同合子家族性高膽固醇血症
+## Nimodipine：從蛛網膜下腔出血到同合子家族性高膽固醇血症
+{: .text-alpha }
 
 ## 一句話總結
 

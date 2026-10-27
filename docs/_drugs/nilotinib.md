@@ -33,7 +33,8 @@ predicted_indications: ["dermatofibrosarcoma protuberans"]
 
 </div>
 
-# Nilotinib：從慢性骨髓性白血病到隆突性皮膚纖維肉瘤
+## Nilotinib：從慢性骨髓性白血病到隆突性皮膚纖維肉瘤
+{: .text-alpha }
 
 ## 一句話總結
 

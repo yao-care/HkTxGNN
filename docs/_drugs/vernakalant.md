@@ -33,7 +33,8 @@ predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dom
 
 </div>
 
-# Vernakalant：從心房顫動到中風
+## Vernakalant：從心房顫動到中風
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "hea
 
 </div>
 
-# Oxymetazoline：從咽喉炎與感冒到鼻腔疾病
+## Oxymetazoline：從咽喉炎與感冒到鼻腔疾病
+{: .text-alpha }
 
 ## 一句話總結
 

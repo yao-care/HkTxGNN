@@ -33,7 +33,8 @@ predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "po
 
 </div>
 
-# Budesonide：從克隆氏症／氣喘到異位性皮膚炎
+## Budesonide：從克隆氏症／氣喘到異位性皮膚炎
+{: .text-alpha }
 
 ## 一句話總結
 

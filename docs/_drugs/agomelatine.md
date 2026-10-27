@@ -33,7 +33,8 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia
 
 </div>
 
-# Agomelatine：從憂鬱症到嬰兒良性陣發性斜頸
+## Agomelatine：從憂鬱症到嬰兒良性陣發性斜頸
+{: .text-alpha }
 
 ## 一句話總結
 

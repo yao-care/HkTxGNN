@@ -33,7 +33,8 @@ predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", 
 
 </div>
 
-# Etoposide：從小細胞肺癌與睪丸生殖細胞腫瘤到尤文氏肉瘤 (Ewing Sarcoma)
+## Etoposide：從小細胞肺癌與睪丸生殖細胞腫瘤到尤文氏肉瘤 (Ewing Sarcoma)
+{: .text-alpha }
 
 ## 一句話總結
 

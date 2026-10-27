@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Pr
 
 </div>
 
-# Cyproterone Acetate：從荷爾蒙相關適應症到偏頭痛（預測）
+## Cyproterone Acetate：從荷爾蒙相關適應症到偏頭痛（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

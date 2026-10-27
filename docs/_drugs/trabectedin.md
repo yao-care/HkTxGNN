@@ -33,7 +33,8 @@ predicted_indications: ["female breast carcinoma"]
 
 </div>
 
-# Trabectedin：從卵巢癌到女性乳癌
+## Trabectedin：從卵巢癌到女性乳癌
+{: .text-alpha }
 
 ## 一句話總結
 

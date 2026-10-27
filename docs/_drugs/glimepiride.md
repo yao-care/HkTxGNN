@@ -33,7 +33,8 @@ predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndr
 
 </div>
 
-# Glimepiride：從第 2 型糖尿病到僵人症候群（預測）
+## Glimepiride：從第 2 型糖尿病到僵人症候群（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["drug-induced osteoporosis"]
 
 </div>
 
-# Selinexor：從（原適應症未載明）到藥物誘發性骨質疏鬆症
+## Selinexor：從（原適應症未載明）到藥物誘發性骨質疏鬆症
+{: .text-alpha }
 
 ## 一句話總結
 

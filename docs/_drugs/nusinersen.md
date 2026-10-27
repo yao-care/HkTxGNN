@@ -33,7 +33,8 @@ predicted_indications: ["renal hypomagnesemia", "generalized pustular psoriasis"
 
 </div>
 
-# Nusinersen：從脊髓性肌肉萎縮症到腎性低鎂血症
+## Nusinersen：從脊髓性肌肉萎縮症到腎性低鎂血症
+{: .text-alpha }
 
 ## 一句話總結
 

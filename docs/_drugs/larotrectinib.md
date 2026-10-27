@@ -33,7 +33,8 @@ predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast ca
 
 </div>
 
-# Larotrectinib：從 NTRK 融合陽性實體腫瘤到多發性內分泌腫瘤
+## Larotrectinib：從 NTRK 融合陽性實體腫瘤到多發性內分泌腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

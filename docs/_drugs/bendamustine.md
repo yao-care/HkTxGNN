@@ -33,7 +33,8 @@ predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, B
 
 </div>
 
-# Bendamustine：從濾泡性淋巴瘤到被套細胞淋巴瘤
+## Bendamustine：從濾泡性淋巴瘤到被套細胞淋巴瘤
+{: .text-alpha }
 
 ## 一句話總結
 

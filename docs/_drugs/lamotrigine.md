@@ -33,7 +33,8 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 
 </div>
 
-# Lamotrigine：從癲癇到三叉神經痛
+## Lamotrigine：從癲癇到三叉神經痛
+{: .text-alpha }
 
 ## 一句話總結
 

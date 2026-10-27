@@ -33,7 +33,8 @@ predicted_indications: ["pleural adenomatoid tumor"]
 
 </div>
 
-# Pemetrexed：從非小細胞肺癌與惡性胸膜間皮瘤到惡性腹膜間皮瘤
+## Pemetrexed：從非小細胞肺癌與惡性胸膜間皮瘤到惡性腹膜間皮瘤
+{: .text-alpha }
 
 ## 一句話總結
 

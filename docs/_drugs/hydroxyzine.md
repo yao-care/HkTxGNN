@@ -33,7 +33,8 @@ predicted_indications: ["rosacea conjunctivitis"]
 
 </div>
 
-# Hydroxyzine：從過敏性皮膚與呼吸道疾病到過敏性蕁麻疹
+## Hydroxyzine：從過敏性皮膚與呼吸道疾病到過敏性蕁麻疹
+{: .text-alpha }
 
 ## 一句話總結
 

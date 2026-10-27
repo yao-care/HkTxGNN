@@ -33,7 +33,8 @@ predicted_indications: ["duodenal obstruction"]
 
 </div>
 
-# Omeprazole：從消化性潰瘍與胃食道逆流到十二指腸胃逆流
+## Omeprazole：從消化性潰瘍與胃食道逆流到十二指腸胃逆流
+{: .text-alpha }
 
 ## 一句話總結
 

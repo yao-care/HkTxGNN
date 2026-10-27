@@ -33,7 +33,8 @@ predicted_indications: ["renal tubular acidosis"]
 
 </div>
 
-# Potassium Chloride：從缺鉀症到腎小管酸中毒
+## Potassium Chloride：從缺鉀症到腎小管酸中毒
+{: .text-alpha }
 
 ## 一句話總結
 

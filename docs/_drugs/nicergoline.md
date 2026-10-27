@@ -33,7 +33,8 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 </div>
 
-# Nicergoline：從（原適應症資料缺漏）到毛髮過多症
+## Nicergoline：從（原適應症資料缺漏）到毛髮過多症
+{: .text-alpha }
 
 ## 一句話總結
 

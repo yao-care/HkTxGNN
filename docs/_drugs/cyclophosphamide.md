@@ -33,7 +33,8 @@ predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "v
 
 </div>
 
-# Cyclophosphamide：從淋巴瘤與乳癌等惡性腫瘤到骨髓性白血病
+## Cyclophosphamide：從淋巴瘤與乳癌等惡性腫瘤到骨髓性白血病
+{: .text-alpha }
 
 ## 一句話總結
 

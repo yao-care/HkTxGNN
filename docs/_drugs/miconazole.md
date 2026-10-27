@@ -33,7 +33,8 @@ predicted_indications: ["acne (disease)"]
 
 </div>
 
-# Miconazole：從皮膚黴菌感染與念珠菌症到痤瘡
+## Miconazole：從皮膚黴菌感染與念珠菌症到痤瘡
+{: .text-alpha }
 
 ## 一句話總結
 

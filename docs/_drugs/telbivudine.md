@@ -33,7 +33,8 @@ predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious d
 
 </div>
 
-# Telbivudine：從慢性B型肝炎到慢性C型肝炎
+## Telbivudine：從慢性B型肝炎到慢性C型肝炎
+{: .text-alpha }
 
 ## 一句話總結
 

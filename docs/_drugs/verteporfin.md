@@ -33,7 +33,8 @@ predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to
 
 </div>
 
-# Verteporfin：從黃斑部病變到粒線體氧化磷酸化異常疾病
+## Verteporfin：從黃斑部病變到粒線體氧化磷酸化異常疾病
+{: .text-alpha }
 
 ## 一句話總結
 

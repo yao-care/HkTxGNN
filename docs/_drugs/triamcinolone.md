@@ -33,7 +33,8 @@ predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's f
 
 </div>
 
-# Triamcinolone：從自體免疫與發炎性疾病到禿髮性黏蛋白症（Alopecia Mucinosa）
+## Triamcinolone：從自體免疫與發炎性疾病到禿髮性黏蛋白症（Alopecia Mucinosa）
+{: .text-alpha }
 
 ## 一句話總結
 

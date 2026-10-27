@@ -33,7 +33,8 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "attention d
 
 </div>
 
-# Bupropion：從憂鬱症與戒菸到注意力不足過動症 (ADHD)
+## Bupropion：從憂鬱症與戒菸到注意力不足過動症 (ADHD)
+{: .text-alpha }
 
 ## 一句話總結
 

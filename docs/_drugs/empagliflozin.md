@@ -33,7 +33,8 @@ predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndr
 
 </div>
 
-# Empagliflozin：從第 2 型糖尿病到僵人症候群（Classic Stiff Person Syndrome）
+## Empagliflozin：從第 2 型糖尿病到僵人症候群（Classic Stiff Person Syndrome）
+{: .text-alpha }
 
 ## 一句話總結
 

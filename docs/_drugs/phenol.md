@@ -33,7 +33,8 @@ predicted_indications: ["acrodermatitis chronica atrophicans", "secondary inters
 
 </div>
 
-# Phenol（苯酚）：從皮膚炎到慢性萎縮性肢端皮膚炎
+## Phenol（苯酚）：從皮膚炎到慢性萎縮性肢端皮膚炎
+{: .text-alpha }
 
 ## 一句話總結
 

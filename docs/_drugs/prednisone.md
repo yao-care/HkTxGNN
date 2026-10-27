@@ -33,7 +33,8 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 
 </div>
 
-# Prednisone：從自體免疫疾病到圓形禿 (Alopecia Areata)
+## Prednisone：從自體免疫疾病到圓形禿 (Alopecia Areata)
+{: .text-alpha }
 
 ## 一句話總結
 

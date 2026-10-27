@@ -33,7 +33,8 @@ predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hem
 
 </div>
 
-# Nitrofurantoin：從泌尿道感染到類風濕性關節炎
+## Nitrofurantoin：從泌尿道感染到類風濕性關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

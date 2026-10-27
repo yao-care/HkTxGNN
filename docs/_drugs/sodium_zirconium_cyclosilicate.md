@@ -33,7 +33,8 @@ predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia"
 
 </div>
 
-# Sodium zirconium cyclosilicate：從高血鉀症到乳房纖維囊腫病
+## Sodium zirconium cyclosilicate：從高血鉀症到乳房纖維囊腫病
+{: .text-alpha }
 
 ## 一句話總結
 

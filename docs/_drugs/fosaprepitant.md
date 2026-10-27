@@ -33,7 +33,8 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "p
 
 </div>
 
-# Fosaprepitant：從（原適應症未載明）到腎因性抗利尿不適當症候群
+## Fosaprepitant：從（原適應症未載明）到腎因性抗利尿不適當症候群
+{: .text-alpha }
 
 ## 一句話總結
 

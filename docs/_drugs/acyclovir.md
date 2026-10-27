@@ -33,7 +33,8 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart
 
 </div>
 
-# Acyclovir：從皰疹感染到點狀上皮角膜結膜炎
+## Acyclovir：從皰疹感染到點狀上皮角膜結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

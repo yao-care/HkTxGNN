@@ -33,7 +33,8 @@ predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavi
 
 </div>
 
-# Cysteine：從支氣管炎到乾眼症
+## Cysteine：從支氣管炎到乾眼症
+{: .text-alpha }
 
 ## 一句話總結
 

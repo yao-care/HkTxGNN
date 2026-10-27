@@ -33,7 +33,8 @@ predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-r
 
 </div>
 
-# Insulin Detemir：從糖尿病到第 1 型糖尿病
+## Insulin Detemir：從糖尿病到第 1 型糖尿病
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "manic bipolar
 
 </div>
 
-# Isoflurane：從麻醉用途到 Prinzmetal 心絞痛
+## Isoflurane：從麻醉用途到 Prinzmetal 心絞痛
+{: .text-alpha }
 
 ## 一句話總結
 

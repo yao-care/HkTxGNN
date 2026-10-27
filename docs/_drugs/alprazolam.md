@@ -33,7 +33,8 @@ predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of 
 
 </div>
 
-# Alprazolam：從焦慮症到失眠
+## Alprazolam：從焦慮症到失眠
+{: .text-alpha }
 
 ## 一句話總結
 

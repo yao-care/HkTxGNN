@@ -33,7 +33,8 @@ predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", 
 
 </div>
 
-# Fluorometholone：從葡萄膜炎等眼部發炎疾病到感染後血管炎
+## Fluorometholone：從葡萄膜炎等眼部發炎疾病到感染後血管炎
+{: .text-alpha }
 
 ## 一句話總結
 

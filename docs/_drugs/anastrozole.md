@@ -33,7 +33,8 @@ predicted_indications: ["neuroblastoma", "vertebral anomalies and variable endoc
 
 </div>
 
-# Anastrozole：從乳癌（原適應症資料缺漏）到女性乳癌 (Female Breast Carcinoma)
+## Anastrozole：從乳癌（原適應症資料缺漏）到女性乳癌 (Female Breast Carcinoma)
+{: .text-alpha }
 
 ## 一句話總結
 

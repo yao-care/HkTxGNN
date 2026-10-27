@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "nephrogenic syndrome of inappropri
 
 </div>
 
-# Chlorzoxazone：從肌肉骨骼疾病到偏頭痛
+## Chlorzoxazone：從肌肉骨骼疾病到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

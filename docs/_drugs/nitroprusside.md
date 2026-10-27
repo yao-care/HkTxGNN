@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "al
 
 </div>
 
-# Nitroprusside：從高血壓急症到偏頭痛（預測新適應症）
+## Nitroprusside：從高血壓急症到偏頭痛（預測新適應症）
+{: .text-alpha }
 
 ## 一句話總結
 

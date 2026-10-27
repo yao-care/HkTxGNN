@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "ros
 
 </div>
 
-# Phenylpropanolamine：從過敏性鼻炎與感冒到鼻腔疾病
+## Phenylpropanolamine：從過敏性鼻炎與感冒到鼻腔疾病
+{: .text-alpha }
 
 ## 一句話總結
 

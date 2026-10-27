@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)"]
 
 </div>
 
-# Tranexamic Acid：從子宮內膜異位症到閉經
+## Tranexamic Acid：從子宮內膜異位症到閉經
+{: .text-alpha }
 
 ## 一句話總結
 

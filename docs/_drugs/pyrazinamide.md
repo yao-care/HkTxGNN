@@ -33,7 +33,8 @@ predicted_indications: ["infectious otitis media", "middle ear disease", "otosal
 
 </div>
 
-# Pyrazinamide：從肺結核到感染性中耳炎
+## Pyrazinamide：從肺結核到感染性中耳炎
+{: .text-alpha }
 
 ## 一句話總結
 

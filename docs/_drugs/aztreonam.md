@@ -33,7 +33,8 @@ predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia",
 
 </div>
 
-# Aztreonam：從泌尿道感染等革蘭氏陰性菌感染到淋病性尿道炎
+## Aztreonam：從泌尿道感染等革蘭氏陰性菌感染到淋病性尿道炎
+{: .text-alpha }
 
 ## 一句話總結
 

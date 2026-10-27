@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "fau
 
 </div>
 
-# Dextromethorphan：從上呼吸道症狀（鼻炎、感冒、咽炎）到鼻腔疾病
+## Dextromethorphan：從上呼吸道症狀（鼻炎、感冒、咽炎）到鼻腔疾病
+{: .text-alpha }
 
 ## 一句話總結
 

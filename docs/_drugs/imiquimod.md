@@ -33,7 +33,8 @@ predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal muc
 
 </div>
 
-# Imiquimod：從疣與光化性角化症到癌前病變（pre-malignant neoplasm）
+## Imiquimod：從疣與光化性角化症到癌前病變（pre-malignant neoplasm）
+{: .text-alpha }
 
 ## 一句話總結
 

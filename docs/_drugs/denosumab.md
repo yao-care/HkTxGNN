@@ -33,7 +33,8 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabeti
 
 </div>
 
-# Denosumab：從骨質疏鬆症到嚴重非增殖性糖尿病視網膜病變
+## Denosumab：從骨質疏鬆症到嚴重非增殖性糖尿病視網膜病變
+{: .text-alpha }
 
 ## 一句話總結
 

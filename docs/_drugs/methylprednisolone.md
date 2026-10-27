@@ -33,7 +33,8 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 
 </div>
 
-# Methylprednisolone：從自體免疫疾病到圓禿（Alopecia Areata）
+## Methylprednisolone：從自體免疫疾病到圓禿（Alopecia Areata）
+{: .text-alpha }
 
 ## 一句話總結
 

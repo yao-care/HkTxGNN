@@ -33,7 +33,8 @@ predicted_indications: ["insomnia (disease)"]
 
 </div>
 
-# Carisoprodol：從肌肉骨骼疾病到失眠
+## Carisoprodol：從肌肉骨骼疾病到失眠
+{: .text-alpha }
 
 ## 一句話總結
 

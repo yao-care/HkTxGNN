@@ -33,7 +33,8 @@ predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigemi
 
 </div>
 
-# Clonazepam：從癲癇與焦慮症到不寧腿症候群
+## Clonazepam：從癲癇與焦慮症到不寧腿症候群
+{: .text-alpha }
 
 ## 一句話總結
 

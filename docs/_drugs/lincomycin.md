@@ -33,7 +33,8 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 </div>
 
-# Lincomycin：從肺炎鏈球菌／葡萄球菌／鏈球菌感染到高澱粉酶血症
+## Lincomycin：從肺炎鏈球菌／葡萄球菌／鏈球菌感染到高澱粉酶血症
+{: .text-alpha }
 
 ## 一句話總結
 

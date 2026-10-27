@@ -33,7 +33,8 @@ predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronc
 
 </div>
 
-# Cabotegravir：從 HIV 感染到類風濕性關節炎
+## Cabotegravir：從 HIV 感染到類風濕性關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

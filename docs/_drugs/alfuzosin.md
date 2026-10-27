@@ -33,7 +33,8 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 </div>
 
-# Alfuzosin：從良性前列腺增生到 Ambras 型全身性多毛症
+## Alfuzosin：從良性前列腺增生到 Ambras 型全身性多毛症
+{: .text-alpha }
 
 ## 一句話總結
 

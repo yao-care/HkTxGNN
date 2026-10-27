@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 
 </div>
 
-# Progesterone：從子宮內膜異位症到閉經
+## Progesterone：從子宮內膜異位症到閉經
+{: .text-alpha }
 
 ## 一句話總結
 

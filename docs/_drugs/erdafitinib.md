@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease"
 
 </div>
 
-# Erdafitinib：從（原適應症資料未提供）到肺動脈高壓
+## Erdafitinib：從（原適應症資料未提供）到肺動脈高壓
+{: .text-alpha }
 
 ## 一句話總結
 

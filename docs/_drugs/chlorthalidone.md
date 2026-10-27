@@ -33,7 +33,8 @@ predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "m
 
 </div>
 
-# Chlorthalidone：從高血壓到原發性遺傳性青光眼
+## Chlorthalidone：從高血壓到原發性遺傳性青光眼
+{: .text-alpha }
 
 ## 一句話總結
 

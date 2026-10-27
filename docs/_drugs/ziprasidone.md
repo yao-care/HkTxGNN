@@ -33,7 +33,8 @@ predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "major 
 
 </div>
 
-# Ziprasidone：從躁鬱症與思覺失調症到重度情感疾患（Major Affective Disorder）
+## Ziprasidone：從躁鬱症與思覺失調症到重度情感疾患（Major Affective Disorder）
+{: .text-alpha }
 
 ## 一句話總結
 

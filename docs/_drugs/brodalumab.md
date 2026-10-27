@@ -33,7 +33,8 @@ predicted_indications: ["strongyloidiasis", "eye disease", "vitamin deficiency d
 
 </div>
 
-# Brodalumab：從（原適應症未載明）到 Strongyloidiasis（類圓線蟲病）
+## Brodalumab：從（原適應症未載明）到 Strongyloidiasis（類圓線蟲病）
+{: .text-alpha }
 
 ## 一句話總結
 

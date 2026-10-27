@@ -33,7 +33,8 @@ predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivi
 
 </div>
 
-# Metronidazole：從厭氧菌與原蟲感染到肺囊蟲症（Pneumocystosis）
+## Metronidazole：從厭氧菌與原蟲感染到肺囊蟲症（Pneumocystosis）
+{: .text-alpha }
 
 ## 一句話總結
 

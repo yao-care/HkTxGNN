@@ -33,7 +33,8 @@ predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet synd
 
 </div>
 
-# Travoprost：從開角型青光眼與高眼壓症到內臟鈣化防禦（Visceral Calciphylaxis）
+## Travoprost：從開角型青光眼與高眼壓症到內臟鈣化防禦（Visceral Calciphylaxis）
+{: .text-alpha }
 
 ## 一句話總結
 

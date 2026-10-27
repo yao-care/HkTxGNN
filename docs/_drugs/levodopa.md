@@ -33,7 +33,8 @@ predicted_indications: ["Rasmussen subacute encephalitis"]
 
 </div>
 
-# Levodopa：從帕金森氏症到 Rasmussen 亞急性腦炎
+## Levodopa：從帕金森氏症到 Rasmussen 亞急性腦炎
+{: .text-alpha }
 
 ## 一句話總結
 

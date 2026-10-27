@@ -33,7 +33,8 @@ predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma",
 
 </div>
 
-# Tryptophan：從營養補充（無明確登記適應症）到不寧腿症候群
+## Tryptophan：從營養補充（無明確登記適應症）到不寧腿症候群
+{: .text-alpha }
 
 ## 一句話總結
 

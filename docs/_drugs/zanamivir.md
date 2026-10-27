@@ -33,7 +33,8 @@ predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
 
 </div>
 
-# Zanamivir：從流行性感冒到腎盂腎炎
+## Zanamivir：從流行性感冒到腎盂腎炎
+{: .text-alpha }
 
 ## 一句話總結
 

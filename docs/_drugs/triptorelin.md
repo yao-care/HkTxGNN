@@ -33,7 +33,8 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 </div>
 
-# Triptorelin：從（原適應症未載明）到多毛症（Hypertrichosis）
+## Triptorelin：從（原適應症未載明）到多毛症（Hypertrichosis）
+{: .text-alpha }
 
 ## 一句話總結
 

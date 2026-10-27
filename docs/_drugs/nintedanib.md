@@ -33,7 +33,8 @@ predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovari
 
 </div>
 
-# Nintedanib：從非小細胞肺癌／特發性肺纖維化到皮膚纖維肉瘤 (Dermatofibrosarcoma Protuberans)
+## Nintedanib：從非小細胞肺癌／特發性肺纖維化到皮膚纖維肉瘤 (Dermatofibrosarcoma Protuberans)
+{: .text-alpha }
 
 ## 一句話總結
 

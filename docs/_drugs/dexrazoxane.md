@@ -33,7 +33,8 @@ predicted_indications: ["sclerosing cholangitis", "bronchitis", "paratyphoid fev
 
 </div>
 
-# Dexrazoxane：從心臟毒性防護到硬化性膽管炎
+## Dexrazoxane：從心臟毒性防護到硬化性膽管炎
+{: .text-alpha }
 
 ## 一句話總結
 

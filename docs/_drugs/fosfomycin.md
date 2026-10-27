@@ -33,7 +33,8 @@ predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "uteri
 
 </div>
 
-# Fosfomycin：從泌尿道感染到淋病性尿道炎
+## Fosfomycin：從泌尿道感染到淋病性尿道炎
+{: .text-alpha }
 
 ## 一句話總結
 

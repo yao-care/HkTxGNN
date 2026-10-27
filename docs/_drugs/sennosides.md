@@ -33,7 +33,8 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 
 </div>
 
-# Sennosides：從便秘（緩瀉）到頭皮毛髮稀疏症
+## Sennosides：從便秘（緩瀉）到頭皮毛髮稀疏症
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 </div>
 
-# Ergometrine：從產科用途到毛髮過多症（預測）
+## Ergometrine：從產科用途到毛髮過多症（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

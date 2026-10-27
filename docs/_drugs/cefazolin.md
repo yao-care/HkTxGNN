@@ -33,7 +33,8 @@ predicted_indications: ["infectious otitis media", "bronchitis", "middle ear dis
 
 </div>
 
-# Cefazolin：從細菌性肺炎等感染症到感染性中耳炎
+## Cefazolin：從細菌性肺炎等感染症到感染性中耳炎
+{: .text-alpha }
 
 ## 一句話總結
 

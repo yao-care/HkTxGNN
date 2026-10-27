@@ -33,7 +33,8 @@ predicted_indications: ["hereditary angioedema with C1Inh deficiency", "C1 inhib
 
 </div>
 
-# Aminobenzoic Acid：從硬皮症等纖維化疾病到遺傳性血管性水腫（C1 抑制劑缺乏）
+## Aminobenzoic Acid：從硬皮症等纖維化疾病到遺傳性血管性水腫（C1 抑制劑缺乏）
+{: .text-alpha }
 
 ## 一句話總結
 

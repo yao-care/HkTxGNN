@@ -33,7 +33,8 @@ predicted_indications: ["adult astrocytic tumour", "cauda equina neoplasm"]
 
 </div>
 
-# Temozolomide：從惡性星狀細胞瘤到成人星狀細胞腫瘤
+## Temozolomide：從惡性星狀細胞瘤到成人星狀細胞腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["vulvovaginal candidiasis", "candidiasis", "vulvitis", "
 
 </div>
 
-# Natamycin：從黴菌性角膜潰瘍到外陰陰道念珠菌症
+## Natamycin：從黴菌性角膜潰瘍到外陰陰道念珠菌症
+{: .text-alpha }
 
 ## 一句話總結
 

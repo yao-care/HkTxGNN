@@ -33,7 +33,8 @@ predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular kera
 
 </div>
 
-# Hydroquinone：從色素沉著相關外用治療到脂漏性角化症
+## Hydroquinone：從色素沉著相關外用治療到脂漏性角化症
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-# Prochlorperazine：從思覺失調症到視網膜失養症（模型預測首位）
+## Prochlorperazine：從思覺失調症到視網膜失養症（模型預測首位）
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["plasma cell myeloma", "bronchitis", "indolent plasma ce
 
 </div>
 
-# Basiliximab：從器官移植排斥反應預防到多發性骨髓瘤（漿細胞骨髓瘤）
+## Basiliximab：從器官移植排斥反應預防到多發性骨髓瘤（漿細胞骨髓瘤）
+{: .text-alpha }
 
 ## 一句話總結
 

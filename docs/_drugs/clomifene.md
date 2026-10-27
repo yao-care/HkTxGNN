@@ -33,7 +33,8 @@ predicted_indications: ["46,XY disorder of sex development due to testicular ste
 
 </div>
 
-# Clomifene：從女性不孕症到 46,XY 性發育異常（睪固酮合成缺陷）
+## Clomifene：從女性不孕症到 46,XY 性發育異常（睪固酮合成缺陷）
+{: .text-alpha }
 
 ## 一句話總結
 

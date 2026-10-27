@@ -33,7 +33,8 @@ predicted_indications: ["restless legs syndrome"]
 
 </div>
 
-# Oxcarbazepine：從局部性癲癇到視覺性癲癇
+## Oxcarbazepine：從局部性癲癇到視覺性癲癇
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "Pierre Robin 
 
 </div>
 
-# Pipemidic Acid：從泌尿道感染到心臟疾病
+## Pipemidic Acid：從泌尿道感染到心臟疾病
+{: .text-alpha }
 
 ## 一句話總結
 

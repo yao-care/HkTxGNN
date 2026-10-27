@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis", "bronchial neoplasm (disease)", "gastroduo
 
 </div>
 
-# Ferric sulfate：從（原適應症未載明）到支氣管炎
+## Ferric sulfate：從（原適應症未載明）到支氣管炎
+{: .text-alpha }
 
 ## 一句話總結
 

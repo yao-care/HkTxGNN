@@ -33,7 +33,8 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 </div>
 
-# Lamivudine：從慢性 B 型肝炎與 HIV 感染到猿猴免疫缺陷病毒感染
+## Lamivudine：從慢性 B 型肝炎與 HIV 感染到猿猴免疫缺陷病毒感染
+{: .text-alpha }
 
 ## 一句話總結
 

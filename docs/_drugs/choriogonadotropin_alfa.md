@@ -33,7 +33,8 @@ predicted_indications: ["peptic esophagitis", "postural orthostatic tachycardia 
 
 </div>
 
-# Choriogonadotropin alfa：從排卵誘導到消化性食道炎
+## Choriogonadotropin alfa：從排卵誘導到消化性食道炎
+{: .text-alpha }
 
 ## 一句話總結
 

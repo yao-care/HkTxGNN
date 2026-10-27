@@ -33,7 +33,8 @@ predicted_indications: ["symptomatic form of hemophilia in female carriers", "fa
 
 </div>
 
-# Evolocumab：從家族性高膽固醇血症到血友病女性帶因者症狀型（模型預測）
+## Evolocumab：從家族性高膽固醇血症到血友病女性帶因者症狀型（模型預測）
+{: .text-alpha }
 
 ## 一句話總結
 

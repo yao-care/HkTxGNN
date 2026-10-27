@@ -33,7 +33,8 @@ predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with s
 
 </div>
 
-# Prasterone：從全身性紅斑性狼瘡到肝素輔因子 2 缺乏症
+## Prasterone：從全身性紅斑性狼瘡到肝素輔因子 2 缺乏症
+{: .text-alpha }
 
 ## 一句話總結
 

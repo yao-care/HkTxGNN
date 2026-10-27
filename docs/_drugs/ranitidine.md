@@ -33,7 +33,8 @@ predicted_indications: ["peptic ulcer perforation", "duodenal obstruction"]
 
 </div>
 
-# Ranitidine：從消化性潰瘍相關疾病到活動性消化性潰瘍
+## Ranitidine：從消化性潰瘍相關疾病到活動性消化性潰瘍
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "in
 
 </div>
 
-# Abatacept：從類風濕性關節炎到類風濕性血管炎
+## Abatacept：從類風濕性關節炎到類風濕性血管炎
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficien
 
 </div>
 
-# Carbamazepine：從癲癇與三叉神經痛到三叉神經腫瘤
+## Carbamazepine：從癲癇與三叉神經痛到三叉神經腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

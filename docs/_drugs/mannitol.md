@@ -33,7 +33,8 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "a
 
 </div>
 
-# Mannitol：從腦水腫與顱內高壓到抗利尿不適當症候群（腎因性）
+## Mannitol：從腦水腫與顱內高壓到抗利尿不適當症候群（腎因性）
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "Pierre Robin 
 
 </div>
 
-# Prulifloxacin：從細菌感染（原適應症資料缺漏）到心臟疾病
+## Prulifloxacin：從細菌感染（原適應症資料缺漏）到心臟疾病
+{: .text-alpha }
 
 ## 一句話總結
 

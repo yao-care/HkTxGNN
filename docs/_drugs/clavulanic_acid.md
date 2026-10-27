@@ -33,7 +33,8 @@ predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "uteri
 
 </div>
 
-# Clavulanic Acid：從泌尿道感染到淋病性尿道炎
+## Clavulanic Acid：從泌尿道感染到淋病性尿道炎
+{: .text-alpha }
 
 ## 一句話總結
 

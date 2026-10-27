@@ -33,7 +33,8 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure ke
 
 </div>
 
-# Clindamycin：從痤瘡與細菌感染到點狀上皮角膜結膜炎
+## Clindamycin：從痤瘡與細菌感染到點狀上皮角膜結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

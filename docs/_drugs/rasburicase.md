@@ -33,7 +33,8 @@ predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribo
 
 </div>
 
-# Rasburicase：從高尿酸血症到腎性低尿酸血症（預測）
+## Rasburicase：從高尿酸血症到腎性低尿酸血症（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

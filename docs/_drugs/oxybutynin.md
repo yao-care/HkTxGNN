@@ -33,7 +33,8 @@ predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ul
 
 </div>
 
-# Oxybutynin：從膀胱過動症到不寧腿症候群
+## Oxybutynin：從膀胱過動症到不寧腿症候群
+{: .text-alpha }
 
 ## 一句話總結
 

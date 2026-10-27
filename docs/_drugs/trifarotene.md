@@ -33,7 +33,8 @@ predicted_indications: ["zinc, elevated plasma", "pyogenic arthritis-pyoderma ga
 
 </div>
 
-# Trifarotene：從痤瘡到血漿鋅偏高
+## Trifarotene：從痤瘡到血漿鋅偏高
+{: .text-alpha }
 
 ## 一句話總結
 

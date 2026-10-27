@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopha
 
 </div>
 
-# Ipratropium：從慢性阻塞性肺病 (COPD) 到阻塞性肺病 (Obstructive Lung Disease)
+## Ipratropium：從慢性阻塞性肺病 (COPD) 到阻塞性肺病 (Obstructive Lung Disease)
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndro
 
 </div>
 
-# Bosentan：從肺動脈高壓到類風濕性關節炎
+## Bosentan：從肺動脈高壓到類風濕性關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

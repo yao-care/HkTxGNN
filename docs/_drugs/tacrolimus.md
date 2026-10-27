@@ -33,7 +33,8 @@ predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 
 </div>
 
-# Tacrolimus：從異位性皮膚炎到脂漏性皮膚炎
+## Tacrolimus：從異位性皮膚炎到脂漏性皮膚炎
+{: .text-alpha }
 
 ## 一句話總結
 

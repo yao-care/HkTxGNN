@@ -33,7 +33,8 @@ predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive poly
 
 </div>
 
-# Tretinoin：從痤瘡與急性前骨髓細胞白血病到類風濕性結節病
+## Tretinoin：從痤瘡與急性前骨髓細胞白血病到類風濕性結節病
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["Congenital adrenal insuffiency with 46, XY sex reversal
 
 </div>
 
-# Dostarlimab：從（原適應症資料缺漏）到先天性腎上腺功能不全（46,XY 性反轉）
+## Dostarlimab：從（原適應症資料缺漏）到先天性腎上腺功能不全（46,XY 性反轉）
+{: .text-alpha }
 
 > 註：predicted_indications 第一名的預測疾病為「先天性腎上腺功能不全合併 46,XY 性反轉（CYP11A1 缺乏所致）」。其 TxGNN 分數僅 50%，且完全沒有臨床試驗與文獻佐證。有實際文獻的是第 2 名「心臟癌 (heart cancer)」，但文獻內容幾乎都是子宮內膜癌，並非心臟腫瘤。
 

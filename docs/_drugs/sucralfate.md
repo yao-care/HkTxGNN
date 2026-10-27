@@ -33,7 +33,8 @@ predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 
 </div>
 
-# Sucralfate：從十二指腸潰瘍到十二指腸胃逆流
+## Sucralfate：從十二指腸潰瘍到十二指腸胃逆流
+{: .text-alpha }
 
 ## 一句話總結
 

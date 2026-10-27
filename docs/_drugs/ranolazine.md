@@ -33,7 +33,8 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 
 </div>
 
-# Ranolazine：從慢性心絞痛（原適應症資料缺漏）到腎因性抗利尿不適當症候群
+## Ranolazine：從慢性心絞痛（原適應症資料缺漏）到腎因性抗利尿不適當症候群
+{: .text-alpha }
 
 ## 一句話總結
 

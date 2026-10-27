@@ -33,7 +33,8 @@ predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer d
 
 </div>
 
-# Corifollitropin alfa：從生殖輔助用藥到胃十二指腸炎（模型預測，證據極弱）
+## Corifollitropin alfa：從生殖輔助用藥到胃十二指腸炎（模型預測，證據極弱）
+{: .text-alpha }
 
 ## 一句話總結
 

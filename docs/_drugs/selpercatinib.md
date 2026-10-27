@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine
 
 </div>
 
-# Selpercatinib：從 RET 相關癌症到肺高壓
+## Selpercatinib：從 RET 相關癌症到肺高壓
+{: .text-alpha }
 
 ## 一句話總結
 

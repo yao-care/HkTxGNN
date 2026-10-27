@@ -33,7 +33,8 @@ predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic
 
 </div>
 
-# Acetazolamide：從青光眼等適應症到運動誘發惡性高熱
+## Acetazolamide：從青光眼等適應症到運動誘發惡性高熱
+{: .text-alpha }
 
 ## 一句話總結
 

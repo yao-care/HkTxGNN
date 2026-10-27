@@ -33,7 +33,8 @@ predicted_indications: ["lymph node palisaded myofibroblastoma", "celiac trunk c
 
 </div>
 
-# Ticarcillin：從細菌感染到淋巴結柵狀肌纖維母細胞瘤
+## Ticarcillin：從細菌感染到淋巴結柵狀肌纖維母細胞瘤
+{: .text-alpha }
 
 ## 一句話總結
 

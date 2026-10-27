@@ -33,7 +33,8 @@ predicted_indications: ["hypervitaminosis"]
 
 </div>
 
-# Orlistat：從肥胖症到高維生素症
+## Orlistat：從肥胖症到高維生素症
+{: .text-alpha }
 
 ## 一句話總結
 

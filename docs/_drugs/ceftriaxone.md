@@ -33,7 +33,8 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 </div>
 
-# Ceftriaxone：從細菌感染到感染性中耳炎
+## Ceftriaxone：從細菌感染到感染性中耳炎
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis", "bronchial neoplasm (disease)", "severe no
 
 </div>
 
-# Perflubutane：從超音波對比劑到支氣管炎（預測）
+## Perflubutane：從超音波對比劑到支氣管炎（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

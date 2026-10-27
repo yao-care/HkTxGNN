@@ -33,7 +33,8 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 </div>
 
-# Rilpivirine：從 HIV 感染到貓免疫缺乏症候群（預測新適應症）
+## Rilpivirine：從 HIV 感染到貓免疫缺乏症候群（預測新適應症）
+{: .text-alpha }
 
 ## 一句話總結
 

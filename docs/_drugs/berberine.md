@@ -33,7 +33,8 @@ predicted_indications: ["severe pre-eclampsia", "mild pre-eclampsia", "monocytic
 
 </div>
 
-# Berberine：從（原適應症未載明）到嚴重子癇前症
+## Berberine：從（原適應症未載明）到嚴重子癇前症
+{: .text-alpha }
 
 ## 一句話總結
 

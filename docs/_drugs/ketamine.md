@@ -33,7 +33,8 @@ predicted_indications: ["headache disorder"]
 
 </div>
 
-# Ketamine：從麻醉用途到頭痛疾患
+## Ketamine：從麻醉用途到頭痛疾患
+{: .text-alpha }
 
 ## 一句話總結
 

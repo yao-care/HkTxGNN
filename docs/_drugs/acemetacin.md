@@ -33,7 +33,8 @@ predicted_indications: ["osteoarthritis susceptibility"]
 
 </div>
 
-# Acemetacin：從僵直性脊椎炎等風濕性疾病到骨關節炎易感性
+## Acemetacin：從僵直性脊椎炎等風濕性疾病到骨關節炎易感性
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis"]
 
 </div>
 
-# Olodaterol：從慢性阻塞性肺病到支氣管炎
+## Olodaterol：從慢性阻塞性肺病到支氣管炎
+{: .text-alpha }
 
 ## 一句話總結
 

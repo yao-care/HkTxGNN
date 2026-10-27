@@ -33,7 +33,8 @@ predicted_indications: ["endemic goiter", "renal hypodysplasia/aplasia", "nodula
 
 </div>
 
-# Levothyroxine：從甲狀腺功能低下到地方性甲狀腺腫
+## Levothyroxine：從甲狀腺功能低下到地方性甲狀腺腫
+{: .text-alpha }
 
 ## 一句話總結
 

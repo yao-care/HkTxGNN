@@ -33,7 +33,8 @@ predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia",
 
 </div>
 
-# Norfloxacin：從細菌感染到多發性克隆高黏滯症候群
+## Norfloxacin：從細菌感染到多發性克隆高黏滯症候群
+{: .text-alpha }
 
 ## 一句話總結
 

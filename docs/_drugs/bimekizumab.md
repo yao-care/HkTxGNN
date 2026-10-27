@@ -33,7 +33,8 @@ predicted_indications: ["diabetic cataract", "mature cataract", "craniostenosis 
 
 </div>
 
-# Bimekizumab：從（原適應症未載明）到糖尿病性白內障
+## Bimekizumab：從（原適應症未載明）到糖尿病性白內障
+{: .text-alpha }
 
 ## 一句話總結
 

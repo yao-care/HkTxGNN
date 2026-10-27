@@ -33,7 +33,8 @@ predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung c
 
 </div>
 
-# Mitoxantrone：從急性骨髓性白血病到上呼吸消化道腫瘤
+## Mitoxantrone：從急性骨髓性白血病到上呼吸消化道腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

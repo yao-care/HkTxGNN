@@ -33,7 +33,8 @@ predicted_indications: ["primary cutaneous T-cell lymphoma", "Sezary syndrome", 
 
 </div>
 
-# Clobetasone：從皮膚炎症性疾病到原發性皮膚 T 細胞淋巴瘤
+## Clobetasone：從皮膚炎症性疾病到原發性皮膚 T 細胞淋巴瘤
+{: .text-alpha }
 
 ## 一句話總結
 

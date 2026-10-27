@@ -33,7 +33,8 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 </div>
 
-# Losartan：從高血壓與糖尿病腎病變到惡性高血壓腎病變
+## Losartan：從高血壓與糖尿病腎病變到惡性高血壓腎病變
+{: .text-alpha }
 
 ## 一句話總結
 

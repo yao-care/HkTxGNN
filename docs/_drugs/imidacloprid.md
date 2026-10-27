@@ -33,7 +33,8 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 </div>
 
-# Imidacloprid：從（無人類適應症，僅有動物用許可）到 馬尾症候群
+## Imidacloprid：從（無人類適應症，僅有動物用許可）到 馬尾症候群
+{: .text-alpha }
 
 ## 一句話總結
 

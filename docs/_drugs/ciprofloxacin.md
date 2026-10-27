@@ -33,7 +33,8 @@ predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndro
 
 </div>
 
-# Ciprofloxacin：從傷寒與細菌感染到瀰漫性硬皮病
+## Ciprofloxacin：從傷寒與細菌感染到瀰漫性硬皮病
+{: .text-alpha }
 
 ## 一句話總結
 

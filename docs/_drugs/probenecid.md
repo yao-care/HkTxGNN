@@ -33,7 +33,8 @@ predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxant
 
 </div>
 
-# Probenecid：從痛風到腎性低尿酸血症
+## Probenecid：從痛風到腎性低尿酸血症
+{: .text-alpha }
 
 ## 一句話總結
 

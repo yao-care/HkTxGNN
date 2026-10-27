@@ -31,7 +31,8 @@ description: "Sumatriptan：預測新適應症為伴腦幹先兆的偏頭痛 (Mi
 
 </div>
 
-# Sumatriptan：從偏頭痛到伴腦幹先兆的偏頭痛
+## Sumatriptan：從偏頭痛到伴腦幹先兆的偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

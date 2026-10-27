@@ -33,7 +33,8 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 </div>
 
-# Indomethacin：從關節炎與發炎性疾病到 Brachydactyly-Syndactyly 症候群
+## Indomethacin：從關節炎與發炎性疾病到 Brachydactyly-Syndactyly 症候群
+{: .text-alpha }
 
 ## 一句話總結
 

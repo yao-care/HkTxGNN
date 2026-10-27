@@ -33,7 +33,8 @@ predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcino
 
 </div>
 
-# Ramucirumab：從肺癌／胃癌／肝癌到子宮韌帶腺癌
+## Ramucirumab：從肺癌／胃癌／肝癌到子宮韌帶腺癌
+{: .text-alpha }
 
 ## 一句話總結
 

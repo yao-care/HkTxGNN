@@ -33,7 +33,8 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pha
 
 </div>
 
-# Salbutamol：從氣喘與支氣管疾病到支氣管炎
+## Salbutamol：從氣喘與支氣管疾病到支氣管炎
+{: .text-alpha }
 
 ## 一句話總結
 

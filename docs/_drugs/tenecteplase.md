@@ -33,7 +33,8 @@ predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis
 
 </div>
 
-# Tenecteplase：從心肌梗塞到後下壁心肌梗塞
+## Tenecteplase：從心肌梗塞到後下壁心肌梗塞
+{: .text-alpha }
 
 ## 一句話總結
 

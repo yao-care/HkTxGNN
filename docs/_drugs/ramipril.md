@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary hypertension owing to lung disease and/or hyp
 
 </div>
 
-# Ramipril：從高血壓到肺高壓（缺氧/肺疾病相關）
+## Ramipril：從高血壓到肺高壓（缺氧/肺疾病相關）
+{: .text-alpha }
 
 ## 一句話總結
 

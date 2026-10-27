@@ -33,7 +33,8 @@ predicted_indications: ["stroke disorder", "obsolete susceptibility to ischemic 
 
 </div>
 
-# Dronedarone：從心房顫動到中風相關疾患
+## Dronedarone：從心房顫動到中風相關疾患
+{: .text-alpha }
 
 ## 一句話總結
 

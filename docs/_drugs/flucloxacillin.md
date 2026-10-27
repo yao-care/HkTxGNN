@@ -33,7 +33,8 @@ predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Pr
 
 </div>
 
-# Flucloxacillin：從抗葡萄球菌感染到結膜炎
+## Flucloxacillin：從抗葡萄球菌感染到結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

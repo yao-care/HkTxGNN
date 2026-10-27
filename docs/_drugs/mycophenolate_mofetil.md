@@ -33,7 +33,8 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 
 </div>
 
-# Mycophenolate Mofetil：從器官移植排斥反應到 HIV 感染
+## Mycophenolate Mofetil：從器官移植排斥反應到 HIV 感染
+{: .text-alpha }
 
 ## 一句話總結
 

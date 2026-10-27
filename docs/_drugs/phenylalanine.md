@@ -33,7 +33,8 @@ predicted_indications: ["sclerosing cholangitis", "congenital prothrombin defici
 
 </div>
 
-# Phenylalanine：從胺基酸營養補充到硬化性膽管炎
+## Phenylalanine：從胺基酸營養補充到硬化性膽管炎
+{: .text-alpha }
 
 ## 一句話總結
 

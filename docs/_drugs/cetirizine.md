@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "ros
 
 </div>
 
-# Cetirizine：從過敏性鼻炎等過敏性疾病到過敏性蕁麻疹
+## Cetirizine：從過敏性鼻炎等過敏性疾病到過敏性蕁麻疹
+{: .text-alpha }
 
 ## 一句話總結
 

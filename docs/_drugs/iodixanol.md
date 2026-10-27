@@ -33,7 +33,8 @@ predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis", "rheu
 
 </div>
 
-# Iodixanol：從放射診斷造影到退化性關節炎（骨關節炎）
+## Iodixanol：從放射診斷造影到退化性關節炎（骨關節炎）
+{: .text-alpha }
 
 ## 一句話總結
 

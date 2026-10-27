@@ -33,7 +33,8 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 
 </div>
 
-# Ethosuximide：從失神發作癲癇到抗利尿不適當腎因性症候群
+## Ethosuximide：從失神發作癲癇到抗利尿不適當腎因性症候群
+{: .text-alpha }
 
 ## 一句話總結
 

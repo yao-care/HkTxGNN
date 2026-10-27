@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malfo
 
 </div>
 
-# Ambrisentan：從肺動脈高壓到結締組織疾病相關肺動脈高壓
+## Ambrisentan：從肺動脈高壓到結締組織疾病相關肺動脈高壓
+{: .text-alpha }
 
 ## 一句話總結
 

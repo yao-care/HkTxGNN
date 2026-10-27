@@ -33,7 +33,8 @@ predicted_indications: ["pseudo-von Willebrand disease", "primary release disord
 
 </div>
 
-# Emicizumab：從血友病到後天性血友病 A（後天性凝血因子缺乏）
+## Emicizumab：從血友病到後天性血友病 A（後天性凝血因子缺乏）
+{: .text-alpha }
 
 ## 一句話總結
 

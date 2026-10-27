@@ -33,7 +33,8 @@ predicted_indications: ["fascioliasis", "cysticercosis", "coenurosis", "intestin
 
 </div>
 
-# Penciclovir：從唇疱疹到寄生蟲感染（肝片吸蟲症）
+## Penciclovir：從唇疱疹到寄生蟲感染（肝片吸蟲症）
+{: .text-alpha }
 
 ## 一句話總結
 

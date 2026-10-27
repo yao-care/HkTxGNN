@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "at
 
 </div>
 
-# Yohimbine：從（原適應症未載明）到偏頭痛 (Migraine Disorder)
+## Yohimbine：從（原適應症未載明）到偏頭痛 (Migraine Disorder)
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["gaze palsy, familial horizontal, with progressive scoli
 
 </div>
 
-# Risperidone：從雙相情感障礙與思覺失調症到毛髮拔除症（Trichotillomania）
+## Risperidone：從雙相情感障礙與思覺失調症到毛髮拔除症（Trichotillomania）
+{: .text-alpha }
 
 ## 一句話總結
 

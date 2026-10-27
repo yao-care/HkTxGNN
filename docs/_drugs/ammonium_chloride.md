@@ -33,7 +33,8 @@ predicted_indications: ["acute laryngopharyngitis", "nasal cavity disease"]
 
 </div>
 
-# Ammonium Chloride（氯化銨）：從咽炎到急性喉咽炎
+## Ammonium Chloride（氯化銨）：從咽炎到急性喉咽炎
+{: .text-alpha }
 
 ## 一句話總結
 

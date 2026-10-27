@@ -33,7 +33,8 @@ predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", 
 
 </div>
 
-# Methylphenidate：從注意力不足過動症到顏面指趾生殖器症候群
+## Methylphenidate：從注意力不足過動症到顏面指趾生殖器症候群
+{: .text-alpha }
 
 ## 一句話總結
 

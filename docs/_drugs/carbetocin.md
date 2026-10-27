@@ -33,7 +33,8 @@ predicted_indications: ["isotretinoin-like syndrome", "Goodman syndrome"]
 
 </div>
 
-# Carbetocin：從 Prader-Willi 症候群與 Noonan 症候群到 isotretinoin-like syndrome
+## Carbetocin：從 Prader-Willi 症候群與 Noonan 症候群到 isotretinoin-like syndrome
+{: .text-alpha }
 
 ## 一句話總結
 

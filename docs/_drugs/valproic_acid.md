@@ -33,7 +33,8 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 
 </div>
 
-# Valproic Acid：從癲癇到三叉神經腫瘤
+## Valproic Acid：從癲癇到三叉神經腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["lysosomal storage disease with skeletal involvement", "
 
 </div>
 
-# Laronidase：從黏多醣症 I 型到溶小體儲積症（伴骨骼病變）
+## Laronidase：從黏多醣症 I 型到溶小體儲積症（伴骨骼病變）
+{: .text-alpha }
 
 ## 一句話總結
 

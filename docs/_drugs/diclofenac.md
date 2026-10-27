@@ -33,7 +33,8 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dys
 
 </div>
 
-# Diclofenac：從關節炎與光線性角化症到幼年特發性關節炎
+## Diclofenac：從關節炎與光線性角化症到幼年特發性關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

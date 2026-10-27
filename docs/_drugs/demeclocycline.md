@@ -33,7 +33,8 @@ predicted_indications: ["chronic ethmoidal sinusitis", "chronic rhinosinusitis",
 
 </div>
 
-# Demeclocycline：從尿路感染等細菌感染到慢性篩竇炎
+## Demeclocycline：從尿路感染等細菌感染到慢性篩竇炎
+{: .text-alpha }
 
 ## 一句話總結
 

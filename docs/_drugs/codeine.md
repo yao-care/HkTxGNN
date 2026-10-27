@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "tri
 
 </div>
 
-# Codeine：從過敏性鼻炎與感冒相關症狀到鼻腔疾病
+## Codeine：從過敏性鼻炎與感冒相關症狀到鼻腔疾病
+{: .text-alpha }
 
 ## 一句話總結
 

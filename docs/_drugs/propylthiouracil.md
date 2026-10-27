@@ -33,7 +33,8 @@ predicted_indications: ["resistance to thyroid hormone due to a mutation in thyr
 
 </div>
 
-# Propylthiouracil：從甲狀腺機能亢進到甲狀腺素抗性症候群
+## Propylthiouracil：從甲狀腺機能亢進到甲狀腺素抗性症候群
+{: .text-alpha }
 
 ## 一句話總結
 

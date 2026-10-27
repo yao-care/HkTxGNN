@@ -33,7 +33,8 @@ predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis", "rheu
 
 </div>
 
-# Ioversol：從放射顯影造影（原適應症資料缺漏）到退化性關節炎（骨關節炎）
+## Ioversol：從放射顯影造影（原適應症資料缺漏）到退化性關節炎（骨關節炎）
+{: .text-alpha }
 
 ## 一句話總結
 

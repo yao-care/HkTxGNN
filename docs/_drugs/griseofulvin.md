@@ -33,7 +33,8 @@ predicted_indications: ["myiasis", "furuncular myiasis", "wound myiasis", "creep
 
 </div>
 
-# Griseofulvin：從皮癬菌感染（癬類）到蠅蛆症
+## Griseofulvin：從皮癬菌感染（癬類）到蠅蛆症
+{: .text-alpha }
 
 ## 一句話總結
 

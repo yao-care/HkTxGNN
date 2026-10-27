@@ -33,7 +33,8 @@ predicted_indications: ["bacterial arthritis"]
 
 </div>
 
-# Sulbactam：從膽管炎與葡萄球菌感染到細菌性關節炎
+## Sulbactam：從膽管炎與葡萄球菌感染到細菌性關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff synd
 
 </div>
 
-# Formoterol：從肺氣腫與氣喘到支氣管炎
+## Formoterol：從肺氣腫與氣喘到支氣管炎
+{: .text-alpha }
 
 ## 一句話總結
 

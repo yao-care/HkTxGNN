@@ -33,7 +33,8 @@ predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovi
 
 </div>
 
-# Enfortumab vedotin：從（香港許可證未載明原適應症）到 痲瘋病（Leprosy）
+## Enfortumab vedotin：從（香港許可證未載明原適應症）到 痲瘋病（Leprosy）
+{: .text-alpha }
 
 ## 一句話總結
 

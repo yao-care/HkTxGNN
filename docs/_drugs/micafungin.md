@@ -33,7 +33,8 @@ predicted_indications: ["urinary tract infection (disease)"]
 
 </div>
 
-# Micafungin：從食道念珠菌症到泌尿道感染
+## Micafungin：從食道念珠菌症到泌尿道感染
+{: .text-alpha }
 
 ## 一句話總結
 

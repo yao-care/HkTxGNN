@@ -33,7 +33,8 @@ predicted_indications: ["pseudoachondroplasia", "acromesomelic dysplasia, Hunter
 
 </div>
 
-# Lithium Carbonate：從雙相情緒障礙到假性軟骨發育不全
+## Lithium Carbonate：從雙相情緒障礙到假性軟骨發育不全
+{: .text-alpha }
 
 ## 一句話總結
 

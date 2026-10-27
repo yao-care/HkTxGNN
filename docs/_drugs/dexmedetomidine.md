@@ -33,7 +33,8 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "m
 
 </div>
 
-# Dexmedetomidine：從鎮靜用藥到頭痛疾患（Headache Disorder）
+## Dexmedetomidine：從鎮靜用藥到頭痛疾患（Headache Disorder）
+{: .text-alpha }
 
 ## 一句話總結
 

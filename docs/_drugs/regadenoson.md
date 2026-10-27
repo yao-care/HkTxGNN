@@ -33,7 +33,8 @@ predicted_indications: ["anaphylaxis", "food-dependent exercise-induced anaphyla
 
 </div>
 
-# Regadenoson：從心肌灌注造影的藥物負荷劑到過敏性休克（Anaphylaxis）
+## Regadenoson：從心肌灌注造影的藥物負荷劑到過敏性休克（Anaphylaxis）
+{: .text-alpha }
 
 ## 一句話總結
 

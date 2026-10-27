@@ -33,7 +33,8 @@ predicted_indications: ["resistance to thyroid hormone due to a mutation in thyr
 
 </div>
 
-# Carbimazole：從甲狀腺機能亢進到新生兒甲狀腺毒症
+## Carbimazole：從甲狀腺機能亢進到新生兒甲狀腺毒症
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["esotropia", "pre-malignant neoplasm", "inner ear neopla
 
 </div>
 
-# Tagraxofusp：從 CD4+/CD56+ 血液皮膚腫瘤到斜視（Esotropia）
+## Tagraxofusp：從 CD4+/CD56+ 血液皮膚腫瘤到斜視（Esotropia）
+{: .text-alpha }
 
 ## 一句話總結
 

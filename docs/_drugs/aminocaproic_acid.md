@@ -33,7 +33,8 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy"]
 
 </div>
 
-# Aminocaproic Acid：從（原適應症資料缺失）到嚴重非增殖性糖尿病視網膜病變
+## Aminocaproic Acid：從（原適應症資料缺失）到嚴重非增殖性糖尿病視網膜病變
+{: .text-alpha }
 
 ## 一句話總結
 

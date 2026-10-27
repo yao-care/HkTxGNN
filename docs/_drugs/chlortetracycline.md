@@ -33,7 +33,8 @@ predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", 
 
 </div>
 
-# Chlortetracycline：從砂眼到感染後血管炎
+## Chlortetracycline：從砂眼到感染後血管炎
+{: .text-alpha }
 
 ## 一句話總結
 

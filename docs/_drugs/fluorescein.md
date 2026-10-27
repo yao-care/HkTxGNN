@@ -33,7 +33,8 @@ predicted_indications: ["Prinzmetal angina", "antithrombin deficiency type 2", "
 
 </div>
 
-# Fluorescein：從診斷用螢光染劑到 Prinzmetal 心絞痛（變異型心絞痛）
+## Fluorescein：從診斷用螢光染劑到 Prinzmetal 心絞痛（變異型心絞痛）
+{: .text-alpha }
 
 ## 一句話總結
 

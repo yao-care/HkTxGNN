@@ -33,7 +33,8 @@ predicted_indications: ["acute laryngopharyngitis", "nasal cavity disease"]
 
 </div>
 
-# Pentoxyverine：從上呼吸道發炎與鼻炎到急性喉咽炎
+## Pentoxyverine：從上呼吸道發炎與鼻炎到急性喉咽炎
+{: .text-alpha }
 
 ## 一句話總結
 

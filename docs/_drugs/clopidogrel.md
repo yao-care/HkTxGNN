@@ -33,7 +33,8 @@ predicted_indications: ["migraine with brainstem aura", "migraine disorder", "os
 
 </div>
 
-# Clopidogrel：從急性冠心症到偏頭痛
+## Clopidogrel：從急性冠心症到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

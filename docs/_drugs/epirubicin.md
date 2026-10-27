@@ -33,7 +33,8 @@ predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal
 
 </div>
 
-# Epirubicin：從乳癌到原發性肺淋巴瘤
+## Epirubicin：從乳癌到原發性肺淋巴瘤
+{: .text-alpha }
 
 ## 一句話總結
 

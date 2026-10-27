@@ -33,7 +33,8 @@ predicted_indications: ["chondroid hamartoma", "non-seminomatous lesion", "bronc
 
 </div>
 
-# Cetuximab：從大腸直腸癌與頭頸部鱗狀細胞癌到囊性腫瘤（Cystic Neoplasm）
+## Cetuximab：從大腸直腸癌與頭頸部鱗狀細胞癌到囊性腫瘤（Cystic Neoplasm）
+{: .text-alpha }
 
 ## 一句話總結
 

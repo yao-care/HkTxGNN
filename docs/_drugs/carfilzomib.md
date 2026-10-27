@@ -33,7 +33,8 @@ predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioi
 
 </div>
 
-# Carfilzomib：從多發性骨髓瘤到黑色素瘤
+## Carfilzomib：從多發性骨髓瘤到黑色素瘤
+{: .text-alpha }
 
 ## 一句話總結
 

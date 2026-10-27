@@ -33,7 +33,8 @@ predicted_indications: ["biotin metabolic disease"]
 
 </div>
 
-# Folic Acid：從葉酸缺乏性貧血到生物素代謝疾病
+## Folic Acid：從葉酸缺乏性貧血到生物素代謝疾病
+{: .text-alpha }
 
 ## 一句話總結
 

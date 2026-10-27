@@ -33,7 +33,8 @@ predicted_indications: ["congenital disorder of glycosylation with defective fuc
 
 </div>
 
-# Bromocriptine：從帕金森氏症與高泌乳素血症到先天性糖基化異常（岩藻糖基化缺陷型）
+## Bromocriptine：從帕金森氏症與高泌乳素血症到先天性糖基化異常（岩藻糖基化缺陷型）
+{: .text-alpha }
 
 ## 一句話總結
 

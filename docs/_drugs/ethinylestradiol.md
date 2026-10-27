@@ -33,7 +33,8 @@ predicted_indications: ["zinc, elevated plasma"]
 
 </div>
 
-# Ethinylestradiol：從痤瘡與停經後骨質疏鬆到血漿鋅偏高
+## Ethinylestradiol：從痤瘡與停經後骨質疏鬆到血漿鋅偏高
+{: .text-alpha }
 
 ## 一句話總結
 

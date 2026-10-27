@@ -33,7 +33,8 @@ predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the 
 
 </div>
 
-# Latanoprost：從開放性青光眼到原發性遺傳性青光眼
+## Latanoprost：從開放性青光眼到原發性遺傳性青光眼
+{: .text-alpha }
 
 ## 一句話總結
 

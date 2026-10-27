@@ -33,7 +33,8 @@ predicted_indications: ["cervical neuroblastoma", "benign neoplasm of tongue", "
 
 </div>
 
-# Lindane：從疥瘡與蝨感染到頸部神經母細胞瘤
+## Lindane：從疥瘡與蝨感染到頸部神經母細胞瘤
+{: .text-alpha }
 
 ## 一句話總結
 

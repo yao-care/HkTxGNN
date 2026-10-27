@@ -33,7 +33,8 @@ predicted_indications: ["papillary conjunctivitis", "manic bipolar affective dis
 
 </div>
 
-# Prilocaine：從早洩到神經痛
+## Prilocaine：從早洩到神經痛
+{: .text-alpha }
 
 ## 一句話總結
 

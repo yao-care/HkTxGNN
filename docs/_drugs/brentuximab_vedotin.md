@@ -33,7 +33,8 @@ predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lympho
 
 </div>
 
-# Brentuximab Vedotin：從何杰金氏淋巴瘤到濾泡性淋巴瘤
+## Brentuximab Vedotin：從何杰金氏淋巴瘤到濾泡性淋巴瘤
+{: .text-alpha }
 
 ## 一句話總結
 

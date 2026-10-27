@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "co
 
 </div>
 
-# Varenicline：從（原適應症資料缺漏）到偏頭痛
+## Varenicline：從（原適應症資料缺漏）到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

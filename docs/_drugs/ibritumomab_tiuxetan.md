@@ -33,7 +33,8 @@ predicted_indications: ["acute lymphoblastic/lymphocytic leukemia", "small intes
 
 </div>
 
-# Ibritumomab Tiuxetan：從濾泡性淋巴瘤到急性淋巴母細胞白血病
+## Ibritumomab Tiuxetan：從濾泡性淋巴瘤到急性淋巴母細胞白血病
+{: .text-alpha }
 
 ## 一句話總結
 

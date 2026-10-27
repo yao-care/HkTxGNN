@@ -33,7 +33,8 @@ predicted_indications: ["duodenal obstruction"]
 
 </div>
 
-# Pantoprazole：從消化性潰瘍／胃食道逆流到活動性消化性潰瘍
+## Pantoprazole：從消化性潰瘍／胃食道逆流到活動性消化性潰瘍
+{: .text-alpha }
 
 ## 一句話總結
 

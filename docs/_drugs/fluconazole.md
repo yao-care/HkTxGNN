@@ -33,7 +33,8 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 
 </div>
 
-# Fluconazole：從念珠菌感染到點狀上皮角膜結膜炎
+## Fluconazole：從念珠菌感染到點狀上皮角膜結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

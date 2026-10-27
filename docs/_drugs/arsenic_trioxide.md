@@ -33,7 +33,8 @@ predicted_indications: ["unclassified myelodysplastic syndrome", "refractory cyt
 
 </div>
 
-# 三氧化二砷（Arsenic Trioxide）：從急性前骨髓性白血病到骨髓發育不良症候群
+## 三氧化二砷（Arsenic Trioxide）：從急性前骨髓性白血病到骨髓發育不良症候群
+{: .text-alpha }
 
 ## 一句話總結
 

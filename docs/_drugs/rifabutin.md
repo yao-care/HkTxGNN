@@ -33,7 +33,8 @@ predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia"
 
 </div>
 
-# Rifabutin：從分枝桿菌感染到 HIV 感染相關疾病
+## Rifabutin：從分枝桿菌感染到 HIV 感染相關疾病
+{: .text-alpha }
 
 ## 一句話總結
 

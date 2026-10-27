@@ -33,7 +33,8 @@ predicted_indications: ["vitamin B12- and folate-independent constitutional mega
 
 </div>
 
-# Ferrous sulfate anhydrous：從缺鐵性貧血到 Plummer-Vinson 症候群
+## Ferrous sulfate anhydrous：從缺鐵性貧血到 Plummer-Vinson 症候群
+{: .text-alpha }
 
 ## 一句話總結
 

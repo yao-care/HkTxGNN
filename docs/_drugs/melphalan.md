@@ -33,7 +33,8 @@ predicted_indications: ["female breast carcinoma"]
 
 </div>
 
-# Melphalan：從卵巢癌到性腺生殖細胞腫瘤
+## Melphalan：從卵巢癌到性腺生殖細胞腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

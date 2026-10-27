@@ -33,7 +33,8 @@ predicted_indications: ["chronic follicular conjunctivitis", "serous conjunctivi
 
 </div>
 
-# Loteprednol Etabonate：從葡萄膜炎與過敏性結膜炎到慢性濾泡性結膜炎
+## Loteprednol Etabonate：從葡萄膜炎與過敏性結膜炎到慢性濾泡性結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

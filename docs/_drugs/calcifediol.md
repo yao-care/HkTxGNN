@@ -33,7 +33,8 @@ predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis
 
 </div>
 
-# Calcifediol：從維生素 D 代謝相關疾病到維生素 D 缺乏症
+## Calcifediol：從維生素 D 代謝相關疾病到維生素 D 缺乏症
+{: .text-alpha }
 
 ## 一句話總結
 

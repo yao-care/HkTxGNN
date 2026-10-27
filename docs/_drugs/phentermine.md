@@ -33,7 +33,8 @@ predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion synd
 
 </div>
 
-# Phentermine：從肥胖症到 Hypervitaminosis（維生素過多症）
+## Phentermine：從肥胖症到 Hypervitaminosis（維生素過多症）
+{: .text-alpha }
 
 ## 一句話總結
 

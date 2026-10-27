@@ -31,7 +31,8 @@ description: "Olaparib：預測新適應症為女性乳癌 (Female Breast Carcin
 
 </div>
 
-# Olaparib：從卵巢癌到女性乳癌
+## Olaparib：從卵巢癌到女性乳癌
+{: .text-alpha }
 
 ## 一句話總結
 

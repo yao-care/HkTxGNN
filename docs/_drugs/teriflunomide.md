@@ -31,7 +31,8 @@ description: "Teriflunomide：預測新適應症為復發緩解型多發性硬�
 
 </div>
 
-# Teriflunomide：從多發性硬化症到復發緩解型多發性硬化症
+## Teriflunomide：從多發性硬化症到復發緩解型多發性硬化症
+{: .text-alpha }
 
 ## 一句話總結
 

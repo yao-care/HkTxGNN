@@ -33,7 +33,8 @@ predicted_indications: ["diabetic cataract", "tetanic cataract", "diabetes melli
 
 </div>
 
-# Anifrolumab：從系統性紅斑性狼瘡到糖尿病性白內障
+## Anifrolumab：從系統性紅斑性狼瘡到糖尿病性白內障
+{: .text-alpha }
 
 ## 一句話總結
 

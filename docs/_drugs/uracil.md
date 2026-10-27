@@ -33,7 +33,8 @@ predicted_indications: ["colonic neoplasm", "rectosigmoid junction neoplasm", "l
 
 </div>
 
-# Uracil：從（原適應症未登載）到大腸腫瘤
+## Uracil：從（原適應症未登載）到大腸腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

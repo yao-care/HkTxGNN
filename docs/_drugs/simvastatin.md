@@ -33,7 +33,8 @@ predicted_indications: ["brain stem infarction", "cholesterol-ester transfer pro
 
 </div>
 
-# Simvastatin：從高三酸甘油酯血症與動脈粥狀硬化到家族性高膽固醇血症
+## Simvastatin：從高三酸甘油酯血症與動脈粥狀硬化到家族性高膽固醇血症
+{: .text-alpha }
 
 ## 一句話總結
 

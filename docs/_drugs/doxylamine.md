@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 </div>
 
-# Doxylamine：從過敏性鼻炎等上呼吸道過敏症狀到過敏性蕁麻疹
+## Doxylamine：從過敏性鼻炎等上呼吸道過敏症狀到過敏性蕁麻疹
+{: .text-alpha }
 
 ## 一句話總結
 

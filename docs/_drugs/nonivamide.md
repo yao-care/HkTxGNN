@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary hypertension", "peripheral arterial disease",
 
 </div>
 
-# Nonivamide：從外用止痛（原適應症資料缺漏）到肺動脈高壓
+## Nonivamide：從外用止痛（原適應症資料缺漏）到肺動脈高壓
+{: .text-alpha }
 
 ## 一句話總結
 

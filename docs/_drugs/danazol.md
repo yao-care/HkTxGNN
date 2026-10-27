@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "blu
 
 </div>
 
-# Danazol：從子宮內膜異位症到閉經（月經抑制）
+## Danazol：從子宮內膜異位症到閉經（月經抑制）
+{: .text-alpha }
 
 ## 一句話總結
 

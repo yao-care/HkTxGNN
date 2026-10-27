@@ -33,7 +33,8 @@ predicted_indications: ["restless legs syndrome", "otosclerosis", "peripheral ve
 
 </div>
 
-# Betahistine：從梅尼爾氏症到周邊性眩暈
+## Betahistine：從梅尼爾氏症到周邊性眩暈
+{: .text-alpha }
 
 ## 一句話總結
 

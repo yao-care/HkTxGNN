@@ -33,7 +33,8 @@ predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with 
 
 </div>
 
-# Calcium Lactate：從骨質疏鬆症到鈣鹼症候群（不建議推進）
+## Calcium Lactate：從骨質疏鬆症到鈣鹼症候群（不建議推進）
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["interventricular septum aneurysm", "pulmonary valve dis
 
 </div>
 
-# Thymol：從（原適應症未登載）到 間隔性室中隔動脈瘤（Interventricular Septum Aneurysm）
+## Thymol：從（原適應症未登載）到 間隔性室中隔動脈瘤（Interventricular Septum Aneurysm）
+{: .text-alpha }
 
 ## 一句話總結
 

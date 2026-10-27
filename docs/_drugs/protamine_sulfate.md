@@ -33,7 +33,8 @@ predicted_indications: ["myeloid neoplasm associated with FGFR1 rearrangement", 
 
 </div>
 
-# Protamine sulfate：從肝素中和劑到骨髓腫瘤（FGFR1 重排相關）的預測評估
+## Protamine sulfate：從肝素中和劑到骨髓腫瘤（FGFR1 重排相關）的預測評估
+{: .text-alpha }
 
 ## 一句話總結
 

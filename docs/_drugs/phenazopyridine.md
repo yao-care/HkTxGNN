@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis"]
 
 </div>
 
-# Phenazopyridine：從泌尿道不適到支氣管炎
+## Phenazopyridine：從泌尿道不適到支氣管炎
+{: .text-alpha }
 
 ## 一句話總結
 

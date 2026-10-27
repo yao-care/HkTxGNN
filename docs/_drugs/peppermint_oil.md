@@ -33,7 +33,8 @@ predicted_indications: ["leprosy", "pneumocystosis", "coronary artery disease", 
 
 </div>
 
-# Peppermint oil：從（原適應症未載明）到 痲瘋病（Leprosy）
+## Peppermint oil：從（原適應症未載明）到 痲瘋病（Leprosy）
+{: .text-alpha }
 
 ## 一句話總結
 

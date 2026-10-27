@@ -33,7 +33,8 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 </div>
 
-# Lacosamide：從癲癇發作（原適應症資料缺漏）到偏頭痛
+## Lacosamide：從癲癇發作（原適應症資料缺漏）到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

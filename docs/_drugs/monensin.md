@@ -33,7 +33,8 @@ predicted_indications: ["gastroesophageal reflux disease", "primary biliary chol
 
 </div>
 
-# Monensin：從（原適應症未登載）到 胃食道逆流病（預測排序第 1）
+## Monensin：從（原適應症未登載）到 胃食道逆流病（預測排序第 1）
+{: .text-alpha }
 
 ## 一句話總結
 

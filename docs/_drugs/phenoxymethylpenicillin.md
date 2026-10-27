@@ -33,7 +33,8 @@ predicted_indications: ["epiglottitis", "laryngitis"]
 
 </div>
 
-# Phenoxymethylpenicillin：從上呼吸道與咽部細菌感染到會厭炎
+## Phenoxymethylpenicillin：從上呼吸道與咽部細菌感染到會厭炎
+{: .text-alpha }
 
 ## 一句話總結
 

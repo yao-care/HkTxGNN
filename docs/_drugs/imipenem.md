@@ -33,7 +33,8 @@ predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellos
 
 </div>
 
-# Imipenem：從細菌性肺炎到副傷寒（Paratyphoid Fever）
+## Imipenem：從細菌性肺炎到副傷寒（Paratyphoid Fever）
+{: .text-alpha }
 
 ## 一句話總結
 

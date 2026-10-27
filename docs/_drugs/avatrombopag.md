@@ -33,7 +33,8 @@ predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency",
 
 </div>
 
-# Avatrombopag：從血小板低下症到「巨型血小板低下合併二尖瓣閉鎖不全」
+## Avatrombopag：從血小板低下症到「巨型血小板低下合併二尖瓣閉鎖不全」
+{: .text-alpha }
 
 ## 一句話總結
 

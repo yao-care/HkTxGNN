@@ -33,7 +33,8 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 </div>
 
-# Nebivolol：從高血壓到惡性腎血管性高血壓
+## Nebivolol：從高血壓到惡性腎血管性高血壓
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -31,7 +31,8 @@ description: "Obinutuzumab：預測新適應症為濾泡性淋巴瘤 (Follicular
 
 </div>
 
-# Obinutuzumab：從急性淋巴性白血病／Richter 症候群到濾泡性淋巴瘤
+## Obinutuzumab：從急性淋巴性白血病／Richter 症候群到濾泡性淋巴瘤
+{: .text-alpha }
 
 ## 一句話總結
 

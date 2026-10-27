@@ -33,7 +33,8 @@ predicted_indications: ["gastroparesis (disease)"]
 
 </div>
 
-# Alanine：從營養輸液成分到胃輕癱
+## Alanine：從營養輸液成分到胃輕癱
+{: .text-alpha }
 
 ## 一句話總結
 

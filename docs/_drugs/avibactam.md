@@ -33,7 +33,8 @@ predicted_indications: ["influenza, severe, susceptibility to", "ureter tubercul
 
 </div>
 
-# Avibactam：從腎盂腎炎到鏈球菌肺炎
+## Avibactam：從腎盂腎炎到鏈球菌肺炎
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic eth
 
 </div>
 
-# Tetracycline：從細菌感染（泌尿道感染、肺炎、痤瘡等）到點狀上皮角結膜炎
+## Tetracycline：從細菌感染（泌尿道感染、肺炎、痤瘡等）到點狀上皮角結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

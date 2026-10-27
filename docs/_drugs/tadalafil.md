@@ -33,7 +33,8 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 </div>
 
-# Tadalafil：從勃起功能障礙與肺動脈高壓到 Ambras 型全身性多毛症
+## Tadalafil：從勃起功能障礙與肺動脈高壓到 Ambras 型全身性多毛症
+{: .text-alpha }
 
 ## 一句話總結
 

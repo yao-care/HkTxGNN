@@ -33,7 +33,8 @@ predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete
 
 </div>
 
-# Chlordiazepoxide：從焦慮症與酒精戒斷到失眠
+## Chlordiazepoxide：從焦慮症與酒精戒斷到失眠
+{: .text-alpha }
 
 ## 一句話總結
 

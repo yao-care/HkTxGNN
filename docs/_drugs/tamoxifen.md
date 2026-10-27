@@ -33,7 +33,8 @@ predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "bot
 
 </div>
 
-# Tamoxifen：從乳癌到乳腺原位癌（導管原位癌）
+## Tamoxifen：從乳癌到乳腺原位癌（導管原位癌）
+{: .text-alpha }
 
 ## 一句話總結
 

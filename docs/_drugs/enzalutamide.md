@@ -33,7 +33,8 @@ predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prost
 
 </div>
 
-# Enzalutamide：從攝護腺癌到攝護腺癌／腦癌易感性
+## Enzalutamide：從攝護腺癌到攝護腺癌／腦癌易感性
+{: .text-alpha }
 
 ## 一句話總結
 

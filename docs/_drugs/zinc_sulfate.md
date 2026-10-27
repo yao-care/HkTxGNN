@@ -33,7 +33,8 @@ predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopha
 
 </div>
 
-# 硫酸鋅 (Zinc Sulfate)：從香港已上市用途到咽炎
+## 硫酸鋅 (Zinc Sulfate)：從香港已上市用途到咽炎
+{: .text-alpha }
 
 ## 一句話總結
 

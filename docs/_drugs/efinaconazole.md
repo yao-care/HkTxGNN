@@ -33,7 +33,8 @@ predicted_indications: ["skin sarcoma", "sinus histiocytosis with massive lympha
 
 </div>
 
-# Efinaconazole：從甲癬到皮膚肉瘤
+## Efinaconazole：從甲癬到皮膚肉瘤
+{: .text-alpha }
 
 ## 一句話總結
 

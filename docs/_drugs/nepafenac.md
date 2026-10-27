@@ -33,7 +33,8 @@ predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simple
 
 </div>
 
-# Nepafenac：從眼科術後發炎與疼痛到眼部疾病（Eye Disease）
+## Nepafenac：從眼科術後發炎與疼痛到眼部疾病（Eye Disease）
+{: .text-alpha }
 
 ## 一句話總結
 

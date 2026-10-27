@@ -33,7 +33,8 @@ predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal ca
 
 </div>
 
-# Acetylcysteine：從支氣管炎與對乙醯胺酚中毒到血栓性疾病
+## Acetylcysteine：從支氣管炎與對乙醯胺酚中毒到血栓性疾病
+{: .text-alpha }
 
 ## 一句話總結
 

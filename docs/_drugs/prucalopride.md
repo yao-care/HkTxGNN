@@ -33,7 +33,8 @@ predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hyperch
 
 </div>
 
-# Prucalopride：從便秘到低 α 脂蛋白血症
+## Prucalopride：從便秘到低 α 脂蛋白血症
+{: .text-alpha }
 
 ## 一句話總結
 

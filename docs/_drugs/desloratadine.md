@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "rec
 
 </div>
 
-# Desloratadine：從過敏性鼻炎與蕁麻疹到寒冷性蕁麻疹
+## Desloratadine：從過敏性鼻炎與蕁麻疹到寒冷性蕁麻疹
+{: .text-alpha }
 
 ## 一句話總結
 

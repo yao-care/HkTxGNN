@@ -33,7 +33,8 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 </div>
 
-# Sulfasalazine：從類風濕性關節炎到骨關節炎
+## Sulfasalazine：從類風濕性關節炎到骨關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

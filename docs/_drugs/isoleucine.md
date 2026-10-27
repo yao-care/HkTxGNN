@@ -33,7 +33,8 @@ predicted_indications: ["gastroparesis (disease)"]
 
 </div>
 
-# Isoleucine：從（原適應症未載明）到胃輕癱
+## Isoleucine：從（原適應症未載明）到胃輕癱
+{: .text-alpha }
 
 ## 一句話總結
 

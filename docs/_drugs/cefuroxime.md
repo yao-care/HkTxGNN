@@ -33,7 +33,8 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 </div>
 
-# Cefuroxime：從細菌感染症到高澱粉酶血症（TxGNN 首位預測）
+## Cefuroxime：從細菌感染症到高澱粉酶血症（TxGNN 首位預測）
+{: .text-alpha }
 
 > 註：TxGNN 分數最高的預測（高澱粉酶血症）缺乏任何證據支持。本報告以首位預測作為標題與快速總覽，並於後文說明證據較完整的替代方向（泌尿道感染）。
 

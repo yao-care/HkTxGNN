@@ -33,7 +33,8 @@ predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular kera
 
 </div>
 
-# Calcipotriol：從皮膚角化性疾病（乾癬類）到脂漏性角化症
+## Calcipotriol：從皮膚角化性疾病（乾癬類）到脂漏性角化症
+{: .text-alpha }
 
 ## 一句話總結
 

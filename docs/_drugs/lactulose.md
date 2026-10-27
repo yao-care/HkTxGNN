@@ -33,7 +33,8 @@ predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructi
 
 </div>
 
-# Lactulose：從肝性腦病變到阻塞性黃疸
+## Lactulose：從肝性腦病變到阻塞性黃疸
+{: .text-alpha }
 
 ## 一句話總結
 

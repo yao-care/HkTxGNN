@@ -33,7 +33,8 @@ predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhi
 
 </div>
 
-# Piperacillin：從細菌感染到類風濕性關節炎
+## Piperacillin：從細菌感染到類風濕性關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

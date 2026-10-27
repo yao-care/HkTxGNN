@@ -33,7 +33,8 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "h
 
 </div>
 
-# Aprepitant：從化療相關噁心嘔吐到腎因性抗利尿不適當症候群
+## Aprepitant：從化療相關噁心嘔吐到腎因性抗利尿不適當症候群
+{: .text-alpha }
 
 ## 一句話總結
 

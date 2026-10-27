@@ -33,7 +33,8 @@ predicted_indications: ["conjunctivitis"]
 
 </div>
 
-# Isoniazid：從肺結核到結膜炎
+## Isoniazid：從肺結核到結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

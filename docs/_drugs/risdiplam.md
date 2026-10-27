@@ -33,7 +33,8 @@ predicted_indications: ["acne (disease)", "drug-induced osteoporosis", "zinc, el
 
 </div>
 
-# Risdiplam：從脊髓性肌肉萎縮症到痤瘡
+## Risdiplam：從脊髓性肌肉萎縮症到痤瘡
+{: .text-alpha }
 
 ## 一句話總結
 

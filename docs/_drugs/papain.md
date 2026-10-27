@@ -33,7 +33,8 @@ predicted_indications: ["primary release disorder of platelets", "Glanzmann thro
 
 </div>
 
-# Papain：從（原適應症未載明）到 原發性血小板釋放障礙
+## Papain：從（原適應症未載明）到 原發性血小板釋放障礙
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["gastroduodenitis", "peptic ulcer disease"]
 
 </div>
 
-# Mepivacaine：從局部麻醉到胃十二指腸炎
+## Mepivacaine：從局部麻醉到胃十二指腸炎
+{: .text-alpha }
 
 ## 一句話總結
 

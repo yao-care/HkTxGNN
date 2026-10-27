@@ -33,7 +33,8 @@ predicted_indications: ["atypical coarctation of aorta", "aortic malformation", 
 
 </div>
 
-# Lactic acid：從（原適應症未載明）到先天性主動脈縮窄（非典型）
+## Lactic acid：從（原適應症未載明）到先天性主動脈縮窄（非典型）
+{: .text-alpha }
 
 ## 一句話總結
 

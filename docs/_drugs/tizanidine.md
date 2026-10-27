@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 
 </div>
 
-# Tizanidine：從痙攣性肌張力異常到偏頭痛
+## Tizanidine：從痙攣性肌張力異常到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

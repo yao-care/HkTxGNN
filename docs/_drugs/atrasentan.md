@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)"]
 
 </div>
 
-# Atrasentan：從 IgA 腎病變到閉經
+## Atrasentan：從 IgA 腎病變到閉經
+{: .text-alpha }
 
 ## 一句話總結
 

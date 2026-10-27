@@ -33,7 +33,8 @@ predicted_indications: ["upper aerodigestive tract neoplasm"]
 
 </div>
 
-# Dacarbazine：從何杰金氏淋巴瘤與轉移性黑色素瘤到上呼吸消化道腫瘤
+## Dacarbazine：從何杰金氏淋巴瘤與轉移性黑色素瘤到上呼吸消化道腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

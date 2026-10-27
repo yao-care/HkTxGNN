@@ -33,7 +33,8 @@ predicted_indications: ["multiple endocrine neoplasia", "acne (disease)", "prima
 
 </div>
 
-# Maraviroc：從 HIV 感染到多發性內分泌腫瘤
+## Maraviroc：從 HIV 感染到多發性內分泌腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

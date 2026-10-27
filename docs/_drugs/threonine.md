@@ -33,7 +33,8 @@ predicted_indications: ["gastroparesis (disease)"]
 
 </div>
 
-# Threonine：從胺基酸營養補充到胃輕癱
+## Threonine：從胺基酸營養補充到胃輕癱
+{: .text-alpha }
 
 ## 一句話總結
 

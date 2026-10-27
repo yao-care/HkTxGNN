@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary hypertension", "migraine with or without aura
 
 </div>
 
-# Alpelisib：從乳癌（原適應症資料未載明）到肺動脈高壓
+## Alpelisib：從乳癌（原適應症資料未載明）到肺動脈高壓
+{: .text-alpha }
 
 ## 一句話總結
 

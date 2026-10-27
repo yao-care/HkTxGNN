@@ -33,7 +33,8 @@ description: "Cidofovir：預測新適應症為硬化性膽管炎 (Sclerosing Ch
 
 </div>
 
-# Cidofovir：從（原適應症資料未提供）到硬化性膽管炎
+## Cidofovir：從（原適應症資料未提供）到硬化性膽管炎
+{: .text-alpha }
 
 ## 一句話總結
 

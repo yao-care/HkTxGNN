@@ -33,7 +33,8 @@ predicted_indications: ["Scheie syndrome", "lysosomal storage disease with skele
 
 </div>
 
-# Elosulfase alfa：從黏多醣症到 Scheie 症候群
+## Elosulfase alfa：從黏多醣症到 Scheie 症候群
+{: .text-alpha }
 
 ## 一句話總結
 

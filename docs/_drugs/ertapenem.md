@@ -33,7 +33,8 @@ predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"
 
 </div>
 
-# Ertapenem：從細菌性肺炎到細菌性關節炎
+## Ertapenem：從細菌性肺炎到細菌性關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

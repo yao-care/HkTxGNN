@@ -33,7 +33,8 @@ predicted_indications: ["obstructive lung disease", "respiratory malformation", 
 
 </div>
 
-# Tiotropium：從支氣管炎／氣喘／肺氣腫到阻塞性肺病
+## Tiotropium：從支氣管炎／氣喘／肺氣腫到阻塞性肺病
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hep
 
 </div>
 
-# Siltuximab：從 Castleman 病到 TAFRO 症候群
+## Siltuximab：從 Castleman 病到 TAFRO 症候群
+{: .text-alpha }
 
 ## 一句話總結
 

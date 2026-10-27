@@ -33,7 +33,8 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell
 
 </div>
 
-# Regorafenib：從大腸直腸癌轉移、肝細胞癌與胃腸道基質瘤到脂肪肉瘤
+## Regorafenib：從大腸直腸癌轉移、肝細胞癌與胃腸道基質瘤到脂肪肉瘤
+{: .text-alpha }
 
 ## 一句話總結
 

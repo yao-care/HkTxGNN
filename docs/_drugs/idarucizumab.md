@@ -33,7 +33,8 @@ predicted_indications: ["hemoglobinopathy", "rheumatoid arthritis", "partial del
 
 </div>
 
-# Idarucizumab：從 Dabigatran 逆轉治療到血紅素病變（預測）
+## Idarucizumab：從 Dabigatran 逆轉治療到血紅素病變（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

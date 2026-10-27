@@ -33,7 +33,8 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "schizophren
 
 </div>
 
-# Rotigotine：從巴金森氏症到注意力不足過動症
+## Rotigotine：從巴金森氏症到注意力不足過動症
+{: .text-alpha }
 
 ## 一句話總結
 

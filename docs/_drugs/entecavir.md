@@ -33,7 +33,8 @@ predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious d
 
 </div>
 
-# Entecavir：從慢性 B 型肝炎到慢性 C 型肝炎
+## Entecavir：從慢性 B 型肝炎到慢性 C 型肝炎
+{: .text-alpha }
 
 ## 一句話總結
 

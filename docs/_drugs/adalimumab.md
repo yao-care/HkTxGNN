@@ -33,7 +33,8 @@ predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy",
 
 </div>
 
-# Adalimumab：從克隆氏症與類風濕性關節炎到類風濕性血管炎
+## Adalimumab：從克隆氏症與類風濕性關節炎到類風濕性血管炎
+{: .text-alpha }
 
 ## 一句話總結
 

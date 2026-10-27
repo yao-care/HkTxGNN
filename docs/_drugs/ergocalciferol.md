@@ -33,7 +33,8 @@ predicted_indications: ["familial isolated hypoparathyroidism due to impaired PT
 
 </div>
 
-# Ergocalciferol：從骨質疏鬆與維生素 D 缺乏相關疾病到腎性骨失養症
+## Ergocalciferol：從骨質疏鬆與維生素 D 缺乏相關疾病到腎性骨失養症
+{: .text-alpha }
 
 ## 一句話總結
 

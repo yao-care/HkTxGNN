@@ -33,7 +33,8 @@ predicted_indications: ["vulvar inverted follicular keratosis", "2-hydroxyethyl 
 
 </div>
 
-# Benzoyl Peroxide：從痤瘡與皮膚炎到外陰倒置性毛囊角化症
+## Benzoyl Peroxide：從痤瘡與皮膚炎到外陰倒置性毛囊角化症
+{: .text-alpha }
 
 ## 一句話總結
 

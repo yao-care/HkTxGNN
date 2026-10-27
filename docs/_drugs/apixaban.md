@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with or without aura, sus
 
 </div>
 
-# Apixaban：從抗凝血治療到偏頭痛（預測）
+## Apixaban：從抗凝血治療到偏頭痛（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

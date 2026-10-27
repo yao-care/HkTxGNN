@@ -33,7 +33,8 @@ predicted_indications: ["acne (disease)", "leishmaniasis, diffuse cutaneous", "e
 
 </div>
 
-# Mebendazole：從腸道寄生蟲感染到泡型包蟲症（肝泡狀棘球蚴病）
+## Mebendazole：從腸道寄生蟲感染到泡型包蟲症（肝泡狀棘球蚴病）
+{: .text-alpha }
 
 > 說明：TxGNN 預測分數最高的是痤瘡（99.2%），但該預測沒有任何相關證據支持。本報告改以證據最完整的 **泡型包蟲症 (Alveolar Echinococcosis)** 作為主要評估對象，並在文末簡要列出其他預測結果。
 

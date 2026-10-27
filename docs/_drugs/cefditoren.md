@@ -33,7 +33,8 @@ predicted_indications: ["osteoarthritis susceptibility", "rheumatoid arthritis",
 
 </div>
 
-# Cefditoren：從細菌感染到骨關節炎易感性
+## Cefditoren：從細菌感染到骨關節炎易感性
+{: .text-alpha }
 
 ## 一句話總結
 

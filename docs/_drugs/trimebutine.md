@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 
 </div>
 
-# Trimebutine：從腸胃動力與腸躁症狀到偏頭痛
+## Trimebutine：從腸胃動力與腸躁症狀到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

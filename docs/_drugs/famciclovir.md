@@ -33,7 +33,8 @@ predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hep
 
 </div>
 
-# Famciclovir：從帶狀疱疹到帶狀疱疹後神經痛
+## Famciclovir：從帶狀疱疹到帶狀疱疹後神經痛
+{: .text-alpha }
 
 ## 一句話總結
 

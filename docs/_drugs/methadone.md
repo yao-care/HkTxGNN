@@ -33,7 +33,8 @@ predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropri
 
 </div>
 
-# Methadone：從 opioid 依賴治療到妥瑞氏症
+## Methadone：從 opioid 依賴治療到妥瑞氏症
+{: .text-alpha }
 
 ## 一句話總結
 

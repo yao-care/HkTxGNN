@@ -33,7 +33,8 @@ predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral
 
 </div>
 
-# Clobazam：從 Lennox-Gastaut 症候群到熱性感染相關癲癇症候群 (FIRES)
+## Clobazam：從 Lennox-Gastaut 症候群到熱性感染相關癲癇症候群 (FIRES)
+{: .text-alpha }
 
 ## 一句話總結
 

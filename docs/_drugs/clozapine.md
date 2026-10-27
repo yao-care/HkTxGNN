@@ -33,7 +33,8 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 </div>
 
-# Clozapine：從精神病性疾患到躁型雙相情緒障礙
+## Clozapine：從精神病性疾患到躁型雙相情緒障礙
+{: .text-alpha }
 
 ## 一句話總結
 

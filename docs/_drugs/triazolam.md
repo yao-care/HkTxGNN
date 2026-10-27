@@ -31,7 +31,8 @@ description: "Triazolam：預測新適應症為入睡與維持睡眠障礙 (Slee
 
 </div>
 
-# Triazolam：從失眠到入睡與維持睡眠障礙
+## Triazolam：從失眠到入睡與維持睡眠障礙
+{: .text-alpha }
 
 ## 一句話總結
 

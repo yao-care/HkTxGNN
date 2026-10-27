@@ -31,7 +31,8 @@ description: "Flunarizine：預測新適應症為偏頭痛 (Migraine Disorder)�
 
 </div>
 
-# Flunarizine：從（原適應症資料未提供）到偏頭痛
+## Flunarizine：從（原適應症資料未提供）到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

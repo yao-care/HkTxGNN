@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 
 </div>
 
-# Etoricoxib：從 COX-2 抗發炎止痛適應症到偏頭痛
+## Etoricoxib：從 COX-2 抗發炎止痛適應症到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

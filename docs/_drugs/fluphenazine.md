@@ -33,7 +33,8 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-# Fluphenazine：從精神病性疾患到視網膜失養症（TxGNN 首位預測）
+## Fluphenazine：從精神病性疾患到視網膜失養症（TxGNN 首位預測）
+{: .text-alpha }
 
 > 說明：TxGNN 分數最高的預測（視網膜失養症）完全沒有實證支持。唯一有文獻的預測是**躁期雙相情感障礙**，因此本報告以首位預測為主，並在文末補充此項。
 

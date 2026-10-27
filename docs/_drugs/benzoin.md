@@ -33,7 +33,8 @@ predicted_indications: ["vulvovaginal candidiasis", "variola minor infection", "
 
 </div>
 
-# Benzoin：從肛門生殖器人類乳突病毒感染到外陰陰道念珠菌病
+## Benzoin：從肛門生殖器人類乳突病毒感染到外陰陰道念珠菌病
+{: .text-alpha }
 
 ## 一句話總結
 

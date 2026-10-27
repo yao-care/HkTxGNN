@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)"]
 
 </div>
 
-# Norethisterone：從痤瘡與子宮內膜異位症到閉經
+## Norethisterone：從痤瘡與子宮內膜異位症到閉經
+{: .text-alpha }
 
 ## 一句話總結
 

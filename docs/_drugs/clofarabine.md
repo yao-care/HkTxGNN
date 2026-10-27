@@ -33,7 +33,8 @@ predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "n
 
 </div>
 
-# Clofarabine：從急性淋巴性白血病到骨髓性白血病
+## Clofarabine：從急性淋巴性白血病到骨髓性白血病
+{: .text-alpha }
 
 ## 一句話總結
 

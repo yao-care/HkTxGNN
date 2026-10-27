@@ -33,7 +33,8 @@ predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma"]
 
 </div>
 
-# Letrozole：從（原適應症資料缺漏）到女性乳癌
+## Letrozole：從（原適應症資料缺漏）到女性乳癌
+{: .text-alpha }
 
 ## 一句話總結
 

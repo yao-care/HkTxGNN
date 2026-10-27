@@ -33,7 +33,8 @@ predicted_indications: ["specific developmental disorder", "faciodigitogenital s
 
 </div>
 
-# Atomoxetine：從注意力不足過動症 (ADHD) 到特定發展障礙
+## Atomoxetine：從注意力不足過動症 (ADHD) 到特定發展障礙
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndro
 
 </div>
 
-# Upadacitinib：從類風濕性關節炎到 Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+## Upadacitinib：從類風濕性關節炎到 Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+{: .text-alpha }
 
 ## 一句話總結
 

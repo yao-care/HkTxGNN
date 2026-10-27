@@ -33,7 +33,8 @@ predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "uteri
 
 </div>
 
-# Ceftolozane：從泌尿道感染到淋球菌性尿道炎
+## Ceftolozane：從泌尿道感染到淋球菌性尿道炎
+{: .text-alpha }
 
 ## 一句話總結
 

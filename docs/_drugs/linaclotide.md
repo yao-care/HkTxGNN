@@ -33,7 +33,8 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 </div>
 
-# Linaclotide：從腸躁症到馬尾症候群
+## Linaclotide：從腸躁症到馬尾症候群
+{: .text-alpha }
 
 ## 一句話總結
 

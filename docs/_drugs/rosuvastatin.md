@@ -33,7 +33,8 @@ predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain 
 
 </div>
 
-# Rosuvastatin：從高脂血症與動脈硬化到家族性高膽固醇血症
+## Rosuvastatin：從高脂血症與動脈硬化到家族性高膽固醇血症
+{: .text-alpha }
 
 ## 一句話總結
 

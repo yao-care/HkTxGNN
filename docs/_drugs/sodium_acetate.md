@@ -33,7 +33,8 @@ predicted_indications: ["congenital prothrombin deficiency", "epiglottitis", "ur
 
 </div>
 
-# Sodium Acetate：從電解質補充到先天性凝血酶原缺乏症
+## Sodium Acetate：從電解質補充到先天性凝血酶原缺乏症
+{: .text-alpha }
 
 ## 一句話總結
 

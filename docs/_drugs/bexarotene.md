@@ -33,7 +33,8 @@ predicted_indications: ["primary cutaneous B-cell lymphoma", "Sezary syndrome", 
 
 </div>
 
-# Bexarotene：從皮膚 T 細胞淋巴瘤到原發性皮膚 B 細胞淋巴瘤
+## Bexarotene：從皮膚 T 細胞淋巴瘤到原發性皮膚 B 細胞淋巴瘤
+{: .text-alpha }
 
 ## 一句話總結
 

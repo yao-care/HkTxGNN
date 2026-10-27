@@ -33,7 +33,8 @@ predicted_indications: ["neurotic disorder", "melancholia", "benign paroxysmal t
 
 </div>
 
-# Vortioxetine：從重度憂鬱症到憂鬱性神經症（Neurotic Disorder）
+## Vortioxetine：從重度憂鬱症到憂鬱性神經症（Neurotic Disorder）
+{: .text-alpha }
 
 > 說明：本報告依規定以 `predicted_indications[0]`（排名第 1，neurotic disorder）作為主要分析對象，並在最後補充其他預測適應症的比較。
 

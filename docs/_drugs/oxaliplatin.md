@@ -33,7 +33,8 @@ predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid
 
 </div>
 
-# Oxaliplatin：從大腸癌轉移到惡性胸膜間皮瘤
+## Oxaliplatin：從大腸癌轉移到惡性胸膜間皮瘤
+{: .text-alpha }
 
 ## 一句話總結
 

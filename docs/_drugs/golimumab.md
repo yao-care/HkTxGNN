@@ -33,7 +33,8 @@ predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy",
 
 </div>
 
-# Golimumab：從類風濕性關節炎等自體免疫疾病到類風濕性血管炎
+## Golimumab：從類風濕性關節炎等自體免疫疾病到類風濕性血管炎
+{: .text-alpha }
 
 ## 一句話總結
 

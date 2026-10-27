@@ -33,7 +33,8 @@ predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", 
 
 </div>
 
-# Colistin：從大腸桿菌感染與外耳炎到慢性鼻竇炎（鼻竇炎）
+## Colistin：從大腸桿菌感染與外耳炎到慢性鼻竇炎（鼻竇炎）
+{: .text-alpha }
 
 ## 一句話總結
 

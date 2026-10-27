@@ -33,7 +33,8 @@ predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to
 
 </div>
 
-# Brolucizumab：從黃斑部病變到粒線體氧化磷酸化疾患（核 DNA 異常所致）
+## Brolucizumab：從黃斑部病變到粒線體氧化磷酸化疾患（核 DNA 異常所致）
+{: .text-alpha }
 
 ## 一句話總結
 

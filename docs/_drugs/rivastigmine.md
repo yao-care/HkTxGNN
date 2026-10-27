@@ -33,7 +33,8 @@ predicted_indications: ["glaucoma"]
 
 </div>
 
-# Rivastigmine：從阿茲海默症到青光眼
+## Rivastigmine：從阿茲海默症到青光眼
+{: .text-alpha }
 
 ## 一句話總結
 

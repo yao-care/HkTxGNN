@@ -33,7 +33,8 @@ predicted_indications: ["Wernicke-Korsakoff syndrome"]
 
 </div>
 
-# Nitrazepam：從失眠到睡眠起始與維持障礙
+## Nitrazepam：從失眠到睡眠起始與維持障礙
+{: .text-alpha }
 
 ## 一句話總結
 

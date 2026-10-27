@@ -33,7 +33,8 @@ predicted_indications: ["plasma cell myeloma", "hyperthyroidism", "autosomal dom
 
 </div>
 
-# Fludarabine：從（原適應症資料未載明）到漿細胞骨髓瘤
+## Fludarabine：從（原適應症資料未載明）到漿細胞骨髓瘤
+{: .text-alpha }
 
 ## 一句話總結
 

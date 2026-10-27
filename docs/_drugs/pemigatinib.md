@@ -33,7 +33,8 @@ predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", 
 
 </div>
 
-# Pemigatinib：從（原適應症未載明）到多發性內分泌腫瘤
+## Pemigatinib：從（原適應症未載明）到多發性內分泌腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

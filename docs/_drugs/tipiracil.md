@@ -33,7 +33,8 @@ predicted_indications: ["cecum villous adenoma", "lipoma of colon", "rectosigmoi
 
 </div>
 
-# Tipiracil：從大腸直腸癌到盲腸絨毛狀腺瘤
+## Tipiracil：從大腸直腸癌到盲腸絨毛狀腺瘤
+{: .text-alpha }
 
 ## 一句話總結
 

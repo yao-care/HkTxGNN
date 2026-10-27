@@ -33,7 +33,8 @@ predicted_indications: ["stroke disorder", "obsolete susceptibility to ischemic 
 
 </div>
 
-# Flecainide：從心房顫動到中風
+## Flecainide：從心房顫動到中風
+{: .text-alpha }
 
 ## 一句話總結
 

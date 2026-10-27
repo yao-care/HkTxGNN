@@ -33,7 +33,8 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 </div>
 
-# Granisetron：從化療引起的噁心嘔吐到躁期雙極性情感疾患
+## Granisetron：從化療引起的噁心嘔吐到躁期雙極性情感疾患
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "all
 
 </div>
 
-# Clofedanol：從過敏性鼻炎與上呼吸道感染到鼻腔疾病
+## Clofedanol：從過敏性鼻炎與上呼吸道感染到鼻腔疾病
+{: .text-alpha }
 
 ## 一句話總結
 

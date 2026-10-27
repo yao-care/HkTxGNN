@@ -33,7 +33,8 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 
 </div>
 
-# Terazosin：從高血壓與良性前列腺增生到落髮相關疾患（毛髮稀疏症）
+## Terazosin：從高血壓與良性前列腺增生到落髮相關疾患（毛髮稀疏症）
+{: .text-alpha }
 
 ## 一句話總結
 

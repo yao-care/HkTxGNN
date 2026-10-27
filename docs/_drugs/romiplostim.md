@@ -33,7 +33,8 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 
 </div>
 
-# Romiplostim：從免疫性血小板低下症到原發性血小板釋放障礙
+## Romiplostim：從免疫性血小板低下症到原發性血小板釋放障礙
+{: .text-alpha }
 
 ## 一句話總結
 

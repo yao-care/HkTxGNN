@@ -33,7 +33,8 @@ predicted_indications: ["erectile dysfunction (disease)", "migraine disorder", "
 
 </div>
 
-# Chlorobutanol：從（原適應症未載明）到勃起功能障礙
+## Chlorobutanol：從（原適應症未載明）到勃起功能障礙
+{: .text-alpha }
 
 ## 一句話總結
 

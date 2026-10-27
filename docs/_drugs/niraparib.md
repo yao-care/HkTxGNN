@@ -33,7 +33,8 @@ predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neopla
 
 </div>
 
-# Niraparib：從卵巢癌／腹膜癌到囊性腫瘤（Cystic Neoplasm）
+## Niraparib：從卵巢癌／腹膜癌到囊性腫瘤（Cystic Neoplasm）
+{: .text-alpha }
 
 ## 一句話總結
 

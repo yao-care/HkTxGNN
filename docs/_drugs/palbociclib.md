@@ -33,7 +33,8 @@ predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic d
 
 </div>
 
-# Palbociclib：從乳癌到骨髓性白血病
+## Palbociclib：從乳癌到骨髓性白血病
+{: .text-alpha }
 
 > 預測排名第 1 的是甲狀腺功能亢進，但其證據僅有模型預測。本報告以**證據最完整的骨髓性白血病 (Myeloid Leukemia)** 作為主要評估對象，其他候選適應症於下方一併說明。
 

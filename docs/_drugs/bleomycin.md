@@ -33,7 +33,8 @@ predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "ret
 
 </div>
 
-# Bleomycin：從淋巴瘤到網狀細胞肉瘤（Reticulum Cell Sarcoma）
+## Bleomycin：從淋巴瘤到網狀細胞肉瘤（Reticulum Cell Sarcoma）
+{: .text-alpha }
 
 ## 一句話總結
 

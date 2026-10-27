@@ -33,7 +33,8 @@ predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tum
 
 </div>
 
-# Bevacizumab：從卵巢／乳房／腦部腫瘤到會厭腫瘤
+## Bevacizumab：從卵巢／乳房／腦部腫瘤到會厭腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant 
 
 </div>
 
-# Levonorgestrel：從停經後骨質疏鬆到痤瘡
+## Levonorgestrel：從停經後骨質疏鬆到痤瘡
+{: .text-alpha }
 
 ## 一句話總結
 

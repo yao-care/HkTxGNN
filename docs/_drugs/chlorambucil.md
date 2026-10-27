@@ -33,7 +33,8 @@ predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma
 
 </div>
 
-# Chlorambucil：從何杰金氏淋巴瘤與慢性血液腫瘤到慢性淋巴球性白血病亞型
+## Chlorambucil：從何杰金氏淋巴瘤與慢性血液腫瘤到慢性淋巴球性白血病亞型
+{: .text-alpha }
 
 ## 一句話總結
 

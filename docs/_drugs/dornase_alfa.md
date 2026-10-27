@@ -33,7 +33,8 @@ predicted_indications: ["acinar prostate mucinous adenocarcinoma", "chromosome 1
 
 </div>
 
-# Dornase alfa：從囊腫性纖維化到前列腺黏液性腺癌（預測）
+## Dornase alfa：從囊腫性纖維化到前列腺黏液性腺癌（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

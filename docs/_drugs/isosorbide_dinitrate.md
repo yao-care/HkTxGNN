@@ -33,7 +33,8 @@ predicted_indications: ["alopecia", "congenital hypotrichosis milia", "hypotrich
 
 </div>
 
-# Isosorbide Dinitrate：從心絞痛類血管擴張適應症到肺動脈高壓
+## Isosorbide Dinitrate：從心絞痛類血管擴張適應症到肺動脈高壓
+{: .text-alpha }
 
 > 註：本資料中香港許可證未提供核准適應症文字，原適應症以藥理類別描述，詳見下方說明。
 

@@ -33,7 +33,8 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 </div>
 
-# Azithromycin：從細菌感染到高澱粉酶血症（模型預測）
+## Azithromycin：從細菌感染到高澱粉酶血症（模型預測）
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 </div>
 
-# Ivabradine：從心臟相關適應症到多毛症（Hypertrichosis）
+## Ivabradine：從心臟相關適應症到多毛症（Hypertrichosis）
+{: .text-alpha }
 
 ## 一句話總結
 

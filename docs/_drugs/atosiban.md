@@ -33,7 +33,8 @@ predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "c
 
 </div>
 
-# Atosiban：從早產宮縮抑制到原發性遺傳性青光眼
+## Atosiban：從早產宮縮抑制到原發性遺傳性青光眼
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["pneumocystosis"]
 
 </div>
 
-# Itraconazole：從深部黴菌感染到肺囊蟲病（Pneumocystosis）
+## Itraconazole：從深部黴菌感染到肺囊蟲病（Pneumocystosis）
+{: .text-alpha }
 
 ## 一句話總結
 

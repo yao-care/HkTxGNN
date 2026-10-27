@@ -33,7 +33,8 @@ predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative di
 
 </div>
 
-# Guselkumab：從斑塊型乾癬到藥物誘發性骨質疏鬆症
+## Guselkumab：從斑塊型乾癬到藥物誘發性骨質疏鬆症
+{: .text-alpha }
 
 ## 一句話總結
 

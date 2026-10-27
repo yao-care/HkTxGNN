@@ -33,7 +33,8 @@ predicted_indications: ["insomnia (disease)"]
 
 </div>
 
-# Midazolam：從焦慮症到失眠
+## Midazolam：從焦慮症到失眠
+{: .text-alpha }
 
 ## 一句話總結
 

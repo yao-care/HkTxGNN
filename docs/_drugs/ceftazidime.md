@@ -33,7 +33,8 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 </div>
 
-# Ceftazidime：從細菌感染到泌尿道感染（尿路感染）
+## Ceftazidime：從細菌感染到泌尿道感染（尿路感染）
+{: .text-alpha }
 
 ## 一句話總結
 

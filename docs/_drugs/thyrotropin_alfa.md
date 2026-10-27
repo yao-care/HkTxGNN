@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Ra
 
 </div>
 
-# Thyrotropin alfa：從甲狀腺癌診斷輔助到偏頭痛（僅為模型預測）
+## Thyrotropin alfa：從甲狀腺癌診斷輔助到偏頭痛（僅為模型預測）
+{: .text-alpha }
 
 ## 一句話總結
 

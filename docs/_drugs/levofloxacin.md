@@ -33,7 +33,8 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "polyclonal 
 
 </div>
 
-# Levofloxacin：從細菌感染到點狀上皮角結膜炎
+## Levofloxacin：從細菌感染到點狀上皮角結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

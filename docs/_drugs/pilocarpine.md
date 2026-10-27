@@ -31,7 +31,8 @@ description: "Pilocarpine：預測新適應症為原發性遺傳性青光眼 (Pr
 
 </div>
 
-# Pilocarpine：從開角型青光眼到原發性遺傳性青光眼
+## Pilocarpine：從開角型青光眼到原發性遺傳性青光眼
+{: .text-alpha }
 
 ## 一句話總結
 

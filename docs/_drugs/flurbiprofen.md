@@ -33,7 +33,8 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 </div>
 
-# Flurbiprofen：從類風濕性關節炎到 Hunter-Thompson 型肢中發育不良
+## Flurbiprofen：從類風濕性關節炎到 Hunter-Thompson 型肢中發育不良
+{: .text-alpha }
 
 ## 一句話總結
 

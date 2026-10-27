@@ -33,7 +33,8 @@ predicted_indications: ["histrionic personality disorder (disease)", "paranoid p
 
 </div>
 
-# Fluvoxamine：從社交畏懼症／強迫症到焦慮症
+## Fluvoxamine：從社交畏懼症／強迫症到焦慮症
+{: .text-alpha }
 
 ## 一句話總結
 

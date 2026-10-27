@@ -33,7 +33,8 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 </div>
 
-# Ganirelix：從控制性卵巢刺激期間預防提早排卵到多毛症
+## Ganirelix：從控制性卵巢刺激期間預防提早排卵到多毛症
+{: .text-alpha }
 
 ## 一句話總結
 

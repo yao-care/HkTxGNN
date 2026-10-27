@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 </div>
 
-# Pheniramine：從過敏性鼻炎等過敏與上呼吸道症狀到過敏性蕁麻疹
+## Pheniramine：從過敏性鼻炎等過敏與上呼吸道症狀到過敏性蕁麻疹
+{: .text-alpha }
 
 ## 一句話總結
 

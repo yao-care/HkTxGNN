@@ -33,7 +33,8 @@ predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "b
 
 </div>
 
-# Ruxolitinib：從骨髓增生性腫瘤到子宮血管周上皮樣細胞腫瘤（PEComa）
+## Ruxolitinib：從骨髓增生性腫瘤到子宮血管周上皮樣細胞腫瘤（PEComa）
+{: .text-alpha }
 
 ## 一句話總結
 

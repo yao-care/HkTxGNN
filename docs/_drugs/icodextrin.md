@@ -33,7 +33,8 @@ predicted_indications: ["irritable bowel syndrome", "non-syndromic esophageal ma
 
 </div>
 
-# Icodextrin：從腹膜透析到大腸急躁症（腸躁症）
+## Icodextrin：從腹膜透析到大腸急躁症（腸躁症）
+{: .text-alpha }
 
 ## 一句話總結
 

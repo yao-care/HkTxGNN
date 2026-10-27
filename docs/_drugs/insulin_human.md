@@ -33,7 +33,8 @@ predicted_indications: ["autoimmune oophoritis", "classic stiff person syndrome"
 
 </div>
 
-# 人類胰島素（Insulin Human）：從第 1 型與第 2 型糖尿病到自體免疫性卵巢炎
+## 人類胰島素（Insulin Human）：從第 1 型與第 2 型糖尿病到自體免疫性卵巢炎
+{: .text-alpha }
 
 ## 一句話總結
 

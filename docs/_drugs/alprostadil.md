@@ -33,7 +33,8 @@ predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", 
 
 </div>
 
-# Alprostadil：從勃起功能障礙與先天性心臟病到主動脈畸形
+## Alprostadil：從勃起功能障礙與先天性心臟病到主動脈畸形
+{: .text-alpha }
 
 ## 一句話總結
 

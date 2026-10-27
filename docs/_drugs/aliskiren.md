@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary hypertension with unclear multifactorial mech
 
 </div>
 
-# Aliskiren：從高血壓到肺動脈高壓
+## Aliskiren：從高血壓到肺動脈高壓
+{: .text-alpha }
 
 ## 一句話總結
 

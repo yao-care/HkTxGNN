@@ -33,7 +33,8 @@ predicted_indications: ["obsessive-compulsive disorder", "schizotypal personalit
 
 </div>
 
-# Citalopram：從憂鬱症與焦慮症到強迫症
+## Citalopram：從憂鬱症與焦慮症到強迫症
+{: .text-alpha }
 
 ## 一句話總結
 

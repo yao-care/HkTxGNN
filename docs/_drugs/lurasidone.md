@@ -33,7 +33,8 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-# Lurasidone：從思覺失調症與雙極性疾患到躁狂型雙極性情感障礙
+## Lurasidone：從思覺失調症與雙極性疾患到躁狂型雙極性情感障礙
+{: .text-alpha }
 
 ## 一句話總結
 

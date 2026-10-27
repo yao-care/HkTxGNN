@@ -33,7 +33,8 @@ predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone in
 
 </div>
 
-# Sebelipase alfa：從溶小體酸性脂肪酶缺乏症（Wolman 病）到 Scheie 症候群
+## Sebelipase alfa：從溶小體酸性脂肪酶缺乏症（Wolman 病）到 Scheie 症候群
+{: .text-alpha }
 
 ## 一句話總結
 

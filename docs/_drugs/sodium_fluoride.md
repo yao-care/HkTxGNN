@@ -33,7 +33,8 @@ predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "Ur
 
 </div>
 
-# Sodium Fluoride：從維生素缺乏症到會厭炎
+## Sodium Fluoride：從維生素缺乏症到會厭炎
+{: .text-alpha }
 
 ## 一句話總結
 

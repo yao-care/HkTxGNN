@@ -33,7 +33,8 @@ predicted_indications: ["stroke disorder", "thrombotic disease", "sick sinus syn
 
 </div>
 
-# Dipyridamole：從心房顫動到 Prinzmetal 心絞痛
+## Dipyridamole：從心房顫動到 Prinzmetal 心絞痛
+{: .text-alpha }
 
 ## 一句話總結
 

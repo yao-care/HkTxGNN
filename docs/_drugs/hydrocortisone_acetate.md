@@ -33,7 +33,8 @@ predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucino
 
 </div>
 
-# Hydrocortisone Acetate：從自體免疫疾病與腎上腺皮質功能不全到圓形禿
+## Hydrocortisone Acetate：從自體免疫疾病與腎上腺皮質功能不全到圓形禿
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["acne (disease)", "anorectal stricture", "anal polyp", "
 
 </div>
 
-# 氧化鋅 (Zinc Oxide)：從皮膚炎與痔瘡到痤瘡
+## 氧化鋅 (Zinc Oxide)：從皮膚炎與痔瘡到痤瘡
+{: .text-alpha }
 
 ## 一句話總結
 

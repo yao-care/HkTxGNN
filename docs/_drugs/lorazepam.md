@@ -33,7 +33,8 @@ predicted_indications: ["trigeminal nerve neoplasm"]
 
 </div>
 
-# Lorazepam：從焦慮症與癲癇到三叉神經腫瘤
+## Lorazepam：從焦慮症與癲癇到三叉神經腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

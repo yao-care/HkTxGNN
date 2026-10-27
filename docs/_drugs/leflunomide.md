@@ -33,7 +33,8 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 </div>
 
-# Leflunomide：從類風濕性關節炎／乾癬性關節炎到短指併指症候群
+## Leflunomide：從類風濕性關節炎／乾癬性關節炎到短指併指症候群
+{: .text-alpha }
 
 ## 一句話總結
 

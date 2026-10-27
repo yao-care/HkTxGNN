@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "tri
 
 </div>
 
-# Phenylephrine：從鼻炎與感冒症狀到鼻腔疾病
+## Phenylephrine：從鼻炎與感冒症狀到鼻腔疾病
+{: .text-alpha }
 
 ## 一句話總結
 

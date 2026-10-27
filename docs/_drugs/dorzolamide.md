@@ -33,7 +33,8 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 
 </div>
 
-# Dorzolamide：從開角型青光眼到原發性遺傳性青光眼（及其他預測適應症）
+## Dorzolamide：從開角型青光眼到原發性遺傳性青光眼（及其他預測適應症）
+{: .text-alpha }
 
 ## 一句話總結
 

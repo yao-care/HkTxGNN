@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "ne
 
 </div>
 
-# Cinchocaine：從皮膚炎到支氣管炎
+## Cinchocaine：從皮膚炎到支氣管炎
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic inte
 
 </div>
 
-# Tolvaptan：從抗利尿激素不適當分泌症候群到多囊腎病變（PKD3，伴或不伴多囊肝）
+## Tolvaptan：從抗利尿激素不適當分泌症候群到多囊腎病變（PKD3，伴或不伴多囊肝）
+{: .text-alpha }
 
 ## 一句話總結
 

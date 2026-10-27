@@ -33,7 +33,8 @@ predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "lipoma of 
 
 </div>
 
-# Gimeracil：從胃癌到大腸腫瘤
+## Gimeracil：從胃癌到大腸腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["female breast carcinoma"]
 
 </div>
 
-# Irinotecan：從大腸癌轉移與胰腺癌到女性乳癌
+## Irinotecan：從大腸癌轉移與胰腺癌到女性乳癌
+{: .text-alpha }
 
 ## 一句話總結
 

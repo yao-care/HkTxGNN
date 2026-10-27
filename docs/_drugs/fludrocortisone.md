@@ -33,7 +33,8 @@ predicted_indications: ["primary cutaneous T-cell lymphoma", "cystic teratoma", 
 
 </div>
 
-# Fludrocortisone：從腎上腺皮質功能不全相關用途到原發性皮膚 T 細胞淋巴瘤（預測）
+## Fludrocortisone：從腎上腺皮質功能不全相關用途到原發性皮膚 T 細胞淋巴瘤（預測）
+{: .text-alpha }
 
 > 註：本資料未提供香港許可證上的原適應症文字，標題中的「原適應症」僅依藥理類別（礦物皮質素）概述，不代表核准適應症。
 

@@ -33,7 +33,8 @@ predicted_indications: ["gastroduodenitis"]
 
 </div>
 
-# Magnesium Trisilicate：從消化性潰瘍／胃食道逆流到活動性消化性潰瘍
+## Magnesium Trisilicate：從消化性潰瘍／胃食道逆流到活動性消化性潰瘍
+{: .text-alpha }
 
 ## 一句話總結
 

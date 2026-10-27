@@ -33,7 +33,8 @@ predicted_indications: ["gout"]
 
 </div>
 
-# Carbocisteine：從呼吸道黏液異常到痛風
+## Carbocisteine：從呼吸道黏液異常到痛風
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal r
 
 </div>
 
-# Vinblastine：從霍奇金氏淋巴瘤等血液與皮膚淋巴系統惡性腫瘤到橫紋肌肉瘤
+## Vinblastine：從霍奇金氏淋巴瘤等血液與皮膚淋巴系統惡性腫瘤到橫紋肌肉瘤
+{: .text-alpha }
 
 ## 一句話總結
 

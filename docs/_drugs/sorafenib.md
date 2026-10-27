@@ -33,7 +33,8 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma"]
 
 </div>
 
-# Sorafenib：從肝細胞癌到脂肪肉瘤
+## Sorafenib：從肝細胞癌到脂肪肉瘤
+{: .text-alpha }
 
 ## 一句話總結
 

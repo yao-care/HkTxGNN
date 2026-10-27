@@ -33,7 +33,8 @@ predicted_indications: ["malformation syndrome with odontal and/or periodontal c
 
 </div>
 
-# Bimatoprost：從青光眼與高眼壓症到落髮（Alopecia）
+## Bimatoprost：從青光眼與高眼壓症到落髮（Alopecia）
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["tendinitis", "fibromyalgia", "myositis fibrosa", "idiop
 
 </div>
 
-# Dexketoprofen：從（原適應症未載明）到偏頭痛
+## Dexketoprofen：從（原適應症未載明）到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

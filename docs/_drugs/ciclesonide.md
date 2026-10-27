@@ -33,7 +33,8 @@ predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitizat
 
 </div>
 
-# Ciclesonide：從氣喘與過敏性鼻炎到異位性皮膚炎
+## Ciclesonide：從氣喘與過敏性鼻炎到異位性皮膚炎
+{: .text-alpha }
 
 ## 一句話總結
 

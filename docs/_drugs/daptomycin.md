@@ -33,7 +33,8 @@ predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "osteoarthriti
 
 </div>
 
-# Daptomycin：從細菌感染到退化性關節炎（預測）
+## Daptomycin：從細菌感染到退化性關節炎（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

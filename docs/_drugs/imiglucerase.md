@@ -33,7 +33,8 @@ predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm o
 
 </div>
 
-# Imiglucerase：從戈謝氏症到 Hurler 症候群
+## Imiglucerase：從戈謝氏症到 Hurler 症候群
+{: .text-alpha }
 
 ## 一句話總結
 

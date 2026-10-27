@@ -33,7 +33,8 @@ predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary ar
 
 </div>
 
-# Alteplase：從心肌梗塞到血栓性疾病（Thrombophilia）
+## Alteplase：從心肌梗塞到血栓性疾病（Thrombophilia）
+{: .text-alpha }
 
 ## 一句話總結
 

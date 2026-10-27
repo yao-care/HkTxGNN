@@ -33,7 +33,8 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 </div>
 
-# Ketoprofen：從類風濕性關節炎到肢端中肢發育不良（Hunter-Thompson 型）
+## Ketoprofen：從類風濕性關節炎到肢端中肢發育不良（Hunter-Thompson 型）
+{: .text-alpha }
 
 ## 一句話總結
 

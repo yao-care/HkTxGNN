@@ -33,7 +33,8 @@ predicted_indications: ["insomnia (disease)"]
 
 </div>
 
-# Zolazepam：從獸醫麻醉鎮靜到失眠症
+## Zolazepam：從獸醫麻醉鎮靜到失眠症
+{: .text-alpha }
 
 ## 一句話總結
 

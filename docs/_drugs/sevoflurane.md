@@ -33,7 +33,8 @@ predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia"
 
 </div>
 
-# Sevoflurane：從（原適應症未記載）到 Prinzmetal 心絞痛
+## Sevoflurane：從（原適應症未記載）到 Prinzmetal 心絞痛
+{: .text-alpha }
 
 ## 一句話總結
 

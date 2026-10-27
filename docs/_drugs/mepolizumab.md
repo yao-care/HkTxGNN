@@ -33,7 +33,8 @@ predicted_indications: ["thrombocytopenia due to immune destruction", "primary r
 
 </div>
 
-# Mepolizumab：從嗜酸性肺炎到免疫性血小板減少症
+## Mepolizumab：從嗜酸性肺炎到免疫性血小板減少症
+{: .text-alpha }
 
 ## 一句話總結
 

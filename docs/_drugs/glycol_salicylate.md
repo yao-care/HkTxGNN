@@ -33,7 +33,8 @@ predicted_indications: ["Glanzmann thrombasthenia", "autoimmune disease", "prima
 
 </div>
 
-# Glycol salicylate：從外用止痛消炎到格蘭茲曼血小板無力症（預測）
+## Glycol salicylate：從外用止痛消炎到格蘭茲曼血小板無力症（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "u
 
 </div>
 
-# Benzylpenicillin：從鏈球菌感染等細菌性感染到牙周炎（Pericoronitis）
+## Benzylpenicillin：從鏈球菌感染等細菌性感染到牙周炎（Pericoronitis）
+{: .text-alpha }
 
 ## 一句話總結
 

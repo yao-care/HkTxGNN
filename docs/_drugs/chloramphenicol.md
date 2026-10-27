@@ -33,7 +33,8 @@ predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious
 
 </div>
 
-# Chloramphenicol：從傷寒與細菌感染到結膜炎
+## Chloramphenicol：從傷寒與細菌感染到結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "an
 
 </div>
 
-# Flunitrazepam：從失眠到失眠（模型預測與既有用途重疊）
+## Flunitrazepam：從失眠到失眠（模型預測與既有用途重疊）
+{: .text-alpha }
 
 ## 一句話總結
 

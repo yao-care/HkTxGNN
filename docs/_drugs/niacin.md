@@ -33,7 +33,8 @@ predicted_indications: ["homozygous familial hypercholesterolemia"]
 
 </div>
 
-# Niacin：從高三酸甘油脂血症到同合子家族性高膽固醇血症
+## Niacin：從高三酸甘油脂血症到同合子家族性高膽固醇血症
+{: .text-alpha }
 
 ## 一句話總結
 

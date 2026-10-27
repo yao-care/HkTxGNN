@@ -33,7 +33,8 @@ predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arterioscle
 
 </div>
 
-# Ticagrelor：從急性冠心症到顱內動脈硬化
+## Ticagrelor：從急性冠心症到顱內動脈硬化
+{: .text-alpha }
 
 ## 一句話總結
 

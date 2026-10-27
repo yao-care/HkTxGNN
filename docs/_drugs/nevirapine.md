@@ -33,7 +33,8 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 </div>
 
-# Nevirapine：從 HIV 感染到貓後天免疫缺乏症候群（獸醫適應症）
+## Nevirapine：從 HIV 感染到貓後天免疫缺乏症候群（獸醫適應症）
+{: .text-alpha }
 
 ## 一句話總結
 

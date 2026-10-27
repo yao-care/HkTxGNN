@@ -33,7 +33,8 @@ predicted_indications: ["hepatic porphyria", "hepatoportal sclerosis", "hepatopu
 
 </div>
 
-# Allopurinol：從痛風到肝性卟啉症
+## Allopurinol：從痛風到肝性卟啉症
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["osteoclastic giant cell tumor of pancreas", "solid pseu
 
 </div>
 
-# Mitomycin：從胰腺腺癌到胰臟骨質巨細胞瘤
+## Mitomycin：從胰腺腺癌到胰臟骨質巨細胞瘤
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["diabetic cataract", "diabetes mellitus type 2 associate
 
 </div>
 
-# Tremelimumab：從（原適應症資料未提供）到糖尿病性白內障
+## Tremelimumab：從（原適應症資料未提供）到糖尿病性白內障
+{: .text-alpha }
 
 ## 一句話總結
 

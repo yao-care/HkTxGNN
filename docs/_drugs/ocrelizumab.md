@@ -33,7 +33,8 @@ predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor
 
 </div>
 
-# Ocrelizumab：從進行性多發性硬化症到 HER2 陽性乳癌
+## Ocrelizumab：從進行性多發性硬化症到 HER2 陽性乳癌
+{: .text-alpha }
 
 ## 一句話總結
 

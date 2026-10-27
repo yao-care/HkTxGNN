@@ -33,7 +33,8 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 
 </div>
 
-# Betamethasone：從自體免疫與發炎性疾病到圓形禿
+## Betamethasone：從自體免疫與發炎性疾病到圓形禿
+{: .text-alpha }
 
 ## 一句話總結
 

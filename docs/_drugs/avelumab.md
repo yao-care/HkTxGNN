@@ -33,7 +33,8 @@ predicted_indications: ["human herpesvirus 8-related tumor", "middle ear neuroen
 
 </div>
 
-# Avelumab：從皮膚神經內分泌癌到人類皰疹病毒 8 型相關腫瘤
+## Avelumab：從皮膚神經內分泌癌到人類皰疹病毒 8 型相關腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

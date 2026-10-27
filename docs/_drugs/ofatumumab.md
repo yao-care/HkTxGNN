@@ -33,7 +33,8 @@ predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small l
 
 </div>
 
-# Ofatumumab：從急性淋巴性白血病到慢性淋巴性白血病/小淋巴球淋巴瘤
+## Ofatumumab：從急性淋巴性白血病到慢性淋巴性白血病/小淋巴球淋巴瘤
+{: .text-alpha }
 
 ## 一句話總結
 

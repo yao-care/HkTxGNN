@@ -33,7 +33,8 @@ predicted_indications: ["cauda equina syndrome", "anaphylaxis", "food-dependent 
 
 </div>
 
-# Sodium carbonate：從（原適應症未載明）到 乾眼症（Dry Eye Syndrome）等預測適應症
+## Sodium carbonate：從（原適應症未載明）到 乾眼症（Dry Eye Syndrome）等預測適應症
+{: .text-alpha }
 
 ## 一句話總結
 

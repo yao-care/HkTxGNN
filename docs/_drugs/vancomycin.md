@@ -33,7 +33,8 @@ predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellos
 
 </div>
 
-# Vancomycin：從困難梭狀芽孢桿菌結腸炎到瀰漫性硬皮症
+## Vancomycin：從困難梭狀芽孢桿菌結腸炎到瀰漫性硬皮症
+{: .text-alpha }
 
 ## 一句話總結
 

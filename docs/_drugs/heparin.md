@@ -33,7 +33,8 @@ predicted_indications: ["thrombophilia due to protein C deficiency, autosomal re
 
 </div>
 
-# Heparin：從肺栓塞與瀰漫性血管內凝血到原發性蛋白 C 缺乏血栓傾向症
+## Heparin：從肺栓塞與瀰漫性血管內凝血到原發性蛋白 C 缺乏血栓傾向症
+{: .text-alpha }
 
 ## 一句話總結
 

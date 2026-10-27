@@ -33,7 +33,8 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 </div>
 
-# Atenolol：從高血壓與心肌梗塞到後下壁心肌梗塞
+## Atenolol：從高血壓與心肌梗塞到後下壁心肌梗塞
+{: .text-alpha }
 
 ## 一句話總結
 

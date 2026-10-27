@@ -33,7 +33,8 @@ predicted_indications: ["choroideremia"]
 
 </div>
 
-# Trametinib：從轉移性黑色素瘤到非皮膚性黑色素瘤
+## Trametinib：從轉移性黑色素瘤到非皮膚性黑色素瘤
+{: .text-alpha }
 
 ## 一句話總結
 

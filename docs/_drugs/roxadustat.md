@@ -33,7 +33,8 @@ predicted_indications: ["dry eye syndrome", "bone Paget disease", "dentinogenesi
 
 </div>
 
-# Roxadustat：從難治性貧血到乾眼症
+## Roxadustat：從難治性貧血到乾眼症
+{: .text-alpha }
 
 ## 一句話總結
 

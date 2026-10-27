@@ -33,7 +33,8 @@ predicted_indications: ["bulbar polio"]
 
 </div>
 
-# Ivosidenib：從急性骨髓性白血病到 bulbar polio（延髓型小兒麻痺）
+## Ivosidenib：從急性骨髓性白血病到 bulbar polio（延髓型小兒麻痺）
+{: .text-alpha }
 
 ## 一句話總結
 

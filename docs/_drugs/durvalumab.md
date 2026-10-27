@@ -33,7 +33,8 @@ predicted_indications: ["prostatic urethra urothelial carcinoma", "infiltrating 
 
 </div>
 
-# Durvalumab：從移行細胞癌到前列腺尿道尿路上皮癌
+## Durvalumab：從移行細胞癌到前列腺尿道尿路上皮癌
+{: .text-alpha }
 
 ## 一句話總結
 

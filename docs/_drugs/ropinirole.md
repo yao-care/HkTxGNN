@@ -33,7 +33,8 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 
 </div>
 
-# Ropinirole：從不寧腿症候群與帕金森氏症到注意力不足過動症
+## Ropinirole：從不寧腿症候群與帕金森氏症到注意力不足過動症
+{: .text-alpha }
 
 ## 一句話總結
 

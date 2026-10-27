@@ -33,7 +33,8 @@ predicted_indications: ["esophageal varices without bleeding", "esophageal varic
 
 </div>
 
-# Sodium tetradecyl sulfate：從靜脈曲張到食道靜脈曲張
+## Sodium tetradecyl sulfate：從靜脈曲張到食道靜脈曲張
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies a
 
 </div>
 
-# Vincristine：從急性淋巴性白血病與淋巴瘤到神經節母細胞瘤
+## Vincristine：從急性淋巴性白血病與淋巴瘤到神經節母細胞瘤
+{: .text-alpha }
 
 ## 一句話總結
 

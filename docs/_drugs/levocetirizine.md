@@ -33,7 +33,8 @@ predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhi
 
 </div>
 
-# Levocetirizine：從過敏性鼻炎到類風濕性關節炎
+## Levocetirizine：從過敏性鼻炎到類風濕性關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

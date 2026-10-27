@@ -33,7 +33,8 @@ predicted_indications: ["exposure keratitis", "non-human animal disease", "otiti
 
 </div>
 
-# Tobramycin：從細菌性腦膜炎與眼部感染到暴露性角膜炎
+## Tobramycin：從細菌性腦膜炎與眼部感染到暴露性角膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

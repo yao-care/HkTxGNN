@@ -33,7 +33,8 @@ predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
 
 </div>
 
-# Biotin：從營養性生物素缺乏症到消化不良
+## Biotin：從營養性生物素缺乏症到消化不良
+{: .text-alpha }
 
 ## 一句話總結
 

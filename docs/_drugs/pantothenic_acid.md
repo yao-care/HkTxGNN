@@ -33,7 +33,8 @@ predicted_indications: ["congenital prothrombin deficiency", "ochronosis disorde
 
 </div>
 
-# Pantothenic Acid（泛酸）：從壞血病到先天性凝血酶原缺乏症
+## Pantothenic Acid（泛酸）：從壞血病到先天性凝血酶原缺乏症
+{: .text-alpha }
 
 ## 一句話總結
 

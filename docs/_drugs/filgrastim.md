@@ -33,7 +33,8 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 
 </div>
 
-# Filgrastim：從先天性嗜中性白血球低下症到血小板釋放障礙
+## Filgrastim：從先天性嗜中性白血球低下症到血小板釋放障礙
+{: .text-alpha }
 
 ## 一句話總結
 

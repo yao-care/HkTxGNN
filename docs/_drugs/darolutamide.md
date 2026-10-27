@@ -33,7 +33,8 @@ predicted_indications: ["homozygous familial hypercholesterolemia", "multiple en
 
 </div>
 
-# Darolutamide：從前列腺癌相關治療到多發性內分泌腫瘤（預測）
+## Darolutamide：從前列腺癌相關治療到多發性內分泌腫瘤（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

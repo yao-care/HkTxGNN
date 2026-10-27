@@ -31,7 +31,8 @@ description: "Brinzolamide：預測新適應症為原發性遺傳性青光眼 (P
 
 </div>
 
-# Brinzolamide：從開角型青光眼到原發性遺傳性青光眼
+## Brinzolamide：從開角型青光眼到原發性遺傳性青光眼
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 </div>
 
-# Amylmetacresol：從喉嚨不適（咽喉抗菌錠劑）到脊髓馬尾症候群
+## Amylmetacresol：從喉嚨不適（咽喉抗菌錠劑）到脊髓馬尾症候群
+{: .text-alpha }
 
 ## 一句話總結
 

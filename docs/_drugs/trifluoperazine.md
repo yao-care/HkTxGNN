@@ -33,7 +33,8 @@ predicted_indications: ["manic bipolar affective disorder"]
 
 </div>
 
-# Trifluoperazine：從思覺失調症到躁型雙相情感疾患
+## Trifluoperazine：從思覺失調症到躁型雙相情感疾患
+{: .text-alpha }
 
 ## 一句話總結
 

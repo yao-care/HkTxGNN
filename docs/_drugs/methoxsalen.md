@@ -33,7 +33,8 @@ predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-
 
 </div>
 
-# Methoxsalen：從皮膚 T 細胞淋巴瘤到局限性類佩吉特網狀細胞增生症
+## Methoxsalen：從皮膚 T 細胞淋巴瘤到局限性類佩吉特網狀細胞增生症
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["insomnia (disease)"]
 
 </div>
 
-# Pipenzolate：從腸胃痙攣到失眠
+## Pipenzolate：從腸胃痙攣到失眠
+{: .text-alpha }
 
 ## 一句話總結
 

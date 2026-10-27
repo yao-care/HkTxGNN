@@ -33,7 +33,8 @@ predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal ma
 
 </div>
 
-# Teriparatide：從停經後骨質疏鬆症到十二指腸潰瘍
+## Teriparatide：從停經後骨質疏鬆症到十二指腸潰瘍
+{: .text-alpha }
 
 ## 一句話總結
 

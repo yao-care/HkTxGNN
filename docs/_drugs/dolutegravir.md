@@ -33,7 +33,8 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 </div>
 
-# Dolutegravir：從 HIV 感染到猿猴免疫缺陷病毒感染
+## Dolutegravir：從 HIV 感染到猿猴免疫缺陷病毒感染
+{: .text-alpha }
 
 ## 一句話總結
 

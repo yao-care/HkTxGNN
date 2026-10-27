@@ -33,7 +33,8 @@ predicted_indications: ["esophageal varices without bleeding", "esophageal varic
 
 </div>
 
-# Lactose：從乳糖不耐症到食道靜脈曲張（無出血）
+## Lactose：從乳糖不耐症到食道靜脈曲張（無出血）
+{: .text-alpha }
 
 ## 一句話總結
 

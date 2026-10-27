@@ -33,7 +33,8 @@ predicted_indications: ["monosomy X", "esophageal varices without bleeding", "es
 
 </div>
 
-# Teprotumumab：從內分泌性眼球突出到 monosomy X（透納氏症相關）
+## Teprotumumab：從內分泌性眼球突出到 monosomy X（透納氏症相關）
+{: .text-alpha }
 
 ## 一句話總結
 

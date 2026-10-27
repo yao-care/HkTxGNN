@@ -33,7 +33,8 @@ predicted_indications: ["gastroduodenitis", "cauda equina syndrome"]
 
 </div>
 
-# Homatropine Methylbromide：從消化性潰瘍到胃十二指腸炎
+## Homatropine Methylbromide：從消化性潰瘍到胃十二指腸炎
+{: .text-alpha }
 
 ## 一句話總結
 

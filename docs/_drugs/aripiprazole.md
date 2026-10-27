@@ -33,7 +33,8 @@ predicted_indications: ["major affective disorder", "gaze palsy, familial horizo
 
 </div>
 
-# Aripiprazole：從精神分裂症與雙相情緒障礙到重度情感性疾患（Major Affective Disorder）
+## Aripiprazole：從精神分裂症與雙相情緒障礙到重度情感性疾患（Major Affective Disorder）
+{: .text-alpha }
 
 ## 一句話總結
 

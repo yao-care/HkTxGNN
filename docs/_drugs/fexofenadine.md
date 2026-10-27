@@ -33,7 +33,8 @@ predicted_indications: ["rosacea conjunctivitis"]
 
 </div>
 
-# Fexofenadine：從過敏性鼻炎到酒糟性結膜炎
+## Fexofenadine：從過敏性鼻炎到酒糟性結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

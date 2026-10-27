@@ -33,7 +33,8 @@ predicted_indications: ["congenital hypotrichosis with juvenile macular dystroph
 
 </div>
 
-# Mesalazine：從潰瘍性結腸炎到類風濕性關節炎（研究性假說）
+## Mesalazine：從潰瘍性結腸炎到類風濕性關節炎（研究性假說）
+{: .text-alpha }
 
 ## 一句話總結
 

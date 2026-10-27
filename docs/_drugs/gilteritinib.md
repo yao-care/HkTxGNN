@@ -33,7 +33,8 @@ predicted_indications: ["bulbar polio"]
 
 </div>
 
-# Gilteritinib：從急性骨髓性白血病到延髓型小兒麻痺（Bulbar Polio）
+## Gilteritinib：從急性骨髓性白血病到延髓型小兒麻痺（Bulbar Polio）
+{: .text-alpha }
 
 ## 一句話總結
 

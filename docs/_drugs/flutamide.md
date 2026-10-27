@@ -33,7 +33,8 @@ predicted_indications: ["fibroma of prostate", "Brenner tumor", "benign reproduc
 
 </div>
 
-# Flutamide：從前列腺癌到良性生殖系統腫瘤
+## Flutamide：從前列腺癌到良性生殖系統腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

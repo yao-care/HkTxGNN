@@ -33,7 +33,8 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 </div>
 
-# Stavudine：從 HIV 感染／AIDS 到貓免疫缺乏症候群
+## Stavudine：從 HIV 感染／AIDS 到貓免疫缺乏症候群
+{: .text-alpha }
 
 ## 一句話總結
 

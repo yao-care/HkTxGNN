@@ -33,7 +33,8 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 </div>
 
-# Darunavir：從 HIV 感染到猴免疫缺陷病毒感染（SIV）
+## Darunavir：從 HIV 感染到猴免疫缺陷病毒感染（SIV）
+{: .text-alpha }
 
 ## 一句話總結
 

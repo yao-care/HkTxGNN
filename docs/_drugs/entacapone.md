@@ -33,7 +33,8 @@ predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacu
 
 </div>
 
-# Entacapone：從帕金森氏症到 PLA2G6 相關神經退化症
+## Entacapone：從帕金森氏症到 PLA2G6 相關神經退化症
+{: .text-alpha }
 
 ## 一句話總結
 

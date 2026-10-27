@@ -33,7 +33,8 @@ predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 
 </div>
 
-# Metoclopramide：從胃食道逆流疾病到胃潰瘍
+## Metoclopramide：從胃食道逆流疾病到胃潰瘍
+{: .text-alpha }
 
 ## 一句話總結
 

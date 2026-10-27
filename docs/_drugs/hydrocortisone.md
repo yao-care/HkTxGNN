@@ -33,7 +33,8 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 
 </div>
 
-# Hydrocortisone：從自體免疫與發炎性疾病到圓形禿 (Alopecia Areata)
+## Hydrocortisone：從自體免疫與發炎性疾病到圓形禿 (Alopecia Areata)
+{: .text-alpha }
 
 ## 一句話總結
 

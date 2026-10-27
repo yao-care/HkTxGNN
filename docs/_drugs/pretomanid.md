@@ -33,7 +33,8 @@ predicted_indications: ["candidiasis", "leprosy", "coronary artery disease", "my
 
 </div>
 
-# Pretomanid：從結核病到念珠菌感染（預測）
+## Pretomanid：從結核病到念珠菌感染（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 </div>
 
-# Etodolac：從類風濕性關節炎／退化性關節炎到僵直性脊椎炎
+## Etodolac：從類風濕性關節炎／退化性關節炎到僵直性脊椎炎
+{: .text-alpha }
 
 ## 一句話總結
 

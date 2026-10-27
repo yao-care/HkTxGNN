@@ -33,7 +33,8 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigito
 
 </div>
 
-# Solriamfetol：從猝睡症到注意力不足過動症 (ADHD)
+## Solriamfetol：從猝睡症到注意力不足過動症 (ADHD)
+{: .text-alpha }
 
 ## 一句話總結
 

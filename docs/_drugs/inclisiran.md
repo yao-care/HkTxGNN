@@ -33,7 +33,8 @@ predicted_indications: ["potassium deficiency disease", "esophageal disease", "a
 
 </div>
 
-# Inclisiran：從 PCSK9 相關高膽固醇血症治療到「鉀缺乏症」的模型預測
+## Inclisiran：從 PCSK9 相關高膽固醇血症治療到「鉀缺乏症」的模型預測
+{: .text-alpha }
 
 ## 一句話總結
 

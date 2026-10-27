@@ -33,7 +33,8 @@ predicted_indications: ["non-syndromic esophageal malformation", "esotropia", "e
 
 </div>
 
-# Palmitic Acid（棕櫚酸）：從肺部表面活性劑成分到食道先天畸形（模型預測）
+## Palmitic Acid（棕櫚酸）：從肺部表面活性劑成分到食道先天畸形（模型預測）
+{: .text-alpha }
 
 ## 一句話總結
 

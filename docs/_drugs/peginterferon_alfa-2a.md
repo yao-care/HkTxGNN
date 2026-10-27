@@ -33,7 +33,8 @@ predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infect
 
 </div>
 
-# Peginterferon alfa-2a：從慢性 C 型／B 型肝炎到 B 型肝炎病毒感染
+## Peginterferon alfa-2a：從慢性 C 型／B 型肝炎到 B 型肝炎病毒感染
+{: .text-alpha }
 
 ## 一句話總結
 

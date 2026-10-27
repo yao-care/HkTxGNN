@@ -33,7 +33,8 @@ predicted_indications: ["ectothrix infectious disease", "Majocchi granuloma", "p
 
 </div>
 
-# Naftifine：從足癬到皮膚念珠菌病
+## Naftifine：從足癬到皮膚念珠菌病
+{: .text-alpha }
 
 ## 一句話總結
 

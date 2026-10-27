@@ -33,7 +33,8 @@ predicted_indications: ["spondyloarthropathy, susceptibility to", "ankylosing sp
 
 </div>
 
-# Etofenamate：從骨關節炎到脊椎關節病變易感性
+## Etofenamate：從骨關節炎到脊椎關節病變易感性
+{: .text-alpha }
 
 ## 一句話總結
 

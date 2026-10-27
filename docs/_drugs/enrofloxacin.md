@@ -33,7 +33,8 @@ predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "genetic syndr
 
 </div>
 
-# Enrofloxacin：從細菌感染（獸用抗菌藥）到心臟疾病
+## Enrofloxacin：從細菌感染（獸用抗菌藥）到心臟疾病
+{: .text-alpha }
 
 ## 一句話總結
 

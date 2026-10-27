@@ -33,7 +33,8 @@ predicted_indications: ["thrombophilia due to protein C deficiency, autosomal re
 
 </div>
 
-# Enoxaparin：從肺栓塞與瀰漫性血管內凝血到蛋白 C 缺乏所致血栓形成傾向
+## Enoxaparin：從肺栓塞與瀰漫性血管內凝血到蛋白 C 缺乏所致血栓形成傾向
+{: .text-alpha }
 
 ## 一句話總結
 

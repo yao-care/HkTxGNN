@@ -33,7 +33,8 @@ predicted_indications: ["thrombocytopenia due to immune destruction", "dermatiti
 
 </div>
 
-# Benralizumab：從嗜酸性肺炎到皮膚炎
+## Benralizumab：從嗜酸性肺炎到皮膚炎
+{: .text-alpha }
 
 ## 一句話總結
 

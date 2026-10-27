@@ -33,7 +33,8 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 
 </div>
 
-# Pravastatin：從高三酸甘油酯血症與動脈粥狀硬化到 HIV 感染相關的血脂異常
+## Pravastatin：從高三酸甘油酯血症與動脈粥狀硬化到 HIV 感染相關的血脂異常
+{: .text-alpha }
 
 ## 一句話總結
 

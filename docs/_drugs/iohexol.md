@@ -33,7 +33,8 @@ predicted_indications: ["insomnia (disease)", "anxiety", "rheumatoid arthritis",
 
 </div>
 
-# Iohexol：從（原適應症未載明）到失眠（TxGNN 預測，無支持證據）
+## Iohexol：從（原適應症未載明）到失眠（TxGNN 預測，無支持證據）
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["duodenal obstruction"]
 
 </div>
 
-# Famotidine：從胃潰瘍／胃食道逆流到十二指腸胃逆流
+## Famotidine：從胃潰瘍／胃食道逆流到十二指腸胃逆流
+{: .text-alpha }
 
 ## 一句話總結
 

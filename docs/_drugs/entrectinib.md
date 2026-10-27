@@ -33,7 +33,8 @@ predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", 
 
 </div>
 
-# Entrectinib：從 NTRK／ROS1 陽性實體腫瘤到多發性內分泌腫瘤
+## Entrectinib：從 NTRK／ROS1 陽性實體腫瘤到多發性內分泌腫瘤
+{: .text-alpha }
 
 > 說明：本報告以預測排名第 1 的適應症（多發性內分泌腫瘤）為主軸。另有排名第 8 的「女性乳癌」證據明顯較強，已在各章節一併說明，供決策參考。
 

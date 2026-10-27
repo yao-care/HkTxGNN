@@ -33,7 +33,8 @@ predicted_indications: ["autosomal recessive severe congenital neutropenia due t
 
 </div>
 
-# Ravulizumab：從陣發性夜間血紅素尿症到 G6PC3 缺陷所致嚴重先天性嗜中性白血球減少症
+## Ravulizumab：從陣發性夜間血紅素尿症到 G6PC3 缺陷所致嚴重先天性嗜中性白血球減少症
+{: .text-alpha }
 
 ## 一句話總結
 

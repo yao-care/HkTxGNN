@@ -33,7 +33,8 @@ predicted_indications: ["candidiasis", "adrenocortical insufficiency", "familial
 
 </div>
 
-# Tenapanor：從香港已核准用途到念珠菌感染（候選預測）
+## Tenapanor：從香港已核准用途到念珠菌感染（候選預測）
+{: .text-alpha }
 
 ## 一句話總結
 

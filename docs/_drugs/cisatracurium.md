@@ -33,7 +33,8 @@ predicted_indications: ["cauda equina syndrome", "preeclampsia", "obsolete neuro
 
 </div>
 
-# Cisatracurium：從神經肌肉阻斷（麻醉輔助）到 cauda equina syndrome（馬尾症候群）
+## Cisatracurium：從神經肌肉阻斷（麻醉輔助）到 cauda equina syndrome（馬尾症候群）
+{: .text-alpha }
 
 ## 一句話總結
 

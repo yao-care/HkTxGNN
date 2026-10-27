@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 
 </div>
 
-# Aminophylline：從（原適應症未載明）到偏頭痛
+## Aminophylline：從（原適應症未載明）到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

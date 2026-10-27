@@ -33,7 +33,8 @@ predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe n
 
 </div>
 
-# 人參 (Ginseng)：從（原適應症未載明）到藥物性骨質疏鬆症
+## 人參 (Ginseng)：從（原適應症未載明）到藥物性骨質疏鬆症
+{: .text-alpha }
 
 ## 一句話總結
 

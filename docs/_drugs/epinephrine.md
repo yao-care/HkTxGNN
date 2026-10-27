@@ -33,7 +33,8 @@ predicted_indications: ["obstructive lung disease", "food-dependent exercise-ind
 
 </div>
 
-# Epinephrine：從氣喘與過敏性休克到阻塞性肺病
+## Epinephrine：從氣喘與過敏性休克到阻塞性肺病
+{: .text-alpha }
 
 ## 一句話總結
 

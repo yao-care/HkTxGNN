@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphosco
 
 </div>
 
-# Siponimod：從（原適應症未載明）到肺動脈高壓
+## Siponimod：從（原適應症未載明）到肺動脈高壓
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with 
 
 </div>
 
-# Bicalutamide：從前列腺癌相關用途到女性乳癌
+## Bicalutamide：從前列腺癌相關用途到女性乳癌
+{: .text-alpha }
 
 ## 一句話總結
 

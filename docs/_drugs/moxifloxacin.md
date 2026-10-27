@@ -33,7 +33,8 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 </div>
 
-# Moxifloxacin：從細菌感染到高澱粉酶血症
+## Moxifloxacin：從細菌感染到高澱粉酶血症
+{: .text-alpha }
 
 ## 一句話總結
 

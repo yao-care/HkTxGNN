@@ -33,7 +33,8 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 </div>
 
-# Naproxen：從關節炎與疼痛症狀到短指併指症候群
+## Naproxen：從關節炎與疼痛症狀到短指併指症候群
+{: .text-alpha }
 
 ## 一句話總結
 

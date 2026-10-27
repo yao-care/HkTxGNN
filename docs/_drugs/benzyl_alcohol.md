@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis"]
 
 </div>
 
-# Benzyl Alcohol：從皮膚炎到支氣管炎
+## Benzyl Alcohol：從皮膚炎到支氣管炎
+{: .text-alpha }
 
 ## 一句話總結
 

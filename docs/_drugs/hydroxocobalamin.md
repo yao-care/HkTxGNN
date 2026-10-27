@@ -33,7 +33,8 @@ predicted_indications: ["esophageal varices with bleeding", "esophageal varices 
 
 </div>
 
-# Hydroxocobalamin：從維生素 B12 缺乏到食道靜脈曲張
+## Hydroxocobalamin：從維生素 B12 缺乏到食道靜脈曲張
+{: .text-alpha }
 
 ## 一句話總結
 

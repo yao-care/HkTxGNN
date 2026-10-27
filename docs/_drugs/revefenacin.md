@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis"]
 
 </div>
 
-# Revefenacin：從慢性阻塞性肺病 (COPD) 到支氣管炎
+## Revefenacin：從慢性阻塞性肺病 (COPD) 到支氣管炎
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["Prinzmetal angina", "rheumatoid arthritis", "hypertensi
 
 </div>
 
-# Choline salicylate：從（原適應症未載明）到類風濕性關節炎
+## Choline salicylate：從（原適應症未載明）到類風濕性關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

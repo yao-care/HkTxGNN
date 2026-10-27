@@ -33,7 +33,8 @@ predicted_indications: ["axial spondylometaphyseal dysplasia", "bilateral parasa
 
 </div>
 
-# Avapritinib：從胃腸道基質瘤到軸向脊椎骨幹骺端發育不良
+## Avapritinib：從胃腸道基質瘤到軸向脊椎骨幹骺端發育不良
+{: .text-alpha }
 
 ## 一句話總結
 

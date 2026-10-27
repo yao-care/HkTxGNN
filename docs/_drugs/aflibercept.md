@@ -33,7 +33,8 @@ predicted_indications: ["esotropia", "esophageal varices with bleeding", "esopha
 
 </div>
 
-# Aflibercept：從大腸癌轉移與視網膜疾病到斜視（Esotropia）
+## Aflibercept：從大腸癌轉移與視網膜疾病到斜視（Esotropia）
+{: .text-alpha }
 
 ## 一句話總結
 

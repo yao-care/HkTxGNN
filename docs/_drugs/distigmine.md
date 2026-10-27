@@ -33,7 +33,8 @@ predicted_indications: ["autoimmune disease of peripheral nervous system", "dise
 
 </div>
 
-# Distigmine：從重症肌無力到胸腺增生型重症肌無力
+## Distigmine：從重症肌無力到胸腺增生型重症肌無力
+{: .text-alpha }
 
 ## 一句話總結
 

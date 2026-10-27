@@ -33,7 +33,8 @@ predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection",
 
 </div>
 
-# Ethambutol：從肺結核到會厭炎
+## Ethambutol：從肺結核到會厭炎
+{: .text-alpha }
 
 ## 一句話總結
 

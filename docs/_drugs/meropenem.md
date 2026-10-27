@@ -33,7 +33,8 @@ predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus a
 
 </div>
 
-# Meropenem：從綠膿桿菌感染與腦膜炎等細菌感染到細菌性關節炎
+## Meropenem：從綠膿桿菌感染與腦膜炎等細菌感染到細菌性關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

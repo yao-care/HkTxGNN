@@ -33,7 +33,8 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-# Loxapine：從雙極性疾患／思覺失調症到躁期雙極性情感疾患
+## Loxapine：從雙極性疾患／思覺失調症到躁期雙極性情感疾患
+{: .text-alpha }
 
 ## 一句話總結
 

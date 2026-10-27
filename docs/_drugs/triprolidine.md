@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopha
 
 </div>
 
-# Triprolidine：從過敏性鼻炎到過敏性蕁麻疹
+## Triprolidine：從過敏性鼻炎到過敏性蕁麻疹
+{: .text-alpha }
 
 ## 一句話總結
 

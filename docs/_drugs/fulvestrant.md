@@ -33,7 +33,8 @@ predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia"
 
 </div>
 
-# Fulvestrant：從乳癌到 HIV 感染（預測，證據薄弱）
+## Fulvestrant：從乳癌到 HIV 感染（預測，證據薄弱）
+{: .text-alpha }
 
 ## 一句話總結
 

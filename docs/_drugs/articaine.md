@@ -33,7 +33,8 @@ predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthm
 
 </div>
 
-# Articaine：從局部麻醉（原適應症資料缺漏）到痛風
+## Articaine：從局部麻醉（原適應症資料缺漏）到痛風
+{: .text-alpha }
 
 ## 一句話總結
 

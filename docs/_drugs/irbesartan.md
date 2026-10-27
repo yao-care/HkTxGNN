@@ -33,7 +33,8 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 </div>
 
-# Irbesartan：從高血壓與糖尿病腎病變到惡性腎血管性高血壓
+## Irbesartan：從高血壓與糖尿病腎病變到惡性腎血管性高血壓
+{: .text-alpha }
 
 ## 一句話總結
 

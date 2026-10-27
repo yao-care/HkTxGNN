@@ -33,7 +33,8 @@ predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis
 
 </div>
 
-# Tolfenamic Acid：從（原適應症資料缺漏）到頭痛疾患
+## Tolfenamic Acid：從（原適應症資料缺漏）到頭痛疾患
+{: .text-alpha }
 
 ## 一句話總結
 

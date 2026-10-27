@@ -33,7 +33,8 @@ predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", 
 
 </div>
 
-# Raloxifene：從停經後骨質疏鬆到十二指腸潰瘍
+## Raloxifene：從停經後骨質疏鬆到十二指腸潰瘍
+{: .text-alpha }
 
 ## 一句話總結
 

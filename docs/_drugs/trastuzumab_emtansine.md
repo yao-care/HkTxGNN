@@ -33,7 +33,8 @@ predicted_indications: ["synovium cancer", "tenosynovial giant cell tumor", "ten
 
 </div>
 
-# Trastuzumab emtansine：從 HER2 陽性乳癌到黃體素受體陽性乳癌
+## Trastuzumab emtansine：從 HER2 陽性乳癌到黃體素受體陽性乳癌
+{: .text-alpha }
 
 ## 一句話總結
 

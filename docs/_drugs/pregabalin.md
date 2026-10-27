@@ -33,7 +33,8 @@ predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomat
 
 </div>
 
-# Pregabalin：從焦慮症、纖維肌痛到肌腱炎
+## Pregabalin：從焦慮症、纖維肌痛到肌腱炎
+{: .text-alpha }
 
 predicted_indications[0] 為肌腱炎（tendinitis），但 rank 5 的偏頭痛（migraine disorder）證據明顯較充分。下文以 rank 1 為主軸，並在結論補充偏頭痛的比較。
 

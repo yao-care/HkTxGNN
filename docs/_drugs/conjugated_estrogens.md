@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "an
 
 </div>
 
-# Conjugated estrogens：從心因性性交疼痛到偏頭痛
+## Conjugated estrogens：從心因性性交疼痛到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

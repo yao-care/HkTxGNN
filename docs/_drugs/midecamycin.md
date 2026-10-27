@@ -33,7 +33,8 @@ predicted_indications: ["candidiasis", "leprosy", "coronary artery disease", "my
 
 </div>
 
-# Midecamycin：從（原適應症未載明）到念珠菌感染
+## Midecamycin：從（原適應症未載明）到念珠菌感染
+{: .text-alpha }
 
 ## 一句話總結
 

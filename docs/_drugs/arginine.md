@@ -33,7 +33,8 @@ predicted_indications: ["gastroparesis (disease)"]
 
 </div>
 
-# Arginine：從營養支持（原適應症資料缺失）到胃輕癱
+## Arginine：從營養支持（原適應症資料缺失）到胃輕癱
+{: .text-alpha }
 
 ## 一句話總結
 

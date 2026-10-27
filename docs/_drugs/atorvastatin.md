@@ -33,7 +33,8 @@ predicted_indications: ["HIV infectious disease", "brain stem infarction", "chol
 
 </div>
 
-# Atorvastatin：從高脂血症與動脈硬化到家族性高膽固醇血症
+## Atorvastatin：從高脂血症與動脈硬化到家族性高膽固醇血症
+{: .text-alpha }
 
 ## 一句話總結
 

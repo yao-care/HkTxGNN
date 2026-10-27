@@ -33,7 +33,8 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 
 </div>
 
-# Desoximetasone：從異位性皮膚炎等皮膚發炎疾病到圓形禿
+## Desoximetasone：從異位性皮膚炎等皮膚發炎疾病到圓形禿
+{: .text-alpha }
 
 ## 一句話總結
 

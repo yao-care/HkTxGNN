@@ -33,7 +33,8 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "primary
 
 </div>
 
-# 人類 C1 酯酶抑制劑：從（原適應症未載明）到嚴重非增殖性糖尿病視網膜病變
+## 人類 C1 酯酶抑制劑：從（原適應症未載明）到嚴重非增殖性糖尿病視網膜病變
+{: .text-alpha }
 
 ## 一句話總結
 

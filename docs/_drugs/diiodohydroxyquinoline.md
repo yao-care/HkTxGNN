@@ -33,7 +33,8 @@ predicted_indications: ["osteoradionecrosis", "radiodermatitis", "pneumonitis", 
 
 </div>
 
-# Diiodohydroxyquinoline：從阿米巴病到骨放射壞死
+## Diiodohydroxyquinoline：從阿米巴病到骨放射壞死
+{: .text-alpha }
 
 ## 一句話總結
 

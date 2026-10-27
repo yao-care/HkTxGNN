@@ -33,7 +33,8 @@ predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pitui
 
 </div>
 
-# Cabergoline：從高泌乳素血症到垂體腺癌（垂體腫瘤）
+## Cabergoline：從高泌乳素血症到垂體腺癌（垂體腫瘤）
+{: .text-alpha }
 
 ## 一句話總結
 

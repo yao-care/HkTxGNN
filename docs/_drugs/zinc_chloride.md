@@ -33,7 +33,8 @@ description: "Zinc Chloride：預測新適應症為嚴重非增殖性糖尿病�
 
 </div>
 
-# Zinc Chloride（氯化鋅）：從微量元素補充到嚴重非增殖性糖尿病視網膜病變
+## Zinc Chloride（氯化鋅）：從微量元素補充到嚴重非增殖性糖尿病視網膜病變
+{: .text-alpha }
 
 ## 一句話總結
 

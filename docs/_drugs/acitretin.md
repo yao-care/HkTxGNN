@@ -33,7 +33,8 @@ predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosu
 
 </div>
 
-# Acitretin：從（原適應症未載明）到痤瘡（Acne）
+## Acitretin：從（原適應症未載明）到痤瘡（Acne）
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease"
 
 </div>
 
-# Rivaroxaban：從（原適應症未載明）到類風濕性關節炎
+## Rivaroxaban：從（原適應症未載明）到類風濕性關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

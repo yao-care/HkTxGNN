@@ -33,7 +33,8 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "acroder
 
 </div>
 
-# Allantoin：從乾癬與脂漏性皮膚炎到嚴重非增殖性糖尿病視網膜病變
+## Allantoin：從乾癬與脂漏性皮膚炎到嚴重非增殖性糖尿病視網膜病變
+{: .text-alpha }
 
 ## 一句話總結
 

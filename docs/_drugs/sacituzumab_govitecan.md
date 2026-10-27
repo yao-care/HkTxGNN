@@ -33,7 +33,8 @@ predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative di
 
 </div>
 
-# Sacituzumab govitecan：從（原適應症資料未提供）到藥物引起的骨質疏鬆症
+## Sacituzumab govitecan：從（原適應症資料未提供）到藥物引起的骨質疏鬆症
+{: .text-alpha }
 
 ## 一句話總結
 

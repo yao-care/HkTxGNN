@@ -33,7 +33,8 @@ predicted_indications: ["resistance to thyroid hormone due to a mutation in thyr
 
 </div>
 
-# Thiamine（維生素 B1）：從營養補充到甲狀腺機能亢進
+## Thiamine（維生素 B1）：從營養補充到甲狀腺機能亢進
+{: .text-alpha }
 
 ## 一句話總結
 

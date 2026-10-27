@@ -33,7 +33,8 @@ predicted_indications: ["sclerosing cholangitis", "rheumatoid arthritis", "colob
 
 </div>
 
-# Cefoperazone：從細菌感染到肺炎
+## Cefoperazone：從細菌感染到肺炎
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["rosacea conjunctivitis"]
 
 </div>
 
-# Diphenhydramine：從過敏性鼻炎與結膜炎到酒糟性結膜炎
+## Diphenhydramine：從過敏性鼻炎與結膜炎到酒糟性結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

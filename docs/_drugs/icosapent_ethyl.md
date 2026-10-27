@@ -33,7 +33,8 @@ predicted_indications: ["hemoglobinopathy"]
 
 </div>
 
-# Icosapent Ethyl：從高三酸甘油脂血症到血紅素病變
+## Icosapent Ethyl：從高三酸甘油脂血症到血紅素病變
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndro
 
 </div>
 
-# Capmatinib：從 MET 陽性腫瘤治療到類風濕性關節炎
+## Capmatinib：從 MET 陽性腫瘤治療到類風濕性關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

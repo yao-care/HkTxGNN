@@ -33,7 +33,8 @@ predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp",
 
 </div>
 
-# Dexpanthenol：從皮膚與腸胃動力相關疾病到肛門直腸狹窄
+## Dexpanthenol：從皮膚與腸胃動力相關疾病到肛門直腸狹窄
+{: .text-alpha }
 
 ## 一句話總結
 

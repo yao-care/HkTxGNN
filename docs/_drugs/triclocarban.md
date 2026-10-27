@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 
 </div>
 
-# Triclocarban：從外用抗菌用途到偏頭痛（預測）
+## Triclocarban：從外用抗菌用途到偏頭痛（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

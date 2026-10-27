@@ -33,7 +33,8 @@ predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood",
 
 </div>
 
-# Lenalidomide：從漿細胞骨髓瘤到骨髓性白血病
+## Lenalidomide：從漿細胞骨髓瘤到骨髓性白血病
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ description: "Exemestane：預測新適應症為第 2 型抗凝血酶缺乏症 (
 
 </div>
 
-# Exemestane：從乳癌治療到血栓性疾病（抗凝血酶缺乏症第 2 型）
+## Exemestane：從乳癌治療到血栓性疾病（抗凝血酶缺乏症第 2 型）
+{: .text-alpha }
 
 ## 一句話總結
 

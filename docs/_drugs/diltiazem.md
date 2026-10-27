@@ -33,7 +33,8 @@ predicted_indications: ["obsolete susceptibility to ischemic stroke"]
 
 </div>
 
-# Diltiazem：從高血壓與心律不整到「缺血性中風易感性（已廢止術語）」
+## Diltiazem：從高血壓與心律不整到「缺血性中風易感性（已廢止術語）」
+{: .text-alpha }
 
 ## 一句話總結
 

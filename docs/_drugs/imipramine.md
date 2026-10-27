@@ -33,7 +33,8 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "attention d
 
 </div>
 
-# Imipramine：從焦慮症、官能症、輕鬱症與夜尿症到注意力不足過動症 (ADHD)
+## Imipramine：從焦慮症、官能症、輕鬱症與夜尿症到注意力不足過動症 (ADHD)
+{: .text-alpha }
 
 ## 一句話總結
 

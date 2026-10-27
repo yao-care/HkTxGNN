@@ -33,7 +33,8 @@ predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with 
 
 </div>
 
-# Lanreotide：從肢端肥大症到多毛症（Hypertrichosis）
+## Lanreotide：從肢端肥大症到多毛症（Hypertrichosis）
+{: .text-alpha }
 
 ## 一句話總結
 

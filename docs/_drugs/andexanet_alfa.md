@@ -33,7 +33,8 @@ predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of
 
 </div>
 
-# Andexanet alfa：從 FXa 抑制劑逆轉到血友病（Glanzmann 血小板無力症等出血性疾病）
+## Andexanet alfa：從 FXa 抑制劑逆轉到血友病（Glanzmann 血小板無力症等出血性疾病）
+{: .text-alpha }
 
 ## 一句話總結
 

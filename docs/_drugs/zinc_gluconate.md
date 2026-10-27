@@ -33,7 +33,8 @@ predicted_indications: ["anemia of prematurity", "injury", "cell proliferation d
 
 </div>
 
-# Zinc gluconate：從抗壞血酸缺乏症／壞血病到早產兒貧血
+## Zinc gluconate：從抗壞血酸缺乏症／壞血病到早產兒貧血
+{: .text-alpha }
 
 ## 一句話總結
 

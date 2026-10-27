@@ -33,7 +33,8 @@ predicted_indications: ["dermatofibrosarcoma protuberans"]
 
 </div>
 
-# Lapatinib：從 HER2 陽性乳癌到隆突性皮膚纖維肉瘤
+## Lapatinib：從 HER2 陽性乳癌到隆突性皮膚纖維肉瘤
+{: .text-alpha }
 
 ## 一句話總結
 

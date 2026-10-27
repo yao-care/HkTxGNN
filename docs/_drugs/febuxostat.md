@@ -33,7 +33,8 @@ predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribo
 
 </div>
 
-# Febuxostat：從高尿酸血症到腎性低尿酸血症
+## Febuxostat：從高尿酸血症到腎性低尿酸血症
+{: .text-alpha }
 
 ## 一句話總結
 

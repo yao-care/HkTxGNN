@@ -33,7 +33,8 @@ predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficienc
 
 </div>
 
-# Galcanezumab：從偏頭痛到肝素輔因子 II 缺乏症
+## Galcanezumab：從偏頭痛到肝素輔因子 II 缺乏症
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndro
 
 </div>
 
-# Latanoprostene Bunod：從開角型青光眼到內臟鈣化防禦症
+## Latanoprostene Bunod：從開角型青光眼到內臟鈣化防禦症
+{: .text-alpha }
 
 ## 一句話總結
 

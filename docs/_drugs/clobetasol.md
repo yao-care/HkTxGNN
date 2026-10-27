@@ -33,7 +33,8 @@ predicted_indications: ["primary cutaneous T-cell lymphoma"]
 
 </div>
 
-# Clobetasol：從皮膚發炎性疾病到原發性皮膚 T 細胞淋巴瘤
+## Clobetasol：從皮膚發炎性疾病到原發性皮膚 T 細胞淋巴瘤
+{: .text-alpha }
 
 ## 一句話總結
 

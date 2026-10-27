@@ -33,7 +33,8 @@ predicted_indications: ["gastroduodenitis"]
 
 </div>
 
-# Potassium Bicarbonate：從消化性潰瘍與胃食道逆流到胃十二指腸炎
+## Potassium Bicarbonate：從消化性潰瘍與胃食道逆流到胃十二指腸炎
+{: .text-alpha }
 
 ## 一句話總結
 

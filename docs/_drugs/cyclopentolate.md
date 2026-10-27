@@ -33,7 +33,8 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 </div>
 
-# Cyclopentolate：從睫狀肌麻痺到馬尾症候群
+## Cyclopentolate：從睫狀肌麻痺到馬尾症候群
+{: .text-alpha }
 
 ## 一句話總結
 

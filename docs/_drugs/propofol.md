@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Pr
 
 </div>
 
-# Propofol：從麻醉與鎮靜到偏頭痛
+## Propofol：從麻醉與鎮靜到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ description: "Isosorbide Mononitrate：預測新適應症為多毛症 (Hypertric
 
 </div>
 
-# Isosorbide Mononitrate：從心絞痛類適應症到禿髮／多毛症（僅模型預測）
+## Isosorbide Mononitrate：從心絞痛類適應症到禿髮／多毛症（僅模型預測）
+{: .text-alpha }
 
 ## 一句話總結
 

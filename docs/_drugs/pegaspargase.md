@@ -33,7 +33,8 @@ predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma
 
 </div>
 
-# Pegaspargase：從急性淋巴性白血病到前驅型淋巴母細胞淋巴瘤/白血病
+## Pegaspargase：從急性淋巴性白血病到前驅型淋巴母細胞淋巴瘤/白血病
+{: .text-alpha }
 
 ## 一句話總結
 

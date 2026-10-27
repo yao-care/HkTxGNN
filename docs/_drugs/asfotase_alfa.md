@@ -33,7 +33,8 @@ predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to
 
 </div>
 
-# Asfotase alfa：從低磷酸酶症到粒線體氧化磷酸化異常（核 DNA 異常所致）
+## Asfotase alfa：從低磷酸酶症到粒線體氧化磷酸化異常（核 DNA 異常所致）
+{: .text-alpha }
 
 ## 一句話總結
 

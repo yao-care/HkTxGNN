@@ -33,7 +33,8 @@ predicted_indications: ["homozygous familial hypercholesterolemia"]
 
 </div>
 
-# Ursodeoxycholic Acid：從膽結石與原發性膽汁性膽管炎到同型合子家族性高膽固醇血症
+## Ursodeoxycholic Acid：從膽結石與原發性膽汁性膽管炎到同型合子家族性高膽固醇血症
+{: .text-alpha }
 
 ## 一句話總結
 

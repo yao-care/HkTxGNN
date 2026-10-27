@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "all
 
 </div>
 
-# Pseudoephedrine：從過敏性鼻炎到鼻腔疾病
+## Pseudoephedrine：從過敏性鼻炎到鼻腔疾病
+{: .text-alpha }
 
 ## 一句話總結
 

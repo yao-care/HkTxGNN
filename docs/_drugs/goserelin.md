@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "r
 
 </div>
 
-# Goserelin：從子宮內膜異位症到閉經
+## Goserelin：從子宮內膜異位症到閉經
+{: .text-alpha }
 
 ## 一句話總結
 

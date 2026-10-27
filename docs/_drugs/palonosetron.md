@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "mi
 
 </div>
 
-# Palonosetron：從化療相關噁心嘔吐到偏頭痛（模型預測，不建議推進）
+## Palonosetron：從化療相關噁心嘔吐到偏頭痛（模型預測，不建議推進）
+{: .text-alpha }
 
 ## 一句話總結
 

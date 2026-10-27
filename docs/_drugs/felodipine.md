@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary hypertension with unclear multifactorial mech
 
 </div>
 
-# Felodipine：從高血壓到肺高壓（預測新適應症）
+## Felodipine：從高血壓到肺高壓（預測新適應症）
+{: .text-alpha }
 
 ## 一句話總結
 

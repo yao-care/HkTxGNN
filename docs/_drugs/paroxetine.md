@@ -33,7 +33,8 @@ predicted_indications: ["Ohdo syndrome and variants"]
 
 </div>
 
-# Paroxetine：從憂鬱症與焦慮症到 Ohdo 症候群及其變異型
+## Paroxetine：從憂鬱症與焦慮症到 Ohdo 症候群及其變異型
+{: .text-alpha }
 
 ## 一句話總結
 

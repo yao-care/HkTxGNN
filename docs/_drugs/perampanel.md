@@ -31,7 +31,8 @@ description: "Perampanel：預測新適應症為視覺性癲癇 (Visual Epilepsy
 
 </div>
 
-# Perampanel：從局部癫癇到視覺性癲癇
+## Perampanel：從局部癫癇到視覺性癲癇
+{: .text-alpha }
 
 ## 一句話總結
 

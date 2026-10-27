@@ -33,7 +33,8 @@ predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus inf
 
 </div>
 
-# Deferasirox：從 β型地中海貧血 到 HIV 感染
+## Deferasirox：從 β型地中海貧血 到 HIV 感染
+{: .text-alpha }
 
 ## 一句話總結
 

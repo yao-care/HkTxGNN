@@ -31,7 +31,8 @@ description: "Capecitabine：預測新適應症為印戒細胞胃腺癌 (Signet 
 
 </div>
 
-# Capecitabine：從胃癌／大腸轉移癌到胃腺癌（印戒細胞型）
+## Capecitabine：從胃癌／大腸轉移癌到胃腺癌（印戒細胞型）
+{: .text-alpha }
 
 ## 一句話總結
 

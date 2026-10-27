@@ -33,7 +33,8 @@ predicted_indications: ["attention deficit hyperactivity disorder, inattentive t
 
 </div>
 
-# Flavoxate：從泌尿道痙攣症狀到腸躁症（預測）
+## Flavoxate：從泌尿道痙攣症狀到腸躁症（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

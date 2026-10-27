@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)"]
 
 </div>
 
-# Diosmin：從香港已上市適應症到閉經（Amenorrhea）
+## Diosmin：從香港已上市適應症到閉經（Amenorrhea）
+{: .text-alpha }
 
 ## 一句話總結
 

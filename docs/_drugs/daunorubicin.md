@@ -33,7 +33,8 @@ predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable e
 
 </div>
 
-# Daunorubicin：從急性白血病到何杰金氏淋巴瘤
+## Daunorubicin：從急性白血病到何杰金氏淋巴瘤
+{: .text-alpha }
 
 ## 一句話總結
 

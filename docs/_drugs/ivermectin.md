@@ -33,7 +33,8 @@ predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "a
 
 </div>
 
-# Ivermectin：從類圓線蟲病與盤尾絲蟲症到外陰陰道念珠菌病
+## Ivermectin：從類圓線蟲病與盤尾絲蟲症到外陰陰道念珠菌病
+{: .text-alpha }
 
 ## 一句話總結
 

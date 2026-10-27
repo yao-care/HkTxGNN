@@ -33,7 +33,8 @@ predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic d
 
 </div>
 
-# Vitamin A：從維生素缺乏症到先天性凝血酶原缺乏症
+## Vitamin A：從維生素缺乏症到先天性凝血酶原缺乏症
+{: .text-alpha }
 
 ## 一句話總結
 

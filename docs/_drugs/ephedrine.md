@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "tri
 
 </div>
 
-# Ephedrine：從過敏性鼻炎等上呼吸道疾病到鼻腔疾病
+## Ephedrine：從過敏性鼻炎等上呼吸道疾病到鼻腔疾病
+{: .text-alpha }
 
 ## 一句話總結
 

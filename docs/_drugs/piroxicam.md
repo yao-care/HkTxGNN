@@ -33,7 +33,8 @@ predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndro
 
 </div>
 
-# Piroxicam：從類風濕性關節炎到先天性骨骼與肢體發育異常症候群（預測）
+## Piroxicam：從類風濕性關節炎到先天性骨骼與肢體發育異常症候群（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

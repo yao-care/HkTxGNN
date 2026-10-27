@@ -33,7 +33,8 @@ predicted_indications: ["bacterial arthritis", "chronic otitis media", "middle e
 
 </div>
 
-# Procaine Benzylpenicillin：從細菌感染症（中耳炎、鏈球菌感染、梅毒等）到細菌性關節炎
+## Procaine Benzylpenicillin：從細菌感染症（中耳炎、鏈球菌感染、梅毒等）到細菌性關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

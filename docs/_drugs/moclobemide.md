@@ -33,7 +33,8 @@ predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy
 
 </div>
 
-# Moclobemide：從焦慮症到懼曠症
+## Moclobemide：從焦慮症到懼曠症
+{: .text-alpha }
 
 ## 一句話總結
 

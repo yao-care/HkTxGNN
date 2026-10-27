@@ -33,7 +33,8 @@ predicted_indications: ["autosomal dominant familial hematuria-retinal arteriola
 
 </div>
 
-# Deoxycholic Acid：從皮下脂肪（原適應症資料缺漏）到糖尿病腎病變
+## Deoxycholic Acid：從皮下脂肪（原適應症資料缺漏）到糖尿病腎病變
+{: .text-alpha }
 
 ## 一句話總結
 

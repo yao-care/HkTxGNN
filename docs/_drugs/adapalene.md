@@ -33,7 +33,8 @@ predicted_indications: ["zinc, elevated plasma"]
 
 </div>
 
-# Adapalene：從痤瘡到血漿鋅偏高
+## Adapalene：從痤瘡到血漿鋅偏高
+{: .text-alpha }
 
 ## 一句話總結
 

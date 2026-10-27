@@ -33,7 +33,8 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 </div>
 
-# Degarelix：從前列腺癌（GnRH 拮抗劑）到多毛症（Hypertrichosis）的預測評估
+## Degarelix：從前列腺癌（GnRH 拮抗劑）到多毛症（Hypertrichosis）的預測評估
+{: .text-alpha }
 
 > 註：許可證資料中未提供原適應症文字，上述「前列腺癌」依預測依據中的描述（degarelix 僅上市用於前列腺癌）推得，需以原廠仿單確認。
 

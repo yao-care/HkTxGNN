@@ -33,7 +33,8 @@ predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis
 
 </div>
 
-# Calcitriol：從高血鈣與磷代謝異常到遺傳性低磷佝僂病
+## Calcitriol：從高血鈣與磷代謝異常到遺傳性低磷佝僂病
+{: .text-alpha }
 
 ## 一句話總結
 

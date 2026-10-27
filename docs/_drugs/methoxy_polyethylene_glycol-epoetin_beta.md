@@ -33,7 +33,8 @@ predicted_indications: ["primary release disorder of platelets", "Glanzmann thro
 
 </div>
 
-# Methoxy Polyethylene Glycol-Epoetin Beta：從腎性貧血相關用途到原發性血小板釋放障礙
+## Methoxy Polyethylene Glycol-Epoetin Beta：從腎性貧血相關用途到原發性血小板釋放障礙
+{: .text-alpha }
 
 ## 一句話總結
 

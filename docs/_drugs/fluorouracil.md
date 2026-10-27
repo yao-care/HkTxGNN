@@ -33,7 +33,8 @@ predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina"
 
 </div>
 
-# Fluorouracil：從胃癌與大腸癌等實體腫瘤到胚胎型橫紋肌肉瘤
+## Fluorouracil：從胃癌與大腸癌等實體腫瘤到胚胎型橫紋肌肉瘤
+{: .text-alpha }
 
 ## 一句話總結
 

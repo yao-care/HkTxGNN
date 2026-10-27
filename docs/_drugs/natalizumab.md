@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonp
 
 </div>
 
-# Natalizumab：從克隆氏症到乾癬（Psoriasis）
+## Natalizumab：從克隆氏症到乾癬（Psoriasis）
+{: .text-alpha }
 
 ## 一句話總結
 

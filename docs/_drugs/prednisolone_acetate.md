@@ -33,7 +33,8 @@ predicted_indications: ["parasitic conjunctivitis", "serous conjunctivitis excep
 
 </div>
 
-# Prednisolone Acetate：從葡萄膜炎與結膜炎到寄生蟲性結膜炎
+## Prednisolone Acetate：從葡萄膜炎與結膜炎到寄生蟲性結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

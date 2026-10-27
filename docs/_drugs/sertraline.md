@@ -33,7 +33,8 @@ predicted_indications: ["schizoid personality disorder", "schizotypal personalit
 
 </div>
 
-# Sertraline：從焦慮症與強迫症到思覺失調型人格障礙（Schizoid Personality Disorder）
+## Sertraline：從焦慮症與強迫症到思覺失調型人格障礙（Schizoid Personality Disorder）
+{: .text-alpha }
 
 ## 一句話總結
 

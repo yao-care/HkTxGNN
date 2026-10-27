@@ -33,7 +33,8 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 </div>
 
-# Cobicistat：從 HIV 感染到猿猴免疫缺陷病毒感染（模型預測）
+## Cobicistat：從 HIV 感染到猿猴免疫缺陷病毒感染（模型預測）
+{: .text-alpha }
 
 ## 一句話總結
 

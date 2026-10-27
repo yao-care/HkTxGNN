@@ -33,7 +33,8 @@ predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndro
 
 </div>
 
-# Baricitinib：從類風濕性關節炎到 Colobomatous Microphthalmia-Rhizomelic Dysplasia 症候群
+## Baricitinib：從類風濕性關節炎到 Colobomatous Microphthalmia-Rhizomelic Dysplasia 症候群
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["conjunctivitis", "postinfectious vasculitis", "post-bac
 
 </div>
 
-# Streptomycin：從結核病等細菌感染到結膜炎
+## Streptomycin：從結核病等細菌感染到結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

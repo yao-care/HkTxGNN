@@ -33,7 +33,8 @@ predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanc
 
 </div>
 
-# Sotalol：從心房顫動到病態竇房結症候群（預測）
+## Sotalol：從心房顫動到病態竇房結症候群（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

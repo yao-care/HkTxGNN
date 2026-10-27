@@ -33,7 +33,8 @@ predicted_indications: ["gastrin secretion abnormality"]
 
 </div>
 
-# Caspofungin：從食道念珠菌症與念珠菌血症到胃泌素分泌異常
+## Caspofungin：從食道念珠菌症與念珠菌血症到胃泌素分泌異常
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -31,7 +31,8 @@ description: "Brompheniramine：預測新適應症為過敏性蕁麻疹 (Allergi
 
 </div>
 
-# Brompheniramine：從過敏性鼻炎與蕁麻疹到過敏性蕁麻疹
+## Brompheniramine：從過敏性鼻炎與蕁麻疹到過敏性蕁麻疹
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabeti
 
 </div>
 
-# Human immunoglobulin G：從免疫球蛋白製劑既有用途到嚴重非增殖性糖尿病視網膜病變
+## Human immunoglobulin G：從免疫球蛋白製劑既有用途到嚴重非增殖性糖尿病視網膜病變
+{: .text-alpha }
 
 ## 一句話總結
 

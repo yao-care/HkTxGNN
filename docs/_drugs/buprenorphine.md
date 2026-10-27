@@ -33,7 +33,8 @@ predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal d
 
 </div>
 
-# Buprenorphine：從鴉片類依賴到急性間歇性紫質症
+## Buprenorphine：從鴉片類依賴到急性間歇性紫質症
+{: .text-alpha }
 
 ## 一句話總結
 

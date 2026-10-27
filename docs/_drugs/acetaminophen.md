@@ -31,7 +31,8 @@ description: "Acetaminophen：預測新適應症為伴腦幹先兆的偏頭痛 (
 
 </div>
 
-# Acetaminophen：從頭痛／偏頭痛到伴腦幹先兆的偏頭痛
+## Acetaminophen：從頭痛／偏頭痛到伴腦幹先兆的偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

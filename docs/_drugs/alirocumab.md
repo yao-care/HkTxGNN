@@ -33,7 +33,8 @@ predicted_indications: ["ichthyosis, X-linked, without steroid sulfatase deficie
 
 </div>
 
-# Alirocumab：從血脂異常與動脈粥狀硬化到 X 染色體連鎖魚鱗癬
+## Alirocumab：從血脂異常與動脈粥狀硬化到 X 染色體連鎖魚鱗癬
+{: .text-alpha }
 
 ## 一句話總結
 

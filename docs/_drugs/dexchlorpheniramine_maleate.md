@@ -33,7 +33,8 @@ predicted_indications: ["acute intermittent porphyria"]
 
 </div>
 
-# Dexchlorpheniramine Maleate：從（原適應症未載明）到急性間歇性紫質症
+## Dexchlorpheniramine Maleate：從（原適應症未載明）到急性間歇性紫質症
+{: .text-alpha }
 
 ## 一句話總結
 

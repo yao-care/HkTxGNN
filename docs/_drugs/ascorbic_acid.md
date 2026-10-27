@@ -33,7 +33,8 @@ predicted_indications: ["non-syndromic esophageal malformation", "esophageal dis
 
 </div>
 
-# Ascorbic Acid：從維生素 C 缺乏症／壞血病到食道疾病
+## Ascorbic Acid：從維生素 C 缺乏症／壞血病到食道疾病
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["dysthymic disorder", "neurotic disorder", "anxiety diso
 
 </div>
 
-# Alverine：從腸胃道平滑肌痙攣到構音情緒障礙（Dysthymic Disorder）
+## Alverine：從腸胃道平滑肌痙攣到構音情緒障礙（Dysthymic Disorder）
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic de
 
 </div>
 
-# Risankizumab：從乾癬到皮膚炎
+## Risankizumab：從乾癬到皮膚炎
+{: .text-alpha }
 
 ## 一句話總結
 

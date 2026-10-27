@@ -33,7 +33,8 @@ predicted_indications: ["exposure keratitis", "non-human animal disease", "otiti
 
 </div>
 
-# Fusidic Acid：從細菌感染到暴露性角膜炎
+## Fusidic Acid：從細菌感染到暴露性角膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

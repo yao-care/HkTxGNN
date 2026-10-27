@@ -33,7 +33,8 @@ predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity d
 
 </div>
 
-# Pitolisant：從猝睡症到失眠症（預測）
+## Pitolisant：從猝睡症到失眠症（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

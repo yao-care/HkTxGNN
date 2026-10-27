@@ -33,7 +33,8 @@ predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocyt
 
 </div>
 
-# Ribociclib：從（原適應症未載明）到骨髓性白血病
+## Ribociclib：從（原適應症未載明）到骨髓性白血病
+{: .text-alpha }
 
 ## 一句話總結
 

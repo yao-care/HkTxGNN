@@ -33,7 +33,8 @@ predicted_indications: ["malignant cutaneous granular cell skin tumor"]
 
 </div>
 
-# Trastuzumab：從 HER2 陽性乳癌到黃體素受體陽性乳癌
+## Trastuzumab：從 HER2 陽性乳癌到黃體素受體陽性乳癌
+{: .text-alpha }
 
 ## 一句話總結
 

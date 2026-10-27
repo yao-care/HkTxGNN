@@ -33,7 +33,8 @@ predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma 
 
 </div>
 
-# Vandetanib：從甲狀腺癌到腎細胞癌
+## Vandetanib：從甲狀腺癌到腎細胞癌
+{: .text-alpha }
 
 ## 一句話總結
 

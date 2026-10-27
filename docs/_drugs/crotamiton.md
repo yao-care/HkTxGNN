@@ -33,7 +33,8 @@ predicted_indications: ["trombiculiasis", "lymph node palisaded myofibroblastoma
 
 </div>
 
-# Crotamiton：從疥瘡到恙蟲病性皮膚炎（Trombiculiasis）
+## Crotamiton：從疥瘡到恙蟲病性皮膚炎（Trombiculiasis）
+{: .text-alpha }
 
 ## 一句話總結
 

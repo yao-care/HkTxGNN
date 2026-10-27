@@ -33,7 +33,8 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-# Quetiapine：從雙相情緒障礙／思覺失調症到視網膜失養症
+## Quetiapine：從雙相情緒障礙／思覺失調症到視網膜失養症
+{: .text-alpha }
 
 ## 一句話總結
 

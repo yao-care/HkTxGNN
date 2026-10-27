@@ -33,7 +33,8 @@ predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "no
 
 </div>
 
-# Papaverine：從周邊血管疾病與腦缺血到缺血性疾病
+## Papaverine：從周邊血管疾病與腦缺血到缺血性疾病
+{: .text-alpha }
 
 ## 一句話總結
 

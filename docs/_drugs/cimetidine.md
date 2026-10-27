@@ -33,7 +33,8 @@ predicted_indications: ["peptic ulcer perforation", "lymphoadenopathic mastocyto
 
 </div>
 
-# Cimetidine：從消化性潰瘍到全身性肥大細胞增生症（惰性型）
+## Cimetidine：從消化性潰瘍到全身性肥大細胞增生症（惰性型）
+{: .text-alpha }
 
 ## 一句話總結
 

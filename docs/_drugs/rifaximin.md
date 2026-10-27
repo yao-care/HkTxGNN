@@ -33,7 +33,8 @@ predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteorad
 
 </div>
 
-# Rifaximin：從肝性腦病變到口腔念珠菌症（預測可信度低）
+## Rifaximin：從肝性腦病變到口腔念珠菌症（預測可信度低）
+{: .text-alpha }
 
 ## 一句話總結
 

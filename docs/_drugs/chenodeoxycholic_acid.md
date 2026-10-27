@@ -33,7 +33,8 @@ predicted_indications: ["homozygous familial hypercholesterolemia", "brain small
 
 </div>
 
-# Chenodeoxycholic Acid：從膽結石到同型合子家族性高膽固醇血症
+## Chenodeoxycholic Acid：從膽結石到同型合子家族性高膽固醇血症
+{: .text-alpha }
 
 ## 一句話總結
 

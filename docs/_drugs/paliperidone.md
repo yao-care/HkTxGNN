@@ -33,7 +33,8 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-# Paliperidone：從思覺失調症到視網膜失養症（預測）
+## Paliperidone：從思覺失調症到視網膜失養症（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

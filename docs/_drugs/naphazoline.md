@@ -33,7 +33,8 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 
 </div>
 
-# Naphazoline：從鼻眼充血緩解到頭皮毛髮稀疏（hypotrichosis simplex of the scalp）
+## Naphazoline：從鼻眼充血緩解到頭皮毛髮稀疏（hypotrichosis simplex of the scalp）
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivi
 
 </div>
 
-# Sulfadiazine：從弓形蟲症到肺囊蟲症（Pneumocystosis）
+## Sulfadiazine：從弓形蟲症到肺囊蟲症（Pneumocystosis）
+{: .text-alpha }
 
 ## 一句話總結
 

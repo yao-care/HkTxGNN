@@ -33,7 +33,8 @@ predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheu
 
 </div>
 
-# Vaborbactam：從細菌感染（原適應症資料缺漏）到退化性關節炎
+## Vaborbactam：從細菌感染（原適應症資料缺漏）到退化性關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

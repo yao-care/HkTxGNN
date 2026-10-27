@@ -33,7 +33,8 @@ predicted_indications: ["gastroduodenitis"]
 
 </div>
 
-# Magnesium Hydroxide：從消化性潰瘍與胃食道逆流到活動性消化性潰瘍
+## Magnesium Hydroxide：從消化性潰瘍與胃食道逆流到活動性消化性潰瘍
+{: .text-alpha }
 
 ## 一句話總結
 

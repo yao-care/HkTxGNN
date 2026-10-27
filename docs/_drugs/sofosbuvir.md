@@ -33,7 +33,8 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 
 </div>
 
-# Sofosbuvir：從慢性 C 型肝炎到 E 型肝炎（及其他病毒性肝炎）
+## Sofosbuvir：從慢性 C 型肝炎到 E 型肝炎（及其他病毒性肝炎）
+{: .text-alpha }
 
 ## 一句話總結
 

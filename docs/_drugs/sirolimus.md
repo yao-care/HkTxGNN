@@ -33,7 +33,8 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine co
 
 </div>
 
-# Sirolimus：從腎細胞癌／淋巴管平滑肌瘤病到脂肪肉瘤
+## Sirolimus：從腎細胞癌／淋巴管平滑肌瘤病到脂肪肉瘤
+{: .text-alpha }
 
 ## 一句話總結
 

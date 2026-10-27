@@ -33,7 +33,8 @@ predicted_indications: ["vulvovaginal candidiasis", "fascioliasis", "urea cycle 
 
 </div>
 
-# Bedaquiline：從肺結核與多重抗藥性結核病到非活動性結核病（潛伏性結核感染預防）
+## Bedaquiline：從肺結核與多重抗藥性結核病到非活動性結核病（潛伏性結核感染預防）
+{: .text-alpha }
 
 ## 一句話總結
 

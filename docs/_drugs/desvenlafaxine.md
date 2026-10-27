@@ -33,7 +33,8 @@ predicted_indications: ["obsessive-compulsive disorder", "histrionic personality
 
 </div>
 
-# Desvenlafaxine：從憂鬱症到強迫症
+## Desvenlafaxine：從憂鬱症到強迫症
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "T
 
 </div>
 
-# Procaine：從（原適應症未載明）到 methemoglobinemia（高分預測，但屬安全性警訊）
+## Procaine：從（原適應症未載明）到 methemoglobinemia（高分預測，但屬安全性警訊）
+{: .text-alpha }
 
 ## 一句話總結
 

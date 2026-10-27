@@ -33,7 +33,8 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary c
 
 </div>
 
-# Lidocaine：從皮膚與神經痛相關疾病到結膜疾病（conjunctival disorder）
+## Lidocaine：從皮膚與神經痛相關疾病到結膜疾病（conjunctival disorder）
+{: .text-alpha }
 
 ## 一句話總結
 

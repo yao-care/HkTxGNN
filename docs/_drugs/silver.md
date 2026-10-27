@@ -33,7 +33,8 @@ predicted_indications: ["bone Paget disease", "amenorrhea (disease)", "non-syndr
 
 </div>
 
-# Silver（銀）：從腐蝕性外用製劑到骨 Paget 氏病（預測）
+## Silver（銀）：從腐蝕性外用製劑到骨 Paget 氏病（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "acu
 
 </div>
 
-# Sodium Citrate：從消化道與上呼吸道症狀到乳突性結膜炎（預測）
+## Sodium Citrate：從消化道與上呼吸道症狀到乳突性結膜炎（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcino
 
 </div>
 
-# Doxorubicin：從淋巴瘤與白血病到尤因氏肉瘤 (Ewing Sarcoma)
+## Doxorubicin：從淋巴瘤與白血病到尤因氏肉瘤 (Ewing Sarcoma)
+{: .text-alpha }
 
 ## 一句話總結
 

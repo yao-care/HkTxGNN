@@ -33,7 +33,8 @@ predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventi
 
 </div>
 
-# Imatinib：從慢性骨髓性白血病與胃腸道間質瘤到心臟纖維肉瘤
+## Imatinib：從慢性骨髓性白血病與胃腸道間質瘤到心臟纖維肉瘤
+{: .text-alpha }
 
 ## 一句話總結
 

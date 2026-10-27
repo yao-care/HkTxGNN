@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopa
 
 </div>
 
-# Benzoic Acid（苯甲酸）：從皮膚纖維化相關疾病到支氣管炎
+## Benzoic Acid（苯甲酸）：從皮膚纖維化相關疾病到支氣管炎
+{: .text-alpha }
 
 ## 一句話總結
 

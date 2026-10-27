@@ -33,7 +33,8 @@ predicted_indications: ["polyp of vocal cord", "polyp of middle ear", "polyp of 
 
 </div>
 
-# Desonide：從皮膚發炎性疾病到聲帶息肉
+## Desonide：從皮膚發炎性疾病到聲帶息肉
+{: .text-alpha }
 
 ## 一句話總結
 

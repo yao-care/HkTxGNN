@@ -31,7 +31,8 @@ description: "Lemborexant：預測新適應症為入睡與睡眠維持障礙 (Sl
 
 </div>
 
-# Lemborexant：從失眠到入睡與睡眠維持障礙
+## Lemborexant：從失眠到入睡與睡眠維持障礙
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["trigeminal nerve neoplasm"]
 
 </div>
 
-# Phenobarbital：從癲癇到三叉神經腫瘤
+## Phenobarbital：從癲癇到三叉神經腫瘤
+{: .text-alpha }
 
 ## 一句話總結
 

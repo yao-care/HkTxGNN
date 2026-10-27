@@ -33,7 +33,8 @@ predicted_indications: ["lymphoadenopathic mastocytosis with eosinophilia"]
 
 </div>
 
-# Rabeprazole：從消化性潰瘍與胃食道逆流到瀰漫性肥大細胞增生症（Smouldering Systemic Mastocytosis）
+## Rabeprazole：從消化性潰瘍與胃食道逆流到瀰漫性肥大細胞增生症（Smouldering Systemic Mastocytosis）
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal u
 
 </div>
 
-# Digoxin：從心房顫動到變異型心絞痛（Prinzmetal angina）
+## Digoxin：從心房顫動到變異型心絞痛（Prinzmetal angina）
+{: .text-alpha }
 
 ## 一句話總結
 

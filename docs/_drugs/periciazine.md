@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "at
 
 </div>
 
-# Periciazine：從精神病相關行為障礙到偏頭痛
+## Periciazine：從精神病相關行為障礙到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

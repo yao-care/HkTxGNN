@@ -33,7 +33,8 @@ predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromes
 
 </div>
 
-# Felbinac：從骨關節炎到 Brachyolmia-Amelogenesis Imperfecta 症候群
+## Felbinac：從骨關節炎到 Brachyolmia-Amelogenesis Imperfecta 症候群
+{: .text-alpha }
 
 ## 一句話總結
 

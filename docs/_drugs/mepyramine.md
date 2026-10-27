@@ -33,7 +33,8 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 </div>
 
-# Mepyramine：從過敏性鼻炎與蕁麻疹到過敏性蕁麻疹
+## Mepyramine：從過敏性鼻炎與蕁麻疹到過敏性蕁麻疹
+{: .text-alpha }
 
 ## 一句話總結
 

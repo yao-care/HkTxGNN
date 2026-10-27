@@ -33,7 +33,8 @@ predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival"
 
 </div>
 
-# Dasatinib：從慢性骨髓性白血病到尤文氏肉瘤
+## Dasatinib：從慢性骨髓性白血病到尤文氏肉瘤
+{: .text-alpha }
 
 ## 一句話總結
 

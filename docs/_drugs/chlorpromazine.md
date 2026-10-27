@@ -33,7 +33,8 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-# Chlorpromazine：從精神分裂症等精神疾病到遺傳性視網膜失養症（預測）
+## Chlorpromazine：從精神分裂症等精神疾病到遺傳性視網膜失養症（預測）
+{: .text-alpha }
 
 ## 一句話總結
 

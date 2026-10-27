@@ -33,7 +33,8 @@ predicted_indications: ["HIV infectious disease"]
 
 </div>
 
-# Eltrombopag：從自體免疫性血小板低下症到 HIV 感染相關疾病
+## Eltrombopag：從自體免疫性血小板低下症到 HIV 感染相關疾病
+{: .text-alpha }
 
 ## 一句話總結
 

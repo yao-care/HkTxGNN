@@ -33,7 +33,8 @@ predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheu
 
 </div>
 
-# Piracetam：從（原適應症資料缺漏）到退化性關節炎
+## Piracetam：從（原適應症資料缺漏）到退化性關節炎
+{: .text-alpha }
 
 ## 一句話總結
 

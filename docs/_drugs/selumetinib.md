@@ -33,7 +33,8 @@ predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous sy
 
 </div>
 
-# Selumetinib：從神經纖維瘤到週邊神經鞘瘤（NF2 相關）
+## Selumetinib：從神經纖維瘤到週邊神經鞘瘤（NF2 相關）
+{: .text-alpha }
 
 ## 一句話總結
 

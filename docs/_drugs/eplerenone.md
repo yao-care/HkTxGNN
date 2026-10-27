@@ -33,7 +33,8 @@ predicted_indications: ["pulmonary hypertension owing to lung disease and/or hyp
 
 </div>
 
-# Eplerenone：從高血壓到肺高壓（肺部疾病／缺氧所致）
+## Eplerenone：從高血壓到肺高壓（肺部疾病／缺氧所致）
+{: .text-alpha }
 
 ## 一句話總結
 

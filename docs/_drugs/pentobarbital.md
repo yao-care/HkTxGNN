@@ -33,7 +33,8 @@ predicted_indications: ["obesity disorder", "manic bipolar affective disorder", 
 
 </div>
 
-# Pentobarbital：從癲癇與失眠到肥胖症
+## Pentobarbital：從癲癇與失眠到肥胖症
+{: .text-alpha }
 
 ## 一句話總結
 

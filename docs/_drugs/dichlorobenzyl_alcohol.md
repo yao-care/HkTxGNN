@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis", "migraine disorder"]
 
 </div>
 
-# Dichlorobenzyl Alcohol：從喉嚨不適（咽喉殺菌）到支氣管炎
+## Dichlorobenzyl Alcohol：從喉嚨不適（咽喉殺菌）到支氣管炎
+{: .text-alpha }
 
 ## 一句話總結
 

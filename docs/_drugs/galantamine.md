@@ -33,7 +33,8 @@ predicted_indications: ["psychogenic movement disorders", "chronic tic disorder"
 
 </div>
 
-# Galantamine：從阿茲海默症到心因性運動障礙
+## Galantamine：從阿茲海默症到心因性運動障礙
+{: .text-alpha }
 
 ## 一句話總結
 

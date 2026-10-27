@@ -33,7 +33,8 @@ predicted_indications: ["brain small vessel disease 1 with or without ocular ano
 
 </div>
 
-# Sacubitril：從心臟衰竭相關適應症到糖尿病腎病變
+## Sacubitril：從心臟衰竭相關適應症到糖尿病腎病變
+{: .text-alpha }
 
 ## 一句話總結
 

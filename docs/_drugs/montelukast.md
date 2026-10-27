@@ -33,7 +33,8 @@ predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease
 
 </div>
 
-# Montelukast：從過敏性鼻炎與氣喘到支氣管炎
+## Montelukast：從過敏性鼻炎與氣喘到支氣管炎
+{: .text-alpha }
 
 ## 一句話總結
 

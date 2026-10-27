@@ -33,7 +33,8 @@ predicted_indications: ["laryngitis", "Ureaplasma urethritis", "gonococcal ureth
 
 </div>
 
-# Ampicillin：從細菌感染到喉炎
+## Ampicillin：從細菌感染到喉炎
+{: .text-alpha }
 
 ## 一句話總結
 

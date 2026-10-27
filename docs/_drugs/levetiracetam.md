@@ -31,7 +31,8 @@ description: "Levetiracetam：預測新適應症為視覺性癲癇 (Visual Epile
 
 </div>
 
-# Levetiracetam：從局部癲癇到視覺性癲癇
+## Levetiracetam：從局部癲癇到視覺性癲癇
+{: .text-alpha }
 
 ## 一句話總結
 

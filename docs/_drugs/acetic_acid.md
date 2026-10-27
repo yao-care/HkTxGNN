@@ -33,7 +33,8 @@ predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", 
 
 </div>
 
-# 醋酸（Acetic Acid）：從外耳炎到體癬（Tinea Corporis）
+## 醋酸（Acetic Acid）：從外耳炎到體癬（Tinea Corporis）
+{: .text-alpha }
 
 ## 一句話總結
 

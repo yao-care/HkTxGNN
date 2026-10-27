@@ -33,7 +33,8 @@ predicted_indications: ["obstructive lung disease", "respiratory malformation", 
 
 </div>
 
-# Norepinephrine：從氣喘／低血壓到阻塞性肺病
+## Norepinephrine：從氣喘／低血壓到阻塞性肺病
+{: .text-alpha }
 
 ## 一句話總結
 

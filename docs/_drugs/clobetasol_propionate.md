@@ -33,7 +33,8 @@ predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis 
 
 </div>
 
-# Clobetasol Propionate：從異位性皮膚炎等皮膚炎類疾病到外陰倒置性毛囊角化症
+## Clobetasol Propionate：從異位性皮膚炎等皮膚炎類疾病到外陰倒置性毛囊角化症
+{: .text-alpha }
 
 ## 一句話總結
 

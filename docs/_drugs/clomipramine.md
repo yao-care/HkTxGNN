@@ -33,7 +33,8 @@ predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of in
 
 </div>
 
-# Clomipramine：從強迫症到焦慮症
+## Clomipramine：從強迫症到焦慮症
+{: .text-alpha }
 
 ## 一句話總結
 

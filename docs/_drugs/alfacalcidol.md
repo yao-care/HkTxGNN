@@ -33,7 +33,8 @@ predicted_indications: ["familial isolated hypoparathyroidism due to impaired PT
 
 </div>
 
-# Alfacalcidol：從副甲狀腺功能亢進到家族性孤立性副甲狀腺功能低下症
+## Alfacalcidol：從副甲狀腺功能亢進到家族性孤立性副甲狀腺功能低下症
+{: .text-alpha }
 
 ## 一句話總結
 

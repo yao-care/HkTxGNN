@@ -33,7 +33,8 @@ predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-inde
 
 </div>
 
-# Ferrous Gluconate：從缺鐵性貧血到 Plummer-Vinson 症候群
+## Ferrous Gluconate：從缺鐵性貧血到 Plummer-Vinson 症候群
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-
 
 </div>
 
-# Venetoclax：從急性淋巴性白血病與 Richter 症候群到骨髓性白血病
+## Venetoclax：從急性淋巴性白血病與 Richter 症候群到骨髓性白血病
+{: .text-alpha }
 
 ## 一句話總結
 

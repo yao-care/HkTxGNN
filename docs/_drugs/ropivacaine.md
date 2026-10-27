@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "ne
 
 </div>
 
-# Ropivacaine：從局部麻醉到偏頭痛
+## Ropivacaine：從局部麻醉到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["perioral myoclonia with absences"]
 
 </div>
 
-# Rufinamide：從 Lennox-Gastaut 症候群到熱病相關難治性癲癇症候群（FIRES）
+## Rufinamide：從 Lennox-Gastaut 症候群到熱病相關難治性癲癇症候群（FIRES）
+{: .text-alpha }
 
 ## 一句話總結
 

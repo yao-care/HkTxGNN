@@ -33,7 +33,8 @@ predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia
 
 </div>
 
-# Salicylic acid：從足癬與關節炎等適應症到乳頭狀結膜炎
+## Salicylic acid：從足癬與關節炎等適應症到乳頭狀結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

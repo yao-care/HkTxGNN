@@ -33,7 +33,8 @@ predicted_indications: ["pseudo-von Willebrand disease", "primary release disord
 
 </div>
 
-# Albutrepenonacog alfa：從血友病到偽性血管性血友病（pseudo-von Willebrand disease）
+## Albutrepenonacog alfa：從血友病到偽性血管性血友病（pseudo-von Willebrand disease）
+{: .text-alpha }
 
 ## 一句話總結
 

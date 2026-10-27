@@ -33,7 +33,8 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "attention d
 
 </div>
 
-# Nortriptyline：從焦慮症到注意力不足過動症 (ADHD)
+## Nortriptyline：從焦慮症到注意力不足過動症 (ADHD)
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia
 
 </div>
 
-# Olanzapine：從雙相情緒障礙與精神分裂症到泛懼症（Agoraphobia）
+## Olanzapine：從雙相情緒障礙與精神分裂症到泛懼症（Agoraphobia）
+{: .text-alpha }
 
 ## 一句話總結
 

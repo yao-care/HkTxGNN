@@ -33,7 +33,8 @@ predicted_indications: ["pneumocystosis"]
 
 </div>
 
-# Posaconazole：從侵襲性黴菌感染到肺囊蟲病（Pneumocystosis）
+## Posaconazole：從侵襲性黴菌感染到肺囊蟲病（Pneumocystosis）
+{: .text-alpha }
 
 ## 一句話總結
 

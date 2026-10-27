@@ -33,7 +33,8 @@ predicted_indications: ["drug-induced osteoporosis", "disease of retroperitoneum
 
 </div>
 
-# Amorolfine：從局部抗真菌治療到藥物誘發性骨質疏鬆（模型預測）
+## Amorolfine：從局部抗真菌治療到藥物誘發性骨質疏鬆（模型預測）
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serp
 
 </div>
 
-# Icatibant：從遺傳性血管性水腫到 C1 抑制劑缺乏症
+## Icatibant：從遺傳性血管性水腫到 C1 抑制劑缺乏症
+{: .text-alpha }
 
 ## 一句話總結
 

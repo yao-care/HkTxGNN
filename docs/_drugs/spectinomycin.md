@@ -33,7 +33,8 @@ predicted_indications: ["disease of uterine broad ligament", "abdominal ectopic 
 
 </div>
 
-# Spectinomycin：從淋病到子宮闊韌帶疾病
+## Spectinomycin：從淋病到子宮闊韌帶疾病
+{: .text-alpha }
 
 ## 一句話總結
 

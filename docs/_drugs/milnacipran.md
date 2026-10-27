@@ -33,7 +33,8 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "te
 
 </div>
 
-# Milnacipran：從纖維肌痛症到偏頭痛
+## Milnacipran：從纖維肌痛症到偏頭痛
+{: .text-alpha }
 
 ## 一句話總結
 

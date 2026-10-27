@@ -33,7 +33,8 @@ predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-a
 
 </div>
 
-# Safinamide：從帕金森氏症到 Rasmussen 亞急性腦炎
+## Safinamide：從帕金森氏症到 Rasmussen 亞急性腦炎
+{: .text-alpha }
 
 ## 一句話總結
 

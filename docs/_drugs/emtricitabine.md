@@ -33,7 +33,8 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 </div>
 
-# Emtricitabine：從 HIV 感染到貓免疫缺陷病毒感染（動物模型）
+## Emtricitabine：從 HIV 感染到貓免疫缺陷病毒感染（動物模型）
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 </div>
 
-# Valsartan：從高血壓到惡性高血壓性腎病
+## Valsartan：從高血壓到惡性高血壓性腎病
+{: .text-alpha }
 
 ## 一句話總結
 

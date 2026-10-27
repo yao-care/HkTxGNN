@@ -33,7 +33,8 @@ predicted_indications: ["Majocchi granuloma", "ectothrix infectious disease", "e
 
 </div>
 
-# Econazole：從皮膚黴菌感染到淺部黴菌症與外陰陰道念珠菌症
+## Econazole：從皮膚黴菌感染到淺部黴菌症與外陰陰道念珠菌症
+{: .text-alpha }
 
 ## 一句話總結
 

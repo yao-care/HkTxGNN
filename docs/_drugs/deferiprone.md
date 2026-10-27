@@ -33,7 +33,8 @@ predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "idiopa
 
 </div>
 
-# Deferiprone：從輸血性鐵過載（地中海型貧血）到肝性卟啉症
+## Deferiprone：從輸血性鐵過載（地中海型貧血）到肝性卟啉症
+{: .text-alpha }
 
 ## 一句話總結
 

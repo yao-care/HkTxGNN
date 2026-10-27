@@ -33,7 +33,8 @@ predicted_indications: ["sclerosing cholangitis"]
 
 </div>
 
-# Selenium：從（原適應症未載明）到硬化性膽管炎
+## Selenium：從（原適應症未載明）到硬化性膽管炎
+{: .text-alpha }
 
 ## 一句話總結
 

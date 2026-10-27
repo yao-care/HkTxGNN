@@ -33,7 +33,8 @@ predicted_indications: ["exercise-induced malignant hyperthermia", "malignant hy
 
 </div>
 
-# Metyrapone：從腎上腺皮質功能檢測與庫欣氏症到運動誘發惡性高熱
+## Metyrapone：從腎上腺皮質功能檢測與庫欣氏症到運動誘發惡性高熱
+{: .text-alpha }
 
 ## 一句話總結
 

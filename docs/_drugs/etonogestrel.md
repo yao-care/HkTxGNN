@@ -33,7 +33,8 @@ predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "b
 
 </div>
 
-# Etonogestrel：從避孕到閉經（Amenorrhea）
+## Etonogestrel：從避孕到閉經（Amenorrhea）
+{: .text-alpha }
 
 ## 一句話總結
 

@@ -33,7 +33,8 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 
 </div>
 
-# Spironolactone：從高血壓與心衰竭到頭皮單純性毛髮稀少症
+## Spironolactone：從高血壓與心衰竭到頭皮單純性毛髮稀少症
+{: .text-alpha }
 
 ## 一句話總結
 

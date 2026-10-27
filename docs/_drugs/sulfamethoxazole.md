@@ -33,7 +33,8 @@ predicted_indications: ["acute contagious conjunctivitis"]
 
 </div>
 
-# Sulfamethoxazole：從細菌感染（含結膜炎）到急性傳染性結膜炎
+## Sulfamethoxazole：從細菌感染（含結膜炎）到急性傳染性結膜炎
+{: .text-alpha }
 
 ## 一句話總結
 

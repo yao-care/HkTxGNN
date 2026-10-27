@@ -33,7 +33,8 @@ predicted_indications: ["congenital ichthyosiform erythroderma", "self-healing c
 
 </div>
 
-# Polyvinyl Alcohol：從乾眼症到先天性魚鱗癬樣紅皮症
+## Polyvinyl Alcohol：從乾眼症到先天性魚鱗癬樣紅皮症
+{: .text-alpha }
 
 ## 一句話總結
 

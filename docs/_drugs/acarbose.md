@@ -33,7 +33,8 @@ predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndr
 
 </div>
 
-# Acarbose：從第 2 型糖尿病到局部僵硬肢症候群
+## Acarbose：從第 2 型糖尿病到局部僵硬肢症候群
+{: .text-alpha }
 
 ## 一句話總結
 

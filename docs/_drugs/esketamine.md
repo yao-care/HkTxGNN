@@ -33,7 +33,8 @@ predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy
 
 </div>
 
-# Esketamine：從焦慮症到畏曠症（Agoraphobia）
+## Esketamine：從焦慮症到畏曠症（Agoraphobia）
+{: .text-alpha }
 
 ## 一句話總結
 
