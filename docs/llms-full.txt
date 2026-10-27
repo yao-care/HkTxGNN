@@ -17,7 +17,7 @@ HkTxGNN 是藥提醒科技有限公司（yao.care）維護的香港藥物老藥�
 - `/evidence-high/` 高證據等級 (L1-L2) — HkTxGNN 中 L1-L2 等級的老藥新用候選，具多項臨床試驗或系統性回顧支持。
 - `/evidence-medium/` 中證據等級 (L3-L4) — HkTxGNN 中 L3-L4 等級的老藥新用候選，具觀察性研究或前臨床證據。
 - `/evidence-low/` 僅模型預測 (L5) — HkTxGNN 中 L5 等級的候選，僅由模型預測，尚無臨床或文獻證據支持。
-- `/methodology/` 方法論 — HkTxGNN 的預測與證據驗證方法：TxGNN 模型（深度學習）預測、證據收集、L1-L5 證據分級與決策建議。
+- `/methodology/` 方法論 — HkTxGNN 的預測與證據驗證方法：TxGNN 深度學習預測、證據收集、L1-L5 證據分級與決策建議。
 - `/guide/` 使用指南 — HkTxGNN 使用指南：如何查詢藥物、解讀證據等級與決策建議。
 - `/sources/` 資料來源 — HkTxGNN 的資料來源清單：Department of Health HK 藥證資料、TxGNN、ClinicalTrials.gov、PubMed、DrugBank。
 - `/downloads/` 資料下載 — HkTxGNN 開放資料下載：FHIR 資源、預測結果與搜尋索引。

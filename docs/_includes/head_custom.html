@@ -197,7 +197,7 @@ window.TXGNN_ANALYTICS = {
       "@type": "WebPage",
       "@id": "https://hktxgnn.yao.care/#article",
       "headline": "老藥新用，從數據到證據",
-      "description": "用 AI 預測香港註冊藥品的潛在新適應症，提供 {{ site.drugs.size }} 個藥物頁面的臨床試驗與文獻證據驗證報告",
+      "description": "用 AI 預測香港註冊藥品的潛在新適應症，提供 {{ site.data.drug_stats.total_drugs }} 個藥物頁面的臨床試驗與文獻證據驗證報告",
       "author": {
         "@id": "https://www.yao.care/#organization"
       },
@@ -365,7 +365,7 @@ window.TXGNN_ANALYTICS = {
       "@type": "CollectionPage",
       "@id": "{{ page.url | absolute_url }}#webpage",
       "name": "藥物列表 - HkTxGNN",
-      "description": "HkTxGNN 所有藥物驗證報告列表，共 {{ site.drugs.size }} 個藥物頁面",
+      "description": "HkTxGNN 所有藥物驗證報告列表，共 {{ site.data.drug_stats.total_drugs }} 個藥物頁面",
       "url": "{{ page.url | absolute_url }}"
     },
     {
@@ -373,7 +373,7 @@ window.TXGNN_ANALYTICS = {
       "@id": "{{ page.url | absolute_url }}#itemlist",
       "name": "HkTxGNN 藥物驗證報告",
       "description": "香港註冊藥品的老藥新用驗證報告",
-      "numberOfItems": {{ site.drugs.size }},
+      "numberOfItems": {{ site.data.drug_stats.total_drugs }},
       "itemListOrder": "https://schema.org/ItemListOrderAscending"
     },
     {
