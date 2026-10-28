@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 367
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Fenbendazole：預測新適應症為膀胱癌 (Urinary Bladder Carcinoma)（證據等級 L5）。原適應症：許可證資料未載明（香港登記為獸用製劑）"
 monitor_inn: "Fenbendazole"
 predicted_indications: ["urinary bladder carcinoma", "urinary bladder neoplasm", "infiltrating bladder urothelial carcinoma", "non-invasive bladder urothelial carcinoma", "bladder urachal urothelial carcinoma", "bladder squamous papilloma", "bladder signet ring cell adenocarcinoma", "bladder colloid adenocarcinoma", "bladder colonic type adenocarcinoma", "bladder mixed adenocarcinoma"]

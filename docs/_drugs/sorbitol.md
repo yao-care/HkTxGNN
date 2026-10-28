@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 828
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Sorbitol：預測新適應症為運動誘發惡性高熱 (Exercise-induced Malignant Hyperthermia)（證據等級 L5）。原適應症：許可證資料未載明"
 monitor_inn: "SORBITOL"
 predicted_indications: ["exercise-induced malignant hyperthermia"]

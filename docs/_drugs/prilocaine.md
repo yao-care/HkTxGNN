@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "PRILOCAINE"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Prilocaine：預測新適應症為乳頭狀結膜炎（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症"
 ---
 

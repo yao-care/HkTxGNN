@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 250
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Decitabine：預測新適應症為兒童難治性血球減少症 (Refractory Cytopenia of Childhood)（證據等級 L4）。原適應症：急性骨髓性白血病（AML）及相關骨髓性疾病"
 monitor_inn: "DECITABINE"
 predicted_indications: ["refractory cytopenia of childhood"]

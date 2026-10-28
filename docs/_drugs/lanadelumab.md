@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 507
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Lanadelumab"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
 description: "Lanadelumab：預測新適應症為C1 抑制劑缺乏症 (C1 inhibitor deficiency)（證據等級 L1）。原適應症：本地許可證資料未記載適應症"

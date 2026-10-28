@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ROTIGOTINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Rotigotine：預測新適應症為注意力不足過動症 (ADHD)（證據等級 L5）。原適應症：知識圖譜中記錄的關聯：不寧腿症候群、帕金森氏症及多種帕金森類症候群"
 ---
 

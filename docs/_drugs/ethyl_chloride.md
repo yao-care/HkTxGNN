@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ethyl chloride"
 predicted_indications: ["immature cataract", "diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "tetanic cataract", "mature cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "acne (disease)"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ethyl Chloride：預測新適應症為未成熟白內障 (immature cataract)（證據等級 L5）。原適應症：許可證資料未載明"
 ---
 

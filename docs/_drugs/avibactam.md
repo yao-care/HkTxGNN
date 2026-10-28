@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Avibactam"
 predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "hyperamylasemia", "polyclonal hyperviscosity syndrome"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Avibactam：預測新適應症為泌尿道結核 (ureter tuberculosis)（證據等級 L5）。原適應症：腎盂腎炎"
 ---
 

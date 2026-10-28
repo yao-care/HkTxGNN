@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "TOLFENAMIC ACID"
 predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis", "trigeminal autonomic cephalalgia", "idiopathic granulomatous myositis", "myositis fibrosa", "fibromyalgia", "exostosis", "inclusion body myositis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Tolfenamic Acid：預測新適應症為頭痛疾患 (Headache Disorder)（證據等級 L5）。原適應症：許可證未載明"
 ---
 

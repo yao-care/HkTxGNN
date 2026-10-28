@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "OXYTETRACYCLINE"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Oxytetracycline：預測新適應症為慢性鼻竇炎（證據等級 L5）。原適應症：香港許可證未載明核准適應症"
 ---
 

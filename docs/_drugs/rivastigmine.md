@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 782
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Rivastigmine：預測新適應症為青光眼 (Glaucoma)（證據等級 L4）。原適應症：阿茲海默症（Alzheimer disease）、小腦退化、Pick 氏病等"
 monitor_inn: "RIVASTIGMINE"
 predicted_indications: ["glaucoma"]

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "PROCAINE BENZYLPENICILLIN"
 predicted_indications: ["bacterial arthritis", "middle ear disease", "otosalpingitis", "middle ear cholesterol granuloma", "epiglottitis", "urinary tract infection (disease)"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Procaine Benzylpenicillin：預測新適應症為細菌性關節炎（證據等級 L5）。原適應症：知識圖譜記錄的關聯用途包括感染性中耳炎、鏈球菌感染、梅毒、心內膜炎等"
 ---
 

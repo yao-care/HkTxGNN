@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 819
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Sodium Carbonate：預測新適應症為馬尾症候群 (Cauda Equina Syndrome)（證據等級 L5）。原適應症：許可證未載明"
 monitor_inn: "Sodium carbonate"
 predicted_indications: ["cauda equina syndrome", "anaphylaxis", "food-dependent exercise-induced anaphylaxis", "obsolete neurogenic bladder (disease)", "dry eye syndrome", "ventricular tachycardia"]

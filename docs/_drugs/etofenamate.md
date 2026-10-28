@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ETOFENAMATE"
 predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "pseudoachondroplasia", "myosclerosis", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Etofenamate：預測新適應症為僵直性脊椎炎 (Ankylosing Spondylitis)（證據等級 L5）。原適應症：知識圖譜中記錄的關聯為骨關節炎、骨關節炎易感性、關節病變"
 ---
 

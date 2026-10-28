@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 581
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Mianserin"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "neurotic disorder"]
 description: "Mianserin：預測新適應症為良性嬰兒陣發性斜頸 (benign paroxysmal torticollis of infancy)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 839
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "SULFAMETHOXAZOLE"
 predicted_indications: ["acute contagious conjunctivitis"]
 description: "Sulfamethoxazole：預測新適應症為急性傳染性結膜炎 (acute contagious conjunctivitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

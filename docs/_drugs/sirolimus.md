@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 7
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lung PEComa", "vulva sarcoma"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Sirolimus：預測新適應症為脂肪肉瘤 (Liposarcoma)（證據等級 L4）。原適應症：香港許可證資料未載明適應症文字。知識圖譜記錄的關聯為腎細胞癌、淋巴管平滑肌瘤病"
 ---
 

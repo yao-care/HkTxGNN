@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 201
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Cisatracurium：預測新適應症為馬尾症候群 (Cauda Equina Syndrome)（證據等級 L5）。原適應症：目前許可證資料未載明核准適應症"
 monitor_inn: "Cisatracurium"
 predicted_indications: ["cauda equina syndrome", "preeclampsia", "obsolete neurogenic bladder (disease)", "migraine disorder", "thrombotic disease", "irritable bowel syndrome", "migraine with brainstem aura", "mild pre-eclampsia", "severe pre-eclampsia", "neurocirculatory asthenia"]

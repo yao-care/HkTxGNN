@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 302
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "DULOXETINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
 description: "Duloxetine：預測新適應症為嬰兒良性陣發性斜頸 (Benign paroxysmal torticollis of infancy)，排名第 1（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

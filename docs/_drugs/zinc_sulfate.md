@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 955
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Zinc Sulfate：預測新適應症為咽炎 (Pharyngitis)（證據等級 L5）。原適應症：許可證資料未記載"
 monitor_inn: "ZINC SULFATE"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "congenital prothrombin deficiency"]

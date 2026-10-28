@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 175
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Ceftolozane：預測新適應症為淋球菌性尿道炎 (Gonococcal Urethritis)（證據等級 L5）。原適應症：泌尿道感染"
 monitor_inn: "CEFTOLOZANE"
 predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "urogenital tuberculosis", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]

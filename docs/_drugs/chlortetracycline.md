@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Chlortetracycline"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Chlortetracycline：預測新適應症為感染後血管炎 (postinfectious vasculitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

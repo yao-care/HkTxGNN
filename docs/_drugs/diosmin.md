@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 282
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Diosmin：預測新適應症為閉經 (Amenorrhea)（證據等級 L5）。原適應症：目前許可證資料未載明核准適應症"
 monitor_inn: "DIOSMIN"
 predicted_indications: ["amenorrhea (disease)"]

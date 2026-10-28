@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 220
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis"]
 description: "Clopidogrel：預測新適應症為Migraine with brainstem aura（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

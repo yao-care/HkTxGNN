@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 339
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "ESKETAMINE"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
 description: "Esketamine：預測新適應症為畏曠症 (agoraphobia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

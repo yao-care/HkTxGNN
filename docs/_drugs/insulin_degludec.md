@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "INSULIN DEGLUDEC"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Insulin Degludec：預測新適應症為自體免疫性卵巢炎 (Autoimmune Oophoritis)（證據等級 L5）。原適應症：知識圖譜記錄：糖尿病、糖尿病酮酸中毒"
 ---
 

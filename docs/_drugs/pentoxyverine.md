@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Pentoxyverine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Pentoxyverine：預測新適應症為鼻腔疾病（證據等級 L5）。原適應症：知識圖譜中記錄的關聯：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、鼻炎、鼻咽炎"
 ---
 

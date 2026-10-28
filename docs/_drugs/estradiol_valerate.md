@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Estradiol Valerate：預測新適應症為脆性 X 症候群女性帶因者的症狀性表現 (symptomatic form of fragile X syndrome in female…（證據等級 L5）。原適應症：原發性卵巢衰竭 (primary ovarian failure)"
 monitor_inn: "ESTRADIOL VALERATE"
 predicted_indications: ["symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "anovulation", "ovarian remnant syndrome", "luteoma of pregnancy", "ovarian dysfunction"]

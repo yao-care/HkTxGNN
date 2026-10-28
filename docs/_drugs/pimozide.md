@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 10
 monitor_inn: "PIMOZIDE"
 predicted_indications: ["trichotillomania", "manic bipolar affective disorder", "insomnia (disease)", "major affective disorder", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "Malan overgrowth syndrome", "attention deficit hyperactivity disorder, inattentive type", "agoraphobia", "benign paroxysmal torticollis of infancy"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Pimozide：預測新適應症為拔毛癖 (Trichotillomania)（證據等級 L3）。原適應症：妥瑞氏症"
 ---
 

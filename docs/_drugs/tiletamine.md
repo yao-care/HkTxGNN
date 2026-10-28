@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 879
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Tiletamine：預測新適應症為失眠 (Insomnia)（證據等級 L5）。原適應症：許可證未載明（依藥物類別，為獸醫用解離性麻醉）"
 monitor_inn: "TILETAMINE"
 predicted_indications: ["insomnia (disease)"]

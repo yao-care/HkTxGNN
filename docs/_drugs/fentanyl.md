@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 370
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Fentanyl：預測新適應症為腎因性抗利尿激素不適當分泌症候群 (NSIAD)（證據等級 L5）。原適應症：目前許可證資料未載明核准適應症"
 monitor_inn: "FENTANYL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]

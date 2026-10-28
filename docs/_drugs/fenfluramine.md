@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "FENFLURAMINE"
 predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "obsolete hypertelorism (disease)", "frontorhiny"]
 description: "Fenfluramine：預測新適應症為16p11.2 近端微缺失症候群 (proximal 16p11.2 microdeletion syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

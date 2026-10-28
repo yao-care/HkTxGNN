@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 675
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Pemigatinib：預測新適應症為多發性內分泌腫瘤 (Multiple Endocrine Neoplasia)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Pemigatinib"
 predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "malignant catarrh", "infectious bovine rhinotracheitis", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "axial spondylometaphyseal dysplasia"]

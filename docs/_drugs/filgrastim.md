@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Filgrastim：預測新適應症為原發性血小板釋放障礙（證據等級 L5）。原適應症：知識圖譜記錄的關聯：體質性嗜中性白血球低下症、嚴重先天性嗜中性白血球低下症、週期性造血、慢性家族性嗜中性白血球低下症"
 ---
 

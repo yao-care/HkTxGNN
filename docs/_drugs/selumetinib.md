@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 806
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Selumetinib"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "acromelanosis", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "trigeminal schwannoma"]
 description: "Selumetinib：預測新適應症為Familial generalized lentiginosis（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

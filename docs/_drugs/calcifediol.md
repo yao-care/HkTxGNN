@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CALCIFEDIOL"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Calcifediol：預測新適應症為已淘汰之維生素 D 缺乏症 (obsolete vitamin D deficiency)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

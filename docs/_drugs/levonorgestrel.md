@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Levonorgestrel：預測新適應症為痤瘡（證據等級 L5）。原適應症：知識圖譜中記錄的關聯：停經後骨質疏鬆症、骨質疏鬆症"
 ---
 

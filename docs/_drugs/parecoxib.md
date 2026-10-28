@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 667
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Parecoxib：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：資料缺漏"
 monitor_inn: "PARECOXIB"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]

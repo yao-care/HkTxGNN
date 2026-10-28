@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "CAFFEINE"
 predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Caffeine：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

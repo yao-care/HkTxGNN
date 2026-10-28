@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "HYDROXOCOBALAMIN"
 predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Hydroxocobalamin：預測新適應症為無出血的食道靜脈曲張（證據等級 L5）。原適應症：知識圖譜中記錄的關聯：維生素 B12 缺乏、氰化物中毒、惡性貧血"
 ---
 

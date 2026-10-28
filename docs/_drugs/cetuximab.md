@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Cetuximab"
 predicted_indications: ["non-seminomatous lesion", "ductal or ductular proliferation", "bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "cystic neoplasm", "epiglottis neoplasm", "pre-malignant neoplasm"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Cetuximab：預測新適應症為非精原細胞瘤病灶 (Non-seminomatous Lesion)（證據等級 L5）。原適應症：香港許可證資料未提供核准適應症文字。知識圖譜記錄的關聯為大腸直腸癌、頭頸部鱗狀細胞癌等"
 ---
 

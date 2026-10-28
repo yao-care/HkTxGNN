@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 8
 monitor_inn: "EVEROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Everolimus：預測新適應症為脂肪肉瘤 (Liposarcoma)（證據等級 L2）。原適應症：香港許可證資料未載明核准適應症文字"
 ---
 

@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 722
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Pramipexole：預測新適應症為注意力不足過動症 (Attention Deficit-Hyperactivity Disorder)（證據等級 L4）。原適應症：帕金森氏症、不寧腿症候群"
 monitor_inn: "Pramipexole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]

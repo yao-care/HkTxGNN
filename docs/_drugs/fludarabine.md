@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Fludarabine：預測新適應症為漿細胞骨髓瘤 (Plasma Cell Myeloma)（證據等級 L5）。原適應症：目前資料未載明"
 monitor_inn: "Fludarabine"
 predicted_indications: ["plasma cell myeloma", "hyperthyroidism", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "indolent plasma cell myeloma", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "brain small vessel disease 1 with or without ocular anomalies", "myelodysplastic syndrome", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "diabetic nephropathy"]

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 6
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Pazopanib：預測新適應症為脂肪肉瘤 (liposarcoma)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 253
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Degarelix：預測新適應症為多毛症 (Hypertrichosis)（證據等級 L5）。原適應症：許可證資料未載明（依藥理類別推測為前列腺癌，需確認）"
 monitor_inn: "DEGARELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "malformation syndrome with odontal and/or periodontal component", "isolated genetic hair shaft abnormality", "allergic urticaria", "cold urticaria", "familial male-limited precocious puberty", "centra precocious puberty 1", "familial isolated trichomegaly"]

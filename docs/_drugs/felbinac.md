@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "FELBINAC"
 predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "combined immunodeficiency due to moesin deficiency", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Felbinac：預測新適應症為Brachyolmia-amelogenesis imperfecta syndrome（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

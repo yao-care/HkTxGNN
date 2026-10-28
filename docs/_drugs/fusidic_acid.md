@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "FUSIDIC ACID"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Fusidic Acid：預測新適應症為暴露性角膜炎 (Exposure Keratitis)（證據等級 L5）。原適應症：知識圖譜記錄的關聯包括泌尿道感染、支氣管炎、痤瘡、毛囊炎等"
 ---
 

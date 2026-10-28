@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "PEMBROLIZUMAB"
 predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "fibroma of lung", "lung benign neoplasm", "ovarioleukodystrophy", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Pembrolizumab：預測新適應症為牙齦纖維瘤病 (Gingival Fibromatosis)（證據等級 L5）。原適應症：知識圖譜記錄的關聯：非小細胞肺癌、肺癌、轉移性黑色素瘤"
 ---
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 703
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Pipenzolate：預測新適應症為失眠 (Insomnia)（證據等級 L5）。原適應症：許可證未載明適應症（一般用於腸胃痙攣）"
 monitor_inn: "Pipenzolate"
 predicted_indications: ["insomnia (disease)"]

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "VANCOMYCIN"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Vancomycin：預測新適應症為瀰漫性硬皮症 (Diffuse Scleroderma)（證據等級 L5）。原適應症：知識圖譜記錄的關聯：艱難梭菌結腸炎、葡萄球菌感染、心內膜炎等"
 ---
 

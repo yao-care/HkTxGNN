@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "INDACATEROL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Indacaterol：預測新適應症為腎因性抗利尿激素分泌不當症候群 (NSIAD)（證據等級 L5）。原適應症：許可證資料未載明"
 ---
 

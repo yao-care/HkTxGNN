@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Temozolomide：預測新適應症為馬尾腫瘤（證據等級 L5）。原適應症：知識圖譜記錄：退行性星狀細胞瘤、星狀細胞瘤（不含神經膠質母細胞瘤）、腦部神經膠質母細胞瘤"
 ---
 

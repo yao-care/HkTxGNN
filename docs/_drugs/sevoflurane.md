@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "SEVOFLURANE"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "migraine disorder", "inclusion body myositis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Sevoflurane：預測新適應症為變異型心絞痛 (Prinzmetal angina)（證據等級 L5）。原適應症：本次整理的資料中，許可證未載明核准適應症文字"
 ---
 

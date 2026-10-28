@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 146
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Calcipotriol：預測新適應症為脂漏性角化症 (Seborrheic Keratosis)（證據等級 L3）。原適應症：目前許可證資料未載明核准適應症"
 monitor_inn: "CALCIPOTRIOL"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]

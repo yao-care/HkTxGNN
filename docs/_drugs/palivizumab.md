@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "PALIVIZUMAB"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Palivizumab：預測新適應症為良性舌部腫瘤（證據等級 L5）。原適應症：呼吸道融合病毒感染"
 ---
 

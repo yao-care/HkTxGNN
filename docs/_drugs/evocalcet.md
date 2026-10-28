@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "EVOCALCET"
 predicted_indications: ["hyperphosphatemia (disease)", "tumoral calcinosis, hyperphosphatemic, familial", "familial hyperphosphatemic tumoral calcinosis/hyperphosphatemic hyperostosis syndrome", "pancreatitis", "hereditary hypercarotenemia and vitamin A deficiency", "primary hyperoxaluria", "familial apolipoprotein C-II deficiency", "C1 inhibitor deficiency"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Evocalcet：預測新適應症為高磷血症 (Hyperphosphatemia)（證據等級 L5）。原適應症：副甲狀腺機能亢進"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Levothyroxine：預測新適應症為腎發育不全／無發育 (renal hypodysplasia/aplasia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

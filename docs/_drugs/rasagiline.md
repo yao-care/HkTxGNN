@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "RASAGILINE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Rasagiline：預測新適應症為PLA2G6 相關神經退化症 (PLA2G6-associated neurodegeneration)（證據等級 L5）。原適應症：帕金森氏症及相關帕金森氏症候群"
 ---
 

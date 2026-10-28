@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 625
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Nitroglycerin：預測新適應症為肺動脈高壓 (Pulmonary Hypertension)（證據等級 L3）。原適應症：香港許可證資料未載明核准適應症"
 monitor_inn: "nitroglycerin"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]

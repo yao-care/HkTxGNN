@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Vilanterol：預測新適應症為過度透亮肺 (hyperlucent lung)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

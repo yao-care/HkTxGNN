@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 893
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Tramadol：預測新適應症為肢中段發育不良 Hunter-Thompson 型 (Acromesomelic Dysplasia…（證據等級 L5）。原適應症：骨關節炎 (osteoarthritis)、關節病變 (arthropathy)"
 monitor_inn: "Tramadol"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]

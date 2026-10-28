@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 218
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "agoraphobia", "attention deficit-hyperactivity disorder"]
 description: "Clomipramine：預測新適應症為焦慮症 (anxiety disorder)（證據等級 L3）。原適應症：本地許可證資料未記載適應症"

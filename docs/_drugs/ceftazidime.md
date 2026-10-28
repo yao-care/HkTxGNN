@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "CEFTAZIDIME"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "urinary tract infection (disease)", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ceftazidime：預測新適應症為多株性高黏滯症候群（證據等級 L5）。原適應症：本地許可證資料未載明核准適應症。知識圖譜記錄的相關關係包括鏈球菌感染、細菌性肺炎、腹膜炎、細菌性腦膜炎、金黃色葡萄球菌感染、大腸桿菌感染等"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CARBIMAZOLE"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Carbimazole：預測新適應症為甲狀腺素抵抗症（resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta）（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

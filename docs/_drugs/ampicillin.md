@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AMPICILLIN"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Ampicillin：預測新適應症為喉炎 (laryngitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

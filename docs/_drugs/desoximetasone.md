@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 262
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "DESOXIMETASONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "hereditary hypotrichosis with recurrent skin vesicles", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "primary cutaneous B-cell lymphoma", "atrichia with papular lesions", "vulvar inverted follicular keratosis"]
 description: "Desoximetasone：預測新適應症為圓形禿 (alopecia areata)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

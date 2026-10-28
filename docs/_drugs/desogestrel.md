@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 260
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Desogestrel：預測新適應症為閉經 (Amenorrhea)（證據等級 L3）。原適應症：香港許可證資料未載明適應症文字（依其上市形式為口服避孕藥）"
 monitor_inn: "DESOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast", "acne (disease)", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]

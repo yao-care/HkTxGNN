@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Alglucosidase Alfa：預測新適應症為成人多葡聚醣體病 (Adult Polyglucosan Body Disease)（證據等級 L5）。原適應症：肝醣儲積症（glycogen storage disease）"
 monitor_inn: "ALGLUCOSIDASE ALFA"
 predicted_indications: ["adult polyglucosan body disease", "congenital entropion", "congenital ectropion", "congenital Horner syndrome (disease)", "ptosis-vocal cord paralysis syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "epiblepharon", "ptosis-strabismus-ectopic pupils syndrome"]

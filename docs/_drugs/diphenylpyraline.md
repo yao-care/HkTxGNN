@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Diphenylpyraline"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Diphenylpyraline：預測新適應症為鼻腔疾病（證據等級 L5）。原適應症：知識圖譜記錄的關聯包括過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、結膜炎、蕁麻疹、血管性水腫等"
 ---
 

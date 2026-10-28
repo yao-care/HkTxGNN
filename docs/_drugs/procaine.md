@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 733
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Procaine：預測新適應症為高鐵血紅素血症 (methemoglobinemia)（證據等級 L5）。原適應症：許可證未載明（局部麻醉藥）"
 monitor_inn: "Procaine"
 predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "Tourette syndrome", "anaphylaxis", "methemoglobin reductase deficiency", "hyperthyroidism", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis"]

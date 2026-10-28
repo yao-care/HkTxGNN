@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Alprostadil"
 predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "tricuspid valve agenesis", "straddling or overriding tricuspid valve", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Alprostadil：預測新適應症為主動脈畸形 (aortic malformation)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

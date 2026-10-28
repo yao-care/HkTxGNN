@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "SOLRIAMFETOL"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "insomnia (disease)", "attention deficit hyperactivity disorder, inattentive type", "chondromyxoid fibroma", "specific developmental disorder", "variably protease-sensitive prionopathy", "multiple system atrophy", "postural orthostatic tachycardia syndrome", "disorder of peroxisomal alpha-, beta- and omega-oxidation"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Solriamfetol：預測新適應症為注意力不足過動症 (ADHD)（證據等級 L2）。原適應症：香港許可證資料未載明核准適應症"
 ---
 

@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 251
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
 description: "Deferasirox：預測新適應症為HIV 感染 (HIV infectious disease)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"

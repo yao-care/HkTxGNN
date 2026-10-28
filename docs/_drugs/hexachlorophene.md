@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "HEXACHLOROPHENE"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "skin disease", "seborrheic dermatitis", "reticulate pigment disorder", "lichen myxedematosus", "cutaneous focal mucinosis", "diffuse cutaneous mucinosis", "scleredema adultorum", "erythema palmare hereditarium"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Hexachlorophene：預測新適應症為脂漏性角化症 (Seborrheic Keratosis)（證據等級 L5）。原適應症：香港許可證未載明核准適應症"
 ---
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Cinchocaine：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L5）。原適應症：皮膚炎 (Dermatitis)"
 monitor_inn: "Cinchocaine"
 predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis"]

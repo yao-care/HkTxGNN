@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CHLORAMBUCIL"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Chlorambucil：預測新適應症為前生發中心慢性淋巴球性白血病／小淋巴球性淋巴瘤（證據等級 L5）。原適應症：知識圖譜記錄的關聯：何杰金氏淋巴瘤、濾泡性淋巴瘤、急性淋巴母細胞白血病、Richter 症候群等"
 ---
 

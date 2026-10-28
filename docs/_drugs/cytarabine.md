@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 240
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "CYTARABINE"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
 description: "Cytarabine：預測新適應症為小細胞肺癌 (small cell lung carcinoma)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"

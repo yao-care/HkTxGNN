@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "TRYPTOPHAN"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Tryptophan：預測新適應症為不寧腿症候群 (Restless Legs Syndrome)（證據等級 L5）。原適應症：許可證資料未載明核准適應症"
 ---
 

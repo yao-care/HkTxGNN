@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Simvastatin：預測新適應症為腦幹梗塞 (brain stem infarction)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

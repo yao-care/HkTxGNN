@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 795
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Sacubitril：預測新適應症為腦小血管病變 1 型（伴或不伴眼部異常）(brain small vessel disease 1 with or without ocu…（證據等級 L5）。原適應症：許可證資料未載明"
 monitor_inn: "SACUBITRIL"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]

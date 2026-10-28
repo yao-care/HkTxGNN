@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Lactose"
 predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding", "varicose disease", "Steel syndrome", "cystinosis", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Immunoerythromyeloid hypoplasia", "familial apolipoprotein C-II deficiency", "hypophosphatasia"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Lactose：預測新適應症為食道靜脈曲張伴出血（證據等級 L5）。原適應症：乳糖不耐症"
 ---
 

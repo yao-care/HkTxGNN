@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 63
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Andexanet Alfa：預測新適應症為Glanzmann 血小板無力症 (Glanzmann thrombasthenia)（證據等級 L5）。原適應症：香港許可證未載明適應症文字（依藥理屬 FXa 抑制劑逆轉劑）"
 monitor_inn: "ANDEXANET ALFA"
 predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "hemophilia"]

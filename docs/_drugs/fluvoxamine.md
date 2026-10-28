@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 397
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Fluvoxamine"
 predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder", "endogenous depression"]
 description: "Fluvoxamine：預測新適應症為Histrionic personality disorder (disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

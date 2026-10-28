@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "TETRACAINE"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Tetracaine：預測新適應症為慢性萎縮性肢端皮膚炎 (Acrodermatitis Chronica Atrophicans)（證據等級 L5）。原適應症：皮膚炎"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 5
 monitor_inn: "TIOTROPIUM"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Tiotropium：預測新適應症為阻塞性肺病（證據等級 L1）。原適應症：知識圖譜記錄為支氣管炎、氣喘、肺氣腫"
 ---
 

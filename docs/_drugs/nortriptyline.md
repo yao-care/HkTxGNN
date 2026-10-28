@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 631
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "NORTRIPTYLINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
 description: "Nortriptyline：預測新適應症為注意力不足過動症 (attention deficit-hyperactivity disorder)（證據等級 L3）。原適應症：本地許可證資料未記載適應症"

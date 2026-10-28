@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ustekinumab：預測新適應症為皮膚炎 (dermatitis)（證據等級 L2）。原適應症：乾癬性關節炎、乾癬、類乾癬"
 ---
 

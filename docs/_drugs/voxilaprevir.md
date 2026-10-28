@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "VOXILAPREVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "chronic hepatitis B virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Voxilaprevir：預測新適應症為B 型肝炎病毒感染 (Hepatitis B Virus Infection)（證據等級 L5）。原適應症：慢性 C 型肝炎病毒感染"
 ---
 

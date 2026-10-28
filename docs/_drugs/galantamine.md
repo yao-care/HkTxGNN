@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "GALANTAMINE"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Galantamine：預測新適應症為心因性運動障礙 (Psychogenic Movement Disorders)（證據等級 L5）。原適應症：知識圖譜中記錄的關聯：阿茲海默症、小腦退化、Reye 症候群、Pick 氏病"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "severe nonproliferative diabetic retinopathy", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Methoxy Polyethylene Glycol-Epoetin Beta：預測新適應症為血小板原發性釋放障礙 (primary release disorder of platelets)（證據等級 L5）。原適應症：本次資料未提供香港許可證的核准適應症文字"
 ---
 

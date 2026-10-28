@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "RUXOLITINIB"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ruxolitinib：預測新適應症為子宮體血管周上皮樣細胞腫瘤（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症"
 ---
 

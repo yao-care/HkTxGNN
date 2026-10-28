@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "FLUTICASONE FUROATE"
 predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Fluticasone Furoate：預測新適應症為異位性皮膚炎 (Atopic Eczema)（證據等級 L5）。原適應症：氣喘、過敏性氣喘、過敏性鼻炎、血管運動性鼻炎"
 ---
 

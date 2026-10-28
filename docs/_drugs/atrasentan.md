@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 83
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Atrasentan：預測新適應症為閉經 (Amenorrhea)（證據等級 L5）。原適應症：香港許可證未載明適應症文字（國際上已核准用於降低成人原發性 IgA 腎病變的蛋白尿）"
 monitor_inn: "ATRASENTAN"
 predicted_indications: ["amenorrhea (disease)"]

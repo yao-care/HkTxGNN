@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "MOROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Moroctocog Alfa：預測新適應症為原發性血小板釋放障礙（證據等級 L5）。原適應症：知識圖譜記錄為血友病"
 ---
 

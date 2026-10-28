@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Plerixafor：預測新適應症為CMM7（證據等級 L5）。原適應症：香港許可證文字未載明適應症"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Bendamustine"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Bendamustine：預測新適應症為被套細胞淋巴瘤 (mantle cell lymphoma)（證據等級 L1）。原適應症：本地許可證資料未記載適應症"
 ---
 

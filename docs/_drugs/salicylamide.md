@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "SALICYLAMIDE"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria", "lung disease", "massive neonatal aspiration syndrome", "respiratory syncytial virus bronchiolitis", "hantavirus infectious disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Salicylamide：預測新適應症為咽炎 (Pharyngitis)（證據等級 L5）。原適應症：頭痛"
 ---
 

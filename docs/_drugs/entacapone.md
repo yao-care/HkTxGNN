@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
 description: "Entacapone：預測新適應症為PLA2G6 相關神經退化症 (PLA2G6-associated neurodegeneration)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

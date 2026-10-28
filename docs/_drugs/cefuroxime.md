@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CEFUROXIME"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "urinary tract infection (disease)", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Cefuroxime：預測新適應症為多株性高黏滯症候群 (polyclonal hyperviscosity syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

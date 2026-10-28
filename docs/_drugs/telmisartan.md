@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Telmisartan：預測新適應症為變異型心絞痛 (Prinzmetal angina)（證據等級 L5）。原適應症：香港許可證資料未提供適應症文字"
 ---
 

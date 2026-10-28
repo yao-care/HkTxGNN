@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ETOPOSIDE"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Etoposide：預測新適應症為Well-differentiated fetal adenocarcinoma of the lung（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

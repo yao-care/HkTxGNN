@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "METYRAPONE"
 predicted_indications: ["exercise-induced malignant hyperthermia", "King-Denborough syndrome", "central core myopathy", "moderate multiminicore disease with hand involvement", "congenital multicore myopathy with external ophthalmoplegia", "myopathy, centronuclear", "familial periodic paralysis", "renal tubular acidosis", "malignant hyperthermia of anesthesia"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Metyrapone：預測新適應症為運動誘發性惡性高熱（證據等級 L5）。原適應症：香港許可證未載明核准適應症"
 ---
 

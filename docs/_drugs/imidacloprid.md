@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "IMIDACLOPRID"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "non-syndromic esophageal malformation", "esophageal disease", "mitral valve prolapse (disease)", "neurocirculatory asthenia", "familial mitral valve prolapse", "MVP1"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Imidacloprid：預測新適應症為馬尾症候群 (Cauda Equina Syndrome)（證據等級 L5）。原適應症：許可證資料未載明適應症文字（產品為獸醫用）"
 ---
 

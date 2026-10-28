@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "COLISTIN"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "infective urethral stricture", "paratyphoid fever", "sinusitis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis"]
 description: "Colistin：預測新適應症為感染後血管炎 (Postinfectious Vasculitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

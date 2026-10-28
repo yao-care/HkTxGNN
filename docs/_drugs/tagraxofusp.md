@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 847
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Tagraxofusp：預測新適應症為斜視 (Esotropia)（證據等級 L5）。原適應症：CD4+/CD56+ 血液皮膚腫瘤（CD4+/CD56+ hematodermic neoplasm）"
 monitor_inn: "Tagraxofusp"
 predicted_indications: ["esotropia", "pre-malignant neoplasm", "inner ear neoplasm", "benign neoplasm of tongue", "bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "ductal or ductular proliferation", "non-seminomatous lesion", "cystic neoplasm", "thyroglossal duct cyst"]

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Latanoprost：預測新適應症為內臟鈣化防禦症 (Visceral Calciphylaxis)（證據等級 L5）。原適應症：開角型青光眼、高眼壓症"
 ---
 

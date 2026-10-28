@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 276
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "DIGOXIN"
 predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
 description: "Digoxin：預測新適應症為變異型心絞痛 (Prinzmetal angina)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

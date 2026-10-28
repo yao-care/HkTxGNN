@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "MELOXICAM"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Meloxicam：預測新適應症為肢中發育不良，Hunter-Thompson 型（證據等級 L5）。原適應症：香港許可證資料中未載明核准適應症文字"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "GINSENG"
 predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe nonproliferative diabetic retinopathy", "hemorrhagic disease of newborn", "nuclear senile cataract", "cortical cataract", "diabetic retinopathy", "amenorrhea (disease)", "craniostenosis cataract", "mature cataract"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ginseng：預測新適應症為藥物誘發性骨質疏鬆 (drug-induced osteoporosis)（證據等級 L5）。原適應症：本報告所整理的資料中未記載核准適應症"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CHENODEOXYCHOLIC ACID"
 predicted_indications: ["homozygous familial hypercholesterolemia", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "obsolete familial combined hyperlipidemia", "obsolete hyperuricemia (disease)"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Chenodeoxycholic Acid：預測新適應症為同合子家族性高膽固醇血症 (homozygous familial hypercholesterolemia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

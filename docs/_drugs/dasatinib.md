@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 248
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
 description: "Dasatinib：預測新適應症為尤文氏肉瘤 (Ewing sarcoma)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"

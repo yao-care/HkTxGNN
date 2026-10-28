@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "RAVULIZUMAB"
 predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "primary hyperoxaluria", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "pseudo-von Willebrand disease", "X-linked severe congenital neutropenia", "primary release disorder of platelets", "megaloblastic anemia (disease)"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ravulizumab：預測新適應症為 G6PC3 缺陷所致體染色體隱性嚴重先天性嗜中性白血球減少症（證據等級 L5）。原適應症：陣發性夜間血紅素尿症"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "EZETIMIBE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ezetimibe：預測新適應症為膽固醇酯轉運蛋白缺乏症 (cholesterol-ester transfer protein deficiency)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 494
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Ivermectin：預測新適應症為外陰陰道念珠菌病 (Vulvovaginal Candidiasis)（證據等級 L5）。原適應症：類圓線蟲病、盤尾絲蟲症"
 monitor_inn: "Ivermectin"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "candida glabrata", "neonatal candidiasis", "congenital candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]

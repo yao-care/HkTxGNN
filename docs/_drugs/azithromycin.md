@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "AZITHROMYCIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Azithromycin：預測新適應症為高澱粉酶血症 (hyperamylasemia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

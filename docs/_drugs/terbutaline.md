@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 863
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Terbutaline：預測新適應症為阻塞性肺病 (Obstructive Lung Disease)（證據等級 L1）。原適應症：氣喘、支氣管炎、肺氣腫等"
 monitor_inn: "Terbutaline"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]

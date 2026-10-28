@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "OFATUMUMAB"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ofatumumab：預測新適應症為濾泡性淋巴瘤 (Follicular Lymphoma)（證據等級 L2）。原適應症：知識圖譜中記錄為急性淋巴芽細胞白血病、Richter 症候群"
 ---
 

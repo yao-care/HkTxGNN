@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "NITROFURANTOIN"
 predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "sclerosing cholangitis", "methemoglobinemia, alpha type", "gout", "methemoglobinemia"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Nitrofurantoin：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L5）。原適應症：本次整理的資料中，香港許可證未載明核准適應症文字"
 ---
 

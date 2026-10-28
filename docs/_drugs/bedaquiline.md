@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Bedaquiline"
 predicted_indications: ["vulvovaginal candidiasis", "fascioliasis", "urea cycle disorder", "esophageal candidiasis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Bedaquiline：預測新適應症為外陰陰道念珠菌症 (vulvovaginal candidiasis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 874
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Thymol：預測新適應症為室中隔動脈瘤 (Interventricular Septum Aneurysm)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Thymol"
 predicted_indications: ["interventricular septum aneurysm", "pulmonary valve disease", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "orofacial clefting syndrome", "partial deletion of the long arm of chromosome 22", "Pierre Robin syndrome associated with a chromosomal anomaly", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 7", "Jeune syndrome situs inversus"]

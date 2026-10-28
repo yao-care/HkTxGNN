@@ -5,7 +5,7 @@ layout: default
 title: Dostarlimab
 parent: 僅已知用途（無新預測）
 nav_order: 296
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Dostarlimab: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Dostarlimab"
 predicted_indications: []

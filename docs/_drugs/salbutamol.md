@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "SALBUTAMOL"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "bronchitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Salbutamol：預測新適應症為乳突狀結膜炎 (Papillary Conjunctivitis)（證據等級 L5）。原適應症：氣喘、支氣管疾病"
 ---
 

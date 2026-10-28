@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 9
 monitor_inn: "GEMFIBROZIL"
 predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Gemfibrozil：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L4）。原適應症：高三酸甘油酯血症"
 ---
 

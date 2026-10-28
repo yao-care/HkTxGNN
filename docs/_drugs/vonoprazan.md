@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "VONOPRAZAN"
 predicted_indications: ["peptic ulcer perforation", "hiatus hernia (disease)", "achlorhydria", "pylorospasm", "Dieulafoy lesion", "cascade stomach", "gastric dilatation", "hemorrhagic duodenitis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Vonoprazan：預測新適應症為消化性潰瘍穿孔 (Peptic Ulcer Perforation)（證據等級 L5）。原適應症：香港許可證未載明適應症文字"
 ---
 

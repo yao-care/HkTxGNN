@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "SODIUM FLUORIDE"
 predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "laryngitis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Sodium Fluoride：預測新適應症為會厭炎（證據等級 L5）。原適應症：知識圖譜記錄為維生素缺乏症"
 ---
 

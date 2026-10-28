@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Econazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Econazole：預測新適應症為毛外型感染性疾病 (Ectothrix Infectious Disease)（證據等級 L5）。原適應症：知識圖譜記錄的用途：足癬、體癬、癬菌感染、皮膚念珠菌症、花斑癬、腹股溝與肛周皮癬菌病"
 ---
 

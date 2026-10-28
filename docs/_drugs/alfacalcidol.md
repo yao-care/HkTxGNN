@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ALFACALCIDOL"
 predicted_indications: ["craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Alfacalcidol：預測新適應症為顱面錐體發育不良 (craniofacial conodysplasia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

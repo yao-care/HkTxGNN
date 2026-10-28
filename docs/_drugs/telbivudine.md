@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "TELBIVUDINE"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "disorder of phenylalanine metabolism", "disorder of tyrosine metabolism", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Telbivudine：預測新適應症為慢性 C 型肝炎病毒感染 (chronic hepatitis C virus infection)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

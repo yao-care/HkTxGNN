@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 545
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Lurasidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Lurasidone：預測新適應症為Retinal dystrophy with or without extraocular anomalies（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Cefpodoxime"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Cefpodoxime：預測新適應症為骨關節炎 (Osteoarthritis)（證據等級 L5）。原適應症：目前許可證資料未載明核准適應症"
 ---
 

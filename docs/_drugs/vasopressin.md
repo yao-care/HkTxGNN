@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 928
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "VASOPRESSIN"
 predicted_indications: ["congenital prothrombin deficiency", "drug-induced osteoporosis"]
 description: "Vasopressin：預測新適應症為先天性凝血酶原缺乏症 (Congenital Prothrombin Deficiency)（證據等級 L4）."

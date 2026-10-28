@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 10
 monitor_inn: "Sodium tetradecyl sulfate"
 predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding", "Steel syndrome", "pseudo-von Willebrand disease", "Immunoerythromyeloid hypoplasia", "primary release disorder of platelets", "reticular dysgenesis", "autosomal dominant familial periodic fever", "hypophosphatasia", "lung fibrosis-immunodeficiency-46,XX gonadal dysgenesis syndrome"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Sodium Tetradecyl Sulfate：預測新適應症為伴有出血的食道靜脈曲張 (Esophageal varices with bleeding)（證據等級 L3）。原適應症：靜脈曲張"
 ---
 

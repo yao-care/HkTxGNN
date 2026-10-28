@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "GLECAPREVIR"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Glecaprevir：預測新適應症為HIV 感染（證據等級 L5）。原適應症：慢性 C 型肝炎病毒感染"
 ---
 

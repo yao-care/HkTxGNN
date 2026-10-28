@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 236
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
 description: "Cyclosporine：預測新適應症為慢性肉芽腫病，體染色體隱性 (granulomatous disease, chronic, autosomal recessive)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"

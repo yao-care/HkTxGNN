@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CAPECITABINE"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Capecitabine：預測新適應症為胃腺癌合併胃近端息肉症（證據等級 L5）。原適應症：知識圖譜記錄的關聯：大腸惡性腫瘤轉移、胃癌、胃腫瘤、瀰漫性胃腺癌、胃皮革樣癌等"
 ---
 

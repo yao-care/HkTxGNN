@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "TADALAFIL"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Tadalafil：預測新適應症為Ambras 型先天性全身多毛症（證據等級 L5）。原適應症：知識圖譜記錄的關聯：良性前列腺增生、肺動脈高壓、勃起功能障礙、心因性性交疼痛、早洩"
 ---
 

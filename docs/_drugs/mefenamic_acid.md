@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 7
 monitor_inn: "MEFENAMIC ACID"
 predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Mefenamic Acid：預測新適應症為類風濕性關節炎（證據等級 L2）。原適應症：本次彙整資料未載明"
 ---
 

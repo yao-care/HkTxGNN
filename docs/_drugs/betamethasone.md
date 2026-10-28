@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 8
 monitor_inn: "BETAMETHASONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Betamethasone：預測新適應症為圓形禿 (alopecia areata)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 

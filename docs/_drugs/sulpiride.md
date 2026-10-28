@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "SULPIRIDE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "syndromic myopia", "atypical glycine encephalopathy"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Sulpiride：預測新適應症為視網膜失養症，伴或不伴眼外異常（證據等級 L5）。原適應症：思覺失調症"
 ---
 

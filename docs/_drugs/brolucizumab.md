@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 132
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Brolucizumab：預測新適應症為核 DNA 異常所致的粒線體氧化磷酸化疾患 (Mitochondrial oxidative phosphorylation disord…（證據等級 L5）。原適應症：黃斑部病變（macular degeneration）"
 monitor_inn: "BROLUCIZUMAB"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "esophageal varices without bleeding", "esophageal varices with bleeding", "exocrine pancreatic insufficiency"]

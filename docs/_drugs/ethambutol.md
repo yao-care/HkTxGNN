@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Ethambutol：預測新適應症為會厭炎 (Epiglottitis)（證據等級 L4）。原適應症：肺結核 (Pulmonary tuberculosis)"
 monitor_inn: "Ethambutol"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]

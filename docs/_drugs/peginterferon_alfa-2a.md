@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "PEGINTERFERON ALFA-2A"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Peginterferon Alfa-2A：預測新適應症為E 型肝炎病毒感染（證據等級 L5）。原適應症：知識圖譜記錄為慢性 C 型肝炎、C 型肝炎病毒感染、慢性 B 型肝炎"
 ---
 

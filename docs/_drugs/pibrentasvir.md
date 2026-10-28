@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "PIBRENTASVIR"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Pibrentasvir：預測新適應症為B 型肝炎病毒感染 (Hepatitis B Virus Infection)（證據等級 L5）。原適應症：慢性 C 型肝炎病毒感染"
 ---
 

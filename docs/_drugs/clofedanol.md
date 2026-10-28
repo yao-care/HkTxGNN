@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 216
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Clofedanol"
 predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "cold urticaria", "faucial diphtheria", "cervical disc degenerative disorder"]
 description: "Clofedanol：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "TICARCILLIN"
 predicted_indications: ["lymph node palisaded myofibroblastoma", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "sacrum chordoma", "disease of retroperitoneum", "urethral disease", "disease of uterine broad ligament", "disease of peritoneum", "pelvic varices"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ticarcillin：預測新適應症為淋巴結柵狀肌纖維母細胞瘤（證據等級 L5）。原適應症：香港許可證未提供核准適應症文字"
 ---
 

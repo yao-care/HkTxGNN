@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Ethanol：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "ETHANOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]

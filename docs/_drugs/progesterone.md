@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 7
 monitor_inn: "PROGESTERONE"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Progesterone：預測新適應症為閉經 (Amenorrhea)（證據等級 L2）。原適應症：知識圖譜記錄的關聯：子宮內膜異位症、子宮內膜癌、停經後骨質疏鬆"
 ---
 

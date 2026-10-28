@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AMINOBENZOIC ACID"
 predicted_indications: ["hereditary angioedema with C1Inh deficiency", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "Camurati-Engelmann disease", "posterior leukoencephalopathy syndrome", "geleophysic dysplasia", "aortic valve insufficiency", "carcinosarcoma", "pseudoxanthoma elasticum, forme fruste"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Aminobenzoic Acid：預測新適應症為遺傳性血管性水腫併 C1 抑制劑缺乏 (hereditary angioedema with C1Inh deficiency)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

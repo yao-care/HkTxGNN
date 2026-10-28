@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 599
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine：預測新適應症為肌筋膜疼痛症候群 (myofascial pain syndrome)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"

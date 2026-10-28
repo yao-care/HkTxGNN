@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "LATANOPROSTENE BUNOD"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "idiopathic spontaneous coronary artery dissection", "angiodysplasia of stomach", "lymphangiectasis", "hemangioendothelioma"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Latanoprostene Bunod：預測新適應症為內臟鈣化防禦 (Visceral Calciphylaxis)（證據等級 L5）。原適應症：開角型青光眼、高眼壓症"
 ---
 

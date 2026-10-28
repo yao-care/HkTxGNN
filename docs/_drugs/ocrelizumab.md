@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 635
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "OCRELIZUMAB"
 predicted_indications: ["HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
 description: "Ocrelizumab：預測新適應症為HER2 陽性乳癌 (HER2 positive breast carcinoma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

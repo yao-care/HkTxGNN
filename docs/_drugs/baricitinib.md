@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "BARICITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Baricitinib：預測新適應症為脈絡膜缺損性小眼症-肢根型發育不良症候群 (colobomatous microphthalmia-rhizomelic dysplasia syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 257
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "DEOXYCHOLIC ACID"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy"]
 description: "Deoxycholic Acid：預測新適應症為Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

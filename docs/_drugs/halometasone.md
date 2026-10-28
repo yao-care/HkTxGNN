@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "HALOMETASONE"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "polyp of vocal cord", "polyp of middle ear", "uterine polyp", "polyp of external auditory canal", "polyp of frontal sinus", "polyp of ureter", "fibroepithelial polyp", "polyp of vulva", "neoplastic polyp"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Halometasone：預測新適應症為原發性皮膚 T 細胞淋巴瘤（證據等級 L5）。原適應症：許可證資料未記載核准適應症文字"
 ---
 

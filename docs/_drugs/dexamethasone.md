@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 264
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "DEXAMETHASONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
 description: "Dexamethasone：預測新適應症為圓形禿 (alopecia areata)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"

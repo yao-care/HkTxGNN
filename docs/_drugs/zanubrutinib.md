@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ZANUBRUTINIB"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Zanubrutinib：預測新適應症為骨髓性白血病（證據等級 L5）。原適應症：香港許可證未登載適應症文字"
 ---
 

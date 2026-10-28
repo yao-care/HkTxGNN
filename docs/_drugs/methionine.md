@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "mature cataract", "tetanic cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "cortical cataract", "nuclear senile cataract", "diabetic cataract"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Methionine：預測新適應症為痤瘡 (acne)（證據等級 L5）。原適應症：資料中未載明"
 ---
 

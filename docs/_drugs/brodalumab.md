@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 131
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Brodalumab：預測新適應症為類圓線蟲病 (Strongyloidiasis)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Brodalumab"
 predicted_indications: ["strongyloidiasis", "eye disease", "vitamin deficiency disorder", "von Hippel anomaly", "optic perineuritis", "recurrent idiopathic neuroretinitis", "chronic relapsing inflammatory optic neuropathy", "isolated optic neuritis", "episcleritis periodica fugax", "nodular episcleritis"]

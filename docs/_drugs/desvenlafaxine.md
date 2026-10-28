@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 263
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "DESVENLAFAXINE"
 predicted_indications: ["obsessive-compulsive disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Desvenlafaxine：預測新適應症為強迫症 (obsessive-compulsive disorder)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"

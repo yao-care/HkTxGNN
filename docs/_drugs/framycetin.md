@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 402
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Framycetin：預測新適應症為硬化性膽管炎 (Sclerosing Cholangitis)（證據等級 L5）。原適應症：香港許可證未載明適應症文字"
 monitor_inn: "Framycetin"
 predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]

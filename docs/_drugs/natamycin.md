@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "NATAMYCIN"
 predicted_indications: ["vulvovaginal candidiasis", "candidiasis", "vulvitis", "vulvovaginitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginitis (disease)", "tinea nigra"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Natamycin：預測新適應症為外陰陰道念珠菌病 (Vulvovaginal Candidiasis)（證據等級 L1）。原適應症：知識圖譜記錄為黴菌性角膜潰瘍"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "STREPTOMYCIN"
 predicted_indications: ["conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "Lyme disease", "infectious otitis interna"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Streptomycin：預測新適應症為結膜炎 (Conjunctivitis)（證據等級 L5）。原適應症：知識圖譜中記錄的關聯包括肺結核、兔熱病、鼠疫、布氏桿菌病等"
 ---
 

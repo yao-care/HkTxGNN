@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CLADRIBINE"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Cladribine：預測新適應症為副腦膜胚胎型橫紋肌肉瘤 (parameningeal embryonal rhabdomyosarcoma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

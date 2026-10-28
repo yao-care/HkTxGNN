@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "LOTEPREDNOL ETABONATE"
 predicted_indications: ["conjunctival folliculosis", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral", "pseudomembranous conjunctivitis", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Loteprednol Etabonate：預測新適應症為結膜濾泡增生症（證據等級 L5）。原適應症：知識圖譜記錄的關聯包括葡萄膜炎、虹膜疾病、過敏性結膜炎、春季結膜炎等"
 ---
 

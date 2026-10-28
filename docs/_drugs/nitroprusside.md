@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 626
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Nitroprusside：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L4）。原適應症：香港許可證資料未載明核准適應症"
 monitor_inn: "nitroprusside"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "alopecia", "congenital hypotrichosis milia", "diffuse alopecia areata", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease"]

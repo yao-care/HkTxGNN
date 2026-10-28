@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "HYDROCORTISONE ACETATE"
 predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucinosa", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "seborrheic keratosis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Hydrocortisone Acetate：預測新適應症為圓形禿 (Alopecia Areata)（證據等級 L2）。原適應症：香港許可證資料未載明核准適應症"
 ---
 

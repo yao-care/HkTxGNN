@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "PANTOTHENIC ACID"
 predicted_indications: ["congenital prothrombin deficiency", "ochronosis disorder", "glycerol metabolism disease", "folic acid deficiency anemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urinary tract infection (disease)", "gonococcal urethritis", "Ureaplasma urethritis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Pantothenic Acid：預測新適應症為先天性凝血酶原缺乏症 (Congenital Prothrombin Deficiency)（證據等級 L5）。原適應症：抗壞血酸缺乏症、壞血病"
 ---
 

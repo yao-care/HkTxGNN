@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "DOLUTEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Dolutegravir：預測新適應症為貓後天免疫缺陷症候群 (Feline Acquired Immunodeficiency Syndrome)（證據等級 L5）。原適應症：知識圖譜中記錄的關聯為 HIV 感染、AIDS"
 ---
 

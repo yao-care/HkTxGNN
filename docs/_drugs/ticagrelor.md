@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ticagrelor：預測新適應症為顱內動脈硬化（證據等級 L3）。原適應症：香港許可證資料未載明核准適應症文字。知識圖譜記錄的關聯包括急性冠心症、周邊血管疾病、間歇性跛行、周邊動脈疾病"
 ---
 

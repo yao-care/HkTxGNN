@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "NORFLOXACIN"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Norfloxacin：預測新適應症為多株性高黏滯症候群 (Polyclonal Hyperviscosity Syndrome)（證據等級 L5）。原適應症：知識圖譜中記錄的關聯：傷寒、沙門氏菌感染、泌尿道感染、支氣管炎、細菌性肺炎、痢疾等"
 ---
 

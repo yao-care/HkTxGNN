@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "TIZANIDINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "Tourette syndrome", "ulerythema ophryogenesis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Tizanidine：預測新適應症為偏頭痛（證據等級 L2）。原適應症：本報告所整理的許可證資料未載明核准適應症"
 ---
 

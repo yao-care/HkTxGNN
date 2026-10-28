@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 297
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "DOXAZOSIN"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 description: "Doxazosin：預測新適應症為偏頭痛 (migraine disorder)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"

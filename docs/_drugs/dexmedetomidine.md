@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 268
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "DEXMEDETOMIDINE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
 description: "Dexmedetomidine：預測新適應症為Nephrogenic syndrome of inappropriate antidiuresis（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 636
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Octreotide：預測新適應症為外陰倒置性毛囊角化症 (vulvar inverted follicular keratosis)（證據等級 L5）。原適應症：肢端肥大症、垂體機能亢進、類癌症候群"
 monitor_inn: "OCTREOTIDE"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]

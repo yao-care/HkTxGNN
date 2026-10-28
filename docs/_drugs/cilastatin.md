@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "CILASTATIN"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Cilastatin：預測新適應症為金黃色葡萄球菌感染 (staphylococcus aureus infection)（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
 ---
 

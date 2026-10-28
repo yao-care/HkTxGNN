@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["tetanic cataract", "immature cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "hemorrhagic disease of newborn"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ranibizumab：預測新適應症為手足搐搦性白內障 (tetanic cataract)（證據等級 L5）。原適應症：知識圖譜記錄的關聯疾病：糖尿病視網膜病變、黃斑部病變、糖尿病黃斑部水腫、視網膜動脈阻塞、早產兒視網膜病變等"
 ---
 

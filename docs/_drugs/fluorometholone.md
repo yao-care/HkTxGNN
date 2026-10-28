@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "FLUOROMETHOLONE"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Fluorometholone：預測新適應症為感染後血管炎 (Postinfectious Vasculitis)（證據等級 L5）。原適應症：知識圖譜中記錄的關聯：葡萄膜炎、虹彩炎、睫狀體疾病、全葡萄膜炎、異位性／乳突性／春季結膜炎、角膜潰瘍等"
 ---
 

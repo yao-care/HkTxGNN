@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "RASBURICASE"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "renal tubular acidosis", "disorder of phenylalanine metabolism"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Rasburicase：預測新適應症為腎性低尿酸血症 (Hypouricemia, Renal)（證據等級 L5）。原適應症：高尿酸血症"
 ---
 

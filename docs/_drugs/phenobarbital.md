@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "PHENOBARBITAL"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Phenobarbital：預測新適應症為三叉神經腫瘤 (Trigeminal Nerve Neoplasm)（證據等級 L5）。原適應症：香港許可證未載明核准適應症文字"
 ---
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "EMICIZUMAB"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombotic thrombocytopenic purpura", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
 description: "Emicizumab：預測新適應症為Pseudo-von Willebrand disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

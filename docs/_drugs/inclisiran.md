@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 466
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Inclisiran：預測新適應症為鉀缺乏症 (Potassium Deficiency Disease)（證據等級 L5）。原適應症：目前缺乏香港許可證的適應症文字資料"
 monitor_inn: "Inclisiran"
 predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "aortic malformation", "esophageal ulcer", "Raynaud disease"]

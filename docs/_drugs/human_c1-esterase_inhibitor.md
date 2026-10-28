@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Human C1-Esterase Inhibitor：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy)（證據等級 L5）。原適應症：資料中未載明"
 monitor_inn: "HUMAN C1-ESTERASE INHIBITOR"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "primary release disorder of platelets", "diabetic retinopathy", "pseudo-von Willebrand disease"]

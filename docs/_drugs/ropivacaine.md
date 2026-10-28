@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 787
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Ropivacaine：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L3）。原適應症：目前許可證資料未列出核准適應症"
 monitor_inn: "Ropivacaine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder"]

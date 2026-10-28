@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Insulin Lispro：預測新適應症為自體免疫性卵巢炎 (autoimmune oophoritis)（證據等級 L5）。原適應症：第 2 型糖尿病、第 1 型糖尿病、糖尿病酮酸中毒"
 ---
 

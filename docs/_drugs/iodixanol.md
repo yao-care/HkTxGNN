@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Iodixanol"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Iodixanol：預測新適應症為退化性關節炎 (Osteoarthritis)（證據等級 L5）。原適應症：香港許可證未記載核准適應症文字"
 ---
 

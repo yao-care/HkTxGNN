@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 241
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Dabigatran Etexilate：預測新適應症為硬化性膽管炎 (Sclerosing Cholangitis)（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症"
 monitor_inn: "DABIGATRAN ETEXILATE"
 predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]

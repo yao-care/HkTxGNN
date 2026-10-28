@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ROSUVASTATIN"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Rosuvastatin：預測新適應症為膽固醇酯轉運蛋白缺乏症（證據等級 L5）。原適應症：本資料未收錄香港許可證的核准適應症文字"
 ---
 

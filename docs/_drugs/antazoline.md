@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Antazoline"
 predicted_indications: ["recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "nasal cavity disease"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Antazoline：預測新適應症為頑固性異位性皮膚炎 (recalcitrant atopic dermatitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

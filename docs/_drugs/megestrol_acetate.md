@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "MEGESTROL ACETATE"
 predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline epithelial tumor of ovary", "uterine carcinosarcoma", "placenta cancer", "ovarian clear cell adenocarcinoma", "ovarian cancer", "malignant dysgerminomatous germ cell tumor of ovary"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Megestrol Acetate：預測新適應症為遺傳性乳癌卵巢癌症候群（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症"
 ---
 

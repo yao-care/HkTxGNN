@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Pertuzumab：預測新適應症為外胚間葉瘤 (Ectomesenchymoma)（證據等級 L5）。原適應症：HER2 陽性乳癌"
 ---
 

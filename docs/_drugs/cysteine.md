@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CYSTEINE"
 predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Cysteine：預測新適應症為乾眼症 (dry eye syndrome)（證據等級 L5）。原適應症：本地資料未記錄核准適應症"
 ---
 

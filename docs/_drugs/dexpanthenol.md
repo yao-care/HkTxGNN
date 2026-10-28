@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "DEXPANTHENOL"
 predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
 description: "Dexpanthenol：預測新適應症為肛門直腸狹窄 (anorectal stricture)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

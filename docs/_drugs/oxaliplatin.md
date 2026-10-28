@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 649
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "OXALIPLATIN"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 description: "Oxaliplatin：預測新適應症為惡性胸膜間皮瘤 (malignant pleural mesothelioma)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"

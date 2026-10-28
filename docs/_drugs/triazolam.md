@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 905
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Triazolam: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 ---

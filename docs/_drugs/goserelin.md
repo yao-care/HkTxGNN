@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 426
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "GOSERELIN"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
 description: "Goserelin：預測新適應症為Amenorrhea (disease)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"

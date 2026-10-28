@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 259
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Desmopressin"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
 description: "Desmopressin：預測新適應症為Congenital prothrombin deficiency（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

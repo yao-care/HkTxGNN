@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "VARENICLINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "alopecia", "open-angle glaucoma", "primary hereditary glaucoma", "headache disorder", "pulmonary hypertension"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Varenicline：預測新適應症為偏頭痛（證據等級 L5）。原適應症：許可證資料中未提供核准適應症文字"
 ---
 

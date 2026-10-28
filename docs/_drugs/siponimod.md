@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 816
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Siponimod：預測新適應症為肺動脈高壓 (Pulmonary Hypertension)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Siponimod"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura", "Prinzmetal angina", "rheumatoid arthritis", "atrophoderma vermiculata"]

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 715
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "POSACONAZOLE"
 predicted_indications: ["pneumocystosis"]
 description: "Posaconazole：預測新適應症為肺囊蟲病 (pneumocystosis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

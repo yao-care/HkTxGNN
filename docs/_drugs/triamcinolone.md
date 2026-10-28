@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 903
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Triamcinolone：預測新適應症為禿髮性黏蛋白症 (alopecia mucinosa)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"

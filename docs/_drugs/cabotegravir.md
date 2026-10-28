@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 142
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Cabotegravir：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症（依藥理分類，屬 HIV 整合酶抑制劑）"
 monitor_inn: "CABOTEGRAVIR"
 predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy"]

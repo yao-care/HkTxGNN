@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "METHOTREXATE"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Methotrexate：預測新適應症為肺母細胞瘤 (Pulmonary Blastoma)（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症文字"
 ---
 

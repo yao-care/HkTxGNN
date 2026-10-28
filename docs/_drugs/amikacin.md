@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "AMIKACIN"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "meningococcemia"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Amikacin：預測新適應症為副傷寒 (paratyphoid fever)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

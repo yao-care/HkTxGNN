@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 328
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Epirubicin：預測新適應症為原發性肺淋巴瘤 (Primary Pulmonary Lymphoma)（證據等級 L5）。原適應症：乳癌（乳腺癌、乳房腫瘤）"
 monitor_inn: "Epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]

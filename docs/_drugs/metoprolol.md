@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Metoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Metoprolol：預測新適應症為Malignant hypertensive renal disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

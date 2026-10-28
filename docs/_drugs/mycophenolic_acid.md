@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "MYCOPHENOLIC ACID"
 predicted_indications: ["hemoglobinopathy", "migraine disorder", "migraine with brainstem aura", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "pyropoikilocytosis, hereditary", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyruvate kinase deficiency of red cells", "rheumatoid arthritis", "antithrombin deficiency type 2"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Mycophenolic Acid：預測新適應症為血紅素病變 (hemoglobinopathy)（證據等級 L5）。原適應症：本次整理的資料中，許可證未提供核准適應症文字"
 ---
 

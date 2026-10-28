@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "MEROPENEM"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "Lyme disease", "Peptostreptococcus infectious disease", "Ureaplasma urethritis", "gonococcal urethritis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Meropenem：預測新適應症為細菌性關節炎 (bacterial arthritis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

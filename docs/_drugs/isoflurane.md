@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "ISOFLURANE"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "manic bipolar affective disorder", "trichotillomania", "dysthymic disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Isoflurane：預測新適應症為Prinzmetal angina（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

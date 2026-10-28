@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 536
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Lonoctocog Alfa：預測新適應症為類血管性血友病 (pseudo-von Willebrand disease)（證據等級 L5）。原適應症：血友病（hemophilia）、女性帶因者的症狀性血友病"
 monitor_inn: "LONOCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome"]

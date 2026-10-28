@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CEFOPERAZONE"
 predicted_indications: ["sclerosing cholangitis", "rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "gout", "bronchitis", "meningococcal infection", "infectious otitis media", "IgG4-related sclerosing cholangitis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Cefoperazone：預測新適應症為硬化性膽管炎 (sclerosing cholangitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

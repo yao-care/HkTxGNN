@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "FOSAPREPITANT"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "pneumocystosis", "leprosy", "Cryptococcal meningitis", "multiple endocrine neoplasia", "intracranial abscess", "retinitis", "Plasmodium falciparum malaria", "echinococcus granulosus infectious disease", "hyperargininemia"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Fosaprepitant：預測新適應症為腎因性抗利尿不適當症候群（證據等級 L5）。原適應症：許可證未載明"
 ---
 

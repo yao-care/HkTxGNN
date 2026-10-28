@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 465
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Imiquimod"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
 description: "Imiquimod：預測新適應症為癌前病變 (pre-malignant neoplasm)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

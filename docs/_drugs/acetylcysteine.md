@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "ACETYLCYSTEINE"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Acetylcysteine：預測新適應症為血栓性疾病 (thrombotic disease)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 

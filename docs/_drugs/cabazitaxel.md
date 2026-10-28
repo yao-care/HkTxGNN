@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Cabazitaxel"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "HIV infectious disease", "hyperthyroidism", "neuroblastoma", "rheumatoid arthritis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Cabazitaxel：預測新適應症為女性乳癌 (female breast carcinoma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

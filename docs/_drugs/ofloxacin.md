@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "OFLOXACIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ofloxacin：預測新適應症為高澱粉酶血症 (Hyperamylasemia)（證據等級 L5）。原適應症：知識圖譜記錄的關聯包括傷寒、沙門氏菌感染、泌尿道感染、支氣管炎、細菌性肺炎等"
 ---
 

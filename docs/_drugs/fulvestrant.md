@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 10
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Fulvestrant：預測新適應症為HIV 感染（HIV infectious disease）（證據等級 L4）。原適應症：香港許可證資料未載明"
 ---
 

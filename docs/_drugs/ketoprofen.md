@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "KETOPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ketoprofen：預測新適應症為肢端中段發育不良 Hunter-Thompson 型（證據等級 L5）。原適應症：知識圖譜中記錄的關聯：類風濕性關節炎、骨關節炎、關節病變"
 ---
 

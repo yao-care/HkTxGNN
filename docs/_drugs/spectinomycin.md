@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "SPECTINOMYCIN"
 predicted_indications: ["disease of uterine broad ligament", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of retroperitoneum", "sacrum chordoma", "urethral disease", "disease of peritoneum", "embryonic cyst of fallopian tube"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Spectinomycin：預測新適應症為子宮闊韌帶疾病（證據等級 L5）。原適應症：急性淋球菌性子宮頸炎、淋病"
 ---
 

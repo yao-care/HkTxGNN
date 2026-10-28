@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 922
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Valine：預測新適應症為硬化性膽管炎 (Sclerosing Cholangitis)（證據等級 L4）。原適應症：目前許可證資料未載明核准適應症"
 monitor_inn: "Valine"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]

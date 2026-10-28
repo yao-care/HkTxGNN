@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 620
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "NIMODIPINE"
 predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Nimodipine：預測新適應症為同合子家族性高膽固醇血症 (homozygous familial hypercholesterolemia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

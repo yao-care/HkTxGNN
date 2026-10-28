@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 508
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "LANREOTIDE"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
 description: "Lanreotide：預測新適應症為多毛症 (hypertrichosis (disease))（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

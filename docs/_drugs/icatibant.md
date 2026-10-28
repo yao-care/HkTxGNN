@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 7
 monitor_inn: "ICATIBANT"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Icatibant：預測新適應症為C1 抑制物缺乏症（證據等級 L1）。原適應症：遺傳性血管性水腫、伴 C1 抑制物缺乏的遺傳性血管性水腫"
 ---
 

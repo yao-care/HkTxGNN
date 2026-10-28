@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 245
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Daptomycin：預測新適應症為退化性關節炎 (Osteoarthritis)（證據等級 L4）。原適應症：香港許可證資料中未載明核准適應症"
 monitor_inn: "DAPTOMYCIN"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]

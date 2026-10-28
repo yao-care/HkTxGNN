@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Sunitinib：預測新適應症為脂肪肉瘤 (Liposarcoma)（證據等級 L2）。原適應症：知識圖譜中記錄的關聯為腎細胞癌、透明細胞腎癌、胃腸道基質瘤"
 ---
 

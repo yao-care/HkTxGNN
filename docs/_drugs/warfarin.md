@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 944
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Warfarin：預測新適應症為肝素輔因子 II 缺乏症 (heparin cofactor 2 deficiency)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

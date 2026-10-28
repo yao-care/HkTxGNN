@@ -5,7 +5,7 @@ layout: default
 title: Nusinersen
 parent: 僅已知用途（無新預測）
 nav_order: 632
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Nusinersen: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Nusinersen"
 predicted_indications: []

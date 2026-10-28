@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 138
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Buprenorphine：預測新適應症為急性間歇性紫質症 (Acute Intermittent Porphyria)（證據等級 L5）。原適應症：鴉片類依賴、物質濫用/依賴、嗎啡依賴"
 monitor_inn: "BUPRENORPHINE"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]

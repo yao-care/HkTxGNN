@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 518
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "LENALIDOMIDE"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Lenalidomide：預測新適應症為骨髓性白血病 (myeloid leukemia)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"

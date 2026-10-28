@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CALCIUM LACTATE"
 predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Calcium Lactate：預測新適應症為鈣鹼症候群 (calcium-alkali syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

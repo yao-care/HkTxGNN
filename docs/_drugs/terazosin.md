@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "TERAZOSIN"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Terazosin：預測新適應症為頭皮單純性毛髮稀少症 (hypotrichosis simplex of the scalp)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "FENOFIBRATE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Fenofibrate：預測新適應症為膽固醇酯轉運蛋白缺乏症（證據等級 L5）。原適應症：知識圖譜記錄的關聯：高三酸甘油脂血症、高脂血症、家族性高脂血症、低 α 脂蛋白血症"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ioversol"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ioversol：預測新適應症為骨關節炎 (Osteoarthritis)（證據等級 L5）。原適應症：本次整理的資料中，香港許可證未提供核准適應症文字"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "PREDNISOLONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Prednisolone：預測新適應症為斑禿 (Alopecia Areata)（證據等級 L2）。原適應症：香港許可證資料未載明核准適應症文字"
 ---
 

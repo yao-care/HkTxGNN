@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 5
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Citalopram：預測新適應症為強迫症 (obsessive-compulsive disorder)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 

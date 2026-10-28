@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "RIMEGEPANT"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Rimegepant：預測新適應症為萎縮性蠕蟲狀皮膚病 (Atrophoderma Vermiculata)（證據等級 L5）。原適應症：知識圖譜記錄的關聯為偏頭痛"
 ---
 

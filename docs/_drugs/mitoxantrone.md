@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "MITOXANTRONE"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Mitoxantrone：預測新適應症為上呼吸消化道腫瘤（證據等級 L5）。原適應症：香港許可證未提供適應症文字"
 ---
 

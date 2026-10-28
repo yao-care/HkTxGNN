@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 418
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Glucagon：預測新適應症為腸躁症 (Irritable Bowel Syndrome)（證據等級 L3）。原適應症：資料缺漏"
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]

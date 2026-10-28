@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 374
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Ferrous sulfate anhydrous"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "biotin metabolic disease", "non-syndromic esophageal malformation"]
 description: "Ferrous Sulfate Anhydrous：預測新適應症為不依賴維生素 B12 與葉酸的先天性巨母紅血球性貧血 (vitamin B12- and folate-independent constitutional megaloblastic anemia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

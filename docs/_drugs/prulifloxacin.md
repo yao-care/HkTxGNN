@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "PRULIFLOXACIN"
 predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "pulmonary valve disease", "disorder of fucoglycosan synthesis", "mitral valve disease", "Jeune syndrome situs inversus"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Prulifloxacin：預測新適應症為心臟疾病 (heart disease)（證據等級 L5）。原適應症：本次整理的資料中，香港許可證未載明核准適應症"
 ---
 

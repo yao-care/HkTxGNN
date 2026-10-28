@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "BENZOCAINE"
 predicted_indications: ["papillary conjunctivitis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Benzocaine：預測新適應症為乳突狀結膜炎 (papillary conjunctivitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

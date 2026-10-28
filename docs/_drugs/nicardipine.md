@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 617
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Nicardipine"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
 description: "Nicardipine：預測新適應症為肺疾病及（或）缺氧所致肺高壓 (pulmonary hypertension owing to lung disease and/or hypoxia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

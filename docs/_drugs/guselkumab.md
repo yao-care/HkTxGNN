@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "GUSELKUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "renal osteodystrophy", "congenital hypotrichosis with juvenile macular dystrophy", "primary release disorder of platelets", "Glanzmann thrombasthenia", "non-renal secondary hyperparathyroidism"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Guselkumab：預測新適應症為藥物誘發性骨質疏鬆症（證據等級 L5）。原適應症：許可證資料未載明"
 ---
 

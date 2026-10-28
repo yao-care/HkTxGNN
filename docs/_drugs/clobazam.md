@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 211
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Clobazam"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "photosensitive occipital lobe epilepsy", "atypical childhood epilepsy with centrotemporal spikes", "cryptogenic late-onset epileptic spasms", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
 description: "Clobazam：預測新適應症為Febrile infection-related epilepsy syndrome（證據等級 L4）。原適應症：本地許可證資料未記載適應症"

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "MAGNESIUM CARBONATE"
 predicted_indications: ["gastroduodenitis", "gastroparesis (disease)", "stomach disease", "duodenal obstruction"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Magnesium Carbonate：預測新適應症為胃十二指腸炎（證據等級 L5）。原適應症：消化性潰瘍、胃食道逆流、食道炎、便秘、消化不良"
 ---
 
