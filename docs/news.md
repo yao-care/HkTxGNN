@@ -17,7 +17,7 @@ description: "HkTxGNN 自動監測藥物與適應症相關的健康新聞報導�
 
 ## 新聞總覽
 
-{% assign items = site.news | sort: 'title' %}
+{% assign items = site.news | where_exp: "n", "n.layout != 'id_redirect'" | sort: 'title' %}
 {% if items.size == 0 %}
 目前沒有符合的新聞。
 {% else %}
