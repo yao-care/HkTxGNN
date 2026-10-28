@@ -4,17 +4,17 @@ title: Iohexol
 parent: 僅模型預測 (L5)
 nav_order: 478
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Iohexol：預測新適應症為失眠 (Insomnia)（證據等級 L5）。原適應症：香港許可證資料未載明（造影劑，用於放射診斷影像）"
 monitor_inn: "Iohexol"
-predicted_indications: ["insomnia (disease)", "anxiety", "rheumatoid arthritis", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "sleep disorder, initiating and maintaining sleep", "heparin cofactor 2 deficiency", "fibromyalgia", "conjunctivitis", "tendinitis"]
+predicted_indications: ["insomnia (disease)", "anxiety"]
+description: "Iohexol：預測新適應症為失眠 (insomnia (disease)) (insomnia (disease))（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Iohexol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,33 @@ predicted_indications: ["insomnia (disease)", "anxiety", "rheumatoid arthritis",
 
 </div>
 
-## Iohexol：從（原適應症未載明）到失眠（TxGNN 預測，無支持證據）
+## Iohexol: 失眠 (insomnia (disease)) (insomnia (disease))
 {: .text-alpha }
 
 ## 一句話總結
 
 Iohexol 是一種非離子型含碘 X 光造影劑，在香港以 OMNIPAQUE 注射液上市。
-TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，但目前**沒有任何臨床試驗與文獻**支持，屬於純模型預測，且判斷為知識圖譜的人為產物，並非藥理訊號。
+TxGNN 模型（深度學習）預測它可能對**失眠 (Insomnia)** 有效，但目前**沒有任何臨床試驗與文獻**支持，屬於純模型預測。此分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證資料未載明（造影劑，用於放射診斷影像） |
-| 預測新適應症 | 失眠 (Insomnia) |
-| TxGNN 預測分數 | 99.87% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 失眠 (insomnia (disease)) (insomnia (disease)) |
+| TxGNN 預測分數 | 0.9987 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Iohexol 是非離子型含碘放射造影劑，本身在生物學上呈惰性，其用途是診斷影像，而非治療疾病。
 
-Iohexol 對調控睡眠的路徑（GABA 能、食慾素、褪黑激素系統）沒有已知作用。TxGNN 的高分應是知識圖譜中的關聯所造成，並非藥理上的真實訊號。因此，這項預測在機轉上**並不合理**。
+Iohexol 對調控睡眠的路徑（GABA 能、食慾素、褪黑激素系統）沒有已知作用。TxGNN 的高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。因此，這項預測在機轉上**並不合理**。
 
-其他排名靠前的預測（焦慮、類風濕性關節炎、抗凝血酶缺乏症第 2 型、第五因子過多伴自發性血栓、起始與維持睡眠障礙、肝素輔因子 2 缺乏症、纖維肌痛、結膜炎、肌腱炎）同樣缺乏機轉依據，並有同樣的限制。
+其他排名靠前的預測（焦慮症）同樣缺乏機轉依據，並有同樣的限制。
 
 ## 臨床試驗證據
 
@@ -114,7 +114,6 @@ Iohexol 對調控睡眠的路徑（GABA 能、食慾素、褪黑激素系統）�
 
 **理由：**
 - 所有預測適應症都只有模型分數，沒有臨床試驗，文獻也僅涉及診斷影像或不良反應，沒有治療證據。Iohexol 是生物惰性的造影劑，沒有可信的治療機轉。
-- 肌腱炎一項雖屬 L4，但內容僅是關節或腱鞘造影的診斷用途（多為獸醫或解剖研究），並非治療證據。
 
 **若要推進需要：**
 - 取得 Iohexol 的作用機轉資料，並確認原適應症的許可證文字。

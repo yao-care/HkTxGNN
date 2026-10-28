@@ -6,9 +6,9 @@ nav_order: 261
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Desonide：預測新適應症為聲帶息肉 (Polyp of Vocal Cord)（證據等級 L5）。原適應症：異位性皮膚炎、接觸性皮膚炎、脂漏性皮膚炎等發炎性皮膚疾病"
 monitor_inn: "DESONIDE"
 predicted_indications: ["polyp of vocal cord", "polyp of middle ear", "polyp of external auditory canal", "polyp of frontal sinus", "polyp of ureter", "polyp of vulva", "fibroepithelial polyp", "neoplastic polyp", "epulis", "uterine polyp"]
+description: "Desonide：預測新適應症為聲帶息肉 (polyp of vocal cord)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Desonide
@@ -33,7 +33,7 @@ predicted_indications: ["polyp of vocal cord", "polyp of middle ear", "polyp of 
 
 </div>
 
-## Desonide：從皮膚發炎性疾病到聲帶息肉
+## Desonide: 聲帶息肉 (polyp of vocal cord)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**聲帶息肉 (Polyp of Vocal Cord)** 有效，�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 異位性皮膚炎、接觸性皮膚炎、脂漏性皮膚炎等發炎性皮膚疾病（香港許可證未載明適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 聲帶息肉 (Polyp of Vocal Cord) |
-| TxGNN 預測分數 | 99.91% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 聲帶息肉 (polyp of vocal cord) |
+| TxGNN 預測分數 | 0.9991 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 5 張 |
+| 香港上市 | 上市中（有效許可證 5 張／共 5 張） |
+| 許可證數 | 5 張（有效 5 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**聲帶息肉 (Polyp of Vocal Cord)** 有效，�
 
 聲帶息肉部分與發聲創傷和胃食道逆流引起的發炎、水腫有關，因此皮質類固醇的抗發炎作用在理論上有可能派上用場。
 
-但這個關聯性相當薄弱：Desonide 僅有皮膚外用劑型（乳膏、軟膏、乳液等），沒有可送達喉部的給藥途徑。此外，排名前 10 的預測都是各種「息肉」類疾病（如耳道、中耳、輸尿管、子宮、腫瘤性息肉），分數幾乎相同，這很可能反映知識圖譜中「息肉」節點的結構性共通模式，而非真實的生物學證據。
+但這個關聯性相當薄弱：Desonide 僅有皮膚外用劑型（乳膏、軟膏、乳液等），沒有可送達喉部的給藥途徑。此外，排名前 10 的預測都是各種「息肉」類疾病（如耳道、中耳、輸尿管、子宮、腫瘤性息肉），分數幾乎相同，這些分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
 ---
 
@@ -104,7 +104,7 @@ TxGNN 模型預測它可能對**聲帶息肉 (Polyp of Vocal Cord)** 有效，�
 **決策：Hold**
 
 **理由：**
-- 目前僅有模型預測（L5），沒有臨床試驗或文獻支持；Desonide 只有皮膚外用劑型，無法送達聲帶，且高分可能源自知識圖譜中「息肉」節點的共通結構。
+- 目前僅有模型預測（L5），沒有臨床試驗或文獻支持；Desonide 只有皮膚外用劑型，無法送達聲帶，且高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 - 其他排名前 10 的息肉類預測同樣缺乏證據，目前沒有足夠理由推進任何一項。
 
 **若要推進需要：**

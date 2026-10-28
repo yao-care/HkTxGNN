@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Trabectedin
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 892
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Trabectedin：預測新適應症為女性乳癌 (Female Breast Carcinoma)（證據等級 L3）。原適應症：卵巢癌"
 monitor_inn: "TRABECTEDIN"
 predicted_indications: ["female breast carcinoma"]
+description: "Trabectedin：預測新適應症為女性乳癌 (female breast carcinoma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Trabectedin
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["female breast carcinoma"]
 
 </div>
 
-## Trabectedin：從卵巢癌到女性乳癌
+## Trabectedin: 女性乳癌 (female breast carcinoma)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 卵巢癌（許可證資料未列明核准適應症文字，此為知識圖譜所載之原適應症） |
-| 預測新適應症 | 女性乳癌 (Female Breast Carcinoma) |
-| TxGNN 預測分數 | 99.73% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 女性乳癌 (female breast carcinoma) |
+| TxGNN 預測分數 | 0.9973 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold（列為研究問題，待補充證據） |
 
 ## 為什麼這個預測合理？
@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效�
 
 卵巢癌與乳癌在 BRCA 相關的 DNA 修復缺陷上有共同的生物學基礎。文獻亦指出，Trabectedin 可減少腫瘤相關巨噬細胞 (TAM)，調節腫瘤微環境，前臨床研究顯示它可能增強 IL-12 在三陰性乳癌中的免疫治療效果。
 
-需要注意的是，TxGNN 的高分 (0.997) 屬於計算預測，不能取代臨床證據。
+需要注意的是，TxGNN 的高分 (0.9973) 屬於計算預測，不能取代臨床證據。
 
 ## 臨床試驗證據
 

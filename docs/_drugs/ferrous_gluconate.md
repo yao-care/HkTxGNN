@@ -6,9 +6,9 @@ nav_order: 373
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Ferrous Gluconate：預測新適應症為Plummer-Vinson 症候群 (Plummer-Vinson syndrome)（證據等級 L5）。原適應症：缺鐵性貧血、早產兒貧血、低色素性貧血、缺乏性貧血、小球性貧血"
 monitor_inn: "FERROUS GLUCONATE"
 predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder"]
+description: "Ferrous Gluconate：預測新適應症為Plummer-Vinson 症候群 (Plummer-Vinson syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Ferrous Gluconate
@@ -33,7 +33,7 @@ predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-inde
 
 </div>
 
-## Ferrous Gluconate：從缺鐵性貧血到 Plummer-Vinson 症候群
+## Ferrous Gluconate: Plummer-Vinson 症候群 (Plummer-Vinson syndrome)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對 **Plummer-Vinson 症候群 (Plummer-Vinson syndro
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 缺鐵性貧血、早產兒貧血、低色素性貧血、缺乏性貧血、小球性貧血（來自知識圖譜；香港許可證未載明適應症文字） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | Plummer-Vinson 症候群 (Plummer-Vinson syndrome) |
-| TxGNN 預測分數 | 99.94% |
-| 證據等級 | L4（僅有機轉層面的合理性，無實際研究；依資料編譯結果判定） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| TxGNN 預測分數 | 0.9994 |
+| 證據等級 | L5（僅有機轉層面的合理性，無實際研究；依資料編譯結果判定） |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold（列為研究問題，暫不推進） |
 
 ---
@@ -69,10 +69,10 @@ Plummer-Vinson 症候群的特徵是缺鐵性貧血、吞嚥困難與食道蹼�
 
 | 排名 | 預測疾病 | 分數 | 評估 |
 |------|---------|------|------|
-| 2 | 不依賴維生素 B12 與葉酸的體質性巨母紅血球性貧血 | 99.94% | 此類貧血通常對鐵劑無反應，除非同時缺鐵；高分可能反映網路鄰近性。建議 Hold |
-| 3 | 非症候群性食道畸形 | 99.67% | 結構性先天缺陷，補鐵不會矯正解剖異常；可能源自與 Plummer-Vinson 的關聯。建議 Hold |
-| 4 | 生物素代謝疾病 | 99.42% | 治療以生物素補充為主，鐵劑無明確機轉角色。建議 Hold |
-| 5 | 維生素缺乏症 (vitamin deficiency disorder) | 99.17% | 概念上與營養缺乏相鄰，有 1 個小型試驗但連結間接。列為研究問題 |
+| 2 | 不依賴維生素 B12 與葉酸的體質性巨母紅血球性貧血 | 0.9994 | 此類貧血通常對鐵劑無反應，除非同時缺鐵；高分可能反映網路鄰近性。建議 Hold |
+| 3 | 非症候群性食道畸形 | 0.9967 | 結構性先天缺陷，補鐵不會矯正解剖異常；可能源自與 Plummer-Vinson 的關聯。建議 Hold |
+| 4 | 生物素代謝疾病 | 0.9942 | 治療以生物素補充為主，鐵劑無明確機轉角色。建議 Hold |
+| 5 | 維生素缺乏症 (vitamin deficiency disorder) | 0.9917 | 概念上與營養缺乏相鄰，有 1 個小型試驗但連結間接。列為研究問題 |
 
 ---
 

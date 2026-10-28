@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nicardipine
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 617
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Nicardipine：預測新適應症為肺疾病及（或）缺氧所致肺高壓 (Pulmonary hypertension owing to lung disease and/or h…（證據等級 L4）。原適應症：高血壓 (Hypertension)"
 monitor_inn: "Nicardipine"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
+description: "Nicardipine：預測新適應症為肺疾病及（或）缺氧所致肺高壓 (pulmonary hypertension owing to lung disease and/or hypoxia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Nicardipine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["pulmonary hypertension owing to lung disease and/or hyp
 
 </div>
 
-## Nicardipine：從高血壓到肺高壓（缺氧／肺疾病相關）
+## Nicardipine: 肺疾病及（或）缺氧所致肺高壓 (pulmonary hypertension owing to lung disease and/or hypoxia)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對**肺疾病及（或）缺氧所致肺高壓 (Pulm
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 高血壓 (Hypertension) |
-| 預測新適應症 | 肺疾病及（或）缺氧所致肺高壓 (Pulmonary hypertension owing to lung disease and/or hypoxia) |
-| TxGNN 預測分數 | 99.26% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 肺疾病及（或）缺氧所致肺高壓 (pulmonary hypertension owing to lung disease and/or hypoxia) |
+| TxGNN 預測分數 | 0.9926 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -119,10 +119,9 @@ TxGNN 模型預測它可能對**肺疾病及（或）缺氧所致肺高壓 (Pulm
 
 | 預測適應症 | TxGNN 分數 | 說明 |
 |-----------|-----------|------|
-| 機轉不明的多因素肺高壓 | 99.26% | 僅憑模型分數與鈣離子通道阻斷劑的一般血管舒張作用；僅少數有血管反應性的肺動脈高壓患者適用 |
-| 惡性腎血管性高血壓 | 99.13% | 與現有高血壓適應症高度重疊，較像適應症延伸；腎血管疾病有特定風險，缺乏該情境的證據 |
-| 惡性高血壓腎病 | 99.13% | 降壓機轉相關，但無該疾病的臨床證據 |
-| Braddock 症候群 | 99.03% | 資料不支持明確機轉，可能僅反映肺高壓相關表型，尚未驗證 |
+| 機轉不明的多因素肺高壓 | 0.9926 | 僅憑模型分數與鈣離子通道阻斷劑的一般血管舒張作用；僅少數有血管反應性的肺動脈高壓患者適用 |
+| 惡性高血壓腎病 | 0.9913 | 降壓機轉相關，但無該疾病的臨床證據 |
+| Braddock 症候群 | 0.9903 | 資料不支持明確機轉，可能僅反映肺高壓相關表型，尚未驗證 |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

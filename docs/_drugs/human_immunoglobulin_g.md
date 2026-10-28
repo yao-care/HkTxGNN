@@ -4,17 +4,17 @@ title: Human Immunoglobulin G
 parent: 僅模型預測 (L5)
 nav_order: 442
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Human Immunoglobulin G：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Human immunoglobulin G"
-predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "tetanic cataract", "craniostenosis cataract", "mature cataract"]
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis"]
 ---
 
 # Human Immunoglobulin G
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 |------|------|
 | 原適應症 | 資料未載明 |
 | 預測新適應症 | 嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy) |
-| TxGNN 預測分數 | 99.75% |
+| TxGNN 預測分數 | 0.9975 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ---
@@ -64,7 +64,7 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 
 理論上，免疫球蛋白可能透過免疫調節作用，影響發炎或補體介導的視網膜微血管損傷，因此糖尿病視網膜病變在概念上並非完全不可想像。但這純屬推測，沒有任何所提供的證據支持。
 
-此外，糖尿病視網膜病變已有成熟的標準治療（抗 VEGF、雷射、血糖控制），療效明確，目前看不出全身性使用 IgG 的明確理由。99.75% 的分數是模型輸出，不等同於臨床有效性。
+此外，糖尿病視網膜病變已有成熟的標準治療（抗 VEGF、雷射、血糖控制），療效明確，目前看不出全身性使用 IgG 的明確理由。0.9975 的分數是模型輸出，不等同於臨床有效性。
 
 ### 其他預測適應症（供參考）
 
@@ -72,17 +72,9 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 
 | 排名 | 預測適應症 | TxGNN 分數 | 備註 |
 |------|-----------|-----------|------|
-| 2 | 糖尿病視網膜病變 | 99.63% | 無明確機轉依據，標準治療已完善 |
-| 3 | 藥物引起的骨質疏鬆 | 99.37% | 骨代謝並非 IgG 的既知作用標的 |
-| 4 | 糖尿病白內障 | 98.87% | 與 IgG 無已知關聯 |
-| 5 | 核性老年性白內障 | 97.90% | 無已知免疫球蛋白反應機轉 |
-| 6 | 皮質性白內障 | 97.90% | 分數與核性相同，可能反映圖譜訊號而非疾病特異性證據 |
-| 7 | 老年性白內障 | 97.89% | 無證據支持 |
-| 8 | 手足搐搦性白內障 | 97.65% | 成因為低血鈣或副甲狀腺低能，與 IgG 無關 |
-| 9 | 顱縫早閉白內障 | 97.65% | 罕見症候群，無合理機轉 |
-| 10 | 成熟白內障 | 97.65% | 晚期水晶體混濁，以手術治療 |
+| 2 | 糖尿病視網膜病變 | 0.9963 | 無明確機轉依據，標準治療已完善 |
+| 3 | 藥物引起的骨質疏鬆 | 0.9937 | 骨代謝並非 IgG 的既知作用標的 |
 
-多個白內障類型分數相近，推測反映知識圖譜中白內障相關詞彙的聚集效應，而非個別疾病的實際證據。
 
 ---
 

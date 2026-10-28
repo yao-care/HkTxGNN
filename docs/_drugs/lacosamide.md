@@ -6,9 +6,9 @@ nav_order: 501
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Lacosamide：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：本次資料未載明"
 monitor_inn: "Lacosamide"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
+description: "Lacosamide：預測新適應症為Manic bipolar affective disorder（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Lacosamide
@@ -33,7 +33,7 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 
 </div>
 
-## Lacosamide：從癲癇發作（原適應症資料缺漏）到偏頭痛
+## Lacosamide: Manic bipolar affective disorder
 {: .text-alpha }
 
 ## 一句話總結
@@ -49,12 +49,12 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 本次資料未載明（香港許可證未附適應症文字） |
-| 預測新適應症 | 偏頭痛 (Migraine Disorder) |
-| TxGNN 預測分數 | 99.87% |
-| 證據等級 | L1（有 ≥2 個已完成的 Phase 3 試驗，但療效結果尚待核實） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 12 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Manic bipolar affective disorder |
+| TxGNN 預測分數 | 0.9996 |
+| 證據等級 | L5（有 ≥2 個已完成的 Phase 3 試驗，但療效結果尚待核實） |
+| 香港上市 | 上市中（有效許可證 12 張／共 12 張） |
+| 許可證數 | 12 張（有效 12 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---
@@ -141,12 +141,12 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 
 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
 |-----------|-----------|---------|------|
-| 躁期雙相情感障礙 | 99.96% | L3 | Research Question（無臨床試驗；僅有一項回溯性 30 日對照研究及一項 12 週開放標籤先導試驗，另有嗜中性白血球減少個案報告） |
-| 肌筋膜疼痛症候群 | 99.81% | L2 | Research Question（僅有 1 個 Phase 2 纖維肌痛試驗 NCT00401830，無結果，適應症吻合度待確認） |
-| 妥瑞氏症 | 99.95% | L5 | Hold（無支持療效的證據；文獻反而提示抗癲癇藥可能誘發抽動） |
-| 腎因性抗利尿激素分泌不當症候群 | 99.91% | L5 | Hold（無證據，且抗癲癇藥可能引起低血鈉） |
-| 伴腦幹先兆偏頭痛 | 99.82% | L4 | Hold（僅有間接機轉支持） |
-| 拔毛症、失眠、強迫症、乳突性結膜炎 | 99.72%–99.92% | L5 | Hold（無相關證據） |
+| 躁期雙相情感障礙 | 0.9996 | L5 | Research Question（無臨床試驗；僅有一項回溯性 30 日對照研究及一項 12 週開放標籤先導試驗，另有嗜中性白血球減少個案報告） |
+| 肌筋膜疼痛症候群 | 0.9981 | L5 | Research Question（僅有 1 個 Phase 2 纖維肌痛試驗 NCT00401830，無結果，適應症吻合度待確認） |
+| 妥瑞氏症 | 0.9995 | L5 | Hold（無支持療效的證據；文獻反而提示抗癲癇藥可能誘發抽動） |
+| 腎因性抗利尿激素分泌不當症候群 | 0.9991 | L5 | Hold（無證據，且抗癲癇藥可能引起低血鈉） |
+| 伴腦幹先兆偏頭痛 | 0.9982 | L5 | Hold（僅有間接機轉支持） |
+| 拔毛症、失眠、強迫症、乳突性結膜炎 | 0.9972–0.9992 | L5 | Hold（無相關證據） |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

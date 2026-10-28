@@ -6,9 +6,9 @@ nav_order: 262
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Desoximetasone：預測新適應症為圓形禿 (Alopecia Areata)（證據等級 L5）。原適應症：異位性皮膚炎、接觸性皮膚炎、脂漏性皮膚炎、盤狀紅斑性狼瘡等皮膚發炎性疾病"
 monitor_inn: "DESOXIMETASONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "hereditary hypotrichosis with recurrent skin vesicles", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "primary cutaneous B-cell lymphoma", "atrichia with papular lesions", "vulvar inverted follicular keratosis"]
+description: "Desoximetasone：預測新適應症為圓形禿 (alopecia areata)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Desoximetasone
@@ -33,7 +33,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 
 </div>
 
-## Desoximetasone：從異位性皮膚炎等皮膚發炎疾病到圓形禿
+## Desoximetasone: 圓形禿 (alopecia areata)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 異位性皮膚炎、接觸性皮膚炎、脂漏性皮膚炎、盤狀紅斑性狼瘡等皮膚發炎性疾病（香港許可證未列適應症文字，此處依知識圖譜適應症整理） |
-| 預測新適應症 | 圓形禿 (Alopecia Areata) |
-| TxGNN 預測分數 | 99.92% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 圓形禿 (alopecia areata) |
+| TxGNN 預測分數 | 0.9992 |
 | 證據等級 | L5（依本報告判定規則，見下方說明） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Proceed with Guardrails |
 
 **證據等級說明：** 目前已有 1 篇 2000 年的雙盲安慰劑對照 RCT（0.25% desoximetasone 乳膏用於圓形禿），但僅有文獻題目，缺乏摘要、樣本數與結果，也沒有已完成的臨床試驗登記資料可供核實。依判定規則（L1/L2 需已完成的 Phase 2/3 RCT 登記），本報告保守判定為 L5；若日後能確認該 RCT 的設計與結果，等級可上調。

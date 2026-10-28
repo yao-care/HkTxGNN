@@ -6,7 +6,7 @@ nav_order: 342
 evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Estriol：預測新適應症為無月經症 (Amenorrhea)，文獻聚焦於功能性下視丘無月經症 (FHA)（證據等級 L3）。原適應症：香港許可證未載明適應症"
+description: "Estriol：預測新適應症為閉經 (Amenorrhea)（證據等級 L3）。原適應症：香港許可證未載明適應症"
 monitor_inn: "ESTRIOL"
 predicted_indications: ["amenorrhea (disease)"]
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["amenorrhea (disease)"]
 
 </div>
 
-## Estriol：從更年期症狀到無月經症
+## Estriol：從更年期症狀到閉經 (Amenorrhea)
 {: .text-alpha }
 
 ## 一句話總結
@@ -50,10 +50,10 @@ TxGNN 模型預測它可能對**無月經症 (Amenorrhea)** 有效，
 |------|------|
 | 原適應症 | 香港許可證未載明適應症（藥理資料顯示，estriol 在歐洲與亞洲已用於停經後熱潮紅） |
 | 預測新適應症 | 無月經症 (Amenorrhea)，文獻聚焦於功能性下視丘無月經症 (FHA) |
-| TxGNN 預測分數 | 99.18% |
+| TxGNN 預測分數 | 0.9918 |
 | 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -64,7 +64,7 @@ TxGNN 模型預測它可能對**無月經症 (Amenorrhea)** 有效，
 
 功能性下視丘無月經症 (FHA) 的成因，是 GnRH 脈衝式分泌受抑制，導致 LH 與 FSH 分泌不足、卵巢功能下降，進而形成全身性低雌激素狀態。低劑量雌激素補充，理論上可作為神經內分泌調節劑，並彌補缺乏的雌激素。2012 年一項小型生理研究顯示，estriol 可調節 FHA 女性的 LH 分泌。
 
-不過要注意，補充雌激素主要是處理低雌激素狀態及其後果（例如骨骼健康），並不能解決 FHA 的根本原因。0.99 的 TxGNN 分數只是電腦模型預測，不能當作臨床證據。
+不過要注意，補充雌激素主要是處理低雌激素狀態及其後果（例如骨骼健康），並不能解決 FHA 的根本原因。0.9918 的 TxGNN 分數只是電腦模型預測，不能當作臨床證據。
 
 ---
 

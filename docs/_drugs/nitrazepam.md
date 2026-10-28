@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nitrazepam
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 623
-evidence_level: L4
-indication_count: 3
-last_modified_at: 2026-10-14
-description: "Nitrazepam：預測新適應症為睡眠起始與維持障礙 (sleep disorder, initiating and maintaining sleep)（證據等級 L4）。原適應症：失眠 (insomnia)、早期肌陣攣性腦病變"
+evidence_level: L5
+indication_count: 1
+last_modified_at: 2026-10-28
 monitor_inn: "NITRAZEPAM"
 predicted_indications: ["Wernicke-Korsakoff syndrome"]
+description: "Nitrazepam：預測新適應症為Wernicke-Korsakoff syndrome（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Nitrazepam
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["Wernicke-Korsakoff syndrome"]
 
 </div>
 
-## Nitrazepam：從失眠到睡眠起始與維持障礙
+## Nitrazepam: Wernicke-Korsakoff syndrome
 {: .text-alpha }
 
 ## 一句話總結
 
 Nitrazepam 是一種苯二氮平類（benzodiazepine）藥物，原本用於失眠與早期肌陣攣性腦病變。
-TxGNN 模型預測它可能對**睡眠起始與維持障礙 (sleep disorder, initiating and maintaining sleep)** 有效，
 目前**無臨床試驗登記**，有 **20 篇文獻**可參考。但此預測與原適應症（失眠）實質上重疊，並非真正的新適應症。
 
 ---
@@ -48,12 +47,12 @@ TxGNN 模型預測它可能對**睡眠起始與維持障礙 (sleep disorder, ini
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 失眠 (insomnia)、早期肌陣攣性腦病變（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 睡眠起始與維持障礙 (sleep disorder, initiating and maintaining sleep) |
-| TxGNN 預測分數 | 99.89% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Wernicke-Korsakoff syndrome |
+| TxGNN 預測分數 | 0.9931 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ---
@@ -62,7 +61,7 @@ TxGNN 模型預測它可能對**睡眠起始與維持障礙 (sleep disorder, ini
 
 目前缺乏詳細的作用機轉資料。根據藥物類別知識，Nitrazepam 屬於苯二氮平類，可增強 GABA-A 受體介導的抑制作用，具有鎮靜催眠與抗痙攣效果。
 
-這一機轉與入睡困難及睡眠維持困難的病理相符。但「睡眠起始與維持障礙」本質上就是失眠，與 Nitrazepam 已知的原適應症高度重疊。因此 99.89% 的高分，很可能反映的是模型對既有適應症的辨識，而不是新的藥物再利用發現。
+這一機轉與入睡困難及睡眠維持困難的病理相符。但「睡眠起始與維持障礙」本質上就是失眠，與 Nitrazepam 已知的原適應症高度重疊。
 
 另外兩個較低排名的預測（急性腦病變伴雙相痙攣與延遲性擴散受限、Wernicke-Korsakoff 症候群）僅有模型預測支持，沒有任何臨床試驗或文獻。前者可能與其抗痙攣作用有關，但苯二氮平類僅用於急性發作控制，無證據顯示能改變疾病進程；後者則只能處理併發的酒精戒斷，無法治療硫胺素缺乏，還可能加重認知損害與鎮靜，存在安全疑慮。
 

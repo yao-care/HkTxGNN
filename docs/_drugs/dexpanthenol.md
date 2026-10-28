@@ -6,9 +6,9 @@ nav_order: 269
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Dexpanthenol：預測新適應症為肛門直腸狹窄 (Anorectal Stricture)（證據等級 L5）。原適應症：麻痺性腸阻塞、腸阻塞、家族性內臟肌病變、皮膚疾病、日光性角化症、脂漏性角化症、胃輕癱、異位性濕疹、皮膚炎"
 monitor_inn: "DEXPANTHENOL"
 predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
+description: "Dexpanthenol：預測新適應症為肛門直腸狹窄 (anorectal stricture)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Dexpanthenol
@@ -33,7 +33,7 @@ predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp",
 
 </div>
 
-## Dexpanthenol：從皮膚與腸胃動力相關疾病到肛門直腸狹窄
+## Dexpanthenol: 肛門直腸狹窄 (anorectal stricture)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,15 +48,15 @@ TxGNN 模型預測分數最高的新適應症是**肛門直腸狹窄 (Anorectal 
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 麻痺性腸阻塞、腸阻塞、家族性內臟肌病變、皮膚疾病、日光性角化症、脂漏性角化症、胃輕癱、異位性濕疹、皮膚炎（來自知識圖譜，非仿單） |
-| 預測新適應症 | 肛門直腸狹窄 (Anorectal Stricture) |
-| TxGNN 預測分數 | 99.72% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 肛門直腸狹窄 (anorectal stricture) |
+| TxGNN 預測分數 | 0.9972 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
-> 其他預測適應症（依 TxGNN 分數排序）：無肛 (Imperforate Anus, 99.71%)、肛門息肉 (Anal Polyp, 99.62%)、外陰倒置性毛囊角化症 (99.60%)、直腸炎 (Proctitis, 99.60%)、發疹 (Exanthem, 99.60%)、點狀上皮角膜結膜炎 (99.34%)。其中僅「發疹」有相關臨床試驗。
+> 其他預測適應症（依 TxGNN 分數排序）：無肛 (Imperforate Anus, 0.9971)、肛門息肉 (Anal Polyp, 0.9962)、外陰倒置性毛囊角化症 (0.9960)、直腸炎 (Proctitis, 0.9960)、發疹 (Exanthem, 0.9960)、點狀上皮角膜結膜炎 (0.9934)。其中僅「發疹」有相關臨床試驗。
 
 ---
 
@@ -66,7 +66,7 @@ TxGNN 模型預測分數最高的新適應症是**肛門直腸狹窄 (Anorectal 
 
 肛門直腸狹窄常與黏膜損傷後的癒合與纖維化有關，因此「促進黏膜癒合」在理論上有些關聯。此外，原適應症包含腸胃動力障礙，與下消化道疾病有間接連結。但這種關聯相當鬆散，屬於推測，並無實證。
 
-其他預測方向的合理性不一：直腸炎（黏膜癒合與抗發炎）和點狀上皮角膜結膜炎（角膜上皮修復）有可想像的機轉；無關聯較弱者如肛門息肉（結構性病灶，通常以切除處理）、無肛（先天畸形，需手術矯正）；外陰倒置性毛囊角化症可能只是因為圖譜上與角化症相近，Dexpanthenol 的保濕與皮膚屏障作用並不知可治療角化病灶。
+其他預測方向的合理性不一：直腸炎（黏膜癒合與抗發炎）和點狀上皮角膜結膜炎（角膜上皮修復）有可想像的機轉；無關聯較弱者如肛門息肉（結構性病灶，通常以切除處理）、無肛（先天畸形，需手術矯正）；外陰倒置性毛囊角化症的分數來自 TxGNN 模型（深度學習），可能只是反映模型學到的相關疾病之間的相似性，而非生物學證據，Dexpanthenol 的保濕與皮膚屏障作用並不知可治療角化病灶。
 
 ---
 

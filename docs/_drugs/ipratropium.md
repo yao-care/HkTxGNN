@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ipratropium
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 482
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Ipratropium：預測新適應症為阻塞性肺病 (Obstructive Lung Disease)（證據等級 L1）。原適應症：慢性阻塞性肺病、過敏性鼻炎、血管運動性鼻炎、支氣管炎、肺氣腫等"
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
+description: "Ipratropium：預測新適應症為Nasal cavity disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Ipratropium
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopha
 
 </div>
 
-## Ipratropium：從慢性阻塞性肺病 (COPD) 到阻塞性肺病 (Obstructive Lung Disease)
+## Ipratropium: Nasal cavity disease
 {: .text-alpha }
 
 ## 一句話總結
 
 Ipratropium 是吸入型抗膽鹼支氣管擴張劑，原本用於慢性阻塞性肺病 (COPD)、過敏性及血管運動性鼻炎、支氣管炎等。
-TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有效，目前有 **25 個臨床試驗**和 **20 篇文獻**支持這個方向。
 但此預測與原有適應症高度重疊，本質上屬於「適應症內確認」，並非真正的跨疾病再利用。
 
 ---
@@ -48,12 +47,12 @@ TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 慢性阻塞性肺病、過敏性鼻炎、血管運動性鼻炎、支氣管炎、肺氣腫等（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 阻塞性肺病 (Obstructive Lung Disease) |
-| TxGNN 預測分數 | 99.97% |
-| 證據等級 | L1 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 7 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Nasal cavity disease |
+| TxGNN 預測分數 | 0.9986 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 7 張／共 7 張） |
+| 許可證數 | 7 張（有效 7 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---
@@ -148,15 +147,15 @@ TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有
 
 | 排名 | 預測適應症 | 分數 | 證據等級 | 建議 |
 |------|-----------|------|---------|------|
-| 2 | 鼻腔疾病 | 99.86% | L4 | 研究問題（多為已核准的鼻炎適應症，文獻為間接證據） |
-| 3 | 咽炎 | 99.85% | L4 | Hold |
-| 4 | 急性喉咽炎 | 99.84% | L5 | Hold |
-| 5 | 呼吸道畸形 | 99.80% | L3 | 研究問題 |
-| 6 | 乳突狀結膜炎 | 99.75% | L5 | Hold |
-| 7 | Rienhoff 症候群 | 99.69% | L5 | Hold |
-| 8 | 氣管疾病 | 99.66% | L4 | 研究問題（多為前臨床證據） |
-| 9 | 過敏性休克 | 99.38% | L4 | Hold（有 Ipratropium 引發過敏性休克的病例報告） |
-| 10 | 食物依賴性運動誘發過敏性休克 | 99.36% | L5 | Hold |
+| 2 | 鼻腔疾病 | 0.9986 | L5 | 研究問題（多為已核准的鼻炎適應症，文獻為間接證據） |
+| 3 | 咽炎 | 0.9985 | L5 | Hold |
+| 4 | 急性喉咽炎 | 0.9984 | L5 | Hold |
+| 5 | 呼吸道畸形 | 0.9980 | L5 | 研究問題 |
+| 6 | 乳突狀結膜炎 | 0.9975 | L5 | Hold |
+| 7 | Rienhoff 症候群 | 0.9969 | L5 | Hold |
+| 8 | 氣管疾病 | 0.9966 | L4 | 研究問題（多為前臨床證據） |
+| 9 | 過敏性休克 | 0.9938 | L4 | Hold（有 Ipratropium 引發過敏性休克的病例報告） |
+| 10 | 食物依賴性運動誘發過敏性休克 | 0.9936 | L5 | Hold |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

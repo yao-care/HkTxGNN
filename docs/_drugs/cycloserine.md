@@ -6,9 +6,9 @@ nav_order: 235
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Cycloserine：預測新適應症為腸躁症 (Irritable Bowel Syndrome)（證據等級 L5）。原適應症：肺結核"
 monitor_inn: "CYCLOSERINE"
 predicted_indications: ["irritable bowel syndrome", "acne (disease)", "gastroparesis (disease)", "conjunctivitis", "insomnia (disease)", "pharyngitis", "nasal cavity disease"]
+description: "Cycloserine：預測新適應症為腸躁症 (irritable bowel syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Cycloserine
@@ -33,7 +33,7 @@ predicted_indications: ["irritable bowel syndrome", "acne (disease)", "gastropar
 
 </div>
 
-## Cycloserine：從肺結核到腸躁症
+## Cycloserine: 腸躁症 (irritable bowel syndrome)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對**腸躁症 (Irritable Bowel Syndrome)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 肺結核（許可證未載明適應症文字，此為知識圖譜的適應症資料） |
-| 預測新適應症 | 腸躁症 (Irritable Bowel Syndrome) |
-| TxGNN 預測分數 | 99.95% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 腸躁症 (irritable bowel syndrome) |
+| TxGNN 預測分數 | 0.9995 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

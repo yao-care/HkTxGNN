@@ -6,9 +6,9 @@ nav_order: 721
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Povidone：預測新適應症為先天性魚鱗癬樣紅皮症 (Congenital Ichthyosiform Erythroderma)（證據等級 L5）。原適應症：乾眼症、乾燥性角結膜炎"
 monitor_inn: "POVIDONE"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
+description: "Povidone：預測新適應症為先天性魚鱗癬樣紅皮症 (congenital ichthyosiform erythroderma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Povidone
@@ -33,7 +33,7 @@ predicted_indications: ["congenital ichthyosiform erythroderma"]
 
 </div>
 
-## Povidone：從乾眼症到先天性魚鱗癬樣紅皮症
+## Povidone: 先天性魚鱗癬樣紅皮症 (congenital ichthyosiform erythroderma)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**先天性魚鱗癬樣紅皮症 (Congenital Ichth
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 乾眼症、乾燥性角結膜炎（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 先天性魚鱗癬樣紅皮症 (Congenital Ichthyosiform Erythroderma) |
-| TxGNN 預測分數 | 99.11% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 先天性魚鱗癬樣紅皮症 (congenital ichthyosiform erythroderma) |
+| TxGNN 預測分數 | 0.9911 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 5 張 |
+| 香港上市 | 上市中（有效許可證 5 張／共 5 張） |
+| 許可證數 | 5 張（有效 5 張） |
 | 建議決策 | Hold |
 
 ---
@@ -108,7 +108,7 @@ TxGNN 模型預測它可能對**先天性魚鱗癬樣紅皮症 (Congenital Ichth
 **決策：Hold**
 
 **理由：**
-- 唯一支持來自 TxGNN 的高預測分數（99.11%），沒有臨床試驗、文獻或已記載的作用機轉。
+- 唯一支持來自 TxGNN 的高預測分數（0.9911），沒有臨床試驗、文獻或已記載的作用機轉。
 - 目前 Povidone 在香港僅有眼用製劑上市，且新適應症位於皮膚，屬於不同的給藥途徑。即使推測成立，也僅可能達到症狀性的保濕效果，而非疾病治療。
 
 **若要推進需要：**

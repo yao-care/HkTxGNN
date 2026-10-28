@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 952
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "ZINC CHLORIDE"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "Sjogren syndrome", "dry eye syndrome"]
-description: "Zinc Chloride：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy)（證據等級 L5）."
+description: "Zinc Chloride：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy)（證據等級 L5）."
 ---
 
 # Zinc Chloride
@@ -33,7 +33,7 @@ description: "Zinc Chloride：預測新適應症為嚴重非增殖性糖尿病�
 
 </div>
 
-## Zinc Chloride（氯化鋅）：從微量元素補充到嚴重非增殖性糖尿病視網膜病變
+## Zinc Chloride: 嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,14 +47,14 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy) |
-| TxGNN 預測分數 | 99.34% |
+| 預測新適應症 | 嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy) |
+| TxGNN 預測分數 | 0.9934 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
-其他預測適應症（同為 L5、Hold）：乾燥症 (Sjogren syndrome，99.18%)、乾眼症 (dry eye syndrome，99.18%)。
+其他預測適應症（同為 L5、Hold）：乾燥症 (Sjogren syndrome，0.9918)、乾眼症 (dry eye syndrome，0.9918)。
 
 ---
 

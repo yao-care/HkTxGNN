@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Epinephrine
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 327
-evidence_level: L1
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Epinephrine：預測新適應症為阻塞性肺病 (Obstructive Lung Disease)（證據等級 L1）。原適應症：開角型青光眼、支氣管炎、低血壓、氣喘、肺氣腫、過敏性休克、支氣管擴張"
 monitor_inn: "Epinephrine"
-predicted_indications: ["obstructive lung disease", "food-dependent exercise-induced anaphylaxis", "Rienhoff syndrome", "respiratory malformation"]
+predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
+description: "Epinephrine：預測新適應症為阻塞性肺病 (obstructive lung disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Epinephrine
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **4** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["obstructive lung disease", "food-dependent exercise-ind
 
 </div>
 
-## Epinephrine：從氣喘與過敏性休克到阻塞性肺病
+## Epinephrine: 阻塞性肺病 (obstructive lung disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -49,12 +49,12 @@ TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 開角型青光眼、支氣管炎、低血壓、氣喘、肺氣腫、過敏性休克、支氣管擴張（TxGNN 知識圖譜適應症；香港許可證未載明適應症文字） |
-| 預測新適應症 | 阻塞性肺病 (Obstructive Lung Disease) |
-| TxGNN 預測分數 | 99.71% |
-| 證據等級 | L1 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 16 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 阻塞性肺病 (obstructive lung disease) |
+| TxGNN 預測分數 | 0.9971 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 16 張／共 16 張） |
+| 許可證數 | 16 張（有效 16 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---
@@ -152,9 +152,9 @@ TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有
 
 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
 |-----------|-----------|---------|------|
-| 食物依賴型運動誘發過敏性休克 | 99.57% | L4 | Research Question：無專屬試驗，僅有系統性回顧與病例文獻，主要由一般過敏性休克指引推論 |
-| 呼吸道畸形 (Respiratory Malformation) | 99.56% | L3 | Research Question：僅 1 個 Phase 1 新生兒暫時性呼吸急促試驗，結構性畸形預期不會對 Epinephrine 有反應 |
-| Rienhoff 症候群 | 99.57% | L5 | Hold：無試驗、無文獻，也找不到合理的機轉連結，僅為模型預測 |
+| 食物依賴型運動誘發過敏性休克 | 0.9957 | L5 | Research Question：無專屬試驗，僅有系統性回顧與病例文獻，主要由一般過敏性休克指引推論 |
+| 呼吸道畸形 (Respiratory Malformation) | 0.9956 | L3 | Research Question：僅 1 個 Phase 1 新生兒暫時性呼吸急促試驗，結構性畸形預期不會對 Epinephrine 有反應 |
+| Rienhoff 症候群 | 0.9957 | L5 | Hold：無試驗、無文獻，也找不到合理的機轉連結，僅為模型預測 |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

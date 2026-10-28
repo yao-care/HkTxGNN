@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Axitinib
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 89
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Axitinib：預測新適應症為Xp11.2 易位/TFE3 基因融合型腎細胞癌（證據等級 L2）。原適應症：腎細胞癌（透明細胞腎癌等）"
+evidence_level: L5
+indication_count: 4
 monitor_inn: "Axitinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
+last_modified_at: 2026-10-27
+description: "Axitinib：預測新適應症為脂肪肉瘤 (liposarcoma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Axitinib
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,59 +33,57 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipom
 
 </div>
 
-## Axitinib：從腎細胞癌到 Xp11.2 易位/TFE3 基因融合型腎細胞癌
+## Axitinib：血管新生抑制劑（VEGFR 酪胺酸激酶抑制劑）→ 脂肪肉瘤 (liposarcoma)
 {: .text-alpha }
 
 ## 一句話總結
 
-Axitinib 是一種口服 VEGFR 抑制劑，原本用於治療腎細胞癌（含透明細胞腎癌）。
-TxGNN 模型預測它可能對**Xp11.2 易位/TFE3 基因融合型腎細胞癌**有效，
-目前有 **1 個直接相關的臨床試驗**（Phase 2，僅 15 人，尚無結果），另有多項腎細胞癌大型研究提供間接支持。
+Axitinib 是一種口服酪胺酸激酶抑制劑，在香港已有上市許可證。
+TxGNN 模型預測它可能對**脂肪肉瘤 (liposarcoma)** 有效，
+目前**沒有臨床試驗**，僅有 **1 篇前臨床文獻**支持這個方向。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 腎細胞癌（透明細胞腎癌等）；香港許可證資料未載明適應症文字，此處依知識圖譜 |
-| 預測新適應症 | Xp11.2 易位/TFE3 基因融合型腎細胞癌 |
-| TxGNN 預測分數 | 99.90% |
-| 證據等級 | L2 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
-| 建議決策 | Proceed with Guardrails |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 脂肪肉瘤 (liposarcoma) |
+| TxGNN 預測分數 | 0.9987 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（原始 MOA 欄位無資料）。根據已知資訊，Axitinib 是選擇性的 VEGFR1-3 抑制劑，透過阻斷 VEGF 驅動的血管新生來抑制腫瘤生長。文獻也將其描述為口服、強效且具選擇性的酪胺酸激酶抑制劑。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Axitinib 屬於抗血管新生的標靶藥物類別，一般認為其作用與抑制 VEGFR/PDGFR 訊號有關。
 
-Xp11.2/TFE3 易位型腎細胞癌是罕見的腎細胞癌亞型，在生物學上與 VEGF 驅動的血管新生有關。原適應症同為腎細胞癌，因此 VEGFR 抑制在機轉上有合理的延伸空間。
+一篇 2016 年的前臨床研究在黏液樣脂肪肉瘤（myxoid liposarcoma）細胞模型中發現，Axitinib 具有抗血管新生與抗腫瘤活性，與血管新生抑制的機轉方向一致。
 
-需要注意：目前唯一的直接證據是一個很小的 Phase 2 試驗（n=15），仍在進行中且尚無發表結果。因此這只能視為假說層級的支持，而非確認療效。
+不過，該研究的對象是細胞株與動物模型，並非臨床試驗，而且只涵蓋黏液樣亞型。目前沒有任何研究直接在脂肪肉瘤患者身上測試 Axitinib，因此證據等級依規則定為 L5。
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT03595124](https://clinicaltrials.gov/study/NCT03595124) | Phase 2 | 進行中（不再招募） | 15 | 隨機分配比較 Axitinib＋Nivolumab 與單用 Nivolumab，用於無法切除或已轉移的 TFE/易位型腎細胞癌；尚無結果 |
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
-目前無針對此亞型的相關文獻。
-
-（間接證據：Axitinib 在一般腎細胞癌的 Phase 3 RCT 已有確立的療效，包括 AXIS 試驗、KEYNOTE-426 及 JAVELIN Renal 101，但這些試驗主要納入透明細胞腎癌，不能直接推論至 TFE3 易位型。）
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [27822137](https://pubmed.ncbi.nlm.nih.gov/27822137/) | 2016 | 前臨床研究 | Sarcoma | 在黏液樣脂肪肉瘤細胞模型中，Axitinib 展現抗血管新生與抗腫瘤活性 |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-62088 | INLYTA TAB 1MG（Pfizer） | 錠劑 | 請參考原廠仿單 |
-| HK-62089 | INLYTA TAB 5MG（Pfizer） | 錠劑 | 請參考原廠仿單 |
+| HK-62088 | INLYTA TAB 1MG | 未記載 | 未記載 |
+| HK-62089 | INLYTA TAB 5MG | 未記載 | 未記載 |
 
 ## 細胞毒性
 
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 標靶藥物（VEGFR 酪胺酸激酶抑制劑） |
+| 細胞毒性分類 | 標靶藥物（酪胺酸激酶抑制劑） |
 | 骨髓抑制風險 | 請參考原廠仿單的警語與注意事項 |
 | 致吐性分級 | 請參考原廠仿單的警語與注意事項 |
 | 監測項目 | 請參考原廠仿單的警語與注意事項 |
@@ -93,37 +91,26 @@ Xp11.2/TFE3 易位型腎細胞癌是罕見的腎細胞癌亞型，在生物學�
 
 ## 安全性考量
 
-- **藥物交互作用**：已檢索到 100 筆交互作用，以下為部分重點：
-  - 嚴重（Major）：Clarithromycin、Dexamethasone
-  - 中度（Moderate）：Aprepitant、Clotrimazole、Miconazole、Naltrexone
-  - 輕微（Minor）：Famotidine、Ranitidine、Rabeprazole、Esomeprazole、Lansoprazole、Cimetidine，以及含鋁、鈣、鎂的制酸劑
+- **藥物交互作用**：已查詢到 100 筆交互作用紀錄，以下列出較重要者：
+  - **嚴重 (Major)**：Clarithromycin、Dexamethasone
+  - **中度 (Moderate)**：Aprepitant、Clotrimazole、Miconazole、Naltrexone
+  - **輕微 (Minor)**：多種制酸劑與胃酸抑制劑，如 Famotidine、Ranitidine、Rabeprazole、Esomeprazole、Lansoprazole、Cimetidine、氫氧化鋁、碳酸鈣、氫氧化鎂等
 
-其他警語與禁忌症請參考原廠仿單。
+其他警語與禁忌症資料，請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-- Axitinib 已在香港上市，且在腎細胞癌有 Phase 3 證據；針對 TFE3 易位型亞型的證據僅有一個小型、進行中的 Phase 2 試驗，因此建議在有條件的防護下以研究問題的方式推進，而非直接採用。
+- 目前沒有任何臨床試驗，僅有一篇聚焦於黏液樣脂肪肉瘤的前臨床研究，尚無直接的臨床證據，證據等級為 L5。
+- 作用機轉與安全性資料（仿單警語、禁忌症）均不完整，現階段不宜推進。
 
 **若要推進需要：**
-- 等待並追蹤 NCT03595124 的結果發表
-- 取得香港仿單的警語、禁忌症與核准適應症文字
-- 補充詳細的作用機轉資料
-- 針對含 Clarithromycin、Dexamethasone 等強 CYP3A4 交互作用藥物的使用者，制定用藥監測計畫
-- 由腫瘤專科進行個別病人的風險效益評估
-
----
-
-**其他預測適應症的簡要補充**
-
-- **集尿管癌（Collecting duct carcinoma）**：L2，有 1 個進行中的 Phase 2 試驗（NCT06211114，n=30）與少數病例報告，建議列為研究問題。
-- **兒童腎細胞癌**：L4，僅有一篇回顧與一例個案報告。
-- **脂肪肉瘤**：L4，僅有前臨床證據。
-- **未分類腎細胞癌**：L4，僅有間接證據。
-- **腎細胞癌合併神經母細胞瘤、卵巢黏液樣脂肪肉瘤、血管脂肪瘤、家族性自發性氣胸**：L5，僅有模型預測，建議暫緩（Hold）。
-- **腎癌（renal carcinoma）**：屬於已核准的原適應症（L1），非真正的藥物再利用發現。
+- 取得 Axitinib 的作用機轉資料，並分析與脂肪肉瘤各亞型的機轉關聯
+- 取得香港仿單的警語與禁忌症
+- 進行更多前臨床驗證（涵蓋不同脂肪肉瘤亞型），並設計小型臨床試驗（如 Phase 2）
+- 評估與強效 CYP3A4 影響藥物（如 Clarithromycin）及 Dexamethasone 併用時的風險管理
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

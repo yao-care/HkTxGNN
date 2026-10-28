@@ -4,17 +4,17 @@ title: Enzalutamide
 parent: 僅模型預測 (L5)
 nav_order: 325
 evidence_level: L5
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Enzalutamide：預測新適應症為攝護腺癌／腦癌易感性 (prostate cancer/brain cancer susceptibility)（證據等級 L5）。原適應症：攝護腺癌 (prostate cancer)"
 monitor_inn: "ENZALUTAMIDE"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
+description: "Enzalutamide：預測新適應症為Prostate leiomyoma（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Enzalutamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prost
 
 </div>
 
-## Enzalutamide：從攝護腺癌到攝護腺癌／腦癌易感性
+## Enzalutamide: Prostate leiomyoma
 {: .text-alpha }
 
 ## 一句話總結
 
 Enzalutamide 是雄性素受體（AR）抑制劑，原本用於治療攝護腺癌。
-TxGNN 模型預測它可能對**攝護腺癌／腦癌易感性 (prostate cancer/brain cancer susceptibility)** 有效，但**目前沒有任何臨床試驗或文獻**直接支持這個預測，僅屬模型推論。
 
 ---
 
@@ -47,12 +46,12 @@ TxGNN 模型預測它可能對**攝護腺癌／腦癌易感性 (prostate cancer/
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 攝護腺癌 (prostate cancer) |
-| 預測新適應症 | 攝護腺癌／腦癌易感性 (prostate cancer/brain cancer susceptibility) |
-| TxGNN 預測分數 | 99.71% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Prostate leiomyoma |
+| TxGNN 預測分數 | 0.9957 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold |
 
 ---
@@ -61,7 +60,7 @@ TxGNN 模型預測它可能對**攝護腺癌／腦癌易感性 (prostate cancer/
 
 Enzalutamide 是 AR 抑制劑，作用包括阻斷雄性素與受體結合、抑制受體進入細胞核，以及阻止受體與 DNA 結合。目前缺乏詳細的作用機轉資料庫記載，以上為一般已知的藥理特性。
 
-這個預測的高分，很可能來自它與已核准的攝護腺癌適應症在知識圖譜上高度重疊。「攝護腺癌／腦癌易感性」是遺傳性癌症易感性的分類，描述的是體質傾向，不是可直接用藥治療的疾病狀態。因此，模型的高分更像是反映疾病分類上的接近，不代表有新的療效訊號。
+「攝護腺癌／腦癌易感性」是遺傳性癌症易感性的分類，描述的是體質傾向，不是可直接用藥治療的疾病狀態。因此，模型的高分更像是反映疾病分類上的接近，不代表有新的療效訊號。
 
 目前沒有試驗或文獻檢驗 enzalutamide 在這個分類上的作用，預測在臨床上暫時無法採取行動。
 
@@ -120,7 +119,6 @@ Enzalutamide 是 AR 抑制劑，作用包括阻斷雄性素與受體結合、抑
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高（99.71%），但沒有任何直接的臨床試驗或文獻支持，證據等級為 L5。
 - 該適應症是遺傳易感性分類，不是可治療的疾病狀態，高分很可能來自與原適應症（攝護腺癌）的重疊。
 
 **若要推進需要：**

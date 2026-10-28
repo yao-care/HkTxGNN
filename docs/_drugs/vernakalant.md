@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vernakalant
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 932
-evidence_level: L4
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Vernakalant：預測新適應症為中風 (Stroke Disorder)（證據等級 L4）。原適應症：心房顫動（atrial fibrillation）"
 monitor_inn: "Vernakalant"
-predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "obsolete susceptibility to ischemic stroke", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
+predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
 ---
 
 # Vernakalant
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **6** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**中風 (Stroke Disorder)** 有效，但目前**�
 |------|------|
 | 原適應症 | 心房顫動（atrial fibrillation） |
 | 預測新適應症 | 中風 (Stroke Disorder) |
-| TxGNN 預測分數 | 99.83% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| TxGNN 預測分數 | 0.9983 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**中風 (Stroke Disorder)** 有效，但目前**�
 
 心房顫動是心源性栓塞中風的重要成因，因此兩者之間存在**間接**的關聯：若能恢復並維持竇性心律，理論上有可能降低中風風險。
 
-不過，目前沒有證據顯示 Vernakalant 本身能降低中風發生率。心律轉換過程也可能帶來血栓栓塞風險，因此這個關聯不能視為已確立的益處。0.998 的高預測分數，較可能反映知識圖譜中「心房顫動—中風」的關聯，而非藥物的直接作用。
+不過，目前沒有證據顯示 Vernakalant 本身能降低中風發生率。心律轉換過程也可能帶來血栓栓塞風險，因此這個關聯不能視為已確立的益處。0.9983 的預測分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
 ---
 

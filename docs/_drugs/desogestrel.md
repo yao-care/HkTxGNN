@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Desogestrel
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 260
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Desogestrel：預測新適應症為閉經 (Amenorrhea)（證據等級 L3）。原適應症：香港許可證資料未載明適應症文字（依其上市形式為口服避孕藥）"
 monitor_inn: "DESOGESTREL"
-predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
+predicted_indications: ["amenorrhea (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast", "acne (disease)", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
 ---
 
 # Desogestrel
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "
 
 </div>
 
-## Desogestrel：從避孕到閉經（Amenorrhea）
+## Desogestrel:從避孕到閉經 (Amenorrhea)
 {: .text-alpha }
 
 ## 一句話總結
@@ -50,10 +50,10 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，
 |------|------|
 | 原適應症 | 香港許可證資料未載明適應症文字（依其上市形式為口服避孕藥） |
 | 預測新適應症 | 閉經 (Amenorrhea) |
-| TxGNN 預測分數 | 99.96% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| TxGNN 預測分數 | 0.9996 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold（列為研究問題，暫不推進） |
 
 ---
@@ -64,7 +64,7 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，
 
 在下視丘性寡經／閉經（例如運動員）的情況下，複方口服避孕藥可提供外源性雌激素與黃體素支持，使撤退性出血恢復規律，並可能有助於維持骨密度。不過這只是改善症狀（月經缺失），並不能恢復自身的排卵功能，因此其關聯性屬於「支持性」而非「疾病修飾性」。
 
-其他排名較高的預測（如乳房腺病、乳房膿瘍、原發性卵巢衰竭等）幾乎沒有臨床或文獻證據，高分較可能反映知識圖譜中的網絡鄰近性，並非治療依據。
+其他排名較高的預測（如乳房腺病、乳房膿瘍、原發性卵巢衰竭等）幾乎沒有臨床或文獻證據，其分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據，也非治療依據。
 
 ---
 

@@ -4,17 +4,17 @@ title: Ranitidine
 parent: 僅模型預測 (L5)
 nav_order: 757
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Ranitidine：預測新適應症為活動性消化性潰瘍 (Active Peptic Ulcer Disease)（證據等級 L5）。原適應症：胃潰瘍、胃食道逆流、食道炎、消化不良、十二指腸潰瘍、Zollinger-Ellison 症候群等"
+indication_count: 6
 monitor_inn: "RANITIDINE"
-predicted_indications: ["peptic ulcer perforation", "duodenal obstruction"]
+predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
+last_modified_at: 2026-10-23
+description: "Ranitidine：預測新適應症為消化性潰瘍穿孔 (peptic ulcer perforation)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Ranitidine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,86 +33,91 @@ predicted_indications: ["peptic ulcer perforation", "duodenal obstruction"]
 
 </div>
 
-## Ranitidine：從消化性潰瘍相關疾病到活動性消化性潰瘍
+## Ranitidine: 消化性潰瘍穿孔 (peptic ulcer perforation)
 {: .text-alpha }
 
 ## 一句話總結
 
-Ranitidine（雷尼替丁）是 H2 受體拮抗劑，原本用於胃潰瘍、十二指腸潰瘍、胃食道逆流等酸相關疾病。
-TxGNN 模型預測它可能對**活動性消化性潰瘍 (Active Peptic Ulcer Disease)** 有效，
-目前有 **0 個臨床試驗**和 **約 20 篇文獻**支持這個方向。
-但此預測實質上屬於原有適應症範圍，並非真正的新用途。
+Ranitidine 是 H2 受體拮抗劑，原本用於胃潰瘍、十二指腸潰瘍、胃食道逆流等胃酸相關疾病。
+TxGNN 模型預測它可能對**消化性潰瘍穿孔 (Peptic Ulcer Perforation)** 有效，
+目前**無臨床試驗**，有 **20 篇文獻**與此方向相關，但多為一般潰瘍治療文獻，並非直接研究本藥用於穿孔。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 胃潰瘍、胃食道逆流、食道炎、消化不良、十二指腸潰瘍、Zollinger-Ellison 症候群等（許可證上未載明適應症文字） |
-| 預測新適應症 | 活動性消化性潰瘍 (Active Peptic Ulcer Disease) |
-| TxGNN 預測分數 | 99.89% |
-| 證據等級 | L3（僅有綜述等文獻，無臨床試驗登記；資料編譯結果標示為 L1，但依本報告判定規則，缺乏已完成的 Phase 3 RCT 資料，故以 L3 計） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
-| 建議決策 | Proceed with Guardrails |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 消化性潰瘍穿孔 (peptic ulcer perforation) |
+| TxGNN 預測分數 | 0.9988 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
+| 建議決策 | Hold |
+
+**證據等級說明：** 所提供的文獻中，沒有任何一篇直接研究 ranitidine 用於消化性潰瘍穿孔。多數為 NSAID 相關潰瘍、幽門螺旋桿菌或一般潰瘍的回顧與病例報告，因此依規則判定為 L5。
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Ranitidine 是 H2 受體拮抗劑，透過阻斷胃壁細胞上的組織胺 H2 受體來抑制胃酸分泌，而抑制胃酸正是促進消化性潰瘍癒合的既定機轉。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Ranitidine 屬於 H2 受體拮抗劑，可降低胃酸分泌，促進潰瘍癒合並減少復發。
 
-活動性消化性潰瘍包含胃潰瘍與十二指腸潰瘍，與 Ranitidine 原本的適應症高度重疊，因此這項預測本質上是「適應症內」的延伸，並非嚴格意義上的藥物再利用。
+穿孔是消化性潰瘍的嚴重併發症。從機轉看，抑酸治療可能用於非手術處置或穿孔後的照護。但 ranitidine 無法修復穿孔造成的機械性破損，只能作為輔助。
 
-需要注意的是，Ranitidine 因 NDMA 雜質問題，在 2019–2020 年間於許多市場下架，供應與製劑品質需要另外確認。此外，其他 H2 受體拮抗劑（如 famotidine）或質子幫浦抑制劑可能是更合適的選擇。
+此外，Ranitidine 因 NDMA 污染問題已在許多市場下架，實際使用受到限制。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
+下表依規則優先列出 RCT 與回顧，多數文獻並未直接研究 ranitidine 用於穿孔。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [6317325](https://pubmed.ncbi.nlm.nih.gov/6317325/) | 1983 | Review | Drug Intell Clin Pharm | Ranitidine 抑制胃酸的效力為 cimetidine 的 4–10 倍，療效相當且耐受性佳 |
-| [2905237](https://pubmed.ncbi.nlm.nih.gov/2905237/) | 1988 | Review | Drugs | 探討前列腺素與 H2 受體拮抗劑在消化性潰瘍中的角色 |
-| [9506245](https://pubmed.ncbi.nlm.nih.gov/9506245/) | 1998 | Review | Drugs | Rabeprazole 的藥理與臨床試驗比較（含與 famotidine 等比較） |
-| [8736619](https://pubmed.ncbi.nlm.nih.gov/8736619/) | 1996 | Review | Drugs | Ebrotidine 的抗分泌作用與 ranitidine 相近 |
-| [2905640](https://pubmed.ncbi.nlm.nih.gov/2905640/) | 1988 | Review | Drugs | Nizatidine 用於消化性潰瘍的初步回顧 |
-| [1717223](https://pubmed.ncbi.nlm.nih.gov/1717223/) | 1991 | Review | Drugs | Roxatidine 的藥效學與治療潛力回顧 |
-| [3527658](https://pubmed.ncbi.nlm.nih.gov/3527658/) | 1986 | Review | Drugs | Omeprazole 用於消化性潰瘍與 Zollinger-Ellison 症候群 |
-| [12635419](https://pubmed.ncbi.nlm.nih.gov/12635419/) | 2003 | Review | Gastroenterol Clin North Am | 懷孕期間胃與十二指腸潰瘍的處置 |
-| [11249534](https://pubmed.ncbi.nlm.nih.gov/11249534/) | 2000 | Review | Expert Opin Pharmacother | Clarithromycin 用於幽門螺旋桿菌感染 |
-| [3909374](https://pubmed.ncbi.nlm.nih.gov/3909374/) | 1985 | 臨床研究 | Scand J Gastroenterol | Ranitidine 300 mg/日，4 週癒合率：十二指腸潰瘍 91%、幽門前潰瘍 68%、胃體潰瘍 81%；並評估維持治療預防復發 |
+| [2927479](https://pubmed.ncbi.nlm.nih.gov/2927479/) | 1989 | RCT | N Engl J Med | 比較穿孔性消化性潰瘍的非手術治療與緊急手術（83 位患者），為穿孔處置的相關試驗，但摘要未顯示以 ranitidine 為研究對象 |
+| [7861219](https://pubmed.ncbi.nlm.nih.gov/7861219/) | 1995 | 隨機雙盲試驗 | J Neurosurg | 101 位高風險神經外科患者，術前使用 ranitidine 或安慰劑，評估術後胃十二指腸出血或穿孔等併發症的預防 |
+| [8103373](https://pubmed.ncbi.nlm.nih.gov/8103373/) | 1993 | Review | Aliment Pharmacol Ther | H2 受體拮抗劑長期持續治療可預防潰瘍復發，並降低出血、穿孔等併發症風險 |
+| [8364140](https://pubmed.ncbi.nlm.nih.gov/8364140/) | 1993 | Review | Aliment Pharmacol Ther | 持續性治療可降低潰瘍復發率 |
+| [1679675](https://pubmed.ncbi.nlm.nih.gov/1679675/) | 1991 | Review | Aliment Pharmacol Ther | NSAID 引起的胃十二指腸損傷之治療建議 |
+| [9260785](https://pubmed.ncbi.nlm.nih.gov/9260785/) | 1997 | Review | Am J Gastroenterol | 幽門螺旋桿菌與 NSAID 為胃潰瘍主因，治療重心轉向根除感染 |
+| [10379475](https://pubmed.ncbi.nlm.nih.gov/10379475/) | 1999 | Review | Ital J Gastroenterol Hepatol | NSAID 相關潰瘍的處置，無法停用 NSAID 時首選質子幫浦抑制劑 |
+| [8346951](https://pubmed.ncbi.nlm.nih.gov/8346951/) | 1993 | 生理研究 | Arch Dis Child | 靜脈注射 ranitidine 對使用 dexamethasone 之早產兒胃內 pH 的影響，與預防胃穿孔相關 |
+| [8781800](https://pubmed.ncbi.nlm.nih.gov/8781800/) | 1996 | 病例報告 | Endoscopy | 胃潰瘍穿入心臟的罕見病例 |
+| [8165479](https://pubmed.ncbi.nlm.nih.gov/8165479/) | 1994 | 病例報告 | Surg Endosc | 巨大吻合口潰瘍及其併發症 |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-41546 | EUROTAC TAB 150MG | — | 未載明 |
-| HK-60962 | STOMACHAL TAB 150MG | — | 未載明 |
-| HK-55824 | RANTIN TAB 150MG | — | 未載明 |
+| HK-41546 | EUROTAC TAB 150MG | 未提供 | 未提供 |
+| HK-60962 | STOMACHAL TAB 150MG | 未提供 | 未提供 |
+| HK-55824 | RANTIN TAB 150MG | 未提供 | 未提供 |
+
+以上 3 張皆為單一成分製劑，狀態有效。
 
 ## 安全性考量
 
-- **知識圖譜標示之疾病風險（非仿單內容）**：卟啉症（紫質症）、腎臟疾病、肝臟疾病、膽囊疾病、胃癌（含胃腺癌、瀰漫性胃癌等）
-- **藥物交互作用**：共查得 100 筆，以下為部分範例
+- **知識圖譜記錄的禁忌關係（非仿單內容）**：遺傳性紫質症、紫質代謝疾病、腎臟疾病、肝臟疾病、膽囊疾病，以及胃癌相關疾病（胃腫瘤、瀰漫性胃腺癌、皮革胃、胃癌）。
+- **藥物交互作用**：共查得 100 筆，以下為部分列示：
   - 重大 (Major)：Atazanavir
-  - 中度 (Moderate)：Acalabrutinib、Acetohexamide、Aminophylline、Bosutinib、Brigatinib、Cefuroxime、Ceritinib、Chlorpropamide 等
-  - 輕微 (Minor)：Acetaminophen、Alendronic acid、Aluminum hydroxide、Calcium carbonate、Cisapride 等
+  - 中度：Acalabrutinib、Acetohexamide、Aminophylline、Bacampicillin、Bosutinib、Brigatinib、Cefditoren、Cefpodoxime、Cefuroxime、Ceritinib、Chlorpropamide
+  - 輕微：Acetaminophen、Alendronic acid、Aluminum hydroxide、Calcium carbonate、Cisapride 等
 
-其餘警語與禁忌症請參考原廠仿單。
+其餘警語與禁忌請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-- 此適應症屬於 Ranitidine 原有的消化性潰瘍治療範圍，機轉明確、文獻豐富，但缺乏臨床試驗登記，且 NDMA 污染事件使供應與品質有疑慮。
+- 無臨床試驗，也沒有文獻直接研究 ranitidine 用於消化性潰瘍穿孔，證據僅屬模型預測（L5）。
+- Ranitidine 只能抑酸，無法處理穿孔本身，且已因 NDMA 污染在多地退市。
 
 **若要推進需要：**
-- 確認香港市場產品的 NDMA 檢測結果與供應狀況
-- 與 famotidine 或 PPI 等替代療法比較，評估是否仍有使用價值
-- 取得香港衛生署仿單，補齊警語、禁忌症與核准適應症資料
-- 補充詳細的作用機轉（MOA）資料
-- 針對肝腎功能不全、卟啉症患者及重大藥物交互作用（如 atazanavir）制定用藥監測計畫
+- 取得香港許可證的核准適應症與仿單警語、禁忌資料。
+- 補充作用機轉資料。
+- 針對穿孔後抑酸治療，進行系統性文獻回顧，並與質子幫浦抑制劑等替代藥物比較。
+- 確認 NDMA 相關品質與供應狀況。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

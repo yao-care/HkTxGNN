@@ -4,17 +4,17 @@ title: Evolocumab
 parent: 僅模型預測 (L5)
 nav_order: 359
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Evolocumab：預測新適應症為女性帶因者的症狀型血友病 (symptomatic form of hemophilia in female carriers)（證據等級 L5）。原適應症：同型合子家族性高膽固醇血症、症候群性血脂異常"
 monitor_inn: "Evolocumab"
-predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity", "hemorrhagic disease of newborn", "ichthyosis, X-linked, without steroid sulfatase deficiency", "inherited thrombophilia", "disorder of other vitamins and cofactors metabolism and transport"]
+predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
+description: "Evolocumab：預測新適應症為女性帶因者的症狀型血友病 (symptomatic form of hemophilia in female carriers)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Evolocumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["symptomatic form of hemophilia in female carriers", "fa
 
 </div>
 
-## Evolocumab：從家族性高膽固醇血症到血友病女性帶因者症狀型（模型預測）
+## Evolocumab: 女性帶因者的症狀型血友病 (symptomatic form of hemophilia in female carriers)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**女性帶因者的症狀型血友病 (symptomati
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 同型合子家族性高膽固醇血症、症候群性血脂異常（來自知識圖譜；香港許可證未載明適應症文字） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | 女性帶因者的症狀型血友病 (symptomatic form of hemophilia in female carriers) |
-| TxGNN 預測分數 | 99.82% |
+| TxGNN 預測分數 | 0.9982 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**女性帶因者的症狀型血友病 (symptomati
 
 然而，女性帶因者的症狀型血友病，成因是 X 染色體連鎖變異造成凝血因子 VIII 或 IX 不足，與 LDL 受體或 PCSK9 路徑無關。Evolocumab 不會補充或提升凝血因子，因此**找不到合理的機轉關聯**。
 
-TxGNN 的高分（99.82%）僅代表知識圖譜中的計算性預測，沒有臨床或文獻佐證，不應直接視為療效訊號。
+TxGNN 模型（深度學習）給出的高分（0.9982）可能反映模型從相關疾病之間學到的相似性，並非生物學證據，也沒有臨床或文獻佐證，不應直接視為療效訊號。
 
 其他排名前 10 的預測（如家族性 ApoC-II 缺乏症、血栓性血小板減少紫斑症、第 XI 因子缺乏症等）同樣沒有試驗或文獻支持。其中僅 ApoC-II 缺乏症與脂質代謝有間接關聯，但 Evolocumab 主要降低 LDL-C，對三酸甘油酯影響有限，也無法矯正脂蛋白脂解酶的活化缺陷，療效仍屬推測。
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Roxithromycin
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 791
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Roxithromycin：預測新適應症為痲瘋病 (Leprosy)（證據等級 L3）。原適應症：呼吸道、泌尿道及軟組織感染"
 monitor_inn: "Roxithromycin"
-predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension", "migraine disorder", "female breast carcinoma"]
+predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension"]
 ---
 
 # Roxithromycin
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ TxGNN 模型預測它可能對**痲瘋病 (Leprosy)** 有效，
 |------|------|
 | 原適應症 | 呼吸道、泌尿道及軟組織感染（依藥理資料庫描述；香港許可證未載明適應症文字） |
 | 預測新適應症 | 痲瘋病 (Leprosy) |
-| TxGNN 預測分數 | 99.70% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 5 張 |
+| TxGNN 預測分數 | 0.9970 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 5 張／共 5 張） |
+| 許可證數 | 5 張（有效 5 張） |
 | 建議決策 | Hold（列為研究問題，暫不推進） |
 
 ---

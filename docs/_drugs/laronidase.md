@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Laronidase
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 511
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Laronidase：預測新適應症為伴有骨骼病變的溶小體儲積症 (lysosomal storage disease with skeletal involvement)（證據等級 L4）。原適應症：黏多醣症、Hurler 症候群、Hurler-Scheie 症候群、Scheie 症候群"
@@ -14,7 +14,7 @@ predicted_indications: ["lysosomal storage disease with skeletal involvement", "
 # Laronidase
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["lysosomal storage disease with skeletal involvement", "
 
 </div>
 
-## Laronidase：從黏多醣症 I 型到溶小體儲積症（伴骨骼病變）
+## Laronidase：從黏多醣症 I 型到伴有骨骼病變的溶小體儲積症
 {: .text-alpha }
 
 ## 一句話總結
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**伴有骨骼病變的溶小體儲積症 (lysosom
 |------|------|
 | 原適應症 | 黏多醣症、Hurler 症候群、Hurler-Scheie 症候群、Scheie 症候群 |
 | 預測新適應症 | 伴有骨骼病變的溶小體儲積症 (lysosomal storage disease with skeletal involvement) |
-| TxGNN 預測分數 | 99.31% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| TxGNN 預測分數 | 0.9931 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -118,12 +118,12 @@ MPS I 本身就是一種溶小體儲積症，且骨骼病變（多發性骨發�
 
 ## 附帶說明：排名第二的預測（Sanfilippo 症候群）
 
-TxGNN 對 **Sanfilippo 症候群 (MPS III)** 的預測分數為 99.22%，證據等級 L4，建議同為 Hold，且**不建議推進**：
+TxGNN 對 **Sanfilippo 症候群 (MPS III)** 的預測分數為 0.9922，證據等級 L4，建議同為 Hold，且**不建議推進**：
 
 - MPS III 缺乏的是其他分解肝素硫酸的酵素（如 heparan N-sulfatase、N-acetyl-α-glucosaminidase），並非 α-L-艾杜糖醛酸酶，laronidase 無法補足缺失的酵素。
 - MPS III 以中樞神經病變為主，而靜脈注射的 laronidase 難以穿越血腦屏障。
 - 檢索到的文獻幾乎都在談 MPS I（包括一項 Phase 3 安慰劑對照試驗 [PMID 15126990](https://pubmed.ncbi.nlm.nih.gov/15126990/)，以及 2025 年的生物相似藥研究 [PMID 40830667](https://pubmed.ncbi.nlm.nih.gov/40830667/)），並不支持對 Sanfilippo 症候群的療效。
-- 高分較可能來自 MPS 家族在知識圖譜中的網路鄰近性，而非臨床療效證據。
+- 高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

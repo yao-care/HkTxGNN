@@ -6,9 +6,9 @@ nav_order: 388
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Fluorescein：預測新適應症為Prinzmetal 心絞痛 (Prinzmetal angina)（證據等級 L5）。原適應症：目前香港許可證資料未載明核准適應症（實際用途為眼科診斷染色與血管攝影）"
 monitor_inn: "Fluorescein"
 predicted_indications: ["Prinzmetal angina", "antithrombin deficiency type 2", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "hemoglobinopathy", "heparin cofactor 2 deficiency", "thrombophilia", "hyperthyroidism", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations"]
+description: "Fluorescein：預測新適應症為Prinzmetal 心絞痛 (Prinzmetal angina)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Fluorescein
@@ -33,31 +33,31 @@ predicted_indications: ["Prinzmetal angina", "antithrombin deficiency type 2", "
 
 </div>
 
-## Fluorescein：從診斷用螢光染劑到 Prinzmetal 心絞痛（變異型心絞痛）
+## Fluorescein: Prinzmetal 心絞痛 (Prinzmetal angina)
 {: .text-alpha }
 
 ## 一句話總結
 
 Fluorescein 是一種診斷用螢光染劑，主要用於眼科血管攝影與角膜染色，並非治療藥物。
-TxGNN 模型預測它可能對 **Prinzmetal 心絞痛 (Prinzmetal angina)** 有效，但目前**沒有任何臨床試驗，也沒有直接支持此預測的文獻**，僅為模型的圖譜推論。
+TxGNN 模型（深度學習）預測它可能對 **變異型心絞痛 (Prinzmetal angina)** 有效，但目前**沒有任何臨床試驗，也沒有直接支持此預測的文獻**，此分數僅反映模型從相關疾病間學到的相似性，並非生物學證據。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 目前香港許可證資料未載明核准適應症（實際用途為眼科診斷染色與血管攝影） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | Prinzmetal 心絞痛 (Prinzmetal angina) |
-| TxGNN 預測分數 | 99.81% |
+| TxGNN 預測分數 | 0.9981 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
 目前缺乏詳細的作用機轉資料。Fluorescein 是診斷用螢光染劑（用於血管攝影），目前沒有已知的血管擴張或抑制冠狀動脈痙攣的藥理活性。
 
-因此，原用途（診斷顯影）與 Prinzmetal 心絞痛（冠狀動脈痙攣）之間找不到合理的機轉關聯。99.81% 的高分來自知識圖譜的關聯推論，沒有臨床或文獻佐證，應視為低可信度的假說。
+因此，原用途（診斷顯影）與變異型心絞痛（冠狀動脈痙攣）之間找不到合理的機轉關聯。
 
 其他預測中，類風濕性關節炎、血紅素病變、血栓傾向、甲狀腺機能亢進等所附文獻，多半是 fluorescein 作為眼部診斷工具（角膜染色、螢光血管攝影）的描述，並非治療效果，不構成再利用證據。
 

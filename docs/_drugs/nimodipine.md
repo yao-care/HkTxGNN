@@ -6,9 +6,9 @@ nav_order: 620
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Nimodipine：預測新適應症為同合子家族性高膽固醇血症 (Homozygous Familial Hypercholesterolemia)（證據等級 L5）。原適應症：蛛網膜下腔出血、動脈瘤性蛛網膜下腔出血"
 monitor_inn: "NIMODIPINE"
 predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
+description: "Nimodipine：預測新適應症為同合子家族性高膽固醇血症 (homozygous familial hypercholesterolemia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Nimodipine
@@ -33,7 +33,7 @@ predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic
 
 </div>
 
-## Nimodipine：從蛛網膜下腔出血到同合子家族性高膽固醇血症
+## Nimodipine: 同合子家族性高膽固醇血症 (homozygous familial hypercholesterolemia)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對**同合子家族性高膽固醇血症 (Homozygous
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 蛛網膜下腔出血、動脈瘤性蛛網膜下腔出血（來自知識圖譜；香港許可證未提供適應症文字） |
-| 預測新適應症 | 同合子家族性高膽固醇血症 (Homozygous Familial Hypercholesterolemia) |
-| TxGNN 預測分數 | 99.29% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 同合子家族性高膽固醇血症 (homozygous familial hypercholesterolemia) |
+| TxGNN 預測分數 | 0.9929 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**同合子家族性高膽固醇血症 (Homozygous
 
 換言之，0.993 的高分只是計算預測，沒有任何證據支持降脂療效。
 
-另一個模型預測的適應症為**腎因性抗利尿激素不適當分泌症候群 (Nephrogenic Syndrome of Inappropriate Antidiuresis)**（分數 99.05%）。此症由 AVPR2 功能增強突變造成，Nimodipine 並不作用於 V2 受體或其 cAMP／水通道蛋白-2 訊號，任何關聯都屬推測，同樣沒有臨床試驗或文獻支持，證據等級為 L5。
+另一個模型預測的適應症為**腎因性抗利尿激素不適當分泌症候群 (Nephrogenic Syndrome of Inappropriate Antidiuresis)**（分數 0.9905）。此症由 AVPR2 功能增強突變造成，Nimodipine 並不作用於 V2 受體或其 cAMP／水通道蛋白-2 訊號，任何關聯都屬推測，同樣沒有臨床試驗或文獻支持，證據等級為 L5。
 
 ## 臨床試驗證據
 

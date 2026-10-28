@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Daptomycin
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 245
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Daptomycin：預測新適應症為退化性關節炎 (Osteoarthritis)（證據等級 L4）。原適應症：香港許可證資料中未載明核准適應症"
 monitor_inn: "DAPTOMYCIN"
-predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "osteoarthritis susceptibility", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
+predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
 ---
 
 # Daptomycin
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**退化性關節炎 (Osteoarthritis)** 有效，�
 |------|------|
 | 原適應症 | 香港許可證資料中未載明核准適應症 |
 | 預測新適應症 | 退化性關節炎 (Osteoarthritis) |
-| TxGNN 預測分數 | 99.86% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| TxGNN 預測分數 | 0.9986 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**退化性關節炎 (Osteoarthritis)** 有效，�
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Daptomycin 是環狀脂肽類抗生素，對多數革蘭氏陽性病原菌有抗菌作用，已知可用於皮膚感染、菌血症與右側心內膜炎。
 
-這個預測的合理性其實很有限。檢索到的文獻討論的是 Daptomycin 治療**骨關節感染與人工關節感染**（如葡萄球菌所致），而不是退化性關節炎。高分最可能來自知識圖譜中與「關節」相關詞彙的鄰近性，而非藥物對疾病本身的作用。沒有任何已知機轉能把 Daptomycin 的抗菌作用與軟骨退化連結起來。
+這個預測的合理性其實很有限。檢索到的文獻討論的是 Daptomycin 治療**骨關節感染與人工關節感染**（如葡萄球菌所致），而不是退化性關節炎。這個分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。沒有任何已知機轉能把 Daptomycin 的抗菌作用與軟骨退化連結起來。
 
 其他排名較前的預測中，**類風濕性關節炎**有一篇 2025 年動物實驗（PMID 39571268），指出 Daptomycin 可透過抑制發炎細胞激素與 NF-κB 路徑減輕膠原誘發的關節炎。這屬於前臨床證據，且尚無人體試驗。慢性使用還面臨靜脈給藥與肌肉毒性（CPK 升高）等實務障礙。
 
@@ -120,7 +120,7 @@ TxGNN 模型預測它可能對**退化性關節炎 (Osteoarthritis)** 有效，�
 **決策：Hold**
 
 **理由：**
-- 退化性關節炎預測缺乏臨床試驗，且文獻討論的是骨關節感染，並非退化性關節炎的療效，高分很可能是知識圖譜的關聯假象。
+- 退化性關節炎預測缺乏臨床試驗，且文獻討論的是骨關節感染，並非退化性關節炎的療效，高分來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 - 此外存在肌肉毒性與需靜脈給藥等實務障礙，目前不建議推進。
 
 **若要推進需要：**

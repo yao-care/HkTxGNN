@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lurbinectedin：預測新適應症為多發性內分泌腫瘤 (multiple endocrine neoplasia)（證據等級 L5）。原適應症：許可證資料未載明"
 monitor_inn: "Lurbinectedin"
-predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "cytomegalovirus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "infectious bovine rhinotracheitis", "malignant catarrh", "Mills syndrome"]
+predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "cytomegalovirus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "malignant catarrh", "infectious bovine rhinotracheitis", "Mills syndrome"]
 ---
 
 # Lurbinectedin
@@ -48,10 +48,10 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (multiple endocrine neo
 |------|------|
 | 原適應症 | 許可證資料未載明 |
 | 預測新適應症 | 多發性內分泌腫瘤 (multiple endocrine neoplasia) |
-| TxGNN 預測分數 | 99.44% |
+| TxGNN 預測分數 | 0.9944 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

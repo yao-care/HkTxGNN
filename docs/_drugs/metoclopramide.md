@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Metoclopramide
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 577
-evidence_level: L3
-indication_count: 5
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Metoclopramide：預測新適應症為胃潰瘍 (Gastric Ulcer)（證據等級 L3）。原適應症：胃食道逆流疾病、食道炎、消化性食道炎"
 monitor_inn: "METOCLOPRAMIDE"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
+description: "Metoclopramide：預測新適應症為Gastroduodenitis（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Metoclopramide
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 
 </div>
 
-## Metoclopramide：從胃食道逆流疾病到胃潰瘍
+## Metoclopramide: Gastroduodenitis
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**胃潰瘍 (Gastric Ulcer)** 有效，目前有 *
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 胃食道逆流疾病、食道炎、消化性食道炎（依知識圖譜資料；香港許可證未載明適應症文字） |
-| 預測新適應症 | 胃潰瘍 (Gastric Ulcer) |
-| TxGNN 預測分數 | 99.93% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 19 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Gastroduodenitis |
+| TxGNN 預測分數 | 0.9990 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 19 張／共 19 張） |
+| 許可證數 | 19 張（有效 19 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**胃潰瘍 (Gastric Ulcer)** 有效，目前有 *
 
 這與原適應症（胃食道逆流）有明確關聯，因為促進胃排空和提升食道下括約肌張力有助於減少逆流。對胃潰瘍而言，它可能改善潰瘍伴隨的消化不良、胃排空延遲及鹼性（膽汁）逆流等症狀。
 
-但必須說明，Metoclopramide 沒有已知的抑制胃酸、清除幽門螺旋桿菌或保護黏膜的作用。因此即使有益，也僅是症狀性或程序性的幫助，不會直接促進潰瘍癒合。高預測分數主要反映知識圖譜中疾病之間的相近性，不等同於療效證據。
+但必須說明，Metoclopramide 沒有已知的抑制胃酸、清除幽門螺旋桿菌或保護黏膜的作用。因此即使有益，也僅是症狀性或程序性的幫助，不會直接促進潰瘍癒合。
 
 ---
 
@@ -119,7 +119,7 @@ TxGNN 模型預測它可能對**胃潰瘍 (Gastric Ulcer)** 有效，目前有 *
 - **重大 (Major)**：Tramadol、Amisulpride
 - **中度 (Moderate)**：Fentanyl、Codeine、Dihydrocodeine、Alprazolam、Amitriptyline、Amantadine、乙醇、Cetirizine 等（多為中樞抑制或錐體外症狀風險疊加）
 
-特別提醒：知識圖譜將「活動性消化性潰瘍」列為禁忌關聯，與此次預測的新適應症方向存在矛盾，需在後續評估中釐清。原廠仿單的警語與禁忌尚未取得，請另行參考仿單。
+原廠仿單的警語與禁忌尚未取得，請另行參考仿單。
 
 ---
 

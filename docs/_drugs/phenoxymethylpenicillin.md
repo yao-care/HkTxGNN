@@ -6,9 +6,9 @@ nav_order: 690
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Phenoxymethylpenicillin：預測新適應症為會厭炎 (Epiglottitis)（證據等級 L5）。原適應症：香港許可證未登載適應症文字"
 monitor_inn: "PHENOXYMETHYLPENICILLIN"
 predicted_indications: ["epiglottitis", "laryngitis"]
+description: "Phenoxymethylpenicillin：預測新適應症為會厭炎 (epiglottitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Phenoxymethylpenicillin
@@ -33,7 +33,7 @@ predicted_indications: ["epiglottitis", "laryngitis"]
 
 </div>
 
-## Phenoxymethylpenicillin：從上呼吸道與咽部細菌感染到會厭炎
+## Phenoxymethylpenicillin: 會厭炎 (epiglottitis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**會厭炎 (Epiglottitis)** 有效，但目前**�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證未登載適應症文字；知識圖譜列出的原適應症包括咽炎、中耳炎、鏈球菌感染、呼吸道感染、猩紅熱、丹毒等 |
-| 預測新適應症 | 會厭炎 (Epiglottitis) |
-| TxGNN 預測分數 | 99.90% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 會厭炎 (epiglottitis) |
+| TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -124,7 +124,7 @@ TxGNN 模型預測它可能對**會厭炎 (Epiglottitis)** 有效，但目前**�
 
 ## 補充：次要預測（喉炎）
 
-TxGNN 對**喉炎 (Laryngitis)** 的預測分數為 99.85%，證據等級同為 L5，建議 Hold。成人急性喉炎多為病毒性，抗生素效益並未確立。唯一提供的文獻（PMID [1632252](https://pubmed.ncbi.nlm.nih.gov/1632252/)，1992 年，Acta Oto-Laryngologica Supplementum）研究的是 erythromycin，而非青黴素 V，其摘要並指出 phenoxymethylpenicillin 對臨床病程無影響。因此該文獻不支持本藥用於喉炎，且基於抗生素合理使用原則，沒有試驗證據前不建議推進。
+TxGNN 對**喉炎 (Laryngitis)** 的預測分數為 0.9985，證據等級同為 L5，建議 Hold。成人急性喉炎多為病毒性，抗生素效益並未確立。唯一提供的文獻（PMID [1632252](https://pubmed.ncbi.nlm.nih.gov/1632252/)，1992 年，Acta Oto-Laryngologica Supplementum）研究的是 erythromycin，而非青黴素 V，其摘要並指出 phenoxymethylpenicillin 對臨床病程無影響。因此該文獻不支持本藥用於喉炎，且基於抗生素合理使用原則，沒有試驗證據前不建議推進。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

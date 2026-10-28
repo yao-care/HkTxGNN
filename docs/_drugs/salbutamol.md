@@ -4,17 +4,17 @@ title: Salbutamol
 parent: 僅模型預測 (L5)
 nav_order: 797
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Salbutamol：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L5）。原適應症：氣喘、支氣管疾病"
+indication_count: 9
 monitor_inn: "SALBUTAMOL"
-predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "bronchitis", "acute laryngopharyngitis"]
+predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "bronchitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
+last_modified_at: 2026-10-23
+description: "Salbutamol：預測新適應症為乳突狀結膜炎 (Papillary Conjunctivitis)（證據等級 L5）。原適應症：氣喘、支氣管疾病"
 ---
 
 # Salbutamol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,114 +33,93 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pha
 
 </div>
 
-## Salbutamol：從氣喘與支氣管疾病到支氣管炎
+## Salbutamol：從氣喘到乳突狀結膜炎
 {: .text-alpha }
 
 ## 一句話總結
 
-Salbutamol（沙丁胺醇）是 β2 腎上腺素受器促效劑，原本用於氣喘與支氣管疾病。
-TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，目前有 **8 個臨床試驗**和 **20 篇文獻**與此方向相關，但多數為間接證據，且嬰兒細支氣管炎的支氣管擴張劑療效並不一致。
-
----
+Salbutamol（沙丁胺醇）是 β2 腎上腺素受體促效劑，在知識圖譜中記錄的原適應症為氣喘與支氣管疾病。
+TxGNN 模型預測它可能對**乳突狀結膜炎 (Papillary Conjunctivitis)** 有效，但目前針對此疾病**沒有任何臨床試驗或文獻**，僅有模型預測支持。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 氣喘、支氣管疾病（資料庫標註；香港許可證未載明適應症文字） |
-| 預測新適應症 | 支氣管炎 (Bronchitis) |
-| TxGNN 預測分數 | 99.99% |
-| 證據等級 | L3（有系統性回顧，但無已完成的 Phase 3 RCT） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 20 張 |
-| 建議決策 | Hold（僅適合作為研究問題，需先釐清目標族群） |
-
-說明：TxGNN 預測排名前 5 的疾病為乳突狀結膜炎、鼻腔疾病、咽炎、支氣管炎與急性喉咽炎。只有支氣管炎具備較完整的臨床試驗與文獻，其餘皆為證據等級 L5（僅有模型預測），建議暫緩（Hold）。本報告以支氣管炎為主軸。
-
----
+| 原適應症 | 氣喘、支氣管疾病（知識圖譜記錄的關聯；本次資料中的許可證未載明核准適應症文字） |
+| 預測新適應症 | 乳突狀結膜炎 (Papillary Conjunctivitis) |
+| TxGNN 預測分數 | 1.0000 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 許可證數 | 至少 20 張 |
+| 核准數 | 至少 20 張（單一成分許可證，清單可能不完整） |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知的藥理分類，Salbutamol 是 β2 腎上腺素受器促效劑，可放鬆支氣管平滑肌，也有研究顯示可影響黏液纖毛清除（見 PMID 6729256，慢性支氣管炎病人吸入 Salbutamol 後的黏液纖毛清除研究）。
+目前缺乏詳細的作用機轉資料。Salbutamol 為 β2 腎上腺素受體促效劑，在氣道平滑肌鬆弛上的作用已廣為人知。就一般藥理推論，β2 促效劑可能降低肥大細胞釋放介質，因而有可能減輕過敏性眼部發炎，但這只是推測。
 
-氣喘與支氣管炎同屬阻塞性呼吸道疾病，若病人有可逆性氣道阻塞，支氣管擴張劑在機轉上有合理的作用空間。這屬於「相近適應症的延伸使用」。
+乳突狀結膜炎屬眼表過敏／刺激性疾病，與氣喘同屬過敏相關疾病，這是兩者之間可能的關聯。不過，局部眼用 salbutamol 並非已確立的用法，本次資料中也沒有任何試驗或文獻直接研究此疾病。
 
-不過，證據主要集中在嬰兒病毒性細支氣管炎，而 Cochrane 系統性回顧（PMID 24937099）與相關指引指出，支氣管擴張劑的效益有限或不一致，一般不建議常規使用。成人或慢性支氣管炎的現代證據在目前資料中並不充分。
-
----
+整體而言，此預測目前僅是模型輸出，尚無實證支持。
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT00114478](https://clinicaltrials.gov/study/NCT00114478) | NA | 未知 | 600 | 隨機試驗，比較腎上腺素與 Albuterol（Salbutamol）用於細支氣管炎；直接相關，但未提供結果 |
-| [NCT00696540](https://clinicaltrials.gov/study/NCT00696540) | Phase 2 | 未知 | 74 | 比較高張與一般生理食鹽水作為 Salbutamol 噴霧稀釋液，用於 RSV 流行期細支氣管炎幼童 |
-| [NCT00677729](https://clinicaltrials.gov/study/NCT00677729) | Phase 2 | 完成 | 81 | 吸入 3% 高張食鹽水用於嬰兒病毒性細支氣管炎，以減少住院；Salbutamol 為間接比較或併用 |
-| [NCT06665711](https://clinicaltrials.gov/study/NCT06665711) | NA | 尚未招募 | 100 | 3% 高張食鹽水與 Salbutamol 比較，用於兒童細支氣管炎；尚無結果 |
-| [NCT05932316](https://clinicaltrials.gov/study/NCT05932316) | NA | 未知 | 96 | 評估支氣管擴張症病人對支氣管擴張劑的反應；相關氣道疾病，非支氣管炎療效試驗 |
-| [NCT03199976](https://clinicaltrials.gov/study/NCT03199976) | Phase 4 | 終止 | 80 | Tiotropium 用於幼兒早期喘鳴，Salbutamol 為隨需用藥，非研究藥物 |
-| [NCT03436225](https://clinicaltrials.gov/study/NCT03436225) | Phase 1 | 未知 | 80 | 類固醇治療急性細支氣管炎，Salbutamol 非主要介入 |
-| [NCT06139029](https://clinicaltrials.gov/study/NCT06139029) | Early Phase 1 | 完成 | 60 | 3% 食鹽水與類固醇噴霧比較，Salbutamol 非重點 |
-
-另有 NCT02863835（肺移植慢性排斥的電阻抗斷層掃描診斷研究）與本適應症關聯很低，未列入上表。
-
----
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [24937099](https://pubmed.ncbi.nlm.nih.gov/24937099/) | 2014 | 系統性回顧 (Cochrane) | Cochrane Database Syst Rev | 探討支氣管擴張劑用於細支氣管炎，為嬰兒急性病毒性下呼吸道感染 |
-| [33893229](https://pubmed.ncbi.nlm.nih.gov/33893229/) | 2021 | 網絡統合分析 | Pediatrics | 比較急性照護中各種細支氣管炎介入的療效 |
-| [36765418](https://pubmed.ncbi.nlm.nih.gov/36765418/) | 2023 | 指引 | Ital J Pediatr | 2022 義大利嬰兒細支氣管炎處置指引，以支持性照護為主 |
-| [35383741](https://pubmed.ncbi.nlm.nih.gov/35383741/) | 2022 | RCT | Mymensingh Med J | 比較 3% 高張食鹽水與一般食鹽水加 Salbutamol 治療急性細支氣管炎 |
-| [6229262](https://pubmed.ncbi.nlm.nih.gov/6229262/) | 1984 | 對照試驗 | Br J Clin Pharmacol | 慢性支氣管炎 20 人，噴霧 Salbutamol 與 Ipratropium 單獨及合併使用，兩者支氣管擴張效果相近，合併使用效果與持續時間更佳 |
-| [1090337](https://pubmed.ncbi.nlm.nih.gov/1090337/) | 1975 | 雙盲對照試驗 | Br Med J | 支氣管炎與氣喘各 8 人，Salbutamol 與 Ipratropium 皆優於安慰劑，可改善氣道阻塞 |
-| [7002574](https://pubmed.ncbi.nlm.nih.gov/7002574/) | 1980 | 交叉試驗 | Eur J Respir Dis | 慢性支氣管炎伴可逆性氣道阻塞 21 人，比較吸入 Clenbuterol 與 Salbutamol |
-| [6729256](https://pubmed.ncbi.nlm.nih.gov/6729256/) | 1984 | 雙盲研究 | Respiration | 吸入 Salbutamol 對慢性支氣管炎病人黏液纖毛清除的急性影響 |
-| [37167145](https://pubmed.ncbi.nlm.nih.gov/37167145/) | 2023 | 比較試驗 | Ter Arkh | 含左旋沙丁胺醇複方與含 Salbutamol 複方，用於成人急性支氣管炎的有痰咳嗽 |
-| [151547](https://pubmed.ncbi.nlm.nih.gov/151547/) | 1978 | 交叉試驗 | Br J Dis Chest | 氣喘與慢性支氣管炎病人使用 Ipratropium、Salbutamol 與 Prednisolone |
-
----
+目前無相關文獻。
 
 ## 香港上市資訊
 
-香港共有 20 張有效的單方許可證。資料庫未提供劑型與核准適應症文字，以下列出 5 張主要許可證：
+以下為資料中列出的前 5 張單一成分許可證（總數至少 20 張，清單可能不完整）。許可證資料中未載明核准適應症與劑型。
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-02796 | VENTOLIN SOLN FOR I.V INFUSION 1MG/ML（GSK） | 靜脈輸注液 | 未提供 |
-| HK-42389 | VENTOLIN ACCUHALER 200MCG（GSK） | 吸入劑 | 未提供 |
-| HK-39786 | AIROMIR INHALER 100MCG/ACTUATION | 吸入劑 | 未提供 |
-| HK-54460 | ASTHALIN HFA INHALER 100MCG/DOSE | 吸入劑 | 未提供 |
-| HK-33864 | VANTIN TAB 4MG | 錠劑 | 未提供 |
+| HK-34904 | VANTIN SYRUP 2MG/5ML | 未載明 | 未載明 |
+| HK-02796 | VENTOLIN SOLN FOR I.V INFUSION 1MG/ML | 未載明 | 未載明 |
+| HK-30060 | ASMALIN TAB 4MG | 未載明 | 未載明 |
+| HK-53744 | AXCEL SALBUTAMOL-2 TAB 2MG | 未載明 | 未載明 |
+| HK-35778 | VENTAMOL-2 TAB 2MG | 未載明 | 未載明 |
 
----
+從品名可見，市面上有口服錠劑、糖漿、吸入劑與靜脈輸注液等多種劑型，但目前沒有眼用製劑的資料。
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌或需謹慎疾病**：高血壓、長 QT 症候群、癲癇、低血鉀、糖尿病與糖尿病酮酸中毒、良性前列腺增生、高眼壓與閉角型青光眼、代謝性酸中毒、心臟驟停、心臟傳導疾病、甲狀腺機能亢進（含 Graves 病）、膀胱頸阻塞、心肌缺血與冠狀動脈疾病。此為知識圖譜關聯，並非仿單原文。
-- **藥物交互作用**：共查得 100 筆，以下為部分範例。
-  - 中度：Acarbose、Famotidine、Epinephrine、Clarithromycin、Cisapride、Canagliflozin、Dapagliflozin、Alogliptin、Chlorpropamide 等。其中降血糖藥物與具 QT 風險的藥物值得留意。
-  - 輕度：Hydrocortisone、Dexamethasone、Budesonide、Betamethasone、Beclomethasone dipropionate。
+- **知識圖譜記錄的禁忌關聯**（非仿單內容）：高血壓、長 QT 症候群、癲癇、低鉀血症、糖尿病與糖尿病酮酸中毒、良性前列腺肥大、高眼壓、閉角型青光眼、代謝性酸中毒、心臟傳導疾病、甲狀腺機能亢進、膀胱頸阻塞、心肌缺血與冠狀動脈疾病等。
+- **藥物交互作用**：共查詢到 100 筆，以下為部分範例。
+  - 中度：Acarbose、Isometheptene、Famotidine、Epinephrine、Albiglutide、Alogliptin、Canagliflozin、Dapagliflozin、Clarithromycin、Cisapride。
+  - 輕度：Hydrocortisone、Beclomethasone、Betamethasone、Budesonide、Dexamethasone。
+- 若考慮眼部使用，知識圖譜顯示高眼壓與閉角型青光眼為相關禁忌，需特別留意。
+- 文獻中亦有 salbutamol 或其賦形劑（如苯二甲烴銨）引起過敏反應的案例報告。
 
-仿單的警語與禁忌資料尚未取得，詳細內容請參考原廠仿單。
-
----
+其餘警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 支氣管炎是這個藥物最有證據支持的預測方向，但現有試驗多以細支氣管炎為主，Salbutamol 多為對照或併用，且大多缺乏結果，也沒有已完成的 Phase 3 RCT。
-- 系統性回顧顯示嬰兒細支氣管炎使用支氣管擴張劑的效益有限，因此不建議直接推進為新適應症。其他四個預測疾病則僅有模型預測。
+- 此預測僅有模型分數支持，沒有任何針對乳突狀結膜炎的試驗或文獻，證據等級為 L5。
+- 局部眼用 salbutamol 並非已確立的用法，且知識圖譜顯示其與高眼壓、閉角型青光眼有禁忌關聯。
 
 **若要推進需要：**
-- 明確界定目標族群（如成人慢性支氣管炎伴可逆性氣道阻塞，或有喘鳴或異位性體質的兒童），並整理這些族群的直接證據。
-- 取得 NCT00114478、NCT00696540 等試驗的結果，並重新評估 Cochrane 回顧的結論。
-- 補齊原廠仿單的警語與禁忌資料，以及作用機轉資料。
-- 在評估風險時，納入心血管、血鉀與血糖相關的安全性考量。
+- 作用機轉資料，以及眼用給藥途徑的可行性評估
+- 前臨床研究（如過敏性結膜炎動物模型）
+- 眼部局部安全性評估，特別是眼壓影響
+- 香港許可證與仿單的核准適應症、警語與禁忌症資料
+
+---
+
+**補充：其他候選適應症**
+
+資料中同時列出其他預測，供後續評估參考，但皆不宜視為強力證據。
+
+- **支氣管炎**（L3）：有 β2 促效劑用於慢性支氣管炎的文獻，但相關試驗多為毛細支氣管炎，是不同疾病。Cochrane 與網絡統合分析顯示支氣管擴張劑在毛細支氣管炎的臨床效益有限，疾病對應不精確。
+- **過敏性休克**（L2）：有一項吸入 salbutamol 對照安慰劑的 Phase 3 RCT（[NCT05653024](https://clinicaltrials.gov/study/NCT05653024)），但針對的是食物過敏反應的腹痛，且僅收 24 人即提前終止，統計檢定力不足，不能視為強證據。Salbutamol 無法取代 epinephrine，最多作為輔助。
+- **異位性結膜炎**（L4）：僅有動物前臨床研究（[PMID 3666475](https://pubmed.ncbi.nlm.nih.gov/3666475/)、[PMID 2906082](https://pubmed.ncbi.nlm.nih.gov/2906082/)），無人體試驗。
+- **普通感冒**（L3）：有一篇比較蜂蜜、salbutamol 與安慰劑的隨機雙盲研究（[PMID 26859020](https://pubmed.ncbi.nlm.nih.gov/26859020/)），但設計與結果資料不足。
+- **咽炎、鼻腔疾病、急性喉咽炎、肛門直腸狹窄**（L5）：無直接證據或機轉依據。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

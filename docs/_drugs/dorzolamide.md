@@ -4,17 +4,17 @@ title: Dorzolamide
 parent: 僅模型預測 (L5)
 nav_order: 295
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Dorzolamide：預測新適應症為原發性遺傳性青光眼 (primary hereditary glaucoma)（證據等級 L5）。原適應症：開角型青光眼、高眼壓症"
 monitor_inn: "DORZOLAMIDE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
+description: "Dorzolamide：預測新適應症為Hypotrichosis simplex of the scalp（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Dorzolamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 
 </div>
 
-## Dorzolamide：從開角型青光眼到原發性遺傳性青光眼（及其他預測適應症）
+## Dorzolamide: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## 一句話總結
 
 Dorzolamide 是局部用碳酸酐酶抑制劑，原本用於開角型青光眼與高眼壓症。
-TxGNN 模型的首位預測為**原發性遺傳性青光眼 (primary hereditary glaucoma)**，但目前**沒有任何臨床試驗或文獻**直接支持。
 證據最充分的預測是「開角型青光眼」，有 **34 個臨床試驗**與多篇系統性回顧，不過這屬於原有適應症的再確認，並非真正的新用途。
 
 ---
@@ -48,12 +47,12 @@ TxGNN 模型的首位預測為**原發性遺傳性青光眼 (primary hereditary 
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 開角型青光眼、高眼壓症（許可證資料未載明適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 原發性遺傳性青光眼 (primary hereditary glaucoma) |
-| TxGNN 預測分數 | 99.99% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Hypotrichosis simplex of the scalp |
+| TxGNN 預測分數 | 0.9995 |
 | 證據等級 | L5（僅模型預測） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 10 張 |
+| 香港上市 | 上市中（有效許可證 10 張／共 10 張） |
+| 許可證數 | 10 張（有效 10 張） |
 | 建議決策 | Hold |
 
 > 補充：排名第 6、7 的「glaucoma 1, open angle」與「open angle glaucoma」證據等級為 L1，建議為 Proceed with Guardrails，但這屬於原適應症的再確認。
@@ -67,14 +66,12 @@ TxGNN 模型的首位預測為**原發性遺傳性青光眼 (primary hereditary 
 原發性遺傳性青光眼同樣以眼壓升高為核心病理，因此降眼壓機轉上有合理性。不過這個高分更可能反映與已核准青光眼適應症的重疊，並不代表有獨立證據。
 
 其他預測適應症（如禿髮類疾病、心衰竭、急性肺心症、呼吸衰竭）在機轉上缺乏可信連結：
-- **毛髮疾患**（hypotrichosis、alopecia、alopecia areata）：碳酸酐酶抑制與毛囊發育或自體免疫機轉無明確關聯，很可能是知識圖譜的假象。
 - **心肺疾病**：全身性碳酸酐酶抑制劑（如 acetazolamide）理論上有利尿或呼吸刺激作用，但局部用 dorzolamide 全身暴露量極低，療效不太可能。相關文獻僅涉及安全性與處方情境（如對 beta 阻斷劑禁忌的病人選用），並非療效證據。
 
 ---
 
 ## 臨床試驗證據
 
-首位預測（原發性遺傳性青光眼）目前無相關臨床試驗登記。
 
 以下為證據最充分的相關預測「開角型青光眼」的代表性試驗（原適應症，非新適應症）：
 
@@ -97,7 +94,7 @@ TxGNN 模型的首位預測為**原發性遺傳性青光眼 (primary hereditary 
 
 ## 文獻證據
 
-首位預測（原發性遺傳性青光眼）目前無相關文獻。以下為開角型青光眼相關文獻：
+以下為開角型青光眼相關文獻：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
@@ -139,10 +136,9 @@ TxGNN 模型的首位預測為**原發性遺傳性青光眼 (primary hereditary 
 
 ## 結論與下一步
 
-**決策：Hold**（針對首位預測「原發性遺傳性青光眼」）
 
 **理由：**
-- 首位預測僅有模型分數，無任何臨床試驗或文獻支持（L5）。其餘新適應症（禿髮類、心肺疾病）機轉上缺乏可信連結，很可能是知識圖譜假象。
+- 首位預測僅有模型分數，無任何臨床試驗或文獻支持（L5）。
 - 「開角型青光眼」雖有 L1 等級證據（建議 Proceed with Guardrails），但屬原有適應症，並非新用途。注意事項：多為 Phase 4 主動對照試驗，多項樣本偏小（n=32–60），許多比較的是複方，難以單獨評估 dorzolamide 的貢獻，另有一項試驗已撤回。
 
 **若要推進需要：**

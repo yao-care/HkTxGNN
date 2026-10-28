@@ -4,17 +4,17 @@ title: Cyproterone Acetate
 parent: 僅模型預測 (L5)
 nav_order: 238
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Cyproterone Acetate：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：香港許可證未提供核准適應症文字"
+indication_count: 9
+last_modified_at: 2026-10-28
 monitor_inn: "CYPROTERONE ACETATE"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "migraine with or without aura, susceptibility to", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
+description: "Cyproterone Acetate：預測新適應症為偏頭痛 (migraine disorder)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Cyproterone Acetate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Pr
 
 </div>
 
-## Cyproterone Acetate：從荷爾蒙相關適應症到偏頭痛（預測）
+## Cyproterone Acetate: 偏頭痛 (migraine disorder)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證未提供核准適應症文字；依藥理資料，臨床用於雄性素依賴性疾病（如前列腺癌）、女性痤瘡與多毛症、更年期潮熱及複方口服避孕藥 |
-| 預測新適應症 | 偏頭痛 (Migraine Disorder) |
-| TxGNN 預測分數 | 99.66% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 偏頭痛 (migraine disorder) |
+| TxGNN 預測分數 | 0.9966 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 6 張 |
+| 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
+| 許可證數 | 6 張（有效 6 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 
 一篇 2003 年的綜述指出，黃體素類藥物會與 GABA-A 受體、多巴胺及鴉片受體系統產生交互作用，Cyproterone Acetate 也被報告會增強多巴胺反應並結合鴉片受體。這顯示荷爾蒙調節確實可能影響腦部功能與偏頭痛病程。
 
-但需要特別強調：現有文獻顯示荷爾蒙補充對偏頭痛可能惡化也可能改善，取決於處方方案，**並沒有證據顯示 Cyproterone Acetate 能治療偏頭痛**。偏頭痛較可能是副作用或風險考量，而非治療標的。TxGNN 的高分可能反映知識圖譜中的關聯，而非療效。
+但需要特別強調：現有文獻顯示荷爾蒙補充對偏頭痛可能惡化也可能改善，取決於處方方案，**並沒有證據顯示 Cyproterone Acetate 能治療偏頭痛**。偏頭痛較可能是副作用或風險考量，而非治療標的。TxGNN 模型（深度學習）的高分可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
 ---
 
@@ -85,10 +85,9 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 
 | 預測適應症 | TxGNN 分數 | 證據概況 | 判讀 |
 |-----------|-----------|---------|------|
-| 閉經 (Amenorrhea) | 99.28% | 1 個 Phase 4 試驗（NCT01103518，狀態不明，100 人）及間接文獻，屬 L4 | 機轉上較合理，可列為研究問題 |
-| 乳房纖維囊腫 | 99.15% | 3 篇舊文獻，屬 L4 | 證據薄弱且間接 |
-| 血栓傾向 (Thrombophilia) | 99.03% | 多篇文獻一致顯示靜脈血栓風險增加 | 為安全警訊，而非治療潛力 |
-| 伴腦幹先兆偏頭痛、Prinzmetal 心絞痛、抗凝血酶缺乏、肝素輔因子 2 缺乏、第五因子過量 | 99.5% 左右 | 無直接證據，或僅有血管/血栓風險文獻 | 屬風險相關關聯，不支持治療用途 |
+| 閉經 (Amenorrhea) | 0.9928 | 1 個 Phase 4 試驗（NCT01103518，狀態不明，100 人）及間接文獻，屬 L5 | 機轉上較合理，可列為研究問題 |
+| 乳房纖維囊腫 | 0.9915 | 3 篇舊文獻，屬 L4 | 證據薄弱且間接 |
+| 血栓傾向 (Thrombophilia) | 0.9903 | 多篇文獻一致顯示靜脈血栓風險增加 | 為安全警訊，而非治療潛力 |
 
 ---
 
@@ -128,7 +127,7 @@ Cyproterone Acetate 在前列腺癌中作為抗雄性素荷爾蒙治療，並非
 **決策：Hold**
 
 **理由：**
-- 偏頭痛預測雖有 99.66% 的高分，但沒有任何臨床試驗，文獻僅為間接證據，且多指向風險而非療效，屬 L5。
+- 偏頭痛預測雖有 0.9966 的高分，但沒有任何臨床試驗，文獻僅為間接證據，且多指向風險而非療效，屬 L5。
 - 此藥本身具有靜脈血栓風險，而偏頭痛（特別是伴先兆者）本身也是血管風險因子，用於此族群的風險效益比不利。
 
 **若要推進需要：**

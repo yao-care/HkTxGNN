@@ -1,18 +1,20 @@
 ---
 layout: default
 title: Paclitaxel
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 656
-evidence_level: L2
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Paclitaxel：預測新適應症為女性乳癌 (Female Breast Carcinoma)（證據等級 L2）。原適應症：卵巢癌"
+evidence_level: L5
+indication_count: 2
+monitor_inn: "PACLITAXEL"
+predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+last_modified_at: 2026-10-23
+description: "Paclitaxel：預測新適應症為副腦膜胚胎型橫紋肌肉瘤 (parameningeal embryonal rhabdomyosarcoma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Paclitaxel
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,15 +33,14 @@ description: "Paclitaxel：預測新適應症為女性乳癌 (Female Breast Carc
 
 </div>
 
-## Paclitaxel：從卵巢癌到女性乳癌
+## Paclitaxel: 副腦膜胚胎型橫紋肌肉瘤 (parameningeal embryonal rhabdomyosarcoma)
 {: .text-alpha }
 
 ## 一句話總結
 
-Paclitaxel（太平洋紫杉醇）是一種紫杉烷類抗微管藥物，知識圖譜中的原適應症以卵巢癌及相關卵巢腫瘤為主。
-TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效，
-目前有 **40 個臨床試驗**和 **20 篇文獻**支持這個方向。
-不過乳癌其實已是 paclitaxel 的既定標準用藥，嚴格來說屬於已確立的用途，而非全新的再利用。
+Paclitaxel（紫杉醇）在知識圖譜中記錄的已知用途包括卵巢癌及其多種亞型，另有高血壓、開角型青光眼等紀錄。
+TxGNN 模型預測它可能對**副腦膜胚胎型橫紋肌肉瘤 (Parameningeal Embryonal Rhabdomyosarcoma)** 有效。
+目前本報告彙整的資料中**沒有任何臨床試驗或文獻**直接支持這個方向，證據僅來自模型預測。
 
 ---
 
@@ -47,121 +48,93 @@ TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 卵巢癌（香港許可證未列出核准適應症文字，此處依知識圖譜適應症） |
-| 預測新適應症 | 女性乳癌 (Female Breast Carcinoma) |
-| TxGNN 預測分數 | 99.995% |
-| 證據等級 | L2 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 17 張 |
-| 建議決策 | Proceed with Guardrails |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 副腦膜胚胎型橫紋肌肉瘤 (parameningeal embryonal rhabdomyosarcoma) |
+| TxGNN 預測分數 | 0.9973 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 17 張／共 17 張） |
+| 許可證數 | 17 張（有效 17 張） |
+| 建議決策 | Hold |
+
+另一個排名第 2 的預測是「陰道葡萄狀型胚胎型橫紋肌肉瘤」（分數 0.9973），同樣沒有任何臨床試驗或文獻支持，證據等級亦為 L5，建議決策為 Hold。
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料庫記載。根據已知藥理資訊，paclitaxel 會穩定微管、阻止有絲分裂紡錘體解聚，使快速分裂的癌細胞停滯於 G2/M 期並走向凋亡。
+目前缺乏詳細的作用機轉資料。根據一般藥理知識（非本報告所彙整資料所證實），paclitaxel 是微管穩定型的紫杉烷類藥物，會使細胞停滯於 G2/M 期並誘發細胞凋亡，對快速增殖的腫瘤細胞具有作用。
 
-卵巢癌與乳癌同屬婦科及荷爾蒙相關的實體腫瘤，且 paclitaxel 的細胞毒性並不依賴荷爾蒙受體訊號，因此機轉上適用於乳癌。文獻也指出，paclitaxel 與 docetaxel 已被廣泛接受為晚期乳癌、肺癌與卵巢癌的循證治療成分。
+橫紋肌肉瘤是增殖活躍的兒童軟組織肉瘤，從機轉上看，微管穩定劑有可能影響這類腫瘤。不過，這只是依一般藥理所做的推論，並非來自本報告資料的證據。
 
-因此，本預測更接近「確認既有標準用途」。另外，TxGNN 同時預測了雌激素受體陰性乳癌、荷爾蒙抗性乳癌與雌激素受體陽性乳癌，其中雌激素受體陽性乳癌的證據等級為 L1，但該評級反映的是有涉及 paclitaxel 的 Phase 3 試驗，並非 paclitaxel 單獨的頭對頭證據。「Ehrlich 腫瘤癌」僅有小鼠模型研究（L5），不屬於臨床適應症，建議 Hold。
+此外，兩個預測的分數非常接近（約 0.9973），顯示模型可能是在「橫紋肌肉瘤」這個疾病類別層級做預測，而非針對副腦膜亞型的特異生物學。在沒有試驗或文獻佐證前，這個關聯仍屬假說。
 
 ---
 
 ## 臨床試驗證據
 
-以下列出與 paclitaxel 最相關的 10 個試驗（共 40 個）：
-
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT00003539](https://clinicaltrials.gov/study/NCT00003539) | Phase 2 | 完成 | 50 | 每週 paclitaxel 加 trastuzumab 用於轉移性乳癌 |
-| [NCT00006120](https://clinicaltrials.gov/study/NCT00006120) | Phase 2 | 未知 | 未提供 | 隨機比較 docetaxel 或 paclitaxel 兩種給藥時程於轉移性乳癌 |
-| [NCT00667251](https://clinicaltrials.gov/study/NCT00667251) | Phase 3 | 完成 | 652 | 紫杉烷化療加 lapatinib 或 trastuzumab 用於 HER2 陽性轉移性乳癌 |
-| [NCT00553358](https://clinicaltrials.gov/study/NCT00553358) | Phase 3 | 完成 | 455 | Neo-ALTTO：新輔助 lapatinib／trastuzumab 加 paclitaxel 用於 HER2 陽性乳癌 |
-| [NCT00006459](https://clinicaltrials.gov/study/NCT00006459) | Phase 3 | 完成 | 未提供 | Gemcitabine 加 paclitaxel 對比單用 paclitaxel 於晚期乳癌 |
-| [NCT00513292](https://clinicaltrials.gov/study/NCT00513292) | Phase 3 | 完成 | 280 | FEC 後接 paclitaxel＋trastuzumab 對比相反順序，用於 HER2 陽性可手術乳癌 |
-| [NCT00075270](https://clinicaltrials.gov/study/NCT00075270) | Phase 3 | 完成 | 580 | Lapatinib 加 paclitaxel 對比單用 paclitaxel 於第一線晚期乳癌 |
-| [NCT01822314](https://clinicaltrials.gov/study/NCT01822314) | Phase 3 | 完成 | 632 | ETNA：新輔助 nab-paclitaxel 對比溶劑型 paclitaxel（HER2 陰性高風險乳癌） |
-| [NCT00431080](https://clinicaltrials.gov/study/NCT00431080) | Phase 3 | 完成 | 478 | 劑量密集 FE75C 後接 docetaxel 對比 paclitaxel 作輔助化療 |
-| [NCT00002826](https://clinicaltrials.gov/study/NCT00002826) | Phase 2 | 完成 | 36 | PSC 833 調節 paclitaxel 多重抗藥性於轉移性乳癌 |
-
-**說明：**
-- 已完成的 Phase 3 試驗多為 paclitaxel 作為組合或比較用藥，paclitaxel 不一定是唯一的研究變項。
-- 多個試驗屬 Phase 1/2 組合試驗，或 paclitaxel 僅為組合夥伴，未列於上表。
-- 另有數個試驗已撤回（如 NCT03058939），不納入主要證據。
+目前無相關臨床試驗登記。
 
 ---
 
 ## 文獻證據
 
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [22331946](https://pubmed.ncbi.nlm.nih.gov/22331946/) | 2012 | Phase 3 試驗 | J Clin Oncol | 比較每週 paclitaxel 與 docetaxel 合併 capecitabine 於可手術乳癌的無復發存活 |
-| [11147586](https://pubmed.ncbi.nlm.nih.gov/11147586/) | 2000 | Phase 2 臨床試驗 | Cancer | Doxorubicin 加 paclitaxel 治療晚期乳癌，並探討先前輔助 anthracycline 治療的影響 |
-| [11745249](https://pubmed.ncbi.nlm.nih.gov/11745249/) | 2001 | 研究／回顧 | Cancer | Paclitaxel 用於發炎性乳癌的多模式治療 |
-| [9296218](https://pubmed.ncbi.nlm.nih.gov/9296218/) | 1997 | 劑量探索研究 | Ann Oncol | Paclitaxel 加 cyclophosphamide 於晚期乳癌的最大耐受劑量 |
-| [10791395](https://pubmed.ncbi.nlm.nih.gov/10791395/) | 2000 | Review | Lancet | 紫杉烷為晚期乳癌、肺癌與卵巢癌的循證治療成分；paclitaxel 在美國獲准用於淋巴結陽性早期乳癌輔助治療 |
-| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Review | Drug Ther Bull | Paclitaxel 與 docetaxel 於乳癌及卵巢癌的適應症擴展 |
-| [10898354](https://pubmed.ncbi.nlm.nih.gov/10898354/) | 2000 | Review | Cancer | 乳癌化療發展概述 |
-| [24823476](https://pubmed.ncbi.nlm.nih.gov/24823476/) | 2014 | 機轉研究 | Nat Commun | TEKT4 變異與乳癌對 paclitaxel 的抗藥性 |
-| [20665703](https://pubmed.ncbi.nlm.nih.gov/20665703/) | 2011 | 前臨床 | J Cell Physiol | ZD6474 增強 paclitaxel 對乳癌細胞的抗增殖與促凋亡作用 |
-| [39317691](https://pubmed.ncbi.nlm.nih.gov/39317691/) | 2024 | 計算／前臨床 | Chem Biol Drug Des | Paclitaxel 組合治療乳癌的潛力與體內生物標記 |
+目前無相關文獻。
 
 ---
 
 ## 香港上市資訊
 
-目前香港共有 17 張有效許可證（皆為單一成分，無已註銷者）。資料中未載明劑型與核准適應症文字，以下列出 5 張主要許可證：
+各許可證的核准適應症文字與劑型在資料中皆為空白。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-37867 | TAXOL INJ 6MG/ML（DKSH） | 注射劑 | 資料未載明 |
-| HK-40639 | ANZATAX INJ 150MG/25ML VIAL（Pfizer） | 注射劑 | 資料未載明 |
-| HK-62459 | ABRAXANE POWDER FOR INJECTABLE SUSPENSION 100MG（BMS） | 注射用懸浮液粉末 | 資料未載明 |
-| HK-68817 | PAZENIR POWDER FOR DISPERSION FOR INFUSION 100MG（Teva） | 輸注用分散液粉末 | 資料未載明 |
-| HK-60886 | PACLITAXEL CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/16.7ML（Fresenius Kabi） | 輸注濃縮液 | 資料未載明 |
+| 許可證號 | 品名 | 製造商 |
+|---------|------|-------|
+| HK-68100 | PACLITAXEL ADVAGEN CONCENTRATE FOR SOLUTION FOR INFUSION 300MG/50ML | ADVAGEN (H.K.) LIMITED |
+| HK-68817 | PAZENIR POWDER FOR DISPERSION FOR INFUSION 100MG | TEVA PHARMACEUTICAL HONG KONG LIMITED |
+| HK-60886 | PACLITAXEL CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/16.7ML | FRESENIUS KABI HONG KONG LIMITED |
+| HK-62459 | ABRAXANE POWDER FOR INJECTABLE SUSPENSION 100MG | BRISTOL-MYERS SQUIBB PHARMA (HK) LTD |
+| HK-37867 | TAXOL INJ 6MG/ML | DKSH HONG KONG LIMITED |
 
 ---
 
 ## 細胞毒性
 
+Paclitaxel 屬於抗腫瘤藥物。
+
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 傳統細胞毒性藥物（紫杉烷類，微管穩定劑） |
-| 骨髓抑制風險 | 高（知識圖譜顯示與嗜中性白血球低下、血小板低下、無顆粒性白血球症等禁忌關聯） |
-| 致吐性分級 | 低至中度（依藥物類別判斷） |
-| 監測項目 | CBC（含分類）、肝功能（含膽紅素）、腎功能、周邊神經病變評估、過敏反應監測 |
-| 處置防護 | 需依細胞毒性藥物處置規範操作 |
-
-具體警語與劑量調整請參考原廠仿單。
+| 細胞毒性分類 | 傳統細胞毒性藥物（紫杉烷類、微管穩定劑） |
+| 骨髓抑制風險 | 請參考原廠仿單的警語與注意事項（知識圖譜另記錄與嗜中性白血球低下、血小板低下、貧血相關的禁忌關聯） |
+| 致吐性分級 | 請參考原廠仿單的警語與注意事項 |
+| 監測項目 | 一般應監測血球計數（CBC）、肝腎功能；詳細項目請參考原廠仿單 |
+| 處置防護 | 請依細胞毒性藥物處置規範操作，詳細要求請參考原廠仿單 |
 
 ---
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌或需謹慎疾病**（非仿單文字）：嗜中性白血球低下、血小板低下、無顆粒性白血球症、貧血、肝病、膽囊疾病、高膽紅素血症（含 Gilbert 症候群）、腎臟疾病、周邊神經病變、心肌梗塞、猝死性心臟驟停、氣喘、糖尿病（含酮酸中毒）、低血壓、乾癬等。
-- **藥物交互作用**：資料共 100 筆，以下為主要代表：
+- **知識圖譜記錄的禁忌關聯**（來自知識圖譜，並非仿單內容）：焦慮症、神經症、心境惡劣障礙、腎臟疾病、肝臟疾病、膽囊疾病、血小板低下、嗜中性白血球低下、顆粒球缺乏症、貧血、氣喘、乾癬、糖尿病、糖尿病酮酸中毒、低血壓、周邊神經病變、心肌梗塞、冠狀動脈血栓、血紅素病變、高膽紅素血症（含 Gilbert 症候群）、心臟驟停等。
+- **藥物交互作用**：資料庫共查得 100 筆，以下為部分摘錄。
   - 中度：Aprepitant、Cimetidine、Clarithromycin、Clotrimazole、Dexamethasone、Eliglustat、Metronidazole、Miconazole、Rolapitant、Rosuvastatin、Simvastatin、Tinidazole、Troglitazone
   - 輕度：Ascorbic acid、Levofloxacin
   - 等級未知：Glimepiride、Doxycycline、Morphine、Metformin、Omeprazole
 
-其餘仿單警語與禁忌請參考原廠仿單。
+香港仿單的警語與禁忌尚未取得，詳細安全性資訊請參考原廠仿單。
 
 ---
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-- 乳癌用藥已有多個已完成的 Phase 3 試驗涉及 paclitaxel，且機轉合理；但本次所列試驗多以組合療法為主，paclitaxel 單獨作為研究變項的證據有限，因此評為 L2。這屬於既定標準用途，並非嚴格意義上的新適應症。
-- 該藥已在香港上市多年，但血液毒性與神經毒性風險高，需要嚴格防護。
+- 雖然 TxGNN 分數很高（0.9973），但沒有任何臨床試驗或文獻直接研究此疾病，證據等級為 L5，僅屬模型預測。
+- 香港仿單的警語與禁忌尚未取得，安全性評估無法進入下一階段。
 
 **若要推進需要：**
-- 取得香港衛生署核准適應症文字與仿單，確認乳癌是否已列入核准適應症
-- 取得 DrugBank 作用機轉資料
-- 針對各乳癌亞型（HER2 陽性、三陰性、荷爾蒙受體陽性／抗性）釐清 paclitaxel 的角色與優先順序
-- 建立血液學與神經毒性監測計畫，並評估溶劑型與白蛋白結合型（nab-paclitaxel）劑型的選擇
-- 「Ehrlich 腫瘤癌」僅為小鼠模型訊號，建議 Hold，不予推進
+- 檢索 ClinicalTrials.gov 與 PubMed，確認 paclitaxel 用於橫紋肌肉瘤（特別是副腦膜亞型）是否已有試驗或研究
+- 取得香港衛生署核准的仿單（警語、禁忌症、核准適應症）
+- 補充 paclitaxel 的作用機轉資料（如 DrugBank）
+- 評估兒童族群的劑量與安全性，並與現行橫紋肌肉瘤標準化療方案比較
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Zolbetuximab
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 958
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Zolbetuximab：預測新適應症為糖尿病性白內障 (Diabetic Cataract)（證據等級 L5）。原適應症：香港許可證未登載適應症文字（國際上為 CLDN18.2 陽性胃癌／胃食道交界處癌）"
+description: "Zolbetuximab: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Zolbetuximab"
-predicted_indications: ["diabetic cataract", "immature cataract", "diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "mature cataract", "tetanic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic retinopathy"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Zolbetuximab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,49 +35,16 @@ predicted_indications: ["diabetic cataract", "immature cataract", "diabetes mell
 
 </div>
 
-## Zolbetuximab：從 CLDN18.2 陽性胃癌到糖尿病性白內障
+## Zolbetuximab
 {: .text-alpha }
-
-## 一句話總結
-
-Zolbetuximab 是一種靶向 Claudin-18.2 (CLDN18.2) 的單株抗體，已在香港取得許可證，國際上核准用於 HER2 陰性、CLDN18.2 陽性的晚期胃癌與胃食道交界處腫瘤。
-TxGNN 模型預測它可能對**糖尿病性白內障 (diabetic cataract)** 有效，但目前**沒有任何臨床試驗或文獻**支持，也找不到合理的機轉關聯，屬於純模型預測。
-
----
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證未登載適應症文字（國際上為 CLDN18.2 陽性胃癌／胃食道交界處癌） |
-| 預測新適應症 | 糖尿病性白內障 (Diabetic Cataract) |
-| TxGNN 預測分數 | 98.49% |
-| 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
-| 建議決策 | Hold |
-
----
-
-## 為什麼這個預測合理？
-
-目前缺乏詳細的作用機轉資料。根據一般藥理知識（需對照原始資料再確認），Zolbetuximab 是針對 CLDN18.2 的單株抗體，CLDN18.2 表現於胃及胃食道交界處腫瘤細胞，藥物透過抗體依賴性細胞毒性 (ADCC) 與補體依賴性細胞毒性 (CDC) 殺傷腫瘤細胞。
-
-晶體混濁與此機轉看不出合理的關聯。CLDN18.2 在水晶體生物學或白內障形成中沒有已知角色，糖尿病性白內障的主要成因（葡萄糖代謝、多元醇路徑、氧化壓力）也不是此藥的作用標的。因此，0.985 的高分數較可能是知識圖譜預測的假象，而非有生物學基礎的訊號。
-
-其他排名前列的預測（未成熟白內障、成熟白內障、老年性白內障、糖尿病視網膜病變等）同樣缺乏機轉依據與實際研究。此外，對於已有有效手術治療的白內障，使用細胞毒性抗體也會有不利的風險效益比。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
----
-
-## 文獻證據
-
-目前無相關文獻。
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 
 ---
 
@@ -107,19 +76,6 @@ TxGNN 模型預測它可能對**糖尿病性白內障 (diabetic cataract)** 有�
 
 ---
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 這是純計算預測（L5），沒有任何臨床試驗或文獻，且藥物機轉與白內障病理之間沒有可辨識的生物學關聯。
-- 香港仿單的警語與禁忌資料也尚未取得，無法進行安全性初篩。
-
-**若要推進需要：**
-- 取得並解析香港衛生署仿單（警語、禁忌症、核准適應症）
-- 補齊 DrugBank 的作用機轉資料，驗證 CLDN18.2 機轉
-- 找出 CLDN18.2 與水晶體或眼部組織的任何生物學證據，再決定是否值得進行前臨床研究
-- 確認與其他被預測疾病（如糖尿病視網膜病變）是否有更合理的連結；若仍無，建議停止此方向
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

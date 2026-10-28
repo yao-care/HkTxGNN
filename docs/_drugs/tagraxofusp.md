@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tagraxofusp：預測新適應症為斜視 (Esotropia)（證據等級 L5）。原適應症：CD4+/CD56+ 血液皮膚腫瘤（CD4+/CD56+ hematodermic neoplasm）"
 monitor_inn: "Tagraxofusp"
-predicted_indications: ["esotropia", "pre-malignant neoplasm", "inner ear neoplasm", "benign neoplasm of tongue", "bronchial adenomas/carcinoids childhood", "ductal or ductular proliferation", "chondroid hamartoma", "non-seminomatous lesion", "cystic neoplasm", "thyroglossal duct cyst"]
+predicted_indications: ["esotropia", "pre-malignant neoplasm", "inner ear neoplasm", "benign neoplasm of tongue", "bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "ductal or ductular proliferation", "non-seminomatous lesion", "cystic neoplasm", "thyroglossal duct cyst"]
 ---
 
 # Tagraxofusp
@@ -39,7 +39,7 @@ predicted_indications: ["esotropia", "pre-malignant neoplasm", "inner ear neopla
 ## 一句話總結
 
 Tagraxofusp 是一種針對 CD123 的細胞毒性融合蛋白，原本用於 CD4+/CD56+ 血液皮膚腫瘤（母細胞性漿細胞樣樹突細胞腫瘤）。
-TxGNN 模型預測它可能對**斜視 (Esotropia)** 有效，但目前**沒有任何臨床試驗或文獻**支持，且機轉上找不到合理關聯，這個高分較可能是圖譜預測的假象。
+TxGNN 模型（深度學習）預測它可能對**斜視 (Esotropia)** 有效，但目前**沒有任何臨床試驗或文獻**支持，且機轉上找不到合理關聯，這個高分可能反映模型學到的相關疾病間相似性，而非生物學證據。
 
 ---
 
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**斜視 (Esotropia)** 有效，但目前**沒有�
 |------|------|
 | 原適應症 | CD4+/CD56+ 血液皮膚腫瘤（CD4+/CD56+ hematodermic neoplasm） |
 | 預測新適應症 | 斜視 (Esotropia) |
-| TxGNN 預測分數 | 99.73% |
+| TxGNN 預測分數 | 0.9973 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**斜視 (Esotropia)** 有效，但目前**沒有�
 
 斜視是眼球運動異常的疾病，已知病理中沒有 CD123 驅動的機制。原適應症為血液腫瘤，兩者在疾病生物學上幾乎沒有交集，因此這個預測缺乏機轉上的支持。
 
-整體而言，99.73% 的分數更像是知識圖譜的預測假象，而非有生物學依據的訊號。此外，本藥具有毛細血管滲漏症候群、肝毒性等已知毒性，用於斜視這類非致命疾病，風險效益並不理想。
+整體而言，0.9973 的分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病間相似性，而非生物學證據。此外，本藥具有毛細血管滲漏症候群、肝毒性等已知毒性，用於斜視這類非致命疾病，風險效益並不理想。
 
 ---
 

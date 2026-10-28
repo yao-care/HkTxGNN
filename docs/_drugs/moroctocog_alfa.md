@@ -4,17 +4,17 @@ title: Moroctocog Alfa
 parent: 僅模型預測 (L5)
 nav_order: 598
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Moroctocog Alfa：預測新適應症為原發性血小板釋放障礙 (primary release disorder of platelets)（證據等級 L5）。原適應症：血友病（hemophilia）、女性帶因者的症狀性血友病"
+indication_count: 8
 monitor_inn: "MOROCTOCOG ALFA"
-predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome"]
+predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
+last_modified_at: 2026-10-23
+description: "Moroctocog Alfa：預測新適應症為原發性血小板釋放障礙（證據等級 L5）。原適應症：知識圖譜記錄為血友病"
 ---
 
 # Moroctocog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,86 +38,74 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 
 ## 一句話總結
 
-Moroctocog alfa 是重組人類凝血因子 VIII（去除 B 結構域），原本用於血友病治療。
-TxGNN 模型預測它可能對**原發性血小板釋放障礙 (primary release disorder of platelets)** 有效，
-但目前**沒有任何臨床試驗或文獻**支持，僅屬模型預測，機轉上也缺乏合理依據。
-
----
+Moroctocog alfa 是重組第八凝血因子（B 區域刪除型），在 TxGNN 知識圖譜中記錄的原有用途為血友病。
+TxGNN 模型預測它可能對**原發性血小板釋放障礙 (primary release disorder of platelets)** 有效，但目前**沒有任何臨床試驗或文獻**直接支持這個方向，僅屬模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 血友病（hemophilia）、女性帶因者的症狀性血友病（資料來源為知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 原發性血小板釋放障礙 (primary release disorder of platelets) |
-| TxGNN 預測分數 | 99.97% |
+| 原適應症 | 知識圖譜記錄為血友病（香港許可證資料未載明核准適應症文字） |
+| 預測新適應症 | 原發性血小板釋放障礙 |
+| TxGNN 預測分數 | 0.9997 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Moroctocog alfa 是重組凝血因子 VIII（B 結構域去除型），用於補充血友病患者缺乏的 FVIII，其療效在血友病中已被確立。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Moroctocog alfa 是重組第八凝血因子，作用是補充內源性凝血路徑中缺乏的第八因子，用於血友病相關出血的治療。
 
-然而，原發性血小板釋放障礙（血小板儲存池／分泌缺陷）是血小板本身的功能異常，並非 FVIII 缺乏。補充 FVIII 預期無法矯正這項缺陷。TxGNN 的高分較可能反映出血性疾病在知識圖譜中的鄰近關係，而非實際的機轉關聯。因此這項預測的合理性偏低。
+血小板釋放障礙是血小板顆粒分泌功能的缺陷，並非第八因子缺乏，兩者在機轉上的關聯薄弱。即使有任何益處，也只可能是間接的（例如支持凝血酶生成），屬於推測。高預測分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 
-**其他預測適應症（同樣皆為 L5、Hold）：**
+其他排名較前的預測疾病（資料中共 8 項）同樣缺乏證據：
 
-| 排名 | 預測適應症 | TxGNN 分數 | 機轉評估 |
-|------|-----------|-----------|---------|
-| 2 | 假性血管性血友病 (pseudo-von Willebrand disease) | 99.97% | 病因為血小板 GP1BA 功能獲得性變異，與 FVIII 補充的關聯弱且間接；通常以血小板輸注治療 |
-| 3 | Glanzmann 血小板無力症 (Glanzmann thrombasthenia) | 99.96% | 缺陷在整合素 αIIbβ3，FVIII 無法矯正；標準治療為血小板輸注、抗纖溶藥物與重組 FVIIa |
-| 4 | 後天性凝血因子缺乏 (acquired coagulation factor deficiency) | 99.88% | 五者中生物學上最合理，理論上可補充後天性 FVIII 缺乏。但後天性血友病 A 由自體抗體介導，會中和輸注的 FVIII，標準治療為旁路製劑；且此類別異質性高（如維生素 K 缺乏、肝病、DIC），單一因子補充並不適當 |
-| 5 | Scott 症候群 (Scott syndrome) | 99.86% | 缺陷在磷脂絲胺酸暴露（TMEM16F/ANO6 變異），FVIII 水平正常，補充無助益 |
-
----
+| 排名 | 預測疾病 | 預測分數 | 機轉關聯評估 |
+|------|---------|---------|-------------|
+| 2 | 假性血管性血友病 (pseudo-von Willebrand disease) | 0.9997 | 缺陷在血小板 GPIbα，外源性第八因子無法矯正主要缺陷，僅在路徑層面可能合理 |
+| 3 | 血小板無力症 (Glanzmann thrombasthenia) | 0.9996 | 缺陷在整合素 αIIbβ3，標準處置為血小板輸注、重組第七因子與抗纖溶藥，無支持證據 |
+| 4 | 後天性凝血因子缺乏 (acquired coagulation factor deficiency) | 0.9988 | 機轉上最連貫，但後天性血友病多由抑制性自體抗體造成，標準第八因子常無效，且此詞也涵蓋第八因子無法補充的其他因子缺乏 |
+| 5 | Scott 症候群 | 0.9986 | 第八因子屬於 tenase 複合物，路徑上有鬆散關聯，但補充第八因子無法恢復缺失的膜表面 |
+| 6 | 膠原蛋白受體缺陷所致出血體質 | 0.9973 | 血小板功能障礙且第八因子正常，無明確作用標的 |
+| 7 | 先天性血小板低下所致出血性疾病 | 0.9972 | 問題在血小板數量或功能，補充第八因子無法解決 |
+| 8 | flood factor deficiency | 0.9911 | 術語不明確，無法對應已知凝血疾病，需先釐清 |
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
 目前無相關文獻。
-
----
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-66835 | XYNTHA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 250IU | 注射用粉劑及溶劑 | 未載明 |
-| HK-66834 | XYNTHA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 1000IU | 注射用粉劑及溶劑 | 未載明 |
-| HK-66836 | XYNTHA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 500IU | 注射用粉劑及溶劑 | 未載明 |
+| HK-66835 | XYNTHA 凍乾粉末及溶劑注射液 250IU | 注射劑（粉末及溶劑） | 資料未載明 |
+| HK-66834 | XYNTHA 凍乾粉末及溶劑注射液 1000IU | 注射劑（粉末及溶劑） | 資料未載明 |
+| HK-66836 | XYNTHA 凍乾粉末及溶劑注射液 500IU | 注射劑（粉末及溶劑） | 資料未載明 |
 
-三張許可證皆為單一成分、現行有效，持證商為 Pfizer Corporation Hong Kong Limited。
-
----
+三張許可證均為單一成分產品，持有人為 Pfizer Corporation Hong Kong Limited，狀態皆為有效。
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。
-
----
+安全性資訊請參考原廠仿單。目前針對藥物交互作用的查詢也未找到相關紀錄。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 五個預測適應症皆只有模型分數，沒有臨床試驗或文獻支持（L5）。
-- 這些疾病多為血小板功能缺陷，與 FVIII 補充缺乏機轉關聯。唯一較合理的「後天性凝血因子缺乏」，也因抑制物中和與病因異質性而不適合直接套用。
+- 所有預測的新適應症都只有模型預測，沒有臨床試驗或文獻直接研究，證據等級為 L5。
+- 排名第一的血小板釋放障礙在機轉上與第八因子缺乏無關，高分數不足以支持推進。
 
 **若要推進需要：**
-- 取得並解析香港衛生署核准仿單，確認警語、禁忌與核准適應症。
-- 補充詳細的作用機轉資料（MOA）。
-- 若要探索，應聚焦於「後天性凝血因子缺乏」中明確的 FVIII 缺乏亞型，並做文獻回顧與臨床專家評估。
-- 其餘四項血小板疾病建議不優先投入資源。
+- 補充詳細的作用機轉資料與香港仿單中的核准適應症、警語及禁忌症。
+- 優先評估機轉上較合理的「後天性凝血因子缺乏」，並釐清抑制性抗體問題。
+- 釐清「flood factor deficiency」的定義，確認是否為資料誤植。
+- 先進行系統性文獻檢索與臨床前或機轉研究，再考慮是否值得啟動臨床研究。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

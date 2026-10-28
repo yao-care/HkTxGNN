@@ -6,9 +6,9 @@ nav_order: 919
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Ursodeoxycholic Acid：預測新適應症為同型合子家族性高膽固醇血症 (Homozygous Familial Hypercholesterolemia)（證據等級 L5）。原適應症：膽結石、膽囊結石、膽總管結石、原發性膽汁性膽管炎、Reynolds 症候群"
 monitor_inn: "URSODEOXYCHOLIC ACID"
 predicted_indications: ["homozygous familial hypercholesterolemia"]
+description: "Ursodeoxycholic Acid：預測新適應症為同型合子家族性高膽固醇血症 (homozygous familial hypercholesterolemia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Ursodeoxycholic Acid
@@ -33,7 +33,7 @@ predicted_indications: ["homozygous familial hypercholesterolemia"]
 
 </div>
 
-## Ursodeoxycholic Acid：從膽結石與原發性膽汁性膽管炎到同型合子家族性高膽固醇血症
+## Ursodeoxycholic Acid: 同型合子家族性高膽固醇血症 (homozygous familial hypercholesterolemia)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對**同型合子家族性高膽固醇血症 (Homozyg
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 膽結石、膽囊結石、膽總管結石、原發性膽汁性膽管炎、Reynolds 症候群（來自 TxGNN 知識圖譜） |
-| 預測新適應症 | 同型合子家族性高膽固醇血症 (Homozygous Familial Hypercholesterolemia) |
-| TxGNN 預測分數 | 99.86% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 同型合子家族性高膽固醇血症 (homozygous familial hypercholesterolemia) |
+| TxGNN 預測分數 | 0.9986 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 13 張 |
+| 香港上市 | 上市中（有效許可證 13 張／共 13 張） |
+| 許可證數 | 13 張（有效 13 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**同型合子家族性高膽固醇血症 (Homozyg
 
 不過，同型合子家族性高膽固醇血症主要由 LDL 受體功能異常所致（LDLR、APOB、PCSK9 或 LDLRAP1 變異）。在受體介導的 LDL 清除途徑幾乎喪失的情況下，膽酸相關作用不太可能彌補，因此預測的療效在生物學上仍不確定。
 
-TxGNN 分數（99.86%）只是模型預測，不能視為臨床證據。
+TxGNN 分數（0.9986）只是模型預測，不能視為臨床證據。
 
 ## 臨床試驗證據
 

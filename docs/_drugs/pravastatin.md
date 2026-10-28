@@ -4,17 +4,17 @@ title: Pravastatin
 parent: 高證據等級 (L1-L2)
 nav_order: 725
 evidence_level: L2
-indication_count: 9
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Pravastatin：預測新適應症為HIV 感染 (HIV infectious disease)，實質為 HIV 相關血脂異常與心血管風險（證據等級 L2）。原適應症：高三酸甘油酯血症、動脈粥狀硬化、腦中風、腦梗塞、家族性複合型高脂血症等"
 monitor_inn: "Pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
+description: "Pravastatin：預測新適應症為HIV 感染 (HIV infectious disease)，實質為 HIV 相關血脂異常與心血管風險 (HIV infectious disease)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Pravastatin
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **9** 個
+證據等級: **L2** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 
 </div>
 
-## Pravastatin：從高三酸甘油酯血症與動脈粥狀硬化到 HIV 感染相關的血脂異常
+## Pravastatin: HIV 感染 (HIV infectious disease)，實質為 HIV 相關血脂異常與心血管風險 (HIV infectious disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -42,7 +42,7 @@ Pravastatin 是一種 statin 類降血脂藥，原本用於高脂血症、動脈
 TxGNN 模型預測它可能對**HIV 感染 (HIV infectious disease)** 有效，但從現有證據看，合理的方向是 **HIV 患者的血脂異常與心血管風險管理**，而非抗病毒作用。
 目前有 **12 個臨床試驗**和 **20 篇文獻**支持這個方向。
 
-> 說明：預測分數最高的是「同型接合子家族性高膽固醇血症」（99.95%），但該項與原有降血脂適應症高度重疊，且現有試驗測試的是其他藥物，因此本報告以證據最完整、最具再利用意義的 HIV 項目為主，其他預測列於結論供參考。
+> 說明：本報告以 TxGNN 模型（深度學習）預測分數最高的 HIV 感染（0.9974）為主，其他預測列於結論供參考。
 
 ---
 
@@ -50,12 +50,12 @@ TxGNN 模型預測它可能對**HIV 感染 (HIV infectious disease)** 有效，�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 高三酸甘油酯血症、動脈粥狀硬化、腦中風、腦梗塞、家族性複合型高脂血症等（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | HIV 感染 (HIV infectious disease)，實質為 HIV 相關血脂異常與心血管風險 |
-| TxGNN 預測分數 | 99.74% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | HIV 感染 (HIV infectious disease)，實質為 HIV 相關血脂異常與心血管風險 (HIV infectious disease) |
+| TxGNN 預測分數 | 0.9974 |
 | 證據等級 | L2 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 8 張 |
+| 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
+| 許可證數 | 8 張（有效 8 張） |
 | 建議決策 | Proceed with Guardrails（限定為 HIV 血脂異常管理的研究方向） |
 
 ---

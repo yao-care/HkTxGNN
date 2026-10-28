@@ -6,9 +6,9 @@ nav_order: 508
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Lanreotide：預測新適應症為多毛症 (Hypertrichosis)（證據等級 L5）。原適應症：肢端肥大症、腦下垂體機能亢進、腦下垂體巨人症"
 monitor_inn: "LANREOTIDE"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
+description: "Lanreotide：預測新適應症為多毛症 (hypertrichosis (disease))（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Lanreotide
@@ -33,7 +33,7 @@ predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with 
 
 </div>
 
-## Lanreotide：從肢端肥大症到多毛症（Hypertrichosis）
+## Lanreotide: 多毛症 (hypertrichosis (disease))
 {: .text-alpha }
 
 ## 一句話總結
@@ -45,21 +45,21 @@ TxGNN 模型預測它可能對**多毛症 (Hypertrichosis)** 有效，但目前*
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 肢端肥大症、腦下垂體機能亢進、腦下垂體巨人症（香港許可證未提供核准適應症文字，此處依知識圖譜資料） |
-| 預測新適應症 | 多毛症 (Hypertrichosis) |
-| TxGNN 預測分數 | 99.97% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 多毛症 (hypertrichosis (disease)) |
+| TxGNN 預測分數 | 0.9997 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Lanreotide 屬於體抑素類似物，能抑制生長激素 (GH) 與 IGF-1 的分泌，這是它治療肢端肥大症的基礎。
 
-IGF-1 訊號可能影響毛囊生長，因此理論上藥物可能調節毛髮生長。但多毛症成因多元，包括先天性與藥物誘發型，目前沒有直接的機轉或臨床證據支持這個連結。這項預測目前僅來自知識圖譜的模型分數，應視為待驗證的假說。
+IGF-1 訊號可能影響毛囊生長，因此理論上藥物可能調節毛髮生長。但毛髮過多症成因多元，包括先天性與藥物誘發型，目前沒有直接的機轉或臨床證據支持這個連結。這項預測的分數（0.9997）來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據，應視為待驗證的假說。
 
-其他預測的適應症（牙齒／牙周異常的畸形症候群、Dandy-Walker 畸形相關症候群、遺傳性毛幹異常、Ambras 型先天性全身多毛症）同樣只有模型分數，沒有試驗或文獻。這些多屬先天性結構或基因缺陷，機轉上看不出體抑素類似物能改變它們，可能只是圖譜中相鄰節點造成的結果。
+其他預測的適應症（牙齒／牙周異常的畸形症候群 0.9996、Dandy-Walker 畸形相關症候群 0.9996、遺傳性毛幹異常 0.9996、安布拉斯型全身性先天多毛症 0.9996）同樣只有 TxGNN 模型（深度學習）的分數，沒有試驗或文獻。這些多屬先天性結構或基因缺陷，機轉上看不出體抑素類似物能改變它們，分數可能只反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
 ## 臨床試驗證據
 
@@ -95,7 +95,7 @@ IGF-1 訊號可能影響毛囊生長，因此理論上藥物可能調節毛髮�
 **決策：Hold**
 
 **理由：**
-- 預測僅來自模型分數（99.97%），沒有任何臨床試驗或文獻，證據等級為 L5。
+- 預測僅來自模型分數（0.9997），沒有任何臨床試驗或文獻，證據等級為 L5。
 - 多毛症的機轉連結只是推測，且藥物本身有血糖、膽囊等需要留意的安全性議題。
 
 **若要推進需要：**

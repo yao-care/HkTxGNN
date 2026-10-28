@@ -4,17 +4,17 @@ title: Avelumab
 parent: 僅模型預測 (L5)
 nav_order: 87
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Avelumab：預測新適應症為人類皰疹病毒 8 型相關腫瘤 (human herpesvirus 8-related tumor)（證據等級 L5）。原適應症：皮膚神經內分泌癌（Merkel 細胞癌）"
 monitor_inn: "Avelumab"
-predicted_indications: ["human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "adenosine deaminase deficiency", "reticular dysgenesis", "Immunoerythromyeloid hypoplasia", "non-severe combined immunodeficiency", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
+predicted_indications: ["human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "adenosine deaminase deficiency", "reticular dysgenesis", "Immunoerythromyeloid hypoplasia", "non-severe combined immunodeficiency", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 ---
 
 # Avelumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ TxGNN 模型預測它可能對**人類皰疹病毒 8 型相關腫瘤 (human herp
 |------|------|
 | 原適應症 | 皮膚神經內分泌癌（Merkel 細胞癌） |
 | 預測新適應症 | 人類皰疹病毒 8 型相關腫瘤 (human herpesvirus 8-related tumor) |
-| TxGNN 預測分數 | 99.97% |
+| TxGNN 預測分數 | 0.9997 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -65,7 +65,7 @@ TxGNN 模型預測它可能對**人類皰疹病毒 8 型相關腫瘤 (human herp
 
 **其他預測適應症的觀察：**
 - **泌尿上皮相關**（前列腺尿道泌尿上皮癌、腎盂肉瘤樣移行細胞癌）：Avelumab 已核准用於局部晚期或轉移性泌尿上皮癌的第一線維持治療，生物學上最為接近，屬間接證據（證據等級 L4）。但本次彙整資料中沒有針對這些部位的試驗或文獻。
-- **原發性免疫缺陷類**（腺苷脫胺酶缺乏症、網狀發育不全、非嚴重複合型免疫缺陷等）：機轉上缺乏合理性，且免疫調節可能帶來免疫相關風險，高分很可能是圖譜（模型）偽影。
+- **原發性免疫缺陷類**（腺苷脫胺酶缺乏症、網狀發育不全、非嚴重複合型免疫缺陷等）：機轉上缺乏合理性，且免疫調節可能帶來免疫相關風險；其高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 - **其他罕見腫瘤**（中耳神經內分泌腫瘤、惡性皮膚顆粒細胞瘤、外胚間葉瘤）：僅有網路鄰近性或相似性推論，沒有臨床證據。
 
 ## 臨床試驗證據

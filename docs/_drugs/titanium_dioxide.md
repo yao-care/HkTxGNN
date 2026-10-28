@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 883
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Titanium Dioxide：預測新適應症為藥物誘發性骨質疏鬆症 (Drug-induced Osteoporosis)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Titanium dioxide"
-predicted_indications: ["drug-induced osteoporosis", "diabetic retinopathy", "diabetic cataract", "severe nonproliferative diabetic retinopathy", "immature cataract", "tetanic cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "nuclear senile cataract"]
+predicted_indications: ["drug-induced osteoporosis", "diabetic retinopathy", "diabetic cataract", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "tetanic cataract", "immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract"]
+last_modified_at: 2026-10-23
+description: "Titanium Dioxide：預測新適應症為藥物誘發性骨質疏鬆症（證據等級 L5）。原適應症：許可證資料未載明"
 ---
 
 # Titanium Dioxide
@@ -33,61 +33,41 @@ predicted_indications: ["drug-induced osteoporosis", "diabetic retinopathy", "di
 
 </div>
 
-## Titanium dioxide：從（原適應症未載明）到藥物誘發性骨質疏鬆症
+## 二氧化鈦 (Titanium dioxide)：從未載明的原適應症到藥物誘發性骨質疏鬆症
 {: .text-alpha }
 
 ## 一句話總結
 
-Titanium dioxide（二氧化鈦）在香港以 EPICOR CREAM 單方製劑上市，但本報告彙整的資料中沒有載明其核准適應症。
-TxGNN 模型預測它可能對**藥物誘發性骨質疏鬆症 (Drug-induced Osteoporosis)** 有效，但目前**沒有任何臨床試驗或文獻**支持，屬於純模型預測。
-
----
+二氧化鈦是一種惰性、幾乎不被吸收的賦形劑、色素及防曬／植入物塗層材料，香港許可證資料中未載明其核准適應症。
+TxGNN 模型預測它可能對**藥物誘發性骨質疏鬆症 (Drug-induced Osteoporosis)** 有效，但目前**沒有臨床試驗，也沒有直接研究此疾病的文獻**支持，證據等級為 L5，僅屬模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未載明 |
-| 預測新適應症 | 藥物誘發性骨質疏鬆症 (Drug-induced Osteoporosis) |
-| TxGNN 預測分數 | 99.9998% |
+| 原適應症 | 許可證資料未載明 |
+| 預測新適應症 | 藥物誘發性骨質疏鬆症 |
+| TxGNN 預測分數 | 1.0000 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Titanium dioxide 主要作為惰性賦形劑、色素與紫外線濾劑使用，並不是傳統意義上具有明確藥理標的的活性成分。
+目前缺乏詳細的作用機轉資料。根據已知資訊，二氧化鈦是惰性、吸收極差的賦形劑、色素及防曬／植入物塗層材料，對骨重塑沒有已知的藥理作用。
 
-從現有資料來看，找不到能連結二氧化鈦與藥物誘發性骨質疏鬆症的機轉。TxGNN 分數雖然極高，但沒有任何臨床試驗或文獻佐證，**這個預測很可能是知識圖譜運算產生的假象 (artifact)**，不宜視為有意義的治療訊號。
+因此，這個預測在機轉上找不到合理的連結。極高的 TxGNN 分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，並非生物學證據，也不是臨床或文獻證據，不應視為療效的依據。
 
-其他排名前 10 的預測（糖尿病視網膜病變、各型白內障等）同樣沒有可支持的證據。
-
----
+其他排名較高的預測（糖尿病視網膜病變、各類白內障等）也屬同一情況：沒有臨床試驗，且現有文獻多把二氧化鈦當作分析、影像材料使用，沒有顯示對疾病的治療效果。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
-針對首位預測（藥物誘發性骨質疏鬆症），目前無相關文獻。
-
-作為參考，排名第 2 的預測「糖尿病視網膜病變」檢索到 5 篇文獻，但**均未顯示治療療效**：
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [36197877](https://pubmed.ncbi.nlm.nih.gov/36197877/) | 2022 | 分析方法 | Analytical Chemistry | 用 TiO2 微粒純化血漿細胞外囊泡，作為分析工具 |
-| [41637842](https://pubmed.ncbi.nlm.nih.gov/41637842/) | 2026 | Review | J Trace Elem Med Biol | 金屬奈米粒子在糖尿病的機轉與治療展望，與視網膜病變僅間接相關 |
-| [38078945](https://pubmed.ncbi.nlm.nih.gov/38078945/) | 2023 | 分析方法 | Analytical Chemistry | 細胞外囊泡與脂蛋白攜帶之循環 RNA 分析系統 |
-| [39566751](https://pubmed.ncbi.nlm.nih.gov/39566751/) | 2025 | 前臨床影像 | Methods | 超小 TiO2 奈米粒子－螢光素結合物用於眼底螢光血管攝影（診斷用途） |
-| [20059246](https://pubmed.ncbi.nlm.nih.gov/20059246/) | 2009 | 技術/模型研究 | J Biomed Optics | 視網膜血氧測量用的動態眼球模型 |
-
----
+目前無直接研究藥物誘發性骨質疏鬆症的相關文獻。
 
 ## 香港上市資訊
 
@@ -95,27 +75,25 @@ TxGNN 模型預測它可能對**藥物誘發性骨質疏鬆症 (Drug-induced Ost
 |---------|------|------|-----------|
 | HK-01669 | EPICOR CREAM | 未載明 | 未載明 |
 
----
-
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
----
+另外，奈米顆粒形態的二氧化鈦已有氧化壓力與毒性方面的疑慮，若考慮任何治療用途，須特別留意。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 所有預測均為 L5（僅有模型預測），沒有臨床試驗，文獻也未顯示治療效果，且缺乏機轉依據。
-- 二氧化鈦主要是惰性賦形劑與紫外線濾劑，預測結果很可能是圖譜假象，不建議投入資源。
+- 只有模型預測，沒有臨床試驗與直接文獻，機轉上也沒有合理依據，證據等級為 L5。
+- 香港許可證未載明適應症，安全性資料亦缺乏，無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得香港衛生署仿單，確認原適應症、警語與禁忌症
-- 補充作用機轉資料（例如查詢 DrugBank）
-- 提出二氧化鈦與骨代謝（或眼科疾病）的生物學合理性，並找到前臨床證據
-- 釐清劑型與給藥途徑是否能達到目標組織
+- 取得香港衛生署仿單，補齊核准適應症、警語與禁忌資料
+- 補充作用機轉資料（如查詢 DrugBank）
+- 提出二氧化鈦影響骨代謝的前臨床或機轉證據
+- 完成給藥途徑相容性評估，並說明吸收與毒性風險
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

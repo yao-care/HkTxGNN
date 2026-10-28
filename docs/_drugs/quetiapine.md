@@ -4,17 +4,17 @@ title: Quetiapine
 parent: 僅模型預測 (L5)
 nav_order: 749
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Quetiapine：預測新適應症為視網膜失養症 (retinal dystrophy with or without extraocular anomalies)（證據等級 L5）。原適應症：雙相情緒障礙、重度情感性疾患、躁期雙相情感障礙、思覺失調症"
+indication_count: 10
 monitor_inn: "QUETIAPINE"
-predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
+predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
+last_modified_at: 2026-10-23
+description: "Quetiapine：預測新適應症為Retinal dystrophy with or without extraocular anomalies（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Quetiapine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-## Quetiapine：從雙相情緒障礙／思覺失調症到視網膜失養症
+## Quetiapine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## 一句話總結
 
-Quetiapine 是一種非典型抗精神病藥，原本用於雙相情緒障礙、躁症發作及思覺失調症。
-TxGNN 模型預測它可能對**視網膜失養症（retinal dystrophy with or without extraocular anomalies）**有效，
-但目前**沒有任何臨床試驗或文獻**支持這個方向，僅為模型預測。
+Quetiapine 是一種非典型抗精神病藥，知識圖譜中記錄的原適應症為雙相情緒障礙與思覺失調症。
+TxGNN 模型排名第一的預測是「視網膜失養症」，但該預測缺乏任何證據支持。本報告改以唯一有文獻佐證的預測 **拔毛症 (Trichotillomania)**（排名第 8）作為評估重點。
+目前**無臨床試驗**，僅有 **6 篇文獻**（以病例報告與回顧為主，且部分文獻與拔毛症的關聯有限），證據偏弱。
 
 ---
 
@@ -48,23 +48,28 @@ TxGNN 模型預測它可能對**視網膜失養症（retinal dystrophy with or w
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 雙相情緒障礙、重度情感性疾患、躁期雙相情感障礙、思覺失調症（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 視網膜失養症 (retinal dystrophy with or without extraocular anomalies) |
-| TxGNN 預測分數 | 99.57% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Retinal dystrophy with or without extraocular anomalies |
+| TxGNN 預測分數 | 0.9957 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 20 張 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 許可證數 | 至少 20 張 |
+| 核准張數 | 至少 20 張（清單可能不完整） |
 | 建議決策 | Hold |
+
+**關於證據等級的說明：** 現有文獻中有直接討論 quetiapine 用於拔毛症的病例報告與病例系列，但均非對照試驗。依本報告的判定原則，這類資料強度不足以支持較高等級，故保守評為 L5，僅視為值得探究的研究問題。
+
+**關於排名第一的預測：** 排名前 10 的預測中，除拔毛症外，其餘 9 項（如視網膜失養症、醣基化先天異常、無腦回畸形等）皆無臨床試驗或文獻支持，機轉上也無合理連結，均建議 Hold。
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般而言，quetiapine 是拮抗血清素 5-HT2A 與多巴胺 D2 受體的非典型抗精神病藥，其療效在雙相情緒障礙與思覺失調症中已被證實。
+目前缺乏詳細的作用機轉資料。一般而言，quetiapine 是非典型抗精神病藥，已知會拮抗血清素 5-HT2A 與多巴胺 D2 受體。
 
-然而，視網膜失養症屬於遺傳性、退行性的視網膜疾病，與神經傳導物質受體調控之間，並沒有已建立的關聯。就現有資料而言，找不到可支持的機轉連結。
+拔毛症屬於強迫症譜系的身體聚焦重複行為。多巴胺與血清素失調被認為與這類行為有關，非典型抗精神病藥有時被用作輔助治療，因此在機轉上有一定合理性。
 
-此外，quetiapine 本身有眼部安全性考量（例如白內障相關警語），用於視網膜疾病需特別謹慎。99.57% 的高分是知識圖譜的計算結果，不應視為療效證據。
+不過需謹慎：文獻也指出，抗精神病藥（包括 quetiapine）可能誘發或加重強迫症狀。因此方向並非單向有利，需要對照研究才能釐清。
 
 ---
 
@@ -76,39 +81,39 @@ TxGNN 模型預測它可能對**視網膜失養症（retinal dystrophy with or w
 
 ## 文獻證據
 
-目前無相關文獻。
+| PMID | 年份 | 類型 | 期刊 | 主要發現 |
+|------|-----|------|------|---------|
+| [12405081](https://pubmed.ncbi.nlm.nih.gov/12405081/) | 2002 | 回顧／病例報告 | Psychiatry | 回顧拔毛症的藥物治療，並報告一名 33 歲女性患者使用 quetiapine 後臨床反應良好 |
+| [19142421](https://pubmed.ncbi.nlm.nih.gov/19142421/) | 2008 | 病例報告／系列 | Rev Bras Psiquiatr | 探討 quetiapine 治療拔毛症（無摘要可供詳述） |
+| [38797877](https://pubmed.ncbi.nlm.nih.gov/38797877/) | 2025 | 回顧 | Int J Dermatol | 拔毛症藥物治療的大型回顧，指出目前缺乏治療指引 |
+| [11212595](https://pubmed.ncbi.nlm.nih.gov/11212595/) | 2001 | 病例報告與回顧 | J Psychiatry Neurosci | quetiapine 在一名合併強迫症與拔毛症的患者中加重強迫症狀，屬不利訊號 |
+| [20833945](https://pubmed.ncbi.nlm.nih.gov/20833945/) | 2010 | 病例報告與文獻回顧 | Psychosomatics | 復發性 Rapunzel 症候群與拔毛症的處置 |
+| [27840761](https://pubmed.ncbi.nlm.nih.gov/27840761/) | 2016 | 病例報告 | Case Rep Psychiatry | 拔毛症作為失智症的表現，與 quetiapine 的關聯有限 |
 
 ---
 
 ## 香港上市資訊
 
-資料中的許可證均未載明劑型與核准適應症文字，以下列出 5 張主要許可證（共 20 張，均為有效的單方製劑）：
+香港許可證清單可能不完整，以下列出 5 張主要許可證，且記錄中未提供劑型與核准適應症文字。
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-52580 | SEROQUEL TAB 300MG（Luye Pharma） | 未載明 | 未載明 |
-| HK-58348 | SEROQUEL XR EXTENDED RELEASE TAB 150MG（Luye Pharma） | 未載明（緩釋錠） | 未載明 |
-| HK-57716 | SEROQUEL XR EXTENDED RELEASE TAB 200MG（Luye Pharma） | 未載明（緩釋錠） | 未載明 |
-| HK-58567 | QUETIAPINE-TEVA TAB 25MG（Teva） | 未載明 | 未載明 |
-| HK-65854 | QUETIAPINE TABLETS 100MG（Controlled Medications） | 未載明 | 未載明 |
+| HK-52580 | SEROQUEL TAB 300MG | 未載明 | 未載明 |
+| HK-58348 | SEROQUEL XR EXTENDED RELEASE TAB 150MG | 未載明 | 未載明 |
+| HK-58567 | QUETIAPINE-TEVA TAB 25MG | 未載明 | 未載明 |
+| HK-57438 | PMS-QUETIAPINE TAB 150MG | 未載明 | 未載明 |
+| HK-65854 | QUETIAPINE TABLETS 100MG | 未載明 | 未載明 |
 
 ---
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌／風險相關疾病**（來源為知識圖譜，非仿單內容），主要包括：
-  - 心血管：高血壓、姿勢性低血壓、長 QT 症候群、尖端扭轉型心律不整、心肌梗塞
-  - 代謝：糖尿病、糖尿病酮酸中毒、高血糖、高血脂、高三酸甘油脂血症、肥胖
-  - 血液：嗜中性白血球減少、顆粒球缺乏症
-  - 神經：癲癇、基底核疾病、眼瞼痙攣
-  - 其他：肝臟疾病、膽囊疾病、甲狀腺功能低下、低血鉀、乳癌
-- **藥物交互作用**：共查到 100 筆，其中列出的重度（Major）交互作用包括：
-  - Bupropion
-  - Morphine
+- **知識圖譜記錄的禁忌關係**（非仿單文字）：高血壓、直立性低血壓、長 QT 症候群、尖端扭轉型心律不整、癲癇、肝病、糖尿病、糖尿病酮酸中毒、高血脂、肥胖、嗜中性白血球低下、顆粒球缺乏症、甲狀腺功能低下、心肌梗塞等。
+- **藥物交互作用**：資料庫共記錄 100 項。
+  - 較高風險（Major）：Bupropion、Morphine。
+  - 中度風險（Moderate）：降血糖藥（Metformin、Pioglitazone、Acarbose、Alogliptin、Canagliflozin、Chlorpropamide、Albiglutide）、抗膽鹼藥（Atropine、Hyoscyamine、Glycopyrronium、Clidinium）、Epinephrine、Dexamethasone、Famotidine、Aprepitant 等。
 
-  中度（Moderate）交互作用包括降血糖藥（如 metformin、pioglitazone、acarbose、alogliptin、canagliflozin）、抗膽鹼藥（如 atropine、hyoscyamine）、epinephrine、dexamethasone 等。
-
-仿單警語與禁忌的正式內容仍請參考原廠仿單。
+仿單的警語與禁忌症資料尚未取得，完整安全性資訊請參考原廠仿單。
 
 ---
 
@@ -117,14 +122,15 @@ TxGNN 模型預測它可能對**視網膜失養症（retinal dystrophy with or w
 **決策：Hold**
 
 **理由：**
-- 僅有模型預測（L5），沒有臨床試驗或文獻佐證，且機轉上找不到合理的連結。
-- Quetiapine 有眼部及多項代謝、心血管安全性顧慮，在缺乏效益證據的情況下不宜推進。
+- 拔毛症雖有若干病例報告支持，但無任何臨床試驗，證據等級僅為 L5，且有文獻提示 quetiapine 可能加重強迫症狀。
+- 拔毛症屬良性風險的疾病，而 quetiapine 有代謝、鎮靜、QT 延長等風險，且藥物交互作用多，風險效益比尚不明確。
+- 其餘 9 項預測皆無證據支持，不建議推進。
 
 **若要推進需要：**
-- 補齊 quetiapine 的作用機轉資料，並評估與視網膜失養症病理的可能關聯
-- 取得香港衛生署仿單的警語與禁忌內容，完成安全性篩選
-- 前臨床（細胞或動物模型）研究，確認對視網膜退化有無保護作用
-- 評估眼部安全性（如白內障風險）對此族群的影響
+- 取得 quetiapine 作用機轉的詳細資料。
+- 取得香港仿單的警語與禁忌症資料。
+- 設計小規模隨機對照試驗，並與已有證據的標準治療（如行為療法、N-乙醯半胱胺酸等）比較。
+- 擬定代謝、心電圖（QT）與血球監測計畫。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

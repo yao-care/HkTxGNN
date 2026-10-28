@@ -4,17 +4,17 @@ title: Sertaconazole
 parent: 僅模型預測 (L5)
 nav_order: 809
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Sertaconazole：預測新適應症為體癬 (Tinea Corporis)（證據等級 L5）。原適應症：足癬（Tinea pedis）。香港許可證未提供核准適應症文字，此為知識圖譜資料"
 monitor_inn: "Sertaconazole"
-predicted_indications: ["ectothrix infectious disease", "Majocchi granuloma", "endothrix infectious disease", "pityriasis versicolor"]
+predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease", "pityriasis versicolor"]
+description: "Sertaconazole：預測新適應症為Ectothrix infectious disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Sertaconazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["ectothrix infectious disease", "Majocchi granuloma", "e
 
 </div>
 
-## Sertaconazole：從足癬到體癬
+## Sertaconazole: Ectothrix infectious disease
 {: .text-alpha }
 
 ## 一句話總結
 
 Sertaconazole 是咪唑類（imidazole）外用抗黴菌藥，原本用於足癬（tinea pedis）。
-TxGNN 模型預測它可能對**體癬 (Tinea Corporis)** 有效，
 目前有 **0 個已登記臨床試驗**和 **20 篇文獻**支持這個方向，其中包含多項隨機對照比較研究。
 
 ---
@@ -48,15 +47,15 @@ TxGNN 模型預測它可能對**體癬 (Tinea Corporis)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 足癬（Tinea pedis）。香港許可證未提供核准適應症文字，此為知識圖譜資料 |
-| 預測新適應症 | 體癬 (Tinea Corporis) |
-| TxGNN 預測分數 | 99.94% |
-| 證據等級 | L1（依已發表文獻判定，試驗階段與盲性未逐一確認，屬暫定） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Ectothrix infectious disease |
+| TxGNN 預測分數 | 0.9959 |
+| 證據等級 | L5（依已發表文獻判定，試驗階段與盲性未逐一確認，屬暫定） |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Proceed with Guardrails |
 
-> 說明：TxGNN 分數最高的預測為「腹股溝及肛周皮癬（體股癬）」（99.98%），但該項目沒有任何臨床試驗或文獻，證據等級為 L5。本報告以證據最完整的「體癬」為主要評估對象，其他預測見文末附表。
+本報告以證據最完整的「體癬」為主要評估對象，其他預測見文末附表。
 
 ---
 
@@ -131,12 +130,8 @@ TxGNN 模型預測它可能對**體癬 (Tinea Corporis)** 有效，
 
 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 | 備註 |
 |-----------|-----------|---------|------|------|
-| 腹股溝及肛周皮癬 | 99.98% | L5 | Hold | 無試驗或文獻，僅有模型預測 |
-| 皮膚念珠菌症 | 99.63% | L2 | Proceed with Guardrails | 僅有早期 Phase II 研究與小型兒童研究 |
-| 淺部黴菌症 | 99.55% | L2 | Proceed with Guardrails | 證據來自各亞型彙整，使用前需先界定亞型 |
-| 頭皮或鬍鬚皮癬 | 99.55% | L4 | Hold | 僅有回顧與體外研究；毛囊感染外用通常不足 |
-| 花斑癬 (Pityriasis versicolor) | 99.45% | L3 | Research Question | 僅有一項 1992 年小型研究 |
-| 外毛癬、內毛癬、Majocchi 肉芽腫、深部癬 | 99.37–99.59% | L5 | Hold | 無臨床證據；毛囊或深部感染通常需全身治療 |
+| 花斑癬 (Pityriasis versicolor) | 0.9945 | L3 | Research Question | 僅有一項 1992 年小型研究 |
+| 外毛癬、內毛癬、Majocchi 肉芽腫、深部癬 | 99.37–0.9959 | L5 | Hold | 無臨床證據；毛囊或深部感染通常需全身治療 |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

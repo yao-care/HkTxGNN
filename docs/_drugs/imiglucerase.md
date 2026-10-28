@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Imiglucerase
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 462
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Imiglucerase：預測新適應症為Hurler 症候群 (Hurler syndrome)（證據等級 L4）。原適應症：戈謝氏症 (Gaucher disease)"
 monitor_inn: "Imiglucerase"
-predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "lysosomal storage disease with skeletal involvement", "Wolman disease with hypolipoproteinemia and acanthocytosis", "Wolman disease", "proximal myopathy with extrapyramidal signs", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant"]
+predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
+description: "Imiglucerase：預測新適應症為Hurler 症候群 (Hurler syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Imiglucerase
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm o
 
 </div>
 
-## Imiglucerase：從戈謝氏症到 Hurler 症候群
+## Imiglucerase: Hurler 症候群 (Hurler syndrome)
 {: .text-alpha }
 
 ## 一句話總結
@@ -45,12 +45,12 @@ TxGNN 模型預測它可能對 **Hurler 症候群 (Hurler syndrome)** 有效，�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 戈謝氏症 (Gaucher disease)（依知識圖譜適應症資料；香港許可證未載明適應症文字） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | Hurler 症候群 (Hurler syndrome) |
-| TxGNN 預測分數 | 99.52% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| TxGNN 預測分數 | 0.9952 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對 **Hurler 症候群 (Hurler syndrome)** 有效，�
 
 Hurler 症候群（黏多醣症 I 型，MPS I）則是 α-L-艾杜糖醛酸酶（alpha-L-iduronidase）缺乏所致，累積的受質是醣胺聚醣（glycosaminoglycans）。Imiglucerase 作用的受質與此完全不同，**無法取代缺乏的酵素**，因此沒有直接的機轉依據。兩者唯一的關聯是「同屬溶小體儲積症、皆可採酵素替代療法」這個類別概念。
 
-高預測分數較可能反映知識圖譜中溶小體疾病群集內的網路鄰近性，而非真實的生物學關聯。MPS I 已有專一的核准酵素替代療法（laronidase）。
+高預測分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非真實的生物學證據。MPS I 已有專一的核准酵素替代療法（laronidase）。
 
 同一份回顧文獻也用來支持 Scheie 症候群（MPS I 的較輕型）的預測，其限制相同。
 

@@ -6,9 +6,9 @@ nav_order: 297
 evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Doxazosin：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L4）。原適應症：高血壓、良性攝護腺肥大"
 monitor_inn: "DOXAZOSIN"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
+description: "Doxazosin：預測新適應症為偏頭痛 (migraine disorder)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Doxazosin
@@ -33,7 +33,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 
 </div>
 
-## Doxazosin：從高血壓與良性攝護腺肥大到偏頭痛
+## Doxazosin: 偏頭痛 (migraine disorder)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,11 +46,11 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 高血壓、良性攝護腺肥大（來自知識圖譜；香港許可證未載明核准適應症文字） |
-| 預測新適應症 | 偏頭痛 (Migraine Disorder) |
-| TxGNN 預測分數 | 99.20% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 偏頭痛 (migraine disorder) |
+| TxGNN 預測分數 | 0.9920 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 
 需要強調的是，0.992 的分數是計算模型的預測，並非臨床驗證。目前唯一的文獻是 1997 年的小型個人經驗報告，並非對照試驗，也沒有直接的療效數據。
 
-另一個預測適應症「伴腦幹先兆的偏頭痛 (Migraine with Brainstem Aura)」（分數 99.19%）很可能只是因為與上位疾病「偏頭痛」在本體論上相近而得分偏高。該亞型沒有任何臨床試驗或文獻，且屬罕見亞型，不易進行專屬試驗，應等偏頭痛本身有支持性臨床數據後再考慮。
+另一個預測適應症「伴腦幹先兆的偏頭痛 (Migraine with Brainstem Aura)」（分數 0.9919）很可能只是因為與上位疾病「偏頭痛」在本體論上相近而得分偏高。該亞型沒有任何臨床試驗或文獻，且屬罕見亞型，不易進行專屬試驗，應等偏頭痛本身有支持性臨床數據後再考慮。
 
 ## 臨床試驗證據
 

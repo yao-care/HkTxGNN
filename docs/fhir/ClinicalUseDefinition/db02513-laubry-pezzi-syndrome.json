@@ -36,6 +36,10 @@
     {
       "url": "https://hktxgnn.yao.care/fhir/StructureDefinition/prediction-source",
       "valueString": "TxGNN KG + DL"
+    },
+    {
+      "url": "https://hktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9917
     }
   ],
   "warning": {

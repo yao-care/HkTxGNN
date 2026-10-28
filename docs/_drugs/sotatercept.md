@@ -6,7 +6,7 @@ nav_order: 830
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Sotatercept：預測新適應症為急性淋巴性白血病 (Acute Lymphoblastic Leukemia)（證據等級 L5）。原適應症：許可證資料未載明"
+description: "Sotatercept：預測新適應症為急性淋巴性白血病（證據等級 L5）。原適應症：許可證資料未載明"
 monitor_inn: "Sotatercept"
 predicted_indications: ["acute lymphoblastic leukemia (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "HER2 positive breast carcinoma", "transitional cell carcinoma", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant"]
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**急性淋巴性白血病 (Acute Lymphoblastic Le
 |------|------|
 | 原適應症 | 許可證資料未載明 |
 | 預測新適應症 | 急性淋巴性白血病 (Acute Lymphoblastic Leukemia) |
-| TxGNN 預測分數 | 99.78% |
+| TxGNN 預測分數 | 0.9978 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold |
 
 ---
@@ -61,18 +61,18 @@ TxGNN 模型預測它可能對**急性淋巴性白血病 (Acute Lymphoblastic Le
 
 目前缺乏詳細的作用機轉資料。根據本報告所整理的資訊，Sotatercept 是一種活化素受體 IIA-Fc 融合蛋白，作為活化素及其他 TGF-β 超家族配體（如 GDF）的「配體陷阱」。
 
-活化素／TGF-β 訊號會影響造血作用與骨髓微環境，這是它與白血病之間唯一的理論連結。但此連結屬推測性質，沒有直接的機轉或臨床證據。0.998 的 TxGNN 分數僅是計算模型的預測結果，不能視為療效證據。
+活化素／TGF-β 訊號會影響造血作用與骨髓微環境，這是它與白血病之間唯一的理論連結。但此連結屬推測性質，沒有直接的機轉或臨床證據。0.9978 的 TxGNN 模型（深度學習）分數僅是計算模型的預測結果，可能反映模型從相關疾病間學到的相似性，並非生物學證據，不能視為療效證據。
 
 **其他預測適應症（皆為 L5，僅有模型預測）：**
 
 | 排名 | 預測適應症 | TxGNN 分數 | 建議 | 簡述 |
 |------|-----------|-----------|------|------|
-| 2 | 重度非增殖性糖尿病視網膜病變 | 99.77% | Hold | TGF-β／活化素與視網膜血管重塑有關，但 Sotatercept 有出血相關不良事件（如鼻出血、微血管擴張），需專門評估 |
-| 3 | 糖尿病視網膜病變 | 99.72% | Hold | 理由同上；血管性眼疾需特別謹慎 |
-| 4 | 藥物誘發性骨質疏鬆 | 99.65% | Research Question | 活化素 A 抑制成骨細胞並促進破骨細胞生成；同類 ActRIIA-Fc 藥物在前臨床與早期人體研究中提高骨密度，機轉上最為合理 |
-| 5 | 糖尿病白內障 | 99.49% | Hold | TGF-β 與水晶體上皮間質轉化有關，但全身性生物製劑用於此適應症的可行性存疑 |
-| 6 | HER2 陽性乳癌 | 99.43% | Hold | 活化素訊號在腫瘤中具雙面性，抑制後的腫瘤學效應難以預測 |
-| 7–10 | 泌尿上皮癌相關亞型（移行細胞癌、前列腺尿道泌尿上皮癌、腎盂肉瘤樣移行細胞癌、膀胱浸潤性肉瘤樣變異型） | 99.34%–99.39% | Hold | 僅有 TGF-β／EMT 的推測；相近分數可能反映本體論相近性，並非獨立佐證 |
+| 2 | 重度非增殖性糖尿病視網膜病變 | 0.9977 | Hold | TGF-β／活化素與視網膜血管重塑有關，但 Sotatercept 有出血相關不良事件（如鼻出血、微血管擴張），需專門評估 |
+| 3 | 糖尿病視網膜病變 | 0.9972 | Hold | 理由同上；血管性眼疾需特別謹慎 |
+| 4 | 藥物誘發性骨質疏鬆 | 0.9965 | Research Question | 活化素 A 抑制成骨細胞並促進破骨細胞生成；同類 ActRIIA-Fc 藥物在前臨床與早期人體研究中提高骨密度，機轉上最為合理 |
+| 5 | 糖尿病白內障 | 0.9949 | Hold | TGF-β 與水晶體上皮間質轉化有關，但全身性生物製劑用於此適應症的可行性存疑 |
+| 6 | HER2 陽性乳癌 | 0.9943 | Hold | 活化素訊號在腫瘤中具雙面性，抑制後的腫瘤學效應難以預測 |
+| 7–10 | 泌尿上皮癌相關亞型（移行細胞癌、前列腺尿道泌尿上皮癌、腎盂肉瘤樣移行細胞癌、膀胱浸潤性肉瘤樣變異型） | 0.9934–0.9939 | Hold | 僅有 TGF-β／EMT 的推測；相近分數可能反映本體論相近性，並非獨立佐證 |
 
 ---
 

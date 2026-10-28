@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Triprolidine
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 911
-evidence_level: L4
-indication_count: 7
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Triprolidine：預測新適應症為過敏性蕁麻疹 (Allergic Urticaria)（證據等級 L4）。原適應症：過敏性鼻炎、血管運動性鼻炎、感冒、異位性結膜炎、蕁麻疹、血管性水腫等"
 monitor_inn: "Triprolidine"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
+description: "Triprolidine：預測新適應症為Nasal cavity disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Triprolidine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **7** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopha
 
 </div>
 
-## Triprolidine：從過敏性鼻炎到過敏性蕁麻疹
+## Triprolidine: Nasal cavity disease
 {: .text-alpha }
 
 ## 一句話總結
 
 Triprolidine 是第一代 H1 組織胺受體拮抗劑，原本用於過敏性鼻炎、感冒症狀、蕁麻疹等過敏相關疾病。
-TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效，
 但目前**沒有臨床試驗**，僅有 **2 篇間接文獻**，且該適應症實質上屬於既有適應症「蕁麻疹」的子類型，並非真正的新用途。
 
 ---
@@ -48,11 +47,11 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、感冒、異位性結膜炎、蕁麻疹、血管性水腫等（來自知識圖譜，香港許可證未載明適應症文字） |
-| 預測新適應症 | 過敏性蕁麻疹 (Allergic Urticaria) |
-| TxGNN 預測分數 | 99.99% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Nasal cavity disease |
+| TxGNN 預測分數 | 0.9983 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -62,7 +61,7 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Triprolidine 是第一代 H1 受體拮抗劑（常見於與偽麻黃鹼組成的複方感冒藥），其成分在蕁麻疹與血管性水腫等過敏性疾病中的角色已為人所知。
 
-過敏性蕁麻疹的核心機制是肥大細胞釋放組織胺，造成風團與紅斑。H1 受體阻斷可直接對抗這個路徑，因此機轉上高度合理。由於過敏性蕁麻疹屬於已列於適應症的「蕁麻疹」之子類型，這比較像是**適應症範圍內的延伸**，而非真正的藥物再利用，這也與極高的 TxGNN 分數相符。
+過敏性蕁麻疹的核心機制是肥大細胞釋放組織胺，造成風團與紅斑。H1 受體阻斷可直接對抗這個路徑，因此機轉上高度合理。
 
 其他排名較高的預測（寒冷性蕁麻疹、鼻腔疾病、咽炎、急性喉咽炎、頑固性異位性皮膚炎、異位性 IgE 反應性）多為與既有適應症重疊的症狀緩解，或證據更薄弱的推測。
 
@@ -115,7 +114,6 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 **決策：Hold**
 
 **理由：**
-- 預測的「過敏性蕁麻疹」本質上屬於既有適應症的子類型，不構成新的再利用機會；且沒有 Triprolidine 專屬的臨床試驗，現有文獻皆為間接證據。
 - 作用機轉資料缺漏，香港仿單的警語與禁忌資料亦未取得，目前無法進入安全性篩選。
 
 **若要推進需要：**

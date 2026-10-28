@@ -6,9 +6,9 @@ nav_order: 629
 evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Norethisterone：預測新適應症為閉經 (Amenorrhea)（證據等級 L4）。原適應症：痤瘡、原發性卵巢衰竭、子宮內膜異位症、停經後骨質疏鬆等"
 monitor_inn: "NORETHISTERONE"
 predicted_indications: ["amenorrhea (disease)"]
+description: "Norethisterone：預測新適應症為Amenorrhea (disease)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Norethisterone
@@ -33,7 +33,7 @@ predicted_indications: ["amenorrhea (disease)"]
 
 </div>
 
-## Norethisterone：從痤瘡與子宮內膜異位症到閉經
+## Norethisterone: Amenorrhea (disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 痤瘡、原發性卵巢衰竭、子宮內膜異位症、停經後骨質疏鬆等（依知識圖譜資料；香港許可證未載明適應症文字） |
-| 預測新適應症 | 閉經 (Amenorrhea) |
-| TxGNN 預測分數 | 99.60% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Amenorrhea (disease) |
+| TxGNN 預測分數 | 0.9960 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 12 張 |
+| 香港上市 | 上市中（有效許可證 12 張／共 12 張） |
+| 許可證數 | 12 張（有效 12 張） |
 | 建議決策 | Hold |
 
 ---

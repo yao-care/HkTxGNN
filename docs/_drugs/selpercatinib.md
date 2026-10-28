@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 805
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
-description: "Selpercatinib：預測新適應症為肺高壓 (Pulmonary Hypertension)（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症"
+last_modified_at: 2026-10-28
 monitor_inn: "SELPERCATINIB"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
+description: "Selpercatinib：預測新適應症為肺高壓 (pulmonary hypertension)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Selpercatinib
@@ -33,7 +33,7 @@ predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine
 
 </div>
 
-## Selpercatinib：從 RET 相關癌症到肺高壓
+## Selpercatinib: 肺高壓 (pulmonary hypertension)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**肺高壓 (Pulmonary Hypertension)** 有效，�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證資料未載明核准適應症 |
-| 預測新適應症 | 肺高壓 (Pulmonary Hypertension) |
-| TxGNN 預測分數 | 99.18% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 肺高壓 (pulmonary hypertension) |
+| TxGNN 預測分數 | 0.9918 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,9 +63,9 @@ TxGNN 模型預測它可能對**肺高壓 (Pulmonary Hypertension)** 有效，�
 
 目前資料中並未建立 RET 抑制與肺血管重塑之間的機轉路徑。過去曾有帶有 PDGFR 等其他標靶的多激酶抑制劑被探索用於肺動脈高壓，但 Selpercatinib 對 RET 的選擇性很高，這類經驗無法直接套用。
 
-因此，0.99 的預測分數目前只能視為模型在知識圖譜上的關聯訊號，尚無生物學或臨床證據支持。
+因此，0.9905 的預測分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據，目前尚無生物學或臨床證據支持。
 
-其他預測的新適應症（偏頭痛 99.17%、腦幹先兆偏頭痛 99.05%）同樣沒有任何臨床試驗或文獻，也同為 L5、Hold。
+其他預測的新適應症（偏頭痛 0.9917、腦幹先兆偏頭痛 0.9905）同樣沒有任何臨床試驗或文獻，也同為 L5、Hold。
 
 ---
 
@@ -125,7 +125,7 @@ TxGNN 模型預測它可能對**肺高壓 (Pulmonary Hypertension)** 有效，�
 **決策：Hold**
 
 **理由：**
-- 肺高壓預測僅來自 TxGNN 圖譜分數，無臨床試驗，文獻亦與肺高壓無關，證據等級為 L5。
+- 肺高壓預測僅來自 TxGNN 模型（深度學習）分數，無臨床試驗，文獻亦與肺高壓無關，證據等級為 L5。
 - RET 抑制與肺血管病變之間沒有已建立的機轉連結，且藥物交互作用多，用於非腫瘤適應症的風險效益不佳。
 
 **若要推進需要：**

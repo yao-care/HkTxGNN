@@ -6,9 +6,9 @@ nav_order: 575
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Methylphenidate：預測新適應症為顏面指趾生殖器症候群 (Faciodigitogenital syndrome)（證據等級 L5）。原適應症：ADHD、猝睡症、猝睡併猝倒症候群"
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
+description: "Methylphenidate：預測新適應症為顏面指趾生殖器症候群 (faciodigitogenital syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Methylphenidate
@@ -33,7 +33,7 @@ predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", 
 
 </div>
 
-## Methylphenidate：從注意力不足過動症到顏面指趾生殖器症候群
+## Methylphenidate: 顏面指趾生殖器症候群 (faciodigitogenital syndrome)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,11 +47,11 @@ TxGNN 模型預測它可能對**顏面指趾生殖器症候群 (Faciodigitogenit
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | ADHD、猝睡症、猝睡併猝倒症候群（香港許可證未登載適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 顏面指趾生殖器症候群 (Faciodigitogenital syndrome) |
-| TxGNN 預測分數 | 99.998% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 顏面指趾生殖器症候群 (faciodigitogenital syndrome) |
+| TxGNN 預測分數 | 1.0000 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**顏面指趾生殖器症候群 (Faciodigitogenit
 
 顏面指趾生殖器症候群（Aarskog-Scott 症候群）是由 FGD1 突變引起的 X 染色體連鎖發育疾病，特徵為骨骼與生殖器異常。部分患者伴有類似 ADHD 的行為特徵，因此 methylphenidate 理論上可能改善這類行為症狀。
 
-這只是推測性的連結：methylphenidate 無法治療症候群本身。此預測很可能來自知識圖譜中與 ADHD 適應症的網絡鄰近性，而非直接證據。
+這只是推測性的連結：methylphenidate 無法治療症候群本身。此預測來自 TxGNN 模型（深度學習），分數可能反映模型從相關疾病間學到的相似性，而非生物學證據。
 
 ---
 
@@ -111,7 +111,7 @@ TxGNN 模型預測它可能對**顏面指趾生殖器症候群 (Faciodigitogenit
 **決策：Hold**
 
 **理由：**
-- TxGNN 分數極高，但無任何臨床試驗或文獻，證據等級僅 L5。預測可能是知識圖譜的網絡假象，且藥物無法治療該症候群的根本病因。
+- TxGNN 分數極高，但無任何臨床試驗或文獻，證據等級僅 L5。此分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，而非生物學證據，且藥物無法治療該症候群的根本病因。
 
 **若要推進需要：**
 - 取得香港衛生署仿單的警語與禁忌症，並補齊作用機轉資料

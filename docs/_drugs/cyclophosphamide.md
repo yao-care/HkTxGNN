@@ -4,17 +4,17 @@ title: Cyclophosphamide
 parent: 高證據等級 (L1-L2)
 nav_order: 234
 evidence_level: L2
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Cyclophosphamide：預測新適應症為骨髓性白血病 (Myeloid Leukemia)（證據等級 L2）。原適應症：蕈狀肉芽腫、多發性骨髓瘤、神經母細胞瘤、淋巴瘤、乳癌、視網膜母細胞瘤等"
 monitor_inn: "CYCLOPHOSPHAMIDE"
-predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
+predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
+description: "Cyclophosphamide：預測新適應症為骨髓性白血病 (myeloid leukemia)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Cyclophosphamide
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **5** 個
+證據等級: **L2** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "v
 
 </div>
 
-## Cyclophosphamide：從淋巴瘤與乳癌等惡性腫瘤到骨髓性白血病
+## Cyclophosphamide: 骨髓性白血病 (myeloid leukemia)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**骨髓性白血病 (Myeloid Leukemia)** 有效�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 蕈狀肉芽腫、多發性骨髓瘤、神經母細胞瘤、淋巴瘤、乳癌、視網膜母細胞瘤等（香港許可證未登載適應症文字，此為知識圖譜所列適應症） |
-| 預測新適應症 | 骨髓性白血病 (Myeloid Leukemia) |
-| TxGNN 預測分數 | 99.47% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 骨髓性白血病 (myeloid leukemia) |
+| TxGNN 預測分數 | 0.9947 |
 | 證據等級 | L2 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---
@@ -168,10 +168,9 @@ TxGNN 模型預測它可能對**骨髓性白血病 (Myeloid Leukemia)** 有效�
 
 | 排名 | 預測適應症 | 分數 | 證據等級 | 建議 |
 |------|-----------|------|---------|------|
-| 2 | 節細胞神經母細胞瘤 (Ganglioneuroblastoma) | 99.43% | L4 | Research Question |
-| 3 | 椎骨異常合併內分泌及 T 細胞功能異常 | 99.38% | L5 | Hold |
-| 4 | 腹膜後腫瘤 (Retroperitoneal neoplasm) | 99.37% | L4 | Research Question |
-| 5 | 淋巴結癌 (Lymph node cancer) | 99.31% | L1 | Proceed with Guardrails |
+| 3 | 椎骨異常合併內分泌及 T 細胞功能異常 | 0.9938 | L5 | Hold |
+| 4 | 腹膜後腫瘤 (Retroperitoneal neoplasm) | 0.9937 | L4 | Research Question |
+| 5 | 淋巴結癌 (Lymph node cancer) | 0.9931 | L1 | Proceed with Guardrails |
 
 淋巴結癌的 L1 證據主要來自淋巴結陽性乳癌的輔助化療 Phase 3 試驗（如 NCT00003782，n=5351），反映的是既有適應症的使用，並非真正的新適應症。椎骨異常合併 T 細胞功能異常一項目前僅有模型預測，無試驗與文獻，且免疫抑制劑對此類 T 細胞功能障礙可能不利，應暫緩。
 ## 免責聲明

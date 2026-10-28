@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hydroxyzine
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 449
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Hydroxyzine：預測新適應症為過敏性蕁麻疹 (Allergic Urticaria)（證據等級 L4）。原適應症：異位性皮膚炎、過敏性鼻炎、蕁麻疹、血管性水腫等"
 monitor_inn: "Hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
+description: "Hydroxyzine：預測新適應症為Rosacea conjunctivitis（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Hydroxyzine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ predicted_indications: ["rosacea conjunctivitis"]
 
 </div>
 
-## Hydroxyzine：從過敏性皮膚與呼吸道疾病到過敏性蕁麻疹
+## Hydroxyzine: Rosacea conjunctivitis
 {: .text-alpha }
 
 ## 一句話總結
 
 Hydroxyzine 是第一代 H1 受體拮抗劑，原本用於異位性皮膚炎、過敏性鼻炎、蕁麻疹及血管性水腫等過敏性疾病。
-TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效，
 目前**無臨床試驗**登記，但有 **18 篇文獻**（多為抗組織胺類別的綜述）支持這個方向。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 異位性皮膚炎、過敏性鼻炎、蕁麻疹、血管性水腫等（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 過敏性蕁麻疹 (Allergic Urticaria) |
-| TxGNN 預測分數 | 99.77% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 11 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Rosacea conjunctivitis |
+| TxGNN 預測分數 | 0.9970 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 11 張／共 11 張） |
+| 許可證數 | 11 張（有效 11 張） |
 | 建議決策 | Hold（過敏性蕁麻疹）；備選方向「寒冷性蕁麻疹」可 Proceed with Guardrails |
 
 ## 為什麼這個預測合理？
@@ -110,7 +109,7 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 **決策：Hold（針對「過敏性蕁麻疹」）**
 
 **理由：**
-- 過敏性蕁麻疹的預測分數很高，機轉也合理，但目前沒有任何臨床試驗，文獻多為類別綜述或 cetirizine 相關資料，缺乏 Hydroxyzine 專屬的直接證據（證據等級 L4）。此外，蕁麻疹本已是既有適應症，新增價值有限，且新一代抗組織胺為首選。
+- 此外，蕁麻疹本已是既有適應症，新增價值有限，且新一代抗組織胺為首選。
 - 同一份預測中，**寒冷性蕁麻疹 (Cold Urticaria)** 的證據較佳（L3）：有 1984 年比較 hydroxyzine 與其他藥物的雙盲研究（PMID 6480953）及單一病人研究（PMID 475987），可考慮以 Proceed with Guardrails 方式作為優先探索方向。其餘預測（酒糟性結膜炎、頑固型異位性皮膚炎、異位性 IgE 反應性）僅有模型分數，建議 Hold。
 
 **若要推進需要：**

@@ -6,9 +6,9 @@ nav_order: 455
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Icosapent Ethyl：預測新適應症為血紅素病變 (Hemoglobinopathy)（證據等級 L5）。原適應症：高三酸甘油脂血症"
 monitor_inn: "ICOSAPENT ETHYL"
 predicted_indications: ["hemoglobinopathy"]
+description: "Icosapent Ethyl：預測新適應症為血紅素病變 (hemoglobinopathy)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Icosapent Ethyl
@@ -33,7 +33,7 @@ predicted_indications: ["hemoglobinopathy"]
 
 </div>
 
-## Icosapent Ethyl：從高三酸甘油脂血症到血紅素病變
+## Icosapent Ethyl: 血紅素病變 (hemoglobinopathy)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**血紅素病變 (Hemoglobinopathy)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 高三酸甘油脂血症（來自 TxGNN 知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 血紅素病變 (Hemoglobinopathy) |
-| TxGNN 預測分數 | 99.09% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 血紅素病變 (hemoglobinopathy) |
+| TxGNN 預測分數 | 0.9909 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -101,7 +101,7 @@ TxGNN 模型預測它可能對**血紅素病變 (Hemoglobinopathy)** 有效，
 **決策：Hold**
 
 **理由：**
-- 目前僅有 TxGNN 模型預測分數（99.09%），沒有任何臨床試驗或文獻佐證，證據等級為 L5。
+- 目前僅有 TxGNN 模型預測分數（0.9909），沒有任何臨床試驗或文獻佐證，證據等級為 L5。
 - 作用機轉資料與香港仿單的安全性資訊皆缺漏，無法進行機轉關聯與安全性評估。
 
 **若要推進需要：**

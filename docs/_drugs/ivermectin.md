@@ -4,17 +4,17 @@ title: Ivermectin
 parent: 僅模型預測 (L5)
 nav_order: 494
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Ivermectin：預測新適應症為外陰陰道念珠菌病 (Vulvovaginal Candidiasis)（證據等級 L5）。原適應症：類圓線蟲病、盤尾絲蟲症"
 monitor_inn: "Ivermectin"
-predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "neonatal candidiasis", "candida glabrata", "congenital candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive", "vulvitis"]
+predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "candida glabrata", "neonatal candidiasis", "congenital candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
 ---
 
 # Ivermectin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**外陰陰道念珠菌病 (Vulvovaginal Candidias
 |------|------|
 | 原適應症 | 類圓線蟲病、盤尾絲蟲症 |
 | 預測新適應症 | 外陰陰道念珠菌病 (Vulvovaginal Candidiasis) |
-| TxGNN 預測分數 | 99.95% |
+| TxGNN 預測分數 | 0.9995 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 8 張 |
+| 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
+| 許可證數 | 8 張（有效 8 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**外陰陰道念珠菌病 (Vulvovaginal Candidias
 
 然而，真菌細胞並沒有這類標的，因此念珠菌感染在機轉上並無已知的合理連結。原適應症為寄生蟲感染，新預測適應症為真菌感染，兩者病原體類型不同。
 
-這個高分較可能反映知識圖譜中與其他抗感染藥物的網路相近性，而非真正的生物學依據。排名前 10 的預測多為念珠菌或外陰陰道相關疾病，呈現同一類別聚集的現象，也支持這個判斷。
+這個高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。排名前 10 的預測多為念珠菌或外陰陰道相關疾病，呈現同一類別聚集的現象，也支持這個判斷。
 
 ---
 

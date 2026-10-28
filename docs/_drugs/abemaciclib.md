@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Abemaciclib
-parent: 中證據等級 (L3-L4)
+parent: 僅已知用途（無新預測）
 nav_order: 13
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Abemaciclib：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L4）。原適應症：許可證未載明（文獻顯示為荷爾蒙受體陽性、HER2 陰性乳癌）"
-monitor_inn: "Abemaciclib"
-predicted_indications: ["rheumatoid arthritis", "hyperthyroidism", "multiple endocrine neoplasia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "homozygous familial hypercholesterolemia", "heart disease", "Laubry-Pezzi syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "Jeune syndrome situs inversus", "amyotrophic lateral sclerosis"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Abemaciclib: 香港已知用途與上市狀態；目前無新的候選適應症"
+predicted_indications: []
 ---
 
 # Abemaciclib
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,57 +32,47 @@ predicted_indications: ["rheumatoid arthritis", "hyperthyroidism", "multiple end
 
 </div>
 
-## Abemaciclib：從乳癌（推定）到類風濕性關節炎
+<!-- known-uses-page -->
+<!-- description: Abemaciclib: 香港已知用途與上市狀態；目前無新的候選適應症 -->
+## Abemaciclib: 香港已知用途與上市狀態
 {: .text-alpha }
 
-> 註：資料中香港許可證未提供核准適應症文字，原適應症無法由許可證確認。依文獻與藥物類別，Abemaciclib 為 CDK4/6 抑制劑，用於荷爾蒙受體陽性、HER2 陰性乳癌。
+## 摘要
+TxGNN 深度學習模型對 Abemaciclib 沒有分數達 0.99 以上的候選適應症，因此目前沒有新的預測適應症。下方列出此藥物本身已記錄的用途及其在香港的上市狀態。
 
-## 一句話總結
-
-Abemaciclib 是口服 CDK4/6 抑制劑，在香港已上市（品名 VERZENIO），文獻顯示其用於乳癌治療。
-TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** 有效（預測分數 97.3%）。
-目前**沒有臨床試驗**，僅有 **2 篇文獻**，其中 1 篇為觀察性研究、1 篇為前臨床研究，證據薄弱。
-
-## 快速總覽
-
+## 快速概覽
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證未載明（文獻顯示為荷爾蒙受體陽性、HER2 陰性乳癌） |
-| 預測新適應症 | 類風濕性關節炎 (Rheumatoid Arthritis) |
-| TxGNN 預測分數 | 97.32% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
-| 建議決策 | Hold（列為研究問題，待更多證據） |
+| 新的預測適應症 | 無（模型候選中沒有分數達 0.99 以上者） |
+| 此藥物已記錄的已知用途 | 1 |
+| 證據等級 | 不適用 |
+| 香港上市狀態 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 
-## 為什麼這個預測合理？
+## 此藥物已記錄的已知用途
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Abemaciclib 屬於 CDK4/6 抑制劑，透過抑制細胞週期 G1 到 S 期的進程來抑制細胞增殖。
+### 已核准（有許可證或標示支持）
+| 適應症 | 來源 |
+|------|------|
+| 乳腺腫瘤 (breast neoplasms) | 其他國家的許可證 |
 
-類風濕性關節炎的病理特徵之一，是滑膜纖維母細胞 (FLS) 過度增生且凋亡受阻。從機轉上推論，抑制 CDK4/6 可能降低這類細胞增殖，並調節免疫細胞活性，因此有生物學上的合理性。
+### 與已核准適應症相關（同一疾病類別）
+| 適應症 | 已核准類別 |
+|------|------|
+| 無 | 無 |
 
-然而這只是推論。現有文獻未能證實 Abemaciclib 在類風濕性關節炎的療效：一篇是乳癌患者使用 CDK4/6 抑制劑時自體免疫疾病發生率的觀察研究，另一篇是以奈米載體為主的前臨床研究。
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
-## 文獻證據
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [40504547](https://pubmed.ncbi.nlm.nih.gov/40504547/) | 2025 | Cohort | The Oncologist | 探討接受 CDK4/6 抑制劑與內分泌治療的乳癌患者，其原有及新發免疫相關疾病的情形；並非類風濕性關節炎療效證據 |
-| [42289719](https://pubmed.ncbi.nlm.nih.gov/42289719/) | 2026 | Preclinical | Journal of Nanobiotechnology | 自我放大的 pH 響應奈米平台（載有 Abemaciclib），誘導類風濕性關節炎滑膜纖維母細胞的細胞週期停滯與凋亡 |
+### 知識圖譜中記錄的關係（未發現核准）
+| 適應症 |
+|------|
+| 無 |
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66495 | VERZENIO TABLETS 150MG | 未提供 | 未提供 |
-| HK-66494 | VERZENIO TABLETS 100MG | 未提供 | 未提供 |
-| HK-66496 | VERZENIO TABLETS 50MG | 未提供 | 未提供 |
-
-三張許可證皆由 ELI LILLY ASIA, INC. 持有，皆為有效的單方製劑。
+| 許可證字號 | 品名 | 劑型 | 狀態 |
+|------|------|------|------|
+| HK-66495 | VERZENIO TABLETS 150MG |  | 有效 |
+| HK-66494 | VERZENIO TABLETS 100MG |  | 有效 |
+| HK-66496 | VERZENIO TABLETS 50MG |  | 有效 |
 
 ## 細胞毒性
 
@@ -104,30 +93,6 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 警語與禁忌症請參考原廠仿單。
 
-## 其他預測適應症概覽
-
-| 排名 | 疾病 | 分數 | 證據等級 | 建議 |
-|------|------|------|---------|------|
-| 2 | 甲狀腺功能亢進 | 97.17% | L5 | Hold |
-| 3 | 多發性內分泌腫瘤 | 97.07% | L4 | Hold |
-| 10 | 肌萎縮性脊隨側索硬化症 (ALS) | 96.23% | L4 | 研究問題 |
-
-ALS 有一篇 2024 年前臨床研究（PMID 38596406）顯示 Abemaciclib 可加速自噬流量、減少 TDP-43 聚集，機轉上值得追蹤，但尚無臨床試驗，且中樞神經穿透性與劑量均未驗證。心臟病方面，現有文獻主要顯示心毒性風險，不支持再利用。
-
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 類風濕性關節炎的預測分數雖高，但沒有任何臨床試驗，文獻僅有觀察性與前臨床研究，且未直接證實 Abemaciclib 的療效。
-- 安全性資料（警語、禁忌症）缺漏，且有心血管風險與多項嚴重藥物交互作用，不宜貿然推進。
-
-**若要推進需要：**
-- 取得香港衛生署仿單，補齊警語、禁忌症與核准適應症
-- 補充詳細的作用機轉資料（DrugBank）
-- 在類風濕性關節炎動物模型中驗證 Abemaciclib 本身的療效與劑量
-- 評估長期使用於非腫瘤族群的安全性（含心血管與血液毒性）
-- 若有前臨床正向結果，再規劃早期臨床試驗
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

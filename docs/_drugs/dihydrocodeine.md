@@ -4,17 +4,17 @@ title: Dihydrocodeine
 parent: 僅模型預測 (L5)
 nav_order: 277
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-14
-description: "Dihydrocodeine：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L5）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、鼻咽炎"
+indication_count: 8
+last_modified_at: 2026-10-28
 monitor_inn: "Dihydrocodeine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "headache disorder", "cold urticaria", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "headache disorder", "cold urticaria", "trigeminal autonomic cephalalgia"]
+description: "Dihydrocodeine：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Dihydrocodeine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "all
 
 </div>
 
-## Dihydrocodeine：從過敏性鼻炎與感冒相關上呼吸道疾病到鼻腔疾病
+## Dihydrocodeine: 鼻腔疾病 (nasal cavity disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、鼻咽炎（香港許可證未載明適應症文字，此處依知識圖譜適應症資料） |
-| 預測新適應症 | 鼻腔疾病 (Nasal Cavity Disease) |
-| TxGNN 預測分數 | 99.99% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 鼻腔疾病 (nasal cavity disease) |
+| TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 11 張 |
+| 香港上市 | 上市中（有效許可證 11 張／共 11 張） |
+| 許可證數 | 11 張（有效 11 張） |
 | 建議決策 | Hold |
 
 ---
@@ -61,12 +61,12 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Dihydrocodeine 是鴉片類鎮咳／止痛藥，透過中樞 mu-opioid 受體作用，可緩解咳嗽與疼痛等症狀，但這個機轉無法直接解釋對鼻腔疾病的療效。
 
-鼻腔疾病與其原適應症（鼻炎、感冒）在疾病分類上高度相鄰。模型的高分很可能反映知識圖譜中的「鄰近效應」，而非新的實質證據。
+鼻腔疾病的預測分數（0.9999）來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 
 其他預測適應症也顯示類似狀況：
-- **急性喉咽炎**（99.99%）：與已知的咽炎、鼻咽炎適應症高度相近，較像既有適應症的延伸。
+- **急性喉咽炎**（0.9999）：與已知的咽炎、鼻咽炎適應症高度相近，較像既有適應症的延伸。
 - **過敏性蕁麻疹、寒冷性蕁麻疹**：鴉片類可能引起組織胺釋放，作用方向可能是不良反應而非治療。
-- **頭痛疾患**（99.26%）：止痛機轉合理，但現有文獻間接，且鴉片類有藥物過度使用性頭痛風險。這是唯一有文獻（2 篇）的預測，證據等級為 L4，建議定位為研究問題。
+- **頭痛疾患**（0.9926）：止痛機轉合理，但現有文獻間接，且鴉片類有藥物過度使用性頭痛風險。這是唯一有文獻（2 篇）的預測，證據等級為 L4，建議定位為研究問題。
 - 其餘（乳頭狀結膜炎、咽白喉、頸椎椎間盤退化、三叉自主神經性頭痛）僅為模型預測，缺乏支持。
 
 ---

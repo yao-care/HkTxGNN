@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Codeine
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 225
-evidence_level: L4
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Codeine：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L4）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、鼻炎、鼻咽炎、頭痛"
 monitor_inn: "CODEINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
+description: "Codeine：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Codeine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **4** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "tri
 
 </div>
 
-## Codeine：從過敏性鼻炎與感冒相關症狀到鼻腔疾病
+## Codeine: 鼻腔疾病 (nasal cavity disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,11 +47,11 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、鼻炎、鼻咽炎、頭痛（來自知識圖譜的適應症關聯；香港許可證未載明核准適應症文字） |
-| 預測新適應症 | 鼻腔疾病 (Nasal Cavity Disease) |
-| TxGNN 預測分數 | 99.93% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 鼻腔疾病 (nasal cavity disease) |
+| TxGNN 預測分數 | 0.9993 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Codeine 是一種鴉片類鎮咳止痛成分，常見於複方咳嗽糖漿與感冒藥中，在上呼吸道症狀（如鼻炎、咽炎、感冒）的症狀緩解上已有使用經驗。
 
-鼻腔疾病與已知的鼻炎、鼻咽炎屬於相近的上呼吸道病症，這很可能是模型給出高分的主因。換句話說，高分更像是來自知識圖譜中疾病之間的相近性，而不是來自對鼻腔疾病的療效訊號。
+鼻腔疾病與已知的鼻炎、鼻咽炎屬於相近的上呼吸道病症，這很可能是模型給出高分的主因。換句話說，此分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而不是生物學證據，也不是對鼻腔疾病的療效訊號。
 
 需要特別說明：Codeine 的鎮咳與輕度抗分泌作用，頂多是症狀緩解，並非疾病治療。目前沒有證據顯示它可用於結構性鼻腔疾病。
 
@@ -112,7 +112,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高（99.93%），但很可能反映的是與既有鼻炎、鼻咽炎適應症的相近性。唯一的文獻是描述異物鼻石的個案報告，並未顯示療效，因此實質證據仍等同於僅有模型預測。
+- 預測分數雖高（0.9993），但很可能反映的是與既有鼻炎、鼻咽炎適應症的相近性。唯一的文獻是描述異物鼻石的個案報告，並未顯示療效，因此實質證據仍等同於僅有模型預測。
 
 **若要推進需要：**
 - 釐清「鼻腔疾病」的具體臨床範疇（如鼻塞、鼻分泌物、鼻息肉等），並定義想達成的症狀目標
@@ -126,9 +126,8 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 
 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 | 說明 |
 |-----------|-----------|---------|------|------|
-| 急性喉咽炎 | 99.92% | L5 | Hold | 無試驗與文獻，僅為既有咽炎、感冒適應症的延伸 |
-| 三叉自律神經頭痛 | 99.43% | L4 | Hold | 叢集性頭痛一般不建議使用鴉片類藥物，現有文獻未評估 Codeine 療效 |
-| 過敏性蕁麻疹 | 99.37% | L4 | Hold | 文獻顯示 Codeine 會誘發蕁麻疹，屬安全性疑慮，不支持作為治療用途 |
+| 三叉自律神經頭痛 | 0.9943 | L4 | Hold | 叢集性頭痛一般不建議使用鴉片類藥物，現有文獻未評估 Codeine 療效 |
+| 過敏性蕁麻疹 | 0.9937 | L4 | Hold | 文獻顯示 Codeine 會誘發蕁麻疹，屬安全性疑慮，不支持作為治療用途 |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

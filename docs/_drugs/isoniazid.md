@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Isoniazid
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 488
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Isoniazid：預測新適應症為結膜炎 (Conjunctivitis)（證據等級 L4）。原適應症：肺結核 (Pulmonary Tuberculosis)"
@@ -14,7 +14,7 @@ predicted_indications: ["conjunctivitis"]
 # Isoniazid
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**結膜炎 (Conjunctivitis)** 有效，但目前*
 |------|------|
 | 原適應症 | 肺結核 (Pulmonary Tuberculosis) |
 | 預測新適應症 | 結膜炎 (Conjunctivitis) |
-| TxGNN 預測分數 | 99.36% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 6 張 |
+| TxGNN 預測分數 | 0.9936 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
+| 許可證數 | 6 張（有效 6 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ Isoniazid 是具殺菌作用的抗分枝桿菌藥物，一般認為其作用是�
 
 它與結膜炎的關聯僅限於**結核相關的眼部疾病**，例如結核引起的泡疹性角結膜炎（phlyctenular keratoconjunctivitis，對分枝桿菌抗原的過敏反應）以及原發性結膜結核。在這些情況下，益處來自治療或預防底層的結核感染，而不是對結膜炎本身有直接作用。
 
-另有個案描述 BCG 相關的反應性關節炎使用 isoniazid 後改善，但這是間接證據，也不是結膜炎的結果。部分檢索到的文獻（如全身用藥的眼部副作用、毒性表皮壞死溶解症）談的是不良反應，而非治療效益。因此 0.994 的 TxGNN 分數只是計算預測，**無法證明**它對一般細菌性、病毒性或過敏性結膜炎有效。
+另有個案描述 BCG 相關的反應性關節炎使用 isoniazid 後改善，但這是間接證據，也不是結膜炎的結果。部分檢索到的文獻（如全身用藥的眼部副作用、毒性表皮壞死溶解症）談的是不良反應，而非治療效益。因此 0.9936 的 TxGNN 分數只是計算預測，**無法證明**它對一般細菌性、病毒性或過敏性結膜炎有效。
 
 ---
 

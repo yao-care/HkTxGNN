@@ -4,7 +4,7 @@ title: Sebelipase Alfa
 parent: 僅模型預測 (L5)
 nav_order: 801
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Sebelipase Alfa：預測新適應症為Scheie 症候群 (Scheie syndrome)（證據等級 L5）。原適應症：Wolman 病、溶小體酸性脂肪酶缺乏症、溶小體脂質儲積症"
 monitor_inn: "Sebelipase alfa"
@@ -14,7 +14,7 @@ predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone in
 # Sebelipase Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,13 +50,13 @@ TxGNN 模型排名第一的預測是 **Scheie 症候群 (Scheie syndrome)**，�
 |------|------|
 | 原適應症 | Wolman 病、溶小體酸性脂肪酶缺乏症、溶小體脂質儲積症（香港許可證未登載適應症文字） |
 | 預測新適應症 | Scheie 症候群 (Scheie syndrome) |
-| TxGNN 預測分數 | 99.80% |
+| TxGNN 預測分數 | 0.9980 |
 | 證據等級 | L5（僅有模型預測） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
-> 補充：排名第 4 的膽固醇酯儲積症（分數 99.72%）證據等級為 L1，建議 Proceed with Guardrails，但屬於既有適應症的延伸驗證。
+> 補充：排名第 4 的膽固醇酯儲積症（分數 0.9972）證據等級為 L1，建議 Proceed with Guardrails，但屬於既有適應症的延伸驗證。
 
 ---
 
@@ -64,11 +64,11 @@ TxGNN 模型排名第一的預測是 **Scheie 症候群 (Scheie syndrome)**，�
 
 目前缺乏詳細的作用機轉資料。已知 Sebelipase alfa 是重組人類溶小體酸性脂肪酶，透過靜脈輸注補充缺乏的酵素，水解溶小體中累積的膽固醇酯與三酸甘油酯，進而改善肝功能異常與血脂異常。
 
-Scheie 症候群（輕型黏多醣症 I 型）是由 α-L-艾杜糖醛酸酶缺乏所致，作用的受質是糖胺聚醣，與 LAL 的受質（膽固醇酯、三酸甘油酯）完全不同。兩者唯一的共通點是「溶小體酵素替代治療」這個大概念。因此，高 TxGNN 分數較可能是圖譜關聯的結果，缺乏生化上的支持。
+Scheie 症候群（輕型黏多醣症 I 型）是由 α-L-艾杜糖醛酸酶缺乏所致，作用的受質是糖胺聚醣，與 LAL 的受質（膽固醇酯、三酸甘油酯）完全不同。兩者唯一的共通點是「溶小體酵素替代治療」這個大概念。因此，TxGNN 模型（深度學習）給出的高分，可能反映模型從相關疾病間學到的相似性，而不是生化上的證據。
 
 前 10 名預測中，其他項目大致分兩類：
 - **本身就是 LAL-D 的表現型**：膽固醇酯儲積症、Wolman 病（含低脂蛋白血症與棘狀紅血球變異型），屬於既有適應症。
-- **機轉上缺乏連結**：Hurler 症候群、Gaucher 病、Tay-Sachs 病、其他溶小體疾病、STAT5B 相關生長激素不敏感症候群、魚鱗癬症候群及腎上腺良性腫瘤。這些疾病的缺陷酵素或病理機轉與 LAL 不同。Tay-Sachs 病另有血腦障壁問題。腎上腺腫瘤可能只是因 Wolman 病常見腎上腺鈣化而產生的圖譜關聯。
+- **機轉上缺乏連結**：Hurler 症候群、Gaucher 病、Tay-Sachs 病、其他溶小體疾病、STAT5B 相關生長激素不敏感症候群、魚鱗癬症候群及腎上腺良性腫瘤。這些疾病的缺陷酵素或病理機轉與 LAL 不同。Tay-Sachs 病另有血腦障壁問題。腎上腺腫瘤的分數可能只是 TxGNN 模型（深度學習）從 Wolman 病常見腎上腺鈣化等相關疾病間學到的相似性，而不是生物學證據。
 
 ---
 

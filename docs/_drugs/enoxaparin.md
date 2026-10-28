@@ -6,9 +6,9 @@ nav_order: 320
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Enoxaparin：預測新適應症為體染色體隱性蛋白 C 缺乏所致血栓形成傾向（證據等級 L5）。原適應症：肺栓塞、瀰漫性血管內凝血、猛爆性紫斑、後天性猛爆性紫斑"
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
+description: "Enoxaparin：預測新適應症為體染色體隱性蛋白 C 缺乏所致血栓形成傾向 (thrombophilia due to protein C deficiency, autosomal recessive)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Enoxaparin
@@ -33,7 +33,7 @@ predicted_indications: ["thrombophilia due to protein C deficiency, autosomal re
 
 </div>
 
-## Enoxaparin：從肺栓塞與瀰漫性血管內凝血到蛋白 C 缺乏所致血栓形成傾向
+## Enoxaparin: 體染色體隱性蛋白 C 缺乏所致血栓形成傾向 (thrombophilia due to protein C deficiency, autosomal recessive)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**體染色體隱性蛋白 C 缺乏所致血栓形
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 肺栓塞、瀰漫性血管內凝血、猛爆性紫斑、後天性猛爆性紫斑（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 體染色體隱性蛋白 C 缺乏所致血栓形成傾向 |
-| TxGNN 預測分數 | 99.58% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 體染色體隱性蛋白 C 缺乏所致血栓形成傾向 (thrombophilia due to protein C deficiency, autosomal recessive) |
+| TxGNN 預測分數 | 0.9958 |
 | 證據等級 | L5（僅有模型預測，無實際研究；系統內部標註為 L4） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ---

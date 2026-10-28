@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Brolucizumab：預測新適應症為核 DNA 異常所致的粒線體氧化磷酸化疾患 (Mitochondrial oxidative phosphorylation disord…（證據等級 L5）。原適應症：黃斑部病變（macular degeneration）"
 monitor_inn: "BROLUCIZUMAB"
-predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "esophageal varices with bleeding", "esophageal varices without bleeding", "exocrine pancreatic insufficiency"]
+predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "esophageal varices without bleeding", "esophageal varices with bleeding", "exocrine pancreatic insufficiency"]
 ---
 
 # Brolucizumab
@@ -33,7 +33,7 @@ predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to
 
 </div>
 
-## Brolucizumab：從黃斑部病變到粒線體氧化磷酸化疾患（核 DNA 異常所致）
+## Brolucizumab：從黃斑部病變到核 DNA 異常所致的粒線體氧化磷酸化異常
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,25 +47,25 @@ TxGNN 模型預測它可能對**核 DNA 異常所致的粒線體氧化磷酸化�
 |------|------|
 | 原適應症 | 黃斑部病變（macular degeneration） |
 | 預測新適應症 | 核 DNA 異常所致的粒線體氧化磷酸化疾患 (Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies) |
-| TxGNN 預測分數 | 99.67% |
+| TxGNN 預測分數 | 0.9967 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Brolucizumab 是抗 VEGF-A 的單鏈抗體片段（scFv），其在新生血管性黃斑部病變中的療效已被證實。
 
-然而，目前沒有資料顯示 VEGF-A 抑制與核 DNA 異常導致的粒線體氧化磷酸化功能障礙之間存在明確的機轉關聯。若要建立連結，也許可從粒線體疾病併發的視網膜血管問題著手，但這純屬推測。TxGNN 分數雖高，僅代表知識圖譜中的網路關聯，不能視為生物學上的證據。
+然而，目前沒有資料顯示 VEGF-A 抑制與核 DNA 異常導致的粒線體氧化磷酸化功能障礙之間存在明確的機轉關聯。若要建立連結，也許可從粒線體疾病併發的視網膜血管問題著手，但這純屬推測。TxGNN 分數雖高，但該分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，不能視為生物學上的證據。
 
 **其他預測適應症（同樣僅為模型預測，無臨床試驗或文獻）：**
 
 | 預測適應症 | TxGNN 分數 | 證據等級 | 說明 |
 |-----------|-----------|---------|------|
-| 食道靜脈曲張伴出血 | 99.12% | L5 | VEGF 理論上與內臟血管新生和門脈高壓有關，但本藥為玻璃體內注射，且抗 VEGF 藥物有出血風險，對出血性疾病是安全疑慮 |
-| 食道靜脈曲張未出血 | 99.12% | L5 | 理由同上，給藥途徑與目標組織皆不吻合 |
-| 外分泌胰臟功能不全 | 99.07% | L5 | 未發現可信的機轉關聯，治療以胰酵素replacement為主 |
+| 食道靜脈曲張伴出血 | 0.9912 | L5 | VEGF 理論上與內臟血管新生和門脈高壓有關，但本藥為玻璃體內注射，且抗 VEGF 藥物有出血風險，對出血性疾病是安全疑慮 |
+| 食道靜脈曲張未出血 | 0.9912 | L5 | 理由同上，給藥途徑與目標組織皆不吻合 |
+| 外分泌胰臟功能不全 | 0.9907 | L5 | 未發現可信的機轉關聯，治療以胰酵素replacement為主 |
 
 ## 臨床試驗證據
 

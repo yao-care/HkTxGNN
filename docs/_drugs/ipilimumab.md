@@ -4,17 +4,17 @@ title: Ipilimumab
 parent: 僅模型預測 (L5)
 nav_order: 481
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Ipilimumab：預測新適應症為脈絡膜缺失症 (Choroideremia)（證據等級 L5）。原適應症：轉移性黑色素瘤 (metastatic melanoma)"
 monitor_inn: "IPILIMUMAB"
 predicted_indications: ["choroideremia"]
+description: "Ipilimumab：預測新適應症為脈絡膜缺失症 (choroideremia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Ipilimumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["choroideremia"]
 
 </div>
 
-## Ipilimumab：從轉移性黑色素瘤到脈絡膜缺失症（Choroideremia）
+## Ipilimumab: 脈絡膜缺失症 (choroideremia)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**脈絡膜缺失症 (Choroideremia)** 有效，�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 轉移性黑色素瘤 (metastatic melanoma)（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 脈絡膜缺失症 (Choroideremia) |
-| TxGNN 預測分數 | 99.06% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 脈絡膜缺失症 (choroideremia) |
+| TxGNN 預測分數 | 0.9906 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**脈絡膜缺失症 (Choroideremia)** 有效，�
 
 然而，脈絡膜缺失症是一種遺傳性視網膜退化疾病，由 CHM (REP1) 基因功能喪失所致，並非由免疫檢查點機制驅動。阻斷 CTLA-4 無法合理地修正這個根本缺陷，兩個適應症之間也看不出機轉上的關聯。
 
-此外，ipilimumab 引發的全身性免疫活化有眼部免疫相關不良反應的風險（例如葡萄膜炎），對正在退化的視網膜可能有害。因此，這項高分預測很可能是知識圖譜的統計假象，而非真實的藥理訊號。
+此外，ipilimumab 引發的全身性免疫活化有眼部免疫相關不良反應的風險（例如葡萄膜炎），對正在退化的視網膜可能有害。因此，這項高分預測的分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 
 ---
 
@@ -120,7 +120,6 @@ TxGNN 模型預測它可能對**脈絡膜缺失症 (Choroideremia)** 有效，�
 - 藥物的眼部免疫風險可能對退化視網膜不利，不建議推進。
 
 **補充觀察：**
-同一份預測清單中，第 2 位的**非皮膚黑色素瘤 (non-cutaneous melanoma)**（分數 99.02%）有較多證據。這包括已完成的 Phase 2 試驗 NCT02626962（nivolumab 併用 ipilimumab 於未治療的轉移性葡萄膜黑色素瘤，n=52），以及 ipilimumab 用於皮膚、葡萄膜與黏膜黑色素瘤的臨床世代研究（PMID 24999899）。該適應症的評級為 L1、Proceed with Guardrails，但這個等級偏保守。次族群專屬的證據主要來自 Phase 2 與觀察性研究，較嚴格的判定可能接近 L2。若要尋找有實質證據的再利用方向，建議改以該適應症另行評估。
 
 **若要推進需要：**
 - 脈絡膜缺失症的任何機轉或前臨床證據，以支持 CTLA-4 阻斷的合理性

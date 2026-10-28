@@ -4,17 +4,17 @@ title: Tetryzoline
 parent: 僅模型預測 (L5)
 nav_order: 869
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Tetryzoline：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L5）。原適應症：咽炎、普通感冒"
 monitor_inn: "Tetryzoline"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
 ---
 
 # Tetryzoline
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 |------|------|
 | 原適應症 | 咽炎、普通感冒（香港許可證未記載適應症文字） |
 | 預測新適應症 | 鼻腔疾病 (Nasal Cavity Disease) |
-| TxGNN 預測分數 | 99.98% |
+| TxGNN 預測分數 | 0.9998 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 6 張 |
+| 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
+| 許可證數 | 6 張（有效 6 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 另外需注意，Tetryzoline 在許多地區已作為鼻用或眼用的減充血劑上市，因此這個預測可能只是既有用途，而非真正的新用途。本次資料無法確認這一點。
 
-另一個預測適應症是**急性喉咽炎 (Acute Laryngopharyngitis)**（TxGNN 分數 99.98%），與原適應症咽炎在解剖與臨床上高度相近，較像是既有用途的延伸，而非獨立的再利用機會。同樣沒有試驗或文獻支持。
+另一個預測適應症是**急性喉咽炎 (Acute Laryngopharyngitis)**（TxGNN 分數 0.9998），與原適應症咽炎在解剖與臨床上高度相近，較像是既有用途的延伸，而非獨立的再利用機會。同樣沒有試驗或文獻支持。
 
 ## 臨床試驗證據
 

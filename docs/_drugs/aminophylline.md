@@ -4,17 +4,17 @@ title: Aminophylline
 parent: 中證據等級 (L3-L4)
 nav_order: 53
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Aminophylline：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L4）。原適應症：目前許可證資料未載明"
 monitor_inn: "AMINOPHYLLINE"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
 ---
 
 # Aminophylline
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L4** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前*
 |------|------|
 | 原適應症 | 目前許可證資料未載明 |
 | 預測新適應症 | 偏頭痛 (Migraine Disorder) |
-| TxGNN 預測分數 | 99.88% |
+| TxGNN 預測分數 | 0.9988 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ---

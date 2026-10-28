@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Glycocholic Acid：預測新適應症為Prinzmetal 心絞痛 (Prinzmetal angina)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Glycocholic acid"
-predicted_indications: ["Prinzmetal angina", "myocardial infarction", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "posterolateral myocardial infarction", "posteroinferior myocardial infarction", "septal myocardial infarction", "hemoglobinopathy", "coronary thrombosis"]
+predicted_indications: ["Prinzmetal angina", "myocardial infarction", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "posteroinferior myocardial infarction", "posterolateral myocardial infarction", "septal myocardial infarction", "hemoglobinopathy", "coronary thrombosis"]
 ---
 
 # Glycocholic Acid
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對 **Prinzmetal 心絞痛 (Prinzmetal angina)** 有�
 |------|------|
 | 原適應症 | 資料未載明 |
 | 預測新適應症 | Prinzmetal 心絞痛 (Prinzmetal angina) |
-| TxGNN 預測分數 | 99.98% |
+| TxGNN 預測分數 | 0.9998 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對 **Prinzmetal 心絞痛 (Prinzmetal angina)** 有�
 
 目前缺乏詳細的作用機轉資料。Glycocholic acid 是一種結合型初級膽酸，一般認為與膽汁酸代謝和脂質吸收有關，但本報告所整理的資料並未提供其原適應症或正式的作用機轉。
 
-就 Prinzmetal 心絞痛（冠狀動脈痙攣）而言，現有資料中找不到能連結膽酸與冠狀動脈痙攣的合理機轉。這個高分預測很可能只是來自知識圖譜中的網路鄰近性，而非實際的藥理關聯。
+就 Prinzmetal 心絞痛（變異型心絞痛）而言，現有資料中找不到能連結膽酸與冠狀動脈痙攣的合理機轉。這個高分預測來自 TxGNN 模型（深度學習），可能反映的是模型從相關疾病之間學到的相似性，而非生物學證據。
 
 其他排名較前的預測（心肌梗塞、糖尿病腎病變等）同樣缺乏介入性研究。相關文獻多為代謝體學或生物標記研究，只顯示膽酸代謝物與心血管或代謝疾病**可能相關**，不能證明有治療效果。Glycocholic acid 比較可能是疾病狀態的標記，而非治療藥物。
 

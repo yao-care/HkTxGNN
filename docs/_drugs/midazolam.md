@@ -33,7 +33,7 @@ predicted_indications: ["insomnia (disease)"]
 
 </div>
 
-## Midazolam：從焦慮症到失眠
+## Midazolam：失眠 (Insomnia)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,10 +48,10 @@ TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，
 |------|------|
 | 原適應症 | 焦慮症 (Anxiety) |
 | 預測新適應症 | 失眠 (Insomnia) |
-| TxGNN 預測分數 | 99.74% |
+| TxGNN 預測分數 | 0.9974 |
 | 證據等級 | L2 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 9 張 |
+| 香港上市 | 上市中（有效許可證 9 張／共 9 張） |
+| 許可證數 | 9 張（有效 9 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

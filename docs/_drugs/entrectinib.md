@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Entrectinib
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 324
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Entrectinib：預測新適應症為多發性內分泌腫瘤 (Multiple Endocrine Neoplasia)（證據等級 L5）。原適應症：目前資料未載明"
-monitor_inn: "Entrectinib"
-predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "thrombocytopenia", "cytomegalovirus infection", "pulmonary hypertension", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "female breast carcinoma", "transient neonatal thrombocytopenia", "malignant catarrh"]
+last_modified_at: 2026-10-23
+description: "Entrectinib: 香港已知用途與上市狀態；目前無新的候選適應症"
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Entrectinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,54 +32,45 @@ predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", 
 
 </div>
 
-## Entrectinib：從 NTRK／ROS1 陽性實體腫瘤到多發性內分泌腫瘤
+<!-- known-uses-page -->
+<!-- description: Entrectinib: known uses and market status in Hong Kong; currently no new candidate indication -->
+## Entrectinib
 {: .text-alpha }
 
-> 說明：本報告以預測排名第 1 的適應症（多發性內分泌腫瘤）為主軸。另有排名第 8 的「女性乳癌」證據明顯較強，已在各章節一併說明，供決策參考。
-
-## 一句話總結
-
-Entrectinib 是 TRK／ROS1／ALK 激酶抑制劑，在香港已有上市許可證。
-TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neoplasia)** 有效，但目前僅有 **1 個臨床試驗**（Phase 1，提前終止，僅收 2 人）和 **1 篇間接文獻**，實質證據非常薄弱。
+## 摘要
+TxGNN 模型對 Entrectinib 沒有分數達 0.99 以上的候選適應症，因此目前沒有新的預測適應症。下方列出此藥物本身已記錄的用途。
 
 ## 快速總覽
-
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 目前資料未載明（香港許可證未列出核准適應症文字） |
-| 預測新適應症 | 多發性內分泌腫瘤 (Multiple Endocrine Neoplasia) |
-| TxGNN 預測分數 | 98.58% |
-| 證據等級 | L3（僅有間接的機轉／抗藥性研究；無有效的臨床療效資料） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
-| 建議決策 | Hold（列為研究問題） |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
+| 此藥物已記錄的已知用途 | 1 |
+| 香港的市場狀態 | 上市中（有效許可證 2 張／共 2 張） |
 
-## 為什麼這個預測合理？
+## 此藥物已記錄的已知用途
 
-目前缺乏詳細的作用機轉資料。已知 Entrectinib 可抑制 TRK、ROS1 與 ALK，並在部分情境下對 RET 有活性。
+### 已核准（有許可證或仿單支持）
+| 適應症 | 來源 |
+|------|------|
+| 非小細胞肺癌 (non-small-cell lung carcinoma) | 其他國家的許可證 |
 
-多發性內分泌腫瘤第 2 型 (MEN2) 由 RET 基因的活化型生殖系突變所驅動，因此在激酶訊號傳導上有合理的連結。
+### 與已核准適應症相關（同一疾病類別）
+| 適應症 | 已核准類別 |
+|------|------|
+| 無 | 無 |
 
-不過，Entrectinib 並非選擇性 RET 抑制劑。目前臨床上針對 RET 驅動腫瘤的標準選擇是 selpercatinib、pralsetinib 等選擇性藥物。唯一的文獻是 2024 年關於選擇性 RET 抑制劑抗藥性機制的研究，對 Entrectinib 僅屬間接證據。高預測分數主要是計算模型的結果，尚缺乏實際療效佐證。
-
-## 臨床試驗證據
-
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT03878524](https://clinicaltrials.gov/study/NCT03878524) | Phase 1 | 已終止 | 2 | SMMART PRIME 個人化用藥組合平台試驗；非 MEN 專屬，也非針對 Entrectinib 療效，無可解讀的結果 |
-
-## 文獻證據
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [38438731](https://pubmed.ncbi.nlm.nih.gov/38438731/) | 2024 | 前臨床／機轉研究 | NPJ Precision Oncology | 探討 RET 驅動癌症對選擇性 RET 抑制劑的抗藥機制；對 Entrectinib 屬間接證據 |
+### 知識圖譜中記錄的關係（未找到核准）
+| 適應症 |
+|------|
+| 無 |
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66639 | ROZLYTREK CAPSULES 100MG（Roche Hong Kong） | 未載明 | 未載明 |
-| HK-66640 | ROZLYTREK CAPSULES 200MG（Roche Hong Kong） | 未載明 | 未載明 |
+| 許可證字號 | 品名 | 劑型 | 狀態 |
+|------|------|------|------|
+| HK-66639 | ROZLYTREK CAPSULES 100MG |  | 有效 |
+| HK-66640 | ROZLYTREK CAPSULES 200MG |  | 有效 |
 
 ## 細胞毒性
 
@@ -107,19 +97,6 @@ Entrectinib 為抗腫瘤藥物，屬**標靶藥物**（TRK／ROS1／ALK 激酶�
 
 警語與禁忌症資料請參考原廠仿單。
 
-## 結論與下一步
-
-**決策：Hold（列為研究問題）**
-
-**理由：**
-- 針對多發性內分泌腫瘤，唯一的臨床試驗是提前終止的 Phase 1（2 人），沒有可用的療效資料，Entrectinib 也不是選擇性 RET 抑制劑，高 TxGNN 分數目前只是計算預測。
-- 補充：在其他預測適應症中，**女性乳癌**證據較強（Phase 2 basket 試驗 STARTRK-2，n=534，以及 NTRK3 融合分泌型乳癌個案與前臨床研究），可考慮以生物標記（NTRK／ROS1／ALK 融合）篩選的族群為優先方向，建議決策為 Proceed with Guardrails。血小板低下與肺高壓等預測則較像不良事件關聯，而非治療機會。
-
-**若要推進需要：**
-- 補齊作用機轉（MOA）資料，並釐清 Entrectinib 對 RET 的實際抑制活性
-- 取得香港仿單的警語、禁忌症與核准適應症，以進行安全性篩選
-- 針對 RET 突變的 MEN2 或甲狀腺髓樣癌，與選擇性 RET 抑制劑做比較的前臨床或早期臨床研究
-- 若轉向乳癌：設計以融合基因陽性為條件的族群與監測計畫
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

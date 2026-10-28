@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Decitabine
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 250
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Decitabine：預測新適應症為兒童難治性血球減少症 (Refractory Cytopenia of Childhood)（證據等級 L4）。原適應症：急性骨髓性白血病（AML）及相關骨髓性疾病"
@@ -14,7 +14,7 @@ predicted_indications: ["refractory cytopenia of childhood"]
 # Decitabine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ TxGNN 模型預測它可能對**兒童難治性血球減少症 (Refractory Cytop
 |------|------|
 | 原適應症 | 急性骨髓性白血病（AML）及相關骨髓性疾病（香港許可證未列出核准適應症文字） |
 | 預測新適應症 | 兒童難治性血球減少症 (Refractory Cytopenia of Childhood) |
-| TxGNN 預測分數 | 99.03% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| TxGNN 預測分數 | 0.9903 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**兒童難治性血球減少症 (Refractory Cytop
 
 RCC 是兒童 MDS 最常見的亞型。AML 與 MDS 都涉及異常 DNA 甲基化與骨髓系殖株功能失調，因此機轉上有合理關聯。
 
-需要注意：0.99 的 TxGNN 分數是電腦模型預測，並非臨床證據。目前支持性資料僅有一項單中心世代研究與一則病例報告。
+需要注意：0.9903 的 TxGNN 分數是電腦模型預測，並非臨床證據。目前支持性資料僅有一項單中心世代研究與一則病例報告。
 
 ## 臨床試驗證據
 

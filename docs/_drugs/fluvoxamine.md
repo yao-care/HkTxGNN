@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fluvoxamine
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 397
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Fluvoxamine：預測新適應症為焦慮症 (Anxiety Disorder)（證據等級 L1）。原適應症：社交畏懼症、恐懼症、強迫症"
 monitor_inn: "Fluvoxamine"
 predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder", "endogenous depression"]
+description: "Fluvoxamine：預測新適應症為Histrionic personality disorder (disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Fluvoxamine
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["histrionic personality disorder (disease)", "paranoid p
 
 </div>
 
-## Fluvoxamine：從社交畏懼症／強迫症到焦慮症
+## Fluvoxamine: Histrionic personality disorder (disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,15 +48,15 @@ TxGNN 模型預測它可能對**焦慮症 (Anxiety Disorder)** 有效，目前�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 社交畏懼症、恐懼症、強迫症（來自知識圖譜；香港許可證未載明核准適應症文字） |
-| 預測新適應症 | 焦慮症 (Anxiety Disorder) |
-| TxGNN 預測分數 | 99.97% |
-| 證據等級 | L1 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Histrionic personality disorder (disease) |
+| TxGNN 預測分數 | 1.0000 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Proceed with Guardrails |
 
-> 補充：TxGNN 分數最高的前四項預測（組織型、妄想型、類分裂型、分裂病型人格障礙，分數約 99.997%）幾乎沒有臨床證據，僅屬模型預測，因此本報告以證據最完整的「焦慮症」作為主要評估對象。
+> 補充：TxGNN 分數最高的前四項預測（組織型、妄想型、類分裂型、分裂病型人格障礙，分數約 1.0000）幾乎沒有臨床證據，僅屬模型預測，因此本報告以證據最完整的「焦慮症」作為主要評估對象。
 
 ---
 

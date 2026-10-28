@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tetracycline
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 868
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Tetracycline：預測新適應症為點狀上皮角結膜炎 (Punctate Epithelial Keratoconjunctivitis)（證據等級 L4）。原適應症：泌尿道感染、支氣管炎、痤瘡、肺炎、結膜炎等"
 monitor_inn: "TETRACYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
+description: "Tetracycline：預測新適應症為點狀上皮角結膜炎 (punctate epithelial keratoconjunctivitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Tetracycline
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **4** 個
+證據等級: **L5** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic eth
 
 </div>
 
-## Tetracycline：從細菌感染（泌尿道感染、肺炎、痤瘡等）到點狀上皮角結膜炎
+## Tetracycline: 點狀上皮角結膜炎 (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**點狀上皮角結膜炎 (Punctate Epithelial Ke
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 泌尿道感染、支氣管炎、痤瘡、肺炎、結膜炎等（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 點狀上皮角結膜炎 (Punctate Epithelial Keratoconjunctivitis) |
-| TxGNN 預測分數 | 99.58% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 9 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 點狀上皮角結膜炎 (punctate epithelial keratoconjunctivitis) |
+| TxGNN 預測分數 | 0.9958 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 9 張／共 9 張） |
+| 許可證數 | 9 張（有效 9 張） |
 | 建議決策 | Hold |
 
 ---
@@ -64,7 +64,7 @@ TxGNN 模型預測它可能對**點狀上皮角結膜炎 (Punctate Epithelial Ke
 
 點狀上皮角膜炎可能在衣原體感染緩解後持續或復發，因此與已核准的結膜炎適應症在疾病脈絡上相關。此外，四環黴素類藥物具有抗發炎與抑制基質金屬蛋白酶（MMP）的特性，理論上可能有助於眼表發炎。
 
-不過要注意：TxGNN 的高分（99.58%）很可能反映的是與已知結膜炎適應症在知識圖譜中的鄰近性，而不是直接的療效證據。目前唯一的文獻只描述了「衣原體結膜炎治癒後仍出現角膜炎」，並非證明 Tetracycline 能治療該角膜炎。
+不過要注意：TxGNN 的高分（0.9958）來自 TxGNN 模型（深度學習），可能反映的是模型學到的相關疾病之間的相似性，而不是生物學證據或直接的療效證據。目前唯一的文獻只描述了「衣原體結膜炎治癒後仍出現角膜炎」，並非證明 Tetracycline 能治療該角膜炎。
 
 ---
 

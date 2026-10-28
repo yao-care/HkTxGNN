@@ -4,17 +4,17 @@ title: Silver
 parent: 僅模型預測 (L5)
 nav_order: 814
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Silver：預測新適應症為骨 Paget 氏病 (bone Paget disease)（證據等級 L5）。原適應症：香港許可證未載明核准適應症"
 monitor_inn: "Silver"
-predicted_indications: ["bone Paget disease", "amenorrhea (disease)", "non-syndromic esophageal malformation", "juvenile Paget disease", "esotropia", "epidermodysplasia verruciformis", "esophageal disease", "Paget disease of bone", "myelodysplastic syndrome", "primary immunodeficiency with post-measles-mumps-rubella vaccine viral infection"]
+predicted_indications: ["bone Paget disease"]
+description: "Silver：預測新適應症為骨 Paget 氏病 (bone Paget disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Silver
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["bone Paget disease", "amenorrhea (disease)", "non-syndr
 
 </div>
 
-## Silver（銀）：從腐蝕性外用製劑到骨 Paget 氏病（預測）
+## Silver: 骨 Paget 氏病 (bone Paget disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**骨 Paget 氏病 (bone Paget disease)** 有效�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證未載明核准適應症 |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | 骨 Paget 氏病 (bone Paget disease) |
-| TxGNN 預測分數 | 99.67% |
+| TxGNN 預測分數 | 0.9967 |
 | 證據等級 | L5（僅有模型預測） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ---
@@ -61,13 +61,13 @@ TxGNN 模型預測它可能對**骨 Paget 氏病 (bone Paget disease)** 有效�
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Silver 在香港以單方腐蝕棒形式上市（濃度 40% 與 95% w/w），但許可證上沒有適應症文字，無法判斷其原本療效依據。
 
-TxGNN 給出很高的分數（0.997），但仔細檢視支持文獻後，**找不到任何治療機轉**。這些文獻討論的是：
+TxGNN 給出很高的分數（0.9967），但仔細檢視支持文獻後，**找不到任何治療機轉**。這些文獻討論的是：
 
 - 以銀染色觀察 Paget 氏病破骨細胞的核仁組織區（AgNOR）
 - 骨組織的銀浸染方法
 - 鎵-67 閃爍攝影與維生素 D 受體 mRNA 定量，與銀治療無關
 
-因此，這個預測應視為資料庫中「silver」一詞出現在文獻裡所造成的人為結果，而非有生物學依據的藥物再利用訊號。另外，同一疾病還以「Paget disease of bone」（排名第 8，分數 97.2%）重複出現，且使用相同的 5 篇文獻。
+因此，這個預測應視為資料庫中「silver」一詞出現在文獻裡所造成的人為結果，而非有生物學依據的藥物再利用訊號。
 
 ---
 
@@ -102,7 +102,7 @@ TxGNN 給出很高的分數（0.997），但仔細檢視支持文獻後，**找�
 
 ## 安全性考量
 
-- **其他預測適應症中浮現的安全訊號**：在「食道疾病」的文獻中出現全身性銀沉著症（systemic argyria）病例，長期攝入銀化合物可造成多器官銀色素沉積。另有一例長期口服膠體銀補充劑者併發急性骨髓性白血病的病例報告。這些屬於安全性警訊，而非療效證據，且僅為個案層級資料。
+- 另有一例長期口服膠體銀補充劑者併發急性骨髓性白血病的病例報告。這些屬於安全性警訊，而非療效證據，且僅為個案層級資料。
 
 其餘警語、禁忌症及藥物交互作用資料，請參考原廠仿單。
 
@@ -114,7 +114,7 @@ TxGNN 給出很高的分數（0.997），但仔細檢視支持文獻後，**找�
 
 **理由：**
 - 預測分數雖高，但沒有臨床試驗，文獻僅涉及銀作為染色劑，缺乏任何治療機轉或療效證據，證據等級為 L5。
-- 現有的銀製劑是外用腐蝕棒，與治療骨骼代謝疾病的給藥途徑和用途明顯不相容。其他排名較前的預測（閉經、食道畸形、斜視、骨髓增生異常症候群等）同樣沒有可信的支持證據。
+- 現有的銀製劑是外用腐蝕棒，與治療骨骼代謝疾病的給藥途徑和用途明顯不相容。
 
 **若要推進需要：**
 - 確認該預測是否為文獻檢索的關鍵字假象，並重新審視 TxGNN 的資料來源

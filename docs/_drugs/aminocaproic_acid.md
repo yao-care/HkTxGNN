@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 52
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
-description: "Aminocaproic Acid：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy)（證據等級 L5）。原適應症：許可證資料未登載"
+last_modified_at: 2026-10-28
 monitor_inn: "AMINOCAPROIC ACID"
 predicted_indications: ["severe nonproliferative diabetic retinopathy"]
+description: "Aminocaproic Acid：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Aminocaproic Acid
@@ -33,7 +33,7 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy"]
 
 </div>
 
-## Aminocaproic Acid：從（原適應症資料缺失）到嚴重非增殖性糖尿病視網膜病變
+## Aminocaproic Acid: 嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證資料未登載 |
-| 預測新適應症 | 嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy) |
-| TxGNN 預測分數 | 99.27% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy) |
+| TxGNN 預測分數 | 0.9927 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 
 與糖尿病視網膜病變的關聯только是間接的：理論上它可能減少增殖期的纖溶相關出血或玻璃體出血。然而，非增殖性視網膜病變的主要成因是高血糖引起的微血管損傷、VEGF 訊號、發炎及微血管無灌流，抗纖溶藥物並不作用於這些路徑。
 
-因此，99.27% 的高分僅是運算預測，機轉上的支持相當薄弱，需要更多實驗與臨床資料驗證。
+因此，0.9927 的高分僅是運算預測，機轉上的支持相當薄弱，需要更多實驗與臨床資料驗證。
 
 ## 臨床試驗證據
 

@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Etelcalcetide：預測新適應症為高磷血症 (Hyperphosphatemia)（證據等級 L3）。原適應症：副甲狀腺機能亢進 (Hyperparathyroidism)"
 monitor_inn: "ETELCALCETIDE"
-predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices with bleeding", "esophageal varices without bleeding", "varicose disease"]
+predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease"]
 ---
 
 # Etelcalcetide
@@ -48,10 +48,10 @@ TxGNN 模型預測它可能對**高磷血症 (Hyperphosphatemia)** 有效，
 |------|------|
 | 原適應症 | 副甲狀腺機能亢進 (Hyperparathyroidism) |
 | 預測新適應症 | 高磷血症 (Hyperphosphatemia) |
-| TxGNN 預測分數 | 99.42% |
+| TxGNN 預測分數 | 0.9942 |
 | 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

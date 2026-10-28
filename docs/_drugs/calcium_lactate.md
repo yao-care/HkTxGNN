@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Calcium Lactate
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 149
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
-description: "Calcium Lactate：預測新適應症為鈣鹼症候群 (Calcium-Alkali Syndrome)（證據等級 L4）。原適應症：骨質疏鬆症、停經後骨質疏鬆症、高血鈣、腎鈣質沉著症、磷代謝疾病、心跳停止"
 monitor_inn: "CALCIUM LACTATE"
 predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization"]
+last_modified_at: 2026-10-27
+description: "Calcium Lactate：預測新適應症為鈣鹼症候群 (calcium-alkali syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Calcium Lactate
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,86 +33,71 @@ predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with 
 
 </div>
 
-## Calcium Lactate：從骨質疏鬆症到鈣鹼症候群（不建議推進）
+## Calcium Lactate：鈣鹽補充劑 → 鈣鹼症候群 (calcium-alkali syndrome)
 {: .text-alpha }
 
 ## 一句話總結
 
-Calcium Lactate（乳酸鈣）是鈣鹽補充劑，原本用於骨質疏鬆症、高血鈣相關疾病與心跳停止等適應症。
-TxGNN 模型預測它可能對**鈣鹼症候群 (Calcium-Alkali Syndrome)** 有效，但目前僅有 **1 篇文獻**（病例報告）、**0 個臨床試驗**，且機轉分析顯示鈣鹼症候群本身可能由鈣攝取過量引起，此預測在藥理上不合理。
-
----
+Calcium Lactate（乳酸鈣）是一種鈣鹽補充劑。
+TxGNN 模型預測它與**鈣鹼症候群 (calcium-alkali syndrome)** 有關聯，但目前沒有相關臨床試驗，僅有 **1 篇文獻**（病例報告類型），且該疾病本身由過量鈣攝取所致，此預測不宜視為治療用途。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 骨質疏鬆症、停經後骨質疏鬆症、高血鈣、腎鈣質沉著症、磷代謝疾病、心跳停止（來自知識圖譜；香港許可證未載明核准適應症文字） |
-| 預測新適應症 | 鈣鹼症候群 (Calcium-Alkali Syndrome) |
-| TxGNN 預測分數 | 99.76% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 鈣鹼症候群 (calcium-alkali syndrome) |
+| TxGNN 預測分數 | 0.9976 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。乳酸鈣是鈣鹽，作用是補充鈣離子，鈣是骨骼礦物（羥基磷灰石）的核心成分，因此傳統上用於骨質疏鬆等缺鈣相關問題。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Calcium Lactate 是鈣鹽，可提供元素鈣以補充體內鈣質。
 
-**但這個預測在機轉上並不合理。** 鈣鹼症候群是由過量鈣攝取合併可吸收鹼性物質所引起，會導致高血鈣、代謝性鹼中毒與腎功能受損。乳酸鈣本身是可能的致病或加重因素，而非治療藥物。TxGNN 的高分很可能反映的是「藥物與疾病之間因鈣補充而存在關聯」，而非治療上的益處。給予鈣反而可能使病情惡化。
+鈣鹼症候群的成因是攝取過量鈣並合併可吸收的鹼性物質，導致高血鈣、代謝性鹼中毒與腎功能受損。換言之，鈣鹽是這個疾病的**潛在誘因或加重因子**，而非治療藥物。模型給出的高分數，較可能反映藥物與疾病之間透過「鈣補充」產生的關聯，而不是治療效益。
 
-此外，模型還預測了第二個適應症：「原發性骨發育不良伴骨礦化缺陷」（分數 99.71%）。鈣是骨礦物成分，理論上可能支持礦化，但這類疾病（如低磷酸酯酶症、部分成骨不全）多由磷酸/焦磷酸代謝或膠原合成的基因缺陷所致，單靠補鈣難以矯正，某些情況下過量鈣還可能不利。此預測僅為計算結果，無臨床試驗與文獻支持（證據等級 L5，建議 Hold）。
-
----
+因此，從機轉角度看，將 Calcium Lactate 再利用於此適應症並不合理，且有安全疑慮：給予鈣可能使病情惡化。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [31968342](https://pubmed.ncbi.nlm.nih.gov/31968342/) | 2020 | Case report | American Journal of Nephrology | 探討全甲狀腺切除後副甲狀腺低下症患者因高劑量鈣與維生素 D 補充，發生高血鈣、腎功能受損、代謝性鹼中毒及鈣鹼症候群的情形；顯示鈣補充是風險因子，而非治療 |
+| [31968342](https://pubmed.ncbi.nlm.nih.gov/31968342/) | 2020 | 病例報告 | American Journal of Nephrology | 探討全甲狀腺切除後副甲狀腺低下症患者因高劑量鈣與維生素D補充而出現高血鈣、腎功能受損、代謝性鹼中毒及鈣鹼症候群的發生情形 |
 
----
+此文獻討論的是鈣補充**造成**鈣鹼症候群的風險，並非支持以鈣治療該疾病。
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-30457 | CALCIUM LACTATE TAB 300MG | 錠劑（品名所載） | 許可證資料未載明 |
-
----
+| HK-30457 | CALCIUM LACTATE TAB 300MG | 未記載 | 未記載 |
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌疾病**（來自 TxGNN 知識圖譜的藥物-疾病禁忌關聯，並非仿單內容）：腎臟疾病、慢性腎臟病、慢性腎衰竭、末期腎衰竭、腎結石、急性尿酸腎病變、副甲狀腺機能亢進、纖維性骨炎、惡性腫瘤體液性高血鈣、結節病（類肉瘤病）、心臟病、心血管疾病、地高辛中毒、心室顫動。
-- **藥物交互作用**：資料庫共記錄 82 項交互作用，以下為其中部分：
-  - **重度**：Dolutegravir、Bictegravir
-  - **中度**：Alendronic acid、Risedronic acid、Ibandronate（雙磷酸鹽類）；Doxycycline、Tetracycline；Nifedipine、Amlodipine、Diltiazem；Hydrochlorothiazide、Chlorothiazide；Atenolol、Bisoprolol、Carvedilol 等 β 阻斷劑；Calcipotriol、Calcitriol（外用）
+- **藥物交互作用**：共查得 82 筆交互作用。主要包括：
+  - 嚴重（Major）：Dolutegravir、Bictegravir
+  - 中度（Moderate）：Alendronic acid、Risedronic acid、Ibandronate（雙磷酸鹽類）；Doxycycline、Tetracycline（四環素類）；Nifedipine、Amlodipine、Diltiazem（鈣離子通道阻斷劑）；Hydrochlorothiazide、Chlorothiazide（噻嗪類利尿劑）；Atenolol、Bisoprolol、Carvedilol 等 β 阻斷劑；Calcipotriol、Calcitriol（外用）
 
-其餘仿單層級的警語與禁忌資料，請參考原廠仿單。
-
----
+其餘警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 鈣鹼症候群由過量鈣攝取引起，乳酸鈣是潛在致病因素，用於此適應症在機轉上不合理且有安全疑慮。
-- 唯一的文獻是病例報告且顯示鈣補充為風險因子；第二個預測適應症（骨發育不良）則完全沒有臨床或文獻證據。
+- 鈣鹼症候群由過量鈣攝取引起，Calcium Lactate 在機轉上可能加重而非改善此疾病，且沒有任何臨床試驗支持；唯一文獻為病例報告，並未顯示治療效益，證據等級僅為 L5。
 
 **若要推進需要：**
-- 取得香港衛生署仿單的警語與禁忌資料（目前為阻斷性資料缺口）
-- 補充作用機轉資料（例如從 DrugBank 查詢）
-- 針對第二個預測適應症（骨礦化缺陷），先釐清具體疾病亞型是否屬於缺鈣型，再評估是否值得進一步研究
-- 不建議針對鈣鹼症候群推進；若重新評估，應將其視為安全性訊號而非療效機會
+- 確認此預測是否僅反映藥物與疾病的致病關聯，而非治療潛力
+- 取得完整作用機轉資料與香港仿單的警語及禁忌症
+- 若有其他治療假設，需先提供機轉與前臨床證據，再評估是否值得進一步研究
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

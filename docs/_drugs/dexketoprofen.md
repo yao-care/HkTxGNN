@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dexketoprofen
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 266
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Dexketoprofen：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L1）。原適應症：資料中未載明"
 monitor_inn: "Dexketoprofen"
 predicted_indications: ["tendinitis", "fibromyalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
+description: "Dexketoprofen：預測新適應症為Tendinitis（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Dexketoprofen
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["tendinitis", "fibromyalgia", "myositis fibrosa", "idiop
 
 </div>
 
-## Dexketoprofen：從（原適應症未載明）到偏頭痛
+## Dexketoprofen: Tendinitis
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,15 +48,15 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料中未載明 |
-| 預測新適應症 | 偏頭痛 (Migraine Disorder) |
-| TxGNN 預測分數 | 99.87% |
-| 證據等級 | L1 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Tendinitis |
+| TxGNN 預測分數 | 0.9990 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Proceed with Guardrails |
 
-> 說明：TxGNN 排名第 1 的預測為肌腱炎（分數 99.90%），但僅有 1 篇間接文獻（L4，建議 Hold）。偏頭痛排名第 6，但證據最充分，故作為本報告的主要評估對象。
+> 說明：TxGNN 排名第 1 的預測為肌腱炎（分數 0.9990），但僅有 1 篇間接文獻（L4，建議 Hold）。偏頭痛排名第 6，但證據最充分，故作為本報告的主要評估對象。
 
 ---
 

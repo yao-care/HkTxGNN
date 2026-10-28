@@ -4,17 +4,17 @@ title: Pantoprazole
 parent: 僅模型預測 (L5)
 nav_order: 663
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Pantoprazole：預測新適應症為活動性消化性潰瘍 (Active Peptic Ulcer Disease)（證據等級 L5）。原適應症：消化性潰瘍、胃食道逆流、食道炎、Zollinger-Ellison 症候群等"
+indication_count: 1
+last_modified_at: 2026-10-28
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
+description: "Pantoprazole：預測新適應症為Duodenal obstruction（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Pantoprazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["duodenal obstruction"]
 
 </div>
 
-## Pantoprazole：從消化性潰瘍／胃食道逆流到活動性消化性潰瘍
+## Pantoprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## 一句話總結
 
 Pantoprazole 是質子幫浦抑制劑（PPI），原本用於消化性潰瘍、胃食道逆流、食道炎及 Zollinger-Ellison 症候群等胃酸相關疾病。
-TxGNN 模型預測它對**活動性消化性潰瘍 (Active Peptic Ulcer Disease)** 有效，目前有 **1 個已完成的 Phase 3 臨床試驗**和 **多篇文獻**支持。
 需要說明的是，此預測屬於既有適應症的範圍，實際上不是真正的新適應症。
 
 ---
@@ -48,11 +47,11 @@ TxGNN 模型預測它對**活動性消化性潰瘍 (Active Peptic Ulcer Disease)
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 消化性潰瘍、胃食道逆流、食道炎、Zollinger-Ellison 症候群等（取自知識圖譜） |
-| 預測新適應症 | 活動性消化性潰瘍 (Active Peptic Ulcer Disease) |
-| TxGNN 預測分數 | 99.69% |
-| 證據等級 | L1（依資料編譯結果；僅 1 個已完成的 Phase 3 試驗，嚴格依本報告判定規則應為 L2，詳見下方說明） |
-| 香港上市 | ✓ 已上市 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Duodenal obstruction |
+| TxGNN 預測分數 | 0.9921 |
+| 證據等級 | L5（依資料編譯結果；僅 1 個已完成的 Phase 3 試驗，嚴格依本報告判定規則應為 L2，詳見下方說明） |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Proceed with Guardrails |
 
@@ -64,7 +63,7 @@ TxGNN 模型預測它對**活動性消化性潰瘍 (Active Peptic Ulcer Disease)
 
 目前缺乏詳細的作用機轉資料（原廠資料欄位未收錄）。不過依據已知藥理，Pantoprazole 會不可逆地抑制胃壁細胞上的 H+/K+ ATPase（質子幫浦），這是胃酸分泌的最後一步，因此能降低胃酸、讓潰瘍癒合。
 
-活動性消化性潰瘍本來就是 Pantoprazole 的核心適應症，所以模型給出高分（99.69%）並不意外。這個預測反映的是模型正確辨認出藥物既有的用途，而非發現新用途。
+這個預測反映的是模型正確辨認出藥物既有的用途，而非發現新用途。
 
 其他排名較低的預測（潰瘍穿孔、胃空腸潰瘍、十二指腸胃逆流、十二指腸阻塞）的證據強度逐步遞減，詳見結論。
 
@@ -133,10 +132,7 @@ TxGNN 模型預測它對**活動性消化性潰瘍 (Active Peptic Ulcer Disease)
 
 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
 |-----------|-----------|---------|------|
-| 潰瘍穿孔 | 99.63% | L3 | 研究性問題；Pantoprazole 僅為手術修補後的輔助用藥 |
-| 胃空腸潰瘍 | 99.63% | L4 | 研究性問題；文獻皆為間接證據（壓力性潰瘍預防等） |
-| 十二指腸胃逆流 | 99.27% | L3 | 研究性問題；僅有小型生理／觀察性研究，對膽汁逆流本身的作用不明 |
-| 十二指腸阻塞 | 99.21% | L5 | Hold；無明確機轉關聯，僅有一篇非評估 Pantoprazole 的病例報告 |
+| 十二指腸阻塞 | 0.9921 | L5 | Hold；無明確機轉關聯，僅有一篇非評估 Pantoprazole 的病例報告 |
 
 **若要推進需要：**
 - 取得香港衛生署的仿單資料（警語、禁忌症、核准適應症），這是目前阻擋安全性篩查的缺口

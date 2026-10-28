@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Yohimbine
-parent: 僅模型預測 (L5)
+parent: 中證據等級 (L3-L4)
 nav_order: 947
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Yohimbine：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Yohimbine"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "migraine with or without aura, susceptibility to", "primary hereditary glaucoma", "headache disorder", "transient ischemic attack (disease)", "common cold", "open-angle glaucoma"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "primary hereditary glaucoma", "headache disorder", "transient ischemic attack (disease)", "common cold", "open-angle glaucoma"]
 ---
 
 # Yohimbine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L4** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，不過�
 |------|------|
 | 原適應症 | 資料未載明（許可證的核准適應症欄位為空） |
 | 預測新適應症 | 偏頭痛 (Migraine Disorder) |
-| TxGNN 預測分數 | 99.94% |
+| TxGNN 預測分數 | 0.9994 |
 | 證據等級 | L4（僅有前臨床／機轉研究） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---

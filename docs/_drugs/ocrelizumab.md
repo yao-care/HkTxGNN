@@ -6,9 +6,9 @@ nav_order: 635
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Ocrelizumab：預測新適應症為HER2 陽性乳癌 (HER2 positive breast carcinoma)（證據等級 L5）。原適應症：進行性多發性硬化症"
 monitor_inn: "OCRELIZUMAB"
-predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
+predicted_indications: ["HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
+description: "Ocrelizumab：預測新適應症為HER2 陽性乳癌 (HER2 positive breast carcinoma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Ocrelizumab
@@ -33,7 +33,7 @@ predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor
 
 </div>
 
-## Ocrelizumab：從進行性多發性硬化症到 HER2 陽性乳癌
+## Ocrelizumab: HER2 陽性乳癌 (HER2 positive breast carcinoma)
 {: .text-alpha }
 
 ## 一句話總結
@@ -45,21 +45,21 @@ TxGNN 模型預測它可能對 **HER2 陽性乳癌 (HER2 positive breast carcino
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 進行性多發性硬化症（許可證資料未載明核准適應症文字，此為知識圖譜所列） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | HER2 陽性乳癌 (HER2 positive breast carcinoma) |
-| TxGNN 預測分數 | 99.89% |
+| TxGNN 預測分數 | 0.9989 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
 目前缺乏詳細的作用機轉資料。已知 ocrelizumab 是一種人源化抗 CD20 單株抗體，可選擇性清除表現 CD20 的 B 細胞，在多發性硬化症（包含復發型與原發進行型）的療效已有大型試驗證實。
 
-然而，就現有資料而言，**無法建立合理的機轉連結**。HER2 陽性乳癌的病理主要由 HER2 訊號驅動，編譯資料中沒有任何以 CD20 或 B 細胞清除為基礎的乳癌治療依據。0.999 的高分只是圖譜模型的預測，不等同於生物學上的支持。
+然而，就現有資料而言，**無法建立合理的機轉連結**。HER2 陽性乳癌的病理主要由 HER2 訊號驅動，編譯資料中沒有任何以 CD20 或 B 細胞清除為基礎的乳癌治療依據。0.9989 的高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，不等同於生物學證據。
 
-同時，預測清單中的其他乳癌亞型（PR 陽性、PR 陰性、類正常乳房型、Luminal A/B）分數幾乎相同（約 0.998），顯示這較可能反映圖譜結構上的共同訊號，而非各亞型特有的生物學。
+同時，預測清單中的其他乳癌亞型（PR 陽性、PR 陰性、類正常乳房型、Luminal A/B）分數幾乎相同（0.9980 至 0.9981），顯示這較可能反映 TxGNN 模型（深度學習）從相關疾病之間學到的相似性，而非各亞型特有的生物學。
 
 ## 臨床試驗證據
 

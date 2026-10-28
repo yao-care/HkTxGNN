@@ -4,17 +4,17 @@ title: Imidacloprid
 parent: 僅模型預測 (L5)
 nav_order: 460
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Imidacloprid：預測新適應症為馬尾症候群 (Cauda Equina Syndrome)（證據等級 L5）。原適應症：無"
+indication_count: 9
 monitor_inn: "IMIDACLOPRID"
-predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "non-syndromic esophageal malformation", "esophageal disease"]
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "non-syndromic esophageal malformation", "esophageal disease", "mitral valve prolapse (disease)", "neurocirculatory asthenia", "familial mitral valve prolapse", "MVP1"]
+last_modified_at: 2026-10-23
+description: "Imidacloprid：預測新適應症為馬尾症候群 (Cauda Equina Syndrome)（證據等級 L5）。原適應症：許可證資料未載明適應症文字（產品為獸醫用）"
 ---
 
 # Imidacloprid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 </div>
 
-## Imidacloprid：從（無人類適應症，僅有動物用許可）到 馬尾症候群
+## Imidacloprid：從獸醫用途到馬尾症候群（模型預測，證據不足）
 {: .text-alpha }
 
 ## 一句話總結
 
-Imidacloprid 是新煙鹼類（neonicotinoid）殺蟲劑，在香港僅以動物用（獸醫）外用產品登記，用於寵物體外寄生蟲防治，並無人類核准適應症。
-TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效（分數 99.99%），但目前**沒有任何臨床試驗或文獻**支持，僅為模型預測。
+Imidacloprid 是新煙鹼類（neonicotinoid）殺蟲成分，在香港登記的產品皆為寵物用（獸醫用）外用滴劑。
+TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效，但目前**沒有任何臨床試驗或文獻**直接支持這個方向，僅屬於模型推論，建議暫緩（Hold）。
 
 ---
 
@@ -47,30 +47,23 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 無（許可證資料未載明適應症；產品均為獸用） |
+| 原適應症 | 許可證資料未載明適應症文字（產品為獸醫用） |
 | 預測新適應症 | 馬尾症候群 (Cauda Equina Syndrome) |
-| TxGNN 預測分數 | 99.99% |
+| TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市（獸用產品） |
-| 許可證數 | 6 張 |
+| 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
+| 許可證數 | 6 張（有效 6 張） |
 | 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Imidacloprid 是新煙鹼類殺蟲劑，作用於菸鹼型乙醯膽鹼受體（nAChR）的促效劑，對昆蟲受體的選擇性高於哺乳類受體。
+目前缺乏詳細的作用機轉資料。已知 imidacloprid 是昆蟲菸鹼型乙醯膽鹼受體（nAChR）的促效劑，對哺乳動物 nAChR 的親和力低得多。
 
-馬尾症候群是脊髓下段神經根受壓迫或損傷所致的神經疾病，治療以手術減壓為主。以現有資料看不出 nAChR 促效劑對壓迫性神經損傷有任何合理的治療機轉。這個高分預測較可能是知識圖譜中共用神經相關節點造成的假象，**不應視為療效證據**。
+馬尾症候群是脊髓末端神經根受壓迫的結構性神經急症，藥理上沒有明確理由認為 nAChR 促效劑能改善。這個高分來自 TxGNN 模型（深度學習），可能只反映模型從相關疾病之間學到的相似性，並非生物學證據，也無機轉或臨床資料支持。再者，imidacloprid 已知具有哺乳動物神經毒性，與神經系統疾病的治療目標相悖。
 
-其他排名較前的預測也同樣缺乏支持：
-
-| 排名 | 預測疾病 | TxGNN 分數 | 評估 |
-|------|---------|-----------|------|
-| 2 | 神經性膀胱（本體論中已標示為過時條目） | 99.98% | 無試驗或文獻。nAChR 促效劑理論上可能涉及膀胱自主神經控制，但該藥是無人類治療開發的農藥，且有潛在神經毒性 |
-| 3 | 腸躁症 | 99.88% | 無臨床證據。腸道菸鹼訊號與蠕動相關，但 nAChR 促效反而可能引起腸胃不良反應 |
-| 4 | 非症候群性食道畸形 | 99.63% | 先天結構異常不太可能以藥物治療，多半是模型假象 |
-| 5 | 食道疾病 | 99.49% | 僅有一篇獸醫研究（見下方文獻），不代表對人類有效 |
+其他預測結果（神經源性膀胱、腸躁症、食道疾病、二尖瓣脫垂等）同樣只有模型分數，沒有試驗或文獻支持。其中「神經源性膀胱」在本體論中已被標記為過時術語，可信度更低；二尖瓣脫垂相關項目（含家族性與 MVP1）屬結構或遺傳性疾病，缺乏藥理依據，且彼此高度重複。
 
 ---
 
@@ -82,11 +75,13 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 
 ## 文獻證據
 
-針對首位預測（馬尾症候群）無相關文獻。以下為第 5 名預測「食道疾病」的唯一文獻，僅供參考：
+針對馬尾症候群，目前無相關文獻。
+
+在其他預測項目中，僅「食道疾病」有 1 篇文獻，但屬獸醫研究，不能作為人類證據：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [29506575](https://pubmed.ncbi.nlm.nih.gov/29506575/) | 2018 | 獸醫臨床研究（複方、非人類） | Parasites & Vectors | 雙盲、安慰劑對照試驗，評估 imidacloprid + moxidectin 外用劑（Advocate®）對犬隻食道旋尾線蟲症（spirocercosis）的療效，對照為注射 doramectin。屬抗寄生蟲用途，且主要活性成分可能是 moxidectin，不能作為人類食道疾病的療效證據 |
+| [29506575](https://pubmed.ncbi.nlm.nih.gov/29506575/) | 2018 | 獸醫研究（雙盲、安慰劑對照） | Parasites & Vectors | 比較 imidacloprid＋moxidectin 外用劑（Advocate）與注射型 doramectin，用於犬隻食道旋尾線蟲病；療效可能來自 moxidectin 的抗寄生蟲作用，與人類食道疾病無關 |
 
 ---
 
@@ -100,7 +95,7 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 | HK-57256 | ADVANTAGE 80 FOR CATS SOLUTION 80MG/0.8ML (VET) | 未載明 | 未載明 |
 | HK-55110 | ADVANTAGE 100 SOLN 100MG/ML (VET) | 未載明 | 未載明 |
 
-（另有 HK-55112 ADVANTAGE 40 SOLN 40MG/0.4ML (VET)，共 6 張許可證，均為單方、有效，持有者為 UNIPET HOUSE COMPANY LIMITED。）
+另有 HK-55112（ADVANTAGE 40 SOLN 40MG/0.4ML，獸醫用）。以上 6 張皆為單一成分、有效的許可證，持有者為 UNIPET HOUSE COMPANY LIMITED。
 
 ---
 
@@ -108,7 +103,7 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 
 安全性資訊請參考原廠仿單。
 
-另有一點需特別留意：本藥為農藥／獸用殺蟲成分，具潛在神經毒性，且香港並無人類用藥的核准。
+本次整理的資料中未查到藥物交互作用紀錄。另外，imidacloprid 在哺乳動物具有已知的神經毒性，而菸鹼受體促效作用可能加重自律神經相關症狀，若考慮用於人體需特別審慎。
 
 ---
 
@@ -117,14 +112,14 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 **決策：Hold**
 
 **理由：**
-- 所有預測都只有模型分數支持，沒有任何臨床試驗，也沒有直接相關的人類文獻（證據等級 L5）。
-- 作用機轉與預測疾病之間缺乏合理連結，藥物本身是無人類治療開發的殺蟲劑，並有潛在神經毒性，不建議推進。
+- 所有預測適應症都只有 TxGNN 模型（深度學習）的預測（證據等級 L5），分數可能反映模型從相關疾病間學到的相似性，並非生物學證據，也沒有直接研究馬尾症候群的試驗或文獻。
+- 藥物本身為獸醫用殺蟲成分，缺乏作用機轉與人用安全性資料，且已知神經毒性與預測方向相衝突。
 
 **若要推進需要：**
-- 補齊作用機轉（MOA）資料，並說明 nAChR 促效作用與馬尾症候群（或其他預測疾病）的合理連結
-- 取得香港衛生署仿單的警語與禁忌資料，完成安全性篩選
-- 取得任何人類用途的前臨床或機轉研究證據，才有重新評估的基礎
-- 在上述條件未達成前，不建議投入進一步開發資源
+- 補齊 imidacloprid 的作用機轉與哺乳動物藥理、毒理資料
+- 取得香港衛生署仿單的警語與禁忌資料
+- 進行前臨床研究，驗證其對神經根壓迫或神經損傷模型是否有益
+- 在確認機轉合理且安全性可接受之前，不建議進入臨床開發
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -4,17 +4,17 @@ title: Indomethacin
 parent: 僅模型預測 (L5)
 nav_order: 468
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Indomethacin：預測新適應症為短指併指症候群 (Brachydactyly-Syndactyly Syndrome)（證據等級 L5）。原適應症：滑囊炎、滑膜炎、類風濕性關節炎、僵直性脊椎炎、痛風、骨關節炎、五十肩、動脈導管未閉等"
+indication_count: 10
 monitor_inn: "INDOMETHACIN"
-predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
+predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
+last_modified_at: 2026-10-23
+description: "Indomethacin：預測新適應症為短指併指症候群 (brachydactyly-syndactyly syndrome)（證據等級 L5）。原適應症：本報告彙整的許可證資料未提供核准適應症文字。知識圖譜記錄的相關疾病包括滑囊炎、類風濕性關節炎、僵直性脊椎炎、痛風、骨關節炎、動脈導管未閉等"
 ---
 
 # Indomethacin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,97 +33,80 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 </div>
 
-## Indomethacin：從關節炎與發炎性疾病到 Brachydactyly-Syndactyly 症候群
+## Indomethacin：從關節發炎類疾病到短指併指症候群
 {: .text-alpha }
 
 ## 一句話總結
 
-Indomethacin 是一種非類固醇消炎藥，原本用於治療滑囊炎、類風濕性關節炎、僵直性脊椎炎、痛風、骨關節炎及早產兒動脈導管未閉等疾病。
-TxGNN 模型預測它可能對**短指併指症候群 (Brachydactyly-Syndactyly Syndrome)** 有效，但目前**沒有任何臨床試驗或文獻**支持，僅屬模型預測。
-
----
+Indomethacin（吲哚美辛）是一種非類固醇消炎藥。知識圖譜記錄它與滑囊炎、類風濕性關節炎、僵直性脊椎炎、痛風、骨關節炎等疾病有關。TxGNN 模型預測它可能對**短指併指症候群 (brachydactyly-syndactyly syndrome)** 有效。目前**沒有任何臨床試驗或文獻**直接研究這個組合，只有模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 滑囊炎、滑膜炎、類風濕性關節炎、僵直性脊椎炎、痛風、骨關節炎、五十肩、動脈導管未閉等 |
-| 預測新適應症 | 短指併指症候群 (Brachydactyly-Syndactyly Syndrome) |
-| TxGNN 預測分數 | 99.97% |
+| 原適應症 | 本報告彙整的許可證資料未提供核准適應症文字。知識圖譜記錄的相關疾病包括滑囊炎、類風濕性關節炎、僵直性脊椎炎、痛風、骨關節炎、動脈導管未閉等（僅為知識圖譜關聯，不等同核准適應症） |
+| 預測新適應症 | 短指併指症候群 (brachydactyly-syndactyly syndrome) |
+| TxGNN 預測分數 | 0.9997（全體排名第 1093） |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 20 張 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 許可證數 | 至少 20 張（清單可能不完整） |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Indomethacin 一般被認為是非選擇性 COX 抑制劑（此為背景知識，並非來自本報告彙整的資料），透過減少前列腺素合成發揮消炎與止痛作用，因此適用於各類發炎性關節與軟組織疾病。
+目前缺乏詳細的作用機轉資料。一般而言，Indomethacin 是環氧合酶（COX-1 與 COX-2）抑制劑，透過減少前列腺素生成來發揮消炎與止痛作用，這也是它用於關節發炎類疾病的基礎。
 
-短指併指症候群屬於先天性肢體發育異常，成因多為基因或發育路徑缺陷，而非發炎。以消炎為主的 COX 抑制作用，並無明確理由能矯正這類發育性病理。因此，就現有資料而言，**找不到可支持此預測的機轉連結**。
+短指併指症候群是罕見的先天性肢體發育畸形。這類疾病的成因是發育過程的基因或訊號異常，而不是前列腺素介導的發炎。消炎止痛作用沒有已知的途徑可以矯正骨骼發育缺陷，所以**目前無法建立合理的機轉連結**。
 
-99.97% 的高分僅代表模型的計算結果，沒有任何臨床試驗或文獻佐證，不能視為療效證據。其他排名前五的預測（如 colobomatous microphthalmia-rhizomelic dysplasia syndrome、acromesomelic dysplasia Hunter-Thompson type、WHIM syndrome、brachyolmia-amelogenesis imperfecta syndrome）同樣缺乏證據，也沒有合理的機轉連結。
-
----
+這個高分預測來自 TxGNN 模型（深度學習），分數可能反映模型從相關疾病之間學到的相似性，並非生物學證據，也沒有臨床或文獻佐證。在實際研究支持前，不宜當作有效的線索。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
 目前無相關文獻。
 
----
-
 ## 香港上市資訊
 
-香港共有 20 張有效的單一成分許可證，以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：
+本報告彙整的資料中，許可證的劑型與核准適應症欄位皆為空白，無法列出。以下為部分主要許可證，完整清單可能不止於此。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-01934 | INDOCID CAP 25MG | 膠囊 | 未提供 |
-| HK-46461 | RHEUMAXIN CAP 50MG | 膠囊 | 未提供 |
-| HK-67282 | TOSPAN INDOMETHACIN CAPSULES 25MG | 膠囊 | 未提供 |
-| HK-27094 | INDYLON CAP 25MG | 膠囊 | 未提供 |
-| HK-62726 | INDECIN CREAM 1% W/W | 乳膏（外用） | 未提供 |
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-67282 | TOSPAN INDOMETHACIN CAPSULES 25MG | WELLDONE PHARMACEUTICALS LIMITED |
+| HK-67566 | KECENTIN CAPSULES 25MG | WELLDONE PHARMACEUTICALS LIMITED |
+| HK-15122 | INDOMETHACIN CAP 25MG | NATIONAL PHARMACEUTICAL CO LTD |
+| HK-46461 | RHEUMAXIN CAP 50MG | VICKMANS LABORATORIES LTD |
+| HK-01934 | INDOCID CAP 25MG | ASPEN PHARMACARE ASIA LIMITED |
 
----
+另有 INDECIN CREAM 1% W/W（HK-62726）為外用乳膏劑型。
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌疾病**（來自 TxGNN 知識圖譜的藥物-疾病關聯，非仿單內容）：
-  - 心血管：高血壓、心肌梗塞、冠狀動脈血栓、心臟病
-  - 消化道：胃潰瘍、十二指腸潰瘍、活動性消化性潰瘍、潰瘍性結腸炎、發炎性腸道疾病、壞死性腸炎、食道運動異常
-  - 腎臟與肝膽：腎臟疾病、肝臟疾病、膽囊疾病
-  - 血液與出血：血小板低下、凝血異常、顱內出血、血紅素病變
-  - 呼吸道：氣喘（內因性、過敏性）
-  - 神經精神：癲癇、焦慮症、精神官能症、輕鬱症
-  - 其他：感染性疾病、輸尿管積膿
-- **藥物交互作用**：資料庫共查得 100 筆，以下為其中的主要項目。
-  - 中度：阿斯匹靈 (Acetylsalicylic acid)、皮質類固醇（Hydrocortisone、Dexamethasone、Betamethasone、Budesonide、Triamcinolone）、Metformin、Glimepiride、Chlorpropamide、Mesalazine、Balsalazide、Aprepitant、鉀鹽類（Potassium citrate、Potassium bicarbonate）
-  - 輕微：Famotidine、Ranitidine、Cimetidine、Linaclotide
+- **知識圖譜記錄的禁忌關聯**（來自知識圖譜，並非仿單文字）：高血壓、癲癇、胃潰瘍、十二指腸潰瘍、活動性消化性潰瘍、腎臟疾病、肝臟疾病、血小板低下、凝血異常、氣喘、心肌梗塞、心血管疾病、潰瘍性結腸炎、發炎性腸道疾病、壞死性腸炎、腦內出血等。
+- **藥物交互作用**：資料庫共有 100 筆記錄，以下為部分中度交互作用：
+  - 類固醇類：Hydrocortisone、Dexamethasone、Betamethasone、Triamcinolone、Budesonide
+  - 其他消炎藥：Acetylsalicylic acid、Mesalazine、Balsalazide
+  - 降血糖藥：Metformin、Chlorpropamide、Glimepiride
+  - 其他：Aprepitant、鉀鹽類（Potassium citrate、Potassium bicarbonate）、瀉劑類
 
-仿單的警語與禁忌症資料尚未取得，詳細安全性資訊請參考原廠仿單。
-
----
+仿單的警語與禁忌資料尚未取得，詳細安全性資訊請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 此預測只有模型分數，沒有任何臨床試驗或文獻，證據等級為 L5。
-- 目標疾病是先天發育性異常，與 COX 抑制的消炎作用之間缺乏合理的機轉連結。
+- 這個預測只有模型分數，沒有任何臨床試驗或文獻直接支持，機轉上也找不到合理的連結，證據等級為 L5。
+- 疾病屬於先天性發育異常，消炎藥沒有已知的矯正作用。
 
 **若要推進需要：**
-- 補齊 Indomethacin 的作用機轉資料，並重新評估與目標疾病的機轉關聯
-- 取得香港衛生署仿單的警語與禁忌症
-- 進行文獻與臨床試驗檢索，確認是否有任何支持性證據
-- 若仍要探索，需先有前臨床或疾病模型研究，再評估風險與效益
+- 找到具體的生物學假說，說明 COX 抑制如何影響此疾病的發育或病理途徑
+- 取得 DrugBank 的作用機轉資料，並補齊香港仿單的警語與禁忌
+- 在文獻與試驗登記庫中，針對此疾病進行直接檢索與確認
+
+**補充：**同一份預測清單中，排名第 8 的**幼年特發性關節炎**有 19 篇文獻，以回顧和一項 1978 年的雙盲交叉試驗為主，證據較完整，也比較貼近 Indomethacin 的既有用途。若要選擇值得優先評估的方向，建議以該疾病為主要標的另行評估。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

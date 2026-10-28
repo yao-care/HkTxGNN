@@ -6,9 +6,9 @@ nav_order: 579
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Metronidazole：預測新適應症為肺囊蟲症 (Pneumocystosis)（證據等級 L5）。原適應症：腹膜炎、心內膜炎、厭氧菌感染、賈第鞭毛蟲症、細菌性陰道病、顱內膿瘍等"
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
+description: "Metronidazole：預測新適應症為肺囊蟲症 (pneumocystosis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Metronidazole
@@ -33,7 +33,7 @@ predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivi
 
 </div>
 
-## Metronidazole：從厭氧菌與原蟲感染到肺囊蟲症（Pneumocystosis）
+## Metronidazole: 肺囊蟲症 (pneumocystosis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,11 +47,11 @@ TxGNN 模型預測它可能對**肺囊蟲症 (Pneumocystosis)** 有效，但目�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 腹膜炎、心內膜炎、厭氧菌感染、賈第鞭毛蟲症、細菌性陰道病、顱內膿瘍等（香港許可證未載明適應症文字，以上為知識圖譜資料） |
-| 預測新適應症 | 肺囊蟲症 (Pneumocystosis) |
-| TxGNN 預測分數 | 99.99% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 肺囊蟲症 (pneumocystosis) |
+| TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**肺囊蟲症 (Pneumocystosis)** 有效，但目�
 
 目前缺乏詳細的作用機轉資料。Metronidazole 對厭氧菌與部分原蟲有活性，這類活性仰賴硝基咪唑可被還原活化的代謝途徑。
 
-然而，肺囊蟲（*Pneumocystis*）屬於真菌，並不具備對硝基咪唑敏感的代謝途徑。因此 TxGNN 的高分（99.99%）較可能來自知識圖譜中與其他抗寄生蟲、抗感染藥物的網路鄰近性，而非可信的機轉。
+然而，肺囊蟲（*Pneumocystis*）屬於真菌，並不具備對硝基咪唑敏感的代謝途徑。因此 TxGNN 模型（深度學習）給出的高分（0.9999）可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
 所檢索到的文獻多為抗寄生蟲藥物綜述與 HIV 伺機性感染報告，只是在其他情境提到 metronidazole（例如病患因腹瀉或阿米巴感染而使用）。肺囊蟲肺炎的標準治療是 trimethoprim-sulfamethoxazole，而非 metronidazole。整體而言，這個預測的合理性低，應視為模型產生的假說。
 

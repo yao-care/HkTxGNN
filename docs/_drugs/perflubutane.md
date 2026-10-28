@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Perflubutane
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 682
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Perflubutane：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L5）。原適應症：目前許可證資料未載明核准適應症"
+description: "Perflubutane: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Perflubutane"
-predicted_indications: ["bronchitis", "bronchial neoplasm (disease)", "severe nonproliferative diabetic retinopathy", "gastroduodenitis", "peptic ulcer disease", "Chagas cardiomyopathy", "infective urethral stricture", "post-infectious syndrome", "diabetic retinopathy", "post-bacterial disorder"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Perflubutane
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,41 +35,16 @@ predicted_indications: ["bronchitis", "bronchial neoplasm (disease)", "severe no
 
 </div>
 
-## Perflubutane：從超音波對比劑到支氣管炎（預測）
+## Perflubutane
 {: .text-alpha }
-
-## 一句話總結
-
-Perflubutane 是全氟碳微氣泡超音波對比劑，香港已有一張許可證（產品名 SONAZOID）。
-TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前**沒有任何臨床試驗或文獻**支持，屬於純模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 目前許可證資料未載明核准適應症 |
-| 預測新適應症 | 支氣管炎 (Bronchitis) |
-| TxGNN 預測分數 | 97.33% |
-| 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
-| 建議決策 | Hold |
-
-## 為什麼這個預測合理？
-
-目前缺乏詳細的作用機轉資料。根據已知資訊，Perflubutane 是全氟碳微氣泡超音波對比劑，作用在於血管內顯影，而不是抗發炎或抗感染治療。
-
-支氣管炎屬於呼吸道發炎或感染性疾病，而 Perflubutane 沒有已知的抗發炎或抗感染活性。因此，目前無法建立兩者之間的機轉關聯。0.973 的 TxGNN 分數只是計算預測，沒有臨床或文獻佐證。
-
-其他排名前 10 的預測也有類似情況，包括支氣管腫瘤、嚴重非增殖性糖尿病視網膜病變、胃十二指腸炎、消化性潰瘍等，全部屬於 L5 等級、無任何試驗或文獻。對比劑最多只可能有顯影用途（例如腫瘤或微血管灌流成像），那屬於診斷用途，不是治療性的藥物再利用。
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
-## 文獻證據
-
-目前無相關文獻。
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 
 ## 香港上市資訊
 
@@ -83,20 +60,6 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前**
 
 目前就藥物交互作用查詢，也沒有找到相關紀錄。
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 目前只有模型預測（L5），沒有任何臨床試驗或文獻，且機轉上找不到合理的治療連結。
-- 該藥是診斷用對比劑，與支氣管炎的治療目標不一致。
-
-**若要推進需要：**
-- 補齊作用機轉資料（MOA）。
-- 取得香港衛生署仿單的警語與禁忌資料，完成安全性篩選。
-- 確認許可證的核准適應症。
-- 提出支氣管炎相關的機轉假說，並取得前臨床或臨床證據。
-- 若有興趣，可另行評估診斷成像用途（例如支氣管腫瘤灌流成像），這屬於不同性質的評估。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

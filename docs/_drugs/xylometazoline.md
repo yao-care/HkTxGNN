@@ -4,17 +4,17 @@ title: Xylometazoline
 parent: 中證據等級 (L3-L4)
 nav_order: 946
 evidence_level: L3
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Xylometazoline：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L3）。原適應症：咽炎 (Pharyngitis)、感冒 (Common Cold)"
 monitor_inn: "Xylometazoline"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
 ---
 
 # Xylometazoline
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **2** 個
+證據等級: **L3** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 |------|------|
 | 原適應症 | 咽炎 (Pharyngitis)、感冒 (Common Cold) |
 | 預測新適應症 | 鼻腔疾病 (Nasal Cavity Disease) |
-| TxGNN 預測分數 | 99.91% |
+| TxGNN 預測分數 | 0.9991 |
 | 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 16 張 |
+| 香港上市 | 上市中（有效許可證 16 張／共 16 張） |
+| 許可證數 | 16 張（有效 16 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---
@@ -128,9 +128,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 ---
 
-### 附註：第二預測「急性喉咽炎 (Acute Laryngopharyngitis)」
 
-TxGNN 分數為 99.89%，但沒有臨床試驗或文獻支持（證據等級 L5），建議決策為 **Hold**。Xylometazoline 為鼻黏膜局部用藥，並不直接治療喉部或咽部的發炎或感染。此外，這個預測可能只是反映它與原適應症「咽炎」名稱相近，並不代表有新的治療機會。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -4,17 +4,17 @@ title: Propranolol
 parent: 僅模型預測 (L5)
 nav_order: 740
 evidence_level: L5
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Propranolol：預測新適應症為遠端肌病變，Tateyama 型 (distal myopathy, Tateyama type)（證據等級 L5）。原適應症：高血壓、心房顫動、肥厚性心肌病變、血管瘤等"
 monitor_inn: "Propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
+description: "Propranolol：預測新適應症為遠端肌病變，Tateyama 型 (distal myopathy, Tateyama type)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Propranolol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+證據等級: **L5** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy w
 
 </div>
 
-## Propranolol：從高血壓與心律不整到遠端肌病變（Tateyama 型）
+## Propranolol: 遠端肌病變，Tateyama 型 (distal myopathy, Tateyama type)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**遠端肌病變，Tateyama 型 (distal myopathy,
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 高血壓、心房顫動、肥厚性心肌病變、血管瘤等（香港許可證未載明核准適應症文字，此處依知識圖譜適應症關聯） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | 遠端肌病變，Tateyama 型 (distal myopathy, Tateyama type) |
-| TxGNN 預測分數 | 99.40% |
+| TxGNN 預測分數 | 0.9940 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 17 張 |
+| 香港上市 | 上市中（有效許可證 17 張／共 17 張） |
+| 許可證數 | 17 張（有效 17 張） |
 | 建議決策 | Hold |
 
 ---
@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**遠端肌病變，Tateyama 型 (distal myopathy,
 
 目前缺乏詳細的作用機轉資料。Propranolol 屬於非選擇性 β 腎上腺素受體阻斷劑，透過降低心率、減少心肌耗氧量來發揮作用，在心血管疾病中的療效已被證實。
 
-然而，Tateyama 型遠端肌病變是一種與 caveolin 相關的遠端肌病變。根據本報告彙整的資料，β 受體阻斷與這個疾病之間**看不出明確的機轉關聯**。高達 99.40% 的分數屬於模型的計算結果，不能視為療效證據。
+然而，Tateyama 型遠端肌病變是一種與 caveolin 相關的遠端肌病變。根據本報告彙整的資料，β 受體阻斷與這個疾病之間**看不出明確的機轉關聯**。高達 0.9940 的分數屬於模型的計算結果，不能視為療效證據。
 
 另外，此藥在知識圖譜中還有多項肌肉相關疾病（如肌病變、骨骼肌疾病、重症肌無力）被列為禁忌，使這個預測在臨床上更需謹慎看待。
 

@@ -4,17 +4,17 @@ title: Erdafitinib
 parent: 僅模型預測 (L5)
 nav_order: 331
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
 description: "Erdafitinib：預測新適應症為肺動脈高壓 (Pulmonary Hypertension)（證據等級 L5）。原適應症：本次整理的資料中未載明"
 monitor_inn: "Erdafitinib"
-predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome", "amyotrohpic lateral sclerosis type 22", "amyotrophic lateral sclerosis, susceptibility to", "axial spondylometaphyseal dysplasia", "Mills syndrome"]
+predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Erdafitinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有�
 |------|------|
 | 原適應症 | 本次整理的資料中未載明 |
 | 預測新適應症 | 肺動脈高壓 (Pulmonary Hypertension) |
-| TxGNN 預測分數 | 99.38% |
+| TxGNN 預測分數 | 0.9938 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ---
@@ -69,14 +69,11 @@ Erdafitinib 是泛 FGFR（FGFR1-4）酪胺酸激酶抑制劑。FGF/FGFR 訊號�
 
 | 排名 | 預測疾病 | TxGNN 分數 | 備註 |
 |------|---------|-----------|------|
-| 2 | 脊柱後側彎性心臟病 | 99.27% | 與 FGFR 抑制無明確機轉關聯，可能反映與肺動脈高壓的網絡接近性 |
-| 3 | 閉經 | 99.26% | FGFR 功能喪失才會致病，抑制預期無治療效果 |
-| 4 | 類風濕性關節炎 | 99.25% | FGFR 與滑膜纖維母細胞活化有關，但未經驗證；僅有 1 篇一般性激酶抑制劑綜述 |
-| 5 | 肌萎縮性脊髓側索硬化症 (ALS) | 99.06% | FGF 訊號在 ALS 模型中失調，但方向與治療相關性不明 |
-| 6 | 短指併指症候群 | 99.03% | 先天發育異常，成人藥物治療不太可能逆轉 |
-| 7–8 | ALS 22 型、ALS 易感性 | 98.91%、98.88% | 與一般 ALS 預測重疊，無直接證據 |
-| 9 | 軸性脊椎幹骺端發育不良 | 98.83% | 無已知機轉 |
-| 10 | Mills 症候群 | 98.78% | 可能因接近 ALS／運動神經元疾病群集而被預測 |
+| 2 | 脊柱後側彎性心臟病 | 0.9927 | 與 FGFR 抑制無明確機轉關聯，可能反映與肺動脈高壓的網絡接近性 |
+| 3 | 閉經 | 0.9926 | FGFR 功能喪失才會致病，抑制預期無治療效果 |
+| 4 | 類風濕性關節炎 | 0.9925 | FGFR 與滑膜纖維母細胞活化有關，但未經驗證；僅有 1 篇一般性激酶抑制劑綜述 |
+| 5 | 肌萎縮性脊髓側索硬化症 (ALS) | 0.9906 | FGF 訊號在 ALS 模型中失調，但方向與治療相關性不明 |
+| 6 | 短指併指症候群 | 0.9903 | 先天發育異常，成人藥物治療不太可能逆轉 |
 
 ---
 

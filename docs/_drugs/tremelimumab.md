@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Tremelimumab
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 901
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tremelimumab：預測新適應症為糖尿病性白內障 (Diabetic Cataract)（證據等級 L5）。原適應症：香港許可證未載明核准適應症"
+description: "Tremelimumab: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Tremelimumab"
-predicted_indications: ["diabetic cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "craniostenosis cataract", "mature cataract", "tetanic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic retinopathy"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Tremelimumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,49 +35,16 @@ predicted_indications: ["diabetic cataract", "diabetes mellitus type 2 associate
 
 </div>
 
-## Tremelimumab：從（原適應症資料未提供）到糖尿病性白內障
+## Tremelimumab
 {: .text-alpha }
-
-## 一句話總結
-
-Tremelimumab（商品名 IMJUDO）是一種抗 CTLA-4 單株抗體，屬於免疫檢查點抑制劑，用於腫瘤治療。
-TxGNN 模型預測它可能對**糖尿病性白內障 (Diabetic Cataract)** 有效，但目前**沒有任何臨床試驗或文獻**支持這個方向，僅為模型預測。
-
----
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證未載明核准適應症 |
-| 預測新適應症 | 糖尿病性白內障 (Diabetic Cataract) |
-| TxGNN 預測分數 | 98.49% |
-| 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
-| 建議決策 | Hold |
-
----
-
-## 為什麼這個預測合理？
-
-目前缺乏詳細的作用機轉資料。根據已知資訊，Tremelimumab 是抗 CTLA-4 的單株抗體，透過阻斷 CTLA-4 與 CD80/CD86 的結合來增強 T 細胞活性。它已與 durvalumab 合併，獲 FDA 核准用於不可切除的肝細胞癌（2022 年 10 月）。
-
-然而，**這個預測的合理性很低**。白內障（包含糖尿病性白內障）的成因主要是氧化壓力、多元醇路徑與蛋白質糖化，與 T 細胞檢查點路徑沒有已知的關聯。0.985 的高分可能來自知識圖譜中白內障各亞型彼此相近的網路結構，而非真實的生物學機轉。
-
-此外，檢查點抑制劑可能引發免疫相關眼部不良反應（如葡萄膜炎），也可能惡化免疫相關的代謝問題，這在安全性上是疑慮而非助益。
-
-同一批預測中，排名前 10 的適應症幾乎都是各型白內障（第二型糖尿病相關、未成熟、成熟、老年性、核性、皮質性等）以及糖尿病視網膜病變，皆同樣只有模型預測，沒有試驗或文獻。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
-## 文獻證據
-
-目前無相關文獻。
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 
 ---
 
@@ -112,19 +81,6 @@ TxGNN 模型預測它可能對**糖尿病性白內障 (Diabetic Cataract)** 有�
 
 ---
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 這個預測僅來自知識圖譜模型（證據等級 L5），沒有任何試驗、文獻或機轉資料支持。
-- 全身性免疫檢查點抑制劑用於以手術即可有效處理的白內障，風險與效益明顯失衡，且可能加重眼部免疫毒性。
-
-**若要推進需要：**
-- 取得香港仿單的警語、禁忌症與核准適應症資料
-- 補齊詳細的作用機轉資料，並釐清 CTLA-4 與晶體病變之間是否存在任何機轉關聯
-- 進行前臨床研究，驗證是否有生物學上的合理性
-- 在此之前，建議不投入資源推進此適應症
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

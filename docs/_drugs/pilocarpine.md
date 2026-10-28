@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Pilocarpine
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 697
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Pilocarpine：預測新適應症為原發性遺傳性青光眼 (Primary Hereditary Glaucoma)（證據等級 L5）。原適應症：開角型青光眼、高眼壓症"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Pilocarpine: known uses and market status in Hong Kong; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Pilocarpine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,66 +32,50 @@ description: "Pilocarpine：預測新適應症為原發性遺傳性青光眼 (Pr
 
 </div>
 
-## Pilocarpine：從開角型青光眼到原發性遺傳性青光眼
+<!-- known-uses-page -->
+<!-- description: Pilocarpine: known uses and market status in Hong Kong; currently no new candidate indication -->
+## Pilocarpine：香港的已知用途與上市狀態
 {: .text-alpha }
 
-## 一句話總結
-
-Pilocarpine（毛果芸香鹼）是一種膽鹼類（毒蕈鹼受體）藥物，原本用於治療開角型青光眼與高眼壓症。
-TxGNN 模型預測它可能對**原發性遺傳性青光眼 (Primary Hereditary Glaucoma)** 有效，
-但目前**沒有任何臨床試驗或文獻**直接支持這個方向，僅屬模型預測階段。
-
----
+## 摘要
+TxGNN 模型為 Pilocarpine 產生的候選適應症，經追溯來源後全部屬於已知用途，因此目前沒有新的預測適應症。本頁列出這些已知用途及其在香港的上市狀態，供藥師參考。
 
 ## 快速總覽
-
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 開角型青光眼、高眼壓症（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 原發性遺傳性青光眼 (Primary Hereditary Glaucoma) |
-| TxGNN 預測分數 | 99.83% |
-| 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 6 張 |
-| 建議決策 | Hold |
+| 新預測適應症 | 無（模型候選中可追溯者皆為已知用途） |
+| 模型候選中的已知用途 | 1 |
+| 證據等級 | 不適用 |
+| 香港上市狀態 | 上市中（有效許可證 6 張／共 6 張） |
+| 許可證數 | 6 張（有效 6 張） |
 
----
+## 模型候選中的已知用途
 
-## 為什麼這個預測合理？
+### 已核准（有許可證或仿單支持）
+| 適應症 | 來源 |
+|------|------|
+| 原發性遺傳性青光眼 (primary hereditary glaucoma) | 其他國家的許可證（核准適應症：glaucoma） |
 
-目前缺乏詳細的作用機轉資料（原始 MOA 欄位未收錄）。根據藥理常識，Pilocarpine 是毒蕈鹼（M3）受體促效劑，可使睫狀肌收縮、增加小樑網的房水流出，進而降低眼內壓。此機轉已在開角型青光眼與高眼壓症中應用。
+### 與已核准適應症相關（同一疾病類別）
+| 適應症 | 所屬核准類別 |
+|------|------|
+| 無 | 無 |
 
-原發性遺傳性青光眼同屬青光眼，核心問題同樣是眼內壓升高。若病人的病因包含小樑網流出阻力增加，降低眼壓的機轉理論上可能適用，因此模型給出高分在生物學上有其連貫性。
-
-不過需要留意：遺傳性青光眼（如原發性先天性青光眼、MYOC 或 CYP1B1 相關疾病）常伴隨前房角發育異常，這類情況下縮瞳劑的效果可能有限，臨床上通常以手術（如前房角切開術或小樑切開術）作為第一線治療。此推論僅來自藥物已知藥理與現有適應症，並無該亞型的直接研究支持。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記
-
----
-
-## 文獻證據
-
-目前無相關文獻
-
----
+### 知識圖譜中記錄的關係（未找到核准）
+| 適應症 |
+|------|
+| 無 |
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-16908 | ISOPTO CARPINE OPHTH SOLN 1% | 眼用溶液 | 未載明 |
-| HK-09057 | PILOCARPINE EYE DROPS 1% | 眼用滴劑 | 未載明 |
-| HK-17266 | ISOPTO CARPINE EYE DROPS 4% | 眼用滴劑 | 未載明 |
-| HK-16907 | ISOPTO CARPINE OPHTH SOLN 2% | 眼用溶液 | 未載明 |
-| HK-09061 | PILOCARPINE EYE DROPS BP 4% | 眼用滴劑 | 未載明 |
-
-（共 6 張有效許可證，皆為單一成分製劑，此處列出其中 5 張。）
-
----
+| 許可證字號 | 品名 | 劑型 | 狀態 |
+|------|------|------|------|
+| HK-16908 | ISOPTO CARPINE OPHTH SOLN 1% |  | 有效 |
+| HK-09057 | PILOCARPINE EYE DROPS 1% |  | 有效 |
+| HK-17266 | ISOPTO CARPINE EYE DROPS 4% |  | 有效 |
+| HK-16907 | ISOPTO CARPINE OPHTH SOLN 2% |  | 有效 |
+| HK-09061 | PILOCARPINE EYE DROPS BP 4% |  | 有效 |
+| HK-09067 | PILOCARPINE EYE DROPS BP 2% |  | 有效 |
 
 ## 安全性考量
 
@@ -105,19 +90,6 @@ TxGNN 模型預測它可能對**原發性遺傳性青光眼 (Primary Hereditary 
 
 ---
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 預測分數雖高（99.83%），但沒有任何臨床試驗或文獻支持，證據等級僅為 L5。
-- 遺傳性青光眼常有前房角結構異常，縮瞳劑效果可能受限，且手術通常是第一線治療。
-
-**若要推進需要：**
-- 補齊作用機轉資料，並分析其與遺傳性青光眼各亞型（如 MYOC、CYP1B1 相關）的關聯
-- 系統性搜尋文獻與臨床試驗，確認是否有該亞型的使用經驗
-- 取得香港衛生署仿單的警語與禁忌資料，完成安全性篩選
-- 釐清各亞型的臨床定位（輔助治療或手術前後的暫時性降眼壓）
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

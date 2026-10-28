@@ -4,17 +4,17 @@ title: Pentobarbital
 parent: 僅模型預測 (L5)
 nav_order: 677
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Pentobarbital：預測新適應症為肥胖症 (Obesity Disorder)（證據等級 L5）。原適應症：癲癇、失眠、癲癇重積狀態、腦缺血、短暫性腦缺血發作"
+indication_count: 9
+last_modified_at: 2026-10-28
 monitor_inn: "Pentobarbital"
 predicted_indications: ["obesity disorder", "manic bipolar affective disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "major affective disorder", "frontorhiny", "monogenic obesity", "trichotillomania"]
+description: "Pentobarbital：預測新適應症為肥胖症 (obesity disorder)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Pentobarbital
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["obesity disorder", "manic bipolar affective disorder", 
 
 </div>
 
-## Pentobarbital：從癲癇與失眠到肥胖症
+## Pentobarbital: 肥胖症 (obesity disorder)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**肥胖症 (Obesity Disorder)** 有效，但目�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 癲癇、失眠、癲癇重積狀態、腦缺血、短暫性腦缺血發作（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 肥胖症 (Obesity Disorder) |
-| TxGNN 預測分數 | 99.99% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 肥胖症 (obesity disorder) |
+| TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**肥胖症 (Obesity Disorder)** 有效，但目�
 
 然而，鎮靜與中樞抑制並沒有合理的減重途徑。檢索到的文獻主題為胰島素代謝、下視丘對脂肪的調控、瘦素模擬肽與糖尿病心臟重塑等，沒有任何一篇評估 Pentobarbital 治療肥胖。Pentobarbital 出現在這些文章中，很可能只是動物實驗的麻醉劑。
 
-因此，0.9999 的高分只是圖譜演算法的推論，缺乏臨床或實驗支持，應視為訊號不足的預測。
+因此，0.9999 的高分來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，並非生物學證據，缺乏臨床或實驗支持，應視為訊號不足的預測。
 
 ---
 
@@ -126,8 +126,8 @@ TxGNN 模型預測它可能對**肥胖症 (Obesity Disorder)** 有效，但目�
 - 同時，Pentobarbital 具依賴與呼吸抑制風險，且香港唯一許可證為獸用產品，不適合推進人體用途。
 
 **其他預測適應症概覽：**
-- 失眠（分數 99.97%，L4）：與原適應症一致，屬於標示內使用而非真正的再利用。文獻皆為草藥或其他化合物的動物實驗，且巴比妥類因耐受、依賴與治療窗窄已非首選。
-- 躁症（99.99%，L4）與重度情感疾患（99.93%，L4）：僅有 1960 年代的歷史性臨床經驗報告，無現代對照試驗，現有指引藥物更安全。
+- 失眠（分數 0.9997，L4）：與原適應症一致，屬於標示內使用而非真正的再利用。文獻皆為草藥或其他化合物的動物實驗，且巴比妥類因耐受、依賴與治療窗窄已非首選。
+- 躁症（0.9999，L4）與重度情感疾患（0.9993，L4）：僅有 1960 年代的歷史性臨床經驗報告，無現代對照試驗，現有指引藥物更安全。
 - 其餘預測（高維生素症、16p11.2 微缺失症候群、單基因肥胖、拔毛症等）：僅有模型預測，無文獻或試驗，也無合理機轉，皆為 Hold。
 
 **若要推進需要：**

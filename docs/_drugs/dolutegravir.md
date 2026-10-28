@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dolutegravir
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 290
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
-description: "Dolutegravir：預測新適應症為猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)（證據等級 L4）。原適應症：HIV 感染、AIDS"
 monitor_inn: "DOLUTEGRAVIR"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-23
+description: "Dolutegravir：預測新適應症為貓後天免疫缺陷症候群 (Feline Acquired Immunodeficiency Syndrome)（證據等級 L5）。原適應症：知識圖譜中記錄的關聯為 HIV 感染、AIDS"
 ---
 
 # Dolutegravir
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,102 +33,78 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 </div>
 
-## Dolutegravir：從 HIV 感染到猿猴免疫缺陷病毒感染
+## Dolutegravir：從 HIV 感染到貓後天免疫缺陷症候群
 {: .text-alpha }
 
 ## 一句話總結
 
-Dolutegravir 是一種 HIV 整合酶抑制劑，原本用於 HIV 感染與愛滋病（AIDS）的治療。
-TxGNN 模型預測它可能對**猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)** 有效，
-目前**沒有臨床試驗**，僅有 **15 篇文獻**（皆為動物或體外的前臨床研究）支持。這是動物模型適應症，並非新的人類治療用途。
-
----
+Dolutegravir 是一種 HIV 整合酶抑制劑，知識圖譜中記錄的原適應症為 HIV 感染與 AIDS。
+TxGNN 模型預測它可能對**貓後天免疫缺陷症候群 (Feline Acquired Immunodeficiency Syndrome)** 有效，
+但目前**無臨床試驗**，僅有 **1 篇**動物（獸醫）研究文獻，屬於模型預測階段的證據。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | HIV 感染、AIDS（取自知識圖譜；香港許可證未提供適應症文字） |
-| 預測新適應症 | 猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection) |
-| TxGNN 預測分數 | 99.85% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 原適應症 | 知識圖譜中記錄的關聯為 HIV 感染、AIDS（香港許可證資料未載明核准適應症文字） |
+| 預測新適應症 | 貓後天免疫缺陷症候群 (Feline Acquired Immunodeficiency Syndrome) |
+| TxGNN 預測分數 | 0.9985 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Dolutegravir 屬於整合酶鏈轉移抑制劑（INSTI），透過阻斷病毒整合酶，使病毒 DNA 無法嵌入宿主基因組。
+目前缺乏詳細的作用機轉資料。根據已知的藥物類別，dolutegravir 屬於 HIV-1 整合酶鏈轉移抑制劑（INSTI），透過阻斷病毒 DNA 嵌入宿主基因體而抑制複製。
 
-SIV 是 HIV 的近親病毒，其整合酶在結構與功能上與 HIV-1 整合酶相近。已發表的 HIV/SIV intasome 結構研究支持兩者有共通的抑制劑結合模式。猴子實驗也顯示，Dolutegravir 對 SIV 具有抗病毒活性，單藥治療下會出現抗藥性突變。
+貓免疫缺陷病毒 (FIV) 與 HIV 同屬慢病毒，其整合酶在結構上相近，因此從類別層面看，抑制整合酶在生物學上有合理性。TxGNN 的高分很可能反映它與 HIV 疾病的相似性，並非獨立的臨床證據。
 
-不過這個預測的價值主要在於驗證藥物機轉，並提供 HIV 研究用的動物模型，**不代表新的人類治療用途**。
+需注意：這是獸醫適應症，無法直接轉換為人類藥物再利用機會。此外，僅有的一篇 2023 年研究（PMID 37112803）評估的是 dolutegravir 合併 tenofovir、emtricitabine 的複方療法在 FIV 感染貓的藥動學與臨床結果，屬於合併用藥的獸醫研究，且本次資料僅取得摘要的部分內容。
 
-另外兩個 TxGNN 預測也值得留意：
-- **貓後天免疫缺陷症候群（FIV）**（分數 99.85%）：機轉合理但屬間接推論，僅有 1 項 cART 研究，且屬獸醫適應症，人類轉譯價值有限。
-- **伴共濟失調步態、無語言及皮質白質減少的神經發育障礙**（分數 99.80%）：看不出任何機轉關聯，也沒有試驗或文獻，很可能是圖譜運算產生的假象，不建議追蹤。
-
----
+預測排名第 2 的「猴免疫缺陷病毒感染 (SIV)」雖有較多猴類動物研究，但同樣是動物模型，主要是驗證 dolutegravir 既有的抗反轉錄病毒機轉；第 3 名的神經發育障礙則完全沒有機轉關聯與證據。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
-
-下表列出最相關的 10 篇（皆為前臨床研究、體外研究或綜述，無 RCT）：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [30381490](https://pubmed.ncbi.nlm.nih.gov/30381490/) | 2019 | 動物研究（獼猴） | J Virol | Dolutegravir 單藥治療 SIV 感染獼猴，篩選出多種抗藥性突變，病毒學結果不一 |
-| [36365101](https://pubmed.ncbi.nlm.nih.gov/36365101/) | 2022 | 動物研究（非人靈長類） | Pharmaceutics | 驗證 SIV 感染猴長期抗病毒治療（含 dolutegravir）的藥動學模型 |
-| [40093003](https://pubmed.ncbi.nlm.nih.gov/40093003/) | 2025 | 動物影像研究 | Front Immunol | 獼猴開始含 dolutegravir 的 cART 前後，腦部游離水與神經束變化 |
-| [41959211](https://pubmed.ncbi.nlm.nih.gov/41959211/) | 2026 | 動物研究（預印本） | bioRxiv | SIV 與抗病毒治療影響獼猴腦部脂質分布 |
-| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | 動物研究 | mBio | 即使有效的 ART，慢病毒仍持續存在於腦部 |
-| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | 動物研究 | AIDS Res Hum Retroviruses | 比較 SIV 感染獼猴的複方注射型 cART 方案 |
-| [26378179](https://pubmed.ncbi.nlm.nih.gov/26378179/) | 2015 | 體外研究 | J Virol | 描述 SIVmac239 對 INSTI 的抗藥性特徵 |
-| [24920794](https://pubmed.ncbi.nlm.nih.gov/24920794/) | 2014 | 體外研究 | J Virol | HIV 整合酶抗藥突變導入 SIVmac239 後，對 INSTI 的敏感性變化相似 |
-| [32506843](https://pubmed.ncbi.nlm.nih.gov/32506843/) | 2021 | 結構生物學綜述 | FEBS J | HIV/SIV intasome 結構闡明整合酶抑制劑結合與病毒逃逸機制 |
-| [32166319](https://pubmed.ncbi.nlm.nih.gov/32166319/) | 2020 | 人類/猿猴組織研究 | Clin Infect Dis | Dolutegravir 與 raltegravir 促進脂肪生成與纖維化，並誘發胰島素抗性 |
-
----
+| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | 獸醫/前臨床研究 | Viruses | 在 FIV 感染的家貓中評估 dolutegravir、tenofovir、emtricitabine 複方抗病毒療法的藥動學與臨床結果；設計細節尚待確認 |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-63516 | TIVICAY TABLETS 50MG | 錠劑 | 未提供 |
-| HK-66511 | DOVATO TABLETS | 錠劑 | 未提供 |
-| HK-64012 | TRIUMEQ TABLETS | 錠劑 | 未提供 |
+| HK-63516 | TIVICAY TABLETS 50MG | 未載明 | 未載明 |
+| HK-66511 | DOVATO TABLETS | 未載明 | 未載明 |
+| HK-64012 | TRIUMEQ TABLETS | 未載明 | 未載明 |
 
----
+以上 3 張許可證皆為有效狀態，持有者為 GLAXOSMITHKLINE LIMITED。
 
 ## 安全性考量
 
-- **藥物交互作用**：已查得 62 筆交互作用，以下為主要項目。
-  - **重大（Major）**：含多價陽離子的制酸劑與補充劑，包括氫氧化鋁、Attapulgite、Kaolin、Magaldrate、碳酸鎂、氯化鎂、檸檬酸鎂、多種鈣鹽（醋酸鈣、碳酸鈣、檸檬酸鈣、葡萄糖酸鈣、乳酸鈣、磷酸鈣等）及鐵。這類產品可能降低 dolutegravir 的吸收，需注意服藥間隔。
-  - **輕微（Minor）**：Aprepitant、Cimetidine、Clarithromycin、Clotrimazole、Dexamethasone 等。
-- 警語與禁忌症請參考原廠仿單。
+- **藥物交互作用**：本報告彙整的資料共記錄 62 筆交互作用，以下為部分範例：
+  - **重大 (Major)**：含鋁、鈣、鎂、鐵的製劑，例如氫氧化鋁、碳酸鈣、檸檬酸鈣、葡萄糖酸鈣、碳酸鎂、檸檬酸鎂、鐵、高嶺土 (Kaolin)、Attapulgite、Magaldrate。這類多價陽離子可能影響整合酶抑制劑的吸收，用藥時間需與仿單核對。
+  - **輕微 (Minor)**：Aprepitant、Cimetidine、Clarithromycin、Clotrimazole、Dexamethasone。
 
----
+其他警語與禁忌資料請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 此預測的適應症為動物模型（猿猴），不是新的人類治療用途。證據僅限前臨床研究與體外研究（L4），沒有任何臨床試驗，Dolutegravir 用於 HIV 的現有適應症也已在香港上市。
-- 這項預測較適合作為 HIV 研究的機轉驗證，而非藥物再利用開發的標的。
+- 證據僅限於一篇獸醫前臨床研究，且無任何針對該疾病的臨床試驗，依規則證據等級為 L5（前述研究為合併療法，屬間接證據）。
+- 預測的適應症為貓的疾病，不屬於人類藥物再利用範疇，高 TxGNN 分數主要反映與 HIV 的相似性。
 
 **若要推進需要：**
-- 釐清研究目的：若只是作為 HIV 研究的動物模型，無需走再利用開發流程
-- 取得詳細的作用機轉（MOA）資料
-- 取得香港許可證的核准適應症與仿單警語、禁忌症
-- 若有興趣探索人類新適應症，應重新篩選具人類臨床意義的預測項目，而非獸醫或動物模型適應症
+- 確認是否有獸醫用藥的開發需求與法規途徑（人用藥品在動物的使用不在本評估範圍）。
+- 取得 dolutegravir 完整的作用機轉資料及 FIV 整合酶的直接抑制數據。
+- 取得香港仿單的核准適應症、警語與禁忌資料。
+- 若目標為人類適應症，建議改以其他預測適應症或與 HIV 相關的新族群重新評估。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

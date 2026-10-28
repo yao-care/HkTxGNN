@@ -6,9 +6,9 @@ nav_order: 465
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Imiquimod：預測新適應症為癌前病變 (Pre-malignant Neoplasm)（證據等級 L5）。原適應症：尋常疣、肛門生殖器 HPV 感染、光化性角化症、淺表多發性基底細胞癌等"
 monitor_inn: "Imiquimod"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
+description: "Imiquimod：預測新適應症為癌前病變 (pre-malignant neoplasm)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Imiquimod
@@ -33,7 +33,7 @@ predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal muc
 
 </div>
 
-## Imiquimod：從疣與光化性角化症到癌前病變（pre-malignant neoplasm）
+## Imiquimod: 癌前病變 (pre-malignant neoplasm)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**癌前病變 (Pre-malignant Neoplasm)** 有效�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 尋常疣、肛門生殖器 HPV 感染、光化性角化症、淺表多發性基底細胞癌等（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 癌前病變 (Pre-malignant Neoplasm) |
-| TxGNN 預測分數 | 99.92% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 癌前病變 (pre-malignant neoplasm) |
+| TxGNN 預測分數 | 0.9992 |
 | 證據等級 | L5（依本報告規則嚴格判定；詳見下方說明） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Proceed with Guardrails |
 
 **證據等級說明：** 2 個臨床試驗中，1 個為已完成的 Phase 3 開放性單組試驗（n=20，光化性角化症），另 1 個為提前終止的 Phase 3 RCT（僅納入 9 人，無可用結論）。依判定規則，這不符合 L1/L2 所需的已完成 RCT。文獻中有 2 篇 Cochrane 系統性回顧（屬 L3 層級），但並非針對 imiquimod 的對照試驗結論。因此保守評為 **L3**（有系統性回顧與少量臨床研究，但缺乏已完成的對照試驗）。

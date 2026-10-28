@@ -4,17 +4,17 @@ title: Periciazine
 parent: 僅模型預測 (L5)
 nav_order: 683
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Periciazine：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：本報告資料中未載明"
 monitor_inn: "periciazine"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "dysthymic disorder", "migraine with or without aura, susceptibility to", "ulerythema ophryogenesis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "dysthymic disorder", "ulerythema ophryogenesis"]
 ---
 
 # Periciazine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 |------|------|
 | 原適應症 | 本報告資料中未載明（香港許可證未附適應症文字） |
 | 預測新適應症 | 偏頭痛 (Migraine Disorder) |
-| TxGNN 預測分數 | 99.89% |
+| TxGNN 預測分數 | 0.9989 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ---
@@ -98,11 +98,10 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 
 | 排名 | 預測疾病 | TxGNN 分數 | 評估 |
 |------|---------|-----------|------|
-| 2 | 腦幹先兆偏頭痛 | 99.84% | 為偏頭痛亞型，分數可能來自與上層偏頭痛節點的重疊，並非獨立證據 |
-| 3 | 蠕蟲狀皮膚萎縮 (Atrophoderma vermiculata) | 99.36% | 無合理機轉關聯，可能是知識圖譜的假象 |
-| 4 | 輕型憂鬱症 (Dysthymic disorder) | 99.25% | 僅有寬鬆的神經精神學推論；鎮靜型吩噻嗪在慢性情緒障礙有耐受性疑慮 |
-| 5 | 偏頭痛易感性 | 99.22% | 代表遺傳易感性而非可治療的臨床適應症 |
-| 6 | 眉部毛囊萎縮性紅斑 (Ulerythema ophryogenesis) | 99.16% | 無機轉關聯，可能來自圖譜上相近的皮膚疾病節點 |
+| 2 | 腦幹先兆偏頭痛 | 0.9984 | 為偏頭痛亞型，分數可能來自與上層偏頭痛節點的重疊，並非獨立證據 |
+| 3 | 蠕蟲狀皮膚萎縮 (Atrophoderma vermiculata) | 0.9936 | 無合理機轉關聯，此分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病間相似性，並非生物學證據 |
+| 4 | 輕型憂鬱症 (Dysthymic disorder) | 0.9925 | 僅有寬鬆的神經精神學推論；鎮靜型吩噻嗪在慢性情緒障礙有耐受性疑慮 |
+| 6 | 眉部毛囊萎縮性紅斑 (Ulerythema ophryogenesis) | 0.9916 | 無機轉關聯，此分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病間相似性，並非生物學證據 |
 
 以上預測皆無臨床試驗或文獻佐證，證據等級均為 L5。
 

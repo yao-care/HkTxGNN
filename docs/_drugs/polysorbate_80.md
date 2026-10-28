@@ -6,9 +6,9 @@ nav_order: 712
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Polysorbate 80：預測新適應症為先天性魚鱗癬樣紅皮症 (Congenital Ichthyosiform Erythroderma)（證據等級 L5）。原適應症：乾眼症、乾眼病"
 monitor_inn: "POLYSORBATE 80"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
+description: "Polysorbate 80：預測新適應症為先天性魚鱗癬樣紅皮症 (congenital ichthyosiform erythroderma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Polysorbate 80
@@ -33,7 +33,7 @@ predicted_indications: ["congenital ichthyosiform erythroderma"]
 
 </div>
 
-## Polysorbate 80：從乾眼症到先天性魚鱗癬樣紅皮症
+## Polysorbate 80: 先天性魚鱗癬樣紅皮症 (congenital ichthyosiform erythroderma)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**先天性魚鱗癬樣紅皮症 (Congenital Ichth
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 乾眼症、乾眼病（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 先天性魚鱗癬樣紅皮症 (Congenital Ichthyosiform Erythroderma) |
-| TxGNN 預測分數 | 99.43% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 先天性魚鱗癬樣紅皮症 (congenital ichthyosiform erythroderma) |
+| TxGNN 預測分數 | 0.9943 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -64,7 +64,7 @@ TxGNN 模型預測它可能對**先天性魚鱗癬樣紅皮症 (Congenital Ichth
 
 先天性魚鱗癬樣紅皮症是一種表皮分化與脂質屏障功能異常的遺傳性皮膚疾病。理論上，polysorbate 80 可能作為外用潤膚劑或皮膚屏障的載體，或協助脂溶性藥物遞送。乾眼症需要表面潤滑，魚鱗癬需要保濕與屏障修復，兩者只有概念上的鬆散相似。
 
-TxGNN 分數雖然很高（99.43%），但它來自知識圖譜的計算預測，並非實際研究結果。此外，界面活性劑可能刺激或致敏已受損的皮膚，這是潛在的安全疑慮。
+TxGNN 分數雖然很高（0.9943），但它來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據，也不是實際研究結果。此外，界面活性劑可能刺激或致敏已受損的皮膚，這是潛在的安全疑慮。
 
 ---
 

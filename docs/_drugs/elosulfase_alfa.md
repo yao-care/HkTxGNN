@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 313
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
-description: "Elosulfase Alfa：預測新適應症為Scheie 症候群 (Scheie syndrome)（證據等級 L5）。原適應症：黏多醣症（Mucopolysaccharidosis）"
+last_modified_at: 2026-10-28
 monitor_inn: "ELOSULFASE ALFA"
 predicted_indications: ["Scheie syndrome", "lysosomal storage disease with skeletal involvement", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
+description: "Elosulfase Alfa：預測新適應症為Scheie 症候群 (Scheie syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Elosulfase Alfa
@@ -33,7 +33,7 @@ predicted_indications: ["Scheie syndrome", "lysosomal storage disease with skele
 
 </div>
 
-## Elosulfase alfa：從黏多醣症到 Scheie 症候群
+## Elosulfase Alfa: Scheie 症候群 (Scheie syndrome)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對 **Scheie 症候群 (Scheie syndrome)** 有效，�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 黏多醣症（Mucopolysaccharidosis） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | Scheie 症候群 (Scheie syndrome) |
-| TxGNN 預測分數 | 99.90% |
+| TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -65,9 +65,9 @@ Scheie 症候群（MPS I 的較輕型）則是 α-L-艾杜糖醛酸酶（alpha-L
 
 其他預測疾病的情況：
 
-- **溶小體儲積症伴骨骼病變**（分數 99.59%）：此類別涵蓋 Morquio A，也就是現有核准適應症，相關文獻支持的是現有標示，並非新適應症的獨立證據。
-- **Hurler 症候群**（99.43%）與 **Sanfilippo 症候群**（99.42%）：受質不同，且重組酵素通常無法穿越血腦屏障，對以神經病變為主的 Sanfilippo 尤其不利。
-- **其餘五項**（眼瞼下垂相關症候群、先天性 Horner 症候群等，分數約 99.0–99.1%）：與 GALNS 代謝途徑無已知關聯，僅為運算預測。
+- **溶小體儲積症伴骨骼病變**（分數 0.9959）：此類別涵蓋 Morquio A，也就是現有核准適應症，相關文獻支持的是現有標示，並非新適應症的獨立證據。
+- **Hurler 症候群**（0.9943）與 **Sanfilippo 症候群**（0.9942）：受質不同，且重組酵素通常無法穿越血腦屏障，對以神經病變為主的 Sanfilippo 尤其不利。
+- **其餘五項**（眼瞼下垂相關症候群、先天性 Horner 症候群等，分數介於 0.9902–0.9909）：與 GALNS 代謝途徑無已知關聯，僅為運算預測。
 
 ---
 

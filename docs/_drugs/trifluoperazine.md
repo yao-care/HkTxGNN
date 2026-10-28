@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Trifluoperazine
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 908
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Trifluoperazine：預測新適應症為躁型雙相情感疾患 (Manic Bipolar Affective Disorder)（證據等級 L4）。原適應症：思覺失調症、焦慮"
 monitor_inn: "TRIFLUOPERAZINE"
 predicted_indications: ["manic bipolar affective disorder"]
+description: "Trifluoperazine：預測新適應症為躁型雙相情感疾患 (manic bipolar affective disorder)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Trifluoperazine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["manic bipolar affective disorder"]
 
 </div>
 
-## Trifluoperazine：從思覺失調症到躁型雙相情感疾患
+## Trifluoperazine: 躁型雙相情感疾患 (manic bipolar affective disorder)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對**躁型雙相情感疾患 (Manic Bipolar Affectiv
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 思覺失調症、焦慮（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 躁型雙相情感疾患 (Manic Bipolar Affective Disorder) |
-| TxGNN 預測分數 | 99.51% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 5 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 躁型雙相情感疾患 (manic bipolar affective disorder) |
+| TxGNN 預測分數 | 0.9951 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 5 張／共 5 張） |
+| 許可證數 | 5 張（有效 5 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**躁型雙相情感疾患 (Manic Bipolar Affectiv
 
 D2 阻斷是抗精神病藥緩解急性躁狂與精神病性激動的共同機轉，因此在生物學上，用於躁型雙相情感疾患具有合理性。思覺失調症與躁症在症狀上有重疊（如精神病症狀、激動），這也是模型給出高分的可能原因。
 
-需要強調的是，99.51% 的分數僅為計算預測。目前資料中沒有任何試驗或研究直接評估 Trifluoperazine 用於躁症，這個連結仍屬間接、以藥物類別為基礎的推論。
+需要強調的是，0.9951 的分數僅為計算預測。目前資料中沒有任何試驗或研究直接評估 Trifluoperazine 用於躁症，這個連結仍屬間接、以藥物類別為基礎的推論。
 
 ## 臨床試驗證據
 

@@ -4,17 +4,17 @@ title: Lansoprazole
 parent: 僅模型預測 (L5)
 nav_order: 509
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Lansoprazole：預測新適應症為十二指腸胃逆流 (Duodenogastric Reflux)（證據等級 L5）。原適應症：胃潰瘍、消化性潰瘍、胃食道逆流症、食道炎、十二指腸潰瘍、Zollinger-Ellison 症候群"
 monitor_inn: "LANSOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
+description: "Lansoprazole：預測新適應症為Duodenal obstruction（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Lansoprazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["duodenal obstruction"]
 
 </div>
 
-## Lansoprazole：從胃潰瘍／胃食道逆流到十二指腸胃逆流
+## Lansoprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## 一句話總結
 
 Lansoprazole 是質子幫浦抑制劑（PPI），原本用於胃潰瘍、十二指腸潰瘍、胃食道逆流症、食道炎及 Zollinger-Ellison 症候群等胃酸相關疾病。
-TxGNN 模型預測它可能對**十二指腸胃逆流 (Duodenogastric Reflux)** 有效，但目前**沒有相關臨床試驗**，僅有 **1 篇**一般性的 PPI 臨床使用回顧文獻，屬於模型預測階段的研究假說。
 
 ---
 
@@ -47,12 +46,12 @@ TxGNN 模型預測它可能對**十二指腸胃逆流 (Duodenogastric Reflux)** 
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 胃潰瘍、消化性潰瘍、胃食道逆流症、食道炎、十二指腸潰瘍、Zollinger-Ellison 症候群（來自知識圖譜；香港許可證未載明核准適應症文字） |
-| 預測新適應症 | 十二指腸胃逆流 (Duodenogastric Reflux) |
-| TxGNN 預測分數 | 99.69% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Duodenal obstruction |
+| TxGNN 預測分數 | 0.9968 |
 | 證據等級 | L5（僅有模型預測，無針對此適應症的實際研究） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 9 張 |
+| 香港上市 | 上市中（有效許可證 9 張／共 9 張） |
+| 許可證數 | 9 張（有效 9 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +62,7 @@ TxGNN 模型預測它可能對**十二指腸胃逆流 (Duodenogastric Reflux)** 
 
 十二指腸胃逆流是指十二指腸內容物（含膽汁與胰液）逆流入胃。當胃酸是黏膜傷害的共同因子時，降低胃酸可能減輕黏膜損傷與症狀。這與其已核准的胃酸相關疾病（胃食道逆流症、食道炎、胃及十二指腸潰瘍）有部分重疊。
 
-不過，PPI 並不作用於膽汁逆流本身，也不改善幽門或十二指腸的蠕動，因此兩者的關聯是**間接且僅限於症狀緩解**。0.997 的高分很可能來自知識圖譜中與已核准上消化道適應症的網路鄰近性，**不等於臨床驗證**。
+不過，PPI 並不作用於膽汁逆流本身，也不改善幽門或十二指腸的蠕動，因此兩者的關聯是**間接且僅限於症狀緩解**。
 
 ---
 
@@ -112,7 +111,6 @@ TxGNN 模型預測它可能對**十二指腸胃逆流 (Duodenogastric Reflux)** 
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高，但缺乏針對十二指腸胃逆流的臨床試驗，唯一文獻也只是一般性的 PPI 回顧。
 - 機轉上 PPI 無法處理膽汁逆流的根本原因，僅可能緩解酸相關症狀，屬間接效益。
 
 **若要推進需要：**

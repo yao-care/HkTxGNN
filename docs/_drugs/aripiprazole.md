@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Aripiprazole
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 71
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Aripiprazole：預測新適應症為重度情感性疾患 (Major Affective Disorder)（證據等級 L1）。原適應症：躁型雙相情緒障礙、雙相情緒障礙、思覺失調症、自閉症"
+evidence_level: L5
+indication_count: 9
 monitor_inn: "ARIPIPRAZOLE"
-predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+last_modified_at: 2026-10-27
+description: "Aripiprazole：預測新適應症為重度情感性疾患 (major affective disorder)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Aripiprazole
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,126 +33,102 @@ predicted_indications: ["major affective disorder", "gaze palsy, familial horizo
 
 </div>
 
-## Aripiprazole：從精神分裂症與雙相情緒障礙到重度情感性疾患（Major Affective Disorder）
+## Aripiprazole：多巴胺 D2 部分促效劑／血清素調節劑 → 重度情感性疾患 (major affective disorder)
 {: .text-alpha }
 
 ## 一句話總結
 
-Aripiprazole 是一種非典型抗精神病藥，原本用於躁型雙相情緒障礙、雙相情緒障礙、思覺失調症（精神分裂症）及自閉症相關症狀。
-TxGNN 模型預測它可能對**重度情感性疾患 (Major Affective Disorder)**（臨床上以重度憂鬱症 MDD 的輔助治療為主）有效，
-目前有 **36 個臨床試驗**和 **18 篇文獻**支持這個方向，其中多個為已完成的 Phase 3 隨機對照試驗。
-
----
+Aripiprazole 是一種非典型抗精神病藥，作用在多巴胺與血清素受體。
+TxGNN 模型預測它可能對**重度情感性疾患 (major affective disorder)** 有效，
+目前有 **39 個臨床試驗**和 **19 篇文獻**與這個方向相關，其中包含多個已完成的 Phase 3 雙盲安慰劑對照試驗，主要針對重度憂鬱症的輔助治療。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 躁型雙相情緒障礙、雙相情緒障礙、思覺失調症、自閉症（知識圖譜資料；香港許可證未載明適應症文字） |
-| 預測新適應症 | 重度情感性疾患 (Major Affective Disorder) |
-| TxGNN 預測分數 | 99.62% |
-| 證據等級 | L1 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 20 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 重度情感性疾患 (major affective disorder) |
+| TxGNN 預測分數 | 0.9962 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Proceed with Guardrails |
-
----
 
 ## 為什麼這個預測合理？
 
-Aripiprazole 是多巴胺 D2 受體部分促效劑，同時是血清素 5-HT1A 部分促效劑與 5-HT2A 拮抗劑。這樣的受體特性，可透過調節多巴胺與血清素的張力，加強抗憂鬱劑的療效。（註：本報告所編整的資料中缺乏詳細的作用機轉紀錄，以上為依藥理特性所作的推論。）
+目前缺乏經 DrugBank 確認的詳細作用機轉資料。就藥理特性而言，aripiprazole 屬於多巴胺 D2 與血清素 5-HT1A 部分促效劑，同時拮抗 5-HT2A 受體。這種組合可調節多巴胺與血清素的整體張力，合理推測能增強抗憂鬱藥的反應。
 
-此藥已核准用於雙相情緒障礙（本身即屬情感性疾患），且在多個地區已獲准作為重度憂鬱症的輔助治療，因此原適應症與新適應症在疾病譜系上高度相關，repurposing 的連結很強。需注意，這類用途多僅適用於對一線抗憂鬱劑反應不足的患者。
+重度情感性疾患涵蓋重度憂鬱症等情緒障礙。多項大型研究，包括 Phase 3 雙盲安慰劑對照試驗與退伍軍人事務部的 VAST-D 試驗，探討了 aripiprazole 輔助抗憂鬱藥用於療效不足的重度憂鬱症患者。多篇系統性回顧與網絡統合分析也討論了抗精神病藥作為輔助治療的角色。
 
----
+使用時需留意靜坐不能（akathisia）、代謝影響與衝動控制問題，並限於第一線抗憂鬱藥反應不足的患者。
 
 ## 臨床試驗證據
 
-共找到 36 個相關試驗，以下列出相關性最高的 10 個：
+以下列出相關性最高的 10 個試驗（共 39 個）。
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00095823](https://clinicaltrials.gov/study/NCT00095823) | Phase 3 | 完成 | 1200 | 14 週雙盲安慰劑對照，評估 aripiprazole 作為抗憂鬱劑輔助治療的安全性與療效 |
-| [NCT00095758](https://clinicaltrials.gov/study/NCT00095758) | Phase 3 | 完成 | 1151 | 14 週雙盲安慰劑對照，輔助治療 MDD |
-| [NCT01421342](https://clinicaltrials.gov/study/NCT01421342) | Phase 3 | 完成 | 1522 | VAST-D：比較 aripiprazole 輔助、bupropion 輔助與換藥對難治型憂鬱症緩解率的影響 |
-| [NCT00683852](https://clinicaltrials.gov/study/NCT00683852) | Phase 3 | 完成 | 225 | 雙盲安慰劑對照，評估降低劑量 aripiprazole 輔助治療 MDD |
-| [NCT00105196](https://clinicaltrials.gov/study/NCT00105196) | Phase 3 | 完成 | 349 | 14 週雙盲安慰劑對照，作為抗憂鬱劑輔助治療 |
-| [NCT00876343](https://clinicaltrials.gov/study/NCT00876343) | Phase 3 | 完成 | 586 | 雙盲安慰劑對照，與 SSRI/SNRI 併用治療 MDD（日本） |
-| [NCT00095745](https://clinicaltrials.gov/study/NCT00095745) | Phase 3 | 完成 | 1002 | 52 週開放標示長期安全性與耐受性研究 |
-| [NCT01111539](https://clinicaltrials.gov/study/NCT01111539) | Phase 3 | 提前終止 | 211 | Aripiprazole/escitalopram 複方雙盲研究，提前終止，結果解讀受限 |
-| [NCT01488266](https://clinicaltrials.gov/study/NCT01488266) | NA | 未知 | 90 | 比較 aripiprazole 輔助與換用不同類抗憂鬱劑 |
-| [NCT00882362](https://clinicaltrials.gov/study/NCT00882362) | Phase 3 | 完成 | 155 | 輔助治療 MDD 的長期投藥研究（日本） |
-
----
+| [NCT00095823](https://clinicaltrials.gov/study/NCT00095823) | Phase 3 | 完成 | 1200 | 14 週隨機雙盲安慰劑對照，評估 aripiprazole 輔助抗憂鬱治療的安全性與療效 |
+| [NCT01421342](https://clinicaltrials.gov/study/NCT01421342) | Phase 3 | 完成 | 1522 | VAST-D：比較 aripiprazole 輔助、bupropion 輔助與換藥對緩解率的影響 |
+| [NCT00683852](https://clinicaltrials.gov/study/NCT00683852) | Phase 3 | 完成 | 225 | 雙盲安慰劑對照，評估減量 aripiprazole 輔助用於對抗憂鬱藥反應不足的重度憂鬱症 |
+| [NCT00095745](https://clinicaltrials.gov/study/NCT00095745) | Phase 3 | 完成 | 1002 | 52 週開放標籤安全性研究，評估長期輔助使用的耐受性 |
+| [NCT00095758](https://clinicaltrials.gov/study/NCT00095758) | Phase 3 | 完成 | 1151 | 14 週雙盲安慰劑對照，輔助抗憂鬱治療 |
+| [NCT00105196](https://clinicaltrials.gov/study/NCT00105196) | Phase 3 | 完成 | 349 | 14 週雙盲安慰劑對照，輔助開放標籤抗憂鬱藥 |
+| [NCT00876343](https://clinicaltrials.gov/study/NCT00876343) | Phase 3 | 完成 | 586 | 安慰劑對照，輔助 SSRI 或 SNRI 治療重度憂鬱症 |
+| [NCT01111539](https://clinicaltrials.gov/study/NCT01111539) | Phase 3 | 終止 | 211 | Aripiprazole／escitalopram 複方雙盲研究，提前終止，結果解讀受限 |
+| [NCT01488266](https://clinicaltrials.gov/study/NCT01488266) | NA | 未知 | 90 | 比較 aripiprazole 輔助與換用不同類別抗憂鬱藥 |
+| [NCT00882362](https://clinicaltrials.gov/study/NCT00882362) | Phase 3 | 完成 | 155 | 長期輔助 SSRI／SNRI 的安全性與療效 |
 
 ## 文獻證據
 
+以下列出相關性最高的 10 篇（共 19 篇）。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [42090141](https://pubmed.ncbi.nlm.nih.gov/42090141/) | 2026 | 網絡統合分析 | JAMA Psychiatry | 輔助性抗精神病藥用於 MDD；美國 FDA 已核准 5 種非典型抗精神病藥用於 MDD |
-| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | 網絡統合分析 | J Affect Disord | 比較難治型憂鬱症各種輔助藥物的療效與停藥率 |
-| [35861202](https://pubmed.ncbi.nlm.nih.gov/35861202/) | 2023 | 統合分析 | J Psychopharmacol | 早期難治型憂鬱症的輔助與合併治療證據 |
-| [34238049](https://pubmed.ncbi.nlm.nih.gov/34238049/) | 2021 | 統合分析 | J Psychopharmacol | 比較抗憂鬱劑加第二代抗精神病藥、esketamine 與鋰鹽的療效與耐受性 |
-| [39739012](https://pubmed.ncbi.nlm.nih.gov/39739012/) | 2025 | 網絡統合分析 | Neuropsychopharmacology | 比較難治型憂鬱症各種治療的相對效果 |
-| [38454079](https://pubmed.ncbi.nlm.nih.gov/38454079/) | 2024 | RCT | Mol Psychiatry | ASCERTAIN-TRD：比較 aripiprazole 輔助、rTMS 輔助與換用 venlafaxine |
-| [37149344](https://pubmed.ncbi.nlm.nih.gov/37149344/) | 2023 | 回顧 | Psychiatr Clin North Am | 非典型抗精神病藥是研究最多的輔助藥物，aripiprazole 為其中之一 |
-| [36855876](https://pubmed.ncbi.nlm.nih.gov/36855876/) | 2023 | 回顧 | Am J Psychiatry | 抗精神病藥在難治型憂鬱症治療中的定位 |
-| [25963405](https://pubmed.ncbi.nlm.nih.gov/25963405/) | 2016 | 回顧 | Asia Pac Psychiatry | Aripiprazole、quetiapine、olanzapine 獲 FDA 核准輔助治療 MDD，僅在低於抗精神病劑量時有效 |
-| [37815563](https://pubmed.ncbi.nlm.nih.gov/37815563/) | 2023 | 回顧 | JAMA | 雙相情緒障礙的診斷與治療 |
+| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | 網絡統合分析 | Journal of Affective Disorders | 比較治療抗性重度憂鬱症各種輔助藥物的療效與停藥率 |
+| [42090141](https://pubmed.ncbi.nlm.nih.gov/42090141/) | 2026 | 網絡統合分析 | JAMA Psychiatry | 輔助抗精神病藥用於重度憂鬱症的系統性回顧 |
+| [35861202](https://pubmed.ncbi.nlm.nih.gov/35861202/) | 2023 | 統合分析 | Journal of Psychopharmacology | 早期治療抗性憂鬱症的輔助與合併治療證據 |
+| [34238049](https://pubmed.ncbi.nlm.nih.gov/34238049/) | 2021 | 統合分析 | Journal of Psychopharmacology | 比較抗憂鬱藥加第二代抗精神病藥、esketamine 與鋰鹽的療效與耐受性 |
+| [39739012](https://pubmed.ncbi.nlm.nih.gov/39739012/) | 2025 | 網絡統合分析 | Neuropsychopharmacology | 比較治療抗性憂鬱症各治療的相對效果 |
+| [38454079](https://pubmed.ncbi.nlm.nih.gov/38454079/) | 2024 | RCT | Molecular Psychiatry | ASCERTAIN-TRD：比較 aripiprazole 輔助、rTMS 輔助與換用 venlafaxine |
+| [37149344](https://pubmed.ncbi.nlm.nih.gov/37149344/) | 2023 | Review | Psychiatric Clinics of North America | 非典型抗精神病藥是研究最多的輔助藥物，包括 aripiprazole |
+| [36855876](https://pubmed.ncbi.nlm.nih.gov/36855876/) | 2023 | Review | American Journal of Psychiatry | 抗精神病藥在治療抗性憂鬱症治療中的定位 |
+| [25963405](https://pubmed.ncbi.nlm.nih.gov/25963405/) | 2016 | Review | Asia-Pacific Psychiatry | 抗精神病藥作為抗憂鬱藥，僅在低於抗精神病劑量時有效 |
+| [42283956](https://pubmed.ncbi.nlm.nih.gov/42283956/) | 2026 | 網絡統合分析 | Advances in Therapy | 比較 lumateperone 與其他非典型抗精神病藥輔助治療重度憂鬱症 |
 
-（註：PMID 38669232 的統合分析已被撤稿，未納入。）
-
----
+另有一篇相關統合分析（PMID 38669232）已被撤稿，本報告不引用其結論。
 
 ## 香港上市資訊
 
-香港共有 20 張有效許可證，皆為單一成分製劑。以下列出 5 張主要許可證：
+本地資料共有 20 張單一成分許可證，皆為有效；以下列出 5 張，清單可能不完整。
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-62721 | ABILIFY TABLETS 2MG（Otsuka，原廠） | 錠劑 | 未載明 |
-| HK-63127 | ARIPIPRAZOLE SANDOZ TABLETS 15MG | 錠劑 | 未載明 |
-| HK-65003 | ARIPIPRAZOLE ACTAVIS TABLETS 5MG | 錠劑 | 未載明 |
-| HK-67614 | APO-ARIPIPRAZOLE TABLETS 5MG | 錠劑 | 未載明 |
-| HK-68342 | ZYKALOR TABLETS 10MG | 錠劑 | 未載明 |
-
----
+| HK-62721 | ABILIFY TABLETS 2MG | 錠劑 | 本地資料未記錄 |
+| HK-63127 | ARIPIPRAZOLE SANDOZ TABLETS 15MG | 錠劑 | 本地資料未記錄 |
+| HK-65003 | ARIPIPRAZOLE ACTAVIS TABLETS 5MG | 錠劑 | 本地資料未記錄 |
+| HK-65315 | ARIPIPRAZOL STADA TABLETS 10MG | 錠劑 | 本地資料未記錄 |
+| HK-67614 | APO-ARIPIPRAZOLE TABLETS 5MG | 錠劑 | 本地資料未記錄 |
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌疾病**（非仿單文字，僅供參考）：
-  - 心血管：心肌梗塞、冠狀動脈疾病、心肌缺血、猝死性心臟停止、心臟傳導疾病、腦血管疾病、低血壓與姿態性低血壓
-  - 代謝：高血糖、糖尿病、糖尿病酮酸中毒、高脂血症、肥胖
-  - 血液：嗜中性白血球低下、顆粒球缺乏症、白血球低下
-  - 神經：癲癇、神經抑制劑惡性症候群
-- **藥物交互作用**：資料庫共記錄 100 筆，列出的項目中以 **Bupropion** 為「嚴重 (Major)」等級，其餘多為中度，例如降血糖藥（metformin、pioglitazone、alogliptin、canagliflozin 等）、抗膽鹼藥（atropine、hyoscyamine）、CYP 抑制劑（clarithromycin、cimetidine）及 epinephrine 等。
-- **臨床使用須留意**（依本藥證據推論）：靜坐不能 (akathisia)、代謝影響，以及衝動控制問題（文獻中有賭博、性慾亢進、強迫行為等個案報告）。
-
-其餘警語與禁忌請參考原廠仿單。
-
----
+- **藥物交互作用**：本次彙整的資料顯示共 100 筆交互作用紀錄，其中 Bupropion 為嚴重等級；其餘多為中等等級，例如 Clarithromycin、Cimetidine、Cisapride、Epinephrine，以及多種降血糖藥（Metformin、Pioglitazone、Alogliptin、Canagliflozin 等）。
+- **需特別留意的狀況**：本次資料中與此藥相關的風險疾病包括嗜中性白血球低下、顆粒球缺乏、神經抑制劑惡性症候群、癲癇、糖尿病與高血糖、高血脂、肥胖、心肌梗塞與冠狀動脈疾病、姿勢性低血壓等。這些並非仿單禁忌症文字，使用前仍須對照原廠仿單。
+- 其他警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 有多個已完成的大型 Phase 3 雙盲安慰劑對照試驗（如 NCT00095823、NCT00095758、NCT01421342）及多篇網絡統合分析支持輔助治療 MDD，證據等級為 L1；香港已有 20 張有效許可證，藥物可取得性高。
-- 但香港許可證未載明核准適應症，且有明確的代謝、神經與衝動控制風險，需設定使用限制。
+- 針對重度憂鬱症輔助治療，已有多個已完成的 Phase 3 雙盲安慰劑對照試驗與大型實用性試驗，並有多篇網絡統合分析，證據等級為 L1。
+- 預測疾病名稱為「重度情感性疾患」，範圍較廣，現有試驗主要針對重度憂鬱症，其他情感性疾患次型需另行確認。
 
 **若要推進需要：**
-- 取得香港衛生署核准仿單，確認適應症、警語與禁忌（目前缺乏）
-- 取得 DrugBank 的詳細作用機轉資料
-- 限定對象為對一線抗憂鬱劑反應不足的患者，並採低劑量輔助用法
-- 建立監測計畫：靜坐不能、體重／血糖／血脂、血球計數與衝動控制行為
-- 用藥前審視心血管疾病、糖尿病、癲癇等病史及 bupropion 等交互作用藥物
-
----
-
-## 其他預測適應症備註
-
-- **Trichotillomania（拔毛症）**：證據等級 L2，有 2 個試驗（其中 Phase 2 安慰劑對照試驗 NCT05545891 尚未開始收案）及多篇個案報告與小型開放標示研究，但 aripiprazole 也有誘發衝動—強迫行為的報告，效益風險不明，建議列為研究問題。
-- **其餘預測**（如 Phelan-McDermid 症候群、亞斯伯格症候群感受性等）僅有模型預測，無試驗或文獻，證據等級 L5，建議暫緩 (Hold)。
+- 取得香港原廠仿單，確認警語、禁忌症與本地核准適應症的範圍
+- 補齊作用機轉資料
+- 限定使用於第一線抗憂鬱藥反應不足的患者，並建立靜坐不能、代謝指標（血糖、血脂、體重）與衝動控制問題的監測計畫
+- 針對藥物交互作用，尤其是 bupropion 與 CYP 抑制劑，擬定處方審核機制
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

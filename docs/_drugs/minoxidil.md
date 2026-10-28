@@ -4,17 +4,17 @@ title: Minoxidil
 parent: 中證據等級 (L3-L4)
 nav_order: 590
 evidence_level: L4
-indication_count: 5
+indication_count: 10
 last_modified_at: 2026-10-14
-description: "Minoxidil：預測新適應症為頭皮單純性毛髮稀少症 (Hypotrichosis simplex of the scalp)（證據等級 L4）。原適應症：高血壓、脫髮"
 monitor_inn: "MINOXIDIL"
-predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension"]
+predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with chronic hemolytic anemia", "pulmonary arterial hypertension associated with HIV infection"]
+description: "Minoxidil：預測新適應症為頭皮單純性毛髮稀少症 (hypotrichosis simplex of the scalp)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Minoxidil
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L4** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 
 </div>
 
-## Minoxidil：從高血壓與雄性禿到頭皮單純性毛髮稀少症
+## Minoxidil: 頭皮單純性毛髮稀少症 (hypotrichosis simplex of the scalp)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,11 +48,11 @@ TxGNN 模型預測它可能對**頭皮單純性毛髮稀少症 (Hypotrichosis si
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 高血壓、脫髮（來自知識圖譜；香港許可證未載明核准適應症文字） |
-| 預測新適應症 | 頭皮單純性毛髮稀少症 (Hypotrichosis simplex of the scalp) |
-| TxGNN 預測分數 | 99.99% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 頭皮單純性毛髮稀少症 (hypotrichosis simplex of the scalp) |
+| TxGNN 預測分數 | 1.0000 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold（列為研究問題，待更直接的證據） |
 
@@ -117,7 +117,6 @@ TxGNN 模型預測它可能對**頭皮單純性毛髮稀少症 (Hypotrichosis si
 **決策：Hold**
 
 **理由：**
-- TxGNN 分數極高（99.99%），機轉上也有合理性，但實際證據僅有 3 篇合併療法的病例報告，無登記臨床試驗，無法判定 Minoxidil 本身的貢獻。
 - 仿單安全性資料尚未取得（屬阻斷性資料缺口），目前無法進入安全性篩選。
 
 **若要推進需要：**

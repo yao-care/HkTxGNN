@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Golimumab
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 425
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Golimumab：預測新適應症為類風濕性血管炎 (Rheumatoid Vasculitis)（證據等級 L4）。原適應症：乾癬性關節炎、類風濕性關節炎、僵直性脊椎炎、潰瘍性結腸炎、發炎性腸道疾病"
 monitor_inn: "GOLIMUMAB"
-predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
+description: "Golimumab：預測新適應症為Hypermobility of coccyx（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Golimumab
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy",
 
 </div>
 
-## Golimumab：從類風濕性關節炎等自體免疫疾病到類風濕性血管炎
+## Golimumab: Hypermobility of coccyx
 {: .text-alpha }
 
 ## 一句話總結
 
 Golimumab 是一種抗 TNF-α 單株抗體，原本用於乾癬性關節炎、類風濕性關節炎、僵直性脊椎炎、潰瘍性結腸炎及發炎性腸道疾病。
-TxGNN 模型預測它可能對**類風濕性血管炎 (Rheumatoid Vasculitis)** 有效，但目前只有間接證據：1 個不相關的臨床試驗，以及數篇間接相關的文獻，沒有直接檢驗 golimumab 用於此疾病的研究。
 
 > 說明：在 TxGNN 前 5 名預測中，「發炎性脊椎病變」與「多關節型幼年類風濕性關節炎」的證據最完整（皆為 L1），但這兩項與 golimumab 已核准或已知的適應症高度重疊，較接近既有用途的確認，而非真正的藥物再利用。本報告以排名第 1 的預測為主軸，並於後文補充說明其他預測。
 
@@ -47,12 +46,12 @@ TxGNN 模型預測它可能對**類風濕性血管炎 (Rheumatoid Vasculitis)** 
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 乾癬性關節炎、類風濕性關節炎、僵直性脊椎炎、潰瘍性結腸炎、發炎性腸道疾病（香港許可證資料未載明適應症文字，此處依知識圖譜資料） |
-| 預測新適應症 | 類風濕性血管炎 (Rheumatoid Vasculitis) |
-| TxGNN 預測分數 | 99.73% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Hypermobility of coccyx |
+| TxGNN 預測分數 | 0.9967 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -103,18 +102,14 @@ TxGNN 模型預測它可能對**類風濕性血管炎 (Rheumatoid Vasculitis)** 
 
 | 預測適應症 | TxGNN 分數 | 證據等級 | 決策 | 說明 |
 |-----------|-----------|---------|------|------|
-| 恥骨尾骨過度活動 (Hypermobility of coccyx) | 99.67% | L5 | Hold | 僅有模型預測，無試驗與文獻，且機械性病變缺乏 TNF 驅動機轉 |
-| 發炎性脊椎病變 (Inflammatory spondylopathy) | 99.66% | L1 | Proceed with Guardrails | 多個 Phase 3 隨機、雙盲、安慰劑對照試驗支持（如 NCT02186873、NCT01453725、NCT00265083），但與已核准的僵直性脊椎炎適應症重疊 |
-| Kummell 氏病 | 99.61% | L5 | Hold | 僅有模型預測，無試驗與文獻；為創傷後椎體缺血性壞死，無已知 TNF 驅動的發炎機轉 |
-| 多關節型幼年類風濕性關節炎 | 99.59% | L1 | Proceed with Guardrails | 兩項 Phase 3 兒童試驗（NCT01230827、NCT02277444）與長期追蹤文獻支持，部分地區已核准，屬既有用途確認 |
+| 恥骨尾骨過度活動 (Hypermobility of coccyx) | 0.9967 | L5 | Hold | 僅有模型預測，無試驗與文獻，且機械性病變缺乏 TNF 驅動機轉 |
+| Kummell 氏病 | 0.9961 | L5 | Hold | 僅有模型預測，無試驗與文獻；為創傷後椎體缺血性壞死，無已知 TNF 驅動的發炎機轉 |
 
 ## 結論與下一步
 
-**決策：Hold**（針對排名第 1 的類風濕性血管炎）
 
 **理由：**
 - 沒有任何研究直接檢驗 golimumab 對類風濕性血管炎的效果，現有證據僅為間接，且有抗 TNF 治療期間發生血管炎的矛盾反應報告。證據等級僅為 L4。
-- 若要在預測清單中挑選可推進者，「發炎性脊椎病變」與「多關節型幼年類風濕性關節炎」證據較強，可採 Proceed with Guardrails，但兩者較屬既有適應症的延伸確認。
 
 **若要推進需要：**
 - 取得 golimumab 的作用機轉資料（MOA）

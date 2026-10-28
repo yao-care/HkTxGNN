@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Moclobemide
-parent: 僅模型預測 (L5)
+parent: 中證據等級 (L3-L4)
 nav_order: 595
-evidence_level: L5
+evidence_level: L3
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Moclobemide：預測新適應症為懼曠症 (Agoraphobia)（證據等級 L5）。原適應症：焦慮症、精神官能症、輕鬱症"
 monitor_inn: "MOCLOBEMIDE"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
+description: "Moclobemide：預測新適應症為懼曠症 (agoraphobia)（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Moclobemide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+證據等級: **L3** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy
 
 </div>
 
-## Moclobemide：從焦慮症到懼曠症
+## Moclobemide: 懼曠症 (agoraphobia)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**懼曠症 (Agoraphobia)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 焦慮症、精神官能症、輕鬱症（香港許可證未載明適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 懼曠症 (Agoraphobia) |
-| TxGNN 預測分數 | 99.43% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 懼曠症 (agoraphobia) |
+| TxGNN 預測分數 | 0.9943 |
 | 證據等級 | L3（有 RCT 與回顧文獻，但無已完成的 Phase 3 試驗登記，故保守判定） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold（待補充安全性與機轉資料後，可轉為 Proceed with Guardrails） |
 
 ---
@@ -123,7 +123,7 @@ TxGNN 模型預測它可能對**懼曠症 (Agoraphobia)** 有效，
 
 ### 附註：其他預測適應症
 
-TxGNN 排名第 2 的預測為**嬰兒良性陣發性斜頸**（分數 99.30%），目前無臨床試驗與文獻支持，證據等級為 L5，建議決策為 Hold。該疾病為自限性的兒科陣發性疾患，與 MAO-A 抑制的關聯不明，且對嬰兒使用抗憂鬱類 MAO 抑制劑有安全疑慮，不建議優先投入。
+TxGNN 排名第 2 的預測為**嬰兒良性陣發性斜頸**（分數 0.9930），目前無臨床試驗與文獻支持，證據等級為 L5，建議決策為 Hold。該疾病為自限性的兒科陣發性疾患，與 MAO-A 抑制的關聯不明，且對嬰兒使用抗憂鬱類 MAO 抑制劑有安全疑慮，不建議優先投入。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

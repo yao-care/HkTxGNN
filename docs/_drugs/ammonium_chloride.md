@@ -4,17 +4,17 @@ title: Ammonium Chloride
 parent: 僅模型預測 (L5)
 nav_order: 56
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-14
-description: "Ammonium Chloride：預測新適應症為急性喉咽炎 (Acute Laryngopharyngitis)（證據等級 L5）。原適應症：咽炎、普通感冒、鼻咽炎"
+indication_count: 1
 monitor_inn: "AMMONIUM CHLORIDE"
-predicted_indications: ["acute laryngopharyngitis", "nasal cavity disease"]
+predicted_indications: ["nasal cavity disease"]
+last_modified_at: 2026-10-23
+description: "Ammonium Chloride：預測新適應症為鼻腔疾病（證據等級 L5）。原適應症：知識圖譜記錄的關聯：咽炎、感冒、鼻咽炎"
 ---
 
 # Ammonium Chloride
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,34 @@ predicted_indications: ["acute laryngopharyngitis", "nasal cavity disease"]
 
 </div>
 
-## Ammonium Chloride（氯化銨）：從咽炎到急性喉咽炎
+## 氯化銨（Ammonium Chloride）：從咽炎、感冒到鼻腔疾病
 {: .text-alpha }
 
 ## 一句話總結
 
-氯化銨原本用於咽炎、普通感冒與鼻咽炎，是香港多款祛痰類糖漿與複方製劑的成分。
-TxGNN 模型預測它可能對**急性喉咽炎 (Acute Laryngopharyngitis)** 有效，
-但目前**沒有任何臨床試驗或文獻**支持，僅屬模型預測層級。
+氯化銨在知識圖譜中記錄的相關用途為咽炎、感冒與鼻咽炎，在香港則以祛痰類製劑形式上市。
+TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
+但目前**沒有任何臨床試驗或文獻**直接支持，僅屬模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 咽炎、普通感冒、鼻咽炎（來自知識圖譜；香港許可證未登載適應症文字） |
-| 預測新適應症 | 急性喉咽炎 (Acute Laryngopharyngitis) |
-| TxGNN 預測分數 | 99.94% |
+| 原適應症 | 知識圖譜記錄的關聯：咽炎、感冒、鼻咽炎（香港許可證資料未載明核准適應症文字） |
+| 預測新適應症 | 鼻腔疾病 |
+| TxGNN 預測分數 | 0.9994 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 20 張 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 許可證數 | 至少 20 張（清單可能不完整） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，氯化銨傳統上作為祛痰劑使用，可能有助於稀釋、排出呼吸道分泌物，但這一點無法由現有資料驗證。
+目前缺乏詳細的作用機轉資料。根據已知資訊，氯化銨在香港多以祛痰劑、咳嗽糖漿等製劑上市，知識圖譜中也記錄了它與咽炎、感冒、鼻咽炎的關聯。
 
-急性喉咽炎在解剖位置與臨床表現上，與原適應症咽炎、鼻咽炎十分接近，同屬上呼吸道發炎。模型的高分很可能來自與這些已知適應症在知識網絡中的相近性。
+鼻腔疾病與上述上呼吸道病症在解剖位置和症狀上相近，模型可能因此給出高分。推測的作用方向是幫助稀釋或排出呼吸道分泌物，但這只是假設，沒有機轉或臨床資料可以佐證。
 
-因此，這個預測可能только是既有用途的重新標示，而非真正的新適應症。另外，排名第 2 的預測「鼻腔疾病 (Nasal Cavity Disease)」（分數 99.94%）範圍過於籠統，未定義具體亞型、族群或療效指標，現階段難以做臨床評估。
+需要注意的是，此分數來自 TxGNN 模型（深度學習），很可能反映的是模型學到的鼻腔疾病與鼻咽炎、感冒等相關疾病之間的相似性，而不是生物學上的證據，也不是獨立的療效證據。
 
 ## 臨床試驗證據
 
@@ -72,38 +72,36 @@ TxGNN 模型預測它可能對**急性喉咽炎 (Acute Laryngopharyngitis)** 有
 
 ## 香港上市資訊
 
-香港共有 20 張有效的單一成分許可證，以下列出 5 張。資料中未提供劑型與核准適應症。
+以下為部分許可證（清單可能不完整，總數至少 20 張）。品名為資料庫登記名稱，許可證資料未載明劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-43251 | UNI-COPHEDENE SYRUP | 未提供 | 未提供 |
-| HK-07157 | UNI-PHEN EXPECTORANT | 未提供 | 未提供 |
-| HK-08384 | DIPHENAMINE EXPECTORANT | 未提供 | 未提供 |
-| HK-64814 | AXCEL FLEMIN EXPECTORANT SYRUP | 未提供 | 未提供 |
-| HK-54338 | BEANAMINE EXPECTORANT | 未提供 | 未提供 |
+| 許可證號 | 品名 | 製造商 |
+|---------|------|--------|
+| HK-43251 | UNI-COPHEDENE SYRUP | Universal Pharmaceutical Laboratories, Limited |
+| HK-07157 | UNI-PHEN EXPECTORANT | Universal Pharmaceutical Laboratories, Limited |
+| HK-08384 | DIPHENAMINE EXPECTORANT | Vickmans Laboratories Ltd |
+| HK-64814 | AXCEL FLEMIN EXPECTORANT SYRUP | Kotra Pharma (Hong Kong) Company |
+| HK-54338 | BEANAMINE EXPECTORANT | Prudentlink Limited |
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌疾病**（來源為知識圖譜的藥物—疾病關聯，並非仿單內容）：包括高血壓、肝衰竭、腎功能不全、無尿、癲癇、消化性潰瘍、腎上腺皮質功能不全、高鈣血症、腎鈣質沉著症、肺水腫、心肌缺血、冠狀動脈疾病、心臟傳導疾病、狹角型青光眼、甲狀腺機能亢進、攝護腺肥大、膀胱頸阻塞、焦慮症、失眠等。此清單可能反映複方製劑中其他成分的風險，需對照實際仿單判讀。
-- **藥物交互作用**：共 21 筆，皆為輕度或中度。
-  - 中度：Amphetamine、Dextroamphetamine、Benzphetamine、Lisdexamfetamine、Metamfetamine
-  - 輕度：Ephedrine、Pseudoephedrine、多種三環抗憂鬱劑（如 Amitriptyline、Imipramine）、Methadone、Mexiletine、Flecainide 等
+- **知識圖譜記錄的禁忌關聯**（非仿單內容，僅供參考）：高血壓、肝衰竭、癲癇、失眠、腎上腺皮質功能不全（含 Addison 病）、消化性潰瘍、良性前列腺增生、無尿、高血鈣、腎鈣化、磷代謝疾病、腎功能不全、高眼壓、心臟驟停、心臟傳導疾病、閉角型青光眼、甲狀腺功能亢進（含 Graves 病）、膀胱頸阻塞、肺水腫、心肌缺血、冠狀動脈疾病、焦慮症、強迫症、壞死性腸炎等。
+- **藥物交互作用**：共查得 21 筆，其中中度交互作用為安非他命類藥物，包括 Amphetamine、Dextroamphetamine、Lisdexamfetamine、Metamfetamine、Benzphetamine。其餘多為輕度，涉及 Ephedrine、Pseudoephedrine、三環類抗憂鬱劑（如 Amitriptyline、Imipramine）、Methadone、Mexiletine、Flecainide 等。
 
-仿單的警語與禁忌資料尚未取得，詳細資訊請參考原廠仿單。
+仿單中的警語與禁忌資料尚未取得，請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高，但沒有任何臨床試驗或文獻佐證，證據等級僅 L5，且缺乏作用機轉資料。
-- 預測的適應症與原適應症高度相近，可能只是重新標示，並非有價值的新用途。
+- 預測分數雖高，但只有 TxGNN 模型（深度學習）的推論，沒有任何臨床試驗或文獻直接研究鼻腔疾病，證據等級為 L5。
+- 作用機轉與仿單安全性資料均缺漏，目前無法評估可行性。
 
 **若要推進需要：**
-- 取得 DrugBank 的作用機轉資料，驗證機轉連結
-- 下載並解析香港衛生署仿單，補齊警語、禁忌與核准適應症，完成安全性篩選
-- 檢索急性喉咽炎相關的臨床試驗與文獻，確認是否有實際證據
-- 確認此預測與現有適應症（咽炎）是否實質不同，評估其再利用價值
+- 補齊作用機轉資料，驗證與鼻腔疾病的機轉關聯
+- 取得香港衛生署仿單，確認核准適應症、警語與禁忌
+- 檢索並評估氯化銨用於鼻腔疾病的臨床或前臨床研究
+- 明確定義鼻腔疾病的目標病況（如鼻塞、鼻竇炎），並評估劑型與給藥途徑是否適用
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

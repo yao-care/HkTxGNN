@@ -4,17 +4,17 @@ title: Lactic Acid
 parent: 僅模型預測 (L5)
 nav_order: 502
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Lactic Acid：預測新適應症為非典型主動脈縮窄 (Atypical coarctation of aorta)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Lactic acid"
-predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome", "esophageal disease", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "excretory apparatus of the lacrimal system anomaly", "eye disease", "cauda equina syndrome"]
+predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
 ---
 
 # Lactic Acid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["atypical coarctation of aorta", "aortic malformation", 
 
 </div>
 
-## Lactic acid：從（原適應症未載明）到先天性主動脈縮窄（非典型）
+## Lactic acid：從（原適應症未載明）到非典型主動脈縮窄
 {: .text-alpha }
 
 ## 一句話總結
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**非典型主動脈縮窄 (atypical coarctation o
 |------|------|
 | 原適應症 | 資料未載明 |
 | 預測新適應症 | 非典型主動脈縮窄 (Atypical coarctation of aorta) |
-| TxGNN 預測分數 | 99.59% |
+| TxGNN 預測分數 | 0.9959 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 7 張 |
+| 香港上市 | 上市中（有效許可證 7 張／共 7 張） |
+| 許可證數 | 7 張（有效 7 張） |
 | 建議決策 | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**非典型主動脈縮窄 (atypical coarctation o
 
 目前缺乏詳細的作用機轉資料。乳酸是內源性代謝物，在香港以外用溶液、火棉膠（collodion）、血液透析與血液濾過溶液，以及複方乳酸鈉注射液等形式上市。
 
-在已整理的資料中，找不到任何文獻或試驗把乳酸與主動脈縮窄連結起來。主動脈縮窄是結構性先天異常，通常以手術或介入治療處理，藥理上缺乏讓乳酸發揮作用的合理途徑。0.996 的高分只反映知識圖譜上的鄰近關係，不能視為機轉證據。
+在已整理的資料中，找不到任何文獻或試驗把乳酸與主動脈縮窄連結起來。主動脈縮窄是結構性先天異常，通常以手術或介入治療處理，藥理上缺乏讓乳酸發揮作用的合理途徑。0.9959 的高分來自 TxGNN 模型（深度學習），可能反映模型在相關疾病之間學到的相似性，不是生物學證據。
 
 其他排名前 10 的預測（如主動脈畸形、食道畸形、閉經、乾眼症、食道疾病、眼疾、馬尾症候群等）同樣沒有可信的治療機轉。部分文獻甚至顯示潛在的不利訊號，例如乳酸會上調巨噬細胞 VEGF 並促進脈絡膜新生血管，吲哚-3-乳酸則降低食道鱗狀細胞癌的抗 PD-1 療效。
 
@@ -117,7 +117,7 @@ TxGNN 模型預測它可能對**非典型主動脈縮窄 (atypical coarctation o
 
 **理由：**
 - 所有預測適應症皆停留在 L5，沒有臨床試驗，文獻也無法支持乳酸作為治療藥物。
-- 首位預測是需手術或介入處理的結構性先天異常，缺乏藥理合理性；部分適應症（食道疾病、眼疾）的文獻甚至出現不利訊號。
+- 首位預測是需手術或介入處理的結構性先天異常，缺乏藥理合理性。
 
 **若要推進需要：**
 - 釐清乳酸在香港各許可證下的核准適應症與劑型。

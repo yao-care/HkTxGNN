@@ -4,17 +4,17 @@ title: Clofarabine
 parent: 高證據等級 (L1-L2)
 nav_order: 215
 evidence_level: L1
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Clofarabine：預測新適應症為骨髓性白血病 (Myeloid Leukemia)（證據等級 L1）。原適應症：急性淋巴性白血病"
 monitor_inn: "CLOFARABINE"
-predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"]
+predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
+description: "Clofarabine：預測新適應症為骨髓性白血病 (myeloid leukemia)（證據等級 L1）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Clofarabine
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **10** 個
+證據等級: **L1** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "n
 
 </div>
 
-## Clofarabine：從急性淋巴性白血病到骨髓性白血病
+## Clofarabine: 骨髓性白血病 (myeloid leukemia)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**骨髓性白血病 (Myeloid Leukemia)** 有效�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 急性淋巴性白血病（香港許可證資料未載明核准適應症文字，此處依知識圖譜的適應症資料） |
-| 預測新適應症 | 骨髓性白血病 (Myeloid Leukemia) |
-| TxGNN 預測分數 | 99.88% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 骨髓性白血病 (myeloid leukemia) |
+| TxGNN 預測分數 | 0.9988 |
 | 證據等級 | L1 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---
@@ -155,10 +155,8 @@ Clofarabine 是第二代嘌呤核苷類似物，設計上結合了 fludarabine �
 
 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
 |-----------|-----------|---------|------|
-| 前驅淋巴母細胞淋巴瘤/白血病 | 99.57% | L2 | Proceed with Guardrails（與原適應症同一疾病家族，主要延伸至淋巴母細胞淋巴瘤及成人族群） |
-| 母細胞期慢性骨髓性白血病 (BCR-ABL1 陽性) | 99.43% | L2 | Research Question（試驗非 CML 專屬，資料量小） |
-| 神經母細胞瘤 | 99.52% | L4 | Hold（證據為間接） |
-| 神經節母細胞瘤、後腹腔腫瘤、慢性淋巴球性白血病亞型（2 個）、脊椎異常合併內分泌及 T 細胞功能障礙 | 99.26%–99.54% | L5 | Hold（僅有模型預測，無試驗或文獻） |
+| 母細胞期慢性骨髓性白血病 (BCR-ABL1 陽性) | 0.9943 | L5 | Research Question（試驗非 CML 專屬，資料量小） |
+| 神經母細胞瘤 | 0.9952 | L4 | Hold（證據為間接） |
 
 另外，「急性淋巴性白血病」本身即為已核准的原適應症，不屬於再利用。
 ## 免責聲明

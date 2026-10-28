@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dacarbazine
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 242
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Dacarbazine：預測新適應症為上呼吸消化道腫瘤 (Upper Aerodigestive Tract Neoplasm)（證據等級 L4）。原適應症：何杰金氏淋巴瘤、轉移性黑色素瘤"
 monitor_inn: "DACARBAZINE"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
+description: "Dacarbazine：預測新適應症為上呼吸消化道腫瘤 (upper aerodigestive tract neoplasm)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Dacarbazine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["upper aerodigestive tract neoplasm"]
 
 </div>
 
-## Dacarbazine：從何杰金氏淋巴瘤與轉移性黑色素瘤到上呼吸消化道腫瘤
+## Dacarbazine: 上呼吸消化道腫瘤 (upper aerodigestive tract neoplasm)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**上呼吸消化道腫瘤 (Upper Aerodigestive Tr
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 何杰金氏淋巴瘤、轉移性黑色素瘤（香港許可證未載明核准適應症文字，以知識圖譜適應症為準） |
-| 預測新適應症 | 上呼吸消化道腫瘤 (Upper Aerodigestive Tract Neoplasm) |
-| TxGNN 預測分數 | 99.26% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 上呼吸消化道腫瘤 (upper aerodigestive tract neoplasm) |
+| TxGNN 預測分數 | 0.9926 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ---
@@ -107,7 +107,6 @@ TxGNN 模型預測它可能對**上呼吸消化道腫瘤 (Upper Aerodigestive Tr
 | 項目 | 內容 |
 |------|------|
 | 細胞毒性分類 | 傳統細胞毒性藥物（烷化劑） |
-| 骨髓抑制風險 | 高（知識圖譜顯示與血小板減少、白血球減少、貧血相關） |
 | 致吐性分級 | 高（一般分類為中至高度致吐，請以仿單為準） |
 | 監測項目 | CBC（含分類與血小板）、肝功能、腎功能 |
 | 處置防護 | 需依細胞毒性藥物處置規範操作 |

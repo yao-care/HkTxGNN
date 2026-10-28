@@ -4,17 +4,17 @@ title: Glycyrrhizic Acid
 parent: 僅模型預測 (L5)
 nav_order: 424
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Glycyrrhizic Acid：預測新適應症為多發性內分泌腫瘤 (Multiple Endocrine Neoplasia)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Glycyrrhizic acid"
-predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "hypoalphalipoproteinemia", "malignant catarrh", "infectious bovine rhinotracheitis", "cytomegalovirus infection", "acne (disease)", "kyphoscoliotic heart disease", "pulmonary hypertension", "rheumatoid arthritis"]
+predicted_indications: ["multiple endocrine neoplasia"]
+description: "Glycyrrhizic Acid：預測新適應症為多發性內分泌腫瘤 (multiple endocrine neoplasia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Glycyrrhizic Acid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", 
 
 </div>
 
-## Glycyrrhizic acid（甘草酸）：從（原適應症未載明）到多發性內分泌腫瘤
+## Glycyrrhizic Acid: 多發性內分泌腫瘤 (multiple endocrine neoplasia)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neo
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未載明 |
-| 預測新適應症 | 多發性內分泌腫瘤 (Multiple Endocrine Neoplasia) |
-| TxGNN 預測分數 | 99.28% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 多發性內分泌腫瘤 (multiple endocrine neoplasia) |
+| TxGNN 預測分數 | 0.9928 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neo
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，甘草酸是甘草萃取的三萜類皂苷成分，已有多個單方產品在香港取得許可。但就「多發性內分泌腫瘤」這個預測而言，現有資料無法建立任何機轉上的連結。
 
-TxGNN 的高分（0.993）僅是計算模型的輸出。沒有臨床試驗，也沒有文獻可佐證，因此這個預測目前只能視為待驗證的假設，不宜作為推進依據。
+TxGNN 的高分（0.9928）僅是計算模型的輸出。沒有臨床試驗，也沒有文獻可佐證，因此這個預測目前只能視為待驗證的假設，不宜作為推進依據。
 
 另外，甘草酸已知可抑制 11β-羥類固醇脫氫酶，並有類鹽皮質素效應。這些作用雖可能影響內分泌系統，但與內分泌腫瘤之間並無資料支持的關聯。
 
@@ -120,10 +120,7 @@ TxGNN 的高分（0.993）僅是計算模型的輸出。沒有臨床試驗，也
 
 | 預測適應症 | TxGNN 分數 | 證據等級 | 證據概況 |
 |-----------|-----------|---------|---------|
-| 類風濕性關節炎 | 97.82% | L4 | 約 20 篇文獻，皆為前臨床、複方或製劑研究，無臨床試驗。其中甘草酸與芒果苷的組合在動物實驗中顯示抑制滑膜新生血管等效果 |
-| 肺動脈高壓 | 97.91% | L4 | 僅有大鼠動物研究。需注意甘草酸本身可能升高血壓並造成水分滯留 |
 
-類風濕性關節炎是目前證據量最多的方向，若要探索新適應症，可優先考慮，但仍需先有直接以甘草酸為對象的臨床證據。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

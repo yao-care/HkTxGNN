@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Alprostadil
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 43
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Alprostadil：預測新適應症為主動脈畸形 (Aortic Malformation)（證據等級 L3）。原適應症：勃起功能障礙、早洩、三尖瓣閉鎖、主動脈縮窄、法洛氏四重症等"
 monitor_inn: "Alprostadil"
-predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve agenesis", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
+predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "tricuspid valve agenesis", "straddling or overriding tricuspid valve", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
+last_modified_at: 2026-10-27
+description: "Alprostadil：預測新適應症為主動脈畸形 (aortic malformation)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Alprostadil
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,34 @@ predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", 
 
 </div>
 
-## Alprostadil：從勃起功能障礙與先天性心臟病到主動脈畸形
+## Alprostadil：前列腺素 E1 血管擴張劑 → 主動脈畸形 (aortic malformation)
 {: .text-alpha }
 
 ## 一句話總結
 
-Alprostadil（前列腺素 E1，PGE1）原本用於勃起功能障礙，以及需要維持動脈導管開放的先天性心臟病（如三尖瓣閉鎖、主動脈縮窄、法洛氏四重症）。
-TxGNN 模型預測它可能對**主動脈畸形 (Aortic Malformation)** 有效，
-目前有 **0 個臨床試驗**和 **8 篇文獻**，多為病例報告與圍手術期研究。
+Alprostadil 是前列腺素 E1 類藥物，能放鬆血管平滑肌並維持動脈導管通暢。
+TxGNN 模型預測它可能對**主動脈畸形 (aortic malformation)** 有效，
+目前無臨床試驗登記，但有 **8 篇文獻**提供間接支持，多為病例報告、回顧性研究與圍手術期研究。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 勃起功能障礙、早洩、三尖瓣閉鎖、主動脈縮窄、法洛氏四重症等（香港許可證未載明適應症文字，此為知識圖譜所列適應症） |
-| 預測新適應症 | 主動脈畸形 (Aortic Malformation) |
-| TxGNN 預測分數 | 99.98% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
-| 建議決策 | Proceed with Guardrails |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 主動脈畸形 (aortic malformation) |
+| TxGNN 預測分數 | 0.9998 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。依已知藥理，Alprostadil（PGE1）可使動脈導管的平滑肌鬆弛，維持導管開放。對於體循環血流依賴導管的病變，例如主動脈縮窄與主動脈弓中斷，這能暫時維持全身灌流，直到手術矯正。
+目前缺乏詳細的作用機轉資料。依已知藥理，Alprostadil（前列腺素 E1）能鬆弛動脈導管壁的平滑肌，使導管維持開放。對於全身血流依賴導管的主動脈病變（例如主動脈縮窄、主動脈弓中斷），維持導管通暢可在手術前暫時維持全身灌流。
 
-主動脈縮窄本來就在原適應症清單中，因此「主動脈畸形」這個預測與既有用途大部分重疊，並非全新的用途。此外，PGE1 的血管擴張與抗發炎作用，可能在體外循環術後有輔助效果。這部分的機轉連結來自既有藥理知識，並非來自本報告所編整的作用機轉資料。
+此外，其血管擴張與抗發炎作用，可能在體外循環後的圍手術期處置中有輔助效果。這些推論來自既有藥理知識，而非本報告所提供的機轉資料。
+
+需要注意的是，現有文獻多為先天性心臟病的一般性研究或個案報告，沒有任何一項是專門以「主動脈畸形」本身為研究對象的臨床研究。因此依證據等級規則，只能評為 L5。
 
 ## 臨床試驗證據
 
@@ -68,46 +70,40 @@ TxGNN 模型預測它可能對**主動脈畸形 (Aortic Malformation)** 有效�
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [19080093](https://pubmed.ncbi.nlm.nih.gov/19080093/) | 2008 | RCT／臨床研究 | Zhonghua Yi Xue Za Zhi | 探討 Alprostadil 與 Ulinastatin 對先天性心臟病兒童體外循環後發炎反應與肺損傷的影響 |
-| [6763200](https://pubmed.ncbi.nlm.nih.gov/6763200/) | 1982 | 世代研究 | Pharmacotherapy | 輸注 PGE1 可擴張動脈導管、增加肺血流，用於依賴導管的新生兒先天性心臟病 |
-| [41167776](https://pubmed.ncbi.nlm.nih.gov/41167776/) | 2025 | 世代研究 | Zhonghua Fu Chan Ke Za Zhi | 123 例複雜胎兒先天性心臟病的生產方式與時機回溯分析 |
-| [42469655](https://pubmed.ncbi.nlm.nih.gov/42469655/) | 2026 | 世代研究 | BMC Pregnancy Childbirth | 複雜胎兒先天性心臟病的孕期與週產期整合管理初步回溯研究 |
-| [15362549](https://pubmed.ncbi.nlm.nih.gov/15362549/) | 2004 | 回顧 | Kyobu Geka | 大動脈轉位的治療策略，以 PGE1 維持導管開放以保護左心室功能 |
-| [30184041](https://pubmed.ncbi.nlm.nih.gov/30184041/) | 2018 | 病例報告 | Braz J Cardiovasc Surg | 複雜主肺動脈窗修補，術前使用 Milrinone 與 Alprostadil 降低肺壓 |
-| [19068708](https://pubmed.ncbi.nlm.nih.gov/19068708/) | 2008 | 病例報告 | Kyobu Geka | B 型主動脈弓中斷新生兒，以 Alprostadil 維持導管，行單階段修補後存活 |
-| [20029353](https://pubmed.ncbi.nlm.nih.gov/20029353/) | 2009 | 前臨床 | Minerva Chir | 大鼠骨骼肌缺血再灌流損傷模型中，Alprostadil 可減輕損傷（與心血管畸形無直接關聯） |
+| [19080093](https://pubmed.ncbi.nlm.nih.gov/19080093/) | 2008 | 臨床研究 | Zhonghua Yi Xue Za Zhi | 探討 Alprostadil 與 Ulinastatin 對先天性心臟病兒童體外循環後發炎反應與肺損傷的影響 |
+| [6763200](https://pubmed.ncbi.nlm.nih.gov/6763200/) | 1982 | 世代研究 | Pharmacotherapy | 評估 Alprostadil 於嬰兒先天性心臟病的處置，可擴張動脈導管、增加肺血流 |
+| [19068708](https://pubmed.ncbi.nlm.nih.gov/19068708/) | 2008 | 病例報告 | Kyobu Geka | B 型主動脈弓中斷新生兒，以 Alprostadil 維持導管開放後接受一期修復 |
+| [30184041](https://pubmed.ncbi.nlm.nih.gov/30184041/) | 2018 | 病例報告 | Braz J Cardiovasc Surg | 複雜主動脈肺動脈窗，術前使用 Milrinone 與 Alprostadil 降低肺高壓 |
+| [15362549](https://pubmed.ncbi.nlm.nih.gov/15362549/) | 2004 | 回顧 | Kyobu Geka | 大動脈轉位的處置策略，以 Alprostadil 維持導管通暢 |
+| [41167776](https://pubmed.ncbi.nlm.nih.gov/41167776/) | 2025 | 世代研究 | Zhonghua Fu Chan Ke Za Zhi | 複雜胎兒先天性心臟病的生產方式與時機 |
+| [42469655](https://pubmed.ncbi.nlm.nih.gov/42469655/) | 2026 | 世代研究 | BMC Pregnancy Childbirth | 複雜胎兒先天性心臟病的孕期與周產期整合處置 |
+| [20029353](https://pubmed.ncbi.nlm.nih.gov/20029353/) | 2009 | 前臨床 | Minerva Chir | 大鼠骨骼肌缺血再灌流損傷模型中，Alprostadil 減輕損傷 |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-22532 | PROSTIN VR PEDIATRIC INJ 500MCG/ML（輝瑞） | 注射劑 | 未提供 |
+| HK-22532 | PROSTIN VR PEDIATRIC INJ 500MCG/ML | 未記載 | 本地資料未記載 |
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌疾病**（來源為藥物－疾病關聯，並非仿單文字）：新生兒呼吸窘迫症候群、急性呼吸窘迫症候群、低血壓、凝血疾病、鐮刀型貧血與血紅素病變、肺部疾病、多發性骨髓瘤、幽門狹窄、陰莖異常勃起、尿道狹窄、佩洛尼氏病、白血病、血小板增多、真性紅血球增多症、尿道炎、龜頭炎等。
-- **文獻中的安全訊號**：長期輸注 PGE1 曾有幽門狹窄／胃出口阻塞（PMID 23521358）及偽 Bartter 症候群（PMID 12811550）的病例報告。呼吸暫停、發燒與低血壓為已知不良反應。
-- **藥物交互作用**：共查得 59 筆，其中中度者包括 Canagliflozin、Dapagliflozin、Empagliflozin、Ertugliflozin、Lorcaserin、Sapropterin。其餘（如 Morphine、Atropine、Prednisone、Vancomycin、Metformin 等）的嚴重度未分級。
+- **藥物交互作用**：共查得 59 筆交互作用，其中中度包括 Canagliflozin、Dapagliflozin、Empagliflozin、Ertugliflozin、Lorcaserin、Sapropterin。
+- 文獻提及長期輸注的已知不良反應，包括偽 Bartter 症候群、胃出口阻塞（幽門肥厚性狹窄）；另有發燒、呼吸暫停與低血壓等常見副作用。
 
-完整警語與禁忌症請參考原廠仿單。
+其餘警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-「主動脈畸形」與既有的主動脈縮窄適應症大部分重疊，PGE1 維持導管開放的機轉也很明確，TxGNN 分數很高（99.98%）。但目前沒有臨床試驗，文獻以病例報告和回溯研究為主，且香港許可證未載明適應症文字，因此需要設置防護措施。
+- TxGNN 分數很高，機轉上也合理，但沒有任何臨床試驗，現有文獻也沒有直接以主動脈畸形為研究對象，因此證據等級僅為 L5。
 
 **若要推進需要：**
-- 取得香港衛生署仿單的警語、禁忌症與核准適應症文字，確認與主動脈畸形的重疊範圍
-- 補齊詳細作用機轉資料
-- 建立新生兒用藥的監測計畫（呼吸暫停、低血壓、發燒、長期輸注的胃出口阻塞等）
-- 針對導管依賴型主動脈病變，收集更高品質的臨床證據
-
-**其他預測適應症的補充說明：**
-- 先天性三尖瓣狹窄、先天性瓣膜發育不良、三尖瓣跨騎、三尖瓣發育不全、三尖瓣下結構異常、特定右心室雙出口亞型：僅有模型預測、無試驗與文獻（L5），建議 Hold。其中三尖瓣發育不全與三尖瓣閉鎖相近，可類推，但缺乏直接證據。
-- 心臟中隔缺損：僅有病例報告與圍手術期研究（L4），只有合併導管依賴性病變時才有合理性，列為研究問題。
-- 三尖瓣脫垂、地方性甲狀腺腫：無明確機轉依據，高分可能是圖譜的假象，不建議推進。
+- 取得 DrugBank 的作用機轉資料
+- 取得香港衛生署仿單的警語與禁忌症
+- 收集直接針對導管依賴型主動脈病變（如主動脈縮窄、主動脈弓中斷）的臨床研究
+- 針對新生兒長期輸注，建立安全性監測計畫（呼吸暫停、低血壓、胃出口阻塞、電解質）
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

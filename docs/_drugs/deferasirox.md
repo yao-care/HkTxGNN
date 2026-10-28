@@ -6,9 +6,9 @@ nav_order: 251
 evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Deferasirox：預測新適應症為HIV 感染 (HIV infectious disease)（證據等級 L4）。原適應症：β型地中海貧血、血紅素病變"
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
+description: "Deferasirox：預測新適應症為HIV 感染 (HIV infectious disease)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Deferasirox
@@ -33,7 +33,7 @@ predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus inf
 
 </div>
 
-## Deferasirox：從 β型地中海貧血 到 HIV 感染
+## Deferasirox: HIV 感染 (HIV infectious disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對 **HIV 感染 (HIV infectious disease)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | β型地中海貧血、血紅素病變（依知識圖譜適應症資料；香港許可證未載明適應症文字） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | HIV 感染 (HIV infectious disease) |
-| TxGNN 預測分數 | 99.40% |
+| TxGNN 預測分數 | 0.9940 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 7 張 |
+| 香港上市 | 上市中（有效許可證 7 張／共 7 張） |
+| 許可證數 | 7 張（有效 7 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -103,7 +103,7 @@ TxGNN 模型預測它可能對 **HIV 感染 (HIV infectious disease)** 有效，
 
 **理由：**
 - 目前沒有任何 HIV 臨床試驗，僅有一篇方向不明的前臨床機轉研究，證據等級僅 L4。
-- 鐵螯合對 HIV-1 轉錄的影響方向尚未確定，且知識圖譜顯示本藥與血液學（嗜中性白血球減少、血小板減少）、肝腎功能異常有關聯，而 HIV 族群常有這些風險，需審慎。
+- 鐵螯合對 HIV-1 轉錄的影響方向尚未確定，且本藥與血液學（嗜中性白血球減少、血小板減少）、肝腎功能異常可能有關，而 HIV 族群常有這些風險，需審慎。
 
 **若要推進需要：**
 - 釐清鐵螯合對 HIV-1 複製的作用方向（細胞或動物層級的實驗）

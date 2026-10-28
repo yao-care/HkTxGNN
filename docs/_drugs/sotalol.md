@@ -4,17 +4,17 @@ title: Sotalol
 parent: 僅模型預測 (L5)
 nav_order: 829
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Sotalol：預測新適應症為體染色體顯性病態竇房結症候群第 2 型 (Sick sinus syndrome 2, autosomal dominant)（證據等級 L5）。原適應症：心房顫動 (atrial fibrillation)"
 monitor_inn: "Sotalol"
-predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation", "obsolete susceptibility to ischemic stroke"]
+predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]
+description: "Sotalol：預測新適應症為體染色體顯性病態竇房結症候群第 2 型 (sick sinus syndrome 2, autosomal dominant)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Sotalol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,24 @@ predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanc
 
 </div>
 
-## Sotalol：從心房顫動到病態竇房結症候群（預測）
+## Sotalol: 體染色體顯性病態竇房結症候群第 2 型 (sick sinus syndrome 2, autosomal dominant)
 {: .text-alpha }
 
 ## 一句話總結
 
 Sotalol 是兼具 β 受體阻斷與第三類抗心律不整作用的藥物，原本用於心房顫動。
-TxGNN 模型預測分數最高的新適應症是**體染色體顯性病態竇房結症候群第 2 型 (Sick sinus syndrome 2, autosomal dominant)**，但目前**沒有任何臨床試驗或文獻**支持，且該疾病在知識圖譜中被列為 Sotalol 的禁忌症，這個預測更可能是偽陽性。
+TxGNN 模型（深度學習）預測分數最高的新適應症是**體染色體顯性病態竇房結症候群第 2 型 (Sick sinus syndrome 2, autosomal dominant)**，但目前**沒有任何臨床試驗或文獻**支持。此分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據，這個預測更可能是偽陽性。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 心房顫動 (atrial fibrillation)（許可證未載明適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 體染色體顯性病態竇房結症候群第 2 型 (Sick sinus syndrome 2, autosomal dominant) |
-| TxGNN 預測分數 | 99.76% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 體染色體顯性病態竇房結症候群第 2 型 (sick sinus syndrome 2, autosomal dominant) |
+| TxGNN 預測分數 | 0.9976 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -104,7 +104,7 @@ TxGNN 模型預測分數最高的新適應症是**體染色體顯性病態竇房
 
 **理由：**
 - 首位預測適應症僅有模型預測（L5），沒有試驗或文獻。
-- 該疾病本身是 Sotalol 的已知禁忌症，機轉上反而有惡化風險。其餘預測多為知識圖譜的雜訊，或只是原適應症（心房顫動）的間接延伸。
+- 該疾病本身是 Sotalol 的已知禁忌症，機轉上反而有惡化風險。其餘預測來自 TxGNN 模型（深度學習），分數可能反映模型從相關疾病之間學到的相似性，而非生物學證據，或只是原適應症（心房顫動）的間接延伸。
 
 **若要推進需要：**
 - 取得香港衛生署仿單的警語與禁忌資料，完成安全性篩選。

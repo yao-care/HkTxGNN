@@ -6,9 +6,9 @@ nav_order: 525
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Levocetirizine：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L5）。原適應症：過敏性鼻炎、血管運動性鼻炎、特發性蕁麻疹"
 monitor_inn: "Levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
+description: "Levocetirizine：預測新適應症為類風濕性關節炎 (rheumatoid arthritis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Levocetirizine
@@ -33,7 +33,7 @@ predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhi
 
 </div>
 
-## Levocetirizine：從過敏性鼻炎到類風濕性關節炎
+## Levocetirizine: 類風濕性關節炎 (rheumatoid arthritis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,11 +48,11 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、特發性蕁麻疹（來自 TxGNN 知識圖譜；香港許可證未提供適應症文字） |
-| 預測新適應症 | 類風濕性關節炎 (Rheumatoid Arthritis) |
-| TxGNN 預測分數 | 99.73% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 類風濕性關節炎 (rheumatoid arthritis) |
+| TxGNN 預測分數 | 0.9973 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -64,9 +64,9 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 組織胺與肥大細胞活性被認為可能參與關節滑膜發炎，因此抗組織胺藥在生物學上有可能帶來抗發炎效果。不過，這個關聯目前仍屬推測。
 
-需要特別說明：0.997 的 TxGNN 分數是計算預測，不是臨床證據。過敏性疾病與類風濕性關節炎（自體免疫疾病）的病理機轉差異很大，缺乏實際研究佐證。
+需要特別說明：0.9973 的 TxGNN 分數是計算預測，不是臨床證據。過敏性疾病與類風濕性關節炎（自體免疫疾病）的病理機轉差異很大，缺乏實際研究佐證。
 
-另外兩個排名靠前的預測為「colobomatous microphthalmia-rhizomelic dysplasia syndrome」（分數 99.59%）與「brachydactyly-syndactyly syndrome」（分數 99.52%）。兩者皆為先天性遺傳或發育異常，H1 受體拮抗無法合理解釋其療效，應視為知識圖譜的偽陽性，不建議進一步投入。
+另外兩個排名靠前的預測為「colobomatous microphthalmia-rhizomelic dysplasia syndrome」（分數 0.9959）與「brachydactyly-syndactyly syndrome」（分數 0.9952）。兩者皆為先天性遺傳或發育異常，H1 受體拮抗無法合理解釋其療效。這些分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據，不建議進一步投入。
 
 ---
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tranexamic Acid
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 895
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Tranexamic Acid：預測新適應症為閉經 (Amenorrhea)（證據等級 L4）。原適應症：子宮內膜異位症 (Endometriosis)"
 monitor_inn: "TRANEXAMIC ACID"
 predicted_indications: ["amenorrhea (disease)"]
+description: "Tranexamic Acid：預測新適應症為Amenorrhea (disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Tranexamic Acid
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ predicted_indications: ["amenorrhea (disease)"]
 
 </div>
 
-## Tranexamic Acid：從子宮內膜異位症到閉經
+## Tranexamic Acid: Amenorrhea (disease)
 {: .text-alpha }
 
 ## 一句話總結
 
-Tranexamic Acid（傳明酸）是一種抗纖維蛋白溶解藥物，原本在知識圖譜中的適應症為子宮內膜異位症（endometriosis）。
+Tranexamic Acid（傳明酸）是一種抗纖維蛋白溶解藥物，TxGNN 模型（深度學習）預測其可能用於閉經 (Amenorrhea)。
 TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有關，但目前**沒有臨床試驗**，只有 **2 篇文獻**（均為綜述）間接相關。
 此預測的機轉連結偏間接，建議視為待驗證的假說。
 
@@ -48,11 +48,11 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有關，但目前**沒有
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 子宮內膜異位症 (Endometriosis)（來自知識圖譜；香港許可證未提供適應症文字） |
-| 預測新適應症 | 閉經 (Amenorrhea) |
-| TxGNN 預測分數 | 99.19% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Amenorrhea (disease) |
+| TxGNN 預測分數 | 0.9919 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -64,7 +64,7 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有關，但目前**沒有
 
 因此，它在減少月經過多、以及血液腫瘤病患的經期預防或抑制（menses prophylaxis/suppression）上有合理的角色。不過，它**並不經由荷爾蒙或子宮內膜萎縮的機轉誘發閉經**。與閉經的關聯是間接的：藥物減少的是出血量，而不是治療或造成「月經消失」。
 
-TxGNN 的高分（0.99）屬於計算模型預測，並沒有直接臨床資料支持。也應注意，閉經本身是一種症狀或狀態，是否為合適的治療目標需要重新界定，例如改以「異常子宮出血」或「月經過多」作為評估適應症，可能更貼近實際證據。
+TxGNN 的高分（0.9919）屬於計算模型預測，並沒有直接臨床資料支持。也應注意，閉經本身是一種症狀或狀態，是否為合適的治療目標需要重新界定，例如改以「異常子宮出血」或「月經過多」作為評估適應症，可能更貼近實際證據。
 
 ---
 

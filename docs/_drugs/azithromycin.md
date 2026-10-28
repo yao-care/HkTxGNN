@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 91
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Azithromycin：預測新適應症為高澱粉酶血症 (Hyperamylasemia)（證據等級 L5）。原適應症：鏈球菌感染、細菌性肺炎、金黃色葡萄球菌感染、結膜炎等"
 monitor_inn: "AZITHROMYCIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
+last_modified_at: 2026-10-27
+description: "Azithromycin：預測新適應症為高澱粉酶血症 (hyperamylasemia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Azithromycin
@@ -33,108 +33,73 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 </div>
 
-## Azithromycin：從細菌感染到高澱粉酶血症（模型預測）
+## Azithromycin：大環內酯類抗生素 → 高澱粉酶血症 (hyperamylasemia)
 {: .text-alpha }
 
 ## 一句話總結
 
-Azithromycin（阿奇黴素）是大環內酯類抗生素，原本用於鏈球菌感染、細菌性肺炎、結膜炎、黴漿菌肺炎等多種細菌感染。
-TxGNN 模型預測分數最高的新適應症是**高澱粉酶血症 (Hyperamylasemia)**，但目前**沒有任何臨床試驗或文獻**支持，僅為模型預測。
-在所有預測中，證據相對較多的是**先天性血液疾病 (Congenital hematological disorder，以鐮狀細胞病為主)**：有 **3 個臨床試驗**（其中 2 個直接相關但皆已撤回、零收案）和 **2 篇文獻**，仍屬間接證據。
-
----
+Azithromycin 是一種大環內酯類（macrolide）抗生素。
+TxGNN 模型預測它可能對**高澱粉酶血症 (hyperamylasemia)** 有效，但目前**沒有任何臨床試驗或文獻**直接支持這個方向，僅屬模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 鏈球菌感染、細菌性肺炎、金黃色葡萄球菌感染、結膜炎等（香港許可證未登載適應症文字，此處依知識圖譜適應症整理） |
-| 預測新適應症 | 高澱粉酶血症 (Hyperamylasemia) |
-| TxGNN 預測分數 | 99.81% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 高澱粉酶血症 (hyperamylasemia) |
+| TxGNN 預測分數 | 0.9981 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 20 張 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Azithromycin 是大環內酯類抗生素，其在細菌感染中的療效已被證實。但高澱粉酶血症是一種實驗室檢驗異常，而非獨立疾病，也找不到合理的機轉說明 azithromycin 能治療它。此預測較可能是模型的產物，作為治療目標也值得質疑。
+目前缺乏詳細的作用機轉資料。Azithromycin 屬於大環內酯類抗生素，一般認為透過抑制細菌蛋白質合成來發揮抗菌作用，但本次整理的資料中沒有提供其作用機轉說明。
 
-在其他預測中，部分較有機轉想像空間：
-- **先天性血液疾病（鐮狀細胞病）**：大環內酯類具免疫調節與抗發炎作用，可能降低急性胸腔症候群風險、改善肺功能。
-- **單株免疫球蛋白病變 (Monoclonal gammopathy)**：前臨床研究顯示大環內酯類可阻斷自噬流量，並透過內質網壓力使骨髓瘤細胞對 bortezomib 更敏感。此為細胞實驗，與單株免疫球蛋白病變本身無直接證據。
-- **點狀上皮角結膜炎**：azithromycin 已用於眼部感染，有抗菌與抗發炎的合理性，但現有文獻並未提供療效數據。
-- **敗血性鼠疫**：有 *Yersinia pestis* 的體外藥敏研究，但結果顯示 azithromycin 活性不佳。
-
----
+高澱粉酶血症是血液中澱粉酶升高的實驗室發現，本身並非一個獨立的疾病實體，因此作為治療目標本身就有疑問。依據本報告整理的資料，找不到任何可合理連結 azithromycin 與此狀況的機轉。0.9981 的高分只代表模型的預測結果，不等於有臨床或機轉上的支持。
 
 ## 臨床試驗證據
 
-高澱粉酶血症無相關臨床試驗登記。以下為證據相對較多的「先天性血液疾病」預測所對應的試驗：
-
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT02960503](https://clinicaltrials.gov/study/NCT02960503) | Phase 1/2 | 已撤回 | 0 | 評估大環內酯類改善成人鐮狀細胞病 FEV1 的可行性；未收案，無數據 |
-| [NCT02630394](https://clinicaltrials.gov/study/NCT02630394) | Phase 1 | 已撤回 | 0 | Azithromycin 預防鐮狀細胞病急性胸腔症候群的先導試驗；未收案，無數據 |
-| [NCT04278404](https://clinicaltrials.gov/study/NCT04278404) | N/A | 招募中 | 5000 | 兒童用藥（弱勢族群藥物）的藥動學與安全性研究；非特定於血液疾病，僅間接參考 |
-
----
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
-高澱粉酶血症無相關文獻。以下為其他預測中較相關的文獻：
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [26408070](https://pubmed.ncbi.nlm.nih.gov/26408070/) | 2015 | 系統性回顧 (Cochrane) | Cochrane Database Syst Rev | 高風險兒童以抗生素預防下呼吸道感染（先天性血液疾病預測，間接證據） |
-| [23546223](https://pubmed.ncbi.nlm.nih.gov/23546223/) | 2013 | 前臨床（體外） | Int J Oncol | 大環內酯類（含 azithromycin）阻斷自噬流量，增強 bortezomib 對骨髓瘤細胞的毒性（單株免疫球蛋白病變預測） |
-| [8540736](https://pubmed.ncbi.nlm.nih.gov/8540736/) | 1995 | 體外藥敏研究 | Antimicrob Agents Chemother | 78 株鼠疫桿菌中，azithromycin 活性不佳（敗血性鼠疫預測） |
-| [12698575](https://pubmed.ncbi.nlm.nih.gov/12698575/) | 2002 | 動物研究 | Antibiot Khimioter | 實驗性布氏桿菌病中 azithromycin 活性最佳（敗血性鼠疫預測，間接） |
-| [32826651](https://pubmed.ncbi.nlm.nih.gov/32826651/) | 2021 | 病例報告 | Cornea | 微孢子蟲角結膜炎的診斷病例，無 azithromycin 療效數據（點狀上皮角結膜炎預測） |
-
----
+目前無相關文獻。
 
 ## 香港上市資訊
 
-香港共有 20 張有效單一成分許可證，無已註銷者。資料中未登載劑型與核准適應症文字。以下列出 5 張主要許可證：
+香港目前有多張有效的 azithromycin 單一成分許可證，市場狀態為已上市。本次資料中的許可證清單可能不完整，且各許可證均未記載核准適應症文字。主要許可證如下：
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-44360 | ZITHROMAX TAB 250MG（Pfizer） | 錠劑 | 未登載 |
-| HK-45614 | ZITHROMAX FOR INJ IV 500MG/VIAL（Pfizer） | 注射劑 | 未登載 |
-| HK-57627 | APO-AZITHROMYCIN TAB 250MG | 錠劑 | 未登載 |
-| HK-59622 | BINOZYT POWDER FOR SUSP 200MG/5ML（Sandoz） | 懸液用粉劑 | 未登載 |
-| HK-58360 | AZIN 500 TAB 500MG | 錠劑 | 未登載 |
-
----
+| HK-44360 | ZITHROMAX TAB 250MG | 未記載 | 未記載 |
+| HK-45614 | ZITHROMAX FOR INJ IV 500MG/VIAL | 未記載 | 未記載 |
+| HK-59622 | BINOZYT POWDER FOR SUSP 200MG/5ML | 未記載 | 未記載 |
+| HK-57627 | APO-AZITHROMYCIN TAB 250MG | 未記載 | 未記載 |
+| HK-58360 | AZIN 500 TAB 500MG | 未記載 | 未記載 |
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌疾病**：長 QT 症候群（含家族性）、尖端扭轉型心律不整、肝病、膽囊疾病、困難梭狀芽孢桿菌結腸炎、壞死性小腸結腸炎、重症肌無力、神經肌肉接合部疾病、聽力障礙與聽覺系統疾病。此為知識圖譜資料，非仿單原文。
-- **藥物交互作用**：共查得 100 筆，以下為部分範例。
-  - **嚴重 (Major)**：Cisapride、Dolasetron（皆與 QT 延長風險相關）。
-  - **中度 (Moderate)**：Clarithromycin、Levofloxacin、Granisetron、Famotidine、Loperamide，以及含鋁、鎂的制酸劑與多種瀉劑。
-  - **輕微 (Minor)**：Amoxicillin、Metronidazole。
-
-仿單的警語與禁忌資料尚未取得，詳細內容請參考原廠仿單。
-
----
+- **藥物交互作用**：共查得 100 筆交互作用紀錄，其中列出的重點如下：
+  - **重大**：Cisapride、Dolasetron
+  - **中度**：Famotidine、Loperamide、Clarithromycin、Levofloxacin、Granisetron，以及多種含鋁或鎂的制酸劑與瀉劑（如 Aluminum hydroxide、Magnesium hydroxide、Lactulose）
+  - **輕微**：Amoxicillin、Metronidazole
+- 其他警語與禁忌症資料不足，請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 最高分的預測（高澱粉酶血症）僅有模型分數，無任何臨床或文獻支持，且該標的為實驗室指標而非疾病，機轉上缺乏合理性。
-- 即使是證據相對較多的鐮狀細胞病方向，直接相關的兩個試驗皆已撤回、零收案，未產生任何療效或安全性數據，整體證據僅達 L4–L5。
+- 此預測僅來自模型分數，沒有任何臨床試驗或文獻佐證，機轉上也缺乏合理連結。
+- 高澱粉酶血症屬實驗室指標異常而非獨立疾病，作為藥物再利用目標的價值有限。
 
 **若要推進需要：**
-- 取得香港仿單的警語與禁忌資料，完成安全性篩選
-- 補充作用機轉（MOA）資料
-- 重新界定預測標的：高澱粉酶血症不宜作為治療目標，建議改以鐮狀細胞病急性胸腔症候群預防作為研究問題，重新設計並執行可收案的臨床試驗
-- 若考慮 QT 延長風險、肝功能與聽力等問題，需建立族群篩選與監測計畫
+- 釐清高澱粉酶血症在臨床上是否為適當的治療終點，或是否應改以其背後的潛在疾病為目標
+- 取得 azithromycin 的作用機轉資料，評估與澱粉酶代謝之間是否有任何關聯
+- 進行系統性文獻檢索，確認是否有直接相關的臨床或前臨床研究
+- 取得香港原廠仿單，完成警語與禁忌症的安全性審查
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

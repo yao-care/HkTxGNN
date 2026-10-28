@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Selegiline
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 802
-evidence_level: L3
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Selegiline：預測新適應症為思覺失調症 (Schizophrenia)（證據等級 L3）。原適應症：帕金森氏症"
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
+description: "Selegiline：預測新適應症為Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Selegiline
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **4** 個
+證據等級: **L5** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,16 +33,15 @@ predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia
 
 </div>
 
-## Selegiline：從帕金森氏症到思覺失調症
+## Selegiline: Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis
 {: .text-alpha }
 
 ## 一句話總結
 
-Selegiline 是一種 MAO-B 抑制劑，原本用於帕金森氏症，在知識圖譜中也與憂鬱症、焦慮症等適應症相關。
 TxGNN 模型預測它可能對**思覺失調症 (Schizophrenia)** 有效，
 目前有 **1 個臨床試驗**和 **20 篇文獻**支持這個方向，但多為小型輔助治療研究與回顧性文獻。
 
-> 說明：TxGNN 分數最高的預測是「多小腦回畸形合併小腦發育不全與關節攣縮」（99.15%），但該預測沒有任何臨床試驗或文獻支持，機轉上也無合理連結。本報告改以證據最完整的第 2 順位預測（思覺失調症）作為主要評估對象。
+> 說明：TxGNN 分數最高的預測是「多小腦回畸形合併小腦發育不全與關節攣縮」（0.9915），但該預測沒有任何臨床試驗或文獻支持，機轉上也無合理連結。本報告改以證據最完整的第 2 順位預測（思覺失調症）作為主要評估對象。
 
 ---
 
@@ -50,12 +49,12 @@ TxGNN 模型預測它可能對**思覺失調症 (Schizophrenia)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 帕金森氏症（香港許可證未載明核准適應症文字；此為知識圖譜所列適應症） |
-| 預測新適應症 | 思覺失調症 (Schizophrenia) |
-| TxGNN 預測分數 | 99.14% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis |
+| TxGNN 預測分數 | 0.9915 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold（列為研究問題，待更多證據） |
 
 ---

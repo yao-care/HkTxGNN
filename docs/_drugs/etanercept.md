@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Etanercept
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 343
-evidence_level: L4
-indication_count: 6
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Etanercept：預測新適應症為類風濕性血管炎 (Rheumatoid Vasculitis)（證據等級 L4）。原適應症：乾癬性關節炎、類風濕性關節炎、僵直性脊椎炎、幼年特發性關節炎"
 monitor_inn: "ETANERCEPT"
-predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
+description: "Etanercept：預測新適應症為Hypermobility of coccyx（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Etanercept
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **6** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy",
 
 </div>
 
-## Etanercept：從類風濕性關節炎等自體免疫關節疾病到類風濕性血管炎
+## Etanercept: Hypermobility of coccyx
 {: .text-alpha }
 
 ## 一句話總結
 
 Etanercept（依那西普）是一種 TNF 抑制劑，原本用於乾癬性關節炎、類風濕性關節炎、僵直性脊椎炎及幼年特發性關節炎等疾病。
-TxGNN 模型預測它可能對**類風濕性血管炎 (Rheumatoid Vasculitis)** 有效，但目前僅有 **1 個關聯性低的臨床試驗**，文獻多為系統性回顧、病例報告與安全性報告，且有使用 etanercept 後反而出現血管炎的報告，因此證據並不支持明確療效。
 
 ---
 
@@ -47,12 +46,12 @@ TxGNN 模型預測它可能對**類風濕性血管炎 (Rheumatoid Vasculitis)** 
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 乾癬性關節炎、類風濕性關節炎、僵直性脊椎炎、幼年特發性關節炎 |
-| 預測新適應症 | 類風濕性血管炎 (Rheumatoid Vasculitis) |
-| TxGNN 預測分數 | 99.71% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 7 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Hypermobility of coccyx |
+| TxGNN 預測分數 | 0.9963 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 7 張／共 7 張） |
+| 許可證數 | 7 張（有效 7 張） |
 | 建議決策 | Hold |
 
 ---
@@ -132,11 +131,9 @@ TxGNN 模型預測它可能對**類風濕性血管炎 (Rheumatoid Vasculitis)** 
 
 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
 |-----------|-----------|---------|------|
-| 發炎性脊椎病變 (Inflammatory spondylopathy) | 99.57% | L1 | Proceed with Guardrails |
-| 多關節型幼年類風濕性關節炎 | 99.50% | L1 | Proceed with Guardrails |
-| 脊椎疾病 (Vertebral disease) | 99.16% | L4 | Research Question |
-| 尾骨過動 (Hypermobility of coccyx) | 99.63% | L5 | Hold |
-| Kummell 病 | 99.55% | L5 | Hold |
+| 脊椎疾病 (Vertebral disease) | 0.9916 | L5 | Research Question |
+| 尾骨過動 (Hypermobility of coccyx) | 0.9963 | L5 | Hold |
+| Kummell 病 | 0.9955 | L5 | Hold |
 
 發炎性脊椎病變與多關節型幼年類風濕性關節炎實質上與 etanercept 已核准的適應症（僵直性脊椎炎／軸性脊椎關節炎、幼年特發性關節炎）重疊，屬於仿單內使用而非真正的藥物再利用。若要推進，標準 TNF 抑制劑的防護包括結核病與 B 型肝炎篩檢、感染監測，以及葡萄膜炎風險與兒童族群的留意。
 ## 免責聲明

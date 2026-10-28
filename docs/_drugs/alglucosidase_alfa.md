@@ -4,7 +4,7 @@ title: Alglucosidase Alfa
 parent: 僅模型預測 (L5)
 nav_order: 36
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Alglucosidase Alfa：預測新適應症為成人多葡聚醣體病 (Adult Polyglucosan Body Disease)（證據等級 L5）。原適應症：肝醣儲積症（glycogen storage disease）"
 monitor_inn: "ALGLUCOSIDASE ALFA"
@@ -14,7 +14,7 @@ predicted_indications: ["adult polyglucosan body disease", "congenital entropion
 # Alglucosidase Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**成人多葡聚醣體病 (Adult Polyglucosan Bod
 |------|------|
 | 原適應症 | 肝醣儲積症（glycogen storage disease） |
 | 預測新適應症 | 成人多葡聚醣體病 (Adult Polyglucosan Body Disease) |
-| TxGNN 預測分數 | 99.47% |
+| TxGNN 預測分數 | 0.9947 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -69,9 +69,7 @@ APBD 由肝醣分支酶（GBE1）缺乏引起，導致分支不良的多葡聚�
 
 | 排名 | 預測疾病 | 分數 | 評估 |
 |------|---------|------|------|
-| 2 | 肝醣分支酶缺乏所致肝醣儲積症（先天神經肌肉型，GSD IV） | 99.32% | 缺陷酵素不同，僅疾病類別相近，Hold |
-| 3 | 肝醣分支酶缺乏所致肝醣儲積症（致死性周產期神經肌肉型） | 99.32% | 同上，且病程嚴重，Hold |
-| 4–10 | 先天性眼瞼內翻、眼瞼外翻、先天性 Horner 症候群、上睑下垂-聲帶麻痺症候群等眼部／先天性畸形 | 99.10%–99.22% | 無合理機轉，推測為模型假象，Hold |
+| 4–10 | 先天性眼瞼內翻、眼瞼外翻、先天性 Horner 症候群、上睑下垂-聲帶麻痺症候群等眼部／先天性畸形 | 0.9910–0.9922 | 無合理機轉，推測為模型假象，Hold |
 
 ---
 
@@ -107,7 +105,7 @@ APBD 由肝醣分支酶（GBE1）缺乏引起，導致分支不良的多葡聚�
 
 **理由：**
 - 所有預測適應症都只有模型分數，沒有臨床試驗與文獻佐證（L5）。
-- 排名第一的 APBD 在機轉上有疑慮（酵素難以進入腦與細胞質），其餘多為不同酵素缺陷或與肝醣代謝無關的先天性畸形，模型分數高很可能來自圖譜上的類別相近性。
+- 排名第一的 APBD 在機轉上有疑慮（酵素難以進入腦與細胞質），其餘多為不同酵素缺陷或與肝醣代謝無關的先天性畸形，模型分數高的原因是分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 
 **若要推進需要：**
 - 取得詳細的作用機轉資料（MOA），並評估酵素能否到達神經組織與細胞質。

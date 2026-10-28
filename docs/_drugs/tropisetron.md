@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tropisetron
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 914
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Tropisetron：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L4）。原適應症：化療後噁心與嘔吐"
 monitor_inn: "TROPISETRON"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
 ---
 
 # Tropisetron
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 |------|------|
 | 原適應症 | 化療後噁心與嘔吐（香港許可證未載明適應症，此為藥理資料庫所述的臨床用途） |
 | 預測新適應症 | 偏頭痛 (Migraine Disorder) |
-| TxGNN 預測分數 | 99.84% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| TxGNN 預測分數 | 0.9984 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -60,9 +60,9 @@ Tropisetron 是 5-HT3 受體拮抗劑，同時也是 α7 菸鹼型受體的部�
 
 目前的支持文獻主要是 5-HT3 拮抗劑的藥理學回顧，以及一篇與抗偏頭痛藥物比較的非臨床研究。另有貓的腦膜中動脈研究顯示 5-HT 可誘發血管擴張，支持血清素參與偏頭痛的機轉，但並未直接證明 tropisetron 的作用。
 
-必須強調，**沒有任何臨床試驗**在偏頭痛患者中測試過 tropisetron。0.998 的 TxGNN 分數只是計算預測，不能取代臨床證據。
+必須強調，**沒有任何臨床試驗**在偏頭痛患者中測試過 tropisetron。0.9984 的 TxGNN 模型（深度學習）分數只是計算預測，不能取代臨床證據。
 
-其他預測適應症（伴腦幹先兆的偏頭痛、偏頭痛易感性）屬於偏頭痛的亞型或相關表型，只能從一般血清素假說推論。至於萎縮性蠕蟲狀皮膚病 (atrophoderma vermiculata) 與眉部紅斑角化症 (ulerythema ophryogenesis)，並無合理的機轉依據，可能是知識圖譜的假象。
+其他預測適應症（腦幹先兆偏頭痛）屬於偏頭痛的亞型，只能從一般血清素假說推論。至於蠕蟲狀皮膚萎縮 (atrophoderma vermiculata) 與眉部毛囊萎縮性紅斑 (ulerythema ophryogenesis)，並無合理的機轉依據；這些分數來自 TxGNN 模型（深度學習），可能只反映模型學到的相關疾病之間的相似性，並非生物學證據。
 
 ## 臨床試驗證據
 

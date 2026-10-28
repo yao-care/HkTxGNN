@@ -4,17 +4,17 @@ title: Lenvatinib
 parent: 高證據等級 (L1-L2)
 nav_order: 519
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Lenvatinib：預測新適應症為脂肪肉瘤 (Liposarcoma)（證據等級 L2）。原適應症：腎細胞癌、甲狀腺癌（腎乳突狀細胞癌、透明細胞腎癌等）"
 monitor_inn: "Lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
+description: "Lenvatinib：預測新適應症為脂肪肉瘤 (liposarcoma)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Lenvatinib
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **10** 個
+證據等級: **L2** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipom
 
 </div>
 
-## Lenvatinib：從腎細胞癌與甲狀腺癌到脂肪肉瘤
+## Lenvatinib: 脂肪肉瘤 (liposarcoma)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 腎細胞癌、甲狀腺癌（腎乳突狀細胞癌、透明細胞腎癌等） |
-| 預測新適應症 | 脂肪肉瘤 (Liposarcoma) |
-| TxGNN 預測分數 | 99.51% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 脂肪肉瘤 (liposarcoma) |
+| TxGNN 預測分數 | 0.9951 |
 | 證據等級 | L2 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold（以「研究問題」層級列管，待 Phase 2/3 資料再評估） |
 
 > 說明：本報告以預測排名第 1 的脂肪肉瘤為主要評估對象。排名第 2 以後的預測中，腎細胞癌相關項目多屬原適應症的延伸或亞型，另附於結論供參考。
@@ -148,7 +148,6 @@ Lenvatinib 為口服標靶藥物（多標靶激酶抑制劑），並非傳統細
 | 腎細胞癌（renal carcinoma，排名 7） | L1 | Proceed with Guardrails；此為已核准適應症而非真正的藥物再利用，CLEAR Phase 3 試驗支持 Lenvatinib 併用 Pembrolizumab 優於 Sunitinib。需監測高血壓、蛋白尿、肝毒性 |
 | 未分類腎細胞癌 | L2 | Proceed with Guardrails；缺乏專屬 Phase 3 資料，但有非透明細胞腎癌的 Phase 2 研究支持 |
 | Xp11.2/TFE3 融合相關腎細胞癌 | L4 | 研究問題；僅有尚未開始招募的 Phase 2 試驗 |
-| 腎細胞癌合併神經母細胞瘤、卵巢黏液樣脂肪肉瘤、兒童腎細胞癌、血管脂肪瘤、家族性自發性氣胸、內分泌-腦-骨發育不良症候群 | L5 | Hold；僅有模型預測，無臨床試驗或文獻，其中部分疑為知識圖譜的關聯假象 |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

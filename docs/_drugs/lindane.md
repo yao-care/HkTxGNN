@@ -6,9 +6,9 @@ nav_order: 533
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Lindane：預測新適應症為頸部神經母細胞瘤 (Cervical Neuroblastoma)（證據等級 L5）。原適應症：疥瘡、挪威疥瘡、頭蝨、陰蝨、蟎感染"
 monitor_inn: "Lindane"
 predicted_indications: ["cervical neuroblastoma", "benign neoplasm of tongue", "epiglottis neoplasm", "odontogenic cyst", "pre-malignant neoplasm", "benign neoplasm of hypopharynx", "schwannoma of jugular foramen", "cystic neoplasm", "benign neoplasm of buccal mucosa", "inner ear neoplasm"]
+description: "Lindane：預測新適應症為頸部神經母細胞瘤 (cervical neuroblastoma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Lindane
@@ -33,7 +33,7 @@ predicted_indications: ["cervical neuroblastoma", "benign neoplasm of tongue", "
 
 </div>
 
-## Lindane：從疥瘡與蝨感染到頸部神經母細胞瘤
+## Lindane: 頸部神經母細胞瘤 (cervical neuroblastoma)
 {: .text-alpha }
 
 ## 一句話總結
@@ -45,19 +45,19 @@ TxGNN 模型預測它可能對**頸部神經母細胞瘤 (Cervical Neuroblastoma
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 疥瘡、挪威疥瘡、頭蝨、陰蝨、蟎感染（香港許可證未載明適應症文字，此處依知識圖譜資料） |
-| 預測新適應症 | 頸部神經母細胞瘤 (Cervical Neuroblastoma) |
-| TxGNN 預測分數 | 99.91% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 頸部神經母細胞瘤 (cervical neuroblastoma) |
+| TxGNN 預測分數 | 0.9991 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
 目前缺乏詳細的作用機轉資料可供直接引用。根據已知資訊，Lindane 是 GABA-A 受體（氯離子通道）拮抗劑，作為殺體外寄生蟲藥使用，其作用是干擾寄生蟲的神經傳導。
 
-**坦白說，這個預測的合理性很低。** 目前找不到 GABA-A 氯離子通道拮抗作用與神經母細胞瘤之間的機轉關聯。99.91% 的分數僅是知識圖譜的推算結果，可能反映圖譜中節點的鄰近關係，而非真正的藥理關係。
+**坦白說，這個預測的合理性很低。** 目前找不到 GABA-A 氯離子通道拮抗作用與神經母細胞瘤之間的機轉關聯。0.9991 的分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 
 此外，Lindane 已知有神經毒性（可能引發癲癇）和致癌性疑慮（IARC 將其歸類為對人類致癌，與非何杰金氏淋巴瘤相關），用於腫瘤情境在原則上並不適當。
 

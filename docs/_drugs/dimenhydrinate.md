@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dimenhydrinate
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 281
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Dimenhydrinate：預測新適應症為過敏性蕁麻疹 (Allergic Urticaria)（證據等級 L4）。原適應症：中樞神經源性眩暈、暈動症"
 monitor_inn: "DIMENHYDRINATE"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
+description: "Dimenhydrinate：預測新適應症為過敏性蕁麻疹 (allergic urticaria)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Dimenhydrinate
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["allergic urticaria", "cold urticaria"]
 
 </div>
 
-## Dimenhydrinate：從暈動症與中樞性眩暈到過敏性蕁麻疹
+## Dimenhydrinate: 過敏性蕁麻疹 (allergic urticaria)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,11 +46,11 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 中樞神經源性眩暈、暈動症（來自知識圖譜，香港許可證未載明適應症文字） |
-| 預測新適應症 | 過敏性蕁麻疹 (Allergic Urticaria) |
-| TxGNN 預測分數 | 99.74% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 過敏性蕁麻疹 (allergic urticaria) |
+| TxGNN 預測分數 | 0.9974 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -58,9 +58,9 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 
 Dimenhydrinate 是 diphenhydramine（第一代 H1 抗組織胺）與 8-chlorotheophylline 的鹽類。Diphenhydramine 成分可阻斷組織胺 H1 受體，而該受體正是介導蕁麻疹風團與紅斑反應的關鍵，因此機轉上具生物學合理性，也與第一代抗組織胺用於蕁麻疹的類別用法一致。
 
-不過，目前缺乏詳細的作用機轉資料。Dimenhydrinate 現有適應症（暈動症、眩暈）主要仰賴中樞抗膽鹼與抗組織胺作用，且目前沒有針對 dimenhydrinate 本身用於蕁麻疹的資料。0.997 的預測分數僅為計算模型的推論。
+不過，目前缺乏詳細的作用機轉資料。Dimenhydrinate 現有適應症（暈動症、眩暈）主要仰賴中樞抗膽鹼與抗組織胺作用，且目前沒有針對 dimenhydrinate 本身用於蕁麻疹的資料。0.9974 的預測分數僅為計算模型的推論。
 
-另一個預測適應症為**寒冷性蕁麻疹 (Cold Urticaria)**（分數 99.24%，證據等級 L5）。其推論同樣僅基於抗組織胺類別，尚無任何 dimenhydrinate 或 diphenhydramine 的專屬資料，建議視為次要探索方向。
+另一個預測適應症為**寒冷性蕁麻疹 (Cold Urticaria)**（分數 0.9924，證據等級 L5）。其推論同樣僅基於抗組織胺類別，尚無任何 dimenhydrinate 或 diphenhydramine 的專屬資料，建議視為次要探索方向。
 
 ## 臨床試驗證據
 

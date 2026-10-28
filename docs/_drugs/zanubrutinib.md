@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Zanubrutinib
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 949
-evidence_level: L4
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Zanubrutinib：預測新適應症為骨髓性白血病 (Myeloid Leukemia)（證據等級 L4）。原適應症：被套細胞淋巴瘤、B 細胞腫瘤、淋巴肉瘤"
+evidence_level: L5
+indication_count: 6
 monitor_inn: "ZANUBRUTINIB"
-predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma"]
+predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
+last_modified_at: 2026-10-23
+description: "Zanubrutinib：預測新適應症為骨髓性白血病（證據等級 L5）。原適應症：香港許可證未登載適應症文字"
 ---
 
 # Zanubrutinib
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,66 +33,53 @@ predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable en
 
 </div>
 
-## Zanubrutinib：從被套細胞淋巴瘤到骨髓性白血病
+## Zanubrutinib：從套細胞淋巴瘤到骨髓性白血病
 {: .text-alpha }
 
 ## 一句話總結
 
-Zanubrutinib 是選擇性 BTK 抑制劑，原本用於被套細胞淋巴瘤等 B 細胞惡性腫瘤。
-TxGNN 模型預測它可能對**骨髓性白血病 (Myeloid Leukemia)** 有效，但目前僅有 **1 個間接相關的臨床試驗**（並非 zanubrutinib 本身的試驗）和**數篇以 CLL/SLL 為主的文獻**，沒有直接證據顯示它對骨髓性白血病有效。
-
----
+Zanubrutinib 是一種 BTK 抑制劑，知識圖譜中記錄的相關疾病包括套細胞淋巴瘤、B 細胞腫瘤與淋巴肉瘤。
+TxGNN 模型預測它可能對**骨髓性白血病 (myeloid leukemia)** 有效，但目前**沒有直接研究此疾病的臨床試驗或文獻**，證據僅屬模型預測層級。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 被套細胞淋巴瘤、B 細胞腫瘤、淋巴肉瘤（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 骨髓性白血病 (Myeloid Leukemia) |
-| TxGNN 預測分數 | 99.65% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 原適應症 | 香港許可證未登載適應症文字；知識圖譜中記錄的關聯為套細胞淋巴瘤、B 細胞腫瘤、淋巴肉瘤（屬知識圖譜關聯，非核准適應症） |
+| 預測新適應症 | 骨髓性白血病 |
+| TxGNN 預測分數 | 0.9965 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，zanubrutinib 是選擇性 BTK（Bruton 酪胺酸激酶）抑制劑，BTK 訊號在 B 細胞惡性腫瘤中處於活化狀態，這也是它在被套細胞淋巴瘤、CLL/SLL 等疾病中有效的基礎。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Zanubrutinib 是選擇性、共價結合的 BTK 抑制劑，BTK 訊號在 B 細胞惡性腫瘤（慢性淋巴球性白血病/小淋巴球淋巴瘤、套細胞淋巴瘤、華氏巨球蛋白血症）中已有文獻支持其角色。
 
-骨髓性白血病與 B 細胞惡性腫瘤的關聯較不直接。部分研究曾報告 BTK 的表現與訊號傳遞存在於某些 AML／骨髓性疾病情境中，這是支持預測的可能機轉線索，但並不足以證明療效。
-
-需特別強調：0.996 的 TxGNN 分數只是計算模型的預測。目前提供的文獻主要談 CLL/SLL、華氏巨球蛋白血症與 BTK 抑制劑的安全性（B 型肝炎再活化、低免疫球蛋白血症），並未顯示 zanubrutinib 在骨髓性白血病中的療效。
-
----
+至於骨髓性白血病，證據是間接的。有研究提到 BTK 在骨髓系細胞中表現，可能與急性骨髓性白血病細胞的存活及微環境訊號有關，但這只是假說，本報告所整理的資料並未證實。TxGNN 的高分（0.9965）很可能來自藥物與白血病、淋巴惡性腫瘤的整體關聯，不能解讀為對骨髓性白血病有專一支持。現有資料並未顯示 zanubrutinib 在骨髓性白血病中有活性。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT05665530](https://clinicaltrials.gov/study/NCT05665530) | Phase 1 | 完成 | 86 | 評估 CDK9 抑制劑 PRT2527 單用或併用 zanubrutinib／venetoclax 於復發／難治性血液惡性腫瘤的安全性與初步療效；主體並非 zanubrutinib 試驗，無法直接支持骨髓性白血病適應症 |
-
----
+| [NCT05665530](https://clinicaltrials.gov/study/NCT05665530) | Phase 1 | 完成 | 86 | 評估 CDK9 抑制劑 PRT2527 單用或與 zanubrutinib、venetoclax 合併，用於復發/難治性血液惡性腫瘤的安全性與初步療效；zanubrutinib 僅為合併用藥，無法直接佐證其對骨髓性白血病的效果 |
 
 ## 文獻證據
 
+以下文獻皆未直接研究骨髓性白血病，主要涵蓋 B 細胞惡性腫瘤（如 CLL/SLL）。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [39647999](https://pubmed.ncbi.nlm.nih.gov/39647999/) | 2025 | RCT | J Clin Oncol | SEQUOIA 試驗 5 年追蹤：zanubrutinib 對比 bendamustine+rituximab 用於初治 CLL/SLL |
-| [36400069](https://pubmed.ncbi.nlm.nih.gov/36400069/) | 2023 | Cohort | Lancet Haematol | 第 2 期單臂研究：對其他 BTK 抑制劑不耐受的 B 細胞惡性腫瘤患者使用 zanubrutinib |
-| [40334067](https://pubmed.ncbi.nlm.nih.gov/40334067/) | 2025 | Cohort | Blood Adv | 對 ibrutinib／acalabrutinib 不耐受的 CLL/SLL 患者耐受性良好且有效（更新結果） |
-| [40829104](https://pubmed.ncbi.nlm.nih.gov/40829104/) | 2026 | Cohort | Blood Adv | 跨試驗分析：del(17p)／TP53 異常 CLL/SLL 患者的療效與安全性 |
-| [34959482](https://pubmed.ncbi.nlm.nih.gov/34959482/) | 2021 | Review | Pharmaceutics | 慢性白血病（CML、CLL）的 TKI 治療回顧 |
-| [36402930](https://pubmed.ncbi.nlm.nih.gov/36402930/) | 2023 | Review | Leukemia | BTK 抑制劑用於華氏巨球蛋白血症的處置 |
-| [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/) | 2023 | Review | Clin Lymphoma Myeloma Leuk | 接受 BTK 抑制劑患者的 B 型肝炎病毒再活化 |
-| [42192981](https://pubmed.ncbi.nlm.nih.gov/42192981/) | 2026 | Review | Cancers | CLL 中 BTK 抑制劑的免疫矛盾：低免疫球蛋白血症與感染風險 |
-| [38288815](https://pubmed.ncbi.nlm.nih.gov/38288815/) | 2024 | Review | Anti-cancer Agents Med Chem | FDA 核准抗癌藥物（2018–2021）合成方法回顧 |
-| [36325357](https://pubmed.ncbi.nlm.nih.gov/36325357/) | 2022 | Case report | Front Immunol | 華氏巨球蛋白血症合併 B-ALL 的罕見病例 |
-
-上述文獻均未直接證明 zanubrutinib 對骨髓性白血病有效。
-
----
+| [39647999](https://pubmed.ncbi.nlm.nih.gov/39647999/) | 2025 | RCT | J Clin Oncol | SEQUOIA 試驗 5 年追蹤：初治 CLL/SLL 中 zanubrutinib 對比 bendamustine + rituximab |
+| [36400069](https://pubmed.ncbi.nlm.nih.gov/36400069/) | 2023 | 單臂 Phase 2 試驗 | Lancet Haematol | 對先前 BTK 抑制劑不耐受的 B 細胞惡性腫瘤患者，評估 zanubrutinib 的安全性與活性 |
+| [40334067](https://pubmed.ncbi.nlm.nih.gov/40334067/) | 2025 | 臨床試驗更新 | Blood Adv | 對 ibrutinib/acalabrutinib 不耐受的 CLL/SLL，zanubrutinib 耐受性與療效更新 |
+| [40829104](https://pubmed.ncbi.nlm.nih.gov/40829104/) | 2026 | 合併分析 | Blood Adv | 具 del(17p)/TP53 異常的 CLL/SLL 中，zanubrutinib 跨試驗療效與安全性分析 |
+| [34959482](https://pubmed.ncbi.nlm.nih.gov/34959482/) | 2021 | Review | Pharmaceutics | 慢性白血病（CML、CLL）酪胺酸激酶抑制劑治療回顧 |
+| [36402930](https://pubmed.ncbi.nlm.nih.gov/36402930/) | 2023 | Review | Leukemia | BTK 抑制劑用於華氏巨球蛋白血症的治療 |
+| [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/) | 2023 | Review/安全性分析 | Clin Lymphoma Myeloma Leuk | 接受 BTK 抑制劑患者的 B 型肝炎病毒再活化 |
+| [42192981](https://pubmed.ncbi.nlm.nih.gov/42192981/) | 2026 | Review | Cancers | CLL 中 BTK 抑制劑的低免疫球蛋白血症與感染風險 |
+| [36325357](https://pubmed.ncbi.nlm.nih.gov/36325357/) | 2022 | Case report | Front Immunol | 華氏巨球蛋白血症併 B 細胞急性淋巴母細胞白血病的罕見病例 |
 
 ## 香港上市資訊
 
@@ -100,54 +87,41 @@ TxGNN 模型預測它可能對**骨髓性白血病 (Myeloid Leukemia)** 有效�
 |---------|------|------|-----------|
 | HK-67529 | BRUKINSA CAPSULES 80MG | 未載明 | 未載明 |
 
----
-
 ## 細胞毒性
+
+Zanubrutinib 屬標靶藥物（BTK 抑制劑），非傳統細胞毒性化療藥物。
 
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 標靶藥物（BTK 抑制劑），非傳統細胞毒性化療藥物 |
+| 細胞毒性分類 | 標靶藥物（BTK 抑制劑） |
 | 骨髓抑制風險 | 請參考原廠仿單的警語與注意事項 |
 | 致吐性分級 | 請參考原廠仿單的警語與注意事項 |
-| 監測項目 | 請參考原廠仿單；一般建議監測血球計數（CBC）、肝功能，並留意感染與 B 型肝炎再活化 |
-| 處置防護 | 請參考原廠仿單 |
-
----
+| 監測項目 | 請參考原廠仿單的警語與注意事項 |
+| 處置防護 | 請參考原廠仿單的警語與注意事項 |
 
 ## 安全性考量
 
-- **藥物交互作用**：資料庫共收錄 100 筆交互作用，其中列為 **Major（嚴重）** 的包括：
-  - Aprepitant
-  - Acetylsalicylic acid（阿斯匹靈）
-  - Dexamethasone
-  - Clarithromycin
-  - Cobicistat
-  - Deferasirox
-  - Deferiprone
-  - Samarium (153Sm) lexidronam
-  - Ibritumomab tiuxetan
-  - Tositumomab (I-131)
+- **藥物交互作用**：已查得 100 筆交互作用紀錄，以下為部分重要項目：
+  - 嚴重（Major）：Aprepitant、乙醯水楊酸（阿斯匹靈）、Dexamethasone、Clarithromycin、Cobicistat、Deferasirox、Deferiprone、Ibritumomab tiuxetan 等
+  - 中度（Moderate）：Cimetidine、Miconazole、Clotrimazole、Fenfluramine 等
+- **其他注意事項**：文獻指出 BTK 抑制劑可能與 B 型肝炎病毒再活化、低免疫球蛋白血症及感染風險增加有關。
 
-  另有 Moderate（中度）交互作用，如 Cimetidine、Miconazole、Clotrimazole 等。
-- **文獻提示的風險**：BTK 抑制劑與 B 型肝炎病毒再活化、低免疫球蛋白血症及感染風險增加有關。
-
-其他警語與禁忌症請參考原廠仿單。
-
----
+其餘警語與禁忌症資料，請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高（99.65%），但屬純計算預測；唯一的臨床試驗並非 zanubrutinib 試驗，文獻也集中在 B 細胞惡性腫瘤，缺乏骨髓性白血病的直接證據。
-- 作用機轉資料與香港仿單的警語／禁忌資料均缺漏，目前無法進入安全性篩選階段。
+- 沒有任何研究直接評估 zanubrutinib 於骨髓性白血病，唯一相關試驗中它僅是合併用藥，故證據等級為 L5，僅有模型預測。
+- 高 TxGNN 分數很可能反映藥物與淋巴惡性腫瘤的關聯，而非骨髓性白血病專一的證據。
 
 **若要推進需要：**
-- 取得 DrugBank 的作用機轉（MOA）資料
-- 下載並解析香港衛生署仿單，補齊警語、禁忌與核准適應症
-- 蒐集 BTK 在骨髓性白血病（如 AML）中的前臨床或機轉研究，以及 zanubrutinib 的直接療效證據
-- 釐清並篩選具體的骨髓性白血病亞型，再評估是否設計早期臨床試驗
+- 補充 BTK 在骨髓性白血病（含 AML 亞型）的機轉與前臨床證據
+- 取得 zanubrutinib 於骨髓性白血病的直接臨床或前臨床研究資料
+- 取得香港原廠仿單的核准適應症、警語與禁忌症
+- 釐清 NCT05665530 各組別設計，確認 zanubrutinib 的角色
+- 排定合併用藥（如強效 CYP3A 抑制劑、抗血小板藥物）的交互作用管理策略
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

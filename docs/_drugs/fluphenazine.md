@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Fluphenazine：預測新適應症為視網膜失養症…（證據等級 L5）。原適應症：精神病性疾患、思覺失調症、情感性思覺失調症"
+last_modified_at: 2026-10-28
 monitor_inn: "fluphenazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "syndromic myopia", "myopia X-linked", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+description: "Fluphenazine：預測新適應症為視網膜失養症，伴或不伴眼外異常 (retinal dystrophy with or without extraocular anomalies)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Fluphenazine
@@ -33,7 +33,7 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-## Fluphenazine：從精神病性疾患到視網膜失養症（TxGNN 首位預測）
+## Fluphenazine: 視網膜失養症，伴或不伴眼外異常 (retinal dystrophy with or without extraocular anomalies)
 {: .text-alpha }
 
 > 說明：TxGNN 分數最高的預測（視網膜失養症）完全沒有實證支持。唯一有文獻的預測是**躁期雙相情感障礙**，因此本報告以首位預測為主，並在文末補充此項。
@@ -51,12 +51,12 @@ TxGNN 模型預測它可能對**視網膜失養症（伴或不伴眼外異常）
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 精神病性疾患、思覺失調症、情感性思覺失調症（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 視網膜失養症，伴或不伴眼外異常 (Retinal dystrophy with or without extraocular anomalies) |
-| TxGNN 預測分數 | 99.99% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 視網膜失養症，伴或不伴眼外異常 (retinal dystrophy with or without extraocular anomalies) |
+| TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ---
@@ -65,7 +65,7 @@ TxGNN 模型預測它可能對**視網膜失養症（伴或不伴眼外異常）
 
 目前缺乏詳細的作用機轉資料。Fluphenazine 一般被認為是多巴胺 D2 受體拮抗劑，但這點並未包含在本報告所整理的資料中。
 
-視網膜失養症屬於遺傳異質性的疾病，多巴胺 D2 拮抗劑在其中並無已知的疾病修飾作用。因此，99.99% 的高分僅是模型輸出，機轉上找不到可支持的連結，原適應症與新適應症之間也缺乏明確關聯。
+視網膜失養症屬於遺傳異質性的疾病，多巴胺 D2 拮抗劑在其中並無已知的疾病修飾作用。因此，0.9999 的高分僅是模型輸出，機轉上找不到可支持的連結，原適應症與新適應症之間也缺乏明確關聯。
 
 其他分數相近的預測（近視相關疾病、水腦無腦畸形、先天性糖基化異常、腓骨肌萎縮症 1G 型等）同樣沒有實證，且多為遺傳或發育結構性疾病，合理性偏低。
 
@@ -125,7 +125,7 @@ TxGNN 模型預測它可能對**視網膜失養症（伴或不伴眼外異常）
 | 項目 | 內容 |
 |------|------|
 | 預測新適應症 | 躁期雙相情感障礙 (Manic bipolar affective disorder) |
-| TxGNN 預測分數 | 99.98% |
+| TxGNN 預測分數 | 0.9998 |
 | 證據等級 | L4 |
 | 建議決策 | Research Question（值得作為研究問題，尚不宜臨床推進） |
 

@@ -4,17 +4,17 @@ title: Isotretinoin
 parent: 僅模型預測 (L5)
 nav_order: 491
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Isotretinoin：預測新適應症為惡性腎血管性高血壓 (malignant renovascular hypertension)（證據等級 L5）。原適應症：高血壓"
 monitor_inn: "ISOTRETINOIN"
 predicted_indications: ["malignant hypertensive renal disease"]
+description: "Isotretinoin：預測新適應症為Malignant hypertensive renal disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Isotretinoin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["malignant hypertensive renal disease"]
 
 </div>
 
-## Isotretinoin：從高血壓到惡性腎血管性高血壓
+## Isotretinoin: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## 一句話總結
 
-Isotretinoin 在本次資料中的原適應症為高血壓（hypertensive disorder / hypertension），但此項來自知識圖譜的適應症邊，與該藥的臨床用途不符。該藥是全身性類視黃醇（retinoid），實務上主要用於嚴重痤瘡。
-TxGNN 模型預測它可能對**惡性腎血管性高血壓 (malignant renovascular hypertension)** 有效，但目前有 **0 個臨床試驗**和 **0 篇文獻**支持，僅屬模型預測。
+該藥是全身性類視黃醇（retinoid），實務上主要用於嚴重痤瘡。
 
 ---
 
@@ -47,15 +46,15 @@ TxGNN 模型預測它可能對**惡性腎血管性高血壓 (malignant renovascu
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 高血壓（hypertensive disorder / hypertension；來自知識圖譜，與實際臨床用途存疑） |
-| 預測新適應症 | 惡性腎血管性高血壓 (malignant renovascular hypertension) |
-| TxGNN 預測分數 | 99.01% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Malignant hypertensive renal disease |
+| TxGNN 預測分數 | 0.9901 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 13 張 |
+| 香港上市 | 上市中（有效許可證 13 張／共 13 張） |
+| 許可證數 | 13 張（有效 13 張） |
 | 建議決策 | Hold |
 
-另有一項預測適應症為**惡性高血壓性腎病 (malignant hypertensive renal disease)**，分數同為 99.01%，同樣沒有任何臨床試驗或文獻。兩項預測很可能來自圖譜中相近的區域，不應視為彼此獨立的證據。
+另有一項預測適應症為**惡性高血壓性腎病 (malignant hypertensive renal disease)**，分數同為 0.9901，同樣沒有任何臨床試驗或文獻。
 
 ---
 

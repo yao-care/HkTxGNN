@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 762
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
-description: "Regadenoson：預測新適應症為過敏性休克 (Anaphylaxis)（證據等級 L5）。原適應症：心肌灌注造影"
+last_modified_at: 2026-10-28
 monitor_inn: "REGADENOSON"
 predicted_indications: ["anaphylaxis", "food-dependent exercise-induced anaphylaxis", "esotropia", "pseudoallergy"]
+description: "Regadenoson：預測新適應症為過敏性休克 (anaphylaxis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Regadenoson
@@ -33,7 +33,7 @@ predicted_indications: ["anaphylaxis", "food-dependent exercise-induced anaphyla
 
 </div>
 
-## Regadenoson：從心肌灌注造影的藥物負荷劑到過敏性休克（Anaphylaxis）
+## Regadenoson: 過敏性休克 (anaphylaxis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,15 +46,15 @@ TxGNN 模型預測它可能對**過敏性休克 (Anaphylaxis)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 心肌灌注造影（診斷用藥；依藥理資料，香港許可證未載明適應症文字） |
-| 預測新適應症 | 過敏性休克 (Anaphylaxis) |
-| TxGNN 預測分數 | 99.85% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 過敏性休克 (anaphylaxis) |
+| TxGNN 預測分數 | 0.9985 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
-其他預測的適應症包括：食物依賴性運動誘發過敏性休克（99.74%）、內斜視（99.12%）、假性過敏（99.12%）。這些同樣沒有任何臨床試驗或文獻支持。
+其他預測的適應症包括：食物依賴性運動誘發過敏性休克（0.9974）、內斜視（0.9912）、假性過敏（0.9912）。這些同樣沒有任何臨床試驗或文獻支持。
 
 ## 為什麼這個預測合理？
 
@@ -65,9 +65,9 @@ TxGNN 模型預測它可能對**過敏性休克 (Anaphylaxis)** 有效，
 但這個連結並不穩固：
 - 腺苷受體的作用高度依賴情境，A1、A2B、A3 受體反而可能促進肥大細胞脫顆粒與支氣管收縮。
 - Regadenoson 的血管擴張與降血壓效應，可能加重過敏性休克的血流動力學不穩定。
-- 0.998 的分數僅是計算預測，沒有任何試驗或文獻佐證。
+- 0.9985 的分數僅是計算預測，沒有任何試驗或文獻佐證。
 
-其餘預測中，食物依賴性運動誘發過敏性休克與假性過敏的理由相同；前者分數可能只是反映它在知識圖譜中與過敏性休克節點相近。內斜視則看不出合理的機轉關聯，高分很可能是圖譜運算的假象。
+其餘預測中，食物依賴性運動誘發過敏性休克與假性過敏的理由相同；前者分數可能只是反映 TxGNN 模型（深度學習）學到的、與過敏性休克相近疾病之間的相似性，並非生物學證據。內斜視則看不出合理的機轉關聯，其高分同樣來自 TxGNN 模型（深度學習），可能只是反映模型學到的疾病間相似性，並非生物學證據。
 
 ## 臨床試驗證據
 

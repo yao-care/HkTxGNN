@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Montelukast
-parent: 僅模型預測 (L5)
+parent: 高證據等級 (L1-L2)
 nav_order: 597
-evidence_level: L5
-indication_count: 5
+evidence_level: L1
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Montelukast：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L5）。原適應症：過敏性鼻炎、血管運動性鼻炎、內因性氣喘、過敏性氣喘"
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
+description: "Montelukast：預測新適應症為支氣管炎 (bronchitis)（證據等級 L1）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Montelukast
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L1** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease
 
 </div>
 
-## Montelukast：從過敏性鼻炎與氣喘到支氣管炎
+## Montelukast: 支氣管炎 (bronchitis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,11 +47,11 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，目前有 *
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、內因性氣喘、過敏性氣喘（香港許可證未載明適應症文字，此為知識圖譜所列） |
-| 預測新適應症 | 支氣管炎 (Bronchitis) |
-| TxGNN 預測分數 | 99.95% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 支氣管炎 (bronchitis) |
+| TxGNN 預測分數 | 0.9995 |
 | 證據等級 | L1（僅依規則計：有已完成的 Phase 3 RCT；但該 Phase 3 試驗針對 RSV 細支氣管炎，與支氣管炎並不相同，實際強度宜視為偏弱） |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -145,7 +145,6 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，目前有 *
 
 ---
 
-*補充說明：資料中排名第 3 的「氣喘」屬現有核准適應症，並非真正的藥物再利用；排名第 5 的「asthma-related traits, susceptibility to」為遺傳易感性表型，無臨床證據，建議 Hold。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

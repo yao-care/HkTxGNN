@@ -4,17 +4,17 @@ title: Fluticasone Furoate
 parent: 僅模型預測 (L5)
 nav_order: 396
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Fluticasone Furoate：預測新適應症為異位性皮膚炎 (Atopic Eczema)（證據等級 L5）。原適應症：氣喘、過敏性氣喘、過敏性鼻炎、血管運動性鼻炎"
+indication_count: 7
 monitor_inn: "FLUTICASONE FUROATE"
-predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis"]
+predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]
+last_modified_at: 2026-10-23
+description: "Fluticasone Furoate：預測新適應症為異位性皮膚炎 (Atopic Eczema)（證據等級 L5）。原適應症：氣喘、過敏性氣喘、過敏性鼻炎、血管運動性鼻炎"
 ---
 
 # Fluticasone Furoate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,99 +38,74 @@ predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacryl
 
 ## 一句話總結
 
-Fluticasone furoate 是一種吸入／鼻用皮質類固醇，原本用於氣喘與過敏性鼻炎。
-TxGNN 模型預測它可能對**異位性皮膚炎 (Atopic Eczema)** 有效，但目前**沒有相關臨床試驗**，且僅有 **2 篇間接文獻**（一篇安全性回顧、一篇病例報告），證據僅止於模型預測階段。
-
----
+Fluticasone furoate 是一種吸入及鼻用皮質類固醇，知識圖譜記錄的使用方向為氣喘與過敏性鼻炎。
+TxGNN 模型預測它可能對**異位性皮膚炎 (Atopic Eczema)** 有效，但目前**沒有臨床試驗**，也沒有直接研究此藥用於該疾病的文獻，僅有 2 篇間接相關文獻，屬於模型預測階段。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 氣喘、過敏性氣喘、過敏性鼻炎、血管運動性鼻炎（來自知識圖譜，香港許可證未載明適應症文字） |
+| 原適應症 | 氣喘、過敏性氣喘、過敏性鼻炎、血管運動性鼻炎（知識圖譜記錄；香港許可證資料未載明適應症文字） |
 | 預測新適應症 | 異位性皮膚炎 (Atopic Eczema) |
-| TxGNN 預測分數 | 99.98% |
+| TxGNN 預測分數 | 0.9998 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 6 張 |
+| 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
+| 許可證數 | 6 張（有效 6 張） |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，fluticasone furoate 屬於糖皮質素受體促效劑類的皮質類固醇，具有抗發炎活性，其在氣喘與過敏性鼻炎等過敏性發炎疾病中的療效已被證實，機轉上可能適用於異位性皮膚炎。
+目前缺乏詳細的作用機轉資料。根據已知資訊，fluticasone furoate 屬於高效價糖皮質激素（皮質類固醇），具抗發炎與免疫抑制作用。在氣喘與過敏性鼻炎中，它透過降低氣道與鼻腔的過敏性發炎發揮作用。
 
-局部外用皮質類固醇本來就是異位性皮膚炎的標準治療，因此在藥物類別層面有合理性。過敏性鼻炎、氣喘與異位性皮膚炎同屬過敏體質（atopic）疾病，常合併出現。
+局部皮質類固醇是異位性皮膚炎的標準治療之一，因此在藥物類別層面，預測有一定合理性。過敏性鼻炎、氣喘與異位性皮膚炎常同時出現，同屬過敏性疾病。
 
-不過需要強調：這只是類別層級的推論。目前沒有任何資料直接評估 fluticasone furoate 用於異位性皮膚炎，且香港現有劑型為鼻用噴霧與吸入粉劑，並非皮膚外用劑型，給藥途徑的相容性尚未釐清。高分的 TxGNN 預測（99.98%）僅是模型輸出，不等同臨床證據。
-
----
+不過，香港上市的劑型為鼻用噴劑與吸入劑，資料中沒有皮膚外用劑型，也沒有此藥用於皮膚炎的試驗。TxGNN 的高分是計算預測，不等同臨床證據。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
+
+下列兩篇文獻僅間接相關，未測試此藥用於異位性皮膚炎，因此證據等級定為 L5。
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Review | Neuroimmunomodulation | 探討鼻用皮質類固醇對下視丘－腦下垂體－腎上腺軸的抑制，屬安全性議題，並非異位性皮膚炎療效證據 |
-| [40066386](https://pubmed.ncbi.nlm.nih.gov/40066386/) | 2025 | Case report | Indian J Otolaryngol Head Neck Surg | 自體免疫背景患者的過敏原免疫治療病例，與本藥療效無直接關聯 |
-
-以上兩篇文獻皆未直接評估 fluticasone furoate 對異位性皮膚炎的療效。
-
----
+| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Review | Neuroimmunomodulation | 探討鼻用皮質類固醇對下視丘-腦下垂體-腎上腺軸的抑制及其評估方法，提及過敏性鼻炎常與氣喘、異位性皮膚炎並存 |
+| [40066386](https://pubmed.ncbi.nlm.nih.gov/40066386/) | 2025 | Case report | Indian J Otolaryngol Head Neck Surg | 自體免疫背景患者接受過敏原免疫治療的個案報告，與此藥無直接關聯 |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-68739 | FLUTICASONE FUROATE NITTO NASAL SPRAY 27.5MCG/SPRAY | 鼻用噴霧劑（依品名） | 請參考原廠仿單 |
-| HK-56691 | AVAMYS NASAL SPRAY 27.5MCG/SPRAY | 鼻用噴霧劑（依品名） | 請參考原廠仿單 |
-| HK-62693 | RELVAR ELLIPTA INHALATION POWDER 100MCG/25MCG | 吸入粉劑（依品名） | 請參考原廠仿單 |
-| HK-62694 | RELVAR ELLIPTA INHALATION POWDER 200MCG/25MCG | 吸入粉劑（依品名） | 請參考原廠仿單 |
-| HK-67942 | TRELEGY ELLIPTA INHALATION POWDER 200MCG/62.5MCG/25MCG | 吸入粉劑（依品名） | 請參考原廠仿單 |
+| HK-68739 | FLUTICASONE FUROATE NITTO NASAL SPRAY 27.5MCG/SPRAY | 未載明 | 未載明 |
+| HK-56691 | AVAMYS NASAL SPRAY 27.5MCG/SPRAY | 未載明 | 未載明 |
+| HK-62693 | RELVAR ELLIPTA INHALATION POWDER 100MCG/25MCG | 未載明 | 未載明 |
+| HK-62694 | RELVAR ELLIPTA INHALATION POWDER 200MCG/25MCG | 未載明 | 未載明 |
+| HK-67942 | TRELEGY ELLIPTA INHALATION POWDER 200MCG/62.5MCG/25MCG | 未載明 | 未載明 |
 
----
+另有 1 張許可證（HK-65911，TRELEGY ELLIPTA 100MCG/62.5MCG/25MCG）未列於上表。
 
 ## 安全性考量
 
-- **知識圖譜標示的相關禁忌疾病**（非仿單原文）：麻疹、單純皰疹病毒角膜炎、腎上腺皮質功能不全／艾迪森氏症、水痘帶狀疱疹感染、黴菌感染、皮癬菌病、肺結核、高眼壓、青光眼、寄生蟲感染、感染性疾病、下呼吸道疾病、副鼻竇疾病、鼻腔疾病、上呼吸道疾病、腎上腺功能亢進、庫欣氏症候群。
-- **全身性影響**：文獻提示鼻用皮質類固醇可能造成腎上腺抑制，若擴展至皮膚用途並長期使用，需特別留意。
+- **知識圖譜記錄的禁忌關聯**（非仿單內容）：麻疹、單純疱疹病毒角膜炎、腎上腺皮質功能不全、艾迪生氏病、水痘帶狀疱疹感染、黴菌感染、皮癬菌病、肺結核、高眼壓、青光眼、寄生蟲感染、一般感染性疾病、下呼吸道疾病、副鼻竇疾病、鼻腔疾病、上呼吸道疾病、腎上腺功能亢進、庫欣氏症候群。
+- 相關文獻（PMID 19571596）提示，鼻用皮質類固醇可能與腎上腺抑制有關，長期或高劑量使用時值得留意。
 
-其餘警語與禁忌請參考原廠仿單。
-
----
+其他安全性資訊（警語、禁忌症、藥物交互作用）請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 異位性皮膚炎沒有任何臨床試驗或直接文獻支持，證據等級為 L5，僅有模型預測與類別層級的機轉推論。
-- 現有香港劑型為鼻用與吸入，不是皮膚外用，且尚無仿單層級的安全性資料可供評估。
+- 目前只有模型預測與間接文獻，沒有直接研究此藥用於異位性皮膚炎的試驗或文獻。
+- 香港上市劑型為鼻用與吸入劑，缺乏皮膚外用劑型，路徑相容性尚未確認。
 
 **若要推進需要：**
-- 搜尋並評估 fluticasone furoate（或同類外用皮質類固醇）用於異位性皮膚炎的直接臨床研究
-- 補充詳細的作用機轉（MOA）資料
-- 取得香港原廠仿單的警語與禁忌資訊
-- 釐清給藥途徑：是否需要皮膚外用劑型，以及其可及性
-- 評估長期使用的全身性風險（如腎上腺抑制）
-
----
-
-### 補充：其他預測適應症（供參考）
-
-| 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
-|-----------|-----------|---------|------|
-| 支氣管炎 (Bronchitis) | 99.89% | L4 | 研究性問題（Research Question）：僅有間接的氣喘／COPD 文獻 |
-| 接觸性皮膚炎 | 99.46% | L5 | Hold：無試驗、無文獻 |
-| 2-hydroxyethyl methacrylate 致敏 | 99.87% | L5 | Hold：無試驗、無文獻 |
-
-支氣管炎方向有稍多間接證據（含一項氣喘 RCT 及一項使用 fluticasone furoate 治療慢性咳嗽的前瞻性研究），但仍未直接針對支氣管炎，需進一步確認族群與藥物是否相符。
+- 補充作用機轉資料與香港仿單的警語及禁忌症。
+- 搜尋並評估此藥用於異位性皮膚炎的直接臨床或前臨床研究。
+- 確認給藥途徑與劑型是否適用於皮膚疾病，並評估長期皮膚使用的全身性安全性。
+- 將「atopic eczema」與「dermatitis, atopic」兩筆重複預測合併，避免重複計算。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

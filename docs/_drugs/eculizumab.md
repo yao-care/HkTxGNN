@@ -6,9 +6,9 @@ nav_order: 307
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Eculizumab：預測新適應症為週期性造血異常 (Cyclic Hematopoiesis)（證據等級 L5）。原適應症：陣發性夜間血色素尿症、視神經脊髓炎"
 monitor_inn: "ECULIZUMAB"
 predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "autosomal recessive severe congenital neutropenia due to CSF3R deficiency", "severe congenital neutropenia", "primary release disorder of platelets"]
+description: "Eculizumab：預測新適應症為週期性造血異常 (cyclic hematopoiesis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Eculizumab
@@ -33,7 +33,7 @@ predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe cong
 
 </div>
 
-## Eculizumab：從陣發性夜間血色素尿症與視神經脊髓炎到週期性造血異常（Cyclic Hematopoiesis）
+## Eculizumab: 週期性造血異常 (cyclic hematopoiesis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**週期性造血異常 (Cyclic Hematopoiesis)** �
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 陣發性夜間血色素尿症、視神經脊髓炎（許可證資料未載明核准適應症文字，此為知識圖譜所列） |
-| 預測新適應症 | 週期性造血異常 (Cyclic Hematopoiesis) |
-| TxGNN 預測分數 | 99.97% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 週期性造血異常 (cyclic hematopoiesis) |
+| TxGNN 預測分數 | 0.9997 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**週期性造血異常 (Cyclic Hematopoiesis)** �
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Eculizumab 是一種針對補體 C5 的單株抗體，可抑制末端補體路徑，在 PNH 等補體驅動的疾病中療效已被證實。
 
-然而，週期性造血異常（週期性嗜中性球低下症）主要由 *ELANE* 基因突變引起，目前沒有已確立的補體介導機轉。因此，0.9997 的高分只是知識圖譜上的關聯預測，並未獲得機轉或臨床證據支持。
+然而，週期性造血異常（週期性嗜中性球低下症）主要由 *ELANE* 基因突變引起，目前沒有已確立的補體介導機轉。因此，0.9997 的高分來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，並非生物學證據，也未獲得機轉或臨床證據支持。
 
 預測名單中的其他疾病（如各型先天性嗜中性球低下症、成人特發性嗜中性球低下症等）也有同樣情形：病因與顆粒球生成、趨化或 G-CSF 訊號有關，與 C5 抑制缺乏明確關聯。
 

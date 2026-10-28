@@ -4,17 +4,17 @@ title: Deferiprone
 parent: 中證據等級 (L3-L4)
 nav_order: 252
 evidence_level: L4
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Deferiprone：預測新適應症為肝性卟啉症 (Hepatic Porphyria)（證據等級 L4）。原適應症：含鐵血黃素沉著症、β 型地中海型貧血及相關血紅素病變"
 monitor_inn: "DEFERIPRONE"
-predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
+predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
+description: "Deferiprone：預測新適應症為肝性卟啉症 (hepatic porphyria)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Deferiprone
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **9** 個
+證據等級: **L4** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "idiopa
 
 </div>
 
-## Deferiprone：從輸血性鐵過載（地中海型貧血）到肝性卟啉症
+## Deferiprone: 肝性卟啉症 (hepatic porphyria)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**肝性卟啉症 (Hepatic Porphyria)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 含鐵血黃素沉著症、β 型地中海型貧血及相關血紅素病變（依知識圖譜資料；香港許可證未載明適應症文字） |
-| 預測新適應症 | 肝性卟啉症 (Hepatic Porphyria) |
-| TxGNN 預測分數 | 99.20% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 肝性卟啉症 (hepatic porphyria) |
+| TxGNN 預測分數 | 0.9920 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold |
 
 ---
@@ -112,7 +112,7 @@ TxGNN 模型預測它可能對**肝性卟啉症 (Hepatic Porphyria)** 有效，
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高（99.20%），但證據僅限於小鼠模型與不同卟啉症亞型的前臨床研究（L4），沒有任何人體試驗，目前僅能視為研究假說。
+- 預測分數雖高（0.9920），但證據僅限於小鼠模型與不同卟啉症亞型的前臨床研究（L4），沒有任何人體試驗，目前僅能視為研究假說。
 - 安全性資料（仿單警語與禁忌）尚未取得，無法進行安全性篩選。
 
 **若要推進需要：**

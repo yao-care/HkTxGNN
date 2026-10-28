@@ -4,17 +4,17 @@ title: Chlorobutanol
 parent: 僅模型預測 (L5)
 nav_order: 187
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Chlorobutanol：預測新適應症為勃起功能障礙 (Erectile Dysfunction)（證據等級 L5）。原適應症：香港許可證未載明核准適應症（產品品名顯示為牙痛滴劑與乳膏類）"
 monitor_inn: "Chlorobutanol"
-predicted_indications: ["erectile dysfunction (disease)", "migraine disorder", "migraine with brainstem aura", "Tourette syndrome", "trichotillomania", "attention deficit-hyperactivity disorder", "migraine with or without aura, susceptibility to", "localized pagetoid reticulosis", "faciodigitogenital syndrome", "atrophoderma vermiculata"]
+predicted_indications: ["erectile dysfunction (disease)", "migraine disorder", "migraine with brainstem aura", "Tourette syndrome", "trichotillomania", "attention deficit-hyperactivity disorder", "localized pagetoid reticulosis", "faciodigitogenital syndrome", "atrophoderma vermiculata"]
 ---
 
 # Chlorobutanol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ predicted_indications: ["erectile dysfunction (disease)", "migraine disorder", "
 
 </div>
 
-## Chlorobutanol：從（原適應症未載明）到勃起功能障礙
+## Chlorobutanol：從（原適應症未載明）到勃起功能障礙 (Erectile Dysfunction)
 {: .text-alpha }
 
 ## 一句話總結
 
 Chlorobutanol 是氯醛衍生物，具鎮靜、安眠與局部麻醉特性，主要用作防腐劑，目前在香港有 3 張有效許可證，皆為單方製劑。
-TxGNN 模型預測它可能對**勃起功能障礙 (Erectile Dysfunction)** 有效（分數 99.79%）。
+TxGNN 模型預測它可能對**勃起功能障礙 (Erectile Dysfunction)** 有效（分數 0.9979）。
 但目前**沒有任何臨床試驗或文獻**支持這個預測，僅屬模型推論。
 
 ---
@@ -50,10 +50,10 @@ TxGNN 模型預測它可能對**勃起功能障礙 (Erectile Dysfunction)** 有�
 |------|------|
 | 原適應症 | 香港許可證未載明核准適應症（產品品名顯示為牙痛滴劑與乳膏類） |
 | 預測新適應症 | 勃起功能障礙 (Erectile Dysfunction) |
-| TxGNN 預測分數 | 99.79% |
+| TxGNN 預測分數 | 0.9979 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ---
@@ -62,21 +62,20 @@ TxGNN 模型預測它可能對**勃起功能障礙 (Erectile Dysfunction)** 有�
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Chlorobutanol 是氯醛衍生物，具鎮靜、安眠與局部麻醉作用，臨床上主要作為製劑的防腐劑。
 
-現有資料中，沒有任何機轉路徑能把 Chlorobutanol 與勃起功能連結起來。0.998 的高分是知識圖譜的計算結果，不等於藥理上的合理性，也缺乏臨床或文獻佐證。因此目前不能認為這個預測有實質支持。
+現有資料中，沒有任何機轉路徑能把 Chlorobutanol 與勃起功能連結起來。0.9979 的高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據，不等於藥理上的合理性，也缺乏臨床或文獻佐證。因此目前不能認為這個預測有實質支持。
 
 其他預測適應症同樣停留在模型層級，且都沒有試驗或文獻：
 
 | 排名 | 預測適應症 | TxGNN 分數 | 備註 |
 |------|-----------|-----------|------|
-| 2 | 偏頭痛 (Migraine Disorder) | 99.71% | 鎮靜或中樞抑制作用理論上可能影響頭痛症狀，但屬推測 |
-| 3 | 腦幹先兆偏頭痛 | 99.58% | 可能源自偏頭痛節點的相似性，無獨立證據 |
-| 4 | 妥瑞氏症 (Tourette Syndrome) | 99.54% | 僅可想像非特異性中樞抑制作用，無支持 |
-| 5 | 拔毛症 (Trichotillomania) | 99.50% | 可能反映神經精神疾病的圖譜鄰近關係 |
-| 6 | 注意力不足過動症 (ADHD) | 99.41% | 鎮靜安眠類藥物無已知治療依據 |
-| 7 | 偏頭痛易感性（基因） | 99.34% | 屬遺傳易感性實體，可能是圖譜傳播的假象 |
-| 8 | 局部性類佩吉特網狀細胞增生症 | 99.20% | 罕見皮膚 T 細胞淋巴瘤變異型，無合理連結 |
-| 9 | 面指趾生殖器症候群 | 99.19% | 罕見遺傳發育疾病，小分子藥物不太可能改變其生物學 |
-| 10 | 蠕蟲狀萎縮性皮膚病 | 99.11% | 罕見皮膚萎縮性疾病，無支持 |
+| 2 | 偏頭痛 (Migraine Disorder) | 0.9971 | 鎮靜或中樞抑制作用理論上可能影響頭痛症狀，但屬推測 |
+| 3 | 腦幹先兆偏頭痛 | 0.9958 | 可能源自偏頭痛節點的相似性，無獨立證據 |
+| 4 | 妥瑞氏症 (Tourette Syndrome) | 0.9954 | 僅可想像非特異性中樞抑制作用，無支持 |
+| 5 | 拔毛症 (Trichotillomania) | 0.9950 | 分數來自 TxGNN 模型（深度學習），可能反映模型學到的神經精神疾病之間的相似性，並非生物學證據 |
+| 6 | 注意力不足過動症 (ADHD) | 0.9941 | 鎮靜安眠類藥物無已知治療依據 |
+| 8 | 局部性類佩吉特網狀細胞增生症 | 0.9920 | 罕見皮膚 T 細胞淋巴瘤變異型，無合理連結 |
+| 9 | 面指趾生殖器症候群 | 0.9919 | 罕見遺傳發育疾病，小分子藥物不太可能改變其生物學 |
+| 10 | 蠕蟲狀萎縮性皮膚病 | 0.9911 | 罕見皮膚萎縮性疾病，無支持 |
 
 ---
 

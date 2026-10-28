@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Goserelin
-parent: 僅模型預測 (L5)
+parent: 高證據等級 (L1-L2)
 nav_order: 426
-evidence_level: L5
+evidence_level: L2
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Goserelin：預測新適應症為閉經 (Amenorrhea)（證據等級 L5）。原適應症：子宮內膜異位症 (Endometriosis)"
 monitor_inn: "GOSERELIN"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
+description: "Goserelin：預測新適應症為Amenorrhea (disease)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Goserelin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+證據等級: **L2** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "r
 
 </div>
 
-## Goserelin：從子宮內膜異位症到閉經
+## Goserelin: Amenorrhea (disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但目前僅有 *
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 子宮內膜異位症 (Endometriosis)（來自知識圖譜；香港許可證未登載適應症文字） |
-| 預測新適應症 | 閉經 (Amenorrhea) |
-| TxGNN 預測分數 | 99.99% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Amenorrhea (disease) |
+| TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L2（上限；唯一的 Phase 3 試驗為間接證據且狀態未知，實際直接證據偏弱） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但目前僅有 *
 
 這個效果與它在子宮內膜異位症的作用機制相同：抑制雌激素以縮減異位內膜病灶。因此「閉經」在藥理上是可預期的結果，也是治療的副產物，並不是另一個獨立的治療標的。
 
-文獻中，閉經大多出現在兩種脈絡：乳癌的卵巢抑制治療，以及化療相關的閉經或卵巢保護。把閉經當成一種要治療的疾病，並沒有明確支持。TxGNN 的高分更可能反映知識圖譜中藥理效果與疾病之間的關聯，應謹慎解讀。
+文獻中，閉經大多出現在兩種脈絡：乳癌的卵巢抑制治療，以及化療相關的閉經或卵巢保護。把閉經當成一種要治療的疾病，並沒有明確支持。TxGNN 模型（深度學習）的高分可能反映模型學到的相關疾病之間的相似性，而非生物學證據，應謹慎解讀。
 
 ---
 
@@ -130,7 +130,7 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但目前僅有 *
 
 ---
 
-**附註：**排名第 2、3 的預測（腎發育不全、雙側腎發育不全）雖然分數約 99.06%，但沒有臨床試驗或文獻，機轉上也看不出關聯，可能是知識圖譜傳播造成的假象，證據等級為 L5，建議 Hold。
+**附註：**排名第 2、3 的預測（腎發育不全、雙側腎發育不全）雖然分數約 0.9906，但沒有臨床試驗或文獻，機轉上也看不出關聯，分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據，證據等級為 L5，建議 Hold。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

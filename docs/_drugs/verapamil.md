@@ -4,17 +4,17 @@ title: Verapamil
 parent: 僅模型預測 (L5)
 nav_order: 931
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Verapamil：預測新適應症為惡性腎血管性高血壓 (Malignant Renovascular Hypertension)（證據等級 L5）。原適應症：高血壓、心房顫動、急性冠心症、變異型心絞痛、心室心搏過速"
 monitor_inn: "Verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
+description: "Verapamil：預測新適應症為Obsolete bundle branch block（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Verapamil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,23 @@ predicted_indications: ["obsolete bundle branch block", "malignant hypertensive 
 
 </div>
 
-## Verapamil：從高血壓與心律不整到惡性腎血管性高血壓
+## Verapamil: Obsolete bundle branch block
 {: .text-alpha }
 
 ## 一句話總結
 
 Verapamil 是一種鈣離子通道阻斷劑，原本用於高血壓、心房顫動、急性冠心症、變異型心絞痛及心室心搏過速等心血管疾病。
-TxGNN 模型預測它可能對**惡性腎血管性高血壓 (Malignant Renovascular Hypertension)** 有效，但目前**沒有臨床試驗**，且檢索到的 2 篇文獻都沒有直接測試 Verapamil，證據僅停留在模型預測層級。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 高血壓、心房顫動、急性冠心症、變異型心絞痛、心室心搏過速（取自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 惡性腎血管性高血壓 (Malignant Renovascular Hypertension) |
-| TxGNN 預測分數 | 99.27% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Obsolete bundle branch block |
+| TxGNN 預測分數 | 0.9962 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 8 張 |
+| 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
+| 許可證數 | 8 張（有效 8 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

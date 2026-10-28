@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cysteine
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 239
-evidence_level: L4
+evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
-description: "Cysteine：預測新適應症為乾眼症 (Dry Eye Syndrome)（證據等級 L4）。原適應症：支氣管炎、對乙醯胺酚中毒、囊狀纖維化、支氣管擴張、類澱粉沉積症"
 monitor_inn: "CYSTEINE"
 predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
+last_modified_at: 2026-10-27
+description: "Cysteine：預測新適應症為乾眼症 (dry eye syndrome)（證據等級 L5）。原適應症：本地資料未記錄核准適應症"
 ---
 
 # Cysteine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **7** 個
+證據等級: **L5** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,112 +33,82 @@ predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavi
 
 </div>
 
-## Cysteine：從支氣管炎到乾眼症
+## Cysteine：胺基酸類藥物 → 乾眼症 (dry eye syndrome)
 {: .text-alpha }
 
 ## 一句話總結
 
-Cysteine（半胱胺酸）是含硫醇基的胺基酸，也是麩胱甘肽的前驅物，原本用於支氣管炎、對乙醯胺酚中毒、囊狀纖維化、支氣管擴張及類澱粉沉積症等。
-TxGNN 模型預測它可能對**乾眼症 (Dry Eye Syndrome)** 有效，但目前**沒有任何已登記的臨床試驗**，文獻多為製劑學或前臨床研究，且多數是以半胱胺酸作為修飾材料，並非直接證明半胱胺酸本身有效。
-
----
+Cysteine（半胱胺酸）是含硫醇基的胺基酸，也是穀胱甘肽的前驅物。
+TxGNN 模型預測它可能對**乾眼症 (dry eye syndrome)** 有效，
+但目前**沒有臨床試驗**，文獻多為製劑或相關化合物的前臨床研究，並未直接證明 cysteine 本身可治療乾眼症。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 支氣管炎、對乙醯胺酚中毒、囊狀纖維化、支氣管擴張、類澱粉沉積症（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 乾眼症 (Dry Eye Syndrome) |
-| TxGNN 預測分數 | 99.98% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 5 張 |
-| 建議決策 | Hold（列為研究問題，暫不推進） |
-
----
+| 原適應症 | 本地資料未記錄核准適應症 |
+| 預測新適應症 | 乾眼症 (dry eye syndrome) |
+| TxGNN 預測分數 | 0.9998 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 5 張／共 5 張） |
+| 許可證數 | 5 張（有效 5 張） |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，半胱胺酸是含硫醇基的胺基酸，也是麩胱甘肽的前驅物，具有抗氧化潛力。
+目前缺乏詳細的作用機轉資料。Cysteine 屬含硫醇基的胺基酸，是穀胱甘肽的前驅物，理論上具抗氧化、清除活性氧 (ROS) 的潛力。
 
-乾眼症的病程中，過量活性氧（ROS）與 NLRP3 發炎體介導的發炎會損傷淚腺與眼表，形成惡性循環。因此，抗氧化與清除 ROS 的作用在機轉上可能適用於乾眼症。
+乾眼症的病理與過量 ROS 及 NLRP3 發炎體所致的淚腺與眼表損傷有關，因此抗氧化作用在機轉上有合理性。
 
-需要注意的是，目前檢索到的文獻中，半胱胺酸多半是「建構材料」：例如硫醇化幾丁聚醣、L-半胱胺酸接枝的載體可增加黏膜黏附性，另有一種過硫化物前驅藥會釋放 H₂S。這些屬於製劑或相關化合物研究，**並不能證明半胱胺酸本身能治療乾眼症**。
-
----
+不過，檢索到的文獻中，cysteine 多半是製劑的組成材料（例如硫醇化幾丁聚醣、L-半胱胺酸修飾載體可增加黏附性），或是相關化合物（例如釋放 H2S 的過硫化物前驅藥）。這些研究都不是 cysteine 本身用於乾眼症的證據。因此，儘管機轉上說得通，仍屬假說階段。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
-以下文獻皆為前臨床、製劑或機轉研究，沒有 RCT。
+下列文獻均為前臨床、機轉或製劑研究，並未直接以 cysteine 治療乾眼症。
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [40123221](https://pubmed.ncbi.nlm.nih.gov/40123221/) | 2025 | 前臨床製劑研究 | Advanced Materials | 以半胱胺酸修飾的幾丁聚醣搭載過氧化氫酶，製成滴眼奈米製劑，針對 ROS 治療乾眼症 |
-| [36581034](https://pubmed.ncbi.nlm.nih.gov/36581034/) | 2023 | 前臨床製劑研究 | Int J Biol Macromol | 硫酸軟骨素與 L-半胱胺酸結合物修飾脂質載體，提升角膜滲透與滯留 |
-| [41485487](https://pubmed.ncbi.nlm.nih.gov/41485487/) | 2026 | 前臨床 | J Control Release | 超氧陰離子響應的過硫化物前驅藥，用於清除 ROS 以改善乾眼症 |
-| [24993428](https://pubmed.ncbi.nlm.nih.gov/24993428/) | 2014 | Review | J Control Release | 硫醇化聚合物（thiomers）的黏膜黏附特性與市場化現況 |
-| [31028759](https://pubmed.ncbi.nlm.nih.gov/31028759/) | 2019 | Review | Adv Drug Deliv Rev | 硫醇化聚合物透過雙硫鍵與黏液醣蛋白結合的原理 |
-| [36626177](https://pubmed.ncbi.nlm.nih.gov/36626177/) | 2023 | 前臨床機轉研究 | Invest Ophthalmol Vis Sci | AQP5 缺乏加劇淚腺 ROS/NLRP3 發炎體介導的細胞焦亡 |
-| [25701684](https://pubmed.ncbi.nlm.nih.gov/25701684/) | 2015 | 機轉研究 | Exp Eye Res | ROS 活化 NLRP3 發炎體，在高滲透壓角膜上皮細胞與乾眼患者中引發發炎 |
-| [26606856](https://pubmed.ncbi.nlm.nih.gov/26606856/) | 2015 | 前臨床製劑研究 | Ther Deliv | 玻尿酸與半胱胺酸乙酯結合的衍生物，作為乾眼潤滑劑 |
-
----
+| [40123221](https://pubmed.ncbi.nlm.nih.gov/40123221/) | 2025 | 前臨床製劑研究 | Advanced Materials | 過氧化氫酶與半胱胺酸修飾幾丁聚醣自組裝成滴眼奈米製劑，針對 ROS 治療乾眼 |
+| [36581034](https://pubmed.ncbi.nlm.nih.gov/36581034/) | 2023 | 前臨床製劑研究 | Int J Biol Macromol | 硫酸軟骨素與 L-半胱胺酸結合物修飾脂質載體，改善角膜滯留與穿透 |
+| [41485487](https://pubmed.ncbi.nlm.nih.gov/41485487/) | 2026 | 前臨床 | J Control Release | 超氧陰離子反應型過硫化物前驅藥用於乾眼症 |
+| [26606856](https://pubmed.ncbi.nlm.nih.gov/26606856/) | 2015 | 製劑研究 | Ther Deliv | 玻尿酸與半胱胺酸乙酯結合，作為黏附型潤滑劑 |
+| [24993428](https://pubmed.ncbi.nlm.nih.gov/24993428/) | 2014 | Review | J Control Release | 硫醇化聚合物 (thiomers) 的黏膜黏附特性回顧 |
+| [31028759](https://pubmed.ncbi.nlm.nih.gov/31028759/) | 2019 | Review | Adv Drug Deliv Rev | 硫醇化聚合物的結構與應用回顧 |
+| [25701684](https://pubmed.ncbi.nlm.nih.gov/25701684/) | 2015 | 機轉研究 | Exp Eye Res | ROS 活化 NLRP3 發炎體在乾眼患者與角膜上皮細胞中引發發炎 |
+| [24836981](https://pubmed.ncbi.nlm.nih.gov/24836981/) | 2014 | 前臨床機轉研究 | Exp Eye Res | ROS 活化 NLRP3 發炎體誘發小鼠乾眼 |
+| [36626177](https://pubmed.ncbi.nlm.nih.gov/36626177/) | 2023 | 前臨床機轉研究 | Invest Ophthalmol Vis Sci | AQP5 缺乏加劇淚腺 ROS/NLRP3 介導的細胞焦亡 |
 
 ## 香港上市資訊
 
-目前資料中的 5 張許可證均為單方、有效狀態，但未載明劑型與核准適應症文字。
-
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-58960 | HAKUBI WHITE C TAB（SATO PHARMACEUTICAL） | 未載明 | 未載明 |
-| HK-36470 | VAMINOLACT I.V. SOLUTION（Fresenius Kabi） | 未載明 | 未載明 |
-| HK-65813 | NUMETA G13% E PRETERM EMULSION FOR INFUSION 300ML（Baxter） | 未載明 | 未載明 |
-| HK-65811 | NUMETA G16% E EMULSION FOR INFUSION 500ML（Baxter） | 未載明 | 未載明 |
-| HK-65812 | NUMETA G19% E EMULSION FOR INFUSION 1000ML（Baxter） | 未載明 | 未載明 |
-
----
+| HK-58960 | HAKUBI WHITE C TAB | 未記錄 | 未記錄 |
+| HK-36470 | VAMINOLACT I.V. SOLUTION | 未記錄 | 未記錄 |
+| HK-65813 | NUMETA G13% E PRETERM EMULSION FOR INFUSION 300ML | 未記錄 | 未記錄 |
+| HK-65811 | NUMETA G16% E EMULSION FOR INFUSION 500ML | 未記錄 | 未記錄 |
+| HK-65812 | NUMETA G19% E EMULSION FOR INFUSION 1000ML | 未記錄 | 未記錄 |
 
 ## 安全性考量
 
-- **知識圖譜標示的相關禁忌疾病**（來自藥物-疾病關聯，非仿單文字）：消化性潰瘍、低血壓、呼吸衰竭、氣喘、支氣管疾病、食道靜脈曲張、苯丙酮尿症及苯丙胺酸代謝異常。
-
-其餘安全性資訊（警語、禁忌症、藥物交互作用）請參考原廠仿單。
-
----
+安全性資訊請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- TxGNN 分數雖高（99.98%），但沒有臨床試驗，文獻多為以半胱胺酸作為製劑材料或相關化合物的前臨床研究，尚無證據顯示半胱胺酸本身能治療乾眼症。
-- 抗氧化與抗 ROS 的機轉具合理性，適合列為研究問題，而非直接推進。
+- 沒有任何臨床試驗，文獻僅為製劑或相關化合物的前臨床研究，沒有直接研究 cysteine 治療乾眼症，證據等級為 L5。
+- 本地許可證皆為輸注液或口服複方類產品，且無核准適應症文字，無法支持眼部使用的可行性。
 
 **若要推進需要：**
-- 取得半胱胺酸的作用機轉資料與香港仿單的警語、禁忌資訊。
-- 以半胱胺酸（或 N-乙醯半胱胺酸）本身設計眼用製劑，進行動物乾眼模型的有效性與眼部安全性試驗。
-- 確認眼用給藥途徑的可行性（目前香港許可證皆非眼用劑型資訊）。
-- 評估是否值得進一步登記早期臨床試驗。
-
----
-
-### 附註：其他預測適應症
-
-資料中另有幾項預測，證據皆弱於乾眼症，一併簡述：
-
-| 預測適應症 | TxGNN 分數 | 證據等級 | 建議 | 說明 |
-|-----------|-----------|---------|------|------|
-| 閉角型青光眼 / 角度閉鎖型青光眼（重複項目） | 99.95% / 99.06% | L5 | Hold | 文獻僅涉及 SPARC 蛋白與細胞外基質重塑，未涉及半胱胺酸作為治療 |
-| 鼻腔疾病 | 99.88% | L4 | 研究問題 | 僅有 1996 年 N-乙醯半胱胺酸複方鼻用製劑的間接研究 |
-| 急性喉咽炎 | 99.79% | L5 | Hold | 無試驗、無文獻 |
-| 咽炎 | 99.78% | L4 | 研究問題 | 僅有 N-乙醯半胱胺酸對扁桃腺生物膜的體外間接研究 |
-| 運動誘發惡性高熱 | 99.26% | L5 | Hold | 無合理機轉關聯 |
+- 補充 cysteine 本身（而非衍生物或載體材料）在乾眼症動物模型的療效資料
+- 評估眼用劑型與給藥途徑的可行性及局部安全性
+- 取得詳細作用機轉資料
+- 取得原廠仿單的警語、禁忌與藥物交互作用資訊
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

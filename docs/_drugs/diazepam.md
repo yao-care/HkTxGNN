@@ -6,9 +6,9 @@ nav_order: 272
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Diazepam：預測新適應症為失眠 (Insomnia)（證據等級 L4）。原適應症：癲癇、癲癇持續狀態、酒精戒斷譫妄、酒精戒斷、Wernicke-Korsakoff 症候群、焦慮、破傷風"
 monitor_inn: "DIAZEPAM"
-predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "antidepressant type abuse", "barbiturate abuse", "hallucinogen abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
+predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
+description: "Diazepam：預測新適應症為失眠 (insomnia (disease))（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Diazepam
@@ -33,7 +33,7 @@ predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep di
 
 </div>
 
-## Diazepam：從癲癇與焦慮到失眠
+## Diazepam: 失眠 (insomnia (disease))
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,11 +47,11 @@ TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，但目前**沒有�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 癲癇、癲癇持續狀態、酒精戒斷譫妄、酒精戒斷、Wernicke-Korsakoff 症候群、焦慮、破傷風（香港許可證未載明適應症文字，以上來自知識圖譜） |
-| 預測新適應症 | 失眠 (Insomnia) |
-| TxGNN 預測分數 | 99.99% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 失眠 (insomnia (disease)) |
+| TxGNN 預測分數 | 1.0000 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold（僅適合作為研究問題） |
 

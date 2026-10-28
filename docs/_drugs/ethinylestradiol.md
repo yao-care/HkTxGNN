@@ -6,9 +6,9 @@ nav_order: 347
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Ethinylestradiol：預測新適應症為血漿鋅偏高 (zinc, elevated plasma)（證據等級 L5）。原適應症：痤瘡、停經後骨質疏鬆、骨質疏鬆、萎縮性外陰、停經後萎縮性陰道炎"
 monitor_inn: "ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
+description: "Ethinylestradiol：預測新適應症為血漿鋅偏高 (zinc, elevated plasma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Ethinylestradiol
@@ -33,7 +33,7 @@ predicted_indications: ["zinc, elevated plasma"]
 
 </div>
 
-## Ethinylestradiol：從痤瘡與停經後骨質疏鬆到血漿鋅偏高
+## Ethinylestradiol: 血漿鋅偏高 (zinc, elevated plasma)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**血漿鋅偏高 (zinc, elevated plasma)** 有效
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 痤瘡、停經後骨質疏鬆、骨質疏鬆、萎縮性外陰、停經後萎縮性陰道炎（來自 TxGNN 知識圖譜；香港許可證未提供適應症文字） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | 血漿鋅偏高 (zinc, elevated plasma) |
-| TxGNN 預測分數 | 99.63% |
+| TxGNN 預測分數 | 0.9963 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 18 張 |
+| 香港上市 | 上市中（有效許可證 18 張／共 18 張） |
+| 許可證數 | 18 張（有效 18 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**血漿鋅偏高 (zinc, elevated plasma)** 有效
 
 文獻上已知含雌激素的口服避孕藥可能改變血中微量元素（如鋅與銅）的濃度，但一般方向是**鋅降低**，因此對「鋅偏高」是否有益並不明確。此為假說，本次資料中沒有任何證據支持。
 
-此外，血漿鋅偏高屬於實驗室檢驗結果，而非具有明確治療標靶的疾病，治療適應症的合理性較低。高預測分數較可能反映知識圖譜中的關聯接近度，而非臨床相關性。
+此外，血漿鋅偏高屬於實驗室檢驗結果，而非具有明確治療標靶的疾病，治療適應症的合理性較低。高預測分數（0.9963）來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
 ---
 

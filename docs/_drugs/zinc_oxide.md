@@ -6,9 +6,9 @@ nav_order: 954
 evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Zinc Oxide：預測新適應症為痤瘡 (Acne)（證據等級 L4）。原適應症：足癬、皮疹、皮膚炎、體癬、皮膚念珠菌病、痔瘡、燒傷等"
 monitor_inn: "ZINC OXIDE"
 predicted_indications: ["acne (disease)", "anorectal stricture", "anal polyp", "papillary conjunctivitis", "postinfectious vasculitis"]
+description: "Zinc Oxide：預測新適應症為痤瘡 (acne (disease))（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Zinc Oxide
@@ -33,7 +33,7 @@ predicted_indications: ["acne (disease)", "anorectal stricture", "anal polyp", "
 
 </div>
 
-## 氧化鋅 (Zinc Oxide)：從皮膚炎與痔瘡到痤瘡
+## Zinc Oxide: 痤瘡 (acne (disease))
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,11 +46,11 @@ TxGNN 模型預測它可能對**痤瘡 (Acne)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 足癬、皮疹、皮膚炎、體癬、皮膚念珠菌病、痔瘡、燒傷等（許可證資料未載明適應症文字，此處依知識圖譜適應症整理） |
-| 預測新適應症 | 痤瘡 (Acne) |
-| TxGNN 預測分數 | 99.86% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 痤瘡 (acne (disease)) |
+| TxGNN 預測分數 | 0.9986 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold（列為研究問題） |
 
@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**痤瘡 (Acne)** 有效，
 
 鋅與氧化鋅奈米粒子已知具有抗菌與抗發炎特性，理論上可能作用於痤瘡的致病菌（Cutibacterium acnes）與發炎病灶。這與氧化鋅現有的皮膚科用途一致。
 
-需注意，99.86% 的 TxGNN 分數僅是計算模型的預測，並非臨床證據。
+需注意，0.9986 的 TxGNN 分數僅是計算模型的預測，並非臨床證據。
 
 ## 臨床試驗證據
 

@@ -6,9 +6,9 @@ nav_order: 435
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Heparin：預測新適應症為體染色體隱性蛋白 C 缺乏所致血栓傾向症 (Thrombophilia due to protein C deficiency…（證據等級 L5）。原適應症：肺栓塞、瀰漫性血管內凝血、猛爆性紫斑症"
 monitor_inn: "HEPARIN"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
+description: "Heparin：預測新適應症為體染色體隱性蛋白 C 缺乏所致血栓傾向症 (thrombophilia due to protein C deficiency, autosomal recessive)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Heparin
@@ -33,7 +33,7 @@ predicted_indications: ["thrombophilia due to protein C deficiency, autosomal re
 
 </div>
 
-## Heparin：從肺栓塞與瀰漫性血管內凝血到原發性蛋白 C 缺乏血栓傾向症
+## Heparin: 體染色體隱性蛋白 C 缺乏所致血栓傾向症 (thrombophilia due to protein C deficiency, autosomal recessive)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,11 +48,11 @@ TxGNN 模型預測它可能對**體染色體隱性蛋白 C 缺乏所致血栓傾
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 肺栓塞、瀰漫性血管內凝血、猛爆性紫斑症（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 體染色體隱性蛋白 C 缺乏所致血栓傾向症 (Thrombophilia due to protein C deficiency, autosomal recessive) |
-| TxGNN 預測分數 | 99.29% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 體染色體隱性蛋白 C 缺乏所致血栓傾向症 (thrombophilia due to protein C deficiency, autosomal recessive) |
+| TxGNN 預測分數 | 0.9929 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -115,7 +115,7 @@ TxGNN 模型預測它可能對**體染色體隱性蛋白 C 缺乏所致血栓傾
 **決策：Hold**
 
 **理由：**
-- 此預測雖然分數高 (99.29%)，但目前沒有任何臨床試驗或文獻佐證，證據等級僅為 L5。
+- 此預測雖然分數高 (0.9929)，但目前沒有任何臨床試驗或文獻佐證，證據等級僅為 L5。
 - 作用機轉資料與香港仿單安全資料尚缺，無法進行安全性篩選。
 
 **若要推進需要：**
@@ -129,7 +129,7 @@ TxGNN 模型預測它可能對**體染色體隱性蛋白 C 缺乏所致血栓傾
 
 ### 附註：另一個預測適應症（原發性血小板釋放障礙）
 
-模型也預測 Heparin 可能對**原發性血小板釋放障礙 (Primary release disorder of platelets)** 有效（分數 99.06%，證據等級 L5，建議 Hold）。目前沒有臨床試驗，檢索到的文獻多為凝血、HIT、血栓及重症醫學的一般性綜述，並未探討 Heparin 治療此疾病。
+模型也預測 Heparin 可能對**原發性血小板釋放障礙 (Primary release disorder of platelets)** 有效（分數 0.9906，證據等級 L5，建議 Hold）。目前沒有臨床試驗，檢索到的文獻多為凝血、HIT、血栓及重症醫學的一般性綜述，並未探討 Heparin 治療此疾病。
 
 血小板釋放障礙屬於出血傾向的血小板功能缺陷，而 Heparin 是增加出血風險的抗凝劑，也可能引起 HIT 等血小板相關併發症。機轉上找不到合理的連結，高分可能來自網絡鄰近性而非真正的治療訊號。在取得直接證據前不建議推進。
 ## 免責聲明

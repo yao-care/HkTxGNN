@@ -4,17 +4,17 @@ title: Clofedanol
 parent: 僅模型預測 (L5)
 nav_order: 216
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Clofedanol：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L5）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、普通感冒、鼻炎、鼻咽炎"
 monitor_inn: "Clofedanol"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria", "papillary conjunctivitis", "cold urticaria", "faucial diphtheria", "cervical disc degenerative disorder"]
+predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "cold urticaria", "faucial diphtheria", "cervical disc degenerative disorder"]
+description: "Clofedanol：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Clofedanol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "all
 
 </div>
 
-## Clofedanol：從過敏性鼻炎與上呼吸道感染到鼻腔疾病
+## Clofedanol: 鼻腔疾病 (nasal cavity disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、咽炎、普通感冒、鼻炎、鼻咽炎（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 鼻腔疾病 (Nasal Cavity Disease) |
-| TxGNN 預測分數 | 99.99% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 鼻腔疾病 (nasal cavity disease) |
+| TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -93,12 +93,11 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 | 排名 | 預測適應症 | 分數 | 評估 |
 |------|-----------|------|------|
-| 2 | 急性喉咽炎 (Acute Laryngopharyngitis) | 99.99% | 與既有的咽炎、鼻咽炎、感冒適應症高度相關，可能只是原適應症的延伸 |
-| 3 | 過敏性蕁麻疹 (Allergic Urticaria) | 99.97% | 可能與 H1 抗組織胺活性有關，但未獲資料證實 |
-| 4 | 乳突性結膜炎 (Papillary Conjunctivitis) | 99.84% | 可能共享過敏與組織胺路徑，屬推測；眼部給藥需另行開發劑型 |
-| 5 | 寒冷性蕁麻疹 (Cold Urticaria) | 99.78% | 可能因名稱與「普通感冒」相近而使分數偏高，宜謹慎看待 |
-| 6 | 咽白喉 (Faucial Diphtheria) | 99.33% | 白喉為細菌感染，最多只能緩解症狀，推測是圖譜關聯的假象 |
-| 7 | 頸椎椎間盤退化 (Cervical Disc Degenerative Disorder) | 99.29% | 找不到合理的機轉連結，可能是虛假預測 |
+| 3 | 過敏性蕁麻疹 (Allergic Urticaria) | 0.9997 | 可能與 H1 抗組織胺活性有關，但未獲資料證實 |
+| 4 | 乳突性結膜炎 (Papillary Conjunctivitis) | 0.9984 | 可能共享過敏與組織胺路徑，屬推測；眼部給藥需另行開發劑型 |
+| 5 | 寒冷性蕁麻疹 (Cold Urticaria) | 0.9978 | 可能因名稱與「普通感冒」相近而使分數偏高，宜謹慎看待 |
+| 6 | 咽白喉 (Faucial Diphtheria) | 0.9933 | 白喉為細菌感染，最多只能緩解症狀，此分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據 |
+| 7 | 頸椎椎間盤退化 (Cervical Disc Degenerative Disorder) | 0.9929 | 找不到合理的機轉連結，可能是虛假預測 |
 
 以上候選適應症皆無臨床試驗或文獻支持，證據等級均為 L5。
 

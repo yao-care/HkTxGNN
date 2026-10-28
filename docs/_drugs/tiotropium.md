@@ -5,10 +5,10 @@ parent: 高證據等級 (L1-L2)
 nav_order: 881
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-14
-description: "Tiotropium：預測新適應症為阻塞性肺病 (Obstructive Lung Disease)（證據等級 L1）。原適應症：支氣管炎、氣喘、肺氣腫"
 monitor_inn: "TIOTROPIUM"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
+last_modified_at: 2026-10-23
+description: "Tiotropium：預測新適應症為阻塞性肺病（證據等級 L1）。原適應症：知識圖譜記錄為支氣管炎、氣喘、肺氣腫"
 ---
 
 # Tiotropium
@@ -33,108 +33,96 @@ predicted_indications: ["obstructive lung disease", "respiratory malformation", 
 
 </div>
 
-## Tiotropium：從支氣管炎／氣喘／肺氣腫到阻塞性肺病
+## Tiotropium：從氣喘與支氣管炎到阻塞性肺病
 {: .text-alpha }
 
 ## 一句話總結
 
-Tiotropium（噻托溴銨）是長效抗蕈毒鹼支氣管擴張劑，原本用於支氣管炎、氣喘與肺氣腫等呼吸道疾病。
-TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有效，目前有**多項臨床試驗**和**多篇文獻**支持。需注意：這與原適應症高度重疊，屬於**仿單內既有用途**，並非真正的新適應症再利用。
+Tiotropium 是長效抗膽鹼支氣管擴張劑，知識圖譜中記錄的原適應症包括支氣管炎、氣喘與肺氣腫。
+TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive lung disease)** 有效，
+目前有多個直接以慢性阻塞性肺病 (COPD) 為對象的 Phase 3 臨床試驗，以及多篇相關文獻支持這個方向。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 支氣管炎、氣喘、肺氣腫（香港許可證未載明核准適應症文字，此處依知識圖譜適應症資料） |
-| 預測新適應症 | 阻塞性肺病 (Obstructive Lung Disease) |
-| TxGNN 預測分數 | 99.99% |
+| 原適應症 | 知識圖譜記錄為支氣管炎、氣喘、肺氣腫（香港許可證資料未載明核准適應症文字） |
+| 預測新適應症 | 阻塞性肺病 |
+| TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L1 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 核准許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank 未提供）。依已知藥理，Tiotropium 屬於長效蕈毒鹼拮抗劑 (LAMA)，主要阻斷氣道平滑肌上的 M3 受體，降低膽鹼性支氣管張力，產生持續的支氣管擴張，每日一次即可。
+目前缺乏詳細的作用機轉資料（資料庫未收錄 MOA）。根據文獻，Tiotropium 是一種長效蕈毒鹼受體拮抗劑（LAMA），可阻斷氣道平滑肌的 M3 受體，降低膽鹼性張力，產生持續的支氣管擴張。其與 M3 受體解離緩慢，因此可每日一次給藥。
 
-阻塞性肺病是涵蓋慢性阻塞性肺病 (COPD) 與氣喘的上位疾病類別，其核心特徵是氣流受限，而這正是 Tiotropium 直接作用的目標。因此模型的高分預測具有機轉上的合理性。
-
-需特別強調，這個預測大多屬於**既有適應症的延伸**，與原適應症（支氣管炎、氣喘、肺氣腫）重疊，並非全新的治療領域。
+阻塞性肺病（主要是 COPD）與知識圖譜中記錄的支氣管炎、氣喘、肺氣腫密切相關，同屬氣道阻塞性疾病。因此這個預測較接近原有用途的延伸，而非全新的跨疾病再利用，高分數與已知藥理相符。
 
 ## 臨床試驗證據
 
-下列為與「阻塞性肺病」最相關的試驗（依相關性分級與規模挑選，共列 10 項）：
+以下列出與阻塞性肺病（COPD）最相關的試驗（共 10 個）：
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00240435](https://clinicaltrials.gov/study/NCT00240435) | Phase 3 | 完成 | 491 | Respimat 吸入 Tiotropium 5/10 mcg 對比安慰劑與 ipratropium，評估 COPD 支氣管擴張療效 |
-| [NCT01431274](https://clinicaltrials.gov/study/NCT01431274) | Phase 3 | 完成 | 2,624 | Tiotropium＋Olodaterol 固定複方對比單一成分，52 週療效與安全性（TONADO 1） |
-| [NCT00877383](https://clinicaltrials.gov/study/NCT00877383) | Phase 3 | 完成 | 1,142 | Indacaterol 併用 Tiotropium 對比 Tiotropium 單用，12 週 |
-| [NCT00900731](https://clinicaltrials.gov/study/NCT00900731) | Phase 3 | 完成 | 1,598 | Indacaterol 對比 Tiotropium，12 週，中重度 COPD |
-| [NCT01854645](https://clinicaltrials.gov/study/NCT01854645) | Phase 3 | 完成 | 2,103 | PT003、PT005、PT001 對比安慰劑與開放標籤 Tiotropium，24 週 |
-| [NCT00157235](https://clinicaltrials.gov/study/NCT00157235) | Phase 3 | 完成 | 234 | Tiotropium 對比安慰劑，對肺復健期間運動耐受度的影響 |
-| [NCT00144326](https://clinicaltrials.gov/study/NCT00144326) | Phase 3 | 完成 | 250 | Tiotropium 對比安慰劑，12 週日常活動量（加速度計） |
-| [NCT02172443](https://clinicaltrials.gov/study/NCT02172443) | Phase 3 | 完成 | 50 | Tiotropium 18 mcg 膠囊對比 ipratropium 定量吸入器 |
-| [NCT02172807](https://clinicaltrials.gov/study/NCT02172807) | Phase 3 | 完成 | 201 | Tiotropium 18/36 µg 對比 oxitropium，4 週 |
-| [NCT04780984](https://clinicaltrials.gov/study/NCT04780984) | Phase 2 | 完成 | 116 | Tiotropium 吸入溶液三種劑量的藥效、相對生體可用率與安全性 |
-
-此外，另有 Tiotropium 於氣喘的 Phase 3 試驗（如 NCT01316380、NCT00772538），支持其於阻塞性氣道疾病的更廣泛應用。
+| [NCT00240435](https://clinicaltrials.gov/study/NCT00240435) | Phase 3 | 完成 | 491 | 隨機雙盲，Tiotropium Respimat 5 與 10 mcg 對比安慰劑及 ipratropium，評估支氣管擴張療效 |
+| [NCT01431274](https://clinicaltrials.gov/study/NCT01431274) | Phase 3 | 完成 | 2624 | Tiotropium+Olodaterol 複方對比單一成分，52 週療效與安全性（TONado 1） |
+| [NCT00157235](https://clinicaltrials.gov/study/NCT00157235) | Phase 3 | 完成 | 234 | 對比安慰劑，評估肺復健期間對運動耐受度的影響 |
+| [NCT00144326](https://clinicaltrials.gov/study/NCT00144326) | Phase 3 | 完成 | 250 | 對比安慰劑，評估 12 週對日常活動量的影響 |
+| [NCT00877383](https://clinicaltrials.gov/study/NCT00877383) | Phase 3 | 完成 | 1142 | Indacaterol 加 Tiotropium 對比單用 Tiotropium，12 週 |
+| [NCT00900731](https://clinicaltrials.gov/study/NCT00900731) | Phase 3 | 完成 | 1598 | Indacaterol 對比 Tiotropium，12 週肺功能比較 |
+| [NCT01854645](https://clinicaltrials.gov/study/NCT01854645) | Phase 3 | 完成 | 2103 | 多種吸入療法對比安慰劑與開放標示 Tiotropium，24 週 |
+| [NCT02172443](https://clinicaltrials.gov/study/NCT02172443) | Phase 3 | 完成 | 50 | Tiotropium 膠囊對比 ipratropium MDI，支氣管擴張療效（樣本較小） |
+| [NCT04780984](https://clinicaltrials.gov/study/NCT04780984) | Phase 2 | 完成 | 116 | 隨機劑量範圍研究，評估藥效學與安全性 |
+| [NCT04999930](https://clinicaltrials.gov/study/NCT04999930) | N/A | 完成 | 100 | Respimat 搭配或不搭配 Aerochamber，比較療效與病人滿意度 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [28877027](https://pubmed.ncbi.nlm.nih.gov/28877027/) | 2017 | RCT | N Engl J Med | 長期使用 Tiotropium 於輕中度早期 COPD，評估肺功能改善與下降速度 |
-| [29779416](https://pubmed.ncbi.nlm.nih.gov/29779416/) | 2018 | RCT | Am J Respir Crit Care Med | SUNSET 試驗：長期三合一療法降階為 Indacaterol/Glycopyrronium |
-| [16844726](https://pubmed.ncbi.nlm.nih.gov/16844726/) | 2006 | Meta-analysis | Thorax | Tiotropium 於穩定期 COPD 的臨床事件、症狀、肺功能與不良事件 |
-| [25046211](https://pubmed.ncbi.nlm.nih.gov/25046211/) | 2014 | Systematic review | Cochrane Database Syst Rev | Tiotropium 對比安慰劑（含 Soft Mist 吸入器）用於 COPD |
-| [23728670](https://pubmed.ncbi.nlm.nih.gov/23728670/) | 2013 | Systematic review | Cochrane Database Syst Rev | 吸入類固醇＋LABA 複方對比 Tiotropium 的相對效益與風險 |
-| [21672999](https://pubmed.ncbi.nlm.nih.gov/21672999/) | 2011 | Meta-analysis | BMJ | Tiotropium 霧化吸入器與死亡率相關性的系統性回顧 |
+| [28877027](https://pubmed.ncbi.nlm.nih.gov/28877027/) | 2017 | RCT | N Engl J Med | 探討長期使用 Tiotropium 對輕中度 COPD 肺功能及其下降速度的影響 |
+| [29779416](https://pubmed.ncbi.nlm.nih.gov/29779416/) | 2018 | RCT | Am J Respir Crit Care Med | SUNSET 試驗：長期三合一療法降階至 indacaterol/glycopyrronium |
+| [25046211](https://pubmed.ncbi.nlm.nih.gov/25046211/) | 2014 | 系統性回顧 | Cochrane Database Syst Rev | Tiotropium 對比安慰劑用於 COPD |
+| [23728670](https://pubmed.ncbi.nlm.nih.gov/23728670/) | 2013 | 系統性回顧 | Cochrane Database Syst Rev | 吸入類固醇加 LABA 複方對比 Tiotropium |
+| [19402836](https://pubmed.ncbi.nlm.nih.gov/19402836/) | 2009 | 統合分析 | Respirology | Tiotropium 於中國穩定期 COPD 患者的療效與安全性 |
 | [32727455](https://pubmed.ncbi.nlm.nih.gov/32727455/) | 2020 | Review | Respir Res | Tiotropium 於 COPD 的臨床開發回顧 |
-| [33095662](https://pubmed.ncbi.nlm.nih.gov/33095662/) | 2021 | Review | Curr Med Res Opin | Tiotropium＋Olodaterol 用於降低與管理 COPD 急性惡化 |
-| [10069510](https://pubmed.ncbi.nlm.nih.gov/10069510/) | 1999 | 機轉／臨床概述 | Life Sci | Tiotropium 的機轉考量與阻塞性肺病臨床特性 |
-| [12010082](https://pubmed.ncbi.nlm.nih.gov/12010082/) | 2002 | Review | Drugs | 拮抗 M1、M2、M3 受體，對 M3 解離慢，可每日一次給藥 |
+| [33095662](https://pubmed.ncbi.nlm.nih.gov/33095662/) | 2021 | Review | Curr Med Res Opin | Tiotropium+Olodaterol 降低 COPD 急性惡化 |
+| [23170031](https://pubmed.ncbi.nlm.nih.gov/23170031/) | 2012 | Review | Ann Pharmacother | Ipratropium 與 Tiotropium 併用的療效與安全性 |
+| [10069510](https://pubmed.ncbi.nlm.nih.gov/10069510/) | 1999 | 文獻回顧 | Life Sci | Tiotropium 的作用機轉考量及在阻塞性肺病的臨床特性 |
+| [12010082](https://pubmed.ncbi.nlm.nih.gov/12010082/) | 2002 | Review | Drugs | 對 M1、M2、M3 受體的拮抗作用，18 μg 每日一次改善肺功能 |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-51091 | SPIRIVA CAP FOR INHALATION 18MCG | 吸入膠囊 | 資料未載明 |
-| HK-57639 | SPIRIVA RESPIMAT SOL FOR INHAL 2.5MCG | 吸入溶液 | 資料未載明 |
-| HK-50663 | SPIRIVA CAP FOR INHAL 18MCG (COMBOPACK) | 吸入膠囊（組合包） | 資料未載明 |
-| HK-64356 | SPIOLTO RESPIMAT INHALATION SOLUTION 2.5MCG/2.5MCG | 吸入溶液 | 資料未載明 |
+| HK-51091 | SPIRIVA CAP FOR INHALATION 18MCG | 吸入膠囊 | 請參考原廠仿單 |
+| HK-57639 | SPIRIVA RESPIMAT SOL FOR INHAL 2.5MCG | 吸入溶液 | 請參考原廠仿單 |
+| HK-50663 | SPIRIVA CAP FOR INHAL 18MCG (COMBOPACK) | 吸入膠囊 | 請參考原廠仿單 |
+| HK-64356 | SPIOLTO RESPIMAT INHALATION SOLUTION 2.5MCG/2.5MCG | 吸入溶液 | 請參考原廠仿單 |
 
-以上 4 張許可證均為有效，持證商為 Boehringer Ingelheim (HK) Ltd。
+以上 4 張許可證均為有效狀態，持有人為 Boehringer Ingelheim (HK) Ltd。
 
 ## 安全性考量
 
-- **禁忌／需謹慎的疾病**（來自知識圖譜的藥物－疾病禁忌關聯，非仿單文字）：良性前列腺增生、腎功能不全、閉角型青光眼、膀胱頸阻塞。
-- **藥物交互作用**：資料庫共查得 100 筆。多數為與其他抗膽鹼藥物併用造成的中度交互作用，包括 Hyoscyamine、Atropine、Glycopyrronium、Clidinium、Dicyclomine、Trospium、Scopolamine、Propantheline 等，須留意抗膽鹼作用疊加（口乾、尿滯留、眼壓升高等）。另有 Eluxadoline、Prucalopride 及吸入型胰島素為中度；Cimetidine 為輕度。
-- 相關臨床試驗（NCT06525051）也針對 Tiotropium 對前房參數與眼壓的影響進行評估，與青光眼風險相呼應。
-
-其他警語請參考原廠仿單。
+- **知識圖譜記錄的禁忌關聯**（非仿單文字）：良性攝護腺肥大、腎功能不全、閉角型青光眼、膀胱頸阻塞。
+- **藥物交互作用**：資料共查得 100 筆，主要為與其他抗膽鹼藥物併用，多屬中度，包括 hyoscyamine、atropine、glycopyrronium、clidinium、dicyclomine、trospium、scopolamine、methscopolamine、propantheline 等。另有 eluxadoline、prucalopride、吸入型人類胰島素屬中度；cimetidine 為輕度。併用多種抗膽鹼藥物可能加重口乾、尿滯留、眼壓升高等抗膽鹼作用。
+- 其餘警語與禁忌資料請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 有多項已完成的 Phase 3 隨機對照試驗與頂級期刊文獻（含 NEJM RCT、Cochrane 與 meta-analysis），證據等級達 L1。但此預測本質上屬於既有用途，並非新的再利用機會。
+- 有多個已完成的 Phase 3 隨機對照試驗（如 NCT00240435、NCT01431274、NCT00157235）直接在 COPD 族群中研究 Tiotropium，並有 NEJM 的 RCT 及 Cochrane 系統性回顧支持，證據等級為 L1。
+- 阻塞性肺病與其原有用途高度重疊，近乎既有用途，主要風險在於抗膽鹼作用的安全性管理。
 
 **若要推進需要：**
-- 取得香港原廠仿單，確認核准適應症、警語與禁忌（目前許可證資料未載明適應症）
-- 補充詳細作用機轉資料
-- 針對高風險族群（前列腺肥大、閉角型青光眼、膀胱頸阻塞、腎功能不全）建立安全性監測計畫
-- 評估吸入器技術與裝置選擇（HandiHaler 或 Respimat）對療效的影響
+- 取得香港衛生署核准的仿單，確認核准適應症、警語與禁忌（目前許可證資料未載明適應症文字）。
+- 補充詳細作用機轉資料。
+- 針對有閉角型青光眼、攝護腺肥大、膀胱頸阻塞或腎功能不全的病人，訂定使用前篩檢與監測計畫，並留意與其他抗膽鹼藥物併用。
 
----
-
-**補充說明：其他預測適應症**
-
-- **呼吸道畸形 (Respiratory malformation)**：無可信的機轉連結，相關試驗實為囊性纖維化或 COPD 研究，TxGNN 高分可能是網絡鄰近性的假象。建議 **Hold**。
-- **Rienhoff 症候群**：無任何試驗或文獻，僅為計算預測。建議 **Hold**。
-- **重度早發性 COPD**：僅有 1 項回溯性比較研究，屬由一般 COPD 外推，列為研究問題。
-- **慢性阻塞性肺病 (COPD)**：證據充分（L1），同樣屬既有標準治療，並非新用途。
+**其他預測的說明：** 其餘預測（呼吸道畸形、Rienhoff 症候群、透明肺、氣管狹窄）缺乏直接研究或機轉依據，目前建議 Hold。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

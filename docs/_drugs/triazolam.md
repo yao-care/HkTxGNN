@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Triazolam
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 905
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Triazolam：預測新適應症為入睡與維持睡眠障礙 (Sleep disorder, initiating and maintaining sleep)（證據等級 L5）。原適應症：失眠 (Insomnia)"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Triazolam: 香港已知用途與上市狀態；目前無新的候選適應症"
+predicted_indications: []
 ---
 
 # Triazolam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,73 +32,45 @@ description: "Triazolam：預測新適應症為入睡與維持睡眠障礙 (Slee
 
 </div>
 
-## Triazolam：從失眠到入睡與維持睡眠障礙
+<!-- known-uses-page -->
+<!-- description: Triazolam: 香港已知用途與上市狀態；目前無新的候選適應症 -->
+## Triazolam：香港已知用途與上市狀態
 {: .text-alpha }
 
-## 一句話總結
-
-Triazolam 是短效型苯二氮平類（benzodiazepine）安眠藥，原本即用於治療失眠。
-TxGNN 模型預測它對**入睡與維持睡眠障礙 (Sleep disorder, initiating and maintaining sleep)** 有效，但這與原適應症基本重疊，屬於既有用途的確認，而非真正的新適應症。
-目前無臨床試驗登記，有 **20 篇文獻**（含指引與統合分析）支持這個方向。
-
----
+## 摘要
+TxGNN 模型針對 Triazolam 提出的候選適應症，經追溯來源後全部屬於已知用途，因此目前沒有新的預測適應症。模型候選中僅有 1 項已知用途，與已核准適應症屬同一疾病類別。本藥在香港的上市狀態請見下表。
 
 ## 快速總覽
-
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 失眠 (Insomnia) |
-| 預測新適應症 | 入睡與維持睡眠障礙 (Sleep disorder, initiating and maintaining sleep) |
-| TxGNN 預測分數 | 99.72% |
-| 證據等級 | L3（無已完成的 RCT；有系統性回顧、統合分析與指引） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
-| 建議決策 | Proceed with Guardrails |
+| 新預測適應症 | 無（模型候選中可追溯者皆為已知用途） |
+| 模型候選中的已知用途數 | 1 |
+| 證據等級 | 不適用 |
+| 香港上市狀態 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 
----
+## 模型候選中的已知用途
 
-## 為什麼這個預測合理？
+### 已核准（有許可證或仿單支持）
+| 適應症 | 來源 |
+|------|------|
+| 無 | 無 |
 
-目前缺乏詳細的作用機轉登錄資料。依已知藥理，Triazolam 是短效型苯二氮平類藥物，作為 GABA-A 受體的正向異位調節劑，增強抑制性神經傳導，進而促進入睡。
+### 與已核准適應症相關（同一疾病類別）
+| 適應症 | 已核准類別 |
+|------|------|
+| 睡眠障礙，包括入睡與維持睡眠困難 (sleep disorder, initiating and maintaining sleep) | insomnia |
 
-失眠的核心特徵就是難以入睡與難以維持睡眠，因此預測的疾病與原適應症在臨床上幾乎是同一件事。TxGNN 給出高分（99.72%）與此一致。也就是說，這個預測是對既有用途的確認，不是新的藥物再利用方向。
-
-需注意 Triazolam 半衰期短，效益主要在入睡階段，對維持睡眠的支持相對較弱。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
----
-
-## 文獻證據
-
-下表依資料中的研究類型排序，優先列出統合分析與指引，其次為回顧。
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [40110890](https://pubmed.ncbi.nlm.nih.gov/40110890/) | 2025 | 統合分析 | Psychiatry Clin Neurosci | 比較各類安眠藥（含苯二氮平類）與抗憂鬱劑併用於伴失眠的重度憂鬱症之療效與安全性 |
-| [27998379](https://pubmed.ncbi.nlm.nih.gov/27998379/) | 2017 | 指引 | J Clin Sleep Med | 美國睡眠醫學會成人慢性失眠藥物治療臨床指引，逐一評估個別藥物 |
-| [33249496](https://pubmed.ncbi.nlm.nih.gov/33249496/) | 2021 | 系統性回顧／網絡統合分析 | Sleep | 比較各種安眠藥用於老年失眠的療效與安全性 |
-| [38401406](https://pubmed.ncbi.nlm.nih.gov/38401406/) | 2024 | 系統性回顧／網絡統合分析 | Eur Neuropsychopharmacol | 評估安眠藥對隔日駕駛表現的殘留影響 |
-| [39932761](https://pubmed.ncbi.nlm.nih.gov/39932761/) | 2025 | Review | Minerva Med | 失眠症概述：盛行率、日間症狀與健康風險 |
-| [30058034](https://pubmed.ncbi.nlm.nih.gov/30058034/) | 2018 | Review | Drugs Aging | 老年失眠的藥物治療建議，行為療法為首選 |
-| [27751669](https://pubmed.ncbi.nlm.nih.gov/27751669/) | 2016 | Review | Clin Ther | 老年人安眠藥的安全性與療效 |
-| [2567741](https://pubmed.ncbi.nlm.nih.gov/2567741/) | 1989 | Review | J Clin Psychopharmacol | 回顧 triazolam 等短半衰期苯二氮平停藥後的反彈性失眠 |
-| [9161660](https://pubmed.ncbi.nlm.nih.gov/9161660/) | 1997 | Review | Ann Pharmacother | 比較 zolpidem 與 triazolam 的療效與安全性 |
-| [8573298](https://pubmed.ncbi.nlm.nih.gov/8573298/) | 1995 | Review | Drug Saf | 短效安眠藥的評估 |
-
----
+### 知識圖譜中記錄的關聯（未找到核准依據）
+| 適應症 |
+|------|
+| 無 |
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-00495 | HALCION TAB 0.25 MG（輝瑞香港） | 未提供 | 未提供 |
-
----
+| 許可證字號 | 品名 | 劑型 | 狀態 |
+|------|------|------|------|
+| HK-00495 | HALCION TAB 0.25 MG |  | 有效 |
 
 ## 安全性考量
 
@@ -109,20 +82,6 @@ TxGNN 模型預測它對**入睡與維持睡眠障礙 (Sleep disorder, initiatin
 
 ---
 
-## 結論與下一步
-
-**決策：Proceed with Guardrails**
-
-**理由：**
-- 預測的適應症與原適應症（失眠）實質相同，臨床上已是既有用途，模型分數也很高。但本次資料中無臨床試驗，文獻以回顧、指引與統合分析為主，因此證據等級保守評為 L3。
-- 安全性負擔明顯（依賴、反彈性失眠、隔日損害、藥物交互作用多），需設置使用防護。
-
-**若要推進需要：**
-- 取得香港衛生署仿單的警語、禁忌與核准適應症全文（目前缺漏，屬阻擋性資料缺口）
-- 補充詳細作用機轉資料（如 DrugBank）
-- 限定短期使用，並針對老年人制定劑量與跌倒風險管理計畫
-- 建立 CYP3A4 抑制劑與中樞神經抑制劑（特別是鴉片類）併用的篩檢與警示機制
-- 評估其與非藥物療法（如失眠認知行為治療）及其他安眠藥的比較定位
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

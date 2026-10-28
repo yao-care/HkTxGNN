@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Zolmitriptan
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 959
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Zolmitriptan：預測新適應症為腦幹先兆偏頭痛 (Migraine with Brainstem Aura)（證據等級 L4）。原適應症：偏頭痛（Migraine disorder）"
 monitor_inn: "Zolmitriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
+description: "Zolmitriptan：預測新適應症為Atrophoderma vermiculata（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Zolmitriptan
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,31 @@ predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 
 </div>
 
-## Zolmitriptan：從偏頭痛到腦幹先兆偏頭痛
+## Zolmitriptan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## 一句話總結
 
 Zolmitriptan 是 5-HT1B/1D 受體促效劑（triptan 類藥物），原本用於偏頭痛的急性治療。
-TxGNN 模型預測它可能對**腦幹先兆偏頭痛 (Migraine with Brainstem Aura)** 有效，
 目前**沒有直接的臨床試驗**，僅有 **20 篇間接文獻**（多為一般偏頭痛的回顧與研究）。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 偏頭痛（Migraine disorder） |
-| 預測新適應症 | 腦幹先兆偏頭痛 (Migraine with Brainstem Aura) |
-| TxGNN 預測分數 | 99.99% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Atrophoderma vermiculata |
+| TxGNN 預測分數 | 0.9990 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
-> 註：香港許可證資料中未載明核准適應症文字，「原適應症」係根據知識圖譜的適應症資料。
 
 ## 為什麼這個預測合理？
 
 目前缺乏詳細的作用機轉資料（原廠資料未收錄）。不過，根據前臨床藥理文獻（PMID 9399012），Zolmitriptan 是一種中樞與周邊皆有作用的 5-HT1B/1D 受體促效劑，能抑制三叉神經血管系統的活化。
 
-腦幹先兆偏頭痛是偏頭痛的一種亞型，與一般偏頭痛有相同的三叉神經血管病理生理基礎，因此 TxGNN 的預測在生物學上有一定合理性。
 
 **但必須特別注意：** triptan 類藥物在此亞型（舊稱基底型偏頭痛）上，歷來有慎用或禁用的考量，理論上是擔心後循環血管收縮。目前提供的資料中，沒有任何試驗直接檢驗這個亞型。現有文獻包含一般偏頭痛回顧、美國頭痛學會（AHS）證據評估、經期與前庭性偏頭痛回顧，以及一篇經顱都卜勒研究，全部屬於間接證據。
 
@@ -104,7 +101,6 @@ TxGNN 模型預測它可能對**腦幹先兆偏頭痛 (Migraine with Brainstem A
   - 血清素相關藥物：Lorcaserin、Dexfenfluramine、Fenfluramine、Sibutramine
   - 5-HT3 拮抗劑：Dolasetron、Palonosetron、Ondansetron、Granisetron
   - **Moderate** 等級：Morphine、Cimetidine、Obeticholic acid
-- **與本預測特別相關**：triptan 在腦幹先兆偏頭痛的後循環血管收縮疑慮，以及上述腦血管缺血類禁忌，是此適應症最需優先釐清的風險。
 
 香港仿單的警語與禁忌資料尚未取得，請參考原廠仿單。
 

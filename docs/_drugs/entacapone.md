@@ -6,9 +6,9 @@ nav_order: 322
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Entacapone：預測新適應症為PLA2G6 相關神經退化症 (PLA2G6-associated neurodegeneration)（證據等級 L5）。原適應症：帕金森氏症及相關類帕金森症候群"
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
+description: "Entacapone：預測新適應症為PLA2G6 相關神經退化症 (PLA2G6-associated neurodegeneration)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Entacapone
@@ -33,7 +33,7 @@ predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacu
 
 </div>
 
-## Entacapone：從帕金森氏症到 PLA2G6 相關神經退化症
+## Entacapone: PLA2G6 相關神經退化症 (PLA2G6-associated neurodegeneration)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,19 +46,19 @@ TxGNN 模型預測它可能對 **PLA2G6 相關神經退化症 (PLA2G6-associated
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 帕金森氏症及相關類帕金森症候群（依知識圖譜適應症資料） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | PLA2G6 相關神經退化症 (PLA2G6-associated neurodegeneration) |
-| TxGNN 預測分數 | 99.76% |
+| TxGNN 預測分數 | 0.9976 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 10 張 |
+| 香港上市 | 上市中（有效許可證 10 張／共 10 張） |
+| 許可證數 | 10 張（有效 10 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
 目前缺乏詳細的作用機轉資料。Entacapone 屬於 COMT（兒茶酚-O-甲基轉移酶）抑制劑，臨床上用來延長 levodopa 的作用時間，其在帕金森氏症的角色已相當確立。
 
-PLA2G6 相關神經退化症的臨床表現可包含肌張力異常合併類帕金森症狀，因此理論上 COMT 抑制劑作為 levodopa 的輔助治療是可以想像的。但這個推論屬於推測，並無任何疾病專屬的臨床資料支持。模型的高分可能主要反映知識圖譜中神經系統疾病節點的相近性。
+PLA2G6 相關神經退化症的臨床表現可包含肌張力異常合併類帕金森症狀，因此理論上 COMT 抑制劑作為 levodopa 的輔助治療是可以想像的。但這個推論屬於推測，並無任何疾病專屬的臨床資料支持。此分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。
 
 ### 其他預測適應症概覽
 
@@ -66,15 +66,15 @@ PLA2G6 相關神經退化症的臨床表現可包含肌張力異常合併類帕�
 
 | 排名 | 預測適應症 | 分數 | 證據等級 | 評估 |
 |------|-----------|------|---------|------|
-| 2 | Rasmussen 亞急性腦炎 | 99.73% | L5 | 免疫媒介性疾病，無明確機轉關聯 |
-| 3 | 脊髓炎 | 99.63% | L5 | 無合理機轉 |
-| 4 | 青少年帕金森氏症 (Hunt 型) | 99.60% | L5 | 機轉合理，但與現有適應症高度重疊，新穎性有限 |
-| 5 | 轉醛醇酶缺乏症 | 99.43% | L5 | 無機轉關聯 |
-| 6 | 致死性嬰兒粒線體肌病 | 99.28% | L5 | 無機轉關聯，且有安全與可行性疑慮 |
-| 7 | 路易氏體失智症 | 99.25% | L4 | 僅有間接證據（見下方） |
-| 8 | 果糖-1,6-二磷酸酶缺乏症 | 99.22% | L5 | 無機轉關聯 |
-| 9 | 多小腦回畸形合併小腦發育不全及關節攣縮 | 99.06% | L5 | 無合理機轉 |
-| 10 | 進行性核上麻痺-皮質基底症候群 | 99.04% | L4 | 間接可能，預期效益有限 |
+| 2 | Rasmussen 亞急性腦炎 | 0.9973 | L5 | 免疫媒介性疾病，無明確機轉關聯 |
+| 3 | 脊髓炎 | 0.9963 | L5 | 無合理機轉 |
+| 4 | 青少年帕金森氏症 (Hunt 型) | 0.9960 | L5 | 機轉合理，但與現有適應症高度重疊，新穎性有限 |
+| 5 | 轉醛醇酶缺乏症 | 0.9943 | L5 | 無機轉關聯 |
+| 6 | 致死性嬰兒粒線體肌病 | 0.9928 | L5 | 無機轉關聯，且有安全與可行性疑慮 |
+| 7 | 路易氏體失智症 | 0.9925 | L5 | 僅有間接證據（見下方） |
+| 8 | 果糖-1,6-二磷酸酶缺乏症 | 0.9922 | L5 | 無機轉關聯 |
+| 9 | 多小腦回畸形合併小腦發育不全及關節攣縮 | 0.9906 | L5 | 無合理機轉 |
+| 10 | 進行性核上麻痺-皮質基底症候群 | 0.9904 | L5 | 間接可能，預期效益有限 |
 
 ## 臨床試驗證據
 

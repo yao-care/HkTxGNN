@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Amorolfine：預測新適應症為藥物誘發性骨質疏鬆 (drug-induced osteoporosis)（證據等級 L5）。原適應症：指甲真菌感染"
 monitor_inn: "Amorolfine"
-predicted_indications: ["drug-induced osteoporosis", "disease of retroperitoneum", "disease of uterine broad ligament", "lumbar spinal stenosis", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "sacrum chordoma", "urethral disease"]
+predicted_indications: ["drug-induced osteoporosis", "disease of retroperitoneum", "disease of uterine broad ligament", "lumbar spinal stenosis", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "sacrum chordoma", "lymph node palisaded myofibroblastoma", "urethral disease"]
 ---
 
 # Amorolfine
@@ -50,9 +50,9 @@ TxGNN 模型預測它可能對**藥物誘發性骨質疏鬆 (drug-induced osteop
 |------|------|
 | 原適應症 | 指甲真菌感染（甲癬，依藥物資料推斷；香港許可證資料未載明適應症文字） |
 | 預測新適應症 | 藥物誘發性骨質疏鬆 (drug-induced osteoporosis) |
-| TxGNN 預測分數 | 99.998% |
+| TxGNN 預測分數 | 1.0000 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -66,7 +66,7 @@ TxGNN 模型預測它可能對**藥物誘發性骨質疏鬆 (drug-induced osteop
 
 這個機轉與骨代謝之間**沒有已知的關聯**。藥物誘發性骨質疏鬆與長期使用糖皮質激素等藥物導致骨量流失有關，
 而 amorolfine 為局部外用，全身暴露量極低，進一步降低其作用於骨骼的可能性。
-因此，這項預測較可能是知識圖譜結構所產生的結果，而非真實的藥理訊號。
+因此，這項預測的分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 
 其餘排名前十的預測（腹膜後疾病、子宮闊韌帶疾病、腰椎管狹窄、腹腔異位妊娠、腹腔動脈壓迫症候群、腹部囊性淋巴管瘤、淋巴結柵欄狀肌纖維母細胞瘤、骶骨脊索瘤、尿道疾病）同樣沒有機轉依據，也沒有任何試驗或文獻支持。
 
@@ -111,7 +111,7 @@ TxGNN 模型預測它可能對**藥物誘發性骨質疏鬆 (drug-induced osteop
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高（99.998%），但沒有任何臨床試驗或文獻佐證，證據等級僅為 L5。
+- 預測分數雖高（1.0000），但沒有任何臨床試驗或文獻佐證，證據等級僅為 L5。
 - 作用機轉與骨代謝無已知關聯，且外用製劑全身暴露極低，預測合理性很低。
 
 **若要推進需要：**

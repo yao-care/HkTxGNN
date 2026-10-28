@@ -6,9 +6,9 @@ nav_order: 249
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Daunorubicin：預測新適應症為何杰金氏淋巴瘤 (Hodgkin's lymphoma)（證據等級 L3）。原適應症：急性淋巴芽細胞白血病、急性骨髓性白血病等"
 monitor_inn: "Daunorubicin"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
+description: "Daunorubicin：預測新適應症為Hodgkins lymphoma（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Daunorubicin
@@ -33,7 +33,7 @@ predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable e
 
 </div>
 
-## Daunorubicin：從急性白血病到何杰金氏淋巴瘤
+## Daunorubicin: Hodgkins lymphoma
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**何杰金氏淋巴瘤 (Hodgkin's lymphoma)** 有
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 急性淋巴芽細胞白血病、急性骨髓性白血病等（香港許可證未載明核准適應症文字，此處依知識圖譜資料） |
-| 預測新適應症 | 何杰金氏淋巴瘤 (Hodgkin's lymphoma) |
-| TxGNN 預測分數 | 99.81% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Hodgkins lymphoma |
+| TxGNN 預測分數 | 0.9981 |
 | 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold（列為研究問題，暫不推進） |
 
 ---
@@ -149,12 +149,12 @@ TxGNN 模型預測它可能對**何杰金氏淋巴瘤 (Hodgkin's lymphoma)** 有
 
 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
 |-----------|-----------|---------|------|
-| 神經母細胞瘤 | 99.78% | L4 | 研究問題；僅有間接與前臨床證據 |
-| 肺母細胞瘤 / 胸膜肺母細胞瘤 | 99.76% | L4 | Hold；有 Phase 3 試驗但未確認含 daunorubicin |
-| 小細胞肺癌 | 99.76% | L4 | Hold；主要為體外抗藥性研究 |
-| ALK 陽性大 B 細胞淋巴瘤 | 99.78% | L4 | Hold；試驗未明確測試 daunorubicin |
-| 後腹腔腫瘤 | 99.77% | L4 | Hold；文獻多為白血病相關病例報告 |
-| 神經節母細胞瘤、腺肉瘤、原發性肺淋巴瘤、椎骨異常合併內分泌與 T 細胞功能異常症候群 | 99.76–99.80% | L5 | Hold；僅有模型預測，幾乎無直接證據 |
+| 神經母細胞瘤 | 0.9978 | L4 | 研究問題；僅有間接與前臨床證據 |
+| 肺母細胞瘤 / 胸膜肺母細胞瘤 | 0.9976 | L4 | Hold；有 Phase 3 試驗但未確認含 daunorubicin |
+| 小細胞肺癌 | 0.9976 | L4 | Hold；主要為體外抗藥性研究 |
+| ALK 陽性大 B 細胞淋巴瘤 | 0.9978 | L4 | Hold；試驗未明確測試 daunorubicin |
+| 後腹腔腫瘤 | 0.9977 | L5 | Hold；文獻多為白血病相關病例報告 |
+| 神經節母細胞瘤、腺肉瘤、原發性肺淋巴瘤、椎骨異常合併內分泌與 T 細胞功能異常症候群 | 99.76–0.9980 | L5 | Hold；僅有模型預測，幾乎無直接證據 |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

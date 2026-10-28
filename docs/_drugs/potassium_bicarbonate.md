@@ -6,9 +6,9 @@ nav_order: 717
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Potassium Bicarbonate：預測新適應症為胃十二指腸炎 (Gastroduodenitis)（證據等級 L5）。原適應症：消化性潰瘍、胃食道逆流、食道炎、消化不良、鉀缺乏症"
 monitor_inn: "POTASSIUM BICARBONATE"
 predicted_indications: ["gastroduodenitis"]
+description: "Potassium Bicarbonate：預測新適應症為胃十二指腸炎 (gastroduodenitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Potassium Bicarbonate
@@ -33,7 +33,7 @@ predicted_indications: ["gastroduodenitis"]
 
 </div>
 
-## Potassium Bicarbonate：從消化性潰瘍與胃食道逆流到胃十二指腸炎
+## Potassium Bicarbonate: 胃十二指腸炎 (gastroduodenitis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,17 +46,17 @@ TxGNN 模型預測它可能對**胃十二指腸炎 (Gastroduodenitis)** 有效�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 消化性潰瘍、胃食道逆流、食道炎、消化不良、鉀缺乏症（來自知識圖譜，香港許可證未載明適應症文字） |
-| 預測新適應症 | 胃十二指腸炎 (Gastroduodenitis) |
-| TxGNN 預測分數 | 99.72% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 胃十二指腸炎 (gastroduodenitis) |
+| TxGNN 預測分數 | 0.9972 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，碳酸氫鉀是一種鹼化劑，可中和胃酸，在香港以含有它的抗酸/抗逆流複方液劑上市，其在上消化道酸相關疾病中的角色已被知識圖譜收錄。
+目前缺乏詳細的作用機轉資料。根據已知資訊，碳酸氫鉀是一種鹼化劑，可中和胃酸，在香港以含有它的抗酸/抗逆流複方液劑上市。TxGNN 模型（深度學習）給出的預測分數可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 
 胃十二指腸炎和消化性潰瘍、胃食道逆流、食道炎、消化不良一樣，都涉及酸引起的黏膜發炎。模型的高分很可能來自它與這些既有適應症在網路上的相近性。
 
@@ -93,7 +93,7 @@ TxGNN 模型預測它可能對**胃十二指腸炎 (Gastroduodenitis)** 有效�
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高（99.72%），但完全沒有臨床試驗或文獻佐證（L5），且預測可能只是反映與既有胃酸相關適應症的相近性。
+- 預測分數雖高（0.9972），但完全沒有臨床試驗或文獻佐證（L5），且預測可能只是反映與既有胃酸相關適應症的相近性。
 - 缺乏作用機轉與仿單安全資料，無法進入安全性篩選。
 
 **若要推進需要：**

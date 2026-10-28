@@ -4,17 +4,17 @@ title: Corifollitropin Alfa
 parent: 僅模型預測 (L5)
 nav_order: 229
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Corifollitropin Alfa：預測新適應症為胃十二指腸炎 (Gastroduodenitis)（證據等級 L5）。原適應症：本report所用資料未提供核准適應症文字"
 monitor_inn: "Corifollitropin alfa"
-predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "peptic esophagitis"]
+predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease"]
 ---
 
 # Corifollitropin Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,17 +47,17 @@ TxGNN 模型預測它可能對**胃十二指腸炎 (Gastroduodenitis)** 有效�
 |------|------|
 | 原適應症 | 本report所用資料未提供核准適應症文字 |
 | 預測新適應症 | 胃十二指腸炎 (Gastroduodenitis) |
-| TxGNN 預測分數 | 99.65% |
+| TxGNN 預測分數 | 0.9965 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Corifollitropin alfa 是長效 FSH 促效劑，作用於性腺組織的 FSH 受體。
 
-就機轉而言，FSH 受體促效與胃十二指腸黏膜發炎之間沒有明確的生物學關聯。高分較可能來自知識圖譜的結構相似性，而非真實的藥理機轉，因此應視為假說，不宜當作有效性依據。
+就機轉而言，FSH 受體促效與胃十二指腸黏膜發炎之間沒有明確的生物學關聯。此分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據，因此應視為假說，不宜當作有效性依據。
 
 其他排名較前的預測（偏頭痛、消化性潰瘍、雷諾氏病、肺動脈高壓等）同樣缺乏機轉與臨床支持。其中偏頭痛方面，卵巢刺激造成的荷爾蒙波動反而可能是誘發因子；肺動脈高壓方面，卵巢刺激伴隨血栓與體液轉移風險，安全疑慮大於任何推測的益處。
 

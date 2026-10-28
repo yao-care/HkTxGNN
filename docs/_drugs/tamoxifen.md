@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tamoxifen
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 848
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Tamoxifen：預測新適應症為乳腺原位癌 (Breast Carcinoma in situ)（證據等級 L1）。原適應症：女性乳癌、浸潤性乳管癌、乳管腺癌"
 monitor_inn: "Tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Tamoxifen：預測新適應症為Mammary Paget disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Tamoxifen
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "bot
 
 </div>
 
-## Tamoxifen：從乳癌到乳腺原位癌（導管原位癌）
+## Tamoxifen: Mammary Paget disease
 {: .text-alpha }
 
 ## 一句話總結
 
 Tamoxifen 是選擇性雌激素受體調節劑，原本用於治療女性乳癌（包括浸潤性乳管癌）。
-本報告選取證據最完整的預測新適應症：**乳腺原位癌 (Breast Carcinoma in situ)**，TxGNN 預測分數為 99.67%。
 目前有 **30 餘個相關臨床試驗**（含多個已完成的 Phase 3 RCT）和 **20 篇文獻**（含多篇 RCT）支持這個方向。
 
 > 說明：TxGNN 預測的排名第 1 適應症為乳腺佩吉特氏病 (mammary Paget disease)，但其證據僅為間接（1 個關聯性低的試驗與個案報告，證據等級 L4，決策為 Hold）。因此本報告改以證據最充分的乳腺原位癌為主軸，並在結論附上其他預測適應症的比較。
@@ -50,12 +49,12 @@ Tamoxifen 是選擇性雌激素受體調節劑，原本用於治療女性乳癌�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 女性乳癌、浸潤性乳管癌、乳管腺癌（來自知識圖譜；香港許可證未提供適應症文字） |
-| 預測新適應症 | 乳腺原位癌 (Breast Carcinoma in situ) |
-| TxGNN 預測分數 | 99.67% |
-| 證據等級 | L1 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 14 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Mammary Paget disease |
+| TxGNN 預測分數 | 0.9969 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 14 張／共 14 張） |
+| 許可證數 | 14 張（有效 14 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---
@@ -157,12 +156,11 @@ Tamoxifen 是選擇性雌激素受體調節劑，原本用於治療女性乳癌�
 
 | 預測適應症 | 證據等級 | 決策 | 備註 |
 |-----------|---------|------|------|
-| 乳腺佩吉特氏病 (mammary Paget disease) | L4 | Hold | 僅有個案報告與外科系列，效益為間接 |
+| 乳腺佩吉特氏病 (mammary Paget disease) | L5 | Hold | 僅有個案報告與外科系列，效益為間接 |
 | 雌激素受體陽性乳癌 | L1 | Proceed with Guardrails | 實質為原適應症（on-label） |
 | 侵襲性管狀乳癌 | L4 | Hold | 屬已核准 ER 陽性乳癌的亞型，無專屬試驗 |
 | 荷爾蒙抗性乳癌 | L3 | Research Question | 僅有小型試驗，僅支持組合策略的假說 |
 | 基底樣乳癌 | L5 | Hold | 多為 ER 陰性，機轉不符 |
-| 篩狀管內乳腺癌、皮脂腺乳癌、陰道葡萄狀胚胎型橫紋肌肉瘤 | L5 | Hold | 無試驗或文獻，僅有圖譜預測 |
 | Ehrlich 腫瘤癌 | L5 | Hold | 小鼠模型，非人類適應症 |
 ## 免責聲明
 

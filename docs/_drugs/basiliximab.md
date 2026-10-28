@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Basiliximab
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 96
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Basiliximab：預測新適應症為漿細胞骨髓瘤 (Plasma Cell Myeloma)（證據等級 L5）。原適應症：資料中未載明"
-monitor_inn: "Basiliximab"
-predicted_indications: ["plasma cell myeloma", "bronchitis", "indolent plasma cell myeloma", "hemoglobinopathy", "gastric carcinoma", "diffuse gastric adenocarcinoma", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "Jeune syndrome situs inversus"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Basiliximab: 香港的已知用途與上市狀態；目前無新的候選適應症"
+predicted_indications: []
 ---
 
 # Basiliximab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,71 +32,46 @@ predicted_indications: ["plasma cell myeloma", "bronchitis", "indolent plasma ce
 
 </div>
 
-## Basiliximab：從器官移植排斥反應預防到多發性骨髓瘤（漿細胞骨髓瘤）
+<!-- known-uses-page -->
+<!-- description: Basiliximab: 香港的已知用途與上市狀態；目前無新的候選適應症 -->
+## Basiliximab: 香港的已知用途與上市狀態
 {: .text-alpha }
 
-## 一句話總結
-
-Basiliximab 是一種抗 CD25（IL-2 受體 α 鏈）單株抗體，在香港已有上市許可證，但本次資料中未載明核准適應症文字。
-TxGNN 模型預測它可能對**漿細胞骨髓瘤 (Plasma Cell Myeloma)** 有效，目前有 **3 個臨床試驗**和 **4 篇文獻**與此方向相關。
-不過這些證據多屬「移植輔助／免疫調節」性質，而非直接的抗骨髓瘤療效。
-
----
+## 摘要
+TxGNN 模型對 Basiliximab 沒有分數達 0.99 以上的候選適應症，因此目前沒有新的預測適應症。以下列出此藥物本身已記錄的用途。
 
 ## 快速總覽
-
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料中未載明（香港許可證未提供核准適應症文字） |
-| 預測新適應症 | 漿細胞骨髓瘤 (Plasma Cell Myeloma) |
-| TxGNN 預測分數 | 95.61% |
-| 證據等級 | L2（依資料編譯時的評分；僅有 Phase 2 小型研究，且為 GVHD 預防終點，實質證據偏弱） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
-| 建議決策 | Hold（列為研究性問題，暫不推進） |
+| 新預測適應症 | 無（沒有模型候選分數達 0.99 以上） |
+| 此藥物已記錄的已知用途 | 2 |
+| 證據等級 | 不適用 |
+| 香港的上市狀態 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 
----
+## 此藥物已記錄的已知用途
 
-## 為什麼這個預測合理？
+### 已核准（有許可證或仿單支持）
+| 適應症 | 來源 |
+|------|------|
+| 移植物排斥 (graft rejection) | 其他國家的許可證 |
+| 腎臟移植 (kidney transplantation) | 其他國家的許可證 |
 
-目前缺乏詳細的作用機轉資料（DrugBank MOA 未取得）。不過依已知資訊，Basiliximab 是抗 CD25 單株抗體，可阻斷活化 T 細胞上的 IL-2 受體 α 鏈，因此能耗竭活化 T 細胞與調節性 T 細胞 (Treg)。
+### 與已核准適應症相關（同一疾病類別）
+| 適應症 | 已核准類別 |
+|------|------|
+| 無 | 無 |
 
-在骨髓瘤情境中，這個機轉有兩種用法：
-1. **異體移植後預防 GVHD**：在非清髓性異體移植中，以 basiliximab 耗竭活化 T 細胞。
-2. **自體移植後免疫調節**：自體幹細胞移植後 Treg 會快速重建並抑制抗骨髓瘤免疫，耗竭 Treg 理論上可增強抗腫瘤免疫。
-
-需要強調的是，這兩種連結都屬於**支持性照護／免疫調節**，並非直接殺傷骨髓瘤細胞。
-
----
-
-## 臨床試驗證據
-
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT00975975](https://clinicaltrials.gov/study/NCT00975975) | Phase 2 | 完成 | 17 | Basiliximab 加 cyclosporine 於非清髓性異體移植預防 GVHD；族群含骨髓瘤，為小型單臂研究，終點非骨髓瘤控制 |
-| [NCT01526096](https://clinicaltrials.gov/study/NCT01526096) | Phase 1 | 完成 | 30 | 骨髓瘤自體幹細胞移植中以 basiliximab 耗竭 Treg 的先導試驗，評估可行性與安全性，無療效結論 |
-| [NCT00594308](https://clinicaltrials.gov/study/NCT00594308) | NA | 提前終止 | 10 | 同為 T 細胞耗竭預防 GVHD，樣本極小且提前終止，可解讀性低 |
-
----
-
-## 文獻證據
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [12476283](https://pubmed.ncbi.nlm.nih.gov/12476283/) | 2002 | 世代研究 | Bone Marrow Transplant | 17 位類固醇難治性急性 GVHD 患者（含 1 位多發性骨髓瘤）使用 basiliximab，耐受性良好且有效 |
-| [31940591](https://pubmed.ncbi.nlm.nih.gov/31940591/) | 2020 | 先導世代研究 | J Immunother Cancer | 骨髓瘤自體移植後耗竭 Treg 的先導研究，探討移植後免疫功能失調 |
-| [42379467](https://pubmed.ncbi.nlm.nih.gov/42379467/) | 2026 | 病例報告/回顧 | Am J Kidney Dis | CAR-T 治療後骨髓瘤患者接受腎臟移植，屬移植情境討論 |
-| [28320553](https://pubmed.ncbi.nlm.nih.gov/28320553/) | 2017 | 病例報告 | Am J Kidney Dis | 4 位骨髓瘤所致腎衰竭患者接受腎臟移植的經驗 |
-
----
+### 知識圖譜中記錄的關聯（未發現核准）
+| 適應症 |
+|------|
+| 無 |
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-44725 | SIMULECT POWDER FOR INJ 20MG（Novartis） | 注射用粉劑 | 資料中未載明 |
-
----
+| 許可證字號 | 品名 | 劑型 | 狀態 |
+|------|------|------|------|
+| HK-44725 | SIMULECT POWDER FOR INJ 20MG |  | 有效 |
 
 ## 安全性考量
 
@@ -110,23 +84,6 @@ TxGNN 模型預測它可能對**漿細胞骨髓瘤 (Plasma Cell Myeloma)** 有�
 
 ---
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 現有證據都是 GVHD 預防或 Treg 耗竭的支持性／免疫調節用途，沒有顯示直接抗骨髓瘤療效的研究。試驗規模小（10–30 人），且為 Phase 1／2 或提前終止，雖然評分為 L2，實質證據強度偏弱。
-- 此外，免疫抑制本身可能影響抗腫瘤免疫，且與多種免疫抑制劑和活疫苗有嚴重交互作用。
-
-**若要推進需要：**
-- 取得 DrugBank 的作用機轉資料與香港仿單（核准適應症、警語、禁忌症）。
-- 針對骨髓瘤設計以腫瘤控制、無惡化存活期為終點的對照試驗。
-- 追蹤 NCT01526096 的免疫與臨床結果，確認 Treg 耗竭是否帶來實質益處。
-- 明確界定用途（移植支持性照護 vs. 抗腫瘤免疫調節），再決定是否推進。
-
-**其他預測適應症補充：**
-- **血紅素病變 (Hemoglobinopathy)**：有 Phase 4 試驗（NCT02342145，n=205，已完成；NCT03171831，n=30）顯示 basiliximab 用於地中海型貧血異體移植的 GVHD 預防，但其效益在移植情境，而非治療疾病本身。
-- **支氣管炎、胃癌等**：證據多為肺移植排斥或偶發性病例報告，推測是本體論比對的假象，不建議推進。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

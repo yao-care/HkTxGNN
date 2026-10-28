@@ -4,17 +4,17 @@ title: Risdiplam
 parent: 僅模型預測 (L5)
 nav_order: 778
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Risdiplam：預測新適應症為痤瘡 (acne)（證據等級 L5）。原適應症：資料未提供"
 monitor_inn: "Risdiplam"
-predicted_indications: ["acne (disease)", "drug-induced osteoporosis", "zinc, elevated plasma", "common wart", "metastatic melanoma", "dermatitis", "non-cutaneous melanoma", "acrodermatitis chronica atrophicans", "epithelioid cell melanoma", "eyelid melanoma"]
+predicted_indications: ["acne (disease)"]
 ---
 
 # Risdiplam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ TxGNN 模型預測它可能對**痤瘡 (acne)** 有效，預測分數很高。
 |------|------|
 | 原適應症 | 資料未提供（香港許可證未載明核准適應症文字） |
 | 預測新適應症 | 痤瘡 (acne) |
-| TxGNN 預測分數 | 99.45% |
+| TxGNN 預測分數 | 0.9945 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -62,11 +62,10 @@ TxGNN 模型預測它可能對**痤瘡 (acne)** 有效，預測分數很高。
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Risdiplam 是 SMN2 剪接調節劑，用於脊髓性肌肉萎縮症 (SMA)，其機轉是修正 SMN2 前驅 mRNA 的剪接，以提升功能性 SMN 蛋白的表現。
 
-**這個預測的合理性很低。** 痤瘡的病理與皮脂分泌、痤瘡丙酸桿菌 (C. acnes) 定植、毛囊角化異常及發炎有關。目前沒有任何資料顯示 SMN2 剪接調節與這些機轉有關。高分較可能反映知識圖譜中的鄰近關係，而非真實的藥理關聯。
+**這個預測的合理性很低。** 痤瘡的病理與皮脂分泌、痤瘡丙酸桿菌 (C. acnes) 定植、毛囊角化異常及發炎有關。目前沒有任何資料顯示 SMN2 剪接調節與這些機轉有關。此分數來自 TxGNN 模型（深度學習），較可能反映模型學到的相關疾病間的相似性，而非生物學證據。
 
 此外，Risdiplam 在仿單中有皮疹等皮膚相關不良反應的報告，這與預期的療效方向不一致。
 
-其他排名較高的預測（藥物誘發骨質疏鬆、血漿鋅升高、尋常疣、轉移性黑色素瘤、皮膚炎等）同樣沒有任何臨床或文獻證據，各項評估結果均為 Hold。
 
 ---
 
@@ -105,7 +104,7 @@ TxGNN 模型預測它可能對**痤瘡 (acne)** 有效，預測分數很高。
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高（99.45%），但沒有任何臨床試驗或文獻佐證，機轉上也找不到與痤瘡的關聯，證據等級僅為 L5。
+- 預測分數雖高（0.9945），但沒有任何臨床試驗或文獻佐證，機轉上也找不到與痤瘡的關聯，證據等級僅為 L5。
 - 現有的仿單資料（警語、禁忌症）與作用機轉資料不完整，無法進入安全性篩選。
 
 **若要推進需要：**

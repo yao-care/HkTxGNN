@@ -4,17 +4,17 @@ title: Rasburicase
 parent: 僅模型預測 (L5)
 nav_order: 760
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Rasburicase：預測新適應症為腎性低尿酸血症 (Hypouricemia, Renal)（證據等級 L5）。原適應症：高尿酸血症"
+indication_count: 10
 monitor_inn: "RASBURICASE"
-predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis"]
+predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "renal tubular acidosis", "disorder of phenylalanine metabolism"]
+last_modified_at: 2026-10-23
+description: "Rasburicase：預測新適應症為腎性低尿酸血症 (Hypouricemia, Renal)（證據等級 L5）。原適應症：高尿酸血症"
 ---
 
 # Rasburicase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,34 +38,28 @@ predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribo
 
 ## 一句話總結
 
-Rasburicase 是一種重組尿酸氧化酶，原本用於治療高尿酸血症。
-TxGNN 模型預測它可能對**腎性低尿酸血症 (Hypouricemia, Renal)** 有效，但目前**沒有任何臨床試驗或文獻**支持，且機轉上與預測方向相互矛盾。
-
----
+Rasburicase 是重組尿酸氧化酶，知識圖譜中記錄其與高尿酸血症相關。
+TxGNN 模型預測它可能對**腎性低尿酸血症 (Hypouricemia, Renal)** 有效，但目前**沒有任何臨床試驗或文獻**支持，且機轉上反而有安全疑慮，建議暫緩。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 高尿酸血症（來自知識圖譜；香港許可證未載明適應症文字） |
+| 原適應症 | 高尿酸血症（知識圖譜中記錄的關聯；香港許可證未提供適應症文字） |
 | 預測新適應症 | 腎性低尿酸血症 (Hypouricemia, Renal) |
-| TxGNN 預測分數 | 99.99% |
+| TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫未提供 MOA）。根據已知藥理，Rasburicase 是重組尿酸氧化酶，能把尿酸轉化為尿囊素，因此可降低血中尿酸。
+目前缺乏詳細的作用機轉資料（資料庫中未收錄）。根據一般藥理知識，Rasburicase 是重組尿酸氧化酶，可將尿酸轉化為尿囊素，降低血中尿酸。
 
-然而，腎性低尿酸血症的本質是腎臟尿酸再吸收缺陷（例如 SLC22A12/URAT1 或 SLC2A9 變異），患者血中尿酸本來就偏低。再進一步降低尿酸，無法修正根本缺陷，反而可能增加運動後急性腎損傷與泌尿道結石的風險。
+然而，腎性低尿酸血症本身就是血清尿酸偏低的疾病（常見於 URAT1/SLC22A12 或 GLUT9 功能喪失）。對這類病人再降低尿酸沒有治療依據，還可能造成傷害。因此這個高分預測（0.9999）來自 TxGNN 模型（深度學習），可能反映模型在相關疾病之間學到的相似性，而非生物學證據。
 
-因此，**這個高分預測在機轉上不合理，較可能是知識圖譜的網路鄰近性假象**。同時預測的其他疾病中，只有「次黃嘌呤鳥嘌呤磷酸核糖轉移酶部分缺乏症」（HPRT 部分缺乏，Kelley-Seegmiller 症候群）在機轉上有一定合理性，因為其特徵是尿酸過量生成。但這類疾病的長期治療通常使用 allopurinol 或 febuxostat，Rasburicase 為注射劑、僅限急性短期使用，重複給藥有免疫原性風險，且 G6PD 缺乏者禁用。
-
----
+此外，其他排名較前的預測（如次發於肝臟疾病、門脈高壓、紫質症、苯丙胺酸代謝異常等）同樣缺乏機轉依據，其分數同樣來自 TxGNN 模型（深度學習），可能反映模型在相關疾病之間學到的相似性，而非生物學證據。
 
 ## 臨床試驗證據
 
@@ -75,41 +69,32 @@ TxGNN 模型預測它可能對**腎性低尿酸血症 (Hypouricemia, Renal)** �
 
 目前無相關文獻。
 
----
-
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-49808 | FASTURTEC FOR INJ 1.5MG（Sanofi Hong Kong Limited） | 未載明 | 未載明 |
-
----
+| HK-49808 | FASTURTEC FOR INJ 1.5MG | 未提供 | 未提供（廠商：SANOFI HONG KONG LIMITED） |
 
 ## 安全性考量
 
-- **藥物交互作用**：共查得 13 項，其中 **2 項為重大 (Major)**：
+- **藥物交互作用**：共查得 13 筆，其中重大 (Major) 等級 2 筆：
   - Prilocaine
   - Nitrous acid（亞硝酸）
-- 其餘 11 項為中度 (Moderate)，主要是局部或眼用麻醉劑類：Tetracaine（眼用／外用）、Lidocaine（外用／眼用）、Benzocaine、Cocaine（外用／鼻用）、Proparacaine、Oxybuprocaine、Cinchocaine，另有 Idelalisib。
-- 補充（來自預測理由分析）：G6PD 缺乏者禁用；重複給藥有免疫原性風險。
-
-警語與禁忌症的仿單資料目前缺漏，請參考原廠仿單。
-
----
+- 其餘為中度 (Moderate) 交互作用，主要為局部或眼用麻醉藥（Tetracaine、Lidocaine、Benzocaine、Cocaine、Proparacaine、Oxybuprocaine、Cinchocaine）及 Idelalisib。
+- 其他警語、禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 所有預測的證據等級皆為 L5，僅有模型分數，無任何臨床試驗或文獻。
-- 排名第一的腎性低尿酸血症在機轉上與藥物作用方向相反，且有潛在風險，應視為模型假象。
+- 沒有任何臨床試驗或文獻直接研究此疾病，證據等級僅為 L5。
+- 腎性低尿酸血症本身尿酸已偏低，進一步降尿酸缺乏機轉依據且可能有害。
 
 **若要推進需要：**
-- 取得香港仿單的警語、禁忌症與核准適應症文字（目前為阻斷性資料缺口）。
-- 補齊作用機轉資料。
-- 若要探索，應優先評估 HPRT 部分缺乏症中的急性重度高尿酸血症情境，先做文獻回顧與病例搜尋。
-- 對腎性低尿酸血症、肝性紫質症、門脈高壓與門靜脈血栓等預測，建議不再投入資源，除非有新的機轉證據。
+- 取得詳細的作用機轉資料
+- 取得香港仿單的警語與禁忌症
+- 重新檢視是否有更合理的候選適應症（例如與尿酸代謝相關的急性狀況），並以文獻或試驗佐證
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

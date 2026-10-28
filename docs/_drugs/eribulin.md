@@ -4,17 +4,17 @@ title: Eribulin
 parent: 僅模型預測 (L5)
 nav_order: 335
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Eribulin：預測新適應症為纖維母細胞腫瘤 (Fibroblastic Neoplasm)（證據等級 L5）。原適應症：脂肪肉瘤"
 monitor_inn: "ERIBULIN"
-predicted_indications: ["autosomal recessive familial Mediterranean fever", "dermatofibrosarcoma protuberans", "pleural mesothelioma", "malignant peritoneal mesothelioma", "ovarian myxoid liposarcoma", "pleural adenomatoid tumor", "pleural biphasic mesothelioma", "fibroblastic neoplasm", "pleural epithelioid mesothelioma", "heart fibrosarcoma"]
+predicted_indications: ["autosomal recessive familial Mediterranean fever", "dermatofibrosarcoma protuberans", "pleural mesothelioma", "malignant peritoneal mesothelioma", "pleural adenomatoid tumor", "pleural biphasic mesothelioma", "fibroblastic neoplasm", "pleural epithelioid mesothelioma", "heart fibrosarcoma"]
+description: "Eribulin：預測新適應症為Autosomal recessive familial Mediterranean fever（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Eribulin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["autosomal recessive familial Mediterranean fever", "der
 
 </div>
 
-## Eribulin：從脂肪肉瘤到纖維母細胞腫瘤
+## Eribulin: Autosomal recessive familial Mediterranean fever
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型的預測排名第一為**自體隱性家族性地中海熱**，但�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 脂肪肉瘤（香港許可證未載明適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 纖維母細胞腫瘤 (Fibroblastic Neoplasm)（證據最完整的候選；預測排名第 1 者為自體隱性家族性地中海熱，分數 99.82%，無任何證據，建議 Hold） |
-| TxGNN 預測分數 | 99.36%（纖維母細胞腫瘤）；排名第 1 的家族性地中海熱為 99.82% |
-| 證據等級 | L2（此判定依據報告內的候選分級，見下方說明） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Autosomal recessive familial Mediterranean fever |
+| TxGNN 預測分數 | 0.9982 |
+| 證據等級 | L5（此判定依據報告內的候選分級，見下方說明） |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Proceed with Guardrails（僅限纖維母細胞腫瘤／孤立性纖維性腫瘤方向的研究性推進） |
 
 **說明：** 納入的 Phase 2 試驗人數少（16 人），結果數據未提供，嚴格依本報告的等級規則（需已完成的 Phase 2/3 RCT）可能偏高，保守看待應視為 L2 至 L4 之間。其餘 9 個預測中，7 個為 L5 或 L4 且皆為 Hold。
@@ -68,15 +68,15 @@ TxGNN 模型的預測排名第一為**自體隱性家族性地中海熱**，但�
 
 | 預測疾病 | 分數 | 等級 | 備註 |
 |---|---|---|---|
-| 家族性地中海熱 | 99.82% | L5 | 與秋水仙素同為微管相關，但 Eribulin 毒性大（嗜中性白血球減少、神經病變），不適合長期用於自體發炎疾病 |
-| 隆突性皮膚纖維肉瘤 | 99.66% | L4 | 僅有一般軟組織肉瘤化療綜述，主要以手術與 imatinib 治療 |
-| 胸膜間皮瘤 | 99.51% | L5 | 抗有絲分裂藥物（如 vinorelbine）有部分活性，無 Eribulin 資料 |
-| 惡性腹膜間皮瘤 | 99.47% | L5 | 同上，且罕見 |
-| 卵巢黏液樣脂肪肉瘤 | 99.47% | L4 | 由已核准的脂肪肉瘤適應症外推，無部位特異性資料 |
-| 胸膜腺瘤樣瘤 | 99.46% | L5 | 多為良性，不宜全身性化療 |
-| 胸膜雙相型間皮瘤 | 99.37% | L5 | 肉瘤樣成分理論上可能有反應 |
-| 胸膜上皮樣間皮瘤 | 99.35% | L5 | 僅為模型預測 |
-| 心臟纖維肉瘤 | 99.35% | L4 | 極罕見，僅間接外推 |
+| 家族性地中海熱 | 0.9982 | L5 | 與秋水仙素同為微管相關，但 Eribulin 毒性大（嗜中性白血球減少、神經病變），不適合長期用於自體發炎疾病 |
+| 隆突性皮膚纖維肉瘤 | 0.9966 | L4 | 僅有一般軟組織肉瘤化療綜述，主要以手術與 imatinib 治療 |
+| 胸膜間皮瘤 | 0.9951 | L5 | 抗有絲分裂藥物（如 vinorelbine）有部分活性，無 Eribulin 資料 |
+| 惡性腹膜間皮瘤 | 0.9947 | L5 | 同上，且罕見 |
+| 卵巢黏液樣脂肪肉瘤 | 0.9947 | L4 | 由已核准的脂肪肉瘤適應症外推，無部位特異性資料 |
+| 胸膜腺瘤樣瘤 | 0.9946 | L5 | 多為良性，不宜全身性化療 |
+| 胸膜雙相型間皮瘤 | 0.9937 | L5 | 肉瘤樣成分理論上可能有反應 |
+| 胸膜上皮樣間皮瘤 | 0.9935 | L5 | 僅為模型預測 |
+| 心臟纖維肉瘤 | 0.9935 | L4 | 極罕見，僅間接外推 |
 
 ## 臨床試驗證據
 
@@ -112,7 +112,6 @@ TxGNN 模型的預測排名第一為**自體隱性家族性地中海熱**，但�
 | 項目 | 內容 |
 |------|------|
 | 細胞毒性分類 | 傳統細胞毒性藥物（微管動力學抑制劑） |
-| 骨髓抑制風險 | 高（知識圖譜標示嗜中性白血球減少、血小板減少、顆粒球缺乏為風險） |
 | 致吐性分級 | 低至中度（依藥物類別判斷，請參考仿單） |
 | 監測項目 | CBC（含分類）、肝腎功能、電解質（鉀）、心電圖（QT） |
 | 處置防護 | 需依細胞毒性藥物處置規範操作 |

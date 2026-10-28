@@ -4,17 +4,17 @@ title: Siponimod
 parent: 僅模型預測 (L5)
 nav_order: 816
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Siponimod：預測新適應症為肺動脈高壓 (Pulmonary Hypertension)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Siponimod"
-predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "Prinzmetal angina", "rheumatoid arthritis", "atrophoderma vermiculata", "ulerythema ophryogenesis", "myelodysplastic syndrome"]
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura", "Prinzmetal angina", "rheumatoid arthritis", "atrophoderma vermiculata"]
 ---
 
 # Siponimod
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有�
 |------|------|
 | 原適應症 | 資料未載明 |
 | 預測新適應症 | 肺動脈高壓 (Pulmonary Hypertension) |
-| TxGNN 預測分數 | 99.68% |
+| TxGNN 預測分數 | 0.9968 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -85,11 +85,9 @@ TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有�
 
 | 排名 | 預測適應症 | 分數 | 證據等級 | 備註 |
 |------|-----------|------|---------|------|
-| 2 | 偏頭痛 (Migraine disorder) | 99.66% | L4 | 僅有 1 篇間接個案報告，另 1 篇為泛論性神經科回顧 |
-| 4 | 腦幹型先兆偏頭痛 | 99.56% | L4 | 僅有間接文獻 |
-| 5 | 偏頭痛易感性 | 99.49% | L4 | 為遺傳易感性分類詞，非可治療的臨床實體 |
-| 7 | 類風濕性關節炎 | 99.16% | L4 | 有 S1P 訊號在免疫疾病的回顧，機轉合理但無 RA 專屬資料；建議列為研究問題 |
-| 10 | 骨髓增生異常症候群 | 98.79% | L5 | 淋巴球下降效應可能加重血球低下與感染風險 |
+| 2 | 偏頭痛 (Migraine disorder) | 0.9966 | L4 | 僅有 1 篇間接個案報告，另 1 篇為泛論性神經科回顧 |
+| 4 | 腦幹型先兆偏頭痛 | 0.9956 | L5 | 僅有間接文獻 |
+| 7 | 類風濕性關節炎 | 0.9916 | L5 | 有 S1P 訊號在免疫疾病的回顧，機轉合理但無 RA 專屬資料；建議列為研究問題 |
 
 其餘預測（脊柱後凸性心臟病、Prinzmetal 心絞痛、萎縮性蠕蟲狀皮膚病、眉部紅斑性毛囊角化症）皆僅有模型預測，無機轉依據或臨床證據。
 

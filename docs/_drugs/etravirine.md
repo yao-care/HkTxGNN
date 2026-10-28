@@ -4,17 +4,17 @@ title: Etravirine
 parent: 僅模型預測 (L5)
 nav_order: 355
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Etravirine：預測新適應症為貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome)（證據等級 L5）。原適應症：HIV 感染、愛滋病"
+indication_count: 8
 monitor_inn: "ETRAVIRINE"
-predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "obsolete familial combined hyperlipidemia"]
+last_modified_at: 2026-10-23
+description: "Etravirine：預測新適應症為猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)（證據等級 L5）。原適應症：本報告彙整的香港許可證資料中未載明核准適應症"
 ---
 
 # Etravirine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,33 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 </div>
 
-## Etravirine：從 HIV 感染到貓免疫缺陷病毒感染（預測）
+## Etravirine：從 HIV 感染到猿猴免疫缺陷病毒感染
 {: .text-alpha }
 
 ## 一句話總結
 
-Etravirine 是一種 HIV-1 非核苷類逆轉錄酶抑制劑（NNRTI），原本用於 HIV 感染與愛滋病治療。
-TxGNN 模型預測分數最高的新適應症為**貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome)**，但目前**沒有任何臨床試驗或文獻**直接支持，僅為模型預測。
+Etravirine 是一種非核苷類逆轉錄酶抑制劑（NNRTI），知識圖譜記錄的原適應症為 HIV 感染與愛滋病。
+TxGNN 模型預測它可能對**猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)** 有效，但目前**沒有臨床試驗**，只有 **1 篇間接的前臨床文獻**，證據相當薄弱。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | HIV 感染、愛滋病 |
-| 預測新適應症 | 貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome) |
-| TxGNN 預測分數 | 99.98% |
+| 原適應症 | 本報告彙整的香港許可證資料中未載明核准適應症；知識圖譜記錄的相關關係為 HIV 感染、愛滋病 |
+| 預測新適應症 | 猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection) |
+| TxGNN 預測分數 | 0.9998 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 核准許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Etravirine 屬於 HIV-1 NNRTI，透過抑制病毒逆轉錄酶阻斷病毒複製，對許多對第一代 NNRTI 產生抗藥性的 HIV 株仍具活性。
+目前缺乏詳細的作用機轉資料。根據已知的藥物分類，Etravirine 屬於 NNRTI，作用是抑制 HIV-1 逆轉錄酶，阻止病毒複製。
 
-貓免疫缺陷病毒 (FIV) 與 HIV 同屬慢病毒，因此模型在知識圖譜中將兩者拉近。不過，FIV 的逆轉錄酶一般被認為對 NNRTI 具天然抗藥性，這個高分較可能反映的是圖譜上與 HIV 的鄰近關係，而非已驗證的機轉。
+SIV 與 HIV 同屬慢病毒，因此在概念上存在關聯。不過，SIV 的逆轉錄酶性質上較接近 HIV-2，對 NNRTI 天生較不敏感，所以任何活性都必須另行驗證。
 
-其他預測結果也需謹慎解讀：猿猴免疫缺陷病毒 (SIV) 感染同樣缺乏可靠的 NNRTI 敏感性證據；「AIDS 相關症候群」其實屬於原有 HIV 適應症的另一種說法，並非真正的新適應症；而神經發展障礙一項在機轉上沒有合理關聯，應屬圖譜運算的假象。其中，**先天性（母嬰）HIV** 是機轉上最直接適用的方向，但目前僅有小型病例報告。
+TxGNN 模型（深度學習）給出的高分，可能反映模型學到的相關疾病之間的相似性（例如與 HIV 原適應症的相似性），並非生物學證據。此外，SIV 感染主要是動物模型疾病，除作為前臨床模型外，沒有直接的人類臨床意義。
 
 ## 臨床試驗證據
 
@@ -67,48 +67,51 @@ TxGNN 模型預測分數最高的新適應症為**貓後天免疫缺乏症候群
 
 ## 文獻證據
 
-針對排名第一的預測（貓後天免疫缺乏症候群），目前無相關文獻。
-
-下表為其他預測適應症中較相關的文獻，僅供參考：
-
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [20587860](https://pubmed.ncbi.nlm.nih.gov/20587860/) | 2010 | 病例系列／回溯性報告 | Antiviral Therapy | 兩例高度治療經驗的孕婦使用 darunavir 與 etravirine（加或不加 raltegravir），提供懷孕期使用的有限安全性與藥動學資料（對應「先天性 HIV」） |
-| [19290032](https://pubmed.ncbi.nlm.nih.gov/19290032/) | 2009 | 世代研究 | AIDS Reviews | HIV 患者（治療與未治療）腸胃道不良事件的風險因子（對應「AIDS 相關症候群」，屬間接證據） |
-| [27067022](https://pubmed.ncbi.nlm.nih.gov/27067022/) | 2016 | 前臨床／病毒學 | AIDS Research and Human Retroviruses | L228I 與 Y232H 新突變以組合方式造成 NNRTI 抗藥性（對應「AIDS 相關症候群」，屬間接證據） |
-| [26529558](https://pubmed.ncbi.nlm.nih.gov/26529558/) | 2015 | 前臨床（體外） | Molecular Pharmaceutics | 奈米顆粒抗病毒藥物組合可協同抑制 HIV 的游離病毒與細胞間傳播（對應「SIV 感染」，間接且僅為前臨床） |
+| [26529558](https://pubmed.ncbi.nlm.nih.gov/26529558/) | 2015 | 前臨床（體外） | Molecular Pharmaceutics | 奈米粒子載體的抗病毒藥物組合可協同抑制 HIV 的游離病毒與細胞間傳播；研究對象為 HIV，並非 SIV，屬間接證據 |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-61470 | INTELENCE TAB 200MG | （未提供） | （未提供） |
-
-製造商：Johnson & Johnson (Hong Kong) Ltd.，狀態：有效。
+| HK-61470 | INTELENCE TAB 200MG | 未載明 | 未載明 |
 
 ## 安全性考量
 
-- **知識圖譜標記的禁忌疾病**（來自知識圖譜關聯，並非仿單內容）：慢性 C 型肝炎病毒感染、C 型肝炎病毒感染、慢性 B 型肝炎病毒感染、周邊神經系統疾病、周邊神經病變。
-- **藥物交互作用**：共查得 100 筆，以下為部分列示（皆為 DDInter 資料）：
+- **知識圖譜記錄的禁忌關係**（非仿單內容）：慢性 C 型肝炎病毒感染、C 型肝炎病毒感染、慢性 B 型肝炎病毒感染、周邊神經系統疾病、周邊神經病變。
+- **藥物交互作用**：共查得 100 筆，以下為部分範例。
   - 中度：Rabeprazole、Omeprazole、Cimetidine、Clarithromycin、Hydrocortisone、Dexamethasone、Betamethasone、Triamcinolone、Aprepitant、Pioglitazone、Saxagliptin、Linagliptin、Glimepiride、Chlorpropamide、Metronidazole 等
-  - 輕度：Ranitidine
+  - 輕微：Ranitidine
 
-主要警語與正式禁忌症請參考原廠仿單。
+其餘安全性資訊（警語、禁忌症）請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 排名第一的預測（貓免疫缺陷）完全沒有試驗與文獻支持，證據等級僅為 L5，且 FIV 逆轉錄酶對 NNRTI 具天然抗藥性，高分可能是圖譜假象。
-- 唯一較有臨床意義的方向是先天性（母嬰）HIV，機轉直接適用，但目前僅有小型病例報告（L3），屬於值得研究的問題，而非可直接推進的新適應症。
+- 沒有任何直接研究猿猴免疫缺陷病毒感染的臨床試驗或文獻，唯一的文獻是 HIV 的間接前臨床研究，因此證據等級為 L5。
+- SIV 逆轉錄酶對 NNRTI 天生較不敏感，且此疾病為動物模型，缺乏人類轉譯價值。
 
 **若要推進需要：**
-- 以體外試驗驗證 etravirine 對 FIV／SIV 逆轉錄酶的實際抑制活性
-- 若關注母嬰 HIV：蒐集孕婦與新生兒的藥動學、安全性與療效資料，並檢視相關臨床試驗
-- 取得詳細作用機轉資料（MOA）
-- 取得香港衛生署仿單的警語與禁忌症，完成安全性篩選
-- 評估 B/C 型肝炎共感染與周邊神經病變族群的使用風險
+- 在 SIV 感染模型中進行 Etravirine 的體外與動物活性實驗，確認逆轉錄酶敏感性
+- 釐清此預測在研究上的實際用途（例如僅作為前臨床模型），再決定是否值得投入
+- 取得詳細的作用機轉資料，並下載香港衛生署的仿單以補足警語與禁忌症
+
+---
+
+**附註：本次其他預測適應症（皆建議 Hold，證據等級 L5）**
+
+| 預測適應症 | TxGNN 分數 | 說明 |
+|-----------|-----------|------|
+| 貓後天免疫缺乏症候群 | 0.9998 | 貓免疫缺陷病毒的逆轉錄酶對 NNRTI 敏感性差；屬獸醫適應症，無文獻與試驗 |
+| 伴共濟失調步態、無語言及皮質白質減少的神經發展障礙 | 0.9997 | 未發現機轉關聯，分數可能反映 TxGNN 模型（深度學習）學到的相關疾病間相似性，並非生物學證據 |
+| 前列腺纖維瘤 | 0.9972 | 無機轉依據，也無證據 |
+| Brenner 瘤 | 0.9970 | 無機轉依據，也無證據 |
+| 良性生殖系統腫瘤 | 0.9970 | 疾病類別過於廣泛，高分可能來自本體論鄰近性 |
+| 良性前列腺葉狀腫瘤 | 0.9965 | 無機轉依據，也無證據 |
+| 已廢棄之家族性複合型高脂血症 | 0.9964 | 該術語已廢棄，且無降脂機轉依據 |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

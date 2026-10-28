@@ -4,17 +4,17 @@ title: Terazosin
 parent: 僅模型預測 (L5)
 nav_order: 862
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Terazosin：預測新適應症為頭皮單純性毛髮稀疏症 (Hypotrichosis simplex of the scalp)（證據等級 L5）。原適應症：高血壓、良性前列腺增生"
+indication_count: 10
 monitor_inn: "TERAZOSIN"
-predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder"]
+predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
+last_modified_at: 2026-10-23
+description: "Terazosin：預測新適應症為頭皮單純性毛髮稀少症 (hypotrichosis simplex of the scalp)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Terazosin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,91 +33,113 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 
 </div>
 
-## Terazosin：從高血壓與良性前列腺增生到落髮相關疾患（毛髮稀疏症）
+## Terazosin: 頭皮單純性毛髮稀少症 (hypotrichosis simplex of the scalp)
 {: .text-alpha }
 
 ## 一句話總結
 
-Terazosin 是一種 α1 腎上腺素受體阻斷劑，原本用於治療高血壓和良性前列腺增生。
-TxGNN 模型預測分數最高的新適應症是**頭皮單純性毛髮稀疏症 (Hypotrichosis simplex of the scalp)**，但目前**沒有任何臨床試驗或文獻**直接支持，僅屬模型預測。
-相對地，在其他預測項目中，**偏頭痛 (Migraine disorder)** 有 2 篇早期文獻，是較值得追蹤的假說。
+Terazosin 是一種 α1 腎上腺素受體拮抗劑，知識圖譜中記錄的原適應症為高血壓與良性前列腺增生。
+TxGNN 模型排名第 1 的預測為「頭皮單純性毛髮稀少症」，但該預測完全沒有研究支持。本報告同時指出，在有文獻的預測中，**雷諾氏病 (Raynaud Disease)** 是機轉上最合理者，目前僅有 **1 篇 1997 年臨床報告**，**無臨床試驗登記**。
+
+> 說明：排名第 1 的「頭皮單純性毛髮稀少症」沒有任何臨床試驗或文獻，證據等級為 L5。以下快速總覽以排名第 1 的預測呈現，之後再補充有文獻佐證的次要候選。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 高血壓、良性前列腺增生（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 頭皮單純性毛髮稀疏症 (Hypotrichosis simplex of the scalp) |
-| TxGNN 預測分數 | 99.97% |
+| 原適應症（知識圖譜記錄） | 本地許可證資料未記載適應症 |
+| 預測新適應症（排名第 1） | 頭皮單純性毛髮稀少症 (hypotrichosis simplex of the scalp) |
+| TxGNN 預測分數 | 0.9997 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 20 張 |
+| 香港上市 | 上市中（有效許可證 20 張／共 20 張） |
+| 許可證數 | 20 張（有效 20 張） |
 | 建議決策 | Hold |
+
+香港許可證資料中未載明核准適應症文字，因此無法由本次資料確認香港的核准適應症。上列原適應症僅是知識圖譜中的關係記錄，不代表已核准。
+
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Terazosin 屬於 α1 腎上腺素受體阻斷劑，透過放鬆血管與前列腺平滑肌來降血壓、改善排尿症狀。
+目前缺乏詳細的作用機轉資料。Terazosin 屬於 α1 腎上腺素受體拮抗劑，一般認為作用為放鬆血管與前列腺平滑肌，這是類別層級的知識，並非本次資料所載。
 
-在毛髮稀疏症方面，理論上可類比 minoxidil 等血管擴張劑，推測血管擴張可能改善頭皮微循環。但這只是推測：頭皮單純性毛髮稀疏症屬遺傳性疾病，α1 阻斷劑與其致病機轉之間尚無已建立的關聯。因此 99.97% 的高分應視為圖譜計算的結果，而非實際療效的證據。
+就排名第 1 的「頭皮單純性毛髮稀少症」而言，這是一種遺傳性毛囊疾病，α1 阻斷與其之間沒有已知的直接機轉。唯一可推測的關聯是頭皮微循環的血管擴張，但缺乏資料支持。分數來自 TxGNN 模型（深度學習），較可能反映模型學到的相關疾病之間的相似性，而非生物學證據。同樣的判斷也適用於排名第 2 的先天性毛髮稀少伴粟丘疹、第 3 的瀰漫性斑禿與第 8 的 Ambras 型全身性多毛症，這些預測皆無試驗或文獻。
 
-同一份預測清單中的其他項目也值得一提：
+**有文獻佐證的次要候選：**
+- **雷諾氏病（排名 7，分數 0.9983）**：機轉最具說服力，α1 阻斷可減少指端血管的交感神經收縮。1997 年一份報告顯示，terazosin 可減少特發性與繼發性雷諾氏現象患者的血管痙攣發作次數、強度與持續時間。
+- **偏頭痛（排名 5，分數 0.9992）**：有 1994 年小型開放性試驗與 1997 年 α1 阻斷劑預防偏頭痛的回顧，但證據老舊且樣本小。
+- **禿髮（排名 4）**：僅有一篇心血管藥物肝外效應的回顧，並非針對 terazosin 的療效研究。
 
-- **先天性毛髮稀疏伴粟丘疹**與**瀰漫性圓禿**：無任何證據。圓禿屬自體免疫疾病，α1 阻斷與其免疫機轉缺乏關聯。
-- **落髮 (Alopecia)**：僅有 1 篇心血管藥物腦外效應的回顧，是否提及 terazosin 無法確認。
-- **偏頭痛**：有 2 篇文獻，機轉設想為調節腎上腺素性血管張力與交感神經活性，證據較接近可探索的方向。
+---
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記（頭皮單純性毛髮稀疏症及其他預測適應症皆無）。
+排名第 1 的預測（頭皮單純性毛髮稀少症）：目前無相關臨床試驗登記。
+
+其他有文獻的預測同樣沒有登記的臨床試驗。
+
+---
 
 ## 文獻證據
 
-針對首位預測（頭皮單純性毛髮稀疏症）：目前無相關文獻。
+排名第 1 的預測（頭皮單純性毛髮稀少症）：目前無相關文獻。
 
-以下為其他預測適應症的文獻，僅供參考：
+以下為其他預測適應症的相關文獻，僅供參考：
 
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [9074296](https://pubmed.ncbi.nlm.nih.gov/9074296/) | 1997 | Review／個人經驗報告 | Headache | 10 名偏頭痛患者使用 terazosin 或 doxazosin，除 1 人外偏頭痛頻率或嚴重度下降，但 5 人因副作用停藥（偏頭痛） |
-| [7911406](https://pubmed.ncbi.nlm.nih.gov/7911406/) | 1994 | 臨床研究（開放試驗，規模小） | La Clinica terapeutica | 46 名無預兆偏頭痛患者分為 terazosin、buflomedil 及合併組，探討預防效果；因與另一藥物合併研究，難以單獨歸因（偏頭痛） |
-| [34779371](https://pubmed.ncbi.nlm.nih.gov/34779371/) | 2022 | Review | Current Cardiology Reviews | 心血管藥物的心臟外效應回顧（如 minoxidil 的多毛副作用）；是否提及 terazosin 無法確認（落髮） |
+| PMID | 年份 | 類型 | 期刊 | 對應預測 | 主要發現 |
+|------|-----|------|------|---------|---------|
+| [9273472](https://pubmed.ncbi.nlm.nih.gov/9273472/) | 1997 | 臨床研究（設計未確認） | Minerva Cardioangiologica | 雷諾氏病 | Terazosin 減少特發性與繼發性雷諾氏現象的血管痙攣發作次數、強度與持續時間，並改善熱成像與超音波表現 |
+| [7911406](https://pubmed.ncbi.nlm.nih.gov/7911406/) | 1994 | 小型臨床研究 | La Clinica Terapeutica | 偏頭痛 | 46 位無預兆偏頭痛患者的開放性試驗，探討 terazosin 與 buflomedil 的預防作用 |
+| [9074296](https://pubmed.ncbi.nlm.nih.gov/9074296/) | 1997 | 回顧 | Headache | 偏頭痛 | 10 位患者使用 terazosin 或 doxazosin，除 1 位外頻率或嚴重度皆下降，但 5 位因副作用停藥 |
+| [34779371](https://pubmed.ncbi.nlm.nih.gov/34779371/) | 2022 | 回顧 | Current Cardiology Reviews | 禿髮 | 心血管藥物的肝外效應回顧，提及 minoxidil 促進毛髮生長，並非 terazosin 專屬證據 |
+
+---
 
 ## 香港上市資訊
 
-共 20 張有效單一成分許可證，以下列出 5 張主要許可證：
+資料中未提供劑型與核准適應症文字。以下列出 5 張主要許可證：
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-28971 | HYTRIN TAB 2MG（ABBOTT LAB LTD） | 錠劑 | 未提供 |
-| HK-28970 | HYTRIN TAB 5MG（ABBOTT LAB LTD） | 錠劑 | 未提供 |
-| HK-28972 | HYTRIN TAB 1MG（ABBOTT LAB LTD） | 錠劑 | 未提供 |
-| HK-61096 | KOZOSIN TAB 1MG（LSB (HK) LIMITED） | 錠劑 | 未提供 |
-| HK-52958 | TERAZO TAB 1MG（EUROPHARM LAB CO LTD） | 錠劑 | 未提供 |
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-28971 | HYTRIN TAB 2MG | ABBOTT LAB LTD |
+| HK-28970 | HYTRIN TAB 5MG | ABBOTT LAB LTD |
+| HK-28972 | HYTRIN TAB 1MG | ABBOTT LAB LTD |
+| HK-61096 | KOZOSIN TAB 1MG | LSB (HK) LIMITED |
+| HK-52958 | TERAZO TAB 1MG | EUROPHARM LAB CO LTD |
+
+其餘 15 張包含 APO-TERAZOSIN、PMS-TERAZOSIN、TERAZOSIN-TEVA、TERADRIN、APT-TERASIN、RASINOL、TERASIN、KORUS-TERAZOSIN 等品牌。
+
+---
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌或需謹慎情況**：多系統萎縮、姿勢性直立心搏過速症候群 (POTS)、姿勢性低血壓、陰莖異常勃起 (priapism)、術中虹膜鬆弛症候群 (IFIS)。此資料來自知識圖譜，並非仿單內容。
-- **藥物交互作用**：共查得 100 筆，以下為部分中度 (Moderate) 交互作用：
-  - 皮質類固醇：hydrocortisone、prednisone、prednisolone、dexamethasone、betamethasone、budesonide、triamcinolone
-  - SGLT2 抑制劑：canagliflozin、dapagliflozin、empagliflozin、ertugliflozin
-  - 其他：bupropion、morphine、opium、dronabinol、nabilone
-- 另有 calcitriol、pantoprazole、glimepiride 等交互作用等級為未知。
+- **知識圖譜記錄的禁忌關係**（非仿單內容）：多發性系統萎縮、姿勢性直立心搏過速症候群、姿勢性低血壓、陰莖異常勃起、術中虹膜鬆弛症候群。
+- **藥物交互作用**：共查得 100 筆，以下為部分中度交互作用：
+  - 皮質類固醇類：Hydrocortisone、Prednisone、Prednisolone、Dexamethasone、Betamethasone、Budesonide、Triamcinolone
+  - SGLT2 抑制劑：Canagliflozin、Dapagliflozin、Empagliflozin、Ertugliflozin
+  - 鴉片類：Morphine、Opium
+  - 其他：Bupropion、Dronabinol、Nabilone
+- **文獻提及的風險**：直立性低血壓與首劑暈厥，這在雷諾氏病與偏頭痛的預測評估中皆是重要的耐受性風險。
 
-仿單的警語與禁忌資料尚未取得，詳細安全性資訊請參考原廠仿單。
+仿單的警語與禁忌資料尚未取得，請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：Hold**（針對排名第 1 的預測：頭皮單純性毛髮稀少症）
 
 **理由：**
-- 首位預測（頭皮單純性毛髮稀疏症）僅有模型分數，沒有任何試驗或文獻，機轉設想也缺乏依據，屬 L5 證據。
-- 排名前列的毛髮相關預測均無證據；偏頭痛雖有早期文獻，但研究老舊、規模小、設計不嚴謹，只能視為待研究的假說（Research Question）。
+- 該預測僅有模型分數，沒有任何試驗或文獻，也沒有合理的機轉，證據等級為 L5。
+- 相對地，雷諾氏病與偏頭痛可列為「研究問題」。但目前沒有任何研究直接且充分地支持這些適應症，且現有文獻老舊、規模小、設計未確認，不足以支持推進。
 
 **若要推進需要：**
-- 取得 terazosin 的作用機轉資料（MOA）與香港仿單的警語、禁忌資料
-- 確認 PMID 34779371 是否實際討論 terazosin 與落髮的關聯
-- 若有意探索偏頭痛，需設計現代化的對照試驗，並評估姿勢性低血壓等耐受性問題
-- 針對毛髮疾患，先進行機轉或前臨床研究，再評估是否值得進入臨床階段
+- 取得香港仿單的警語、禁忌與核准適應症文字，並補齊 DrugBank 的作用機轉資料。
+- 針對雷諾氏病取得 PMID 9273472 全文，確認研究設計、樣本數與終點。
+- 設計小型隨機對照試驗，納入血壓監測與首劑暈厥的防護措施。
+- 毛髮相關預測在出現任何機轉或實驗證據前，不建議投入資源。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

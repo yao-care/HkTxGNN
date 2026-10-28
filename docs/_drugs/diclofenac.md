@@ -6,9 +6,9 @@ nav_order: 274
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Diclofenac：預測新適應症為頭皮單純性毛髮稀少症 (Hypotrichosis simplex of the scalp)（證據等級 L5）。原適應症：光線性角化症、脂漏性角化症、類風濕性關節炎、僵直性脊椎炎、骨關節炎"
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
+description: "Diclofenac：預測新適應症為頭皮單純性毛髮稀少症 (Hypotrichosis simplex of the scalp)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Diclofenac
@@ -33,7 +33,7 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dys
 
 </div>
 
-## Diclofenac：從關節炎與光線性角化症到幼年特發性關節炎
+## Diclofenac: 頭皮單純性毛髮稀少症 (Hypotrichosis simplex of the scalp)（排名第 1，無證據）；另列出有文獻支持的幼年特發性關節炎 (hypotrichosis simplex of the scalp)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,11 +47,11 @@ TxGNN 模型排名第一的預測是**頭皮單純性毛髮稀少症**，但該�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 光線性角化症、脂漏性角化症、類風濕性關節炎、僵直性脊椎炎、骨關節炎（來自知識圖譜，香港許可證未載明適應症文字） |
-| 預測新適應症 | 頭皮單純性毛髮稀少症 (Hypotrichosis simplex of the scalp)（排名第 1，無證據）；另列出有文獻支持的幼年特發性關節炎 (JIA) |
-| TxGNN 預測分數 | 99.69%（毛髮稀少症）；JIA 為 99.25% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 頭皮單純性毛髮稀少症 (Hypotrichosis simplex of the scalp)（排名第 1，無證據）；另列出有文獻支持的幼年特發性關節炎 (hypotrichosis simplex of the scalp) |
+| TxGNN 預測分數 | 0.9969 |
 | 證據等級 | L5（排名第 1 的預測）；JIA 為 L3 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold（排名第 1 的預測）；JIA 列為研究問題 (Research Question) |
 
@@ -61,7 +61,7 @@ TxGNN 模型排名第一的預測是**頭皮單純性毛髮稀少症**，但該�
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Diclofenac 屬於 COX-1/COX-2 抑制劑類的 NSAID，透過抑制前列腺素合成來達到消炎與止痛效果。
 
-**排名第 1 的預測（頭皮單純性毛髮稀少症）**：這是一種遺傳性掉髮疾病（如 CDSN、APCDD1、RPL21 變異），並非由前列腺素路徑驅動。目前找不到可信的機轉連結，高分僅來自知識圖譜的推論。
+**排名第 1 的預測（頭皮單純性毛髮稀少症）**：這是一種遺傳性掉髮疾病（如 CDSN、APCDD1、RPL21 變異），並非由前列腺素路徑驅動。目前找不到可信的機轉連結，高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病間相似性，而非生物學證據。
 
 **其他排名前列的預測**：排名 2 至 8 與 10 的疾病（如 Hunter-Thompson 型肢中發育不良、假性軟骨發育不全、短軀幹症、肌硬化症、瀰漫性圓形禿、WHIM 症候群等）多為遺傳性或自體免疫疾病，同樣沒有合理的機轉連結，也沒有任何臨床試驗或文獻。
 
@@ -133,7 +133,7 @@ TxGNN 模型排名第一的預測是**頭皮單純性毛髮稀少症**，但該�
 **決策：Hold**（排名第 1 的預測：頭皮單純性毛髮稀少症；JIA 列為研究問題）
 
 **理由：**
-- 排名前 8 及第 10 的預測皆無臨床試驗、無文獻，且機轉上與 COX 抑制沒有合理連結，高分僅反映圖譜推論，不建議推進。
+- 排名前 8 及第 10 的預測皆無臨床試驗、無文獻，且機轉上與 COX 抑制沒有合理連結，分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病間相似性，而非生物學證據，不建議推進。
 - JIA 雖有機轉合理性與少量兒童使用文獻，但證據為 1980–1990 年代的小規模研究，屬 NSAID 既有用途延伸，非真正的新適應症，證據等級僅 L3。
 
 **若要推進需要：**

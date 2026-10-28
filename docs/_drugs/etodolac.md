@@ -4,17 +4,17 @@ title: Etodolac
 parent: 僅模型預測 (L5)
 nav_order: 350
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Etodolac：預測新適應症為模型排名第 1 為 acromesomelic dysplasia, Hunter-Thompson type（證據等級 L5）。原適應症：類風濕性關節炎、退化性關節炎、關節病變、幼年型特發性關節炎、脊椎關節病變"
 monitor_inn: "ETODOLAC"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "spondyloarthropathy, susceptibility to", "brachyolmia", "ankylosing spondylitis", "pseudoachondroplasia", "hypermobility of coccyx", "inflammatory spondylopathy"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
+description: "Etodolac：預測新適應症為模型排名第 1 為 acromesomelic dysplasia, Hunter-Thompson type（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Etodolac
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 </div>
 
-## Etodolac：從類風濕性關節炎／退化性關節炎到僵直性脊椎炎
+## Etodolac: 模型排名第 1 為 acromesomelic dysplasia, Hunter-Thompson type（證據等級 L5）；本報告以證據最多的**僵直性脊椎炎**為主要評估對象 (acromesomelic dysplasia, Hunter-Thompson type)
 {: .text-alpha }
 
 ## 一句話總結
 
 Etodolac 是一種偏向抑制 COX-2 的非類固醇抗發炎藥（NSAID），原本用於類風濕性關節炎、退化性關節炎等關節疾病。
-TxGNN 模型預測分數最高的是罕見骨骼發育異常疾病，但這些預測缺乏機轉與實證支持。相對合理的方向是**僵直性脊椎炎 (Ankylosing Spondylitis)**，目前有 **8 篇文獻**（多為回顧與上市後安全性研究）支持，但**沒有臨床試驗登記**，且缺乏針對該疾病的 etodolac 專屬隨機對照試驗。
+TxGNN 模型預測分數最高的是 Hunter-Thompson 型肢中發育不良，但這項預測缺乏機轉與實證支持。
 
 ---
 
@@ -47,12 +47,12 @@ TxGNN 模型預測分數最高的是罕見骨骼發育異常疾病，但這些�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 類風濕性關節炎、退化性關節炎、關節病變、幼年型特發性關節炎、脊椎關節病變（香港許可證未載明核准適應症文字，此為知識圖譜所列適應症） |
-| 預測新適應症 | 模型排名第 1 為 acromesomelic dysplasia, Hunter-Thompson type（證據等級 L5）；本報告以證據最多的**僵直性脊椎炎**為主要評估對象 |
-| TxGNN 預測分數 | 排名第 1：99.97%；僵直性脊椎炎：99.93% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 模型排名第 1 為 acromesomelic dysplasia, Hunter-Thompson type（證據等級 L5）；本報告以證據最多的**僵直性脊椎炎**為主要評估對象 (acromesomelic dysplasia, Hunter-Thompson type) |
+| TxGNN 預測分數 | 0.9997 |
 | 證據等級 | 僵直性脊椎炎：L4；排名第 1 之預測：L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold（排名第 1 之預測）；僵直性脊椎炎為 Research Question，建議以 Proceed with Guardrails 的方式審慎評估 |
 
 ---
@@ -61,9 +61,8 @@ TxGNN 模型預測分數最高的是罕見骨骼發育異常疾病，但這些�
 
 目前缺乏詳細的作用機轉資料（資料庫中的 MOA 欄位為空）。根據文獻，etodolac 是偏向抑制環氧合酶-2 (COX-2) 的 NSAID，透過降低前列腺素合成來減輕發炎與疼痛。
 
-**排名第 1 的預測（Hunter-Thompson 型肢中部發育不良）**是由 CDMP1/GDF5 基因突變引起的罕見骨骼發育異常。Etodolac 對 GDF5 訊號或骨骼發育沒有已知作用，分數高很可能只是知識圖譜中與關節病變、骨骼疾病相近所造成。其他高分預測（brachyolmia 相關疾病、假性軟骨發育不全等）同樣僅有模型預測，無任何試驗或文獻。
+**排名第 1 的預測（Hunter-Thompson 型肢中發育不良）**是由 CDMP1/GDF5 基因突變引起的罕見骨骼發育異常。Etodolac 對 GDF5 訊號或骨骼發育沒有已知作用，分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。其他高分預測（短椎體症相關疾病、假性軟骨發育不全等）同樣僅有模型預測，無任何試驗或文獻。
 
-**僵直性脊椎炎**則不同：NSAID 是此病的一線症狀治療，與 etodolac 在脊椎關節病變的既有用途一致，機轉上合理。但要注意，現有文獻證據偏向 NSAID 類別效應，並非 etodolac 專屬的 AS 隨機試驗。另外「脊椎關節病變易感性」與「發炎性脊椎病變」兩項預測，與原適應症高度重疊，較像本體論（ontology）重疊，而非真正的新機會。
 
 ---
 
@@ -75,7 +74,6 @@ TxGNN 模型預測分數最高的是罕見骨骼發育異常疾病，但這些�
 
 ## 文獻證據
 
-以下為僵直性脊椎炎預測相關文獻（「發炎性脊椎病變」預測使用相同文獻組）。
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
@@ -111,7 +109,7 @@ TxGNN 模型預測分數最高的是罕見骨骼發育異常疾病，但這些�
 
 ## 結論與下一步
 
-**決策：Hold（高分罕見骨骼疾病預測）；僵直性脊椎炎為 Research Question**
+**決策：Hold（高分罕見骨骼疾病預測）**
 
 **理由：**
 - TxGNN 分數最高的預測（Hunter-Thompson 型肢中部發育不良等）缺乏機轉依據、試驗與文獻，不建議推進。

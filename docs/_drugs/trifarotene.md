@@ -4,17 +4,17 @@ title: Trifarotene
 parent: 僅模型預測 (L5)
 nav_order: 907
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Trifarotene：預測新適應症為血漿鋅偏高 (zinc, elevated plasma)（證據等級 L5）。原適應症：痤瘡 (acne)"
 monitor_inn: "Trifarotene"
-predicted_indications: ["zinc, elevated plasma", "pyogenic arthritis-pyoderma gangrenosum-acne syndrome", "demodicidosis of sebaceous gland", "spondyloarthropathy, susceptibility to", "malaria", "Zollinger-Ellison syndrome", "Ehlers-Danlos syndrome", "Beare-Stevenson cutis gyrata syndrome", "isolated congenital adermatoglyphia", "malignant atrophic papulosis"]
+predicted_indications: ["zinc, elevated plasma", "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"]
 ---
 
 # Trifarotene
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**血漿鋅偏高 (zinc, elevated plasma)** 有效
 |------|------|
 | 原適應症 | 痤瘡 (acne) |
 | 預測新適應症 | 血漿鋅偏高 (zinc, elevated plasma) |
-| TxGNN 預測分數 | 99.40% |
+| TxGNN 預測分數 | 0.9940 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**血漿鋅偏高 (zinc, elevated plasma)** 有效
 
 目前缺乏詳細的作用機轉資料。從藥理資料可知，Trifarotene 是一種視網酸受體（RAR）的配體，作用於 RAR-α、RAR-β 與 RAR-γ，其中以 RAR-γ 選擇性最受關注，主要影響表皮角質細胞的分化。它的代謝高度不穩定，外用時全身暴露量有限。
 
-血漿鋅偏高是一種全身性的代謝或實驗室指標異常，與 RAR-γ 路徑沒有已知關聯。因此，**本報告未發現合理的機轉連結**。TxGNN 的高分（99.40%）僅來自知識圖譜的網路關係推論，缺乏臨床或文獻佐證，應視為假設而非結論。
+血漿鋅偏高是一種全身性的代謝或實驗室指標異常，與 RAR-γ 路徑沒有已知關聯。因此，**本報告未發現合理的機轉連結**。TxGNN 模型（深度學習）給出的高分（0.9940）可能反映模型從相關疾病之間學到的相似性，而非生物學證據，缺乏臨床或文獻佐證，應視為假設而非結論。
 
 其他排名較前的預測也多缺乏支持。例如「PAPA 症候群（化膿性關節炎－壞疽性膿皮症－痤瘡症候群）」只有痤瘡部分在理論上可能受益，但無法處理全身性自體發炎問題；「皮脂腺蠕形蟎感染」的 Trifarotene 沒有抗寄生蟲活性。這些同樣都停留在 L5 層級。
 

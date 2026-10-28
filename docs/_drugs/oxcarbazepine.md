@@ -4,17 +4,17 @@ title: Oxcarbazepine
 parent: 中證據等級 (L3-L4)
 nav_order: 650
 evidence_level: L4
-indication_count: 5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Oxcarbazepine：預測新適應症為視覺性癲癇 (Visual Epilepsy)（證據等級 L4）。原適應症：局部性癲癇（partial epilepsy）、局部運動性癲癇（partial motor epilepsy）"
 monitor_inn: "OXCARBAZEPINE"
 predicted_indications: ["restless legs syndrome"]
+description: "Oxcarbazepine：預測新適應症為Restless legs syndrome（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Oxcarbazepine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L4** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["restless legs syndrome"]
 
 </div>
 
-## Oxcarbazepine：從局部性癲癇到視覺性癲癇
+## Oxcarbazepine: Restless legs syndrome
 {: .text-alpha }
 
 ## 一句話總結
 
 Oxcarbazepine 是一種鈉離子通道阻斷型抗癲癇藥物，原本用於局部性癲癇（partial epilepsy）的治療。
-TxGNN 模型預測它可能對**視覺性癲癇 (Visual Epilepsy)** 有效，
 但目前**沒有臨床試驗**，僅有 **16 篇文獻**，且多為一般抗癲癇藥物的綜述與指引，並未直接針對視覺性癲癇。
 
 ---
@@ -48,12 +47,12 @@ TxGNN 模型預測它可能對**視覺性癲癇 (Visual Epilepsy)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 局部性癲癇（partial epilepsy）、局部運動性癲癇（partial motor epilepsy） |
-| 預測新適應症 | 視覺性癲癇 (Visual Epilepsy) |
-| TxGNN 預測分數 | 99.95% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Restless legs syndrome |
+| TxGNN 預測分數 | 0.9989 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 5 張 |
+| 香港上市 | 上市中（有效許可證 5 張／共 5 張） |
+| 許可證數 | 5 張（有效 5 張） |
 | 建議決策 | Hold |
 
 ---
@@ -117,7 +116,6 @@ TxGNN 模型預測它可能對**視覺性癲癇 (Visual Epilepsy)** 有效，
 **決策：Hold**
 
 **理由：**
-- 目前沒有任何針對視覺性癲癇的臨床試驗或直接文獻，證據僅停留在機轉合理性與模型預測（L4）。
 - 此預測主要是既有局部性癲癇適應症的延伸，並非獨立的再利用訊號，新增價值有限。
 
 **若要推進需要：**
@@ -132,10 +130,7 @@ TxGNN 模型預測它可能對**視覺性癲癇 (Visual Epilepsy)** 有效，
 
 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
 |-----------|-----------|---------|------|
-| 不寧腿症候群 (Restless Legs Syndrome) | 99.89% | L4 | 研究問題（僅有 3 篇小型病例報告，無臨床試驗） |
-| 性高潮誘發癲癇 (Orgasm-induced seizures) | 99.89% | L5 | Hold（無試驗亦無文獻） |
-| 思考誘發癲癇 (Thinking seizures) | 99.89% | L5 | Hold（文獻多為小鼠模型與一般綜述） |
-| 驚嚇性癲癇 (Startle epilepsy) | 99.89% | L5 | Hold（無試驗亦無文獻） |
+| 不寧腿症候群 (Restless Legs Syndrome) | 0.9989 | L4 | 研究問題（僅有 3 篇小型病例報告，無臨床試驗） |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Estradiol Valerate：預測新適應症為脆性 X 症候群女性帶因者的症狀性表現 (symptomatic form of fragile X syndrome in female…（證據等級 L5）。原適應症：原發性卵巢衰竭 (primary ovarian failure)"
 monitor_inn: "ESTRADIOL VALERATE"
-predicted_indications: ["symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "ovarian remnant syndrome", "anovulation", "luteoma of pregnancy", "ovarian dysfunction"]
+predicted_indications: ["symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "anovulation", "ovarian remnant syndrome", "luteoma of pregnancy", "ovarian dysfunction"]
 ---
 
 # Estradiol Valerate
@@ -33,7 +33,7 @@ predicted_indications: ["symptomatic form of fragile X syndrome in female carrie
 
 </div>
 
-## Estradiol Valerate：從原發性卵巢衰竭到 FMR1 前突變女性帶因者的症狀性脆性 X 症候群
+## Estradiol Valerate：脆性 X 症候群女性帶因者的症狀性表現
 {: .text-alpha }
 
 ## 一句話總結
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**脆性 X 症候群女性帶因者的症狀性表
 |------|------|
 | 原適應症 | 原發性卵巢衰竭 (primary ovarian failure) |
 | 預測新適應症 | 脆性 X 症候群女性帶因者的症狀性表現 (symptomatic form of fragile X syndrome in female carrier) |
-| TxGNN 預測分數 | 99.94% |
+| TxGNN 預測分數 | 0.9994 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ---
@@ -69,7 +69,7 @@ FMR1 前突變的女性帶因者可能發生 FXPOI（脆性 X 相關原發性卵
 
 TxGNN 的其他高分預測多數缺乏實質證據：
 - **眼瞼狹小-倒轉型內眥贅皮-上瞼下垂症候群（BPES）及其 3q23 重組型**：伴隨卵巢功能不全時，雌激素補充僅可處理卵巢部分，無法處理眼瞼與顱顏特徵。
-- **染色體 5p、12p、18p 部分三體/四體**：無明確機轉連結，可能只是知識圖譜中表型相近所致。
+- **染色體 5p、12p、18p 部分三體/四體**：無明確機轉連結，分數來自 TxGNN 模型（深度學習），可能只是反映模型學到的相關疾病之間的相似性，並非生物學證據。
 - **卵巢殘餘症候群、妊娠黃體瘤**：缺乏合理的治療依據，且外源性雌激素可能適得其反或有安全疑慮。
 - **無排卵 (anovulation)**：有 1 個 Phase 4 試驗與文獻，但文獻多為動物研究，見下方說明。
 - **卵巢功能障礙 (ovarian dysfunction)**：文獻多為動物模型，僅有間接臨床支持。
@@ -136,7 +136,7 @@ TxGNN 的其他高分預測多數缺乏實質證據：
 **決策：Hold**
 
 **理由：**
-- 首位預測適應症僅有模型分數（99.94%），沒有任何臨床試驗或文獻佐證，證據等級為 L5。機轉上雖與 FXPOI 的雌激素缺乏相關，但僅能處理卵巢部分，無法涵蓋脆性 X 症候群的其他症狀。
+- 首位預測適應症僅有模型分數（0.9994），沒有任何臨床試驗或文獻佐證，證據等級為 L5。機轉上雖與 FXPOI 的雌激素缺乏相關，但僅能處理卵巢部分，無法涵蓋脆性 X 症候群的其他症狀。
 - 其他高分預測多缺乏合理機轉或以動物誘發模型為主，不構成療效證據。
 
 **若要推進需要：**

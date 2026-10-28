@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Carisoprodol
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 165
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Carisoprodol：預測新適應症為失眠 (Insomnia)（證據等級 L4）。原適應症：資料中未載明"
@@ -14,7 +14,7 @@ predicted_indications: ["insomnia (disease)"]
 # Carisoprodol
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，
 |------|------|
 | 原適應症 | 資料中未載明 |
 | 預測新適應症 | 失眠 (Insomnia) |
-| TxGNN 預測分數 | 99.02% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| TxGNN 預測分數 | 0.9902 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -64,7 +64,7 @@ TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，
 
 唯一的支持文獻談的是夜間腿部抽筋，這是一種會干擾睡眠的肌肉骨骼問題，並非直接測試失眠治療。因此即使有睡眠上的益處，也較可能是間接的，例如緩解抽筋或肌肉緊繃，或來自鎮靜作用本身。
 
-TxGNN 分數很高（0.99），但這僅是計算模型的預測，不能取代實際研究。
+TxGNN 分數很高（0.9902），但這僅是計算模型的預測，不能取代實際研究。
 
 ---
 

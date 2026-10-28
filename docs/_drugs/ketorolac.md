@@ -6,9 +6,9 @@ nav_order: 499
 evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Ketorolac：預測新適應症為頭痛疾患 (Headache Disorder)（證據等級 L1）。原適應症：過敏性結膜炎、乳突狀結膜炎、春季結膜炎"
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
+description: "Ketorolac：預測新適應症為頭痛疾患 (headache disorder)（證據等級 L1）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Ketorolac
@@ -33,12 +33,12 @@ predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigemin
 
 </div>
 
-## Ketorolac：從過敏性／春季／乳突狀結膜炎到頭痛疾患
+## Ketorolac: 頭痛疾患 (headache disorder)
 {: .text-alpha }
 
 ## 一句話總結
 
-Ketorolac 是一種非類固醇消炎止痛藥（NSAID），在知識圖譜中的原適應症為過敏性、春季及乳突狀結膜炎。
+Ketorolac 是一種非類固醇消炎止痛藥（NSAID），原適應症為過敏性、春季及乳突狀結膜炎。
 TxGNN 模型預測它可能對**頭痛疾患 (Headache Disorder)** 有效，
 目前有 **17 個臨床試驗**和 **20 篇文獻**支持這個方向，其中包含指引與系統性回顧。
 這個用途更接近已確立的仿單外使用（off-label），而非全新的再利用方向。
@@ -49,12 +49,12 @@ TxGNN 模型預測它可能對**頭痛疾患 (Headache Disorder)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 過敏性結膜炎、乳突狀結膜炎、春季結膜炎（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 頭痛疾患 (Headache Disorder) |
-| TxGNN 預測分數 | 99.43% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 頭痛疾患 (headache disorder) |
+| TxGNN 預測分數 | 0.9943 |
 | 證據等級 | L1 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 5 張 |
+| 香港上市 | 上市中（有效許可證 5 張／共 5 張） |
+| 許可證數 | 5 張（有效 5 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---
@@ -147,8 +147,8 @@ TxGNN 模型預測它可能對**頭痛疾患 (Headache Disorder)** 有效，
 
 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 | 說明 |
 |-----------|-----------|---------|------|------|
-| 酒糟性結膜炎 (Rosacea Conjunctivitis) | 99.40% | L5 | Hold | 僅有模型預測，無臨床試驗與文獻；機轉上 COX 抑制可能減輕眼表發炎，但僅屬假說 |
-| 三叉自主神經性頭痛 (Trigeminal Autonomic Cephalalgia) | 99.39% | L4 | Research Question | 機轉合理，但 NSAID 在叢集性頭痛的療效一般有限；唯一試驗已撤回（0 人），證據僅有間接文獻 |
+| 酒糟性結膜炎 (Rosacea Conjunctivitis) | 0.9940 | L5 | Hold | 僅有模型預測，無臨床試驗與文獻；機轉上 COX 抑制可能減輕眼表發炎，但僅屬假說 |
+| 三叉自主神經性頭痛 (Trigeminal Autonomic Cephalalgia) | 0.9939 | L4 | Research Question | 機轉合理，但 NSAID 在叢集性頭痛的療效一般有限；唯一試驗已撤回（0 人），證據僅有間接文獻 |
 
 ---
 

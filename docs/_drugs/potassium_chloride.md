@@ -6,9 +6,9 @@ nav_order: 718
 evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Potassium Chloride：預測新適應症為腎小管酸中毒 (Renal Tubular Acidosis)（證據等級 L4）。原適應症：缺鉀症（potassium deficiency disease）、便秘（constipation disorder）"
 monitor_inn: "POTASSIUM CHLORIDE"
 predicted_indications: ["renal tubular acidosis"]
+description: "Potassium Chloride：預測新適應症為腎小管酸中毒 (renal tubular acidosis)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Potassium Chloride
@@ -33,7 +33,7 @@ predicted_indications: ["renal tubular acidosis"]
 
 </div>
 
-## Potassium Chloride：從缺鉀症到腎小管酸中毒
+## Potassium Chloride: 腎小管酸中毒 (renal tubular acidosis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,11 +48,11 @@ TxGNN 模型預測它可能對**腎小管酸中毒 (Renal Tubular Acidosis, RTA)
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 缺鉀症（potassium deficiency disease）、便秘（constipation disorder）（來自知識圖譜，香港許可證未載明適應症文字） |
-| 預測新適應症 | 腎小管酸中毒 (Renal Tubular Acidosis) |
-| TxGNN 預測分數 | 99.87% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 腎小管酸中毒 (renal tubular acidosis) |
+| TxGNN 預測分數 | 0.9987 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 

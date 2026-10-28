@@ -4,17 +4,17 @@ title: Cefditoren
 parent: 僅模型預測 (L5)
 nav_order: 170
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Cefditoren：預測新適應症為骨關節炎易感性 (Osteoarthritis Susceptibility)（證據等級 L5）。原適應症：目前資料未提供核准適應症文字"
+indication_count: 1
 monitor_inn: "Cefditoren"
-predicted_indications: ["osteoarthritis susceptibility", "rheumatoid arthritis", "osteoarthritis", "hemoglobinopathy", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "partial deletion of the short arm of chromosome 16"]
+predicted_indications: ["rheumatoid arthritis"]
+last_modified_at: 2026-10-23
+description: "Cefditoren：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L5）。原適應症：許可證資料未載明"
 ---
 
 # Cefditoren
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ predicted_indications: ["osteoarthritis susceptibility", "rheumatoid arthritis",
 
 </div>
 
-## Cefditoren：從細菌感染到骨關節炎易感性
+## Cefditoren：從未載明的原適應症到類風濕性關節炎
 {: .text-alpha }
 
 ## 一句話總結
 
-Cefditoren 是第三代口服頭孢菌素類抗生素，原本用於細菌感染治療。
-TxGNN 模型預測它可能對**骨關節炎易感性 (Osteoarthritis Susceptibility)** 有效，
-但目前**沒有任何臨床試驗或文獻**支持這個方向，預測分數高很可能是知識圖譜的人為產物，而非藥理訊號。
+Cefditoren 是第三代口服頭孢菌素類抗生素（以 pivoxil 前驅藥形式給藥），香港許可證資料中未載明其核准適應症。
+TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** 有效，但目前**沒有任何臨床試驗或文獻**支持這個方向，僅為模型預測。
 
 ---
 
@@ -48,23 +47,25 @@ TxGNN 模型預測它可能對**骨關節炎易感性 (Osteoarthritis Susceptibi
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 目前資料未提供核准適應症文字（許可證未載明） |
-| 預測新適應症 | 骨關節炎易感性 (Osteoarthritis Susceptibility) |
-| TxGNN 預測分數 | 99.16% |
+| 原適應症 | 許可證資料未載明 |
+| 預測新適應症 | 類風濕性關節炎 (Rheumatoid Arthritis) |
+| TxGNN 預測分數 | 0.9902 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Cefditoren 是第三代口服頭孢菌素，透過結合青黴素結合蛋白（PBP）抑制細菌細胞壁合成，用於抗菌治療。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Cefditoren 是第三代口服頭孢菌素，透過結合青黴素結合蛋白 (PBP) 來抑制細菌細胞壁合成，用於抗菌治療。
 
-骨關節炎易感性屬於遺傳風險表型，並非抗菌藥物可治療的疾病。以現有資料來看，**找不到可信的機轉連結**。
+這種作用機轉與類風濕性關節炎（一種自體免疫性發炎疾病）之間**沒有已知的機轉關聯**。Cefditoren 並無已知與類風濕性關節炎相關的免疫調節或抗發炎活性。
 
-其他排名靠前的預測（類風濕性關節炎、骨關節炎、血紅蛋白病、多種罕見骨骼發育不良症候群等）同樣缺乏機轉支持與實證資料，分數偏高較可能反映知識圖譜中疾病之間的鄰近性，而非藥理作用。
+TxGNN 模型（深度學習）給出的高分（0.9902）可能反映模型在相關疾病之間學到的相似性，並非生物學證據。任何進一步的推測（例如腸道菌叢調節、抗生素對感染誘發自體免疫的影響）都缺乏現有資料支持。
+
+此外，pivoxil 基團會釋出 pivalate，可能造成肉鹼 (carnitine) 耗竭，這是需要留意的安全性疑慮，而非益處。
 
 ---
 
@@ -90,14 +91,14 @@ TxGNN 模型預測它可能對**骨關節炎易感性 (Osteoarthritis Susceptibi
 
 ## 安全性考量
 
-- **藥物交互作用**：已查得 27 筆交互作用紀錄，以下為主要項目（皆為中度）：
-  - **抗酸劑**：氫氧化鋁、碳酸鈣、氫氧化鎂、氧化鎂、碳酸鎂、Magaldrate、碳酸氫鈉、檸檬酸鈉
-  - **H2 受體拮抗劑**：Famotidine、Ranitidine、Cimetidine、Nizatidine
-  - **質子幫浦抑制劑**：Omeprazole、Esomeprazole、Lansoprazole、Dexlansoprazole、Rabeprazole、Pantoprazole
-  - **抗凝血劑**：Dicoumarol
-- **其他考量**：Cefditoren pivoxil 這類 pivalate 酯類前驅藥可能導致肉鹼（carnitine）耗竭，若用於血紅蛋白病等族群需特別留意。
+- **藥物交互作用**：共查得 27 筆交互作用，以下為資料中列出的主要項目，均為中度等級：
+  - 抑酸劑與制酸劑：Aluminum hydroxide、Calcium carbonate、Magnesium carbonate、Magnesium hydroxide、Magnesium oxide、Magaldrate、Sodium bicarbonate、Sodium citrate
+  - H2 受體拮抗劑：Famotidine、Ranitidine、Cimetidine、Nizatidine、Ranitidine (bismuth citrate)
+  - 質子幫浦抑制劑：Omeprazole、Esomeprazole、Lansoprazole、Dexlansoprazole、Rabeprazole、Pantoprazole
+  - 抗凝血劑：Dicoumarol
+- **其他考量**：pivoxil 前驅藥釋出的 pivalate 可能導致肉鹼耗竭。
 
-警語與禁忌症資料未取得，請參考原廠仿單。
+其餘警語與禁忌症資料請參考原廠仿單。
 
 ---
 
@@ -106,13 +107,14 @@ TxGNN 模型預測它可能對**骨關節炎易感性 (Osteoarthritis Susceptibi
 **決策：Hold**
 
 **理由：**
-- 所有預測適應症皆僅有模型預測（L5），沒有臨床試驗或文獻，且無任何合理的藥理機轉；Cefditoren 的抗菌機轉與骨關節炎易感性（遺傳風險表型）無關。
-- 高分很可能是知識圖譜的人為產物，不建議投入資源推進。
+- 預測來自 TxGNN 模型（深度學習），可能反映模型在相關疾病之間學到的相似性，沒有臨床試驗、文獻或明確的機轉支持，證據等級為 L5。
+- 抗菌機轉與類風濕性關節炎的免疫發炎病理缺乏關聯，且 pivalate 相關的肉鹼耗竭風險使風險效益不明。
 
 **若要推進需要：**
-- 補齊 Cefditoren 的作用機轉資料及香港仿單的警語與禁忌症
-- 取得任何支持新適應症的機轉或前臨床證據
-- 若無上述證據，建議將資源轉向機轉上更合理的候選藥物或適應症
+- 建立合理的機轉假說，並以前臨床研究驗證（例如在關節炎模型中的免疫或抗發炎活性）
+- 取得詳細的作用機轉資料（MOA）
+- 取得香港仿單中的警語、禁忌症與核准適應症
+- 文獻與臨床試驗的系統性檢索，確認是否有任何與類風濕性關節炎直接相關的研究
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

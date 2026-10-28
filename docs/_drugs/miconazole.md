@@ -6,9 +6,9 @@ nav_order: 583
 evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Miconazole：預測新適應症為痤瘡 (Acne)（證據等級 L3）。原適應症：足癬、體癬、皮膚念珠菌症、甲癬、花斑癬、外陰陰道念珠菌症等"
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
+description: "Miconazole：預測新適應症為痤瘡 (acne (disease))（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Miconazole
@@ -33,7 +33,7 @@ predicted_indications: ["acne (disease)"]
 
 </div>
 
-## Miconazole：從皮膚黴菌感染與念珠菌症到痤瘡
+## Miconazole: 痤瘡 (acne (disease))
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,11 +46,11 @@ TxGNN 模型預測它可能對**痤瘡 (Acne)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 足癬、體癬、皮膚念珠菌症、甲癬、花斑癬、外陰陰道念珠菌症等（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 痤瘡 (Acne) |
-| TxGNN 預測分數 | 99.54% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 痤瘡 (acne (disease)) |
+| TxGNN 預測分數 | 0.9954 |
 | 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -64,7 +64,7 @@ Miconazole 與痤瘡的關聯，大致有三條可能路徑：
 2. **Malassezia 毛囊炎**：Malassezia（糠秕孢子菌）毛囊炎在臨床上常被誤診為痤瘡，抗黴菌藥對其有效（PMID 8593718）。這代表部分「痤瘡樣」病灶可能其實是黴菌所致，不等同於一般尋常痤瘡。
 3. **抗發炎作用**：有文獻提到 Miconazole 在皮膚上具抗發炎效果，可能有助於發炎性病灶（PMID 18627330、15536660）。
 
-TxGNN 分數很高（0.995），但這是計算預測，不能取代臨床證據。
+TxGNN 分數很高（0.9954），但這是計算預測，不能取代臨床證據。
 
 ## 臨床試驗證據
 

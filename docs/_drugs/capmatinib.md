@@ -4,17 +4,17 @@ title: Capmatinib
 parent: 僅模型預測 (L5)
 nav_order: 154
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Capmatinib：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L5）。原適應症：許可證資料未載明"
 monitor_inn: "Capmatinib"
-predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "heart disease", "Jeune syndrome situs inversus", "Pierre Robin syndrome associated with a chromosomal anomaly", "orofacial clefting syndrome", "Laubry-Pezzi syndrome", "interventricular septum aneurysm", "hyperthyroidism"]
+predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Capmatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 |------|------|
 | 原適應症 | 許可證資料未載明 |
 | 預測新適應症 | 類風濕性關節炎 (Rheumatoid Arthritis) |
-| TxGNN 預測分數 | 99.45% |
+| TxGNN 預測分數 | 0.9945 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

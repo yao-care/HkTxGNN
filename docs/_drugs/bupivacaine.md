@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 137
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
-description: "Bupivacaine：預測新適應症為慢性萎縮性肢端皮膚炎 (Acrodermatitis chronica atrophicans)（證據等級 L5）。原適應症：皮膚炎 (dermatitis)"
 monitor_inn: "Bupivacaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
+last_modified_at: 2026-10-27
+description: "Bupivacaine：預測新適應症為慢性萎縮性肢端皮膚炎 (acrodermatitis chronica atrophicans)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Bupivacaine
@@ -33,85 +33,71 @@ predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermato
 
 </div>
 
-## Bupivacaine：從皮膚炎到慢性萎縮性肢端皮膚炎
+## Bupivacaine：局部麻醉藥（鈉離子通道阻斷劑） → 慢性萎縮性肢端皮膚炎 (acrodermatitis chronica atrophicans)
 {: .text-alpha }
 
 ## 一句話總結
 
-Bupivacaine 是一種醯胺類局部麻醉藥，在本次資料中的原適應症為皮膚炎 (dermatitis)。
-TxGNN 模型預測它可能對**慢性萎縮性肢端皮膚炎 (Acrodermatitis chronica atrophicans)** 有效，
-但目前**沒有任何臨床試驗或文獻**支持這個方向，僅屬模型預測。
+Bupivacaine 是一種醯胺類局部麻醉藥，在香港以注射劑型上市。
+TxGNN 模型預測它可能對**慢性萎縮性肢端皮膚炎 (acrodermatitis chronica atrophicans)** 有效，
+但目前**沒有任何臨床試驗或文獻**直接支持這個方向，僅屬模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 皮膚炎 (dermatitis)（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 慢性萎縮性肢端皮膚炎 (Acrodermatitis chronica atrophicans) |
-| TxGNN 預測分數 | 99.23% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 慢性萎縮性肢端皮膚炎 (acrodermatitis chronica atrophicans) |
+| TxGNN 預測分數 | 0.9923 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 9 張 |
+| 香港上市 | 上市中（有效許可證 9 張／共 9 張） |
+| 許可證數 | 9 張（有效 9 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Bupivacaine 屬於醯胺類局部麻醉藥，一般認為是阻斷電壓門控鈉通道，但這並非來自本報告所整理的 MOA 欄位。
+目前缺乏詳細的作用機轉資料。一般認為 Bupivacaine 屬醯胺類局部麻醉藥，作用於電壓門控鈉離子通道，但這並非本次整理資料所提供的內容，僅作背景說明。
 
-慢性萎縮性肢端皮膚炎是萊姆病（Borrelia 感染）的晚期皮膚表現，治療核心是抗生素。局部麻醉藥的鈉通道阻斷作用與清除感染無關，因此**現有資料無法支持任何機轉上的關聯**。
-
-高分預測（99.23%）較可能反映知識圖譜中與「皮膚炎」類疾病節點的鄰近性，而非真實的療效訊號。
-
-其他預測的新適應症也有相同情形，目前同樣沒有試驗或文獻支持：
-
-| 排名 | 預測適應症 | TxGNN 分數 | 評估 |
-|------|-----------|-----------|------|
-| 2 | 新生兒皮肌炎 (Neonatal dermatomyositis) | 99.15% | 屬免疫介導疾病；bupivacaine 具肌肉毒性，是安全疑慮而非治療依據 |
-| 3 | 兒童結締組織病相關次發性間質性肺病 | 99.11% | 無已知抗纖維化或免疫調節機轉；兒童使用需另行評估安全性 |
-| 4 | 無肌病性皮肌炎 (Amyopathic dermatomyositis) | 99.03% | 最多只能推測局部緩解疼痛或搔癢，缺乏支持 |
+慢性萎縮性肢端皮膚炎是 Borrelia 感染的晚期皮膚表現，治療核心是抗生素。局部麻醉藥的鈉離子通道阻斷作用對處理潛在感染沒有已知角色。因此，就現有資料而言，**找不到足以支持此預測的機轉連結**。0.9923 的分數只是模型輸出，較可能反映模型對皮膚炎類疾病的相近性，而非臨床證據。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
-目前無相關文獻
+目前無相關文獻。
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-68545 | BUPIVACAINE HYPERBARIC SINTETICA SOLUTION FOR INJECTION 20MG/4ML | 注射液 | 未提供 |
-| HK-64812 | BUPIVACAINE FOR SPINAL ANAESTHESIA AGUETTANT SOLUTION FOR INJECTION 5MG/ML | 注射液 | 未提供 |
-| HK-63247 | REGIVELL SOLUTION FOR INJECTION 20MG/4ML | 注射液 | 未提供 |
-| HK-42437 | MARCAIN SPINAL HEAVY INJ 0.5% | 注射液 | 未提供 |
-| HK-35573 | MARCAIN POLYAMP DUOFIT 0.25% | 注射液 | 未提供 |
+| HK-68545 | BUPIVACAINE HYPERBARIC SINTETICA SOLUTION FOR INJECTION 20MG/4ML | 注射劑 | 本地資料未記載 |
+| HK-64812 | BUPIVACAINE FOR SPINAL ANAESTHESIA AGUETTANT SOLUTION FOR INJECTION 5MG/ML | 注射劑 | 本地資料未記載 |
+| HK-63247 | REGIVELL SOLUTION FOR INJECTION 20MG/4ML | 注射劑 | 本地資料未記載 |
+| HK-42437 | MARCAIN SPINAL HEAVY INJ 0.5% | 注射劑 | 本地資料未記載 |
+| HK-35573 | MARCAIN POLYAMP DUOFIT 0.25% | 注射劑 | 本地資料未記載 |
 
-（本藥共有 9 張有效單方許可證，上表僅列 5 張。）
+本地資料共有多張有效單方許可證，上表僅列出其中 5 張。
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌疾病（非仿單內容）**：高血壓、低血壓、肝衰竭與肝病、腎臟病、癲癇、慢性阻塞性肺病、呼吸衰竭、心房顫動、冠狀動脈疾病、心肌梗塞、心臟傳導疾病、心臟驟停、糖尿病與糖尿病酮酸中毒、甲狀腺功能低下、發炎性腸道疾病、良性前列腺增生、血紅素病變、閉鎖角青光眼、物質濫用/依賴等。
-- **藥物交互作用**：共查得 56 筆。中度等級的有 Aprepitant、Morphine (liposomal)；其餘如 Atropine、Vancomycin、Ondansetron、Metoclopramide、Dexamethasone、Prednisone、Simvastatin 等等級未明。
-- 此外，bupivacaine 的肌肉毒性對預測的皮肌炎類適應症尤其值得注意。
+- **藥物交互作用**：本次資料共查得 56 筆交互作用紀錄，其中分級為中度者包括 Aprepitant、Morphine (liposomal)；其餘多數（如 Pantoprazole、Omeprazole、Vancomycin、Atropine、Prednisone、Simvastatin、Ondansetron、Dexamethasone 等）分級未明。
 
-其餘警語與禁忌的仿單內容請參考原廠仿單。
+其餘警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 四項預測適應症皆只有模型分數，沒有臨床試驗或文獻，證據等級為 L5。
-- 機轉上無法連結（慢性萎縮性肢端皮膚炎需抗生素治療），且部分適應症存在肌肉毒性疑慮。
+- 沒有任何直接研究此疾病的臨床試驗或文獻，證據等級為 L5，且機轉上找不到合理連結。慢性萎縮性肢端皮膚炎的根本處置為抗生素，局部麻醉藥不針對病因。
 
 **若要推進需要：**
-- 取得香港衛生署仿單，確認核准適應症、警語與禁忌
-- 補齊作用機轉（MOA）資料，重新分析機轉關聯
-- 系統性檢索臨床試驗與文獻，確認是否有任何支持證據
-- 釐清原適應症「皮膚炎」與局部麻醉藥實際用途之間的關係
-- 若仍考慮推進，需先評估給藥途徑的可行性，並針對兒童族群進行安全性評估
+- 補充 Bupivacaine 的作用機轉資料，並釐清與該疾病之間是否存在可驗證的生物學連結
+- 取得香港衛生署仿單的警語與禁忌症
+- 進行系統性文獻檢索，確認是否有任何針對此疾病的病例報告或前臨床研究
+- 若僅考慮症狀緩解（如局部疼痛），需另行定義臨床目標，且不應視為疾病治療
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

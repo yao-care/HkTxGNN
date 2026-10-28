@@ -6,9 +6,9 @@ nav_order: 753
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Raltegravir：預測新適應症為猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)（證據等級 L4）。原適應症：HIV 感染、AIDS"
 monitor_inn: "RALTEGRAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Raltegravir：預測新適應症為猿猴免疫缺陷病毒感染 (simian immunodeficiency virus infection)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Raltegravir
@@ -33,7 +33,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 </div>
 
-## Raltegravir：從 HIV 感染到猿猴免疫缺陷病毒感染
+## Raltegravir: 猿猴免疫缺陷病毒感染 (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ SIV 主要是 HIV 的非人類靈長類研究模型，因此這個結果較像�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | HIV 感染、AIDS |
-| 預測新適應症 | 猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection) |
-| TxGNN 預測分數 | 99.78% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 猿猴免疫缺陷病毒感染 (simian immunodeficiency virus infection) |
+| TxGNN 預測分數 | 0.9978 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -80,7 +80,6 @@ SIV 與 HIV 同屬慢病毒，整合酶的催化核心高度保守，因此 Ralt
 | [29466356](https://pubmed.ncbi.nlm.nih.gov/29466356/) | 2018 | 前臨床（獼猴） | PLoS ONE | 在未達完全抑制的 ART（含 Raltegravir 強化）下，SIV 感染獼猴出現抗藥突變 |
 | [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | 動物研究 | AIDS | Auranofin 在猿猴 AIDS 模型中限制病毒庫，並在停用 ART 後抑制病毒量 |
 | [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | 前臨床 | mBio | 慢病毒感染在有效 ART 下仍持續存在於腦部 |
-| [26378179](https://pubmed.ncbi.nlm.nih.gov/26378179/) | 2015 | 前臨床（體外） | Journal of Virology | SIVmac239 對 INSTI 的抗藥性圖譜 |
 | [24920794](https://pubmed.ncbi.nlm.nih.gov/24920794/) | 2014 | 前臨床（體外） | Journal of Virology | 將 HIV-1 整合酶抗藥突變導入 SIVmac239 後，對 INSTI 感受性的影響 |
 | [25583721](https://pubmed.ncbi.nlm.nih.gov/25583721/) | 2015 | 前臨床（體外） | Antimicrob Agents Chemother | 以猿猴嗜性 HIV 作為整合酶抑制劑抗藥性研究模型 |
 

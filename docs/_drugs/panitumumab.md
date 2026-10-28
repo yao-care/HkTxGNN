@@ -39,7 +39,7 @@ predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative di
 ## 一句話總結
 
 Panitumumab 是一種抗 EGFR 單株抗體，原本用於治療轉移性大腸腫瘤。
-TxGNN 模型預測它可能對**藥物誘發性骨質疏鬆 (Drug-induced Osteoporosis)** 有效（預測分數 99.13%）。
+TxGNN 模型預測它可能對**藥物誘發性骨質疏鬆 (Drug-induced Osteoporosis)** 有效（預測分數 0.9913）。
 目前**沒有任何臨床試驗或文獻**支持這個方向，僅有模型預測。
 
 ## 快速總覽
@@ -48,10 +48,10 @@ TxGNN 模型預測它可能對**藥物誘發性骨質疏鬆 (Drug-induced Osteop
 |------|------|
 | 原適應症 | 轉移性大腸腫瘤（Metastatic malignant neoplasm in the colon） |
 | 預測新適應症 | 藥物誘發性骨質疏鬆 (Drug-induced Osteoporosis) |
-| TxGNN 預測分數 | 99.13% |
+| TxGNN 預測分數 | 0.9913 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -115,7 +115,7 @@ EGFR 訊號參與成骨細胞分化與骨重塑，因此從生物學上推論，
 
 ### 附註：第二個預測適應症
 
-TxGNN 另預測 **嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy)**，分數 99.05%，證據等級同為 L5，建議決策為 Hold。目前無臨床試驗與文獻支持。EGFR 訊號雖與視網膜血管及發炎病變有鬆散關聯，但 Panitumumab 是大分子全身性抗體，眼部穿透性有限，且本身有眼部與皮膚毒性。現有的標準治療（抗 VEGF、雷射）已相當完善，因此對新候選藥物的要求更高。
+TxGNN 另預測 **嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy)**，分數 0.9905，證據等級同為 L5，建議決策為 Hold。目前無臨床試驗與文獻支持。EGFR 訊號雖與視網膜血管及發炎病變有鬆散關聯，但 Panitumumab 是大分子全身性抗體，眼部穿透性有限，且本身有眼部與皮膚毒性。現有的標準治療（抗 VEGF、雷射）已相當完善，因此對新候選藥物的要求更高。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

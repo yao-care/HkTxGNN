@@ -4,17 +4,17 @@ title: Trimethoprim
 parent: 僅模型預測 (L5)
 nav_order: 910
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Trimethoprim：預測新適應症為點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis)（證據等級 L5）。原適應症：尿路感染、感染性中耳炎、肺囊蟲肺炎、志賀氏菌症、結膜炎等"
 monitor_inn: "TRIMETHOPRIM"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
+description: "Trimethoprim：預測新適應症為點狀上皮角膜結膜炎 (punctate epithelial keratoconjunctivitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Trimethoprim
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 
 </div>
 
-## Trimethoprim：從尿路感染到點狀上皮角膜結膜炎
+## Trimethoprim: 點狀上皮角膜結膜炎 (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -45,19 +45,19 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 尿路感染、感染性中耳炎、肺囊蟲肺炎、志賀氏菌症、結膜炎等（香港許可證未提供適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis) |
-| TxGNN 預測分數 | 99.57% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 點狀上皮角膜結膜炎 (punctate epithelial keratoconjunctivitis) |
+| TxGNN 預測分數 | 0.9957 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 13 張 |
+| 香港上市 | 上市中（有效許可證 13 張／共 13 張） |
+| 許可證數 | 13 張（有效 13 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
 目前缺乏詳細的作用機轉資料。一般已知 Trimethoprim 抑制細菌的二氫葉酸還原酶，阻斷葉酸合成，因而對常見細菌具抗菌活性。
 
-模型給分很高，可能是因為它在知識圖譜中與結膜炎、瞼緣結膜炎等眼部感染適應症距離相近。但點狀上皮角膜結膜炎常由病毒（如腺病毒）或非感染性原因引起，抗菌機轉未必能處理其根本病因。因此這個高分更可能反映網絡鄰近性，而非真正的機轉關聯。
+TxGNN 模型（深度學習）給出的分數很高（點狀上皮角結膜炎：0.9957），但這個分數可能反映模型從相關疾病之間學到的相似性，而非生物學證據。點狀上皮角結膜炎常由病毒（如腺病毒）或非感染性原因引起，抗菌機轉未必能處理其根本病因，因此這個高分應謹慎解讀。
 
 ## 臨床試驗證據
 
@@ -99,7 +99,7 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高（99.57%），但僅來自模型推論，沒有任何臨床試驗或文獻支持。
+- 預測分數雖高（0.9957），但僅來自模型推論，沒有任何臨床試驗或文獻支持。
 - 抗菌機轉與非細菌性的點狀上皮角膜結膜炎之間缺乏合理連結。
 
 **若要推進需要：**

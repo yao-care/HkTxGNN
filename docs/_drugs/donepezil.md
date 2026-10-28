@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Donepezil
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 292
-evidence_level: L3
+evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Donepezil：預測新適應症為慢性抽動障礙 (Chronic Tic Disorder)（證據等級 L3）。原適應症：阿茲海默症"
 monitor_inn: "Donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
+description: "Donepezil：預測新適應症為Psychogenic movement disorders（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Donepezil
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **8** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["psychogenic movement disorders", "chronic tic disorder"
 
 </div>
 
-## Donepezil：從阿茲海默症到抽動症（慢性抽動障礙）
+## Donepezil: Psychogenic movement disorders
 {: .text-alpha }
 
 ## 一句話總結
@@ -50,11 +50,11 @@ TxGNN 模型預測它可能對**慢性抽動障礙 (Chronic Tic Disorder)** 有�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 阿茲海默症（香港許可證未載明核准適應症文字，此為知識圖譜中的適應症） |
-| 預測新適應症 | 慢性抽動障礙 (Chronic Tic Disorder) |
-| TxGNN 預測分數 | 99.19% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Psychogenic movement disorders |
+| TxGNN 預測分數 | 0.9923 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold（列為研究問題，尚不建議推進） |
 
@@ -136,13 +136,13 @@ TxGNN 模型預測它可能對**慢性抽動障礙 (Chronic Tic Disorder)** 有�
 
 | 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 說明 |
 |------|-----------|-----------|---------|------|
-| 1 | 心因性動作障礙 | 99.23% | L5 | 僅有模型預測，無試驗與文獻 |
-| 3 | 原發性姿勢性顫抖 | 99.17% | L5 | 僅有模型預測 |
-| 4 | 良性顫抖發作 | 99.16% | L5 | 僅有模型預測；屬良性自限性疾病，長期用藥風險效益不佳 |
-| 5 | 錐體外徑與動作疾病 | 99.16% | L3 | 有遲發性動作障礙的小型研究，但也有動作障礙的安全性訊號 |
-| 6 | 顫抖-眼震-十二指腸潰瘍症候群 | 99.15% | L5 | 檢索到的文獻不相關；膽鹼酯酶抑制劑可能增加胃酸分泌而加重潰瘍 |
-| 7 | 兒童良性陣發性向上凝視合併共濟失調 | 99.12% | L5 | 僅有模型預測 |
-| 8 | 舌-顏面-頰部運動障礙 | 99.02% | L4 | 有 Cochrane 回顧討論膽鹼類藥物治療遲發性運動障礙，但並非專門針對 Donepezil，確定性有限 |
+| 1 | 心因性動作障礙 | 0.9923 | L5 | 僅有模型預測，無試驗與文獻 |
+| 3 | 原發性姿勢性顫抖 | 0.9917 | L5 | 僅有模型預測 |
+| 4 | 良性顫抖發作 | 0.9916 | L5 | 僅有模型預測；屬良性自限性疾病，長期用藥風險效益不佳 |
+| 5 | 錐體外徑與動作疾病 | 0.9916 | L5 | 有遲發性動作障礙的小型研究，但也有動作障礙的安全性訊號 |
+| 6 | 顫抖-眼震-十二指腸潰瘍症候群 | 0.9915 | L5 | 檢索到的文獻不相關；膽鹼酯酶抑制劑可能增加胃酸分泌而加重潰瘍 |
+| 7 | 兒童良性陣發性向上凝視合併共濟失調 | 0.9912 | L5 | 僅有模型預測 |
+| 8 | 舌-顏面-頰部運動障礙 | 0.9902 | L5 | 有 Cochrane 回顧討論膽鹼類藥物治療遲發性運動障礙，但並非專門針對 Donepezil，確定性有限 |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

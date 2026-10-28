@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Olanzapine
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 639
-evidence_level: L3
-indication_count: 3
-last_modified_at: 2026-10-14
-description: "Olanzapine：預測新適應症為泛懼症 (Agoraphobia)（證據等級 L3）。原適應症：雙相情緒障礙、躁症、憂鬱症、焦慮症、精神分裂症"
+evidence_level: L5
+indication_count: 2
+last_modified_at: 2026-10-28
 monitor_inn: "OLANZAPINE"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
+description: "Olanzapine：預測新適應症為Benign paroxysmal torticollis of infancy（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Olanzapine
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia
 
 </div>
 
-## Olanzapine：從雙相情緒障礙與精神分裂症到泛懼症（Agoraphobia）
+## Olanzapine: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## 一句話總結
@@ -42,7 +42,7 @@ Olanzapine（奧氮平）是一種非典型抗精神病藥物，原本用於雙�
 TxGNN 模型預測它可能對**泛懼症 (Agoraphobia)** 有效，
 目前**無已登記的臨床試驗**，但有 **6 篇文獻**（含 1 項小型開放標籤試驗、2 篇系統性回顧）提供初步支持。
 
-> 說明：TxGNN 預測分數最高的是「嬰兒良性陣發性斜頸」（99.54%），但該預測完全沒有臨床試驗或文獻佐證，機轉上也缺乏關聯，因此本報告改以證據較完整的第 2 名「泛懼症」作為主要評估對象，並在文末簡述其他預測。
+> 說明：TxGNN 預測分數最高的是「嬰兒良性陣發性斜頸」（0.9954），但該預測完全沒有臨床試驗或文獻佐證，機轉上也缺乏關聯，因此本報告改以證據較完整的第 2 名「泛懼症」作為主要評估對象，並在文末簡述其他預測。
 
 ---
 
@@ -50,11 +50,11 @@ TxGNN 模型預測它可能對**泛懼症 (Agoraphobia)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 雙相情緒障礙、躁症、憂鬱症、焦慮症、精神分裂症（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 泛懼症 (Agoraphobia) |
-| TxGNN 預測分數 | 99.47% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Benign paroxysmal torticollis of infancy |
+| TxGNN 預測分數 | 0.9954 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold（列為研究問題，待補強證據） |
 
@@ -118,7 +118,7 @@ TxGNN 模型預測它可能對**泛懼症 (Agoraphobia)** 有效，
 **決策：Hold**
 
 **理由：**
-- 雖然 TxGNN 分數很高（99.47%），但實際證據僅有一項小型開放標籤試驗、個案報告與系統性回顧，沒有隨機對照試驗，也沒有已登記的臨床試驗，證據等級為 L3。
+- 雖然 TxGNN 分數很高（0.9947），但實際證據僅有一項小型開放標籤試驗、個案報告與系統性回顧，沒有隨機對照試驗，也沒有已登記的臨床試驗，證據等級為 L3。
 - 相關研究主要針對難治型恐慌症的輔助治療，並非單獨針對泛懼症，且 olanzapine 的代謝與鎮靜風險需審慎權衡。
 
 **若要推進需要：**
@@ -132,8 +132,7 @@ TxGNN 模型預測它可能對**泛懼症 (Agoraphobia)** 有效，
 
 ## 其他預測適應症簡述
 
-- **嬰兒良性陣發性斜頸（99.54%）**：無臨床試驗與文獻，證據等級 L5，建議 **Hold**。此為罕見、可自行緩解的兒童疾病，與 olanzapine 的作用沒有已知關聯，且嬰兒使用抗精神病藥物有重大安全疑慮。
-- **輕度憂鬱症／持續性憂鬱症（Dysthymic disorder，99.28%）**：有 1 篇 Cochrane 系統性回顧（第二代抗精神病藥用於重度憂鬱症與輕鬱症）及 1 項針對邊緣型人格障礙合併輕鬱症的開放標籤研究，其餘文獻為間接證據，證據等級 L3，建議列為研究問題。
+- **嬰兒良性陣發性斜頸（0.9954）**：無臨床試驗與文獻，證據等級 L5，建議 **Hold**。此為罕見、可自行緩解的兒童疾病，與 olanzapine 的作用沒有已知關聯，且嬰兒使用抗精神病藥物有重大安全疑慮。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

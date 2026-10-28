@@ -6,9 +6,9 @@ nav_order: 302
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Duloxetine：預測新適應症為嬰兒良性陣發性斜頸 (Benign paroxysmal torticollis of infancy)，排名第 1（證據等級 L5）。原適應症：單極性憂鬱症、重度憂鬱症、焦慮症、纖維肌痛、肌筋膜疼痛症候群、女性壓力性尿失禁"
 monitor_inn: "DULOXETINE"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "schizotypal personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
+description: "Duloxetine：預測新適應症為嬰兒良性陣發性斜頸 (Benign paroxysmal torticollis of infancy)，排名第 1（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Duloxetine
@@ -33,7 +33,7 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia
 
 </div>
 
-## Duloxetine：從憂鬱症到強迫症（OCD）
+## Duloxetine: 嬰兒良性陣發性斜頸 (Benign paroxysmal torticollis of infancy)，排名第 1；證據最完整者為強迫症 (OCD)，排名第 3 (benign paroxysmal torticollis of infancy)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測分數最高的新適應症為「陣發性斜頸（嬰兒期�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 單極性憂鬱症、重度憂鬱症、焦慮症、纖維肌痛、肌筋膜疼痛症候群、女性壓力性尿失禁（來自知識圖譜，香港許可證未載明適應症文字） |
-| 預測新適應症 | 嬰兒良性陣發性斜頸 (Benign paroxysmal torticollis of infancy)，排名第 1；證據最完整者為強迫症 (OCD)，排名第 3 |
-| TxGNN 預測分數 | 嬰兒良性陣發性斜頸 99.85%；強迫症 99.84% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 嬰兒良性陣發性斜頸 (Benign paroxysmal torticollis of infancy)，排名第 1；證據最完整者為強迫症 (OCD)，排名第 3 (benign paroxysmal torticollis of infancy) |
+| TxGNN 預測分數 | 0.9985 |
 | 證據等級 | 嬰兒良性陣發性斜頸 L5；強迫症 L2 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 20 張 |
+| 香港上市 | 上市中（有效許可證 20 張／共 20 張） |
+| 許可證數 | 20 張（有效 20 張） |
 | 建議決策 | 嬰兒良性陣發性斜頸：Hold；強迫症：Proceed with Guardrails（作為研究性問題） |
 
 ---
@@ -64,9 +64,9 @@ TxGNN 模型預測分數最高的新適應症為「陣發性斜頸（嬰兒期�
 
 **強迫症方向：** 抑制血清素再回收是強迫症一線藥物治療（SSRI、clomipramine）的核心機轉，因此 duloxetine 在機轉上有合理性。不過，一般而言 SNRI 在強迫症的證據弱於 SSRI。多篇回顧文獻將 SNRI 定位為「可考慮的選項」，而非標準治療。
 
-**排名第 1 的嬰兒良性陣發性斜頸：** 這是兒童期、可能與離子通道（如 CACNA1A）相關、屬偏頭痛譜系的疾患。目前沒有任何臨床試驗或文獻支持，SNRI 的機轉依據也未建立，且嬰兒用藥有安全性疑慮。高分很可能只是知識圖譜的計算推論。
+**排名第 1 的嬰兒良性陣發性斜頸：** 這是兒童期、可能與離子通道（如 CACNA1A）相關、屬偏頭痛譜系的疾患。目前沒有任何臨床試驗或文獻支持，SNRI 的機轉依據也未建立，且嬰兒用藥有安全性疑慮。0.9985 的高分來自 TxGNN 模型（深度學習），可能只是反映模型學到的相關疾病間相似性，並非生物學證據。
 
-**其他預測：** 排名 4–7 的人格障礙症分數完全相同，推測反映疾病類別層級的圖譜訊號，而非藥物特異性證據。排名 8–10（Ohdo 症候群及其變異、木樣結膜炎）屬罕見遺傳或代謝疾病，均無合理機轉連結，也無證據。排名 2 的懼曠症（agoraphobia）僅有恐慌症的開放標籤研究與個案報告間接支持。
+**其他預測：** 排名 4–7 的人格障礙症分數完全相同（0.9978），推測反映 TxGNN 模型（深度學習）學到的疾病類別層級相似性，而非藥物特異性證據。排名 8–10（Ohdo 症候群及其變異、木樣結膜炎）屬罕見遺傳或代謝疾病，均無合理機轉連結，也無證據。排名 2 的懼曠症（agoraphobia）僅有恐慌症的開放標籤研究與個案報告間接支持。
 
 ---
 
@@ -137,7 +137,7 @@ Duloxetine 在香港共有 20 張有效許可證（皆為單方，無已註銷�
 - 強迫症：**Proceed with Guardrails**（作為研究性問題）
 
 **理由：**
-- 排名前列的預測分數雖高（>99.6%），但除強迫症與懼曠症外，其餘全無臨床試驗與文獻，僅屬計算推論，且多項預測缺乏合理機轉。
+- 排名前列的預測分數雖高（>0.9960），但除強迫症與懼曠症外，其餘全無臨床試驗與文獻，僅屬計算推論，且多項預測缺乏合理機轉。
 - 強迫症有 1 項雙盲對照試驗（限於難治型的加成治療）、1 項 Phase 4 試驗與開放標籤研究，但樣本小，未達 Phase 3 RCT 的標準，證據等級為 L2。
 
 **若要推進需要：**

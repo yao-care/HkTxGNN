@@ -4,17 +4,17 @@ title: Finasteride
 parent: 僅模型預測 (L5)
 nav_order: 377
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Finasteride：預測新適應症為Ambras 型全身性先天多毛症 (Ambras type hypertrichosis universalis congenita)（證據等級 L5）。原適應症：良性攝護腺肥大 (benign prostatic hyperplasia)"
+indication_count: 6
 monitor_inn: "FINASTERIDE"
-predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
+predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
+last_modified_at: 2026-10-28
+description: "Finasteride：預測新適應症為Ambras type hypertrichosis universalis congenita（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Finasteride
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,100 +33,87 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 </div>
 
-## Finasteride：從良性攝護腺肥大到先天性多毛症（Ambras 型）
+## Finasteride: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## 一句話總結
 
-Finasteride 原本用於治療**良性攝護腺肥大**。
-TxGNN 模型預測它可能對 **Ambras 型全身性先天多毛症 (Ambras type hypertrichosis universalis congenita)** 有效，但目前**沒有臨床試驗、也沒有文獻**直接支持，僅屬模型預測。
-
----
+Finasteride 在知識圖譜中記錄的原適應症為良性前列腺增生 (benign prostatic hyperplasia)。
+TxGNN 模型預測它可能對**多毛症 (Hypertrichosis)** 有效，但目前**沒有臨床試驗**，僅有 **4 篇間接相關的文獻**（皆為 1999–2003 年的敘述性或方法學文章），整體屬於低度證據。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 良性攝護腺肥大 (benign prostatic hyperplasia) |
-| 預測新適應症 | Ambras 型全身性先天多毛症 (Ambras type hypertrichosis universalis congenita) |
-| TxGNN 預測分數 | 99.99% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Ambras type hypertrichosis universalis congenita |
+| TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 20 張 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 許可證數 | 至少 20 張（清單可能不完整） |
 | 建議決策 | Hold |
 
-註：香港許可證資料中未載明核准適應症文字，原適應症取自 TxGNN 知識圖譜的適應症關聯。
-
----
+> 說明：predicted_indications 中排名第 2 的多毛症是唯一有文獻的預測。排名第 1 的 Ambras 型先天性全身多毛症分數略高，但完全沒有試驗或文獻，也缺乏機轉依據。本報告以有資料可評估的多毛症為主軸，並在下方附上其他預測的簡要比較。
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Finasteride 為 type II 5-α 還原酶抑制劑，可減少睪固酮轉變為雙氫睪固酮（DHT），因此用於攝護腺肥大，也與雄性素依賴性毛髮問題（如雄性禿）相關。
+目前缺乏詳細的作用機轉資料。根據已知藥理，Finasteride 抑制第二型 5-α 還原酶，降低二氫睾酮 (DHT)，進而減少毛囊中的雄性素訊號。這是它在雄性禿（男性型落髮）中被使用的基礎。
 
-然而，Ambras 症候群是一種先天性疾病，與影響 TRPS1 表現的基因體重組有關，並非主要由雄性素驅動。因此藥物機轉與此疾病的關聯**薄弱且間接**。0.9999 的高分僅是計算模型的結果，不能視為療效證據。
+不過，多毛症的定義是毛髮增生發生在**非雄性素依賴**的部位，與雄性素依賴的多毛 (hirsutism) 不同。因此 DHT 抑制的機轉連結偏弱，只可能出現在與 hirsutism 重疊的部分。
 
-其他排名較高的預測（如多毛症、遺傳性毛幹異常）同樣只有部分或推測性的機轉關聯；牙周畸形症候群與 Dandy-Walker 症候群則缺乏合理的藥理機轉，可能是圖譜關聯造成的假象。
-
----
+檢索到的 4 篇文獻都不是 Finasteride 治療多毛症的對照試驗，因此至多屬於間接證據。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
-
-針對首位預測（Ambras 型多毛症），目前無相關文獻。
-
-以下為排名第 2 的預測「多毛症 (hypertrichosis)」的背景文獻，皆為間接證據，沒有任何一篇是 Finasteride 用於多毛症的對照研究：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [12223963](https://pubmed.ncbi.nlm.nih.gov/12223963/) | 2002 | Review | Ann Dermatol Venereol | 成人多毛症與多毛（hirsutism）的檢查與治療；成人多毛症多為藥物性、代謝性或營養性原因 |
-| [10330884](https://pubmed.ncbi.nlm.nih.gov/10330884/) | 1999 | Review | Ther Umsch | 雄性禿、多毛與多毛症的新治療選項回顧 |
-| [12942187](https://pubmed.ncbi.nlm.nih.gov/12942187/) | 2003 | Review | Hautarzt | 毛髮疾病的新舊療法；Finasteride 用於男性型禿髮，雷射除毛用於多毛症 |
-| [12444520](https://pubmed.ncbi.nlm.nih.gov/12444520/) | 2002 | 方法學 | Hautarzt | TrichoScan 數位毛髮分析工具介紹（非 Finasteride 療效研究） |
-
----
+| [12223963](https://pubmed.ncbi.nlm.nih.gov/12223963/) | 2002 | Review | Annales de dermatologie et de venereologie | 成人多毛症多為藥物誘發（如 minoxidil、cyclosporine）、代謝或腫瘤伴隨所致，與 hirsutism 的荷爾蒙評估不同 |
+| [10330884](https://pubmed.ncbi.nlm.nih.gov/10330884/) | 1999 | Review | Therapeutische Umschau | 回顧雄性禿與 hirsutism 的新治療選項，著重口服療法 |
+| [12942187](https://pubmed.ncbi.nlm.nih.gov/12942187/) | 2003 | Review | Der Hautarzt | 提到 Finasteride 用於男性型落髮，雷射除毛用於多毛症與 hirsutism |
+| [12444520](https://pubmed.ncbi.nlm.nih.gov/12444520/) | 2002 | 方法學／診斷工具介紹 | Der Hautarzt | 介紹 TrichoScan 數位毛髮分析工具，並非 Finasteride 療效研究 |
 
 ## 香港上市資訊
 
-香港共有 20 張有效單方許可證，皆為口服錠劑（資料中未載明劑型與核准適應症文字）。主要許可證如下：
+下表僅列出 5 張代表性許可證（資料顯示至少 20 張，清單可能不完整）。所有許可證皆為單一成分製劑，目前資料未提供劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
+| 許可證號 | 品名 | 規格 | 製造商／持證商 |
 |---------|------|------|-----------|
-| HK-36604 | PROSCAR TAB 5MG | 錠劑 | 未載明 |
-| HK-63379 | PROPECIA TABLET 1MG | 錠劑 | 未載明 |
-| HK-58465 | FINASTERIDE-TEVA TAB 5MG | 錠劑 | 未載明 |
-| HK-64019 | FINASTERIDE-TEVA TABLETS 1MG | 錠劑 | 未載明 |
-| HK-63377 | STERCAR TABLETS 5MG | 錠劑 | 未載明 |
-
----
+| HK-36604 | PROSCAR TAB 5MG | 5 毫克錠劑 | ORGANON HONG KONG LIMITED |
+| HK-63379 | PROPECIA TABLET 1MG | 1 毫克錠劑 | ORGANON HONG KONG LIMITED |
+| HK-58465 | FINASTERIDE-TEVA TAB 5MG | 5 毫克錠劑 | TEVA PHARMACEUTICAL HONG KONG LIMITED |
+| HK-64019 | FINASTERIDE-TEVA TABLETS 1MG | 1 毫克錠劑 | TEVA PHARMACEUTICAL HONG KONG LIMITED |
+| HK-66014 | HOVID FINASTERIDE TABLETS 1MG | 1 毫克錠劑 | HOVID LIMITED |
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌疾病**：肝病、膽囊疾病
-- **藥物交互作用**：共查得 100 筆交互作用紀錄，目前等級皆為「未知」，例如 Calcitriol、Doxycycline、Bupropion、Metformin、Omeprazole 等，臨床意義有待確認。
-- **懷孕相關風險**：Finasteride 因可能影響男性胎兒生殖器發育而禁用於孕婦。對於先天性畸形類的預測適應症（如 Dandy-Walker 症候群），這點尤其需要注意。
+- **知識圖譜記錄的禁忌關聯**（非仿單內容）：肝臟疾病、膽囊疾病。
+- **藥物交互作用**：資料庫查詢到 100 筆交互作用紀錄，目前列出的皆未標示嚴重度分級，例如 Calcitriol、Doxycycline、Bupropion、Metformin、Omeprazole、Morphine 等，臨床意義需另行查證。
+- **生殖毒性考量**：預測資料指出 Finasteride 對男性胎兒生殖器發育有致畸風險，使用於發育相關疾病並不適當。
 
 其餘警語與禁忌症請參考原廠仿單。
-
----
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 所有預測適應症皆無臨床試驗，首位預測也無文獻，證據等級僅 L5，且機轉關聯薄弱。
-- Ambras 症候群並非雄性素驅動的疾病，Finasteride 的作用機轉難以解釋其療效。
+- 沒有任何臨床試驗，4 篇文獻均為間接的敘述性或方法學文章，無直接研究顯示 Finasteride 對多毛症有效，因此證據等級為 L5。
+
+**其他預測的簡述（均建議 Hold，證據等級 L5）：**
+- Ambras 型先天性全身多毛症（0.9999）：由基因結構變異引起，非雄性素驅動，無試驗與文獻。
+- 伴有牙齒／牙周異常的畸形症候群（0.9999）：無可辨識的機轉連結。
+- 以 Dandy-Walker 畸形為主要特徵的症候群（0.9999）：結構性發育異常，且 Finasteride 有致畸疑慮。
+- 單純遺傳性毛幹異常（0.9999）：多非雄性素介導，獲益可能性低。
+- 家族性單純睫毛過長（0.9915）：屬罕見遺傳特徵，分數最低，無證據。
 
 **若要推進需要：**
-- 取得詳細的作用機轉資料，並釐清 5-α 還原酶抑制與 TRPS1 相關病理的關聯
-- 取得香港仿單的警語與禁忌症資料，完成安全性篩選
-- 進行針對先天性多毛症的系統性文獻檢索，確認是否有病例報告
-- 若要尋找較合理的再利用方向，建議優先評估雄性素相關的毛髮疾病（如多毛症 hirsutism），而非先天性畸形症候群
+- 補充作用機轉資料（MOA）與香港仿單的警語、禁忌症。
+- 針對 hirsutism 與多毛症做直接的文獻系統性檢索，區分雄性素依賴與非依賴型。
+- 若機轉分析仍支持，再規劃小型探索性研究；在此之前不建議推進。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

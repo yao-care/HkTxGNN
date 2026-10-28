@@ -6,9 +6,9 @@ nav_order: 289
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Docusate：預測新適應症為Plummer-Vinson 症候群 (Plummer-Vinson syndrome)（證據等級 L5）。原適應症：便秘"
 monitor_inn: "Docusate"
 predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia"]
+description: "Docusate：預測新適應症為Plummer-Vinson 症候群 (Plummer-Vinson syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Docusate
@@ -33,12 +33,12 @@ predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-inde
 
 </div>
 
-## Docusate：從便秘與貧血相關適應症到 Plummer-Vinson 症候群
+## Docusate: Plummer-Vinson 症候群 (Plummer-Vinson syndrome)
 {: .text-alpha }
 
 ## 一句話總結
 
-Docusate 是一種陰離子界面活性劑類的軟便劑，原本用於便秘治療，在知識圖譜中也連結到多種貧血適應症。
+Docusate 是一種陰離子界面活性劑類的軟便劑，原本用於便秘治療。TxGNN 模型（深度學習）的預測分數可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 TxGNN 模型預測它可能對 **Plummer-Vinson 症候群 (Plummer-Vinson syndrome)** 有效，但目前**沒有任何臨床試驗或文獻**支持，僅屬模型預測。
 
 ---
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對 **Plummer-Vinson 症候群 (Plummer-Vinson syndro
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 便秘（另有缺鐵性、葉酸缺乏性、低色素性、小球性貧血等圖譜關聯） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | Plummer-Vinson 症候群 (Plummer-Vinson syndrome) |
-| TxGNN 預測分數 | 99.18% |
+| TxGNN 預測分數 | 0.9918 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 10 張 |
+| 香港上市 | 上市中（有效許可證 10 張／共 10 張） |
+| 許可證數 | 10 張（有效 10 張） |
 | 建議決策 | Hold |
 
 ---
@@ -61,11 +61,11 @@ TxGNN 模型預測它可能對 **Plummer-Vinson 症候群 (Plummer-Vinson syndro
 
 目前缺乏詳細的作用機轉資料。Docusate 屬於陰離子界面活性劑型軟便劑，一般認為它在腸道局部作用，增加水分滲入糞便而使其變軟。
 
-Plummer-Vinson 症候群的特徵是缺鐵性貧血合併吞嚥困難與食道蹼。TxGNN 的高分很可能來自圖譜上的間接關聯：Docusate 在圖譜中與缺鐵性、小球性、低色素性貧血等適應症相連，而這些貧血與 Plummer-Vinson 症候群在臨床上相關。這是以網路鄰近性為基礎的推論，並非藥理學上的直接證據。
+Plummer-Vinson 症候群的特徵是缺鐵性貧血合併吞嚥困難與食道蹼。此預測分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性（例如各類貧血與 Plummer-Vinson 症候群在臨床上相關），並非生物學上的直接證據。
 
 實際上，Docusate 不能治療缺鐵、矯正貧血或改善食道蹼。它最多只能作為補鐵所引起便秘的症狀輔助用藥，但這並不構成針對該疾病本身的再利用適應症。
 
-另一個排名第二的預測是「不依賴維生素 B12 與葉酸的體質性巨母紅血球性貧血」（分數 99.15%）。Docusate 對 DNA 合成與紅血球生成路徑沒有已知作用，這項預測應視為計算上的假象，缺乏臨床支持。
+另一個排名第二的預測是「不依賴維生素 B12 與葉酸的體質性巨母紅血球性貧血」（分數 0.9915）。Docusate 對 DNA 合成與紅血球生成路徑沒有已知作用，這項預測應視為計算上的假象，缺乏臨床支持。
 
 ---
 
@@ -113,7 +113,7 @@ Plummer-Vinson 症候群的特徵是缺鐵性貧血合併吞嚥困難與食道�
 **決策：Hold**
 
 **理由：**
-- 預測僅來自圖譜的間接關聯，沒有臨床試驗、文獻或明確機轉支持，證據等級為 L5。
+- 預測分數僅來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，沒有臨床試驗、文獻或明確機轉支持，證據等級為 L5。
 - Docusate 不作用於缺鐵、貧血或食道蹼的病理機轉，預期無法治療 Plummer-Vinson 症候群本身。
 
 **若要推進需要：**

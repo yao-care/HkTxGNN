@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nintedanib
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 621
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Nintedanib：預測新適應症為隆突性皮膚纖維肉瘤 (Dermatofibrosarcoma Protuberans)（證據等級 L4）。原適應症：非小細胞肺癌、肺癌、急性間質性肺炎、特發性肺纖維化、特發性間質性肺炎"
 monitor_inn: "Nintedanib"
-predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "axial spondylometaphyseal dysplasia", "amyotrohpic lateral sclerosis type 22", "fibroblastic neoplasm", "kidney fibrosarcoma", "conventional fibrosarcoma", "amyotrophic lateral sclerosis, susceptibility to"]
+predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
+description: "Nintedanib：預測新適應症為隆突性皮膚纖維肉瘤 (dermatofibrosarcoma protuberans)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Nintedanib
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovari
 
 </div>
 
-## Nintedanib：從非小細胞肺癌／特發性肺纖維化到皮膚纖維肉瘤 (Dermatofibrosarcoma Protuberans)
+## Nintedanib: 隆突性皮膚纖維肉瘤 (dermatofibrosarcoma protuberans)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對**隆突性皮膚纖維肉瘤 (Dermatofibrosarcoma
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 非小細胞肺癌、肺癌、急性間質性肺炎、特發性肺纖維化、特發性間質性肺炎（來自知識圖譜，香港許可證未載明適應症文字） |
-| 預測新適應症 | 隆突性皮膚纖維肉瘤 (Dermatofibrosarcoma Protuberans) |
-| TxGNN 預測分數 | 99.15% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 隆突性皮膚纖維肉瘤 (dermatofibrosarcoma protuberans) |
+| TxGNN 預測分數 | 0.9915 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

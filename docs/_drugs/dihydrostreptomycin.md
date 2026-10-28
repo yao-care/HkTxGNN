@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Dihydrostreptomycin
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 278
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Dihydrostreptomycin：預測新適應症為骨關節炎 (Osteoarthritis)（證據等級 L5）。原適應症：許可證未載明核准適應症"
+description: "Dihydrostreptomycin: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Dihydrostreptomycin"
-predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Dihydrostreptomycin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,51 +35,16 @@ predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheu
 
 </div>
 
-## Dihydrostreptomycin：從（原適應症未載明）到骨關節炎
+## Dihydrostreptomycin
 {: .text-alpha }
-
-## 一句話總結
-
-Dihydrostreptomycin 是一種胺基糖苷類（aminoglycoside）抗生素，在香港的許可證屬於獸醫用注射懸液產品。
-TxGNN 模型預測它可能對**骨關節炎 (Osteoarthritis)** 有效，但目前**沒有任何臨床試驗或文獻**支持，僅屬模型預測。
-
----
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證未載明核准適應症 |
-| 預測新適應症 | 骨關節炎 (Osteoarthritis) |
-| TxGNN 預測分數 | 98.25% |
-| 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
-| 建議決策 | Hold |
-
----
-
-## 為什麼這個預測合理？
-
-目前缺乏詳細的作用機轉資料。就已知的藥理類別而言，Dihydrostreptomycin 屬於胺基糖苷類抗生素，一般認為是結合細菌 30S 核糖體次單位，抑制細菌蛋白質合成。
-
-這個機轉與關節軟骨退化或關節發炎之間，現有資料**無法建立任何合理的路徑**。TxGNN 的高分（0.983）較可能反映知識圖譜中節點的鄰近關係，而非真正的治療關聯。
-
-此外，胺基糖苷類有耳毒性與腎毒性風險。對於需要長期治療的退化性疾病而言，這些風險是不利因素。
-
-其他排名較前的預測包括類風濕性關節炎（98.01%）、痛風（97.56%）及多種罕見骨骼發育不良症候群。這些同樣沒有試驗或文獻支持，也缺乏合理的機轉連結。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
----
-
-## 文獻證據
-
-目前無相關文獻。
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 
 ---
 
@@ -99,20 +66,6 @@ TxGNN 模型預測它可能對**骨關節炎 (Osteoarthritis)** 有效，但目�
 
 ---
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 僅有模型預測（L5），沒有任何臨床試驗或文獻，也找不到合理的機轉連結。
-- 香港唯一的許可證是獸醫用產品，且藥物本身有耳毒性與腎毒性顧慮，不適合長期用於骨關節炎等慢性疾病。
-
-**若要推進需要：**
-- 補齊作用機轉資料，並釐清與骨關節炎病理的可能關聯
-- 取得原廠仿單的警語、禁忌與核准適應症
-- 進行前臨床研究（如細胞或動物模型）驗證是否有任何抗發炎或軟骨保護效果
-- 評估人用劑型與給藥途徑的可行性，以及全身性給藥的安全性
-- 優先考慮其他已有人體證據的候選藥物，而不是此預測
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

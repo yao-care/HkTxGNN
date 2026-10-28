@@ -4,17 +4,17 @@ title: Desloratadine
 parent: 僅模型預測 (L5)
 nav_order: 258
 evidence_level: L5
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Desloratadine：預測新適應症為寒冷性蕁麻疹 (Cold Urticaria)（證據等級 L5）。原適應症：過敏性鼻炎、血管運動性鼻炎、特發性蕁麻疹、過敏性蕁麻疹等"
 monitor_inn: "DESLORATADINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
+predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
+description: "Desloratadine：預測新適應症為Nasal cavity disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Desloratadine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+證據等級: **L5** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "rec
 
 </div>
 
-## Desloratadine：從過敏性鼻炎與蕁麻疹到寒冷性蕁麻疹
+## Desloratadine: Nasal cavity disease
 {: .text-alpha }
 
 ## 一句話總結
 
 Desloratadine 是第二代 H1 抗組織胺藥，原本用於過敏性鼻炎、血管運動性鼻炎、特發性及過敏性蕁麻疹等。
-TxGNN 模型預測它可能對**寒冷性蕁麻疹 (Cold Urticaria)** 有效，
 目前有 **2 個臨床試驗**和 **6 篇文獻**支持這個方向，其中包含多項隨機對照試驗。
 
 ---
@@ -48,12 +47,12 @@ TxGNN 模型預測它可能對**寒冷性蕁麻疹 (Cold Urticaria)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、特發性蕁麻疹、過敏性蕁麻疹等（核准適應症文字於許可證資料中未提供，此處依知識圖譜適應症列出） |
-| 預測新適應症 | 寒冷性蕁麻疹 (Cold Urticaria) |
-| TxGNN 預測分數 | 99.94% |
-| 證據等級 | L1（依本報告提供的規則，嚴格而言試驗為 Phase 4，見下方說明） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 15 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Nasal cavity disease |
+| TxGNN 預測分數 | 0.9987 |
+| 證據等級 | L5（依本報告提供的規則，嚴格而言試驗為 Phase 4，見下方說明） |
+| 香港上市 | 上市中（有效許可證 15 張／共 15 張） |
+| 許可證數 | 15 張（有效 15 張） |
 | 建議決策 | Proceed with Guardrails |
 
 **證據等級說明：**
@@ -139,11 +138,10 @@ Desloratadine 是選擇性的周邊 H1 受體反向促效劑。寒冷性蕁麻�
 
 | 預測適應症 | 分數 | 證據等級 | 建議 |
 |-----------|------|---------|------|
-| 鼻腔疾病 (Nasal cavity disease) | 99.87% | L4 | Hold：與既有適應症重疊，僅有動物實驗的間接證據 |
-| 急性喉咽炎 (Acute laryngopharyngitis) | 99.85% | L5 | Hold：僅有模型預測，抗組織胺對感染性發炎僅有症狀緩解作用 |
-| 頑固性異位性皮膚炎 | 99.75% | L5 | Hold：組織胺非主要驅動因子，機轉上存疑 |
-| 異位性 IgE 反應性 | 99.64% | L5 | Hold：屬表型而非可治療疾病 |
-| 酒糟性結膜炎 | 99.40% | L5 | Hold：機轉連結薄弱 |
+| 鼻腔疾病 (Nasal cavity disease) | 0.9987 | L5 | Hold：與既有適應症重疊，僅有動物實驗的間接證據 |
+| 頑固性異位性皮膚炎 | 0.9975 | L5 | Hold：組織胺非主要驅動因子，機轉上存疑 |
+| 異位性 IgE 反應性 | 0.9964 | L5 | Hold：屬表型而非可治療疾病 |
+| 酒糟性結膜炎 | 0.9940 | L5 | Hold：機轉連結薄弱 |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

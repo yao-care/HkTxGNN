@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Danazol
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 243
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Danazol：預測新適應症為閉經 (Amenorrhea)（證據等級 L3）。原適應症：子宮內膜異位症、子宮內膜異位症（子宮）、乳房纖維囊腫性疾病"
 monitor_inn: "DANAZOL"
-predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "blunt duct adenosis of breast", "apocrine adenosis of breast", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
+predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "apocrine adenosis of breast", "blunt duct adenosis of breast", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
+description: "Danazol：預測新適應症為Amenorrhea (disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Danazol
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "blu
 
 </div>
 
-## Danazol：從子宮內膜異位症到閉經（月經抑制）
+## Danazol: Amenorrhea (disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，目前**無登記
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 子宮內膜異位症、子宮內膜異位症（子宮）、乳房纖維囊腫性疾病（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 閉經 (Amenorrhea) |
-| TxGNN 預測分數 | 99.9995% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Amenorrhea (disease) |
+| TxGNN 預測分數 | 1.0000 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---

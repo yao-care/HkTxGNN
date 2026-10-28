@@ -33,7 +33,7 @@ predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hyp
 
 </div>
 
-## Tamsulosin：從良性攝護腺增生到 Ambras 型全身性多毛症
+## Tamsulosin：從良性攝護腺增生到安布拉斯型全身性先天多毛症
 {: .text-alpha }
 
 ## 一句話總結
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對 **Ambras 型先天性全身性多毛症 (Ambras t
 |------|------|
 | 原適應症 | 良性攝護腺增生 (Benign Prostatic Hyperplasia) |
 | 預測新適應症 | Ambras 型先天性全身性多毛症 (Ambras type hypertrichosis universalis congenita) |
-| TxGNN 預測分數 | 99.996% |
+| TxGNN 預測分數 | 1.0000 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 14 張 |
+| 香港上市 | 上市中（有效許可證 14 張／共 14 張） |
+| 許可證數 | 14 張（有效 14 張） |
 | 建議決策 | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對 **Ambras 型先天性全身性多毛症 (Ambras t
 
 目前缺乏詳細的作用機轉資料。已知 Tamsulosin 是 alpha-1A/1D 腎上腺素受體拮抗劑，透過放鬆攝護腺與膀胱頸平滑肌來改善 BPH 的排尿症狀。
 
-Ambras 症候群是罕見的遺傳疾病，與 8q22 染色體重排影響 TRPS1 基因調控有關。與 alpha-1 腎上腺素阻斷之間，**目前沒有已知的機轉關聯**。TxGNN 的高分很可能只反映知識圖譜中與其他毛髮相關表型的網路鄰近性，而非真實的藥理關聯。
+Ambras 症候群是罕見的遺傳疾病，與 8q22 染色體重排影響 TRPS1 基因調控有關。與 alpha-1 腎上腺素阻斷之間，**目前沒有已知的機轉關聯**。該分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 
 此外，藥物引起多毛症並非 Tamsulosin 已知的作用。整體而言，這項預測缺乏機轉與臨床支持，應視為假說生成階段的結果。
 

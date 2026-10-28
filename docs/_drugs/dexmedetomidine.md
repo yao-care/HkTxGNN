@@ -6,9 +6,9 @@ nav_order: 268
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Dexmedetomidine：預測新適應症為頭痛疾患 (Headache Disorder)，證據集中於硬脊膜穿刺後頭痛（證據等級 L5）。原適應症：目前香港許可證資料中未載明核准適應症"
 monitor_inn: "DEXMEDETOMIDINE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
+description: "Dexmedetomidine：預測新適應症為Nephrogenic syndrome of inappropriate antidiuresis（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Dexmedetomidine
@@ -33,7 +33,7 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "m
 
 </div>
 
-## Dexmedetomidine：從鎮靜用藥到頭痛疾患（Headache Disorder）
+## Dexmedetomidine: Nephrogenic syndrome of inappropriate antidiuresis
 {: .text-alpha }
 
 ## 一句話總結
@@ -41,18 +41,18 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "m
 Dexmedetomidine 是 α2 腎上腺素受體促效劑，在香港以注射濃縮液上市，用於鎮靜。
 TxGNN 模型的預測中，證據最完整的是**頭痛疾患 (Headache Disorder)**，目前有 **4 個臨床試驗**和 **7 篇文獻**，但證據主要集中在硬脊膜穿刺後頭痛（PDPH）這個次類型。
 
-> 說明：本報告以預測清單中證據最充分的第 4 名（頭痛疾患）為主要評估對象。第 1 名（腎因性抗利尿不適當症候群，預測分數 99.60%）沒有任何臨床試驗或文獻，且機轉上不合理，故不作為主軸。
+> 說明：本報告以預測清單中證據最充分的第 4 名（頭痛疾患）為主要評估對象。第 1 名（腎因性抗利尿不適當症候群，預測分數 0.9960）沒有任何臨床試驗或文獻，且機轉上不合理，故不作為主軸。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 目前香港許可證資料中未載明核准適應症 |
-| 預測新適應症 | 頭痛疾患 (Headache Disorder)，證據集中於硬脊膜穿刺後頭痛 |
-| TxGNN 預測分數 | 99.30% |
-| 證據等級 | L2（僅限 PDPH）；整體頭痛疾患證據有限 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 10 張（皆為有效的單方許可證） |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Nephrogenic syndrome of inappropriate antidiuresis |
+| TxGNN 預測分數 | 0.9960 |
+| 證據等級 | L5（僅限 PDPH）；整體頭痛疾患證據有限 |
+| 香港上市 | 上市中（有效許可證 10 張／共 10 張） |
+| 許可證數 | 10 張（有效 10 張） |
 | 建議決策 | Proceed with Guardrails（建議以 PDPH 為範圍進行研究） |
 
 ## 為什麼這個預測合理？

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Brentuximab Vedotin
-parent: 僅模型預測 (L5)
+parent: 高證據等級 (L1-L2)
 nav_order: 127
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Brentuximab Vedotin：預測新適應症為濾泡性淋巴瘤 (Follicular Lymphoma)（證據等級 L5）。原適應症：何杰金氏淋巴瘤（Hodgkin lymphoma，含典型何杰金氏淋巴瘤）"
@@ -14,7 +14,7 @@ predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lympho
 # Brentuximab Vedotin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L2** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,13 +49,13 @@ TxGNN 模型預測它可能對**濾泡性淋巴瘤 (Follicular Lymphoma)** 有�
 |------|------|
 | 原適應症 | 何杰金氏淋巴瘤（Hodgkin lymphoma，含典型何杰金氏淋巴瘤） |
 | 預測新適應症 | 濾泡性淋巴瘤 (Follicular Lymphoma) |
-| TxGNN 預測分數 | 99.89% |
+| TxGNN 預測分數 | 0.9989 |
 | 證據等級 | L2（依資料編製時的評估；但尚無已完成且有結果的 Phase 2/3 RCT，實際證據偏弱） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
-> 說明：原適應症來自知識圖譜的適應症資料，香港許可證上未登載核准適應症文字。
+> 說明：預測分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，並非生物學證據；香港許可證上未登載核准適應症文字。
 
 ---
 

@@ -4,17 +4,17 @@ title: Phenytoin
 parent: 僅模型預測 (L5)
 nav_order: 695
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Phenytoin：預測新適應症為三叉神經腫瘤 (Trigeminal Nerve Neoplasm)（證據等級 L5）。原適應症：癲癇（含全身強直陣攣發作、局部性癲癇、Lennox-Gastaut 症候群、癲癇持續狀態等）"
+indication_count: 3
 monitor_inn: "PHENYTOIN"
-predicted_indications: ["trigeminal nerve neoplasm"]
+predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+last_modified_at: 2026-10-23
+description: "Phenytoin：預測新適應症為三叉神經腫瘤 (Trigeminal Nerve Neoplasm)（證據等級 L5）。原適應症：知識圖譜記錄為癲癇等"
 ---
 
 # Phenytoin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,117 +38,89 @@ predicted_indications: ["trigeminal nerve neoplasm"]
 
 ## 一句話總結
 
-Phenytoin（苯妥英）是經典的抗癲癇藥物，原本用於癲癇、癲癇持續狀態及全身強直陣攣發作等。
-TxGNN 模型預測它可能對**三叉神經腫瘤 (Trigeminal Nerve Neoplasm)** 有效，但目前**沒有臨床試驗**，僅有 **2 篇相關度偏低的文獻**，實質上僅屬模型預測。
-
----
+Phenytoin（苯妥英）是一種抗癲癇藥物，知識圖譜中記錄的使用方向包括癲癇、全身性強直陣攣發作、癲癇重積狀態等。
+TxGNN 模型預測分數最高的是**三叉神經腫瘤 (trigeminal nerve neoplasm)**，但證據不支持；真正有文獻支持的方向是排名第二的**三叉神經痛 (trigeminal neuralgia)**，目前有 **0 個臨床試驗**和 **19 篇文獻**（以綜述、指引與回溯性研究為主）。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 癲癇（含全身強直陣攣發作、局部性癲癇、Lennox-Gastaut 症候群、癲癇持續狀態等） |
-| 預測新適應症 | 三叉神經腫瘤 (Trigeminal Nerve Neoplasm) |
-| TxGNN 預測分數 | 99.99% |
-| 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 5 張 |
-| 建議決策 | Hold |
+| 原適應症 | 知識圖譜記錄為癲癇等（香港許可證未提供核准適應症文字） |
+| 預測新適應症 | 三叉神經痛 (Trigeminal Neuralgia)（排名第 2，為證據最完整的預測；排名第 1 為三叉神經腫瘤） |
+| TxGNN 預測分數 | 三叉神經痛 0.9997（三叉神經腫瘤 0.9999） |
+| 證據等級 | 三叉神經痛：L5（見下方說明）；三叉神經腫瘤：L5 |
+| 香港上市 | 上市中（有效許可證 5 張／共 5 張） |
+| 許可證數 | 5 張（有效 5 張） |
+| 建議決策 | Hold（三叉神經腫瘤）；三叉神經痛為 Proceed with Guardrails 的研究性候選 |
 
-註：香港許可證資料中未提供核准適應症文字，因此原適應症取自知識圖譜中的適應症關聯。
-
----
+**關於證據等級的說明：** 三叉神經痛雖有直接研究該疾病的文獻（含 IV phenytoin 的回溯性研究），但無臨床試驗登記，也未確認有已完成的 RCT。資料編譯時給予 L3（觀察性研究／系統性回顧）。這些文獻直接探討此疾病，因此 L3 成立；但需注意證據多為小型觀察性研究。
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知的藥理知識，Phenytoin 屬於鈉離子通道阻斷劑，可穩定神經元膜電位、抑制異常放電，因此用於控制局部性與全身性癲癇發作，也可用於三叉神經痛等神經病變性疼痛。
+目前缺乏詳細的作用機轉資料（資料庫中未收錄）。依一般藥理知識，Phenytoin 為電壓門控鈉通道阻斷劑，以使用依賴性方式降低神經元的高頻異常放電。
 
-不過，這個預測的合理性有限。三叉神經痛是一種**症狀性疼痛**，與**三叉神經腫瘤**是不同的疾病。Phenytoin 對疼痛的控制屬於症狀緩解，並非抗腫瘤作用，與腫瘤生物學之間沒有直接的機轉關聯。高預測分數較可能反映知識圖譜中，該藥與三叉神經相關神經疾病在網路上的鄰近性，而不是真正的腫瘤適應症。
+三叉神經痛被認為與三叉神經根的血管壓迫、局部脫髓鞘及異常神經放電有關。這種機轉與癲癇的神經過度興奮相似，也與一線藥物 carbamazepine 的作用方式相同，因此 Phenytoin 在機轉上適用於此疾病。文獻中，Phenytoin 常被列為二線藥物或急性發作的急救選項。
 
----
+至於排名第 1 的**三叉神經腫瘤**（TxGNN 模型 (深度學習) 分數 0.9999），高分來自 TxGNN 模型 (深度學習)，可能只是反映模型學到的相關疾病（如三叉神經痛）之間的相似性，並非生物學證據，也不代表抗腫瘤作用。目前沒有任何資料支持 Phenytoin 能治療腫瘤本身；檢索到的兩篇文獻談的是三叉神經痛與 Sturge-Weber 症候群，而非腫瘤。排名第 3 的**β-酮硫解酶缺乏症**（分數 0.9995）沒有任何臨床試驗或文獻，機轉上也無關聯，其分數可能只反映模型學到的疾病間相似性，並非生物學證據。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
+
+以下為三叉神經痛相關的主要文獻（優先列出指引、回溯性研究與直接探討 Phenytoin 者）：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | Review | Expert Rev Neurother | 回顧三叉神經痛的內外科治療；討論的是神經痛，而非腫瘤 |
-| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Case series | An Esp Pediatr | 14 例 Sturge-Weber 症候群的臨床特徵與治療反應；與三叉神經腫瘤無直接關聯 |
+| [30860637](https://pubmed.ncbi.nlm.nih.gov/30860637/) | 2019 | 指引 | European Journal of Neurology | 歐洲神經學會的三叉神經痛處置建議 |
+| [35469475](https://pubmed.ncbi.nlm.nih.gov/35469475/) | 2022 | 回溯性世代 | Cephalalgia | 144 例，評估靜脈 lacosamide 與 phenytoin 用於三叉神經痛急性發作的效果與安全性 |
+| [32981076](https://pubmed.ncbi.nlm.nih.gov/32981076/) | 2020 | 回溯性世代 | Headache | 分析靜脈 phenytoin 作為三叉神經痛危象急救治療的反應 |
+| [28761370](https://pubmed.ncbi.nlm.nih.gov/28761370/) | 2017 | 綜述 | Journal of Pain Research | 比較 phenytoin 與 carbamazepine 的行銷導向與實證導向治療 |
+| [31908187](https://pubmed.ncbi.nlm.nih.gov/31908187/) | 2020 | 綜述 | Molecular Pain | 三叉神經痛從病理生理到藥物治療的概述 |
+| [29114270](https://pubmed.ncbi.nlm.nih.gov/29114270/) | 2017 | 綜述 | Asian Journal of Neurosurgery | 三叉神經痛的機轉與分型，神經血管衝突為最被接受的成因 |
+| [19445753](https://pubmed.ncbi.nlm.nih.gov/19445753/) | 2009 | 綜述 | BMJ Clinical Evidence | 三叉神經痛的臨床特徵與治療證據 |
+| [35695796](https://pubmed.ncbi.nlm.nih.gov/35695796/) | 2022 | 綜述 | Expert Opinion on Pharmacotherapy | 三叉神經病變性疼痛的藥物治療更新 |
+| [11096730](https://pubmed.ncbi.nlm.nih.gov/11096730/) | 1999 | 綜述 | Current Treatment Options in Neurology | Carbamazepine 為首選；phenytoin 等為二線選項 |
+| [628068](https://pubmed.ncbi.nlm.nih.gov/628068/) | 1978 | 文章 | JAMA | 多數病人可用 phenytoin 或 carbamazepine 成功控制疼痛 |
 
-這兩篇文獻均未直接證明 Phenytoin 對三叉神經腫瘤有效。
-
----
+三叉神經腫瘤方面，僅有兩篇間接文獻（[17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) 為三叉神經痛綜述；[9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) 為 Sturge-Weber 症候群病例系列），均未直接研究該腫瘤。
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-47301 | PHENYTOIN INJ 250MG/5ML（輝瑞） | 注射劑 | 未提供 |
-| HK-65291 | DILANTIN EXTENDED CAPSULES 30MG（Viatris） | 膠囊劑 | 未提供 |
-| HK-07909 | DILANTIN CAP 100MG（Viatris） | 膠囊劑 | 未提供 |
-| HK-19932 | DILANTIN INJ 250MG/5ML（Viatris） | 注射劑 | 未提供 |
-| HK-07913 | DILANTIN SUSP 125MG/5ML（Viatris） | 懸液劑 | 未提供 |
+| HK-47301 | PHENYTOIN INJ 250MG/5ML | 注射劑（依品名） | 資料未提供 |
+| HK-65291 | DILANTIN EXTENDED CAPSULES 30MG | 膠囊（依品名） | 資料未提供 |
+| HK-07909 | DILANTIN CAP 100MG | 膠囊（依品名） | 資料未提供 |
+| HK-19932 | DILANTIN INJ 250MG/5ML | 注射劑（依品名） | 資料未提供 |
+| HK-07913 | DILANTIN SUSP 125MG/5ML | 懸液劑（依品名） | 資料未提供 |
 
-註：資料中的劑型欄位為空白，表中劑型由品名推斷。
-
----
+5 張許可證均為單一成分、有效狀態。許可證資料中沒有核准適應症文字，因此癲癇等適應症僅為知識圖譜中記錄的關係，不能視為香港核准適應症。
 
 ## 安全性考量
 
-**知識圖譜標示的禁忌或需謹慎的疾病**（非仿單原文）：
-- **心臟**：長 QT 症候群（含家族性）、尖端扭轉型心律不整、低血壓
-- **肝臟**：肝衰竭、肝病、膽囊疾病、肝昏迷、肝性腦病變
-- **腎臟**：腎臟疾病、輸尿管積膿
-- **血液**：血小板低下、嗜中性白血球低下、顆粒球缺乏症
-- **代謝**：高血糖、糖尿病、糖尿病酮酸中毒；紫質症（含遺傳性）
-- **免疫**：系統性紅斑狼瘡（含兒童型）
-- **呼吸與其他**：睡眠呼吸中止症、先天性中樞性低通氣症候群、焦慮症、物質濫用/依賴等
+- **知識圖譜記錄的禁忌關係**（非仿單內容）：長 QT 症候群、尖端扭轉型心室頻脈、肝衰竭、肝病、腎臟病、紫質症、血小板減少、嗜中性白血球減少、顆粒性白血球缺乏症、全身性紅斑狼瘡、糖尿病與酮酸中毒、高血糖、低血壓、肝性腦病變、阻塞性睡眠呼吸中止症等。
+- **藥物交互作用**：共查得 100 筆。中度者如 acarbose、famotidine、ranitidine、doxycycline、hydrocortisone、dexamethasone、metformin、pioglitazone、bupropion、aprepitant、morphine、omeprazole、metronidazole 等；acetylsalicylic acid 為輕度。
+- **其他考量**：Phenytoin 治療指數窄，靜脈負荷劑量有心臟風險，需監測血中濃度（低白蛋白血症時總濃度可能低估毒性）。
 
-**文獻中的相關安全訊號**：
-- 血小板低下（個案報告）
-- 高血糖與糖尿病酮酸中毒（個案報告）
-- 急性間歇性紫質症發作誘發（個案報告）
-- 合併顱部放射線治療時的多形性紅斑（EMPACT 症候群）
-
-**藥物交互作用**：資料庫共查得 100 筆，以下為部分範例：
-- 中度：Acarbose、Famotidine、Ranitidine、Doxycycline、Hydrocortisone、Dexamethasone、Metformin、Pioglitazone、Bupropion、Aprepitant、Omeprazole、Metronidazole、Morphine 等
-- 輕度：Acetylsalicylic acid
-
-香港仿單的警語與禁忌資料尚未取得，完整資訊請參考原廠仿單。
-
----
+正式的警語與禁忌請參考原廠仿單（本次未取得香港仿單資料）。
 
 ## 結論與下一步
 
-**決策：Hold**
+**決策：**
+- 三叉神經腫瘤：**Hold**
+- 三叉神經痛：**Proceed with Guardrails**（作為研究性方向）
 
 **理由：**
-- 預測缺乏任何臨床試驗，文獻也只涉及三叉神經痛等相鄰疾病，與腫瘤適應症沒有實質關聯，屬於 L5 證據。
-- 機轉上沒有抗腫瘤依據，高 TxGNN 分數很可能是網路鄰近性造成的假象。此外，安全性顧慮不少（心律、肝腎、血液、血糖及多重藥物交互作用）。
+- 三叉神經腫瘤缺乏任何直接證據與合理機轉，其高分（0.9999）來自 TxGNN 模型 (深度學習)，可能只反映模型學到的相關疾病間相似性，並非生物學證據；β-酮硫解酶缺乏症（0.9995）同樣無證據。
+- 三叉神經痛有指引、回溯性研究與綜述支持 Phenytoin 為二線或急性急救選項，且香港已有口服與注射劑型上市；但缺乏臨床試驗與 RCT，證據仍偏弱。
 
 **若要推進需要：**
-- 取得作用機轉資料，確認是否存在任何抗腫瘤相關機轉
-- 取得香港仿單的警語、禁忌與核准適應症
-- 以前臨床（細胞或動物）研究驗證對相關腫瘤的作用
-- 若目標其實是神經痛或癲癇相關症狀控制，建議改以三叉神經痛或反射性癲癇等相鄰適應症重新評估
-
----
-
-### 補充：其他預測適應症（供參考）
-
-| 預測適應症 | TxGNN 分數 | 證據等級 | 建議 | 說明 |
-|-----------|-----------|---------|------|------|
-| 進食誘發癲癇 (Eating seizures) | 99.98% | L4 | Hold | 屬反射性癲癇，鈉離子通道阻斷機轉合理，但現有文獻多與進食障礙、骨骼健康等無關，無針對此症候群的直接證據 |
-| 性高潮誘發癲癇 (Orgasm-induced seizures) | 99.98% | L5 | Hold | 無臨床試驗或文獻，分數可能源自既有癲癇適應症 |
-| 排尿誘發癲癇 (Micturition-induced seizures) | 99.98% | L4 | Hold | 文獻為一般抗癲癇藥物與急性症狀性發作資料，僅屬間接支持 |
-| 聲源性癲癇 (Audiogenic seizures) | 99.98% | L4 | Research Question | 多項動物模型研究顯示 Phenytoin 有抗痙攣作用，但僅為動物證據，主要價值在於驗證既有癲癇用途的機轉 |
-
-這幾項預測皆為既有癲癇適應症的延伸，與原適應症高度相近，但都缺乏專屬的人體臨床證據。
+- 取得香港仿單的警語、禁忌與核准適應症資料
+- 補充 DrugBank 的作用機轉資料
+- 設計或查找三叉神經痛的前瞻性對照研究（尤其是與 carbamazepine 的比較）
+- 制訂 IV 使用的心臟監測與血中濃度監測計畫，並審視高風險族群與 DDI
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

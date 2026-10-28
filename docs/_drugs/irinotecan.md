@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Irinotecan
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 484
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Irinotecan：預測新適應症為女性乳癌 (Female Breast Carcinoma)（證據等級 L3）。原適應症：結腸癌轉移、胰腺癌"
 monitor_inn: "IRINOTECAN"
 predicted_indications: ["female breast carcinoma"]
+description: "Irinotecan：預測新適應症為女性乳癌 (female breast carcinoma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Irinotecan
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["female breast carcinoma"]
 
 </div>
 
-## Irinotecan：從大腸癌轉移與胰腺癌到女性乳癌
+## Irinotecan: 女性乳癌 (female breast carcinoma)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 結腸癌轉移、胰腺癌（來自 TxGNN 知識圖譜；香港許可證未提供適應症文字） |
-| 預測新適應症 | 女性乳癌 (Female Breast Carcinoma) |
-| TxGNN 預測分數 | 99.08% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 16 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 女性乳癌 (female breast carcinoma) |
+| TxGNN 預測分數 | 0.9908 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 16 張／共 16 張） |
+| 許可證數 | 16 張（有效 16 張） |
 | 建議決策 | Hold（列為研究問題，待補強證據） |
 
 ---
@@ -151,7 +151,7 @@ Irinotecan 是 SN-38 的前驅藥物，SN-38 為拓樸異構酶 I 抑制劑，�
 **決策：Hold**
 
 **理由：**
-- 目前證據屬 L3：直接評估 irinotecan 於乳癌的試驗僅有小型 Phase 1，其餘多為 SN-38 載荷藥物或脂質體等不同劑型的間接證據。TxGNN 分數高（99.08%）屬計算預測，非臨床證據。
+- 目前證據屬 L3：直接評估 irinotecan 於乳癌的試驗僅有小型 Phase 1，其餘多為 SN-38 載荷藥物或脂質體等不同劑型的間接證據。TxGNN 分數高（0.9908）屬計算預測，非臨床證據。
 - 既有文獻甚至指出 irinotecan 在乳癌的單藥活性有限，且藥物本身的骨髓抑制與腹瀉風險較高，需要更強的直接證據。
 
 **若要推進需要：**

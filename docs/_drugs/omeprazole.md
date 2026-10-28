@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Omeprazole
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 645
-evidence_level: L3
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Omeprazole：預測新適應症為十二指腸胃逆流 (Duodenogastric Reflux)（證據等級 L3）。原適應症：胃潰瘍、消化性潰瘍、胃食道逆流症、食道炎、十二指腸潰瘍、Zollinger-Ellison 症候群"
 monitor_inn: "OMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
+description: "Omeprazole：預測新適應症為Duodenal obstruction（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Omeprazole
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["duodenal obstruction"]
 
 </div>
 
-## Omeprazole：從消化性潰瘍與胃食道逆流到十二指腸胃逆流
+## Omeprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## 一句話總結
 
 Omeprazole 是質子幫浦抑制劑，原本用於胃潰瘍、十二指腸潰瘍、胃食道逆流症與 Zollinger-Ellison 症候群等酸相關疾病。
-TxGNN 模型預測它可能對**十二指腸胃逆流 (Duodenogastric Reflux)** 有效，但目前僅有 **1 個間接相關的臨床試驗**和 **15 篇文獻**（多為動物或小型機轉研究），證據仍屬初步。
 
 ---
 
@@ -47,11 +46,11 @@ TxGNN 模型預測它可能對**十二指腸胃逆流 (Duodenogastric Reflux)** 
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 胃潰瘍、消化性潰瘍、胃食道逆流症、食道炎、十二指腸潰瘍、Zollinger-Ellison 症候群（來自知識圖譜，香港許可證未載明適應症文字） |
-| 預測新適應症 | 十二指腸胃逆流 (Duodenogastric Reflux) |
-| TxGNN 預測分數 | 99.64% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Duodenal obstruction |
+| TxGNN 預測分數 | 0.9964 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -63,7 +62,7 @@ TxGNN 模型預測它可能對**十二指腸胃逆流 (Duodenogastric Reflux)** 
 
 酸抑制可能減輕酸與膽汁混合逆流造成的黏膜傷害與症狀，但 **Omeprazole 並不會減少膽汁逆流本身**。
 
-需要特別注意的是，大鼠研究（PMID 10389684、8943968、33027361）顯示，在十二指腸胃逆流的情況下合併胃酸阻斷，可能促進前腸黏膜增生與胃部致癌，這是需要釐清的安全性訊號。人體資料目前僅限於 Barrett 食道的小型機轉研究（PMID 10994616、9824338）與一項兒童食道膽汁逆流的前瞻性研究（PMID 16641575）。0.996 的預測分數與既有逆流適應症的重疊相符，但終究只是模型預測。
+需要特別注意的是，大鼠研究（PMID 10389684、8943968、33027361）顯示，在十二指腸胃逆流的情況下合併胃酸阻斷，可能促進前腸黏膜增生與胃部致癌，這是需要釐清的安全性訊號。人體資料目前僅限於 Barrett 食道的小型機轉研究（PMID 10994616、9824338）與一項兒童食道膽汁逆流的前瞻性研究（PMID 16641575）。0.9964 的預測分數與既有逆流適應症的重疊相符，但終究只是模型預測。
 
 ---
 

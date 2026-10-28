@@ -4,17 +4,17 @@ title: Dextromethorphan
 parent: 僅模型預測 (L5)
 nav_order: 271
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Dextromethorphan：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L5）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、鼻炎、鼻咽炎、頭痛疾患"
 monitor_inn: "Dextromethorphan"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
+description: "Dextromethorphan：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Dextromethorphan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "fau
 
 </div>
 
-## Dextromethorphan：從上呼吸道症狀（鼻炎、感冒、咽炎）到鼻腔疾病
+## Dextromethorphan: 鼻腔疾病 (nasal cavity disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,11 +46,11 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、鼻炎、鼻咽炎、頭痛疾患（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 鼻腔疾病 (Nasal Cavity Disease) |
-| TxGNN 預測分數 | 99.98% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 鼻腔疾病 (nasal cavity disease) |
+| TxGNN 預測分數 | 0.9998 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 「鼻腔疾病」是範圍很廣、不具體的疾病分類，與藥物現有的鼻炎、鼻咽炎適應症高度重疊。因此這個高分預測較可能是現有適應症類別的重述，而非真正的新用途。
 
-模型分數雖然很高（99.98%），但反映的是知識圖譜中與既有適應症的鄰近關係，並非新的臨床證據。
+模型分數雖然很高（0.9998），但該分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據，也不是新的臨床證據。
 
 ## 臨床試驗證據
 

@@ -6,9 +6,9 @@ nav_order: 387
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Fluocinolone Acetonide：預測新適應症為肥厚性扁平苔癬 (Hypertrophic Lichen Planus)（證據等級 L5）。原適應症：濕疹、異位性皮膚炎、接觸性皮膚炎、脂漏性皮膚炎、盤狀紅斑性狼瘡等皮膚疾病"
 monitor_inn: "FLUOCINOLONE ACETONIDE"
-predicted_indications: ["hypertrophic lichen planus", "annular atrophic lichen planus", "lichen planus pigmentosus", "lichen planus pemphigoides"]
+predicted_indications: ["hypertrophic lichen planus", "lichen planus pigmentosus", "annular atrophic lichen planus", "lichen planus pemphigoides"]
+description: "Fluocinolone Acetonide：預測新適應症為肥厚性扁平苔癬 (hypertrophic lichen planus)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Fluocinolone Acetonide
@@ -33,7 +33,7 @@ predicted_indications: ["hypertrophic lichen planus", "annular atrophic lichen p
 
 </div>
 
-## Fluocinolone Acetonide：從皮膚發炎性疾病到肥厚性扁平苔癬
+## Fluocinolone Acetonide: 肥厚性扁平苔癬 (hypertrophic lichen planus)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,11 +46,11 @@ TxGNN 模型預測它可能對**肥厚性扁平苔癬 (Hypertrophic Lichen Planu
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 濕疹、異位性皮膚炎、接觸性皮膚炎、脂漏性皮膚炎、盤狀紅斑性狼瘡等皮膚疾病（來自知識圖譜，香港許可證未載明適應症文字） |
-| 預測新適應症 | 肥厚性扁平苔癬 (Hypertrophic Lichen Planus) |
-| TxGNN 預測分數 | 99.42% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 肥厚性扁平苔癬 (hypertrophic lichen planus) |
+| TxGNN 預測分數 | 0.9942 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold（列為研究問題，待補充臨床資料） |
 
@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對**肥厚性扁平苔癬 (Hypertrophic Lichen Planu
 
 目前缺乏詳細的作用機轉資料（原始 MOA 欄位缺漏）。藥理資料顯示，Fluocinolone Acetonide 的作用標的為**糖皮質素受體 (Glucocorticoid receptor, NR3C1)**。作為強效局部皮質類固醇，它具有抗發炎與免疫抑制作用。以下推論來自類別層級的藥理知識，而非此藥物的專屬資料。
 
-扁平苔癬是 T 細胞介導的苔癬樣皮膚病。Fluocinolone Acetonide 在知識圖譜中已有苔癬類疾病 (lichen disease) 的適應症關聯，抗發炎機轉也與此類疾病的病理相符。強效局部類固醇通常被用作肥厚性扁平苔癬的一線治療，但這一點並未記載於本報告所整理的資料中。
+扁平苔癬是 T 細胞介導的苔癬樣皮膚病。Fluocinolone Acetonide 的預測分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，並非生物學證據。其抗發炎機轉也與此類疾病的病理相符。強效局部類固醇通常被用作肥厚性扁平苔癬的一線治療，但這一點並未記載於本報告所整理的資料中。
 
 整體而言，這是一項**僅有模型預測、尚無臨床證據**的假說。
 
@@ -66,9 +66,9 @@ TxGNN 模型預測它可能對**肥厚性扁平苔癬 (Hypertrophic Lichen Planu
 
 | 預測疾病 | 分數 | 建議 | 備註 |
 |---------|------|------|------|
-| 環狀萎縮性扁平苔癬 | 99.42% | Hold | 類固醇可能加重皮膚萎縮，有安全疑慮 |
-| 色素性扁平苔癬 | 99.42% | Research Question | 色素結果與類固醇反應需專門研究 |
-| 扁平苔癬類天疱瘡 | 99.34% | Hold | 自體抗體水皰成分通常需全身性免疫抑制，機轉僅部分相符 |
+| 環狀萎縮性扁平苔癬 | 0.9942 | Hold | 類固醇可能加重皮膚萎縮，有安全疑慮 |
+| 色素性扁平苔癬 | 0.9942 | Research Question | 色素結果與類固醇反應需專門研究 |
+| 扁平苔癬類天疱瘡 | 0.9934 | Hold | 自體抗體水皰成分通常需全身性免疫抑制，機轉僅部分相符 |
 
 ## 臨床試驗證據
 
@@ -105,7 +105,7 @@ TxGNN 模型預測它可能對**肥厚性扁平苔癬 (Hypertrophic Lichen Planu
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高（99.42%），但沒有任何臨床試驗或文獻佐證，證據等級僅為 L5。香港仿單的警語與禁忌資料也尚未取得，無法進行安全性篩選。
+- 預測分數雖高（0.9942），但沒有任何臨床試驗或文獻佐證，證據等級僅為 L5。香港仿單的警語與禁忌資料也尚未取得，無法進行安全性篩選。
 - 肥厚性扁平苔癬的機轉合理性來自類別層級的糖皮質素藥理，屬於可繼續研究的問題，但目前不足以支持推進。
 
 **若要推進需要：**

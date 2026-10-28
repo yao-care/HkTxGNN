@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Doxycycline
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 299
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Doxycycline：預測新適應症為點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis)（證據等級 L4）。原適應症：支氣管炎、痤瘡、細菌性肺炎、炭疽、淋病、咽炎、放線菌病、軟性下疳、鉤端螺旋體病、性病性淋巴肉芽腫等"
@@ -14,7 +14,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis exte
 # Doxycycline
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 |------|------|
 | 原適應症 | 支氣管炎、痤瘡、細菌性肺炎、炭疽、淋病、咽炎、放線菌病、軟性下疳、鉤端螺旋體病、性病性淋巴肉芽腫等 |
 | 預測新適應症 | 點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis) |
-| TxGNN 預測分數 | 99.94% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| TxGNN 預測分數 | 0.9994 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 

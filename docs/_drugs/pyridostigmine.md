@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pyridostigmine
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 748
-evidence_level: L3
-indication_count: 7
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Pyridostigmine：預測新適應症為重症肌無力合併胸腺增生 (myasthenia gravis with thymus hyperplasia)（證據等級 L3）。原適應症：重症肌無力、成人型重症肌無力、神經肌肉接合部疾病"
 monitor_inn: "Pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
+description: "Pyridostigmine：預測新適應症為Autoimmune disease of peripheral nervous system（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Pyridostigmine
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **7** 個
+證據等級: **L5** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["autoimmune disease of peripheral nervous system", "dise
 
 </div>
 
-## Pyridostigmine：從重症肌無力到重症肌無力合併胸腺增生
+## Pyridostigmine: Autoimmune disease of peripheral nervous system
 {: .text-alpha }
 
 ## 一句話總結
 
 Pyridostigmine 是可逆性乙醯膽鹼酯酶抑制劑，原本用於重症肌無力及神經肌肉接合部疾病。
-TxGNN 模型預測它可能對**重症肌無力合併胸腺增生 (myasthenia gravis with thymus hyperplasia)** 有效。
 目前**無臨床試驗登記**，僅有 **3 篇文獻**（1 篇回顧、1 篇個案報告、1 篇世代研究）。此預測本質上屬於原適應症的亞型，並非真正的新適應症。
 
 ---
@@ -48,12 +47,12 @@ TxGNN 模型預測它可能對**重症肌無力合併胸腺增生 (myasthenia gr
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 重症肌無力、成人型重症肌無力、神經肌肉接合部疾病（許可證未載明適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 重症肌無力合併胸腺增生 (myasthenia gravis with thymus hyperplasia) |
-| TxGNN 預測分數 | 99.76% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 6 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Autoimmune disease of peripheral nervous system |
+| TxGNN 預測分數 | 0.9975 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
+| 許可證數 | 6 張（有效 6 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Misoprostol
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 592
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Misoprostol：預測新適應症為閉經 (Amenorrhea)（證據等級 L4）。原適應症：資料未登載"
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
 # Misoprostol
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但目前**沒有
 |------|------|
 | 原適應症 | 資料未登載 |
 | 預測新適應症 | 閉經 (Amenorrhea) |
-| TxGNN 預測分數 | 99.64% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| TxGNN 預測分數 | 0.9964 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,9 +63,9 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但目前**沒有
 
 不過，檢索到的文獻主要是 misoprostol（多與 mifepristone 併用）用於早期妊娠終止及稽留流產處置。在這些情境中，閉經只是妊娠相關的臨床背景，並非治療目標。沒有任何一項研究評估 misoprostol 是否能恢復月經。
 
-因此，99.64% 的 TxGNN 分數屬於計算模型的預測，並未獲得直接臨床證據的支持。
+因此，0.9964 的 TxGNN 分數屬於計算模型的預測，並未獲得直接臨床證據的支持。
 
-另一個排名較低的預測是「非典型主動脈縮窄」(atypical coarctation of aorta，分數 99.30%，無任何臨床試驗或文獻)。這可能來自 PGE1 類別層級的連結（alprostadil 用於維持新生兒動脈導管通暢），但 misoprostol 為口服／陰道給藥，並無維持導管通暢的用途，且有已知致畸胎風險，機轉依據薄弱、安全性不利，不建議作為優先方向。
+另一個排名較低的預測是「非典型主動脈縮窄」(atypical coarctation of aorta，分數 0.9930，無任何臨床試驗或文獻)。這可能來自 PGE1 類別層級的連結（alprostadil 用於維持新生兒動脈導管通暢），但 misoprostol 為口服／陰道給藥，並無維持導管通暢的用途，且有已知致畸胎風險，機轉依據薄弱、安全性不利，不建議作為優先方向。
 
 ---
 

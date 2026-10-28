@@ -6,9 +6,9 @@ nav_order: 666
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Papaverine：預測新適應症為缺血性疾病 (Ischemic Disease)（證據等級 L4）。原適應症：周邊血管疾病、間歇性跛行、周邊動脈疾病、腦缺血、暫時性腦缺血發作"
 monitor_inn: "Papaverine"
 predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
+description: "Papaverine：預測新適應症為缺血性疾病 (ischemic disease)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Papaverine
@@ -33,7 +33,7 @@ predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "no
 
 </div>
 
-## Papaverine：從周邊血管疾病與腦缺血到缺血性疾病
+## Papaverine: 缺血性疾病 (ischemic disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,11 +48,11 @@ TxGNN 模型預測它可能對**缺血性疾病 (Ischemic Disease)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 周邊血管疾病、間歇性跛行、周邊動脈疾病、腦缺血、暫時性腦缺血發作（來自知識圖譜，香港許可證未載明適應症文字） |
-| 預測新適應症 | 缺血性疾病 (Ischemic Disease) |
-| TxGNN 預測分數 | 99.91% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 缺血性疾病 (ischemic disease) |
+| TxGNN 預測分數 | 0.9991 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 

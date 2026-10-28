@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Epirubicin
-parent: 僅模型預測 (L5)
+parent: 中證據等級 (L3-L4)
 nav_order: 328
-evidence_level: L5
+evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Epirubicin：預測新適應症為原發性肺淋巴瘤 (Primary Pulmonary Lymphoma)（證據等級 L5）。原適應症：乳癌（乳腺癌、乳房腫瘤）"
@@ -14,7 +14,7 @@ predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal
 # Epirubicin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+證據等級: **L4** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,13 +50,13 @@ TxGNN 模型預測它可能對**原發性肺淋巴瘤 (Primary Pulmonary Lymphom
 |------|------|
 | 原適應症 | 乳癌（乳腺癌、乳房腫瘤） |
 | 預測新適應症 | 原發性肺淋巴瘤 (Primary Pulmonary Lymphoma) |
-| TxGNN 預測分數 | 99.71% |
+| TxGNN 預測分數 | 0.9971 |
 | 證據等級 | L4（沒有直接研究，只有機轉合理性與間接文獻） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 10 張（皆為有效單一成分許可證） |
+| 香港上市 | 上市中（有效許可證 10 張／共 10 張） |
+| 許可證數 | 10 張（有效 10 張） |
 | 建議決策 | Hold |
 
-註：香港許可證資料未載明核准適應症文字，上方原適應症取自藥物知識圖譜的適應症關聯。
+註：香港許可證資料未載明核准適應症文字，上方原適應症為藥物資料庫所列的適應症關聯，並非來自 TxGNN 模型（deep learning）的預測。
 
 ---
 

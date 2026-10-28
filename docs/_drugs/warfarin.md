@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Warfarin
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 944
-evidence_level: L4
+evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Warfarin：預測新適應症為肝素輔因子 II 缺乏症 (Heparin Cofactor 2 Deficiency)（證據等級 L4）。原適應症：肺栓塞、血栓性疾病、顱內栓塞"
 monitor_inn: "Warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
+description: "Warfarin：預測新適應症為肝素輔因子 II 缺乏症 (heparin cofactor 2 deficiency)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Warfarin
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **7** 個
+證據等級: **L5** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with s
 
 </div>
 
-## Warfarin：從血栓性疾病到遺傳性血栓傾向（肝素輔因子 II 缺乏症）
+## Warfarin: 肝素輔因子 II 缺乏症 (heparin cofactor 2 deficiency)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**肝素輔因子 II 缺乏症 (Heparin Cofactor 2
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 肺栓塞、血栓性疾病、顱內栓塞（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 肝素輔因子 II 缺乏症 (Heparin Cofactor 2 Deficiency) |
-| TxGNN 預測分數 | 99.87% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 肝素輔因子 II 缺乏症 (heparin cofactor 2 deficiency) |
+| TxGNN 預測分數 | 0.9987 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold |
 
 ---
@@ -126,12 +126,12 @@ TxGNN 模型預測它可能對**肝素輔因子 II 缺乏症 (Heparin Cofactor 2
 
 | 排名 | 預測適應症 | 分數 | 證據等級 | 決策 | 說明 |
 |------|-----------|------|---------|------|------|
-| 2 | 第五因子過多伴自發性血栓 | 99.84% | L5 | Hold | 無試驗或文獻，僅有模型預測 |
-| 3 | 抗凝血酶缺乏症第 2 型 | 99.84% | L4 | Hold | 僅有 1 篇個案報告，未顯示療效 |
-| 4 | 血栓傾向 (Thrombophilia) | 99.75% | L2 | Research Question | 有 1 個 Phase 3 試驗（NCT00895505，D-dimer 引導延長預防，狀態不明、無結果），間接相關，主要為既有適應症延伸 |
-| 5 | 類風濕性關節炎 | 99.21% | L4 | Hold | 4 個 Phase 1 試驗皆為藥物交互作用研究，無療效證據 |
-| 6 | 乳房纖維囊腫 | 99.20% | L5 | Hold | 僅有 Danazol 交互作用個案，分數可能反映交互作用訊號 |
-| 7 | 良性乳腺發育不良 | 99.10% | L5 | Hold | 上一項的同義詞，可能是知識圖譜的假象 |
+| 2 | 第五因子過多伴自發性血栓 | 0.9984 | L5 | Hold | 無試驗或文獻，僅有模型預測 |
+| 3 | 抗凝血酶缺乏症第 2 型 | 0.9984 | L5 | Hold | 僅有 1 篇個案報告，未顯示療效 |
+| 4 | 血栓傾向 (Thrombophilia) | 0.9975 | L2 | Research Question | 有 1 個 Phase 3 試驗（NCT00895505，D-dimer 引導延長預防，狀態不明、無結果），間接相關，主要為既有適應症延伸 |
+| 5 | 類風濕性關節炎 | 0.9921 | L4 | Hold | 4 個 Phase 1 試驗皆為藥物交互作用研究，無療效證據 |
+| 6 | 乳房纖維囊腫 | 0.9920 | L5 | Hold | 僅有 Danazol 交互作用個案，分數可能反映交互作用訊號 |
+| 7 | 良性乳腺發育不良 | 0.9910 | L5 | Hold | 上一項的同義詞，分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據 |
 
 其中**類風濕性關節炎**及**乳房疾病**的高分很可能來自藥物交互作用的共現訊號，而非療效，不建議作為再利用方向。
 ## 免責聲明

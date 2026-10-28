@@ -4,17 +4,17 @@ title: Mupirocin
 parent: 僅模型預測 (L5)
 nav_order: 602
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Mupirocin：預測新適應症為葡萄球菌燙傷樣皮膚症候群（證據等級 L5）。原適應症：膿痂疹、大泡性膿痂疹"
 monitor_inn: "Mupirocin"
-predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis", "neurotrophic keratopathy", "cutaneous candidiasis", "vaginal discharge", "exposure keratitis", "leukoplakia of vagina", "non-human animal disease", "staphylococcal scalded skin syndrome", "bacterial vaginosis"]
+predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
+description: "Mupirocin：預測新適應症為Pleural empyema (disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Mupirocin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ predicted_indications: ["pleural empyema (disease)", "punctate epithelial kerato
 
 </div>
 
-## Mupirocin：從膿痂疹到葡萄球菌燙傷樣皮膚症候群
+## Mupirocin: Pleural empyema (disease)
 {: .text-alpha }
 
 ## 一句話總結
 
 Mupirocin 是外用抗生素，原本用於膿痂疹（impetigo）及大泡性膿痂疹的治療。
 TxGNN 模型的首位預測為「膿胸」，但該預測缺乏任何證據且機轉上不合理。
-本報告改以證據最完整的**葡萄球菌燙傷樣皮膚症候群 (Staphylococcal Scalded Skin Syndrome, SSSS)** 為主要評估對象：目前有 **0 個臨床試驗**，但有 **13 篇文獻**（以觀察性研究、病例報告與回顧為主）支持這個方向。
 
 ---
 
@@ -48,12 +47,12 @@ TxGNN 模型的首位預測為「膿胸」，但該預測缺乏任何證據且�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 膿痂疹、大泡性膿痂疹 |
-| 預測新適應症 | 葡萄球菌燙傷樣皮膚症候群（SSSS，TxGNN 排名第 9；排名第 1 的膿胸缺乏證據且機轉不合理，故改評估 SSSS） |
-| TxGNN 預測分數 | 95.57%（SSSS）；排名第 1 的膿胸為 99.49% |
-| 證據等級 | L3（SSSS：觀察性研究與回顧，無 RCT） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 14 張（皆為有效的單一成分許可證） |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Pleural empyema (disease) |
+| TxGNN 預測分數 | 0.9949 |
+| 證據等級 | L5（SSSS：觀察性研究與回顧，無 RCT） |
+| 香港上市 | 上市中（有效許可證 14 張／共 14 張） |
+| 許可證數 | 14 張（有效 14 張） |
 | 建議決策 | Proceed with Guardrails（僅限 SSSS，作為輔助治療） |
 
 ---
@@ -69,7 +68,7 @@ SSSS 由會產生表皮剝脫毒素的金黃色葡萄球菌引起，與大泡性
 **其他預測的評估：**
 - **膿胸、陰道分泌物、陰道白斑、細菌性陰道病：** 僅有模型預測或間接證據。mupirocin 為外用製劑，無有意義的全身或胸腔暴露，且對厭氧菌活性有限，機轉關聯弱。
 - **點狀上皮角膜結膜炎、神經營養性角膜病變、暴露性角膜炎：** 病因多為病毒、發炎或神經性問題。軟膏並非眼用設計，且 1993 年體外研究顯示對角膜上皮有毒性疑慮。
-- **皮膚念珠菌症：** 僅有 1991 年一篇報告（標題顯示研究設計無法確認）與一篇病例報告，證據間接。mupirocin 本身抗黴菌活性很弱。
+- mupirocin 本身抗黴菌活性很弱。
 - **非人類動物疾病：** 為本體論的非特異分類，不屬可行動的適應症。
 
 ---
@@ -97,7 +96,6 @@ SSSS 由會產生表皮剝脫毒素的金黃色葡萄球菌引起，與大泡性
 | [16009455](https://pubmed.ncbi.nlm.nih.gov/16009455/) | 2005 | 群聚調查 | J Hosp Infect | 新生兒 SSSS 院內群聚的調查與控制 |
 | [9576389](https://pubmed.ncbi.nlm.nih.gov/9576389/) | 1998 | 分子流行病學 | Pediatr Infect Dis J | 早產兒 SSSS 的分子流行病學與感染控制 |
 
-**其他預測的零星文獻：** 皮膚念珠菌症有 [PMID 1678836](https://pubmed.ncbi.nlm.nih.gov/1678836/)（1991，Lancet，mupirocin 用於皮膚念珠菌症，設計未確認）；細菌性陰道病有 [PMID 1815427](https://pubmed.ncbi.nlm.nih.gov/1815427/)（1991，一例 MRSA 陰道炎以 mupirocin 清除，並非細菌性陰道病）；暴露性角膜炎有 [PMID 8222720](https://pubmed.ncbi.nlm.nih.gov/8222720/)（1993，體外研究，提示角膜上皮毒性）。
 
 ---
 
@@ -131,7 +129,7 @@ SSSS 由會產生表皮剝脫毒素的金黃色葡萄球菌引起，與大泡性
 
 **理由：**
 - SSSS 與既有適應症（大泡性膿痂疹）病原體相同，且有一項 2023 年研究以 mupirocin 作為輔助治療，但證據僅為觀察性，無 RCT 與已登記試驗，只能定位為全身性抗生素的輔助。
-- 其他預測多為純模型預測、機轉不合理，或有安全疑慮（如眼部使用），應暫緩。皮膚念珠菌症可列為研究問題，但證據不足。
+- 其他預測多為純模型預測、機轉不合理，或有安全疑慮（如眼部使用），應暫緩。
 
 **若要推進需要：**
 - 取得香港仿單的警語、禁忌與核准適應症（目前為阻擋性資料缺口）

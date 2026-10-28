@@ -6,9 +6,9 @@ nav_order: 651
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Oxybutynin：預測新適應症為不寧腿症候群 (Restless Legs Syndrome)（證據等級 L5）。原適應症：膀胱過動症、神經性膀胱、馬尾症候群"
 monitor_inn: "Oxybutynin"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
+description: "Oxybutynin：預測新適應症為不寧腿症候群 (restless legs syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Oxybutynin
@@ -33,7 +33,7 @@ predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ul
 
 </div>
 
-## Oxybutynin：從膀胱過動症到不寧腿症候群
+## Oxybutynin: 不寧腿症候群 (restless legs syndrome)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,15 +47,15 @@ TxGNN 模型預測它可能對**不寧腿症候群 (Restless Legs Syndrome)** �
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 膀胱過動症、神經性膀胱、馬尾症候群（依知識圖譜適應症資料） |
-| 預測新適應症 | 不寧腿症候群 (Restless Legs Syndrome) |
-| TxGNN 預測分數 | 99.74% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 不寧腿症候群 (restless legs syndrome) |
+| TxGNN 預測分數 | 0.9974 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 5 張 |
+| 香港上市 | 上市中（有效許可證 5 張／共 5 張） |
+| 許可證數 | 5 張（有效 5 張） |
 | 建議決策 | Hold |
 
-> 備註：香港許可證資料未提供核准適應症文字，上列原適應症來自知識圖譜。
+> 備註：香港許可證資料未提供核准適應症文字。
 
 ---
 
@@ -85,8 +85,8 @@ TxGNN 模型預測它可能對**不寧腿症候群 (Restless Legs Syndrome)** �
 
 | 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 說明 |
 |------|-----------|-----------|---------|------|
-| 2 | 胃十二指腸炎 (Gastroduodenitis) | 99.62% | L5 | 無試驗或文獻；抗膽鹼作用可降低胃腸蠕動，但也可能延緩胃排空、降低下食道括約肌張力而加重上消化道症狀 |
-| 3 | 消化性潰瘍 (Peptic Ulcer Disease) | 99.31% | L4 | 僅有 3 篇早期文獻（見下表）；現今以 PPI 與 H. pylori 根除為主，附加價值低 |
+| 2 | 胃十二指腸炎 (Gastroduodenitis) | 0.9962 | L5 | 無試驗或文獻；抗膽鹼作用可降低胃腸蠕動，但也可能延緩胃排空、降低下食道括約肌張力而加重上消化道症狀 |
+| 3 | 消化性潰瘍 (Peptic Ulcer Disease) | 0.9931 | L5 | 僅有 3 篇早期文獻（見下表）；現今以 PPI 與 H. pylori 根除為主，附加價值低 |
 
 消化性潰瘍相關文獻：
 
@@ -135,7 +135,7 @@ TxGNN 模型預測它可能對**不寧腿症候群 (Restless Legs Syndrome)** �
 **決策：Hold**
 
 **理由：**
-- 不寧腿症候群的預測分數很高（99.74%），但沒有任何臨床試驗或文獻佐證，屬於 L5 等級；機轉方向也不確定，抗膽鹼藥物甚至可能加重症狀。
+- 不寧腿症候群的預測分數很高（0.9974），但沒有任何臨床試驗或文獻佐證，屬於 L5 等級；機轉方向也不確定，抗膽鹼藥物甚至可能加重症狀。
 - 次要預測（消化性潰瘍、胃十二指腸炎）同樣缺乏現代證據，且 Oxybutynin 有潛在的消化道不良反應。
 
 **若要推進需要：**

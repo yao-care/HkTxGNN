@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dronedarone
-parent: 僅模型預測 (L5)
+parent: 中證據等級 (L3-L4)
 nav_order: 301
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Dronedarone：預測新適應症為中風 (stroke disorder)（證據等級 L5）。原適應症：心房顫動 (atrial fibrillation)"
 monitor_inn: "DRONEDARONE"
-predicted_indications: ["stroke disorder", "obsolete susceptibility to ischemic stroke", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
+predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 ---
 
 # Dronedarone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L4** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ TxGNN 模型預測它可能對**中風 (stroke disorder)** 有效，
 |------|------|
 | 原適應症 | 心房顫動 (atrial fibrillation) |
 | 預測新適應症 | 中風 (stroke disorder) |
-| TxGNN 預測分數 | 99.97% |
+| TxGNN 預測分數 | 0.9997 |
 | 證據等級 | L4（相關的腦血管疾患項目為 L3，皆為間接證據） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold（列為研究問題，暫不推進） |
 
 ---

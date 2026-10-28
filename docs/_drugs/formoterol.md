@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Formoterol
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 399
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Formoterol：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L1）。原適應症：肺氣腫、內因性氣喘、過敏性氣喘"
 monitor_inn: "Formoterol"
 predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome"]
+description: "Formoterol：預測新適應症為Respiratory malformation（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Formoterol
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **6** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff synd
 
 </div>
 
-## Formoterol：從肺氣腫與氣喘到支氣管炎
+## Formoterol: Respiratory malformation
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,15 +48,15 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，目前有 *
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 肺氣腫、內因性氣喘、過敏性氣喘（來自知識圖譜；許可證未載明核准適應症文字） |
-| 預測新適應症 | 支氣管炎 (Bronchitis) |
-| TxGNN 預測分數 | 99.92% |
-| 證據等級 | L1 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 13 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Respiratory malformation |
+| TxGNN 預測分數 | 0.9992 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 13 張／共 13 張） |
+| 許可證數 | 13 張（有效 13 張） |
 | 建議決策 | Proceed with Guardrails |
 
-> 說明：TxGNN 排名第 1 的預測為「呼吸道畸形」（分數 99.92%），但其機轉上缺乏合理連結，證據等級僅 L5，建議 Hold。本報告改以證據最完整、最具臨床意義的「支氣管炎」作為主要評估對象。
+> 說明：TxGNN 排名第 1 的預測為「呼吸道畸形」（分數 0.9992），但其機轉上缺乏合理連結，證據等級僅 L5，建議 Hold。本報告改以證據最完整、最具臨床意義的「支氣管炎」作為主要評估對象。
 
 ---
 

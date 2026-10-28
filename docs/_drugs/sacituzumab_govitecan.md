@@ -4,17 +4,17 @@ title: Sacituzumab Govitecan
 parent: 僅模型預測 (L5)
 nav_order: 794
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Sacituzumab Govitecan：預測新適應症為藥物引起的骨質疏鬆症 (Drug-induced Osteoporosis)（證據等級 L5）。原適應症：香港許可證未載明核准適應症"
 monitor_inn: "Sacituzumab govitecan"
-predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "tetanic cataract", "mature cataract", "craniostenosis cataract"]
+predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract"]
 ---
 
 # Sacituzumab Govitecan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**藥物引起的骨質疏鬆症 (Drug-induced Ost
 |------|------|
 | 原適應症 | 香港許可證未載明核准適應症 |
 | 預測新適應症 | 藥物引起的骨質疏鬆症 (Drug-induced Osteoporosis) |
-| TxGNN 預測分數 | 99.78% |
+| TxGNN 預測分數 | 0.9978 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -61,9 +61,9 @@ TxGNN 模型預測它可能對**藥物引起的骨質疏鬆症 (Drug-induced Ost
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Sacituzumab govitecan 是 Trop-2 導向的 ADC，其 SN-38 酬載透過抑制拓樸異構酶 I 發揮細胞毒性。
 
-**坦白說，這個預測在機轉上並不合理。** 此藥的骨髓抑制與腸胃道毒性特性，無法解釋對骨質流失有益。TxGNN 的高分（0.998）僅來自知識圖譜的推論，並無生物學或臨床證據佐證。
+**坦白說，這個預測在機轉上並不合理。** 此藥的骨髓抑制與腸胃道毒性特性，無法解釋對骨質流失有益。TxGNN 模型（深度學習）給出的高分（0.9978）可能反映模型學到的相關疾病之間的相似性，並非生物學或臨床證據。
 
-其他排名靠前的預測（糖尿病視網膜病變、各類白內障等）同樣沒有試驗或文獻支持，部分白內障亞型的分數完全相同，顯示可能是圖譜鄰近關係造成的假象，而非藥物特異性的訊號。對慢性、非致命性疾病而言，全身性細胞毒性藥物的風險也很可能大於任何推測的效益。
+其他排名靠前的預測（如糖尿病視網膜病變）同樣沒有試驗或文獻支持，其分數可能反映 TxGNN 模型（深度學習）學到的相關疾病之間的相似性，而非藥物特異性的生物學證據。對慢性、非致命性疾病而言，全身性細胞毒性藥物的風險也很可能大於任何推測的效益。
 
 ---
 

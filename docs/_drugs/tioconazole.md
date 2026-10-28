@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Tioconazole
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 880
-evidence_level: L1
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Tioconazole：預測新適應症為外陰陰道炎 (Vulvovaginitis)（證據等級 L1）。原適應症：外陰陰道念珠菌病 (Vulvovaginal candidiasis)"
@@ -14,7 +14,7 @@ predicted_indications: ["vulvovaginitis", "vulvitis", "postmenopausal atrophic v
 # Tioconazole
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ TxGNN 模型預測它可能對**外陰陰道炎 (Vulvovaginitis)** 有效，
 |------|------|
 | 原適應症 | 外陰陰道念珠菌病 (Vulvovaginal candidiasis) |
 | 預測新適應症 | 外陰陰道炎 (Vulvovaginitis) |
-| TxGNN 預測分數 | 99.23% |
-| 證據等級 | L1 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| TxGNN 預測分數 | 0.9923 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---
@@ -129,8 +129,8 @@ TxGNN 模型預測它可能對**外陰陰道炎 (Vulvovaginitis)** 有效，
 - 補充近年的對照試驗與抗藥性（含非白色念珠菌）資料，因現有試驗多為 1980 年代的研究。
 
 **其他預測適應症備註：**
-- **外陰炎 (Vulvitis)**（分數 99.20%，證據等級 L2）：證據僅來自陰道念珠菌研究，對孤立性外陰炎屬間接證據，僅可作為研究問題；非感染性外陰炎無合理的機轉連結。
-- **停經後萎縮性陰道炎**（分數 99.19%，證據等級 L5）：無文獻與臨床試驗，且病因是雌激素缺乏而非真菌感染，建議 Hold。
+- **外陰炎 (Vulvitis)**（分數 0.9920，證據等級 L2）：證據僅來自陰道念珠菌研究，對孤立性外陰炎屬間接證據，僅可作為研究問題；非感染性外陰炎無合理的機轉連結。
+- **停經後萎縮性陰道炎**（分數 0.9919，證據等級 L5）：無文獻與臨床試驗，且病因是雌激素缺乏而非真菌感染，建議 Hold。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

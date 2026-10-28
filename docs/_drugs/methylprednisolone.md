@@ -4,17 +4,17 @@ title: Methylprednisolone
 parent: 中證據等級 (L3-L4)
 nav_order: 576
 evidence_level: L3
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Methylprednisolone：預測新適應症為圓禿 (Alopecia Areata)（證據等級 L3）。原適應症：自體免疫疾病、腎上腺皮質功能不全、克隆氏症、急性淋巴性白血病等"
+indication_count: 9
 monitor_inn: "METHYLPREDNISOLONE"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency"]
+predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+last_modified_at: 2026-10-23
+description: "Methylprednisolone：預測新適應症為圓形禿 (Alopecia Areata)（證據等級 L3）。原適應症：香港許可證資料未載明核准適應症"
 ---
 
 # Methylprednisolone
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **5** 個
+證據等級: **L3** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,109 +33,93 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 
 </div>
 
-## Methylprednisolone：從自體免疫疾病到圓禿（Alopecia Areata）
+## Methylprednisolone：從自體免疫疾病到圓形禿
 {: .text-alpha }
 
 ## 一句話總結
 
-Methylprednisolone（甲基培尼皮質醇）是一種合成糖皮質素，原本用於自體免疫疾病、腎上腺皮質功能不全、克隆氏症及急性淋巴性白血病等。
-TxGNN 模型預測它可能對**圓禿 (Alopecia Areata)** 有效，
-目前有 **1 個臨床試驗**和 **20 篇文獻**支持這個方向，但多數為觀察性或無對照研究。
-
----
+Methylprednisolone 是一種糖皮質素，知識圖譜中記錄的相關用途包括自體免疫疾病、克隆氏症與急性淋巴性白血病等。
+TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，
+目前有 **1 個臨床試驗**和 **19 篇文獻**支持這個方向。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 自體免疫疾病、腎上腺皮質功能不全、克隆氏症、急性淋巴性白血病等（來自知識圖譜；香港許可證未提供適應症文字） |
-| 預測新適應症 | 圓禿 (Alopecia Areata) |
-| TxGNN 預測分數 | 99.99% |
+| 原適應症 | 香港許可證資料未載明核准適應症；知識圖譜記錄的關聯包括自體免疫疾病、克隆氏症、腎上腺皮質功能不全等（僅為知識圖譜關聯，非核准適應症） |
+| 預測新適應症 | 圓形禿 (Alopecia Areata) |
+| TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 8 張 |
+| 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
+| 核准許可證數 | 8 張（有效 8 張） |
 | 建議決策 | Proceed with Guardrails |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Methylprednisolone 屬於糖皮質素類藥物，一般具有廣泛的抗發炎與免疫抑制作用，包括抑制細胞激素產生與 T 細胞活性。
+目前缺乏詳細的作用機轉資料。Methylprednisolone 屬於強效糖皮質素，具廣泛的抗發炎與免疫抑制作用，包括抑制細胞激素生成，以及降低 T 細胞活化與浸潤。
 
-圓禿是一種 T 細胞媒介的自體免疫疾病，毛囊的免疫豁免狀態崩解後，免疫系統攻擊毛囊。此藥原本就用於多種自體免疫疾病，因此抑制免疫攻擊的邏輯與圓禿的病理相符。
+圓禿是一種 T 細胞媒介的自體免疫疾病，毛囊的免疫豁免狀態瓦解，免疫細胞攻擊毛囊。本藥對圓禿的預測分數為 0.9999，此分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。
 
-不過，現有證據多為觀察性且缺乏對照，停藥後復發與類固醇相關不良反應是主要顧慮。
-
----
+高劑量脈衝療法（口服或靜脈）可快速壓制活動性病程，但停藥後容易復發，且累積的類固醇副作用限制了長期使用。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT01167946](https://clinicaltrials.gov/study/NCT01168946) | Phase 4 | 完成 | 42 | 口服大劑量脈衝 methylprednisolone 用於嚴重、治療抵抗型圓禿，評估安全性與療效（2003–2010） |
-
-說明：此試驗藥物、給藥途徑與族群皆相符，但屬 Phase 4，現有紀錄無法確認是否隨機或有對照組，因此僅支持 L3。
-
----
+| [NCT01167946](https://clinicaltrials.gov/study/NCT01167946) | Phase 4 | 完成 | 42 | 口服超高劑量脈衝 methylprednisolone 用於重度、治療抗性圓形禿；未提供結果，無法確認療效，也無明確的隨機分組或對照組 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [32270396](https://pubmed.ncbi.nlm.nih.gov/32270396/) | 2020 | 系統性回顧 | Dermatol Ther | 評估環孢素單用或合併全身性類固醇治療圓禿 |
-| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Review | Dermatol Pract Concept | 回顧類固醇脈衝療法的療效、復發率、副作用與預後因子 |
-| [28378336](https://pubmed.ncbi.nlm.nih.gov/28378336/) | 2017 | Review | Int J Dermatol | 回顧全禿與普禿的治療選項，目前無 FDA 核准療法 |
-| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Review | Pediatr Dermatol | 回顧兒童圓禿脈衝類固醇的劑量與副作用 |
-| [25566921](https://pubmed.ncbi.nlm.nih.gov/25566921/) | 2015 | Cohort | Indian J Dermatol Venereol Leprol | 靜脈注射 methylprednisolone 脈衝治療嚴重圓禿 |
-| [9777767](https://pubmed.ncbi.nlm.nih.gov/9777767/) | 1998 | 開放性前瞻研究 | J Am Acad Dermatol | 45 位病程不到 12 個月的嚴重圓禿患者接受單次靜脈脈衝治療 |
-| [35986630](https://pubmed.ncbi.nlm.nih.gov/35986630/) | 2022 | 回溯性世代 | Dermatol Ther | 26 位廣泛性圓禿患者，比較 methylprednisolone 單用與合併 methotrexate |
-| [21592197](https://pubmed.ncbi.nlm.nih.gov/21592197/) | 2011 | 回溯性世代 | J Dermatol | 70 位患者，分析脈衝療法的預後因子 |
-| [22426909](https://pubmed.ncbi.nlm.nih.gov/22426909/) | 2012 | 臨床研究 | Saudi Med J | 口服大劑量脈衝 methylprednisolone 用於嚴重治療抵抗型圓禿 |
-| [25872976](https://pubmed.ncbi.nlm.nih.gov/25872976/) | 2015 | 臨床研究 | Pediatr Dermatol | 兒童嚴重圓禿即使早期靜脈脈衝治療，復發率仍高 |
-
----
+| [32270396](https://pubmed.ncbi.nlm.nih.gov/32270396/) | 2020 | 系統性回顧 | Dermatology and Therapy | 評估環孢素單用或合併全身性類固醇治療圓形禿，結果不一 |
+| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Review | Dermatology Practical & Conceptual | 回顧類固醇脈衝療法在圓形禿的療效、復發率、副作用與預後因子 |
+| [28378336](https://pubmed.ncbi.nlm.nih.gov/28378336/) | 2017 | Review | International Journal of Dermatology | 回顧全禿與普禿的治療選項，當時尚無 FDA 核准療法 |
+| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Review | Pediatric Dermatology | 回顧兒童脈衝類固醇的劑量方案與副作用，劑量尚未標準化 |
+| [25566921](https://pubmed.ncbi.nlm.nih.gov/25566921/) | 2015 | 世代研究 | Indian J Dermatol Venereol Leprol | 靜脈 methylprednisolone 脈衝治療重度圓形禿 |
+| [35986630](https://pubmed.ncbi.nlm.nih.gov/35986630/) | 2022 | 回溯性世代 | Dermatologic Therapy | 26 例廣泛性圓形禿，比較 methylprednisolone 單用與合併 methotrexate |
+| [21592197](https://pubmed.ncbi.nlm.nih.gov/21592197/) | 2011 | 回溯性世代 | Journal of Dermatology | 70 例，分析 methylprednisolone 脈衝治療的預後因子 |
+| [9777767](https://pubmed.ncbi.nlm.nih.gov/9777767/) | 1998 | 開放性前瞻研究 | J Am Acad Dermatol | 45 例重度圓形禿，單次靜脈脈衝治療 |
+| [22426909](https://pubmed.ncbi.nlm.nih.gov/22426909/) | 2012 | 臨床研究 | Saudi Medical Journal | 口服超高劑量脈衝 methylprednisolone 治療重度治療抗性圓形禿 |
+| [8274789](https://pubmed.ncbi.nlm.nih.gov/8274789/) | 1993 | 世代研究 | Dermatology | 9 例近期發作重度圓形禿，靜脈脈衝後 8 例病程停止 |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-64851 | METPROVELL TABLETS 4MG | 錠劑（依品名） | 未提供 |
-| HK-63244 | MEDASON POWDER FOR SOLUTION FOR INJECTION 40MG | 注射用粉劑（依品名） | 未提供 |
-| HK-00490 | DEPO MEDROL STERILE AQ SUSP 40MG/ML | 無菌水性懸液注射劑（依品名） | 未提供 |
-| HK-00456 | SOLU MEDROL 500 MG FOR INJ | 注射劑（依品名） | 未提供 |
-| HK-00437 | DEPO MEDROL WITH LIDOCAINE INJ | 注射劑（依品名） | 未提供 |
+| HK-64851 | METPROVELL TABLETS 4MG | 未載明 | 未載明 |
+| HK-63244 | MEDASON POWDER FOR SOLUTION FOR INJECTION 40MG | 未載明 | 未載明 |
+| HK-63243 | MEDASON POWDER FOR SOLUTION FOR INJECTION 500MG | 未載明 | 未載明 |
+| HK-00490 | DEPO MEDROL STERILE AQ SUSP 40MG/ML | 未載明 | 未載明 |
+| HK-00456 | SOLU MEDROL 500 MG FOR INJ | 未載明 | 未載明 |
 
-共 8 張有效單方許可證，無已註銷者；上表僅列 5 張，其餘為 MEDASON 注射用粉劑的 500 mg、250 mg、125 mg 規格。
-
----
+共 8 張有效單一成分許可證，上表僅列出 5 張主要許可證。
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌疾病**：高血壓、癲癇、高血糖、充血性心衰竭、麻疹、單純疱疹病毒角膜炎、尿素循環異常（如 CPS I 缺乏症、瓜胺酸血症、高精胺酸血症）、多種腦下垂體功能低下與生長激素缺乏相關疾病（如 Kallmann 症候群、Sheehan 症候群）。此為知識圖譜關聯，非仿單原文。
-- **藥物交互作用**（共查得 100 筆，以下為部分）：
-  - 重大 (Major)：Bupropion、Clarithromycin
-  - 中度 (Moderate)：降血糖藥（Metformin、Pioglitazone、Acarbose、Alogliptin、Canagliflozin、Dapagliflozin、Empagliflozin 等）、Amphotericin B、Aprepitant、Acetylsalicylic acid（阿斯匹靈）
-  - 輕微 (Minor)：Zinc sulfate
+- **知識圖譜記錄的禁忌關聯**（非仿單內容）：高血壓、癲癇、高血糖、麻疹、充血性心衰竭、單純疱疹病毒角膜炎、腦下垂體功能低下及相關生長激素缺乏症、尿素循環障礙等。
+- **藥物交互作用**（共 100 筆，列出主要者）：
+  - 重度：Bupropion、Clarithromycin
+  - 中度：降血糖藥物（Metformin、Pioglitazone、Acarbose、Canagliflozin、Dapagliflozin、Empagliflozin 等）、Amphotericin B、Aprepitant、乙醯水楊酸
 
-仿單的警語與禁忌資料尚待補齊，請參考原廠仿單。
-
----
+其他警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 已有 1 個完成的 Phase 4 試驗與大量脈衝療法的觀察性研究與回顧，顯示對嚴重圓禿有臨床使用基礎，且藥物已在香港上市。但缺乏嚴謹的隨機對照試驗，復發率高，且類固醇不良反應明確，因此需設護欄。
+- 有 1 個完成的 Phase 4 試驗與多篇直接針對圓形禿的世代研究、回顧與開放性研究，顯示脈衝療法可用於重度病例。
+- 目前缺乏已完成的 Phase 3 RCT，且復發率高、類固醇副作用明顯，需設定使用限制。
 
 **若要推進需要：**
-- 取得香港仿單的警語、禁忌與適應症資料
-- 補充詳細作用機轉資料
-- 設計隨機對照試驗，釐清劑量、頻率與給藥途徑（口服與靜脈）
-- 建立復發追蹤與長期安全性（血糖、血壓、感染風險）監測計畫
-- 與 JAK 抑制劑等現有療法比較定位
+- 取得香港仿單的警語、禁忌症與核准適應症資料
+- 補充詳細的作用機轉資料
+- 以隨機對照試驗確認療效與最佳脈衝劑量
+- 制定復發後的處置策略及類固醇副作用監測計畫（血糖、血壓、感染風險等）
+- 限定使用於重度、治療抗性或不適用 JAK 抑制劑的族群，並評估兒童族群的劑量
 
-**其他預測適應症：**alopecia mucinosa、telogen effluvium、folliculitis decalvans 與 alopecia antibody deficiency 均僅有模型預測，無臨床試驗支持（證據等級 L5），建議 Hold。其中 alopecia antibody deficiency 的疾病定義模糊，且僅檢索到一篇無直接關聯的文獻，無法有意義地評估。
+其餘預測適應症（禿髮性黏蛋白沉積症、休止期落髮等）僅有模型預測，無臨床試驗或直接文獻支持，證據等級為 L5，建議 Hold。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

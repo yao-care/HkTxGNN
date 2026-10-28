@@ -4,17 +4,17 @@ title: Rilpivirine
 parent: 中證據等級 (L3-L4)
 nav_order: 773
 evidence_level: L4
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Rilpivirine：預測新適應症為貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome)（證據等級 L4）。原適應症：HIV 感染、AIDS"
+indication_count: 3
 monitor_inn: "RILPIVIRINE"
-predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-23
+description: "Rilpivirine：預測新適應症為猿猴免疫缺陷病毒感染（證據等級 L4）。原適應症：HIV 感染、愛滋病"
 ---
 
 # Rilpivirine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L4** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,34 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 </div>
 
-## Rilpivirine：從 HIV 感染到貓免疫缺乏症候群（預測新適應症）
+## Rilpivirine：從 HIV 感染到猿猴免疫缺陷病毒感染
 {: .text-alpha }
 
 ## 一句話總結
 
-Rilpivirine 是一種非核苷類逆轉錄酶抑制劑（NNRTI），原本用於治療 HIV 感染與 AIDS。
-TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome)** 有效，但目前**沒有臨床試驗**，僅有 **1 篇**前臨床文獻支持，屬於早期、間接的證據。
+Rilpivirine 是一種用於 HIV 感染與愛滋病的藥物。
+TxGNN 模型預測它可能對**猿猴免疫缺陷病毒感染 (simian immunodeficiency virus infection)** 有效，
+目前有 **0 個臨床試驗**和 **5 篇文獻**，且文獻皆為非人類靈長類的前臨床研究或綜述。這項預測屬於原適應症（HIV）的動物模型延伸，並非新的人類疾病再利用機會。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | HIV 感染、AIDS（香港許可證未載明適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome) |
-| TxGNN 預測分數 | 99.97% |
+| 原適應症 | HIV 感染、愛滋病（來自知識圖譜記錄的關係；香港許可證資料未載明適應症文字） |
+| 預測新適應症 | 猿猴免疫缺陷病毒感染 |
+| TxGNN 預測分數 | 0.9997 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 5 張 |
+| 香港上市 | 上市中（有效許可證 5 張／共 5 張） |
+| 許可證數 | 5 張（有效 5 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Rilpivirine 屬於 NNRTI 類別，透過抑制 HIV-1 逆轉錄酶來阻止病毒複製，其在 HIV 感染中的療效已被證實。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Rilpivirine 屬於非核苷類逆轉錄酶抑制劑（NNRTI），作用於 HIV-1 逆轉錄酶。
 
-貓免疫缺乏病毒（FIV）與 HIV 同屬慢病毒，因此在網路關聯上相近。不過 FIV 的逆轉錄酶與 HIV-1 的不同，NNRTI 對 FIV 逆轉錄酶一般效果較弱。
+猿猴免疫缺陷病毒（SIV）及 SHIV 感染的獼猴，是 HIV 研究的標準前臨床模型。兩者同屬慢病毒，生物學特性相近，因此藥物在此模型中有活性是可預期的。
 
-這個很高的預測分數，較可能反映的是模型中與 HIV 相關適應症的網路鄰近性，而非已驗證的活性。此外，這屬於獸醫用途，不是人類藥物再利用。
+需要注意：SIV 並非人類疾病，這些證據支持的是 Rilpivirine 在 HIV 上的既有用途，而不是新的人類適應症，也無法直接轉化為臨床應用。
 
 ## 臨床試驗證據
 
@@ -69,7 +70,11 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired 
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | 前臨床生化／結構研究 | Journal of Veterinary Science | 比較 nevirapine、efavirenz 與 rilpivirine 對 FIV 和 HIV 逆轉錄酶的作用，評估 NNRTI 治療 FIV 的潛力；屬間接的前臨床證據，貓隻無臨床資料 |
+| [26438501](https://pubmed.ncbi.nlm.nih.gov/26438501/) | 2015 | 前臨床（非人類靈長類） | Antimicrob Agents Chemother | 長效 Rilpivirine 用於感染含 HIV-1 逆轉錄酶之 SIV 的獼猴，抗藥突變株出現頻率低 |
+| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | 前臨床（非人類靈長類） | Nat Commun | 以口服藥物加長效 Cabotegravir/Rilpivirine 治療 RT-SHIV 感染獼猴，探討早期治療與病毒緩解 |
+| [41370971](https://pubmed.ncbi.nlm.nih.gov/41370971/) | 2026 | 前臨床（非人類靈長類） | EBioMedicine | 單次注射長效 Cabotegravir/Rilpivirine 作為暴露後預防，於獼猴模型中評估 |
+| [42040962](https://pubmed.ncbi.nlm.nih.gov/42040962/) | 2026 | 前臨床（非人類靈長類） | Research Square | 長效抗病毒藥物組合用於新生獼猴 SIV 感染，達到持續病毒學緩解（該研究主要探討 Lenacapavir 與 Cabotegravir） |
+| [29746267](https://pubmed.ncbi.nlm.nih.gov/29746267/) | 2018 | 回顧 | Curr Opin HIV AIDS | 回顧 Cabotegravir 在抗反轉錄病毒治療與暴露前預防的潛力（主題為 Cabotegravir，非 Rilpivirine） |
 
 ## 香港上市資訊
 
@@ -83,33 +88,25 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired 
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌疾病（非仿單原文）**：長 QT 症候群（含家族性）、尖端扭轉型心室頻脈、肝衰竭、肝病、脂肪肝、非酒精性脂肪肝炎、腎臟疾病、慢性 B 型肝炎病毒感染、乳酸中毒、Fanconi 腎小管症候群、低磷血症、骨軟化症、佝僂病、膽囊疾病、肥胖等。這些來自知識圖譜，其中部分可能與複方製劑中的其他成分（如 Odefsey 內的 tenofovir）有關，需對照仿單確認。
-- **藥物交互作用**：共查得 100 筆，以下為部分例子：
-  - 重大（Major）：Famotidine、Ranitidine、Cimetidine、Omeprazole、Esomeprazole、Rabeprazole、Dexlansoprazole（胃酸抑制劑類）、Dexamethasone、Cisapride、Dolasetron
-  - 中度（Moderate）：Loperamide、Aprepitant、Bisacodyl、Clarithromycin、Clotrimazole、Magnesium oxide、Aluminum hydroxide、Calcium carbonate、Castor oil、Polyethylene glycol
+- **知識圖譜記錄的禁忌關係**（非仿單內容）：長 QT 症候群、家族性長 QT 症候群、尖端扭轉型心律不整、肝衰竭、腎臟疾病、肝臟疾病、膽囊疾病、慢性 B 型肝炎病毒感染、肥胖、低磷血症、骨軟化症、佝僂病、脂肪肝、非酒精性脂肪肝炎、乳酸中毒、范可尼腎小管症候群等。
+- **藥物交互作用**：共查得 100 筆，以下為部分主要項目：
+  - 重度：Famotidine、Ranitidine、Cimetidine、Omeprazole、Esomeprazole、Rabeprazole、Dexlansoprazole（胃酸抑制劑類）、Dexamethasone、Dolasetron、Cisapride
+  - 中度：Loperamide、Aprepitant、Bisacodyl、Clarithromycin、氧化鎂、氫氧化鋁、碳酸鈣、Clotrimazole
 
-其他警語與禁忌症請參考原廠仿單。
+其餘安全性資訊請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 唯一的支持證據是一篇前臨床生化／結構研究，沒有任何臨床試驗，且 NNRTI 對 FIV 逆轉錄酶一般較弱。
-- 高預測分數很可能是模型的網路關聯所致，而且這是獸醫用途，不屬於人類藥物再利用。
+- 所有證據皆來自獼猴等非人類靈長類的前臨床研究，且 SIV 並非人類疾病，只是 HIV 既有用途的動物模型，無法構成新的再利用機會。
+- 沒有臨床試驗，且其中數篇文獻的主題並非 Rilpivirine 本身。
 
 **若要推進需要：**
-- 針對 FIV 的細胞或體外抗病毒活性實驗，確認 rilpivirine 的實際效力
-- 取得詳細的作用機轉資料（MOA）
-- 貓隻的藥動學與安全性資料
-- 若目標是人類用途，應改評估排名較後但與人類相關的方向（例如懷孕族群使用長效 cabotegravir/rilpivirine），不過這些多屬原有 HIV 適應症的族群延伸，且現有證據多為病例報告與觀察性研究。
-
-### 其他預測適應症補充
-
-- **猿猴免疫缺乏病毒感染（L4）**：有數篇獼猴前臨床研究顯示長效 rilpivirine 具抗病毒活性與低抗藥性變異頻率，但這是研究用動物模型，支持的是既有 HIV 適應症，而非新適應症。
-- **先天性 HIV（L3）**：有懷孕期間使用長效 cabotegravir/rilpivirine 的病例報告與世代研究，屬原適應症的族群延伸，證據有限。
-- **AIDS 相關併發症（L4）**：本質上與原適應症重疊，不是真正的再利用機會。
-- **伴隨運動失調步態、無語言及皮質白質減少的神經發育障礙（L5）**：無機轉關聯與任何證據，很可能是知識圖譜的假象。
+- 釐清此預測是否有人類臨床價值；若無，建議將其視為對原適應症（HIV）的佐證，而非新適應症。
+- 補充 Rilpivirine 的作用機轉資料與香港仿單的警語、禁忌與核准適應症文字。
+- 如有意探討其他預測項目（如獸醫領域的貓免疫缺陷病毒，目前僅有體外與結構研究），需另行評估其範疇與必要性。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

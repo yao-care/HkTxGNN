@@ -4,17 +4,17 @@ title: Salicylic Acid
 parent: 僅模型預測 (L5)
 nav_order: 799
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Salicylic Acid：預測新適應症為乳頭狀結膜炎 (Papillary Conjunctivitis)（證據等級 L5）。原適應症：香港許可證未登載適應症文字"
 monitor_inn: "Salicylic acid"
-predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia", "spondyloarthropathy, susceptibility to"]
+predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia"]
+description: "Salicylic Acid：預測新適應症為乳頭狀結膜炎 (papillary conjunctivitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Salicylic Acid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia
 
 </div>
 
-## Salicylic acid：從足癬與關節炎等適應症到乳頭狀結膜炎
+## Salicylic Acid: 乳頭狀結膜炎 (papillary conjunctivitis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,11 +48,11 @@ TxGNN 模型預測它可能對**乳頭狀結膜炎 (Papillary Conjunctivitis)** 
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證未登載適應症文字；知識圖譜列出足癬、痤瘡、脂漏性皮膚炎、類風濕性關節炎、過敏性鼻炎等 |
-| 預測新適應症 | 乳頭狀結膜炎 (Papillary Conjunctivitis) |
-| TxGNN 預測分數 | 99.88% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 乳頭狀結膜炎 (papillary conjunctivitis) |
+| TxGNN 預測分數 | 0.9988 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -66,7 +66,7 @@ TxGNN 模型預測它可能對**乳頭狀結膜炎 (Papillary Conjunctivitis)** 
 
 不過，現有資料並不支持眼部使用。外用水楊酸具有角質溶解作用且刺激性強，一般不適合用於眼睛。這個關聯屬於推測，僅建立在 TxGNN 預測分數上。
 
-**其他高分預測的說明：** 排名前十的預測中，大多數是罕見遺傳性骨骼或發育異常疾病（如 brachyolmia、pseudoachondroplasia、acromesomelic dysplasia 等），並未找到合理的機轉關聯，高分很可能來自知識圖譜的結構性假象。其中生物學上最合理的是**脊椎關節病變易感性 (Spondyloarthropathy, susceptibility to)**：水楊酸類屬 COX 抑制劑，NSAIDs 是脊椎關節炎的第一線治療。但目前同樣沒有試驗或文獻證據，建議列為研究問題，可先針對水楊酸類藥物用於軸性脊椎關節炎進行文獻回顧。
+**其他高分預測的說明：** 排名前十的預測中，大多數是罕見遺傳性骨骼或發育異常疾病（如 brachyolmia、pseudoachondroplasia、acromesomelic dysplasia 等），並未找到合理的機轉關聯。這些分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
 ---
 

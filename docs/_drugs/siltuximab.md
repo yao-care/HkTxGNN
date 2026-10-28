@@ -4,17 +4,17 @@ title: Siltuximab
 parent: 僅模型預測 (L5)
 nav_order: 813
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Siltuximab：預測新適應症為TAFRO 症候群 (TAFRO syndrome)（證據等級 L5）。原適應症：Castleman 病、Kimura 病"
 monitor_inn: "Siltuximab"
-predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever", "syndrome with combined immunodeficiency", "TAFRO syndrome"]
+predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
+description: "Siltuximab：預測新適應症為Extracutaneous mastocytoma（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Siltuximab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hep
 
 </div>
 
-## Siltuximab：從 Castleman 病到 TAFRO 症候群
+## Siltuximab: Extracutaneous mastocytoma
 {: .text-alpha }
 
 ## 一句話總結
 
 Siltuximab 是抗介白素-6（IL-6）的嵌合型單株抗體，原本用於治療 Castleman 病（資料中另列 Kimura 病）。
-TxGNN 模型預測它可能對 **TAFRO 症候群 (TAFRO syndrome)** 有效（排名第 10 的預測，分數 98.79%）。
 目前沒有直接針對 TAFRO 的臨床試驗，但有 **約 19 篇相關文獻**，多為 Castleman 病的回顧與指引，以及數篇 TAFRO 病例報告。
 
 ---
@@ -48,15 +47,15 @@ TxGNN 模型預測它可能對 **TAFRO 症候群 (TAFRO syndrome)** 有效（排
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | Castleman 病、Kimura 病（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | TAFRO 症候群 (TAFRO syndrome) |
-| TxGNN 預測分數 | 98.79% |
-| 證據等級 | L4（僅有病例報告、回顧與機轉層級證據，無 TAFRO 專屬試驗） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Extracutaneous mastocytoma |
+| TxGNN 預測分數 | 0.9964 |
+| 證據等級 | L5（僅有病例報告、回顧與機轉層級證據，無 TAFRO 專屬試驗） |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold（列為研究問題，待更多證據） |
 
-> 說明：本次彙整的資料中，預測分數最高的是肥大細胞瘤等其他疾病，但這些項目完全沒有證據支持（L5）。本報告聚焦於證據最完整的 TAFRO 症候群。
+> 說明：本次彙整的資料中，預測分數最高的是肥大細胞瘤等其他疾病，但這些項目完全沒有證據支持（L5）。
 
 ---
 
@@ -64,7 +63,7 @@ TxGNN 模型預測它可能對 **TAFRO 症候群 (TAFRO syndrome)** 有效（排
 
 目前缺乏經結構化整理的詳細作用機轉資料。就已知資訊，siltuximab 是以人類 IL-6 為標的的單株抗體，可阻斷 IL-6 與受體結合，並已核准用於特發性多中心型 Castleman 病（iMCD），其病理核心是 IL-6 驅動的細胞激素風暴。
 
-TAFRO 症候群（血小板低下、全身水腫、發燒、網狀纖維化／腎功能不全、器官腫大）被視為 iMCD 的一種變異型，淋巴結常呈現類似 Castleman 病的組織型態，並伴隨全身性發炎與細胞激素驅動的病理，其中包含 IL-6。因此在機轉上，阻斷 IL-6 有其合理性。
+因此在機轉上，阻斷 IL-6 有其合理性。
 
 需要注意的是，TAFRO 患者對 siltuximab 的反應通常不如一般 iMCD，文獻也描述了階梯式治療策略。目前證據是間接或病例層級，並無 TAFRO 專屬試驗。
 

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Mepolizumab
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 563
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Mepolizumab：預測新適應症為免疫性破壞所致血小板減少症 (Thrombocytopenia due to immune destruction)（證據等級 L4）。原適應症：嗜酸性肺炎、肺嗜酸性球增多症"
@@ -14,7 +14,7 @@ predicted_indications: ["thrombocytopenia due to immune destruction", "primary r
 # Mepolizumab
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["thrombocytopenia due to immune destruction", "primary r
 
 </div>
 
-## Mepolizumab：從嗜酸性肺炎到免疫性血小板減少症
+## Mepolizumab：免疫性破壞所致血小板減少症
 {: .text-alpha }
 
 ## 一句話總結
@@ -50,10 +50,10 @@ TxGNN 模型預測它可能對**免疫性破壞所致血小板減少症 (Thrombo
 |------|------|
 | 原適應症 | 嗜酸性肺炎、肺嗜酸性球增多症 |
 | 預測新適應症 | 免疫性破壞所致血小板減少症 (Thrombocytopenia due to immune destruction) |
-| TxGNN 預測分數 | 99.66% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| TxGNN 預測分數 | 0.9966 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---

@@ -4,17 +4,17 @@ title: Vortioxetine
 parent: 僅模型預測 (L5)
 nav_order: 942
 evidence_level: L5
-indication_count: 5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Vortioxetine：預測新適應症為神經症 (Neurotic Disorder)（證據等級 L5）。原適應症：單極性憂鬱症、重度憂鬱症、焦慮症"
 monitor_inn: "VORTIOXETINE"
-predicted_indications: ["neurotic disorder", "melancholia", "benign paroxysmal torticollis of infancy", "dysthymic disorder"]
+predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
+description: "Vortioxetine：預測新適應症為神經症 (neurotic disorder)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Vortioxetine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["neurotic disorder", "melancholia", "benign paroxysmal t
 
 </div>
 
-## Vortioxetine：從重度憂鬱症到憂鬱性神經症（Neurotic Disorder）
+## Vortioxetine: 神經症 (neurotic disorder)
 {: .text-alpha }
 
 > 說明：本報告依規定以 `predicted_indications[0]`（排名第 1，neurotic disorder）作為主要分析對象，並在最後補充其他預測適應症的比較。
@@ -51,12 +51,12 @@ TxGNN 模型預測它可能對 **神經症 (Neurotic Disorder)** 有效，但目
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 單極性憂鬱症、重度憂鬱症、焦慮症（香港許可證未載明適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 神經症 (Neurotic Disorder) |
-| TxGNN 預測分數 | 99.24% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 神經症 (neurotic disorder) |
+| TxGNN 預測分數 | 0.9924 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ---
@@ -127,10 +127,7 @@ TxGNN 模型預測它可能對 **神經症 (Neurotic Disorder)** 有效，但目
 
 | 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 | 說明 |
 |------|-----------|-----------|---------|------|------|
-| 2 | 神經症性憂鬱 (Neurotic Depression) | 99.09% | L1 | Proceed with Guardrails | 為憂鬱症的舊稱，實質上屬於原適應症，並非真正的藥物再利用。無直接連結的試驗，證據來自重度憂鬱症的 RCT 與統合分析 |
-| 3 | 憂鬱型憂鬱症 (Melancholia) | 99.09% | L1 | Proceed with Guardrails | 屬重度憂鬱症的嚴重亞型。有 4 個已完成的 Phase 3 安慰劑對照 RCT（NCT00735709、NCT01153009、NCT01163266，另有 Phase 2/3 NCT01255787）及 2 個長期延伸試驗，但皆為一般 MDD 族群，需做亞組分析確認 |
-| 4 | 嬰兒良性陣發性斜頸 | 99.07% | L5 | Hold | 無可辨識的機轉連結，無試驗與文獻，推測為圖譜假象，且嬰兒族群有安全疑慮 |
-| 5 | 輕鬱症 (Dysthymic Disorder) | 99.02% | L4 | Research Question | 僅有一個 MDD 開放標籤延伸試驗（NCT00707980），需進行專門的對照試驗 |
+| 4 | 嬰兒良性陣發性斜頸 | 0.9907 | L5 | Hold | 無可辨識的機轉連結，無試驗與文獻，此分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病學到的相似性，而非生物學證據，且嬰兒族群有安全疑慮 |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

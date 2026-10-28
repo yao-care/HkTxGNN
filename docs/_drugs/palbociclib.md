@@ -4,17 +4,17 @@ title: Palbociclib
 parent: 僅模型預測 (L5)
 nav_order: 657
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Palbociclib：預測新適應症為骨髓性白血病 (Myeloid Leukemia)（證據等級 L5）。原適應症：本次資料未提供"
 monitor_inn: "Palbociclib"
-predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "brachydactyly-syndactyly syndrome", "myeloid leukemia", "multiple endocrine neoplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "hyperthyroxinemia", "Prinzmetal angina"]
+predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
+description: "Palbociclib：預測新適應症為Hyperthyroidism（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Palbociclib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,33 @@ predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic d
 
 </div>
 
-## Palbociclib：從乳癌到骨髓性白血病
+## Palbociclib: Hyperthyroidism
 {: .text-alpha }
 
-> 預測排名第 1 的是甲狀腺功能亢進，但其證據僅有模型預測。本報告以**證據最完整的骨髓性白血病 (Myeloid Leukemia)** 作為主要評估對象，其他候選適應症於下方一併說明。
+> 預測排名第 1 的是甲狀腺功能亢進，但其證據僅有模型預測。
 
 ## 一句話總結
 
 Palbociclib 是 CDK4/6 抑制劑，在香港已有上市許可證，但本次資料未列出核准適應症。
-TxGNN 模型預測它可能對**骨髓性白血病 (Myeloid Leukemia)** 有效，
 目前有 **4 個臨床試驗**和 **20 篇文獻**支持這個方向，但文獻以前臨床研究為主，試驗均為早期階段。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 本次資料未提供（香港許可證的核准適應症欄位為空白） |
-| 預測新適應症 | 骨髓性白血病 (Myeloid Leukemia) |
-| TxGNN 預測分數 | 98.94% |
-| 證據等級 | L3（有早期臨床試驗與大量前臨床研究，但無已完成的 Phase 2/3 RCT；依系統判定為 L3） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 6 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Hyperthyroidism |
+| TxGNN 預測分數 | 0.9944 |
+| 證據等級 | L5（有早期臨床試驗與大量前臨床研究，但無已完成的 Phase 2/3 RCT；依系統判定為 L3） |
+| 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
+| 許可證數 | 6 張（有效 6 張） |
 | 建議決策 | Hold（列為研究問題，待更多臨床資料） |
 
 ## 為什麼這個預測合理？
 
 目前缺乏詳細的作用機轉資料。Palbociclib 屬於 CDK4/6 抑制劑，透過阻斷細胞週期 G1 到 S 期的進展來抑制腫瘤細胞增殖。
 
-CDK6 在急性骨髓性白血病 (AML) 中扮演重要角色，特別是 MLL 重排與 NUP98 重排的亞型，會驅動細胞增殖並阻礙分化。因此從機轉上看，抑制 CDK4/6 有合理的生物學基礎。
+因此從機轉上看，抑制 CDK4/6 有合理的生物學基礎。
 
 前臨床研究顯示，palbociclib 與 venetoclax 加 azacitidine 合併使用有協同作用，並可克服 venetoclax 的抗藥性；與 LSD1 或 menin 抑制劑合併也有相似發現。另有一篇個案報告描述 palbociclib 合併 venetoclax 與 azacitidine 用於難治/復發的治療相關 AML。不過有文獻指出，CDK4/6 抑制劑單藥的臨床試驗結果並不理想，合併治療才是較有希望的方向。
 
@@ -125,17 +124,14 @@ CDK6 在急性骨髓性白血病 (AML) 中扮演重要角色，特別是 MLL 重
 
 | 預測適應症 | 分數 | 證據等級 | 評估 |
 |-----------|------|---------|------|
-| 類風濕性關節炎 | 99.36% | L4 | 有個案報告與動物模型支持（CDK6 依賴的滑膜纖維母細胞增生），無臨床試驗，可列為研究問題 |
-| 血栓性疾病 | 99.32% | L4 | 文獻顯示血栓是 CDK4/6 抑制劑的不良反應，方向相反，應視為安全疑慮或偽陽性 |
-| 多發性內分泌腫瘤 | 98.86% | L4 | 登記試驗為乳癌或廣泛腫瘤研究，應為關鍵字誤配，並未測試此疾病 |
-| 甲狀腺功能亢進、甲狀腺素抗性、短指併指症候群、小眼症相關症候群、高甲狀腺素血症、變異型心絞痛 | 98.7%–99.4% | L5 | 僅有模型預測，無機轉連結，亦無研究證據 |
+| 類風濕性關節炎 | 0.9936 | L4 | 有個案報告與動物模型支持（CDK6 依賴的滑膜纖維母細胞增生），無臨床試驗，可列為研究問題 |
+| 血栓性疾病 | 0.9932 | L5 | 文獻顯示血栓是 CDK4/6 抑制劑的不良反應，方向相反，應視為安全疑慮或偽陽性 |
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 骨髓性白血病有合理的機轉與大量前臨床證據，但臨床試驗均為 Phase 1 或 1/2，且無療效結果，尚無已完成的 Phase 2/3 RCT。
 - 文獻也指出 CDK4/6 抑制劑單藥效果有限，後續應以合併療法為重點，並以研究問題的方式持續追蹤。
 
 **若要推進需要：**

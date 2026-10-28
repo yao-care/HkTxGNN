@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Desmopressin
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 259
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Desmopressin：預測新適應症為原發性血小板釋放障礙 (Primary release disorder of platelets)（證據等級 L3）。原適應症：目前許可證資料未載明適應症文字"
 monitor_inn: "Desmopressin"
-predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency", "thrombocytopenic purpura", "bleeding diathesis due to a collagen receptor defect", "hereditary thrombocytosis with transverse limb defect"]
+predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
+description: "Desmopressin：預測新適應症為Congenital prothrombin deficiency（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Desmopressin
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["congenital prothrombin deficiency", "inherited thrombop
 
 </div>
 
-## Desmopressin：從血友病／血管性血友病到原發性血小板釋放障礙
+## Desmopressin: Congenital prothrombin deficiency
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型的預測中，最值得進一步評估的是**原發性血小板釋
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 目前許可證資料未載明適應症文字；知識圖譜列出的原適應症為遺傳性血管性血友病、血友病、夜間遺尿症 |
-| 預測新適應症 | 原發性血小板釋放障礙 (Primary release disorder of platelets)（綜合評估後的首選；TxGNN 排名第 1 的是先天性凝血酶原缺乏症，但機轉連結薄弱） |
-| TxGNN 預測分數 | 99.26%（排名第 1 的先天性凝血酶原缺乏症為 99.70%） |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 14 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Congenital prothrombin deficiency |
+| TxGNN 預測分數 | 0.9970 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 14 張／共 14 張） |
+| 許可證數 | 14 張（有效 14 張） |
 | 建議決策 | Proceed with Guardrails |
 
 > 說明：TxGNN 分數高低並不代表臨床價值。前 10 名預測中，只有「原發性血小板釋放障礙」達到 L3 並進入下一階段；其餘多為 Hold 或研究問題。
@@ -72,15 +72,11 @@ TxGNN 模型的預測中，最值得進一步評估的是**原發性血小板釋
 
 | 預測疾病 | TxGNN 分數 | 證據等級 | 評估 |
 |---------|-----------|---------|------|
-| 先天性凝血酶原缺乏症 | 99.70% | L5 | 機轉連結薄弱，Desmopressin 不影響凝血酶原；高分可能反映網路鄰近性。Hold |
-| 遺傳性血栓傾向 | 99.44% | L5 | 促血栓狀態，與止血藥機轉相悖；文獻僅有與遺傳性 TTP 相關的病例報告，可能為偽陽性並帶有安全訊號。Hold |
-| Glanzmann 血小板無力症 | 99.30% | L4 | 無法修正缺失的 αIIbβ3 受體；僅有間接證據，標準治療為血小板輸注、rFVIIa 與抗纖溶藥。列為研究問題 |
-| 偽血管性血友病（血小板型） | 99.16% | L4 | 可能加重血小板凝集與血小板低下，一般需避免。Hold |
-| Scott 症候群 | 99.16% | L4 | 缺陷在磷脂醯絲胺酸暴露，Desmopressin 無直接作用。列為研究問題 |
-| 「flood factor deficiency」 | 99.15% | L4 | 疾病名稱疑似來源資料錯置，僅連結到一般 VWD 綜述；需先確認疾病對應。列為研究問題 |
-| 血栓性血小板低下紫斑症 | 98.95% | L4 | 病例報告顯示 Desmopressin 可誘發或惡化 TTP，屬負面安全訊號。Hold |
-| 膠原蛋白受體缺陷出血體質 | 98.95% | L4 | 理論上可能代償，但無直接資料。列為研究問題 |
-| 遺傳性血小板增多伴橫向肢體缺陷 | 98.95% | L5 | 無文獻、無合理機轉，視為計算假象。Hold |
+| 先天性凝血酶原缺乏症 | 0.9970 | L5 | 機轉連結薄弱，Desmopressin 不影響凝血酶原；高分可能反映網路鄰近性。Hold |
+| 遺傳性血栓傾向 | 0.9944 | L5 | 促血栓狀態，與止血藥機轉相悖；文獻僅有與遺傳性 TTP 相關的病例報告，可能為偽陽性並帶有安全訊號。Hold |
+| Glanzmann 血小板無力症 | 0.9930 | L4 | 無法修正缺失的 αIIbβ3 受體；僅有間接證據，標準治療為血小板輸注、rFVIIa 與抗纖溶藥。列為研究問題 |
+| Scott 症候群 | 0.9916 | L5 | 缺陷在磷脂醯絲胺酸暴露，Desmopressin 無直接作用。列為研究問題 |
+| 「flood factor deficiency」 | 0.9915 | L5 | 疾病名稱疑似來源資料錯置，僅連結到一般 VWD 綜述；需先確認疾病對應。列為研究問題 |
 
 ---
 

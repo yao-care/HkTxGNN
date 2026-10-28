@@ -6,9 +6,9 @@ nav_order: 858
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Tenofovir Alafenamide：預測新適應症為猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)（證據等級 L4）。原適應症：HIV 感染、愛滋病"
 monitor_inn: "TENOFOVIR ALAFENAMIDE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Tenofovir Alafenamide：預測新適應症為猴免疫缺陷病毒感染 (simian immunodeficiency virus infection)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Tenofovir Alafenamide
@@ -33,7 +33,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 </div>
 
-## Tenofovir Alafenamide：從 HIV 感染到猴免疫缺陷病毒感染（動物模型）
+## Tenofovir Alafenamide: 猴免疫缺陷病毒感染 (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**猴免疫缺陷病毒感染 (Simian Immunodefici
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | HIV 感染、愛滋病（取自知識圖譜；香港許可證未提供適應症文字） |
-| 預測新適應症 | 猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection) |
-| TxGNN 預測分數 | 99.89% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 猴免疫缺陷病毒感染 (simian immunodeficiency virus infection) |
+| TxGNN 預測分數 | 0.9989 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 7 張 |
+| 香港上市 | 上市中（有效許可證 7 張／共 7 張） |
+| 許可證數 | 7 張（有效 7 張） |
 | 建議決策 | Hold（僅作為研究問題） |
 
 ---
@@ -117,7 +117,7 @@ SIV 與 SHIV（猴／人類嵌合免疫缺陷病毒）和 HIV 同樣依賴逆轉
 
 **理由：**
 - 證據全為獼猴與小鼠的前臨床研究，無任何臨床試驗；且此適應症是已核准 HIV 適應症的動物模型，並非獨立的新人類適應症。TAF 已在香港上市，因此此預測的實際價值有限。
-- 同批預測中，貓愛滋病（feline AIDS）僅有模型分數、無任何證據；另一項罕見神經發育疾病則找不到合理的機轉關聯，應視為知識圖譜的假象，不建議追蹤。
+- 同批預測中，貓愛滋病（feline AIDS）僅有 TxGNN 模型（深度學習）的分數、無任何證據；另一項罕見神經發育疾病則找不到合理的機轉關聯，其分數可能只反映模型學到的相關疾病間的相似性，並非生物學證據，不建議追蹤。
 
 **若要推進需要：**
 - 補齊作用機轉資料（目前缺乏）

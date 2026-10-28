@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Posaconazole
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 715
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Posaconazole：預測新適應症為肺囊蟲病 (Pneumocystosis)（證據等級 L4）。原適應症：香港許可證未提供核准適應症文字"
 monitor_inn: "POSACONAZOLE"
 predicted_indications: ["pneumocystosis"]
+description: "Posaconazole：預測新適應症為肺囊蟲病 (pneumocystosis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Posaconazole
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["pneumocystosis"]
 
 </div>
 
-## Posaconazole：從侵襲性黴菌感染到肺囊蟲病（Pneumocystosis）
+## Posaconazole: 肺囊蟲病 (pneumocystosis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**肺囊蟲病 (Pneumocystosis)** 有效，但目�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證未提供核准適應症文字；知識圖譜列出的原適應症包括麴菌症、念珠菌症、口咽念珠菌症、組織漿菌症、球黴菌症、孢子絲菌症、鐮刀菌症、足菌腫等 |
-| 預測新適應症 | 肺囊蟲病 (Pneumocystosis) |
-| TxGNN 預測分數 | 99.77% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 肺囊蟲病 (pneumocystosis) |
+| TxGNN 預測分數 | 0.9977 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**肺囊蟲病 (Pneumocystosis)** 有效，但目�
 
 然而，肺囊蟲（*Pneumocystis jirovecii*）的細胞膜幾乎不含麥角固醇，而是以膽固醇為主。因此，azole 類藥物在此病原體上缺乏明確的作用標的，機轉上的支持其實很薄弱。
 
-TxGNN 的高分（99.77%）較可能反映知識圖譜中「抗黴菌藥物與黴菌性肺部疾病」的類別關聯，而非經驗證的藥理機制。已知的文獻僅提到 posaconazole 可用於高風險血液腫瘤病人的黴菌預防，並未顯示它對肺囊蟲肺炎本身有效。此預測應視為待驗證的假說。
+TxGNN 模型（深度學習）給出的高分（0.9977）可能反映模型在相關疾病之間學到的相似性，而非經驗證的藥理機制或生物學證據。已知的文獻僅提到 posaconazole 可用於高風險血液腫瘤病人的黴菌預防，並未顯示它對肺囊蟲肺炎本身有效。此預測應視為待驗證的假說。
 
 ---
 

@@ -4,17 +4,17 @@ title: Alpelisib
 parent: 僅模型預測 (L5)
 nav_order: 41
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Alpelisib：預測新適應症為肺動脈高壓 (Pulmonary Hypertension)（證據等級 L5）。原適應症：香港許可證資料未載明"
 monitor_inn: "Alpelisib"
-predicted_indications: ["pulmonary hypertension", "migraine with or without aura, susceptibility to", "migraine disorder", "kyphoscoliotic heart disease", "rheumatoid arthritis", "leprosy", "migraine with brainstem aura", "thrombotic disease", "amyotrophic lateral sclerosis", "multiple endocrine neoplasia"]
+predicted_indications: ["pulmonary hypertension"]
 ---
 
 # Alpelisib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有�
 |------|------|
 | 原適應症 | 香港許可證資料未載明 |
 | 預測新適應症 | 肺動脈高壓 (Pulmonary Hypertension) |
-| TxGNN 預測分數 | 99.03% |
-| 證據等級 | L4（僅有 1 篇病例報告，且為安全性訊號） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| TxGNN 預測分數 | 0.9903 |
+| 證據等級 | L5（僅有 1 篇病例報告，且為安全性訊號） |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有�
 
 不過，目前沒有證據顯示抑制 PI3Kα 能治療肺動脈高壓。唯一相關的文獻是 alpelisib 引起間質性肺病的病例報告，這是肺部毒性的警訊，反而提示需要謹慎。
 
-TxGNN 分數很高，但排名為 15076，且這類分數可能反映的是知識圖譜中的網路關聯，並非已驗證的療效。
+TxGNN 分數很高，但排名為 15076，且此分數來自 TxGNN 模型（深度學習），可能反映模型在相關疾病之間學到的相似性，並非生物學證據。
 
 ---
 
@@ -129,7 +129,6 @@ TxGNN 分數很高，但排名為 15076，且這類分數可能反映的是知�
 - 取得 alpelisib 完整作用機轉資料與香港仿單（警語、禁忌症、核准適應症）
 - 前臨床研究，評估 PI3Kα 抑制在肺動脈高壓模型中的作用
 - 釐清間質性肺病風險，以及高血糖對肺動脈高壓族群的影響
-- 若仍想探索，可考慮先研究其他預測適應症，例如 PIK3CA 相關血管畸形（見血栓性疾病的相關文獻），該方向的機轉依據相對較強
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

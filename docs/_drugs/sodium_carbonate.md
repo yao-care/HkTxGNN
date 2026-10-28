@@ -4,17 +4,17 @@ title: Sodium Carbonate
 parent: 僅模型預測 (L5)
 nav_order: 819
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
 description: "Sodium Carbonate：預測新適應症為馬尾症候群 (Cauda Equina Syndrome)（證據等級 L5）。原適應症：許可證未載明"
 monitor_inn: "Sodium carbonate"
-predicted_indications: ["cauda equina syndrome", "anaphylaxis", "food-dependent exercise-induced anaphylaxis", "obsolete neurogenic bladder (disease)", "dry eye syndrome", "ventricular tachycardia", "obsolete bundle branch block", "panuveitis (disease)", "Sjogren syndrome", "catecholaminergic polymorphic ventricular tachycardia"]
+predicted_indications: ["cauda equina syndrome", "anaphylaxis", "food-dependent exercise-induced anaphylaxis", "obsolete neurogenic bladder (disease)", "dry eye syndrome", "ventricular tachycardia"]
 ---
 
 # Sodium Carbonate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["cauda equina syndrome", "anaphylaxis", "food-dependent 
 
 </div>
 
-## Sodium carbonate：從（原適應症未載明）到 乾眼症（Dry Eye Syndrome）等預測適應症
+## Sodium carbonate：從（原適應症未載明）到 馬尾症候群（Cauda Equina Syndrome）等預測適應症
 {: .text-alpha }
 
 ## 一句話總結
@@ -52,26 +52,22 @@ TxGNN 模型對多個疾病給出高分預測；在已整理的預測中，相�
 |------|------|
 | 原適應症 | 許可證未載明 |
 | 預測新適應症（排名第 1） | 馬尾症候群 (Cauda Equina Syndrome) |
-| TxGNN 預測分數 | 99.80% |
+| TxGNN 預測分數 | 0.9980 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ### 前 10 名預測概覽
 
 | 排名 | 預測疾病 | TxGNN 分數 | 證據等級 | 建議 |
 |------|---------|-----------|---------|------|
-| 1 | 馬尾症候群 (Cauda Equina Syndrome) | 99.80% | L5 | Hold |
-| 2 | 過敏性休克 (Anaphylaxis) | 99.72% | L5 | Hold |
-| 3 | 食物依賴運動誘發過敏性休克 | 99.63% | L5 | Hold |
-| 4 | 神經源性膀胱（本體論已淘汰術語） | 99.62% | L5 | Hold |
-| 5 | 乾眼症 (Dry Eye Syndrome) | 99.58% | L4 | Research Question |
-| 6 | 心室頻脈 (Ventricular Tachycardia) | 99.18% | L5 | Hold |
-| 7 | 束支傳導阻滯（本體論已淘汰術語） | 98.97% | L5 | Hold |
-| 8 | 全葡萄膜炎 (Panuveitis) | 98.89% | L5 | Hold |
-| 9 | 乾燥症 (Sjögren Syndrome) | 98.82% | L4 | Research Question |
-| 10 | 兒茶酚胺敏感性多形性心室頻脈 (CPVT) | 98.72% | L5 | Hold |
+| 1 | 馬尾症候群 (Cauda Equina Syndrome) | 0.9980 | L5 | Hold |
+| 2 | 過敏性休克 (Anaphylaxis) | 0.9972 | L5 | Hold |
+| 3 | 食物依賴運動誘發過敏性休克 | 0.9963 | L5 | Hold |
+| 4 | 神經源性膀胱（本體論已淘汰術語） | 0.9962 | L5 | Hold |
+| 5 | 乾眼症 (Dry Eye Syndrome) | 0.9958 | L5 | Research Question |
+| 6 | 心室頻脈 (Ventricular Tachycardia) | 0.9918 | L5 | Hold |
 
 ---
 
@@ -79,7 +75,7 @@ TxGNN 模型對多個疾病給出高分預測；在已整理的預測中，相�
 
 目前缺乏詳細的作用機轉資料。已知 sodium carbonate 屬於鹼化劑／緩衝劑，香港的上市產品為檸檬口味的 ENO 水果鹽（泡騰式抗酸類產品）。
 
-就排名第 1 的馬尾症候群而言，這是需要手術處理的壓迫性神經急症，與鹼化劑之間找不到合理的機轉連結，高分很可能只是知識圖譜上的鄰近關係所致。過敏性休克、心律不整、葡萄膜炎等其他預測也同樣沒有機轉或臨床支持。
+就排名第 1 的馬尾症候群而言，這是需要手術處理的壓迫性神經急症，與鹼化劑之間找不到合理的機轉連結，其分數來自 TxGNN 模型（深度學習），可能只反映模型學到的相關疾病之間的相似性，並非生物學證據。過敏性休克、心律不整等其他預測也同樣沒有機轉或臨床支持。
 
 相對而言，乾眼症與乾燥症有一項間接線索：一項 2017 年的探索性研究使用碳酸鈉／碳酸氫鈉與木糖醇噴劑，搭配專業口腔衛生處置，用於原發性乾燥症患者。其可能作用是局部緩衝唾液 pH 與清潔黏膜，只能視為口乾症狀的局部緩解，並非疾病修飾作用，也無法直接推論到眼表疾病。若要探討乾眼症，還需先確立鹼性溶液在眼部的安全性與耐受性。
 

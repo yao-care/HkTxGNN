@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Parecoxib
-parent: 僅模型預測 (L5)
+parent: 中證據等級 (L3-L4)
 nav_order: 667
-evidence_level: L5
-indication_count: 4
+evidence_level: L3
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Parecoxib：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：資料缺漏"
 monitor_inn: "PARECOXIB"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "pulmonary hypertension"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
 ---
 
 # Parecoxib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+證據等級: **L3** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 |------|------|
 | 原適應症 | 資料缺漏（香港許可證未提供適應症文字） |
 | 預測新適應症 | 偏頭痛 (Migraine Disorder) |
-| TxGNN 預測分數 | 99.55% |
+| TxGNN 預測分數 | 0.9955 |
 | 證據等級 | L3（僅有 1 篇設計待確認的先導臨床研究，採保守分級） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold（列為研究問題，待全文確認後再評估） |
 
 ---
@@ -61,14 +61,13 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 
 目前缺乏詳細的作用機轉資料庫記載。根據已知藥理，Parecoxib 是 valdecoxib 的前驅藥物，而 valdecoxib 是選擇性 COX-2 抑制劑。
 
-偏頭痛的病理與 COX-2 依賴的前列腺素 (PGE2) 合成有關，後者會促進神經性發炎、三叉神經敏感化與 CGRP 釋放。因此抑制 COX-2 在機轉上有合理性，高 TxGNN 分數（0.995）與此方向一致。
+偏頭痛的病理與 COX-2 依賴的前列腺素 (PGE2) 合成有關，後者會促進神經性發炎、三叉神經敏感化與 CGRP 釋放。因此抑制 COX-2 在機轉上有合理性，高 TxGNN 分數（0.9955）與此方向一致。
 
 需要注意的是，直接的人體證據目前只有一篇 2011 年的先導研究，其設計（是否隨機）與樣本數尚無法確認。
 
 另外，預測清單中的其他項目證據更弱：
-- **伴腦幹先兆的偏頭痛**（分數 99.46%）：無專屬試驗或文獻，高分可能只反映與偏頭痛的本體論關聯，建議 Hold。
-- **偏頭痛易感性**（分數 99.38%）：這是遺傳易感性表型而非可治療的臨床疾病，僅有前臨床文獻，建議 Hold。
-- **肺高壓**（分數 99.09%）：唯一文獻是新生仔豬敗血症模型，結果為 parecoxib 未抑制血栓素合成，屬中性或負面發現，且 COX-2 抑制劑有心血管疑慮，建議 Hold。
+- **伴腦幹先兆的偏頭痛**（分數 0.9946）：無專屬試驗或文獻，高分可能只反映與偏頭痛的本體論關聯，建議 Hold。
+- **肺高壓**（分數 0.9909）：唯一文獻是新生仔豬敗血症模型，結果為 parecoxib 未抑制血栓素合成，屬中性或負面發現，且 COX-2 抑制劑有心血管疑慮，建議 Hold。
 
 ---
 

@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Topotecan
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 891
-evidence_level: L3
-indication_count: 5
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Topotecan：預測新適應症為女性乳癌 (Female Breast Carcinoma)（證據等級 L3）。原適應症：卵巢癌（含卵巢腺癌、卵巢生殖細胞腫瘤等）"
 monitor_inn: "TOPOTECAN"
@@ -14,7 +14,7 @@ predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 # Topotecan
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,13 +50,13 @@ TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效�
 |------|------|
 | 原適應症 | 卵巢癌（含卵巢腺癌、卵巢生殖細胞腫瘤等） |
 | 預測新適應症 | 女性乳癌 (Female Breast Carcinoma) |
-| TxGNN 預測分數 | 99.92% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| TxGNN 預測分數 | 0.9992 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
-> 備註：香港許可證資料中未載明核准適應症文字，上述「原適應症」取自知識圖譜中的適應症關聯。
+> 備註：香港許可證資料中未載明核准適應症文字，上述「原適應症」並非取自許可證資料，僅供參考。
 
 ---
 
@@ -137,7 +137,7 @@ TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效�
 **決策：Hold**
 
 **理由：**
-- TxGNN 分數很高（99.92%），機轉上也合理，但 topotecan 在乳癌的直接臨床證據薄弱：僅有的單藥研究（1997）未顯示療效提升，其餘試驗多為組合療法、已終止或與 topotecan 關聯不明。目前僅達 L3 證據等級，屬研究假說階段。
+- TxGNN 分數很高（0.9992），機轉上也合理，但 topotecan 在乳癌的直接臨床證據薄弱：僅有的單藥研究（1997）未顯示療效提升，其餘試驗多為組合療法、已終止或與 topotecan 關聯不明。目前僅達 L3 證據等級，屬研究假說階段。
 - 其骨髓抑制毒性明顯，且乳癌已有多種標準治療選項，在缺乏療效訊號下不宜貿然推進。
 
 **若要推進需要：**

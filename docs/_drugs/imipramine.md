@@ -6,9 +6,9 @@ nav_order: 464
 evidence_level: L3
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Imipramine：預測新適應症為注意力不足過動症 (Attention Deficit-Hyperactivity Disorder)（證據等級 L3）。原適應症：焦慮症、官能症、輕鬱症、夜尿症"
 monitor_inn: "Imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
+description: "Imipramine：預測新適應症為注意力不足過動症 (attention deficit-hyperactivity disorder)（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Imipramine
@@ -33,7 +33,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "attention d
 
 </div>
 
-## Imipramine：從焦慮症、官能症、輕鬱症與夜尿症到注意力不足過動症 (ADHD)
+## Imipramine: 注意力不足過動症 (attention deficit-hyperactivity disorder)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對**注意力不足過動症 (Attention Deficit-Hype
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 焦慮症、官能症、輕鬱症、夜尿症（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 注意力不足過動症 (Attention Deficit-Hyperactivity Disorder) |
-| TxGNN 預測分數 | 99.90% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 注意力不足過動症 (attention deficit-hyperactivity disorder) |
+| TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ## 為什麼這個預測合理？
@@ -113,7 +113,7 @@ TxGNN 模型預測它可能對**注意力不足過動症 (Attention Deficit-Hype
 - 補充 DrugBank 的作用機轉資料
 - 系統性整理 imipramine 對 ADHD 的 RCT 與統合分析，並與 atomoxetine、desipramine 比較
 - 建立兒童族群的心電圖與心血管監測計畫
-- 其他預測項目（如強迫症）證據較弱、目前多屬研究性問題；ADHD 注意力不足型僅為上位疾病的衍生；其餘（如 faciodigitogenital syndrome、chondromyxoid fibroma）無合理機轉，可能為知識圖譜假象，皆建議暫不推進
+- 其他預測項目（如強迫症）證據較弱、目前多屬研究性問題；ADHD 注意力不足型僅為上位疾病的衍生；其餘（如 faciodigitogenital syndrome、chondromyxoid fibroma）無合理機轉，其分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，而非生物學證據，皆建議暫不推進
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

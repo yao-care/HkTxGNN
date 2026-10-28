@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nevirapine
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 615
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Nevirapine：預測新適應症為貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome)（證據等級 L4）。原適應症：HIV 感染、愛滋病"
 monitor_inn: "NEVIRAPINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Nevirapine：預測新適應症為貓後天免疫缺乏症候群 (feline acquired immunodeficiency syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Nevirapine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 </div>
 
-## Nevirapine：從 HIV 感染到貓後天免疫缺乏症候群（獸醫適應症）
+## Nevirapine: 貓後天免疫缺乏症候群 (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired 
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | HIV 感染、愛滋病（香港許可證未載明適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome) |
-| TxGNN 預測分數 | 99.85% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 5 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 貓後天免疫缺乏症候群 (feline acquired immunodeficiency syndrome) |
+| TxGNN 預測分數 | 0.9985 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 5 張／共 5 張） |
+| 許可證數 | 5 張（有效 5 張） |
 | 建議決策 | Hold |
 
 ---
@@ -107,7 +107,7 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired 
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高（99.85%），但僅有 1 篇體外研究，且結果顯示 NNRTI 對 FIV 逆轉錄酶活性有限，機轉上不支持。
+- 預測分數雖高（0.9985），但僅有 1 篇體外研究，且結果顯示 NNRTI 對 FIV 逆轉錄酶活性有限，機轉上不支持。
 - 這是獸醫適應症，沒有臨床試驗，且 Nevirapine 具有肝毒性與嚴重皮膚反應等安全性疑慮。
 
 **若要推進需要：**
@@ -119,8 +119,8 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired 
 
 ### 補充：其他預測適應症
 
-- **猿猴免疫缺乏病毒感染（TxGNN 分數 99.85%，L4，Hold）**：SIV 與 HIV-2 天然對 NNRTI 具抗藥性（RT 結合口袋的自然多型性），所以 Nevirapine 只作為帶有 HIV-1 RT 的嵌合病毒 (RT-SHIV) 動物模型中的研究工具，不是治療用途。
-- **伴隨共濟失調步態、無語言與皮質白質減少的神經發育障礙（TxGNN 分數 99.82%，L5，Hold）**：無機轉關聯，也沒有臨床試驗或文獻，僅為模型預測。
+- **猿猴免疫缺乏病毒感染（TxGNN 分數 0.9985，L4，Hold）**：SIV 與 HIV-2 天然對 NNRTI 具抗藥性（RT 結合口袋的自然多型性），所以 Nevirapine 只作為帶有 HIV-1 RT 的嵌合病毒 (RT-SHIV) 動物模型中的研究工具，不是治療用途。
+- **伴隨共濟失調步態、無語言與皮質白質減少的神經發育障礙（TxGNN 分數 0.9982，L5，Hold）**：無機轉關聯，也沒有臨床試驗或文獻，僅為模型預測。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

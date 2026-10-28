@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Trastuzumab Emtansine
-parent: 中證據等級 (L3-L4)
+parent: 僅已知用途（無新預測）
 nav_order: 898
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Trastuzumab Emtansine：預測新適應症為黃體素受體陽性乳癌 (progesterone-receptor positive breast cancer)（證據等級 L4）。原適應症：HER2 陽性乳癌"
-monitor_inn: "Trastuzumab emtansine"
-predicted_indications: ["synovium cancer", "tenosynovial giant cell tumor", "tenosynovial giant cell tumor, localized type", "malignant giant cell tumor", "human herpesvirus 8-related tumor", "ectomesenchymoma"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Trastuzumab Emtansine: 香港已知用途與上市狀態；目前無新的候選適應症"
+predicted_indications: []
 ---
 
 # Trastuzumab Emtansine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,60 +32,49 @@ predicted_indications: ["synovium cancer", "tenosynovial giant cell tumor", "ten
 
 </div>
 
-## Trastuzumab emtansine：從 HER2 陽性乳癌到黃體素受體陽性乳癌
+<!-- known-uses-page -->
+<!-- description: Trastuzumab Emtansine: 香港已知用途與上市狀態；目前無新的候選適應症 -->
+## Trastuzumab Emtansine：香港已知用途與上市狀態
 {: .text-alpha }
 
-## 一句話總結
-
-Trastuzumab emtansine（T-DM1）是一種抗體藥物複合體，原本用於 HER2 陽性乳癌。
-TxGNN 模型預測它可能對**黃體素受體陽性乳癌 (progesterone-receptor positive breast cancer)** 有效，
-但目前**無已登記的臨床試驗**，僅有 **15 篇文獻**（以回顧、指引與病例報告為主）。這個預測更像是原核准適應症的亞群，而非真正的新用途。
+## 摘要
+TxGNN 深度學習模型（分數 ≥ 0.99）為 Trastuzumab Emtansine 產生的候選適應症，經追溯來源後皆為已知用途，因此目前沒有新的預測適應症。這些候選均屬於與已核准適應症相同的疾病類別（乳癌）。
 
 ## 快速總覽
-
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | HER2 陽性乳癌 |
-| 預測新適應症 | 黃體素受體陽性乳癌 (progesterone-receptor positive breast cancer) |
-| TxGNN 預測分數 | 99.82% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
-| 建議決策 | Hold |
+| 新預測適應症 | 無（模型候選中可追溯者皆為已知用途） |
+| 模型候選中的已知用途數 | 4 |
+| 證據等級 | 不適用 |
+| 香港上市狀態 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 
-## 為什麼這個預測合理？
+## 模型候選中的已知用途
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，T-DM1 是由抗 HER2 抗體 trastuzumab 連接細胞毒性藥物 DM1 組成的抗體藥物複合體，藉由 HER2 將 DM1 送入腫瘤細胞。
+### 已核准（有許可證或仿單支持）
+| 適應症 | 來源 |
+|------|------|
+| 無 | 無 |
 
-黃體素受體（PR）陽性乳癌與已核准的 HER2 陽性族群有相當大的重疊，也就是 HR+/HER2+ 亞群。T-DM1 的活性取決於 **HER2 狀態，而非 PR 狀態**。因此，這個預測較適合視為原適應症的亞群，而不是真正的藥物再利用。
+### 與已核准適應症相關（同一疾病類別）
+| 適應症 | 已核准類別 |
+|------|------|
+| 正常乳腺樣亞型乳癌 (normal breast-like subtype of breast carcinoma) | breast cancer |
+| 黃體素受體陽性乳癌 (progesterone-receptor positive breast cancer) | breast cancer |
+| 黃體素受體陰性乳癌 (progesterone-receptor negative breast cancer) | breast cancer |
+| 管腔 A 型或 B 型乳房腫瘤 (breast tumor luminal A or B) | breast cancer |
 
-需要注意的是，TxGNN 的高分主要反映知識圖譜中與乳癌相關詞彙的接近程度。若腫瘤為 HER2 陰性，沒有明確證據支持 T-DM1 有效。
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
-## 文獻證據
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | 指引 | J Clin Oncol | ASCO 晚期 HER2 陽性乳癌全身治療指引更新 |
-| [29939838](https://pubmed.ncbi.nlm.nih.gov/29939838/) | 2018 | 指引 | J Clin Oncol | ASCO 晚期 HER2 陽性乳癌治療指引更新，系統性文獻回顧 |
-| [24799465](https://pubmed.ncbi.nlm.nih.gov/24799465/) | 2014 | 指引 | J Clin Oncol | ASCO 晚期 HER2 陽性乳癌全身治療臨床指引 |
-| [28259011](https://pubmed.ncbi.nlm.nih.gov/28259011/) | 2017 | 指引 | Eur J Cancer | EGTM 生物標記指引：ER/PR 用於內分泌治療選擇，HER2 用於抗 HER2 治療（含 T-DM1）選擇 |
-| [34215766](https://pubmed.ncbi.nlm.nih.gov/34215766/) | 2021 | 世代研究 | Sci Rep | ChangeHER 試驗：轉移性乳癌 HER2 陽性狀態轉變的預後意義，真實世界使用 pertuzumab 和/或 T-DM1 |
-| [33726508](https://pubmed.ncbi.nlm.nih.gov/33726508/) | 2021 | 回顧 | Future Oncol | HR+/HER2+ 乳癌治療趨勢，提及 T-DM1 與 neratinib 等新型抗 HER2 療法 |
-| [39631485](https://pubmed.ncbi.nlm.nih.gov/39631485/) | 2024 | 回顧 | Pharmacol Res | 乳癌標靶與細胞毒性抑制劑回顧，治療取決於 HER2、HR、ER、PR 狀態 |
-| [24892840](https://pubmed.ncbi.nlm.nih.gov/24892840/) | 2013 | 回顧 | Clin Adv Hematol Oncol | 轉移性乳癌新進展與臨床實務整合 |
-| [25873876](https://pubmed.ncbi.nlm.nih.gov/25873876/) | 2015 | 病例報告 | Case Rep Oncol | 減量 T-DM1 在急性肝功能異常患者中仍具活性且安全 |
-| [35251981](https://pubmed.ncbi.nlm.nih.gov/35251981/) | 2022 | 病例報告 | Front Oncol | pyrotinib 合併節拍式 vinorelbine 用於 HER2 陽性乳癌合併軟腦膜轉移（非 T-DM1） |
+### 知識圖譜中記錄的關係（未查到核准）
+| 適應症 |
+|------|
+| 無 |
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-63487 | KADCYLA 凍晶注射粉劑 100mg（羅氏） | 輸注用濃縮液粉劑 | 許可證資料未載明 |
-| HK-63486 | KADCYLA 凍晶注射粉劑 160mg（羅氏） | 輸注用濃縮液粉劑 | 許可證資料未載明 |
+| 許可證字號 | 品名 | 劑型 | 狀態 |
+|------|------|------|------|
+| HK-63487 | KADCYLA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100 |  | 有效 |
+| HK-63486 | KADCYLA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 160 |  | 有效 |
 
 ## 細胞毒性
 
@@ -106,20 +94,6 @@ TxGNN 模型預測它可能對**黃體素受體陽性乳癌 (progesterone-recept
 
 其餘警語與禁忌症請參考原廠仿單。
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 此預測較像 HER2 陽性（HR+/HER2+）亞群，而非真正的新適應症。目前無相關臨床試驗登記，文獻以指引、回顧與病例報告為主，證據等級僅 L4。
-- 其他高分預測（如腱鞘巨細胞瘤、滑膜癌、HHV-8 相關腫瘤等）缺乏 HER2 相關機轉，且無臨床或文獻支持，同樣建議暫緩。
-
-**若要推進需要：**
-- 確認 HER2 狀態是真正的用藥條件，並明確界定為既有適應症的亞群，而非新適應症
-- 取得 HR+/HER2+ 族群中 T-DM1 的專門臨床試驗或亞群分析資料
-- 補齊作用機轉資料（MOA）
-- 取得香港衛生署仿單，確認核准適應症、警語與禁忌症
-- 完成安全性篩選，特別是與抗凝血和抗血小板藥物併用的出血風險
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

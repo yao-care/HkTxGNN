@@ -6,9 +6,9 @@ nav_order: 211
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Clobazam：預測新適應症為熱性感染相關癲癇症候群 (Febrile Infection-Related Epilepsy Syndrome, FIRES)（證據等級 L4）。原適應症：Lennox-Gastaut 症候群、腦回狀頭皮"
 monitor_inn: "Clobazam"
-predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "cryptogenic late-onset epileptic spasms", "atypical childhood epilepsy with centrotemporal spikes", "photosensitive occipital lobe epilepsy", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
+predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "photosensitive occipital lobe epilepsy", "atypical childhood epilepsy with centrotemporal spikes", "cryptogenic late-onset epileptic spasms", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
+description: "Clobazam：預測新適應症為Febrile infection-related epilepsy syndrome（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Clobazam
@@ -33,7 +33,7 @@ predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral
 
 </div>
 
-## Clobazam：從 Lennox-Gastaut 症候群到熱性感染相關癲癇症候群 (FIRES)
+## Clobazam: Febrile infection-related epilepsy syndrome
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**熱性感染相關癲癇症候群（FIRES）**�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | Lennox-Gastaut 症候群、腦回狀頭皮（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 熱性感染相關癲癇症候群 (Febrile Infection-Related Epilepsy Syndrome, FIRES) |
-| TxGNN 預測分數 | 99.82% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Febrile infection-related epilepsy syndrome |
+| TxGNN 預測分數 | 0.9982 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold（列為研究問題，暫不推進） |
 
 ---
@@ -109,7 +109,7 @@ TxGNN 模型預測它可能對**熱性感染相關癲癇症候群（FIRES）**�
 **決策：Hold**
 
 **理由：**
-- 模型分數雖高（99.82%），但目前沒有任何臨床試驗，文獻也未直接評估 clobazam 對 FIRES 的效果，證據停留在 L4（僅有機轉推論與間接文獻）。
+- 模型分數雖高（0.9982），但目前沒有任何臨床試驗，文獻也未直接評估 clobazam 對 FIRES 的效果，證據停留在 L4（僅有機轉推論與間接文獻）。
 - 作用機轉資料與仿單安全性資料（警語、禁忌症）仍有缺口，尚無法進入安全性篩選。
 
 **若要推進需要：**

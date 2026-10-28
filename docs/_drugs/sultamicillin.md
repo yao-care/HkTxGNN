@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Sultamicillin
-parent: 中證據等級 (L3-L4)
+parent: 僅已知用途（無新預測）
 nav_order: 842
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Sultamicillin：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L3）。原適應症：目前資料未載明"
-monitor_inn: "Sultamicillin"
-predicted_indications: ["bronchitis", "thrombotic disease", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "rheumatoid arthritis", "antithrombin deficiency type 2", "laryngotracheitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "thrombophilia", "idiopathic granulomatous myositis"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Sultamicillin: 香港已知用途與上市狀態；目前無新候選適應症"
+predicted_indications: []
 ---
 
 # Sultamicillin
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,76 +32,45 @@ predicted_indications: ["bronchitis", "thrombotic disease", "heparin cofactor 2 
 
 </div>
 
-## Sultamicillin：從（原適應症資料缺漏）到支氣管炎
+<!-- known-uses-page -->
+<!-- description: Sultamicillin: 香港已知用途與上市狀態；目前無新候選適應症 -->
+## Sultamicillin：香港已知用途與上市狀態
 {: .text-alpha }
 
-## 一句話總結
+## 摘要
+TxGNN 模型對 Sultamicillin 沒有得分達 0.99 以上的候選適應症，因此目前沒有新的預測適應症。本頁下方列出此藥物自身已記錄的用途。
 
-Sultamicillin 是 ampicillin 與 sulbactam（β-內醯胺酶抑制劑）的雙重前驅藥，為口服抗菌藥物。
-TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，
-目前有 **0 個臨床試驗**和 **13 篇文獻**支持這個方向，屬於觀察性或開放label研究層級的證據。
-需注意：此預測較接近原本就有的抗菌用途，而非真正的「新」適應症。
-
----
-
-## 快速總覽
-
+## 快速概覽
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 目前資料未載明（香港許可證未列適應症文字） |
-| 預測新適應症 | 支氣管炎 (Bronchitis) |
-| TxGNN 預測分數 | 96.20% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
-| 建議決策 | Proceed with Guardrails |
+| 新預測適應症 | 無（沒有模型候選得分達 0.99 以上） |
+| 此藥物已記錄的已知用途 | 0 |
+| 證據等級 | 不適用 |
+| 香港上市狀態 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 
----
+## 此藥物已記錄的已知用途
 
-## 為什麼這個預測合理？
+### 已核准（有許可證或仿單支持）
+| 適應症 | 來源 |
+|------|------|
+| 無 | 無 |
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Sultamicillin 是 ampicillin 與 sulbactam 以酯鍵連結的雙重前驅藥：口服後在體內水解，釋出具殺菌作用的 ampicillin，以及可抑制 β-內醯胺酶的 sulbactam。
+### 與已核准適應症相關（同一疾病類別）
+| 適應症 | 已核准類別 |
+|------|------|
+| 無 | 無 |
 
-這種組合對產生 β-內醯胺酶的呼吸道病原菌（如 *H. influenzae*、*M. catarrhalis*、*S. aureus*）具有活性，而這些菌正是細菌性支氣管炎及慢性支氣管炎急性惡化的常見致病菌，因此機轉上與支氣管炎有直接關聯。
-
-模型之所以將它判定為「新」適應症，很可能是因為原適應症欄位為空白。實際上，這比較像是仿單內或接近仿單內的抗菌使用，並非典型的藥物再利用。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
----
-
-## 文獻證據
-
-以下依證據類型挑選與支氣管炎／呼吸道感染最相關的文獻（共 10 篇）：
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [6323377](https://pubmed.ncbi.nlm.nih.gov/6323377/) | 1984 | 開放性臨床試驗 | J Antimicrob Chemother | 30 位慢性支氣管炎急性惡化住院患者，口服 750 或 1000 mg 每日兩次、共 10 天；治療結束時臨床治癒率 73%，一週後 60% |
-| [8008659](https://pubmed.ncbi.nlm.nih.gov/8008659/) | 1993 | 比較性臨床研究 | Pol Tyg Lek | 門診治療慢性支氣管炎急性惡化，與 cefuroxime axetil 比較（無摘要，設計僅由標題推測） |
-| [2041156](https://pubmed.ncbi.nlm.nih.gov/2041156/) | 1991 | 多中心臨床評估 | Jpn J Antibiot | 132 位下呼吸道感染患者，肺炎有效率 80.0%（28/35），支氣管炎 78.5%（73/93） |
-| [1451929](https://pubmed.ncbi.nlm.nih.gov/1451929/) | 1992 | 臨床研究 | J Int Med Res | 30 位成人下呼吸道感染，治癒 76.6%、改善 23.3% |
-| [1458803](https://pubmed.ncbi.nlm.nih.gov/1458803/) | 1992 | 開放性非對照研究 | Clin Ter | 48 位兒童呼吸道感染（含支氣管炎 18 例），96% 臨床反應良好 |
-| [3249367](https://pubmed.ncbi.nlm.nih.gov/3249367/) | 1988 | 兒科臨床經驗 | Jpn J Antibiot | 18 位兒童感染，整體有效率 94.4%，支氣管炎 1 例療效良好 |
-| [3249369](https://pubmed.ncbi.nlm.nih.gov/3249369/) | 1988 | 兒科臨床研究 | Jpn J Antibiot | 15 位兒童急性細菌感染（含急性支氣管炎 2 例），全部達良好至極佳反應 |
-| [3249370](https://pubmed.ncbi.nlm.nih.gov/3249370/) | 1988 | 兒科臨床研究 | Jpn J Antibiot | 17 位兒童的藥動學、安全性與療效評估（含支氣管炎 2 例） |
-| [3249372](https://pubmed.ncbi.nlm.nih.gov/3249372/) | 1988 | 兒科藥動學與臨床研究 | Jpn J Antibiot | 顆粒劑型於 6 位男童的血漿與尿液濃度研究 |
-| [3249362](https://pubmed.ncbi.nlm.nih.gov/3249362/) | 1988 | 兒科藥動學、細菌學與臨床研究 | Jpn J Antibiot | 細顆粒劑型對常見呼吸道致病菌具抗菌活性 |
-
-這些研究多為 1980–1990 年代的開放性或非對照研究，缺乏近期的隨機對照試驗。
-
----
+### 知識圖譜中記錄的關係（未找到核准）
+| 適應症 |
+|------|
+| 無 |
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-29807 | UNASYN TAB 375 MG（輝瑞） | 未載明 | 未載明 |
-
----
+| 許可證字號 | 品名 | 劑型 | 狀態 |
+|------|------|------|------|
+| HK-29807 | UNASYN TAB 375 MG |  | 有效 |
 
 ## 安全性考量
 
@@ -110,30 +78,6 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，
 
 ---
 
-## 其他預測適應症的簡要評估
-
-| 預測適應症 | TxGNN 分數 | 證據 | 評估 |
-|-----------|-----------|------|------|
-| 喉氣管炎 (Laryngotracheitis) | 90.55% | 無直接研究 | 類推上可能適用於細菌性氣管炎；但喉氣管炎（croup）多為病毒性，抗菌效益僅限於細菌性續發感染。列為研究問題 |
-| 血栓性疾病、肝素輔因子 2 缺乏、第五因子過量、抗凝血酶缺乏第 2 型、血栓形成傾向 | 89.9%–93.1% | 無 | 缺乏機轉依據，分數可能來自知識圖譜的關聯假象，建議暫緩 |
-| 類風濕性關節炎 | 92.42% | 僅 1 篇不相關病例報告 | 該文獻討論 leflunomide 引起的肺膿瘍，與 sultamicillin 療效無關，建議暫緩 |
-| 結構缺損性小眼症－肢根型發育不良症候群、特發性肉芽腫性肌炎 | 89.4%–90.3% | 無 | 缺乏機轉依據，建議暫緩 |
-
----
-
-## 結論與下一步
-
-**決策：Proceed with Guardrails**
-
-**理由：**
-- 對支氣管炎有多篇臨床研究，顯示約 60–80% 的臨床有效率，且機轉上與 β-內醯胺酶陽性呼吸道病原菌直接相關；但證據多為較舊的開放性、非對照研究。
-- 這實質上是抗菌藥物的原有用途，而非真正的藥物再利用，且香港許可證與安全性資料皆不完整。
-
-**若要推進需要：**
-- 下載並解析香港衛生署的仿單，補齊核准適應症、警語與禁忌症。
-- 補充 DrugBank 的作用機轉與原適應症資料。
-- 尋找近期的比較性或隨機對照試驗，並納入當地抗藥性流行病學資料。
-- 其餘預測（血栓類、類風濕性關節炎等）無機轉依據，不建議投入資源。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

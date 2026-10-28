@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mebendazole
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 554
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Mebendazole：預測新適應症為泡型包蟲症 (Alveolar Echinococcosis)（證據等級 L3）。原適應症：蟯蟲症、蛔蟲症、鞭蟲症"
 monitor_inn: "Mebendazole"
-predicted_indications: ["acne (disease)", "leishmaniasis, diffuse cutaneous", "echinococcus granulosus infectious disease", "hordeolum", "alveolar echinococcosis", "inhalational botulism", "toxin-mediated infectious botulism", "impetigo", "Sorsby's fundus dystrophy", "demodicidosis of sebaceous gland"]
+predicted_indications: ["acne (disease)"]
+description: "Mebendazole：預測新適應症為Acne (disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Mebendazole
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,27 +33,26 @@ predicted_indications: ["acne (disease)", "leishmaniasis, diffuse cutaneous", "e
 
 </div>
 
-## Mebendazole：從腸道寄生蟲感染到泡型包蟲症（肝泡狀棘球蚴病）
+## Mebendazole: Acne (disease)
 {: .text-alpha }
 
-> 說明：TxGNN 預測分數最高的是痤瘡（99.2%），但該預測沒有任何相關證據支持。本報告改以證據最完整的 **泡型包蟲症 (Alveolar Echinococcosis)** 作為主要評估對象，並在文末簡要列出其他預測結果。
+> 說明：TxGNN 預測分數最高的是痤瘡（0.9920），但該預測沒有任何相關證據支持。
 
 ## 一句話總結
 
 Mebendazole 是苯并咪唑類驅蟲藥，原本用於蟯蟲症、蛔蟲症和鞭蟲症。
-TxGNN 模型預測它可能對**泡型包蟲症 (Alveolar Echinococcosis)** 有效（預測分數 94.2%）。
 目前有 **0 個登記臨床試驗**，但有 **約 20 篇文獻**，包括 WHO 治療指引和多篇觀察性研究。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 蟯蟲症、蛔蟲症、鞭蟲症（來自知識圖譜；香港許可證未提供適應症文字） |
-| 預測新適應症 | 泡型包蟲症 (Alveolar Echinococcosis) |
-| TxGNN 預測分數 | 94.20% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 8 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Acne (disease) |
+| TxGNN 預測分數 | 0.9920 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
+| 許可證數 | 8 張（有效 8 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ## 為什麼這個預測合理？
@@ -62,7 +61,7 @@ TxGNN 模型預測它可能對**泡型包蟲症 (Alveolar Echinococcosis)** 有�
 
 蟯蟲、蛔蟲、鞭蟲與多房棘球絛蟲 (*Echinococcus multilocularis*) 都是寄生蟲，同屬抗寄生蟲治療範疇。苯并咪唑類（albendazole 與 mebendazole）本來就是包蟲症化學治療的主要藥物，WHO 1996 年指引也列入這兩種藥。
 
-需要留意：這個方向更像是抗寄生蟲藥物類別內的適應症延伸，而非全新的再利用。臨床上 albendazole 較常被優先選用，且苯并咪唑對泡型包蟲症多屬抑制寄生蟲生長，而非殺滅。
+需要留意：這個方向更像是抗寄生蟲藥物類別內的適應症延伸，而非全新的再利用。
 
 ## 臨床試驗證據
 
@@ -112,7 +111,6 @@ TxGNN 模型預測它可能對**泡型包蟲症 (Alveolar Echinococcosis)** 有�
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 泡型包蟲症在苯并咪唑類藥物上有 WHO 指引與多篇觀察性研究支持，mebendazole 也有長期使用的臨床報告。
 - 但目前沒有登記的臨床試驗或可確認的 RCT，且 albendazole 通常較優先使用，因此證據僅到 L3。
 
 **若要推進需要：**
@@ -126,14 +124,7 @@ TxGNN 模型預測它可能對**泡型包蟲症 (Alveolar Echinococcosis)** 有�
 
 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 | 說明 |
 |-----------|-----------|---------|------|------|
-| 痤瘡 (Acne) | 99.20% | L5 | Hold | 唯一檢索到的文獻是無關的裂頭蚴病個案，機轉上無合理關聯 |
-| 瀰漫性皮膚利什曼病 | 98.38% | L5 | Hold | 僅有模型預測；利什曼原蟲微管蛋白與蠕蟲不同，無臨床證據 |
-| 細粒棘球絛蟲感染（囊型包蟲症） | 95.61% | L4 | 研究問題 | 有 1989 年 70 名患者的治療報告，其餘多為前臨床或無關文獻；此用途已屬抗寄生蟲類別的既有用法 |
-| 麥粒腫 | 94.88% | L5 | Hold | 屬細菌感染，mebendazole 無抗菌機轉 |
-| 吸入性肉毒中毒、毒素型感染性肉毒中毒 | 93.82%、93.52% | L5 | Hold | 無機轉關聯，無證據 |
-| 膿痂疹 | 93.22% | L5 | Hold | 屬細菌感染，已有有效抗生素 |
-| Sorsby 眼底營養不良 | 93.13% | L5 | Hold | 屬 TIMP3 突變的遺傳性疾病，無合理關聯 |
-| 皮脂腺蠕形蟎症 | 92.99% | L5 | Hold | 屬外寄生蟲，但 mebendazole 全身吸收有限，無證據 |
+| 痤瘡 (Acne) | 0.9920 | L5 | Hold | 唯一檢索到的文獻是無關的裂頭蚴病個案，機轉上無合理關聯 |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -6,9 +6,9 @@ nav_order: 752
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Raloxifene：預測新適應症為十二指腸潰瘍 (Duodenal Ulcer)（證據等級 L5）。原適應症：停經後骨質疏鬆症、骨質疏鬆症"
 monitor_inn: "Raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
+description: "Raloxifene：預測新適應症為Duodenal ulcer (disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Raloxifene
@@ -33,7 +33,7 @@ predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", 
 
 </div>
 
-## Raloxifene：從停經後骨質疏鬆到十二指腸潰瘍
+## Raloxifene: Duodenal ulcer (disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -45,19 +45,19 @@ TxGNN 模型預測它可能對**十二指腸潰瘍 (Duodenal Ulcer)** 有效，�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 停經後骨質疏鬆症、骨質疏鬆症（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 十二指腸潰瘍 (Duodenal Ulcer) |
-| TxGNN 預測分數 | 99.72% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Duodenal ulcer (disease) |
+| TxGNN 預測分數 | 0.9972 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Raloxifene 是作用於骨骼、乳房與子宮組織的 SERM，在停經後骨質疏鬆症中的療效已被證實。
 
-至於十二指腸潰瘍，目前沒有已確立的機轉連結。經由雌激素受體訊號影響胃或十二指腸黏膜保護的可能性，僅屬推測，現有資料無法支持。0.997 的高分僅代表知識圖譜上的關聯，不等於治療上有效。
+至於十二指腸潰瘍，目前沒有已確立的機轉連結。經由雌激素受體訊號影響胃或十二指腸黏膜保護的可能性，僅屬推測，現有資料無法支持。0.9972 的高分來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據，不等於治療上有效。
 
 其他同時被預測的疾病（如低 α 脂蛋白血症、十二指腸阻塞、十二指腸胃逆流）同樣缺乏臨床證據。其中十二指腸阻塞多為結構性或機械性問題，預期不會對 SERM 有反應。
 

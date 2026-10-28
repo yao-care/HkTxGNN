@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Larotrectinib
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 512
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Larotrectinib：預測新適應症為多發性內分泌腫瘤 (Multiple Endocrine Neoplasia)（證據等級 L3）。原適應症：香港許可證資料未載明（依藥理類別，核准用途為 NTRK 融合陽性實體腫瘤）"
 monitor_inn: "Larotrectinib"
-predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma", "cytomegalovirus infection", "malignant catarrh", "infectious bovine rhinotracheitis", "progesterone-receptor negative breast cancer", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "thrombocytopenia"]
+predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
+description: "Larotrectinib：預測新適應症為多發性內分泌腫瘤 (multiple endocrine neoplasia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Larotrectinib
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast ca
 
 </div>
 
-## Larotrectinib：從 NTRK 融合陽性實體腫瘤到多發性內分泌腫瘤
+## Larotrectinib: 多發性內分泌腫瘤 (multiple endocrine neoplasia)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neo
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證資料未載明（依藥理類別，核准用途為 NTRK 融合陽性實體腫瘤） |
-| 預測新適應症 | 多發性內分泌腫瘤 (Multiple Endocrine Neoplasia) |
-| TxGNN 預測分數 | 99.24% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 多發性內分泌腫瘤 (multiple endocrine neoplasia) |
+| TxGNN 預測分數 | 0.9924 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ---
@@ -141,8 +141,6 @@ TxGNN 的其他高分預測目前證據更弱，建議皆暫緩（Hold）：
 
 - **HER2 陽性乳癌**：僅有前臨床研究（使用 entrectinib 與 pacritinib，並非 larotrectinib）及一例分泌型乳癌個案報告，該癌種屬 ETV6-NTRK3 融合驅動，與 HER2 陽性疾病不同。
 - **乳癌其他亞型（管腔 A/B 型等）**：文獻多為 NTRK 融合癌症的一般性回顧，缺乏亞型特異證據；NTRK 融合在這些亞型中罕見，需以生物標記篩選。
-- **血小板低下症**：無治療機轉依據，較可能是不良事件或血液學背景現象。
-- **巨細胞病毒感染、惡性卡他熱、牛傳染性鼻氣管炎**：無機轉依據，後兩者為獸醫疾病，可能為知識圖譜的人為產物。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

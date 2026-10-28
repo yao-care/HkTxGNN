@@ -6,9 +6,9 @@ nav_order: 936
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Vinblastine：預測新適應症為橫紋肌肉瘤 (Rhabdomyosarcoma)（證據等級 L3）。原適應症：蕈樣肉芽腫、皮膚 T 細胞淋巴瘤、霍奇金氏淋巴瘤、非霍奇金氏淋巴瘤、外套細胞淋巴瘤、蘭格漢斯細胞組織球增生症"
 monitor_inn: "Vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
+description: "Vinblastine：預測新適應症為Rhabdomyosarcoma (disease)（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Vinblastine
@@ -33,7 +33,7 @@ predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal r
 
 </div>
 
-## Vinblastine：從霍奇金氏淋巴瘤等血液與皮膚淋巴系統惡性腫瘤到橫紋肌肉瘤
+## Vinblastine: Rhabdomyosarcoma (disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**橫紋肌肉瘤 (Rhabdomyosarcoma)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 蕈樣肉芽腫、皮膚 T 細胞淋巴瘤、霍奇金氏淋巴瘤、非霍奇金氏淋巴瘤、外套細胞淋巴瘤、蘭格漢斯細胞組織球增生症（依知識圖譜適應症資料；香港許可證未載明適應症文字） |
-| 預測新適應症 | 橫紋肌肉瘤 (Rhabdomyosarcoma) |
-| TxGNN 預測分數 | 99.86% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Rhabdomyosarcoma (disease) |
+| TxGNN 預測分數 | 0.9986 |
 | 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold（列為研究性問題，待補充證據） |
 
 ---
@@ -102,7 +102,6 @@ TxGNN 模型預測它可能對**橫紋肌肉瘤 (Rhabdomyosarcoma)** 有效，
 | 項目 | 內容 |
 |------|------|
 | 細胞毒性分類 | 傳統細胞毒性藥物（長春花生物鹼類、抗微管藥物） |
-| 骨髓抑制風險 | 高（知識圖譜標示嗜中性白血球低下、血小板低下、顆粒球缺乏症為相關風險） |
 | 致吐性分級 | 請參考原廠仿單 |
 | 監測項目 | CBC（含分類）、肝功能（含膽紅素）、周邊神經症狀 |
 | 處置防護 | 需依細胞毒性藥物處置規範操作 |

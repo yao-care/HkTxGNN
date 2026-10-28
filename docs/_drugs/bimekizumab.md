@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Bimekizumab
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 122
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Bimekizumab：預測新適應症為糖尿病性白內障 (Diabetic Cataract)（證據等級 L5）。原適應症：本次整理的資料中未載明"
+description: "Bimekizumab: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Bimekizumab"
-predicted_indications: ["diabetic cataract", "mature cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "immature cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "antithrombin deficiency type 2"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Bimekizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,52 +35,16 @@ predicted_indications: ["diabetic cataract", "mature cataract", "craniostenosis 
 
 </div>
 
-## Bimekizumab：從（原適應症未載明）到糖尿病性白內障
+## Bimekizumab
 {: .text-alpha }
-
-## 一句話總結
-
-Bimekizumab 是一種單株抗體，可選擇性中和 IL-17A、IL-17F 與 IL-17AF，在香港已有上市許可證。
-TxGNN 模型預測它可能對**糖尿病性白內障 (Diabetic Cataract)** 有效，
-但目前**沒有任何臨床試驗或文獻**支持這個方向，僅屬模型的計算預測。
-
----
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 本次整理的資料中未載明 |
-| 預測新適應症 | 糖尿病性白內障 (Diabetic Cataract) |
-| TxGNN 預測分數 | 98.23% |
-| 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
-| 建議決策 | Hold |
-
----
-
-## 為什麼這個預測合理？
-
-目前缺乏詳細的作用機轉資料（原始 MOA 欄位未收錄）。根據已知資訊，Bimekizumab 是一種單株抗體，可中和 IL-17A、IL-17F 與 IL-17AF 這些促發炎細胞介素。
-
-糖尿病性白內障主要由多元醇途徑（polyol pathway）活化，以及水晶體內的滲透壓與氧化壓力所驅動。目前**沒有文獻記載** IL-17 阻斷與此病程之間的機轉連結。第二型糖尿病雖然伴隨慢性低度發炎，IL-17 在其中可能有部分角色，但它與水晶體混濁的關係尚未確立。
-
-因此，這個預測目前僅反映知識圖譜的相似度，機轉合理性無法驗證，也沒有任何臨床或文獻證據支持。
-
-其他同樣高分的預測（成熟性、未成熟性、皮質性、核性、老年性白內障等各型白內障，以及第 2 型抗凝血酶缺乏症）也都屬於同樣情況：只有計算預測，沒有可辨識的機轉依據或研究支持。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
----
-
-## 文獻證據
-
-目前無相關文獻。
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 
 ---
 
@@ -99,20 +65,6 @@ TxGNN 模型預測它可能對**糖尿病性白內障 (Diabetic Cataract)** 有�
 
 ---
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 預測僅來自模型分數，沒有任何臨床試驗或文獻佐證（證據等級 L5）。
-- IL-17 阻斷與白內障形成的機轉缺乏已知連結，且作用機轉與安全性資料都有缺口。
-
-**若要推進需要：**
-- 補齊 DrugBank 的作用機轉資料，並重新評估機轉連結。
-- 取得香港衛生署的仿單，確認原核准適應症、警語與禁忌症。
-- 進行前臨床研究（例如糖尿病水晶體模型中的 IL-17 訊號角色），建立最基本的生物學依據。
-- 評估給藥途徑的相容性：目前是皮下注射的預充填筆，而白內障多屬眼部局部疾病，需要確認是否可行。
-- 在上述缺口補齊之前，不建議投入進一步的臨床開發資源。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

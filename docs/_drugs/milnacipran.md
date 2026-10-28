@@ -4,17 +4,17 @@ title: Milnacipran
 parent: 中證據等級 (L3-L4)
 nav_order: 587
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Milnacipran：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L3）。原適應症：纖維肌痛症、肌筋膜疼痛症候群"
 monitor_inn: "Milnacipran"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "tendinitis", "papillary conjunctivitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "atrophoderma vermiculata", "migraine with or without aura, susceptibility to", "cauda equina syndrome"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "tendinitis", "papillary conjunctivitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "atrophoderma vermiculata", "cauda equina syndrome"]
+description: "Milnacipran：預測新適應症為偏頭痛 (migraine disorder)（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Milnacipran
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+證據等級: **L3** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "te
 
 </div>
 
-## Milnacipran：從纖維肌痛症到偏頭痛
+## Milnacipran: 偏頭痛 (migraine disorder)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 纖維肌痛症、肌筋膜疼痛症候群（來自知識圖譜；香港許可證未載明核准適應症文字） |
-| 預測新適應症 | 偏頭痛 (Migraine Disorder) |
-| TxGNN 預測分數 | 99.91% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 偏頭痛 (migraine disorder) |
+| TxGNN 預測分數 | 0.9991 |
 | 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold（列為研究問題，需更強證據後再推進） |
 
 ## 為什麼這個預測合理？

@@ -4,7 +4,7 @@ title: Nitroglycerin
 parent: 中證據等級 (L3-L4)
 nav_order: 625
 evidence_level: L3
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Nitroglycerin：預測新適應症為肺動脈高壓 (Pulmonary Hypertension)（證據等級 L3）。原適應症：香港許可證資料未載明核准適應症"
 monitor_inn: "nitroglycerin"
@@ -14,7 +14,7 @@ predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease"
 # Nitroglycerin
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **5** 個
+證據等級: **L3** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有�
 |------|------|
 | 原適應症 | 香港許可證資料未載明核准適應症 |
 | 預測新適應症 | 肺動脈高壓 (Pulmonary Hypertension) |
-| TxGNN 預測分數 | 99.61% |
+| TxGNN 預測分數 | 0.9961 |
 | 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 8 張 |
+| 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
+| 許可證數 | 8 張（有效 8 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---
@@ -137,10 +137,9 @@ TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有�
 
 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
 |-----------|-----------|---------|------|
-| 後側彎性心臟病 (Kyphoscoliotic heart disease) | 99.42% | L5 | Hold：僅有模型預測，且可能惡化 V/Q 匹配 |
-| 變異型心絞痛 (Prinzmetal angina) | 99.39% | L4 | Research Question：臨床上已屬既有用法，並非典型再利用 |
-| 原發性遺傳性青光眼 | 99.16% | L5 | Hold：機轉依據薄弱，無試驗或文獻 |
-| 先天性稀毛症伴粟丘疹 | 99.02% | L5 | Hold：無明確機轉連結，不建議推進 |
+| 後側彎性心臟病 (Kyphoscoliotic heart disease) | 0.9942 | L5 | Hold：僅有模型預測，且可能惡化 V/Q 匹配 |
+| 原發性遺傳性青光眼 | 0.9916 | L5 | Hold：機轉依據薄弱，無試驗或文獻 |
+| 先天性稀毛症伴粟丘疹 | 0.9902 | L5 | Hold：無明確機轉連結，不建議推進 |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

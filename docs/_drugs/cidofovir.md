@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 196
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "CIDOFOVIR"
 predicted_indications: ["sclerosing cholangitis", "rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
-description: "Cidofovir：預測新適應症為硬化性膽管炎 (Sclerosing Cholangitis)（證據等級 L5）."
+description: "Cidofovir：預測新適應症為硬化性膽管炎 (sclerosing cholangitis)（證據等級 L5）."
 ---
 
 # Cidofovir
@@ -33,7 +33,7 @@ description: "Cidofovir：預測新適應症為硬化性膽管炎 (Sclerosing Ch
 
 </div>
 
-## Cidofovir：從（原適應症資料未提供）到硬化性膽管炎
+## Cidofovir: 硬化性膽管炎 (sclerosing cholangitis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,11 +47,11 @@ TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** �
 
 | 項目 | 內容 |
 |------|------|
-| 預測新適應症 | 硬化性膽管炎 (Sclerosing Cholangitis) |
-| TxGNN 預測分數 | 99.94% |
+| 預測新適應症 | 硬化性膽管炎 (sclerosing cholangitis) |
+| TxGNN 預測分數 | 0.9994 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -64,8 +64,8 @@ TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** �
 
 其他排名較高的預測同樣缺乏支持：
 
-- **類風濕性關節炎（分數 99.82%，L4）**：檢索到的 5 篇文獻並未顯示 cidofovir 對類風濕性關節炎有效。它們談的是移植後 CMV 感染（使用 leflunomide）、藥物的視網膜毒性與疣，關聯很可能只是因 leflunomide 同時出現而造成的共現假象。
-- **Colobomatous microphthalmia-rhizomelic dysplasia syndrome（99.62%，L5）** 與 **Brachydactyly-syndactyly syndrome（99.49%，L5）**：均為罕見的先天發育異常，抗病毒藥物沒有合理的作用機制，很可能是網路預測的假象。
+- **類風濕性關節炎（分數 0.9982，L4）**：檢索到的 5 篇文獻並未顯示 cidofovir 對類風濕性關節炎有效。它們談的是移植後 CMV 感染（使用 leflunomide）、藥物的視網膜毒性與疣，關聯很可能只是因 leflunomide 同時出現而造成的共現假象。
+- **Colobomatous microphthalmia-rhizomelic dysplasia syndrome（0.9962，L5）** 與 **Brachydactyly-syndactyly syndrome（0.9949，L5）**：均為罕見的先天發育異常，抗病毒藥物沒有合理的作用機制，很可能是網路預測的假象。
 
 ---
 

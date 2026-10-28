@@ -4,17 +4,17 @@ title: Phenobarbital
 parent: 僅模型預測 (L5)
 nav_order: 688
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Phenobarbital：預測新適應症為三叉神經腫瘤 (Trigeminal Nerve Neoplasm)（證據等級 L5）。原適應症：癲癇、局部性癲癇、偏頭痛、Lennox-Gastaut 症候群等"
+indication_count: 3
 monitor_inn: "PHENOBARBITAL"
-predicted_indications: ["trigeminal nerve neoplasm"]
+predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+last_modified_at: 2026-10-23
+description: "Phenobarbital：預測新適應症為三叉神經腫瘤 (Trigeminal Nerve Neoplasm)（證據等級 L5）。原適應症：香港許可證未載明核准適應症文字"
 ---
 
 # Phenobarbital
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,39 +38,28 @@ predicted_indications: ["trigeminal nerve neoplasm"]
 
 ## 一句話總結
 
-Phenobarbital（苯巴比妥）是長期使用的巴比妥類抗癲癇藥，原本用於癲癇、偏頭痛等神經系統疾病。
-TxGNN 模型預測它可能對**三叉神經腫瘤 (Trigeminal Nerve Neoplasm)** 有效，但目前**沒有臨床試驗**，只有 **1 篇**關聯性很低的文獻，實質上僅有模型預測。
+Phenobarbital（苯巴比妥）是長期使用的巴比妥類抗癲癇藥，知識圖譜中記錄的相關用途以癲癇與偏頭痛類疾病為主。
+TxGNN 模型預測它可能對**三叉神經腫瘤 (Trigeminal Nerve Neoplasm)** 有效，但目前**沒有任何臨床試驗**，僅有 **1 篇**不直接相關的文獻（Sturge-Weber 症候群病例系列），證據非常薄弱。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 癲癇、局部性癲癇、偏頭痛、Lennox-Gastaut 症候群等（許可證未載明適應症文字，此為知識圖譜資料） |
+| 原適應症 | 香港許可證未載明核准適應症文字；知識圖譜中記錄的相關疾病包括癲癇、偏頭痛、Lennox-Gastaut 症候群等 |
 | 預測新適應症 | 三叉神經腫瘤 (Trigeminal Nerve Neoplasm) |
-| TxGNN 預測分數 | 99.96% |
+| TxGNN 預測分數 | 0.9996 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold |
-
-> 備註：排名第 2–5 的預測（進食性癲癇、聽源性癲癇、性高潮誘發癲癇、思考性癲癇）本質上是既有癲癇適應症的延伸，詳見下方補充說明。
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Phenobarbital 是 GABA-A 受體正向異構調節劑，具抗痙攣與鎮靜作用，在癲癇治療中的療效已被證實。
+目前缺乏詳細的作用機轉資料。一般已知 Phenobarbital 是 GABA-A 受體的正向異位調節劑，可增強抑制性神經傳導、抑制神經元過度興奮，因此用於癲癇控制。
 
-然而，它**沒有已知的抗腫瘤活性**。TxGNN 的高分（99.96%）很可能來自知識圖譜中與神經、癲癇相關節點的距離相近，而非真正的藥理依據。唯一檢索到的文獻討論的是 Sturge-Weber 症候群（一種神經皮膚血管疾病），並非三叉神經腫瘤。
+然而，這種機轉與抗腫瘤作用沒有已知的關聯。Phenobarbital 對三叉神經腫瘤沒有已知的抗腫瘤活性。唯一檢索到的文獻談的是 Sturge-Weber 症候群（一種伴隨癲癇的神經皮膚血管疾病），並非腫瘤。因此這個高分預測的分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。最多只能推測它可用於處理腫瘤相關癲癇，屬於症狀控制，並非治療腫瘤本身。
 
-即使對腫瘤患者有幫助，也僅限於控制伴隨的癲癇發作（症狀控制），不構成針對腫瘤本身的再利用適應症。
-
-### 補充：其他預測適應症
-
-| 預測適應症 | 分數 | 證據等級 | 評估 |
-|-----------|------|---------|------|
-| 進食性癲癇 (Eating seizures) | 99.96% | L4 | 反射性癲癇，機轉合理，但僅有個案報告，屬既有癲癇適應症的延伸 |
-| 聽源性癲癇 (Audiogenic seizures) | 99.96% | L4 | 以嚙齒類動物模型為主，無人體臨床試驗；有文獻顯示早期暴露巴比妥類可能增加日後發作易感性，屬安全訊號 |
-| 性高潮誘發癲癇 (Orgasm-induced seizures) | 99.96% | L5 | 僅有模型預測，無試驗與文獻 |
-| 思考性癲癇 (Thinking seizures) | 99.96% | L4 | 文獻僅支持一般抗癲癇角色，未直接探討此適應症；新生兒期暴露的神經發育安全疑慮亦有提及 |
+另外兩個預測（三叉神經痛、β-酮硫解酶缺乏症）同樣缺乏直接證據：前者的文獻多半在談 carbamazepine，後者則沒有任何研究。
 
 ## 臨床試驗證據
 
@@ -80,7 +69,7 @@ TxGNN 模型預測它可能對**三叉神經腫瘤 (Trigeminal Nerve Neoplasm)**
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Case series | Anales espanoles de pediatria | 回顧 14 例 Sturge-Weber 症候群的臨床特徵、病程與治療反應；主題為神經皮膚血管疾病，與三叉神經腫瘤無直接關聯 |
+| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | 病例系列 | Anales espanoles de pediatria | 回顧 14 例 Sturge-Weber 症候群的臨床特徵與治療反應；該病不是腫瘤，與預測疾病無直接關聯 |
 
 ## 香港上市資訊
 
@@ -93,35 +82,25 @@ TxGNN 模型預測它可能對**三叉神經腫瘤 (Trigeminal Nerve Neoplasm)**
 
 ## 安全性考量
 
-- **知識圖譜中標示的禁忌疾病**（來自藥物－疾病關聯，非仿單原文）：
-  - 肝臟：肝衰竭、肝病
-  - 代謝／血液：遺傳性紫質症（卟啉症）、血小板低下、高血糖、甲狀腺功能低下
-  - 呼吸：慢性阻塞性肺病 (COPD)
-  - 腎臟、膽囊疾病
-  - 腸胃：消化性潰瘍、胃炎
-  - 免疫：系統性紅斑性狼瘡
-  - 精神：精神疾病、焦慮症、失眠
-  - 心血管：高血壓
-- **藥物交互作用**（共 100 筆，以下為部分高風險項目）：
-  - **重大 (Major)**：Morphine、Morphine (liposomal)、Eliglustat、Naldemedine、Naloxegol、Rolapitant
-  - **中度 (Moderate)**：Doxycycline、Hydrocortisone、Dexamethasone、Prednisone、Metronidazole、Bupropion、Pioglitazone 等
-- **文獻中的安全訊號**：新生兒或早期暴露於 Phenobarbital，動物研究顯示可能造成神經元凋亡、學習與感覺運動功能受損，以及日後聽源性發作易感性改變。
+- **知識圖譜中記錄的禁忌關聯（非仿單內容）**：高血壓、肝衰竭／肝病、慢性阻塞性肺病、卟啉症、腎臟病、血小板低下、高血糖、甲狀腺功能低下、消化性潰瘍、全身性紅斑狼瘡、精神疾病等。
+- **藥物交互作用**（共查得 100 筆，以下為部分）：
+  - 嚴重 (Major)：Morphine、Morphine（脂質體）、Eliglustat、Naldemedine、Naloxegol、Rolapitant
+  - 中度 (Moderate)：Doxycycline、Hydrocortisone、Dexamethasone、Prednisone、Pioglitazone、Bupropion、Aprepitant、Metronidazole 等
 
-其餘警語與禁忌症請參考原廠仿單。
+詳細警語與禁忌請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 排名第 1 的預測（三叉神經腫瘤）缺乏任何機轉依據，也沒有臨床試驗，高分很可能是圖譜鄰近性造成的假象，證據等級僅 L5。
-- 其餘預測多為癲癇適應症的延伸，並非真正的新適應症，且證據多為動物研究或個案報告，無法支持正式推進。
+- 預測分數雖高，但屬於網絡推論；沒有臨床試驗，也沒有直接研究三叉神經腫瘤的文獻，且機轉上無合理的抗腫瘤依據，證據等級僅為 L5。
 
 **若要推進需要：**
-- 取得完整作用機轉資料，並評估與腫瘤相關的任何生物學連結
-- 取得香港衛生署仿單的警語與禁忌症，完成安全性篩選
-- 若關注反射性癲癇，需設計針對性的人體臨床研究，並與既有癲癇適應症區分
-- 評估早期暴露的神經發育風險與主要藥物交互作用（尤其是鴉片類藥物）的管理方案
+- 取得直接探討 Phenobarbital 與三叉神經腫瘤的研究證據
+- 補充作用機轉資料，並評估是否僅能作為腫瘤相關癲癇的症狀處理
+- 取得香港許可證的核准適應症與仿單警語、禁忌
+- 若轉向「三叉神經痛」，需有 Phenobarbital 專屬的對照研究，並與 carbamazepine 等既有選擇比較，同時評估其酵素誘導造成的交互作用與鎮靜、依賴風險
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

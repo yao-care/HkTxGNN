@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clotrimazole
-parent: 僅模型預測 (L5)
+parent: 中證據等級 (L3-L4)
 nav_order: 221
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Clotrimazole：預測新適應症為痤瘡 (Acne)（證據等級 L5）。原適應症：足癬、體癬、皮膚念珠菌症、花斑癬、口腔念珠菌症、外陰陰道念珠菌症等"
 monitor_inn: "CLOTRIMAZOLE"
 predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
+description: "Clotrimazole：預測新適應症為痤瘡 (acne (disease))（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Clotrimazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+證據等級: **L4** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atro
 
 </div>
 
-## Clotrimazole：從皮膚與黏膜黴菌感染到外陰陰道炎
+## Clotrimazole: 痤瘡 (acne (disease))
 {: .text-alpha }
 
 ## 一句話總結
@@ -50,11 +50,11 @@ TxGNN 模型預測排名第一的新適應症為**痤瘡 (acne)**，但目前僅
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 足癬、體癬、皮膚念珠菌症、花斑癬、口腔念珠菌症、外陰陰道念珠菌症等（取自知識圖譜；許可證資料未載明核准適應症文字） |
-| 預測新適應症 | 痤瘡 (Acne) |
-| TxGNN 預測分數 | 99.86% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 痤瘡 (acne (disease)) |
+| TxGNN 預測分數 | 0.9986 |
 | 證據等級 | L4（痤瘡）；外陰陰道炎為 L1 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold（痤瘡）；外陰陰道炎為 Proceed with Guardrails |
 

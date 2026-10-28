@@ -4,17 +4,17 @@ title: Gadobenic Acid
 parent: 僅模型預測 (L5)
 nav_order: 406
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Gadobenic Acid：預測新適應症為退化性關節炎 (Osteoarthritis)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Gadobenic acid"
-predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheumatoid arthritis", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia-amelogenesis imperfecta syndrome", "benign prostatic hyperplasia (disease)", "myosclerosis", "alopecia"]
+predicted_indications: ["osteoarthritis"]
 ---
 
 # Gadobenic Acid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**退化性關節炎 (Osteoarthritis)** 有效，�
 |------|------|
 | 原適應症 | 資料未載明（香港許可證未列出核准適應症文字） |
 | 預測新適應症 | 退化性關節炎 (Osteoarthritis) |
-| TxGNN 預測分數 | 99.21% |
+| TxGNN 預測分數 | 0.9921 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -61,11 +61,10 @@ TxGNN 模型預測它可能對**退化性關節炎 (Osteoarthritis)** 有效，�
 
 目前缺乏詳細的作用機轉資料。Gadobenic acid 是釓類磁振造影（MRI）顯影劑，用途是增強影像對比，本身沒有已知的治療性藥理作用。
 
-退化性關節炎與此藥的關聯，較可能來自知識圖譜中的鄰近關係：釓類顯影劑常用於關節影像檢查（如 MR 關節攝影），這屬於**診斷用途，並非治療**。因此 0.992 的高分應視為圖譜關聯的結果，而不是藥理上的支持。
+退化性關節炎與此藥的關聯分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。釓類顯影劑常用於關節影像檢查（如 MR 關節攝影），這屬於**診斷用途，並非治療**。因此 0.9921 的高分不應視為藥理上的支持。
 
 此外，釓類顯影劑有已知的安全疑慮（如腎因性系統性纖維化、組織釓滯留），不利於作為治療藥物使用。
 
-其他預測的適應症（類風濕性關節炎、各類骨骼發育不良、良性攝護腺肥大、肌硬化症、禿髮等）同樣沒有機轉依據，也沒有任何臨床試驗或文獻，皆為僅有模型預測、建議 Hold 的項目。
 
 ---
 

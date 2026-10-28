@@ -6,9 +6,9 @@ nav_order: 641
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Olmesartan：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：本次資料中香港許可證未載明核准適應症"
 monitor_inn: "olmesartan"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
+description: "Olmesartan：預測新適應症為Prinzmetal angina（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Olmesartan
@@ -33,14 +33,14 @@ predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp
 
 </div>
 
-## Olmesartan：從高血壓到偏頭痛
+## Olmesartan: Prinzmetal angina
 {: .text-alpha }
 
 ## 一句話總結
 
 Olmesartan 是一種血管收縮素 II 第一型受體（AT1）拮抗劑，在香港已有 20 張有效許可證。
 TxGNN 模型的預測中，證據最完整的方向是**偏頭痛 (Migraine Disorder)**，目前有 **3 篇文獻**（無已登記的臨床試驗），證據等級為 L3。
-預測分數最高的是變異型心絞痛（Prinzmetal angina，99.84%），但目前沒有任何試驗或文獻支持，僅屬模型預測。
+預測分數最高的是變異型心絞痛（Prinzmetal angina，0.9984），但目前沒有任何試驗或文獻支持，僅屬模型預測。
 
 ---
 
@@ -48,11 +48,11 @@ TxGNN 模型的預測中，證據最完整的方向是**偏頭痛 (Migraine Diso
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 本次資料中香港許可證未載明核准適應症 |
-| 預測新適應症 | 偏頭痛 (Migraine Disorder)；為證據最完整的候選（TxGNN 排名第 3） |
-| TxGNN 預測分數 | 99.64%（偏頭痛）；排名第 1 的變異型心絞痛為 99.84% |
-| 證據等級 | L3（偏頭痛）；變異型心絞痛僅 L5 |
-| 香港上市 | ✓ 已上市 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Prinzmetal angina |
+| TxGNN 預測分數 | 0.9984 |
+| 證據等級 | L5（偏頭痛）；變異型心絞痛僅 L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold（偏頭痛方向可列為研究問題，需進一步驗證） |
 
@@ -68,7 +68,7 @@ TxGNN 模型的預測中，證據最完整的方向是**偏頭痛 (Migraine Diso
 
 **肺高壓：** 血管收縮素 II 經由 AT1 受體參與肺血管重塑與收縮。大鼠 monocrotaline 模型與慢性缺氧模型等前臨床研究支持此機轉，但尚無人體療效資料。
 
-**其他候選：** 開角型青光眼有 RAS 存在於眼組織的合理推測，但僅有一篇與 olmesartan 無直接關聯的一般性回顧。毛髮相關疾病（頭皮單純性毛髮稀少症、先天性毛髮稀少伴粟丘疹、禿髮、瀰漫性斑禿）看不出與 AT1 阻斷有明確機轉關聯，高分可能反映知識圖譜的網路鄰近性，而非生物學因果。
+**其他候選：** 開角型青光眼有 RAS 存在於眼組織的合理推測，但僅有一篇與 olmesartan 無直接關聯的一般性回顧。
 
 ---
 

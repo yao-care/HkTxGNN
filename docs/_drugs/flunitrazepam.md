@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Flunitrazepam
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 386
-evidence_level: L3
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Flunitrazepam：預測新適應症為失眠 (Insomnia)（證據等級 L3）。原適應症：資料未提供"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "FLUNITRAZEPAM"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "anxiety", "anxiety disorder"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "anxiety", "anxiety disorder", "alcohol withdrawal delirium", "agoraphobia", "benign paroxysmal torticollis of infancy", "atrophoderma vermiculata"]
+last_modified_at: 2026-10-23
+description: "Flunitrazepam：預測新適應症為偏頭痛（證據等級 L5）。原適應症：香港許可證資料未載明"
 ---
 
 # Flunitrazepam
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "an
 
 </div>
 
-## Flunitrazepam：從失眠到失眠（模型預測與既有用途重疊）
+## Flunitrazepam：偏頭痛的藥物再利用評估
 {: .text-alpha }
 
 ## 一句話總結
 
-Flunitrazepam 是一種苯二氮平類（benzodiazepine）藥物，臨床上主要作為助眠藥與麻醉前鎮靜劑。
-TxGNN 模型預測的首位適應症為**失眠 (Insomnia)**，但這其實是該藥已確立的用途，並非真正的新適應症。
-目前**無臨床試驗登記**，有 **10 篇文獻**支持失眠這個方向。真正屬於「新用途」的預測（偏頭痛、焦慮）證據薄弱。
+Flunitrazepam（氟硝西泮）是苯二氮平類藥物，主要作用於 GABA-A 受體，藥理資料庫列出的臨床用途為嚴重失眠。
+TxGNN 模型預測它可能對**偏頭痛**有效，但目前**沒有任何臨床試驗或文獻**直接研究這個方向，證據僅來自模型預測。
 
 ---
 
@@ -48,25 +47,23 @@ TxGNN 模型預測的首位適應症為**失眠 (Insomnia)**，但這其實是�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未提供（香港許可證未載明核准適應症文字） |
-| 預測新適應症 | 失眠 (Insomnia) |
-| TxGNN 預測分數 | 99.89% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
-| 建議決策 | Proceed with Guardrails |
-
-其他預測適應症：偏頭痛（99.71%，L5，Hold）、伴腦幹先兆的偏頭痛（99.63%，L5，Hold）、焦慮（99.63%，L4）、焦慮症（99.58%，L4）。
+| 原適應症 | 香港許可證資料未載明（藥理資料庫列為嚴重失眠，非許可證文字） |
+| 預測新適應症 | 偏頭痛 |
+| TxGNN 預測分數 | 0.9971 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
+| 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫未收錄）。根據藥理學資料，Flunitrazepam 作用於 GABA-A 受體 α1、α2、α3、α5 亞單位，屬於正向異構調節劑，可增強抑制性神經傳導，促進鎮靜與入睡。
+目前缺乏詳細的作用機轉資料。已知 Flunitrazepam 是 GABA-A 受體的正向異位調節劑，藥理資料顯示它與 GABA-A 受體 α1、α2、α3、α5 亞單位結合。
 
-這與助眠用途直接吻合。需特別說明：失眠本來就是此藥在許多國家的既有用途，因此這個預測**不是真正的藥物再利用訊號**，而是模型重現了已知知識。
+理論上，增強 GABA 抑制性傳導可能影響大腦皮質的過度興奮，這是偏頭痛的病理機轉之一，因此模型給出高分。但這只是推測：苯二氮平類並非公認的偏頭痛治療藥物，且有依賴與濫用風險。
 
-至於焦慮，GABA-A 調節確實是苯二氮平類抗焦慮作用的基礎，機轉上合理；但已有許多苯二氮平類藥物獲准用於焦慮，Flunitrazepam 的濫用與依賴風險較高，相較之下缺乏優勢。偏頭痛的預測僅來自模型，沒有任何文獻佐證，且苯二氮平類並不建議用於偏頭痛。
+此外，TxGNN 模型（深度學習）也給出了偏頭痛相關疾病（如伴腦幹先兆的偏頭痛、嬰兒良性陣發性斜頸）高分。這些分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
 ---
 
@@ -78,62 +75,50 @@ TxGNN 模型預測的首位適應症為**失眠 (Insomnia)**，但這其實是�
 
 ## 文獻證據
 
-以下為失眠方向的文獻（依類型排序，最多 10 篇）：
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [8519370](https://pubmed.ncbi.nlm.nih.gov/8519370/) | 1993 | 臨床比較研究 | Eur Respir J | 比較 zolpidem、triazolam、flunitrazepam 對重度 COPD 患者血氣與呼吸控制的影響 |
-| [430730](https://pubmed.ncbi.nlm.nih.gov/430730/) | 1979 | 臨床研究 | JAMA | 停用 flunitrazepam、nitrazepam、triazolam 後出現反彈性失眠 |
-| [20171127](https://pubmed.ncbi.nlm.nih.gov/20171127/) | 2010 | 臨床研究 | Sleep Med Rev | 助眠藥影響身體平衡與站立穩定度，增加跌倒與髖部骨折風險 |
-| [40195](https://pubmed.ncbi.nlm.nih.gov/40195/) | 1979 | 臨床研究 | Nouv Presse Med | 探討 flunitrazepam 對器質性與功能性睡眠障礙的作用 |
-| [6114852](https://pubmed.ncbi.nlm.nih.gov/6114852/) | 1981 | Review | Drugs | Triazolam 的藥理與療效回顧，並與 flunitrazepam 等長效藥比較 |
-| [2883822](https://pubmed.ncbi.nlm.nih.gov/2883822/) | 1986 | Review | Acta Psychiatr Scand Suppl | 老年人對苯二氮平類的反應增強約 2–3 倍，且無法單純以血中濃度解釋 |
-| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Review | Acta Psychiatr Scand Suppl | 助眠藥的臨床使用適應症與多樣化選擇的必要性 |
-| [14722706](https://pubmed.ncbi.nlm.nih.gov/14722706/) | 2004 | 動物前臨床 | Psychopharmacology | 在睡眠障礙大鼠模型中比較三種助眠藥對睡眠-清醒週期的影響 |
-
-另有 2 篇與主題關聯較低的文獻（植物萃取物動物研究、良性復發性肝內膽汁淤積個案報告）已略去。
+目前無相關文獻。
 
 ---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-56628 | FLUNITA TAB 1MG | 錠劑 | 未載明 |
-| HK-34683 | FLUNITA TAB 2MG | 錠劑 | 未載明 |
-| HK-12370 | ROHYPNOL TAB 1MG | 錠劑 | 未載明 |
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-56628 | FLUNITA TAB 1MG | JEAN-MARIE PHARMACAL CO LTD |
+| HK-34683 | FLUNITA TAB 2MG | JEAN-MARIE PHARMACAL CO LTD |
+| HK-12370 | ROHYPNOL TAB 1MG | DKSH HONG KONG LIMITED |
+
+三張許可證在本報告彙整的資料中，劑型與核准適應症欄位皆為空白，請以原廠仿單為準。
 
 ---
 
 ## 安全性考量
 
-- **藥物交互作用／藥理標靶**：主要作用於 GABA-A 受體 α1、α2、α3、α5 亞單位。已整理的資料中未列出具體的藥物對藥物交互作用。
-- **文獻提示的風險**：
-  - 停藥後反彈性失眠
-  - 平衡與姿勢穩定度受損，增加跌倒風險
-  - 呼吸抑制（尤其是 COPD 患者）
-  - 耐受性與依賴性
-  - 高濫用潛力，曾有被用於藥物助長犯罪（「約會強暴藥」）的報告
-  - 記憶損害（順行性失憶）與駕駛能力受損
-  - 少數個案出現矛盾反應（激動、攻擊行為）
+- **藥理作用靶點**：與 GABA-A 受體 α1、α2、α3、α5 亞單位結合。這是靶點資料，不是藥物交互作用清單。
+- **文獻中反覆出現的風險（來自其他適應症的檢索結果）**：
+  - 濫用與依賴風險，並有被用作迷姦藥物的報告。
+  - 劑量相關的記憶與精神動作功能受損、順行性失憶。
+  - 與酒精併用有加成效應。
+  - 可能出現躁動、攻擊等矛盾反應。
 
-其餘警語與禁忌症請參考原廠仿單。
+其餘警語、禁忌症與藥物交互作用，請參考原廠仿單。
 
 ---
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-- 失眠是 Flunitrazepam 的既有用途，有多篇臨床研究與回顧支持（證據等級 L3），且香港已有 3 張有效許可證。但這不構成新的再利用機會。
-- 真正的新適應症（偏頭痛、焦慮）僅有模型預測或間接文獻，且存在依賴與濫用風險，不建議推進（偏頭痛為 Hold；焦慮列為研究問題）。
+- 偏頭痛沒有任何臨床試驗或文獻支持，只有模型分數，屬於 L5。
+- 苯二氮平類在偏頭痛中缺乏地位，而 Flunitrazepam 的濫用與依賴風險明顯，效益風險比不佳。
 
 **若要推進需要：**
-- 取得香港衛生署核准仿單，確認核准適應症、警語與禁忌症
-- 補充詳細作用機轉資料
-- 若關注焦慮用途，需與已獲准的其他苯二氮平類進行比較，並提供隨機對照試驗證據
-- 建立使用管控措施（處方限制、療程長度、老年與呼吸疾病患者的監測、濫用防範）
+- 系統性檢索 GABA-A 調節劑用於偏頭痛的臨床與前臨床研究，確認是否存在直接證據。
+- 取得完整的作用機轉資料，並釐清偏頭痛病理與 GABA 傳導的關聯。
+- 取得香港仿單中的警語、禁忌症與原核准適應症。
+- 與已有成熟證據的偏頭痛治療相比，評估是否有任何差異化價值。
+
+**補充觀察：** 同批預測中，「酒精戒斷譫妄」有靜脈注射 Flunitrazepam 的臨床報告（如 PMID 8214408），但多為早期開放性或初步研究，且已有地西泮、勞拉西泮等替代藥物。若要優先評估其他方向，可從此處著手，但那是另一份獨立評估。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

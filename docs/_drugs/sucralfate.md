@@ -6,9 +6,9 @@ nav_order: 836
 evidence_level: L2
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Sucralfate：預測新適應症為十二指腸胃逆流 (Duodenogastric Reflux)（證據等級 L2）。原適應症：十二指腸潰瘍"
 monitor_inn: "SUCRALFATE"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
+description: "Sucralfate：預測新適應症為十二指腸胃逆流 (duodenogastric reflux)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Sucralfate
@@ -33,7 +33,7 @@ predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 
 </div>
 
-## Sucralfate：從十二指腸潰瘍到十二指腸胃逆流
+## Sucralfate: 十二指腸胃逆流 (duodenogastric reflux)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**十二指腸胃逆流 (Duodenogastric Reflux)** 
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 十二指腸潰瘍（香港許可證未提供適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 十二指腸胃逆流 (Duodenogastric Reflux) |
-| TxGNN 預測分數 | 99.37% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 十二指腸胃逆流 (duodenogastric reflux) |
+| TxGNN 預測分數 | 0.9937 |
 | 證據等級 | L2 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 5 張 |
+| 香港上市 | 上市中（有效許可證 5 張／共 5 張） |
+| 許可證數 | 5 張（有效 5 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---
@@ -131,7 +131,7 @@ TxGNN 模型預測它可能對**十二指腸胃逆流 (Duodenogastric Reflux)** 
 
 ---
 
-**附註：** 第二名預測「十二指腸阻塞 (Duodenal Obstruction)」（TxGNN 分數 99.30%）未發現明確機轉關聯，也沒有評估 sucralfate 用於該疾病的文獻，證據等級為 L5，建議 **Hold**，不納入本次推進。
+**附註：** 第二名預測「十二指腸阻塞 (Duodenal Obstruction)」（TxGNN 分數 0.9930）未發現明確機轉關聯，也沒有評估 sucralfate 用於該疾病的文獻，證據等級為 L5，建議 **Hold**，不納入本次推進。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

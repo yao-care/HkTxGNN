@@ -4,17 +4,17 @@ title: Pemigatinib
 parent: 僅模型預測 (L5)
 nav_order: 675
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Pemigatinib：預測新適應症為多發性內分泌腫瘤 (Multiple Endocrine Neoplasia)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Pemigatinib"
-predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "infectious bovine rhinotracheitis", "malignant catarrh", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "amyotrophic lateral sclerosis, susceptibility to", "axial spondylometaphyseal dysplasia"]
+predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "malignant catarrh", "infectious bovine rhinotracheitis", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "axial spondylometaphyseal dysplasia"]
 ---
 
 # Pemigatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neo
 |------|------|
 | 原適應症 | 資料未載明 |
 | 預測新適應症 | 多發性內分泌腫瘤 (Multiple Endocrine Neoplasia) |
-| TxGNN 預測分數 | 99.71% |
+| TxGNN 預測分數 | 0.9971 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neo
 
 多發性內分泌腫瘤 (MEN) 主要由 MEN1 功能喪失突變與 RET 活化突變所驅動。目前整理的資料中，並未確立 FGFR 路徑與 MEN 之間的直接關聯。因此，這個預測目前僅是計算層面的推論，機轉上的合理性有待進一步驗證。
 
-TxGNN 分數雖然很高（99.71%），但高分不等於有臨床證據，仍需實際研究佐證。
+TxGNN 分數雖然很高（0.9971），但高分不等於有臨床證據，仍需實際研究佐證。
 
 ---
 
@@ -125,7 +125,7 @@ Pemigatinib 為抗腫瘤的標靶藥物（FGFR 抑制劑），非傳統細胞毒
 
 **理由：**
 - 預測的新適應症（多發性內分泌腫瘤）目前沒有任何臨床試驗或文獻支持，證據等級僅為 L5。
-- FGFR 抑制與 MEN 的致病機轉（MEN1、RET）之間缺乏已知的直接連結，高 TxGNN 分數可能只是知識圖譜的推論結果。
+- FGFR 抑制與 MEN 的致病機轉（MEN1、RET）之間缺乏已知的直接連結，高 TxGNN 分數來自 TxGNN 模型（深度學習），可能只反映模型從相關疾病間學到的相似性，並非生物學證據。
 
 **若要推進需要：**
 - 補齊 Pemigatinib 的作用機轉資料與香港核准適應症

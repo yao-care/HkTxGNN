@@ -4,17 +4,17 @@ title: Penciclovir
 parent: 僅模型預測 (L5)
 nav_order: 676
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Penciclovir：預測新適應症為肝片吸蟲症 (Fascioliasis)（證據等級 L5）。原適應症：唇疱疹 (herpes labialis)"
 monitor_inn: "Penciclovir"
-predicted_indications: ["fascioliasis", "cysticercosis", "coenurosis", "intestinal helminthiasis", "malignant pleural mesothelioma", "endomyometritis", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "synovium cancer", "malignant visceral pleura tumor"]
+predicted_indications: ["fascioliasis"]
 ---
 
 # Penciclovir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,31 +47,22 @@ TxGNN 模型預測它可能對**肝片吸蟲症 (Fascioliasis)** 有效，但目
 |------|------|
 | 原適應症 | 唇疱疹 (herpes labialis) |
 | 預測新適應症 | 肝片吸蟲症 (Fascioliasis) |
-| TxGNN 預測分數 | 99.06% |
+| TxGNN 預測分數 | 0.9906 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
 目前缺乏詳細的作用機轉資料。根據已知的藥理知識，Penciclovir 是鳥苷（guanosine）核苷類似物，需先被病毒的胸苷激酶（thymidine kinase）磷酸化，再抑制病毒 DNA 聚合酶，因此對疱疹病毒有選擇性。
 
-肝片吸蟲是一種寄生性吸蟲，沒有類似病毒胸苷激酶的活化途徑，因此 Penciclovir 的作用機轉無法合理延伸到這個疾病。原適應症（病毒感染）與預測新適應症（寄生蟲感染）在生物學上並無明顯關聯，0.99 的分數較可能反映知識圖譜中的網路相似性，而非實際的藥理關係。
+肝片吸蟲是一種寄生性吸蟲，沒有類似病毒胸苷激酶的活化途徑，因此 Penciclovir 的作用機轉無法合理延伸到這個疾病。原適應症（病毒感染）與預測新適應症（寄生蟲感染）在生物學上並無明顯關聯，0.9906 的分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
 **其他預測適應症（同樣僅為計算預測，皆無臨床試驗與文獻，證據等級 L5，建議 Hold）：**
 
 | 排名 | 預測適應症 | TxGNN 分數 | 機轉評估 |
 |------|-----------|-----------|---------|
-| 2 | 囊尾蚴病 (Cysticercosis) | 98.99% | 無可信機轉，絛蟲感染 |
-| 3 | 多頭蚴病 (Coenurosis) | 98.75% | 無可信機轉，無抗寄生蟲活性 |
-| 4 | 腸道蠕蟲病 (Intestinal helminthiasis) | 98.70% | 蠕蟲缺乏病毒 TK；已有成熟驅蟲藥 |
-| 5 | 惡性胸膜間皮瘤 | 98.51% | 僅有 HSV-TK 自殺基因療法的理論連結，需基因遞送 |
-| 6 | 子宮內膜肌層炎 (Endomyometritis) | 98.45% | 多為細菌感染，Penciclovir 無抗菌活性 |
-| 7 | 惡性上皮樣間皮瘤 | 98.40% | 同上，僅為 HSV-TK 理論連結 |
-| 8 | 肉瘤樣間皮瘤 | 98.26% | 同上 |
-| 9 | 滑膜癌 (Synovium cancer) | 98.09% | 無明確機轉，可能源於間皮瘤群集的圖譜鄰近性 |
-| 10 | 惡性臟層胸膜腫瘤 | 98.03% | 與胸膜間皮瘤相關，同樣僅屬推測 |
 
 ## 臨床試驗證據
 

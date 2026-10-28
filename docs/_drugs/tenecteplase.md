@@ -4,17 +4,17 @@ title: Tenecteplase
 parent: 僅模型預測 (L5)
 nav_order: 857
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Tenecteplase：預測新適應症為後下壁心肌梗塞 (Posteroinferior Myocardial Infarction)（證據等級 L5）。原適應症：心肌梗塞、冠狀動脈血栓"
+indication_count: 7
 monitor_inn: "TENECTEPLASE"
-predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis"]
+predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
+last_modified_at: 2026-10-28
+description: "Tenecteplase：預測新適應症為Congenital coronary artery anomaly（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Tenecteplase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,82 +33,99 @@ predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis
 
 </div>
 
-## Tenecteplase：從心肌梗塞到後下壁心肌梗塞
+## Tenecteplase: Congenital coronary artery anomaly
 {: .text-alpha }
 
 ## 一句話總結
 
-Tenecteplase 是一種纖維蛋白專一性的組織型纖溶酶原活化劑，原本用於急性心肌梗塞的溶栓治療。
-TxGNN 模型預測它可能對**後下壁心肌梗塞 (Posteroinferior Myocardial Infarction)** 有效，
-但目前**沒有臨床試驗**，也**沒有針對此亞型的文獻**，僅有模型預測支持。
+Tenecteplase 是一種纖維蛋白特異性的血栓溶解劑，知識圖譜中記錄的用途包括心肌梗塞與冠狀動脈血栓。
+TxGNN 模型預測它可能對**冠狀動脈狹窄 (Coronary Stenosis)** 有效（預測分數最高者為先天性冠狀動脈異常，但該項無任何證據，故改以證據最多的冠狀動脈狹窄作為主要討論對象）。
+目前**無臨床試驗登記**，有 **9 篇文獻**與冠狀動脈相關情境有關，但皆未直接以冠狀動脈狹窄本身為研究對象。
+
+---
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 心肌梗塞、冠狀動脈血栓（香港許可證未載明適應症文字） |
-| 預測新適應症 | 後下壁心肌梗塞 (Posteroinferior Myocardial Infarction) |
-| TxGNN 預測分數 | 99.87% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Congenital coronary artery anomaly |
+| TxGNN 預測分數 | 0.9961 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
+
+說明：排名第一的預測為先天性冠狀動脈異常（0.9961），但無任何試驗或文獻，證據等級為 L5。以下以冠狀動脈狹窄為主，並於結論列出其他預測結果。
+
+---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Tenecteplase 是纖維蛋白專一性的組織型纖溶酶原活化劑，
-其在急性心肌梗塞（STEMI）中的療效已被證實，機轉上是溶解冠狀動脈內的血栓，因此理論上適用於同樣由血栓性冠狀動脈阻塞所致的心肌梗塞亞型。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Tenecteplase 屬於纖維蛋白特異性的纖維蛋白溶解劑（組織型纖溶酶原活化劑類），能溶解富含纖維蛋白的血栓。
 
-後下壁心肌梗塞是心肌梗塞依解剖位置劃分的亞型，與已核准的心肌梗塞適應症本質相同。
-因此 0.9987 的高分主要反映與既有適應症的重疊，並非真正的新適應症訊號。預測合理，但屬於重複性質。
+冠狀動脈狹窄常伴隨血栓形成，例如急性心肌梗塞與 PCI 相關血栓。Tenecteplase 的作用目標是血栓成分，而非固定的動脈粥狀硬化狹窄本身。因此，它在狹窄病灶合併急性血栓時可能有用，但這與知識圖譜中已記錄的心肌梗塞用途高度重疊，不能視為獨立的新適應症。
 
-排名接近的其他預測也值得留意：後側壁心肌梗塞（同為 99.87%，同屬心肌梗塞亞型）、間隔心肌梗塞（99.85%）、冠狀動脈狹窄（99.53%，有少量文獻）。先天性冠狀動脈異常（99.61%）的機轉依據薄弱，因為它不是以血栓為主的疾病。
+
+---
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
+---
+
 ## 文獻證據
 
-目前無針對後下壁心肌梗塞的相關文獻。
-
-作為參考，排名第 5 的預測「冠狀動脈狹窄」有以下較相關的研究（僅為間接證據）：
+以下文獻皆未直接以冠狀動脈狹窄為研究對象，僅涉及相關情境（STEMI、PCI、血栓等）。
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [31870492](https://pubmed.ncbi.nlm.nih.gov/31870492/) | 2020 | 隨機可行性/安全性研究 | Am J Cardiol | ICE T-TIMI 49：40 名接受直接 PCI 的病人隨機接受冠狀動脈內低劑量 TNK (4 mg) 或生理食鹽水，評估可行性與安全性 |
-| [16053952](https://pubmed.ncbi.nlm.nih.gov/16053952/) | 2005 | 比較研究 | J Am Coll Cardiol | CAPITAL AMI：比較 TNK 輔助血管成形術與單用 TNK 溶栓於高風險 STEMI |
-| [16139127](https://pubmed.ncbi.nlm.nih.gov/16139127/) | 2005 | 小型臨床研究 | J Am Coll Cardiol | 冠狀動脈內纖維蛋白專一性溶栓劑輸注，有助於慢性完全阻塞病變的經皮再通 |
+| [31870492](https://pubmed.ncbi.nlm.nih.gov/31870492/) | 2020 | 小型隨機可行性/安全性研究 | The American Journal of Cardiology | 40 名 STEMI 患者於初級 PCI 時，隨機接受冠狀動脈內低劑量 Tenecteplase（4 mg）或生理食鹽水，評估可行性與安全性 |
+| [16053952](https://pubmed.ncbi.nlm.nih.gov/16053952/) | 2005 | 比較研究 | Journal of the American College of Cardiology | 比較 Tenecteplase 輔助血管成形術與單用 Tenecteplase 於高風險 STEMI |
+| [16139127](https://pubmed.ncbi.nlm.nih.gov/16139127/) | 2005 | 病例系列/小型介入研究 | Journal of the American College of Cardiology | 冠狀動脈內纖維蛋白特異性溶栓輸注，協助慢性完全阻塞病灶的經皮再通 |
+| [17102829](https://pubmed.ncbi.nlm.nih.gov/17102829/) | 2006 | 觀察性先導研究 | Canadian Journal of Cardiology | 溶栓後轉院進行緊急 PCI 的可行性 |
+| [11994554](https://pubmed.ncbi.nlm.nih.gov/11994554/) | 2002 | 觀察性研究 | Journal of Thrombosis and Thrombolysis | 下壁心肌梗塞中胸前導程 ST 段下降與非罪犯血管血流緩慢相關 |
+| [23615379](https://pubmed.ncbi.nlm.nih.gov/23615379/) | 2013 | 回顧 | Cerebrovascular Diseases | 急性缺血性中風溶栓治療的歷史與未來（間接相關） |
+| [37823944](https://pubmed.ncbi.nlm.nih.gov/37823944/) | 2023 | 病例報告 | Egyptian Heart Journal | 氯吡格雷抵抗導致亞急性支架血栓 |
+| [25733729](https://pubmed.ncbi.nlm.nih.gov/25733729/) | 2016 | 病例報告 | Human & Experimental Toxicology | 一氧化碳中毒後的下側壁心肌梗塞接受溶栓治療 |
+| [31020237](https://pubmed.ncbi.nlm.nih.gov/31020237/) | 2019 | 病例報告 | European Heart Journal – Case Reports | 以支架回收器取出擴張冠狀動脈中的難治性血栓 |
+
+---
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-49440 | METALYSE FOR INJ 10,000U | 注射劑 | 未提供 |
+| HK-49440 | METALYSE FOR INJ 10,000U | 未載明 | 未載明 |
+
+---
 
 ## 安全性考量
 
-- **藥物交互作用**：共查得 100 筆交互作用，以下為部分重點：
-  - 嚴重（Major）：Abciximab、Apixaban、Betrixaban、Acalabrutinib、Avapritinib、Deferasirox、Ibritumomab tiuxetan、Tositumomab
-  - 中度（Moderate）：Acetylsalicylic acid（阿斯匹靈）、Ibuprofen、Ketorolac、Celecoxib、Aminocaproic acid、Omega-3 脂肪酸、Fenfluramine、Dexfenfluramine、Sibutramine
+- **藥物交互作用**：已查詢到 100 筆交互作用紀錄，以下為部分重點。
+  - 重大（Major）：Abciximab、Apixaban、Betrixaban、Acalabrutinib、Avapritinib、Deferasirox、Ibritumomab tiuxetan、Tositumomab
+  - 中度（Moderate）：Acetylsalicylic acid、Ibuprofen、Ketorolac、Celecoxib、Aminocaproic acid、Omega-3 fatty acids、Fenfluramine、Dexfenfluramine、Sibutramine
 
-多數嚴重交互作用與出血風險增加有關，與其他抗凝血、抗血小板藥物併用時須特別留意。
+  多數重大交互作用涉及出血風險增加（抗凝血或抗血小板類藥物），使用時需特別留意。
 
-其餘警語與禁忌症請參考原廠仿單。
+其餘警語與禁忌症資料缺乏，請參考原廠仿單。
+
+---
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 後下壁心肌梗塞屬於 Tenecteplase 已核准的心肌梗塞適應症之亞型，高分主要反映適應症重疊，並無獨立的再利用訊號，且沒有任何針對此亞型的試驗或文獻。
-- 在所有預測中，「冠狀動脈狹窄」有較多間接文獻（含小型隨機可行性研究），可作為後續研究問題，但同樣缺乏確證性證據。
+- 沒有任何已發表研究直接針對「冠狀動脈狹窄」本身，現有文獻多為 STEMI/PCI 情境的早期研究與病例報告，因此證據等級為 L5。
+- 與狹窄相關的用途大多與知識圖譜已記錄的心肌梗塞用途重疊，作為獨立新適應症的證據薄弱，且出血風險需先評估。
 
 **若要推進需要：**
-- 取得香港衛生署仿單，確認核准適應症、警語與禁忌症
-- 補充詳細的作用機轉資料
-- 確認後下壁、後側壁等心肌梗塞亞型是否已涵蓋於現行核准的 MI 適應症中，若已涵蓋則無需另行申請
-- 若要探討冠狀動脈內給藥等新用途，需設計前瞻性對照研究並建立出血風險監測計畫
+- 取得 Tenecteplase 的作用機轉資料
+- 取得香港仿單的核准適應症、警語與禁忌症
+- 設計直接針對冠狀動脈狹窄（並區分血栓成分）的臨床研究
+- 建立出血風險評估與監測計畫，特別是併用抗凝血或抗血小板藥物時
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

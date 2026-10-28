@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 223
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
-description: "Cobicistat：預測新適應症為猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)（證據等級 L5）。原適應症：HIV 感染、AIDS"
 monitor_inn: "COBICISTAT"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-23
+description: "Cobicistat：預測新適應症為貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome)（證據等級 L5）。原適應症：HIV 感染、愛滋病"
 ---
 
 # Cobicistat
@@ -33,93 +33,76 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 </div>
 
-## Cobicistat：從 HIV 感染到猿猴免疫缺陷病毒感染（模型預測）
+## Cobicistat：從 HIV 感染到貓後天免疫缺陷症候群
 {: .text-alpha }
 
 ## 一句話總結
 
-Cobicistat 是一種藥物動力學增強劑，原本用於 HIV 感染與 AIDS 的抗病毒治療組合中。
-TxGNN 模型預測它可能對**猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)** 有效，
-但目前**沒有任何臨床試驗或文獻**支持，僅屬模型預測。
-
----
+Cobicistat 在知識圖譜中記錄的原適應症為 HIV 感染與愛滋病，臨床上作為藥物動力學增強劑，與其他抗病毒藥物合併使用。
+TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome)** 有效，
+但目前**沒有任何臨床試驗或文獻**支持這個預測，僅屬模型推論。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | HIV 感染、AIDS（取自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection) |
-| TxGNN 預測分數 | 99.92% |
+| 原適應症 | HIV 感染、愛滋病（知識圖譜記錄；香港許可證資料未提供適應症文字） |
+| 預測新適應症 | 貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome) |
+| TxGNN 預測分數 | 0.9992 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Cobicistat 是一種以機轉為基礎的 CYP3A 抑制劑，用來提高其他抗反轉錄病毒藥物（如 darunavir、atazanavir、elvitegravir）的血中濃度，本身並無已知的抗病毒活性。
+目前缺乏詳細的作用機轉資料。根據已知資訊，cobicistat 是一種 CYP3A 抑制劑，用來提高合併使用之抗逆轉錄病毒藥物的血中濃度，本身沒有直接的抗病毒活性。
 
-SIV 與 HIV 同屬慢病毒，親緣關係相近，模型的高分很可能反映its 與已核准 HIV 適應症在知識圖譜上的鄰近性。若 Cobicistat 對 SIV 有任何益處，也必須依賴與其併用的抗病毒藥物。
+貓免疫缺乏病毒（FIV）與 HIV 同屬慢病毒，因此這個高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。但這屬於獸醫領域的適應症，且任何效益都必須依賴搭配有活性的抗病毒藥物，單獨使用 cobicistat 的合理性不足。
 
-需要注意：SIV 感染是非人類靈長類的動物模型疾病，並非人類臨床適應症，因此不是有意義的人類藥物再利用目標。
-
-另外，同一份預測還列出另外兩個候選，同樣只有模型預測、沒有任何證據支持：
-- **貓後天免疫缺陷症候群 (Feline AIDS)**：分數同為 99.92%，屬獸醫領域疾病，與 SIV 分數完全相同，推測是圖譜鄰近節點造成的假象。
-- **伴有共濟失調步態、無語言能力及皮質白質減少的神經發育障礙**：分數 99.91%，Cobicistat 的藥理（CYP3A 與轉運蛋白抑制）與此罕見遺傳疾病的病理沒有已知關聯，高分很可能是圖譜假象。
-
----
+其他兩項預測（猴免疫缺乏病毒感染、伴隨共濟失調步態與無語言的神經發育障礙）同樣沒有證據：前者是 HIV 的靈長類動物模型，後者是罕見遺傳疾病，與 cobicistat 的藥理沒有明顯關聯，分數來自 TxGNN 模型（深度學習），可能只反映模型學到的相關疾病之間的相似性，並非生物學證據。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
 目前無相關文獻。
-
----
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-64960 | PREZCOBIX TABLETS 800MG/150MG | 錠劑 | 未載明 |
-| HK-65912 | SYMTUZA TABLETS | 錠劑 | 未載明 |
+| HK-64960 | PREZCOBIX TABLETS 800MG/150MG | 錠劑 | 無資料 |
+| HK-65912 | SYMTUZA TABLETS | 錠劑 | 無資料 |
 
-兩張許可證均為有效的單方登記，持有者皆為 Johnson & Johnson (Hong Kong) Ltd.。
-
----
+這兩張許可證為含 cobicistat 的複方產品，不能用來說明單一成分 cobicistat 的核准狀況。
 
 ## 安全性考量
 
-- **藥物交互作用**：已查得 100 筆交互作用，以下列出部分例子（作為 CYP3A 抑制劑，併用藥物的暴露量可能上升）：
-  - **嚴重 (Major)**：Loperamide、Triamcinolone、Cisapride、Budesonide
-  - **中度 (Moderate)**：Hydrocortisone、Aprepitant、Betamethasone、Dexamethasone、Clarithromycin、Clotrimazole、Metoclopramide、Repaglinide、Fenfluramine
-  - **輕微 (Minor)**：Prucalopride
-- 長期使用的 CYP3A 抑制劑會帶來可觀的多重用藥負擔，若用於兒童神經科族群，風險更需謹慎評估。
+- **藥物交互作用**：已查得 100 筆交互作用紀錄，以下為部分例子：
+  - 嚴重（Major）：Loperamide、Triamcinolone、Cisapride、Budesonide
+  - 中度（Moderate）：Hydrocortisone、Aprepitant、Betamethasone、Clarithromycin、Repaglinide、Metoclopramide
+  - 輕微（Minor）：Prucalopride
 
-其他警語與禁忌症請參考原廠仿單。
+  這些交互作用多與 CYP3A 抑制有關，任何新用途都需審慎評估。
 
----
+其餘警語與禁忌資訊請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 三個預測適應症都只有模型分數，沒有臨床試驗或文獻（證據等級 L5）。
-- SIV 與貓 AIDS 屬動物疾病，不是人類再利用目標；神經發育障礙則找不到機轉關聯。Cobicistat 本身也沒有抗病毒活性，在 HIV 領域已是既有用途。
+- 預測分數雖高，但沒有任何臨床試驗或文獻直接研究這個疾病，證據等級為 L5。
+- 預測的疾病屬於獸醫領域，與人類臨床應用無關；cobicistat 本身沒有抗病毒活性，且交互作用數量多。
 
 **若要推進需要：**
-- 補齊 Cobicistat 的作用機轉資料（MOA）。
-- 取得香港衛生署仿單，確認警語、禁忌症與核准適應症。
-- 若仍想探索，應先改用人類疾病為標的，重新篩選預測結果，並進行系統性文獻檢索。
-- 對神經發育障礙一項，需先提出可驗證的機轉假說，再評估交互作用與安全負擔。
+- 補充 cobicistat 的作用機轉資料
+- 取得香港仿單的警語、禁忌與核准適應症
+- 針對 FIV 的前臨床或動物研究證據（若確有獸醫開發意圖）
+- 釐清此預測是否有任何人類臨床價值，否則不建議投入資源
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

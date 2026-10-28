@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ambroxol
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 48
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Ambroxol：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L4）。原適應症：咽炎 (Pharyngitis)"
 monitor_inn: "Ambroxol"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
+predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
 ---
 
 # Ambroxol
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 |------|------|
 | 原適應症 | 咽炎 (Pharyngitis) |
 | 預測新適應症 | 鼻腔疾病 (Nasal Cavity Disease) |
-| TxGNN 預測分數 | 99.91% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| TxGNN 預測分數 | 0.9991 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -95,7 +95,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 **決策：Hold**
 
 **理由：**
-- TxGNN 預測分數很高（99.91%），但沒有任何針對鼻腔疾病的臨床試驗，唯一文獻也只是急性咳嗽的間接綜述，證據等級僅 L4。
+- TxGNN 預測分數很高（0.9991），但沒有任何針對鼻腔疾病的臨床試驗，唯一文獻也只是急性咳嗽的間接綜述，證據等級僅 L4。
 - 作用機轉只是合理推測，且缺乏仿單的警語與禁忌症資料，尚無法進行安全性篩選。
 
 **若要推進需要：**
@@ -105,7 +105,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 - 評估劑型與給藥途徑是否適合鼻腔疾病（目前路徑相容性尚未評估）
 - 若文獻支持，再規劃小型探索性臨床試驗
 
-**補充觀察：** 同批預測中，「急性喉咽炎」（分數 99.88%）與原適應症咽炎高度相關，較屬現有適應症的延伸，可作為優先研究的對照方向；其餘預測（外陰陰道念珠菌病、白喉、頸椎椎間盤退化）缺乏機轉與證據支持，建議維持 Hold。
+**補充觀察：** 同批預測中，外陰陰道念珠菌病、白喉、頸椎椎間盤退化缺乏機轉與證據支持，建議維持 Hold。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

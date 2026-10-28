@@ -51,20 +51,20 @@ TxGNN 模型預測排名最高的新適應症是肺高壓（分數最高，但�
 |------|------|
 | 原適應症 | 許可證資料未載明 |
 | 預測新適應症 | 偏頭痛 (Migraine Disorder)（TxGNN 排名第 2；排名第 1 為肺高壓，但缺乏證據） |
-| TxGNN 預測分數 | 99.52%（肺高壓為 99.54%） |
-| 證據等級 | L1（僅憑 1 個小型 Phase 3 試驗，須謹慎解讀） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 8 張 |
+| TxGNN 預測分數 | 0.9952（肺高壓為 0.9954） |
+| 證據等級 | L5（僅憑 1 個小型 Phase 3 試驗，須謹慎解讀） |
+| 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
+| 許可證數 | 8 張（有效 8 張） |
 | 建議決策 | Proceed with Guardrails（偏頭痛）；肺高壓與脊柱後側彎性心臟病為 Hold |
 
 ### 各預測適應症比較
 
 | 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
 |------|-----------|-----------|---------|------|
-| 1 | 肺高壓 (Pulmonary Hypertension) | 99.54% | L5 | Hold |
-| 2 | 偏頭痛 (Migraine Disorder) | 99.52% | L1（宜保守看待） | 研究性問題 |
-| 3 | 脊柱後側彎性心臟病 (Kyphoscoliotic Heart Disease) | 99.43% | L5 | Hold |
-| 4 | 腦幹型先兆偏頭痛 (Migraine with Brainstem Aura) | 99.41% | L4 | 研究性問題 |
+| 1 | 肺高壓 (Pulmonary Hypertension) | 0.9954 | L5 | Hold |
+| 2 | 偏頭痛 (Migraine Disorder) | 0.9952 | L1（宜保守看待） | 研究性問題 |
+| 3 | 脊柱後側彎性心臟病 (Kyphoscoliotic Heart Disease) | 0.9943 | L5 | Hold |
+| 4 | 腦幹型先兆偏頭痛 (Migraine with Brainstem Aura) | 0.9941 | L5 | 研究性問題 |
 
 ---
 

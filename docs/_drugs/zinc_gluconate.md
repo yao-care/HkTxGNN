@@ -6,9 +6,9 @@ nav_order: 953
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Zinc Gluconate：預測新適應症為早產兒貧血 (Anemia of Prematurity)（證據等級 L5）。原適應症：抗壞血酸缺乏症、壞血病"
 monitor_inn: "Zinc gluconate"
 predicted_indications: ["anemia of prematurity", "injury", "cell proliferation disorder", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "radiation or chemically induced disorder", "disease by subcellular system affected", "iatrogenic disease", "regional odontodysplasia"]
+description: "Zinc Gluconate：預測新適應症為早產兒貧血 (anemia of prematurity)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Zinc Gluconate
@@ -33,12 +33,12 @@ predicted_indications: ["anemia of prematurity", "injury", "cell proliferation d
 
 </div>
 
-## Zinc gluconate：從抗壞血酸缺乏症／壞血病到早產兒貧血
+## Zinc Gluconate: 早產兒貧血 (anemia of prematurity)
 {: .text-alpha }
 
 ## 一句話總結
 
-Zinc gluconate（葡萄糖酸鋅）是必需微量元素的補充劑型，在知識圖譜中的原適應症為抗壞血酸缺乏症與壞血病。
+Zinc gluconate（葡萄糖酸鋅）是必需微量元素的補充劑型，原適應症為抗壞血酸缺乏症與壞血病。
 TxGNN 模型預測它可能對**早產兒貧血 (Anemia of Prematurity)** 有效，但目前**沒有任何臨床試驗或文獻**直接支持，僅有模型預測。
 
 ---
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**早產兒貧血 (Anemia of Prematurity)** 有效
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 抗壞血酸缺乏症、壞血病（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 早產兒貧血 (Anemia of Prematurity) |
-| TxGNN 預測分數 | 99.94% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 早產兒貧血 (anemia of prematurity) |
+| TxGNN 預測分數 | 0.9994 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ---
@@ -107,7 +107,7 @@ TxGNN 模型預測它可能對**早產兒貧血 (Anemia of Prematurity)** 有效
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高（99.94%），但沒有任何臨床試驗或文獻支持，證據等級僅為 L5。
+- 預測分數雖高（0.9994），但沒有任何臨床試驗或文獻支持，證據等級僅為 L5。
 - 過量鋅可能引起銅缺乏性貧血，與預期療效方向相反，且目標族群為早產兒，風險更需審慎評估。
 
 **若要推進需要：**

@@ -6,9 +6,9 @@ nav_order: 589
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Minocycline：預測新適應症為點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis)（證據等級 L5）。原適應症：泌尿道感染、支氣管炎、痤瘡、牙周炎、淋病等"
 monitor_inn: "MINOCYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
+description: "Minocycline：預測新適應症為點狀上皮角膜結膜炎 (punctate epithelial keratoconjunctivitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Minocycline
@@ -33,7 +33,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure ke
 
 </div>
 
-## Minocycline：從細菌感染（泌尿道感染、痤瘡等）到點狀上皮角膜結膜炎
+## Minocycline: 點狀上皮角膜結膜炎 (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 泌尿道感染、支氣管炎、痤瘡、牙周炎、淋病等（香港許可證未載明適應症文字，此處依知識圖譜資料） |
-| 預測新適應症 | 點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis) |
-| TxGNN 預測分數 | 99.63% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 點狀上皮角膜結膜炎 (punctate epithelial keratoconjunctivitis) |
+| TxGNN 預測分數 | 0.9963 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 
 依一般藥理背景知識（並非來自本次彙整的資料，也未經驗證），minocycline 具有抗發炎與抑制基質金屬蛋白酶（MMP）的特性，同類藥物如 doxycycline 也用於瞼板腺功能異常與眼瞼炎等眼表疾病。這些特性在機轉上可能與眼表發炎有關。
 
-不過這僅是**假設性的推論**，不能視為對點狀上皮角膜結膜炎有效的證據。另一個預測適應症為暴露性角膜炎（TxGNN 分數 99.20%），同樣沒有任何臨床證據；該病主要靠恢復眼表保護與潤滑處理，minocycline 的角色僅屬推測。
+不過這僅是**假設性的推論**，不能視為對點狀上皮角膜結膜炎有效的證據。另一個預測適應症為暴露性角膜炎（TxGNN 分數 0.9920），同樣沒有任何臨床證據；該病主要靠恢復眼表保護與潤滑處理，minocycline 的角色僅屬推測。
 
 ## 臨床試驗證據
 
@@ -94,7 +94,7 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 **決策：Hold**
 
 **理由：**
-- 目前僅有模型預測分數（99.63%），沒有臨床試驗或文獻佐證，證據等級為 L5。
+- 目前僅有模型預測分數（0.9963），沒有臨床試驗或文獻佐證，證據等級為 L5。
 - 作用機轉資料與香港仿單安全性資料均缺漏，無法進行安全性初篩。
 
 **若要推進需要：**

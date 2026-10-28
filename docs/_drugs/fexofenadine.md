@@ -6,9 +6,9 @@ nav_order: 375
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Fexofenadine：預測新適應症為酒糟性結膜炎 (Rosacea Conjunctivitis)（證據等級 L5）。原適應症：過敏性鼻炎、血管運動性鼻炎、異位性結膜炎、乳突性結膜炎、春季結膜炎、特發性蕁麻疹"
 monitor_inn: "Fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
+description: "Fexofenadine：預測新適應症為酒糟性結膜炎 (rosacea conjunctivitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Fexofenadine
@@ -33,7 +33,7 @@ predicted_indications: ["rosacea conjunctivitis"]
 
 </div>
 
-## Fexofenadine：從過敏性鼻炎到酒糟性結膜炎
+## Fexofenadine: 酒糟性結膜炎 (rosacea conjunctivitis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -45,11 +45,11 @@ TxGNN 模型預測它可能對**酒糟性結膜炎 (Rosacea Conjunctivitis)** �
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、異位性結膜炎、乳突性結膜炎、春季結膜炎、特發性蕁麻疹（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 酒糟性結膜炎 (Rosacea Conjunctivitis) |
-| TxGNN 預測分數 | 99.85% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 酒糟性結膜炎 (rosacea conjunctivitis) |
+| TxGNN 預測分數 | 0.9985 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**酒糟性結膜炎 (Rosacea Conjunctivitis)** �
 
 不過，酒糟性（眼型酒糟）結膜炎的成因主要是瞼板腺功能障礙、淚膜不穩定、蠕形蟎或微生物定植，以及先天免疫與神經血管失調，組織胺的角色有限。此外，口服 Fexofenadine 到達眼表的濃度有限，H1 阻斷以外的抗發炎作用（例如減少肥大細胞介質釋放）在此疾病中尚未證實。
 
-0.998 的高分主要反映知識圖譜中，該藥與已核准的結膜炎適應症距離相近，並不代表有針對酒糟性結膜炎的實證。
+0.9985 的高分來自 TxGNN 模型（深度學習），可能反映模型在相關疾病之間學到的相似性，並非生物學證據，也不代表有針對酒糟性結膜炎的實證。
 
 ## 臨床試驗證據
 

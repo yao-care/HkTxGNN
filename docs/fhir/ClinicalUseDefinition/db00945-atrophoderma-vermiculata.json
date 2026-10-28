@@ -31,11 +31,15 @@
   "extension": [
     {
       "url": "https://hktxgnn.yao.care/fhir/StructureDefinition/evidence-level",
-      "valueCode": "L3"
+      "valueCode": "L5"
     },
     {
       "url": "https://hktxgnn.yao.care/fhir/StructureDefinition/prediction-source",
       "valueString": "TxGNN KG + DL"
+    },
+    {
+      "url": "https://hktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9959
     }
   ],
   "warning": {

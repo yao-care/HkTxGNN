@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Choline Salicylate
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 193
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Choline Salicylate：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L3）。原適應症：香港許可證資料中未載明核准適應症"
 monitor_inn: "Choline salicylate"
-predicted_indications: ["Prinzmetal angina", "rheumatoid arthritis", "hypertensive disorder", "migraine disorder", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant renovascular hypertension", "malignant hypertensive renal disease", "Raynaud disease", "pulmonary hypertension"]
+predicted_indications: ["Prinzmetal angina", "rheumatoid arthritis", "hypertensive disorder", "migraine disorder", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "malignant renovascular hypertension", "Raynaud disease", "pulmonary hypertension"]
+last_modified_at: 2026-10-27
+description: "Choline Salicylate：預測新適應症為變異型心絞痛 (Prinzmetal angina)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Choline Salicylate
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,114 +33,78 @@ predicted_indications: ["Prinzmetal angina", "rheumatoid arthritis", "hypertensi
 
 </div>
 
-## Choline salicylate：從（原適應症未載明）到類風濕性關節炎
+## Choline salicylate：水楊酸類消炎鎮痛藥 → 變異型心絞痛 (Prinzmetal angina)
 {: .text-alpha }
 
 ## 一句話總結
 
-Choline salicylate 是非乙醯化的水楊酸類藥物，在香港以外用／口腔凝膠劑型上市。
-TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** 有效，
-目前有 **0 個臨床試驗**和 **3 篇文獻**（1977–1980 年的舊文獻）支持這個方向。
-
-> 說明：TxGNN 預測分數最高的是 Prinzmetal 心絞痛，但該項完全沒有臨床證據，且機轉方向存疑。本報告以證據最充分的第 2 名「類風濕性關節炎」作為主要評估對象，其餘候選適應症於後文簡述。
-
----
+Choline salicylate 是一種非乙醯化的水楊酸類藥物，具有抑制環氧合酶（COX）的消炎止痛作用。
+TxGNN 模型預測它可能對**變異型心絞痛 (Prinzmetal angina)** 有效，
+但目前**沒有任何臨床試驗或文獻**直接支持這個方向，僅為模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證資料中未載明核准適應症 |
-| 預測新適應症 | 類風濕性關節炎 (Rheumatoid Arthritis) |
-| TxGNN 預測分數 | 99.82% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 8 張 |
-| 建議決策 | Hold（列為研究問題，暫不推進） |
-
----
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 變異型心絞痛 (Prinzmetal angina) |
+| TxGNN 預測分數 | 0.9984 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
+| 許可證數 | 8 張（有效 8 張） |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Choline salicylate 是非乙醯化的水楊酸鹽，具有 COX 抑制與抗發炎活性。這與類風濕性關節炎的症狀緩解在機轉上相符。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Choline salicylate 屬於水楊酸類藥物，一般認為透過抑制 COX 而產生消炎與止痛作用。
 
-三篇 1977–1980 年的文獻都把它描述為抗風濕藥物，其中一篇針對兒童類風濕性關節炎。不過這些看起來是臨床報告或回顧，不是對照試驗。
-
-需要注意：這其實是水楊酸類藥物的**歷史既有用途**，並非新穎的再利用發現。目前也沒有現代 RCT 證據。另外，香港現有劑型均為凝膠（外用／口腔），與抗風濕所需的全身性給藥途徑是否相容，尚待確認。
-
----
+變異型心絞痛的主要成因是冠狀動脈痙攣。COX 抑制並非此疾病公認的治療機轉，NSAID 類藥物甚至可能對血管張力產生不利影響。因此，這個高分預測目前只能視為模型的關聯推測，在機轉上並沒有明確的支持。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [377958](https://pubmed.ncbi.nlm.nih.gov/377958/) | 1979 | Review | Am J Hosp Pharm | 回顧抗風濕藥物，涵蓋水楊酸類（含 choline salicylate）、NSAIDs、金製劑、皮質類固醇等 |
-| [7188920](https://pubmed.ncbi.nlm.nih.gov/7188920/) | 1980 | 回顧／臨床報告（依標題推斷） | Fysiatricky a reumatologicky vestnik | 以 choline salicylate 作為抗風濕藥物的報告（無摘要） |
-| [897386](https://pubmed.ncbi.nlm.nih.gov/897386/) | 1977 | 臨床研究（兒童，可能為非對照；依標題推斷） | Reumatologia | 探討 choline salicylate 用於兒童類風濕性關節炎的效用（無摘要） |
-
----
+目前無相關文獻。
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-32005 | DERMOJELA GEL | 凝膠 | 未載明 |
-| HK-32406 | OROJEL ORAL GEL | 口腔凝膠 | 未載明 |
-| HK-37437 | BONJELA GEL | 凝膠 | 未載明 |
-| HK-35703 | ORO-SEP GEL | 凝膠 | 未載明 |
-| HK-30925 | ORIS-GEL | 凝膠 | 未載明 |
+| HK-32005 | DERMOJELA GEL | 凝膠 | 本地資料未記錄 |
+| HK-32406 | OROJEL ORAL GEL | 口腔凝膠 | 本地資料未記錄 |
+| HK-37437 | BONJELA GEL | 凝膠 | 本地資料未記錄 |
+| HK-35703 | ORO-SEP GEL | 凝膠 | 本地資料未記錄 |
+| HK-30925 | ORIS-GEL | 凝膠 | 本地資料未記錄 |
 
-（共 8 張有效單方許可證，此處列出 5 張。）
-
----
+目前 8 張許可證皆為有效的單一成分製劑。
 
 ## 安全性考量
 
-- **藥物交互作用**：已查得 100 筆交互作用紀錄，主要例子如下：
-  - 皮質類固醇（Hydrocortisone、Triamcinolone、Dexamethasone、Betamethasone、Budesonide）：中度
-  - 降血糖藥（Chlorpropamide、Glimepiride、Glipizide、Glyburide、胰島素類）：中度
-  - 制酸劑／吸附劑（Aluminum hydroxide、Calcium carbonate、Activated charcoal）：中度
-  - 質子幫浦抑制劑（Rabeprazole、Dexlansoprazole）：輕度
+- **藥物交互作用**：已查詢到多筆交互作用，主要包括：
+  - 中度：皮質類固醇（Hydrocortisone、Triamcinolone、Dexamethasone、Betamethasone、Budesonide）
+  - 中度：磺醯脲類降血糖藥（Chlorpropamide、Acetohexamide、Glimepiride、Glipizide、Glyburide）及胰島素
+  - 中度：制酸劑與吸附劑（Aluminum hydroxide、Calcium carbonate、Activated charcoal）
+  - 中度：Fenfluramine、Dexfenfluramine
+  - 輕度：質子幫浦抑制劑（Rabeprazole、Dexlansoprazole）
+- 水楊酸類藥物可能影響腎臟前列腺素與血壓，用於心血管相關適應症時需特別留意。
 
-  水楊酸類與降血糖藥併用可能增強降血糖效果，需留意。
-
-其餘警語與禁忌症資料請參考原廠仿單。
-
----
-
-## 其他候選適應症簡述
-
-| 預測適應症 | TxGNN 分數 | 證據等級 | 評估 |
-|-----------|-----------|---------|------|
-| Prinzmetal 心絞痛 | 99.84% | L5 | 僅模型預測；血管痙攣並非水楊酸的既定治療機轉 |
-| 高血壓疾病 | 99.81% | L5 | 僅模型預測；水楊酸／NSAIDs 可能升高血壓，安全疑慮大於預測價值 |
-| 偏頭痛 | 99.80% | L4 | 阿斯匹靈用於急性偏頭痛，類別層級有間接合理性，但無 choline salicylate 專屬證據 |
-| 肺高壓（含 3 個相關次型） | 99.75–99.77% | L5 | 僅模型預測；次型分數相同，屬同一圖譜訊號，非獨立證據 |
-| 惡性腎血管性高血壓／惡性高血壓腎病 | 99.77% | L5 | 僅模型預測；對腎血流動力學可能有害 |
-| Raynaud 病 | 99.76% | L5 | 僅模型預測；choline salicylate 抗血小板作用遠弱於阿斯匹靈 |
-
----
+其他警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 類風濕性關節炎有機轉合理性，也有三篇舊文獻，但沒有臨床試驗、也無現代對照研究，且屬水楊酸類的既知用途，不算新發現。其餘候選適應症多僅有模型預測，部分在機轉上方向相反（如高血壓類）。
-- 香港上市劑型皆為凝膠，且許可證缺少核准適應症文字，無法與全身性抗風濕用途對接。
+- 這個預測只有模型分數，沒有臨床試驗或文獻支持，證據等級為 L5。
+- 變異型心絞痛由血管痙攣所致，COX 抑制並非已知的治療機轉，機轉上缺乏合理性。
 
 **若要推進需要：**
-- 補齊香港許可證的核准適應症與仿單警語、禁忌症（目前為資料缺口，屬阻斷性）
-- 取得詳細的作用機轉資料（如 DrugBank）
-- 確認全身性劑型的可及性（現有香港劑型僅為凝膠）
-- 搜尋現代 RCT 或系統性回顧，並與現行標準治療比較療效與安全性
-- 評估腎功能、血壓與交互作用（皮質類固醇、降血糖藥）的風險管理方案
+- 取得 Choline salicylate 的詳細作用機轉資料，並評估與冠狀動脈痙攣的關聯
+- 進行針對變異型心絞痛的文獻與臨床試驗系統性搜尋
+- 取得香港原廠仿單的警語與禁忌症資料，完成安全性評估
+- 若有初步機轉或前臨床證據，再重新評估是否進入下一階段
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

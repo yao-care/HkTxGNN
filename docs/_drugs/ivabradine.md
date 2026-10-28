@@ -4,17 +4,17 @@ title: Ivabradine
 parent: 僅模型預測 (L5)
 nav_order: 493
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Ivabradine：預測新適應症為多毛症 (Hypertrichosis)（證據等級 L5）。原適應症：資料未收錄"
+indication_count: 6
 monitor_inn: "IVABRADINE"
-predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
+predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
+last_modified_at: 2026-10-23
+description: "Ivabradine：預測新適應症為多毛症 (Hypertrichosis)（證據等級 L5）。原適應症：許可證資料中未載明核准適應症"
 ---
 
 # Ivabradine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,41 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 
 </div>
 
-## Ivabradine：從心臟相關適應症到多毛症（Hypertrichosis）
+## Ivabradine：從原適應症資料缺漏到毛髮過多症（hypertrichosis）
 {: .text-alpha }
 
 ## 一句話總結
 
-Ivabradine 是一種降低心率的藥物，香港已有多張單方許可證，但本次資料中未收錄明確的核准適應症文字。
-TxGNN 模型預測它可能對**多毛症 (Hypertrichosis)** 有效（預測分數 99.79%），
-但目前**沒有任何臨床試驗或文獻**支持這個方向，僅屬模型預測。
+Ivabradine 是一種 HCN 通道（If 電流）抑制劑，在香港已有 10 張有效許可證，但本報告所整理的資料中沒有記載其核准適應症文字。
+TxGNN 模型預測它可能對**多毛症 (Hypertrichosis)** 有效，但目前**沒有任何臨床試驗或文獻**支持，僅為模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未收錄 |
+| 原適應症 | 許可證資料中未載明核准適應症 |
 | 預測新適應症 | 多毛症 (Hypertrichosis) |
-| TxGNN 預測分數 | 99.79% |
+| TxGNN 預測分數 | 0.9979 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 10 張 |
+| 香港上市 | 上市中（有效許可證 10 張／共 10 張） |
+| 許可證數 | 10 張（有效 10 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫未提供 MOA 欄位）。根據藥理學公認知識，Ivabradine 選擇性抑制竇房結中 HCN 通道所介導的心臟起搏電流 (If)，藉此降低心率。
+目前缺乏經本報告資料確認的詳細作用機轉。已知 Ivabradine 為選擇性 HCN 通道（If 電流）抑制劑，作用於竇房結以降低心率。
 
-多毛症是毛囊生長異常的疾病。HCN 通道抑制與毛髮生長調控之間，目前沒有已確立的關聯。一般與多毛症相關的藥物（如 minoxidil）是透過開啟鉀通道作用，機轉與 Ivabradine 不同，因此任何連結都只是推測。
+毛髮過多症與 Ivabradine 的唯一連結，是 TxGNN 模型（深度學習）的計算預測（分數 0.9979）。HCN 通道雖可能在毛囊相關組織表現，但這屬於推測，缺乏資料支持。此分數來自 TxGNN 模型（深度學習），可能反映模型在相關疾病之間學到的相似性，而非生物學證據；高分較可能反映與遺傳性症候群的相似性，而非藥理學上的合理性。因此，這個預測目前**不具備可說明的機轉依據**。
 
-TxGNN 的高分更可能來自知識圖譜中與毛髮相關節點的鄰近關係，而非生物學上的合理性。其他排名靠前的預測（Ambras 型先天性全身多毛症、伴有牙齒/牙周異常的畸形症候群、以 Dandy-Walker 畸形為主要特徵的症候群、孤立性遺傳性毛幹異常）同樣缺乏機轉依據與實證支持，多為先天性遺傳或發育異常，並非心率控制藥物可處理的目標。
+其他排名靠前的預測（皆為 L5、無任何試驗或文獻）：
+
+| 排名 | 預測疾病 | TxGNN 分數 | 說明 |
+|------|---------|-----------|------|
+| 2 | Ambras 型先天性全身性多毛症 | 0.9972 | 與 TRPS1 調控異常相關，與 HCN 抑制無已知關聯 |
+| 3 | 伴有牙齒／牙周異常的畸形症候群 | 0.9972 | 類別過於異質，無法作為單一標的評估 |
+| 4 | 以 Dandy-Walker 畸形為主要特徵的症候群 | 0.9970 | 結構性先天缺陷，降心率機轉不預期能矯正 |
+| 5 | 孤立性遺傳性毛幹異常 | 0.9969 | 多為結構或角蛋白缺陷，無 HCN 關聯 |
+| 6 | 腎因性抗利尿激素不當分泌症候群 | 0.9908 | 與 AVPR2 活化突變相關，Ivabradine 不作用於此路徑 |
 
 ## 臨床試驗證據
 
@@ -72,47 +79,38 @@ TxGNN 的高分更可能來自知識圖譜中與毛髮相關節點的鄰近關�
 
 ## 香港上市資訊
 
-香港共有 10 張有效的單方許可證，以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：
+下列 10 張許可證均為單一成分製劑、狀態有效。資料中未載明劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-55439 | CORALAN TAB 5MG | SERVIER HONG KONG LIMITED |
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
 | HK-55438 | CORALAN TAB 7.5MG | SERVIER HONG KONG LIMITED |
-| HK-68861 | IVABRADINE SANDOZ TABLETS 5MG | SANDOZ HONG KONG LIMITED |
-| HK-68766 | BRAVIGO TABLETS 7.5MG | SB PHARMA LIMITED |
+| HK-55439 | CORALAN TAB 5MG | SERVIER HONG KONG LIMITED |
+| HK-68232 | IVACORD 5 TABLETS 5MG | JACOBSON MARKETING LIMITED |
 | HK-68233 | IVACORD 7.5 TABLETS 7.5MG | JACOBSON MARKETING LIMITED |
+| HK-68712 | IVABRADINE TABLETS 5MG | CHEMILL PHARMA LIMITED |
+
+另有 5 張許可證（HK-68713、HK-68765、HK-68766、HK-68861、HK-68862），分別由 Chemill Pharma、SB Pharma 與 Sandoz Hong Kong 持有，此處僅列出前 5 張主要許可證。
 
 ## 安全性考量
 
-- **藥物交互作用**：本次共查得 100 筆交互作用，以下為部分列出的重大 (Major) 等級項目：
-  - Aprepitant
-  - Clarithromycin
-  - Cisapride
-  - Clotrimazole
-  - Cobicistat
-  - Dolasetron
-  - Granisetron
-  - Levofloxacin
-  - Ondansetron
-  - Palonosetron
-  - Papaverine
-- 中度 (Moderate) 等級的項目包括 Famotidine、Ranitidine、Cimetidine、Nizatidine、Dexamethasone、Miconazole 等。
+- **藥物交互作用**：資料庫共記錄 100 筆交互作用，以下為部分範例。
+  - **嚴重 (Major)**：Aprepitant、Clarithromycin、Dolasetron、Palonosetron、Cisapride、Clotrimazole、Granisetron、Levofloxacin、Ondansetron、Papaverine、Cobicistat
+  - **中度 (Moderate)**：Famotidine、Ranitidine、Dexamethasone、Cimetidine、Metreleptin、Miconazole、Nizatidine、Troglitazone
 
-其餘警語與禁忌症資料，請參考原廠仿單。
+其他警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 預測的新適應症完全沒有臨床試驗或文獻支持，證據等級僅為 L5。
-- Ivabradine 的作用機轉（抑制 HCN 通道降低心率）與毛髮生長或先天性發育異常之間，沒有可信的機轉連結。
+- 預測僅來自模型計算，沒有任何臨床試驗或文獻直接研究 Ivabradine 用於多毛症，證據等級為 L5。
+- 作用機轉（降低心率的 HCN 抑制）與多毛症缺乏可辨識的生物學關聯，且六個預測疾病多為罕見遺傳或先天性疾病，不易進行臨床研究。
 
 **若要推進需要：**
-- 補齊 Ivabradine 的作用機轉資料，並重新評估 HCN 通道與毛囊生物學之間是否存在任何關聯。
-- 取得香港衛生署仿單中的警語、禁忌症與核准適應症文字，完成安全性篩選。
-- 若仍要探索，需先有前臨床（細胞或動物毛囊模型）證據，再考慮臨床研究。
-- 確認給藥途徑的可行性（目前僅有口服錠劑，資料中無外用劑型）。
+- 補齊香港許可證的核准適應症與仿單警語、禁忌症
+- 取得詳細的作用機轉資料，並以實驗或文獻檢驗 HCN 通道與毛囊生物學的關聯
+- 進行前臨床研究（如毛囊模型），再評估是否有進一步開發的價值
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

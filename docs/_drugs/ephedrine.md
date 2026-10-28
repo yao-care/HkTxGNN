@@ -4,17 +4,17 @@ title: Ephedrine
 parent: 中證據等級 (L3-L4)
 nav_order: 326
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Ephedrine：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L4）。原適應症：過敏性鼻炎、血管運動性鼻炎、支氣管炎、咽炎、感冒等"
 monitor_inn: "Ephedrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
+description: "Ephedrine：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Ephedrine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **3** 個
+證據等級: **L4** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "tri
 
 </div>
 
-## Ephedrine：從過敏性鼻炎等上呼吸道疾病到鼻腔疾病
+## Ephedrine: 鼻腔疾病 (nasal cavity disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -45,11 +45,11 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、支氣管炎、咽炎、感冒等（依知識圖譜適應症資料） |
-| 預測新適應症 | 鼻腔疾病 (Nasal Cavity Disease) |
-| TxGNN 預測分數 | 99.90% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 鼻腔疾病 (nasal cavity disease) |
+| TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 
 鼻腔疾病與其原有的鼻炎、鼻咽炎等適應症在部位與病理上密切相關，因此機轉上合理。但也要注意，這個預測大部分與既有適應症重疊，並不是真正新穎的再利用方向，高分（0.999）很可能反映的正是與已知適應症的近似性。
 
-另外兩個較低排名的預測是急性喉咽炎（分數 99.90%，無任何臨床試驗或文獻）與三叉神經自律神經性頭痛（分數 99.34%，機轉連結薄弱，且擬交感神經藥物可能誘發或加重頭痛、升高血壓，風險效益不利）。兩者皆僅有模型分數支持，證據等級為 L5。
+另一個較低排名的預測是三叉神經自律神經性頭痛（分數 0.9934，機轉連結薄弱，且擬交感神經藥物可能誘發或加重頭痛、升高血壓，風險效益不利）。此預測僅有模型分數支持，證據等級為 L5。
 
 ## 臨床試驗證據
 
@@ -102,7 +102,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 
 **理由：**
 - 預測的鼻腔疾病與既有適應症（鼻炎、鼻咽炎）高度重疊，不構成真正的新適應症；現有證據僅有兩篇薄弱文獻，無臨床試驗，證據等級 L4。
-- 其他預測（急性喉咽炎、三叉神經自律神經性頭痛）僅有模型分數支持，且後者風險效益不利。
+- 其他預測（三叉神經自律神經性頭痛）僅有模型分數支持，且風險效益不利。
 
 **若要推進需要：**
 - 取得香港衛生署核准的仿單，確認各產品的核准適應症、警語與禁忌

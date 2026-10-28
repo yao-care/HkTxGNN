@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 779
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
-description: "Risperidone：預測新適應症為家族性水平凝視麻痺合併進行性脊柱側彎 (gaze palsy, familial horizontal…（證據等級 L5）。原適應症：躁期雙相情感障礙、雙相情感障礙、思覺失調症、自閉症譜系障礙"
 monitor_inn: "RISPERIDONE"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+last_modified_at: 2026-10-28
+description: "Risperidone：預測新適應症為Gaze palsy, familial horizontal, with progressive scoliosis（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Risperidone
@@ -33,14 +33,16 @@ predicted_indications: ["gaze palsy, familial horizontal, with progressive scoli
 
 </div>
 
-## Risperidone：從雙相情感障礙與思覺失調症到毛髮拔除症（Trichotillomania）
+## Risperidone: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## 一句話總結
 
-Risperidone 是一種非典型抗精神病藥，原本用於雙相情感障礙、思覺失調症與自閉症譜系相關症狀。
-TxGNN 模型的預測排名第一為罕見的家族性水平凝視麻痺合併進行性脊柱側彎，但該項目完全沒有證據支持。
-本報告因此同時說明排名第一的預測，以及證據最完整的**毛髮拔除症 (Trichotillomania)**：目前有 **0 個臨床試驗**，但有 **9 篇文獻**（以個案報告和小型病例系列為主）。
+Risperidone（利培酮）是一種非典型抗精神病藥，知識圖譜記錄的相關用途包括精神分裂症、雙相情緒障礙與自閉症譜系障礙。
+TxGNN 模型預測排名第一的疾病是罕見遺傳病「家族性水平凝視麻痺合併進行性脊柱側彎」，但該預測沒有任何研究支持。
+本報告另外評估證據最完整的候選：**重度情感障礙 (Major Affective Disorder)**，目前有 **11 個臨床試驗**（其中 3 個 Phase 3 試驗與治療抗藥性憂鬱症的輔助療法直接相關）與 **20 篇文獻**。
+
+> 說明：TxGNN 分數最高的前兩名候選（家族性水平凝視麻痺、釉質腦少汗症候群）均無試驗與文獻，建議為 Hold。以下以資料最充分的「重度情感障礙」為主軸。
 
 ---
 
@@ -48,126 +50,99 @@ TxGNN 模型的預測排名第一為罕見的家族性水平凝視麻痺合併�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 躁期雙相情感障礙、雙相情感障礙、思覺失調症、自閉症譜系障礙（來自知識圖譜；香港許可證未填寫核准適應症文字） |
-| 預測新適應症 | 家族性水平凝視麻痺合併進行性脊柱側彎 (gaze palsy, familial horizontal, with progressive scoliosis)，TxGNN 排名第 1 |
-| TxGNN 預測分數 | 99.76%（排名第 1 項） |
-| 證據等級 | L5（排名第 1 項）；毛髮拔除症為 L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 20 張 |
-| 建議決策 | Hold（排名第 1 項）；毛髮拔除症為 Research Question（研究性問題，不建議直接推進臨床使用） |
-
-**本次預測的前五名：**
-
-| 排名 | 預測疾病 | TxGNN 分數 | 證據等級 | 建議 |
-|------|---------|-----------|---------|------|
-| 1 | 家族性水平凝視麻痺合併進行性脊柱側彎 | 99.76% | L5 | Hold |
-| 2 | 亞斯伯格症候群易感性 (Asperger syndrome) | 99.74% | L4 | Hold |
-| 3 | 釉質-腦-少汗症候群 (Amelocerebrohypohidrotic syndrome) | 99.69% | L5 | Hold |
-| 4 | Phelan-McDermid 症候群 | 99.59% | L4 | Research Question |
-| 5 | 毛髮拔除症 (Trichotillomania) | 99.51% | L4 | Research Question |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Gaze palsy, familial horizontal, with progressive scoliosis |
+| TxGNN 預測分數 | 0.9976 |
+| 證據等級 | L5（有多個已完成的 Phase 3 試驗，如 NCT00095134、NCT00044681，但試驗結果未提供，需再核對） |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 許可證數 | 至少 20 張（列表可能不完整） |
+| 建議決策 | Proceed with Guardrails |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知的藥理分類，risperidone 主要透過阻斷多巴胺 D2 與血清素 5-HT2A 受體發揮作用，這是通用的藥理知識，並非來自本次彙整資料。
+目前缺乏詳細的作用機轉資料。根據已知資訊，risperidone 是一種具多巴胺 D2 與血清素 5-HT2A 拮抗特性的非典型抗精神病藥。D2 阻斷是其抗躁症效果的基礎，5-HT2A 拮抗則被認為有助於在抗憂鬱藥反應不佳時增強療效。
 
-**排名第 1 的預測（家族性水平凝視麻痺合併進行性脊柱側彎）：** 此病為 ROBO3 相關的腦幹軸突導向罕見遺傳疾病。Risperidone 的 D2/5-HT2A 拮抗作用與其病理沒有合理關聯，也沒有任何試驗或文獻。高分僅屬模型的計算結果，不建議視為有效訊號。
+雙相情緒障礙與重度憂鬱症同屬情感性疾患，有重疊的神經傳導機轉。臨床上第二代抗精神病藥常被用作抗憂鬱藥的輔助療法，用於治療抗藥性憂鬱症。
 
-**其他值得關注的預測：**
-- **亞斯伯格症候群**屬於自閉症譜系，而 risperidone 本已用於自閉症相關易怒。這主要與既有適應症重疊，不算真正的新適應症，也不應視為新增的再利用證據。
-- **Phelan-McDermid 症候群**（SHANK3 單倍不足）常合併自閉症樣表現、易怒與攻擊行為，這些症狀正是 risperidone 在一般自閉症中已有效益的範圍。目前僅有斑馬魚模型的前臨床研究作為間接支持，且屬症狀層面而非疾病修飾。
-- **毛髮拔除症**被視為強迫症譜系疾病，多巴胺與血清素失調被認為與其有關。Risperidone 的 D2 阻斷加 5-HT2A 拮抗，理論上可作為 SSRI 的增效治療，與其在難治型強迫症的用法類似。
-- **釉質-腦-少汗症候群**（Kohlschütter-Tönz 症候群，ROGDI 相關）無已知機轉關聯。因部分抗精神病藥可能降低癲癇閾值，此項還有安全疑慮。
+需要注意：雙相躁症本來就是知識圖譜記錄的相關用途，因此再利用的價值主要在**抗憂鬱藥反應不佳的重度憂鬱症之輔助治療**。
 
 ---
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記。
+| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
+|---------|------|------|------|---------|
+| [NCT00095134](https://clinicaltrials.gov/study/NCT00095134) | Phase 3 | 完成 | 630 | 雙盲、安慰劑對照，評估輔助 risperidone 用於標準治療反應不佳的重度憂鬱症（結果未提供） |
+| [NCT00044681](https://clinicaltrials.gov/study/NCT00044681) | Phase 3 | 完成 | 258 | Risperidone 增強 SSRI 治療單極性抗藥性憂鬱症的療效、安全性與維持效果 |
+| [NCT00174577](https://clinicaltrials.gov/study/NCT00174577) | Phase 3 | 未知 | 84 | 抗憂鬱藥失敗或部分反應者的 risperidone 增強治療 |
+| [NCT00277654](https://clinicaltrials.gov/study/NCT00277654) | Phase 3 | 完成 | 111 | Risperidone 單一療法 vs 安慰劑，用於合併焦慮的門診雙相情緒障礙 |
+| [NCT00167479](https://clinicaltrials.gov/study/NCT00167479) | Phase 4 | 完成 | 60 | Risperidone 單一療法用於合併恐慌或廣泛性焦慮的雙相情緒障礙 |
+| [NCT00203723](https://clinicaltrials.gov/study/NCT00203723) | Phase 4 | 終止 | 45 | ECT 合併 risperidone vs 單用 ECT，用於抗藥性憂鬱症；提前終止 |
+| [NCT01282632](https://clinicaltrials.gov/study/NCT01282632) | Phase 1/2 | 完成 | 42 | Risperidone 與 olanzapine 作為 SSRI 附加療法的雙盲前導試驗 |
+| [NCT00179062](https://clinicaltrials.gov/study/NCT00179062) | 不適用 | 完成 | 300 | Risperidone 與 olanzapine 對體重與身體健康的影響，著重代謝安全性 |
+
+另有 3 個試驗（STEP-BD 雙極性障礙計畫 NCT00012558、精神分裂症生物標記研究 NCT03790085、LSD 縮短療程研究 NCT07503002）與本預測關聯較低，不列入。
 
 ---
 
 ## 文獻證據
 
-以下為證據最完整的預測（毛髮拔除症）之文獻，以及 Phelan-McDermid 症候群的前臨床研究。排名第 1 項無任何文獻。
-
-**毛髮拔除症**
-
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [38797877](https://pubmed.ncbi.nlm.nih.gov/38797877/) | 2025 | Review | Int J Dermatol | 毛髮拔除症缺乏治療指引，藥物治療選擇複雜，探討是否需要更好的醫師教育 |
-| [9108814](https://pubmed.ncbi.nlm.nih.gov/9108814/) | 1997 | 病例系列／開放標籤 | J Clin Psychiatry | 以 risperidone 增強血清素再回收抑制劑，用於強迫症及相關疾病 |
-| [10357517](https://pubmed.ncbi.nlm.nih.gov/10357517/) | 1999 | 病例系列 | J Child Adolesc Psychopharmacol | 3 名 SSRI 難治型患者加用 risperidone 0.5–3 mg/日，3 人症狀均明顯減輕 |
-| [12297616](https://pubmed.ncbi.nlm.nih.gov/12297616/) | 2002 | 個案報告 | Psychosomatics | 難治型毛髮拔除症使用 risperidone |
-| [11320684](https://pubmed.ncbi.nlm.nih.gov/11320684/) | 2001 | 個案報告 | Can J Psychiatry | 難治型個案以 risperidone 增強 fluvoxamine 治療 |
-| [15034500](https://pubmed.ncbi.nlm.nih.gov/15034500/) | 2002 | 個案報告 | CNS Spectrums | 思覺失調症患者合併毛髮拔除症，以 risperidone 治療精神症狀，加 citalopram 後毛髮拔除症部分緩解 |
-| [24598474](https://pubmed.ncbi.nlm.nih.gov/24598474/) | 2014 | 個案報告 | J Am Med Dir Assoc | 高齡個案使用 risperidone 合併 naltrexone 治療成功 |
-| [34563228](https://pubmed.ncbi.nlm.nih.gov/34563228/) | 2021 | 個案報告 | Ann Gen Psychiatry | 毛髮拔除症合併暴食症，合併 N-乙醯半胱胺酸協同治療 |
-| [23466108](https://pubmed.ncbi.nlm.nih.gov/23466108/) | 2013 | 世代／臨床概況（間接，妄想性寄生蟲症） | Asian J Psychiatry | 妄想性寄生蟲症的臨床特徵，與毛髮拔除症僅為間接相關 |
-
-**Phelan-McDermid 症候群**
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [37868296](https://pubmed.ncbi.nlm.nih.gov/37868296/) | 2023 | 前臨床（斑馬魚模型） | F1000Research | 此症候群常用藥物對 shank3 斑馬魚的感覺行為有不同影響 |
-| [35328058](https://pubmed.ncbi.nlm.nih.gov/35328058/) | 2022 | Review | Genes | Phelan-McDermid 症候群的臨床、遺傳特徵與跨領域處置 |
-
-**證據解讀：** 毛髮拔除症的報告方向一致為正面，但皆屬個案或小型病例系列，存在發表偏差，且多數同時使用 SSRI、naltrexone 或 NAC，難以歸因於 risperidone 本身。目前沒有對照試驗。
+| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | 系統性回顧／網絡統合分析 | Journal of Affective Disorders | 比較抗藥性憂鬱症各種增強策略的療效與停藥率 |
+| [35861202](https://pubmed.ncbi.nlm.nih.gov/35861202/) | 2023 | 系統性回顧／統合分析 | Journal of Psychopharmacology | 評估早期抗藥性憂鬱症的增強與合併治療證據 |
+| [34238049](https://pubmed.ncbi.nlm.nih.gov/34238049/) | 2021 | 系統性回顧／統合分析 | Journal of Psychopharmacology | 比較抗憂鬱藥加第二代抗精神病藥、esketamine 與鋰鹽的療效與耐受性 |
+| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Review | Acta Psychiatrica Scandinavica | 雙相躁症的實證治療選項回顧 |
+| [18689287](https://pubmed.ncbi.nlm.nih.gov/18689287/) | 2008 | Review | Dialogues in Clinical Neuroscience | 躁症的急性與長期治療，指出 risperidone 等抗精神病藥有實證支持 |
+| [7545159](https://pubmed.ncbi.nlm.nih.gov/7545159/) | 1995 | 文獻回顧 | Journal of Clinical Psychiatry | Risperidone 用於情感性疾患與強迫症的潛力 |
 
 ---
 
 ## 香港上市資訊
 
-香港共有 20 張有效許可證，皆為單一成分製劑，無已註銷。以下列出 5 張主要許可證（許可證資料未提供劑型與核准適應症文字）：
+目前列出的許可證如下（列表可能不完整，實際許可證至少 20 張），均為單一成分製劑；本彙整資料未載明核准適應症與劑型。
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-50822 | RISPERDAL TAB 2MG（Johnson & Johnson） | 錠劑 | 資料未提供 |
-| HK-50823 | RISPERDAL TAB 3MG（Johnson & Johnson） | 錠劑 | 資料未提供 |
-| HK-51064 | RISPERDAL CONSTA FOR INJ 50MG (P/SYR)（Johnson & Johnson） | 長效注射劑 | 資料未提供 |
-| HK-59970 | RISPERIDONE SANDOZ TAB 1MG（Sandoz） | 錠劑 | 資料未提供 |
-| HK-64107 | RISPERIDONE ACTAVIS TABLETS 1MG（Teva） | 錠劑 | 資料未提供 |
-
-其餘許可證由 Teva、Sandoz、Hind Wing、Trenton-Boma、Healthcare Pharmascience、Jean-Marie 等廠商持有，涵蓋 0.25 mg 至 4 mg 不同規格。
+| HK-50822 | RISPERDAL TAB 2MG（楊森） | 未載明 | 未載明 |
+| HK-50823 | RISPERDAL TAB 3MG（楊森） | 未載明 | 未載明 |
+| HK-51064 | RISPERDAL CONSTA FOR INJ 50MG (P/SYR)（楊森） | 未載明 | 未載明 |
+| HK-59970 | RISPERIDONE SANDOZ TAB 1MG | 未載明 | 未載明 |
+| HK-64107 | RISPERIDONE ACTAVIS TABLETS 1MG | 未載明 | 未載明 |
 
 ---
 
 ## 安全性考量
 
-**知識圖譜標示的禁忌或需謹慎的疾病**（來自知識圖譜關聯，非仿單文字）：
-- 心血管：心肌梗塞、冠狀動脈血栓、猝死性心搏停止、心臟傳導疾病、心臟病、中風、腦血管疾病、腦梗塞、低血壓、姿勢性低血壓、姿勢性直立心搏過速症候群、多系統萎縮
-- 代謝：糖尿病、高血糖、糖尿病酮酸中毒、高脂血症、家族性高脂血症、肥胖
-- 血液：嗜中性白血球減少、顆粒球缺乏症、血紅素病變
-- 其他：癲癇、肝病、肝衰竭、膽囊疾病、女性乳癌
+- **知識圖譜記錄的禁忌關聯（非仿單內容）**：包括體位性低血壓、肝衰竭／肝病、癲癇、高血糖／糖尿病／糖尿病酮酸中毒、嗜中性白血球低下／顆粒球缺乏症、低血壓、乳癌、高脂血症、肥胖、中風／腦血管疾病、心肌梗塞、心臟傳導疾病、心血管疾病等。
+- **藥物交互作用**：共查得 100 筆，以下為部分範例：
+  - 重大 (Major)：Bupropion、Morphine
+  - 中度 (Moderate)：Acarbose、Famotidine、Epinephrine、Hydrocortisone、Metformin、Atropine、Lorcaserin 等
+  - 輕微 (Minor)：Ranitidine
 
-**藥物交互作用：** 共查得 100 筆，以下為部分範例。
-- **重大 (Major)**：Bupropion、Morphine
-- **中度 (Moderate)**：Acarbose、Famotidine、Epinephrine、Hydrocortisone、Metformin、Albiglutide、Alogliptin、Canagliflozin、Amphotericin B、Atropine、Hyoscyamine、Loperamide、Lorcaserin 等
-- **輕微 (Minor)**：Ranitidine
-
-其中降血糖藥物的交互作用，與 risperidone 可能升高血糖的風險相呼應。抗膽鹼藥物與其合併使用時也需留意。
-
-**其他提醒：** 釉質-腦-少汗症候群的預測涉及癲癇，而 risperidone 可能降低癲癇閾值，需特別小心。對毛髮拔除症這類通常不危及生命的疾病，須審慎權衡代謝與錐體外症狀風險。
-
-仿單中的警語與禁忌資料尚未取得，請參考原廠仿單。
+其他警語與禁忌請參考原廠仿單。
 
 ---
 
 ## 結論與下一步
 
-**決策：Hold（排名第 1 項）；毛髮拔除症為 Research Question**
+**決策：Proceed with Guardrails**
 
 **理由：**
-- 排名第 1 的預測（家族性水平凝視麻痺合併進行性脊柱側彎）分數高，但沒有機轉關聯、試驗或文獻，僅是模型預測，不建議推進。
-- 毛髮拔除症有一致的個案層級正面報告與合理的 OCD 譜系機轉，值得作為研究問題，但缺乏對照試驗，且報告受發表偏差與合併治療干擾，證據不足以支持臨床推廣。
+- 抗憂鬱藥反應不佳的重度憂鬱症有多個已完成的大型 Phase 3 安慰劑對照試驗，並有系統性回顧與統合分析支持，證據等級為 L1。但本次提供的資料未含試驗結果，療效大小仍需確認。
+- TxGNN 分數最高的前兩名（凝視麻痺、釉質腦少汗症候群）無任何研究與合理機轉，維持 Hold。
 
 **若要推進需要：**
-- 取得香港仿單的警語與禁忌資料（目前為阻擋性資料缺口，無法進入安全性篩選）
-- 補齊 risperidone 的作用機轉資料
-- 針對毛髮拔除症設計小型隨機對照試驗（SSRI 增效 vs. 安慰劑），並明確監測代謝指標與錐體外症狀
-- 評估 Phelan-McDermid 症候群的症狀導向（易怒、攻擊）使用，並確認與既有自閉症適應症的差異
-- 亞斯伯格症候群項目應視為與既有適應症重疊，不列為新的再利用證據
+- 取得 NCT00095134、NCT00044681 的完整結果與效果量。
+- 確認香港仿單的核准適應症與警語（目前為資料缺口）。
+- 補充詳細作用機轉資料。
+- 制定使用限制與監測計畫：代謝指標、錐體外症狀、泌乳素，並限用於抗憂鬱藥足量足期治療後反應不佳者。
+
+**其他候選簡述：**
+- **Phelan-McDermid 症候群**（0.9959，L4）：僅有 1 篇管理回顧與 1 篇斑馬魚研究，屬間接證據，列為研究問題。
+- **拔毛症**（0.9951，L4）：僅有病例報告與小型病例系列，無試驗與 RCT，且代謝與錐體外症狀風險不利於輕症使用，列為研究問題。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

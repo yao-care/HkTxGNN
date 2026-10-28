@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Emtricitabine
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 318
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Emtricitabine：預測新適應症為貓後天免疫缺陷症候群 (Feline Acquired Immunodeficiency Syndrome)（證據等級 L4）。原適應症：HIV 感染、AIDS"
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Emtricitabine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 </div>
 
-## Emtricitabine：從 HIV 感染到貓免疫缺陷病毒感染（動物模型）
+## Emtricitabine：從 HIV 感染到貓後天免疫缺乏症候群
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,10 +48,10 @@ TxGNN 模型預測它可能對**貓後天免疫缺陷症候群 (Feline Acquired 
 |------|------|
 | 原適應症 | HIV 感染、AIDS |
 | 預測新適應症 | 貓後天免疫缺陷症候群 (Feline Acquired Immunodeficiency Syndrome) |
-| TxGNN 預測分數 | 99.92% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 15 張 |
+| TxGNN 預測分數 | 0.9992 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 15 張／共 15 張） |
+| 許可證數 | 15 張（有效 15 張） |
 | 建議決策 | Hold |
 
 > 補充：排名第 2 的「猴免疫缺陷病毒感染 (SIV)」有較多獼猴研究，但屬於 HIV 預防的動物模型，並不構成新的人類適應症。排名第 3 的神經發育疾患沒有任何證據支持。

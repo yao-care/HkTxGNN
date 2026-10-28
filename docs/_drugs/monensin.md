@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Monensin
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 596
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Monensin：預測新適應症為胃食道逆流病 (gastroesophageal reflux disease)（證據等級 L5）。原適應症：許可證資料未登載（獸用產品）"
-monitor_inn: "Monensin"
-predicted_indications: ["gastroesophageal reflux disease", "primary biliary cholangitis", "beta-amino acids, renal transport of", "Behcet disease", "B-cell growth factor", "primary basilar invagination", "nevoid basal cell carcinoma syndrome", "Banki syndrome", "Axenfeld-Rieger anomaly with partially absent eye muscles, distinctive face, hydrocephaly, and skeletal abnormalities", "androgenetic alopecia"]
+last_modified_at: 2026-10-23
+description: "Monensin: 香港已知用途與上市狀態；目前無新的候選適應症"
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Monensin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,90 +32,40 @@ predicted_indications: ["gastroesophageal reflux disease", "primary biliary chol
 
 </div>
 
-## Monensin：從（原適應症未登載）到 胃食道逆流病（預測排序第 1）
+<!-- known-uses-page -->
+<!-- description: Monensin：香港的已知用途與上市狀態；目前沒有新的候選適應症 -->
+## Monensin
 {: .text-alpha }
 
-## 一句話總結
+## 摘要
+TxGNN 模型對 Monensin 沒有分數達 0.99 以上的候選適應症，因此目前沒有新的預測適應症。本頁下方列出此藥物本身已記錄的用途。
 
-Monensin 是一種獸用聚醚類離子載體（ionophore），用作球蟲抑制劑與反芻動物生長促進劑。香港目前登記的是獸用預混劑，許可證資料中沒有登載適應症。
-TxGNN 模型對**胃食道逆流病 (gastroesophageal reflux disease)** 的預測分數僅 **50%**，缺乏區辨力。目前有 **0 個臨床試驗**和 **0 篇相關文獻**支持這個方向，僅屬模型預測。
-
----
-
-## 快速總覽
-
+## 快速概覽
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證資料未登載（獸用產品） |
-| 預測新適應症 | 胃食道逆流病 (gastroesophageal reflux disease) |
-| TxGNN 預測分數 | 50.0% |
-| 證據等級 | L5 |
-| 香港上市 | ✓ 已上市（獸用） |
-| 許可證數 | 1 張 |
-| 建議決策 | Hold |
+| 此藥物已記錄的已知用途 | 0 |
+| 香港的上市狀態 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 
----
+## 此藥物已記錄的已知用途
 
-## 為什麼這個預測合理？
+### 已核准（有許可證或仿單支持）
+| 適應症 | 來源 |
+|------|------|
+| 無 | 無 |
 
-目前缺乏詳細的作用機轉資料。已知 Monensin 是獸用聚醚類離子載體，能擾亂細胞膜的鈉離子/氫離子梯度，在動物身上用於抑制球蟲及促進反芻動物生長。
+### 與已核准適應症相關（同一疾病類別）
+| 適應症 | 已核准類別 |
+|------|------|
+| 無 | 無 |
 
-現有資料**不支持**它與胃食道逆流病之間的機轉關聯。Monensin 在胃酸逆流或食道蠕動方面沒有已知作用，50% 的預測分數也不具資訊量（模型對多個預測給出相同分數）。因此這個預測目前缺乏合理性依據。
-
-### 其他預測適應症概況
-
-其他排名前 10 的預測同樣分數皆為 50%，且皆無臨床試驗，證據等級均為 L5，建議均為 Hold：
-
-| 排序 | 預測適應症 | 評估 |
-|------|-----------|------|
-| 2 | 原發性膽汁性膽管炎 | 離子梯度干擾理論上可能影響免疫或膽管細胞功能，但純屬推測 |
-| 3 | β-胺基酸的腎臟轉運 | 屬生理過程而非臨床疾病，可能是知識圖譜的人為產物 |
-| 4 | 白塞氏病 (Behcet disease) | 體外可阻斷高基氏體運輸而影響細胞激素分泌，但這是研究工具效應，並非治療機轉 |
-| 5 | B 細胞生長因子 | 屬分子實體而非疾病（詳見下方文獻證據） |
-| 6 | 原發性基底凹陷症 | 結構性顱頸交界異常，無合理藥理機轉 |
-| 7 | 痣樣基底細胞癌症候群 | 離子載體有前臨床抗癌活性，與 Hedgehog 路徑失調存在推測性連結；但毒性大、治療指數窄，轉譯受限 |
-| 8 | Banki 症候群 | 無機轉依據 |
-| 9 | Axenfeld-Rieger 異常合併多重畸形 | 罕見先天發育症候群，無合理藥理標的 |
-| 10 | 雄性禿 | 無抗雄性素或毛囊週期活性，且全身毒性不適合非危及生命的美容適應症 |
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
----
-
-## 文獻證據
-
-針對排名第 1 的胃食道逆流病，目前無相關文獻。
-
-下表為排名第 5 的預測項目「B 細胞生長因子」所對應的文獻（共 20 篇，列出 10 篇）。這些文獻多半反映 Monensin 被當作**實驗室蛋白質運輸抑制劑**（阻斷高基氏體），用於流式細胞儀的細胞內細胞激素染色，屬方法學用途，**不是治療證據**。
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [8445253](https://pubmed.ncbi.nlm.nih.gov/8445253/) | 1993 | 方法學/實驗室 | J Immunol Methods | 以流式細胞儀偵測細胞內細胞激素的方法 |
-| [11985520](https://pubmed.ncbi.nlm.nih.gov/11985520/) | 2002 | 實驗室/觀察性 | Clin Exp Immunol | 比較氣喘患者與對照者血液及支氣管肺泡灌洗液 T 細胞的細胞激素表現 |
-| [25049577](https://pubmed.ncbi.nlm.nih.gov/25049577/) | 2012 | 動物研究（獸醫） | Asian-Australas J Anim Sci | 飼料中抗球蟲藥與抗生素生長促進劑對肉雞免疫狀態的影響 |
-| [9134033](https://pubmed.ncbi.nlm.nih.gov/9134033/) | 1997 | 方法學/實驗室 | J Immunol Methods | 比較免疫細胞化學與流式法偵測細胞內 IL-4、IL-5、IFN-γ |
-| [16260587](https://pubmed.ncbi.nlm.nih.gov/16260587/) | 2005 | 實驗室 | J Leukoc Biol | 漿狀樹突細胞是人類淋巴結中主要自發產生細胞激素的樹突細胞亞群 |
-| [11440543](https://pubmed.ncbi.nlm.nih.gov/11440543/) | 2001 | 實驗室/方法學 | Placenta | 流式法測量人類胎盤滋養層細胞的 Th1/Th2 細胞激素 |
-| [12668793](https://pubmed.ncbi.nlm.nih.gov/12668793/) | 2003 | 觀察性 | Thorax | 兒童氣喘氣道 T 細胞的細胞激素輪廓 |
-| [10444364](https://pubmed.ncbi.nlm.nih.gov/10444364/) | 1999 | 實驗室/觀察性 | Clin Immunol | 系統性紅斑性狼瘡患者 NK T 細胞 IL-4 產生增加 |
-| [19436583](https://pubmed.ncbi.nlm.nih.gov/19436583/) | 2009 | 方法學（犬） | Can J Vet Res | 犬 T 淋巴球細胞內 IFN-γ 與 IL-4 的全血流式偵測法 |
-| [22565155](https://pubmed.ncbi.nlm.nih.gov/22565155/) | 2012 | 方法學 | J Immunol Methods | 重新檢視蛋白質運輸抑制劑在 T 細胞 IL-10 偵測中的使用 |
-
----
+### 知識圖譜中記錄的關係（未找到核准）
+| 適應症 |
+|------|
+| 無 |
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-41844 | ELANCOBAN 200 PREMIX 200G/KG (VET)（獸用） | 未登載 | 未登載 |
-
-製造商為 DCH AURIGA (HONG KONG) LIMITED - UNIVERSAL DIVISION。
-
----
 
 ## 安全性考量
 
@@ -126,19 +75,6 @@ TxGNN 模型對**胃食道逆流病 (gastroesophageal reflux disease)** 的預�
 
 ---
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 所有預測的 TxGNN 分數皆為 0.5，沒有區辨力；沒有任何臨床試驗，文獻也僅涉及 Monensin 的實驗室工具用途，證據等級為 L5。
-- 香港登記的是獸用產品，缺乏人用適應症與安全性資料，且 Monensin 毒性顯著，風險效益無從支持。
-
-**若要推進需要：**
-- 取得 Monensin 的作用機轉資料（如 DrugBank）
-- 取得香港衛生署仿單的警語與禁忌資料
-- 針對預測適應症進行前臨床機轉驗證，並建立人用毒理與安全窗評估
-- 重新以有區辨力的模型分數及合理疾病標的篩選候選適應症（排除如「B 細胞生長因子」等非疾病條目）
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

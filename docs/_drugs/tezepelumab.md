@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Tezepelumab
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 870
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tezepelumab：預測新適應症為糖尿病性白內障 (Diabetic Cataract)（證據等級 L5）。原適應症：香港許可證資料未載明"
+description: "Tezepelumab: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Tezepelumab"
-predicted_indications: ["diabetic cataract", "immature cataract", "diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "tetanic cataract", "mature cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "diabetic retinopathy"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Tezepelumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,52 +35,16 @@ predicted_indications: ["diabetic cataract", "immature cataract", "diabetes mell
 
 </div>
 
-## Tezepelumab：從嚴重氣喘到糖尿病性白內障
+## Tezepelumab
 {: .text-alpha }
-
-## 一句話總結
-
-Tezepelumab 是一種抗 TSLP（胸腺基質淋巴生成素）單株抗體，在香港以 TEZSPIRE 品名上市。
-TxGNN 模型預測它可能對**糖尿病性白內障 (Diabetic Cataract)** 有效。
-目前**沒有任何臨床試驗或文獻**支持這個方向，僅有模型預測。
-
----
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證資料未載明（依藥物類別，其他資料來源提示為嚴重氣喘） |
-| 預測新適應症 | 糖尿病性白內障 (Diabetic Cataract) |
-| TxGNN 預測分數 | 98.40% |
-| 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
-| 建議決策 | Hold |
-
----
-
-## 為什麼這個預測合理？
-
-目前缺乏詳細的作用機轉資料。已知 Tezepelumab 是抗 TSLP 的單株抗體，TSLP 是上皮細胞釋放的細胞激素，與第 2 型發炎反應有關。其原適應症為嚴重氣喘（此資訊並非取自香港許可證文字，僅供參考）。
-
-糖尿病性白內障與氣喘在病理上關聯不明顯。一種推測是 TSLP 相關的發炎訊號或水晶體上皮的上皮-間質轉化可能參與其中，但目前沒有任何資料支持這個假說。
-
-此外還有給藥上的限制：抗體藥物全身給藥後，很難以有意義的濃度進入無血管的水晶體。因此這項預測目前只能視為模型產生的假說。
-
-另外九個預測適應症（包含未成熟、成熟、皮質性、核性、老年性白內障等，以及糖尿病視網膜病變）同樣只有模型預測，沒有臨床或文獻證據。其中糖尿病視網膜病變（分數 98.12%）在生物學上相對合理，因為發炎與細胞激素訊號參與視網膜血管病變，但 TSLP 在其中的角色尚未確立。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
----
-
-## 文獻證據
-
-目前無相關文獻。
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 
 ---
 
@@ -99,20 +65,6 @@ TxGNN 模型預測它可能對**糖尿病性白內障 (Diabetic Cataract)** 有�
 
 ---
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 目前僅有 TxGNN 模型預測（證據等級 L5），沒有任何臨床試驗或文獻佐證，機轉上也缺乏合理連結。
-- 單株抗體難以經全身給藥到達水晶體，且白內障多為結構性病變，現行以手術處理，生物製劑逆轉的可能性低。
-
-**若要推進需要：**
-- 取得 Tezepelumab 的作用機轉資料，並建立 TSLP 與水晶體病變之間的機轉證據。
-- 進行文獻回顧與前臨床研究（如水晶體上皮細胞或糖尿病動物模型），確認 TSLP 在白內障中的角色。
-- 評估眼部給藥途徑或藥物到達水晶體的可行性。
-- 取得香港仿單的警語與禁忌症，完成安全性篩選。
-- 若要優先探索，建議先評估糖尿病視網膜病變，其生物學合理性相對較高。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

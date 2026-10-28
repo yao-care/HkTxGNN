@@ -4,7 +4,7 @@ title: Topiramate
 parent: 僅模型預測 (L5)
 nav_order: 890
 evidence_level: L5
-indication_count: 5
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Topiramate：預測新適應症為三叉神經腫瘤 (Trigeminal Nerve Neoplasm)（證據等級 L5）。原適應症：癲癇（全身性強直陣攣發作、局部癲癇、Lennox-Gastaut 症候群等）"
 monitor_inn: "TOPIRAMATE"
@@ -14,7 +14,7 @@ predicted_indications: ["trigeminal nerve neoplasm"]
 # Topiramate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,6 @@ predicted_indications: ["trigeminal nerve neoplasm"]
 
 Topiramate 是一種抗癲癇藥物，原本用於全身性強直陣攣發作、局部癲癇及 Lennox-Gastaut 症候群等癲癇相關適應症。
 TxGNN 模型預測分數最高的新適應症是**三叉神經腫瘤 (Trigeminal Nerve Neoplasm)**，但目前**沒有任何臨床試驗或文獻**支持這項預測，僅屬模型推論。
-同一批預測中，證據相對較多的是反射性癲癇類（如聽源性癲癇發作），但這些較接近原適應症的延伸，而非真正的新用途。
 
 ---
 
@@ -50,13 +49,13 @@ TxGNN 模型預測分數最高的新適應症是**三叉神經腫瘤 (Trigeminal
 |------|------|
 | 原適應症 | 癲癇（全身性強直陣攣發作、局部癲癇、Lennox-Gastaut 症候群等） |
 | 預測新適應症 | 三叉神經腫瘤 (Trigeminal Nerve Neoplasm) |
-| TxGNN 預測分數 | 99.70% |
+| TxGNN 預測分數 | 0.9970 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
-註：原適應症來自知識圖譜的適應症資料，香港許可證本身未載明核准適應症文字。
+註：原適應症來自既有的適應症資料，香港許可證本身未載明核准適應症文字。
 
 ---
 
@@ -64,17 +63,13 @@ TxGNN 模型預測分數最高的新適應症是**三叉神經腫瘤 (Trigeminal
 
 目前缺乏詳細的作用機轉資料。一般已知 topiramate 是抗癲癇藥物，其作用涉及鈉離子通道阻斷、增強 GABA-A 活性、拮抗 AMPA/kainate 受體，以及微弱的碳酸酐酶抑制。這些作用與癲癇的神經興奮性有關。
 
-這些機轉與三叉神經腫瘤的腫瘤生物學之間，目前沒有已知的明確關聯。模型給出高分，較可能是因為知識圖譜中該疾病與神經痛或癲癇節點相近，而非 topiramate 具有抗腫瘤活性。因此這項預測的機轉合理性偏低，應視為待驗證的假說。
+這些機轉與三叉神經腫瘤的腫瘤生物學之間，目前沒有已知的明確關聯。分數來自 TxGNN 模型（深度學習），較可能反映模型學到的相關疾病（如神經痛或癲癇）之間的相似性，而非生物學證據，也不代表 topiramate 具有抗腫瘤活性。因此這項預測的機轉合理性偏低，應視為待驗證的假說。
 
 ### 其他預測適應症概覽
 
 | 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
 |------|-----------|-----------|---------|------|
-| 1 | 三叉神經腫瘤 | 99.70% | L5 | Hold |
-| 2 | 視覺性癲癇 (Visual Epilepsy) | 99.28% | L4 | Research Question |
-| 3 | 排尿誘發性癲癇發作 | 99.21% | L4 | Research Question |
-| 4 | 聽源性癲癇發作 (Audiogenic Seizures) | 99.21% | L4 | Research Question |
-| 5 | 驚嚇性癲癇 (Startle Epilepsy) | 99.21% | L5 | Hold |
+| 1 | 三叉神經腫瘤 | 0.9970 | L5 | Hold |
 
 其中視覺性、排尿誘發性、聽源性與驚嚇性癲癇都屬反射性癲癇，與 topiramate 現有的癲癇適應症高度重疊，較像現有適應症的延伸。
 

@@ -6,9 +6,9 @@ nav_order: 408
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Galcanezumab：預測新適應症為肝素輔因子 II 缺乏症 (Heparin Cofactor 2 Deficiency)（證據等級 L5）。原適應症：偏頭痛（migraine disorder）"
 monitor_inn: "GALCANEZUMAB"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+description: "Galcanezumab：預測新適應症為肝素輔因子 II 缺乏症 (heparin cofactor 2 deficiency)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Galcanezumab
@@ -33,7 +33,7 @@ predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficienc
 
 </div>
 
-## Galcanezumab：從偏頭痛到肝素輔因子 II 缺乏症
+## Galcanezumab: 肝素輔因子 II 缺乏症 (heparin cofactor 2 deficiency)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,15 +48,14 @@ TxGNN 模型預測它可能對**肝素輔因子 II 缺乏症 (Heparin Cofactor 2
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 偏頭痛（migraine disorder） |
-| 預測新適應症 | 肝素輔因子 II 缺乏症 (Heparin Cofactor 2 Deficiency) |
-| TxGNN 預測分數 | 99.50% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 肝素輔因子 II 缺乏症 (heparin cofactor 2 deficiency) |
+| TxGNN 預測分數 | 0.9950 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
-> 備註：香港許可證資料中未載明核准適應症文字，上表「原適應症」係依藥物知識圖譜的適應症資料列出。
 
 ---
 
@@ -66,7 +65,7 @@ TxGNN 模型預測它可能對**肝素輔因子 II 缺乏症 (Heparin Cofactor 2
 
 肝素輔因子 II 缺乏症是一種血栓傾向疾病，起因是絲胺酸蛋白酶抑制劑 SERPIND1 的活性下降，導致抑制凝血酶的能力不足。CGRP 訊號傳遞並不已知會調控肝素輔因子 II 或凝血酶抑制，因此**目前找不到可信的機轉連結**。
 
-TxGNN 的高分（0.995）較可能來自知識圖譜中與凝血相關節點的網路鄰近性，而非生物學上的理由。同一藥物排名前三的預測（肝素輔因子 II 缺乏症、抗凝血酶缺乏症第 2 型、因子 V 過量伴自發性血栓）都屬於血栓傾向疾病，顯示這可能是知識圖譜的系統性假象，而非各自獨立的生物訊號。CGRP 雖有血管擴張作用，但與凝血抑制因子缺乏無關。
+TxGNN 模型（深度學習）給出的高分（0.9950）可能反映模型從相關疾病間學到的相似性，而非生物學上的理由。同一藥物排名前三的預測（肝素輔因子 II 缺乏症、抗凝血酶缺乏症第 2 型、因子 V 過量伴自發性血栓）都屬於血栓傾向疾病，顯示這可能是模型學到的疾病相似性所造成的系統性假象，而非各自獨立的生物訊號。CGRP 雖有血管擴張作用，但與凝血抑制因子缺乏無關。
 
 ---
 
@@ -105,7 +104,7 @@ TxGNN 的高分（0.995）較可能來自知識圖譜中與凝血相關節點的
 
 **理由：**
 - 預測僅來自模型計算（證據等級 L5），沒有任何臨床試驗或文獻佐證，且機轉上找不到合理連結。
-- 三個預測適應症都屬血栓傾向疾病，高分很可能是知識圖譜的假象。
+- 三個預測適應症都屬血栓傾向疾病，高分很可能反映 TxGNN 模型（深度學習）從相關疾病間學到的相似性，而非生物學證據。
 
 **若要推進需要：**
 - 取得 Galcanezumab 的作用機轉資料（MOA）與香港仿單的警語、禁忌症

@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Brompheniramine
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 135
-evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-14
-description: "Brompheniramine：預測新適應症為過敏性蕁麻疹 (Allergic Urticaria)（證據等級 L5）。原適應症：過敏性鼻炎、血管運動性鼻炎、感冒、異位性結膜炎、乳突性結膜炎、春季結膜炎、家族性皮膚劃紋症、蕁麻疹、血管性水腫"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Brompheniramine: known uses and market status in Hong Kong; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Brompheniramine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,66 +32,67 @@ description: "Brompheniramine：預測新適應症為過敏性蕁麻疹 (Allergi
 
 </div>
 
-## Brompheniramine：從過敏性鼻炎與蕁麻疹到過敏性蕁麻疹
+<!-- known-uses-page -->
+<!-- description: Brompheniramine: known uses and market status in Hong Kong; currently no new candidate indication -->
+## Brompheniramine：香港的已知用途與上市狀態
 {: .text-alpha }
 
-## 一句話總結
-
-Brompheniramine 是第一代 H1 抗組織胺藥物（烷基胺類），原本用於過敏性鼻炎、感冒症狀、結膜炎及蕁麻疹等。
-TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效，
-但目前**沒有任何臨床試驗或文獻**支持，證據僅來自模型預測。
-
----
+## 摘要
+TxGNN 深度學習模型（分數 ≥ 0.99）為 Brompheniramine 產生的候選適應症，經追溯來源後全部屬於已知用途，因此目前沒有新的預測適應症。以下列出這些已知用途及其在知識圖譜中的來源。
 
 ## 快速總覽
-
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、感冒、異位性結膜炎、乳突性結膜炎、春季結膜炎、家族性皮膚劃紋症、蕁麻疹、血管性水腫（來自知識圖譜的適應症資料；香港許可證未載明核准適應症文字） |
-| 預測新適應症 | 過敏性蕁麻疹 (Allergic Urticaria) |
-| TxGNN 預測分數 | 99.87% |
-| 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 20 張 |
-| 建議決策 | Hold |
+| 新預測適應症 | 無（模型候選中可追溯者皆為已知用途） |
+| 模型候選中的已知用途數 | 2 |
+| 證據等級 | 不適用 |
+| 香港上市狀態 | 上市中（有效許可證至少 20 張） |
+| 許可證數 | 至少 20 張 |
 
----
+## 模型候選中的已知用途
 
-## 為什麼這個預測合理？
+### 已核准（有許可證或仿單支持）
+| 適應症 | 來源 |
+|------|------|
+| 無 | 無 |
 
-目前缺乏詳細的作用機轉資料。根據已知的藥理類別，Brompheniramine 屬於第一代 H1 受體拮抗劑，過敏性蕁麻疹主要由肥大細胞釋放組織胺所引起，因此阻斷 H1 受體在機轉上是合理的。
+### 與已核准適應症相關（同一疾病類別）
+| 適應症 | 已核准類別 |
+|------|------|
+| 無 | 無 |
 
-需要注意的是，Brompheniramine 的原適應症本身已包含蕁麻疹與血管性水腫。過敏性蕁麻疹其實是既有適應症的亞型，而非真正全新的再利用方向。TxGNN 的高分很可能反映了它與已知適應症的高度接近。
-
-此外，這段機轉推論來自 H1 抗組織胺的一般類別藥理，並非本報告所整理的藥物專屬資料。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記
-
----
-
-## 文獻證據
-
-目前無相關文獻
-
----
+### 知識圖譜中記錄的關係（未找到核准）
+| 適應症 |
+|------|
+| 過敏性蕁麻疹 (allergic urticaria) |
+| 寒冷性蕁麻疹 (cold urticaria) |
 
 ## 香港上市資訊
 
-香港共有 20 張有效的單方許可證，以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：
+| 許可證字號 | 品名 | 劑型 | 狀態 |
+|------|------|------|------|
+| HK-49258 | PUKAMIN TAB 4MG |  | 有效 |
+| HK-22814 | BROMITON TAB 4MG |  | 有效 |
+| HK-55190 | BROMPHENIRAMINE TAB 4MG (JEN SHENG) |  | 有效 |
+| HK-21866 | BROMITON SYRUP 2MG/5ML |  | 有效 |
+| HK-52673 | BRONCOMINE TAB 4MG |  | 有效 |
+| HK-55641 | BROMPHEN COLD SYRUP |  | 有效 |
+| HK-16441 | NASECO-F TAB |  | 有效 |
+| HK-55640 | LOYAL COLD SYRUP |  | 有效 |
+| HK-13707 | RHINOBOL CAP |  | 有效 |
+| HK-09388 | SINUFORT CAP |  | 有效 |
+| HK-13680 | LINDERTON CAP |  | 有效 |
+| HK-48604 | BROM-RAMINE CO. SYRUP (NEW FORMULA) |  | 有效 |
+| HK-55639 | KID COLD SYRUP |  | 有效 |
+| HK-09369 | SINUCAP CAP |  | 有效 |
+| HK-47462 | DIMETAPP ELIXIR |  | 有效 |
+| HK-12115 | NASACIN CAP |  | 有效 |
+| HK-14353 | NATSIN CAP |  | 有效 |
+| HK-13654 | RHINOCO ANTIHISTAMINE CAP |  | 有效 |
+| HK-51583 | UNIHIST SYRUP |  | 有效 |
+| HK-16451 | MASETON CAP |  | 有效 |
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-49258 | PUKAMIN TAB 4MG | 未載明 | 未載明 |
-| HK-22814 | BROMITON TAB 4MG | 未載明 | 未載明 |
-| HK-55190 | BROMPHENIRAMINE TAB 4MG (JEN SHENG) | 未載明 | 未載明 |
-| HK-21866 | BROMITON SYRUP 2MG/5ML | 未載明 | 未載明 |
-| HK-52673 | BRONCOMINE TAB 4MG | 未載明 | 未載明 |
-
----
+資料只收錄部分許可證，清單可能不完整。
 
 ## 安全性考量
 
@@ -103,19 +105,6 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 
 ---
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 目前沒有任何臨床試驗或文獻支持，證據等級僅為 L5，TxGNN 的高分只是計算預測，並非臨床證據。
-- 過敏性蕁麻疹屬於既有蕁麻疹適應症的亞型，新增價值有限。另外，現行指引一般偏好低鎮靜性的第二代抗組織胺。
-
-**若要推進需要：**
-- 取得香港仿單，確認核准適應症、警語與禁忌
-- 補充 Brompheniramine 的詳細作用機轉資料
-- 檢索並評估 Brompheniramine 用於過敏性蕁麻疹的臨床研究，並與第二代抗組織胺比較療效與鎮靜、抗膽鹼負擔
-- 確認這項預測是否真的帶來新的臨床價值，或僅是既有適應症的重複
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

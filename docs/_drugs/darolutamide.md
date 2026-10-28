@@ -4,17 +4,17 @@ title: Darolutamide
 parent: 僅模型預測 (L5)
 nav_order: 246
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Darolutamide：預測新適應症為多發性內分泌腫瘤 (Multiple Endocrine Neoplasia)（證據等級 L5）。原適應症：香港許可證未登載適應症文字"
 monitor_inn: "Darolutamide"
-predicted_indications: ["homozygous familial hypercholesterolemia", "multiple endocrine neoplasia", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "cytomegalovirus infection", "thrombotic disease", "malignant catarrh", "infectious bovine rhinotracheitis"]
+predicted_indications: ["homozygous familial hypercholesterolemia", "multiple endocrine neoplasia", "HIV infectious disease"]
+description: "Darolutamide：預測新適應症為Homozygous familial hypercholesterolemia（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Darolutamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["homozygous familial hypercholesterolemia", "multiple en
 
 </div>
 
-## Darolutamide：從前列腺癌相關治療到多發性內分泌腫瘤（預測）
+## Darolutamide: Homozygous familial hypercholesterolemia
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,15 +47,15 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neo
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證未登載適應症文字 |
-| 預測新適應症 | 多發性內分泌腫瘤 (Multiple Endocrine Neoplasia) |
-| TxGNN 預測分數 | 99.06% |
-| 證據等級 | L4（僅有間接的臨床試驗，無直接研究） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Homozygous familial hypercholesterolemia |
+| TxGNN 預測分數 | 0.9911 |
+| 證據等級 | L5（僅有間接的臨床試驗，無直接研究） |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
-> 說明：TxGNN 排名第 1 的預測為家族性高膽固醇血症（分數 99.11%），但該預測沒有任何試驗或文獻支持，機轉上也無合理關聯。本報告以有間接臨床試驗線索的「多發性內分泌腫瘤」為主要分析對象，其餘預測列於「其他預測適應症」。
+> 說明：TxGNN 排名第 1 的預測為家族性高膽固醇血症（分數 0.9911），但該預測沒有任何試驗或文獻支持，機轉上也無合理關聯。本報告以有間接臨床試驗線索的「多發性內分泌腫瘤」為主要分析對象，其餘預測列於「其他預測適應症」。
 
 ---
 
@@ -65,7 +65,7 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neo
 
 多發性內分泌腫瘤（MEN1/MEN2）是由特定基因變異（如 MEN1、RET）引起的遺傳性腫瘤症候群，目前沒有證據顯示其腫瘤生長依賴雄激素受體。
 
-TxGNN 的高分預測較可能來自知識圖譜中「腫瘤／內分泌腫瘤」的廣泛註解關聯，而非真正的雄激素受體依賴性。**整體來看，此預測缺乏機轉支持，應視為假說生成而非可行動的結論。**
+**整體來看，此預測缺乏機轉支持，應視為假說生成而非可行動的結論。**
 
 ---
 
@@ -123,15 +123,8 @@ TxGNN 的高分預測較可能來自知識圖譜中「腫瘤／內分泌腫瘤�
 
 | 排名 | 預測疾病 | 分數 | 證據等級 | 評估 |
 |-----|---------|------|---------|------|
-| 1 | 同合子家族性高膽固醇血症 | 99.11% | L5 | 病因為 LDL 受體路徑缺陷，無機轉關聯 |
-| 3 | HIV 感染 | 99.04% | L5 | 雄激素受體拮抗無抗病毒作用；且 DDI 負擔高，不利於抗反轉錄病毒治療者 |
-| 4 | 猴免疫缺陷病毒感染 | 98.70% | L5 | 可能由 HIV 節點傳遞而來，為動物疾病 |
-| 5 | 貓後天免疫缺乏症候群 | 98.70% | L5 | 獸醫疾病，無支持 |
-| 6 | 神經發展障礙（伴共濟失調步態、無語言等） | 98.56% | L5 | 罕見遺傳疾病，無關聯 |
-| 7 | 巨細胞病毒感染 | 98.33% | L5 | 無已知抗病毒機轉 |
-| 8 | 血栓性疾病 | 98.29% | L4 | 僅 1 篇個案報告（前列腺癌之副腫瘤症候群），並非藥物療效研究；血栓關聯較可能屬安全性考量 |
-| 9 | 惡性卡他熱 | 98.18% | L5 | 反芻動物疾病，無支持 |
-| 10 | 傳染性牛鼻氣管炎 | 98.18% | L5 | 牛疾病，無支持 |
+| 1 | 同合子家族性高膽固醇血症 | 0.9911 | L5 | 病因為 LDL 受體路徑缺陷，無機轉關聯 |
+| 3 | HIV 感染 | 0.9904 | L5 | 雄激素受體拮抗無抗病毒作用；且 DDI 負擔高，不利於抗反轉錄病毒治療者 |
 
 ---
 
@@ -141,7 +134,6 @@ TxGNN 的高分預測較可能來自知識圖譜中「腫瘤／內分泌腫瘤�
 
 **理由：**
 - 所有預測適應症均缺乏機轉依據，且沒有任何已完成的 RCT 或直接文獻支持。唯一的間接臨床試驗實為前列腺癌研究，與多發性內分泌腫瘤無關。
-- 高 TxGNN 分數僅代表圖譜預測，不足以支持推進。
 
 **若要推進需要：**
 - 補齊作用機轉資料，並釐清雄激素受體訊號是否與預測疾病有生物學關聯

@@ -4,17 +4,17 @@ title: Dupilumab
 parent: 中證據等級 (L3-L4)
 nav_order: 303
 evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Dupilumab：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L3）。原適應症：異位性皮膚炎（Atopic Dermatitis）。香港許可證資料未載明適應症文字，此處依知識圖譜的適應症資料"
+indication_count: 9
+last_modified_at: 2026-10-28
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
+description: "Dupilumab：預測新適應症為支氣管炎 (bronchitis)（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Dupilumab
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+證據等級: **L3** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neon
 
 </div>
 
-## Dupilumab：從異位性皮膚炎到支氣管炎
+## Dupilumab: 支氣管炎 (bronchitis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 異位性皮膚炎（Atopic Dermatitis）。香港許可證資料未載明適應症文字，此處依知識圖譜的適應症資料 |
-| 預測新適應症 | 支氣管炎 (Bronchitis) |
-| TxGNN 預測分數 | 99.92% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 支氣管炎 (bronchitis) |
+| TxGNN 預測分數 | 0.9992 |
 | 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold（列為研究問題） |
 
 ---
@@ -133,7 +133,7 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前�
 ---
 
 **補充說明（其他預測）：**
-預測清單中的第 2 名「皮膚炎 (dermatitis)」得分 99.71%，有多項已完成的 Phase 3 RCT（證據等級 L1），但異位性皮膚炎本身即為原核准適應症，並非真正的再利用。其中值得留意的延伸方向為異位性手足皮膚炎（NCT04417894）。其餘預測（如新生兒皮肌炎、糖尿病視網膜病變等）幾乎沒有證據支持，建議維持 Hold。
+其中值得留意的延伸方向為異位性手足皮膚炎（NCT04417894）。其餘預測（如新生兒皮肌炎、糖尿病視網膜病變等）幾乎沒有證據支持，建議維持 Hold。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

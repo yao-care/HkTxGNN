@@ -6,7 +6,7 @@ nav_order: 706
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pirfenidone：預測新適應症為纖維母細胞腫瘤 (Fibroblastic Neoplasm)（證據等級 L5）。原適應症：特發性肺纖維化、急性間質性肺炎、特發性間質性肺炎"
+description: "Pirfenidone：預測新適應症為肥大細胞瘤外型（證據等級 L5）。原適應症：特發性肺纖維化、急性間質性肺炎、特發性間質性肺炎"
 monitor_inn: "Pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protu
 
 </div>
 
-## Pirfenidone：從特發性肺纖維化到纖維母細胞腫瘤
+## Pirfenidone：從特發性肺纖維化到肥大細胞瘤外型
 {: .text-alpha }
 
 ## 一句話總結
@@ -50,10 +50,10 @@ TxGNN 模型預測分數最高的是**肥大細胞瘤外型 (extracutaneous mast
 |------|------|
 | 原適應症 | 特發性肺纖維化、急性間質性肺炎、特發性間質性肺炎（香港許可證未載明適應症文字，此為知識圖譜資料） |
 | 預測新適應症 | 纖維母細胞腫瘤 (Fibroblastic Neoplasm)；排名第 1 的預測為肥大細胞瘤外型 (extracutaneous mastocytoma) |
-| TxGNN 預測分數 | 99.23%（纖維母細胞腫瘤）；排名第 1 者為 99.71% |
-| 證據等級 | L4（纖維母細胞腫瘤）；排名第 1 者為 L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| TxGNN 預測分數 | 0.9923（纖維母細胞腫瘤）；排名第 1 者為 0.9971 |
+| 證據等級 | L5（纖維母細胞腫瘤）；排名第 1 者為 L5 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ---

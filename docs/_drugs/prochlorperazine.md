@@ -6,9 +6,9 @@ nav_order: 736
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Prochlorperazine：預測新適應症為視網膜失養症 (retinal dystrophy with or without extraocular anomalies)（證據等級 L5）。原適應症：思覺失調症"
 monitor_inn: "Prochlorperazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+description: "Prochlorperazine：預測新適應症為視網膜失養症 (retinal dystrophy with or without extraocular anomalies)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Prochlorperazine
@@ -33,7 +33,7 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-## Prochlorperazine：從思覺失調症到視網膜失養症（模型預測首位）
+## Prochlorperazine: 視網膜失養症 (retinal dystrophy with or without extraocular anomalies)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測分數最高的新適應症是**視網膜失養症 (retinal dy
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 思覺失調症（許可證資料未載明適應症文字，依知識圖譜適應症資料） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | 視網膜失養症 (retinal dystrophy with or without extraocular anomalies) |
-| TxGNN 預測分數 | 99.998% |
+| TxGNN 預測分數 | 1.0000 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 12 張 |
+| 香港上市 | 上市中（有效許可證 12 張／共 12 張） |
+| 許可證數 | 12 張（有效 12 張） |
 | 建議決策 | Hold |
 
 ---

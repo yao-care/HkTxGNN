@@ -4,17 +4,17 @@ title: Felbinac
 parent: 僅模型預測 (L5)
 nav_order: 365
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Felbinac：預測新適應症為Brachyolmia-Amelogenesis Imperfecta 症候群（證據等級 L5）。原適應症：骨關節炎、關節病變"
+indication_count: 9
 monitor_inn: "FELBINAC"
-predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "pseudoachondroplasia"]
+predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "combined immunodeficiency due to moesin deficiency", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis"]
+last_modified_at: 2026-10-23
+description: "Felbinac：預測新適應症為Brachyolmia-amelogenesis imperfecta syndrome（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Felbinac
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,43 +33,33 @@ predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromes
 
 </div>
 
-## Felbinac：從骨關節炎到 Brachyolmia-Amelogenesis Imperfecta 症候群
+## Felbinac: Brachyolmia-amelogenesis imperfecta syndrome
 {: .text-alpha }
 
 ## 一句話總結
 
-Felbinac 是一種外用非類固醇消炎止痛藥（NSAID），原本用於骨關節炎與關節病變。
-TxGNN 模型預測它可能對**Brachyolmia-Amelogenesis Imperfecta 症候群**有效，
-但目前**沒有任何臨床試驗或文獻**支持，僅屬模型預測，證據等級為 L5。
+Felbinac 是一種外用非類固醇消炎止痛藥（NSAID），知識圖譜中記錄的相關適應症為骨關節炎與關節病變。
+TxGNN 模型預測它可能對**腦骨發育不全-牙釉質發育不全症候群 (brachyolmia-amelogenesis imperfect syndrome)** 有效，但目前**沒有任何臨床試驗或文獻**支持，僅屬模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 骨關節炎、關節病變（香港許可證未載明適應症，此為知識圖譜資料） |
-| 預測新適應症 | Brachyolmia-Amelogenesis Imperfecta 症候群 |
-| TxGNN 預測分數 | 99.99% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Brachyolmia-amelogenesis imperfecta syndrome |
+| TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Felbinac 屬於外用 NSAID，一般認為是透過抑制環氧合酶（COX）發揮消炎止痛作用，用於肌肉骨骼疼痛與發炎。
+目前缺乏詳細的作用機轉資料。Felbinac 屬於芳基乙酸類 NSAID，一般認為透過抑制環氧合酶（COX）減少前列腺素生成，以緩解發炎與疼痛。
 
-Brachyolmia-Amelogenesis Imperfecta 症候群是罕見的遺傳性疾病，影響骨骼與牙釉質發育，與 LTBP3 等基因有關。COX 抑制對這類基因缺陷沒有已知的矯正作用。
+本預測的疾病是一種罕見的遺傳性骨骼與牙齒疾病（與 LTBP3 變異相關）。COX 抑制並不針對其根本的遺傳缺陷，因此機轉上找不到合理連結。較可能的解釋是：模型因為此疾病與骨關節炎同屬肌肉骨骼相關網絡而給出高分，而非真有治療機轉。
 
-這個高分預測較可能來自知識圖譜中與骨骼發育不良相關節點的網路鄰近性，而非生物學或臨床證據。即使有效，最多也只是緩解症狀，並非疾病修飾。
-
-**其他預測適應症（同樣僅為模型預測，無試驗或文獻）：**
-
-| 排名 | 疾病 | TxGNN 分數 | 合理性評估 |
-|------|------|-----------|-----------|
-| 2 | Acromesomelic dysplasia, Hunter-Thompson type | 99.99% | 由 GDF5 功能喪失變異造成，影響 BMP 訊號與軟骨生成；Felbinac 不作用於此路徑，至多緩解疼痛 |
-| 3 | Myosclerosis | 99.99% | 肌肉纖維化與關節攣縮；僅有微弱間接可能（症狀緩解），無抗纖維化證據 |
-| 4 | Brachyolmia | 99.99% | 遺傳性骨骼發育不良（如 PAPSS2、TRPV4 變異）；COX 抑制無法處理根本缺陷 |
-| 5 | Pseudoachondroplasia | 99.99% | COMP 變異導致早發性骨關節炎；與 Felbinac 原適應症的關節疼痛有重疊，但僅為症狀緩解 |
+其他同類預測也有相同問題，例如髖肢中段發育不良（Hunter-Thompson 型）、肌硬化症、脊柱短軀症、假性軟骨發育不全等，皆缺乏證據。其中機轉上較合理的是**青少年特發性關節炎（JIA）**：NSAID 是 JIA 症狀治療的一環，但 felbinac 用於 JIA 沒有任何試驗或文獻，兒童安全性與療效也未驗證，只能視為研究問題。
 
 ## 臨床試驗證據
 
@@ -85,8 +75,6 @@ Brachyolmia-Amelogenesis Imperfecta 症候群是罕見的遺傳性疾病，影�
 |---------|------|------|-----------|
 | HK-56207 | SUPER STRONG AMMELTZ FELBINA-ACE LIQUID | 未載明 | 未載明 |
 
-廠商為 Kobayashi Pharmaceutical (Hong Kong) Company Limited，屬單一成分製劑，許可證有效。
-
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
@@ -96,14 +84,14 @@ Brachyolmia-Amelogenesis Imperfecta 症候群是罕見的遺傳性疾病，影�
 **決策：Hold**
 
 **理由：**
-- 五個預測適應症都只有模型分數，沒有臨床試驗、文獻或明確的機轉支持。
-- 這些疾病多為遺傳性骨骼或肌肉發育異常，NSAID 無法針對根本病因，最多只能緩解症狀。
+- 所預測的疾病沒有任何臨床試驗或文獻直接研究，證據等級為 L5，且機轉上缺乏合理連結。
+- 作用機轉與安全性資料皆缺漏，無法進一步評估。
 
 **若要推進需要：**
-- 補齊 Felbinac 的作用機轉資料（可查詢 DrugBank）。
-- 取得香港衞生署仿單，確認警語、禁忌與核准適應症。
-- 進行文獻與試驗的系統性檢索，確認是否有任何疾病相關證據。
-- 若仍要探索，建議將目標限縮為「症狀緩解」（如 Pseudoachondroplasia 的繼發性關節疼痛），並評估外用途徑是否適用。
+- 補齊 felbinac 的作用機轉資料
+- 取得香港衛生署仿單中的警語、禁忌與適應症資訊
+- 若要探索，建議優先評估青少年特發性關節炎（JIA）這個較合理的方向，先做文獻回顧與兒童安全性評估
+- 對遺傳性骨骼發育不良類疾病，除非有新的機轉證據，否則不建議投入資源
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

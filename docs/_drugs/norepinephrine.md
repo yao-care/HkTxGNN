@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Norepinephrine
-parent: 僅模型預測 (L5)
+parent: 中證據等級 (L3-L4)
 nav_order: 628
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Norepinephrine：預測新適應症為阻塞性肺病 (Obstructive Lung Disease)（證據等級 L5）。原適應症：香港許可證未登載適應症文字"
 monitor_inn: "Norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
+description: "Norepinephrine：預測新適應症為阻塞性肺病 (obstructive lung disease)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Norepinephrine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+證據等級: **L4** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ predicted_indications: ["obstructive lung disease", "respiratory malformation", 
 
 </div>
 
-## Norepinephrine：從氣喘／低血壓到阻塞性肺病
+## Norepinephrine: 阻塞性肺病 (obstructive lung disease)
 {: .text-alpha }
 
 ## 一句話總結
 
-Norepinephrine（去甲腎上腺素）是一種全身性血管加壓劑，知識圖譜列出的原適應症包含氣喘、支氣管炎、肺氣腫與低血壓。
+Norepinephrine（去甲腎上腺素）是一種全身性血管加壓劑，原適應症包含氣喘、支氣管炎、肺氣腫與低血壓。
 TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有效，但目前僅有 **1 個間接相關的臨床試驗**（相關性評為 C 級）和一批以機轉背景為主的文獻，**沒有直接的臨床證據**。
 
 ---
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證未登載適應症文字；知識圖譜列出氣喘、支氣管炎、肺氣腫、支氣管擴張、低血壓等 |
-| 預測新適應症 | 阻塞性肺病 (Obstructive Lung Disease) |
-| TxGNN 預測分數 | 99.84% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 阻塞性肺病 (obstructive lung disease) |
+| TxGNN 預測分數 | 0.9984 |
 | 證據等級 | L4（僅有機轉層面的間接研究） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 7 張 |
+| 香港上市 | 上市中（有效許可證 7 張／共 7 張） |
+| 許可證數 | 7 張（有效 7 張） |
 | 建議決策 | Hold |
 
 ---
@@ -141,8 +141,8 @@ TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有
 
 ## 其他預測適應症（附註）
 
-- **呼吸道畸形 (Respiratory Malformation)**（TxGNN 分數 99.84%，證據等級 L5）：文獻多為呼吸中樞的神經調控、產前藥物暴露與先天異常風險等，並非治療證據；對結構性畸形而言，血管加壓劑不具合理的治療標的。建議 Hold。
-- **Rienhoff 症候群 (Rienhoff Syndrome)**（TxGNN 分數 99.83%，證據等級 L5）：目前無臨床試驗與文獻，無法評估生物學合理性。建議 Hold。
+- **呼吸道畸形 (Respiratory Malformation)**（TxGNN 分數 0.9984，證據等級 L5）：文獻多為呼吸中樞的神經調控、產前藥物暴露與先天異常風險等，並非治療證據；對結構性畸形而言，血管加壓劑不具合理的治療標的。建議 Hold。
+- **Rienhoff 症候群 (Rienhoff Syndrome)**（TxGNN 分數 0.9983，證據等級 L5）：目前無臨床試驗與文獻，無法評估生物學合理性。建議 Hold。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

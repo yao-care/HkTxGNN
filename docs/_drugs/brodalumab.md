@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Brodalumab：預測新適應症為類圓線蟲病 (Strongyloidiasis)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Brodalumab"
-predicted_indications: ["strongyloidiasis", "eye disease", "vitamin deficiency disorder", "von Hippel anomaly", "optic perineuritis", "recurrent idiopathic neuroretinitis", "chronic relapsing inflammatory optic neuropathy", "isolated optic neuritis", "nodular episcleritis", "episcleritis periodica fugax"]
+predicted_indications: ["strongyloidiasis", "eye disease", "vitamin deficiency disorder", "von Hippel anomaly", "optic perineuritis", "recurrent idiopathic neuroretinitis", "chronic relapsing inflammatory optic neuropathy", "isolated optic neuritis", "episcleritis periodica fugax", "nodular episcleritis"]
 ---
 
 # Brodalumab
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對 **類圓線蟲病 (Strongyloidiasis)** 有效，�
 |------|------|
 | 原適應症 | 資料未載明（香港許可證的核准適應症欄位為空白） |
 | 預測新適應症 | 類圓線蟲病 (Strongyloidiasis) |
-| TxGNN 預測分數 | 99.84% |
+| TxGNN 預測分數 | 0.9984 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ Brodalumab 是 IL-17 受體 A 拮抗劑，可同時阻斷多種 IL-17 家族細�
 
 不過，類圓線蟲病是由蠕蟲引起的感染，免疫反應主要由 Th2／嗜酸性球驅動。阻斷 IL-17R 預期無法治療此病，甚至可能因免疫調節而削弱對寄生蟲的控制，使病情惡化。
 
-因此，目前看不出明確的機轉連結。這個高分更像是知識圖譜的模型預測結果，缺乏任何實證支持。
+因此，目前看不出明確的機轉連結。這個高分來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，並非生物學證據。
 
 其他排名較前的預測中，**眼部發炎性疾病**（如視神經炎、葡萄膜炎相關）在機轉上較有理論依據（IL-17／Th17 參與發炎），但同樣缺乏療效證據，且有潛在安全性訊號（見下文）。
 

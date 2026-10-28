@@ -1,18 +1,20 @@
 ---
 layout: default
 title: Perampanel
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 681
-evidence_level: L4
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Perampanel：預測新適應症為視覺性癲癇 (Visual Epilepsy)（證據等級 L4）。原適應症：局部癲癇 (partial epilepsy)、局部運動性癲癇 (partial motor epilepsy)"
+evidence_level: L5
+indication_count: 1
+monitor_inn: "PERAMPANEL"
+predicted_indications: ["beta-ketothiolase deficiency"]
+last_modified_at: 2026-10-23
+description: "Perampanel：預測新適應症為β-酮硫解酶缺乏症（證據等級 L5）。原適應症：局部癲癇、局部運動性癲癇"
 ---
 
 # Perampanel
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,118 +33,78 @@ description: "Perampanel：預測新適應症為視覺性癲癇 (Visual Epilepsy
 
 </div>
 
-## Perampanel：從局部癫癇到視覺性癲癇
+## Perampanel：從局部癲癇到 β-酮硫解酶缺乏症
 {: .text-alpha }
 
 ## 一句話總結
 
-Perampanel 是一種選擇性、非競爭性的 AMPA 受體拮抗劑，原本用於局部癲癇（partial epilepsy）的治療。
-TxGNN 模型預測它可能對**視覺性癲癇 (Visual Epilepsy)** 有效，但目前**沒有臨床試驗**，且檢索到的 **18 篇文獻**多為一般癲癇的指引、回顧與藥理概述，並未直接針對視覺性癲癇，因此證據仍屬初步。
-
----
+Perampanel 是一種抗癲癇藥物，原本用於局部癲癇（知識圖譜中記錄為 partial epilepsy 與 partial motor epilepsy）。
+TxGNN 模型預測它可能對 **β-酮硫解酶缺乏症 (beta-ketothiolase deficiency)** 有效，
+但目前**沒有任何臨床試驗或文獻**支持這個方向，僅有模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 局部癲癇 (partial epilepsy)、局部運動性癲癇 (partial motor epilepsy) |
-| 預測新適應症 | 視覺性癲癇 (Visual Epilepsy) |
-| TxGNN 預測分數 | 99.92% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 7 張 |
+| 原適應症 | 局部癲癇、局部運動性癲癇（來自知識圖譜記錄；香港許可證未載明核准適應症文字） |
+| 預測新適應症 | β-酮硫解酶缺乏症 |
+| TxGNN 預測分數 | 0.9979 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 7 張／共 7 張） |
+| 許可證數 | 7 張（有效 7 張） |
 | 建議決策 | Hold |
-
-> 註：香港許可證資料中未提供核准適應症文字，「原適應症」係取自知識圖譜的適應症關聯。
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（MOA 欄位待補）。不過根據文獻資訊，Perampanel 是選擇性、非競爭性的 AMPA 型麩胺酸受體拮抗劑，透過抑制突觸後膜的興奮性傳導來控制癲癇發作，已被核准作為局部發作型癲癇的輔助治療。
+目前缺乏詳細的作用機轉資料。根據已知資訊，perampanel 是選擇性、非競爭性的 AMPA 型麩胺酸受體拮抗劑，用於控制癲癇發作。
 
-視覺性癲癇（例如光敏感性或枕葉起源的發作）與局部癲癇同屬麩胺酸介導的神經過度興奮，因此在機轉上有合理的生物學基礎。
+β-酮硫解酶缺乏症（ACAT1/T2 缺乏）是異白胺酸與酮體代謝的先天性代謝異常，特徵為反覆發作的酮酸中毒，嚴重發作後可能留下神經學後遺症。
 
-需要特別注意：TxGNN 的高分很可能反映的是該疾病在知識圖譜中與已核准的局部癲癇適應症相近，而非獨立的證據。目前檢索到的文獻並未專門探討視覺性癲癇，所以這個預測應視為「值得研究的假說」，而非已被支持的結論。
-
----
+AMPA 受體拮抗作用與這個酵素缺陷之間，目前**沒有已確立的直接生物學連結**。可能的關聯只能是間接的，例如控制代謝危機後的癲癇發作，或減輕興奮性毒性傷害，但這些都屬推測。0.9979 的高分來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
-以下依證據層級優先列出（系統性回顧 > 指引/回顧 > 觀察性研究/病例報告），均為一般癲癇或 Perampanel 相關研究，**非視覺性癲癇專屬**：
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | 系統性回顧/網絡統合分析 | Journal of neurology | 比較抗癲癇藥物用於特發性全身性癲癇的療效與安全性 |
-| [35061214](https://pubmed.ncbi.nlm.nih.gov/35061214/) | 2022 | 系統性回顧/網絡統合分析 | Drugs | 比較含 Perampanel 在內的第三代抗癲癇藥物作為成人局部發作的輔助治療 |
-| [37059702](https://pubmed.ncbi.nlm.nih.gov/37059702/) | 2023 | Cochrane 系統性回顧 | Cochrane Database Syst Rev | Perampanel 輔助治療藥物難治性局部癲癇 |
-| [29898971](https://pubmed.ncbi.nlm.nih.gov/29898971/) | 2018 | 指引 | Neurology | AAN/AES 新發作癲癇的新型抗癲癇藥物治療指引更新 |
-| [36150304](https://pubmed.ncbi.nlm.nih.gov/36150304/) | 2022 | 回顧 | Epilepsy & Behavior | Perampanel 單一療法的臨床試驗與真實世界證據 |
-| [39499201](https://pubmed.ncbi.nlm.nih.gov/39499201/) | 2024 | 先導試驗 | Clin Cancer Res | Perampanel 用於高惡性度膠質瘤的腫瘤周邊過度興奮性（非癲癇適應症） |
-| [24559052](https://pubmed.ncbi.nlm.nih.gov/24559052/) | 2014 | 回顧 | Expert Opin Drug Discov | Perampanel 的研發歷程，為首個 AMPA 受體拮抗型抗癲癇藥 |
-| [26111428](https://pubmed.ncbi.nlm.nih.gov/26111428/) | 2015 | 回顧 | Expert Opin Drug Metab Toxicol | Perampanel 的藥動學與藥效學評估 |
-| [36034267](https://pubmed.ncbi.nlm.nih.gov/36034267/) | 2022 | 世代/病例系列 | Frontiers in neurology | Perampanel 用於兒童失神癲癇的真實世界經驗 |
-| [25878177](https://pubmed.ncbi.nlm.nih.gov/25878177/) | 2015 | 臨床試驗事後分析 | Neurology | 併用酵素誘導型抗癲癇藥時 Perampanel 的療效與耐受性 |
-
----
+目前無相關文獻。
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-62759 | FYCOMPA TABLETS 12MG | 錠劑 | 未提供 |
-| HK-62760 | FYCOMPA TABLETS 10MG | 錠劑 | 未提供 |
-| HK-62761 | FYCOMPA TABLETS 8MG | 錠劑 | 未提供 |
-| HK-62762 | FYCOMPA TABLETS 4MG | 錠劑 | 未提供 |
-| HK-62763 | FYCOMPA TABLETS 2MG | 錠劑 | 未提供 |
+| HK-62764 | FYCOMPA TABLETS 6MG | 未載明 | 未載明 |
+| HK-62762 | FYCOMPA TABLETS 4MG | 未載明 | 未載明 |
+| HK-62763 | FYCOMPA TABLETS 2MG | 未載明 | 未載明 |
+| HK-62761 | FYCOMPA TABLETS 8MG | 未載明 | 未載明 |
+| HK-67556 | FYCOMPA ORAL SUSPENSION 0.5MG/ML | 未載明（口服懸浮液） | 未載明 |
 
-另有 HK-62764（6MG 錠劑）與 HK-67556（0.5MG/ML 口服懸液劑），共 7 張有效許可證，皆由衛采香港有限公司（EISAI (HONG KONG) COMPANY LIMITED）持有。
-
----
+共 7 張單一成分許可證，上表列出其中 5 張，其餘為 FYCOMPA TABLETS 12MG（HK-62759）與 10MG（HK-62760）。
 
 ## 安全性考量
 
-- **藥物交互作用**：已查得 56 筆交互作用紀錄，其中多數為中度。主要包括：
-  - 中樞神經抑制類：Morphine、Codeine、Hydrocodone、Opium、Diphenoxylate、Difenoxin、Dronabinol、Nabilone、Ethanol（可能加重嗜睡、鎮靜與中樞抑制）
-  - 抗組織胺/止吐類：Promethazine、Chlorpheniramine、Azelastine（鼻用）、Metoclopramide
-  - 其他：Dexamethasone、Chloroquine、Hydroxychloroquine、Dextromethorphan、Sibutramine（中度）；Clarithromycin（輕度）
+- **藥物交互作用**：已查得 56 筆交互作用紀錄，以下為部分例子：
+  - 中度：Morphine、Codeine、Hydrocodone、Opium（鴉片類）、Dexamethasone、Metoclopramide、Promethazine、Chlorpheniramine、Dextromethorphan、Chloroquine、Hydroxychloroquine、Dronabinol、Nabilone、Ethanol
+  - 輕度：Clarithromycin
 
-警語與禁忌症資料請參考原廠仿單。
+  多項中度交互作用涉及中樞神經抑制藥物，合併使用時需留意嗜睡與鎮靜加成。
 
----
+其他警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 視覺性癲癇目前沒有臨床試驗，也沒有直接相關的文獻，TxGNN 高分可能只是反映與既有局部癲癇適應症的相近性。
-- 機轉上雖然合理（AMPA 拮抗、麩胺酸過度興奮），但尚無針對此疾病的實證支持。證據等級為 L4。
+- 僅有 TxGNN 模型的高分預測，沒有任何直接研究該疾病的臨床試驗或文獻，證據等級為 L5。
+- 機轉上沒有明確的連結，目前不足以支持推進。
 
 **若要推進需要：**
-- 補充 Perampanel 的作用機轉資料（MOA）
-- 取得香港衛生署仿單，確認警語、禁忌症與核准適應症
-- 針對視覺性（光敏感性/枕葉）癲癇進行專屬文獻檢索，或蒐集病例系列與前臨床資料
-- 評估是否值得設計小型探索性研究
-
----
-
-### 附註：其他預測適應症
-
-以下預測目前證據更為薄弱，同樣建議 **Hold**：
-
-| 預測適應症 | TxGNN 分數 | 證據等級 | 備註 |
-|-----------|-----------|---------|------|
-| 聽源性癲癇 (Audiogenic seizures) | 99.86% | L4 | 僅有動物模型證據（GEPR 大鼠），無人體證據 |
-| 思考誘發型癲癇 (Thinking seizures) | 99.86% | L4 | 僅有間接文獻，無直接證據 |
-| 進食誘發型癲癇 (Eating seizures) | 99.86% | L4 | 僅有 2 篇病例報告，其中一篇為藥物引起的食物厭惡不良反應 |
-| 性高潮誘發型癲癇 (Orgasm-induced seizures) | 99.86% | L5 | 無任何臨床試驗或文獻 |
+- 補充 perampanel 的作用機轉資料，並分析其與異白胺酸／酮體代謝的可能關聯
+- 進行前臨床或機轉研究，驗證 AMPA 受體拮抗對該疾病神經後遺症的作用
+- 取得香港仿單的警語與禁忌症資料，完成安全性篩檢
+- 評估此罕見代謝疾病的病人族群與可行的臨床研究設計
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

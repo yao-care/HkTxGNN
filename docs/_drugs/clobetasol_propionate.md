@@ -6,9 +6,9 @@ nav_order: 213
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Clobetasol Propionate：預測新適應症為外陰倒置性毛囊角化症 (Vulvar Inverted Follicular Keratosis)（證據等級 L5）。原適應症：異位性皮膚炎、接觸性皮膚炎、職業性皮膚炎、脂漏性皮膚炎、脂漏性角化症、頭皮皮膚病"
 monitor_inn: "CLOBETASOL PROPIONATE"
 predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis chronica atrophicans", "exanthem (disease)", "acne keloid", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
+description: "Clobetasol Propionate：預測新適應症為外陰倒置性毛囊角化症 (vulvar inverted follicular keratosis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Clobetasol Propionate
@@ -33,7 +33,7 @@ predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis 
 
 </div>
 
-## Clobetasol Propionate：從異位性皮膚炎等皮膚炎類疾病到外陰倒置性毛囊角化症
+## Clobetasol Propionate: 外陰倒置性毛囊角化症 (vulvar inverted follicular keratosis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,11 +46,11 @@ TxGNN 模型預測它可能對**外陰倒置性毛囊角化症 (Vulvar Inverted 
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 異位性皮膚炎、接觸性皮膚炎、職業性皮膚炎、脂漏性皮膚炎、脂漏性角化症、頭皮皮膚病（許可證未載明適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 外陰倒置性毛囊角化症 (Vulvar Inverted Follicular Keratosis) |
-| TxGNN 預測分數 | 99.46% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 外陰倒置性毛囊角化症 (vulvar inverted follicular keratosis) |
+| TxGNN 預測分數 | 0.9946 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 

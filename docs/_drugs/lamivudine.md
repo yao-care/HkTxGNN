@@ -6,9 +6,9 @@ nav_order: 505
 evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Lamivudine：預測新適應症為猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)（證據等級 L4）。原適應症：慢性 B 型肝炎病毒感染、HIV 感染、愛滋病"
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
+description: "Lamivudine：預測新適應症為猿猴免疫缺陷病毒感染 (simian immunodeficiency virus infection)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Lamivudine
@@ -33,7 +33,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 </div>
 
-## Lamivudine：從慢性 B 型肝炎與 HIV 感染到猿猴免疫缺陷病毒感染
+## Lamivudine: 猿猴免疫缺陷病毒感染 (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,11 +46,11 @@ TxGNN 模型預測它可能對**猿猴免疫缺陷病毒感染 (Simian Immunodef
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 慢性 B 型肝炎病毒感染、HIV 感染、愛滋病（取自知識圖譜；香港許可證未提供適應症文字） |
-| 預測新適應症 | 猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection) |
-| TxGNN 預測分數 | 99.93% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 猿猴免疫缺陷病毒感染 (simian immunodeficiency virus infection) |
+| TxGNN 預測分數 | 0.9993 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -108,7 +108,7 @@ SIV 與 HIV 同屬慢病毒，逆轉錄酶高度同源，因此機轉上可能�
 
 **理由：**
 - 此預測僅有前臨床與體外證據（L4），無臨床試驗。SIV 是 HIV 的動物模型，在人類無獨立的治療價值，而 lamivudine 已核准用於 HIV。
-- 其他預測中，神經發展障礙與已淘汰的家族性複合型高脂血症無證據且機轉不明，應視為模型或知識圖譜的假象；慢性 C 型肝炎因 HCV 不使用逆轉錄酶而缺乏機轉基礎，且已有高效的直接作用抗病毒藥物，亦不建議推進。
+- 其他預測中，神經發展障礙與已淘汰的家族性複合型高脂血症無證據且機轉不明，其分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據；慢性 C 型肝炎因 HCV 不使用逆轉錄酶而缺乏機轉基礎，且已有高效的直接作用抗病毒藥物，亦不建議推進。
 
 **若要推進需要：**
 - 明確界定此預測的應用目的（如僅作為 HIV 動物模型研究工具，則無需臨床開發）

@@ -4,17 +4,17 @@ title: Pretomanid
 parent: 僅模型預測 (L5)
 nav_order: 730
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Pretomanid：預測新適應症為念珠菌感染 (Candidiasis)（證據等級 L5）。原適應症：香港許可證未載明適應症文字（依文獻，Pretomanid 用於與 bedaquiline、linezolid 併用治療耐藥結核病）"
 monitor_inn: "Pretomanid"
-predicted_indications: ["candidiasis", "leprosy", "coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery", "HIV infectious disease", "oral candidiasis", "Bacteroidaceae infectious disease", "thrombocytopenia", "fascioliasis"]
+predicted_indications: ["candidiasis", "leprosy", "coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery"]
+description: "Pretomanid：預測新適應症為念珠菌感染 (candidiasis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Pretomanid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["candidiasis", "leprosy", "coronary artery disease", "my
 
 </div>
 
-## Pretomanid：從結核病到念珠菌感染（預測）
+## Pretomanid: 念珠菌感染 (candidiasis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -44,23 +44,22 @@ Pretomanid 是一種硝基咪唑噁嗪類（nitroimidazooxazine）抗結核藥�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證未載明適應症文字（依文獻，Pretomanid 用於與 bedaquiline、linezolid 併用治療耐藥結核病） |
-| 預測新適應症 | 念珠菌感染 (Candidiasis) |
-| TxGNN 預測分數 | 99.69% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 念珠菌感染 (candidiasis) |
+| TxGNN 預測分數 | 0.9969 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
 目前缺乏詳細的作用機轉資料（DrugBank 未提供）。依一般藥理知識，Pretomanid 是需被活化的前驅藥物，必須由結核分枝桿菌的 Ddn（deazaflavin 依賴性硝基還原酶）活化，再透過釋放一氧化氮造成呼吸毒性，並抑制黴菌酸（mycolic acid）合成。
 
-真菌缺乏這條活化路徑，因此 0.997 的高分應視為知識圖譜上的關聯，而不是有機轉依據的預測。念珠菌感染與結核病的病原體類別不同，兩者在藥理上缺乏明顯的共通靶點。
+真菌缺乏這條活化路徑，因此 0.9969 的高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病間相似性，而不是生物學證據或有機轉依據的預測。念珠菌感染與結核病的病原體類別不同，兩者在藥理上缺乏明顯的共通靶點。
 
 在其他高分預測中，只有**痲瘋病 (leprosy)** 在生物學上較合理，因為痲瘋桿菌同屬分枝桿菌。但痲瘋桿菌已喪失許多基因，是否仍保有 Ddn/F420 活化路徑並不清楚。檢索到的文獻全部是耐藥結核病，沒有任何針對痲瘋病的研究，屬於間接外推。
 
-**HIV 感染**的文獻都是 HIV 合併結核病的治療管理，Pretomanid 本身沒有抗 HIV 活性，因此不構成對 HIV 的再利用證據。
 
 ## 臨床試驗證據
 
@@ -93,7 +92,7 @@ Pretomanid 是一種硝基咪唑噁嗪類（nitroimidazooxazine）抗結核藥�
 
 **理由：**
 - 排名最高的念珠菌感染預測只有模型分數，沒有任何臨床或文獻證據（L5），機轉上也缺乏依據。
-- 前十名預測中，冠狀動脈疾病、心肌缺血、先天性左冠狀動脈異常起源、血小板低下等缺乏合理機轉，多半是圖譜的假關聯。痲瘋病為 L4 但屬間接證據；HIV 感染僅支持 TB-HIV 共感染情境。
+- 前十名預測中，冠狀動脈疾病、心肌缺血、先天性左冠狀動脈異常起源等缺乏合理機轉，其分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病間相似性，而不是生物學證據。痲瘋病為 L4 但屬間接證據。
 
 **若要推進需要：**
 - 若要探索痲瘋病方向：確認痲瘋桿菌是否具備 Ddn/F420 活化路徑，並進行體外或動物模型試驗。

@@ -6,9 +6,9 @@ nav_order: 609
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Natalizumab：預測新適應症為乾癬 (Psoriasis)（證據等級 L5）。原適應症：克隆氏症、發炎性腸道疾病、多發性硬化症"
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
+description: "Natalizumab：預測新適應症為Bronchitis（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Natalizumab
@@ -33,7 +33,7 @@ predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonp
 
 </div>
 
-## Natalizumab：從克隆氏症到乾癬（Psoriasis）
+## Natalizumab: Bronchitis
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測分數最高的新適應症為支氣管炎，但最值得討�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 克隆氏症、發炎性腸道疾病、多發性硬化症（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 乾癬 (Psoriasis)（預測排名第 3；排名第 1 為支氣管炎，因完全無證據支持，不作為主要評估對象） |
-| TxGNN 預測分數 | 99.19%（乾癬）；支氣管炎為 99.46% |
-| 證據等級 | L4（乾癬）；僅有間接與相互矛盾的文獻，無臨床試驗 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Bronchitis |
+| TxGNN 預測分數 | 0.9946 |
+| 證據等級 | L5（乾癬）；僅有間接與相互矛盾的文獻，無臨床試驗 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold（需先完成安全性與訊號審查，才考慮研究性評估） |
 
 ---

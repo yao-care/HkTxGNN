@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
-description: "Demeclocycline：預測新適應症為慢性篩竇炎 (Chronic Ethmoidal Sinusitis)（證據等級 L5）。原適應症：尿路感染、支氣管炎、炭疽感染、金黃色葡萄球菌感染、淋病等細菌感染"
+last_modified_at: 2026-10-28
 monitor_inn: "Demeclocycline"
 predicted_indications: ["chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
+description: "Demeclocycline：預測新適應症為慢性篩竇炎 (chronic ethmoidal sinusitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Demeclocycline
@@ -33,7 +33,7 @@ predicted_indications: ["chronic ethmoidal sinusitis", "chronic rhinosinusitis",
 
 </div>
 
-## Demeclocycline：從尿路感染等細菌感染到慢性篩竇炎
+## Demeclocycline: 慢性篩竇炎 (chronic ethmoidal sinusitis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,15 +46,15 @@ TxGNN 模型預測它可能對**慢性篩竇炎 (Chronic Ethmoidal Sinusitis)** 
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 尿路感染、支氣管炎、炭疽感染、金黃色葡萄球菌感染、淋病等細菌感染（來自知識圖譜資料；香港許可證未載明適應症文字） |
-| 預測新適應症 | 慢性篩竇炎 (Chronic Ethmoidal Sinusitis) |
-| TxGNN 預測分數 | 99.14% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 慢性篩竇炎 (chronic ethmoidal sinusitis) |
+| TxGNN 預測分數 | 0.9914 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
-其他排名較前的預測還包括慢性鼻竇炎 (Chronic Rhinosinusitis，99.09%) 與鼻竇腫瘤 (Paranasal Sinus Neoplasm，99.05%)，同樣沒有臨床試驗或文獻支持。
+其他排名較前的預測還包括慢性鼻竇炎 (Chronic Rhinosinusitis，0.9909) 與鼻竇腫瘤 (Paranasal Sinus Neoplasm，0.9905)，同樣沒有臨床試驗或文獻支持。
 
 ## 為什麼這個預測合理？
 
@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**慢性篩竇炎 (Chronic Ethmoidal Sinusitis)** 
 
 慢性篩竇炎是長期的鼻竇發炎，常有細菌參與，其中金黃色葡萄球菌即屬於此藥原本適應症所涵蓋的病原體。此外，四環素類藥物也有抗發炎及抑制基質金屬蛋白酶 (MMP) 的相關報告，可能與慢性鼻竇發炎有關。
 
-需特別注意：以上皆為四環素類的一般性推論，並非針對 Demeclocycline 與此適應症的直接證據。預測分數可能部分反映知識圖譜中與鼻竇疾病的鄰近關係。至於鼻竇腫瘤的預測，抗菌活性與腫瘤無明確關聯，屬於較弱的假說層級，應謹慎看待。
+需特別注意：以上皆為四環素類的一般性推論，並非針對 Demeclocycline 與此適應症的直接證據。預測分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。至於鼻竇腫瘤的預測，抗菌活性與腫瘤無明確關聯，屬於較弱的假說層級，應謹慎看待。
 
 ## 臨床試驗證據
 

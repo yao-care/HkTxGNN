@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clomipramine
-parent: 僅模型預測 (L5)
+parent: 中證據等級 (L3-L4)
 nav_order: 218
-evidence_level: L5
-indication_count: 10
+evidence_level: L3
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Clomipramine：預測新適應症為焦慮症 (Anxiety Disorder)（證據等級 L5）。原適應症：強迫症 (Obsessive-compulsive disorder)"
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "agoraphobia", "attention deficit-hyperactivity disorder"]
+description: "Clomipramine：預測新適應症為焦慮症 (anxiety disorder)（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Clomipramine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L3** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of in
 
 </div>
 
-## Clomipramine：從強迫症到焦慮症
+## Clomipramine: 焦慮症 (anxiety disorder)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**焦慮症 (Anxiety Disorder)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 強迫症 (Obsessive-compulsive disorder)（香港許可證未列出適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 焦慮症 (Anxiety Disorder) |
-| TxGNN 預測分數 | 99.93% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 焦慮症 (anxiety disorder) |
+| TxGNN 預測分數 | 0.9993 |
 | 證據等級 | L3（無已完成的焦慮症專屬 RCT；僅有間接的強迫症試驗，另有觀察性研究、臨床研究與系統性回顧） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---

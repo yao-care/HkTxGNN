@@ -4,17 +4,17 @@ title: Palonosetron
 parent: 中證據等級 (L3-L4)
 nav_order: 661
 evidence_level: L4
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Palonosetron：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L4）。原適應症：香港許可證資料未載明核准適應症"
 monitor_inn: "PALONOSETRON"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
 ---
 
 # Palonosetron
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L4** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 |------|------|
 | 原適應症 | 香港許可證資料未載明核准適應症 |
 | 預測新適應症 | 偏頭痛 (Migraine Disorder) |
-| TxGNN 預測分數 | 99.74% |
+| TxGNN 預測分數 | 0.9974 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 6 張 |
+| 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
+| 許可證數 | 6 張（有效 6 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 
 不過，唯一檢索到的臨床證據是一篇個案報告，描述的是 palonosetron **誘發**偏頭痛型頭痛。這是指向反方向的安全性訊號，並不支持治療用途。
 
-TxGNN 的高分（99.74%）來自知識圖譜的網路關聯，並無臨床資料佐證。其他預測的適應症（如腦幹型先兆偏頭痛、萎縮性蠕蟲狀皮膚病、眉部紅斑性毛囊角化症）同樣缺乏機轉依據與研究證據，多半是圖譜鄰近性造成的假象。
+TxGNN 模型（深度學習）給出的高分（0.9974）可能反映模型從相關疾病之間學到的相似性，並非生物學證據，也無臨床資料佐證。其他預測的適應症（如腦幹先兆偏頭痛、蠕蟲狀皮膚萎縮、眉部毛囊萎縮性紅斑）同樣缺乏機轉依據與研究證據，多半是模型學到的疾病相似性所造成的假象。
 
 ---
 
@@ -115,7 +115,7 @@ TxGNN 的高分（99.74%）來自知識圖譜的網路關聯，並無臨床資�
 **決策：Hold**
 
 **理由：**
-- 偏頭痛預測僅由知識圖譜推得，無臨床試驗支持，且唯一的文獻證據顯示該藥可能誘發偏頭痛，與預期療效方向相反。
+- 偏頭痛預測僅來自 TxGNN 模型（深度學習），分數可能反映模型學到的相關疾病之間的相似性，並非生物學證據；目前無臨床試驗支持，且唯一的文獻證據顯示該藥可能誘發偏頭痛，與預期療效方向相反。
 - 其餘預測適應症缺乏機轉依據與研究資料，不具備推進條件。
 
 **若要推進需要：**

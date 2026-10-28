@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Glycol Salicylate
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 423
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Glycol Salicylate：預測新適應症為格蘭茲曼血小板無力症 (Glanzmann thrombasthenia)（證據等級 L5）。原適應症：未提供"
+description: "Glycol Salicylate: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Glycol salicylate"
-predicted_indications: ["Glanzmann thrombasthenia", "autoimmune disease", "primary release disorder of platelets", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "thrombophilia", "pseudo-von Willebrand disease", "heparin-induced thrombocytopenia (disease)", "autoimmune inner ear disease", "autoimmune gastritis"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Glycol Salicylate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,55 +35,16 @@ predicted_indications: ["Glanzmann thrombasthenia", "autoimmune disease", "prima
 
 </div>
 
-## Glycol salicylate：從外用止痛消炎到格蘭茲曼血小板無力症（預測）
+## Glycol Salicylate
 {: .text-alpha }
-
-## 一句話總結
-
-Glycol salicylate 是外用水楊酸酯類成分，在香港主要見於貼布、噴霧與外用液等止痛產品。
-TxGNN 模型預測它可能對**格蘭茲曼血小板無力症 (Glanzmann thrombasthenia)** 有效，但目前**沒有任何臨床試驗或文獻**支持，且從機轉看，預測方向很可能與實際藥理作用相反。
-
----
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 未提供（許可證資料中無核准適應症文字；產品類型為外用止痛貼布、噴霧與外用液） |
-| 預測新適應症 | 格蘭茲曼血小板無力症 (Glanzmann thrombasthenia) |
-| TxGNN 預測分數 | 98.17% |
-| 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 13 張 |
-| 建議決策 | Hold |
-
----
-
-## 為什麼這個預測合理？
-
-目前缺乏詳細的作用機轉資料。根據已知資訊，Glycol salicylate 屬於外用水楊酸酯，水楊酸類可抑制血小板環氧合酶（COX），進而削弱血小板功能。
-
-格蘭茲曼血小板無力症是因整合素 αIIbβ3 缺乏或功能異常所造成的出血性疾病。若再抑制血小板功能，預期會**加重出血，而非治療疾病**。因此這個高分預測較可能只是知識圖譜中的關聯，並不代表有治療潛力。
-
-其他排名較高的預測也有類似問題：
-
-- **原發性血小板釋放障礙**：水楊酸類抑制 COX-1 與血栓素 A2 的生成，會造成後天性血小板釋放缺陷，是「模擬」該疾病，而非治療。
-- **自體免疫性胃炎**：水楊酸類易傷害胃黏膜，較可能惡化而非改善。
-- **自體免疫性內耳疾病**：全身性水楊酸有耳毒性，不利於此適應症。
-- **自體免疫疾病（廣義）**：COX 抑制或有症狀緩解作用，但沒有已知的疾病修飾免疫機轉。
-- **血栓性疾病（抗凝血酶缺乏、第五因子過量、血栓形成傾向）**：外用製劑全身暴露量低，且這些疾病由凝血級聯驅動，與血小板功能關聯有限。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
----
-
-## 文獻證據
-
-目前無相關文獻。
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 香港上市 | 上市中（有效許可證 13 張／共 13 張） |
+| 許可證數 | 13 張（有效 13 張） |
 
 ---
 
@@ -105,24 +68,10 @@ TxGNN 模型預測它可能對**格蘭茲曼血小板無力症 (Glanzmann thromb
 
 另外，從機轉推論有以下需留意的方向（屬藥理推論，非仿單內容）：
 
-- 水楊酸類的抗血小板作用，在出血性疾病（如格蘭茲曼血小板無力症、假性類血友病、肝素引起的血小板低下症）可能增加出血風險。
 - 全身性水楊酸有耳毒性與胃黏膜傷害的已知風險，與內耳疾病、胃炎等預測適應症方向不符。
 
 ---
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 十個預測適應症全部只有模型預測（L5），沒有臨床試驗或文獻佐證。
-- 排名最高的幾項（血小板疾病）在機轉上很可能是禁忌或反向作用，不建議推進。
-
-**若要推進需要：**
-- 補齊 Glycol salicylate 的作用機轉資料（MOA）與香港仿單的警語、禁忌資料。
-- 確認各許可證實際核准的適應症與劑型。
-- 針對自體免疫相關預測，另做文獻檢索與機轉驗證，確認是否有任何有意義的免疫調節證據。
-- 評估外用給藥途徑是否能達到足夠的全身暴露，以產生預期的藥理效果。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

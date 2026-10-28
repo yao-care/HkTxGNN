@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 158
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
-description: "Carbenoxolone：預測新適應症為非症候群性食道畸形 (non-syndromic esophageal malformation)（證據等級 L5）。原適應症：消化性潰瘍、食道潰瘍、食道疾病"
 monitor_inn: "Carbenoxolone"
 predicted_indications: ["non-syndromic esophageal malformation", "vitamin deficiency disorder", "biotin metabolic disease", "filariasis", "bile duct disease", "bile duct neoplasm", "tinea nigra"]
+last_modified_at: 2026-10-27
+description: "Carbenoxolone：預測新適應症為非症候群性食道畸形 (non-syndromic esophageal malformation)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Carbenoxolone
@@ -33,33 +33,34 @@ predicted_indications: ["non-syndromic esophageal malformation", "vitamin defici
 
 </div>
 
-## Carbenoxolone：從消化性潰瘍到非症候群性食道畸形
+## Carbenoxolone：作用機轉資料缺乏 → 非症候群性食道畸形 (non-syndromic esophageal malformation)
 {: .text-alpha }
 
 ## 一句話總結
 
-Carbenoxolone 原本用於消化性潰瘍、食道潰瘍及食道疾病。
-TxGNN 模型預測它可能對**非症候群性食道畸形 (non-syndromic esophageal malformation)** 有效，但目前**沒有任何臨床試驗與直接相關文獻**支持，僅為模型預測。
+Carbenoxolone 是一種已在香港取得許可證的單一成分藥物。
+TxGNN 模型預測它可能對**非症候群性食道畸形 (non-syndromic esophageal malformation)** 有效，
+但目前**沒有任何臨床試驗或文獻**直接支持這個方向，僅有模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 消化性潰瘍、食道潰瘍、食道疾病（來自知識圖譜；香港許可證未載明適應症文字） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | 非症候群性食道畸形 (non-syndromic esophageal malformation) |
-| TxGNN 預測分數 | 99.999% |
+| TxGNN 預測分數 | 1.0000 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Carbenoxolone 原本用於食道潰瘍與食道疾病，模型可能是從這些後天性食道黏膜疾病的訊號，推論到食道相關的其他疾病。
+目前缺乏詳細的作用機轉資料，因此無法檢驗藥物與此疾病之間的機轉連結。
 
-然而，這個預測的合理性很低。先天性食道結構畸形（例如食道閉鎖、氣管食道瘻管）屬於發育異常，主要靠手術處理。以黏膜保護或阻斷間隙連接 (gap junction) 為主的藥物，在這類疾病中沒有明確的治療角色。
+食道畸形（例如食道閉鎖、氣管食道瘻管）屬於先天發育與外科處理的問題。Carbenoxolone 一般被認為具黏膜保護與阻斷間隙連接的特性，對結構性畸形缺乏合理的治療角色。模型可能是從後天性食道黏膜疾病轉移了訊號，這點需要謹慎看待。
 
-換言之，唯一的支持是極高的模型分數，並沒有機轉、臨床或文獻證據可以交叉驗證。
+總體而言，這個預測目前僅有很高的模型分數支持，生物學上的合理性不足。
 
 ## 臨床試驗證據
 
@@ -67,49 +68,31 @@ TxGNN 模型預測它可能對**非症候群性食道畸形 (non-syndromic esoph
 
 ## 文獻證據
 
-針對首要預測（食道畸形）目前無相關文獻。
+目前無相關文獻。
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-25547 | HERPESAN GEL 2% | 未提供 | 未提供 |
-
-此為單方製劑，狀態有效，許可證持有者為 Jacobson Medical (Hong Kong) Limited。
+| HK-25547 | HERPESAN GEL 2% | 未記載 | 本地資料未記載 |
 
 ## 安全性考量
 
-安全性資訊請參考原廠仿單。目前資料中未查到藥物交互作用紀錄。
-
-## 其他預測適應症（供參考）
-
-TxGNN 另外預測了下列適應症，皆為 L5、建議 Hold：
-
-| 排名 | 預測適應症 | 預測分數 | 證據狀況 |
-|------|-----------|---------|---------|
-| 2 | 維生素缺乏症 (vitamin deficiency disorder) | 99.97% | 無試驗與文獻；無可辨識的生物學路徑，此症以補充治療 |
-| 3 | 生物素代謝疾病 (biotin metabolic disease) | 99.97% | 無試驗與文獻；為先天酵素缺陷，以補充生物素處理 |
-| 4 | 絲蟲病 (filariasis) | 99.94% | 無試驗與文獻；無已記載的抗寄生蟲活性 |
-| 5 | 膽管疾病 (bile duct disease) | 99.54% | 僅有 1 篇文獻（PMID 1715672，1991）|
-| 6 | 膽管腫瘤 (bile duct neoplasm) | 99.48% | 無試驗與文獻；僅屬推測 |
-| 7 | 黑癬 (tinea nigra) | 99.22% | 無試驗與文獻；無已記載的抗黴菌活性 |
-
-其中排名 5 的唯一文獻，是 sucralfate 在豬隻實驗性消化性潰瘍的動物研究，並未研究 carbenoxolone，也未涉及膽管疾病，因此不構成支持。
+安全性資訊請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 所有預測適應症都只有模型分數支持（L5），沒有臨床試驗或直接文獻。
-- 首要預測（先天性食道畸形）在生物學上缺乏合理的治療角色，高分更可能是圖譜結構造成的假象。
-- 作用機轉與仿單安全性資料皆缺漏，目前無法進行安全性篩選。
+- 證據等級為 L5，沒有任何直接研究此疾病的臨床試驗或文獻。
+- 先天性食道畸形屬發育與外科問題，與藥物的已知作用缺乏合理的生物學連結，且作用機轉資料缺失。
 
 **若要推進需要：**
-- 補齊作用機轉 (MOA) 資料，確認與預測疾病之間的機轉關聯
-- 取得香港衛生署核准仿單，確認適應症、警語與禁忌症
-- 檢視香港許可證（HERPESAN GEL 2%）的實際劑型與核准用途，並評估給藥途徑與預測疾病的相容性
-- 若仍想探索，應先做系統性文獻檢索與前臨床研究，而非直接進入臨床
+- 補齊 Carbenoxolone 的作用機轉資料
+- 取得香港衛生署仿單中的警語與禁忌資訊
+- 提出具體的生物學假說，並以前臨床研究驗證其與食道畸形的關聯
+- 確認給藥途徑與目標疾病的相容性（目前許可證為凝膠製劑）
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

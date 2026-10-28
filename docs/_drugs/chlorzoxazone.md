@@ -4,17 +4,17 @@ title: Chlorzoxazone
 parent: 僅模型預測 (L5)
 nav_order: 191
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Chlorzoxazone：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：資料中未提供"
 monitor_inn: "Chlorzoxazone"
-predicted_indications: ["migraine disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "pulmonary hypertension", "atrophoderma vermiculata", "ulerythema ophryogenesis", "kyphoscoliotic heart disease", "rheumatoid arthritis", "headache disorder"]
+predicted_indications: ["migraine disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine with brainstem aura", "pulmonary hypertension", "atrophoderma vermiculata", "ulerythema ophryogenesis", "kyphoscoliotic heart disease", "rheumatoid arthritis"]
 ---
 
 # Chlorzoxazone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 |------|------|
 | 原適應症 | 資料中未提供 |
 | 預測新適應症 | 偏頭痛 (Migraine Disorder) |
-| TxGNN 預測分數 | 99.73% |
+| TxGNN 預測分數 | 0.9973 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ---
@@ -112,7 +112,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高（99.73%），但沒有任何臨床試驗，現有文獻也與偏頭痛無直接關聯，僅有間接的鉀/鈣通道假說，證據等級為 L5。
+- 預測分數雖高（0.9973），但沒有任何臨床試驗，現有文獻也與偏頭痛無直接關聯，僅有間接的鉀/鈣通道假說，證據等級為 L5。
 - 同批預測中，類風濕性關節炎（L4）僅有間接的症狀緩解證據，其他預測（如肺高壓、腎因性抗利尿不當症候群）則完全缺乏支持，目前沒有任何一項適合推進。
 
 **若要推進需要：**

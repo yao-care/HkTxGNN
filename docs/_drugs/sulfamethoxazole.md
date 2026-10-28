@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sulfamethoxazole
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 839
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Sulfamethoxazole：預測新適應症為急性傳染性結膜炎 (Acute Contagious Conjunctivitis)（證據等級 L3）。原適應症：感染性中耳炎、奴卡菌症、弓形蟲症、肺囊蟲症、志賀氏菌症、結膜炎等"
 monitor_inn: "SULFAMETHOXAZOLE"
 predicted_indications: ["acute contagious conjunctivitis"]
+description: "Sulfamethoxazole：預測新適應症為急性傳染性結膜炎 (acute contagious conjunctivitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Sulfamethoxazole
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["acute contagious conjunctivitis"]
 
 </div>
 
-## Sulfamethoxazole：從細菌感染（含結膜炎）到急性傳染性結膜炎
+## Sulfamethoxazole: 急性傳染性結膜炎 (acute contagious conjunctivitis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對**急性傳染性結膜炎 (Acute Contagious Conju
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 感染性中耳炎、奴卡菌症、弓形蟲症、肺囊蟲症、志賀氏菌症、結膜炎等（來自知識圖譜，香港許可證未載明適應症文字） |
-| 預測新適應症 | 急性傳染性結膜炎 (Acute Contagious Conjunctivitis) |
-| TxGNN 預測分數 | 99.63% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 10 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 急性傳染性結膜炎 (acute contagious conjunctivitis) |
+| TxGNN 預測分數 | 0.9963 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 10 張／共 10 張） |
+| 許可證數 | 10 張（有效 10 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**急性傳染性結膜炎 (Acute Contagious Conju
 
 急性傳染性結膜炎常由細菌引起（如流感嗜血桿菌、肺炎鏈球菌、金黃色葡萄球菌），因此抗菌機轉在生物學上合理。
 
-需要注意：原適應症清單已包含「結膜炎」，所以這個預測更像是與既有用途重疊，而非真正的新適應症再利用。99.63% 的 TxGNN 分數僅是計算預測，不等於臨床證據。
+需要注意：原適應症清單已包含「結膜炎」，所以這個預測更像是與既有用途重疊，而非真正的新適應症再利用。0.9963 的 TxGNN 分數僅是計算預測，不等於臨床證據。
 
 ## 臨床試驗證據
 

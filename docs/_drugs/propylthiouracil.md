@@ -4,17 +4,17 @@ title: Propylthiouracil
 parent: 中證據等級 (L3-L4)
 nav_order: 742
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Propylthiouracil：預測新適應症為甲狀腺素受體 β 突變引起的甲狀腺素抗性症候群 (Resistance to thyroid hormone due to a mutat…（證據等級 L4）。原適應症：甲狀腺機能亢進、Graves 病、甲狀腺毒症、甲狀腺危象"
 monitor_inn: "PROPYLTHIOURACIL"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "hyperthyroxinemia"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 ---
 
 # Propylthiouracil
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **3** 個
+證據等級: **L4** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["resistance to thyroid hormone due to a mutation in thyr
 
 </div>
 
-## Propylthiouracil：從甲狀腺機能亢進到甲狀腺素抗性症候群
+## Propylthiouracil：從甲狀腺機能亢進到甲狀腺素受體 β 突變引起的甲狀腺素抗性症候群
 {: .text-alpha }
 
 ## 一句話總結
@@ -49,18 +49,17 @@ TxGNN 模型預測它可能對**甲狀腺素受體 β 突變引起的甲狀腺�
 |------|------|
 | 原適應症 | 甲狀腺機能亢進、Graves 病、甲狀腺毒症、甲狀腺危象 |
 | 預測新適應症 | 甲狀腺素受體 β 突變引起的甲狀腺素抗性症候群 (Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta) |
-| TxGNN 預測分數 | 99.66% |
+| TxGNN 預測分數 | 0.9966 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 其他預測適應症（供參考）：
 
 | 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
 |------|-----------|-----------|---------|------|
-| 2 | 新生兒甲狀腺毒症 (Neonatal thyrotoxicosis) | 99.40% | L4 | 列為研究問題 |
-| 3 | 高甲狀腺素血症 (Hyperthyroxinemia) | 99.08% | L4 | Hold |
+| 3 | 高甲狀腺素血症 (Hyperthyroxinemia) | 0.9908 | L4 | Hold |
 
 ---
 

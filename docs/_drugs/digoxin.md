@@ -4,17 +4,17 @@ title: Digoxin
 parent: 僅模型預測 (L5)
 nav_order: 276
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Digoxin：預測新適應症為變異型心絞痛 (Prinzmetal angina)（證據等級 L5）。原適應症：心房顫動、毛地黃中毒"
 monitor_inn: "DIGOXIN"
-predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "obsolete susceptibility to ischemic stroke", "hypoalphalipoproteinemia"]
+predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
+description: "Digoxin：預測新適應症為變異型心絞痛 (Prinzmetal angina)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Digoxin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal u
 
 </div>
 
-## Digoxin：從心房顫動到變異型心絞痛（Prinzmetal angina）
+## Digoxin: 變異型心絞痛 (Prinzmetal angina)
 {: .text-alpha }
 
 ## 一句話總結
@@ -45,12 +45,12 @@ TxGNN 模型預測它可能對**變異型心絞痛 (Prinzmetal angina)** 有效�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 心房顫動、毛地黃中毒（來自知識圖譜；香港許可證未載明適應症文字） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | 變異型心絞痛 (Prinzmetal angina) |
-| TxGNN 預測分數 | 99.81% |
+| TxGNN 預測分數 | 0.9981 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**變異型心絞痛 (Prinzmetal angina)** 有效�
 
 變異型心絞痛的成因是冠狀動脈痙攣，標準治療為鈣離子通道阻斷劑與硝酸鹽類。理論上，細胞內鈣上升可能促進血管平滑肌收縮，因此 Digoxin 不僅不太可能有幫助，還可能不利。
 
-兩者同屬心血管疾病，這可能是模型給出高分的原因。我們判斷這較可能是圖譜鄰近性（共同心血管關聯）造成的假象，而非真正的機轉關聯。
+兩者同屬心血管疾病，這可能是模型給出高分的原因。此分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性（共同心血管關聯），而非生物學證據，也不代表真正的機轉關聯。
 
 ## 臨床試驗證據
 

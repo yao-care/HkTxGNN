@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Itraconazole
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 492
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Itraconazole：預測新適應症為肺囊蟲病 (Pneumocystosis)（證據等級 L4）。原適應症：食道念珠菌症、念珠菌血症、組織漿菌症、麴菌症、球黴菌症、孢子絲菌症、芽生菌症、鐮刀菌症等"
 monitor_inn: "ITRACONAZOLE"
 predicted_indications: ["pneumocystosis"]
+description: "Itraconazole：預測新適應症為肺囊蟲病 (pneumocystosis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Itraconazole
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["pneumocystosis"]
 
 </div>
 
-## Itraconazole：從深部黴菌感染到肺囊蟲病（Pneumocystosis）
+## Itraconazole: 肺囊蟲病 (pneumocystosis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**肺囊蟲病 (Pneumocystosis)** 有效，但目�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 食道念珠菌症、念珠菌血症、組織漿菌症、麴菌症、球黴菌症、孢子絲菌症、芽生菌症、鐮刀菌症等（香港許可證未載明適應症文字，此處依知識圖譜的適應症資料） |
-| 預測新適應症 | 肺囊蟲病 (Pneumocystosis) |
-| TxGNN 預測分數 | 99.34% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 19 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 肺囊蟲病 (pneumocystosis) |
+| TxGNN 預測分數 | 0.9934 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 19 張／共 19 張） |
+| 許可證數 | 19 張（有效 19 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**肺囊蟲病 (Pneumocystosis)** 有效，但目�
 
 但這個預測在機轉上**並不成立**。肺囊蟲（Pneumocystis jirovecii）的細胞膜缺乏麥角固醇，主要使用膽固醇等其他固醇類，因此唑類藥物的作用機轉預期對它無效。肺囊蟲病的標準用藥仍是 trimethoprim-sulfamethoxazole。
 
-TxGNN 的高分（0.993）可能來自知識圖譜中，肺囊蟲病與組織漿菌症、麴菌症等其他黴菌感染在網絡上距離相近，而不是真正的藥理關聯。檢索到的文獻多為移植、HIV、嗜中性白血球低下患者的預防與伺機性感染綜述，Itraconazole 在其中是用來涵蓋其他黴菌，而非肺囊蟲。
+TxGNN 模型（深度學習）給出的高分（0.9934）可能反映模型從肺囊蟲病與組織漿菌症、麴菌症等其他黴菌感染等相關疾病之間學到的相似性，而不是真正的生物學證據。檢索到的文獻多為移植、HIV、嗜中性白血球低下患者的預防與伺機性感染綜述，Itraconazole 在其中是用來涵蓋其他黴菌，而非肺囊蟲。
 
 ---
 

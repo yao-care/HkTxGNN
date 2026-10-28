@@ -4,17 +4,17 @@ title: Avapritinib
 parent: 僅模型預測 (L5)
 nav_order: 85
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Avapritinib：預測新適應症為軸向脊椎骨幹骺端發育不良 (axial spondylometaphyseal dysplasia)（證據等級 L5）。原適應症：胃腸道基質瘤 (gastrointestinal stromal tumor)"
 monitor_inn: "Avapritinib"
-predicted_indications: ["axial spondylometaphyseal dysplasia", "bilateral parasagittal parieto-occipital polymicrogyria", "amyotrophic lateral sclerosis", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "amyotrophic lateral sclerosis, susceptibility to", "amyotrohpic lateral sclerosis type 22", "lower motor neuron syndrome with late-adult onset", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome"]
+predicted_indications: ["axial spondylometaphyseal dysplasia", "bilateral parasagittal parieto-occipital polymicrogyria", "amyotrophic lateral sclerosis", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "amyotrohpic lateral sclerosis type 22", "lower motor neuron syndrome with late-adult onset", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome"]
 ---
 
 # Avapritinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,17 +48,17 @@ TxGNN 模型預測它可能對**軸向脊椎骨幹骺端發育不良 (axial spon
 |------|------|
 | 原適應症 | 胃腸道基質瘤 (gastrointestinal stromal tumor) |
 | 預測新適應症 | 軸向脊椎骨幹骺端發育不良 (axial spondylometaphyseal dysplasia) |
-| TxGNN 預測分數 | 99.92% |
+| TxGNN 預測分數 | 0.9992 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Avapritinib 是 KIT/PDGFRA 激酶抑制劑，在胃腸道基質瘤中的療效與這兩個標的相關。
 
-然而，軸向脊椎骨幹骺端發育不良是罕見的骨骼疾病（文獻提及可能與 CFAP410/C21orf2 相關），與 KIT 或 PDGFRA 訊號傳遞沒有已知的關聯。**目前無法建立機轉上的合理連結**，0.999 的高分只是知識圖譜的預測結果，不代表生物學上的支持。
+然而，軸向脊椎骨幹骺端發育不良是罕見的骨骼疾病（文獻提及可能與 CFAP410/C21orf2 相關），與 KIT 或 PDGFRA 訊號傳遞沒有已知的關聯。**目前無法建立機轉上的合理連結**，0.9992 的高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，不代表生物學上的支持。
 
 ### 其他排名前列的預測
 
@@ -66,17 +66,17 @@ TxGNN 模型預測它可能對**軸向脊椎骨幹骺端發育不良 (axial spon
 
 | 排名 | 預測疾病 | TxGNN 分數 | 說明 |
 |------|---------|-----------|------|
-| 2 | 雙側旁矢狀頂枕多小腦回 | 99.92% | 與 KIT/PDGFRA 無已知關聯 |
-| 3 | 肌萎縮性脊髓側索硬化症 (ALS) | 99.92% | 僅有假說層級：其他 KIT 抑制劑（如 masitinib）曾被研究；但 Avapritinib 無資料，且有認知不良反應與顱內出血風險 |
-| 4 | 睫毛過長-視網膜色素變性-侏儒症候群 | 99.92% | 極罕見，無已知關聯 |
-| 5 | ALS 易感性 | 99.91% | 與 ALS 重疊，可能為重複的本體論詞條 |
-| 6 | ALS 第 22 型 | 99.91% | 與 TUBA4A 變異相關，可能只是圖譜鄰近性 |
-| 7 | 晚發性下運動神經元症候群 | 99.91% | 可能來自運動神經元疾病的圖譜相似性 |
-| 8 | 致死性關節攣縮-前角細胞疾病症候群 | 99.90% | 全身性激酶抑制劑缺乏生物學依據 |
-| 9 | 單肢肌萎縮症 | 99.89% | 屬良性、自限性疾病，風險效益不利 |
-| 10 | Mills 症候群 | 99.89% | 僅經 ALS 群集的圖譜鄰近性 |
+| 2 | 雙側旁矢狀頂枕多小腦回 | 0.9992 | 與 KIT/PDGFRA 無已知關聯 |
+| 3 | 肌萎縮性脊髓側索硬化症 (ALS) | 0.9992 | 僅有假說層級：其他 KIT 抑制劑（如 masitinib）曾被研究；但 Avapritinib 無資料，且有認知不良反應與顱內出血風險 |
+| 4 | 睫毛過長-視網膜色素變性-侏儒症候群 | 0.9992 | 極罕見，無已知關聯 |
+| 5 | ALS 易感性 | 0.9991 | 與 ALS 重疊，可能為重複的本體論詞條 |
+| 6 | ALS 第 22 型 | 0.9991 | 與 TUBA4A 變異相關，可能只是 TxGNN 模型（深度學習）學到的相關疾病相似性 |
+| 7 | 晚發性下運動神經元症候群 | 0.9991 | 可能來自 TxGNN 模型（深度學習）學到的運動神經元疾病相似性 |
+| 8 | 致死性關節攣縮-前角細胞疾病症候群 | 0.9990 | 全身性激酶抑制劑缺乏生物學依據 |
+| 9 | 單肢肌萎縮症 | 0.9989 | 屬良性、自限性疾病，風險效益不利 |
+| 10 | Mills 症候群 | 0.9989 | 可能僅反映 TxGNN 模型（深度學習）學到的 ALS 相關疾病相似性 |
 
-前 10 名中有 5 個與運動神經元疾病相關，可能反映知識圖譜的群集效應，而非獨立的訊號。
+前 10 名中有 5 個與運動神經元疾病相關，可能反映 TxGNN 模型（深度學習）學到的相關疾病相似性，而非獨立的訊號。
 
 ## 臨床試驗證據
 

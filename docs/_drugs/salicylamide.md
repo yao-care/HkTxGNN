@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Salicylamide
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 798
-evidence_level: L4
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Salicylamide：預測新適應症為咽炎 (Pharyngitis)（證據等級 L4）。原適應症：頭痛（headache disorder）"
+evidence_level: L5
+indication_count: 9
 monitor_inn: "SALICYLAMIDE"
-predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria", "lung disease", "massive neonatal aspiration syndrome", "respiratory syncytial virus bronchiolitis", "hantavirus infectious disease"]
+last_modified_at: 2026-10-23
+description: "Salicylamide：預測新適應症為咽炎 (Pharyngitis)（證據等級 L5）。原適應症：頭痛"
 ---
 
 # Salicylamide
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,94 +38,68 @@ predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopha
 
 ## 一句話總結
 
-Salicylamide（水楊醯胺）是水楊酸類止痛退燒藥，原本用於頭痛（headache disorder）。
-TxGNN 模型預測它可能對**咽炎 (Pharyngitis)** 有效，但目前**沒有臨床試驗**，僅有 **1 篇 1953 年的舊病例報告**支持這個方向，證據非常薄弱。
-
----
+Salicylamide（水楊酸胺）是一種具止痛與退燒作用的藥物，知識圖譜中記錄的原適應症為頭痛 (headache disorder)。
+TxGNN 模型預測它可能對**咽炎 (Pharyngitis)** 有效，但目前**沒有臨床試驗**，僅有 **1 篇** 1953 年的舊病例報告，證據非常薄弱。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 頭痛（headache disorder） |
+| 原適應症 | 頭痛（知識圖譜中記錄的關聯；香港許可證資料未載明核准適應症文字） |
 | 預測新適應症 | 咽炎 (Pharyngitis) |
-| TxGNN 預測分數 | 99.98% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 20 張 |
+| TxGNN 預測分數 | 0.9998 |
+| 證據等級 | L5（唯一一篇文獻為 1953 年、針對嬰兒卡他性扁桃腺炎的報告，未直接研究咽炎本身） |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 許可證數 | 至少 20 張（清單可能不完整） |
 | 建議決策 | Hold |
-
-> 註：其他預測適應症包括鼻腔疾病（99.97%）、急性喉咽炎（99.97%）、三叉神經自律神經性頭痛（99.94%）、感冒（99.93%）。除咽炎與感冒外，這些預測都沒有任何臨床或文獻證據。
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Salicylamide 屬於水楊酸類止痛退燒藥，推測與環氧合酶（COX）相關的作用有關，可能緩解喉嚨的疼痛與發炎。這個機轉連結僅是依藥物類別推論，並未經資料證實。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Salicylamide 具有止痛與退燒作用，機轉上可能緩解咽喉疼痛與發燒等症狀。
 
-原適應症（頭痛）與咽炎同屬以疼痛和發熱為主的症狀，止痛退燒藥可能在症狀層面上有相通之處。香港有許多含 Salicylamide 的感冒類產品上市，也間接顯示它常被用於上呼吸道不適的症狀緩解。
-
-需要強調的是，0.9998 的分數是模型計算的結果，不能取代臨床證據。
-
----
+這個關聯屬於「症狀緩解」層次，而非針對咽炎病因的治療。唯一的文獻是 1953 年一份嬰兒卡他性扁桃腺炎的報告，使用 salicylamide 搭配對胺基苯甲酸鈉，屬於舊式、低品質的臨床報告，且為複合使用，無法單獨判斷 salicylamide 的貢獻。TxGNN 的高分僅是模型預測，不能視為療效證據。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [13060598](https://pubmed.ncbi.nlm.nih.gov/13060598/) | 1953 | 病例系列 | Gazzetta medica italiana | 以 Salicylamide 合併對氨基苯甲酸鈉治療嬰幼兒卡他性扁桃腺炎（無摘要，內容有限） |
-
-**與「感冒」預測相關的文獻（皆為安全性報告，非療效證據）：**
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [8952318](https://pubmed.ncbi.nlm.nih.gov/8952318/) | 1996 | 病例報告 | Nihon Rinsho Men'eki Gakkai Kaishi | 27 歲女性服用含 Salicylamide 的感冒藥與頭孢羥氨苄後，發生藥物誘發溶血性貧血併顆粒球低下，需輸血 |
-| [8864802](https://pubmed.ncbi.nlm.nih.gov/8864802/) | 1996 | 病例報告／毒理回顧 | Int J Clin Pharmacol Ther | Salicylamide 過量的毒性 |
-
----
+| [13060598](https://pubmed.ncbi.nlm.nih.gov/13060598/) | 1953 | 病例系列／臨床報告 | Gazzetta medica italiana | 以 salicylamide 搭配對胺基苯甲酸鈉治療嬰兒卡他性扁桃腺炎；無摘要，非對照研究 |
 
 ## 香港上市資訊
 
-香港共有 20 張有效的單一成分許可證，以下列出 5 張。資料中未提供劑型與核准適應症。
+以下為資料中列出的部分許可證（至少 20 張，清單可能不完整），均為單一成分製劑、狀態有效。資料中未載明劑型與核准適應症文字。
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-07880 | COLDZEP TAB | 未提供 | 未提供 |
-| HK-26015 | NEO-COLD CAP | 未提供 | 未提供 |
-| HK-31316 | COLIDIN TAB | 未提供 | 未提供 |
-| HK-07883 | MECOLD (FORTE) CAP | 未提供 | 未提供 |
-| HK-07882 | MECOLD (SCT) RED TAB | 未提供 | 未提供 |
-
----
+| HK-07880 | COLDZEP TAB | 未載明 | 未載明 |
+| HK-26015 | NEO-COLD CAP | 未載明 | 未載明 |
+| HK-31316 | COLIDIN TAB | 未載明 | 未載明 |
+| HK-07883 | MECOLD (FORTE) CAP | 未載明 | 未載明 |
+| HK-07882 | MECOLD (SCT) RED TAB | 未載明 | 未載明 |
 
 ## 安全性考量
 
-- **文獻中的安全訊號**：有病例報告指出，含 Salicylamide 的感冒複方藥曾與藥物誘發溶血性貧血及顆粒球低下有關（但同時併用其他藥物，因果關係無法確定）；另有過量毒性的報告。
-- **知識圖譜標示的潛在禁忌疾病**（來自模型知識圖譜，並非仿單內容）：高血壓、低血壓、肝衰竭與肝病、腎臟病、癲癇、失眠、慢性阻塞性肺病、血小板減少、凝血疾病、血友病、貧血、消化性潰瘍、胃炎、發炎性腸道疾病、糖尿病與酮酸中毒、甲狀腺低下、痛風、良性攝護腺增生、膽囊疾病、鉀缺乏、藥物濫用／依賴、困難梭狀芽孢桿菌結腸炎等。
-
-正式的警語與禁忌症請參考原廠仿單。
-
----
+- **知識圖譜中記錄的禁忌關聯**（非仿單內容）：高血壓、肝衰竭、肝病、腎病、癲癇、慢性阻塞性肺病、消化性潰瘍、胃炎、發炎性腸病、血小板低下、凝血疾病、血友病、貧血、糖尿病、痛風、甲狀腺功能低下、藥物濫用／依賴等。
+- **過敏相關**：文獻指出，阿斯匹靈敏感或止痛劑誘發氣喘的患者，需留意解熱鎮痛藥的交叉反應；另有 1979 年小型研究顯示 salicylamide 在 18 名此類患者中耐受良好，但證據有限。
+- 具體警語、禁忌與藥物交互作用，請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 咽炎預測僅有一篇 1953 年的舊病例報告，沒有任何臨床試驗，且缺乏作用機轉資料。
-- 感冒相關文獻均為毒性報告，而非療效證據；其餘預測適應症完全沒有證據支持。
+- 預測新適應症沒有任何臨床試驗，僅有一篇 1953 年的低品質報告，證據等級為 L5。
+- 預測屬症狀緩解性質，且仿單安全性資料尚缺，不宜推進。
 
 **若要推進需要：**
-- 補齊 Salicylamide 的作用機轉資料（MOA）。
-- 取得香港許可證的仿單，確認核准適應症、警語與禁忌症。
-- 與已上市的止痛退燒藥（如 acetaminophen、NSAIDs）比較，評估是否有再利用的價值。
-- 針對咽炎進行設計良好的臨床研究，並評估血液學安全性（溶血性貧血、顆粒球低下）。
+- 取得香港衛生署仿單，確認核准適應症、警語與禁忌
+- 補充作用機轉資料
+- 設計針對咽炎的對照臨床研究，與現有解熱鎮痛藥比較
+- 評估知識圖譜所列禁忌族群的安全性
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

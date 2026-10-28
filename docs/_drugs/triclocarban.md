@@ -4,17 +4,17 @@ title: Triclocarban
 parent: 僅模型預測 (L5)
 nav_order: 906
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Triclocarban：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：許可證資料未載明核准適應症"
 monitor_inn: "Triclocarban"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "ulerythema ophryogenesis", "atrophoderma vermiculata", "adrenal gland hyperfunction", "erectile dysfunction (disease)", "pulmonary hypertension", "leprosy", "sciatic neuropathy"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Triclocarban
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 |------|------|
 | 原適應症 | 許可證資料未載明核准適應症 |
 | 預測新適應症 | 偏頭痛 (Migraine Disorder) |
-| TxGNN 預測分數 | 99.27% |
+| TxGNN 預測分數 | 0.9927 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -59,21 +59,13 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 
 目前**無法建立**它與偏頭痛之間的機轉連結。它沒有已知作用於偏頭痛相關路徑（如 CGRP、血清素或三叉神經血管訊號）。體外研究曾提到它可能增強雄激素訊號並調節離子通道，但這些都未與偏頭痛連結。
 
-0.993 的高分僅是知識圖譜的模型輸出，未經任何試驗或文獻驗證。排名較後的預測（如偏頭痛伴腦幹先兆、偏頭痛易感性）很可能只是因為本體論上與偏頭痛相近而得分偏高，並非獨立證據。
+0.9927 的高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據，也未經任何試驗或文獻驗證。排名較後的預測（如腦幹先兆偏頭痛 0.9906）很可能只是因為與偏頭痛相近而得分偏高，並非獨立證據。
 
 其他預測新適應症（皆為 L5、Hold）：
 
 | 排名 | 預測疾病 | 分數 | 備註 |
 |------|---------|------|------|
-| 2 | 伴腦幹先兆的偏頭痛 | 99.06% | 與偏頭痛本體相近，無獨立證據 |
-| 3 | 偏頭痛（易感性） | 98.63% | 屬基因易感性實體，非可治療的臨床適應症 |
-| 4 | Ulerythema ophryogenesis | 98.36% | 罕見毛囊角化疾病，無合理機轉 |
-| 5 | Atrophoderma vermiculata | 98.25% | 罕見皮膚病，無機轉依據 |
-| 6 | 腎上腺功能亢進 | 97.86% | 體外雄激素訊號放大屬安全疑慮，不支持療效 |
-| 7 | 勃起功能障礙 | 97.21% | 無療效證據，另有內分泌干擾疑慮 |
-| 8 | 肺動脈高壓 | 96.32% | 無血管或肺部機轉 |
-| 9 | 痲瘋病 (Leprosy) | 95.95% | 具抗菌活性，概念上較可想像，但無抗痲瘋分枝桿菌數據，仍屬推測 |
-| 10 | 坐骨神經病變 | 95.86% | 無神經病變相關證據 |
+| 2 | 伴腦幹先兆的偏頭痛 | 0.9906 | 與偏頭痛本體相近，無獨立證據 |
 
 ## 臨床試驗證據
 

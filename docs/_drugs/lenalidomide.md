@@ -4,17 +4,17 @@ title: Lenalidomide
 parent: 高證據等級 (L1-L2)
 nav_order: 518
 evidence_level: L2
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Lenalidomide：預測新適應症為骨髓性白血病 (Myeloid Leukemia)（證據等級 L2）。原適應症：漿細胞骨髓瘤、被套細胞淋巴瘤、B 細胞腫瘤、淋巴肉瘤、骨髓增生異常症候群"
 monitor_inn: "LENALIDOMIDE"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
+description: "Lenalidomide：預測新適應症為骨髓性白血病 (myeloid leukemia)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Lenalidomide
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **5** 個
+證據等級: **L2** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood",
 
 </div>
 
-## Lenalidomide：從漿細胞骨髓瘤到骨髓性白血病
+## Lenalidomide: 骨髓性白血病 (myeloid leukemia)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**骨髓性白血病 (Myeloid Leukemia)** 有效�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 漿細胞骨髓瘤、被套細胞淋巴瘤、B 細胞腫瘤、淋巴肉瘤、骨髓增生異常症候群（香港許可證未載明適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 骨髓性白血病 (Myeloid Leukemia) |
-| TxGNN 預測分數 | 99.49% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 骨髓性白血病 (myeloid leukemia) |
+| TxGNN 預測分數 | 0.9949 |
 | 證據等級 | L2 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 8 張 |
+| 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
+| 許可證數 | 8 張（有效 8 張） |
 | 建議決策 | Proceed with Guardrails（限於研究性質） |
 
 ---

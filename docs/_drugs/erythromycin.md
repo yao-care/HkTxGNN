@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Erythromycin
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 337
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Erythromycin：預測新適應症為點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis)（證據等級 L4）。原適應症：痤瘡、中耳炎、鏈球菌感染、細菌性肺炎、金黃色葡萄球菌感染、淋病、百日咳、尿道炎、結膜炎等"
 monitor_inn: "ERYTHROMYCIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "acute contagious conjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
+description: "Erythromycin：預測新適應症為點狀上皮角膜結膜炎 (punctate epithelial keratoconjunctivitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Erythromycin
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "acute conta
 
 </div>
 
-## Erythromycin：從細菌感染到點狀上皮角膜結膜炎
+## Erythromycin: 點狀上皮角膜結膜炎 (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 痤瘡、中耳炎、鏈球菌感染、細菌性肺炎、金黃色葡萄球菌感染、淋病、百日咳、尿道炎、結膜炎等（來自知識圖譜，香港許可證未載明適應症文字） |
-| 預測新適應症 | 點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis) |
-| TxGNN 預測分數 | 99.89% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 19 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 點狀上皮角膜結膜炎 (punctate epithelial keratoconjunctivitis) |
+| TxGNN 預測分數 | 0.9989 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 19 張／共 19 張） |
+| 許可證數 | 19 張（有效 19 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Olodaterol
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 642
-evidence_level: L4
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Olodaterol：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L4）。原適應症：慢性阻塞性肺病 (COPD)"
 monitor_inn: "OLODATEROL"
 predicted_indications: ["bronchitis"]
+description: "Olodaterol：預測新適應症為支氣管炎 (bronchitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Olodaterol
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["bronchitis"]
 
 </div>
 
-## Olodaterol：從慢性阻塞性肺病到支氣管炎
+## Olodaterol: 支氣管炎 (bronchitis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 慢性阻塞性肺病 (COPD) |
-| 預測新適應症 | 支氣管炎 (Bronchitis) |
-| TxGNN 預測分數 | 99.84% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 支氣管炎 (bronchitis) |
+| TxGNN 預測分數 | 0.9984 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ---
@@ -65,7 +65,6 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前�
 
 目前沒有證據支持它用於急性支氣管炎，或與 COPD 無關的支氣管炎。
 
-模型的第二個預測是**阻塞性肺病 (Obstructive lung disease)**，分數 99.57%。它同樣涵蓋 COPD，相關的 Phase 3 試驗（如 NCT01431274、NCT00796653、NCT01525615）多半是在確認既有適應症，不算真正的新適應症。
 
 ---
 

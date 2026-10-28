@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Trazodone
-parent: 僅模型預測 (L5)
+parent: 高證據等級 (L1-L2)
 nav_order: 900
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Trazodone：預測新適應症為強迫症 (Obsessive-Compulsive Disorder)（證據等級 L5）。原適應症：單極性憂鬱症、內因性憂鬱症、重度憂鬱症、焦慮症"
 monitor_inn: "Trazodone"
-predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder", "phobic disorder", "Ohdo syndrome and variants"]
+predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
+description: "Trazodone：預測新適應症為強迫症 (obsessive-compulsive disorder)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Trazodone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L2** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["obsessive-compulsive disorder", "paranoid personality d
 
 </div>
 
-## Trazodone：從憂鬱症到強迫症
+## Trazodone: 強迫症 (obsessive-compulsive disorder)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對**強迫症 (Obsessive-Compulsive Disorder)** 有�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 單極性憂鬱症、內因性憂鬱症、重度憂鬱症、焦慮症（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 強迫症 (Obsessive-Compulsive Disorder) |
-| TxGNN 預測分數 | 99.95% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 強迫症 (obsessive-compulsive disorder) |
+| TxGNN 預測分數 | 0.9995 |
 | 證據等級 | L2（僅有 1 項雙盲安慰劑對照 RCT，且為 1992 年的早期研究，缺乏已登記的臨床試驗） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 11 張 |
+| 香港上市 | 上市中（有效許可證 11 張／共 11 張） |
+| 許可證數 | 11 張（有效 11 張） |
 | 建議決策 | Hold（列為研究問題，暫不推進） |
 
 ## 為什麼這個預測合理？

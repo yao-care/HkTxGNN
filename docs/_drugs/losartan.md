@@ -4,17 +4,17 @@ title: Losartan
 parent: 中證據等級 (L3-L4)
 nav_order: 541
 evidence_level: L4
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Losartan：預測新適應症為惡性高血壓腎病變 (Malignant Hypertensive Renal Disease)（證據等級 L4）。原適應症：高血壓、糖尿病腎病變"
 monitor_inn: "Losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
+description: "Losartan：預測新適應症為惡性高血壓腎病變 (malignant hypertensive renal disease)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Losartan
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **8** 個
+證據等級: **L4** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 </div>
 
-## Losartan：從高血壓與糖尿病腎病變到惡性高血壓腎病變
+## Losartan: 惡性高血壓腎病變 (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,11 +46,11 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (Malignant Hypertensive
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 高血壓、糖尿病腎病變（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 惡性高血壓腎病變 (Malignant Hypertensive Renal Disease) |
-| TxGNN 預測分數 | 99.73% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 惡性高血壓腎病變 (malignant hypertensive renal disease) |
+| TxGNN 預測分數 | 0.9973 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -99,7 +99,7 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (Malignant Hypertensive
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高（99.73%），但實際證據僅有一篇動物模型研究，沒有臨床試驗，屬於 L4 等級。
+- 預測分數雖高（0.9973），但實際證據僅有一篇動物模型研究，沒有臨床試驗，屬於 L4 等級。
 - 此預測本質上是既有高血壓適應症的延伸，並非獨立的新用途。
 
 **若要推進需要：**
@@ -116,13 +116,12 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (Malignant Hypertensive
 
 | 排名 | 預測適應症 | 分數 | 證據等級 | 說明 |
 |------|-----------|------|---------|------|
-| 2 | 惡性腎血管性高血壓 | 99.73% | L4 | 僅 1 篇 Takayasu 動脈炎個案報告與 1 篇大鼠模型方法學文章，雙側腎動脈狹窄需特別留意 |
-| 3 | 機轉不明的多因素肺動脈高壓 | 99.71% | L5 | 僅模型預測 |
-| 4 | 肺部疾病/缺氧所致肺動脈高壓 | 99.71% | L4 | 人體研究顯示可降低間歇性缺氧的氧化壓力，但高海拔研究為陰性結果，無肺動脈高壓的臨床獲益證據 |
-| 5 | Braddock 症候群 | 99.61% | L5 | 僅模型預測 |
-| 6 | Prinzmetal 心絞痛 | 99.45% | L5 | 僅模型預測，標準治療仍為鈣離子通道阻斷劑與硝酸鹽 |
-| 7 | 體染色體顯性家族性血尿－視網膜小動脈迂曲－攣縮症候群 | 99.39% | L5 | 僅模型預測 |
-| 8 | 腦小血管病 1 型（合併或不合併眼部異常） | 99.37% | L4 | 證據間接（降血壓藥對小血管微循環的試驗、Marfan 症候群 ARB 文獻），適合作為研究問題 |
+| 3 | 機轉不明的多因素肺動脈高壓 | 0.9971 | L5 | 僅模型預測 |
+| 4 | 肺部疾病/缺氧所致肺動脈高壓 | 0.9971 | L5 | 人體研究顯示可降低間歇性缺氧的氧化壓力，但高海拔研究為陰性結果，無肺動脈高壓的臨床獲益證據 |
+| 5 | Braddock 症候群 | 0.9961 | L5 | 僅模型預測 |
+| 6 | Prinzmetal 心絞痛 | 0.9945 | L5 | 僅模型預測，標準治療仍為鈣離子通道阻斷劑與硝酸鹽 |
+| 7 | 體染色體顯性家族性血尿－視網膜小動脈迂曲－攣縮症候群 | 0.9939 | L5 | 僅模型預測 |
+| 8 | 腦小血管病 1 型（合併或不合併眼部異常） | 0.9937 | L5 | 證據間接（降血壓藥對小血管微循環的試驗、Marfan 症候群 ARB 文獻），適合作為研究問題 |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

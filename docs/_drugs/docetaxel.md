@@ -4,17 +4,17 @@ title: Docetaxel
 parent: 高證據等級 (L1-L2)
 nav_order: 288
 evidence_level: L1
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Docetaxel：預測新適應症為女性乳癌 (Female Breast Carcinoma)（證據等級 L1）。原適應症：非小細胞肺癌、前列腺癌、頭頸癌、胃癌、乳癌等"
 monitor_inn: "DOCETAXEL"
-predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
+predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
+description: "Docetaxel：預測新適應症為Ewing sarcoma（證據等級 L1）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Docetaxel
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **10** 個
+證據等級: **L1** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcino
 
 </div>
 
-## Docetaxel：從多種實體腫瘤到女性乳癌
+## Docetaxel: Ewing sarcoma
 {: .text-alpha }
 
 ## 一句話總結
 
 Docetaxel（歐洲紫杉醇類藥物）原本用於非小細胞肺癌、前列腺癌、頭頸癌、胃癌與乳癌等治療。
-TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效，
 目前有 **40 個臨床試驗**和 **20 篇文獻**支持這個方向。
 需要說明的是，乳癌本身已是 docetaxel 的既有適應症，因此這項預測更接近對既有用途的驗證，而非真正的新用途。
 
@@ -49,11 +48,11 @@ TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 非小細胞肺癌、前列腺癌、頭頸癌、胃癌、乳癌等（香港許可證未提供適應症文字，此處依知識圖譜適應症關聯） |
-| 預測新適應症 | 女性乳癌 (Female Breast Carcinoma) |
-| TxGNN 預測分數 | 99.90% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Ewing sarcoma |
+| TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L1 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Proceed with Guardrails |
 
@@ -126,7 +125,6 @@ TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效�
 | 項目 | 內容 |
 |------|------|
 | 細胞毒性分類 | 傳統細胞毒性藥物（紫杉烷類，微管穩定劑） |
-| 骨髓抑制風險 | 高（知識圖譜顯示與嗜中性白血球低下、血小板低下、貧血、粒線球缺乏等相關） |
 | 致吐性分級 | 低至中度（依藥物類別判斷） |
 | 監測項目 | CBC（含分類）、肝功能與膽紅素、周邊神經症狀、體液滯留 |
 | 處置防護 | 需依細胞毒性藥物處置規範操作 |

@@ -4,17 +4,17 @@ title: Tramadol
 parent: 僅模型預測 (L5)
 nav_order: 893
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Tramadol：預測新適應症為肢中段發育不良 Hunter-Thompson 型 (Acromesomelic Dysplasia…（證據等級 L5）。原適應症：骨關節炎 (osteoarthritis)、關節病變 (arthropathy)"
 monitor_inn: "Tramadol"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 ---
 
 # Tramadol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachy
 
 </div>
 
-## Tramadol：從骨關節炎到先天性骨骼發育不良（Hunter-Thompson 型肢中段發育不良）
+## Tramadol：從骨關節炎到 Hunter-Thompson 型肢中發育不良
 {: .text-alpha }
 
 ## 一句話總結
 
 Tramadol 是一種鴉片類止痛藥，原本用於骨關節炎與關節病變相關的疼痛。
 TxGNN 模型預測它可能對**肢中段發育不良 Hunter-Thompson 型 (Acromesomelic Dysplasia, Hunter-Thompson Type)** 有效，
-但目前**沒有任何臨床試驗或直接文獻**支持，這個預測僅來自知識圖譜的計算推論。
+但目前**沒有任何臨床試驗或直接文獻**支持，這個預測僅來自 TxGNN 模型（深度學習）的計算推論。
 
 ---
 
@@ -50,9 +50,9 @@ TxGNN 模型預測它可能對**肢中段發育不良 Hunter-Thompson 型 (Acrom
 |------|------|
 | 原適應症 | 骨關節炎 (osteoarthritis)、關節病變 (arthropathy) |
 | 預測新適應症 | 肢中段發育不良 Hunter-Thompson 型 (Acromesomelic Dysplasia, Hunter-Thompson Type) |
-| TxGNN 預測分數 | 99.99% |
+| TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**肢中段發育不良 Hunter-Thompson 型 (Acrom
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Tramadol 是 mu 型鴉片受體促效劑，同時抑制血清素與正腎上腺素的再攝取，可提供症狀性的止痛效果。
 
-模型給出高分，可能是因為 Tramadol 在知識圖譜中與骨關節炎、關節病變相連，而這些疾病與骨骼、關節疾病在網路結構上有許多共同鄰居。這是圖譜關聯，並非生物學上的證據。
+模型給出高分，可能反映 TxGNN 模型（深度學習）從相關疾病之間學到的相似性，而非生物學上的證據。
 
 Hunter-Thompson 型肢中段發育不良是一種遺傳性骨骼發育疾病，與 GDF5/CDMP1 訊號異常有關。Tramadol 對這條路徑沒有已知作用，最多只能緩解疼痛，不能改變疾病本身。
 
@@ -114,7 +114,7 @@ Hunter-Thompson 型肢中段發育不良是一種遺傳性骨骼發育疾病，�
 **決策：Hold**
 
 **理由：**
-- 預測完全來自圖譜計算，沒有臨床試驗、直接文獻或機轉連結支持（證據等級 L5）。
+- 預測完全來自 TxGNN 模型（深度學習）的計算，沒有臨床試驗、直接文獻或機轉連結支持（證據等級 L5）。
 - Tramadol 只能症狀性止痛，無法改變此類遺傳性骨骼發育疾病的病程。
 - 兒童使用鴉片類藥物另有安全疑慮。
 

@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Choriogonadotropin Alfa
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 194
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Choriogonadotropin Alfa：預測新適應症為消化性食道炎 (Peptic Esophagitis)（證據等級 L5）。原適應症：香港許可證資料未載明（依藥理類別，一般用於排卵誘導）"
+description: "Choriogonadotropin Alfa: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Choriogonadotropin alfa"
-predicted_indications: ["peptic esophagitis", "postural orthostatic tachycardia syndrome", "esophageal disease", "Raynaud disease", "non-syndromic esophageal malformation", "esophageal ulcer", "His bundle tachycardia", "sinoatrial block", "progressive familial heart block", "sinoatrial node disease"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Choriogonadotropin Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,56 +35,16 @@ predicted_indications: ["peptic esophagitis", "postural orthostatic tachycardia 
 
 </div>
 
-## Choriogonadotropin alfa：從排卵誘導到消化性食道炎
+## Choriogonadotropin Alfa
 {: .text-alpha }
-
-## 一句話總結
-
-Choriogonadotropin alfa（重組 hCG）是 LH 受體促效劑，在香港以 OVIDREL 品牌上市。
-TxGNN 模型預測它可能對**消化性食道炎 (Peptic Esophagitis)** 有效，
-但目前**沒有任何臨床試驗或文獻**支持，僅為模型預測。
-
----
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證資料未載明（依藥理類別，一般用於排卵誘導） |
-| 預測新適應症 | 消化性食道炎 (Peptic Esophagitis) |
-| TxGNN 預測分數 | 98.44% |
-| 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
-| 建議決策 | Hold |
-
----
-
-## 為什麼這個預測合理？
-
-目前缺乏詳細的作用機轉資料。根據已知資訊，Choriogonadotropin alfa 是重組人類絨毛膜促性腺激素 (hCG)，作為 LH 受體促效劑，用於誘導排卵與支持生殖功能。
-
-然而，目前沒有已知的生物學機制可連結 LH 受體訊號與食道黏膜損傷或胃食道逆流。0.984 的高分來自知識圖譜的計算預測，並無臨床或文獻佐證。我們認為這個預測**合理性很低**，較可能反映圖譜中的鄰近關係，而非真正的治療機轉。
-
-同一批預測中，其他排名靠前的適應症也缺乏支持，包括：
-
-- **食道相關**：食道疾病、食道潰瘍、非症候群性食道畸形
-- **心臟傳導相關**：竇房傳導阻滯、His 束心搏過速、進行性家族性心臟傳導阻滯、竇房結疾病
-- **血管與自律神經相關**：姿勢性直立心搏過速症候群 (POTS)、雷諾氏病
-
-這些預測彼此聚集成群，顯示可能來自相同的圖譜訊號，而非各自獨立的生物學依據。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
----
-
-## 文獻證據
-
-目前無相關文獻。
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 
 ---
 
@@ -103,20 +65,6 @@ TxGNN 模型預測它可能對**消化性食道炎 (Peptic Esophagitis)** 有效
 
 ---
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 所有預測適應症皆僅有模型分數，沒有臨床試驗與文獻，證據等級為 L5。
-- 缺乏合理的作用機轉，且安全性與仿單資料尚未取得。
-
-**若要推進需要：**
-- 取得香港衛生署仿單，確認原核准適應症、警語與禁忌
-- 補齊 DrugBank 的作用機轉資料
-- 進行系統性文獻檢索，確認 LH/hCG 受體在食道黏膜或相關組織是否有功能性角色
-- 如需繼續，先做前臨床研究驗證機轉，再考慮臨床設計
-- 評估其他排名較高的預測，是否有比消化性食道炎更合理的方向
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

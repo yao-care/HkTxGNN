@@ -4,17 +4,17 @@ title: Rocuronium
 parent: 僅模型預測 (L5)
 nav_order: 783
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Rocuronium：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症"
 monitor_inn: "Rocuronium"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "sciatic neuropathy", "headache disorder"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "atrophoderma vermiculata", "ulerythema ophryogenesis", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "sciatic neuropathy", "headache disorder"]
 ---
 
 # Rocuronium
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 |------|------|
 | 原適應症 | 香港許可證資料未載明核准適應症 |
 | 預測新適應症 | 偏頭痛 (Migraine Disorder) |
-| TxGNN 預測分數 | 99.90% |
+| TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 5 張 |
+| 香港上市 | 上市中（有效許可證 5 張／共 5 張） |
+| 許可證數 | 5 張（有效 5 張） |
 | 建議決策 | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Rocuronium 是競爭性拮抗神經肌肉接合處菸鹼型乙醯膽鹼受體的神經肌肉阻斷劑，在麻醉中用於肌肉鬆弛。
 
-**坦白說，這個預測的合理性很低。** 偏頭痛的病理機轉涉及 CGRP、三叉神經血管活化與皮質擴散性抑制，Rocuronium 與這些路徑沒有已知的關聯。高分較可能反映知識圖譜中的鄰近關係（例如與肉毒桿菌毒素等神經肌肉作用藥物相近），而不是生物學證據。肉毒桿菌毒素抑制突觸前乙醯膽鹼釋放，機轉與 Rocuronium 不同。
+**坦白說，這個預測的合理性很低。** 偏頭痛的病理機轉涉及 CGRP、三叉神經血管活化與皮質擴散性抑制，Rocuronium 與這些路徑沒有已知的關聯。高分（0.9990）來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而不是生物學證據。肉毒桿菌毒素抑制突觸前乙醯膽鹼釋放，機轉與 Rocuronium 不同。
 
 排名前 10 的其他預測（如腦幹先兆偏頭痛、馬尾症候群、腸躁症、坐骨神經病變等）同樣沒有臨床試驗或文獻支持，也缺乏合理的機轉連結。
 
@@ -131,7 +131,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 - 機轉上缺乏合理連結，且 Rocuronium 會造成全身性肌肉麻痺，需要呼吸支持，不適合作為偏頭痛等慢性疾病的治療。
 
 **若要推進需要：**
-- 先釐清 Rocuronium 的詳細作用機轉，並找出 TxGNN 預測背後的圖譜路徑。
+- 先釐清 Rocuronium 的詳細作用機轉，並檢視 TxGNN 模型（深度學習）預測的依據與限制。
 - 取得偏頭痛相關的前臨床或機轉證據，目前不建議投入臨床開發。
 - 補齊香港仿單的核准適應症、警語與禁忌症資料。
 - 若確實要探索，應優先考慮已有證據的神經肌肉作用藥物（如肉毒桿菌毒素），而非 Rocuronium。

@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Tazemetostat
-parent: 中證據等級 (L3-L4)
+parent: 僅已知用途（無新預測）
 nav_order: 850
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Tazemetostat：預測新適應症為腎透明細胞癌 (Clear Cell Renal Carcinoma)（證據等級 L4）。原適應症：上皮樣肉瘤、肉瘤"
-monitor_inn: "Tazemetostat"
-predicted_indications: ["clear cell renal carcinoma", "ovarian myxoid liposarcoma", "liposarcoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "gastric adenocarcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Tazemetostat: known uses and market status in Hong Kong; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Tazemetostat
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,66 +32,46 @@ predicted_indications: ["clear cell renal carcinoma", "ovarian myxoid liposarcom
 
 </div>
 
-## Tazemetostat：從上皮樣肉瘤到腎透明細胞癌
+<!-- known-uses-page -->
+<!-- description: Tazemetostat: known uses and market status in Hong Kong; currently no new candidate indication -->
+## Tazemetostat：香港的已知用途與上市狀態
 {: .text-alpha }
 
-## 一句話總結
+## 摘要
+TxGNN 深度學習模型針對 Tazemetostat 沒有產生分數達 0.99 以上的候選適應症，因此目前沒有新的預測適應症。下方列出此藥物本身已記錄的用途。
 
-Tazemetostat 是一種 EZH2 抑制劑，原本用於上皮樣肉瘤（epithelioid sarcoma）等肉瘤的治療。
-TxGNN 模型預測它可能對**腎透明細胞癌 (Clear Cell Renal Carcinoma)** 有效，
-目前**沒有相關臨床試驗登記**，僅有 **5 篇文獻**（以前臨床與機轉研究為主）提供間接支持。
-
----
-
-## 快速總覽
-
+## 快速概覽
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 上皮樣肉瘤、肉瘤（香港許可證未載明核准適應症文字，此處依藥物知識圖譜） |
-| 預測新適應症 | 腎透明細胞癌 (Clear Cell Renal Carcinoma) |
-| TxGNN 預測分數 | 98.98% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
-| 建議決策 | Hold |
+| 新預測適應症 | 無（沒有模型候選分數達 0.99 以上） |
+| 此藥物已記錄的已知用途 | 2 |
+| 證據等級 | 不適用 |
+| 香港的上市狀態 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 
----
+## 此藥物已記錄的已知用途
 
-## 為什麼這個預測合理？
+### 已核准（有許可證或仿單支持）
+| 適應症 | 來源 |
+|------|------|
+| 無 | 無 |
 
-目前缺乏詳細的作用機轉資料（原廠資料未收錄）。不過已知 Tazemetostat 屬於 EZH2 抑制劑，EZH2 是 Polycomb repressive complex 2 (PRC2) 的催化次單元，負責 H3K27me3 的沉積並參與基因沉默。
+### 與已核准適應症相關（同一疾病類別）
+| 適應症 | 已核准類別 |
+|------|------|
+| 無 | 無 |
 
-在腎細胞癌方面，前臨床研究（PMID 36808829）顯示抑制 EZH2 可透過 LATS1 發揮抗腫瘤作用。另一篇綜述（PMID 40526876）指出 BAP1 與 EZH2 路徑存在交互作用，而 BAP1 功能缺失在腎透明細胞癌相當常見，提示可能存在對 EZH2 抑制的合成致死弱點。
-
-此外，NCI-COG 兒童 MATCH 研究（PMID 37228094）納入帶有 SMARCB1/SMARCA4 缺失或 EZH2 變異的腫瘤，這類族群與腎髓質癌、類橫紋肌樣腎腫瘤相關，但**並未直接證明對腎透明細胞癌有效**。整體而言，這些是機轉層面的間接線索，尚未有臨床療效證據。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
----
-
-## 文獻證據
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [37228094](https://pubmed.ncbi.nlm.nih.gov/37228094/) | 2023 | 第 2 期籃式臨床試驗（兒童） | J Natl Cancer Inst | 針對帶有 EZH2 突變或 SMARCB1/SMARCA4 缺失的難治性實體瘤，以 tazemetostat 治療 |
-| [40526876](https://pubmed.ncbi.nlm.nih.gov/40526876/) | 2025 | Review | JCO Precis Oncol | 探討 BAP1 與 EZH2 路徑交互作用，及其在乳癌、間皮瘤、淋巴瘤的治療介入 |
-| [36808829](https://pubmed.ncbi.nlm.nih.gov/36808829/) | 2023 | 前臨床 | FEBS Open Bio | 抑制 EZH2 可經由 LATS1 在腎細胞癌發揮抗腫瘤作用 |
-| [39988317](https://pubmed.ncbi.nlm.nih.gov/39988317/) | 2025 | 前臨床／機轉 | Nucleic Acids Res | NEXT 複合體調控 H3K27me3 水準，影響癌症進展 |
-| [39833894](https://pubmed.ncbi.nlm.nih.gov/39833894/) | 2025 | 病例報告 | Acta Neuropathol Commun | 腎髓質癌病人接受含 tazemetostat 的治療後出現腦轉移與膠質細胞轉分化 |
-
----
+### 知識圖譜中記錄的關係（未找到核准依據）
+| 適應症 |
+|------|
+| 上皮樣肉瘤 (epithelioid sarcoma) |
+| 肉瘤 (sarcoma) |
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68216 | TAZVERIK TABLETS 200MG | 未載明 | 未載明（製造商：HUTCHMED (HONG KONG) LIMITED） |
-
----
+| 許可證字號 | 品名 | 劑型 | 狀態 |
+|------|------|------|------|
+| HK-68216 | TAZVERIK TABLETS 200MG |  | 有效 |
 
 ## 細胞毒性
 
@@ -116,20 +95,6 @@ TxGNN 模型預測它可能對**腎透明細胞癌 (Clear Cell Renal Carcinoma)*
 
 ---
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 腎透明細胞癌的預測分數雖高（98.98%），但沒有任何臨床試驗，文獻也以前臨床與機轉研究為主，證據等級僅 L4，屬於「研究問題」階段。
-- 香港仿單的警語與禁忌症資料尚缺，無法進行安全性篩選。
-
-**若要推進需要：**
-- 取得香港衛生署仿單（警語、禁忌症、核准適應症）並完成安全性篩選
-- 補齊 DrugBank 的作用機轉資料
-- 驗證 BAP1 缺失或 SMARCB1 缺失的腎癌亞群是否對 EZH2 抑制敏感（細胞株／動物模型）
-- 若前臨床結果支持，設計生物標記篩選的小型 Phase 2 試驗
-- 評估與嚴重交互作用藥物（如 Clarithromycin、Aprepitant、Dexamethasone）併用時的管理方案
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

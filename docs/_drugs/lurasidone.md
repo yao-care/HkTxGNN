@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lurasidone
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 545
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Lurasidone：預測新適應症為躁狂型雙極性情感障礙 (Manic Bipolar Affective Disorder)（證據等級 L4）。原適應症：雙極性疾患、思覺失調症"
 monitor_inn: "Lurasidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
+description: "Lurasidone：預測新適應症為Retinal dystrophy with or without extraocular anomalies（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Lurasidone
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-## Lurasidone：從思覺失調症與雙極性疾患到躁狂型雙極性情感障礙
+## Lurasidone: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## 一句話總結
 
 Lurasidone 是一種非典型抗精神病藥，原本用於雙極性疾患與思覺失調症的治療。
-TxGNN 模型預測它可能對**躁狂型雙極性情感障礙 (Manic Bipolar Affective Disorder)** 有效，
 但目前僅有 **1 個臨床試驗**（已撤回、未收案）與 **約 20 篇相關文獻**（多為指引、回顧與綜合分析），直接證據相當有限。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 雙極性疾患、思覺失調症（香港許可證未登載適應症文字，此處依知識圖譜資料） |
-| 預測新適應症 | 躁狂型雙極性情感障礙 (Manic Bipolar Affective Disorder) |
-| TxGNN 預測分數 | 99.98% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Retinal dystrophy with or without extraocular anomalies |
+| TxGNN 預測分數 | 0.9995 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Entecavir
-parent: 僅模型預測 (L5)
+parent: 中證據等級 (L3-L4)
 nav_order: 323
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Entecavir：預測新適應症為慢性 C 型肝炎 (Chronic hepatitis C virus infection)（證據等級 L5）。原適應症：慢性 B 型肝炎病毒感染"
 monitor_inn: "ENTECAVIR"
-predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
+predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
+description: "Entecavir：預測新適應症為慢性 C 型肝炎 (chronic hepatitis C virus infection)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Entecavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L4** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious d
 
 </div>
 
-## Entecavir：從慢性 B 型肝炎到慢性 C 型肝炎
+## Entecavir: 慢性 C 型肝炎 (chronic hepatitis C virus infection)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,11 +48,11 @@ TxGNN 模型預測它可能對**慢性 C 型肝炎 (Chronic hepatitis C virus in
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 慢性 B 型肝炎病毒感染（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 慢性 C 型肝炎 (Chronic hepatitis C virus infection) |
-| TxGNN 預測分數 | 99.98% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 慢性 C 型肝炎 (chronic hepatitis C virus infection) |
+| TxGNN 預測分數 | 0.9998 |
 | 證據等級 | L4（僅有間接的機轉與共感染研究，無 C 型肝炎本身的療效證據） |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -138,7 +138,6 @@ Entecavir 在香港共有 20 張有效單一成分許可證，以下列出 5 張
 
 **補充：其他預測適應症的排序**
 
-- **B 型肝炎病毒感染（排名 2）**：這是已核准的原適應症，並非新的重新定位對象。有多項已完成的 Phase 3 試驗（如 NCT00395018、NCT00410072、NCT01063036）及 EASL 2017 指引支持，證據等級 L1，建議為 Proceed with Guardrails，可作為陽性對照。
 - **HIV 感染（排名 3）**：證據等級 L3。Entecavir 對 HIV-1 僅有微弱活性，且會選出 M184V 突變，可能損害 HIV 治療選擇；試驗的終點是 HBV 病毒血症，並非 HIV 控制。不建議作為 HIV 治療，僅適合在完全抑制性抗反轉錄病毒療法下用於 HBV 共感染。
 - **其餘預測**（C 型肝炎病毒感染、E 型肝炎、A 型肝炎、動物病毒性肝炎、猿猴免疫缺乏病毒、貓後天免疫缺乏症候群、罕見神經發展疾病）：缺乏合理機轉或僅為模型預測，皆為 Hold。
 ## 免責聲明

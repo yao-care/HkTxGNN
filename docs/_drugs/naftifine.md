@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Naftifine
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 606
-evidence_level: L3
-indication_count: 8
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Naftifine：預測新適應症為皮膚念珠菌病 (Cutaneous Candidiasis)（證據等級 L3）。原適應症：足癬、體癬、癬菌感染、鼠蹊及肛周皮膚癬菌病"
 monitor_inn: "Naftifine"
-predicted_indications: ["ectothrix infectious disease", "Majocchi granuloma", "pityriasis versicolor", "endothrix infectious disease"]
+predicted_indications: ["ectothrix infectious disease", "pityriasis versicolor", "endothrix infectious disease"]
+description: "Naftifine：預測新適應症為Ectothrix infectious disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Naftifine
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **8** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["ectothrix infectious disease", "Majocchi granuloma", "p
 
 </div>
 
-## Naftifine：從足癬到皮膚念珠菌病
+## Naftifine: Ectothrix infectious disease
 {: .text-alpha }
 
 ## 一句話總結
 
 Naftifine 是外用烯丙胺（allylamine）類抗黴菌藥，原本用於足癬、體癬等皮膚癬菌感染。
-TxGNN 模型預測它可能對**皮膚念珠菌病 (Cutaneous Candidiasis)** 有效，
 目前有 **9 篇文獻**支持這個方向，其中包含 2 項 1980 年代的對照或雙盲臨床研究，但**無相關臨床試驗登記**。
 
 ---
@@ -48,12 +47,12 @@ TxGNN 模型預測它可能對**皮膚念珠菌病 (Cutaneous Candidiasis)** 有
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 足癬、體癬、癬菌感染、鼠蹊及肛周皮膚癬菌病（來自 TxGNN 知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 皮膚念珠菌病 (Cutaneous Candidiasis) |
-| TxGNN 預測分數 | 99.84% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 10 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Ectothrix infectious disease |
+| TxGNN 預測分數 | 0.9969 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 10 張／共 10 張） |
+| 許可證數 | 10 張（有效 10 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---
@@ -62,7 +61,7 @@ TxGNN 模型預測它可能對**皮膚念珠菌病 (Cutaneous Candidiasis)** 有
 
 Naftifine 是烯丙胺類抗黴菌藥，透過抑制角鯊烯環氧酶（squalene epoxidase）阻斷麥角固醇合成，破壞真菌細胞膜。它對皮膚癬菌具殺菌作用，對念珠菌 (Candida) 也有體外活性，並可能有輕度抗發炎及抗細菌效果。
 
-足癬、體癬與皮膚念珠菌病同屬淺層皮膚黴菌感染，都是外用抗黴菌藥的常見適應症，因此模型預測具有生物學上的合理性。1988 年一項雙盲、與基質對照的研究（60 位患者，1% 乳膏，每日兩次，共 3 週）顯示，停藥兩週後 77% 的 naftifine 組達到黴菌學治癒。
+1988 年一項雙盲、與基質對照的研究（60 位患者，1% 乳膏，每日兩次，共 3 週）顯示，停藥兩週後 77% 的 naftifine 組達到黴菌學治癒。
 
 需注意：對念珠菌的療效一般認為不如對皮膚癬菌穩健，目前標準治療仍以唑類（azole）為主。
 

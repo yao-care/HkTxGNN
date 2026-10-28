@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 933
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
-description: "Verteporfin：預測新適應症為核 DNA 異常所致的粒線體氧化磷酸化異常疾病（證據等級 L5）。原適應症：黃斑部病變 (macular degeneration)"
+last_modified_at: 2026-10-28
 monitor_inn: "VERTEPORFIN"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
+description: "Verteporfin：預測新適應症為核 DNA 異常所致的粒線體氧化磷酸化異常疾病 (mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Verteporfin
@@ -33,7 +33,7 @@ predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to
 
 </div>
 
-## Verteporfin：從黃斑部病變到粒線體氧化磷酸化異常疾病
+## Verteporfin: 核 DNA 異常所致的粒線體氧化磷酸化異常疾病 (mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對**核 DNA 異常所致的粒線體氧化磷酸化�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 黃斑部病變 (macular degeneration) |
-| 預測新適應症 | 核 DNA 異常所致的粒線體氧化磷酸化異常疾病 |
-| TxGNN 預測分數 | 99.49% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 核 DNA 異常所致的粒線體氧化磷酸化異常疾病 (mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies) |
+| TxGNN 預測分數 | 0.9949 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -93,7 +93,7 @@ TxGNN 模型預測它可能對**核 DNA 異常所致的粒線體氧化磷酸化�
 **決策：Hold**
 
 **理由：**
-- 此預測僅來自模型的高分（99.49%），沒有任何臨床試驗或文獻佐證，證據等級為 L5。
+- 此預測僅來自模型的高分（0.9949），沒有任何臨床試驗或文獻佐證，證據等級為 L5。
 - 光敏劑經光照產生活性氧的特性，對於本身已有氧化磷酸化功能障礙的疾病可能有害，且機轉資料缺漏，無法驗證其合理性。
 
 **若要推進需要：**

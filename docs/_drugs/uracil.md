@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Uracil
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 918
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Uracil：預測新適應症為大腸腫瘤 (Colonic Neoplasm)（證據等級 L3）。原適應症：許可證資料未載明核准適應症"
 monitor_inn: "Uracil"
-predicted_indications: ["colonic neoplasm", "rectosigmoid junction neoplasm", "lipoma of colon", "colonic lymphangioma", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "cavernous hemangioma of colon", "cecal disease", "colon leiomyoma"]
+predicted_indications: ["colonic neoplasm", "gastric carcinoma", "rectosigmoid junction neoplasm", "lipoma of colon", "colonic lymphangioma", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "cavernous hemangioma of colon", "cecal disease", "colon leiomyoma"]
+last_modified_at: 2026-10-23
+description: "Uracil：預測新適應症為大腸腫瘤（證據等級 L5）。原適應症：許可證資料未載明"
 ---
 
 # Uracil
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,15 @@ predicted_indications: ["colonic neoplasm", "rectosigmoid junction neoplasm", "l
 
 </div>
 
-## Uracil：從（原適應症未登載）到大腸腫瘤
+## Uracil：從許可證未載明的原適應症，到大腸腫瘤
 {: .text-alpha }
 
 ## 一句話總結
 
-Uracil（尿嘧啶）是 UFT（tegafur-uracil）複方的調節成分，在香港有 2 張有效許可證。
-TxGNN 模型預測它可能對**大腸腫瘤 (Colonic Neoplasm)** 有效。
-目前有 1 個臨床試驗登記（與 uracil 無直接關聯）和 20 篇文獻，其中多數證據針對 tegafur-uracil 複方，**並非 uracil 單方**。
+Uracil（尿嘧啶）在香港有 2 張單一成分許可證，但本報告彙整的許可證資料未載明原核准適應症。
+TxGNN 模型預測它可能對**大腸腫瘤**有效，預測分數 0.9950。
+目前有 1 個相關臨床試驗登記和 20 篇文獻，但臨床試驗並未測試 uracil。
+文獻中的療效證據來自 **tegafur-uracil 複方（UFT）**，不是 uracil 單方。
 
 ---
 
@@ -48,23 +49,21 @@ TxGNN 模型預測它可能對**大腸腫瘤 (Colonic Neoplasm)** 有效。
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證資料未載明核准適應症 |
-| 預測新適應症 | 大腸腫瘤 (Colonic Neoplasm) |
-| TxGNN 預測分數 | 99.50% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
-| 建議決策 | Proceed with Guardrails（僅限複方 UFT 的研究方向） |
+| 原適應症 | 許可證資料未載明 |
+| 預測新適應症 | 大腸腫瘤 |
+| TxGNN 預測分數 | 0.9950 |
+| 證據等級 | L5（證據來自 UFT 複方，非 uracil 單方） |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
+| 建議決策 | Proceed with Guardrails |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏 uracil 本身詳細的作用機轉資料。根據已知資訊，uracil 是 UFT（tegafur-uracil）複方中的調節成分。Tegafur 是 5-FU 的前驅藥，uracil 則競爭性抑制二氫嘧啶去氫酶（DPD），減緩 5-FU 的分解，使腫瘤組織中的 5-FU 暴露量上升。
+目前缺乏 uracil 本身詳細的作用機轉資料。根據已知資訊，uracil 是口服氟嘧啶複方 UFT（tegafur-uracil）的搭配成分。Tegafur 是 5-FU 的前驅藥，uracil 則競爭性抑制二氫嘧啶去氫酶（DPD）。DPD 負責分解 5-FU，抑制它可減緩 5-FU 代謝，提高腫瘤組織中的 5-FU 濃度。
 
-因此，支持大腸腫瘤的證據**屬於複方，而非 uracil 單方**。Uracil 單獨使用並無已確立的抗腫瘤活性。此外，uracil 啟動的鹼基切除修復，以及葉酸/維生素 B12 相關的 uracil 錯誤嵌入，可作為大腸致癌過程的生物學背景，但並非直接的療效證據。
-
-TxGNN 預測的其他疾病中，良性病變（如結腸脂肪瘤、淋巴管瘤、血管瘤、平滑肌瘤）缺乏細胞毒性化療的合理依據，高分可能反映圖譜上的鄰近關係，而非生物學意義。
+這是 UFT 用於大腸直腸癌的藥理基礎，與 TxGNN 的預測方向一致。不過 uracil 單獨使用時不是主要的抗癌成分。已有的療效證據屬於 tegafur 與 uracil 的組合，不能直接視為 uracil 單方的療效。
 
 ---
 
@@ -72,28 +71,28 @@ TxGNN 預測的其他疾病中，良性病變（如結腸脂肪瘤、淋巴管�
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT04164069](https://clinicaltrials.gov/study/NCT04164069) | Phase 1 | 完成 | 9 | Dasatinib 預防 FOLFOX 引起的神經病變；未測試 uracil 或 UFT，僅與大腸癌情境有間接關聯 |
+| [NCT04164069](https://clinicaltrials.gov/study/NCT04164069) | Phase 1 | 完成 | 9 | 以 dasatinib 預防 FOLFOX 化療引起的周邊神經病變，屬支持性照護研究，未測試 uracil |
 
-此登記試驗與 uracil 無直接關係，不能視為支持證據。
+此試驗與 uracil 的療效無直接關聯，不能作為支持證據。
 
 ---
 
 ## 文獻證據
 
+下表所列研究的受試者多數使用 UFT 複方（tegafur + uracil），而非 uracil 單方。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [29677641](https://pubmed.ncbi.nlm.nih.gov/29677641/) | 2018 | RCT | Eur J Cancer | SACURA 試驗：口服 UFT 一年輔助化療 vs 單純手術，用於 II 期結腸癌 |
-| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | RCT（Phase III） | Clin Colorectal Cancer | ACTS-CC 02：SOX 對比 UFT/LV 用於高風險 III 期結腸癌輔助治療 |
-| [33714860](https://pubmed.ncbi.nlm.nih.gov/33714860/) | 2021 | Phase III（5 年更新） | ESMO Open | SOX 在 DFS 上未優於 UFT/LV；報告最終 OS 與分期亞組分析 |
-| [33950962](https://pubmed.ncbi.nlm.nih.gov/33950962/) | 2021 | 世代研究與統合分析 | Medicine | 台灣全國資料庫：比較 UFT 與 5-FU 用於 II/III 期結腸癌術後輔助化療 |
-| [15108041](https://pubmed.ncbi.nlm.nih.gov/15108041/) | 2004 | RCT | Int J Clin Oncol | OK-432 免疫化療與 HCFU、UFT 口服嘧啶類的組合用於大腸直腸癌輔助治療 |
+| [29677641](https://pubmed.ncbi.nlm.nih.gov/29677641/) | 2018 | RCT | Eur J Cancer | SACURA 試驗：比較第 II 期結腸癌術後 1 年口服 UFT 輔助化療與單純手術 |
+| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | 隨機 Phase III | Clin Colorectal Cancer | ACTS-CC 02：高風險第 III 期結腸癌，比較 S-1 加 oxaliplatin 與 UFT/LV 輔助化療 |
+| [33714860](https://pubmed.ncbi.nlm.nih.gov/33714860/) | 2021 | Phase III 追蹤分析 | ESMO Open | ACTS-CC 02 的 5 年存活更新：SOX 在無病存活期上未優於 UFT/LV |
+| [33950962](https://pubmed.ncbi.nlm.nih.gov/33950962/) | 2021 | 世代研究與統合分析 | Medicine | 台灣第 II、III 期結腸癌術後輔助化療，比較 UFT 與 5-FU |
+| [15108041](https://pubmed.ncbi.nlm.nih.gov/15108041/) | 2004 | 隨機對照試驗 | Int J Clin Oncol | 大腸直腸癌輔助免疫化療，比較 OK-432 與口服嘧啶類（HCFU、UFT）的不同組合 |
 | [17952521](https://pubmed.ncbi.nlm.nih.gov/17952521/) | 2007 | Review | Surg Today | UFT 作為肺、胃、大腸、乳房癌術後輔助化療的臨床證據與機轉 |
-| [25209093](https://pubmed.ncbi.nlm.nih.gov/25209093/) | 2014 | 共識指引 | Clin Colorectal Cancer | 亞洲轉移性大腸直腸癌治療指引調適 |
-| [16111469](https://pubmed.ncbi.nlm.nih.gov/16111469/) | 2005 | Review | Expert Rev Anticancer Ther | 結腸癌各分期的化療選擇 |
-| [11320674](https://pubmed.ncbi.nlm.nih.gov/11320674/) | 2001 | 病例報告 | Cancer Chemother Pharmacol | 轉移性結腸癌患者使用 UFT 後發生溶血性貧血 |
-| [11554295](https://pubmed.ncbi.nlm.nih.gov/11554295/) | 2001 | 前臨床/機轉 | Prog Nucleic Acid Res Mol Biol | 人類大腸腺癌 LoVo 細胞萃取物中 uracil 啟動的鹼基切除修復合成保真度 |
-
-文獻中的療效證據均針對 UFT 複方（tegafur + uracil），不能直接推論至 uracil 單方。
+| [25209093](https://pubmed.ncbi.nlm.nih.gov/25209093/) | 2014 | Review | Clin Colorectal Cancer | 亞洲轉移性大腸直腸癌治療指引共識 |
+| [16111469](https://pubmed.ncbi.nlm.nih.gov/16111469/) | 2005 | Review | Expert Rev Anticancer Ther | 結腸癌各分期的化療選項 |
+| [12174936](https://pubmed.ncbi.nlm.nih.gov/12174936/) | 2002 | 回顧 | Anticancer Res | 回顧美、歐、日大腸直腸癌輔助化療的發展 |
+| [11320674](https://pubmed.ncbi.nlm.nih.gov/11320674/) | 2001 | Case report | Cancer Chemother Pharmacol | 轉移性結腸癌患者使用 UFT 後出現溶血性貧血 |
 
 ---
 
@@ -101,30 +100,18 @@ TxGNN 預測的其他疾病中，良性病變（如結腸脂肪瘤、淋巴管�
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-48265 | UNITORAL CAP | 膠囊（依品名推定，資料未載明） | 資料未載明 |
-| HK-60904 | UFUR CAP | 膠囊（依品名推定，資料未載明） | 資料未載明 |
+| HK-48265 | UNITORAL CAP | 未載明 | 未載明 |
+| HK-60904 | UFUR CAP | 未載明 | 未載明 |
 
-兩張皆為單方、有效狀態。
-
----
-
-## 細胞毒性
-
-| 項目 | 內容 |
-|------|------|
-| 細胞毒性分類 | 傳統細胞毒性藥物複方（Fluoropyrimidine 類，UFT 中的 tegafur 為 5-FU 前驅藥；uracil 為 DPD 抑制調節劑） |
-| 骨髓抑制風險 | 請參考原廠仿單；文獻有 UFT 引起溶血性貧血的病例報告 |
-| 致吐性分級 | 請參考原廠仿單 |
-| 監測項目 | 建議監測 CBC（含分類）、肝腎功能 |
-| 處置防護 | 請參考原廠仿單與細胞毒性藥物處置規範 |
+兩張許可證目前皆為有效狀態，均登記為單一成分產品。本次彙整的資料未包含核准適應症文字，因此無法確認原適應症。
 
 ---
 
 ## 安全性考量
 
-- **藥物不良反應個案**：文獻曾報告一例轉移性結腸癌患者使用 UFT 後發生溶血性貧血。
+安全性資訊請參考原廠仿單。
 
-其餘警語、禁忌症與藥物交互作用資料，請參考原廠仿單。
+文獻中有一例值得注意的訊號：一名轉移性結腸癌患者使用 UFT 後出現溶血性貧血（個案報告，PMID 11320674）。此為單一個案，且針對複方，僅供監測參考。
 
 ---
 
@@ -133,15 +120,16 @@ TxGNN 預測的其他疾病中，良性病變（如結腸脂肪瘤、淋巴管�
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 大腸癌方向有多項 UFT 複方的 RCT 與世代研究（如 SACURA、ACTS-CC 02），但證據針對 tegafur-uracil 複方，uracil 單方並無抗腫瘤活性依據；故證據等級為 L3，僅宜視為研究問題。
-- 其他預測疾病（直腸乙狀結腸交界腫瘤、胃癌以外的良性結腸病變等）證據薄弱，應暫緩（Hold）。胃癌方向有 Phase II 及 SAMIT Phase III 對 UFT 的研究，但多為較早期資料，且登記試驗未測試 uracil。
+- 多項針對結腸癌的 Phase III RCT 以 UFT 作為治療組或對照組，機轉（抑制 DPD 以增強 5-FU）也合理，因此大腸腫瘤方向有一定支持。
+- 但這些證據屬於 tegafur-uracil 複方，而非 uracil 單方。現有臨床試驗登記未測試 uracil，仿單的警語與禁忌資料也有缺口，因此須以限制條件推進。
 
 **若要推進需要：**
-- 釐清兩張許可證（UNITORAL、UFUR）的核准適應症與成分組成，確認是否為 tegafur-uracil 複方
-- 取得香港衞生署核准仿單，補齊警語、禁忌症與交互作用資料
-- 補充 uracil 的作用機轉資料
-- 明確將研究問題界定為「UFT 複方」而非「uracil 單方」，並篩選直接測試 UFT 的試驗
-- 針對 DPD 活性相關風險建立安全性監測計畫
+- 釐清兩張香港許可證的實際成分、劑型與核准適應症，並取得仿單。
+- 明確評估對象是 UFT 複方還是 uracil 單方，不要把複方的療效套用到單方。
+- 補充 uracil 的作用機轉資料（DrugBank）。
+- 建立血液學與溶血等不良反應的監測計畫。
+
+**其他預測適應症：** 胃癌的證據也達 L2，同樣來自 UFT 複方的 Phase II 研究與一項 Phase 3 RCT（SAMIT），可作為次要方向。直腸乙狀結腸交界腫瘤、盲腸疾病等其他預測缺乏直接證據，建議 Hold。結腸脂肪瘤、淋巴管瘤、絨毛腺瘤等良性病變目前僅有模型預測，無任何研究支持。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

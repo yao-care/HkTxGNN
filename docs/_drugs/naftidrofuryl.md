@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Naftidrofuryl
-parent: 僅模型預測 (L5)
+parent: 高證據等級 (L1-L2)
 nav_order: 605
-evidence_level: L5
+evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Naftidrofuryl：預測新適應症為中風 (Stroke Disorder)（證據等級 L5）。原適應症：腦血管疾病"
 monitor_inn: "naftidrofuryl"
 predicted_indications: ["stroke disorder"]
+description: "Naftidrofuryl：預測新適應症為中風 (stroke disorder)（證據等級 L1）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Naftidrofuryl
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+證據等級: **L1** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["stroke disorder"]
 
 </div>
 
-## Naftidrofuryl：從腦血管疾病到中風
+## Naftidrofuryl: 中風 (stroke disorder)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對**中風 (Stroke Disorder)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 腦血管疾病（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 中風 (Stroke Disorder) |
-| TxGNN 預測分數 | 99.65% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 中風 (stroke disorder) |
+| TxGNN 預測分數 | 0.9965 |
 | 證據等級 | L1（暫定，詳見下方說明） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

@@ -4,17 +4,17 @@ title: Methylene Blue
 parent: 僅模型預測 (L5)
 nav_order: 574
 evidence_level: L5
-indication_count: 3
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Methylene Blue：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L5）。原適應症：高鐵血紅素血症、硫血紅素血症"
 monitor_inn: "METHYLENE BLUE"
-predicted_indications: ["bronchitis", "methemoglobinemia, alpha type", "methemoglobinemia due to deficiency of methemoglobin reductase"]
+predicted_indications: ["bronchitis"]
+description: "Methylene Blue：預測新適應症為支氣管炎 (bronchitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Methylene Blue
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["bronchitis", "methemoglobinemia, alpha type", "methemog
 
 </div>
 
-## Methylene Blue：從高鐵血紅素血症到支氣管炎
+## Methylene Blue: 支氣管炎 (bronchitis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前**
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 高鐵血紅素血症、硫血紅素血症（香港許可證未載明適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 支氣管炎 (Bronchitis) |
-| TxGNN 預測分數 | 99.97% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 支氣管炎 (bronchitis) |
+| TxGNN 預測分數 | 0.9997 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -64,8 +64,6 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前**
 然而，檢索到的文獻**並未驗證**這個假設。這些文獻多半是將亞甲藍當作染色劑的診斷研究（如支氣管鏡染色），或是與亞甲藍無關的研究（植物精油、生物感測器、β 受體阻斷劑、心內膜炎個案）。這個關聯較可能是關鍵字檢索造成的假象，而非治療證據。
 
 **其他預測適應症的補充說明：**
-- **α 型高鐵血紅素血症**（分數 99.36%，證據 L4）：亞甲藍本身就是高鐵血紅素血症的核准用藥，並非新的再利用機會。且 α 型（如血紅素 M 變異）結構上抗還原，亞甲藍效果可能有限。檢索到的唯一文獻是蛋白質構象的生物物理研究，並非臨床證據。
-- **因高鐵血紅素還原酶缺乏所致的高鐵血紅素血症**（分數 99.36%，證據 L4）：機轉合理，口服亞甲藍可用於先天性高鐵血紅素血症的長期管理，有犬隻病例與歷史人類個案報告支持。但這與原適應症高度重疊，需確認是否屬於獨立且有正式依據的適應症。
 
 ---
 
@@ -124,7 +122,7 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前**
 **決策：Hold**
 
 **理由：**
-- 支氣管炎的預測分數雖高（99.97%），但沒有臨床試驗，文獻也沒有治療證據，僅屬 L5 的模型預測，且關聯可能是檢索假象。
+- 支氣管炎的預測分數雖高（0.9997），但沒有臨床試驗，文獻也沒有治療證據，僅屬 L5 的模型預測，且關聯可能是檢索假象。
 - 另外兩項預測落在高鐵血紅素血症範圍，與原適應症重疊，不構成新的再利用機會。
 
 **若要推進需要：**

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Vasopressin
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 928
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 monitor_inn: "VASOPRESSIN"
@@ -14,7 +14,7 @@ description: "Vasopressin：預測新適應症為先天性凝血酶原缺乏症 
 # Vasopressin
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**先天性凝血酶原缺乏症 (Congenital Proth
 | 項目 | 內容 |
 |------|------|
 | 預測新適應症 | 先天性凝血酶原缺乏症 (Congenital Prothrombin Deficiency) |
-| TxGNN 預測分數 | 99.63% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| TxGNN 預測分數 | 0.9963 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**先天性凝血酶原缺乏症 (Congenital Proth
 
 目前缺乏詳細的作用機轉資料。Vasopressin 的相關文獻多半談的是其 V2 選擇性類似物去氨加壓素（DDAVP）。DDAVP 透過 V2 受體促使內皮細胞釋放儲存的第八凝血因子（FVIII）與血管性血友病因子（vWF），因此在 FVIII、FV 缺乏等狀態有合理的機轉依據。
 
-然而，先天性凝血酶原（第二凝血因子）缺乏症並不屬於上述機轉可直接涵蓋的範圍，目前沒有已建立的機轉證據顯示 vasopressin 能改善凝血酶原缺乏。TxGNN 的高分（99.63%）較可能反映知識圖譜中與出血性疾病節點的網路鄰近性，而非經驗證的藥理機轉。因此這個預測應視為待驗證的假說。
+然而，先天性凝血酶原（第二凝血因子）缺乏症並不屬於上述機轉可直接涵蓋的範圍，目前沒有已建立的機轉證據顯示 vasopressin 能改善凝血酶原缺乏。分數 0.9963 來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。因此這個預測應視為待驗證的假說。
 
 另外，檢索到的文獻研究對象是 desmopressin 而非 vasopressin 本身，不能直接推論 vasopressin 的療效。
 

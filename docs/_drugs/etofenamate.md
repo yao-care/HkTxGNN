@@ -4,17 +4,17 @@ title: Etofenamate
 parent: 僅模型預測 (L5)
 nav_order: 351
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Etofenamate：預測新適應症為脊椎關節病變易感性 (spondyloarthropathy, susceptibility to)（證據等級 L5）。原適應症：骨關節炎、關節病變"
+indication_count: 9
 monitor_inn: "ETOFENAMATE"
-predicted_indications: ["spondyloarthropathy, susceptibility to", "ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type"]
+predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "pseudoachondroplasia", "myosclerosis", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
+last_modified_at: 2026-10-23
+description: "Etofenamate：預測新適應症為僵直性脊椎炎 (Ankylosing Spondylitis)（證據等級 L5）。原適應症：知識圖譜中記錄的關聯為骨關節炎、骨關節炎易感性、關節病變"
 ---
 
 # Etofenamate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,91 +33,84 @@ predicted_indications: ["spondyloarthropathy, susceptibility to", "ankylosing sp
 
 </div>
 
-## Etofenamate：從骨關節炎到脊椎關節病變易感性
+## Etofenamate：從骨關節炎到僵直性脊椎炎
 {: .text-alpha }
 
 ## 一句話總結
 
-Etofenamate 是一種外用非類固醇消炎藥（NSAID，為 flufenamic acid 的酯類衍生物），原本用於骨關節炎與關節病變。
-TxGNN 模型預測它可能對**脊椎關節病變易感性 (spondyloarthropathy, susceptibility to)** 有效，
-但目前**沒有臨床試驗與文獻**直接支持，僅屬模型預測。
-
----
+Etofenamate 是外用非類固醇消炎藥（fenamate 類，flufenamic acid 的酯類衍生物），在知識圖譜中記錄的原適應症為骨關節炎與關節病變。
+TxGNN 模型預測它可能對**僵直性脊椎炎 (Ankylosing Spondylitis)** 有效，但目前**沒有臨床試驗**，僅有 **1 篇文獻**（藥物動力學研究），且該文獻並未直接研究此疾病，證據僅屬模型預測層級。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 骨關節炎、關節病變（依知識圖譜適應症資料；香港許可證未載明核准適應症文字） |
-| 預測新適應症 | 脊椎關節病變易感性 (spondyloarthropathy, susceptibility to) |
-| TxGNN 預測分數 | 99.9996% |
+| 原適應症 | 知識圖譜中記錄的關聯為骨關節炎、骨關節炎易感性、關節病變（香港許可證資料未載明核准適應症） |
+| 預測新適應症 | 僵直性脊椎炎 (Ankylosing Spondylitis) |
+| TxGNN 預測分數 | 1.0000 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 5 張 |
+| 香港上市 | 上市中（有效許可證 5 張／共 5 張） |
+| 許可證數 | 5 張（有效 5 張） |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Etofenamate 是外用 NSAID，一般認為其透過抑制環氧合酶（COX）、減少前列腺素介導的發炎反應而發揮作用。這在發炎性脊椎關節病變中機轉上有一定合理性。
+目前缺乏詳細的作用機轉資料。根據藥物類別推論，Etofenamate 屬於外用 NSAID（fenamate 類），推測透過抑制環氧化酶（COX）產生消炎止痛作用。此為依類別的推論，並非已記載的機轉。
 
-不過，此預測對象是一個「遺傳易感性」分類，並非可直接治療的臨床疾病，因此高分更可能反映知識圖譜中肌肉骨骼與關節病變之間的關聯，而非真正的療效訊號。
-
-若改看同一藥物的其他預測，**僵直性脊椎炎 (ankylosing spondylitis)**（預測分數 99.998%）在臨床上較有意義：NSAID 是其一線症狀治療，但外用劑型難以作用於軸心（脊椎）病變，實用性有限。
-
----
+NSAID 是僵直性脊椎炎的一線治療，因此在類別層面存在機轉上的合理性。唯一連結的文獻是一項藥物動力學研究，顯示 Etofenamate 經離子導入後可在人體血清與關節滑液中測得，支持其組織穿透能力，但並不能證明對軸性脊椎關節炎的療效。此外，僵直性脊椎炎病灶位於脊椎與薦髂關節，外用劑型能否到達足夠深度仍有疑問。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
-
-針對首要預測（脊椎關節病變易感性）目前無相關文獻。
-
-與次要預測「僵直性脊椎炎」相關的間接文獻如下：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [11455681](https://pubmed.ncbi.nlm.nih.gov/11455681/) | 2001 | 藥物動力學研究 | Arzneimittel-Forschung | 11 位下背痛與 13 位膝關節滑膜炎患者，以離子導入法連續 5 天給予 Etofenamate 凝膠，於血清與滑液中測得藥物濃度，顯示可送達關節組織；未評估對僵直性脊椎炎的療效或安全性 |
-
----
+| [11455681](https://pubmed.ncbi.nlm.nih.gov/11455681/) | 2001 | 藥物動力學研究 | Arzneimittel-Forschung | 11 名下背痛與 13 名膝關節滑膜炎患者，連續 5 天以離子導入給予 Etofenamate 凝膠後，於血清及滑液中測得藥物濃度，顯示可穿透至關節組織；未評估僵直性脊椎炎療效 |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-53359 | FLOGOPROFEN GEL 5% | 凝膠 | 資料未載明 |
-| HK-52785 | FLOGOPROFEN SOLUTION 5% | 溶液 | 資料未載明 |
-| HK-55383 | ORDOFEN GEL 10% | 凝膠 | 資料未載明 |
-| HK-40437 | NISOLON GEL 50MG/G | 凝膠 | 資料未載明 |
-| HK-41266 | SULKY GEL 5% | 凝膠 | 資料未載明 |
-
----
+| HK-53359 | FLOGOPROFEN GEL 5% | 凝膠（品名所示） | 資料未載明 |
+| HK-52785 | FLOGOPROFEN SOLUTION 5% | 外用溶液（品名所示） | 資料未載明 |
+| HK-55383 | ORDOFEN GEL 10% | 凝膠（品名所示） | 資料未載明 |
+| HK-40437 | NISOLON GEL 50MG/G | 凝膠（品名所示） | 資料未載明 |
+| HK-41266 | SULKY GEL 5% | 凝膠（品名所示） | 資料未載明 |
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。
 
----
+## 其他預測適應症
+
+其餘預測皆無臨床試驗或文獻，僅為模型預測（L5），建議均為 Hold：
+
+| 排名 | 預測疾病 | TxGNN 分數 | 評語 |
+|------|---------|-----------|------|
+| 2 | 類風濕性血管炎 | 1.0000 | 需免疫抑制治療，外用 NSAID 不足 |
+| 3 | 尾骨過度活動 | 1.0000 | 局部止痛尚屬合理，但無資料支持 |
+| 4 | 肢中發育不良（Hunter-Thompson 型） | 1.0000 | 基因性骨骼發育不良，無機轉關聯；此分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病間相似性，並非生物學證據 |
+| 5 | 短指（牙）-牙釉質發育不全症候群 | 1.0000 | 無合理 NSAID 機轉 |
+| 6 | 假性軟骨發育不全 | 1.0000 | 至多緩解繼發性關節痛 |
+| 7 | 肌硬化症 | 1.0000 | 僅有非特異性症狀緩解可能 |
+| 8 | 多關節型幼年類風濕性關節炎 | 1.0000 | 類別層面合理，但兒童安全性與劑量未確立 |
+| 9 | Kummell 病 | 1.0000 | 以手術或介入治療為主，外用 NSAID 無角色 |
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 預測對象是遺傳易感性分類而非可治療疾病，且無任何臨床試驗或文獻支持，證據等級僅 L5。
-- 外用劑型難以作用於軸心脊椎病變；其他預測（類風濕血管炎、尾骨過度活動、肢中型發育不良）機轉合理性更低。
+- 僵直性脊椎炎目前僅有模型預測與類別層面的推論，沒有直接研究該疾病的臨床試驗或文獻，證據等級為 L5。
+- 唯一文獻為藥物動力學研究，只能說明藥物可進入關節組織；且香港仿單的警語與禁忌資料缺漏，尚無法進行安全性篩選。
 
 **若要推進需要：**
-- 釐清目標族群，改以臨床上可治療的疾病（如僵直性脊椎炎或附著點炎相關症狀）作為評估對象
-- 補充詳細的作用機轉資料
-- 取得原廠仿單的警語與禁忌資料，完成安全性篩選
-- 評估外用劑型與目標病灶的給藥途徑相容性
-- 針對局部症狀緩解設計小型探索性臨床研究
+- 取得香港衛生署仿單，補齊核准適應症、警語與禁忌症
+- 補充作用機轉（MOA）資料（如 DrugBank）
+- 評估外用劑型能否到達脊椎與薦髂關節的深度及足夠濃度
+- 針對僵直性脊椎炎進行文獻回顧，必要時規劃早期探索性臨床研究
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

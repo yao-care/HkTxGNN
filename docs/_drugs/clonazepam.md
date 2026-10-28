@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clonazepam
-parent: 僅模型預測 (L5)
+parent: 中證據等級 (L3-L4)
 nav_order: 219
-evidence_level: L5
+evidence_level: L3
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Clonazepam：預測新適應症為不寧腿症候群 (Restless Legs Syndrome)（證據等級 L5）。原適應症：早期肌陣攣腦病變、失神癲癇、Lennox-Gastaut 症候群、焦慮症等"
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
+description: "Clonazepam：預測新適應症為不寧腿症候群 (restless legs syndrome)（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Clonazepam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+證據等級: **L3** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigemi
 
 </div>
 
-## Clonazepam：從癲癇與焦慮症到不寧腿症候群
+## Clonazepam: 不寧腿症候群 (restless legs syndrome)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**不寧腿症候群 (Restless Legs Syndrome, RLS)
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 早期肌陣攣腦病變、失神癲癇、Lennox-Gastaut 症候群、焦慮症等（香港許可證未載明適應症文字，此處依知識圖譜資料） |
-| 預測新適應症 | 不寧腿症候群 (Restless Legs Syndrome) |
-| TxGNN 預測分數 | 99.65% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 不寧腿症候群 (restless legs syndrome) |
+| TxGNN 預測分數 | 0.9965 |
 | 證據等級 | L3（有系統性回顧與觀察性資料，無已完成的 Phase 3 RCT） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 5 張 |
+| 香港上市 | 上市中（有效許可證 5 張／共 5 張） |
+| 許可證數 | 5 張（有效 5 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---
@@ -137,8 +137,8 @@ TxGNN 模型預測它可能對**不寧腿症候群 (Restless Legs Syndrome, RLS)
 
 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
 |-----------|-----------|---------|------|
-| 失眠 (Insomnia) | 99.32% | L4 | Research Question：現有文獻多為間接證據（如帕金森氏症睡眠障礙回顧），無針對失眠的 clonazepam RCT；另有 1 例 clonazepam 相關躁狂的病例報告，需先進行安全性評估 |
-| 三叉神經腫瘤 (Trigeminal Nerve Neoplasm) | 99.30% | L5 | Hold：無臨床試驗與文獻，僅有模型預測，也無合理的抗腫瘤機轉，需先做機轉驗證 |
+| 失眠 (Insomnia) | 0.9932 | L4 | Research Question：現有文獻多為間接證據（如帕金森氏症睡眠障礙回顧），無針對失眠的 clonazepam RCT；另有 1 例 clonazepam 相關躁狂的病例報告，需先進行安全性評估 |
+| 三叉神經腫瘤 (Trigeminal Nerve Neoplasm) | 0.9930 | L5 | Hold：無臨床試驗與文獻，僅有模型預測，也無合理的抗腫瘤機轉，需先做機轉驗證 |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

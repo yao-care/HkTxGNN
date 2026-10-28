@@ -4,17 +4,17 @@ title: Sodium Citrate
 parent: 僅模型預測 (L5)
 nav_order: 820
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Sodium Citrate：預測新適應症為乳突性結膜炎 (Papillary Conjunctivitis)（證據等級 L5）。原適應症：消化性潰瘍、胃食道逆流、消化不良、咽炎、感冒、鼻炎等"
+indication_count: 8
 monitor_inn: "SODIUM CITRATE"
-predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "acute laryngopharyngitis", "stomach disease", "postgastrectomy syndrome"]
+predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
+last_modified_at: 2026-10-23
+description: "Sodium Citrate：預測新適應症為乳頭狀結膜炎（證據等級 L5）。原適應症：知識圖譜記錄的關聯：消化性潰瘍、胃食道逆流、食道炎、消化不良、咽炎、感冒、鼻炎、鼻咽炎"
 ---
 
 # Sodium Citrate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "acu
 
 </div>
 
-## Sodium Citrate：從消化道與上呼吸道症狀到乳突性結膜炎（預測）
+## 檸檬酸鈉（Sodium Citrate）：從消化性潰瘍與胃食道逆流到乳頭狀結膜炎
 {: .text-alpha }
 
 ## 一句話總結
 
-Sodium Citrate（檸檬酸鈉）是常見的鹼化劑與緩衝劑，原本用於消化性潰瘍、胃食道逆流、消化不良，以及咽炎、感冒、鼻炎等上呼吸道症狀。
-TxGNN 模型預測它可能對**乳突性結膜炎 (Papillary Conjunctivitis)** 有效，但目前**沒有臨床試驗和文獻**支持，僅屬模型推論。
+檸檬酸鈉是一種緩衝劑與制酸成分，在知識圖譜中記錄的使用範圍包括消化性潰瘍、胃食道逆流、消化不良及上呼吸道不適等。
+TxGNN 模型預測它可能對**乳頭狀結膜炎 (Papillary Conjunctivitis)** 有效，但目前**沒有任何臨床試驗或文獻**直接支持這個方向，僅為模型預測。
 
 ---
 
@@ -47,30 +47,21 @@ TxGNN 模型預測它可能對**乳突性結膜炎 (Papillary Conjunctivitis)** 
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 消化性潰瘍、胃食道逆流、消化不良、咽炎、感冒、鼻炎等（香港許可證未載明適應症文字，此處依知識圖譜資料） |
-| 預測新適應症 | 乳突性結膜炎 (Papillary Conjunctivitis) |
-| TxGNN 預測分數 | 99.95% |
+| 原適應症 | 知識圖譜記錄的關聯：消化性潰瘍、胃食道逆流、食道炎、消化不良、咽炎、感冒、鼻炎、鼻咽炎（香港許可證資料未載明核准適應症文字） |
+| 預測新適應症 | 乳頭狀結膜炎 |
+| TxGNN 預測分數 | 0.9995 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 20 張 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 許可證數 | 至少 20 張（清單可能不完整） |
 | 建議決策 | Hold |
 
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，檸檬酸鈉是鹼化劑與緩衝劑，在胃酸相關疾病中可中和酸性，在香港也常見於含祛痰成分的複方止咳糖漿，以及血液濾過液和口服補水鹽中。
+目前缺乏詳細的作用機轉資料。根據已知資訊，檸檬酸鈉是一種緩衝劑，可中和酸性環境，也具有鈣離子螯合作用。在消化道相關用途上，其制酸緩衝特性與消化性潰瘍、胃食道逆流、消化不良等知識圖譜記錄的關聯相符。
 
-乳突性結膜炎屬眼部過敏或刺激性疾病，與原本的消化道、上呼吸道適應症在藥理上缺乏明確關聯，也沒有已知的眼部或抗過敏機轉。模型的高分很可能來自知識圖譜中的網絡鄰近性，而不是實際的生物學證據。
-
-其他預測適應症的情況類似：
-
-| 預測適應症 | TxGNN 分數 | 證據等級 | 說明 |
-|-----------|-----------|---------|------|
-| 鼻腔疾病 (Nasal Cavity Disease) | 99.95% | L5 | 可能與原本的鼻炎、感冒適應症相近，僅為網絡推論 |
-| 急性喉咽炎 (Acute Laryngopharyngitis) | 99.94% | L5 | 可能與原本的咽炎、感冒相近，無臨床支持 |
-| 胃部疾病 (Stomach Disease) | 99.89% | L4 | 範圍廣泛，與現有適應症重疊，不是獨立的再利用機會 |
-| 胃切除後症候群 (Postgastrectomy Syndrome) | 99.79% | L5 | 無文獻，無已建立機轉 |
+至於乳突狀結膜炎，目前沒有資料支持檸檬酸鈉對此疾病有效。可能的推測是：檸檬酸緩衝或鈣螯合作用也許能調節眼表局部 pH 或發炎反應，但這只是未經驗證的假設。高分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，不代表生物學證據。
 
 ---
 
@@ -82,47 +73,35 @@ TxGNN 模型預測它可能對**乳突性結膜炎 (Papillary Conjunctivitis)** 
 
 ## 文獻證據
 
-針對首位預測（乳突性結膜炎），目前無相關文獻。
+目前無相關文獻。
 
-以下為排名第 4 的「胃部疾病」所檢索到的文獻，內容多屬間接證據：
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [25316860](https://pubmed.ncbi.nlm.nih.gov/25316860/) | 2014 | 社區隨機對照試驗 | J Infect Dis | 以緩衝液中和胃酸，探討是否改善口服小兒麻痺疫苗的免疫反應 |
-| [1959368](https://pubmed.ncbi.nlm.nih.gov/1959368/) | 1991 | 臨床比較 | Crit Care Med | 比較 sucralfate 與 ranitidine 用於加護病房壓力性潰瘍預防及續發肺炎 |
-| [7086102](https://pubmed.ncbi.nlm.nih.gov/7086102/) | 1982 | 臨床生理研究 | J Clin Gastroenterol | 多數有症狀的十二指腸潰瘍患者，對胃十二指腸酸化並未出現潰瘍型疼痛 |
-| [1777551](https://pubmed.ncbi.nlm.nih.gov/1777551/) | 1991 | 製劑研究 | Aliment Pharmacol Ther | azapropazone 加入葡萄糖與檸檬酸鈉後，大鼠胃黏膜損傷減少 |
-| [27163639](https://pubmed.ncbi.nlm.nih.gov/27163639/) | 2016 | 體外研究 | Biochem Biophys Res Commun | 3-溴丙酮酸合併檸檬酸鈉抑制糖解，誘導胃癌細胞凋亡 |
-| [26708213](https://pubmed.ncbi.nlm.nih.gov/26708213/) | 2016 | 體外／動物研究 | Oncol Rep | 兩者合併抑制糖解並抑制胃癌原位移植瘤生長 |
-| [29115645](https://pubmed.ncbi.nlm.nih.gov/29115645/) | 2018 | 動物研究 | Oncol Rep | 以 18F-FDG PET/CT 搭配胃癌原位異種移植模型評估糖解標靶治療 |
-
-上述文獻多為間接證據：檸檬酸鈉常作為緩衝劑或製劑輔料，或與其他藥物合併用於癌細胞實驗，並不直接支持檸檬酸鈉單獨治療胃部疾病。
+（補充：預測排名第 3 的「胃部疾病」有若干文獻，但多為胃癌細胞與動物的前臨床研究，或與檸檬酸鈉療效無直接關係的研究；這些並未直接研究乳頭狀結膜炎，故不列入本預測的證據。）
 
 ---
 
 ## 香港上市資訊
 
-香港共有 20 張有效的單一成分許可證，以下列出 5 張主要許可證。資料中未載明劑型與核准適應症文字。
+資料顯示至少有 20 張有效的單一成分許可證（清單可能不完整），以下列出 5 張：
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-28241 | SOD CITRATE SOLN 3.13%（B. Braun） | — | — |
-| HK-65289 | REGIOCIT SOLUTION FOR HAEMOFILTRATION | — | — |
-| HK-49787 | BENA EXPECTORANT | — | — |
-| HK-47398 | DIPHENHYDRAMINE COMP LINCTUS | — | — |
-| HK-64418 | ORALITE NATURAL ORAL REHYDRATION SALTS | — | — |
+| HK-28241 | SOD CITRATE SOLN 3.13% (B BRAUN) | 未載明 | 未載明 |
+| HK-65289 | REGIOCIT SOLUTION FOR HAEMOFILTRATION | 未載明 | 未載明 |
+| HK-49787 | BENA EXPECTORANT | 未載明 | 未載明 |
+| HK-47398 | DIPHENHYDRAMINE COMP LINCTUS | 未載明 | 未載明 |
+| HK-46401 | DIPHENHYDRAMINE COMP. LINCTUS | 未載明 | 未載明 |
 
 ---
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌疾病**（非仿單內容，僅供參考）：高血壓、胰臟炎、腎上腺皮質功能不全（含 Addison 病）、良性前列腺肥大、無尿、橫紋肌溶解症、高血鈣、腎鈣質沉著症、冠狀動脈疾病、心肌梗塞、腎功能不全、代謝性酸中毒、隅角閉鎖型青光眼、先天性腎上腺增生等。
-- **藥物交互作用**：資料庫共有 100 筆交互作用紀錄，其中前 20 筆顯示：
-  - **重大 (Major)**：氫氧化鋁 (Aluminum hydroxide)
-  - **中等 (Moderate)**：Doxycycline、Minocycline、Tetracycline、Levofloxacin、Acetylsalicylic acid、鐵劑、Ephedrine、Pseudoephedrine、Rosuvastatin、Acalabrutinib
-  - **輕微 (Minor)**：磺醯脲類降血糖藥（Glipizide、Glyburide、Chlorpropamide、Tolbutamide 等）、Lactulose、Misoprostol
+- **知識圖譜記錄的禁忌關聯**（非仿單內容）：高血壓、胰臟炎、腎上腺皮質功能不全、艾迪森氏症、良性攝護腺增生、無尿、橫紋肌溶解、高血鈣、腎鈣化、冠狀動脈疾病、心肌梗塞、腎功能不全、代謝性酸中毒、隅角閉鎖型青光眼、先天性腎上腺增生等。
+- **藥物交互作用**（共 100 筆，以下為主要項目）：
+  - 重大：氫氧化鋁（Aluminum hydroxide）
+  - 中度：Doxycycline、Tetracycline、Minocycline、Levofloxacin、阿斯匹靈、鐵劑、麻黃素、偽麻黃素、Rosuvastatin、Acalabrutinib
+  - 輕微：Sulfonylurea 類降血糖藥（Glipizide、Glyburide 等）、Lactulose、Misoprostol
 
-香港仿單的警語與禁忌尚未取得，詳細安全性資訊請參考原廠仿單。
+其他警語與禁忌請參考原廠仿單。
 
 ---
 
@@ -131,14 +110,14 @@ TxGNN 模型預測它可能對**乳突性結膜炎 (Papillary Conjunctivitis)** 
 **決策：Hold**
 
 **理由：**
-- 首位預測（乳突性結膜炎）沒有任何臨床試驗或文獻，且檸檬酸鈉缺乏已知的眼部或抗過敏機轉，高分僅反映知識圖譜的網絡關係，證據等級為 L5。
-- 其餘預測不是缺乏證據，就是與現有適應症重疊（如胃部疾病），並非獨立的再利用機會。
+- 針對乳突狀結膜炎沒有任何臨床試驗或文獻，預測僅來自 TxGNN 模型（深度學習），證據等級為 L5。
+- 作用機轉資料缺乏，且仿單層級的安全性資訊尚未取得。
 
 **若要推進需要：**
-- 補齊作用機轉（MOA）資料，檢驗預測的生物學合理性
-- 取得香港仿單的警語與禁忌資料，完成安全性篩選
-- 以文獻與臨床試驗登記資料再次檢索乳突性結膜炎、鼻腔及咽喉疾病的直接證據
-- 評估眼用或局部給藥途徑是否可行；目前給藥途徑相容性資料尚缺
+- 補齊作用機轉資料與香港仿單的警語、禁忌資訊
+- 進行眼表局部使用的文獻回顧與前臨床研究（例如眼表 pH、發炎模型），確認機轉可行性
+- 評估眼用劑型與給藥途徑的可行性及眼部耐受性
+- 若前臨床結果正面，再規劃小規模探索性臨床研究
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

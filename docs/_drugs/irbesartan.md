@@ -4,17 +4,17 @@ title: Irbesartan
 parent: 僅模型預測 (L5)
 nav_order: 483
 evidence_level: L5
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Irbesartan：預測新適應症為惡性腎血管性高血壓 (Malignant Renovascular Hypertension)（證據等級 L5）。原適應症：高血壓、糖尿病腎病變"
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
+description: "Irbesartan：預測新適應症為Malignant hypertensive renal disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Irbesartan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,23 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 </div>
 
-## Irbesartan：從高血壓與糖尿病腎病變到惡性腎血管性高血壓
+## Irbesartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## 一句話總結
 
 Irbesartan 是血管張力素 II 第一型受體阻斷劑（ARB），原本用於高血壓及糖尿病腎病變。
-TxGNN 模型預測它可能對**惡性腎血管性高血壓 (Malignant Renovascular Hypertension)** 有效，
 但目前**沒有相關臨床試驗與文獻**，僅有模型預測分數支持。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 高血壓、糖尿病腎病變（香港許可證未提供適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 惡性腎血管性高血壓 (Malignant Renovascular Hypertension) |
-| TxGNN 預測分數 | 99.31% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Malignant hypertensive renal disease |
+| TxGNN 預測分數 | 0.9931 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -60,7 +59,7 @@ TxGNN 模型預測它可能對**惡性腎血管性高血壓 (Malignant Renovascu
 
 腎血管性高血壓主要由腎素－血管張力素系統（RAS）過度活化所驅動，因此阻斷此路徑在機轉上具合理性，且與已核准的高血壓適應症高度相關。
 
-但需特別留意：ARB 用於腎血管疾病時有已知風險，例如雙側腎動脈狹窄可能導致急性腎功能惡化。此外，同為高分數的「惡性高血壓性腎病」（99.31%）與本預測分數完全相同，顯示可能來自圖譜上共通的訊號，而非獨立證據。
+但需特別留意：ARB 用於腎血管疾病時有已知風險，例如雙側腎動脈狹窄可能導致急性腎功能惡化。
 
 ## 臨床試驗證據
 

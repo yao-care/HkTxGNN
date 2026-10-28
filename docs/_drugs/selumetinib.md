@@ -6,9 +6,9 @@ nav_order: 806
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Selumetinib：預測新適應症為週邊神經鞘瘤 (Peripheral nerve schwannoma)（證據等級 L5）。原適應症：神經纖維瘤 (neurofibromatosis)"
 monitor_inn: "Selumetinib"
-predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "trigeminal schwannoma"]
+predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "acromelanosis", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "trigeminal schwannoma"]
+description: "Selumetinib：預測新適應症為Familial generalized lentiginosis（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Selumetinib
@@ -33,7 +33,7 @@ predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous sy
 
 </div>
 
-## Selumetinib：從神經纖維瘤到週邊神經鞘瘤（NF2 相關）
+## Selumetinib: Familial generalized lentiginosis
 {: .text-alpha }
 
 ## 一句話總結
@@ -49,24 +49,24 @@ TxGNN 模型預測的首位新適應症為家族性泛發性雀斑樣痣，但�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 神經纖維瘤 (neurofibromatosis)（來自知識圖譜；香港許可證未提供適應症文字） |
-| 預測新適應症 | 週邊神經鞘瘤 (Peripheral nerve schwannoma)（預測排名第 9） |
-| TxGNN 預測分數 | 99.95% |
-| 證據等級 | L3（僅有綜述與病例報告，無已完成的 RCT；嚴格依規則，臨床層面證據仍薄弱） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Familial generalized lentiginosis |
+| TxGNN 預測分數 | 0.9996 |
+| 證據等級 | L5（僅有綜述與病例報告，無已完成的 RCT；嚴格依規則，臨床層面證據仍薄弱） |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold（研究性問題，待更多資料） |
 
 **其他高分預測概況：**
 
 | 預測疾病 | 分數 | 證據等級 | 狀況 |
 |---------|------|---------|------|
-| 家族性泛發性雀斑樣痣 | 99.96% | L5 | 僅模型預測，RAS/MAPK 路徑關聯合理但無證據 |
-| 胃皮膚症候群 | 99.96% | L5 | 僅模型預測 |
-| 橫紋肌樣腫瘤 (Rhabdoid tumor) | 99.96% | L4 | 有 1 個廣泛篩選試驗與 1 篇前臨床文獻 |
-| 先天性多發咖啡牛奶斑—姊妹染色分體交換增加症候群 | 99.96% | L5 | 僅模型預測 |
-| 肢端黑變病 | 99.96% | L5 | 僅模型預測 |
-| 三叉神經鞘瘤 | 99.95% | L5 | 僅模型預測，由鞘瘤證據推論 |
+| 家族性泛發性雀斑樣痣 | 0.9996 | L5 | 僅模型預測，RAS/MAPK 路徑關聯合理但無證據 |
+| 胃皮膚症候群 | 0.9996 | L5 | 僅模型預測 |
+| 橫紋肌樣腫瘤 (Rhabdoid tumor) | 0.9996 | L5 | 有 1 個廣泛篩選試驗與 1 篇前臨床文獻 |
+| 先天性多發咖啡牛奶斑—姊妹染色分體交換增加症候群 | 0.9996 | L5 | 僅模型預測 |
+| 肢端黑變病 | 0.9996 | L5 | 僅模型預測 |
+| 三叉神經鞘瘤 | 0.9995 | L5 | 僅模型預測，由鞘瘤證據推論 |
 
 ---
 

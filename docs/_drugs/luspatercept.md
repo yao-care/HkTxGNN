@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Luspatercept
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 547
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Luspatercept：預測新適應症為Monosomy X（證據等級 L5）。原適應症：β 型地中海貧血及相關血紅素病變"
+description: "Luspatercept: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Luspatercept"
-predicted_indications: ["monosomy X", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "syndrome with combined immunodeficiency", "pyruvate kinase deficiency of red cells", "familial apolipoprotein C-II deficiency", "adenosine deaminase deficiency", "Hb Bart's hydrops fetalis"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Luspatercept
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,41 +35,16 @@ predicted_indications: ["monosomy X", "hepatic infarction", "hepatic veno-occlus
 
 </div>
 
-## Luspatercept：從 β 型地中海貧血到 Monosomy X（透納氏症）
+## Luspatercept
 {: .text-alpha }
-
-## 一句話總結
-
-Luspatercept 原本用於 β 型地中海貧血及相關血紅素病變。
-TxGNN 模型預測它可能對 **Monosomy X** 有效，但目前**沒有任何臨床試驗或文獻**支持這個方向，僅屬模型預測層級。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | β 型地中海貧血及相關血紅素病變（香港許可證未載明適應症文字，此為知識圖譜中的適應症） |
-| 預測新適應症 | Monosomy X |
-| TxGNN 預測分數 | 96.00% |
-| 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
-| 建議決策 | Hold |
-
-## 為什麼這個預測合理？
-
-Luspatercept 是一種活化素受體 IIB 型（activin receptor type IIB）配體捕捉劑，能調節 TGF-β 超家族訊號（SMAD2/3），促進晚期紅血球成熟。這個機轉與 β 型地中海貧血的無效造血直接相關。
-
-然而，Monosomy X（透納氏症）與紅血球成熟之間，目前**沒有已建立的機轉關聯**。這個高分較可能是知識圖譜上的關聯假象，而非真實的藥理聯繫。
-
-整體而言，這項預測缺乏任何臨床或文獻佐證，不宜視為有力的再利用候選。
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
-## 文獻證據
-
-目前無相關文獻。
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 
 ## 香港上市資訊
 
@@ -90,30 +67,9 @@ Luspatercept 是一種活化素受體 IIB 型（activin receptor type IIB）配�
 
 | 排名 | 預測適應症 | TxGNN 分數 | 建議 | 機轉評估 |
 |------|-----------|-----------|------|---------|
-| 2 | 肝梗塞 | 95.70% | Hold | 無直接機轉；血栓風險反而不利 |
-| 3 | 肝靜脈阻塞症 | 94.91% | Hold | 關聯屬推測；血栓風險考量 |
-| 4 | 肝紫斑症 | 94.75% | Hold | 無已知關聯 |
-| 5 | 合併免疫缺陷症候群 | 94.28% | Hold | 無明確機轉重疊 |
-| 6 | 紅血球丙酮酸激酶缺乏症 | 93.84% | Research Question | 屬遺傳性溶血性貧血、無效造血，機轉上最合理 |
-| 7 | β+ 地中海貧血（靜默對偶基因） | 93.32% | Research Question | 與既有適應症高度相近，但患者多無症狀，需求低 |
-| 8 | 家族性 ApoC-II 缺乏症 | 93.05% | Hold | 脂質代謝疾病，無關聯 |
-| 9 | 腺苷脫胺酶缺乏症 | 92.86% | Hold | 病理機轉無關 |
-| 10 | Hb Bart's 水腫胎 | 92.75% | Hold | 為重度 α 型地中海貧血，luspatercept 證據僅限 β 型，且胎兒／孕期用藥安全性未知 |
 
 其中**紅血球丙酮酸激酶缺乏症**是最值得進一步探討的方向。
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- Monosomy X 的預測僅來自模型，沒有臨床試驗或文獻支持，機轉上也無明確關聯，高分很可能是圖譜關聯假象。
-
-**若要推進需要：**
-- 取得香港衛生署仿單中的警語與禁忌症資料（目前為阻擋性資料缺口）
-- 補充 DrugBank 的作用機轉資料
-- 若要探索再利用方向，建議優先查證紅血球丙酮酸激酶缺乏症，確認是否有未納入本次資料的已登記研究
-- 針對 Monosomy X，需先有機轉假說或前臨床證據，才值得重新評估
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

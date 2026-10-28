@@ -6,9 +6,9 @@ nav_order: 283
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Diphenhydramine：預測新適應症為酒糟性結膜炎 (Rosacea Conjunctivitis)（證據等級 L5）。原適應症：失眠、血管運動性鼻炎、過敏性鼻炎、異位性結膜炎、乳突性結膜炎、春季結膜炎"
 monitor_inn: "DIPHENHYDRAMINE"
 predicted_indications: ["rosacea conjunctivitis"]
+description: "Diphenhydramine：預測新適應症為酒糟性結膜炎 (rosacea conjunctivitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Diphenhydramine
@@ -33,7 +33,7 @@ predicted_indications: ["rosacea conjunctivitis"]
 
 </div>
 
-## Diphenhydramine：從過敏性鼻炎與結膜炎到酒糟性結膜炎
+## Diphenhydramine: 酒糟性結膜炎 (rosacea conjunctivitis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,11 +46,11 @@ TxGNN 模型預測它可能對**酒糟性結膜炎 (Rosacea Conjunctivitis)** �
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 失眠、血管運動性鼻炎、過敏性鼻炎、異位性結膜炎、乳突性結膜炎、春季結膜炎（香港許可證未載明適應症文字，此處依知識圖譜資料） |
-| 預測新適應症 | 酒糟性結膜炎 (Rosacea Conjunctivitis) |
-| TxGNN 預測分數 | 99.20% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 酒糟性結膜炎 (rosacea conjunctivitis) |
+| TxGNN 預測分數 | 0.9920 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 

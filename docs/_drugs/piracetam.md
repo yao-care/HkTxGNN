@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Piracetam
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 705
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Piracetam：預測新適應症為退化性關節炎 (Osteoarthritis)（證據等級 L5）。原適應症：資料缺漏"
+description: "Piracetam: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Piracetam"
-predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheumatoid arthritis", "pseudoachondroplasia", "hepatic porphyria", "gout", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "hepatopulmonary syndrome"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Piracetam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,50 +35,16 @@ predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheu
 
 </div>
 
-## Piracetam：從（原適應症資料缺漏）到退化性關節炎
+## Piracetam
 {: .text-alpha }
-
-## 一句話總結
-
-Piracetam 是一種 racetam 類益智藥物，在香港已有多張許可證上市，但本次整理的資料中沒有可引用的原核准適應症文字。
-TxGNN 模型預測它可能對**退化性關節炎 (Osteoarthritis)** 有效（預測分數 98.45%）。
-目前**沒有任何臨床試驗或文獻**支持這個方向，僅屬模型預測。
-
----
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料缺漏（香港許可證未提供適應症文字） |
-| 預測新適應症 | 退化性關節炎 (Osteoarthritis) |
-| TxGNN 預測分數 | 98.45% |
-| 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 9 張 |
-| 建議決策 | Hold |
-
----
-
-## 為什麼這個預測合理？
-
-目前缺乏詳細的作用機轉資料。就已知的藥理資訊，Piracetam 屬於 racetam 類益智藥物，可作用於 AMPA 型麩胺酸受體（GluA1–GluA4），並被認為與膜流動性、微循環及血小板凝集的改變有關。它在歐洲、亞洲及南美洲部分國家用於臨床；在英國則核准作為肌躍症（myoclonus）的輔助治療。
-
-這些作用與關節軟骨退化或關節發炎之間，**目前沒有已建立的機轉連結**。若要勉強解釋，只能推測微循環或抗發炎方面的影響，但這些都未經驗證。0.985 的高分僅代表知識圖譜上的模型推論，不能視為療效證據。
-
-另外，TxGNN 同時預測了類風濕性關節炎、痛風及多種罕見骨骼發育不良症，這些預測同樣沒有證據支持，整體看來較像是圖譜中疾病鄰近性所造成的結果。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
----
-
-## 文獻證據
-
-目前無相關文獻。
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 香港上市 | 上市中（有效許可證 9 張／共 9 張） |
+| 許可證數 | 9 張（有效 9 張） |
 
 ---
 
@@ -97,26 +65,11 @@ TxGNN 模型預測它可能對**退化性關節炎 (Osteoarthritis)** 有效（�
 ## 安全性考量
 
 - **藥物交互作用**：藥理資料庫中記錄了 Piracetam 與 4 個 AMPA 受體亞型（GluA1、GluA2、GluA3、GluA4）的標靶作用關係。這是藥理標靶資訊，並非臨床上已確認的藥物間交互作用，也未提供嚴重度分級。
-- **特殊注意**：針對肝臟紫質症（hepatic porphyria）的預測，Piracetam 在紫質症患者的安全性尚未被證實，若考慮此方向需特別謹慎。
 
 其餘警語與禁忌症請參考原廠仿單。
 
 ---
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 所有預測適應症都僅有模型分數，沒有臨床試驗、文獻或明確的機轉連結（證據等級 L5）。
-- 原適應症、作用機轉及仿單安全性資料皆有缺漏，目前無法進入安全性篩選。
-
-**若要推進需要：**
-- 取得香港衛生署仿單，補齊核准適應症、警語與禁忌症
-- 補充 Piracetam 完整的作用機轉資料（例如查詢 DrugBank）
-- 系統性搜尋 Piracetam 與退化性關節炎相關的臨床前研究、臨床研究與文獻
-- 評估 AMPA 受體調節、微循環或抗發炎作用與關節病理之間是否有可驗證的假說
-- 在取得上述支持證據前，不建議投入進一步開發資源
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

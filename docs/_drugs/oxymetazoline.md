@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Oxymetazoline
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 652
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Oxymetazoline：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L4）。原適應症：咽喉炎 (pharyngitis)、感冒 (common cold)"
 monitor_inn: "Oxymetazoline"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "headache disorder"]
+predicted_indications: ["nasal cavity disease", "headache disorder"]
+description: "Oxymetazoline：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Oxymetazoline
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "hea
 
 </div>
 
-## Oxymetazoline：從咽喉炎與感冒到鼻腔疾病
+## Oxymetazoline: 鼻腔疾病 (nasal cavity disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 咽喉炎 (pharyngitis)、感冒 (common cold)（來自知識圖譜的適應症資料；香港許可證未載明核准適應症文字） |
-| 預測新適應症 | 鼻腔疾病 (Nasal Cavity Disease) |
-| TxGNN 預測分數 | 99.96% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 13 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 鼻腔疾病 (nasal cavity disease) |
+| TxGNN 預測分數 | 0.9996 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 13 張／共 13 張） |
+| 許可證數 | 13 張（有效 13 張） |
 | 建議決策 | Hold |
 
 ---
@@ -124,7 +124,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 ---
 
-**備註：** 第二名預測「急性喉咽炎」（分數 99.95%）無任何試驗或文獻，且咽喉炎本已是原適應症，建議暫緩。第三名「頭痛疾病」（分數 99.04%）有 tetracaine 加 oxymetazoline 鼻內給藥治療偏頭痛持續狀態的研究，但屬複方，無法區分 oxymetazoline 單獨的貢獻，證據等級為 L3，可列為後續研究問題。
+**備註：** 「急性喉咽炎」無任何試驗或文獻，且咽喉炎本已是原適應症，不屬於本頁預測，建議暫緩。「頭痛疾患」（TxGNN 模型（深度學習）分數 0.9904）有 tetracaine 加 oxymetazoline 鼻內給藥治療偏頭痛持續狀態的研究，但屬複方，無法區分 oxymetazoline 單獨的貢獻，證據等級為 L3，可列為後續研究問題。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

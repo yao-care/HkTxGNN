@@ -6,9 +6,9 @@ nav_order: 951
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Zinc Acetate：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy)（證據等級 L5）。原適應症：威爾森氏症、皮膚炎、燒傷、痔瘡、外耳炎等"
 monitor_inn: "Zinc acetate"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "bronchitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "urinary tract infection (disease)"]
+description: "Zinc Acetate：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Zinc Acetate
@@ -33,7 +33,7 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "bronchi
 
 </div>
 
-## Zinc acetate：從皮膚與金屬代謝相關疾病到嚴重非增殖性糖尿病視網膜病變
+## Zinc Acetate: 嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 威爾森氏症、皮膚炎、燒傷、痔瘡、外耳炎等（來自知識圖譜，香港許可證未載明適應症文字） |
-| 預測新適應症 | 嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy) |
-| TxGNN 預測分數 | 99.97% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy) |
+| TxGNN 預測分數 | 0.9997 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold |
 
 ---
@@ -109,7 +109,7 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 **決策：Hold**
 
 **理由：**
-- 此預測分數雖高（99.97%），但沒有任何臨床試驗或文獻支持，證據等級僅為 L5。
+- 此預測分數雖高（0.9997），但沒有任何臨床試驗或文獻支持，證據等級僅為 L5。
 - 目前缺乏作用機轉資料，且香港許可證資料未載明適應症，無法判斷與原適應症的關聯。
 
 **若要推進需要：**

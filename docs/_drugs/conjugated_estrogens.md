@@ -4,17 +4,17 @@ title: Conjugated Estrogens
 parent: 中證據等級 (L3-L4)
 nav_order: 228
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Conjugated Estrogens：預測新適應症為偏頭痛 (Migraine disorder)（證據等級 L3）。原適應症：心因性性交疼痛 (psychologic dyspareunia)"
 monitor_inn: "Conjugated estrogens"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "rheumatoid arthritis", "heparin cofactor 2 deficiency", "Prinzmetal angina", "hemoglobinopathy", "migraine with or without aura, susceptibility to", "thrombophilia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "rheumatoid arthritis", "heparin cofactor 2 deficiency", "Prinzmetal angina", "hemoglobinopathy", "thrombophilia"]
+description: "Conjugated Estrogens：預測新適應症為偏頭痛 (migraine disorder)（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Conjugated Estrogens
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+證據等級: **L3** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "an
 
 </div>
 
-## Conjugated estrogens：從心因性性交疼痛到偏頭痛
+## Conjugated Estrogens: 偏頭痛 (migraine disorder)
 {: .text-alpha }
 
 ## 一句話總結
 
-結合型雌激素（Conjugated estrogens）是雌激素類藥物，在知識圖譜中的原適應症為心因性性交疼痛 (psychologic dyspareunia)。
+結合型雌激素（Conjugated estrogens）是雌激素類藥物，原適應症為心因性性交疼痛 (psychologic dyspareunia)。
 TxGNN 模型預測它可能對**偏頭痛 (Migraine disorder)** 有效，
 目前**無臨床試驗**，僅有 **5 篇文獻**（以回顧與世代研究為主），且結果不一致。
 
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine disorder)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 心因性性交疼痛 (psychologic dyspareunia)（來源為知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 偏頭痛 (Migraine disorder) |
-| TxGNN 預測分數 | 99.77% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 偏頭痛 (migraine disorder) |
+| TxGNN 預測分數 | 0.9977 |
 | 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 6 張 |
+| 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
+| 許可證數 | 6 張（有效 6 張） |
 | 建議決策 | Hold（僅作為研究問題） |
 
 ---

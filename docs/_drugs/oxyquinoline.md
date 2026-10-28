@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Oxyquinoline
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 653
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Oxyquinoline：預測新適應症為骨關節炎 (Osteoarthritis)（證據等級 L5）。原適應症：許可證未載明（產品為牙科用溶液）"
+description: "Oxyquinoline: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Oxyquinoline"
-predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheumatoid arthritis", "hepatic porphyria", "gout", "pseudoachondroplasia", "brachyolmia", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Oxyquinoline
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,50 +35,16 @@ predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheu
 
 </div>
 
-## Oxyquinoline：從（未載明原適應症）到骨關節炎
+## Oxyquinoline
 {: .text-alpha }
-
-## 一句話總結
-
-Oxyquinoline（8-羥基喹啉）目前在香港有一張牙科用溶液的許可證，但許可證上未載明核准適應症。
-TxGNN 模型預測它可能對**骨關節炎 (Osteoarthritis)** 有效，
-但目前**沒有任何臨床試驗或文獻**支持，屬於純模型預測。
-
----
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證未載明（產品為牙科用溶液） |
-| 預測新適應症 | 骨關節炎 (Osteoarthritis) |
-| TxGNN 預測分數 | 98.40% |
-| 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
-| 建議決策 | Hold |
-
----
-
-## 為什麼這個預測合理？
-
-目前缺乏詳細的作用機轉資料。Oxyquinoline 具有 8-羥基喹啉結構，這類化合物已知能與金屬離子結合（螯合）。本次整理的資料中沒有任何文件說明它在骨關節炎的作用方式。
-
-一個尚未被證實的推測是：金屬離子螯合可能影響軟骨中的金屬蛋白酶活性或氧化壓力，進而與骨關節炎病理有關。但這只是假說，沒有任何資料支持。
-
-此外，TxGNN 同時對其他關節與骨骼疾病（類風濕性關節炎、痛風、假性軟骨發育不全等）給出高分，這可能反映的是知識圖譜中的鄰近關係，而不是疾病特異性的療效訊號。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
----
-
-## 文獻證據
-
-目前無相關文獻。
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 
 ---
 
@@ -96,15 +64,6 @@ TxGNN 模型預測它可能對**骨關節炎 (Osteoarthritis)** 有效，
 
 | 排名 | 預測疾病 | TxGNN 分數 | 備註 |
 |-----|---------|-----------|------|
-| 2 | 骨關節炎易感性 | 98.15% | 屬基因易感性表型，並非可治療的臨床適應症 |
-| 3 | 類風濕性關節炎 | 98.04% | 純計算預測 |
-| 4 | 肝性紫質症 | 97.71% | 理論上涉及鐵、鋅代謝，需留意肝毒性 |
-| 5 | 痛風 | 97.59% | 無已知機轉連結 |
-| 6 | 假性軟骨發育不全 | 97.57% | 罕見骨骼發育不良，可能反映圖譜鄰近關係 |
-| 7 | Brachyolmia | 97.35% | 罕見骨骼發育不良 |
-| 8 | 早發性家族性非肝硬化性門脈高壓 | 97.35% | 與另兩項肝臟適應症分數相同，可能為圖譜假象 |
-| 9 | 特發性銅相關肝硬化 | 97.35% | 銅螯合在概念上合理，但僅屬假說 |
-| 10 | 肝門靜脈硬化 | 97.35% | 無疾病特異性證據 |
 
 ---
 
@@ -114,20 +73,6 @@ TxGNN 模型預測它可能對**骨關節炎 (Osteoarthritis)** 有效，
 
 ---
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 骨關節炎的預測僅來自模型分數（98.40%），沒有任何臨床試驗、文獻或作用機轉資料支持，證據等級為 L5。
-- 香港許可證未載明適應症，安全性資料也完全缺乏，目前無法評估風險與效益。
-
-**若要推進需要：**
-- 取得香港衛生署的仿單，確認核准適應症、警語與禁忌症
-- 補充 DrugBank 的作用機轉資料，分析與骨關節炎之間的機轉連結
-- 系統性檢索 PubMed 與臨床試驗登記，確認是否有相關研究
-- 評估給藥途徑的相容性：現有產品為牙科用溶液，骨關節炎治療可能需要不同的劑型與給藥途徑
-- 進行初步安全性篩選，特別是全身性使用時的毒性
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

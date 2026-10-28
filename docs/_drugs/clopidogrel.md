@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clopidogrel
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 220
-evidence_level: L2
-indication_count: 8
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Clopidogrel：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L2）。原適應症：急性冠心症、顱內栓塞、ST 段上升型心肌梗塞"
 monitor_inn: "CLOPIDOGREL"
-predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "osteoarthritis susceptibility"]
+predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis"]
+description: "Clopidogrel：預測新適應症為Migraine with brainstem aura（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Clopidogrel
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **8** 個
+證據等級: **L5** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["migraine with brainstem aura", "migraine disorder", "os
 
 </div>
 
-## Clopidogrel：從急性冠心症到偏頭痛
+## Clopidogrel: Migraine with brainstem aura
 {: .text-alpha }
 
 ## 一句話總結
@@ -49,11 +49,11 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 急性冠心症、顱內栓塞、ST 段上升型心肌梗塞（來自知識圖譜，香港許可證未載明適應症文字） |
-| 預測新適應症 | 偏頭痛 (Migraine Disorder) |
-| TxGNN 預測分數 | 99.44% |
-| 證據等級 | L2 |
-| 香港上市 | ✓ 已上市 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Migraine with brainstem aura |
+| TxGNN 預測分數 | 0.9944 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張（皆為有效單一成分製劑） |
 | 建議決策 | Proceed with Guardrails |
 

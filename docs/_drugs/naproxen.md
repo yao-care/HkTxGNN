@@ -6,9 +6,9 @@ nav_order: 608
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Naproxen：預測新適應症為短指併指症候群 (Brachydactyly-Syndactyly Syndrome)（證據等級 L5）。原適應症：滑囊炎、類風濕性關節炎、僵直性脊椎炎、肌腱炎、痛風、偏頭痛、骨關節炎等"
 monitor_inn: "NAPROXEN"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
+description: "Naproxen：預測新適應症為短指併指症候群 (brachydactyly-syndactyly syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Naproxen
@@ -33,7 +33,7 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 </div>
 
-## Naproxen：從關節炎與疼痛症狀到短指併指症候群
+## Naproxen: 短指併指症候群 (brachydactyly-syndactyly syndrome)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,11 +48,11 @@ TxGNN 模型預測它可能對**短指併指症候群 (Brachydactyly-Syndactyly 
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 滑囊炎、類風濕性關節炎、僵直性脊椎炎、肌腱炎、痛風、偏頭痛、骨關節炎等（香港許可證未載明適應症文字，此處依知識圖譜資料） |
-| 預測新適應症 | 短指併指症候群 (Brachydactyly-Syndactyly Syndrome) |
-| TxGNN 預測分數 | 99.35% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 短指併指症候群 (brachydactyly-syndactyly syndrome) |
+| TxGNN 預測分數 | 0.9935 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -64,7 +64,7 @@ TxGNN 模型預測它可能對**短指併指症候群 (Brachydactyly-Syndactyly 
 
 短指併指症候群是先天性骨骼畸形，成因屬發育期的遺傳異常（常涉及 HOXD13 或 BMP/GDF5 等訊息路徑）。抗發炎作用並不能矯正結構性的發育缺陷，因此機轉上**難以支持**這項預測。
 
-這個高分較可能來自知識圖譜中與骨骼、肌肉骨骼疾病註記的鄰近關係（Naproxen 的原適應症包含關節病變與骨關節炎），而非真正的藥理關聯。
+這個高分來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性（Naproxen 的原適應症包含關節病變與骨關節炎），而非生物學證據。
 
 其他排名靠前的預測（先天性骨骼或眼部畸形症候群、肢中部發育不良、短脊椎－牙釉質發育不全症候群）也有相同問題：都是遺傳性發育異常，且同樣沒有證據支持。
 

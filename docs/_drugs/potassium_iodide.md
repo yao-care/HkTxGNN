@@ -4,17 +4,17 @@ title: Potassium Iodide
 parent: 中證據等級 (L3-L4)
 nav_order: 720
 evidence_level: L4
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Potassium Iodide：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L4）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、鼻咽炎"
 monitor_inn: "POTASSIUM IODIDE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Potassium Iodide：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Potassium Iodide
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **2** 個
+證據等級: **L4** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 </div>
 
-## Potassium Iodide（碘化鉀）：從過敏性鼻炎等上呼吸道疾病到鼻腔疾病
+## Potassium Iodide: 鼻腔疾病 (nasal cavity disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、鼻咽炎（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 鼻腔疾病 (Nasal Cavity Disease) |
-| TxGNN 預測分數 | 99.95% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 鼻腔疾病 (nasal cavity disease) |
+| TxGNN 預測分數 | 0.9995 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 13 張 |
+| 香港上市 | 上市中（有效許可證 13 張／共 13 張） |
+| 許可證數 | 13 張（有效 13 張） |
 | 建議決策 | Hold |
 
 ---
@@ -64,7 +64,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 已檢索到的文獻描述鼻部或鼻顏面感染（腐霉病、麴菌性鼻炎、波氏假阿利什黴菌感染、鼻顏面接合菌病），這些病例使用或涉及碘化鉀治療。因此，較合理的推論是其對**黴菌性鼻腔疾病**可能有抗真菌／抗發炎效果，而非對一般鼻腔疾病皆有效。
 
-這與原本的祛痰機轉不同，且證據主要來自動物個案。另一個預測「急性喉咽炎」(分數 99.95%) 沒有任何試驗或文獻，且與已有的咽炎、感冒適應症重疊，作為新適應症的價值有限。
+這與原本的祛痰機轉不同，且證據主要來自動物個案。
 
 ---
 

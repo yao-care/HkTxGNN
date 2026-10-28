@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ertapenem
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 336
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Ertapenem：預測新適應症為細菌性關節炎 (Bacterial Arthritis)（證據等級 L4）。原適應症：細菌性肺炎、鏈球菌肺炎、消化鏈球菌感染"
@@ -14,7 +14,7 @@ predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"
 # Ertapenem
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,13 +49,13 @@ TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有�
 |------|------|
 | 原適應症 | 細菌性肺炎、鏈球菌肺炎、消化鏈球菌感染 |
 | 預測新適應症 | 細菌性關節炎 (Bacterial Arthritis) |
-| TxGNN 預測分數 | 99.72% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| TxGNN 預測分數 | 0.9972 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold |
 
-註：資料中的原適應症來自知識圖譜，香港許可證的核准適應症文字並無記載。
+註：資料中的原適應症來源為資料庫記載，香港許可證的核准適應症文字並無記載。
 
 ---
 
@@ -65,7 +65,7 @@ TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有�
 
 它對多數腸內桿菌科細菌、鏈球菌與厭氧菌都有活性，而這些正是細菌性關節炎與骨關節感染常見的致病菌。原適應症（肺炎、厭氧菌感染）與新適應症同屬細菌感染，因此在機轉上有合理的延伸性。
 
-須注意：TxGNN 的高分（0.997）是計算預測，不等於臨床證據。目前支持的資料以個案報告和小型觀察性研究為主。
+須注意：TxGNN 的高分（0.9972）是計算預測，不等於臨床證據。目前支持的資料以個案報告和小型觀察性研究為主。
 
 ---
 

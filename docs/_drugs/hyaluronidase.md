@@ -6,9 +6,9 @@ nav_order: 443
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Hyaluronidase：預測新適應症為糖尿病視網膜病變 (Diabetic Retinopathy)（證據等級 L5）。原適應症：許可證未載明"
 monitor_inn: "Hyaluronidase"
 predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonproliferative diabetic retinopathy", "renal tubular acidosis", "dermatitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "diabetic cataract", "neonatal dermatomyositis", "non-syndromic esophageal malformation"]
+description: "Hyaluronidase：預測新適應症為Esotropia（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Hyaluronidase
@@ -33,7 +33,7 @@ predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonprolifer
 
 </div>
 
-## Hyaluronidase：從（原適應症資料缺漏）到糖尿病視網膜病變
+## Hyaluronidase: Esotropia
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,15 +48,15 @@ TxGNN 模型預測它可能對**糖尿病視網膜病變 (Diabetic Retinopathy)*
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證未載明 |
-| 預測新適應症 | 糖尿病視網膜病變 (Diabetic Retinopathy) |
-| TxGNN 預測分數 | 99.71% |
-| 證據等級 | L1（形式上符合，但適用性為間接，見下文） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Esotropia |
+| TxGNN 預測分數 | 0.9989 |
+| 證據等級 | L5（形式上符合，但適用性為間接，見下文） |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold（需先檢視試驗完整結果） |
 
-> 說明：TxGNN 排名第 1 的預測是斜視（esotropia，分數 99.89%），但其唯一文獻是白內障手術局部麻醉後複視的併發症報告，並無治療證據，因此不具推進價值。本報告改以證據最完整的「糖尿病視網膜病變」為主軸，另附其他預測的簡要評估。
+> 說明：TxGNN 排名第 1 的預測是斜視（esotropia，分數 0.9989），但其唯一文獻是白內障手術局部麻醉後複視的併發症報告，並無治療證據，因此不具推進價值。本報告改以證據最完整的「糖尿病視網膜病變」為主軸，另附其他預測的簡要評估。
 
 ---
 
@@ -118,15 +118,15 @@ TxGNN 模型預測它可能對**糖尿病視網膜病變 (Diabetic Retinopathy)*
 
 | 預測適應症 | TxGNN 分數 | 證據等級 | 評估 |
 |-----------|-----------|---------|------|
-| 斜視 (Esotropia) | 99.89% | L4 | 僅有麻醉後併發症報告，hyaluronidase 是可能的致病因子而非治療，無治療證據 |
-| 閉經 | 99.83% | L5 | 僅有 1975 年內源性酵素活性研究，無外用治療證據 |
-| 重度非增殖性糖尿病視網膜病變 | 99.79% | L3 | 僅有 n=10 開放標籤 Phase 2，可作為研究問題 |
-| 腎小管酸中毒 | 99.76% | L5 | 無試驗與文獻，機轉上無合理連結 |
-| 皮膚炎 | 99.73% | L4 | 文獻多為間接證據，且方向為抑制 hyaluronidase；過敏風險反向提示 |
-| 慢性萎縮性肢端皮膚炎 | 99.58% | L5 | 無證據 |
-| 糖尿病白內障 | 99.55% | L4 | 僅有麻醉輔助用途的間接文獻；1978 年研究顯示加入 hyaluronidase 組出現較多囊樣黃斑水腫 |
-| 新生兒皮肌炎 | 99.51% | L5 | 無證據 |
-| 非症候群性食道畸形 | 99.51% | L5 | 先天結構異常不太可能由基質降解酵素改善 |
+| 斜視 (Esotropia) | 0.9989 | L5 | 僅有麻醉後併發症報告，hyaluronidase 是可能的致病因子而非治療，無治療證據 |
+| 閉經 | 0.9983 | L5 | 僅有 1975 年內源性酵素活性研究，無外用治療證據 |
+| 重度非增殖性糖尿病視網膜病變 | 0.9979 | L5 | 僅有 n=10 開放標籤 Phase 2，可作為研究問題 |
+| 腎小管酸中毒 | 0.9976 | L5 | 無試驗與文獻，機轉上無合理連結 |
+| 皮膚炎 | 0.9973 | L4 | 文獻多為間接證據，且方向為抑制 hyaluronidase；過敏風險反向提示 |
+| 慢性萎縮性肢端皮膚炎 | 0.9958 | L5 | 無證據 |
+| 糖尿病白內障 | 0.9955 | L4 | 僅有麻醉輔助用途的間接文獻；1978 年研究顯示加入 hyaluronidase 組出現較多囊樣黃斑水腫 |
+| 新生兒皮肌炎 | 0.9951 | L5 | 無證據 |
+| 非症候群性食道畸形 | 0.9951 | L5 | 先天結構異常不太可能由基質降解酵素改善 |
 
 ---
 

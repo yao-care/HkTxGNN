@@ -4,17 +4,17 @@ title: Trametinib
 parent: 僅模型預測 (L5)
 nav_order: 894
 evidence_level: L5
-indication_count: 5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Trametinib：預測新適應症為非皮膚性黑色素瘤 (Non-cutaneous Melanoma)（證據等級 L5）。原適應症：轉移性黑色素瘤"
 monitor_inn: "TRAMETINIB"
 predicted_indications: ["choroideremia"]
+description: "Trametinib：預測新適應症為Choroideremia（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Trametinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["choroideremia"]
 
 </div>
 
-## Trametinib：從轉移性黑色素瘤到非皮膚性黑色素瘤
+## Trametinib: Choroideremia
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,15 +47,15 @@ TxGNN 模型預測排名最高的新適應症為脈絡膜缺失症，但該預�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 轉移性黑色素瘤（許可證資料未載明適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 非皮膚性黑色素瘤 (Non-cutaneous Melanoma) |
-| TxGNN 預測分數 | 99.30% |
-| 證據等級 | L2（有已完成的 Phase 2 試驗，但規模很小，且多為混合族群） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Choroideremia |
+| TxGNN 預測分數 | 0.9931 |
+| 證據等級 | L5（有已完成的 Phase 2 試驗，但規模很小，且多為混合族群） |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Proceed with Guardrails |
 
-> 說明：TxGNN 分數排名第 1 的是脈絡膜缺失症 (Choroideremia, 99.31%)。此疾病為 X 染色體連鎖視網膜退化，由 CHM (REP1) 基因缺失引起，與 MAPK 路徑過度活化無關，也沒有任何試驗或文獻支持，分數很可能是網路傳播造成的假象，建議 Hold。因此本報告改以排名第 2、證據較充分的非皮膚性黑色素瘤為主軸。
+> 說明：TxGNN 分數排名第 1 的是脈絡膜缺失症 (Choroideremia, 0.9931)。此疾病為 X 染色體連鎖視網膜退化，由 CHM (REP1) 基因缺失引起，與 MAPK 路徑過度活化無關，也沒有任何試驗或文獻支持，分數很可能是網路傳播造成的假象，建議 Hold。因此本報告改以排名第 2、證據較充分的非皮膚性黑色素瘤為主軸。
 
 ---
 

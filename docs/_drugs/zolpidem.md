@@ -4,17 +4,17 @@ title: Zolpidem
 parent: 僅模型預測 (L5)
 nav_order: 960
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Zolpidem：預測新適應症為入睡與維持睡眠障礙 (Sleep Disorder, Initiating and Maintaining Sleep)（證據等級 L5）。原適應症：失眠 (Insomnia)"
 monitor_inn: "Zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
+description: "Zolpidem：預測新適應症為Benign paroxysmal torticollis of infancy（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Zolpidem
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia
 
 </div>
 
-## Zolpidem：從失眠到入睡與維持睡眠障礙
+## Zolpidem: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## 一句話總結
 
 Zolpidem 是一種非苯二氮平類安眠藥，原本用於治療失眠。
-TxGNN 模型預測它可能對**入睡與維持睡眠障礙 (Sleep Disorder, Initiating and Maintaining Sleep)** 有效，目前有 **20 篇文獻**支持這個方向，但**無臨床試驗登記**。
 需要注意：此預測與原適應症（失眠）本質上相同，屬於對現有用途的確認，並非真正的藥物再利用。
 
 ---
@@ -48,12 +47,12 @@ TxGNN 模型預測它可能對**入睡與維持睡眠障礙 (Sleep Disorder, Ini
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 失眠 (Insomnia) |
-| 預測新適應症 | 入睡與維持睡眠障礙 (Sleep Disorder, Initiating and Maintaining Sleep) |
-| TxGNN 預測分數 | 99.87% |
-| 證據等級 | L3（文獻以系統性回顧、網絡統合分析與指引為主，無已完成的 Phase 3 RCT 直接以 Zolpidem 為研究藥物） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 19 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Benign paroxysmal torticollis of infancy |
+| TxGNN 預測分數 | 0.9926 |
+| 證據等級 | L5（文獻以系統性回顧、網絡統合分析與指引為主，無已完成的 Phase 3 RCT 直接以 Zolpidem 為研究藥物） |
+| 香港上市 | 上市中（有效許可證 19 張／共 19 張） |
+| 許可證數 | 19 張（有效 19 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---
@@ -65,7 +64,7 @@ Zolpidem 是 GABA-A 受體的正向異位調節劑，對含 α1 次單元的受�
 「入睡與維持睡眠障礙」基本上就是失眠的臨床描述，與 Zolpidem 的原適應症高度重疊。因此 TxGNN 的高分預測，更多反映的是模型正確辨識出既有的適應症。
 
 除此之外，模型還預測了其他兩個適應症，但證據薄弱，目前建議暫緩（Hold）：
-- **嬰兒良性陣發性斜頸**：未發現合理的機轉關聯。此病屬偏頭痛譜系的自限性疾病，GABA-A 調節在其病理中沒有已知角色，高分可能只是圖譜上的鄰近關係，且無任何文獻或試驗支持。
+- **嬰兒良性陣發性斜頸**：未發現合理的機轉關聯。
 - **懼曠症**：只有間接、薄弱的理由。Zolpidem 的 α1 選擇性使其以鎮靜為主，抗焦慮效果極小，標準治療為 SSRI/SNRI 與暴露式認知行為治療，且無支持證據。
 
 ---

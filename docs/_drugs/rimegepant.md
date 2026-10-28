@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rimegepant
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 775
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
-description: "Rimegepant：預測新適應症為伴腦幹先兆的偏頭痛 (Migraine with Brainstem Aura)（證據等級 L4）。原適應症：偏頭痛 (Migraine Disorder)"
 monitor_inn: "RIMEGEPANT"
-predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2"]
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+last_modified_at: 2026-10-23
+description: "Rimegepant：預測新適應症為萎縮性蠕蟲狀皮膚病 (Atrophoderma Vermiculata)（證據等級 L5）。原適應症：知識圖譜記錄的關聯為偏頭痛"
 ---
 
 # Rimegepant
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,33 @@ predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", 
 
 </div>
 
-## Rimegepant：從偏頭痛到伴腦幹先兆的偏頭痛
+## Rimegepant：從偏頭痛到萎縮性蠕蟲狀皮膚病（Atrophoderma Vermiculata）
 {: .text-alpha }
 
 ## 一句話總結
 
-Rimegepant 是一種 CGRP 受體拮抗劑（gepant 類），原本用於偏頭痛的急性治療與預防。
-TxGNN 模型預測它可能對**伴腦幹先兆的偏頭痛 (Migraine with Brainstem Aura)** 有效，
-目前**沒有該亞型的專屬臨床試驗**，僅有 **15 篇**以一般偏頭痛為主的文獻提供間接支持。
+Rimegepant 在知識圖譜中記錄的用途為偏頭痛。
+TxGNN 模型預測它可能對**萎縮性蠕蟲狀皮膚病 (Atrophoderma Vermiculata)** 有效，但目前**沒有任何臨床試驗或文獻**直接支持這個預測，僅屬模型推論。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 偏頭痛 (Migraine Disorder) |
-| 預測新適應症 | 伴腦幹先兆的偏頭痛 (Migraine with Brainstem Aura) |
-| TxGNN 預測分數 | 99.94% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 原適應症 | 知識圖譜記錄的關聯為偏頭痛（香港許可證資料中未載明核准適應症文字） |
+| 預測新適應症 | 萎縮性蠕蟲狀皮膚病 (Atrophoderma Vermiculata) |
+| TxGNN 預測分數 | 0.9976 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Rimegepant 屬於 CGRP 受體拮抗劑，已被核准用於成人偏頭痛（含或不含先兆）的急性治療，以及發作性偏頭痛的預防。
+目前缺乏詳細的作用機轉資料。Rimegepant 屬於 CGRP（降鈣素基因相關胜肽）受體拮抗劑類別，知識圖譜記錄其與偏頭痛相關。
 
-伴腦幹先兆的偏頭痛是偏頭痛的臨床亞型，與一般偏頭痛共享 CGRP 相關的病理路徑，因此機轉上可能適用，這也與 TxGNN 的高分預測相符。
+萎縮性蠕蟲狀皮膚病是一種罕見的毛囊角化與皮膚萎縮性疾病，目前沒有已知的 CGRP 路徑參與。因此，本報告未找到合理的機轉連結。0.9976 的高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
-但需要注意：現有文獻多為一般偏頭痛的回顧、藥物動力學與長期安全性研究，沒有一篇專門針對腦幹先兆亞型。此亞型的病人過去在曲普坦類及部分 gepant 試驗中，常因理論上的血管疑慮而被排除或代表性不足，因此療效與安全性目前只能間接推論。
+其他排名靠前的預測（眉部毛囊萎縮性紅斑、肝素輔因子 2 缺乏、抗凝血酶缺乏第 2 型、第五因子過量伴自發性血栓）同樣沒有任何臨床或文獻證據，機轉上也缺乏連結。其中數項涉及血栓風險，若考慮探索應特別審慎評估心血管與血栓安全性。
 
 ## 臨床試驗證據
 
@@ -68,51 +67,38 @@ TxGNN 模型預測它可能對**伴腦幹先兆的偏頭痛 (Migraine with Brain
 
 ## 文獻證據
 
-以下文獻皆針對一般偏頭痛，並非腦幹先兆亞型的直接證據。
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [42143245](https://pubmed.ncbi.nlm.nih.gov/42143245/) | 2026 | 系統性回顧與統合分析 | J Headache Pain | 評估單次 75 mg Rimegepant 相對於安慰劑用於成人偏頭痛急性治療的療效與耐受性 |
-| [35790906](https://pubmed.ncbi.nlm.nih.gov/35790906/) | 2022 | 網絡統合分析 | J Headache Pain | 間接比較 Lasmiditan 與 Rimegepant、Ubrogepant 用於急性偏頭痛的相對療效 |
-| [41066271](https://pubmed.ncbi.nlm.nih.gov/41066271/) | 2025 | Phase 3 開放標籤 | Cephalalgia | 中國成人偏頭痛急性治療的長期安全性與有效性研究 |
-| [41366286](https://pubmed.ncbi.nlm.nih.gov/41366286/) | 2025 | Phase 4 開放標籤 | J Headache Pain | 每日一次 75 mg 用於發作性偏頭痛預防的 24 週安全性與耐受性 |
-| [36739335](https://pubmed.ncbi.nlm.nih.gov/36739335/) | 2023 | Review | CNS Drugs | 回顧 Rimegepant 用於偏頭痛急性與預防治療，關鍵 Phase 3 試驗顯示優於安慰劑 |
-| [38307667](https://pubmed.ncbi.nlm.nih.gov/38307667/) | 2024 | Review | Handbook Clin Neurol | 回顧 gepant 類藥物的發展歷程與核准現況 |
-| [32270407](https://pubmed.ncbi.nlm.nih.gov/32270407/) | 2020 | Review | Drugs | Rimegepant ODT 的首次核准介紹 |
-| [33550872](https://pubmed.ncbi.nlm.nih.gov/33550872/) | 2021 | Review | Pain Manag | 回顧偏頭痛急性治療新選項與病理機轉 |
-| [41574090](https://pubmed.ncbi.nlm.nih.gov/41574090/) | 2026 | 前瞻性縱貫研究 | Brain Commun | 以磁振血管攝影探討 Rimegepant 在偏頭痛發作期間對腦內外動脈的影響 |
-| [41133671](https://pubmed.ncbi.nlm.nih.gov/41133671/) | 2026 | Phase 1 開放標籤 | Headache | 評估 6 至 12 歲兒童單次劑量的藥物動力學與安全性 |
+目前無相關文獻。
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-67735 | NURTEC ORAL LYOPHILISATES 75MG | 口溶凍乾錠 | 未提供 |
-| HK-67734 | NURTEC ORAL LYOPHILISATES 75MG | 口溶凍乾錠 | 未提供 |
+| HK-67735 | NURTEC ORAL LYOPHILISATES 75MG | 未載明 | 未載明 |
+| HK-67734 | NURTEC ORAL LYOPHILISATES 75MG | 未載明 | 未載明 |
+
+兩張許可證均為單一成分製劑，持有者為 PFIZER CORPORATION HONG KONG LIMITED，狀態皆為有效。
 
 ## 安全性考量
 
-- **藥物交互作用**：共查得 57 筆交互作用，主要包括：
-  - 嚴重 (Major)：Dexamethasone、Lumacaftor、Apalutamide
-  - 中度 (Moderate)：Clarithromycin、Erythromycin、Fluconazole、Ketoconazole、Cobicistat、Aprepitant、Rolapitant、Tacrolimus 等
+- **藥物交互作用**：資料庫共查得 57 筆交互作用，以下列出部分主要項目：
+  - 重度：Dexamethasone、Lumacaftor、Apalutamide
+  - 中度：Aprepitant、Clarithromycin、Rolapitant、Sulfasalazine、Cobicistat、Eltrombopag、Ivacaftor、Chloramphenicol、Erythromycin、Fluconazole、Ketoconazole、Tacrolimus 等
 
-  其中多數為 CYP3A4 相關藥物，使用時需留意。
-
-其餘警語與禁忌症資料，請參考原廠仿單。
+其他安全性資訊（警語、禁忌症）請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 目前沒有針對腦幹先兆亞型的臨床試驗或專屬文獻，現有證據來自一般偏頭痛，屬於模型預測加間接推論。
-- 仿單的警語與禁忌資料尚未取得，無法進行安全性篩選。
+- 預測僅來自模型分數，沒有任何臨床試驗或文獻直接研究此疾病，證據等級為 L5。
+- 機轉上沒有合理的連結（CGRP 路徑與此疾病無已知關聯），高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
 **若要推進需要：**
-- 取得香港衛生署仿單，確認警語、禁忌症與核准適應症
-- 補充詳細的作用機轉資料
-- 檢索腦幹先兆亞型的子群分析、病例系列或真實世界研究
-- 評估該族群的血管安全性，並規劃專屬的臨床研究或登錄研究
+- 補齊作用機轉（MOA）資料，並釐清 CGRP 路徑與該皮膚疾病是否有任何生物學關聯
+- 取得香港衛生署核准的仿單，確認適應症、警語與禁忌症
+- 取得至少前臨床或病例層級的證據，直接針對此疾病
+- 若考慮血栓相關的預測適應症，需先完成心血管與血栓安全性審查
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

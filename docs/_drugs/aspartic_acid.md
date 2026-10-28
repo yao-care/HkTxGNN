@@ -50,10 +50,10 @@ TxGNN 模型預測它可能對**腎小管酸中毒 (Renal Tubular Acidosis)** �
 |------|------|
 | 原適應症 | 鉀缺乏症 (potassium deficiency disease) |
 | 預測新適應症 | 腎小管酸中毒 (Renal Tubular Acidosis) |
-| TxGNN 預測分數 | 99.47% |
+| TxGNN 預測分數 | 0.9947 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 17 張 |
+| 香港上市 | 上市中（有效許可證 17 張／共 17 張） |
+| 許可證數 | 17 張（有效 17 張） |
 | 建議決策 | Hold |
 
 ---

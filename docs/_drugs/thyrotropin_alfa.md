@@ -4,17 +4,17 @@ title: Thyrotropin Alfa
 parent: 僅模型預測 (L5)
 nav_order: 875
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Thyrotropin Alfa：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：目前許可證資料未載明核准適應症"
 monitor_inn: "Thyrotropin alfa"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
 ---
 
 # Thyrotropin Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 |------|------|
 | 原適應症 | 目前許可證資料未載明核准適應症 |
 | 預測新適應症 | 偏頭痛 (Migraine Disorder) |
-| TxGNN 預測分數 | 99.98% |
+| TxGNN 預測分數 | 0.9998 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -62,9 +62,9 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 
 目前缺乏詳細的作用機轉資料。就已知資訊，Thyrotropin alfa 是重組 TSH，作用於甲狀腺組織的 TSH 受體，促進甲狀腺細胞活性與甲狀腺激素的產生。
 
-目前沒有建立起來的機轉連結可以說明它與偏頭痛的關係。高分很可能來自知識圖譜中的網路鄰近性或共享基因/路徑，而不是真正的治療證據。若要把兩者連起來（例如透過甲狀腺荷爾蒙狀態影響偏頭痛），目前也只是推測。
+目前沒有建立起來的機轉連結可以說明它與偏頭痛的關係。分數來自 TxGNN 模型（深度學習），可能反映模型在相關疾病之間學到的相似性，而不是生物學證據。若要把兩者連起來（例如透過甲狀腺荷爾蒙狀態影響偏頭痛），目前也只是推測。
 
-其他排名靠前的預測（偏頭痛亞型、雷諾氏症、肺動脈高壓、姿勢性心搏過速症候群等）同樣沒有試驗或文獻支持，多半反映疾病層級的關聯或圖譜冗餘。其中**甲狀腺機能亢進**在機轉上反而是禁忌，因為 TSH 受體刺激會增加甲狀腺激素分泌，可能惡化病情。
+其他排名靠前的預測（偏頭痛亞型、雷諾氏症、肺動脈高壓、姿勢性心搏過速症候群等）同樣沒有試驗或文獻支持，多半反映 TxGNN 模型（深度學習）在相關疾病之間學到的相似性，而不是生物學證據。其中**甲狀腺機能亢進**在機轉上反而是禁忌，因為 TSH 受體刺激會增加甲狀腺激素分泌，可能惡化病情。
 
 ---
 

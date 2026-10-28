@@ -4,17 +4,17 @@ title: Rufinamide
 parent: 僅模型預測 (L5)
 nav_order: 792
 evidence_level: L5
-indication_count: 5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Rufinamide：預測新適應症為熱病相關難治性癲癇症候群 (FIRES)（證據等級 L5）。原適應症：Lennox-Gastaut 症候群"
 monitor_inn: "RUFINAMIDE"
 predicted_indications: ["perioral myoclonia with absences"]
+description: "Rufinamide：預測新適應症為Perioral myoclonia with absences（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Rufinamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["perioral myoclonia with absences"]
 
 </div>
 
-## Rufinamide：從 Lennox-Gastaut 症候群到熱病相關難治性癲癇症候群（FIRES）
+## Rufinamide: Perioral myoclonia with absences
 {: .text-alpha }
 
 ## 一句話總結
 
 Rufinamide 是一種抗癲癇藥物，原本用於治療 Lennox-Gastaut 症候群。
-TxGNN 模型預測它可能對**熱病相關難治性癲癇症候群 (Febrile Infection-Related Epilepsy Syndrome, FIRES)** 有效，
 但目前**沒有任何臨床試驗或文獻**支持，僅有模型預測。
 
 ---
@@ -48,12 +47,12 @@ TxGNN 模型預測它可能對**熱病相關難治性癲癇症候群 (Febrile In
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | Lennox-Gastaut 症候群（來源為知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 熱病相關難治性癲癇症候群 (FIRES) |
-| TxGNN 預測分數 | 99.57% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Perioral myoclonia with absences |
+| TxGNN 預測分數 | 0.9951 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ---
@@ -70,10 +69,7 @@ FIRES 是發燒性感染後出現的難治性癲癇性腦病變，與 Lennox-Gas
 
 | 排名 | 預測適應症 | TxGNN 分數 | 備註 |
 |------|-----------|-----------|------|
-| 2 | 口周肌陣攣伴失神發作 (Perioral myoclonia with absences) | 99.51% | 失神發作主要由丘腦皮質 T 型鈣離子通道驅動，鈉離子通道阻斷劑可能使失神發作惡化，需留意安全性 |
-| 3 | 光敏感性枕葉癲癇 (Photosensitive occipital lobe epilepsy) | 99.44% | 局部性癲癇，屬抗癲癇藥物類別層級的推論 |
-| 4 | 非典型兒童中央顳區棘波癲癇 | 99.44% | 與 Lennox-Gastaut 症候群有表型重疊，但鈉離子通道阻斷劑在非典型型態可能加重發作 |
-| 5 | 隱源性晚發性癲癇性痙攣 | 99.44% | 可能與 Lennox-Gastaut 症候群重疊或演變，但一線藥物（ACTH、類固醇、vigabatrin）機轉不同 |
+| 2 | 口周肌陣攣伴失神發作 (Perioral myoclonia with absences) | 0.9951 | 失神發作主要由丘腦皮質 T 型鈣離子通道驅動，鈉離子通道阻斷劑可能使失神發作惡化，需留意安全性 |
 
 ---
 

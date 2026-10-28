@@ -6,9 +6,9 @@ nav_order: 591
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Mirtazapine：預測新適應症為Ohdo 症候群及其變異型 (Ohdo syndrome and variants)（證據等級 L5）。原適應症：憂鬱症、焦慮症"
 monitor_inn: "MIRTAZAPINE"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
+description: "Mirtazapine：預測新適應症為Ohdo 症候群及其變異型 (Ohdo syndrome and variants)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Mirtazapine
@@ -33,7 +33,7 @@ predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intell
 
 </div>
 
-## Mirtazapine：從憂鬱症到 Ohdo 症候群
+## Mirtazapine: Ohdo 症候群及其變異型 (Ohdo syndrome and variants)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,21 +46,21 @@ TxGNN 模型預測它可能對 **Ohdo 症候群及其變異型 (Ohdo syndrome an
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 憂鬱症、焦慮症（來自知識圖譜的適應症資料；香港許可證未載明適應症文字） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | Ohdo 症候群及其變異型 (Ohdo syndrome and variants) |
-| TxGNN 預測分數 | 99.42% |
+| TxGNN 預測分數 | 0.9942 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 20 張 |
+| 香港上市 | 上市中（有效許可證 20 張／共 20 張） |
+| 許可證數 | 20 張（有效 20 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
 目前缺乏詳細的作用機轉資料。Mirtazapine 一般已知為 alpha-2 腎上腺素受體、5-HT2、5-HT3 及 H1 受體的拮抗劑，其療效在憂鬱症與焦慮症中已被廣泛使用，但這些資訊並非來自本報告所彙整的機轉欄位，僅作背景參考。
 
-Ohdo 症候群是一種罕見的遺傳性疾病，常與 KAT6B 基因變異相關，特徵為智能障礙與眼瞼狹小。就現有資料而言，無法建立 mirtazapine 的受體藥理與此疾病病理之間的合理關聯。此預測較可能是知識圖譜中共享表型或基因網路關聯所產生的人為結果，而非經驗證的機轉。
+Ohdo 症候群及其變異型是一種罕見的遺傳性疾病，常與 KAT6B 基因變異相關，特徵為智能障礙與眼瞼狹小。就現有資料而言，無法建立 mirtazapine 的受體藥理與此疾病病理之間的合理關聯。此預測分數來自 TxGNN 模型（深度學習），較可能反映模型從相關疾病之間學到的相似性，而非經驗證的生物學證據或機轉。
 
-即使有任何益處，也可能僅限於改善伴隨的情緒、睡眠或食慾問題等次要症狀，並非疾病修飾作用。另外，本次預測排名第 2 的「blepharophimosis - intellectual disability syndrome, Ohdo type」（分數 99.11%）與此項高度重疊，兩者不應視為獨立證據。排名第 3 為嬰兒良性陣發性斜頸（分數 99.11%），同樣無任何研究支持，且對嬰幼兒使用具鎮靜作用的抗憂鬱藥風險效益比不佳。
+即使有任何益處，也可能僅限於改善伴隨的情緒、睡眠或食慾問題等次要症狀，並非疾病修飾作用。另外，本次預測排名第 2 的「blepharophimosis - intellectual disability syndrome, Ohdo type」（分數 0.9911）與此項高度重疊，兩者不應視為獨立證據。排名第 3 為嬰兒良性陣發性斜頸（分數 0.9911），同樣無任何研究支持，且對嬰幼兒使用具鎮靜作用的抗憂鬱藥風險效益比不佳。
 
 ## 臨床試驗證據
 

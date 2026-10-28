@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Clozapine
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 222
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Clozapine：預測新適應症為躁型雙相情緒障礙 (Manic Bipolar Affective Disorder)（證據等級 L2）。原適應症：香港許可證資料未載明核准適應症"
@@ -14,7 +14,7 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 # Clozapine
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ TxGNN 模型預測它可能對**躁型雙相情緒障礙 (Manic Bipolar Affectiv
 |------|------|
 | 原適應症 | 香港許可證資料未載明核准適應症 |
 | 預測新適應症 | 躁型雙相情緒障礙 (Manic Bipolar Affective Disorder) |
-| TxGNN 預測分數 | 99.95% |
-| 證據等級 | L2 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 9 張 |
+| TxGNN 預測分數 | 0.9995 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 9 張／共 9 張） |
+| 許可證數 | 9 張（有效 9 張） |
 | 建議決策 | Hold（列為研究問題，待補足安全性資料） |
 
 > 補充：同一份資料中，「雙相情緒障礙 (bipolar disorder)」整體有 Phase 3 RCT 與統合分析支持（L1，Proceed with Guardrails）；「精神病性疾患」則屬已確立的使用。本報告聚焦排名第一的預測。

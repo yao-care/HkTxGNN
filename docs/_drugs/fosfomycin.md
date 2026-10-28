@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fosfomycin
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 401
-evidence_level: L2
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Fosfomycin：預測新適應症為淋病性尿道炎 (Gonococcal Urethritis)（證據等級 L2）。原適應症：泌尿道感染"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "FOSFOMYCIN"
-predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis"]
+predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
+last_modified_at: 2026-10-23
+description: "Fosfomycin：預測新適應症為Uterine inflammatory disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Fosfomycin
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,104 +33,84 @@ predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "uteri
 
 </div>
 
-## Fosfomycin：從泌尿道感染到淋病性尿道炎
+## Fosfomycin: Uterine inflammatory disease
 {: .text-alpha }
 
 ## 一句話總結
 
-Fosfomycin（磷黴素）是一種抗生素，原本用於治療泌尿道感染。
-TxGNN 模型預測它可能對**淋病性尿道炎 (Gonococcal Urethritis)** 有效，
-目前有 **1 篇隨機對照試驗**和另外數篇相關文獻支持這個方向，但尚無已登記的臨床試驗。
-
----
+Fosfomycin（磷黴素）是廣效殺菌性抗生素，在知識圖譜中記錄的原適應症為尿路感染。
+TxGNN 模型預測它可能對**子宮發炎性疾病**有效，但目前沒有直接研究這個疾病的臨床試驗或文獻，證據僅停留在**模型預測**層級。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 泌尿道感染（許可證未載明適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 淋病性尿道炎 (Gonococcal Urethritis) |
-| TxGNN 預測分數 | 99.99% |
-| 證據等級 | L2 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
-| 建議決策 | Proceed with Guardrails |
-
----
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Uterine inflammatory disease |
+| TxGNN 預測分數 | 0.9998 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（原始 MOA 欄位為空白）。以下說明是依據對此藥物的一般認識，而非本次整理的資料記錄：Fosfomycin 抑制 MurA 酶（UDP-N-acetylglucosamine enolpyruvyl transferase），阻斷肽聚醣（peptidoglycan）合成的第一步，屬於殺菌性機轉，理論上對淋病奈瑟菌 (*Neisseria gonorrhoeae*) 有活性。
+Fosfomycin 抑制細菌 MurA 酶（UDP-N-乙醯葡萄糖胺烯醇丙酮酸轉移酶），阻斷細菌細胞壁合成的早期步驟。它對多種易感菌有活性，且在尿液中濃度很高。
 
-泌尿道感染與尿道炎在解剖位置上相近，而 fosfomycin 在尿液中可達高濃度，這是它用於泌尿道感染的基礎，也支持其用於尿道感染的合理性。
+從機轉看，若子宮發炎由易感菌引起，抗菌藥物理論上可能有作用。尿路與骨盆腔、生殖道的感染在病原菌上有部分重疊，這可能是模型給出高分的原因。
 
-值得注意的是，一項 2016 年的隨機對照試驗直接測試了 fosfomycin trometamol 對單純性淋病性尿道炎的療效，使這個預測比單純的模型推論更有依據。
+不過，本次整理的資料中沒有任何直接證據：
+- 兩個臨床試驗都是兒童「未充分研究藥物」的一般藥動學研究，並未檢驗子宮發炎。
+- 唯一的文獻談的是 dienogest 相關膀胱炎，屬於泌尿道問題，並非子宮發炎。
 
----
+因此這個預測目前只是假說。
+
+> 附註：同一份預測清單中的「腎盂炎 (pyelitis)」與原適應症最接近，且有 ZEUS 研究（靜脈注射 fosfomycin 對比 piperacillin-tazobactam 治療複雜性尿路感染，含急性腎盂腎炎）等文獻。若要挑選優先研究方向，該適應症比子宮發炎性疾病更值得先評估。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記。
-
----
+| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
+|---------|------|------|------|---------|
+| [NCT01431326](https://clinicaltrials.gov/study/NCT01431326) | 不適用 | 完成 | 3520 | 兒童依常規照護使用「未充分研究藥物」的藥動學研究，並未針對子宮發炎提出療效問題 |
+| [NCT04278404](https://clinicaltrials.gov/study/NCT04278404) | 不適用 | 招募中 | 5000 | 兒童與年輕成人未充分研究藥物的藥動學、藥效學與安全性研究，屬通用型平台試驗，與本適應症無直接關係 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [27064136](https://pubmed.ncbi.nlm.nih.gov/27064136/) | 2016 | RCT | Clin Microbiol Infect | 152 名男性的開放性隨機對照試驗，126 人完成；fosfomycin trometamol 3 g 口服（第 1、3、5 天）用於單純性淋病性尿道炎 |
-| [832528](https://pubmed.ncbi.nlm.nih.gov/832528/) | 1977 | 臨床研究 | Chemotherapy | 70 名急性或亞急性淋病性尿道炎患者接受肌肉注射；4 g 總劑量組 11/12 治癒（92%），單次 4 g 組 37/43 治癒（86%） |
-| [832523](https://pubmed.ncbi.nlm.nih.gov/832523/) | 1977 | 臨床細菌學評估 | Chemotherapy | 西班牙多家醫院 959 名患者的對照臨床研究，涵蓋淋病性尿道炎等多種感染，評估 fosfomycin 的廣譜抗菌表現 |
-| [19593988](https://pubmed.ncbi.nlm.nih.gov/19593988/) | 2009 | 回顧／臨床文章 | Zhonghua Nan Ke Xue | 探討非淋病性奈瑟菌對男性泌尿生殖道感染診斷與治療的影響（與 fosfomycin 關聯有限） |
-| [35820778](https://pubmed.ncbi.nlm.nih.gov/35820778/) | 2023 | 次級分析 | Sex Transm Infect | NABOGO 試驗中無症狀淋病的自發清除分析（非 fosfomycin 專屬） |
-| [17878816](https://pubmed.ncbi.nlm.nih.gov/17878816/) | 2007 | 個案報告 | J Fr Ophtalmol | 成人淋病性結膜炎併發角膜穿孔個案（相關性低） |
-
----
+| [35653789](https://pubmed.ncbi.nlm.nih.gov/35653789/) | 2022 | 世代研究 | Journal of Obstetrics and Gynaecology | 探討子宮內膜異位症女性術後使用 dienogest 與複方口服避孕藥時的膀胱炎症狀與菌尿；屬泌尿道議題，與 fosfomycin 治療子宮發炎無直接關聯 |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-43159 | MONUROL SACHETS 3G | 未載明 | 未載明 |
+| HK-43159 | MONUROL SACHETS 3G | 未提供 | 未提供 |
 
----
+此許可證為單一成分製劑，狀態有效，持有者為 ZENFIELDS (H.K.) LIMITED。
 
 ## 安全性考量
 
-- **知識圖譜標示之相關疾病禁忌**（非仿單內容）：腎臟疾病、輸尿管積膿 (pyoureter)、困難梭菌結腸炎 (*Clostridium difficile* colitis)、周產期壞死性腸炎
+- **知識圖譜記錄的禁忌關聯**（非仿單文字）：腎臟疾病、輸尿管積膿、困難梭狀芽孢桿菌結腸炎、新生兒壞死性腸炎。
 - **藥物交互作用**（共 3 項）：
   - Balsalazide：中度
   - Picosulfuric acid：中度
   - Metoclopramide：輕度
 
-其他警語與禁忌請參考原廠仿單。
-
----
+其餘安全性資訊請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-- 已有一項 2016 年的隨機對照試驗直接針對淋病性尿道炎，另有 1977 年的臨床研究提供治癒率資料，證據等級為 L2。但該 RCT 為開放性試驗，且目前無已登記的臨床試驗。
-- 淋病奈瑟菌的抗藥性情形與現行治療指引已有變化，需以近期資料重新評估。
+- 沒有任何臨床試驗或文獻直接研究 fosfomycin 用於子宮發炎性疾病，現有兩個試驗與一篇文獻都只是間接相關，因此證據等級為 L5。
+- 機轉上雖有合理性，但缺乏臨床證據，不宜推進。
 
 **若要推進需要：**
-- 取得香港原廠仿單，確認警語、禁忌與核准適應症
-- 補充詳細的作用機轉資料（MOA）
-- 取得 2016 年 RCT 的完整結果，包括治癒率與比較組
-- 評估當前本地淋病奈瑟菌對 fosfomycin 的敏感性與現行治療指引
-- 針對腎功能不全患者及知識圖譜所列禁忌疾病，制定使用限制與監測方案
-
----
-
-### 其他預測適應症備註
-
-其餘預測的證據都明顯較弱，建議暫緩（Hold）：
-- **Ureaplasma 尿道炎**：僅有模型預測。Ureaplasma 沒有細胞壁，作用於細胞壁合成的 fosfomycin 在機轉上不合理，可能是圖譜推論的假象。
-- **子宮發炎性疾病**：僅有 2 個一般性兒童藥物動力學研究，與此適應症無直接關聯。
-- **黃色肉芽腫性腎盂腎炎**：僅有間接的機轉合理性，通常需要手術處理，單用抗生素多半無法治癒。
-- **會厭炎**：屬呼吸道急症，已有標準靜脈抗生素治療，無支持 fosfomycin 的臨床依據。
+- 確認子宮發炎的常見病原菌對 fosfomycin 的敏感性，以及藥物在子宮與骨盆腔組織的穿透濃度。
+- 搜尋並評估 fosfomycin 用於婦產科感染（如產後子宮內膜炎、骨盆腔發炎）的直接研究。
+- 取得原廠仿單中的核准適應症、警語與禁忌資料。
+- 考慮改以證據較強的「腎盂炎」為優先評估對象，並確認 ZEUS 研究的試驗階段分類。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

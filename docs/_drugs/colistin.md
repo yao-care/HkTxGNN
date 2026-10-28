@@ -6,9 +6,9 @@ nav_order: 227
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Colistin：預測新適應症為感染後血管炎 (Postinfectious Vasculitis)（證據等級 L5）。原適應症：大腸桿菌感染、外耳炎、外耳疾病"
 monitor_inn: "COLISTIN"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "infective urethral stricture", "paratyphoid fever", "sinusitis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis"]
+description: "Colistin：預測新適應症為感染後血管炎 (Postinfectious Vasculitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Colistin
@@ -33,7 +33,7 @@ predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", 
 
 </div>
 
-## Colistin：從大腸桿菌感染與外耳炎到慢性鼻竇炎（鼻竇炎）
+## Colistin: 感染後血管炎 (Postinfectious Vasculitis)（排名第 1）；證據較多者為鼻竇炎 (Sinusitis) (postinfectious vasculitis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型的前幾名預測（如感染後血管炎）缺乏任何研究支�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 大腸桿菌感染、外耳炎、外耳疾病（香港許可證未登載適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 感染後血管炎 (Postinfectious Vasculitis)（排名第 1）；證據較多者為鼻竇炎 (Sinusitis)（排名第 8） |
-| TxGNN 預測分數 | 感染後血管炎 99.91%；鼻竇炎 99.25% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 感染後血管炎 (Postinfectious Vasculitis)（排名第 1）；證據較多者為鼻竇炎 (Sinusitis) (postinfectious vasculitis) |
+| TxGNN 預測分數 | 0.9991 |
 | 證據等級 | 感染後血管炎 L5；鼻竇炎 L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold（鼻竇炎方向可列為 Research Question） |
 
 ---

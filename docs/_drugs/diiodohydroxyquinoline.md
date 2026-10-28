@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Diiodohydroxyquinoline
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 279
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Diiodohydroxyquinoline：預測新適應症為骨放射壞死 (Osteoradionecrosis)（證據等級 L5）。原適應症：阿米巴病（Amebiasis"
-monitor_inn: "Diiodohydroxyquinoline"
-predicted_indications: ["osteoradionecrosis", "radiodermatitis", "pneumonitis", "aspiration pneumonia (disease)", "type 2 diabetes nephropathy", "byssinosis", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "mixed mineral dust pneumoconiosis", "mixed dust pneumoconiosis", "Caplan syndrome"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Diiodohydroxyquinoline: known uses and market status in Hong Kong; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Diiodohydroxyquinoline
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,63 +32,46 @@ predicted_indications: ["osteoradionecrosis", "radiodermatitis", "pneumonitis", 
 
 </div>
 
-## Diiodohydroxyquinoline：從阿米巴病到骨放射壞死
+<!-- known-uses-page -->
+<!-- description: Diiodohydroxyquinoline: known uses and market status in Hong Kong; currently no new candidate indication -->
+## Diiodohydroxyquinoline：香港的已知用途與上市狀態
 {: .text-alpha }
 
-## 一句話總結
-
-Diiodohydroxyquinoline 原本用於治療阿米巴病（腸阿米巴 *Entamoeba histolytica* 感染）。
-TxGNN 模型預測它可能對**骨放射壞死 (Osteoradionecrosis)** 有效，但目前**沒有臨床試驗和文獻**支持這個預測，僅屬於模型推論。
-
----
+## 摘要
+TxGNN 深度學習模型對 Diiodohydroxyquinoline 沒有分數達 0.99 以上的候選適應症，因此目前沒有新的預測適應症。下方列出此藥物本身已記錄的用途。
 
 ## 快速總覽
-
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 阿米巴病（Amebiasis；*Entamoeba histolytica* 所致） |
-| 預測新適應症 | 骨放射壞死 (Osteoradionecrosis) |
-| TxGNN 預測分數 | 97.96% |
-| 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
-| 建議決策 | Hold |
+| 新預測適應症 | 無（沒有模型候選分數達 0.99 以上） |
+| 此藥物已記錄的已知用途 | 2 |
+| 證據等級 | 不適用 |
+| 香港上市狀態 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 
----
+## 此藥物已記錄的已知用途
 
-## 為什麼這個預測合理？
+### 已核准（有許可證或仿單支持）
+| 適應症 | 來源 |
+|------|------|
+| 無 | 無 |
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Diiodohydroxyquinoline 屬於 8-hydroxyquinoline 類化合物，在阿米巴病中作為腸道內抗原蟲藥物使用，機轉上是否適用於骨放射壞死尚無資料可以確認。
+### 與已核准適應症相關（同一疾病類別）
+| 適應症 | 已核准類別 |
+|------|------|
+| 無 | 無 |
 
-一個可能但未經驗證的假說是：此類化合物具有金屬（如鐵）螯合活性，或許會影響氧化壓力與纖維化過程，而這些過程與放射線造成的組織損傷有關。但這只是推測，本報告所整理的資料中沒有任何支持證據。
-
-原適應症（腸道寄生蟲感染）與新適應症（放射線引起的骨壞死）在疾病性質上差異很大，兩者的關聯性目前無法從現有資料建立。0.98 的分數應視為計算模型的輸出，不代表已有療效證據。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
----
-
-## 文獻證據
-
-目前無相關文獻。
-
-（備註：在其他預測適應症中，肺炎 (Pneumonitis) 有 1 篇 2020 年的藥物篩選研究 PMID 32473310，將本藥列為潛在 COVID-19 候選藥物，屬前臨床篩選，與骨放射壞死無直接關係。）
-
----
+### 知識圖譜中記錄的關係（未找到核准）
+| 適應症 |
+|------|
+| 阿米巴病 (amebiasis) |
+| 溶組織內阿米巴所致阿米巴病 (amoebiasis due to entamoeba histolytica) |
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-43469 | ANLINA VAGINAL TAB | 陰道錠（依品名判斷） | 資料未提供 |
-
-製造商：DELTAPHARM LIMITED；狀態：有效（單方）。
-
----
+| 許可證字號 | 品名 | 劑型 | 狀態 |
+|------|------|------|------|
+| HK-43469 | ANLINA VAGINAL TAB |  | 有效 |
 
 ## 安全性考量
 
@@ -107,20 +89,6 @@ TxGNN 模型預測它可能對**骨放射壞死 (Osteoradionecrosis)** 有效，
 
 ---
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 骨放射壞死的預測僅來自模型分數，沒有臨床試驗、文獻或機轉資料支持（L5）。
-- 藥物的神經毒性風險，加上原廠仿單的警語與禁忌資料尚未取得，現階段不適合推進。
-
-**若要推進需要：**
-- 取得 Diiodohydroxyquinoline 的作用機轉資料（DrugBank）
-- 取得香港衛生署仿單的警語與禁忌資料，完成安全性篩選
-- 進行針對骨放射壞死的文獻回顧，確認是否有前臨床或機轉研究
-- 評估給藥途徑：香港現有製劑為陰道錠，與骨放射壞死所需的給藥途徑可能不相容
-- 若有前臨床證據，再評估長期使用的神經毒性風險與替代的預測適應症（例如肺炎方向的文獻需閱讀全文確認相關性）
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

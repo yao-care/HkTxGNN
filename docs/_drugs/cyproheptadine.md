@@ -4,17 +4,17 @@ title: Cyproheptadine
 parent: 僅模型預測 (L5)
 nav_order: 237
 evidence_level: L5
-indication_count: 4
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Cyproheptadine：預測新適應症為過敏性蕁麻疹 (Allergic Urticaria)（證據等級 L5）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、蕁麻疹、血管性水腫等"
 monitor_inn: "Cyproheptadine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Cyproheptadine：預測新適應症為Nasal cavity disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Cyproheptadine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 </div>
 
-## Cyproheptadine：從過敏性鼻炎與蕁麻疹等過敏性疾病到寒冷性蕁麻疹
+## Cyproheptadine: Nasal cavity disease
 {: .text-alpha }
 
 ## 一句話總結
 
 Cyproheptadine 是第一代 H1 抗組織胺藥物，原本用於過敏性鼻炎、蕁麻疹、血管性水腫等過敏性疾病。
-TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效。
-目前無已登記的臨床試驗，但有 **9 篇相關文獻**。其中預測排名第 2 的**寒冷性蕁麻疹 (Cold Urticaria)** 有 16 篇文獻，包含數項雙盲比較研究，證據相對較充分。
+目前無已登記的臨床試驗，但有 **9 篇相關文獻**。
 
 ---
 
@@ -48,12 +47,12 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、蕁麻疹、血管性水腫等（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 過敏性蕁麻疹 (Allergic Urticaria) |
-| TxGNN 預測分數 | 99.96% |
-| 證據等級 | L4（過敏性蕁麻疹）；寒冷性蕁麻疹為 L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 17 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Nasal cavity disease |
+| TxGNN 預測分數 | 0.9921 |
+| 證據等級 | L5（過敏性蕁麻疹）；寒冷性蕁麻疹為 L3 |
+| 香港上市 | 上市中（有效許可證 17 張／共 17 張） |
+| 許可證數 | 17 張（有效 17 張） |
 | 建議決策 | Hold（過敏性蕁麻疹）；寒冷性蕁麻疹列為研究問題 |
 
 ---
@@ -64,7 +63,7 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 
 蕁麻疹本來就屬於它的既有適應症（蕁麻疹、血管性水腫、過敏性皮膚病）。因此「過敏性蕁麻疹」較像既有適應症的子類型，不是全新的再利用標的。0.9996 的高分很可能反映這種重疊。H1 阻斷可直接對抗組織胺引起的風團與搔癢，機轉上相當吻合。
 
-排名第 2 的**寒冷性蕁麻疹**涉及冷刺激誘發肥大細胞釋放組織胺。Cyproheptadine 長期被視為此病的標準或參考用藥。不過現行指引偏好第二代抗組織胺，且本藥有嗜睡與抗膽鹼副作用，限制了臨床使用。
+Cyproheptadine 長期被視為此病的標準或參考用藥。不過現行指引偏好第二代抗組織胺，且本藥有嗜睡與抗膽鹼副作用，限制了臨床使用。
 
 排名第 3、4 的「鼻腔疾病」與「急性喉咽炎」缺乏任何直接證據。前者與既有的過敏性／血管運動性鼻炎適應症重疊；後者多為感染性，抗組織胺最多只能緩解症狀。
 
@@ -78,9 +77,7 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 
 ## 文獻證據
 
-以下以預測排名第 1（過敏性蕁麻疹）與第 2（寒冷性蕁麻疹）的文獻為主，優先列出對照試驗。
 
-**寒冷性蕁麻疹（排名 2，證據最完整）**
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
@@ -93,7 +90,6 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 | [5287036](https://pubmed.ncbi.nlm.nih.gov/5287036/) | 1971 | 臨床研究 | J Allergy Clin Immunol | 以 cyproheptadine 治療寒冷性蕁麻疹 |
 | [1305812](https://pubmed.ncbi.nlm.nih.gov/1305812/) | 1992 | 診斷研究 | Asian Pac J Allergy Immunol | 兒童冰塊試驗；cyproheptadine 治療 4 週後，3 分鐘冰塊試驗僅 17% 呈陽性 |
 
-**過敏性蕁麻疹／過敏性皮膚病（排名 1）**
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|

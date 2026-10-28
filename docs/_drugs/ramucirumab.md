@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 755
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Ramucirumab：預測新適應症為子宮韌帶腺癌 (Uterine Ligament Adenocarcinoma)（證據等級 L5）。原適應症：非小細胞肺癌、胃腺癌、肝細胞癌"
+last_modified_at: 2026-10-28
 monitor_inn: "Ramucirumab"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "cervical adenosquamous carcinoma, glassy cell variant", "uterine ligament endometrioid adenocarcinoma", "uterine ligament clear cell adenocarcinoma", "uterine ligament mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
+description: "Ramucirumab：預測新適應症為子宮韌帶腺癌 (uterine ligament adenocarcinoma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Ramucirumab
@@ -33,7 +33,7 @@ predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcino
 
 </div>
 
-## Ramucirumab：從肺癌／胃癌／肝癌到子宮韌帶腺癌
+## Ramucirumab: 子宮韌帶腺癌 (uterine ligament adenocarcinoma)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**子宮韌帶腺癌 (Uterine Ligament Adenocarcin
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 非小細胞肺癌、胃腺癌、肝細胞癌（依知識圖譜適應症；香港許可證未載明適應症文字） |
-| 預測新適應症 | 子宮韌帶腺癌 (Uterine Ligament Adenocarcinoma) |
-| TxGNN 預測分數 | 99.95% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 子宮韌帶腺癌 (uterine ligament adenocarcinoma) |
+| TxGNN 預測分數 | 0.9995 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ---
@@ -64,7 +64,7 @@ TxGNN 模型預測它可能對**子宮韌帶腺癌 (Uterine Ligament Adenocarcin
 
 婦科腺癌中 VEGF 訊號通常相當活躍，因此抗血管新生策略在機轉上有合理性。例如，抗 VEGF-A 的 bevacizumab 在子宮頸癌已有明確角色，可提供間接的生物學依據。
 
-不過，此預測缺乏針對這個罕見疾病的任何資料，高分（99.95%）屬於計算模型的結果，不等同臨床證據。
+不過，此預測缺乏針對這個罕見疾病的任何資料，高分（0.9995）屬於計算模型的結果，不等同臨床證據。
 
 **其他高分預測（皆為 L5、Hold）：** 子宮頸內膜癌 (endocervical carcinoma)、子宮頸腺樣囊性癌、子宮韌帶漿液性／子宮內膜樣／透明細胞／黏液性腺癌、子宮頸印戒細胞型與腸型黏液腺癌、子宮頸腺鱗癌（毛玻璃細胞型）。這些預測同樣沒有臨床試驗或文獻佐證，多半反映本體論（ontology）上與子宮頸、腺癌相關術語的接近程度，而非疾病特異性的生物學。
 

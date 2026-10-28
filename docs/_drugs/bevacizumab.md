@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 117
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Bevacizumab：預測新適應症為會厭腫瘤 (Epiglottis Neoplasm)（證據等級 L5）。原適應症：腹膜癌、原發性腹膜漿液性癌、卵巢惡性上皮腫瘤、乳癌、大腸轉移性惡性腫瘤、神經膠母細胞瘤等"
 monitor_inn: "Bevacizumab"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
+last_modified_at: 2026-10-27
+description: "Bevacizumab：預測新適應症為會厭腫瘤 (epiglottis neoplasm)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Bevacizumab
@@ -33,100 +33,88 @@ predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tum
 
 </div>
 
-## Bevacizumab：從卵巢／乳房／腦部腫瘤到會厭腫瘤
+## Bevacizumab：VEGF-A 抗體（抗血管新生單株抗體）→ 會厭腫瘤 (epiglottis neoplasm)
 {: .text-alpha }
 
 ## 一句話總結
 
-Bevacizumab 是抗血管內皮生長因子（VEGF）的單株抗體，原本用於腹膜癌、卵巢癌、乳癌、大腸轉移癌與神經膠母細胞瘤等癌症。
-TxGNN 模型預測它可能對**會厭腫瘤 (Epiglottis Neoplasm)** 有效，但目前**沒有臨床試驗與文獻**直接支持，僅為模型預測。
-
----
+Bevacizumab 是一種針對 VEGF-A 的單株抗體，在香港已有多張有效許可證。
+TxGNN 模型預測它可能對**會厭腫瘤 (epiglottis neoplasm)** 有效，
+但目前**沒有任何臨床試驗或文獻**直接支持這個方向，僅為模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 腹膜癌、原發性腹膜漿液性癌、卵巢惡性上皮腫瘤、乳癌、大腸轉移性惡性腫瘤、神經膠母細胞瘤等（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 會厭腫瘤 (Epiglottis Neoplasm) |
-| TxGNN 預測分數 | 99.90% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 會厭腫瘤 (epiglottis neoplasm) |
+| TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 6 張 |
+| 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
+| 許可證數 | 6 張（有效 6 張） |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Bevacizumab 是抗 VEGF-A 的單株抗體，可阻斷腫瘤血管新生。它在多種實體癌（卵巢、乳房、大腸、腦部）已有使用，機轉上可能也適用於頭頸部腫瘤。
+目前缺乏詳細的作用機轉資料。就已知資訊，Bevacizumab 是抗 VEGF-A 的單株抗體，可阻斷 VEGF-A 訊號，理論上能抑制腫瘤血管新生。
 
-會厭屬於頭頸部。頭頸部腫瘤同樣依賴血管新生，因此從抗血管生成的角度，這個預測有其合理性。不過這只是機轉上的推論，並沒有針對會厭腫瘤的試驗或文獻佐證。
+頭頸部腫瘤的生長常依賴新生血管，因此從機轉上推論，抗 VEGF 療法可能對會厭部位的腫瘤有作用。不過這僅是機轉層面的合理推測，並非來自針對會厭腫瘤的實際研究。
 
----
+此預測的 TxGNN 分數為 0.9990，但目前沒有針對此疾病的臨床試驗或文獻佐證，因此證據等級僅為 L5。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記
-
----
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
-目前無相關文獻
-
----
+目前無相關文獻。
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-67028 | MVASI 注射濃縮液 100mg/4ml（Amgen） | 輸注用濃縮液 | 資料中未載明 |
-| HK-59450 | AVASTIN ROCHE 注射濃縮液 100mg/4ml（Roche） | 輸注用濃縮液 | 資料中未載明 |
-| HK-67029 | MVASI 注射濃縮液 400mg/16ml（Amgen） | 輸注用濃縮液 | 資料中未載明 |
-| HK-56638 | AVASTIN ROCHE 注射液 100mg/4ml（Roche） | 注射劑 | 資料中未載明 |
-| HK-56637 | AVASTIN ROCHE 注射液 400mg/16ml（Roche） | 注射劑 | 資料中未載明 |
-
-（全部共 6 張有效許可證，另有 HK-59449 AVASTIN ROCHE 400mg/16ml 輸注用濃縮液。）
-
----
+| HK-67028 | MVASI CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/4ML | 未記載 | 本地資料未記載 |
+| HK-59450 | AVASTIN ROCHE CONCENTRATE FOR SOLN FOR INFUSION 100MG/4ML | 未記載 | 本地資料未記載 |
+| HK-67029 | MVASI CONCENTRATE FOR SOLUTION FOR INFUSION 400MG/16ML | 未記載 | 本地資料未記載 |
+| HK-56638 | AVASTIN ROCHE INJ 100MG/4ML | 未記載 | 本地資料未記載 |
+| HK-56637 | AVASTIN ROCHE INJ 400MG/16ML | 未記載 | 本地資料未記載 |
 
 ## 細胞毒性
 
 | 項目 | 內容 |
 |------|------|
 | 細胞毒性分類 | 標靶藥物（抗 VEGF 單株抗體），非傳統細胞毒性藥物 |
-| 骨髓抑制風險 | 請參考原廠仿單的警語與注意事項 |
-| 致吐性分級 | 請參考原廠仿單的警語與注意事項 |
+| 骨髓抑制風險 | 低（單用時非主要風險；與化療併用時需依併用藥物評估） |
+| 致吐性分級 | 低 |
 | 監測項目 | 請參考原廠仿單的警語與注意事項 |
 | 處置防護 | 請參考原廠仿單的警語與注意事項 |
 
----
-
 ## 安全性考量
 
-- **藥物交互作用**：已查得 22 項交互作用，主要包括：
-  - **嚴重 (Major)**：Deferiprone、Samarium (153Sm) lexidronam、Panitumumab、Sunitinib、Thalidomide
-  - **中度 (Moderate)**：多種雙磷酸鹽類（Alendronic acid、Risedronic acid、Etidronic acid、Ibandronate、Pamidronic acid、Tiludronic acid）、Filgrastim、Pegfilgrastim、Sargramostim、Palifermin、Idelalisib、Romosozumab、Radium Ra 223 dichloride、Strontium chloride Sr-89 等
+- **藥物交互作用**：本報告彙整資料顯示共 22 筆交互作用紀錄，其中屬於 Major 等級的有：
+  - Deferiprone
+  - Samarium (153Sm) lexidronam
+  - Panitumumab
+  - Sunitinib
+  - Thalidomide
+- 其餘多為 Moderate 等級，包括雙磷酸鹽類（如 Alendronic acid、Risedronic acid、Ibandronate、Pamidronic acid）、造血生長因子（如 Filgrastim、Pegfilgrastim、Sargramostim）、Palifermin、Idelalisib、Romosozumab 等。
 
-警語與禁忌症資料請參考原廠仿單。
-
----
+主要警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 會厭腫瘤的預測分數雖高（99.90%），但沒有任何臨床試驗或文獻支持，證據等級僅 L5。
-- 作用機轉與仿單安全性資料也尚未取得。
+會厭腫瘤的預測僅來自模型，沒有任何直接相關的臨床試驗或文獻，證據等級為 L5。作用機轉的推論合理，但不足以支持推進。
 
 **若要推進需要：**
-- 取得香港衛生署仿單，補齊警語、禁忌症與核准適應症
-- 補充 Bevacizumab 的作用機轉資料
-- 搜尋頭頸部（含喉、會厭）腫瘤使用抗 VEGF 治療的臨床與文獻證據
-- 確認會厭腫瘤的疾病定義（良性或惡性），並評估與既有適應症的相似性
-- 若評估其他預測適應症，可優先看「囊性腫瘤 (Cystic Neoplasm)」（L3，有 Phase 3 試驗與系統性回顧），但其證據多與已核准的卵巢癌用途重疊，未必構成真正的再利用證據
+- 取得 Bevacizumab 詳細的作用機轉資料
+- 針對會厭腫瘤（或相近頭頸部腫瘤）的文獻回顧與臨床前資料
+- 取得香港原廠仿單的警語與禁忌症資訊
+- 確認給藥途徑與劑型是否適用於此部位的腫瘤
+- 評估是否有可行的臨床試驗設計
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

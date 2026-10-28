@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fremanezumab
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 403
-evidence_level: L4
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Fremanezumab：預測新適應症為伴腦幹先兆的偏頭痛 (Migraine with Brainstem Aura)（證據等級 L4）。原適應症：偏頭痛 (Migraine Disorder)"
 monitor_inn: "FREMANEZUMAB"
 predicted_indications: ["atrophoderma vermiculata"]
+description: "Fremanezumab：預測新適應症為Atrophoderma vermiculata（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Fremanezumab
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ predicted_indications: ["atrophoderma vermiculata"]
 
 </div>
 
-## Fremanezumab：從偏頭痛到伴腦幹先兆的偏頭痛
+## Fremanezumab: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## 一句話總結
 
 Fremanezumab 是一種針對 CGRP 的人源化單株抗體，原本用於偏頭痛的預防治療。
-TxGNN 模型預測它可能對**伴腦幹先兆的偏頭痛 (Migraine with Brainstem Aura)** 有效。
 目前**沒有登記的臨床試驗**，但有 **20 篇文獻**支持這個方向，多數為觀察性研究、回顧與前臨床研究。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 偏頭痛 (Migraine Disorder) |
-| 預測新適應症 | 伴腦幹先兆的偏頭痛 (Migraine with Brainstem Aura) |
-| TxGNN 預測分數 | 99.94% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Atrophoderma vermiculata |
+| TxGNN 預測分數 | 0.9904 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -60,7 +59,7 @@ TxGNN 模型預測它可能對**伴腦幹先兆的偏頭痛 (Migraine with Brain
 
 伴腦幹先兆的偏頭痛屬於偏頭痛的一種亞型，與其他偏頭痛共享三叉神經血管系統與 CGRP 介導的病理機轉。前臨床研究顯示，Fremanezumab 可選擇性抑制三叉神經血管神經元 (PMID 28642283)。
 
-不過，針對先兆的相關生物學，證據仍不完整。PMID 31127003 發現，皮質擴散性抑制 (CSD) 所引起的動脈擴張與血漿蛋白外滲不受 Fremanezumab 影響。因此機轉連結看似合理，但尚未完全釐清。此外，該藥已核准用於一般偏頭痛，這個適應症較接近「亞型延伸」，而非全新疾病領域的再利用。TxGNN 的高分，主要反映它在知識圖譜中與已核准偏頭痛適應症非常接近。
+不過，針對先兆的相關生物學，證據仍不完整。PMID 31127003 發現，皮質擴散性抑制 (CSD) 所引起的動脈擴張與血漿蛋白外滲不受 Fremanezumab 影響。因此機轉連結看似合理，但尚未完全釐清。此外，該藥已核准用於一般偏頭痛，這個適應症較接近「亞型延伸」，而非全新疾病領域的再利用。
 
 ## 臨床試驗證據
 

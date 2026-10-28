@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Eletriptan
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 312
-evidence_level: L4
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Eletriptan：預測新適應症為伴腦幹先兆的偏頭痛 (Migraine with Brainstem Aura)（證據等級 L4）。原適應症：偏頭痛（Migraine disorder）"
 monitor_inn: "ELETRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
+description: "Eletriptan：預測新適應症為Atrophoderma vermiculata（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Eletriptan
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **4** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", 
 
 </div>
 
-## Eletriptan：從偏頭痛到伴腦幹先兆的偏頭痛
+## Eletriptan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## 一句話總結
 
 Eletriptan 是選擇性 5-HT1B/1D 受體促效劑（triptan 類），原本用於偏頭痛的急性治療。
-TxGNN 模型預測它可能對**伴腦幹先兆的偏頭痛 (Migraine with Brainstem Aura)** 有效，但目前**沒有臨床試驗**，有 **16 篇文獻**，且幾乎都是針對一般偏頭痛，並非此亞型的直接證據。
 
 ---
 
@@ -47,12 +46,12 @@ TxGNN 模型預測它可能對**伴腦幹先兆的偏頭痛 (Migraine with Brain
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 偏頭痛（Migraine disorder） |
-| 預測新適應症 | 伴腦幹先兆的偏頭痛 (Migraine with Brainstem Aura) |
-| TxGNN 預測分數 | 99.99% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Atrophoderma vermiculata |
+| TxGNN 預測分數 | 0.9994 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -61,7 +60,7 @@ TxGNN 模型預測它可能對**伴腦幹先兆的偏頭痛 (Migraine with Brain
 
 Eletriptan 是選擇性 5-HT1B/1D 受體促效劑，對 5-HT1D 受體的親和力約為 sumatriptan 的 6 倍，對 5-HT1B 約為 3 倍。其作用被認為與收縮腦血管、抑制三叉神經血管系統的神經肽釋放有關。
 
-伴腦幹先兆的偏頭痛屬於偏頭痛的亞型，與一般偏頭痛共享三叉神經血管的病理機轉，因此模型的預測在機轉上有其合理性。不過這是由一般偏頭痛外推而來的間接證據，**嚴格來說並不是真正的藥物再利用**。
+不過這是由一般偏頭痛外推而來的間接證據，**嚴格來說並不是真正的藥物再利用**。
 
 需要特別注意以下幾點：
 - 一項隨機對照試驗（PMID 15469451）顯示，在先兆期服用 eletriptan 80 mg 並無療效，不支持在先兆階段用藥。

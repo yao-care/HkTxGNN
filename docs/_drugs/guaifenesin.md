@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Guaifenesin
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 430
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Guaifenesin：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L4）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、鼻炎、鼻咽炎、頭痛疾患"
 monitor_inn: "GUAIFENESIN"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
+predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
+description: "Guaifenesin：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Guaifenesin
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "fau
 
 </div>
 
-## Guaifenesin：從過敏性鼻炎與感冒到鼻腔疾病
+## Guaifenesin: 鼻腔疾病 (nasal cavity disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,11 +46,11 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、鼻炎、鼻咽炎、頭痛疾患（香港許可證未列出核准適應症文字，此處為知識圖譜資料） |
-| 預測新適應症 | 鼻腔疾病 (Nasal Cavity Disease) |
-| TxGNN 預測分數 | 99.98% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 鼻腔疾病 (nasal cavity disease) |
+| TxGNN 預測分數 | 0.9998 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Guaifenesin 是祛痰劑，作用是稀釋並促進氣道黏液排出。鼻腔疾病與其已知的鼻炎、感冒、鼻咽炎等適應症高度相關，因此機轉上可能適用於鼻腔疾病中的黏液分泌問題。
 
-需要注意的是，0.9998 的高分主要反映新適應症與既有適應症在知識圖譜中的重疊，而非出現了新的作用機轉。因此這個預測較像是既有用途的延伸，而不是真正的新用途。其他排名較低的預測（如急性喉咽炎、白喉、頸椎椎間盤退化、乳突狀結膜炎）則缺乏可信的機轉連結，多半是知識圖譜的關聯假象。
+需要注意的是，0.9998 的高分來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，而非生物學證據，也不代表出現了新的作用機轉。因此這個預測較像是既有用途的延伸，而不是真正的新用途。其他排名較低的預測（如咽白喉、頸椎椎間盤退化、乳頭狀結膜炎）同樣缺乏可信的機轉連結，多半只是模型學到的相關疾病相似性，並非生物學證據。
 
 ## 臨床試驗證據
 

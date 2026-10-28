@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Morphine
-parent: 僅模型預測 (L5)
+parent: 中證據等級 (L3-L4)
 nav_order: 599
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Morphine：預測新適應症為肌筋膜疼痛症候群 (Myofascial Pain Syndrome)（證據等級 L5）。原適應症：腹瀉性疾病"
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
+description: "Morphine：預測新適應症為肌筋膜疼痛症候群 (myofascial pain syndrome)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Morphine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L4** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["myofascial pain syndrome", "manic bipolar affective dis
 
 </div>
 
-## Morphine：從腹瀉性疾病到不寧腿症候群
+## Morphine: 肌筋膜疼痛症候群 (myofascial pain syndrome)
 {: .text-alpha }
 
 ## 一句話總結
@@ -49,28 +49,28 @@ TxGNN 模型預測的首位新適應症為**肌筋膜疼痛症候群 (myofascial
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 腹瀉性疾病（diarrheal disease，來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 肌筋膜疼痛症候群 (Myofascial Pain Syndrome) |
-| TxGNN 預測分數 | 99.75% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 肌筋膜疼痛症候群 (myofascial pain syndrome) |
+| TxGNN 預測分數 | 0.9975 |
 | 證據等級 | L4（肌筋膜疼痛症候群）；證據最強的候選 RLS 為 L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 15 張 |
+| 香港上市 | 上市中（有效許可證 15 張／共 15 張） |
+| 許可證數 | 15 張（有效 15 張） |
 | 建議決策 | Hold（肌筋膜疼痛症候群）；RLS 列為研究問題 |
 
 ### 前 10 名預測概覽
 
 | 排名 | 預測適應症 | 分數 | 證據等級 | 建議 |
 |------|-----------|------|---------|------|
-| 1 | 肌筋膜疼痛症候群 | 99.75% | L4 | Hold |
-| 2 | 躁型雙極性情感障礙 | 99.64% | L5 | Hold |
-| 3 | 妥瑞氏症 | 99.48% | L5 | Hold |
-| 4 | 不寧腿症候群 | 99.47% | L3 | 研究問題 |
-| 5 | 注意力不足過動症（注意力不足型） | 99.34% | L5 | Hold |
-| 6 | 偏頭痛 | 99.32% | L4 | Hold |
-| 7 | 拔毛症 | 99.29% | L5 | Hold |
-| 8 | 高鐵血紅素血症 | 99.15% | L5 | Hold |
-| 9 | 伴腦幹先兆的偏頭痛 | 99.15% | L5 | Hold |
-| 10 | 特定發展障礙 | 99.06% | L5 | Hold |
+| 1 | 肌筋膜疼痛症候群 | 0.9975 | L4 | Hold |
+| 2 | 躁型雙極性情感障礙 | 0.9964 | L5 | Hold |
+| 3 | 妥瑞氏症 | 0.9948 | L5 | Hold |
+| 4 | 不寧腿症候群 | 0.9947 | L3 | 研究問題 |
+| 5 | 注意力不足過動症（注意力不足型） | 0.9934 | L5 | Hold |
+| 6 | 偏頭痛 | 0.9932 | L4 | Hold |
+| 7 | 拔毛症 | 0.9929 | L5 | Hold |
+| 8 | 高鐵血紅素血症 | 0.9915 | L5 | Hold |
+| 9 | 伴腦幹先兆的偏頭痛 | 0.9915 | L5 | Hold |
+| 10 | 特定發展障礙 | 0.9906 | L5 | Hold |
 
 ---
 

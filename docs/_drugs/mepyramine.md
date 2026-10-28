@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mepyramine
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 564
-evidence_level: L4
-indication_count: 4
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Mepyramine：預測新適應症為過敏性蕁麻疹 (Allergic Urticaria)（證據等級 L4）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、異位性結膜炎、蕁麻疹、血管性水腫等"
 monitor_inn: "Mepyramine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Mepyramine：預測新適應症為Nasal cavity disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Mepyramine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **4** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,23 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 </div>
 
-## Mepyramine：從過敏性鼻炎與蕁麻疹到過敏性蕁麻疹
+## Mepyramine: Nasal cavity disease
 {: .text-alpha }
 
 ## 一句話總結
 
 Mepyramine 是第一代 H1 組織胺受體拮抗劑，原本用於過敏性鼻炎、蕁麻疹、血管性水腫等過敏性疾病。
-TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效，但目前**沒有任何臨床試驗**，僅有 **4 篇間接文獻**（多為前臨床研究，另有 1 篇犬隻血管性水腫研究）。此預測與既有適應症高度重疊，並非嚴格意義上的新用途。
+此預測與既有適應症高度重疊，並非嚴格意義上的新用途。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、異位性結膜炎、蕁麻疹、血管性水腫等（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 過敏性蕁麻疹 (Allergic Urticaria) |
-| TxGNN 預測分數 | 99.92% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Nasal cavity disease |
+| TxGNN 預測分數 | 0.9974 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 

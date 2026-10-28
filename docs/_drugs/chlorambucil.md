@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chlorambucil
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 184
-evidence_level: L4
-indication_count: 8
-last_modified_at: 2026-10-14
-description: "Chlorambucil：預測新適應症為慢性淋巴球性白血病/小淋巴球淋巴瘤（伴免疫球蛋白重鏈可變區基因體細胞高度突變）（證據等級 L4）。原適應症：何杰金氏淋巴瘤、濾泡性淋巴瘤、成熟 B 細胞腫瘤、急性淋巴母細胞白血病、Richter 症候群"
+evidence_level: L5
+indication_count: 7
 monitor_inn: "CHLORAMBUCIL"
-predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
+predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
+last_modified_at: 2026-10-23
+description: "Chlorambucil：預測新適應症為前生發中心慢性淋巴球性白血病／小淋巴球性淋巴瘤（證據等級 L5）。原適應症：知識圖譜記錄的關聯：何杰金氏淋巴瘤、濾泡性淋巴瘤、急性淋巴母細胞白血病、Richter 症候群等"
 ---
 
 # Chlorambucil
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **8** 個
+證據等級: **L5** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,117 +33,82 @@ predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma
 
 </div>
 
-## Chlorambucil：從何杰金氏淋巴瘤與慢性血液腫瘤到慢性淋巴球性白血病亞型
+## Chlorambucil：從血液惡性腫瘤到前生發中心慢性淋巴球性白血病／小淋巴球性淋巴瘤
 {: .text-alpha }
 
 ## 一句話總結
 
-Chlorambucil 是烷化劑類的口服化療藥物，原本用於何杰金氏淋巴瘤、濾泡性淋巴瘤、急性淋巴母細胞白血病等血液腫瘤。
-TxGNN 模型預測它可能對**慢性淋巴球性白血病/小淋巴球淋巴瘤的 IGHV 突變亞型**有效，
-但目前**沒有臨床試驗**，也**沒有針對該亞型的文獻**，僅有模型預測與母疾病（CLL）的間接支持。
-
----
+Chlorambucil 是一種烷化劑，知識圖譜中記錄的原有用途為何杰金氏淋巴瘤、濾泡性淋巴瘤、急性淋巴母細胞白血病等血液惡性腫瘤。
+TxGNN 模型預測排名第一的新方向為**前生發中心慢性淋巴球性白血病／小淋巴球性淋巴瘤 (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma)**，目前僅有 **1 篇文獻**（2003 年綜述）支持，且**無臨床試驗**登記，屬間接證據。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 何杰金氏淋巴瘤、濾泡性淋巴瘤、成熟 B 細胞腫瘤、急性淋巴母細胞白血病、Richter 症候群（依知識圖譜適應症資料；香港許可證未載明適應症文字） |
-| 預測新適應症 | 慢性淋巴球性白血病/小淋巴球淋巴瘤（伴免疫球蛋白重鏈可變區基因體細胞高度突變） |
-| TxGNN 預測分數 | 99.72% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 原適應症 | 知識圖譜記錄的關聯：何杰金氏淋巴瘤、濾泡性淋巴瘤、急性淋巴母細胞白血病、Richter 症候群等（香港許可證未載明核准適應症文字） |
+| 預測新適應症 | 前生發中心慢性淋巴球性白血病／小淋巴球性淋巴瘤 |
+| TxGNN 預測分數 | 0.9972 |
+| 證據等級 | L5（無直接研究此亞型的試驗或文獻） |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Chlorambucil 是烷化劑，透過 DNA 烷化與交聯作用抑制癌細胞增生，其在 CLL 與多種 B 細胞淋巴瘤中的療效已被長期使用所證實，機轉上可能適用於 CLL/SLL 的各分子亞型。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Chlorambucil 屬於烷化劑類，透過 DNA 烷化發揮細胞毒性，在多種 B 細胞惡性腫瘤中已有使用經驗，機轉上可能適用於慢性淋巴球性白血病。
 
-此預測的疾病是 CLL/SLL 的分子亞型，而 CLL 本身已是 Chlorambucil 的經典用途。因此這比較接近「亞型細分」，而非真正的藥物再利用。模型分數很高，但資料中沒有針對 IGHV 突變亞型的試驗或文獻。
-
-需要注意的是，目前臨床實務中 Chlorambucil 已大多被 BTK 抑制劑與 BCL2 抑制劑取代。
-
----
+此預測的疾病為前生發中心慢性淋巴球性白血病／小淋巴球性淋巴瘤，TxGNN 模型（深度學習）給出的分數為 0.9972。此分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，並非生物學證據。唯一檢索到的文獻是 2003 年討論 CLL 風險適應性治療的綜述，並未提供此疾病的療效數據，因此不能視為直接證據。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
-
-針對預測排名第 1 的疾病（IGHV 突變亞型），目前無相關文獻。
-
-與其相近的 CLL/SLL 前生發中心亞型（預測排名第 2，同樣屬 IGHV 突變型）有以下間接文獻：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [12577769](https://pubmed.ncbi.nlm.nih.gov/12577769/) | 2003 | Review | Nederlands tijdschrift voor geneeskunde | 說明 CLL 有前生發中心型等兩種亞型，主張依風險調整治療策略；非亞型特異性的間接支持 |
-
----
+| [12577769](https://pubmed.ncbi.nlm.nih.gov/12577769/) | 2003 | Review | Nederlands tijdschrift voor geneeskunde | 指出 CLL 有前生發中心型（免疫球蛋白可變區基因未突變）等亞型，主張依風險調整治療；屬間接證據，無此亞型的 Chlorambucil 療效數據 |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-03789 | LEUKERAN TAB 2MG | 未載明 | 未載明（廠商：Aspen Pharmacare Asia Limited） |
-
----
+| HK-03789 | LEUKERAN TAB 2MG | 未載明 | 未載明 |
 
 ## 細胞毒性
 
 | 項目 | 內容 |
 |------|------|
 | 細胞毒性分類 | 傳統細胞毒性藥物（烷化劑，氮芥類衍生物） |
-| 骨髓抑制風險 | 高（知識圖譜將嗜中性白血球低下、血小板低下、白血球低下、貧血等列為相關禁忌狀況） |
-| 致吐性分級 | 低至中度（依藥物類別判斷） |
-| 監測項目 | CBC（含分類）、肝功能、腎功能 |
+| 骨髓抑制風險 | 高（知識圖譜記錄的禁忌關聯包括血小板低下、嗜中性白血球低下、白血球低下、貧血） |
+| 致吐性分級 | 請參考原廠仿單 |
+| 監測項目 | 全血球計數（CBC）、肝腎功能 |
 | 處置防護 | 需依細胞毒性藥物處置規範操作 |
-
-其他詳細警語請參考原廠仿單。
-
----
 
 ## 安全性考量
 
-- **禁忌／需謹慎的疾病（來自知識圖譜，非仿單文字）**：癲癇、血小板低下、嗜中性白血球低下、顆粒球缺乏症、白血球低下、淋巴球低下、貧血、腎病症候群、間質性肺病、肺纖維化、藥物引起的肝損傷、急性白血病（含混合表型急性白血病）。
-- **藥物交互作用**：共查得 100 筆，以下為部分主要項目：
+- **知識圖譜記錄的禁忌關聯（非仿單內容）**：癲癇、血小板低下、腎病症候群、嗜中性白血球低下、顆粒球缺乏症、貧血、間質性肺病、藥物性肝損傷、白血球低下、淋巴球低下、肺纖維化、急性白血病等。
+- **藥物交互作用**：共查得 100 筆，以下為部分重點：
   - 嚴重（Major）：Deferiprone、Samarium (153Sm) lexidronam
-  - 中度（Moderate）：Amphotericin B（含脂質複合物、膽固醇硫酸酯及微脂體劑型）、Mercaptopurine、Chloramphenicol、Roflumilast、Palifermin、Strontium chloride Sr-89
-  - 輕微（Minor）：Levofloxacin
+  - 中度（Moderate）：Amphotericin B（含脂質體等劑型）、Palifermin、Strontium chloride Sr-89、Mercaptopurine、Roflumilast、Chloramphenicol
+  - 輕度（Minor）：Levofloxacin
+- 文獻另提示治療相關的續發性惡性腫瘤風險。
 
-香港仿單的警語與禁忌資料尚未取得，請參考原廠仿單。
-
----
+完整警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高（99.72%），但此亞型屬於 CLL 的既有用途範圍，沒有亞型專屬的臨床試驗或文獻，證據僅達 L4。
-- Chlorambucil 在 CLL 已被 BTK 與 BCL2 抑制劑取代，且具明顯骨髓抑制風險，再利用價值有限。
+- 沒有任何研究直接針對此 CLL/SLL 亞型評估 Chlorambucil，僅有間接的綜述，證據等級為 L5；高分主要反映模型與母疾病的相近性。
+- 此預測屬於既有疾病的亞型，並非明確的新適應症，且現行 CLL 治療已有更新的標靶藥物。
 
 **若要推進需要：**
-- 取得香港仿單的警語、禁忌與核准適應症資料
-- 補充作用機轉（MOA）資料
-- 搜尋 IGHV 突變亞型的專屬臨床資料，並與現行標準療法比較
-- 建立血液學監測計畫
-
----
-
-### 其他預測適應症補充（供參考）
-
-| 預測疾病 | 分數 | 證據等級 | 簡要評估 |
-|---------|------|---------|---------|
-| 原發性肺淋巴瘤 | 99.42% | L3 | 多為 MALT 型邊緣區淋巴瘤，Chlorambucil 為已知選項；證據以病例報告、回溯性研究與指引為主，建議列為研究問題，需前瞻性確認 |
-| 小細胞肺癌 | 99.24% | L3 | 僅有陳舊研究與早期前臨床資料（含 2026 年 Chlorambucil 結合物研究），遠不及現行標準療法 |
-| 急性淋巴母細胞白血病 | 99.25% | L4 | 已屬原適應症，並非新的再利用，且無 Chlorambucil 療效證據 |
-| ALK 陽性大 B 細胞淋巴瘤、肺高分化胎兒型腺癌、肺母細胞瘤 | 99.2%–99.6% | L5 | 僅有模型預測，無試驗或文獻，建議 Hold |
+- 取得 Chlorambucil 的作用機轉資料
+- 取得香港許可證的核准適應症文字與仿單警語、禁忌症
+- 蒐集 IGHV 未突變亞型使用 Chlorambucil 的亞群分析或比較研究
+- 與現行標準治療比較療效與安全性，並制定血液學監測計畫
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Evocalcet
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 358
-evidence_level: L4
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Evocalcet：預測新適應症為高磷血症 (Hyperphosphatemia)（證據等級 L4）。原適應症：副甲狀腺機能亢進 (Hyperparathyroidism)"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "EVOCALCET"
-predicted_indications: ["hyperphosphatemia (disease)", "tumoral calcinosis, hyperphosphatemic, familial", "familial hyperphosphatemic tumoral calcinosis/hyperphosphatemic hyperostosis syndrome", "pancreatitis", "hereditary hypercarotenemia and vitamin A deficiency"]
+predicted_indications: ["hyperphosphatemia (disease)", "tumoral calcinosis, hyperphosphatemic, familial", "familial hyperphosphatemic tumoral calcinosis/hyperphosphatemic hyperostosis syndrome", "pancreatitis", "hereditary hypercarotenemia and vitamin A deficiency", "primary hyperoxaluria", "familial apolipoprotein C-II deficiency", "C1 inhibitor deficiency"]
+last_modified_at: 2026-10-23
+description: "Evocalcet：預測新適應症為高磷血症 (Hyperphosphatemia)（證據等級 L5）。原適應症：副甲狀腺機能亢進"
 ---
 
 # Evocalcet
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,89 +38,66 @@ predicted_indications: ["hyperphosphatemia (disease)", "tumoral calcinosis, hype
 
 ## 一句話總結
 
-Evocalcet 是一種擬鈣劑（calcimimetic），原本用於治療副甲狀腺機能亢進（hyperparathyroidism）。
+Evocalcet 是一種鈣敏感受體（CaSR）調節劑（擬鈣劑），知識圖譜中記錄的原適應症為副甲狀腺機能亢進。
 TxGNN 模型預測它可能對**高磷血症 (Hyperphosphatemia)** 有效，
-目前**沒有臨床試驗**登記，僅有 **2 篇文獻**（1 篇前臨床藥理研究、1 篇病例報告）提供間接參考，證據相當有限。
-
----
+但目前**沒有臨床試驗**，僅有 **2 篇文獻**（1 篇前臨床研究、1 篇與主題關聯有限的病例報告），且都未直接研究此疾病，證據仍屬模型預測層級。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 副甲狀腺機能亢進 (Hyperparathyroidism) |
+| 原適應症 | 副甲狀腺機能亢進（知識圖譜記錄的關係；香港許可證未載明適應症文字） |
 | 預測新適應症 | 高磷血症 (Hyperphosphatemia) |
-| TxGNN 預測分數 | 99.97% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| TxGNN 預測分數 | 0.9997 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（原廠資料未收錄）。根據已知的藥理資訊，Evocalcet 作用於鈣敏感受體（CaSR），活化副甲狀腺細胞上的此受體以降低副甲狀腺素（PTH）。在中國，它已於 2024 年核准用於慢性腎臟病引起的繼發性副甲狀腺機能亢進。
+目前缺乏經正式資料庫確認的詳細作用機轉資料。根據藥理資料，Evocalcet 是變構型擬鈣劑，作用於副甲狀腺細胞上的鈣敏感受體（CASR），抑制副甲狀腺素（PTH）分泌。
 
-PTH 下降可能減少骨轉換，以及鈣與磷自骨骼的釋出，因此血磷可能間接下降。在慢性腎臟病的繼發性副甲狀腺機能亢進中，磷與 PTH 本來就互相關聯，所以這個推論在機轉上有一定合理性。
+PTH 下降可減少骨吸收及鈣、磷的釋放，因此血磷理論上可能間接下降。前臨床研究（PMID 29614098）描述了 Evocalcet 抑制副甲狀腺細胞功能，且對腸胃道影響較小。不過，這只是慢性腎臟病繼發性副甲狀腺機能亢進情境下可能的次要效應，**並非直接降磷療效的證據**。
 
-不過，目前沒有證據顯示 Evocalcet 有直接降磷的作用。2018 年的研究（PMID 29614098）是針對副甲狀腺細胞功能的前臨床藥理研究，並未驗證高磷血症適應症。0.9997 的高分屬於電腦模型預測，不等於臨床有效。
-
----
+此外，此預測的證據中，沒有任何一項研究直接以高磷血症為對象，因此依規則證據等級只能判定為 L5。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [29614098](https://pubmed.ncbi.nlm.nih.gov/29614098/) | 2018 | 前臨床／藥理研究 | PloS one | 新型擬鈣劑 Evocalcet 可抑制副甲狀腺細胞功能，對腸胃道和 CYP 酵素影響較小（相較於 cinacalcet） |
-| [40471524](https://pubmed.ncbi.nlm.nih.gov/40471524/) | 2025 | 病例報告 | Clinical journal of gastroenterology | 先天性肝纖維化合併繼發性副甲狀腺機能亢進患者快速出現瀰漫性肝鈣化，屬個案描述 |
-
----
+| [29614098](https://pubmed.ncbi.nlm.nih.gov/29614098/) | 2018 | 前臨床研究 | PloS one | 新型擬鈣劑 Evocalcet 可抑制副甲狀腺細胞功能，對腸胃道及 CYP 酵素影響小 |
+| [40471524](https://pubmed.ncbi.nlm.nih.gov/40471524/) | 2025 | 病例報告 | Clinical journal of gastroenterology | 先天性肝纖維化合併繼發性副甲狀腺機能亢進患者出現快速進展的瀰漫性肝鈣化；不足以證實療效 |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-68425 | ORKEDIA TABLETS 2MG | 未提供 | 未提供 |
-| HK-68424 | ORKEDIA TABLETS 1MG | 未提供 | 未提供 |
-
-兩張許可證均為單方製劑，持證商為 DKSH Hong Kong Limited，狀態皆為有效。
-
----
+| HK-68425 | ORKEDIA TABLETS 2MG | 錠劑 | 未提供 |
+| HK-68424 | ORKEDIA TABLETS 1MG | 錠劑 | 未提供 |
 
 ## 安全性考量
 
-**藥物交互作用：**
-- 藥理資料顯示 Evocalcet 的作用標的為鈣敏感受體（CASR）。這是標的作用資訊，並非具臨床分級的藥物交互作用。
-- 前臨床研究提到，相較於 cinacalcet，Evocalcet 對 CYP 酵素的影響較小。
+- **藥物交互作用**：藥理資料僅顯示其作用標的為 CASR（鈣敏感受體），未列出具體藥物間交互作用。
 
-另外，從相關病例報告可知，擬鈣劑可能引起低血鈣，使用時需留意。
-
-其餘警語與禁忌症資訊請參考原廠仿單。
-
----
+其餘安全性資訊（警語、禁忌症）請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 目前沒有任何臨床試驗，文獻僅有前臨床研究與個案報告，且未直接證實降磷效果。高分預測只代表模型結果，機轉上的關聯也只是間接推論。
+- 高磷血症預測僅有模型分數與間接的機轉推論，沒有臨床試驗，也沒有直接研究此疾病的文獻。
+- 擬鈣劑透過降低 PTH 對血磷的影響是間接的，尚未有 Evocalcet 直接降磷的證據。
 
 **若要推進需要：**
-- 取得完整的作用機轉資料，釐清 PTH 下降與血磷變化之間的關係
-- 在繼發性副甲狀腺機能亢進（CKD）族群中，回溯分析 Evocalcet 治療期間的血磷變化
-- 設計前瞻性研究，以血磷為主要終點
-- 取得香港核准適應症與仿單的警語、禁忌症
-- 評估低血鈣等安全性風險與監測計畫
-
-**其他預測的補充說明：** 家族性高磷血症腫瘤性鈣質沉著症（排名 2、3，屬同一疾病譜，不應視為獨立支持）、胰臟炎、遺傳性高胡蘿蔔素血症與維生素 A 缺乏症，皆缺乏直接證據或合理機轉，建議暫不追蹤。
+- 取得 Evocalcet 在透析或慢性腎臟病患者血磷變化的臨床資料（如既有繼發性副甲狀腺機能亢進試驗的血磷次要指標）。
+- 補充作用機轉資料及香港仿單的警語、禁忌症與核准適應症。
+- 評估是否需要設計以血磷為主要終點的前瞻性研究。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

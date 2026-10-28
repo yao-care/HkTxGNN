@@ -4,17 +4,17 @@ title: Crizotinib
 parent: 僅模型預測 (L5)
 nav_order: 230
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Crizotinib：預測新適應症為遺傳性牙齦纖維瘤病 (Fibromatosis, Gingival)（證據等級 L5）。原適應症：非小細胞肺癌、肺癌"
 monitor_inn: "CRIZOTINIB"
-predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
+predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
+description: "Crizotinib：預測新適應症為遺傳性牙齦纖維瘤病 (fibromatosis, gingival)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Crizotinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 
 </div>
 
-## Crizotinib：從非小細胞肺癌到牙齦纖維瘤病
+## Crizotinib: 遺傳性牙齦纖維瘤病 (fibromatosis, gingival)
 {: .text-alpha }
 
 ## 一句話總結
@@ -45,19 +45,19 @@ TxGNN 模型預測它可能對**遺傳性牙齦纖維瘤病 (Fibromatosis, Gingi
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 非小細胞肺癌、肺癌（依知識圖譜適應症資料；香港許可證未載明適應症文字） |
-| 預測新適應症 | 遺傳性牙齦纖維瘤病 (Fibromatosis, Gingival) |
-| TxGNN 預測分數 | 99.81% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 遺傳性牙齦纖維瘤病 (fibromatosis, gingival) |
+| TxGNN 預測分數 | 0.9981 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
 目前缺乏詳細的作用機轉資料。根據已知文獻，Crizotinib 是 ALK、ROS1 與 c-MET 受體酪胺酸激酶的 ATP 競爭性抑制劑，在 ALK 或 ROS1 重排的非小細胞肺癌中療效已被證實。
 
-然而，就現有資料而言，ALK/ROS1/MET 抑制與遺傳性牙齦纖維瘤病之間**沒有任何支持的機轉連結**。TxGNN 分數雖然很高（0.998），但排名僅為 4427，且沒有試驗或文獻佐證，應視為尚待驗證的假說，不宜過度解讀。
+然而，就現有資料而言，ALK/ROS1/MET 抑制與遺傳性牙齦纖維瘤病之間**沒有任何支持的機轉連結**。TxGNN 分數雖然很高（0.9981），但排名僅為 4427，且沒有試驗或文獻佐證，應視為尚待驗證的假說，不宜過度解讀。
 
 ## 其他排名較前的預測（供參考）
 
@@ -65,12 +65,11 @@ TxGNN 模型預測它可能對**遺傳性牙齦纖維瘤病 (Fibromatosis, Gingi
 
 | 預測適應症 | TxGNN 分數 | 證據等級 | 說明 |
 |-----------|-----------|---------|------|
-| 肺纖維瘤 | 99.75% | L5 | 僅模型預測，無試驗與文獻 |
-| 肺錯構瘤 | 99.75% | L4 | 僅有 1 篇 ALK 陰性炎性肌纖維母細胞瘤個案報告，與錯構瘤不同，屬間接證據 |
-| 肺門癌 | 99.73% | L4 | 2 篇個案報告，實質上屬已核准的 NSCLC 適應症，並非新的再利用訊號 |
-| 肺良性腫瘤 | 99.73% | L4 | 文獻為 ALK 陽性 NSCLC 的 RCT，屬惡性疾病，為疾病標籤對應的假象 |
-| 肺溝腫瘤 | 99.73% | L5 | 僅模型預測；若為 NSCLC 則療效取決於 ALK/ROS1 狀態 |
-| 肺生殖細胞腫瘤 | 99.73% | L3 | 有 2 個籃式試驗，但屬基因型導向而非組織型特異；僅在腫瘤帶有可介入的 ALK/ROS1/MET 變異時才值得探討 |
+| 肺纖維瘤 | 0.9975 | L5 | 僅模型預測，無試驗與文獻 |
+| 肺錯構瘤 | 0.9975 | L5 | 僅有 1 篇 ALK 陰性炎性肌纖維母細胞瘤個案報告，與錯構瘤不同，屬間接證據 |
+| 肺良性腫瘤 | 0.9973 | L4 | 文獻為 ALK 陽性 NSCLC 的 RCT，屬惡性疾病，為疾病標籤對應的假象 |
+| 肺溝腫瘤 | 0.9973 | L5 | 僅模型預測；若為 NSCLC 則療效取決於 ALK/ROS1 狀態 |
+| 肺生殖細胞腫瘤 | 0.9973 | L3 | 有 2 個籃式試驗，但屬基因型導向而非組織型特異；僅在腫瘤帶有可介入的 ALK/ROS1/MET 變異時才值得探討 |
 
 ## 臨床試驗證據
 

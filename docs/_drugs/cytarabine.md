@@ -6,9 +6,9 @@ nav_order: 240
 evidence_level: L4
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Cytarabine：預測新適應症為小細胞肺癌 (Small Cell Lung Carcinoma)（證據等級 L4）。原適應症：急性淋巴芽細胞白血病、急性骨髓性白血病"
 monitor_inn: "CYTARABINE"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
+description: "Cytarabine：預測新適應症為小細胞肺癌 (small cell lung carcinoma)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Cytarabine
@@ -33,7 +33,7 @@ predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma
 
 </div>
 
-## Cytarabine：從急性白血病到小細胞肺癌
+## Cytarabine: 小細胞肺癌 (small cell lung carcinoma)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**小細胞肺癌 (Small Cell Lung Carcinoma)** �
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 急性淋巴芽細胞白血病、急性骨髓性白血病（來自知識圖譜；香港許可證未提供適應症文字） |
-| 預測新適應症 | 小細胞肺癌 (Small Cell Lung Carcinoma) |
-| TxGNN 預測分數 | 99.78% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 小細胞肺癌 (small cell lung carcinoma) |
+| TxGNN 預測分數 | 0.9978 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 14 張 |
+| 香港上市 | 上市中（有效許可證 14 張／共 14 張） |
+| 許可證數 | 14 張（有效 14 張） |
 | 建議決策 | Hold |
 
 ---
@@ -137,11 +137,11 @@ TxGNN 模型預測它可能對**小細胞肺癌 (Small Cell Lung Carcinoma)** �
 
 | 預測適應症 | TxGNN 分數 | 證據等級 | 說明 |
 |-----------|-----------|---------|------|
-| 原發性肺淋巴瘤 | 99.78% | L4 | 文獻多為其他淋巴瘤（如 CNS 淋巴瘤），屬間接證據 |
-| 上消化道腫瘤 | 99.49% | L4 | 有一項高劑量 cytarabine 增強 cisplatin 用於頭頸癌的研究，其餘多為間接資料 |
-| 後腹膜腫瘤 | 99.23% | L4 | 多為髓樣肉瘤與淋巴瘤病例報告 |
-| 神經母細胞瘤 | 99.19% | L4 | 僅有體外研究，3 個相關試驗均未測試 cytarabine，列為研究問題 |
-| 高分化胎兒型肺腺癌、肺母細胞瘤、神經節母細胞瘤、椎體異常合併內分泌與 T 細胞功能異常 | 99.32%–99.76% | L5 | 僅有模型預測，無試驗或文獻 |
+| 原發性肺淋巴瘤 | 0.9978 | L4 | 文獻多為其他淋巴瘤（如 CNS 淋巴瘤），屬間接證據 |
+| 上消化道腫瘤 | 0.9949 | L5 | 有一項高劑量 cytarabine 增強 cisplatin 用於頭頸癌的研究，其餘多為間接資料 |
+| 後腹膜腫瘤 | 0.9923 | L4 | 多為髓樣肉瘤與淋巴瘤病例報告 |
+| 神經母細胞瘤 | 0.9919 | L4 | 僅有體外研究，3 個相關試驗均未測試 cytarabine，列為研究問題 |
+| 高分化胎兒型肺腺癌、肺母細胞瘤、神經節母細胞瘤、椎體異常合併內分泌與 T 細胞功能異常 | 0.9932–0.9976 | L5 | 僅有模型預測，無試驗或文獻 |
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

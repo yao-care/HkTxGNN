@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tacrolimus
-parent: 僅模型預測 (L5)
+parent: 高證據等級 (L1-L2)
 nav_order: 845
-evidence_level: L5
-indication_count: 3
+evidence_level: L2
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Tacrolimus：預測新適應症為脂漏性皮膚炎 (Seborrheic Dermatitis)（證據等級 L5）。原適應症：異位性皮膚炎（atopic eczema / atopic dermatitis）"
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
+description: "Tacrolimus：預測新適應症為脂漏性皮膚炎 (seborrheic dermatitis)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Tacrolimus
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+證據等級: **L2** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 
 </div>
 
-## Tacrolimus：從異位性皮膚炎到脂漏性皮膚炎
+## Tacrolimus: 脂漏性皮膚炎 (seborrheic dermatitis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,15 +46,15 @@ TxGNN 模型預測它可能對**脂漏性皮膚炎 (Seborrheic Dermatitis)** 有
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 異位性皮膚炎（atopic eczema / atopic dermatitis） |
-| 預測新適應症 | 脂漏性皮膚炎 (Seborrheic Dermatitis) |
-| TxGNN 預測分數 | 99.26% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 脂漏性皮膚炎 (seborrheic dermatitis) |
+| TxGNN 預測分數 | 0.9926 |
 | 證據等級 | L2（僅 1 個已完成的 Phase 3 試驗，且為單一試驗；另有 1 個 Phase 4） |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Proceed with Guardrails |
 
-> 註：本報告所編纂的資料中，香港許可證的核准適應症文字皆為空白，原適應症係依知識圖譜的適應症關聯填寫。
+> 註：本報告所編纂的資料中，香港許可證的核准適應症文字皆為空白。
 
 ## 為什麼這個預測合理？
 
@@ -132,8 +132,7 @@ Tacrolimus 屬免疫抑制劑（鈣調磷酸酶抑制劑），非傳統抗腫瘤
 
 **其他預測適應症（供參考）**
 
-- **類副牛皮癬（Parapsoriasis，預測分數 99.24%）**：僅有 2 篇個案報告（外用 tacrolimus 治療苔癬樣糠疹），無臨床試驗，證據等級 L4，建議 **Hold**。
-- **皮膚炎（Dermatitis，預測分數 99.17%）**：此類別主要為異位性皮膚炎，屬已核准的既有適應症，並非真正的再利用，已有多個 Phase 3 試驗與統合分析支持，證據等級 L1。
+- **類副牛皮癬（Parapsoriasis，預測分數 0.9924）**：僅有 2 篇個案報告（外用 tacrolimus 治療苔癬樣糠疹），無臨床試驗，證據等級 L4，建議 **Hold**。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

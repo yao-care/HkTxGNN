@@ -4,17 +4,17 @@ title: Doxylamine
 parent: 僅模型預測 (L5)
 nav_order: 300
 evidence_level: L5
-indication_count: 4
-last_modified_at: 2026-10-14
-description: "Doxylamine：預測新適應症為過敏性蕁麻疹 (Allergic Urticaria)（證據等級 L5）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、蕁麻疹、血管性水腫等"
+indication_count: 1
+last_modified_at: 2026-10-28
 monitor_inn: "Doxylamine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Doxylamine：預測新適應症為Nasal cavity disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Doxylamine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 </div>
 
-## Doxylamine：從過敏性鼻炎等上呼吸道過敏症狀到過敏性蕁麻疹
+## Doxylamine: Nasal cavity disease
 {: .text-alpha }
 
 ## 一句話總結
 
 Doxylamine 是第一代 H1 抗組織胺藥，原本用於過敏性鼻炎、感冒、蕁麻疹和血管性水腫等症狀。
-TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效。
 目前**沒有直接的臨床試驗或文獻**支持，僅有模型預測與藥理類別推論。這個預測與既有適應症高度重疊，比較像是原有適應症的延伸，而非真正的新用途。
 
 ---
@@ -48,12 +47,12 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、蕁麻疹、血管性水腫等（來自知識圖譜；香港許可證未記載適應症文字） |
-| 預測新適應症 | 過敏性蕁麻疹 (Allergic Urticaria) |
-| TxGNN 預測分數 | 99.85% |
-| 證據等級 | L4（僅有類別層級的機轉推論，無直接研究；目前無實際研究支持） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Nasal cavity disease |
+| TxGNN 預測分數 | 0.9936 |
+| 證據等級 | L5（僅有類別層級的機轉推論，無直接研究；目前無實際研究支持） |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ---
@@ -62,13 +61,12 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Doxylamine 是第一代 H1 抗組織胺藥，具有抗組織胺與抗膽鹼（抗蕈毒鹼）作用。其在過敏性疾病與上呼吸道症狀中的療效已有類別層級的認知，機轉上可能適用於過敏性蕁麻疹。
 
-過敏性蕁麻疹由組織胺介導，阻斷 H1 受體在機轉上是合理的。知識圖譜顯示 Doxylamine 的既有適應症已包含蕁麻疹與血管性水腫，因此 TxGNN 的高分（0.998）很可能反映與這些適應症的重疊。
+過敏性蕁麻疹由組織胺介導，阻斷 H1 受體在機轉上是合理的。
 
 其他排名較前的預測也有類似情形：
 
-- **鼻腔疾病（99.36%）**：範圍很廣，與過敏性鼻炎、感冒重疊，H1 阻斷與抗膽鹼作用可能緩解流鼻水、打噴嚏，但缺乏明確的疾病目標。
-- **急性喉咽炎（99.34%）**：抗組織胺與抗膽鹼作用可能緩解鼻漏、後鼻滴流，但無法處理感染病因，對喉部病變的益處未經證實。
-- **寒冷性蕁麻疹（99.26%）**：屬物理性蕁麻疹，H1 抗組織胺是標準一線治療，但現行指引偏好第二代藥物。第一代藥物的鎮靜與抗膽鹼副作用相對不利。
+- **鼻腔疾病（0.9936）**：範圍很廣，與過敏性鼻炎、感冒重疊，H1 阻斷與抗膽鹼作用可能緩解流鼻水、打噴嚏，但缺乏明確的疾病目標。
+- 第一代藥物的鎮靜與抗膽鹼副作用相對不利。
 
 ---
 

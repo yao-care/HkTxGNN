@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pheniramine
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 687
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Pheniramine：預測新適應症為過敏性蕁麻疹 (Allergic Urticaria)（證據等級 L4）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、異位性結膜炎、蕁麻疹、血管性水腫等"
 monitor_inn: "Pheniramine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Pheniramine：預測新適應症為Nasal cavity disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Pheniramine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 
 </div>
 
-## Pheniramine：從過敏性鼻炎等過敏與上呼吸道症狀到過敏性蕁麻疹
+## Pheniramine: Nasal cavity disease
 {: .text-alpha }
 
 ## 一句話總結
 
 Pheniramine 是第一代 H1 受體拮抗劑（抗組織胺），原本用於過敏性鼻炎、蕁麻疹、血管性水腫及感冒相關症狀。
-TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效，但目前**沒有臨床試驗**，檢索到的 4 篇文獻也**未提供療效證據**。
 此預測與既有適應症高度重疊，較像是現有用途的再確認，而非真正的新用途。
 
 ---
@@ -48,12 +47,12 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、異位性結膜炎、蕁麻疹、血管性水腫等（香港許可證未載明適應症文字，此處依知識圖譜適應症資料） |
-| 預測新適應症 | 過敏性蕁麻疹 (Allergic Urticaria) |
-| TxGNN 預測分數 | 99.67% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 5 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Nasal cavity disease |
+| TxGNN 預測分數 | 0.9928 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 5 張／共 5 張） |
+| 許可證數 | 5 張（有效 5 張） |
 | 建議決策 | Hold |
 
 ---
@@ -62,7 +61,7 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Pheniramine 屬於第一代 H1 受體拮抗劑，透過阻斷 H1 受體，緩解組織胺引起的蕁麻疹與搔癢，機轉上適用於過敏性蕁麻疹。
 
-過敏性蕁麻疹與 Pheniramine 已知的適應症（蕁麻疹、血管性水腫、過敏性鼻炎）在病理機轉上同屬組織胺介導的過敏反應。因此「過敏性蕁麻疹」較接近既有適應症的重述，而非真正的藥物再利用。TxGNN 的高分（99.67%）與這種重疊相符。
+過敏性蕁麻疹與 Pheniramine 已知的適應症（蕁麻疹、血管性水腫、過敏性鼻炎）在病理機轉上同屬組織胺介導的過敏反應。因此「過敏性蕁麻疹」較接近既有適應症的重述，而非真正的藥物再利用。
 
 需要注意的是，檢索到的文獻並未提供支持療效的直接證據（詳見下方文獻證據），因此這個預測目前只有模型分數與機轉推論作為依據。
 
@@ -120,7 +119,6 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 **決策：Hold**
 
 **理由：**
-- 「過敏性蕁麻疹」與 Pheniramine 既有適應症高度重疊，不是真正的新適應症；且目前沒有臨床試驗，檢索到的文獻也不含直接療效證據，只有模型預測與機轉推論。
 - 原廠仿單的警語與禁忌症資料尚未取得，安全性評估無法進行。
 
 **若要推進需要：**

@@ -6,9 +6,9 @@ nav_order: 744
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Prucalopride：預測新適應症為低 α 脂蛋白血症 (Hypoalphalipoproteinemia)（證據等級 L5）。原適應症：便秘 (constipation disorder)"
 monitor_inn: "Prucalopride"
 predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "duodenal ulcer (disease)", "oral candidiasis", "obsolete familial combined hyperlipidemia", "amyloidosis (disease)", "strongyloidiasis", "HIV infectious disease", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
+description: "Prucalopride：預測新適應症為低 α 脂蛋白血症 (hypoalphalipoproteinemia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Prucalopride
@@ -33,7 +33,7 @@ predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hyperch
 
 </div>
 
-## Prucalopride：從便秘到低 α 脂蛋白血症
+## Prucalopride: 低 α 脂蛋白血症 (hypoalphalipoproteinemia)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**低 α 脂蛋白血症 (Hypoalphalipoproteinemia
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 便秘 (constipation disorder)（取自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 低 α 脂蛋白血症 (Hypoalphalipoproteinemia) |
-| TxGNN 預測分數 | 99.82% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 低 α 脂蛋白血症 (hypoalphalipoproteinemia) |
+| TxGNN 預測分數 | 0.9982 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**低 α 脂蛋白血症 (Hypoalphalipoproteinemia
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Prucalopride 是選擇性 5-HT4 受體促效劑，作用於腸道蠕動，其在便秘中的角色已為人所知。
 
-然而，5-HT4 促效作用與 HDL 代謝或 ApoA-I 調控之間，並無已知的關聯。這個高分預測僅來自知識圖譜的圖結構推論，沒有任何試驗或文獻佐證，因此目前無法建立可信的機轉連結。
+然而，5-HT4 促效作用與 HDL 代謝或 ApoA-I 調控之間，並無已知的關聯。這個高分預測來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據，也沒有任何試驗或文獻佐證，因此目前無法建立可信的機轉連結。
 
 TxGNN 預測分數高，不代表臨床上合理，建議將此結果視為待驗證的假設，而非可行動的證據。
 
@@ -107,7 +107,7 @@ TxGNN 預測分數高，不代表臨床上合理，建議將此結果視為待�
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高（99.82%），但沒有任何臨床試驗或文獻支持，機轉上也找不到合理連結，屬於 L5 等級。
+- 預測分數雖高（0.9982），但沒有任何臨床試驗或文獻支持，機轉上也找不到合理連結，屬於 L5 等級。
 - 其他排名前 10 的預測中，僅「澱粉樣變性 (amyloidosis)」與「原發性澱粉樣變性」有間接線索（針對澱粉樣變性相關腸道動力障礙的症狀緩解），目前僅被列為研究問題，且現有文獻也沒有 Prucalopride 療效的資料。
 
 **若要推進需要：**

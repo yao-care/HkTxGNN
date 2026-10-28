@@ -6,9 +6,9 @@ nav_order: 439
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Homatropine：預測新適應症為馬尾症候群 (Cauda Equina Syndrome)（證據等級 L5）。原適應症：消化性潰瘍、葡萄膜炎、虹膜疾病、睫狀肌麻痺等"
 monitor_inn: "Homatropine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "overactive bladder (disease)"]
+description: "Homatropine：預測新適應症為馬尾症候群 (cauda equina syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Homatropine
@@ -33,7 +33,7 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 </div>
 
-## Homatropine：從消化性潰瘍與眼科疾病到脊髓馬尾症候群
+## Homatropine: 馬尾症候群 (cauda equina syndrome)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 消化性潰瘍、葡萄膜炎、虹膜疾病、睫狀肌麻痺等（香港許可證未載明核准適應症，此為知識圖譜所列） |
-| 預測新適應症 | 馬尾症候群 (Cauda Equina Syndrome) |
-| TxGNN 預測分數 | 99.89% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 馬尾症候群 (cauda equina syndrome) |
+| TxGNN 預測分數 | 0.9989 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -64,9 +64,9 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 
 | 排名 | 預測適應症 | 預測分數 | 說明 |
 |------|-----------|---------|------|
-| 2 | 神經性膀胱（本體論中已標為過時術語） | 99.75% | 抗毒蕈鹼藥物用於神經性逼尿肌過動有類別層級的依據；需先對應到現行術語（如 neurogenic detrusor overactivity）再評估 |
-| 3 | 胃十二指腸炎 | 99.51% | 與既有的消化性潰瘍適應症最接近，但抗膽鹼藥物已非標準治療 |
-| 4 | 膀胱過動症 | 99.16% | 類別層級理由強，但已有更具膀胱選擇性且研究較充分的藥物，且抗膽鹼副作用需評估 |
+| 2 | 神經性膀胱（本體論中已標為過時術語） | 0.9975 | 抗毒蕈鹼藥物用於神經性逼尿肌過動有類別層級的依據；需先對應到現行術語（如 neurogenic detrusor overactivity）再評估 |
+| 3 | 胃十二指腸炎 | 0.9951 | 與既有的消化性潰瘍適應症最接近，但抗膽鹼藥物已非標準治療 |
+| 4 | 膀胱過動症 | 0.9916 | 類別層級理由強，但已有更具膀胱選擇性且研究較充分的藥物，且抗膽鹼副作用需評估 |
 
 ## 臨床試驗證據
 

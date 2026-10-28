@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Temozolomide
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 855
-evidence_level: L1
-indication_count: 2
-last_modified_at: 2026-10-14
-description: "Temozolomide：預測新適應症為成人星狀細胞腫瘤 (Adult Astrocytic Tumour)（證據等級 L1）。原適應症：退行性星狀細胞瘤、星狀細胞瘤（不含膠質母細胞瘤）、腦膠質母細胞瘤"
+evidence_level: L5
+indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
-predicted_indications: ["adult astrocytic tumour", "cauda equina neoplasm"]
+predicted_indications: ["cauda equina neoplasm"]
+last_modified_at: 2026-10-23
+description: "Temozolomide：預測新適應症為馬尾腫瘤（證據等級 L5）。原適應症：知識圖譜記錄：退行性星狀細胞瘤、星狀細胞瘤（不含神經膠質母細胞瘤）、腦部神經膠質母細胞瘤"
 ---
 
 # Temozolomide
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,117 +33,96 @@ predicted_indications: ["adult astrocytic tumour", "cauda equina neoplasm"]
 
 </div>
 
-## Temozolomide：從惡性星狀細胞瘤到成人星狀細胞腫瘤
+## Temozolomide：從腦部神經膠質瘤到馬尾腫瘤
 {: .text-alpha }
 
 ## 一句話總結
 
-Temozolomide 是口服烷化劑，原本用於退行性星狀細胞瘤、星狀細胞瘤（不含膠質母細胞瘤）及腦膠質母細胞瘤的治療。
-TxGNN 模型預測它可能對**成人星狀細胞腫瘤 (Adult Astrocytic Tumour)** 有效，目前有 **2 個臨床試驗**和 **20 篇文獻**支持這個方向。
-需注意：此預測與原適應症高度重疊，屬於既有用途的再確認，並非真正的新適應症。
-
----
+Temozolomide 是口服烷化劑，知識圖譜中記錄的原適應症為退行性星狀細胞瘤、星狀細胞瘤（不含神經膠質母細胞瘤）及腦部神經膠質母細胞瘤。
+TxGNN 模型預測它可能對**馬尾腫瘤 (Cauda Equina Neoplasm)** 有效，
+目前**沒有臨床試驗**，僅有 **3 篇文獻**（皆為病例報告，其中僅 1 篇與此疾病相關）。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 退行性星狀細胞瘤、星狀細胞瘤（不含膠質母細胞瘤）、腦膠質母細胞瘤（來自知識圖譜；香港許可證未列核准適應症文字） |
-| 預測新適應症 | 成人星狀細胞腫瘤 (Adult Astrocytic Tumour) |
-| TxGNN 預測分數 | 99.36% |
-| 證據等級 | L1 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 17 張 |
-| 建議決策 | Proceed with Guardrails |
-
----
+| 原適應症 | 知識圖譜記錄：退行性星狀細胞瘤、星狀細胞瘤（不含神經膠質母細胞瘤）、腦部神經膠質母細胞瘤（香港許可證未載明適應症文字） |
+| 預測新適應症 | 馬尾腫瘤 |
+| TxGNN 預測分數 | 0.9930 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 17 張／共 17 張） |
+| 許可證數 | 17 張（有效 17 張） |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏經正式資料庫確認的作用機轉資料。根據文獻整理，Temozolomide 是口服烷化劑，會使 DNA 甲基化（鳥嘌呤 O6 與 N7 位置、腺嘌呤 N3 位置），造成細胞毒性病變並誘發腫瘤細胞凋亡。藥效受 MGMT 啟動子甲基化狀態影響，該狀態是重要的預測生物標記。
+Temozolomide 是口服烷化劑，會使 DNA 甲基化（O6-鳥嘌呤、N7-鳥嘌呤、N3-腺嘌呤），造成細胞毒性損傷並誘導細胞凋亡。其敏感性主要取決於 MGMT 啟動子的甲基化狀態。需注意，目前資料中缺乏 DrugBank 的作用機轉欄位，以上機轉描述來自本報告的推論分析。
 
-成人星狀細胞腫瘤（含退行性星狀細胞瘤與膠質母細胞瘤）本來就是 Temozolomide 的核心適應症，因此機轉上直接適用。多項文獻也顯示，Temozolomide 合併放射治療是新診斷膠質母細胞瘤的標準治療。
+馬尾區域最常見的腫瘤是黏液乳突型室管膜瘤，以及其他神經膠質或神經外胚層來源的腫瘤。這些都是與星狀細胞瘤、神經膠質母細胞瘤相近的中樞神經系統腫瘤，因此透過 DNA 烷化的細胞毒性作用，機轉上有合理的關聯。
 
-換言之，這項預測是對既有用途的驗證，而非跨疾病的藥物再利用發現。
-
----
+不過，本報告沒有此腫瘤類型的 MGMT 或其他生物標記資料。0.993 的 TxGNN 分數是計算模型的預測，不能取代臨床證據。
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT00052455](https://clinicaltrials.gov/study/NCT00052455) | Phase 3 | 完成 | 500 | 比較 Temozolomide 與 PCV 方案用於復發性 WHO III–IV 級星狀細胞腫瘤，與適應症直接相關 |
-| [NCT00960492](https://clinicaltrials.gov/study/NCT00960492) | Phase 1 | 完成 | 26 | XL184 (cabozantinib) 合併 Temozolomide 與放療用於膠質母細胞瘤的劑量探索，僅提供有限的安全性參考 |
-
----
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [15758009](https://pubmed.ncbi.nlm.nih.gov/15758009/) | 2005 | RCT | N Engl J Med | 放療合併同步及輔助 Temozolomide 用於膠質母細胞瘤，確立標準治療 |
-| [29260225](https://pubmed.ncbi.nlm.nih.gov/29260225/) | 2017 | RCT | JAMA | 腫瘤電場治療加維持性 Temozolomide，對照單用 Temozolomide 的存活比較 |
-| [26670971](https://pubmed.ncbi.nlm.nih.gov/26670971/) | 2015 | RCT | JAMA | 維持期腫瘤電場治療加 Temozolomide 與單用 Temozolomide 比較 |
-| [30782343](https://pubmed.ncbi.nlm.nih.gov/30782343/) | 2019 | RCT | Lancet | Lomustine 加 Temozolomide 與標準 Temozolomide 用於 MGMT 甲基化的新診斷膠質母細胞瘤（Phase 3） |
-| [24552317](https://pubmed.ncbi.nlm.nih.gov/24552317/) | 2014 | RCT | N Engl J Med | 在標準 Temozolomide 合併放療基礎上加 Bevacizumab，用於新診斷膠質母細胞瘤 |
-| [22578793](https://pubmed.ncbi.nlm.nih.gov/22578793/) | 2012 | RCT | Lancet Oncol | NOA-08：高齡惡性星狀細胞瘤患者，單用 Temozolomide 對比單用放療（Phase 3） |
-| [39480453](https://pubmed.ncbi.nlm.nih.gov/39480453/) | 2024 | RCT | JAMA Oncol | Temozolomide 加 Veliparib 用於 MGMT 甲基化膠質母細胞瘤 |
-| [19269895](https://pubmed.ncbi.nlm.nih.gov/19269895/) | 2009 | Meta-analysis | Lancet Oncol | EORTC-NCIC 試驗 5 年分析，確認 Temozolomide 合併放療的長期存活益處 |
-| [34898238](https://pubmed.ncbi.nlm.nih.gov/34898238/) | 2022 | Guideline | J Clin Oncol | ASCO-SNO 成人瀰漫性星狀細胞及寡樹突膠質細胞腫瘤治療指引 |
-| [17478095](https://pubmed.ncbi.nlm.nih.gov/17478095/) | 2007 | Review | Crit Rev Oncol Hematol | 成人退行性星狀細胞瘤綜述，指出化療對其預後改善有限 |
+| [29270703](https://pubmed.ncbi.nlm.nih.gov/29270703/) | 2018 | 病例報告 | European Spine Journal | Temozolomide 對一例多次復發、併腦脊髓液播散的脊髓黏液乳突型室管膜瘤顯示明顯療效 |
+| [42760727](https://pubmed.ncbi.nlm.nih.gov/42760727/) | 2026 | 病例報告 | Medicine | 鼻腔 NUT 癌合併放射治療的多模式治療反應；與馬尾腫瘤無直接關聯 |
+| [18706663](https://pubmed.ncbi.nlm.nih.gov/18706663/) | 2009 | 病例報告 | Neuro-Chirurgie | 腦橋神經膠質瘤患兒併發隱球菌性神經腦膜炎；與馬尾腫瘤無直接關聯 |
 
----
+上述文獻皆為單一病例報告，證據力有限。其中 PMID 29270703 討論的是脊髓黏液乳突型室管膜瘤（此類腫瘤好發於終絲／馬尾區），與本預測最為接近，但並非直接針對「馬尾腫瘤」這一疾病的研究，故不足以將證據等級提升。
 
 ## 香港上市資訊
 
+下表列出 5 張主要許可證（共 17 張，皆為有效的單一成分製劑）。資料中未提供核准適應症文字與劑型。
+
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-53861 | TEMODAL CAP 5MG（默沙東） | 膠囊 | 資料未提供 |
-| HK-53858 | TEMODAL CAP 20MG（默沙東） | 膠囊 | 資料未提供 |
-| HK-53859 | TEMODAL CAP 100MG（默沙東） | 膠囊 | 資料未提供 |
-| HK-53860 | TEMODAL CAP 250MG（默沙東） | 膠囊 | 資料未提供 |
-| HK-65593 | TEMOL CAPSULES 100MG（Lotus） | 膠囊 | 資料未提供 |
-
-香港共有 17 張有效的單方許可證，無已註銷者，此處僅列出 5 張主要許可證。
-
----
+| HK-53861 | TEMODAL CAP 5MG | 膠囊 | 未提供 |
+| HK-53858 | TEMODAL CAP 20MG | 膠囊 | 未提供 |
+| HK-53859 | TEMODAL CAP 100MG | 膠囊 | 未提供 |
+| HK-53860 | TEMODAL CAP 250MG | 膠囊 | 未提供 |
+| HK-62467 | TEMOZOLOMIDE CAPSULES 100MG | 膠囊 | 未提供 |
 
 ## 細胞毒性
 
 | 項目 | 內容 |
 |------|------|
 | 細胞毒性分類 | 傳統細胞毒性藥物（烷化劑） |
-| 骨髓抑制風險 | 中至高（知識圖譜列有嗜中性白血球減少、血小板減少、全血球減少、再生不良性貧血等禁忌關聯） |
-| 致吐性分級 | 中度 |
+| 骨髓抑制風險 | 中至高（知識圖譜記錄的禁忌關聯包含嗜中性白血球減少、血小板減少、全血球減少、再生不良性貧血） |
+| 致吐性分級 | 中度（依藥物類別判斷） |
 | 監測項目 | CBC（含分類與血小板）、肝功能 |
 | 處置防護 | 需依細胞毒性藥物處置規範操作 |
 
-更詳細的警語與注意事項請參考原廠仿單。
-
----
+詳細警語請參考原廠仿單。
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌相關疾病**：肝衰竭、血小板低下、嗜中性白血球低下、顆粒球缺乏症、貧血（含大球性貧血）、肺囊蟲病、全血球低下、淋巴球低下、骨髓增生異常症候群、再生不良性貧血。這些來自知識圖譜的關聯，並非仿單原文。
-- **藥物交互作用**：資料庫共記錄 100 筆。已列出者中，Naltrexone 為中度、Levofloxacin 為輕度，其餘（如 Pantoprazole、Omeprazole、Morphine、Metformin、Prednisone 等）嚴重度未知。
+- **知識圖譜記錄的禁忌關聯**（非仿單文字）：肝衰竭、血小板減少、嗜中性白血球減少、顆粒球缺乏症、貧血、巨球性貧血、肺囊蟲病、全血球減少、淋巴球減少、骨髓增生異常症候群、特發性再生不良性貧血、再生不良性貧血。
+- **藥物交互作用**：共查得 100 筆，以下為主要項目。
+  - 中度：Naltrexone
+  - 輕度：Levofloxacin
+  - 等級未明：Pantoprazole、Omeprazole、Lansoprazole、Metformin、Morphine、Prednisone、Hydrocortisone 等
 
-仿單的警語與禁忌症資料尚未取得，請參考原廠仿單。
-
----
+仿單的警語與禁忌資料尚未取得，完整安全性資訊請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-- 有已完成的 Phase 3 RCT（NCT00052455）以及多項高品質 RCT 與臨床指引支持其在成人星狀細胞腫瘤的療效，證據等級為 L1。
-- 此適應症與原核准用途重疊，並非新發現；加上骨髓抑制風險明確，需在監測下使用。
+- 沒有任何直接研究馬尾腫瘤的臨床試驗，文獻僅有 1 篇相近腫瘤（脊髓黏液乳突型室管膜瘤）的單一病例報告，證據等級為 L5，目前屬於研究假說階段。
+- 仿單的安全性資料尚未取得，無法進入安全性篩選。
 
 **若要推進需要：**
-- 取得香港衛生署仿單，確認核准適應症、警語與禁忌症
+- 取得香港衛生署仿單，確認核准適應症、警語與禁忌
 - 補充 DrugBank 的作用機轉資料
-- 建立血液學監測計畫（CBC、肝功能）
-- 若目標是真正的再利用，應轉向評估其他預測適應症，例如馬尾神經腫瘤（目前僅有 1 篇病例報告，屬 L4，為研究性問題，尚無臨床試驗支持）
+- 針對馬尾區腫瘤（如黏液乳突型室管膜瘤）進行系統性文獻回顧，並蒐集 MGMT 甲基化狀態等生物標記資料
+- 評估是否具備設計前瞻性研究或登錄式觀察研究的可行性
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

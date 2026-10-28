@@ -3,18 +3,18 @@ layout: default
 title: Atorvastatin
 parent: 高證據等級 (L1-L2)
 nav_order: 81
-evidence_level: L1
-indication_count: 6
-last_modified_at: 2026-10-14
-description: "Atorvastatin：預測新適應症為家族性高膽固醇血症 (Familial Hypercholesterolemia)（證據等級 L1）。原適應症：高三酸甘油酯血症、高脂蛋白血症、動脈硬化、中風與腦血管疾病、純合子家族性高膽固醇血症等"
+evidence_level: L2
+indication_count: 4
 monitor_inn: "ATORVASTATIN"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-27
+description: "Atorvastatin：預測新適應症為HIV 感染 (HIV infectious disease)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Atorvastatin
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **6** 個
+證據等級: **L2** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,116 +33,98 @@ predicted_indications: ["HIV infectious disease", "brain stem infarction", "chol
 
 </div>
 
-## Atorvastatin：從高脂血症與動脈硬化到家族性高膽固醇血症
+## Atorvastatin：HMG-CoA 還原酶抑制劑（statin 類降血脂藥） → HIV 感染 (HIV infectious disease)
 {: .text-alpha }
 
 ## 一句話總結
 
-Atorvastatin（阿托伐他汀）是一種他汀類降血脂藥，原本用於高三酸甘油酯血症、高脂蛋白血症、動脈硬化與中風相關疾病。
-TxGNN 模型預測它可能對**家族性高膽固醇血症 (Familial Hypercholesterolemia)** 有效，
-目前有 **14 個臨床試驗**和 **20 篇文獻**支持這個方向。
+Atorvastatin 是 statin 類降血脂藥。TxGNN 模型預測它可能對 **HIV 感染 (HIV infectious disease)** 有效。目前資料中有 **14 個臨床試驗**和 **20 篇文獻**與此方向相關，但多數為小型試驗，且 atorvastatin 對 HIV 病毒本身的抗病毒療效尚未確立。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 高三酸甘油酯血症、高脂蛋白血症、動脈硬化、中風與腦血管疾病、純合子家族性高膽固醇血症等（香港許可證資料未載明核准適應症文字） |
-| 預測新適應症 | 家族性高膽固醇血症 (Familial Hypercholesterolemia) |
-| TxGNN 預測分數 | 99.42% |
-| 證據等級 | L1 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 20 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | HIV 感染 (HIV infectious disease) |
+| TxGNN 預測分數 | 0.9931 |
+| 證據等級 | L2 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Proceed with Guardrails |
 
 ## 為什麼這個預測合理？
 
-目前缺乏經核實的詳細作用機轉資料。根據已知資訊，atorvastatin 是 HMG-CoA 還原酶抑制劑，可減少肝臟膽固醇合成、增加肝臟 LDL 受體表現，進而提高 LDL-C 清除。
+目前缺乏詳細的作用機轉資料。Atorvastatin 屬於 statin 類，一般認為透過抑制 HMG-CoA 還原酶來降低 LDL 膽固醇。
 
-純合子家族性高膽固醇血症本來就在其原適應症清單中，而異合子型是機轉相同、關係密切的脂質異常疾病，因此預測在機轉上相當合理。
+在 HIV 患者中，蛋白酶抑制劑（PI）常造成血脂異常，心血管風險也較高。Statin 可降低 LDL-C，處理這類血脂問題。此外，statin 具有多效性的抗發炎作用，可能降低單核球/巨噬細胞活化與免疫活化，對慢性 HIV 發炎可能有益。不過，對 HIV 病毒本身的抗病毒效果並未被證實。
 
-需注意：在純合子型患者中，療效取決於殘存的 LDL 受體活性，常需加上 ezetimibe 或 evinacumab 等輔助治療。
+需特別注意：atorvastatin 經 CYP3A4 代謝，與 PI 及藥物增效劑併用時暴露量會上升，需要限制劑量。
 
 ## 臨床試驗證據
 
-以下列出最相關的 10 個試驗（共 14 個）：
+以下依相關性挑選 10 個試驗（另有數個為藥物動力學交互作用或非 atorvastatin 為主的試驗，未列出）。
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00827606](https://clinicaltrials.gov/study/NCT00827606) | Phase 3 | 完成 | 272 | 3 年開放式研究，評估 atorvastatin 在異合子 FH 兒童與青少年的生長發育、療效與安全性 |
-| [NCT00134485](https://clinicaltrials.gov/study/NCT00134485) | Phase 3 | 完成 | 400 | Torcetrapib/atorvastatin 對比單用 atorvastatin（異合子 FH）；torcetrapib 計畫因安全性問題終止 |
-| [NCT00136981](https://clinicaltrials.gov/study/NCT00136981) | Phase 3 | 完成 | 800 | 以頸動脈超音波評估 torcetrapib/atorvastatin 對比單用 atorvastatin 的抗動脈硬化效果；torcetrapib 計畫已終止 |
-| [NCT00134511](https://clinicaltrials.gov/study/NCT00134511) | Phase 3 | 完成 | 30 | Torcetrapib/atorvastatin 用於純合子 FH 的開放式強制滴定研究 |
-| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | 完成 | 50 | Ezetimibe 10 mg 加在 atorvastatin 或 simvastatin 上，用於純合子 FH |
-| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Phase 3 | 完成 | 44 | 上述研究的 24 個月延伸，評估 ezetimibe 併用 statin 的長期安全性與耐受性 |
-| [NCT01709500](https://clinicaltrials.gov/study/NCT01709500) | Phase 3 | 完成 | 249 | Alirocumab 對比安慰劑，用於脂質治療控制不佳的異合子 FH（atorvastatin 的角色需進一步確認） |
-| [NCT03510884](https://clinicaltrials.gov/study/NCT03510884) | Phase 3 | 完成 | 153 | Alirocumab 用於 8–17 歲異合子 FH，背景為穩定 statin 治療 |
-| [NCT00739999](https://clinicaltrials.gov/study/NCT00739999) | Phase 1 | 完成 | 39 | Atorvastatin 在兒童與青少年異合子 FH 的藥動學、藥效學與安全性 |
-| [NCT01279590](https://clinicaltrials.gov/study/NCT01279590) | Phase 2 | 完成 | 282 | PPD10558 對比 atorvastatin，用於曾因肌痛停用 statin 的原發性高膽固醇血症 |
+| [NCT03037372](https://clinicaltrials.gov/study/NCT03037372) | Phase 3 | 未知 | 320 | 比較 atorvastatin 與 rosuvastatin 作為 ART 輔助治療，對免疫活化、發炎與免疫老化的影響 |
+| [NCT01766076](https://clinicaltrials.gov/study/NCT01766076) | Phase 3 | 完成 | 30 | 隨機試驗，atorvastatin 輔助治療 ART 後 CD4 恢復不佳者的免疫活化 |
+| [NCT00367458](https://clinicaltrials.gov/study/NCT00367458) | Phase 2 | 完成 | 24 | 安慰劑對照，未接受 ART 的 HIV 患者，評估病毒量與免疫活化指標 |
+| [NCT02081638](https://clinicaltrials.gov/study/NCT02081638) | Phase 2 | 完成 | 53 | Statin 對比阿斯匹靈，用於 elite controller 與 ART 治療的 HIV 患者 |
+| [NCT00663234](https://clinicaltrials.gov/study/NCT00663234) | Phase 1/2 | 提前終止 | 28 | HIV 感染兒童與青少年 PI 相關 LDL 升高的安全性與療效 |
+| [NCT01600170](https://clinicaltrials.gov/study/NCT01600170) | Phase 4 | 完成 | 11 | Statin 調節單核球/巨噬細胞活化，用於 HIV 相關神經認知障礙 |
+| [NCT00965185](https://clinicaltrials.gov/study/NCT00965185) | NA | 完成 | 40 | Statin 改善 HIV 患者的斑塊發炎與動脈粥狀硬化 |
+| [NCT01263938](https://clinicaltrials.gov/study/NCT01263938) | Phase 4 | 完成 | 5 | 先導研究，atorvastatin 對單核球活化的影響，樣本過小 |
+| [NCT00355251](https://clinicaltrials.gov/study/NCT00355251) | Phase 4 | 提前終止 | 5 | 抗病毒治療中斷前使用 atorvastatin 對病毒複製的影響，樣本過小 |
+| [NCT00017758](https://clinicaltrials.gov/study/NCT00017758) | Phase 1 | 完成 | 56 | Efavirenz 與 nelfinavir 對 statin 藥物動力學的影響（僅交互作用資料） |
 
 ## 文獻證據
 
-以下列出最相關的 10 篇（共 20 篇）：
-
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [25760954](https://pubmed.ncbi.nlm.nih.gov/25760954/) | 2015 | 系統性回顧 (Cochrane) | Cochrane Database Syst Rev | 評估 atorvastatin 的劑量相關降脂效果 |
-| [27678432](https://pubmed.ncbi.nlm.nih.gov/27678432/) | 2016 | 臨床研究 | J Clin Lipidol | 3 年研究，atorvastatin 用於兒童與青少年異合子 FH |
-| [27417002](https://pubmed.ncbi.nlm.nih.gov/27417002/) | 2016 | 研究 | J Am Coll Cardiol | 探討 statin 對異合子 FH 患者冠心病與全因死亡率的影響 |
-| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | 比較研究 | Nutr Metab Cardiovasc Dis | 比較 atorvastatin 與 simvastatin 治療異合子 FH 的降 LDL-C 效果 |
-| [9301631](https://pubmed.ncbi.nlm.nih.gov/9301631/) | 1997 | 開放式研究 | Arterioscler Thromb Vasc Biol | Atorvastatin 在 FH 患者中為有效的降脂藥 |
-| [12883464](https://pubmed.ncbi.nlm.nih.gov/12883464/) | 2003 | 臨床研究 | Med Sci Monit | Atorvastatin 可降低 FH 患者的微量白蛋白尿 |
-| [9793596](https://pubmed.ncbi.nlm.nih.gov/9793596/) | 1998 | Review | Ann Pharmacother | 回顧 atorvastatin 治療血脂異常的療效與安全性 |
-| [15199433](https://pubmed.ncbi.nlm.nih.gov/15199433/) | 2004 | Review | Semin Vasc Med | 兒童 FH 的診斷、臨床與治療面向 |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | 指引 | Endocr Pract | AACE/ACE 血脂異常處置與心血管疾病預防指引 |
-| [40254247](https://pubmed.ncbi.nlm.nih.gov/40254247/) | 2025 | 細胞研究 | Toxicology | 親脂性與親水性 statin 對 FH 患者 iPSC 骨骼肌細胞肌毒性的差異 |
+| [37450602](https://pubmed.ncbi.nlm.nih.gov/37450602/) | 2023 | RCT | AIDS | 開放標籤隨機試驗，比較 atorvastatin 與阿斯匹靈用於 elite controller 及 ART 治療者 |
+| [18991624](https://pubmed.ncbi.nlm.nih.gov/18991624/) | 2008 | 隨機試驗 | Current HIV Research | 比較 rosuvastatin、pravastatin、atorvastatin 治療 PI 相關高膽固醇血症 |
+| [26851703](https://pubmed.ncbi.nlm.nih.gov/26851703/) | 2016 | 統合分析 | European Heart Journal | 18 項研究、736 位 HIV 陽性患者，比較各 statin 於一級預防的安全性與療效 |
+| [25907504](https://pubmed.ncbi.nlm.nih.gov/25907504/) | 2015 | 系統性回顧 | American Journal of Cardiology | 回顧 statin 用於 HIV 感染者的效益 |
+| [29770749](https://pubmed.ncbi.nlm.nih.gov/29770749/) | 2018 | 世代研究 | HIV Clinical Trials | Rosuvastatin 與 atorvastatin 在 HIV 合併慢性腎病與高血脂患者中保留腎功能 |
+| [29804227](https://pubmed.ncbi.nlm.nih.gov/29804227/) | 2018 | 回顧 | Current Infectious Disease Reports | 整理 statin 在 HIV 感染族群的效益與風險 |
+| [26658651](https://pubmed.ncbi.nlm.nih.gov/26658651/) | 2016 | 回顧 | Current Opinion in Infectious Diseases | 評估 statin 降低 HIV 患者心血管風險的證據 |
+| [28364370](https://pubmed.ncbi.nlm.nih.gov/28364370/) | 2017 | 回顧 | American Journal of Cardiovascular Drugs | statin 與 HIV 藥物交互作用的管理建議 |
+| [23703578](https://pubmed.ncbi.nlm.nih.gov/23703578/) | 2013 | 回顧 | Clinical Pharmacokinetics | Statin 與抗病毒蛋白酶抑制劑的交互作用 |
+| [41774493](https://pubmed.ncbi.nlm.nih.gov/41774493/) | 2026 | 前臨床 | JCI Insight | 小鼠模型中，atorvastatin 透過阻斷血小板 TGF-β1 訊號，抑制 HIV/抗病毒藥物引起的心臟纖維化 |
 
 ## 香港上市資訊
 
-香港共有 20 張有效單方許可證，以下列出 5 張主要許可證（資料中未載明劑型與核准適應症）：
+香港共有至少 20 張有效的單一成分許可證（資料可能不完整），以下列出 5 張：
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-42328 | LIPITOR TAB 10MG（Viatris） | — | — |
-| HK-42330 | LIPITOR TAB 40MG（Viatris） | — | — |
-| HK-57245 | LIPIGET TAB 10MG（Chariot Pharma） | — | — |
-| HK-66499 | ATORVASTATIN TEVA TABLETS 20MG（Teva） | — | — |
-| HK-61274 | APO-ATORVASTATIN TAB 20MG（Hind Wing） | — | — |
+| HK-57246 | LIPIGET TAB 20MG | — | 資料中未記載 |
+| HK-66318 | ATORVASTATIN TABLETS 20MG | — | 資料中未記載 |
+| HK-60719 | ATOTY FC TAB 10MG | — | 資料中未記載 |
+| HK-67373 | CHLOVAS-20 TABLETS 20MG | — | 資料中未記載 |
+| HK-42330 | LIPITOR TAB 40MG | — | 資料中未記載 |
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌相關疾病**：肝衰竭、肝病、腎臟疾病、膽囊疾病、甲狀腺功能低下（含黏液水腫、先天性甲狀腺功能低下）、肌病與骨骼肌疾病、橫紋肌溶解症、家族性週期性麻痺、低血壓、物質濫用/依賴等。此為知識圖譜的關聯資料，並非仿單原文。
-- **藥物交互作用**：共查得 100 筆，主要包括：
-  - **重大 (Major)**：Clarithromycin
-  - **中度 (Moderate)**：Aprepitant、Omeprazole、Cimetidine、Clotrimazole、Dexamethasone、Metronidazole、Miconazole、Rosuvastatin、Simvastatin 等
-  - 與其他 statin 併用需特別留意肌肉毒性風險；與 CYP3A4 抑制劑併用會提高 atorvastatin 暴露量。
-
-其餘警語與禁忌請參考原廠仿單。
+- **藥物交互作用**：共查得 100 筆交互作用，主要包括：
+  - 重大：Clarithromycin
+  - 中度：Aprepitant、Omeprazole、Cimetidine、Clotrimazole、Dexamethasone、Eliglustat、Metronidazole、Miconazole、Rosuvastatin、Simvastatin 等
+- **HIV 治療相關**：atorvastatin 經 CYP3A4 代謝，與蛋白酶抑制劑及增效劑併用會升高 atorvastatin 暴露量，需依規範限制劑量。
+- 其他警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 家族性高膽固醇血症有多個已完成的 Phase 3 試驗（含兒童長期研究 NCT00827606 及與 atorvastatin 對照的 NCT00134485），機轉明確，且純合子型已屬原適應症。
-- 但多數試驗以併用藥（torcetrapib、ezetimibe、alirocumab）為主，且 torcetrapib 計畫已因安全性問題終止，atorvastatin 單獨的證據需另行確認。
+- 已有 1 個完成的 Phase 3 隨機試驗（NCT01766076，n=30）與數個 Phase 2 試驗，但規模小，且主要針對免疫活化與血脂，而非病毒本身；較大型的 Phase 3（NCT03037372）狀態未知。
+- 與 PI 的 CYP3A4 交互作用需嚴格控管。
 
 **若要推進需要：**
-- 取得香港衛生署核准的仿單，確認適應症、警語與禁忌
-- 補充作用機轉資料（DrugBank）
-- 逐一核實各試驗中 atorvastatin 的實際角色與對照組設計
-- 針對純合子型患者與兒童族群，制定併用藥與肌肉、肝功能的安全監測計畫
-
----
-
-**其他預測適應症簡述**（僅供參考）：
-
-| 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
-|-----------|-----------|---------|------|
-| HIV 感染 | 99.31% | L2 | 研究性問題：有多項小型試驗，針對免疫活化與 PI 相關血脂異常，抗病毒效果尚未確立；與蛋白酶抑制劑有 CYP3A4 交互作用 |
-| 腦幹梗塞 | 99.31% | L4 | Hold：僅有前臨床證據，無腦幹特異性臨床資料 |
-| CETP 缺乏症 | 99.25% | L4 | Hold：文獻多為 CETP 抑制劑，關聯間接 |
-| 膽固醇 7α-羥化酶缺乏所致高膽固醇血症 | 99.20% | L4 | Hold：此類患者對 statin 反應不佳，理由薄弱 |
-| 伴共濟失調步態、無語言及皮質白質減少的神經發育障礙 | 99.13% | L5 | Hold：無任何支持證據 |
+- 取得較大型、完成且有明確 HIV 相關終點（免疫活化、心血管事件）的隨機試驗結果
+- 確認 NCT03037372 的實際進展與結果
+- 補齊作用機轉資料與原廠仿單的警語及禁忌症
+- 建立與 PI 及增效劑併用時的劑量上限與監測計畫
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sulbactam
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 837
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Sulbactam：預測新適應症為細菌性關節炎 (Bacterial Arthritis)（證據等級 L3）。原適應症：膽管炎、金黃色葡萄球菌感染、大腸桿菌感染等"
 monitor_inn: "SULBACTAM"
 predicted_indications: ["bacterial arthritis"]
+description: "Sulbactam：預測新適應症為細菌性關節炎 (bacterial arthritis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Sulbactam
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["bacterial arthritis"]
 
 </div>
 
-## Sulbactam：從膽管炎與葡萄球菌感染到細菌性關節炎
+## Sulbactam: 細菌性關節炎 (bacterial arthritis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 膽管炎、金黃色葡萄球菌感染、大腸桿菌感染等（香港許可證未載明核准適應症文字，此處依知識圖譜資料） |
-| 預測新適應症 | 細菌性關節炎 (Bacterial Arthritis) |
-| TxGNN 預測分數 | 99.79% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 8 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 細菌性關節炎 (bacterial arthritis) |
+| TxGNN 預測分數 | 0.9979 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
+| 許可證數 | 8 張（有效 8 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---
@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有�
 
 目前缺乏經整理的詳細作用機轉資料。根據藥物類別推論，Sulbactam 是不可逆的 β-內醯胺酶抑制劑，本身也能透過結合青黴素結合蛋白（PBP）對不動桿菌屬 (Acinetobacter) 具有內在活性。與 ampicillin 合併使用時，可擴大對產 β-內醯胺酶的金黃色葡萄球菌、厭氧菌及革蘭氏陰性菌的涵蓋範圍。
 
-細菌性（化膿性）關節炎的常見致病菌包括金黃色葡萄球菌等，與 Sulbactam 原有的抗感染適應症（金黃色葡萄球菌與大腸桿菌感染）高度重疊。這也解釋了為何模型給出很高的預測分數：新適應症與既有抗感染適應症在知識圖譜中非常接近。
+細菌性（化膿性）關節炎的常見致病菌包括金黃色葡萄球菌等，與 Sulbactam 原有的抗感染適應症（金黃色葡萄球菌與大腸桿菌感染）高度重疊。這個很高的預測分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。
 
 需注意，此關聯是由類別藥理推論而來，而非有明確整理的機轉資料；且高分主要反映與既有適應症的相近性，不等同於已有直接的療效證據。
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Alprazolam
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 42
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
-description: "Alprazolam：預測新適應症為失眠 (Insomnia)（證據等級 L4）。原適應症：焦慮症、混合性焦慮憂鬱症"
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]
+last_modified_at: 2026-10-27
+description: "Alprazolam：預測新適應症為失眠 (insomnia (disease))（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Alprazolam
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,112 +33,84 @@ predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of 
 
 </div>
 
-## Alprazolam：從焦慮症到失眠
+## Alprazolam：苯二氮平類 GABA-A 受體調節劑 → 失眠 (insomnia (disease))
 {: .text-alpha }
 
 ## 一句話總結
 
-Alprazolam 是一種苯二氮平類（benzodiazepine）藥物，原本用於治療焦慮症及混合性焦慮憂鬱症。
-TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，但目前**沒有臨床試驗登記**，只有 **17 篇文獻**，且多為間接證據，沒有直接比較 alprazolam 與對照組治療失眠的對照試驗。
-
----
+Alprazolam 是苯二氮平類（benzodiazepine）藥物，在香港已有多張單方許可證上市。
+TxGNN 模型預測它可能對**失眠 (insomnia (disease))** 有效，
+但目前**沒有臨床試驗**登記，檢索到的文獻也多為間接證據，尚無直接以 alprazolam 治療失眠的對照試驗。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 焦慮症、混合性焦慮憂鬱症（核准適應症文字缺漏，此為知識圖譜所列） |
-| 預測新適應症 | 失眠 (Insomnia) |
-| TxGNN 預測分數 | 99.81% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 14 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 失眠 (insomnia (disease)) |
+| TxGNN 預測分數 | 0.9981 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 14 張／共 14 張） |
+| 許可證數 | 14 張（有效 14 張） |
 | 建議決策 | Hold |
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據藥物類別推論，alprazolam 是苯二氮平類藥物，可增強 GABA-A 受體的訊號傳遞，產生鎮靜與抗焦慮效果。
+目前缺乏詳細的作用機轉資料。根據藥物類別推論，alprazolam 屬於苯二氮平類，會增強 GABA-A 受體訊號，產生鎮靜與抗焦慮作用。這與失眠，尤其是合併焦慮的失眠，在機轉上有合理的連結。
 
-焦慮與失眠常同時出現，焦慮引起的過度警覺是失眠的常見成因，因此機轉上有合理的連結，尤其適用於合併焦慮的失眠。
+不過這個連結是由藥物類別推論而來，並非來自已驗證的機轉資料。檢索到的文獻多為恐慌症回顧、苯二氮平使用量與經濟負擔、藥物動力學，以及 zolpidem 的減量研究，沒有任何一篇是針對 alprazolam 治療失眠的對照試驗。因此，0.9981 的分數僅代表模型的計算結果，不能視為療效證據。
 
-不過，這個連結是從藥物類別推論而來，並非由直接資料證實。檢索到的文獻大多是間接證據，例如恐慌症回顧、苯二氮平使用趨勢與經濟負擔、藥物動力學，以及針對 zolpidem（非 alprazolam）的研究。高預測分數僅代表運算模型的結果。
-
----
+另一方面，苯二氮平類的已知風險（依賴性、跌倒、認知受損）以及 100 筆已記錄的藥物交互作用，都是在沒有直接證據下不宜貿然推進的理由。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
-下列為與失眠方向最相關的文獻，皆屬間接證據：
+下列文獻與失眠的關聯多屬間接，並非直接研究 alprazolam 治療失眠的療效。
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [39183410](https://pubmed.ncbi.nlm.nih.gov/39183410/) | 2024 | 回溯性觀察研究 | Medicine | 116 位冠心病合併失眠患者，對照組使用 alprazolam，實驗組為督脈灸合併耳針；評估心功能與神經傳導物質，非 alprazolam 單獨療效研究 |
-| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | 統合分析（觀察性） | Acta Pharm | 評估老年慢性病患者使用鎮靜藥物的劑量、結果與不良反應 |
-| [38363887](https://pubmed.ncbi.nlm.nih.gov/38363887/) | 2024 | 橫斷面研究 | Medicine | COVID-19 康復者失眠盛行率與影響因素，未涉及 alprazolam 療效 |
-| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | Review | Expert Opin Drug Metab Toxicol | 抗焦慮藥物的藥物動力學 |
-| [7484706](https://pubmed.ncbi.nlm.nih.gov/7484706/) | 1995 | Review | Am Fam Physician | 恐慌症臨床表現與處置 |
-| [40775197](https://pubmed.ncbi.nlm.nih.gov/40775197/) | 2025 | Review | CNS Drugs | 肺部給藥於中樞神經疾病急性發作的機會與挑戰 |
-| [37984023](https://pubmed.ncbi.nlm.nih.gov/37984023/) | 2024 | 預測／經濟模型 | Value Health Reg Issues | 苯二氮平類使用趨勢與經濟負擔；長期使用與記憶減退、依賴、跌倒風險相關 |
-| [35493764](https://pubmed.ncbi.nlm.nih.gov/35493764/) | 2022 | 世代研究 | JHEP Reports | 肝硬化患者停用 zolpidem 可減少跌倒與骨折（藥物非 alprazolam） |
-| [37801512](https://pubmed.ncbi.nlm.nih.gov/37801512/) | 2023 | 動物研究 | Aging | 小鼠重複給予 alprazolam 造成粒線體功能異常，削弱海馬依賴的記憶鞏固 |
-| [15341891](https://pubmed.ncbi.nlm.nih.gov/15341891/) | 2004 | 處方型態研究 | Sleep Med | 大型管理式照護人群的助眠處方特徵 |
-
----
+| [39183410](https://pubmed.ncbi.nlm.nih.gov/39183410/) | 2024 | 回溯性臨床研究 | Medicine | 督脈灸合併耳針與 alprazolam，用於冠心病合併失眠患者（116 人），觀察心功能與神經傳導物質變化；alprazolam 為對照組用藥，屬複合療法研究 |
+| [38363887](https://pubmed.ncbi.nlm.nih.gov/38363887/) | 2024 | 橫斷面研究 | Medicine | 調查 COVID-19 康復者的失眠情形與影響因素，與 alprazolam 無直接關聯 |
+| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | 統合分析 | Acta Pharm | 評估鎮靜劑用於老年慢性病患者的劑量、療效與不良反應 |
+| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | 回顧 | Expert Opin Drug Metab Toxicol | 抗焦慮藥物的藥物動力學回顧 |
+| [37984023](https://pubmed.ncbi.nlm.nih.gov/37984023/) | 2024 | 預測／經濟模型 | Value Health Reg Issues | 克羅埃西亞苯二氮平使用趨勢與經濟負擔；長期使用與記憶減退、依賴、跌倒相關 |
+| [37801512](https://pubmed.ncbi.nlm.nih.gov/37801512/) | 2023 | 動物研究 | Aging | 小鼠反覆給予 alprazolam 造成粒線體功能失調及海馬依賴性記憶鞏固減弱 |
+| [15341891](https://pubmed.ncbi.nlm.nih.gov/15341891/) | 2004 | 處方模式研究 | Sleep Med | 分析大型管理式醫療人群中失眠的處方特徵 |
 
 ## 香港上市資訊
 
+香港共有 14 張單方許可證，皆為有效狀態，主要品牌包括 XANAX、ALPRAX、ZOLARAM 等。以下列出 5 張主要許可證，其餘未列出。
+
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-17668 | XANAX TAB 0.5MG | 錠劑 | 資料未提供 |
-| HK-17669 | XANAX TAB 0.25MG | 錠劑 | 資料未提供 |
-| HK-51646 | ALPRAX 0.25 TAB 0.25MG | 錠劑 | 資料未提供 |
-| HK-51647 | ALPRAX 0.5 TAB 0.5MG | 錠劑 | 資料未提供 |
-| HK-55270 | ZOLARAM 1.0 TAB 1MG | 錠劑 | 資料未提供 |
-
-（共 14 張有效許可證，均為單方製劑，無已註銷者；此處僅列 5 張。）
-
----
+| HK-17668 | XANAX TAB 0.5MG | 錠劑 | 本地資料未記載 |
+| HK-17669 | XANAX TAB 0.25MG | 錠劑 | 本地資料未記載 |
+| HK-51647 | ALPRAX 0.5 TAB 0.5MG | 錠劑 | 本地資料未記載 |
+| HK-55271 | ZOLARAM 0.5 TAB 0.5MG | 錠劑 | 本地資料未記載 |
+| HK-56775 | VICK-ALPRAZOLAM TAB 0.5MG | 錠劑 | 本地資料未記載 |
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌疾病（非仿單原文）**：腎臟疾病、肝臟疾病、膽囊疾病、開角型／閉角型青光眼、肥胖、阻塞性睡眠呼吸中止症及其他睡眠呼吸中止症候群、先天性中樞低通氣症候群、物質相關疾患／物質濫用或依賴。
-- **藥物交互作用**：共記錄 100 筆。
-  - **嚴重 (Major)**：Morphine（含脂質體型），與鴉片類併用有中樞神經與呼吸抑制風險。
-  - **中度 (Moderate)**：Aprepitant、Bupropion、Cimetidine、Clarithromycin、Clotrimazole、Dronabinol、Eliglustat、Metoclopramide、Miconazole 等。
-  - **輕微 (Minor)**：多種制酸劑（氫氧化鋁、碳酸鈣、鎂鹽類）及皮質類固醇（Betamethasone、Dexamethasone）。
-- **文獻提示的風險**：長期使用與依賴、跌倒、認知與記憶受損相關；阻塞性睡眠呼吸中止症被列為禁忌，與失眠族群高度重疊，須特別留意。
+- **藥物交互作用**：共記錄 100 筆交互作用，其中最嚴重的為 Major 等級，包括與 Morphine 及 Morphine (liposomal) 併用（中樞神經與呼吸抑制風險）。Moderate 等級的包括 Aprepitant、Bupropion、Cimetidine、Clarithromycin、Clotrimazole、Dronabinol、Metoclopramide、Miconazole 等。抗酸劑（如氫氧化鋁、碳酸鈣、氧化鎂）及部分類固醇（如 Betamethasone、Dexamethasone）為 Minor 等級。
 
-仿單的警語與禁忌資料尚未取得，請參考原廠仿單。
-
----
+其他警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 失眠方向沒有臨床試驗，文獻也沒有直接的 alprazolam 治療失眠對照研究，證據僅達 L4。
-- 苯二氮平類有依賴、跌倒、認知損害與大量藥物交互作用的風險，在缺乏直接證據下不建議推進。
+- 目前沒有任何直接研究 alprazolam 治療失眠的臨床試驗或文獻，證據僅停留在模型預測與藥物類別推論（L5）。
+- 苯二氮平類的依賴、跌倒、認知受損風險，以及大量的藥物交互作用，使得在缺乏直接證據下不宜推進。
 
 **若要推進需要：**
-- 取得香港衛生署核准仿單，確認警語、禁忌與核准適應症（目前許可證資料中適應症為空白）。
-- 補充作用機轉資料（MOA）。
-- 系統性檢索 alprazolam 治療失眠的 RCT，並與現有助眠藥物比較。
-- 建立針對合併焦慮的失眠族群、含睡眠呼吸中止症篩檢的安全性評估與依賴風險管理計畫。
-
----
-
-### 附註：其他預測適應症
-
-- **陣發性斜頸（嬰兒良性）**（TxGNN 99.61%，L5，Hold）：沒有臨床試驗與文獻，無機轉依據，且為罕見兒科疾病，嬰兒使用苯二氮平有額外安全疑慮，不建議追蹤。
-- **懼曠症 (Agoraphobia)**（TxGNN 99.56%，L3，研究性問題）：有多項 1985–1994 年的 alprazolam 治療恐慌症合併懼曠症的對照研究（如多中心試驗），以及 2023 年 Cochrane 網絡統合分析。但 alprazolam 已核准用於恐慌症，此預測與既有用途大幅重疊，並非新穎的藥物再利用；長期依賴與停藥困難也限制推薦強度。
+- 直接比較 alprazolam 與安慰劑或現行失眠標準治療的對照試驗（RCT）
+- 取得完整的作用機轉資料與原廠仿單中的警語、禁忌症
+- 針對老年人、肝腎功能不全者及併用鴉片類藥物者制定安全性監測計畫
+- 釐清相對於現有失眠藥物，alprazolam 的使用定位與風險效益
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

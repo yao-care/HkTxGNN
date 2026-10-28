@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Griseofulvin：預測新適應症為蠅蛆症 (Myiasis)（證據等級 L5）。原適應症：足癬、體癬、甲癬、癬類感染、鼠蹊與肛周皮癬菌病、鬚癬、頭皮或鬚部皮癬菌病"
 monitor_inn: "GRISEOFULVIN"
-predicted_indications: ["myiasis", "furuncular myiasis", "wound myiasis", "creeping myiasis", "echinococcus granulosus infectious disease"]
+predicted_indications: ["myiasis", "wound myiasis", "furuncular myiasis", "creeping myiasis", "echinococcus granulosus infectious disease"]
 ---
 
 # Griseofulvin
@@ -49,13 +49,13 @@ TxGNN 模型預測它可能對**蠅蛆症 (Myiasis)** 有效，但目前**沒有
 |------|------|
 | 原適應症 | 足癬、體癬、甲癬、癬類感染、鼠蹊與肛周皮癬菌病、鬚癬、頭皮或鬚部皮癬菌病 |
 | 預測新適應症 | 蠅蛆症 (Myiasis) |
-| TxGNN 預測分數 | 99.41% |
+| TxGNN 預測分數 | 0.9941 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 9 張 |
+| 香港上市 | 上市中（有效許可證 9 張／共 9 張） |
+| 許可證數 | 9 張（有效 9 張） |
 | 建議決策 | Hold |
 
-註：香港許可證資料中未提供核准適應症文字，上列原適應症取自 TxGNN 知識圖譜的適應症資料。
+註：香港許可證資料中未提供核准適應症文字。
 
 ---
 
@@ -63,13 +63,13 @@ TxGNN 模型預測它可能對**蠅蛆症 (Myiasis)** 有效，但目前**沒有
 
 目前缺乏詳細的作用機轉資料。一般已知 Griseofulvin 是抗黴菌藥物，會結合微管蛋白 (tubulin)，干擾黴菌的微管功能與有絲分裂。
 
-蠅蛆症是雙翅目蒼蠅幼蟲造成的寄生蟲感染，與皮膚癬菌病的病原體完全不同。目前**沒有已知的機轉依據**，可說明靠微管蛋白為標的的作用能在臨床可達劑量下影響幼蟲發育。0.994 的高分僅是計算模型的預測，可能反映的是知識圖譜中與其他抗寄生蟲藥物的網路相近性。
+蠅蛆症是雙翅目蒼蠅幼蟲造成的寄生蟲感染，與皮膚癬菌病的病原體完全不同。目前**沒有已知的機轉依據**，可說明靠微管蛋白為標的的作用能在臨床可達劑量下影響幼蟲發育。0.9941 的高分僅是 TxGNN 模型（深度學習）的預測分數，可能反映模型從相關疾病之間學到的相似性，並非生物學證據。
 
 另外，蠅蛆症的標準治療（移除幼蟲、ivermectin）本來就有效，未滿足的醫療需求低。
 
-同樣被預測的還有其他蠅蛆症亞型：癤性蠅蛆症 (furuncular myiasis)、傷口蠅蛆症 (wound myiasis)、遊走性蠅蛆症 (creeping myiasis)，三者分數皆為 99.34%，且完全相同。這顯示預測很可能是從上層疾病節點傳遞而來，並非各自獨立的證據。
+同樣被預測的還有其他蠅蛆症亞型：癤性蠅蛆症 (furuncular myiasis)、傷口蠅蛆症 (wound myiasis)、遊走性蠅蛆症 (creeping myiasis)，三者分數皆為 0.9934，且完全相同。這顯示預測很可能是從上層疾病節點傳遞而來，並非各自獨立的證據。
 
-排名第 5 的**細粒棘球絨蟲感染 (Echinococcus granulosus，分數 99.32%)** 有一點概念上的類比：治療該病的 benzimidazole 類藥物（albendazole、mebendazole）同樣作用於微管蛋白。但 Griseofulvin 並無證據顯示能結合該寄生蟲的 β-tubulin，同樣沒有前臨床資料，因此仍屬推測。
+排名第 5 的**細粒棘球絨蟲感染 (Echinococcus granulosus，分數 0.9932)** 有一點概念上的類比：治療該病的 benzimidazole 類藥物（albendazole、mebendazole）同樣作用於微管蛋白。但 Griseofulvin 並無證據顯示能結合該寄生蟲的 β-tubulin，同樣沒有前臨床資料，因此仍屬推測。
 
 ---
 

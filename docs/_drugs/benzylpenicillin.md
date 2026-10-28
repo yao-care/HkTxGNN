@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 112
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
-description: "Benzylpenicillin：預測新適應症為冠周炎 (Pericoronitis)（證據等級 L5）。原適應症：鏈球菌感染、腦膜炎球菌感染、肺炎鏈球菌腦膜炎、炭疽、心內膜炎、金黃色葡萄球菌感染等"
 monitor_inn: "BENZYLPENICILLIN"
-predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "ulcerative stomatitis", "denture stomatitis", "chemotherapy-induced oral mucositis", "leukoplakia of gingiva"]
+predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "ulcerative stomatitis", "chemotherapy-induced oral mucositis", "denture stomatitis", "leukoplakia of gingiva"]
+last_modified_at: 2026-10-27
+description: "Benzylpenicillin：預測新適應症為智齒冠周炎 (pericoronitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Benzylpenicillin
@@ -33,86 +33,72 @@ predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "u
 
 </div>
 
-## Benzylpenicillin：從鏈球菌感染等細菌性感染到牙周炎（Pericoronitis）
+## Benzylpenicillin：青黴素類抗生素（抑制細菌細胞壁合成）→ 智齒冠周炎 (pericoronitis)
 {: .text-alpha }
 
 ## 一句話總結
 
-Benzylpenicillin（青黴素 G）是經典的注射用 β-內醯胺類抗生素，原本用於鏈球菌感染、腦膜炎、心內膜炎、炭疽等多種細菌性感染。
-TxGNN 模型預測它可能對**冠周炎 (Pericoronitis)** 有效，但目前**沒有任何臨床試驗或文獻**支持，僅屬模型預測的研究假說。
-
----
+Benzylpenicillin（青黴素 G）是青黴素類抗生素，香港已有注射劑型上市。
+TxGNN 模型預測它可能對**智齒冠周炎 (pericoronitis)** 有效，但目前**沒有臨床試驗和文獻**直接支持，僅屬模型預測階段。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 鏈球菌感染、腦膜炎球菌感染、肺炎鏈球菌腦膜炎、炭疽、心內膜炎、金黃色葡萄球菌感染等（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 冠周炎 (Pericoronitis) |
-| TxGNN 預測分數 | 99.36% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 智齒冠周炎 (pericoronitis) |
+| TxGNN 預測分數 | 0.9936 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
-| 建議決策 | Hold（僅列為研究問題） |
-
----
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Benzylpenicillin 屬於青黴素類抗生素，一般認為其作用是抑制細菌細胞壁合成而產生殺菌效果，對鏈球菌等敏感菌有效。
+目前缺乏詳細的作用機轉資料。就藥物類別而言，Benzylpenicillin 屬青黴素類抗生素，一般認為透過抑制細菌細胞壁合成而發揮殺菌作用。
 
-冠周炎是由鏈球菌與厭氧菌等引起的多菌種牙源性感染，這些菌多半對青黴素敏感，因此在機轉上有合理性。不過，牙源性感染通常使用口服青黴素（如 penicillin V、amoxicillin），注射型 benzylpenicillin 主要可能用於嚴重病例。
+智齒冠周炎是由鏈球菌與厭氧菌等多種細菌引起的牙源性感染，這些菌種多半對青黴素敏感，因此在機轉上有合理的推測空間。
 
-需要注意的是，TxGNN 分數僅為模型預測，並無實際研究佐證。同一份預測清單中的其他口腔疾病（如牙齦萎縮、口瘡、白斑）與抗菌機轉關聯薄弱，顯示高分可能部分反映知識圖譜中與口腔疾病節點的鄰近性，而非真實療效。
-
----
+不過，此預測目前僅來自模型分數，沒有任何試驗或文獻佐證。牙源性感染通常使用口服青黴素（如 penicillin V、amoxicillin），注射型 Benzylpenicillin 可能只在較嚴重的情況下才有意義。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
 目前無相關文獻。
-
----
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-43500 | PAN-PENICILLIN G SOD FOR INJ 1M IU | 注射劑 | 未提供 |
-| HK-60173 | NORAPENY FOR IM/IV INJ 1000000IU | 注射劑（肌肉／靜脈） | 未提供 |
-| HK-68195 | PENICILLIN G SODIUM SANDOZ POWDER FOR SOLUTION FOR INJECTION/INFUSION 1000000IU | 注射／輸注用粉末 | 未提供 |
-
----
+| HK-43500 | PAN-PENICILLIN G SOD FOR INJ 1M IU | 注射劑 | 本地資料未記錄 |
+| HK-60173 | NORAPENY FOR IM/IV INJ 1000000IU | 注射劑 | 本地資料未記錄 |
+| HK-68195 | PENICILLIN G SODIUM SANDOZ POWDER FOR SOLUTION FOR INJECTION/INFUSION 1000000IU | 注射劑 | 本地資料未記錄 |
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌相關疾病**（非仿單文字，僅供參考）：腎臟疾病、輸尿管積膿、困難梭狀芽孢桿菌結腸炎、新生兒壞死性腸炎、傳染性單核球增多症、慢性 Epstein-Barr 病毒感染症候群。
-- **藥物交互作用**：共查得 21 項，主要如下：
-  - **重大 (Major)**：Methotrexate（可能降低其排除而增加毒性，應謹慎）
-  - **中度 (Moderate)**：Doxycycline、Minocycline、Tetracycline、Oxytetracycline、Demeclocycline（四環素類）、Chloramphenicol、Warfarin、Dicoumarol、Ethinylestradiol、Mycophenolic acid、Picosulfuric acid、Iodide I-123、Iodide I-131
-  - 另有輕度（Clarithromycin、Erythromycin）及等級未明（Salbutamol、Acyclovir、Gentamicin、Levothyroxine）的交互作用。
+- **藥物交互作用**：已查得 21 筆交互作用紀錄，其中較重要者：
+  - **Methotrexate**：嚴重（Major）等級，合併使用需特別謹慎。
+  - 中度（Moderate）：Warfarin、Dicoumarol、Doxycycline、Minocycline、Tetracycline、Chloramphenicol、Ethinylestradiol、Mycophenolic acid 等。
+  - 輕度（Minor）：Clarithromycin、Erythromycin。
 
-主要警語與正式禁忌症請參考原廠仿單。
-
----
+其他警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 冠周炎的預測僅有模型分數，無任何臨床試驗或文獻佐證（L5）。雖然抗菌機轉在牙源性感染上有合理性，但臨床上已有口服青黴素等標準選擇，注射型的新增價值有限。
+- 此預測只有模型分數，沒有直接研究智齒冠周炎的臨床試驗或文獻，證據等級為 L5。
+- 牙源性感染已有常規口服抗生素可用，注射型 Benzylpenicillin 的新增價值尚不明確。
 
 **若要推進需要：**
-- 補充作用機轉資料（MOA）及香港許可證的核准適應症與仿單警語、禁忌症
-- 系統性檢索冠周炎抗生素治療的臨床試驗與文獻，並與現行標準療法（口服青黴素、amoxicillin 等）比較
-- 釐清注射給藥是否適用於重症冠周炎的情境（給藥途徑相容性評估）
-- 完成安全性篩選，特別是與 methotrexate 等藥物的交互作用，以及腎功能不全患者的使用考量
+- 搜尋並確認 Benzylpenicillin 用於冠周炎的臨床研究或文獻
+- 補充詳細作用機轉資料
+- 取得香港仿單的警語與禁忌症
+- 釐清注射途徑對冠周炎的適用情境，並與現有口服標準治療比較
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

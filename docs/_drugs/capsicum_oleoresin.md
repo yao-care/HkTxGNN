@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Capsicum Oleoresin
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 155
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Capsicum Oleoresin：預測新適應症為周邊運動神經病變-自主神經功能異常症候群 (peripheral motor neuropathy-dysautonomia syndro…（證據等級 L5）。原適應症：本報告整理的資料中未載明"
+description: "Capsicum Oleoresin: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Capsicum oleoresin"
-predicted_indications: ["peripheral motor neuropathy-dysautonomia syndrome", "intellectual disability-dysmorphism-hypogonadism-diabetes mellitus syndrome", "Mietens syndrome", "blepharophimosis - intellectual disability syndrome, Ohdo type", "intellectual disability, Buenos-Aires type", "encephalopathy due to beta-mercaptolactate-cysteine disulfiduria", "mesangial sclerosis, diffuse renal, with ocular abnormalities", "mesoaxial hexadactyly and cardiac malformation", "Langer mesomelic dysplasia", "mesomelic dwarfism-cleft palate-camptodactyly syndrome"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Capsicum Oleoresin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,39 +35,16 @@ predicted_indications: ["peripheral motor neuropathy-dysautonomia syndrome", "in
 
 </div>
 
-## Capsicum oleoresin：從（原適應症資料缺漏）到周邊運動神經病變-自主神經功能異常症候群
+## Capsicum Oleoresin
 {: .text-alpha }
-
-## 一句話總結
-
-Capsicum oleoresin（辣椒油樹脂，辣椒素來源）在香港有一張單方許可證，但本報告所整理的資料中沒有記載核准適應症。
-TxGNN 模型預測它可能對**周邊運動神經病變-自主神經功能異常症候群 (peripheral motor neuropathy-dysautonomia syndrome)** 有效，但預測分數僅 50%（中性、無資訊量），且**沒有任何臨床試驗或文獻**支持，屬於純模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 本報告整理的資料中未載明 |
-| 預測新適應症 | 周邊運動神經病變-自主神經功能異常症候群 (peripheral motor neuropathy-dysautonomia syndrome) |
-| TxGNN 預測分數 | 50.0% |
-| 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
-| 建議決策 | Hold |
-
-## 為什麼這個預測合理？
-
-目前缺乏詳細的作用機轉資料。已知 Capsicum oleoresin 是辣椒素（capsaicin）的來源，辣椒素一般作用於感覺痛覺神經元上的 TRPV1 受體。但這只是背景知識，並非本報告資料中已確認的機轉。
-
-目前無法建立它與運動神經病變或自主神經功能異常病理之間的合理連結。TxGNN 分數 50% 屬於中性預測，不能視為正向訊號。其他九個排名較後的預測疾病（如智能障礙相關症候群、Mietens 症候群、Langer 中段肢體發育不全等）同樣分數為 50%，且多為罕見遺傳或先天發育疾病，與 TRPV1 作用也沒有已知關聯。
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
-## 文獻證據
-
-目前無相關文獻。
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 
 ## 香港上市資訊
 
@@ -79,20 +58,6 @@ TxGNN 模型預測它可能對**周邊運動神經病變-自主神經功能異�
 
 安全性資訊請參考原廠仿單。本報告整理的資料中查無藥物交互作用紀錄。
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 僅有模型預測（L5），分數為中性的 50%，沒有任何臨床試驗或文獻，也找不到合理的機轉連結。
-- 原適應症、作用機轉與仿單安全性資料皆缺漏，目前不足以進入安全性篩選。
-
-**若要推進需要：**
-- 取得香港衛生署仿單（警語、禁忌症、核准適應症與劑型）
-- 補齊 DrugBank 的作用機轉資料
-- 評估給藥途徑相容性（本品為外用搽劑類產品，是否能用於神經病變須另行釐清）
-- 以文獻檢索確認 TRPV1 相關機轉與該疾病之間是否有任何支持證據
-- 若無上述支持，建議不將此預測列為優先再利用候選
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

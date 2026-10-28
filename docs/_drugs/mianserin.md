@@ -4,17 +4,17 @@ title: Mianserin
 parent: 僅模型預測 (L5)
 nav_order: 581
 evidence_level: L5
-indication_count: 7
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Mianserin：預測新適應症為良性嬰兒陣發性斜頸 (Benign Paroxysmal Torticollis of Infancy)（證據等級 L5）。原適應症：單極性憂鬱症、內因性憂鬱症、重度憂鬱症、焦慮症"
 monitor_inn: "Mianserin"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "dysthymic disorder", "agoraphobia", "Ohdo syndrome and variants", "melancholia", "neurotic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "neurotic disorder"]
+description: "Mianserin：預測新適應症為良性嬰兒陣發性斜頸 (benign paroxysmal torticollis of infancy)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Mianserin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+證據等級: **L5** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "dysthymic d
 
 </div>
 
-## Mianserin：從憂鬱症到良性嬰兒陣發性斜頸
+## Mianserin: 良性嬰兒陣發性斜頸 (benign paroxysmal torticollis of infancy)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**良性嬰兒陣發性斜頸 (Benign Paroxysmal T
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 單極性憂鬱症、內因性憂鬱症、重度憂鬱症、焦慮症（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 良性嬰兒陣發性斜頸 (Benign Paroxysmal Torticollis of Infancy) |
-| TxGNN 預測分數 | 99.49% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 良性嬰兒陣發性斜頸 (benign paroxysmal torticollis of infancy) |
+| TxGNN 預測分數 | 0.9949 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -104,12 +104,9 @@ TxGNN 模型預測它可能對**良性嬰兒陣發性斜頸 (Benign Paroxysmal T
 
 | 預測適應症 | 分數 | 證據等級 | 建議 | 重點 |
 |-----------|------|---------|------|------|
-| 精神官能症 (neurotic disorder) | 99.02% | L3 | Research Question | 有 Mianserin 與 clomipramine、imipramine 的對照研究，但年代較久，且此診斷分類已過時；為此組中證據最強者 |
-| 輕鬱症 (dysthymic disorder) | 99.45% | L4 | Research Question | 僅有抗憂鬱藥類別層級的統合分析，無 Mianserin 專屬證據 |
-| 憂鬱性精神官能症 (neurotic depression) | 99.16% | L4 | Research Question | 多為一般抗憂鬱藥文獻，另有少數 Mianserin 研究；與既有適應症高度重疊 |
-| 憂鬱症／憂鬱型 (melancholia) | 99.17% | L4 | Research Question | 與既有適應症重疊，較可能是術語重疊而非真正的新用途 |
-| 懼曠症 (agoraphobia) | 99.40% | L4 | Hold | 僅有 MAO-A 抑制劑的文獻，並非 Mianserin 證據 |
-| Ohdo 症候群及其變異型 | 99.23% | L5 | Hold | 僅有模型預測，無任何研究或機轉依據 |
+| 精神官能症 (neurotic disorder) | 0.9902 | L5 | Research Question | 有 Mianserin 與 clomipramine、imipramine 的對照研究，但年代較久，且此診斷分類已過時；為此組中證據最強者 |
+| 懼曠症 (agoraphobia) | 0.9940 | L5 | Hold | 僅有 MAO-A 抑制劑的文獻，並非 Mianserin 證據 |
+| Ohdo 症候群及其變異型 | 0.9923 | L5 | Hold | 僅有模型預測，無任何研究或機轉依據 |
 
 若要優先投入研究資源，建議從證據較多的神經症與憂鬱相關病症開始，而非排名第 1 的預測。
 ## 免責聲明

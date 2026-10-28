@@ -4,7 +4,7 @@ title: Colchicine
 parent: 僅模型預測 (L5)
 nav_order: 226
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Colchicine：預測新適應症為惡性瘧原蟲瘧疾 (Plasmodium falciparum malaria)（證據等級 L5）。原適應症：痛風、家族性地中海熱"
 monitor_inn: "COLCHICINE"
@@ -14,7 +14,7 @@ predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma pr
 # Colchicine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**惡性瘧原蟲瘧疾 (Plasmodium falciparum mal
 |------|------|
 | 原適應症 | 痛風、家族性地中海熱 |
 | 預測新適應症 | 惡性瘧原蟲瘧疾 (Plasmodium falciparum malaria) |
-| TxGNN 預測分數 | 99.60% |
+| TxGNN 預測分數 | 0.9960 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 10 張 |
+| 香港上市 | 上市中（有效許可證 10 張／共 10 張） |
+| 許可證數 | 10 張（有效 10 張） |
 | 建議決策 | Hold |
 
 ---
@@ -127,8 +127,7 @@ TxGNN 模型預測它可能對**惡性瘧原蟲瘧疾 (Plasmodium falciparum mal
 
 ### 補充：其他預測適應症
 
-- **家族性地中海熱（體染色體顯性型）**：分數 99.38%，證據等級 L4，已有 19 篇文獻，多為綜述。Colchicine 本來就是家族性地中海熱的標準第一線治療，這項預測更像是原適應症的亞型延伸，而非真正的藥物再利用。文獻中沒有針對此亞型的 RCT 或登記試驗，建議列為研究問題。
-- **隆突性皮膚纖維肉瘤**：分數 99.37%，證據等級 L5，無任何試驗或文獻。該病以手術和 imatinib 治療，colchicine 沒有明顯優勢，建議 Hold。
+- **隆突性皮膚纖維肉瘤**：分數 0.9937，證據等級 L5，無任何試驗或文獻。該病以手術和 imatinib 治療，colchicine 沒有明顯優勢，建議 Hold。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

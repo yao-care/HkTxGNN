@@ -6,9 +6,9 @@ nav_order: 374
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Ferrous Sulfate Anhydrous：預測新適應症為不依賴維生素 B12 與葉酸的先天性巨母紅血球性貧血 (vitamin B12- and folate-independent const…（證據等級 L5）。原適應症：維生素缺乏症、葉酸缺乏性貧血、早產兒貧血、缺鐵性貧血、低色素性貧血、營養缺乏性貧血、小球性貧血"
 monitor_inn: "Ferrous sulfate anhydrous"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "biotin metabolic disease", "non-syndromic esophageal malformation"]
+description: "Ferrous Sulfate Anhydrous：預測新適應症為不依賴維生素 B12 與葉酸的先天性巨母紅血球性貧血 (vitamin B12- and folate-independent constitutional megaloblastic anemia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Ferrous Sulfate Anhydrous
@@ -33,7 +33,7 @@ predicted_indications: ["vitamin B12- and folate-independent constitutional mega
 
 </div>
 
-## Ferrous sulfate anhydrous：從缺鐵性貧血到 Plummer-Vinson 症候群
+## Ferrous Sulfate Anhydrous: 不依賴維生素 B12 與葉酸的先天性巨母紅血球性貧血 (vitamin B12- and folate-independent constitutional megaloblastic anemia)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,22 +48,22 @@ TxGNN 模型預測它可能對 **Plummer-Vinson 症候群** 等疾病有效（�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 維生素缺乏症、葉酸缺乏性貧血、早產兒貧血、缺鐵性貧血、低色素性貧血、營養缺乏性貧血、小球性貧血（許可證未載明適應症文字，此處依知識圖譜資料） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症（排名第 1） | 不依賴維生素 B12 與葉酸的先天性巨母紅血球性貧血 (vitamin B12- and folate-independent constitutional megaloblastic anemia) |
-| TxGNN 預測分數 | 99.78% |
+| TxGNN 預測分數 | 0.9978 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 **四個預測適應症一覽：**
 
 | 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
 |------|-----------|-----------|---------|------|
-| 1 | 不依賴 B12 與葉酸的先天性巨母紅血球性貧血 | 99.78% | L5 | Hold |
-| 2 | Plummer-Vinson 症候群 | 99.77% | L5 | Hold |
-| 3 | 生物素代謝疾病 (biotin metabolic disease) | 99.51% | L5 | Hold |
-| 4 | 非症候群性食道畸形 | 99.49% | L5 | Hold |
+| 1 | 不依賴 B12 與葉酸的先天性巨母紅血球性貧血 | 0.9978 | L5 | Hold |
+| 2 | Plummer-Vinson 症候群 | 0.9977 | L5 | Hold |
+| 3 | 生物素代謝疾病 (biotin metabolic disease) | 0.9951 | L5 | Hold |
+| 4 | 非症候群性食道畸形 | 0.9949 | L5 | Hold |
 
 ---
 
@@ -73,9 +73,9 @@ TxGNN 模型預測它可能對 **Plummer-Vinson 症候群** 等疾病有效（�
 
 **Plummer-Vinson 症候群（最合理）：** 此症候群以缺鐵性貧血、吞嚥困難和上食道蹼為特徵，補鐵是公認的標準治療，常可改善吞嚥困難。這項預測實際上較像是既有缺鐵性貧血適應症的延伸，而非真正的藥物再利用。臨床上很可能已有病例報告或回顧文獻，但本報告所編整的資料並未收錄，建議做針對性文獻搜尋後再定級。若確認有此類文獻，證據等級可能提升至 L3–L4。
 
-**先天性巨母紅血球性貧血（合理性低）：** 此類貧血源於 DNA 合成受損（與 B12／葉酸路徑缺陷有關），而非缺鐵。鐵劑沒有已建立的治療依據，僅在同時有缺鐵時才有幫助。高分可能只是反映圖譜中各貧血節點彼此相近。
+**先天性巨母紅血球性貧血（合理性低）：** 此類貧血源於 DNA 合成受損（與 B12／葉酸路徑缺陷有關），而非缺鐵。鐵劑沒有已建立的治療依據，僅在同時有缺鐵時才有幫助。高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病間相似性，而非生物學證據。
 
-**生物素代謝疾病（合理性低）：** 這類疾病（如生物素酶缺乏症）以補充生物素治療，鐵在生物素循環或羧化酶活化中沒有已知作用。高分可能來自原適應症包含維生素缺乏症所造成的圖譜關聯。
+**生物素代謝疾病（合理性低）：** 這類疾病（如生物素酶缺乏症）以補充生物素治療，鐵在生物素循環或羧化酶活化中沒有已知作用。高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病間相似性（例如原適應症包含維生素缺乏症），而非生物學證據。
 
 **非症候群性食道畸形（合理性低且有安全疑慮）：** 食道閉鎖或狹窄等結構性缺陷需手術或內視鏡處理，口服鐵劑無法矯正。預測可能源自食道異常與 Plummer-Vinson 症候群（食道蹼）的關聯。此外，口服鐵劑可能刺激或傷害食道，結構異常患者更需留意。
 
@@ -122,7 +122,7 @@ TxGNN 模型預測它可能對 **Plummer-Vinson 症候群** 等疾病有效（�
 **決策：Hold**
 
 **理由：**
-- 四個預測適應症均無臨床試驗或文獻支持，證據等級皆為 L5，高 TxGNN 分數僅代表圖譜上的相近性。
+- 四個預測適應症均無臨床試驗或文獻支持，證據等級皆為 L5，TxGNN 模型（深度學習）的高分可能反映模型學到的相關疾病間相似性，並非生物學證據。
 - 其中僅 Plummer-Vinson 症候群有明確的生物學合理性（缺鐵為其核心病理），但它較像既有適應症的延伸；其餘三項缺乏機轉依據，其中食道畸形還有鐵劑刺激食道的安全疑慮。
 
 **若要推進需要：**

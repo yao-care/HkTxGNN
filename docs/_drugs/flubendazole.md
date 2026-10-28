@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Flubendazole：預測新適應症為膀胱尿路上皮癌 (Urinary Bladder Carcinoma)（證據等級 L5）。原適應症：本次整理的資料未載明"
 monitor_inn: "Flubendazole"
-predicted_indications: ["urinary bladder carcinoma", "urinary bladder neoplasm", "infiltrating bladder urothelial carcinoma", "non-invasive bladder urothelial carcinoma", "bladder urachal urothelial carcinoma", "bladder squamous papilloma", "bladder signet ring cell adenocarcinoma", "bladder colonic type adenocarcinoma", "bladder colloid adenocarcinoma", "bladder mixed adenocarcinoma"]
+predicted_indications: ["urinary bladder carcinoma", "urinary bladder neoplasm", "infiltrating bladder urothelial carcinoma", "non-invasive bladder urothelial carcinoma", "bladder urachal urothelial carcinoma", "bladder squamous papilloma", "bladder signet ring cell adenocarcinoma", "bladder colonic type adenocarcinoma", "bladder mixed adenocarcinoma", "bladder colloid adenocarcinoma"]
 ---
 
 # Flubendazole
@@ -48,17 +48,17 @@ TxGNN 模型預測它可能對**膀胱尿路上皮癌 (Urinary Bladder Carcinoma
 |------|------|
 | 原適應症 | 本次整理的資料未載明 |
 | 預測新適應症 | 膀胱尿路上皮癌 (Urinary Bladder Carcinoma) |
-| TxGNN 預測分數 | 99.99% |
+| TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5（僅模型預測）；相關的「膀胱腫瘤」項目為 L4（僅有近緣藥物的前臨床文獻） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
 目前缺乏詳細的作用機轉資料。Flubendazole 屬於苯并咪唑類驅蟲藥，此類藥物一般認為可結合 β-微管蛋白（beta-tubulin）、干擾微管聚合，這在抗增殖上是合理的機轉。需要說明的是，這項推論來自一般藥理學知識，並非本次整理的資料所直接支持。
 
-TxGNN 對膀胱癌相關的多個詞條（如浸潤性、非浸潤性尿路上皮癌及各種罕見亞型）都給出約 99.98%–99.99% 的高分。這些高分很可能反映知識圖譜中疾病詞條彼此相近，而不是各亞型各自有獨立證據。對良性病灶（如膀胱鱗狀乳頭瘤），抗腫瘤的理論基礎更弱。
+TxGNN（深度學習）模型對膀胱癌相關的多個詞條（如浸潤性、非浸潤性尿路上皮癌及各種罕見亞型）都給出約 0.9998–0.9999 的高分。這些分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而不是生物學證據。對良性病灶（如膀胱鱗狀乳頭瘤），抗腫瘤的理論基礎更弱。
 
 間接線索方面，有兩篇近期研究探討 fenbendazole（同屬苯并咪唑類，但**不是** flubendazole）用於膀胱癌模型：一篇結合光熱療法誘導鐵死亡，另一篇結合 CRISPR-Cas13a 做膀胱內灌注。本次僅取得標題與部分摘要，無法驗證研究設計與結果，只能視為類別層級的間接支持。
 
@@ -95,7 +95,7 @@ Flubendazole 目前的核准用途為驅蟲藥，並非傳統抗腫瘤藥物，�
 
 **理由：**
 - 膀胱癌的預測僅來自模型分數，沒有 flubendazole 的臨床試驗或直接文獻。
-- 僅有近緣藥物 fenbendazole 的兩篇前臨床研究，屬間接證據，且高分可能源自疾病詞條的圖譜相近性。
+- 僅有近緣藥物 fenbendazole 的兩篇前臨床研究，屬間接證據；分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而不是生物學證據。
 - 仿單的安全性資料缺漏，目前無法進入安全性篩選。
 
 **若要推進需要：**

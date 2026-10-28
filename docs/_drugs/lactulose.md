@@ -4,17 +4,17 @@ title: Lactulose
 parent: 僅模型預測 (L5)
 nav_order: 504
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Lactulose：預測新適應症為急性尿酸腎病變 (Acute Urate Nephropathy)（證據等級 L5）。原適應症：肝性腦病變、肝昏迷、便秘"
+indication_count: 8
 monitor_inn: "LACTULOSE"
-predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease"]
+predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
+last_modified_at: 2026-10-23
+description: "Lactulose：預測新適應症為Acute urate nephropathy（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Lactulose
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,116 +33,92 @@ predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructi
 
 </div>
 
-## Lactulose：從肝性腦病變到阻塞性黃疸
+## Lactulose: Acute urate nephropathy
 {: .text-alpha }
 
 ## 一句話總結
 
-Lactulose（乳果糖）是一種不被吸收的雙醣，原本用於肝性腦病變、肝昏迷與便秘。
-TxGNN 模型預測它可能對**急性尿酸腎病變**、**腎結石**、**阻塞性黃疸 (Obstructive Jaundice)**、**膽管疾病**與**膽道疾病**有效。
-其中證據最多的是**阻塞性黃疸**：目前有 **0 個臨床試驗**，但有 **20 篇文獻**，多為小型臨床研究與動物實驗。
-
----
+Lactulose（乳果糖）在知識圖譜中記錄的原有用途為肝性腦病變、肝昏迷與便秘。
+TxGNN 模型預測它可能對**阻塞性黃疸 (Obstructive Jaundice)** 有效，
+目前有 **0 個臨床試驗**和 **19 篇文獻**支持這個方向，其中直接以阻塞性黃疸為對象的研究包含數項小型臨床及動物研究。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 肝性腦病變、肝昏迷、便秘（取自知識圖譜，香港許可證未載明適應症文字） |
-| 預測新適應症 | 急性尿酸腎病變 (Acute Urate Nephropathy)（TxGNN 排名第 1）；證據最完整者為阻塞性黃疸 |
-| TxGNN 預測分數 | 99.89%（急性尿酸腎病變）；阻塞性黃疸為 99.53% |
-| 證據等級 | 急性尿酸腎病變 L5；阻塞性黃疸 L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 13 張 |
-| 建議決策 | Hold（整體）；阻塞性黃疸方向可列為研究問題（Research Question） |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Acute urate nephropathy |
+| TxGNN 預測分數 | 0.9989 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 13 張／共 13 張） |
+| 許可證數 | 13 張（有效 13 張） |
+| 建議決策 | Hold（列為研究性問題，待確認研究設計後再評估） |
 
-各預測適應症一覽：
-
-| 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
-|------|-----------|-----------|---------|------|
-| 1 | 急性尿酸腎病變 | 99.89% | L5 | Hold |
-| 2 | 腎結石 | 99.78% | L5 | Hold |
-| 3 | 阻塞性黃疸 | 99.53% | L3 | Research Question |
-| 4 | 膽管疾病 | 99.47% | L3 | Research Question |
-| 5 | 膽道疾病 | 99.38% | L4 | Hold |
-
----
+> 說明：本報告以預測分數排名第 3 的阻塞性黃疸為主要分析對象。排名第 1、2 的「急性尿酸腎病變」與「腎結石」目前沒有任何臨床試驗或文獻支持，因此不作為主要方向。
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Lactulose 是一種不被吸收的雙醣，在結腸被細菌發酵，臨床上用於降低腸道氨負荷（肝性腦病變）及緩解便秘。
+目前缺乏詳細的作用機轉資料。根據已知資訊，lactulose 是一種不被吸收的雙糖，常作為滲透性瀉劑與降低血氨的藥物使用，其在肝性腦病變與便秘的角色已為臨床所熟知。
 
-排名第 1 與第 2 的預測（急性尿酸腎病變、腎結石）沒有任何臨床試驗或文獻支持。雖然理論上 Lactulose 可能改變腸道菌叢、含氮化合物吸收或結腸發酵後的尿液酸鹼度，但沒有資料能把這些作用與尿酸造成的腎小管損傷連結起來。該疾病的標準治療（水分補充、rasburicase、allopurinol）針對的是實際病因。
+阻塞性黃疸時，腸道缺少膽鹽，腸道屏障受損，容易發生內毒素吸收與細菌移位。內毒素血症被認為與術後腎功能惡化有關。已有研究提出，lactulose 可能降低腸腔內毒素負荷、保護腸道屏障，進而減少術後併發症。體外研究（PMID 2311978）也顯示 lactulose 可抑制內毒素誘發的單核球 TNF 產生。
 
-阻塞性黃疸則有較合理的機轉線索：膽管阻塞使腸道缺少膽鹽，促進內毒素吸收、細菌移位與腸道屏障受損，內毒素血症進而導致術後腎功能異常與肝損傷。Lactulose 被認為可降低腸道內毒素負荷、調整腸道菌叢並協助恢復屏障功能。膽管疾病的證據與此大量重疊，並非獨立佐證；膽道疾病則多為間接證據（如 Lactulose 與高纖飲食對膽汁組成、膽結石的影響）。
-
-需注意：部分文獻結論並不一致。1997 年的回顧指出，Lactulose 對術後腎功能的保護效果迄今未被臨床研究確切證實；1989 年大鼠研究也顯示 Lactulose 並未預防膽汁梗塞或轉胺酶上升。
-
----
+需要留意的是，這類效益較可能是**手術前後的支持性作用**，而非治療黃疸本身。此外，一篇 1997 年的回顧（PMID 9145459）指出，lactulose 的腎保護效果在臨床研究中至今未被確證；另有大鼠研究（PMID 2614579）發現 lactulose 並未能預防膽汁梗塞或轉氨酶上升。證據方向並不一致。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
-以下以證據最多的**阻塞性黃疸**為主，列出最相關的文獻（本報告僅依標題與摘要片段判斷，研究設計與效果量尚待核實）：
+下表列出最相關的文獻（臨床研究優先，其次為回顧與動物研究）。
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [2032107](https://pubmed.ncbi.nlm.nih.gov/2032107/) | 1991 | 多中心臨床研究（前瞻性隨機試驗，設計待核實） | Br J Surg | 102 位阻塞性黃疸手術病人隨機分為術前口服 Lactulose、去氧膽酸鈉與對照組，評估術後腎功能障礙的預防 |
-| [3768644](https://pubmed.ncbi.nlm.nih.gov/3768644/) | 1986 | 實驗與臨床研究 | Br J Surg | 24 位病人（12 位用 Lactulose）；治療組術中門脈與術後全身內毒素血症顯著降低 |
-| [12957136](https://pubmed.ncbi.nlm.nih.gov/12957136/) | 2003 | 臨床／實驗研究 | J Surg Res | 兔子膽管結紮模型，評估 Lactulose 對內毒素血症與細菌移位的作用 |
-| [23297639](https://pubmed.ncbi.nlm.nih.gov/23297639/) | 2012 | 臨床研究 | Zh Mikrobiol Epidemiol Immunobiol | 膽管減壓合併 Lactulose 對機械性黃疸病人腸道微生態的影響 |
-| [8944448](https://pubmed.ncbi.nlm.nih.gov/8944448/) | 1996 | 臨床與實驗研究 | Br J Surg | 阻塞性黃疸有腸道屏障功能障礙，內引流可逆轉（背景證據） |
-| [9145459](https://pubmed.ncbi.nlm.nih.gov/9145459/) | 1997 | Review | Scand J Gastroenterol Suppl | Lactulose 對術後腎功能的保護效果尚未被臨床研究確切證實 |
-| [15782993](https://pubmed.ncbi.nlm.nih.gov/15782993/) | 2005 | Review | Hepato-gastroenterology | 主張術前充分水分補充與 Lactulose 以預防急性阻塞性黃疸的術後腎功能障礙 |
-| [29428098](https://pubmed.ncbi.nlm.nih.gov/29428098/) | 2018 | Review | Hepatobiliary Pancreat Dis Int | 阻塞性黃疸的病理生理與圍手術期處置 |
-| [12598962](https://pubmed.ncbi.nlm.nih.gov/12598962/) | 2002 | 動物研究（大鼠） | Pediatr Surg Int | 褪黑激素與 Lactulose 對阻塞性黃疸大鼠肝腎的影響 |
-| [2614579](https://pubmed.ncbi.nlm.nih.gov/2614579/) | 1989 | 動物研究（大鼠） | J Pathol | Lactulose、polymyxin B、neomycin 皆未能預防膽汁梗塞與轉胺酶上升（陰性結果） |
-
-膽道疾病方面，另有 [9145452](https://pubmed.ncbi.nlm.nih.gov/9145452/)（1997，Lactulose 與高纖飲食對膽汁與膽結石的影響回顧）和 [6269949](https://pubmed.ncbi.nlm.nih.gov/6269949/)（1981，倉鼠實驗），屬間接證據。
-
----
+| [2032107](https://pubmed.ncbi.nlm.nih.gov/2032107/) | 1991 | 多中心前瞻性隨機研究（設計待確認） | Br J Surg | 102 位阻塞性黃疸手術病人隨機分為術前 lactulose、去氧膽酸鈉與無特殊處理三組，評估預防術後腎功能障礙 |
+| [3768644](https://pubmed.ncbi.nlm.nih.gov/3768644/) | 1986 | 實驗＋臨床研究 | Br J Surg | 24 位病人（12 位使用 lactulose）；lactulose 組的內毒素血症顯著降低 |
+| [12957136](https://pubmed.ncbi.nlm.nih.gov/12957136/) | 2003 | 臨床／機轉研究 | J Surg Res | 以 23 隻兔子膽管結紮模型評估 lactulose 對內毒素血症與細菌移位的作用 |
+| [23297639](https://pubmed.ncbi.nlm.nih.gov/23297639/) | 2012 | 臨床研究 | Zh Mikrobiol Epidemiol Immunobiol | 評估膽管減壓合併 lactulose 對機械性黃疸病人腸道微生態的影響 |
+| [9145459](https://pubmed.ncbi.nlm.nih.gov/9145459/) | 1997 | 回顧 | Scand J Gastroenterol Suppl | 指出 lactulose 的腎保護效果在臨床研究中尚未被確證 |
+| [15782993](https://pubmed.ncbi.nlm.nih.gov/15782993/) | 2005 | 回顧 | Hepato-gastroenterology | 主張術前應充分補水並給予 lactulose 以預防術後腎功能障礙 |
+| [12598962](https://pubmed.ncbi.nlm.nih.gov/12598962/) | 2002 | 動物研究（大鼠） | Pediatr Surg Int | 評估褪黑激素與 lactulose 對阻塞性黃疸大鼠肝腎的影響 |
+| [10576346](https://pubmed.ncbi.nlm.nih.gov/10576346/) | 1999 | 動物研究（大鼠） | Hepato-gastroenterology | 比較去氧膽酸鈉、lactulose 與麩醯胺酸對膽管結紮大鼠細菌移位的作用 |
+| [2614579](https://pubmed.ncbi.nlm.nih.gov/2614579/) | 1989 | 實驗研究（大鼠） | J Pathol | polymyxin B、neomycin、lactulose 未能預防膽管結紮後的膽汁梗塞與轉氨酶上升 |
+| [8944448](https://pubmed.ncbi.nlm.nih.gov/8944448/) | 1996 | 臨床與實驗研究 | Br J Surg | 阻塞性黃疸造成腸道屏障功能障礙，內引流後可改善（未直接測試 lactulose） |
 
 ## 香港上市資訊
 
+資料顯示 lactulose 在香港有 13 張單一成分的有效許可證，但各許可證均未提供核准適應症文字與劑型，因此無法由許可證確認其核准用途。以下列出 5 張主要許可證：
+
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-43381 | PMS-LACTULOSE SOLUTION 667MG/ML | 口服溶液 | 未載明 |
-| HK-67979 | LALALAX ORAL SOLUTION 10G/15ML | 口服溶液 | 未載明 |
-| HK-68911 | LOLAN ORAL SOLUTION 66.7G/100ML | 口服溶液 | 未載明 |
-| HK-68890 | BF-LACTULOSE ORAL SOLUTION 667MG/ML | 口服溶液 | 未載明 |
-| HK-67881 | CONSIQARE ORAL SOLUTION 667MG/ML | 口服溶液 | 未載明 |
-
-香港共有 13 張有效許可證（全為單方），尚無已註銷者；以上僅列出 5 張。
-
----
+| HK-32072 | DUPHALAC ORAL LIQ | 未提供 | 未提供 |
+| HK-43381 | PMS-LACTULOSE SOLUTION 667MG/ML | 未提供 | 未提供 |
+| HK-52805 | DHACTULOSE SYRUP 3.35G/5ML | 未提供 | 未提供 |
+| HK-55625 | OREALAC ORAL SOLUTION 10G/15ML | 未提供 | 未提供 |
+| HK-67979 | LALALAX ORAL SOLUTION 10G/15ML | 未提供 | 未提供 |
 
 ## 安全性考量
 
-- **知識圖譜標示的相關疾病（非仿單內容）**：糖尿病、糖尿病酮酸中毒、闌尾炎、半乳糖血症、肝醣儲積症、G6PD 缺乏症、胱胺酸尿症、葡萄糖－半乳糖吸收不良。
-- **藥物交互作用**：共查得 100 筆，以下為部分範例，多數為中度：Abiraterone、Tramadol、Acetazolamide、Hydrocortisone、Salbutamol、Hydrochlorothiazide、Amiloride、Amiodarone、Triamcinolone、Arsenic trioxide。另有輕度交互作用如 Sodium citrate。
+- **知識圖譜記錄的禁忌關聯**（非仿單內容）：糖尿病、糖尿病酮酸中毒、闌尾炎、半乳糖血症、肝糖儲積症、G6PD 缺乏症、胱胺酸尿症、葡萄糖－半乳糖吸收不良。
+- **藥物交互作用**：共查得 100 筆，以下為部分範例，多數為中度等級。
+  - 中度：Abiraterone、Tramadol、Acetazolamide、Hydrocortisone、Salbutamol、Hydrochlorothiazide、Amiloride、Amiodarone
+  - 輕度：Sodium citrate
 
-其他警語與禁忌症請參考原廠仿單。
-
----
+其他警語與禁忌請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Hold（阻塞性黃疸方向可列為 Research Question）**
+**決策：Hold**
 
 **理由：**
-- 排名最高的兩項預測（急性尿酸腎病變、腎結石）僅有模型分數，沒有任何臨床試驗或文獻支持，機轉上也缺乏連結。
-- 阻塞性黃疸有 1980–2000 年代的小型臨床與動物研究（證據等級 L3），但結果不一致，且沒有已登記的臨床試驗；膽管疾病的證據與其高度重疊，膽道疾病則多為間接證據。
+- 阻塞性黃疸確有直接研究，包括一項 102 人的前瞻性隨機研究（PMID 2032107）及數項小型臨床研究，但多為 1980–2000 年代的舊資料，設計與結果尚未從全文確認，且有回顧與動物研究顯示效果未被確證，故列為 L3，適合作為研究性問題而非直接推進。
+- 其餘預測（急性尿酸腎病變、腎結石、運動誘發惡性高熱）缺乏任何研究或合理機轉，僅為模型預測。
 
 **若要推進需要：**
-- 審閱阻塞性黃疸文獻的完整摘要與全文，確認 1991 年多中心研究的設計（是否為隨機對照）與效果量，再決定是否升級證據等級。
-- 補充 Lactulose 詳細的作用機轉資料（MOA）。
-- 取得香港衛生署仿單的警語與禁忌症（目前缺漏，為阻擋安全性篩選的關鍵缺口）。
-- 對照現行圍手術期處置（如充分水分補充、膽道引流），評估 Lactulose 是否有額外價值，並考慮設計現代的前瞻性對照試驗。
+- 取得 PMID 2032107 與 3768644 全文，確認研究設計、主要終點（術後腎功能、內毒素）與結果方向
+- 系統性搜尋近年的隨機對照試驗與統合分析
+- 補充 lactulose 的作用機轉資料與香港仿單的警語、禁忌與核准適應症
+- 若推進，需明確界定其定位為圍手術期支持性治療，並訂定糖尿病與電解質失衡等族群的監測計畫
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

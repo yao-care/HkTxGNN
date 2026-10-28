@@ -6,9 +6,9 @@ nav_order: 668
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Paroxetine：預測新適應症為Ohdo 症候群及其變異型 (Ohdo syndrome and variants)（證據等級 L5）。原適應症：焦慮症、神經症、輕鬱症、單極性憂鬱症、重度憂鬱症、創傷後壓力症候群、社交畏懼症、強迫症等"
 monitor_inn: "PAROXETINE"
 predicted_indications: ["Ohdo syndrome and variants"]
+description: "Paroxetine：預測新適應症為Ohdo 症候群及其變異型 (Ohdo syndrome and variants)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Paroxetine
@@ -33,7 +33,7 @@ predicted_indications: ["Ohdo syndrome and variants"]
 
 </div>
 
-## Paroxetine：從憂鬱症與焦慮症到 Ohdo 症候群及其變異型
+## Paroxetine: Ohdo 症候群及其變異型 (Ohdo syndrome and variants)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對 **Ohdo 症候群及其變異型 (Ohdo syndrome an
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 焦慮症、神經症、輕鬱症、單極性憂鬱症、重度憂鬱症、創傷後壓力症候群、社交畏懼症、強迫症等（來自知識圖譜，香港許可證未載明適應症文字） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | Ohdo 症候群及其變異型 (Ohdo syndrome and variants) |
-| TxGNN 預測分數 | 99.11% |
+| TxGNN 預測分數 | 0.9911 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 9 張 |
+| 香港上市 | 上市中（有效許可證 9 張／共 9 張） |
+| 許可證數 | 9 張（有效 9 張） |
 | 建議決策 | Hold |
 
 ---

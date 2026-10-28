@@ -6,9 +6,9 @@ nav_order: 649
 evidence_level: L2
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Oxaliplatin：預測新適應症為惡性胸膜間皮瘤 (Malignant Pleural Mesothelioma)（證據等級 L2）。原適應症：結腸惡性腫瘤轉移"
 monitor_inn: "OXALIPLATIN"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
+description: "Oxaliplatin：預測新適應症為惡性胸膜間皮瘤 (malignant pleural mesothelioma)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Oxaliplatin
@@ -33,7 +33,7 @@ predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid
 
 </div>
 
-## Oxaliplatin：從大腸癌轉移到惡性胸膜間皮瘤
+## Oxaliplatin: 惡性胸膜間皮瘤 (malignant pleural mesothelioma)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**惡性胸膜間皮瘤 (Malignant Pleural Mesothe
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 結腸惡性腫瘤轉移（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 惡性胸膜間皮瘤 (Malignant Pleural Mesothelioma) |
-| TxGNN 預測分數 | 99.68% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 惡性胸膜間皮瘤 (malignant pleural mesothelioma) |
+| TxGNN 預測分數 | 0.9968 |
 | 證據等級 | L2 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 18 張 |
+| 香港上市 | 上市中（有效許可證 18 張／共 18 張） |
+| 許可證數 | 18 張（有效 18 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dasatinib
-parent: 僅模型預測 (L5)
+parent: 高證據等級 (L1-L2)
 nav_order: 248
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Dasatinib：預測新適應症為尤文氏肉瘤 (Ewing sarcoma)（證據等級 L5）。原適應症：慢性骨髓性白血病（BCR-ABL1 陽性）、慢性骨髓性白血病急性母細胞期"
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
+description: "Dasatinib：預測新適應症為尤文氏肉瘤 (Ewing sarcoma)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Dasatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L2** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival"
 
 </div>
 
-## Dasatinib：從慢性骨髓性白血病到尤文氏肉瘤
+## Dasatinib: 尤文氏肉瘤 (Ewing sarcoma)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**尤文氏肉瘤 (Ewing sarcoma)** 有效，目�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 慢性骨髓性白血病（BCR-ABL1 陽性）、慢性骨髓性白血病急性母細胞期 |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | 尤文氏肉瘤 (Ewing sarcoma) |
-| TxGNN 預測分數 | 99.90% |
+| TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L2（依資料彙整的評等；但該等級主要來自一項非尤文氏肉瘤專屬的 2 期試驗，實際證據偏弱，詳見下文） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 20 張 |
+| 香港上市 | 上市中（有效許可證 20 張／共 20 張） |
+| 許可證數 | 20 張（有效 20 張） |
 | 建議決策 | Hold（列為研究性問題） |
 
 ---
@@ -134,8 +134,8 @@ TxGNN 模型預測它可能對**尤文氏肉瘤 (Ewing sarcoma)** 有效，目�
 **決策：Hold（列為研究性問題）**
 
 **理由：**
-- 尤文氏肉瘤的證據主要為前臨床研究，唯一的肉瘤 2 期試驗並非尤文氏專屬，且文獻指出單藥在此亞型失敗。TxGNN 分數很高（99.90%），但不足以支持臨床推進。
-- 排名第 2 的「骨髓性白血病」雖有 L1 證據（如 DASISION 的 3 期試驗），但這與原適應症重疊，並非真正的新用途。真正新穎的方向是 KIT 驅動疾病，如核心結合因子急性骨髓性白血病（CBF-AML）的 3 期研究（PMID 41490515）。
+- 尤文氏肉瘤的證據主要為前臨床研究，唯一的肉瘤 2 期試驗並非尤文氏專屬，且文獻指出單藥在此亞型失敗。TxGNN 分數很高（0.9990），但不足以支持臨床推進。
+- 較新穎的方向是 KIT 驅動疾病，如核心結合因子急性骨髓性白血病（CBF-AML）的 3 期研究（PMID 41490515）。
 
 **若要推進需要：**
 - 取得 RIST 等合併方案的前瞻性臨床數據，並確認尤文氏肉瘤亞型的療效

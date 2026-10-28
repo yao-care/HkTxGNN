@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Flucloxacillin
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 381
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Flucloxacillin：預測新適應症為結膜炎 (Conjunctivitis)（證據等級 L4）。原適應症：香港許可證未登載適應症文字"
@@ -14,7 +14,7 @@ predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Pr
 # Flucloxacillin
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**結膜炎 (Conjunctivitis)** 有效，但目前*
 |------|------|
 | 原適應症 | 香港許可證未登載適應症文字 |
 | 預測新適應症 | 結膜炎 (Conjunctivitis) |
-| TxGNN 預測分數 | 99.84% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| TxGNN 預測分數 | 0.9984 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ---

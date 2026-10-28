@@ -4,17 +4,17 @@ title: Nebivolol
 parent: 僅模型預測 (L5)
 nav_order: 611
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Nebivolol：預測新適應症為惡性腎血管性高血壓 (Malignant Renovascular Hypertension)（證據等級 L5）。原適應症：高血壓（hypertension / hypertensive disorder）"
 monitor_inn: "NEBIVOLOL"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+description: "Nebivolol：預測新適應症為Malignant hypertensive renal disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Nebivolol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 
 </div>
 
-## Nebivolol：從高血壓到惡性腎血管性高血壓
+## Nebivolol: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## 一句話總結
 
 Nebivolol 是一種 β1 選擇性阻斷劑，原本用於治療高血壓。
-TxGNN 模型預測它可能對**惡性腎血管性高血壓 (Malignant Renovascular Hypertension)** 有效，
 但目前**沒有相關臨床試驗**，也**沒有直接針對此適應症的文獻**，僅有模型預測。
 
 ---
@@ -48,12 +47,12 @@ TxGNN 模型預測它可能對**惡性腎血管性高血壓 (Malignant Renovascu
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 高血壓（hypertension / hypertensive disorder） |
-| 預測新適應症 | 惡性腎血管性高血壓 (Malignant Renovascular Hypertension) |
-| TxGNN 預測分數 | 99.42% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Malignant hypertensive renal disease |
+| TxGNN 預測分數 | 0.9942 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold |
 
 ---
@@ -64,7 +63,7 @@ TxGNN 模型預測它可能對**惡性腎血管性高血壓 (Malignant Renovascu
 
 不過，惡性腎血管性高血壓主要由腎動脈狹窄引起腎素－血管收縮素系統活化所驅動，是一種獨特且屬緊急狀況的疾病，與一般高血壓的病理機轉並不相同。因此，0.994 的高分僅是模型預測，不能直接視為療效證據。
 
-同一批預測中，還包括惡性高血壓性腎病（排名 2，分數 99.42%）、肺動脈高壓（排名 3、4，分數 99.39%）及 Braddock 症候群（排名 5，分數 99.14%）。這些預測目前同樣缺乏直接的臨床證據。
+同一批預測中，還包括惡性高血壓性腎病（排名 2，分數 0.9942）、肺動脈高壓（排名 3、4，分數 0.9939）及 Braddock 症候群（排名 5，分數 0.9914）。這些預測目前同樣缺乏直接的臨床證據。
 
 ---
 

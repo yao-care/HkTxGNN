@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Valine：預測新適應症為硬化性膽管炎 (Sclerosing Cholangitis)（證據等級 L4）。原適應症：目前許可證資料未載明核准適應症"
 monitor_inn: "Valine"
-predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
+predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
 ---
 
 # Valine
@@ -49,9 +49,9 @@ TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** �
 |------|------|
 | 原適應症 | 目前許可證資料未載明核准適應症 |
 | 預測新適應症 | 硬化性膽管炎 (Sclerosing Cholangitis) |
-| TxGNN 預測分數 | 99.42% |
+| TxGNN 預測分數 | 0.9942 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** �
 
 慢性膽汁淤積性肝病（包括原發性膽汁性膽管炎與原發性硬化性膽管炎）中，已有研究描述支鏈胺基酸與芳香族胺基酸比例失衡。這是本預測唯一合理的連結，但屬於間接關聯。
 
-需要強調的是，目前的文獻只顯示代謝異常與疾病相關，並未顯示補充纈胺酸能改善硬化性膽管炎的結果。高預測分數更可能反映知識圖譜上的網路相似性，而非實際療效。
+需要強調的是，目前的文獻只顯示代謝異常與疾病相關，並未顯示補充纈胺酸能改善硬化性膽管炎的結果。高預測分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
 ---
 

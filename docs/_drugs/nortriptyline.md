@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nortriptyline
-parent: 僅模型預測 (L5)
+parent: 中證據等級 (L3-L4)
 nav_order: 631
-evidence_level: L5
+evidence_level: L3
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Nortriptyline：預測新適應症為注意力不足過動症 (Attention Deficit-Hyperactivity Disorder)（證據等級 L5）。原適應症：焦慮症、精神官能症、輕鬱症"
 monitor_inn: "NORTRIPTYLINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
+description: "Nortriptyline：預測新適應症為注意力不足過動症 (attention deficit-hyperactivity disorder)（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Nortriptyline
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+證據等級: **L3** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "attention d
 
 </div>
 
-## Nortriptyline：從焦慮症到注意力不足過動症 (ADHD)
+## Nortriptyline: 注意力不足過動症 (attention deficit-hyperactivity disorder)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對**注意力不足過動症 (Attention Deficit-Hype
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 焦慮症、精神官能症、輕鬱症（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 注意力不足過動症 (Attention Deficit-Hyperactivity Disorder) |
-| TxGNN 預測分數 | 99.42% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 注意力不足過動症 (attention deficit-hyperactivity disorder) |
+| TxGNN 預測分數 | 0.9942 |
 | 證據等級 | L3（有 RCT 與系統性回顧，但無已完成的 Phase 3 試驗登記，故採保守判定） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ## 為什麼這個預測合理？
@@ -108,7 +108,7 @@ TxGNN 模型預測它可能對**注意力不足過動症 (Attention Deficit-Hype
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 有 RCT 與 Cochrane 系統性回顧支持，機轉上與已核准的非興奮劑 ADHD 藥物相似，且 TxGNN 預測分數高 (99.42%)。
+- 有 RCT 與 Cochrane 系統性回顧支持，機轉上與已核准的非興奮劑 ADHD 藥物相似，且 TxGNN 預測分數高 (0.9942)。
 - 但缺少臨床試驗登記、仿單安全性資料與正式的 MOA 資料，且心臟安全性與交互作用風險明顯，因此只適合附帶防護措施地推進。建議限用於對一線興奮劑與非興奮劑無反應或無法耐受的患者。
 
 **若要推進需要：**
@@ -118,7 +118,7 @@ TxGNN 模型預測它可能對**注意力不足過動症 (Attention Deficit-Hype
 - 建立心電圖／QTc 監測與 CYP2D6 交互作用管理計畫
 - 確認合適的族群（兒童、青少年或成人）、劑量與給藥途徑
 
-**附註：** 第二個預測適應症「注意力不足過動症，注意力不足型」(TxGNN 99.33%) 目前無任何臨床試驗或文獻，僅屬 ADHD 的亞型，其高分可能來自與上位疾病的本體論關聯，建議決策為 Hold，應併入 ADHD 的整體評估。
+**附註：** 第二個預測適應症「注意力不足過動症，注意力不足型」(TxGNN 0.9933) 目前無任何臨床試驗或文獻，僅屬 ADHD 的亞型，其高分可能來自與上位疾病的本體論關聯，建議決策為 Hold，應併入 ADHD 的整體評估。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

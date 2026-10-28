@@ -6,9 +6,9 @@ nav_order: 316
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Emicizumab：預測新適應症為後天性凝血因子缺乏 (Acquired coagulation factor deficiency)，以後天性血友病 A 為主（證據等級 L5）。原適應症：血友病（hemophilia）、女性帶因者的症狀性血友病"
 monitor_inn: "EMICIZUMAB"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombotic thrombocytopenic purpura", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
+description: "Emicizumab：預測新適應症為Pseudo-von Willebrand disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Emicizumab
@@ -33,7 +33,7 @@ predicted_indications: ["pseudo-von Willebrand disease", "primary release disord
 
 </div>
 
-## Emicizumab：從血友病到後天性血友病 A（後天性凝血因子缺乏）
+## Emicizumab: Pseudo-von Willebrand disease
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,15 +47,15 @@ TxGNN 模型的首位預測為 pseudo-von Willebrand disease，但該預測完�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 血友病（hemophilia）、女性帶因者的症狀性血友病（香港許可證未收錄適應症文字） |
-| 預測新適應症 | 後天性凝血因子缺乏 (Acquired coagulation factor deficiency)，以後天性血友病 A 為主 |
-| TxGNN 預測分數 | 99.90%（全體排名第 2678） |
-| 證據等級 | L2（僅有單臂、非隨機試驗，未達 L1） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Pseudo-von Willebrand disease |
+| TxGNN 預測分數 | 0.9999 |
+| 證據等級 | L5（僅有單臂、非隨機試驗，未達 L1） |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Proceed with Guardrails |
 
-> 說明：TxGNN 分數最高的前三項預測（pseudo-von Willebrand disease 99.99%、primary release disorder of platelets 99.99%、Glanzmann thrombasthenia 99.98%）分數雖高，但缺乏臨床證據或機轉依據，詳見結論。
+> 說明：TxGNN 分數最高的前三項預測（pseudo-von Willebrand disease 0.9999、primary release disorder of platelets 0.9999、Glanzmann thrombasthenia 0.9998）分數雖高，但缺乏臨床證據或機轉依據，詳見結論。
 
 ---
 

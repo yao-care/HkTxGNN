@@ -4,17 +4,17 @@ title: Pyrazinamide
 parent: 僅模型預測 (L5)
 nav_order: 747
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Pyrazinamide：預測新適應症為感染性中耳炎 (Infectious Otitis Media)（證據等級 L5）。原適應症：肺結核、結核性腦膜炎"
+indication_count: 10
 monitor_inn: "PYRAZINAMIDE"
-predicted_indications: ["infectious otitis media", "middle ear disease", "otosalpingitis", "chronic otitis media", "suppurative otitis media"]
+predicted_indications: ["infectious otitis media", "middle ear disease", "otosalpingitis", "chronic otitis media", "suppurative otitis media", "non-suppurative otitis media", "middle ear cholesterol granuloma", "allergic otitis media", "Lyme disease", "infectious otitis interna"]
+last_modified_at: 2026-10-23
+description: "Pyrazinamide：預測新適應症為感染性中耳炎 (Infectious Otitis Media)（證據等級 L5）。原適應症：肺結核、結核性腦膜炎"
 ---
 
 # Pyrazinamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,102 +33,84 @@ predicted_indications: ["infectious otitis media", "middle ear disease", "otosal
 
 </div>
 
-## Pyrazinamide：從肺結核到感染性中耳炎
+## Pyrazinamide：從結核病到感染性中耳炎
 {: .text-alpha }
 
 ## 一句話總結
 
-Pyrazinamide 是抗結核藥物，原本用於肺結核與結核性腦膜炎的治療。
-TxGNN 模型預測它可能對**感染性中耳炎 (Infectious Otitis Media)** 有效，但目前**沒有臨床試驗**，僅有數篇與結核性中耳炎相關的個案報告，證據仍以模型預測為主。
-
----
+Pyrazinamide（吡嗪醯胺）是抗結核藥物，知識圖譜記錄的使用方向為肺結核與結核性腦膜炎。
+TxGNN 模型預測它可能對**感染性中耳炎 (Infectious Otitis Media)** 有效，但目前**沒有臨床試驗和文獻**直接支持這個預測。
+僅有的相關文獻是結核性中耳炎的個案報告，屬於結核病本身的治療，並非真正的新適應症。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 肺結核、結核性腦膜炎（香港許可證未載明適應症文字，此處依知識圖譜資料） |
+| 原適應症 | 肺結核、結核性腦膜炎（知識圖譜記錄的關係；香港許可證未載明適應症文字） |
 | 預測新適應症 | 感染性中耳炎 (Infectious Otitis Media) |
-| TxGNN 預測分數 | 99.96% |
-| 證據等級 | L5（僅有模型預測） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| TxGNN 預測分數 | 0.9996 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
-
-> 備註：此次預測的前 5 名皆為中耳或耳部疾病。排名第 2、4、5 的疾病（中耳疾病、慢性中耳炎、化膿性中耳炎）有少量個案文獻，證據等級為 L4，但都僅涉及結核性病因。
-
----
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Pyrazinamide 僅對結核分枝桿菌 (*Mycobacterium tuberculosis*) 有活性，通常與 rifampicin、isoniazid 等藥物合併使用。
+目前缺乏詳細的作用機轉資料。Pyrazinamide 是一種前驅藥，在酸性環境下會轉變為活性型態 pyrazinoic acid，只對結核分枝桿菌 (*Mycobacterium tuberculosis*) 有活性。
 
-從模型預測的角度，中耳疾病與結核病在知識圖譜上距離很近，因此得分很高。但這較可能反映網路鄰近性，而不是真正的治療連結。常見的中耳炎病原菌（肺炎鏈球菌、流感嗜血桿菌、卡他莫拉菌）以及病毒，Pyrazinamide 都不具預期的活性。
+一般感染性中耳炎的常見致病菌為肺炎鏈球菌、流感嗜血桿菌與卡他莫拉菌，Pyrazinamide 對這些細菌沒有已知活性。因此，這個高分預測缺乏機轉上的支持。分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，不是生物學證據。
 
-唯一合理的情境是**結核性中耳炎**。這種情況下，Pyrazinamide 是標準多藥抗結核療法的一部分，屬於原適應症的延伸，並非真正的藥物再利用。對於非結核性的中耳炎，目前沒有證據支持使用。
-
----
+唯一合理的情境是罕見的結核性中耳炎，此時 Pyrazinamide 作為標準抗結核複方的一部分使用，屬於原適應症（結核病）在肺外部位的延伸，而非真正的藥物再利用。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
-以下為排名第 2 至 5 名的預測（中耳疾病、慢性中耳炎、化膿性中耳炎）所對應的文獻。排名第 1 的感染性中耳炎沒有檢索到文獻。所有文獻均為個案報告或動物研究，沒有 RCT 或系統性回顧。
+針對「感染性中耳炎」本身，目前無相關文獻。
+
+以下為相鄰疾病（中耳疾病、慢性／化膿性中耳炎）的文獻，均為個案報告，且皆指向結核性中耳炎，並非直接研究感染性中耳炎：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [26785789](https://pubmed.ncbi.nlm.nih.gov/26785789/) | 2013 | 個案報告 | Int J Mycobacteriol | 55 歲女性鼻腔與中耳結核，使用 rifampicin、isoniazid、pyrazinamide 治療 9 個月，追蹤一年無復發 |
-| [15168420](https://pubmed.ncbi.nlm.nih.gov/15168420/) | 2004 | 個案報告 | Am J Kidney Dis | 腎臟移植受贈者的結核性中耳炎，先前多次經驗性抗生素治療無效 |
-| [41783873](https://pubmed.ncbi.nlm.nih.gov/41783873/) | 2026 | 個案報告 | Cureus | 耳漏背後隱藏結核性中耳炎，因表現不典型而延遲診斷 |
-| [8011030](https://pubmed.ncbi.nlm.nih.gov/8011030/) | 1994 | 個案報告／臨床觀察 | Laryngo-Rhino-Otologie | 12 例頭頸部結核，其中 1 例發生於中耳 |
-| [41262919](https://pubmed.ncbi.nlm.nih.gov/41262919/) | 2025 | 個案報告 | Front Pediatr | 兒童眼眶顏面結核延伸至顱底與海綿竇，與中耳炎僅間接相關 |
-| [1985808](https://pubmed.ncbi.nlm.nih.gov/1985808/) | 1991 | 個案報告 | Dtsch Med Wochenschr | 多器官結核合併單側薦髂關節炎與嚴重耳痛，與中耳炎僅間接相關 |
-| [21439219](https://pubmed.ncbi.nlm.nih.gov/21439219/) | 2011 | 動物研究 | J Am Assoc Lab Anim Sci | 感染結核菌的小鼠出現斜頸，與中耳疾病僅間接相關 |
-
----
+| [26785789](https://pubmed.ncbi.nlm.nih.gov/26785789/) | 2013 | Case report | Int J Mycobacteriol | 55 歲女性鼻腔與中耳結核，以 rifampicin、isoniazid、pyrazinamide 治療 9 個月，追蹤一年無復發 |
+| [15168420](https://pubmed.ncbi.nlm.nih.gov/15168420/) | 2004 | Case report | Am J Kidney Dis | 腎臟移植受贈者的結核性中耳炎，先前多次經驗性抗生素治療無效 |
+| [41783873](https://pubmed.ncbi.nlm.nih.gov/41783873/) | 2026 | Case report | Cureus | 結核性中耳炎表現隱匿，常延遲診斷 |
+| [8011030](https://pubmed.ncbi.nlm.nih.gov/8011030/) | 1994 | Case report | Laryngo- rhino- otologie | 12 例頭頸部結核，其中 1 例位於中耳 |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-34750 | PYRAFAT TAB 500MG（MEKIM LTD） | 未載明 | 未載明 |
-| HK-06490 | PYRAZINAMIDE TAB 500MG（ATLANTIC PHARMACEUTICAL LIMITED） | 未載明 | 未載明 |
-| HK-26892 | RIFATER TAB（SANOFI HONG KONG LIMITED） | 未載明 | 未載明 |
-
-三張許可證皆為有效狀態，且皆登記為單一成分。
-
----
+| HK-34750 | PYRAFAT TAB 500MG | 未載明 | 未載明 |
+| HK-06490 | PYRAZINAMIDE TAB 500MG | 未載明 | 未載明 |
+| HK-26892 | RIFATER TAB | 未載明 | 未載明 |
 
 ## 安全性考量
 
-- **知識圖譜中的禁忌疾病**（來自知識圖譜的藥物-疾病禁忌關聯，非仿單原文）：肝衰竭、急性肝衰竭、肝病、肝炎、遺傳性紫質症、紫質代謝疾病、紫質症、膽囊疾病、糖尿病、糖尿病酮酸中毒、痛風、周邊神經系統疾病、周邊神經病變、物質濫用／依賴、慢乙醯化者。
-- **藥物交互作用**：共查得 56 筆，以下列出分級為中度者。
-  - Picosulfuric acid（中度）
-  - Naltrexone（中度）
-  - 其餘多數交互作用（如 pantoprazole、omeprazole、prednisone、streptomycin、metronidazole 等）的嚴重度分級為未知，需進一步查證。
+- **知識圖譜記錄的禁忌關係**（非仿單內容）：肝衰竭、急性肝衰竭、肝病、肝炎、紫質症（含遺傳性紫質症、紫質代謝疾病）、膽囊疾病、糖尿病、糖尿病酮酸中毒、痛風、周邊神經系統疾病、周邊神經病變、物質濫用／依賴、慢乙醯化型。
+- **藥物交互作用**：共查得 56 筆，以下為部分項目。
+  - 中度：Picosulfuric acid、Naltrexone
+  - 其他（嚴重程度未定）：Pantoprazole、Omeprazole、Lansoprazole、Prednisone、Prednisolone、Amphotericin B、Streptomycin、Metronidazole、Glyburide、Acetylsalicylic acid 等
 
-仿單中的警語與禁忌資料尚未取得，完整安全性資訊請參考原廠仿單。
-
----
+詳細警語與禁忌請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- TxGNN 分數雖高（99.96%），但沒有任何臨床試驗，文獻僅為個案報告，且都屬於結核性中耳炎。Pyrazinamide 在其中只是標準抗結核療法的一環，不是新的適應症。對一般感染性中耳炎，沒有機轉或臨床證據支持。
-- 香港仿單的警語與禁忌尚未取得，安全性篩選無法進行。
+- 針對感染性中耳炎沒有任何臨床試驗或直接研究，Pyrazinamide 對一般中耳炎致病菌也無已知活性，因此證據等級為 L5。
+- 現有文獻僅涉及結核性中耳炎，屬於原抗結核適應症的延伸，不能支持對一般感染性中耳炎的再利用。
 
 **若要推進需要：**
-- 取得香港衛生署的仿單資料，完成警語、禁忌與適應症的比對。
-- 補齊 Pyrazinamide 的作用機轉資料。
-- 將研究範圍限定在「結核性中耳炎」這個亞群，並整理其治療指引與病例系列，評估是否值得獨立列為適應症。
-- 對一般非結核性中耳炎，除非有新的機轉或實驗證據，否則不建議推進。
-- 針對肝功能、痛風與糖尿病等高風險族群，擬定監測計畫。
+- 補充 Pyrazinamide 的作用機轉資料
+- 取得香港仿單的警語、禁忌與核准適應症文字
+- 體外試驗確認對中耳炎常見致病菌是否有活性，以及中耳組織的藥物穿透性
+- 若聚焦結核性中耳炎，則應視為原適應症的肺外延伸，另行評估，而非再利用案例
+
+**其他預測的補充說明：**排名前 10 的預測中，多數為耳部疾病，且皆無試驗支持。「萊姆病」雖有間接的假說性訊號（針對休眠菌的概念），但檢索到的文獻是 dapsone 複方與一般性回顧，並非 Pyrazinamide 專屬的臨床證據，僅可視為研究問題。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

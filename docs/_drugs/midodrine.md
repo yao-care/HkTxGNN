@@ -6,9 +6,9 @@ nav_order: 586
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Midodrine：預測新適應症為低血壓性疾患 (Hypotensive disorder)（證據等級 L5）。原適應症：姿位性低血壓、多系統萎縮、姿勢性心搏過速症候群"
 monitor_inn: "Midodrine"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
+description: "Midodrine：預測新適應症為Variably protease-sensitive prionopathy（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Midodrine
@@ -33,7 +33,7 @@ predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitog
 
 </div>
 
-## Midodrine：從姿位性低血壓到低血壓性疾患
+## Midodrine: Variably protease-sensitive prionopathy
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測分數最高的新適應症是**朊病毒相關疾病 (variabl
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 姿位性低血壓、多系統萎縮、姿勢性心搏過速症候群（來自知識圖譜；香港許可證未列適應症文字） |
-| 預測新適應症 | 低血壓性疾患 (Hypotensive disorder)（TxGNN 排名第 4；排名第 1 為 variably protease-sensitive prionopathy，無證據支持） |
-| TxGNN 預測分數 | 99.90%（低血壓性疾患）；排名第 1 的朊病毒相關疾病為 99.99% |
-| 證據等級 | L2（低血壓性疾患）；L5（排名第 1 的預測） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 3 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Variably protease-sensitive prionopathy |
+| TxGNN 預測分數 | 0.9999 |
+| 證據等級 | L5（低血壓性疾患）；L5（排名第 1 的預測） |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Proceed with Guardrails（低血壓性疾患）；其他預測為 Hold |
 
 ---
@@ -65,7 +65,7 @@ TxGNN 模型預測分數最高的新適應症是**朊病毒相關疾病 (variabl
 低血壓性疾患與藥物既有的姿位性低血壓適應症在病理生理上高度重疊，所以模型給出高分並不意外。需要強調的是，這個預測大致只是重述現有用途，**不能算真正的藥物再利用發現**。
 
 其他高分預測則缺乏合理依據：
-- **朊病毒相關疾病、Aarskog-Scott 症候群（faciodigitogenital syndrome）、單基因肥胖、已廢棄的 hypertelorism 條目**：機轉上沒有關聯，很可能是知識圖譜的假象。
+- **朊病毒相關疾病、Aarskog-Scott 症候群（faciodigitogenital syndrome）、單基因肥胖、已廢棄的 hypertelorism 條目**：機轉上沒有關聯；這些分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 - **注意力不足過動症（ADHD）**：Midodrine 是周邊 α1 促效劑，中樞神經穿透有限，與 guanfacine 等 α2 促效劑不同。僅有的 1 篇文獻是日本直立調節障礙的描述性研究，不能證明對 ADHD 有效。
 - **竇房結疾病、竇房傳導阻滯**：Midodrine 可能造成反射性心搏過緩，在這類患者身上更像是安全警訊，而非治療機會。
 
@@ -140,7 +140,7 @@ TxGNN 模型預測分數最高的新適應症是**朊病毒相關疾病 (variabl
 - 取得香港衛生署核准仿單，釐清許可證的核准適應症、警語與禁忌症
 - 補充作用機轉資料（MOA）
 - 對低血壓性疾患，需有更大規模的對照試驗，並建立仰臥高血壓與心率的監測計畫
-- 排除或重新審視知識圖譜中明顯不合理的預測（如已廢棄的 hypertelorism 條目）
+- 排除或重新審視 TxGNN 模型（深度學習）中明顯不合理的預測（如已廢棄的 hypertelorism 條目）
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

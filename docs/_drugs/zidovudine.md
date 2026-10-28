@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Zidovudine
-parent: 僅模型預測 (L5)
+parent: 中證據等級 (L3-L4)
 nav_order: 950
-evidence_level: L5
-indication_count: 5
+evidence_level: L4
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Zidovudine：預測新適應症為猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)（證據等級 L5）。原適應症：HIV 感染、AIDS"
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+description: "Zidovudine：預測新適應症為猿猴免疫缺陷病毒感染 (simian immunodeficiency virus infection)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Zidovudine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L4** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 
 </div>
 
-## Zidovudine：從 HIV 感染到猿猴免疫缺陷病毒感染
+## Zidovudine: 猿猴免疫缺陷病毒感染 (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,23 +48,22 @@ TxGNN 模型排名第一的預測為**猿猴免疫缺陷病毒感染 (Simian Imm
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | HIV 感染、AIDS（取自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection) |
-| TxGNN 預測分數 | 99.96% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 猿猴免疫缺陷病毒感染 (simian immunodeficiency virus infection) |
+| TxGNN 預測分數 | 0.9996 |
 | 證據等級 | L4（僅有動物與體外研究） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 8 張 |
+| 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
+| 許可證數 | 8 張（有效 8 張） |
 | 建議決策 | Hold |
 
 **其他預測適應症一覽：**
 
 | 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
 |------|-----------|-----------|---------|------|
-| 1 | 猿猴免疫缺陷病毒感染 | 99.96% | L4 | Hold |
-| 2 | 貓後天免疫缺陷症候群（獸醫適應症） | 99.96% | L4 | Hold |
-| 3 | 伴隨共濟失調步態、無語言及皮質白質減少的神經發展障礙 | 99.96% | L5 | Hold |
-| 4 | 已廢止的家族性複合型高脂血症 | 99.62% | L5 | Hold |
-| 5 | 先天性 HIV (Congenital HIV) | 99.19% | L1 | Proceed with Guardrails |
+| 1 | 猿猴免疫缺陷病毒感染 | 0.9996 | L4 | Hold |
+| 2 | 貓後天免疫缺陷症候群（獸醫適應症） | 0.9996 | L5 | Hold |
+| 3 | 伴隨共濟失調步態、無語言及皮質白質減少的神經發展障礙 | 0.9996 | L5 | Hold |
+| 4 | 已廢止的家族性複合型高脂血症 | 0.9962 | L5 | Hold |
 
 ---
 

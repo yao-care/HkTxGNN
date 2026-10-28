@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Atosiban：預測新適應症為原發性遺傳性青光眼 (Primary Hereditary Glaucoma)（證據等級 L5）。原適應症：許可證未列適應症文字"
 monitor_inn: "ATOSIBAN"
-predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "alopecia", "hypotrichosis simplex of the scalp", "vascular disease", "diffuse alopecia areata", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "visceral calciphylaxis"]
+predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "alopecia", "hypotrichosis simplex of the scalp", "vascular disease", "diffuse alopecia areata", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "visceral calciphylaxis"]
 ---
 
 # Atosiban
@@ -47,17 +47,17 @@ TxGNN 模型預測它可能對**原發性遺傳性青光眼 (Primary Hereditary 
 |------|------|
 | 原適應症 | 許可證未列適應症文字；藥理資料顯示為抑制早產宮縮（妊娠 24–33 週） |
 | 預測新適應症 | 原發性遺傳性青光眼 (Primary Hereditary Glaucoma) |
-| TxGNN 預測分數 | 99.92% |
+| TxGNN 預測分數 | 0.9992 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 7 張 |
+| 香港上市 | 上市中（有效許可證 7 張／共 7 張） |
+| 許可證數 | 7 張（有效 7 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
 目前缺乏詳細的作用機轉資料。根據藥理資料，atosiban 是催產素受體（OXTR）與血管加壓素 V1A 受體的拮抗劑，並與 V1B、V2 受體有交互作用。
 
-目前沒有任何資料把這條路徑與遺傳性青光眼連結起來。高分只反映知識圖譜中的關聯，不代表已證實的機轉。催產素／血管加壓素受體影響房水動力或眼壓的說法，目前屬推測，缺乏資料支持。
+目前沒有任何資料把這條路徑與遺傳性青光眼連結起來。高分來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，不代表生物學證據，也不代表已證實的機轉。催產素／血管加壓素受體影響房水動力或眼壓的說法，目前屬推測，缺乏資料支持。
 
 其他高分預測（開角型青光眼、脫髮相關疾病等）同樣沒有試驗或文獻。唯一有文獻的是「血管疾病」（第 6 名），但內容多為催產素的心臟保護前臨床研究，並非測試 atosiban 本身。這類研究甚至提示，拮抗催產素可能抵消其保護作用。
 

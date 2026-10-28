@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Imatinib
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 459
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Imatinib：預測新適應症為心臟纖維肉瘤 (Heart Fibrosarcoma)（證據等級 L4）。原適應症：系統性肥大細胞增生症、胃腸道間質瘤、BCR-ABL1 陽性慢性骨髓性白血病、慢性嗜酸性白血病、隆突性皮膚纖維肉瘤、嗜酸性白血球增多症候群"
 monitor_inn: "Imatinib"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
+description: "Imatinib：預測新適應症為心臟纖維肉瘤 (heart fibrosarcoma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Imatinib
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventi
 
 </div>
 
-## Imatinib：從慢性骨髓性白血病與胃腸道間質瘤到心臟纖維肉瘤
+## Imatinib: 心臟纖維肉瘤 (heart fibrosarcoma)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**心臟纖維肉瘤 (Heart Fibrosarcoma)** 有效
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 系統性肥大細胞增生症、胃腸道間質瘤、BCR-ABL1 陽性慢性骨髓性白血病、慢性嗜酸性白血病、隆突性皮膚纖維肉瘤、嗜酸性白血球增多症候群（取自知識圖譜，香港許可證未提供適應症文字） |
-| 預測新適應症 | 心臟纖維肉瘤 (Heart Fibrosarcoma) |
-| TxGNN 預測分數 | 99.94% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 18 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 心臟纖維肉瘤 (heart fibrosarcoma) |
+| TxGNN 預測分數 | 0.9994 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 18 張／共 18 張） |
+| 許可證數 | 18 張（有效 18 張） |
 | 建議決策 | Hold |
 
 ---
@@ -130,7 +130,7 @@ TxGNN 模型預測它可能對**心臟纖維肉瘤 (Heart Fibrosarcoma)** 有效
 - 取得香港衛生署仿單，補齊警語與禁忌。
 - 取得完整的作用機轉資料。
 - 搜尋 Imatinib 用於心臟肉瘤的病例報告或病例系列，並確認腫瘤是否有 PDGFR/KIT 活化。
-- 評估心臟毒性風險，因為此為心臟原發腫瘤病人，且知識圖譜顯示與心衰竭、心包積液有關。
+- 評估心臟毒性風險，因為此為心臟原發腫瘤病人，且 TxGNN 模型（深度學習）的預測可能反映模型學到的相關疾病之間的相似性，並非生物學證據。
 
 **補充觀察（其他預測適應症）：**
 - 纖維母細胞腫瘤（fibroblastic neoplasm）的文獻幾乎都在討論 DFSP，而 DFSP 已是 Imatinib 的既有適應症，因此並非新的再利用機會。

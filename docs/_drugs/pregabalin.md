@@ -4,17 +4,17 @@ title: Pregabalin
 parent: 僅模型預測 (L5)
 nav_order: 729
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Pregabalin：預測新適應症為肌腱炎 (Tendinitis)（證據等級 L5）。原適應症：焦慮症、纖維肌痛、肌筋膜疼痛症候群、帶狀疱疹後神經痛"
+indication_count: 6
 monitor_inn: "PREGABALIN"
-predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder"]
+predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
+last_modified_at: 2026-10-23
+description: "Pregabalin：預測新適應症為肌腱炎 (Tendinitis)（證據等級 L5）。原適應症：香港許可證資料中未載明核准適應症"
 ---
 
 # Pregabalin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,33 @@ predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomat
 
 </div>
 
-## Pregabalin：從焦慮症、纖維肌痛到肌腱炎
+## Pregabalin：從焦慮症、纖維肌痛等已知用途到肌腱炎
 {: .text-alpha }
-
-predicted_indications[0] 為肌腱炎（tendinitis），但 rank 5 的偏頭痛（migraine disorder）證據明顯較充分。下文以 rank 1 為主軸，並在結論補充偏頭痛的比較。
 
 ## 一句話總結
 
-Pregabalin 原本用於焦慮症、纖維肌痛、肌筋膜疼痛症候群與帶狀疱疹後神經痛。
-TxGNN 模型預測它可能對**肌腱炎 (Tendinitis)** 有效，但目前**沒有相關臨床試驗**，且檢索到的 6 篇文獻皆未直接研究以 pregabalin 治療肌腱炎，證據僅停留在模型預測層級。
+Pregabalin 在知識圖譜中記錄的用途包括焦慮症、纖維肌痛、肌筋膜疼痛症候群與帶狀疱疹後神經痛。
+TxGNN 模型預測它可能對**肌腱炎 (Tendinitis)** 有效，但目前**沒有臨床試驗**，文獻也未直接研究肌腱炎本身，證據僅屬模型預測層級。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 焦慮症、纖維肌痛、肌筋膜疼痛症候群、帶狀疱疹後神經痛（來自知識圖譜，香港許可證未載明適應症文字） |
+| 原適應症 | 香港許可證資料中未載明核准適應症；知識圖譜記錄的關聯用途為焦慮症、纖維肌痛、肌筋膜疼痛症候群、帶狀疱疹後神經痛（非核准適應症） |
 | 預測新適應症 | 肌腱炎 (Tendinitis) |
-| TxGNN 預測分數 | 99.71% |
-| 證據等級 | L5（僅有模型預測，無直接研究；文獻評分標示為 L4，但內容未直接涉及肌腱炎） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 20 張 |
+| TxGNN 預測分數 | 0.9971 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 許可證數 | 至少 20 張（清單可能不完整） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（原廠 MOA 欄位無資料）。依一般藥理知識，pregabalin 結合電壓閘控鈣離子通道的 α2δ 亞單位，減少興奮性神經傳導物質釋放，因此可緩解神經病變性或中樞敏感化的疼痛。
+目前缺乏詳細的作用機轉資料。根據一般藥理知識，pregabalin 可結合電壓門控鈣離子通道的 alpha-2-delta 次單元，減少興奮性神經傳導物質釋放，可能緩解神經病變性與傷害感受性疼痛。
 
-肌腱炎主要是發炎或退化性的肌肉骨骼疾病，與 pregabalin 已核准的神經痛、纖維肌痛、肌筋膜疼痛有部分疼痛機轉重疊，但關聯是間接的，最多只能作為疼痛控制的輔助。0.997 的高分是圖譜運算結果，不等於臨床證據。
+TxGNN 模型（深度學習）對肌腱炎給出的分數，可能反映模型從相關疾病（如 pregabalin 相關的纖維肌痛、肌筋膜疼痛等疼痛症候群）學到的相似性，而非生物學證據。這最多代表症狀性止痛的可能，並無證據顯示它能改變肌腱本身的病理。
+
+模型分數雖高（0.9971），但沒有任何文獻直接研究 pregabalin 用於肌腱炎，因此分數不應被視為療效證據。
 
 ## 臨床試驗證據
 
@@ -67,52 +67,49 @@ TxGNN 模型預測它可能對**肌腱炎 (Tendinitis)** 有效，但目前**沒
 
 ## 文獻證據
 
+以下文獻均未直接研究 pregabalin 治療肌腱炎：
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | RCT | Arthroscopy | 關節鏡肩袖修補術後，口服 pregabalin 的疼痛分數與肌間溝臂叢神經阻斷相當；屬術後鎮痛，非肌腱炎治療 |
-| [32839073](https://pubmed.ncbi.nlm.nih.gov/32839073/) | 2021 | 回溯性世代研究 | J Orthop Sci | 評估肩袖修補術後 pregabalin 的鎮痛與減少鴉片類用量效果；非肌腱炎 |
-| [41017607](https://pubmed.ncbi.nlm.nih.gov/41017607/) | 2025 | 病例報告/回顧 | Praxis | 環丙沙星相關氟喹諾酮失能（含肌腱病變等副作用）；與 pregabalin 治療無關 |
-| [37051935](https://pubmed.ncbi.nlm.nih.gov/37051935/) | 2023 | 病例報告 | Pain Pract | 馬拉松後股後皮神經壓迫，與腿後肌腱炎相關；未評估 pregabalin |
-| [40818536](https://pubmed.ncbi.nlm.nih.gov/40818536/) | 2025 | 社論 | Arthroscopy | 梨狀肌症候群的診斷與坐骨神經鬆解；與 pregabalin 無關 |
-| [39703364](https://pubmed.ncbi.nlm.nih.gov/39703364/) | 2024 | 前臨床（動物） | Adv Pharmacol Pharm Sci | 植物萃取物改善長春新鹼誘發的大鼠神經病變；與 pregabalin 治療肌腱炎無關 |
+| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | RCT | Arthroscopy | 關節鏡肩袖修補術後，口服 pregabalin 的術後疼痛評分與肌間溝臂神經叢阻斷相當（術後急性疼痛，非肌腱炎） |
+| [32839073](https://pubmed.ncbi.nlm.nih.gov/32839073/) | 2021 | 回溯性世代研究 | J Orthop Sci | 評估 pregabalin 於肩袖修補術後的止痛與節省鴉片類效果（間接證據） |
+| [41017607](https://pubmed.ncbi.nlm.nih.gov/41017607/) | 2025 | 病例報告 | Praxis | 環丙沙星相關失能個案，提及肌腱病變為氟喹諾酮副作用 |
+| [40818536](https://pubmed.ncbi.nlm.nih.gov/40818536/) | 2025 | 社論 | Arthroscopy | 梨狀肌症候群的診斷與坐骨神經鬆解術 |
+| [37051935](https://pubmed.ncbi.nlm.nih.gov/37051935/) | 2023 | 病例報告 | Pain Pract | 馬拉松後股後皮神經壓迫，與肌腱炎相關 |
+| [39703364](https://pubmed.ncbi.nlm.nih.gov/39703364/) | 2024 | 前臨床 | Adv Pharmacol Pharm Sci | 植物萃取物於大鼠長春新鹼神經病變的作用（與 pregabalin 及肌腱炎無直接關係） |
 
 ## 香港上市資訊
 
-下表列出 5 張主要許可證（共 20 張，皆為有效單方製劑；資料中未載明劑型與核准適應症文字）。
+香港共有至少 20 張 pregabalin 單方許可證（清單可能不完整），以下列出 5 張。資料中未提供劑型與核准適應症文字。
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-53029 | LYRICA CAP 25MG | 膠囊 | 未載明 |
-| HK-53026 | LYRICA CAP 300MG | 膠囊 | 未載明 |
-| HK-62124 | BRILLIOR CAPSULES 50MG | 膠囊 | 未載明 |
-| HK-63581 | PREGABALIN SANDOZ CAPSULES 50MG | 膠囊 | 未載明 |
-| HK-68026 | PREGABALIN TEVA CAPSULES 25MG | 膠囊 | 未載明 |
+| HK-53029 | LYRICA CAP 25MG | 膠囊 | 未提供 |
+| HK-53026 | LYRICA CAP 300MG | 膠囊 | 未提供 |
+| HK-66282 | PRELYNCA CAPSULES 75MG | 膠囊 | 未提供 |
+| HK-68026 | PREGABALIN TEVA CAPSULES 25MG | 膠囊 | 未提供 |
+| HK-62124 | BRILLIOR CAPSULES 50MG | 膠囊 | 未提供 |
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌相關疾病**（非仿單內容）：焦慮症、神經症、輕鬱症、血小板低下、血管性水腫（含遺傳性與後天性）、肌病變與肌肉疾病、橫紋肌溶解症、家族性週期性麻痺、結節性筋膜炎、腎功能不全、房室傳導阻滯。
-- **藥物交互作用**：共查得 100 筆，以下為主要項目。
-  - 重大（Major）：Morphine、Morphine（脂質體）。
-  - 中度（Moderate）：Pioglitazone、Rosiglitazone、Troglitazone、Difenoxin、Diphenoxylate、Dronabinol、Nabilone、Metoclopramide、Opium、Sibutramine。
-- 與鴉片類併用的中樞神經與呼吸抑制風險需特別留意。
-- 完整警語與禁忌請參考原廠仿單。
+- **知識圖譜記錄的禁忌關聯（非仿單內容）**：焦慮症、神經官能症、情緒低落性疾患、血小板低下、血管性水腫（含遺傳性、後天性及 RAAS 阻斷劑誘發）、肌病變、橫紋肌溶解、腎功能不全、房室傳導阻滯等。
+- **藥物交互作用**：共查得 100 筆，主要包括：
+  - 重大：Morphine、Morphine (liposomal)
+  - 中度：Pioglitazone、Rosiglitazone、Troglitazone、Difenoxin、Diphenoxylate、Dronabinol、Nabilone、Opium、Metoclopramide、Sibutramine
+- 仿單警語與禁忌資料尚未取得，請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 肌腱炎沒有任何臨床試驗，文獻也都不是直接研究 pregabalin 治療肌腱炎，僅有 0.997 的模型分數。
-- 作用機轉的連結間接，最多是疼痛輔助，無法改善肌腱病變本身。
+- 目前沒有任何直接研究 pregabalin 治療肌腱炎的試驗或文獻，證據僅為模型預測（L5）。
+- 即使有效，也僅可能是症狀性止痛，且肌病變等風險在知識圖譜中被列為禁忌關聯，需謹慎。
 
 **若要推進需要：**
-- 設計 pregabalin 用於肌腱炎（或肌腱病變）疼痛的對照試驗。
-- 取得詳細的作用機轉資料，並取得香港仿單的警語與禁忌。
-- 評估肌病變、腎功能不全等圖譜標示風險在目標族群的影響。
-
-**補充：其他預測適應症比較**
-- **偏頭痛（rank 5，分數 99.47%）**：有 1 個 Phase 3 試驗（NCT00447369），但已撤回、無數據；另有數項兒童隨機試驗（pregabalin 對比 valproate、propranolol）與網絡統合分析，證據評為 L2，屬值得進一步研究的方向，但多為小型兒科研究，需要確認性試驗。
-- **肌纖維化（myositis fibrosa）、特發性肉芽腫性肌炎、包涵體肌炎**：無相關研究，僅有模型預測，皆建議 Hold。
+- 取得 pregabalin 的作用機轉資料與香港仿單（警語、禁忌、核准適應症）
+- 設計針對肌腱炎疼痛的小型概念驗證試驗
+- 評估肌病變相關風險，以及與鴉片類藥物併用的安全性
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

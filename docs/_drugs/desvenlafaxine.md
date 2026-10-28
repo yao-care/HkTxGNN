@@ -4,17 +4,17 @@ title: Desvenlafaxine
 parent: 中證據等級 (L3-L4)
 nav_order: 263
 evidence_level: L4
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Desvenlafaxine：預測新適應症為強迫症 (Obsessive-Compulsive Disorder)（證據等級 L4）。原適應症：憂鬱症（單極性憂鬱、內因性憂鬱、重度憂鬱症）、焦慮症"
 monitor_inn: "DESVENLAFAXINE"
-predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "dysthymic disorder", "agoraphobia", "melancholia"]
+predicted_indications: ["obsessive-compulsive disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
+description: "Desvenlafaxine：預測新適應症為強迫症 (obsessive-compulsive disorder)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Desvenlafaxine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L4** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ predicted_indications: ["obsessive-compulsive disorder", "histrionic personality
 
 </div>
 
-## Desvenlafaxine：從憂鬱症到強迫症
+## Desvenlafaxine: 強迫症 (obsessive-compulsive disorder)
 {: .text-alpha }
 
 ## 一句話總結
 
 Desvenlafaxine 是一種血清素與正腎上腺素再回收抑制劑（SNRI），原本用於重度憂鬱症與焦慮症的治療。
 TxGNN 模型預測它可能對**強迫症 (Obsessive-Compulsive Disorder)** 有效，但目前**沒有任何臨床試驗**，僅有 **3 篇間接相關文獻**，證據相當有限。
-在所有預測中，以**輕度慢性憂鬱（持續性憂鬱症，Dysthymic Disorder）**的證據較完整（2 個臨床試驗、2 篇文獻），可作為後續優先研究的方向。
 
 ---
 
@@ -48,12 +47,12 @@ TxGNN 模型預測它可能對**強迫症 (Obsessive-Compulsive Disorder)** 有�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 憂鬱症（單極性憂鬱、內因性憂鬱、重度憂鬱症）、焦慮症（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 強迫症 (Obsessive-Compulsive Disorder) |
-| TxGNN 預測分數 | 99.91% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 強迫症 (obsessive-compulsive disorder) |
+| TxGNN 預測分數 | 0.9991 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 7 張 |
+| 香港上市 | 上市中（有效許可證 7 張／共 7 張） |
+| 許可證數 | 7 張（有效 7 張） |
 | 建議決策 | Hold |
 
 ---
@@ -64,7 +63,7 @@ TxGNN 模型預測它可能對**強迫症 (Obsessive-Compulsive Disorder)** 有�
 
 血清素系統在強迫症的病理生理中扮演關鍵角色，SSRI 與 clomipramine 的療效已獲證實，因此 SNRI 在機轉上有合理的關聯。不過，Desvenlafaxine 的血清素選擇性相對較弱，不如已證實對強迫症有效的藥物，且目前沒有任何針對強迫症的試驗。
 
-TxGNN 的高分可能部分來自精神疾病之間在知識圖譜中的相近性，不應直接視為療效證據。
+TxGNN 模型（深度學習）的高分可能反映模型學到的相關精神疾病之間的相似性，不是生物學證據，不應直接視為療效證據。
 
 ---
 
@@ -72,7 +71,6 @@ TxGNN 的高分可能部分來自精神疾病之間在知識圖譜中的相近�
 
 目前無相關臨床試驗登記（針對強迫症）。
 
-作為參考，排名第 8 的預測適應症「持續性憂鬱症 (Dysthymic Disorder)」有以下試驗：
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
@@ -124,7 +122,7 @@ TxGNN 的高分可能部分來自精神疾病之間在知識圖譜中的相近�
 
 **理由：**
 - 強迫症預測僅有模型分數與間接文獻，無任何直接試驗，且 desvenlafaxine 的血清素選擇性較弱，機轉上不如 SSRI 有說服力。
-- 其他高分預測（人格障礙、Ohdo 症候群、嬰兒良性陣發性斜頸等）多為知識圖譜的關聯假象，缺乏合理依據。
+- 其他高分預測（人格障礙、Ohdo 症候群、嬰兒良性陣發性斜頸等）的分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據，缺乏合理依據。
 
 **若要推進需要：**
 - 取得香港仿單的警語、禁忌與核准適應症，並補齊作用機轉資料

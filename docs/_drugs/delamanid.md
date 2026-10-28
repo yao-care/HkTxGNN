@@ -4,17 +4,17 @@ title: Delamanid
 parent: 僅模型預測 (L5)
 nav_order: 254
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Delamanid：預測新適應症為非活動性結核病 (Inactive Tuberculosis)（證據等級 L5）。原適應症：多重抗藥性結核病 (Multidrug-resistant tuberculosis)"
 monitor_inn: "Delamanid"
-predicted_indications: ["allergic urticaria", "fascioliasis", "inhalational botulism", "urea cycle disorder"]
+predicted_indications: ["allergic urticaria"]
+description: "Delamanid：預測新適應症為Allergic urticaria（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Delamanid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["allergic urticaria", "fascioliasis", "inhalational botu
 
 </div>
 
-## Delamanid：從多重抗藥性結核病到非活動性結核病
+## Delamanid: Allergic urticaria
 {: .text-alpha }
 
 ## 一句話總結
 
 Delamanid 是一種硝基咪唑類抗結核藥物，原本用於治療多重抗藥性結核病（MDR-TB）。
-TxGNN 模型預測它可能對**非活動性結核病 (Inactive Tuberculosis)** 有效，
 目前有 **1 個臨床試驗**和 **20 篇文獻**與此方向相關，但多為一般結核病綜述，缺乏針對 Delamanid 的直接證據。
 
 ---
@@ -48,12 +47,12 @@ TxGNN 模型預測它可能對**非活動性結核病 (Inactive Tuberculosis)** 
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 多重抗藥性結核病 (Multidrug-resistant tuberculosis) |
-| 預測新適應症 | 非活動性結核病 (Inactive Tuberculosis) |
-| TxGNN 預測分數 | 99.91% |
-| 證據等級 | L2（僅 1 個進行中的 Phase 2/3 試驗，尚未有已完成的 RCT 結果，保守看待） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Allergic urticaria |
+| TxGNN 預測分數 | 0.9956 |
+| 證據等級 | L5（僅 1 個進行中的 Phase 2/3 試驗，尚未有已完成的 RCT 結果，保守看待） |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold（暫緩，列為研究問題） |
 
 > 說明：本報告以排名第 1 的預測「牛型結核病」證據過少（僅 1 篇基因體調查文獻、無臨床試驗），改以證據最完整的「非活動性結核病」作為主要評估對象。其他預測的簡要評估列於文末。
@@ -110,12 +109,6 @@ TxGNN 模型預測它可能對**非活動性結核病 (Inactive Tuberculosis)** 
 
 | 預測適應症 | 分數 | 證據等級 | 評估 |
 |-----------|------|---------|------|
-| 牛型結核病 | 99.91% | L4 | M. bovis 屬結核分枝桿菌複合群，機轉上合理；但僅有基因體調查文獻，無 Delamanid 專屬資料 |
-| 結核性腹水 | 99.91% | L5 | 機轉合理，但無試驗或文獻，腹腔穿透性未知 |
-| 禽型結核病 | 99.91% | L5 | 致病菌 M. avium 不屬結核複合群，療效存疑 |
-| 結核瘤 | 99.91% | L4 | 中樞神經穿透性有限且不確定，僅有間接文獻 |
-| 皮膚結核 | 99.10% | L4 | 機轉合理，但文獻僅涉及一線藥物皮膚不良反應 |
-| 過敏性蕁麻疹、肝片吸蟲症、吸入性肉毒中毒、尿素循環障礙 | 98.8–99.6% | L5 | 無合理機轉連結，很可能為模型假陽性 |
 
 ---
 

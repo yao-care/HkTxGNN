@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Magnesium Trisilicate
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 551
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Magnesium Trisilicate：預測新適應症為活動性消化性潰瘍 (Active Peptic Ulcer Disease)（證據等級 L4）。原適應症：消化性潰瘍、胃食道逆流、食道炎、消化不良"
 monitor_inn: "MAGNESIUM TRISILICATE"
 predicted_indications: ["gastroduodenitis"]
+description: "Magnesium Trisilicate：預測新適應症為Gastroduodenitis（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Magnesium Trisilicate
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["gastroduodenitis"]
 
 </div>
 
-## Magnesium Trisilicate：從消化性潰瘍／胃食道逆流到活動性消化性潰瘍
+## Magnesium Trisilicate: Gastroduodenitis
 {: .text-alpha }
 
 ## 一句話總結
 
 Magnesium Trisilicate（三矽酸鎂）是一種制酸劑，原本用於消化性潰瘍、胃食道逆流、食道炎與消化不良。
-TxGNN 模型預測它可能對**活動性消化性潰瘍 (Active Peptic Ulcer Disease)** 有效，但這個預測與原適應症高度重疊，實質上不算全新的再利用方向。
 目前**無臨床試驗登記**，僅有**少數歷史文獻**，且多數文獻與本藥的直接關聯有限。
 
 ---
@@ -48,11 +47,11 @@ TxGNN 模型預測它可能對**活動性消化性潰瘍 (Active Peptic Ulcer Di
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 消化性潰瘍、胃食道逆流、食道炎、消化不良（依知識圖譜資料；香港許可證未載明適應症文字） |
-| 預測新適應症 | 活動性消化性潰瘍 (Active Peptic Ulcer Disease) |
-| TxGNN 預測分數 | 99.86% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Gastroduodenitis |
+| TxGNN 預測分數 | 0.9972 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 

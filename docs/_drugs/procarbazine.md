@@ -6,9 +6,9 @@ nav_order: 735
 evidence_level: L3
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Procarbazine：預測新適應症為濾泡性淋巴瘤 (Follicular Lymphoma)（證據等級 L3）。原適應症：何杰金氏淋巴瘤"
 monitor_inn: "PROCARBAZINE"
 predicted_indications: ["follicular lymphoma", "neuroblastoma", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
+description: "Procarbazine：預測新適應症為濾泡性淋巴瘤 (follicular lymphoma)（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Procarbazine
@@ -33,7 +33,7 @@ predicted_indications: ["follicular lymphoma", "neuroblastoma", "ganglioneurobla
 
 </div>
 
-## Procarbazine：從何杰金氏淋巴瘤到濾泡性淋巴瘤
+## Procarbazine: 濾泡性淋巴瘤 (follicular lymphoma)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**濾泡性淋巴瘤 (Follicular Lymphoma)** 有�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 何杰金氏淋巴瘤（香港許可證未載明適應症文字，此為知識圖譜所列原適應症） |
-| 預測新適應症 | 濾泡性淋巴瘤 (Follicular Lymphoma) |
-| TxGNN 預測分數 | 99.46% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 濾泡性淋巴瘤 (follicular lymphoma) |
+| TxGNN 預測分數 | 0.9946 |
 | 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold（列為研究問題） |
 
 ---

@@ -6,9 +6,9 @@ nav_order: 378
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Flavoxate：預測新適應症為注意力不足過動症（無注意力不足型）(Attention Deficit Hyperactivity Disorder…（證據等級 L5）。原適應症：香港許可證資料未載明適應症文字"
 monitor_inn: "Flavoxate"
 predicted_indications: ["attention deficit hyperactivity disorder, inattentive type", "irritable bowel syndrome", "specific developmental disorder", "attention deficit-hyperactivity disorder", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "peptic ulcer disease"]
+description: "Flavoxate：預測新適應症為注意力不足過動症（無注意力不足型）(Attention Deficit Hyperactivity Disorder, Inattentive Type)，為模型排名第 1 的預測（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Flavoxate
@@ -33,13 +33,13 @@ predicted_indications: ["attention deficit hyperactivity disorder, inattentive t
 
 </div>
 
-## Flavoxate：從泌尿道痙攣症狀到腸躁症（預測）
+## Flavoxate: 注意力不足過動症（無注意力不足型）(Attention Deficit Hyperactivity Disorder, Inattentive Type)，為模型排名第 1 的預測；另有 7 項預測 (attention deficit hyperactivity disorder, inattentive type)
 {: .text-alpha }
 
 ## 一句話總結
 
 Flavoxate 是一種泌尿道抗痙攣藥物，香港目前有 2 張有效的單一成分許可證。
-TxGNN 模型預測它可能對**腸躁症 (Irritable Bowel Syndrome)** 有效（預測分數 99.74%），這是機轉上最合理的預測之一。
+TxGNN 模型預測它可能對**腸躁症 (Irritable Bowel Syndrome)** 有效（預測分數 0.9974），這是機轉上最合理的預測之一。
 不過目前**沒有任何臨床試驗或文獻**支持，僅屬模型預測（證據等級 L5）。
 
 ---
@@ -48,26 +48,26 @@ TxGNN 模型預測它可能對**腸躁症 (Irritable Bowel Syndrome)** 有效（
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證資料未載明適應症文字 |
-| 預測新適應症 | 注意力不足過動症（無注意力不足型）(Attention Deficit Hyperactivity Disorder, Inattentive Type)，為模型排名第 1 的預測；另有 7 項預測（見下方） |
-| TxGNN 預測分數 | 99.75% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 注意力不足過動症（無注意力不足型）(Attention Deficit Hyperactivity Disorder, Inattentive Type)，為模型排名第 1 的預測；另有 7 項預測 (attention deficit hyperactivity disorder, inattentive type) |
+| TxGNN 預測分數 | 0.9975 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 **所有預測適應症一覽：**
 
 | 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
 |------|-----------|-----------|---------|------|
-| 1 | 注意力不足過動症（無注意力不足型） | 99.75% | L5 | Hold |
-| 2 | 腸躁症 (Irritable Bowel Syndrome) | 99.74% | L5 | Hold |
-| 3 | 特定發展障礙 (Specific Developmental Disorder) | 99.56% | L5 | Hold |
-| 4 | 注意力不足過動症 (ADHD) | 99.39% | L5 | Hold |
-| 5 | 馬尾症候群 (Cauda Equina Syndrome) | 99.27% | L5 | Hold |
-| 6 | 神經性膀胱（已過時術語） | 99.13% | L5 | Hold |
-| 7 | 胃十二指腸炎 (Gastroduodenitis) | 99.12% | L5 | Hold |
-| 8 | 消化性潰瘍 (Peptic Ulcer Disease) | 99.10% | L5 | Hold |
+| 1 | 注意力不足過動症（無注意力不足型） | 0.9975 | L5 | Hold |
+| 2 | 腸躁症 (Irritable Bowel Syndrome) | 0.9974 | L5 | Hold |
+| 3 | 特定發展障礙 (Specific Developmental Disorder) | 0.9956 | L5 | Hold |
+| 4 | 注意力不足過動症 (ADHD) | 0.9939 | L5 | Hold |
+| 5 | 馬尾症候群 (Cauda Equina Syndrome) | 0.9927 | L5 | Hold |
+| 6 | 神經性膀胱（已過時術語） | 0.9913 | L5 | Hold |
+| 7 | 胃十二指腸炎 (Gastroduodenitis) | 0.9912 | L5 | Hold |
+| 8 | 消化性潰瘍 (Peptic Ulcer Disease) | 0.9910 | L5 | Hold |
 
 ---
 
@@ -79,7 +79,7 @@ TxGNN 模型預測它可能對**腸躁症 (Irritable Bowel Syndrome)** 有效（
 
 - **腸躁症（排名 2）**：平滑肌鬆弛與抗膽鹼作用正是現有腸道抗痙攣藥用於腸躁症的基礎，機轉上有道理，但缺乏 Flavoxate 本身的試驗或文獻，仍未經驗證。
 - **神經性膀胱（排名 6）**：Flavoxate 對逼尿肌的抗痙攣作用與膀胱過動、尿急相關，與現有泌尿道用途接近，較像現有適應症的延伸而非真正的再利用。此疾病術語已過時，後續應對應到現行術語（如神經源性逼尿肌過動）。
-- **ADHD 相關（排名 1、3、4）**：沒有任何資料支持其機轉。多個高分 ADHD 與神經發展相關預測同時出現，可能反映知識圖譜的共同關聯，而非獨立訊號。
+- **ADHD 相關（排名 1、3、4）**：沒有任何資料支持其機轉。多個高分 ADHD 與神經發展相關預測同時出現，分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 - **馬尾症候群（排名 5）**：最多只能緩解膀胱痙攣或尿急症狀，無法處理根本的神經壓迫（屬外科急症）。
 - **胃十二指腸炎、消化性潰瘍（排名 7、8）**：缺乏對黏膜發炎或胃酸分泌的作用證據；Flavoxate 抗膽鹼作用微弱，標準治療為抑酸與根除幽門螺旋桿菌。
 
@@ -127,7 +127,7 @@ TxGNN 模型預測它可能對**腸躁症 (Irritable Bowel Syndrome)** 有效（
 - 取得香港衛生署仿單，確認原適應症、警語與禁忌症
 - 補齊作用機轉（MOA）資料，例如從 DrugBank 取得
 - 優先針對**腸躁症**與**神經性膀胱**（改用現行術語）進行系統性文獻與試驗檢索
-- 在 ADHD 相關預測投入資源前，先檢查是否為圖譜假象
+- 在 ADHD 相關預測投入資源前，先確認這些分數是否只反映 TxGNN 模型（深度學習）從相關疾病學到的相似性，而非生物學證據
 - 若進入腸躁症評估，需評估抗膽鹼類藥物重複使用的風險，以及上述禁忌疾病族群的排除標準
 ## 免責聲明
 

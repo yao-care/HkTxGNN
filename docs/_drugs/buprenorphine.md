@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Buprenorphine
-parent: 僅模型預測 (L5)
+parent: 中證據等級 (L3-L4)
 nav_order: 138
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Buprenorphine：預測新適應症為急性間歇性紫質症 (Acute Intermittent Porphyria)（證據等級 L5）。原適應症：鴉片類依賴、物質濫用/依賴、嗎啡依賴"
@@ -14,7 +14,7 @@ predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal d
 # Buprenorphine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+證據等級: **L4** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ TxGNN 模型預測它可能對**急性間歇性紫質症 (Acute Intermittent Por
 |------|------|
 | 原適應症 | 鴉片類依賴、物質濫用/依賴、嗎啡依賴 |
 | 預測新適應症 | 急性間歇性紫質症 (Acute Intermittent Porphyria) |
-| TxGNN 預測分數 | 99.41% |
+| TxGNN 預測分數 | 0.9941 |
 | 證據等級 | L4（僅有 1 篇病例報告，無直接療效證據，實質接近模型預測） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold |
 
 ---
@@ -64,7 +64,7 @@ TxGNN 模型預測它可能對**急性間歇性紫質症 (Acute Intermittent Por
 
 唯一檢索到的文獻是一篇麻醉管理病例報告，顯示 buprenorphine 類鴉片藥物可在紫質症病人的手術期間使用。這只說明「可以在這類病人身上使用」，並不表示對疾病本身有治療作用。
 
-TxGNN 的高分（99.41%）屬於模型預測，並未獲得臨床資料支持。此外，紫質症病人用藥須特別留意合併藥物是否可能誘發紫質症發作，需另行評估。
+TxGNN 的高分（0.9941）屬於模型預測，並未獲得臨床資料支持。此外，紫質症病人用藥須特別留意合併藥物是否可能誘發紫質症發作，需另行評估。
 
 ---
 

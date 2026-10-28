@@ -4,17 +4,17 @@ title: Phenylephrine
 parent: 中證據等級 (L3-L4)
 nav_order: 693
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Phenylephrine：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L4）。原適應症：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、結膜炎、痔瘡等"
 monitor_inn: "PHENYLEPHRINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
+description: "Phenylephrine：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Phenylephrine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **3** 個
+證據等級: **L4** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "tri
 
 </div>
 
-## Phenylephrine：從鼻炎與感冒症狀到鼻腔疾病
+## Phenylephrine: 鼻腔疾病 (nasal cavity disease)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,11 +46,11 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、結膜炎、痔瘡等（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 鼻腔疾病 (Nasal Cavity Disease) |
-| TxGNN 預測分數 | 99.97% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 鼻腔疾病 (nasal cavity disease) |
+| TxGNN 預測分數 | 0.9997 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -115,7 +115,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 ---
 
-*附註：另一項預測「急性喉咽炎」（分數 99.97%）僅有模型預測，無試驗與文獻（L5），建議 Hold。「三叉自主神經性頭痛」（分數 99.30%）的文獻均為瞳孔測定的診斷探針研究，並非治療證據，且 α1 促效劑升壓可能加重頭痛，不建議推進。*
+*附註：另一項預測「急性喉咽炎」（分數 0.9997）僅有模型預測，無試驗與文獻（L5），建議 Hold。「三叉自主神經性頭痛」（分數 0.9930）的文獻均為瞳孔測定的診斷探針研究，並非治療證據，且 α1 促效劑升壓可能加重頭痛，不建議推進。*
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

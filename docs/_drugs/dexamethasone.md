@@ -6,9 +6,9 @@ nav_order: 264
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Dexamethasone：預測新適應症為圓形禿 (Alopecia Areata)（證據等級 L2）。原適應症：急性淋巴性白血病、腎上腺皮質功能不全、克隆氏症、先天性腎上腺增生等"
 monitor_inn: "DEXAMETHASONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
+description: "Dexamethasone：預測新適應症為圓形禿 (alopecia areata)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Dexamethasone
@@ -33,7 +33,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 
 </div>
 
-## Dexamethasone：從腎上腺皮質功能不全與發炎性疾病到圓形禿
+## Dexamethasone: 圓形禿 (alopecia areata)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,11 +46,11 @@ TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 急性淋巴性白血病、腎上腺皮質功能不全、克隆氏症、先天性腎上腺增生等（取自知識圖譜，香港許可證未載明適應症文字） |
-| 預測新適應症 | 圓形禿 (Alopecia Areata) |
-| TxGNN 預測分數 | 99.99% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 圓形禿 (alopecia areata) |
+| TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L2 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Proceed with Guardrails |
 

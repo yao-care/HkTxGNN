@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Doravirine
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 293
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Doravirine：預測新適應症為猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)（證據等級 L4）。原適應症：HIV 感染、愛滋病"
@@ -14,7 +14,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 # Doravirine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**猿猴免疫缺陷病毒感染 (Simian Immunodef
 |------|------|
 | 原適應症 | HIV 感染、愛滋病 |
 | 預測新適應症 | 猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection) |
-| TxGNN 預測分數 | 99.93% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| TxGNN 預測分數 | 0.9993 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ---
@@ -69,7 +69,7 @@ TxGNN 模型預測它可能對**猿猴免疫缺陷病毒感染 (Simian Immunodef
 
 另外，同一預測清單中還有兩項較低優先的預測：
 - **貓後天免疫缺乏症候群 (FIV)**：證據等級 L5，無任何試驗或文獻，NNRTI 對 FIV 活性普遍不佳，屬獸醫領域。
-- **伴隨共濟失調步態、無語言能力及皮質白質減少的神經發育障礙**：證據等級 L5，未找到合理機轉連結，高分可能是知識圖譜的假象。
+- **伴隨共濟失調步態、無語言能力及皮質白質減少的神經發育障礙**：證據等級 L5，未找到合理機轉連結，高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。
 
 ---
 

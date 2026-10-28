@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Brinzolamide
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 129
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Brinzolamide：預測新適應症為原發性遺傳性青光眼 (Primary Hereditary Glaucoma)（證據等級 L5）。原適應症：開角型青光眼、高眼壓症"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Brinzolamide：香港的已知用途與上市狀態；目前無新的候選適應症"
+predicted_indications: []
 ---
 
 # Brinzolamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,66 +32,51 @@ description: "Brinzolamide：預測新適應症為原發性遺傳性青光眼 (P
 
 </div>
 
-## Brinzolamide：從開角型青光眼到原發性遺傳性青光眼
+<!-- known-uses-page -->
+<!-- description: Brinzolamide：香港的已知用途與上市狀態；目前無新的候選適應症 -->
+## Brinzolamide：香港的已知用途與上市狀態
 {: .text-alpha }
 
-## 一句話總結
-
-Brinzolamide 是一種碳酸酐酶抑制劑，原本用於治療開角型青光眼與高眼壓症。
-TxGNN 模型預測它可能對**原發性遺傳性青光眼 (Primary Hereditary Glaucoma)** 有效，
-但目前**沒有臨床試驗與文獻**支持，僅有模型預測。
-
----
+## 摘要
+TxGNN 模型針對 Brinzolamide 產生的候選適應症，經追溯來源後全部屬於已知用途，因此目前沒有新的預測適應症。下列僅整理這些已知用途及其在香港的上市狀態，供藥師參考。
 
 ## 快速總覽
-
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 開角型青光眼、高眼壓症 |
-| 預測新適應症 | 原發性遺傳性青光眼 (Primary Hereditary Glaucoma) |
-| TxGNN 預測分數 | 99.48% |
-| 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 7 張 |
-| 建議決策 | Hold |
+| 新預測適應症 | 無（模型候選經追溯後皆為已知用途） |
+| 模型候選中的已知用途 | 1 |
+| 證據等級 | 不適用 |
+| 香港上市狀態 | 上市中（有效許可證 7 張／共 7 張） |
+| 許可證數 | 7 張（有效 7 張） |
 
----
+## 模型候選中的已知用途
 
-## 為什麼這個預測合理？
+### 已核准（有許可證或標示支持）
+| 適應症 | 來源 |
+|------|------|
+| 原發性遺傳性青光眼 (primary hereditary glaucoma) | 其他國家的許可證（核准適應症：glaucoma） |
 
-目前缺乏詳細的作用機轉資料。依一般藥理知識，Brinzolamide 是碳酸酐酶 II 抑制劑，透過減少房水分泌來降低眼內壓。原發性遺傳性青光眼（例如原發性先天性青光眼、青少年型開角型青光眼）同樣以眼壓升高為主要可調控的風險因子，因此機轉上可能適用。
+### 與已核准適應症相關（同一疾病類別）
+| 適應症 | 所屬核准類別 |
+|------|------|
+| 無 | 無 |
 
-不過，這個高分預測可能主要反映知識圖譜中藥物與青光眼的既有關聯，而非全新的再利用訊號。Brinzolamide 已核准用於開角型青光眼與高眼壓症，因此這個新適應症比較接近同一疾病領域內的延伸，而不是真正跨疾病的再利用。
-
-另外需注意，遺傳性青光眼（尤其是兒童的原發性先天性青光眼）主要以手術處理，外用碳酸酐酶抑制劑通常只是輔助角色，且用於嬰幼兒時需特別考量安全性。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記
-
----
-
-## 文獻證據
-
-目前無相關文獻
-
----
+### 知識圖譜中記錄的關係（未找到核准）
+| 適應症 |
+|------|
+| 無 |
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-49989 | AZOPT EYE DROPS SUSP 1% (BELGIUM) | 滴眼懸液 | — |
-| HK-67983 | BRINZOLAMIDE-PHARMATHEN EYE DROPS, SUSPENSION 10MG/ML | 滴眼懸液 | — |
-| HK-67788 | BRINZOLAMIDE EYE DROPS SUSPENSION 1% W/V | 滴眼懸液 | — |
-| HK-58563 | AZARGA EYE DROPS | 滴眼液 | — |
-| HK-68273 | BRINZTIMO EYE DROPS SUSPENSION 10MG/ML + 5MG/ML | 滴眼懸液 | — |
-
-目前共 7 張有效許可證，上表列出其中 5 張。其中 AZARGA、BRINZTIMO 及 BRINZOLAMIDE AND TIMOLOL 為與 timolol 的複方產品，SIMBRINZA 則為與 brimonidine 的複方產品。
-
----
+| 許可證字號 | 品名 | 劑型 | 狀態 |
+|------|------|------|------|
+| HK-49989 | AZOPT EYE DROPS SUSP 1% (BELGIUM) |  | 有效 |
+| HK-67983 | BRINZOLAMIDE-PHARMATHEN EYE DROPS, SUSPENSION 10MG/ML |  | 有效 |
+| HK-67788 | BRINZOLAMIDE EYE DROPS SUSPENSION 1% W/V |  | 有效 |
+| HK-58563 | AZARGA EYE DROPS |  | 有效 |
+| HK-68273 | BRINZTIMO EYE DROPS SUSPENSION 10MG/ML + 5MG/ML |  | 有效 |
+| HK-67748 | BRINZOLAMIDE AND TIMOLOL EYE DROPS 1% W/V + 0.5% W/V |  | 有效 |
+| HK-64944 | SIMBRINZA EYE DROPS SUSPENSION |  | 有效 |
 
 ## 安全性考量
 
@@ -100,20 +86,6 @@ TxGNN 模型預測它可能對**原發性遺傳性青光眼 (Primary Hereditary 
 
 ---
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 此預測目前僅有模型分數支持（L5），沒有任何臨床試驗或文獻佐證。
-- 高分可能只是反映藥物與青光眼的既有關聯，且遺傳性青光眼多以手術治療，藥物僅為輔助。
-
-**若要推進需要：**
-- 取得詳細的作用機轉資料（MOA）。
-- 取得香港衛生署仿單的警語與禁忌症，完成安全性初篩。
-- 搜尋並評估 Brinzolamide 用於原發性遺傳性青光眼（特別是兒童族群）的臨床試驗與文獻。
-- 釐清各許可證核准適應症的實際範圍，確認此用途是否已涵蓋在現有適應症內。
-- 評估嬰幼兒使用的安全性與劑型適用性。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

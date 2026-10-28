@@ -4,17 +4,17 @@ title: Propafenone
 parent: 僅模型預測 (L5)
 nav_order: 738
 evidence_level: L5
-indication_count: 8
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Propafenone：預測新適應症為躁症（Manic bipolar affective disorder）（證據等級 L5）。原適應症：心房顫動、心室心搏過速"
 monitor_inn: "Propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
+description: "Propafenone：預測新適應症為躁症 (manic bipolar affective disorder)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Propafenone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["manic bipolar affective disorder", "periodic paralysis 
 
 </div>
 
-## Propafenone：從心房顫動與心室心搏過速到兒茶酚胺敏感性多形性心室心搏過速
+## Propafenone: 躁症 (manic bipolar affective disorder)
 {: .text-alpha }
 
 ## 一句話總結
@@ -50,26 +50,24 @@ TxGNN 模型預測分數最高的是躁症（manic bipolar affective disorder）
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 心房顫動、心室心搏過速（取自知識圖譜，香港許可證未載明適應症文字） |
-| 預測新適應症 | 躁症（Manic bipolar affective disorder） |
-| TxGNN 預測分數 | 99.80% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 躁症 (manic bipolar affective disorder) |
+| TxGNN 預測分數 | 0.9980 |
 | 證據等級 | L5（僅模型預測） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 5 張 |
+| 香港上市 | 上市中（有效許可證 5 張／共 5 張） |
+| 許可證數 | 5 張（有效 5 張） |
 | 建議決策 | Hold |
 
 **其他預測適應症一覽**
 
 | 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
 |------|-----------|-----------|---------|------|
-| 1 | 躁症 | 99.80% | L5 | Hold |
-| 2 | 兒茶酚胺敏感性多形性心室心搏過速 (CPVT) | 99.79% | L3 | 列為研究問題（Research Question） |
-| 3 | 週期性麻痺合併暫時性腔室樣症候群 | 99.67% | L5 | Hold |
-| 4 | 變異型心絞痛 (Prinzmetal angina) | 99.45% | L5 | Hold |
-| 5 | 嬰兒持續性心室心搏過速 | 99.44% | L3 | 列為研究問題（Research Question） |
-| 6 | 致心律不整性右心室心肌病變 (ARVC) | 99.42% | L4 | Hold |
-| 7 | 腎因性抗利尿不適當症候群 | 99.23% | L5 | Hold |
-| 8 | 拔毛症 | 99.17% | L5 | Hold |
+| 1 | 躁症 | 0.9980 | L5 | Hold |
+| 3 | 週期性麻痺合併暫時性腔室樣症候群 | 0.9967 | L5 | Hold |
+| 4 | 變異型心絞痛 (Prinzmetal angina) | 0.9945 | L5 | Hold |
+| 6 | 致心律不整性右心室心肌病變 (ARVC) | 0.9942 | L4 | Hold |
+| 7 | 腎因性抗利尿不適當症候群 | 0.9923 | L5 | Hold |
+| 8 | 拔毛症 | 0.9917 | L5 | Hold |
 
 ---
 

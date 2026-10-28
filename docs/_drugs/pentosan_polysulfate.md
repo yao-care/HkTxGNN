@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 678
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
-description: "Pentosan Polysulfate：預測新適應症為血小板釋放功能異常 (primary release disorder of platelets)（證據等級 L5）。原適應症：間質性膀胱炎 (interstitial cystitis)"
+last_modified_at: 2026-10-28
 monitor_inn: "Pentosan polysulfate"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease"]
+description: "Pentosan Polysulfate：預測新適應症為血小板釋放功能異常 (primary release disorder of platelets)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Pentosan Polysulfate
@@ -33,7 +33,7 @@ predicted_indications: ["primary release disorder of platelets", "Glanzmann thro
 
 </div>
 
-## Pentosan polysulfate：從間質性膀胱炎到血小板釋放功能異常
+## Pentosan Polysulfate: 血小板釋放功能異常 (primary release disorder of platelets)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,15 +48,15 @@ TxGNN 模型預測它可能對**血小板釋放功能異常 (primary release dis
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 間質性膀胱炎 (interstitial cystitis) |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | 血小板釋放功能異常 (primary release disorder of platelets) |
-| TxGNN 預測分數 | 99.71% |
+| TxGNN 預測分數 | 0.9971 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
-其他排名較前的預測還包括 Glanzmann 血小板無力症（99.65%）與偽性血管性血友病（99.62%），證據同樣為 L5，建議同為 Hold。
+其他排名較前的預測還包括 Glanzmann 血小板無力症（0.9965）與偽性血管性血友病（0.9962），證據同樣為 L5，建議同為 Hold。
 
 ---
 

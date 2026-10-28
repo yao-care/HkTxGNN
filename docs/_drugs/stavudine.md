@@ -6,9 +6,9 @@ nav_order: 834
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Stavudine：預測新適應症為貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome)（證據等級 L5）。原適應症：HIV 感染、AIDS"
 monitor_inn: "STAVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Stavudine：預測新適應症為貓後天免疫缺乏症候群 (feline acquired immunodeficiency syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Stavudine
@@ -33,7 +33,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 
 </div>
 
-## Stavudine：從 HIV 感染／AIDS 到貓免疫缺乏症候群
+## Stavudine: 貓後天免疫缺乏症候群 (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired 
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | HIV 感染、AIDS（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome) |
-| TxGNN 預測分數 | 99.55% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 貓後天免疫缺乏症候群 (feline acquired immunodeficiency syndrome) |
+| TxGNN 預測分數 | 0.9955 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ---
@@ -61,13 +61,13 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired 
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Stavudine 是胸腺嘧啶核苷類似物（thymidine analogue）的核苷類逆轉錄酶抑制劑（NRTI），其在 HIV 感染中的療效已被證實。
 
-貓免疫缺乏病毒（FIV）與 HIV 同屬慢病毒，同樣依賴逆轉錄酶複製，因此在機轉上有類推的可能性。TxGNN 的高分很可能源自知識圖譜中 FIV 與 HIV 疾病節點的相似性，而非獨立的實證。
+貓免疫缺乏病毒（FIV）與 HIV 同屬慢病毒，同樣依賴逆轉錄酶複製，因此在機轉上有類推的可能性。此高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性（如 FIV 與 HIV），而非生物學證據。
 
 需要留意：這是動物（獸醫）疾病，並非人類臨床適應症，對人用藥物的再利用價值有限。
 
 另外兩個排名較後的預測也值得一提：
-- **猿猴免疫缺乏病毒（SIV）感染**（分數 99.55%，證據等級 L4）：僅有間接的前臨床文獻，且猕猴研究出現致命性胰臟炎的安全性訊號。
-- **伴隨共濟失調步態、無語言及皮質白質減少的神經發展障礙**（分數 99.51%，證據等級 L5）：看不出明確的機轉關聯，且 Stavudine 本身有周邊神經病變與粒線體毒性的疑慮。
+- **猿猴免疫缺乏病毒（SIV）感染**（分數 0.9955，證據等級 L4）：僅有間接的前臨床文獻，且猕猴研究出現致命性胰臟炎的安全性訊號。
+- **伴隨共濟失調步態、無語言及皮質白質減少的神經發展障礙**（分數 0.9951，證據等級 L5）：看不出明確的機轉關聯，且 Stavudine 本身有周邊神經病變與粒線體毒性的疑慮。
 
 ---
 

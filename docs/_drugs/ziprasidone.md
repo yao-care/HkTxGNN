@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ziprasidone
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 956
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ziprasidone：預測新適應症為重度情感疾患 (Major Affective Disorder)（證據等級 L2）。原適應症：躁期雙相情感障礙、雙相情感障礙、思覺失調症"
 monitor_inn: "Ziprasidone"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "major affective disorder", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
+description: "Ziprasidone：預測新適應症為Trichotillomania（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Ziprasidone
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "major 
 
 </div>
 
-## Ziprasidone：從躁鬱症與思覺失調症到重度情感疾患（Major Affective Disorder）
+## Ziprasidone: Trichotillomania
 {: .text-alpha }
 
 ## 一句話總結
@@ -49,12 +49,12 @@ TxGNN 模型的最高分預測為 trichotillomania，但該預測沒有任何臨
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 躁期雙相情感障礙、雙相情感障礙、思覺失調症（香港許可證未載明適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 重度情感疾患 (Major Affective Disorder) |
-| TxGNN 預測分數 | 99.66% |
-| 證據等級 | L2 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 12 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Trichotillomania |
+| TxGNN 預測分數 | 0.9983 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 12 張／共 12 張） |
+| 許可證數 | 12 張（有效 12 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---
@@ -130,9 +130,8 @@ TxGNN 模型的最高分預測為 trichotillomania，但該預測沒有任何臨
 
 | 預測疾病 | 分數 | 證據等級 | 說明 |
 |---------|------|---------|------|
-| Tourette 症候群 | 99.63% | L3 | 無登記試驗；有一項兒童與青少年小型先導研究（[PMID 10714048](https://pubmed.ncbi.nlm.nih.gov/10714048/)）及多篇治療回顧。D2 拮抗為抑制抽動的已知機轉，但需先處理 QT 風險 |
-| Trichotillomania | 99.83% | L5 | 僅模型預測，無資料；D2/5-HT2A 拮抗可能相關，但缺乏資料佐證 |
-| Hydranencephaly 及其他罕見遺傳或結構性疾病（近視、視網膜失養症、糖基化異常、多小腦回等） | 99.58%–99.67% | L5 | 無合理藥理機轉，高分可能是知識圖譜的假象 |
+| Tourette 症候群 | 0.9963 | L3 | 無登記試驗；有一項兒童與青少年小型先導研究（[PMID 10714048](https://pubmed.ncbi.nlm.nih.gov/10714048/)）及多篇治療回顧。D2 拮抗為抑制抽動的已知機轉，但需先處理 QT 風險 |
+| Trichotillomania | 0.9983 | L5 | 僅模型預測，無資料；D2/5-HT2A 拮抗可能相關，但缺乏資料佐證 |
 
 ---
 

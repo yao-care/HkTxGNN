@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 204
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
-description: "Cladribine：預測新適應症為副腦膜胚胎型橫紋肌肉瘤 (Parameningeal Embryonal Rhabdomyosarcoma)（證據等級 L5）。原適應症：毛細胞白血病、毛細胞白血病變異型、復發緩解型多發性硬化症"
 monitor_inn: "CLADRIBINE"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
+last_modified_at: 2026-10-27
+description: "Cladribine：預測新適應症為副腦膜胚胎型橫紋肌肉瘤 (parameningeal embryonal rhabdomyosarcoma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Cladribine
@@ -33,38 +33,34 @@ predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-ty
 
 </div>
 
-## Cladribine：從毛細胞白血病到橫紋肌肉瘤
+## Cladribine：嘌呤核苷類似物（抗代謝、淋巴細胞選擇性細胞毒性） → 副腦膜胚胎型橫紋肌肉瘤 (parameningeal embryonal rhabdomyosarcoma)
 {: .text-alpha }
 
 ## 一句話總結
 
-Cladribine 是一種嘌呤核苷類似物，原本用於毛細胞白血病（含變異型）與復發緩解型多發性硬化症。
-TxGNN 模型預測它可能對**副腦膜胚胎型橫紋肌肉瘤 (Parameningeal Embryonal Rhabdomyosarcoma)** 有效，
-但目前**沒有任何臨床試驗或文獻**直接支持這個方向，僅有模型預測。
+Cladribine 是一種嘌呤核苷類似物，在香港已有單一成分許可證上市。
+TxGNN 模型預測它可能對**副腦膜胚胎型橫紋肌肉瘤 (parameningeal embryonal rhabdomyosarcoma)** 有效，
+但目前**沒有臨床試驗**，也**沒有直接研究此疾病的文獻**，僅有模型預測分數支持。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 毛細胞白血病、毛細胞白血病變異型、復發緩解型多發性硬化症 |
-| 預測新適應症 | 副腦膜胚胎型橫紋肌肉瘤 (Parameningeal Embryonal Rhabdomyosarcoma) |
-| TxGNN 預測分數 | 99.77% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 副腦膜胚胎型橫紋肌肉瘤 (parameningeal embryonal rhabdomyosarcoma) |
+| TxGNN 預測分數 | 0.9977 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Cladribine 是對腺苷脫胺酶具抗性的嘌呤核苷類似物，
-會造成 DNA 股斷裂並誘導細胞凋亡，作用主要集中在去氧胞苷激酶（deoxycytidine kinase）活性高的淋巴球與單核球。
-這解釋了它在毛細胞白血病與多發性硬化症中的療效。
+目前缺乏詳細的作用機轉資料。就一般藥理知識而言，Cladribine 是對腺苷脫胺酶具抗性的嘌呤核苷類似物，會造成 DNA 鏈斷裂與細胞凋亡，作用主要集中在去氧胞苷激酶（deoxycytidine kinase）活性高的淋巴細胞與單核球。
 
-然而，橫紋肌肉瘤是間質來源的實體腫瘤，並沒有證據顯示 Cladribine 對其有作用。
-模型給出高分，較可能是因為知識圖譜中橫紋肌肉瘤各亞型彼此相鄰、互相傳遞訊號，而非來自疾病特異的生物學依據。
-排名前 6 的預測（各亞型與其上位疾病「橫紋肌肉瘤」）都屬於同一群集，彼此不是獨立證據。
+橫紋肌肉瘤是間質來源的實體腫瘤，目前沒有任何研究顯示 Cladribine 的機轉對此類腫瘤有效。這個高分預測很可能來自模型中相近橫紋肌肉瘤亞型之間的相互關聯，而不是針對該疾病的特異性生物學證據。因此，這個預測應視為待驗證的假說，而非有依據的治療方向。
 
-若要進一步探討，需先做前臨床試驗，例如橫紋肌肉瘤細胞株的細胞毒性測試，以及腫瘤模型中去氧胞苷激酶的表現量。
+此外，同一份預測清單中的多個橫紋肌肉瘤相關項目（如陰道葡萄狀胚胎型、肝外膽管型、前列腺胚胎型等）彼此並非獨立證據，不能累加視為支持。
 
 ## 臨床試驗證據
 
@@ -72,52 +68,45 @@ TxGNN 模型預測它可能對**副腦膜胚胎型橫紋肌肉瘤 (Parameningeal
 
 ## 文獻證據
 
-目前無直接支持橫紋肌肉瘤的文獻。
-
-資料中排名第 7 的預測「肝肉瘤 (liver sarcoma)」僅連結到 1 篇間接文獻，且該文獻討論的並非肝肉瘤：
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [15241520](https://pubmed.ncbi.nlm.nih.gov/15241520/) | 2004 | Case report | Der Hautarzt | Cladribine 成功治療惰性（smoldering）系統性肥大細胞增生症；屬血液腫瘤，不能類推至肉瘤 |
+目前無直接研究此疾病的文獻。
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-65910 | MAVENCLAD TABLETS 10MG | 未提供 | 未提供 |
+| HK-65910 | MAVENCLAD TABLETS 10MG | 未記錄 | 本地資料未記錄核准適應症 |
 
 ## 細胞毒性
 
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 傳統細胞毒性藥物（嘌呤核苷類似物，抗代謝物） |
-| 骨髓抑制風險 | 高（知識圖譜標示與嗜中性白血球低下、血小板低下、無顆粒球症、貧血相關） |
+| 細胞毒性分類 | 傳統細胞毒性藥物（嘌呤核苷類似物，抗代謝類） |
+| 骨髓抑制風險 | 請參考原廠仿單；以下與血球低下相關的疾病被列為需留意的情況：嗜中性白血球低下、血小板低下、貧血、顆粒球缺乏症 |
 | 致吐性分級 | 請參考原廠仿單 |
-| 監測項目 | CBC（含分類）、腎功能、神經學檢查 |
-| 處置防護 | 請參考原廠仿單與細胞毒性藥物處置規範 |
+| 監測項目 | 一般應監測全血球計數（CBC，含分類）、肝腎功能 |
+| 處置防護 | 請參考原廠仿單的警語與注意事項及細胞毒性藥物處置規範 |
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌疾病**（來自知識圖譜關聯，非仿單內容）：腎臟疾病、膿尿輸尿管（pyoureter）、血小板低下、嗜中性白血球低下、無顆粒球症、周邊神經系統疾病、周邊神經病變、貧血、巨球性貧血、高尿酸血症。
-- **藥物交互作用**：共查得 100 筆，以下為部分重點。
-  - 重大（Major）：皮質類固醇類（Hydrocortisone、Triamcinolone、Dexamethasone、Betamethasone、Budesonide、Prednisolone、Prednisone）；Deferiprone；放射性藥物類（Ibritumomab tiuxetan、Iobenguane I-131、Tositumomab、Samarium-153 lexidronam、Strontium-89 chloride）。
-  - 中度（Moderate）：Palifermin、Dipyridamole、Cilostazol、Eltrombopag。
+- **藥物交互作用**：共查得 100 筆交互作用紀錄，以下為主要項目：
+  - 嚴重（Major）：皮質類固醇類，包括 Hydrocortisone、Triamcinolone、Dexamethasone、Betamethasone、Budesonide、Prednisolone、Prednisone
+  - 嚴重（Major）：Deferiprone、Ibritumomab tiuxetan、Iobenguane (I-131)、Tositumomab、Samarium (153Sm) lexidronam、Strontium chloride Sr-89
+  - 中度（Moderate）：Palifermin、Dipyridamole、Cilostazol、Eltrombopag
 
-其餘警語與禁忌請參考原廠仿單。
+其他警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 預測僅來自模型分數，無臨床試驗與文獻佐證，且 Cladribine 對淋巴細胞的選擇性毒性與橫紋肌肉瘤這類實體腫瘤缺乏機轉連結。
-- 此藥骨髓抑制風險高，在缺乏療效證據下不宜推進。
+- 此預測僅有模型分數（0.9977）支持，無臨床試驗，也無直接研究橫紋肌肉瘤的文獻，證據等級為 L5。
+- 現有機轉知識顯示 Cladribine 主要作用於淋巴系統細胞，與實體腫瘤橫紋肌肉瘤之間沒有已知的生物學連結。
 
 **若要推進需要：**
-- 橫紋肌肉瘤細胞株與動物模型的前臨床細胞毒性資料，以及去氧胞苷激酶表現的評估
-- 完整的作用機轉資料（MOA）
-- 香港仿單的警語與禁忌資料，以及核准適應症文字
-- 兒童實體腫瘤族群的安全性與劑量評估
+- 前臨床試驗：在橫紋肌肉瘤細胞株與動物模型中測試 Cladribine 的細胞毒性，並評估腫瘤中去氧胞苷激酶的表現
+- 補齊 Cladribine 的作用機轉資料及原廠仿單的警語與禁忌症
+- 若前臨床結果為陽性，再規劃小型探索性臨床研究，並設置血球監測與免疫抑制相關的防護措施
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

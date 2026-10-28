@@ -6,9 +6,9 @@ nav_order: 507
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Lanadelumab：預測新適應症為C1 抑制劑缺乏症 (C1 inhibitor deficiency)（證據等級 L1）。原適應症：遺傳性血管性水腫 (Hereditary Angioedema)、合併 C1 抑制劑缺乏的遺傳性血管性水腫"
 monitor_inn: "Lanadelumab"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
+description: "Lanadelumab：預測新適應症為C1 抑制劑缺乏症 (C1 inhibitor deficiency)（證據等級 L1）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Lanadelumab
@@ -33,7 +33,7 @@ predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serp
 
 </div>
 
-## Lanadelumab：從遺傳性血管性水腫到 C1 抑制劑缺乏症
+## Lanadelumab: C1 抑制劑缺乏症 (C1 inhibitor deficiency)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它對 **C1 抑制劑缺乏症 (C1 inhibitor deficiency)** 有
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 遺傳性血管性水腫 (Hereditary Angioedema)、合併 C1 抑制劑缺乏的遺傳性血管性水腫（來自知識圖譜；香港許可證未載明核准適應症文字） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | C1 抑制劑缺乏症 (C1 inhibitor deficiency) |
-| TxGNN 預測分數 | 99.996% |
+| TxGNN 預測分數 | 1.0000 |
 | 證據等級 | L1 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---

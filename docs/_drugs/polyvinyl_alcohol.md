@@ -6,9 +6,9 @@ nav_order: 713
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Polyvinyl Alcohol：預測新適應症為先天性魚鱗癬樣紅皮症 (Congenital Ichthyosiform Erythroderma)（證據等級 L5）。原適應症：乾眼症、乾燥性角結膜炎"
 monitor_inn: "POLYVINYL ALCOHOL"
 predicted_indications: ["congenital ichthyosiform erythroderma", "self-healing collodion baby", "lamellar ichthyosis", "bathing suit ichthyosis"]
+description: "Polyvinyl Alcohol：預測新適應症為先天性魚鱗癬樣紅皮症 (congenital ichthyosiform erythroderma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Polyvinyl Alcohol
@@ -33,7 +33,7 @@ predicted_indications: ["congenital ichthyosiform erythroderma", "self-healing c
 
 </div>
 
-## Polyvinyl Alcohol：從乾眼症到先天性魚鱗癬樣紅皮症
+## Polyvinyl Alcohol: 先天性魚鱗癬樣紅皮症 (congenital ichthyosiform erythroderma)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,21 +48,21 @@ TxGNN 模型預測它可能對**先天性魚鱗癬樣紅皮症 (congenital ichth
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 乾眼症、乾燥性角結膜炎（依知識圖譜資料；香港許可證未載明適應症文字） |
-| 預測新適應症 | 先天性魚鱗癬樣紅皮症 (Congenital Ichthyosiform Erythroderma) |
-| TxGNN 預測分數 | 99.90% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 先天性魚鱗癬樣紅皮症 (congenital ichthyosiform erythroderma) |
+| TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 12 張 |
+| 香港上市 | 上市中（有效許可證 12 張／共 12 張） |
+| 許可證數 | 12 張（有效 12 張） |
 | 建議決策 | Hold |
 
 其他排名較前的預測適應症（皆為 L5、建議 Hold）：
 
 | 排名 | 預測適應症 | TxGNN 分數 |
 |------|-----------|-----------|
-| 2 | 自癒性火棉嬰兒 (self-healing collodion baby) | 99.83% |
-| 3 | 板層狀魚鱗癬 (lamellar ichthyosis) | 99.72% |
-| 4 | 泳衣型魚鱗癬 (bathing suit ichthyosis) | 99.54% |
+| 2 | 自癒性火棉嬰兒 (self-healing collodion baby) | 0.9983 |
+| 3 | 板層狀魚鱗癬 (lamellar ichthyosis) | 0.9972 |
+| 4 | 泳衣型魚鱗癬 (bathing suit ichthyosis) | 0.9954 |
 
 ---
 
@@ -72,7 +72,7 @@ TxGNN 模型預測它可能對**先天性魚鱗癬樣紅皮症 (congenital ichth
 
 一個可能但尚未驗證的推論是：它在皮膚表面可能發揮封閉（occlusive）或保濕作用，減少經皮水分散失，對脫屑的皮膚帶來表層的緩解。不過，魚鱗癬是遺傳性角質化異常疾病，潤滑劑最多只能提供症狀性、表淺的改善，無法改變疾病本身。
 
-高分預測較可能反映知識圖譜中疾病之間的網絡相似性，而非直接的生物學證據。其他三個預測（火棉嬰兒、板層狀魚鱗癬、泳衣型魚鱗癬）同樣缺乏資料；火棉嬰兒屬自限性疾病，已有成熟的潤膚與加濕照護，且新生兒的皮膚吸收與安全性尚未評估。此外，沒有資料將其與標準的角質溶解劑、潤膚劑或維生素 A 酸類藥物比較。
+高分預測來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。其他三個預測（火棉嬰兒、板層狀魚鱗癬、泳衣型魚鱗癬）同樣缺乏資料；火棉嬰兒屬自限性疾病，已有成熟的潤膚與加濕照護，且新生兒的皮膚吸收與安全性尚未評估。此外，沒有資料將其與標準的角質溶解劑、潤膚劑或維生素 A 酸類藥物比較。
 
 ---
 

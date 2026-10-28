@@ -4,17 +4,17 @@ title: Pimecrolimus
 parent: 高證據等級 (L1-L2)
 nav_order: 698
 evidence_level: L2
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Pimecrolimus：預測新適應症為脂漏性皮膚炎 (Seborrheic Dermatitis)（證據等級 L2）。原適應症：異位性皮膚炎"
 monitor_inn: "PIMECROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
+description: "Pimecrolimus：預測新適應症為脂漏性皮膚炎 (seborrheic dermatitis)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Pimecrolimus
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **4** 個
+證據等級: **L2** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acroderm
 
 </div>
 
-## Pimecrolimus：從異位性皮膚炎到脂漏性皮膚炎
+## Pimecrolimus: 脂漏性皮膚炎 (seborrheic dermatitis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對**脂漏性皮膚炎 (Seborrheic Dermatitis)** 有
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 異位性皮膚炎（atopic eczema；香港許可證未登載適應症文字，此為知識圖譜資料） |
-| 預測新適應症 | 脂漏性皮膚炎 (Seborrheic Dermatitis) |
-| TxGNN 預測分數 | 99.73% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 脂漏性皮膚炎 (seborrheic dermatitis) |
+| TxGNN 預測分數 | 0.9973 |
 | 證據等級 | L2 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ## 為什麼這個預測合理？
@@ -114,7 +114,6 @@ TxGNN 模型預測它可能對**脂漏性皮膚炎 (Seborrheic Dermatitis)** 有
 - 確認長期使用的惡性腫瘤風險監測計畫，並明確限制嬰幼兒與免疫低下族群的使用
 
 **其他預測適應症的補充說明：**
-- **皮膚炎（dermatitis，排名 2）**：證據等級 L1，但主要是既有異位性皮膚炎適應症的再確認，另有慢性手部皮膚炎與口周皮膚炎的 Phase 3 試驗。決策為 Proceed with Guardrails。
 - **疹（exanthem，排名 3）**：證據等級 L2，僅有口腔扁平苔癬、外陰硬化性苔癬等小型先導試驗，結果不一致，建議列為研究問題（Research Question）。
 - **慢性萎縮性肢端皮膚炎（排名 4）**：僅有模型預測，無試驗與文獻，且屬螺旋體感染，外用免疫抑制劑可能適得其反，建議 Hold。
 ## 免責聲明

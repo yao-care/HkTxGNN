@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Vaborbactam
-parent: 僅模型預測 (L5)
+parent: 僅已知用途（無新預測）
 nav_order: 921
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Vaborbactam：預測新適應症為退化性關節炎 (Osteoarthritis)（證據等級 L5）。原適應症：資料未載明"
+description: "Vaborbactam: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Vaborbactam"
-predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "hepatic porphyria", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Vaborbactam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **N/A** | 預測適應症: **0** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,51 +35,16 @@ predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheu
 
 </div>
 
-## Vaborbactam：從細菌感染（原適應症資料缺漏）到退化性關節炎
+## Vaborbactam
 {: .text-alpha }
-
-## 一句話總結
-
-Vaborbactam 是一種環狀硼酸類 β-內醯胺酶抑制劑，在香港已有上市許可證，但本報告所編列的資料中未記載其核准適應症。
-TxGNN 模型預測它可能對**退化性關節炎 (Osteoarthritis)** 有效，但目前**沒有任何臨床試驗或文獻**支持，屬於純模型預測。
-
----
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未載明 |
-| 預測新適應症 | 退化性關節炎 (Osteoarthritis) |
-| TxGNN 預測分數 | 98.52% |
-| 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
-| 建議決策 | Hold |
-
----
-
-## 為什麼這個預測合理？
-
-目前缺乏詳細的作用機轉資料。根據已知資訊，Vaborbactam 是 β-內醯胺酶抑制劑，通常與碳青黴烯類抗生素合併使用，用來對抗產生β-內醯胺酶的細菌。它對關節軟骨、發炎或疼痛路徑沒有已知作用。
-
-原適應症為抗菌療法，而退化性關節炎是以軟骨退化與慢性疼痛為主的疾病，兩者在生物學上缺乏明確關聯。目前找不到合理的機轉連結。
-
-這個高分預測較可能來自知識圖譜中相鄰節點的關聯（例如肌肉骨骼疾病節點的聚集），而不是真實的藥理依據。因此 98.52% 的分數不應被解讀為療效機率。
-
-其他排名前列的預測也有同樣問題，包括退化性關節炎易感性、類風濕性關節炎、痛風、假性軟骨發育不全、肝性卟啉症等。這些預測同樣沒有機轉或臨床證據支持。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
----
-
-## 文獻證據
-
-目前無相關文獻。
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 
 ---
 
@@ -95,19 +62,6 @@ TxGNN 模型預測它可能對**退化性關節炎 (Osteoarthritis)** 有效，�
 
 ---
 
-## 結論與下一步
-
-**決策：Hold**
-
-**理由：**
-- 這項預測只有模型分數，沒有臨床試驗、文獻或機轉依據，證據等級為 L5。
-- Vaborbactam 是抗菌輔助藥物，對退化性關節炎沒有已知的生物學關聯。此外，它為靜脈輸注製劑，用於慢性關節疾病的可行性也有疑問。
-
-**若要推進需要：**
-- 補齊香港衛生署仿單，確認核准適應症、警語與禁忌症。
-- 補齊 DrugBank 的作用機轉資料，重新評估是否存在任何機轉連結。
-- 若要重新考慮，需先有前臨床研究（如關節軟骨或發炎模型）顯示生物學活性。
-- 建議優先評估其他預測分數相近但機轉較合理的候選藥物，而不是投入資源驗證此預測。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

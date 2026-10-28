@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Triamcinolone
-parent: 僅模型預測 (L5)
+parent: 中證據等級 (L3-L4)
 nav_order: 903
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Triamcinolone：預測新適應症為禿髮性黏蛋白症 (Alopecia Mucinosa)（證據等級 L5）。原適應症：自體免疫疾病、克隆氏症／發炎性腸道疾病、腎上腺功能不全、先天性腎上腺增生等"
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+description: "Triamcinolone：預測新適應症為禿髮性黏蛋白症 (alopecia mucinosa)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Triamcinolone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L4** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's f
 
 </div>
 
-## Triamcinolone：從自體免疫與發炎性疾病到禿髮性黏蛋白症（Alopecia Mucinosa）
+## Triamcinolone: 禿髮性黏蛋白症 (alopecia mucinosa)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,11 +47,11 @@ TxGNN 模型預測它可能對**禿髮性黏蛋白症 (Alopecia Mucinosa)** 有�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 自體免疫疾病、克隆氏症／發炎性腸道疾病、腎上腺功能不全、先天性腎上腺增生等（來自知識圖譜；香港許可證未載明核准適應症文字） |
-| 預測新適應症 | 禿髮性黏蛋白症 (Alopecia Mucinosa) |
-| TxGNN 預測分數 | 99.99% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 禿髮性黏蛋白症 (alopecia mucinosa) |
+| TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L4（僅有個案報告與機轉推論，無直接臨床證據） |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 

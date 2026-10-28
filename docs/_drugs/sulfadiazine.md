@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Sulfadiazine
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 838
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Sulfadiazine：預測新適應症為肺囊蟲症 (Pneumocystosis)（證據等級 L4）。原適應症：弓形蟲症（Toxoplasmosis）、潰瘍性結腸炎、發炎性腸道疾病、脈絡視網膜炎等"
@@ -14,7 +14,7 @@ predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivi
 # Sulfadiazine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ TxGNN 模型預測它可能對**肺囊蟲症 (Pneumocystosis)** 有效，
 |------|------|
 | 原適應症 | 弓形蟲症（Toxoplasmosis）、潰瘍性結腸炎、發炎性腸道疾病、脈絡視網膜炎等（香港許可證未載明核准適應症文字） |
 | 預測新適應症 | 肺囊蟲症 (Pneumocystosis) |
-| TxGNN 預測分數 | 99.39% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| TxGNN 預測分數 | 0.9939 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold（列為研究問題，待補充證據） |
 
@@ -118,7 +118,7 @@ TxGNN 模型預測它可能對**肺囊蟲症 (Pneumocystosis)** 有效，
 
 **理由：**
 - 肺囊蟲症的預測僅有模型分數與機轉上的類別推論支持（L4），沒有臨床試驗，也沒有直接顯示 sulfadiazine 單獨用於肺囊蟲症的文獻；現有標準治療是 TMP-SMX。
-- 次要預測「點狀上皮角膜結膜炎」（分數 99.36%，L5）沒有任何臨床試驗或文獻，且機轉上缺乏合理連結，可能只是反映與眼部適應症的網絡鄰近性，不建議推進。
+- 次要預測「點狀上皮角膜結膜炎」（分數 0.9936，L5）沒有任何臨床試驗或文獻，且機轉上缺乏合理連結，可能只是反映與眼部適應症的網絡鄰近性，不建議推進。
 
 **若要推進需要：**
 - 取得 sulfadiazine 的詳細作用機轉資料與香港仿單的警語、禁忌資訊

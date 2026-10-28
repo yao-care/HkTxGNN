@@ -6,9 +6,9 @@ nav_order: 832
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Spironolactone：預測新適應症為頭皮單純性毛髮稀少症 (Hypotrichosis simplex of the scalp)（證據等級 L5）。原適應症：高血壓、鬱血性心衰竭、醛固酮增多症、原發性醛固酮增多症、Bartter 症候群、Waterhouse-Friderichsen 症候群"
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
+description: "Spironolactone：預測新適應症為頭皮單純性毛髮稀少症 (hypotrichosis simplex of the scalp)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Spironolactone
@@ -33,7 +33,7 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 
 </div>
 
-## Spironolactone：從高血壓與心衰竭到頭皮單純性毛髮稀少症
+## Spironolactone: 頭皮單純性毛髮稀少症 (hypotrichosis simplex of the scalp)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**頭皮單純性毛髮稀少症 (Hypotrichosis si
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 高血壓、鬱血性心衰竭、醛固酮增多症、原發性醛固酮增多症、Bartter 症候群、Waterhouse-Friderichsen 症候群（來自知識圖譜，非仿單文字） |
-| 預測新適應症 | 頭皮單純性毛髮稀少症 (Hypotrichosis simplex of the scalp) |
-| TxGNN 預測分數 | 99.26% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 頭皮單純性毛髮稀少症 (hypotrichosis simplex of the scalp) |
+| TxGNN 預測分數 | 0.9926 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 9 張 |
+| 香港上市 | 上市中（有效許可證 9 張／共 9 張） |
+| 許可證數 | 9 張（有效 9 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**頭皮單純性毛髮稀少症 (Hypotrichosis si
 
 不過，原適應症（心血管與電解質相關疾病）與新適應症（毛髮疾病）在疾病本質上關聯不大，兩者的連結主要來自模型運算。頭皮單純性毛髮稀少症是罕見的遺傳性疾病（例如 CDSN、APCDD1 或 RPL21 變異），病理機轉並非由雄性素驅動，因此抗雄性素作用是否適用並不明確。
 
-另一個預測的適應症是先天性毛髮稀少伴粟丘疹 (congenital hypotrichosis milia, 分數 99.04%)，同樣是罕見遺傳病，也沒有證據顯示阻斷鹽皮質素或雄性素受體能改變其病程。
+另一個預測的適應症是先天性毛髮稀少伴粟丘疹 (congenital hypotrichosis milia, 分數 0.9904)，同樣是罕見遺傳病，也沒有證據顯示阻斷鹽皮質素或雄性素受體能改變其病程。
 
 ---
 

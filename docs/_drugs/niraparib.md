@@ -6,9 +6,9 @@ nav_order: 622
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Niraparib：預測新適應症為囊性腫瘤 (Cystic Neoplasm)（證據等級 L5）。原適應症：卵巢上皮惡性腫瘤、原發性腹膜癌"
 monitor_inn: "Niraparib"
-predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
+predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "pre-malignant neoplasm", "inner ear neoplasm", "schwannoma of jugular foramen"]
+description: "Niraparib：預測新適應症為Epiglottis neoplasm（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Niraparib
@@ -33,7 +33,7 @@ predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neopla
 
 </div>
 
-## Niraparib：從卵巢癌／腹膜癌到囊性腫瘤（Cystic Neoplasm）
+## Niraparib: Epiglottis neoplasm
 {: .text-alpha }
 
 ## 一句話總結
@@ -49,12 +49,12 @@ TxGNN 模型預測它可能對**囊性腫瘤 (Cystic Neoplasm)** 有效，目前
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 卵巢上皮惡性腫瘤、原發性腹膜癌（核准適應症文字缺漏，依知識圖譜資料） |
-| 預測新適應症 | 囊性腫瘤 (Cystic Neoplasm) |
-| TxGNN 預測分數 | 99.99% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Epiglottis neoplasm |
+| TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5（嚴格依規則，無已完成之 RCT；實際上有 Phase 2 試驗進行中，系統評為 L2，見下方說明） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold（可列為研究性問題，持續追蹤） |
 
 **證據等級說明：** 資料中的系統評級為 L2，但依本報告判定規則，L2 需有「已完成」的 Phase 2/3 RCT。目前相關試驗為進行中（NCT04716686）、已提前終止（NCT04159155）或撤案（NCT05289648），無一完成，故保守判定為 L3 以下；僅有已發表的世代研究與前臨床研究，實際接近 **L3–L4**。

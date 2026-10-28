@@ -6,9 +6,9 @@ nav_order: 339
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Esketamine：預測新適應症為畏曠症 (Agoraphobia)（證據等級 L5）。原適應症：焦慮症、神經症、輕度慢性憂鬱"
 monitor_inn: "ESKETAMINE"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
+description: "Esketamine：預測新適應症為畏曠症 (agoraphobia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Esketamine
@@ -33,12 +33,12 @@ predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy
 
 </div>
 
-## Esketamine：從焦慮症到畏曠症（Agoraphobia）
+## Esketamine: 畏曠症 (agoraphobia)
 {: .text-alpha }
 
 ## 一句話總結
 
-Esketamine 在知識圖譜中的原適應症為焦慮症、神經症與輕度慢性憂鬱（情緒低落性疾患）。
+Esketamine 的原適應症為焦慮症、神經症與輕度慢性憂鬱（情緒低落性疾患）。
 TxGNN 模型預測它可能對**畏曠症 (Agoraphobia)** 有效，但目前**沒有任何臨床試驗或文獻**支持，僅屬模型預測階段。
 
 ---
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**畏曠症 (Agoraphobia)** 有效，但目前**�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 焦慮症、神經症、輕度慢性憂鬱（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 畏曠症 (Agoraphobia) |
-| TxGNN 預測分數 | 99.57% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 畏曠症 (agoraphobia) |
+| TxGNN 預測分數 | 0.9957 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**畏曠症 (Agoraphobia)** 有效，但目前**�
 
 畏曠症屬於焦慮症，與原適應症在恐懼迴路病理上有重疊，這是模型預測的合理之處。
 
-不過，99.57% 的分數僅為計算預測，並無臨床試驗或文獻佐證。此外，部分患者使用後可能出現解離症狀或焦慮加劇，對恐懼症族群可能是疑慮，且目前沒有針對此族群的安全性資料。
+不過，0.9957 的分數僅為計算預測，並無臨床試驗或文獻佐證。此外，部分患者使用後可能出現解離症狀或焦慮加劇，對恐懼症族群可能是疑慮，且目前沒有針對此族群的安全性資料。
 
 ---
 

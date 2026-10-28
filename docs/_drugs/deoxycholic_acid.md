@@ -6,9 +6,9 @@ nav_order: 257
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Deoxycholic Acid：預測新適應症為糖尿病腎病變 (Diabetic Nephropathy)（第 3 名預測，為唯一有間接文獻的預測）（證據等級 L5）。原適應症：目前資料未記載"
 monitor_inn: "DEOXYCHOLIC ACID"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy"]
+description: "Deoxycholic Acid：預測新適應症為Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Deoxycholic Acid
@@ -33,7 +33,7 @@ predicted_indications: ["autosomal dominant familial hematuria-retinal arteriola
 
 </div>
 
-## Deoxycholic Acid：從皮下脂肪（原適應症資料缺漏）到糖尿病腎病變
+## Deoxycholic Acid: Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,15 +46,15 @@ TxGNN 模型預測排名最高的新適應症為極罕見的遺傳性血管疾�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 目前資料未記載（許可證的核准適應症欄位為空白） |
-| 預測新適應症 | 糖尿病腎病變 (Diabetic Nephropathy)（第 3 名預測，為唯一有間接文獻的預測） |
-| TxGNN 預測分數 | 99.32% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome |
+| TxGNN 預測分數 | 0.9949 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
-> 說明：TxGNN 排名第 1、第 2 的預測分別為「常染色體顯性家族性血尿－視網膜小動脈迂曲－攣縮症候群」（99.49%）與「腦小血管病 1 型（伴或不伴眼部異常）」（99.49%），兩者均無任何臨床試驗或文獻，也無法建立機轉關聯，建議皆為 Hold。以下以糖尿病腎病變為主要評估對象，因為它是唯一有可供討論之文獻的預測。
+> 說明：TxGNN 排名第 1、第 2 的預測分別為「常染色體顯性家族性血尿－視網膜小動脈迂曲－攣縮症候群」（0.9949）與「腦小血管病 1 型（伴或不伴眼部異常）」（0.9949），兩者均無任何臨床試驗或文獻，也無法建立機轉關聯，建議皆為 Hold。以下以糖尿病腎病變為主要評估對象，因為它是唯一有可供討論之文獻的預測。
 
 ## 為什麼這個預測合理？
 
@@ -62,7 +62,7 @@ TxGNN 模型預測排名最高的新適應症為極罕見的遺傳性血管疾�
 
 間接的生物學合理性來自膽酸訊號：糖尿病腎病變患者的膽酸代謝出現改變，而膽酸訊號（如 FXR/TGR5 路徑）在前臨床模型中與腎臟保護有關。檢索到的 4 篇文獻都在描述膽酸譜變化或調節膽酸的介入（腸道菌相調節、relaxin、奈米顆粒遞送、代謝體學分析），從標題看，沒有一篇是以去氧膽酸作為治療藥物進行測試。
 
-此外，去氧膽酸作為注射劑使用時屬局部給藥，若要用於腎臟疾病，全身暴露量與腎臟效應需另行評估。至於排名前兩名的罕見血管疾病，其高分較可能來自知識圖譜中的鄰近關聯，而非生物學證據。
+此外，去氧膽酸作為注射劑使用時屬局部給藥，若要用於腎臟疾病，全身暴露量與腎臟效應需另行評估。
 
 ## 臨床試驗證據
 

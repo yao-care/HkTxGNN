@@ -6,9 +6,9 @@ nav_order: 382
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Fluconazole：預測新適應症為點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis)（證據等級 L5）。原適應症：口腔念珠菌病、念珠菌病、外陰陰道念珠菌病、食道念珠菌病、隱球菌腦膜炎、念珠菌血症、播散性念珠菌病"
 monitor_inn: "FLUCONAZOLE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
+description: "Fluconazole：預測新適應症為點狀上皮角膜結膜炎 (punctate epithelial keratoconjunctivitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Fluconazole
@@ -33,7 +33,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 
 </div>
 
-## Fluconazole：從念珠菌感染到點狀上皮角膜結膜炎
+## Fluconazole: 點狀上皮角膜結膜炎 (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,11 +46,11 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 口腔念珠菌病、念珠菌病、外陰陰道念珠菌病、食道念珠菌病、隱球菌腦膜炎、念珠菌血症、播散性念珠菌病（來自知識圖譜，香港許可證未載明適應症文字） |
-| 預測新適應症 | 點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis) |
-| TxGNN 預測分數 | 99.24% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 點狀上皮角膜結膜炎 (punctate epithelial keratoconjunctivitis) |
+| TxGNN 預測分數 | 0.9924 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 
 目前缺乏詳細的作用機轉資料。一般認為 fluconazole 是三唑類抗黴菌藥，可抑制真菌 CYP51（羊毛固醇 14-α-去甲基酶），干擾真菌細胞膜的麥角固醇合成。這是從藥物類別推論，並非本次整理資料所提供的內容。
 
-點狀上皮角膜結膜炎常見原因為病毒（如腺病毒）或非感染性因素，並非典型的黴菌感染。因此，抗黴菌作用在機轉上並不明顯適用。模型給出高分，可能是因為圖譜中它與其他眼表或感染性角膜炎疾病有關聯，但這只是假設。
+點狀上皮角膜結膜炎常見原因為病毒（如腺病毒）或非感染性因素，並非典型的黴菌感染。因此，抗黴菌作用在機轉上並不明顯適用。此分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，並非生物學證據。
 
 目前這項預測是唯一的支持訊號，沒有試驗或文獻佐證。在釐清病因與機轉前，應謹慎看待這個高分。
 
@@ -97,7 +97,7 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 **決策：Hold**
 
 **理由：**
-- 預測分數很高（99.24%），但這是唯一的證據，沒有任何臨床試驗或文獻。
+- 預測分數很高（0.9924），但這是唯一的證據，沒有任何臨床試驗或文獻。
 - 該疾病多為病毒性或非感染性，抗黴菌機轉並不明顯適用。
 
 **若要推進需要：**

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nilotinib
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 619
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Nilotinib：預測新適應症為隆突性皮膚纖維肉瘤 (Dermatofibrosarcoma protuberans)（證據等級 L4）。原適應症：慢性骨髓性白血病（BCR-ABL1 陽性）"
 monitor_inn: "NILOTINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
+description: "Nilotinib：預測新適應症為隆突性皮膚纖維肉瘤 (dermatofibrosarcoma protuberans)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Nilotinib
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["dermatofibrosarcoma protuberans"]
 
 </div>
 
-## Nilotinib：從慢性骨髓性白血病到隆突性皮膚纖維肉瘤
+## Nilotinib: 隆突性皮膚纖維肉瘤 (dermatofibrosarcoma protuberans)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**隆突性皮膚纖維肉瘤 (Dermatofibrosarcoma
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 慢性骨髓性白血病（BCR-ABL1 陽性） |
-| 預測新適應症 | 隆突性皮膚纖維肉瘤 (Dermatofibrosarcoma protuberans) |
-| TxGNN 預測分數 | 99.31% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 隆突性皮膚纖維肉瘤 (dermatofibrosarcoma protuberans) |
+| TxGNN 預測分數 | 0.9931 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ---
@@ -98,7 +98,6 @@ Nilotinib 除了抑制 BCR-ABL1 之外，也會抑制 PDGFR-α/β 與 KIT。隆�
 | 項目 | 內容 |
 |------|------|
 | 細胞毒性分類 | 標靶藥物（酪胺酸激酶抑制劑） |
-| 骨髓抑制風險 | 請參考原廠仿單的警語與注意事項。知識圖譜顯示本藥與嗜中性白血球低下、血小板低下、貧血相關，需留意血球變化 |
 | 監測項目 | CBC（含分類）、肝功能、血糖、電解質（鉀、鈣、磷）、心電圖（QT 間期） |
 
 其餘項目（致吐性分級、處置防護）請參考原廠仿單的警語與注意事項。
@@ -126,7 +125,7 @@ Nilotinib 除了抑制 BCR-ABL1 之外，也會抑制 PDGFR-α/β 與 KIT。隆�
 **決策：Hold**
 
 **理由：**
-- 雖然 TxGNN 分數很高（99.31%），且 PDGFR 抑制的機轉推論合理，但目前只有一篇非 nilotinib 專屬的綜述，沒有臨床試驗，證據僅達 L4。
+- 雖然 TxGNN 分數很高（0.9931），且 PDGFR 抑制的機轉推論合理，但目前只有一篇非 nilotinib 專屬的綜述，沒有臨床試驗，證據僅達 L4。
 - 仿單的警語與禁忌資料尚未取得，無法進行安全性篩選。
 
 **若要推進需要：**

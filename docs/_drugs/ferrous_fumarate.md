@@ -6,9 +6,9 @@ nav_order: 372
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Ferrous Fumarate：預測新適應症為非症候群型食道畸形 (non-syndromic esophageal malformation)（證據等級 L5）。原適應症：缺鐵性貧血、葉酸缺乏性貧血、早產兒貧血、低色素性貧血、小球性貧血、缺乏性貧血、痤瘡"
 monitor_inn: "FERROUS FUMARATE"
 predicted_indications: ["non-syndromic esophageal malformation"]
+description: "Ferrous Fumarate：預測新適應症為非症候群型食道畸形 (non-syndromic esophageal malformation)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Ferrous Fumarate
@@ -33,7 +33,7 @@ predicted_indications: ["non-syndromic esophageal malformation"]
 
 </div>
 
-## Ferrous Fumarate：從缺鐵性貧血到先天性食道畸形（非症候群型）
+## Ferrous Fumarate: 非症候群型食道畸形 (non-syndromic esophageal malformation)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**非症候群型食道畸形 (non-syndromic esoph
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 缺鐵性貧血、葉酸缺乏性貧血、早產兒貧血、低色素性貧血、小球性貧血、缺乏性貧血、痤瘡（來自知識圖譜；香港許可證未列核准適應症文字） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | 非症候群型食道畸形 (non-syndromic esophageal malformation) |
-| TxGNN 預測分數 | 99.49% |
+| TxGNN 預測分數 | 0.9949 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**非症候群型食道畸形 (non-syndromic esoph
 
 食道畸形（如食道閉鎖、氣管食道瘻管）屬於先天性結構缺陷，源於胚胎期前腸分隔與模式形成異常。對已成形的食道補充鐵質，預期無法矯正這類結構問題，因此**目前找不到可信的機轉連結**。
 
-TxGNN 的高分（99.49%）僅代表知識圖譜中的網路關聯，可能反映的是網路鄰近性的人為假象，而非生物學上的合理性。此外，口服鐵劑本身可能造成食道刺激或損傷，這更不利於其作為治療用途。
+TxGNN 模型（深度學習）給出的高分（0.9949）可能反映模型學到的相關疾病之間的相似性，而非生物學證據。此外，口服鐵劑本身可能造成食道刺激或損傷，這更不利於其作為治療用途。
 
 ---
 

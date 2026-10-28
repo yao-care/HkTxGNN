@@ -4,17 +4,17 @@ title: Inclisiran
 parent: 僅模型預測 (L5)
 nav_order: 466
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Inclisiran：預測新適應症為鉀缺乏症 (Potassium Deficiency Disease)（證據等級 L5）。原適應症：目前缺乏香港許可證的適應症文字資料"
 monitor_inn: "Inclisiran"
-predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
+predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
 ---
 
 # Inclisiran
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ TxGNN 模型預測它可能對**鉀缺乏症 (Potassium Deficiency Disease)** �
 |------|------|
 | 原適應症 | 目前缺乏香港許可證的適應症文字資料 |
 | 預測新適應症 | 鉀缺乏症 (Potassium Deficiency Disease) |
-| TxGNN 預測分數 | 99.93% |
+| TxGNN 預測分數 | 0.9993 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

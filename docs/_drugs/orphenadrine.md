@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Orphenadrine
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 647
-evidence_level: L3
+evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Orphenadrine：預測新適應症為思覺失調症 (Schizophrenia)（證據等級 L3）。原適應症：帕金森氏症（parkinsonian disorder / Parkinson disease）"
 monitor_inn: "Orphenadrine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "myopia 26, X-linked, female-limited"]
+description: "Orphenadrine：預測新適應症為Retinal dystrophy with or without extraocular anomalies（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Orphenadrine
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **7** 個
+證據等級: **L5** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 
 </div>
 
-## Orphenadrine：從帕金森氏症到思覺失調症
+## Orphenadrine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## 一句話總結
@@ -50,11 +50,11 @@ TxGNN 模型預測它可能對**思覺失調症 (Schizophrenia)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 帕金森氏症（parkinsonian disorder / Parkinson disease） |
-| 預測新適應症 | 思覺失調症 (Schizophrenia) |
-| TxGNN 預測分數 | 99.13% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Retinal dystrophy with or without extraocular anomalies |
+| TxGNN 預測分數 | 0.9929 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold（列為研究問題，暫不推進） |
 

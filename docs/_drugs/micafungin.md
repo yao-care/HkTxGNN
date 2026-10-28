@@ -6,9 +6,9 @@ nav_order: 582
 evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Micafungin：預測新適應症為泌尿道感染 (Urinary Tract Infection)（證據等級 L3）。原適應症：食道念珠菌症、念珠菌血症、散播性念珠菌症"
 monitor_inn: "MICAFUNGIN"
 predicted_indications: ["urinary tract infection (disease)"]
+description: "Micafungin：預測新適應症為泌尿道感染 (urinary tract infection (disease))（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Micafungin
@@ -33,7 +33,7 @@ predicted_indications: ["urinary tract infection (disease)"]
 
 </div>
 
-## Micafungin：從食道念珠菌症到泌尿道感染
+## Micafungin: 泌尿道感染 (urinary tract infection (disease))
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**泌尿道感染 (Urinary Tract Infection)**（�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 食道念珠菌症、念珠菌血症、散播性念珠菌症（來源為知識圖譜的適應症資料；香港許可證未載明適應症文字） |
-| 預測新適應症 | 泌尿道感染 (Urinary Tract Infection) |
-| TxGNN 預測分數 | 99.03% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 泌尿道感染 (urinary tract infection (disease)) |
+| TxGNN 預測分數 | 0.9903 |
 | 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---

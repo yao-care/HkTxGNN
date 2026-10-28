@@ -33,7 +33,7 @@ predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", 
 
 </div>
 
-## 醋酸（Acetic Acid）：從外耳炎到體癬（Tinea Corporis）
+## 醋酸（Acetic Acid）：從外耳炎到細菌感染後疾患（post-bacterial disorder）
 {: .text-alpha }
 
 ## 一句話總結
@@ -50,10 +50,10 @@ TxGNN 模型的預測排名第一為**細菌感染後疾患 (post-bacterial diso
 |------|------|
 | 原適應症 | 外耳炎、外耳疾病（香港許可證未載明核准適應症文字） |
 | 預測新適應症 | 排名第一：細菌感染後疾患 (post-bacterial disorder)；證據相對最多者：體癬 (Tinea Corporis) |
-| TxGNN 預測分數 | 細菌感染後疾患 99.98%；體癬 99.25% |
+| TxGNN 預測分數 | 細菌感染後疾患 0.9998；體癬 0.9925 |
 | 證據等級 | 細菌感染後疾患 L5；體癬 L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold（體癬可列為研究問題） |
 
 ---

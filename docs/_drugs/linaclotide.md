@@ -6,9 +6,9 @@ nav_order: 531
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Linaclotide：預測新適應症為馬尾症候群 (Cauda Equina Syndrome)（證據等級 L5）。原適應症：腸躁症、困難梭狀芽孢桿菌結腸炎、神經循環性衰弱"
 monitor_inn: "LINACLOTIDE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "insomnia (disease)"]
+description: "Linaclotide：預測新適應症為馬尾症候群 (cauda equina syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Linaclotide
@@ -33,7 +33,7 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 </div>
 
-## Linaclotide：從腸躁症到馬尾症候群
+## Linaclotide: 馬尾症候群 (cauda equina syndrome)
 {: .text-alpha }
 
 ## 一句話總結
@@ -45,19 +45,19 @@ TxGNN 模型預測它可能對**馬尾症候群（Cauda Equina Syndrome）**有�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 腸躁症、困難梭狀芽孢桿菌結腸炎、神經循環性衰弱（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 馬尾症候群 (Cauda Equina Syndrome) |
-| TxGNN 預測分數 | 99.96% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 馬尾症候群 (cauda equina syndrome) |
+| TxGNN 預測分數 | 0.9996 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
 目前缺乏詳細的作用機轉資料。Linaclotide 屬於 GC-C 促效劑，可提高細胞內外 cGMP 濃度，作用集中在腸道局部，全身吸收極低。
 
-馬尾症候群是腰薦神經根受壓迫造成的神經學急症，與 linaclotide 的作用路徑沒有已知關聯。模型的高分可能來自知識圖譜中與腸道、膀胱功能障礙（如便秘、神經性腸道）表型的網路鄰近性。
+馬尾症候群是腰薦神經根受壓迫造成的神經學急症，與 linaclotide 的作用路徑沒有已知關聯。此分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
 Linaclotide 至多可能緩解此類病人繼發的便秘症狀，無法處理神經壓迫或神經損傷本身。因此這項預測的合理性偏低，不宜視為真正的藥物再利用機會。
 
@@ -65,8 +65,8 @@ Linaclotide 至多可能緩解此類病人繼發的便秘症狀，無法處理�
 
 | 排名 | 預測疾病 | 預測分數 | 評估 |
 |------|---------|---------|------|
-| 2 | 神經性膀胱（ontology 已標示為過時術語） | 99.89% | 無直接機轉連結，無試驗與文獻；建議先對應到現行術語（如神經性下泌尿道功能障礙）再評估 |
-| 3 | 失眠 (Insomnia) | 99.51% | 全身暴露極低，中樞作用不太可能；若有關聯，也只是腸道症狀改善後的間接效果 |
+| 2 | 神經性膀胱（ontology 已標示為過時術語） | 0.9989 | 無直接機轉連結，無試驗與文獻；建議先對應到現行術語（如神經性下泌尿道功能障礙）再評估 |
+| 3 | 失眠 (Insomnia) | 0.9951 | 全身暴露極低，中樞作用不太可能；若有關聯，也只是腸道症狀改善後的間接效果 |
 
 ## 臨床試驗證據
 

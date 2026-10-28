@@ -4,7 +4,7 @@ title: Polymyxin B
 parent: 中證據等級 (L3-L4)
 nav_order: 711
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Polymyxin B：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L4）。原適應症：許可證資料未載明"
 monitor_inn: "POLYMYXIN B"
@@ -14,7 +14,7 @@ predicted_indications: ["bronchitis", "laryngotracheitis"]
 # Polymyxin B
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **3** 個
+證據等級: **L4** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ TxGNN 模型預測分數最高的新適應症為**支氣管炎 (Bronchitis)**，
 |------|------|
 | 原適應症 | 許可證資料未載明 |
 | 預測新適應症 | 支氣管炎 (Bronchitis) |
-| TxGNN 預測分數 | 99.87% |
+| TxGNN 預測分數 | 0.9987 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 
@@ -60,8 +60,7 @@ TxGNN 模型預測分數最高的新適應症為**支氣管炎 (Bronchitis)**，
 
 | 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議決策 |
 |------|-----------|-----------|---------|---------|
-| 2 | 喉氣管炎 (Laryngotracheitis) | 99.62% | L5 | Hold |
-| 3 | 結膜炎 (Conjunctivitis) | 99.06% | L1 | Proceed with Guardrails |
+| 2 | 喉氣管炎 (Laryngotracheitis) | 0.9962 | L5 | Hold |
 
 ---
 

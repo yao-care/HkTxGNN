@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 532
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
-description: "Lincomycin：預測新適應症為高澱粉酶血症 (Hyperamylasemia)（證據等級 L5）。原適應症：肺炎鏈球菌感染、葡萄球菌感染、鏈球菌感染"
+last_modified_at: 2026-10-28
 monitor_inn: "LINCOMYCIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
+description: "Lincomycin：預測新適應症為高澱粉酶血症 (hyperamylasemia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Lincomycin
@@ -33,7 +33,7 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 
 </div>
 
-## Lincomycin：從肺炎鏈球菌／葡萄球菌／鏈球菌感染到高澱粉酶血症
+## Lincomycin: 高澱粉酶血症 (hyperamylasemia)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (Hyperamylasemia)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 肺炎鏈球菌感染、葡萄球菌感染、鏈球菌感染（來自知識圖譜；香港許可證未載明核准適應症文字） |
-| 預測新適應症 | 高澱粉酶血症 (Hyperamylasemia) |
-| TxGNN 預測分數 | 99.14% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 高澱粉酶血症 (hyperamylasemia) |
+| TxGNN 預測分數 | 0.9914 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 7 張 |
+| 香港上市 | 上市中（有效許可證 7 張／共 7 張） |
+| 許可證數 | 7 張（有效 7 張） |
 | 建議決策 | Hold |
 
 ---
@@ -63,9 +63,9 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (Hyperamylasemia)** 有效，
 
 高澱粉酶血症是一種檢驗數值異常，通常反映胰臟或唾液腺病變，或腎臟清除率下降，並非細菌性疾病。**現有資料無法支持兩者之間存在機轉上的連結。** 若要找關聯，也只能推測為「治療造成胰臟炎的感染原因」，這屬於間接且高度推測的說法。
 
-高分預測可能只是反映知識圖譜中的鄰近關係，而非真正的治療關係。
+高分預測來自 TxGNN 模型（深度學習），可能只是反映模型在相關疾病之間學到的相似性，而非生物學證據。
 
-此外，同一模型對 Lincomycin 的其他高分預測（多株性高黏滯症候群，99.14%；先天性無白蛋白血症，99.06%）同樣沒有任何試驗或文獻支持，機轉上也無合理連結，顯示這些預測應審慎看待。
+此外，同一模型對 Lincomycin 的其他高分預測（多株性高黏滯症候群，0.9914；先天性無白蛋白血症，0.9906）同樣沒有任何試驗或文獻支持，機轉上也無合理連結，顯示這些預測應審慎看待。
 
 ---
 

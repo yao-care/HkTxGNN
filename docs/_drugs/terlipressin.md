@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Terlipressin
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 866
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Terlipressin：預測新適應症為肺動脈高壓 (Pulmonary Hypertension)（證據等級 L3）。原適應症：資料未提供"
 monitor_inn: "Terlipressin"
-predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder", "hyperthyroidism", "glaucoma", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder"]
+description: "Terlipressin：預測新適應症為Open-angle glaucoma（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Terlipressin
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "p
 
 </div>
 
-## Terlipressin：從（原適應症資料未提供）到肺動脈高壓
+## Terlipressin: Open-angle glaucoma
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,15 +47,15 @@ TxGNN 模型預測的前幾名新適應症中，**肺動脈高壓 (Pulmonary Hyp
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未提供（許可證資料中核准適應症欄位皆為空白） |
-| 預測新適應症 | 肺動脈高壓 (Pulmonary Hypertension)（排名第 3，為證據最多者） |
-| TxGNN 預測分數 | 99.56% |
-| 證據等級 | L3 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 6 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Open-angle glaucoma |
+| TxGNN 預測分數 | 0.9978 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
+| 許可證數 | 6 張（有效 6 張） |
 | 建議決策 | Hold（僅作為研究問題，需先釐清安全性） |
 
-> 說明：TxGNN 分數最高的是開角型青光眼 (99.78%)，但該預測沒有任何試驗或文獻支持（L5），也缺乏合理機轉，故本報告以有實際證據的肺動脈高壓為主軸，並在文末列出其他預測。
+> 說明：TxGNN 分數最高的是開角型青光眼 (0.9978)，但該預測沒有任何試驗或文獻支持（L5），也缺乏合理機轉，故本報告以有實際證據的肺動脈高壓為主軸，並在文末列出其他預測。
 
 ---
 

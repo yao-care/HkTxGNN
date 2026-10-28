@@ -6,9 +6,9 @@ nav_order: 516
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Leflunomide：預測新適應症為短指併指症候群 (Brachydactyly-Syndactyly Syndrome)（證據等級 L5）。原適應症：類風濕性關節炎、乾癬性關節炎"
 monitor_inn: "LEFLUNOMIDE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Leflunomide：預測新適應症為短指併指症候群 (brachydactyly-syndactyly syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Leflunomide
@@ -33,7 +33,7 @@ predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous micro
 
 </div>
 
-## Leflunomide：從類風濕性關節炎／乾癬性關節炎到短指併指症候群
+## Leflunomide: 短指併指症候群 (brachydactyly-syndactyly syndrome)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,15 +47,15 @@ TxGNN 模型預測它可能對**短指併指症候群 (Brachydactyly-Syndactyly 
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 類風濕性關節炎、乾癬性關節炎（香港許可證未附適應症文字，此處依知識圖譜資料） |
-| 預測新適應症 | 短指併指症候群 (Brachydactyly-Syndactyly Syndrome) |
-| TxGNN 預測分數 | 99.93% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 短指併指症候群 (brachydactyly-syndactyly syndrome) |
+| TxGNN 預測分數 | 0.9993 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 15 張 |
+| 香港上市 | 上市中（有效許可證 15 張／共 15 張） |
+| 許可證數 | 15 張（有效 15 張） |
 | 建議決策 | Hold |
 
-另有一個排名第 2 的預測：**眼缺損小眼症－近端肢體發育不良症候群**（分數 99.93%，同樣為 L5、無試驗與文獻、建議 Hold）。本報告以排名第 1 的預測為主。
+另有一個排名第 2 的預測：**眼缺損小眼症－近端肢體發育不良症候群**（分數 0.9993，同樣為 L5、無試驗與文獻、建議 Hold）。本報告以排名第 1 的預測為主。
 
 ---
 

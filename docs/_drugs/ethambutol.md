@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ethambutol
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 345
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Ethambutol：預測新適應症為會厭炎 (Epiglottitis)（證據等級 L4）。原適應症：肺結核 (Pulmonary tuberculosis)"
@@ -14,7 +14,7 @@ predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection",
 # Ethambutol
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**會厭炎 (Epiglottitis)** 有效，但目前**�
 |------|------|
 | 原適應症 | 肺結核 (Pulmonary tuberculosis) |
 | 預測新適應症 | 會厭炎 (Epiglottitis) |
-| TxGNN 預測分數 | 99.90% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| TxGNN 預測分數 | 0.9990 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold |
 
 ---
@@ -107,7 +107,7 @@ TxGNN 模型預測它可能對**會厭炎 (Epiglottitis)** 有效，但目前**�
 
 **理由：**
 - 沒有臨床試驗，唯一的文獻是喉結核病例系列，屬既有結核適應症在特定部位的使用，並非新的治療機會。
-- Ethambutol 對一般細菌性會厭炎無預期活性，高預測分數很可能是圖譜關聯造成的假象。
+- Ethambutol 對一般細菌性會厭炎無預期活性，高預測分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，並非生物學證據。
 
 **若要推進需要：**
 - 取得詳細的作用機轉資料，釐清與會厭炎的機轉關聯

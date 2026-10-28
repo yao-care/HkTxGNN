@@ -6,9 +6,9 @@ nav_order: 236
 evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Cyclosporine：預測新適應症為慢性肉芽腫病，體染色體隱性 (Granulomatous disease, chronic, autosomal recessive)（證據等級 L4）。原適應症：類風濕性關節炎、乾眼症、角結膜乾燥症、修格連氏症候群"
 monitor_inn: "cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
+description: "Cyclosporine：預測新適應症為慢性肉芽腫病，體染色體隱性 (granulomatous disease, chronic, autosomal recessive)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Cyclosporine
@@ -33,7 +33,7 @@ predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "
 
 </div>
 
-## Cyclosporine：從類風濕性關節炎與乾眼症到慢性肉芽腫病
+## Cyclosporine: 慢性肉芽腫病，體染色體隱性 (granulomatous disease, chronic, autosomal recessive)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**慢性肉芽腫病（體染色體隱性，Chroni
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 類風濕性關節炎、乾眼症、角結膜乾燥症、修格連氏症候群（香港許可證未載明適應症文字，此處依知識圖譜資料） |
-| 預測新適應症 | 慢性肉芽腫病，體染色體隱性 (Granulomatous disease, chronic, autosomal recessive) |
-| TxGNN 預測分數 | 99.68% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 慢性肉芽腫病，體染色體隱性 (granulomatous disease, chronic, autosomal recessive) |
+| TxGNN 預測分數 | 0.9968 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 19 張 |
+| 香港上市 | 上市中（有效許可證 19 張／共 19 張） |
+| 許可證數 | 19 張（有效 19 張） |
 | 建議決策 | Hold |
 
 ---
@@ -123,7 +123,7 @@ TxGNN 模型預測它可能對**慢性肉芽腫病（體染色體隱性，Chroni
 ## 其他預測適應症備註
 
 資料中另有其他預測，證據同樣有限：
-- **腦動脈瘤**（分數 99.50%，L3，建議為研究問題）：僅有 1990 年代兩篇小型早期報告，探討動脈瘤性蛛網膜下腔出血後的血管痙攣預防，並非治療動脈瘤本身；2017 年前臨床研究顯示 T 細胞功能對動脈瘤形成並非必要，不利於 T 細胞標靶機轉。
+- **腦動脈瘤**（分數 0.9950，L3，建議為研究問題）：僅有 1990 年代兩篇小型早期報告，探討動脈瘤性蛛網膜下腔出血後的血管痙攣預防，並非治療動脈瘤本身；2017 年前臨床研究顯示 T 細胞功能對動脈瘤形成並非必要，不利於 T 細胞標靶機轉。
 - **其餘 5 項**（先天性魚鱗癬樣紅皮症、胎兒母子血型不合溶血、淚腺脫垂等）：僅有模型預測或與臨床無關的體外研究，無可用機轉依據，皆為 Hold。
 ## 免責聲明
 

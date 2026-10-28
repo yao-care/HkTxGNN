@@ -4,17 +4,17 @@ title: Regorafenib
 parent: 高證據等級 (L1-L2)
 nav_order: 763
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Regorafenib：預測新適應症為脂肪肉瘤 (Liposarcoma)（證據等級 L2）。原適應症：大腸直腸癌轉移、肝細胞癌、胃腸道基質瘤"
 monitor_inn: "Regorafenib"
-predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "vulva sarcoma", "spindle cell liposarcoma", "renal cell carcinoma (disease)"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
+description: "Regorafenib：預測新適應症為脂肪肉瘤 (liposarcoma)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Regorafenib
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **10** 個
+證據等級: **L2** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell
 
 </div>
 
-## Regorafenib：從大腸直腸癌轉移、肝細胞癌與胃腸道基質瘤到脂肪肉瘤
+## Regorafenib: 脂肪肉瘤 (liposarcoma)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，目前有 
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 大腸直腸癌轉移、肝細胞癌、胃腸道基質瘤（資料中香港許可證未載明適應症文字，此為知識圖譜所列適應症） |
-| 預測新適應症 | 脂肪肉瘤 (Liposarcoma) |
-| TxGNN 預測分數 | 99.76% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 脂肪肉瘤 (liposarcoma) |
+| TxGNN 預測分數 | 0.9976 |
 | 證據等級 | L2 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold（見結論說明） |
 
 ---
@@ -127,7 +127,7 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，目前有 
 
 **理由：**
 - 資料彙整的系統預設建議為 Proceed with Guardrails，但納入實際內容後，我們下調為 Hold。最直接的證據（SARC024 脂肪肉瘤世代、REGOSARC）顯示 regorafenib 對脂肪肉瘤**無明確療效**，作者明言不支持常規使用。
-- TxGNN 分數雖高（99.76%），但模型預測與臨床結果相左；證據等級雖屬 L2，但該證據的方向為陰性。
+- TxGNN 分數雖高（0.9976），但模型預測與臨床結果相左；證據等級雖屬 L2，但該證據的方向為陰性。
 - 香港許可證缺少適應症文字與完整安全性資料，目前也無法進行完整安全性篩選。
 
 **若要推進需要：**

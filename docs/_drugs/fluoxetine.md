@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fluoxetine
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 391
-evidence_level: L4
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Fluoxetine：預測新適應症為分裂樣人格障礙 (Schizoid Personality Disorder)（證據等級 L4）。原適應症：焦慮症、神經症、輕度憂鬱症、雙極性疾患、單極性憂鬱症、內因性憂鬱症、重度憂鬱症、暴食症、強迫症"
+evidence_level: L5
+indication_count: 9
 monitor_inn: "FLUOXETINE"
-predicted_indications: ["schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "benign paroxysmal torticollis of infancy"]
+predicted_indications: ["paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
+last_modified_at: 2026-10-28
+description: "Fluoxetine：預測新適應症為妄想型人格障礙 (paranoid personality disorder)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Fluoxetine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,31 @@ predicted_indications: ["schizoid personality disorder", "paranoid personality d
 
 </div>
 
-## Fluoxetine：從憂鬱症與強迫症到分裂樣人格障礙
+## Fluoxetine: 妄想型人格障礙 (paranoid personality disorder)
 {: .text-alpha }
 
 ## 一句話總結
 
-Fluoxetine（氟西汀）是一種選擇性血清素再回收抑制劑（SSRI），原本用於憂鬱症、強迫症、暴食症及焦慮症等精神科適應症。
-TxGNN 模型預測它可能對**分裂樣人格障礙 (Schizoid Personality Disorder)** 有效，
-但目前**沒有臨床試驗**，僅有 **2 篇文獻**，且多為間接證據，屬模型預測階段。
+Fluoxetine 是一種選擇性血清素再吸收抑制劑（SSRI），知識圖譜記錄它與憂鬱症、焦慮症、強迫症、暴食症等疾病有關聯。
+TxGNN 模型預測它可能對**妄想型人格障礙 (Paranoid Personality Disorder)** 有效，但目前**沒有任何臨床試驗**，文獻也只有一般性的回顧和世代研究，沒有直接證明 fluoxetine 對此疾病有效。這個預測目前只是模型推論。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 焦慮症、神經症、輕度憂鬱症、雙極性疾患、單極性憂鬱症、內因性憂鬱症、重度憂鬱症、暴食症、強迫症（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 分裂樣人格障礙 (Schizoid Personality Disorder) |
-| TxGNN 預測分數 | 99.92% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 20 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 妄想型人格障礙 (paranoid personality disorder) |
+| TxGNN 預測分數 | 0.9992 |
+| 證據等級 | L5（僅有模型預測） |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 許可證數 | 至少 20 張（清單可能不完整） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Fluoxetine 屬於 SSRI 類藥物，可提高突觸間的血清素濃度。血清素調節理論上可能改善情感平淡、社交退縮，以及 A 群人格障礙常見的憂鬱與焦慮共病症狀。
+目前缺乏詳細的作用機轉資料。Fluoxetine 屬於 SSRI 類藥物，透過調節血清素系統作用。理論上，它可能改善與人格障礙並存的焦慮、憂鬱或衝動等症狀。
 
-原適應症（憂鬱症、焦慮症、強迫症）與分裂樣人格障礙在症狀上有部分重疊，例如社交退縮與情緒低落，這是模型預測的可能依據。
-
-但必須強調：目前沒有針對分裂樣人格障礙核心特徵的直接證據，這個機轉連結屬於推論且間接。
+不過，這種關聯並非妄想型人格障礙特有。目前取得的文獻是人格障礙與憂鬱症共病的一般性回顧，以及 A 群人格障礙（含妄想型、孤僻型、思覺失調型）的藥物治療回顧，並未顯示 fluoxetine 對妄想型人格障礙本身有效。0.9992 的高分只是模型預測，不能視為臨床證據。
 
 ## 臨床試驗證據
 
@@ -70,41 +67,46 @@ TxGNN 模型預測它可能對**分裂樣人格障礙 (Schizoid Personality Diso
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [29955451](https://pubmed.ncbi.nlm.nih.gov/29955451/) | 2016 | Review | The Mental Health Clinician | 回顧 A 群人格障礙（含分裂樣）的藥物治療，探討如何治療這類社交孤立的病人 |
-| [16390895](https://pubmed.ncbi.nlm.nih.gov/16390895/) | 2006 | Cohort | American Journal of Psychiatry | 憂鬱症病人 6 個月治療的結果與病程預測因子，與分裂樣人格障礙僅間接相關 |
+| [29955451](https://pubmed.ncbi.nlm.nih.gov/29955451/) | 2016 | 回顧 | The Mental Health Clinician | 回顧 A 群人格障礙（含妄想型）的藥物治療，未顯示 fluoxetine 有特定療效 |
+| [36853245](https://pubmed.ncbi.nlm.nih.gov/36853245/) | 2023 | 回顧 | JAMA | 邊緣型人格障礙的整體回顧，非針對妄想型人格障礙 |
+| [12214786](https://pubmed.ncbi.nlm.nih.gov/12214786/) | 2002 | 回顧 | Psychological Medicine | 憂鬱門診病人以 fluoxetine 治療前後，觀察人格障礙診斷的穩定性及與憂鬱改善的關係 |
+| [12524634](https://pubmed.ncbi.nlm.nih.gov/12524634/) | 2003 | 世代研究 | Comprehensive Psychiatry | 183 位憂鬱症病人（隨機分派至 fluoxetine 或 nortriptyline），比較邊緣型人格障礙病人與其他病人的特徵和結果 |
+| [17637578](https://pubmed.ncbi.nlm.nih.gov/17637578/) | 2000 | 世代研究 | CNS Spectrums | 以 clozapine 治療的妄想型思覺失調症病人，探討社交焦慮和病前人格障礙 |
+| [21371699](https://pubmed.ncbi.nlm.nih.gov/21371699/) | 2011 | 世代研究 | Comprehensive Psychiatry | 比較童年、青少年、成年發病憂鬱症的臨床特徵 |
+| [26703328](https://pubmed.ncbi.nlm.nih.gov/26703328/) | 2016 | 回顧 | J Dev Behav Pediatr | 多囊性卵巢症候群與精神科診斷的病例討論，與本預測關聯薄弱 |
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-30503 | PROZAC CAP 20MG（禮來） | 膠囊 | 資料未載明 |
-| HK-68820 | APO-FLUOXETINE CAPSULES 20MG | 膠囊 | 資料未載明 |
-| HK-68648 | AROZAC CAPSULES 10MG | 膠囊 | 資料未載明 |
-| HK-60977 | FLUOXETINE CAPSULES BP 20MG | 膠囊 | 資料未載明 |
-| HK-50302 | FLUOXETINE-TEVA CAP 20MG | 膠囊 | 資料未載明 |
+香港共有至少 20 張含 fluoxetine 的單方許可證，皆為有效狀態，以下僅列出 5 張，完整清單可能更多。許可證資料未載明核准適應症文字。
 
-（共 20 張有效單一成分許可證，此處僅列 5 張主要許可證。）
+| 許可證號 | 品名 | 廠商 |
+|---------|------|------|
+| HK-68820 | APO-FLUOXETINE CAPSULES 20MG | HIND WING CO LTD |
+| HK-35706 | MAGRILAN CAP 20MG | STAR MEDICAL SUPPLIES LTD |
+| HK-68648 | AROZAC CAPSULES 10MG | APT PHARMA LIMITED |
+| HK-30503 | PROZAC CAP 20MG | ELI LILLY ASIA, INC. |
+| HK-60977 | FLUOXETINE CAPSULES BP 20MG | AUROBINDO PHARMA LIMITED |
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌或風險疾病**（非仿單文字）：雙極性疾患、癲癇、肝衰竭／肝病、肝硬化、糖尿病及糖尿病酮酸中毒、嗜中性白血球低下、顆粒球缺乏症、凝血疾病、中風／腦血管疾病、心肌梗塞、姿勢性低血壓、攝護腺肥大、高三酸甘油酯血症等。
-- **藥物交互作用**：資料庫共 100 筆，部分重大（Major）交互作用包括 Bupropion、Lorcaserin、Diethylpropion、Dolasetron、Palonosetron、Eliglustat、Cisapride。中度交互作用包括 Acetylsalicylic acid（阿斯匹靈）、Morphine、Clarithromycin 等。
-- **預測適應症相關的安全訊號**：有病例報告指出，一名分裂型人格障礙病人服用 Fluoxetine 後出現短暫精神病症狀合併心因性多飲（PMID 9664779）。
-- 仿單的主要警語與禁忌尚未取得，請參考原廠仿單。
+- **知識圖譜記錄的禁忌關聯疾病**（非仿單內容，僅供參考）：癲癇、雙極性疾患、肝病／肝衰竭／肝硬化、糖尿病／糖尿病酮酸中毒、嗜中性白血球低下、顆粒球缺乏症、凝血疾病、攝護腺肥大、高血脂、中風／腦血管疾患、心肌梗塞等。
+- **藥物交互作用**：共查得 100 筆，其中列為嚴重 (Major) 的包括 Bupropion、Lorcaserin、Diethylpropion、Dolasetron、Eliglustat、Palonosetron、Cisapride。中度 (Moderate) 的包括 Acetylsalicylic acid（阿斯匹靈）、Clarithromycin、Morphine、Famotidine 等。
+
+仿單警語與禁忌請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 目前無臨床試驗，文獻僅有一篇 A 群人格障礙的回顧與一篇憂鬱症世代研究，皆為間接證據，高 TxGNN 分數僅屬計算預測。
-- 仿單安全資料尚未取得，無法進入安全性篩選。
+- 沒有任何臨床試驗，文獻也沒有直接證明 fluoxetine 對妄想型人格障礙有效，證據僅為模型預測（L5）。
+- 此疾病與 fluoxetine 原有的憂鬱、焦慮用途的關聯只是推論，目前不建議推進。
 
 **若要推進需要：**
-- 取得香港衛生署仿單的警語與禁忌資料
-- 補充 Fluoxetine 的作用機轉資料（DrugBank）
-- 針對分裂樣人格障礙核心症狀的對照研究或系統性回顧
-- 若要評估，建議同時考量同類 A 群人格障礙中證據較多的**分裂型人格障礙 (Schizotypal)**（有 1991 年開放標籤研究，PMID 1853957，證據等級 L3），可作為較優先的研究問題
+- 取得 fluoxetine 的作用機轉資料，並釐清它與妄想型人格障礙病理的關聯。
+- 取得香港仿單的警語與禁忌資料。
+- 設計針對妄想型人格障礙的小規模前導研究，或系統性搜尋 fluoxetine 用於 A 群人格障礙的文獻。
+- 評估共病憂鬱或焦慮族群中的獲益與風險，並規劃安全性監測。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

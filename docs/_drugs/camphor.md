@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Camphor
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 150
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Camphor：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L4）。原適應症：目前缺乏已登錄的核准適應症文字"
 monitor_inn: "Camphor"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "migraine with or without aura, susceptibility to", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
 ---
 
 # Camphor
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效。
 |------|------|
 | 原適應症 | 目前缺乏已登錄的核准適應症文字（許可證資料中適應症欄位皆為空白） |
 | 預測新適應症 | 偏頭痛 (Migraine Disorder) |
-| TxGNN 預測分數 | 99.85% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| TxGNN 預測分數 | 0.9985 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 

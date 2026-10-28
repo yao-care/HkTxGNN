@@ -4,17 +4,17 @@ title: Apixaban
 parent: 中證據等級 (L3-L4)
 nav_order: 67
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Apixaban：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L4）。原適應症：目前缺乏香港許可證的適應症文字資料"
 monitor_inn: "Apixaban"
-predicted_indications: ["migraine disorder", "migraine with or without aura, susceptibility to", "leprosy", "rheumatoid arthritis", "migraine with brainstem aura", "Prinzmetal angina", "brachydactyly-syndactyly syndrome", "pulmonary hypertension", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "kyphoscoliotic heart disease"]
+predicted_indications: ["migraine disorder"]
 ---
 
 # Apixaban
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+證據等級: **L4** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 |------|------|
 | 原適應症 | 目前缺乏香港許可證的適應症文字資料 |
 | 預測新適應症 | 偏頭痛 (Migraine Disorder) |
-| TxGNN 預測分數 | 99.02% |
+| TxGNN 預測分數 | 0.9902 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 10 張 |
+| 香港上市 | 上市中（有效許可證 10 張／共 10 張） |
+| 許可證數 | 10 張（有效 10 張） |
 | 建議決策 | Hold |
 
 ---

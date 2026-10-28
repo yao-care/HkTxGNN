@@ -6,9 +6,9 @@ nav_order: 368
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Fenfluramine：預測新適應症為16p11.2 近端微缺失症候群 (proximal 16p11.2 microdeletion syndrome)（證據等級 L5）。原適應症：肥胖症、單基因肥胖"
 monitor_inn: "FENFLURAMINE"
 predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "obsolete hypertelorism (disease)", "frontorhiny"]
+description: "Fenfluramine：預測新適應症為16p11.2 近端微缺失症候群 (proximal 16p11.2 microdeletion syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Fenfluramine
@@ -33,7 +33,7 @@ predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitamin
 
 </div>
 
-## Fenfluramine：從肥胖症到 16p11.2 近端微缺失症候群
+## Fenfluramine: 16p11.2 近端微缺失症候群 (proximal 16p11.2 microdeletion syndrome)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,12 +46,12 @@ TxGNN 模型預測它可能對**16p11.2 近端微缺失症候群 (proximal 16p11
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 肥胖症、單基因肥胖（來自知識圖譜的適應症資料；香港許可證未載明核准適應症文字） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | 16p11.2 近端微缺失症候群 (proximal 16p11.2 microdeletion syndrome) |
-| TxGNN 預測分數 | 99.93% |
+| TxGNN 預測分數 | 0.9993 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**16p11.2 近端微缺失症候群 (proximal 16p11
 
 但必須強調：此關聯目前只有計算預測，沒有任何試驗或文獻佐證。此外，5-HT2B 促效作用相關的心臟瓣膜病變與肺高壓風險，是此藥物不容忽視的安全疑慮。
 
-同一份預測清單中的其他候選（hypervitaminosis、obsolete hypertelorism、frontorhiny）皆未找到合理的機轉連結，高分很可能是知識圖譜結構造成的假象，不建議推進。
+同一份預測清單中的其他候選（hypervitaminosis、obsolete hypertelorism、frontorhiny）皆未找到合理的機轉連結，其高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據，不建議推進。
 
 ## 臨床試驗證據
 
@@ -94,7 +94,7 @@ TxGNN 模型預測它可能對**16p11.2 近端微缺失症候群 (proximal 16p11
 **決策：Hold**
 
 **理由：**
-- 模型分數雖高（99.93%），但沒有任何臨床試驗或文獻支持，證據等級僅為 L5。
+- 模型分數雖高（0.9993），但沒有任何臨床試驗或文獻支持，證據等級僅為 L5。
 - 仿單警語與 MOA 資料缺失，且該藥有心臟瓣膜病變與肺高壓的已知風險，目前不宜推進。
 
 **若要推進需要：**

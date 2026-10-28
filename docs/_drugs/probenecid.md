@@ -6,9 +6,9 @@ nav_order: 732
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Probenecid：預測新適應症為腎性低尿酸血症 (Hypouricemia, Renal)（證據等級 L4）。原適應症：痛風、高尿酸血症"
 monitor_inn: "PROBENECID"
 predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
+description: "Probenecid：預測新適應症為腎性低尿酸血症 (hypouricemia, renal)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Probenecid
@@ -33,7 +33,7 @@ predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxant
 
 </div>
 
-## Probenecid：從痛風到腎性低尿酸血症
+## Probenecid: 腎性低尿酸血症 (hypouricemia, renal)
 {: .text-alpha }
 
 ## 一句話總結
@@ -45,12 +45,12 @@ TxGNN 模型預測它可能對**腎性低尿酸血症 (Hypouricemia, Renal)** �
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 痛風、高尿酸血症（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 腎性低尿酸血症 (Hypouricemia, Renal) |
-| TxGNN 預測分數 | 99.73% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 腎性低尿酸血症 (hypouricemia, renal) |
+| TxGNN 預測分數 | 0.9973 |
 | 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

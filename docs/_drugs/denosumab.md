@@ -6,9 +6,9 @@ nav_order: 256
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Denosumab：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy)（證據等級 L5）。原適應症：骨質疏鬆症、停經後骨質疏鬆症、藥物引起的骨質疏鬆症"
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
+description: "Denosumab：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Denosumab
@@ -33,7 +33,7 @@ predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabeti
 
 </div>
 
-## Denosumab：從骨質疏鬆症到嚴重非增殖性糖尿病視網膜病變
+## Denosumab: 嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy)
 {: .text-alpha }
 
 ## 一句話總結
@@ -42,18 +42,18 @@ Denosumab 是一種 RANKL 抑制劑，原本用於骨質疏鬆症（含停經後
 TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy)** 有效，
 但目前**沒有臨床試驗**，也**沒有直接相關文獻**，僅屬模型預測。
 
-> 說明：模型另預測「糖尿病視網膜病變 (Diabetic Retinopathy)」（分數 99.23%），有 2 篇間接文獻。以下主要以排名第一的預測適應症為準，並於相關段落補充第二項預測。
+> 說明：模型另預測「糖尿病視網膜病變 (Diabetic Retinopathy)」（分數 0.9923），有 2 篇間接文獻。以下主要以排名第一的預測適應症為準，並於相關段落補充第二項預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 骨質疏鬆症、停經後骨質疏鬆症、藥物引起的骨質疏鬆症（來自知識圖譜；香港許可證未提供核准適應症文字） |
-| 預測新適應症 | 嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy) |
-| TxGNN 預測分數 | 99.63% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy) |
+| TxGNN 預測分數 | 0.9963 |
 | 證據等級 | L5（僅有模型預測） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 4 張 |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -102,7 +102,7 @@ RANK/RANKL 訊號也曾被報告與發炎及血管病變有關，理論上可能
 **決策：Hold**
 
 **理由：**
-- 排名第一的預測目前僅有模型分數（99.63%），沒有臨床試驗和直接文獻，屬於 L5。第二項預測也只有間接文獻（L4），無法支持視網膜病變療效。
+- 排名第一的預測目前僅有模型分數（0.9963），沒有臨床試驗和直接文獻，屬於 L5。第二項預測也只有間接文獻（L4），無法支持視網膜病變療效。
 - 作用機轉資料缺漏，機轉連結無法驗證。
 
 **若要推進需要：**

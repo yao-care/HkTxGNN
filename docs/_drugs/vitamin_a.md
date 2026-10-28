@@ -6,9 +6,9 @@ nav_order: 939
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Vitamin A：預測新適應症為先天性凝血酶原缺乏症 (Congenital Prothrombin Deficiency)（證據等級 L5）。原適應症：維生素缺乏症、維生素 A 缺乏症"
 monitor_inn: "Vitamin A"
-predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "segmental odontomaxillary dysplasia", "perinatal disease", "florid cemento-osseous dysplasia", "disease by subcellular system affected", "radiation or chemically induced disorder"]
+predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "perinatal disease", "disease by subcellular system affected", "radiation or chemically induced disorder"]
+description: "Vitamin A：預測新適應症為先天性凝血酶原缺乏症 (congenital prothrombin deficiency)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Vitamin A
@@ -33,7 +33,7 @@ predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic d
 
 </div>
 
-## Vitamin A：從維生素缺乏症到先天性凝血酶原缺乏症
+## Vitamin A: 先天性凝血酶原缺乏症 (congenital prothrombin deficiency)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,12 +48,12 @@ TxGNN 模型預測分數最高的新適應症是**先天性凝血酶原缺乏症
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 維生素缺乏症、維生素 A 缺乏症（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 先天性凝血酶原缺乏症 (Congenital Prothrombin Deficiency) |
-| TxGNN 預測分數 | 99.97% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 先天性凝血酶原缺乏症 (congenital prothrombin deficiency) |
+| TxGNN 預測分數 | 0.9997 |
 | 證據等級 | L5（僅有模型預測） |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 8 張 |
+| 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
+| 許可證數 | 8 張（有效 8 張） |
 | 建議決策 | Hold |
 
 ---
@@ -62,7 +62,7 @@ TxGNN 模型預測分數最高的新適應症是**先天性凝血酶原缺乏症
 
 目前缺乏詳細的作用機轉資料。已知維生素 A 及其代謝物（視黃酸）透過 RAR/RXR 核受體調節細胞分化、增殖與上皮組織維持，並為視覺所必需。
 
-就排名第一的先天性凝血酶原缺乏症而言，這項預測**在生物學上不合理**。凝血酶原的合成依賴維生素 K 的 γ-羧化作用，與維生素 A 無已知關聯；此病是 F2 基因缺陷所致，補充維生素 A 不太可能有效。高分應視為圖譜運算的結果，而非真實的治療訊號。
+就排名第一的先天性凝血酶原缺乏症而言，這項預測**在生物學上不合理**。凝血酶原的合成依賴維生素 K 的 γ-羧化作用，與維生素 A 無已知關聯；此病是 F2 基因缺陷所致，補充維生素 A 不太可能有效。此高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
 其他預測中，機轉較具支持的是：
 - **圍產期疾病**：維生素 A 對肺上皮發育與修復必要，早產兒體內儲備不足，與支氣管肺發育不良 (BPD) 風險相關。
@@ -137,7 +137,7 @@ TxGNN 模型預測分數最高的新適應症是**先天性凝血酶原缺乏症
 **決策：Hold**
 
 **理由：**
-- 排名第一的預測（先天性凝血酶原缺乏症）無任何研究支持，且機轉上不合理；TxGNN 高分僅反映圖譜關聯。
+- 排名第一的預測（先天性凝血酶原缺乏症）無任何研究支持，且機轉上不合理；此分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 - 證據較多的是早產兒（圍產期）方向，但屬既有用途的劑量、途徑與族群優化問題，不是真正的新適應症，且效益有限。
 
 **若要推進需要：**

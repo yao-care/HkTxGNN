@@ -4,17 +4,17 @@ title: Distigmine
 parent: 僅模型預測 (L5)
 nav_order: 286
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Distigmine：預測新適應症為胸腺增生型重症肌無力 (Myasthenia Gravis with Thymus Hyperplasia)（證據等級 L5）。原適應症：重症肌無力、成人型重症肌無力、神經肌肉接合部疾病、急性膀胱炎"
 monitor_inn: "Distigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly", "fetal akinesia deformation sequence", "congenital myasthenic syndrome with tubular aggregates", "myasthenia, congenital, refractory to acetylcholinesterase inhibitors"]
+description: "Distigmine：預測新適應症為Autoimmune disease of peripheral nervous system（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Distigmine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["autoimmune disease of peripheral nervous system", "dise
 
 </div>
 
-## Distigmine：從重症肌無力到胸腺增生型重症肌無力
+## Distigmine: Autoimmune disease of peripheral nervous system
 {: .text-alpha }
 
 ## 一句話總結
 
 Distigmine 是長效型膽鹼酯酶抑制劑，原本用於重症肌無力、神經肌肉接合部疾病等。
-TxGNN 模型預測它可能對**胸腺增生型重症肌無力 (Myasthenia Gravis with Thymus Hyperplasia)** 有效，
 但目前**沒有臨床試驗與直接文獻**支持，僅有模型預測（證據等級 L5）。
 
 ---
@@ -48,12 +47,12 @@ TxGNN 模型預測它可能對**胸腺增生型重症肌無力 (Myasthenia Gravi
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 重症肌無力、成人型重症肌無力、神經肌肉接合部疾病、急性膀胱炎（來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 胸腺增生型重症肌無力 (Myasthenia Gravis with Thymus Hyperplasia) |
-| TxGNN 預測分數 | 99.998% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Autoimmune disease of peripheral nervous system |
+| TxGNN 預測分數 | 1.0000 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -62,21 +61,20 @@ TxGNN 模型預測它可能對**胸腺增生型重症肌無力 (Myasthenia Gravi
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Distigmine 屬於長效膽鹼酯酶抑制劑，已用於重症肌無力。抑制乙醯膽鹼酯酶可提升神經肌肉接合部的乙醯膽鹼濃度，因此機轉上可能對此亞型產生症狀性改善。
 
-胸腺增生型重症肌無力與原適應症高度相關，TxGNN 的高分很可能反映它在知識圖譜中與既有重症肌無力適應症相鄰。需注意，膽鹼酯酶抑制劑只能改善症狀，無法改變胸腺增生本身的病程。
+需注意，膽鹼酯酶抑制劑只能改善症狀，無法改變胸腺增生本身的病程。
 
 ### 其他預測適應症概覽
 
 | 排名 | 預測疾病 | 分數 | 評估 |
 |------|---------|------|------|
-| 2 | 自體免疫性肢帶型肌無力 | 99.998% | 與重症肌無力相近，機轉上合理，但無直接證據 |
-| 3 | 新生兒重症肌無力 | 99.998% | 一般臨床會用膽鹼酯酶抑制劑，但 Distigmine 半衰期長、有膽鹼性危象風險，新生兒安全性需審慎評估 |
-| 4 | 周邊神經自體免疫疾病 | 99.998% | 類別過於廣泛；脫髓鞘性神經病變無已知機轉支持 |
-| 5 | 受體活性疾病 | 99.998% | 屬非特異性分類；僅有 1 篇受體結合研究（見下），較適合作為逼尿肌低活性的研究線索 |
-| 6 | 脾功能亢進 | 99.96% | 無合理機轉，可能為知識圖譜假象 |
-| 7 | 非典型溶血性尿毒症候群（B 因子異常） | 99.96% | 屬補體媒介疾病，Distigmine 無補體作用，不支持 |
-| 8 | 胎兒運動不能變形序列 | 99.94% | 僅有鬆散的概念關聯，且涉及胎兒暴露安全疑慮 |
-| 9 | 先天性肌無力症候群（管狀聚集型） | 99.67% | 同類藥物（如 pyridostigmine）常見有效報告，但反應因基因型而異 |
-| 10 | 先天性肌無力（對乙醯膽鹼酯酶抑制劑無效型） | 99.67% | 依定義對此類藥物無效，部分亞型甚至可能惡化，預測與藥理相左，有安全疑慮 |
+| 2 | 自體免疫性肢帶型肌無力 | 1.0000 | 與重症肌無力相近，機轉上合理，但無直接證據 |
+| 3 | 新生兒重症肌無力 | 1.0000 | 一般臨床會用膽鹼酯酶抑制劑，但 Distigmine 半衰期長、有膽鹼性危象風險，新生兒安全性需審慎評估 |
+| 4 | 周邊神經自體免疫疾病 | 1.0000 | 類別過於廣泛；脫髓鞘性神經病變無已知機轉支持 |
+| 5 | 受體活性疾病 | 1.0000 | 屬非特異性分類；僅有 1 篇受體結合研究（見下），較適合作為逼尿肌低活性的研究線索 |
+| 7 | 非典型溶血性尿毒症候群（B 因子異常） | 0.9996 | 屬補體媒介疾病，Distigmine 無補體作用，不支持 |
+| 8 | 胎兒運動不能變形序列 | 0.9994 | 僅有鬆散的概念關聯，且涉及胎兒暴露安全疑慮 |
+| 9 | 先天性肌無力症候群（管狀聚集型） | 0.9967 | 同類藥物（如 pyridostigmine）常見有效報告，但反應因基因型而異 |
+| 10 | 先天性肌無力（對乙醯膽鹼酯酶抑制劑無效型） | 0.9967 | 依定義對此類藥物無效，部分亞型甚至可能惡化，預測與藥理相左，有安全疑慮 |
 
 ---
 
@@ -88,7 +86,7 @@ TxGNN 模型預測它可能對**胸腺增生型重症肌無力 (Myasthenia Gravi
 
 ## 文獻證據
 
-針對首要預測（胸腺增生型重症肌無力）目前無相關文獻。與本藥相關、僅有的一篇文獻出現在第 5 順位預測：
+與本藥相關、僅有的一篇文獻出現在第 5 順位預測：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|

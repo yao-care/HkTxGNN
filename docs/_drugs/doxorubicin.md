@@ -4,17 +4,17 @@ title: Doxorubicin
 parent: 高證據等級 (L1-L2)
 nav_order: 298
 evidence_level: L1
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Doxorubicin：預測新適應症為尤因氏肉瘤 (Ewing Sarcoma)（證據等級 L1）。原適應症：急性淋巴性白血病、何杰金氏淋巴瘤、非何杰金氏淋巴瘤、被套細胞淋巴瘤、蘭格漢斯細胞組織球增生症等"
 monitor_inn: "Doxorubicin"
-predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "ganglioneuroblastoma (disease)"]
+predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
+description: "Doxorubicin：預測新適應症為尤因氏肉瘤 (Ewing sarcoma)（證據等級 L1）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Doxorubicin
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **10** 個
+證據等級: **L1** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcino
 
 </div>
 
-## Doxorubicin：從淋巴瘤與白血病到尤因氏肉瘤 (Ewing Sarcoma)
+## Doxorubicin: 尤因氏肉瘤 (Ewing sarcoma)
 {: .text-alpha }
 
 ## 一句話總結
@@ -49,12 +49,12 @@ TxGNN 模型預測它可能對**尤因氏肉瘤 (Ewing Sarcoma)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 急性淋巴性白血病、何杰金氏淋巴瘤、非何杰金氏淋巴瘤、被套細胞淋巴瘤、蘭格漢斯細胞組織球增生症等（香港許可證未登載適應症文字，此處依知識圖譜資料） |
-| 預測新適應症 | 尤因氏肉瘤 (Ewing Sarcoma) |
-| TxGNN 預測分數 | 99.90% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 尤因氏肉瘤 (Ewing sarcoma) |
+| TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L1 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 7 張 |
+| 香港上市 | 上市中（有效許可證 7 張／共 7 張） |
+| 許可證數 | 7 張（有效 7 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---
@@ -126,7 +126,6 @@ TxGNN 模型預測它可能對**尤因氏肉瘤 (Ewing Sarcoma)** 有效，
 | 項目 | 內容 |
 |------|------|
 | 細胞毒性分類 | 傳統細胞毒性藥物（蒽環類，拓撲異構酶 II 抑制劑） |
-| 骨髓抑制風險 | 高（知識圖譜標示與嗜中性白血球低下、白血球低下、血小板低下、貧血相關） |
 | 致吐性分級 | 中至高（依藥物類別判斷，請以原廠仿單為準） |
 | 監測項目 | CBC（含分類）、肝功能與膽紅素、心臟功能（左心室射血分率） |
 | 處置防護 | 需依細胞毒性藥物處置規範操作 |

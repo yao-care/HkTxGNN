@@ -4,17 +4,17 @@ title: Enfortumab Vedotin
 parent: 僅模型預測 (L5)
 nav_order: 319
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Enfortumab Vedotin：預測新適應症為痲瘋病 (Leprosy)（證據等級 L5）。原適應症：香港許可證資料未載明"
 monitor_inn: "Enfortumab vedotin"
 predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "infectious bovine rhinotracheitis", "malignant catarrh"]
+description: "Enfortumab Vedotin：預測新適應症為痲瘋病 (leprosy)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Enfortumab Vedotin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovi
 
 </div>
 
-## Enfortumab vedotin：從（香港許可證未載明原適應症）到 痲瘋病（Leprosy）
+## Enfortumab Vedotin: 痲瘋病 (leprosy)
 {: .text-alpha }
 
 ## 一句話總結
 
 Enfortumab vedotin 是一款以 Nectin-4 為標的、搭載 MMAE 細胞毒性藥物的抗體藥物複合體（ADC），香港已核准上市，但本報告所編整的資料中未載明其核准適應症。
 TxGNN 模型預測排名第一的新適應症為**痲瘋病 (Leprosy)**，但目前**沒有任何臨床試驗或文獻**支持，屬於純計算預測。
-在所有預測中，證據相對較多的是 **HER2 陽性乳癌**（1 個 Phase 2 試驗、5 篇文獻），但仍屬間接證據。
 
 ---
 
@@ -48,12 +47,12 @@ TxGNN 模型預測排名第一的新適應症為**痲瘋病 (Leprosy)**，但目
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證資料未載明 |
-| 預測新適應症 | 痲瘋病 (Leprosy) |
-| TxGNN 預測分數 | 99.53% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 痲瘋病 (leprosy) |
+| TxGNN 預測分數 | 0.9953 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 2 張 |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
 ---
@@ -64,7 +63,7 @@ TxGNN 模型預測排名第一的新適應症為**痲瘋病 (Leprosy)**，但目
 
 **痲瘋病的預測缺乏合理的機轉連結。** 痲瘋病由麻風分枝桿菌 (Mycobacterium leprae) 感染引起，Nectin-4 標的治療與此感染之間沒有已知關聯。高分數僅是計算模型的輸出，沒有試驗或文獻佐證，不宜視為有效訊號。
 
-其他排名前列的預測（多發性內分泌腫瘤、巨細胞病毒感染、念珠菌症、腦梗塞、HIV、同型接合子家族性高膽固醇血症等）同樣缺乏機轉依據。其中傳染性牛鼻氣管炎與惡性卡他熱屬獸醫疾病，且分數完全相同，很可能是知識圖譜傳播造成的假象。巨細胞病毒感染與念珠菌症各有一篇文獻，但內容分別是食道炎病例報告與藥物不良反應通報分析，反映的是安全性訊號，並非療效證據。
+其他排名前列的預測（多發性內分泌腫瘤、巨細胞病毒感染、念珠菌症、腦梗塞、HIV、同型接合子家族性高膽固醇血症等）同樣缺乏機轉依據。巨細胞病毒感染與念珠菌症各有一篇文獻，但內容分別是食道炎病例報告與藥物不良反應通報分析，反映的是安全性訊號，並非療效證據。
 
 ---
 
@@ -72,7 +71,6 @@ TxGNN 模型預測排名第一的新適應症為**痲瘋病 (Leprosy)**，但目
 
 針對排名第一的痲瘋病：目前無相關臨床試驗登記。
 
-作為參考，在證據最多的預測（HER2 陽性乳癌）中有以下試驗：
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
@@ -136,13 +134,11 @@ TxGNN 模型預測排名第一的新適應症為**痲瘋病 (Leprosy)**，但目
 **決策：Hold**
 
 **理由：**
-- 排名第一的痲瘋病預測分數雖高（99.53%），但沒有任何臨床試驗或文獻，也缺乏機轉依據，屬證據等級 L5 的純計算預測。
-- 前十名預測中，多數沒有合理機轉；僅 HER2 陽性乳癌有一定的標的理由（Nectin-4 在部分乳癌表現），可另列為研究問題，但療效尚未證實。
+- 排名第一的痲瘋病預測分數雖高（0.9953），但沒有任何臨床試驗或文獻，也缺乏機轉依據，屬證據等級 L5 的純計算預測。
 
 **若要推進需要：**
 - 取得香港衛生署許可證的核准適應症與仿單（警語、禁忌症），以釐清原適應症與安全性。
 - 補充 DrugBank 的作用機轉資料。
-- 若要探索腫瘤方向的再利用，建議改以 HER2 陽性乳癌等 Nectin-4 表現的腫瘤為重點，並取得 EV-202 試驗的乳癌組別結果與 Nectin-4 表現資料。
 - 痲瘋病、病毒及獸醫疾病等預測，除非有新的生物學證據，否則不建議投入資源。
 ## 免責聲明
 

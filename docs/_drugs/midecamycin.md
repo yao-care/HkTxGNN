@@ -4,17 +4,17 @@ title: Midecamycin
 parent: 僅模型預測 (L5)
 nav_order: 585
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Midecamycin：預測新適應症為念珠菌感染 (Candidiasis)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Midecamycin"
-predicted_indications: ["candidiasis", "leprosy", "coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery", "pneumocystosis", "polyp of vocal cord", "uterine polyp", "polyp of middle ear", "polyp of frontal sinus"]
+predicted_indications: ["candidiasis"]
+description: "Midecamycin：預測新適應症為念珠菌感染 (candidiasis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Midecamycin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["candidiasis", "leprosy", "coronary artery disease", "my
 
 </div>
 
-## Midecamycin：從（原適應症未載明）到念珠菌感染
+## Midecamycin: 念珠菌感染 (candidiasis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,12 +47,12 @@ TxGNN 模型預測它可能對**念珠菌感染 (Candidiasis)** 有效，預測�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 資料未載明 |
-| 預測新適應症 | 念珠菌感染 (Candidiasis) |
-| TxGNN 預測分數 | 99.02% |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 念珠菌感染 (candidiasis) |
+| TxGNN 預測分數 | 0.9902 |
 | 證據等級 | L5 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 1 張 |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---
@@ -61,16 +61,12 @@ TxGNN 模型預測它可能對**念珠菌感染 (Candidiasis)** 有效，預測�
 
 目前缺乏詳細的作用機轉資料。已知 Midecamycin 屬於 16 元環大環內酯類抗生素，透過結合細菌 50S 核糖體次單位來抑制蛋白質合成。
 
-然而，大環內酯類藥物對念珠菌（真菌）並無已確立的直接抗黴菌活性。因此 99.02% 的高分僅反映知識圖譜上的關聯，並非真正的藥理證據。若要找出關聯，只能推測為間接作用（例如對微生物菌叢或宿主免疫的影響），屬於高度推測性質。
+然而，大環內酯類藥物對念珠菌（真菌）並無已確立的直接抗黴菌活性。因此 0.9902 的高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。若要找出關聯，只能推測為間接作用（例如對微生物菌叢或宿主免疫的影響），屬於高度推測性質。
 
 **其他預測適應症的簡要觀察（皆非首要預測）：**
 
 | 預測適應症 | TxGNN 分數 | 證據等級 | 說明 |
 |-----------|-----------|---------|------|
-| 痲瘋病 (Leprosy) | 98.95% | L5 | 部分大環內酯（如 clarithromycin）對麻風桿菌有活性，具類別層級的合理性；但缺乏 midecamycin 專屬資料，且 16 元環藥物的抗分枝桿菌活性通常較弱 |
-| 心肌缺血 (Myocardial ischemia) | 98.53% | L4 | 有 1 篇 2009 年動物實驗，顯示大環內酯類具心臟與內皮保護作用 |
-| 冠狀動脈疾病 | 98.70% | L5 | 大型大環內酯類冠心病試驗結果多為陰性 |
-| 其他（息肉類、肺囊蟲症等） | 98.2%–98.4% | L5 | 機轉上缺乏合理依據，多可能反映圖譜結構相似性 |
 
 ---
 
@@ -84,7 +80,6 @@ TxGNN 模型預測它可能對**念珠菌感染 (Candidiasis)** 有效，預測�
 
 目前無相關文獻。
 
-（備註：在次要預測「心肌缺血」下有 1 篇動物實驗文獻 PMID [19441724](https://pubmed.ncbi.nlm.nih.gov/19441724/)，2009 年，*Eksperimental'naia i klinicheskaia farmakologiia*，研究 roxithromycin、azithromycin 與 midecamycin 在冠狀動脈閉塞心肌梗塞及內皮功能障礙動物模型中的作用，結果顯示劑量依賴性地降低死亡率、縮小左心室壞死範圍，並改善內皮功能。此為前臨床研究，與念珠菌無關。）
 
 ---
 
@@ -114,7 +109,6 @@ TxGNN 模型預測它可能對**念珠菌感染 (Candidiasis)** 有效，預測�
 - 取得香港衛生署的仿單，補齊核准適應症、警語與禁忌症。
 - 從 DrugBank 補充作用機轉（MOA）資料。
 - 進行體外抗念珠菌活性試驗，確認是否存在任何直接或間接作用。
-- 若要尋找更有潛力的方向，可優先評估「心肌缺血」（已有前臨床證據，L4）與「痲瘋病」（具類別層級合理性），再做文獻檢索。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

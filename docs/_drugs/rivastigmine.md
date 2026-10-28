@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Rivastigmine
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 782
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Rivastigmine：預測新適應症為青光眼 (Glaucoma)（證據等級 L4）。原適應症：阿茲海默症（Alzheimer disease）、小腦退化、Pick 氏病等"
@@ -14,7 +14,7 @@ predicted_indications: ["glaucoma"]
 # Rivastigmine
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ TxGNN 模型預測它可能對**青光眼 (Glaucoma)** 有效，
 |------|------|
 | 原適應症 | 阿茲海默症（Alzheimer disease）、小腦退化、Pick 氏病等（香港許可證未載明核准適應症文字） |
 | 預測新適應症 | 青光眼 (Glaucoma) |
-| TxGNN 預測分數 | 99.27% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
+| TxGNN 預測分數 | 0.9927 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 20 張 |
 | 建議決策 | Hold |
 

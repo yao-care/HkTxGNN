@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hydroxyurea
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 448
-evidence_level: L4
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Hydroxyurea：預測新適應症為女性乳癌 (Female Breast Carcinoma)（證據等級 L4）。原適應症：黑色素瘤、鐮狀細胞貧血、卵巢癌等"
+evidence_level: L5
+indication_count: 9
 monitor_inn: "HYDROXYUREA"
-predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome"]
+predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin c disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-hemoglobin E disease syndrome", "cervical adenosarcoma", "colon mucinous adenocarcinoma", "rectum mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma"]
+last_modified_at: 2026-10-23
+description: "Hydroxyurea：預測新適應症為女性乳癌 (Female Breast Carcinoma)（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症"
 ---
 
 # Hydroxyurea
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,121 +33,103 @@ predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin c dis
 
 </div>
 
-## Hydroxyurea：從黑色素瘤與鐮狀細胞貧血到女性乳癌
+## Hydroxyurea：從黑色素瘤與鐮刀型貧血到女性乳癌
 {: .text-alpha }
 
 ## 一句話總結
 
-Hydroxyurea（羥基脲）是核糖核苷酸還原酶抑制劑，原本用於黑色素瘤、鐮狀細胞貧血及卵巢癌等疾病。
-TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效，但目前**沒有臨床試驗登記**，文獻也以前臨床研究與早期聯合化療研究為主，證據偏弱。
-在其他預測方向中，**HbSC 型鐮狀細胞病**的證據較多（1 個 Phase 2 試驗與多篇文獻）。
-
----
+Hydroxyurea 是一種核糖核苷酸還原酶抑制劑，知識圖譜中記錄的相關疾病包括黑色素瘤、鐮刀型貧血與卵巢癌等。
+TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效，但目前**沒有登記的臨床試驗**，僅有 **20 篇文獻**，多為前臨床或舊的複方化療 Phase 1 研究，證據屬模型預測層級。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 黑色素瘤、鐮狀細胞貧血、卵巢癌等（香港許可證未載明核准適應症文字） |
+| 原適應症 | 香港許可證資料未載明核准適應症；知識圖譜記錄的相關疾病包括黑色素瘤、鐮刀型貧血、卵巢癌等（僅為知識圖譜關聯，非核准適應症） |
 | 預測新適應症 | 女性乳癌 (Female Breast Carcinoma) |
-| TxGNN 預測分數 | 99.97% |
-| 證據等級 | L4 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 5 張 |
+| TxGNN 預測分數 | 0.9997 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 5 張／共 5 張） |
+| 許可證數 | 5 張（有效 5 張） |
 | 建議決策 | Hold |
 
----
+> 說明：排名第 1 的預測為女性乳癌，本報告以此為主軸。資料中雖有文獻討論 hydroxyurea 與乳癌，但沒有一篇是在乳癌患者中直接評估其療效，因此證據等級依規則定為 L5。
 
 ## 為什麼這個預測合理？
 
-目前缺乏 DrugBank 的詳細作用機轉資料。就已知資訊，Hydroxyurea 抑制核糖核苷酸還原酶，使 dNTP 池耗竭並誘發 DNA 複製壓力。
+目前缺乏詳細的作用機轉資料。根據已知資訊，hydroxyurea 為核糖核苷酸還原酶 (ribonucleotide reductase) 抑制劑，會耗竭 dNTP 池並造成 DNA 複製壓力。這是一種廣泛的抗增殖機轉，理論上可作用於快速分裂的腫瘤細胞。
 
-乳癌與卵巢癌（原適應症之一）同屬女性生殖相關惡性腫瘤，兩者都與 BRCA、同源重組修復及複製壓力反應等生物學有關。文獻中的前臨床研究（EYA4 與複製壓力迴避、RPA2 過度磷酸化、ATR 抑制劑 NU6027 在乳癌及卵巢癌細胞株的研究）支持這條機轉路線，另有研究顯示 valproic acid 可使乳癌細胞對 Hydroxyurea 增敏。
+前臨床研究顯示，乳癌細胞的複製壓力反應與對 hydroxyurea 的敏感性有關，例如 EYA4 與複製壓力迴避、valproic acid 透過抑制 RPA2 過度磷酸化而增強乳癌細胞對 hydroxyurea 的敏感性，以及 ATR 抑制劑在乳癌與卵巢癌細胞株的研究。不過這些多把 hydroxyurea 當作誘發複製壓力的工具，並非直接證明臨床療效。
 
-不過，這些只支持**生物學上的合理性**。TxGNN 分數是計算模型的預測，並非臨床證據，目前沒有乳癌專屬的療效資料。
-
----
+另有一項 2024 年的電腦模擬研究，設計 hydroxyurea 脂質conjugate 以改善其親水性過高的問題，仍屬早期設計階段。整體而言，機轉上有合理性，但缺乏乳癌的臨床療效證據。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
-文獻多為前臨床或混合腫瘤的早期研究，下表列出較相關者：
+下列為與乳癌或 hydroxyurea 較相關的文獻，均無乳癌的直接臨床療效證據：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [1733549](https://pubmed.ncbi.nlm.nih.gov/1733549/) | 1992 | Phase I | Cancer Chemother Pharmacol | 5-FU、leucovorin、Hydroxyurea 加遞增劑量順鉑併用放療，用於晚期實體瘤（混合腫瘤） |
-| [1957839](https://pubmed.ncbi.nlm.nih.gov/1957839/) | 1991 | Phase I | Am J Clin Oncol | Allopurinol、5-FU、leucovorin 後接 Hydroxyurea，用於晚期胃腸道與乳癌，共 20 名患者 |
-| [38211596](https://pubmed.ncbi.nlm.nih.gov/38211596/) | 2024 | 電腦模擬/前臨床 | Drug Research | 設計 Hydroxyurea 脂質藥物複合物，以 PI3K/AKT/mTOR 路徑為標的用於乳癌 |
-| [28837865](https://pubmed.ncbi.nlm.nih.gov/28837865/) | 2017 | 前臨床 | DNA Repair | Valproic acid 抑制 RPA2 過度磷酸化修復路徑，使乳癌細胞對 Hydroxyurea 增敏 |
-| [32795962](https://pubmed.ncbi.nlm.nih.gov/32795962/) | 2020 | 前臨床 | DNA Repair | 2-hexyl-4-pentynoic acid 作為潛在乳癌治療，影響 RPA2 修復機制 |
-| [21730979](https://pubmed.ncbi.nlm.nih.gov/21730979/) | 2011 | 前臨床 | Br J Cancer | ATR 抑制劑 NU6027 在乳癌與卵巢癌細胞株的評估 |
-| [37777742](https://pubmed.ncbi.nlm.nih.gov/37777742/) | 2023 | 前臨床 | Mol Cancer | EYA4 透過複製壓力迴避促進乳癌進展與轉移 |
+| [1733549](https://pubmed.ncbi.nlm.nih.gov/1733549/) | 1992 | Phase 1 複方化療 | Cancer Chemother Pharmacol | 5-FU、leucovorin、hydroxyurea 合併遞增劑量順鉑與放療，用於多種晚期實體腫瘤，非乳癌專屬 |
+| [1957839](https://pubmed.ncbi.nlm.nih.gov/1957839/) | 1991 | Phase 1 複方化療 | Am J Clin Oncol | allopurinol、5-FU、leucovorin 後接 hydroxyurea，收錄 20 名晚期胃腸道與乳癌患者 |
+| [9060546](https://pubmed.ncbi.nlm.nih.gov/9060546/) | 1997 | 臨床系列 | J Clin Oncol | 含 hydroxyurea 的 TPDC-FuHu 方案用於復發性轉移性腦瘤 |
+| [38211596](https://pubmed.ncbi.nlm.nih.gov/38211596/) | 2024 | 電腦模擬/前臨床設計 | Drug Research | 設計 hydroxyurea 脂質conjugate，標靶 PI3K/AKT/mTOR 路徑 |
+| [37777742](https://pubmed.ncbi.nlm.nih.gov/37777742/) | 2023 | 前臨床 | Molecular Cancer | EYA4 透過避免複製壓力促進乳癌進展與轉移 |
+| [28837865](https://pubmed.ncbi.nlm.nih.gov/28837865/) | 2017 | 前臨床（細胞） | DNA Repair | Valproic acid 抑制 RPA2 過度磷酸化，使乳癌細胞對 hydroxyurea 敏感 |
+| [32795962](https://pubmed.ncbi.nlm.nih.gov/32795962/) | 2020 | 前臨床（細胞） | DNA Repair | 2-hexyl-4-pentynoic acid 影響 RPA2 介導的 DNA 修復，可能作為乳癌治療候選 |
+| [21730979](https://pubmed.ncbi.nlm.nih.gov/21730979/) | 2011 | 前臨床 | Br J Cancer | ATR 抑制劑 NU6027 在乳癌與卵巢癌細胞株的評估，hydroxyurea 作為複製壓力工具 |
 | [30159181](https://pubmed.ncbi.nlm.nih.gov/30159181/) | 2018 | 病例報告 | Case Rep Hematol | 乳癌合併原發性血小板增多症的治療挑戰 |
-
----
+| [25814515](https://pubmed.ncbi.nlm.nih.gov/25814515/) | 2015 | 前臨床 | Mol Pharmacol | 新型核糖核苷酸還原酶抑制劑 COH29 在 BRCA1 缺陷乳癌細胞中抑制 DNA 修復 |
 
 ## 香港上市資訊
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
-| HK-52895 | APO-HYDROXYUREA CAP 500MG | 膠囊（品名載明） | 未提供 |
-| HK-66544 | HYDROXYUREA MEDAC CAPSULES 500MG | 膠囊（品名載明） | 未提供 |
-| HK-67918 | HYDROXYCARBAMIDE TEVA CAPSULES 500MG | 膠囊（品名載明） | 未提供 |
-| HK-67191 | HYDROXYCARBAMIDE SANDOZ CAPSULES 500MG | 膠囊（品名載明） | 未提供 |
-| HK-66629 | HYDROXYUREA CAPSULES 500MG | 膠囊（品名載明） | 未提供 |
+| HK-52895 | APO-HYDROXYUREA CAP 500MG | 膠囊（品名標示） | 資料未載明 |
+| HK-66544 | HYDROXYUREA MEDAC CAPSULES 500MG | 膠囊（品名標示） | 資料未載明 |
+| HK-67918 | HYDROXYCARBAMIDE TEVA CAPSULES 500MG | 膠囊（品名標示） | 資料未載明 |
+| HK-67191 | HYDROXYCARBAMIDE SANDOZ CAPSULES 500MG | 膠囊（品名標示） | 資料未載明 |
+| HK-66629 | HYDROXYUREA CAPSULES 500MG | 膠囊（品名標示） | 資料未載明 |
 
----
+以上 5 張均為單一成分、有效的許可證。
 
 ## 細胞毒性
 
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 傳統細胞毒性藥物（抗代謝物，核糖核苷酸還原酶抑制劑） |
-| 骨髓抑制風險 | 高（知識圖譜列出血小板減少、白血球減少、貧血為相關禁忌疾病；HbSC 兒童研究中血小板減少為最主要副作用） |
+| 細胞毒性分類 | 傳統細胞毒性藥物（核糖核苷酸還原酶抑制劑，抗代謝類） |
+| 骨髓抑制風險 | 高。知識圖譜記錄的禁忌關聯包括白血球低下、血小板低下與貧血 |
 | 致吐性分級 | 請參考原廠仿單 |
-| 監測項目 | CBC（含分類與血小板）、腎功能、肝功能 |
-| 處置防護 | 請參考原廠仿單，並依細胞毒性藥物處置規範操作 |
+| 監測項目 | 全血球計數 (CBC)、肝腎功能 |
+| 處置防護 | 建議依細胞毒性藥物處置規範操作 |
 
----
+其他細節請參考原廠仿單的警語與注意事項。
 
 ## 安全性考量
 
-- **知識圖譜標示的相關禁忌疾病**（來源為知識圖譜，非仿單文字）：腎臟疾病、膿尿輸尿管、血小板減少、貧血、大球性貧血、白血球減少、皮膚血管炎。
-- **藥物交互作用**：共查得 100 筆，多數嚴重度未分級。已分級者為 Levofloxacin（輕微）。其他未分級者包括 Doxycycline、Amphotericin B、Hydrocortisone、Acetylsalicylic acid、Metformin、Omeprazole、Prednisone、Simvastatin 等，建議合併用藥時逐一查核。
+- **知識圖譜記錄的禁忌關聯**（非仿單內容）：腎臟疾病、輸尿管積膿、血小板低下、貧血、大球性貧血、白血球低下、皮膚血管炎。
+- **藥物交互作用**：資料庫共查得 100 筆，列出者多為等級未明，其中 levofloxacin 為輕微。其餘包含 doxycycline、amphotericin B、hydrocortisone、famotidine、acetylsalicylic acid、pantoprazole、metformin、omeprazole、prednisone、simvastatin 等，臨床意義需另行評估。
 
-其餘警語與禁忌症請參考原廠仿單。
-
----
-
-## 其他預測適應症概覽
-
-| 預測適應症 | TxGNN 分數 | 證據等級 | 重點 |
-|-----------|-----------|---------|------|
-| HbSC 型鐮狀細胞病 | 99.67% | L2 | 有 Phase 2 試驗 [NCT00532883](https://clinicaltrials.gov/study/NCT00532883)（n=44，提前終止）；2025 年 NEJM Evidence 發表 Hydroxyurea 用於 HbSC 的研究（無法核實設計與結果）；另有觀察性研究與 Cochrane 回顧（針對鐮狀細胞病整體）。尚無 HbSC 專屬 Phase 3 確認 |
-| HbS/β-地中海型貧血 | 99.67% | L3 | 1999 年兒童與青少年臨床試驗（PMID [10326220](https://pubmed.ncbi.nlm.nih.gov/10326220/)）；兩項登記試驗為移植條件預處置研究，非直接檢驗 Hydroxyurea |
-| HbS/D 型鐮狀細胞病 | 99.67% | L4 | 無試驗登記，文獻均為間接證據 |
-| HPFH 合併鐮狀細胞病 | 99.67% | L4 | 內源性 HbF 已偏高、表型輕微，增益存疑；證據不相關 |
-
----
+仿單的警語與禁忌資料尚未取得，請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 女性乳癌預測雖然分數很高（99.97%），但沒有臨床試驗，文獻僅有前臨床研究與 1990 年代的混合腫瘤 Phase I 聯合化療研究，缺乏乳癌專屬療效資料，證據等級僅 L4。
-- 相較之下，HbSC 型鐮狀細胞病方向證據較強（L2），可作為較值得優先探討的研究問題，但仍需更確定的資料。
+- 乳癌沒有登記的臨床試驗，文獻僅為前臨床研究與舊的複方 Phase 1 研究，缺乏直接療效證據，目前僅有模型預測支持。
+- 仿單安全性資料與作用機轉資料尚缺，且藥物有明確的骨髓抑制風險。
 
 **若要推進需要：**
-- 補齊 Hydroxyurea 的作用機轉資料（DrugBank）與香港衛生署仿單的警語、禁忌症（目前為阻擋性資料缺口）
-- 乳癌方向：進行乳癌細胞株與動物模型研究，評估與 DNA 修復抑制劑（如 ATR 抑制劑）的合併策略，再考慮設計早期臨床試驗
-- HbSC 方向：取得 2025 年 NEJM Evidence 研究的完整設計與結果，並評估是否需要 Phase 3 確認
-- 骨髓抑制監測計畫，尤其是血小板與白血球
+- 取得香港仿單的警語、禁忌與核准適應症內容
+- 補充 DrugBank 的作用機轉資料
+- 在乳癌（尤其是 BRCA 缺陷或複製壓力相關亞型）進行進一步前臨床驗證，並評估是否設計單獨或合併用藥的臨床試驗
+- 擬定血液學監測計畫
+
+> 補充：資料中另有鐮刀型血紅素 SC 病（Phase 2 試驗 NCT00532883 及 2025 年 NEJM Evidence 文獻）等預測，證據較乳癌豐富，建議另行評估為優先方向。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

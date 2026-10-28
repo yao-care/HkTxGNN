@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tolvaptan
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 889
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Tolvaptan：預測新適應症為多囊腎病變 3 型，伴或不伴多囊肝（證據等級 L1）。原適應症：抗利尿激素不適當分泌症候群、腎因性抗利尿激素不適當症候群、多囊腎病變"
 monitor_inn: "Tolvaptan"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
+description: "Tolvaptan：預測新適應症為Renal-hepatic-pancreatic dysplasia（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Tolvaptan
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic inte
 
 </div>
 
-## Tolvaptan：從抗利尿激素不適當分泌症候群到多囊腎病變（PKD3，伴或不伴多囊肝）
+## Tolvaptan: Renal-hepatic-pancreatic dysplasia
 {: .text-alpha }
 
 ## 一句話總結
 
 Tolvaptan 是選擇性血管加壓素 V2 受體拮抗劑，原本用於抗利尿激素不適當分泌症候群（SIADH）及多囊腎病變。
-TxGNN 模型預測它可能對**多囊腎病變 3 型（伴或不伴多囊肝，polycystic kidney disease 3 with or without polycystic liver disease）**有效，
 目前有 **0 個臨床試驗登記**，但有 **19 篇文獻**支持這個方向，其中包含 2 篇關鍵的 Phase 3 RCT（TEMPO 3:4、REPRISE）。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 抗利尿激素不適當分泌症候群、腎因性抗利尿激素不適當症候群、多囊腎病變（資料來自知識圖譜；香港許可證未載明適應症文字） |
-| 預測新適應症 | 多囊腎病變 3 型，伴或不伴多囊肝 |
-| TxGNN 預測分數 | 99.99% |
-| 證據等級 | L1 |
-| 香港上市 | ✓ 已上市 |
-| 許可證數 | 7 張 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Renal-hepatic-pancreatic dysplasia |
+| TxGNN 預測分數 | 0.9998 |
+| 證據等級 | L5 |
+| 香港上市 | 上市中（有效許可證 7 張／共 7 張） |
+| 許可證數 | 7 張（有效 7 張） |
 | 建議決策 | Proceed with Guardrails |
 
 > 說明：此預測屬於藥物原有適應症範圍（多囊腎病變），較接近對模型預測的驗證，而非真正的跨疾病再利用。
