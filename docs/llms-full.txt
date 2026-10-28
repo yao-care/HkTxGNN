@@ -22,7 +22,7 @@ HkTxGNN 是藥提醒科技有限公司（yao.care）維護的香港藥物老藥�
 - `/sources/` 資料來源 — HkTxGNN 的資料來源清單：Department of Health HK 藥證資料、TxGNN、ClinicalTrials.gov、PubMed、DrugBank。
 - `/downloads/` 資料下載 — HkTxGNN 開放資料下載：FHIR 資源、預測結果與搜尋索引。
 - `/news/` 健康新聞 — HkTxGNN 自動監測藥物與適應症相關的健康新聞報導。
-- `/about/` 關於專案 — HkTxGNN 是藥提醒科技有限公司開發的老藥新用預測平台，基於哈佛 TxGNN 模型，提供香港衛生署（Department of Health HK）核准藥品的驗證報告。
+- `/about/` 關於專案 — HkTxGNN 是藥提醒科技有限公司開發的老藥新用預測平台，基於哈佛 TxGNN 模型，提供Hong Kong Department of Health HK 核准藥品的驗證報告。
 
 ## 代表性藥物報告
 
