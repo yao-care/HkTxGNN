@@ -7,6 +7,42 @@ title: HkTxGNN - 香港老藥新用預測系統
 
 以 [TxGNN](https://github.com/mims-harvard/TxGNN) 模型（深度學習）預測香港藥品老藥新用的研究系統。
 
+<!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
+## 香港：本站涵蓋範圍
+
+本站公開 **{{ site.data.drug_stats.total_drugs }}** 個藥品的報告，藥品來自[衛生署藥物辦公室](https://www.drugoffice.gov.hk/)的許可證資料（香港）。
+
+各證據等級報告數： L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+
+### 本站證據等級最高的藥品
+
+| 藥品 | 證據等級 |
+|---|---|
+| [Bendamustine](/drugs/bendamustine/) | L1 |
+| [Lanadelumab](/drugs/lanadelumab/) | L1 |
+| [Natamycin](/drugs/natamycin/) | L1 |
+| [Nepafenac](/drugs/nepafenac/) | L1 |
+| [Oteracil](/drugs/oteracil/) | L1 |
+| [Tegafur](/drugs/tegafur/) | L1 |
+| [Triptorelin](/drugs/triptorelin/) | L1 |
+| [Ribavirin](/drugs/ribavirin/) | L1 |
+| [Clofarabine](/drugs/clofarabine/) | L1 |
+| [Doxorubicin](/drugs/doxorubicin/) | L1 |
+
+### 30 個 TxGNN 站台中只有本站涵蓋的藥品
+
+| 藥品 | 證據等級 |
+|---|---|
+| [Glycocholic Acid](/drugs/glycocholic-acid/) | L5 |
+| [Calcium Glycerophosphate](/drugs/calcium-glycerophosphate/) | L5 |
+| [Pipenzolate](/drugs/pipenzolate/) | L5 |
+| [Benzoin](/drugs/benzoin/) | N/A |
+| [Monensin](/drugs/monensin/) | N/A |
+| [Palmitic Acid](/drugs/palmitic-acid/) | N/A |
+| [Tazemetostat](/drugs/tazemetostat/) | N/A |
+
+<!-- local-home:end -->
+
 ## 系統概覽
 
 | 項目 | 數值 |

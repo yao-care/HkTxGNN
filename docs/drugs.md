@@ -31,6 +31,11 @@ description: "HkTxGNN 收錄的所有藥物驗證報告與證據等級統計。"
 
 ---
 
+<!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
+本列表依據[衛生署藥物辦公室](https://www.drugoffice.gov.hk/)的許可證資料（香港）。
+
+<!-- local-home:end -->
+
 ## 證據等級統計
 
 | 證據等級 | 藥物數 | 說明 |
