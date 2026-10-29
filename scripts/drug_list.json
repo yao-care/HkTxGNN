@@ -1,6 +1,6 @@
 {
   "total": 879,
-  "generated_at": "2026-10-28T18:00:56.209709",
+  "generated_at": "2026-10-29T04:51:46.799492",
   "drugs": [
     {
       "name": "Abacavir",
@@ -4969,7 +4969,7 @@
       "file": "etodolac.md",
       "evidence_level": "L5",
       "indication_count": 6,
-      "predicted_indication": "模型排名第 1 為 acromesomelic dysplasia, Hunter-Thompson type（證據等級 L5）；本報告以證據最多的**僵直性脊椎炎**為主要評估對象 (acromesomelic dysplasia, Hunter-Thompson type)",
+      "predicted_indication": "Acromesomelic dysplasia, Hunter-Thompson type",
       "inn": "ETODOLAC",
       "predicted_indications": [
         "acromesomelic dysplasia, Hunter-Thompson type",
