@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
-last_modified_at: 2026-10-28
-description: "Pegaspargase：預測新適應症為Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hy…（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+last_modified_at: 2026-10-29
+description: "Pegaspargase：預測新適應症為Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Pegaspargase

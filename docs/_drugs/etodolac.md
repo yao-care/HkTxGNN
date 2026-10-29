@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "ETODOLAC"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
-description: "Etodolac：預測新適應症為模型排名第 1 為 acromesomelic dysplasia, Hunter-Thompson type（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Etodolac：預測新適應症為Acromesomelic dysplasia, Hunter-Thompson type（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Etodolac
@@ -33,7 +33,7 @@ description: "Etodolac：預測新適應症為模型排名第 1 為 acromesomeli
 
 </div>
 
-## Etodolac: 模型排名第 1 為 acromesomelic dysplasia, Hunter-Thompson type（證據等級 L5）；本報告以證據最多的**僵直性脊椎炎**為主要評估對象 (acromesomelic dysplasia, Hunter-Thompson type)
+## Etodolac: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,9 +48,9 @@ TxGNN 模型預測分數最高的是 Hunter-Thompson 型肢中發育不良，但
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | 模型排名第 1 為 acromesomelic dysplasia, Hunter-Thompson type（證據等級 L5）；本報告以證據最多的**僵直性脊椎炎**為主要評估對象 (acromesomelic dysplasia, Hunter-Thompson type) |
+| 預測新適應症 | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN 預測分數 | 0.9997 |
-| 證據等級 | 僵直性脊椎炎：L4；排名第 1 之預測：L5 |
+| 證據等級 | 僵直性脊椎炎：L5；排名第 1 之預測：L5 |
 | 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
 | 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold（排名第 1 之預測）；僵直性脊椎炎為 Research Question，建議以 Proceed with Guardrails 的方式審慎評估 |
