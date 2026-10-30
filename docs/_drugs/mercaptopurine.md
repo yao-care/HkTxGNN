@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 8
 monitor_inn: "MERCAPTOPURINE"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Mercaptopurine：預測新適應症為骨髓性白血病 (myeloid leukemia)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**骨髓性白血病 (Myeloid Leukemia)** 有效�
 | TxGNN 預測分數 | 0.9994 |
 | 證據等級 | L2（見下方說明） |
 | 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
-| 核准許可證數 | 2 張（有效 2 張） |
+| 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Proceed with Guardrails |
 
 **證據等級說明：** 資料中有直接針對骨髓性白血病（AML）的研究，包括 Phase 3 試驗 NCT02521493（唐氏症 AML，進行中）、Phase 1 試驗 NCT05506332 與 NCT06199557（直接使用 6-MP 組合），以及 AML 的 6-MP 觀察性研究（PMID 26425037、27275453）。然而，沒有已完成且能明確歸因於 6-MP 的 Phase 2/3 RCT，因此 L2 的條件並未完全滿足；保守判斷應視為介於 L2 與 L3 之間，以下決策以此為前提。

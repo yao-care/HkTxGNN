@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "BICTEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Bictegravir：預測新適應症為貓後天免疫缺乏症候群 (Feline acquired immunodeficiency syndrome)（證據等級 L5）。原適應症：HIV 感染、AIDS"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline acquired 
 | TxGNN 預測分數 | 0.9982 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
-| 核准許可證數 | 1 張（有效 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

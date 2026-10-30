@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "MAGNESIUM CARBONATE"
 predicted_indications: ["gastroduodenitis", "gastroparesis (disease)", "stomach disease", "duodenal obstruction"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Magnesium Carbonate：預測新適應症為胃十二指腸炎（證據等級 L5）。原適應症：消化性潰瘍、胃食道逆流、食道炎、便秘、消化不良"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**胃十二指腸炎 (gastroduodenitis)** 有效�
 | TxGNN 預測分數 | 0.9994 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 10 張／共 10 張） |
-| 核准許可證數 | 10 張（有效 10 張） |
+| 許可證數 | 10 張（有效 10 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

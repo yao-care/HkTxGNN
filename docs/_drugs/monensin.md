@@ -3,7 +3,7 @@ layout: default
 title: Monensin
 parent: 僅已知用途（無新預測）
 nav_order: 596
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Monensin: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 indication_count: 0
@@ -44,7 +44,7 @@ TxGNN 模型對 Monensin 沒有分數達 0.99 以上的候選適應症，因此�
 | 項目 | 內容 |
 |------|------|
 | 此藥物已記錄的已知用途 | 0 |
-| 香港的上市狀態 | 上市中（有效許可證 1 張／共 1 張） |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
 | 許可證數 | 1 張（有效 1 張） |
 
 ## 此藥物已記錄的已知用途

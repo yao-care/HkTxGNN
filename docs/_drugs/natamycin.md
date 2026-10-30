@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "NATAMYCIN"
 predicted_indications: ["vulvovaginal candidiasis", "candidiasis", "vulvitis", "vulvovaginitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginitis (disease)", "tinea nigra"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Natamycin：預測新適應症為外陰陰道念珠菌病 (Vulvovaginal Candidiasis)（證據等級 L1）。原適應症：知識圖譜記錄為黴菌性角膜潰瘍"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**外陰陰道念珠菌病 (Vulvovaginal Candidias
 | TxGNN 預測分數 | 0.9997 |
 | 證據等級 | L1 |
 | 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
-| 核准許可證數 | 1 張（有效 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Proceed with Guardrails |
 
 > 證據等級說明：已完成的 Phase 3 試驗直接研究此疾病，但只有 1 項，且為複方製劑，嚴格而言未完全達到「≥2 個 Phase 3 RCT」的 L1 門檻。另有多項較早期的 natamycin 單方陰道製劑臨床研究（見下方文獻）作為補充，等級宜保守解讀，並在決策中以保留態度看待。

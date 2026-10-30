@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "MEDROXYPROGESTERONE ACETATE"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Medroxyprogesterone Acetate：預測新適應症為閉經 (amenorrhea)（證據等級 L5）。原適應症：知識圖譜記錄：子宮內膜異位症、子宮內膜癌、停經後骨質疏鬆等"
 ---
 
@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對**閉經 (amenorrhea)** 有效，但目前**沒有
 | TxGNN 預測分數 | 1.0000 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 10 張／共 10 張） |
-| 核准許可證數 | 10 張（有效 10 張） |
+| 許可證數 | 10 張（有效 10 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

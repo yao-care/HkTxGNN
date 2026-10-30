@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Lidocaine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Lidocaine：預測新適應症為點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis)（證據等級 L5）."
 ---
 
@@ -53,7 +53,7 @@ TxGNN 模型預測分數最高的新適應症為**點狀上皮角膜結膜炎 (P
 | TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 核准許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張（清單可能不完整） |
 | 建議決策 | Hold |
 
 ---

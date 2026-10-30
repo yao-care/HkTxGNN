@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis", "idiopathic spontaneous coronary artery dissection", "hemangioendothelioma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Travoprost：預測新適應症為內臟鈣化防禦 (Visceral Calciphylaxis)（證據等級 L5）。原適應症：開角型青光眼、高眼壓症"
 ---
 
@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對**內臟鈣化防禦 (Visceral Calciphylaxis)** �
 | TxGNN 預測分數 | 1.0000 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 9 張／共 9 張） |
-| 核准許可證數 | 9 張（有效 9 張） |
+| 許可證數 | 9 張（有效 9 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

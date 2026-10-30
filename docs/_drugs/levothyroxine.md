@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Levothyroxine：預測新適應症為腎發育不全／無發育 (renal hypodysplasia/aplasia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
@@ -52,7 +52,7 @@ TxGNN 模型預測它可能對**腎發育不全／無發育 (renal hypodysplasia
 | TxGNN 預測分數 | 0.9967 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 12 張／共 12 張） |
-| 核准許可證數 | 12 張（有效 12 張） |
+| 許可證數 | 12 張（有效 12 張） |
 | 建議決策 | Hold |
 
 ---

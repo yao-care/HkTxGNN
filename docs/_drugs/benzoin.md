@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 108
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Benzoin: known uses and market status in Hong Kong; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ TxGNN 深度學習模型對 Benzoin 沒有分數達 0.99 以上的候選適應�
 | 新預測適應症 | 無（沒有模型候選分數達 0.99 以上） |
 | 此藥物已記錄的已知用途 | 4 |
 | 證據等級 | 不適用 |
-| 香港上市狀態 | 上市中（有效許可證 2 張／共 2 張） |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
 | 許可證數 | 2 張（有效 2 張） |
 
 ## 此藥物已記錄的已知用途

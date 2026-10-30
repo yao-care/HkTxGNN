@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "LOPINAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Lopinavir：預測新適應症為猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)（證據等級 L5）。原適應症：知識圖譜中記錄的 HIV 感染、愛滋病"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**猴免疫缺陷病毒感染 (Simian Immunodefici
 | TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
-| 核准許可證數 | 6 張（有效 6 張） |
+| 許可證數 | 6 張（有效 6 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

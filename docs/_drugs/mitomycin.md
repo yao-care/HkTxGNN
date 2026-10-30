@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "MITOMYCIN"
 predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "pancreatic intraductal papillary-mucinous carcinoma", "mixed ductal-endocrine carcinoma of pancreas", "pancreatic signet ring cell adenocarcinoma", "undifferentiated pancreatic carcinoma", "malignant exocrine pancreas neoplasm", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Mitomycin：預測新適應症為胰臟固態偽乳突癌（證據等級 L5）。原適應症：胰腺腺癌"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**胰臟固態偽乳突癌 (solid pseudopapillary 
 | TxGNN 預測分數 | 0.9986 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
-| 核准許可證數 | 4 張（有效 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

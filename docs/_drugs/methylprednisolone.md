@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "METHYLPREDNISOLONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Methylprednisolone：預測新適應症為圓形禿 (Alopecia Areata)（證據等級 L3）。原適應症：香港許可證資料未載明核准適應症"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，
 | TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L3 |
 | 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
-| 核准許可證數 | 8 張（有效 8 張） |
+| 許可證數 | 8 張（有效 8 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ## 為什麼這個預測合理？

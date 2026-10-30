@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Vildagliptin：預測新適應症為局部僵硬肢症候群 (Focal Stiff Limb Syndrome)（證據等級 L5）。原適應症：第 2 型糖尿病"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**局部僵硬肢症候群 (Focal Stiff Limb Syndr
 | TxGNN 預測分數 | 0.9988 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 19 張／共 19 張） |
-| 核准許可證數 | 19 張（有效 19 張） |
+| 許可證數 | 19 張（有效 19 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

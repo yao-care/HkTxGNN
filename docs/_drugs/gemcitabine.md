@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "GEMCITABINE"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mixed adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Gemcitabine：預測新適應症為直腸黏液腺癌 (rectum mucinous adenocarcinoma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
@@ -52,7 +52,7 @@ TxGNN 模型預測它可能對**直腸黏液腺癌 (Rectum Mucinous Adenocarcino
 | TxGNN 預測分數 | 0.9977 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 18 張／共 18 張） |
-| 核准許可證數 | 18 張（有效 18 張） |
+| 許可證數 | 18 張（有效 18 張） |
 | 建議決策 | Hold |
 
 ---

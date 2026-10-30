@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "RASAGILINE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Rasagiline：預測新適應症為PLA2G6 相關神經退化症 (PLA2G6-associated neurodegeneration)（證據等級 L5）。原適應症：帕金森氏症及相關帕金森氏症候群"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對 **PLA2G6 相關神經退化症 (PLA2G6-associated
 | TxGNN 預測分數 | 0.9971 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
-| 核准許可證數 | 6 張（有效 6 張） |
+| 許可證數 | 6 張（有效 6 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

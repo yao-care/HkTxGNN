@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 655
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ozanimod: known uses and market status in Hong Kong; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ TxGNN 模型針對 Ozanimod 產生的候選適應症，經追溯來源後全部�
 | 新預測適應症 | 無（所有可追溯的模型候選均為已知用途） |
 | 模型候選中的已知用途 | 1 |
 | 證據等級 | 不適用 |
-| 香港上市狀態 | 上市中（有效許可證 2 張／共 2 張） |
+| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
 | 許可證數 | 2 張（有效 2 張） |
 
 ## 模型候選中的已知用途

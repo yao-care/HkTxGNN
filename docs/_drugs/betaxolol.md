@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 116
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Betaxolol: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ TxGNN 模型為 Betaxolol 產出的候選適應症，經追溯來源後皆為已
 | 新預測適應症 | 無（所有可追溯的模型候選皆為已知用途） |
 | 模型候選中的已知用途數 | 0 |
 | 證據等級 | 不適用 |
-| 香港上市狀態 | 上市中（有效許可證 3 張／共 3 張） |
+| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
 | 許可證數 | 3 張（有效 3 張） |
 
 ## 模型候選中的已知用途

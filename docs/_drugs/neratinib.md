@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 613
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Neratinib: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ TxGNN 深度學習模型針對 Neratinib 產生的候選適應症，經追溯來
 | 新的預測適應症 | 無（所有可追溯的模型候選皆為已知用途） |
 | 模型候選中的已知用途數 | 4 |
 | 證據等級 | 不適用 |
-| 香港上市狀態 | 上市中（有效許可證 1 張／共 1 張） |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
 | 許可證數 | 1 張（有效 1 張） |
 
 ## 模型候選中的已知用途

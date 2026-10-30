@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "MANNITOL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Mannitol：預測新適應症為腎因性抗利尿不適當症候群 (NSIAD)（證據等級 L5）。原適應症：知識圖譜記錄的相關用途：充血性心衰竭、腦水腫、眼壓過高、假性腦瘤、顱內高壓、囊性纖維化"
 ---
 
@@ -53,7 +53,7 @@ TxGNN 模型預測它可能對**腎因性抗利尿不適當症候群 (Nephrogeni
 | TxGNN 預測分數 | 0.9997 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
-| 核准許可證數 | 3 張（有效 3 張） |
+| 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ---

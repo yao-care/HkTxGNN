@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 64
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Anidulafungin: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ TxGNN 深度學習模型針對 Anidulafungin 沒有產生分數達 0.99 以上�
 | 新的預測適應症 | 無（沒有模型候選分數達 0.99 以上） |
 | 此藥物已記錄的已知用途 | 3 |
 | 證據等級 | 不適用 |
-| 香港上市狀態 | 上市中（有效許可證 1 張／共 1 張） |
+| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
 | 許可證數 | 1 張（有效 1 張） |
 
 ## 此藥物已記錄的已知用途

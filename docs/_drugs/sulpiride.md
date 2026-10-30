@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "SULPIRIDE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "syndromic myopia", "atypical glycine encephalopathy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sulpiride：預測新適應症為視網膜失養症，伴或不伴眼外異常（證據等級 L5）。原適應症：思覺失調症"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**視網膜失養症（伴或不伴眼外異常）
 | TxGNN 預測分數 | 0.9995 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
-| 核准許可證數 | 6 張（有效 6 張） |
+| 許可證數 | 6 張（有效 6 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

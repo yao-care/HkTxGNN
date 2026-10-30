@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 356
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Eucalyptus Oil: 香港的已知用途與上市狀態；目前沒有新的候選適應症"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ TxGNN 深度學習模型對 Eucalyptus Oil 沒有分數達 0.99 以上的候選�
 | 新的預測適應症 | 無（沒有模型候選分數達 0.99 以上） |
 | 此藥物已記錄的已知用途 | 0 |
 | 證據等級 | 不適用 |
-| 香港上市狀態 | 上市中（有效許可證至少 20 張） |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 至少 20 張 |
 
 ## 此藥物已記錄的已知用途

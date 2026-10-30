@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "PRASTERONE"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "severe nonproliferative diabetic retinopathy", "thrombophilia due to protein S deficiency, autosomal recessive", "scleroderma (disease)", "complement component 4a deficiency", "pseudo-von Willebrand disease", "primary release disorder of platelets"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Prasterone：預測新適應症為肝素輔因子 2 缺乏症 (Heparin Cofactor 2 Deficiency)（證據等級 L5）。原適應症：香港許可證未載明核准適應症文字"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**肝素輔因子 2 缺乏症 (Heparin Cofactor 2 
 | TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
-| 核准許可證數 | 1 張（有效 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

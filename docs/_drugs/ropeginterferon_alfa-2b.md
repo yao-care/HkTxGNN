@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ROPEGINTERFERON ALFA-2B"
 predicted_indications: ["Laubry-Pezzi syndrome", "interventricular septum aneurysm", "genetic syndromic Pierre Robin syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 7", "disorder of fucoglycosan synthesis", "Jeune syndrome situs inversus", "partial deletion of the long arm of chromosome 22", "orofacial clefting syndrome", "pulmonary valve disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ropeginterferon Alfa-2B：預測新適應症為Laubry-Pezzi 症候群 (Laubry-Pezzi syndrome)（證據等級 L5）。原適應症：知識圖譜記錄的關聯：後天性真性紅血球增多症、漿細胞瘤、紅血球增多症"
 ---
 
@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對 **Laubry-Pezzi 症候群 (Laubry-Pezzi syndrome)*
 | TxGNN 預測分數 | 0.9993 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
-| 核准許可證數 | 1 張（有效 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 5
 monitor_inn: "TIOTROPIUM"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tiotropium：預測新適應症為阻塞性肺病（證據等級 L1）。原適應症：知識圖譜記錄為支氣管炎、氣喘、肺氣腫"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive lung disease)** 有
 | TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L1 |
 | 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
-| 核准許可證數 | 4 張（有效 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ## 為什麼這個預測合理？

@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 9
 monitor_inn: "RIBAVIRIN"
 predicted_indications: ["chronic hepatitis B virus infection", "hepatoportal sclerosis", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "hepatic porphyria", "IgG4-related pachymeningitis", "eosinophilic angiocentric fibrosis", "IgG4-related mediastinitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ribavirin：預測新適應症為慢性 B 型肝炎（證據等級 L5）。原適應症：香港許可證資料中未載明核准適應症文字"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**慢性 B 型肝炎 (Chronic Hepatitis B Virus In
 | TxGNN 預測分數 | 0.9986 |
 | 證據等級 | L1（依規則為候選上限，詳見下方說明） |
 | 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
-| 核准許可證數 | 1 張（有效 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 **關於證據等級：** 有 2 個已完成的 Phase 3 試驗與 B 型肝炎直接相關性較高的只有 NCT00114361（完成，n=138，且為合併 peginterferon 的療法）；NCT00154869 狀態為「未知」，NCT03759782 狀態亦為「未知」，均不算已完成。因此嚴格來說不符合「≥2 個已完成 Phase 3 RCT」的 L1 條件。NCT00114361 為 1 個已完成的 Phase 3 試驗，且為合併療法、無法分離 ribavirin 單獨貢獻，本報告保守地將證據等級評為 **L2**（以此為準）。

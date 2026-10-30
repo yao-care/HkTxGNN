@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Pemetrexed：預測新適應症為Pleural adenomatoid tumor（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對**心包膜癌 (Pericardium Cancer)** 有效，目
 | TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 17 張／共 17 張） |
-| 核准許可證數 | 17 張（有效 17 張） |
+| 許可證數 | 17 張（有效 17 張） |
 | 建議決策 | Hold（列為研究問題，暫不推進） |
 
 > 說明：本報告以預測排名第 1 的「胸膜腺瘤樣瘤」以外，選擇文獻最完整的「心包膜癌」作為主要討論對象。排名第 1 與第 3 的預測（胸膜腺瘤樣瘤、亞胺基甘胺酸尿症）無任何臨床試驗或文獻，詳見後文「其他預測」。

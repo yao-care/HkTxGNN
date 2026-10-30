@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "TRIAMTERENE"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Triamterene：預測新適應症為惡性高血壓腎病變 (malignant hypertensive renal disease)（證據等級 L5）。原適應症：知識圖譜中記錄的關聯為高血壓、充血性心臟衰竭"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (malignant hypertensive
 | TxGNN 預測分數 | 0.9989 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
-| 核准許可證數 | 1 張（有效 1 張） |
+| 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
