@@ -3,7 +3,7 @@ layout: default
 title: 關於專案
 nav_order: 90
 permalink: /about/
-description: "HkTxGNN 是藥提醒科技有限公司開發的老藥新用預測平台，基於哈佛 TxGNN 模型，提供Hong Kong Department of Health HK 核准藥品的驗證報告。"
+description: "HkTxGNN 是藥提醒科技有限公司開發的老藥新用預測平台，基於哈佛 TxGNN 模型，提供 Department of Health HK 核准藥品的驗證報告。"
 ---
 
 # 關於專案
@@ -17,7 +17,7 @@ description: "HkTxGNN 是藥提醒科技有限公司開發的老藥新用預測�
 ## 專案背景
 
 <p class="key-answer" data-question="HkTxGNN 是什麼？">
-<strong>HkTxGNN</strong> 是一個藥物再利用（Drug Repurposing）研究輔助平台，基於哈佛大學 Zitnik Lab 發表於 <em>Nature Medicine</em> 的 TxGNN 模型，針對Hong Kong Department of Health HK 核准藥品進行適應症擴展預測。本平台不僅提供 AI 預測分數，更整合 ClinicalTrials.gov、PubMed 等來源的臨床證據，讓研究人員能快速評估預測的可信度。
+<strong>HkTxGNN</strong> 是一個藥物再利用（Drug Repurposing）研究輔助平台，基於哈佛大學 Zitnik Lab 發表於 <em>Nature Medicine</em> 的 TxGNN 模型，針對 Department of Health HK 核准藥品進行適應症擴展預測。本平台不僅提供 AI 預測分數，更整合 ClinicalTrials.gov、PubMed 等來源的臨床證據，讓研究人員能快速評估預測的可信度。
 </p>
 
 ---
