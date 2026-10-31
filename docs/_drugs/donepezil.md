@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 description: "Donepezil：預測新適應症為Psychogenic movement disorders（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**慢性抽動障礙 (Chronic Tic Disorder)** 有�
 | TxGNN 預測分數 | 0.9923 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold（列為研究問題，尚不建議推進） |
 
 ---

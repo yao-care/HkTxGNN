@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 645
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "OMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole：預測新適應症為Duodenal obstruction（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
@@ -51,7 +51,7 @@ Omeprazole 是質子幫浦抑制劑，原本用於胃潰瘍、十二指腸潰瘍
 | TxGNN 預測分數 | 0.9964 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ---

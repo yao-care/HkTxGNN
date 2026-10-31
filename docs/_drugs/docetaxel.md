@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 288
 evidence_level: L1
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "DOCETAXEL"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
 description: "Docetaxel：預測新適應症為Ewing sarcoma（證據等級 L1）。原適應症：本地許可證資料未記載適應症"
@@ -53,7 +53,7 @@ Docetaxel（歐洲紫杉醇類藥物）原本用於非小細胞肺癌、前列�
 | TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L1 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Proceed with Guardrails |
 
 ---

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 890
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Topiramate：預測新適應症為三叉神經腫瘤 (Trigeminal Nerve Neoplasm)（證據等級 L5）。原適應症：癲癇（全身性強直陣攣發作、局部癲癇、Lennox-Gastaut 症候群等）"
 monitor_inn: "TOPIRAMATE"
 predicted_indications: ["trigeminal nerve neoplasm"]
@@ -52,7 +52,7 @@ TxGNN 模型預測分數最高的新適應症是**三叉神經腫瘤 (Trigeminal
 | TxGNN 預測分數 | 0.9970 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 註：原適應症來自既有的適應症資料，香港許可證本身未載明核准適應症文字。

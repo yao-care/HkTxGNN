@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CLIOQUINOL"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Clioquinol：預測新適應症為毛外型感染性疾病 (Ectothrix Infectious Disease)（證據等級 L5）。原適應症：足癬、體癬、癬菌感染、鼠蹊與肛周皮膚黴菌病"
 ---
 
@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對**毛外型感染性疾病 (Ectothrix Infectious D
 | TxGNN 預測分數 | 0.9926 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 另有第二個預測：**毛內型感染性疾病 (Endothrix Infectious Disease)**，分數 0.9919，同樣為 L5、建議 Hold，詳見下文。

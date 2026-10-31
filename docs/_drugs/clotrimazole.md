@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 221
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "CLOTRIMAZOLE"
 predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
 description: "Clotrimazole：預測新適應症為痤瘡 (acne (disease))（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
@@ -55,7 +55,7 @@ TxGNN 模型預測排名第一的新適應症為**痤瘡 (acne)**，但目前僅
 | TxGNN 預測分數 | 0.9986 |
 | 證據等級 | L4（痤瘡）；外陰陰道炎為 L1 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold（痤瘡）；外陰陰道炎為 Proceed with Guardrails |
 
 ---

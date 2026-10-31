@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "AMMONIUM CHLORIDE"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Ammonium Chloride：預測新適應症為鼻腔疾病（證據等級 L5）。原適應症：知識圖譜記錄的關聯：咽炎、感冒、鼻咽炎"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 | TxGNN 預測分數 | 0.9994 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

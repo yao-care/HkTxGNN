@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 80
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Atomoxetine：預測新適應症為特定發展障礙 (Specific Developmental Disorder)（證據等級 L4）。原適應症：注意力不足過動症 (ADHD)"
 monitor_inn: "ATOMOXETINE"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
@@ -52,7 +52,7 @@ TxGNN 模型預測它可能對**特定發展障礙 (Specific Developmental Disor
 | TxGNN 預測分數 | 1.0000 |
 | 證據等級 | L4 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 註：香港許可證資料中未載明核准適應症文字。

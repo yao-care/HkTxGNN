@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 7
 monitor_inn: "MEFENAMIC ACID"
 predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Mefenamic Acid：預測新適應症為類風濕性關節炎（證據等級 L2）。原適應症：本次彙整資料未載明"
 ---
 
@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對**類風濕性關節炎**有效，目前**無登�
 | TxGNN 預測分數 | 0.9973 |
 | 證據等級 | L2 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Metoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Metoprolol：預測新適應症為Malignant hypertensive renal disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**慢性肺心症 (chronic pulmonary heart disease
 | TxGNN 預測分數 | 0.9991 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 > 說明：TxGNN 預測排名第 1 的是「惡性高血壓腎病變」（0.9991），但該疾病沒有任何試驗或文獻。本報告改以證據最多的「慢性肺心症」作為主要分析對象，其餘候選適應症見文末。

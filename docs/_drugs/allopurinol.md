@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ALLOPURINOL"
 predicted_indications: ["hepatic porphyria", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "inflammatory myopathy with abundant macrophages"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Allopurinol：預測新適應症為肝性紫質症（證據等級 L5）。原適應症：痛風、高尿酸血症、急性尿酸腎病變"
 ---
 
@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對**肝性紫質症 (Hepatic Porphyria)** 有效，�
 | TxGNN 預測分數 | 0.9995 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

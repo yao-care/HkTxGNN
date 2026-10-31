@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "INDOMETHACIN"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Indomethacin：預測新適應症為短指併指症候群 (brachydactyly-syndactyly syndrome)（證據等級 L5）。原適應症：本報告彙整的許可證資料未提供核准適應症文字。知識圖譜記錄的相關疾病包括滑囊炎、類風濕性關節炎、僵直性脊椎炎、痛風、骨關節炎、動脈導管未閉等"
 ---
 
@@ -49,7 +49,7 @@ Indomethacin（吲哚美辛）是一種非類固醇消炎藥。知識圖譜記�
 | TxGNN 預測分數 | 0.9997（全體排名第 1093） |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "SALICYLAMIDE"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria", "lung disease", "massive neonatal aspiration syndrome", "respiratory syncytial virus bronchiolitis", "hantavirus infectious disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Salicylamide：預測新適應症為咽炎 (Pharyngitis)（證據等級 L5）。原適應症：頭痛"
 ---
 
@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對**咽炎 (Pharyngitis)** 有效，但目前**沒�
 | TxGNN 預測分數 | 0.9998 |
 | 證據等級 | L5（唯一一篇文獻為 1953 年、針對嬰兒卡他性扁桃腺炎的報告，未直接研究咽炎本身） |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

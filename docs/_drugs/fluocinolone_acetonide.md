@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 387
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "FLUOCINOLONE ACETONIDE"
 predicted_indications: ["hypertrophic lichen planus", "lichen planus pigmentosus", "annular atrophic lichen planus", "lichen planus pemphigoides"]
 description: "Fluocinolone Acetonide：預測新適應症為肥厚性扁平苔癬 (hypertrophic lichen planus)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**肥厚性扁平苔癬 (Hypertrophic Lichen Planu
 | TxGNN 預測分數 | 0.9942 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold（列為研究問題，待補充臨床資料） |
 
 ## 為什麼這個預測合理？

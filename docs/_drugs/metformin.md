@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 568
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Metformin：預測新適應症為典型僵人症候群 (Classic Stiff Person Syndrome)（證據等級 L5）。原適應症：第二型糖尿病 (Type 2 Diabetes Mellitus)"
 monitor_inn: "Metformin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
@@ -53,7 +53,7 @@ TxGNN 模型預測它可能對**典型僵人症候群 (Classic Stiff Person Synd
 | TxGNN 預測分數 | 0.9945 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 註：原適應症取自 TxGNN 模型（深度學習）所用的適應症資料，香港許可證的核准適應症文字在本次資料中皆為空白。預測分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，並非生物學證據。

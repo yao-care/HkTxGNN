@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 505
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
 description: "Lamivudine：預測新適應症為猿猴免疫缺陷病毒感染 (simian immunodeficiency virus infection)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**猿猴免疫缺陷病毒感染 (Simian Immunodef
 | TxGNN 預測分數 | 0.9993 |
 | 證據等級 | L4 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

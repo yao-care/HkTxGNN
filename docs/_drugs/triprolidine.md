@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 911
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Triprolidine"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 description: "Triprolidine：預測新適應症為Nasal cavity disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
@@ -52,7 +52,7 @@ Triprolidine 是第一代 H1 組織胺受體拮抗劑，原本用於過敏性鼻
 | TxGNN 預測分數 | 0.9983 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ---

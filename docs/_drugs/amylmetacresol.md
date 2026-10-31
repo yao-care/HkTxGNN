@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 60
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Amylmetacresol：預測新適應症為馬尾症候群 (Cauda Equina Syndrome)（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症（產品皆為喉嚨含片）"
 monitor_inn: "AMYLMETACRESOL"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "ciliary body disease", "panuveitis (disease)", "iris disease", "infectious anterior uveitis", "uveitis", "ciliary body cancer", "benign neoplasm of ciliary body"]
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 | TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

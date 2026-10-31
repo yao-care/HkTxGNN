@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Etoricoxib：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：目前許可證資料未載明核准適應症"
 monitor_inn: "Etoricoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -53,7 +53,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，分數�
 | TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ---

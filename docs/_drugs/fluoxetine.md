@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "FLUOXETINE"
 predicted_indications: ["paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Fluoxetine：預測新適應症為妄想型人格障礙 (paranoid personality disorder)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對**妄想型人格障礙 (Paranoid Personality Diso
 | TxGNN 預測分數 | 0.9992 |
 | 證據等級 | L5（僅有模型預測） |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

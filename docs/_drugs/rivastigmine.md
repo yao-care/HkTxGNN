@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 782
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Rivastigmine：預測新適應症為青光眼 (Glaucoma)（證據等級 L4）。原適應症：阿茲海默症（Alzheimer disease）、小腦退化、Pick 氏病等"
 monitor_inn: "RIVASTIGMINE"
 predicted_indications: ["glaucoma"]
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**青光眼 (Glaucoma)** 有效，
 | TxGNN 預測分數 | 0.9927 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 272
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "DIAZEPAM"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
 description: "Diazepam：預測新適應症為失眠 (insomnia (disease))（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
@@ -52,7 +52,7 @@ TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，但目前**沒有�
 | TxGNN 預測分數 | 1.0000 |
 | 證據等級 | L4 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold（僅適合作為研究問題） |
 
 ---

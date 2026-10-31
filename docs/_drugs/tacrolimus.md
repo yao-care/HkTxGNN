@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 845
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus：預測新適應症為脂漏性皮膚炎 (seborrheic dermatitis)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**脂漏性皮膚炎 (Seborrheic Dermatitis)** 有
 | TxGNN 預測分數 | 0.9926 |
 | 證據等級 | L2（僅 1 個已完成的 Phase 3 試驗，且為單一試驗；另有 1 個 Phase 4） |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Proceed with Guardrails |
 
 > 註：本報告所編纂的資料中，香港許可證的核准適應症文字皆為空白。

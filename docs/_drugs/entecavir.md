@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 323
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
 description: "Entecavir：預測新適應症為慢性 C 型肝炎 (chronic hepatitis C virus infection)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
@@ -53,7 +53,7 @@ TxGNN 模型預測它可能對**慢性 C 型肝炎 (Chronic hepatitis C virus in
 | TxGNN 預測分數 | 0.9998 |
 | 證據等級 | L4（僅有間接的機轉與共感染研究，無 C 型肝炎本身的療效證據） |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ---

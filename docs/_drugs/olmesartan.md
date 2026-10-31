@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 641
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "olmesartan"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
 description: "Olmesartan：預測新適應症為Prinzmetal angina（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
@@ -53,7 +53,7 @@ TxGNN 模型的預測中，證據最完整的方向是**偏頭痛 (Migraine Diso
 | TxGNN 預測分數 | 0.9984 |
 | 證據等級 | L5（偏頭痛）；變異型心絞痛僅 L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold（偏頭痛方向可列為研究問題，需進一步驗證） |
 
 > 說明：預測分數最高的前兩名（變異型心絞痛、頭皮單純性毛髮稀少症）缺乏任何試驗或文獻。本報告以證據最完整的偏頭痛作為主要評估對象，並簡述其他候選。

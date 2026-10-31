@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "THIAMINE"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Thiamine：預測新適應症為甲狀腺素受體 β 突變引起的甲狀腺素抗性症候群（證據等級 L5）。原適應症：本次資料未載明"
 ---
 
@@ -52,7 +52,7 @@ TxGNN 模型預測它可能對**甲狀腺荷爾蒙抗性（THRB 突變）**、**
 | TxGNN 預測分數 | 0.9943 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 **其他預測適應症：**

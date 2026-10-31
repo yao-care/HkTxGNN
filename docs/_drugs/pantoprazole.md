@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 663
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole：預測新適應症為Duodenal obstruction（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
@@ -52,7 +52,7 @@ Pantoprazole 是質子幫浦抑制劑（PPI），原本用於消化性潰瘍、�
 | TxGNN 預測分數 | 0.9921 |
 | 證據等級 | L5（依資料編譯結果；僅 1 個已完成的 Phase 3 試驗，嚴格依本報告判定規則應為 L2，詳見下方說明） |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Proceed with Guardrails |
 
 > 證據等級說明：依判定規則，L1 需要 ≥2 個已完成的 Phase 3 RCT。目前僅有 1 個已完成的 Phase 3 試驗（NCT02084420），且 Pantoprazole 在該試驗中可能是對照組。文獻中另有數項相關的隨機對照試驗，但多屬間接證據。因此保守來看，證據強度介於 L1 與 L2 之間。

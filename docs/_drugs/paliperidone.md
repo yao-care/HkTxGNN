@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "PALIPERIDONE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Paliperidone：預測新適應症為視網膜失養症（伴或不伴眼外異常）（證據等級 L5）。原適應症：知識圖譜記錄：精神病性疾患、類思覺失調症、思覺失調情感性疾患、思覺失調症"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**視網膜失養症（伴或不伴眼外異常）
 | TxGNN 預測分數 | 0.9992 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

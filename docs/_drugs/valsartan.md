@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Valsartan：預測新適應症為惡性高血壓腎病變（證據等級 L5）。原適應症：高血壓"
 ---
 
@@ -53,7 +53,7 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (malignant hypertensive
 | TxGNN 預測分數 | 0.9997 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ---

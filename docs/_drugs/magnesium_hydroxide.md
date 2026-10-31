@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "MAGNESIUM HYDROXIDE"
 predicted_indications: ["stomach disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Magnesium Hydroxide：預測新適應症為胃部疾病 (Stomach Disease)（證據等級 L5）。原適應症：知識圖譜記錄：消化性潰瘍、胃食道逆流、食道炎、便秘、消化不良"
 ---
 
@@ -53,7 +53,7 @@ TxGNN 模型預測它可能對**胃部疾病 (Stomach Disease)** 有效，但這
 | TxGNN 預測分數 | 0.9923 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ---

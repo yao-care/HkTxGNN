@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "IBUPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Ibuprofen：預測新適應症為肢端中段發育不良 Hunter-Thompson 型（證據等級 L5）。原適應症：知識圖譜記錄的關聯包括類風濕性關節炎、骨關節炎、頭痛、幼年型特發性關節炎等"
 ---
 
@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對**肢端中段發育不良 Hunter-Thompson 型 (Ac
 | TxGNN 預測分數 | 0.9974 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

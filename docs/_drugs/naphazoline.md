@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 607
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Naphazoline：預測新適應症為頭皮單純性毛髮稀疏 (hypotrichosis simplex of the scalp)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Naphazoline"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -52,7 +52,7 @@ TxGNN 模型預測它可能對**頭皮單純性毛髮稀疏 (hypotrichosis simpl
 | TxGNN 預測分數 | 0.9983 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ---

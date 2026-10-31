@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "SERINE"
 predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "unclassified intestinal pseudoobstruction", "myopathic intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Serine：預測新適應症為家族性內臟肌病變（證據等級 L5）。原適應症：知識圖譜記錄：開角型青光眼、肺結核"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**家族性內臟肌病變 (Familial Visceral Myop
 | TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

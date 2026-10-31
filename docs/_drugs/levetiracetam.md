@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Levetiracetam：預測新適應症為β-酮硫解酶缺乏症（證據等級 L5）。原適應症：局部癲癇"
 ---
 
@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對 **β-酮硫解酶缺乏症（beta-ketothiolase de
 | TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

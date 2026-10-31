@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "TRYPTOPHAN"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Tryptophan：預測新適應症為不寧腿症候群 (Restless Legs Syndrome)（證據等級 L5）。原適應症：許可證資料未載明核准適應症"
 ---
 
@@ -52,7 +52,7 @@ TxGNN 模型預測它可能對**不寧腿症候群 (Restless Legs Syndrome)** �
 | TxGNN 預測分數 | 0.9972 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 **證據等級說明：** 文獻中雖有兩篇 1986–1987 年直接探討 L-色胺酸用於不寧腿症候群或週期性腿動的小型臨床研究，但兩篇皆無摘要可供核對，結果與品質無法確認。其餘文獻為藥物安全監視、遺傳性疾病與肝病的間接證據。保守起見，證據等級定為 L5（以模型預測為主，缺乏可核實的直接研究結果）。

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "NYSTATIN"
 predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Nystatin：預測新適應症為外陰陰道炎 (Vulvovaginitis)（證據等級 L5）。原適應症：知識圖譜記錄：皮膚念珠菌感染、口腔念珠菌感染、念珠菌感染、外陰陰道念珠菌感染"
 ---
 
@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對**外陰陰道炎 (Vulvovaginitis)** 有效，目�
 | TxGNN 預測分數 | 0.9992 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

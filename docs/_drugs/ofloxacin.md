@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "OFLOXACIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Ofloxacin：預測新適應症為高澱粉酶血症 (Hyperamylasemia)（證據等級 L5）。原適應症：知識圖譜記錄的關聯包括傷寒、沙門氏菌感染、泌尿道感染、支氣管炎、細菌性肺炎等"
 ---
 
@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (Hyperamylasemia)** 有效，
 | TxGNN 預測分數 | 0.9991 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

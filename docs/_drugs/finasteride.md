@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Finasteride：預測新適應症為Ambras type hypertrichosis universalis congenita（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對**多毛症 (Hypertrichosis)** 有效，但目前*
 | TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 > 說明：predicted_indications 中排名第 2 的多毛症是唯一有文獻的預測。排名第 1 的 Ambras 型先天性全身多毛症分數略高，但完全沒有試驗或文獻，也缺乏機轉依據。本報告以有資料可評估的多毛症為主軸，並在下方附上其他預測的簡要比較。

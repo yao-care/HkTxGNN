@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 70
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Arginine：預測新適應症為胃輕癱 (Gastroparesis)（證據等級 L4）。原適應症：香港許可證資料未載明核准適應症"
 monitor_inn: "ARGININE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -53,7 +53,7 @@ TxGNN 模型預測它可能對**胃輕癱 (Gastroparesis)** 有效，
 | TxGNN 預測分數 | 0.9942 |
 | 證據等級 | L4 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ---

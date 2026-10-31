@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "RISPERIDONE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Risperidone：預測新適應症為Gaze palsy, familial horizontal, with progressive scoliosis（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
@@ -55,7 +55,7 @@ TxGNN 模型預測排名第一的疾病是罕見遺傳病「家族性水平凝�
 | TxGNN 預測分數 | 0.9976 |
 | 證據等級 | L5（有多個已完成的 Phase 3 試驗，如 NCT00095134、NCT00044681，但試驗結果未提供，需再核對） |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（列表可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Proceed with Guardrails |
 
 ---

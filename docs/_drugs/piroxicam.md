@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "PIROXICAM"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Piroxicam：預測新適應症為眼缺損小眼症－肢根型骨發育不良症候群 (colobomatous microphthalmia-rhizomelic dysplasia syndrome)（證據等級 L3）。原適應症：類風濕性關節炎、骨關節炎"
 ---
 
@@ -50,7 +50,7 @@ TxGNN 模型的首位預測為罕見的骨骼發育異常症候群，但這些�
 | TxGNN 預測分數 | 0.9993（第 1 名預測為 1.0000） |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold（JIA 為研究問題，需進一步驗證） |
 
 ## 為什麼這個預測合理？

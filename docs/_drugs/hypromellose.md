@@ -5,7 +5,7 @@ layout: default
 title: Hypromellose
 parent: 僅已知用途（無新預測）
 nav_order: 450
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Hypromellose: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Hypromellose"
 predicted_indications: []
@@ -44,7 +44,7 @@ evidence_level: N/A
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 
 ---
 

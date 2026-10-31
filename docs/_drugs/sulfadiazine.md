@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 838
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Sulfadiazine：預測新適應症為肺囊蟲症 (Pneumocystosis)（證據等級 L4）。原適應症：弓形蟲症（Toxoplasmosis）、潰瘍性結腸炎、發炎性腸道疾病、脈絡視網膜炎等"
 monitor_inn: "SULFADIAZINE"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**肺囊蟲症 (Pneumocystosis)** 有效，
 | TxGNN 預測分數 | 0.9939 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold（列為研究問題，待補充證據） |
 
 ## 為什麼這個預測合理？

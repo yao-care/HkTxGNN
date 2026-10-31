@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Simvastatin：預測新適應症為腦幹梗塞 (brain stem infarction)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對**腦幹梗塞 (Brain Stem Infarction)** 有效，
 | TxGNN 預測分數 | 0.9941 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

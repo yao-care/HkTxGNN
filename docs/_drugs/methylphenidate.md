@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 575
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 description: "Methylphenidate：預測新適應症為顏面指趾生殖器症候群 (faciodigitogenital syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
@@ -52,7 +52,7 @@ TxGNN 模型預測它可能對**顏面指趾生殖器症候群 (Faciodigitogenit
 | TxGNN 預測分數 | 1.0000 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ---

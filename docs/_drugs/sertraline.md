@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "SERTRALINE"
 predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Sertraline：預測新適應症為Histrionic personality disorder (disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**畏曠症 (Agoraphobia)** 有效。
 | TxGNN 預測分數 | 0.9993 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Proceed with Guardrails |
 
 > 說明：本次預測的第 1 名為組織型人格障礙，但該疾病完全沒有試驗或文獻（L5，Hold）。本報告聚焦於證據最完整的預測：畏曠症。

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Levonorgestrel：預測新適應症為痤瘡（證據等級 L5）。原適應症：知識圖譜中記錄的關聯：停經後骨質疏鬆症、骨質疏鬆症"
 ---
 
@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對**痤瘡 (Acne)** 有效，但目前**沒有臨床
 | TxGNN 預測分數 | 0.9988 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

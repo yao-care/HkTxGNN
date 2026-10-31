@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ROSUVASTATIN"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Rosuvastatin：預測新適應症為膽固醇酯轉運蛋白缺乏症（證據等級 L5）。原適應症：本資料未收錄香港許可證的核准適應症文字"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測排名第一的新適應症為**膽固醇酯轉運蛋白缺乏
 | TxGNN 預測分數 | 0.9954 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

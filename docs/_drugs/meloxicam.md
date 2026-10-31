@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "MELOXICAM"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Meloxicam：預測新適應症為肢中發育不良，Hunter-Thompson 型（證據等級 L5）。原適應症：香港許可證資料中未載明核准適應症文字"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**肢中發育不良，Hunter-Thompson 型 (acrome
 | TxGNN 預測分數 | 0.9992 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

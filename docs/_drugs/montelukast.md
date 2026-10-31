@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 597
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
 description: "Montelukast：預測新適應症為支氣管炎 (bronchitis)（證據等級 L1）。原適應症：本地許可證資料未記載適應症"
@@ -52,7 +52,7 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，目前有 *
 | TxGNN 預測分數 | 0.9995 |
 | 證據等級 | L1（僅依規則計：有已完成的 Phase 3 RCT；但該 Phase 3 試驗針對 RSV 細支氣管炎，與支氣管炎並不相同，實際強度宜視為偏弱） |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ---

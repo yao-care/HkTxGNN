@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 781
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Rivaroxaban：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L5）。原適應症：本次彙整資料未載明"
 monitor_inn: "RIVAROXABAN"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -52,7 +52,7 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 | TxGNN 預測分數 | 0.9957 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ---

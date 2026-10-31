@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Mycophenolate Mofetil：預測新適應症為HIV 感染 (HIV infectious disease)（證據等級 L5）。原適應症：本報告所編資料未載明"
 ---
 
@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對 **HIV 感染 (HIV infectious disease)** 有效，
 | TxGNN 預測分數 | 0.9986 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 **證據等級說明：** 資料中雖有 MMF 用於 HIV 的小型研究（例如 PMID 15353978 的隨機試驗），但這些研究的主要目的是探討抗病毒或免疫效應，並未提供療效已確立的證據；已登記的 Phase 2 試驗（NCT00021489）已撤回、無受試者，其餘試驗只是間接相關。依規則，為保守起見，本報告將證據等級定為 **L5**。這低於資料中自動評分給出的 L2，後者與實際可用的直接證據不相稱。

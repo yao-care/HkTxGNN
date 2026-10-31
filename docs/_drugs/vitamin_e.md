@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "VITAMIN E"
 predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin metabolism disease", "hereditary North American Indian childhood cirrhosis", "drug-induced liver injury", "microvillus inclusion disease", "hyperbiliverdinemia", "Navajo neurohepatopathy", "nevus of Ito", "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency", "mitochondrial DNA depletion syndrome, hepatocerebral form"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Vitamin E：預測新適應症為先天性膽紅素代謝異常 (inborn disorder of bilirubin metabolism)（證據等級 L5）。原適應症：香港許可證資料未載明適應症文字"
 ---
 
@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對**先天性膽紅素代謝異常 (inborn disorder 
 | TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張（清單可能不完整） |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

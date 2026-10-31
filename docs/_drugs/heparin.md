@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 435
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "HEPARIN"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
 description: "Heparin：預測新適應症為體染色體隱性蛋白 C 缺乏所致血栓傾向症 (thrombophilia due to protein C deficiency, autosomal recessive)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
@@ -53,7 +53,7 @@ TxGNN 模型預測它可能對**體染色體隱性蛋白 C 缺乏所致血栓傾
 | TxGNN 預測分數 | 0.9929 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ---

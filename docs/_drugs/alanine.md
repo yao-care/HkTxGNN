@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 30
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Alanine：預測新適應症為胃輕癱 (Gastroparesis)（證據等級 L5）。原適應症：許可證資料未載明（產品為胺基酸輸液與營養輸液製劑）"
 monitor_inn: "ALANINE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -52,7 +52,7 @@ TxGNN 模型預測它可能對**胃輕癱 (Gastroparesis)** 有效，但目前**
 | TxGNN 預測分數 | 0.9937 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ---

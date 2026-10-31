@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 291
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Domperidone：預測新適應症為腎因性抗利尿不適當症候群 (NSIAD)（證據等級 L5）。原適應症：香港許可證未載明核准適應症文字"
 monitor_inn: "DOMPERIDONE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -53,7 +53,7 @@ TxGNN 模型預測它可能對**腎因性抗利尿不適當症候群 (Nephrogeni
 | TxGNN 預測分數 | 0.9908 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 20 張 |
+| 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
 ---
