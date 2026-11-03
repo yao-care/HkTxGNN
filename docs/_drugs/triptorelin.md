@@ -4,17 +4,17 @@ title: Triptorelin
 parent: 高證據等級 (L1-L2)
 nav_order: 912
 evidence_level: L1
-indication_count: 10
+indication_count: 9
 monitor_inn: "TRIPTORELIN"
-predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
-last_modified_at: 2026-10-28
+predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
+last_modified_at: 2026-11-03
 description: "Triptorelin：預測新適應症為Hypertrichosis (disease)（證據等級 L1）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Triptorelin
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **10** 個
+證據等級: **L1** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,6 @@ description: "Triptorelin：預測新適應症為Hypertrichosis (disease)（證�
 ## 一句話總結
 
 Triptorelin 是一種 GnRH（促性腺激素釋放素）促效劑，在香港已有 5 張有效許可證，但資料中未記載核准適應症文字。
-TxGNN 模型預測它可能對**性早熟 (Precocious Puberty)** 有效，目前有 **8 個臨床試驗**和 **20 篇文獻**支持這個方向，其中多項為 Phase 3 研究，且直接針對中樞性早熟。
 需要說明的是，這屬於已有大量臨床使用基礎的用途，並非嚴格意義上的新適應症。
 
 ---

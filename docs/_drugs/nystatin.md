@@ -4,17 +4,17 @@ title: Nystatin
 parent: 僅模型預測 (L5)
 nav_order: 633
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 monitor_inn: "NYSTATIN"
-predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
-last_modified_at: 2026-10-31
-description: "Nystatin：預測新適應症為外陰陰道炎 (Vulvovaginitis)（證據等級 L5）。原適應症：知識圖譜記錄：皮膚念珠菌感染、口腔念珠菌感染、念珠菌感染、外陰陰道念珠菌感染"
+predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
+last_modified_at: 2026-11-03
+description: "Nystatin：預測新適應症為Disease of orbital region（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Nystatin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,21 +33,20 @@ description: "Nystatin：預測新適應症為外陰陰道炎 (Vulvovaginitis)�
 
 </div>
 
-## Nystatin：從皮膚／口腔念珠菌感染到外陰陰道炎
+## Nystatin: Disease of orbital region
 {: .text-alpha }
 
 ## 一句話總結
 
 Nystatin 是多烯類抗黴菌藥，知識圖譜中記錄的用途為皮膚、口腔及外陰陰道念珠菌感染。
-TxGNN 模型預測它可能對**外陰陰道炎 (Vulvovaginitis)** 有效，目前沒有相關臨床試驗登記，僅有 **20 篇文獻**（多為綜述與一般念珠菌文獻，屬間接證據）。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 知識圖譜記錄：皮膚念珠菌感染、口腔念珠菌感染、念珠菌感染、外陰陰道念珠菌感染（香港許可證資料未載明核准適應症文字） |
-| 預測新適應症 | 外陰陰道炎 (Vulvovaginitis) |
-| TxGNN 預測分數 | 0.9992 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Disease of orbital region |
+| TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 至少 20 張 |
@@ -57,7 +56,7 @@ TxGNN 模型預測它可能對**外陰陰道炎 (Vulvovaginitis)** 有效，目�
 
 目前缺乏詳細的作用機轉資料（DrugBank 資料未提供）。依一般藥理知識，Nystatin 為多烯類抗黴菌藥，會結合念珠菌細胞膜的麥角固醇、形成孔洞並造成細胞內容物滲漏。
 
-外陰陰道炎大多由念珠菌引起，所以這項預測與其說是真正的新用途，不如說與既有用途高度重疊；此預測來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。非念珠菌性外陰陰道炎（細菌性、滴蟲性、萎縮性）預期不會對 Nystatin 有反應。
+非念珠菌性外陰陰道炎（細菌性、滴蟲性、萎縮性）預期不會對 Nystatin 有反應。
 
 ## 臨床試驗證據
 
@@ -105,7 +104,6 @@ TxGNN 模型預測它可能對**外陰陰道炎 (Vulvovaginitis)** 有效，目�
 
 **理由：**
 - 目前沒有直接研究此預測疾病的臨床試驗，文獻多為念珠菌感染的綜述與一般資料，證據等級為 L5。
-- 這項預測與既有的外陰陰道念珠菌感染用途高度重疊，不構成真正的新適應症，非念珠菌性外陰陰道炎也不預期有效。
 
 **若要推進需要：**
 - 取得香港仿單的核准適應症、警語與禁忌症文字

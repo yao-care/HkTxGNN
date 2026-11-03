@@ -4,17 +4,17 @@ title: Alprazolam
 parent: 僅模型預測 (L5)
 nav_order: 42
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 monitor_inn: "ALPRAZOLAM"
-predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]
-last_modified_at: 2026-10-28
+predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
+last_modified_at: 2026-11-03
 description: "Alprazolam：預測新適應症為失眠 (insomnia (disease))（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Alprazolam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---

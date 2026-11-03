@@ -4,17 +4,17 @@ title: Fluocinolone Acetonide
 parent: 僅模型預測 (L5)
 nav_order: 387
 evidence_level: L5
-indication_count: 4
-last_modified_at: 2026-10-31
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "FLUOCINOLONE ACETONIDE"
-predicted_indications: ["hypertrophic lichen planus", "lichen planus pigmentosus", "annular atrophic lichen planus", "lichen planus pemphigoides"]
-description: "Fluocinolone Acetonide：預測新適應症為肥厚性扁平苔癬 (hypertrophic lichen planus)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+predicted_indications: ["lichen planus pemphigoides"]
+description: "Fluocinolone Acetonide：預測新適應症為Lichen planus pemphigoides（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Fluocinolone Acetonide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ description: "Fluocinolone Acetonide：預測新適應症為肥厚性扁平苔�
 
 </div>
 
-## Fluocinolone Acetonide: 肥厚性扁平苔癬 (hypertrophic lichen planus)
+## Fluocinolone Acetonide: Lichen planus pemphigoides
 {: .text-alpha }
 
 ## 一句話總結
 
 Fluocinolone Acetonide 是一種強效局部皮質類固醇，原本用於濕疹、皮膚炎、脂漏性皮膚炎、盤狀紅斑性狼瘡等發炎性與搔癢性皮膚疾病。
-TxGNN 模型預測它可能對**肥厚性扁平苔癬 (Hypertrophic Lichen Planus)** 有效。
 目前**沒有臨床試驗與文獻**支持，僅有模型預測。
 
 ## 快速總覽
@@ -47,8 +46,8 @@ TxGNN 模型預測它可能對**肥厚性扁平苔癬 (Hypertrophic Lichen Planu
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | 肥厚性扁平苔癬 (hypertrophic lichen planus) |
-| TxGNN 預測分數 | 0.9942 |
+| 預測新適應症 | Lichen planus pemphigoides |
+| TxGNN 預測分數 | 0.9934 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 至少 20 張 |
@@ -66,8 +65,6 @@ TxGNN 模型預測它可能對**肥厚性扁平苔癬 (Hypertrophic Lichen Planu
 
 | 預測疾病 | 分數 | 建議 | 備註 |
 |---------|------|------|------|
-| 環狀萎縮性扁平苔癬 | 0.9942 | Hold | 類固醇可能加重皮膚萎縮，有安全疑慮 |
-| 色素性扁平苔癬 | 0.9942 | Research Question | 色素結果與類固醇反應需專門研究 |
 | 扁平苔癬類天疱瘡 | 0.9934 | Hold | 自體抗體水皰成分通常需全身性免疫抑制，機轉僅部分相符 |
 
 ## 臨床試驗證據
@@ -105,7 +102,7 @@ TxGNN 模型預測它可能對**肥厚性扁平苔癬 (Hypertrophic Lichen Planu
 **決策：Hold**
 
 **理由：**
-- 預測分數雖高（0.9942），但沒有任何臨床試驗或文獻佐證，證據等級僅為 L5。香港仿單的警語與禁忌資料也尚未取得，無法進行安全性篩選。
+- 香港仿單的警語與禁忌資料也尚未取得，無法進行安全性篩選。
 - 肥厚性扁平苔癬的機轉合理性來自類別層級的糖皮質素藥理，屬於可繼續研究的問題，但目前不足以支持推進。
 
 **若要推進需要：**

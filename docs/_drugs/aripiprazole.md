@@ -4,17 +4,17 @@ title: Aripiprazole
 parent: 僅模型預測 (L5)
 nav_order: 71
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 monitor_inn: "ARIPIPRAZOLE"
-predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-10-28
-description: "Aripiprazole：預測新適應症為重度情感性疾患 (major affective disorder)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+last_modified_at: 2026-11-03
+description: "Aripiprazole：預測新適應症為Gaze palsy, familial horizontal, with progressive scoliosis（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Aripiprazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,20 @@ description: "Aripiprazole：預測新適應症為重度情感性疾患 (major a
 
 </div>
 
-## Aripiprazole：多巴胺 D2 部分促效劑／血清素調節劑 → 重度情感性疾患 (major affective disorder)
+## Aripiprazole: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## 一句話總結
 
 Aripiprazole 是一種非典型抗精神病藥，作用在多巴胺與血清素受體。
-TxGNN 模型預測它可能對**重度情感性疾患 (major affective disorder)** 有效，
-目前有 **39 個臨床試驗**和 **19 篇文獻**與這個方向相關，其中包含多個已完成的 Phase 3 雙盲安慰劑對照試驗，主要針對重度憂鬱症的輔助治療。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | 重度情感性疾患 (major affective disorder) |
-| TxGNN 預測分數 | 0.9962 |
+| 預測新適應症 | Gaze palsy, familial horizontal, with progressive scoliosis |
+| TxGNN 預測分數 | 0.9960 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 至少 20 張 |
@@ -122,7 +120,6 @@ TxGNN 模型預測它可能對**重度情感性疾患 (major affective disorder)
 
 **理由：**
 - 針對重度憂鬱症輔助治療，已有多個已完成的 Phase 3 雙盲安慰劑對照試驗與大型實用性試驗，並有多篇網絡統合分析，證據等級為 L1。
-- 預測疾病名稱為「重度情感性疾患」，範圍較廣，現有試驗主要針對重度憂鬱症，其他情感性疾患次型需另行確認。
 
 **若要推進需要：**
 - 取得香港原廠仿單，確認警語、禁忌症與本地核准適應症的範圍

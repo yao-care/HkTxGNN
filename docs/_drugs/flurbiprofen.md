@@ -4,17 +4,17 @@ title: Flurbiprofen
 parent: 僅模型預測 (L5)
 nav_order: 394
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 monitor_inn: "FLURBIPROFEN"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "ankylosing spondylitis", "pseudoachondroplasia", "hypermobility of coccyx"]
-last_modified_at: 2026-10-28
-description: "Flurbiprofen：預測新適應症為肢端中段發育不良，Hunter-Thompson 型 (acromesomelic dysplasia…（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症。知識圖譜記錄的關聯為類風濕性關節炎、骨關節炎、關節病變"
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
+last_modified_at: 2026-11-03
+description: "Flurbiprofen：預測新適應症為肢端中段發育不良，Hunter-Thompson 型 (acromesomelic dysplasia, Hunter-Thompson type)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Flurbiprofen
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ description: "Flurbiprofen：預測新適應症為肢端中段發育不良，Hun
 
 </div>
 
-## Flurbiprofen：從風濕性關節疾病到 Hunter-Thompson 型肢中發育不良
+## Flurbiprofen: 肢端中段發育不良，Hunter-Thompson 型 (acromesomelic dysplasia, Hunter-Thompson type)
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,7 +46,7 @@ TxGNN 模型預測它可能對**肢端中段發育不良，Hunter-Thompson 型 (
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證資料未載明核准適應症。知識圖譜記錄的關聯為類風濕性關節炎、骨關節炎、關節病變（此為圖譜關聯，非核准適應症） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | 肢端中段發育不良，Hunter-Thompson 型 (acromesomelic dysplasia, Hunter-Thompson type) |
 | TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
@@ -70,7 +70,7 @@ TxGNN 模型預測它可能對**肢端中段發育不良，Hunter-Thompson 型 (
 
 ## 其他值得注意的預測：僵直性脊椎炎
 
-在本次預測清單中（排名第 7，分數 0.9997），**僵直性脊椎炎 (ankylosing spondylitis)** 有直接研究 flurbiprofen 的文獻，是證據最完整的候選。這些研究多為 1974–1986 年的雙盲、隨機或交叉比較試驗，內容如下。
+這些研究多為 1974–1986 年的雙盲、隨機或交叉比較試驗，內容如下。
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|

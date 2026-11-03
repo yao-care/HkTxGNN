@@ -4,17 +4,17 @@ title: Clotrimazole
 parent: 中證據等級 (L3-L4)
 nav_order: 221
 evidence_level: L4
-indication_count: 3
-last_modified_at: 2026-10-31
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "CLOTRIMAZOLE"
-predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
-description: "Clotrimazole：預測新適應症為痤瘡 (acne (disease))（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
+predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
+description: "Clotrimazole：預測新適應症為痤瘡 (acne (disease)) (acne (disease))（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Clotrimazole
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **3** 個
+證據等級: **L4** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ description: "Clotrimazole：預測新適應症為痤瘡 (acne (disease))（證�
 
 </div>
 
-## Clotrimazole: 痤瘡 (acne (disease))
+## Clotrimazole: 痤瘡 (acne (disease)) (acne (disease))
 {: .text-alpha }
 
 ## 一句話總結
 
 Clotrimazole 是一種唑類（azole）抗黴菌藥，原本用於足癬、體癬、皮膚念珠菌症、口腔念珠菌症及外陰陰道念珠菌症等黴菌感染。
 TxGNN 模型預測排名第一的新適應症為**痤瘡 (acne)**，但目前僅有 **1 個複方試驗**，且無文獻支持，證據薄弱。
-預測排名第二的**外陰陰道炎 (vulvovaginitis)** 有 **12 個臨床試驗**和 **20 篇文獻**，但這其實是既有核准用途的延伸，並非真正的新適應症。
 
 > 本報告依預測排名，以排名第一的痤瘡為主要評估對象，並在後續章節補充說明外陰陰道炎與萎縮性陰道炎。
 
@@ -51,7 +50,7 @@ TxGNN 模型預測排名第一的新適應症為**痤瘡 (acne)**，但目前僅
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | 痤瘡 (acne (disease)) |
+| 預測新適應症 | 痤瘡 (acne (disease)) (acne (disease)) |
 | TxGNN 預測分數 | 0.9986 |
 | 證據等級 | L4（痤瘡）；外陰陰道炎為 L1 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
@@ -66,7 +65,7 @@ TxGNN 模型預測排名第一的新適應症為**痤瘡 (acne)**，但目前僅
 
 就痤瘡而言，可能的關聯在於 Malassezia 或 Cutibacterium 相關的毛囊發炎，但這一點屬於推測。唯一找到的試驗是含 beclomethasone、gentamicin 與 clotrimazole 的固定複方，無法歸因於 clotrimazole 單一成分。TxGNN 的高分是運算預測，不能取代臨床證據。
 
-排名第二的外陰陰道炎（特別是念珠菌性）本來就是 clotrimazole 的核心適應症，臨床證據充足，屬於既有用途的確認。排名第三的停經後萎縮性陰道炎主要由雌激素缺乏引起，與黴菌感染無關，高分可能只是反映與其他陰道炎疾病在網路上的相近性，沒有明確的機轉依據。
+排名第三的停經後萎縮性陰道炎主要由雌激素缺乏引起，與黴菌感染無關，高分可能只是反映與其他陰道炎疾病在網路上的相近性，沒有明確的機轉依據。
 
 ---
 

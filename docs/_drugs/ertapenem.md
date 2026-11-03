@@ -4,17 +4,17 @@ title: Ertapenem
 parent: 僅模型預測 (L5)
 nav_order: 336
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-28
-description: "Ertapenem：預測新適應症為細菌性關節炎 (Bacterial Arthritis)（證據等級 L4）。原適應症：細菌性肺炎、鏈球菌肺炎、消化鏈球菌感染"
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "ERTAPENEM"
-predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"]
+predicted_indications: ["bacterial arthritis"]
+description: "Ertapenem：預測新適應症為細菌性關節炎 (bacterial arthritis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Ertapenem
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"
 
 </div>
 
-## Ertapenem：從細菌性肺炎到細菌性關節炎
+## Ertapenem: 細菌性關節炎 (bacterial arthritis)
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,8 +47,8 @@ TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 細菌性肺炎、鏈球菌肺炎、消化鏈球菌感染 |
-| 預測新適應症 | 細菌性關節炎 (Bacterial Arthritis) |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 細菌性關節炎 (bacterial arthritis) |
 | TxGNN 預測分數 | 0.9972 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
@@ -125,7 +125,7 @@ TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有�
 - 補充 DrugBank 的作用機轉資料
 - 針對細菌性關節炎或骨關節感染，系統性收集 Ertapenem 的比較性研究，或設計前瞻性研究
 - 評估癲癇風險與 Bupropion 等藥物交互作用的處置方式
-- 另有一個值得關注的方向：金黃色葡萄球菌感染（預測排名第 2）。Ertapenem 合併 Cefazolin 用於 MSSA 菌血症已有 Phase 2（NCT04886284，招募中）與 Phase 4（NCT07148960）試驗，證據進展較快，可作為後續評估重點。
+- Ertapenem 合併 Cefazolin 用於 MSSA 菌血症已有 Phase 2（NCT04886284，招募中）與 Phase 4（NCT07148960）試驗，證據進展較快，可作為後續評估重點。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

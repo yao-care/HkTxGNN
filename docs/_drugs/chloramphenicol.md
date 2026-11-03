@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chloramphenicol
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 185
-evidence_level: L3
-indication_count: 9
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-11-03
-description: "Chloramphenicol：預測新適應症為結膜炎 (Conjunctivitis)（證據等級 L3）。原適應症：傷寒、沙門氏菌感染、副傷寒、腦膜炎球菌感染、鏈球菌腦膜炎、外耳炎、感染性皮膚病、斑疹熱、立克次體病、錐蟲病、斑疹傷寒、Q 熱"
 monitor_inn: "CHLORAMPHENICOL"
-predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
+predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
+description: "Chloramphenicol：預測新適應症為Diffuse scleroderma（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Chloramphenicol
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **9** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious
 
 </div>
 
-## Chloramphenicol：從傷寒與細菌感染到結膜炎
+## Chloramphenicol: Diffuse scleroderma
 {: .text-alpha }
 
 ## 一句話總結
 
 Chloramphenicol（氯黴素）是廣譜抑菌性抗生素，原本用於傷寒、腦膜炎、立克次體感染等細菌性疾病。
-TxGNN 模型預測它可能對**結膜炎 (Conjunctivitis)** 有效，
-目前**無登記臨床試驗**，但有 **19 篇文獻**支持這個方向（多為回顧與比較研究）。這並非嚴格的藥物再利用，而是在抗菌藥物類別內的外用延伸。
+這並非嚴格的藥物再利用，而是在抗菌藥物類別內的外用延伸。
 
 ---
 
@@ -48,10 +47,10 @@ TxGNN 模型預測它可能對**結膜炎 (Conjunctivitis)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 傷寒、沙門氏菌感染、副傷寒、腦膜炎球菌感染、鏈球菌腦膜炎、外耳炎、感染性皮膚病、斑疹熱、立克次體病、錐蟲病、斑疹傷寒、Q 熱（香港許可證未載明核准適應症文字） |
-| 預測新適應症 | 結膜炎 (Conjunctivitis) |
-| TxGNN 預測分數 | 0.9966 |
-| 證據等級 | L3 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Diffuse scleroderma |
+| TxGNN 預測分數 | 0.9965 |
+| 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 至少 20 張 |
 | 建議決策 | Proceed with Guardrails |
@@ -83,12 +82,10 @@ TxGNN 模型預測它可能對**結膜炎 (Conjunctivitis)** 有效，
 | [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | 系統性回顧 (Cochrane) | Cochrane Database Syst Rev | 探討預防新生兒眼炎的介入措施，包括抗生素或抗菌劑點眼 |
 | [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | 比較性臨床研究 | Curr Ther Res | 比較 moxifloxacin 與 chloramphenicol 用於細菌性眼部感染 |
 | [11270936](https://pubmed.ncbi.nlm.nih.gov/11270936/) | 2001 | 回顧 | Drugs | 比較 16 種市售眼用抗菌製劑 |
-| [3554881](https://pubmed.ncbi.nlm.nih.gov/3554881/) | 1987 | 隨機單盲比較 | Acta Ophthalmol | 急性化膿性結膜炎：fusidic acid 成功率 84%，chloramphenicol 81%；chloramphenicol 組輕微副作用較多（14% 對 5%） |
 | [3300139](https://pubmed.ncbi.nlm.nih.gov/3300139/) | 1987 | 開放式隨機比較 | Acta Ophthalmol | 坦尚尼亞研究：fusidic acid 成功率 93%，chloramphenicol 48%，framycetin 74%（chloramphenicol 體外抗藥率較高） |
 | [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | 回顧／安全性評論 | Drug Saf | 討論外用眼用 chloramphenicol 與再生不良性貧血是否相關，仍有爭議 |
 | [7498557](https://pubmed.ncbi.nlm.nih.gov/7498557/) | 1995 | 回顧／評論 | Eye (Lond) | 外用 chloramphenicol 的使用與濫用 |
 | [10589371](https://pubmed.ncbi.nlm.nih.gov/10589371/) | 1999 | 回顧 | Clin Pharmacokinet | 外用抗菌藥物治療眼部感染的藥動學與使用 |
-| [7153511](https://pubmed.ncbi.nlm.nih.gov/7153511/) | 1982 | 臨床觀察 | J Hyg (Lond) | 新生兒披衣菌結膜炎使用 chloramphenicol 可延緩症狀，但 85% 眼拭子仍呈陽性 |
 | [25833086](https://pubmed.ncbi.nlm.nih.gov/25833086/) | 2015 | 評論 | Clin Exp Ophthalmol | 探討 chloramphenicol 成藥（非處方）的使用 |
 
 ---
@@ -148,7 +145,7 @@ TxGNN 另預測了下列適應症，但證據明顯不足，建議均為 Hold（
 | 感染性尿道狹窄 | 0.9952 | L5 | 僅有一篇 1964 年無關病例報告 |
 | 恰加斯心肌病變 | 0.9951 | L5 | 僅有模型預測，骨髓毒性為重大障礙 |
 | 感染相關溶血性尿毒症候群 | 0.9950 | L5 | 僅有模型預測，抗生素可能增加毒素釋放，血液毒性亦為疑慮，預測可能不利 |
-| 點狀上皮角膜結膜炎 | 0.9917 | L5 | 文獻為微孢子蟲角膜結膜炎病例系列，chloramphenicol 對微孢子蟲無預期療效，建議列為研究問題 |
+| 點狀上皮角膜結膜炎 | 0.9917 | L5 | — |
 
 ## 免責聲明
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Icatibant
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 453
-evidence_level: L1
-indication_count: 7
+evidence_level: L5
+indication_count: 6
 monitor_inn: "ICATIBANT"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
-last_modified_at: 2026-10-28
-description: "Icatibant：預測新適應症為C1 抑制物缺乏症（證據等級 L1）。原適應症：遺傳性血管性水腫、伴 C1 抑制物缺乏的遺傳性血管性水腫"
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
+last_modified_at: 2026-11-03
+description: "Icatibant：預測新適應症為Serpinopathy with toxic serpin polymerization（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Icatibant
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **7** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,22 @@ description: "Icatibant：預測新適應症為C1 抑制物缺乏症（證據等
 
 </div>
 
-## Icatibant：從遺傳性血管性水腫到 C1 抑制物缺乏症
+## Icatibant: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## 一句話總結
 
 Icatibant 是一種緩激肽 B2 受體拮抗劑，原本用於治療遺傳性血管性水腫（含 C1 抑制物缺乏型）。
-TxGNN 模型預測它對 **C1 抑制物缺乏症 (C1 inhibitor deficiency)** 有效，目前有 **12 個臨床試驗**和 **20 篇文獻**與此方向相關。
 需注意：此預測與藥物既有的使用方向高度重疊，並非全新的再利用發現。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 遺傳性血管性水腫、伴 C1 抑制物缺乏的遺傳性血管性水腫（來源為知識圖譜中的關聯記錄；香港許可證未載明適應症文字） |
-| 預測新適應症 | C1 抑制物缺乏症 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Serpinopathy with toxic serpin polymerization |
 | TxGNN 預測分數 | 0.9999 |
-| 證據等級 | L1 |
+| 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
 | 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Proceed with Guardrails |

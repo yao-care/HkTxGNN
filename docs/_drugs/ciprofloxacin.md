@@ -4,17 +4,17 @@ title: Ciprofloxacin
 parent: 僅模型預測 (L5)
 nav_order: 200
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 monitor_inn: "CIPROFLOXACIN"
-predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-10-28
+predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
+last_modified_at: 2026-11-03
 description: "Ciprofloxacin：預測新適應症為瀰漫性硬皮症 (diffuse scleroderma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Ciprofloxacin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---

@@ -4,17 +4,17 @@ title: Ferrous Sulfate Anhydrous
 parent: 僅模型預測 (L5)
 nav_order: 374
 evidence_level: L5
-indication_count: 4
-last_modified_at: 2026-10-28
+indication_count: 3
+last_modified_at: 2026-11-03
 monitor_inn: "Ferrous sulfate anhydrous"
-predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "biotin metabolic disease", "non-syndromic esophageal malformation"]
-description: "Ferrous Sulfate Anhydrous：預測新適應症為不依賴維生素 B12 與葉酸的先天性巨母紅血球性貧血 (vitamin B12- and folate-independent constitutional megaloblastic anemia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "biotin metabolic disease", "non-syndromic esophageal malformation"]
+description: "Ferrous Sulfate Anhydrous：預測新適應症為Vitamin B12- and folate-independent constitutional megaloblastic anemia（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Ferrous Sulfate Anhydrous
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ description: "Ferrous Sulfate Anhydrous：預測新適應症為不依賴維生�
 
 </div>
 
-## Ferrous Sulfate Anhydrous: 不依賴維生素 B12 與葉酸的先天性巨母紅血球性貧血 (vitamin B12- and folate-independent constitutional megaloblastic anemia)
+## Ferrous Sulfate Anhydrous: Vitamin B12- and folate-independent constitutional megaloblastic anemia
 {: .text-alpha }
 
 ## 一句話總結
 
 Ferrous sulfate anhydrous（無水硫酸亞鐵）是常見的口服鐵劑，原本用於缺鐵性貧血及其他營養缺乏性貧血。
-TxGNN 模型預測它可能對 **Plummer-Vinson 症候群** 等疾病有效（以下依 TxGNN 預測排序列出，第 1 名為先天性巨母紅血球性貧血）。
 目前**沒有任何臨床試驗或文獻**支持這些預測，證據僅來自模型預測。
 
 ---
@@ -49,7 +48,7 @@ TxGNN 模型預測它可能對 **Plummer-Vinson 症候群** 等疾病有效（�
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症（排名第 1） | 不依賴維生素 B12 與葉酸的先天性巨母紅血球性貧血 (vitamin B12- and folate-independent constitutional megaloblastic anemia) |
+| 預測新適應症（排名第 1） | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
 | TxGNN 預測分數 | 0.9978 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
@@ -61,7 +60,6 @@ TxGNN 模型預測它可能對 **Plummer-Vinson 症候群** 等疾病有效（�
 | 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
 |------|-----------|-----------|---------|------|
 | 1 | 不依賴 B12 與葉酸的先天性巨母紅血球性貧血 | 0.9978 | L5 | Hold |
-| 2 | Plummer-Vinson 症候群 | 0.9977 | L5 | Hold |
 | 3 | 生物素代謝疾病 (biotin metabolic disease) | 0.9951 | L5 | Hold |
 | 4 | 非症候群性食道畸形 | 0.9949 | L5 | Hold |
 

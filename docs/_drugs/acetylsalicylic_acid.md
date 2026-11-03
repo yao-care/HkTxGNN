@@ -4,17 +4,17 @@ title: Acetylsalicylic Acid
 parent: 僅模型預測 (L5)
 nav_order: 21
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 monitor_inn: "acetylsalicylic acid"
-predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombotic disease", "thrombophilia"]
-last_modified_at: 2026-10-28
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
+last_modified_at: 2026-11-03
 description: "Acetylsalicylic Acid：預測新適應症為萎縮性蚓狀皮膚病 (atrophoderma vermiculata)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Acetylsalicylic Acid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+證據等級: **L5** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---

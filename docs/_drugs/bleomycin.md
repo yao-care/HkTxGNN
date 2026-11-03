@@ -4,17 +4,17 @@ title: Bleomycin
 parent: 僅模型預測 (L5)
 nav_order: 125
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 monitor_inn: "BLEOMYCIN"
-predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "reticulum cell sarcoma", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
-last_modified_at: 2026-10-28
+predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
+last_modified_at: 2026-11-03
 description: "Bleomycin：預測新適應症為馬尾腫瘤 (cauda equina neoplasm)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Bleomycin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---

@@ -4,17 +4,17 @@ title: Omalizumab
 parent: 僅模型預測 (L5)
 nav_order: 644
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 monitor_inn: "OMALIZUMAB"
-predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
-last_modified_at: 2026-10-28
+predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+last_modified_at: 2026-11-03
 description: "Omalizumab：預測新適應症為支氣管炎（證據等級 L5）。原適應症：氣喘、過敏性氣喘、慢性蕁麻疹"
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---

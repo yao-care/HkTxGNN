@@ -4,17 +4,17 @@ title: Sebelipase Alfa
 parent: 僅模型預測 (L5)
 nav_order: 801
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-28
-description: "Sebelipase Alfa：預測新適應症為Scheie 症候群 (Scheie syndrome)（證據等級 L5）。原適應症：Wolman 病、溶小體酸性脂肪酶缺乏症、溶小體脂質儲積症"
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "Sebelipase alfa"
-predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "cholesteryl ester storage disease", "Gaucher disease", "lysosomal storage disease with skeletal involvement", "autosomal ichthyosis syndrome with fatal disease course", "Tay-Sachs disease", "benign neoplasm of adrenal gland"]
+predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "Gaucher disease", "lysosomal storage disease with skeletal involvement", "autosomal ichthyosis syndrome with fatal disease course", "Tay-Sachs disease", "benign neoplasm of adrenal gland"]
+description: "Sebelipase Alfa：預測新適應症為Scheie 症候群 (Scheie syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Sebelipase Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone in
 
 </div>
 
-## Sebelipase alfa：從溶小體酸性脂肪酶缺乏症（Wolman 病）到 Scheie 症候群
+## Sebelipase Alfa: Scheie 症候群 (Scheie syndrome)
 {: .text-alpha }
 
 ## 一句話總結
 
 Sebelipase alfa 是重組人類溶小體酸性脂肪酶（LAL），原本用於溶小體酸性脂肪酶缺乏症（LAL-D，包含 Wolman 病）的酵素替代治療。
 TxGNN 模型排名第一的預測是 **Scheie 症候群 (Scheie syndrome)**，但目前**沒有任何臨床試驗或文獻**支持，機轉上也缺乏依據。
-在前 10 名預測中，唯一有充分證據的是**膽固醇酯儲積症 (cholesteryl ester storage disease)**，而它其實是藥物原本的核准適應症，並非真正的再利用。
 
 ---
 
@@ -48,7 +47,7 @@ TxGNN 模型排名第一的預測是 **Scheie 症候群 (Scheie syndrome)**，�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | Wolman 病、溶小體酸性脂肪酶缺乏症、溶小體脂質儲積症（香港許可證未登載適應症文字） |
+| 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | Scheie 症候群 (Scheie syndrome) |
 | TxGNN 預測分數 | 0.9980 |
 | 證據等級 | L5（僅有模型預測） |
@@ -56,7 +55,6 @@ TxGNN 模型排名第一的預測是 **Scheie 症候群 (Scheie syndrome)**，�
 | 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
-> 補充：排名第 4 的膽固醇酯儲積症（分數 0.9972）證據等級為 L1，建議 Proceed with Guardrails，但屬於既有適應症的延伸驗證。
 
 ---
 
@@ -82,7 +80,6 @@ Scheie 症候群目前無相關臨床試驗登記。
 |---------|------|------|------|---------|
 | [NCT04532047](https://clinicaltrials.gov/study/NCT04532047) | Phase 1 | 招募中 | 10 | 產前酵素替代治療平台試驗，涵蓋多種溶小體儲積症；無證據顯示 Sebelipase alfa 用於 Hurler 症候群 |
 
-排名第 4 的膽固醇酯儲積症（既有適應症）有以下較直接的試驗：
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|

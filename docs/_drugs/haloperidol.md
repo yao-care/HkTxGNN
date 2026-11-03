@@ -4,17 +4,17 @@ title: Haloperidol
 parent: 僅模型預測 (L5)
 nav_order: 433
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 monitor_inn: "HALOPERIDOL"
-predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
-last_modified_at: 2026-10-28
+predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
+last_modified_at: 2026-11-03
 description: "Haloperidol：預測新適應症為Congenital disorder of glycosylation with defective fucosylation（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Haloperidol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---

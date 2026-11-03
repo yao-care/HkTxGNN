@@ -4,17 +4,17 @@ title: Imipenem
 parent: 僅模型預測 (L5)
 nav_order: 463
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 monitor_inn: "IMIPENEM"
-predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "staphylococcus aureus infection", "eosinophilia-myalgia syndrome"]
-last_modified_at: 2026-10-28
-description: "Imipenem：預測新適應症為瀰漫性硬皮症 (Diffuse Scleroderma)（證據等級 L5）。原適應症：香港許可證資料未載明適應症文字"
+predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"]
+last_modified_at: 2026-11-03
+description: "Imipenem：預測新適應症為瀰漫性硬皮症 (diffuse scleroderma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Imipenem
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ description: "Imipenem：預測新適應症為瀰漫性硬皮症 (Diffuse Sclero
 
 </div>
 
-## Imipenem：從細菌感染到瀰漫性硬皮症
+## Imipenem: 瀰漫性硬皮症 (diffuse scleroderma)
 {: .text-alpha }
 
 ## 一句話總結
@@ -45,8 +45,8 @@ TxGNN 模型預測它可能對**瀰漫性硬皮症 (Diffuse Scleroderma)** 有�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證資料未載明適應症文字；知識圖譜記錄的關聯為細菌性肺炎、腹膜炎、鏈球菌性肺炎、心內膜炎、細菌性關節炎、子宮內膜炎等（僅為知識圖譜關聯，非許可證核准內容） |
-| 預測新適應症 | 瀰漫性硬皮症 (Diffuse Scleroderma) |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 瀰漫性硬皮症 (diffuse scleroderma) |
 | TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 4 張／共 4 張） |

@@ -4,17 +4,17 @@ title: Tioconazole
 parent: 僅模型預測 (L5)
 nav_order: 880
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-28
-description: "Tioconazole：預測新適應症為外陰陰道炎 (Vulvovaginitis)（證據等級 L1）。原適應症：外陰陰道念珠菌病 (Vulvovaginal candidiasis)"
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "TIOCONAZOLE"
-predicted_indications: ["vulvovaginitis", "vulvitis", "postmenopausal atrophic vaginitis"]
+predicted_indications: ["vulvitis", "postmenopausal atrophic vaginitis"]
+description: "Tioconazole：預測新適應症為Vulvitis（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Tioconazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ predicted_indications: ["vulvovaginitis", "vulvitis", "postmenopausal atrophic v
 
 </div>
 
-## Tioconazole：從外陰陰道念珠菌病到外陰陰道炎
+## Tioconazole: Vulvitis
 {: .text-alpha }
 
 ## 一句話總結
 
 Tioconazole 是咪唑類（imidazole）抗黴菌藥，原本用於外陰陰道念珠菌病。
-TxGNN 模型預測它可能對**外陰陰道炎 (Vulvovaginitis)** 有效，
-目前有 **19 篇文獻**支持這個方向（無臨床試驗登記），但實質上這幾乎等同於原適應症，僅是標籤範圍較廣。
 
 ---
 
@@ -48,9 +46,9 @@ TxGNN 模型預測它可能對**外陰陰道炎 (Vulvovaginitis)** 有效，
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 外陰陰道念珠菌病 (Vulvovaginal candidiasis) |
-| 預測新適應症 | 外陰陰道炎 (Vulvovaginitis) |
-| TxGNN 預測分數 | 0.9923 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Vulvitis |
+| TxGNN 預測分數 | 0.9920 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
 | 許可證數 | 4 張（有效 4 張） |
@@ -62,7 +60,6 @@ TxGNN 模型預測它可能對**外陰陰道炎 (Vulvovaginitis)** 有效，
 
 目前缺乏詳細的作用機轉資料庫記載，但此類藥物的機轉已相當明確：Tioconazole 抑制真菌的羊毛固醇 14-α 去甲基酶（CYP51/ERG11），阻斷麥角固醇（ergosterol）合成，破壞真菌細胞膜完整性。此外，它也會抑制人類的 CYP8B1 酵素（參與膽酸合成路徑的一個分支）。
 
-外陰陰道炎多數由念珠菌屬引起，因此這個預測實質上等同於已確立的適應症（外陰陰道念珠菌病），只是疾病名稱較廣泛。
 
 需要注意的是，對於非念珠菌性的外陰陰道炎（細菌性、滴蟲性、萎縮性或刺激性），並沒有證據支持其療效。
 

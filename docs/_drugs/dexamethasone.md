@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dexamethasone
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 264
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-31
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "DEXAMETHASONE"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
-description: "Dexamethasone：預測新適應症為圓形禿 (alopecia areata)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
+description: "Dexamethasone：預測新適應症為Alopecia mucinosa（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Dexamethasone
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,21 @@ description: "Dexamethasone：預測新適應症為圓形禿 (alopecia areata)�
 
 </div>
 
-## Dexamethasone: 圓形禿 (alopecia areata)
+## Dexamethasone: Alopecia mucinosa
 {: .text-alpha }
 
 ## 一句話總結
 
 Dexamethasone 是強效糖皮質激素，原本用於急性淋巴性白血病、腎上腺皮質功能不全、克隆氏症及先天性腎上腺增生等疾病。
-TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，
-目前有 **1 篇隨機對照試驗 (RCT)**、1 篇系統性回顧與網絡統合分析，以及多篇觀察性研究支持這個方向，但沒有登記的臨床試驗。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | 圓形禿 (alopecia areata) |
+| 預測新適應症 | Alopecia mucinosa |
 | TxGNN 預測分數 | 0.9999 |
-| 證據等級 | L2 |
+| 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 至少 20 張 |
 | 建議決策 | Proceed with Guardrails |
@@ -110,7 +108,7 @@ TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 圓形禿有 1 篇 RCT、1 篇網絡統合分析及多項觀察性研究支持 dexamethasone 小劑量脈衝療法，TxGNN 分數也很高。但沒有登記的臨床試驗，RCT 規模小（30 名兒童、開放標籤），且與 DPCP 比較而非安慰劑對照，故證據等級為 L2。
+- 但沒有登記的臨床試驗，RCT 規模小（30 名兒童、開放標籤），且與 DPCP 比較而非安慰劑對照，故證據等級為 L2。
 - 復發率與長期類固醇毒性是主要風險，因此需附帶防護條件。
 
 **若要推進需要：**

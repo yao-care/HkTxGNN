@@ -4,17 +4,17 @@ title: Calcifediol
 parent: 僅模型預測 (L5)
 nav_order: 145
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 monitor_inn: "CALCIFEDIOL"
-predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis"]
-last_modified_at: 2026-10-28
-description: "Calcifediol：預測新適應症為已淘汰之維生素 D 缺乏症 (obsolete vitamin D deficiency)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+predicted_indications: ["renal tubular acidosis"]
+last_modified_at: 2026-11-03
+description: "Calcifediol：預測新適應症為Renal tubular acidosis（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Calcifediol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,20 @@ description: "Calcifediol：預測新適應症為已淘汰之維生素 D 缺乏�
 
 </div>
 
-## Calcifediol：維生素 D 前驅物（25-羥基維生素 D）→ 已淘汰之維生素 D 缺乏症 (obsolete vitamin D deficiency)
+## Calcifediol: Renal tubular acidosis
 {: .text-alpha }
 
 ## 一句話總結
 
 Calcifediol 是循環中的 25-羥基維生素 D，為活性型維生素 D（calcitriol）的直接前驅物。
-TxGNN 模型預測它可能對**已淘汰之維生素 D 缺乏症 (obsolete vitamin D deficiency)** 有效，
-但目前**沒有任何臨床試驗或文獻**支持，僅為模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | 已淘汰之維生素 D 缺乏症 (obsolete vitamin D deficiency) |
-| TxGNN 預測分數 | 0.9999 |
+| 預測新適應症 | Renal tubular acidosis |
+| TxGNN 預測分數 | 0.9986 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
 | 許可證數 | 2 張（有效 2 張） |

@@ -4,17 +4,17 @@ title: Chlorambucil
 parent: 僅模型預測 (L5)
 nav_order: 184
 evidence_level: L5
-indication_count: 7
+indication_count: 5
 monitor_inn: "CHLORAMBUCIL"
-predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
-last_modified_at: 2026-10-28
-description: "Chlorambucil：預測新適應症為前生發中心慢性淋巴球性白血病／小淋巴球性淋巴瘤（證據等級 L5）。原適應症：知識圖譜記錄的關聯：何杰金氏淋巴瘤、濾泡性淋巴瘤、急性淋巴母細胞白血病、Richter 症候群等"
+predicted_indications: ["ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
+last_modified_at: 2026-11-03
+description: "Chlorambucil：預測新適應症為ALK-positive large B-cell lymphoma（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Chlorambucil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,21 +33,20 @@ description: "Chlorambucil：預測新適應症為前生發中心慢性淋巴球
 
 </div>
 
-## Chlorambucil：從血液惡性腫瘤到前生發中心慢性淋巴球性白血病／小淋巴球性淋巴瘤
+## Chlorambucil: ALK-positive large B-cell lymphoma
 {: .text-alpha }
 
 ## 一句話總結
 
 Chlorambucil 是一種烷化劑，知識圖譜中記錄的原有用途為何杰金氏淋巴瘤、濾泡性淋巴瘤、急性淋巴母細胞白血病等血液惡性腫瘤。
-TxGNN 模型預測排名第一的新方向為**前生發中心慢性淋巴球性白血病／小淋巴球性淋巴瘤 (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma)**，目前僅有 **1 篇文獻**（2003 年綜述）支持，且**無臨床試驗**登記，屬間接證據。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 知識圖譜記錄的關聯：何杰金氏淋巴瘤、濾泡性淋巴瘤、急性淋巴母細胞白血病、Richter 症候群等（香港許可證未載明核准適應症文字） |
-| 預測新適應症 | 前生發中心慢性淋巴球性白血病／小淋巴球性淋巴瘤 |
-| TxGNN 預測分數 | 0.9972 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | ALK-positive large B-cell lymphoma |
+| TxGNN 預測分數 | 0.9961 |
 | 證據等級 | L5（無直接研究此亞型的試驗或文獻） |
 | 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
 | 許可證數 | 1 張（有效 1 張） |
@@ -57,7 +56,7 @@ TxGNN 模型預測排名第一的新方向為**前生發中心慢性淋巴球性
 
 目前缺乏詳細的作用機轉資料。根據已知資訊，Chlorambucil 屬於烷化劑類，透過 DNA 烷化發揮細胞毒性，在多種 B 細胞惡性腫瘤中已有使用經驗，機轉上可能適用於慢性淋巴球性白血病。
 
-此預測的疾病為前生發中心慢性淋巴球性白血病／小淋巴球性淋巴瘤，TxGNN 模型（深度學習）給出的分數為 0.9972。此分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，並非生物學證據。唯一檢索到的文獻是 2003 年討論 CLL 風險適應性治療的綜述，並未提供此疾病的療效數據，因此不能視為直接證據。
+此分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，並非生物學證據。唯一檢索到的文獻是 2003 年討論 CLL 風險適應性治療的綜述，並未提供此疾病的療效數據，因此不能視為直接證據。
 
 ## 臨床試驗證據
 

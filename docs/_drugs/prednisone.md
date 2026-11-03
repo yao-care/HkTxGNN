@@ -4,17 +4,17 @@ title: Prednisone
 parent: 高證據等級 (L1-L2)
 nav_order: 728
 evidence_level: L2
-indication_count: 10
+indication_count: 9
 monitor_inn: "PREDNISONE"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "tenosynovitis", "prolapse of lacrimal gland"]
-last_modified_at: 2026-10-28
+predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
+last_modified_at: 2026-11-03
 description: "Prednisone：預測新適應症為圓形禿 (Alopecia Areata)（證據等級 L2）。原適應症：香港許可證未載明核准適應症"
 ---
 
 # Prednisone
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **10** 個
+證據等級: **L2** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -114,7 +114,6 @@ TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，
 | 黏蛋白性禿髮 (Alopecia Mucinosa) | 0.9999 | L5 | Hold（僅有個案報告，療效不一致） |
 | 休止期落髮 (Telogen Effluvium) | 0.9999 | L5 | Hold |
 | 禿髮性毛囊炎 (Folliculitis Decalvans) | 0.9999 | L5 | Hold |
-| 腱鞘炎 (Tenosynovitis) | 0.9980 | L4 | Research Question（證據多為間接，需先釐清病因） |
 
 其餘預測（如禿髮抗體缺乏、遺傳性稀毛症等罕見疾病）僅有模型分數或間接文獻，無直接證據支持，建議暫緩。
 ## 免責聲明

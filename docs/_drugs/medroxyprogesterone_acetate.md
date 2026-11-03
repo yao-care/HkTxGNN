@@ -4,17 +4,17 @@ title: Medroxyprogesterone Acetate
 parent: 僅模型預測 (L5)
 nav_order: 556
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 monitor_inn: "MEDROXYPROGESTERONE ACETATE"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
-last_modified_at: 2026-10-30
-description: "Medroxyprogesterone Acetate：預測新適應症為閉經 (amenorrhea)（證據等級 L5）。原適應症：知識圖譜記錄：子宮內膜異位症、子宮內膜癌、停經後骨質疏鬆等"
+predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+last_modified_at: 2026-11-03
+description: "Medroxyprogesterone Acetate：預測新適應症為Breast fibrocystic disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,21 +33,20 @@ description: "Medroxyprogesterone Acetate：預測新適應症為閉經 (amenorr
 
 </div>
 
-## Medroxyprogesterone Acetate：從子宮內膜異位症與子宮內膜癌到閉經
+## Medroxyprogesterone Acetate: Breast fibrocystic disease
 {: .text-alpha }
 
 ## 一句話總結
 
 Medroxyprogesterone acetate（MPA，甲羟孕酮）是一種合成黃體素，知識圖譜中記錄的原適應症包括子宮內膜異位症、子宮內膜癌與停經後骨質疏鬆。
-TxGNN 模型預測它可能對**閉經 (amenorrhea)** 有效，但目前**沒有臨床試驗**，僅有 **18 篇文獻**，且多為避孕相關綜述，並未直接研究以 MPA 治療閉經。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 知識圖譜記錄：子宮內膜異位症、子宮內膜癌、停經後骨質疏鬆等（香港許可證資料未載明核准適應症文字） |
-| 預測新適應症 | 閉經 (amenorrhea) |
-| TxGNN 預測分數 | 1.0000 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Breast fibrocystic disease |
+| TxGNN 預測分數 | 0.9995 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 10 張／共 10 張） |
 | 許可證數 | 10 張（有效 10 張） |

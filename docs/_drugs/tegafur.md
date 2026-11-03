@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tegafur
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 852
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 monitor_inn: "TEGAFUR"
-predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "rectosigmoid junction neoplasm", "colonic lymphangioma", "cavernous hemangioma of colon"]
-last_modified_at: 2026-10-28
-description: "Tegafur：預測新適應症為大腸腫瘤（證據等級 L1）。原適應症：胃癌"
+predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
+last_modified_at: 2026-11-03
+description: "Tegafur：預測新適應症為Cecum villous adenoma（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Tegafur
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,21 @@ description: "Tegafur：預測新適應症為大腸腫瘤（證據等級 L1）�
 
 </div>
 
-## Tegafur：從胃癌到大腸腫瘤
+## Tegafur: Cecum villous adenoma
 {: .text-alpha }
 
 ## 一句話總結
 
 Tegafur 是 5-氟尿嘧啶（5-FU）的口服前驅藥，知識圖譜中記錄的原適應症為胃癌。
-TxGNN 模型預測它可能對**大腸腫瘤 (colonic neoplasm)** 有效，
-目前有 **17 個臨床試驗**和 **20 篇文獻**支持這個方向，其中包含多項已完成的 Phase 3 隨機對照試驗。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 胃癌（知識圖譜記錄；香港許可證資料未提供核准適應症文字） |
-| 預測新適應症 | 大腸腫瘤 |
-| TxGNN 預測分數 | 0.9990 |
-| 證據等級 | L1 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Cecum villous adenoma |
+| TxGNN 預測分數 | 0.9986 |
+| 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
 | 許可證數 | 6 張（有效 6 張） |
 | 建議決策 | Proceed with Guardrails |

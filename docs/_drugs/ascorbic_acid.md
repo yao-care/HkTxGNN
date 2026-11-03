@@ -4,17 +4,17 @@ title: Ascorbic Acid
 parent: 僅模型預測 (L5)
 nav_order: 74
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 monitor_inn: "ASCORBIC ACID"
-predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected", "vitamin deficiency disorder"]
-last_modified_at: 2026-10-28
+predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected"]
+last_modified_at: 2026-11-03
 description: "Ascorbic Acid：預測新適應症為非症候群性食道畸形 (non-syndromic esophageal malformation)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Ascorbic Acid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---

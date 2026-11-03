@@ -4,17 +4,17 @@ title: Iron
 parent: 僅模型預測 (L5)
 nav_order: 485
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 monitor_inn: "IRON"
-predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
-last_modified_at: 2026-10-28
+predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
+last_modified_at: 2026-11-03
 description: "Iron：預測新適應症為Vitamin B12- and folate-independent constitutional megaloblastic anemia（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Iron
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+證據等級: **L5** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -63,7 +63,7 @@ TxGNN 模型預測排名第一的新適應症為**不依賴維生素 B12 與葉�
 
 然而，巨母紅血球性貧血的典型成因是 DNA 合成受損，而非缺鐵，因此鐵在其中的直接機轉角色**並不成立**。
 
-其他排名較高的預測中，**Plummer-Vinson 症候群**（缺鐵性貧血、吞嚥困難、食道蹼三聯症）的機轉最為合理：補鐵可矯正其根本的缺鐵問題，個案報告也指出可改善吞嚥困難。但它更像是既有缺鐵性貧血用途的延伸，而非新機轉。
+但它更像是既有缺鐵性貧血用途的延伸，而非新機轉。
 
 ---
 
@@ -87,7 +87,6 @@ TxGNN 模型預測排名第一的新適應症為**不依賴維生素 B12 與葉�
 
 針對首要預測（體質性巨母紅血球性貧血）：目前無相關文獻。
 
-以下為排名第 2 的預測 **Plummer-Vinson 症候群**的代表性文獻（皆為綜述、個案或回溯性研究，無隨機對照試驗）：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
@@ -133,7 +132,6 @@ TxGNN 模型預測排名第一的新適應症為**不依賴維生素 B12 與葉�
 
 **理由：**
 - 首要預測（體質性巨母紅血球性貧血）僅有模型分數，無任何試驗或文獻，且機轉上與缺鐵無關，證據等級為 L5。
-- 預測清單中真正有機轉依據的是 Plummer-Vinson 症候群，但它本質上是缺鐵性貧血的延伸，且證據僅為綜述與個案報告，適合作為研究問題，而非新適應症開發。
 
 **若要推進需要：**
 - 補充鐵的作用機轉資料

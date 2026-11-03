@@ -4,17 +4,17 @@ title: Risperidone
 parent: 僅模型預測 (L5)
 nav_order: 779
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 monitor_inn: "RISPERIDONE"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
-last_modified_at: 2026-10-31
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
+last_modified_at: 2026-11-03
 description: "Risperidone：預測新適應症為Gaze palsy, familial horizontal, with progressive scoliosis（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Risperidone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,6 @@ description: "Risperidone：預測新適應症為Gaze palsy, familial horizontal
 
 Risperidone（利培酮）是一種非典型抗精神病藥，知識圖譜記錄的相關用途包括精神分裂症、雙相情緒障礙與自閉症譜系障礙。
 TxGNN 模型預測排名第一的疾病是罕見遺傳病「家族性水平凝視麻痺合併進行性脊柱側彎」，但該預測沒有任何研究支持。
-本報告另外評估證據最完整的候選：**重度情感障礙 (Major Affective Disorder)**，目前有 **11 個臨床試驗**（其中 3 個 Phase 3 試驗與治療抗藥性憂鬱症的輔助療法直接相關）與 **20 篇文獻**。
 
 > 說明：TxGNN 分數最高的前兩名候選（家族性水平凝視麻痺、釉質腦少汗症候群）均無試驗與文獻，建議為 Hold。以下以資料最充分的「重度情感障礙」為主軸。
 

@@ -4,17 +4,17 @@ title: Progesterone
 parent: 高證據等級 (L1-L2)
 nav_order: 737
 evidence_level: L2
-indication_count: 7
+indication_count: 6
 monitor_inn: "PROGESTERONE"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-last_modified_at: 2026-10-28
-description: "Progesterone：預測新適應症為閉經 (Amenorrhea)（證據等級 L2）。原適應症：知識圖譜記錄的關聯：子宮內膜異位症、子宮內膜癌、停經後骨質疏鬆"
+predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+last_modified_at: 2026-11-03
+description: "Progesterone：預測新適應症為Breast fibrocystic disease（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Progesterone
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **7** 個
+證據等級: **L2** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,20 @@ description: "Progesterone：預測新適應症為閉經 (Amenorrhea)（證據�
 
 </div>
 
-## Progesterone：閉經 (Amenorrhea)
+## Progesterone: Breast fibrocystic disease
 {: .text-alpha }
 
 ## 一句話總結
 
 Progesterone（黃體素）是天然的女性性腺類固醇荷爾蒙，知識圖譜中記錄的相關用途包括子宮內膜異位症、子宮內膜癌與停經後骨質疏鬆等。
-TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，
-目前有 **4 個臨床試驗**和 **18 篇文獻**與此方向相關，但多數試驗是以荷爾蒙replacement組合（含雌激素）進行，黃體素的單獨貢獻難以區分。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 知識圖譜記錄的關聯：子宮內膜異位症、子宮內膜癌、停經後骨質疏鬆（香港許可證未提供核准適應症文字） |
-| 預測新適應症 | 閉經 (Amenorrhea) |
-| TxGNN 預測分數 | 1.0000 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Breast fibrocystic disease |
+| TxGNN 預測分數 | 0.9998 |
 | 證據等級 | L2 |
 | 香港上市 | 上市中（有效許可證 9 張／共 9 張） |
 | 許可證數 | 9 張（有效 9 張） |

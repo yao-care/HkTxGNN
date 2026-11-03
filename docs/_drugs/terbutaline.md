@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Terbutaline
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 863
-evidence_level: L1
-indication_count: 3
-last_modified_at: 2026-10-28
-description: "Terbutaline：預測新適應症為阻塞性肺病 (Obstructive Lung Disease)（證據等級 L1）。原適應症：氣喘、支氣管炎、肺氣腫等"
+evidence_level: L5
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "Terbutaline"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
+description: "Terbutaline：預測新適應症為Respiratory malformation（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Terbutaline
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ predicted_indications: ["obstructive lung disease", "respiratory malformation", 
 
 </div>
 
-## Terbutaline：從氣喘到阻塞性肺病
+## Terbutaline: Respiratory malformation
 {: .text-alpha }
 
 ## 一句話總結
 
 Terbutaline 是選擇性 β2 腎上腺素受體促效劑，原本用於氣喘、支氣管炎與肺氣腫等呼吸道疾病。
-TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有效，
-目前有 **14 個臨床試驗**和 **20 篇文獻**支持這個方向。
 不過阻塞性肺病與原適應症高度重疊，實質上屬於仿單內或接近仿單內的用途，而非真正的新適應症。
 
 ---
@@ -49,10 +47,10 @@ TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 氣喘、支氣管炎、肺氣腫等（許可證資料未載明核准適應症文字，此處依藥物原有適應症資料） |
-| 預測新適應症 | 阻塞性肺病 (Obstructive Lung Disease) |
-| TxGNN 預測分數 | 0.9996 |
-| 證據等級 | L1 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Respiratory malformation |
+| TxGNN 預測分數 | 0.9952 |
+| 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 19 張／共 19 張） |
 | 許可證數 | 19 張（有效 19 張） |
 | 建議決策 | Proceed with Guardrails |

@@ -4,17 +4,17 @@ title: Betamethasone
 parent: 高證據等級 (L1-L2)
 nav_order: 115
 evidence_level: L2
-indication_count: 8
+indication_count: 7
 monitor_inn: "BETAMETHASONE"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-10-28
-description: "Betamethasone：預測新適應症為圓形禿 (alopecia areata)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
+last_modified_at: 2026-11-03
+description: "Betamethasone：預測新適應症為Alopecia mucinosa（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Betamethasone
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **8** 個
+證據等級: **L2** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,21 +33,19 @@ description: "Betamethasone：預測新適應症為圓形禿 (alopecia areata)�
 
 </div>
 
-## Betamethasone：糖皮質素 → 圓形禿 (alopecia areata)
+## Betamethasone: Alopecia mucinosa
 {: .text-alpha }
 
 ## 一句話總結
 
 Betamethasone 是一種強效糖皮質素（glucocorticoid），具有廣泛的抗發炎與免疫抑制作用。
-TxGNN 模型預測它可能對**圓形禿 (alopecia areata)** 有效，
-目前有 **6 個臨床試驗**和 **20 篇文獻**支持這個方向，其中包含多項直接以圓形禿為對象的隨機對照試驗。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | 圓形禿 (alopecia areata) |
+| 預測新適應症 | Alopecia mucinosa |
 | TxGNN 預測分數 | 0.9997 |
 | 證據等級 | L2 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
@@ -68,7 +66,6 @@ TxGNN 模型預測它可能對**圓形禿 (alopecia areata)** 有效，
 |---------|------|------|------|---------|
 | [NCT06786689](https://clinicaltrials.gov/study/NCT06786689) | Phase 2 | 完成 | 60 | 每週 azathioprine 脈衝 vs 口服 betamethasone 小劑量脈衝，用於中重度圓形禿 |
 | [NCT02350023](https://clinicaltrials.gov/study/NCT02350023) | Phase 4 | 完成 | 50 | 外用 latanoprost vs 外用皮質類固醇，用於局部圓形禿 |
-| [NCT05803070](https://clinicaltrials.gov/study/NCT05803070) | 不適用 | 未知 | 59 | 外用 cetirizine 1% vs 外用 betamethasone valerate 0.1%，用於局部圓形禿 |
 | [NCT06087796](https://clinicaltrials.gov/study/NCT06087796) | Phase 1 | 未知 | 60 | 外用 pentoxifylline、metformin vs betamethasone，用於斑塊狀圓形禿 |
 | [NCT07696585](https://clinicaltrials.gov/study/NCT07696585) | 不適用 | 尚未招募 | 60 | metformin、simvastatin 與 betamethasone valerate 外用治療，尚無結果 |
 | [NCT04207931](https://clinicaltrials.gov/study/NCT04207931) | Phase 4 | 招募中 | 250 | 中央離心性瘢痕性禿髮的治療結果比較（疾病類型與圓形禿不同，僅間接相關） |

@@ -4,17 +4,17 @@ title: Ceftazidime
 parent: 僅模型預測 (L5)
 nav_order: 174
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 monitor_inn: "CEFTAZIDIME"
-predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "urinary tract infection (disease)", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
-last_modified_at: 2026-10-28
-description: "Ceftazidime：預測新適應症為多株性高黏滯症候群（證據等級 L5）。原適應症：本地許可證資料未載明核准適應症。知識圖譜記錄的相關關係包括鏈球菌感染、細菌性肺炎、腹膜炎、細菌性腦膜炎、金黃色葡萄球菌感染、大腸桿菌感染等"
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
+last_modified_at: 2026-11-03
+description: "Ceftazidime：預測新適應症為多株性高黏滯症候群 (polyclonal hyperviscosity syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Ceftazidime
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ description: "Ceftazidime：預測新適應症為多株性高黏滯症候群（�
 
 </div>
 
-## Ceftazidime：從細菌感染到多株性高黏滯症候群
+## Ceftazidime: 多株性高黏滯症候群 (polyclonal hyperviscosity syndrome)
 {: .text-alpha }
 
 ## 一句話總結
@@ -45,8 +45,8 @@ TxGNN 模型預測它可能對**多株性高黏滯症候群 (polyclonal hypervis
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 本地許可證資料未載明核准適應症。知識圖譜記錄的相關關係包括鏈球菌感染、細菌性肺炎、腹膜炎、細菌性腦膜炎、金黃色葡萄球菌感染、大腸桿菌感染等（僅為知識圖譜關係，並非許可證核准適應症） |
-| 預測新適應症 | 多株性高黏滯症候群 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 多株性高黏滯症候群 (polyclonal hyperviscosity syndrome) |
 | TxGNN 預測分數 | 0.9951 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
@@ -101,7 +101,7 @@ TxGNN 模型預測它可能對**多株性高黏滯症候群 (polyclonal hypervis
 - 取得香港仿單中的警語與禁忌症。
 - 提出具體的生物學假說，並進行前臨床驗證。
 
-**補充說明：** 同一份預測清單中，**泌尿道感染**（分數 0.9941）有較多證據，包括已完成的 Phase 2 隨機試驗（NCT00921024）與 Phase 4 研究（NCT04882085）。但這些試驗主要涉及頭孢他啶與抗藥性抑制劑的複方，不等同於單一成分的證據。**感染性中耳炎**則有兒童慢性化膿性中耳炎的小型研究。這兩項都比本報告的主要預測更值得優先評估。
+**補充說明：** 同一份預測清單中，**泌尿道感染**（分數 0.9939）有較多證據，包括已完成的 Phase 2 隨機試驗（NCT00921024）與 Phase 4 研究（NCT04882085）。但這些試驗主要涉及頭孢他啶與抗藥性抑制劑的複方，不等同於單一成分的證據。**感染性中耳炎**則有兒童慢性化膿性中耳炎的小型研究。這兩項都比本報告的主要預測更值得優先評估。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -4,17 +4,17 @@ title: Ferrous Gluconate
 parent: 僅模型預測 (L5)
 nav_order: 373
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-28
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "FERROUS GLUCONATE"
-predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder"]
-description: "Ferrous Gluconate：預測新適應症為Plummer-Vinson 症候群 (Plummer-Vinson syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder"]
+description: "Ferrous Gluconate：預測新適應症為Vitamin B12- and folate-independent constitutional megaloblastic anemia（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Ferrous Gluconate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ description: "Ferrous Gluconate：預測新適應症為Plummer-Vinson 症候群 
 
 </div>
 
-## Ferrous Gluconate: Plummer-Vinson 症候群 (Plummer-Vinson syndrome)
+## Ferrous Gluconate: Vitamin B12- and folate-independent constitutional megaloblastic anemia
 {: .text-alpha }
 
 ## 一句話總結
 
 Ferrous Gluconate（葡萄糖酸亞鐵）是補鐵藥物，原本用於缺鐵性貧血、早產兒貧血、低色素性貧血等貧血類疾病。
-TxGNN 模型預測它可能對 **Plummer-Vinson 症候群 (Plummer-Vinson syndrome)** 有效，但目前**沒有臨床試驗或文獻**直接支持，僅有模型預測與既有臨床知識作為依據。
 
 ---
 
@@ -48,7 +47,7 @@ TxGNN 模型預測它可能對 **Plummer-Vinson 症候群 (Plummer-Vinson syndro
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | Plummer-Vinson 症候群 (Plummer-Vinson syndrome) |
+| 預測新適應症 | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
 | TxGNN 預測分數 | 0.9994 |
 | 證據等級 | L5（僅有機轉層面的合理性，無實際研究；依資料編譯結果判定） |
 | 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
@@ -78,7 +77,6 @@ Plummer-Vinson 症候群的特徵是缺鐵性貧血、吞嚥困難與食道蹼�
 
 ## 臨床試驗證據
 
-針對首位預測（Plummer-Vinson 症候群）：目前無相關臨床試驗登記。
 
 排名第 5 的預測（維生素缺乏症）有 1 個間接相關試驗：
 
@@ -118,7 +116,7 @@ Plummer-Vinson 症候群的特徵是缺鐵性貧血、吞嚥困難與食道蹼�
 **決策：Hold**
 
 **理由：**
-- 首位預測 Plummer-Vinson 症候群雖然分數高且臨床上合理，但本質上是缺鐵性貧血適應症的延伸，沒有任何試驗或文獻支持，也不構成新的再利用發現。其餘預測的機轉合理性薄弱。
+- 其餘預測的機轉合理性薄弱。
 - 香港許可證為輸注用微量元素濃縮液，許可證未載明適應症與劑型，且仿單層面的安全性資料尚缺，無法進入安全性篩選。
 
 **若要推進需要：**

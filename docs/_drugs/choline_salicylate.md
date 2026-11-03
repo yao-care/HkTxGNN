@@ -4,17 +4,17 @@ title: Choline Salicylate
 parent: 僅模型預測 (L5)
 nav_order: 193
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 monitor_inn: "Choline salicylate"
-predicted_indications: ["Prinzmetal angina", "rheumatoid arthritis", "hypertensive disorder", "migraine disorder", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "malignant renovascular hypertension", "Raynaud disease", "pulmonary hypertension"]
-last_modified_at: 2026-10-28
+predicted_indications: ["Prinzmetal angina", "hypertensive disorder", "migraine disorder", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "malignant renovascular hypertension", "Raynaud disease", "pulmonary hypertension"]
+last_modified_at: 2026-11-03
 description: "Choline Salicylate：預測新適應症為變異型心絞痛 (Prinzmetal angina)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Choline Salicylate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---

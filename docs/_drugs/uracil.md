@@ -4,17 +4,17 @@ title: Uracil
 parent: 僅模型預測 (L5)
 nav_order: 918
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 monitor_inn: "Uracil"
-predicted_indications: ["colonic neoplasm", "gastric carcinoma", "rectosigmoid junction neoplasm", "lipoma of colon", "colonic lymphangioma", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "cavernous hemangioma of colon", "cecal disease", "colon leiomyoma"]
-last_modified_at: 2026-10-28
-description: "Uracil：預測新適應症為大腸腫瘤（證據等級 L5）。原適應症：許可證資料未載明"
+predicted_indications: ["lipoma of colon", "colonic lymphangioma", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "cavernous hemangioma of colon", "cecal disease", "colon leiomyoma"]
+last_modified_at: 2026-11-03
+description: "Uracil：預測新適應症為Lipoma of colon（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Uracil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ description: "Uracil：預測新適應症為大腸腫瘤（證據等級 L5）。
 
 </div>
 
-## Uracil：從許可證未載明的原適應症，到大腸腫瘤
+## Uracil: Lipoma of colon
 {: .text-alpha }
 
 ## 一句話總結
 
 Uracil（尿嘧啶）在香港有 2 張單一成分許可證，但本報告彙整的許可證資料未載明原核准適應症。
-TxGNN 模型預測它可能對**大腸腫瘤**有效，預測分數 0.9950。
 目前有 1 個相關臨床試驗登記和 20 篇文獻，但臨床試驗並未測試 uracil。
 文獻中的療效證據來自 **tegafur-uracil 複方（UFT）**，不是 uracil 單方。
 
@@ -49,9 +48,9 @@ TxGNN 模型預測它可能對**大腸腫瘤**有效，預測分數 0.9950。
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證資料未載明 |
-| 預測新適應症 | 大腸腫瘤 |
-| TxGNN 預測分數 | 0.9950 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Lipoma of colon |
+| TxGNN 預測分數 | 0.9936 |
 | 證據等級 | L5（證據來自 UFT 複方，非 uracil 單方） |
 | 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
 | 許可證數 | 2 張（有效 2 張） |

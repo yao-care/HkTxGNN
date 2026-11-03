@@ -4,17 +4,17 @@ title: Sertraline
 parent: 僅模型預測 (L5)
 nav_order: 810
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 monitor_inn: "SERTRALINE"
-predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-10-31
+predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
+last_modified_at: 2026-11-03
 description: "Sertraline：預測新適應症為Histrionic personality disorder (disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Sertraline
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+證據等級: **L5** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,6 @@ description: "Sertraline：預測新適應症為Histrionic personality disorder 
 ## 一句話總結
 
 Sertraline（舍曲林）是一種藥物，知識圖譜中記錄的原有用途包含焦慮症、強迫症、創傷後壓力症候群與社交畏懼症等。
-TxGNN 模型預測它可能對**畏曠症 (Agoraphobia)** 有效。
 目前有 **2 個臨床試驗**（其中 1 個為直接使用 sertraline 的相關族群試驗）和 **20 篇文獻**，其中多篇為恐慌症（含或不含畏曠症）的隨機對照試驗與網絡統合分析。
 
 ## 快速總覽

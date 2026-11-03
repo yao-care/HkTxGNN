@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lanadelumab
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 507
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Lanadelumab"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
-description: "Lanadelumab：預測新適應症為C1 抑制劑缺乏症 (C1 inhibitor deficiency)（證據等級 L1）。原適應症：本地許可證資料未記載適應症"
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
+description: "Lanadelumab：預測新適應症為Serpinopathy with toxic serpin polymerization（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Lanadelumab
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ description: "Lanadelumab：預測新適應症為C1 抑制劑缺乏症 (C1 inhib
 
 </div>
 
-## Lanadelumab: C1 抑制劑缺乏症 (C1 inhibitor deficiency)
+## Lanadelumab: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## 一句話總結
 
 Lanadelumab 是一種抑制血漿激肽釋放酶（plasma kallikrein）的單株抗體，原本用於預防遺傳性血管性水腫（HAE）發作。
-TxGNN 模型預測它對 **C1 抑制劑缺乏症 (C1 inhibitor deficiency)** 有效，目前有 **5 個臨床試驗**和 **20 篇文獻**支持。
 需注意：C1 抑制劑缺乏症即 I/II 型 HAE 的病因，與藥物既有適應症高度重疊，嚴格來說並非全新的再利用方向。
 
 ---
@@ -49,9 +48,9 @@ TxGNN 模型預測它對 **C1 抑制劑缺乏症 (C1 inhibitor deficiency)** 有
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | C1 抑制劑缺乏症 (C1 inhibitor deficiency) |
-| TxGNN 預測分數 | 1.0000 |
-| 證據等級 | L1 |
+| 預測新適應症 | Serpinopathy with toxic serpin polymerization |
+| TxGNN 預測分數 | 0.9999 |
+| 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
 | 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Proceed with Guardrails |

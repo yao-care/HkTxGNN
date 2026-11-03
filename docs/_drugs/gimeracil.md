@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Gimeracil
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 414
-evidence_level: L1
-indication_count: 7
+evidence_level: L5
+indication_count: 6
 monitor_inn: "GIMERACIL"
-predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
-last_modified_at: 2026-10-28
-description: "Gimeracil：預測新適應症為大腸腫瘤（證據等級 L1）。原適應症：胃癌"
+predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
+last_modified_at: 2026-11-03
+description: "Gimeracil：預測新適應症為Cecum villous adenoma（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Gimeracil
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **7** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,22 @@ description: "Gimeracil：預測新適應症為大腸腫瘤（證據等級 L1）
 
 </div>
 
-## Gimeracil：從胃癌到大腸腫瘤
+## Gimeracil: Cecum villous adenoma
 {: .text-alpha }
 
 ## 一句話總結
 
 Gimeracil 是 S-1 複方（tegafur／gimeracil／oteracil）的成分之一，在知識圖譜中記錄的相關疾病為胃癌。
-TxGNN 模型預測它可能對**大腸腫瘤 (Colonic Neoplasm)** 有效。
 目前有 **6 個臨床試驗**和 **12 篇文獻**與此方向相關，但臨床試驗皆為 S-1 複方的研究，並非 gimeracil 單獨使用。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 胃癌（知識圖譜記錄的關聯；香港許可證資料未載明核准適應症文字） |
-| 預測新適應症 | 大腸腫瘤 |
-| TxGNN 預測分數 | 0.9988 |
-| 證據等級 | L1 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Cecum villous adenoma |
+| TxGNN 預測分數 | 0.9982 |
+| 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
 | 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Proceed with Guardrails |

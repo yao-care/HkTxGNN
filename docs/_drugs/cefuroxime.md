@@ -4,17 +4,17 @@ title: Cefuroxime
 parent: 僅模型預測 (L5)
 nav_order: 177
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 monitor_inn: "CEFUROXIME"
-predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "urinary tract infection (disease)", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-10-28
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
+last_modified_at: 2026-11-03
 description: "Cefuroxime：預測新適應症為多株性高黏滯症候群 (polyclonal hyperviscosity syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Cefuroxime
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---

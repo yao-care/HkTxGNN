@@ -4,17 +4,17 @@ title: Magnesium Sulfate
 parent: 僅模型預測 (L5)
 nav_order: 550
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 monitor_inn: "MAGNESIUM SULFATE"
-predicted_indications: ["toxemia of pregnancy", "thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
-last_modified_at: 2026-10-28
-description: "Magnesium Sulfate：預測新適應症為妊娠毒血症 (Toxemia of Pregnancy)（證據等級 L1）。原適應症：知識圖譜記錄：便秘、輕度/重度子癇前症"
+predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
+last_modified_at: 2026-11-03
+description: "Magnesium Sulfate：預測新適應症為Thrombotic disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Magnesium Sulfate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,21 @@ description: "Magnesium Sulfate：預測新適應症為妊娠毒血症 (Toxemia 
 
 </div>
 
-## 硫酸鎂 (Magnesium Sulfate)：從便秘與子癇前症到妊娠毒血症
+## Magnesium Sulfate: Thrombotic disease
 {: .text-alpha }
 
 ## 一句話總結
 
 硫酸鎂在知識圖譜中記錄的原有用途為便秘與子癇前症（輕度與重度）。
-TxGNN 模型（深度學習）預測它對**妊娠毒血症 (Toxemia of Pregnancy)** 的分數最高（1.0000）；此分數可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 目前有 **28 個臨床試驗**和 **19 篇文獻**與此預測疾病相關。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 知識圖譜記錄：便秘、輕度/重度子癇前症（香港許可證資料未載明核准適應症文字） |
-| 預測新適應症 | 妊娠毒血症 (Toxemia of Pregnancy) |
-| TxGNN 預測分數 | 1.0000 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Thrombotic disease |
+| TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 11 張／共 11 張） |
 | 許可證數 | 11 張（有效 11 張） |

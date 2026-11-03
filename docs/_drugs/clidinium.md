@@ -4,17 +4,17 @@ title: Clidinium
 parent: 僅模型預測 (L5)
 nav_order: 208
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Clidinium：預測新適應症為馬尾症候群 (Cauda Equina Syndrome)（證據等級 L5）。原適應症：腸躁症、困難梭狀芽孢桿菌結腸炎、腸胃炎等"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Clidinium"
-predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "peptic ulcer disease", "myasthenia gravis with thymus hyperplasia", "myasthenia, limb-girdle, autoimmune", "neonatal myasthenia gravis", "autoimmune disease of peripheral nervous system", "disease of receptor activity", "large intestine disease"]
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "myasthenia gravis with thymus hyperplasia", "myasthenia, limb-girdle, autoimmune", "neonatal myasthenia gravis", "autoimmune disease of peripheral nervous system", "disease of receptor activity", "large intestine disease"]
+description: "Clidinium：預測新適應症為馬尾症候群 (Cauda Equina Syndrome) (cauda equina syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Clidinium
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (d
 
 </div>
 
-## Clidinium：從腸躁症到馬尾症候群（另評估消化性潰瘍等候選適應症）
+## Clidinium: 馬尾症候群 (Cauda Equina Syndrome) (cauda equina syndrome)
 {: .text-alpha }
 
 ## 一句話總結
@@ -48,15 +48,15 @@ TxGNN 模型預測分數最高的新適應症是**馬尾症候群 (Cauda Equina 
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 腸躁症、困難梭狀芽孢桿菌結腸炎、腸胃炎等（香港許可證未登載適應症文字） |
-| 預測新適應症 | 馬尾症候群 (Cauda Equina Syndrome)（排名第 1） |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 馬尾症候群 (Cauda Equina Syndrome) (cauda equina syndrome) |
 | TxGNN 預測分數 | 0.9993 |
 | 證據等級 | L5（僅有模型預測） |
 | 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
 | 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
-> 補充：在所有預測中，證據最完整的是**消化性潰瘍**（TxGNN 分數 0.9983，證據等級 L3，建議列為研究問題），詳見下文。
+> 補充：在所有預測中，證據最完整的是**消化性潰瘍**（TxGNN 分數 0.9989，證據等級 L3，建議列為研究問題），詳見下文。
 
 ### 其他預測適應症一覽
 
@@ -65,7 +65,6 @@ TxGNN 模型預測分數最高的新適應症是**馬尾症候群 (Cauda Equina 
 | 1 | 馬尾症候群 | 0.9993 | L5 | Hold |
 | 2 | 神經性膀胱（已過時術語） | 0.9991 | L5 | Hold |
 | 3 | 胃十二指腸炎 | 0.9989 | L4 | Hold |
-| 4 | 消化性潰瘍 | 0.9983 | L3 | 研究問題 |
 | 5–7 | 重症肌無力相關（胸腺增生型、肢帶型自體免疫、新生兒型） | 0.9966–0.9971 | L5 | Hold（有安全疑慮） |
 | 8 | 周邊神經自體免疫疾病 | 0.9963 | L5 | Hold |
 | 9 | 受體活性疾病（過於籠統） | 0.9961 | L5 | Hold |

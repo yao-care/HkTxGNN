@@ -4,17 +4,17 @@ title: Formoterol
 parent: 僅模型預測 (L5)
 nav_order: 399
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-28
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "Formoterol"
-predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome"]
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Formoterol：預測新適應症為Respiratory malformation（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Formoterol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,6 @@ description: "Formoterol：預測新適應症為Respiratory malformation（證�
 ## 一句話總結
 
 Formoterol 是長效 β2 受體促效劑（LABA），原本用於肺氣腫、內因性氣喘與過敏性氣喘。
-TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，目前有 **19 個臨床試驗**和 **20 篇文獻**支持這個方向。
 不過這項預測較接近既有 COPD 用途的延伸，並非全新的藥物再利用。
 
 ---

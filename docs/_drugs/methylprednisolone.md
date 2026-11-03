@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Methylprednisolone
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 576
-evidence_level: L3
-indication_count: 9
+evidence_level: L5
+indication_count: 8
 monitor_inn: "METHYLPREDNISOLONE"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-last_modified_at: 2026-10-30
-description: "Methylprednisolone：預測新適應症為圓形禿 (Alopecia Areata)（證據等級 L3）。原適應症：香港許可證資料未載明核准適應症"
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+last_modified_at: 2026-11-03
+description: "Methylprednisolone：預測新適應症為Alopecia mucinosa（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Methylprednisolone
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **9** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,21 @@ description: "Methylprednisolone：預測新適應症為圓形禿 (Alopecia Area
 
 </div>
 
-## Methylprednisolone：從自體免疫疾病到圓形禿
+## Methylprednisolone: Alopecia mucinosa
 {: .text-alpha }
 
 ## 一句話總結
 
 Methylprednisolone 是一種糖皮質素，知識圖譜中記錄的相關用途包括自體免疫疾病、克隆氏症與急性淋巴性白血病等。
-TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，
-目前有 **1 個臨床試驗**和 **19 篇文獻**支持這個方向。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證資料未載明核准適應症；知識圖譜記錄的關聯包括自體免疫疾病、克隆氏症、腎上腺皮質功能不全等（僅為知識圖譜關聯，非核准適應症） |
-| 預測新適應症 | 圓形禿 (Alopecia Areata) |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Alopecia mucinosa |
 | TxGNN 預測分數 | 0.9999 |
-| 證據等級 | L3 |
+| 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
 | 許可證數 | 8 張（有效 8 張） |
 | 建議決策 | Proceed with Guardrails |
@@ -58,7 +56,7 @@ TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，
 
 目前缺乏詳細的作用機轉資料。Methylprednisolone 屬於強效糖皮質素，具廣泛的抗發炎與免疫抑制作用，包括抑制細胞激素生成，以及降低 T 細胞活化與浸潤。
 
-圓禿是一種 T 細胞媒介的自體免疫疾病，毛囊的免疫豁免狀態瓦解，免疫細胞攻擊毛囊。本藥對圓禿的預測分數為 0.9999，此分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。
+圓禿是一種 T 細胞媒介的自體免疫疾病，毛囊的免疫豁免狀態瓦解，免疫細胞攻擊毛囊。
 
 高劑量脈衝療法（口服或靜脈）可快速壓制活動性病程，但停藥後容易復發，且累積的類固醇副作用限制了長期使用。
 

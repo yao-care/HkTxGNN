@@ -4,17 +4,17 @@ title: Levofloxacin
 parent: 僅模型預測 (L5)
 nav_order: 527
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 monitor_inn: "LEVOFLOXACIN"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
-last_modified_at: 2026-10-31
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
+last_modified_at: 2026-11-03
 description: "Levofloxacin：預測新適應症為點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis)（證據等級 L5）。原適應症：知識圖譜記錄的關係：細菌性肺炎、結膜炎、鼻竇炎、腎盂腎炎、炭疽等細菌感染"
 ---
 
 # Levofloxacin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -111,7 +111,6 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 ### 補充：其他預測適應症中值得注意的項目
 
 - **單株免疫球蛋白病變 (Monoclonal Gammopathy)**：有 TEAMM 第 3 期隨機試驗（PMID 31668592）及多篇相關文獻，但研究對象為新診斷的有症狀骨髓瘤，而非單株免疫球蛋白病變本身，且機轉為預防感染而非治療疾病。依規則，由於沒有研究直接針對該疾病，證據等級應視為 L5，建議列為研究問題。
-- **敗血性鼠疫 (Septicemic Plague)**：有非人靈長類動物研究顯示 Levofloxacin 可治癒實驗性肺鼠疫（PMID 21347450），但無人體試驗，且研究對象為肺鼠疫而非敗血性鼠疫；依規則證據等級應為 L5，僅供作為進一步研究的方向。
 - 其餘預測項目（高黏稠度症候群、高澱粉酶血症、先天性無白蛋白血症等）均無證據及合理機轉，應列為 Hold。
 ## 免責聲明
 

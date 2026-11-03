@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Salmeterol
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 800
-evidence_level: L3
-indication_count: 5
+evidence_level: L5
+indication_count: 3
 monitor_inn: "SALMETEROL"
-predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
-last_modified_at: 2026-10-28
-description: "Salmeterol：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L3）。原適應症：肺氣腫、內因性氣喘、過敏性氣喘"
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
+last_modified_at: 2026-11-03
+description: "Salmeterol：預測新適應症為Respiratory malformation（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Salmeterol
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **3** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ description: "Salmeterol：預測新適應症為支氣管炎 (Bronchitis)（證�
 
 </div>
 
-## Salmeterol：從肺氣腫與氣喘到支氣管炎
+## Salmeterol: Respiratory malformation
 {: .text-alpha }
 
 ## 一句話總結
 
 Salmeterol 是長效 β2 腎上腺素受體促效劑，知識圖譜記錄的原適應症包括肺氣腫、內因性氣喘與過敏性氣喘。
-TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，目前有 **8 個臨床試驗**和 **20 篇文獻**列入參考，其中直接以慢性支氣管炎為對象的研究數量有限。
 
 ---
 
@@ -47,10 +46,10 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，目前有 *
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 肺氣腫、內因性氣喘、過敏性氣喘（知識圖譜記錄的關係；香港許可證資料未載明核准適應症文字） |
-| 預測新適應症 | 支氣管炎 (Bronchitis) |
-| TxGNN 預測分數 | 0.9992 |
-| 證據等級 | L3 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Respiratory malformation |
+| TxGNN 預測分數 | 0.9991 |
+| 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 15 張／共 15 張） |
 | 許可證數 | 15 張（有效 15 張） |
 | 建議決策 | Proceed with Guardrails |
@@ -134,7 +133,6 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，目前有 *
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 支氣管炎（尤其慢性支氣管炎）屬於 COPD 範疇，salmeterol 在此領域已有多項 Phase 3 試驗與臨床研究，TxGNN 分數也很高。
 - 但直接以支氣管炎為對象的證據不多，且多數研究使用複方或將 salmeterol 作為對照，且尚無仿單層級的核准適應症資料可確認。
 
 **若要推進需要：**

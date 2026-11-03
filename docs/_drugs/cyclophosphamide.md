@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cyclophosphamide
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 234
-evidence_level: L2
-indication_count: 4
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "CYCLOPHOSPHAMIDE"
-predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
-description: "Cyclophosphamide：預測新適應症為骨髓性白血病 (myeloid leukemia)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
+predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
+description: "Cyclophosphamide：預測新適應症為Vertebral anomalies and variable endocrine and T-cell dysfunction（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Cyclophosphamide
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **4** 個
+證據等級: **L5** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ description: "Cyclophosphamide：預測新適應症為骨髓性白血病 (myeloi
 
 </div>
 
-## Cyclophosphamide: 骨髓性白血病 (myeloid leukemia)
+## Cyclophosphamide: Vertebral anomalies and variable endocrine and T-cell dysfunction
 {: .text-alpha }
 
 ## 一句話總結
 
 Cyclophosphamide 是烷化劑類細胞毒性藥物，原本用於蕈狀肉芽腫、多發性骨髓瘤、神經母細胞瘤、淋巴瘤、乳癌、視網膜母細胞瘤等癌症。
-TxGNN 模型預測它可能對**骨髓性白血病 (Myeloid Leukemia)** 有效，
-目前有 **30 個臨床試驗**和 **20 篇文獻**支持這個方向，但多數是將它當作移植前預處理或移植後 GVHD 預防的一環，其單獨貢獻不易釐清。
 
 ---
 
@@ -49,9 +47,9 @@ TxGNN 模型預測它可能對**骨髓性白血病 (Myeloid Leukemia)** 有效�
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | 骨髓性白血病 (myeloid leukemia) |
-| TxGNN 預測分數 | 0.9947 |
-| 證據等級 | L2 |
+| 預測新適應症 | Vertebral anomalies and variable endocrine and T-cell dysfunction |
+| TxGNN 預測分數 | 0.9938 |
+| 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
 | 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Proceed with Guardrails |
@@ -170,7 +168,6 @@ TxGNN 模型預測它可能對**骨髓性白血病 (Myeloid Leukemia)** 有效�
 |------|-----------|------|---------|------|
 | 3 | 椎骨異常合併內分泌及 T 細胞功能異常 | 0.9938 | L5 | Hold |
 | 4 | 腹膜後腫瘤 (Retroperitoneal neoplasm) | 0.9937 | L4 | Research Question |
-| 5 | 淋巴結癌 (Lymph node cancer) | 0.9931 | L1 | Proceed with Guardrails |
 
 淋巴結癌的 L1 證據主要來自淋巴結陽性乳癌的輔助化療 Phase 3 試驗（如 NCT00003782，n=5351），反映的是既有適應症的使用，並非真正的新適應症。椎骨異常合併 T 細胞功能異常一項目前僅有模型預測，無試驗與文獻，且免疫抑制劑對此類 T 細胞功能障礙可能不利，應暫緩。
 ## 免責聲明

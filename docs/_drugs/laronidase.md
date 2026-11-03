@@ -4,17 +4,17 @@ title: Laronidase
 parent: 僅模型預測 (L5)
 nav_order: 511
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-28
-description: "Laronidase：預測新適應症為伴有骨骼病變的溶小體儲積症 (lysosomal storage disease with skeletal involvement)（證據等級 L4）。原適應症：黏多醣症、Hurler 症候群、Hurler-Scheie 症候群、Scheie 症候群"
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "LARONIDASE"
-predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
+predicted_indications: ["Sanfilippo syndrome"]
+description: "Laronidase：預測新適應症為Sanfilippo syndrome（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Laronidase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ predicted_indications: ["lysosomal storage disease with skeletal involvement", "
 
 </div>
 
-## Laronidase：從黏多醣症 I 型到伴有骨骼病變的溶小體儲積症
+## Laronidase: Sanfilippo syndrome
 {: .text-alpha }
 
 ## 一句話總結
 
 Laronidase 是重組人類 α-L-艾杜糖醛酸酶（alpha-L-iduronidase），原本用於治療黏多醣症（Hurler、Hurler-Scheie、Scheie 症候群）。
-TxGNN 模型預測它可能對**伴有骨骼病變的溶小體儲積症 (lysosomal storage disease with skeletal involvement)** 有效，但目前**沒有登記的臨床試驗**，僅有 **4 篇文獻**，且多屬原適應症範圍內的資料。
 
 ---
 
@@ -47,9 +46,9 @@ TxGNN 模型預測它可能對**伴有骨骼病變的溶小體儲積症 (lysosom
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 黏多醣症、Hurler 症候群、Hurler-Scheie 症候群、Scheie 症候群 |
-| 預測新適應症 | 伴有骨骼病變的溶小體儲積症 (lysosomal storage disease with skeletal involvement) |
-| TxGNN 預測分數 | 0.9931 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Sanfilippo syndrome |
+| TxGNN 預測分數 | 0.9922 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
 | 許可證數 | 1 張（有效 1 張） |

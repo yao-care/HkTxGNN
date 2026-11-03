@@ -4,17 +4,17 @@ title: Montelukast
 parent: 高證據等級 (L1-L2)
 nav_order: 597
 evidence_level: L1
-indication_count: 3
-last_modified_at: 2026-10-31
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "MONTELUKAST"
-predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
+predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast：預測新適應症為支氣管炎 (bronchitis)（證據等級 L1）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Montelukast
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **3** 個
+證據等級: **L1** | 預測適應症: **2** 個
 {: .fs-6 .fw-300 }
 
 ---

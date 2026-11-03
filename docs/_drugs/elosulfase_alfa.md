@@ -4,17 +4,17 @@ title: Elosulfase Alfa
 parent: 僅模型預測 (L5)
 nav_order: 313
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-28
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "ELOSULFASE ALFA"
-predicted_indications: ["Scheie syndrome", "lysosomal storage disease with skeletal involvement", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
+predicted_indications: ["Scheie syndrome", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
 description: "Elosulfase Alfa：預測新適應症為Scheie 症候群 (Scheie syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Elosulfase Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -65,7 +65,6 @@ Scheie 症候群（MPS I 的較輕型）則是 α-L-艾杜糖醛酸酶（alpha-L
 
 其他預測疾病的情況：
 
-- **溶小體儲積症伴骨骼病變**（分數 0.9959）：此類別涵蓋 Morquio A，也就是現有核准適應症，相關文獻支持的是現有標示，並非新適應症的獨立證據。
 - **Hurler 症候群**（0.9943）與 **Sanfilippo 症候群**（0.9942）：受質不同，且重組酵素通常無法穿越血腦屏障，對以神經病變為主的 Sanfilippo 尤其不利。
 - **其餘五項**（眼瞼下垂相關症候群、先天性 Horner 症候群等，分數介於 0.9902–0.9909）：與 GALNS 代謝途徑無已知關聯，僅為運算預測。
 

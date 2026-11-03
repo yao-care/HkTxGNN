@@ -4,17 +4,17 @@ title: Amiodarone
 parent: 僅模型預測 (L5)
 nav_order: 54
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 monitor_inn: "Amiodarone"
-predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
-last_modified_at: 2026-10-28
+predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
+last_modified_at: 2026-11-03
 description: "Amiodarone：預測新適應症為兒茶酚胺敏感性多形性室性心搏過速 (catecholaminergic polymorphic ventricular tachycardia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Amiodarone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ description: "Amiodarone：預測新適應症為兒茶酚胺敏感性多形性�
 
 </div>
 
-## Amiodarone：抗心律不整藥物（多重離子通道阻斷劑） → 兒茶酚胺敏感性多形性室性心搏過速 (catecholaminergic polymorphic ventricular tachycardia)
+## Amiodarone: 兒茶酚胺敏感性多形性室性心搏過速 (catecholaminergic polymorphic ventricular tachycardia)
 {: .text-alpha }
 
 ## 一句話總結

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dipyridamole
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 285
-evidence_level: L4
-indication_count: 8
+evidence_level: L5
+indication_count: 6
 monitor_inn: "DIPYRIDAMOLE"
-predicted_indications: ["thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
-last_modified_at: 2026-10-28
-description: "Dipyridamole：預測新適應症為血栓性疾病 (thrombotic disease)（證據等級 L4）。原適應症：香港許可證資料未提供核准適應症文字"
+predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
+last_modified_at: 2026-11-03
+description: "Dipyridamole：預測新適應症為Sick sinus syndrome 2, autosomal dominant（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Dipyridamole
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **8** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,22 @@ description: "Dipyridamole：預測新適應症為血栓性疾病 (thrombotic di
 
 </div>
 
-## Dipyridamole：從知識圖譜記錄的心房顫動到血栓性疾病
+## Dipyridamole: Sick sinus syndrome 2, autosomal dominant
 {: .text-alpha }
 
 ## 一句話總結
 
 Dipyridamole（雙嘧達莫）是一種已在香港上市的抗血小板藥物，知識圖譜中記錄它與心房顫動有關聯，但這並非香港許可證上的核准適應症。
-TxGNN 模型預測它可能對**血栓性疾病 (thrombotic disease)** 有效。
 目前**沒有相關臨床試驗**，僅有 **20 篇文獻**，多為綜述，屬間接證據。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 香港許可證資料未提供核准適應症文字；知識圖譜記錄的關聯為心房顫動（僅為圖譜關聯，非核准適應症） |
-| 預測新適應症 | 血栓性疾病 (thrombotic disease) |
-| TxGNN 預測分數 | 0.9994 |
-| 證據等級 | L4 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Sick sinus syndrome 2, autosomal dominant |
+| TxGNN 預測分數 | 0.9989 |
+| 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 10 張／共 10 張） |
 | 許可證數 | 10 張（有效 10 張） |
 | 建議決策 | Hold |

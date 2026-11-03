@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Natamycin
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 610
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 monitor_inn: "NATAMYCIN"
-predicted_indications: ["vulvovaginal candidiasis", "candidiasis", "vulvitis", "vulvovaginitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginitis (disease)", "tinea nigra"]
-last_modified_at: 2026-10-30
-description: "Natamycin：預測新適應症為外陰陰道念珠菌病 (Vulvovaginal Candidiasis)（證據等級 L1）。原適應症：知識圖譜記錄為黴菌性角膜潰瘍"
+predicted_indications: ["vulvitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "tinea nigra"]
+last_modified_at: 2026-11-03
+description: "Natamycin：預測新適應症為Vulvitis（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Natamycin
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,21 @@ description: "Natamycin：預測新適應症為外陰陰道念珠菌病 (Vulvova
 
 </div>
 
-## Natamycin：從黴菌性角膜潰瘍到外陰陰道念珠菌病
+## Natamycin: Vulvitis
 {: .text-alpha }
 
 ## 一句話總結
 
 Natamycin 是多烯類（polyene）抗黴菌藥，知識圖譜中記錄其與黴菌性角膜潰瘍（mycotic corneal ulcer）有關。
-TxGNN 模型預測它可能對**外陰陰道念珠菌病 (Vulvovaginal Candidiasis)** 有效，
-目前有 **1 個已完成的 Phase 3 臨床試驗**（但為 natamycin 與 lactulose 的複方陰道栓劑）和多篇相關文獻支持這個方向。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 知識圖譜記錄為黴菌性角膜潰瘍（香港許可證未載明核准適應症文字） |
-| 預測新適應症 | 外陰陰道念珠菌病 (Vulvovaginal Candidiasis) |
-| TxGNN 預測分數 | 0.9997 |
-| 證據等級 | L1 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Vulvitis |
+| TxGNN 預測分數 | 0.9981 |
+| 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
 | 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Proceed with Guardrails |
@@ -89,7 +87,6 @@ TxGNN 模型預測它可能對**外陰陰道念珠菌病 (Vulvovaginal Candidias
 |---------|------|------|-----------|
 | HK-41714 | NATACYN OPHTHALMIC SUSPENSION 5% | 眼用懸浮液（依品名） | 資料中未載明 |
 
-此香港許可證為眼用懸浮液，與預測的陰道念珠菌病使用途徑不同；是否有陰道劑型在港上市，資料中未見。
 
 ## 安全性考量
 

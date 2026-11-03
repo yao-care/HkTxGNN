@@ -4,17 +4,17 @@ title: Salbutamol
 parent: 僅模型預測 (L5)
 nav_order: 797
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 monitor_inn: "SALBUTAMOL"
-predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "bronchitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
-last_modified_at: 2026-10-28
+predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
+last_modified_at: 2026-11-03
 description: "Salbutamol：預測新適應症為乳突狀結膜炎 (Papillary Conjunctivitis)（證據等級 L5）。原適應症：氣喘、支氣管疾病"
 ---
 
 # Salbutamol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -115,7 +115,6 @@ TxGNN 模型預測它可能對**乳突狀結膜炎 (Papillary Conjunctivitis)** 
 
 資料中同時列出其他預測，供後續評估參考，但皆不宜視為強力證據。
 
-- **支氣管炎**（L3）：有 β2 促效劑用於慢性支氣管炎的文獻，但相關試驗多為毛細支氣管炎，是不同疾病。Cochrane 與網絡統合分析顯示支氣管擴張劑在毛細支氣管炎的臨床效益有限，疾病對應不精確。
 - **過敏性休克**（L2）：有一項吸入 salbutamol 對照安慰劑的 Phase 3 RCT（[NCT05653024](https://clinicaltrials.gov/study/NCT05653024)），但針對的是食物過敏反應的腹痛，且僅收 24 人即提前終止，統計檢定力不足，不能視為強證據。Salbutamol 無法取代 epinephrine，最多作為輔助。
 - **異位性結膜炎**（L4）：僅有動物前臨床研究（[PMID 3666475](https://pubmed.ncbi.nlm.nih.gov/3666475/)、[PMID 2906082](https://pubmed.ncbi.nlm.nih.gov/2906082/)），無人體試驗。
 - **普通感冒**（L3）：有一篇比較蜂蜜、salbutamol 與安慰劑的隨機雙盲研究（[PMID 26859020](https://pubmed.ncbi.nlm.nih.gov/26859020/)），但設計與結果資料不足。

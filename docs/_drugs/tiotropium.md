@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tiotropium
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 881
-evidence_level: L1
-indication_count: 5
+evidence_level: L5
+indication_count: 4
 monitor_inn: "TIOTROPIUM"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
-last_modified_at: 2026-10-30
-description: "Tiotropium：預測新適應症為阻塞性肺病（證據等級 L1）。原適應症：知識圖譜記錄為支氣管炎、氣喘、肺氣腫"
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
+last_modified_at: 2026-11-03
+description: "Tiotropium：預測新適應症為Respiratory malformation（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Tiotropium
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **5** 個
+證據等級: **L5** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,21 @@ description: "Tiotropium：預測新適應症為阻塞性肺病（證據等級 L
 
 </div>
 
-## Tiotropium：從氣喘與支氣管炎到阻塞性肺病
+## Tiotropium: Respiratory malformation
 {: .text-alpha }
 
 ## 一句話總結
 
 Tiotropium 是長效抗膽鹼支氣管擴張劑，知識圖譜中記錄的原適應症包括支氣管炎、氣喘與肺氣腫。
-TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive lung disease)** 有效，
-目前有多個直接以慢性阻塞性肺病 (COPD) 為對象的 Phase 3 臨床試驗，以及多篇相關文獻支持這個方向。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 知識圖譜記錄為支氣管炎、氣喘、肺氣腫（香港許可證資料未載明核准適應症文字） |
-| 預測新適應症 | 阻塞性肺病 |
-| TxGNN 預測分數 | 0.9999 |
-| 證據等級 | L1 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Respiratory malformation |
+| TxGNN 預測分數 | 0.9995 |
+| 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
 | 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Proceed with Guardrails |

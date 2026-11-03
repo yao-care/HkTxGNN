@@ -4,17 +4,17 @@ title: Mefenamic Acid
 parent: 高證據等級 (L1-L2)
 nav_order: 557
 evidence_level: L2
-indication_count: 7
+indication_count: 6
 monitor_inn: "MEFENAMIC ACID"
-predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-10-31
-description: "Mefenamic Acid：預測新適應症為類風濕性關節炎（證據等級 L2）。原適應症：本次彙整資料未載明"
+predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+last_modified_at: 2026-11-03
+description: "Mefenamic Acid：預測新適應症為Headache disorder（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **7** 個
+證據等級: **L2** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,21 +33,20 @@ description: "Mefenamic Acid：預測新適應症為類風濕性關節炎（證�
 
 </div>
 
-## Mefenamic Acid：從 原適應症資料未載明 到 類風濕性關節炎 (Rheumatoid Arthritis)
+## Mefenamic Acid: Headache disorder
 {: .text-alpha }
 
 ## 一句話總結
 
 Mefenamic acid（甲芬那酸）是一種非類固醇抗發炎藥（NSAID），在香港已有多張單一成分許可證，但本次彙整的資料中未列出核准適應症文字。
-TxGNN 模型預測它可能對**類風濕性關節炎**有效，目前**無登記的臨床試驗**，但有 **20 篇文獻**，其中包含數項 1970 年代的雙盲交叉試驗。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 本次彙整資料未載明（許可證的適應症欄位皆為空白） |
-| 預測新適應症 | 類風濕性關節炎 |
-| TxGNN 預測分數 | 0.9973 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | Headache disorder |
+| TxGNN 預測分數 | 0.9964 |
 | 證據等級 | L2 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 至少 20 張 |

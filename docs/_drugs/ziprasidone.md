@@ -4,17 +4,17 @@ title: Ziprasidone
 parent: 僅模型預測 (L5)
 nav_order: 956
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Ziprasidone"
-predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "major affective disorder", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
+predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
 description: "Ziprasidone：預測新適應症為Trichotillomania（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Ziprasidone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---

@@ -4,17 +4,17 @@ title: Potassium Citrate
 parent: 僅模型預測 (L5)
 nav_order: 719
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 monitor_inn: "POTASSIUM CITRATE"
-predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "nephrolithiasis", "cystinosis", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency", "adult Fanconi syndrome"]
-last_modified_at: 2026-10-28
+predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "cystinosis", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency", "adult Fanconi syndrome"]
+last_modified_at: 2026-11-03
 description: "Potassium Citrate：預測新適應症為家族性內臟肌病變 (familial visceral myopathy)（證據等級 L5）."
 ---
 
 # Potassium Citrate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+證據等級: **L5** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ description: "Potassium Citrate：預測新適應症為家族性內臟肌病變 
 
 </div>
 
-## Potassium Citrate：從鉀缺乏症與腎小管酸中毒到家族性內臟肌病
+## Potassium Citrate: 家族性內臟肌病變 (familial visceral myopathy)
 {: .text-alpha }
 
 ## 一句話總結
@@ -80,7 +80,6 @@ TxGNN 模型預測排名第一的是**家族性內臟肌病變 (familial viscera
 
 ## 臨床試驗證據
 
-以下為腎結石（證據最完整的預測）相關試驗，排名第 1 的疾病無臨床試驗登記。
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
