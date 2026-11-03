@@ -3,7 +3,7 @@ layout: default
 title: 關於專案
 nav_order: 90
 permalink: /about/
-description: "HkTxGNN 是藥提醒科技有限公司開發的老藥新用預測平台，基於哈佛 TxGNN 模型，提供 Department of Health HK 核准藥品的驗證報告。"
+description: "HkTxGNN 是藥提醒科技有限公司開發的老藥新用預測平台，基於哈佛 TxGNN 模型，提供衛生署藥物辦公室核准藥品的驗證報告。"
 ---
 
 # 關於專案
@@ -17,7 +17,7 @@ description: "HkTxGNN 是藥提醒科技有限公司開發的老藥新用預測�
 ## 專案背景
 
 <p class="key-answer" data-question="HkTxGNN 是什麼？">
-<strong>HkTxGNN</strong> 是一個藥物再利用（Drug Repurposing）研究輔助平台，基於哈佛大學 Zitnik Lab 發表於 <em>Nature Medicine</em> 的 TxGNN 模型，針對 Department of Health HK 核准藥品進行適應症擴展預測。本平台不僅提供 AI 預測分數，更整合 ClinicalTrials.gov、PubMed 等來源的臨床證據，讓研究人員能快速評估預測的可信度。
+<strong>HkTxGNN</strong> 是一個藥物再利用（Drug Repurposing）研究輔助平台，基於哈佛大學 Zitnik Lab 發表於 <em>Nature Medicine</em> 的 TxGNN 模型，針對衛生署藥物辦公室核准藥品進行適應症擴展預測。本平台不僅提供 AI 預測分數，更整合 ClinicalTrials.gov、PubMed 等來源的臨床證據，讓研究人員能快速評估預測的可信度。
 </p>
 
 ---
@@ -26,7 +26,7 @@ description: "HkTxGNN 是藥提醒科技有限公司開發的老藥新用預測�
 
 本平台由**藥提醒科技有限公司**（yao.care，統一編號 83620786，地址：台中市西區台灣大道二段220號12樓）開發與維運。
 
-HkTxGNN 是該公司「TxGNN 老藥新用」產品線的Hong Kong站。同一套系統已部署於 30 個國家／地區，
+HkTxGNN 是該公司「TxGNN 老藥新用」產品線的香港站。同一套系統已部署於 30 個國家／地區，
 各站依 `{國碼}TxGNN` 命名（JpTxGNN、UsTxGNN、DETxGNN…），網址格式為 `{國碼}txgnn.yao.care`。
 產品總覽見 <https://www.yao.care/medical/txgnn/>。
 
@@ -71,18 +71,7 @@ TxGNN 模型本身由哈佛醫學院 Zitnik Lab 開發並發表於 *Nature Medic
 
 ## 資料來源
 
-<table class="comparison-table">
-<thead>
-<tr><th>資料類型</th><th>來源</th><th>說明</th></tr>
-</thead>
-<tbody>
-<tr><td>AI 預測</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>哈佛大學以知識圖譜訓練的圖神經網路</td></tr>
-<tr><td>臨床試驗</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>全球臨床試驗登記資料庫</td></tr>
-<tr><td>學術文獻</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>生物醫學文獻資料庫</td></tr>
-<tr><td>藥物資訊</td><td><a href="https://go.drugbank.com/">DrugBank</a></td><td>藥物與靶點資料庫</td></tr>
-<tr><td>藥證資料</td><td><a href="https://www.drugoffice.gov.hk/">Department of Health HK</a></td><td>Hong Kong藥品核准資料</td></tr>
-</tbody>
-</table>
+預測、證據與藥品資料的來源，以及各自的授權與更新頻率，整理在<a href="{{ '/sources/' | relative_url }}">資料來源</a>頁。
 
 ---
 
@@ -98,7 +87,7 @@ TxGNN 模型本身由哈佛醫學院 Zitnik Lab 開發並發表於 *Nature Medic
 | 項目 | 數量 |
 |------|------|
 | 藥物報告 | {{ site.data.drug_stats.total_drugs }} 份 |
-| 主管機關 | Department of Health HK |
+| 主管機關 | 衛生署藥物辦公室 |
 | 部署站台 | 30 個國家／地區 |
 
 ---

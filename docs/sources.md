@@ -3,7 +3,7 @@ layout: default
 title: 資料來源
 nav_order: 93
 permalink: /sources/
-description: "HkTxGNN 的資料來源清單：Department of Health HK 藥證資料、TxGNN、ClinicalTrials.gov、PubMed、DrugBank。"
+description: "HkTxGNN 的資料來源清單：衛生署藥物辦公室藥劑製品清單（DrugList.xml）、TxGNN、ClinicalTrials.gov、PubMed、DrugBank。"
 ---
 
 # 資料來源
@@ -21,7 +21,7 @@ description: "HkTxGNN 的資料來源清單：Department of Health HK 藥證資�
 <tr><th>資料類型</th><th>來源</th><th>用途</th></tr>
 </thead>
 <tbody>
-<tr><td>藥證資料</td><td><a href="https://www.drugoffice.gov.hk/">Department of Health HK</a></td><td>Hong Kong核准藥品清單與成分</td></tr>
+<tr><td>藥證資料</td><td>衛生署藥物辦公室 <a href="https://www.drugoffice.gov.hk/eps/psi/DrugList.xml">藥劑製品清單（DrugList.xml）</a></td><td>香港現行註冊的藥劑製品（註冊編號 HK-xxxxx）與成分</td></tr>
 <tr><td>預測模型</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>藥物-疾病關聯預測</td></tr>
 <tr><td>臨床試驗</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>證據等級判定（NCT）</td></tr>
 <tr><td>學術文獻</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>證據等級判定（PMID）</td></tr>
@@ -29,6 +29,8 @@ description: "HkTxGNN 的資料來源清單：Department of Health HK 藥證資�
 <tr><td>交互作用</td><td><a href="https://ddinter2.scbdd.com/">DDInter</a></td><td>藥物交互作用資料</td></tr>
 </tbody>
 </table>
+
+DrugList.xml 只列現行註冊的產品、沒有狀態欄；某個註冊編號不在新清單裡時，本站保留原狀態，不推定為已撤銷。
 
 ---
 
@@ -39,7 +41,7 @@ description: "HkTxGNN 的資料來源清單：Department of Health HK 藥證資�
 - **TxGNN**：學術用途，引用 Huang et al. (2024)
 - **ClinicalTrials.gov / PubMed**：美國 NIH 公開資料
 - **DrugBank**：非商業用途需遵循其授權條款
-- **Department of Health HK**：依Hong Kong主管機關的開放資料條款
+- **衛生署藥物辦公室 DrugList.xml**：公開檔案、免註冊即可下載；依藥物辦公室網站的使用條款
 
 ---
 
@@ -47,7 +49,7 @@ description: "HkTxGNN 的資料來源清單：Department of Health HK 藥證資�
 
 | 資料 | 更新頻率 |
 |------|---------|
-| 藥證資料 | 依主管機關發布 |
+| 註冊狀態 | 每週一自動以 DrugList.xml 比對更新 |
 | 臨床試驗／文獻證據 | 定期重新收集 |
 | 交互作用資料 | 每季檢查 |
 
@@ -62,15 +64,8 @@ description: "HkTxGNN 的資料來源清單：Department of Health HK 藥證資�
 
 ## 關於開發單位
 
-本平台由**藥提醒科技有限公司**（yao.care，統一編號 83620786，地址：台中市西區台灣大道二段220號12樓）開發與維運。
-
-HkTxGNN 是該公司「TxGNN 老藥新用」產品線的Hong Kong站。同一套系統已部署於 30 個國家／地區，
-各站依 `{國碼}TxGNN` 命名（JpTxGNN、UsTxGNN、DETxGNN…），網址格式為 `{國碼}txgnn.yao.care`。
-產品總覽見 <https://www.yao.care/medical/txgnn/>。
-
-TxGNN 模型本身由哈佛醫學院 Zitnik Lab 開發並發表於 *Nature Medicine*；
-本平台是藥提醒科技有限公司以該模型為基礎建置的落地系統，負責各國藥證資料串接、
-深度學習預測（已排除知識圖譜中已記錄的用途）、PubMed／ClinicalTrials 證據分級，以及 SMART on FHIR 電子病歷整合。
+本平台由**藥提醒科技有限公司**（yao.care）開發與維運。公司資料、TxGNN 模型背景與產品線各站一覽，
+見<a href="{{ '/about/' | relative_url }}">關於專案</a>。
 
 ---
 
