@@ -4,17 +4,17 @@ title: Mitomycin
 parent: 僅模型預測 (L5)
 nav_order: 593
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 monitor_inn: "MITOMYCIN"
-predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "pancreatic intraductal papillary-mucinous carcinoma", "mixed ductal-endocrine carcinoma of pancreas", "pancreatic signet ring cell adenocarcinoma", "undifferentiated pancreatic carcinoma", "malignant exocrine pancreas neoplasm", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
-last_modified_at: 2026-10-30
-description: "Mitomycin：預測新適應症為胰臟固態偽乳突癌（證據等級 L5）。原適應症：胰腺腺癌"
+predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "mixed ductal-endocrine carcinoma of pancreas", "undifferentiated pancreatic carcinoma", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
+last_modified_at: 2026-11-03
+description: "Mitomycin：預測新適應症為胰臟實性假乳頭狀癌 (solid pseudopapillary carcinoma of pancreas)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Mitomycin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,21 +33,21 @@ description: "Mitomycin：預測新適應症為胰臟固態偽乳突癌（證據
 
 </div>
 
-## Mitomycin：從胰腺腺癌到胰臟固態偽乳突癌
+## Mitomycin: 胰臟實性假乳頭狀癌 (solid pseudopapillary carcinoma of pancreas)
 {: .text-alpha }
 
 ## 一句話總結
 
-Mitomycin 是一種細胞毒性抗腫瘤藥物，知識圖譜中記錄的相關疾病為胰腺腺癌 (pancreatic adenocarcinoma)。
-TxGNN 模型預測它可能對**胰臟固態偽乳突癌 (solid pseudopapillary carcinoma of pancreas)** 有效，
-但目前**沒有臨床試驗與直接相關文獻**支持，僅屬模型預測。
+Mitomycin 是一種 DNA 交聯烷化型的細胞毒性藥物。
+TxGNN 模型預測它可能對**胰臟實性假乳頭狀癌 (solid pseudopapillary carcinoma of pancreas)** 有效，
+但目前**沒有臨床試驗，也沒有直接研究此疾病的文獻**，僅有模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 胰腺腺癌（知識圖譜中記錄的關聯；香港許可證未提供核准適應症文字） |
-| 預測新適應症 | 胰臟固態偽乳突癌 |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 胰臟實性假乳頭狀癌 (solid pseudopapillary carcinoma of pancreas) |
 | TxGNN 預測分數 | 0.9986 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
@@ -56,11 +56,12 @@ TxGNN 模型預測它可能對**胰臟固態偽乳突癌 (solid pseudopapillary 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Mitomycin 一般被歸類為具 DNA 交聯作用的烷化類細胞毒性藥物，這是通用的藥理背景，並非本次資料中提供的 MOA 內容。
+目前缺乏詳細的作用機轉資料。一般而言，mitomycin 屬於 DNA 交聯型的細胞毒性藥物，
+可抑制癌細胞的 DNA 複製，因此在機轉上有廣泛的抗腫瘤潛力。
 
-TxGNN 模型（深度學習）預測的前 10 名新適應症幾乎都是胰臟腫瘤的不同組織亞型，這些分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
-
-就本預測而言，固態偽乳突腫瘤通常以手術處理，惡性潛能低，因此細胞毒性化療的理論基礎偏弱。這類預測應視為假說，而非可直接採用的新適應症。
+然而，這個預測的支持力道有限。胰臟實性假乳頭狀腫瘤通常以手術處理，惡性潛能較低，
+單純依賴細胞毒性的理由並不充分。目前沒有任何臨床試驗或文獻直接探討 mitomycin 對此腫瘤的效果，
+預測分數僅反映模型的推論，尚不足以視為療效證據。
 
 ## 臨床試驗證據
 
@@ -68,16 +69,7 @@ TxGNN 模型（深度學習）預測的前 10 名新適應症幾乎都是胰臟�
 
 ## 文獻證據
 
-首位預測疾病（固態偽乳突癌）目前無相關文獻。
-
-以下為同一批預測中其他胰臟腫瘤亞型的間接文獻，皆**未直接證實 mitomycin 對該疾病有效**：
-
-| PMID | 年份 | 類型 | 期刊 | 關聯疾病與主要發現 |
-|------|-----|------|------|---------|
-| [15983445](https://pubmed.ncbi.nlm.nih.gov/15983445/) | 2005 | Case report | Pancreatology | 胰臟 IPMN 合併腹膜假黏液瘤，以腹腔內溫熱化療灌流處理；未顯示 mitomycin 用於胰臟病灶 |
-| [10897253](https://pubmed.ncbi.nlm.nih.gov/10897253/) | 2000 | Review | Strahlenther Onkol | 導管型胰臟癌的輔助與術前放化療，屬原適應症相關，非針對 IPMN |
-| [8361472](https://pubmed.ncbi.nlm.nih.gov/8361472/) | 1993 | 臨床研究（間接） | Nihon Geka Gakkai Zasshi | 胰臟癌切除後在免疫化療（含 mitomycin）基礎上加用 tamoxifen；重點在 tamoxifen，非 mitomycin 本身 |
-| [2695183](https://pubmed.ncbi.nlm.nih.gov/2695183/) | 1989 | Review | Bulletin du Cancer | 原發部位不明腫瘤的診斷與治療，屬間接資料 |
+目前無相關文獻。
 
 ## 香港上市資訊
 
@@ -92,36 +84,39 @@ TxGNN 模型（深度學習）預測的前 10 名新適應症幾乎都是胰臟�
 
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 傳統細胞毒性藥物（DNA 交聯烷化類） |
-| 骨髓抑制風險 | 請參考原廠仿單；知識圖譜記錄的禁忌關聯包含血小板減少、白血球減少、貧血 |
-| 致吐性分級 | 請參考原廠仿單 |
-| 監測項目 | 一般應包含 CBC（含血小板）、腎功能；詳細項目請參考原廠仿單 |
+| 細胞毒性分類 | 傳統細胞毒性藥物（DNA 交聯烷化型） |
+| 骨髓抑制風險 | 高（可能出現血小板減少、白血球減少，且常為延遲性、累積性） |
+| 致吐性分級 | 中度 |
+| 監測項目 | CBC（含血小板與分類）、腎功能、肝功能、心臟功能 |
 | 處置防護 | 需依細胞毒性藥物處置規範操作 |
+
+更完整的警語與注意事項請參考原廠仿單。
 
 ## 安全性考量
 
-- **知識圖譜記錄的禁忌關聯（非仿單內容）**：腎臟疾病、膿尿輸尿管 (pyoureter)、血小板減少、凝血疾病、貧血、巨球性貧血、白血球減少、溶血性尿毒症候群（含典型型）、充血性心衰竭、心臟衰竭、口腔炎。
-- **藥物交互作用**：共查得 100 筆，以下為已標示等級者：
-  - 嚴重 (Major)：Deferiprone、Samarium (153Sm) lexidronam
-  - 中度 (Moderate)：Palifermin、Strontium chloride Sr-89、Fostamatinib
-  - 輕微 (Minor)：Levofloxacin
-  - 其餘（如 Warfarin、Dexamethasone、Ondansetron 等）等級未定
+- **需特別留意的血液與器官風險**：資料顯示，mitomycin 與下列情況的風險有關，使用前應審慎評估：腎臟疾病、血小板減少、凝血疾病、貧血、白血球減少、溶血性尿毒症候群、充血性心衰竭、口腔炎。
+- **藥物交互作用**：本報告彙整資料共 100 筆交互作用，其中較需注意的有：
+  - 重度（Major）：Deferiprone、Samarium (153Sm) lexidronam
+  - 中度（Moderate）：Palifermin、Strontium chloride Sr-89、Fostamatinib
+  - 輕度（Minor）：Levofloxacin
+  - 其餘多數（如 Warfarin、Dexamethasone、Ondansetron 等）嚴重度未分級
 
-正式的警語與禁忌症請參考原廠仿單。
+更完整的警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 僅有模型預測，無任何直接針對固態偽乳突癌的臨床試驗或文獻，證據等級為 L5。
-- 此腫瘤通常以手術處理且惡性潛能低，化療的理論基礎薄弱。
+- 此預測僅來自模型推論，無臨床試驗、無直接文獻，證據等級為 L5。
+- 此腫瘤通常以手術處理且惡性潛能較低，細胞毒性化療的理由偏弱。
 
 **若要推進需要：**
-- 補齊 mitomycin 的作用機轉資料
-- 取得香港仿單的核准適應症、警語與禁忌症
-- 針對該腫瘤亞型的病例系列或臨床研究證據
-- 評估是否應優先聚焦於與原適應症更接近的亞型（如胰臟印戒細胞腺癌，預測分數 0.9984），但同樣需先補充直接證據
+- 搜尋並確認是否有直接針對此腫瘤使用 mitomycin 的病例或研究
+- 補充詳細的作用機轉資料（MOA），釐清與此腫瘤生物學的關聯
+- 取得香港衛生署核准仿單，確認警語、禁忌症與給藥途徑
+- 評估此腫瘤是否真有化療需求，再決定是否值得設計探索性研究
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

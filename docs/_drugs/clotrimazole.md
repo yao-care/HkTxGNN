@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "CLOTRIMAZOLE"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-description: "Clotrimazole：預測新適應症為痤瘡 (acne (disease)) (acne (disease))（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Clotrimazole：預測新適應症為痤瘡 (acne (disease))（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Clotrimazole
@@ -33,7 +33,7 @@ description: "Clotrimazole：預測新適應症為痤瘡 (acne (disease)) (acne 
 
 </div>
 
-## Clotrimazole: 痤瘡 (acne (disease)) (acne (disease))
+## Clotrimazole: 痤瘡 (acne (disease))
 {: .text-alpha }
 
 ## 一句話總結
@@ -47,7 +47,7 @@ TxGNN 模型預測它可能對**痤瘡 (acne (disease))** 有效，分數為 0.9
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | 痤瘡 (acne (disease)) (acne (disease)) |
+| 預測新適應症 | 痤瘡 (acne (disease)) |
 | TxGNN 預測分數 | 0.9986 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |

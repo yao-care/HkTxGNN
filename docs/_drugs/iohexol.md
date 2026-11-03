@@ -5,10 +5,10 @@ parent: 僅模型預測 (L5)
 nav_order: 478
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Iohexol"
 predicted_indications: ["insomnia (disease)", "anxiety"]
-description: "Iohexol：預測新適應症為失眠 (insomnia (disease)) (insomnia (disease))（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Iohexol：預測新適應症為失眠 (insomnia (disease))（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Iohexol
@@ -33,7 +33,7 @@ description: "Iohexol：預測新適應症為失眠 (insomnia (disease)) (insomn
 
 </div>
 
-## Iohexol: 失眠 (insomnia (disease)) (insomnia (disease))
+## Iohexol: 失眠 (insomnia (disease))
 {: .text-alpha }
 
 ## 一句話總結
@@ -46,7 +46,7 @@ TxGNN 模型（深度學習）預測它可能對**失眠 (Insomnia)** 有效，�
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | 失眠 (insomnia (disease)) (insomnia (disease)) |
+| 預測新適應症 | 失眠 (insomnia (disease)) |
 | TxGNN 預測分數 | 0.9987 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
