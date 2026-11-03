@@ -36,6 +36,8 @@ description: "HkTxGNN 收錄的所有藥物驗證報告與證據等級統計。"
 
 <!-- local-home:end -->
 
+精選清單：[香港藥物中，新適應症已有臨床試驗證據的藥物]({{ '/clinical-trial-evidence/' | relative_url }})（L1–L2，附預測適應症與引用的已註冊試驗數）。
+
 ## 證據等級統計
 
 | 證據等級 | 藥物數 | 說明 |
