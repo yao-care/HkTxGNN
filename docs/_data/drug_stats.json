@@ -2,11 +2,11 @@
   "generated": "2026-11-03",
   "total_drugs": 924,
   "level_counts": {
-    "L1": 12,
-    "L2": 35,
+    "L1": 9,
+    "L2": 37,
     "L3": 34,
     "L4": 60,
-    "L5": 736
+    "L5": 737
   },
   "all_drugs": [
     {
@@ -1638,7 +1638,7 @@
     {
       "name": "Docetaxel",
       "slug": "docetaxel",
-      "level": "L1",
+      "level": "L2",
       "indication_count": 7
     },
     {
@@ -3444,7 +3444,7 @@
     {
       "name": "Montelukast",
       "slug": "montelukast",
-      "level": "L1",
+      "level": "L2",
       "indication_count": 2
     },
     {
@@ -5268,7 +5268,7 @@
     {
       "name": "Triptorelin",
       "slug": "triptorelin",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 9
     },
     {
