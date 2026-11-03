@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Medroxyprogesterone Acetate
-parent: 僅模型預測 (L5)
+parent: 中證據等級 (L3-L4)
 nav_order: 556
-evidence_level: L5
+evidence_level: L3
 indication_count: 6
 monitor_inn: "MEDROXYPROGESTERONE ACETATE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 last_modified_at: 2026-11-03
-description: "Medroxyprogesterone Acetate：預測新適應症為Breast fibrocystic disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Medroxyprogesterone Acetate：預測新適應症為乳房纖維囊腫病 (breast fibrocystic disease)（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+證據等級: **L3** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,34 @@ description: "Medroxyprogesterone Acetate：預測新適應症為Breast fibrocys
 
 </div>
 
-## Medroxyprogesterone Acetate: Breast fibrocystic disease
+## Medroxyprogesterone Acetate: 乳房纖維囊腫病 (breast fibrocystic disease)
 {: .text-alpha }
 
 ## 一句話總結
 
-Medroxyprogesterone acetate（MPA，甲羟孕酮）是一種合成黃體素，知識圖譜中記錄的原適應症包括子宮內膜異位症、子宮內膜癌與停經後骨質疏鬆。
+Medroxyprogesterone Acetate（醋酸甲羥孕酮，MPA）是一種合成黃體素類荷爾蒙藥物。
+TxGNN 模型預測它可能對**乳房纖維囊腫病 (breast fibrocystic disease)** 有效。
+目前沒有已登記的臨床試驗，文獻有 9 篇，其中只有 2 篇早期臨床報告直接評估 MPA，且品質有限。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | Breast fibrocystic disease |
+| 預測新適應症 | 乳房纖維囊腫病 (breast fibrocystic disease) |
 | TxGNN 預測分數 | 0.9995 |
-| 證據等級 | L5 |
+| 證據等級 | L3 |
 | 香港上市 | 上市中（有效許可證 10 張／共 10 張） |
 | 許可證數 | 10 張（有效 10 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。MPA 為合成黃體素，在內源性雌激素充足的繼發性閉經中，給予黃體素後再停藥（黃體素撤退試驗）可使子宮內膜進入分泌期轉化並引發撤退性出血，這在生物學上是合理的。
+目前缺乏詳細的作用機轉資料。MPA 屬於黃體素類藥物，可對抗雌激素驅動的組織增生，也可抑制促性腺激素。
 
-另外需注意：在許多市場，繼發性閉經是 MPA 的已知標示用途，因此這並非真正的新穎再利用候選，TxGNN 的高分可能反映的是此既有關聯。不過，本報告所整理的香港許可證資料並未載明核准適應症文字，故無法以本地資料確認香港是否核准此用途。
+乳房纖維囊腫病的病理特徵，是雌激素相對偏高、黃體素相對不足，導致結締組織與乳腺上皮增生。從機轉推測，黃體素類藥物可能減緩這種增生，進而減輕週期性乳房疼痛與囊腫形成。
 
-所檢索到的文獻主要談避孕用途（如 Depo-Provera、注射型避孕藥），閉經在其中是已知的藥物效應，而非治療目標。
+不過現有證據的方向並不一致。多項更年期荷爾蒙治療（HRT）研究顯示，雌激素加黃體素的合併療法可能增加乳房密度與上皮增生，這是需要留意的安全疑慮。一篇綜述也指出，MPA 在犬隻實驗中曾誘發肌上皮增生，而傳統口服避孕藥則在女性身上降低了纖維囊腫的發生率。因此，MPA 對此疾病的實際效果仍不確定。
 
 ## 臨床試驗證據
 
@@ -66,18 +68,17 @@ Medroxyprogesterone acetate（MPA，甲羟孕酮）是一種合成黃體素，�
 
 ## 文獻證據
 
-以下為與 MPA 及閉經／避孕相關的代表性文獻。所有文獻均未直接研究以 MPA 治療閉經，且摘要多不完整。
-
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | 系統性回顧 (Cochrane) | Cochrane Database Syst Rev | 複方注射避孕藥為高效、可逆的避孕方法，但出血型態改變可能影響接受度 |
-| [18843662](https://pubmed.ncbi.nlm.nih.gov/18843662/) | 2008 | 系統性回顧 (Cochrane) | Cochrane Database Syst Rev | 同上（較早版本） |
-| [8178904](https://pubmed.ncbi.nlm.nih.gov/8178904/) | 1994 | 綜述 | Am J Obstet Gynecol | DMPA 每 3 個月肌肉注射 150 mg，避孕效果超過 99% |
-| [8725701](https://pubmed.ncbi.nlm.nih.gov/8725701/) | 1996 | 綜述 | J Reprod Med | DMPA 使用者的諮詢與副作用處理 |
-| [8829701](https://pubmed.ncbi.nlm.nih.gov/8829701/) | 1996 | 綜述 | Int J Fertil Menopausal Stud | 長效避孕方式之選擇，年懷孕率低於每 100 婦女年 1 例 |
-| [6119259](https://pubmed.ncbi.nlm.nih.gov/6119259/) | 1981 | 綜述 | Int J Gynaecol Obstet | 產後避孕時機與方法選擇，涉及產後閉經 |
-| [6141923](https://pubmed.ncbi.nlm.nih.gov/6141923/) | 1984 | 綜述 | Drug Intell Clin Pharm | 藥物引起的不孕，涉及下視丘－腦垂體－性腺軸的影響 |
-| [120837](https://pubmed.ncbi.nlm.nih.gov/120837/) | 1979 | 綜述 | IARC Monographs | MPA 致癌風險評估 |
+| [6241963](https://pubmed.ncbi.nlm.nih.gov/6241963/) | 1983 | 世代研究 | Revista chilena de obstetricia y ginecologia | 以 MPA 治療嚴重纖維囊腫性乳房疾病的治療試驗（無摘要，設計細節不明） |
+| [2978834](https://pubmed.ncbi.nlm.nih.gov/2978834/) | 1988 | 世代研究 | Revista chilena de pediatria | MPA 用於青少年乳房纖維囊腫病（無摘要，設計細節不明） |
+| [12841885](https://pubmed.ncbi.nlm.nih.gov/12841885/) | 2003 | 世代研究 | Climacteric | 比較五種荷爾蒙補充方案對停經後良性纖維囊腫性乳腺病的影響 |
+| [11379380](https://pubmed.ncbi.nlm.nih.gov/11379380/) | 2001 | 世代研究 | Climacteric | 以細針抽吸細胞學追蹤 HRT 期間停經後女性的乳腺上皮增生 |
+| [11379377](https://pubmed.ncbi.nlm.nih.gov/11379377/) | 2001 | 世代研究 | Climacteric | 不同 HRT 方案對乳房攝影密度的影響 |
+| [10576236](https://pubmed.ncbi.nlm.nih.gov/10576236/) | 1999 | 世代研究 | International Journal of Gynaecology and Obstetrics | 不同 HRT 期間乳房密度改變及新出現的實質或囊性病灶 |
+| [3511705](https://pubmed.ncbi.nlm.nih.gov/3511705/) | 1986 | 綜述 | American Journal of Obstetrics and Gynecology | 纖維囊腫性乳房疾病以雌激素偏高、黃體素不足為病理特徵，乳癌風險增加 2 至 4 倍 |
+| [3657597](https://pubmed.ncbi.nlm.nih.gov/3657597/) | 1987 | 綜述 | Maturitas | 部分黃體素類藥物（含 MPA）在犬隻可誘發肌上皮增生，而傳統口服避孕藥可降低女性發生率 |
+| [8603031](https://pubmed.ncbi.nlm.nih.gov/8603031/) | 1996 | 前臨床 | The Journal of Steroid Biochemistry and Molecular Biology | 雄激素受體在乳癌與子宮內膜癌生長調控中的作用（間接相關） |
 
 ## 香港上市資訊
 
@@ -89,28 +90,33 @@ Medroxyprogesterone acetate（MPA，甲羟孕酮）是一種合成黃體素，�
 | HK-43794 | DEPO-PROVERA CONTRACEPTIVE INJ 150MG/ML | 未載明 | 未載明 |
 | HK-54973 | APO-MEDROXY TAB 5MG | 未載明 | 未載明 |
 
-本藥共有 10 張有效的單一成分許可證（僅列出前 5 張）。
+本地共有 10 張單一成分許可證，皆為有效；上表僅列出其中 5 張。許可證資料中沒有記載核准適應症文字。
 
 ## 安全性考量
 
-- **知識圖譜記錄的禁忌關聯**（來源為知識圖譜，非仿單內容）：高血壓、肝衰竭與肝病、癲癇、腎臟病、膽囊疾病、糖尿病、氣喘、全身性紅斑狼瘡、甲狀腺低下、高三酸甘油脂血症、高鈣血症、乳癌等。
-- **藥物交互作用**：共查得 100 筆，以下為部分中度等級者，主要為降血糖藥物，合併使用時可能影響血糖控制：Acarbose、Metformin、Glimepiride、Chlorpropamide、Semaglutide、Liraglutide、Dapagliflozin、Empagliflozin、胰島素類；其他尚有 Aprepitant、Dexamethasone、Clarithromycin。
+- **藥物交互作用**：已查得 100 筆交互作用紀錄，以下為其中列為中度的主要項目：
+  - 降血糖藥物：Acarbose、Metformin、Glimepiride、Chlorpropamide、Alogliptin、Saxagliptin、Canagliflozin、Dapagliflozin、Empagliflozin
+  - GLP-1 類藥物：Albiglutide、Dulaglutide、Liraglutide、Semaglutide
+  - 胰島素：Insulin aspart、Insulin degludec、Insulin detemir
+  - 其他：Aprepitant、Dexamethasone、Clarithromycin、Pegvaliase
+- **與本預測相關的安全疑慮**：HRT 相關研究顯示，雌激素加黃體素的合併方案可能增加乳房密度與上皮增生，用於乳房疾病時須審慎評估。
 
-正式的警語與禁忌症請參考原廠仿單。
+其他警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 沒有任何臨床試驗，文獻亦未直接評估 MPA 治療閉經，依規則證據等級僅能判為 L5。
-- 此用途在其他市場可能已是既有標示用途，不是新的再利用機會；香港許可證資料也未載明核准適應症，需先釐清。
+- 沒有已登記的臨床試驗。僅有的 2 篇直接評估 MPA 的早期報告規模小、品質有限，且 HRT 研究顯示合併黃體素方案可能增加乳房密度與上皮增生。
+- 因此證據方向不一致，目前只適合列為研究問題，不建議直接推進。
 
 **若要推進需要：**
-- 取得香港仿單／核准適應症文字，確認閉經是否已在標示內
-- 補充 MPA 的作用機轉資料
-- 取得仿單中的警語與禁忌症
-- 檢索直接評估 MPA 用於繼發性閉經的臨床研究或治療指引
+- 取得兩篇 MPA 直接研究（PMID 6241963、2978834）的全文，評估研究設計與結果品質。
+- 補充 MPA 的作用機轉資料。
+- 設計對照試驗，比較 MPA 與安慰劑或標準治療對乳房疼痛、囊腫與乳房密度的影響。
+- 取得香港仿單的警語與禁忌症，並評估對乳房組織的長期安全性，特別是乳房密度與乳癌風險。
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。
