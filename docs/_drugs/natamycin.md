@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "NATAMYCIN"
 predicted_indications: ["vulvitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "tinea nigra"]
 last_modified_at: 2026-11-03
-description: "Natamycin：預測新適應症為Vulvitis（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Natamycin：預測新適應症為外陰炎 (vulvitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Natamycin
@@ -33,53 +33,51 @@ description: "Natamycin：預測新適應症為Vulvitis（證據等級 L5）。�
 
 </div>
 
-## Natamycin: Vulvitis
+## Natamycin: 外陰炎 (vulvitis)
 {: .text-alpha }
 
 ## 一句話總結
 
-Natamycin 是多烯類（polyene）抗黴菌藥，知識圖譜中記錄其與黴菌性角膜潰瘍（mycotic corneal ulcer）有關。
+Natamycin 是一種抗真菌藥，在香港以眼用懸浮液劑型上市。
+TxGNN 模型預測它可能對**外陰炎 (vulvitis)** 有效，但目前沒有任何研究直接以外陰炎為對象。
+現有資料包括 1 個間接相關的 Phase 3 試驗和數篇陰道用 natamycin 的文獻。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | Vulvitis |
+| 預測新適應症 | 外陰炎 (vulvitis) |
 | TxGNN 預測分數 | 0.9981 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
 | 許可證數 | 1 張（有效 1 張） |
-| 建議決策 | Proceed with Guardrails |
-
-> 證據等級說明：已完成的 Phase 3 試驗直接研究此疾病，但只有 1 項，且為複方製劑，嚴格而言未完全達到「≥2 個 Phase 3 RCT」的 L1 門檻。另有多項較早期的 natamycin 單方陰道製劑臨床研究（見下方文獻）作為補充，等級宜保守解讀，並在決策中以保留態度看待。
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知的藥理：natamycin 是多烯大環內酯類抗黴菌藥，會與黴菌細胞膜上的麥角固醇（ergosterol）結合而破壞細胞膜。念珠菌同樣含有麥角固醇，因此在機轉上，對外陰陰道念珠菌病具有合理性。
+目前缺乏詳細的作用機轉資料。Natamycin 屬多烯類抗真菌藥，一般認為是透過結合真菌細胞膜上的麥角固醇（ergosterol）發揮作用。
 
-在臨床上，natamycin 陰道劑型（如 Pimafucin）早已用於陰道念珠菌病。本次資料中的舊文獻顯示，10 天療程的陰道錠劑治癒率約 76%（50 位患者，4 週時維持），另一項研究的治癒率為 88–94%。這些皆為早期、規模小的研究。
+如果外陰炎是真菌感染引起的，這個抗真菌機轉在理論上適用。但這個推論只適用於感染性外陰炎，不適用於其他原因（例如荷爾蒙變化、過敏或刺激）所致的外陰炎。目前找到的臨床研究，也不是以外陰炎作為獨立終點來設計。
 
-需注意：同時預測出的「滴蟲性外陰陰道炎」文獻是 natamycin 與口服 metronidazole 併用，natamycin 的角色是處理合併的酵母菌感染，並非直接對滴蟲有效；而萎縮性陰道炎、外陰潰瘍、外陰腫瘤等預測缺乏任何證據與機轉依據。
+此外，本地許可證的劑型是眼用懸浮液，與外陰或陰道局部使用的劑型不同。若要朝這個方向推進，必須另外評估劑型與給藥途徑。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT06411314](https://clinicaltrials.gov/study/NCT06411314) | Phase 3 | 完成 | 218 | 比較 natamycin 100 mg + lactulose 300 mg 陰道栓劑與 Pimafucin（natamycin 100 mg）或單用 lactulose 的優越性，用於非懷孕成年女性的外陰陰道念珠菌病。因為是複方製劑，無法單獨判定 natamycin 的效果 |
+| [NCT06411314](https://clinicaltrials.gov/study/NCT06411314) | Phase 3 | 完成 | 218 | 比較 Natamycin 100 mg + Lactulose 300 mg 陰道栓劑、Pimafucin（Natamycin 100 mg）與單用 Lactulose 的優效性及安全性，對象為非懷孕成年女性。針對的是外陰陰道的真菌感染，並非以外陰炎為獨立主要終點，屬間接證據 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [39979898](https://pubmed.ncbi.nlm.nih.gov/39979898/) | 2025 | RCT | BMC Women's Health | natamycin + lactulose 陰道栓劑用於外陰陰道念珠菌病的療效與安全性 |
-| [4561566](https://pubmed.ncbi.nlm.nih.gov/4561566/) | 1972 | RCT | Med J Aust | 比較 amphotericin B 與 natamycin 陰道栓劑治療陰道念珠菌病 |
-| [6760652](https://pubmed.ncbi.nlm.nih.gov/6760652/) | 1982 | 臨床研究 | Acta Obstet Gynecol Scand | 33 位患者使用 natamycin 陰道錠 10 天，同時治療伴侶者治癒率 94%，安慰劑組 88%，差異不顯著 |
-| [6966774](https://pubmed.ncbi.nlm.nih.gov/6966774/) | 1980 | 臨床研究 | N Z Med J | 50 位女性使用 Pimafucin 陰道錠，2 週治癒率 76%，4 週維持 |
-| [4584444](https://pubmed.ncbi.nlm.nih.gov/4584444/) | 1973 | 臨床研究 | The Practitioner | natamycin 用於孕期陰道念珠菌病 |
-| [12849848](https://pubmed.ncbi.nlm.nih.gov/12849848/) | 2003 | 病例對照 | Reprod Toxicol | 孕期陰道使用 natamycin 的致畸性病例對照研究 |
-| [11048415](https://pubmed.ncbi.nlm.nih.gov/11048415/) | 1999 | Review | Ceska Gynekol | 比較 natamycin 與 clotrimazole 治療慢性陰道酵母菌感染 |
-| [41412769](https://pubmed.ncbi.nlm.nih.gov/41412769/) | 2025 | 問卷調查 | Ceska Slov Farm | 烏克蘭利維夫外陰陰道念珠菌病處置調查（408 位女性），非療效研究 |
+| [39979898](https://pubmed.ncbi.nlm.nih.gov/39979898/) | 2025 | RCT | BMC Women's Health | Natamycin + Lactulose 陰道栓劑在成年女性中的療效與安全性，為上述 Phase 3 試驗的發表 |
+| [4561566](https://pubmed.ncbi.nlm.nih.gov/4561566/) | 1972 | RCT | Med J Aust | 比較 amphotericin B 與 natamycin（Pimafucin）陰道塞劑的療效 |
+| [6760652](https://pubmed.ncbi.nlm.nih.gov/6760652/) | 1982 | 臨床研究 | Acta Obstet Gynecol Scand | 33 位患者使用 natamycin 陰道錠 10 天，伴侶同時治療者治癒率 94%，伴侶使用安慰劑者 88%，兩者無顯著差異 |
+| [6966774](https://pubmed.ncbi.nlm.nih.gov/6966774/) | 1980 | 臨床研究 | N Z Med J | 50 位女性使用 natamycin 陰道錠 10 天，兩週治癒率 76%，四週時維持 |
+| [1082689](https://pubmed.ncbi.nlm.nih.gov/1082689/) | 1975 | 臨床研究 | Zentralbl Gynakol | 口服 metronidazole 加陰道 natamycin 錠劑，用於泌尿生殖道混合感染 |
+| [18288724](https://pubmed.ncbi.nlm.nih.gov/18288724/) | 2008 | 製劑研究 | J Pharm Sci | Natamycin 與 γ-環糊精包合物的陰道黏膜黏附製劑，可提升溶解度與穩定性，抗黴活性不減 |
 
 ## 香港上市資訊
 
@@ -87,28 +85,23 @@ Natamycin 是多烯類（polyene）抗黴菌藥，知識圖譜中記錄其與黴
 |---------|------|------|-----------|
 | HK-41714 | NATACYN OPHTHALMIC SUSPENSION 5% | 眼用懸浮液（依品名） | 資料中未載明 |
 
-
 ## 安全性考量
 
-- **孕期使用**：有一項病例對照研究（PMID 12849848）探討孕期陰道使用 natamycin 的致畸性，結論細節請查閱原文。
-- **用藥限制**：證據僅適用於念珠菌（真菌）病因，不適用於細菌性陰道炎或滴蟲性陰道炎。
-
-其餘安全性資訊（警語、禁忌症、藥物交互作用）請參考原廠仿單。
+安全性資訊請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-- 機轉合理（麥角固醇結合），且有 1 項已完成的 Phase 3 RCT 與多項歷史臨床研究直接針對陰道念珠菌病，但 Phase 3 為複方製劑，單方 natamycin 的證據多為老舊小型研究。
-- 香港現有許可證為眼用劑型，路徑與預測適應症不同。
+沒有任何已引用的試驗或文獻直接以外陰炎為研究對象，因此證據等級只能定為 L5。現有的 Phase 3 試驗和文獻只是間接支持。本地許可證的劑型為眼用，與外陰局部使用不同，所以目前不建議推進。
 
 **若要推進需要：**
-- 取得 NCT06411314 / PMID 39979898 的完整結果，分析 natamycin 單獨組（Pimafucin 對照組）的表現
-- 確認香港是否有陰道劑型，或需另行申請劑型/適應症
-- 取得香港仿單的警語、禁忌症與詳細作用機轉資料
-- 將使用範圍限定於確診念珠菌病因，排除細菌性及滴蟲性陰道炎
-- 其他預測（外陰炎、外陰陰道炎、泛念珠菌病）僅作為念珠菌感染的延伸，不建議獨立推進；萎縮性陰道炎、外陰潰瘍、外陰腫瘤、滴蟲性外陰陰道炎、黑癬等維持 Hold 或僅作研究問題
+- 以外陰炎（需區分感染性與非感染性）為明確族群與終點的臨床研究
+- 外陰或陰道局部劑型與給藥途徑的可行性評估
+- 取得原廠仿單中的警語、禁忌與作用機轉資料
+- 確認感染性外陰炎中真菌病因所占的比例，以界定適用族群
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

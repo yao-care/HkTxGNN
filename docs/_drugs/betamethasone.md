@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Betamethasone
-parent: 高證據等級 (L1-L2)
+parent: 中證據等級 (L3-L4)
 nav_order: 115
-evidence_level: L2
+evidence_level: L4
 indication_count: 7
 monitor_inn: "BETAMETHASONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 last_modified_at: 2026-11-03
-description: "Betamethasone：預測新適應症為Alopecia mucinosa（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
+description: "Betamethasone：預測新適應症為黏液性禿髮 (alopecia mucinosa)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Betamethasone
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **7** 個
+證據等級: **L4** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,61 +33,47 @@ description: "Betamethasone：預測新適應症為Alopecia mucinosa（證據等
 
 </div>
 
-## Betamethasone: Alopecia mucinosa
+## Betamethasone: 黏液性禿髮 (alopecia mucinosa)
 {: .text-alpha }
 
 ## 一句話總結
 
-Betamethasone 是一種強效糖皮質素（glucocorticoid），具有廣泛的抗發炎與免疫抑制作用。
+Betamethasone 是一種皮質類固醇，具抗發炎與免疫抑制作用，在香港有多張外用與口服劑型的許可證。
+TxGNN 模型預測它可能對**黏液性禿髮 (alopecia mucinosa)** 有效，但目前**沒有臨床試驗**，只有 **1 篇 1964 年的病例系列文獻**，證據非常薄弱。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | Alopecia mucinosa |
+| 預測新適應症 | 黏液性禿髮 (alopecia mucinosa) |
 | TxGNN 預測分數 | 0.9997 |
-| 證據等級 | L2 |
+| 證據等級 | L4 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 至少 20 張 |
-| 建議決策 | Proceed with Guardrails |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（MOA）。不過 betamethasone 屬於強效糖皮質素，一般認為其作用在於抑制 T 細胞活化及促發炎細胞激素的產生。
+目前缺乏詳細的作用機轉資料。Betamethasone 屬於皮質類固醇，一般認為透過抑制發炎反應與免疫細胞活性發揮作用。
 
-圓形禿是一種由 T 細胞介導的自體免疫疾病，毛囊的免疫豁免（immune privilege）遭到破壞，導致非瘢痕性掉髮。糖皮質素的免疫抑制作用正好針對此一病理機轉，因此機轉上合理。
+黏液性禿髮（又稱毛囊黏液變性）的特徵是毛囊內黏液堆積，並伴隨毛囊周圍的發炎細胞浸潤。皮質類固醇的抗發炎作用在機轉上可能有幫助，這也是模型給出此預測的合理背景。
 
-臨床上，外用、病灶內注射及口服小劑量脈衝（mini-pulse）等給藥方式均已被用於圓形禿，並有多項比較研究與隨機對照試驗。
+不過，這只是機轉上的推測。目前唯一的文獻是一篇舊的病例系列與治療回顧，沒有現代的對照研究。另外，部分黏液性禿髮病例與皮膚 T 細胞淋巴瘤相關，任何治療前都必須先排除。
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT06786689](https://clinicaltrials.gov/study/NCT06786689) | Phase 2 | 完成 | 60 | 每週 azathioprine 脈衝 vs 口服 betamethasone 小劑量脈衝，用於中重度圓形禿 |
-| [NCT02350023](https://clinicaltrials.gov/study/NCT02350023) | Phase 4 | 完成 | 50 | 外用 latanoprost vs 外用皮質類固醇，用於局部圓形禿 |
-| [NCT06087796](https://clinicaltrials.gov/study/NCT06087796) | Phase 1 | 未知 | 60 | 外用 pentoxifylline、metformin vs betamethasone，用於斑塊狀圓形禿 |
-| [NCT07696585](https://clinicaltrials.gov/study/NCT07696585) | 不適用 | 尚未招募 | 60 | metformin、simvastatin 與 betamethasone valerate 外用治療，尚無結果 |
-| [NCT04207931](https://clinicaltrials.gov/study/NCT04207931) | Phase 4 | 招募中 | 250 | 中央離心性瘢痕性禿髮的治療結果比較（疾病類型與圓形禿不同，僅間接相關） |
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [39393548](https://pubmed.ncbi.nlm.nih.gov/39393548/) | 2025 | RCT | J Am Acad Dermatol | 微針經皮遞送複方 betamethasone 治療圓形禿，以減輕病灶內注射的疼痛 |
-| [34400956](https://pubmed.ncbi.nlm.nih.gov/34400956/) | 2021 | RCT | Iran J Pharm Res | 口服 betamethasone 脈衝、methotrexate 及兩者合併治療嚴重圓形禿（雙盲、安慰劑對照） |
-| [32594786](https://pubmed.ncbi.nlm.nih.gov/32594786/) | 2022 | RCT | J Dermatol Treat | 病灶內 betamethasone vs triamcinolone，用於局部圓形禿（患者內對照） |
-| [36257912](https://pubmed.ncbi.nlm.nih.gov/36257912/) | 2022 | RCT | Dermatol Ther | latanoprost vs minoxidil、betamethasone 及其合併，用於圓形禿 |
-| [40510104](https://pubmed.ncbi.nlm.nih.gov/40510104/) | 2025 | RCT | Cureus | 口服 cyclosporine vs 口服 betamethasone 小劑量脈衝（60 位患者） |
-| [37870096](https://pubmed.ncbi.nlm.nih.gov/37870096/) | 2023 | 統合分析 | Cochrane Database Syst Rev | 圓形禿治療方式的網絡統合分析 |
-| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Review | Dermatol Pract Concept | 皮質類固醇脈衝治療圓形禿的療效與不良反應回顧 |
-| [38623137](https://pubmed.ncbi.nlm.nih.gov/38623137/) | 2024 | 比較研究 | Cureus | 外用 betamethasone dipropionate vs 外用 minoxidil |
-| [40519428](https://pubmed.ncbi.nlm.nih.gov/40519428/) | 2025 | 臨床研究 | Cureus | 口服 betamethasone 小劑量脈衝治療中重度圓形禿的療效與安全性 |
-| [27746635](https://pubmed.ncbi.nlm.nih.gov/27746635/) | 2016 | 比較研究 | Ann Dermatol | 口服 cyclosporine 與 betamethasone 小劑量脈衝的比較 |
+| [14164963](https://pubmed.ncbi.nlm.nih.gov/14164963/) | 1964 | 病例系列／回顧 | Archives of dermatology | 報告 3 例毛囊黏液變性（黏液性禿髮）並回顧治療方式，無摘要可供進一步判讀 |
 
 ## 香港上市資訊
 
-香港已有 betamethasone 單一成分產品上市，目前有效許可證均為單方製劑。以下為部分主要許可證（清單可能不完整）：
+本藥在香港目前為已上市狀態。下表列出其中 5 張單一成分許可證，完整清單可能不止於此。資料庫中未記錄這些許可證的核准適應症與劑型文字。
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -99,23 +85,27 @@ Betamethasone 是一種強效糖皮質素（glucocorticoid），具有廣泛的�
 
 ## 安全性考量
 
-- **藥物交互作用**：共查得 100 筆交互作用紀錄，其中包含重度等級者，如 adalimumab（Major）；中度者例如 zidovudine、isotretinoin、ibuprofen、ketorolac、nifedipine、ethinylestradiol、acarbose 等。
-- **使用防護**：長期或高劑量使用須留意皮膚萎縮與下視丘-腦下垂體-腎上腺軸（HPA axis）抑制，停藥後亦可能復發。
+- **藥物交互作用**：已查詢到 100 筆交互作用紀錄，以下為部分代表：
+  - **嚴重**：Adalimumab
+  - **中等**：Zidovudine、Isotretinoin、Acarbose、Acebutolol、Acetazolamide、Ketorolac、Nifedipine、Ibuprofen、Ethinylestradiol、Fluvoxamine、Fosamprenavir 等
+  - **輕微**：Formoterol、Salbutamol
 
 其他警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-已有多項直接以圓形禿為對象的臨床試驗（含 1 個已完成的 Phase 2 試驗）及多篇 RCT 文獻，涵蓋外用、病灶內與口服小劑量脈衝等給藥方式，且機轉上與自體免疫病理相符。但多數試驗樣本數小，且 betamethasone 常作為對照組，因此仍需謹慎推進。
+- 沒有任何臨床試驗，唯一的文獻是 1964 年的病例系列，缺乏現代、可靠的療效證據。
+- 模型分數雖高，但不能取代臨床證據。
 
 **若要推進需要：**
-- 在香港取得針對圓形禿的明確適應症或仿單依據，並確認各劑型（外用、口服）的適用範圍
-- 設計較大型、以 betamethasone 為主要介入的隨機對照試驗，明確比較給藥途徑與劑量
-- 制定長期使用的安全性監測計畫（皮膚萎縮、HPA 軸抑制、停藥後復發追蹤）
-- 補充詳細的作用機轉資料與完整的仿單警語及禁忌症
+- 搜尋並評估近年關於皮質類固醇（外用或病灶內注射）治療黏液性禿髮的病例報告與回顧
+- 釐清黏液性禿髮與皮膚 T 細胞淋巴瘤的鑑別診斷流程
+- 取得完整的作用機轉資料與原廠仿單的警語、禁忌症
+- 設計小型前瞻性或回溯性研究，評估外用劑型的療效與安全性
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

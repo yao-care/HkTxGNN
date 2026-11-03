@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "METHYLPREDNISOLONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 last_modified_at: 2026-11-03
-description: "Methylprednisolone：預測新適應症為Alopecia mucinosa（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Methylprednisolone：預測新適應症為黏蛋白性脫髮 (alopecia mucinosa)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Methylprednisolone
@@ -33,53 +33,42 @@ description: "Methylprednisolone：預測新適應症為Alopecia mucinosa（證�
 
 </div>
 
-## Methylprednisolone: Alopecia mucinosa
+## Methylprednisolone: 黏蛋白性脫髮 (alopecia mucinosa)
 {: .text-alpha }
 
 ## 一句話總結
 
-Methylprednisolone 是一種糖皮質素，知識圖譜中記錄的相關用途包括自體免疫疾病、克隆氏症與急性淋巴性白血病等。
+Methylprednisolone 是一種糖皮質素（類固醇）類抗發炎藥物。
+TxGNN 模型預測它可能對**黏蛋白性脫髮 (alopecia mucinosa)** 有效，
+但目前**沒有任何臨床試驗或直接相關文獻**支持，僅屬模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | Alopecia mucinosa |
+| 預測新適應症 | 黏蛋白性脫髮 (alopecia mucinosa) |
 | TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
 | 許可證數 | 8 張（有效 8 張） |
-| 建議決策 | Proceed with Guardrails |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Methylprednisolone 屬於強效糖皮質素，具廣泛的抗發炎與免疫抑制作用，包括抑制細胞激素生成，以及降低 T 細胞活化與浸潤。
+目前缺乏詳細的作用機轉資料。根據已知資訊，methylprednisolone 屬於糖皮質素類，具有廣泛的抗發炎與免疫抑制作用。
 
-圓禿是一種 T 細胞媒介的自體免疫疾病，毛囊的免疫豁免狀態瓦解，免疫細胞攻擊毛囊。
+黏蛋白性脫髮（毛囊黏蛋白沉積症）的病理特徵是毛囊周圍淋巴球浸潤與黏蛋白沉積。由於病變帶有發炎特性，抗發炎的糖皮質素在機轉上有合理性。
 
-高劑量脈衝療法（口服或靜脈）可快速壓制活動性病程，但停藥後容易復發，且累積的類固醇副作用限制了長期使用。
+不過，這僅是機轉層面的推論。目前沒有試驗或文獻直接驗證此用途，因此只能視為待驗證的假設。
 
 ## 臨床試驗證據
 
-| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT01167946](https://clinicaltrials.gov/study/NCT01167946) | Phase 4 | 完成 | 42 | 口服超高劑量脈衝 methylprednisolone 用於重度、治療抗性圓形禿；未提供結果，無法確認療效，也無明確的隨機分組或對照組 |
+目前無相關臨床試驗登記。
 
 ## 文獻證據
 
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [32270396](https://pubmed.ncbi.nlm.nih.gov/32270396/) | 2020 | 系統性回顧 | Dermatology and Therapy | 評估環孢素單用或合併全身性類固醇治療圓形禿，結果不一 |
-| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Review | Dermatology Practical & Conceptual | 回顧類固醇脈衝療法在圓形禿的療效、復發率、副作用與預後因子 |
-| [28378336](https://pubmed.ncbi.nlm.nih.gov/28378336/) | 2017 | Review | International Journal of Dermatology | 回顧全禿與普禿的治療選項，當時尚無 FDA 核准療法 |
-| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Review | Pediatric Dermatology | 回顧兒童脈衝類固醇的劑量方案與副作用，劑量尚未標準化 |
-| [25566921](https://pubmed.ncbi.nlm.nih.gov/25566921/) | 2015 | 世代研究 | Indian J Dermatol Venereol Leprol | 靜脈 methylprednisolone 脈衝治療重度圓形禿 |
-| [35986630](https://pubmed.ncbi.nlm.nih.gov/35986630/) | 2022 | 回溯性世代 | Dermatologic Therapy | 26 例廣泛性圓形禿，比較 methylprednisolone 單用與合併 methotrexate |
-| [21592197](https://pubmed.ncbi.nlm.nih.gov/21592197/) | 2011 | 回溯性世代 | Journal of Dermatology | 70 例，分析 methylprednisolone 脈衝治療的預後因子 |
-| [9777767](https://pubmed.ncbi.nlm.nih.gov/9777767/) | 1998 | 開放性前瞻研究 | J Am Acad Dermatol | 45 例重度圓形禿，單次靜脈脈衝治療 |
-| [22426909](https://pubmed.ncbi.nlm.nih.gov/22426909/) | 2012 | 臨床研究 | Saudi Medical Journal | 口服超高劑量脈衝 methylprednisolone 治療重度治療抗性圓形禿 |
-| [8274789](https://pubmed.ncbi.nlm.nih.gov/8274789/) | 1993 | 世代研究 | Dermatology | 9 例近期發作重度圓形禿，靜脈脈衝後 8 例病程停止 |
+目前無相關文獻。
 
 ## 香港上市資訊
 
@@ -91,33 +80,30 @@ Methylprednisolone 是一種糖皮質素，知識圖譜中記錄的相關用途�
 | HK-00490 | DEPO MEDROL STERILE AQ SUSP 40MG/ML | 未載明 | 未載明 |
 | HK-00456 | SOLU MEDROL 500 MG FOR INJ | 未載明 | 未載明 |
 
-共 8 張有效單一成分許可證，上表僅列出 5 張主要許可證。
+本藥在香港共有 8 張有效的單方許可證，此處僅列出 5 張。
 
 ## 安全性考量
 
-- **知識圖譜記錄的禁忌關聯**（非仿單內容）：高血壓、癲癇、高血糖、麻疹、充血性心衰竭、單純疱疹病毒角膜炎、腦下垂體功能低下及相關生長激素缺乏症、尿素循環障礙等。
-- **藥物交互作用**（共 100 筆，列出主要者）：
-  - 重度：Bupropion、Clarithromycin
-  - 中度：降血糖藥物（Metformin、Pioglitazone、Acarbose、Canagliflozin、Dapagliflozin、Empagliflozin 等）、Amphotericin B、Aprepitant、乙醯水楊酸
+- **藥物交互作用**（共 100 筆紀錄，以下為部分重點）：
+  - 嚴重（Major）：Bupropion、Clarithromycin
+  - 中度（Moderate）：多種降血糖藥物（如 Metformin、Pioglitazone、Acarbose、Dapagliflozin、Empagliflozin 等）、Amphotericin B、Aprepitant、Acetylsalicylic acid（阿斯匹靈）
+  - 使用類固醇可能影響血糖控制，與降血糖藥物併用時須留意。
 
-其他警語與禁忌症請參考原廠仿單。
+其餘警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-- 有 1 個完成的 Phase 4 試驗與多篇直接針對圓形禿的世代研究、回顧與開放性研究，顯示脈衝療法可用於重度病例。
-- 目前缺乏已完成的 Phase 3 RCT，且復發率高、類固醇副作用明顯，需設定使用限制。
+此預測分數很高，但完全沒有臨床試驗或直接相關文獻，證據等級為 L5。目前僅有「抗發炎機轉合理」的推論，且全身性類固醇有已知風險，不宜據此推進。
 
 **若要推進需要：**
-- 取得香港仿單的警語、禁忌症與核准適應症資料
-- 補充詳細的作用機轉資料
-- 以隨機對照試驗確認療效與最佳脈衝劑量
-- 制定復發後的處置策略及類固醇副作用監測計畫（血糖、血壓、感染風險等）
-- 限定使用於重度、治療抗性或不適用 JAK 抑制劑的族群，並評估兒童族群的劑量
+- 搜尋並評估黏蛋白性脫髮使用糖皮質素的病例報告、病例系列或回顧性研究
+- 確認作用機轉資料與香港仿單中的警語、禁忌症
+- 評估給藥途徑（局部注射、外用或全身性）與治療風險效益
+- 與皮膚科專家討論是否值得設計小型探索性研究
 
-其餘預測適應症（禿髮性黏蛋白沉積症、休止期落髮等）僅有模型預測，無臨床試驗或直接文獻支持，證據等級為 L5，建議 Hold。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

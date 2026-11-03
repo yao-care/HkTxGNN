@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Magnesium Sulfate
-parent: 僅模型預測 (L5)
+parent: 中證據等級 (L3-L4)
 nav_order: 550
-evidence_level: L5
+evidence_level: L4
 indication_count: 8
 monitor_inn: "MAGNESIUM SULFATE"
 predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
 last_modified_at: 2026-11-03
-description: "Magnesium Sulfate：預測新適應症為Thrombotic disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Magnesium Sulfate：預測新適應症為血栓性疾病 (thrombotic disease)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Magnesium Sulfate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+證據等級: **L4** | 預測適應症: **8** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,69 +33,58 @@ description: "Magnesium Sulfate：預測新適應症為Thrombotic disease（證�
 
 </div>
 
-## Magnesium Sulfate: Thrombotic disease
+## Magnesium Sulfate: 血栓性疾病 (thrombotic disease)
 {: .text-alpha }
 
 ## 一句話總結
 
-硫酸鎂在知識圖譜中記錄的原有用途為便秘與子癇前症（輕度與重度）。
-目前有 **28 個臨床試驗**和 **19 篇文獻**與此預測疾病相關。
+硫酸鎂 (Magnesium Sulfate) 是一種鎂鹽類藥物，在香港已有多張有效許可證。
+TxGNN 模型預測它可能對**血栓性疾病 (thrombotic disease)** 有效。
+目前有 **1 個 Phase 3 臨床試驗**（血栓性血小板減少性紫斑症，狀態未知、無結果）和數篇前臨床與小型臨床研究，但沒有直接證實療效的臨床資料。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | Thrombotic disease |
+| 預測新適應症 | 血栓性疾病 (thrombotic disease) |
 | TxGNN 預測分數 | 0.9990 |
-| 證據等級 | L5 |
+| 證據等級 | L4 |
 | 香港上市 | 上市中（有效許可證 11 張／共 11 張） |
 | 許可證數 | 11 張（有效 11 張） |
-| 建議決策 | Proceed with Guardrails |
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank 未提供）。就文獻與既有研究所知，鎂離子被認為是 NMDA 受體拮抗劑與鈣離子通道阻斷劑，並可引起腦血管擴張，因而能降低癲癇發作風險與腦血管痙攣。
+目前缺乏詳細的作用機轉資料。不過，前臨床研究提供了一些線索。動物實驗顯示，鎂可減少血小板在受損血管處的沉積，並抑制動脈血栓形成。可能的機轉包括鈣拮抗作用、抑制血小板凝集，以及影響兒茶酚胺釋放。
 
-妊娠毒血症與子癇前症、子癇屬同一疾病譜系。硫酸鎂預防子癇發作是產科的標準做法，所以模型給出高分與既有知識相符。需要說明的是，這個預測並非真正的「再利用」，而是與知識圖譜已記錄關聯一致的結果。
+在人體方面，有一項小型開放標記先導研究評估了經皮冠狀動脈介入合併支架植入的病人使用鎂的可行性。另有數項研究探討鎂對血管痙攣類疾病的作用，例如雷諾氏現象與變異型心絞痛。這些研究偏重血管張力與生理指標，不是以血栓事件為主要終點。
 
-其他預測疾病中，頭痛疾患（Phase 3 偏頭痛試驗）與術後咽喉痛有一定研究，其餘多為證據薄弱的預測，詳見結論。
+整體而言，機轉上有合理性，但現有證據多為動物資料與間接的人體研究。目前沒有臨床證據支持鎂可預防或治療一般的血栓性疾病。
 
 ## 臨床試驗證據
 
-以下為與子癇前症直接相關且最相關的試驗（共 28 筆，列出 10 筆）：
-
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT02317146](https://clinicaltrials.gov/study/NCT02317146) | Phase 2/3 | 完成 | 280 | 重度子癇前症產後硫酸鎂 6 小時與 24 小時方案比較 |
-| [NCT02307201](https://clinicaltrials.gov/study/NCT02307201) | Phase 2/3 | 完成 | 1114 | 產前已用藥逾 8 小時者，產後 24 小時與不續用比較 |
-| [NCT03164304](https://clinicaltrials.gov/study/NCT03164304) | Phase 4 | 完成 | 222 | 重度子癇前症維持劑量 1 g 與 2 g 比較 |
-| [NCT00004399](https://clinicaltrials.gov/study/NCT00004399) | 未標示 | 完成 | 2000 | Nimodipine 與硫酸鎂預防子癇發作比較 |
-| [NCT04501289](https://clinicaltrials.gov/study/NCT04501289) | 未標示 | 完成 | 114 | 低劑量方案與標準 Pritchard 方案比較 |
-| [NCT01408979](https://clinicaltrials.gov/study/NCT01408979) | Phase 4 | 完成 | 120 | 重度子癇前症產後短療程預防 |
-| [NCT03318211](https://clinicaltrials.gov/study/NCT03318211) | Phase 4 | 未知 | 100 | 產後續用與停用硫酸鎂比較 |
-| [NCT02396030](https://clinicaltrials.gov/study/NCT02396030) | Phase 4 | 提前終止 | 62 | 維持劑量 1 g/h 與 2 g/h 預防子癇 |
-| [NCT06486025](https://clinicaltrials.gov/study/NCT06486025) | Phase 1/2 | 未知 | 100 | 過重及肥胖女性的替代劑量方案 |
-| [NCT07220902](https://clinicaltrials.gov/study/NCT07220902) | Phase 3 | 尚未招募 | 1240 | Levetiracetam 與硫酸鎂預防子癇發作的等效性試驗 |
+| [NCT03237819](https://clinicaltrials.gov/study/NCT03237819) | Phase 3 | 未知 | 74 | 多中心隨機對照試驗，評估硫酸鎂用於加護病房的血栓性血小板減少性紫斑症 (TTP)；無公開結果 |
+
+此試驗針對 TTP 這一特定的血栓性微血管病變，與廣義的血栓性疾病只是部分相關。由於試驗狀態未知且沒有結果，無法作為療效證據。
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [32980358](https://pubmed.ncbi.nlm.nih.gov/32980358/) | 2022 | Review | Am J Obstet Gynecol | 21 世紀子癇的發生率與處置 |
-| [38669914](https://pubmed.ncbi.nlm.nih.gov/38669914/) | 2024 | Review | Pregnancy Hypertens | 硫酸鎂於子癇前症的廣泛適應，不限於神經症狀 |
-| [36822712](https://pubmed.ncbi.nlm.nih.gov/36822712/) | 2023 | Review | Obstet Gynecol Clin North Am | 高收入與中低收入國家的用藥方案 |
-| [10803454](https://pubmed.ncbi.nlm.nih.gov/10803454/) | 2000 | Review | Clin Pharmacokinet | 子癇及子癇前症的藥動學原則 |
-| [8879973](https://pubmed.ncbi.nlm.nih.gov/8879973/) | 1996 | Review | Drug Saf | 硫酸鎂預防子癇發作優於 diazepam 與 phenytoin |
-| [38872116](https://pubmed.ncbi.nlm.nih.gov/38872116/) | 2024 | 藥動學研究 | BMC Pregnancy Childbirth | 中國子癇前症族群的群體藥動學與劑量最佳化 |
-| [32642964](https://pubmed.ncbi.nlm.nih.gov/32642964/) | 2020 | 藥動學研究 | Drugs R D | 子癇前症群體藥動學及相關因素 |
-| [37467840](https://pubmed.ncbi.nlm.nih.gov/37467840/) | 2023 | Review | Am J Obstet Gynecol | 產後晚期重度高血壓是否皆需硫酸鎂 |
-| [38574215](https://pubmed.ncbi.nlm.nih.gov/38574215/) | 2024 | Review | Am Fam Physician | 妊娠高血壓疾患概述 |
-| [19464502](https://pubmed.ncbi.nlm.nih.gov/19464502/) | 2009 | Review | Semin Perinatol | 子癇前症與子癇的全球影響 |
+| [14506544](https://pubmed.ncbi.nlm.nih.gov/14506544/) | 2003 | 先導研究 | J Cardiovasc Pharmacol Ther | 非急性經皮冠狀動脈介入合併支架植入的病人，開放標記評估給予鎂的可行性 |
+| [11816720](https://pubmed.ncbi.nlm.nih.gov/11816720/) | 2001 | 前臨床 | Thromb Haemost | 大鼠血管損傷模型中，靜脈輸注鎂可預防並延遲動脈血栓形成，並影響凝血 |
+| [3441141](https://pubmed.ncbi.nlm.nih.gov/3441141/) | 1987 | 前臨床 | Magnesium | 狗與兔的部分動脈狹窄模型中，硫酸鎂在內皮損傷處顯示抗血栓作用 |
+| [3724238](https://pubmed.ncbi.nlm.nih.gov/3724238/) | 1986 | 臨床研究 | Magnesium | 15 位變異型心絞痛病人，硫酸鎂可終止並預防冷加壓誘發的血管收縮 |
+| [7368083](https://pubmed.ncbi.nlm.nih.gov/7368083/) | 1980 | 前臨床 | Surgery | 兔動脈暫時阻斷模型中，硫酸鎂減少血小板沉積 |
+| [8024163](https://pubmed.ncbi.nlm.nih.gov/8024163/) | 1994 | 臨床生理研究 | Angiology | 原發性雷諾氏現象病人輸注硫酸鎂後，測量血漿去甲腎上腺素與神經肽 Y 的變化 |
+| [14168822](https://pubmed.ncbi.nlm.nih.gov/14168822/) | 1964 | 臨床報告 | The Practitioner | 非經口硫酸鎂用於動脈疾病（無摘要可供摘要） |
 
 ## 香港上市資訊
 
-香港共有 11 張含硫酸鎂成分的單一成分許可證，皆為有效。資料中未載明核准適應症文字，以下列出 5 張。
+香港共有 11 張硫酸鎂單方許可證，全部為有效狀態。以下列出主要 5 張，本地資料未記錄其核准適應症文字。
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -107,25 +96,27 @@ description: "Magnesium Sulfate：預測新適應症為Thrombotic disease（證�
 
 ## 安全性考量
 
-- **知識圖譜記錄的禁忌關聯**（非仿單文字）：腎臟疾病、高鈣血症、腎鈣質沉著症、磷代謝疾病、慢性腹瀉、闌尾炎、房室傳導阻滯、高血鉀週期性麻痺、週期性麻痺、低醛固酮症、先天性肌強直、胃輕癱等。
-- **藥物交互作用**：共 92 筆。主要（Major）包括 Dolutegravir、Amikacin、Bictegravir；中度（Moderate）包括 Nifedipine、Amlodipine、Doxycycline、Tetracycline、Ciprofloxacin、Cisatracurium、數種雙磷酸鹽類與皮質類固醇、維生素 D 類。
-- **用藥監測**：血清鎂濃度、深部肌腱反射、呼吸速率、尿量；腎功能不全及肥胖者需調整劑量。
+- **藥物交互作用**：本次彙整的資料顯示共有 92 項交互作用，主要包括：
+  - **重度 (Major)**：Dolutegravir、Amikacin、Bictegravir
+  - **中度 (Moderate)**：Doxycycline、Tetracycline、Ciprofloxacin、Nifedipine、Amlodipine、Cisatracurium、Alendronic acid、Risedronic acid、Ibandronate、Cholecalciferol、Calcifediol、Calcitriol，以及多種皮質類固醇（Hydrocortisone、Dexamethasone、Betamethasone、Triamcinolone）
 
-仿單警語與正式禁忌請參考原廠仿單。
+其他警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-- 針對妊娠毒血症，有多個已完成的 Phase 2/3 及 Phase 4 隨機試驗，涵蓋劑量與療程，證據等級 L1。
-- 其他預測疾病中，頭痛疾患有 1 個已完成的 Phase 3 試驗但結果未提供（建議研究問題）；術後咽喉痛有多項隨機試驗與統合分析，但與感染性咽炎不同；血栓性疾病、精神病性疾患的證據薄弱，鼻腔疾病、急性喉咽炎、難治型思覺失調症僅有模型預測（L5），均建議暫緩（Hold）。
+- 血栓性疾病方面唯一的 Phase 3 試驗針對 TTP，狀態未知且無結果。其餘證據以動物實驗與間接的人體血管研究為主，沒有直接證明療效的臨床資料。
+- 因此證據停留在 L4，尚不足以推進。
 
 **若要推進需要：**
-- 取得香港仿單的適應症、警語與禁忌資料，並補齊作用機轉資料
-- 建立血清鎂、反射、呼吸、尿量的監測計畫，並訂定腎功能不全與肥胖者的劑量調整準則
-- 評估 Dolutegravir、Amikacin、Bictegravir 等主要交互作用的處置
-- 若評估頭痛疾患，需先確認 NCT05967442 的試驗結果
+- 確認 NCT03237819 的現況與結果。
+- 取得詳細的作用機轉資料（MOA）。
+- 明確界定目標族群，例如 TTP、支架血栓或其他特定血栓情境，並設計以血栓事件為終點的臨床試驗。
+- 取得原廠仿單的警語與禁忌症，並評估鎂劑對凝血功能的影響與出血風險。
+- 針對重度藥物交互作用（如與部分抗病毒藥物、胺基糖苷類抗生素）制定監測方案。
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

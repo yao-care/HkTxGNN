@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "Clidinium"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "myasthenia gravis with thymus hyperplasia", "myasthenia, limb-girdle, autoimmune", "neonatal myasthenia gravis", "autoimmune disease of peripheral nervous system", "disease of receptor activity", "large intestine disease"]
-description: "Clidinium：預測新適應症為馬尾症候群 (Cauda Equina Syndrome) (cauda equina syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Clidinium：預測新適應症為馬尾症候群 (cauda equina syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Clidinium
@@ -33,81 +33,42 @@ description: "Clidinium：預測新適應症為馬尾症候群 (Cauda Equina Syn
 
 </div>
 
-## Clidinium: 馬尾症候群 (Cauda Equina Syndrome) (cauda equina syndrome)
+## Clidinium: 馬尾症候群 (cauda equina syndrome)
 {: .text-alpha }
 
 ## 一句話總結
 
-Clidinium 是一種季銨類抗膽鹼（抗蕈毒鹼）藥物，原本用於腸躁症、腸胃炎等胃腸道疾患。
-TxGNN 模型預測分數最高的新適應症是**馬尾症候群 (Cauda Equina Syndrome)**，但目前**沒有任何臨床試驗或文獻**支持。
-相對之下，**消化性潰瘍 (Peptic Ulcer Disease)** 的證據較多（6 篇文獻，多為 1960 年代的複方報告），值得優先探討。
-
----
+Clidinium 是一種季銨類抗膽鹼（抗蕈毒鹼）藥物，主要作用於腸胃道的運動與分泌。
+TxGNN 模型預測它可能對**馬尾症候群 (cauda equina syndrome)** 有效，
+但目前**沒有任何臨床試驗或文獻**直接支持這個方向，僅屬模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | 馬尾症候群 (Cauda Equina Syndrome) (cauda equina syndrome) |
+| 預測新適應症 | 馬尾症候群 (cauda equina syndrome) |
 | TxGNN 預測分數 | 0.9993 |
-| 證據等級 | L5（僅有模型預測） |
+| 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
 | 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Hold |
 
-> 補充：在所有預測中，證據最完整的是**消化性潰瘍**（TxGNN 分數 0.9989，證據等級 L3，建議列為研究問題），詳見下文。
-
-### 其他預測適應症一覽
-
-| 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
-|------|-----------|-----------|---------|------|
-| 1 | 馬尾症候群 | 0.9993 | L5 | Hold |
-| 2 | 神經性膀胱（已過時術語） | 0.9991 | L5 | Hold |
-| 3 | 胃十二指腸炎 | 0.9989 | L4 | Hold |
-| 5–7 | 重症肌無力相關（胸腺增生型、肢帶型自體免疫、新生兒型） | 0.9966–0.9971 | L5 | Hold（有安全疑慮） |
-| 8 | 周邊神經自體免疫疾病 | 0.9963 | L5 | Hold |
-| 9 | 受體活性疾病（過於籠統） | 0.9961 | L5 | Hold |
-| 10 | 大腸疾病 | 0.9916 | L5 | Hold |
-
----
-
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Clidinium 是季銨類抗膽鹼藥物，透過阻斷蕈毒鹼受體來降低胃腸蠕動與分泌，歷來常與 chlordiazepoxide 組成固定複方（Librax）使用。
+目前缺乏詳細的作用機轉資料。根據已知資訊，Clidinium 屬於季銨類抗膽鹼藥物，透過阻斷蕈毒鹼受體降低平滑肌的運動與分泌。
 
-**馬尾症候群（排名第 1）：** 理論上，抗膽鹼作用可能調節薦神經根受壓後的膀胱與腸道功能異常，但這只是推測。此病的根本問題是神經受壓，需要手術減壓，Clidinium 無法處理病因。高分只是計算預測，沒有臨床資料。
+理論上，馬尾症候群常伴隨膀胱與腸道功能障礙，抗膽鹼作用可能調節這些症狀。但這個推論屬於推測：馬尾症候群的根本問題是薦神經根受壓，需要手術減壓，Clidinium 並不處理這個病理。TxGNN 的高分是電腦運算的結果，沒有臨床資料佐證，也不應解讀為療效的證明。
 
-**消化性潰瘍（證據最多）：** 蕈毒鹼阻斷可減少迷走神經介導的胃酸分泌與胃腸痙攣，與複方中 chlordiazepoxide 針對壓力因素的作用互補。這與原本的胃腸適應症方向一致。不過現行標準治療（質子幫浦抑制劑、幽門螺旋桿菌根除）已大幅取代抗膽鹼藥物，增益價值不確定。
-
-**神經性膀胱：** 抗蕈毒鹼藥物是治療神經源性逼尿肌過動的既有藥物類別，類別層級的機轉合理。但 Clidinium 為季銨化合物，全身吸收差，且無直接臨床資料；oxybutynin、solifenacin 等已有更成熟的證據。該疾病術語在本體論中也已標記為過時。
-
-**重症肌無力相關預測（排名 5–7）：** 機轉上並不合理。重症肌無力的治療是增強膽鹼傳遞（膽鹼酯酶抑制劑），而 Clidinium 為抗膽鹼藥物，理論上可能惡化症狀或對抗治療。這些高分應視為**潛在安全警訊**，而非療效訊號。
-
----
+此外，Clidinium 為季銨化合物，全身吸收有限，這也使其在神經系統相關情境中的可用性存疑。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
-以下以證據最多的**消化性潰瘍**為主；排名第 1 的馬尾症候群目前無相關文獻。
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [27386057](https://pubmed.ncbi.nlm.nih.gov/27386057/) | 2016 | 臨床研究（可能為 RCT，設計待確認） | Caspian J Intern Med | 評估在 14 天 PPI 三合療法中加入 clidinium-C 對幽門螺旋桿菌根除及減少藥物副作用的效果 |
-| [14497768](https://pubmed.ncbi.nlm.nih.gov/14497768/) | 1962 | 臨床試驗報告 | Minerva Med | Librax（clidinium 加 chlordiazepoxide）用於數種消化道疾病 |
-| [14477958](https://pubmed.ncbi.nlm.nih.gov/14477958/) | 1962 | 臨床報告 | Hospital (Rio de Janeiro) | clidinium 與 chlordiazepoxide 複方治療胃十二指腸潰瘍（初步報告） |
-| [14142206](https://pubmed.ncbi.nlm.nih.gov/14142206/) | 1964 | 臨床報告 | Rev Clin Esp | 抗焦慮藥與抗膽鹼藥複方治療胃十二指腸潰瘍 |
-| [4892352](https://pubmed.ncbi.nlm.nih.gov/4892352/) | 1969 | 臨床評估 | Br J Clin Pract | clidinium 與 Libraxin 用於十二指腸潰瘍的臨床評估 |
-| [28539](https://pubmed.ncbi.nlm.nih.gov/28539/) | 1978 | 前臨床（小鼠） | Pharmacology | 苯二氮平類與抗膽鹼藥（含 clidinium）合用，對壓力誘發的胃黏膜糜爛有相加或超相加的保護作用 |
-
-其他相關文獻：[345122](https://pubmed.ncbi.nlm.nih.gov/345122/)（1978，NEJM）為腸躁症患者的生理學研究，顯示 clidinium 對進食後結腸電活動的影響，屬於既有適應症的間接證據。
-
----
+目前無相關文獻。
 
 ## 香港上市資訊
 
@@ -115,43 +76,31 @@ TxGNN 模型預測分數最高的新適應症是**馬尾症候群 (Cauda Equina 
 |---------|------|------|-----------|
 | HK-35045 | MEDOCALUM TAB | 未登載（片劑） | 未登載 |
 
-製造商／持有者：STAR MEDICAL SUPPLIES LTD。
-
----
-
 ## 安全性考量
 
-- **知識圖譜標示的潛在禁忌疾病**（來自藥物與疾病關聯資料，並非仿單原文）：
-  - 眼科與神經：閉角型青光眼、重症肌無力與神經肌肉接合部疾病
-  - 泌尿與消化：良性攝護腺增生、胃潰瘍、肝病、膽囊疾病、腎病
-  - 心血管與呼吸：高血壓、冠狀動脈疾病、睡眠呼吸中止症、肺部疾病
-  - 精神：焦慮症、精神病性疾患、思覺失調類疾患
-  - 代謝：紫質症
-- **藥物交互作用**：共查得 100 筆，以下為部分範例（皆為中度，少數輕度）：
-  - 阿片類：fentanyl、codeine、tramadol、hydrocodone、alfentanil、dihydrocodeine
-  - 其他抗膽鹼或具抗膽鹼作用藥物：hyoscyamine、aclidinium、amitriptyline、amantadine
-  - 其他：loperamide、乙醇、botulinum toxin type A、phenylephrine、acebutolol
-  - 輕度：acetaminophen、hydrochlorothiazide
-- **特別提醒**：重症肌無力同時出現在預測適應症與知識圖譜禁忌症中，Clidinium 不應視為該類疾病的候選藥物。
+- **藥物交互作用**：已查詢到 100 筆交互作用紀錄，以下為部分主要項目，多屬中度：
+  - 抗膽鹼類或有加成作用者：Aclidinium、Hyoscyamine、Amitriptyline、Amantadine
+  - 中樞抑制或鴉片類：Fentanyl、Alfentanil、Codeine、Dihydrocodeine、Hydrocodone、Tramadol
+  - 腸道運動抑制：Loperamide
+  - 其他：Botulinum toxin type A、Phenylephrine、Acebutolol、Acetylcholine、Acrivastine、Phenyltoloxamine、酒精（Ethanol）
+  - 輕度：Acetaminophen、Hydrochlorothiazide
 
-仿單層級的警語與禁忌請參考原廠仿單。
-
----
+其他警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Hold**（整體；消化性潰瘍可作為研究問題進一步探討）
+**決策：Hold**
 
 **理由：**
-- 排名最高的馬尾症候群僅有模型預測，機轉推測性強，且藥物無法處理病因；重症肌無力類預測則反而有安全疑慮。
-- 消化性潰瘍有最多資料，但多為 1960 年代的複方報告，無法分離 Clidinium 的獨立貢獻，且標準治療已改變，增益價值不明。
+- 沒有任何臨床試驗或文獻直接研究 Clidinium 用於馬尾症候群，證據等級為 L5。
+- 機轉上的連結僅為推測，且藥物無法處理壓迫性病理。
 
 **若要推進需要：**
-- 取得香港衛生署仿單的警語與禁忌資料（目前為阻擋性資料缺口）
-- 補充 DrugBank 的作用機轉資料
-- 取得 2016 年 clidinium-C 合併幽門螺旋桿菌三合療法研究的全文，確認設計（是否為 RCT）與結果
-- 若要探討神經性膀胱，須與 oxybutynin、solifenacin 等既有藥物比較，並評估季銨化合物吸收差的限制
-- 確認許可證的劑型與核准適應症
+- 說明藥物作用機轉的詳細資料（MOA）
+- 針對馬尾症候群相關膀胱、腸道症狀的臨床前或探索性研究
+- 取得香港仿單的警語與禁忌資料，完成安全性評估
+- 與已確立的抗膽鹼藥物（如 oxybutynin）比較，評估是否有額外價值
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

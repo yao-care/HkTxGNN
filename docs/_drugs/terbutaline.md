@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "Terbutaline"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-description: "Terbutaline：預測新適應症為Respiratory malformation（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Terbutaline：預測新適應症為呼吸道畸形 (respiratory malformation)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Terbutaline
@@ -33,77 +33,58 @@ description: "Terbutaline：預測新適應症為Respiratory malformation（證�
 
 </div>
 
-## Terbutaline: Respiratory malformation
+## Terbutaline: 呼吸道畸形 (respiratory malformation)
 {: .text-alpha }
 
 ## 一句話總結
 
-Terbutaline 是選擇性 β2 腎上腺素受體促效劑，原本用於氣喘、支氣管炎與肺氣腫等呼吸道疾病。
-不過阻塞性肺病與原適應症高度重疊，實質上屬於仿單內或接近仿單內的用途，而非真正的新適應症。
-
----
+Terbutaline 是一種 β2 腎上腺素受體促效劑，在香港已有多張單方許可證並於市面流通。
+TxGNN 模型預測它可能對**呼吸道畸形 (respiratory malformation)** 有效，但目前僅有 **1 個臨床試驗**（廣泛的兒童藥動學/安全性研究）和一批間接相關的文獻，並無直接針對此疾病的研究，證據相當薄弱。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | Respiratory malformation |
+| 預測新適應症 | 呼吸道畸形 (respiratory malformation) |
 | TxGNN 預測分數 | 0.9952 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 19 張／共 19 張） |
 | 許可證數 | 19 張（有效 19 張） |
-| 建議決策 | Proceed with Guardrails |
-
----
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-Terbutaline 是選擇性 β2 腎上腺素受體促效劑。它活化 Gs 偶聯受體，使細胞內 cAMP 上升，進而放鬆支氣管平滑肌，產生支氣管擴張作用。這也是它用於氣喘、支氣管炎與肺氣腫的機轉基礎。（DrugBank 的 MOA 欄位目前缺乏資料，以上機轉說明來自分析時的機轉推論。）
+目前缺乏詳細的作用機轉資料。就藥理類別而言，Terbutaline 屬於 β2 受體促效劑，其支氣管擴張作用理論上可緩解先天性氣道或肺部異常所伴隨的可逆性氣流受阻或喘鳴症狀。
 
-阻塞性肺病（如氣喘、COPD）的核心問題是可逆的氣流受限，與 terbutaline 原有適應症在病理與治療目標上高度重疊。因此這個預測更像是在原適應症範圍內的延伸，而非跨疾病領域的再利用。
-
-需要留意的是，Phase 3 證據多半是以 budesonide/formoterol 為實驗組，terbutaline 僅作為對照或緩解用藥。這些試驗支持的是 terbutaline 作為參考緩解藥物的角色，而不是證明它本身是實驗介入。
-
----
+但這種作用並不能矯正結構性缺陷。較高的預測分數比較可能反映模型中該藥與呼吸系統疾病節點的網絡鄰近性，而非針對此疾病的特異生物學機轉。現有資料中沒有任何對照研究在呼吸道畸形族群中評估此藥，因此證據僅為間接性，證據等級依規則判定為 L5。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT02224157](https://clinicaltrials.gov/study/NCT02224157) | Phase 3 | 完成 | 4215 | Symbicort 視需要使用 vs. Pulmicort 每日兩次加視需要使用 terbutaline（氣喘） |
-| [NCT02149199](https://clinicaltrials.gov/study/NCT02149199) | Phase 3 | 完成 | 3850 | Symbicort 視需要使用 vs. terbutaline 視需要使用 vs. Pulmicort 加 terbutaline（氣喘） |
-| [NCT06626620](https://clinicaltrials.gov/study/NCT06626620) | Phase 3 | 完成 | 120 | 靜脈硫酸鎂 vs. terbutaline 用於兒童急性氣喘發作 |
-| [NCT00839800](https://clinicaltrials.gov/study/NCT00839800) | Phase 3 | 完成 | 2091 | Symbicort SMART vs. Symbicort 加 terbutaline 視需要使用（氣喘） |
-| [NCT00259766](https://clinicaltrials.gov/study/NCT00259766) | Phase 3 | 完成 | 1970 | Symbicort 與 Pulmicort+Oxis 加 Bricanyl（terbutaline）的真實世界醫療成本比較 |
-| [NCT00252863](https://clinicaltrials.gov/study/NCT00252863) | Phase 3 | 完成 | 1600 | Symbicort 單一吸入器療法 vs. 常規最佳治療（氣喘） |
-| [NCT00849095](https://clinicaltrials.gov/study/NCT00849095) | Phase 3 | 完成 | 860 | 視需要使用 vs. 規律使用 budesonide/formoterol 加視需要使用 terbutaline |
-| [NCT02322788](https://clinicaltrials.gov/study/NCT02322788) | Phase 3 | 完成 | 95 | Bricanyl Turbuhaler M3 vs. M2，對乙醯膽鹼激發支氣管收縮的保護效果（輕中度氣喘） |
-| [NCT01096017](https://clinicaltrials.gov/study/NCT01096017) | Phase 3 | 完成 | 24 | 日本成人氣喘患者中 terbutaline Turbuhaler 0.4 mg 與 salbutamol pMDI 的相對療效 |
-| [NCT04973345](https://clinicaltrials.gov/study/NCT04973345) | Phase 2/3 | 撤回 | 0 | terbutaline 暴露－反應交叉試驗，未收案，無證據價值 |
-
-另有登記試驗為 Phase 4 或僅以 terbutaline 為背景用藥，直接相關性低，此處未列出。
-
----
+| [NCT04278404](https://clinicaltrials.gov/study/NCT04278404) | N/A | 招募中 | 5000 | 評估兒童常用但研究不足藥物的藥動學、藥效學與安全性；可能提供兒童 terbutaline 暴露與安全資料，但未檢驗對呼吸道畸形的療效 |
 
 ## 文獻證據
 
+以下文獻多與氣喘、支氣管炎或其他情況相關，並非直接研究呼吸道畸形。
+
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [29768149](https://pubmed.ncbi.nlm.nih.gov/29768149/) | 2018 | RCT | N Engl J Med | 輕度氣喘視需要使用吸入型 budesonide-formoterol 可作為傳統治療的替代 |
-| [3073804](https://pubmed.ncbi.nlm.nih.gov/3073804/) | 1988 | RCT | Br J Dis Chest | 口服 terbutaline 可增加 COPD 患者的橫膈收縮力 |
-| [6988343](https://pubmed.ncbi.nlm.nih.gov/6988343/) | 1980 | RCT | Int J Clin Pharmacol Ther Toxicol | 慢性阻塞性肺病中 clenbuterol 與 terbutaline 的支氣管擴張效果比較 |
-| [6107217](https://pubmed.ncbi.nlm.nih.gov/6107217/) | 1980 | RCT | Chest | β 阻斷劑與 terbutaline 併用於慢性阻塞性肺病的效果與交互作用 |
-| [23348973](https://pubmed.ncbi.nlm.nih.gov/23348973/) | 2013 | Review | Am J Respir Crit Care Med | β2 促效劑（含 terbutaline）在肺部疾病的應用，提供快速症狀緩解 |
-| [36227333](https://pubmed.ncbi.nlm.nih.gov/36227333/) | 2023 | 系統性回顧 | Naunyn Schmiedebergs Arch Pharmacol | terbutaline 在人體的臨床藥物動力學 |
-| [30156361](https://pubmed.ncbi.nlm.nih.gov/30156361/) | 2019 | 隨機雙盲對照試驗 | Acad Emerg Med | COPD 急性惡化需非侵入性通氣時，terbutaline 加 ipratropium 與單用 terbutaline 的比較 |
-| [10384064](https://pubmed.ncbi.nlm.nih.gov/10384064/) | 1999 | 雙盲交叉試驗 | Lung | 單劑 terbutaline 對 COPD 患者運動能力與肺功能的影響 |
-| [1615190](https://pubmed.ncbi.nlm.nih.gov/1615190/) | 1992 | 雙盲交叉試驗 | Respir Med | 吸入 terbutaline 對 COPD 患者 FEV1、FVC、呼吸困難與步行距離的影響 |
-| [26963310](https://pubmed.ncbi.nlm.nih.gov/26963310/) | 2015 | Review | Tuberk Toraks | 氣喘－COPD 重疊症候群的特徵與處置 |
-
----
+| [3281307](https://pubmed.ncbi.nlm.nih.gov/3281307/) | 1988 | RCT | Thorax | 比較皮下注射腎上腺素與 terbutaline 治療急性重度氣喘（20 例） |
+| [1629507](https://pubmed.ncbi.nlm.nih.gov/1629507/) | 1992 | RCT | J Allergy Clin Immunol | 比較吸入 budesonide 與 terbutaline 對新診斷氣喘氣道發炎的影響 |
+| [42303000](https://pubmed.ncbi.nlm.nih.gov/42303000/) | 2026 | Cohort | Respiratory Medicine | 評估嬰幼兒感染後細支氣管炎的肺功能與影像變化 |
+| [1620986](https://pubmed.ncbi.nlm.nih.gov/1620986/) | 1992 | Cohort | Respiration | 慢性支氣管炎患者吸入 terbutaline 後呼吸阻抗異常可逆 |
+| [12061354](https://pubmed.ncbi.nlm.nih.gov/12061354/) | 2002 | Cohort | Acta Paediatr | 學齡兒童中央氣道狹窄與氣喘的鑑別診斷 |
+| [19254906](https://pubmed.ncbi.nlm.nih.gov/19254906/) | 2009 | Cohort | Arch Dis Child | Budesonide 改善有呼吸症狀嬰兒的氣道傳導度 |
+| [11813927](https://pubmed.ncbi.nlm.nih.gov/11813927/) | 2001 | Case report | Cardiol Young | 口服 terbutaline 用於胎兒完全性房室傳導阻滯，初期可提高心室率 |
+| [9628312](https://pubmed.ncbi.nlm.nih.gov/9628312/) | 1998 | 個案追蹤 | Acta Paediatr | 多發性異常合併低血鉀性麻痺，terbutaline 可部分緩解症狀 |
+| [8327281](https://pubmed.ncbi.nlm.nih.gov/8327281/) | 1993 | 方法學研究 | Pediatr Pulmonol | 早產兒被動洩氣流速-容積曲線的非線性分析 |
+| [6314736](https://pubmed.ncbi.nlm.nih.gov/6314736/) | 1983 | 未分類 | Acta Otolaryngol Suppl | β 腎上腺素促效劑可增強纖毛擺動與黏液纖毛運輸 |
 
 ## 香港上市資訊
+
+香港共有 19 張有效的單方許可證，以下列出 5 張：
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -113,46 +94,26 @@ Terbutaline 是選擇性 β2 腎上腺素受體促效劑。它活化 Gs 偶聯�
 | HK-55764 | APT-TERBUTALINE SR TAB 5MG | 緩釋錠（5 mg） | 資料未載明 |
 | HK-64629 | BUTANYL NEBULISER SOLUTION 2.5MG/ML | 噴霧吸入液（2.5 mg/mL） | 資料未載明 |
 
-香港共有 19 張有效的單方許可證，無已註銷者，涵蓋錠劑、糖漿、緩釋錠與噴霧吸入液。上表僅列出 5 張代表性許可證。
-
----
-
 ## 安全性考量
 
-- **禁忌症（知識圖譜關聯，非仿單內容）**：知識圖譜顯示 terbutaline 與下列疾病存在禁忌關聯，使用前需評估：
-  - 心血管：高血壓、心肌缺血、冠狀動脈疾病、心臟傳導疾病、心因性猝死
-  - 代謝與內分泌：高血糖、糖尿病、糖尿病酮酸中毒、缺鉀症、甲狀腺功能亢進、葛瑞夫茲氏症、甲狀腺毒症
-  - 神經與呼吸：癲癇、呼吸衰竭、肺水腫
-  - 產科：胎盤早期剝離
-- **藥物交互作用**：資料庫共記錄 100 筆交互作用，以下為部分範例：
-  - 中度：acarbose、isometheptene、famotidine、epinephrine、albiglutide、alogliptin、pioglitazone、canagliflozin、chlorpropamide、clarithromycin、loperamide、bisacodyl
-  - 輕度：hydrocortisone、triamcinolone、dexamethasone、beclomethasone、betamethasone、budesonide
-- **使用注意**：機轉分析建議監測心搏過速、低血鉀與震顫，並謹慎與 β 阻斷劑併用，以及用於有心血管共病者。
-
-仿單的主要警語與正式禁忌症資料尚未取得，請參考原廠仿單。
-
----
+- **藥物交互作用**：資料中共有 100 筆交互作用記錄，主要例子包括：
+  - 中度：Acarbose、Isometheptene、Famotidine、Epinephrine、Pioglitazone、Clarithromycin、Canagliflozin
+  - 輕度：Hydrocortisone、Triamcinolone、Dexamethasone、Budesonide
+- 其他警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-- 阻塞性肺病與 terbutaline 原有適應症幾乎重疊，且有多個大型 Phase 3 RCT 及多項 COPD 的雙盲試驗支持其支氣管擴張作用，證據等級為 L1。但 Phase 3 證據多以 terbutaline 為對照或緩解藥物，而非實驗介入，且此預測並非真正的新適應症。
-- 心血管、代謝與電解質相關的禁忌關聯明顯，需要設置安全防護。
+- 沒有任何研究直接評估 terbutaline 用於呼吸道畸形，唯一的試驗是廣泛的兒童藥動學/安全性研究，文獻亦多為間接相關。β2 促效劑只能緩解症狀，無法處理結構缺陷，故證據等級為 L5。
 
 **若要推進需要：**
-- 取得香港衛生署核准的仿單，確認核准適應症、警語與禁忌症（目前許可證資料皆未載明適應症文字）
-- 補充 DrugBank 的作用機轉資料
-- 釐清各劑型（錠劑、糖漿、緩釋錠、噴霧吸入液）與目標族群的適用性
-- 制定心率、血鉀、血糖的監測計畫，以及 β 阻斷劑併用的處置原則
+- 取得詳細的作用機轉資料
+- 取得香港許可證的仿單，確認警語、禁忌症與核准適應症
+- 界定具體的目標族群（如合併可逆性氣道阻塞的先天性氣道異常），並設計針對該族群的臨床或真實世界研究
+- 評估兒童族群的劑量與安全性（可參考 NCT04278404 的成果）
 
----
-
-### 附註：其他預測適應症
-
-- **呼吸道畸形 (Respiratory Malformation)**（分數 0.9952，L4，建議 Hold）：terbutaline 的支氣管擴張或許能緩解伴隨的可逆性氣流阻塞，但無法處理結構缺陷。目前僅有一項兒童藥動學與安全性的觀察性計畫（NCT04278404），文獻多與氣喘、支氣管炎或其他疾病有關，缺乏畸形的對照證據，且高分可能反映網路鄰近性而非疾病特異性機轉。
-- **Rienhoff 症候群**（分數 0.9938，L5，建議 Hold）：無臨床試驗與文獻，機轉上也看不出 β2 促效作用與此疾病（與 TGF-β 路徑失調相關）的關聯，需先完成前臨床驗證。
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

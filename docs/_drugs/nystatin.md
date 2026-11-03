@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "NYSTATIN"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
 last_modified_at: 2026-11-03
-description: "Nystatin：預測新適應症為Disease of orbital region（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Nystatin：預測新適應症為眼眶區域疾病 (disease of orbital region)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Nystatin
@@ -33,19 +33,20 @@ description: "Nystatin：預測新適應症為Disease of orbital region（證據
 
 </div>
 
-## Nystatin: Disease of orbital region
+## Nystatin: 眼眶區域疾病 (disease of orbital region)
 {: .text-alpha }
 
 ## 一句話總結
 
-Nystatin 是多烯類抗黴菌藥，知識圖譜中記錄的用途為皮膚、口腔及外陰陰道念珠菌感染。
+Nystatin 是一種多烯類抗黴菌藥，在香港已有多張有效許可證。
+TxGNN 模型預測它可能對**眼眶區域疾病 (disease of orbital region)** 有效，但目前**沒有直接相關的文獻**，登記的 1 個臨床試驗也與 Nystatin 無關，證據僅限於模型預測。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | Disease of orbital region |
+| 預測新適應症 | 眼眶區域疾病 (disease of orbital region) |
 | TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
@@ -54,34 +55,25 @@ Nystatin 是多烯類抗黴菌藥，知識圖譜中記錄的用途為皮膚、�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank 資料未提供）。依一般藥理知識，Nystatin 為多烯類抗黴菌藥，會結合念珠菌細胞膜的麥角固醇、形成孔洞並造成細胞內容物滲漏。
+目前缺乏詳細的作用機轉資料。Nystatin 屬於多烯類抗黴菌藥，一般認為是結合黴菌細胞膜上的麥角固醇而破壞膜的完整性，作用對象是真菌。
 
-非念珠菌性外陰陰道炎（細菌性、滴蟲性、萎縮性）預期不會對 Nystatin 有反應。
+眼眶區域疾病涵蓋範圍很廣，多數類型並非真菌感染。Nystatin 的抗黴菌作用與這類疾病之間，目前看不出合理的機轉關聯。
+
+TxGNN 給出的分數很高，但沒有任何臨床或文獻證據支持，因此應視為需要進一步驗證的模型假說，不宜當作療效依據。
 
 ## 臨床試驗證據
 
-目前無相關臨床試驗登記。
+| 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
+|---------|------|------|------|---------|
+| [NCT03178149](https://clinicaltrials.gov/study/NCT03178149) | Phase 1 | 招募中 | 42 | 評估 ASP7317 用於年齡相關黃斑部病變所致的地圖狀萎縮，不涉及 Nystatin，也非眼眶疾病，屬不相關的比對結果 |
 
 ## 文獻證據
 
-下列文獻討論外陰陰道念珠菌感染，並未直接以 Nystatin 治療「外陰陰道炎」整體做對照研究，屬間接證據。
-
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [21774671](https://pubmed.ncbi.nlm.nih.gov/21774671/) | 2011 | Review | Journal of Women's Health | 回顧硼酸用於復發性外陰陰道念珠菌感染的臨床證據；非白色念珠菌對唑類較不敏感 |
-| [25775428](https://pubmed.ncbi.nlm.nih.gov/25775428/) | 2015 | Review | BMJ Clinical Evidence | 外陰陰道念珠菌感染為陰道炎第二常見原因，白色念珠菌占 85–90% |
-| [21718579](https://pubmed.ncbi.nlm.nih.gov/21718579/) | 2010 | Review | BMJ Clinical Evidence | 同上（較早版本） |
-| [19454049](https://pubmed.ncbi.nlm.nih.gov/19454049/) | 2007 | Review | BMJ Clinical Evidence | 同上（較早版本） |
-| [39771534](https://pubmed.ncbi.nlm.nih.gov/39771534/) | 2024 | Review | Pharmaceutics | 回顧抗氟康唑外陰陰道念珠菌感染的處置，替代療法包括硼酸、Nystatin 及新藥 |
-| [1436934](https://pubmed.ncbi.nlm.nih.gov/1436934/) | 1992 | Review | Obstet Gynecol Clin North Am | Nystatin 自 1950 年代用於外陰陰道念珠菌感染，後來被咪唑類與三唑類取代為首選 |
-| [2212172](https://pubmed.ncbi.nlm.nih.gov/2212172/) | 1990 | Review | J Am Acad Dermatol | 陰道念珠菌感染的個別化治療，劑型對療效影響的證據不多 |
-| [20406393](https://pubmed.ncbi.nlm.nih.gov/20406393/) | 2011 | 臨床研究 | Mycoses | 比較複雜性外陰陰道念珠菌感染中氟康唑與 Nystatin 的體外敏感性與臨床結果 |
-| [36588489](https://pubmed.ncbi.nlm.nih.gov/36588489/) | 2022 | 世代研究 | Rom J Morphol Embryol | 比較孕婦與非孕婦念珠菌陰道炎的臨床、微生物與組織病理，並以 Nystatin 局部治療 |
-| [30359236](https://pubmed.ncbi.nlm.nih.gov/30359236/) | 2018 | 動物研究 | BMC Microbiology | 大鼠模型顯示 Nystatin 可增強對白色念珠菌的免疫反應，並保護陰道上皮超微結構 |
+目前無相關文獻。
 
 ## 香港上市資訊
 
-下列為已提供的 20 張許可證中的 5 張，總數至少 20 張，清單可能不完整。資料中未載明核准適應症文字與劑型。
+本報告所整理的資料顯示，Nystatin 單方製劑在香港至少有 20 張有效許可證，以下僅列出部分，完整清單可能不止於此。
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -93,23 +85,24 @@ Nystatin 是多烯類抗黴菌藥，知識圖譜中記錄的用途為皮膚、�
 
 ## 安全性考量
 
-- **知識圖譜記錄的禁忌相關疾病**（來源為知識圖譜，非仿單文字）：腎上腺皮質功能不全、艾迪森氏病、皮膚萎縮、微血管擴張、微血管疾病、遺傳性出血性微血管擴張症。
-- **藥物交互作用**：交互作用資料庫共查得 100 筆，嚴重度均為未知。部分例子包括 Cyclosporine、Fluconazole、Erythromycin、Azithromycin、Tramadol、Lorazepam、Bortezomib。
+- **藥物交互作用**：已查得 100 筆交互作用紀錄，但嚴重度分級皆為未知。部分交互作用藥物包括 Cyclosporine、Fluconazole、Erythromycin、Azithromycin、Bortezomib、Tramadol 與 Lorazepam。
 
-其餘安全性資訊請參考原廠仿單。
+其他警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 目前沒有直接研究此預測疾病的臨床試驗，文獻多為念珠菌感染的綜述與一般資料，證據等級為 L5。
+- 這項預測只有模型分數，沒有任何直接研究支持。
+- 唯一登記的試驗與 Nystatin 和眼眶疾病皆無關，Nystatin 的抗黴菌機轉也與此預測缺乏合理連結。
 
 **若要推進需要：**
-- 取得香港仿單的核准適應症、警語與禁忌症文字
-- 補充作用機轉資料
-- 釐清「外陰陰道炎」中念珠菌性與非念珠菌性的範圍，並設計針對念珠菌性外陰陰道炎的對照研究
-- 評估各劑型（陰道錠、栓劑、乳膏）與目標適應症的給藥途徑相容性
+- 釐清「眼眶區域疾病」中具體是哪一類疾病，並確認是否涉及真菌感染。
+- 取得直接研究 Nystatin 用於該疾病的臨床或前臨床證據。
+- 補齊作用機轉資料，並取得原廠仿單的警語與禁忌症。
+- 評估給藥途徑是否適合眼眶部位，目前尚無相關資料。
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

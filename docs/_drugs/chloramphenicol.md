@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-03
 monitor_inn: "CHLORAMPHENICOL"
 predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
-description: "Chloramphenicol：預測新適應症為Diffuse scleroderma（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Chloramphenicol：預測新適應症為瀰漫性硬皮症 (diffuse scleroderma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Chloramphenicol
@@ -33,66 +33,52 @@ description: "Chloramphenicol：預測新適應症為Diffuse scleroderma（證�
 
 </div>
 
-## Chloramphenicol: Diffuse scleroderma
+## Chloramphenicol: 瀰漫性硬皮症 (diffuse scleroderma)
 {: .text-alpha }
 
 ## 一句話總結
 
-Chloramphenicol（氯黴素）是廣譜抑菌性抗生素，原本用於傷寒、腦膜炎、立克次體感染等細菌性疾病。
-這並非嚴格的藥物再利用，而是在抗菌藥物類別內的外用延伸。
-
----
+Chloramphenicol（氯黴素）是一種抗菌藥，在香港以眼用與耳用製劑為主上市。
+TxGNN 模型預測它可能對**瀰漫性硬皮症 (diffuse scleroderma)** 有效，但目前**沒有任何臨床試驗**，僅有 4 篇與硬皮症纖維母細胞機轉相關的體外研究，且這些研究並未測試氯黴素本身，證據相當薄弱。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | Diffuse scleroderma |
+| 預測新適應症 | 瀰漫性硬皮症 (diffuse scleroderma) |
 | TxGNN 預測分數 | 0.9965 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 至少 20 張 |
-| 建議決策 | Proceed with Guardrails |
-
----
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，chloramphenicol 是廣譜抑菌性抗生素，一般認為其作用在於抑制細菌 50S 核糖體次單位，阻斷蛋白質合成。這與其對細菌性結膜炎常見病原體的活性相符。
+目前缺乏詳細的作用機轉資料。氯黴素一般認為是細菌核糖體抑制劑，主要作用於細菌蛋白質合成，與硬皮症的纖維化與自體免疫病理沒有明確的藥理連結。
 
-原適應症多為細菌感染（包括外耳炎、皮膚感染），結膜炎中的細菌性感染與其屬同一類型。外用眼科製劑在多個國家已是臨床常規，香港的 20 張許可證幾乎都是眼用或耳用製劑，這支持了預測的合理性。
+檢索到的 4 篇文獻都是硬皮症纖維母細胞中第一型前膠原基因（COL1A1）轉錄調控與 TGF-β/Smad 訊息傳遞的基礎研究。標題顯示它們探討的是疾病生物學，並未把氯黴素當作治療藥物來測試。這些文獻可能因為實驗中使用了含氯黴素的報告基因系統而被檢索到，較像方法學上的巧合，並非藥理訊號。
 
-此預測屬於抗菌藥物類別內的延伸，不是機轉全新的再利用。
-
----
+因此，模型分數雖高，卻缺乏治療上的合理依據。氯黴素已知有骨髓抑制毒性，用於慢性自體免疫疾病並不理想。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
-
-以下依證據層級優先列出最相關的文獻：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | 系統性回顧 (Cochrane) | Cochrane Database Syst Rev | 探討預防新生兒眼炎的介入措施，包括抗生素或抗菌劑點眼 |
-| [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | 比較性臨床研究 | Curr Ther Res | 比較 moxifloxacin 與 chloramphenicol 用於細菌性眼部感染 |
-| [11270936](https://pubmed.ncbi.nlm.nih.gov/11270936/) | 2001 | 回顧 | Drugs | 比較 16 種市售眼用抗菌製劑 |
-| [3300139](https://pubmed.ncbi.nlm.nih.gov/3300139/) | 1987 | 開放式隨機比較 | Acta Ophthalmol | 坦尚尼亞研究：fusidic acid 成功率 93%，chloramphenicol 48%，framycetin 74%（chloramphenicol 體外抗藥率較高） |
-| [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | 回顧／安全性評論 | Drug Saf | 討論外用眼用 chloramphenicol 與再生不良性貧血是否相關，仍有爭議 |
-| [7498557](https://pubmed.ncbi.nlm.nih.gov/7498557/) | 1995 | 回顧／評論 | Eye (Lond) | 外用 chloramphenicol 的使用與濫用 |
-| [10589371](https://pubmed.ncbi.nlm.nih.gov/10589371/) | 1999 | 回顧 | Clin Pharmacokinet | 外用抗菌藥物治療眼部感染的藥動學與使用 |
-| [25833086](https://pubmed.ncbi.nlm.nih.gov/25833086/) | 2015 | 評論 | Clin Exp Ophthalmol | 探討 chloramphenicol 成藥（非處方）的使用 |
+| [16319104](https://pubmed.ncbi.nlm.nih.gov/16319104/) | 2006 | 體外機轉研究 | Rheumatology (Oxford) | 探討 TGF-β/Smad 訊息在硬皮症纖維母細胞膠原基因表現增加中的角色，涉及 Smad3 與 Sp1、p300 的交互作用 |
+| [11229480](https://pubmed.ncbi.nlm.nih.gov/11229480/) | 2001 | 體外機轉研究 | Arthritis Rheum | 阻斷內源性 TGF-β 訊息可抑制硬皮症纖維母細胞中膠原合成上調 |
+| [9811061](https://pubmed.ncbi.nlm.nih.gov/9811061/) | 1998 | 體外機轉研究 | Arthritis Rheum | 找出第一型前膠原基因啟動子區中與系統性硬化症上調表現有關的調控元件 |
+| [8702443](https://pubmed.ncbi.nlm.nih.gov/8702443/) | 1996 | 體外機轉研究 | Arthritis Rheum | 研究瀰漫性系統性硬化症皮膚纖維母細胞中 COL1A1 的轉錄活化與內含子序列的角色 |
 
----
+以上文獻均未評估氯黴素對硬皮症的療效。
 
 ## 香港上市資訊
 
-香港共有 20 張有效單一成分許可證，以眼藥水、眼藥膏為主，另有耳用及眼耳兩用製劑。以下列出 5 張主要許可證，其劑型與核准適應症在資料中均未載明。
+氯黴素在香港有 20 張有效的單一成分許可證，沒有已註銷者。以下列出其中 5 張：
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -102,50 +88,30 @@ Chloramphenicol（氯黴素）是廣譜抑菌性抗生素，原本用於傷寒�
 | HK-01687 | CHLORAMPHENICOL EAR DROPS 5% | 耳滴劑（依品名） | 未載明 |
 | HK-30632 | DEXMIN EYE/EAR DROPS | 眼／耳滴劑（依品名） | 未載明 |
 
----
-
 ## 安全性考量
 
-- **知識圖譜標示的禁忌疾病**（來自藥物－疾病關係資料，非仿單文字）：腎病、肝病、膽囊疾病、血小板低下、周邊神經病變、貧血、粒線球缺乏症、嗜中性白血球低下（含多種先天性類型）、再生不良性貧血、急性間歇性紫質症、視神經炎、陣發性夜間血紅素尿症。整體以血液學毒性為主。
-- **血液毒性疑慮**：文獻（PMID 8800624、7498557）討論外用眼用 chloramphenicol 與再生不良性貧血的關聯，目前仍有爭議。
-- **藥物交互作用**：共查得 100 筆，以下為較重要者：
-  - 嚴重 (Major)：cisapride、naloxegol
-  - 中度 (Moderate)：磺醯脲類降血糖藥（glimepiride、glipizide、glyburide、chlorpropamide、acetohexamide）、repaglinide、saxagliptin、rosuvastatin、simvastatin、metronidazole、aprepitant、budesonide、iron 等
+- **血液毒性**：氯黴素已知有骨髓抑制毒性，這是用於慢性疾病的主要障礙。
+- **藥物交互作用**：已查得多項交互作用，較重要的如下。
+  - **重大 (Major)**：Cisapride、Naloxegol
+  - **中度 (Moderate)**：Aprepitant、Balsalazide、Metronidazole、Budesonide、Iron、Eliglustat、Naldemedine、Nitisinone
+  - **降血糖藥（中度）**：Acetohexamide、Chlorpropamide、Glimepiride、Glipizide、Glyburide、Repaglinide、Saxagliptin
+  - **降血脂藥（中度）**：Rosuvastatin、Simvastatin
 
-其餘警語與禁忌請參考原廠仿單。
-
----
+其餘警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-- 結膜炎是細菌感染，chloramphenicol 眼用製劑已在香港大量上市，並有 Cochrane 回顧、比較研究與隨機比較試驗等文獻支持。
-- 外用使用與再生不良性貧血的關聯仍有爭議，且部分研究顯示療效不如 fusidic acid，因此需設置使用防護。
+- 沒有任何臨床試驗，唯一的文獻是不涉及氯黴素的體外機轉研究，證據等級僅為 L5。
+- 氯黴素的抗菌機轉與硬皮症病理缺乏連結，且骨髓抑制風險高，不適合長期使用。
 
 **若要推進需要：**
-- 取得香港許可證的仿單與核准適應症文字，確認眼用適應症是否已涵蓋結膜炎
-- 作用機轉資料的正式確認（DrugBank）
-- 制定使用限制與監測方案（例如有血液疾病史者避免使用，有替代藥物時優先考慮替代）
-- 參考本地細菌抗藥性資料，評估與 fusidic acid、moxifloxacin 等替代藥物的相對定位
-
----
-
-### 其他預測適應症（補充）
-
-TxGNN 另預測了下列適應症，但證據明顯不足，建議均為 Hold（除標註者）：
-
-| 預測適應症 | 分數 | 證據等級 | 說明 |
-|-----------|------|---------|------|
-| 瀰漫性硬皮症 | 0.9965 | L5 | 文獻僅為纖維母細胞的體外機轉研究，很可能是檢索上的方法學假象，缺乏治療依據 |
-| 感染後血管炎 | 0.9958 | L5 | 僅有模型預測，以免疫機轉為主，抗菌藥物不太可能有效 |
-| 細菌感染後疾患 | 0.9957 | L5 | 僅有 1 個無關的觀察性抗生素敏感性研究 (NCT05106803, n=24)，無療效證據 |
-| 感染後症候群 | 0.9956 | L5 | 僅有模型預測 |
-| 感染性尿道狹窄 | 0.9952 | L5 | 僅有一篇 1964 年無關病例報告 |
-| 恰加斯心肌病變 | 0.9951 | L5 | 僅有模型預測，骨髓毒性為重大障礙 |
-| 感染相關溶血性尿毒症候群 | 0.9950 | L5 | 僅有模型預測，抗生素可能增加毒素釋放，血液毒性亦為疑慮，預測可能不利 |
-| 點狀上皮角膜結膜炎 | 0.9917 | L5 | — |
+- 取得氯黴素的詳細作用機轉資料，並說明其與纖維化路徑的可能連結
+- 以體外或動物模型直接檢驗氯黴素對硬皮症纖維母細胞膠原表現的影響
+- 取得完整的仿單警語與禁忌症資料，進行安全性評估
+- 若前臨床結果有利，再評估血液毒性監測方案與給藥途徑的可行性
 
 ## 免責聲明
 

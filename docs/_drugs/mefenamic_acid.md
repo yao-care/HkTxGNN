@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mefenamic Acid
-parent: 高證據等級 (L1-L2)
+parent: 僅模型預測 (L5)
 nav_order: 557
-evidence_level: L2
+evidence_level: L5
 indication_count: 6
 monitor_inn: "MEFENAMIC ACID"
 predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 last_modified_at: 2026-11-03
-description: "Mefenamic Acid：預測新適應症為Headache disorder（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
+description: "Mefenamic Acid：預測新適應症為頭痛疾患 (headache disorder)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **6** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,30 +33,36 @@ description: "Mefenamic Acid：預測新適應症為Headache disorder（證據�
 
 </div>
 
-## Mefenamic Acid: Headache disorder
+## Mefenamic Acid: 頭痛疾患 (headache disorder)
 {: .text-alpha }
 
 ## 一句話總結
 
-Mefenamic acid（甲芬那酸）是一種非類固醇抗發炎藥（NSAID），在香港已有多張單一成分許可證，但本次彙整的資料中未列出核准適應症文字。
+Mefenamic Acid 是一種非類固醇消炎止痛藥（NSAID），在香港有多張有效的單方許可證。
+TxGNN 模型預測它可能對**頭痛疾患 (headache disorder)** 有效，預測分數為 0.9964。
+目前無相關臨床試驗登記，但有 **19 篇文獻**，其中包含針對偏頭痛的雙盲試驗。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | Headache disorder |
+| 預測新適應症 | 頭痛疾患 (headache disorder) |
 | TxGNN 預測分數 | 0.9964 |
-| 證據等級 | L2 |
+| 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證至少 20 張） |
 | 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
+> 證據等級說明：文獻多以偏頭痛（頭痛疾患的亞型）為研究對象，沒有直接以「頭痛疾患」整體為對象的研究，因此依規則判定為 L5。若以偏頭痛作為更具體的方向，相關雙盲試驗可作為後續研究的基礎。
+
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，mefenamic acid 屬於 NSAID，為非選擇性 COX-1/COX-2 抑制劑，可減少前列腺素合成，而前列腺素參與類風濕性關節炎的發炎與疼痛。
+目前缺乏詳細的作用機轉資料（本次整理的資料未收錄）。根據已知藥理，Mefenamic Acid 屬於 NSAID，透過抑制 COX 酶而減少前列腺素合成。
 
-類風濕性關節炎的症狀（關節疼痛、晨僵、壓痛）與前列腺素介導的發炎有關，因此機轉上合理。但 NSAID 只能控制症狀，並無疾病修飾作用，現今臨床上已大多由 DMARDs 與生物製劑取代。
+前列腺素參與神經性發炎與痛覺敏化，與頭痛的病理生理相關，特別是經期相關頭痛，其發作與經期前後前列腺素上升有關。因此從機轉上，抑制前列腺素合成有可能緩解頭痛。
+
+不過需要注意：現有支持文獻多為早期、小規模的偏頭痛研究，針對 Mefenamic Acid 本身的證據有限且年代久遠。此預測類別範圍很廣，與偏頭痛的預測項目大幅重疊。
 
 ## 臨床試驗證據
 
@@ -66,16 +72,20 @@ Mefenamic acid（甲芬那酸）是一種非類固醇抗發炎藥（NSAID），�
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [373989](https://pubmed.ncbi.nlm.nih.gov/373989/) | 1979 | RCT | Curr Med Res Opin | 24 位患者雙盲交叉試驗：mefenamic acid、sulindac、flurbiprofen 在疼痛、關節壓痛與晨僵上均顯著優於安慰劑 |
-| [796645](https://pubmed.ncbi.nlm.nih.gov/796645/) | 1976 | RCT | Med J Aust | 與 ibuprofen 雙盲交叉比較，療效相當，副作用輕微且以腸胃道為主 |
-| [330287](https://pubmed.ncbi.nlm.nih.gov/330287/) | 1977 | RCT | J Int Med Res | 40 位患者；與 ibuprofen 的止痛與抗發炎效果無顯著差異 |
-| [326491](https://pubmed.ncbi.nlm.nih.gov/326491/) | 1977 | 雙盲交叉研究 | Curr Med Res Opin | 18 位患者；mefenamic acid 與 indomethacin 在多數指標上優於安慰劑 |
-| [4294443](https://pubmed.ncbi.nlm.nih.gov/4294443/) | 1967 | 臨床研究 | Ann Rheum Dis | mefenamic acid 用於類風濕性關節炎（無摘要） |
-| [5920657](https://pubmed.ncbi.nlm.nih.gov/5920657/) | 1966 | 比較研究 | Br Med J | 與 aspirin、phenylbutazone 比較（無摘要） |
-| [1455792](https://pubmed.ncbi.nlm.nih.gov/1455792/) | 1992 | 臨床報告 | Vopr Kurortol Fizioter Lech Fiz Kult | 以 mefenamic acid 電泳導入治療 125 位患者，報告 75% 達完全或部分反應 |
-| [5676955](https://pubmed.ncbi.nlm.nih.gov/5676955/) | 1968 | 病例報告 | Br Med J | 3 位患者於用藥期間發生自體免疫溶血性貧血，停藥後恢復（安全性訊號） |
+| [6347393](https://pubmed.ncbi.nlm.nih.gov/6347393/) | 1983 | RCT | Cephalalgia | 40 位偏頭痛患者雙盲交叉試驗，比較 Mefenamic Acid 500 mg 與 paracetamol 500 mg（皆併用 metoclopramide） |
+| [3524092](https://pubmed.ncbi.nlm.nih.gov/3524092/) | 1986 | RCT | Acta Neurol Scand | 雙盲交叉試驗：Mefenamic Acid 與 propranolol 均較安慰劑顯著減少偏頭痛發作頻率與總持續時間，對平均持續時間與嚴重度無顯著影響 |
+| [10799353](https://pubmed.ncbi.nlm.nih.gov/10799353/) | 2000 | RCT | Eur J Med Res | 24 位經期偏頭痛患者，以雙盲、安慰劑對照評估 Mefenamic Acid 對急性疼痛的效果 |
+| [22529203](https://pubmed.ncbi.nlm.nih.gov/22529203/) | 2012 | 指引 | Neurology | AAN/AHS 指引更新：評估 NSAIDs 及其他輔助療法預防發作性偏頭痛 |
+| [18427072](https://pubmed.ncbi.nlm.nih.gov/18427072/) | 2008 | 回顧 | Neurology | 經期相關偏頭痛急性治療與預防的系統性回顧與統合分析 |
+| [20836574](https://pubmed.ncbi.nlm.nih.gov/20836574/) | 2010 | 回顧 | Drugs | 經期偏頭痛的預防與治療 |
+| [40265504](https://pubmed.ncbi.nlm.nih.gov/40265504/) | 2025 | 回顧 | Curr Opin Neurol | 女性偏頭痛的臨床病程與處置更新 |
+| [1495823](https://pubmed.ncbi.nlm.nih.gov/1495823/) | 1992 | 回顧 | Pathol Biol | 回顧 NSAIDs（含 Mefenamic Acid）用於偏頭痛急性發作與預防的對照研究 |
+| [8749241](https://pubmed.ncbi.nlm.nih.gov/8749241/) | 1995 | 回顧 | Cephalalgia | 偏頭痛急性發作的止痛藥與 NSAIDs 治療回顧 |
+| [29095288](https://pubmed.ncbi.nlm.nih.gov/29095288/) | 2017 | 病例系列 | Medicine | 長期使用 Mefenamic Acid 可能導致嚴重腸病變與絨毛萎縮（安全性相關） |
 
 ## 香港上市資訊
+
+香港目前有多張有效的單方許可證（資料為部分清單，實際張數至少 20 張）。以下列出 5 張主要許可證，資料中未記錄核准適應症文字與劑型。
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -85,32 +95,28 @@ Mefenamic acid（甲芬那酸）是一種非類固醇抗發炎藥（NSAID），�
 | HK-29271 | MEFENAMIC ACID TAB 250MG | 未載明 | 未載明 |
 | HK-66441 | MEFETON TABLETS 500MG | 未載明 | 未載明 |
 
-以上僅列出 5 張；目前登記至少 20 張，皆為單一成分且有效，實際清單可能不完整。
-
 ## 安全性考量
 
-- **禁忌／高風險族群（知識圖譜關聯，非仿單文字）**：高血壓、腎臟疾病、肝臟疾病、膽囊疾病、消化性潰瘍（含活動性）、凝血疾病、心肌梗塞、冠狀動脈血栓、血紅素病變、心血管疾病、心臟病。
-- **藥物交互作用**：共查得 100 筆，以下為部分範例：
-  - 中度：acetylsalicylic acid、hydrocortisone、dexamethasone、betamethasone、triamcinolone、budesonide、metformin、chlorpropamide、aprepitant、mesalazine、balsalazide
-  - 輕度：famotidine、ranitidine、cimetidine、dapagliflozin、linaclotide
-- **文獻中的安全性訊號**：自體免疫溶血性貧血（病例報告）、長期使用相關的嚴重腸病變、腎臟影響與止痛藥過度使用。
+- **藥物交互作用**：已查詢到 100 筆交互作用，其中多數為中度。主要包括：
+  - 中度：Acetylsalicylic acid、Hydrocortisone、Dexamethasone、Betamethasone、Budesonide、Triamcinolone、Metformin、Chlorpropamide、Aprepitant、Mesalazine、Balsalazide 等
+  - 輕度：Famotidine、Ranitidine、Cimetidine、Dapagliflozin、Linaclotide
+- **文獻提示的風險**：長期使用可能導致嚴重腸病變（PMID 29095288）；止痛藥過量使用可能造成藥物過度使用型頭痛，以及腎功能影響（PMID 8262786）。
 
-仿單警語與禁忌的詳細內容請參考原廠仿單。
+仿單的警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 文獻中雖有數項雙盲交叉試驗顯示 mefenamic acid 對類風濕性關節炎有症狀改善，但這些試驗年代久遠、樣本小、缺乏現代療效指標，且無登記中的臨床試驗。
-- 該藥只能控制症狀、無疾病修飾作用，已大多被 DMARDs 與生物製劑取代；再加上腸胃、心血管、腎臟風險，目前僅適合作為研究問題。
-- 另外，本次資料中香港許可證的適應症文字為空白，無法確認原適應症。
+- 現有研究以偏頭痛為主，沒有直接針對「頭痛疾患」整體的試驗或研究，且無登記的臨床試驗；Mefenamic Acid 的偏頭痛試驗年代久遠、規模小。同時，長期使用有腸病變、腎臟及藥物過度使用型頭痛等風險。
 
 **若要推進需要：**
-- 取得香港衛生署許可證的核准適應症與仿單警語、禁忌
-- 補充詳細的作用機轉資料
-- 與現行 NSAID 或標準治療比較的現代化臨床研究設計，並納入長期安全性評估
-- 評估腸胃、心血管、腎臟高風險族群的使用限制
+- 界定更具體的目標族群（例如經期偏頭痛的短期使用），並提出新的、規模更大的對照試驗
+- 取得香港原廠仿單的警語、禁忌症與核准適應症資料
+- 取得詳細的作用機轉資料
+- 建立針對腎功能、胃腸道及藥物過度使用的安全性監測計畫
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。
