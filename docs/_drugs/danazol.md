@@ -4,17 +4,17 @@ title: Danazol
 parent: 僅模型預測 (L5)
 nav_order: 243
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "DANAZOL"
-predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "apocrine adenosis of breast", "blunt duct adenosis of breast", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
-description: "Danazol：預測新適應症為Amenorrhea (disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
+description: "Danazol：預測新適應症為無月經 (amenorrhea (disease))（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Danazol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L5** | 預測適應症: **9** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,64 +33,57 @@ description: "Danazol：預測新適應症為Amenorrhea (disease)（證據等級
 
 </div>
 
-## Danazol: Amenorrhea (disease)
+## Danazol: 無月經 (amenorrhea (disease))
 {: .text-alpha }
 
 ## 一句話總結
 
-Danazol 是一種合成類固醇（17α-ethinyltestosterone 衍生物），原本用於子宮內膜異位症與纖維囊腫性乳房疾病。
-TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，目前**無登記的臨床試驗**，但有 **20 篇文獻**支持這個方向，多為綜述與觀察性研究。
-
----
+Danazol 是一種合成類固醇（雄性素衍生物），具抗促性腺激素作用。
+TxGNN 模型預測它可能對**無月經 (amenorrhea (disease))** 有效，
+目前無臨床試驗登記，但有 **20 篇文獻**與此方向相關，其中多數為回顧性文章，並有 1 項 2024 年的回溯性世代研究。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
 | 原適應症 | 本地許可證資料未記載適應症 |
-| 預測新適應症 | Amenorrhea (disease) |
+| 預測新適應症 | 無月經 (amenorrhea (disease)) |
 | TxGNN 預測分數 | 1.0000 |
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
 | 許可證數 | 3 張（有效 3 張） |
-| 建議決策 | Proceed with Guardrails |
+| 建議決策 | Hold |
 
----
+> 註：該預測的實際分數為 0.99999511，四捨五入至小數點後四位為 1.0000。
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉（MOA）資料。根據已整理的文獻，Danazol 是具抗促性腺激素活性的合成雄性激素類藥物，可抑制腦下垂體 LH/FSH 分泌以及卵巢類固醇生成，導致子宮內膜萎縮與閉經。
+目前缺乏詳細的作用機轉資料（本報告彙整的資料中未收錄正式的 MOA 欄位）。根據文獻描述，Danazol 是 17α-乙炔基睪固酮的衍生物，可抑制腦下垂體促性腺激素（LH/FSH）的分泌，並抑制卵巢類固醇生成。
 
-在子宮內膜異位症的治療中，閉經本來就是預期的藥理學結果（病灶在卵巢功能被抑制時會逐漸消退）。因此，「誘導閉經」與其原適應症在機轉上高度相關，可視為同一藥理作用的延伸應用。
+這些作用會使子宮內膜萎縮，進而造成閉經。在子宮內膜異位症的治療中，閉經是預期的藥理學結果，因此「誘導無月經」在機轉上是合理的延伸。2024 年一項多中心回溯性世代研究，也探討了 Danazol 用於跨性別者月經抑制的情形。
 
-近期一項 2024 年的多中心回溯性世代研究，探討 Danazol 用於跨性別與非二元性別者的月經抑制，提供了直接的臨床觀察支持。不過其雄性化副作用（如聲音變化、毛髮色素沉著）與致畸胎性會限制使用。
-
----
+不過，該疾病名稱在此處指的是以閉經作為治療目的（月經抑制），而非治療病理性閉經。雄性素副作用與致畸胎性也會限制其使用。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
-下表依規則優先列出較高層級的研究（已排除與閉經無直接關聯的項目）：
+下表列出與預測最相關的文獻（回顧與研究類型優先）：
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [39051650](https://pubmed.ncbi.nlm.nih.gov/39051650/) | 2024 | 世代研究 | Women's Health (London) | 回溯性多中心研究，探討 Danazol 用於跨性別者月經抑制，兼具誘導閉經與可逆的雄性化副作用 |
-| [36434439](https://pubmed.ncbi.nlm.nih.gov/36434439/) | 2023 | 系統性回顧/統合分析 | Arch Gynecol Obstet | 評估 gestrinone（相近藥物）治療子宮內膜異位症的安全性與療效，可誘導子宮內膜萎縮與閉經 |
-| [2523321](https://pubmed.ncbi.nlm.nih.gov/2523321/) | 1989 | 臨床研究（隨機分組） | Fertil Steril | 39 位不孕患者隨機接受 gestrinone 或 danazol 600 mg/日，共 6 個月，並比較閉經與病灶變化 |
-| [2140996](https://pubmed.ncbi.nlm.nih.gov/2140996/) | 1990 | 雙盲隨機研究 | Fertil Steril | Nafarelin 與 danazol 600 mg/日比較，82 位患者，兩者皆使病灶顯著消退 |
-| [21701432](https://pubmed.ncbi.nlm.nih.gov/21701432/) | 2011 | 綜述 | Menopause | 異常子宮出血的藥物治療，依病因與生育需求選擇療法 |
-| [16280355](https://pubmed.ncbi.nlm.nih.gov/16280355/) | 2006 | 綜述 | Hum Reprod Update | 子宮內膜異位症處置進展；卵巢功能下調（閉經或停經）時病灶會消退 |
-| [2404115](https://pubmed.ncbi.nlm.nih.gov/2404115/) | 1990 | 綜述 | J Reprod Med | Danazol 抑制促性腺激素、性腺與腎上腺類固醇生成，並具免疫調節作用 |
-| [6819580](https://pubmed.ncbi.nlm.nih.gov/6819580/) | 1982 | 綜述 | Prog Clin Biol Res | Danazol 用於子宮內膜異位症與不孕，可抑制卵巢功能 |
-| [1533675](https://pubmed.ncbi.nlm.nih.gov/1533675/) | 1992 | 綜述 | J R Army Med Corps | 軍中女性人員誘導閉經的方法，包括持續口服避孕藥與 GnRH 類似物 |
-| [6210867](https://pubmed.ncbi.nlm.nih.gov/6210867/) | 1982 | 雙盲研究 | Obstet Gynecol | 27 位骨盆腔子宮內膜異位症患者使用 100–600 mg/日，臨床改善程度隨劑量而異 |
-
----
+| [39051650](https://pubmed.ncbi.nlm.nih.gov/39051650/) | 2024 | 世代研究 | Women's Health | 回溯性多中心研究，探討 Danazol 用於跨性別者月經抑制，可誘導閉經，並伴隨可逆的雄性素副作用 |
+| [2523321](https://pubmed.ncbi.nlm.nih.gov/2523321/) | 1989 | 臨床研究 | Fertility and Sterility | 39 位不孕的子宮內膜異位症患者，比較 gestrinone 與 danazol 6 個月治療 |
+| [2140996](https://pubmed.ncbi.nlm.nih.gov/2140996/) | 1990 | 雙盲隨機研究 | Fertility and Sterility | Nafarelin 與 danazol 治療子宮內膜異位症，兩者皆使病灶明顯消退 |
+| [6210867](https://pubmed.ncbi.nlm.nih.gov/6210867/) | 1982 | 雙盲研究 | Obstetrics and Gynecology | 27 位女性以 4 種低劑量 Danazol 治療 6 個月，療效隨劑量而異 |
+| [2404115](https://pubmed.ncbi.nlm.nih.gov/2404115/) | 1990 | Review | J Reprod Med | Danazol 抑制促性腺激素與性腺類固醇生成，並具免疫調節作用 |
+| [6819580](https://pubmed.ncbi.nlm.nih.gov/6819580/) | 1982 | Review | Prog Clin Biol Res | Danazol 抑制卵巢功能，用於子宮內膜異位症與不孕 |
+| [16280355](https://pubmed.ncbi.nlm.nih.gov/16280355/) | 2006 | Review | Hum Reprod Update | 子宮內膜異位症病灶在閉經或停經等卵巢功能下調狀態下會退縮 |
+| [36434439](https://pubmed.ncbi.nlm.nih.gov/36434439/) | 2023 | 系統性回顧 | Arch Gynecol Obstet | 針對 gestrinone（同類藥物）的回顧，非 Danazol 本身 |
+| [21701432](https://pubmed.ncbi.nlm.nih.gov/21701432/) | 2011 | Review | Menopause | 異常子宮出血的藥物治療回顧 |
+| [1533675](https://pubmed.ncbi.nlm.nih.gov/1533675/) | 1992 | Review | J R Army Med Corps | 軍中女性誘導閉經的方法，提及持續口服避孕藥與 GnRH 類似物 |
 
 ## 香港上市資訊
 
@@ -100,33 +93,32 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，目前**無登記
 | HK-39101 | ANARGIL CAP 200MG | 膠囊（200 mg） | 未載明 |
 | HK-43548 | DANOCRINE CAP 200MG | 膠囊（200 mg） | 未載明 |
 
----
+三張許可證目前皆為有效，皆為單一成分製劑。
 
 ## 安全性考量
 
-- **知識圖譜標示的禁忌相關疾病**（非仿單原文）：癲癇、遺傳性紫質症／紫質代謝疾病、腎臟疾病、肝臟疾病、膽囊疾病、女性乳癌、偏頭痛、家族性複合型高脂血症。
-- **藥物交互作用**：共查得 100 筆，以下為部分主要項目：
-  - **重大 (Major)**：Cisapride
-  - **中度 (Moderate)**：多種降血糖藥物（如 Acarbose、Glimepiride、Glipizide、Glyburide、Chlorpropamide、胰島素類、Canagliflozin、Dapagliflozin、Empagliflozin、Exenatide、Dulaglutide 等）、Budesonide、Eliglustat
-- **文獻中提及的風險**：與 lovastatin 併用曾有橫紋肌溶解與胰臟炎案例；與 carbamazepine 併用會使其血中濃度增加近一倍；雄性化副作用與致畸胎性。
+- **藥物交互作用**：已查詢到 100 筆交互作用紀錄，其中較重要的有：
+  - **嚴重（Major）**：Cisapride
+  - **中度（Moderate）**：多種降血糖藥（如 Acarbose、Glimepiride、Glipizide、Glyburide、Chlorpropamide、Acetohexamide、人類胰島素、Insulin aspart）、SGLT2 抑制劑（Canagliflozin、Dapagliflozin、Empagliflozin、Ertugliflozin）、GLP-1 類藥物（Albiglutide、Dulaglutide、Exenatide）、DPP-4 抑制劑（Alogliptin）、Budesonide、Eliglustat
+- 文獻另提及 Danazol 與 carbamazepine 合用會使後者血中濃度約增加一倍，與 lovastatin 合用有橫紋肌溶解與胰臟炎的個案報告。
+- 文獻指出雄性素副作用（如聲音變化、毛髮色素沉著）與致畸胎性是主要限制。
 
-其餘警語與禁忌請參考原廠仿單。
-
----
+其餘警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
-**決策：Proceed with Guardrails**
+**決策：Hold**
 
 **理由：**
-- 閉經是 Danazol 在子宮內膜異位症治療中已知的藥理學結果，機轉合理，且有 2024 年世代研究及多篇臨床研究支持，證據等級為 L3。
-- 目前沒有登記的臨床試驗，且多數文獻較為老舊或為綜述；雄性化副作用、致畸胎性與藥物交互作用需嚴格控管。
+- 目前沒有直接以「無月經」為研究對象的臨床試驗，所引用文獻多為子宮內膜異位症或回顧性文章，僅 2024 年的回溯性世代研究直接涉及月經抑制，故證據等級判定為 L5。
+- 「誘導閉經」是已知的藥理作用，機轉合理，但雄性素副作用與致畸胎風險需審慎評估。
 
 **若要推進需要：**
-- 取得香港衛生署核准的仿單，確認警語、禁忌與核准適應症
-- 補充詳細的作用機轉（MOA）資料
-- 設計前瞻性對照研究，並訂定以月經抑制為目的之劑量與療程
-- 建立安全監測計畫（肝功能、血脂、雄性化症狀），並落實避孕與用藥交互作用審查（尤其是降血糖藥、statin、carbamazepine）
+- 以月經抑制為終點的前瞻性或對照研究
+- 詳細的作用機轉資料與香港仿單的警語及禁忌症
+- 與其他月經抑制方案（如連續口服避孕藥、GnRH 類似物）的風險效益比較
+- 針對特定族群（如跨性別者）的長期安全性監測計畫
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

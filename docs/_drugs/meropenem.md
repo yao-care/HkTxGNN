@@ -4,9 +4,9 @@ title: Meropenem
 parent: 僅模型預測 (L5)
 nav_order: 566
 evidence_level: L5
-indication_count: 9
+indication_count: 7
 monitor_inn: "MEROPENEM"
-predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "Lyme disease", "Peptostreptococcus infectious disease", "Ureaplasma urethritis", "gonococcal urethritis"]
+predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "Ureaplasma urethritis", "gonococcal urethritis"]
 last_modified_at: 2026-11-03
 description: "Meropenem：預測新適應症為細菌性關節炎 (bacterial arthritis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
@@ -14,7 +14,7 @@ description: "Meropenem：預測新適應症為細菌性關節炎 (bacterial art
 # Meropenem
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+證據等級: **L5** | 預測適應症: **7** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,10 +38,9 @@ description: "Meropenem：預測新適應症為細菌性關節炎 (bacterial art
 
 ## 一句話總結
 
-Meropenem 是廣譜碳青黴烯類（carbapenem）抗生素，知識圖譜記錄的原有用途包括綠膿桿菌感染、腦膜炎與腹膜炎等。
-TxGNN 模型預測它可能對**細菌性關節炎 (bacterial arthritis)** 有效，但目前**沒有臨床試驗**，也沒有直接研究此疾病的文獻，僅有間接的文獻，證據以模型預測為主。
-
----
+Meropenem 是廣效型碳青黴烯類注射抗生素。
+TxGNN 模型預測它可能對**細菌性關節炎 (bacterial arthritis)** 有效。
+目前**沒有臨床試驗**，且檢索到的 19 篇文獻多屬間接證據（敗血症回顧、類鼻疽病例、藥動學研究、抗藥性監測），沒有直接評估 meropenem 治療細菌性關節炎的研究。
 
 ## 快速總覽
 
@@ -55,45 +54,36 @@ TxGNN 模型預測它可能對**細菌性關節炎 (bacterial arthritis)** 有�
 | 許可證數 | 16 張（有效 16 張） |
 | 建議決策 | Hold |
 
----
-
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Meropenem 屬於碳青黴烯類抗生素，一般認為其作用是結合青黴素結合蛋白（PBP），抑制細菌細胞壁合成。骨與關節感染常由對其敏感的革蘭氏陽性菌、革蘭氏陰性菌與厭氧菌引起，因此機轉上有合理性。
+目前缺乏詳細的作用機轉資料（DrugBank 未收錄）。依一般藥理知識，meropenem 屬碳青黴烯類，透過結合青黴素結合蛋白（PBP）抑制細菌細胞壁合成，對多種革蘭氏陽性菌、革蘭氏陰性菌及厭氧菌有殺菌活性。
 
-不過，檢索到的文獻多屬間接證據，包括敗血症回顧、類鼻疽（melioidosis）病例與世代研究、藥物動力學研究及抗藥性監測。其中有個案報告提到以 Meropenem 合併 amikacin 治療產 ESBL 肺炎克雷伯菌引起的化膿性關節炎並獲成功，但這僅是個案層級的觀察。目前沒有任何研究直接以 Meropenem 評估細菌性關節炎的療效。
+骨關節感染多由上述敏感菌引起，因此機轉上具合理性。部分病例報告顯示，meropenem 曾用於產 ESBL 肺炎克雷伯菌引起的化膿性關節炎（併用 amikacin 與關節鏡沖洗），類鼻疽相關骨關節炎病例中的菌株也對 meropenem 敏感。
 
-因此，雖然機轉上說得通，但仍不足以支持臨床使用。
-
----
+不過這些都是個案或間接資料，並非針對細菌性關節炎的對照研究。因此依證據等級規則，本預測僅能列為 L5（模型預測為主）。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
-以下為與此預測最相關的文獻（均為間接證據，非針對細菌性關節炎的直接研究）：
+下表列出與關節感染較相關的文獻，優先列出回顧與世代研究。
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [36678359](https://pubmed.ncbi.nlm.nih.gov/36678359/) | 2022 | Review | Pathogens | 類鼻疽的抗生素與噬菌體療法比較 |
-| [35146367](https://pubmed.ncbi.nlm.nih.gov/35146367/) | 2021 | Cohort | Le infezioni in medicina | 骨關節類鼻疽的回顧性世代研究 |
-| [39489417](https://pubmed.ncbi.nlm.nih.gov/39489417/) | 2024 | 回顧性病例分析 | Indian J Med Microbiol | 22 例肌肉骨骼類鼻疽，所有菌株對 Meropenem 敏感 |
-| [11869242](https://pubmed.ncbi.nlm.nih.gov/11869242/) | 1997 | Review | Clin Microbiol Infect | 敗血症的治療 |
-| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Review | Int J Antimicrob Agents | 多重抗藥菌感染的仿單外使用與正式建議比較 |
-| [17433752](https://pubmed.ncbi.nlm.nih.gov/17433752/) | 2007 | 個案報告 | Joint Bone Spine | 2 例產 ESBL 肺炎克雷伯菌化膿性關節炎，以 Meropenem 加 amikacin 與關節鏡沖洗治療成功 |
-| [39380073](https://pubmed.ncbi.nlm.nih.gov/39380073/) | 2024 | 個案報告 | J Med Case Rep | 播散性類鼻疽併化膿性關節炎 |
-| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | Cohort | Clin Lab | 幼童骨關節感染的病原體分布與抗藥性 |
-| [33857030](https://pubmed.ncbi.nlm.nih.gov/33857030/) | 2021 | 體外研究 | J Bone Joint Surg Am | Meropenem 等抗生素在骨水泥中的熱穩定性與釋放動力學 |
-
----
+| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Review | Int J Antimicrob Agents | 多重抗藥菌感染中傳統與新型抗生素的仿單外使用與正式建議比較 |
+| [36678359](https://pubmed.ncbi.nlm.nih.gov/36678359/) | 2022 | Review | Pathogens | 類鼻疽的抗生素與噬菌體治療選項 |
+| [11869242](https://pubmed.ncbi.nlm.nih.gov/11869242/) | 1997 | Review | Clin Microbiol Infect | 敗血症治療與抗生素臨床試驗的定義 |
+| [35146367](https://pubmed.ncbi.nlm.nih.gov/35146367/) | 2021 | Cohort | Le Infezioni in Medicina | 骨關節類鼻疽的回溯性世代研究 |
+| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | Cohort | Clin Lab | 幼童骨關節感染的病原分布與抗藥性分析 |
+| [39489417](https://pubmed.ncbi.nlm.nih.gov/39489417/) | 2024 | 回溯性回顧 | Indian J Med Microbiol | 22 例肌肉骨骼類鼻疽，所有菌株對 meropenem 敏感 |
+| [17433752](https://pubmed.ncbi.nlm.nih.gov/17433752/) | 2007 | Case report | Joint Bone Spine | 2 例產 ESBL 肺炎克雷伯菌化膿性關節炎，以 meropenem 加 amikacin 並配合關節鏡沖洗治療成功 |
+| [39380073](https://pubmed.ncbi.nlm.nih.gov/39380073/) | 2024 | Case report | J Med Case Rep | 瀰漫性類鼻疽合併化膿性關節炎，初期被誤診 |
+| [37713001](https://pubmed.ncbi.nlm.nih.gov/37713001/) | 2024 | 抗藥性監測 | Eur J Orthop Surg Traumatol | 開發中國家成人非脊椎骨科感染的經驗性抗生素選擇 |
+| [33857030](https://pubmed.ncbi.nlm.nih.gov/33857030/) | 2021 | 體外研究 | J Bone Joint Surg Am | meropenem 等抗生素在骨水泥中的熱穩定性與釋放動力學 |
 
 ## 香港上市資訊
-
-香港共有 16 張有效許可證，皆為單一成分製劑，其中多數為注射用粉劑。資料中未提供劑型與核准適應症文字。主要許可證如下：
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -103,47 +93,27 @@ TxGNN 模型預測它可能對**細菌性關節炎 (bacterial arthritis)** 有�
 | HK-61054 | MEROZAN POWDER FOR SOLUTION FOR INJECTION OR INFUSION 1G | 未提供 | 未提供 |
 | HK-68215 | VABOREM POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 1G/1G | 未提供 | 未提供 |
 
----
+目前共有 16 張許可證，全部有效。以上僅列出其中 5 張。
 
 ## 安全性考量
 
-- **知識圖譜記錄的禁忌關係**（非仿單內容）：癲癇、腎臟病、輸尿管膿腫、血小板低下、困難梭菌結腸炎、周產期壞死性腸炎。
-- **藥物交互作用**：共 14 筆，其中 Major 等級包括 Bupropion、Iohexol、Iopamidol；Moderate 等級包括 Picosulfuric acid、Polyethylene glycol（3350 含電解質）、Nitisinone、Sodium sulfate、Lindane、Ethinylestradiol、Alpelisib、Encorafenib、Mycophenolic acid、Pemetrexed、Teriflunomide。
+- **藥物交互作用**：已查得 14 項交互作用，其中屬「嚴重」等級的有 bupropion、iohexol、iopamidol。其餘多為「中度」，包括 picosulfuric acid、聚乙二醇電解質製劑、nitisinone、硫酸鈉、lindane、ethinylestradiol、alpelisib、encorafenib、mycophenolic acid、pemetrexed、teriflunomide。
 
-仿單層級的警語與禁忌資料尚缺，請參考原廠仿單。
-
----
+其他警語與禁忌症資料請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 此預測僅有模型分數與間接文獻支持，沒有針對細菌性關節炎的臨床試驗或直接研究，依規則證據等級為 L5。
-- 現有的骨關節感染治療選擇已相當多，且 Meropenem 屬於保留用的廣譜抗生素，需考量抗藥性管理。
+- 沒有直接評估 meropenem 治療細菌性關節炎的臨床試驗或研究，現有文獻多為個案與間接資料，證據僅達 L5。
+- meropenem 屬廣效抗生素，宜保留給多重抗藥菌感染，應考量抗生素管理原則，不宜僅憑模型預測就擴大使用。
 
 **若要推進需要：**
-- 針對細菌性（化膿性）關節炎的對照研究或較大型的觀察性研究。
-- 取得香港原廠仿單，確認核准適應症、警語與禁忌。
-- 補充詳細的作用機轉資料。
-- 評估關節腔穿透性與劑量方案。
-
----
-
-### 附註：其他預測適應症
-
-資料中另有以下預測，目前證據均不足，建議皆為 Hold：
-
-| 預測適應症 | TxGNN 分數 | 證據等級 | 說明 |
-|-----------|-----------|---------|------|
-| 會厭炎 (epiglottitis) | 0.9991 | L5 | 僅有 Haemophilus 敏感性報告與個案報告，無直接研究 |
-| 金黃色葡萄球菌感染 | 0.9985 | L5 | 有碳青黴烯合併治療持續性 MSSA 菌血症的世代研究，但不足以支持單用；對 MRSA 無效 |
-| 喉炎 (laryngitis) | 0.9959 | L5 | 多為病毒性，無合理的使用理由 |
-| 副傷寒 | 0.9957 | L5 | 僅有間接的治療回顧與敏感性資料，Meropenem 僅屬抗藥菌株的後線選項 |
-| 萊姆病 | 0.9946 | L5 | 僅有 2001 年體外研究，標準藥物已有效 |
-| 消化鏈球菌感染 | 0.9937 | L5 | 無文獻，僅有廣譜厭氧菌覆蓋的機轉推論 |
-| Ureaplasma 尿道炎 | 0.9933 | L5 | Ureaplasma 無細胞壁，與 β-內醯胺類機轉矛盾，疑為偽陽性 |
-| 淋病性尿道炎 | 0.9933 | L5 | 無文獻，且相較標準療法無明顯優勢 |
+- 針對細菌性關節炎的前瞻性或對照研究，並與現行標準治療比較
+- 取得完整仿單中的警語與禁忌症資料
+- 骨關節組織穿透性與給藥方案的藥動學資料
+- 評估對抗藥性與抗生素管理的影響
 
 ## 免責聲明
 
