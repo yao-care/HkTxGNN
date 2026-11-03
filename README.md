@@ -6,7 +6,7 @@
 [![Website](https://img.shields.io/badge/Website-hktxgnn.yao.care-blue)](https://hktxgnn.yao.care)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-使用 TxGNN 模型對Hong Kong Department of Health HK核准藥品進行老藥新用預測。
+使用 TxGNN 模型對香港衛生署藥物辦公室註冊藥品進行老藥新用預測。
 
 ## 免責聲明
 
@@ -73,7 +73,7 @@ uv run python scripts/run_kg_prediction.py
 
 | 指標 | 數值 |
 |------|------|
-| Department of Health HK 總藥品數 | 23,935 |
+| 衛生署藥物辦公室 總藥品數 | 23,935 |
 | 老藥新用候選數 | 21,513,581 |
 
 ### 深度學習方法
@@ -130,7 +130,7 @@ TxGNN 分數代表模型對「藥物-疾病」配對的預測信心，範圍為 
 flowchart TD
     A["TxGNN 預測結果"] --> B
     subgraph B["Step 1: DrugBundle Collector"]
-        B1["藥物層級: Department of Health HK, DDI, DrugBank"]
+        B1["藥物層級: 衛生署藥物辦公室, DDI, DrugBank"]
         B2["適應症層級: ClinicalTrials, PubMed, ICTRP"]
     end
     B --> |"drug_bundle.json"| C
@@ -153,7 +153,7 @@ flowchart TD
 
 | 檔案 | 下載 |
 |------|------|
-| Department of Health HK 資料 | [資料來源](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 衛生署藥物辦公室 資料 | [資料來源](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 | node.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144482) |
 | kg.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144484) |
 | edges.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144483) |
@@ -215,7 +215,7 @@ PYTHONPATH=src python -m hktxgnn.predict.txgnn_model
 
 | 類別 | 資料 | 來源 | 說明 |
 |------|------|------|------|
-| **藥品資料** | Department of Health HK | [Department of Health HK](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) | Hong Kong |
+| **藥品資料** | 衛生署藥物辦公室 | [藥劑製品清單 DrugList.xml](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) | Hong Kong |
 | **知識圖譜** | TxGNN KG | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) | 17,080 diseases, 7,957 drugs |
 | **藥物資料庫** | DrugBank | [DrugBank](https://go.drugbank.com/) | 藥品成分映射 |
 | **藥物交互作用** | DDInter 2.0 | [DDInter](https://ddinter2.scbdd.com/) | DDI 配對 |
@@ -301,7 +301,7 @@ HkTxGNN/
 
 ```mermaid
 flowchart TD
-    FDA["Department of Health HK 資料"] --> proc["process_fda_data.py"]
+    FDA["衛生署藥物辦公室資料"] --> proc["process_fda_data.py"]
     TxGNN["TxGNN 資料"] --> prep["prepare_external_data.py"]
 
     proc --> json["hk_fda_drugs.json"]
