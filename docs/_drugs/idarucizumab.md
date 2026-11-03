@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 456
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Idarucizumab: 香港已知用途與上市狀態；目前無新候選適應症"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ predicted_indications: []
 TxGNN 模型對 Idarucizumab 沒有分數達 0.99 以上的候選適應症，因此目前沒有新的預測適應症。下方列出此藥物本身已記錄的用途。
 
 ## 快速概覽
+
 | 項目 | 內容 |
 |------|------|
 | 新預測適應症 | 無（沒有模型候選分數達 0.99 以上） |
@@ -52,17 +53,20 @@ TxGNN 模型對 Idarucizumab 沒有分數達 0.99 以上的候選適應症，因
 ## 此藥物已記錄的已知用途
 
 ### 已核准（有許可證或標示支持）
+
 | 適應症 | 來源 |
 |------|------|
 | 出血 (hemorrhage) | 其他國家的許可證 |
 | 危及生命或無法控制的出血 (in life-threatening or uncontrolled bleeding) | 其他國家的許可證 |
 
 ### 與已核准適應症相關（同一疾病類別）
+
 | 適應症 | 已核准類別 |
 |------|------|
 | 無 | 無 |
 
 ### 知識圖譜中記錄的關係（未找到核准）
+
 | 適應症 |
 |------|
 | 無 |

@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 739
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Propofol：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：目前香港許可證資料未載明核准適應症"
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -130,6 +130,7 @@ Propofol 是 GABA-A 受體的正向別構調節劑。增強 GABA 抑制作用，
 | Prinzmetal 心絞痛 | 0.9923 | L5 | Hold | 現有文獻是麻醉中誘發冠狀動脈痙攣的案例，屬安全警訊，而非療效證據 |
 | 腎因性抗利尿激素不適當分泌症候群 | 0.9920 | L5 | Hold | 無試驗、無文獻，也無合理機轉，僅為模型預測 |
 | Tourette 症候群 | 0.9903 | L4 | Hold | 僅有深部腦刺激手術中鎮靜的神經生理研究，未顯示對抽動症狀有療效 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

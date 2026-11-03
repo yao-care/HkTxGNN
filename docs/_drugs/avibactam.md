@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Avibactam"
 predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "hyperamylasemia", "polyclonal hyperviscosity syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Avibactam：預測新適應症為泌尿道結核 (ureter tuberculosis)（證據等級 L5）。原適應症：腎盂腎炎"
 ---
 
@@ -105,6 +105,7 @@ TxGNN 的高分（0.9911）僅是模型輸出，不等同於實際療效。另�
 | 泌尿道血吸蟲病 (urinary schistosomiasis) | 0.9906 | 血吸蟲為寄生蟲，Avibactam 作用於細菌 β-內醯胺酶，無合理的直接抗寄生蟲機轉；此分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。標準治療為 praziquantel。 |
 | 高澱粉酶血症 (hyperamylasemia) | 0.9901 | 屬實驗室檢驗異常而非感染，Avibactam 無已知降低澱粉酶的機轉；此分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。 |
 | 多株性高黏滯症候群 (polyclonal hyperviscosity syndrome) | 0.9901 | Avibactam 對免疫球蛋白生成或血液流變學無已知作用，分數與高澱粉酶血症相同，疑為非特異性模型輸出。 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

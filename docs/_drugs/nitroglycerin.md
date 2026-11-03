@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 625
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Nitroglycerin：預測新適應症為肺動脈高壓 (Pulmonary Hypertension)（證據等級 L3）。原適應症：香港許可證資料未載明核准適應症"
 monitor_inn: "nitroglycerin"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
@@ -140,6 +140,7 @@ TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有�
 | 後側彎性心臟病 (Kyphoscoliotic heart disease) | 0.9942 | L5 | Hold：僅有模型預測，且可能惡化 V/Q 匹配 |
 | 原發性遺傳性青光眼 | 0.9916 | L5 | Hold：機轉依據薄弱，無試驗或文獻 |
 | 先天性稀毛症伴粟丘疹 | 0.9902 | L5 | Hold：無明確機轉連結，不建議推進 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

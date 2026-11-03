@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 80
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 description: "Atomoxetine：預測新適應症為特定發展障礙 (Specific Developmental Disorder)（證據等級 L4）。原適應症：注意力不足過動症 (ADHD)"
 monitor_inn: "ATOMOXETINE"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
@@ -141,6 +141,7 @@ TxGNN 分數極高，很可能反映的是網路上與 ADHD 的鄰近性。現�
 | 7 | Tourette 症候群 | L3 | 有 1 個 Phase 2 試驗（NCT04354103）因僅收 5 人而提前終止，無可用結果；ADHD 合併抽動的研究顯示未明顯加重抽動 |
 | 8 | 暫時性抽動症 | L3 | 證據由 Tourette 與抽動症文獻外推 |
 | 2、3、9、10 | 面指趾生殖器症候群、軟骨黏液樣纖維瘤、小腦共濟失調、顯性遺傳小腦共濟失調 | L5 | 無試驗也無文獻，僅有模型預測 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

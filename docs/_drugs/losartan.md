@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 541
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 monitor_inn: "Losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 description: "Losartan：預測新適應症為惡性高血壓腎病變 (malignant hypertensive renal disease)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
@@ -122,6 +122,7 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (Malignant Hypertensive
 | 6 | Prinzmetal 心絞痛 | 0.9945 | L5 | 僅模型預測，標準治療仍為鈣離子通道阻斷劑與硝酸鹽 |
 | 7 | 體染色體顯性家族性血尿－視網膜小動脈迂曲－攣縮症候群 | 0.9939 | L5 | 僅模型預測 |
 | 8 | 腦小血管病 1 型（合併或不合併眼部異常） | 0.9937 | L5 | 證據間接（降血壓藥對小血管微循環的試驗、Marfan 症候群 ARB 文獻），適合作為研究問題 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

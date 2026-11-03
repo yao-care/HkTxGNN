@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "MEROPENEM"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "Lyme disease", "Peptostreptococcus infectious disease", "Ureaplasma urethritis", "gonococcal urethritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Meropenem：預測新適應症為細菌性關節炎 (bacterial arthritis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
@@ -144,6 +144,7 @@ TxGNN 模型預測它可能對**細菌性關節炎 (bacterial arthritis)** 有�
 | 消化鏈球菌感染 | 0.9937 | L5 | 無文獻，僅有廣譜厭氧菌覆蓋的機轉推論 |
 | Ureaplasma 尿道炎 | 0.9933 | L5 | Ureaplasma 無細胞壁，與 β-內醯胺類機轉矛盾，疑為偽陽性 |
 | 淋病性尿道炎 | 0.9933 | L5 | 無文獻，且相較標準療法無明顯優勢 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

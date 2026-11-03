@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "mature cataract", "tetanic cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "cortical cataract", "nuclear senile cataract", "diabetic cataract"]
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 description: "Methionine：預測新適應症為痤瘡 (acne)（證據等級 L5）。原適應症：資料中未載明"
 ---
 
@@ -119,6 +119,7 @@ TxGNN 模型預測它可能對 **痤瘡 (acne)** 有效，分數很高，但目�
 | 皮質性白內障、核性老年白內障 | L5 | 文獻多為晶體蛋白氧化（含甲硫胺酸殘基氧化）的機轉或動物研究，不能證明補充甲硫胺酸有益 |
 | 糖尿病性白內障 | L5 | 有同半胱胺酸眼疾回顧與 MsrB1 細胞實驗，但均未直接研究該疾病的甲硫胺酸治療，可視為前臨床研究問題，不宜視為臨床證據 |
 | 其他白內障亞型（強直性、顱縫早閉性、第二型糖尿病相關、未成熟型） | L5 | 僅有模型預測，無文獻 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

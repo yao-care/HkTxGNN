@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 809
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Sertaconazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease", "pityriasis versicolor"]
 description: "Sertaconazole：預測新適應症為Ectothrix infectious disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
@@ -132,6 +132,7 @@ Sertaconazole 是咪唑類（imidazole）外用抗黴菌藥，原本用於足癬
 |-----------|-----------|---------|------|------|
 | 花斑癬 (Pityriasis versicolor) | 0.9945 | L3 | Research Question | 僅有一項 1992 年小型研究 |
 | 外毛癬、內毛癬、Majocchi 肉芽腫、深部癬 | 99.37–0.9959 | L5 | Hold | 無臨床證據；毛囊或深部感染通常需全身治療 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

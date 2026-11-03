@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 monitor_inn: "Donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 description: "Donepezil：預測新適應症為Psychogenic movement disorders（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
@@ -143,6 +143,7 @@ TxGNN 模型預測它可能對**慢性抽動障礙 (Chronic Tic Disorder)** 有�
 | 6 | 顫抖-眼震-十二指腸潰瘍症候群 | 0.9915 | L5 | 檢索到的文獻不相關；膽鹼酯酶抑制劑可能增加胃酸分泌而加重潰瘍 |
 | 7 | 兒童良性陣發性向上凝視合併共濟失調 | 0.9912 | L5 | 僅有模型預測 |
 | 8 | 舌-顏面-頰部運動障礙 | 0.9902 | L5 | 有 Cochrane 回顧討論膽鹼類藥物治療遲發性運動障礙，但並非專門針對 Donepezil，確定性有限 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

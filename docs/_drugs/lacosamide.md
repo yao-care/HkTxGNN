@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 501
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Lacosamide"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide：預測新適應症為Manic bipolar affective disorder（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
@@ -147,6 +147,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 | 腎因性抗利尿激素分泌不當症候群 | 0.9991 | L5 | Hold（無證據，且抗癲癇藥可能引起低血鈉） |
 | 伴腦幹先兆偏頭痛 | 0.9982 | L5 | Hold（僅有間接機轉支持） |
 | 拔毛症、失眠、強迫症、乳突性結膜炎 | 0.9972–0.9992 | L5 | Hold（無相關證據） |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

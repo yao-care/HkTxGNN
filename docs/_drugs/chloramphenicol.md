@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 185
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 description: "Chloramphenicol：預測新適應症為結膜炎 (Conjunctivitis)（證據等級 L3）。原適應症：傷寒、沙門氏菌感染、副傷寒、腦膜炎球菌感染、鏈球菌腦膜炎、外耳炎、感染性皮膚病、斑疹熱、立克次體病、錐蟲病、斑疹傷寒、Q 熱"
 monitor_inn: "CHLORAMPHENICOL"
 predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
@@ -149,6 +149,7 @@ TxGNN 另預測了下列適應症，但證據明顯不足，建議均為 Hold（
 | 恰加斯心肌病變 | 0.9951 | L5 | 僅有模型預測，骨髓毒性為重大障礙 |
 | 感染相關溶血性尿毒症候群 | 0.9950 | L5 | 僅有模型預測，抗生素可能增加毒素釋放，血液毒性亦為疑慮，預測可能不利 |
 | 點狀上皮角膜結膜炎 | 0.9917 | L5 | 文獻為微孢子蟲角膜結膜炎病例系列，chloramphenicol 對微孢子蟲無預期療效，建議列為研究問題 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

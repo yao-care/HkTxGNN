@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 697
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Pilocarpine: known uses and market status in Hong Kong; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ predicted_indications: []
 TxGNN 模型為 Pilocarpine 產生的候選適應症，經追溯來源後全部屬於已知用途，因此目前沒有新的預測適應症。本頁列出這些已知用途及其在香港的上市狀態，供藥師參考。
 
 ## 快速總覽
+
 | 項目 | 內容 |
 |------|------|
 | 新預測適應症 | 無（模型候選中可追溯者皆為已知用途） |
@@ -52,16 +53,19 @@ TxGNN 模型為 Pilocarpine 產生的候選適應症，經追溯來源後全部�
 ## 模型候選中的已知用途
 
 ### 已核准（有許可證或仿單支持）
+
 | 適應症 | 來源 |
 |------|------|
 | 原發性遺傳性青光眼 (primary hereditary glaucoma) | 其他國家的許可證（核准適應症：glaucoma） |
 
 ### 與已核准適應症相關（同一疾病類別）
+
 | 適應症 | 所屬核准類別 |
 |------|------|
 | 無 | 無 |
 
 ### 知識圖譜中記錄的關係（未找到核准）
+
 | 適應症 |
 |------|
 | 無 |

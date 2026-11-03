@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 332
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Erenumab: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ predicted_indications: []
 TxGNN 模型針對 Erenumab 產生的候選（分數 ≥ 0.99），所有可追溯來源者皆為已知用途，因此目前沒有新的預測適應症。模型候選中有 1 項屬於已核准適應症的同一疾病類別。Erenumab 在香港目前為上市中。
 
 ## 快速概覽
+
 | 項目 | 內容 |
 |------|------|
 | 新預測適應症 | 無（模型所有可追溯的候選皆為已知用途） |
@@ -52,16 +53,19 @@ TxGNN 模型針對 Erenumab 產生的候選（分數 ≥ 0.99），所有可追�
 ## 模型候選中的已知用途
 
 ### 已核准（有許可證或仿單支持）
+
 | 適應症 | 來源 |
 |------|------|
 | 無 | 無 |
 
 ### 與已核准適應症相關（同一疾病類別）
+
 | 適應症 | 已核准類別 |
 |------|------|
 | 腦幹先兆偏頭痛 (migraine with brainstem aura) | migraine |
 
 ### 知識圖譜中記錄的關係（未找到核准）
+
 | 適應症 |
 |------|
 | 無 |

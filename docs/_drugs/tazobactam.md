@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 851
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Tazobactam: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ predicted_indications: []
 TxGNN 深度學習模型針對 Tazobactam 產生的候選適應症，經追溯來源後全部屬於已知用途，因此目前沒有新的預測適應症。以下列出這些已知用途及其在香港的上市狀態，供藥師參考。
 
 ## 快速概覽
+
 | 項目 | 內容 |
 |------|------|
 | 新的預測適應症 | 無（所有可追溯的模型候選皆為已知用途） |
@@ -52,16 +53,19 @@ TxGNN 深度學習模型針對 Tazobactam 產生的候選適應症，經追溯�
 ## 模型候選中的已知用途
 
 ### 已核准（有許可證或仿單支持）
+
 | 適應症 | 來源 |
 |------|------|
 | 肺炎 (pneumonia) | 其他國家的許可證；核准適應症：hospital-acquired pneumonia (hap), including ventilator associated pneumonia (vap). consideration should be given to official guidance on the appropriate use of antibacterial agents |
 
 ### 與已核准適應症相關（同一疾病類別）
+
 | 適應症 | 已核准類別 |
 |------|------|
 | 泌尿道感染 (urinary tract infection (disease)) | urinary tract infection |
 
 ### 知識圖譜中記錄的關係（未發現核准）
+
 | 適應症 |
 |------|
 | 無 |

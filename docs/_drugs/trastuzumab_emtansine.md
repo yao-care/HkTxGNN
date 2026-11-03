@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 898
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Trastuzumab Emtansine: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ predicted_indications: []
 TxGNN 深度學習模型（分數 ≥ 0.99）為 Trastuzumab Emtansine 產生的候選適應症，經追溯來源後皆為已知用途，因此目前沒有新的預測適應症。這些候選均屬於與已核准適應症相同的疾病類別（乳癌）。
 
 ## 快速總覽
+
 | 項目 | 內容 |
 |------|------|
 | 新預測適應症 | 無（模型候選中可追溯者皆為已知用途） |
@@ -52,11 +53,13 @@ TxGNN 深度學習模型（分數 ≥ 0.99）為 Trastuzumab Emtansine 產生的
 ## 模型候選中的已知用途
 
 ### 已核准（有許可證或仿單支持）
+
 | 適應症 | 來源 |
 |------|------|
 | 無 | 無 |
 
 ### 與已核准適應症相關（同一疾病類別）
+
 | 適應症 | 已核准類別 |
 |------|------|
 | 正常乳腺樣亞型乳癌 (normal breast-like subtype of breast carcinoma) | breast cancer |
@@ -65,6 +68,7 @@ TxGNN 深度學習模型（分數 ≥ 0.99）為 Trastuzumab Emtansine 產生的
 | 管腔 A 型或 B 型乳房腫瘤 (breast tumor luminal A or B) | breast cancer |
 
 ### 知識圖譜中記錄的關係（未查到核准）
+
 | 適應症 |
 |------|
 | 無 |

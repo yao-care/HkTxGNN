@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 942
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "VORTIOXETINE"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 description: "Vortioxetine：預測新適應症為神經症 (neurotic disorder)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
@@ -128,6 +128,7 @@ TxGNN 模型預測它可能對 **神經症 (Neurotic Disorder)** 有效，但目
 | 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 | 說明 |
 |------|-----------|-----------|---------|------|------|
 | 4 | 嬰兒良性陣發性斜頸 | 0.9907 | L5 | Hold | 無可辨識的機轉連結，無試驗與文獻，此分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病學到的相似性，而非生物學證據，且嬰兒族群有安全疑慮 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

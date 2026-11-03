@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 519
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
 description: "Lenvatinib：預測新適應症為脂肪肉瘤 (liposarcoma)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
@@ -148,6 +148,7 @@ Lenvatinib 為口服標靶藥物（多標靶激酶抑制劑），並非傳統細
 | 腎細胞癌（renal carcinoma，排名 7） | L1 | Proceed with Guardrails；此為已核准適應症而非真正的藥物再利用，CLEAR Phase 3 試驗支持 Lenvatinib 併用 Pembrolizumab 優於 Sunitinib。需監測高血壓、蛋白尿、肝毒性 |
 | 未分類腎細胞癌 | L2 | Proceed with Guardrails；缺乏專屬 Phase 3 資料，但有非透明細胞腎癌的 Phase 2 研究支持 |
 | Xp11.2/TFE3 融合相關腎細胞癌 | L4 | 研究問題；僅有尚未開始招募的 Phase 2 試驗 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 327
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 description: "Epinephrine：預測新適應症為阻塞性肺病 (obstructive lung disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
@@ -155,6 +155,7 @@ TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有
 | 食物依賴型運動誘發過敏性休克 | 0.9957 | L5 | Research Question：無專屬試驗，僅有系統性回顧與病例文獻，主要由一般過敏性休克指引推論 |
 | 呼吸道畸形 (Respiratory Malformation) | 0.9956 | L3 | Research Question：僅 1 個 Phase 1 新生兒暫時性呼吸急促試驗，結構性畸形預期不會對 Epinephrine 有反應 |
 | Rienhoff 症候群 | 0.9957 | L5 | Hold：無試驗、無文獻，也找不到合理的機轉連結，僅為模型預測 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

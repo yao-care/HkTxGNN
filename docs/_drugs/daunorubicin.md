@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 249
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Daunorubicin"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
 description: "Daunorubicin：預測新適應症為Hodgkins lymphoma（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
@@ -155,6 +155,7 @@ TxGNN 模型預測它可能對**何杰金氏淋巴瘤 (Hodgkin's lymphoma)** 有
 | ALK 陽性大 B 細胞淋巴瘤 | 0.9978 | L4 | Hold；試驗未明確測試 daunorubicin |
 | 後腹腔腫瘤 | 0.9977 | L5 | Hold；文獻多為白血病相關病例報告 |
 | 神經節母細胞瘤、腺肉瘤、原發性肺淋巴瘤、椎骨異常合併內分泌與 T 細胞功能異常症候群 | 99.76–0.9980 | L5 | Hold；僅有模型預測，幾乎無直接證據 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 650
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "OXCARBAZEPINE"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine：預測新適應症為Restless legs syndrome（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
@@ -131,6 +131,7 @@ Oxcarbazepine 是一種鈉離子通道阻斷型抗癲癇藥物，原本用於局
 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
 |-----------|-----------|---------|------|
 | 不寧腿症候群 (Restless Legs Syndrome) | 0.9989 | L4 | 研究問題（僅有 3 篇小型病例報告，無臨床試驗） |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

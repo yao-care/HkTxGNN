@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 613
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Neratinib: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ predicted_indications: []
 TxGNN 深度學習模型針對 Neratinib 產生的候選適應症，經追溯來源後全部屬於已知用途，因此目前沒有新的預測適應症。下列 4 項候選皆與已核准適應症屬同一疾病類別（乳癌）。
 
 ## 快速概覽
+
 | 項目 | 內容 |
 |------|------|
 | 新的預測適應症 | 無（所有可追溯的模型候選皆為已知用途） |
@@ -52,11 +53,13 @@ TxGNN 深度學習模型針對 Neratinib 產生的候選適應症，經追溯來
 ## 模型候選中的已知用途
 
 ### 已核准（有許可證或標籤支持）
+
 | 適應症 | 來源 |
 |------|------|
 | 無 | 無 |
 
 ### 與已核准適應症相關（同一疾病類別）
+
 | 適應症 | 已核准類別 |
 |------|------|
 | 黃體素受體陽性乳癌 (progesterone-receptor positive breast cancer) | breast cancer |
@@ -65,6 +68,7 @@ TxGNN 深度學習模型針對 Neratinib 產生的候選適應症，經追溯來
 | 乳癌管腔 A 型或 B 型 (breast tumor luminal A or B) | breast cancer |
 
 ### 知識圖譜中記錄的關係（未找到核准）
+
 | 適應症 |
 |------|
 | 無 |

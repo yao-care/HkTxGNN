@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 955
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Zinc Sulfate：預測新適應症為咽炎 (Pharyngitis)（證據等級 L5）。原適應症：許可證資料未記載"
 monitor_inn: "ZINC SULFATE"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "congenital prothrombin deficiency"]
@@ -134,6 +134,7 @@ TxGNN 模型預測它可能對**咽炎 (Pharyngitis)** 有效，
 | 鼻腔疾病 | 0.9981 | L5 | Hold：文獻多為毒理或動物研究，且有嗅覺損傷風險 |
 | 急性喉咽炎 | 0.9981 | L5 | 研究問題：僅有 1 篇放化療黏膜炎文獻，屬間接證據 |
 | 先天性凝血酶原缺乏症 | 0.9916 | L5 | Hold：無任何證據，也無合理機轉，此分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

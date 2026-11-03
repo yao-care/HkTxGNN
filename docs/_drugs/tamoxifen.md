@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 848
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Tamoxifen：預測新適應症為Mammary Paget disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
@@ -162,6 +162,7 @@ Tamoxifen 是選擇性雌激素受體調節劑，原本用於治療女性乳癌�
 | 荷爾蒙抗性乳癌 | L3 | Research Question | 僅有小型試驗，僅支持組合策略的假說 |
 | 基底樣乳癌 | L5 | Hold | 多為 ER 陰性，機轉不符 |
 | Ehrlich 腫瘤癌 | L5 | Hold | 小鼠模型，非人類適應症 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

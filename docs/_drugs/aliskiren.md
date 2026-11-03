@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ALISKIREN"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "cerebrovascular disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Aliskiren：預測新適應症為肺疾病及／或缺氧所致肺動脈高壓（證據等級 L5）。原適應症：高血壓"
 ---
 
@@ -119,6 +119,7 @@ TxGNN 模型預測它可能對**肺疾病及／或缺氧所致肺動脈高壓 (p
 | Braddock 症候群 | 0.9997 | L5 | 無證據 |
 | 慢性肺心病 | 0.9978 | L5 | 僅 1 篇 2007 年會議試驗回顧，間接相關 |
 | 腦血管疾病 | 0.9919 | 依規則為 L5 | 有 1 個提前終止的動脈粥狀硬化 MRI 試驗 (NCT01417104，71 人) 及多篇前臨床中風研究，但均非直接以腦血管疾病為對象的研究，且 ALTITUDE 提示聯用風險 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

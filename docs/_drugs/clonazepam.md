@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 219
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
 description: "Clonazepam：預測新適應症為不寧腿症候群 (restless legs syndrome)（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
@@ -139,6 +139,7 @@ TxGNN 模型預測它可能對**不寧腿症候群 (Restless Legs Syndrome, RLS)
 |-----------|-----------|---------|------|
 | 失眠 (Insomnia) | 0.9932 | L4 | Research Question：現有文獻多為間接證據（如帕金森氏症睡眠障礙回顧），無針對失眠的 clonazepam RCT；另有 1 例 clonazepam 相關躁狂的病例報告，需先進行安全性評估 |
 | 三叉神經腫瘤 (Trigeminal Nerve Neoplasm) | 0.9930 | L5 | Hold：無臨床試驗與文獻，僅有模型預測，也無合理的抗腫瘤機轉，需先做機轉驗證 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

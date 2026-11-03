@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 554
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Mebendazole"
 predicted_indications: ["acne (disease)"]
 description: "Mebendazole：預測新適應症為Acne (disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
@@ -125,6 +125,7 @@ Mebendazole 是苯并咪唑類驅蟲藥，原本用於蟯蟲症、蛔蟲症和�
 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 | 說明 |
 |-----------|-----------|---------|------|------|
 | 痤瘡 (Acne) | 0.9920 | L5 | Hold | 唯一檢索到的文獻是無關的裂頭蚴病個案，機轉上無合理關聯 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

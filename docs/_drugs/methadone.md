@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 569
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Methadone：預測新適應症為妥瑞氏症 (Tourette syndrome)（證據等級 L4）。原適應症：資料未載明"
 monitor_inn: "Methadone"
 predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
@@ -131,6 +131,7 @@ TxGNN 模型預測它可能對**妥瑞氏症 (Tourette syndrome)** 有效，
 | 躁型雙極性情感疾患 | 0.9932 | L4 | 僅有 1982 年小型研究（PMID 6959168）顯示 methadone 減輕躁症患者的欣快與誇大症狀，其餘多為共病流行病學資料 |
 | 三叉自律神經頭痛 | 0.9905 | L4 | 唯一文獻顯示 methadone 可能誘發或加重叢集性頭痛，屬不良訊號 |
 | 普通感冒 | 0.9902 | L5 | 文獻為冷壓痛覺測試，與感冒無關，屬偽陽性比對 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

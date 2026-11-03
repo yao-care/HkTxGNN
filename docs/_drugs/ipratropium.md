@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 482
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 description: "Ipratropium：預測新適應症為Nasal cavity disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
@@ -156,6 +156,7 @@ Ipratropium 是吸入型抗膽鹼支氣管擴張劑，原本用於慢性阻塞�
 | 8 | 氣管疾病 | 0.9966 | L4 | 研究問題（多為前臨床證據） |
 | 9 | 過敏性休克 | 0.9938 | L4 | Hold（有 Ipratropium 引發過敏性休克的病例報告） |
 | 10 | 食物依賴性運動誘發過敏性休克 | 0.9936 | L5 | Hold |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

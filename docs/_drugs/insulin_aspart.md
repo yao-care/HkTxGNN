@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Insulin Aspart：預測新適應症為自體免疫性卵巢炎 (autoimmune oophoritis)（證據等級 L5）。原適應症：糖尿病、糖尿病酮酸中毒"
 ---
 
@@ -111,6 +111,7 @@ TxGNN 模型（深度學習）的分數雖高 (0.9992)，但該分數可能反�
 | 胰臟發育不全 (pancreatic agenesis) | 0.9944 | L5 | 胰島素替代在生理上合理，但屬於荷爾蒙補充，與原糖尿病適應症一致，並非真正的藥物再利用。檢索到的兩篇文獻（胰島素自體免疫症候群病例報告、第二型糖尿病胰島素治療回顧）並未直接研究此疾病 |
 | 藥物誘發局部脂肪營養不良 | 0.9935 | L5 | 注射部位脂肪營養不良是胰島素已知不良反應，藥物較可能是成因而非治療，安全性考量不支持再利用 |
 | 離心性脂肪營養不良 | 0.9932 | L5 | 僅有理論性連結，無益處證據，且胰島素相關脂肪營養不良為已知不良反應 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

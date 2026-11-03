@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 617
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Nicardipine"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
 description: "Nicardipine：預測新適應症為肺疾病及（或）缺氧所致肺高壓 (pulmonary hypertension owing to lung disease and/or hypoxia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
@@ -122,6 +122,7 @@ TxGNN 模型預測它可能對**肺疾病及（或）缺氧所致肺高壓 (Pulm
 | 機轉不明的多因素肺高壓 | 0.9926 | 僅憑模型分數與鈣離子通道阻斷劑的一般血管舒張作用；僅少數有血管反應性的肺動脈高壓患者適用 |
 | 惡性高血壓腎病 | 0.9913 | 降壓機轉相關，但無該疾病的臨床證據 |
 | Braddock 症候群 | 0.9903 | 資料不支持明確機轉，可能僅反映肺高壓相關表型，尚未驗證 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

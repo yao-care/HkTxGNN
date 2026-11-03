@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 905
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Triazolam: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ predicted_indications: []
 TxGNN 模型針對 Triazolam 提出的候選適應症，經追溯來源後全部屬於已知用途，因此目前沒有新的預測適應症。模型候選中僅有 1 項已知用途，與已核准適應症屬同一疾病類別。本藥在香港的上市狀態請見下表。
 
 ## 快速總覽
+
 | 項目 | 內容 |
 |------|------|
 | 新預測適應症 | 無（模型候選中可追溯者皆為已知用途） |
@@ -52,16 +53,19 @@ TxGNN 模型針對 Triazolam 提出的候選適應症，經追溯來源後全部
 ## 模型候選中的已知用途
 
 ### 已核准（有許可證或仿單支持）
+
 | 適應症 | 來源 |
 |------|------|
 | 無 | 無 |
 
 ### 與已核准適應症相關（同一疾病類別）
+
 | 適應症 | 已核准類別 |
 |------|------|
 | 睡眠障礙，包括入睡與維持睡眠困難 (sleep disorder, initiating and maintaining sleep) | insomnia |
 
 ### 知識圖譜中記錄的關聯（未找到核准依據）
+
 | 適應症 |
 |------|
 | 無 |

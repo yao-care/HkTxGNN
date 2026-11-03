@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 258
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "DESLORATADINE"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
 description: "Desloratadine：預測新適應症為Nasal cavity disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
@@ -142,6 +142,7 @@ Desloratadine 是選擇性的周邊 H1 受體反向促效劑。寒冷性蕁麻�
 | 頑固性異位性皮膚炎 | 0.9975 | L5 | Hold：組織胺非主要驅動因子，機轉上存疑 |
 | 異位性 IgE 反應性 | 0.9964 | L5 | Hold：屬表型而非可治療疾病 |
 | 酒糟性結膜炎 | 0.9940 | L5 | Hold：機轉連結薄弱 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

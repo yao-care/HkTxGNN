@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "ETRAVIRINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Etravirine：預測新適應症為猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)（證據等級 L5）。原適應症：本報告彙整的香港許可證資料中未載明核准適應症"
 ---
 
@@ -112,6 +112,7 @@ TxGNN 模型（深度學習）給出的高分，可能反映模型學到的相�
 | 良性生殖系統腫瘤 | 0.9970 | 疾病類別過於廣泛，高分可能來自本體論鄰近性 |
 | 良性前列腺葉狀腫瘤 | 0.9965 | 無機轉依據，也無證據 |
 | 已廢棄之家族性複合型高脂血症 | 0.9964 | 該術語已廢棄，且無降脂機轉依據 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

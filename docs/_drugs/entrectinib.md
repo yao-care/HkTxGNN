@@ -3,7 +3,7 @@ layout: default
 title: Entrectinib
 parent: 僅已知用途（無新預測）
 nav_order: 324
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Entrectinib: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ evidence_level: N/A
 TxGNN 模型對 Entrectinib 沒有分數達 0.99 以上的候選適應症，因此目前沒有新的預測適應症。下方列出此藥物本身已記錄的用途。
 
 ## 快速總覽
+
 | 項目 | 內容 |
 |------|------|
 | 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
@@ -51,16 +52,19 @@ TxGNN 模型對 Entrectinib 沒有分數達 0.99 以上的候選適應症，因�
 ## 此藥物已記錄的已知用途
 
 ### 已核准（有許可證或仿單支持）
+
 | 適應症 | 來源 |
 |------|------|
 | 非小細胞肺癌 (non-small-cell lung carcinoma) | 其他國家的許可證 |
 
 ### 與已核准適應症相關（同一疾病類別）
+
 | 適應症 | 已核准類別 |
 |------|------|
 | 無 | 無 |
 
 ### 知識圖譜中記錄的關係（未找到核准）
+
 | 適應症 |
 |------|
 | 無 |

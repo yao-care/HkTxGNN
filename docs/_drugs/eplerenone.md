@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "EPLERENONE"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Eplerenone：預測新適應症為肺高壓 (pulmonary hypertension with unclear multifactorial mechanism)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
@@ -127,6 +127,7 @@ TxGNN 模型預測它可能對**肺高壓（因肺疾病和/或缺氧所致，pu
 | 機轉不明的多因素肺高壓 | 0.9950 | 無試驗或文獻；MR 在血管重塑與纖維化的角色僅為理論推測 |
 | 惡性高血壓腎病 | 0.9950 | 無專屬試驗或文獻；急重症情境需另行評估高血鉀與 CYP3A4 交互作用風險 |
 | Braddock 症候群 | 0.9934 | 無試驗、文獻或明確機轉依據，分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，並非生物學證據，不建議採取進一步行動 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

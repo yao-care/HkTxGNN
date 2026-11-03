@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "RESORCINOL"
 predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Resorcinol：預測新適應症為瘢痕性痘瘡 (Acne Keloid)（證據等級 L5）。原適應症：痤瘡、皮膚炎、類痤瘡皮膚炎"
 ---
 
@@ -112,6 +112,7 @@ TxGNN 模型預測它可能對**瘢痕性痘瘡 (Acne Keloid)** 有效，
 | 兒童結締組織病相關次發性間質性肺病 | 0.9982 | 無肺部或抗纖維化機轉；分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病學到的相似性，而非生物學證據 |
 | 慢性萎縮性肢端皮膚炎 | 0.9981 | 為伯氏疏螺旋體感染，需全身抗生素治療 |
 | 家族性種痘樣水皰病 | 0.9975 | 為光敏感疾病，Resorcinol 無光防護或抗病毒作用 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

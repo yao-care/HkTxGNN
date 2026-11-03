@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 225
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 monitor_inn: "CODEINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
 description: "Codeine：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
@@ -128,6 +128,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 |-----------|-----------|---------|------|------|
 | 三叉自律神經頭痛 | 0.9943 | L4 | Hold | 叢集性頭痛一般不建議使用鴉片類藥物，現有文獻未評估 Codeine 療效 |
 | 過敏性蕁麻疹 | 0.9937 | L4 | Hold | 文獻顯示 Codeine 會誘發蕁麻疹，屬安全性疑慮，不支持作為治療用途 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

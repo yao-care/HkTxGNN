@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "INSULIN DETEMIR"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Insulin Detemir：預測新適應症為自體免疫性卵巢炎（證據等級 L5）。原適應症：知識圖譜記錄的關聯：糖尿病、糖尿病酮酸中毒"
 ---
 
@@ -113,6 +113,7 @@ TxGNN 模型預測它可能對**自體免疫性卵巢炎 (Autoimmune Oophoritis)
 | 7 | 藥物誘發局部脂肪失養 | 0.9943 | 注射胰島素本身可能造成此問題，不支持作為治療用途 |
 | 8 | 離心性脂肪失養 | 0.9941 | 缺乏胰島素相關的治療依據 |
 | 9 | 壓力誘發局部脂肪萎縮 | 0.9940 | 注射胰島素是已知的誘因，預測可能只是藥物與疾病的關聯 |
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

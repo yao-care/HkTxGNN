@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 135
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Brompheniramine: known uses and market status in Hong Kong; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ predicted_indications: []
 TxGNN 深度學習模型（分數 ≥ 0.99）為 Brompheniramine 產生的候選適應症，經追溯來源後全部屬於已知用途，因此目前沒有新的預測適應症。以下列出這些已知用途及其在知識圖譜中的來源。
 
 ## 快速總覽
+
 | 項目 | 內容 |
 |------|------|
 | 新預測適應症 | 無（模型候選中可追溯者皆為已知用途） |
@@ -52,16 +53,19 @@ TxGNN 深度學習模型（分數 ≥ 0.99）為 Brompheniramine 產生的候選
 ## 模型候選中的已知用途
 
 ### 已核准（有許可證或仿單支持）
+
 | 適應症 | 來源 |
 |------|------|
 | 無 | 無 |
 
 ### 與已核准適應症相關（同一疾病類別）
+
 | 適應症 | 已核准類別 |
 |------|------|
 | 無 | 無 |
 
 ### 知識圖譜中記錄的關係（未找到核准）
+
 | 適應症 |
 |------|
 | 過敏性蕁麻疹 (allergic urticaria) |
