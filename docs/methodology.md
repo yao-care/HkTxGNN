@@ -22,7 +22,7 @@ description: "HkTxGNN 的預測與證據驗證方法：TxGNN 深度學習預測�
 
 <ol class="actionable-steps">
 <li><strong>TxGNN 預測</strong>：由 TxGNN 模型（深度學習：以生醫知識圖譜訓練的圖神經網路）預測藥物-疾病關係。</li>
-<li><strong>證據收集</strong>：針對每個預測配對，自動收集 ClinicalTrials.gov、PubMed、DrugBank、Department of Health HK 等來源的證據。</li>
+<li><strong>證據收集</strong>：針對每個預測配對，自動收集 ClinicalTrials.gov、PubMed、DrugBank、衛生署藥物辦公室等來源的證據。</li>
 <li><strong>證據等級判定</strong>：依收集到的證據判定 L1-L5 等級，L1 最高（多個 Phase 3 RCT），L5 為僅模型預測。</li>
 <li><strong>決策建議</strong>：依證據等級給出 Go、Proceed、Consider、Explore、Hold 建議。</li>
 </ol>
@@ -60,7 +60,7 @@ TxGNN 的深度學習（DL）模型替每一組「藥物－疾病」打分數，
 
 ## 藥證資料串接
 
-Hong Kong的藥品核准資料來自 Department of Health HK。系統將藥品成分名對應到 DrugBank 詞彙表，
+香港的藥品註冊資料來自衛生署藥物辦公室的藥劑製品清單（DrugList.xml）。系統將藥品成分名對應到 DrugBank 詞彙表，
 未能對應的成分（中草藥萃取物、疫苗、賦形劑等 DrugBank 未收錄者）不納入預測。
 
 ---
