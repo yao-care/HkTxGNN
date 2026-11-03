@@ -6,7 +6,7 @@ HkTxGNN 是藥提醒科技有限公司（yao.care）維護的香港藥物老藥�
 
 ## 方法與證據
 
-以 Harvard Zitnik Lab 發表的 TxGNN 方法為基礎，探索既有藥物與新適應症的可能關聯。 將模型預測與 ClinicalTrials.gov、PubMed、DrugBank、Department of Health HK 資料及 DDInter 等來源整理成可追溯的報告。
+以 Harvard Zitnik Lab 發表的 TxGNN 方法為基礎，探索既有藥物與新適應症的可能關聯。 將模型預測與 ClinicalTrials.gov、PubMed、DrugBank、衛生署藥物辦公室資料及 DDInter 等來源整理成可追溯的報告。
 
 證據等級由 L1（較充分的臨床證據）至 L5（僅模型預測）；模型分數不等於臨床療效。 所有老藥新用候選仍須經臨床試驗、法規審查與合格醫療專業人員評估。
 
