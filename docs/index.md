@@ -63,8 +63,8 @@ title: HkTxGNN - 香港老藥新用預測系統
 本系統提供 FHIR R4 相容的 API：
 
 - [CapabilityStatement](/fhir/metadata)
-- [MedicationKnowledge](/fhir/MedicationKnowledge/)
-- [ClinicalUseDefinition](/fhir/ClinicalUseDefinition/)
+- MedicationKnowledge：`/fhir/MedicationKnowledge/{id}.json`（範例：[db00331.json](/fhir/MedicationKnowledge/db00331.json)）
+- ClinicalUseDefinition：`/fhir/ClinicalUseDefinition/{id}.json`（範例：[db00331-classic-stiff-person-syndrome.json](/fhir/ClinicalUseDefinition/db00331-classic-stiff-person-syndrome.json)）
 
 ## SMART on FHIR
 
