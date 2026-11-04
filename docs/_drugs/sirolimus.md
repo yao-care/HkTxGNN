@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sirolimus
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 817
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
-last_modified_at: 2026-11-03
-description: "Sirolimus：預測新適應症為脂肪肉瘤 (liposarcoma)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
+last_modified_at: 2026-11-04
+description: "Sirolimus：預測新適應症為脂肪肉瘤 (liposarcoma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **6** 個
+證據等級: **L5** | 預測適應症: **6** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,9 @@ description: "Sirolimus：預測新適應症為脂肪肉瘤 (liposarcoma)（證�
 
 ## 一句話總結
 
-Sirolimus 是一種 mTOR 抑制劑，目前在香港已有上市許可證。
+Sirolimus 是一種 mTOR 抑制劑，目前在香港有單一成分製劑上市。
 TxGNN 模型預測它可能對**脂肪肉瘤 (liposarcoma)** 有效，
-目前有 **1 個臨床試驗**（Phase 2，單臂、合併用藥）和數篇間接相關的文獻，但沒有直接以脂肪肉瘤為對象的療效結果。
+但目前僅有 **1 個已完成但未公布結果的 Phase 2 單臂試驗**，且尚無已發表研究直接驗證 sirolimus 對脂肪肉瘤的療效，因此證據等級為 L5。
 
 ## 快速總覽
 
@@ -49,32 +49,34 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (liposarcoma)** 有效，
 | 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | 脂肪肉瘤 (liposarcoma) |
 | TxGNN 預測分數 | 0.9989 |
-| 證據等級 | L4 |
+| 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
 | 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，sirolimus 屬於 mTOR 抑制劑，可抑制 mTORC1。軟組織肉瘤（包括脂肪肉瘤）已有 mTOR 路徑活化的報告，因此機轉上可能適用。
+本報告所整理的資料中，目前缺乏詳細的作用機轉資料。根據已知資訊，sirolimus 屬於 mTOR 抑制劑，可抑制 mTORC1。
 
-不過，現有的唯一臨床試驗（NCT02821507）是 sirolimus 合併 cyclophosphamide 的單臂 Phase 2 試驗，收錄黏液樣脂肪肉瘤與軟骨肉瘤病人。因為沒有對照組，且本次整理的資料未提供療效結果，無法分辨 sirolimus 單獨的貢獻。
+軟組織肉瘤（包括脂肪肉瘤）已有 mTOR 路徑活化的報告，因此在機轉上，抑制 mTORC1 可能有助於減緩腫瘤生長。這是此預測在生物學上的主要依據。
+
+不過，目前唯一相關的試驗是 sirolimus 與 cyclophosphamide 併用的單臂試驗，無法單獨釐清 sirolimus 的貢獻；其他文獻多為綜述或與器官移植後癌症風險相關的間接研究。整體而言，這仍是待驗證的研究假說。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Phase 2 | 完成 | 70 | Sirolimus 合併 cyclophosphamide 用於轉移性或無法切除的黏液樣脂肪肉瘤與軟骨肉瘤；單臂設計，未提供療效結果 |
+| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Phase 2 | 完成 | 70 | sirolimus 併用 cyclophosphamide，用於轉移性或無法切除的黏液樣脂肪肉瘤與軟骨肉瘤；單臂設計，目前無公布結果 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [16434506](https://pubmed.ncbi.nlm.nih.gov/16434506/) | 2006 | RCT | J Am Soc Nephrol | 腎臟移植後以 sirolimus 取代 cyclosporine，可降低癌症風險（間接證據，非肉瘤療效） |
-| [39796641](https://pubmed.ncbi.nlm.nih.gov/39796641/) | 2024 | Review | Cancers | 軟組織肉瘤新療法進展回顧 |
-| [37222206](https://pubmed.ncbi.nlm.nih.gov/37222206/) | 2023 | Review | Curr Opin Oncol | 晚期肉瘤分子標靶治療的臨床試驗回顧 |
+| [16434506](https://pubmed.ncbi.nlm.nih.gov/16434506/) | 2006 | RCT | J Am Soc Nephrol | 腎移植後改用 sirolimus 可降低癌症風險（非脂肪肉瘤研究） |
+| [39796641](https://pubmed.ncbi.nlm.nih.gov/39796641/) | 2024 | Review | Cancers | 軟組織肉瘤新興治療進展 |
+| [37222206](https://pubmed.ncbi.nlm.nih.gov/37222206/) | 2023 | Review | Curr Opin Oncol | 晚期肉瘤標靶藥物臨床試驗回顧 |
 | [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Review | Bull Cancer | 罕見結締組織腫瘤與肉瘤的標靶治療 |
-| [26093731](https://pubmed.ncbi.nlm.nih.gov/26093731/) | 2015 | Cohort | Transplant Proc | 腎臟移植病人長期免疫抑制治療下的癌症篩檢 |
+| [26093731](https://pubmed.ncbi.nlm.nih.gov/26093731/) | 2015 | Cohort | Transplant Proc | 腎移植長期免疫抑制患者的癌症篩檢 |
 
 ## 香港上市資訊
 
@@ -84,21 +86,11 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (liposarcoma)** 有效，
 | HK-67922 | RAPAMUNE ORAL SOLUTION 1MG/ML | PFIZER CORPORATION HONG KONG LIMITED |
 | HK-61049 | RAPAMUNE TAB 0.5MG | PFIZER CORPORATION HONG KONG LIMITED |
 
-## 細胞毒性
-
-| 項目 | 內容 |
-|------|------|
-| 細胞毒性分類 | 標靶藥物（mTOR 抑制劑） |
-| 骨髓抑制風險 | 請參考原廠仿單的警語與注意事項 |
-| 致吐性分級 | 請參考原廠仿單的警語與注意事項 |
-| 監測項目 | 血液學參數（CBC）、肝腎功能、血脂 |
-| 處置防護 | 請參考原廠仿單的警語與注意事項 |
-
 ## 安全性考量
 
-- **藥物交互作用**（共查得 100 筆，以下為部分主要項目）：
-  - 嚴重（Major）：Amphotericin B、Amphotericin B（脂質複合物）、Mesalazine、Balsalazide、Clarithromycin
-  - 中度（Moderate）：Acarbose、Hydrocortisone、Metformin、Pioglitazone、Dexamethasone、Cimetidine、Aprepitant 等
+- **藥物交互作用**（共查得 100 筆，以下列出部分主要者）：
+  - 重度：Amphotericin B、Amphotericin B（脂質複合物）、Mesalazine、Balsalazide、Clarithromycin
+  - 中度：Acarbose、Hydrocortisone、Metformin、Pioglitazone、Dexamethasone、Cimetidine、Aprepitant 等
 
 其他警語與禁忌症請參考原廠仿單。
 
@@ -107,14 +99,13 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (liposarcoma)** 有效，
 **決策：Hold**
 
 **理由：**
-- 脂肪肉瘤唯一的臨床試驗是單臂、合併 cyclophosphamide 的 Phase 2 試驗，且沒有療效結果，無法證明 sirolimus 本身的貢獻。其餘文獻多為綜述或移植相關的間接研究，沒有直接研究 sirolimus 治療脂肪肉瘤的證據，故嚴格來說證據僅屬模型預測層級。
+目前沒有已發表的研究直接驗證 sirolimus 對脂肪肉瘤的療效，唯一相關試驗為未公布結果的單臂併用試驗，無法分離 sirolimus 的單獨貢獻，因此證據等級僅為 L5，屬於研究假說階段。
 
 **若要推進需要：**
-- 取得 NCT02821507 的完整療效與安全性結果，並釐清 sirolimus 的單獨貢獻
-- 針對脂肪肉瘤（特別是黏液樣亞型）設計有對照組的試驗
-- 詳細的作用機轉資料
-- 原廠仿單的警語與禁忌症資訊
-- 針對免疫抑制、感染、血脂及藥物交互作用的監測計畫
+- 取得 NCT02821507 的結果或相關發表資料，評估療效與安全性
+- 設計 sirolimus 用於脂肪肉瘤的對照試驗或進行更完整的文獻回顧
+- 補充詳細的作用機轉資料
+- 取得原廠仿單的警語、禁忌症與適應症資訊，並評估免疫抑制、感染及藥物交互作用的風險管理
 
 ## 免責聲明
 
