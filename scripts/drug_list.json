@@ -1,6 +1,6 @@
 {
   "total": 877,
-  "generated_at": "2026-11-03T19:13:52.385878",
+  "generated_at": "2026-11-04T05:20:53.572731",
   "drugs": [
     {
       "name": "Abacavir",
@@ -4098,9 +4098,9 @@
     {
       "name": "Docetaxel",
       "file": "docetaxel.md",
-      "evidence_level": "L1",
+      "evidence_level": "L2",
       "indication_count": 7,
-      "predicted_indication": "Ewing sarcoma",
+      "predicted_indication": "尤文氏肉瘤 (Ewing sarcoma)",
       "inn": "DOCETAXEL",
       "predicted_indications": [
         "Ewing sarcoma",
@@ -8655,7 +8655,7 @@
     {
       "name": "Montelukast",
       "file": "montelukast.md",
-      "evidence_level": "L1",
+      "evidence_level": "L2",
       "indication_count": 2,
       "predicted_indication": "支氣管炎 (bronchitis)",
       "inn": "MONTELUKAST",
@@ -13086,9 +13086,9 @@
     {
       "name": "Triptorelin",
       "file": "triptorelin.md",
-      "evidence_level": "L1",
+      "evidence_level": "L5",
       "indication_count": 9,
-      "predicted_indication": "Hypertrichosis (disease)",
+      "predicted_indication": "毛髮過多症 (hypertrichosis (disease))",
       "inn": "TRIPTORELIN",
       "predicted_indications": [
         "hypertrichosis (disease)",
