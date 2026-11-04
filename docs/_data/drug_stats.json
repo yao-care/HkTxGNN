@@ -3,10 +3,10 @@
   "total_drugs": 924,
   "level_counts": {
     "L1": 8,
-    "L2": 40,
+    "L2": 39,
     "L3": 35,
     "L4": 57,
-    "L5": 737
+    "L5": 738
   },
   "all_drugs": [
     {
@@ -5520,7 +5520,7 @@
     {
       "name": "Zinc Sulfate",
       "slug": "zinc_sulfate",
-      "level": "L2",
+      "level": "L5",
       "indication_count": 4
     },
     {
