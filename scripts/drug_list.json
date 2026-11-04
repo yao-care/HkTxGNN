@@ -1,6 +1,6 @@
 {
   "total": 877,
-  "generated_at": "2026-11-04T05:20:53.572731",
+  "generated_at": "2026-11-04T19:29:25.554025",
   "drugs": [
     {
       "name": "Abacavir",
@@ -439,7 +439,7 @@
     {
       "name": "Alprazolam",
       "file": "alprazolam.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 2,
       "predicted_indication": "失眠 (insomnia (disease))",
       "inn": "ALPRAZOLAM",
@@ -812,9 +812,9 @@
     {
       "name": "Apixaban",
       "file": "apixaban.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 1,
-      "predicted_indication": "偏頭痛 (Migraine Disorder)",
+      "predicted_indication": "偏頭痛 (migraine disorder)",
       "inn": "Apixaban",
       "predicted_indications": [
         "migraine disorder"
@@ -1569,7 +1569,7 @@
     {
       "name": "Bicalutamide",
       "file": "bicalutamide.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 10,
       "predicted_indication": "多毛症 (hypertrichosis (disease))",
       "inn": "BICALUTAMIDE",
@@ -2785,7 +2785,7 @@
     {
       "name": "Citalopram",
       "file": "citalopram.md",
-      "evidence_level": "L4",
+      "evidence_level": "L2",
       "indication_count": 5,
       "predicted_indication": "強迫症 (obsessive-compulsive disorder)",
       "inn": "CITALOPRAM",
@@ -3112,9 +3112,9 @@
     {
       "name": "Clozapine",
       "file": "clozapine.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 9,
-      "predicted_indication": "躁狂型雙相情感障礙 (manic bipolar affective disorder)",
+      "predicted_indication": "躁型雙相情感障礙 (manic bipolar affective disorder)",
       "inn": "CLOZAPINE",
       "predicted_indications": [
         "manic bipolar affective disorder",
@@ -3209,7 +3209,7 @@
     {
       "name": "Conjugated Estrogens",
       "file": "conjugated_estrogens.md",
-      "evidence_level": "L3",
+      "evidence_level": "L5",
       "indication_count": 9,
       "predicted_indication": "偏頭痛 (migraine disorder)",
       "inn": "Conjugated estrogens",
@@ -3726,7 +3726,7 @@
     {
       "name": "Desoximetasone",
       "file": "desoximetasone.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 10,
       "predicted_indication": "圓形禿 (alopecia areata)",
       "inn": "DESOXIMETASONE",
@@ -3895,7 +3895,7 @@
     {
       "name": "Diazepam",
       "file": "diazepam.md",
-      "evidence_level": "L4",
+      "evidence_level": "L2",
       "indication_count": 10,
       "predicted_indication": "失眠 (insomnia (disease))",
       "inn": "DIAZEPAM",
@@ -4648,9 +4648,9 @@
     {
       "name": "Epirubicin",
       "file": "epirubicin.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 7,
-      "predicted_indication": "原發性肺淋巴瘤 (Primary Pulmonary Lymphoma)",
+      "predicted_indication": "原發性肺淋巴瘤 (primary pulmonary lymphoma)",
       "inn": "Epirubicin",
       "predicted_indications": [
         "primary pulmonary lymphoma",
@@ -4852,9 +4852,9 @@
     {
       "name": "Etelcalcetide",
       "file": "etelcalcetide.md",
-      "evidence_level": "L3",
+      "evidence_level": "L4",
       "indication_count": 4,
-      "predicted_indication": "高磷血症 (Hyperphosphatemia)",
+      "predicted_indication": "高磷血症 (hyperphosphatemia (disease))",
       "inn": "ETELCALCETIDE",
       "predicted_indications": [
         "hyperphosphatemia (disease)",
@@ -5432,9 +5432,9 @@
     {
       "name": "Fludarabine",
       "file": "fludarabine.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 10,
-      "predicted_indication": "漿細胞骨髓瘤 (Plasma Cell Myeloma)",
+      "predicted_indication": "漿細胞骨髓瘤 (plasma cell myeloma)",
       "inn": "Fludarabine",
       "predicted_indications": [
         "plasma cell myeloma",
@@ -6021,9 +6021,9 @@
     {
       "name": "Glucagon",
       "file": "glucagon.md",
-      "evidence_level": "L3",
+      "evidence_level": "L5",
       "indication_count": 1,
-      "predicted_indication": "腸躁症 (Irritable Bowel Syndrome)",
+      "predicted_indication": "腸躁症 (irritable bowel syndrome)",
       "inn": "GLUCAGON",
       "predicted_indications": [
         "irritable bowel syndrome"
@@ -7481,7 +7481,7 @@
     {
       "name": "Lenvatinib",
       "file": "lenvatinib.md",
-      "evidence_level": "L2",
+      "evidence_level": "L3",
       "indication_count": 5,
       "predicted_indication": "脂肪肉瘤 (liposarcoma)",
       "inn": "Lenvatinib",
@@ -7606,9 +7606,9 @@
     {
       "name": "Levonorgestrel",
       "file": "levonorgestrel.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 5,
-      "predicted_indication": "痤瘡",
+      "predicted_indication": "痤瘡 (acne (disease))",
       "inn": "LEVONORGESTREL",
       "predicted_indications": [
         "acne (disease)",
@@ -7944,7 +7944,7 @@
     {
       "name": "Magnesium Sulfate",
       "file": "magnesium_sulfate.md",
-      "evidence_level": "L4",
+      "evidence_level": "L3",
       "indication_count": 8,
       "predicted_indication": "血栓性疾病 (thrombotic disease)",
       "inn": "MAGNESIUM SULFATE",
@@ -8171,7 +8171,7 @@
     {
       "name": "Mercaptopurine",
       "file": "mercaptopurine.md",
-      "evidence_level": "L2",
+      "evidence_level": "L3",
       "indication_count": 8,
       "predicted_indication": "骨髓性白血病 (myeloid leukemia)",
       "inn": "MERCAPTOPURINE",
@@ -8461,7 +8461,7 @@
     {
       "name": "Miconazole",
       "file": "miconazole.md",
-      "evidence_level": "L3",
+      "evidence_level": "L4",
       "indication_count": 1,
       "predicted_indication": "痤瘡 (acne (disease))",
       "inn": "Miconazole",
@@ -8685,7 +8685,7 @@
     {
       "name": "Morphine",
       "file": "morphine.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": "肌筋膜疼痛症候群 (myofascial pain syndrome)",
       "inn": "Morphine",
@@ -8736,9 +8736,9 @@
     {
       "name": "Mycophenolate Mofetil",
       "file": "mycophenolate_mofetil.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 10,
-      "predicted_indication": "HIV 感染 (HIV infectious disease)",
+      "predicted_indication": "人類免疫缺乏病毒感染 (HIV infectious disease)",
       "inn": "MYCOPHENOLATE MOFETIL",
       "predicted_indications": [
         "HIV infectious disease",
@@ -11767,7 +11767,7 @@
     {
       "name": "Sirolimus",
       "file": "sirolimus.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 6,
       "predicted_indication": "脂肪肉瘤 (liposarcoma)",
       "inn": "SIROLIMUS",
@@ -12747,9 +12747,9 @@
     {
       "name": "Tocilizumab",
       "file": "tocilizumab.md",
-      "evidence_level": "L1",
+      "evidence_level": "L5",
       "indication_count": 5,
-      "predicted_indication": "僵直性脊椎炎 (Ankylosing Spondylitis)",
+      "predicted_indication": "僵直性脊椎炎 (ankylosing spondylitis)",
       "inn": "TOCILIZUMAB",
       "predicted_indications": [
         "ankylosing spondylitis",
@@ -13298,9 +13298,9 @@
     {
       "name": "Vandetanib",
       "file": "vandetanib.md",
-      "evidence_level": "L2",
+      "evidence_level": "L3",
       "indication_count": 10,
-      "predicted_indication": "Renal cell carcinoma (disease)",
+      "predicted_indication": "腎細胞癌 (renal cell carcinoma (disease))",
       "inn": "VANDETANIB",
       "predicted_indications": [
         "renal cell carcinoma (disease)",
@@ -13463,9 +13463,9 @@
     {
       "name": "Vinblastine",
       "file": "vinblastine.md",
-      "evidence_level": "L3",
+      "evidence_level": "L4",
       "indication_count": 10,
-      "predicted_indication": "Rhabdomyosarcoma (disease)",
+      "predicted_indication": "橫紋肌肉瘤 (rhabdomyosarcoma (disease))",
       "inn": "Vinblastine",
       "predicted_indications": [
         "rhabdomyosarcoma (disease)",
@@ -13774,9 +13774,9 @@
     {
       "name": "Zinc Sulfate",
       "file": "zinc_sulfate.md",
-      "evidence_level": "L2",
+      "evidence_level": "L5",
       "indication_count": 4,
-      "predicted_indication": "咽炎 (Pharyngitis)",
+      "predicted_indication": "咽炎 (pharyngitis)",
       "inn": "ZINC SULFATE",
       "predicted_indications": [
         "pharyngitis",
