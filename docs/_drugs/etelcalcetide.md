@@ -3,18 +3,18 @@ layout: default
 title: Etelcalcetide
 parent: 中證據等級 (L3-L4)
 nav_order: 344
-evidence_level: L3
+evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
-description: "Etelcalcetide：預測新適應症為高磷血症 (Hyperphosphatemia)（證據等級 L3）。原適應症：副甲狀腺機能亢進 (Hyperparathyroidism)"
+last_modified_at: 2026-11-04
 monitor_inn: "ETELCALCETIDE"
 predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease"]
+description: "Etelcalcetide：預測新適應症為高磷血症 (hyperphosphatemia (disease))（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Etelcalcetide
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **4** 個
+證據等級: **L4** | 預測適應症: **4** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,34 @@ predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices witho
 
 </div>
 
-## Etelcalcetide：從副甲狀腺機能亢進到高磷血症
+## Etelcalcetide: 高磷血症 (hyperphosphatemia (disease))
 {: .text-alpha }
 
 ## 一句話總結
 
-Etelcalcetide 是一種靜脈注射的擬鈣劑（calcimimetic），原本用於治療副甲狀腺機能亢進（hyperparathyroidism）。
-TxGNN 模型預測它可能對**高磷血症 (Hyperphosphatemia)** 有效，
-目前**沒有臨床試驗登記**，但有 **6 篇文獻**與此方向相關，其中多數談的是透析病人的繼發性副甲狀腺機能亢進，直接證據有限。
+Etelcalcetide 是一種靜脈注射的擬鈣劑（calcimimetic），透過活化副甲狀腺的鈣敏感受體來降低副甲狀腺素。
+TxGNN 模型預測它可能對**高磷血症 (hyperphosphatemia (disease))** 有效。
+目前沒有相關臨床試驗登記，僅有 **6 篇文獻**，且僅 1 篇前臨床研究直接探討高磷血症情境，證據等級為 **L4**。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 副甲狀腺機能亢進 (Hyperparathyroidism) |
-| 預測新適應症 | 高磷血症 (Hyperphosphatemia) |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 高磷血症 (hyperphosphatemia (disease)) |
 | TxGNN 預測分數 | 0.9942 |
-| 證據等級 | L3 |
+| 證據等級 | L4 |
 | 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
 | 許可證數 | 3 張（有效 3 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Etelcalcetide 屬於擬鈣劑，會活化副甲狀腺細胞上的鈣敏感受體（CaSR），進而降低副甲狀腺素（PTH）。
+目前缺乏詳細的作用機轉資料。根據已知資訊，etelcalcetide 屬於擬鈣劑，會活化副甲狀腺細胞上的鈣敏感受體（CaSR），進而降低副甲狀腺素（PTH）。
 
-PTH 下降後，骨轉換減少，鈣與磷從骨骼釋出的量也可能隨之降低，因此血磷有機會間接下降。高磷血症與慢性腎臟病的礦物質與骨骼疾病（CKD-MBD）密切相關，和 Etelcalcetide 原本使用的情境相同。
+PTH 下降可減少骨轉換，以及鈣與磷由骨骼釋出，因此血磷可能出現次要性下降。高磷血症與慢性腎臟病的礦物質及骨骼代謝異常密切相關，與此藥物目前使用的臨床背景相同。
 
-不過要特別留意：這個效果是**間接**的，來自 PTH 與鈣磷平衡的改變，並不是直接結合或排除磷。Etelcalcetide 並非已確立的降磷藥物，這個預測目前屬於合理的研究假說，還不是臨床上可採用的結論。
+不過需要注意，這種效果是間接的（經由 PTH 與鈣磷平衡），並非直接結合或排除磷。Etelcalcetide 並不是已確立的降磷藥物。
 
 ## 臨床試驗證據
 
@@ -70,12 +70,12 @@ PTH 下降後，骨轉換減少，鈣與磷從骨骼釋出的量也可能隨之�
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [33305109](https://pubmed.ncbi.nlm.nih.gov/33305109/) | 2020 | RCT | Kidney Int Rep | DUET 試驗：評估 Etelcalcetide 用於血液透析病人繼發性副甲狀腺機能亢進的控制效果 |
-| [29440923](https://pubmed.ncbi.nlm.nih.gov/29440923/) | 2018 | Review | Int J Nephrol Renovasc Dis | Etelcalcetide 於每次血液透析結束時靜脈給藥，臨床試驗中可有效降低 PTH |
-| [42495460](https://pubmed.ncbi.nlm.nih.gov/42495460/) | 2026 | Review | Cureus | 回顧透析病人繼發性副甲狀腺機能亢進的藥物治療，涵蓋擬鈣劑、維生素 D 類似物與磷結合劑 |
-| [42044867](https://pubmed.ncbi.nlm.nih.gov/42044867/) | 2026 | 前臨床/機轉研究 | Kidney Int | Etelcalcetide 在慢性高磷血症情境下，經由 CaSR-cAMP 活化改善心臟功能 |
-| [42853437](https://pubmed.ncbi.nlm.nih.gov/42853437/) | 2026 | Case report | CEN Case Rep | 血液透析病人由 cinacalcet 換成 Etelcalcetide 後，尿毒症性腫瘤樣鈣化消退 |
-| [33211001](https://pubmed.ncbi.nlm.nih.gov/33211001/) | 2021 | Case report | Clin Nephrol | 腹膜透析合併副甲狀腺機能亢進病人出現暫時性轉移性肺鈣化 |
+| [33305109](https://pubmed.ncbi.nlm.nih.gov/33305109/) | 2020 | RCT | Kidney Int Rep | DUET 試驗：評估 etelcalcetide 在血液透析合併次發性副甲狀腺機能亢進患者的控制效果（非直接針對高磷血症） |
+| [29440923](https://pubmed.ncbi.nlm.nih.gov/29440923/) | 2018 | Review | Int J Nephrol Renovasc Dis | 回顧 etelcalcetide 於血液透析患者處理副甲狀腺機能亢進的角色，每週三次透析後給藥可有效降低 PTH |
+| [42495460](https://pubmed.ncbi.nlm.nih.gov/42495460/) | 2026 | Review | Cureus | 敘述性回顧透析患者次發性副甲狀腺機能亢進的擬鈣劑、維生素 D 類似物與磷結合劑治療 |
+| [42044867](https://pubmed.ncbi.nlm.nih.gov/42044867/) | 2026 | 前臨床/機轉研究 | Kidney Int | 在慢性高磷血症情境下，etelcalcetide 經 CaSR-cAMP 活化恢復心臟功能 |
+| [42853437](https://pubmed.ncbi.nlm.nih.gov/42853437/) | 2026 | 病例報告 | CEN Case Rep | 血液透析患者由 cinacalcet 改為 etelcalcetide 後，尿毒症腫瘤性鈣化消退 |
+| [33211001](https://pubmed.ncbi.nlm.nih.gov/33211001/) | 2021 | 病例報告 | Clin Nephrol | 腹膜透析合併副甲狀腺機能亢進患者出現暫時性轉移性肺鈣化 |
 
 ## 香港上市資訊
 
@@ -87,31 +87,28 @@ PTH 下降後，骨轉換減少，鈣與磷從骨骼釋出的量也可能隨之�
 
 ## 安全性考量
 
-- **藥物交互作用**：已查得 21 筆交互作用，其中絕大多數為「嚴重（Major）」等級，1 筆為「中度（Moderate）」。主要包括：
-  - 其他擬鈣劑：Cinacalcet
+- **藥物交互作用**：共 21 項已知交互作用，其中多數為嚴重（Major）等級，主要包括：
   - 雙磷酸鹽類：Alendronic acid、Risedronic acid、Ibandronate、Pamidronic acid、Zoledronic acid、Etidronic acid、Tiludronic acid
-  - 骨質相關生物製劑：Denosumab、Romosozumab、Salmon calcitonin；Burosumab 為中度
-  - 利尿劑：Furosemide、Bumetanide、Torasemide、Etacrynic acid
-  - 其他：Cisplatin、Foscarnet、Pentamidine、Amifostine
+  - 利尿劑：Bumetanide、Torasemide、Furosemide、Etacrynic acid
+  - 其他影響鈣或電解質的藥物：Cinacalcet、Denosumab、Romosozumab、Salmon calcitonin、Foscarnet、Pentamidine、Amifostine、Cisplatin
+  - 中等（Moderate）等級：Burosumab
 
-  這些藥物多與血鈣下降或電解質失衡風險有關，合併使用時需密切監測血鈣。
-
-其餘警語與禁忌症資料請參考原廠仿單。
+其他警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 目前沒有任何針對高磷血症的臨床試驗，現有文獻多為繼發性副甲狀腺機能亢進的研究、病例報告與前臨床研究，並未直接證明可降低血磷。
-- 降磷效果僅是透過 PTH 的間接作用推測而來，且 Etelcalcetide 並非已確立的降磷藥物。
+- 沒有針對高磷血症的臨床試驗，僅有 1 篇前臨床研究直接探討此情境，證據等級為 L4；已有的臨床試驗與文獻主要針對次發性副甲狀腺機能亢進。
+- 降磷效果僅為 PTH 下降後的間接作用，etelcalcetide 並非已確立的降磷藥物，且 TxGNN 分數僅為模型預測。
 
 **若要推進需要：**
-- 取得 Etelcalcetide 的詳細作用機轉資料（MOA）
-- 取得香港衛生署核准的仿單，確認核准適應症、警語與禁忌症
-- 分析既有 Etelcalcetide 臨床試驗中血磷的次要療效指標，評估降磷效果的大小
-- 若數據支持，設計以血磷為主要終點的臨床試驗，並與磷結合劑做比較
-- 擬定合併雙磷酸鹽、利尿劑等藥物時的血鈣與電解質監測計畫
+- 針對高磷血症（以血磷為主要終點）的前瞻性臨床研究，或既有透析試驗中血磷變化的事後分析
+- 詳細的作用機轉資料
+- 取得香港仿單的警語與禁忌症
+- 與現有磷結合劑比較的療效及低血鈣等風險評估
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

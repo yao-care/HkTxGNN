@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Desoximetasone
-parent: 僅模型預測 (L5)
+parent: 高證據等級 (L1-L2)
 nav_order: 262
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-04
 monitor_inn: "DESOXIMETASONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "hereditary hypotrichosis with recurrent skin vesicles", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "primary cutaneous B-cell lymphoma", "atrichia with papular lesions", "vulvar inverted follicular keratosis"]
-description: "Desoximetasone：預測新適應症為圓形禿 (alopecia areata)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Desoximetasone：預測新適應症為圓形禿 (alopecia areata)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Desoximetasone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L2** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,11 +38,9 @@ description: "Desoximetasone：預測新適應症為圓形禿 (alopecia areata)�
 
 ## 一句話總結
 
-Desoximetasone 是一種強效外用皮質類固醇，原本用於異位性皮膚炎、接觸性皮膚炎、脂漏性皮膚炎、盤狀紅斑性狼瘡等皮膚發炎性疾病。
-TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，
-目前有 **1 篇隨機對照試驗（RCT）文獻**支持這個方向，但尚無臨床試驗登記資料。
-
----
+Desoximetasone 是一種強效局部皮質類固醇，具有抗發炎與免疫抑制作用。
+TxGNN 模型預測它可能對**圓形禿 (alopecia areata)** 有效，
+目前有 **1 篇隨機雙盲安慰劑對照試驗**（以 0.25% desoximetasone 乳膏治療圓形禿）支持這個方向，證據等級為 **L2**，尚無已登記的臨床試驗。
 
 ## 快速總覽
 
@@ -51,38 +49,26 @@ TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，
 | 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | 圓形禿 (alopecia areata) |
 | TxGNN 預測分數 | 0.9992 |
-| 證據等級 | L5（依本報告判定規則，見下方說明） |
+| 證據等級 | L2 |
 | 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
 | 許可證數 | 1 張（有效 1 張） |
 | 建議決策 | Proceed with Guardrails |
 
-**證據等級說明：** 目前已有 1 篇 2000 年的雙盲安慰劑對照 RCT（0.25% desoximetasone 乳膏用於圓形禿），但僅有文獻題目，缺乏摘要、樣本數與結果，也沒有已完成的臨床試驗登記資料可供核實。依判定規則（L1/L2 需已完成的 Phase 2/3 RCT 登記），本報告保守判定為 L5；若日後能確認該 RCT 的設計與結果，等級可上調。
-
----
-
 ## 為什麼這個預測合理？
 
-圓形禿是一種 T 細胞媒介的自體免疫疾病，免疫細胞攻擊毛囊。Desoximetasone 是強效外用皮質類固醇，具有抗發炎與免疫抑制作用，抑制毛囊周圍的免疫細胞浸潤在機轉上相當合理。外用皮質類固醇本身已用於臨床處理這類疾病。
+圓形禿是一種由 T 細胞介導的自體免疫疾病，免疫細胞攻擊毛囊。Desoximetasone 是強效局部皮質類固醇，能抑制毛囊周圍的免疫細胞浸潤與發炎反應，機轉上具合理性。
 
-目前缺乏詳細的作用機轉資料（原廠 MOA 欄位無資料）。藥理資料顯示 desoximetasone 作用於糖皮質素受體（NR3C1），上述推論是根據皮質類固醇類別的已知藥理，而非此藥物專屬的機轉研究。
-
-此外，desoximetasone 的原適應症涵蓋多種免疫或發炎性皮膚疾病（如異位性皮膚炎、盤狀紅斑性狼瘡、肉芽腫性環狀紅斑），與圓形禿的發炎機轉有共通處，這也是模型給出高分的合理背景。
-
----
+目前缺乏詳細的作用機轉資料（MOA 欄位為資料缺口）。上述推論主要依據皮質類固醇類別的已知藥理：藉由糖皮質素受體 (NR3C1) 發揮抗發炎與免疫調節作用。局部皮質類固醇在臨床上也已被用於圓形禿的處置。
 
 ## 臨床試驗證據
 
 目前無相關臨床試驗登記。
 
----
-
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [11030789](https://pubmed.ncbi.nlm.nih.gov/11030789/) | 2000 | RCT | Archives of Dermatology | 以 0.25% desoximetasone 乳膏治療圓形禿的隨機、雙盲、安慰劑對照試驗（無摘要資料，結果需另行查閱全文） |
-
----
+| [11030789](https://pubmed.ncbi.nlm.nih.gov/11030789/) | 2000 | RCT | Archives of Dermatology | 隨機、雙盲、安慰劑對照試驗，評估 0.25% desoximetasone 乳膏治療圓形禿（本資料未提供摘要，無法摘要具體療效數據） |
 
 ## 香港上市資訊
 
@@ -90,29 +76,25 @@ TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，
 |---------|------|------|-----------|
 | HK-59501 | INERSON OINTMENT 0.25% | 軟膏（依品名判斷） | 許可證資料未載明 |
 
----
-
 ## 安全性考量
 
-- **知識圖譜標示的禁忌關聯**（非仿單內容，僅供參考）：皮膚萎縮、周邊血管疾病（含周邊動脈疾病、間歇性跛行）、胸腺疾病，以及腦下垂體功能低下與生長激素缺乏相關疾病。
+- **藥物交互作用**：藥理資料顯示 desoximetasone 作用於糖皮質素受體 (NR3C1)；未提供具臨床分級的藥物間交互作用。
 
-其餘警語、禁忌與交互作用資料不足，請參考原廠仿單。
-
----
+其餘警語與禁忌症資料請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 已有一篇針對圓形禿的雙盲安慰劑對照 RCT，且機轉上合理、藥物已在香港上市；但缺乏該研究的結果細節、臨床試驗登記與仿單安全性資料，因此需設置前提條件再推進。
-- 其餘預測適應症（如休止期落髮、毛囊角化症等）僅有模型預測，無任何臨床資料，建議維持 Hold。
+已有 1 篇針對圓形禿、使用 0.25% desoximetasone 乳膏的隨機雙盲安慰劑對照試驗，且機轉上合理，因此證據等級為 L2。但該試驗發表於 2000 年，缺乏摘要層級的療效數據，也沒有登記中的臨床試驗，需審慎推進。
 
 **若要推進需要：**
-- 取得 PMID 11030789 全文，確認樣本數、療效指標與結果
-- 補充香港仿單的警語、禁忌與核准適應症
-- 取得詳細作用機轉資料
-- 評估長期使用於頭皮的安全性（皮膚萎縮風險，並留意知識圖譜標示的相關禁忌）
+- 取得 PMID 11030789 全文，確認療效指標、毛髮再生幅度與安全性結果
+- 補充 desoximetasone 的作用機轉資料（MOA）
+- 取得香港仿單的警語與禁忌症，並確認可用劑型與使用部位（頭皮）
+- 進一步的確證性試驗，並規劃長期使用的皮膚萎縮與全身吸收監測
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

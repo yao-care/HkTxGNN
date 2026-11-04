@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Apixaban
-parent: 中證據等級 (L3-L4)
+parent: 僅模型預測 (L5)
 nav_order: 67
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
-description: "Apixaban：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L4）。原適應症：目前缺乏香港許可證的適應症文字資料"
+last_modified_at: 2026-11-04
 monitor_inn: "Apixaban"
 predicted_indications: ["migraine disorder"]
+description: "Apixaban：預測新適應症為偏頭痛 (migraine disorder)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Apixaban
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **1** 個
+證據等級: **L5** | 預測適應症: **1** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,57 +33,47 @@ predicted_indications: ["migraine disorder"]
 
 </div>
 
-## Apixaban：從抗凝血治療到偏頭痛（預測）
+## Apixaban: 偏頭痛 (migraine disorder)
 {: .text-alpha }
 
 ## 一句話總結
 
-Apixaban 是口服的第 Xa 因子抑制劑，在香港已上市，屬於抗凝血藥物。
-TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目前只有 **1 個間接相關的臨床試驗**和 **3 篇文獻**，且 Apixaban 專屬的病例報告顯示症狀惡化或無效，證據方向並不支持。
-
----
+Apixaban 是一種口服第 Xa 因子抑制劑類抗凝血藥物。
+TxGNN 模型預測它可能對**偏頭痛 (migraine disorder)** 有效，但目前**沒有任何研究支持**此方向：僅有 1 個間接相關的臨床試驗，以及 3 篇文獻，其中與 apixaban 直接相關的個案報告顯示偏頭痛惡化或未改善。證據等級為 **L5**。
 
 ## 快速總覽
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 目前缺乏香港許可證的適應症文字資料 |
-| 預測新適應症 | 偏頭痛 (Migraine Disorder) |
+| 原適應症 | 本地許可證資料未記載適應症 |
+| 預測新適應症 | 偏頭痛 (migraine disorder) |
 | TxGNN 預測分數 | 0.9902 |
-| 證據等級 | L4 |
+| 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 10 張／共 10 張） |
 | 許可證數 | 10 張（有效 10 張） |
 | 建議決策 | Hold |
 
----
-
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Apixaban 是選擇性第 Xa 因子抑制劑，主要用於預防和治療血栓。
+目前缺乏詳細的作用機轉資料。Apixaban 屬於直接口服抗凝血藥（第 Xa 因子抑制劑），理論上可減少血栓形成。
 
-偏頭痛與抗凝血的關聯目前只是推測。可能的路徑包括：經由卵圓孔未閉 (PFO) 的微血栓或反常性栓塞，可能促成有先兆偏頭痛；另外，抗磷脂抗體陽性的難治型偏頭痛患者，在抗栓治療後可能改善。
+文獻中提出的假說包括：微小血栓，或經由卵圓孔未閉 (PFO) 的反常性栓塞，可能與有預兆偏頭痛有關；另有回溯性研究顯示，抗磷脂抗體陽性的難治型偏頭痛患者，使用抗栓治療後可能有所改善。不過該研究並未明確以 apixaban 為受試藥物。
 
-不過，這個關聯並不穩固。已有的 Apixaban 專屬病例報告顯示，偏頭痛在開始使用後反而惡化，或在 warfarin 上緩解、換成 Apixaban 後復發。這些報告不支持 DOAC 類藥物對偏頭痛有益。模型的高分比較像是統計關聯，而非有臨床依據的訊號。
-
----
+這些機轉推論都屬推測。與 apixaban 直接相關的兩篇個案報告方向不利：一例在開始 apixaban 後有預兆偏頭痛惡化，另一例在 warfarin 下緩解、換成 apixaban 後復發。這反而不支持 DOAC 類藥物對偏頭痛具有益處。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Phase 3 | 完成 | 664 | 比較 PFO 封堵或抗凝血藥與抗血小板治療，用於預防中風復發。偏頭痛不是主要終點，試驗藥物也非 Apixaban 專屬，只能作為間接背景參考 |
-
----
+| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Phase 3 | 完成 | 664 | 比較 PFO 封堵、抗凝血藥與抗血小板治療對預防中風復發的效果；偏頭痛並非主要終點，也非 apixaban 專屬試驗，僅提供間接背景 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | 回溯性研究（75 例） | Lupus | 抗磷脂抗體陽性的難治型偏頭痛患者使用抗栓治療，可能有症狀改善；未明確證實測試藥物為 Apixaban |
-| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | 病例報告＋文獻回顧 | The Neurologist | 有先兆偏頭痛在開始使用 Apixaban 後惡化；DOAC 對偏頭痛的影響仍不明確 |
-| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | 病例報告 | Headache | 55 歲女性在 warfarin 下偏頭痛緩解 12 年，換成 Apixaban 後 3 週內復發，恢復 warfarin 後數日內再次緩解 |
-
----
+| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | 回溯性研究 | Lupus | 75 位難治型偏頭痛且抗磷脂抗體陽性的患者接受抗栓治療，探討症狀反應；apixaban 並非明確的受試藥物 |
+| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | 個案報告＋文獻回顧 | The Neurologist | 有預兆偏頭痛在開始 apixaban 後惡化；現有文獻稀少且結論不一 |
+| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | 個案報告 | Headache | 一位患者在 warfarin 下偏頭痛緩解，改用 apixaban 後 3 週內復發，恢復 warfarin 後再度緩解 |
 
 ## 香港上市資訊
 
@@ -95,33 +85,30 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 | HK-67693 | APIXABAN SANDOZ TABLETS 5MG | 未提供 | 未提供 |
 | HK-68762 | APIXABAN TEVA TABLETS 2.5MG | 未提供 | 未提供 |
 
-另有 5 張許可證（含 I & C、HIND WING 的 APO-APIXABAN 各規格等），共 10 張單方製劑許可證，皆為有效狀態。
-
----
+本藥在香港共有 10 張有效許可證，均為單一成分製劑，此處僅列出 5 張。
 
 ## 安全性考量
 
-- **藥物交互作用**：共查得 100 筆交互作用，以下為部分重要項目：
-  - 重度：Acetylsalicylic acid（阿斯匹靈）、Cobicistat、Deferasirox、Ibritumomab tiuxetan、Tositumomab
-  - 中度：Clarithromycin、Dexamethasone、Aprepitant、Miconazole、Clotrimazole、Fenfluramine、Sugammadex 等
+- **藥物交互作用**：已查詢到 100 筆交互作用紀錄，以下列出部分主要項目：
+  - 嚴重 (Major)：乙醯水楊酸（阿斯匹靈）、Cobicistat、Deferasirox、Ibritumomab tiuxetan、Tositumomab
+  - 中度 (Moderate)：Aprepitant、Clarithromycin、Clotrimazole、Dexamethasone、Miconazole 等
 
-其餘警語與禁忌症請參考原廠仿單。
-
----
+其他安全性資訊（警語、禁忌症）請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 唯一的 Phase 3 試驗不是偏頭痛試驗，只有間接關聯；Apixaban 專屬病例報告顯示惡化或無效，與預測方向相反。
-- 目前證據僅屬 L4，機轉推測性強，不建議投入開發資源。
+- 沒有任何研究支持 apixaban 用於偏頭痛，唯一的 Phase 3 試驗並非偏頭痛試驗，且 apixaban 直接相關的個案報告顯示偏頭痛惡化或未改善，故證據等級為 L5。
+- TxGNN 分數雖高，但缺乏實證與合理的機轉支持，且現有訊號偏向不利，不建議推進。
 
 **若要推進需要：**
-- 取得 Apixaban 的作用機轉資料，並釐清與偏頭痛的機轉連結
-- 針對 PFO 合併有先兆偏頭痛或抗磷脂抗體陽性等特定族群，設計前瞻性研究
-- 評估 Apixaban 是否可能誘發或加重頭痛的安全性訊號
-- 取得香港許可證的核准適應症與仿單警語資料，完成安全性篩選
+- 取得 apixaban 作用機轉的詳細資料，並釐清與偏頭痛的可能關聯
+- 針對偏頭痛（特別是有預兆偏頭痛或合併 PFO、抗磷脂抗體者）設計直接評估 apixaban 的對照研究
+- 取得香港仿單的警語與禁忌症資訊，完成安全性篩選
+- 評估偏頭痛患者使用抗凝血藥的出血風險與獲益比
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Bicalutamide
-parent: 僅模型預測 (L5)
+parent: 中證據等級 (L3-L4)
 nav_order: 119
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 monitor_inn: "BICALUTAMIDE"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-10-28
-description: "Bicalutamide：預測新適應症為多毛症 (hypertrichosis (disease))（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+last_modified_at: 2026-11-04
+description: "Bicalutamide：預測新適應症為多毛症 (hypertrichosis (disease))（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Bicalutamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+證據等級: **L4** | 預測適應症: **10** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,14 @@ description: "Bicalutamide：預測新適應症為多毛症 (hypertrichosis (dis
 
 </div>
 
-## Bicalutamide：非類固醇雄性素受體拮抗劑 → 多毛症 (hypertrichosis (disease))
+## Bicalutamide: 多毛症 (hypertrichosis (disease))
 {: .text-alpha }
 
 ## 一句話總結
 
-Bicalutamide 是一種非類固醇雄性素受體（AR）拮抗劑，本報告的主要預測為**多毛症 (hypertrichosis (disease))**。目前沒有相關臨床試驗，僅有 **1 篇**間接相關的文獻（一篇評論信件），證據非常有限。
+Bicalutamide 是一種非類固醇雄激素受體（AR）拮抗劑。
+TxGNN 模型預測它可能對**多毛症 (hypertrichosis (disease))** 有效，
+目前無臨床試驗，僅有 **1 篇文獻**（針對一項回顧性研究的評論信函），證據等級為 **L4**。
 
 ## 快速總覽
 
@@ -47,18 +49,18 @@ Bicalutamide 是一種非類固醇雄性素受體（AR）拮抗劑，本報告�
 | 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | 多毛症 (hypertrichosis (disease)) |
 | TxGNN 預測分數 | 0.9969 |
-| 證據等級 | L5 |
+| 證據等級 | L4 |
 | 香港上市 | 上市中（有效許可證 11 張／共 11 張） |
 | 許可證數 | 11 張（有效 11 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Bicalutamide 屬於雄性素受體拮抗劑，透過阻斷雄性素訊號作用。毛囊對雄性素訊號有反應，因此從機轉上推測，阻斷 AR 可能影響毛髮過度生長。
+目前缺乏詳細的作用機轉資料。根據已知資訊，bicalutamide 屬於非類固醇雄激素受體拮抗劑，雄激素訊號會影響毛囊的反應，因此阻斷 AR 在機轉上可能對藥物誘發或雄激素相關的毛髮過度生長有幫助。
 
-與此預測相關的唯一文獻，是 2022 年一篇評論信件，針對「bicalutamide 改善女性型禿髮患者 minoxidil 誘發之多毛症」的回溯性報告所作的評論。這屬於間接、次級的證據，並非直接研究多毛症的臨床試驗或研究本身。此外，多毛症若屬先天性或藥物誘發，AR 機轉只能部分適用。
+目前唯一的相關資料，是 2022 年一篇評論信函，內容針對「bicalutamide 改善女性型禿髮患者 minoxidil 誘發之多毛症」的回顧性研究（35 位患者）。該回顧性研究本身未收錄於本報告所整理的資料中，且信函不提供原始療效數據，因此屬間接、次級的證據。
 
-依本報告的證據等級規則，由於沒有任何已引用的研究直接以多毛症為研究對象（僅有一篇評論信件），證據等級判定為 L5。
+須留意，若多毛症屬先天性或基因性，則非主要由雄激素驅動，AR 阻斷的機轉僅部分適用。
 
 ## 臨床試驗證據
 
@@ -68,7 +70,7 @@ Bicalutamide 是一種非類固醇雄性素受體（AR）拮抗劑，本報告�
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [35304167](https://pubmed.ncbi.nlm.nih.gov/35304167/) | 2022 | 評論信件 | Journal of the American Academy of Dermatology | 針對「bicalutamide 改善女性型禿髮患者 minoxidil 誘發多毛症」回溯性報告（35 位患者）的評論；無摘要可供進一步摘要 |
+| [35304167](https://pubmed.ncbi.nlm.nih.gov/35304167/) | 2022 | 評論信函 | Journal of the American Academy of Dermatology | 針對「Bicalutamide 改善女性型禿髮患者 minoxidil 誘發多毛症」之 35 例回顧性研究所寫的評論；無摘要可供摘錄 |
 
 ## 香港上市資訊
 
@@ -80,35 +82,40 @@ Bicalutamide 是一種非類固醇雄性素受體（AR）拮抗劑，本報告�
 | HK-49624 | CASODEX TAB 150MG | 未記載 | 未記載 |
 | HK-57576 | PMS-BICALUTAMIDE TAB 50MG | 未記載 | 未記載 |
 
+目前共有 11 張許可證，皆為有效狀態，以上僅列出其中 5 張。
+
 ## 細胞毒性
+
+Bicalutamide 為抗雄激素的標靶/荷爾蒙治療藥物，並非傳統細胞毒性化療藥。
 
 | 項目 | 內容 |
 |------|------|
-| 細胞毒性分類 | 標靶／荷爾蒙治療藥物（非傳統細胞毒性藥物） |
-| 骨髓抑制風險 | 請參考原廠仿單的警語與注意事項 |
-| 致吐性分級 | 請參考原廠仿單的警語與注意事項 |
-| 監測項目 | 請參考原廠仿單的警語與注意事項（一般可考慮肝功能、血液學參數） |
+| 細胞毒性分類 | 荷爾蒙治療（雄激素受體拮抗劑），非傳統細胞毒性藥物 |
+| 骨髓抑制風險 | 低 |
+| 致吐性分級 | 低 |
+| 監測項目 | 肝功能、血糖、血液學參數 |
 | 處置防護 | 請參考原廠仿單的警語與注意事項 |
 
 ## 安全性考量
 
-- **藥物交互作用**：本次彙整資料共有 100 筆交互作用紀錄，其中較需留意的 Major 等級包括 Cisapride、Dolasetron；Moderate 等級例如 Famotidine、Loperamide、Aprepitant、Clarithromycin、Levofloxacin、Granisetron 等。
+- **藥物交互作用**：已查詢到 100 筆交互作用紀錄，其中列為嚴重（Major）者包括 Cisapride 與 Dolasetron；中度者包括 Famotidine、Loperamide、Aprepitant、Clarithromycin、Levofloxacin、Granisetron 等。
 
-仿單層級的警語與禁忌症資料未取得，其他安全性資訊請參考原廠仿單。
+仿單的警語與禁忌症資料請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 多毛症此項預測目前沒有任何臨床試驗，唯一相關文獻是間接的評論信件，證據等級為 L5，僅屬模型預測層級。
-- 多毛症若為先天性或藥物誘發，AR 阻斷的機轉僅部分適用，尚不足以支持推進。
+- 僅有一篇間接的評論信函支持，且針對的是 minoxidil 誘發的多毛症，並無前瞻性試驗或對照研究；證據等級為 L4。
+- 預測分數雖高（0.9969），但本身不足以取代臨床證據。
 
 **若要推進需要：**
-- 取得上述回溯性研究（35 位患者）的原始報告，評估 bicalutamide 對多毛症的實際效果與安全性
-- 設計針對多毛症的前瞻性研究，並界定適用的多毛症類型（如雄性素相關或藥物誘發）
-- 補充詳細作用機轉資料及香港仿單的警語與禁忌症
-- 評估用於女性或非癌症族群時的肝功能監測與長期安全性
+- 取得並評讀該 35 例回顧性研究的原始資料（療效、劑量、安全性）
+- 釐清目標族群（藥物誘發 vs. 雄激素相關 vs. 先天性多毛症）
+- 設計小規模前瞻性或對照研究，評估療效與肝功能安全性
+- 取得詳細作用機轉資料與香港仿單的警語及禁忌症
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lenvatinib
-parent: 高證據等級 (L1-L2)
+parent: 中證據等級 (L3-L4)
 nav_order: 519
-evidence_level: L2
+evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "Lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
-description: "Lenvatinib：預測新適應症為脂肪肉瘤 (liposarcoma)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
+description: "Lenvatinib：預測新適應症為脂肪肉瘤 (liposarcoma)（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
 ---
 
 # Lenvatinib
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **5** 個
+證據等級: **L3** | 預測適應症: **5** 個
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,11 +38,9 @@ description: "Lenvatinib：預測新適應症為脂肪肉瘤 (liposarcoma)（證
 
 ## 一句話總結
 
-Lenvatinib 是一種多標靶激酶抑制劑，原本用於腎細胞癌與甲狀腺癌的治療。
-TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，
-目前有 **1 個已完成的 Phase Ib/II 臨床試驗**和 **4 篇文獻**支持這個方向（其中 1 篇為該試驗的已發表結果）。
-
----
+Lenvatinib 是一種多標靶激酶抑制劑，可抑制 VEGFR、FGFR、PDGFRα、RET、KIT 等標靶。
+TxGNN 模型預測它可能對**脂肪肉瘤 (liposarcoma)** 有效，
+目前有 **1 個臨床試驗**和 **4 篇文獻**與此方向相關，證據等級為 **L3**（僅有單臂 Phase Ib/II 研究，無隨機對照試驗）。
 
 ## 快速總覽
 
@@ -51,43 +49,33 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，
 | 原適應症 | 本地許可證資料未記載適應症 |
 | 預測新適應症 | 脂肪肉瘤 (liposarcoma) |
 | TxGNN 預測分數 | 0.9951 |
-| 證據等級 | L2 |
+| 證據等級 | L3 |
 | 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
 | 許可證數 | 2 張（有效 2 張） |
-| 建議決策 | Hold（以「研究問題」層級列管，待 Phase 2/3 資料再評估） |
-
-> 說明：本報告以預測排名第 1 的脂肪肉瘤為主要評估對象。排名第 2 以後的預測中，腎細胞癌相關項目多屬原適應症的延伸或亞型，另附於結論供參考。
-
----
+| 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
 
-目前缺乏經核實的詳細作用機轉資料庫記錄。根據已知資訊，Lenvatinib 是一種多標靶酪胺酸激酶抑制劑，作用標靶包括 VEGFR1-3、FGFR1-4、PDGFRα、RET 與 KIT，可抑制腫瘤血管新生與增殖訊號。其在腎細胞癌與甲狀腺癌中的療效已被證實，機轉上可能適用於血管豐富的軟組織肉瘤。
+目前缺乏詳細的作用機轉資料庫記載。根據已知的藥理資訊，Lenvatinib 是多標靶激酶抑制劑，作用於 VEGFR1-3、FGFR1-4、PDGFRα、RET 與 KIT，能抑制腫瘤血管新生與增殖訊號。
 
-脂肪肉瘤是常見的軟組織肉瘤類型，腫瘤血管新生活躍，因此抗血管新生治療具合理性。此外，分化良好或去分化脂肪肉瘤常見 CDK4 擴增，提供另一條互補的治療方向。
+脂肪肉瘤屬於血管豐富的軟組織肉瘤，抗血管新生的作用在機轉上具合理性。此外，分化良好型與去分化型脂肪肉瘤常見 CDK4 擴增，提供另一條可互補的治療途徑。臨床前資料也顯示 Lenvatinib 與 Eribulin（微管抑制型化療藥）合併使用可能有協同作用。
 
-目前最直接的證據來自 LEADER 研究，該研究將 Lenvatinib 與 Eribulin（微管抑制劑）合併使用。前臨床資料顯示 Eribulin 與其他抗癌藥物合併可能有協同效果。但由於是併用療法，Lenvatinib 單獨的貢獻無法區分。
-
----
+需注意，目前的支持證據主要來自一項小型單臂試驗，尚無法確立相較於標準治療的療效。
 
 ## 臨床試驗證據
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
-| [NCT03526679](https://clinicaltrials.gov/study/NCT03526679) | Phase 1/2 | 已完成 | 30 | Lenvatinib 併用 Eribulin 用於無法切除或轉移性脂肪細胞肉瘤與平滑肌肉瘤；單臂試驗，已有發表結果 |
-
----
+| [NCT03526679](https://clinicaltrials.gov/study/NCT03526679) | Phase 1/2 | 完成 | 30 | LEADER 研究：Lenvatinib 併用 Eribulin 治療無法手術或轉移性的脂肪細胞肉瘤與平滑肌肉瘤，評估安全性與療效 |
 
 ## 文獻證據
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
-| [36129471](https://pubmed.ncbi.nlm.nih.gov/36129471/) | 2022 | Phase Ib/II 單臂試驗 | Clin Cancer Res | LEADER 研究：Lenvatinib 併用 Eribulin 用於晚期脂肪肉瘤與平滑肌肉瘤的安全性與療效 |
-| [34326745](https://pubmed.ncbi.nlm.nih.gov/34326745/) | 2021 | 病例報告 | Case Rep Oncol | 去分化脂肪肉瘤肺轉移病人接受個人化綜合治療後腫瘤明顯縮小 |
-| [39103896](https://pubmed.ncbi.nlm.nih.gov/39103896/) | 2024 | 前臨床／生物標記研究 | Exp Hematol Oncol | CDK4 作為軟組織肉瘤的預後生物標記，抑制 CDK4 在去分化脂肪肉瘤有協同效果 |
-| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | 前臨床研究 | Anticancer Res | Eribulin 與不同機轉抗癌藥物併用的廣譜前臨床抗腫瘤活性 |
-
----
+| [36129471](https://pubmed.ncbi.nlm.nih.gov/36129471/) | 2022 | 單臂 Phase Ib/II 試驗 | Clinical Cancer Research | LEADER 研究：評估 Lenvatinib 併用 Eribulin 於晚期脂肪肉瘤與平滑肌肉瘤的安全性與療效 |
+| [39103896](https://pubmed.ncbi.nlm.nih.gov/39103896/) | 2024 | 前臨床／生物標記研究 | Experimental Hematology & Oncology | CDK4 可作為軟組織肉瘤的預後生物標記，抑制 CDK4 在去分化脂肪肉瘤的序列治療中有協同效果 |
+| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | 前臨床研究 | Anticancer Research | Eribulin 與不同機轉抗癌藥物併用的廣譜前臨床抗腫瘤活性 |
+| [34326745](https://pubmed.ncbi.nlm.nih.gov/34326745/) | 2021 | 病例報告 | Case Reports in Oncology | 一例肺轉移的去分化脂肪肉瘤患者，經標靶、手術與化療的個別化綜合治療後腫瘤明顯縮小 |
 
 ## 香港上市資訊
 
@@ -96,58 +84,42 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，
 | HK-64507 | LENVIMA CAPSULES 10MG | — | — |
 | HK-64508 | LENVIMA CAPSULES 4MG | — | — |
 
-兩張許可證均為單方、有效狀態，持有者為衛采香港有限公司 (EISAI (HONG KONG) COMPANY LIMITED)。
-
----
+兩張許可證均為有效狀態，持證商為 EISAI (HONG KONG) COMPANY LIMITED。
 
 ## 細胞毒性
-
-Lenvatinib 為口服標靶藥物（多標靶激酶抑制劑），並非傳統細胞毒性化療藥物。
 
 | 項目 | 內容 |
 |------|------|
 | 細胞毒性分類 | 標靶藥物（多標靶酪胺酸激酶抑制劑） |
 | 骨髓抑制風險 | 請參考原廠仿單的警語與注意事項 |
 | 致吐性分級 | 請參考原廠仿單的警語與注意事項 |
-| 監測項目 | 請參考原廠仿單；現有資料另提示需留意高血壓、蛋白尿、肝毒性 |
+| 監測項目 | 請參考原廠仿單的警語與注意事項 |
 | 處置防護 | 請參考原廠仿單的警語與注意事項 |
-
----
 
 ## 安全性考量
 
-- **藥物交互作用**：本次查詢共 100 筆交互作用紀錄，以下為其中已列出的主要項目：
-  - **嚴重 (Major)**：Dolasetron、Cisapride
-  - **中度 (Moderate)**：Clarithromycin、Levofloxacin、Granisetron、Palonosetron、Famotidine、Loperamide、Naltrexone，以及多種輕瀉劑與腸道清潔劑（如 Bisacodyl、Picosulfuric acid、Lactulose、Magnesium citrate）
-  - **輕微 (Minor)**：Metronidazole
-- 多數嚴重與中度交互作用涉及可能延長 QT 間期的藥物，併用時需留意心電圖與電解質。
+- **藥物交互作用**：本報告彙整的資料共記錄 100 項交互作用，以下為部分例子：
+  - 嚴重（Major）：Dolasetron、Cisapride
+  - 中度（Moderate）：Clarithromycin、Levofloxacin、Famotidine、Loperamide、Granisetron、Palonosetron、Naltrexone 等
+  - 輕微（Minor）：Metronidazole
 
-其餘警語與禁忌症資料尚未取得，請參考原廠仿單。
+  多數嚴重等級的交互作用涉及 QT 間期延長的風險，併用時宜留意心電圖監測。
 
----
+其他警語與禁忌症請參考原廠仿單。
 
 ## 結論與下一步
 
 **決策：Hold**
 
 **理由：**
-- 目前僅有 1 個小型（n=30）單臂 Phase Ib/II 試驗，且為併用 Eribulin，無法確立 Lenvatinib 本身的貢獻，也無法做比較性療效判斷，證據等級為 L2。
-- 香港仿單的警語與禁忌症資料尚未取得，無法完成安全性篩選，因此暫不建議推進。
+目前僅有一項小型單臂 Phase Ib/II 研究（30 人，Lenvatinib 併用 Eribulin，同時納入平滑肌肉瘤）直接涉及脂肪肉瘤，無隨機對照試驗，證據等級為 L3。無法分辨 Lenvatinib 本身的貢獻，且本地缺乏仿單層級的安全性資料，因此暫不建議直接推進。
 
 **若要推進需要：**
-- 取得香港衛生署仿單，完成警語與禁忌症的安全性篩選
-- 補充作用機轉資料（DrugBank）
-- 取得 LEADER 研究的詳細療效與安全性數據（反應率、無惡化存活期、不良事件）
-- 後續需有較大型的隨機對照 Phase 2/3 試驗，並區分脂肪肉瘤亞型（如去分化型）
-- 評估與 Eribulin 併用時的交互作用與毒性管理
-
-**其他預測適應症簡述：**
-
-| 預測適應症 | 證據等級 | 建議 |
-|-----------|---------|------|
-| 腎細胞癌（renal carcinoma，排名 7） | L1 | Proceed with Guardrails；此為已核准適應症而非真正的藥物再利用，CLEAR Phase 3 試驗支持 Lenvatinib 併用 Pembrolizumab 優於 Sunitinib。需監測高血壓、蛋白尿、肝毒性 |
-| 未分類腎細胞癌 | L2 | Proceed with Guardrails；缺乏專屬 Phase 3 資料，但有非透明細胞腎癌的 Phase 2 研究支持 |
-| Xp11.2/TFE3 融合相關腎細胞癌 | L4 | 研究問題；僅有尚未開始招募的 Phase 2 試驗 |
+- 取得 LEADER 研究的完整結果，區分脂肪肉瘤亞型的療效與安全性
+- 有隨機對照或具比較組的 Phase 2/3 試驗
+- 取得香港原廠仿單的警語與禁忌資料
+- 釐清 Lenvatinib 單藥與合併 Eribulin 各自的貢獻
+- 針對 QT 延長相關交互作用，擬定併用藥物的監測計畫
 
 ## 免責聲明
 
