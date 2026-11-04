@@ -19,15 +19,15 @@ title: HkTxGNN - 香港老藥新用預測系統
 | 藥品 | 證據等級 |
 |---|---|
 | [Bendamustine](/drugs/bendamustine/) | L1 |
-| [Lanadelumab](/drugs/lanadelumab/) | L1 |
-| [Natamycin](/drugs/natamycin/) | L1 |
 | [Nepafenac](/drugs/nepafenac/) | L1 |
-| [Oteracil](/drugs/oteracil/) | L1 |
-| [Tegafur](/drugs/tegafur/) | L1 |
-| [Triptorelin](/drugs/triptorelin/) | L1 |
 | [Ribavirin](/drugs/ribavirin/) | L1 |
 | [Clofarabine](/drugs/clofarabine/) | L1 |
 | [Doxorubicin](/drugs/doxorubicin/) | L1 |
+| [Propofol](/drugs/propofol/) | L1 |
+| [Ketorolac](/drugs/ketorolac/) | L1 |
+| [Naftidrofuryl](/drugs/naftidrofuryl/) | L1 |
+| [Acetylcysteine](/drugs/acetylcysteine/) | L2 |
+| [Brentuximab Vedotin](/drugs/brentuximab-vedotin/) | L2 |
 
 ### 30 個 TxGNN 站台中只有本站涵蓋的藥品
 
@@ -48,8 +48,8 @@ title: HkTxGNN - 香港老藥新用預測系統
 | 項目 | 數值 |
 |------|------|
 | 香港註冊藥品 | 14,252 |
-| DrugBank 映射成功 | 1,261 |
-| 映射率 | 82% |
+| DrugBank 映射成功 | 1,291 |
+| 映射率 | 84% |
 | 預測新適應症（已排除已知用途） | {{ site.data.site_stats.indications }} |
 
 ## 資料來源
