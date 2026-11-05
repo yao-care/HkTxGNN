@@ -24,9 +24,6 @@
 | **唯一藥物** | 1,261 |
 | **唯一適應症** | 17,081 |
 | **DDI 資料** | 160,235 |
-| **DFI 資料** | 857 |
-| **DHI 資料** | 35 |
-| **DDSI 資料** | 8,359 |
 | **FHIR 資源** | 1,261 MK / 49,524 CUD |
 
 ### 證據等級分布
@@ -219,7 +216,7 @@ PYTHONPATH=src python -m hktxgnn.predict.txgnn_model
 | **知識圖譜** | TxGNN KG | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) | 17,080 diseases, 7,957 drugs |
 | **藥物資料庫** | DrugBank | [DrugBank](https://go.drugbank.com/) | 藥品成分映射 |
 | **藥物交互作用** | DDInter | [DDInter](https://ddinter2.scbdd.com/) | DDI 配對 |
-| **藥物交互作用** | Guide to PHARMACOLOGY | [IUPHAR/BPS](https://www.guidetopharmacology.org/) | 核准藥物交互作用 |
+| **藥物交互作用** | Guide to PHARMACOLOGY | [IUPHAR/BPS](https://www.guidetopharmacology.org/) | 核准藥物的藥物–標靶資料（不是交互作用） |
 | **臨床試驗** | ClinicalTrials.gov | [CT.gov API v2](https://clinicaltrials.gov/data-api/api) | 臨床試驗登錄 |
 | **臨床試驗** | WHO ICTRP | [ICTRP API](https://apps.who.int/trialsearch/api/v1/search) | 國際臨床試驗平台 |
 | **文獻** | PubMed | [NCBI E-utilities](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/) | 醫學文獻搜尋 |
