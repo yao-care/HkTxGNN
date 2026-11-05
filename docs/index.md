@@ -51,7 +51,6 @@ description: "TxGNN 老藥新用報告：衛生署藥物辦公室藥劑製品清
 | [Calcium Glycerophosphate](/drugs/calcium-glycerophosphate/) | L5 |
 | [Pipenzolate](/drugs/pipenzolate/) | L5 |
 | [Benzoin](/drugs/benzoin/) | N/A |
-| [Monensin](/drugs/monensin/) | N/A |
 | [Palmitic Acid](/drugs/palmitic-acid/) | N/A |
 | [Tazemetostat](/drugs/tazemetostat/) | N/A |
 
