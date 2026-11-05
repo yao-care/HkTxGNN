@@ -29,8 +29,10 @@ description: "HkTxGNN 隱私權政策：本站為靜態網站，不收集個人�
 | 服務 | 用途 | 隱私政策 |
 |------|------|---------|
 | GitHub Pages | 網站託管 | [GitHub 隱私聲明](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement) |
-| cdn.jsdelivr.net | 圖表函式庫 | 靜態資源 CDN |
-| giscus | 留言功能（若啟用） | [giscus](https://giscus.app/) |
+| Google Analytics 4 (www.googletagmanager.com, google-analytics.com) | 網站瀏覽統計（瀏覽頁面、來源網站），會使用分析 Cookie；不傳送搜尋字詞、表單內容與網址查詢參數 | [Google 隱私權政策](https://policies.google.com/privacy) |
+| cdn.jsdelivr.net | 程式庫：每頁的 d3 圖表；SMART 頁面的 Fuse.js 名稱比對與 SMART on FHIR 用戶端 | [jsDelivr 隱私政策](https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net) |
+| clinicaltrials.gov | SMART 頁面的臨床試驗查詢：只有在您要求查詢時，才會把藥名與適應症名稱送到 ClinicalTrials.gov API | [NLM 網站政策](https://www.nlm.nih.gov/web_policies.html) |
+| rxnav.nlm.nih.gov | SMART App：把從您的電子病歷讀到的藥品 RxNorm 代碼送到美國國家醫學圖書館（NLM）的 RxNav API 查成分名稱（不含病患身分資料） | [NLM 網站政策](https://www.nlm.nih.gov/web_policies.html) |
 
 SMART on FHIR 應用在您主動啟動時，會向您的電子病歷系統請求用藥資料。
 該資料<strong>僅在您的瀏覽器內處理</strong>，不會傳送到本站伺服器，也不會被儲存。
