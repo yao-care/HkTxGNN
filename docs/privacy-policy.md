@@ -3,13 +3,13 @@ layout: default
 title: 隱私權政策
 nav_order: 95
 permalink: /privacy-policy/
-description: "HkTxGNN 隱私權政策：本站為靜態網站，不收集個人資料。"
+description: "HkTxGNN 隱私權政策：本站為靜態網站，沒有帳號與表單；使用 Google Analytics 4 分析 Cookie 統計使用情況。"
 ---
 
 # 隱私權政策
 
 <div class="key-takeaway">
-本站是靜態網站，不要求註冊、不收集個人識別資料。
+本站是靜態網站，不要求註冊、沒有表單；使用 Google Analytics 4 分析 Cookie 統計使用情況。
 </div>
 
 ---
@@ -17,7 +17,7 @@ description: "HkTxGNN 隱私權政策：本站為靜態網站，不收集個人�
 ## 我們收集什麼
 
 <p class="key-answer" data-question="HkTxGNN 會收集個人資料嗎？">
-<strong>不會。</strong>本站託管於 GitHub Pages，是純靜態網站，沒有帳號系統、沒有表單、不寫入 Cookie 追蹤使用者。我們不收集姓名、Email、病歷或任何個人識別資料。
+<strong>只透過 Google Analytics 4 收集使用統計。</strong>本站託管於 GitHub Pages，是純靜態網站，沒有帳號系統、沒有表單；我們不收集姓名、Email 或病歷。本站使用 Google Analytics 4 分析 Cookie 統計使用情況（瀏覽頁面、來源網站、捲動深度與停留時間）；Cookie 在載入頁面時設定，不傳送搜尋字詞、表單內容與網址查詢參數。
 </p>
 
 ---
@@ -35,13 +35,13 @@ description: "HkTxGNN 隱私權政策：本站為靜態網站，不收集個人�
 | rxnav.nlm.nih.gov | SMART App：把從您的電子病歷讀到的藥品 RxNorm 代碼送到美國國家醫學圖書館（NLM）的 RxNav API 查成分名稱（不含病患身分資料） | [NLM 網站政策](https://www.nlm.nih.gov/web_policies.html) |
 
 SMART on FHIR 應用在您主動啟動時，會向您的電子病歷系統請求用藥資料。
-該資料<strong>僅在您的瀏覽器內處理</strong>，不會傳送到本站伺服器，也不會被儲存。
+病患身分與電子病歷資料<strong>不會送到本站伺服器</strong>（本站是靜態網站，沒有後端），本站也不儲存。為了對應藥名，應用會把藥品的 RxNorm 代碼送到美國國家醫學圖書館（NLM）的 RxNav，這個代碼不含病患身分；您要求查詢臨床試驗時，送到 ClinicalTrials.gov 的是藥名與適應症名稱。
 
 ---
 
 ## 資料主體權利
 
-由於本站不收集個人資料，無須提出查閱、更正或刪除請求。
+本站沒有帳號，也沒有自己的伺服器保存個人紀錄；使用統計由 Google Analytics 4 收集，您可以在瀏覽器設定中封鎖或刪除其 Cookie。
 如對本政策有疑問，請聯繫 service@yao.care。
 
 ---
