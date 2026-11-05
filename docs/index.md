@@ -1,6 +1,7 @@
 ---
 layout: home
 title: HkTxGNN - 香港老藥新用預測系統
+description: "TxGNN 老藥新用報告：衛生署藥物辦公室藥劑製品清單中 924 個藥品，附臨床試驗與文獻證據的 L1–L5 證據等級。"
 ---
 
 # HkTxGNN - 香港老藥新用預測系統
@@ -12,7 +13,20 @@ title: HkTxGNN - 香港老藥新用預測系統
 
 本站公開 **{{ site.data.drug_stats.total_drugs }}** 個藥品的報告，藥品來自[衛生署藥物辦公室](https://www.drugoffice.gov.hk/)的許可證資料（香港）。
 
-各證據等級報告數： L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+資料集：[衛生署藥物辦公室 藥劑製品清單（DrugList.xml）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)，每週一自動下載比對。詳見[資料來源]({{ '/sources/' | relative_url }})。
+
+各證據等級報告數：
+
+| 證據等級 | 報告數 | 占比 |
+|---|---|---|
+| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+
+本站有 16 組預測的藥物–疾病配對，在其他 29 個 TxGNN 站台都沒有。
 
 ### 本站證據等級最高的藥品
 
@@ -86,18 +100,11 @@ title: HkTxGNN - 香港老藥新用預測系統
 
 ---
 
-© 2026 藥提醒科技有限公司 (yao.care). All rights reserved.
+© 2026 藥提醒科技有限公司 (yao.care)。保留所有權利。
 
 ---
 
 ## 關於開發單位
 
-本平台由**藥提醒科技有限公司**（yao.care，統一編號 83620786，地址：台中市西區台灣大道二段220號12樓）開發與維運。
-
-HkTxGNN 是該公司「TxGNN 老藥新用」產品線的香港站。同一套系統已部署於 30 個國家／地區，
-各站依 `{國碼}TxGNN` 命名（JpTxGNN、UsTxGNN、DETxGNN…），網址格式為 `{國碼}txgnn.yao.care`。
-產品總覽見 <https://www.yao.care/medical/txgnn/>。
-
-TxGNN 模型本身由哈佛醫學院 Zitnik Lab 開發並發表於 *Nature Medicine*；
-本平台是藥提醒科技有限公司以該模型為基礎建置的落地系統，負責各國藥證資料串接、
-深度學習預測（已排除知識圖譜中已記錄的用途）、PubMed／ClinicalTrials 證據分級，以及 SMART on FHIR 電子病歷整合。
+本平台由**藥提醒科技有限公司**（yao.care）開發與維運。公司資料、TxGNN 模型背景與產品線各站一覽，
+見<a href="{{ '/about/' | relative_url }}">關於專案</a>。
