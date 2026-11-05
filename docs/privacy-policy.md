@@ -29,7 +29,7 @@ description: "HkTxGNN 隱私權政策：本站為靜態網站，不收集個人�
 | 服務 | 用途 | 隱私政策 |
 |------|------|---------|
 | GitHub Pages | 網站託管 | [GitHub 隱私聲明](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement) |
-| d3js.org | 圖表函式庫 | 靜態資源 CDN |
+| cdn.jsdelivr.net | 圖表函式庫 | 靜態資源 CDN |
 | giscus | 留言功能（若啟用） | [giscus](https://giscus.app/) |
 
 SMART on FHIR 應用在您主動啟動時，會向您的電子病歷系統請求用藥資料。

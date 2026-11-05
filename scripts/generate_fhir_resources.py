@@ -63,20 +63,12 @@ def generate_capability_statement() -> dict:
                 {
                     "type": "MedicationKnowledge",
                     "profile": "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge",
-                    "interaction": [{"code": "read"}, {"code": "search-type"}],
-                    "searchParam": [
-                        {"name": "code", "type": "token"},
-                        {"name": "status", "type": "token"}
-                    ]
+                    "interaction": [{"code": "read"}]
                 },
                 {
                     "type": "ClinicalUseDefinition",
                     "profile": "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition",
-                    "interaction": [{"code": "read"}, {"code": "search-type"}],
-                    "searchParam": [
-                        {"name": "type", "type": "token"},
-                        {"name": "subject", "type": "reference"}
-                    ]
+                    "interaction": [{"code": "read"}]
                 }
             ]
         }]
