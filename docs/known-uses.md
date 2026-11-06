@@ -10,7 +10,7 @@ description: "這些藥物的 TxGNN 模型候選全部屬於已知用途（已�
 
 這些藥物的 TxGNN 模型候選全部屬於已知用途（已記錄於知識圖譜或藥品許可證），因此目前沒有新的預測適應症。各頁列出已知用途與本地上市狀況。
 
-{% assign known_drugs = site.drugs | where: "evidence_level", "N/A" | sort: "title" %}
+{% assign known_drugs = site.drugs | where: "evidence_level", "N/A" | where_exp: "d", "d.noindex != true" | sort: "title" %}
 
 **{{ known_drugs.size }} 個藥物**
 
