@@ -6,7 +6,7 @@ nav_order: 48
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-31
-description: "Ambroxol：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L4）。原適應症：咽炎 (Pharyngitis)"
+description: "Ambroxol：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L5）。原適應症：咽炎 (Pharyngitis)"
 monitor_inn: "Ambroxol"
 predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
 ---

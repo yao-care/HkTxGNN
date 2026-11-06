@@ -1,0 +1,333 @@
+{
+  "_note": "藥物頁 front matter description 的證據等級字樣改成頁首等級的紀錄（母目錄 .claude/sync_description_levels.py 追加；只換等級字樣，其他文字不動）。還原：把 original_description 寫回該頁 description。",
+  "entries": [
+    {
+      "page": "docs/_drugs/ambroxol.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Ambroxol：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L4）。原適應症：咽炎 (Pharyngitis)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/brentuximab_vedotin.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Brentuximab Vedotin：預測新適應症為濾泡性淋巴瘤 (Follicular Lymphoma)（證據等級 L5）。原適應症：何杰金氏淋巴瘤（Hodgkin lymphoma，含典型何杰金氏淋巴瘤）\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/buprenorphine.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Buprenorphine：預測新適應症為急性間歇性紫質症 (Acute Intermittent Porphyria)（證據等級 L5）。原適應症：鴉片類依賴、物質濫用/依賴、嗎啡依賴\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/camphor.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Camphor：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L4）。原適應症：目前缺乏已登錄的核准適應症文字\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/carisoprodol.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Carisoprodol：預測新適應症為失眠 (Insomnia)（證據等級 L4）。原適應症：資料中未載明\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/dapoxetine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Dapoxetine：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L4）。原適應症：早發性射精（Premature Ejaculation）、心因性性交疼痛\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/daptomycin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Daptomycin：預測新適應症為退化性關節炎 (Osteoarthritis)（證據等級 L4）。原適應症：香港許可證資料中未載明核准適應症\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/decitabine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Decitabine：預測新適應症為兒童難治性血球減少症 (Refractory Cytopenia of Childhood)（證據等級 L4）。原適應症：急性骨髓性白血病（AML）及相關骨髓性疾病\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/desogestrel.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Desogestrel：預測新適應症為閉經 (Amenorrhea)（證據等級 L3）。原適應症：香港許可證資料未載明適應症文字（依其上市形式為口服避孕藥）\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/dienogest.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Dienogest：預測新適應症為閉經 (Amenorrhea)（證據等級 L4）。原適應症：香港許可證資料未提供適應症文字（文獻顯示臨床上用於子宮內膜異位症）\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/doravirine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Doravirine：預測新適應症為猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)（證據等級 L4）。原適應症：HIV 感染、愛滋病\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/doxycycline.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Doxycycline：預測新適應症為點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis)（證據等級 L4）。原適應症：支氣管炎、痤瘡、細菌性肺炎、炭疽、淋病、咽炎、放線菌病、軟性下疳、鉤端螺旋體病、性病性淋巴肉芽腫等\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/dronedarone.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Dronedarone：預測新適應症為中風 (stroke disorder)（證據等級 L5）。原適應症：心房顫動 (atrial fibrillation)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/emtricitabine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Emtricitabine：預測新適應症為貓後天免疫缺陷症候群 (Feline Acquired Immunodeficiency Syndrome)（證據等級 L4）。原適應症：HIV 感染、AIDS\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ethambutol.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Ethambutol：預測新適應症為會厭炎 (Epiglottitis)（證據等級 L4）。原適應症：肺結核 (Pulmonary tuberculosis)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/flucloxacillin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Flucloxacillin：預測新適應症為結膜炎 (Conjunctivitis)（證據等級 L4）。原適應症：香港許可證未登載適應症文字\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/glutamic_acid.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Glutamic Acid：預測新適應症為停經後骨質疏鬆症 (Postmenopausal Osteoporosis)（證據等級 L5）。原適應症：目前無可用的核准適應症文字\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/hydroquinone.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Hydroquinone：預測新適應症為脂漏性角化症 (Seborrheic Keratosis)（證據等級 L4）。原適應症：香港許可證未載明適應症文字\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ifosfamide.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Ifosfamide：預測新適應症為女性乳癌 (Female Breast Carcinoma)（證據等級 L3）。原適應症：香港許可證資料未載明核准適應症文字\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/isoniazid.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Isoniazid：預測新適應症為結膜炎 (Conjunctivitis)（證據等級 L4）。原適應症：肺結核 (Pulmonary Tuberculosis)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/lamotrigine.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Lamotrigine：預測新適應症為三叉神經腫瘤（證據等級 L5）。原適應症：癲癇\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/melphalan.md",
+      "date": "2026-11-06",
+      "from": "L2",
+      "to": "L5",
+      "original_description": "\"Melphalan：預測新適應症為女性乳癌 (female breast carcinoma)（證據等級 L2）。原適應症：卵巢癌\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/mepolizumab.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Mepolizumab：預測新適應症為免疫性破壞所致血小板減少症 (Thrombocytopenia due to immune destruction)（證據等級 L4）。原適應症：嗜酸性肺炎、肺嗜酸性球增多症\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/misoprostol.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Misoprostol：預測新適應症為閉經 (Amenorrhea)（證據等級 L4）。原適應症：資料未登載\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/parecoxib.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L3",
+      "original_description": "\"Parecoxib：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：資料缺漏\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/piroxicam.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Piroxicam：預測新適應症為眼缺損小眼症－肢根型骨發育不良症候群 (colobomatous microphthalmia-rhizomelic dysplasia syndrome)（證據等級 L3）。原適應症：類風濕性關節炎、骨關節炎\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/pitolisant.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Pitolisant：預測新適應症為失眠症 (Insomnia)（證據等級 L4）。原適應症：猝睡症（narcolepsy）、猝睡症合併猝倒症候群\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/procaine.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Procaine：預測新適應症為高鐵血紅素血症 (methemoglobinemia)（證據等級 L5）。原適應症：許可證未載明（局部麻醉藥）\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/propofol.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L1",
+      "original_description": "\"Propofol：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：目前香港許可證資料未載明核准適應症\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ribavirin.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L1",
+      "original_description": "\"Ribavirin：預測新適應症為慢性 B 型肝炎（證據等級 L5）。原適應症：香港許可證資料中未載明核准適應症文字\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/rivastigmine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Rivastigmine：預測新適應症為青光眼 (Glaucoma)（證據等級 L4）。原適應症：阿茲海默症（Alzheimer disease）、小腦退化、Pick 氏病等\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/roxithromycin.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Roxithromycin：預測新適應症為痲瘋病 (Leprosy)（證據等級 L3）。原適應症：呼吸道、泌尿道及軟組織感染\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/sofosbuvir.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Sofosbuvir：預測新適應症為B 型肝炎病毒感染（證據等級 L5）。原適應症：慢性 C 型肝炎病毒感染\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/sulfadiazine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Sulfadiazine：預測新適應症為肺囊蟲症 (Pneumocystosis)（證據等級 L4）。原適應症：弓形蟲症（Toxoplasmosis）、潰瘍性結腸炎、發炎性腸道疾病、脈絡視網膜炎等\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ticagrelor.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Ticagrelor：預測新適應症為顱內動脈硬化（證據等級 L3）。原適應症：香港許可證資料未載明核准適應症文字。知識圖譜記錄的關聯包括急性冠心症、周邊血管疾病、間歇性跛行、周邊動脈疾病\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/topotecan.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Topotecan：預測新適應症為女性乳癌 (Female Breast Carcinoma)（證據等級 L3）。原適應症：卵巢癌（含卵巢腺癌、卵巢生殖細胞腫瘤等）\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/trimebutine.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L3",
+      "original_description": "\"Trimebutine：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：目前資料未載明\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/tropisetron.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Tropisetron：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L4）。原適應症：化療後噁心與嘔吐\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/vasopressin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Vasopressin：預測新適應症為先天性凝血酶原缺乏症 (Congenital Prothrombin Deficiency)（證據等級 L4）.\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/vernakalant.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Vernakalant：預測新適應症為中風 (Stroke Disorder)（證據等級 L4）。原適應症：心房顫動（atrial fibrillation）\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/yohimbine.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Yohimbine：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：資料未載明\"",
+      "tool": ".claude/sync_description_levels.py"
+    }
+  ]
+}

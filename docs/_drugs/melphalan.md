@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "MELPHALAN"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
 last_modified_at: 2026-10-28
-description: "Melphalan：預測新適應症為女性乳癌 (female breast carcinoma)（證據等級 L2）。原適應症：卵巢癌"
+description: "Melphalan：預測新適應症為女性乳癌 (female breast carcinoma)（證據等級 L5）。原適應症：卵巢癌"
 ---
 
 # Melphalan

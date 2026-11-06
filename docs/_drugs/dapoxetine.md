@@ -6,7 +6,7 @@ nav_order: 244
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-28
-description: "Dapoxetine：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L4）。原適應症：早發性射精（Premature Ejaculation）、心因性性交疼痛"
+description: "Dapoxetine：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：早發性射精（Premature Ejaculation）、心因性性交疼痛"
 monitor_inn: "DAPOXETINE"
 predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine with brainstem aura"]
 ---

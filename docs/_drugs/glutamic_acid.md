@@ -6,7 +6,7 @@ nav_order: 419
 evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-28
-description: "Glutamic Acid：預測新適應症為停經後骨質疏鬆症 (Postmenopausal Osteoporosis)（證據等級 L5）。原適應症：目前無可用的核准適應症文字"
+description: "Glutamic Acid：預測新適應症為停經後骨質疏鬆症 (Postmenopausal Osteoporosis)（證據等級 L4）。原適應症：目前無可用的核准適應症文字"
 monitor_inn: "GLUTAMIC ACID"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
 ---

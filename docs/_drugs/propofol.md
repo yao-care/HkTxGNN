@@ -6,7 +6,7 @@ nav_order: 739
 evidence_level: L1
 indication_count: 5
 last_modified_at: 2026-11-03
-description: "Propofol：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：目前香港許可證資料未載明核准適應症"
+description: "Propofol：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L1）。原適應症：目前香港許可證資料未載明核准適應症"
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
 ---

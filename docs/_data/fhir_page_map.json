@@ -1,0 +1,181 @@
+{
+  "_note": "FHIR MedicationKnowledge（DrugBank ID）→ 本站藥物頁的對照，只收本站沒有該 ID 的轉址頁或 front matter drugbank_id、靠其他站的 dbXXXXX 轉址頁／drugbank_id 指到同一網址 slug 才對到的資源（sources＝提供依據的站）。由母目錄 .claude/sync_fhir_levels.py 產生，scripts/check_seo_docs.py 用它檢查 FHIR 等級＝藥物頁頁首。",
+  "map": {
+    "db00091": {
+      "page": "cyclosporine",
+      "sources": [
+        "AuTxGNN",
+        "CHTxGNN",
+        "COTxGNN",
+        "CaTxGNN",
+        "DETxGNN",
+        "ESTxGNN",
+        "FITxGNN",
+        "ITTxGNN",
+        "JpTxGNN",
+        "KrTxGNN",
+        "NOTxGNN",
+        "NZTxGNN",
+        "SATxGNN",
+        "SgTxGNN",
+        "UkTxGNN",
+        "UsTxGNN"
+      ]
+    },
+    "db00169": {
+      "page": "cholecalciferol",
+      "sources": [
+        "CHTxGNN",
+        "COTxGNN",
+        "CaTxGNN",
+        "DETxGNN",
+        "DkTxGNN",
+        "ESTxGNN",
+        "FITxGNN",
+        "KrTxGNN",
+        "NOTxGNN",
+        "NZTxGNN",
+        "NlTxGNN",
+        "SATxGNN",
+        "SgTxGNN",
+        "UsTxGNN",
+        "ZaTxGNN"
+      ]
+    },
+    "db00245": {
+      "page": "benzatropine",
+      "sources": [
+        "AuTxGNN",
+        "NZTxGNN"
+      ]
+    },
+    "db00275": {
+      "page": "olmesartan",
+      "sources": [
+        "AuTxGNN",
+        "CaTxGNN",
+        "UkTxGNN"
+      ]
+    },
+    "db00465": {
+      "page": "ketorolac",
+      "sources": [
+        "CHTxGNN",
+        "CaTxGNN",
+        "DETxGNN",
+        "FITxGNN",
+        "ITTxGNN",
+        "InTxGNN",
+        "NOTxGNN",
+        "SATxGNN"
+      ]
+    },
+    "db00623": {
+      "page": "fluphenazine",
+      "sources": [
+        "CaTxGNN",
+        "InTxGNN",
+        "UkTxGNN",
+        "UsTxGNN"
+      ]
+    },
+    "db00727": {
+      "page": "nitroglycerin",
+      "sources": [
+        "CaTxGNN",
+        "SgTxGNN"
+      ]
+    },
+    "db00787": {
+      "page": "acyclovir",
+      "sources": [
+        "CHTxGNN",
+        "COTxGNN",
+        "CaTxGNN",
+        "ESTxGNN",
+        "FRTxGNN",
+        "ITTxGNN",
+        "InTxGNN",
+        "JpTxGNN",
+        "KrTxGNN",
+        "NZTxGNN",
+        "SATxGNN",
+        "SgTxGNN",
+        "UsTxGNN",
+        "ZaTxGNN"
+      ]
+    },
+    "db00790": {
+      "page": "perindopril",
+      "sources": [
+        "AuTxGNN",
+        "CHTxGNN",
+        "COTxGNN",
+        "ESTxGNN",
+        "ITTxGNN",
+        "NZTxGNN",
+        "ZaTxGNN"
+      ]
+    },
+    "db00875": {
+      "page": "flupentixol",
+      "sources": [
+        "CHTxGNN",
+        "CaTxGNN",
+        "SATxGNN",
+        "UkTxGNN"
+      ]
+    },
+    "db00945": {
+      "page": "acetylsalicylic_acid",
+      "sources": [
+        "AuTxGNN",
+        "CHTxGNN",
+        "CaTxGNN",
+        "DETxGNN",
+        "FITxGNN",
+        "NOTxGNN",
+        "SATxGNN",
+        "SgTxGNN",
+        "UkTxGNN",
+        "ZaTxGNN"
+      ]
+    },
+    "db00977": {
+      "page": "ethinylestradiol",
+      "sources": [
+        "ARTxGNN",
+        "COTxGNN",
+        "DETxGNN",
+        "ESTxGNN",
+        "FITxGNN",
+        "NOTxGNN",
+        "ZaTxGNN"
+      ]
+    },
+    "db01608": {
+      "page": "periciazine",
+      "sources": [
+        "AuTxGNN",
+        "CaTxGNN"
+      ]
+    },
+    "db01624": {
+      "page": "zuclopenthixol",
+      "sources": [
+        "CHTxGNN",
+        "CaTxGNN",
+        "FRTxGNN",
+        "InTxGNN",
+        "NZTxGNN",
+        "SATxGNN"
+      ]
+    },
+    "db13588": {
+      "page": "naftidrofuryl",
+      "sources": [
+        "FRTxGNN"
+      ]
+    }
+  }
+}
