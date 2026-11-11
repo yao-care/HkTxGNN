@@ -24,6 +24,14 @@ description: "HkTxGNN 使用指南：如何查詢藥物、解讀證據等級與�
 
 ---
 
+## 香港已註冊藥物的新適應症證據一覽
+
+<p class="key-answer" data-question="香港已註冊的藥物之中，有沒有人整理過哪些已經有臨床試驗支持新適應症？">
+本平台持續整理<a href="{{ '/drugs/' | relative_url }}">香港已註冊藥物</a>的老藥新用預測，並標示每個候選適應症的證據等級。若要找<strong>已有臨床試驗支持</strong>的候選，可直接看<a href="{{ '/evidence-high/' | relative_url }}">高證據（L1/L2）</a>清單，裡面每一條都附有可追溯的 NCT 臨床試驗編號與 PMID 文獻連結。
+</p>
+
+---
+
 ## 如何解讀報告
 
 <p class="key-answer" data-question="證據等級 L1-L5 代表什麼？">
