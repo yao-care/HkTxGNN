@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 763
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "Regorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
 description: "Regorafenib：預測新適應症為脂肪肉瘤 (liposarcoma)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
@@ -136,6 +136,25 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，目前有 
 - 補齊香港仿單的警語、禁忌症與核准適應症
 - 補充詳細的作用機轉資料
 - 若考慮其他預測適應症，需另案評估，且須與現行標準治療比較其附加價值
+
+<!-- review:begin hk-lic-20261106-regorafenib-1 -->
+
+> **查核更正（2026-11-06）**：原文為「若考慮其他預測適應症（如腎細胞癌，已有 Phase 2 研究），需另案評估，且須與現行標準治療比較其附加價值」。已刪除：這段把已從本頁移除的預測適應症當作預測舉例，與本頁保留的預測不符（2026-11-06）。依據：[HkTxGNN 方法論（預測的保留與排除規則）](https://hktxgnn.yao.care/methodology/)。
+
+<!-- review:end hk-lic-20261106-regorafenib-1 -->
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-06 | 刪除「如腎細胞癌，已有 Phase 2 研究」 | 更正 | [HkTxGNN 方法論（預測的保留與排除規則）](https://hktxgnn.yao.care/methodology/) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。
