@@ -8,6 +8,11 @@ description: "HkTxGNN 中 L5 等級的候選，僅由模型預測，尚無臨床
 
 # 僅模型預測 (L5)
 
+<!-- page-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
+{% assign pd_m = site.data.drug_stats.level_counts.L5 %}
+本頁列出本站 **{{ site.data.drug_stats.total_drugs }}** 個有公開報告的藥品中的 **{{ pd_m }}** 個（占 {{ pd_m | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}%）。等級定義見[方法論]({{ '/methodology/' | relative_url }})。
+<!-- page-data:end -->
+
 <p style="font-size: 1.25rem; color: #666; margin-bottom: 1.5rem;">
 僅有模型預測、尚無人體證據的候選藥物
 </p>

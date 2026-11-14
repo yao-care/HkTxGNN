@@ -8,6 +8,11 @@ description: "HkTxGNN 中 L1-L2 等級的老藥新用候選，具多項臨床試
 
 # 高證據等級 (L1-L2)
 
+<!-- page-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
+{% assign pd_m = site.data.drug_stats.level_counts.L1 | plus: site.data.drug_stats.level_counts.L2 %}
+本頁列出本站 **{{ site.data.drug_stats.total_drugs }}** 個有公開報告的藥品中的 **{{ pd_m }}** 個（占 {{ pd_m | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}%）。等級定義見[方法論]({{ '/methodology/' | relative_url }})。
+<!-- page-data:end -->
+
 <p style="font-size: 1.25rem; color: #666; margin-bottom: 1.5rem;">
 可優先考慮進入臨床評估階段的候選藥物
 </p>
