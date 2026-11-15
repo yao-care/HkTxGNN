@@ -7,9 +7,9 @@
   "title": "Hong Kong TxGNN FHIR Server",
   "status": "active",
   "experimental": true,
-  "date": "2026-11-13",
+  "date": "2026-11-15",
   "publisher": "Yao.Care - HkTxGNN Project",
-  "description": "FHIR R4 API for Hong Kong drug repurposing predictions based on TxGNN knowledge graph. Contains 1250 drugs and 11879 predicted indications.",
+  "description": "FHIR R4 API for Hong Kong drug repurposing predictions based on TxGNN knowledge graph. Contains 923 drugs and 5077 predicted indications.",
   "kind": "instance",
   "fhirVersion": "4.0.1",
   "format": [
@@ -46,15 +46,15 @@
       "extension": [
         {
           "url": "MedicationKnowledge",
-          "valueInteger": 1250
+          "valueInteger": 923
         },
         {
           "url": "ClinicalUseDefinition",
-          "valueInteger": 11879
+          "valueInteger": 5077
         },
         {
           "url": "countedAt",
-          "valueDate": "2026-11-13"
+          "valueDate": "2026-11-15"
         }
       ]
     }
