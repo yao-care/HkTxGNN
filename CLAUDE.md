@@ -539,3 +539,4 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   151 個證據包補 315 筆（ezetimibe HK-69166 屬 A）；102 頁狀態列／張數列由程式同步；正文張數跟新事實矛盾的 33 頁以 `hk-lic-20261117-*`（新 25 筆、同 id 重發 10 筆，前版存 history）更正。
   其他因 20 筆上限沒收的舊號不補（證據包照舊算部分收錄，頁面寫「至少 N 張」）。這支沒有接進每週排程，之後新註冊的號要再跑一次。
 - 原本就有、跟這次無關：nitroprusside 公開頁沒有 MedicationKnowledge（front matter 沒有 drugbank_id），這次沒處理。
+- 2026-11-17 起每週排程（license-refresh.yml）在 license_refresh 前先下載現行 DrugList.xml 跑 `scripts/add_current_registrations.py`，新註冊的本藥號碼會自動補進證據包；有補收就照常發新 Release。
