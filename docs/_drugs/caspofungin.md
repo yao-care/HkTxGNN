@@ -51,8 +51,8 @@ TxGNN 模型預測它可能對**胃泌素分泌異常 (Gastrin Secretion Abnorma
 | 預測新適應症 | 胃泌素分泌異常 (Gastrin Secretion Abnormality) |
 | TxGNN 預測分數 | 0.9944 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
-| 許可證數 | 2 張（有效 2 張） |
+| 香港上市 | 未上市（已註銷許可證 2 張／共 2 張） |
+| 許可證數 | 2 張（有效 0 張） |
 | 建議決策 | Hold |
 
 ---
@@ -86,7 +86,13 @@ TxGNN 模型預測它可能對**胃泌素分泌異常 (Gastrin Secretion Abnorma
 | HK-66617 | CASPOVITAE POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 70MG | 未提供 | 未提供 |
 | HK-66616 | CASPOVITAE POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50MG | 未提供 | 未提供 |
 
-兩張許可證皆為單方、有效狀態，持證商為 HONG KONG MEDICAL SUPPLIES LTD。
+兩張許可證皆為單方，均已註銷（已不在註冊名單上），持證商為 HONG KONG MEDICAL SUPPLIES LTD。
+
+<!-- review:begin hk-lic-20261117-caspofungin-1 -->
+
+> **查核更正（2026-11-17）**：原文為「兩張許可證皆為單方、有效狀態，」。已更正：HK-66617、HK-66616 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-caspofungin-1 -->
 
 ---
 
@@ -115,6 +121,19 @@ TxGNN 模型預測它可能對**胃泌素分泌異常 (Gastrin Secretion Abnorma
 - 補充 DrugBank 的作用機轉資料，並評估是否存在任何生物學上的合理連結。
 - 以文獻或前臨床研究，檢驗 Caspofungin 與胃泌素調控之間是否有關聯。
 - 確認給藥途徑的相容性（Caspofungin 為靜脈輸注劑型）與目標疾病的臨床需求。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「兩張許可證皆為單方、有效狀態，」→「兩張許可證皆為單方，均已註銷（已不在註冊名單上），」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

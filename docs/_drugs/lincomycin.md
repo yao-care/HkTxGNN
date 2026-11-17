@@ -51,8 +51,8 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (Hyperamylasemia)** 有效，
 | 預測新適應症 | 高澱粉酶血症 (hyperamylasemia) |
 | TxGNN 預測分數 | 0.9914 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 7 張／共 7 張） |
-| 許可證數 | 7 張（有效 7 張） |
+| 香港上市 | 上市中（有效許可證 6 張／共 7 張） |
+| 許可證數 | 7 張（有效 6 張） |
 | 建議決策 | Hold |
 
 ---
@@ -91,7 +91,13 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (Hyperamylasemia)** 有效，
 | HK-60253 | LINCO INJ 300MG/ML（ATLANTIC PHARMACEUTICAL LIMITED） | 注射劑 | 未載明 |
 | HK-41155 | TAMCOCIN CAP 500MG（PERFECT GROUPS LTD） | 膠囊 | 未載明 |
 
-另有 2 張許可證（HK-18144、HK-54939，後者為獸用產品），共 7 張，皆為有效的單方製劑。
+另有 2 張許可證（HK-18144、HK-54939，後者為獸用產品），共 7 張，皆為單方製劑，其中 6 張有效、HK-41155 已註銷。
+
+<!-- review:begin hk-lic-20261117-lincomycin-1 -->
+
+> **查核更正（2026-11-17）**：原文為「共 7 張，皆為有效的單方製劑。」。已更正：HK-41155 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-lincomycin-1 -->
 
 ---
 
@@ -119,6 +125,19 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (Hyperamylasemia)** 有效，
 - 取得香港仿單的警語、禁忌與核准適應症
 - 文獻回顧，確認是否有任何支持 Lincomycin 與高澱粉酶血症關聯的研究
 - 在取得任何實證之前，不建議啟動安全性篩選或進一步開發
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「共 7 張，皆為有效的單方製劑。」→「共 7 張，皆為單方製劑，其中 6 張有效、HK-41155 已註銷。」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -51,8 +51,8 @@ TxGNN 模型預測它可能對**胃潰瘍 (Gastric Ulcer)** 有效，目前有 *
 | 預測新適應症 | Gastroduodenitis |
 | TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 19 張／共 19 張） |
-| 許可證數 | 19 張（有效 19 張） |
+| 香港上市 | 上市中（有效許可證 17 張／共 19 張） |
+| 許可證數 | 19 張（有效 17 張） |
 | 建議決策 | Hold |
 
 ---
@@ -94,7 +94,13 @@ TxGNN 模型預測它可能對**胃潰瘍 (Gastric Ulcer)** 有效，目前有 *
 
 ## 香港上市資訊
 
-香港共有 19 張有效的單方許可證，以下列出 5 張主要許可證（資料中未載明劑型與核准適應症文字）：
+香港共有 19 張單方許可證（17 張有效；HK-47468、HK-47467 已註銷），以下列出 5 張主要許可證（資料中未載明劑型與核准適應症文字）：
+
+<!-- review:begin hk-lic-20261117-metoclopramide-1 -->
+
+> **查核更正（2026-11-17）**：原文為「香港共有 19 張有效的單方許可證，」。已更正：HK-47468、HK-47467 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-metoclopramide-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -136,6 +142,19 @@ TxGNN 模型預測它可能對**胃潰瘍 (Gastric Ulcer)** 有效，目前有 *
 - 補充 DrugBank 的作用機轉資料
 - 取得 2026 年高劑量 Metoclopramide RCT（PMID 42259699）及 2024 年 RCT（PMID 38059896）的完整結果
 - 釐清擬定位為症狀治療（消化不良、胃排空延遲）或程序性輔助（內視鏡前準備），並據此設計臨床問題與終點
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「香港共有 19 張有效的單方許可證，」→「香港共有 19 張單方許可證（17 張有效；HK-47468、HK-47467 」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

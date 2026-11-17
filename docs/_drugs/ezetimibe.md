@@ -49,7 +49,7 @@ TxGNN 模型預測它可能對**膽固醇酯轉運蛋白缺乏症 (Cholesterol-e
 | 預測新適應症 | 膽固醇酯轉運蛋白缺乏症 (cholesterol-ester transfer protein deficiency) |
 | TxGNN 預測分數 | 0.9909 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 香港上市 | 上市中（有效許可證至少 19 張） |
 | 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 

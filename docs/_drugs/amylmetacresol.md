@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 | 預測新適應症 | 馬尾症候群 (Cauda Equina Syndrome) |
 | TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 香港上市 | 上市中（有效許可證至少 19 張） |
 | 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
@@ -72,7 +72,13 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 
 ## 香港上市資訊
 
-下列為 20 張有效單一成分許可證中的 5 張（資料中未載明劑型與核准適應症，品名皆為含片產品）：
+下列為本次收錄的 20 張單一成分許可證（19 張有效；HK-60367 已註銷）中的 5 張（資料中未載明劑型與核准適應症，品名皆為含片產品）：
+
+<!-- review:begin hk-lic-20261117-amylmetacresol-1 -->
+
+> **查核更正（2026-11-17）**：原文為「下列為 20 張有效單一成分許可證中的 5 張」。已更正：HK-60367 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-amylmetacresol-1 -->
 
 | 許可證號 | 品名 | 廠商 |
 |---------|------|------|
@@ -100,6 +106,19 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 - 若仍要探討，需先有前臨床或機轉研究支持
 - 預測清單中「obsolete neurogenic bladder」為已廢止的疾病術語，需先對應至現行術語再評估
 - 其他眼部預測彼此重疊，建議合併檢視後再決定是否值得追蹤
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「下列為 20 張有效單一成分許可證中的 5 張」→「下列為本次收錄的 20 張單一成分許可證（19 張有效；HK-60367 已註銷」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -52,8 +52,8 @@ TxGNN 模型預測它可能對 **Glanzmann 血小板無力症 (Glanzmann thromba
 | 預測新適應症 | Glanzmann 血小板無力症 (Glanzmann thrombasthenia) |
 | TxGNN 預測分數 | 0.9977 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
-| 許可證數 | 1 張（有效 1 張） |
+| 香港上市 | 未上市（已註銷許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 0 張） |
 | 建議決策 | Hold |
 
 ---

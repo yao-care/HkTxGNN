@@ -51,8 +51,8 @@ TxGNN 模型預測它可能對**尤文氏肉瘤 (Ewing sarcoma)** 有效，目�
 | 預測新適應症 | 尤文氏肉瘤 (Ewing sarcoma) |
 | TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L2（依資料彙整的評等；但該等級主要來自一項非尤文氏肉瘤專屬的 2 期試驗，實際證據偏弱，詳見下文） |
-| 香港上市 | 上市中（有效許可證 20 張／共 20 張） |
-| 許可證數 | 20 張（有效 20 張） |
+| 香港上市 | 上市中（有效許可證 18 張／共 20 張） |
+| 許可證數 | 20 張（有效 18 張） |
 | 建議決策 | Hold（列為研究性問題） |
 
 ---
@@ -92,7 +92,13 @@ TxGNN 模型預測它可能對**尤文氏肉瘤 (Ewing sarcoma)** 有效，目�
 
 ## 香港上市資訊
 
-香港共有 20 張有效的單一成分 dasatinib 許可證，無已註銷者。以下列出 5 張主要許可證（資料中未收錄劑型與核准適應症文字）：
+香港共有 20 張單一成分 dasatinib 許可證，其中 18 張有效，另 2 張（HK-64479、HK-64480）已註銷。以下列出 5 張主要許可證（資料中未收錄劑型與核准適應症文字）：
+
+<!-- review:begin hk-lic-20261117-dasatinib-1 -->
+
+> **查核更正（2026-11-17）**：原文為「香港共有 20 張有效的單一成分 dasatinib 許可證，無已註銷者。」。已更正：HK-64479、HK-64480 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-dasatinib-1 -->
 
 | 許可證號 | 品名 | 廠商 |
 |---------|------|------|
@@ -143,6 +149,19 @@ TxGNN 模型預測它可能對**尤文氏肉瘤 (Ewing sarcoma)** 有效，目�
 - 針對心血管（QT 延長、心衰竭、心包積液）與血液學風險擬定監測計畫，特別是兒童與青年族群
 - 評估與抑酸劑、CYP3A4 抑制劑等重大交互作用的管理方式
 - 若想尋找更有利的新適應症，可另行評估 CBF-AML（KIT 突變）方向
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「香港共有 20 張有效的單一成分 dasatinib 許可證，無已註銷者。」→「香港共有 20 張單一成分 dasatinib 許可證，其中 18 張有效，另 」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

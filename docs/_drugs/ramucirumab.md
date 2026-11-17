@@ -52,8 +52,8 @@ TxGNN 模型預測它可能對**子宮韌帶腺癌 (Uterine Ligament Adenocarcin
 | 預測新適應症 | 子宮韌帶腺癌 (uterine ligament adenocarcinoma) |
 | TxGNN 預測分數 | 0.9995 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
-| 許可證數 | 2 張（有效 2 張） |
+| 香港上市 | 上市中（有效許可證 1 張／共 2 張） |
+| 許可證數 | 2 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ---

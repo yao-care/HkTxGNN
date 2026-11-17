@@ -47,7 +47,7 @@ TxGNN 深度學習模型（分數 ≥ 0.99）為 Brompheniramine 產生的候選
 | 新預測適應症 | 無（模型候選中可追溯者皆為已知用途） |
 | 模型候選中的已知用途數 | 2 |
 | 證據等級 | 不適用 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 香港上市 | 上市中（有效許可證至少 19 張） |
 | 許可證數 | 至少 20 張 |
 
 ## 模型候選中的已知用途
@@ -89,12 +89,18 @@ TxGNN 深度學習模型（分數 ≥ 0.99）為 Brompheniramine 產生的候選
 | HK-48604 | BROM-RAMINE CO. SYRUP (NEW FORMULA) |  | 有效 |
 | HK-55639 | KID COLD SYRUP |  | 有效 |
 | HK-09369 | SINUCAP CAP |  | 有效 |
-| HK-47462 | DIMETAPP ELIXIR |  | 有效 |
+| HK-47462 | DIMETAPP ELIXIR |  | 已註銷 |
 | HK-12115 | NASACIN CAP |  | 有效 |
 | HK-14353 | NATSIN CAP |  | 有效 |
 | HK-13654 | RHINOCO ANTIHISTAMINE CAP |  | 有效 |
 | HK-51583 | UNIHIST SYRUP |  | 有效 |
 | HK-16451 | MASETON CAP |  | 有效 |
+
+<!-- review:begin hk-row-20261117-brompheniramine-1 -->
+
+> **查核更正（2026-11-17）**：原文為「HK-47462／DIMETAPP ELIXIR／／有效」。已更正：HK-47462 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-row-20261117-brompheniramine-1 -->
 
 資料只收錄部分許可證，清單可能不完整。
 
@@ -108,6 +114,18 @@ TxGNN 深度學習模型（分數 ≥ 0.99）為 Brompheniramine 產生的候選
 此外，第一代抗組織胺具有鎮靜與抗膽鹼作用，與上述抗膽鹼藥物及中樞抑制劑併用時，需特別留意作用疊加。完整警語與禁忌請參考原廠仿單。
 
 ---
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「HK-47462 &#124; DIMETAPP ELIXIR &#124;  &#124; 有效」→「HK-47462 &#124; DIMETAPP ELIXIR &#124;  &#124; 已註銷」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

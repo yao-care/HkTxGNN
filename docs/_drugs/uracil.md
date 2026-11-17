@@ -52,8 +52,8 @@ Uracil（尿嘧啶）在香港有 2 張單一成分許可證，但本報告彙�
 | 預測新適應症 | Lipoma of colon |
 | TxGNN 預測分數 | 0.9936 |
 | 證據等級 | L5（證據來自 UFT 複方，非 uracil 單方） |
-| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
-| 許可證數 | 2 張（有效 2 張） |
+| 香港上市 | 上市中（有效許可證 1 張／共 2 張） |
+| 許可證數 | 2 張（有效 1 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---
@@ -102,7 +102,13 @@ Uracil（尿嘧啶）在香港有 2 張單一成分許可證，但本報告彙�
 | HK-48265 | UNITORAL CAP | 未載明 | 未載明 |
 | HK-60904 | UFUR CAP | 未載明 | 未載明 |
 
-兩張許可證目前皆為有效狀態，均登記為單一成分產品。本次彙整的資料未包含核准適應症文字，因此無法確認原適應症。
+兩張許可證中 HK-48265（UNITORAL CAP）已註銷、另一張有效，均登記為單一成分產品。本次彙整的資料未包含核准適應症文字，因此無法確認原適應症。
+
+<!-- review:begin hk-lic-20261117-uracil-1 -->
+
+> **查核更正（2026-11-17）**：原文為「兩張許可證目前皆為有效狀態，」。已更正：HK-48265 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-uracil-1 -->
 
 ---
 
@@ -129,6 +135,19 @@ Uracil（尿嘧啶）在香港有 2 張單一成分許可證，但本報告彙�
 - 建立血液學與溶血等不良反應的監測計畫。
 
 **其他預測適應症：** 胃癌的證據也達 L2，同樣來自 UFT 複方的 Phase II 研究與一項 Phase 3 RCT（SAMIT），可作為次要方向。直腸乙狀結腸交界腫瘤、盲腸疾病等其他預測缺乏直接證據，建議 Hold。結腸脂肪瘤、淋巴管瘤、絨毛腺瘤等良性病變目前僅有模型預測，無任何研究支持。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「兩張許可證目前皆為有效狀態，」→「兩張許可證中 HK-48265（UNITORAL CAP）已註銷、另一張有效，」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

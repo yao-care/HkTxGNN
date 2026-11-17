@@ -52,8 +52,8 @@ TxGNN 模型預測它可能對**血漿鋅偏高 (Zinc, elevated plasma)** 有效
 | 預測新適應症 | 血漿鋅偏高 (Zinc, elevated plasma) |
 | TxGNN 預測分數 | 0.9951 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 16 張／共 16 張） |
-| 許可證數 | 16 張（有效 16 張） |
+| 香港上市 | 上市中（有效許可證 14 張／共 16 張） |
+| 許可證數 | 16 張（有效 14 張） |
 | 建議決策 | Hold |
 
 ---
@@ -82,7 +82,13 @@ TxGNN 模型預測它可能對**血漿鋅偏高 (Zinc, elevated plasma)** 有效
 
 ## 香港上市資訊
 
-香港共有 16 張有效的單方許可證，以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：
+香港共有 16 張單方許可證（14 張有效；HK-67131、HK-64722 已註銷），以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：
+
+<!-- review:begin hk-lic-20261117-adapalene-1 -->
+
+> **查核更正（2026-11-17）**：原文為「香港共有 16 張有效的單方許可證，以下列出 5 張主要許可證」。已更正：HK-67131、HK-64722 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-adapalene-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -116,6 +122,19 @@ TxGNN 模型預測它可能對**血漿鋅偏高 (Zinc, elevated plasma)** 有效
 - 做系統性文獻檢索，確認是否有類視黃醇與血漿鋅相關的先前研究。
 - 評估臨床上是否有真正需要治療的目標族群，以及外用劑型是否可行。
 - 取得香港衛生署仿單，補齊警語、禁忌症與核准適應症資料。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「香港共有 16 張有效的單方許可證，以下列出 5 張主要許可證」→「香港共有 16 張單方許可證（14 張有效；HK-67131、HK-64722 」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

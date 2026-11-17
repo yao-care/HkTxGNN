@@ -49,8 +49,8 @@ TxGNN 模型預測它可能對**感染後血管炎 (Postinfectious Vasculitis)**
 | 預測新適應症 | 感染後血管炎 (Postinfectious Vasculitis) |
 | TxGNN 預測分數 | 0.9991 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
-| 許可證數 | 6 張（有效 6 張） |
+| 香港上市 | 上市中（有效許可證 5 張／共 6 張） |
+| 許可證數 | 6 張（有效 5 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -77,7 +77,13 @@ TxGNN 模型預測它可能對**感染後血管炎 (Postinfectious Vasculitis)**
 | HK-64966 | FULUSON OPHTHALMIC SOLUTION 0.1% W/V | 未提供 | 未提供 |
 | HK-19538 | FML LIQUIFILM OPHTHALMIC SUSP 0.1% | 未提供 | 未提供 |
 
-另有 HK-45275（FLAREX OPHTHALMIC SUSP 0.1%）。6 張許可證皆為單一成分、有效狀態。
+另有 HK-45275（FLAREX OPHTHALMIC SUSP 0.1%）。6 張許可證皆為單一成分，其中 5 張有效、HK-45275 已註銷。
+
+<!-- review:begin hk-lic-20261117-fluorometholone-1 -->
+
+> **查核更正（2026-11-17）**：原文為「6 張許可證皆為單一成分、有效狀態。」。已更正：HK-45275 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-fluorometholone-1 -->
 
 ## 安全性考量
 
@@ -101,6 +107,19 @@ TxGNN 模型預測它可能對**感染後血管炎 (Postinfectious Vasculitis)**
 - 找到直接針對感染後血管炎的研究證據
 
 **附註：** 在同批預測中，**點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis)** 在生物學上較為合理（與本藥眼表發炎的既有用途相近）。但現有 2 篇文獻僅間接討論相關疾病，並未直接測試 fluorometholone，且感染性病因使用類固醇需謹慎。可列為後續研究問題，而非目前推進對象。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「6 張許可證皆為單一成分、有效狀態。」→「6 張許可證皆為單一成分，其中 5 張有效、HK-45275 已註銷。」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

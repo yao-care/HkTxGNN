@@ -4,6 +4,7 @@
     "db00091": {
       "page": "cyclosporine",
       "sources": [
+        "ARTxGNN",
         "AuTxGNN",
         "CHTxGNN",
         "COTxGNN",
@@ -89,6 +90,7 @@
     "db00787": {
       "page": "acyclovir",
       "sources": [
+        "ARTxGNN",
         "CHTxGNN",
         "COTxGNN",
         "CaTxGNN",
@@ -134,6 +136,7 @@
         "CaTxGNN",
         "DETxGNN",
         "FITxGNN",
+        "MyTxGNN",
         "NOTxGNN",
         "SATxGNN",
         "SgTxGNN",

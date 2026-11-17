@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 | 預測新適應症 | 點狀上皮角膜結膜炎 (punctate epithelial keratoconjunctivitis) |
 | TxGNN 預測分數 | 0.9989 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 19 張／共 19 張） |
-| 許可證數 | 19 張（有效 19 張） |
+| 香港上市 | 上市中（有效許可證 18 張／共 19 張） |
+| 許可證數 | 19 張（有效 18 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -82,7 +82,13 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 | HK-20451 | ERISMYCINE SUSP 125MG BASE/5ML | 懸液 | 許可證資料未載明 |
 | HK-30882 | ERYSOL POWDER FOR ORAL SUSP 200MG/5ML | 口服懸液用粉劑 | 許可證資料未載明 |
 
-此外還有另外 14 張有效許可證，包含外用凝膠與乳膏產品（如 ERYACNE GEL 4%、ERYMED CREAM 2%）。
+此外還有另外 14 張許可證（其中 HK-40181 已註銷，其餘有效），包含外用凝膠與乳膏產品（如 ERYACNE GEL 4%、ERYMED CREAM 2%）。
+
+<!-- review:begin hk-lic-20261117-erythromycin-1 -->
+
+> **查核更正（2026-11-17）**：原文為「此外還有另外 14 張有效許可證，」。已更正：HK-40181 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-erythromycin-1 -->
 
 ## 安全性考量
 
@@ -106,6 +112,19 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 - 補充 Erythromycin 的作用機轉資料（MOA）。
 - 搜尋並評估眼用 Erythromycin 治療瞼緣角膜結膜炎的對照研究，並與既有療法（如瞼緣清潔、四環黴素類藥物）比較。
 - 確認眼科給藥途徑（如眼藥膏）在香港的可得性。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「此外還有另外 14 張有效許可證，」→「此外還有另外 14 張許可證（其中 HK-40181 已註銷，其餘有效），」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

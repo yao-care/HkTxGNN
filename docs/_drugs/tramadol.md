@@ -52,7 +52,7 @@ TxGNN 模型預測它可能對**肢中段發育不良 Hunter-Thompson 型 (Acrom
 | 預測新適應症 | 肢中段發育不良 Hunter-Thompson 型 (Acromesomelic Dysplasia, Hunter-Thompson Type) |
 | TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 香港上市 | 上市中（有效許可證至少 19 張） |
 | 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
@@ -86,7 +86,13 @@ Hunter-Thompson 型肢中段發育不良是一種遺傳性骨骼發育疾病，�
 
 ## 香港上市資訊
 
-香港共有 20 張有效的單一成分許可證，皆為已上市狀態。以下列出 5 張代表性許可證，資料中未提供劑型與核准適應症文字。
+香港至少有 19 張有效的單一成分許可證（本次收錄 20 張，其中 HK-60872 已註銷）。以下列出 5 張代表性許可證，資料中未提供劑型與核准適應症文字。
+
+<!-- review:begin hk-lic-20261117-tramadol-1 -->
+
+> **查核更正（2026-11-17）**：原文為「香港共有 20 張有效的單一成分許可證，皆為已上市狀態。」。已更正：HK-60872 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-tramadol-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -123,6 +129,19 @@ Hunter-Thompson 型肢中段發育不良是一種遺傳性骨骼發育疾病，�
 - 補齊 Tramadol 的作用機轉資料。
 - 若考慮疼痛管理用途，應另行評估 Tramadol 對這些罕見骨骼疾病的症狀緩解證據，而不是以疾病治療為目標。
 - 在沒有新的直接證據前，不建議投入進一步開發資源。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「香港共有 20 張有效的單一成分許可證，皆為已上市狀態。」→「香港至少有 19 張有效的單一成分許可證（本次收錄 20 張，其中 HK-608」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 | 預測新適應症 | 嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy) |
 | TxGNN 預測分數 | 0.9927 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
-| 許可證數 | 2 張（有效 2 張） |
+| 香港上市 | 上市中（有效許可證 1 張／共 2 張） |
+| 許可證數 | 2 張（有效 1 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -77,7 +77,13 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 | HK-42060 | DAIGAKU EYE DROPS | 未登載 | 未登載 |
 | HK-45441 | ROHTO KODOMO SOFT EYE DROPS | 未登載 | 未登載 |
 
-兩張許可證皆為單一成分製劑且仍有效，持證商分別為參天製藥（香港）及曼秀雷敦（亞太）。
+兩張許可證皆為單一成分製劑，HK-42060（DAIGAKU EYE DROPS）已註銷、另一張仍有效，持證商分別為參天製藥（香港）及曼秀雷敦（亞太）。
+
+<!-- review:begin hk-lic-20261117-aminocaproic_acid-1 -->
+
+> **查核更正（2026-11-17）**：原文為「兩張許可證皆為單一成分製劑且仍有效，」。已更正：HK-42060 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-aminocaproic_acid-1 -->
 
 ## 安全性考量
 
@@ -101,6 +107,19 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 - 進行系統性文獻檢索與前臨床研究，評估抗纖溶作用對視網膜微血管病變的影響
 - 確認眼用劑型的給藥途徑是否適合視網膜疾病（藥物到達視網膜的可行性）
 - 對 DDI 清單中的未分級項目進行人工審查，並評估血栓風險
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「兩張許可證皆為單一成分製劑且仍有效，」→「兩張許可證皆為單一成分製劑，HK-42060（DAIGAKU EYE DROPS」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

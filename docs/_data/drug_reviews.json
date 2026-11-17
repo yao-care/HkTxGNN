@@ -21,6 +21,1833 @@
    "checked": "2026-11-06",
    "summary": "刪除「如腎細胞癌，已有 Phase 2 研究」",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：8b5fd5613（2026-11-06）"
+  },
+  {
+   "id": "hk-lic-20261117-adapalene-1",
+   "drug": "adapalene",
+   "file": "adapalene.md",
+   "action": "correct",
+   "claim": "香港共有 16 張有效的單方許可證，以下列出 5 張主要許可證",
+   "replacement": "香港共有 16 張單方許可證（14 張有效；HK-67131、HK-64722 已註銷），以下列出 5 張主要許可證",
+   "note": "已更正：HK-67131、HK-64722 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-67131（DIPALEN GEL 0.1% W/W，最後列於 2026-06-29 版）、HK-64722（KLENZIT MS GEL 0.1% W/W，最後列於 2026-09-28 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「香港共有 16 張有效的單方許可證，以下列出 5 張主要許可證」→「香港共有 16 張單方許可證（14 張有效；HK-67131、HK-64722 」"
+  },
+  {
+   "id": "hk-lic-20261117-aminocaproic_acid-1",
+   "drug": "aminocaproic_acid",
+   "file": "aminocaproic_acid.md",
+   "action": "correct",
+   "claim": "兩張許可證皆為單一成分製劑且仍有效，",
+   "replacement": "兩張許可證皆為單一成分製劑，HK-42060（DAIGAKU EYE DROPS）已註銷、另一張仍有效，",
+   "note": "已更正：HK-42060 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-42060（DAIGAKU EYE DROPS，最後列於 2026-08-03 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「兩張許可證皆為單一成分製劑且仍有效，」→「兩張許可證皆為單一成分製劑，HK-42060（DAIGAKU EYE DROPS」"
+  },
+  {
+   "id": "hk-lic-20261117-avapritinib-1",
+   "drug": "avapritinib",
+   "file": "avapritinib.md",
+   "action": "correct",
+   "claim": "三張許可證皆為單方、有效，",
+   "replacement": "三張許可證皆為單方，其中 HK-67293（AYVAKIT TABLETS 200MG）已註銷、其餘兩張有效，",
+   "note": "已更正：HK-67293 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-67293（AYVAKIT TABLETS 200MG，最後列於 2026-04-20 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「三張許可證皆為單方、有效，」→「三張許可證皆為單方，其中 HK-67293（AYVAKIT TABLETS 20」"
+  },
+  {
+   "id": "hk-row-20261117-brompheniramine-1",
+   "drug": "brompheniramine",
+   "file": "brompheniramine.md",
+   "action": "correct",
+   "claim": "| HK-47462 | DIMETAPP ELIXIR |  | 有效 |",
+   "replacement": "| HK-47462 | DIMETAPP ELIXIR |  | 已註銷 |",
+   "note": "已更正：HK-47462 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-47462（DIMETAPP ELIXIR，最後列於 2026-03-02 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「HK-47462 | DIMETAPP ELIXIR |  | 有效」→「HK-47462 | DIMETAPP ELIXIR |  | 已註銷」"
+  },
+  {
+   "id": "hk-lic-20261117-carbinoxamine-1",
+   "drug": "carbinoxamine",
+   "file": "carbinoxamine.md",
+   "action": "correct",
+   "claim": "本品共有 12 張有效的單一成分許可證，",
+   "replacement": "本品共有 12 張單一成分許可證（11 張有效；HK-54148 已註銷），",
+   "note": "已更正：HK-54148 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-54148（LONGTEC TAB，最後列於 2026-03-09 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「本品共有 12 張有效的單一成分許可證，」→「本品共有 12 張單一成分許可證（11 張有效；HK-54148 已註銷），」"
+  },
+  {
+   "id": "hk-lic-20261117-caspofungin-1",
+   "drug": "caspofungin",
+   "file": "caspofungin.md",
+   "action": "correct",
+   "claim": "兩張許可證皆為單方、有效狀態，",
+   "replacement": "兩張許可證皆為單方，均已註銷（已不在註冊名單上），",
+   "note": "已更正：HK-66617、HK-66616 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-66617（CASPOVITAE POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 70MG，最後列於 2026-08-03 版）、HK-66616（CASPOVITAE POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50MG，最後列於 2026-08-03 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「兩張許可證皆為單方、有效狀態，」→「兩張許可證皆為單方，均已註銷（已不在註冊名單上），」"
+  },
+  {
+   "id": "hk-lic-20261117-danazol-1",
+   "drug": "danazol",
+   "file": "danazol.md",
+   "action": "correct",
+   "claim": "三張許可證目前皆為有效，",
+   "replacement": "三張許可證中 2 張有效、HK-43548（DANOCRINE CAP 200MG）已註銷，",
+   "note": "已更正：HK-43548 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-43548（DANOCRINE CAP 200MG，最後列於 2026-06-01 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「三張許可證目前皆為有效，」→「三張許可證中 2 張有效、HK-43548（DANOCRINE CAP 200M」"
+  },
+  {
+   "id": "hk-lic-20261117-dasatinib-1",
+   "drug": "dasatinib",
+   "file": "dasatinib.md",
+   "action": "correct",
+   "claim": "香港共有 20 張有效的單一成分 dasatinib 許可證，無已註銷者。",
+   "replacement": "香港共有 20 張單一成分 dasatinib 許可證，其中 18 張有效，另 2 張（HK-64479、HK-64480）已註銷。",
+   "note": "已更正：HK-64479、HK-64480 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-64479（DASATINIB TABLETS 20MG，最後列於 2026-05-04 版）、HK-64480（DASATINIB TABLETS 50MG，最後列於 2026-05-04 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「香港共有 20 張有效的單一成分 dasatinib 許可證，無已註銷者。」→「香港共有 20 張單一成分 dasatinib 許可證，其中 18 張有效，另 」"
+  },
+  {
+   "id": "hk-lic-20261117-deferasirox-1",
+   "drug": "deferasirox",
+   "file": "deferasirox.md",
+   "action": "correct",
+   "claim": "（本藥共有 7 張有效許可證，",
+   "replacement": "（本藥共有 7 張許可證，其中 5 張有效、HK-64787、HK-64785 已註銷；",
+   "note": "已更正：HK-64787、HK-64785 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-64787（JADENU TABLETS 360MG，最後列於 2026-11-02 版）、HK-64785（JADENU TABLETS 90MG，最後列於 2026-11-02 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「（本藥共有 7 張有效許可證，」→「（本藥共有 7 張許可證，其中 5 張有效、HK-64787、HK-64785 」"
+  },
+  {
+   "id": "hk-lic-20261117-duloxetine-1",
+   "drug": "duloxetine",
+   "file": "duloxetine.md",
+   "action": "correct",
+   "claim": "Duloxetine 在香港共有 20 張有效許可證（皆為單方，無已註銷者）。",
+   "replacement": "Duloxetine 在香港共有 20 張許可證（皆為單方；18 張有效，HK-53843、HK-53844 已註銷）。",
+   "note": "已更正：HK-53843、HK-53844 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-53843（CYMBALTA CAP 60MG，最後列於 2026-09-28 版）、HK-53844（CYMBALTA CAP 30MG，最後列於 2026-09-28 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「Duloxetine 在香港共有 20 張有效許可證（皆為單方，無已註銷者）。」→「Duloxetine 在香港共有 20 張許可證（皆為單方；18 張有效，HK-」"
+  },
+  {
+   "id": "hk-lic-20261117-fentanyl-1",
+   "drug": "fentanyl",
+   "file": "fentanyl.md",
+   "action": "correct",
+   "claim": "香港共有 14 張有效許可證，皆為單一成分製劑，",
+   "replacement": "香港共有 14 張許可證，皆為單一成分製劑（11 張有效；HK-53755、HK-53753、HK-53883 已註銷），",
+   "note": "已更正：HK-53755、HK-53753、HK-53883 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-53755（DUROGESIC TRANSDERMAL PATCH 25MCG/H，最後列於 2026-06-01 版）、HK-53753（DUROGESIC TRANSDERMAL PATCH 50MCG/H，最後列於 2026-06-01 版）、HK-53883（DUROGESIC TRANSDERMAL PATCH 12MCG/H，最後列於 2026-06-01 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「香港共有 14 張有效許可證，皆為單一成分製劑，」→「香港共有 14 張許可證，皆為單一成分製劑（11 張有效；HK-53755、HK」"
+  },
+  {
+   "id": "hk-lic-20261117-fluorometholone-1",
+   "drug": "fluorometholone",
+   "file": "fluorometholone.md",
+   "action": "correct",
+   "claim": "6 張許可證皆為單一成分、有效狀態。",
+   "replacement": "6 張許可證皆為單一成分，其中 5 張有效、HK-45275 已註銷。",
+   "note": "已更正：HK-45275 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-45275（FLAREX OPHTHALMIC SUSP 0.1%，最後列於 2026-06-29 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「6 張許可證皆為單一成分、有效狀態。」→「6 張許可證皆為單一成分，其中 5 張有效、HK-45275 已註銷。」"
+  },
+  {
+   "id": "hk-lic-20261117-fluorouracil-1",
+   "drug": "fluorouracil",
+   "file": "fluorouracil.md",
+   "action": "correct",
+   "claim": "三張皆為單方製劑、狀態有效。",
+   "replacement": "三張皆為單方製劑，其中 2 張有效、HK-40254 已註銷。",
+   "note": "已更正：HK-40254 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-40254（FLUOROURACIL INJ 50MG/ML VIAL-PHARMACHEM，最後列於 2026-03-09 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「三張皆為單方製劑、狀態有效。」→「三張皆為單方製劑，其中 2 張有效、HK-40254 已註銷。」"
+  },
+  {
+   "id": "hk-lic-20261117-galcanezumab-1",
+   "drug": "galcanezumab",
+   "file": "galcanezumab.md",
+   "action": "correct",
+   "claim": "兩張許可證皆為單一成分、有效狀態，",
+   "replacement": "兩張許可證皆為單一成分，其中 HK-66580 已註銷、另一張有效，",
+   "note": "已更正：HK-66580 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-66580（EMGALITY SOLUTION FOR INJECTION IN PREFILLED SYRINGE 120MG/1ML，最後列於 2026-09-28 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「兩張許可證皆為單一成分、有效狀態，」→「兩張許可證皆為單一成分，其中 HK-66580 已註銷、另一張有效，」"
+  },
+  {
+   "id": "hk-lic-20261117-indacaterol-1",
+   "drug": "indacaterol",
+   "file": "indacaterol.md",
+   "action": "correct",
+   "claim": "），均為有效許可證，持有人為",
+   "replacement": "），這幾張許可證仍在註冊名單上，持有人為",
+   "note": "已更正：本頁另有含 indacaterol 的複方許可證已註銷，原句「均為有效」只指上列單方許可證，改寫以免誤解（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：上列 ONBREZ BREEZHALER 單方許可證仍在 DrugList.xml；同頁複方 ATECTURA 3 張、ENERZAIR 1 張已不列於名單。原句沒錯，但跟事實層張數放在一起易誤讀為本藥全部有效，改寫成只講上列幾張。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「），均為有效許可證，持有人為」→「），這幾張許可證仍在註冊名單上，持有人為」"
+  },
+  {
+   "id": "hk-lic-20261117-indacaterol-2",
+   "drug": "indacaterol",
+   "file": "indacaterol.md",
+   "action": "correct",
+   "claim": "（ATECTURA、ULTIBRO、ENERZAIR 系列）。",
+   "replacement": "（ATECTURA、ULTIBRO、ENERZAIR 系列；其中 ATECTURA 3 張與 ENERZAIR 1 張已註銷）。",
+   "note": "已更正：HK-67120、HK-67122、HK-67121、HK-67209 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-67120（ATECTURA BREEZHALER INHALATION POWDER HARD CAPSULES 150MCG/160MCG，最後列於 2026-06-22 版）、HK-67122（ATECTURA BREEZHALER INHALATION POWDER HARD CAPSULES 150MCG/80MCG，最後列於 2026-06-22 版）、HK-67121（ATECTURA BREEZHALER INHALATION POWDER HARD CAPSULES 150MCG/320MCG，最後列於 2026-06-22 版）、HK-67209（ENERZAIR BREEZHALER INHALATION POWDER HARD CAPSULES 150MCG/50MCG/160MCG，最後列於 2026-09-21 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「（ATECTURA、ULTIBRO、ENERZAIR 系列）。」→「（ATECTURA、ULTIBRO、ENERZAIR 系列；其中 ATECTUR」"
+  },
+  {
+   "id": "hk-lic-20261117-insulin_glargine-1",
+   "drug": "insulin_glargine",
+   "file": "insulin_glargine.md",
+   "action": "correct",
+   "claim": "共 7 張有效許可證，以上列出前 5 張。",
+   "replacement": "共 7 張許可證（5 張有效；HK-65078、HK-65079 已註銷），以上列出前 5 張。",
+   "note": "已更正：HK-65078、HK-65079 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-65078（BASAGLAR KWIKPEN SOLUTION FOR INJECTION IN A PRE-FILLED PEN 300 UNITS/3ML，最後列於 2026-09-28 版）、HK-65079（BASAGLAR SOLUTION FOR INJECTION IN A CARTRIDGE 300 UNITS/3ML，最後列於 2026-09-28 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「共 7 張有效許可證，以上列出前 5 張。」→「共 7 張許可證（5 張有效；HK-65078、HK-65079 已註銷），以上」"
+  },
+  {
+   "id": "hk-row-20261117-interferon_beta-1b-1",
+   "drug": "interferon_beta-1b",
+   "file": "interferon_beta-1b.md",
+   "action": "correct",
+   "claim": "| BAYER HEALTHCARE LIMITED | 有效（單一成分） |",
+   "replacement": "| BAYER HEALTHCARE LIMITED | 已註銷（單一成分） |",
+   "note": "已更正：HK-47987 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-47987（BETAFERON PRE-FILLED SYRINGE 8MIU，最後列於 2026-06-22 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「BAYER HEALTHCARE LIMITED | 有效（單一成分）」→「BAYER HEALTHCARE LIMITED | 已註銷（單一成分）」"
+  },
+  {
+   "id": "hk-lic-20261117-itraconazole-1",
+   "drug": "itraconazole",
+   "file": "itraconazole.md",
+   "action": "correct",
+   "claim": "香港共有 19 張有效許可證，皆為單一成分製劑，無已註銷者。",
+   "replacement": "香港共有 19 張許可證，皆為單一成分製劑，其中 18 張有效、HK-56489 已註銷。",
+   "note": "已更正：HK-56489 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-56489（SYNRANOX CAP 100MG，最後列於 2026-06-08 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「香港共有 19 張有效許可證，皆為單一成分製劑，無已註銷者。」→「香港共有 19 張許可證，皆為單一成分製劑，其中 18 張有效、HK-56489」"
+  },
+  {
+   "id": "hk-lic-20261117-leflunomide-1",
+   "drug": "leflunomide",
+   "file": "leflunomide.md",
+   "action": "correct",
+   "claim": "香港共有 15 張有效單方許可證，",
+   "replacement": "香港共有 15 張單方許可證（14 張有效；HK-46486 已註銷），",
+   "note": "已更正：HK-46486 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-46486（ARAVA TAB 100MG，最後列於 2026-11-02 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「香港共有 15 張有效單方許可證，」→「香港共有 15 張單方許可證（14 張有效；HK-46486 已註銷），」"
+  },
+  {
+   "id": "hk-lic-20261117-letrozole-1",
+   "drug": "letrozole",
+   "file": "letrozole.md",
+   "action": "correct",
+   "claim": "目前共有 12 張有效單方許可證，",
+   "replacement": "目前共有 12 張單方許可證（11 張有效；HK-61004 已註銷），",
+   "note": "已更正：HK-61004 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-61004（LETROZOLE-TEVA TAB 2.5MG，最後列於 2026-07-13 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「目前共有 12 張有效單方許可證，」→「目前共有 12 張單方許可證（11 張有效；HK-61004 已註銷），」"
+  },
+  {
+   "id": "hk-lic-20261117-lincomycin-1",
+   "drug": "lincomycin",
+   "file": "lincomycin.md",
+   "action": "correct",
+   "claim": "共 7 張，皆為有效的單方製劑。",
+   "replacement": "共 7 張，皆為單方製劑，其中 6 張有效、HK-41155 已註銷。",
+   "note": "已更正：HK-41155 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-41155（TAMCOCIN CAP 500MG，最後列於 2026-08-03 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「共 7 張，皆為有效的單方製劑。」→「共 7 張，皆為單方製劑，其中 6 張有效、HK-41155 已註銷。」"
+  },
+  {
+   "id": "hk-lic-20261117-medroxyprogesterone_acetate-1",
+   "drug": "medroxyprogesterone_acetate",
+   "file": "medroxyprogesterone_acetate.md",
+   "action": "correct",
+   "claim": "本地共有 10 張單一成分許可證，皆為有效；",
+   "replacement": "本地共有 10 張單一成分許可證，其中 9 張有效、HK-67226 已註銷；",
+   "note": "已更正：HK-67226 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-67226（MEDWIN SUSPENSION FOR INJECTION IN PRE-FILLED SYRINGE 150MG/1ML，最後列於 2026-09-28 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「本地共有 10 張單一成分許可證，皆為有效；」→「本地共有 10 張單一成分許可證，其中 9 張有效、HK-67226 已註銷；」"
+  },
+  {
+   "id": "hk-lic-20261117-metoclopramide-1",
+   "drug": "metoclopramide",
+   "file": "metoclopramide.md",
+   "action": "correct",
+   "claim": "香港共有 19 張有效的單方許可證，",
+   "replacement": "香港共有 19 張單方許可證（17 張有效；HK-47468、HK-47467 已註銷），",
+   "note": "已更正：HK-47468、HK-47467 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-47468（MARIL INJ 10MG/2ML，最後列於 2026-03-02 版）、HK-47467（MARIL TAB 10MG，最後列於 2026-03-02 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「香港共有 19 張有效的單方許可證，」→「香港共有 19 張單方許可證（17 張有效；HK-47468、HK-47467 」"
+  },
+  {
+   "id": "hk-lic-20261117-mirtazapine-1",
+   "drug": "mirtazapine",
+   "file": "mirtazapine.md",
+   "action": "correct",
+   "claim": "全部 20 張皆為有效的單方許可證，無已註銷者。",
+   "replacement": "全部 20 張皆為單方許可證，其中 18 張有效、HK-62247、HK-62248 已註銷。",
+   "note": "已更正：HK-62247、HK-62248 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-62247（REMIRTA FILM-COATED TABLETS 15MG，最後列於 2026-07-13 版）、HK-62248（REMIRTA FILM-COATED TABLETS 30MG，最後列於 2026-07-13 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「全部 20 張皆為有效的單方許可證，無已註銷者。」→「全部 20 張皆為單方許可證，其中 18 張有效、HK-62247、HK-622」"
+  },
+  {
+   "id": "hk-row-20261117-niacin-1",
+   "drug": "niacin",
+   "file": "niacin.md",
+   "action": "correct",
+   "claim": "| HK-60373 | NIASPAN EXTENDED-RELEASE TAB 1000MG |  | 有效 |",
+   "replacement": "| HK-60373 | NIASPAN EXTENDED-RELEASE TAB 1000MG |  | 已註銷 |",
+   "note": "已更正：HK-60373 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-60373（NIASPAN EXTENDED-RELEASE TAB 1000MG，最後列於 2026-03-16 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「HK-60373 | NIASPAN EXTENDED-RELEASE TAB 」→「HK-60373 | NIASPAN EXTENDED-RELEASE TAB 」"
+  },
+  {
+   "id": "hk-row-20261117-niacin-2",
+   "drug": "niacin",
+   "file": "niacin.md",
+   "action": "correct",
+   "claim": "| HK-60374 | NIASPAN EXTENDED-RELEASE TAB 500MG |  | 有效 |",
+   "replacement": "| HK-60374 | NIASPAN EXTENDED-RELEASE TAB 500MG |  | 已註銷 |",
+   "note": "已更正：HK-60374 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-60374（NIASPAN EXTENDED-RELEASE TAB 500MG，最後列於 2026-03-16 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「HK-60374 | NIASPAN EXTENDED-RELEASE TAB 」→「HK-60374 | NIASPAN EXTENDED-RELEASE TAB 」"
+  },
+  {
+   "id": "hk-lic-20261117-polyvinyl_alcohol-1",
+   "drug": "polyvinyl_alcohol",
+   "file": "polyvinyl_alcohol.md",
+   "action": "correct",
+   "claim": "共 12 張有效單方許可證，以上列出 5 張。",
+   "replacement": "共 12 張單方許可證（9 張有效；HK-54985、HK-54986、HK-54987 已註銷），以上列出 5 張。",
+   "note": "已更正：HK-54985、HK-54986、HK-54987 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-54985（HUDSON LUVERICAN OPHTHALMIC SOLUTION 1.4%，最後列於 2026-11-02 版）、HK-54986（FIP LUVERICAN OPHTHALMIC SOLUTION 1.4%，最後列於 2026-11-02 版）、HK-54987（ECKERD LUVERICAN OPHTHALMIC SOLUTION 1.4%，最後列於 2026-11-02 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「共 12 張有效單方許可證，以上列出 5 張。」→「共 12 張單方許可證（9 張有效；HK-54985、HK-54986、HK-5」"
+  },
+  {
+   "id": "hk-row-20261117-reserpine-1",
+   "drug": "reserpine",
+   "file": "reserpine.md",
+   "action": "correct",
+   "claim": "| HK-15916 | RELAZIDE TAB |  | 有效 |",
+   "replacement": "| HK-15916 | RELAZIDE TAB |  | 已註銷 |",
+   "note": "已更正：HK-15916 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-15916（RELAZIDE TAB，最後列於 2026-09-07 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「HK-15916 | RELAZIDE TAB |  | 有效」→「HK-15916 | RELAZIDE TAB |  | 已註銷」"
+  },
+  {
+   "id": "hk-lic-20261117-ritonavir-1",
+   "drug": "ritonavir",
+   "file": "ritonavir.md",
+   "action": "correct",
+   "claim": "本次資料共列出 10 張許可證，皆為有效狀態，",
+   "replacement": "本次資料共列出 10 張許可證，其中 9 張有效、HK-48165（KALETRA ORAL SOL）已註銷，",
+   "note": "已更正：HK-48165 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-48165（KALETRA ORAL SOL，最後列於 2026-07-13 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「本次資料共列出 10 張許可證，皆為有效狀態，」→「本次資料共列出 10 張許可證，其中 9 張有效、HK-48165（KALETR」"
+  },
+  {
+   "id": "hk-row-20261117-tazemetostat-1",
+   "drug": "tazemetostat",
+   "file": "tazemetostat.md",
+   "action": "correct",
+   "claim": "| HK-68216 | TAZVERIK TABLETS 200MG |  | 有效 |",
+   "replacement": "| HK-68216 | TAZVERIK TABLETS 200MG |  | 已註銷 |",
+   "note": "已更正：HK-68216 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-68216（TAZVERIK TABLETS 200MG，最後列於 2026-04-13 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「HK-68216 | TAZVERIK TABLETS 200MG |  | 有」→「HK-68216 | TAZVERIK TABLETS 200MG |  | 已」"
+  },
+  {
+   "id": "hk-lic-20261117-tegafur-1",
+   "drug": "tegafur",
+   "file": "tegafur.md",
+   "action": "correct",
+   "claim": "共 6 張有效許可證。",
+   "replacement": "共 6 張許可證，其中 5 張有效、HK-48265（UNITORAL CAP）已註銷。",
+   "note": "已更正：HK-48265 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-48265（UNITORAL CAP，最後列於 2026-07-27 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「共 6 張有效許可證。」→「共 6 張許可證，其中 5 張有效、HK-48265（UNITORAL CAP）」"
+  },
+  {
+   "id": "hk-lic-20261117-tetracycline-1",
+   "drug": "tetracycline",
+   "file": "tetracycline.md",
+   "action": "correct",
+   "claim": "（共 9 張有效單方許可證，",
+   "replacement": "（共 9 張單方許可證，8 張有效、HK-34922 已註銷；",
+   "note": "已更正：HK-34922 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-34922（APO-TETRA CAP 250MG，最後列於 2026-06-29 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「（共 9 張有效單方許可證，」→「（共 9 張單方許可證，8 張有效、HK-34922 已註銷；」"
+  },
+  {
+   "id": "hk-lic-20261117-uracil-1",
+   "drug": "uracil",
+   "file": "uracil.md",
+   "action": "correct",
+   "claim": "兩張許可證目前皆為有效狀態，",
+   "replacement": "兩張許可證中 HK-48265（UNITORAL CAP）已註銷、另一張有效，",
+   "note": "已更正：HK-48265 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-48265（UNITORAL CAP，最後列於 2026-07-27 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「兩張許可證目前皆為有效狀態，」→「兩張許可證中 HK-48265（UNITORAL CAP）已註銷、另一張有效，」"
+  },
+  {
+   "id": "hk-lic-20261117-verapamil-1",
+   "drug": "verapamil",
+   "file": "verapamil.md",
+   "action": "correct",
+   "claim": "（共 8 張有效單方許可證，",
+   "replacement": "（共 8 張單方許可證，7 張有效、HK-40708 已註銷；",
+   "note": "已更正：HK-40708 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-40708（AKILEN TAB 80MG，最後列於 2026-06-08 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「（共 8 張有效單方許可證，」→「（共 8 張單方許可證，7 張有效、HK-40708 已註銷；」"
+  },
+  {
+   "id": "hk-lic-20261117-naftidrofuryl-1",
+   "drug": "naftidrofuryl",
+   "file": "naftidrofuryl.md",
+   "action": "correct",
+   "claim": "狀態為有效的單方製劑。",
+   "replacement": "為單方製劑；此許可證（HK-27160）已註銷。",
+   "note": "已更正：HK-27160 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-27160（PRAXILENE CAP 100MG，最後列於 2026-05-04 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「狀態為有效的單方製劑。」→「為單方製劑；此許可證（HK-27160）已註銷。」"
+  },
+  {
+   "id": "hk-lic-20261117-palbociclib-1",
+   "drug": "palbociclib",
+   "file": "palbociclib.md",
+   "action": "correct",
+   "claim": "共 6 張，均為 PFIZER CORPORATION HONG KONG LIMITED 持有的有效單方許可證。",
+   "replacement": "共 6 張，均為 PFIZER CORPORATION HONG KONG LIMITED 持有的單方許可證，其中 3 張有效，膠囊劑 HK-64836、HK-64837、HK-64838 已註銷。",
+   "note": "已更正：HK-64836、HK-64837、HK-64838 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-64836（IBRANCE CAPSULES 125MG，最後列於 2026-05-11 版）、HK-64837（IBRANCE CAPSULES 100MG，最後列於 2026-05-11 版）、HK-64838（IBRANCE CAPSULES 75MG，最後列於 2026-05-11 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「共 6 張，均為 PFIZER CORPORATION HONG KONG LI」→「共 6 張，均為 PFIZER CORPORATION HONG KONG LI」"
+  },
+  {
+   "id": "hk-lic-20261117-erythromycin-1",
+   "drug": "erythromycin",
+   "file": "erythromycin.md",
+   "action": "correct",
+   "claim": "此外還有另外 14 張有效許可證，",
+   "replacement": "此外還有另外 14 張許可證（其中 HK-40181 已註銷，其餘有效），",
+   "note": "已更正：HK-40181 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-40181（PORPHYROCIN TAB 250MG，最後列於 2026-03-02 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「此外還有另外 14 張有效許可證，」→「此外還有另外 14 張許可證（其中 HK-40181 已註銷，其餘有效），」"
+  },
+  {
+   "id": "hk-lic-20261117-ampicillin-1",
+   "drug": "ampicillin",
+   "file": "ampicillin.md",
+   "action": "correct",
+   "claim": "香港共有多張含 ampicillin 單方成分的有效許可證（資料可能不完整），",
+   "replacement": "香港共有多張含 ampicillin 單方成分的有效許可證（資料可能不完整；本次收錄的 HK-40801 已註銷），",
+   "note": "已更正：HK-40801 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-40801（PAMECIL FORTE FOR SYRUP 250MG/5ML，最後列於 2026-06-22 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「香港共有多張含 ampicillin 單方成分的有效許可證（資料可能不完整），」→「香港共有多張含 ampicillin 單方成分的有效許可證（資料可能不完整；本次」"
+  },
+  {
+   "id": "hk-lic-20261117-amylmetacresol-1",
+   "drug": "amylmetacresol",
+   "file": "amylmetacresol.md",
+   "action": "correct",
+   "claim": "下列為 20 張有效單一成分許可證中的 5 張",
+   "replacement": "下列為本次收錄的 20 張單一成分許可證（19 張有效；HK-60367 已註銷）中的 5 張",
+   "note": "已更正：HK-60367 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-60367（STREPSILS STRAWBERRY SUGAR FREE LOZENGES，最後列於 2026-03-16 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「下列為 20 張有效單一成分許可證中的 5 張」→「下列為本次收錄的 20 張單一成分許可證（19 張有效；HK-60367 已註銷」"
+  },
+  {
+   "id": "hk-lic-20261117-cimetidine-1",
+   "drug": "cimetidine",
+   "file": "cimetidine.md",
+   "action": "correct",
+   "claim": "香港共有至少 20 張有效許可證，",
+   "replacement": "香港至少有 17 張有效許可證（本次收錄 20 張，其中 HK-47776、HK-34905、HK-64671 已註銷），",
+   "note": "已更正：HK-47776、HK-34905、HK-64671 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-47776（ULCIMET 400 TAB 400MG，最後列於 2026-05-11 版）、HK-34905（CITIDINE TAB 200MG，最後列於 2026-06-29 版）、HK-64671（ONLOK TABLETS 400MG，最後列於 2026-08-31 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「香港共有至少 20 張有效許可證，」→「香港至少有 17 張有效許可證（本次收錄 20 張，其中 HK-47776、HK」"
+  },
+  {
+   "id": "hk-lic-20261117-clopidogrel-1",
+   "drug": "clopidogrel",
+   "file": "clopidogrel.md",
+   "action": "correct",
+   "claim": "香港共有 20 張有效許可證，以下列出 5 張主要許可證",
+   "replacement": "香港至少有 19 張有效許可證（本次收錄 20 張，其中 HK-60493 已註銷），以下列出 5 張主要許可證",
+   "note": "已更正：HK-60493 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-60493（CLOPRA TAB 75MG，最後列於 2026-05-25 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「香港共有 20 張有效許可證，以下列出 5 張主要許可證」→「香港至少有 19 張有效許可證（本次收錄 20 張，其中 HK-60493 已註」"
+  },
+  {
+   "id": "hk-lic-20261117-cyanocobalamin-1",
+   "drug": "cyanocobalamin",
+   "file": "cyanocobalamin.md",
+   "action": "correct",
+   "claim": "本藥在香港有 20 張有效單一成分許可證，",
+   "replacement": "本藥在香港至少有 19 張有效單一成分許可證（本次收錄 20 張，其中 HK-48375 已註銷），",
+   "note": "已更正：HK-48375 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-48375（NEURORUBINE INJ，最後列於 2026-08-24 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「本藥在香港有 20 張有效單一成分許可證，」→「本藥在香港至少有 19 張有效單一成分許可證（本次收錄 20 張，其中 HK-4」"
+  },
+  {
+   "id": "hk-lic-20261117-dichlorobenzyl_alcohol-1",
+   "drug": "dichlorobenzyl_alcohol",
+   "file": "dichlorobenzyl_alcohol.md",
+   "action": "correct",
+   "claim": "目前共有 20 張有效的單一成分許可證，",
+   "replacement": "本次收錄 20 張單一成分許可證，其中 19 張有效、HK-60367 已註銷，",
+   "note": "已更正：HK-60367 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-60367（STREPSILS STRAWBERRY SUGAR FREE LOZENGES，最後列於 2026-03-16 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「目前共有 20 張有效的單一成分許可證，」→「本次收錄 20 張單一成分許可證，其中 19 張有效、HK-60367 已註銷，」"
+  },
+  {
+   "id": "hk-lic-20261117-doxycycline-1",
+   "drug": "doxycycline",
+   "file": "doxycycline.md",
+   "action": "correct",
+   "claim": "香港共有 20 張有效的單方許可證，",
+   "replacement": "香港至少有 19 張有效的單方許可證（本次收錄 20 張，其中 HK-54833 已註銷），",
+   "note": "已更正：HK-54833 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-54833（DOXYCILLIN CAP 100MG，最後列於 2026-09-28 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「香港共有 20 張有效的單方許可證，」→「香港至少有 19 張有效的單方許可證（本次收錄 20 張，其中 HK-54833」"
+  },
+  {
+   "id": "hk-lic-20261117-entecavir-1",
+   "drug": "entecavir",
+   "file": "entecavir.md",
+   "action": "correct",
+   "claim": "Entecavir 在香港共有 20 張有效單一成分許可證，",
+   "replacement": "Entecavir 在香港至少有 17 張有效單一成分許可證（本次收錄 20 張，其中 HK-64799、HK-64483、HK-64482 已註銷），",
+   "note": "已更正：HK-64799、HK-64483、HK-64482 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-64799（HEPBIREX TABLETS 0.5MG，最後列於 2026-11-02 版）、HK-64483（ENTECAVIR DISPERSIBLE TABLETS 0.5MG，最後列於 2026-05-04 版）、HK-64482（ENTECAVIR DISPERSIBLE TABLETS 1MG，最後列於 2026-05-04 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「Entecavir 在香港共有 20 張有效單一成分許可證，」→「Entecavir 在香港至少有 17 張有效單一成分許可證（本次收錄 20 張」"
+  },
+  {
+   "id": "hk-lic-20261117-ephedrine-1",
+   "drug": "ephedrine",
+   "file": "ephedrine.md",
+   "action": "correct",
+   "claim": "香港共有 20 張有效的單方許可證，包含注射劑、滴鼻劑、錠劑及咳嗽糖漿等多種產品，無已註銷者。",
+   "replacement": "香港至少有 19 張有效的單方許可證，包含注射劑、滴鼻劑、錠劑及咳嗽糖漿等多種產品（本次收錄 20 張，其中 HK-47938 已註銷）。",
+   "note": "已更正：HK-47938 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-47938（POCODYL SYRUP，最後列於 2026-06-01 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「香港共有 20 張有效的單方許可證，包含注射劑、滴鼻劑、錠劑及咳嗽糖漿等多種產品」→「香港至少有 19 張有效的單方許可證，包含注射劑、滴鼻劑、錠劑及咳嗽糖漿等多種產」"
+  },
+  {
+   "id": "hk-lic-20261117-fluconazole-1",
+   "drug": "fluconazole",
+   "file": "fluconazole.md",
+   "action": "correct",
+   "claim": "香港共有 20 張有效的單一成分許可證，無已註銷者。",
+   "replacement": "香港至少有 19 張有效的單一成分許可證（本次收錄 20 張，其中 HK-54401 已註銷）。",
+   "note": "已更正：HK-54401 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-54401（VICK-FLUCAN CAP 150MG，最後列於 2026-06-08 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「香港共有 20 張有效的單一成分許可證，無已註銷者。」→「香港至少有 19 張有效的單一成分許可證（本次收錄 20 張，其中 HK-544」"
+  },
+  {
+   "id": "hk-lic-20261117-heparin-1",
+   "drug": "heparin",
+   "file": "heparin.md",
+   "action": "correct",
+   "claim": "香港共有 20 張有效的單一成分許可證，",
+   "replacement": "香港至少有 19 張有效的單一成分許可證（本次收錄 20 張，其中 HK-55431 已註銷），",
+   "note": "已更正：HK-55431 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-55431（HEPARIN INJ 5,000IU/ML，最後列於 2026-07-13 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「香港共有 20 張有效的單一成分許可證，」→「香港至少有 19 張有效的單一成分許可證（本次收錄 20 張，其中 HK-554」"
+  },
+  {
+   "id": "hk-lic-20261117-meloxicam-1",
+   "drug": "meloxicam",
+   "file": "meloxicam.md",
+   "action": "correct",
+   "claim": "本次彙整的清單列出 20 張有效的單一成分許可證，",
+   "replacement": "本次彙整的清單列出 20 張單一成分許可證（18 張有效；HK-64633、HK-64473 已註銷），",
+   "note": "已更正：HK-64633、HK-64473 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-64633（PHARMANIAGA MELOXICAM TABLETS 7.5MG，最後列於 2026-08-10 版）、HK-64473（PROMOLYN TABLETS 7.5MG，最後列於 2026-05-04 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「本次彙整的清單列出 20 張有效的單一成分許可證，」→「本次彙整的清單列出 20 張單一成分許可證（18 張有效；HK-64633、HK」"
+  },
+  {
+   "id": "hk-lic-20261117-metformin-1",
+   "drug": "metformin",
+   "file": "metformin.md",
+   "action": "correct",
+   "claim": "香港共有 20 張有效單方許可證（無已註銷）。",
+   "replacement": "香港至少有 19 張有效單方許可證（本次收錄 20 張，其中 HK-54377 已註銷）。",
+   "note": "已更正：HK-54377 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-54377（METFORMIN TAB 500MG，最後列於 2026-06-08 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「香港共有 20 張有效單方許可證（無已註銷）。」→「香港至少有 19 張有效單方許可證（本次收錄 20 張，其中 HK-54377 」"
+  },
+  {
+   "id": "hk-lic-20261117-miconazole-1",
+   "drug": "miconazole",
+   "file": "miconazole.md",
+   "action": "correct",
+   "claim": "目前資料顯示香港共有 20 張有效的單一成分許可證，",
+   "replacement": "目前資料顯示香港至少有 19 張有效的單一成分許可證（本次收錄 20 張，其中 HK-48144 已註銷），",
+   "note": "已更正：HK-48144 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-48144（TARA CREAM 2%，最後列於 2026-06-29 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「目前資料顯示香港共有 20 張有效的單一成分許可證，」→「目前資料顯示香港至少有 19 張有效的單一成分許可證（本次收錄 20 張，其中 」"
+  },
+  {
+   "id": "hk-lic-20261117-montelukast-1",
+   "drug": "montelukast",
+   "file": "montelukast.md",
+   "action": "correct",
+   "claim": "目前香港有至少 20 張有效的單方製劑許可證（資料可能不完整），",
+   "replacement": "目前香港有至少 19 張有效的單方製劑許可證（資料可能不完整；本次收錄的 HK-67077 已註銷），",
+   "note": "已更正：HK-67077 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-67077（AKMONT 5 CHEWABLE TABLETS 5MG，最後列於 2026-05-18 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「目前香港有至少 20 張有效的單方製劑許可證（資料可能不完整），」→「目前香港有至少 19 張有效的單方製劑許可證（資料可能不完整；本次收錄的 HK-」"
+  },
+  {
+   "id": "hk-lic-20261117-naproxen-1",
+   "drug": "naproxen",
+   "file": "naproxen.md",
+   "action": "correct",
+   "claim": "Naproxen 在香港有 20 張有效的單方許可證，",
+   "replacement": "Naproxen 在香港至少有 19 張有效的單方許可證（本次收錄 20 張，其中 HK-48288 已註銷），",
+   "note": "已更正：HK-48288 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-48288（NAPROXEN TAB 250MG (SINPHAR)，最後列於 2026-08-10 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「Naproxen 在香港有 20 張有效的單方許可證，」→「Naproxen 在香港至少有 19 張有效的單方許可證（本次收錄 20 張，其」"
+  },
+  {
+   "id": "hk-lic-20261117-olmesartan-1",
+   "drug": "olmesartan",
+   "file": "olmesartan.md",
+   "action": "correct",
+   "claim": "香港共有 20 張有效單一成分許可證（本次資料未載明劑型與核准適應症），",
+   "replacement": "香港至少有 18 張有效許可證（本次收錄 20 張，其中複方 OLMETEC PLUS HK-55168、HK-55166 已註銷；本次資料未載明劑型與核准適應症），",
+   "note": "已更正：HK-55168、HK-55166 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-55168（OLMETEC PLUS TAB 40MG/25MG，最後列於 2026-03-16 版）、HK-55166（OLMETEC PLUS TAB 20MG/12.5MG，最後列於 2026-03-16 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「香港共有 20 張有效單一成分許可證（本次資料未載明劑型與核准適應症），」→「香港至少有 18 張有效許可證（本次收錄 20 張，其中複方 OLMETEC P」"
+  },
+  {
+   "id": "hk-lic-20261117-papaverine-1",
+   "drug": "papaverine",
+   "file": "papaverine.md",
+   "action": "correct",
+   "claim": "（共 20 張，均為有效的單一成分許可證；僅列 5 張）",
+   "replacement": "（本次收錄 20 張，19 張有效、HK-27377 已註銷；僅列 5 張）",
+   "note": "已更正：HK-27377 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-27377（CODIXINE COUGH SYRUP，最後列於 2026-08-17 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「（共 20 張，均為有效的單一成分許可證；僅列 5 張）」→「（本次收錄 20 張，19 張有效、HK-27377 已註銷；僅列 5 張）」"
+  },
+  {
+   "id": "hk-lic-20261117-potassium_chloride-1",
+   "drug": "potassium_chloride",
+   "file": "potassium_chloride.md",
+   "action": "correct",
+   "claim": "香港共有 20 張有效許可證，皆為單一成分，",
+   "replacement": "香港至少有 19 張有效許可證（本次收錄 20 張，其中 HK-64801 已註銷），皆為單一成分，",
+   "note": "已更正：HK-64801 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-64801（POTASSIUM CHLORIDE CONCENTRATE FOR SOLUTION FOR INFUSION 10.0% W/V，最後列於 2026-11-02 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「香港共有 20 張有效許可證，皆為單一成分，」→「香港至少有 19 張有效許可證（本次收錄 20 張，其中 HK-64801 已註」"
+  },
+  {
+   "id": "hk-lic-20261117-pseudoephedrine-1",
+   "drug": "pseudoephedrine",
+   "file": "pseudoephedrine.md",
+   "action": "correct",
+   "claim": "香港共有 20 張有效單一成分許可證，",
+   "replacement": "香港至少有 18 張有效許可證（本次收錄 20 張，其中 HK-54429、HK-54211 已註銷），",
+   "note": "已更正：HK-54429、HK-54211 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-54429（UNI-SUFED TAB 60MG，最後列於 2026-06-08 版）、HK-54211（PHARMANIAGA PSEUDOEPHEDRINE T TAB，最後列於 2026-04-13 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「香港共有 20 張有效單一成分許可證，」→「香港至少有 18 張有效許可證（本次收錄 20 張，其中 HK-54429、HK」"
+  },
+  {
+   "id": "hk-lic-20261117-simvastatin-1",
+   "drug": "simvastatin",
+   "file": "simvastatin.md",
+   "action": "correct",
+   "claim": "資料顯示共有至少 20 張單一成分許可證，狀態皆為有效，",
+   "replacement": "資料顯示共有至少 20 張單一成分許可證，本次收錄的 20 張中 19 張有效、HK-60396 已註銷，",
+   "note": "已更正：HK-60396 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-60396（SINVASTATINA FARMOZ TAB 10MG，最後列於 2026-03-16 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「資料顯示共有至少 20 張單一成分許可證，狀態皆為有效，」→「資料顯示共有至少 20 張單一成分許可證，本次收錄的 20 張中 19 張有效、」"
+  },
+  {
+   "id": "hk-lic-20261117-thiamine-1",
+   "drug": "thiamine",
+   "file": "thiamine.md",
+   "action": "correct",
+   "claim": "（至少 20 張，清單可能不完整），皆為有效狀態。",
+   "replacement": "（至少 20 張，清單可能不完整），其中 16 張有效、HK-48375、HK-48431、HK-48433、HK-48432 已註銷。",
+   "note": "已更正：HK-48375、HK-48431、HK-48433、HK-48432 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-48375（NEURORUBINE INJ，最後列於 2026-08-24 版）、HK-48431（NEUTALIN CAP，最後列於 2026-08-24 版）、HK-48433（TENDUM CAP，最後列於 2026-08-24 版）、HK-48432（LOPPER CAP，最後列於 2026-08-24 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「（至少 20 張，清單可能不完整），皆為有效狀態。」→「（至少 20 張，清單可能不完整），其中 16 張有效、HK-48375、HK-」"
+  },
+  {
+   "id": "hk-lic-20261117-tramadol-1",
+   "drug": "tramadol",
+   "file": "tramadol.md",
+   "action": "correct",
+   "claim": "香港共有 20 張有效的單一成分許可證，皆為已上市狀態。",
+   "replacement": "香港至少有 19 張有效的單一成分許可證（本次收錄 20 張，其中 HK-60872 已註銷）。",
+   "note": "已更正：HK-60872 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-60872（PINOREC CAPSULES 50MG，最後列於 2026-11-02 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「香港共有 20 張有效的單一成分許可證，皆為已上市狀態。」→「香港至少有 19 張有效的單一成分許可證（本次收錄 20 張，其中 HK-608」"
+  },
+  {
+   "id": "hk-lic-20261117-triprolidine-1",
+   "drug": "triprolidine",
+   "file": "triprolidine.md",
+   "action": "correct",
+   "claim": "共 20 張有效許可證，以上僅列出前 5 張。",
+   "replacement": "本次收錄 20 張許可證（19 張有效；HK-54211 已註銷），以上僅列出前 5 張。",
+   "note": "已更正：HK-54211 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-54211（PHARMANIAGA PSEUDOEPHEDRINE T TAB，最後列於 2026-04-13 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「共 20 張有效許可證，以上僅列出前 5 張。」→「本次收錄 20 張許可證（19 張有效；HK-54211 已註銷），以上僅列出前」"
+  },
+  {
+   "id": "hk-lic-20261117-zinc_oxide-1",
+   "drug": "zinc_oxide",
+   "file": "zinc_oxide.md",
+   "action": "correct",
+   "claim": "共 20 張，皆為有效的單一成分製劑。",
+   "replacement": "本次收錄 20 張單一成分製劑，其中 19 張有效、HK-47833 已註銷。",
+   "note": "已更正：HK-47833 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。",
+   "finding": "2026-11-17 核對：HK-47833（DR. SHEFFIELD'S ZINC OXIDE OINT 20%，最後列於 2026-05-18 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "「共 20 張，皆為有效的單一成分製劑。」→「本次收錄 20 張單一成分製劑，其中 19 張有效、HK-47833 已註銷。」"
   }
  ]
 }

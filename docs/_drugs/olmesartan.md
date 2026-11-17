@@ -52,7 +52,7 @@ TxGNN 模型的預測中，證據最完整的方向是**偏頭痛 (Migraine Diso
 | 預測新適應症 | Prinzmetal angina |
 | TxGNN 預測分數 | 0.9984 |
 | 證據等級 | L5（偏頭痛）；變異型心絞痛僅 L5 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 香港上市 | 上市中（有效許可證至少 18 張） |
 | 許可證數 | 至少 20 張 |
 | 建議決策 | Hold（偏頭痛方向可列為研究問題，需進一步驗證） |
 
@@ -106,7 +106,13 @@ TxGNN 模型的預測中，證據最完整的方向是**偏頭痛 (Migraine Diso
 
 ## 香港上市資訊
 
-香港共有 20 張有效單一成分許可證（本次資料未載明劑型與核准適應症），以下列出 5 張主要許可證：
+香港至少有 18 張有效許可證（本次收錄 20 張，其中複方 OLMETEC PLUS HK-55168、HK-55166 已註銷；本次資料未載明劑型與核准適應症），以下列出 5 張主要許可證：
+
+<!-- review:begin hk-lic-20261117-olmesartan-1 -->
+
+> **查核更正（2026-11-17）**：原文為「香港共有 20 張有效單一成分許可證（本次資料未載明劑型與核准適應症），」。已更正：HK-55168、HK-55166 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-olmesartan-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -143,6 +149,19 @@ TxGNN 模型的預測中，證據最完整的方向是**偏頭痛 (Migraine Diso
 - 針對偏頭痛，全文審閱上述 2006 年研究與 2019 年系統性回顧，確認實際設計、樣本數與效果量。
 - 設計非高血壓族群的偏頭痛預防性隨機對照試驗，或先做前導研究。
 - 對肺高壓，需先有人體早期研究，並評估低血壓與腎功能風險。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「香港共有 20 張有效單一成分許可證（本次資料未載明劑型與核准適應症），」→「香港至少有 18 張有效許可證（本次收錄 20 張，其中複方 OLMETEC P」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

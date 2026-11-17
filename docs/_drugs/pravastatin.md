@@ -54,8 +54,8 @@ TxGNN 模型預測它可能對**HIV 感染 (HIV infectious disease)** 有效，�
 | 預測新適應症 | HIV 感染 (HIV infectious disease)，實質為 HIV 相關血脂異常與心血管風險 (HIV infectious disease) |
 | TxGNN 預測分數 | 0.9974 |
 | 證據等級 | L2 |
-| 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
-| 許可證數 | 8 張（有效 8 張） |
+| 香港上市 | 上市中（有效許可證 6 張／共 8 張） |
+| 許可證數 | 8 張（有效 6 張） |
 | 建議決策 | Proceed with Guardrails（限定為 HIV 血脂異常管理的研究方向） |
 
 ---

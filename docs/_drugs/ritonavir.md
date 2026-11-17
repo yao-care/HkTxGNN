@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**猿猴免疫缺陷病毒感染 (Simian Immunodef
 | 預測新適應症 | 猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection) |
 | TxGNN 預測分數 | 0.9992 |
 | 證據等級 | L4 |
-| 香港上市 | 上市中（有效許可證 10 張／共 10 張） |
-| 許可證數 | 10 張（有效 10 張） |
+| 香港上市 | 上市中（有效許可證 9 張／共 10 張） |
+| 許可證數 | 10 張（有效 9 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -89,7 +89,13 @@ SIV 與 HIV 同屬慢病毒（lentivirus），其蛋白酶高度相似，因此�
 | HK-65831 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG | 未載明 | 未載明 |
 | HK-67683 | PAXLOVID TABLETS | 未載明 | 未載明 |
 
-本次資料共列出 10 張許可證，皆為有效狀態，此處僅列出前 5 張。
+本次資料共列出 10 張許可證，其中 9 張有效、HK-48165（KALETRA ORAL SOL）已註銷，此處僅列出前 5 張。
+
+<!-- review:begin hk-lic-20261117-ritonavir-1 -->
+
+> **查核更正（2026-11-17）**：原文為「本次資料共列出 10 張許可證，皆為有效狀態，」。已更正：HK-48165 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-ritonavir-1 -->
 
 ## 安全性考量
 
@@ -113,6 +119,19 @@ SIV 與 HIV 同屬慢病毒（lentivirus），其蛋白酶高度相似，因此�
 - 確認此預測是否有任何人類臨床意義；若無，建議將資源轉向其他候選適應症
 
 **附註：** 排名第 2 的「貓愛滋病」為獸醫適應症，無試驗與文獻；排名第 3 的罕見神經發育疾病缺乏合理的機轉連結，其高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據，兩者皆不建議推進。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「本次資料共列出 10 張許可證，皆為有效狀態，」→「本次資料共列出 10 張許可證，其中 9 張有效、HK-48165（KALETR」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

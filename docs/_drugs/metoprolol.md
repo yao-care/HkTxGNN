@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對**慢性肺心症 (chronic pulmonary heart disease
 | 預測新適應症 | Malignant hypertensive renal disease |
 | TxGNN 預測分數 | 0.9991 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 香港上市 | 上市中（有效許可證至少 19 張） |
 | 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 

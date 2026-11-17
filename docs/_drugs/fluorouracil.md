@@ -49,8 +49,8 @@ TxGNN 模型預測它可能對**橫紋肌肉瘤 (Rhabdomyosarcoma)** 有效，�
 | 預測新適應症 | Botryoid-type embryonal rhabdomyosarcoma of the vagina |
 | TxGNN 預測分數 | 0.9975 |
 | 證據等級 | L5（橫紋肌肉瘤有間接文獻，但無直接研究 fluorouracil 的對照資料，見下方說明） |
-| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
-| 許可證數 | 3 張（有效 3 張） |
+| 香港上市 | 上市中（有效許可證 2 張／共 3 張） |
+| 許可證數 | 3 張（有效 2 張） |
 | 建議決策 | Hold |
 
 **關於證據等級的說明：** 橫紋肌肉瘤的 4 篇文獻中，有 1 篇 2026 年病例報告（PMID 42483493）提到患者曾接受含 5-FU 的方案（cisplatin 合併 5-FU），結果疾病惡化。這屬於直接涉及該疾病的個案層級資料，但並未顯示療效，故僅列為 L4 上限，實質支持度很低。排名第 1 的亞型則為 L5。
@@ -88,7 +88,13 @@ TxGNN 模型預測它可能對**橫紋肌肉瘤 (Rhabdomyosarcoma)** 有效，�
 | HK-45512 | 5-FLUOROURACIL INJ 50MG/ML (EBEWE) | 未載明 | 未載明 |
 | HK-15219 | VERRUMAL SOLUTION EXTERNAL | 未載明 | 未載明 |
 
-三張皆為單方製劑、狀態有效。其中 VERRUMAL 為外用溶液，其餘為注射劑。
+三張皆為單方製劑，其中 2 張有效、HK-40254 已註銷。其中 VERRUMAL 為外用溶液，其餘為注射劑。
+
+<!-- review:begin hk-lic-20261117-fluorouracil-1 -->
+
+> **查核更正（2026-11-17）**：原文為「三張皆為單方製劑、狀態有效。」。已更正：HK-40254 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-fluorouracil-1 -->
 
 ## 細胞毒性
 
@@ -125,6 +131,19 @@ TxGNN 模型預測它可能對**橫紋肌肉瘤 (Rhabdomyosarcoma)** 有效，�
 - 系統性檢索 fluorouracil 用於橫紋肌肉瘤的前臨床與臨床資料
 - 取得香港仿單的警語、禁忌與核准適應症文字
 - 與現行標準方案（VAC 類）比較，評估是否有任何合理的定位
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「三張皆為單方製劑、狀態有效。」→「三張皆為單方製劑，其中 2 張有效、HK-40254 已註銷。」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

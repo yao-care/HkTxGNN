@@ -51,7 +51,7 @@ Triprolidine 是第一代 H1 組織胺受體拮抗劑，原本用於過敏性鼻
 | 預測新適應症 | Nasal cavity disease |
 | TxGNN 預測分數 | 0.9983 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 香港上市 | 上市中（有效許可證至少 19 張） |
 | 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
@@ -94,7 +94,13 @@ Triprolidine 是第一代 H1 組織胺受體拮抗劑，原本用於過敏性鼻
 | HK-54211 | PHARMANIAGA PSEUDOEPHEDRINE T TAB | — | — |
 | HK-61804 | DUOFED TABLETS | — | — |
 
-共 20 張有效許可證，以上僅列出前 5 張。
+本次收錄 20 張許可證（19 張有效；HK-54211 已註銷），以上僅列出前 5 張。
+
+<!-- review:begin hk-lic-20261117-triprolidine-1 -->
+
+> **查核更正（2026-11-17）**：原文為「共 20 張有效許可證，以上僅列出前 5 張。」。已更正：HK-54211 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-triprolidine-1 -->
 
 ---
 
@@ -120,6 +126,19 @@ Triprolidine 是第一代 H1 組織胺受體拮抗劑，原本用於過敏性鼻
 - 取得香港衛生署仿單，確認警語、禁忌症與正式核准適應症。
 - 補充 DrugBank 的作用機轉資料。
 - 若關注真正的新適應症，應另行檢視證據更具體的候選，並蒐集 Triprolidine 專屬的臨床證據。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「共 20 張有效許可證，以上僅列出前 5 張。」→「本次收錄 20 張許可證（19 張有效；HK-54211 已註銷），以上僅列出前」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**無月經 (amenorrhea (disease))** 有效，
 | 預測新適應症 | 無月經 (amenorrhea (disease)) |
 | TxGNN 預測分數 | 1.0000 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 3 張／共 3 張） |
-| 許可證數 | 3 張（有效 3 張） |
+| 香港上市 | 上市中（有效許可證 2 張／共 3 張） |
+| 許可證數 | 3 張（有效 2 張） |
 | 建議決策 | Hold |
 
 > 註：該預測的實際分數為 0.99999511，四捨五入至小數點後四位為 1.0000。
@@ -93,7 +93,13 @@ TxGNN 模型預測它可能對**無月經 (amenorrhea (disease))** 有效，
 | HK-39101 | ANARGIL CAP 200MG | 膠囊（200 mg） | 未載明 |
 | HK-43548 | DANOCRINE CAP 200MG | 膠囊（200 mg） | 未載明 |
 
-三張許可證目前皆為有效，皆為單一成分製劑。
+三張許可證中 2 張有效、HK-43548（DANOCRINE CAP 200MG）已註銷，皆為單一成分製劑。
+
+<!-- review:begin hk-lic-20261117-danazol-1 -->
+
+> **查核更正（2026-11-17）**：原文為「三張許可證目前皆為有效，」。已更正：HK-43548 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-danazol-1 -->
 
 ## 安全性考量
 
@@ -118,6 +124,18 @@ TxGNN 模型預測它可能對**無月經 (amenorrhea (disease))** 有效，
 - 詳細的作用機轉資料與香港仿單的警語及禁忌症
 - 與其他月經抑制方案（如連續口服避孕藥、GnRH 類似物）的風險效益比較
 - 針對特定族群（如跨性別者）的長期安全性監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「三張許可證目前皆為有效，」→「三張許可證中 2 張有效、HK-43548（DANOCRINE CAP 200M」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

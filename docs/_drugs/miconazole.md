@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對**痤瘡 (acne (disease))** 有效，
 | 預測新適應症 | 痤瘡 (acne (disease)) |
 | TxGNN 預測分數 | 0.9954 |
 | 證據等級 | L4 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 香港上市 | 上市中（有效許可證至少 19 張） |
 | 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
@@ -80,7 +80,13 @@ TxGNN 模型預測它可能對**痤瘡 (acne (disease))** 有效，
 
 ## 香港上市資訊
 
-目前資料顯示香港共有 20 張有效的單一成分許可證，且清單可能不完整。以下列出 5 張：
+目前資料顯示香港至少有 19 張有效的單一成分許可證（本次收錄 20 張，其中 HK-48144 已註銷），且清單可能不完整。以下列出 5 張：
+
+<!-- review:begin hk-lic-20261117-miconazole-1 -->
+
+> **查核更正（2026-11-17）**：原文為「目前資料顯示香港共有 20 張有效的單一成分許可證，」。已更正：HK-48144 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-miconazole-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -111,6 +117,18 @@ TxGNN 模型預測它可能對**痤瘡 (acne (disease))** 有效，
 - 設計針對痤瘡（區分馬拉色菌毛囊炎）的對照試驗，評估外用 Miconazole 的療效與安全性
 - 釐清抗菌與抗發炎作用在痤瘡病灶的實際貢獻
 - 評估外用劑型的皮膚耐受性及與併用藥物的交互作用
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「目前資料顯示香港共有 20 張有效的單一成分許可證，」→「目前資料顯示香港至少有 19 張有效的單一成分許可證（本次收錄 20 張，其中 」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

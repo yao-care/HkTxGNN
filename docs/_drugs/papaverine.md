@@ -52,7 +52,7 @@ TxGNN 模型預測它可能對**缺血性疾病 (Ischemic Disease)** 有效，
 | 預測新適應症 | 缺血性疾病 (ischemic disease) |
 | TxGNN 預測分數 | 0.9991 |
 | 證據等級 | L4 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 香港上市 | 上市中（有效許可證至少 19 張） |
 | 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
@@ -99,7 +99,13 @@ Papaverine 透過抑制磷酸二酯酶，使血管平滑肌鬆弛、血管擴張
 
 ## 香港上市資訊
 
-下表為本次資料中的主要許可證（共 20 張，均為有效的單一成分許可證；僅列 5 張）。資料中未載明劑型與核准適應症文字。
+下表為本次資料中的主要許可證（本次收錄 20 張，19 張有效、HK-27377 已註銷；僅列 5 張）。資料中未載明劑型與核准適應症文字。
+
+<!-- review:begin hk-lic-20261117-papaverine-1 -->
+
+> **查核更正（2026-11-17）**：原文為「（共 20 張，均為有效的單一成分許可證；僅列 5 張）」。已更正：HK-27377 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-papaverine-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -144,6 +150,19 @@ Papaverine 透過抑制磷酸二酯酶，使血管平滑肌鬆弛、血管擴張
 - 顱內動脈硬化（L4，Hold）：文獻多為 1970–80 年代的小型研究，無登記試驗。
 - 周邊血管功能不全（L4）、雷諾氏病（L4）：僅有間接或個案層級的證據。
 - 其餘預測（非發炎性血管病變、血管擴張症、靜脈血栓栓塞、纖維軟骨栓塞、血管發育不良、Monckeberg 動脈硬化）為 L5，缺乏可信證據；其中部分預測在機轉上不合理，例如血管擴張症、血管發育不良與靜脈血栓栓塞。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「（共 20 張，均為有效的單一成分許可證；僅列 5 張）」→「（本次收錄 20 張，19 張有效、HK-27377 已註銷；僅列 5 張）」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

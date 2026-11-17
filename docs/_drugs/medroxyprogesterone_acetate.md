@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**乳房纖維囊腫病 (breast fibrocystic diseas
 | 預測新適應症 | 乳房纖維囊腫病 (breast fibrocystic disease) |
 | TxGNN 預測分數 | 0.9995 |
 | 證據等級 | L3 |
-| 香港上市 | 上市中（有效許可證 10 張／共 10 張） |
-| 許可證數 | 10 張（有效 10 張） |
+| 香港上市 | 上市中（有效許可證 9 張／共 10 張） |
+| 許可證數 | 10 張（有效 9 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -90,7 +90,13 @@ TxGNN 模型預測它可能對**乳房纖維囊腫病 (breast fibrocystic diseas
 | HK-43794 | DEPO-PROVERA CONTRACEPTIVE INJ 150MG/ML | 未載明 | 未載明 |
 | HK-54973 | APO-MEDROXY TAB 5MG | 未載明 | 未載明 |
 
-本地共有 10 張單一成分許可證，皆為有效；上表僅列出其中 5 張。許可證資料中沒有記載核准適應症文字。
+本地共有 10 張單一成分許可證，其中 9 張有效、HK-67226 已註銷；上表僅列出其中 5 張。許可證資料中沒有記載核准適應症文字。
+
+<!-- review:begin hk-lic-20261117-medroxyprogesterone_acetate-1 -->
+
+> **查核更正（2026-11-17）**：原文為「本地共有 10 張單一成分許可證，皆為有效；」。已更正：HK-67226 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-medroxyprogesterone_acetate-1 -->
 
 ## 安全性考量
 
@@ -116,6 +122,18 @@ TxGNN 模型預測它可能對**乳房纖維囊腫病 (breast fibrocystic diseas
 - 補充 MPA 的作用機轉資料。
 - 設計對照試驗，比較 MPA 與安慰劑或標準治療對乳房疼痛、囊腫與乳房密度的影響。
 - 取得香港仿單的警語與禁忌症，並評估對乳房組織的長期安全性，特別是乳房密度與乳癌風險。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「本地共有 10 張單一成分許可證，皆為有效；」→「本地共有 10 張單一成分許可證，其中 9 張有效、HK-67226 已註銷；」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

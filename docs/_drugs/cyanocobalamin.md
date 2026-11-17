@@ -51,7 +51,7 @@ TxGNN 模型預測它可能對**生物素代謝疾病 (Biotin Metabolic Disease)
 | 預測新適應症 | 生物素代謝疾病 (biotin metabolic disease) |
 | TxGNN 預測分數 | 0.9960 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 香港上市 | 上市中（有效許可證至少 19 張） |
 | 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
@@ -83,7 +83,13 @@ TxGNN 模型預測它可能對**生物素代謝疾病 (Biotin Metabolic Disease)
 
 ## 香港上市資訊
 
-本藥在香港有 20 張有效單一成分許可證，下表列出 5 張主要許可證。資料中未收錄核准適應症文字與劑型。
+本藥在香港至少有 19 張有效單一成分許可證（本次收錄 20 張，其中 HK-48375 已註銷），下表列出 5 張主要許可證。資料中未收錄核准適應症文字與劑型。
+
+<!-- review:begin hk-lic-20261117-cyanocobalamin-1 -->
+
+> **查核更正（2026-11-17）**：原文為「本藥在香港有 20 張有效單一成分許可證，」。已更正：HK-48375 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-cyanocobalamin-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -120,6 +126,19 @@ TxGNN 模型預測它可能對**生物素代謝疾病 (Biotin Metabolic Disease)
 - 搜尋是否有病例報告或前臨床研究支持此用途
 - 取得香港衛生署核准的仿單，確認警語與禁忌症，完成安全性篩選
 - 若前述證據支持，再考慮設計小規模探索性研究
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「本藥在香港有 20 張有效單一成分許可證，」→「本藥在香港至少有 19 張有效單一成分許可證（本次收錄 20 張，其中 HK-4」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

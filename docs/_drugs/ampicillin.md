@@ -50,7 +50,7 @@ TxGNN 模型預測它可能對**喉炎 (laryngitis)** 有效，
 | 預測新適應症 | 喉炎 (laryngitis) |
 | TxGNN 預測分數 | 0.9997 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 香港上市 | 上市中（有效許可證至少 19 張） |
 | 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
@@ -83,7 +83,13 @@ Ampicillin 透過抑制細菌細胞壁合成而殺菌。目前缺乏詳細的作
 
 ## 香港上市資訊
 
-香港共有多張含 ampicillin 單方成分的有效許可證（資料可能不完整），主要如下：
+香港共有多張含 ampicillin 單方成分的有效許可證（資料可能不完整；本次收錄的 HK-40801 已註銷），主要如下：
+
+<!-- review:begin hk-lic-20261117-ampicillin-1 -->
+
+> **查核更正（2026-11-17）**：原文為「香港共有多張含 ampicillin 單方成分的有效許可證（資料可能不完整），」。已更正：HK-40801 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-ampicillin-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -112,6 +118,19 @@ Ampicillin 透過抑制細菌細胞壁合成而殺菌。目前缺乏詳細的作
 - 當地 *H. influenzae* 等病原菌對 ampicillin 的抗藥性監測資料
 - 取得原廠仿單的警語、禁忌症與作用機轉資料
 - 與現有標準治療（如第三代頭孢菌素、含 β-內醯胺酶抑制劑的複方）的比較
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「香港共有多張含 ampicillin 單方成分的有效許可證（資料可能不完整），」→「香港共有多張含 ampicillin 單方成分的有效許可證（資料可能不完整；本次」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

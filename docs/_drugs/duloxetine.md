@@ -52,8 +52,8 @@ TxGNN 模型預測分數最高的新適應症為「陣發性斜頸（嬰兒期�
 | 預測新適應症 | 嬰兒良性陣發性斜頸 (Benign paroxysmal torticollis of infancy)，排名第 1；證據最完整者為強迫症 (OCD)，排名第 3 (benign paroxysmal torticollis of infancy) |
 | TxGNN 預測分數 | 0.9985 |
 | 證據等級 | 嬰兒良性陣發性斜頸 L5；強迫症 L2 |
-| 香港上市 | 上市中（有效許可證 20 張／共 20 張） |
-| 許可證數 | 20 張（有效 20 張） |
+| 香港上市 | 上市中（有效許可證 18 張／共 20 張） |
+| 許可證數 | 20 張（有效 18 張） |
 | 建議決策 | 嬰兒良性陣發性斜頸：Hold；強迫症：Proceed with Guardrails（作為研究性問題） |
 
 ---
@@ -105,7 +105,13 @@ TxGNN 模型預測分數最高的新適應症為「陣發性斜頸（嬰兒期�
 
 ## 香港上市資訊
 
-Duloxetine 在香港共有 20 張有效許可證（皆為單方，無已註銷者）。資料中未載明核准適應症文字與劑型。列出 5 張主要許可證：
+Duloxetine 在香港共有 20 張許可證（皆為單方；18 張有效，HK-53843、HK-53844 已註銷）。資料中未載明核准適應症文字與劑型。列出 5 張主要許可證：
+
+<!-- review:begin hk-lic-20261117-duloxetine-1 -->
+
+> **查核更正（2026-11-17）**：原文為「Duloxetine 在香港共有 20 張有效許可證（皆為單方，無已註銷者）。」。已更正：HK-53843、HK-53844 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-duloxetine-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -145,6 +151,19 @@ Duloxetine 在香港共有 20 張有效許可證（皆為單方，無已註銷�
 - 設計較大規模、以 duloxetine 單用或加成治療強迫症的隨機對照試驗，並與 SSRI 比較
 - 確認難治型強迫症加成治療的劑量與監測計畫，並針對高血壓、肝病、血清素症候群風險與重大藥物交互作用擬定管理措施
 - 排名第 1 的預測需先有機轉或前臨床依據，再考慮兒童族群的安全性評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「Duloxetine 在香港共有 20 張有效許可證（皆為單方，無已註銷者）。」→「Duloxetine 在香港共有 20 張許可證（皆為單方；18 張有效，HK-」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

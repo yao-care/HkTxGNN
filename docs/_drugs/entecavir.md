@@ -52,7 +52,7 @@ TxGNN 模型預測它可能對**慢性 C 型肝炎 (Chronic hepatitis C virus in
 | 預測新適應症 | 慢性 C 型肝炎 (chronic hepatitis C virus infection) |
 | TxGNN 預測分數 | 0.9998 |
 | 證據等級 | L4（僅有間接的機轉與共感染研究，無 C 型肝炎本身的療效證據） |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 香港上市 | 上市中（有效許可證至少 17 張） |
 | 許可證數 | 至少 20 張 |
 | 建議決策 | Hold |
 
@@ -96,7 +96,13 @@ C 型肝炎病毒 (HCV) 是 RNA 病毒，靠 NS5B RNA 依賴性 RNA 聚合酶複
 
 ## 香港上市資訊
 
-Entecavir 在香港共有 20 張有效單一成分許可證，以下列出 5 張主要許可證（資料中未載明劑型與核准適應症文字）：
+Entecavir 在香港至少有 17 張有效單一成分許可證（本次收錄 20 張，其中 HK-64799、HK-64483、HK-64482 已註銷），以下列出 5 張主要許可證（資料中未載明劑型與核准適應症文字）：
+
+<!-- review:begin hk-lic-20261117-entecavir-1 -->
+
+> **查核更正（2026-11-17）**：原文為「Entecavir 在香港共有 20 張有效單一成分許可證，」。已更正：HK-64799、HK-64483、HK-64482 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-entecavir-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -140,6 +146,19 @@ Entecavir 在香港共有 20 張有效單一成分許可證，以下列出 5 張
 
 - **HIV 感染（排名 3）**：證據等級 L3。Entecavir 對 HIV-1 僅有微弱活性，且會選出 M184V 突變，可能損害 HIV 治療選擇；試驗的終點是 HBV 病毒血症，並非 HIV 控制。不建議作為 HIV 治療，僅適合在完全抑制性抗反轉錄病毒療法下用於 HBV 共感染。
 - **其餘預測**（C 型肝炎病毒感染、E 型肝炎、A 型肝炎、動物病毒性肝炎、猿猴免疫缺乏病毒、貓後天免疫缺乏症候群、罕見神經發展疾病）：缺乏合理機轉或僅為模型預測，皆為 Hold。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「Entecavir 在香港共有 20 張有效單一成分許可證，」→「Entecavir 在香港至少有 17 張有效單一成分許可證（本次收錄 20 張」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

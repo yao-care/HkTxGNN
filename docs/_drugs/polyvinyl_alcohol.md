@@ -52,8 +52,8 @@ TxGNN 模型預測它可能對**先天性魚鱗癬樣紅皮症 (congenital ichth
 | 預測新適應症 | 先天性魚鱗癬樣紅皮症 (congenital ichthyosiform erythroderma) |
 | TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 12 張／共 12 張） |
-| 許可證數 | 12 張（有效 12 張） |
+| 香港上市 | 上市中（有效許可證 9 張／共 12 張） |
+| 許可證數 | 12 張（有效 9 張） |
 | 建議決策 | Hold |
 
 其他排名較前的預測適應症（皆為 L5、建議 Hold）：
@@ -98,7 +98,13 @@ TxGNN 模型預測它可能對**先天性魚鱗癬樣紅皮症 (congenital ichth
 | HK-39377 | PMS-ARTIFICIAL TEARS DROPS 1.4% | 眼用滴劑 | 未載明 |
 | HK-57591 | REVCO LUVERICAN OPHTHALMIC SOLUTION 1.4% | 眼用溶液 | 未載明 |
 
-共 12 張有效單方許可證，以上列出 5 張。
+共 12 張單方許可證（9 張有效；HK-54985、HK-54986、HK-54987 已註銷），以上列出 5 張。
+
+<!-- review:begin hk-lic-20261117-polyvinyl_alcohol-1 -->
+
+> **查核更正（2026-11-17）**：原文為「共 12 張有效單方許可證，以上列出 5 張。」。已更正：HK-54985、HK-54986、HK-54987 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-polyvinyl_alcohol-1 -->
 
 ---
 
@@ -123,6 +129,19 @@ TxGNN 模型預測它可能對**先天性魚鱗癬樣紅皮症 (congenital ichth
 - 取得香港仿單的警語與禁忌，完成安全性篩選。
 - 確認皮膚外用的劑型與給藥途徑是否可行（目前香港許可證皆為眼用製劑）。
 - 進行文獻與試驗檢索；若有支持，可考慮與標準潤膚劑比較的小型探索性研究。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「共 12 張有效單方許可證，以上列出 5 張。」→「共 12 張單方許可證（9 張有效；HK-54985、HK-54986、HK-5」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**中風 (Stroke Disorder)** 有效，
 | 預測新適應症 | 中風 (stroke disorder) |
 | TxGNN 預測分數 | 0.9965 |
 | 證據等級 | L1（暫定，詳見下方說明） |
-| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
-| 許可證數 | 1 張（有效 1 張） |
+| 香港上市 | 未上市（已註銷許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 0 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -89,7 +89,13 @@ TxGNN 模型預測它可能對**中風 (Stroke Disorder)** 有效，
 |---------|------|------|-----------|
 | HK-27160 | PRAXILENE CAP 100MG | 未載明 | 未載明 |
 
-製造商為 MERCK PHARMACEUTICAL (HK) LIMITED，狀態為有效的單方製劑。
+製造商為 MERCK PHARMACEUTICAL (HK) LIMITED，為單方製劑；此許可證（HK-27160）已註銷。
+
+<!-- review:begin hk-lic-20261117-naftidrofuryl-1 -->
+
+> **查核更正（2026-11-17）**：原文為「狀態為有效的單方製劑。」。已更正：HK-27160 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-naftidrofuryl-1 -->
 
 ## 安全性考量
 
@@ -109,6 +115,19 @@ TxGNN 模型預測它可能對**中風 (Stroke Disorder)** 有效，
 - 補充 DrugBank 的作用機轉資料
 - 評估這些舊研究與現代中風照護標準的適用性
 - 確認是否有進行中的臨床試驗登記
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「狀態為有效的單方製劑。」→「為單方製劑；此許可證（HK-27160）已註銷。」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

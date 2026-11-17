@@ -52,8 +52,8 @@ TxGNN 模型預測它可能對**腎因性抗利尿激素不適當分泌症候群
 | 預測新適應症 | 腎因性抗利尿激素不適當分泌症候群 (NSIAD) |
 | TxGNN 預測分數 | 0.9946 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 14 張／共 14 張） |
-| 許可證數 | 14 張（有效 14 張） |
+| 香港上市 | 上市中（有效許可證 11 張／共 14 張） |
+| 許可證數 | 14 張（有效 11 張） |
 | 建議決策 | Hold |
 
 另一個預測適應症為**妥瑞症 (Tourette syndrome)**，TxGNN 分數 0.9905，同樣無臨床試驗與文獻支持，證據等級 L5，建議 Hold（見下文說明）。
@@ -94,7 +94,13 @@ TxGNN 模型預測它可能對**腎因性抗利尿激素不適當分泌症候群
 | HK-64078 | FENTORA BUCCAL TABLETS 200MCG | 口頰錠（依品名） | 資料未載明 |
 | HK-67174 | APT-FENTANYL CITRATE SOLUTION FOR INJECTION OR INFUSION 0.5MG/10ML | 注射液（依品名） | 資料未載明 |
 
-香港共有 14 張有效許可證，皆為單一成分製劑，以上僅列出 5 張主要許可證。
+香港共有 14 張許可證，皆為單一成分製劑（11 張有效；HK-53755、HK-53753、HK-53883 已註銷），以上僅列出 5 張主要許可證。
+
+<!-- review:begin hk-lic-20261117-fentanyl-1 -->
+
+> **查核更正（2026-11-17）**：原文為「香港共有 14 張有效許可證，皆為單一成分製劑，」。已更正：HK-53755、HK-53753、HK-53883 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-fentanyl-1 -->
 
 ---
 
@@ -127,6 +133,19 @@ Fentanyl 非抗腫瘤藥物，本章節不適用。
 - 補充 fentanyl 詳細的作用機轉資料
 - 針對 NSIAD 與妥瑞症進行系統性文獻回顧，確認是否存在任何機轉或臨床訊號
 - 若仍有意推進，需先有前臨床或機轉研究證據，並規劃嚴格的風險管理（呼吸抑制、濫用、交互作用）
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「香港共有 14 張有效許可證，皆為單一成分製劑，」→「香港共有 14 張許可證，皆為單一成分製劑（11 張有效；HK-53755、HK」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

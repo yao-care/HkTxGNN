@@ -51,8 +51,8 @@ TxGNN 模型預測排名第一的新適應症為**自體免疫性卵巢炎 (Auto
 | 預測新適應症 | 自體免疫性卵巢炎 (Autoimmune Oophoritis) |
 | TxGNN 預測分數 | 0.9988 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 7 張／共 7 張） |
-| 許可證數 | 7 張（有效 7 張） |
+| 香港上市 | 上市中（有效許可證 5 張／共 7 張） |
+| 許可證數 | 7 張（有效 5 張） |
 | 建議決策 | Hold |
 
 ---
@@ -110,7 +110,13 @@ TxGNN 模型預測排名第一的新適應症為**自體免疫性卵巢炎 (Auto
 | HK-65079 | BASAGLAR SOLUTION FOR INJECTION IN A CARTRIDGE 300 UNITS/3ML | 注射劑（卡式瓶） | 資料未載明 |
 | HK-50530 | LANTUS INJ 100 UNITS/ML | 注射劑 | 資料未載明 |
 
-共 7 張有效許可證，以上列出前 5 張。
+共 7 張許可證（5 張有效；HK-65078、HK-65079 已註銷），以上列出前 5 張。
+
+<!-- review:begin hk-lic-20261117-insulin_glargine-1 -->
+
+> **查核更正（2026-11-17）**：原文為「共 7 張有效許可證，以上列出前 5 張。」。已更正：HK-65078、HK-65079 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-insulin_glargine-1 -->
 
 ---
 
@@ -140,6 +146,19 @@ TxGNN 模型預測排名第一的新適應症為**自體免疫性卵巢炎 (Auto
 - 針對自體免疫性卵巢炎的文獻與試驗系統性檢索
 - 作用機轉資料與香港仿單的警語、禁忌症
 - 若有興趣，可優先評估胰臟發育不全，但其屬荷爾蒙替代，且目前僅有間接文獻，並無直接研究該疾病的證據
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「共 7 張有效許可證，以上列出前 5 張。」→「共 7 張許可證（5 張有效；HK-65078、HK-65079 已註銷），以上」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

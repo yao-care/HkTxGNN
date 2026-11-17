@@ -52,8 +52,8 @@ TxGNN 模型預測它可能對**毛細胞白血病 (Hairy Cell Leukemia)** 有�
 | 預測新適應症 | 毛細胞白血病 (Hairy Cell Leukemia) |
 | TxGNN 預測分數 | 0.9916 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
-| 許可證數 | 1 張（有效 1 張） |
+| 香港上市 | 未上市（已註銷許可證 1 張／共 1 張） |
+| 許可證數 | 1 張（有效 0 張） |
 | 建議決策 | Hold |
 
 ---
@@ -84,7 +84,13 @@ TxGNN 模型預測它可能對**毛細胞白血病 (Hairy Cell Leukemia)** 有�
 
 | 許可證號 | 品名 | 製造商 | 狀態 |
 |---------|------|--------|------|
-| HK-47987 | BETAFERON PRE-FILLED SYRINGE 8MIU | BAYER HEALTHCARE LIMITED | 有效（單一成分） |
+| HK-47987 | BETAFERON PRE-FILLED SYRINGE 8MIU | BAYER HEALTHCARE LIMITED | 已註銷（單一成分） |
+
+<!-- review:begin hk-row-20261117-interferon_beta-1b-1 -->
+
+> **查核更正（2026-11-17）**：原文為「BAYER HEALTHCARE LIMITED／有效（單一成分）」。已更正：HK-47987 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-row-20261117-interferon_beta-1b-1 -->
 
 本報告所整理的資料未提供此許可證的劑型與核准適應症文字。
 
@@ -117,6 +123,19 @@ TxGNN 模型預測它可能對**毛細胞白血病 (Hairy Cell Leukemia)** 有�
 
 **補充說明：**
 模型的第二名預測為「中樞神經系統自體免疫疾病」，已有 6 個臨床試驗（含 1 個 Phase 3 BENEFIT 延伸試驗 NCT00185211）。但這個適應症與原有的多發性硬化症高度重疊，主要是確認既有用途，不算真正的藥物再利用。若延伸到其他中樞神經系統自體免疫疾病，例如水通道蛋白-4 (AQP4) 抗體陽性的視神經脊髓炎譜系疾患，Interferon beta 可能無效甚至有害，沒有疾病專屬資料前不應假設可用。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「BAYER HEALTHCARE LIMITED &#124; 有效（單一成分）」→「BAYER HEALTHCARE LIMITED &#124; 已註銷（單一成分）」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

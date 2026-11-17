@@ -48,8 +48,8 @@ Verapamil 是一種鈣離子通道阻斷劑，原本用於高血壓、心房顫�
 | 預測新適應症 | Obsolete bundle branch block |
 | TxGNN 預測分數 | 0.9962 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
-| 許可證數 | 8 張（有效 8 張） |
+| 香港上市 | 上市中（有效許可證 7 張／共 8 張） |
+| 許可證數 | 8 張（有效 7 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -83,7 +83,13 @@ Verapamil 是一種鈣離子通道阻斷劑，原本用於高血壓、心房顫�
 | HK-55703 | VERAPAMIL HYDROCHLORIDE INJ 2.5MG/ML | 注射劑（依品名） | 未載明 |
 | HK-36259 | APO-VERAP TAB 80MG | 未載明 | 未載明 |
 
-（共 8 張有效單方許可證，上表列出其中 5 張。）
+（共 8 張單方許可證，7 張有效、HK-40708 已註銷；上表列出其中 5 張。）
+
+<!-- review:begin hk-lic-20261117-verapamil-1 -->
+
+> **查核更正（2026-11-17）**：原文為「（共 8 張有效單方許可證，」。已更正：HK-40708 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-verapamil-1 -->
 
 ## 安全性考量
 
@@ -108,6 +114,19 @@ Verapamil 是一種鈣離子通道阻斷劑，原本用於高血壓、心房顫�
 - 系統性檢索 Verapamil 或鈣離子通道阻斷劑用於腎血管性或惡性高血壓的臨床與觀察性研究
 - 與現行標準治療（如腎素－血管張力素系統阻斷劑）比較其潛在角色
 - 針對此族群（常合併腎功能受損）評估安全性與藥物交互作用
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「（共 8 張有效單方許可證，」→「（共 8 張單方許可證，7 張有效、HK-40708 已註銷；」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

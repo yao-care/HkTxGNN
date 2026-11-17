@@ -51,8 +51,8 @@ Palbociclib 是 CDK4/6 抑制劑，在香港已有上市許可證，但本次資
 | 預測新適應症 | Hyperthyroidism |
 | TxGNN 預測分數 | 0.9944 |
 | 證據等級 | L5（有早期臨床試驗與大量前臨床研究，但無已完成的 Phase 2/3 RCT；依系統判定為 L3） |
-| 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
-| 許可證數 | 6 張（有效 6 張） |
+| 香港上市 | 上市中（有效許可證 3 張／共 6 張） |
+| 許可證數 | 6 張（有效 3 張） |
 | 建議決策 | Hold（列為研究問題，待更多臨床資料） |
 
 ## 為什麼這個預測合理？
@@ -99,7 +99,13 @@ Palbociclib 是 CDK4/6 抑制劑，在香港已有上市許可證，但本次資
 | HK-66989 | IBRANCE TABLETS 100MG | 本次資料未提供 | 本次資料未提供 |
 | HK-66990 | IBRANCE TABLETS 125MG | 本次資料未提供 | 本次資料未提供 |
 
-另有 HK-66991（IBRANCE TABLETS 75MG），共 6 張，均為 PFIZER CORPORATION HONG KONG LIMITED 持有的有效單方許可證。
+另有 HK-66991（IBRANCE TABLETS 75MG），共 6 張，均為 PFIZER CORPORATION HONG KONG LIMITED 持有的單方許可證，其中 3 張有效，膠囊劑 HK-64836、HK-64837、HK-64838 已註銷。
+
+<!-- review:begin hk-lic-20261117-palbociclib-1 -->
+
+> **查核更正（2026-11-17）**：原文為「共 6 張，均為 PFIZER CORPORATION HONG KONG LIMITED 持有的有效單方許可證。」。已更正：HK-64836、HK-64837、HK-64838 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-palbociclib-1 -->
 
 ## 細胞毒性
 
@@ -139,6 +145,19 @@ Palbociclib 是 CDK4/6 抑制劑，在香港已有上市許可證，但本次資
 - 規劃 palbociclib 合併 venetoclax 加 azacitidine 的前瞻性臨床試驗
 - 補充 DrugBank 作用機轉資料，以及香港仿單的警語、禁忌症與核准適應症
 - 針對血液毒性與血栓風險制定監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「共 6 張，均為 PFIZER CORPORATION HONG KONG LI」→「共 6 張，均為 PFIZER CORPORATION HONG KONG LI」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

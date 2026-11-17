@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對 **Ohdo 症候群及其變異型 (Ohdo syndrome an
 | 預測新適應症 | Ohdo 症候群及其變異型 (Ohdo syndrome and variants) |
 | TxGNN 預測分數 | 0.9942 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 20 張／共 20 張） |
-| 許可證數 | 20 張（有效 20 張） |
+| 香港上市 | 上市中（有效許可證 18 張／共 20 張） |
+| 許可證數 | 20 張（有效 18 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -80,7 +80,13 @@ Ohdo 症候群及其變異型是一種罕見的遺傳性疾病，常與 KAT6B �
 | HK-53225 | PMS-MIRTAZAPINE TAB 30MG | 錠劑（依品名） | 未提供 |
 | HK-56412 | PMS-MIRTAZAPINE TAB 15MG | 錠劑（依品名） | 未提供 |
 
-以上僅列出 5 張主要許可證，全部 20 張皆為有效的單方許可證，無已註銷者。
+以上僅列出 5 張主要許可證，全部 20 張皆為單方許可證，其中 18 張有效、HK-62247、HK-62248 已註銷。
+
+<!-- review:begin hk-lic-20261117-mirtazapine-1 -->
+
+> **查核更正（2026-11-17）**：原文為「全部 20 張皆為有效的單方許可證，無已註銷者。」。已更正：HK-62247、HK-62248 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-mirtazapine-1 -->
 
 ## 安全性考量
 
@@ -105,6 +111,19 @@ Ohdo 症候群及其變異型是一種罕見的遺傳性疾病，常與 KAT6B �
 - 取得香港衛生署的仿單警語與禁忌資訊，完成安全性篩選
 - 進行文獻與臨床試驗的系統性檢索，確認是否有任何前臨床或病例報告支持
 - 若有意探索，應先定義具體的症狀性目標（如睡眠、情緒、食慾），並另行評估證據
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「全部 20 張皆為有效的單方許可證，無已註銷者。」→「全部 20 張皆為單方許可證，其中 18 張有效、HK-62247、HK-622」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

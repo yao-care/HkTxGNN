@@ -48,8 +48,8 @@ Tegafur 是 5-氟尿嘧啶（5-FU）的口服前驅藥，知識圖譜中記錄�
 | 預測新適應症 | Cecum villous adenoma |
 | TxGNN 預測分數 | 0.9986 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
-| 許可證數 | 6 張（有效 6 張） |
+| 香港上市 | 上市中（有效許可證 5 張／共 6 張） |
+| 許可證數 | 6 張（有效 5 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ## 為什麼這個預測合理？
@@ -106,7 +106,13 @@ Tegafur 是 5-氟尿嘧啶（5-FU）的口服前驅藥，知識圖譜中記錄�
 | HK-67976 | TEGO CAPSULES 20MG/5.8MG/19.6MG | 膠囊 | 資料未提供 |
 | HK-67977 | TEGO CAPSULES 25MG/7.25MG/24.5MG | 膠囊 | 資料未提供 |
 
-另有 HK-61182（TS-ONE 20 CAP），共 6 張有效許可證。
+另有 HK-61182（TS-ONE 20 CAP），共 6 張許可證，其中 5 張有效、HK-48265（UNITORAL CAP）已註銷。
+
+<!-- review:begin hk-lic-20261117-tegafur-1 -->
+
+> **查核更正（2026-11-17）**：原文為「共 6 張有效許可證。」。已更正：HK-48265 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+
+<!-- review:end hk-lic-20261117-tegafur-1 -->
 
 ## 細胞毒性
 
@@ -141,6 +147,19 @@ Tegafur 是 5-氟尿嘧啶（5-FU）的口服前驅藥，知識圖譜中記錄�
 - 建立血液學與肝腎功能監測及 DPD 缺乏等特定族群的安全性計畫
 
 **其他預測適應症說明：** 排名 2–10 的預測（如盲腸絨毛狀腺瘤、結腸脂肪瘤、結腸血管瘤等）多為良性病變，缺乏直接證據，宜維持 Hold；「盲腸疾病」與「直腸乙狀結腸交界腫瘤」僅有間接的個案報告，建議併入大腸直腸癌一併評估。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「共 6 張有效許可證。」→「共 6 張許可證，其中 5 張有效、HK-48265（UNITORAL CAP）」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

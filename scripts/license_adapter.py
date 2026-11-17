@@ -3,7 +3,13 @@
 來源：https://www.drugoffice.gov.hk/eps/psi/DrugList.xml（免金鑰，有 lastUpdate）。只列現行註冊的藥劑製品、沒有狀態欄：
 在列＝status 維持原值（證據包原本是空白，reviewer 視為有效），新清單查不到的註冊號保留原狀態、列在 summary（不推定為撤銷）。
 證據包 license_id＝permitNo（HK-xxxxx）。
+2026-11-17（用戶要求確認查不到的註冊號）：DrugList.xml 是藥物辦公室唯一的公開註冊名單（DrugList-v1.1.xml 內容相同，
+網上「搜尋藥物資料庫」也只查得到現行註冊），沒有另一份現行或已取消清單。11-16 查不到的 146 張全部在 data.gov.hk 歷史存檔
+（2025-08～2026-11-02 的每週 DrugList.xml）裡出現過、之後不再列，網上資料庫也查不到＝已不是現行註冊（取消或沒有續期，名單不分原因）。
+所以名單有成功下載、而且至少 MIN_CURRENT 張時，preprocess 對名單沒有的 HK-xxxxx 標 license_status＝cancelled 與
+drugoffice_not_listed（第一次發現日）；之後又出現在名單就取消標記。下載失敗或筆數過少時不判定（維持原狀態）。
 """
+import re
 import time
 import xml.etree.ElementTree as ET
 
@@ -11,6 +17,9 @@ import requests
 
 RAW_FILE = "raw/hk_druglist_permits.json"
 URL = "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml"
+CURRENT: set = set()   # fetch() 填：DrugList.xml 的現行註冊號；空的就不做「不在名單」判定
+MIN_CURRENT = 10000    # 少於這個數＝下載或格式有問題，不判定
+ID_RE = re.compile(r"HK-\d{5}")
 
 
 def fetch():
@@ -25,7 +34,40 @@ def fetch():
             time.sleep(15 * (attempt + 1))
     root = ET.fromstring(r.content)
     out = [{"permit": (d.findtext("permitNo") or "").strip()} for d in root.iter("drug")]
-    return [x for x in out if x["permit"]]
+    out = [x for x in out if x["permit"]]
+    CURRENT.clear()
+    ids = {x["permit"] for x in out}
+    if len(ids) >= MIN_CURRENT:
+        CURRENT.update(ids)
+    return out
+
+
+def confirmed_absent(lid):
+    """給 license_refresh：名單有成功下載、這張 HK-xxxxx 不在名單＝確認已不是現行註冊"""
+    k = str(lid or "").strip()
+    return bool(CURRENT) and bool(ID_RE.fullmatch(k)) and k not in CURRENT
+
+
+def preprocess(bundle):
+    """名單沒有的註冊號標 cancelled（drugoffice_not_listed＝第一次發現日）；又出現的取消標記。有改回 True"""
+    if not CURRENT:
+        return False
+    today = time.strftime("%Y-%m-%d")
+    ch = False
+    for r in (bundle.get("tfda") or {}).get("records") or []:
+        k = str(r.get("license_id") or "").strip()
+        if not ID_RE.fullmatch(k):
+            continue
+        if k in CURRENT:
+            if r.get("drugoffice_not_listed"):
+                r.pop("drugoffice_not_listed", None)
+                r.pop("license_status", None)
+                ch = True
+        elif not r.get("drugoffice_not_listed"):
+            r["drugoffice_not_listed"] = today
+            r["license_status"] = "cancelled"
+            ch = True
+    return ch
 
 
 def validate(new, old):
