@@ -49,8 +49,8 @@ TxGNN 模型預測它可能對**自體免疫性卵巢炎 (Autoimmune Oophoritis)
 | 預測新適應症 | 自體免疫性卵巢炎 (Autoimmune Oophoritis) |
 | TxGNN 預測分數 | 0.9923 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
-| 許可證數 | 8 張（有效 8 張） |
+| 香港上市 | 上市中（有效許可證 9 張／共 9 張） |
+| 許可證數 | 9 張（有效 9 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -79,7 +79,13 @@ TxGNN 模型預測它可能對**自體免疫性卵巢炎 (Autoimmune Oophoritis)
 | HK-68120 | XULTOPHY 預填式注射筆 100 單位/ML + 3.6MG/ML | 注射劑 | 資料未提供 |
 | HK-67704 | RYZODEG FLEXTOUCH 預填式注射筆 100U/ML 70/30 | 注射劑 | 資料未提供 |
 
-許可證共 8 張，以上僅列出 5 張主要許可證，持有人均為 Novo Nordisk Hong Kong Limited。
+許可證共 9 張，以上僅列出 5 張主要許可證，持有人均為 Novo Nordisk Hong Kong Limited。
+
+<!-- review:begin hk-lic-20261117-insulin_degludec-1 -->
+
+> **查核更正（2026-11-17）**：原文為「許可證共 8 張」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69109 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261117-insulin_degludec-1 -->
 
 ## 安全性考量
 
@@ -104,6 +110,19 @@ TxGNN 模型預測它可能對**自體免疫性卵巢炎 (Autoimmune Oophoritis)
 - 取得香港仿單的警語與禁忌症
 - 針對自體免疫性卵巢炎進行文獻與試驗檢索，釐清是否存在直接證據
 - 以前臨床或病例研究驗證胰島素訊號與卵巢自體免疫的關聯
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「許可證共 8 張」→「許可證共 9 張」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

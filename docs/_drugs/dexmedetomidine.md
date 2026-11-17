@@ -51,8 +51,8 @@ TxGNN 模型的預測中，證據最完整的是**頭痛疾患 (Headache Disorde
 | 預測新適應症 | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN 預測分數 | 0.9960 |
 | 證據等級 | L5（僅限 PDPH）；整體頭痛疾患證據有限 |
-| 香港上市 | 上市中（有效許可證 9 張／共 10 張） |
-| 許可證數 | 10 張（有效 9 張） |
+| 香港上市 | 上市中（有效許可證 10 張／共 11 張） |
+| 許可證數 | 11 張（有效 10 張） |
 | 建議決策 | Proceed with Guardrails（建議以 PDPH 為範圍進行研究） |
 
 ## 為什麼這個預測合理？

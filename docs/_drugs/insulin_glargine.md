@@ -51,8 +51,8 @@ TxGNN 模型預測排名第一的新適應症為**自體免疫性卵巢炎 (Auto
 | 預測新適應症 | 自體免疫性卵巢炎 (Autoimmune Oophoritis) |
 | TxGNN 預測分數 | 0.9988 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 5 張／共 7 張） |
-| 許可證數 | 7 張（有效 5 張） |
+| 香港上市 | 上市中（有效許可證 6 張／共 8 張） |
+| 許可證數 | 8 張（有效 6 張） |
 | 建議決策 | Hold |
 
 ---
@@ -110,11 +110,11 @@ TxGNN 模型預測排名第一的新適應症為**自體免疫性卵巢炎 (Auto
 | HK-65079 | BASAGLAR SOLUTION FOR INJECTION IN A CARTRIDGE 300 UNITS/3ML | 注射劑（卡式瓶） | 資料未載明 |
 | HK-50530 | LANTUS INJ 100 UNITS/ML | 注射劑 | 資料未載明 |
 
-共 7 張許可證（5 張有效；HK-65078、HK-65079 已註銷），以上列出前 5 張。
+共 8 張許可證（6 張有效；HK-65078、HK-65079 已註銷），以上列出前 5 張。
 
 <!-- review:begin hk-lic-20261117-insulin_glargine-1 -->
 
-> **查核更正（2026-11-17）**：原文為「共 7 張有效許可證，以上列出前 5 張。」。已更正：HK-65078、HK-65079 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+> **查核更正（2026-11-17）**：原文為「共 7 張有效許可證，以上列出前 5 張。」。已更正：HK-65078、HK-65079 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。 已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69009 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
 
 <!-- review:end hk-lic-20261117-insulin_glargine-1 -->
 
@@ -155,7 +155,7 @@ TxGNN 模型預測排名第一的新適應症為**自體免疫性卵巢炎 (Auto
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「共 7 張有效許可證，以上列出前 5 張。」→「共 7 張許可證（5 張有效；HK-65078、HK-65079 已註銷），以上」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-17 | 「共 7 張有效許可證，以上列出前 5 張。」→「共 8 張許可證（6 張有效；HK-65078、HK-65079 已註銷），以上」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
 
 <!-- review:end log -->
 

@@ -51,8 +51,8 @@ TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有
 | 預測新適應症 | 阻塞性肺病 (obstructive lung disease) |
 | TxGNN 預測分數 | 0.9984 |
 | 證據等級 | L4（僅有機轉層面的間接研究） |
-| 香港上市 | 上市中（有效許可證 7 張／共 7 張） |
-| 許可證數 | 7 張（有效 7 張） |
+| 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
+| 許可證數 | 8 張（有效 8 張） |
 | 建議決策 | Hold |
 
 ---
@@ -104,7 +104,13 @@ TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有
 | HK-65386 | LEVOPHED SF CONCENTRATE FOR SOLUTION FOR INFUSION 1MG/ML | 輸注濃縮液 | 未登載 |
 | HK-66232 | APT-NORADRENALINE CONCENTRATE FOR SOLUTION FOR INFUSION 4MG/4ML | 輸注濃縮液 | 未登載 |
 
-（共 7 張有效單方許可證，上表列出其中 5 張。）
+（共 8 張有效單方許可證，上表列出其中 5 張。）
+
+<!-- review:begin hk-lic-20261117-norepinephrine-1 -->
+
+> **查核更正（2026-11-17）**：原文為「共 7 張有效單方許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69267 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261117-norepinephrine-1 -->
 
 ---
 
@@ -143,6 +149,19 @@ TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有
 
 - **呼吸道畸形 (Respiratory Malformation)**（TxGNN 分數 0.9984，證據等級 L5）：文獻多為呼吸中樞的神經調控、產前藥物暴露與先天異常風險等，並非治療證據；對結構性畸形而言，血管加壓劑不具合理的治療標的。建議 Hold。
 - **Rienhoff 症候群 (Rienhoff Syndrome)**（TxGNN 分數 0.9983，證據等級 L5）：目前無臨床試驗與文獻，無法評估生物學合理性。建議 Hold。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「共 7 張有效單方許可證」→「共 8 張有效單方許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

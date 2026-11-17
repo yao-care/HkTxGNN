@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**細菌性關節炎 (bacterial arthritis)** 有�
 | 預測新適應症 | 細菌性關節炎 (bacterial arthritis) |
 | TxGNN 預測分數 | 0.9992 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 16 張／共 16 張） |
-| 許可證數 | 16 張（有效 16 張） |
+| 香港上市 | 上市中（有效許可證 18 張／共 18 張） |
+| 許可證數 | 18 張（有效 18 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -93,7 +93,13 @@ TxGNN 模型預測它可能對**細菌性關節炎 (bacterial arthritis)** 有�
 | HK-61054 | MEROZAN POWDER FOR SOLUTION FOR INJECTION OR INFUSION 1G | 未提供 | 未提供 |
 | HK-68215 | VABOREM POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 1G/1G | 未提供 | 未提供 |
 
-目前共有 16 張許可證，全部有效。以上僅列出其中 5 張。
+目前共有 18 張許可證，全部有效。以上僅列出其中 5 張。
+
+<!-- review:begin hk-lic-20261117-meropenem-1 -->
+
+> **查核更正（2026-11-17）**：原文為「目前共有 16 張許可證，全部有效」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69011、HK-69012 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261117-meropenem-1 -->
 
 ## 安全性考量
 
@@ -114,6 +120,18 @@ TxGNN 模型預測它可能對**細菌性關節炎 (bacterial arthritis)** 有�
 - 取得完整仿單中的警語與禁忌症資料
 - 骨關節組織穿透性與給藥方案的藥動學資料
 - 評估對抗藥性與抗生素管理的影響
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「目前共有 16 張許可證，全部有效」→「目前共有 18 張許可證，全部有效」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

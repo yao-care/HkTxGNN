@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，
 | 預測新適應症 | 脂肪肉瘤 (liposarcoma) |
 | TxGNN 預測分數 | 0.9982 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
-| 許可證數 | 6 張（有效 6 張） |
+| 香港上市 | 上市中（有效許可證 8 張／共 8 張） |
+| 許可證數 | 8 張（有效 8 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -93,7 +93,13 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，
 | HK-68075 | RAFALVO TABLETS 200MG | 錠劑 | 未提供 |
 | HK-68600 | SORAFENIB TABLETS USP 200MG | 錠劑 | 未提供 |
 
-另有 HK-68700（SORAFENIB SANDOZ TABLETS 200MG），共 6 張單一成分許可證，均為有效狀態。
+另有 HK-68700（SORAFENIB SANDOZ TABLETS 200MG）、HK-69182（REVAMOX FILM-COATED TABLETS 200MG）與 HK-69261（SORAVAR 200 TABLETS 200MG），共 8 張單一成分許可證，均為有效狀態。
+
+<!-- review:begin hk-lic-20261117-sorafenib-1 -->
+
+> **查核更正（2026-11-17）**：原文為「另有 HK-68700（SORAFENIB SANDOZ TABLETS 200MG），共 6 張單一成分許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69182、HK-69261 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261117-sorafenib-1 -->
 
 ## 細胞毒性
 
@@ -129,6 +135,19 @@ Sorafenib 屬抗腫瘤藥物（標靶藥物，多重激酶抑制劑）。
 - 補齊作用機轉資料與香港仿單的警語、禁忌
 - 設計脂肪肉瘤專屬的前瞻性研究，並與 trabectedin 等現行組織型導向療法比較
 - 擬定心血管、血壓、血球與肝功能的監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「另有 HK-68700（SORAFENIB SANDOZ TABLETS 200」→「另有 HK-68700（SORAFENIB SANDOZ TABLETS 200」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

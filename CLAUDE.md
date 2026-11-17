@@ -527,10 +527,15 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 - 146 張全部在 data.gov.hk 歷史存檔的每週 DrugList.xml（2025-08-04 起）裡出現過，最後一次分別在 2026-03-02～11-02 的版本，2026-11-13 版（現行）沒有；
   藥物辦公室網上「搜尋藥物資料庫」依註冊號查也是 0 筆。沒有找到「在別份現行清單上」的號。名單不分取消註冊或沒有續期，頁面一律寫「已註銷」。
   其中 10 張有同品名、另一個註冊號的現行註冊（例 JADENU HK-64787→HK-68030、ATECTURA 3 張→HK-68048～68050、ZEJULA HK-65945→HK-67238），是另一張註冊，舊號仍算註銷；
-  新號多半已在證據包，ezetimibe（HK-69166）、metformin（HK-56689）兩張現行註冊不在證據包（本站沒有依成分重建證據包的程式，這次沒補）。
+  新號多半已在證據包，ezetimibe（HK-69166）、metformin（HK-56689）兩張現行註冊不在證據包（同日以 scripts/add_current_registrations.py 補收，見下）。
 - `scripts/license_adapter.py`：fetch() 把名單的註冊號記成 CURRENT（少於 10,000 不判定）；preprocess 對名單沒有的 HK-xxxxx 標
   `license_status: cancelled`＋`drugoffice_not_listed`（第一次發現日），又出現就取消；`confirmed_absent()` 讓排程把這些列成「主管機關現行清單確認已不列」，不算「查不到」、不開 issue。
 - 86 頁狀態列／張數列照事實層同步；正文寫「全部有效／無已註銷」或有效張數跟事實相反的 56 頁以 57 筆 `hk-lic-20261117-*`、表格狀態欄寫「有效」的 5 頁 6 列以 `hk-row-20261117-*` 更正
   （部分紀錄的頁改成「至少 N 張有效（本次收錄 20 張，其中 …已註銷）」）。全部註銷的 8 個藥依成分對名單確認現行 0 個產品：andexanet alfa、caspofungin、exenatide、
   interferon beta-1b（現行只有 1a）、naftidrofuryl、narasin、reserpine、tazemetostat（exenatide、narasin 沒有藥物頁）。
+- 補收現行名單上、證據包收不到的本藥註冊號（同日）：證據包是 2026-03 版 DrugList.xml＋drug_mapping.csv 收的（藥名→DrugBank ID→同 ID 的註冊號，單方複方都收，最多 20 筆），
+  之後新註冊的 302 個號不在 drug_mapping、永遠收不進來。`scripts/add_current_registrations.py --xml <現行 DrugList.xml>` 照同一套規則補收（同一支 map_fda_drugs_to_drugbank 對 DrugBank ID，不放寬）：
+  A. 2026-03 版之後新增、DrugBank ID 跟證據包相交的號（313 筆，total_matches 同步加）；B. 證據包裡已註銷的號、現行名單有同產品名同成分的另一個號而證據包因 20 筆上限沒收到（metformin HK-54377→HK-56689，2 個證據包）。
+  151 個證據包補 315 筆（ezetimibe HK-69166 屬 A）；102 頁狀態列／張數列由程式同步；正文張數跟新事實矛盾的 33 頁以 `hk-lic-20261117-*`（新 25 筆、同 id 重發 10 筆，前版存 history）更正。
+  其他因 20 筆上限沒收的舊號不補（證據包照舊算部分收錄，頁面寫「至少 N 張」）。這支沒有接進每週排程，之後新註冊的號要再跑一次。
 - 原本就有、跟這次無關：nitroprusside 公開頁沒有 MedicationKnowledge（front matter 沒有 drugbank_id），這次沒處理。

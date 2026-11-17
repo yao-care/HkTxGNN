@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對 **PLA2G6 相關神經退化症 (PLA2G6-associated
 | 預測新適應症 | PLA2G6 相關神經退化症 (PLA2G6-associated neurodegeneration) |
 | TxGNN 預測分數 | 0.9971 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
-| 許可證數 | 6 張（有效 6 張） |
+| 香港上市 | 上市中（有效許可證 7 張／共 7 張） |
+| 許可證數 | 7 張（有效 7 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -80,7 +80,13 @@ PLA2G6 相關神經退化症（包含嬰兒型神經軸突營養不良與 PLA2G6
 | HK-68329 | RASAGILINE GENEPHARM TABLETS 1MG | 錠劑 | 未提供 |
 | HK-68530 | RASAGEN TABLETS 1MG | 錠劑 | 未提供 |
 
-另有 HK-67847（RASAGILINA FARMOZ TABLETS 1MG），共 6 張有效單一成分許可證。
+另有 HK-67847（RASAGILINA FARMOZ TABLETS 1MG）與 HK-69047（RASAGILINE SANDOZ TABLETS 1MG），共 7 張有效單一成分許可證。
+
+<!-- review:begin hk-lic-20261117-rasagiline-1 -->
+
+> **查核更正（2026-11-17）**：原文為「另有 HK-67847（RASAGILINA FARMOZ TABLETS 1MG），共 6 張有效單一成分許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69047 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261117-rasagiline-1 -->
 
 ## 安全性考量
 
@@ -104,6 +110,19 @@ PLA2G6 相關神經退化症（包含嬰兒型神經軸突營養不良與 PLA2G6
 - 進行文獻回顧或前臨床（細胞或動物模型）研究驗證
 - 取得香港原廠仿單，完成警語與禁忌的安全性篩選
 - 評估兒童及年輕族群的用藥安全性與劑量
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「另有 HK-67847（RASAGILINA FARMOZ TABLETS 1M」→「另有 HK-67847（RASAGILINA FARMOZ TABLETS 1M」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

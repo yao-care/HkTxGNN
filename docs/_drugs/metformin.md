@@ -52,8 +52,8 @@ TxGNN 模型預測它可能對**典型僵人症候群 (Classic Stiff Person Synd
 | 預測新適應症 | 典型僵人症候群 (Classic Stiff Person Syndrome) |
 | TxGNN 預測分數 | 0.9945 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 19 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證至少 27 張） |
+| 許可證數 | 至少 28 張 |
 | 建議決策 | Hold |
 
 註：原適應症取自 TxGNN 模型（深度學習）所用的適應症資料，香港許可證的核准適應症文字在本次資料中皆為空白。預測分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，並非生物學證據。
@@ -93,11 +93,11 @@ TxGNN 模型預測它可能對**典型僵人症候群 (Classic Stiff Person Synd
 
 ## 香港上市資訊
 
-香港至少有 19 張有效單方許可證（本次收錄 20 張，其中 HK-54377 已註銷）。以下列出 5 張主要許可證：
+香港至少有 24 張有效單方許可證（本次收錄 25 張單方，其中 HK-54377 已註銷）。以下列出 5 張主要許可證：
 
 <!-- review:begin hk-lic-20261117-metformin-1 -->
 
-> **查核更正（2026-11-17）**：原文為「香港共有 20 張有效單方許可證（無已註銷）。」。已更正：HK-54377 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+> **查核更正（2026-11-17）**：原文為「香港共有 20 張有效單方許可證（無已註銷）。」。已更正：HK-54377 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。 現行名單另有產品名與成分相同的 HK-56689（METFORMIN TAB 500MG）與 2026-03 版名單之後新增的 HK-69116、HK-69117、HK-69131、HK-69132（單方）等，已補收（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
 
 <!-- review:end hk-lic-20261117-metformin-1 -->
 
@@ -145,7 +145,7 @@ TxGNN 模型預測它可能對**典型僵人症候群 (Classic Stiff Person Synd
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「香港共有 20 張有效單方許可證（無已註銷）。」→「香港至少有 19 張有效單方許可證（本次收錄 20 張，其中 HK-54377 」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-17 | 「香港共有 20 張有效單方許可證（無已註銷）。」→「香港至少有 24 張有效單方許可證（本次收錄 25 張單方，其中 HK-5437」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
 
 <!-- review:end log -->
 

@@ -51,8 +51,8 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前**
 | 預測新適應症 | 支氣管炎 (Bronchitis) |
 | TxGNN 預測分數 | 0.9921 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 19 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證至少 20 張） |
+| 許可證數 | 至少 21 張 |
 | 建議決策 | Hold |
 
 ---
@@ -93,13 +93,19 @@ TxGNN 的高分（0.9921）屬於計算預測，沒有臨床資料支持，應�
 | HK-19286 | STREPSILS ANTISEPTIC LOZ RED | 含片（資料未載明） | 資料未載明 |
 | HK-67433 | BETACARE SORE THROAT ORANGE LOZENGES 0.6MG/1.2MG | 含片（資料未載明） | 資料未載明 |
 
-本次收錄 20 張單一成分許可證，其中 19 張有效、HK-60367 已註銷，上表僅列出其中 5 張。品名皆顯示為含片類產品。
+本次收錄 21 張許可證（皆為複方），其中 20 張有效、HK-60367 已註銷，上表僅列出其中 5 張。品名除 DIFFLAM WITH ANAESTHETIC SORE THROAT SPRAY（HK-68999，噴劑）外皆顯示為含片類產品。
 
 <!-- review:begin hk-lic-20261117-dichlorobenzyl_alcohol-1 -->
 
-> **查核更正（2026-11-17）**：原文為「目前共有 20 張有效的單一成分許可證，」。已更正：HK-60367 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+> **查核更正（2026-11-17）**：原文為「目前共有 20 張有效的單一成分許可證，」。已更正：HK-60367 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。 現行名單另有 2026-03 版之後新增的本藥註冊 HK-68999（DIFFLAM WITH ANAESTHETIC SORE THROAT SPRAY），已補收（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
 
 <!-- review:end hk-lic-20261117-dichlorobenzyl_alcohol-1 -->
+
+<!-- review:begin hk-lic-20261117-dichlorobenzyl_alcohol-2 -->
+
+> **查核更正（2026-11-17）**：原文為「品名皆顯示為含片類產品。」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-68999 DIFFLAM WITH ANAESTHETIC SORE THROAT SPRAY（benzydamine、dichlorobenzyl alcohol、lignocaine 複方噴劑）屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261117-dichlorobenzyl_alcohol-2 -->
 
 ---
 
@@ -131,7 +137,8 @@ TxGNN 的高分（0.9921）屬於計算預測，沒有臨床資料支持，應�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「目前共有 20 張有效的單一成分許可證，」→「本次收錄 20 張單一成分許可證，其中 19 張有效、HK-60367 已註銷，」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-17 | 「目前共有 20 張有效的單一成分許可證，」→「本次收錄 21 張許可證（皆為複方），其中 20 張有效、HK-60367 已註」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-17 | 「品名皆顯示為含片類產品。」→「品名除 DIFFLAM WITH ANAESTHETIC SORE THROAT SPRAY（HK-68999」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

@@ -53,8 +53,8 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 | 預測新適應症 | Manic bipolar affective disorder |
 | TxGNN 預測分數 | 0.9996 |
 | 證據等級 | L5（有 ≥2 個已完成的 Phase 3 試驗，但療效結果尚待核實） |
-| 香港上市 | 上市中（有效許可證 12 張／共 12 張） |
-| 許可證數 | 12 張（有效 12 張） |
+| 香港上市 | 上市中（有效許可證 14 張／共 14 張） |
+| 許可證數 | 14 張（有效 14 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ---
@@ -105,7 +105,13 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 | HK-62585 | VIMPAT SYRUP 10MG/ML（UCB） | 糖漿 | 本次資料未提供 |
 | HK-61174 | VIMPAT SOLUTION FOR INFUSION 10MG/ML（UCB） | 輸注溶液 | 本次資料未提供 |
 
-另有 7 張許可證為學名藥或其他品牌（LACOSAMIDE TABLETS、LACOTROL、LACOSAMIDE GENEPHARM），共 12 張，皆為有效單方製劑。
+另有 7 張許可證為學名藥或其他品牌（LACOSAMIDE TABLETS、LACOTROL、LACOSAMIDE GENEPHARM）及 2 張注射劑（LACOSAMIDE INJECTION USP、BALACOS），共 14 張，皆為有效單方製劑。
+
+<!-- review:begin hk-lic-20261117-lacosamide-1 -->
+
+> **查核更正（2026-11-17）**：原文為「另有 7 張許可證為學名藥或其他品牌（LACOSAMIDE TABLETS、LACOTROL、LACOSAMIDE GENEPHARM），共 12 張」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69010、HK-69105 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261117-lacosamide-1 -->
 
 ---
 
@@ -147,6 +153,18 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 | 腎因性抗利尿激素分泌不當症候群 | 0.9991 | L5 | Hold（無證據，且抗癲癇藥可能引起低血鈉） |
 | 伴腦幹先兆偏頭痛 | 0.9982 | L5 | Hold（僅有間接機轉支持） |
 | 拔毛症、失眠、強迫症、乳突性結膜炎 | 0.9972–0.9992 | L5 | Hold（無相關證據） |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「另有 7 張許可證為學名藥或其他品牌（LACOSAMIDE TABLETS、LA」→「另有 7 張許可證為學名藥或其他品牌（LACOSAMIDE TABLETS、LA」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

@@ -51,8 +51,8 @@ TxGNN 模型排名第一的預測是**頭皮單純性毛髮稀少症**，但該�
 | 預測新適應症 | 頭皮單純性毛髮稀少症 (Hypotrichosis simplex of the scalp)（排名第 1，無證據）；另列出有文獻支持的幼年特發性關節炎 (hypotrichosis simplex of the scalp) |
 | TxGNN 預測分數 | 0.9969 |
 | 證據等級 | L5（排名第 1 的預測）；JIA 為 L3 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證至少 24 張） |
+| 許可證數 | 至少 24 張 |
 | 建議決策 | Hold（排名第 1 的預測）；JIA 列為研究問題 (Research Question) |
 
 ---

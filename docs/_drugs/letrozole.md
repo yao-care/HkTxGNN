@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**乳頭癌 (Nipple Carcinoma)** 有效，
 | 預測新適應症 | 乳頭癌 (nipple carcinoma) |
 | TxGNN 預測分數 | 0.9976 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 11 張／共 12 張） |
-| 許可證數 | 12 張（有效 11 張） |
+| 香港上市 | 上市中（有效許可證 12 張／共 13 張） |
+| 許可證數 | 13 張（有效 12 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -89,11 +89,11 @@ TxGNN 模型預測它可能對**乳頭癌 (Nipple Carcinoma)** 有效，
 | HK-61004 | LETROZOLE-TEVA TAB 2.5MG | 未提供 | 未提供 |
 | HK-62001 | LETROZOLE STADA TABLETS 2.5MG | 未提供 | 未提供 |
 
-目前共有 12 張單方許可證（11 張有效；HK-61004 已註銷），上表僅列出其中 5 張。
+目前共有 13 張單方許可證（12 張有效；HK-61004 已註銷），上表僅列出其中 5 張。
 
 <!-- review:begin hk-lic-20261117-letrozole-1 -->
 
-> **查核更正（2026-11-17）**：原文為「目前共有 12 張有效單方許可證，」。已更正：HK-61004 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+> **查核更正（2026-11-17）**：原文為「目前共有 12 張有效單方許可證，」。已更正：HK-61004 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。 已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69106 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
 
 <!-- review:end hk-lic-20261117-letrozole-1 -->
 
@@ -135,7 +135,7 @@ Letrozole 為荷爾蒙（內分泌）治療藥物，不屬於傳統細胞毒性�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「目前共有 12 張有效單方許可證，」→「目前共有 12 張單方許可證（11 張有效；HK-61004 已註銷），」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-17 | 「目前共有 12 張有效單方許可證，」→「目前共有 13 張單方許可證（12 張有效；HK-61004 已註銷），」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
 
 <!-- review:end log -->
 

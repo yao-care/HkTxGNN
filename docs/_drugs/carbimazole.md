@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**甲狀腺素抵抗症（resistance to thyroid ho
 | 預測新適應症 | 甲狀腺素抵抗症（resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta） |
 | TxGNN 預測分數 | 0.9971 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 6 張／共 6 張） |
-| 許可證數 | 6 張（有效 6 張） |
+| 香港上市 | 上市中（有效許可證 7 張／共 7 張） |
+| 許可證數 | 7 張（有效 7 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

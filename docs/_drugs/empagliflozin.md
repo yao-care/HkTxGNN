@@ -52,8 +52,8 @@ TxGNN 模型預測它可能對**典型僵人症候群 (Classic Stiff Person Synd
 | 預測新適應症 | 典型僵人症候群 (Classic Stiff Person Syndrome) |
 | TxGNN 預測分數 | 0.9906 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 10 張／共 10 張） |
-| 許可證數 | 10 張（有效 10 張） |
+| 香港上市 | 上市中（有效許可證 16 張／共 16 張） |
+| 許可證數 | 16 張（有效 16 張） |
 | 建議決策 | Hold |
 
 註：香港許可證資料中未提供核准適應症文字，上表「原適應症」的來源並非香港許可證資料。
@@ -92,7 +92,13 @@ TxGNN 模型預測它可能對**典型僵人症候群 (Classic Stiff Person Synd
 | HK-65354 | GLYXAMBI TABLETS 25MG/5MG | 錠劑 | 未提供 |
 | HK-64242 | JARDIANCE DUO TABLETS 12.5MG/1000MG | 錠劑 | 未提供 |
 
-以上列出 5 張主要許可證，共 10 張有效許可證，均由 Boehringer Ingelheim (HK) Ltd 持有。
+以上列出 5 張主要許可證，共 16 張有效許可證（含單方與複方；JARDIANCE、GLYXAMBI、JARDIANCE DUO 由 Boehringer Ingelheim (HK) Ltd 持有，其餘為其他公司的學名藥）。
+
+<!-- review:begin hk-lic-20261117-empagliflozin-1 -->
+
+> **查核更正（2026-11-17）**：原文為「共 10 張有效許可證，均由 Boehringer Ingelheim (HK) Ltd 持有」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69040、HK-69041、HK-69189、HK-69190、HK-69229、HK-69230 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261117-empagliflozin-1 -->
 
 ---
 
@@ -130,6 +136,19 @@ TxGNN 模型預測它可能對**典型僵人症候群 (Classic Stiff Person Synd
 | 3 | 眼骨發育不良 (Opsismodysplasia) | 0.9903 | L5 | Hold |
 
 Opsismodysplasia 為由 INPPL1 突變造成的罕見骨骼發育不良，涉及 PI3K／胰島素訊號路徑。雖然與葡萄糖及胰島素訊號有推測性的關聯，但尚未驗證；且對兒童骨骼疾病使用 SGLT2 抑制劑也會引發安全性疑慮。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「共 10 張有效許可證，均由 Boehringer Ingelheim (HK)」→「共 16 張有效許可證（含單方與複方；JARDIANCE、GLYXAMBI、JA」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

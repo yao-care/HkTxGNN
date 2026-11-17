@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**肺動靜脈畸形 (pulmonary arteriovenous malf
 | 預測新適應症 | 肺動靜脈畸形 (pulmonary arteriovenous malformation (disease)) |
 | TxGNN 預測分數 | 0.9941 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 2 張／共 2 張） |
-| 許可證數 | 2 張（有效 2 張） |
+| 香港上市 | 上市中（有效許可證 4 張／共 4 張） |
+| 許可證數 | 4 張（有效 4 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？

@@ -48,8 +48,8 @@ Aripiprazole 是一種非典型抗精神病藥，作用在多巴胺與血清素�
 | 預測新適應症 | Gaze palsy, familial horizontal, with progressive scoliosis |
 | TxGNN 預測分數 | 0.9960 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證至少 26 張） |
+| 許可證數 | 至少 26 張 |
 | 建議決策 | Proceed with Guardrails |
 
 ## 為什麼這個預測合理？
