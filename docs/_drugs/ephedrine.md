@@ -49,8 +49,8 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 | 預測新適應症 | 鼻腔疾病 (nasal cavity disease) |
 | TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L4 |
-| 香港上市 | 上市中（有效許可證至少 19 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 402 張／共 416 張） |
+| 許可證數 | 416 張（有效 402 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -84,11 +84,11 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 | HK-65424 | EPHEDRINE HYDROCHLORIDE SOLUTION FOR INJECTION 30MG/1ML | 注射劑（依品名） | 資料未提供 |
 | HK-23992 | MECODIN COUGH SYRUP | 糖漿（依品名） | 資料未提供 |
 
-香港至少有 19 張有效的單方許可證，包含注射劑、滴鼻劑、錠劑及咳嗽糖漿等多種產品（本次收錄 20 張，其中 HK-47938 已註銷）。以上僅列出其中 5 張。
+香港共有 416 張含本藥成分的許可證（有效 402 張、已註銷 14 張；單一成分 9 張、複方 407 張），包含注射劑、滴鼻劑、錠劑及咳嗽糖漿等多種產品。以上僅列出其中 5 張。
 
 <!-- review:begin hk-lic-20261117-ephedrine-1 -->
 
-> **查核更正（2026-11-17）**：原文為「香港共有 20 張有效的單方許可證，包含注射劑、滴鼻劑、錠劑及咳嗽糖漿等多種產品，無已註銷者。」。已更正：HK-47938 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+> **查核更正（2026-11-17）**：原文為「香港共有 20 張有效的單方許可證，包含注射劑、滴鼻劑、錠劑及咳嗽糖漿等多種產品，無已註銷者。」。已更正：HK-47938 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。 已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 416 張含本藥成分的許可證（有效 402 張、已註銷 14 張；單一成分 9 張、複方 407 張）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
 
 <!-- review:end hk-lic-20261117-ephedrine-1 -->
 
@@ -124,7 +124,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「香港共有 20 張有效的單方許可證，包含注射劑、滴鼻劑、錠劑及咳嗽糖漿等多種產品」→「香港至少有 19 張有效的單方許可證，包含注射劑、滴鼻劑、錠劑及咳嗽糖漿等多種產」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-17 | 「香港共有 20 張有效的單方許可證，包含注射劑、滴鼻劑、錠劑及咳嗽糖漿等多種產品」→「香港共有 416 張含本藥成分的許可證（有效 402 張、已」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
 
 <!-- review:end log -->
 

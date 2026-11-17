@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 | 預測新適應症 | 馬尾症候群 (Cauda Equina Syndrome) |
 | TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 19 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 22 張／共 23 張） |
+| 許可證數 | 23 張（有效 22 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -72,11 +72,11 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 
 ## 香港上市資訊
 
-下列為本次收錄的 20 張單一成分許可證（19 張有效；HK-60367 已註銷）中的 5 張（資料中未載明劑型與核准適應症，品名皆為含片產品）：
+下列為香港 23 張含本藥成分許可證（有效 22 張、已註銷 1 張；皆為複方）中的 5 張（資料中未載明劑型與核准適應症；品名皆為含片產品）：
 
 <!-- review:begin hk-lic-20261117-amylmetacresol-1 -->
 
-> **查核更正（2026-11-17）**：原文為「下列為 20 張有效單一成分許可證中的 5 張」。已更正：HK-60367 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+> **查核更正（2026-11-17）**：原文為「下列為 20 張有效單一成分許可證中的 5 張（資料中未載明劑型與核准適應症，品名皆為含片產品）：」。已更正：HK-60367 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。 已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 23 張含本藥成分的許可證（有效 22 張、已註銷 1 張；皆為複方）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
 
 <!-- review:end hk-lic-20261117-amylmetacresol-1 -->
 
@@ -115,7 +115,7 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「下列為 20 張有效單一成分許可證中的 5 張」→「下列為本次收錄的 20 張單一成分許可證（19 張有效；HK-60367 已註銷」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-17 | 「下列為 20 張有效單一成分許可證中的 5 張（資料中未載明劑型與核准適應症，品」→「下列為香港 23 張含本藥成分許可證（有效 22 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
 
 <!-- review:end log -->
 

@@ -49,8 +49,8 @@ TxGNN 模型預測它可能對**慢性萎縮性肢端皮膚炎 (Acrodermatitis C
 | 預測新適應症 | 慢性萎縮性肢端皮膚炎 (Acrodermatitis Chronica Atrophicans) |
 | TxGNN 預測分數 | 0.9995 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 21 張／共 21 張） |
+| 許可證數 | 21 張（有效 21 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -69,7 +69,13 @@ TxGNN 模型預測它可能對**慢性萎縮性肢端皮膚炎 (Acrodermatitis C
 
 ## 香港上市資訊
 
-以下為資料中列出的部分許可證（共至少 20 張，皆為單一成分、有效狀態；資料未提供核准適應症與劑型文字）：
+以下為資料中列出的部分許可證（共 21 張含本藥成分的許可證，全部有效，單一成分 1 張、複方 20 張；資料未提供核准適應症與劑型文字）：
+
+<!-- review:begin hk-lic-20261117-phenol-1 -->
+
+> **查核更正（2026-11-17）**：原文為「以下為資料中列出的部分許可證（共至少 20 張，皆為單一成分、有效狀態；資料未提供核准適應症與劑型文字）：」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 21 張含本藥成分的許可證（全部有效；單一成分 1 張、複方 20 張）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-phenol-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -99,6 +105,19 @@ TxGNN 模型預測它可能對**慢性萎縮性肢端皮膚炎 (Acrodermatitis C
 - 取得香港衛生署仿單的警語與禁忌資料
 - 找到直接針對慢性萎縮性肢端皮膚炎的前臨床或臨床研究
 - 評估外用與全身使用的安全性與給藥途徑
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「以下為資料中列出的部分許可證（共至少 20 張，皆為單一成分、有效狀態；資料未提」→「以下為資料中列出的部分許可證（共 21 張含本藥成分的許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

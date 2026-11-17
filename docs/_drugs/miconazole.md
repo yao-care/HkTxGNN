@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**痤瘡 (acne (disease))** 有效，
 | 預測新適應症 | 痤瘡 (acne (disease)) |
 | TxGNN 預測分數 | 0.9954 |
 | 證據等級 | L4 |
-| 香港上市 | 上市中（有效許可證至少 19 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 85 張／共 86 張） |
+| 許可證數 | 86 張（有效 85 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -80,11 +80,11 @@ TxGNN 模型預測它可能對**痤瘡 (acne (disease))** 有效，
 
 ## 香港上市資訊
 
-目前資料顯示香港至少有 19 張有效的單一成分許可證（本次收錄 20 張，其中 HK-48144 已註銷），且清單可能不完整。以下列出 5 張：
+香港共有 86 張含本藥成分的許可證（有效 85 張、已註銷 1 張；單一成分 18 張、複方 68 張），以下列出 5 張：
 
 <!-- review:begin hk-lic-20261117-miconazole-1 -->
 
-> **查核更正（2026-11-17）**：原文為「目前資料顯示香港共有 20 張有效的單一成分許可證，」。已更正：HK-48144 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+> **查核更正（2026-11-17）**：原文為「目前資料顯示香港共有 20 張有效的單一成分許可證，且清單可能不完整。」。已更正：HK-48144 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。 已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 86 張含本藥成分的許可證（有效 85 張、已註銷 1 張；單一成分 18 張、複方 68 張）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
 
 <!-- review:end hk-lic-20261117-miconazole-1 -->
 
@@ -126,7 +126,7 @@ TxGNN 模型預測它可能對**痤瘡 (acne (disease))** 有效，
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「目前資料顯示香港共有 20 張有效的單一成分許可證，」→「目前資料顯示香港至少有 19 張有效的單一成分許可證（本次收錄 20 張，其中 」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-17 | 「目前資料顯示香港共有 20 張有效的單一成分許可證，且清單可能不完整。」→「香港共有 86 張含本藥成分的許可證（有效 85 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
 
 <!-- review:end log -->
 

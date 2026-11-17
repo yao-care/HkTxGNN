@@ -51,8 +51,8 @@ TxGNN 模型預測它可能對**肺囊蟲症 (Pneumocystosis)** 有效，但目�
 | 預測新適應症 | 肺囊蟲症 (pneumocystosis) |
 | TxGNN 預測分數 | 0.9999 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 21 張） |
-| 許可證數 | 至少 21 張 |
+| 香港上市 | 上市中（有效許可證 36 張／共 36 張） |
+| 許可證數 | 36 張（有效 36 張） |
 | 建議決策 | Hold |
 
 ---
@@ -91,7 +91,13 @@ TxGNN 模型預測它可能對**肺囊蟲症 (Pneumocystosis)** 有效，但目�
 
 ## 香港上市資訊
 
-以下列出 5 張主要許可證（共 20 張，皆為有效的單一成分製劑）：
+以下列出 5 張主要許可證（共 36 張含本藥成分的許可證，全部有效，皆為單一成分）：
+
+<!-- review:begin hk-lic-20261117-metronidazole-1 -->
+
+> **查核更正（2026-11-17）**：原文為「以下列出 5 張主要許可證（共 20 張，皆為有效的單一成分製劑）：」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 36 張含本藥成分的許可證（全部有效；皆為單一成分）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-metronidazole-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -130,6 +136,19 @@ TxGNN 模型預測它可能對**肺囊蟲症 (Pneumocystosis)** 有效，但目�
 - 若要探索此方向，需先有體外或動物模型的前臨床證據，再考慮臨床研究。
 
 **補充觀察（其他預測適應症）：** 同一份預測清單中，**外陰潰瘍（ulceration of vulva）**（證據等級 L3，有 22 例外陰克隆氏症臨床研究、系統性回顧及阿米巴性潰瘍病例報告）與**帽狀息肉病（cap polyposis）**（L4，有緩解的病例報告）的證據相對較具生物學合理性，可列為後續優先探討的研究問題。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「以下列出 5 張主要許可證（共 20 張，皆為有效的單一成分製劑）：」→「以下列出 5 張主要許可證（共 36 張含本藥成分的許可證，」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

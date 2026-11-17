@@ -51,8 +51,8 @@ TxGNN 模型預測它可能對**胃輕癱 (Gastroparesis)** 有效，但目前**
 | 預測新適應症 | 胃輕癱 (Gastroparesis) |
 | TxGNN 預測分數 | 0.9955 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 33 張／共 33 張） |
+| 許可證數 | 33 張（有效 33 張） |
 | 建議決策 | Hold |
 
 ---
@@ -104,7 +104,13 @@ TxGNN 對**硬化性膽管炎 (Sclerosing Cholangitis)** 的預測分數為 0.99
 | HK-59756 | CELAMIN G INJ | — | — |
 | HK-06059 | PAN-AMIN G INJ | — | — |
 
-共 20 張有效單一成分許可證，此處僅列出前 5 張。
+香港共有 33 張含本藥成分的許可證（全部有效；皆為複方），此處僅列出前 5 張。
+
+<!-- review:begin hk-lic-20261117-histidine-1 -->
+
+> **查核更正（2026-11-17）**：原文為「共 20 張有效單一成分許可證，此處僅列出前 5 張。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 33 張含本藥成分的許可證（全部有效；皆為複方）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-histidine-1 -->
 
 ---
 
@@ -130,6 +136,19 @@ TxGNN 對**硬化性膽管炎 (Sclerosing Cholangitis)** 的預測分數為 0.99
 - 針對胃輕癱，找出 Histidine 與胃動力調控之間的機轉證據
 - 針對硬化性膽管炎，先釐清補充 Histidine 是否會增加組胺訊號、加重疾病（方向性驗證）
 - 在有機轉依據後，再規劃前臨床或小型探索性試驗
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「共 20 張有效單一成分許可證，此處僅列出前 5 張。」→「香港共有 33 張含本藥成分的許可證（全部有效；皆為複方），」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

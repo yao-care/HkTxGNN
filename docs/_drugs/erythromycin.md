@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 | 預測新適應症 | 點狀上皮角膜結膜炎 (punctate epithelial keratoconjunctivitis) |
 | TxGNN 預測分數 | 0.9989 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 18 張／共 19 張） |
-| 許可證數 | 19 張（有效 18 張） |
+| 香港上市 | 上市中（有效許可證 19 張／共 20 張） |
+| 許可證數 | 20 張（有效 19 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -82,11 +82,11 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 | HK-20451 | ERISMYCINE SUSP 125MG BASE/5ML | 懸液 | 許可證資料未載明 |
 | HK-30882 | ERYSOL POWDER FOR ORAL SUSP 200MG/5ML | 口服懸液用粉劑 | 許可證資料未載明 |
 
-此外還有另外 14 張許可證（其中 HK-40181 已註銷，其餘有效），包含外用凝膠與乳膏產品（如 ERYACNE GEL 4%、ERYMED CREAM 2%）。
+香港共有 20 張含本藥成分的許可證（有效 19 張、已註銷 1 張；單一成分 18 張、複方 2 張），包含外用凝膠與乳膏產品（如 ERYACNE GEL 4%、ERYMED CREAM 2%）。
 
 <!-- review:begin hk-lic-20261117-erythromycin-1 -->
 
-> **查核更正（2026-11-17）**：原文為「此外還有另外 14 張有效許可證，」。已更正：HK-40181 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+> **查核更正（2026-11-17）**：原文為「此外還有另外 14 張有效許可證，」。已更正：HK-40181 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。 已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 20 張含本藥成分的許可證（有效 19 張、已註銷 1 張；單一成分 18 張、複方 2 張）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
 
 <!-- review:end hk-lic-20261117-erythromycin-1 -->
 
@@ -121,7 +121,7 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「此外還有另外 14 張有效許可證，」→「此外還有另外 14 張許可證（其中 HK-40181 已註銷，其餘有效），」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-17 | 「此外還有另外 14 張有效許可證，」→「香港共有 20 張含本藥成分的許可證（有效 19 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
 
 <!-- review:end log -->
 

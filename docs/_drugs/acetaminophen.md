@@ -47,8 +47,8 @@ TxGNN 模型為 Acetaminophen 產生的候選適應症，經溯源後全部屬�
 | 新預測適應症 | 無（所有可溯源的模型候選皆為已知用途） |
 | 模型候選中的已知用途數 | 0 |
 | 證據等級 | 不適用 |
-| 香港上市 | 上市中（有效許可證至少 22 張） |
-| 許可證數 | 至少 22 張 |
+| 香港上市 | 上市中（有效許可證 693 張／共 709 張） |
+| 許可證數 | 709 張（有效 693 張） |
 
 ## 模型候選中的已知用途
 
@@ -95,7 +95,13 @@ TxGNN 模型為 Acetaminophen 產生的候選適應症，經溯源後全部屬�
 | HK-65117 | PARAMOLAN ORAL SOLUTION 120MG/5ML |  | 有效 |
 | HK-47590 | CHRISTAMOL-2 TAB 500MG (W) |  | 有效 |
 
-資料只收錄部分許可證，清單可能不完整。
+香港共有 709 張含本藥成分的許可證（有效 693 張、已註銷 16 張；單一成分 213 張、複方 496 張）。
+
+<!-- review:begin hk-lic-20261117-acetaminophen-1 -->
+
+> **查核更正（2026-11-17）**：原文為「資料只收錄部分許可證，清單可能不完整。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 709 張含本藥成分的許可證（有效 693 張、已註銷 16 張；單一成分 213 張、複方 496 張）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-acetaminophen-1 -->
 
 ## 安全性考量
 
@@ -108,6 +114,18 @@ TxGNN 模型為 Acetaminophen 產生的候選適應症，經溯源後全部屬�
 其餘警語與禁忌請參考原廠仿單。
 
 ---
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「資料只收錄部分許可證，清單可能不完整。」→「香港共有 709 張含本藥成分的許可證（有效 693 張、已」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

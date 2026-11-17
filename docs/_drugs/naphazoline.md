@@ -51,8 +51,8 @@ TxGNN 模型預測它可能對**頭皮單純性毛髮稀疏 (hypotrichosis simpl
 | 預測新適應症 | 頭皮單純性毛髮稀疏 (hypotrichosis simplex of the scalp) |
 | TxGNN 預測分數 | 0.9983 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 36 張／共 37 張） |
+| 許可證數 | 37 張（有效 36 張） |
 | 建議決策 | Hold |
 
 ---
@@ -83,7 +83,13 @@ TxGNN 模型預測它可能對**頭皮單純性毛髮稀疏 (hypotrichosis simpl
 
 ## 香港上市資訊
 
-目前共有 20 張有效的單一成分許可證，皆未提供劑型與核准適應症文字。以下列出 5 張主要許可證：
+香港共有 37 張含本藥成分的許可證（有效 36 張、已註銷 1 張；單一成分 8 張、複方 29 張），皆未提供劑型與核准適應症文字。以下列出 5 張主要許可證：
+
+<!-- review:begin hk-lic-20261117-naphazoline-1 -->
+
+> **查核更正（2026-11-17）**：原文為「目前共有 20 張有效的單一成分許可證，皆未提供劑型與核准適應症文字。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 37 張含本藥成分的許可證（有效 36 張、已註銷 1 張；單一成分 8 張、複方 29 張）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-naphazoline-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -120,6 +126,19 @@ TxGNN 模型預測它可能對**頭皮單純性毛髮稀疏 (hypotrichosis simpl
 - 取得香港衛生署仿單（警語、禁忌），補齊安全性資料。
 - 先做前臨床（毛囊模型、局部給藥）研究，確認是否有任何生物學合理性，再考慮臨床試驗。
 - 確認給藥途徑與劑型是否適合頭皮局部使用。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「目前共有 20 張有效的單一成分許可證，皆未提供劑型與核准適應症文字。」→「香港共有 37 張含本藥成分的許可證（有效 36 張、已註銷」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

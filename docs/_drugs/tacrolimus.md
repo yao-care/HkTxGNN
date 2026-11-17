@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**脂漏性皮膚炎 (Seborrheic Dermatitis)** 有
 | 預測新適應症 | 脂漏性皮膚炎 (seborrheic dermatitis) |
 | TxGNN 預測分數 | 0.9926 |
 | 證據等級 | L2（僅 1 個已完成的 Phase 3 試驗，且為單一試驗；另有 1 個 Phase 4） |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 45 張／共 45 張） |
+| 許可證數 | 45 張（有效 45 張） |
 | 建議決策 | Proceed with Guardrails |
 
 > 註：本報告所編纂的資料中，香港許可證的核准適應症文字皆為空白。
@@ -90,7 +90,13 @@ TxGNN 模型預測它可能對**脂漏性皮膚炎 (Seborrheic Dermatitis)** 有
 
 ## 香港上市資訊
 
-香港共有 20 張有效的單一成分許可證，涵蓋口服膠囊（速釋與緩釋）及外用軟膏。以下列出 5 張主要許可證；資料中未提供劑型與核准適應症文字。
+香港共有 45 張含本藥成分的許可證（全部有效；皆為單一成分），涵蓋口服膠囊（速釋與緩釋）及外用軟膏。以下列出 5 張主要許可證；資料中未提供劑型與核准適應症文字。
+
+<!-- review:begin hk-lic-20261117-tacrolimus-1 -->
+
+> **查核更正（2026-11-17）**：原文為「香港共有 20 張有效的單一成分許可證，涵蓋口服膠囊（速釋與緩釋）及外用軟膏。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 45 張含本藥成分的許可證（全部有效；皆為單一成分）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-tacrolimus-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -133,6 +139,19 @@ Tacrolimus 屬免疫抑制劑（鈣調磷酸酶抑制劑），非傳統抗腫瘤
 **其他預測適應症（供參考）**
 
 - **類副牛皮癬（Parapsoriasis，預測分數 0.9924）**：僅有 2 篇個案報告（外用 tacrolimus 治療苔癬樣糠疹），無臨床試驗，證據等級 L4，建議 **Hold**。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「香港共有 20 張有效的單一成分許可證，涵蓋口服膠囊（速釋與緩釋）及外用軟膏。」→「香港共有 45 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

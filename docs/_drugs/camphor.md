@@ -38,9 +38,15 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "er
 
 ## 一句話總結
 
-Camphor 是多種外用軟膏、藥膏、膏藥與藥油的成分，在香港有 20 張有效許可證。
+Camphor 是多種外用軟膏、藥膏、膏藥與藥油的成分，香港共有 77 張含本藥成分的許可證（全部有效；皆為複方）。
 TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效。
 目前**沒有臨床試驗**，僅有 **3 篇間接文獻**（皆為病例報告、病例系列或回顧），另有一篇 2026 年動物實驗支持相近的偏頭痛亞型。證據仍屬研究假說階段。
+
+<!-- review:begin hk-lic-20261117-camphor-1 -->
+
+> **查核更正（2026-11-17）**：原文為「Camphor 是多種外用軟膏、藥膏、膏藥與藥油的成分，在香港有 20 張有效許可證。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 77 張含本藥成分的許可證（全部有效；皆為複方）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-camphor-1 -->
 
 ---
 
@@ -52,8 +58,8 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效。
 | 預測新適應症 | 偏頭痛 (Migraine Disorder) |
 | TxGNN 預測分數 | 0.9985 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 77 張／共 77 張） |
+| 許可證數 | 77 張（有效 77 張） |
 | 建議決策 | Hold |
 
 ---
@@ -99,7 +105,13 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效。
 | HK-31313 | DELTAPHOR LOTION | 未登載 | 未登載 |
 | HK-55838 | VICKS VAPORUB OINT | 未登載 | 未登載 |
 
-以上列出 5 張主要許可證，共 20 張有效單一成分許可證，無已註銷者。從品名可知多為外用的軟膏、乳膏、藥油、噴霧或貼布。
+以上列出 5 張主要許可證，香港共有 77 張含本藥成分的許可證（全部有效；皆為複方）。從品名可知多為外用的軟膏、乳膏、藥油、噴霧或貼布。
+
+<!-- review:begin hk-lic-20261117-camphor-2 -->
+
+> **查核更正（2026-11-17）**：原文為「以上列出 5 張主要許可證，共 20 張有效單一成分許可證，無已註銷者。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 77 張含本藥成分的許可證（全部有效；皆為複方）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-camphor-2 -->
 
 ---
 
@@ -128,6 +140,20 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效。
 - 評估外用與頭痛部位使用的可行性（吸收、皮膚刺激、神經毒性風險）
 - 進一步的動物實驗驗證，再設計小規模探索性臨床試驗
 - 釐清樟腦究竟是緩解還是誘發頭痛的劑量與暴露條件
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「Camphor 是多種外用軟膏、藥膏、膏藥與藥油的成分，在香港有 20 張有效許」→「Camphor 是多種外用軟膏、藥膏、膏藥與藥油的成分，香港」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-17 | 「以上列出 5 張主要許可證，共 20 張有效單一成分許可證，無已註銷者。」→「以上列出 5 張主要許可證，香港共有 77 張含本藥成分的許」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

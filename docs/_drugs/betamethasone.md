@@ -49,8 +49,8 @@ TxGNN 模型預測它可能對**黏液性禿髮 (alopecia mucinosa)** 有效，�
 | 預測新適應症 | 黏液性禿髮 (alopecia mucinosa) |
 | TxGNN 預測分數 | 0.9997 |
 | 證據等級 | L4 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 239 張／共 241 張） |
+| 許可證數 | 241 張（有效 239 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -73,7 +73,13 @@ TxGNN 模型預測它可能對**黏液性禿髮 (alopecia mucinosa)** 有效，�
 
 ## 香港上市資訊
 
-本藥在香港目前為已上市狀態。下表列出其中 5 張單一成分許可證，完整清單可能不止於此。資料庫中未記錄這些許可證的核准適應症與劑型文字。
+本藥在香港目前為已上市狀態。下表列出其中 5 張單一成分許可證，香港共有 241 張含本藥成分的許可證（有效 239 張、已註銷 2 張；單一成分 37 張、複方 204 張）。資料庫中未記錄這些許可證的核准適應症與劑型文字。
+
+<!-- review:begin hk-lic-20261117-betamethasone-1 -->
+
+> **查核更正（2026-11-17）**：原文為「下表列出其中 5 張單一成分許可證，完整清單可能不止於此。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 241 張含本藥成分的許可證（有效 239 張、已註銷 2 張；單一成分 37 張、複方 204 張）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-betamethasone-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -105,6 +111,18 @@ TxGNN 模型預測它可能對**黏液性禿髮 (alopecia mucinosa)** 有效，�
 - 釐清黏液性禿髮與皮膚 T 細胞淋巴瘤的鑑別診斷流程
 - 取得完整的作用機轉資料與原廠仿單的警語、禁忌症
 - 設計小型前瞻性或回溯性研究，評估外用劑型的療效與安全性
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「下表列出其中 5 張單一成分許可證，完整清單可能不止於此。」→「下表列出其中 5 張單一成分許可證，香港共有 241 張含本」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

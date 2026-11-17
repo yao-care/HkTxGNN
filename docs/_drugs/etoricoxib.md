@@ -38,9 +38,15 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "at
 
 ## 一句話總結
 
-Etoricoxib 是選擇性 COX-2 抑制劑，在香港已有 20 張有效許可證。
+Etoricoxib 是選擇性 COX-2 抑制劑，香港共有 68 張含本藥成分的許可證（全部有效；皆為單一成分）。
 TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，分數很高。
 但目前**沒有臨床試驗**，只有 1 篇相關綜述，直接證據極少，屬於模型預測階段。
+
+<!-- review:begin hk-lic-20261117-etoricoxib-1 -->
+
+> **查核更正（2026-11-17）**：原文為「Etoricoxib 是選擇性 COX-2 抑制劑，在香港已有 20 張有效許可證。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 68 張含本藥成分的許可證（全部有效；皆為單一成分）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-etoricoxib-1 -->
 
 ---
 
@@ -52,8 +58,8 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，分數�
 | 預測新適應症 | 偏頭痛 (Migraine Disorder) |
 | TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 31 張） |
-| 許可證數 | 至少 31 張 |
+| 香港上市 | 上市中（有效許可證 68 張／共 68 張） |
+| 許可證數 | 68 張（有效 68 張） |
 | 建議決策 | Hold |
 
 ---
@@ -98,7 +104,13 @@ PGE2 與偏頭痛中的三叉神經血管敏感化及神經性發炎有關，因
 
 ## 香港上市資訊
 
-香港共有 20 張有效單方許可證，以下列出 5 張主要許可證。目前資料未提供劑型與核准適應症。
+香港共有 68 張含本藥成分的許可證（全部有效；皆為單一成分），以下列出 5 張主要許可證。目前資料未提供劑型與核准適應症。
+
+<!-- review:begin hk-lic-20261117-etoricoxib-2 -->
+
+> **查核更正（2026-11-17）**：原文為「香港共有 20 張有效單方許可證，以下列出 5 張主要許可證。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 68 張含本藥成分的許可證（全部有效；皆為單一成分）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-etoricoxib-2 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -135,6 +147,20 @@ PGE2 與偏頭痛中的三叉神經血管敏感化及神經性發炎有關，因
 - 取得香港原廠仿單，確認核准適應症、警語與禁忌症。
 - 補充詳細的作用機轉資料（DrugBank）。
 - 設計小規模探索性試驗，並建立心血管、腎功能與血鉀的安全監測計畫。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「Etoricoxib 是選擇性 COX-2 抑制劑，在香港已有 20 張有效許可」→「Etoricoxib 是選擇性 COX-2 抑制劑，香港共有」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-17 | 「香港共有 20 張有效單方許可證，以下列出 5 張主要許可證。」→「香港共有 68 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

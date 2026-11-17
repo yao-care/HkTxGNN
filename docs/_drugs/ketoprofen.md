@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**肢端中段發育不良 Hunter-Thompson 型 (Ac
 | 預測新適應症 | 肢端中段發育不良 Hunter-Thompson 型 |
 | TxGNN 預測分數 | 0.9998 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 33 張／共 33 張） |
+| 許可證數 | 33 張（有效 33 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -72,7 +72,13 @@ Hunter-Thompson 型肢端中段發育不良是由 CDMP1/GDF5 功能喪失所致�
 
 ## 香港上市資訊
 
-下表為所列出的 5 張許可證（總數至少 20 張，清單可能不完整）。資料中未提供劑型與核准適應症文字。
+下表為所列出的 5 張許可證（共 33 張含本藥成分的許可證，全部有效，皆為單一成分）。資料中未提供劑型與核准適應症文字。
+
+<!-- review:begin hk-lic-20261117-ketoprofen-1 -->
+
+> **查核更正（2026-11-17）**：原文為「下表為所列出的 5 張許可證（總數至少 20 張，清單可能不完整）。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 33 張含本藥成分的許可證（全部有效；皆為單一成分）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-ketoprofen-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -104,6 +110,19 @@ Hunter-Thompson 型肢端中段發育不良是由 CDMP1/GDF5 功能喪失所致�
 - 取得香港仿單的警語與禁忌症資料（目前缺口屬阻擋性）。
 - 若仍有興趣，可先進行文獻回顧與前臨床研究，確認是否有疾病相關證據。
 - 在同樣的預測清單中，可優先評估機轉較合理的候選，例如 LACC1 缺陷所致的幼年型關節炎（仍僅限於症狀緩解，且需考量兒童用藥安全）。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「下表為所列出的 5 張許可證（總數至少 20 張，清單可能不完整）。」→「下表為所列出的 5 張許可證（共 33 張含本藥成分的許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

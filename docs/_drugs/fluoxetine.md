@@ -49,8 +49,8 @@ TxGNN 模型預測它可能對**妄想型人格障礙 (Paranoid Personality Diso
 | 預測新適應症 | 妄想型人格障礙 (paranoid personality disorder) |
 | TxGNN 預測分數 | 0.9992 |
 | 證據等級 | L5（僅有模型預測） |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 22 張／共 22 張） |
+| 許可證數 | 22 張（有效 22 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -77,7 +77,13 @@ TxGNN 模型預測它可能對**妄想型人格障礙 (Paranoid Personality Diso
 
 ## 香港上市資訊
 
-香港共有至少 20 張含 fluoxetine 的單方許可證，皆為有效狀態，以下僅列出 5 張，完整清單可能更多。許可證資料未載明核准適應症文字。
+香港共有 22 張含本藥成分的許可證（全部有效；皆為單一成分），以下僅列出 5 張。許可證資料未載明核准適應症文字。
+
+<!-- review:begin hk-lic-20261117-fluoxetine-1 -->
+
+> **查核更正（2026-11-17）**：原文為「香港共有至少 20 張含 fluoxetine 的單方許可證，皆為有效狀態，以下僅列出 5 張，完整清單可能更多。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 22 張含本藥成分的許可證（全部有效；皆為單一成分）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-fluoxetine-1 -->
 
 | 許可證號 | 品名 | 廠商 |
 |---------|------|------|
@@ -107,6 +113,19 @@ TxGNN 模型預測它可能對**妄想型人格障礙 (Paranoid Personality Diso
 - 取得香港仿單的警語與禁忌資料。
 - 設計針對妄想型人格障礙的小規模前導研究，或系統性搜尋 fluoxetine 用於 A 群人格障礙的文獻。
 - 評估共病憂鬱或焦慮族群中的獲益與風險，並規劃安全性監測。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「香港共有至少 20 張含 fluoxetine 的單方許可證，皆為有效狀態，以下」→「香港共有 22 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

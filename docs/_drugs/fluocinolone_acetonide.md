@@ -49,8 +49,8 @@ Fluocinolone Acetonide 是一種強效局部皮質類固醇，原本用於濕疹
 | 預測新適應症 | Lichen planus pemphigoides |
 | TxGNN 預測分數 | 0.9934 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 40 張／共 40 張） |
+| 許可證數 | 40 張（有效 40 張） |
 | 建議決策 | Hold（列為研究問題，待補充臨床資料） |
 
 ## 為什麼這個預測合理？
@@ -77,7 +77,13 @@ Fluocinolone Acetonide 是一種強效局部皮質類固醇，原本用於濕疹
 
 ## 香港上市資訊
 
-香港共有 20 張有效單一成分許可證，皆為有效狀態。許可證資料中未載明劑型與核准適應症文字。以下列出 5 張主要許可證：
+香港共有 40 張含本藥成分的許可證（全部有效；單一成分 18 張、複方 22 張）。許可證資料中未載明劑型與核准適應症文字。以下列出 5 張主要許可證：
+
+<!-- review:begin hk-lic-20261117-fluocinolone_acetonide-1 -->
+
+> **查核更正（2026-11-17）**：原文為「香港共有 20 張有效單一成分許可證，皆為有效狀態。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 40 張含本藥成分的許可證（全部有效；單一成分 18 張、複方 22 張）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-fluocinolone_acetonide-1 -->
 
 | 許可證號 | 品名 | 廠商 | 備註 |
 |---------|------|------|------|
@@ -111,6 +117,19 @@ Fluocinolone Acetonide 是一種強效局部皮質類固醇，原本用於濕疹
 - 系統性搜尋肥厚性扁平苔癬的局部類固醇臨床試驗與文獻
 - 確認各製劑（乳膏、軟膏）的路徑與強度是否適用於肥厚性病灶
 - 針對萎縮型亞型（環狀萎縮性扁平苔癬）進行專項風險效益評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「香港共有 20 張有效單一成分許可證，皆為有效狀態。」→「香港共有 40 張含本藥成分的許可證（全部有效；單一成分 1」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

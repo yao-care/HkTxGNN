@@ -51,8 +51,8 @@ TxGNN 模型預測它可能對**特定發展障礙 (Specific Developmental Disor
 | 預測新適應症 | 特定發展障礙 (Specific Developmental Disorder) |
 | TxGNN 預測分數 | 1.0000 |
 | 證據等級 | L4 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 23 張／共 24 張） |
+| 許可證數 | 24 張（有效 23 張） |
 | 建議決策 | Hold |
 
 註：香港許可證資料中未載明核准適應症文字。
@@ -99,7 +99,13 @@ TxGNN 分數極高，很可能反映的是網路上與 ADHD 的鄰近性。現�
 | HK-66752 | ATAMA CAPSULES 18MG | 膠囊 | 資料未載明 |
 | HK-66160 | ATOMOTERA CAPSULES 18MG | 膠囊 | 資料未載明 |
 
-全部共 20 張許可證皆為有效的單方製劑，此處僅列出 5 張。
+香港共有 24 張含本藥成分的許可證（有效 23 張、已註銷 1 張；皆為單一成分），此處僅列出 5 張。
+
+<!-- review:begin hk-lic-20261117-atomoxetine-1 -->
+
+> **查核更正（2026-11-17）**：原文為「全部共 20 張許可證皆為有效的單方製劑，此處僅列出 5 張。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 24 張含本藥成分的許可證（有效 23 張、已註銷 1 張；皆為單一成分）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-atomoxetine-1 -->
 
 ---
 
@@ -141,6 +147,18 @@ TxGNN 分數極高，很可能反映的是網路上與 ADHD 的鄰近性。現�
 | 7 | Tourette 症候群 | L3 | 有 1 個 Phase 2 試驗（NCT04354103）因僅收 5 人而提前終止，無可用結果；ADHD 合併抽動的研究顯示未明顯加重抽動 |
 | 8 | 暫時性抽動症 | L3 | 證據由 Tourette 與抽動症文獻外推 |
 | 2、3、9、10 | 面指趾生殖器症候群、軟骨黏液樣纖維瘤、小腦共濟失調、顯性遺傳小腦共濟失調 | L5 | 無試驗也無文獻，僅有模型預測 |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「全部共 20 張許可證皆為有效的單方製劑，此處僅列出 5 張。」→「香港共有 24 張含本藥成分的許可證（有效 23 張、已註銷」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

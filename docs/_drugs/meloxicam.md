@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**肢中發育不良，Hunter-Thompson 型 (acrome
 | 預測新適應症 | 肢中發育不良，Hunter-Thompson 型 |
 | TxGNN 預測分數 | 0.9992 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 18 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 27 張／共 29 張） |
+| 許可證數 | 29 張（有效 27 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -72,11 +72,11 @@ Hunter-Thompson 型肢中發育不良是罕見的骨骼發育異常，已知與 
 
 ## 香港上市資訊
 
-本次彙整的清單列出 20 張單一成分許可證（18 張有效；HK-64633、HK-64473 已註銷），實際張數可能更多。資料中未提供劑型與核准適應症文字。以下列出其中 5 張主要許可證：
+香港共有 29 張含本藥成分的許可證（有效 27 張、已註銷 2 張；皆為單一成分），資料中未提供劑型與核准適應症文字。以下列出其中 5 張主要許可證：
 
 <!-- review:begin hk-lic-20261117-meloxicam-1 -->
 
-> **查核更正（2026-11-17）**：原文為「本次彙整的清單列出 20 張有效的單一成分許可證，」。已更正：HK-64633、HK-64473 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+> **查核更正（2026-11-17）**：原文為「本次彙整的清單列出 20 張有效的單一成分許可證，實際張數可能更多。」。已更正：HK-64633、HK-64473 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。 已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 29 張含本藥成分的許可證（有效 27 張、已註銷 2 張；皆為單一成分）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
 
 <!-- review:end hk-lic-20261117-meloxicam-1 -->
 
@@ -119,7 +119,7 @@ Hunter-Thompson 型肢中發育不良是罕見的骨骼發育異常，已知與 
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「本次彙整的清單列出 20 張有效的單一成分許可證，」→「本次彙整的清單列出 20 張單一成分許可證（18 張有效；HK-64633、HK」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-17 | 「本次彙整的清單列出 20 張有效的單一成分許可證，實際張數可能更多。」→「香港共有 29 張含本藥成分的許可證（有效 27 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
 
 <!-- review:end log -->
 

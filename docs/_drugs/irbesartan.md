@@ -49,8 +49,8 @@ Irbesartan 是血管張力素 II 第一型受體阻斷劑（ARB），原本用�
 | 預測新適應症 | Malignant hypertensive renal disease |
 | TxGNN 預測分數 | 0.9931 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 23 張） |
-| 許可證數 | 至少 23 張 |
+| 香港上市 | 上市中（有效許可證 46 張／共 46 張） |
+| 許可證數 | 46 張（有效 46 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -81,7 +81,13 @@ Irbesartan 是血管張力素 II 第一型受體阻斷劑（ARB），原本用�
 | HK-60779 | CONVERIUM TAB 150MG | 錠劑 | 未提供 |
 | HK-67444 | IFIRMASTA TABLETS 150MG | 錠劑 | 未提供 |
 
-（共 20 張有效單方許可證，上表僅列出 5 張。）
+（共 46 張含本藥成分的許可證，全部有效，單一成分 29 張、複方 17 張；上表僅列出 5 張。）
+
+<!-- review:begin hk-lic-20261117-irbesartan-1 -->
+
+> **查核更正（2026-11-17）**：原文為「共 20 張有效單方許可證，」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 46 張含本藥成分的許可證（全部有效；單一成分 29 張、複方 17 張）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-irbesartan-1 -->
 
 ## 安全性考量
 
@@ -104,6 +110,19 @@ Irbesartan 是血管張力素 II 第一型受體阻斷劑（ARB），原本用�
 - 系統性搜尋 ARB 於腎血管性高血壓、惡性高血壓的臨床與觀察性研究
 - 針對雙側腎動脈狹窄等族群，訂定腎功能與血鉀的監測計畫
 - 確認各許可證的核准適應症與劑型資料
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「共 20 張有效單方許可證，」→「共 46 張含本藥成分的許可證，全部有效，單一成分 29 張」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

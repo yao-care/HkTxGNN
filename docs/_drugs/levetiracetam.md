@@ -49,8 +49,8 @@ TxGNN 模型預測它可能對 **β-酮硫解酶缺乏症（beta-ketothiolase de
 | 預測新適應症 | β-酮硫解酶缺乏症 |
 | TxGNN 預測分數 | 0.9990 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 21 張） |
-| 許可證數 | 至少 21 張 |
+| 香港上市 | 上市中（有效許可證 38 張／共 38 張） |
+| 許可證數 | 38 張（有效 38 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -71,7 +71,13 @@ TxGNN 模型預測它可能對 **β-酮硫解酶缺乏症（beta-ketothiolase de
 
 ## 香港上市資訊
 
-本次整理的資料中，許可證的劑型與核准適應症文字皆為空白。以下為部分主要許可證（清單可能不完整）：
+本次整理的資料中，許可證的劑型與核准適應症文字皆為空白。以下為部分主要許可證：
+
+<!-- review:begin hk-lic-20261117-levetiracetam-1 -->
+
+> **查核更正（2026-11-17）**：原文為「以下為部分主要許可證（清單可能不完整）：」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 38 張含本藥成分的許可證（全部有效；皆為單一成分）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-levetiracetam-1 -->
 
 | 許可證號 | 品名 | 核准適應症 |
 |---------|------|-----------|
@@ -103,6 +109,19 @@ TxGNN 模型預測它可能對 **β-酮硫解酶缺乏症（beta-ketothiolase de
 - 前臨床或病例層級證據，說明是否有神經症狀層面的益處
 - 取得香港衛生署仿單，確認警語與禁忌症
 - 安全性評估，特別是腎功能、血液學及精神症狀方面的風險
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「以下為部分主要許可證（清單可能不完整）：」→「以下為部分主要許可證：」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

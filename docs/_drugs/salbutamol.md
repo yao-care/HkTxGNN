@@ -49,10 +49,16 @@ TxGNN 模型預測它可能對**乳突狀結膜炎 (Papillary Conjunctivitis)** 
 | 預測新適應症 | 乳突狀結膜炎 (Papillary Conjunctivitis) |
 | TxGNN 預測分數 | 1.0000 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張 |
-| 核准數 | 至少 20 張（單一成分許可證，清單可能不完整） |
+| 香港上市 | 上市中（有效許可證 44 張／共 45 張） |
+| 許可證數 | 45 張（有效 44 張） |
+| 核准數 | 45 張（有效 44 張；單一成分 44 張、複方 1 張） |
 | 建議決策 | Hold |
+
+<!-- review:begin hk-lic-20261117-salbutamol-1 -->
+
+> **查核更正（2026-11-17）**：原文為「核准數／至少 20 張（單一成分許可證，清單可能不完整）」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 45 張含本藥成分的許可證（有效 44 張、已註銷 1 張；單一成分 44 張、複方 1 張）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-salbutamol-1 -->
 
 ## 為什麼這個預測合理？
 
@@ -72,7 +78,13 @@ TxGNN 模型預測它可能對**乳突狀結膜炎 (Papillary Conjunctivitis)** 
 
 ## 香港上市資訊
 
-以下為資料中列出的前 5 張單一成分許可證（總數至少 20 張，清單可能不完整）。許可證資料中未載明核准適應症與劑型。
+以下為資料中列出的前 5 張單一成分許可證（共 45 張含本藥成分的許可證，有效 44 張、已註銷 1 張，單一成分 44 張、複方 1 張）。許可證資料中未載明核准適應症與劑型。
+
+<!-- review:begin hk-lic-20261117-salbutamol-2 -->
+
+> **查核更正（2026-11-17）**：原文為「以下為資料中列出的前 5 張單一成分許可證（總數至少 20 張，清單可能不完整）。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 45 張含本藥成分的許可證（有效 44 張、已註銷 1 張；單一成分 44 張、複方 1 張）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-salbutamol-2 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -119,6 +131,20 @@ TxGNN 模型預測它可能對**乳突狀結膜炎 (Papillary Conjunctivitis)** 
 - **異位性結膜炎**（L4）：僅有動物前臨床研究（[PMID 3666475](https://pubmed.ncbi.nlm.nih.gov/3666475/)、[PMID 2906082](https://pubmed.ncbi.nlm.nih.gov/2906082/)），無人體試驗。
 - **普通感冒**（L3）：有一篇比較蜂蜜、salbutamol 與安慰劑的隨機雙盲研究（[PMID 26859020](https://pubmed.ncbi.nlm.nih.gov/26859020/)），但設計與結果資料不足。
 - **咽炎、鼻腔疾病、急性喉咽炎、肛門直腸狹窄**（L5）：無直接證據或機轉依據。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「&#124; 核准數 &#124; 至少 20 張（單一成分許可證，清單可能不完整） &#124;」→「&#124; 核准數 &#124; 45 張（有效 44 張；單一成分 44 張」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-17 | 「以下為資料中列出的前 5 張單一成分許可證（總數至少 20 張，清單可能不完整）」→「以下為資料中列出的前 5 張單一成分許可證（共 45 張含本」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

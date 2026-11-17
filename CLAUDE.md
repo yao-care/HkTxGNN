@@ -538,5 +538,15 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   A. 2026-03 版之後新增、DrugBank ID 跟證據包相交的號（313 筆，total_matches 同步加）；B. 證據包裡已註銷的號、現行名單有同產品名同成分的另一個號而證據包因 20 筆上限沒收到（metformin HK-54377→HK-56689，2 個證據包）。
   151 個證據包補 315 筆（ezetimibe HK-69166 屬 A）；102 頁狀態列／張數列由程式同步；正文張數跟新事實矛盾的 33 頁以 `hk-lic-20261117-*`（新 25 筆、同 id 重發 10 筆，前版存 history）更正。
   其他因 20 筆上限沒收的舊號不補（證據包照舊算部分收錄，頁面寫「至少 N 張」）。這支沒有接進每週排程，之後新註冊的號要再跑一次。
+- 拿掉證據包 20 筆上限（同日，用戶決定）：`add_current_registrations.py` 預設改做 C——照原收錄規則補齊本藥全部註冊號（2026-03 版名單上的號照 drug_mapping.csv 的 DrugBank ID，
+  之後新增的號照 A 的 map_fda_drugs_to_drugbank；不放寬），現行名單有的補成現行紀錄，2026-03 版有、現行名單已不列的補成已註銷（drugoffice_not_listed，同 license_adapter）；
+  補完 total_matches＝紀錄數、`tfda.complete`＝名單 lastUpdate，證據包不再是 partial（drug_evidence_pack 的 partial＝total_matches 大於紀錄數）。可重複執行、只加不刪，每筆記 source／added；`--no-complete` 是舊行為。
+  2026-11-17 跑 2026-11-13 版名單：300 個證據包補 18,171 筆（現行 17,803、已不列 368；含 17 個原本就算完整、但 drug_mapping 對到的號比證據包多的證據包，例 testosterone 2→5 張），
+  部分收錄的證據包 283→0；171 頁狀態列／張數列由程式同步（165 頁從「至少 N 張」變完整張數，例 acetaminophen 至少 22→709 張中 693 張有效、amoxicillin→156 張中 153 張有效）。
+  正文依舊證據包寫的張數、「至少 N 張」「清單可能不完整」、「皆為有效／皆為單一成分／無已註銷」以 154 筆新 `hk-lic-20261117-*`（142 頁，含 6 格快速總覽「核准數」列）、26 筆同 id 重發（前版存 history）更正，
+  統一寫成「香港共有 N 張含本藥成分的許可證（有效 V 張、已註銷 C 張；單一成分 S 張、複方 M 張）」；單一成分／複方照註冊名單 activeIng 個數（事實層的 valid_single 用「;;」切，HK 每張都算單方，不能用）。
+  原文的單方說法有不少跟事實相反（例 alanine、isoleucine 等胺基酸、amylmetacresol 實為全部複方）。更正後保留了原文劑型全稱說法（「皆為眼藥水」「皆為錠劑」等，依舊證據包前 20 張寫的）的 10 句、
+  sulfadiazine 的「其餘 15 張…」子集說法 1 句，劑型沒有逐張確認，列進 drug_reviews_uncertain.json（open）。每週排程跑的是同一支（預設 C），之後新註冊或新對到的號會自動補齊、證據包維持完整；正文要另寫紀錄。
+  母目錄 check_drug_page.py 對 clopidogrel（「並不代表對所有偏頭痛患者有效」，臨床句）、piroxicam（「所有已列許可證皆為單一成分製劑、狀態有效」，上表 5 張確實有效）報 M3c，是頁面變完整後才會判的誤報，沒改。
 - 原本就有、跟這次無關：nitroprusside 公開頁沒有 MedicationKnowledge（front matter 沒有 drugbank_id），這次沒處理。
 - 2026-11-17 起每週排程（license-refresh.yml）在 license_refresh 前先下載現行 DrugList.xml 跑 `scripts/add_current_registrations.py`，新註冊的本藥號碼會自動補進證據包；有補收就照常發新 Release。

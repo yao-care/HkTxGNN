@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (hyperamylasemia)** 有效，
 | 預測新適應症 | 高澱粉酶血症 (hyperamylasemia) |
 | TxGNN 預測分數 | 0.9939 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 28 張／共 28 張） |
+| 許可證數 | 28 張（有效 28 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -86,7 +86,13 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (hyperamylasemia)** 有效，
 | HK-64249 | KORIXAL POWDER FOR SOLUTION FOR INJECTION 1G | 未記載 | 未記載 |
 | HK-49794 | MEDAXONUM FOR 1M INJ 500MG (W. SOLVENT) | 未記載 | 未記載 |
 
-目前共 20 張有效單方許可證，無已註銷者；以上僅列出其中 5 張主要許可證，清單可能不完整。
+香港共有 28 張含本藥成分的許可證（全部有效；單一成分 18 張、複方 10 張），以上僅列出其中 5 張主要許可證。
+
+<!-- review:begin hk-lic-20261117-ceftriaxone-1 -->
+
+> **查核更正（2026-11-17）**：原文為「目前共 20 張有效單方許可證，無已註銷者；以上僅列出其中 5 張主要許可證，清單可能不完整。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 28 張含本藥成分的許可證（全部有效；單一成分 18 張、複方 10 張）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-ceftriaxone-1 -->
 
 ## 安全性考量
 
@@ -109,6 +115,18 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (hyperamylasemia)** 有效，
 - 提出可驗證的作用機轉假說
 - 取得直接以高澱粉酶血症為對象的臨床或回溯性研究資料
 - 取得香港原廠仿單，完成警語與禁忌症的安全性審查
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「目前共 20 張有效單方許可證，無已註銷者；以上僅列出其中 5 張主要許可證，清」→「香港共有 28 張含本藥成分的許可證（全部有效；單一成分 1」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

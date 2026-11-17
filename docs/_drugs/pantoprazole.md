@@ -51,8 +51,8 @@ Pantoprazole 是質子幫浦抑制劑（PPI），原本用於消化性潰瘍、�
 | 預測新適應症 | Duodenal obstruction |
 | TxGNN 預測分數 | 0.9921 |
 | 證據等級 | L5（依資料編譯結果；僅 1 個已完成的 Phase 3 試驗，嚴格依本報告判定規則應為 L2，詳見下方說明） |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 49 張／共 49 張） |
+| 許可證數 | 49 張（有效 49 張） |
 | 建議決策 | Proceed with Guardrails |
 
 > 證據等級說明：依判定規則，L1 需要 ≥2 個已完成的 Phase 3 RCT。目前僅有 1 個已完成的 Phase 3 試驗（NCT02084420），且 Pantoprazole 在該試驗中可能是對照組。文獻中另有數項相關的隨機對照試驗，但多屬間接證據。因此保守來看，證據強度介於 L1 與 L2 之間。
@@ -96,7 +96,13 @@ Pantoprazole 是質子幫浦抑制劑（PPI），原本用於消化性潰瘍、�
 
 ## 香港上市資訊
 
-香港共有 20 張有效許可證，皆為單方製劑，目前無已註銷者。以下列出 5 張主要許可證（資料中未收錄劑型與核准適應症文字）：
+香港共有 49 張含本藥成分的許可證（全部有效；皆為單一成分）。以下列出 5 張主要許可證（資料中未收錄劑型與核准適應症文字）：
+
+<!-- review:begin hk-lic-20261117-pantoprazole-1 -->
+
+> **查核更正（2026-11-17）**：原文為「香港共有 20 張有效許可證，皆為單方製劑，目前無已註銷者。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 49 張含本藥成分的許可證（全部有效；皆為單一成分）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-pantoprazole-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -125,8 +131,14 @@ Pantoprazole 是質子幫浦抑制劑（PPI），原本用於消化性潰瘍、�
 **決策：Proceed with Guardrails**
 
 **理由：**
-- 活動性消化性潰瘍屬 Pantoprazole 的既有核心適應症，機轉明確，且有 Phase 3 試驗與多篇臨床文獻支持，同時香港已有 20 張有效許可證。
+- 活動性消化性潰瘍屬 Pantoprazole 的既有核心適應症，機轉明確，且有 Phase 3 試驗與多篇臨床文獻支持，香港共有 49 張含本藥成分的許可證（全部有效；皆為單一成分）。
 - 此項屬於「既有適應症確認」而非真正的新適應症，且仿單層級的安全性資料尚未取得。
+
+<!-- review:begin hk-lic-20261117-pantoprazole-2 -->
+
+> **查核更正（2026-11-17）**：原文為「活動性消化性潰瘍屬 Pantoprazole 的既有核心適應症，機轉明確，且有 Phase 3 試驗與多篇臨床文獻支持，同時香港已有 20 張有效許可證。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 49 張含本藥成分的許可證（全部有效；皆為單一成分）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-pantoprazole-2 -->
 
 **其他預測適應症概況：**
 
@@ -140,6 +152,20 @@ Pantoprazole 是質子幫浦抑制劑（PPI），原本用於消化性潰瘍、�
 - 確認 NCT02084420 中 Pantoprazole 是試驗藥還是對照藥
 - 針對長期使用的骨質疏鬆、骨折與維生素 B12 缺乏風險，建立監測計畫
 - 評估與 Atazanavir、Acalabrutinib 等重大交互作用藥物併用時的處理原則
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「香港共有 20 張有效許可證，皆為單方製劑，目前無已註銷者。」→「香港共有 49 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-17 | 「- 活動性消化性潰瘍屬 Pantoprazole 的既有核心適應症，機轉明確，且」→「- 活動性消化性潰瘍屬 Pantoprazole 的既有核心」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

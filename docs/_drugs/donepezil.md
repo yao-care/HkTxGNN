@@ -54,8 +54,8 @@ TxGNN 模型預測它可能對**慢性抽動障礙 (Chronic Tic Disorder)** 有�
 | 預測新適應症 | Psychogenic movement disorders |
 | TxGNN 預測分數 | 0.9923 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 31 張／共 31 張） |
+| 許可證數 | 31 張（有效 31 張） |
 | 建議決策 | Hold（列為研究問題，尚不建議推進） |
 
 ---
@@ -90,7 +90,13 @@ TxGNN 模型預測它可能對**慢性抽動障礙 (Chronic Tic Disorder)** 有�
 
 ## 香港上市資訊
 
-香港共有 20 張有效單一成分許可證，無已註銷者。以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：
+香港共有 31 張含本藥成分的許可證（全部有效；皆為單一成分）。以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：
+
+<!-- review:begin hk-lic-20261117-donepezil-1 -->
+
+> **查核更正（2026-11-17）**：原文為「香港共有 20 張有效單一成分許可證，無已註銷者。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 31 張含本藥成分的許可證（全部有效；皆為單一成分）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-donepezil-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -143,6 +149,18 @@ TxGNN 模型預測它可能對**慢性抽動障礙 (Chronic Tic Disorder)** 有�
 | 6 | 顫抖-眼震-十二指腸潰瘍症候群 | 0.9915 | L5 | 檢索到的文獻不相關；膽鹼酯酶抑制劑可能增加胃酸分泌而加重潰瘍 |
 | 7 | 兒童良性陣發性向上凝視合併共濟失調 | 0.9912 | L5 | 僅有模型預測 |
 | 8 | 舌-顏面-頰部運動障礙 | 0.9902 | L5 | 有 Cochrane 回顧討論膽鹼類藥物治療遲發性運動障礙，但並非專門針對 Donepezil，確定性有限 |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「香港共有 20 張有效單一成分許可證，無已註銷者。」→「香港共有 31 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

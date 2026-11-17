@@ -50,8 +50,8 @@ Esomeprazole 是質子幫浦抑制劑，原本用於消化性潰瘍、胃食道�
 | 預測新適應症 | Duodenal obstruction |
 | TxGNN 預測分數 | 0.9945 |
 | 證據等級 | L5（僅有模型預測；唯一文獻為泛論性回顧，未直接討論此適應症） |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 59 張／共 59 張） |
+| 許可證數 | 59 張（有效 59 張） |
 | 建議決策 | Hold |
 
 ---
@@ -82,7 +82,13 @@ Esomeprazole 是質子幫浦抑制劑，原本用於消化性潰瘍、胃食道�
 
 ## 香港上市資訊
 
-共 20 張有效許可證，以下列出 5 張主要許可證。許可證資料未提供劑型與核准適應症文字。
+香港共有 59 張含本藥成分的許可證（全部有效；皆為單一成分），以下列出 5 張主要許可證。許可證資料未提供劑型與核准適應症文字。
+
+<!-- review:begin hk-lic-20261117-esomeprazole-1 -->
+
+> **查核更正（2026-11-17）**：原文為「共 20 張有效許可證，以下列出 5 張主要許可證。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 59 張含本藥成分的許可證（全部有效；皆為單一成分）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-esomeprazole-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -132,6 +138,19 @@ Esomeprazole 是質子幫浦抑制劑，原本用於消化性潰瘍、胃食道�
 - 確認各地區核准的適應症與劑量方案。
 - 核對幽門螺旋桿菌的抗藥性資料。
 - 留意多重藥物交互作用。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「共 20 張有效許可證，以下列出 5 張主要許可證。」→「香港共有 59 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

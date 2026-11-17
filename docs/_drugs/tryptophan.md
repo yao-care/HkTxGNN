@@ -51,8 +51,8 @@ TxGNN 模型預測它可能對**不寧腿症候群 (Restless Legs Syndrome)** �
 | 預測新適應症 | 不寧腿症候群 (Restless Legs Syndrome) |
 | TxGNN 預測分數 | 0.9972 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 37 張／共 37 張） |
+| 許可證數 | 37 張（有效 37 張） |
 | 建議決策 | Hold |
 
 **證據等級說明：** 文獻中雖有兩篇 1986–1987 年直接探討 L-色胺酸用於不寧腿症候群或週期性腿動的小型臨床研究，但兩篇皆無摘要可供核對，結果與品質無法確認。其餘文獻為藥物安全監視、遺傳性疾病與肝病的間接證據。保守起見，證據等級定為 L5（以模型預測為主，缺乏可核實的直接研究結果）。
@@ -90,7 +90,13 @@ TxGNN 模型預測它可能對**不寧腿症候群 (Restless Legs Syndrome)** �
 
 ## 香港上市資訊
 
-以下為目前列出的部分許可證（總數至少 20 張，清單可能不完整）。資料中未載明核准適應症與劑型。
+以下為目前列出的部分許可證（共 37 張含本藥成分的許可證，全部有效，皆為複方）。資料中未載明核准適應症與劑型。
+
+<!-- review:begin hk-lic-20261117-tryptophan-1 -->
+
+> **查核更正（2026-11-17）**：原文為「以下為目前列出的部分許可證（總數至少 20 張，清單可能不完整）。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 37 張含本藥成分的許可證（全部有效；皆為複方）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-tryptophan-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -127,6 +133,19 @@ TxGNN 模型預測它可能對**不寧腿症候群 (Restless Legs Syndrome)** �
 - 補充作用機轉資料（DrugBank）
 - 取得香港仿單的警語與禁忌資訊，並確認各許可證的核准適應症
 - 評估與血清素類藥物併用的風險管控方案
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「以下為目前列出的部分許可證（總數至少 20 張，清單可能不完整）。」→「以下為目前列出的部分許可證（共 37 張含本藥成分的許可證，」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

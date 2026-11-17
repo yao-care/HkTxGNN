@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**喉炎 (laryngitis)** 有效，
 | 預測新適應症 | 喉炎 (laryngitis) |
 | TxGNN 預測分數 | 0.9997 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 19 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 31 張／共 32 張） |
+| 許可證數 | 32 張（有效 31 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -83,11 +83,11 @@ Ampicillin 透過抑制細菌細胞壁合成而殺菌。目前缺乏詳細的作
 
 ## 香港上市資訊
 
-香港共有多張含 ampicillin 單方成分的有效許可證（資料可能不完整；本次收錄的 HK-40801 已註銷），主要如下：
+香港共有 32 張含本藥成分的許可證（有效 31 張、已註銷 1 張；單一成分 16 張、複方 16 張），主要如下：
 
 <!-- review:begin hk-lic-20261117-ampicillin-1 -->
 
-> **查核更正（2026-11-17）**：原文為「香港共有多張含 ampicillin 單方成分的有效許可證（資料可能不完整），」。已更正：HK-40801 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+> **查核更正（2026-11-17）**：原文為「香港共有多張含 ampicillin 單方成分的有效許可證（資料可能不完整），」。已更正：HK-40801 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。 已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 32 張含本藥成分的許可證（有效 31 張、已註銷 1 張；單一成分 16 張、複方 16 張）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
 
 <!-- review:end hk-lic-20261117-ampicillin-1 -->
 
@@ -127,7 +127,7 @@ Ampicillin 透過抑制細菌細胞壁合成而殺菌。目前缺乏詳細的作
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「香港共有多張含 ampicillin 單方成分的有效許可證（資料可能不完整），」→「香港共有多張含 ampicillin 單方成分的有效許可證（資料可能不完整；本次」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-17 | 「香港共有多張含 ampicillin 單方成分的有效許可證（資料可能不完整），」→「香港共有 32 張含本藥成分的許可證（有效 31 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
 
 <!-- review:end log -->
 

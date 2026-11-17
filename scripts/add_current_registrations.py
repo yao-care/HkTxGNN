@@ -10,8 +10,13 @@ A. 現行名單（DrugList.xml 最新版）有、2026-03 版沒有的註冊號�
 B. 證據包裡已標 drugoffice_not_listed（名單已不列）的紀錄，現行名單上有產品名與成分完全相同、依規則也屬於本藥的另一個註冊號，
    而證據包只收了部分（20 筆上限）沒收到它時，補一筆（例：metformin HK-54377 → HK-56689 METFORMIN TAB 500MG）；
    這種號原本就算在 total_matches 裡，total_matches 不變。
-其他因 20 筆上限沒收的現行註冊號不補（證據包照舊算部分收錄，頁面寫「至少 N 張」）。
-補的紀錄加 source（名單版本日期）與 added（補收日）。可重複執行（已在證據包的號不重補）。
+C. 2026-11-17（用戶決定拿掉 20 筆上限）：照原收錄規則把本藥的全部註冊號補齊，證據包不再是部分收錄——
+   2026-03 版名單上的號照原規則（data/processed/drug_mapping.csv 的 DrugBank ID）判斷是否屬於本藥，之後新增的號照 A 的規則；
+   現行名單上有的補成現行紀錄，2026-03 版有、現行名單已不列的補成已註銷紀錄（license_status＝cancelled、drugoffice_not_listed，
+   欄位同 scripts/license_adapter.py 的 preprocess；表示原本算在 total_matches 裡、因上限沒收的舊號）。
+   補完 total_matches＝紀錄數（不重複註冊號），t["complete"]＝名單 lastUpdate（給 drug_evidence_pack 的 partial 判定：total_matches 不大於紀錄數＝完整）。
+   預設就做 C（每週排程同一支）；--no-complete 只做 A、B（舊行為）。
+補的紀錄加 source（名單版本日期）與 added（補收日）。可重複執行、只加不刪（已在證據包的號不重補，已註銷的舊號照舊保留）。
 用法（repo 根目錄）：python3 scripts/add_current_registrations.py --xml <現行 DrugList.xml> [--dry-run] [--report out.tsv]
 """
 import argparse
@@ -35,6 +40,7 @@ def main():
     ap.add_argument("--xml", required=True)
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--report")
+    ap.add_argument("--no-complete", action="store_true", help="只做 A、B（不依原規則補齊全部註冊號）")
     a = ap.parse_args()
     from hktxgnn.collectors.hkfda import LocalFDACollector
     from hktxgnn.data.loader import filter_active_drugs, load_fda_drugs
@@ -43,7 +49,9 @@ def main():
     xml = Path(a.xml)
     last = ET.parse(xml).getroot().findtext("lastUpdate") or ""
     cur = load_fda_drugs(xml)
-    old_ids = set(load_fda_drugs(ROOT / "data/raw/DrugList.xml")["license_id"].astype(str))
+    old = load_fda_drugs(ROOT / "data/raw/DrugList.xml")
+    old_ids = set(old["license_id"].astype(str))
+    old_rows = {str(r["license_id"]): r for r in old.to_dict("records")}
     if len(cur) < 10000:
         sys.exit(f"現行名單只有 {len(cur)} 筆，疑似下載或格式有問題")
     mp = map_fda_drugs_to_drugbank(filter_active_drugs(cur).rename(
@@ -55,6 +63,11 @@ def main():
     col = LocalFDACollector()
     col._prepare()
     rows = {str(r["license_id"]): r for r in cur.to_dict("records")}
+    # C 用的原規則：2026-03 版名單上的號 → drug_mapping.csv 的 DrugBank ID（collectors/hkfda.py 原收錄就是這樣對的）
+    dm = {}
+    for db, lics in col.db_to_lic.items():
+        for lic in lics:
+            dm.setdefault(lic, set()).add(db)
     key = {k: (_norm(r.get("brand_name")), tuple(sorted(_norm(x) for x in (r.get("ingredient_list") or [])))) for k, r in rows.items()}
     by_key = {}
     for k, v in key.items():
@@ -78,19 +91,42 @@ def main():
                     ok = (_norm(r.get("brand_name_en")), tuple(sorted(_norm(x) for x in re.split(r";\s*", r.get("ingredients") or "") if x)))
                     new_b |= {k for k in by_key.get(ok, ()) if k not in have and k in old_ids and lic_db.get(k, set()) & dbs}
         add = new_a + sorted(new_b)
-        if not add:
+        new_c, new_x = [], []
+        if not a.no_complete:
+            taken = have | set(add)
+            new_c = sorted(k for k in rows if k not in taken
+                           and ((k in old_ids and dm.get(k, set()) & dbs) or (k not in old_ids and lic_db.get(k, set()) & dbs)))
+            new_x = sorted(k for k in old_rows if k not in taken and k not in rows and dm.get(k, set()) & dbs)
+        if not (add or new_c or new_x):
+            if not a.no_complete and len({str(r.get("license_id") or "").strip() for r in recs}) >= int(t.get("total_matches") or 0) \
+                    and t.get("complete") != last:
+                t["total_matches"], t["complete"] = len(recs), last
+                b["tfda"] = t
+                if not a.dry_run:
+                    f.write_text(json.dumps(b, ensure_ascii=False, indent=2), encoding="utf-8")
             continue
-        for k in add:
-            rec = col._format([rows[k]], set())["records"][0]
-            rec["source"] = f"衞生署藥物辦公室註冊名單 DrugList.xml（lastUpdate {last}）"
+        for k in add + new_c + new_x:
+            rec = col._format([rows[k] if k in rows else old_rows[k]], set())["records"][0]
+            if k in new_x:
+                rec["source"] = "衞生署藥物辦公室註冊名單 DrugList.xml（2026-03 版；現行名單 lastUpdate " + last + " 已不列）"
+                rec["drugoffice_not_listed"] = today
+                rec["license_status"] = "cancelled"
+            else:
+                rec["source"] = f"衞生署藥物辦公室註冊名單 DrugList.xml（lastUpdate {last}）"
             rec["added"] = today
             if k in new_b:
                 rec["same_product_as"] = sorted(r["license_id"] for r in recs if r.get("drugoffice_not_listed")
                                                 and _norm(r.get("brand_name_en")) == key[k][0])
             recs.append(rec)
-            out.append(f"{f.parent.name}\t{'A' if k in new_a else 'B'}\t{k}\t{rec['brand_name_en']}\t{rec['ingredients']}")
+            tag = "A" if k in new_a else "B" if k in new_b else "C" if k in new_c else "X"
+            out.append(f"{f.parent.name}\t{tag}\t{k}\t{rec['brand_name_en']}\t{rec['ingredients']}")
         tm = int(t.get("total_matches") or 0)
-        t["total_matches"] = max(tm + len(new_a), len(recs))
+        if a.no_complete:
+            t["total_matches"] = max(tm + len(new_a), len(recs))
+        elif len(recs) >= tm:
+            t["total_matches"], t["complete"] = len(recs), last
+        else:  # 原規則找到的比原本 total_matches 少：不能斷定完整，照舊算部分收錄
+            t["total_matches"] = tm + len(new_a)
         t["records"], t["found"] = recs, True
         b["tfda"] = t
         n_b += 1

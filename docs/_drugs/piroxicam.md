@@ -49,8 +49,8 @@ TxGNN 模型的首位預測為罕見的骨骼發育異常症候群，但這些�
 | 預測新適應症 | 幼年特發性關節炎 (Juvenile Idiopathic Arthritis)（第 10 名預測；第 1 名為 colobomatous microphthalmia-rhizomelic dysplasia syndrome，無任何證據） |
 | TxGNN 預測分數 | 0.9993（第 1 名預測為 1.0000） |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 52 張／共 53 張） |
+| 許可證數 | 53 張（有效 52 張） |
 | 建議決策 | Hold（JIA 為研究問題，需進一步驗證） |
 
 ## 為什麼這個預測合理？
@@ -81,7 +81,13 @@ TxGNN 模型的首位預測為罕見的骨骼發育異常症候群，但這些�
 
 ## 香港上市資訊
 
-下表為資料中列出的主要許可證（共至少 20 張，清單可能不完整），資料未載明核准適應症文字與劑型：
+下表為資料中列出的主要許可證（共 53 張含本藥成分的許可證，有效 52 張、已註銷 1 張，皆為單一成分），資料未載明核准適應症文字與劑型：
+
+<!-- review:begin hk-lic-20261117-piroxicam-1 -->
+
+> **查核更正（2026-11-17）**：原文為「下表為資料中列出的主要許可證（共至少 20 張，清單可能不完整），資料未載明核准適應症文字與劑型：」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 53 張含本藥成分的許可證（有效 52 張、已註銷 1 張；皆為單一成分）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-piroxicam-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -116,6 +122,19 @@ TxGNN 模型的首位預測為罕見的骨骼發育異常症候群，但這些�
 - 補充作用機轉資料
 - 評估兒童族群的安全性（心血管、腸胃、腎臟風險）與劑量
 - 規劃現代設計的比較研究
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「下表為資料中列出的主要許可證（共至少 20 張，清單可能不完整），資料未載明核准」→「下表為資料中列出的主要許可證（共 53 張含本藥成分的許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**頭痛疾患 (headache disorder)** 有效。
 | 預測新適應症 | 頭痛疾患 (headache disorder) |
 | TxGNN 預測分數 | 0.9964 |
 | 證據等級 | L2 |
-| 香港上市 | 上市中（有效許可證至少 20 張） |
-| 許可證數 | 至少 20 張 |
+| 香港上市 | 上市中（有效許可證 73 張／共 74 張） |
+| 許可證數 | 74 張（有效 73 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ## 為什麼這個預測合理？
@@ -89,7 +89,13 @@ TxGNN 模型預測它可能對**頭痛疾患 (headache disorder)** 有效。
 
 ## 香港上市資訊
 
-香港目前有含 mefenamic acid 單一成分的有效許可證，至少 20 張（清單可能不完整）。以下列出 5 張代表性許可證，其核准適應症與劑型欄位於本地資料中未記錄。
+香港共有 74 張含本藥成分的許可證（有效 73 張、已註銷 1 張；皆為單一成分）。以下列出 5 張代表性許可證，其核准適應症與劑型欄位於本地資料中未記錄。
+
+<!-- review:begin hk-lic-20261117-mefenamic_acid-1 -->
+
+> **查核更正（2026-11-17）**：原文為「香港目前有含 mefenamic acid 單一成分的有效許可證，至少 20 張（清單可能不完整）。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 74 張含本藥成分的許可證（有效 73 張、已註銷 1 張；皆為單一成分）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+
+<!-- review:end hk-lic-20261117-mefenamic_acid-1 -->
 
 | 許可證號 | 品名 | 劑型 | 核准適應症 |
 |---------|------|------|-----------|
@@ -123,6 +129,18 @@ TxGNN 模型預測它可能對**頭痛疾患 (headache disorder)** 有效。
 - 設計現代化、樣本數足夠的隨機對照試驗，聚焦經期相關頭痛或偏頭痛的短期用藥。
 - 制定使用期限與用量上限，並監測腎功能、腸胃道症狀與藥物過度使用型頭痛。
 - 補充詳細的作用機轉資料。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-17 | 「香港目前有含 mefenamic acid 單一成分的有效許可證，至少 20 張」→「香港共有 74 張含本藥成分的許可證（有效 73 張、已註銷」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 
