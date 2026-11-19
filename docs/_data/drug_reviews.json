@@ -4994,9 +4994,9 @@
    "file": "fexofenadine.md",
    "action": "correct",
    "claim": "香港共有 20 張有效的單一成分許可證，皆為錠劑，目前資料未載明劑型與核准適應症文字。",
-   "replacement": "香港共有 39 張含本藥成分的許可證（全部有效；單一成分 38 張、複方 1 張），皆為錠劑，目前資料未載明劑型與核准適應症文字。",
-   "note": "已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 39 張含本藥成分的許可證（全部有效；單一成分 38 張、複方 1 張）（2026-11-17 核對）。",
-   "finding": "2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。",
+   "replacement": "香港共有 39 張含本藥成分的許可證（全部有效；單一成分 38 張、複方 1 張），除 1 張口服混懸液（HK-60536 TELFAST ORAL SUSPENSION PEDIATRIC 30MG/5ML）外皆為錠劑，目前資料未載明劑型與核准適應症文字。",
+   "note": "已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 39 張含本藥成分的許可證（全部有效；單一成分 38 張、複方 1 張）（2026-11-17 核對）。 已更正：依產品名，39 張中 38 張為錠劑，HK-60536 為口服混懸液，「皆為錠劑」不成立（2026-11-19 核對）。",
+   "finding": "2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。 2026-11-19 逐張核對：證據包已依 2026-11-13 版 DrugList.xml 補齊本藥全部註冊（complete），名單沒有劑型欄，劑型依各張註冊的產品名（productName）判斷。39 張中 38 張產品名為 TAB／TABLETS，HK-60536 TELFAST ORAL SUSPENSION PEDIATRIC 30MG/5ML 是口服混懸液；原文「皆為錠劑」是依舊證據包（最多 20 張）寫的，照補齊後的註冊改寫。",
    "sources": [
     {
      "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
@@ -5007,10 +5007,43 @@
      "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
      "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
      "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-19"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "「香港共有 20 張有效的單一成分許可證，皆為錠劑，目前資料未載明劑型與核准適應症」→「香港共有 39 張含本藥成分的許可證（全部有效；單一成分 3」"
+   "checked": "2026-11-19",
+   "summary": "「香港共有 20 張有效的單一成分許可證，皆為錠劑，目前資料未載明劑型與核准適應症」→「香港共有 39 張含本藥成分的許可證（全部有效；單一成分 38 張、複方 1 張」",
+   "history": [
+    {
+     "id": "hk-lic-20261117-fexofenadine-1",
+     "drug": "fexofenadine",
+     "file": "fexofenadine.md",
+     "action": "correct",
+     "claim": "香港共有 20 張有效的單一成分許可證，皆為錠劑，目前資料未載明劑型與核准適應症文字。",
+     "replacement": "香港共有 39 張含本藥成分的許可證（全部有效；單一成分 38 張、複方 1 張），皆為錠劑，目前資料未載明劑型與核准適應症文字。",
+     "note": "已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 39 張含本藥成分的許可證（全部有效；單一成分 38 張、複方 1 張）（2026-11-17 核對）。",
+     "finding": "2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。",
+     "sources": [
+      {
+       "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+       "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+       "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "summary": "「香港共有 20 張有效的單一成分許可證，皆為錠劑，目前資料未載明劑型與核准適應症」→「香港共有 39 張含本藥成分的許可證（全部有效；單一成分 3」",
+     "retired": "2026-11-19",
+     "reason": "更正文字保留了依舊證據包寫的劑型全稱說法，2026-11-19 逐張核對產品名後不成立，同 id 重發"
+    }
+   ]
   },
   {
    "id": "hk-lic-20261117-finasteride-1",
@@ -5282,9 +5315,9 @@
    "file": "hypromellose.md",
    "action": "correct",
    "claim": "香港共有 20 張有效的單一成分許可證，皆為眼藥水。",
-   "replacement": "香港共有 22 張含本藥成分的許可證（全部有效；單一成分 11 張、複方 11 張），皆為眼藥水。",
-   "note": "已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 22 張含本藥成分的許可證（全部有效；單一成分 11 張、複方 11 張）（2026-11-17 核對）。",
-   "finding": "2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。",
+   "replacement": "香港共有 22 張含本藥成分的許可證（全部有效；單一成分 11 張、複方 11 張），除 1 張眼用凝膠（HK-51887 GENTEAL EYE GEL）外皆為眼藥水。",
+   "note": "已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 22 張含本藥成分的許可證（全部有效；單一成分 11 張、複方 11 張）（2026-11-17 核對）。 已更正：依產品名，22 張中 21 張為眼藥水，HK-51887 GENTEAL EYE GEL 為眼用凝膠，「皆為眼藥水」不成立（2026-11-19 核對）。",
+   "finding": "2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。 2026-11-19 逐張核對：證據包已依 2026-11-13 版 DrugList.xml 補齊本藥全部註冊（complete），名單沒有劑型欄，劑型依各張註冊的產品名（productName）判斷。22 張中 21 張產品名為 EYE DROPS，HK-51887 GENTEAL EYE GEL（carbomer＋hypromellose）是眼用凝膠；原文「皆為眼藥水」是依舊證據包寫的，照補齊後的註冊改寫。",
    "sources": [
     {
      "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
@@ -5295,10 +5328,43 @@
      "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
      "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
      "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-19"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "「香港共有 20 張有效的單一成分許可證，皆為眼藥水。」→「香港共有 22 張含本藥成分的許可證（全部有效；單一成分 1」"
+   "checked": "2026-11-19",
+   "summary": "「香港共有 20 張有效的單一成分許可證，皆為眼藥水。」→「香港共有 22 張含本藥成分的許可證（全部有效；單一成分 11 張、複方 11 」",
+   "history": [
+    {
+     "id": "hk-lic-20261117-hypromellose-1",
+     "drug": "hypromellose",
+     "file": "hypromellose.md",
+     "action": "correct",
+     "claim": "香港共有 20 張有效的單一成分許可證，皆為眼藥水。",
+     "replacement": "香港共有 22 張含本藥成分的許可證（全部有效；單一成分 11 張、複方 11 張），皆為眼藥水。",
+     "note": "已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 22 張含本藥成分的許可證（全部有效；單一成分 11 張、複方 11 張）（2026-11-17 核對）。",
+     "finding": "2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。",
+     "sources": [
+      {
+       "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+       "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+       "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "summary": "「香港共有 20 張有效的單一成分許可證，皆為眼藥水。」→「香港共有 22 張含本藥成分的許可證（全部有效；單一成分 1」",
+     "retired": "2026-11-19",
+     "reason": "更正文字保留了依舊證據包寫的劑型全稱說法，2026-11-19 逐張核對產品名後不成立，同 id 重發"
+    }
+   ]
   },
   {
    "id": "hk-lic-20261117-ibuprofen-1",
@@ -6914,9 +6980,9 @@
    "file": "tacrolimus.md",
    "action": "correct",
    "claim": "香港共有 20 張有效的單一成分許可證，涵蓋口服膠囊（速釋與緩釋）及外用軟膏。",
-   "replacement": "香港共有 45 張含本藥成分的許可證（全部有效；皆為單一成分），涵蓋口服膠囊（速釋與緩釋）及外用軟膏。",
-   "note": "已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 45 張含本藥成分的許可證（全部有效；皆為單一成分）（2026-11-17 核對）。",
-   "finding": "2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。",
+   "replacement": "香港共有 45 張含本藥成分的許可證（全部有效；皆為單一成分），涵蓋口服膠囊（速釋與緩釋）、外用軟膏及 1 張靜脈輸注用濃縮液（HK-41917 PROGRAF CONC FOR INFUSION 5MG/ML）。",
+   "note": "已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 45 張含本藥成分的許可證（全部有效；皆為單一成分）（2026-11-17 核對）。 已更正：依產品名，45 張除膠囊與軟膏外另有 1 張靜脈輸注用濃縮液 HK-41917，原文列舉的劑型不完整（2026-11-19 核對）。",
+   "finding": "2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。 2026-11-19 逐張核對：證據包已依 2026-11-13 版 DrugList.xml 補齊本藥全部註冊（complete），名單沒有劑型欄，劑型依各張註冊的產品名（productName）判斷。45 張產品名：膠囊（CAP／CAPSULES，含 ADVAGRAF 與 SANDOZ 緩釋）、軟膏（OINT／OINTMENT），另有 HK-41917 PROGRAF CONC FOR INFUSION 5MG/ML；原文只列膠囊與軟膏，照補齊後的註冊補上。",
    "sources": [
     {
      "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
@@ -6927,10 +6993,43 @@
      "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
      "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
      "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-19"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "「香港共有 20 張有效的單一成分許可證，涵蓋口服膠囊（速釋與緩釋）及外用軟膏。」→「香港共有 45 張含本藥成分的許可證（全部有效；皆為單一成分」"
+   "checked": "2026-11-19",
+   "summary": "「香港共有 20 張有效的單一成分許可證，涵蓋口服膠囊（速釋與緩釋）及外用軟膏。」→「香港共有 45 張含本藥成分的許可證（全部有效；皆為單一成分），涵蓋口服膠囊（速」",
+   "history": [
+    {
+     "id": "hk-lic-20261117-tacrolimus-1",
+     "drug": "tacrolimus",
+     "file": "tacrolimus.md",
+     "action": "correct",
+     "claim": "香港共有 20 張有效的單一成分許可證，涵蓋口服膠囊（速釋與緩釋）及外用軟膏。",
+     "replacement": "香港共有 45 張含本藥成分的許可證（全部有效；皆為單一成分），涵蓋口服膠囊（速釋與緩釋）及外用軟膏。",
+     "note": "已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 45 張含本藥成分的許可證（全部有效；皆為單一成分）（2026-11-17 核對）。",
+     "finding": "2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。",
+     "sources": [
+      {
+       "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+       "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+       "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "summary": "「香港共有 20 張有效的單一成分許可證，涵蓋口服膠囊（速釋與緩釋）及外用軟膏。」→「香港共有 45 張含本藥成分的許可證（全部有效；皆為單一成分」",
+     "retired": "2026-11-19",
+     "reason": "更正文字保留了依舊證據包寫的劑型全稱說法，2026-11-19 逐張核對產品名後不成立，同 id 重發"
+    }
+   ]
   },
   {
    "id": "hk-lic-20261117-tadalafil-1",
@@ -7082,9 +7181,9 @@
    "file": "triamcinolone.md",
    "action": "correct",
    "claim": "香港共有 20 張有效單一成分許可證，皆為外用、口腔用或鼻用製劑。",
-   "replacement": "香港共有 152 張含本藥成分的許可證（全部有效；單一成分 32 張、複方 120 張），皆為外用、口腔用或鼻用製劑。",
-   "note": "已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 152 張含本藥成分的許可證（全部有效；單一成分 32 張、複方 120 張）（2026-11-17 核對）。",
-   "finding": "2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。",
+   "replacement": "香港共有 152 張含本藥成分的許可證（全部有效；單一成分 32 張、複方 120 張），除 2 張注射劑（HK-16824 STACORT-A INJ 40MG/CC、HK-23798 SHINCORT INJ 10MG/ML）外，皆為外用（含 1 張直腸用軟膏）、口腔用或鼻用製劑。",
+   "note": "已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 152 張含本藥成分的許可證（全部有效；單一成分 32 張、複方 120 張）（2026-11-17 核對）。 已更正：依產品名，152 張中有 2 張注射劑（HK-16824、HK-23798），「皆為外用、口腔用或鼻用製劑」不成立（2026-11-19 核對）。",
+   "finding": "2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。 2026-11-19 逐張核對：證據包已依 2026-11-13 版 DrugList.xml 補齊本藥全部註冊（complete），名單沒有劑型欄，劑型依各張註冊的產品名（productName）判斷。152 張中 HK-16824 STACORT-A INJ 40MG/CC、HK-23798 SHINCORT INJ 10MG/ML \"YUNG SHIN\" 是注射劑，HK-60563 ANSO RECTAL OINTMENT 是直腸用軟膏，其餘為乳膏、凝膠、口腔糊劑或鼻噴劑；原文全稱說法是依舊證據包寫的，照補齊後的註冊改寫。",
    "sources": [
     {
      "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
@@ -7095,10 +7194,43 @@
      "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
      "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
      "accessed": "2026-11-17"
+    },
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-19"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "「香港共有 20 張有效單一成分許可證，皆為外用、口腔用或鼻用製劑。」→「香港共有 152 張含本藥成分的許可證（全部有效；單一成分 」"
+   "checked": "2026-11-19",
+   "summary": "「香港共有 20 張有效單一成分許可證，皆為外用、口腔用或鼻用製劑。」→「香港共有 152 張含本藥成分的許可證（全部有效；單一成分 32 張、複方 12」",
+   "history": [
+    {
+     "id": "hk-lic-20261117-triamcinolone-1",
+     "drug": "triamcinolone",
+     "file": "triamcinolone.md",
+     "action": "correct",
+     "claim": "香港共有 20 張有效單一成分許可證，皆為外用、口腔用或鼻用製劑。",
+     "replacement": "香港共有 152 張含本藥成分的許可證（全部有效；單一成分 32 張、複方 120 張），皆為外用、口腔用或鼻用製劑。",
+     "note": "已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 152 張含本藥成分的許可證（全部有效；單一成分 32 張、複方 120 張）（2026-11-17 核對）。",
+     "finding": "2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。",
+     "sources": [
+      {
+       "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+       "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+       "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "summary": "「香港共有 20 張有效單一成分許可證，皆為外用、口腔用或鼻用製劑。」→「香港共有 152 張含本藥成分的許可證（全部有效；單一成分 」",
+     "retired": "2026-11-19",
+     "reason": "更正文字保留了依舊證據包寫的劑型全稱說法，2026-11-19 逐張核對產品名後不成立，同 id 重發"
+    }
+   ]
   },
   {
    "id": "hk-lic-20261117-tryptophan-1",
@@ -7195,6 +7327,25 @@
    ],
    "checked": "2026-11-17",
    "summary": "「以下為已收錄的許可證（共列出 5 張，總數至少 20 張，清單可能不完整）。」→「以下為已收錄的許可證（共 29 張含本藥成分的許可證，全部有」"
+  },
+  {
+   "id": "hk-lic-20261119-sulfadiazine-1",
+   "drug": "sulfadiazine",
+   "file": "sulfadiazine.md",
+   "action": "correct",
+   "claim": "其餘 15 張許可證中，除第 1 張為獸用注射懸液外，其餘多為外用乳膏製劑。",
+   "replacement": "其餘 18 張許可證皆為外用乳膏製劑（獸用注射懸液 HK-33558 已列在上表第 1 張）。",
+   "note": "已更正：補齊後本藥共 23 張註冊，上表列 5 張，其餘為 18 張；獸用注射懸液 HK-33558 是上表第 1 張，其餘 18 張依產品名皆為乳膏（2026-11-19 核對）。",
+   "finding": "2026-11-19 逐張核對：證據包已依 2026-11-13 版 DrugList.xml 補齊本藥全部註冊（complete），名單沒有劑型欄，劑型依各張註冊的產品名（productName）判斷。23 張中只有 HK-33558 SULFAPRIM S INJECTABLE SUSP (VET) 是獸用注射懸液（上表第 1 張），其餘 22 張產品名皆為 CREAM；原文「其餘 15 張」是依舊證據包 20 張扣掉表上 5 張寫的子集說法，照補齊後的註冊改寫。",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-19"
+    }
+   ],
+   "checked": "2026-11-19",
+   "summary": "「其餘 15 張許可證中，除第 1 張為獸用注射懸液外，其餘多為外用乳膏製劑。」→「其餘 18 張許可證皆為外用乳膏製劑（獸用注射懸液 HK-33558 已列在上表」"
   }
  ]
 }

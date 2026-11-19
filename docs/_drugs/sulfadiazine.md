@@ -101,7 +101,13 @@ TxGNN 模型預測它可能對**肺囊蟲症 (Pneumocystosis)** 有效，
 | HK-18999 | CARRIDERM DERMATOLOGICAL CREAM | 未載明（乳膏） | 未載明 |
 | HK-19339 | FUOGORTE-F CREAM | 未載明（乳膏） | 未載明 |
 
-其餘 15 張許可證中，除第 1 張為獸用注射懸液外，其餘多為外用乳膏製劑。
+其餘 18 張許可證皆為外用乳膏製劑（獸用注射懸液 HK-33558 已列在上表第 1 張）。
+
+<!-- review:begin hk-lic-20261119-sulfadiazine-1 -->
+
+> **查核更正（2026-11-19）**：原文為「其餘 15 張許可證中，除第 1 張為獸用注射懸液外，其餘多為外用乳膏製劑。」。已更正：補齊後本藥共 23 張註冊，上表列 5 張，其餘為 18 張；獸用注射懸液 HK-33558 是上表第 1 張，其餘 18 張依產品名皆為乳膏（2026-11-19 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261119-sulfadiazine-1 -->
 
 ## 安全性考量
 
@@ -141,6 +147,7 @@ TxGNN 模型預測它可能對**肺囊蟲症 (Pneumocystosis)** 有效，
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效的單一成分許可證，以下列出 5 張主要許可證。」→「香港共有 23 張含本藥成分的許可證（全部有效；皆為複方），」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「其餘 15 張許可證中，除第 1 張為獸用注射懸液外，其餘多為外用乳膏製劑。」→「其餘 18 張許可證皆為外用乳膏製劑（獸用注射懸液 HK-33558 已列在上表」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

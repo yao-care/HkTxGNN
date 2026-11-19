@@ -71,11 +71,11 @@ TxGNN 模型預測它可能對**酒糟性結膜炎 (Rosacea Conjunctivitis)** �
 
 ## 香港上市資訊
 
-香港共有 39 張含本藥成分的許可證（全部有效；單一成分 38 張、複方 1 張），皆為錠劑，目前資料未載明劑型與核准適應症文字。以下列出 5 張主要許可證：
+香港共有 39 張含本藥成分的許可證（全部有效；單一成分 38 張、複方 1 張），除 1 張口服混懸液（HK-60536 TELFAST ORAL SUSPENSION PEDIATRIC 30MG/5ML）外皆為錠劑，目前資料未載明劑型與核准適應症文字。以下列出 5 張主要許可證：
 
 <!-- review:begin hk-lic-20261117-fexofenadine-1 -->
 
-> **查核更正（2026-11-17）**：原文為「香港共有 20 張有效的單一成分許可證，皆為錠劑，目前資料未載明劑型與核准適應症文字。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 39 張含本藥成分的許可證（全部有效；單一成分 38 張、複方 1 張）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+> **查核更正（2026-11-19）**：原文為「香港共有 20 張有效的單一成分許可證，皆為錠劑，目前資料未載明劑型與核准適應症文字。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 39 張含本藥成分的許可證（全部有效；單一成分 38 張、複方 1 張）（2026-11-17 核對）。 已更正：依產品名，39 張中 38 張為錠劑，HK-60536 為口服混懸液，「皆為錠劑」不成立（2026-11-19 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
 
 <!-- review:end hk-lic-20261117-fexofenadine-1 -->
 
@@ -120,7 +120,7 @@ TxGNN 模型預測它可能對**酒糟性結膜炎 (Rosacea Conjunctivitis)** �
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「香港共有 20 張有效的單一成分許可證，皆為錠劑，目前資料未載明劑型與核准適應症」→「香港共有 39 張含本藥成分的許可證（全部有效；單一成分 3」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「香港共有 20 張有效的單一成分許可證，皆為錠劑，目前資料未載明劑型與核准適應症」→「香港共有 39 張含本藥成分的許可證（全部有效；單一成分 38 張、複方 1 張」 | 更正（2026-11-19 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
 
 <!-- review:end log -->
 

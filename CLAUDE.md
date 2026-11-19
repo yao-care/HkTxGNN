@@ -548,5 +548,6 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   原文的單方說法有不少跟事實相反（例 alanine、isoleucine 等胺基酸、amylmetacresol 實為全部複方）。更正後保留了原文劑型全稱說法（「皆為眼藥水」「皆為錠劑」等，依舊證據包前 20 張寫的）的 10 句、
   sulfadiazine 的「其餘 15 張…」子集說法 1 句，劑型沒有逐張確認，列進 drug_reviews_uncertain.json（open）。每週排程跑的是同一支（預設 C），之後新註冊或新對到的號會自動補齊、證據包維持完整；正文要另寫紀錄。
   母目錄 check_drug_page.py 對 clopidogrel（「並不代表對所有偏頭痛患者有效」，臨床句）、piroxicam（「所有已列許可證皆為單一成分製劑、狀態有效」，上表 5 張確實有效）報 M3c，是頁面變完整後才會判的誤報，沒改。
-- 原本就有、跟這次無關：nitroprusside 公開頁沒有 MedicationKnowledge（front matter 沒有 drugbank_id），這次沒處理。
+- 原本就有、跟這次無關：nitroprusside 公開頁沒有 MedicationKnowledge（front matter 沒有 drugbank_id）——同日 080468cc9 已補（drugbank_id DB00325 取自證據包，MK 與 9 筆 CUD 從 git 歷史找回、跟 predicted_indications 相同），2026-11-19 sync_fhir_levels 確認一致。
+- 2026-11-19 待查清單的 11 筆劑型說法逐張對照已補齊的證據包（2026-11-13 版名單，劑型依產品名）：amylmetacresol（皆為含片）、ephedrine、formoterol（皆為吸入劑）、ketoconazole（乳膏與洗髮水為主）、mepyramine（皆為乳膏）、potassium_chloride 6 句成立，標 resolved；fexofenadine（另有 1 張口服混懸液 HK-60536）、hypromellose（另有 1 張眼用凝膠 HK-51887）、tacrolimus（另有 1 張輸注用濃縮液 HK-41917）、triamcinolone（另有 2 張注射劑 HK-16824、HK-23798）4 句不成立，以 hk-lic-20261117-*-1 同 id 重發改寫（前版存 history；新紀錄錨在舊紀錄的更正文字上會讓舊紀錄找不到錨點，所以不另開新 id）；sulfadiazine「其餘 15 張」→「其餘 18 張皆為乳膏」以 `hk-lic-20261119-sulfadiazine-1` 更正。
 - 2026-11-17 起每週排程（license-refresh.yml）在 license_refresh 前先下載現行 DrugList.xml 跑 `scripts/add_current_registrations.py`，新註冊的本藥號碼會自動補進證據包；有補收就照常發新 Release。
