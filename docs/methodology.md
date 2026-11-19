@@ -14,6 +14,23 @@ description: "HkTxGNN 的預測與證據驗證方法：TxGNN 深度學習預測�
 
 ---
 
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## 香港：方法在本站的套用結果
+
+本地資料：[衛生署藥物辦公室 藥劑製品清單（DrugList.xml）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。 本地資料是衞生署藥物辦公室的藥劑製品註冊名單（DrugList.xml）。名單只列現行註冊、沒有狀態欄；以前在名單、現在不在的註冊號，這裡算已註銷（名單不分取消註冊或沒有續期）。
+
+| 等級 | 報告數 | …有現行本地資料 |
+|---|---|---|
+| L1 | {{ site.data.local_facts.by_level.L1.n }} | {{ site.data.local_facts.by_level.L1.current }} |
+| L2 | {{ site.data.local_facts.by_level.L2.n }} | {{ site.data.local_facts.by_level.L2.current }} |
+| L3 | {{ site.data.local_facts.by_level.L3.n }} | {{ site.data.local_facts.by_level.L3.current }} |
+| L4 | {{ site.data.local_facts.by_level.L4.n }} | {{ site.data.local_facts.by_level.L4.current }} |
+| L5 | {{ site.data.local_facts.by_level.L5.n }} | {{ site.data.local_facts.by_level.L5.current }} |
+
+查核紀錄共 **{{ site.data.local_facts.reviews.records }}** 筆、分布在 **{{ site.data.local_facts.reviews.public_pages_with_records }}** 個藥物頁；更正只改許可事實，不改模型預測。
+
+<!-- local-facts:end -->
+
 ## 整體流程
 
 <p class="key-answer" data-question="HkTxGNN 如何產生預測結果？">

@@ -1,0 +1,478 @@
+{
+ "_about": "本檔由 scripts/local_facts.py 產生（母目錄 .claude/local_facts_lib.py），勿手改；cross 欄位由母目錄 .claude/gen_local_pages_20261119.py 更新",
+ "drugs_total": 924,
+ "level_counts": {
+  "L1": 8,
+  "L2": 39,
+  "L3": 35,
+  "L4": 57,
+  "L5": 738
+ },
+ "level_na": 47,
+ "public_pages": 924,
+ "licence_snapshot": "hk_licenses.json.gz",
+ "licence": {
+  "drugs_with_data": 924,
+  "drugs_with_current": 918,
+  "drugs_none_current": 6,
+  "drugs_without_data": 0,
+  "drugs_partial": 0,
+  "items_total": 15682,
+  "items_current": 15414
+ },
+ "reviews": {
+  "records": 244,
+  "pages": 225,
+  "public_pages_with_records": 224,
+  "by_action": {
+   "correct": 244
+  }
+ },
+ "fhir": {
+  "medication_knowledge": 924,
+  "clinical_use_definition": 5086
+ },
+ "top_licensed": [
+  {
+   "t": "Acetaminophen",
+   "u": "/drugs/acetaminophen/",
+   "l": "N/A",
+   "lt": 709,
+   "lv": 693,
+   "r": 1,
+   "i": ""
+  },
+  {
+   "t": "Phenylephrine",
+   "u": "/drugs/phenylephrine/",
+   "l": "L4",
+   "lt": 560,
+   "lv": 557,
+   "r": 1,
+   "i": "鼻腔疾病"
+  },
+  {
+   "t": "Caffeine",
+   "u": "/drugs/caffeine/",
+   "l": "L5",
+   "lt": 417,
+   "lv": 408,
+   "r": 1,
+   "i": "鼻腔疾病"
+  },
+  {
+   "t": "Ephedrine",
+   "u": "/drugs/ephedrine/",
+   "l": "L4",
+   "lt": 416,
+   "lv": 402,
+   "r": 1,
+   "i": "鼻腔疾病"
+  },
+  {
+   "t": "Clotrimazole",
+   "u": "/drugs/clotrimazole/",
+   "l": "L5",
+   "lt": 397,
+   "lv": 396,
+   "r": 1,
+   "i": "痤瘡"
+  },
+  {
+   "t": "Codeine",
+   "u": "/drugs/codeine/",
+   "l": "L5",
+   "lt": 345,
+   "lv": 331,
+   "r": 1,
+   "i": "鼻腔疾病"
+  },
+  {
+   "t": "Clobetasol Propionate",
+   "u": "/drugs/clobetasol-propionate/",
+   "l": "L5",
+   "lt": 281,
+   "lv": 279,
+   "r": 1,
+   "i": "外陰倒置性毛囊角化症"
+  },
+  {
+   "t": "Diphenhydramine",
+   "u": "/drugs/diphenhydramine/",
+   "l": "L5",
+   "lt": 281,
+   "lv": 277,
+   "r": 1,
+   "i": "酒糟性結膜炎"
+  }
+ ],
+ "no_current": [
+  {
+   "t": "Andexanet Alfa",
+   "u": "/drugs/andexanet-alfa/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "Glanzmann 血小板無力症"
+  },
+  {
+   "t": "Caspofungin",
+   "u": "/drugs/caspofungin/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 0,
+   "r": 1,
+   "i": "gastrin secretion abnormality"
+  },
+  {
+   "t": "Interferon Beta-1B",
+   "u": "/drugs/interferon-beta-1b/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "hairy cell leukemia"
+  },
+  {
+   "t": "Naftidrofuryl",
+   "u": "/drugs/naftidrofuryl/",
+   "l": "L1",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "中風"
+  },
+  {
+   "t": "Reserpine",
+   "u": "/drugs/reserpine/",
+   "l": "N/A",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": ""
+  },
+  {
+   "t": "Tazemetostat",
+   "u": "/drugs/tazemetostat/",
+   "l": "N/A",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": ""
+  }
+ ],
+ "no_current_more": 0,
+ "most_reviewed": [
+  {
+   "t": "Amlodipine",
+   "u": "/drugs/amlodipine/",
+   "l": "L5",
+   "lt": 146,
+   "lv": 141,
+   "r": 2,
+   "i": "腦幹梗塞"
+  },
+  {
+   "t": "Atenolol",
+   "u": "/drugs/atenolol/",
+   "l": "L5",
+   "lt": 42,
+   "lv": 40,
+   "r": 2,
+   "i": "malignant hypertensive renal disease"
+  },
+  {
+   "t": "Brompheniramine",
+   "u": "/drugs/brompheniramine/",
+   "l": "N/A",
+   "lt": 93,
+   "lv": 92,
+   "r": 2,
+   "i": ""
+  },
+  {
+   "t": "Camphor",
+   "u": "/drugs/camphor/",
+   "l": "L5",
+   "lt": 77,
+   "lv": 77,
+   "r": 2,
+   "i": "migraine disorder"
+  },
+  {
+   "t": "Clarithromycin",
+   "u": "/drugs/clarithromycin/",
+   "l": "L5",
+   "lt": 38,
+   "lv": 38,
+   "r": 2,
+   "i": "hyperamylasemia"
+  },
+  {
+   "t": "Dexamethasone",
+   "u": "/drugs/dexamethasone/",
+   "l": "L5",
+   "lt": 101,
+   "lv": 100,
+   "r": 2,
+   "i": "黏液性禿髮"
+  }
+ ],
+ "example": {
+  "t": "Bendamustine",
+  "u": "/drugs/bendamustine/",
+  "l": "L1",
+  "lt": 9,
+  "lv": 9,
+  "r": 0,
+  "i": "被套細胞淋巴瘤"
+ },
+ "recent_reviews": [
+  {
+   "t": "Sulfadiazine",
+   "u": "/drugs/sulfadiazine/",
+   "s": "「其餘 15 張許可證中，除第 1 張為獸用注射懸液外，其餘多為外用乳膏製劑。」→「其餘 18 張許可證皆為外用乳膏製劑（獸用注射懸液 HK-33558 已列在上表」",
+   "d": "2026-11-19"
+  },
+  {
+   "t": "Triamcinolone",
+   "u": "/drugs/triamcinolone/",
+   "s": "「香港共有 20 張有效單一成分許可證，皆為外用、口腔用或鼻用製劑。」→「香港共有 152 張含本藥成分的許可證（全部有效；單一成分 32 張、複方 12」",
+   "d": "2026-11-19"
+  },
+  {
+   "t": "Tacrolimus",
+   "u": "/drugs/tacrolimus/",
+   "s": "「香港共有 20 張有效的單一成分許可證，涵蓋口服膠囊（速釋與緩釋）及外用軟膏。」→「香港共有 45 張含本藥成分的許可證（全部有效；皆為單一成分），涵蓋口服膠囊（速」",
+   "d": "2026-11-19"
+  },
+  {
+   "t": "Fexofenadine",
+   "u": "/drugs/fexofenadine/",
+   "s": "「香港共有 20 張有效的單一成分許可證，皆為錠劑，目前資料未載明劑型與核准適應症」→「香港共有 39 張含本藥成分的許可證（全部有效；單一成分 38 張、複方 1 張」",
+   "d": "2026-11-19"
+  },
+  {
+   "t": "Tazemetostat",
+   "u": "/drugs/tazemetostat/",
+   "s": "「HK-68216  TAZVERIK TABLETS 200MG   有」→「HK-68216  TAZVERIK TABLETS 200MG   已」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Reserpine",
+   "u": "/drugs/reserpine/",
+   "s": "「HK-15916  RELAZIDE TAB   有效」→「HK-15916  RELAZIDE TAB   已註銷」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Niacin",
+   "u": "/drugs/niacin/",
+   "s": "「HK-60374  NIASPAN EXTENDED-RELEASE TAB 」→「HK-60374  NIASPAN EXTENDED-RELEASE TAB 」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Interferon Beta-1B",
+   "u": "/drugs/interferon-beta-1b/",
+   "s": "「BAYER HEALTHCARE LIMITED  有效（單一成分）」→「BAYER HEALTHCARE LIMITED  已註銷（單一成分）」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Brompheniramine",
+   "u": "/drugs/brompheniramine/",
+   "s": "「HK-47462  DIMETAPP ELIXIR   有效」→「HK-47462  DIMETAPP ELIXIR   已註銷」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Zinc Oxide",
+   "u": "/drugs/zinc-oxide/",
+   "s": "「共 20 張，皆為有效的單一成分製劑。」→「香港共有 74 張含本藥成分的許可證（有效 72 張、已註銷」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Vitamin E",
+   "u": "/drugs/vitamin-e/",
+   "s": "「以下為已收錄的許可證（共列出 5 張，總數至少 20 張，清單可能不完整）。」→「以下為已收錄的許可證（共 29 張含本藥成分的許可證，全部有」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Vildagliptin",
+   "u": "/drugs/vildagliptin/",
+   "s": "「本藥於香港共有 19 張有效許可證，均為單一成分登記」→「本藥於香港共有 20 張有效許可證（含單一成分製劑與 GALVUS MET 等與」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Verapamil",
+   "u": "/drugs/verapamil/",
+   "s": "「（共 8 張有效單方許可證，」→「（共 8 張單方許可證，7 張有效、HK-40708 已註銷；」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Valsartan",
+   "u": "/drugs/valsartan/",
+   "s": "「以下為本次整理到的許可證（共列出 5 張，總數至少 20 張，清單可能不完整）。」→「以下為本次整理到的許可證（共 78 張含本藥成分的許可證，全」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Valine",
+   "u": "/drugs/valine/",
+   "s": "「以上僅列出 5 張主要許可證，共有 20 張有效單一成分許可證。」→「以上僅列出 5 張主要許可證，香港共有 39 張含本藥成分的」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Uracil",
+   "u": "/drugs/uracil/",
+   "s": "「兩張許可證目前皆為有效狀態，」→「兩張許可證中 HK-48265（UNITORAL CAP）已註銷、另一張有效，」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Tryptophan",
+   "u": "/drugs/tryptophan/",
+   "s": "「以下為目前列出的部分許可證（總數至少 20 張，清單可能不完整）。」→「以下為目前列出的部分許可證（共 37 張含本藥成分的許可證，」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Triprolidine",
+   "u": "/drugs/triprolidine/",
+   "s": "「共 20 張有效許可證，以上僅列出前 5 張。」→「香港共有 39 張含本藥成分的許可證（有效 37 張、已註銷」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Tranexamic Acid",
+   "u": "/drugs/tranexamic-acid/",
+   "s": "「香港共有 20 張有效單方許可證，以下列出 5 張主要許可證（許可證資料未提供劑」→「香港共有 21 張含本藥成分的許可證（全部有效；皆為單一成分」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Tramadol",
+   "u": "/drugs/tramadol/",
+   "s": "「香港共有 20 張有效的單一成分許可證，皆為已上市狀態。」→「香港共有 44 張含本藥成分的許可證（有效 43 張、已註銷」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Topiramate",
+   "u": "/drugs/topiramate/",
+   "s": "「香港共有 20 張有效許可證，均為單一成分製劑，無已取消者。」→「香港共有 29 張含本藥成分的許可證（全部有效；皆為單一成分」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Ticagrelor",
+   "u": "/drugs/ticagrelor/",
+   "s": "「香港共有 8 張有效的單一成分許可證」→「香港共有 10 張有效的單一成分許可證」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Threonine",
+   "u": "/drugs/threonine/",
+   "s": "「香港共有 20 張有效的單一成分許可證，以下列出 5 張主要許可證（許可證資料中」→「香港共有 39 張含本藥成分的許可證（全部有效；皆為複方），」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Thiamine",
+   "u": "/drugs/thiamine/",
+   "s": "「本次資料列出 20 張單一成分許可證（至少 20 張，清單可能不完整），皆為有效」→「香港共有 118 張含本藥成分的許可證（有效 114 張、已」",
+   "d": "2026-11-17"
+  }
+ ],
+ "recent_licence_reviews": [
+  {
+   "t": "Sulfadiazine",
+   "u": "/drugs/sulfadiazine/",
+   "s": "「其餘 15 張許可證中，除第 1 張為獸用注射懸液外，其餘多為外用乳膏製劑。」→「其餘 18 張許可證皆為外用乳膏製劑（獸用注射懸液 HK-33558 已列在上表」",
+   "d": "2026-11-19"
+  },
+  {
+   "t": "Triamcinolone",
+   "u": "/drugs/triamcinolone/",
+   "s": "「香港共有 20 張有效單一成分許可證，皆為外用、口腔用或鼻用製劑。」→「香港共有 152 張含本藥成分的許可證（全部有效；單一成分 32 張、複方 12」",
+   "d": "2026-11-19"
+  },
+  {
+   "t": "Tacrolimus",
+   "u": "/drugs/tacrolimus/",
+   "s": "「香港共有 20 張有效的單一成分許可證，涵蓋口服膠囊（速釋與緩釋）及外用軟膏。」→「香港共有 45 張含本藥成分的許可證（全部有效；皆為單一成分），涵蓋口服膠囊（速」",
+   "d": "2026-11-19"
+  },
+  {
+   "t": "Fexofenadine",
+   "u": "/drugs/fexofenadine/",
+   "s": "「香港共有 20 張有效的單一成分許可證，皆為錠劑，目前資料未載明劑型與核准適應症」→「香港共有 39 張含本藥成分的許可證（全部有效；單一成分 38 張、複方 1 張」",
+   "d": "2026-11-19"
+  },
+  {
+   "t": "Tazemetostat",
+   "u": "/drugs/tazemetostat/",
+   "s": "「HK-68216  TAZVERIK TABLETS 200MG   有」→「HK-68216  TAZVERIK TABLETS 200MG   已」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Reserpine",
+   "u": "/drugs/reserpine/",
+   "s": "「HK-15916  RELAZIDE TAB   有效」→「HK-15916  RELAZIDE TAB   已註銷」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Niacin",
+   "u": "/drugs/niacin/",
+   "s": "「HK-60374  NIASPAN EXTENDED-RELEASE TAB 」→「HK-60374  NIASPAN EXTENDED-RELEASE TAB 」",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Interferon Beta-1B",
+   "u": "/drugs/interferon-beta-1b/",
+   "s": "「BAYER HEALTHCARE LIMITED  有效（單一成分）」→「BAYER HEALTHCARE LIMITED  已註銷（單一成分）」",
+   "d": "2026-11-17"
+  }
+ ],
+ "files": {
+  "search_index": 924,
+  "drugs_json": 924
+ },
+ "by_level": {
+  "L1": {
+   "n": 8,
+   "current": 7
+  },
+  "L2": {
+   "n": 39,
+   "current": 39
+  },
+  "L3": {
+   "n": 35,
+   "current": 35
+  },
+  "L4": {
+   "n": 57,
+   "current": 57
+  },
+  "L5": {
+   "n": 738,
+   "current": 735
+  }
+ },
+ "cross": {
+  "unique_pairs": 16,
+  "unique_examples": [
+   {
+    "t": "Calcium Glycerophosphate",
+    "u": "/drugs/calcium-glycerophosphate/",
+    "i": "鈣鹼症候群"
+   },
+   {
+    "t": "Ginseng",
+    "u": "/drugs/ginseng/",
+    "i": "mature cataract"
+   },
+   {
+    "t": "Glycocholic Acid",
+    "u": "/drugs/glycocholic-acid/",
+    "i": "Prinzmetal 心絞痛"
+   },
+   {
+    "t": "Pipenzolate",
+    "u": "/drugs/pipenzolate/",
+    "i": "insomnia (disease)"
+   }
+  ]
+ }
+}

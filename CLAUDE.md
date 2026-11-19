@@ -551,3 +551,8 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 - 原本就有、跟這次無關：nitroprusside 公開頁沒有 MedicationKnowledge（front matter 沒有 drugbank_id）——同日 080468cc9 已補（drugbank_id DB00325 取自證據包，MK 與 9 筆 CUD 從 git 歷史找回、跟 predicted_indications 相同），2026-11-19 sync_fhir_levels 確認一致。
 - 2026-11-19 待查清單的 11 筆劑型說法逐張對照已補齊的證據包（2026-11-13 版名單，劑型依產品名）：amylmetacresol（皆為含片）、ephedrine、formoterol（皆為吸入劑）、ketoconazole（乳膏與洗髮水為主）、mepyramine（皆為乳膏）、potassium_chloride 6 句成立，標 resolved；fexofenadine（另有 1 張口服混懸液 HK-60536）、hypromellose（另有 1 張眼用凝膠 HK-51887）、tacrolimus（另有 1 張輸注用濃縮液 HK-41917）、triamcinolone（另有 2 張注射劑 HK-16824、HK-23798）4 句不成立，以 hk-lic-20261117-*-1 同 id 重發改寫（前版存 history；新紀錄錨在舊紀錄的更正文字上會讓舊紀錄找不到錨點，所以不另開新 id）；sulfadiazine「其餘 15 張」→「其餘 18 張皆為乳膏」以 `hk-lic-20261119-sulfadiazine-1` 更正。
 - 2026-11-17 起每週排程（license-refresh.yml）在 license_refresh 前先下載現行 DrugList.xml 跑 `scripts/add_current_registrations.py`，新註冊的本藥號碼會自動補進證據包；有補收就照常發新 Release。
+
+## 說明頁與證據等級頁的在地資料（2026-11-19）
+
+用戶 2026-11-19 決定的第一批改版（母目錄 `.claude/gen_local_pages_20261119.py` 產生，不逐站手改）：說明頁（about／guide／sources／downloads／methodology，自有結構站只有證據等級頁與隱私頁）加本站資料區塊（`<!-- local-facts -->`）、證據等級頁的事實段與藥名表（`<!-- tier-facts -->`、`<!-- tier-table -->`）、隱私頁的適用法律／權利／著作權與資料來源段（`<!-- privacy-law -->`）；en／es／de 樣板站的共用長段落縮成一段（`<!-- local-condensed -->`）。
+資料檔 `docs/_data/local_facts.json`、`docs/_data/evidence_tier_facts.json` 由 `scripts/local_facts.py`（＝母目錄 `.claude/local_facts_lib.py`）依藥物頁、許可證快照、查核紀錄、FHIR 算；`apply_drug_reviews.py`、許可證快照程式結尾會自動 `--write`，`check_seo_docs.py` 跑 `--check` 擋過期。跨站欄位（cross：本站獨有預測、30 站中位數）與頁面區塊只由母目錄產生器更新；藥物頁改等級、noindex 或預測後要在母目錄重跑。

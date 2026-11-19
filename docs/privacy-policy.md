@@ -39,10 +39,32 @@ SMART on FHIR 應用在您主動啟動時，會向您的電子病歷系統請求
 
 ---
 
-## 資料主體權利
+<!-- privacy-law:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改；法規與連結見 .claude/privacy_text_20261119.py）-->
+## 適用法律
 
-本站沒有帳號，也沒有自己的伺服器保存個人紀錄；使用統計由 Google Analytics 4 收集，您可以在瀏覽器設定中封鎖或刪除其 Cookie。
-如對本政策有疑問，請聯繫 service@yao.care。
+香港訪客適用[《個人資料（私隱）條例》（第 486 章）](https://www.elegislation.gov.hk/hk/cap486)及其六項保障資料原則，由[個人資料私隱專員公署](https://www.pcpd.org.hk/)監督。本站不收集姓名、電郵或病歷；涉及的個人資料只有 Google Analytics 4 透過分析 cookie 收集的瀏覽統計，由 Google 在香港以外處理。
+
+## 您的權利與行使方式
+
+- 依保障資料第 6 原則提出查閱資料要求。
+- 要求改正不準確的資料。
+- 封鎖或刪除分析 cookie，停止被收集瀏覽統計。
+- 向個人資料私隱專員投訴。
+
+請求與詢問：service@yao.care。本站沒有帳號系統，Google Analytics 保存的資料需要您提供足夠資訊（例如造訪日期與頁面）我們才能處理；您也可以隨時在瀏覽器封鎖或刪除分析 cookie。
+
+## 著作權與資料來源
+
+本站文字受[《版權條例》（第 528 章）](https://www.elegislation.gov.hk/hk/cap528)保護。 本站程式碼依 MIT 授權公開於 [GitHub 儲存庫](https://github.com/yao-care/HkTxGNN)；報告文字著作權屬藥提醒科技有限公司 (yao.care)。
+
+本站使用的資料來源與其條款：
+
+- **TxGNN** 預測資料（Harvard Dataverse）：CC0 1.0 公眾領域貢獻宣告；引用請註明 Huang et al., *Nature Medicine* 2024。
+- **ClinicalTrials.gov** 與 **PubMed**：美國國家醫學圖書館，見 [ClinicalTrials.gov 條款](https://clinicaltrials.gov/about-site/terms-conditions)與 [NCBI 政策](https://www.ncbi.nlm.nih.gov/home/about/policies/)（部分 PubMed 摘要著作權仍屬出版者）。
+- **DrugBank** 識別碼與藥物資料：依 [DrugBank](https://go.drugbank.com/) 授權條款（非商業用途）。
+- **本地資料集**：[衛生署藥物辦公室 藥劑製品清單（DrugList.xml）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml), 由 衞生署藥物辦公室 發布，再利用依發布者的條款，本站不另外授予權利。
+
+<!-- privacy-law:end -->
 
 ---
 
