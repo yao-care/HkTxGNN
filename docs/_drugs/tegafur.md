@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "TEGAFUR"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-17
 description: "Tegafur：預測新適應症為Cecum villous adenoma（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

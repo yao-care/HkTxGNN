@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 221
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-17
 monitor_inn: "CLOTRIMAZOLE"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
 description: "Clotrimazole：預測新適應症為痤瘡 (acne (disease))（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

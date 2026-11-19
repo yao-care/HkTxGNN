@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 387
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-17
 monitor_inn: "FLUOCINOLONE ACETONIDE"
 predicted_indications: ["lichen planus pemphigoides"]
 description: "Fluocinolone Acetonide：預測新適應症為Lichen planus pemphigoides（證據等級 L5）。原適應症：本地許可證資料未記載適應症"

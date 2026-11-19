@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "NYSTATIN"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-17
 description: "Nystatin：預測新適應症為眼眶區域疾病 (disease of orbital region)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

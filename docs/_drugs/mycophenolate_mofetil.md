@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-17
 description: "Mycophenolate Mofetil：預測新適應症為人類免疫缺乏病毒感染 (HIV infectious disease)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 

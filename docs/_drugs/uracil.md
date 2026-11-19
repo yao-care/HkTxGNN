@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Uracil"
 predicted_indications: ["lipoma of colon", "colonic lymphangioma", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "cavernous hemangioma of colon", "cecal disease", "colon leiomyoma"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-17
 description: "Uracil：預測新適應症為Lipoma of colon（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
 ---
 

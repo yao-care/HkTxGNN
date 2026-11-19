@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-17
 description: "Levonorgestrel：預測新適應症為痤瘡 (acne (disease))（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
 ---
 

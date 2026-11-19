@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 665
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-10-30
 description: "Papain: known uses and market status in Hong Kong; currently no new candidate indication"
 predicted_indications: []
 ---
