@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "RISPERIDONE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 last_modified_at: 2026-11-17
-description: "Risperidone：預測新適應症為家族性水平凝視麻痺合併進行性脊柱側彎 (gaze palsy, familial horizontal, with progressive scoliosis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Risperidone：預測新適應症為家族性水平凝視麻痺合併進行性脊柱側彎 (gaze palsy, familial horizontal, with progressive scoliosis)（證據等級 L5）。香港藥劑製品註冊：48 張（有效 48 張）"
 ---
 
 # Risperidone

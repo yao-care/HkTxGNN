@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-28
 monitor_inn: "GOLIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
-description: "Golimumab：預測新適應症為Hypermobility of coccyx（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Golimumab：預測新適應症為Hypermobility of coccyx（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
 # Golimumab

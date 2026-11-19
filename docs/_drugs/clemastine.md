@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "CLEMASTINE"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 last_modified_at: 2026-10-28
-description: "Clemastine：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Clemastine：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
 # Clemastine

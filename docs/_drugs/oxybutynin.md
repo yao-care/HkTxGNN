@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-17
 monitor_inn: "Oxybutynin"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
-description: "Oxybutynin：預測新適應症為不寧腿症候群 (restless legs syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Oxybutynin：預測新適應症為不寧腿症候群 (restless legs syndrome)（證據等級 L5）。香港藥劑製品註冊：6 張（有效 6 張）"
 ---
 
 # Oxybutynin

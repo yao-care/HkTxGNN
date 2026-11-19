@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-28
 monitor_inn: "Nicardipine"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
-description: "Nicardipine：預測新適應症為肺疾病及（或）缺氧所致肺高壓 (pulmonary hypertension owing to lung disease and/or hypoxia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Nicardipine：預測新適應症為肺疾病及（或）缺氧所致肺高壓 (pulmonary hypertension owing to lung disease and/or hypoxia)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
 # Nicardipine

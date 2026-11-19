@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-28
 monitor_inn: "ESKETAMINE"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
-description: "Esketamine：預測新適應症為畏曠症 (agoraphobia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Esketamine：預測新適應症為畏曠症 (agoraphobia)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
 # Esketamine

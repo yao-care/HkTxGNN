@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-28
 monitor_inn: "Hesperidin"
 predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "spermatocytic seminoma", "tubular variant testicular seminoma", "gestational trophoblastic neoplasm"]
-description: "Hesperidin：預測新適應症為骨髓增生性腫瘤 (myeloproliferative neoplasm)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Hesperidin：預測新適應症為骨髓增生性腫瘤 (myeloproliferative neoplasm)（證據等級 L5）。香港藥劑製品註冊：17 張（有效 17 張）"
 ---
 
 # Hesperidin

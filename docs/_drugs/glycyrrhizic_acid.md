@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-28
 monitor_inn: "Glycyrrhizic acid"
 predicted_indications: ["multiple endocrine neoplasia"]
-description: "Glycyrrhizic Acid：預測新適應症為多發性內分泌腫瘤 (multiple endocrine neoplasia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Glycyrrhizic Acid：預測新適應症為多發性內分泌腫瘤 (multiple endocrine neoplasia)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
 # Glycyrrhizic Acid

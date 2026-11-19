@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "BUDESONIDE"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
 last_modified_at: 2026-11-17
-description: "Budesonide：預測新適應症為異位性皮膚炎 (atopic eczema)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Budesonide：預測新適應症為異位性皮膚炎 (atopic eczema)（證據等級 L5）。香港藥劑製品註冊：29 張（有效 29 張）"
 ---
 
 # Budesonide

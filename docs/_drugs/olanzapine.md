@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-17
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
-description: "Olanzapine：預測新適應症為Benign paroxysmal torticollis of infancy（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Olanzapine：預測新適應症為Benign paroxysmal torticollis of infancy（證據等級 L5）。香港藥劑製品註冊：40 張（有效 40 張）"
 ---
 
 # Olanzapine

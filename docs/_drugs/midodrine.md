@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-28
 monitor_inn: "Midodrine"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
-description: "Midodrine：預測新適應症為Variably protease-sensitive prionopathy（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Midodrine：預測新適應症為Variably protease-sensitive prionopathy（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
 # Midodrine

@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-28
 monitor_inn: "ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
-description: "Ethinylestradiol：預測新適應症為血漿鋅偏高 (zinc, elevated plasma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Ethinylestradiol：預測新適應症為血漿鋅偏高 (zinc, elevated plasma)（證據等級 L5）。香港藥劑製品註冊：18 張（有效 18 張）"
 ---
 
 # Ethinylestradiol

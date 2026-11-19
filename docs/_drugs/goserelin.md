@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-28
 monitor_inn: "GOSERELIN"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
-description: "Goserelin：預測新適應症為Amenorrhea (disease)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
+description: "Goserelin：預測新適應症為Amenorrhea (disease)（證據等級 L2）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
 # Goserelin

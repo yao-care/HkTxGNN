@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "ERGOCALCIFEROL"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "renal osteodystrophy", "calcium-alkali syndrome"]
 last_modified_at: 2026-11-03
-description: "Ergocalciferol：預測新適應症為肢中段發育不良，Campailla-Martinelli 型 (acromesomelic dysplasia, Campailla Martinelli type)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Ergocalciferol：預測新適應症為肢中段發育不良，Campailla-Martinelli 型 (acromesomelic dysplasia, Campailla Martinelli type)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
 # Ergocalciferol

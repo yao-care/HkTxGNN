@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-04
 monitor_inn: "ZINC SULFATE"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "congenital prothrombin deficiency"]
-description: "Zinc Sulfate：預測新適應症為咽炎 (pharyngitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Zinc Sulfate：預測新適應症為咽炎 (pharyngitis)（證據等級 L5）。香港藥劑製品註冊：7 張（有效 7 張）"
 ---
 
 # Zinc Sulfate

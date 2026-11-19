@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-17
 monitor_inn: "DIAZEPAM"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
-description: "Diazepam：預測新適應症為失眠 (insomnia (disease))（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
+description: "Diazepam：預測新適應症為失眠 (insomnia (disease))（證據等級 L2）。香港藥劑製品註冊：25 張（有效 25 張）"
 ---
 
 # Diazepam

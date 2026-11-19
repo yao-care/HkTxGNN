@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "ADALIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
 last_modified_at: 2026-11-17
-description: "Adalimumab：預測新適應症為尾骨過度活動 (hypermobility of coccyx)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Adalimumab：預測新適應症為尾骨過度活動 (hypermobility of coccyx)（證據等級 L5）。香港藥劑製品註冊：12 張（有效 10 張）"
 ---
 
 # Adalimumab

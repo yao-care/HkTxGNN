@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-17
 monitor_inn: "olmesartan"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
-description: "Olmesartan：預測新適應症為Prinzmetal angina（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Olmesartan：預測新適應症為Prinzmetal angina（證據等級 L5）。香港藥劑製品註冊：23 張（有效 19 張）"
 ---
 
 # Olmesartan

@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "MERCAPTOPURINE"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 last_modified_at: 2026-11-04
-description: "Mercaptopurine：預測新適應症為骨髓性白血病 (myeloid leukemia)（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
+description: "Mercaptopurine：預測新適應症為骨髓性白血病 (myeloid leukemia)（證據等級 L3）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
 # Mercaptopurine

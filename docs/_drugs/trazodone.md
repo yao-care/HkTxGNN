@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-28
 monitor_inn: "Trazodone"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
-description: "Trazodone：預測新適應症為強迫症 (obsessive-compulsive disorder)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
+description: "Trazodone：預測新適應症為強迫症 (obsessive-compulsive disorder)（證據等級 L2）。香港藥劑製品註冊：11 張（有效 11 張）"
 ---
 
 # Trazodone

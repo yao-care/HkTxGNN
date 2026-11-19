@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-10-28
 monitor_inn: "Flavoxate"
 predicted_indications: ["attention deficit hyperactivity disorder, inattentive type", "irritable bowel syndrome", "specific developmental disorder", "attention deficit-hyperactivity disorder", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "peptic ulcer disease"]
-description: "Flavoxate：預測新適應症為注意力不足過動症（無注意力不足型）(Attention Deficit Hyperactivity Disorder, Inattentive Type)，為模型排名第 1 的預測（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Flavoxate：預測新適應症為注意力不足過動症（無注意力不足型）(Attention Deficit Hyperactivity Disorder, Inattentive Type)，為模型排名第 1 的預測（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
 # Flavoxate

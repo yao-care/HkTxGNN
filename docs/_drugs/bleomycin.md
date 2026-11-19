@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "BLEOMYCIN"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
 last_modified_at: 2026-11-03
-description: "Bleomycin：預測新適應症為馬尾腫瘤 (cauda equina neoplasm)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Bleomycin：預測新適應症為馬尾腫瘤 (cauda equina neoplasm)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
 # Bleomycin

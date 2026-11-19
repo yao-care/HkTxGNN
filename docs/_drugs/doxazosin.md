@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-17
 monitor_inn: "DOXAZOSIN"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
-description: "Doxazosin：預測新適應症為偏頭痛 (migraine disorder)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
+description: "Doxazosin：預測新適應症為偏頭痛 (migraine disorder)（證據等級 L4）。香港藥劑製品註冊：25 張（有效 25 張）"
 ---
 
 # Doxazosin

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-28
 monitor_inn: "Imatinib"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
-description: "Imatinib：預測新適應症為心臟纖維肉瘤 (heart fibrosarcoma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Imatinib：預測新適應症為心臟纖維肉瘤 (heart fibrosarcoma)（證據等級 L5）。香港藥劑製品註冊：18 張（有效 18 張）"
 ---
 
 # Imatinib

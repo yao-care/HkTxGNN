@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-29
 monitor_inn: "ETODOLAC"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
-description: "Etodolac：預測新適應症為Acromesomelic dysplasia, Hunter-Thompson type（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Etodolac：預測新適應症為Acromesomelic dysplasia, Hunter-Thompson type（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
 # Etodolac

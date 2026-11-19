@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-28
 monitor_inn: "Propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
-description: "Propafenone：預測新適應症為躁症 (manic bipolar affective disorder)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Propafenone：預測新適應症為躁症 (manic bipolar affective disorder)（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"
 ---
 
 # Propafenone

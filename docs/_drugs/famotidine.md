@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "FAMOTIDINE"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
 last_modified_at: 2026-11-17
-description: "Famotidine：預測新適應症為十二指腸阻塞 (duodenal obstruction)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Famotidine：預測新適應症為十二指腸阻塞 (duodenal obstruction)（證據等級 L5）。香港藥劑製品註冊：79 張（有效 79 張）"
 ---
 
 # Famotidine

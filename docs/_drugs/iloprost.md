@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "ILOPROST"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "diffuse alopecia areata"]
 last_modified_at: 2026-10-28
-description: "Iloprost：預測新適應症為單純性頭皮毛髮稀少症 (hypotrichosis simplex of the scalp)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Iloprost：預測新適應症為單純性頭皮毛髮稀少症 (hypotrichosis simplex of the scalp)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
 # Iloprost

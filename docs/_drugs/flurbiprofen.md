@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "FLURBIPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
 last_modified_at: 2026-11-03
-description: "Flurbiprofen：預測新適應症為肢端中段發育不良，亨特-湯普森型 (acromesomelic dysplasia, Hunter-Thompson type)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Flurbiprofen：預測新適應症為肢端中段發育不良，亨特-湯普森型 (acromesomelic dysplasia, Hunter-Thompson type)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
 # Flurbiprofen

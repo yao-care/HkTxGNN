@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-28
 monitor_inn: "DORZOLAMIDE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
-description: "Dorzolamide：預測新適應症為Hypotrichosis simplex of the scalp（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Dorzolamide：預測新適應症為Hypotrichosis simplex of the scalp（證據等級 L5）。香港藥劑製品註冊：10 張（有效 10 張）"
 ---
 
 # Dorzolamide

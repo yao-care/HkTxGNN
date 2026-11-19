@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-04
 monitor_inn: "Conjugated estrogens"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "rheumatoid arthritis", "heparin cofactor 2 deficiency", "Prinzmetal angina", "hemoglobinopathy", "thrombophilia"]
-description: "Conjugated Estrogens：預測新適應症為偏頭痛 (migraine disorder)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Conjugated Estrogens：預測新適應症為偏頭痛 (migraine disorder)（證據等級 L5）。香港藥劑製品註冊：6 張（有效 6 張）"
 ---
 
 # Conjugated Estrogens

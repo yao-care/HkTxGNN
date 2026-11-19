@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-17
 monitor_inn: "CYANOCOBALAMIN"
 predicted_indications: ["biotin metabolic disease"]
-description: "Cyanocobalamin：預測新適應症為生物素代謝疾病 (biotin metabolic disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Cyanocobalamin：預測新適應症為生物素代謝疾病 (biotin metabolic disease)（證據等級 L5）。香港藥劑製品註冊：77 張（有效 76 張）"
 ---
 
 # Cyanocobalamin

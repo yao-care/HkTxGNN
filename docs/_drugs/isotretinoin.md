@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-28
 monitor_inn: "ISOTRETINOIN"
 predicted_indications: ["malignant hypertensive renal disease"]
-description: "Isotretinoin：預測新適應症為Malignant hypertensive renal disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Isotretinoin：預測新適應症為Malignant hypertensive renal disease（證據等級 L5）。香港藥劑製品註冊：13 張（有效 13 張）"
 ---
 
 # Isotretinoin

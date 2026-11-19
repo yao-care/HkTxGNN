@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "LISINOPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 last_modified_at: 2026-11-17
-description: "Lisinopril：預測新適應症為Pulmonary hypertension owing to lung disease and/or hypoxia（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Lisinopril：預測新適應症為Pulmonary hypertension owing to lung disease and/or hypoxia（證據等級 L5）。香港藥劑製品註冊：34 張（有效 33 張）"
 ---
 
 # Lisinopril

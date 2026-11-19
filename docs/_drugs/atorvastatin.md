@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "ATORVASTATIN"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 last_modified_at: 2026-11-17
-description: "Atorvastatin：預測新適應症為HIV 感染 (HIV infectious disease)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
+description: "Atorvastatin：預測新適應症為HIV 感染 (HIV infectious disease)（證據等級 L2）。香港藥劑製品註冊：94 張（有效 93 張）"
 ---
 
 # Atorvastatin

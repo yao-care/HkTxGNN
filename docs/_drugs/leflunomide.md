@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-17
 monitor_inn: "LEFLUNOMIDE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-description: "Leflunomide：預測新適應症為短指併指症候群 (brachydactyly-syndactyly syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Leflunomide：預測新適應症為短指併指症候群 (brachydactyly-syndactyly syndrome)（證據等級 L5）。香港藥劑製品註冊：15 張（有效 14 張）"
 ---
 
 # Leflunomide

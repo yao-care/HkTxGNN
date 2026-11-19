@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "ACETYLCYSTEINE"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
 last_modified_at: 2026-11-17
-description: "Acetylcysteine：預測新適應症為血栓性疾病 (thrombotic disease)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
+description: "Acetylcysteine：預測新適應症為血栓性疾病 (thrombotic disease)（證據等級 L2）。香港藥劑製品註冊：38 張（有效 36 張）"
 ---
 
 # Acetylcysteine

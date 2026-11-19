@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
 last_modified_at: 2026-11-03
-description: "Amiodarone：預測新適應症為兒茶酚胺敏感性多形性心室頻脈 (catecholaminergic polymorphic ventricular tachycardia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Amiodarone：預測新適應症為兒茶酚胺敏感性多形性心室頻脈 (catecholaminergic polymorphic ventricular tachycardia)（證據等級 L5）。香港藥劑製品註冊：7 張（有效 7 張）"
 ---
 
 # Amiodarone

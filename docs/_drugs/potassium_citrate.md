@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "POTASSIUM CITRATE"
 predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "cystinosis", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency", "adult Fanconi syndrome"]
 last_modified_at: 2026-11-17
-description: "Potassium Citrate：預測新適應症為家族性內臟肌病變 (familial visceral myopathy)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Potassium Citrate：預測新適應症為家族性內臟肌病變 (familial visceral myopathy)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
 # Potassium Citrate

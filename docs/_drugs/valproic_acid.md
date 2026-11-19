@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-28
 monitor_inn: "VALPROIC ACID"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
-description: "Valproic Acid：預測新適應症為三叉神經腫瘤 (trigeminal nerve neoplasm)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Valproic Acid：預測新適應症為三叉神經腫瘤 (trigeminal nerve neoplasm)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
 # Valproic Acid

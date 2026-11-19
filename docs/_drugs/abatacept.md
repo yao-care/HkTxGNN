@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "ABATACEPT"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 last_modified_at: 2026-10-28
-description: "Abatacept：預測新適應症為僵直性脊椎炎 (ankylosing spondylitis)（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
+description: "Abatacept：預測新適應症為僵直性脊椎炎 (ankylosing spondylitis)（證據等級 L3）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
 # Abatacept

@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "CALCITRIOL"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
 last_modified_at: 2026-10-28
-description: "Calcitriol：預測新適應症為已淘汰的維生素 D 缺乏症 (obsolete vitamin D deficiency)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Calcitriol：預測新適應症為已淘汰的維生素 D 缺乏症 (obsolete vitamin D deficiency)（證據等級 L5）。香港藥劑製品註冊：8 張（有效 8 張）"
 ---
 
 # Calcitriol

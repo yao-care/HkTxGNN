@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-04
 monitor_inn: "CLOZAPINE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
-description: "Clozapine：預測新適應症為躁型雙相情感障礙 (manic bipolar affective disorder)（證據等級 L2）。原適應症：本地許可證資料未記載適應症"
+description: "Clozapine：預測新適應症為躁型雙相情感障礙 (manic bipolar affective disorder)（證據等級 L2）。香港藥劑製品註冊：9 張（有效 9 張）"
 ---
 
 # Clozapine

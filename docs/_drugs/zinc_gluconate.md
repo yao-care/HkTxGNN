@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-28
 monitor_inn: "Zinc gluconate"
 predicted_indications: ["anemia of prematurity", "injury", "cell proliferation disorder", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "radiation or chemically induced disorder", "disease by subcellular system affected", "iatrogenic disease", "regional odontodysplasia"]
-description: "Zinc Gluconate：預測新適應症為早產兒貧血 (anemia of prematurity)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Zinc Gluconate：預測新適應症為早產兒貧血 (anemia of prematurity)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
 # Zinc Gluconate

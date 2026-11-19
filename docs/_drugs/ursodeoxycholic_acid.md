@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-28
 monitor_inn: "URSODEOXYCHOLIC ACID"
 predicted_indications: ["homozygous familial hypercholesterolemia"]
-description: "Ursodeoxycholic Acid：預測新適應症為同型合子家族性高膽固醇血症 (homozygous familial hypercholesterolemia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Ursodeoxycholic Acid：預測新適應症為同型合子家族性高膽固醇血症 (homozygous familial hypercholesterolemia)（證據等級 L5）。香港藥劑製品註冊：13 張（有效 13 張）"
 ---
 
 # Ursodeoxycholic Acid

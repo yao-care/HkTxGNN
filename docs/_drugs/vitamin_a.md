@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-28
 monitor_inn: "Vitamin A"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "perinatal disease", "disease by subcellular system affected", "radiation or chemically induced disorder"]
-description: "Vitamin A：預測新適應症為先天性凝血酶原缺乏症 (congenital prothrombin deficiency)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Vitamin A：預測新適應症為先天性凝血酶原缺乏症 (congenital prothrombin deficiency)（證據等級 L5）。香港藥劑製品註冊：8 張（有效 8 張）"
 ---
 
 # Vitamin A

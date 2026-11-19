@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-19
 monitor_inn: "Fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
-description: "Fexofenadine：預測新適應症為酒糟性結膜炎 (rosacea conjunctivitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Fexofenadine：預測新適應症為酒糟性結膜炎 (rosacea conjunctivitis)（證據等級 L5）。香港藥劑製品註冊：39 張（有效 39 張）"
 ---
 
 # Fexofenadine

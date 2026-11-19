@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-17
 monitor_inn: "Lacosamide"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
-description: "Lacosamide：預測新適應症為Manic bipolar affective disorder（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Lacosamide：預測新適應症為Manic bipolar affective disorder（證據等級 L5）。香港藥劑製品註冊：14 張（有效 14 張）"
 ---
 
 # Lacosamide

@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-28
 monitor_inn: "Epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
-description: "Epinephrine：預測新適應症為阻塞性肺病 (obstructive lung disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Epinephrine：預測新適應症為阻塞性肺病 (obstructive lung disease)（證據等級 L5）。香港藥劑製品註冊：16 張（有效 16 張）"
 ---
 
 # Epinephrine

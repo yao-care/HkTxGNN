@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-17
 monitor_inn: "Losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
-description: "Losartan：預測新適應症為惡性高血壓腎病變 (malignant hypertensive renal disease)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
+description: "Losartan：預測新適應症為惡性高血壓腎病變 (malignant hypertensive renal disease)（證據等級 L4）。香港藥劑製品註冊：53 張（有效 53 張）"
 ---
 
 # Losartan

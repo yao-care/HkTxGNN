@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-28
 monitor_inn: "PROBENECID"
 predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
-description: "Probenecid：預測新適應症為腎性低尿酸血症 (hypouricemia, renal)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
+description: "Probenecid：預測新適應症為腎性低尿酸血症 (hypouricemia, renal)（證據等級 L4）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
 # Probenecid

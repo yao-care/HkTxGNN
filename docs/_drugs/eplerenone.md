@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "EPLERENONE"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome"]
 last_modified_at: 2026-10-28
-description: "Eplerenone：預測新適應症為肺高壓 (pulmonary hypertension with unclear multifactorial mechanism)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Eplerenone：預測新適應症為肺高壓 (pulmonary hypertension with unclear multifactorial mechanism)（證據等級 L5）。香港藥劑製品註冊：8 張（有效 8 張）"
 ---
 
 # Eplerenone

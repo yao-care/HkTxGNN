@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "Bevacizumab"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
 last_modified_at: 2026-11-17
-description: "Bevacizumab：預測新適應症為會厭腫瘤 (epiglottis neoplasm)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Bevacizumab：預測新適應症為會厭腫瘤 (epiglottis neoplasm)（證據等級 L5）。香港藥劑製品註冊：10 張（有效 10 張）"
 ---
 
 # Bevacizumab

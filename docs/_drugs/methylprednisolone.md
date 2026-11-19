@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "METHYLPREDNISOLONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 last_modified_at: 2026-11-03
-description: "Methylprednisolone：預測新適應症為黏蛋白性脫髮 (alopecia mucinosa)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Methylprednisolone：預測新適應症為黏蛋白性脫髮 (alopecia mucinosa)（證據等級 L5）。香港藥劑製品註冊：8 張（有效 8 張）"
 ---
 
 # Methylprednisolone

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-28
 monitor_inn: "Prucalopride"
 predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "duodenal ulcer (disease)", "oral candidiasis", "obsolete familial combined hyperlipidemia", "amyloidosis (disease)", "strongyloidiasis", "HIV infectious disease", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
-description: "Prucalopride：預測新適應症為低 α 脂蛋白血症 (hypoalphalipoproteinemia)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Prucalopride：預測新適應症為低 α 脂蛋白血症 (hypoalphalipoproteinemia)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
 # Prucalopride

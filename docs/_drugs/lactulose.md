@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "LACTULOSE"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
 last_modified_at: 2026-10-28
-description: "Lactulose：預測新適應症為Acute urate nephropathy（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Lactulose：預測新適應症為Acute urate nephropathy（證據等級 L5）。香港藥劑製品註冊：13 張（有效 13 張）"
 ---
 
 # Lactulose

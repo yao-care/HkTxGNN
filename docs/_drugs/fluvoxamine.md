@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "Fluvoxamine"
 predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-description: "Fluvoxamine：預測新適應症為Histrionic personality disorder (disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Fluvoxamine：預測新適應症為Histrionic personality disorder (disease)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
 # Fluvoxamine

@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-10-28
 monitor_inn: "CLOFARABINE"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
-description: "Clofarabine：預測新適應症為骨髓性白血病 (myeloid leukemia)（證據等級 L1）。原適應症：本地許可證資料未記載適應症"
+description: "Clofarabine：預測新適應症為骨髓性白血病 (myeloid leukemia)（證據等級 L1）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
 # Clofarabine

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-28
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
-description: "Natalizumab：預測新適應症為Bronchitis（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Natalizumab：預測新適應症為Bronchitis（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
 # Natalizumab

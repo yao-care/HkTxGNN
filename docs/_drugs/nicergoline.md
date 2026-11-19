@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "NICERGOLINE"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "benign prostatic hyperplasia (disease)", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder"]
 last_modified_at: 2026-10-28
-description: "Nicergoline：預測新適應症為Hypertrichosis (disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Nicergoline：預測新適應症為Hypertrichosis (disease)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
 # Nicergoline

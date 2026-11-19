@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-28
 monitor_inn: "Sotalol"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]
-description: "Sotalol：預測新適應症為體染色體顯性病態竇房結症候群第 2 型 (sick sinus syndrome 2, autosomal dominant)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Sotalol：預測新適應症為體染色體顯性病態竇房結症候群第 2 型 (sick sinus syndrome 2, autosomal dominant)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
 # Sotalol

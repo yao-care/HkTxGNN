@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "BRIGATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
 last_modified_at: 2026-10-28
-description: "Brigatinib：預測新適應症為牙齦纖維瘤病 (fibromatosis, gingival)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Brigatinib：預測新適應症為牙齦纖維瘤病 (fibromatosis, gingival)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
 # Brigatinib

@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "BIMATOPROST"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
 last_modified_at: 2026-10-28
-description: "Bimatoprost：預測新適應症為伴有牙齒和/或牙周異常的畸形症候群 (malformation syndrome with odontal and/or periodontal component)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Bimatoprost：預測新適應症為伴有牙齒和/或牙周異常的畸形症候群 (malformation syndrome with odontal and/or periodontal component)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
 # Bimatoprost

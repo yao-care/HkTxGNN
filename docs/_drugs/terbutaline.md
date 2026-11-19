@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "Terbutaline"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-description: "Terbutaline：預測新適應症為呼吸道畸形 (respiratory malformation)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Terbutaline：預測新適應症為呼吸道畸形 (respiratory malformation)（證據等級 L5）。香港藥劑製品註冊：19 張（有效 19 張）"
 ---
 
 # Terbutaline

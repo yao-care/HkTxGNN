@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "GRANISETRON"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "acute contagious conjunctivitis", "angioedema", "allergic urticaria", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "bronchitis", "cold urticaria", "conjunctivitis"]
 last_modified_at: 2026-10-28
-description: "Granisetron：預測新適應症為躁期雙相情感障礙 (manic bipolar affective disorder)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Granisetron：預測新適應症為躁期雙相情感障礙 (manic bipolar affective disorder)（證據等級 L5）。香港藥劑製品註冊：11 張（有效 11 張）"
 ---
 
 # Granisetron

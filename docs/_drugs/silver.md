@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-28
 monitor_inn: "Silver"
 predicted_indications: ["bone Paget disease"]
-description: "Silver：預測新適應症為骨 Paget 氏病 (bone Paget disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Silver：預測新適應症為骨 Paget 氏病 (bone Paget disease)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
 # Silver

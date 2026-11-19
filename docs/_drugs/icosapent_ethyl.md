@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-28
 monitor_inn: "ICOSAPENT ETHYL"
 predicted_indications: ["hemoglobinopathy"]
-description: "Icosapent Ethyl：預測新適應症為血紅素病變 (hemoglobinopathy)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Icosapent Ethyl：預測新適應症為血紅素病變 (hemoglobinopathy)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
 # Icosapent Ethyl

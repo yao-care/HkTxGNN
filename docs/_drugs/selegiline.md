@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-28
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
-description: "Selegiline：預測新適應症為Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Selegiline：預測新適應症為Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
 # Selegiline

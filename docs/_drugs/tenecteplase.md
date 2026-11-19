@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "TENECTEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
 last_modified_at: 2026-11-17
-description: "Tenecteplase：預測新適應症為Congenital coronary artery anomaly（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Tenecteplase：預測新適應症為Congenital coronary artery anomaly（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
 # Tenecteplase

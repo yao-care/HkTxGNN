@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-17
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
-description: "Methylphenidate：預測新適應症為顏面指趾生殖器症候群 (faciodigitogenital syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Methylphenidate：預測新適應症為顏面指趾生殖器症候群 (faciodigitogenital syndrome)（證據等級 L5）。香港藥劑製品註冊：29 張（有效 29 張）"
 ---
 
 # Methylphenidate

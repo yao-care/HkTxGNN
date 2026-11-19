@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "LEVOCARNITINE"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "rheumatoid arthritis", "sclerosing cholangitis", "gout", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congestive heart failure", "hypoalphalipoproteinemia"]
 last_modified_at: 2026-10-28
-description: "Levocarnitine：預測新適應症為Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Levocarnitine：預測新適應症為Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
 # Levocarnitine

@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "PINAZEPAM"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "antidepressant type abuse", "hallucinogen abuse", "barbiturate abuse", "sleep disorder, initiating and maintaining sleep"]
 last_modified_at: 2026-11-03
-description: "Pinazepam：預測新適應症為失眠 (insomnia (disease))（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Pinazepam：預測新適應症為失眠 (insomnia (disease))（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
 # Pinazepam

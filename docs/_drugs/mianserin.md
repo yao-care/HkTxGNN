@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-28
 monitor_inn: "Mianserin"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "neurotic disorder"]
-description: "Mianserin：預測新適應症為良性嬰兒陣發性斜頸 (benign paroxysmal torticollis of infancy)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Mianserin：預測新適應症為良性嬰兒陣發性斜頸 (benign paroxysmal torticollis of infancy)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
 # Mianserin

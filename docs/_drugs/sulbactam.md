@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-28
 monitor_inn: "SULBACTAM"
 predicted_indications: ["bacterial arthritis"]
-description: "Sulbactam：預測新適應症為細菌性關節炎 (bacterial arthritis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Sulbactam：預測新適應症為細菌性關節炎 (bacterial arthritis)（證據等級 L5）。香港藥劑製品註冊：8 張（有效 8 張）"
 ---
 
 # Sulbactam

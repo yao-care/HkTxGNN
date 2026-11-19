@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-28
 monitor_inn: "Pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
-description: "Pyridostigmine：預測新適應症為Autoimmune disease of peripheral nervous system（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Pyridostigmine：預測新適應症為Autoimmune disease of peripheral nervous system（證據等級 L5）。香港藥劑製品註冊：6 張（有效 6 張）"
 ---
 
 # Pyridostigmine

@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "TIOCONAZOLE"
 predicted_indications: ["vulvitis", "postmenopausal atrophic vaginitis"]
-description: "Tioconazole：預測新適應症為外陰炎 (vulvitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Tioconazole：預測新適應症為外陰炎 (vulvitis)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
 # Tioconazole

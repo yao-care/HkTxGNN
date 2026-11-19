@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "GIMERACIL"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
 last_modified_at: 2026-11-03
-description: "Gimeracil：預測新適應症為Cecum villous adenoma（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Gimeracil：預測新適應症為Cecum villous adenoma（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
 # Gimeracil

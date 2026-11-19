@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-28
 monitor_inn: "CRIZOTINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
-description: "Crizotinib：預測新適應症為遺傳性牙齦纖維瘤病 (fibromatosis, gingival)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Crizotinib：預測新適應症為遺傳性牙齦纖維瘤病 (fibromatosis, gingival)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
 # Crizotinib

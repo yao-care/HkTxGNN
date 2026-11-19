@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-28
 monitor_inn: "CYPROTERONE ACETATE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
-description: "Cyproterone Acetate：預測新適應症為偏頭痛 (migraine disorder)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Cyproterone Acetate：預測新適應症為偏頭痛 (migraine disorder)（證據等級 L5）。香港藥劑製品註冊：6 張（有效 6 張）"
 ---
 
 # Cyproterone Acetate

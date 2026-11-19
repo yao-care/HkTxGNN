@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-17
 monitor_inn: "HEPARIN"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
-description: "Heparin：預測新適應症為體染色體隱性蛋白 C 缺乏所致血栓傾向症 (thrombophilia due to protein C deficiency, autosomal recessive)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Heparin：預測新適應症為體染色體隱性蛋白 C 缺乏所致血栓傾向症 (thrombophilia due to protein C deficiency, autosomal recessive)（證據等級 L5）。香港藥劑製品註冊：28 張（有效 27 張）"
 ---
 
 # Heparin

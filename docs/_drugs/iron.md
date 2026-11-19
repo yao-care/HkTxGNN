@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "IRON"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
 last_modified_at: 2026-11-03
-description: "Iron：預測新適應症為Vitamin B12- and folate-independent constitutional megaloblastic anemia（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Iron：預測新適應症為Vitamin B12- and folate-independent constitutional megaloblastic anemia（證據等級 L5）。香港藥劑製品註冊：17 張（有效 17 張）"
 ---
 
 # Iron

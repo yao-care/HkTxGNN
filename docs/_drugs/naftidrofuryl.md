@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-17
 monitor_inn: "naftidrofuryl"
 predicted_indications: ["stroke disorder"]
-description: "Naftidrofuryl：預測新適應症為中風 (stroke disorder)（證據等級 L1）。原適應症：本地許可證資料未記載適應症"
+description: "Naftidrofuryl：預測新適應症為中風 (stroke disorder)（證據等級 L1）。香港藥劑製品註冊：1 張（有效 0 張）"
 ---
 
 # Naftidrofuryl

@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "Clidinium"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "myasthenia gravis with thymus hyperplasia", "myasthenia, limb-girdle, autoimmune", "neonatal myasthenia gravis", "autoimmune disease of peripheral nervous system", "disease of receptor activity", "large intestine disease"]
-description: "Clidinium：預測新適應症為馬尾症候群 (cauda equina syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Clidinium：預測新適應症為馬尾症候群 (cauda equina syndrome)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
 # Clidinium

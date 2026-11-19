@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-28
 monitor_inn: "FOLIC ACID"
 predicted_indications: ["biotin metabolic disease"]
-description: "Folic Acid：預測新適應症為生物素代謝疾病 (biotin metabolic disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Folic Acid：預測新適應症為生物素代謝疾病 (biotin metabolic disease)（證據等級 L5）。香港藥劑製品註冊：11 張（有效 11 張）"
 ---
 
 # Folic Acid

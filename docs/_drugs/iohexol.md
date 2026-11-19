@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "Iohexol"
 predicted_indications: ["insomnia (disease)", "anxiety"]
-description: "Iohexol：預測新適應症為失眠 (insomnia (disease))（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Iohexol：預測新適應症為失眠 (insomnia (disease))（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
 # Iohexol

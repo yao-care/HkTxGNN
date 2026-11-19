@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "CELECOXIB"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
 last_modified_at: 2026-11-17
-description: "Celecoxib：預測新適應症為肢中型發育不良，Hunter-Thompson 型 (acromesomelic dysplasia, Hunter-Thompson type)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Celecoxib：預測新適應症為肢中型發育不良，Hunter-Thompson 型 (acromesomelic dysplasia, Hunter-Thompson type)（證據等級 L5）。香港藥劑製品註冊：50 張（有效 50 張）"
 ---
 
 # Celecoxib

@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-28
 monitor_inn: "TRIFLUOPERAZINE"
 predicted_indications: ["manic bipolar affective disorder"]
-description: "Trifluoperazine：預測新適應症為躁型雙相情感疾患 (manic bipolar affective disorder)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Trifluoperazine：預測新適應症為躁型雙相情感疾患 (manic bipolar affective disorder)（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"
 ---
 
 # Trifluoperazine

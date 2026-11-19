@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-17
 monitor_inn: "POTASSIUM CHLORIDE"
 predicted_indications: ["renal tubular acidosis"]
-description: "Potassium Chloride：預測新適應症為腎小管酸中毒 (renal tubular acidosis)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
+description: "Potassium Chloride：預測新適應症為腎小管酸中毒 (renal tubular acidosis)（證據等級 L4）。香港藥劑製品註冊：82 張（有效 80 張）"
 ---
 
 # Potassium Chloride

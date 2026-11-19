@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-28
 monitor_inn: "FERROUS FUMARATE"
 predicted_indications: ["non-syndromic esophageal malformation"]
-description: "Ferrous Fumarate：預測新適應症為非症候群型食道畸形 (non-syndromic esophageal malformation)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Ferrous Fumarate：預測新適應症為非症候群型食道畸形 (non-syndromic esophageal malformation)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
 # Ferrous Fumarate

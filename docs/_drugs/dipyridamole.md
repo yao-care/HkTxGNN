@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "DIPYRIDAMOLE"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
 last_modified_at: 2026-11-03
-description: "Dipyridamole：預測新適應症為Sick sinus syndrome 2, autosomal dominant（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Dipyridamole：預測新適應症為Sick sinus syndrome 2, autosomal dominant（證據等級 L5）。香港藥劑製品註冊：10 張（有效 10 張）"
 ---
 
 # Dipyridamole

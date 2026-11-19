@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "AZATHIOPRINE"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
 last_modified_at: 2026-10-28
-description: "Azathioprine：預測新適應症為結腸缺損性小眼症合併近端肢體發育不良症候群 (colobomatous microphthalmia-rhizomelic dysplasia syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Azathioprine：預測新適應症為結腸缺損性小眼症合併近端肢體發育不良症候群 (colobomatous microphthalmia-rhizomelic dysplasia syndrome)（證據等級 L5）。香港藥劑製品註冊：8 張（有效 8 張）"
 ---
 
 # Azathioprine

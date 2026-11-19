@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-28
 monitor_inn: "Naftifine"
 predicted_indications: ["ectothrix infectious disease", "pityriasis versicolor", "endothrix infectious disease"]
-description: "Naftifine：預測新適應症為Ectothrix infectious disease（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Naftifine：預測新適應症為Ectothrix infectious disease（證據等級 L5）。香港藥劑製品註冊：10 張（有效 10 張）"
 ---
 
 # Naftifine

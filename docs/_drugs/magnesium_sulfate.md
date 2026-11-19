@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "MAGNESIUM SULFATE"
 predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
 last_modified_at: 2026-11-04
-description: "Magnesium Sulfate：預測新適應症為血栓性疾病 (thrombotic disease)（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
+description: "Magnesium Sulfate：預測新適應症為血栓性疾病 (thrombotic disease)（證據等級 L3）。香港藥劑製品註冊：11 張（有效 11 張）"
 ---
 
 # Magnesium Sulfate

@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-28
 monitor_inn: "MOCLOBEMIDE"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
-description: "Moclobemide：預測新適應症為懼曠症 (agoraphobia)（證據等級 L3）。原適應症：本地許可證資料未記載適應症"
+description: "Moclobemide：預測新適應症為懼曠症 (agoraphobia)（證據等級 L3）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
 # Moclobemide

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-28
 monitor_inn: "Lindane"
 predicted_indications: ["cervical neuroblastoma", "benign neoplasm of tongue", "epiglottis neoplasm", "odontogenic cyst", "pre-malignant neoplasm", "benign neoplasm of hypopharynx", "schwannoma of jugular foramen", "cystic neoplasm", "benign neoplasm of buccal mucosa", "inner ear neoplasm"]
-description: "Lindane：預測新適應症為頸部神經母細胞瘤 (cervical neuroblastoma)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Lindane：預測新適應症為頸部神經母細胞瘤 (cervical neuroblastoma)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
 # Lindane

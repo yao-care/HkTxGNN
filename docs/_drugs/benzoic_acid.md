@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "BENZOIC ACID"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "dry eye syndrome", "palmar fibromatosis", "Ledderhose disease", "infantile digital fibromatosis", "hereditary angioedema with C1Inh deficiency", "posterior leukoencephalopathy syndrome", "C1 inhibitor deficiency"]
 last_modified_at: 2026-11-17
-description: "Benzoic Acid：預測新適應症為支氣管炎 (bronchitis)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Benzoic Acid：預測新適應症為支氣管炎 (bronchitis)（證據等級 L5）。香港藥劑製品註冊：34 張（有效 34 張）"
 ---
 
 # Benzoic Acid

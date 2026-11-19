@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-28
 monitor_inn: "Pentobarbital"
 predicted_indications: ["obesity disorder", "manic bipolar affective disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "major affective disorder", "frontorhiny", "monogenic obesity", "trichotillomania"]
-description: "Pentobarbital：預測新適應症為肥胖症 (obesity disorder)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Pentobarbital：預測新適應症為肥胖症 (obesity disorder)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
 # Pentobarbital

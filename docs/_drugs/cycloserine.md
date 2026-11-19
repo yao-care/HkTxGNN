@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-28
 monitor_inn: "CYCLOSERINE"
 predicted_indications: ["irritable bowel syndrome", "acne (disease)", "gastroparesis (disease)", "conjunctivitis", "insomnia (disease)", "pharyngitis", "nasal cavity disease"]
-description: "Cycloserine：預測新適應症為腸躁症 (irritable bowel syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Cycloserine：預測新適應症為腸躁症 (irritable bowel syndrome)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
 # Cycloserine

@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "CEFAZOLIN"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
 last_modified_at: 2026-10-28
-description: "Cefazolin：預測新適應症為感染性中耳炎 (infectious otitis media)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Cefazolin：預測新適應症為感染性中耳炎 (infectious otitis media)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
 # Cefazolin

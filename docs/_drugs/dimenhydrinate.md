@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-17
 monitor_inn: "DIMENHYDRINATE"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
-description: "Dimenhydrinate：預測新適應症為過敏性蕁麻疹 (allergic urticaria)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Dimenhydrinate：預測新適應症為過敏性蕁麻疹 (allergic urticaria)（證據等級 L5）。香港藥劑製品註冊：36 張（有效 36 張）"
 ---
 
 # Dimenhydrinate

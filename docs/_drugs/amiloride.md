@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "Amiloride"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
 last_modified_at: 2026-10-28
-description: "Amiloride：預測新適應症為惡性高血壓性腎病 (malignant hypertensive renal disease)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Amiloride：預測新適應症為惡性高血壓性腎病 (malignant hypertensive renal disease)（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"
 ---
 
 # Amiloride

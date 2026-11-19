@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "MITOMYCIN"
 predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "mixed ductal-endocrine carcinoma of pancreas", "undifferentiated pancreatic carcinoma", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
 last_modified_at: 2026-11-03
-description: "Mitomycin：預測新適應症為胰臟實性假乳頭狀癌 (solid pseudopapillary carcinoma of pancreas)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Mitomycin：預測新適應症為胰臟實性假乳頭狀癌 (solid pseudopapillary carcinoma of pancreas)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
 # Mitomycin

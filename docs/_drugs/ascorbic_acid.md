@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "ASCORBIC ACID"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected"]
 last_modified_at: 2026-11-17
-description: "Ascorbic Acid：預測新適應症為非症候群性食道畸形 (non-syndromic esophageal malformation)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Ascorbic Acid：預測新適應症為非症候群性食道畸形 (non-syndromic esophageal malformation)（證據等級 L5）。香港藥劑製品註冊：28 張（有效 28 張）"
 ---
 
 # Ascorbic Acid

@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "CANAKINUMAB"
 predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "syndrome with combined immunodeficiency", "periodic fever-infantile enterocolitis-autoinflammatory syndrome", "extracutaneous mastocytoma", "Blau syndrome", "monosomy X", "liver angiosarcoma"]
 last_modified_at: 2026-10-28
-description: "Canakinumab：預測新適應症為肝梗塞 (hepatic infarction)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Canakinumab：預測新適應症為肝梗塞 (hepatic infarction)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
 # Canakinumab

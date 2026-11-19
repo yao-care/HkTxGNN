@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "BETAMETHASONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 last_modified_at: 2026-11-17
-description: "Betamethasone：預測新適應症為黏液性禿髮 (alopecia mucinosa)（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
+description: "Betamethasone：預測新適應症為黏液性禿髮 (alopecia mucinosa)（證據等級 L4）。香港藥劑製品註冊：241 張（有效 239 張）"
 ---
 
 # Betamethasone

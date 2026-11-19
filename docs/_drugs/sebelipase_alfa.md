@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-03
 monitor_inn: "Sebelipase alfa"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "Gaucher disease", "lysosomal storage disease with skeletal involvement", "autosomal ichthyosis syndrome with fatal disease course", "Tay-Sachs disease", "benign neoplasm of adrenal gland"]
-description: "Sebelipase Alfa：預測新適應症為史契氏症候群 (Scheie syndrome)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Sebelipase Alfa：預測新適應症為史契氏症候群 (Scheie syndrome)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
 # Sebelipase Alfa

@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-28
 monitor_inn: "VERTEPORFIN"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
-description: "Verteporfin：預測新適應症為核 DNA 異常所致的粒線體氧化磷酸化異常疾病 (mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies)（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Verteporfin：預測新適應症為核 DNA 異常所致的粒線體氧化磷酸化異常疾病 (mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
 # Verteporfin

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-17
 monitor_inn: "ZINC OXIDE"
 predicted_indications: ["acne (disease)", "anorectal stricture", "anal polyp", "papillary conjunctivitis", "postinfectious vasculitis"]
-description: "Zinc Oxide：預測新適應症為痤瘡 (acne (disease))（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
+description: "Zinc Oxide：預測新適應症為痤瘡 (acne (disease))（證據等級 L4）。香港藥劑製品註冊：74 張（有效 72 張）"
 ---
 
 # Zinc Oxide

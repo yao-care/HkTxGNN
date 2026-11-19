@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-28
 monitor_inn: "OXCARBAZEPINE"
 predicted_indications: ["restless legs syndrome"]
-description: "Oxcarbazepine：預測新適應症為Restless legs syndrome（證據等級 L4）。原適應症：本地許可證資料未記載適應症"
+description: "Oxcarbazepine：預測新適應症為Restless legs syndrome（證據等級 L4）。香港藥劑製品註冊：5 張（有效 5 張）"
 ---
 
 # Oxcarbazepine

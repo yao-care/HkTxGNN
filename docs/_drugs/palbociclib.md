@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-17
 monitor_inn: "Palbociclib"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
-description: "Palbociclib：預測新適應症為Hyperthyroidism（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Palbociclib：預測新適應症為Hyperthyroidism（證據等級 L5）。香港藥劑製品註冊：6 張（有效 3 張）"
 ---
 
 # Palbociclib

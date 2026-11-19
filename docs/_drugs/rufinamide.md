@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-28
 monitor_inn: "RUFINAMIDE"
 predicted_indications: ["perioral myoclonia with absences"]
-description: "Rufinamide：預測新適應症為Perioral myoclonia with absences（證據等級 L5）。原適應症：本地許可證資料未記載適應症"
+description: "Rufinamide：預測新適應症為Perioral myoclonia with absences（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
 # Rufinamide
