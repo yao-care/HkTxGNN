@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**頭痛疾患 (headache disorder)** 有效。
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據文獻描述，mefenamic acid 是前列腺素合成抑制劑，透過阻斷 COX 酶來降低前列腺素的生成與作用。
+根據美國 FDA 核准的 Mefenamic Acid 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Mefenamic acid具有鎮痛、抗炎及解熱特性。Mefenamic acid的作用機轉與其他NSAIDs相同，尚未完全明瞭，但涉及抑制環氧合酶（COX-1及COX-2）。」英文原文："Mefenamic acid has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of mefenamic acid, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)."（[DailyMed: mefenamic acid prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d15733a9-d5fd-4d5f-86ce-e7ed8c706c7f)，版本日期 2026-04-20；查閱日期 2026-11-19）。根據文獻描述，mefenamic acid 是前列腺素合成抑制劑，透過阻斷 COX 酶來降低前列腺素的生成與作用。
 
 前列腺素參與神經性發炎與痛覺敏化，是頭痛的重要病理環節。經期相關頭痛尤其明顯，因為月經前後前列腺素濃度會上升。因此，抑制前列腺素合成在機轉上可以解釋它對頭痛可能有效。
 
@@ -134,11 +134,12 @@ TxGNN 模型預測它可能對**頭痛疾患 (headache disorder)** 有效。
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港目前有含 mefenamic acid 單一成分的有效許可證，至少 20 張」→「香港共有 74 張含本藥成分的許可證（有效 73 張、已註銷」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: mefenamic acid prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d15733a9-d5fd-4d5f-86ce-e7ed8c706c7f) |
 
 <!-- review:end log -->
 

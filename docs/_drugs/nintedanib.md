@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**隆突性皮膚纖維肉瘤 (Dermatofibrosarcoma
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Nintedanib 是一種多標靶酪胺酸激酶抑制劑，標靶包括 PDGFR-α/β、FGFR1-3 與 VEGFR1-3。其在肺纖維化與肺癌中的療效已被證實，機轉上可能適用於由 PDGFR 訊號驅動的腫瘤。
+根據美國 FDA 核准的 Nintedanib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Nintedanib 是一種小分子藥物，可抑制多種受體酪胺酸激酶（RTKs）及非受體酪胺酸激酶（nRTKs）。Nintedanib 可抑制下列 RTKs：血小板衍生生長因子受體（PDGFR）α 及 β、纖維母細胞生長因子受體（FGFR）1-3、血管內皮生長因子受體（VEGFR）1-3、群落刺激因子 1 受體（CSF1R），以及 Fms 樣酪胺酸激酶-3（FLT-3）。」英文原文："Nintedanib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs) and non-receptor tyrosine kinases (nRTKs). Nintedanib inhibits the following RTKs: platelet-derived growth factor receptor (PDGFR) α and β, fibroblast growth factor receptor (FGFR) 1-3, vascular endothelial growth factor receptor (VEGFR) 1-3, colony stimulating factor 1 receptor (CSF1R), and Fms-like tyrosine kinase-3 (FLT-3)."（[DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa)，版本日期 2026-04-21；查閱日期 2026-11-19）。根據已知資訊，Nintedanib 是一種多標靶酪胺酸激酶抑制劑，標靶包括 PDGFR-α/β、FGFR1-3 與 VEGFR1-3。其在肺纖維化與肺癌中的療效已被證實，機轉上可能適用於由 PDGFR 訊號驅動的腫瘤。
 
 DFSP 的致病機轉為 COL1A1-PDGFB 融合基因，造成 PDGFR-β 持續性自分泌活化。Nintedanib 能抑制 PDGFR，因此在機轉上具合理性。
 
@@ -115,6 +115,19 @@ DFSP 的致病機轉為 COL1A1-PDGFB 融合基因，造成 PDGFR-β 持續性自
 - 評估是否有必要設計早期（Phase 2）探索性試驗
 
 **其他預測適應症備註：** 排名 2–10 的預測（如脂肪肉瘤、纖維肉瘤、肌萎縮性側索硬化症等）皆為 L5，僅有模型預測而無試驗或文獻，其中部分（如軸向脊椎干骺端發育不良、ALS 相關項目）在機轉上缺乏明確關聯，建議皆維持 Hold。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

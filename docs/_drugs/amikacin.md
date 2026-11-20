@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**副傷寒 (paratyphoid fever)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就藥物類別而言，Amikacin 屬於胺基糖苷類，一般認為其作用在於抑制細菌蛋白質合成，對多種革蘭氏陰性桿菌具抗菌活性。副傷寒由沙門氏菌（Salmonella Paratyphi）引起，同屬革蘭氏陰性腸道病原體，因此從抗菌譜來看，模型預測有一定的推論空間。
+根據美國 FDA 核准的 Amikacin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Amikacin為一種胺基糖苷類藥物，可與原核生物核糖體結合，從而抑制敏感細菌的蛋白質合成。其在體外對革蘭氏陽性菌及革蘭氏陰性菌具殺菌作用。」英文原文："Amikacin, an aminoglycoside, binds to the prokaryotic ribosome, inhibiting protein synthesis in susceptible bacteria. It is bactericidal in vitro against Gram-positive and Gram-negative bacteria."（[DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890)，版本日期 2026-07-27；查閱日期 2026-11-19）。就藥物類別而言，Amikacin 屬於胺基糖苷類，一般認為其作用在於抑制細菌蛋白質合成，對多種革蘭氏陰性桿菌具抗菌活性。副傷寒由沙門氏菌（Salmonella Paratyphi）引起，同屬革蘭氏陰性腸道病原體，因此從抗菌譜來看，模型預測有一定的推論空間。
 
 不過，這只是間接推論。腸熱症（傷寒與副傷寒）的病原菌多存在於細胞內，胺基糖苷類穿透細胞的能力有限，臨床上的標準治療多採用其他類別的抗生素。因此，體外的敏感性並不等於臨床有效。
 
@@ -116,6 +116,19 @@ TxGNN 模型預測它可能對**副傷寒 (paratyphoid fever)** 有效，
 - 與現行標準治療的比較性療效資料
 - 取得香港核准仿單，確認警語、禁忌症與腎毒性、耳毒性的監測要求
 - 評估腎功能不全與神經肌肉疾病族群的風險管理計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

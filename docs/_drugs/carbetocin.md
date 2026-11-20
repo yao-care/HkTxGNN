@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**類異維A酸症候群 (isotretinoin-like syndro
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，carbetocin 是長效催產素類似物，與催產素受體（OXTR）結合，臨床上用於預防子宮收縮乏力引起的產後出血。
+ChEMBL（EMBL-EBI）收錄的 Carbetocin 作用機轉（非官方翻譯）：「催產素受體促效劑」英文原文："Oxytocin receptor agonist"（[ChEMBL CHEMBL3301668 (carbetocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301668)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，carbetocin 是長效催產素類似物，與催產素受體（OXTR）結合，臨床上用於預防子宮收縮乏力引起的產後出血。
 
 類異維A酸症候群是一種類似視黃酸胚胎病變的發育性畸形疾病。就現有資料而言，催產素受體促效作用與此疾病的病程之間，並沒有明確的生物學關聯。
 
@@ -94,6 +94,19 @@ TxGNN 模型預測它可能對**類異維A酸症候群 (isotretinoin-like syndro
 - 進行文獻與試驗檢索，確認是否有任何直接相關的研究
 - 取得香港原廠仿單的警語與禁忌症，完成基本安全性篩選
 - 確認該疾病是否有合理的給藥族群與給藥途徑
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL3301668 (carbetocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301668) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

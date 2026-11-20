@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**類血管性血友病 (pseudo-von Willebrand dis
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Lonoctocog alfa 是重組單鏈第八因子，重鏈與輕鏈以共價鍵相連，對血管性血友病因子（VWF）具有高親和力，其補充第八因子的療效在血友病中已被確立。
+ChEMBL（EMBL-EBI）收錄的 Lonoctocog Alfa 作用機轉（非官方翻譯）：「凝血因子 VIII 外源性蛋白質」英文原文："Coagulation factor VIII exogenous protein"（[ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Lonoctocog alfa 是重組單鏈第八因子，重鏈與輕鏈以共價鍵相連，對血管性血友病因子（VWF）具有高親和力，其補充第八因子的療效在血友病中已被確立。
 
 類血管性血友病（血小板型 VWD）的成因是血小板 GPIbα 發生功能增強型缺陷，使其與 VWF 的結合增加，導致高分子量 VWF 多聚體流失而出血。病變在血小板端，第八因子濃度通常正常或僅輕度下降，因此補充第八因子在機轉上沒有明確依據。
 
@@ -105,6 +105,19 @@ TxGNN 模型（深度學習）給出的高分數（0.9985）來自模型本身�
 - 取得香港仿單的警語與禁忌資料，完成安全性篩選。
 - 以文獻回顧確認類血管性血友病患者是否有第八因子偏低的亞群，以及補充第八因子的實際經驗。
 - 若上述回顧出現正面訊號，再設計小規模探索性研究；否則建議不投入資源。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

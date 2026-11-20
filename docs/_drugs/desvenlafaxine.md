@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**強迫症 (Obsessive-Compulsive Disorder)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Desvenlafaxine 屬於 SNRI 類別，是 venlafaxine 的活性代謝物，抑制血清素與正腎上腺素的再回收。
+根據美國 FDA 核准的 Desvenlafaxine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Desvenlafaxine抗憂鬱作用的確切機制尚不明確，但一般認為與其透過抑制血清素及正腎上腺素的再回收，而增強中樞神經系統中血清素及正腎上腺素的作用有關。非臨床研究顯示，desvenlafaxine為一種強效且具選擇性的SNRI。」英文原文："The exact mechanism of the antidepressant action of desvenlafaxine is unknown, but is thought to be related to the potentiation of serotonin and norepinephrine in the central nervous system, through inhibition of their reuptake. Non-clinical studies have shown that desvenlafaxine is a potent and selective SNRI."（[DailyMed: Pristiq Extended-Release (desvenlafaxine succinate) prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f43610c-f290-46ea-d186-4f998ed99fce)，版本日期 2026-04-28；查閱日期 2026-11-19）。根據已知資訊，Desvenlafaxine 屬於 SNRI 類別，是 venlafaxine 的活性代謝物，抑制血清素與正腎上腺素的再回收。
 
 血清素系統在強迫症的病理生理中扮演關鍵角色，SSRI 與 clomipramine 的療效已獲證實，因此 SNRI 在機轉上有合理的關聯。不過，Desvenlafaxine 的血清素選擇性相對較弱，不如已證實對強迫症有效的藥物，且目前沒有任何針對強迫症的試驗。
 
@@ -140,11 +140,12 @@ TxGNN 模型（深度學習）的高分可能反映模型學到的相關精神�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「共 7 張，皆為有效的單方許可證」→「共 9 張，皆為有效的單方許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Pristiq Extended-Release (desvenlafaxine succinate) prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f43610c-f290-46ea-d186-4f998ed99fce) |
 
 <!-- review:end log -->
 

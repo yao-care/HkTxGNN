@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**典型僵人症候群 (Classic Stiff Person Synd
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Empagliflozin 一般已知為 SGLT2 抑制劑，但本次整理的資料並未提供機轉內容，因此無法從資料中建立與僵人症候群之間的機轉連結。
+根據美國 FDA 核准的 Empagliflozin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Empagliflozin是SGLT2的抑制劑，SGLT2是負責將葡萄糖從腎絲球濾液再吸收回循環中的主要轉運蛋白。透過抑制SGLT2，empagliflozin可減少腎臟對已過濾葡萄糖的再吸收並降低葡萄糖的腎閾值，從而增加尿液葡萄糖排泄。」英文原文："Empagliflozin is an inhibitor of SGLT2, the predominant transporter responsible for reabsorption of glucose from the glomerular filtrate back into the circulation. By inhibiting SGLT2, empagliflozin reduces renal reabsorption of filtered glucose and lowers the renal threshold for glucose, and thereby increases urinary glucose excretion."（[DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565)，版本日期 2026-11-10；查閱日期 2026-11-19）。Empagliflozin 一般已知為 SGLT2 抑制劑，但本次整理的資料並未提供機轉內容，因此無法從資料中建立與僵人症候群之間的機轉連結。
 
 僵人症候群是一種自體免疫性神經疾病，常與抗 GAD65 抗體及 GABA 神經傳導受損有關。SGLT2 抑制與這類病理之間的關聯並不明確。
 
@@ -141,11 +141,12 @@ Opsismodysplasia 為由 INPPL1 突變造成的罕見骨骼發育不良，涉及 
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「共 10 張有效許可證，均由 Boehringer Ingelheim (HK)」→「共 16 張有效許可證（含單方與複方；JARDIANCE、GLYXAMBI、JA」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565) |
 
 <!-- review:end log -->
 

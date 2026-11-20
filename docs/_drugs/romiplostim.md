@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**原發性血小板釋放障礙 (primary release 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。依據藥理資料，Romiplostim 作用於血小板生成素受體（基因 MPL, c-Mpl），可刺激巨核細胞成熟並增加血小板生成，主要用於以血小板數量不足為特徵的免疫性血小板低下症。
+根據美國 FDA 核准的 Romiplostim 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Nplate 透過與 TPO 受體結合並使其活化而增加血小板生成，此機轉與內源性 TPO 類似。」英文原文："Nplate increases platelet production through binding and activation of the TPO receptor, a mechanism analogous to endogenous TPO."（[DailyMed: Nplate (romiplostim) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c45f9a58-37c1-4f76-8e36-97d38c577037)，版本日期 2026-06-23；查閱日期 2026-11-19）。依據藥理資料，Romiplostim 作用於血小板生成素受體（基因 MPL, c-Mpl），可刺激巨核細胞成熟並增加血小板生成，主要用於以血小板數量不足為特徵的免疫性血小板低下症。
 
 然而，原發性血小板釋放障礙屬於**血小板功能缺陷**（顆粒分泌或活化受損），問題不在血小板數量。提高血小板數量，預期無法矯正其功能缺陷。
 
@@ -95,6 +95,19 @@ TxGNN 模型（深度學習）對 primary release disorder of platelets（血小
 - 取得完整的作用機轉資料與香港仿單的警語、禁忌症與核准適應症
 - 釐清此疾病是否存在血小板生成不足的亞群，並進行機轉與病例層級的研究
 - 若要探索血小板數量不足的相關疾病（如胎兒與新生兒同種免疫性血小板低下症，目前為 L4 的研究問題），應另行以專屬證據評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Nplate (romiplostim) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c45f9a58-37c1-4f76-8e36-97d38c577037) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

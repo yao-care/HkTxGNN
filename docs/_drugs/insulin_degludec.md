@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**自體免疫性卵巢炎 (Autoimmune Oophoritis)
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Insulin Degludec 是胰島素類藥物，但機轉細節尚待補充。
+根據美國 FDA 核准的 Insulin Degludec 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「胰島素（包括TRESIBA）的主要作用是調節葡萄糖代謝。胰島素及其類似物通過刺激周邊組織（尤其是骨骼肌和脂肪）攝取葡萄糖，以及抑制肝臟葡萄糖生成，從而降低血糖。」英文原文："The primary activity of insulin, including TRESIBA, is regulation of glucose metabolism. Insulin and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production."（[DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17)，版本日期 2024-02-22；查閱日期 2026-11-19）。Insulin Degludec 是胰島素類藥物，但機轉細節尚待補充。
 
 可能的連結在於：胰島素訊號會影響卵巢功能，且自體免疫性卵巢炎常與其他自體免疫內分泌疾病（如第一型糖尿病、自體免疫多腺體症候群）並存。然而，這反映的是共病背景的關聯，並非 Insulin Degludec 對卵巢炎本身的治療作用。
 
@@ -115,11 +115,12 @@ TxGNN 模型預測它可能對**自體免疫性卵巢炎 (Autoimmune Oophoritis)
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「許可證共 8 張」→「許可證共 9 張」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17) |
 
 <!-- review:end log -->
 

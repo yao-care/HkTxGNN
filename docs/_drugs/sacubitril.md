@@ -71,7 +71,7 @@ TxGNN 模型預測排名第一的新適應症為腦小血管病變，但該預�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Sacubitril 是 Entresto 複方（與 valsartan 合用）的一部分，作用上為腦啡肽酶（neprilysin）抑制劑前驅藥，可提升利鈉肽濃度；valsartan 則為血管收縮素 II 第一型受體阻斷劑。
+根據美國 FDA 核准的 sacubitril and valsartan（含 Sacubitril 的複方） 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Sacubitril and valsartan 含有一種腦啡肽酶（neprilysin）抑制劑 sacubitril，以及一種血管收縮素受體阻斷劑 valsartan。Sacubitril and valsartan 經由前驅藥 sacubitril 的活性代謝物 LBQ657 抑制腦啡肽酶（中性內肽酶；NEP），並經由 valsartan 阻斷血管收縮素 II 第 1 型（AT 1 ）受體。」英文原文："Sacubitril and valsartan contains a neprilysin inhibitor, sacubitril, and an angiotensin receptor blocker, valsartan. Sacubitril and valsartan inhibits neprilysin (neutral endopeptidase; NEP) via LBQ657, the active metabolite of the prodrug sacubitril, and blocks the angiotensin II type-1 (AT 1 ) receptor via valsartan."（[DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c)，版本日期 2026-10-30；查閱日期 2026-11-19）。Sacubitril 是 Entresto 複方（與 valsartan 合用）的一部分，作用上為腦啡肽酶（neprilysin）抑制劑前驅藥，可提升利鈉肽濃度；valsartan 則為血管收縮素 II 第一型受體阻斷劑。
 
 **糖尿病腎病變（證據最完整）：** 阻斷腎素－血管收縮素系統是糖尿病腎病變的治療基石。Sacubitril/valsartan 在此基礎上再增加利鈉肽作用，理論上可降低腎絲球內壓、減少蛋白尿、氧化壓力、NF-κB 介導的發炎與纖維化。多項糖尿病囓齒動物研究報告了腎臟保護效果，包括腸道菌相調節與氧化壓力下降，但在 db/db 小鼠模型中效果與 valsartan 相比有差異。
 
@@ -151,6 +151,19 @@ TxGNN 模型預測排名第一的新適應症為腦小血管病變，但該預�
 - 以 eGFR、白蛋白尿等腎臟結局指標評估療效，並蒐集高血鉀、低血壓與 eGFR 下降的安全性數據
 - 補充詳細的作用機轉資料與香港核准適應症、仿單警語及禁忌症
 - 如考慮腦小血管病變，須先建立機轉依據與血壓相關安全性評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

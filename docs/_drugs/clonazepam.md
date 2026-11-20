@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**不寧腿症候群 (Restless Legs Syndrome, RLS)
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據藥物類別，Clonazepam 屬於苯二氮平類，為 GABA-A 受體的正向異位調節劑。其鎮靜與抗肌陣攣作用，可能減少不寧腿症候群患者的睡眠中斷與週期性肢體運動。
+根據美國 FDA 核准的 Clonazepam 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Clonazepam 發揮其抗癲癇及抗恐慌作用的確切機轉尚不清楚，但一般認為與其增強 γ-胺基丁酸（GABA）活性的能力有關；GABA 是中樞神經系統中主要的抑制性神經傳導物質。」英文原文："The precise mechanism by which clonazepam exerts its antiseizure and antipanic effects is unknown, although it is believed to be related to its ability to enhance the activity of gamma aminobutyric acid (GABA), the major inhibitory neurotransmitter in the central nervous system."（[DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1)，版本日期 2025-12-01；查閱日期 2026-11-19）。根據藥物類別，Clonazepam 屬於苯二氮平類，為 GABA-A 受體的正向異位調節劑。其鎮靜與抗肌陣攣作用，可能減少不寧腿症候群患者的睡眠中斷與週期性肢體運動。
 
 原適應症（癲癇、肌陣攣、焦慮）與 RLS 都涉及神經系統的過度興奮或運動異常，這是兩者的關聯所在。不過這個機轉連結來自藥物類別的一般性知識，並非針對 RLS 的專一機轉。
 
@@ -139,6 +139,18 @@ TxGNN 模型預測它可能對**不寧腿症候群 (Restless Legs Syndrome, RLS)
 |-----------|-----------|---------|------|
 | 失眠 (Insomnia) | 0.9932 | L4 | Research Question：現有文獻多為間接證據（如帕金森氏症睡眠障礙回顧），無針對失眠的 clonazepam RCT；另有 1 例 clonazepam 相關躁狂的病例報告，需先進行安全性評估 |
 | 三叉神經腫瘤 (Trigeminal Nerve Neoplasm) | 0.9930 | L5 | Hold：無臨床試驗與文獻，僅有模型預測，也無合理的抗腫瘤機轉，需先做機轉驗證 |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

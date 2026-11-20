@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**乳頭癌 (Nipple Carcinoma)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Letrozole 屬於芳香環轉化酶抑制劑，可阻斷雄激素轉化為雌激素，是荷爾蒙受體陽性乳癌的既有治療藥物。
+根據美國 FDA 核准的 Letrozole 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「部分乳癌的生長受雌激素刺激或維持。對於被認為具荷爾蒙反應性（即雌激素及／或黃體素受體陽性或受體狀態未知）之乳癌，其治療曾包括多種降低雌激素濃度（卵巢切除術、腎上腺切除術、腦下垂體切除術）或抑制雌激素作用（抗雌激素及黃體素類藥物）的方法。[…] Letrozole 是芳香環轉化酶系統的非類固醇競爭性抑制劑；它抑制雄激素轉化為雌激素。」英文原文："The growth of some cancers of the breast is stimulated or maintained by estrogens. Treatment of breast cancer thought to be hormonally responsive (i.e., estrogen and/or progesterone receptor positive or receptor unknown) has included a variety of efforts to decrease estrogen levels (ovariectomy, adrenalectomy, hypophysectomy) or inhibit estrogen effects (antiestrogens and progestational agents). […] Letrozole is a nonsteroidal competitive inhibitor of the aromatase enzyme system; it inhibits the conversion of androgens to estrogens."（[DailyMed: Femara (letrozole) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406)，版本日期 2026-06-11；查閱日期 2026-11-19）。根據已知資訊，Letrozole 屬於芳香環轉化酶抑制劑，可阻斷雄激素轉化為雌激素，是荷爾蒙受體陽性乳癌的既有治療藥物。
 
 乳頭癌與副乳癌通常源自乳房組織，若為荷爾蒙受體陽性，理論上與雌激素依賴的生物特性相近，因此機轉上有合理性。
 
@@ -131,11 +131,12 @@ Letrozole 為荷爾蒙（內分泌）治療藥物，不屬於傳統細胞毒性�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「目前共有 12 張有效單方許可證，」→「目前共有 13 張單方許可證（12 張有效；HK-61004 已註銷），」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Femara (letrozole) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406) |
 
 <!-- review:end log -->
 

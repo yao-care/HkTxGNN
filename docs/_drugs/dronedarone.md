@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**中風 (stroke disorder)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據文獻摘要，dronedarone 是與 amiodarone 結構相似、但不含碘的苯并呋喃衍生物，具多通道阻斷特性（抑制鈉、鉀、鈣電流），屬於抗心律不整藥物。
+根據美國 FDA 核准的 Dronedarone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Dronedarone 的作用機轉尚不清楚。Dronedarone 具有屬於 Vaughan-Williams 全部四類的抗心律不整特性，但各項活性對臨床效果的貢獻尚不清楚。」英文原文："The mechanism of action of dronedarone is unknown. Dronedarone has antiarrhythmic properties belonging to all four Vaughan-Williams classes, but the contribution of each of these activities to the clinical effect is unknown."（[DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c)，版本日期 2026-01-27；查閱日期 2026-11-19）。根據文獻摘要，dronedarone 是與 amiodarone 結構相似、但不含碘的苯并呋喃衍生物，具多通道阻斷特性（抑制鈉、鉀、鈣電流），屬於抗心律不整藥物。
 
 心房顫動是心源性栓塞中風的主要原因。若 dronedarone 能維持竇性心律、降低心房顫動負擔，理論上可能間接降低中風風險。ATHENA 試驗的事後分析也提示中風風險下降。另有研究提出 dronedarone 可能具有獨立於抗心律不整作用之外的抗凝血與抗血小板效果，以及對心臟與腦部缺血／再灌流損傷的保護作用，但後者仍屬實驗室或前臨床層級。
 
@@ -128,6 +128,19 @@ TxGNN 模型預測它可能對**中風 (stroke disorder)** 有效，
 - 設計以中風為主要終點的前瞻性研究，而非僅依賴 ATHENA 事後分析。
 - 與 DOAC 等標準抗凝治療比較，並評估併用的交互作用與出血風險。
 - 明確定義適用族群，排除永久性心房顫動與失代償性心衰竭患者。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

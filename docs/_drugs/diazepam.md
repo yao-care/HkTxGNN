@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**失眠 (insomnia (disease))** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉登錄資料。根據已知的藥理資訊，diazepam 是 GABA-A 受體的正向異位調節劑（PAM），可增強抑制性神經傳導，產生鎮靜與助眠效果。一篇 2024 年的綜述指出，苯二氮平類（如 diazepam）廣泛用於癲癇、焦慮與失眠等神經精神疾病。
+根據美國 FDA 核准的 Diazepam 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Diazepam 用於所列適應症的作用機轉，被認為涉及增強抑制性神經傳導物質 γ-胺基丁酸（GABA）的作用，此作用源於其與 GABA A 受體苯二氮平類位點的結合。」英文原文："The mechanism of action of diazepam for the listed indications is thought to involve potentiation of gamma aminobutyric acid (GABA), an inhibitory neurotransmitter, resulting from binding at the benzodiazepine site of the GABA A receptor."（[DailyMed: Valium (diazepam) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6)，版本日期 2026-10-06；查閱日期 2026-11-19）。根據已知的藥理資訊，diazepam 是 GABA-A 受體的正向異位調節劑（PAM），可增強抑制性神經傳導，產生鎮靜與助眠效果。一篇 2024 年的綜述指出，苯二氮平類（如 diazepam）廣泛用於癲癇、焦慮與失眠等神經精神疾病。
 
 從機轉看，失眠與神經興奮性過高、入睡潛伏期延長有關，GABA-A 增強作用理論上可縮短入睡時間、增加睡眠連續性。不過 diazepam 半衰期長，可能造成隔日鎮靜，並有依賴性及影響睡眠結構的風險，且臨床上已有短期睡眠障礙的非適應症使用，因此並非真正全新的藥物再利用訊號。
 
@@ -121,11 +121,12 @@ TxGNN 模型預測它可能對**失眠 (insomnia (disease))** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本地資料目前列出的許可證至少 20 張，皆為有效的單一成分許可證，此清單可能不完」→「香港共有 25 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Valium (diazepam) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6) |
 
 <!-- review:end log -->
 

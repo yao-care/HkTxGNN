@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，nitroprusside 是 NO 供體，會活化可溶性鳥苷酸環化酶（soluble guanylate cyclase）並提高 cGMP，使血管平滑肌舒張。
+根據美國 FDA 核准的 Nitroprusside 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「硝普鈉（Sodium nitroprusside）與氧合血紅素相互作用，產生變性血紅素、氰化物及一氧化氮（NO）。NO 隨後與血管平滑肌中的鳥苷酸環化酶反應產生 cGMP，cGMP 可降低細胞內鈣濃度，導致血管平滑肌鬆弛，從而使周邊動脈及靜脈擴張。」英文原文："Sodium nitroprusside interacts with oxyhemoglobin to produce methemoglobin, cyanide, and nitric oxide (NO). NO then reacts with guanylate cyclase in vascular smooth muscle to produce cGMP that reduces intracellular calcium concentrations resulting in relaxation of vascular smooth muscle and consequent dilatation of peripheral arteries and veins."（[DailyMed: Nipride Rtu (sodium nitroprusside) prescribing information, EXELA PHARMA SCIENCES, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5acf0836-93ff-4064-b888-3f560e8a558d)，版本日期 2018-07-20；查閱日期 2026-11-19）。根據已知資訊，nitroprusside 是 NO 供體，會活化可溶性鳥苷酸環化酶（soluble guanylate cyclase）並提高 cGMP，使血管平滑肌舒張。
 
 NO 與 CGRP 訊號被認為是偏頭痛病理生理的核心。這是預測的關聯來源，但方向很可能是**促發偏頭痛，而非治療偏頭痛**：NO 供體（如硝酸甘油）已知會在易感者身上誘發偏頭痛發作，nitroprusside 也被用於動物偏頭痛模型作為誘發劑。現有人體研究只比較偏頭痛患者與對照組對 NO、CGRP 的血管反應，並未測試 nitroprusside 作為治療。
 
@@ -126,6 +126,19 @@ NO 與 CGRP 訊號被認為是偏頭痛病理生理的核心。這是預測的�
 - 釐清作用方向（誘發 vs. 緩解），並評估是否應將此預測重新歸類為「機轉研究工具」而非治療候選。
 - 取得香港仿單中的核准適應症、警語與禁忌症資料，以及詳細作用機轉資料。
 - 若要探索其他方向，肺高壓（吸入式給藥）為證據相對較多的次要候選（L3），可優先進一步評估。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Nipride Rtu (sodium nitroprusside) prescribing information, EXELA PHARMA SCIENCES, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5acf0836-93ff-4064-b888-3f560e8a558d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

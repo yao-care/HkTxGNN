@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**已廢棄的束支傳導阻滯 (obsolete bundle 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就一般藥理知識而言，Adenosine 作用於房室結的 A1 受體，可減緩傳導，因此與心臟傳導相關疾病在機轉上有一定關聯。
+根據美國 FDA 核准的 Adenosine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Adenosine Injection 可減慢經房室（A-V）結的傳導時間，可中斷經房室結的折返路徑，並可使陣發性上心室頻脈（PSVT）病人恢復正常竇性節律，包括與 Wolff-Parkinson-White 症候群相關的 PSVT。Adenosine Injection 會被 methylxanthine 類（如 caffeine 及 theophylline）競爭性拮抗，並會被核苷轉運阻斷劑（如 dipyridamole）增強其作用。」英文原文："Adenosine Injection slows conduction time through the A-V node, can interrupt the reentry pathways through the A-V node, and can restore normal sinus rhythm in patients with paroxysmal supraventricular tachycardia (PSVT), including PSVT associated with Wolff-Parkinson-White Syndrome. Adenosine Injection is antagonized competitively by methylxanthines such as caffeine and theophylline, and potentiated by blockers of nucleoside transport such as dipyridamole."（[DailyMed: adenosine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9508caf5-0e3a-4d32-909d-bff7ea40ec30)，版本日期 2026-08-31；查閱日期 2026-11-19）。就一般藥理知識而言，Adenosine 作用於房室結的 A1 受體，可減緩傳導，因此與心臟傳導相關疾病在機轉上有一定關聯。
 
 然而，束支傳導阻滯屬於房室結以下（結下）的傳導缺陷，減緩傳導並不是這類疾病的治療效果。此外，「束支傳導阻滯」這個詞在疾病本體分類中已被標示為廢棄（obsolete），因此這個高分預測可能只是來自已淘汰的疾病節點，而非真正的藥物再利用訊號。
 
@@ -99,6 +99,19 @@ TxGNN 模型預測它可能對**已廢棄的束支傳導阻滯 (obsolete bundle 
 - 補充 Adenosine 的作用機轉資料
 - 取得香港原廠仿單的警語與禁忌症資料
 - 在有明確臨床或機轉證據前，不建議投入進一步開發
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: adenosine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9508caf5-0e3a-4d32-909d-bff7ea40ec30) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**毛髮過多 (Hypertrichosis)** 有效，但這�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般已知 Isosorbide Mononitrate 會釋放一氧化氮，活化可溶性鳥苷酸環化酶（sGC）並提高 cGMP，造成血管擴張。
+根據美國 FDA 核准的 Isosorbide Mononitrate 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Isosorbide mononitrate緩釋錠為ISMN的口服緩釋劑型，ISMN為isosorbide dinitrate的主要活性代謝物；dinitrate的大部分臨床活性可歸因於mononitrate。ISMN及一般所有有機硝酸鹽的主要藥理作用為鬆弛血管平滑肌，使周邊動脈及靜脈擴張，尤以後者為甚。」英文原文："Isosorbide mononitrate extended-release tablet are an oral extended-release formulation of ISMN, the major active metabolite of isosorbide dinitrate; most of the clinical activity of the dinitrate is attributable to the mononitrate. The principal pharmacological action of ISMN and all organic nitrates in general is relaxation of vascular smooth muscle, producing dilatation of peripheral arteries and veins, especially the latter."（[DailyMed: isosorbide mononitrate prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=86be0e85-5337-bee4-e053-2a91aa0a8158)，版本日期 2026-11-10；查閱日期 2026-11-19）。一般已知 Isosorbide Mononitrate 會釋放一氧化氮，活化可溶性鳥苷酸環化酶（sGC）並提高 cGMP，造成血管擴張。
 
 對毛髮過多而言，目前看不出明確的機轉連結。有人推測血管擴張可能增加皮膚或毛囊的血流，類似 minoxidil 的作用，但硝酸酯類並無已確立的毛髮生長效果。TxGNN 的高分（deep learning 模型給出的分數）來自 TxGNN 模型（deep learning），可能反映模型學到的相關疾病之間的相似性，並非生物學或臨床證據。
 
@@ -110,6 +110,19 @@ TxGNN 模型預測它可能對**毛髮過多 (Hypertrichosis)** 有效，但這�
 - 補充 Isosorbide Mononitrate 的作用機轉資料與香港仿單的警語、禁忌與核准適應症內容。
 - 進行文獻與機轉探索，確認 NO/cGMP 路徑是否與毛囊生物學有關，若有，再評估局部給藥的可行性。
 - 若團隊想探索較有機轉依據的方向，可另行評估肺動脈高壓（目前僅有間接文獻，且尚無直接研究），需先進行前臨床或小型血流動力學研究。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: isosorbide mononitrate prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=86be0e85-5337-bee4-e053-2a91aa0a8158) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

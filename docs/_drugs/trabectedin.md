@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏來自原始資料的詳細作用機轉記錄，以下機轉說明是根據文獻推論。Trabectedin 會結合 DNA 小溝並使鳥嘌呤 N2 烷基化，造成 DNA 損傷，這些損傷須經由轉錄偶聯核苷酸切除修復處理。同源重組缺陷的細胞（例如 BRCA1/2 突變的乳癌腫瘤）據報告對此藥特別敏感。
+根據美國 FDA 核准的 Trabectedin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Trabectedin 是一種烷化藥物，可與 DNA 小溝中的鳥嘌呤殘基結合，形成加成物，並使 DNA 螺旋向大溝彎曲。加成物的形成會引發一連串事件，可能影響 DNA 結合蛋白（包括某些轉錄因子）及 DNA 修復路徑的後續活性，進而擾亂細胞週期並最終導致細胞死亡。」英文原文："Trabectedin is an alkylating drug that binds guanine residues in the minor groove of DNA, forming adducts and resulting in a bending of the DNA helix towards the major groove. Adduct formation triggers a cascade of events that can affect the subsequent activity of DNA binding proteins, including some transcription factors, and DNA repair pathways, resulting in perturbation of the cell cycle and eventual cell death."（[DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea)，版本日期 2026-06-29；查閱日期 2026-11-19）。Trabectedin 會結合 DNA 小溝並使鳥嘌呤 N2 烷基化，造成 DNA 損傷，這些損傷須經由轉錄偶聯核苷酸切除修復處理。同源重組缺陷的細胞（例如 BRCA1/2 突變的乳癌腫瘤）據報告對此藥特別敏感。
 
 卵巢癌與乳癌在 BRCA 相關的 DNA 修復缺陷上有共同的生物學基礎。文獻亦指出，Trabectedin 可減少腫瘤相關巨噬細胞 (TAM)，調節腫瘤微環境，前臨床研究顯示它可能增強 IL-12 在三陰性乳癌中的免疫治療效果。
 
@@ -125,6 +125,19 @@ TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效�
 - 逐篇核實乳癌 Phase 2 研究（PMID 25239225、24692579、27266804）的療效結果，特別是 BRCA1/2 突變族群
 - 確認是否有以乳癌為主要適應症的療效試驗，並評估 Phase 3 設計的可行性
 - 制定血液學與肝功能監測及 DDI 管理計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

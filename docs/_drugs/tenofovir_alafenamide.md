@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**猴免疫缺陷病毒感染 (Simian Immunodefici
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料庫記載。根據已知資訊，TAF 是 tenofovir 的前驅藥，進入淋巴細胞後轉換為活性代謝物 tenofovir diphosphate，透過終止病毒 DNA 鏈延長來抑制逆轉錄酶。
+根據美國 FDA 核准的 Tenofovir Alafenamide 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Tenofovir alafenamide 為一種抗 B 型肝炎病毒之抗病毒藥物。[…] Tenofovir alafenamide 為 tenofovir（2'-去氧腺苷單磷酸類似物）之 phosphonamidate 前驅藥。Tenofovir alafenamide 作為一種親脂性、可穿透細胞之化合物，藉由被動擴散及肝臟攝取轉運蛋白 OATP1B1 與 OATP1B3 進入初代肝細胞。」英文原文："Tenofovir alafenamide is an antiviral drug against the hepatitis B virus. […] Tenofovir alafenamide is a phosphonamidate prodrug of tenofovir (2'-deoxyadenosine monophosphate analog). Tenofovir alafenamide as a lipophilic cell-permeant compound enters primary hepatocytes by passive diffusion and by the hepatic uptake transporters OATP1B1 and OATP1B3."（[DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2)，版本日期 2025-07-14；查閱日期 2026-11-19）。根據已知資訊，TAF 是 tenofovir 的前驅藥，進入淋巴細胞後轉換為活性代謝物 tenofovir diphosphate，透過終止病毒 DNA 鏈延長來抑制逆轉錄酶。
 
 SIV 與 SHIV（猴／人類嵌合免疫缺陷病毒）和 HIV 同樣依賴逆轉錄酶進行複製，因此機轉上可直接轉用。巨猴（macaque）實驗顯示 TAF（單用或與 emtricitabine 合用）可預防直腸與陰道的 SHIV 感染，也具有暴露後保護效果。
 
@@ -124,6 +124,19 @@ SIV 與 SHIV（猴／人類嵌合免疫缺陷病毒）和 HIV 同樣依賴逆轉
 - 取得香港衛生署仿單的警語與禁忌症
 - 若目標是局部或長效預防劑型（栓劑、植入物），需從人體試驗與劑型可行性評估著手
 - 釐清此預測是否有超出現行 HIV 適應症的實際研發價值
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**慢性肉芽腫病（體染色體隱性，Chroni
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Cyclosporine 是鈣調神經磷酸酶抑制劑，能抑制 T 細胞活化，臨床上用於移植免疫抑制與移植物抗宿主病（GVHD）預防。
+根據美國 FDA 核准的 Cyclosporine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「環孢素（Cyclosporine）是一種強效免疫抑制劑，在動物中可延長涉及皮膚、腎臟、肝臟、心臟、胰臟、骨髓、小腸及肺臟之同種異體移植物的存活。已證實環孢素在多種動物物種的多種器官中，可抑制部分體液免疫，並在更大程度上抑制細胞介導的免疫反應，例如同種異體移植排斥、遲發型過敏反應、實驗性過敏性腦脊髓炎、弗氏佐劑關節炎及移植物對抗宿主疾病。」英文原文："Cyclosporine is a potent immunosuppressive agent that in animals prolongs survival of allogeneic transplants involving skin, kidney, liver, heart, pancreas, bone marrow, small intestine, and lung. Cyclosporine has been demonstrated to suppress some humoral immunity and to a greater extent, cell-mediated immune reactions such as allograft rejection, delayed hypersensitivity, experimental allergic encephalomyelitis, Freund’s adjuvant arthritis, and graft versus host disease in many animal species for a variety of organs."（[DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f)，版本日期 2026-09-10；查閱日期 2026-11-19）。已知 Cyclosporine 是鈣調神經磷酸酶抑制劑，能抑制 T 細胞活化，臨床上用於移植免疫抑制與移植物抗宿主病（GVHD）預防。
 
 唯一相關文獻討論的是慢性肉芽腫病的造血幹細胞移植結果。Cyclosporine 很可能只是移植前處理或 GVHD 預防方案的一部分，因此屬於**間接證據**。沒有證據顯示它能改善此病的根本缺陷（NADPH 氧化酶功能異常）。
 
@@ -125,6 +125,19 @@ TxGNN 模型預測它可能對**慢性肉芽腫病（體染色體隱性，Chroni
 資料中另有其他預測，證據同樣有限：
 - **腦動脈瘤**（分數 0.9950，L3，建議為研究問題）：僅有 1990 年代兩篇小型早期報告，探討動脈瘤性蛛網膜下腔出血後的血管痙攣預防，並非治療動脈瘤本身；2017 年前臨床研究顯示 T 細胞功能對動脈瘤形成並非必要，不利於 T 細胞標靶機轉。
 - **其餘 5 項**（先天性魚鱗癬樣紅皮症、胎兒母子血型不合溶血、淚腺脫垂等）：僅有模型預測或與臨床無關的體外研究，無可用機轉依據，皆為 Hold。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

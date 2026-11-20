@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**胃腺癌合併胃近端息肉症 (gastric adeno
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，capecitabine 屬於氟嘧啶類抗腫瘤藥物，知識圖譜中記錄它與多種胃癌類型相關（如胃癌、瀰漫性胃腺癌、胃皮革樣癌），機轉上可能適用於胃腺癌合併胃近端息肉症。
+根據美國 FDA 核准的 Capecitabine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Capecitabine 在體內代謝為 fluorouracil。正常細胞與腫瘤細胞皆會將 fluorouracil 代謝為 5-氟-2'-去氧尿苷單磷酸（FdUMP）及 5-氟尿苷三磷酸（FUTP）。這些代謝物透過兩種不同機轉造成細胞損傷。」英文原文："Capecitabine is metabolized to fluorouracil in vivo. Both normal and tumor cells metabolize fluorouracil to 5-fluoro-2'-deoxyuridine monophosphate (FdUMP) and 5-fluorouridine triphosphate (FUTP). These metabolites cause cell injury by two different mechanisms."（[DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5)，版本日期 2026-02-05；查閱日期 2026-11-19）。根據已知資訊，capecitabine 屬於氟嘧啶類抗腫瘤藥物，知識圖譜中記錄它與多種胃癌類型相關（如胃癌、瀰漫性胃腺癌、胃皮革樣癌），機轉上可能適用於胃腺癌合併胃近端息肉症。
 
 新預測的疾病同樣屬於胃腺癌範疇，其分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。這僅是模型推論，並非臨床證實。此疾病相當罕見，且合併息肉症的特殊背景，尚無本報告所整理的研究直接探討。
 
@@ -122,11 +122,12 @@ TxGNN 模型預測它可能對**胃腺癌合併胃近端息肉症 (gastric adeno
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「以下為資料中列出的主要許可證（共至少 20 張，清單可能不完整，僅列 5 張）。」→「以下為資料中列出的主要許可證（共 26 張含本藥成分的許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5) |
 
 <!-- review:end log -->
 

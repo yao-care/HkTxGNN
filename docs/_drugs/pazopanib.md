@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位為空）。根據一般藥理知識，Pazopanib 是多標靶酪胺酸激酶抑制劑，作用於 VEGFR、PDGFR 與 c-Kit，具有抗血管新生與抗腫瘤特性。以下機轉推論來自一般知識，並非來自本報告彙整的 MOA 資料。
+根據美國 FDA 核准的 Pazopanib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Pazopanib 是一種多重酪胺酸激酶抑制劑，作用於血管內皮生長因子受體（VEGFR）-1、VEGFR-2、VEGFR-3、血小板衍生生長因子受體（PDGFR）-α 及 -β、纖維母細胞生長因子受體（FGFR）-1 及 -3、細胞激素受體（Kit）、介白素-2 受體誘導型 T 細胞激酶（Itk）、淋巴細胞專一性蛋白酪胺酸激酶（Lck），以及跨膜醣蛋白受體酪胺酸激酶（c-Fms）。於體外試驗中，pazopanib 可抑制配體誘導的 VEGFR-2、Kit 及 PDGFR-β 受體自體磷酸化。」英文原文："Pazopanib is a multi-tyrosine kinase inhibitor of vascular endothelial growth factor receptor (VEGFR)-1, VEGFR-2, VEGFR-3, platelet-derived growth factor receptor (PDGFR)-α and -β, fibroblast growth factor receptor (FGFR)-1 and -3, cytokine receptor (Kit), interleukin-2 receptor-inducible T-cell kinase (Itk), lymphocyte-specific protein tyrosine kinase (Lck), and transmembrane glycoprotein receptor tyrosine kinase (c-Fms). In vitro, pazopanib inhibited ligand-induced autophosphorylation of VEGFR-2, Kit, and PDGFR-β receptors."（[DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7)，版本日期 2025-12-16；查閱日期 2026-11-19）。根據一般藥理知識，Pazopanib 是多標靶酪胺酸激酶抑制劑，作用於 VEGFR、PDGFR 與 c-Kit，具有抗血管新生與抗腫瘤特性。以下機轉推論來自一般知識，並非來自本報告彙整的 MOA 資料。
 
 脂肪肉瘤屬軟組織肉瘤的一種亞型。此預測分數（0.9959）來自 TxGNN 模型（深度學習），可能反映模型在相關疾病之間學到的相似性，而非生物學證據。血管新生與 PDGFR 訊號被認為可能參與去分化及中高惡性度脂肪肉瘤的進展，因此機轉上合理。
 
@@ -155,11 +155,12 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港已有 5 張有效單一成分許可證」→「香港已有 6 張有效單一成分許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7) |
 
 <!-- review:end log -->
 

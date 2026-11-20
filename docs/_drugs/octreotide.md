@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**外陰倒置性毛囊角化症 (vulvar inverted 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般認為 Octreotide 是體抑素類似物，主要作用於體抑素受體 SSTR2 與 SSTR5，可抑制生長激素等激素分泌，這與其在肢端肥大症與類癌症候群的用途相符。
+根據美國 FDA 核准的 Octreotide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Sandostatin 注射劑發揮的藥理作用與天然激素體抑素（somatostatin）相似。其對 GH、升糖素及胰島素的抑制作用比體抑素更強。[…] 基於這些藥理作用，octreotide 已被用於治療與轉移性類癌腫瘤相關的症狀（潮紅及腹瀉），以及分泌 VIP 的腺瘤相關症狀（水樣腹瀉）。」英文原文："Sandostatin Injection exerts pharmacologic actions similar to the natural hormone, somatostatin. It is an even more potent inhibitor of GH, glucagon, and insulin than somatostatin. […] By virtue of these pharmacological actions, octreotide has been used to treat the symptoms associated with metastatic carcinoid tumors (flushing and diarrhea), and VIP secreting adenomas (watery diarrhea)."（[DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39)，版本日期 2026-07-22；查閱日期 2026-11-19）。一般認為 Octreotide 是體抑素類似物，主要作用於體抑素受體 SSTR2 與 SSTR5，可抑制生長激素等激素分泌，這與其在肢端肥大症與類癌症候群的用途相符。
 
 外陰倒置性毛囊角化症是良性上皮病變，目前**沒有已知機轉**將體抑素受體訊號與此疾病連結。任何假設（例如抗增生作用）都屬推測，尚未經驗證。此分數來自 TxGNN 模型（深度學習），可能反映模型在相關疾病之間學到的相似性，而非生物學證據。
 
@@ -119,11 +119,12 @@ TxGNN 模型預測它可能對**外陰倒置性毛囊角化症 (vulvar inverted 
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「資料顯示 Octreotide 在香港有 20 張有效單方許可證（無複方、無已註」→「香港共有 22 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39) |
 
 <!-- review:end log -->
 

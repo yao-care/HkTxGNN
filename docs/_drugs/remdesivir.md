@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neo
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Remdesivir 是核苷酸類似物前驅藥，作用在病毒的 RNA 依賴性 RNA 聚合酶 (RdRp)，抑制病毒 RNA 複製。
+根據美國 FDA 核准的 Remdesivir 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Remdesivir 為一種抗病毒藥物，具有對抗嚴重急性呼吸道症候群冠狀病毒 2 型（SARS-CoV-2）的活性。[…] Remdesivir 為 SARS-CoV-2 RNA 依賴性 RNA 聚合酶（RdRp）的抑制劑，而 RdRp 為病毒複製所必需。Remdesivir 為一種腺苷核苷酸前驅藥，可分布至細胞內，並視細胞類型而經由羧酸酯酶 1 及／或組織蛋白酶 A 代謝為核苷單磷酸中間產物。」英文原文："Remdesivir is an antiviral drug with activity against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). […] Remdesivir is an inhibitor of the SARS-CoV-2 RNA-dependent RNA polymerase (RdRp), which is essential for viral replication. Remdesivir is an adenosine nucleotide prodrug that distributes into cells where it is metabolized to a nucleoside monophosphate intermediate by carboxyesterase 1 and/or cathepsin A, depending upon the cell type."（[DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca)，版本日期 2026-07-29；查閱日期 2026-11-19）。根據已知資訊，Remdesivir 是核苷酸類似物前驅藥，作用在病毒的 RNA 依賴性 RNA 聚合酶 (RdRp)，抑制病毒 RNA 複製。
 
 多發性內分泌腫瘤是遺傳性腫瘤症候群（例如 MEN1、RET 基因突變），致病原因與病毒無關，Remdesivir 在其中沒有已知的作用標的。因此**目前找不到合理的機轉關聯**。這個高分預測的分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據，沒有研究佐證，很可能是模型假象。
 
@@ -113,6 +113,19 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neo
 - 補充詳細的作用機轉（MOA）資料
 - 若仍想探索，先做前臨床或體外實驗，驗證是否存在任何合理的生物學連結
 - 優先重新審視與病毒感染相關的預測（如 HIV、CMV），並以直接療效研究而非共病或藥動學研究作為依據
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

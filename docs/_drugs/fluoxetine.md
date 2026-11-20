@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**妄想型人格障礙 (Paranoid Personality Diso
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Fluoxetine 屬於 SSRI 類藥物，透過調節血清素系統作用。理論上，它可能改善與人格障礙並存的焦慮、憂鬱或衝動等症狀。
+根據美國 FDA 核准的 Fluoxetine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「雖然 PROZAC 的確切機轉尚不明，但推測與其抑制 CNS 神經元對血清素的回收有關。」英文原文："Although the exact mechanism of PROZAC is unknown, it is presumed to be linked to its inhibition of CNS neuronal uptake of serotonin."（[DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299)，版本日期 2026-01-08；查閱日期 2026-11-19）。Fluoxetine 屬於 SSRI 類藥物，透過調節血清素系統作用。理論上，它可能改善與人格障礙並存的焦慮、憂鬱或衝動等症狀。
 
 不過，這種關聯並非妄想型人格障礙特有。目前取得的文獻是人格障礙與憂鬱症共病的一般性回顧，以及 A 群人格障礙（含妄想型、孤僻型、思覺失調型）的藥物治療回顧，並未顯示 fluoxetine 對妄想型人格障礙本身有效。0.9992 的高分只是模型預測，不能視為臨床證據。
 
@@ -118,11 +118,12 @@ TxGNN 模型預測它可能對**妄想型人格障礙 (Paranoid Personality Diso
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有至少 20 張含 fluoxetine 的單方許可證，皆為有效狀態，以下」→「香港共有 22 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299) |
 
 <!-- review:end log -->
 

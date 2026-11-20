@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**小細胞肺癌 (Small Cell Lung Carcinoma)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（MOA）。根據已知資訊，Cytarabine 是嘧啶核苷類抗代謝藥物，可抑制快速分裂細胞的 DNA 合成。這在機轉上是合理的依據，因為小細胞肺癌是增殖快速的腫瘤。
+根據美國 FDA 核准的 Cytarabine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「雖然其作用機制尚未完全明瞭，但cytarabine似乎是透過抑制DNA聚合酶而發揮作用。亦有報告指出cytarabine會有限但顯著地嵌入DNA及RNA中。」英文原文："Although the mechanism of action is not completely understood, it appears that cytarabine acts through the inhibition of DNA polymerase. A limited, but significant, incorporation of cytarabine into both DNA and RNA has also been reported."（[DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd)，版本日期 2026-10-19；查閱日期 2026-11-19）。根據已知資訊，Cytarabine 是嘧啶核苷類抗代謝藥物，可抑制快速分裂細胞的 DNA 合成。這在機轉上是合理的依據，因為小細胞肺癌是增殖快速的腫瘤。
 
 不過，原適應症（白血病）與小細胞肺癌在腫瘤類型上差異很大。現有文獻主要來自非小細胞肺癌（NSCLC）的高劑量 cytarabine 合併 cisplatin 的 Phase II 試驗，其反應率僅約 14%，且血液毒性明顯。另有一篇 1987 年的小細胞肺癌高劑量 cytarabine 報告，但缺乏摘要可供評估。此外，文獻也指出多數實體腫瘤對 cytarabine 不敏感。因此，兩者之間的連結屬於間接推論。
 
@@ -142,6 +142,18 @@ TxGNN 模型預測它可能對**小細胞肺癌 (Small Cell Lung Carcinoma)** �
 | 後腹膜腫瘤 | 0.9923 | L4 | 多為髓樣肉瘤與淋巴瘤病例報告 |
 | 神經母細胞瘤 | 0.9919 | L4 | 僅有體外研究，3 個相關試驗均未測試 cytarabine，列為研究問題 |
 | 高分化胎兒型肺腺癌、肺母細胞瘤、神經節母細胞瘤、椎體異常合併內分泌與 T 細胞功能異常 | 0.9932–0.9976 | L5 | 僅有模型預測，無試驗或文獻 |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

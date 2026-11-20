@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**腎性低尿酸血症 (Hypouricemia, Renal)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，probenecid 是促尿酸排泄藥，會抑制腎臟的 URAT1 (SLC22A12) 與 OAT1/OAT3 轉運蛋白，增加尿酸從腎臟排出，因此可用於痛風與高尿酸血症。
+根據美國 FDA 核准的 Probenecid 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Probenecid為促尿酸排泄劑及腎小管阻斷劑。」英文原文："Probenecid is a uricosuric and renal tubular blocking agent."（[DailyMed: probenecid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65b4888c-d49a-433f-9bfd-17880ae40069)，版本日期 2026-11-06；查閱日期 2026-11-19）。根據已知資訊，probenecid 是促尿酸排泄藥，會抑制腎臟的 URAT1 (SLC22A12) 與 OAT1/OAT3 轉運蛋白，增加尿酸從腎臟排出，因此可用於痛風與高尿酸血症。
 
 腎性低尿酸血症的病因，主要是 URAT1 (SLC22A12) 或 GLUT9 (SLC2A9) 功能喪失，使尿酸在腎小管重吸收不足、排泄過多。兩者涉及同一條尿酸轉運路徑，這很可能就是 TxGNN 給出高分的原因。
 
@@ -113,6 +113,19 @@ TxGNN 模型預測它可能對**腎性低尿酸血症 (Hypouricemia, Renal)** �
 - 取得完整的作用機轉資料與香港仿單的警語、禁忌
 - 若仍要探索，需先進行嚴謹的安全性評估，特別是腎損傷與結石風險
 - 建議改為評估其他預測適應症（如 HPRT 部分缺乏症的高尿酸血症與痛風），但該類患者尿酸產生過多，通常優先使用黃嘌呤氧化酶抑制劑，且同樣缺乏臨床證據
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: probenecid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65b4888c-d49a-433f-9bfd-17880ae40069) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

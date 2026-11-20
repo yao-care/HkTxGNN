@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**非症候群性食道畸形 (non-syndromic esoph
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知維生素 C 是膠原蛋白合成所需羥化酶的輔因子，也是重要的抗氧化劑。
+根據美國 FDA 核准的 Ascorbic Acid 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ascorbic acid 治療壞血病（一種因嚴重缺乏維生素 C 所致的疾病）症狀及徵象的確切作用機轉尚不明；然而，一般認為對壞血病病人投予 ascorbic acid 可恢復體內的 ascorbic acid 儲存量。」英文原文："The exact mechanism of action of ascorbic acid for the treatment of symptoms and signs of scurvy (a disorder caused by severe deficiency in vitamin C) is unknown; however, administration of ascorbic acid in patients with scurvy is thought to restore the body pool of ascorbic acid."（[DailyMed: ascorbic acid prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b683f8-189b-4a3f-9ffe-f91df6d798b6)，版本日期 2026-09-03；查閱日期 2026-11-19）。已知維生素 C 是膠原蛋白合成所需羥化酶的輔因子，也是重要的抗氧化劑。
 
 然而，先天性食道結構畸形是胚胎發育階段的結構缺陷。維生素 C 在其中沒有已知的作用，因此機轉上缺乏合理的連結。
 
@@ -111,11 +111,12 @@ TxGNN 模型預測它可能對**非症候群性食道畸形 (non-syndromic esoph
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港目前有至少 20 張有效的單一成分許可證，名單可能不完整，以下列出主要 5 」→「香港共有 28 張含本藥成分的許可證（全部有效；單一成分 5」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: ascorbic acid prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b683f8-189b-4a3f-9ffe-f91df6d798b6) |
 
 <!-- review:end log -->
 

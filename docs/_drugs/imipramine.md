@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**注意力不足過動症 (Attention Deficit-Hype
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據一般三環抗憂鬱藥的藥理，Imipramine 主要抑制正腎上腺素的突觸前再攝取，對血清素再攝取的抑制作用較弱。
+根據美國 FDA 核准的 Imipramine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「imipramine hydrochloride 的作用機轉尚未確知。然而，其主要作用並非經由刺激中樞神經系統。其臨床效果推測係由於阻斷神經末梢對正腎上腺素的回收，從而增強腎上腺素性突觸的作用。」英文原文："The mechanism of action of imipramine hydrochloride, is not definitely known. However, it does not act primarily by stimulation of the central nervous system. The clinical effect is hypothesized as being due to potentiation of adrenergic synapses by blocking uptake of norepinephrine at nerve endings."（[DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd3b62a-88d4-49eb-b0aa-71e28cf40919)，版本日期 2026-11-04；查閱日期 2026-11-19）。根據一般三環抗憂鬱藥的藥理，Imipramine 主要抑制正腎上腺素的突觸前再攝取，對血清素再攝取的抑制作用較弱。
 
 正腎上腺素訊號增強，與 ADHD 非刺激劑藥物 atomoxetine 的藥理基礎相同；Imipramine 的活性代謝物 desipramine 也屬於此類。前額葉的兒茶酚胺訊號，是合理的作用連結。文獻亦指出，Imipramine 可用於對刺激劑反應不佳的 ADHD 兒童，屬二線選擇。
 
@@ -114,6 +114,19 @@ TxGNN 模型預測它可能對**注意力不足過動症 (Attention Deficit-Hype
 - 系統性整理 imipramine 對 ADHD 的 RCT 與統合分析，並與 atomoxetine、desipramine 比較
 - 建立兒童族群的心電圖與心血管監測計畫
 - 其他預測項目（如強迫症）證據較弱、目前多屬研究性問題；ADHD 注意力不足型僅為上位疾病的衍生；其餘（如 faciodigitogenital syndrome、chondromyxoid fibroma）無合理機轉，其分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，而非生物學證據，皆建議暫不推進
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd3b62a-88d4-49eb-b0aa-71e28cf40919) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

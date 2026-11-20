@@ -57,7 +57,7 @@ TxGNN 模型預測它可能對**多毛症 (Hypertrichosis)** 有效，但目前*
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知藥理，Finasteride 抑制第二型 5-α 還原酶，降低二氫睾酮 (DHT)，進而減少毛囊中的雄性素訊號。這是它在雄性禿（男性型落髮）中被使用的基礎。
+根據美國 FDA 核准的 Finasteride 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「前列腺的發育及增大依賴於強效雄性素5α-二氫睪固酮（DHT）。第II型5α-還原酶在前列腺、肝臟及皮膚中將睪固酮代謝為DHT。[…] Finasteride是第II型5α-還原酶的競爭性及專一性抑制劑，會與該酵素緩慢形成穩定的酵素複合物。」英文原文："The development and enlargement of the prostate gland is dependent on the potent androgen, 5α-dihydrotestosterone (DHT). Type II 5α-reductase metabolizes testosterone to DHT in the prostate gland, liver and skin. […] Finasteride is a competitive and specific inhibitor of Type II 5α-reductase with which it slowly forms a stable enzyme complex."（[DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b)，版本日期 2026-03-18；查閱日期 2026-11-19）。根據已知藥理，Finasteride 抑制第二型 5-α 還原酶，降低二氫睾酮 (DHT)，進而減少毛囊中的雄性素訊號。這是它在雄性禿（男性型落髮）中被使用的基礎。
 
 不過，多毛症的定義是毛髮增生發生在**非雄性素依賴**的部位，與雄性素依賴的多毛 (hirsutism) 不同。因此 DHT 抑制的機轉連結偏弱，只可能出現在與 hirsutism 重疊的部分。
 
@@ -125,11 +125,12 @@ TxGNN 模型預測它可能對**多毛症 (Hypertrichosis)** 有效，但目前*
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「下表僅列出 5 張代表性許可證（資料顯示至少 20 張，清單可能不完整）。」→「下表僅列出 5 張代表性許可證（共 32 張含本藥成分的許可」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b) |
 
 <!-- review:end log -->
 

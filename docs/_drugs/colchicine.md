@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**惡性瘧原蟲瘧疾 (Plasmodium falciparum mal
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 colchicine 是微管破壞劑，會抑制微管蛋白（tubulin）聚合，並影響嗜中性白血球趨化與發炎反應，因此在痛風與家族性地中海熱中有療效。
+根據美國 FDA 核准的 Colchicine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「秋水仙素（Colchicine）治療痛風的有效性，據推測是由於其能阻斷滑液中單鈉尿酸鹽結晶所誘發的嗜中性球介導發炎反應。秋水仙素可干擾β-微管蛋白聚合成微管，從而阻止嗜中性球的活化、去顆粒化及向發炎部位的遷移。」英文原文："Colchicine’s effectiveness as a treatment for gout has been postulated to be due to its ability to block neutrophil-mediated inflammatory responses induced by monosodium urate crystals in synovial fluid. Colchicine disrupts the polymerization of β-tubulin into microtubules, thereby preventing the activation, degranulation, and migration of neutrophils to sites of inflammation."（[DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2)，版本日期 2026-10-16；查閱日期 2026-11-19）。已知 colchicine 是微管破壞劑，會抑制微管蛋白（tubulin）聚合，並影響嗜中性白血球趨化與發炎反應，因此在痛風與家族性地中海熱中有療效。
 
 在瘧疾方面，機轉上的連結只是推測：其他微管干擾物（例如薑黃素）曾被發現會破壞瘧原蟲的微管，顯示微管可能是寄生蟲的弱點。另一篇文獻探討 pfmdr1 基因在哺乳動物細胞中的表現與藥物敏感性，可能與 colchicine 作為 P-醣蛋白受質有關。不過這兩篇都沒有顯示 colchicine 本身對瘧疾有效。
 
@@ -128,6 +128,19 @@ TxGNN 模型預測它可能對**惡性瘧原蟲瘧疾 (Plasmodium falciparum mal
 ### 補充：其他預測適應症
 
 - **隆突性皮膚纖維肉瘤**：分數 0.9937，證據等級 L5，無任何試驗或文獻。該病以手術和 imatinib 治療，colchicine 沒有明顯優勢，建議 Hold。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

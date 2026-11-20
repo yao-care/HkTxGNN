@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，醋酸鋅是鋅補充與鋅相關治療的成分，其在威爾森氏症（抑制銅吸收）及皮膚傷口相關疾病中的角色已有文獻基礎，機轉上是否適用於糖尿病視網膜病變仍未獲證實。
+根據美國 FDA 核准的 Zinc Acetate 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「鋅是一種必需微量元素。鋅可作為多種酶的輔因子，包括 DNA 聚合酶、RNA 聚合酶、醇去氫酶及鹼性磷酸酶。鋅是蛋白質結構摺疊的協調者，例如「鋅指」(Zinc finger) 模體的摺疊，該模體可與多種蛋白質、脂質及核酸交互作用。」英文原文："Zinc is an essential trace element. Zinc functions as a cofactor of various enzymes including DNA polymerases, RNA polymerases, alcohol dehydrogenase, and alkaline phosphatases. Zinc is a coordinator of protein structural folding, such as folding of “Zinc finger” motif that interacts with a variety of proteins, lipids, and nucleic acids."（[DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757)，版本日期 2026-03-04；查閱日期 2026-11-19）。根據已知資訊，醋酸鋅是鋅補充與鋅相關治療的成分，其在威爾森氏症（抑制銅吸收）及皮膚傷口相關疾病中的角色已有文獻基礎，機轉上是否適用於糖尿病視網膜病變仍未獲證實。
 
 一個可能但未經驗證的假說是：鋅是抗氧化酵素（如 SOD）的輔因子，可能與視網膜氧化壓力有關。不過，本報告所整理的資料中沒有任何支持此連結的研究。
 
@@ -122,6 +122,19 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 ---
 
 **補充說明：**同一份資料中，排名第 10 的「泌尿道感染」有一篇間接文獻（鋅補充用於鐮狀細胞病感染預防），證據等級為 L4，可列為後續研究問題；其餘預測（如支氣管炎、慢性萎縮性肢端皮膚炎等）也都缺乏臨床證據。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

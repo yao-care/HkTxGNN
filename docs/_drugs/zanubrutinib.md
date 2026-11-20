@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**骨髓性白血病 (myeloid leukemia)** 有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Zanubrutinib 是選擇性、共價結合的 BTK 抑制劑，BTK 訊號在 B 細胞惡性腫瘤（慢性淋巴球性白血病/小淋巴球淋巴瘤、套細胞淋巴瘤、華氏巨球蛋白血症）中已有文獻支持其角色。
+根據美國 FDA 核准的 Zanubrutinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Zanubrutinib 是布魯頓氏酪胺酸激酶（BTK）的小分子抑制劑。Zanubrutinib 與 BTK 活性部位中的一個半胱胺酸殘基形成共價鍵，進而抑制 BTK 活性。BTK 是 B 細胞抗原受體（BCR）及細胞激素受體路徑的訊息傳遞分子。」英文原文："Zanubrutinib is a small-molecule inhibitor of Bruton's tyrosine kinase (BTK). Zanubrutinib forms a covalent bond with a cysteine residue in the BTK active site, leading to inhibition of BTK activity. BTK is a signaling molecule of the B-cell antigen receptor (BCR) and cytokine receptor pathways."（[DailyMed: Brukinsa (zanubrutinib) prescribing information, BeOne Medicines USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902)，版本日期 2026-09-04；查閱日期 2026-11-19）。根據已知資訊，Zanubrutinib 是選擇性、共價結合的 BTK 抑制劑，BTK 訊號在 B 細胞惡性腫瘤（慢性淋巴球性白血病/小淋巴球淋巴瘤、套細胞淋巴瘤、華氏巨球蛋白血症）中已有文獻支持其角色。
 
 至於骨髓性白血病，證據是間接的。有研究提到 BTK 在骨髓系細胞中表現，可能與急性骨髓性白血病細胞的存活及微環境訊號有關，但這只是假說，本報告所整理的資料並未證實。TxGNN 的高分（0.9965）很可能來自藥物與白血病、淋巴惡性腫瘤的整體關聯，不能解讀為對骨髓性白血病有專一支持。現有資料並未顯示 zanubrutinib 在骨髓性白血病中有活性。
 
@@ -122,6 +122,19 @@ Zanubrutinib 屬標靶藥物（BTK 抑制劑），非傳統細胞毒性化療藥
 - 取得香港原廠仿單的核准適應症、警語與禁忌症
 - 釐清 NCT05665530 各組別設計，確認 zanubrutinib 的角色
 - 排定合併用藥（如強效 CYP3A 抑制劑、抗血小板藥物）的交互作用管理策略
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Brukinsa (zanubrutinib) prescribing information, BeOne Medicines USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

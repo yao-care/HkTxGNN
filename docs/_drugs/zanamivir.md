@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**腎盂腎炎 (Pyelonephritis)** 有效，但目�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Zanamivir 是病毒神經胺酸酶抑制劑，其在流感中的療效已被證實。
+根據美國 FDA 核准的 Zanamivir 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Zanamivir 是一種對流感病毒具有活性的抗病毒藥物。[…] Zanamivir 是流感病毒神經胺酸酶（NA）的抑制劑；此酶可將病毒顆粒自受感染細胞的質膜釋出，並促進病毒在呼吸道內擴散。在神經胺酸酶抑制試驗中，zanamivir 對 N1 至 N9 所有 NA 酶亞型均具活性。」英文原文："Zanamivir is an antiviral drug with activity against influenza virus. […] Zanamivir is an inhibitor of influenza virus neuraminidase (NA), an enzyme that releases viral particles from the plasma membrane of infected cells and promotes virus spread in the respiratory tract. In neuraminidase inhibition assays, zanamivir is active against all NA enzyme subtypes N1 to N9."（[DailyMed: Relenza (zanamivir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4e68930-4e6d-4d27-b1f0-abf60d12e28d)，版本日期 2026-07-23；查閱日期 2026-11-19）。根據已知資訊，Zanamivir 是病毒神經胺酸酶抑制劑，其在流感中的療效已被證實。
 
 然而，腎盂腎炎主要由細菌（如大腸桿菌）引起，Zanamivir 並不針對這些病原體。此外，吸入型 Zanamivir 的全身暴露量低，難以在腎臟或泌尿道達到有效濃度。部分細菌雖表現類似神經胺酸酶的唾液酸酶，但沒有證據顯示這與腎盂腎炎的治療效果有關。
 
@@ -114,6 +114,19 @@ TxGNN 模型預測它可能對**腎盂腎炎 (Pyelonephritis)** 有效，但目�
 ---
 
 *補充：TxGNN 排名第二的預測「酪胺酸代謝異常 (Disorder of Tyrosine Metabolism)」分數為 0.9902，但檢索到的 3 篇文獻都是流感神經胺酸酶抑制劑的抗藥性或檢測方法研究，與酪胺酸代謝疾病無關，應是關鍵字（tyrosine）造成的假關聯，同樣屬 L5、建議 Hold。*
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Relenza (zanamivir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4e68930-4e6d-4d27-b1f0-abf60d12e28d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

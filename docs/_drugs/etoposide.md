@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對 **Ewing 肉瘤 (Ewing sarcoma)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，etoposide 是拓樸異構酶 II 抑制劑，會造成 DNA 股斷裂，是肺癌與生殖細胞腫瘤化療方案中的常用成分。
+根據美國 FDA 核准的 Etoposide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Etoposide 經由與 DNA 拓樸異構酶 II 交互作用或形成自由基而誘發 DNA 鏈斷裂，導致細胞週期停滯（主要停滯於細胞週期的 G2 期）及細胞死亡。」英文原文："Etoposide causes the induction of DNA strand breaks by an interaction with DNA-topoisomerase II or the formation of free radicals, leading to cell cycle arrest, primarily at the G2 stage of the cell cycle, and cell death."（[DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059)，版本日期 2026-10-07；查閱日期 2026-11-19）。根據已知資訊，etoposide 是拓樸異構酶 II 抑制劑，會造成 DNA 股斷裂，是肺癌與生殖細胞腫瘤化療方案中的常用成分。
 
 Ewing 肉瘤是兒童與年輕成人的惡性骨與軟組織腫瘤。文獻指出，Ewing 肉瘤對 etoposide 這類基因毒性藥物高度敏感。標準治療為 VDC（長春新鹼、小紅莓、環磷醯胺）與 IE（ifosfamide、etoposide）交替的組合化療，加上手術或放療。
 
@@ -133,6 +133,19 @@ Ewing 肉瘤是兒童與年輕成人的惡性骨與軟組織腫瘤。文獻指�
 - 補充詳細作用機轉資料
 - 確認 Ewing 肉瘤使用的組合方案（VDC/IE）與劑量，並建立骨髓抑制的監測計畫
 - 確認香港是否已有 Ewing 肉瘤的標示或院內治療指引
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

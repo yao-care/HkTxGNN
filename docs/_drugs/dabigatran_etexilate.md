@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，dabigatran 是直接凝血酶（thrombin）抑制劑，屬於口服抗凝血劑。
+根據美國 FDA 核准的 Dabigatran Etexilate 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Dabigatran及其醯基葡萄糖醛酸苷為競爭性直接凝血酶抑制劑。由於凝血酶（絲胺酸蛋白酶）在凝血級聯反應中可使纖維蛋白原轉化為纖維蛋白，因此抑制凝血酶可防止血栓形成。」英文原文："Dabigatran and its acyl glucuronides are competitive, direct thrombin inhibitors. Because thrombin (serine protease) enables the conversion of fibrinogen into fibrin during the coagulation cascade, its inhibition prevents the development of a thrombus."（[DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901)，版本日期 2026-11-02；查閱日期 2026-11-19）。根據已知資訊，dabigatran 是直接凝血酶（thrombin）抑制劑，屬於口服抗凝血劑。
 
 從機轉推測，凝血酶／PAR-1 訊號與肝臟纖維化及發炎有關，理論上可能與膽管病變的纖維化過程有所關聯。不過這只是推論，目前沒有直接證據支持。
 
@@ -118,6 +118,19 @@ TxGNN 的高分（0.9982）僅是計算預測。唯一連結的文獻是另一�
 - 進行前臨床研究（如膽管炎動物模型）驗證療效
 - 取得香港許可證的核准適應症與仿單警語、禁忌症
 - 評估肝功能受損或膽管疾病族群的出血風險與安全性
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

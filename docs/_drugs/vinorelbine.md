@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**尤文氏肉瘤 (Ewing sarcoma)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Vinorelbine 屬於長春花生物鹼類，一般認為透過抑制微管聚合，使快速分裂的細胞停滯於有絲分裂期並走向凋亡。
+根據美國 FDA 核准的 Vinorelbine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Vinorelbine 為一種長春花生物鹼，可干擾微管組裝。一般認為 vinorelbine 的抗腫瘤活性主要源於其與微管蛋白（tubulin）交互作用，從而在分裂中期抑制有絲分裂。Vinorelbine 亦可能干擾：1) 胺基酸、環磷酸腺苷（cyclic AMP）及穀胱甘肽代謝，2) 鈣調蛋白依賴性 Ca++ 轉運 ATPase 活性，3) 細胞呼吸作用，以及 4) 核酸及脂質生物合成。」英文原文："Vinorelbine is a vinca alkaloid that interferes with microtubule assembly. The antitumor activity of vinorelbine is thought to be due primarily to inhibition of mitosis at metaphase through its interaction with tubulin. Vinorelbine may also interfere with: 1) amino acid, cyclic AMP and glutathione metabolism, 2) calmodulin-dependent Ca++-transport ATPase activity, 3) cellular respiration, and 4) nucleic acid and lipid biosynthesis."（[DailyMed: vinorelbine prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397)，版本日期 2024-08-16；查閱日期 2026-11-19）。根據已知資訊，Vinorelbine 屬於長春花生物鹼類，一般認為透過抑制微管聚合，使快速分裂的細胞停滯於有絲分裂期並走向凋亡。
 
 在兒童與年輕成人的復發或難治性肉瘤中，Vinorelbine 搭配低劑量持續口服 cyclophosphamide（節拍式療法）已有 Phase 2 研究探討。另有前臨床研究顯示，微管干擾藥物（含 vinorelbine）與 PLK1 抑制劑在尤文氏肉瘤細胞中有協同誘導凋亡的作用。
 
@@ -126,6 +126,19 @@ TxGNN 模型預測它可能對**尤文氏肉瘤 (Ewing sarcoma)** 有效，
 - 取得原廠仿單的警語、禁忌症與作用機轉資料，補足目前缺口
 - 擬定骨髓抑制監測與藥物交互作用管理計畫（特別是 CYP3A4 相關藥物，如 clarithromycin）
 - 確認香港許可證的核准適應症文字與兒童族群使用的相關規範
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: vinorelbine prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

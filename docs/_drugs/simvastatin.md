@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**腦幹梗塞 (Brain Stem Infarction)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Simvastatin 屬於他汀類藥物，一般認為它透過抑制 HMG-CoA 還原酶降低膽固醇，並可能具有穩定斑塊、抗發炎及改善血管內皮功能等多效性作用。這些說明屬於藥物類別的一般知識，並非本報告所整理資料的直接內容。
+根據美國 FDA 核准的 Simvastatin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Simvastatin 是一種前驅藥，給藥後會水解為其活性 β-羥基酸形式，即 simvastatin acid。Simvastatin acid 及其代謝物為 HMG-CoA 還原酶抑制劑；HMG-CoA 還原酶是將 HMG-CoA 轉化為甲羥戊酸（膽固醇的前驅物）的速率限制酶。」英文原文："Simvastatin is a prodrug and is hydrolyzed to its active β-hydroxyacid form, simvastatin acid, after administration. Simvastatin acid and its metabolites are inhibitors of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol."（[DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9)，版本日期 2025-03-28；查閱日期 2026-11-19）。Simvastatin 屬於他汀類藥物，一般認為它透過抑制 HMG-CoA 還原酶降低膽固醇，並可能具有穩定斑塊、抗發炎及改善血管內皮功能等多效性作用。這些說明屬於藥物類別的一般知識，並非本報告所整理資料的直接內容。
 
 知識圖譜中，Simvastatin 與中風、腦血管疾病、腦梗塞及動脈粥樣硬化有關聯記錄。腦幹梗塞是缺血性中風的一種亞型，因此模型給出高分在生物學上可以理解。
 
@@ -115,11 +115,12 @@ TxGNN 模型預測它可能對**腦幹梗塞 (Brain Stem Infarction)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「資料顯示共有至少 20 張單一成分許可證，狀態皆為有效，但清單可能不完整。」→「香港共有 78 張含本藥成分的許可證（有效 72 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9) |
 
 <!-- review:end log -->
 

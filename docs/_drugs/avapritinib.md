@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**軸向脊椎骨幹骺端發育不良 (axial spon
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Avapritinib 是 KIT/PDGFRA 激酶抑制劑，在胃腸道基質瘤中的療效與這兩個標的相關。
+根據美國 FDA 核准的 Avapritinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Avapritinib是一種酪胺酸激酶抑制劑，其標靶為KIT D816V、PDGFRA及PDGFRA D842突變體，以及多種KIT外顯子11、11/17及17突變體，於生化分析中的半數最大抑制濃度（IC 50）低於25 nM。PDGFRA及KIT的某些突變可導致此等受體的自體磷酸化及持續性活化，從而可促成腫瘤及肥大細胞增殖。」英文原文："Avapritinib is a tyrosine kinase inhibitor that targets KIT D816V, PDGFRA and PDGFRA D842 mutants as well as multiple KIT exon 11, 11/17 and 17 mutants with half maximal inhibitory concentrations (IC 50s ) less than 25 nM in biochemical assays. Certain mutations in PDGFRA and KIT can result in the autophosphorylation and constitutive activation of these receptors which can contribute to tumor and mast cell proliferation."（[DailyMed: Ayvakit (avapritinib) prescribing information, Blueprint Medicines Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=645c887c-8cd4-4623-8da9-ac223d71a8b9)，版本日期 2026-10-20；查閱日期 2026-11-19）。根據已知資訊，Avapritinib 是 KIT/PDGFRA 激酶抑制劑，在胃腸道基質瘤中的療效與這兩個標的相關。
 
 然而，軸向脊椎骨幹骺端發育不良是罕見的骨骼疾病（文獻提及可能與 CFAP410/C21orf2 相關），與 KIT 或 PDGFRA 訊號傳遞沒有已知的關聯。**目前無法建立機轉上的合理連結**，0.9992 的高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，不代表生物學上的支持。
 
@@ -138,11 +138,12 @@ TxGNN 模型預測它可能對**軸向脊椎骨幹骺端發育不良 (axial spon
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「三張許可證皆為單方、有效，」→「三張許可證皆為單方，其中 HK-67293（AYVAKIT TABLETS 20」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ayvakit (avapritinib) prescribing information, Blueprint Medicines Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=645c887c-8cd4-4623-8da9-ac223d71a8b9) |
 
 <!-- review:end log -->
 

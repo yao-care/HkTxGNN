@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**眼眶區域疾病 (disease of orbital region)**
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Nystatin 屬於多烯類抗黴菌藥，一般認為是結合黴菌細胞膜上的麥角固醇而破壞膜的完整性，作用對象是真菌。
+根據美國 FDA 核准的 Nystatin 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Nystatin 的作用方式是與敏感念珠菌屬細胞膜中的固醇結合，進而改變細胞膜通透性，使細胞內成分滲漏。Nystatin 對細菌、原蟲或病毒不具明顯活性。」英文原文："Nystatin acts by binding to sterols in the cell membrane of susceptible Candida species with a resultant change in membrane permeability allowing leakage of intracellular components. Nystatin exhibits no appreciable activity against bacteria, protozoa, or viruses."（[DailyMed: Nystatin Oral Suspension (nystatin) prescribing information, Xttrium Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4a670371-d373-1ba6-e063-6394a90a13b6)，版本日期 2026-02-06；查閱日期 2026-11-19）。Nystatin 屬於多烯類抗黴菌藥，一般認為是結合黴菌細胞膜上的麥角固醇而破壞膜的完整性，作用對象是真菌。
 
 眼眶區域疾病涵蓋範圍很廣，多數類型並非真菌感染。Nystatin 的抗黴菌作用與這類疾病之間，目前看不出合理的機轉關聯。
 
@@ -113,11 +113,12 @@ TxGNN 給出的分數很高，但沒有任何臨床或文獻證據支持，因�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本報告所整理的資料顯示，Nystatin 單方製劑在香港至少有 20 張有效許可」→「本報告所整理的資料顯示，香港共有 129 張含本藥成分的許可」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Nystatin Oral Suspension (nystatin) prescribing information, Xttrium Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4a670371-d373-1ba6-e063-6394a90a13b6) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Dexlansoprazole 是質子幫浦抑制劑（PPI），原本用於消化性潰瘍�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（原始資料未收錄）。根據已知資訊，Dexlansoprazole 是 PPI 類藥物，
+根據美國 FDA 核准的 Dexlansoprazole 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Dexlansoprazole屬於一類抗分泌化合物，即取代苯并咪唑類，其藉由特異性抑制胃壁細胞分泌表面的(H +, K + )-ATPase而抑制胃酸分泌。由於此酵素被視為壁細胞內的酸（質子）幫浦，dexlansoprazole因可阻斷胃酸生成的最後步驟而被歸類為胃質子幫浦抑制劑。」英文原文："Dexlansoprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the (H +, K + )-ATPase at the secretory surface of the gastric parietal cell. Because this enzyme is regarded as the acid (proton) pump within the parietal cell, dexlansoprazole has been characterized as a gastric proton-pump inhibitor, in that it blocks the final step of acid production."（[DailyMed: Dexlansoprazole Delayed Release (dexlansoprazole) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=55c550b4-eb8b-4e69-9c09-fa5125a52e65)，版本日期 2026-11-04；查閱日期 2026-11-19）。根據已知資訊，Dexlansoprazole 是 PPI 類藥物，
 透過不可逆地抑制胃壁細胞的 H+/K+-ATPase（質子幫浦）來減少胃酸分泌。
 
 消化性潰瘍屬酸相關疾病，降低胃酸可讓潰瘍癒合。
@@ -107,6 +107,19 @@ Dexlansoprazole 是質子幫浦抑制劑（PPI），原本用於消化性潰瘍�
 - 取得潰瘍癒合為主要終點的直接臨床證據（可關注進行中的 Phase 4 試驗 NCT07344506 之結果）
 - 取得詳細的作用機轉資料及仿單的警語與禁忌症
 - 針對肝病、骨質疏鬆／骨折風險族群及 Acalabrutinib、Atazanavir 等重大交互作用，制定用藥監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Dexlansoprazole Delayed Release (dexlansoprazole) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=55c550b4-eb8b-4e69-9c09-fa5125a52e65) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -59,7 +59,7 @@ Cyproheptadine 是第一代 H1 抗組織胺藥物，原本用於過敏性鼻炎�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位尚未取得）。依文獻與藥理常識，Cyproheptadine 是第一代 H1 抗組織胺藥物，同時具有血清素 (5-HT2) 拮抗與抗膽鹼作用。
+根據美國 FDA 核准的 Cyproheptadine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Cyproheptadine 是一種血清素及組織胺拮抗劑，具有抗膽鹼及鎮靜作用。抗血清素及抗組織胺藥物似乎分別與血清素及組織胺競爭受體結合位。」英文原文："Cyproheptadine is a serotonin and histamine antagonist with anticholinergic and sedative effects. Antiserotonin and antihistamine drugs appear to compete with serotonin and histamine, respectively, for receptor sites."（[DailyMed: Cyproheptadine Hydrochloride Solution (cyproheptadine hydrochloride) prescribing information, Method Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1acfd050-6c07-a269-e063-6394a90a77e8)，版本日期 2025-10-21；查閱日期 2026-11-19）。依文獻與藥理常識，Cyproheptadine 是第一代 H1 抗組織胺藥物，同時具有血清素 (5-HT2) 拮抗與抗膽鹼作用。
 
 蕁麻疹本來就屬於它的既有適應症（蕁麻疹、血管性水腫、過敏性皮膚病）。因此「過敏性蕁麻疹」較像既有適應症的子類型，不是全新的再利用標的。0.9996 的高分很可能反映這種重疊。H1 阻斷可直接對抗組織胺引起的風團與搔癢，機轉上相當吻合。
 
@@ -77,8 +77,6 @@ Cyproheptadine 長期被視為此病的標準或參考用藥。不過現行指�
 
 ## 文獻證據
 
-
-
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
 | [334082](https://pubmed.ncbi.nlm.nih.gov/334082/) | 1977 | 雙盲比較試驗 | Arch Dermatol | 8 名原發性後天性寒冷性蕁麻疹患者，比較 cyproheptadine、chlorpheniramine 與安慰劑 |
@@ -89,7 +87,6 @@ Cyproheptadine 長期被視為此病的標準或參考用藥。不過現行指�
 | [1364168](https://pubmed.ncbi.nlm.nih.gov/1364168/) | 1992 | 隨機單盲交叉 | J Investig Allergol Clin Immunol | 7 名患者，比較 loratadine、cetirizine 與 cyproheptadine、ketotifen |
 | [5287036](https://pubmed.ncbi.nlm.nih.gov/5287036/) | 1971 | 臨床研究 | J Allergy Clin Immunol | 以 cyproheptadine 治療寒冷性蕁麻疹 |
 | [1305812](https://pubmed.ncbi.nlm.nih.gov/1305812/) | 1992 | 診斷研究 | Asian Pac J Allergy Immunol | 兒童冰塊試驗；cyproheptadine 治療 4 週後，3 分鐘冰塊試驗僅 17% 呈陽性 |
-
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
@@ -138,6 +135,19 @@ Cyproheptadine 長期被視為此病的標準或參考用藥。不過現行指�
 - 補齊 DrugBank 的作用機轉資料。
 - 針對寒冷性蕁麻疹，系統性回顧並與現行第二代抗組織胺（可能含加倍劑量）作比較，評估 cyproheptadine 的相對價值。
 - 評估老年、前列腺肥大、青光眼等族群的抗膽鹼風險，以及與鉀製劑、抗膽鹼藥物併用的管理方案。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cyproheptadine Hydrochloride Solution (cyproheptadine hydrochloride) prescribing information, Method Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1acfd050-6c07-a269-e063-6394a90a77e8) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

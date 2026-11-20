@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，氯化鋅是靜脈輸注微量元素製劑的成分，可能是補充鋅的來源。鋅是多種酵素的輔因子，例如 Cu/Zn 超氧化物歧化酶（抗氧化酵素）。
+根據美國 FDA 核准的 Zinc Chloride 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「鋅是一種必需微量元素。鋅可作為多種酶的輔因子，包括 DNA 聚合酶、RNA 聚合酶、醇去氫酶及鹼性磷酸酶。鋅是蛋白質結構摺疊的協調者，例如「鋅指」(Zinc finger) 模體的摺疊，該模體可與多種蛋白質、脂質及核酸交互作用。」英文原文："Zinc is an essential trace element. Zinc functions as a cofactor of various enzymes including DNA polymerases, RNA polymerases, alcohol dehydrogenase, and alkaline phosphatases. Zinc is a coordinator of protein structural folding, such as folding of “Zinc finger” motif that interacts with a variety of proteins, lipids, and nucleic acids."（[DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757)，版本日期 2026-03-04；查閱日期 2026-11-19）。根據已知資訊，氯化鋅是靜脈輸注微量元素製劑的成分，可能是補充鋅的來源。鋅是多種酵素的輔因子，例如 Cu/Zn 超氧化物歧化酶（抗氧化酵素）。
 
 氧化壓力被認為與糖尿病視網膜病變有關，因此理論上鋅可能透過抗氧化途徑發揮作用。但這只是未經驗證的假說，本報告取得的資料中沒有任何證據支持此連結。全身性或玻璃體內給予鋅對嚴重非增殖性糖尿病視網膜病變是否安全、有效，目前並無資料；鋅失衡本身也可能造成傷害。
 
@@ -114,6 +114,19 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 - 檢索鋅與糖尿病視網膜病變、乾眼症、乾燥症相關的臨床前與臨床文獻
 - 評估給藥途徑與劑型的可行性（現有製劑為靜脈輸注，眼科或局部使用需另行評估）
 - 確認劑量、鋅濃度與眼部耐受性等安全性問題
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

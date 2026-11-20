@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (feline acquired 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，atazanavir 屬於 HIV-1 蛋白酶抑制劑類別，其在 HIV 感染中的角色已為人所知，機轉上可能與其他慢病毒的蛋白酶有關。
+根據美國 FDA 核准的 Atazanavir 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Atazanavir 是一種 HIV-1 抗反轉錄病毒藥物。[…] Atazanavir（ATV）是一種氮雜肽類 HIV-1 蛋白酶抑制劑（PI）。本化合物選擇性抑制 HIV-1 感染細胞中病毒 Gag 及 Gag-Pol 多蛋白的病毒特異性加工處理，從而阻止成熟病毒顆粒的形成。」英文原文："Atazanavir is an HIV-1 antiretroviral drug. […] Atazanavir (ATV) is an azapeptide HIV-1 protease inhibitor (PI). The compound selectively inhibits the virus-specific processing of viral Gag and Gag-Pol polyproteins in HIV-1-infected cells, thus preventing formation of mature virions."（[DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8)，版本日期 2024-12-05；查閱日期 2026-11-19）。根據已知資訊，atazanavir 屬於 HIV-1 蛋白酶抑制劑類別，其在 HIV 感染中的角色已為人所知，機轉上可能與其他慢病毒的蛋白酶有關。
 
 貓免疫缺乏病毒 (FIV) 與 HIV 同屬慢病毒，因此以蛋白酶為標的的機轉原則上可行。然而 FIV 蛋白酶在受質特異性與對抑制劑的敏感度上與 HIV-1 蛋白酶不同，不能直接假設療效可以轉移。
 
@@ -106,6 +106,19 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (feline acquired 
 - 以體外試驗評估 atazanavir 對 FIV 蛋白酶的抑制活性
 - 確認是否有 FIV 動物模型或獸醫領域的相關研究
 - 釐清此預測是否屬於人用藥品再利用範疇，並取得香港仿單的警語與禁忌資料
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

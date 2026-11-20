@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**腎因性抗利尿不適當症候群 (Nephrogeni
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般認為 ethosuximide 會阻斷丘腦神經元的 T 型鈣離子通道，這是它用於失神發作癲癇的基礎。
+根據美國 FDA 核准的 Ethosuximide 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Ethosuximide 可抑制與意識喪失相關、每秒三次的陣發性棘波與慢波活動，此種活動常見於失神性（小發作）癲癇發作。癲癇樣發作的頻率得以降低，顯然是透過抑制運動皮質及提高中樞神經系統對致痙攣刺激的閾值所致。」英文原文："Ethosuximide suppresses the paroxysmal three cycle per second spike and wave activity associated with lapses of consciousness which is common in absence (petit mal) seizures. The frequency of epileptiform attacks is reduced, apparently by depression of the motor cortex and elevation of the threshold of the central nervous system to convulsive stimuli."（[DailyMed: Zarontin (ethosuximide) prescribing information, Parke-Davis Div of Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e008f33-70a1-4bc6-b3a0-d45214418ab6)，版本日期 2026-05-25；查閱日期 2026-11-19）。一般認為 ethosuximide 會阻斷丘腦神經元的 T 型鈣離子通道，這是它用於失神發作癲癇的基礎。
 
 NSIAD 的成因是血管加壓素 V2 受體 (AVPR2) 的功能獲得性突變，或在部分病例中是 GNAS 突變，導致不依賴血管加壓素的持續抗利尿。目前沒有已知的路徑能把 T 型鈣離子通道阻斷與 AVPR2 訊號異常連結起來。
 
@@ -112,6 +112,19 @@ TxGNN 模型（深度學習）給出的 0.9991 分數，可能反映模型在相
 - 進行前臨床研究（如細胞或動物模型）驗證是否有任何效應。
 - 取得香港仿單的警語與禁忌資料，完成安全性篩選。
 - 評估 ethosuximide 造成低血鈉或類 SIADH 效應的風險，以及腎臟疾病禁忌對目標族群的影響。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Zarontin (ethosuximide) prescribing information, Parke-Davis Div of Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e008f33-70a1-4bc6-b3a0-d45214418ab6) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

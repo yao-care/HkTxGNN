@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**肺囊蟲病 (Pneumocystosis)** 有效，但目�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就一般藥理知識，posaconazole 是三唑類抗黴菌藥，抑制黴菌的羊毛固醇 14-α 去甲基酶（CYP51），阻斷麥角固醇合成，進而破壞黴菌細胞膜。
+根據美國 FDA 核准的 Posaconazole 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Posaconazole是一種azole類抗黴菌藥物。[…] Posaconazole藉由抑制細胞色素P-450依賴性酵素羊毛固醇14α-去甲基酶（負責將真菌細胞膜中的羊毛固醇轉化為麥角固醇），阻斷麥角固醇（真菌細胞膜的關鍵成分）的合成。此作用會導致甲基化固醇前驅物累積及細胞膜內麥角固醇耗竭，從而削弱真菌細胞膜的結構與功能。」英文原文："Posaconazole is an azole antifungal agent. […] Posaconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane."（[DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84)，版本日期 2026-02-13；查閱日期 2026-11-19）。就一般藥理知識，posaconazole 是三唑類抗黴菌藥，抑制黴菌的羊毛固醇 14-α 去甲基酶（CYP51），阻斷麥角固醇合成，進而破壞黴菌細胞膜。
 
 然而，肺囊蟲（*Pneumocystis jirovecii*）的細胞膜幾乎不含麥角固醇，而是以膽固醇為主。因此，azole 類藥物在此病原體上缺乏明確的作用標的，機轉上的支持其實很薄弱。
 
@@ -122,6 +122,19 @@ TxGNN 模型（深度學習）給出的高分（0.9977）可能反映模型在�
 - 搜尋是否有 posaconazole 用於肺囊蟲病的病例報告或回溯性研究
 - 取得香港衛生署核准仿單，補齊警語、禁忌與核准適應症
 - 與現行標準治療（如 TMP-SMX）比較，評估潛在臨床定位
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Alpelisib 為 PI3Kα 選擇性抑制劑，PI3K 訊號路徑與肺血管重塑在生物學上可能有關聯，所以模型給出高分。
+根據美國 FDA 核准的 Alpelisib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Alpelisib為一種磷脂醯肌醇-3-激酶（PI3K）抑制劑，主要對PI3Kα具有抑制活性。編碼PI3K催化α次單元之基因（PIK3CA）的功能獲得性突變，會在體外及體內模型中導致PI3Kα及Akt訊息傳遞活化、細胞轉化及腫瘤生成。」英文原文："Alpelisib is an inhibitor of phosphatidylinositol-3-kinase (PI3K) with inhibitory activity predominantly against PI3Kα. Gain-of-function mutations in the gene encoding the catalytic α-subunit of PI3K (PIK3CA) lead to activation of PI3Kα and Akt-signaling, cellular transformation and the generation of tumors in in vitro and in vivo models."（[DailyMed: Piqray (alpelisib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b20b4e18-7a4b-4500-a08f-06c6dab0ee5b)，版本日期 2026-10-28；查閱日期 2026-11-19）。Alpelisib 為 PI3Kα 選擇性抑制劑，PI3K 訊號路徑與肺血管重塑在生物學上可能有關聯，所以模型給出高分。
 
 不過，目前沒有證據顯示抑制 PI3Kα 能治療肺動脈高壓。唯一相關的文獻是 alpelisib 引起間質性肺病的病例報告，這是肺部毒性的警訊，反而提示需要謹慎。
 
@@ -129,6 +129,19 @@ TxGNN 分數很高，但排名為 15076，且此分數來自 TxGNN 模型（深�
 - 取得 alpelisib 完整作用機轉資料與香港仿單（警語、禁忌症、核准適應症）
 - 前臨床研究，評估 PI3Kα 抑制在肺動脈高壓模型中的作用
 - 釐清間質性肺病風險，以及高血糖對肺動脈高壓族群的影響
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Piqray (alpelisib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b20b4e18-7a4b-4500-a08f-06c6dab0ee5b) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

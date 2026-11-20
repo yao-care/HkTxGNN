@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**藥物誘發性骨質疏鬆症 (drug-induced ost
 
 ## 為什麼這個預測合理？
 
-Guselkumab 是 IL-23 p19 亞單位抑制劑。本報告所整理的資料中缺乏詳細的作用機轉資料，以上機轉描述來自藥物類別的一般認知。
+Guselkumab 是 IL-23 p19 亞單位抑制劑。根據美國 FDA 核准的 Guselkumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Guselkumab是一種人類單株IgG1λ抗體，可選擇性地與介白素23（IL-23）的p19次單元結合，並抑制其與IL-23受體的交互作用。IL-23是一種天然存在的細胞激素，參與正常的發炎及免疫反應。」英文原文："Guselkumab is a human monoclonal IgG1λ antibody that selectively binds to the p19 subunit of interleukin 23 (IL-23) and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in normal inflammatory and immune responses."（[DailyMed: Tremfya (guselkumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6dc9ae-1c4c-42d9-87aa-c315ecc51b56)，版本日期 2026-10-20；查閱日期 2026-11-19）。
 
 IL-23/IL-17 訊號路徑在發炎性骨流失中可能扮演角色，因此理論上可能與藥物（例如糖皮質素）誘發的骨質疏鬆有關。但這個連結目前仍屬推測，唯一的支持是較高的 TxGNN 預測分數，沒有任何臨床試驗或文獻佐證。
 
@@ -112,11 +112,12 @@ IL-23/IL-17 訊號路徑在發炎性骨流失中可能扮演角色，因此理�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「在香港已有 2 張有效許可證」→「在香港已有 5 張有效許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Tremfya (guselkumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6dc9ae-1c4c-42d9-87aa-c315ecc51b56) |
 
 <!-- review:end log -->
 

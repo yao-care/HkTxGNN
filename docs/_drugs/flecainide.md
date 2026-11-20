@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**中風 (stroke disorder)** 有效，但目前只
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Flecainide 是 IC 類鈉離子通道阻斷劑，用於心房顫動的節律控制。
+根據美國 FDA 核准的 Flecainide 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Flecainide具有局部麻醉活性，屬於膜穩定性（第1類）抗心律不整藥物；其電生理作用具有IC類抗心律不整藥物的特徵。電生理學 在人體中，flecainide會使心臟各部位的心內傳導呈劑量相關性減緩，其中對希氏-浦金埃氏系統（H-V傳導）的影響最大。」英文原文："Flecainide has local anesthetic activity and belongs to the membrane stabilizing (Class 1) group of antiarrhythmic agents; it has electrophysiologic effects characteristic of the IC class of antiarrhythmics. Electrophysiology In man, flecainide produces a dose-related decrease in intracardiac conduction in all parts of the heart with the greatest effect on the His-Purkinje system (H-V conduction)."（[DailyMed: flecainide acetate prescribing information, Amneal Pharmaceuticals of New York LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee9595d5-08a1-4529-9215-ddc3c7f929c4)，版本日期 2026-06-11；查閱日期 2026-11-19）。已知 Flecainide 是 IC 類鈉離子通道阻斷劑，用於心房顫動的節律控制。
 
 心房顫動是心源性栓塞中風的主要危險因子。若 Flecainide 能維持竇性心律，理論上可能間接降低中風風險。這種關聯是經由抑制心房顫動所間接產生的，並非直接的神經保護作用。
 
@@ -129,6 +129,19 @@ TxGNN 模型預測它可能對**中風 (stroke disorder)** 有效，但目前只
 - 詳細的作用機轉資料
 - 取得香港原廠仿單的警語與禁忌資料，完成安全性篩選
 - 明確界定適用族群（排除結構性心臟病與傳導異常），並評估與抗凝血劑併用的交互作用
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: flecainide acetate prescribing information, Amneal Pharmaceuticals of New York LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee9595d5-08a1-4529-9215-ddc3c7f929c4) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

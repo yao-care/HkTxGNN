@@ -60,7 +60,7 @@ TxGNN 模型對 **bulbar polio（延髓型小兒麻痺）** 給出高預測分�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫中的 MOA 欄位為空）。不過，Ivosidenib 已知是**突變型 IDH1（異檸檬酸脫氫酶 1）抑制劑**，能降低 IDH1 突變癌症中的致癌代謝物 2-羥基戊二酸（2-HG），進而促進白血病母細胞分化。
+根據美國 FDA 核准的 Ivosidenib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ivosidenib是一種小分子抑制劑，作用標靶為突變型異檸檬酸脫氫酶1（IDH1）。在AML患者中，易感IDH1突變的定義為：導致白血病細胞內2-羥基戊二酸（2-HG）水平升高的突變，且其療效可通過以下方式預測：1）使用ivosidenib建議劑量可達到具臨床意義的緩解，及/或2）根據經驗證的方法，在建議劑量下可維持的ivosidenib濃度能抑制突變型IDH1酶活性。」英文原文："Ivosidenib is a small molecule inhibitor that targets the mutant isocitrate dehydrogenase 1 (IDH1) enzyme. In patients with AML, susceptible IDH1 mutations are defined as those leading to increased levels of 2-hydroxyglutarate (2-HG) in the leukemia cells and where efficacy is predicted by 1) clinically meaningful remissions with the recommended dose of ivosidenib and/or 2) inhibition of mutant IDH1 enzymatic activity at concentrations of ivosidenib sustainable at the recommended dosage according to validated methods."（[DailyMed: Tibsovo (ivosidenib) prescribing information, Servier Pharmaceutical LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65d254c0-67ad-42c4-b972-ad463b755b2d)，版本日期 2025-12-22；查閱日期 2026-11-19）。不過，Ivosidenib 已知是**突變型 IDH1（異檸檬酸脫氫酶 1）抑制劑**，能降低 IDH1 突變癌症中的致癌代謝物 2-羥基戊二酸（2-HG），進而促進白血病母細胞分化。
 
 **Bulbar polio 這個預測缺乏合理性。** 它是由脊髓灰質炎病毒感染運動神經元所造成的急性病毒性神經疾病，不涉及 IDH1 突變或相關代謝路徑。0.9931 的高分來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，而非生物學證據，且沒有任何臨床試驗或文獻佐證。
 
@@ -124,6 +124,19 @@ TxGNN 模型對 **bulbar polio（延髓型小兒麻痺）** 給出高預測分�
 - 補充 DrugBank 的作用機轉資料。
 - 若關注治療相關 AML／MDS，需蒐集 IDH1 突變患者在這些病因下的臨床證據，並確認是否已涵蓋於現有核准適應症內。
 - 取得香港許可證的核准適應症文字，以確認實際上市範圍。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Tibsovo (ivosidenib) prescribing information, Servier Pharmaceutical LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65d254c0-67ad-42c4-b972-ad463b755b2d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

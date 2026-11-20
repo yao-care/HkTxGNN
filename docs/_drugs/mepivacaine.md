@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**胃十二指腸炎 (Gastroduodenitis)** 有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Mepivacaine 屬於醯胺類局部麻醉藥，一般認為是透過阻斷電壓門控鈉離子通道來抑制神經傳導。
+根據美國 FDA 核准的 Mepivacaine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「局部麻醉劑阻斷神經衝動的產生及傳導，推測係藉由提高神經電興奮的閾值、減緩神經衝動的傳播，以及降低動作電位的上升速率。一般而言，麻醉的進展與受影響神經纖維的直徑、髓鞘化程度及傳導速度有關。」英文原文："Local anesthetics block the generation and the conduction of nerve impulses, presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential. In general, the progression of anesthesia is related to the diameter, myelination, and conduction velocity of affected nerve fibers."（[DailyMed: Polocaine-Mpf (mepivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a27d0815-ae6b-4a21-a8f5-564c01e83814)，版本日期 2022-10-01；查閱日期 2026-11-19）。根據已知資訊，Mepivacaine 屬於醯胺類局部麻醉藥，一般認為是透過阻斷電壓門控鈉離子通道來抑制神經傳導。
 
 在機轉上，一個可能但尚未驗證的連結是：阻斷鈉離子通道可能減少胃十二指腸黏膜的傳入痛覺訊號，達到止痛效果。但沒有證據顯示它能治療發炎本身或其成因（例如幽門螺旋桿菌感染、胃酸相關損傷）。
 
@@ -117,6 +117,19 @@ TxGNN 模型預測它可能對**胃十二指腸炎 (Gastroduodenitis)** 有效�
 - 評估給藥途徑的可行性（目前香港僅有注射劑型，是否適用於胃腸道疾病尚未確認）。
 - 取得香港仿單的警語、禁忌與核准適應症，完成安全性初篩。
 - 若後續找到支持證據，再考慮設計前臨床或探索性臨床研究。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Polocaine-Mpf (mepivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a27d0815-ae6b-4a21-a8f5-564c01e83814) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

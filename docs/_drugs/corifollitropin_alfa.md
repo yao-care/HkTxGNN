@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**胃十二指腸炎 (Gastroduodenitis)** 有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Corifollitropin alfa 是長效 FSH 促效劑，作用於性腺組織的 FSH 受體。
+ChEMBL（EMBL-EBI）收錄的 Corifollitropin Alfa 作用機轉（非官方翻譯）：「濾泡刺激素受體促效劑」英文原文："Follicle stimulating hormone receptor agonist"（[ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Corifollitropin alfa 是長效 FSH 促效劑，作用於性腺組織的 FSH 受體。
 
 就機轉而言，FSH 受體促效與胃十二指腸黏膜發炎之間沒有明確的生物學關聯。此分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據，因此應視為假說，不宜當作有效性依據。
 
@@ -97,6 +97,19 @@ TxGNN 模型預測它可能對**胃十二指腸炎 (Gastroduodenitis)** 有效�
 - 取得香港仿單的警語、禁忌與核准適應症
 - 進行文獻與前臨床證據檢索，確認有無支持性研究
 - 評估是否有更合理的預測適應症值得優先探討
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

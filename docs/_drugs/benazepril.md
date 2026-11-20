@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (malignant hypertensive
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據藥物分類，Benazepril 屬於 ACE 抑制劑，理論上可抑制腎素—血管收縮素系統（RAS），降低腎絲球內壓力與蛋白尿。
+根據美國 FDA 核准的 Benazepril 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Benazepril 及 benazeprilat 在人體受試者及動物中抑制血管收縮素轉化酶（ACE）。Benazeprilat 的 ACE 抑制活性遠大於 benazepril。ACE 是一種肽基二肽酶，催化血管收縮素 I 轉化為血管收縮物質血管收縮素 II。」英文原文："Benazepril and benazeprilat inhibit angiotensin-converting enzyme (ACE) in human subjects and animals. Benazeprilat has much greater ACE inhibitory activity than does benazepril. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II."（[DailyMed: Lotensin (benazepril hydrochloride) prescribing information, Validus Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2abb091b-a53e-46b0-9b84-e5ee8f2bdd8e)，版本日期 2025-09-30；查閱日期 2026-11-19）。根據藥物分類，Benazepril 屬於 ACE 抑制劑，理論上可抑制腎素—血管收縮素系統（RAS），降低腎絲球內壓力與蛋白尿。
 
 惡性高血壓合併腎臟受損的病程與 RAS 活化有關，而 ACE 抑制劑在慢性腎臟病中的角色已相對確立，因此在生物學上具有合理性。不過，這在本質上是既有降血壓用途的延伸，且本報告所整理的資料中沒有針對此疾病的試驗或文獻，仍屬假說階段。
 
@@ -99,6 +99,19 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (malignant hypertensive
 - 取得詳細的作用機轉資料
 - 取得人用製劑的仿單，確認警語與禁忌症
 - 制定腎功能與血鉀的監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Lotensin (benazepril hydrochloride) prescribing information, Validus Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2abb091b-a53e-46b0-9b84-e5ee8f2bdd8e) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

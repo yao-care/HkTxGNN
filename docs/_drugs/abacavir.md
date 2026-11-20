@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (feline acquired 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫未收錄）。依一般藥理知識，abacavir 在細胞內被磷酸化為 carbovir triphosphate，與 dGTP 競爭並終止病毒 DNA 鏈延長。貓免疫缺乏病毒 (FIV) 同屬慢病毒，同樣依賴逆轉錄酶，因此機轉上有可能適用。
+根據美國 FDA 核准的 abacavir and lamivudine（含 Abacavir 的複方） 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「阿巴卡韋與拉米夫定為一種抗反轉錄病毒藥物，具有對抗HIV-1的活性。」英文原文："Abacavir and lamivudine is an antiretroviral agent with activity against HIV-1."（[DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c)，版本日期 2026-09-18；查閱日期 2026-11-19）。依一般藥理知識，abacavir 在細胞內被磷酸化為 carbovir triphosphate，與 dGTP 競爭並終止病毒 DNA 鏈延長。貓免疫缺乏病毒 (FIV) 同屬慢病毒，同樣依賴逆轉錄酶，因此機轉上有可能適用。
 
 FIV 在分子與臨床層面與人類 HIV 相似，常被作為 HIV 的動物模型。不過，現有唯一文獻（PMID 11684314，2002 年）評估的是 zidovudine、lamivudine 與 abacavir 三藥合併在體外抑制 FIV 複製的效果，無法分離出 abacavir 單獨的貢獻。
 
@@ -102,6 +102,19 @@ TxGNN 的高分很可能反映它與人類 HIV 用藥的相似性，而非針對
 - 確認是否有獸醫用藥的開發需求與法規路徑
 - 補充詳細的作用機轉資料
 - 取得原廠仿單中的警語與禁忌症資訊
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

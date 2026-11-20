@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前*
 
 ## 為什麼這個預測合理？
 
-目前缺乏來自藥物資料庫的詳細作用機轉資料。根據文獻，Aminophylline 是非選擇性腺苷受體拮抗劑，同時也是磷酸二酯酶抑制劑。
+根據美國 FDA 核准的 Aminophylline 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Theophylline 在可逆性阻塞病人的呼吸道中具有兩種不同的作用：平滑肌鬆弛（即支氣管擴張），以及抑制呼吸道對刺激的反應（即非支氣管擴張性的預防作用）。」英文原文："Theophylline has two distinct actions in the airways of patients with reversible obstruction; smooth muscle relaxation (i.e., bronchodilation) and suppression of the response of the airways to stimuli (i.e., nonbronchodilator prophylactic effects)."（[DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d)，版本日期 2026-05-26；查閱日期 2026-11-19）。根據文獻，Aminophylline 是非選擇性腺苷受體拮抗劑，同時也是磷酸二酯酶抑制劑。
 
 偏頭痛的病理機轉尚未完全釐清，但有研究認為可能與腦能量代謝受損及腺苷濃度異常升高有關。腺苷訊號與三叉神經血管活化及腦血管擴張有關，因此以 Aminophylline 阻斷腺苷受體，在機轉上有可能緩解症狀。2023 年有一篇專文討論 Aminophylline 在疼痛與偏頭痛的應用，指出它對疼痛（尤其是硬脊膜穿刺後頭痛）可能有明顯緩解效果。
 
@@ -120,6 +120,19 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前*
 - 針對偏頭痛（尤其是急性發作或硬脊膜穿刺後頭痛）設計小型隨機對照試驗
 - 評估注射劑型用於偏頭痛的可行性，並建立心血管、甲狀腺疾病患者的排除與監測計畫
 - 針對茶鹼治療窗窄的特性，規劃血中濃度監測
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Homatropine Methylbromide 是週邊作用的四級銨類抗蕈毒鹼藥物，機轉上可能透過抗膽鹼作用，緩解膀胱逼尿肌過度活動或腸道、膀胱痙攣。這些是馬尾症候群常見的下游症狀。
+根據美國 FDA 核准的 hydrocodone bitartrate and homatropine methylbromide（含 Homatropine Methylbromide 的複方） 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Homatropine Homatropine 是一種抗膽鹼藥，可抑制毒蕈鹼型乙醯膽鹼受體的活性，其效力低於 atropine。」英文原文："Homatropine Homatropine is an anticholinergic that inhibits activity of the muscarinic acetylcholine receptor with less potency than atropine."（[DailyMed: hydrocodone bitartrate and homatropine methylbromide prescribing information, Genus Lifesciences Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320ff639-9854-407b-9bbd-a035c4f173e1)，版本日期 2026-05-07；查閱日期 2026-11-19）。根據已知資訊，Homatropine Methylbromide 是週邊作用的四級銨類抗蕈毒鹼藥物，機轉上可能透過抗膽鹼作用，緩解膀胱逼尿肌過度活動或腸道、膀胱痙攣。這些是馬尾症候群常見的下游症狀。
 
 不過，馬尾症候群是腰薦神經根受壓迫所造成的外科急症，根本處置是緊急減壓手術。抗蕈毒鹼藥物無法處理病因，至多只能對膀胱功能障礙提供症狀緩解。此外，四級銨結構使其中樞神經穿透性有限，任何作用都應僅限於週邊。
 
@@ -100,6 +100,19 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 - 取得香港仿單的警語、禁忌與核准適應症
 - 進行文獻回顧或前臨床研究，評估抗蕈毒鹼藥物對馬尾症候群相關膀胱功能障礙的症狀緩解價值
 - 確認劑型與給藥途徑是否符合預期用途
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: hydrocodone bitartrate and homatropine methylbromide prescribing information, Genus Lifesciences Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320ff639-9854-407b-9bbd-a035c4f173e1) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

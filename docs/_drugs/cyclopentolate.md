@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Cyclopentolate 屬於蕈毒鹼受體拮抗劑（抗膽鹼藥物），這是此藥物類別公認的特性。抗膽鹼藥物可減少逼尿肌過度活動，理論上可能改善馬尾症候群所引起的膀胱功能障礙。
+根據美國 FDA 核准的 Cyclopentolate 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「此抗膽鹼製劑可阻斷虹膜括約肌及睫狀體調節肌對膽鹼刺激的反應，從而產生瞳孔擴大（散瞳）及調節麻痺（睫狀肌麻痺）。其作用迅速，但作用持續時間較atropine短。」英文原文："This anticholinergic preparation blocks the responses of the sphincter muscle of the iris and the accommodative muscle of the ciliary body to cholinergic stimulation, producing pupillary dilation (mydriasis) and paralysis of accommodation (cycloplegia). It acts rapidly, but has a shorter duration than atropine."（[DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e)，版本日期 2024-06-25；查閱日期 2026-11-19）。根據已知資訊，Cyclopentolate 屬於蕈毒鹼受體拮抗劑（抗膽鹼藥物），這是此藥物類別公認的特性。抗膽鹼藥物可減少逼尿肌過度活動，理論上可能改善馬尾症候群所引起的膀胱功能障礙。
 
 不過，這只是症狀層面的關聯，無法處理底層的神經壓迫病變。馬尾症候群本身屬於需要手術處理的急症，沒有機轉能將 Cyclopentolate 連結到神經減壓或神經修復。
 
@@ -127,6 +127,19 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 - 評估是否有適合的全身或膀胱內給藥劑型，並釐清其藥動學與安全性
 - 若要優先探索，建議先將「神經源性膀胱」對應到現行本體論術語，再進行文獻與試驗檢索
 - 與已核准的選擇性抗蕈毒鹼藥物做比較，確認有無附加價值
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

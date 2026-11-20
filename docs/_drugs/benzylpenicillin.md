@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**智齒冠周炎 (pericoronitis)** 有效，但�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就藥物類別而言，Benzylpenicillin 屬青黴素類抗生素，一般認為透過抑制細菌細胞壁合成而發揮殺菌作用。
+根據美國 FDA 核准的 Benzylpenicillin 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「青黴素類會與血清蛋白（主要為白蛋白）結合。在正常情況下，青黴素類在細胞外液及大多數其他身體組織中很容易達到治療濃度。青黴素類會以不同程度分布至胸膜液、心包液、腹膜液、腹水、滑液及間質液中。」英文原文："Penicillins bind to serum proteins, mainly albumin. Therapeutic levels of the penicillins are easily achieved under normal circumstances in extracellular fluid and most other body tissues. Penicillins are distributed in varying degrees into pleural, pericardial, peritoneal, ascitic, synovial, and interstitial fluids."（[DailyMed: Pfizerpen (penicillin g potassium) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efef4846-9497-41af-8dd6-518f86eca7f2)，版本日期 2026-11-04；查閱日期 2026-11-19）。就藥物類別而言，Benzylpenicillin 屬青黴素類抗生素，一般認為透過抑制細菌細胞壁合成而發揮殺菌作用。
 
 智齒冠周炎是由鏈球菌與厭氧菌等多種細菌引起的牙源性感染，這些菌種多半對青黴素敏感，因此在機轉上有合理的推測空間。
 
@@ -99,6 +99,19 @@ TxGNN 模型預測它可能對**智齒冠周炎 (pericoronitis)** 有效，但�
 - 補充詳細作用機轉資料
 - 取得香港仿單的警語與禁忌症
 - 釐清注射途徑對冠周炎的適用情境，並與現有口服標準治療比較
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Pfizerpen (penicillin g potassium) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efef4846-9497-41af-8dd6-518f86eca7f2) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

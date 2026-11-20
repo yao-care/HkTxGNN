@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**瀰漫性硬皮症 (Diffuse Scleroderma)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知的藥理學而言，Vancomycin 是糖肽類抗生素，透過抑制細菌細胞壁合成，對革蘭氏陽性菌發揮作用。
+根據美國 FDA 核准的 Vancomycin 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Vancomycin 為一種抗菌藥物。[…] vancomycin 的殺菌作用主要源自抑制細胞壁生物合成。此外，vancomycin 會改變細菌細胞膜的通透性及 RNA 合成。」英文原文："Vancomycin is an antibacterial drug. […] The bactericidal action of vancomycin results primarily from inhibition of cell-wall biosynthesis. In addition, vancomycin alters bacterial-cell-membrane permeability and RNA synthesis."（[DailyMed: Tyzavan (vancomycin) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e9c5e2-07cc-4a8b-ba64-b2e7619ea560)，版本日期 2026-08-19；查閱日期 2026-11-19）。就已知的藥理學而言，Vancomycin 是糖肽類抗生素，透過抑制細菌細胞壁合成，對革蘭氏陽性菌發揮作用。
 
 瀰漫性硬皮症是一種自體免疫性纖維化疾病，與細菌細胞壁合成沒有可辨識的機轉關聯。因此，這個高分預測來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 
@@ -104,6 +104,19 @@ TxGNN 模型預測它可能對**瀰漫性硬皮症 (Diffuse Scleroderma)** 有�
 - 提出合理的生物學假說（例如抗菌以外的免疫調節作用）並進行前臨床驗證。
 - 補充作用機轉資料與仿單警語、適應症文字。
 - 若要探索 Vancomycin 的新用途，可優先評估機轉上較合理的革蘭氏陽性菌感染相關適應症（例如肺炎鏈球菌肺炎，但目前證據仍屬間接，且需注意既有臨床用法與耐受株問題），而非硬皮症。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Tyzavan (vancomycin) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e9c5e2-07cc-4a8b-ba64-b2e7619ea560) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

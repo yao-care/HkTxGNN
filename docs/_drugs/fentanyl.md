@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**腎因性抗利尿激素不適當分泌症候群
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Fentanyl 是 mu 類鴉片受體促效劑，臨床上用於疼痛處置，但本報告所用資料未載明其原適應症與完整機轉。
+根據美國 FDA 核准的 Fentanyl 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「枸櫞酸芬太尼注射液（Fentanyl Citrate Injection）是一種類鴉片促效劑，其具治療價值的主要作用為鎮痛及鎮靜。」英文原文："Fentanyl Citrate Injection is an opioid agonist, whose principal actions of therapeutic value are analgesia and sedation."（[DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11)，版本日期 2026-10-23；查閱日期 2026-11-19）。Fentanyl 是 mu 類鴉片受體促效劑，臨床上用於疼痛處置，但本報告所用資料未載明其原適應症與完整機轉。
 
 就 NSIAD 而言，目前**找不到可信的機轉連結**。NSIAD 是由血管加壓素 V2 受體 (AVPR2) 的功能獲得性突變所致，即使血中血管加壓素偵測不到，仍會出現水分滯留與低血鈉。鴉片類藥物可能調節血管加壓素的釋放，也可能造成類似 SIADH 的效應，但那是中樞性、依賴血管加壓素的機制，無法解決 V2 受體持續活化的問題。
 
@@ -138,11 +138,12 @@ Fentanyl 非抗腫瘤藥物，本章節不適用。
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 14 張有效許可證，皆為單一成分製劑，」→「香港共有 19 張許可證，皆為單一成分製劑（16 張有效；HK-53755、HK」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11) |
 
 <!-- review:end log -->
 

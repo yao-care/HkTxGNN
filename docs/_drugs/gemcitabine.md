@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**直腸黏液腺癌 (Rectum Mucinous Adenocarcino
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Gemcitabine 屬於核苷類似物，一般認為透過抑制 DNA 合成發揮細胞毒性，理論上可能對消化道黏液腺癌有作用。
+根據美國 FDA 核准的 Gemcitabine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Gemcitabine 可殺死正在進行 DNA 合成的細胞，並阻斷細胞通過 G1/S 期交界的進程。Gemcitabine 經核苷激酶代謝為二磷酸（dFdCDP）及三磷酸（dFdCTP）核苷。」英文原文："Gemcitabine kills cells undergoing DNA synthesis and blocks the progression of cells through the G1/S-phase boundary. Gemcitabine is metabolized by nucleoside kinases to diphosphate (dFdCDP) and triphosphate (dFdCTP) nucleosides."（[DailyMed: Avgemsi (gemcitabine) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e11eeff7-bcaf-4bf1-8da8-88138e01af84)，版本日期 2026-07-27；查閱日期 2026-11-19）。Gemcitabine 屬於核苷類似物，一般認為透過抑制 DNA 合成發揮細胞毒性，理論上可能對消化道黏液腺癌有作用。
 
 卵巢癌與直腸黏液腺癌同屬腺癌類腫瘤，其中卵巢癌也有黏液性亞型。這是模型預測的依據之一，但本次整理的資料中沒有針對直腸黏液腺癌的研究，因此上述關聯僅是推測。
 
@@ -134,6 +134,19 @@ TxGNN 模型預測它可能對**直腸黏液腺癌 (Rectum Mucinous Adenocarcino
 - 若啟動研究，需規劃骨髓抑制與腎肝功能的監測計畫
 
 **補充（其他預測適應症）：** 子宮內膜混合腺癌與子宮內膜黏液腺癌各有部分婦科腫瘤的間接研究（回溯性研究、Phase II 試驗），但並非針對各自亞型，建議列為後續研究問題，而非立即推進。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Avgemsi (gemcitabine) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e11eeff7-bcaf-4bf1-8da8-88138e01af84) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**短指併指症候群 (Brachydactyly-Syndactyly 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（MOA）。依一般藥理知識，Naproxen 是非選擇性 COX-1/COX-2 抑制劑，透過減少前列腺素合成來緩解發炎與疼痛。
+根據美國 FDA 核准的 Naproxen 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Naproxen 具有止痛、抗發炎及退燒特性。NAPRELAN 的作用機轉與其他 NSAIDs 相同，尚未完全明瞭，但涉及對環氧化酶（COX-1 及 COX-2）的抑制。」英文原文："Naproxen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of NAPRELAN, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)."（[DailyMed: Naprelan (naproxen sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b8a51c9a-488e-4377-a041-436f6a2f8893)，版本日期 2026-01-08；查閱日期 2026-11-19）。依一般藥理知識，Naproxen 是非選擇性 COX-1/COX-2 抑制劑，透過減少前列腺素合成來緩解發炎與疼痛。
 
 短指併指症候群是先天性骨骼畸形，成因屬發育期的遺傳異常（常涉及 HOXD13 或 BMP/GDF5 等訊息路徑）。抗發炎作用並不能矯正結構性的發育缺陷，因此機轉上**難以支持**這項預測。
 
@@ -133,11 +133,12 @@ TxGNN 模型預測它可能對**短指併指症候群 (Brachydactyly-Syndactyly 
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「Naproxen 在香港有 20 張有效的單方許可證，」→「香港共有 21 張含本藥成分的許可證（有效 20 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Naprelan (naproxen sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b8a51c9a-488e-4377-a041-436f6a2f8893) |
 
 <!-- review:end log -->
 

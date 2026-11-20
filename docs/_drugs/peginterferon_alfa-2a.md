@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對 **E 型肝炎病毒感染 (Hepatitis E Virus Infe
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Peginterferon alfa-2a 是免疫調節劑，具廣譜抗病毒活性，主要透過誘導干擾素刺激基因發揮作用。有個案層級的報告指出，干擾素曾用於移植受者的慢性 E 型肝炎，這提供了機轉上的合理性。
+根據美國 FDA 核准的 Peginterferon Alfa-2A 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「聚乙二醇化重組人類干擾素 alfa-2a 是先天性抗病毒免疫反應的誘導劑。[…] PEGASYS 的生物活性來自其重組人類干擾素 α-2a 部分。Peginterferon α-2a 會與人類第 1 型干擾素受體結合，導致受體二聚化。受體二聚化會活化多條細胞內訊息傳遞路徑，這些路徑起初是由 JAK/STAT 路徑所介導。」英文原文："Pegylated recombinant human interferon alfa-2a is an inducer of the innate antiviral immune response. […] The biological activity of PEGASYS is derived from its recombinant human interferon α-2a moiety. Peginterferon α-2a binds to the human type 1 interferon receptor leading to receptor dimerization. Receptor dimerization activates multiple intracellular signal transduction pathways initially mediated by the JAK/STAT pathway."（[DailyMed: Pegasys (peginterferon alfa-2a) prescribing information, pharmaand GmbH](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9290e5b-6d40-2318-e053-2995a90a9916)，版本日期 2026-10-16；查閱日期 2026-11-19）。Peginterferon alfa-2a 是免疫調節劑，具廣譜抗病毒活性，主要透過誘導干擾素刺激基因發揮作用。有個案層級的報告指出，干擾素曾用於移植受者的慢性 E 型肝炎，這提供了機轉上的合理性。
 
 B 型、C 型與 E 型肝炎都屬於嗜肝病毒感染，在宿主免疫反應上有相似之處，這也是模型給出高分的可能原因。不過，E 型肝炎病毒在免疫功能正常者通常為自限性，慢性化主要見於免疫抑制族群，臨床上的用藥情境與 B/C 型肝炎不同。
 
@@ -110,6 +110,19 @@ B 型、C 型與 E 型肝炎都屬於嗜肝病毒感染，在宿主免疫反應�
 - 補充詳細的作用機轉資料
 - 取得香港仿單的警語、禁忌症與核准適應症文字，以完成安全性評估
 - 與現行 E 型肝炎處置（如 ribavirin、減少免疫抑制）比較風險與效益
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Pegasys (peginterferon alfa-2a) prescribing information, pharmaand GmbH](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9290e5b-6d40-2318-e053-2995a90a9916) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

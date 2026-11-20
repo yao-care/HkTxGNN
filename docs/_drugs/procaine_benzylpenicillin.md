@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。青黴素類 β-內醯胺藥物一般透過抑制細菌細胞壁合成而殺菌，對鏈球菌及對藥物敏感的葡萄球菌有活性，而這些菌種正是化膿性關節炎的常見致病菌，因此在生物學上有其合理性。
+根據美國 FDA 核准的 penicillin g benzathine and penicillin g procaine（含 Procaine Benzylpenicillin 的複方） 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Penicillin G於微生物活躍增殖階段，對penicillin感受性微生物發揮殺菌作用。」英文原文："Penicillin G exerts a bactericidal action against penicillin-susceptible microorganisms during the stage of active multiplication."（[DailyMed: Bicillin C-R 900/300 (penicillin g benzathine and penicillin g procaine) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba7b9199-4710-4189-a85d-77ed75befe4d)，版本日期 2026-07-21；查閱日期 2026-11-19）。青黴素類 β-內醯胺藥物一般透過抑制細菌細胞壁合成而殺菌，對鏈球菌及對藥物敏感的葡萄球菌有活性，而這些菌種正是化膿性關節炎的常見致病菌，因此在生物學上有其合理性。
 
 不過，Procaine Benzylpenicillin 是肌肉注射的儲庫型劑型，血中濃度低且持續釋放。關節感染通常需要高劑量靜脈抗生素治療，這類劑型的血中濃度恐怕不足。TxGNN 分數雖高，但缺乏試驗與文獻佐證，且劑型與臨床需求之間有明顯落差。
 
@@ -122,6 +122,19 @@ TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有�
 - 取得香港衛生署仿單的警語與禁忌資訊
 - 檢索針對細菌性關節炎使用青黴素的臨床研究或治療指引
 - 確認是否有人用劑型的許可證及其核准適應症
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Bicillin C-R 900/300 (penicillin g benzathine and penicillin g procaine) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba7b9199-4710-4189-a85d-77ed75befe4d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

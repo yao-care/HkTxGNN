@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**僵直性脊椎炎 (ankylosing spondylitis)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知的藥物類別而言，tocilizumab 阻斷 IL-6 受體訊號傳遞。IL-6 與脊椎關節炎的軸性發炎及骨代謝有關，因此機轉上有一定合理性。
+根據美國 FDA 核准的 Tocilizumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Tocilizumab 產品可與可溶性及膜結合型 IL-6 受體（sIL-6R 及 mIL-6R）結合，並已證實可抑制經由這些受體介導的 IL-6 訊息傳遞。IL-6 是一種多效性促發炎細胞激素，由多種細胞類型產生，包括 T 細胞及 B 細胞、淋巴球、單核球及纖維母細胞。」英文原文："Tocilizumab products bind to both soluble and membrane-bound IL-6 receptors (sIL-6R and mIL-6R), and have been shown to inhibit IL-6-mediated signaling through these receptors. IL-6 is a pleiotropic pro-inflammatory cytokine produced by a variety of cell types including T- and B-cells, lymphocytes, monocytes and fibroblasts."（[DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d)，版本日期 2026-10-20；查閱日期 2026-11-19）。就已知的藥物類別而言，tocilizumab 阻斷 IL-6 受體訊號傳遞。IL-6 與脊椎關節炎的軸性發炎及骨代謝有關，因此機轉上有一定合理性。
 
 然而，這個機轉推論並未獲得臨床結果支持。兩項針對僵直性脊椎炎的 3 期試驗皆提前終止，且已發表的隨機對照試驗分析（BUILDER-1 與 BUILDER-2）未顯示療效。整體文獻也普遍認為 IL-6 阻斷在僵直性脊椎炎的效果不如 TNF 與 IL-17 抑制劑。因此，這個預測目前只能視為待驗證的假說。
 
@@ -108,6 +108,18 @@ TxGNN 模型預測它可能對**僵直性脊椎炎 (ankylosing spondylitis)** �
 - 重新檢視 BUILDER-1 與 BUILDER-2 的終止原因及完整結果，並評估是否存在特定可受益的亞群
 - 取得詳細的作用機轉資料與原廠仿單中的警語及禁忌症
 - 與 TNF、IL-17 抑制劑等現行標準治療比較其定位
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

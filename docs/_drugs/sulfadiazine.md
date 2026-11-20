@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**肺囊蟲症 (Pneumocystosis)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，sulfadiazine 屬於磺胺類藥物，此類藥物會抑制葉酸合成路徑中的二氫蝶酸合成酶（dihydropteroate synthase, DHPS）。
+根據美國 FDA 核准的 Sulfadiazine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「全身性磺胺類藥物為具有相似活性範圍之抑菌劑。磺胺類藥物以競爭性方式抑制細菌由胺基苯甲酸合成葉酸（蝶醯麩胺酸）。抗藥性菌株能利用葉酸前驅物或預先形成之葉酸。」英文原文："The systemic sulfonamides are bacteriostatic agents having a similar spectrum of activity. Sulfonamides competitively inhibit bacterial synthesis of folic acid (pteroylglutamic acid) from aminobenzoic acid. Resistant strains are capable of utilizing folic acid precursors or preformed folic acid."（[DailyMed: sulfadiazine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6032d6f7-cbce-4e5d-841c-a1e24b616f91)，版本日期 2024-09-24；查閱日期 2026-11-19）。根據已知資訊，sulfadiazine 屬於磺胺類藥物，此類藥物會抑制葉酸合成路徑中的二氫蝶酸合成酶（dihydropteroate synthase, DHPS）。
 
 肺囊蟲（*Pneumocystis jirovecii*）同樣依賴這條葉酸合成路徑。磺胺類藥物（尤其是 sulfamethoxazole 與 trimethoprim 的複方）已是肺囊蟲肺炎的標準治療，因此在機轉上具有合理性。此外，弓形蟲症與肺囊蟲肺炎常見於 AIDS 等免疫不全患者，臨床上常同時出現，也是模型分數偏高的可能原因。
 
@@ -142,12 +142,13 @@ TxGNN 模型預測它可能對**肺囊蟲症 (Pneumocystosis)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效的單一成分許可證，以下列出 5 張主要許可證。」→「香港共有 23 張含本藥成分的許可證（全部有效；皆為複方），」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
 | 2026-11-19 | 「其餘 15 張許可證中，除第 1 張為獸用注射懸液外，其餘多為外用乳膏製劑。」→「其餘 18 張許可證皆為外用乳膏製劑（獸用注射懸液 HK-33558 已列在上表」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: sulfadiazine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6032d6f7-cbce-4e5d-841c-a1e24b616f91) |
 
 <!-- review:end log -->
 

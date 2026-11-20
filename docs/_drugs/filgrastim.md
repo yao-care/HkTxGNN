@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**原發性血小板釋放障礙 (primary release 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Filgrastim 是 G-CSF 類藥物，一般透過 G-CSF 受體訊號作用於顆粒球系列，促進嗜中性白血球的生成與成熟。
+根據美國 FDA 核准的 Filgrastim 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「群落刺激因子為醣蛋白，藉由與特定細胞表面受體結合而作用於造血細胞，並刺激其增生、分化定向及部分終末細胞功能活化。內源性 G-CSF 為一種譜系特異性群落刺激因子，由單核球、纖維母細胞及內皮細胞產生。」英文原文："Colony-stimulating factors are glycoproteins which act on hematopoietic cells by binding to specific cell surface receptors and stimulating proliferation‚ differentiation commitment‚ and some end-cell functional activation. Endogenous G-CSF is a lineage-specific colony-stimulating factor that is produced by monocytes‚ fibroblasts, and endothelial cells."（[DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7)，版本日期 2026-11-10；查閱日期 2026-11-19）。Filgrastim 是 G-CSF 類藥物，一般透過 G-CSF 受體訊號作用於顆粒球系列，促進嗜中性白血球的生成與成熟。
 
 血小板釋放障礙屬於血小板功能缺陷（分泌功能異常），與嗜中性白血球數量不足是不同的病理機制。G-CSF 並無已知的作用可矯正血小板分泌缺陷。因此，目前無法建立合理的機轉連結，高分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病間相似性，而非生物學證據，應視為待驗證的假說。
 
@@ -116,6 +116,19 @@ TxGNN 模型預測它可能對**原發性血小板釋放障礙 (primary release 
 - 取得 filgrastim 的作用機轉資料，並釐清是否存在任何血小板相關的生物學連結
 - 針對血小板釋放障礙進行系統性文獻檢索，確認是否有病例報告或前臨床研究
 - 取得香港原廠仿單，確認核准適應症與安全性資訊
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

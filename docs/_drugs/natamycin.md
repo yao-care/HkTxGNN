@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**外陰炎 (vulvitis)** 有效，但目前沒有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Natamycin 屬多烯類抗真菌藥，一般認為是透過結合真菌細胞膜上的麥角固醇（ergosterol）發揮作用。
+ChEMBL（EMBL-EBI）收錄的 Natamycin 作用機轉（非官方翻譯）：「Ergosterol螯合劑」英文原文："Ergosterol sequestering agent"（[ChEMBL CHEMBL1200656 (natamycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200656)，CC BY-SA 3.0；查閱日期 2026-11-19）。Natamycin 屬多烯類抗真菌藥，一般認為是透過結合真菌細胞膜上的麥角固醇（ergosterol）發揮作用。
 
 如果外陰炎是真菌感染引起的，這個抗真菌機轉在理論上適用。但這個推論只適用於感染性外陰炎，不適用於其他原因（例如荷爾蒙變化、過敏或刺激）所致的外陰炎。目前找到的臨床研究，也不是以外陰炎作為獨立終點來設計。
 
@@ -101,6 +101,18 @@ TxGNN 模型預測它可能對**外陰炎 (vulvitis)** 有效，但目前沒有�
 - 外陰或陰道局部劑型與給藥途徑的可行性評估
 - 取得原廠仿單中的警語、禁忌與作用機轉資料
 - 確認感染性外陰炎中真菌病因所占的比例，以界定適用族群
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL1200656 (natamycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200656) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

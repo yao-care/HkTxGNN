@@ -63,7 +63,7 @@ TxGNN 模型排名第 1 的預測為「頭皮單純性毛髮稀少症」，但�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Terazosin 屬於 α1 腎上腺素受體拮抗劑，一般認為作用為放鬆血管與前列腺平滑肌，這是類別層級的知識，並非本次資料所載。
+根據美國 FDA 核准的 Terazosin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「良性前列腺增生 與良性前列腺增生（BPH）相關之症狀與膀胱出口阻塞有關，膀胱出口阻塞包含兩個潛在成分：靜態及動態。靜態成分與前列腺體積增大有關，其部分原因為前列腺基質中平滑肌細胞增生。[…] 阻斷 alpha-1 受體可降低尿道阻力，並可能緩解 BPH 症狀之阻塞及改善尿流 高血壓 terazosin 之作用機轉為選擇性阻斷腎上腺素受體之 alpha-1 亞型。」英文原文："Benign Prostatic Hyperplasia The symptoms associated with benign prostatic hyperplasia (BPH) are related to bladder outlet obstruction, which is comprised of two underlying components: static and dynamic. The static component is related to an increase in prostate size caused, in part by a proliferation of smooth muscle cells in the prostatic stroma. […] Blockade of the alpha-1 receptor decreases urethral resistance and may relieve the obstruction of BPH symptoms and improve urine flow Hypertension The mechanism of action of terazosin is selective blockade of the alpha-1 subtype of adrenergic receptors."（[DailyMed: Tezruly (terazosin) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69582e0c-6569-490c-8c14-999f3750336f)，版本日期 2025-04-18；查閱日期 2026-11-19）。Terazosin 屬於 α1 腎上腺素受體拮抗劑，一般認為作用為放鬆血管與前列腺平滑肌，這是類別層級的知識，並非本次資料所載。
 
 就排名第 1 的「頭皮單純性毛髮稀少症」而言，這是一種遺傳性毛囊疾病，α1 阻斷與其之間沒有已知的直接機轉。唯一可推測的關聯是頭皮微循環的血管擴張，但缺乏資料支持。分數來自 TxGNN 模型（深度學習），較可能反映模型學到的相關疾病之間的相似性，而非生物學證據。同樣的判斷也適用於排名第 2 的先天性毛髮稀少伴粟丘疹、第 3 的瀰漫性斑禿與第 8 的 Ambras 型全身性多毛症，這些預測皆無試驗或文獻。
 
@@ -140,6 +140,19 @@ TxGNN 模型排名第 1 的預測為「頭皮單純性毛髮稀少症」，但�
 - 針對雷諾氏病取得 PMID 9273472 全文，確認研究設計、樣本數與終點。
 - 設計小型隨機對照試驗，納入血壓監測與首劑暈厥的防護措施。
 - 毛髮相關預測在出現任何機轉或實驗證據前，不建議投入資源。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Tezruly (terazosin) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69582e0c-6569-490c-8c14-999f3750336f) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**偏頭痛 (migraine disorder)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，結合型雌激素屬於雌激素類藥物，
+根據美國 FDA 核准的 Conjugated Estrogens 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「內源性雌激素主要負責女性生殖系統及第二性徵的發育與維持。雖然循環中的雌激素處於代謝互相轉換的動態平衡中，但 estradiol 是人體主要的細胞內雌激素，且在受體層面上其效力遠高於其代謝物 estrone 及 estriol。[…] 因此，estrone 及其硫酸結合形式 estrone sulfate 是停經後婦女體內含量最豐富的循環雌激素。」英文原文："Endogenous estrogens are largely responsible for the development and maintenance of the female reproductive system and secondary sexual characteristics. Although circulating estrogens exist in a dynamic equilibrium of metabolic interconversions, estradiol is the principal intracellular human estrogen and is substantially more potent than its metabolites, estrone and estriol, at the receptor level. […] Thus, estrone and the sulfate-conjugated form, estrone sulfate, are the most abundant circulating estrogens in postmenopausal women."（[DailyMed: Premarin Vaginal (conjugated estrogens) prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96609623-528e-4aba-cabe-7254aed816d5)，版本日期 2025-05-30；查閱日期 2026-11-19）。根據已知資訊，結合型雌激素屬於雌激素類藥物，
 可補充體內的雌激素濃度。
 
 經期與更年期前後的偏頭痛，與血中雌激素的波動有關。穩定補充雌激素，理論上可減少雌激素下降所誘發的發作。
@@ -112,6 +112,18 @@ TxGNN 模型預測它可能對**偏頭痛 (migraine disorder)** 有效，
 - 取得詳細的作用機轉資料
 - 取得原廠仿單的警語與禁忌症，完成安全性篩選
 - 建立血栓與中風風險的評估與排除標準
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Premarin Vaginal (conjugated estrogens) prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96609623-528e-4aba-cabe-7254aed816d5) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

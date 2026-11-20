@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對 **β-酮硫解酶缺乏症 (beta-ketothiolase def
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，perampanel 是選擇性、非競爭性的 AMPA 型麩胺酸受體拮抗劑，用於控制癲癇發作。
+根據美國 FDA 核准的 Perampanel 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Perampanel是突觸後神經元上離子型α-胺基-3-羥基-5-甲基-4-異噁唑丙酸（AMPA）麩胺酸受體的非競爭性拮抗劑。麩胺酸是中樞神經系統中主要的興奮性神經傳導物質，與多種因神經元過度興奮所引起的神經系統疾病有關。」英文原文："Perampanel is a non-competitive antagonist of the ionotropic α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA) glutamate receptor on post-synaptic neurons. Glutamate is the primary excitatory neurotransmitter in the central nervous system and is implicated in a number of neurological disorders caused by neuronal over excitation."（[DailyMed: Fycompa (perampanel) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71cf3309-e182-473c-8b0b-280cabd0e122)，版本日期 2022-12-28；查閱日期 2026-11-19）。根據已知資訊，perampanel 是選擇性、非競爭性的 AMPA 型麩胺酸受體拮抗劑，用於控制癲癇發作。
 
 β-酮硫解酶缺乏症（ACAT1/T2 缺乏）是異白胺酸與酮體代謝的先天性代謝異常，特徵為反覆發作的酮酸中毒，嚴重發作後可能留下神經學後遺症。
 
@@ -105,6 +105,19 @@ AMPA 受體拮抗作用與這個酵素缺陷之間，目前**沒有已確立的�
 - 進行前臨床或機轉研究，驗證 AMPA 受體拮抗對該疾病神經後遺症的作用
 - 取得香港仿單的警語與禁忌症資料，完成安全性篩檢
 - 評估此罕見代謝疾病的病人族群與可行的臨床研究設計
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Fycompa (perampanel) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71cf3309-e182-473c-8b0b-280cabd0e122) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

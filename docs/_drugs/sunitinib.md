@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效。
 
 ## 為什麼這個預測合理？
 
-Sunitinib 是多標靶受體酪胺酸激酶抑制劑，作用標的包括 VEGFR、PDGFR、KIT、FLT3 和 RET。目前缺乏 DrugBank 詳細的作用機轉資料，以上機轉是根據對該藥物的一般認識推論。
+Sunitinib 是多標靶受體酪胺酸激酶抑制劑，作用標的包括 VEGFR、PDGFR、KIT、FLT3 和 RET。根據美國 FDA 核准的 Sunitinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Sunitinib 是一種小分子藥物，可抑制多種受體酪胺酸激酶（RTK），其中部分與腫瘤生長、病理性血管新生及癌症轉移進展有關。」英文原文："Sunitinib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs), some of which are implicated in tumor growth, pathologic angiogenesis, and metastatic progression of cancer."（[DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c)，版本日期 2026-02-20；查閱日期 2026-11-19）。
 
 抗血管新生與抑制 PDGFR 的活性，為軟組織肉瘤提供了合理的生物學基礎。不過脂肪肉瘤主要由 MDM2/CDK4 擴增驅動，與 sunitinib 的標靶並不直接相關，因此機轉上的連結屬於間接。
 
@@ -132,6 +132,19 @@ TxGNN 分數很高，但那是計算預測。實際支持來自對軟組織肉�
 **其他預測適應症的簡要狀況**（參考）：
 - 皮膚纖維肉瘤 (Dermatofibrosarcoma protuberans)：L3，有 imatinib 抗藥後使用的回顧性系列與個案報告，機轉（PDGFRB 活化）合理。
 - 卵巢黏液性脂肪肉瘤、血管脂肪瘤、心臟纖維肉瘤：缺乏直接證據，建議暫緩。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

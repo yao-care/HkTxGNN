@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**延髓型小兒麻痺 (Bulbar Polio)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Gilteritinib 是 FLT3/AXL 酪胺酸激酶抑制劑，用於 FLT3 突變的復發或難治性 AML。
+根據美國 FDA 核准的 Gilteritinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Gilteritinib 是一種小分子，可抑制多種受體酪胺酸激酶，包括 FMS 樣酪胺酸激酶 3（FLT3）。Gilteritinib 已證實能在外源性表現 FLT3（包括 FLT3-ITD、酪胺酸激酶區域突變（TKD）FLT3-D835Y 及 FLT3-ITD-D835Y）的細胞中抑制 FLT3 受體訊息傳遞及增生，並可誘導表現 FLT3-ITD 之白血病細胞發生細胞凋亡。」英文原文："Gilteritinib is a small molecule that inhibits multiple receptor tyrosine kinases, including FMS-like tyrosine kinase 3 (FLT3). Gilteritinib demonstrated the ability to inhibit FLT3 receptor signaling and proliferation in cells exogenously expressing FLT3 including FLT3-ITD, tyrosine kinase domain mutations (TKD) FLT3-D835Y and FLT3-ITD-D835Y, and it induced apoptosis in leukemic cells expressing FLT3-ITD."（[DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383)，版本日期 2026-10-01；查閱日期 2026-11-19）。根據已知資訊，Gilteritinib 是 FLT3/AXL 酪胺酸激酶抑制劑，用於 FLT3 突變的復發或難治性 AML。
 
 FLT3/AXL 抑制與小兒麻痺病毒感染腦幹運動神經元之間，**沒有已知的生物學關聯**。若要建立關聯，只能做推測，例如宿主激酶對病毒進入或複製的影響，或對神經發炎的作用，但目前沒有任何資料支持。
 
@@ -127,6 +127,19 @@ FLT3/AXL 抑制與小兒麻痺病毒感染腦幹運動神經元之間，**沒有
 - 進行體外抗病毒或神經元感染模型的前臨床研究，驗證是否有活性。
 - 取得香港仿單的警語與禁忌症，完成安全性篩選。
 - 評估風險效益：在已有疫苗預防的疾病中，使用具骨髓抑制與 QT 延長風險的腫瘤藥物是否合理。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

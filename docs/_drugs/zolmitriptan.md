@@ -53,11 +53,9 @@ Zolmitriptan 是 5-HT1B/1D 受體促效劑（triptan 類藥物），原本用於
 | 許可證數 | 2 張（有效 2 張） |
 | 建議決策 | Hold |
 
-
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（原廠資料未收錄）。不過，根據前臨床藥理文獻（PMID 9399012），Zolmitriptan 是一種中樞與周邊皆有作用的 5-HT1B/1D 受體促效劑，能抑制三叉神經血管系統的活化。
-
+根據美國 FDA 核准的 Zolmitriptan 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Zolmitriptan 以高親和力與人類重組 5-HT 1D 及 5-HT 1B 受體結合，對 5-HT 1A 受體則具中度親和力。其 N-去甲基代謝物對 5-HT 1B/1D 亦具高親和力，對 5-HT 1A 受體具中度親和力。」英文原文："Zolmitriptan binds with high affinity to human recombinant 5-HT 1D and 5-HT 1B receptors, and moderate affinity for 5-HT 1A receptors. The N-desmethyl metabolite also has high affinity for 5-HT 1B/1D and moderate affinity for 5-HT 1A receptors."（[DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4)，版本日期 2026-01-29；查閱日期 2026-11-19）。不過，根據前臨床藥理文獻（PMID 9399012），Zolmitriptan 是一種中樞與周邊皆有作用的 5-HT1B/1D 受體促效劑，能抑制三叉神經血管系統的活化。
 
 **但必須特別注意：** triptan 類藥物在此亞型（舊稱基底型偏頭痛）上，歷來有慎用或禁用的考量，理論上是擔心後循環血管收縮。目前提供的資料中，沒有任何試驗直接檢驗這個亞型。現有文獻包含一般偏頭痛回顧、美國頭痛學會（AHS）證據評估、經期與前庭性偏頭痛回顧，以及一篇經顱都卜勒研究，全部屬於間接證據。
 
@@ -119,6 +117,19 @@ Zolmitriptan 是 5-HT1B/1D 受體促效劑（triptan 類藥物），原本用於
 - 如要研究，需先設計嚴格的安全性監測方案（含心腦血管風險篩選）
 
 另外，本次預測中排名第 2、3 的「atrophoderma vermiculata」與「ulerythema ophryogenesis」皆無臨床試驗與文獻，也找不到合理的機轉連結，屬純計算預測，建議維持 Hold。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

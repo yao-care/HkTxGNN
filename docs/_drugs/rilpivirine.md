@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**猿猴免疫缺陷病毒感染 (simian immunodef
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Rilpivirine 屬於非核苷類逆轉錄酶抑制劑（NNRTI），作用於 HIV-1 逆轉錄酶。
+根據美國 FDA 核准的 Rilpivirine 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Rilpivirine 是一種抗病毒藥物。[…] Rilpivirine 是第 1 型人類免疫缺乏病毒（HIV-1）的二芳基嘧啶類非核苷反轉錄酶抑制劑（NNRTI），透過非競爭性抑制 HIV-1 反轉錄酶（RT）來抑制 HIV-1 複製。Rilpivirine 不會抑制人類細胞 DNA 聚合酶 α、β 及 γ。」英文原文："Rilpivirine is an antiviral drug. […] Rilpivirine is a diarylpyrimidine non-nucleoside reverse transcriptase inhibitor (NNRTI) of human immunodeficiency virus type 1 (HIV-1) and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). Rilpivirine does not inhibit the human cellular DNA polymerases α, β and γ."（[DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6)，版本日期 2025-08-28；查閱日期 2026-11-19）。根據已知資訊，Rilpivirine 屬於非核苷類逆轉錄酶抑制劑（NNRTI），作用於 HIV-1 逆轉錄酶。
 
 猿猴免疫缺陷病毒（SIV）及 SHIV 感染的獼猴，是 HIV 研究的標準前臨床模型。兩者同屬慢病毒，生物學特性相近，因此藥物在此模型中有活性是可預期的。
 
@@ -107,6 +107,19 @@ TxGNN 模型預測它可能對**猿猴免疫缺陷病毒感染 (simian immunodef
 - 釐清此預測是否有人類臨床價值；若無，建議將其視為對原適應症（HIV）的佐證，而非新適應症。
 - 補充 Rilpivirine 的作用機轉資料與香港仿單的警語、禁忌與核准適應症文字。
 - 如有意探討其他預測項目（如獸醫領域的貓免疫缺陷病毒，目前僅有體外與結構研究），需另行評估其範疇與必要性。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

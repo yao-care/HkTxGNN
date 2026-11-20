@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 palonosetron 屬於 5-HT3 受體拮抗劑，而血清素訊號傳遞與偏頭痛有關，因此理論上存在一定的關聯。
+根據美國 FDA 核准的 Palonosetron 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Palonosetron 是一種 5-HT 3 受體拮抗劑，對此受體具有強結合親和力，對其他受體則幾乎或完全不具親和力。癌症化學治療可能伴隨高發生率的噁心及嘔吐，尤其是使用某些藥物（例如 cisplatin）時。」英文原文："Palonosetron is a 5-HT 3 receptor antagonist with a strong binding affinity for this receptor and little or no affinity for other receptors. Cancer chemotherapy may be associated with a high incidence of nausea and vomiting, particularly when certain agents, such as cisplatin, are used."（[DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7)，版本日期 2025-04-29；查閱日期 2026-11-19）。已知 palonosetron 屬於 5-HT3 受體拮抗劑，而血清素訊號傳遞與偏頭痛有關，因此理論上存在一定的關聯。
 
 不過，唯一檢索到的臨床證據是一篇個案報告，描述的是 palonosetron **誘發**偏頭痛型頭痛。這是指向反方向的安全性訊號，並不支持治療用途。
 
@@ -123,6 +123,19 @@ TxGNN 模型（深度學習）給出的高分（0.9974）可能反映模型從�
 - 取得香港仿單的警語、禁忌症與核准適應症
 - 系統性檢視 5-HT3 拮抗劑與頭痛／偏頭痛的臨床與藥物安全資料
 - 若仍要探索，應先進行前臨床或小規模探索性研究，並建立頭痛誘發與 QT 延長的監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -61,7 +61,7 @@ TxGNN 模型預測分數最高的新適應症是**三叉神經腫瘤 (Trigeminal
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般已知 topiramate 是抗癲癇藥物，其作用涉及鈉離子通道阻斷、增強 GABA-A 活性、拮抗 AMPA/kainate 受體，以及微弱的碳酸酐酶抑制。這些作用與癲癇的神經興奮性有關。
+根據美國 FDA 核准的 Topiramate 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Topiramate 發揮抗痙攣及預防偏頭痛作用的確切機轉尚不清楚；然而，臨床前研究已揭示四項特性，可能有助於 topiramate 治療癲癇及預防性治療偏頭痛的療效。」英文原文："The precise mechanisms by which topiramate exerts its anticonvulsant and preventive migraine effects are unknown; however, preclinical studies have revealed four properties that may contribute to topiramate's efficacy for epilepsy and the preventive treatment of migraine."（[DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e)，版本日期 2026-10-05；查閱日期 2026-11-19）。一般已知 topiramate 是抗癲癇藥物，其作用涉及鈉離子通道阻斷、增強 GABA-A 活性、拮抗 AMPA/kainate 受體，以及微弱的碳酸酐酶抑制。這些作用與癲癇的神經興奮性有關。
 
 這些機轉與三叉神經腫瘤的腫瘤生物學之間，目前沒有已知的明確關聯。分數來自 TxGNN 模型（深度學習），較可能反映模型學到的相關疾病（如神經痛或癲癇）之間的相似性，而非生物學證據，也不代表 topiramate 具有抗腫瘤活性。因此這項預測的機轉合理性偏低，應視為待驗證的假說。
 
@@ -139,11 +139,12 @@ TxGNN 模型預測分數最高的新適應症是**三叉神經腫瘤 (Trigeminal
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效許可證，均為單一成分製劑，無已取消者。」→「香港共有 29 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e) |
 
 <!-- review:end log -->
 

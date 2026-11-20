@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對 **Scheie 症候群 (Scheie syndrome)** 有效，�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Elosulfase alfa 是 GALNS 重組酵素，用來分解硫酸角質素（keratan sulfate）與硫酸軟骨素-6（chondroitin-6-sulfate），在 Morquio A 中的療效已被證實。
+根據美國 FDA 核准的 Elosulfase Alfa 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「黏多醣症是一組溶小體貯積症，由分解代謝葡萄胺聚醣（GAG）所需的特定溶小體酵素缺乏所引起。第IVA型黏多醣症（MPS IVA，Morquio A症候群）的特徵為N-乙醯半乳糖胺-6-硫酸酯酶活性缺失或顯著降低。[…] 細胞將elosulfase alfa攝入溶小體的過程，是由elosulfase alfa末端帶有甘露糖-6-磷酸的寡醣鏈與甘露糖-6-磷酸受體結合所介導。」英文原文："Mucopolysaccharidoses comprise a group of lysosomal storage disorders caused by the deficiency of specific lysosomal enzymes required for the catabolism of glycosaminoglycans (GAG). Mucopolysaccharidosis IVA (MPS IVA, Morquio A Syndrome) is characterized by the absence or marked reduction in N -acetylgalactosamine-6-sulfatase activity. […] Elosulfase alfa uptake by cells into lysosomes is mediated by the binding of mannose-6-phosphate-terminated oligosaccharide chains of elosulfase alfa to mannose-6-phosphate receptors."（[DailyMed: Vimizim (elosulfase alfa) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0caa2565-12b2-0ad0-1f9a-273e81c3d4cc)，版本日期 2025-10-30；查閱日期 2026-11-19）。根據已知資訊，Elosulfase alfa 是 GALNS 重組酵素，用來分解硫酸角質素（keratan sulfate）與硫酸軟骨素-6（chondroitin-6-sulfate），在 Morquio A 中的療效已被證實。
 
 Scheie 症候群（MPS I 的較輕型）則是 α-L-艾杜糖醛酸酶（alpha-L-iduronidase）缺乏，累積的是硫酸皮膚素與硫酸乙醯肝素。這是不同的受質，Elosulfase alfa 無法補足 MPS I 缺少的酵素，**機轉上的關聯很弱**。高分可能只反映兩者同屬黏多醣症類別，而非真正的酵素作用重疊。此外，MPS I 已有核准療法（laronidase）。
 
@@ -132,6 +132,19 @@ Scheie 症候群（MPS I 的較輕型）則是 α-L-艾杜糖醛酸酶（alpha-L
 - 取得香港衛生署核准仿單，補齊警語、禁忌症與交互作用資訊
 - 與現有 MPS I 標準療法（laronidase）比較其潛在附加價值
 - 在有任何生物學證據前，不建議啟動臨床開發
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Vimizim (elosulfase alfa) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0caa2565-12b2-0ad0-1f9a-273e81c3d4cc) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

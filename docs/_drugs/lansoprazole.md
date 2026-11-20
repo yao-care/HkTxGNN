@@ -58,7 +58,7 @@ Lansoprazole 是質子幫浦抑制劑（PPI），原本用於胃潰瘍、十二�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料庫記載。依一般藥理知識，Lansoprazole 是質子幫浦抑制劑，不可逆地抑制胃壁細胞的 H+/K+ ATP 酶，降低胃酸分泌。
+根據美國 FDA 核准的 Lansoprazole 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Lansoprazole屬於一類抗分泌化合物，即取代苯并咪唑類，通過特異性抑制胃壁細胞分泌表面的(H +, K + )-ATPase酶系統來抑制胃酸分泌。由於此酶系統被視為壁細胞內的酸（質子）泵，lansoprazole被定性為胃酸泵抑制劑，因其阻斷胃酸生成的最後步驟。」英文原文："Lansoprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the (H +, K + )-ATPase enzyme system at the secretory surface of the gastric parietal cell. Because this enzyme system is regarded as the acid (proton) pump within the parietal cell, lansoprazole has been characterized as a gastric acid-pump inhibitor, in that it blocks the final step of acid production."（[DailyMed: Prevacid (lansoprazole) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71ba78cb-7e46-43eb-9425-fa130f537f84)，版本日期 2025-07-08；查閱日期 2026-11-19）。依一般藥理知識，Lansoprazole 是質子幫浦抑制劑，不可逆地抑制胃壁細胞的 H+/K+ ATP 酶，降低胃酸分泌。
 
 十二指腸胃逆流是指十二指腸內容物（含膽汁與胰液）逆流入胃。當胃酸是黏膜傷害的共同因子時，降低胃酸可能減輕黏膜損傷與症狀。這與其已核准的胃酸相關疾病（胃食道逆流症、食道炎、胃及十二指腸潰瘍）有部分重疊。
 
@@ -118,6 +118,19 @@ Lansoprazole 是質子幫浦抑制劑（PPI），原本用於胃潰瘍、十二�
 - 補齊 Lansoprazole 的作用機轉資料（DrugBank）
 - 取得香港衛生署仿單，確認核准適應症、警語與禁忌症
 - 若有探索價值，先設計小型探索性臨床研究，以症狀改善及膽汁逆流指標為終點
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Prevacid (lansoprazole) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71ba78cb-7e46-43eb-9425-fa130f537f84) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

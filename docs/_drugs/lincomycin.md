@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (Hyperamylasemia)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。依一般藥理知識，Lincomycin 是林可胺類抗生素，透過結合細菌 50S 核糖體次單元來抑制蛋白質合成，對革蘭氏陽性菌感染有效。
+根據美國 FDA 核准的 Lincomycin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Lincomycin透過與細菌核糖體50S次單元的23S RNA結合，抑制細菌蛋白質合成。Lincomycin在體外主要具抑菌作用。」英文原文："Lincomycin inhibits bacterial protein synthesis by binding to the 23S RNA of the 50S subunit of the bacterial ribosome. Lincomycin is predominantly bacteriostatic in vitro."（[DailyMed: Lincocin (lincomycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c01906fa-2c73-4c13-9765-2fd06628d263)，版本日期 2025-03-10；查閱日期 2026-11-19）。依一般藥理知識，Lincomycin 是林可胺類抗生素，透過結合細菌 50S 核糖體次單元來抑制蛋白質合成，對革蘭氏陽性菌感染有效。
 
 高澱粉酶血症是一種檢驗數值異常，通常反映胰臟或唾液腺病變，或腎臟清除率下降，並非細菌性疾病。**現有資料無法支持兩者之間存在機轉上的連結。** 若要找關聯，也只能推測為「治療造成胰臟炎的感染原因」，這屬於間接且高度推測的說法。
 
@@ -130,11 +130,12 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (Hyperamylasemia)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「共 7 張，皆為有效的單方製劑。」→「共 7 張，皆為單方製劑，其中 6 張有效、HK-41155 已註銷。」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Lincocin (lincomycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c01906fa-2c73-4c13-9765-2fd06628d263) |
 
 <!-- review:end log -->
 

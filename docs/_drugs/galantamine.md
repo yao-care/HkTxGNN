@@ -58,7 +58,7 @@ Galantamine 是一種用於阿茲海默症的藥物。TxGNN 模型預測它可�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據文獻中的描述，galantamine 是乙醯膽鹼酯酶抑制劑，同時是菸鹼型乙醯膽鹼受體的正向異位調節劑。
+根據美國 FDA 核准的 Galantamine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「雖然阿茲海默症（AD）認知功能障礙的病因尚未完全明瞭，但已有報告指出，阿茲海默症患者腦內產生乙醯膽鹼的神經元會發生退化。此膽鹼能神經流失的程度與認知功能障礙的程度及類澱粉斑塊（阿茲海默症的神經病理學特徵）的密度相關。[…] Galantamine是一種三級生物鹼，為乙醯膽鹼酯酶的競爭性及可逆性抑制劑。」英文原文："Although the etiology of cognitive impairment in Alzheimer’s disease (AD) is not fully understood, it has been reported that acetylcholine-producing neurons degenerate in the brains of patients with Alzheimer’s disease. The degree of this cholinergic loss has been correlated with degree of cognitive impairment and density of amyloid plaques (a neuropathological hallmark of Alzheimer’s disease). […] Galantamine, a tertiary alkaloid, is a competitive and reversible inhibitor of acetylcholinesterase."（[DailyMed: galantamine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=261889d3-41c8-4655-98f7-41317778e7a1)，版本日期 2026-07-02；查閱日期 2026-11-19）。根據文獻中的描述，galantamine 是乙醯膽鹼酯酶抑制劑，同時是菸鹼型乙醯膽鹼受體的正向異位調節劑。
 
 理論上，膽鹼系統調節可能影響基底核迴路，但心因性運動障礙並沒有已知的膽鹼系統病理基礎。這個連結目前只是推測，沒有數據支持。分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，並非生物學證據，不能代替臨床證據。
 
@@ -144,6 +144,19 @@ Galantamine 是一種用於阿茲海默症的藥物。TxGNN 模型預測它可�
 - 針對心因性運動障礙進行文獻與試驗檢索，或設計小型探索性研究。
 - 若考慮遲發性運動異常方向，需先釐清 galantamine 專屬證據，而非僅依賴藥物類別層級的資料。
 - 評估運動障礙族群中，膽鹼酯酶抑制劑是否可能惡化症狀的安全性風險。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: galantamine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=261889d3-41c8-4655-98f7-41317778e7a1) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

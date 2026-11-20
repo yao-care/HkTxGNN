@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**無出血的食道靜脈曲張 (Esophageal Varic
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 hydroxocobalamin 是維生素 B12 的一種形式，用於 B12 缺乏，也用於氰化物解毒（鈷中心可與氰化物結合）。
+根據美國 FDA 核准的 Hydroxocobalamin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「氰化物是一種劇毒毒物。若未能迅速且充分治療，暴露於高劑量氰化物可因細胞色素氧化酶受到抑制而導致細胞呼吸停止，於數分鐘內造成死亡。[…] 每個 hydroxocobalamin 分子可藉由以一個氰離子取代與三價鈷離子相連的羥基配位基而結合該氰離子，形成 cyanocobalamin，隨後經由尿液排出。」英文原文："Cyanide is an extremely toxic poison. In the absence of rapid and adequate treatment, exposure to a high dose of cyanide can result in death within minutes due to the inhibition of cytochrome oxidase resulting in arrest of cellular respiration. […] Each hydroxocobalamin molecule can bind one cyanide ion by substituting it for the hydroxo ligand linked to the trivalent cobalt ion, to form cyanocobalamin, which is then excreted in the urine."（[DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b)，版本日期 2023-04-27；查閱日期 2026-11-19）。已知 hydroxocobalamin 是維生素 B12 的一種形式，用於 B12 缺乏，也用於氰化物解毒（鈷中心可與氰化物結合）。
 
 與食道靜脈曲張之間**沒有已確立的機轉連結**。一個純屬推測的方向是：hydroxocobalamin 可能清除一氧化氮（NO），進而影響 NO 介導的內臟血管擴張與門脈高壓（靜脈曲張形成的主要驅動因素）。這個假說沒有本報告所編整資料的支持。
 
@@ -101,6 +101,19 @@ TxGNN 模型預測它可能對**無出血的食道靜脈曲張 (Esophageal Varic
 - 取得香港仿單的警語與禁忌症（並確認核准適應症文字），完成安全性篩選
 - 評估給藥途徑的適用性（目前路徑相容性資料尚待補充）
 - 考量知識圖譜記錄的高血壓禁忌關聯，以及與現行門脈高壓用藥的交互作用
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**肝素輔因子 2 缺乏症 (Heparin Cofactor 2 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Prasterone 是 DHEA，屬雄性素與雌性素的前驅物。藥理資料顯示它與甘胺酸受體 (Glycine Receptor) 有關聯，但這與凝血機轉並無直接連結。
+根據美國 FDA 核准的 Prasterone 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Prasterone是一種不具活性的內源性類固醇，會轉化為具活性的雄性素及／或雌激素。INTRAROSA用於患有外陰及陰道萎縮之停經後婦女的作用機轉尚未完全確立。」英文原文："Prasterone is an inactive endogenous steroid and is converted into active androgens and/or estrogens. The mechanism of action of INTRAROSA in postmenopausal women with vulvar and vaginal atrophy is not fully established."（[DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7)，版本日期 2026-07-17；查閱日期 2026-11-19）。Prasterone 是 DHEA，屬雄性素與雌性素的前驅物。藥理資料顯示它與甘胺酸受體 (Glycine Receptor) 有關聯，但這與凝血機轉並無直接連結。
 
 肝素輔因子 2 缺乏症是一種絲胺酸蛋白酶抑制劑 (serpin) 缺乏的凝血疾病。有報告指 DHEA 可能影響凝血與纖維蛋白溶解，但這屬推測，無法說明對此遺傳性缺乏症有治療作用。
 
@@ -115,6 +115,19 @@ TxGNN 模型預測它可能對**肝素輔因子 2 缺乏症 (Heparin Cofactor 2 
 - 進行系統性文獻檢索，確認 DHEA 與肝素輔因子 2 及凝血功能的關聯。
 - 以前臨床研究驗證機轉，並先評估血栓安全性。
 - 可優先針對硬皮症等自體免疫相關預測，另行評估探索價值。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（原廠登錄欄位）。不過依藥物類別，midazolam 屬於苯二氮平類，作用於 GABA-A 受體，增強抑制性 GABA 神經傳導，產生鎮靜與助眠效果。
+根據美國 FDA 核准的 Midazolam 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Midazolam 是一種短效的 benzodiazepine 類中樞神經系統（CNS）抑制劑。」英文原文："Midazolam is a short-acting benzodiazepine central nervous system (CNS) depressant."（[DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e)，版本日期 2025-07-31；查閱日期 2026-11-19）。不過依藥物類別，midazolam 屬於苯二氮平類，作用於 GABA-A 受體，增強抑制性 GABA 神經傳導，產生鎮靜與助眠效果。
 
 焦慮與失眠常並存，且兩者都與中樞神經過度興奮（hyperarousal）有關。因此，抑制中樞活性的藥物在機轉上可同時用於這兩種情況。
 
@@ -125,11 +125,12 @@ TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「另有 4 張有效許可證（含 DORMICUM TABLET 15MG 口服錠劑）」→「另有 8 張有效許可證（含 DORMICUM TABLET 15MG 口服錠劑）」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e) |
 
 <!-- review:end log -->
 

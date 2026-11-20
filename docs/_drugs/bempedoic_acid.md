@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**甲狀腺功能亢進 (hyperthyroidism)** 有效
 
 ## 為什麼這個預測合理？
 
-Bempedoic acid 是一種前驅藥，在肝臟經 ACSVL1 活化後抑制 ACL，減少膽固醇合成並降低 LDL-C。目前缺乏更詳細的作用機轉資料。
+Bempedoic acid 是一種前驅藥，在肝臟經 ACSVL1 活化後抑制 ACL，減少膽固醇合成並降低 LDL-C。根據美國 FDA 核准的 Bempedoic Acid 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Bempedoic acid 是一種三磷酸腺苷檸檬酸裂解酶（ACL）抑制劑，透過抑制肝臟中的膽固醇合成而降低 LDL-C。ACL 是膽固醇生物合成途徑中位於 3-羥基-3-甲基戊二醯輔酶 A（HMG-CoA）還原酶上游的酵素。」英文原文："Bempedoic acid is an adenosine triphosphate-citrate lyase (ACL) inhibitor that lowers LDL-C by inhibition of cholesterol synthesis in the liver. ACL is an enzyme upstream of 3-hydroxy-3-methyl-glutaryl-coenzyme A (HMG-CoA) reductase in the cholesterol biosynthesis pathway."（[DailyMed: Nexletol (bempedoic acid) prescribing information, Esperion Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=88d06d89-a3da-40b4-b273-8f4f7d56c4c9)，版本日期 2026-06-25；查閱日期 2026-11-19）。
 
 就機轉而言，**沒有明確的關聯**。甲狀腺激素確實會影響脂質代謝，但這不構成以 ACL 抑制劑治療甲狀腺功能亢進的理由。
 
@@ -95,6 +95,19 @@ Bempedoic acid 是一種前驅藥，在肝臟經 ACSVL1 活化後抑制 ACL，�
 - 補充詳細的作用機轉資料，並說明 ACL 抑制與甲狀腺功能亢進之間的生物學連結
 - 進行文獻回顧與前臨床研究，驗證此假說
 - 取得香港衛生署的仿單，確認警語與禁忌，再進行安全性篩選
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Nexletol (bempedoic acid) prescribing information, Esperion Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=88d06d89-a3da-40b4-b273-8f4f7d56c4c9) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

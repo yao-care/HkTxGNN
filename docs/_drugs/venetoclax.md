@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**何杰金氏淋巴瘤 (Hodgkin's lymphoma)** 有
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料庫記載。根據本報告彙整的資料，venetoclax 是選擇性 BCL-2 抑制劑，能恢復惡性 B 細胞的細胞凋亡能力。
+根據美國 FDA 核准的 Venetoclax 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Venetoclax 是一種具選擇性且可口服生體可用的 BCL-2 小分子抑制劑，BCL-2 為一種抗細胞凋亡蛋白。已證實 BCL-2 在 CLL 及 AML 細胞中過度表現，並在其中介導腫瘤細胞存活，且與對化學治療藥物的抗藥性有關。」英文原文："Venetoclax is a selective and orally bioavailable small-molecule inhibitor of BCL-2, an anti-apoptotic protein. Overexpression of BCL-2 has been demonstrated in CLL and AML cells where it mediates tumor cell survival and has been associated with resistance to chemotherapeutics."（[DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018)，版本日期 2026-05-20；查閱日期 2026-11-19）。根據本報告彙整的資料，venetoclax 是選擇性 BCL-2 抑制劑，能恢復惡性 B 細胞的細胞凋亡能力。
 
 古典型何杰金氏淋巴瘤對 BCL-2 的依賴程度低於慢性淋巴球性白血病、非何杰金氏淋巴瘤或被套細胞淋巴瘤，因此機轉上的連結合理但屬間接。此外，文獻指出 Richter 轉化偶爾可呈現何杰金氏淋巴瘤型態；TxGNN 模型（深度學習）的分數可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 
@@ -141,6 +141,19 @@ TxGNN 的高分是計算預測，不能取代臨床證據。現有臨床資料�
 | 惡性汗腺瘤 | 0.9912 | 無試驗與文獻 | Hold |
 
 註：以上各適應症的證據等級為資料庫原始評分，未依本報告「須有直接研究該疾病」的上限規則重新核對，僅供參考。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

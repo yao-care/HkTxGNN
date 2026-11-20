@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**內臟鈣化防禦症 (Visceral Calciphylaxis)**
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Latanoprost 屬於前列腺素 F2α 類似物，作用於 FP 受體，可促進葡萄膜鞏膜途徑的房水流出，進而降低眼壓。
+根據美國 FDA 核准的 Latanoprost 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Latanoprost是一種前列腺素F 2α類似物，據信透過增加房水流出以降低眼內壓（IOP）。動物及人體研究顯示，其主要作用機轉為增加葡萄膜鞏膜流出。」英文原文："Latanoprost is a prostaglandin F 2α analogue that is believed to reduce the intraocular pressure (IOP) by increasing the outflow of aqueous humor. Studies in animals and man suggest that the main mechanism of action is increased uveoscleral outflow."（[DailyMed: Xelpros (latanoprost) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34ad5cf6-4df0-4104-bddd-4c7631133ded)，版本日期 2025-12-18；查閱日期 2026-11-19）。根據已知資訊，Latanoprost 屬於前列腺素 F2α 類似物，作用於 FP 受體，可促進葡萄膜鞏膜途徑的房水流出，進而降低眼壓。
 
 在機轉上，FP 受體活化可能影響血管張力或血管重塑，因此理論上可與血管相關疾病產生連結。然而，鈣化防禦症的核心病理是血管鈣化與微血管血栓，目前沒有已建立的機轉依據說明 Latanoprost 能改善此狀況。
 
@@ -113,11 +113,12 @@ TxGNN 模型預測它可能對**內臟鈣化防禦症 (Visceral Calciphylaxis)**
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「以下為已列出的 20 張許可證（總數至少 20 張，清單可能不完整）。」→「香港共有 21 張含本藥成分的許可證（有效 19 張、已註銷」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Xelpros (latanoprost) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34ad5cf6-4df0-4104-bddd-4c7631133ded) |
 
 <!-- review:end log -->
 

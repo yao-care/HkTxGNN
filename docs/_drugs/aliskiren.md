@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**肺疾病及／或缺氧所致肺動脈高壓 (p
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Aliskiren 屬於直接腎素抑制劑，抑制腎素-血管張力素系統 (RAS) 的第一個限速步驟，在高血壓的降壓作用已為人所知。
+根據美國 FDA 核准的 Aliskiren 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「腎臟會因應血容量及腎灌流量下降而分泌腎素。腎素裂解血管收縮素原，形成無活性的十肽血管收縮素 I（Ang I）。Ang I 經由 ACE 及非 ACE 途徑轉化為具活性的八肽血管收縮素 II（Ang II）。」英文原文："Renin is secreted by the kidney in response to decreases in blood volume and renal perfusion. Renin cleaves angiotensinogen to form the inactive decapeptide angiotensin I (Ang I). Ang I is converted to the active octapeptide angiotensin II (Ang II) by ACE and non-ACE pathways."（[DailyMed: aliskiren prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3fd2503-25ef-4660-a29a-f62c491e28fb)，版本日期 2022-12-30；查閱日期 2026-11-19）。根據已知資訊，Aliskiren 屬於直接腎素抑制劑，抑制腎素-血管張力素系統 (RAS) 的第一個限速步驟，在高血壓的降壓作用已為人所知。
 
 在前臨床研究中，血管張力素 II 與間歇性缺氧引起的交感神經興奮、心房重塑有關，因此阻斷 RAS 在缺氧相關的肺血管疾病上，生物學上有其合理性。不過，目前取得的研究都是大鼠或體外實驗，探討的是間歇性缺氧及其下游效應（例如心房重塑），並非病人的肺動脈高壓。
 
@@ -119,6 +119,18 @@ TxGNN 模型預測它可能對**肺疾病及／或缺氧所致肺動脈高壓 (p
 | Braddock 症候群 | 0.9997 | L5 | 無證據 |
 | 慢性肺心病 | 0.9978 | L5 | 僅 1 篇 2007 年會議試驗回顧，間接相關 |
 | 腦血管疾病 | 0.9919 | 依規則為 L5 | 有 1 個提前終止的動脈粥狀硬化 MRI 試驗 (NCT01417104，71 人) 及多篇前臨床中風研究，但均非直接以腦血管疾病為對象的研究，且 ALTITUDE 提示聯用風險 |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: aliskiren prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3fd2503-25ef-4660-a29a-f62c491e28fb) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

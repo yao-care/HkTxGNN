@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (liposarcoma)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Axitinib 屬於抗血管新生的標靶藥物類別，一般認為其作用與抑制 VEGFR/PDGFR 訊號有關。
+根據美國 FDA 核准的 Axitinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Axitinib已證實在治療血漿濃度下可抑制受體酪胺酸激酶，包括血管內皮生長因子受體（VEGFR）-1、VEGFR-2及VEGFR-3。此等受體與病理性血管新生、腫瘤生長及癌症進展有關。」英文原文："Axitinib has been shown to inhibit receptor tyrosine kinases including vascular endothelial growth factor receptors (VEGFR)-1, VEGFR-2, and VEGFR-3 at therapeutic plasma concentrations. These receptors are implicated in pathologic angiogenesis, tumor growth, and cancer progression."（[DailyMed: Inlyta (axitinib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8a903e31-936e-4ed7-8a59-59f32374f338)，版本日期 2026-03-12；查閱日期 2026-11-19）。根據已知資訊，Axitinib 屬於抗血管新生的標靶藥物類別，一般認為其作用與抑制 VEGFR/PDGFR 訊號有關。
 
 一篇 2016 年的前臨床研究在黏液樣脂肪肉瘤（myxoid liposarcoma）細胞模型中發現，Axitinib 具有抗血管新生與抗腫瘤活性，與血管新生抑制的機轉方向一致。
 
@@ -111,6 +111,19 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (liposarcoma)** 有效，
 - 取得香港仿單的警語與禁忌症
 - 進行更多前臨床驗證（涵蓋不同脂肪肉瘤亞型），並設計小型臨床試驗（如 Phase 2）
 - 評估與強效 CYP3A4 影響藥物（如 Clarithromycin）及 Dexamethasone 併用時的風險管理
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Inlyta (axitinib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8a903e31-936e-4ed7-8a59-59f32374f338) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

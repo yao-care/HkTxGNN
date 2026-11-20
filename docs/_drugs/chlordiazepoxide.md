@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**失眠 (insomnia (disease))** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據藥物類別，chlordiazepoxide 屬於苯二氮平類，一般認為此類藥物透過增強 GABA-A 受體活性而產生鎮靜、抗焦慮作用，因此在機轉上與失眠的治療有合理的關聯。
+根據美國 FDA 核准的 Chlordiazepoxide 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「鹽酸氯氮平（Chlordiazepoxide HCl）具有抗焦慮、鎮靜、刺激食慾及弱鎮痛作用。其確切作用機轉尚不明確。本藥可阻斷因刺激腦幹網狀結構所引起的腦電圖（EEG）覺醒反應。」英文原文："Chlordiazepoxide HCl has antianxiety, sedative, appetite-stimulating and weak analgesic actions. The precise mechanism of action is not known. The drug blocks EEG arousal from stimulation of the brain stem reticular formation."（[DailyMed: chlordiazepoxide hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cbd7cee-c4d7-4c95-93d8-09428169b937)，版本日期 2026-11-05；查閱日期 2026-11-19）。根據藥物類別，chlordiazepoxide 屬於苯二氮平類，一般認為此類藥物透過增強 GABA-A 受體活性而產生鎮靜、抗焦慮作用，因此在機轉上與失眠的治療有合理的關聯。
 
 然而，取得的文獻多為苯二氮平類藥動學或老年人使用的一般性綜述，以及早期的焦慮症研究，並未針對失眠直接評估 chlordiazepoxide。這些資料也強調老年人使用苯二氮平類的風險（潛在不適當用藥）。因此，本預測目前主要是模型推論與類別效應的延伸，並非有直接研究支持。
 
@@ -106,6 +106,19 @@ TxGNN 模型預測它可能對**失眠 (insomnia (disease))** 有效，
 - 詳細的作用機轉資料
 - 香港仿單的警語、禁忌症與核准適應症內容
 - 與現有助眠藥物（如其他苯二氮平類或非苯二氮平類）的比較，以及老年族群的風險效益評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: chlordiazepoxide hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cbd7cee-c4d7-4c95-93d8-09428169b937) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

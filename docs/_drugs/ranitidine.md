@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對**消化性潰瘍穿孔 (Peptic Ulcer Perforation)
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Ranitidine 屬於 H2 受體拮抗劑，可降低胃酸分泌，促進潰瘍癒合並減少復發。
+根據美國 FDA 核准的 Ranitidine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Ranitidine 錠劑是組織胺於組織胺 H 2 受體（包括胃細胞上的受體）作用的競爭性、可逆性抑制劑。Ranitidine 錠劑在高鈣血症狀態下不會降低血清 Ca ++。」英文原文："Ranitidine Tablets are a competitive, reversible inhibitor of the action of histamine at the histamine H 2 -receptors, including receptors on the gastric cells. Ranitidine Tablets do not lower serum Ca ++ in hypercalcemic states."（[DailyMed: ranitidine prescribing information, Atland Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcf27c99-8bd4-41fb-bff8-38fed9de76d9)，版本日期 2026-09-24；查閱日期 2026-11-19）。根據已知資訊，Ranitidine 屬於 H2 受體拮抗劑，可降低胃酸分泌，促進潰瘍癒合並減少復發。
 
 穿孔是消化性潰瘍的嚴重併發症。從機轉看，抑酸治療可能用於非手術處置或穿孔後的照護。但 ranitidine 無法修復穿孔造成的機械性破損，只能作為輔助。
 
@@ -118,6 +118,19 @@ TxGNN 模型預測它可能對**消化性潰瘍穿孔 (Peptic Ulcer Perforation)
 - 補充作用機轉資料。
 - 針對穿孔後抑酸治療，進行系統性文獻回顧，並與質子幫浦抑制劑等替代藥物比較。
 - 確認 NDMA 相關品質與供應狀況。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: ranitidine prescribing information, Atland Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcf27c99-8bd4-41fb-bff8-38fed9de76d9) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

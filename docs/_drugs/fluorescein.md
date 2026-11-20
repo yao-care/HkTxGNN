@@ -55,7 +55,7 @@ TxGNN 模型（深度學習）預測它可能對 **變異型心絞痛 (Prinzmeta
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Fluorescein 是診斷用螢光染劑（用於血管攝影），目前沒有已知的血管擴張或抑制冠狀動脈痙攣的藥理活性。
+根據美國 FDA 核准的 Fluorescein 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Fluorescein sodium 對波長介於 465 至 490 nm 之間的電磁輻射及光產生反應並發出螢光，即發出波長為 520 至 530 nm 的光。因此，該碳氫化合物受藍光激發，並發出呈黃綠色的光。」英文原文："Fluorescein sodium responds to electromagnetic radiation and light between the wavelengths of 465 to 490 nm and fluoresces, i.e., emits light at wavelengths of 520 to 530 nm. Thus, the hydrocarbon is excited by blue light and emits light that appears yellowish green."（[DailyMed: Ak-Fluor (fluorescein) prescribing information, Long Grove Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73511e79-c050-4dc0-aa2f-a79ed320b5b0)，版本日期 2026-02-26；查閱日期 2026-11-19）。Fluorescein 是診斷用螢光染劑（用於血管攝影），目前沒有已知的血管擴張或抑制冠狀動脈痙攣的藥理活性。
 
 因此，原用途（診斷顯影）與變異型心絞痛（冠狀動脈痙攣）之間找不到合理的機轉關聯。
 
@@ -94,6 +94,19 @@ TxGNN 模型（深度學習）預測它可能對 **變異型心絞痛 (Prinzmeta
 - 取得香港衛生署的仿單，以補齊核准適應症、警語與禁忌
 - 以文獻或前臨床實驗找出 fluorescein 與冠狀動脈血管張力調節之間的任何生物學證據
 - 在缺乏上述證據前，不建議投入進一步開發資源
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ak-Fluor (fluorescein) prescribing information, Long Grove Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73511e79-c050-4dc0-aa2f-a79ed320b5b0) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

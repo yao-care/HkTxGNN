@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但目前僅有 *
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據藥物類別，Goserelin 是 GnRH 促效劑。持續給藥會使腦下垂體的 GnRH 受體去敏感化，抑制 LH/FSH 分泌及卵巢雌二醇生成，造成可逆的低雌激素狀態，進而導致閉經。
+根據美國 FDA 核准的 Goserelin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「ZOLADEX 是 GnRH 的合成十肽類似物。以生物可降解劑型投予時，ZOLADEX 可作為腦下垂體促性腺激素分泌的抑制劑。在動物及體外研究中，投予 goserelin 可使具荷爾蒙敏感性的二甲基苯蒽（DMBA）誘發之大鼠乳腺腫瘤及 Dunning R3327 前列腺腫瘤消退或生長受到抑制。」英文原文："ZOLADEX is a synthetic decapeptide analogue of GnRH. ZOLADEX acts as an inhibitor of pituitary gonadotropin secretion when administered in the biodegradable formulation. In animal and in vitro studies, administration of goserelin resulted in the regression or inhibition of growth of the hormonally sensitive dimethylbenzanthracene (DMBA)-induced rat mammary tumor and Dunning R3327 prostate tumor."（[DailyMed: Zoladex (goserelin) prescribing information, TerSera Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=294b168b-6e5f-4db9-bf70-d599271458b3)，版本日期 2026-03-24；查閱日期 2026-11-19）。根據藥物類別，Goserelin 是 GnRH 促效劑。持續給藥會使腦下垂體的 GnRH 受體去敏感化，抑制 LH/FSH 分泌及卵巢雌二醇生成，造成可逆的低雌激素狀態，進而導致閉經。
 
 這個效果與它在子宮內膜異位症的作用機制相同：抑制雌激素以縮減異位內膜病灶。因此「閉經」在藥理上是可預期的結果，也是治療的副產物，並不是另一個獨立的治療標的。
 
@@ -131,6 +131,19 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但目前僅有 *
 ---
 
 **附註：**排名第 2、3 的預測（腎發育不全、雙側腎發育不全）雖然分數約 0.9906，但沒有臨床試驗或文獻，機轉上也看不出關聯，分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據，證據等級為 L5，建議 Hold。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Zoladex (goserelin) prescribing information, TerSera Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=294b168b-6e5f-4db9-bf70-d599271458b3) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

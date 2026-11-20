@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neo
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Larotrectinib 是選擇性 TRK 抑制劑，以不分腫瘤類型（tumor-agnostic）的方式用於 NTRK 融合陽性的實體腫瘤。
+根據美國 FDA 核准的 Larotrectinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Larotrectinib是原肌球蛋白受體激酶（TRK）TRKA、TRKB及TRKC的抑制劑。在一系列廣泛的純化酵素分析中，larotrectinib抑制TRKA、TRKB及TRKC的IC 50值介於5-11 nM之間。另有一種激酶TNK2在約高100倍的濃度下受到抑制。」英文原文："Larotrectinib is an inhibitor of the tropomyosin receptor kinases (TRK), TRKA, TRKB, and TRKC. In a broad panel of purified enzyme assays, larotrectinib inhibited TRKA, TRKB, and TRKC with IC 50 values between 5-11 nM. One other kinase TNK2 was inhibited at approximately 100-fold higher concentration."（[DailyMed: Vitrakvi (larotrectinib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c8ca614-58b2-4aa4-83d3-0387a8f782fd)，版本日期 2026-05-22；查閱日期 2026-11-19）。根據已知資訊，Larotrectinib 是選擇性 TRK 抑制劑，以不分腫瘤類型（tumor-agnostic）的方式用於 NTRK 融合陽性的實體腫瘤。
 
 然而，MEN 症候群主要由 **RET（MEN2）或 MEN1 基因變異**驅動，而非 NTRK。因此兩者在機轉上的連結是間接的：只有在 NTRK 融合陽性的內分泌腫瘤，或 RET 驅動的甲狀腺癌（相關文獻討論激酶抑制劑與脫靶抗藥機制）情境下，才可能有關聯。對 MEN 本身而言，這個機轉並未被確立。
 
@@ -141,6 +141,19 @@ TxGNN 的其他高分預測目前證據更弱，建議皆暫緩（Hold）：
 
 - **HER2 陽性乳癌**：僅有前臨床研究（使用 entrectinib 與 pacritinib，並非 larotrectinib）及一例分泌型乳癌個案報告，該癌種屬 ETV6-NTRK3 融合驅動，與 HER2 陽性疾病不同。
 - **乳癌其他亞型（管腔 A/B 型等）**：文獻多為 NTRK 融合癌症的一般性回顧，缺乏亞型特異證據；NTRK 融合在這些亞型中罕見，需以生物標記篩選。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Vitrakvi (larotrectinib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c8ca614-58b2-4aa4-83d3-0387a8f782fd) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

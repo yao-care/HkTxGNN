@@ -69,7 +69,7 @@ TxGNN 模型預測分數最高的是**先天性少毛症合併青少年黃斑部
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般認為 mesalazine 具抗發炎作用，可能涉及抑制 COX/LOX、活化 PPAR-γ 與調節 NF-κB。
+根據美國 FDA 核准的 Mesalazine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Mesalamine 的作用機轉尚未完全明瞭，但它似乎對結腸上皮細胞具有局部抗發炎作用。潰瘍性結腸炎患者經由環氧化酶及脂氧化酶兩種途徑之黏膜花生四烯酸代謝物生成會增加，而 mesalamine 可能藉由阻斷環氧化酶及抑制結腸內前列腺素的生成來減輕發炎。」英文原文："The mechanism of action of mesalamine is not fully understood, but it appears to have a topical anti-inflammatory effect on the colonic epithelial cells. Mucosal production of arachidonic acid metabolites, both through the cyclooxygenase and lipoxygenase pathways, is increased in patients with ulcerative colitis, and it is possible that mesalamine diminishes inflammation by blocking cyclooxygenase and inhibiting prostaglandin production in the colon."（[DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7)，版本日期 2026-10-26；查閱日期 2026-11-19）。一般認為 mesalazine 具抗發炎作用，可能涉及抑制 COX/LOX、活化 PPAR-γ 與調節 NF-κB。
 
 先天性少毛症合併青少年黃斑部失養症是由 CDH3 基因突變引起的罕見遺傳疾病，影響毛囊與視網膜。其致病機轉為 cadherin-3 缺陷，與 mesalazine 的抗發炎作用沒有已知關聯。此高分（0.9965）來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
@@ -161,12 +161,13 @@ TxGNN 模型預測分數最高的是**先天性少毛症合併青少年黃斑部
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「&#124; 核准數 &#124; 至少 20 張（清單可能不完整） &#124;」→「&#124; 核准數 &#124; 23 張（全部有效；皆為單一成分） &#124;」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
 | 2026-11-17 | 「已上市，目前列出 20 張單一成分許可證（清單可能不完整，實際至少 20 張）。」→「已上市，香港共有 23 張含本藥成分的許可證（全部有效；皆為」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7) |
 
 <!-- review:end log -->
 

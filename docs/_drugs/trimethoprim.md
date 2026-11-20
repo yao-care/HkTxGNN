@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般已知 Trimethoprim 抑制細菌的二氫葉酸還原酶，阻斷葉酸合成，因而對常見細菌具抗菌活性。
+根據美國 FDA 核准的 Trimethoprim 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Trimethoprim 藉由與所需的酶二氫葉酸還原酶結合並可逆地抑制該酶，阻斷由二氫葉酸生成四氫葉酸。此結合對細菌酶的強度遠大於對相應哺乳類動物酶的強度。」英文原文："Trimethoprim blocks the production of tetrahydrofolic acid from dihydrofolic acid by binding to and reversibly inhibiting the required enzyme, dihydrofolate reductase. This binding is very much stronger for the bacterial enzyme than for the corresponding mammalian enzyme."（[DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597)，版本日期 2026-11-15；查閱日期 2026-11-19）。一般已知 Trimethoprim 抑制細菌的二氫葉酸還原酶，阻斷葉酸合成，因而對常見細菌具抗菌活性。
 
 TxGNN 模型（深度學習）給出的分數很高（點狀上皮角結膜炎：0.9957），但這個分數可能反映模型從相關疾病之間學到的相似性，而非生物學證據。點狀上皮角結膜炎常由病毒（如腺病毒）或非感染性原因引起，抗菌機轉未必能處理其根本病因，因此這個高分應謹慎解讀。
 
@@ -108,6 +108,19 @@ TxGNN 模型（深度學習）給出的分數很高（點狀上皮角結膜炎�
 - 下載並解析香港衛生署的仿單，補齊警語、禁忌症與核准適應症
 - 確認可用的眼用劑型與給藥途徑
 - 若考慮眼部感染方向，另行評估「結膜炎」；該適應症已屬原適應症，並非真正的再利用
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

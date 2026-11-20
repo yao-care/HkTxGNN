@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**痤瘡 (Acne)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（原廠 MOA 欄位未收錄）。以下為根據已知資訊的推論：Ketoconazole 對馬拉色菌（Malassezia／Pityrosporum）具抗黴菌活性，而這類酵母菌與毛囊炎及類痤瘡皮疹有關，因此可能對部分痤瘡樣病變有幫助。
+根據美國 FDA 核准的 Ketoconazole 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ketoconazole透過抑制細胞色素P-450依賴性酵素lanosterol 14α-demethylase，阻斷ergosterol的合成；ergosterol為真菌細胞膜的關鍵成分，而該酵素負責在真菌細胞膜中將lanosterol轉化為ergosterol。此舉導致細胞膜內甲基化固醇前驅物累積及ergosterol耗竭，從而削弱真菌細胞膜的結構及功能。」英文原文："Ketoconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane."（[DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371)，版本日期 2025-11-18；查閱日期 2026-11-19）。以下為根據已知資訊的推論：Ketoconazole 對馬拉色菌（Malassezia／Pityrosporum）具抗黴菌活性，而這類酵母菌與毛囊炎及類痤瘡皮疹有關，因此可能對部分痤瘡樣病變有幫助。
 
 實驗室研究也提供間接支持：Ketoconazole 可抑制痤瘡丙酸桿菌（*P. acnes*）的脂解酶活性與生長（2017 年、2010 年體外研究）。另外，全身性使用時它會抑制 CYP17A1 等類固醇合成酶、降低雄性素合成，理論上可減少高雄性素相關痤瘡（如 PCOS 相關）的皮脂分泌；外用則可能帶有輕度抗發炎作用。
 
@@ -142,11 +142,12 @@ TxGNN 模型預測它可能對**痤瘡 (Acne)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效許可證（皆為單一成分，無已註銷），產品以外用乳膏與洗髮水為」→「香港共有 52 張含本藥成分的許可證（全部有效；單一成分 3」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371) |
 
 <!-- review:end log -->
 

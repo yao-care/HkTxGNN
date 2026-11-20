@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (nasal cavity disease)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Caffeine 為腺苷受體拮抗劑與磷酸二酯酶抑制劑，並可能活化氣道的苦味受體（TAS2R）。這些受體分布於鼻腔與肺部，可能影響黏膜纖毛清除與局部先天免疫，因此在機轉上存在理論上的連結。
+根據美國 FDA 核准的 Caffeine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Caffeine在結構上與其他甲基黃嘌呤類、theophylline及theobromine相關。其為支氣管平滑肌鬆弛劑、中樞神經系統（CNS）興奮劑、心肌興奮劑及利尿劑。雖然caffeine治療早產兒呼吸暫停的作用機轉尚不清楚，但已有數種機轉被提出假說。」英文原文："Caffeine is structurally related to other methylxanthines, theophylline, and theobromine. It is a bronchial smooth muscle relaxant, a CNS stimulant, a cardiac muscle stimulant, and a diuretic. Although the mechanism of action of caffeine in apnea of prematurity is not known, several mechanisms have been hypothesized."（[DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a)，版本日期 2026-07-29；查閱日期 2026-11-19）。已知 Caffeine 為腺苷受體拮抗劑與磷酸二酯酶抑制劑，並可能活化氣道的苦味受體（TAS2R）。這些受體分布於鼻腔與肺部，可能影響黏膜纖毛清除與局部先天免疫，因此在機轉上存在理論上的連結。
 
 另有一項前臨床研究開發了咖啡因鼻用溫感凝膠，顯示經鼻給藥在技術上可行，但該研究針對的是睡眠剝奪後的認知表現，並非鼻腔疾病。
 
@@ -118,11 +118,12 @@ TxGNN 模型預測它可能對**鼻腔疾病 (nasal cavity disease)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本地資料共列出 20 張有效許可證，此清單可能不完整，上表僅列出其中 5 張。」→「香港共有 417 張含本藥成分的許可證（有效 408 張、已」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a) |
 
 <!-- review:end log -->
 

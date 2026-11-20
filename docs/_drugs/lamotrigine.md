@@ -62,7 +62,7 @@ TxGNN 模型排名第一的預測是「三叉神經腫瘤」，但這項預測�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫未收錄）。根據已知藥理，lamotrigine 可阻斷電壓門控鈉通道並抑制麩胺酸釋放，這是抗癲癇藥物的典型作用方式。
+根據美國 FDA 核准的 Lamotrigine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Lamotrigine發揮抗驚厥作用的確切機制未明。在用於檢測抗驚厥活性的動物模型中，lamotrigine在最大電休克（MES）及戊四氮（scMet）試驗中能有效防止癲癇發作擴散，並在用於評估抗癲癇活性的視覺及電誘發後放電（EEAD）試驗中防止癲癇發作。」英文原文："The precise mechanism(s) by which lamotrigine exerts its anticonvulsant action are unknown. In animal models designed to detect anticonvulsant activity, lamotrigine was effective in preventing seizure spread in the maximum electroshock (MES) and pentylenetetrazol (scMet) tests, and prevented seizures in the visually and electrically evoked after-discharge (EEAD) tests for antiepileptic activity."（[DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4)，版本日期 2026-10-12；查閱日期 2026-11-19）。根據已知藥理，lamotrigine 可阻斷電壓門控鈉通道並抑制麩胺酸釋放，這是抗癲癇藥物的典型作用方式。
 
 三叉神經痛的成因多為血管壓迫三叉神經根，造成局部去髓鞘與異常放電。鈉通道阻斷可減少這種過度興奮的神經放電，與一線藥物 carbamazepine、oxcarbazepine 的機轉相同。歐洲神經學會 (EAN) 2019 年指引將 lamotrigine 列為輔助或替代選項，而非一線用藥。
 
@@ -160,12 +160,13 @@ TxGNN 模型排名第一的預測是「三叉神經腫瘤」，但這項預測�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效單方許可證，無已註銷者。」→「香港共有 22 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
 | 2026-11-17 | 「另有 PMS-Lamotrigine、Lamoga、Epsylam DT、Lam」→「另有 PMS-Lamotrigine、Lamoga、Epsy」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4) |
 
 <!-- review:end log -->
 

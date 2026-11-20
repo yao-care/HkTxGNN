@@ -57,7 +57,7 @@ TxGNN 模型預測它可能對**原發性皮膚 T 細胞淋巴瘤 (primary cutan
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Fludrocortisone 屬於礦物皮質素，並帶有部分糖皮質素活性。糖皮質素具有溶解淋巴細胞的效果，這可能是模型將其與淋巴瘤連結的原因。
+根據美國 FDA 核准的 Fludrocortisone 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「皮質類固醇被認為至少部分是藉由控制蛋白質的合成速率而發揮作用。雖然已知在許多情況下皮質類固醇可誘導特定蛋白質的合成，但這些激素的初始作用與最終代謝效應之間的關聯尚未完全闡明。[…] Fludrocortisone acetate 的生理作用與 hydrocortisone 相似。」英文原文："Corticosteroids are thought to act at least in part, by controlling the rate of synthesis of proteins. Although there are a number of instances in which the synthesis of specific proteins is known to be induced by corticosteroids, the links between the initial actions of the hormones and the final metabolic effects have not been completely elucidated. […] The physiologic action of fludrocortisone acetate is similar to that of hydrocortisone."（[DailyMed: fludrocortisone acetate prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=933e28ef-05e8-419e-a786-21eab67f33a2)，版本日期 2026-06-24；查閱日期 2026-11-19）。Fludrocortisone 屬於礦物皮質素，並帶有部分糖皮質素活性。糖皮質素具有溶解淋巴細胞的效果，這可能是模型將其與淋巴瘤連結的原因。
 
 不過，fludrocortisone 臨床上並不用於此目的。現有資料中找不到支持的機轉連結。0.9958 的高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據，屬於計算預測，不能視為療效證據。
 
@@ -128,6 +128,19 @@ TxGNN 模型預測它可能對**原發性皮膚 T 細胞淋巴瘤 (primary cutan
 - 補齊 fludrocortisone 的作用機轉資料
 - 若要探索眼科方向，須先界定具體適應症（例如青光眼合併低血壓，或地圖狀萎縮），再針對該適應症蒐集證據
 - 確認給藥途徑（例如玻璃體內注射與現有口服劑型不同）的可行性
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: fludrocortisone acetate prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=933e28ef-05e8-419e-a786-21eab67f33a2) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

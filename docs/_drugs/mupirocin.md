@@ -59,7 +59,7 @@ TxGNN 模型的首位預測為「膿胸」，但該預測缺乏任何證據且�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫未提供）。根據已知資訊，mupirocin 可抑制細菌的異白胺酸 tRNA 合成酶，對金黃色葡萄球菌有活性。
+根據美國 FDA 核准的 Mupirocin 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Mupirocin 是一種 RNA 合成酶抑制劑類抗菌藥。[…] Mupirocin 透過可逆且專一性地與細菌異白胺酸轉移 RNA（tRNA）合成酶結合，從而抑制細菌蛋白質合成。在局部給藥所達到的濃度下，mupirocin 具殺菌作用。」英文原文："Mupirocin is an RNA synthetase inhibitor antibacterial. […] Mupirocin inhibits bacterial protein synthesis by reversibly and specifically binding to bacterial isoleucyl-transfer RNA (tRNA) synthetase. Mupirocin is bactericidal at concentrations achieved by topical administration."（[DailyMed: Pirnuo (mupirocin) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89c43f7b-1a88-45bf-a356-07518d4e7870)，版本日期 2020-03-20；查閱日期 2026-11-19）。根據已知資訊，mupirocin 可抑制細菌的異白胺酸 tRNA 合成酶，對金黃色葡萄球菌有活性。
 
 SSSS 由會產生表皮剝脫毒素的金黃色葡萄球菌引起，與大泡性膿痂疹是同一種病原體所致、病程上相連的疾病譜系。大泡性膿痂疹是 mupirocin 的既有適應症，因此局部使用 mupirocin 作為輔助治療與去除細菌定植，在機轉上合理。
 
@@ -95,7 +95,6 @@ SSSS 由會產生表皮剝脫毒素的金黃色葡萄球菌引起，與大泡性
 | [28592549](https://pubmed.ncbi.nlm.nih.gov/28592549/) | 2017 | 回溯性研究 | J Clin Microbiol | 對 mupirocin 與 fusidic acid 抗藥的菌株，主要引起皮膚感染 |
 | [16009455](https://pubmed.ncbi.nlm.nih.gov/16009455/) | 2005 | 群聚調查 | J Hosp Infect | 新生兒 SSSS 院內群聚的調查與控制 |
 | [9576389](https://pubmed.ncbi.nlm.nih.gov/9576389/) | 1998 | 分子流行病學 | Pediatr Infect Dis J | 早產兒 SSSS 的分子流行病學與感染控制 |
-
 
 ---
 
@@ -137,6 +136,19 @@ SSSS 由會產生表皮剝脫毒素的金黃色葡萄球菌引起，與大泡性
 - 設計 SSSS 輔助治療的前瞻性或對照研究，並納入新生兒的吸收與安全性監測
 - 評估本地 mupirocin 抗藥性流行情形
 - 確認各許可證的劑型與核准適應症
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Pirnuo (mupirocin) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89c43f7b-1a88-45bf-a356-07518d4e7870) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

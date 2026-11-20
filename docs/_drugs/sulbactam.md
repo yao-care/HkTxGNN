@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏經整理的詳細作用機轉資料。根據藥物類別推論，Sulbactam 是不可逆的 β-內醯胺酶抑制劑，本身也能透過結合青黴素結合蛋白（PBP）對不動桿菌屬 (Acinetobacter) 具有內在活性。與 ampicillin 合併使用時，可擴大對產 β-內醯胺酶的金黃色葡萄球菌、厭氧菌及革蘭氏陰性菌的涵蓋範圍。
+根據美國 FDA 核准的 ampicillin and sulbactam（含 Sulbactam 的複方） 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「以無細胞細菌系統進行的生化研究顯示，在對 penicillins 及 cephalosporins 具抗藥性之微生物中發現的多種 β-內醯胺酶，可被 sulbactam 不可逆地抑制。雖然 sulbactam 單獨使用時，除對奈瑟氏菌科外幾乎不具實用的抗菌活性，但全菌體研究顯示，sulbactam 可恢復 ampicillin 對產生 β-內醯胺酶菌株的活性。」英文原文："A wide range of beta-lactamases found in microorganisms resistant to penicillins and cephalosporins have been shown in biochemical studies with cell free bacterial systems to be irreversibly inhibited by sulbactam. Although sulbactam alone possesses little useful antibacterial activity except against the Neisseriaceae, whole organism studies have shown that sulbactam restores ampicillin activity against beta-lactamase producing strains."（[DailyMed: ampicillin and sulbactam prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4446d4c8-056d-4bc3-8f58-21255b063398)，版本日期 2026-11-12；查閱日期 2026-11-19）。根據藥物類別推論，Sulbactam 是不可逆的 β-內醯胺酶抑制劑，本身也能透過結合青黴素結合蛋白（PBP）對不動桿菌屬 (Acinetobacter) 具有內在活性。與 ampicillin 合併使用時，可擴大對產 β-內醯胺酶的金黃色葡萄球菌、厭氧菌及革蘭氏陰性菌的涵蓋範圍。
 
 細菌性（化膿性）關節炎的常見致病菌包括金黃色葡萄球菌等，與 Sulbactam 原有的抗感染適應症（金黃色葡萄球菌與大腸桿菌感染）高度重疊。這個很高的預測分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。
 
@@ -128,6 +128,19 @@ TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有�
 - 補充作用機轉與抗藥性（如不動桿菌、MRSA）資料
 - 評估與現行標準療法（如 cefazolin、頭孢菌素類）相比的定位與必要性
 - 腎功能不全等高風險族群的安全性與劑量調整計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: ampicillin and sulbactam prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4446d4c8-056d-4bc3-8f58-21255b063398) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

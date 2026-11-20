@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**原發性血小板釋放障礙 (primary release 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Belimumab 是一種單株抗體，抑制可溶性 BLyS (BAFF)，進而減少自體反應性 B 細胞的存活，這是它在紅斑性狼瘡中發揮療效的基礎。
+根據美國 FDA 核准的 Belimumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「BENLYSTA 是一種 BLyS 專一性抑制劑，可阻斷可溶性 BLyS（一種 B 細胞存活因子）與其位於 B 細胞上之受體結合。BENLYSTA 並不直接與 B 細胞結合，而是藉由與 BLyS 結合，抑制 B 細胞（包括自體反應性 B 細胞）的存活，並減少 B 細胞分化為產生免疫球蛋白的漿細胞。」英文原文："BENLYSTA is a BLyS-specific inhibitor that blocks the binding of soluble BLyS, a B-cell survival factor, to its receptors on B cells. BENLYSTA does not bind B cells directly, but by binding BLyS, BENLYSTA inhibits the survival of B cells, including autoreactive B cells, and reduces the differentiation of B cells into immunoglobulin-producing plasma cells."（[DailyMed: Benlysta (belimumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3)，版本日期 2026-10-30；查閱日期 2026-11-19）。根據已知資訊，Belimumab 是一種單株抗體，抑制可溶性 BLyS (BAFF)，進而減少自體反應性 B 細胞的存活，這是它在紅斑性狼瘡中發揮療效的基礎。
 
 然而，原發性血小板釋放障礙通常是遺傳性的血小板功能缺陷（顆粒分泌或訊號傳遞異常），並非由 B 細胞介導。因此，機轉上看不出合理的關聯。0.9996 的高分僅是模型預測，沒有試驗或文獻佐證，**不宜單憑分數推論有效**。
 
@@ -116,6 +116,19 @@ TxGNN 模型預測它可能對**原發性血小板釋放障礙 (primary release 
 - 下載並解析香港衛生署的仿單，補齊警語、禁忌症與核准適應症
 - 若要優先探索，可從 FNAIT 著手，先做系統性文獻回顧與機轉驗證（含胎盤transfer 與懷孕安全性評估）
 - 在取得任何前臨床或臨床證據前，不建議投入進一步開發資源
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Benlysta (belimumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

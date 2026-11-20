@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**乳房纖維囊腫病 (breast fibrocystic diseas
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。MPA 屬於黃體素類藥物，可對抗雌激素驅動的組織增生，也可抑制促性腺激素。
+根據美國 FDA 核准的 Medroxyprogesterone Acetate 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Depo-Provera CI（medroxyprogesterone acetate [MPA]）抑制促性腺激素的分泌，主要藉此阻止濾泡成熟及排卵，並使子宮頸黏液變稠。這些作用促成其避孕效果。」英文原文："Depo-Provera CI (medroxyprogesterone acetate [MPA]) inhibits the secretion of gonadotropins which primarily prevents follicular maturation and ovulation and causes thickening of cervical mucus. These actions contribute to its contraceptive effect."（[DailyMed: Depo-Provera (medroxyprogesterone acetate) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=199cf13e-0859-4a73-9b45-e700d0cd1049)，版本日期 2026-08-25；查閱日期 2026-11-19）。MPA 屬於黃體素類藥物，可對抗雌激素驅動的組織增生，也可抑制促性腺激素。
 
 乳房纖維囊腫病的病理特徵，是雌激素相對偏高、黃體素相對不足，導致結締組織與乳腺上皮增生。從機轉推測，黃體素類藥物可能減緩這種增生，進而減輕週期性乳房疼痛與囊腫形成。
 
@@ -127,11 +127,12 @@ TxGNN 模型預測它可能對**乳房纖維囊腫病 (breast fibrocystic diseas
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本地共有 10 張單一成分許可證，皆為有效；」→「本地共有 10 張單一成分許可證，其中 9 張有效、HK-67226 已註銷；」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Depo-Provera (medroxyprogesterone acetate) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=199cf13e-0859-4a73-9b45-e700d0cd1049) |
 
 <!-- review:end log -->
 

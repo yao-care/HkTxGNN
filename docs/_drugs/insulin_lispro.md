@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**自體免疫性卵巢炎 (autoimmune oophoritis)
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Insulin lispro 是胰島素類似物，知識圖譜記錄其與糖尿病相關疾病有關聯，但本報告所編資料並未提供其機轉描述。
+根據美國 FDA 核准的 Insulin Lispro 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「調節葡萄糖代謝是胰島素及胰島素類似物（包括insulin lispro產品）的主要作用。胰島素透過刺激骨骼肌及脂肪的周邊葡萄糖攝取，以及抑制肝臟葡萄糖生成，從而降低血糖。」英文原文："Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin lispro products. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production."（[DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0)，版本日期 2026-09-03；查閱日期 2026-11-19）。Insulin lispro 是胰島素類似物，知識圖譜記錄其與糖尿病相關疾病有關聯，但本報告所編資料並未提供其機轉描述。
 
 自體免疫性卵巢炎常與自體免疫多腺體症候群並存，而後者可能包含第 1 型糖尿病。因此模型的高分，較可能反映「共同的自體免疫共病」，而不是胰島素對卵巢自體免疫的治療作用。
 
@@ -123,6 +123,19 @@ TxGNN 模型預測它可能對**自體免疫性卵巢炎 (autoimmune oophoritis)
 - 先釐清自體免疫性卵巢炎患者是否有任何胰島素相關的臨床或文獻訊號
 - 補充作用機轉資料與香港仿單的警語及禁忌
 - 若有意探討，應先做機轉或前臨床研究，再考慮臨床試驗設計
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

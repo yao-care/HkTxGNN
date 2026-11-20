@@ -54,7 +54,7 @@ Bedaquiline 是一種抗結核藥物。TxGNN 模型預測它可能對**外陰陰
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知的藥理資訊，Bedaquiline 作用於分枝桿菌的 ATP 合成酶，這個標靶在念珠菌屬中並沒有已確立的對應角色。
+根據美國 FDA 核准的 Bedaquiline 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Bedaquiline是一種二芳基喹啉類抗分枝桿菌藥物。[…] SIRTURO是一種二芳基喹啉類抗分枝桿菌藥物，藉由與該酵素的c次單元結合而抑制分枝桿菌ATP（腺苷5'-三磷酸）合成酶，此酵素為M. tuberculosis產生能量所必需。」英文原文："Bedaquiline is a diarylquinoline antimycobacterial drug. […] SIRTURO is a diarylquinoline antimycobacterial drug that inhibits mycobacterial ATP (adenosine 5'- triphosphate) synthase, by binding to subunit c of the enzyme that is essential for the generation of energy in M. tuberculosis."（[DailyMed: Sirturo (bedaquiline fumarate) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1534c9ae-4948-4cf4-9f66-222a99db6d0e)，版本日期 2025-10-17；查閱日期 2026-11-19）。就已知的藥理資訊，Bedaquiline 作用於分枝桿菌的 ATP 合成酶，這個標靶在念珠菌屬中並沒有已確立的對應角色。
 
 因此，從機轉上看不出明顯的關聯。這個高分較可能是模型網路結構造成的假象，而非真實的藥理訊號。要把它視為值得推進的假說，仍需要體外抗黴菌活性等基礎資料的支持。
 
@@ -92,6 +92,19 @@ Bedaquiline 是一種抗結核藥物。TxGNN 模型預測它可能對**外陰陰
 - 補齊作用機轉資料，並釐清與念珠菌感染的可能關聯
 - 取得原廠仿單的警語與禁忌症，進行安全性評估
 - 評估給藥途徑是否適合外陰陰道感染（目前尚未評估）
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Sirturo (bedaquiline fumarate) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1534c9ae-4948-4cf4-9f66-222a99db6d0e) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

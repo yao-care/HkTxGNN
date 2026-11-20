@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**外陰部倒置性毛囊角化症 (vulvar invert
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Benzoyl Peroxide 具有角質溶解、抗菌與毛囊刺激作用，是常見的外用痤瘡治療成分。
+根據美國 FDA 核准的 Benzoyl Peroxide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Benzoyl peroxide 是一種具有殺菌及角質溶解作用的氧化劑，但其治療酒糟鼻的確切作用機轉尚不清楚。」英文原文："Benzoyl peroxide is an oxidizing agent with bactericidal and keratolytic effects but the precise mechanism of action in the treatment of rosacea is unknown."（[DailyMed: Epsolay (benzoyl peroxide) prescribing information, Mayne Pharma Commercial LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=641981e6-460b-44dd-8146-306c47e5367c)，版本日期 2025-08-11；查閱日期 2026-11-19）。根據已知資訊，Benzoyl Peroxide 具有角質溶解、抗菌與毛囊刺激作用，是常見的外用痤瘡治療成分。
 
 倒置性毛囊角化症是一種源自毛囊的良性病灶，與脂漏性角化症相近。兩者同屬毛囊與角質增生相關的皮膚問題，因此在機轉上有一定的合理性，這也可能是模型給出高分的原因。
 
@@ -98,6 +98,19 @@ TxGNN 模型預測它可能對**外陰部倒置性毛囊角化症 (vulvar invert
 - 取得 Benzoyl Peroxide 的作用機轉資料與香港仿單的警語、禁忌
 - 蒐集倒置性毛囊角化症的病例報告或治療文獻，確認是否有支持證據
 - 評估外陰黏膜使用的刺激性與耐受性，必要時先進行小規模探索性研究
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Epsolay (benzoyl peroxide) prescribing information, Mayne Pharma Commercial LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=641981e6-460b-44dd-8146-306c47e5367c) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

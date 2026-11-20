@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**會厭炎 (Epiglottitis)** 有效，但目前**�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，青黴素 V 屬於 β-內醯胺類抗生素，透過抑制細菌細胞壁合成，對敏感的革蘭氏陽性菌（如鏈球菌）有活性。
+根據美國 FDA 核准的 Phenoxymethylpenicillin 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Penicillin V 於對 penicillin 敏感的微生物處於活躍增殖階段時發揮殺菌作用。其作用是透過抑制細胞壁黏肽的生物合成。本藥對產生 penicillinase 的細菌不具活性，此類細菌包括許多葡萄球菌菌株。」英文原文："Penicillin V exerts a bactericidal action against penicillin-sensitive microorganisms during the stage of active multiplication. It acts through the inhibition of biosynthesis of cell-wall mucopeptide. It is not active against the penicillinase-producing bacteria, which include many strains of staphylococci."（[DailyMed: penicillin v potassium prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ceddc406-4a17-471f-917e-63b4b03779ea)，版本日期 2026-11-12；查閱日期 2026-11-19）。根據已知資訊，青黴素 V 屬於 β-內醯胺類抗生素，透過抑制細菌細胞壁合成，對敏感的革蘭氏陽性菌（如鏈球菌）有活性。
 
 會厭炎是上呼吸道的細菌感染，過去以 b 型流感嗜血桿菌 (H. influenzae type b) 為主，較少由鏈球菌和金黃色葡萄球菌引起。因此對鏈球菌引起的病例，機轉上有合理性，這也可能是模型給出高分的原因：該藥已有咽炎與呼吸道感染的適應症。
 
@@ -125,6 +125,19 @@ TxGNN 模型預測它可能對**會厭炎 (Epiglottitis)** 有效，但目前**�
 ## 補充：次要預測（喉炎）
 
 TxGNN 對**喉炎 (Laryngitis)** 的預測分數為 0.9985，證據等級同為 L5，建議 Hold。成人急性喉炎多為病毒性，抗生素效益並未確立。唯一提供的文獻（PMID [1632252](https://pubmed.ncbi.nlm.nih.gov/1632252/)，1992 年，Acta Oto-Laryngologica Supplementum）研究的是 erythromycin，而非青黴素 V，其摘要並指出 phenoxymethylpenicillin 對臨床病程無影響。因此該文獻不支持本藥用於喉炎，且基於抗生素合理使用原則，沒有試驗證據前不建議推進。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: penicillin v potassium prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ceddc406-4a17-471f-917e-63b4b03779ea) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

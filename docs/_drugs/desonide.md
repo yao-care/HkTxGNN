@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**聲帶息肉 (Polyp of Vocal Cord)** 有效，�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Desonide 是低效價外用皮質類固醇，具有抗發炎作用，已用於濕疹、脂漏性皮膚炎等發炎性皮膚疾病。
+根據美國 FDA 核准的 Desonide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Desonide 的作用機轉尚不清楚。」英文原文："The mechanism of action of desonide is unknown."（[DailyMed: desonide prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6192416-09b4-47fa-e053-2a95a90add96)，版本日期 2020-07-31；查閱日期 2026-11-19）。根據已知資訊，Desonide 是低效價外用皮質類固醇，具有抗發炎作用，已用於濕疹、脂漏性皮膚炎等發炎性皮膚疾病。
 
 聲帶息肉部分與發聲創傷和胃食道逆流引起的發炎、水腫有關，因此皮質類固醇的抗發炎作用在理論上有可能派上用場。
 
@@ -112,6 +112,19 @@ TxGNN 模型預測它可能對**聲帶息肉 (Polyp of Vocal Cord)** 有效，�
 - 針對聲帶息肉進行文獻與臨床試驗檢索，並與現行標準治療（噪音治療、手術、吸入或全身性類固醇）比較
 - 補充 Desonide 的作用機轉資料與香港仿單的警語、禁忌症
 - 若仍想探索，可考慮優先評估與原適應症較接近的皮膚相關預測（如外耳道、外陰部病變），並先以前臨床或小規模研究驗證
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: desonide prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6192416-09b4-47fa-e053-2a95a90add96) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

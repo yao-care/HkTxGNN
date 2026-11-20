@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**週期性造血異常 (Cyclic Hematopoiesis)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Eculizumab 是一種針對補體 C5 的單株抗體，可抑制末端補體路徑，在 PNH 等補體驅動的疾病中療效已被證實。
+根據美國 FDA 核准的 Eculizumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Eculizumab為SOLIRIS的活性成分，是一種單株抗體，能以高親和力專一性結合補體蛋白C5，從而抑制其裂解為C5a及C5b，並阻止末端補體複合物C5b-9的生成。SOLIRIS可抑制PNH患者中末端補體介導的血管內溶血，以及aHUS患者中補體介導的血栓性微血管病變（TMA）。」英文原文："Eculizumab, the active ingredient in SOLIRIS, is a monoclonal antibody that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a and C5b and preventing the generation of the terminal complement complex C5b-9. SOLIRIS inhibits terminal complement-mediated intravascular hemolysis in PNH patients and complement-mediated thrombotic microangiopathy (TMA) in patients with aHUS."（[DailyMed: Soliris (eculizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722)，版本日期 2026-07-08；查閱日期 2026-11-19）。根據已知資訊，Eculizumab 是一種針對補體 C5 的單株抗體，可抑制末端補體路徑，在 PNH 等補體驅動的疾病中療效已被證實。
 
 然而，週期性造血異常（週期性嗜中性球低下症）主要由 *ELANE* 基因突變引起，目前沒有已確立的補體介導機轉。因此，0.9997 的高分來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，並非生物學證據，也未獲得機轉或臨床證據支持。
 
@@ -111,6 +111,19 @@ TxGNN 模型預測它可能對**週期性造血異常 (Cyclic Hematopoiesis)** �
 - 取得香港仿單的警語與禁忌症資料，完成安全性篩選。
 - 先進行前臨床或機轉研究，確認有生物學依據後，再考慮臨床試驗設計。
 - 評估與現行標準治療（G-CSF、造血幹細胞移植）相比的潛在價值。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Soliris (eculizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

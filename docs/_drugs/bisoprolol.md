@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**惡性高血壓性腎病 (malignant hypertensive
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Bisoprolol 屬於 β1 選擇性阻斷劑，可降低心率、心輸出量並減少腎素釋放，進而降低血壓。
+根據美國 FDA 核准的 Bisoprolol 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「BISOPROLOL FUMARATE 是一種 beta 1 選擇性（心臟選擇性）腎上腺素受體阻斷劑，在其治療劑量範圍內不具顯著的膜穩定活性或內在擬交感神經活性。然而，心臟選擇性並非絕對，在較高劑量（≥ 20 mg）時，bisoprolol fumarate 亦會抑制主要位於支氣管及血管肌肉組織中的 beta 2 腎上腺素受體；因此，為維持選擇性，使用最低有效劑量十分重要。」英文原文："BISOPROLOL FUMARATE is a beta 1 -selective (cardioselective) adrenoceptor blocking agent without significant membrane stabilizing activity or intrinsic sympathomimetic activity in its therapeutic dosage range. Cardioselectivity is not absolute, however, and at higher doses (≥ 20 mg) bisoprolol fumarate also inhibits beta 2 -adrenoceptors, chiefly located in the bronchial and vascular musculature; to retain selectivity it is therefore important to use the lowest effective dose."（[DailyMed: bisoprolol fumarate prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6517d564-ea55-4084-a8ab-34fea548c24e)，版本日期 2026-11-11；查閱日期 2026-11-19）。Bisoprolol 屬於 β1 選擇性阻斷劑，可降低心率、心輸出量並減少腎素釋放，進而降低血壓。
 
 惡性高血壓性腎病是血壓長期未獲控制所引發的嚴重併發症，因此在「降低血壓、減少腎素釋放」這一點上，機轉上存在合理的關聯。
 
@@ -106,6 +106,19 @@ TxGNN 模型預測它可能對**惡性高血壓性腎病 (malignant hypertensive
 - 取得香港衛生署仿單的警語與禁忌症
 - 進行針對惡性高血壓性腎病的文獻回顧，並評估是否有可行的臨床研究設計
 - 由臨床專家審視此預測是否具實際治療意義
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: bisoprolol fumarate prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6517d564-ea55-4084-a8ab-34fea548c24e) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

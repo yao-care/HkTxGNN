@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**腎因性抗利尿不適當症候群 (Nephrogeni
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Fosaprepitant 是 aprepitant 的前驅藥物，屬於 Substance P/NK1 受體拮抗劑。
+根據美國 FDA 核准的 Fosaprepitant 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Fosaprepitant 是 aprepitant 的前驅藥，因此其止吐作用歸因於 aprepitant。Aprepitant 是人類 P 物質/神經激肽 1（NK-1）受體的選擇性高親和力拮抗劑。Aprepitant 對血清素（5-HT 3 ）、多巴胺及皮質類固醇受體幾乎沒有或完全沒有親和力，而這些受體是現有化學治療引起之噁心與嘔吐（CINV）療法的作用標的。」英文原文："Fosaprepitant is a prodrug of aprepitant and accordingly, its antiemetic effects are attributable to aprepitant. Aprepitant is a selective high-affinity antagonist of human substance P/neurokinin 1 (NK-1) receptors. Aprepitant has little or no affinity for serotonin (5-HT 3 ), dopamine, and corticosteroid receptors, the targets of existing therapies for chemotherapy-induced nausea and vomiting (CINV)."（[DailyMed: Navitrux (fosaprepitant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a41b7c3a-1376-43a7-b5b9-6ba2eba1e169)，版本日期 2026-07-29；查閱日期 2026-11-19）。根據已知資訊，Fosaprepitant 是 aprepitant 的前驅藥物，屬於 Substance P/NK1 受體拮抗劑。
 
 NSIAD 是由血管加壓素 V2 受體（AVPR2）功能獲得性突變所致。Substance P/NK1 訊號在此路徑中沒有已知的角色，因此兩者之間**沒有確立的機轉連結**。
 
@@ -101,6 +101,19 @@ TxGNN 的高分只是計算預測，沒有臨床或文獻支持，應視為待�
 ---
 
 **補充說明（其他預測項目）：** 排名前 10 的預測中，僅「視網膜炎 (retinitis)」有 1 篇前臨床文獻（PMID 32058829，小鼠 UVR-B 誘發眼部模型，顯示 fosaprepitant 可阻斷眼部組織 NKR-1 表現），但該模型與感染性或遺傳性視網膜炎不同，僅屬標靶作用證據。其餘項目（肺囊蟲症、痲瘋病、隱球菌腦膜炎、多發性內分泌腫瘤、顱內膿瘍、惡性瘧疾、包蟲症、高精胺酸血症）皆無試驗或文獻支持，建議 Hold。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Navitrux (fosaprepitant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a41b7c3a-1376-43a7-b5b9-6ba2eba1e169) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Norepinephrine 作用於腎上腺素受體（α 與 β），這些受體參與氣道平滑肌張力、氣道神經支配與神經免疫對發炎的調控。多篇文獻回顧討論了腎上腺素訊號在氣喘與慢性阻塞性肺病 (COPD) 中的角色，這提供了生物學上的合理性。
+根據美國 FDA 核准的 Norepinephrine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Norepinephrine 是一種周邊血管收縮劑（α腎上腺素作用），亦為心臟的正性肌力刺激劑及冠狀動脈擴張劑（β腎上腺素作用）。」英文原文："Norepinephrine is a peripheral vasoconstrictor (alpha-adrenergic action) and an inotropic stimulator of the heart and dilator of coronary arteries (beta-adrenergic action)."（[DailyMed: Norepinephrine Bitartrate In Dextrose (norepinephrine bitartrate) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be3c6f4f-54fc-4cb3-a299-8a022515d396)，版本日期 2026-10-27；查閱日期 2026-11-19）。已知 Norepinephrine 作用於腎上腺素受體（α 與 β），這些受體參與氣道平滑肌張力、氣道神經支配與神經免疫對發炎的調控。多篇文獻回顧討論了腎上腺素訊號在氣喘與慢性阻塞性肺病 (COPD) 中的角色，這提供了生物學上的合理性。
 
 不過，這些證據都是間接的。原適應症清單（氣喘、支氣管炎、肺氣腫）來自早期兒茶酚胺類藥物的舊式標示，並不代表現行臨床做法。Norepinephrine 是全身性血管加壓劑，並無作為氣道治療藥物的既定角色。其全身性 α 腎上腺素作用與心血管效應，對阻塞性肺病患者反而是安全性顧慮。
 
@@ -154,11 +154,12 @@ TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「共 7 張有效單方許可證」→「共 8 張有效單方許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Norepinephrine Bitartrate In Dextrose (norepinephrine bitartrate) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be3c6f4f-54fc-4cb3-a299-8a022515d396) |
 
 <!-- review:end log -->
 

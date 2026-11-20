@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Rocuronium 是競爭性拮抗神經肌肉接合處菸鹼型乙醯膽鹼受體的神經肌肉阻斷劑，在麻醉中用於肌肉鬆弛。
+根據美國 FDA 核准的 Rocuronium 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Rocuronium bromide注射劑是一種非去極化神經肌肉阻斷劑，依劑量不同，其起效時間為快速至中等，作用持續時間為中等。其作用機轉為在運動終板競爭膽鹼性受體。」英文原文："Rocuronium bromide injection is a nondepolarizing neuromuscular blocking agent with a rapid to intermediate onset depending on dose and intermediate duration. It acts by competing for cholinergic receptors at the motor end-plate."（[DailyMed: rocuronium bromide prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a18fce42-0f3d-4354-845e-57c37ac3a147)，版本日期 2026-10-01；查閱日期 2026-11-19）。根據已知資訊，Rocuronium 是競爭性拮抗神經肌肉接合處菸鹼型乙醯膽鹼受體的神經肌肉阻斷劑，在麻醉中用於肌肉鬆弛。
 
 **坦白說，這個預測的合理性很低。** 偏頭痛的病理機轉涉及 CGRP、三叉神經血管活化與皮質擴散性抑制，Rocuronium 與這些路徑沒有已知的關聯。高分（0.9990）來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而不是生物學證據。肉毒桿菌毒素抑制突觸前乙醯膽鹼釋放，機轉與 Rocuronium 不同。
 
@@ -135,6 +135,19 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 - 取得偏頭痛相關的前臨床或機轉證據，目前不建議投入臨床開發。
 - 補齊香港仿單的核准適應症、警語與禁忌症資料。
 - 若確實要探索，應優先考慮已有證據的神經肌肉作用藥物（如肉毒桿菌毒素），而非 Rocuronium。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: rocuronium bromide prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a18fce42-0f3d-4354-845e-57c37ac3a147) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

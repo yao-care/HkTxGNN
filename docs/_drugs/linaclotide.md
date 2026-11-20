@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**馬尾症候群（Cauda Equina Syndrome）**有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Linaclotide 屬於 GC-C 促效劑，可提高細胞內外 cGMP 濃度，作用集中在腸道局部，全身吸收極低。
+根據美國 FDA 核准的 Linaclotide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Linaclotide 在結構上與人類 guanylin 及 uroguanylin 相關，並作為鳥苷酸環化酶-C（GC-C）促效劑發揮作用。Linaclotide 及其活性代謝物均與 GC-C 結合，並在腸道上皮的管腔表面局部發揮作用。」英文原文："Linaclotide is structurally related to human guanylin and uroguanylin and functions as a guanylate cyclase-C (GC-C) agonist. Both linaclotide and its active metabolite bind to GC-C and act locally on the luminal surface of the intestinal epithelium."（[DailyMed: Linzess (linaclotide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d09771d-69da-4c9d-92b6-74374ffa130f)，版本日期 2026-10-10；查閱日期 2026-11-19）。Linaclotide 屬於 GC-C 促效劑，可提高細胞內外 cGMP 濃度，作用集中在腸道局部，全身吸收極低。
 
 馬尾症候群是腰薦神經根受壓迫造成的神經學急症，與 linaclotide 的作用路徑沒有已知關聯。此分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
@@ -107,6 +107,19 @@ Linaclotide 至多可能緩解此類病人繼發的便秘症狀，無法處理�
 - 釐清模型高分的來源（例如是否由神經性腸道或膀胱表型驅動）
 - 若有臨床興趣，將目標改為「馬尾症候群繼發便秘」這類症狀性適應症，並做系統性文獻檢索
 - 神經性膀胱需先對應到現行疾病術語後再重新評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Linzess (linaclotide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d09771d-69da-4c9d-92b6-74374ffa130f) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

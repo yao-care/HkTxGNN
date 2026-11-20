@@ -67,7 +67,7 @@ Atropine 是非選擇性的蕈毒鹼型乙醯膽鹼受體拮抗劑。前臨床�
 
 此外，慢性陣發性偏頭痛（chronic paroxysmal hemicrania）的自主神經研究（PMID 2943405）顯示，全身性給予 atropine 可明顯減少發作相關的出汗、流淚與鼻分泌。相關抗膽鹼藥 anisodamine 的藥理學文獻也提供間接支持。
 
-這些資料顯示以蕈毒鹼阻斷作為機轉有一定合理性，但都屬動物或體外數據，**不能證明 atropine 對偏頭痛的臨床療效**。TxGNN 的高分是計算預測，並非臨床證據。目前缺乏完整的藥物作用機轉資料彙整與原適應症資訊。
+這些資料顯示以蕈毒鹼阻斷作為機轉有一定合理性，但都屬動物或體外數據，**不能證明 atropine 對偏頭痛的臨床療效**。TxGNN 的高分是計算預測，並非臨床證據。根據美國 FDA 核准的 Atropine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Atropine 在平滑肌、心肌、分泌腺細胞，以及周邊自主神經節和中樞神經系統的蕈毒鹼型膽鹼受體上，競爭性阻斷乙醯膽鹼的作用，包括有機磷中毒所致過量乙醯膽鹼的作用。」英文原文："Atropine competitively blocks the effects of acetylcholine, including excess acetylcholine due to organophosphorus poisoning, at muscarinic cholinergic receptors on smooth muscle, cardiac muscle, secretory gland cells, and in peripheral autonomic ganglia and the central nervous system."（[DailyMed: Atropen Auto-Injector (atropine) prescribing information, Meridian Medical Technologies LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e2d4307d-da8f-49f5-aac0-02355dd9ffb7)，版本日期 2022-09-15；查閱日期 2026-11-19）。
 
 另一個預測適應症「伴腦幹先兆的偏頭痛」目前僅有 1 篇小鼠研究（PMID 31945385），而且該研究顯示膽鹼活化會抑制皮質擴散性抑制（CSD）。這個方向與蕈毒鹼拮抗劑的作用相反，可能反而不利於 atropine，因此證據更弱（L5）。
 
@@ -134,6 +134,19 @@ Atropine 是非選擇性的蕈毒鹼型乙醯膽鹼受體拮抗劑。前臨床�
 - 進行系統性文獻回顧，確認 atropine 或其他蕈毒鹼拮抗劑在偏頭痛的人體數據
 - 評估給藥途徑與劑量的可行性（全身性抗膽鹼副作用，如口乾、心搏過速、尿滯留、青光眼風險）
 - 若前述評估支持，再設計小規模探索性臨床試驗
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Atropen Auto-Injector (atropine) prescribing information, Meridian Medical Technologies LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e2d4307d-da8f-49f5-aac0-02355dd9ffb7) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

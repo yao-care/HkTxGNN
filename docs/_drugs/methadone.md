@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**妥瑞氏症 (Tourette syndrome)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏完整的作用機轉資料。根據已知藥理，methadone 是 mu 類鴉片受體促效劑，同時具有 NMDA 受體拮抗作用。鴉片系統會調節多巴胺與紋狀體迴路，而這些迴路與抽動症狀的產生有關，因此機轉上有一定合理性。
+根據美國 FDA 核准的 Methadone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Methadone hydrochloride 是一種 mu 受體致效劑；為一種合成類鴉片，具有多種在性質上與 morphine 相似的作用，其中最主要者涉及中樞神經系統及由平滑肌構成的器官。Methadone 戒斷症候群雖然在性質上與 morphine 相似，但不同之處在於其發作較慢、病程較長，且症狀較輕。」英文原文："Methadone hydrochloride is a mu-agonist; a synthetic opioid with multiple actions qualitatively similar to those of morphine, the most prominent of which involves the central nervous system and organs composed of smooth muscle. The methadone withdrawal syndrome, although qualitatively similar to that of morphine, differs in that the onset is slower, the course is more prolonged, and the symptoms are less severe."（[DailyMed: Methadose Dispersible (methadone hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=544483e6-6f9d-4371-9e93-313e54e0ea05)，版本日期 2026-08-04；查閱日期 2026-11-19）。根據已知藥理，methadone 是 mu 類鴉片受體促效劑，同時具有 NMDA 受體拮抗作用。鴉片系統會調節多巴胺與紋狀體迴路，而這些迴路與抽動症狀的產生有關，因此機轉上有一定合理性。
 
 相關文獻也提供間接支持：一篇 1992 年的報告（PMID 1728167）以 methadone 治療妥瑞氏症，另一篇 2007 年文章（PMID 17102981）指出鴉片類藥物對難治型強迫症與妥瑞氏症可能有效，並與 5-HT2A/C 受體機轉相關。妥瑞氏症與強迫症屬於相近的臨床譜系。
 
@@ -131,6 +131,18 @@ TxGNN 模型預測它可能對**妥瑞氏症 (Tourette syndrome)** 有效，
 | 躁型雙極性情感疾患 | 0.9932 | L4 | 僅有 1982 年小型研究（PMID 6959168）顯示 methadone 減輕躁症患者的欣快與誇大症狀，其餘多為共病流行病學資料 |
 | 三叉自律神經頭痛 | 0.9905 | L4 | 唯一文獻顯示 methadone 可能誘發或加重叢集性頭痛，屬不良訊號 |
 | 普通感冒 | 0.9902 | L5 | 文獻為冷壓痛覺測試，與感冒無關，屬偽陽性比對 |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Methadose Dispersible (methadone hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=544483e6-6f9d-4371-9e93-313e54e0ea05) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

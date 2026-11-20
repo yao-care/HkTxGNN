@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對**脂漏性皮膚炎 (Seborrheic Dermatitis)** 有
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知的藥理知識，tacrolimus 是鈣調磷酸酶抑制劑，會抑制 T 細胞活化及促發炎細胞激素的釋放。外用劑型已被用於異位性皮膚炎，而其局部免疫調節作用也是這類藥物的核心特性。
+根據美國 FDA 核准的 Tacrolimus 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Tacrolimus 與細胞內蛋白質 FKBP-12 結合。隨後形成 tacrolimus-FKBP-12、鈣、鈣調蛋白及鈣調磷酸酶（一種普遍存在於哺乳動物細胞內的酵素）的複合物，並抑制鈣調磷酸酶的磷酸酶活性。」英文原文："Tacrolimus binds to an intracellular protein, FKBP-12. A complex of tacrolimus-FKBP-12, calcium, calmodulin, and calcineurin (an ubiquitous mammalian intracellular enzyme) is then formed and the phosphatase activity of calcineurin inhibited."（[DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7)，版本日期 2025-02-26；查閱日期 2026-11-19）。根據已知的藥理知識，tacrolimus 是鈣調磷酸酶抑制劑，會抑制 T 細胞活化及促發炎細胞激素的釋放。外用劑型已被用於異位性皮膚炎，而其局部免疫調節作用也是這類藥物的核心特性。
 
 脂漏性皮膚炎是一種慢性、反覆發作的發炎性皮膚病，好發於臉部與頭皮等皮脂腺豐富的區域。一般認為與皮膚上的馬拉色菌（Malassezia）所引發的免疫發炎反應有關。由於兩種疾病都涉及 T 細胞參與的皮膚發炎，抑制鈣調磷酸酶在機轉上有合理的適用性。文獻也指出，外用鈣調磷酸酶抑制劑可作為脂漏性皮膚炎中，長期使用類固醇的替代選擇。
 
@@ -144,11 +144,12 @@ Tacrolimus 屬免疫抑制劑（鈣調磷酸酶抑制劑），非傳統抗腫瘤
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-19 | 「香港共有 20 張有效的單一成分許可證，涵蓋口服膠囊（速釋與緩釋）及外用軟膏。」→「香港共有 45 張含本藥成分的許可證（全部有效；皆為單一成分），涵蓋口服膠囊（速」 | 更正（2026-11-19 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7) |
 
 <!-- review:end log -->
 

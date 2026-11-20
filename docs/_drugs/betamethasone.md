@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**黏液性禿髮 (alopecia mucinosa)** 有效，�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Betamethasone 屬於皮質類固醇，一般認為透過抑制發炎反應與免疫細胞活性發揮作用。
+根據美國 FDA 核准的 Betamethasone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「皮質類固醇在細胞訊息傳遞、免疫功能、發炎及蛋白質調節中扮演角色；然而，SERNIVO Spray治療乾癬的確切作用機轉不明。」英文原文："Corticosteroids play a role in cellular signaling, immune function, inflammation, and protein regulation; however, the precise mechanism of action of SERNIVO Spray in psoriasis is unknown."（[DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66)，版本日期 2026-04-22；查閱日期 2026-11-19）。Betamethasone 屬於皮質類固醇，一般認為透過抑制發炎反應與免疫細胞活性發揮作用。
 
 黏液性禿髮（又稱毛囊黏液變性）的特徵是毛囊內黏液堆積，並伴隨毛囊周圍的發炎細胞浸潤。皮質類固醇的抗發炎作用在機轉上可能有幫助，這也是模型給出此預測的合理背景。
 
@@ -116,11 +116,12 @@ TxGNN 模型預測它可能對**黏液性禿髮 (alopecia mucinosa)** 有效，�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「下表列出其中 5 張單一成分許可證，完整清單可能不止於此。」→「下表列出其中 5 張單一成分許可證，香港共有 241 張含本」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66) |
 
 <!-- review:end log -->
 

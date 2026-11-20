@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Stavudine 是胸腺嘧啶核苷類似物（thymidine analogue）的核苷類逆轉錄酶抑制劑（NRTI），其在 HIV 感染中的療效已被證實。
+ChEMBL（EMBL-EBI）收錄的 Stavudine 作用機轉（非官方翻譯）：「第 1 型人類免疫缺乏病毒反轉錄酶抑制劑」英文原文："Human immunodeficiency virus type 1 reverse transcriptase inhibitor"（[ChEMBL CHEMBL991 (stavudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL991)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Stavudine 是胸腺嘧啶核苷類似物（thymidine analogue）的核苷類逆轉錄酶抑制劑（NRTI），其在 HIV 感染中的療效已被證實。
 
 貓免疫缺乏病毒（FIV）與 HIV 同屬慢病毒，同樣依賴逆轉錄酶複製，因此在機轉上有類推的可能性。此高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性（如 FIV 與 HIV），而非生物學證據。
 
@@ -134,6 +134,19 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired 
 - 補齊作用機轉（MOA）資料
 - 釐清再利用的目標是人用還是獸醫用途；若為獸醫用途，需另行蒐集 FIV 的體外與動物療效證據
 - 評估 Stavudine 的粒線體毒性、胰臟炎與周邊神經病變風險是否可接受（臨床上此藥已因毒性而少用，此點需由專家另行確認）
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL991 (stavudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL991) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

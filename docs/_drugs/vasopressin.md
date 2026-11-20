@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**先天性凝血酶原缺乏症 (Congenital Proth
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Vasopressin 的相關文獻多半談的是其 V2 選擇性類似物去氨加壓素（DDAVP）。DDAVP 透過 V2 受體促使內皮細胞釋放儲存的第八凝血因子（FVIII）與血管性血友病因子（vWF），因此在 FVIII、FV 缺乏等狀態有合理的機轉依據。
+根據美國 FDA 核准的 Vasopressin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Vasopressin 藉由與血管平滑肌上之 V 1 受體結合而引起血管收縮，該受體與 Gq/11-磷脂酶 C-磷脂醯肌醇三磷酸路徑偶聯，導致細胞內鈣離子釋放。此外，vasopressin 經由刺激與腺苷酸環化酶偶聯之 V 2 受體而產生抗利尿作用。」英文原文："Vasopressin causes vasoconstriction by binding to V 1 receptors on vascular smooth muscle coupled to the Gq/11-phospholipase C-phosphatidyl-inositol-triphosphate pathway, resulting in the release of intracellular calcium. In addition, vasopressin stimulates antidiuresis via stimulation of V 2 receptors which are coupled to adenyl cyclase."（[DailyMed: Vasostrict (vasopressin) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1147beb-743e-4c62-8927-91192447f8b8)，版本日期 2026-04-21；查閱日期 2026-11-19）。Vasopressin 的相關文獻多半談的是其 V2 選擇性類似物去氨加壓素（DDAVP）。DDAVP 透過 V2 受體促使內皮細胞釋放儲存的第八凝血因子（FVIII）與血管性血友病因子（vWF），因此在 FVIII、FV 缺乏等狀態有合理的機轉依據。
 
 然而，先天性凝血酶原（第二凝血因子）缺乏症並不屬於上述機轉可直接涵蓋的範圍，目前沒有已建立的機轉證據顯示 vasopressin 能改善凝血酶原缺乏。分數 0.9963 來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。因此這個預測應視為待驗證的假說。
 
@@ -120,6 +120,19 @@ TxGNN 模型預測它可能對**先天性凝血酶原缺乏症 (Congenital Proth
 - 針對凝血酶原缺乏症，進行 vasopressin（而非 desmopressin）的機轉或前臨床研究
 - 釐清 vasopressin 與 desmopressin 的差異，評估文獻證據是否可外推
 - 評估與 QT 延長相關藥物（如 dolasetron、cisapride）等嚴重交互作用的風險管理
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Vasostrict (vasopressin) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1147beb-743e-4c62-8927-91192447f8b8) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

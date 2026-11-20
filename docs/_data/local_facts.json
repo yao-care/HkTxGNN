@@ -21,11 +21,12 @@
   "items_current": 15414
  },
  "reviews": {
-  "records": 244,
-  "pages": 225,
-  "public_pages_with_records": 224,
+  "records": 952,
+  "pages": 757,
+  "public_pages_with_records": 756,
   "by_action": {
-   "correct": 244
+   "correct": 244,
+   "mechanism": 708
   }
  },
  "fhir": {
@@ -48,7 +49,7 @@
    "l": "L4",
    "lt": 560,
    "lv": 557,
-   "r": 1,
+   "r": 2,
    "i": "鼻腔疾病"
   },
   {
@@ -57,7 +58,7 @@
    "l": "L5",
    "lt": 417,
    "lv": 408,
-   "r": 1,
+   "r": 2,
    "i": "鼻腔疾病"
   },
   {
@@ -66,7 +67,7 @@
    "l": "L4",
    "lt": 416,
    "lv": 402,
-   "r": 1,
+   "r": 2,
    "i": "鼻腔疾病"
   },
   {
@@ -75,7 +76,7 @@
    "l": "L5",
    "lt": 397,
    "lv": 396,
-   "r": 1,
+   "r": 2,
    "i": "痤瘡"
   },
   {
@@ -84,7 +85,7 @@
    "l": "L5",
    "lt": 345,
    "lv": 331,
-   "r": 1,
+   "r": 2,
    "i": "鼻腔疾病"
   },
   {
@@ -93,7 +94,7 @@
    "l": "L5",
    "lt": 281,
    "lv": 279,
-   "r": 1,
+   "r": 2,
    "i": "外陰倒置性毛囊角化症"
   },
   {
@@ -102,7 +103,7 @@
    "l": "L5",
    "lt": 281,
    "lv": 277,
-   "r": 1,
+   "r": 2,
    "i": "酒糟性結膜炎"
   }
  ],
@@ -113,7 +114,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 0,
+   "r": 1,
    "i": "Glanzmann 血小板無力症"
   },
   {
@@ -122,7 +123,7 @@
    "l": "L5",
    "lt": 2,
    "lv": 0,
-   "r": 1,
+   "r": 2,
    "i": "gastrin secretion abnormality"
   },
   {
@@ -131,7 +132,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 1,
+   "r": 2,
    "i": "hairy cell leukemia"
   },
   {
@@ -170,7 +171,7 @@
    "l": "L5",
    "lt": 146,
    "lv": 141,
-   "r": 2,
+   "r": 3,
    "i": "腦幹梗塞"
   },
   {
@@ -179,26 +180,8 @@
    "l": "L5",
    "lt": 42,
    "lv": 40,
-   "r": 2,
+   "r": 3,
    "i": "malignant hypertensive renal disease"
-  },
-  {
-   "t": "Brompheniramine",
-   "u": "/drugs/brompheniramine/",
-   "l": "N/A",
-   "lt": 93,
-   "lv": 92,
-   "r": 2,
-   "i": ""
-  },
-  {
-   "t": "Camphor",
-   "u": "/drugs/camphor/",
-   "l": "L5",
-   "lt": 77,
-   "lv": 77,
-   "r": 2,
-   "i": "migraine disorder"
   },
   {
    "t": "Clarithromycin",
@@ -206,7 +189,7 @@
    "l": "L5",
    "lt": 38,
    "lv": 38,
-   "r": 2,
+   "r": 3,
    "i": "hyperamylasemia"
   },
   {
@@ -215,8 +198,26 @@
    "l": "L5",
    "lt": 101,
    "lv": 100,
-   "r": 2,
+   "r": 3,
    "i": "黏液性禿髮"
+  },
+  {
+   "t": "Etoricoxib",
+   "u": "/drugs/etoricoxib/",
+   "l": "L5",
+   "lt": 68,
+   "lv": 68,
+   "r": 3,
+   "i": "migraine disorder"
+  },
+  {
+   "t": "Fusidic Acid",
+   "u": "/drugs/fusidic-acid/",
+   "l": "L5",
+   "lt": 25,
+   "lv": 25,
+   "r": 3,
+   "i": "exposure keratitis"
   }
  ],
  "example": {
@@ -225,7 +226,7 @@
   "l": "L1",
   "lt": 9,
   "lv": 9,
-  "r": 0,
+  "r": 1,
   "i": "被套細胞淋巴瘤"
  },
  "recent_reviews": [

@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**原發性血小板釋放障礙 (primary release 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Moroctocog alfa 是重組第八凝血因子，作用是補充內源性凝血路徑中缺乏的第八因子，用於血友病相關出血的治療。
+ChEMBL（EMBL-EBI）收錄的 Moroctocog Alfa 作用機轉（非官方翻譯）：「凝血因子 VIII 外源性蛋白質」英文原文："Coagulation factor VIII exogenous protein"（[ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Moroctocog alfa 是重組第八凝血因子，作用是補充內源性凝血路徑中缺乏的第八因子，用於血友病相關出血的治療。
 
 血小板釋放障礙是血小板顆粒分泌功能的缺陷，並非第八因子缺乏，兩者在機轉上的關聯薄弱。即使有任何益處，也只可能是間接的（例如支持凝血酶生成），屬於推測。高預測分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 
@@ -106,6 +106,19 @@ TxGNN 模型預測它可能對**原發性血小板釋放障礙 (primary release 
 - 優先評估機轉上較合理的「後天性凝血因子缺乏」，並釐清抑制性抗體問題。
 - 釐清「flood factor deficiency」的定義，確認是否為資料誤植。
 - 先進行系統性文獻檢索與臨床前或機轉研究，再考慮是否值得啟動臨床研究。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

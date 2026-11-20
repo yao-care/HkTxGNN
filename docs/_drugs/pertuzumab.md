@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**外胚間葉瘤 (Ectomesenchymoma)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Pertuzumab 是針對 HER2 受體的單株抗體，藥理資料庫顯示其標的為 ERBB2，臨床用途為 HER2 過度表現的乳癌。一般認為它會阻斷 HER2 與 HER3 等 HER 家族受體的二聚化。
+根據美國 FDA 核准的 Pertuzumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Pertuzumab 以人類表皮生長因子受體 2 蛋白（HER2）的細胞外二聚化結構域（Subdomain II）為標靶，從而阻斷 HER2 與其他 HER 家族成員（包括 EGFR、HER3 及 HER4）之間依賴配體的異二聚化。因此，pertuzumab 可抑制由配體啟動、經由兩條主要訊息路徑——絲裂原活化蛋白（MAP）激酶及磷酸肌醇 3-激酶（PI3K）——進行的細胞內訊息傳遞。」英文原文："Pertuzumab targets the extracellular dimerization domain (Subdomain II) of the human epidermal growth factor receptor 2 protein (HER2) and, thereby, blocks ligand-dependent heterodimerization of HER2 with other HER family members, including EGFR, HER3, and HER4. As a result, pertuzumab inhibits ligand-initiated intracellular signaling through two major signal pathways, mitogen-activated protein (MAP) kinase, and phosphoinositide 3-kinase (PI3K)."（[DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff)，版本日期 2026-04-30；查閱日期 2026-11-19）。根據已知資訊，Pertuzumab 是針對 HER2 受體的單株抗體，藥理資料庫顯示其標的為 ERBB2，臨床用途為 HER2 過度表現的乳癌。一般認為它會阻斷 HER2 與 HER3 等 HER 家族受體的二聚化。
 
 外胚間葉瘤是一種極罕見、含神經外胚層與間葉成分的混合型腫瘤。目前提供的資料中，並沒有顯示此腫瘤依賴 HER2 訊號。因此這個預測的機轉連結屬於推測，分數雖高，但僅為計算預測。
 
@@ -103,6 +103,19 @@ Pertuzumab 屬標靶抗體藥物（非傳統細胞毒性化療藥物），用於
 - 系統性搜尋 HER2 標靶治療於此類罕見腫瘤的文獻與病例報告
 - 補充 Pertuzumab 的作用機轉資料
 - 取得香港仿單的警語與禁忌症，以進行安全性評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

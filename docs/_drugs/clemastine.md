@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (nasal cavity disease)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Clemastine 屬於第一代 H1 受體拮抗劑，同時具有抗膽鹼作用。H1 受體阻斷可減少組織胺引起的鼻癢、打噴嚏與流鼻水；抗膽鹼作用則可進一步減少鼻分泌物。
+根據美國 FDA 核准的 Clemastine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Clemastine fumarate 是一種抗組織胺藥，具有抗膽鹼（乾燥）及鎮靜副作用。抗組織胺藥似乎是與組織胺競爭效應細胞上的細胞受體位點。Clemastine fumarate 抗組織胺作用本身持續時間長的特性，已在風疹塊及紅暈研究中獲得證實。」英文原文："Clemastine fumarate is an antihistamine with anticholinergic (drying) and sedative side effects. Antihistamines appear to compete with histamine for cell receptor sites on effector cells. The inherently long duration of antihistaminic effects of clemastine fumarate has been demonstrated in wheal and flare studies."（[DailyMed: Clemsza (clemastine fumarate) prescribing information, IPG Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9a35ed77-e35c-4c54-ad7f-1b92e450fa20)，版本日期 2026-10-05；查閱日期 2026-11-19）。根據已知資訊，Clemastine 屬於第一代 H1 受體拮抗劑，同時具有抗膽鹼作用。H1 受體阻斷可減少組織胺引起的鼻癢、打噴嚏與流鼻水；抗膽鹼作用則可進一步減少鼻分泌物。
 
 「鼻腔疾病」是範圍很廣的分類，與過敏性鼻炎、血管運動性鼻炎等以流鼻水、打噴嚏為主的症狀有機轉上的重疊，因此模型給出高分在機轉上可以理解。
 
@@ -101,6 +101,19 @@ TxGNN 模型預測它可能對**鼻腔疾病 (nasal cavity disease)** 有效，
 - 針對界定後的適應症進行文獻與臨床試驗檢索
 - 取得香港原廠仿單，確認警語與禁忌症
 - 評估抗膽鹼作用及上述高風險族群的安全性
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Clemsza (clemastine fumarate) prescribing information, IPG Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9a35ed77-e35c-4c54-ad7f-1b92e450fa20) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

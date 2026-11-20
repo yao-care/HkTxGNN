@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**腎因性抗利尿不適當症候群 (Nephrogeni
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知甘露醇屬於滲透性利尿劑，理論上，滲透負荷可能促進自由水排出，這是此預測唯一可能的機轉連結。
+根據美國 FDA 核准的 Mannitol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Mannitol 經靜脈給藥時，作為一種分子相對較小、主要局限於細胞外間隙的溶質而發揮其滲透性利尿作用。Mannitol 藉由提高腎絲球濾液的滲透壓，阻礙腎小管對水的再吸收，並增加鈉及氯的排泄。」英文原文："Mannitol, when administered intravenously, exerts its osmotic diuretic effect as a solute of relatively small molecular size being largely confined to the extracellular space. Mannitol hinders tubular reabsorption of water and enhances excretion of sodium and chloride by elevating the osmolarity of the glomerular filtrate."（[DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc)，版本日期 2025-08-26；查閱日期 2026-11-19）。已知甘露醇屬於滲透性利尿劑，理論上，滲透負荷可能促進自由水排出，這是此預測唯一可能的機轉連結。
 
 NSIAD 是 V2 受體功能增強所造成的水分滯留與低血鈉。然而甘露醇也可能透過水分位移效應使低血鈉惡化，因此這個連結只是推測，安全方向也不確定。TxGNN 模型（深度學習）的高分可能反映模型學到的相關疾病之間的相似性，不是生物學證據，不能視為療效證據。
 
@@ -130,6 +130,19 @@ NSIAD 是 V2 受體功能增強所造成的水分滯留與低血鈉。然而甘�
 | 先天性多核心肌病、多小核心病、中央軸空肌病 | 0.9969–0.9971 | 無 | 僅為 TxGNN 模型（深度學習）從相關疾病學到的相似性，不是生物學證據，無支持證據 |
 
 整體而言，上述預測目前都沒有直接研究該疾病的證據，皆建議維持 Hold。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

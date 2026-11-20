@@ -62,7 +62,7 @@ TxGNN 模型預測分數最高的新適應症是**肺高壓 (pulmonary hypertens
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（MOA）。根據已知資訊，Prasugrel 是 P2Y12 拮抗劑，可抑制血小板聚集，在急性冠心症的療效已被證實。
+根據美國 FDA 核准的 Prasugrel 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Prasugrel是一種血小板活化及凝集抑制劑，其作用係透過其活性代謝物與血小板上P2Y 12類ADP受體不可逆結合。」英文原文："Prasugrel is an inhibitor of platelet activation and aggregation through the irreversible binding of its active metabolite to the P2Y 12 class of ADP receptors on platelets."（[DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e)，版本日期 2022-09-07；查閱日期 2026-11-19）。根據已知資訊，Prasugrel 是 P2Y12 拮抗劑，可抑制血小板聚集，在急性冠心症的療效已被證實。
 
 **肺高壓：** 血小板活化與原位血栓形成可能參與肺血管重塑，因此機轉上有合理性。但本次整理的資料中沒有任何直接的臨床或前臨床證據，檢索到的兩篇文獻分別談 clopidogrel 在急性冠心症的用藥遵從性，以及 COVID-19 前的背景用藥，都與肺高壓無關。高分只是模型預測。
 
@@ -130,6 +130,19 @@ TxGNN 模型預測分數最高的新適應症是**肺高壓 (pulmonary hypertens
 - 釐清 NCT07629635 是否實際使用 prasugrel
 - 評估出血風險與雙重抗血小板治療的交互作用，訂定安全監測計畫
 - 肺高壓：先進行前臨床或機轉研究，再考慮臨床試驗
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

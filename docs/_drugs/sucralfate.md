@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**十二指腸胃逆流 (Duodenogastric Reflux)** 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Sucralfate 在黏膜受損處形成保護性屏障，並可結合膽酸與胃蛋白酶。
+根據美國 FDA 核准的 Sucralfate 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「雖然 sucralfate 加速十二指腸潰瘍癒合之機轉仍有待完全釐清，但已知其係透過局部作用而非全身性作用發揮效果。以下觀察結果亦似乎相關：1.」英文原文："Although the mechanism of sucralfate's ability to accelerate healing of duodenal ulcers remains to be fully defined, it is known that it exerts its effect through a local, rather than systemic, action. The following observations also appear pertinent: 1."（[DailyMed: Sucralfate Oral Suspension (sucralfate) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e595c2a-edd0-43f7-a2db-69553b9557d9)，版本日期 2026-01-06；查閱日期 2026-11-19）。根據已知資訊，Sucralfate 在黏膜受損處形成保護性屏障，並可結合膽酸與胃蛋白酶。
 
 膽汁逆流造成的鹼性逆流性胃炎與食道炎，本質上也是消化道黏膜受到十二指腸內容物傷害。這與十二指腸潰瘍同屬黏膜損傷性疾病，因此機轉上可能適用。TxGNN 的高分預測與這個邏輯一致。
 
@@ -132,6 +132,19 @@ TxGNN 模型預測它可能對**十二指腸胃逆流 (Duodenogastric Reflux)** 
 ---
 
 **附註：** 第二名預測「十二指腸阻塞 (Duodenal Obstruction)」（TxGNN 分數 0.9930）未發現明確機轉關聯，也沒有評估 sucralfate 用於該疾病的文獻，證據等級為 L5，建議 **Hold**，不納入本次推進。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Sucralfate Oral Suspension (sucralfate) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e595c2a-edd0-43f7-a2db-69553b9557d9) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

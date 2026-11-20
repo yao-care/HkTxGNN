@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (punctate epithelial
 
 ## 為什麼這個預測合理？
 
-Acyclovir 被病毒的胸苷激酶活化後，會抑制皰疹病毒的 DNA 聚合酶。目前缺乏詳細的作用機轉資料庫記錄，以上為一般藥理知識。
+Acyclovir 被病毒的胸苷激酶活化後，會抑制皰疹病毒的 DNA 聚合酶。根據美國 FDA 核准的 Acyclovir 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Acyclovir 是一種合成嘌呤核苷類似物，在體外及體內對第 1 型單純疱疹病毒（HSV-1）、第 2 型單純疱疹病毒（HSV-2）及水痘帶狀疱疹病毒（VZV）具有抑制活性。由於 acyclovir 對 HSV 及 VZV 所編碼的胸苷激酶（TK）具有親和力，其抑制活性具有高度選擇性。」英文原文："Acyclovir is a synthetic purine nucleoside analogue with in vitro and in vivo inhibitory activity against herpes simplex virus types 1 (HSV-1), 2 (HSV-2), and varicella-zoster virus (VZV). The inhibitory activity of acyclovir is highly selective due to its affinity for the enzyme thymidine kinase (TK) encoded by HSV and VZV."（[DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4)，版本日期 2026-06-26；查閱日期 2026-11-19）。
 
 點狀上皮角膜炎可由單純皰疹病毒 (HSV) 或水痘帶狀皰疹病毒 (VZV) 引起，因此在抗病毒機轉上有合理的連結。
 
@@ -115,11 +115,12 @@ Acyclovir 被病毒的胸苷激酶活化後，會抑制皰疹病毒的 DNA 聚�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本藥目前有效的許可證至少 20 張，清單可能不完整。」→「香港共有 130 張含本藥成分的許可證（有效 128 張、已」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4) |
 
 <!-- review:end log -->
 

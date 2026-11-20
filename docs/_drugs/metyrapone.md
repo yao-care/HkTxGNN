@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**運動誘發性惡性高熱 (exercise-induced ma
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據藥理資料，Metyrapone 抑制 11-β-羥化酶（CYP11B1），並作用於 CYP11B2，進而降低皮質醇合成。
+根據美國 FDA 核准的 Metyrapone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Metopirone的藥理作用是透過抑制腎上腺皮質中的11-β-羥化反應，以減少cortisol及corticosterone的生成。cortisol所施加的強力抑制性回饋機制被解除後，導致腦下垂體分泌的促腎上腺皮質激素（ACTH）增加。」英文原文："The pharmacological effect of Metopirone is to reduce cortisol and corticosterone production by inhibiting the 11-beta-hydroxylation reaction in the adrenal cortex. Removal of the strong inhibitory feedback mechanism exerted by cortisol results in an increase in adrenocorticotropic hormone (ACTH) production by the pituitary."（[DailyMed: Metopirone (metyrapone) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4046b167-7a46-8f4a-e063-6394a90a147f)，版本日期 2026-05-19；查閱日期 2026-11-19）。根據藥理資料，Metyrapone 抑制 11-β-羥化酶（CYP11B1），並作用於 CYP11B2，進而降低皮質醇合成。
 
 運動誘發性惡性高熱與骨骼肌鈣離子調控異常（如 ryanodine receptor，RYR1）相關，而 Metyrapone 對此路徑沒有已知作用。因此，原用途與預測的新適應症之間，並沒有已確立的機轉關聯。這個高分來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據，應視為待驗證的假說。
 
@@ -101,6 +101,19 @@ TxGNN 模型預測它可能對**運動誘發性惡性高熱 (exercise-induced ma
 - 補充 DrugBank 的作用機轉資料。
 - 進行前臨床研究，驗證 Metyrapone 與 RYR1 或骨骼肌鈣調控路徑的關聯。
 - 若要探索其他預測疾病（例如家族性週期性麻痺），需先取得 1971 年文獻（PMID 4322666）的全文，確認其研究內容。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Metopirone (metyrapone) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4046b167-7a46-8f4a-e063-6394a90a147f) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

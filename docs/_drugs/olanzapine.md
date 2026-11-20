@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**泛懼症 (Agoraphobia)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，olanzapine 是一種抗精神病藥物，一般認為其作用與血清素 5-HT2A/2C 及多巴胺 D2 受體拮抗有關，此點尚須以原廠或 DrugBank 資料確認。
+根據美國 FDA 核准的 Olanzapine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Olanzapine在所列適應症中的作用機轉尚不明確。然而，olanzapine治療思覺失調症的療效可能是透過多巴胺與血清素第2型（5HT 2 ）拮抗作用的組合而介導。」英文原文："The mechanism of action of olanzapine, in the listed indications, is unclear. However, the efficacy of olanzapine in schizophrenia could be mediated through a combination of dopamine and serotonin type 2 (5HT 2 ) antagonism."（[DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c)，版本日期 2026-10-26；查閱日期 2026-11-19）。根據已知資訊，olanzapine 是一種抗精神病藥物，一般認為其作用與血清素 5-HT2A/2C 及多巴胺 D2 受體拮抗有關，此點尚須以原廠或 DrugBank 資料確認。
 
 泛懼症常與恐慌症合併出現，而 olanzapine 的原適應症已包含焦慮症，兩者在疾病譜系上相近。文獻中有小型開放標籤研究顯示，低劑量 olanzapine（5 mg/日）加在 SSRI 之上，可能對 SSRI 無效的恐慌症（含或不含泛懼症）有幫助，另有個案報告呈現類似結果。
 
@@ -144,11 +144,12 @@ TxGNN 模型預測它可能對**泛懼症 (Agoraphobia)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效的單方許可證，以下列出 5 張主要許可證（資料中未提供劑型」→「香港共有 40 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c) |
 
 <!-- review:end log -->
 

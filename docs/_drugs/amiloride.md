@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**惡性高血壓性腎病 (malignant hypertensive
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫中未收錄）。根據已知藥理，Amiloride 阻斷遠端腎小管的上皮鈉通道（ENaC），減少鈉再吸收並降低血壓。
+根據美國 FDA 核准的 Amiloride 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Amiloride HCl為一種保鉀（抗排鉀）藥物，具有弱效（與thiazide類利尿劑相比）的排鈉、利尿及降血壓活性。在部分臨床研究中，這些作用與thiazide類利尿劑的作用具有部分加成效果。」英文原文："Amiloride HCl is a potassium-conserving (antikaliuretic) drug that possesses weak (compared with thiazide diuretics) natriuretic, diuretic, and antihypertensive activity. These effects have been partially additive to the effects of thiazide diuretics in some clinical studies."（[DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68)，版本日期 2026-11-11；查閱日期 2026-11-19）。根據已知藥理，Amiloride 阻斷遠端腎小管的上皮鈉通道（ENaC），減少鈉再吸收並降低血壓。
 
 高血壓與高血壓性腎病在病理上相關，因此機轉上有生物學合理性。但此預測目前只來自模型分數，缺乏任何試驗或文獻佐證。此外，本藥既有的降壓用途與此預測高度重疊，較像是既有用途的延伸，而非獨立的再利用訊號。
 
@@ -105,6 +105,19 @@ TxGNN 模型預測它可能對**惡性高血壓性腎病 (malignant hypertensive
 - 補充完整的作用機轉資料
 - 取得香港仿單的警語與禁忌症，並評估腎功能受損患者的高血鉀風險
 - 確認各許可證的核准適應症與劑型
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

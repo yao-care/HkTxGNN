@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**尤文氏肉瘤 (Ewing sarcoma)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（original_moa 未收錄）。依一般藥理知識，docetaxel 屬於紫杉醇類藥物，透過穩定微管、阻斷細胞有絲分裂，對快速增生的腫瘤細胞具有細胞毒性。
+根據美國 FDA 核准的 Docetaxel 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Docetaxel為一種抗腫瘤藥物，其作用方式為破壞細胞內對有絲分裂及間期細胞功能至關重要的微管網絡。Docetaxel會與游離微管蛋白結合，促進微管蛋白組裝成穩定的微管，同時抑制其解聚。」英文原文："Docetaxel is an antineoplastic agent that acts by disrupting the microtubular network in cells that is essential for mitotic and interphase cellular functions. Docetaxel binds to free tubulin and promotes the assembly of tubulin into stable microtubules while simultaneously inhibiting their disassembly."（[DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b)，版本日期 2025-12-17；查閱日期 2026-11-19）。依一般藥理知識，docetaxel 屬於紫杉醇類藥物，透過穩定微管、阻斷細胞有絲分裂，對快速增生的腫瘤細胞具有細胞毒性。
 
 在尤文氏肉瘤中，docetaxel 主要與 gemcitabine 合併（序貫或 GEMDOX 方案），或與 irinotecan 合併，用於復發或難治的病人。實驗室研究亦報告 gemcitabine 後接 docetaxel 具有協同的細胞毒性。
 
@@ -148,11 +148,12 @@ TxGNN 模型預測它可能對**尤文氏肉瘤 (Ewing sarcoma)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有至少 20 張有效的單一成分許可證，目前清單可能並不完整。」→「香港共有 23 張含本藥成分的許可證（全部有效；單一成分 2」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b) |
 
 <!-- review:end log -->
 

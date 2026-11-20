@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (malignant hypertensive
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就藥物類別而言，Candesartan 屬於 ARB，會阻斷血管張力素 II 第一型受體，是腎素-血管張力素系統 (RAS) 的抑制劑。
+根據美國 FDA 核准的 Candesartan Cilexetil 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「血管收縮素 II 是由血管收縮素 I 經血管收縮素轉化酶（ACE，激肽酶 II）催化的反應所形成。血管收縮素 II 是腎素-血管收縮素系統的主要升壓物質，其作用包括血管收縮、刺激醛固酮的合成與釋放、心臟刺激，以及腎臟對鈉的再吸收。[…] Candesartan 藉由選擇性阻斷血管收縮素 II 與許多組織（如血管平滑肌及腎上腺）中 AT 1 受體的結合，阻斷血管收縮素 II 的血管收縮作用及醛固酮分泌作用。」英文原文："Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the renin-angiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Candesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland."（[DailyMed: Atacand (candesartan cilexetil) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94a59260-d2b6-464a-b5b9-bbc599e57e10)，版本日期 2025-12-22；查閱日期 2026-11-19）。就藥物類別而言，Candesartan 屬於 ARB，會阻斷血管張力素 II 第一型受體，是腎素-血管張力素系統 (RAS) 的抑制劑。
 
 在機轉上，RAS 活化被認為與惡性腎硬化的發生有關。阻斷此系統理論上可能降低腎絲球內壓力並減少蛋白尿。不過這只是間接、以機轉為基礎的推論，沒有針對此疾病的直接研究佐證。TxGNN 的高分較可能反映模型中疾病之間的相近性，不能視為臨床證據。
 
@@ -92,6 +92,19 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (malignant hypertensive
 - 取得香港衛生署仿單的警語與禁忌資料，完成安全性篩選
 - 檢索針對惡性腎硬化或惡性高血壓腎病變的 ARB 臨床前與臨床研究
 - 評估口服 ARB 在此疾病的實際臨床定位，包括與注射型藥物的銜接，以及高血鉀與急性腎損傷的監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Atacand (candesartan cilexetil) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94a59260-d2b6-464a-b5b9-bbc599e57e10) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

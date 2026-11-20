@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**酒糟性結膜炎 (Rosacea Conjunctivitis)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據藥理常識，Olopatadine 是選擇性組織胺 H1 受體拮抗劑，同時具有肥大細胞穩定作用，已核准用於過敏性結膜炎（異位性、春季、乳突性）。
+根據美國 FDA 核准的 Olopatadine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Olopatadine為組織胺H 1 受體拮抗劑。Olopatadine的抗組織胺活性已於離體組織、動物模型及人體中獲得證實。」英文原文："Olopatadine is a histamine H 1 receptor antagonist. The antihistaminic activity of olopatadine has been documented in isolated tissues, animal models, and humans."（[DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85)，版本日期 2026-09-15；查閱日期 2026-11-19）。根據藥理常識，Olopatadine 是選擇性組織胺 H1 受體拮抗劑，同時具有肥大細胞穩定作用，已核准用於過敏性結膜炎（異位性、春季、乳突性）。
 
 酒糟性結膜炎（眼部酒糟）的成因，主要是瞼板腺功能障礙、淚膜不穩定、微生物或蠕形蟎參與，以及發炎介質（如 MMPs、IL-1、TNF-α），而非主要由 IgE 介導的組織胺釋放所致。若有組織胺參與的成分，Olopatadine 的效益可能僅限於緩解搔癢或結膜充血等症狀。
 
@@ -127,11 +127,12 @@ TxGNN 模型預測它可能對**酒糟性結膜炎 (Rosacea Conjunctivitis)** �
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 7 張有效單方許可證」→「香港共有 9 張有效單方許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85) |
 
 <!-- review:end log -->
 

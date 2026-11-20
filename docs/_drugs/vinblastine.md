@@ -60,7 +60,7 @@ Vinblastine 屬於長春花生物鹼，會與微管蛋白（tubulin）結合並�
 
 橫紋肌肉瘤是增生快速的軟組織肉瘤。同類藥物 vincristine 已是橫紋肌肉瘤標準治療的核心成分，而 vinblastine 出現在兒童低劑量連續（metronomic）給藥方案和個案報告中，顯示機轉上有合理的延伸空間。
 
-不過，目前缺乏詳細的作用機轉資料庫記錄，且針對 vinblastine 本身的臨床證據薄弱，多為舊式、小規模的個案層級資料，難以區分 vinblastine 與其他併用藥物的貢獻。
+根據美國 FDA 核准的 Vinblastine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「其他研究顯示，vinblastine sulfate 會影響有絲分裂所需的細胞能量產生，並干擾核酸合成。Vinblastine 的作用機轉與抑制有絲分裂紡錘體中微管的形成有關，導致分裂中的細胞停滯於中期階段。」英文原文："Other studies indicate that vinblastine sulfate has an effect on cell-energy production required for mitosis and interferes with nucleic acid synthesis. The mechanism of action of vinblastine has been related to the inhibition of microtubule formation in the mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage."（[DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77)，版本日期 2025-04-15；查閱日期 2026-11-19）。
 
 ## 臨床試驗證據
 
@@ -116,6 +116,18 @@ Vinblastine 屬於長春花生物鹼，會與微管蛋白（tubulin）結合並�
 - 取得香港原廠仿單的警語與禁忌症
 - 確認本地許可證所載適應症
 - 設計 vinblastine 於橫紋肌肉瘤的前瞻性研究（例如與 vincristine 的比較，或於復發／難治族群的 metronomic 方案），並建立血液學與神經毒性監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

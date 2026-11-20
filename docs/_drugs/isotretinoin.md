@@ -60,7 +60,7 @@ description: "Isotretinoin：預測新適應症為Malignant hypertensive renal d
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Isotretinoin 是全身性類視黃醇，實際上主要用於嚴重痤瘡，並非降血壓藥物。因此資料中「原適應症為高血壓」的說法本身需要審慎看待，TxGNN 的預測可能建立在這個存疑的關聯上。
+根據美國 FDA 核准的 Isotretinoin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Zenatane用於治療12歲及以上、非妊娠、患有多個直徑5 mm或以上炎性結節、且對包括全身性抗生素在內的常規治療無反應的嚴重頑固性結節性痤瘡患者，其確切作用機制未明。Isotretinoin是一種類視黃醇，可抑制皮脂腺功能及角質化。」英文原文："The exact mechanism of action of Zenatane in the treatment of severe recalcitrant nodular acne in nonpregnant patients 12 years of age and older with multiple inflammatory nodules with a diameter of 5 mm or greater who are unresponsive to conventional therapy, including systemic antibiotics is unknown. Isotretinoin, a retinoid, inhibits sebaceous gland function and keratinization."（[DailyMed: Zenatane (isotretinoin) prescribing information, Dr. Reddy's Laboratories Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27b3cf26-f22e-5b70-1c24-009933b7c6ee)，版本日期 2026-09-20；查閱日期 2026-11-19）。Isotretinoin 是全身性類視黃醇，實際上主要用於嚴重痤瘡，並非降血壓藥物。因此資料中「原適應症為高血壓」的說法本身需要審慎看待，TxGNN 的預測可能建立在這個存疑的關聯上。
 
 在機轉上，一種可能但尚未驗證的連結是：類視黃醇可能影響腎素-血管張力素系統（RAS）／腎素訊號、血管重塑與內皮功能。對於惡性高血壓性腎病，也有前臨床腎損傷模型提出類視黃醇可調節腎臟發炎與纖維化。不過這些都未在 isotretinoin 用於惡性高血壓或其腎病變的情境中得到驗證。
 
@@ -126,6 +126,19 @@ description: "Isotretinoin：預測新適應症為Malignant hypertensive renal d
 - 取得香港衛生署仿單，確認警語、禁忌與核准適應症。
 - 進行系統性文獻檢索，尋找類視黃醇與 RAS、腎血管病變相關的前臨床或臨床證據。
 - 若仍要探索，應先從前臨床研究（L4）著手，並制定嚴格的安全監測與避孕管理計畫。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Zenatane (isotretinoin) prescribing information, Dr. Reddy's Laboratories Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27b3cf26-f22e-5b70-1c24-009933b7c6ee) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

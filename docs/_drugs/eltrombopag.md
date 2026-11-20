@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對 **HIV 感染相關疾病 (HIV infectious disease)
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Eltrombopag 屬於 TPO-R 促效劑，在免疫性血小板低下症中的血小板提升作用已被證實。
+根據美國 FDA 核准的 Eltrombopag 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Eltrombopag是一種TPO受體促效劑，可與人類TPO受體（又稱cMpl）的跨膜區域交互作用，並啟動訊號傳遞級聯反應，誘導巨核細胞增生及分化，進而使血小板生成增加。」英文原文："Eltrombopag is a TPO-receptor agonist that interacts with the transmembrane domain of the human TPO-receptor (also known as cMpl) and initiates signaling cascades that induce proliferation and differentiation of megakaryocytes leading to increased platelet production."（[DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46)，版本日期 2026-05-20；查閱日期 2026-11-19）。根據已知資訊，Eltrombopag 屬於 TPO-R 促效劑，在免疫性血小板低下症中的血小板提升作用已被證實。
 
 HIV 感染的患者可能出現血小板低下，包括 HIV 相關 ITP、免疫重建後的血小板低下，以及 HIV 相關骨髓衰竭或再生不良性貧血。這些情況都有血小板生成不足或血小板減少的共通問題，而這正是 TPO-R 促效劑要處理的。因此 TxGNN 給出高分，很可能反映的是這層「血小板低下」的關聯。
 
@@ -114,6 +114,19 @@ HIV 感染的患者可能出現血小板低下，包括 HIV 相關 ITP、免疫�
 - 補充作用機轉的詳細資料
 - 明確界定目標族群（HIV 相關 ITP、免疫重建血小板低下或 HIV 相關骨髓衰竭），並蒐集更多前瞻性或對照性臨床證據
 - 評估肝功能異常與血栓風險的監測計畫，以及與含多價陽離子製劑的給藥間隔管理
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

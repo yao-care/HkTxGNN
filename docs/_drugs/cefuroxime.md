@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**多株性高黏滯症候群 (polyclonal hypervis
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Cefuroxime 屬於 β-內醯胺類抗生素，透過抑制青黴素結合蛋白、阻斷細菌細胞壁合成而殺菌，作用對象為細菌感染。
+根據美國 FDA 核准的 Cefuroxime 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Cefuroxime 是一種殺菌劑，其作用機轉為抑制細菌細胞壁合成。Cefuroxime 在革蘭氏陰性菌及革蘭氏陽性菌的某些 beta-內醯胺酶（包括青黴素酶及頭孢菌素酶）存在下仍具有活性。」英文原文："Cefuroxime is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Cefuroxime has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria."（[DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c)，版本日期 2025-03-27；查閱日期 2026-11-19）。已知 Cefuroxime 屬於 β-內醯胺類抗生素，透過抑制青黴素結合蛋白、阻斷細菌細胞壁合成而殺菌，作用對象為細菌感染。
 
 多株性高黏滯症候群源於血中多株免疫球蛋白過多，造成血液黏滯度上升，並非感染性疾病。就目前資料而言，找不到 Cefuroxime 與此疾病之間可辨識的機轉關聯。
 
@@ -114,11 +114,12 @@ TxGNN 分數很高（0.9976），但這是以網路關係推算的預測結果�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港目前有多張有效的 Cefuroxime 單一成分許可證，數量至少 20 張，」→「香港共有 26 張含本藥成分的許可證（全部有效；單一成分 2」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c) |
 
 <!-- review:end log -->
 

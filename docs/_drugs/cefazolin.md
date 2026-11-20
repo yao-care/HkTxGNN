@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**感染性中耳炎 (infectious otitis media)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，cefazolin 是第一代頭孢菌素，作用方式是結合青黴素結合蛋白（PBP），抑制細菌細胞壁合成。它對鏈球菌及對甲氧西林敏感的金黃色葡萄球菌（MSSA）等革蘭氏陽性菌有活性，而這些細菌可引起中耳炎。
+根據美國 FDA 核准的 Cefazolin 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Cefazolin 是一種抗菌藥物。[…] Cefazolin 是一種殺菌劑，藉由抑制細菌細胞壁合成而發揮作用。」英文原文："Cefazolin is an antibacterial drug. […] Cefazolin is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis."（[DailyMed: Cefazolin (cefazolin sodium) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d91a8d13-99a0-4d87-88dc-71cbd37922b4)，版本日期 2026-08-31；查閱日期 2026-11-19）。根據已知資訊，cefazolin 是第一代頭孢菌素，作用方式是結合青黴素結合蛋白（PBP），抑制細菌細胞壁合成。它對鏈球菌及對甲氧西林敏感的金黃色葡萄球菌（MSSA）等革蘭氏陽性菌有活性，而這些細菌可引起中耳炎。
 
 不過，cefazolin 對流感嗜血桿菌和卡他莫拉菌的覆蓋有限，且中耳炎的常規治療並不以注射給藥為主。因此機轉上只是部分合理，並非明確的首選。
 
@@ -100,6 +100,19 @@ TxGNN 模型預測它可能對**感染性中耳炎 (infectious otitis media)** �
 - 取得香港仿單中的警語、禁忌症與核准適應症資料
 - 進行文獻回顧或設計比較性臨床研究，直接評估 cefazolin 對感染性中耳炎的療效
 - 評估給藥途徑（注射）與中耳炎臨床使用情境的相容性
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cefazolin (cefazolin sodium) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d91a8d13-99a0-4d87-88dc-71cbd37922b4) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

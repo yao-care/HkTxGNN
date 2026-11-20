@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**皮膚炎 (dermatitis)** 有效，目前有 **6 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料庫記載。根據已知資訊，ustekinumab 會阻斷 IL-12 與 IL-23 共有的 p40 次單元，抑制 Th1 與 Th17/Th22 路徑。這些路徑與乾癬相關，也參與部分皮膚炎的發病，特別是帶有 Th1/Th17 特徵的慢性異位性皮膚炎。
+根據美國 FDA 核准的 Ustekinumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ustekinumab 產品是人類 IgG1κ 單株抗體，可專一性結合 IL-12 與 IL-23 細胞激素共同使用的 p40 蛋白次單元。IL-12 與 IL-23 是天然存在的細胞激素，參與發炎及免疫反應，例如自然殺手細胞活化以及 CD4+ T 細胞的分化與活化。」英文原文："Ustekinumab products are human IgG1κ monoclonal antibodies that bind with specificity to the p40 protein subunit used by both the IL-12 and IL-23 cytokines. IL-12 and IL-23 are naturally occurring cytokines that are involved in inflammatory and immune responses, such as natural killer cell activation and CD4+ T-cell differentiation and activation."（[DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7)，版本日期 2026-11-11；查閱日期 2026-11-19）。根據已知資訊，ustekinumab 會阻斷 IL-12 與 IL-23 共有的 p40 次單元，抑制 Th1 與 Th17/Th22 路徑。這些路徑與乾癬相關，也參與部分皮膚炎的發病，特別是帶有 Th1/Th17 特徵的慢性異位性皮膚炎。
 
 不過，異位性皮膚炎主要由 Th2 路徑（IL-4/IL-13）驅動，因此機轉契合度只是部分成立。已發表的 Phase 2 資料顯示療效有限且結果不一致，這也是本報告不建議直接推進的主因。
 
@@ -123,6 +123,19 @@ TxGNN 模型預測它可能對**皮膚炎 (dermatitis)** 有效，目前有 **6 
 - 查證 NCT01945086 與 NCT01806662 的完整結果，確認主要終點與療效幅度
 - 釐清可能受益的亞群（例如 Th1/Th17 特徵明顯的慢性異位性皮膚炎）
 - 補充作用機轉資料，並與現有異位性皮膚炎標準治療比較
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

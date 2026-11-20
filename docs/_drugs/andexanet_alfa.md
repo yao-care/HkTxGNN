@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對 **Glanzmann 血小板無力症 (Glanzmann thromba
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料庫記錄。根據藥理知識，andexanet alfa 是一種無催化活性的重組 FXa 誘餌，會結合並隔離直接 FXa 抑制劑（也包括經抗凝血酶作用的 LMWH／fondaparinux），使內源性 FXa 恢復功能。
+根據美國 FDA 核准的 Andexanet Alfa 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「凝血因子Xa（重組）inactivated-zhzo透過結合並隔離FXa抑制劑rivaroxaban及apixaban，以發揮其促凝血作用。ANDEXXA蛋白質另一項已觀察到的促凝血作用，為其能夠結合組織因子途徑抑制劑（TFPI）並抑制其活性。」英文原文："Coagulation factor Xa (recombinant), inactivated-zhzo exerts its procoagulant effect by binding and sequestering the FXa inhibitors, rivaroxaban and apixaban. Another observed procoagulant effect of the ANDEXXA protein is its ability to bind to, and inhibit the activity of, Tissue Factor Pathway Inhibitor (TFPI)."（[DailyMed: Andexxa (andexanet alfa) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9d90a6-63e6-46ef-96ff-dd6519ae7b6c)，版本日期 2025-05-23；查閱日期 2026-11-19）。根據藥理知識，andexanet alfa 是一種無催化活性的重組 FXa 誘餌，會結合並隔離直接 FXa 抑制劑（也包括經抗凝血酶作用的 LMWH／fondaparinux），使內源性 FXa 恢復功能。
 
 然而，Glanzmann 血小板無力症是整合素 αIIbβ3（GPIIb/IIIa）缺陷造成的血小板聚集障礙，與 FXa 抑制無關。其他預測疾病也有同樣問題：血小板釋放障礙是顆粒內容物釋放缺陷，偽血管性血友病是血小板 GPIbα 功能增強突變，血友病則是 FVIII 或 FIX 缺乏（位於 FXa 上游）。Andexanet alfa 都無法補足或繞過這些缺陷。
 
@@ -119,6 +119,19 @@ TxGNN 模型預測它可能對 **Glanzmann 血小板無力症 (Glanzmann thromba
 - 取得香港原廠仿單，釐清核准適應症、警語與禁忌症（目前無法進行安全性篩選）。
 - 提出可驗證的機轉假說，並先做前臨床研究。
 - 若臨床上確有此類患者，應留意其屬於「血友病等患者同時服用 FXa 抑制劑」的情境，這是現有適應症內的逆轉用途，不屬於新適應症。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Andexxa (andexanet alfa) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9d90a6-63e6-46ef-96ff-dd6519ae7b6c) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

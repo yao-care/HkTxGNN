@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**僵直性脊椎炎 (ankylosing spondylitis)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知的藥理類別而言，abatacept 透過阻斷 T 細胞共刺激訊號，調節 T 細胞驅動的免疫發炎反應，因此理論上可能影響軸性發炎。
+根據美國 FDA 核准的 Abatacept 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Abatacept為一種選擇性共刺激調節劑，可透過與CD80及CD86結合，從而阻斷其與CD28的交互作用，以抑制T細胞（T淋巴細胞）活化。此交互作用提供T淋巴細胞完全活化所需的共刺激訊號。」英文原文："Abatacept, a selective costimulation modulator, inhibits T-cell (T lymphocyte) activation by binding to CD80 and CD86, thereby blocking interaction with CD28. This interaction provides a costimulatory signal necessary for full activation of T lymphocytes."（[DailyMed: Orencia (abatacept) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0836c6ac-ee37-5640-2fed-a3185a0b16eb)，版本日期 2025-11-13；查閱日期 2026-11-19）。就已知的藥理類別而言，abatacept 透過阻斷 T 細胞共刺激訊號，調節 T 細胞驅動的免疫發炎反應，因此理論上可能影響軸性發炎。
 
 然而，這個理論依據有明顯限制。目前唯一的直接臨床證據是一項 30 人的開放標籤 Phase 2 先導試驗（NCT00558506），沒有對照組，狀態不明。多篇回顧文獻指出，在軸性脊椎關節炎中，TNF 抑制劑與 IL-17 抑制劑有效，而以 T 細胞為標靶的 abatacept 通常被認為缺乏療效。
 
@@ -110,6 +110,19 @@ TxGNN 模型預測它可能對**僵直性脊椎炎 (ankylosing spondylitis)** �
 - 若結果有正向訊號，需設計隨機、安慰劑對照的試驗，並以 TNF／IL-17 抑制劑作為療效比較基準
 - 補充作用機轉資料，說明為何 T 細胞共刺激阻斷可能適用於軸性發炎
 - 取得原廠仿單的警語與禁忌症，完成安全性評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Orencia (abatacept) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0836c6ac-ee37-5640-2fed-a3185a0b16eb) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**血小板原發性釋放障礙 (primary release 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，CERA 是長效紅血球生成刺激劑（ESA），透過作用於紅血球生成素受體來促進紅血球生成，一般用於慢性腎臟病相關貧血。
+根據美國 FDA 核准的 Methoxy Polyethylene Glycol-Epoetin Beta 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Mircera 是一種紅血球生成素受體活化劑，與紅血球生成素相比，其體內活性較高，且半衰期較長。紅血球生成素是紅血球系發育的主要生長因子，由腎臟產生，並在缺氧時釋放至血流中。」英文原文："Mircera is an erythropoietin receptor activator with greater activity in vivo as well as increased half-life, in contrast to erythropoietin. A primary growth factor for erythroid development, erythropoietin is produced in the kidney and released into the bloodstream in response to hypoxia."（[DailyMed: Mircera (methoxy polyethylene glycol-epoetin beta) prescribing information, Vifor (International) Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=22c56f2a-f73c-60e7-e054-00144ff88e88)，版本日期 2026-08-14；查閱日期 2026-11-19）。根據已知資訊，CERA 是長效紅血球生成刺激劑（ESA），透過作用於紅血球生成素受體來促進紅血球生成，一般用於慢性腎臟病相關貧血。
 
 血小板釋放（分泌）障礙屬於血小板功能的質性缺陷，目前沒有已知機制顯示紅血球生成素受體訊號能矯正此問題。若有任何間接效果（例如血容比上升可能改善尿毒症出血時的血小板邊緣化），也只是推測，且並非此疾病所特有。
 
@@ -103,6 +103,19 @@ TxGNN 模型預測它可能對**血小板原發性釋放障礙 (primary release 
 - 取得 CERA 的作用機轉資料與香港仿單（核准適應症、警語、禁忌症）
 - 針對血小板功能障礙進行文獻與臨床試驗檢索，確認是否有任何直接證據
 - 若有證據出現，需先進行血栓風險評估，再考慮後續研究
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Mircera (methoxy polyethylene glycol-epoetin beta) prescribing information, Vifor (International) Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=22c56f2a-f73c-60e7-e054-00144ff88e88) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

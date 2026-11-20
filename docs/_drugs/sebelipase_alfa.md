@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對 **史契氏症候群 (Scheie syndrome)** 有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Sebelipase alfa 是重組的溶小體酸性脂肪酶，作用是分解膽固醇酯與三酸甘油酯，屬於溶小體酵素替代療法的一員。
+ChEMBL（EMBL-EBI）收錄的 Sebelipase Alfa 作用機轉（非官方翻譯）：「膽固醇酯水解酶；三酸甘油酯水解酶」英文原文："Cholesterol ester hydrolytic enzyme; Triglyceride hydrolytic enzyme"（[ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537)，CC BY-SA 3.0；查閱日期 2026-11-19）。已知 Sebelipase alfa 是重組的溶小體酸性脂肪酶，作用是分解膽固醇酯與三酸甘油酯，屬於溶小體酵素替代療法的一員。
 
 史契氏症候群（輕型黏多醣症第一型, attenuated MPS I）的成因是 α-L-艾杜糖醛酸酶（alpha-L-iduronidase）缺乏，累積的物質是葡萄糖胺聚醣（glycosaminoglycans）。這與 Sebelipase alfa 所作用的酵素和受質都不同。
 
@@ -94,6 +94,18 @@ TxGNN 模型預測它可能對 **史契氏症候群 (Scheie syndrome)** 有效�
 - 進行體外或動物模型的前臨床研究，檢驗對 α-L-艾杜糖醛酸酶缺乏的任何作用
 - 與已有的 MPS I 專用酵素替代療法比較，確認是否有臨床上的必要性
 - 取得香港衛生署的仿單，補齊警語、禁忌症與交互作用資料
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

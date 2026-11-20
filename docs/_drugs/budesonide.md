@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**異位性皮膚炎 (atopic eczema)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，budesonide 屬於糖皮質激素類藥物，一般認為可抑制 Th2 細胞激素、嗜酸性白血球活化與 NF-κB 訊號，這些路徑與異位性皮膚炎的皮膚發炎有關，因此機轉上具合理性。
+根據美國 FDA 核准的 Budesonide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Budesonide是一種抗發炎皮質類固醇，具有強效的糖皮質素活性及微弱的礦物性皮質素活性。在標準體外及動物模型中，budesonide對糖皮質素受體的親和力約為cortisol的200倍，局部抗發炎效力則約為cortisol的1000倍（大鼠巴豆油耳水腫試驗）。」英文原文："Budesonide is an anti-inflammatory corticosteroid that exhibits potent glucocorticoid activity and weak mineralocorticoid activity. In standard in vitro and animal models, budesonide has approximately a 200-fold higher affinity for the glucocorticoid receptor and a 1000-fold higher topical anti-inflammatory potency than cortisol (rat croton oil ear edema assay)."（[DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da)，版本日期 2026-06-10；查閱日期 2026-11-19）。根據已知資訊，budesonide 屬於糖皮質激素類藥物，一般認為可抑制 Th2 細胞激素、嗜酸性白血球活化與 NF-κB 訊號，這些路徑與異位性皮膚炎的皮膚發炎有關，因此機轉上具合理性。
 
 需要注意的是，局部皮質類固醇本來就是異位性皮膚炎的標準治療之一，因此模型的高分較可能反映整個藥物類別的效應，而非 budesonide 特有的訊號。
 
@@ -126,11 +126,12 @@ TxGNN 模型預測它可能對**異位性皮膚炎 (atopic eczema)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本地資料中共有 20 張單一成分許可證，皆為有效狀態，以上僅列出其中 5 張，清」→「香港共有 29 張含本藥成分的許可證（全部有效；單一成分 2」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da) |
 
 <!-- review:end log -->
 

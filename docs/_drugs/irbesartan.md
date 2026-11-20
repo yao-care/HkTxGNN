@@ -55,7 +55,7 @@ Irbesartan 是血管張力素 II 第一型受體阻斷劑（ARB），原本用�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Irbesartan 屬於 ARB 類藥物，透過阻斷血管張力素 II 第一型受體來降低血壓、保護腎臟，其在高血壓與糖尿病腎病變中的療效已被證實。
+根據美國 FDA 核准的 Irbesartan 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Angiotensin II是一種強效血管收縮劑，由angiotensin I經血管收縮素轉化酶（ACE，kininase II）催化的反應生成。Angiotensin II是腎素-血管收縮素系統的主要血管活性激素，亦是高血壓病理生理學中的重要組成部分。[…] Irbesartan透過選擇性結合存在於多種組織（例如血管平滑肌、腎上腺）中的AT 1 angiotensin II受體，阻斷angiotensin II的血管收縮及促進醛固酮分泌作用。」英文原文："Angiotensin II is a potent vasoconstrictor formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. […] Irbesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively binding to the AT 1 angiotensin II receptor found in many tissues (e.g., vascular smooth muscle, adrenal gland)."（[DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98)，版本日期 2026-08-24；查閱日期 2026-11-19）。根據已知資訊，Irbesartan 屬於 ARB 類藥物，透過阻斷血管張力素 II 第一型受體來降低血壓、保護腎臟，其在高血壓與糖尿病腎病變中的療效已被證實。
 
 腎血管性高血壓主要由腎素－血管張力素系統（RAS）過度活化所驅動，因此阻斷此路徑在機轉上具合理性，且與已核准的高血壓適應症高度相關。
 
@@ -115,11 +115,12 @@ Irbesartan 是血管張力素 II 第一型受體阻斷劑（ARB），原本用�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「共 20 張有效單方許可證，」→「共 46 張含本藥成分的許可證，全部有效，單一成分 29 張」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98) |
 
 <!-- review:end log -->
 

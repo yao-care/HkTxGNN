@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**肺部疾病及/或缺氧所致肺高壓 (pulmon
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Felodipine 屬於二氫吡啶類 L 型鈣離子通道阻斷劑，一般認為會使血管平滑肌鬆弛、降低血管阻力。從機轉推想，鈣離子通道參與的肺血管收縮（包括缺氧性肺血管收縮）可能是一個潛在標的。
+根據美國 FDA 核准的 Felodipine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Felodipine屬於二氫吡啶類鈣離子通道拮抗劑（鈣離子通道阻斷劑）。它可與nitrendipine及/或其他鈣離子通道阻斷劑可逆性地競爭二氫吡啶結合位點，阻斷血管平滑肌及培養的兔心房細胞中電壓依賴性Ca ++電流，並阻斷鉀離子誘導的大鼠門靜脈攣縮。」英文原文："Felodipine is a member of the dihydropyridine class of calcium channel antagonists (calcium channel blockers). It reversibly competes with nitrendipine and/or other calcium channel blockers for dihydropyridine binding sites, blocks voltage-dependent Ca ++ currents in vascular smooth muscle and cultured rabbit atrial cells, and blocks potassium-induced contracture of the rat portal vein."（[DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115)，版本日期 2024-08-07；查閱日期 2026-11-19）。Felodipine 屬於二氫吡啶類 L 型鈣離子通道阻斷劑，一般認為會使血管平滑肌鬆弛、降低血管阻力。從機轉推想，鈣離子通道參與的肺血管收縮（包括缺氧性肺血管收縮）可能是一個潛在標的。
 
 高血壓與肺高壓都涉及血管張力異常，這是模型預測的可能依據。不過，目前取得的文獻都是前臨床或非肺部缺氧模型（大鼠腎小管、人類心房肌、腦動脈、腦血流、行為學實驗等），顯示的是缺氧再灌流下的細胞保護與血管舒張作用，並未研究肺血管或肺高壓病人，因此連結只是間接的機轉推論。
 
@@ -121,6 +121,19 @@ TxGNN 模型預測它可能對**肺部疾病及/或缺氧所致肺高壓 (pulmon
 - 針對肺血管與肺高壓病人的直接研究（含氣體交換與通氣灌流影響的評估）
 - 確認是否存在對血管反應性試驗呈陽性、可能受益的特定族群
 - 評估與常用藥物（如 CYP3A4 抑制劑）交互作用的風險管理計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

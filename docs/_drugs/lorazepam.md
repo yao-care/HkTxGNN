@@ -56,12 +56,11 @@ TxGNN 模型預測分數最高的新適應症是**三叉神經腫瘤 (Trigeminal
 | 許可證數 | 9 張（有效 9 張） |
 | 建議決策 | Hold |
 
-
 ---
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Lorazepam 是 GABA-A 受體正向異構調節劑，具有抗焦慮、鎮靜與抗痙攣作用。
+根據美國 FDA 核准的 Lorazepam 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Lorazepam 透過與腦內 γ-胺基丁酸-A（GABA A ）受體的 benzodiazepine 位點結合，而發揮治療焦慮症的作用，並增強 GABA 介導的突觸抑制。」英文原文："Lorazepam exerts its effect for the treatment of anxiety disorders through binding to the benzodiazepine site of the gamma-aminobutyric acid-A (GABA A ) receptors in the brain and enhances GABA-mediated synaptic inhibition."（[DailyMed: Loreev Xr (lorazepam) prescribing information, Almatica Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=227734c1-bf01-9607-73ea-5a1f38a89bd9)，版本日期 2025-10-08；查閱日期 2026-11-19）。根據已知資訊，Lorazepam 是 GABA-A 受體正向異構調節劑，具有抗焦慮、鎮靜與抗痙攣作用。
 
 就**三叉神經腫瘤**而言，機轉上看不出合理的連結。Lorazepam 對神經腫瘤沒有已知的抗腫瘤作用，0.9987 的高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。即使在神經腫瘤情境中使用，也只是處理焦慮或癲癇的支持性照護，並非治療腫瘤本身。
 
@@ -135,6 +134,19 @@ TxGNN 模型預測分數最高的新適應症是**三叉神經腫瘤 (Trigeminal
 - 若要研究失眠：需近期、設計良好的 RCT 或系統性回顧，並與現行指引的首選藥物比較
 - 若要研究反射性癲癇：需蒐集臨床病例或對照資料，評估 Lorazepam 的實際療效
 - 三叉神經腫瘤：除非有新的機轉或臨床證據，不建議投入資源
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Loreev Xr (lorazepam) prescribing information, Almatica Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=227734c1-bf01-9607-73ea-5a1f38a89bd9) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

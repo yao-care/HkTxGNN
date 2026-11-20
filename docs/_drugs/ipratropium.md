@@ -59,7 +59,7 @@ Ipratropium 是吸入型抗膽鹼支氣管擴張劑，原本用於慢性阻塞�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（原始 MOA 欄位未提供）。依文獻補充，Ipratropium 是非選擇性蕈毒鹼受體拮抗劑，可阻斷氣道平滑肌 M3 受體所介導的支氣管收縮，這是 COPD 與氣喘支氣管擴張的既定機轉。
+根據美國 FDA 核准的 Ipratropium 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ipratropium bromide是一種抗膽鹼（副交感神經阻斷）藥物；根據動物研究，其似乎通過拮抗乙醯膽鹼（肺部神經肌肉接頭釋放的傳遞物質）的作用，抑制迷走神經介導的反射。抗膽鹼藥物可防止因乙醯膽鹼與支氣管平滑肌上的毒蕈鹼受體相互作用而引起的細胞內Ca++濃度升高。」英文原文："Ipratropium bromide is an anticholinergic (parasympatholytic) agent which, based on animal studies, appears to inhibit vagally-mediated reflexes by antagonizing the action of acetylcholine, the transmitter agent released at the neuromuscular junctions in the lung. Anticholinergics prevent the increases in intracellular concentration of Ca++ which is caused by interaction of acetylcholine with the muscarinic receptors on bronchial smooth muscle."（[DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884)，版本日期 2025-11-05；查閱日期 2026-11-19）。依文獻補充，Ipratropium 是非選擇性蕈毒鹼受體拮抗劑，可阻斷氣道平滑肌 M3 受體所介導的支氣管收縮，這是 COPD 與氣喘支氣管擴張的既定機轉。
 
 阻塞性肺病涵蓋 COPD、肺氣腫與支氣管疾病，與 Ipratropium 已知適應症直接重疊，因此這個預測在機轉上合理，但主要是「同適應症的泛化」，而非全新用途。
 
@@ -156,6 +156,18 @@ Ipratropium 是吸入型抗膽鹼支氣管擴張劑，原本用於慢性阻塞�
 | 8 | 氣管疾病 | 0.9966 | L4 | 研究問題（多為前臨床證據） |
 | 9 | 過敏性休克 | 0.9938 | L4 | Hold（有 Ipratropium 引發過敏性休克的病例報告） |
 | 10 | 食物依賴性運動誘發過敏性休克 | 0.9936 | L5 | Hold |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**注意力不足過動症 (ADHD)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Ropinirole 為 D2/D3 多巴胺受體促效劑，ADHD 的病理與多巴胺失調有關，因此機轉上有可能適用。
+根據美國 FDA 核准的 Ropinirole 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ropinirole是一種非麥角類多巴胺促效劑。Ropinirole治療帕金森氏症的確切作用機轉尚不明確，但一般認為與其刺激腦內尾狀核－殼核多巴胺D 2受體的能力有關。」英文原文："Ropinirole is a non-ergoline dopamine agonist. The precise mechanism of action of ropinirole as a treatment for Parkinson’s disease is unknown, although it is thought to be related to its ability to stimulate dopamine D 2 receptors within the caudate-putamen in the brain."（[DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da)，版本日期 2026-11-06；查閱日期 2026-11-19）。已知 Ropinirole 為 D2/D3 多巴胺受體促效劑，ADHD 的病理與多巴胺失調有關，因此機轉上有可能適用。
 
 ADHD 與不寧腿症候群（知識圖譜中記錄的 ropinirole 使用方向）常同時出現，兩者可能共有多巴胺與鐵代謝路徑。一篇 2005 年的文獻回顧討論了這種關聯，以及兩者共用藥物治療的可能性。
 
@@ -117,6 +117,19 @@ ADHD 與不寧腿症候群（知識圖譜中記錄的 ropinirole 使用方向）
 ---
 
 **其他排名較低的預測（皆建議 Hold）：** 精神分裂症有 11 篇文獻，但多為前臨床或藥物類別層級的研究，且多巴胺促效劑有加重精神病症狀的風險，故不建議推進。其餘預測（顏面指趾生殖器症候群、多小腳腦回合併小腦發育不全、視網膜失養症、X 連鎖近視、醣基化先天異常、非典型甘胺酸腦病變、腓骨肌萎縮症 1G 型等）僅有模型預測，無任何臨床試驗或文獻，證據等級均為 L5。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

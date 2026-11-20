@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline acquired 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Bictegravir 屬於整合酶鏈轉移抑制劑（INSTI），作用在病毒 DNA 嵌入宿主基因體的步驟。
+ChEMBL（EMBL-EBI）收錄的 Bictegravir 作用機轉（非官方翻譯）：「第 1 型人類免疫不全病毒整合酶抑制劑」英文原文："Human immunodeficiency virus type 1 integrase inhibitor"（[ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866)，CC BY-SA 3.0；查閱日期 2026-11-19）。已知 Bictegravir 屬於整合酶鏈轉移抑制劑（INSTI），作用在病毒 DNA 嵌入宿主基因體的步驟。
 
 貓免疫缺乏病毒 (FIV) 是與 HIV 相近的慢病毒，其整合酶在結構上與 HIV-1 整合酶有相似之處，因此理論上可能受到抑制。
 
@@ -101,6 +101,19 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline acquired 
 - 補充詳細的作用機轉資料
 - 取得香港仿單的警語與禁忌症資訊
 - 若目標是 HIV 研究模型，可另行評估 SIV 感染相關的前臨床資料
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

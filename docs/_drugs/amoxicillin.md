@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**多株性高黏滯症候群 (polyclonal hypervis
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知資訊，Amoxicillin 是 β-內醯胺類抗菌藥，透過抑制細菌細胞壁合成而殺菌。
+根據美國 FDA 核准的 Amoxicillin 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Amoxicillin 是一種抗菌藥物。[…] Amoxicillin 對處於活躍繁殖期的敏感細菌所具有的殺菌作用與 penicillin 相似。其作用是透過抑制細胞壁生物合成，進而導致細菌死亡。」英文原文："Amoxicillin is an antibacterial drug. […] Amoxicillin is similar to penicillin in its bactericidal action against susceptible bacteria during the stage of active multiplication. It acts through the inhibition of cell wall biosynthesis that leads to the death of the bacteria."（[DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e9274c-c02e-44d9-8cc5-17536ef03a77)，版本日期 2026-11-13；查閱日期 2026-11-19）。就已知資訊，Amoxicillin 是 β-內醯胺類抗菌藥，透過抑制細菌細胞壁合成而殺菌。
 
 多株性高黏滯症候群是由血清免疫球蛋白升高所導致的血液黏滯度上升，並非感染性疾病。Amoxicillin 對免疫球蛋白的生成或血液黏滯度沒有已知作用，因此**目前找不到可信的機轉連結**。
 
@@ -113,11 +113,12 @@ TxGNN 模型預測它可能對**多株性高黏滯症候群 (polyclonal hypervis
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「資料顯示共有 20 張單一成分許可證皆為有效，但清單可能不完整。」→「香港共有 156 張含本藥成分的許可證（有效 153 張、已」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e9274c-c02e-44d9-8cc5-17536ef03a77) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**乾眼症 (dry eye syndrome)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Cysteine 屬含硫醇基的胺基酸，是穀胱甘肽的前驅物，理論上具抗氧化、清除活性氧 (ROS) 的潛力。
+根據美國 FDA 核准的 Cysteine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「內源性半胱胺酸（cysteine）是經由轉硫途徑，由胱硫醚酶（cystathionase）催化甲硫胺酸合成而來，並作為麩胱甘肽及牛磺酸的前驅受質。ELCYS ® 可為需要腸外營養（PN）且因胱硫醚酶活性不足或缺乏而無法合成足量半胱胺酸的患者，向全身循環提供半胱胺酸。」英文原文："Endogenous cysteine is synthesized from methionine by the enzyme, cystathionase, via the trans-sulfuration pathway, and serves as a precursor substrate for both glutathione and taurine. ELCYS ® provides cysteine to the systemic circulation of patients who require PN and cannot synthesize adequate quantities of cysteine due to insufficient or deficient cystathionase activity."（[DailyMed: Elcys (cysteine hydrochloride) prescribing information, Exela Pharma Sciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52317b38-b2e6-4a1c-b5b0-43cada0d205e)，版本日期 2026-04-09；查閱日期 2026-11-19）。Cysteine 屬含硫醇基的胺基酸，是穀胱甘肽的前驅物，理論上具抗氧化、清除活性氧 (ROS) 的潛力。
 
 乾眼症的病理與過量 ROS 及 NLRP3 發炎體所致的淚腺與眼表損傷有關，因此抗氧化作用在機轉上有合理性。
 
@@ -109,6 +109,19 @@ TxGNN 模型預測它可能對**乾眼症 (dry eye syndrome)** 有效，
 - 評估眼用劑型與給藥途徑的可行性及局部安全性
 - 取得詳細作用機轉資料
 - 取得原廠仿單的警語、禁忌與藥物交互作用資訊
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Elcys (cysteine hydrochloride) prescribing information, Exela Pharma Sciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52317b38-b2e6-4a1c-b5b0-43cada0d205e) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

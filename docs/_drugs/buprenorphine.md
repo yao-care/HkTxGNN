@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**急性間歇性紫質症 (Acute Intermittent Por
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Buprenorphine 為鴉片類受體的部分促效劑，在鴉片類依賴治療中的角色已獲確立，但與紫質症之間尚無可信的機轉連結。
+根據美國 FDA 核准的 Buprenorphine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「SUBLOCADE 注射劑含有 buprenorphine。Buprenorphine 是 mu 類鴉片受體的部分促效劑，以及 kappa 類鴉片受體的拮抗劑。」英文原文："SUBLOCADE Injection contains buprenorphine. Buprenorphine is a partial agonist at the mu- opioid receptor and an antagonist at the kappa-opioid receptor."（[DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95)，版本日期 2026-07-27；查閱日期 2026-11-19）。Buprenorphine 為鴉片類受體的部分促效劑，在鴉片類依賴治療中的角色已獲確立，但與紫質症之間尚無可信的機轉連結。
 
 唯一檢索到的文獻是一篇麻醉管理病例報告，顯示 buprenorphine 類鴉片藥物可在紫質症病人的手術期間使用。這只說明「可以在這類病人身上使用」，並不表示對疾病本身有治療作用。
 
@@ -129,6 +129,19 @@ TxGNN 的高分（0.9941）屬於模型預測，並未獲得臨床資料支持�
 - 針對紫質症的致紫質性（porphyrinogenicity）進行獨立安全性評估
 - 取得香港仿單的警語與禁忌症資料
 - 進行系統性文獻檢索，確認是否有任何直接療效證據，再評估是否值得設計探索性研究
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -57,7 +57,7 @@ TxGNN 模型預測分數最高的是**三叉神經腫瘤 (trigeminal nerve neopl
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫中未收錄）。依一般藥理知識，Phenytoin 為電壓門控鈉通道阻斷劑，以使用依賴性方式降低神經元的高頻異常放電。
+根據美國 FDA 核准的 Phenytoin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Phenytoin 發揮其治療效果的確切機轉尚未確立，但一般認為涉及對細胞膜鈉離子通道的電位依賴性阻斷，從而減少持續性高頻神經元放電。」英文原文："The precise mechanism by which phenytoin exerts its therapeutic effect has not been established but is thought to involve the voltage-dependent blockade of membrane sodium channels resulting in a reduction in sustained high-frequency neuronal discharges."（[DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353)，版本日期 2026-06-25；查閱日期 2026-11-19）。依一般藥理知識，Phenytoin 為電壓門控鈉通道阻斷劑，以使用依賴性方式降低神經元的高頻異常放電。
 
 三叉神經痛被認為與三叉神經根的血管壓迫、局部脫髓鞘及異常神經放電有關。這種機轉與癲癇的神經過度興奮相似，也與一線藥物 carbamazepine 的作用方式相同，因此 Phenytoin 在機轉上適用於此疾病。文獻中，Phenytoin 常被列為二線藥物或急性發作的急救選項。
 
@@ -121,6 +121,19 @@ TxGNN 模型預測分數最高的是**三叉神經腫瘤 (trigeminal nerve neopl
 - 補充 DrugBank 的作用機轉資料
 - 設計或查找三叉神經痛的前瞻性對照研究（尤其是與 carbamazepine 的比較）
 - 制訂 IV 使用的心臟監測與血中濃度監測計畫，並審視高風險族群與 DDI
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

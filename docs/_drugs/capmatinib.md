@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 ## 為什麼這個預測合理？
 
-Capmatinib 是選擇性 MET 酪胺酸激酶抑制劑。目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位未收錄），上述機轉描述來自本報告編纂的分析。
+Capmatinib 是選擇性 MET 酪胺酸激酶抑制劑。根據美國 FDA 核准的 Capmatinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Capmatinib 是一種以 MET（包括 exon 14 跳躍所產生的突變型）為標靶的激酶抑制劑。MET exon 14 跳躍會產生一種缺少調節區域的蛋白質，使其負向調節作用減弱，進而導致下游 MET 訊息傳遞增加。」英文原文："Capmatinib is a kinase inhibitor that targets MET, including the mutant variant produced by exon 14 skipping. MET exon 14 skipping results in a protein with a missing regulatory domain that reduces its negative regulation leading to increased downstream MET signaling."（[DailyMed: Tabrecta (capmatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=455892c3-d144-4ba8-9ab4-79cabff9876d)，版本日期 2026-10-26；查閱日期 2026-11-19）。
 
 MET 訊號被認為與類風濕性關節炎的滑膜發炎與血管新生有關，因此在機轉上有一定合理性。不過，目前唯一連結的文獻是 2021 年一篇涵蓋 FDA 核准激酶抑制劑的綜述，並未提供任何類風濕性關節炎的專屬數據。
 
@@ -115,6 +115,19 @@ MET 訊號被認為與類風濕性關節炎的滑膜發炎與血管新生有關�
 - 取得香港原廠仿單的警語與禁忌症，完成安全性初篩
 - 評估與現有類風濕性關節炎治療（如類固醇、免疫抑制劑）的併用風險
 - 若考慮其他預測方向，以「心臟疾病」為例，目前僅有 1 篇前臨床研究（顯示 capmatinib 可減輕 doxorubicin 心臟毒性與 cisplatin 腎毒性），證據等級為 L4，同樣屬 Hold，需人體資料才能進一步評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Tabrecta (capmatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=455892c3-d144-4ba8-9ab4-79cabff9876d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

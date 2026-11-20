@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**拔毛癖 (Trichotillomania)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 pimozide 是強效的多巴胺 D2 受體拮抗劑。皮質－紋狀體－視丘迴路的多巴胺失調，被認為與習慣性及重複性行為疾患有關。
+根據美國 FDA 核准的 Pimozide 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「藥效學作用 Pimozide錠劑是一種口服有效的抗精神病藥品，與其他抗精神病藥物同樣具有阻斷中樞神經系統神經元上多巴胺受體的能力。雖然其確切作用模式尚未確立，但一般認為pimozide抑制妥瑞氏症（Tourette’s Disorder）之動作型及聲語型抽搐的能力，與其多巴胺阻斷活性有關。」英文原文："Pharmacodynamic Actions Pimozide tablets, are an orally active antipsychotic drug product which shares with other antipsychotics the ability to blockade dopaminergic receptors on neurons in the central nervous system. Although its exact mode of action has not been established, the ability of pimozide to suppress motor and phonic tics in Tourette’s Disorder is thought to be a function of its dopaminergic blocking activity."（[DailyMed: pimozide prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=70b079e2-a1f7-4a93-8685-d60a4d7c1280)，版本日期 2026-08-12；查閱日期 2026-11-19）。已知 pimozide 是強效的多巴胺 D2 受體拮抗劑。皮質－紋狀體－視丘迴路的多巴胺失調，被認為與習慣性及重複性行為疾患有關。
 
 拔毛癖與強迫症及抽動症候群屬於相近的疾病譜系，這也是它與妥瑞氏症產生關聯的原因。1992 年的一項小型擴增研究 (Stein & Hollander) 曾測試低劑量 pimozide 作為血清素再吸收抑制劑的輔助治療；皮膚科文獻也討論過 pimozide 用於精神皮膚疾患。
 
@@ -109,6 +109,19 @@ TxGNN 模型預測它可能對**拔毛癖 (Trichotillomania)** 有效，
 - 設計針對拔毛癖的隨機對照試驗，或進行系統性文獻回顧。
 - 建立心電圖 (QT) 監測及交互作用管理計畫。
 - 與已有較佳證據的替代治療（如行為療法、其他藥物）比較。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: pimozide prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=70b079e2-a1f7-4a93-8685-d60a4d7c1280) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效�
 
 ## 為什麼這個預測合理？
 
-Irinotecan 是 SN-38 的前驅藥物，SN-38 為拓樸異構酶 I 抑制劑，可造成 DNA 損傷並誘導快速分裂細胞凋亡。目前缺乏 DrugBank 的詳細作用機轉資料，以上機轉是根據已知藥理推論，而非直接取自資料庫。
+Irinotecan 是 SN-38 的前驅藥物，SN-38 為拓樸異構酶 I 抑制劑，可造成 DNA 損傷並誘導快速分裂細胞凋亡。根據美國 FDA 核准的 Irinotecan 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Irinotecan是喜樹鹼的衍生物。喜樹鹼類藥物與拓撲異構酶I特異性相互作用；拓撲異構酶I通過誘導可逆的單鏈斷裂來釋放DNA的扭轉張力。Irinotecan及其活性代謝物SN-38與拓撲異構酶I-DNA複合物結合，阻止這些單鏈斷裂的重新連接。」英文原文："Irinotecan is a derivative of camptothecin. Camptothecins interact specifically with the enzyme topoisomerase I, which relieves torsional strain in DNA by inducing reversible single-strand breaks. Irinotecan and its active metabolite SN-38 bind to the topoisomerase I-DNA complex and prevent religation of these single-strand breaks."（[DailyMed: Camptosar (irinotecan hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056)，版本日期 2026-05-12；查閱日期 2026-11-19）。
 
 間接證據來自 sacituzumab govitecan（抗 Trop-2 抗體連接 SN-38）。其 Phase III 試驗 TROPiCS-02 針對 HR+/HER2- 轉移性乳癌，顯示 SN-38 作為載荷在乳癌中具活性。但這**並不能證明 irinotecan 本身**對乳癌有效。
 
@@ -160,6 +160,19 @@ Irinotecan 是 SN-38 的前驅藥物，SN-38 為拓樸異構酶 I 抑制劑，�
 - 釐清脂質體 irinotecan（如 PHENOMENAL 研究）、etirinotecan pegol 等劑型的結果能否外推到一般 irinotecan 製劑
 - 針對特定亞型（如三陰性乳癌、HER2 陰性合併腦轉移）設計或尋找 Phase 2 以上、直接使用 irinotecan 的試驗
 - 評估 UGT1A1 基因型檢測（藥物基因體學）以管理毒性風險
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Camptosar (irinotecan hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

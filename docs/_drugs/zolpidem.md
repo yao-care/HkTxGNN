@@ -59,7 +59,7 @@ Zolpidem 是一種非苯二氮平類安眠藥，原本用於治療失眠。
 
 ## 為什麼這個預測合理？
 
-Zolpidem 是 GABA-A 受體的正向異位調節劑，對含 α1 次單元的受體有較高親和力，主要產生鎮靜與催眠作用，因此能直接改善入睡困難與睡眠維持困難。需說明的是，目前缺乏詳細的作用機轉資料，上述機轉來自一般藥理學知識，而非本次整理的資料。
+Zolpidem 是 GABA-A 受體的正向異位調節劑，對含 α1 次單元的受體有較高親和力，主要產生鎮靜與催眠作用，因此能直接改善入睡困難與睡眠維持困難。根據美國 FDA 核准的 Zolpidem 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Zolpidem 為一種 GABA A 受體正向調節劑，推測其於失眠短期治療的療效，是透過與含 α1 次單元之 GABA A 受體的 benzodiazepine 結合位結合，增加氯離子通道開啟的頻率，進而抑制神經元興奮。」英文原文："Zolpidem is a GABA A receptor positive modulator presumed to exert its therapeutic effects in the short-term treatment of insomnia through binding to the benzodiazepine site of α1 subunit containing GABA A receptors, increasing the frequency of chloride channel opening resulting in the inhibition of neuronal excitation."（[DailyMed: Ambien (zolpidem tartrate) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=747949c5-2c91-4909-8a07-71b6826f8e97)，版本日期 2025-02-07；查閱日期 2026-11-19）。
 
 「入睡與維持睡眠障礙」基本上就是失眠的臨床描述，與 Zolpidem 的原適應症高度重疊。因此 TxGNN 的高分預測，更多反映的是模型正確辨識出既有的適應症。
 
@@ -133,6 +133,19 @@ Zolpidem 是 GABA-A 受體的正向異位調節劑，對含 α1 次單元的受�
 - 補充詳細的作用機轉（MOA）資料
 - 針對老年人、肝病、呼吸功能不全及物質依賴病史族群，建立安全性監測與用藥限制計畫
 - 對重度交互作用（如鴉片類藥物）訂定併用管理原則
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ambien (zolpidem tartrate) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=747949c5-2c91-4909-8a07-71b6826f8e97) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

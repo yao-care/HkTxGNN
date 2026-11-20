@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**直腸黏液腺癌 (rectum mucinous adenocarcino
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Carboplatin 屬於鉑類化療藥物，一般認為其作用方式是造成 DNA 損傷、抑制腫瘤細胞分裂。這只是藥物類別層面的通則，並非針對直腸黏液腺癌的機轉證據。
+根據美國 FDA 核准的 Carboplatin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Carboplatin 是一種鉑類藥物，可與 DNA 結合並形成 DNA 交聯。這些交聯會抑制 DNA 複製及轉錄，並引發導致細胞死亡的細胞毒性過程。」英文原文："Carboplatin is a platinum-based drug that binds to DNA and forms DNA cross-links. These crosslinks inhibit DNA replication and transcription and trigger cytotoxic processes that lead to cell death."（[DailyMed: Kyxata (carboplatin) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f91c48da-68d1-4aa7-89b8-d84a3e8b629b)，版本日期 2026-11-09；查閱日期 2026-11-19）。Carboplatin 屬於鉑類化療藥物，一般認為其作用方式是造成 DNA 損傷、抑制腫瘤細胞分裂。這只是藥物類別層面的通則，並非針對直腸黏液腺癌的機轉證據。
 
 這項預測的依據，主要是模型從黏液性腺癌的共同組織型態推得的高分，並非來自直接的臨床或機轉研究。本次查詢沒有找到針對直腸黏液腺癌使用 carboplatin 的試驗或文獻。
 
@@ -116,6 +116,19 @@ TxGNN 模型預測它可能對**直腸黏液腺癌 (rectum mucinous adenocarcino
 - 補充詳細的作用機轉資料，並評估黏液性組織型態對鉑類藥物的敏感性。
 - 取得香港原廠仿單的警語與禁忌症資料，完成安全性評估。
 - 與標準治療比較，評估臨床上是否有納入 carboplatin 的需求。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Kyxata (carboplatin) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f91c48da-68d1-4aa7-89b8-d84a3e8b629b) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

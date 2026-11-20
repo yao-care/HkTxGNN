@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**退化性關節炎 (Osteoarthritis)** 有效。
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Iodixanol 是含碘、等滲透壓的顯影劑，用於影像檢查，沒有證據顯示它具有改變疾病進程的藥理作用。
+根據美國 FDA 核准的 Iodixanol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「血管內注射 iodixanol 可使顯影劑流經路徑上的血管顯影不透光，從而使內部結構得以顯像。在身體造影中，含碘顯影劑會由血管內擴散至血管外腔隙。」英文原文："Intravascular injection of iodixanol opacifies vessels in the path of flow of the contrast agent, permitting visualization of internal structures. In imaging of the body, iodinated contrast agents diffuse from the vascular into the extravascular space."（[DailyMed: Visipaque (iodixanol) prescribing information, GE Healthcare Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d964c13-88ad-43be-88d4-a3a7ea4d5b5e)，版本日期 2026-10-16；查閱日期 2026-11-19）。Iodixanol 是含碘、等滲透壓的顯影劑，用於影像檢查，沒有證據顯示它具有改變疾病進程的藥理作用。
 
 檢索到的文獻是把 iodixanol 當作診斷探針，例如用於關節軟骨的對比增強電腦斷層，以及研究溶質穿越軟骨與軟骨下骨界面的擴散。這些研究說明它能協助觀察退化性關節炎的軟骨狀態，但沒有顯示它能治療該疾病。
 
@@ -114,6 +114,19 @@ TxGNN 模型（深度學習）給出的高分（0.9907）可能反映模型從�
 - 取得香港仿單，確認核准適應症、警語與禁忌症
 - 有直接以 iodixanol 治療退化性關節炎的前臨床或臨床研究，才值得重新評估
 - 若用於關節內注射，需先確認給藥途徑與劑型是否合適（目前路徑相容性尚未評估）
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Visipaque (iodixanol) prescribing information, GE Healthcare Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d964c13-88ad-43be-88d4-a3a7ea4d5b5e) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

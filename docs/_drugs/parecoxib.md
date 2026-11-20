@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料庫記載。根據已知藥理，Parecoxib 是 valdecoxib 的前驅藥物，而 valdecoxib 是選擇性 COX-2 抑制劑。
+ChEMBL（EMBL-EBI）收錄的 Parecoxib 作用機轉（非官方翻譯）：「環氧合酶-2 抑制劑」英文原文："Cyclooxygenase-2 inhibitor"（[ChEMBL CHEMBL1206690 (parecoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1206690)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知藥理，Parecoxib 是 valdecoxib 的前驅藥物，而 valdecoxib 是選擇性 COX-2 抑制劑。
 
 偏頭痛的病理與 COX-2 依賴的前列腺素 (PGE2) 合成有關，後者會促進神經性發炎、三叉神經敏感化與 CGRP 釋放。因此抑制 COX-2 在機轉上有合理性，高 TxGNN 分數（0.9955）與此方向一致。
 
@@ -119,6 +119,19 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 - 補充作用機轉資料（DrugBank）
 - 評估心血管與腎臟風險是否適合偏頭痛族群
 - 如全文結果正向，規劃對照 triptan 或傳統 NSAID 的隨機對照試驗，並確認注射給藥途徑是否符合偏頭痛急性處置情境
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL1206690 (parecoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1206690) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

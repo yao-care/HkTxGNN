@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**腎性低尿酸血症 (Hypouricemia, Renal)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Febuxostat 是選擇性黃嘌呤氧化酶抑制劑，可降低血清尿酸，其在高尿酸血症中的療效已被證實。
+根據美國 FDA 核准的 Febuxostat 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「ULORIC是一種黃嘌呤氧化酶抑制劑，藉由降低血清尿酸達到治療效果。在治療濃度下，預期ULORIC不會抑制參與嘌呤及嘧啶合成與代謝的其他酵素。」英文原文："ULORIC, a xanthine oxidase inhibitor, achieves its therapeutic effect by decreasing serum uric acid. ULORIC is not expected to inhibit other enzymes involved in purine and pyrimidine synthesis and metabolism at therapeutic concentrations."（[DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd)，版本日期 2025-12-24；查閱日期 2026-11-19）。根據已知資訊，Febuxostat 是選擇性黃嘌呤氧化酶抑制劑，可降低血清尿酸，其在高尿酸血症中的療效已被證實。
 
 不過，腎性低尿酸血症的特徵是腎臟尿酸再吸收缺陷（如 URAT1/SLC22A12 或 GLUT9/SLC2A9 功能喪失），患者血中尿酸本來就偏低。進一步降尿酸缺乏明確的治療理由，還可能增加運動誘發急性腎損傷或泌尿道結石的風險。高分預測較可能反映的是模型中該藥與尿酸代謝的網絡鄰近性，而非真正的治療關聯。
 
@@ -136,6 +136,19 @@ TxGNN 模型預測它可能對**腎性低尿酸血症 (Hypouricemia, Renal)** �
 
 - **次黃嘌呤鳥嘌呤磷酸核糖轉移酶部分缺乏症 (partial HPRT deficiency)**（TxGNN 分數 0.9998）：尿酸過度生成，抑制黃嘌呤氧化酶機轉上合理。需留意次黃嘌呤與黃嘌呤累積造成黃嘌呤腎病變或結石的風險。
 - **Lesch-Nyhan 症候群**（TxGNN 分數 0.9968）：可作為對 allopurinol 不耐受時的替代，但無法改善神經與行為症狀；兒童使用與黃嘌呤結石風險需謹慎。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

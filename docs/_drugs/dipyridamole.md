@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**體染色體顯性遺傳病態竇房結症候群
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知的藥理特性而言，Dipyridamole 會提高細胞外腺苷濃度，產生抗血小板與血管擴張作用。
+根據美國 FDA 核准的 Dipyridamole 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Dipyridamole在體外及體內均可抑制血小板、內皮細胞及紅血球對腺苷的攝取；在治療濃度（0.5至1.9 mcg/mL）下，此抑制作用呈劑量依賴性。此抑制作用導致局部腺苷濃度增加，腺苷作用於血小板A 2 受體，從而刺激血小板腺苷酸環化酶，並增加血小板環-3',5'-單磷酸腺苷（cAMP）濃度。」英文原文："Dipyridamole inhibits the uptake of adenosine into platelets, endothelial cells and erythrocytes in vitro and in vivo; the inhibition occurs in a dose-dependent manner at therapeutic concentrations (0.5 to 1.9 mcg/mL). This inhibition results in an increase in local concentrations of adenosine which acts on the platelet A 2 -receptor thereby stimulating platelet adenylate cyclase and increasing platelet cyclic-3',5'-adenosine monophosphate (cAMP) levels."（[DailyMed: dipyridamole prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=226099e2-70bb-4b9b-bb52-c20fbca2aec5)，版本日期 2026-04-29；查閱日期 2026-11-19）。就已知的藥理特性而言，Dipyridamole 會提高細胞外腺苷濃度，產生抗血小板與血管擴張作用。
 
 然而，腺苷可減慢竇房結與房室結的傳導。因此在竇房結功能異常的情況下，這類藥物理論上可能使病情惡化，而非改善。目前資料中看不到支持其有益的機轉。
 
@@ -100,6 +100,18 @@ TxGNN 模型預測它可能對**體染色體顯性遺傳病態竇房結症候群
 - 取得完整的作用機轉資料與原廠仿單中的警語、禁忌症
 - 評估心律傳導方面的安全風險（特別是心搏過緩與房室傳導阻滯）
 - 在出現任何直接針對此疾病的研究證據前，維持暫緩狀態
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: dipyridamole prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=226099e2-70bb-4b9b-bb52-c20fbca2aec5) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

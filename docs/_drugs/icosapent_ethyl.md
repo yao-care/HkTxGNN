@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**血紅素病變 (Hemoglobinopathy)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Icosapent Ethyl 是 EPA 的乙酯製劑，其在高三酸甘油脂血症中的角色已為人所知，機轉上可能適用於血紅素病變。
+根據美國 FDA 核准的 Icosapent Ethyl 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「研究顯示，EPA 可減少肝臟極低密度脂蛋白三酸甘油酯（VLDL-TG）的合成及/或分泌，並增強循環中 VLDL 顆粒的 TG 清除。可能的作用機轉包括：增加 β-氧化；抑制 acyl-CoA:1,2-二醯基甘油醯基轉移酶（DGAT）；減少肝臟中的脂質生成；以及增加血漿脂蛋白脂解酶活性。」英文原文："Studies suggest that EPA reduces hepatic very low-density lipoprotein triglycerides (VLDL-TG) synthesis and/or secretion and enhances TG clearance from circulating VLDL particles. Potential mechanisms of action include increased β-oxidation; inhibition of acyl-CoA:1,2-diacylglycerol acyltransferase (DGAT); decreased lipogenesis in the liver; and increased plasma lipoprotein lipase activity."（[DailyMed: Icosapent (icosapent ethyl) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cc28828d-beab-45cc-a3b6-151c5fee3924)，版本日期 2026-08-10；查閱日期 2026-11-19）。根據已知資訊，Icosapent Ethyl 是 EPA 的乙酯製劑，其在高三酸甘油脂血症中的角色已為人所知，機轉上可能適用於血紅素病變。
 
 以下僅為假說層級的推論，**並未獲得本報告所編纂資料的支持**：EPA 具有抗發炎、抗氧化及穩定細胞膜的作用，可能影響紅血球膜的脂質組成、血管內皮功能，以及血管阻塞相關的發炎反應。這些面向與鐮刀型血球疾病等血紅素病變有關。
 
@@ -110,6 +110,19 @@ TxGNN 模型預測它可能對**血紅素病變 (Hemoglobinopathy)** 有效，
 - 進行系統性文獻回顧，確認 EPA／Omega-3 在血紅素病變（如鐮刀型血球疾病、地中海型貧血）的既有研究
 - 確認目標血紅素病變的具體亞型，並評估投藥途徑相容性
 - 若文獻回顧有正面訊號，再規劃前臨床或小型探索性臨床試驗
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Icosapent (icosapent ethyl) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cc28828d-beab-45cc-a3b6-151c5fee3924) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

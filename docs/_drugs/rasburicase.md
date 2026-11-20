@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**腎性低尿酸血症 (Hypouricemia, Renal)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫中未收錄）。根據一般藥理知識，Rasburicase 是重組尿酸氧化酶，可將尿酸轉化為尿囊素，降低血中尿酸。
+根據美國 FDA 核准的 Rasburicase 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「在人體中，尿酸是嘌呤分解代謝路徑的最終步驟。Rasburicase 催化難溶性尿酸經酵素氧化，轉變為一種無活性且溶解度較高的代謝物（尿囊素 [allantoin]）。」英文原文："In humans, uric acid is the final step in the catabolic pathway of purines. Rasburicase catalyzes enzymatic oxidation of poorly soluble uric acid into an inactive and more soluble metabolite (allantoin)."（[DailyMed: Elitek (rasburicase) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922)，版本日期 2026-07-30；查閱日期 2026-11-19）。根據一般藥理知識，Rasburicase 是重組尿酸氧化酶，可將尿酸轉化為尿囊素，降低血中尿酸。
 
 然而，腎性低尿酸血症本身就是血清尿酸偏低的疾病（常見於 URAT1/SLC22A12 或 GLUT9 功能喪失）。對這類病人再降低尿酸沒有治療依據，還可能造成傷害。因此這個高分預測（0.9999）來自 TxGNN 模型（深度學習），可能反映模型在相關疾病之間學到的相似性，而非生物學證據。
 
@@ -95,6 +95,19 @@ TxGNN 模型預測它可能對**腎性低尿酸血症 (Hypouricemia, Renal)** �
 - 取得詳細的作用機轉資料
 - 取得香港仿單的警語與禁忌症
 - 重新檢視是否有更合理的候選適應症（例如與尿酸代謝相關的急性狀況），並以文獻或試驗佐證
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Elitek (rasburicase) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

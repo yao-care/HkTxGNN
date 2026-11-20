@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**隆突性皮膚纖維肉瘤 (Dermatofibrosarcoma
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Lapatinib 屬於 EGFR/HER2 雙重酪胺酸激酶抑制劑，其在 HER2 陽性乳癌中的療效已被證實。
+根據美國 FDA 核准的 Lapatinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Lapatinib是一種4-anilinoquinazoline激酶抑制劑，可抑制表皮生長因子受體（EGFR [ErbB1]）及人類表皮受體第2型（HER2 [ErbB2]）受體的細胞內酪胺酸激酶區域（估計K i app值分別為3nM及13nM），其解離半衰期大於或等於300分鐘。Lapatinib在體外及多種動物模型中抑制ErbB驅動的腫瘤細胞生長。」英文原文："Lapatinib is a 4-anilinoquinazoline kinase inhibitor of the intracellular tyrosine kinase domains of both Epidermal Growth Factor Receptor (EGFR [ErbB1]) and of Human Epidermal Receptor Type 2 (HER2 [ErbB2]) receptors (estimated K i app values of 3nM and 13nM, respectively) with a dissociation half-life of greater than or equal to 300 minutes. Lapatinib inhibits ErbB-driven tumor cell growth in vitro and in various animal models."（[DailyMed: Tykerb (lapatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee37f88-ec6a-4c30-b8aa-e2c71f93088c)，版本日期 2026-01-27；查閱日期 2026-11-19）。Lapatinib 屬於 EGFR/HER2 雙重酪胺酸激酶抑制劑，其在 HER2 陽性乳癌中的療效已被證實。
 
 然而，DFSP 的主要病因是 COL1A1-PDGFB 融合基因，會活化 PDGFRB 訊號，這也是 imatinib 對此病有效的基礎。依現有資料，EGFR/HER2 抑制與 DFSP 之間並沒有直接的機轉關聯。
 
@@ -127,6 +127,19 @@ Lapatinib 為抗腫瘤藥物（標靶藥物，EGFR/HER2 酪胺酸激酶抑制劑
 - 進行文獻與臨床試驗的系統性檢索，並補充前臨床（細胞或動物模型）驗證。
 - 取得香港仿單的警語與禁忌資料，完成安全性篩選（尤其是 QT 延長、肝毒性、心功能與間質性肺病風險）。
 - 確認劑型與給藥途徑的相容性。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Tykerb (lapatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee37f88-ec6a-4c30-b8aa-e2c71f93088c) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**思覺失調症 (Schizophrenia)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（原廠資料欄位未提供）。根據已知資訊，Selegiline 為選擇性、不可逆的 B 型單胺氧化酶（MAO-B）抑制劑；在較高口服劑量（≥20 mg/天）時，會同時抑制 MAO-A。它能提高多巴胺活性，並具有抗氧化作用。
+根據美國 FDA 核准的 Selegiline 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Selegiline 是單胺氧化酶（MAO）的不可逆抑制劑；MAO 負責調節中樞神經系統及周邊組織中兒茶酚胺及血清素的代謝分解。在建議劑量下，selegiline 對 B 型 MAO（MAO-B，即腦中的主要形式）具選擇性。」英文原文："Selegiline is an irreversible inhibitor of monoamine oxidase (MAO), which regulates the metabolic degradation of catecholamines and serotonin in the central nervous system and peripheral tissues. At recommended doses, selegiline is selective for MAO type B (MAO-B), the major form in the brain."（[DailyMed: Zelapar (selegiline hydrochloride) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=380d7717-2a79-42f3-a712-efe5e7696ba0)，版本日期 2021-06-01；查閱日期 2026-11-19）。根據已知資訊，Selegiline 為選擇性、不可逆的 B 型單胺氧化酶（MAO-B）抑制劑；在較高口服劑量（≥20 mg/天）時，會同時抑制 MAO-A。它能提高多巴胺活性，並具有抗氧化作用。
 
 思覺失調症的陰性症狀（如動機低落、情感平淡）被認為與前額葉多巴胺活性不足有關。抗精神病藥物對陽性症狀有效，但對陰性症狀的療效有限。因此，在抗精神病藥物之外加上低劑量 Selegiline，以增強多巴胺活性，是主要的研究思路。另一個假說是 Selegiline 的抗氧化作用，可能對思覺失調症中的氧化壓力有益。
 
@@ -140,6 +140,19 @@ TxGNN 模型預測它可能對**思覺失調症 (Schizophrenia)** 有效，
 - 整理既有 RCT（如 PMID 17972359、15677608、10587287）的結果，並確認 NCT00456976 的試驗結果
 - 規劃更大型、足夠檢定力的 Phase 2/3 隨機對照試驗，並建立與抗精神病藥物、抗憂鬱劑併用的安全監測計畫
 - 其他預測（多小腦回畸形、岩藻糖基化缺陷的先天性糖基化異常、視網膜失養症）缺乏機轉或臨床證據，建議維持 Hold
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Zelapar (selegiline hydrochloride) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=380d7717-2a79-42f3-a712-efe5e7696ba0) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

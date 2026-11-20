@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對**阻塞性黃疸 (Obstructive Jaundice)** 有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，lactulose 是一種不被吸收的雙糖，常作為滲透性瀉劑與降低血氨的藥物使用，其在肝性腦病變與便秘的角色已為臨床所熟知。
+根據美國 FDA 核准的 Lactulose 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Lactulose可降低血氨濃度，並減輕門體性腦病的程度。這些作用被認為是以下因素的結果：lactulose在結腸中被細菌分解，使結腸內容物酸化。」英文原文："Lactulose causes a decrease in blood ammonia concentration and reduces the degree of portalsystemic encephalopathy. These actions are considered to be results of the following: Bacterial degradation of lactulose in the colon acidifies the colonic contents."（[DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5)，版本日期 2024-12-18；查閱日期 2026-11-19）。根據已知資訊，lactulose 是一種不被吸收的雙糖，常作為滲透性瀉劑與降低血氨的藥物使用，其在肝性腦病變與便秘的角色已為臨床所熟知。
 
 阻塞性黃疸時，腸道缺少膽鹽，腸道屏障受損，容易發生內毒素吸收與細菌移位。內毒素血症被認為與術後腎功能惡化有關。已有研究提出，lactulose 可能降低腸腔內毒素負荷、保護腸道屏障，進而減少術後併發症。體外研究（PMID 2311978）也顯示 lactulose 可抑制內毒素誘發的單核球 TNF 產生。
 
@@ -119,6 +119,19 @@ TxGNN 模型預測它可能對**阻塞性黃疸 (Obstructive Jaundice)** 有效�
 - 系統性搜尋近年的隨機對照試驗與統合分析
 - 補充 lactulose 的作用機轉資料與香港仿單的警語、禁忌與核准適應症
 - 若推進，需明確界定其定位為圍手術期支持性治療，並訂定糖尿病與電解質失衡等族群的監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

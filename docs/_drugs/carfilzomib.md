@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對 **CMM7 (CMM7)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Carfilzomib 屬於蛋白酶體抑制劑，此類藥物會干擾癌細胞的蛋白質降解與存活路徑，因此機轉上可能影響黑色素瘤相關的細胞存活路徑。
+根據美國 FDA 核准的 Carfilzomib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Carfilzomib 是一種四胜肽環氧酮類蛋白酶體抑制劑，可不可逆地結合於 20S 蛋白酶體（26S 蛋白酶體內的蛋白水解核心顆粒）含 N 端蘇胺酸的活性位點。Carfilzomib 在體外對實體腫瘤細胞及血液腫瘤細胞具有抗增生及促細胞凋亡活性。」英文原文："Carfilzomib is a tetrapeptide epoxyketone proteasome inhibitor that irreversibly binds to the N-terminal threonine-containing active sites of the 20S proteasome, the proteolytic core particle within the 26S proteasome. Carfilzomib had antiproliferative and proapoptotic activities in vitro in solid and hematologic tumor cells."（[DailyMed: Kyprolis (carfilzomib) prescribing information, Onyx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6)，版本日期 2025-06-18；查閱日期 2026-11-19）。Carfilzomib 屬於蛋白酶體抑制劑，此類藥物會干擾癌細胞的蛋白質降解與存活路徑，因此機轉上可能影響黑色素瘤相關的細胞存活路徑。
 
 不過，這是一項推論，並沒有針對 CMM7 的任何臨床試驗、文獻或其他資料支持。「CMM7」的疾病定義與其和其他黑色素瘤類疾病的關係，也需要進一步釐清。
 
@@ -107,6 +107,19 @@ CMM7 沒有任何臨床試驗或文獻支持，證據等級為 L5，僅有模型
 - 補充 carfilzomib 的作用機轉資料
 - 進行針對此疾病的前臨床研究（細胞或動物模型）
 - 取得香港原廠仿單，完成警語與禁忌症的安全性評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Kyprolis (carfilzomib) prescribing information, Onyx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

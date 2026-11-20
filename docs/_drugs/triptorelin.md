@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**毛髮過多症 (hypertrichosis (disease))** 有
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Triptorelin 屬於 GnRH 促效劑，一般認為其作用是持續刺激腦下垂體後使性腺荷爾蒙分泌下降，進而降低性荷爾蒙濃度。
+根據美國 FDA 核准的 Triptorelin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Triptorelin 是一種合成的十肽，為促性腺激素釋放激素（GnRH）的致效劑類似物。比較性體外研究顯示，在刺激培養中之分散大鼠腦下垂體細胞單層釋放黃體生成素方面，triptorelin 的活性為天然 GnRH 的 100 倍；在自腦下垂體受體部位置換 125 I-GnRH 方面，其活性為天然 GnRH 的 20 倍。」英文原文："Triptorelin is a synthetic decapeptide agonist analog of gonadotropin releasing hormone (GnRH). Comparative in vitro studies showed that triptorelin was 100-fold more active than native GnRH in stimulating luteinizing hormone release from monolayers of dispersed rat pituitary cells in culture and 20-fold more active than native GnRH in displacing 125 I-GnRH from pituitary receptor sites."（[DailyMed: Trelstar (triptorelin pamoate) prescribing information, Verity Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b84d62-a369-a4b7-5c41-dd1f553a18f3)，版本日期 2026-06-30；查閱日期 2026-11-19）。Triptorelin 屬於 GnRH 促效劑，一般認為其作用是持續刺激腦下垂體後使性腺荷爾蒙分泌下降，進而降低性荷爾蒙濃度。
 
 從這個角度，雄性素或其他性荷爾蒙相關的毛髮變化理論上可能受影響。但以目前資料來看，並沒有建立起 GnRH 促效劑與毛髮過多症之間可信的機轉連結。
 
@@ -102,6 +102,18 @@ TxGNN 模型預測它可能對**毛髮過多症 (hypertrichosis (disease))** 有
 - 取得 triptorelin 的作用機轉資料與原廠仿單中的警語、禁忌症
 - 進行系統性文獻回顧，確認是否有直接研究 triptorelin 用於毛髮過多症的證據
 - 在有任何前臨床或臨床資料支持之前，不建議投入進一步開發
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Trelstar (triptorelin pamoate) prescribing information, Verity Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b84d62-a369-a4b7-5c41-dd1f553a18f3) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

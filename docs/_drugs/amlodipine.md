@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**腦幹梗塞 (brain stem infarction)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Amlodipine 屬於鈣離子通道阻斷劑，一般透過血管擴張與降低血壓發揮作用。
+根據美國 FDA 核准的 Amlodipine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Amlodipine 為一種 dihydropyridine 類鈣拮抗劑（鈣離子拮抗劑或慢通道阻斷劑），可抑制鈣離子跨膜流入血管平滑肌及心肌。實驗數據顯示，amlodipine 可與 dihydropyridine 及非 dihydropyridine 結合位點結合。」英文原文："Amlodipine is a dihydropyridine calcium antagonist (calcium ion antagonist or slow-channel blocker) that inhibits the transmembrane influx of calcium ions into vascular smooth muscle and cardiac muscle. Experimental data suggest that amlodipine binds to both dihydropyridine and nondihydropyridine binding sites."（[DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487)，版本日期 2026-09-28；查閱日期 2026-11-19）。Amlodipine 屬於鈣離子通道阻斷劑，一般透過血管擴張與降低血壓發揮作用。
 
 腦幹梗塞屬於缺血性腦血管疾病，而血壓控制是腦血管疾病預防的重要環節。模型給出的高分，可能反映的是 amlodipine 與腦血管相關疾病之間的網路關聯，而非針對腦幹梗塞本身的獨立證據。
 
@@ -118,12 +118,13 @@ TxGNN 模型預測它可能對**腦幹梗塞 (brain stem infarction)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本地資料顯示 amlodipine 單一成分許可證目前均為有效狀態（有效 20 」→「香港共有 146 張含本藥成分的許可證（有效 141 張、已」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
 | 2026-11-17 | 「以下僅列出部分主要許可證，清單可能並不完整；許可證記錄中未載明核准適應症文字。」→「以下僅列出部分主要許可證，許可證記錄中未載明核准適應症文字。」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487) |
 
 <!-- review:end log -->
 

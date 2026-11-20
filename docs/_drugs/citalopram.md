@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**強迫症 (obsessive-compulsive disorder)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，citalopram 屬於 SSRI 類別，其藥理作用是抑制血清素再吸收，提高突觸間隙的血清素濃度。
+根據美國 FDA 核准的 Citalopram 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Citalopram的作用機轉尚不明確，但推測與其抑制中樞神經系統（CNS）神經元對血清素（5-HT）的再回收，進而增強中樞神經系統內血清素活性有關。」英文原文："The mechanism of action of citalopram is unclear, but is presumed to be related to potentiation of serotonergic activity in the central nervous system (CNS) resulting from its inhibition of CNS neuronal reuptake of serotonin (5-HT)."（[DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177)，版本日期 2023-10-09；查閱日期 2026-11-19）。根據已知資訊，citalopram 屬於 SSRI 類別，其藥理作用是抑制血清素再吸收，提高突觸間隙的血清素濃度。
 
 血清素系統失調被認為與強迫症的病理有密切關係，SSRI 類藥物是強迫症的一線藥物治療。文獻（如 "Obsessive compulsive disorder: serotonin and beyond"）也支持這個機轉觀點。
 
@@ -119,6 +119,18 @@ TxGNN 模型預測它可能對**強迫症 (obsessive-compulsive disorder)** 有�
 - 取得本地仿單的警語、禁忌症與完整適應症資料
 - 評估 QT 延長等心臟風險及與重大交互作用藥物併用的處理計畫
 - 補充詳細的作用機轉資料
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

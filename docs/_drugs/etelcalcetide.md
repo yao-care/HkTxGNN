@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**高磷血症 (hyperphosphatemia (disease))** 有
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，etelcalcetide 屬於擬鈣劑，會活化副甲狀腺細胞上的鈣敏感受體（CaSR），進而降低副甲狀腺素（PTH）。
+根據美國 FDA 核准的 Etelcalcetide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Etelcalcetide 為一種擬鈣劑，可異位調節鈣敏感受體（CaSR）。Etelcalcetide 與 CaSR 結合，並增強細胞外鈣對該受體的活化。活化副甲狀腺主細胞上的 CaSR 可降低 PTH 分泌。」英文原文："Etelcalcetide is a calcimimetic agent that allosterically modulates the calcium-sensing receptor (CaSR). Etelcalcetide binds to the CaSR and enhances activation of the receptor by extracellular calcium. Activation of the CaSR on parathyroid chief cells decreases PTH secretion."（[DailyMed: Parsabiv (etelcalcetide) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c)，版本日期 2026-03-08；查閱日期 2026-11-19）。根據已知資訊，etelcalcetide 屬於擬鈣劑，會活化副甲狀腺細胞上的鈣敏感受體（CaSR），進而降低副甲狀腺素（PTH）。
 
 PTH 下降可減少骨轉換，以及鈣與磷由骨骼釋出，因此血磷可能出現次要性下降。高磷血症與慢性腎臟病的礦物質及骨骼代謝異常密切相關，與此藥物目前使用的臨床背景相同。
 
@@ -108,6 +108,18 @@ PTH 下降可減少骨轉換，以及鈣與磷由骨骼釋出，因此血磷可�
 - 詳細的作用機轉資料
 - 取得香港仿單的警語與禁忌症
 - 與現有磷結合劑比較的療效及低血鈣等風險評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Parsabiv (etelcalcetide) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

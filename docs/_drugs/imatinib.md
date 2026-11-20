@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**心臟纖維肉瘤 (Heart Fibrosarcoma)** 有效
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據文獻與已知資訊，Imatinib 抑制 PDGFR 與 KIT。隆突性皮膚纖維肉瘤（DFSP）帶有 COL1A1-PDGFB 融合，會持續活化 PDGFRB 訊號，這是 Imatinib 在該病的作用基礎。
+根據美國 FDA 核准的 Imatinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Imatinib mesylate是一種蛋白質酪胺酸激酶抑制劑，可抑制BCR-ABL酪胺酸激酶，此為CML中費城染色體異常所產生的持續活化異常酪胺酸激酶。Imatinib可抑制BCR-ABL陽性細胞株以及費城染色體陽性慢性骨髓性白血病之新鮮白血病細胞的增生，並誘導其凋亡。」英文原文："Imatinib mesylate is a protein-tyrosine kinase inhibitor that inhibits the BCR-ABL tyrosine kinase, the constitutive abnormal tyrosine kinase created by the Philadelphia chromosome abnormality in CML. Imatinib inhibits proliferation and induces apoptosis in BCR-ABL positive cell lines as well as fresh leukemic cells from Philadelphia chromosome positive chronic myeloid leukemia."（[DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b)，版本日期 2026-07-13；查閱日期 2026-11-19）。根據文獻與已知資訊，Imatinib 抑制 PDGFR 與 KIT。隆突性皮膚纖維肉瘤（DFSP）帶有 COL1A1-PDGFB 融合，會持續活化 PDGFRB 訊號，這是 Imatinib 在該病的作用基礎。
 
 纖維母細胞來源的肉瘤在組織學上相近，因此模型把 Imatinib 與心臟纖維肉瘤連結起來，機轉上是合理但**間接**的推論。
 
@@ -136,6 +136,19 @@ TxGNN 模型預測它可能對**心臟纖維肉瘤 (Heart Fibrosarcoma)** 有效
 - 纖維母細胞腫瘤（fibroblastic neoplasm）的文獻幾乎都在討論 DFSP，而 DFSP 已是 Imatinib 的既有適應症，因此並非新的再利用機會。
 - 液化脂肪肉瘤（liposarcoma）有 3 個已完成的 Phase 1/2 與 Phase 2 軟組織肉瘤試驗，但機轉上不甚契合，也沒有脂肪肉瘤專屬的結果。
 - 家族性地中海熱、卵巢黏液樣脂肪肉瘤、家族性橫紋肌樣瘤等預測則完全沒有證據支持。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

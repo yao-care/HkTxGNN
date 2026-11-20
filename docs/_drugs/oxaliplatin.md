@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**惡性胸膜間皮瘤 (Malignant Pleural Mesothe
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank 未提供）。根據已知資訊，Oxaliplatin 是鉑類 DNA 交聯劑，會形成股內加成物（intrastrand adducts），抑制 DNA 複製與轉錄。這與 cisplatin 的細胞毒性機轉相同，而 cisplatin 正是間皮瘤標準化療的骨幹。
+根據美國 FDA 核准的 Oxaliplatin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Oxaliplatin 在生理溶液中經由取代不穩定的草酸配體，進行非酶性轉化，形成活性衍生物。過程中會形成數種短暫存在的反應性物質，包括單水合及二水合 DACH 鉑，這些物質會與巨分子共價結合。」英文原文："Oxaliplatin undergoes nonenzymatic conversion in physiologic solutions to active derivatives via displacement of the labile oxalate ligand. Several transient reactive species are formed, including monoaquo and diaquo DACH platinum, which covalently bind with macromolecules."（[DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5)，版本日期 2026-08-24；查閱日期 2026-11-19）。根據已知資訊，Oxaliplatin 是鉑類 DNA 交聯劑，會形成股內加成物（intrastrand adducts），抑制 DNA 複製與轉錄。這與 cisplatin 的細胞毒性機轉相同，而 cisplatin 正是間皮瘤標準化療的骨幹。
 
 原適應症（大腸癌轉移）與新適應症（間皮瘤）都是以鉑類為基礎的化療可以發揮作用的惡性腫瘤，因此機轉上具合理性。已有多項 Phase II 研究把 Oxaliplatin 與 gemcitabine、raltitrexed、vinorelbine 或 bortezomib 併用。
 
@@ -146,6 +146,19 @@ TxGNN 模型預測它可能對**惡性胸膜間皮瘤 (Malignant Pleural Mesothe
 - 取得香港衛生署仿單的警語與禁忌症資料，完成安全性篩選
 - 針對腎、肝、周邊神經與肺部疾病族群的安全性監測計畫
 - 釐清是否適用於特定組織亞型，以及與免疫檢查點抑制劑合併的可能性
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

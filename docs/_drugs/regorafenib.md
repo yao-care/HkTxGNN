@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，目前有 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉（MOA）資料欄位。根據文獻摘要，regorafenib 是口服 diphenylurea 多激酶抑制劑，標靶包括血管新生相關激酶（VEGFR1-3、TIE2）、基質相關激酶（PDGFR-β、FGFR），以及致癌激酶（KIT、RET、RAF）。
+根據美國 FDA 核准的 Regorafenib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Regorafenib 為一種小分子抑制劑，可抑制多種膜結合型及細胞內激酶，此等激酶參與正常細胞功能，以及致癌作用、腫瘤血管新生、轉移及腫瘤免疫等病理過程。在體外生化或細胞試驗中，regorafenib 或其主要人體活性代謝物 M-2 及 M-5，於臨床上已達到的 regorafenib 濃度下，可抑制 RET、VEGFR1、VEGFR2、VEGFR3、KIT、PDGFR-alpha、PDGFR-beta、FGFR1、FGFR2、TIE2、DDR2、TrkA、Eph2A、RAF-1、BRAF、BRAF V600E、SAPK2、PTK5、Abl 及 CSF1R 的活性。」英文原文："Regorafenib is a small molecule inhibitor of multiple membrane-bound and intracellular kinases involved in normal cellular functions and in pathologic processes such as oncogenesis, tumor angiogenesis, metastasis and tumor immunity. In in vitro biochemical or cellular assays, regorafenib or its major human active metabolites M-2 and M-5 inhibited the activity of RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alpha, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl and CSF1R at concentrations of regorafenib that have been achieved clinically."（[DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7)，版本日期 2026-02-09；查閱日期 2026-11-19）。根據文獻摘要，regorafenib 是口服 diphenylurea 多激酶抑制劑，標靶包括血管新生相關激酶（VEGFR1-3、TIE2）、基質相關激酶（PDGFR-β、FGFR），以及致癌激酶（KIT、RET、RAF）。
 
 抗血管新生與 PDGFR/FGFR 訊號抑制，在軟組織肉瘤中具有機轉上的合理性，這也是 TxGNN 給出高分的可能原因。Regorafenib 已被證實對 GIST（一種肉瘤）有效，也支持其在肉瘤領域的探索。
 
@@ -147,11 +147,12 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，目前有 
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-06 | 刪除「如腎細胞癌，已有 Phase 2 研究」 | 更正 | [HkTxGNN 方法論（預測的保留與排除規則）](https://hktxgnn.yao.care/methodology/) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7) |
 
 <!-- review:end log -->
 

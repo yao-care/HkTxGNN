@@ -57,7 +57,7 @@ TxGNN 模型預測它可能對**做作型人格障礙 (histrionic personality di
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Fluvoxamine 屬於 SSRI 類藥物，透過抑制血清素再吸收來調節血清素神經傳導。
+根據美國 FDA 核准的 Fluvoxamine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「fluvoxamine maleate 用於強迫症的作用機轉，推測與其對腦部神經元血清素再回收的專一性抑制作用有關。臨床前研究（包括體外及體內研究）顯示，fluvoxamine 是血清素再回收轉運體的強效抑制劑。」英文原文："The mechanism of action of fluvoxamine maleate in obsessive compulsive disorder is presumed to be linked to its specific serotonin reuptake inhibition in brain neurons. Fluvoxamine has been shown to be a potent inhibitor of the serotonin reuptake transporter in preclinical studies, both in vitro and in vivo."（[DailyMed: fluvoxamine maleate prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9972efbb-46cd-45b7-b71c-35032311b70c)，版本日期 2026-10-26；查閱日期 2026-11-19）。Fluvoxamine 屬於 SSRI 類藥物，透過抑制血清素再吸收來調節血清素神經傳導。
 
 從機轉上推測，血清素調節可能影響情緒不穩定或衝動性等特質，而這些特質與做作型人格障礙的部分表現有關。不過，這僅是推論，並無任何直接證據證實 fluvoxamine 對做作型人格障礙有效。
 
@@ -104,6 +104,18 @@ TxGNN 模型預測它可能對**做作型人格障礙 (histrionic personality di
 - 取得完整的作用機轉資料，建立血清素調節與該疾病特質之間的機轉連結
 - 取得香港仿單的警語與禁忌症，完成安全性評估
 - 若進入研究階段，需制定與其他藥物（特別是嚴重交互作用藥物）併用的風險管理計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: fluvoxamine maleate prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9972efbb-46cd-45b7-b71c-35032311b70c) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

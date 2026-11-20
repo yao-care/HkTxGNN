@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**胃部疾病 (stomach disease)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。檸檬酸是一種常見的有機酸，常用於口服製劑與泡騰劑，與腸胃道用藥場景相鄰，因此模型預測它與胃部疾病有關聯。
+根據美國 FDA 核准的 sodium picosulfate, magnesium oxide, and anhydrous citric acid（含 Citric Acid 的複方） 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Magnesium oxide 與 citric acid 在溶液中反應生成 magnesium citrate，後者為一種滲透劑，可使水分滯留於胃腸道內。」英文原文："Magnesium oxide and citric acid react to create magnesium citrate in solution, which is an osmotic agent that causes water to be retained within the gastrointestinal tract."（[DailyMed: Clenpiq (sodium picosulfate, magnesium oxide, and anhydrous citric acid) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e95fff66-4ec0-4001-a727-33e66a5ec7d5)，版本日期 2026-04-15；查閱日期 2026-11-19）。檸檬酸是一種常見的有機酸，常用於口服製劑與泡騰劑，與腸胃道用藥場景相鄰，因此模型預測它與胃部疾病有關聯。
 
 不過，現有文獻中與胃部最直接相關的，是用檸檬酸作為測試餐來提高 13C-尿素呼氣試驗（幽門螺旋桿菌檢測）的準確度。這屬於診斷輔助用途，並非治療效果。其餘文獻涉及一般飲食與營養、幽門螺旋桿菌生理學、胃癌代謝體學、獸醫與動物研究，皆屬間接證據，無法證明檸檬酸能治療胃部疾病。
 
@@ -109,6 +109,19 @@ TxGNN 模型預測它可能對**胃部疾病 (stomach disease)** 有效，
 - 設計並執行直接評估檸檬酸於胃部疾病的臨床前或早期臨床研究
 - 取得香港原廠仿單，確認警語、禁忌與適應症文字
 - 評估與氟喹諾酮類及含鋁制酸劑併用時的交互作用風險
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Clenpiq (sodium picosulfate, magnesium oxide, and anhydrous citric acid) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e95fff66-4ec0-4001-a727-33e66a5ec7d5) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

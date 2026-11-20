@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**局部僵硬肢症候群 (Focal Stiff Limb Syndr
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Vildagliptin 屬於 DPP-4（二肽基肽酶-4）抑制劑，藥理資料顯示其作用標的包括 DPP4、DPP8、DPP9 與 TRPV4。此類藥物主要透過增強腸促胰島素活性，改善血糖控制。
+ChEMBL（EMBL-EBI）收錄的 Vildagliptin 作用機轉（非官方翻譯）：「二肽基肽酶 IV 抑制劑」英文原文："Dipeptidyl peptidase IV inhibitor"（[ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Vildagliptin 屬於 DPP-4（二肽基肽酶-4）抑制劑，藥理資料顯示其作用標的包括 DPP4、DPP8、DPP9 與 TRPV4。此類藥物主要透過增強腸促胰島素活性，改善血糖控制。
 
 局部僵硬肢症候群屬於僵人症候群譜系，病理多與自體免疫及中樞神經抑制性（GABA 能）功能異常有關。本次整理的資料中，沒有任何文獻或試驗說明 DPP-4 抑制與此病理之間的關聯，因此**無法建立機轉連結**。
 
@@ -112,11 +112,12 @@ TxGNN 模型預測它可能對**局部僵硬肢症候群 (Focal Stiff Limb Syndr
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本藥於香港共有 19 張有效許可證，均為單一成分登記」→「本藥於香港共有 20 張有效許可證（含單一成分製劑與 GALVUS MET 等與」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703) |
 
 <!-- review:end log -->
 

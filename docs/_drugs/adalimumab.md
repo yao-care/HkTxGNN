@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**尾骨過度活動 (hypermobility of coccyx)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Adalimumab 屬於抗 TNF-α 的生物製劑，這類藥物的作用是阻斷發炎訊號，用於免疫相關的發炎性疾病。
+根據美國 FDA 核准的 Adalimumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Adalimumab 產品可專一性地與 TNF-alpha 結合，並阻斷其與 p55 及 p75 細胞表面 TNF 受體的交互作用。在補體存在下，adalimumab 產品於體外亦可溶解表面表現 TNF 的細胞。」英文原文："Adalimumab products bind specifically to TNF-alpha and block its interaction with the p55 and p75 cell surface TNF receptors. Adalimumab products also lyse surface TNF expressing cells in vitro in the presence of complement."（[DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc)，版本日期 2026-11-11；查閱日期 2026-11-19）。Adalimumab 屬於抗 TNF-α 的生物製劑，這類藥物的作用是阻斷發炎訊號，用於免疫相關的發炎性疾病。
 
 尾骨過度活動屬於力學或結構性的問題，並非以 TNF 驅動的發炎為主要成因。因此就目前資料來看，抗 TNF 的機轉與這個疾病之間，並沒有明確的關聯。
 
@@ -100,6 +100,19 @@ TxGNN 模型預測它可能對**尾骨過度活動 (hypermobility of coccyx)** �
 - 確認尾骨過度活動是否存在發炎或 TNF 相關的病理機轉
 - 取得任何直接研究此疾病的臨床或前臨床證據
 - 補充 Adalimumab 的作用機轉資料及香港仿單的警語與禁忌症
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

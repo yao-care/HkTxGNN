@@ -55,7 +55,7 @@ TxGNN 模型的首位預測為罕見的骨骼發育異常症候群，但這些�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（MOA 欄位無資料）。根據藥理學常識，piroxicam 屬於 COX-1/COX-2 抑制劑，透過減少前列腺素合成來降低發炎與疼痛。這與其在類風濕性關節炎、骨關節炎的作用方向一致。
+根據美國 FDA 核准的 Piroxicam 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Piroxicam具有止痛、抗發炎及解熱特性。Piroxicam膠囊的作用機轉與其他NSAIDs相同，尚未完全明瞭，但涉及抑制環氧合酶（COX-1及COX-2）。」英文原文："Piroxicam has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of Piroxicam Capsules, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)."（[DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4)，版本日期 2026-09-29；查閱日期 2026-11-19）。根據藥理學常識，piroxicam 屬於 COX-1/COX-2 抑制劑，透過減少前列腺素合成來降低發炎與疼痛。這與其在類風濕性關節炎、骨關節炎的作用方向一致。
 
 幼年特發性關節炎同為發炎性關節疾病，關節腫痛的病理過程同樣涉及前列腺素，因此 NSAID 機轉上可能適用。已有針對兒童的 piroxicam 研究，包括與 naproxen 的比較試驗與藥物動力學研究。
 
@@ -127,11 +127,12 @@ TxGNN 模型的首位預測為罕見的骨骼發育異常症候群，但這些�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「下表為資料中列出的主要許可證（共至少 20 張，清單可能不完整），資料未載明核准」→「下表為資料中列出的主要許可證（共 53 張含本藥成分的許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4) |
 
 <!-- review:end log -->
 

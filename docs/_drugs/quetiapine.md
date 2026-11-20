@@ -71,7 +71,7 @@ TxGNN 模型排名第一的預測是「視網膜失養症」，但該預測缺�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般而言，quetiapine 是非典型抗精神病藥，已知會拮抗血清素 5-HT2A 與多巴胺 D2 受體。
+根據美國 FDA 核准的 Quetiapine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Quetiapine在所列適應症中的作用機轉尚不清楚。然而，quetiapine在這些適應症中的療效可能是透過合併拮抗第2型多巴胺（D 2 ）及第2A型血清素（5HT 2A ）受體所介導。」英文原文："The mechanism of action of quetiapine in the listed indications is unclear. However, the efficacy of quetiapine in these indications could be mediated through a combination of dopamine type 2 (D 2 ) and serotonin type 2A (5HT 2A ) antagonism."（[DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933)，版本日期 2026-10-08；查閱日期 2026-11-19）。一般而言，quetiapine 是非典型抗精神病藥，已知會拮抗血清素 5-HT2A 與多巴胺 D2 受體。
 
 拔毛症屬於強迫症譜系的身體聚焦重複行為。多巴胺與血清素失調被認為與這類行為有關，非典型抗精神病藥有時被用作輔助治療，因此在機轉上有一定合理性。
 
@@ -148,12 +148,13 @@ TxGNN 模型排名第一的預測是「視網膜失養症」，但該預測缺�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「&#124; 核准張數 &#124; 至少 20 張（清單可能不完整） &#124;」→「&#124; 核准張數 &#124; 59 張（全部有效；皆為單一成分） &#124;」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
 | 2026-11-17 | 「香港許可證清單可能不完整，以下列出 5 張主要許可證，且記錄中未提供劑型與核准適」→「香港共有 59 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933) |
 
 <!-- review:end log -->
 

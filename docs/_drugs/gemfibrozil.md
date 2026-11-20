@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，gemfibrozil 屬於 PPAR-α 促效劑（纖維酸衍生物）類別，用於調節血脂。PPAR 促效作用具有抗發炎與免疫調節效果，例如降低促發炎細胞激素、調節 T 細胞反應，這與類風濕性關節炎的病理有機轉上的關聯。
+根據美國 FDA 核准的 Gemfibrozil 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Gemfibrozil是一種血脂調節劑，可降低血清三酸甘油酯及極低密度脂蛋白（VLDL）膽固醇，並提高高密度脂蛋白（HDL）膽固醇。雖然gemfibrozil治療可能觀察到總膽固醇及低密度脂蛋白（LDL）膽固醇輕度下降，但治療因第IV型高脂蛋白血症而三酸甘油酯升高的患者時，常導致LDL膽固醇上升。」英文原文："Gemfibrozil is a lipid regulating agent which decreases serum triglycerides and very low density lipoprotein (VLDL) cholesterol, and increases high density lipoprotein (HDL) cholesterol. While modest decreases in total and low density lipoprotein (LDL) cholesterol may be observed with gemfibrozil therapy, treatment of patients with elevated triglycerides due to Type IV hyperlipoproteinemia often results in a rise in LDL-cholesterol."（[DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725)，版本日期 2026-11-10；查閱日期 2026-11-19）。根據已知資訊，gemfibrozil 屬於 PPAR-α 促效劑（纖維酸衍生物）類別，用於調節血脂。PPAR 促效作用具有抗發炎與免疫調節效果，例如降低促發炎細胞激素、調節 T 細胞反應，這與類風濕性關節炎的病理有機轉上的關聯。
 
 支持證據僅限於前臨床研究：
 - 一項大鼠佐劑誘發關節炎模型研究（2019 年，Modern Rheumatology）顯示，gemfibrozil 合併減量類固醇，其控制效果與全劑量類固醇相近。
@@ -123,11 +123,12 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 15 張有效的單一成分許可證」→「香港共有 16 張有效的單一成分許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725) |
 
 <!-- review:end log -->
 

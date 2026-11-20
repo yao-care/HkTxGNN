@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**肺高壓 (Pulmonary Hypertension)** 有效，�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Selpercatinib 是一種高度選擇性的 RET 激酶抑制劑，檢索到的文獻顯示其用於 RET 驅動的癌症（RET 融合陽性非小細胞肺癌、多發性內分泌腫瘤 2B 型的甲狀腺髓質癌）。
+根據美國 FDA 核准的 Selpercatinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Selpercatinib是一種激酶抑制劑。Selpercatinib可抑制野生型RET及多種突變RET異構體，以及VEGFR1和VEGFR3，其IC 50值介於0.92 nM至67.8 nM之間。在其他酵素分析中，selpercatinib在較高但仍可於臨床上達到的濃度下，亦可抑制FGFR 1、2及3。」英文原文："Selpercatinib is a kinase inhibitor. Selpercatinib inhibited wild-type RET and multiple mutated RET isoforms as well as VEGFR1 and VEGFR3 with IC 50 values ranging from 0.92 nM to 67.8 nM. In other enzyme assays, selpercatinib also inhibited FGFR 1, 2, and 3 at higher concentrations that were still clinically achievable."（[DailyMed: Retevmo (selpercatinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7fa848ba-a59c-4144-9f52-64d090f4d828)，版本日期 2026-09-11；查閱日期 2026-11-19）。已知 Selpercatinib 是一種高度選擇性的 RET 激酶抑制劑，檢索到的文獻顯示其用於 RET 驅動的癌症（RET 融合陽性非小細胞肺癌、多發性內分泌腫瘤 2B 型的甲狀腺髓質癌）。
 
 目前資料中並未建立 RET 抑制與肺血管重塑之間的機轉路徑。過去曾有帶有 PDGFR 等其他標靶的多激酶抑制劑被探索用於肺動脈高壓，但 Selpercatinib 對 RET 的選擇性很高，這類經驗無法直接套用。
 
@@ -133,6 +133,19 @@ TxGNN 模型預測它可能對**肺高壓 (Pulmonary Hypertension)** 有效，�
 - 取得前臨床研究（如肺高壓動物模型或細胞實驗）證據
 - 取得香港衛生署核准適應症與仿單中的警語、禁忌症
 - 完整評估安全性（特別是心血管與藥物交互作用），再決定是否進入下一階段
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Retevmo (selpercatinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7fa848ba-a59c-4144-9f52-64d090f4d828) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

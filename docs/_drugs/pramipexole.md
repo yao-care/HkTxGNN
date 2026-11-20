@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**注意力不足過動症 (ADHD)** 有效，但�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Pramipexole 是對 D2/D3 受體有偏好的多巴胺促效劑，其在帕金森氏症與不寧腿症候群的療效，來自於補足或調節多巴胺訊號。
+根據美國 FDA 核准的 Pramipexole 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Pramipexole是一種非麥角類多巴胺致效劑，在體外對多巴胺受體D 2亞家族具有相對較高的專一性及完全內在活性，且與D 3受體亞型的結合親和力高於D 2或D 4受體亞型。帕金森氏症 Pramipexole治療帕金森氏症的確切作用機轉尚不清楚，但一般認為與其刺激紋狀體多巴胺受體的能力有關。」英文原文："Pramipexole is a non-ergot dopamine agonist with high relative in vitro specificity and full intrinsic activity at the D 2 subfamily of dopamine receptors, binding with higher affinity to D 3 than to D 2 or D 4 receptor subtypes. Parkinson’s Disease The precise mechanism of action of pramipexole as a treatment for Parkinson's disease is unknown, although it is believed to be related to its ability to stimulate dopamine receptors in the striatum."（[DailyMed: pramipexole dihydrochloride prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c)，版本日期 2026-09-09；查閱日期 2026-11-19）。已知 Pramipexole 是對 D2/D3 受體有偏好的多巴胺促效劑，其在帕金森氏症與不寧腿症候群的療效，來自於補足或調節多巴胺訊號。
 
 ADHD 的病理被認為與多巴胺調控異常有關，因此從機轉上有合理但間接的推論空間。不過這僅是理論連結，並非 ADHD 的直接臨床證據。
 
@@ -150,6 +150,19 @@ Pramipexole 在香港共有 14 張有效許可證（均為單一成分，無已�
 - ADHD：設計小規模前導試驗，並先確認妥瑞氏症 RCT 的結果與 ADHD 共病族群的適用性
 - 思覺失調症：取得 NCT01320982 的結果，並與 PMID 35921506 的 RCT 結果交叉比對，評估療效與精神症狀惡化風險
 - 針對精神疾病族群建立安全性監測計畫（精神症狀、衝動控制障礙、嗜睡、低血壓）
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: pramipexole dihydrochloride prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

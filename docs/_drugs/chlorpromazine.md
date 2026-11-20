@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**遺傳性視網膜失養症，伴或不伴眼外
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Chlorpromazine 屬於吩噻嗪類（phenothiazine）抗精神病藥，一般認為主要透過阻斷多巴胺 D2 受體發揮作用，但此點並非本次整理資料所提供，僅為一般藥理背景。
+根據美國 FDA 核准的 Chlorpromazine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Chlorpromazine 產生治療作用的確切機轉尚不清楚。其主要藥理作用為精神作用。它亦具有鎮靜及止吐活性。Chlorpromazine 對中樞神經系統的各個層面均有作用（主要在皮質下層面），亦作用於多個器官系統。」英文原文："The precise mechanism whereby the therapeutic effects of chlorpromazine are produced is not known. The principal pharmacological actions are psychotropic. It also exerts sedative and antiemetic activity. Chlorpromazine has actions at all levels of the central nervous system –primarily at subcortical levels – as well as on multiple organ systems."（[DailyMed: chlorpromazine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd02d051-2a34-4cd3-a137-b965c0381267)，版本日期 2026-11-10；查閱日期 2026-11-19）。Chlorpromazine 屬於吩噻嗪類（phenothiazine）抗精神病藥，一般認為主要透過阻斷多巴胺 D2 受體發揮作用，但此點並非本次整理資料所提供，僅為一般藥理背景。
 
 就本次預測而言，我們未找到支持其可治療遺傳性視網膜失養症的機轉或臨床證據。唯一的文獻是 1967 年關於高劑量 chlorpromazine 與 thioridazine 引起光毒性反應的報告，記錄的是藥物不良反應，不是治療效益，甚至可能不利於用於視網膜疾病。
 
@@ -101,6 +101,19 @@ TxGNN 模型預測它可能對**遺傳性視網膜失養症，伴或不伴眼外
 - 系統性搜尋直接研究此疾病的臨床前或臨床資料
 - 取得原廠仿單的警語與禁忌症，並評估眼部毒性風險（光毒性、角膜／水晶體沉積）
 - 在缺乏上述證據前，不建議投入進一步開發資源
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: chlorpromazine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd02d051-2a34-4cd3-a137-b965c0381267) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

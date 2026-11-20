@@ -59,7 +59,7 @@ TxGNN 模型預測排名第一的新適應症為**自體免疫性卵巢炎 (Auto
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知甘精胰島素是長效基礎胰島素類似物，作用於胰島素受體，用於控制血糖。
+根據美國 FDA 核准的 Insulin Glargine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「胰島素（包括甘精胰島素產品）的主要作用是調節葡萄糖代謝。胰島素及其類似物通過刺激周邊組織（尤其是骨骼肌和脂肪）攝取葡萄糖，以及抑制肝臟葡萄糖生成，從而降低血糖。」英文原文："The primary activity of insulin, including insulin glargine products, is regulation of glucose metabolism. Insulin and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production."（[DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810)，版本日期 2026-10-15；查閱日期 2026-11-19）。已知甘精胰島素是長效基礎胰島素類似物，作用於胰島素受體，用於控制血糖。
 
 自體免疫性卵巢炎是免疫介導的卵巢疾患。目前無法建立兩者之間的直接機轉關聯。模型的高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，例如自體免疫多內分泌症候群等共同的自體免疫內分泌關聯，而非生物學證據。
 
@@ -151,11 +151,12 @@ TxGNN 模型預測排名第一的新適應症為**自體免疫性卵巢炎 (Auto
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「共 7 張有效許可證，以上列出前 5 張。」→「共 8 張許可證（6 張有效；HK-65078、HK-65079 已註銷），以上」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810) |
 
 <!-- review:end log -->
 

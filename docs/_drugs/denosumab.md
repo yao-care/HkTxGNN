@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Denosumab 是針對 RANKL 的單株抗體，可抑制 RANK/RANKL 訊號，減少破骨細胞活化，進而降低骨流失。
+根據美國 FDA 核准的 Denosumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Denosumab 產品與 RANKL 結合；RANKL 是一種跨膜或可溶性蛋白質，對蝕骨細胞（負責骨吸收的細胞）的形成、功能及存活至關重要。Denosumab 產品可阻止 RANKL 活化其位於蝕骨細胞及其前驅細胞表面的受體 RANK。」英文原文："Denosumab products bind to RANKL, a transmembrane or soluble protein essential for the formation, function, and survival of osteoclasts, the cells responsible for bone resorption. Denosumab products prevent RANKL from activating its receptor, RANK, on the surface of osteoclasts and their precursors."（[DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd)，版本日期 2026-11-04；查閱日期 2026-11-19）。已知 Denosumab 是針對 RANKL 的單株抗體，可抑制 RANK/RANKL 訊號，減少破骨細胞活化，進而降低骨流失。
 
 RANK/RANKL 訊號也曾被報告與發炎及血管病變有關，理論上可能與視網膜微血管疾病有關聯。不過這只是**合理但尚未驗證的推測**，無法由目前資料證實。
 
@@ -110,6 +110,19 @@ RANK/RANKL 訊號也曾被報告與發炎及血管病變有關，理論上可能
 - 進行前臨床研究（如糖尿病視網膜病變動物模型）或回溯性世代研究，直接評估視網膜病變結局
 - 取得香港衛生署核准仿單，確認警語、禁忌症與核准適應症
 - 評估給藥途徑的可行性（目前為全身性注射劑，是否適合眼科用途尚待確認）
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

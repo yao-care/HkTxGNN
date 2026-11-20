@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**注意力不足過動症 (ADHD)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉登錄資料。根據已知資訊，solriamfetol 是多巴胺與正腎上腺素再攝取抑制劑 (DNRI)。增強前額葉的兒茶酚胺訊號，正是 ADHD 常用藥物（如 methylphenidate、atomoxetine）的藥理基礎。
+根據美國 FDA 核准的 Solriamfetol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Solriamfetol 改善猝睡症或阻塞性睡眠呼吸中止症相關日間過度嗜睡患者清醒度的作用機轉尚不明確。然而，其療效可能是透過其作為多巴胺及正腎上腺素再回收抑制劑（DNRI）的活性所介導。」英文原文："The mechanism of action of solriamfetol to improve wakefulness in patients with excessive daytime sleepiness associated with narcolepsy or obstructive sleep apnea is unclear. However, its efficacy could be mediated through its activity as a dopamine and norepinephrine reuptake inhibitor (DNRI)."（[DailyMed: Sunosi (solriamfetol) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=362f206b-73e7-4009-8c34-5a9df55679ab)，版本日期 2026-05-05；查閱日期 2026-11-19）。根據已知資訊，solriamfetol 是多巴胺與正腎上腺素再攝取抑制劑 (DNRI)。增強前額葉的兒茶酚胺訊號，正是 ADHD 常用藥物（如 methylphenidate、atomoxetine）的藥理基礎。
 
 猝睡症等嗜睡疾患與 ADHD 都涉及注意力與覺醒調節，且都與多巴胺、正腎上腺素系統有關。因此 DNRI 機轉在 ADHD 上具備合理性，目前的臨床開發計畫也與此一致。
 
@@ -118,6 +118,19 @@ TxGNN 模型預測它可能對**注意力不足過動症 (ADHD)** 有效，
 - 補充詳細的作用機轉資料
 - 制定血壓、心跳、精神症狀與濫用風險的監測計畫
 - 追蹤兒童與青少年試驗（NCT07717892、NCT07717879、NCT07773883）的進展
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Sunosi (solriamfetol) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=362f206b-73e7-4009-8c34-5a9df55679ab) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

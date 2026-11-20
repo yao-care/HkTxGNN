@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**乳頭狀結膜炎 (Papillary Conjunctivitis)** 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般認為水楊酸可能透過抑制 COX 酵素、減少前列腺素合成而發揮抗發炎作用，但這一點尚缺乏公開的生物活性數據佐證，也未能確認其主要分子標的。
+根據美國 FDA 核准的 Salicylic Acid 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「雖然 salicylic acid 治療疣的確切作用方式尚不明確，但其活性似乎與其角質溶解作用有關，此作用可機械性地去除受疣病毒感染的表皮細胞。」英文原文："Although the exact mode of action for salicylic acid in the treatment of warts is unknown, its activity appears to be associated with its keratolytic action, which results in mechanical removal of epidermal cells infected with wart viruses."（[DailyMed: Xalix (salicylic acid) prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41369b38-7f15-b597-e063-6394a90a614b)，版本日期 2025-10-15；查閱日期 2026-11-19）。一般認為水楊酸可能透過抑制 COX 酵素、減少前列腺素合成而發揮抗發炎作用，但這一點尚缺乏公開的生物活性數據佐證，也未能確認其主要分子標的。
 
 乳頭狀結膜炎帶有過敏性／異位性發炎成分，而水楊酸已被用於過敏性鼻炎，因此模型的預測在概念上有一點關聯。
 
@@ -130,11 +130,12 @@ TxGNN 模型預測它可能對**乳頭狀結膜炎 (Papillary Conjunctivitis)** 
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效的單一成分許可證，以下列出 5 張：」→「香港共有 100 張含本藥成分的許可證（全部有效；單一成分 」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Xalix (salicylic acid) prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41369b38-7f15-b597-e063-6394a90a614b) |
 
 <!-- review:end log -->
 

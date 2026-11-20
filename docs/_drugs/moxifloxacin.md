@@ -59,7 +59,7 @@ TxGNN 模型預測分數最高的新適應症為**多形性高黏滯症候群 (P
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就一般藥理知識而言，Moxifloxacin 屬氟喹諾酮類抗菌藥，作用於細菌 DNA 旋轉酶與拓樸異構酶 IV。
+根據美國 FDA 核准的 Moxifloxacin 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Moxifloxacin錠劑屬於氟喹諾酮類抗菌劑。[…] Moxifloxacin的殺菌作用源自其抑制細菌DNA複製、轉錄、修復及重組所需的拓撲異構酶II（DNA旋轉酶）及拓撲異構酶IV。」英文原文："Moxifloxacin Tablet is a member of the fluoroquinolone class of antibacterial agents. […] The bactericidal action of moxifloxacin results from inhibition of the topoisomerase II (DNA gyrase) and topoisomerase IV required for bacterial DNA replication, transcription, repair, and recombination."（[DailyMed: Moxifloxacin (moxifloxacin hydrochloride) prescribing information, Kesin Pharma Corportation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6d3ff1-e853-a3d8-e063-6394a90a18f5)，版本日期 2026-11-06；查閱日期 2026-11-19）。就一般藥理知識而言，Moxifloxacin 屬氟喹諾酮類抗菌藥，作用於細菌 DNA 旋轉酶與拓樸異構酶 IV。
 
 多形性高黏滯症候群是免疫球蛋白過多造成血液黏滯度上升，並非感染性疾病。**目前沒有可辨識的合理機轉連結**，高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據，因此此預測可信度低。
 
@@ -131,6 +131,19 @@ TxGNN 模型預測分數最高的新適應症為**多形性高黏滯症候群 (P
 - 取得 DrugBank 作用機轉資料與香港仿單的警語、禁忌內容
 - 重新評估預測，優先考慮有生物學合理性的疾病
 - 若仍要探討特定疾病，需先有直接研究該疾病的臨床或前臨床證據
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Moxifloxacin (moxifloxacin hydrochloride) prescribing information, Kesin Pharma Corportation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6d3ff1-e853-a3d8-e063-6394a90a18f5) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

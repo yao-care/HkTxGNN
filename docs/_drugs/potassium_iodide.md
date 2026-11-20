@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，碘化鉀長期被用於部分真菌及卵菌感染（如孢子絲菌病、接合菌病），原適應症中的鼻炎、咽炎與感冒則主要依賴其黏液溶解／祛痰作用。
+根據美國 FDA 核准的 Potassium Iodide 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「一般認為碘化鉀透過增加呼吸道分泌物，從而降低黏液黏稠度，以發揮祛痰劑的作用。」英文原文："Potassium iodide is thought to act as an expectorant by increasing respiratory tract secretions and thereby decreasing the viscosity of mucus."（[DailyMed: Potassium Iodide (Saturated) (potassium iodide) prescribing information, Emerald Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bdf305f-ed4a-49d1-8901-edaed8d67850)，版本日期 2026-08-25；查閱日期 2026-11-19）。根據已知資訊，碘化鉀長期被用於部分真菌及卵菌感染（如孢子絲菌病、接合菌病），原適應症中的鼻炎、咽炎與感冒則主要依賴其黏液溶解／祛痰作用。
 
 已檢索到的文獻描述鼻部或鼻顏面感染（腐霉病、麴菌性鼻炎、波氏假阿利什黴菌感染、鼻顏面接合菌病），這些病例使用或涉及碘化鉀治療。因此，較合理的推論是其對**黴菌性鼻腔疾病**可能有抗真菌／抗發炎效果，而非對一般鼻腔疾病皆有效。
 
@@ -126,6 +126,19 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 - 補充碘化鉀的作用機轉資料（可查詢 DrugBank）
 - 將目標縮小為黴菌性鼻竇／鼻腔感染，並系統性回顧人類病例
 - 評估前瞻性研究或臨床試驗的可行性，並制定針對甲狀腺功能、腎功能與血鉀的監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Potassium Iodide (Saturated) (potassium iodide) prescribing information, Emerald Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bdf305f-ed4a-49d1-8901-edaed8d67850) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

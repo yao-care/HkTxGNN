@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**痤瘡 (acne (disease))** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位未收錄）。依已知的藥物類別機轉，Miconazole 屬咪唑類抗黴菌藥，透過抑制 CYP51（羊毛固醇 14-α-去甲基酶）阻斷黴菌麥角固醇合成。
+根據美國 FDA 核准的 Miconazole 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Miconazole為一種抗真菌藥物。[…] Miconazole抑制細胞色素P450 14α-去甲基酶，從而抑制ergosterol（真菌細胞膜的必要成分）的合成。Miconazole亦影響三酸甘油酯及脂肪酸的合成，並抑制氧化酶及過氧化酶，使細胞內活性氧物質的量增加。」英文原文："Miconazole is an antifungal drug. […] Miconazole inhibits the enzyme cytochrome P450 14α-demethylase which leads to inhibition of ergosterol synthesis, an essential component of the fungal cell membrane. Miconazole also affects the synthesis of triglycerides and fatty acids and inhibits oxidative and peroxidative enzymes, increasing the amount of reactive oxygen species within the cell."（[DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a)，版本日期 2026-01-08；查閱日期 2026-11-19）。依已知的藥物類別機轉，Miconazole 屬咪唑類抗黴菌藥，透過抑制 CYP51（羊毛固醇 14-α-去甲基酶）阻斷黴菌麥角固醇合成。
 
 與痤瘡的關聯可從三方面推論：
 1. 體外研究顯示唑類抗黴菌藥對痤瘡丙酸桿菌（*Cutibacterium / Propionibacterium acnes*）具抗菌活性（PMID 20045949）。
@@ -122,11 +122,12 @@ TxGNN 模型預測它可能對**痤瘡 (acne (disease))** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「目前資料顯示香港共有 20 張有效的單一成分許可證，且清單可能不完整。」→「香港共有 86 張含本藥成分的許可證（有效 85 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a) |
 
 <!-- review:end log -->
 

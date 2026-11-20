@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**漿細胞骨髓瘤 (plasma cell myeloma)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Fludarabine 為嘌呤核苷類似物，具淋巴細胞清除（lymphodepletion）與免疫抑制作用，這是其在血液惡性腫瘤治療中的主要角色。
+根據美國 FDA 核准的 Fludarabine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Fludarabine phosphate 會迅速轉換為具活性的 2-fluoro-ara-ATP，其似乎經由抑制 DNA 聚合酶 α、核糖核苷酸還原酶及 DNA 引子酶而抑制 DNA 合成。」英文原文："Fludarabine phosphate is rapidly converted to active 2-fluoro-ara-ATP, which appears to inhibit DNA synthesis through inhibition of DNA polymerase alpha, ribonucleotide reductase and DNA primase."（[DailyMed: fludarabine phosphate prescribing information, Hisun Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=291f6ee2-f5d2-ae6c-e063-6294a90a5951)，版本日期 2026-09-20；查閱日期 2026-11-19）。Fludarabine 為嘌呤核苷類似物，具淋巴細胞清除（lymphodepletion）與免疫抑制作用，這是其在血液惡性腫瘤治療中的主要角色。
 
 在骨髓瘤領域，fludarabine 主要不是單獨的抗骨髓瘤療法，而是作為支持性的處理成分：一是搭配 cyclophosphamide，用於 BCMA 導向 CAR-T 療法（如 idecabtagene vicleucel、ciltacabtagene autoleucel）前的淋巴清除；二是用於異體造血幹細胞移植的減低強度前處理，借助移植物抗骨髓瘤效應。此外，有體外與動物實驗顯示 fludarabine 對骨髓瘤細胞具抑制活性（PMID 17976186），但該研究屬前臨床研究，且文中亦提到其抗骨髓瘤活性仍有爭議。
 
@@ -136,6 +136,18 @@ TxGNN 模型預測它可能對**漿細胞骨髓瘤 (plasma cell myeloma)** 有�
 - 針對 CAR-T 淋巴清除，建立劑量與暴露量的監測及調整方案（考量腎功能與毒性）。
 - 取得本地原廠仿單，確認警語、禁忌症與核准適應症。
 - 設計比較不同前處理或淋巴清除方案的前瞻性研究，以區分 fludarabine 的獨立貢獻。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: fludarabine phosphate prescribing information, Hisun Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=291f6ee2-f5d2-ae6c-e063-6294a90a5951) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

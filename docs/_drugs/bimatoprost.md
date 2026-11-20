@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**伴有牙齒和/或牙周異常的畸形症候�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知資訊，bimatoprost 屬於前列腺素 F2α 類似物（prostamide），作用於 FP 與 prostamide 受體，在眼科用於降低眼壓，並因促進毛髮生長而被用於睫毛增生。
+根據美國 FDA 核准的 Bimatoprost 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Bimatoprost為一種前列腺素類似物，是具有降眼壓活性的前列腺素合成結構類似物。一般認為bimatoprost係藉由增加房水經由小樑網（傳統途徑）及葡萄膜鞏膜途徑（非傳統途徑）兩者的流出而降低人體的眼內壓（IOP）。」英文原文："Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional)."（[DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341)，版本日期 2024-10-16；查閱日期 2026-11-19）。就已知資訊，bimatoprost 屬於前列腺素 F2α 類似物（prostamide），作用於 FP 與 prostamide 受體，在眼科用於降低眼壓，並因促進毛髮生長而被用於睫毛增生。
 
 然而，這個預測的疾病是一種涉及牙齒與牙周結構的先天性畸形症候群。以現有資料來看，找不到可辨識的機轉連結：沒有試驗或文獻顯示 prostamide 類藥物對此類症候群性畸形有作用。高分僅反映模型的圖形式預測，不代表有生物學或臨床依據。
 
@@ -95,6 +95,19 @@ TxGNN 模型預測它可能對**伴有牙齒和/或牙周異常的畸形症候�
 - 釐清 prostamide/FP 受體訊號與此畸形症候群病理之間是否存在機轉關聯
 - 取得基礎或前臨床研究，作為任何臨床評估的前提
 - 補齊作用機轉資料與香港仿單的警語及禁忌症資訊
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**乳突狀結膜炎 (Papillary Conjunctivitis)** 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Salbutamol 為 β2 腎上腺素受體促效劑，在氣道平滑肌鬆弛上的作用已廣為人知。就一般藥理推論，β2 促效劑可能降低肥大細胞釋放介質，因而有可能減輕過敏性眼部發炎，但這只是推測。
+根據美國 FDA 核准的 Salbutamol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Albuterol sulfate 為一種 beta 2 -腎上腺素促效劑。Albuterol sulfate 的藥理作用歸因於活化呼吸道平滑肌上的 beta 2 -腎上腺素受體。活化 beta 2 -腎上腺素受體會導致腺苷酸環化酶活化，並使細胞內環-3', 5’-單磷酸腺苷（cyclic AMP）濃度增加。」英文原文："Albuterol sulfate is a beta 2 -adrenergic agonist. The pharmacologic effects of albuterol sulfate are attributable to activation of beta 2 -adrenergic receptors on airway smooth muscle. Activation of beta 2 -adrenergic receptors leads to the activation of adenylcyclase and to an increase in the intracellular concentration of cyclic-3', 5’-adenosine monophosphate (cyclic AMP)."（[DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d)，版本日期 2024-12-20；查閱日期 2026-11-19）。Salbutamol 為 β2 腎上腺素受體促效劑，在氣道平滑肌鬆弛上的作用已廣為人知。就一般藥理推論，β2 促效劑可能降低肥大細胞釋放介質，因而有可能減輕過敏性眼部發炎，但這只是推測。
 
 乳突狀結膜炎屬眼表過敏／刺激性疾病，與氣喘同屬過敏相關疾病，這是兩者之間可能的關聯。不過，局部眼用 salbutamol 並非已確立的用法，本次資料中也沒有任何試驗或文獻直接研究此疾病。
 
@@ -136,12 +136,13 @@ TxGNN 模型預測它可能對**乳突狀結膜炎 (Papillary Conjunctivitis)** 
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「&#124; 核准數 &#124; 至少 20 張（單一成分許可證，清單可能不完整） &#124;」→「&#124; 核准數 &#124; 45 張（有效 44 張；單一成分 44 張」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
 | 2026-11-17 | 「以下為資料中列出的前 5 張單一成分許可證（總數至少 20 張，清單可能不完整）」→「以下為資料中列出的前 5 張單一成分許可證（共 45 張含本」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d) |
 
 <!-- review:end log -->
 

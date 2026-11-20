@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對**毛外型感染性疾病 (Ectothrix Infectious D
 
 ## 為什麼這個預測合理？
 
-目前缺乏經資料確認的作用機轉資料。就藥理類別而言，Econazole 屬咪唑類抗黴菌藥，一般認為其作用是抑制真菌 14α-去甲基酶 (CYP51)，阻斷麥角固醇合成，破壞真菌細胞膜完整性。此機轉描述屬於分析推論，並非來自本報告的資料欄位。
+根據美國 FDA 核准的 Econazole 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Ecoza 局部用泡沫劑是一種唑類抗真菌藥。[…] Econazole nitrate 是一種唑類抗真菌劑，可抑制真菌細胞色素 P-450 介導的 14α-羊毛固醇去甲基酶。此酶的功能是將羊毛固醇轉化為麥角固醇。14α-甲基固醇的累積與其後真菌細胞壁中麥角固醇的流失相關，且可能是 econazole 抑制真菌活性的原因。」英文原文："Ecoza topical foam is an azole antifungal. […] Econazole nitrate, an azole antifungal agent, inhibits fungal cytochrome P-450-mediated 14 alpha-lanosterol demethylase enzyme. This enzyme functions to convert lanosterol to ergosterol. The accumulation of 14 alpha-methyl sterols correlates with the subsequent loss of ergosterol in the fungal cell wall and may be responsible for the fungistatic activity of econazole."（[DailyMed: Ecoza (econazole nitrate) prescribing information, Resilia Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bb5fa27-32ed-ed13-e063-6394a90a1577)，版本日期 2023-12-04；查閱日期 2026-11-19）。就藥理類別而言，Econazole 屬咪唑類抗黴菌藥，一般認為其作用是抑制真菌 14α-去甲基酶 (CYP51)，阻斷麥角固醇合成，破壞真菌細胞膜完整性。此機轉描述屬於分析推論，並非來自本報告的資料欄位。
 
 毛外型感染是皮癬菌（如小孢子菌、毛癬菌）在毛髮表面形成孢子的感染。分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，並非生物學實證。
 
@@ -117,6 +117,19 @@ TxGNN 模型預測它可能對**毛外型感染性疾病 (Ectothrix Infectious D
 | 建議決策 | Hold |
 
 評估邏輯與上述相同：機轉上有合理性，但孢子位於毛幹內，外用藥穿透受限，缺乏任何實證。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ecoza (econazole nitrate) prescribing information, Resilia Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bb5fa27-32ed-ed13-e063-6394a90a1577) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

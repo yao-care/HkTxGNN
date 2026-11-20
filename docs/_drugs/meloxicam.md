@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**肢中發育不良，Hunter-Thompson 型 (acrome
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Meloxicam 屬於 COX-2 偏好性 NSAID，一般認為是透過降低前列腺素合成來發揮消炎與止痛作用，此為藥物類別的一般知識，並非本次彙整資料所提供。
+根據美國 FDA 核准的 Meloxicam 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Meloxicam具有止痛、抗發炎及退燒特性。Zybic™的作用機轉與其他NSAIDs相同，尚未完全明瞭，但涉及抑制環氧化酶（COX-1及COX-2）。」英文原文："Meloxicam has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of Zybic™, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)."（[DailyMed: Zybic (meloxicam) prescribing information, Redmont Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a1c2d65f-ebb1-48bf-8fa1-c216f7d570ec)，版本日期 2026-09-25；查閱日期 2026-11-19）。Meloxicam 屬於 COX-2 偏好性 NSAID，一般認為是透過降低前列腺素合成來發揮消炎與止痛作用，此為藥物類別的一般知識，並非本次彙整資料所提供。
 
 Hunter-Thompson 型肢中發育不良是罕見的骨骼發育異常，已知與 CDMP1/GDF5 功能喪失變異有關，會影響軟骨生成中的 BMP 訊號傳遞。COX-2 抑制不會矯正這種發育缺陷，因此機轉上缺乏合理連結。
 
@@ -115,11 +115,12 @@ Hunter-Thompson 型肢中發育不良是罕見的骨骼發育異常，已知與 
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本次彙整的清單列出 20 張有效的單一成分許可證，實際張數可能更多。」→「香港共有 29 張含本藥成分的許可證（有效 27 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Zybic (meloxicam) prescribing information, Redmont Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a1c2d65f-ebb1-48bf-8fa1-c216f7d570ec) |
 
 <!-- review:end log -->
 

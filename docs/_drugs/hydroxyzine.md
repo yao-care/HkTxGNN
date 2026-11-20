@@ -55,7 +55,7 @@ Hydroxyzine 是第一代 H1 受體拮抗劑，原本用於異位性皮膚炎、�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位未收錄）。就已知的藥理分類，Hydroxyzine 是第一代 H1 受體拮抗劑（反向促效劑）。過敏性蕁麻疹的風團與紅暈，主要由肥大細胞釋放組織胺所驅動，因此阻斷 H1 受體在機轉上直接對應。
+根據美國 FDA 核准的 Hydroxyzine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Hydroxyzine並非皮質抑制劑，但其作用可能源於抑制中樞神經系統皮質下區域某些關鍵部位的活性。實驗已證實其具有原發性骨骼肌鬆弛作用。」英文原文："Hydroxyzine is not a cortical depressant, but its action may be due to a suppression of activity in certain key regions of the subcortical area of the central nervous system. Primary skeletal muscle relaxation has been demonstrated experimentally."（[DailyMed: hydroxyzine hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a3e389f-391d-4f37-9e34-ce3c6f5fe8c1)，版本日期 2026-11-12；查閱日期 2026-11-19）。就已知的藥理分類，Hydroxyzine 是第一代 H1 受體拮抗劑（反向促效劑）。過敏性蕁麻疹的風團與紅暈，主要由肥大細胞釋放組織胺所驅動，因此阻斷 H1 受體在機轉上直接對應。
 
 蕁麻疹與血管性水腫本來就在 Hydroxyzine 的原適應症清單中，所以這項預測較接近既有適應症的延伸，而非全新的治療方向。
 
@@ -117,6 +117,19 @@ Hydroxyzine 是第一代 H1 受體拮抗劑，原本用於異位性皮膚炎、�
 - 取得香港許可證的核准適應症文字與仿單警語、禁忌症
 - 設計或檢索 Hydroxyzine 對蕁麻疹的對照試驗，並與新一代抗組織胺做比較
 - 建立安全性監測計畫，涵蓋鎮靜、抗膽鹼作用、QT 延長，以及老年與兒童族群的劑量
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: hydroxyzine hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a3e389f-391d-4f37-9e34-ce3c6f5fe8c1) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

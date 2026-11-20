@@ -58,7 +58,7 @@ TxGNN 模型預測分數最高的新適應症是**脫髮 (Alopecia)**，但目�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Milrinone 是 PDE3 抑制劑，會提高細胞內 cAMP，產生強心與血管擴張作用。
+根據美國 FDA 核准的 Milrinone 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Milrinone 是一種正性肌力藥及血管擴張劑，幾乎不具變時性活性，其結構及作用模式均有別於毛地黃苷類或兒茶酚胺類。」英文原文："Milrinone is a positive inotrope and vasodilator, with little chronotropic activity different in structure and mode of action from either the digitalis glycosides or catecholamines."（[DailyMed: Milrinone Lactate In Dextrose (milrinone lactate) prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=838da14b-c070-4c09-b088-99e7c64d9964)，版本日期 2021-08-25；查閱日期 2026-11-19）。已知 Milrinone 是 PDE3 抑制劑，會提高細胞內 cAMP，產生強心與血管擴張作用。
 
 就脫髮而言，只能推測 cAMP 訊號或毛囊血流可能有關，但沒有任何臨床或文獻資料支持。Milrinone 需靜脈給藥，且有心律不整與低血壓風險，不適合用於非危及生命的疾病。這個高分來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 
@@ -121,6 +121,19 @@ TxGNN 模型預測分數最高的新適應症是**脫髮 (Alopecia)**，但目�
 - 評估局部（外用）給藥的可行性，因目前香港許可證皆為注射劑
 - 取得香港仿單的警語與禁忌資料，以及完整的作用機轉資料
 - 若考慮其他方向，急性肺心病（Milrinone 在急性心衰竭與休克中已有使用基礎）可優先評估，但需有血流動力學監測、低血壓與心律不整防範、腎功能劑量調整，並審慎考量吸入給藥途徑
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Milrinone Lactate In Dextrose (milrinone lactate) prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=838da14b-c070-4c09-b088-99e7c64d9964) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**眼疾 (Eye Disease)** 有效，但這個類別�
 
 ## 為什麼這個預測合理？
 
-目前資料中缺乏來自 DrugBank 的詳細作用機轉欄位。不過，依據文獻與試驗資料，nepafenac 是一種前驅藥，經眼組織水解酶轉換為 amfenac，後者是 COX-1/COX-2 抑制劑，可降低前列腺素合成。這能抑制眼部發炎、疼痛與血液-視網膜屏障破壞，與其用於術後發炎及黃斑部水腫的臨床方向一致。
+根據美國 FDA 核准的 Nepafenac 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「局部眼用給藥後，nepafenac 會穿透角膜，並經眼部組織水解酶轉化為 NSAID 類藥物 amfenac。Nepafenac 及 amfenac 被認為可抑制前列腺素 H 合成酶（環氧化酶）的作用，該酵素為前列腺素生成所必需。」英文原文："After topical ocular dosing, nepafenac penetrates the cornea and is converted by ocular tissue hydrolases to amfenac, a NSAID. Nepafenac and amfenac are thought to inhibit the action of prostaglandin H synthase (cyclooxygenase), an enzyme required for prostaglandin production."（[DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547)，版本日期 2026-04-01；查閱日期 2026-11-19）。不過，依據文獻與試驗資料，nepafenac 是一種前驅藥，經眼組織水解酶轉換為 amfenac，後者是 COX-1/COX-2 抑制劑，可降低前列腺素合成。這能抑制眼部發炎、疼痛與血液-視網膜屏障破壞，與其用於術後發炎及黃斑部水腫的臨床方向一致。
 
 「眼疾」是一個涵蓋範圍很廣的類別，與 nepafenac 已上市的眼科用途（白內障術後發炎與疼痛）重疊。因此這個預測較像是對既有用途的確認，而不是發掘全新適應症。在推進前，應先界定具體次適應症，例如術後黃斑部水腫預防、糖尿病視網膜病變相關黃斑水腫等。
 
@@ -143,6 +143,19 @@ TxGNN 模型預測它可能對**眼疾 (Eye Disease)** 有效，但這個類別�
 - 補充詳細的作用機轉資料。
 - 制訂角膜安全性監測計畫，特別針對有角膜疾病或乾眼症的族群。
 - 確認哪些用途屬於新適應症，哪些僅是現有用途的延伸。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

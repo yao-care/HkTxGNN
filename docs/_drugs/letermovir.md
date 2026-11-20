@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**外陰陰道念珠菌病 (Vulvovaginal Candidias
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知藥理而言，Letermovir 抑制 CMV DNA 終止酶複合體（pUL56/pUL51/pUL89），這個標的是疱疹病毒特有的，在念珠菌（真菌）中沒有已知的同源物。
+根據美國 FDA 核准的 Letermovir 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「PREVYMIS 是一種抗 CMV 的抗病毒藥物。[…] Letermovir 抑制 CMV DNA 末端酶複合體（pUL51、pUL56 及 pUL89），該複合體為病毒 DNA 加工及包裝所必需。生化特性分析及電子顯微鏡檢查顯示，letermovir 會影響正確單位長度基因組的產生，並干擾病毒顆粒成熟。」英文原文："PREVYMIS is an antiviral drug against CMV. […] Letermovir inhibits the CMV DNA terminase complex (pUL51, pUL56, and pUL89) which is required for viral DNA processing and packaging. Biochemical characterization and electron microscopy demonstrated that letermovir affects the production of proper unit length genomes and interferes with virion maturation."（[DailyMed: Prevymis (letermovir) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1b49df80-be4f-47e0-a0b7-123f3e69395b)，版本日期 2026-01-14；查閱日期 2026-11-19）。就已知藥理而言，Letermovir 抑制 CMV DNA 終止酶複合體（pUL56/pUL51/pUL89），這個標的是疱疹病毒特有的，在念珠菌（真菌）中沒有已知的同源物。
 
 因此，從現有資料看不出 Letermovir 具有抗黴菌活性的合理機轉。病毒感染與黴菌感染的病原體類型、藥物標的都不同，兩者之間缺乏直接的藥理關聯。
 
@@ -117,6 +117,19 @@ TxGNN 模型（深度學習）給出的高分（0.9988）沒有任何試驗或�
 - 取得香港衛生署的仿單，補齊警語與禁忌症資料
 - 確認給藥途徑與劑型是否適用於陰道局部或全身治療
 - 在上述證據出現之前，不建議投入進一步開發資源
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Prevymis (letermovir) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1b49df80-be4f-47e0-a0b7-123f3e69395b) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**主動脈畸形 (aortic malformation)** 有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。依 Alprostadil 已知的藥理作用，PGE1 可放鬆動脈導管壁的平滑肌，使導管維持開放。對於全身血流依賴導管的主動脈病變（例如主動脈縮窄、主動脈弓中斷），導管通暢是維持下半身灌流的關鍵。
+根據美國 FDA 核准的 Alprostadil 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Alprostadil（PGE1）為一種前列腺素，具有多種藥理作用，包括血管擴張及抑制血小板凝集。Alprostadil 與其受體結合，並經由調節腺苷酸環化酶而增加細胞內環單磷酸腺苷（cAMP）濃度，使海綿體小樑平滑肌鬆弛及海綿體動脈擴張，從而誘發勃起。」英文原文："Alprostadil (PGE1) is a prostaglandin with a wide variety of pharmacological actions including vasodilation and inhibition of platelet aggregation. Alprostadil induces erection by relaxation of trabecular smooth muscle and by dilation of cavernosal arteries by binding to its receptors and increasing intracellular cyclic adenosine monophosphate (cAMP) levels via modulation of adenylate cyclase."（[DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98)，版本日期 2024-05-13；查閱日期 2026-11-19）。依 Alprostadil 已知的藥理作用，PGE1 可放鬆動脈導管壁的平滑肌，使導管維持開放。對於全身血流依賴導管的主動脈病變（例如主動脈縮窄、主動脈弓中斷），導管通暢是維持下半身灌流的關鍵。
 
 此外，其全身性血管擴張與抗發炎作用，可能在體外循環手術前後的圍手術期有所助益。因此，在機轉上，Alprostadil 作為這類先天性主動脈病變手術前的過渡治療是合理的。
 
@@ -105,6 +105,18 @@ TxGNN 模型預測它可能對**主動脈畸形 (aortic malformation)** 有效�
 - 詳細的作用機轉資料（MOA）
 - 取得香港原廠仿單，確認警語、禁忌症與核准適應症
 - 新生兒長時間輸注的安全性監測計畫（呼吸暫停、低血壓、胃出口阻塞、電解質）
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

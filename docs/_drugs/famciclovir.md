@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**感染後神經痛 (post-infectious neuralgia)**
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，famciclovir 是 penciclovir 的前驅藥，屬於針對疱疹病毒的核苷類似物抗病毒藥，其對水痘帶狀疱疹病毒 (VZV) 的作用在帶狀皰疹中已有臨床研究。
+根據美國 FDA 核准的 Famciclovir 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Famciclovir 為抗 α 疱疹病毒藥物 penciclovir 的口服前驅藥。」英文原文："Famciclovir is an orally administered prodrug of the anti-alpha herpes viral agent penciclovir."（[DailyMed: famciclovir prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c44b8d2-3b70-4e8b-af03-2e917178f761)，版本日期 2026-11-13；查閱日期 2026-11-19）。根據已知資訊，famciclovir 是 penciclovir 的前驅藥，屬於針對疱疹病毒的核苷類似物抗病毒藥，其對水痘帶狀疱疹病毒 (VZV) 的作用在帶狀皰疹中已有臨床研究。
 
 疱疹後神經痛是 VZV 再活化後最常見的併發症。若在急性期及早抑制病毒複製，理論上可能減少神經損傷，進而降低神經痛風險，但這個推論屬間接推測。
 
@@ -103,6 +103,19 @@ TxGNN 模型預測它可能對**感染後神經痛 (post-infectious neuralgia)**
 - 取得 famciclovir 的作用機轉資料與香港仿單（警語、禁忌、核准適應症）
 - 搜尋或設計直接比較抗病毒治療與疱疹後神經痛發生率的臨床研究
 - 評估腎功能不全族群的劑量與安全性
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: famciclovir prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c44b8d2-3b70-4e8b-af03-2e917178f761) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

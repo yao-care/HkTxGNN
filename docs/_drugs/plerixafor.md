@@ -56,7 +56,7 @@ TxGNN 模型預測排名第一的新適應症是 **CMM7**，預測分數很高�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Plerixafor 是 CXCR4 拮抗劑，也作用於 ACKR3，會阻斷 CXCR4 與 CXCL12 的結合。這一點來自藥理學資料，不是香港仿單。
+根據美國 FDA 核准的 Plerixafor 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Plerixafor 是 CXCR4 趨化激素受體的抑制劑，可阻斷其同源配體——基質細胞衍生因子-1α（SDF-1α）的結合。SDF-1α 及 CXCR4 已知在人類造血幹細胞（HSCs）遷移及歸巢至骨髓腔室的過程中扮演角色。」英文原文："Plerixafor is an inhibitor of the CXCR4 chemokine receptor and blocks binding of its cognate ligand, stromal cell-derived factor-1α (SDF-1α). SDF-1α and CXCR4 are recognized to play a role in the trafficking and homing of human hematopoietic stem cells (HSCs) to the marrow compartment."（[DailyMed: Mozobil (plerixafor) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ed08d2b-5051-46b2-aa37-1d6275bf9003)，版本日期 2025-09-22；查閱日期 2026-11-19）。根據已知資訊，Plerixafor 是 CXCR4 拮抗劑，也作用於 ACKR3，會阻斷 CXCR4 與 CXCL12 的結合。這一點來自藥理學資料，不是香港仿單。
 
 就 CMM7 而言，現有資料無法建立機轉上的連結。高分只是計算模型的結果，這個疾病與藥物作用機轉的關聯性尚未評估，也沒有試驗或文獻佐證。因此不能把它視為臨床證據。
 
@@ -136,6 +136,19 @@ TxGNN 對骨髓性白血病的預測分數為 0.9902（整體第 6 順位），�
 - 釐清 CMM7 的疾病定義，並檢視其與 CXCR4 軸的生物學關聯。
 - 針對骨髓性白血病，取得上述試驗的療效與安全性結果，並評估是否需要隨機對照試驗。
 - 評估知識圖譜記錄的血小板低下、腎功能受損等風險。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Mozobil (plerixafor) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ed08d2b-5051-46b2-aa37-1d6275bf9003) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

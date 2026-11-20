@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**內斜視 (esotropia)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Aflibercept 屬於 VEGF-A、VEGF-B 與胎盤生長因子（PlGF）的誘捕型抑制劑，主要作用是阻斷這些因子與受體結合，抑制病理性血管新生與血管通透性增加。
+根據美國 FDA 核准的 Aflibercept 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「血管內皮生長因子-A（VEGF-A）及胎盤生長因子（PlGF）為 VEGF 血管新生因子家族的成員，可作為內皮細胞的促有絲分裂因子、趨化因子及血管通透性因子。VEGF 經由存在於內皮細胞表面的兩種受體酪胺酸激酶 VEGFR-1 及 VEGFR-2 發揮作用。[…] Aflibercept 產品作為一種可溶性誘餌受體，可與 VEGF - A 及 PlGF 結合，從而抑制這些同源 VEGF 受體的結合與活化。」英文原文："Vascular endothelial growth factor-A (VEGF-A) and placental growth factor (PlGF) are members of the VEGF family of angiogenic factors that can act as mitogenic, chemotactic, and vascular permeability factors for endothelial cells. VEGF acts via two receptor tyrosine kinases, VEGFR-1 and VEGFR-2, present on the surface of endothelial cells. […] Aflibercept products act as a soluble decoy receptor that binds VEGF - A and PlGF, and thereby can inhibit the binding and activation of these cognate VEGF receptors."（[DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06)，版本日期 2026-10-29；查閱日期 2026-11-19）。根據已知資訊，Aflibercept 屬於 VEGF-A、VEGF-B 與胎盤生長因子（PlGF）的誘捕型抑制劑，主要作用是阻斷這些因子與受體結合，抑制病理性血管新生與血管通透性增加。
 
 內斜視是眼位排列異常的疾病，成因多與神經肌肉控制或屈光因素有關，與 VEGF 驅動的血管病變並無明確的直接關聯。因此，從機轉上看，目前找不到合理的直接連結。
 
@@ -101,6 +101,19 @@ TxGNN 模型預測它可能對**內斜視 (esotropia)** 有效，
 - 進行系統性文獻回顧，確認是否存在任何前臨床或病例層級的證據
 - 取得原廠仿單的警語與禁忌症，完成基本安全性評估
 - 在有前臨床或機轉研究支持之前，不建議投入臨床開發資源
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

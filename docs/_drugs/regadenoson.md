@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對**過敏性休克 (Anaphylaxis)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料庫記載。根據藥理資料，Regadenoson 是選擇性 A2A 腺苷受體促效劑，也與 A1、A2B、A3 受體有結合紀錄。臨床上它透過冠狀動脈血管擴張產生藥物負荷效果，用於心肌灌注造影。
+根據美國 FDA 核准的 Regadenoson 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Regadenoson是A 2A腺苷受體的低親和力促效劑（K i ≈ 1.3 µM），其對A 1腺苷受體的親和力至少低10倍（K i > 16.5 µM），而對A 2B及A 3腺苷受體的親和力微弱，甚至沒有。Regadenoson活化A 2A腺苷受體後，可引起冠狀動脈血管擴張，並增加冠狀動脈血流量（CBF）。」英文原文："Regadenoson is a low affinity agonist (K i ≈ 1.3 µM) for the A 2A adenosine receptor, with at least 10-fold lower affinity for the A 1 adenosine receptor (K i > 16.5 µM), and weak, if any, affinity for the A 2B and A 3 adenosine receptors. Activation of the A 2A adenosine receptor by regadenoson produces coronary vasodilation and increases coronary blood flow (CBF)."（[DailyMed: Lexiscan (regadenoson) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=057289f4-2e18-4c1e-bed4-6c1858e2ef16)，版本日期 2018-12-21；查閱日期 2026-11-19）。根據藥理資料，Regadenoson 是選擇性 A2A 腺苷受體促效劑，也與 A1、A2B、A3 受體有結合紀錄。臨床上它透過冠狀動脈血管擴張產生藥物負荷效果，用於心肌灌注造影。
 
 理論上，A2A 訊號在前臨床模型中具有抗發炎作用，可抑制肥大細胞與免疫細胞活化，這是它與過敏性休克之間的潛在連結。
 
@@ -114,6 +114,19 @@ TxGNN 模型預測它可能對**過敏性休克 (Anaphylaxis)** 有效，
 - 進行系統性文獻回顧，尤其是 A2A 促效劑於肥大細胞與過敏模型的前臨床證據。
 - 若前臨床證據支持，再評估給藥途徑與劑量是否適合（目前為診斷用靜脈注射，單次使用）。
 - 對內斜視的預測，建議不再優先投入資源。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Lexiscan (regadenoson) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=057289f4-2e18-4c1e-bed4-6c1858e2ef16) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

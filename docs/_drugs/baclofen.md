@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**注意力不足過動症 (ADHD)** 有效（分�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 baclofen 是 GABA-B 受體促效劑，可能調節皮質與紋狀體的興奮／抑制平衡以及多巴胺訊號，而這些與衝動性和注意力有關。但這是依機轉所做的推論，並未被現有證據證實。
+根據美國 FDA 核准的 Baclofen 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Baclofen 的確切作用機轉尚未完全明瞭。Baclofen 在脊髓層級同時抑制單突觸及多突觸反射，可能是透過減少傳入神經末梢釋放興奮性神經傳導物質，但亦可能在脊髓上部位發揮作用，並促成其臨床效果。」英文原文："The precise mechanism of action of baclofen is not fully understood. Baclofen inhibits both monosynaptic and polysynaptic reflexes at the spinal level, possibly by decreasing excitatory neurotransmitter release from afferent terminals, although actions at supraspinal sites may also occur and contribute to its clinical effect."（[DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2)，版本日期 2026-09-22；查閱日期 2026-11-19）。已知 baclofen 是 GABA-B 受體促效劑，可能調節皮質與紋狀體的興奮／抑制平衡以及多巴胺訊號，而這些與衝動性和注意力有關。但這是依機轉所做的推論，並未被現有證據證實。
 
 檢索到的文獻主要涉及成人 ADHD 的 methylphenidate 處方、妥瑞氏症與抽動症治療，以及齧齒類動物的衝動決策神經迴路研究。這些與 baclofen 治療 ADHD 並無直接關聯。模型的高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
@@ -137,6 +137,19 @@ TxGNN 模型預測它可能對**注意力不足過動症 (ADHD)** 有效（分�
 - 針對 ADHD 進行系統性文獻回顧，並先以臨床前或小型探索性研究驗證。
 - 評估神經精神安全性（含兒童族群）。
 - 若轉向尼古丁依賴：該預測為 L2，但三個 Phase 2 試驗兩個提前終止、樣本小且無療效結果，需設計足夠樣本的 Phase 2b/3 隨機對照試驗，並以戒菸率為主要終點。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Dextromethorphan 為單一成分藥物，已用於鼻炎、感冒等上呼吸道症狀，一般認為其鎮咳作用可能與中樞性機轉（如 NMDA 受體拮抗、sigma-1 受體活性）有關，但這些在本次資料中無法驗證。
+根據美國 FDA 核准的 dextromethorphan hydrobromide, bupropion hydrochloride（含 Dextromethorphan 的複方） 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Dextromethorphan 是 NMDA 受體（一種離子型麩胺酸受體）的非競爭性拮抗劑及 sigma-1 受體促效劑。Dextromethorphan 治療 MDD 及阿茲海默症所致失智症相關躁動的機轉尚不清楚。」英文原文："Dextromethorphan is an uncompetitive antagonist of the NMDA receptor (an ionotropic glutamate receptor) and a sigma-1 receptor agonist. The mechanism of dextromethorphan in the treatment of MDD and agitation associated with dementia due to Alzheimer’s disease is unclear."（[DailyMed: Auvelity (dextromethorphan hydrobromide, bupropion hydrochloride) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79)，版本日期 2026-08-17；查閱日期 2026-11-19）。根據已知資訊，Dextromethorphan 為單一成分藥物，已用於鼻炎、感冒等上呼吸道症狀，一般認為其鎮咳作用可能與中樞性機轉（如 NMDA 受體拮抗、sigma-1 受體活性）有關，但這些在本次資料中無法驗證。
 
 「鼻腔疾病」是範圍很廣、不具體的疾病分類，與藥物現有的鼻炎、鼻咽炎適應症高度重疊。因此這個高分預測較可能是現有適應症類別的重述，而非真正的新用途。
 
@@ -117,11 +117,12 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「以下為資料中的 20 張許可證（皆為有效、單一成分），列出其中 5 張。」→「香港共有 129 張含本藥成分的許可證（有效 128 張、已」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Auvelity (dextromethorphan hydrobromide, bupropion hydrochloride) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79) |
 
 <!-- review:end log -->
 

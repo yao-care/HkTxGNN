@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**頭痛疾患 (Headache Disorder)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據 ketorolac 已知的藥理，它是非選擇性 COX-1/COX-2 抑制劑，
+根據美國 FDA 核准的 Ketorolac 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Ketorolac tromethamine是一種非類固醇消炎藥（NSAID），在動物模型中顯示出鎮痛活性。與其他NSAID一樣，ketorolac的作用機制尚未完全清楚，但可能與抑制前列腺素合成酶有關。」英文原文："Ketorolac tromethamine is a nonsteroidal anti-inflammatory drug (NSAID) that exhibits analgesic activity in animal models. The mechanism of action of ketorolac, like that of other NSAIDs, is not completely understood but may be related to prostaglandin synthetase inhibition."（[DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f)，版本日期 2026-11-13；查閱日期 2026-11-19）。根據 ketorolac 已知的藥理，它是非選擇性 COX-1/COX-2 抑制劑，
 透過阻斷前列腺素合成，減少周邊與中樞敏感化以及神經源性發炎，而這些機制與偏頭痛和緊張型頭痛的疼痛有關。
 
 原適應症（眼部過敏性結膜炎）同樣依賴 COX 抑制來降低前列腺素介導的發炎，因此兩者在機轉上有共通點。
@@ -165,6 +165,19 @@ TxGNN 模型預測它可能對**頭痛疾患 (Headache Disorder)** 有效，
 - 補充詳細的作用機轉（MOA）資料
 - 訂定使用防護：限制短期使用、排除高風險族群（消化性潰瘍、腎功能不全、心腦血管疾病、出血傾向），並審視與阿斯匹靈、類固醇等的交互作用
 - 若考慮兒童或鼻用劑型，需確認香港是否有對應劑型與核准途徑（目前登記以注射劑為主）
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

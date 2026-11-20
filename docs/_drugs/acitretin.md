@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**痤瘡 (acne)** 有效，目前有 **1 個臨床
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Acitretin 屬於第二代口服 retinoid，可調節角質細胞的分化與增生，並具有抗發炎作用。這些作用與毛囊角化異常及發炎有關，機轉上與痤瘡有可能的關聯。
+根據美國 FDA 核准的 Acitretin 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Acitretin 的作用機轉不明。」英文原文："The mechanism of action of acitretin is unknown."（[DailyMed: acitretin prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6af396c2-af3e-436d-ba9a-583637495910)，版本日期 2026-10-20；查閱日期 2026-11-19）。根據已知資訊，Acitretin 屬於第二代口服 retinoid，可調節角質細胞的分化與增生，並具有抗發炎作用。這些作用與毛囊角化異常及發炎有關，機轉上與痤瘡有可能的關聯。
 
 不過，Acitretin 直接抑制皮脂腺的活性比 isotretinoin 弱，而 isotretinoin 才是治療嚴重痤瘡的主力藥物。現有證據多數來自化膿性汗腺炎（HS，又稱 acne inversa）。TxGNN 預測的「acne」可能與 acne inversa 混淆，因此是否適用於尋常痤瘡仍不確定。
 
@@ -125,6 +125,19 @@ TxGNN 模型預測它可能對**痤瘡 (acne)** 有效，目前有 **1 個臨床
 - 補充作用機轉資料，並取得香港仿單的警語、禁忌症與核准適應症。
 - 針對尋常痤瘡設計或尋找 Acitretin 的對照試驗證據。
 - 建立育齡女性的避孕與妊娠監測計畫，並評估肝功能、血脂與骨骼的監測方案。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: acitretin prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6af396c2-af3e-436d-ba9a-583637495910) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

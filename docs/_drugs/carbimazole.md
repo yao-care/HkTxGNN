@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**甲狀腺素抵抗症（resistance to thyroid ho
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知藥理而言，Carbimazole 為甲巴唑的前驅藥，可抑制甲狀腺過氧化酶，減少甲狀腺素合成。
+ChEMBL（EMBL-EBI）收錄的 Carbimazole 作用機轉（非官方翻譯）：「甲狀腺過氧化酶抑制劑」英文原文："Thyroid peroxidase inhibitor"（[ChEMBL CHEMBL508102 (carbimazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL508102)，CC BY-SA 3.0；查閱日期 2026-11-19）。就已知藥理而言，Carbimazole 為甲巴唑的前驅藥，可抑制甲狀腺過氧化酶，減少甲狀腺素合成。
 
 甲狀腺素抵抗症（RTH-β）的特徵是周邊組織對 T3/T4 部分不敏感，同時 TSH 無法被抑制。若以抗甲狀腺藥物降低甲狀腺素濃度，可能使 TSH 進一步升高，造成甲狀腺腫大與甲狀腺刺激增加，也可能在已抵抗的組織中誘發甲狀腺功能低下症狀。因此，機轉上的合理性偏弱，甚至可能有害。
 
@@ -100,6 +100,19 @@ TxGNN 模型預測它可能對**甲狀腺素抵抗症（resistance to thyroid ho
 - 補充 Carbimazole 的作用機轉資料，並進行與 RTH-β 病理生理的機轉對照分析。
 - 取得直接針對 RTH-β 患者使用抗甲狀腺藥物的臨床或文獻證據，並評估安全性。
 - 取得香港仿單的警語、禁忌與交互作用資料，完成安全性評估。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL508102 (carbimazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL508102) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

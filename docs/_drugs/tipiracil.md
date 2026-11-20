@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**盲腸絨毛狀腺瘤 (cecum villous adenoma)** 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，tipiracil 是胸苷磷酸化酶抑制劑，在複方中的作用是抑制 trifluridine 被快速分解，以提高其血中濃度。
+根據美國 FDA 核准的 trifluridine and tipiracil（含 Tipiracil 的複方） 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「LONSURF 由胸苷類核苷類似物 trifluridine 及胸苷磷酸化酶抑制劑 tipiracil 以莫耳比 1:0.5（重量比 1:0.471）組成。加入 tipiracil 可藉由抑制胸苷磷酸化酶對 trifluridine 之代謝，而增加 trifluridine 暴露量。」英文原文："LONSURF consists of a thymidine-based nucleoside analog, trifluridine, and the thymidine phosphorylase inhibitor, tipiracil, at a molar ratio 1:0.5 (weight ratio, 1:0.471). Inclusion of tipiracil increases trifluridine exposure by inhibiting its metabolism by thymidine phosphorylase."（[DailyMed: Lonsurf (trifluridine and tipiracil) prescribing information, Taiho Pharmaceutical Co., Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f5beed22-d71d-4c0d-8dca-2c7317d65d85)，版本日期 2025-11-05；查閱日期 2026-11-19）。根據已知資訊，tipiracil 是胸苷磷酸化酶抑制劑，在複方中的作用是抑制 trifluridine 被快速分解，以提高其血中濃度。
 
 預測的疾病為良性結腸腺瘤，與藥物目前使用的部位同為大腸，因此模型可能是由組織位置的相近性推得此關聯。然而，目前沒有機轉或臨床證據顯示，細胞毒性治療適合用於良性病灶。
 
@@ -105,6 +105,18 @@ TxGNN 模型預測它可能對**盲腸絨毛狀腺瘤 (cecum villous adenoma)** 
 - 取得香港仿單的警語與禁忌症
 - 找到直接研究此疾病的臨床或前臨床證據
 - 釐清良性腺瘤使用此藥是否有任何合理的治療情境，並與現行內視鏡切除等標準處置比較
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Lonsurf (trifluridine and tipiracil) prescribing information, Taiho Pharmaceutical Co., Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f5beed22-d71d-4c0d-8dca-2c7317d65d85) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

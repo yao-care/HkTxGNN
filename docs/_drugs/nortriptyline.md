@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**注意力不足過動症 (Attention Deficit-Hype
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據藥物類別的已知藥理，Nortriptyline 是三環抗憂鬱藥，主要抑制正腎上腺素再回收，對血清素再回收的抑制較弱。
+根據美國 FDA 核准的 Nortriptyline 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「三環類抗憂鬱劑提升情緒的機轉目前尚不明確。Pamelor 不是單胺氧化酶抑制劑。它可抑制多種不同物質的活性，例如組織胺、5-羥色胺及乙醯膽鹼。」英文原文："The mechanism of mood elevation by tricyclic antidepressants is at present unknown. Pamelor is not a monoamine oxidase inhibitor. It inhibits the activity of such diverse agents as histamine, 5-hydroxytryptamine, and acetylcholine."（[DailyMed: Pamelor (nortriptyline hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb)，版本日期 2024-12-04；查閱日期 2026-11-19）。根據藥物類別的已知藥理，Nortriptyline 是三環抗憂鬱藥，主要抑制正腎上腺素再回收，對血清素再回收的抑制較弱。
 
 核准的非興奮劑類 ADHD 藥物（如 atomoxetine）同樣是透過增強前額葉皮質的正腎上腺素傳導來發揮作用。因此 Nortriptyline 用於 ADHD 在藥理上有合理基礎。一項 PET 研究也顯示，Nortriptyline 在憂鬱症患者身上會佔據正腎上腺素轉運體 (NET)，與此機轉相符。
 
@@ -119,6 +119,19 @@ TxGNN 模型預測它可能對**注意力不足過動症 (Attention Deficit-Hype
 - 確認合適的族群（兒童、青少年或成人）、劑量與給藥途徑
 
 **附註：** 第二個預測適應症「注意力不足過動症，注意力不足型」(TxGNN 0.9933) 目前無任何臨床試驗或文獻，僅屬 ADHD 的亞型，其高分可能來自與上位疾病的本體論關聯，建議決策為 Hold，應併入 ADHD 的整體評估。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Pamelor (nortriptyline hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (seve
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Pegfilgrastim 是聚乙二醇化的 G-CSF，一般認為能刺激嗜中性白血球增生，並動員造血前驅細胞。
+根據美國 FDA 核准的 Pegfilgrastim 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Pegfilgrastim產品為群落刺激因子，透過與特定的細胞表面受體結合而作用於造血細胞，從而刺激其增生、分化、定向及終末細胞功能活化。」英文原文："Pegfilgrastim products are colony-stimulating factor that acts on hematopoietic cells by binding to specific cell surface receptors, thereby stimulating proliferation, differentiation, commitment, and end cell functional activation."（[DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83)，版本日期 2026-10-29；查閱日期 2026-11-19）。根據已知資訊，Pegfilgrastim 是聚乙二醇化的 G-CSF，一般認為能刺激嗜中性白血球增生，並動員造血前驅細胞。
 
 理論上，骨髓來源前驅細胞的動員可能有助於血管修復，或調節發炎反應，這是連結到糖尿病視網膜病變的可能假說。
 
@@ -118,6 +118,19 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (seve
 - 進行前臨床（動物模型）或文獻回顧，驗證骨髓前驅細胞動員對糖尿病視網膜病變的作用方向
 - 與抗 VEGF 等標準治療比較，評估臨床價值
 - 評估給藥途徑（全身性注射對比眼科局部給藥）的可行性
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

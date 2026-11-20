@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**類風濕性結節病 (Rheumatoid Nodulosis)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，tretinoin 是維生素 A 酸類（retinoid）藥物，透過視黃酸受體調控細胞分化與增生。
+根據美國 FDA 核准的 Tretinoin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Tretinoin 於培養及體內環境中可誘導 APL 細胞之細胞分化並減少其增生。在 APL 病人中，tretinoin 治療會先使源自白血病細胞株之原始前骨髓細胞成熟，隨後在達到完全緩解（CR）之病人中，骨髓及周邊血液由正常、多株性造血細胞重新填補。」英文原文："Tretinoin induces cytodifferentiation and decreased proliferation of APL cells in culture and in vivo. In APL patients, tretinoin treatment produces an initial maturation of the primitive promyelocytes derived from the leukemic clone, followed by a repopulation of the bone marrow and peripheral blood by normal, polyclonal hematopoietic cells in patients achieving complete remission (CR)."（[DailyMed: tretinoin prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c4ae9d9-c2a0-4995-a27a-e3f0f0284db9)，版本日期 2026-08-20；查閱日期 2026-11-19）。根據已知資訊，tretinoin 是維生素 A 酸類（retinoid）藥物，透過視黃酸受體調控細胞分化與增生。
 
 視黃酸具有免疫調節作用，例如可能影響 Th17/Treg 平衡與發炎細胞激素，理論上可能與類風濕譜系的發炎有關。但目前沒有任何資料顯示它與類風濕性結節的形成有直接關聯。這個高分預測來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據，應視為假說，而非有實證支持的結論。
 
@@ -128,6 +128,19 @@ TxGNN 模型預測它可能對**類風濕性結節病 (Rheumatoid Nodulosis)** �
 - 取得作用機轉資料，並檢視視黃酸對類風濕性結節形成的前臨床證據
 - 進行文獻與病例系列回顧，確認是否有任何直接證據
 - 取得香港仿單的警語、禁忌與核准適應症資料，完成安全性篩選
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: tretinoin prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c4ae9d9-c2a0-4995-a27a-e3f0f0284db9) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

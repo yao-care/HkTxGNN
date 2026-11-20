@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**做作型人格障礙 (histrionic personality di
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Sertraline 屬於血清素相關的抗憂鬱藥類別，一般認為可調節情緒與衝動控制。
+根據美國 FDA 核准的 Sertraline 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Sertraline 透過抑制神經元對血清素（5-HT）的再回收，增強中樞神經系統中的血清素活性。」英文原文："Sertraline potentiates serotonergic activity in the central nervous system through inhibition of neuronal reuptake of serotonin (5-HT)."（[DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7)，版本日期 2023-08-08；查閱日期 2026-11-19）。Sertraline 屬於血清素相關的抗憂鬱藥類別，一般認為可調節情緒與衝動控制。
 
 做作型人格障礙的特徵包括情緒不穩定與衝動性。從機轉上推測，調節血清素可能影響這類情感症狀，但這只是推論，目前提供的資料並不支持，也沒有取得任何直接研究。
 
@@ -112,11 +112,12 @@ TxGNN 分數很高（0.9993），但這是以網絡關係為基礎的預測，�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港目前有至少 20 張有效的單方 Sertraline 許可證，下列清單可能不」→「香港共有 25 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7) |
 
 <!-- review:end log -->
 

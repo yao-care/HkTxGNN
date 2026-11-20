@@ -56,7 +56,7 @@ Golimumab 是一種抗 TNF-α 單株抗體，原本用於乾癬性關節炎、�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，golimumab 是一種完全人源化的抗 TNF-α 單株抗體，其在類風濕性關節炎中的療效已被證實，機轉上可能適用於同為類風濕性關節炎關節外併發症的類風濕性血管炎。
+根據美國 FDA 核准的 Golimumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Golimumab是一種人類單株抗體，可與人類TNFα的可溶性及跨膜生物活性形式結合。此交互作用可阻止TNFα與其受體結合，從而抑制TNFα（一種細胞激素蛋白）的生物活性。」英文原文："Golimumab is a human monoclonal antibody that binds to both the soluble and transmembrane bioactive forms of human TNFα. This interaction prevents the binding of TNFα to its receptors, thereby inhibiting the biological activity of TNFα (a cytokine protein)."（[DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00)，版本日期 2026-11-02；查閱日期 2026-11-19）。根據已知資訊，golimumab 是一種完全人源化的抗 TNF-α 單株抗體，其在類風濕性關節炎中的療效已被證實，機轉上可能適用於同為類風濕性關節炎關節外併發症的類風濕性血管炎。
 
 類風濕性血管炎是類風濕性關節炎的關節外併發症，TNF-α 同時參與關節炎與血管發炎，因此在生物學上有合理性。不過，目前沒有任何研究直接檢驗 golimumab 對此疾病的效果。現有證據都是間接的：一般類風濕性關節炎與生物製劑文獻、一例貝賽特氏症葡萄膜炎的個案報告，以及一篇抗 TNF 治療期間發生高安氏動脈炎的報告，後者提示可能有「矛盾反應」的疑慮。
 
@@ -107,7 +107,6 @@ Golimumab 是一種抗 TNF-α 單株抗體，原本用於乾癬性關節炎、�
 
 ## 結論與下一步
 
-
 **理由：**
 - 沒有任何研究直接檢驗 golimumab 對類風濕性血管炎的效果，現有證據僅為間接，且有抗 TNF 治療期間發生血管炎的矛盾反應報告。證據等級僅為 L4。
 
@@ -116,6 +115,19 @@ Golimumab 是一種抗 TNF-α 單株抗體，原本用於乾癬性關節炎、�
 - 取得香港衛生署核准的仿單，確認核准適應症、警語與禁忌症
 - 針對類風濕性血管炎蒐集直接證據（如病例系列或前瞻性研究），並評估抗 TNF 引發血管炎的矛盾反應風險
 - 若推進兒童或脊椎相關適應症：建立兒童劑量、感染與結核病篩檢，以及長期安全性監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -57,7 +57,7 @@ TxGNN 模型預測它可能對**骨關節炎 (Osteoarthritis)** 有效，但目�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據文獻，sulfasalazine 具抗發炎作用，可能涉及 NF-κB 通路與胱胺酸/麩胺酸反向轉運體 (system xc-) 的抑制。
+根據美國 FDA 核准的 Sulfasalazine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Sulfasalazine（SSZ）或其代謝物 5-胺基水楊酸（5-ASA）及磺胺吡啶（SP）的作用方式，可能與在動物及體外模型中觀察到的抗發炎及／或免疫調節特性、其對結締組織的親和力，及／或其在漿液、肝臟及腸壁中達到相對較高的濃度（如動物自動放射顯影研究所證實）有關。在潰瘍性結腸炎中，採用直腸投予 SSZ、SP 及 5-ASA 的臨床研究顯示，主要治療作用可能來自 5-ASA 部分。」英文原文："The mode of action of sulfasalazine (SSZ) or its metabolites, 5-aminosalicylic acid (5-ASA) and sulfapyridine (SP), may be related to the anti-inflammatory and/or immunomodulatory properties that have been observed in animal and in vitro models, to its affinity for connective tissue, and/or to the relatively high concentration it reaches in serous fluids, the liver and intestinal walls, as demonstrated in autoradiographic studies in animals. In ulcerative colitis, clinical studies utilizing rectal administration of SSZ, SP and 5-ASA have indicated that the major therapeutic action may reside in the 5-ASA moiety."（[DailyMed: Azulfidine En-Tabs (sulfasalazine) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b9ef541a-93c8-4428-ba45-398aa0b327d1)，版本日期 2026-10-27；查閱日期 2026-11-19）。根據文獻，sulfasalazine 具抗發炎作用，可能涉及 NF-κB 通路與胱胺酸/麩胺酸反向轉運體 (system xc-) 的抑制。
 
 前臨床文獻提供了一些間接線索：
 - 在細胞實驗中，sulfasalazine 可減少細胞激素刺激下軟骨的蛋白聚醣與膠原蛋白釋放，並下調基質金屬蛋白酶（PMID 19690126）。
@@ -119,6 +119,19 @@ TxGNN 模型預測它可能對**骨關節炎 (Osteoarthritis)** 有效，但目�
 - 取得香港仿單的警語、禁忌與核准適應症內容，以完成安全性評估
 
 **其他預測適應症備註：**其餘 7 個預測（如 WHIM 症候群、肢端中段發育不良等）皆無試驗或文獻，也無明確機轉連結，同為 L5 並建議 Hold。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Azulfidine En-Tabs (sulfasalazine) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b9ef541a-93c8-4428-ba45-398aa0b327d1) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

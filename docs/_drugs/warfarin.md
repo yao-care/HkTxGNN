@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**肝素輔因子 II 缺乏症 (Heparin Cofactor 2
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。依藥理學常識，Warfarin 抑制維生素 K 依賴的凝血因子（II、VII、IX、X）合成，從而降低血栓形成風險。
+根據美國 FDA 核准的 Warfarin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Warfarin 的作用機轉為抑制維生素 K 依賴性凝血因子的合成，包括第 II、VII、IX 及 X 因子，以及抗凝血蛋白 C 和 S。維生素 K 是維生素 K 依賴性凝血因子於核糖體後合成所必需的輔因子。維生素 K 促進蛋白質中 γ-羧基麩胺酸殘基的生物合成，這些殘基為其生物活性所必需。」英文原文："Warfarin acts by inhibiting the synthesis of vitamin K-dependent clotting factors, which include Factors II, VII, IX, and X, and the anticoagulant proteins C and S. Vitamin K is an essential cofactor for the post ribosomal synthesis of the vitamin K-dependent clotting factors. Vitamin K promotes the biosynthesis of γ-carboxyglutamic acid residues in the proteins that are essential for biological activity."（[DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730)，版本日期 2026-10-28；查閱日期 2026-11-19）。依藥理學常識，Warfarin 抑制維生素 K 依賴的凝血因子（II、VII、IX、X）合成，從而降低血栓形成風險。
 
 肝素輔因子 II 缺乏症是一種遺傳性血栓傾向，患者容易反覆發生靜脈或心臟內血栓。Warfarin 的作用位於凝血抑制物的下游，因此在這類患者作為血栓後的長期預防用藥，機轉上說得通。
 
@@ -134,6 +134,19 @@ TxGNN 模型預測它可能對**肝素輔因子 II 缺乏症 (Heparin Cofactor 2
 | 7 | 良性乳腺發育不良 | 0.9910 | L5 | Hold | 上一項的同義詞，分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據 |
 
 其中**類風濕性關節炎**及**乳房疾病**的高分很可能來自藥物交互作用的共現訊號，而非療效，不建議作為再利用方向。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

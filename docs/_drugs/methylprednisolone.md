@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**黏蛋白性脫髮 (alopecia mucinosa)** 有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，methylprednisolone 屬於糖皮質素類，具有廣泛的抗發炎與免疫抑制作用。
+根據美國 FDA 核准的 Methylprednisolone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「天然存在的糖皮質激素（hydrocortisone 及 cortisone）亦具有保鈉特性，用作腎上腺皮質功能不全狀態的替代療法。其合成類似物主要因其強效抗發炎作用而用於多種器官系統的疾病。」英文原文："Naturally occurring glucocorticoids (hydrocortisone and cortisone), which also have salt-retaining properties, are used as replacement therapy in adrenocortical deficiency states. Their synthetic analogs are primarily used for their potent anti-inflammatory effects in disorders of many organ systems."（[DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4)，版本日期 2026-07-01；查閱日期 2026-11-19）。根據已知資訊，methylprednisolone 屬於糖皮質素類，具有廣泛的抗發炎與免疫抑制作用。
 
 黏蛋白性脫髮（毛囊黏蛋白沉積症）的病理特徵是毛囊周圍淋巴球浸潤與黏蛋白沉積。由於病變帶有發炎特性，抗發炎的糖皮質素在機轉上有合理性。
 
@@ -103,6 +103,18 @@ TxGNN 模型預測它可能對**黏蛋白性脫髮 (alopecia mucinosa)** 有效�
 - 確認作用機轉資料與香港仿單中的警語、禁忌症
 - 評估給藥途徑（局部注射、外用或全身性）與治療風險效益
 - 與皮膚科專家討論是否值得設計小型探索性研究
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

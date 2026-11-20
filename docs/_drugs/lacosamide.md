@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料庫記錄。根據已知文獻，Lacosamide 能增強電壓門控鈉離子通道的緩慢失活，並可能調節 CRMP2 蛋白，進而降低神經元過度興奮。
+根據美國 FDA 核准的 Lacosamide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Lacosamide口服溶液在人體中發揮抗癲癇作用的確切機制仍有待完全闡明。體外電生理研究顯示，lacosamide選擇性增強電壓門控鈉通道的緩慢失活，從而穩定過度興奮的神經元膜，並抑制神經元重複放電。」英文原文："The precise mechanism by which Lacosamide oral solution exerts its antiepileptic effects in humans remains to be fully elucidated. In vitro electrophysiological studies have shown that lacosamide selectively enhances slow inactivation of voltage-gated sodium channels, resulting in stabilization of hyperexcitable neuronal membranes and inhibition of repetitive neuronal firing."（[DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738)，版本日期 2026-09-09；查閱日期 2026-11-19）。根據已知文獻，Lacosamide 能增強電壓門控鈉離子通道的緩慢失活，並可能調節 CRMP2 蛋白，進而降低神經元過度興奮。
 
 偏頭痛與神經元過度興奮、皮質擴散性抑制（cortical spreading depolarization）有關。小鼠研究顯示 Lacosamide 對皮質擴散性抑制有作用；另有研究提出，Lacosamide 經由 CRMP2 可能抑制三叉神經系統釋放降鈣素基因相關胜肽（CGRP）。抗癲癇藥物本來就常用於偏頭痛預防，因此機轉上具合理性。
 
@@ -158,11 +158,12 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「另有 7 張許可證為學名藥或其他品牌（LACOSAMIDE TABLETS、LA」→「另有 7 張許可證為學名藥或其他品牌（LACOSAMIDE TABLETS、LA」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738) |
 
 <!-- review:end log -->
 

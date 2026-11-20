@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**生物素代謝疾病 (Biotin Metabolic Disease)
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Cyanocobalamin 是維生素 B12 的人工合成形式，在體內轉化為活性輔酶，其在 B12 缺乏症與相關貧血中的療效已被廣泛確立。
+根據美國 FDA 核准的 Cyanocobalamin 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「臨床藥理學 維生素 B12 對生長、細胞增殖、造血作用，以及核蛋白與髓鞘的合成至關重要。」英文原文："CLINICAL PHAMRACOLOGY Vitamin B12 is essential to growth, cell reproduction, hematopoiesis, and nucleoprotein and myelin synthesis."（[DailyMed: cyanocobalamin prescribing information, SOLA Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e559c6c8-2973-77fb-e053-2995a90af43d)，版本日期 2025-12-08；查閱日期 2026-11-19）。Cyanocobalamin 是維生素 B12 的人工合成形式，在體內轉化為活性輔酶，其在 B12 缺乏症與相關貧血中的療效已被廣泛確立。
 
 生物素與鈷胺素同屬 B 群維生素，都是代謝酶的輔因子。例如，丙醯輔酶 A 羧化酶依賴生物素，甲基丙二醯輔酶 A 變位酶依賴鈷胺素，兩者都參與丙酸代謝路徑。這可能是模型給出高分的原因之一。
 
@@ -131,11 +131,12 @@ TxGNN 模型預測它可能對**生物素代謝疾病 (Biotin Metabolic Disease)
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本藥在香港有 20 張有效單一成分許可證，」→「香港共有 77 張含本藥成分的許可證（有效 76 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: cyanocobalamin prescribing information, SOLA Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e559c6c8-2973-77fb-e053-2995a90af43d) |
 
 <!-- review:end log -->
 

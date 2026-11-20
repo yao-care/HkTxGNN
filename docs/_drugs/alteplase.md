@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**肝素輔因子 2 缺乏症 (heparin cofactor 2 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Alteplase 屬於纖維蛋白溶酶原活化劑類藥物，一般而言，其作用是將纖維蛋白溶酶原轉化為纖維蛋白溶酶，進而溶解血栓。
+根據美國 FDA 核准的 Alteplase 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Alteplase為一種酵素（絲胺酸蛋白酶），具有在纖維蛋白增強作用下將纖維蛋白溶酶原轉化為纖維蛋白溶酶的特性。在缺乏纖維蛋白的情況下，其僅產生有限的纖維蛋白溶酶原轉化。Alteplase會與血栓中的纖維蛋白結合，並將受困其中的纖維蛋白溶酶原轉化為纖維蛋白溶酶，從而啟動局部纖維蛋白溶解作用。」英文原文："Alteplase is an enzyme (serine protease) that has the property of fibrin-enhanced conversion of plasminogen to plasmin. It produces limited conversion of plasminogen in the absence of fibrin. Alteplase binds to fibrin in a thrombus and converts the entrapped plasminogen to plasmin, thereby initiating local fibrinolysis."（[DailyMed: Cathflo Activase (alteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91ecdef2-95ff-42dd-a31c-c8a09cab3ad9)，版本日期 2026-01-20；查閱日期 2026-11-19）。Alteplase 屬於纖維蛋白溶酶原活化劑類藥物，一般而言，其作用是將纖維蛋白溶酶原轉化為纖維蛋白溶酶，進而溶解血栓。
 
 肝素輔因子 2 缺乏症是一種遺傳性血栓傾向疾病。理論上，Alteplase 可用於處理此類患者發生的急性血栓事件，但它無法矯正根本的肝素輔因子 2 缺乏。
 
@@ -99,6 +99,19 @@ TxGNN 模型預測它可能對**肝素輔因子 2 缺乏症 (heparin cofactor 2 
 - 詳細的藥物作用機轉資料
 - 原廠仿單中的警語與禁忌症資料
 - 出血風險與藥物交互作用的評估計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cathflo Activase (alteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91ecdef2-95ff-42dd-a31c-c8a09cab3ad9) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -57,7 +57,7 @@ Palbociclib 是 CDK4/6 抑制劑，在香港已有上市許可證，但本次資
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Palbociclib 屬於 CDK4/6 抑制劑，透過阻斷細胞週期 G1 到 S 期的進展來抑制腫瘤細胞增殖。
+根據美國 FDA 核准的 Palbociclib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Palbociclib 是細胞週期蛋白依賴性激酶（CDK）4 及 6 的抑制劑。細胞週期蛋白 D1 及 CDK4/6 位於導致細胞增殖的訊息傳遞路徑下游。在體外試驗中，palbociclib 透過阻斷細胞週期由 G1 期進入 S 期，減少雌激素受體（ER）陽性乳癌細胞株的細胞增殖。」英文原文："Palbociclib is an inhibitor of cyclin-dependent kinases (CDK) 4 and 6. Cyclin D1 and CDK4/6 are downstream of signaling pathways which lead to cellular proliferation. In vitro, palbociclib reduced cellular proliferation of estrogen receptor (ER)-positive breast cancer cell lines by blocking progression of the cell from G1 into S phase of the cell cycle."（[DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792)，版本日期 2026-07-06；查閱日期 2026-11-19）。Palbociclib 屬於 CDK4/6 抑制劑，透過阻斷細胞週期 G1 到 S 期的進展來抑制腫瘤細胞增殖。
 
 因此從機轉上看，抑制 CDK4/6 有合理的生物學基礎。
 
@@ -150,11 +150,12 @@ Palbociclib 是 CDK4/6 抑制劑，在香港已有上市許可證，但本次資
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「共 6 張，均為 PFIZER CORPORATION HONG KONG LI」→「共 6 張，均為 PFIZER CORPORATION HONG KONG LI」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792) |
 
 <!-- review:end log -->
 

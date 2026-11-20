@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對 **HIV 感染 (HIV infectious disease)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Deferasirox 是一種鐵螯合劑，其在鐵過載相關疾病（如地中海貧血）中的作用已被證實，機轉上可能透過調節細胞內鐵的狀態而影響 HIV 相關的生物學過程。
+根據美國 FDA 核准的 Deferasirox 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Exjade（deferasirox）是一種具口服活性的螯合劑，對鐵（Fe 3+ 形式）具選擇性。它是一種三牙配體，以2:1的比例與鐵高親和力結合。雖然deferasirox對鋅和銅的親和力極低，但在投予deferasirox後，這些微量金屬的血清濃度會出現程度不一的下降。」英文原文："Exjade (deferasirox) is an orally active chelator that is selective for iron (as Fe 3+ ). It is a tridentate ligand that binds iron with high affinity in a 2:1 ratio. Although deferasirox has very low affinity for zinc and copper there are variable decreases in the serum concentration of these trace metals after the administration of deferasirox."（[DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85)，版本日期 2026-01-28；查閱日期 2026-11-19）。根據已知資訊，Deferasirox 是一種鐵螯合劑，其在鐵過載相關疾病（如地中海貧血）中的作用已被證實，機轉上可能透過調節細胞內鐵的狀態而影響 HIV 相關的生物學過程。
 
 2021 年的一項前臨床研究（PMID 34550543）指出，內溶酶體（endolysosome）中的鐵會增加 HIV-1 Tat 蛋白的寡聚化與 β-catenin 表現，進而限制 Tat 介導的 HIV-1 LTR 轉錄活化。這表示鐵的恆定可能調節 HIV-1 的轉錄。
 
@@ -121,11 +121,12 @@ TxGNN 模型預測它可能對 **HIV 感染 (HIV infectious disease)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「（本藥共有 7 張有效許可證，」→「（本藥共有 7 張許可證，其中 5 張有效、HK-64787、HK-64785 」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85) |
 
 <!-- review:end log -->
 

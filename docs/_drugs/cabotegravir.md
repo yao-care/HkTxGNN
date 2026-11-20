@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Cabotegravir 屬於 HIV 整合酶抑制劑，其作用是阻斷病毒 DNA 整合入宿主基因組。這個機轉與類風濕性關節炎的病理（TNF、IL-6、JAK/STAT、B/T 細胞訊號）沒有已知的直接關聯。
+根據美國 FDA 核准的 Cabotegravir 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Cabotegravir是一種HIV-1抗反轉錄病毒藥物。[…] Cabotegravir藉由與嵌合酶活性位點結合，並阻斷反轉錄病毒去氧核糖核酸（DNA）嵌合中的股轉移步驟，而抑制HIV嵌合酶；此步驟為HIV複製週期所必需。在使用純化重組HIV-1嵌合酶進行的股轉移分析中，cabotegravir的平均50%抑制濃度（IC 50）值為3.0 nM。」英文原文："Cabotegravir is an HIV-1 antiretroviral drug. […] Cabotegravir inhibits HIV integrase by binding to the integrase active site and blocking the strand transfer step of retroviral deoxyribonucleic acid (DNA) integration that is essential for the HIV replication cycle. The mean 50% inhibitory concentration (IC 50 ) value of cabotegravir in a strand transfer assay using purified recombinant HIV-1 integrase was 3.0 nM."（[DailyMed: Vocabria (cabotegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66d450fb-cca4-476c-b0c7-c0730e3e4cf3)，版本日期 2025-04-11；查閱日期 2026-11-19）。根據已知資訊，Cabotegravir 屬於 HIV 整合酶抑制劑，其作用是阻斷病毒 DNA 整合入宿主基因組。這個機轉與類風濕性關節炎的病理（TNF、IL-6、JAK/STAT、B/T 細胞訊號）沒有已知的直接關聯。
 
 以目前資料，無法建立兩者之間合理的機轉連結。0.9945 的分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，不能視為生物學上的證據。
 
@@ -120,6 +120,19 @@ TxGNN 另外預測的其他適應症（原發性硬化性膽管炎、支氣管�
 - 補充 Cabotegravir 的作用機轉資料（如 DrugBank）
 - 針對類風濕性關節炎進行文獻與臨床試驗系統性檢索，並評估是否有任何免疫調節相關的前臨床證據
 - 若日後有證據出現，再評估長效注射劑型與新適應症的給藥途徑是否相容
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Vocabria (cabotegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66d450fb-cca4-476c-b0c7-c0730e3e4cf3) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

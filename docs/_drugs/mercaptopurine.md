@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**骨髓性白血病 (myeloid leukemia)** 有效�
 
 ## 為什麼這個預測合理？
 
-Mercaptopurine 是嘌呤類似物，其代謝產物硫鳥嘌呤核苷酸會嵌入 DNA/RNA，並抑制嘌呤的從頭合成，對快速分裂的白血病細胞具有細胞毒性。這種機轉並不限於淋巴性白血病，在骨髓性白血病上同樣有理論基礎。（目前缺乏來自藥物資料庫的詳細作用機轉資料，以上為依文獻與藥理常識的整理。）
+Mercaptopurine 是嘌呤類似物，其代謝產物硫鳥嘌呤核苷酸會嵌入 DNA/RNA，並抑制嘌呤的從頭合成，對快速分裂的白血病細胞具有細胞毒性。這種機轉並不限於淋巴性白血病，在骨髓性白血病上同樣有理論基礎。根據美國 FDA 核准的 Mercaptopurine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Mercaptopurine是一種嘌呤類似物，經細胞內運輸及活化後形成包括thioguanine核苷酸（TGNs）在內的代謝物。TGNs併入DNA或RNA會導致細胞週期停滯及細胞死亡。」英文原文："Mercaptopurine is a purine analog that undergoes intracellular transport and activation to form metabolites including thioguanine nucleotides (TGNs). Incorporation of TGNs into DNA or RNA results in cell-cycle arrest and cell death."（[DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15)，版本日期 2026-07-22；查閱日期 2026-11-19）。）
 
 在臨床實務上，口服 mercaptopurine 合併 methotrexate 已被用於急性前骨髓細胞白血病 (APL) 的維持治療，兒童急性骨髓性白血病也有人嘗試類 ALL 的鞏固治療。因此骨髓性白血病的連結，部分是由已知用途延伸而來。
 
@@ -124,6 +124,18 @@ Mercaptopurine 的抗白血病機轉合理，且在 APL 維持治療及部分 AM
 - 補齊詳細的作用機轉資料與原廠仿單的警語、禁忌
 - 建立 TPMT／NUDT15 基因型檢測與血液學監測計畫
 - 確認香港核准適應症文字，以評估是否屬於適應症外使用
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

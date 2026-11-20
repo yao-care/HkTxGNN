@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據一般藥理知識，Ephedrine 是間接作用為主、同時具直接 α/β 腎上腺素受體促效作用的擬交感神經藥物，可使鼻黏膜血管收縮、減輕充血與水腫。
+根據美國 FDA 核准的 Ephedrine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「硫酸麻黃素（ephedrine sulfate）是一種擬交感神經胺，可直接作為α及β腎上腺素受體的促效劑，並間接促使交感神經元釋放正腎上腺素。直接活化α及β腎上腺素受體所產生的升壓作用，是透過動脈壓、心輸出量及周邊阻力的增加所介導。」英文原文："Ephedrine sulfate is a sympathomimetic amine that directly acts as an agonist at α- and β-adrenergic receptors and indirectly causes the release of norepinephrine from sympathetic neurons. Pressor effects by direct alpha- and beta-adrenergic receptor activation are mediated by increases in arterial pressures, cardiac output, and peripheral resistance."（[DailyMed: Emerphed Pfs (ephedrine sulfate) prescribing information, Nexus Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14601778-93ac-43ec-b66b-5a942317133f)，版本日期 2024-09-16；查閱日期 2026-11-19）。根據一般藥理知識，Ephedrine 是間接作用為主、同時具直接 α/β 腎上腺素受體促效作用的擬交感神經藥物，可使鼻黏膜血管收縮、減輕充血與水腫。
 
 鼻腔疾病與其原有的鼻炎、鼻咽炎等適應症在部位與病理上密切相關，因此機轉上合理。但也要注意，這個預測大部分與既有適應症重疊，並不是真正新穎的再利用方向，高分（0.999）很可能反映的正是與已知適應症的近似性。
 
@@ -120,11 +120,12 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效的單方許可證，包含注射劑、滴鼻劑、錠劑及咳嗽糖漿等多種產品」→「香港共有 416 張含本藥成分的許可證（有效 402 張、已」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Emerphed Pfs (ephedrine sulfate) prescribing information, Nexus Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14601778-93ac-43ec-b66b-5a942317133f) |
 
 <!-- review:end log -->
 

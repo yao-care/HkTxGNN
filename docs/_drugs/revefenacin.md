@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據藥物類別推論，Revefenacin 是一種肺部選擇性的長效蕈毒鹼拮抗劑，透過阻斷呼吸道平滑肌與黏膜下腺體上的 M3 受體，產生支氣管擴張，並可能減少由膽鹼激導的黏液分泌。
+根據美國 FDA 核准的 Revefenacin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Revefenacin 為一種長效型蕈毒鹼拮抗劑，通常稱為抗膽鹼藥。本藥對蕈毒鹼受體 M1 至 M5 各亞型具有相近的親和力。在呼吸道中，本藥經由抑制平滑肌上的 M3 受體而發揮藥理作用，進而導致支氣管擴張。」英文原文："Revefenacin is a long-acting muscarinic antagonist, which is often referred to as an anticholinergic. It has similar affinity to the subtypes of muscarinic receptors M1 to M5. In the airways, it exhibits pharmacological effects through inhibition of M3 receptor at the smooth muscle leading to bronchodilation."（[DailyMed: Yupelri (revefenacin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dfebf04-7c90-436a-9b16-750d3c1ee0a6)，版本日期 2022-05-03；查閱日期 2026-11-19）。根據藥物類別推論，Revefenacin 是一種肺部選擇性的長效蕈毒鹼拮抗劑，透過阻斷呼吸道平滑肌與黏膜下腺體上的 M3 受體，產生支氣管擴張，並可能減少由膽鹼激導的黏液分泌。
 
 慢性支氣管炎是 COPD 的主要表型之一，兩者在臨床上高度重疊。因此機轉上，減少黏液分泌與緩解氣道收縮，可能有助於改善支氣管炎症狀。
 
@@ -68,7 +68,6 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前�
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
 | [NCT01704404](https://clinicaltrials.gov/study/NCT01704404) | Phase 2 | 完成 | 62 | 在 COPD 患者中評估 7 天多次給藥的藥效、安全性與藥動學；無支氣管炎專屬療效指標，相關性屬間接 |
-
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
@@ -129,6 +128,19 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前�
 - 針對支氣管炎（尤其是慢性支氣管炎、黏液過度分泌）設計探索性研究，並以痰量、咳嗽、急性惡化次數為終點
 - 取得香港原廠仿單，確認核准適應症、警語與禁忌症
 - 不建議直接外推到氣喘等其他阻塞性疾病，需有獨立證據
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Yupelri (revefenacin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dfebf04-7c90-436a-9b16-750d3c1ee0a6) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

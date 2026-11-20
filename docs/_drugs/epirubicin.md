@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**原發性肺淋巴瘤 (primary pulmonary lymphom
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（原始 MOA 欄位無資料）。就藥物類別而言，epirubicin 屬蒽環類抗生素，為 doxorubicin 的 4' 位差向異構物，一般認為其作用方式是抑制拓樸異構酶 II 並嵌入 DNA，干擾 DNA 的合成與功能。
+根據美國 FDA 核准的 Epirubicin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Epirubicin 為一種蒽環類細胞毒性藥物。雖然已知蒽環類藥物可干擾真核細胞內多種生化及生物功能，但 epirubicin 細胞毒性及／或抗增生特性的確切機轉尚未完全闡明。」英文原文："Epirubicin is an anthracycline cytotoxic agent. Although it is known that anthracyclines can interfere with a number of biochemical and biological functions within eukaryotic cells, the precise mechanisms of epirubicin's cytotoxic and/or antiproliferative properties have not been completely elucidated."（[DailyMed: Ellence (epirubicin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a03c798-a652-4895-b29c-3b521a89ba42)，版本日期 2026-07-24；查閱日期 2026-11-19）。就藥物類別而言，epirubicin 屬蒽環類抗生素，為 doxorubicin 的 4' 位差向異構物，一般認為其作用方式是抑制拓樸異構酶 II 並嵌入 DNA，干擾 DNA 的合成與功能。
 
 蒽環類藥物是淋巴瘤治療的常見骨幹，epirubicin 也曾出現在 CEOP/CEPP、VEBEP 等淋巴瘤方案中，因此對淋巴組織惡性腫瘤具有細胞毒性在生物學上說得通。
 
@@ -124,6 +124,18 @@ TxGNN 模型預測它可能對**原發性肺淋巴瘤 (primary pulmonary lymphom
 - 取得香港仿單的警語與禁忌資料，完成安全性篩查
 - 補充詳細的作用機轉資料
 - 評估心臟毒性與累積劑量的監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ellence (epirubicin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a03c798-a652-4895-b29c-3b521a89ba42) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

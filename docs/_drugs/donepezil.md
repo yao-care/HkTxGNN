@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**慢性抽動障礙 (Chronic Tic Disorder)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Donepezil 屬於乙醯膽鹼酯酶抑制劑類別，可提升腦內乙醯膽鹼濃度，其在阿茲海默症中的療效已被證實。
+根據美國 FDA 核准的 Donepezil 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「目前有關阿茲海默症認知徵狀及症狀之致病機轉的理論，將其中部分歸因於膽鹼性神經傳導不足。Donepezil hydrochloride 被推測藉由增強膽鹼性功能而發揮其治療作用。」英文原文："Current theories on the pathogenesis of the cognitive signs and symptoms of Alzheimer’s disease attribute some of them to a deficiency of cholinergic neurotransmission. Donepezil hydrochloride is postulated to exert its therapeutic effect by enhancing cholinergic function."（[DailyMed: Aricept (donepezil hydrochloride) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975)，版本日期 2021-12-30；查閱日期 2026-11-19）。根據已知資訊，Donepezil 屬於乙醯膽鹼酯酶抑制劑類別，可提升腦內乙醯膽鹼濃度，其在阿茲海默症中的療效已被證實。
 
 抽動症與紋狀體（基底核）的膽鹼功能異常有關，膽鹼系統又會與多巴胺、血清素系統交互作用，進而影響抽動的表現。小鼠實驗（DOI 誘發的頭部抽動反應，被視為抽動模型）顯示 Donepezil 可減弱此反應，支持這個假說。
 
@@ -154,11 +154,12 @@ TxGNN 模型預測它可能對**慢性抽動障礙 (Chronic Tic Disorder)** 有�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效單一成分許可證，無已註銷者。」→「香港共有 31 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Aricept (donepezil hydrochloride) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975) |
 
 <!-- review:end log -->
 

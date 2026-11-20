@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**異位性皮膚炎 (Atopic Eczema)** 有效，�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，fluticasone furoate 屬於高效價糖皮質激素（皮質類固醇），具抗發炎與免疫抑制作用。在氣喘與過敏性鼻炎中，它透過降低氣道與鼻腔的過敏性發炎發揮作用。
+根據美國 FDA 核准的 Fluticasone Furoate 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Fluticasone furoate是一種具有抗炎活性的合成三氟化皮質類固醇。體外研究顯示，fluticasone furoate對人類糖皮質激素受體的結合親和力約為dexamethasone的29.9倍，及fluticasone propionate的1.7倍。」英文原文："Fluticasone furoate is a synthetic trifluorinated corticosteroid with anti-inflammatory activity. Fluticasone furoate has been shown in vitro to exhibit a binding affinity for the human glucocorticoid receptor that is approximately 29.9 times that of dexamethasone and 1.7 times that of fluticasone propionate."（[DailyMed: Fluticasone Furoate Ellipta (fluticasone furoate) prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3e797fc-2636-49a0-b89e-5246b18ee440)，版本日期 2025-03-06；查閱日期 2026-11-19）。根據已知資訊，fluticasone furoate 屬於高效價糖皮質激素（皮質類固醇），具抗發炎與免疫抑制作用。在氣喘與過敏性鼻炎中，它透過降低氣道與鼻腔的過敏性發炎發揮作用。
 
 局部皮質類固醇是異位性皮膚炎的標準治療之一，因此在藥物類別層面，預測有一定合理性。過敏性鼻炎、氣喘與異位性皮膚炎常同時出現，同屬過敏性疾病。
 
@@ -106,6 +106,19 @@ TxGNN 模型預測它可能對**異位性皮膚炎 (Atopic Eczema)** 有效，�
 - 搜尋並評估此藥用於異位性皮膚炎的直接臨床或前臨床研究。
 - 確認給藥途徑與劑型是否適用於皮膚疾病，並評估長期皮膚使用的全身性安全性。
 - 將「atopic eczema」與「dermatitis, atopic」兩筆重複預測合併，避免重複計算。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Fluticasone Furoate Ellipta (fluticasone furoate) prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3e797fc-2636-49a0-b89e-5246b18ee440) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

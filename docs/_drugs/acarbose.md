@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**僵人症候群 (Classic Stiff Person Syndrome)*
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Acarbose 是腸道 α-葡萄糖苷酶抑制劑，作用是延緩碳水化合物消化，降低餐後血糖。
+根據美國 FDA 核准的 Acarbose 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「與磺醯脲類藥物不同，Acarbose錠劑不會增強胰島素分泌。Acarbose的降血糖作用源自對胰臟α-澱粉酶及膜結合型腸道α-葡萄糖苷水解酶的競爭性、可逆性抑制。」英文原文："In contrast to sulfonylureas, Acarbose Tablets do not enhance insulin secretion. The antihyperglycemic action of acarbose results from a competitive, reversible inhibition of pancreatic alpha-amylase and membrane-bound intestinal alpha-glucoside hydrolase enzymes."（[DailyMed: acarbose prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1ba7a072-03b0-41f2-be7a-101145bdef3a)，版本日期 2026-08-11；查閱日期 2026-11-19）。已知 Acarbose 是腸道 α-葡萄糖苷酶抑制劑，作用是延緩碳水化合物消化，降低餐後血糖。
 
 僵人症候群是一種自體免疫性神經疾病，多數患者具有抗 GAD65 抗體，並涉及 GABA 神經傳導受損。目前**找不到合理的機轉關聯**。唯一鬆散的連結是：GAD 抗體相關的自體免疫性糖尿病常與此病並存，但這不代表 Acarbose 能治療神經症狀。
 
@@ -104,6 +104,19 @@ TxGNN 模型預測它可能對**僵人症候群 (Classic Stiff Person Syndrome)*
 - 取得香港仿單的警語與禁忌資料
 - 找出能連結 α-葡萄糖苷酶抑制與 GABA 能或自體免疫機轉的前臨床證據
 - 若有前臨床訊號，再評估是否設計探索性研究
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: acarbose prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1ba7a072-03b0-41f2-be7a-101145bdef3a) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

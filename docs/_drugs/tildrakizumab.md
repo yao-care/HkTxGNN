@@ -64,7 +64,7 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (seve
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Tildrakizumab 是一種針對 IL-23 p19 次單位的單株抗體，可阻斷 IL-23/IL-17 發炎路徑。
+根據美國 FDA 核准的 Tildrakizumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Tildrakizumab 是一種人源化 IgG1/k 單株抗體，可選擇性結合 IL-23 的 p19 次單元，並抑制其與 IL-23 受體的交互作用。IL-23 是一種天然存在的細胞激素，參與發炎及免疫反應。」英文原文："Tildrakizumab is a humanized IgG1/k monoclonal antibody that selectively binds to the p19 subunit of IL-23 and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in inflammatory and immune responses."（[DailyMed: Ilumya (tildrakizumab-asmn) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6a322bb-51b9-4f0e-8642-62a9682ffcde)，版本日期 2026-11-02；查閱日期 2026-11-19）。已知 Tildrakizumab 是一種針對 IL-23 p19 次單位的單株抗體，可阻斷 IL-23/IL-17 發炎路徑。
 
 有研究提出，慢性低度發炎（包括 IL-23/IL-17 軸的活性）可能參與糖尿病視網膜病變中的視網膜微血管損傷，但這個連結目前**僅屬推測**。糖尿病視網膜病變 (rank 2) 與此預測高度重疊，並非獨立的證據。
 
@@ -114,6 +114,19 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (seve
 - 針對 IL-23/IL-17 軸在糖尿病視網膜病變的前臨床或機轉研究
 - 評估全身給藥的眼部暴露量，或考慮局部給藥的可行性
 - 進一步檢視是否有任何臨床前或早期臨床訊號，再重新評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ilumya (tildrakizumab-asmn) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6a322bb-51b9-4f0e-8642-62a9682ffcde) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

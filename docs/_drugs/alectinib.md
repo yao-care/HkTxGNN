@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**牙齦纖維瘤病 (fibromatosis, gingival)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Alectinib 屬於 ALK/RET 抑制劑，主要透過阻斷 ALK 驅動的訊號傳遞來抑制腫瘤生長。
+根據美國 FDA 核准的 Alectinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Alectinib為一種標靶ALK及RET的酪胺酸激酶抑制劑。在非臨床研究中，alectinib可抑制ALK磷酸化及ALK介導的下游訊息傳遞蛋白STAT3及AKT活化，並降低帶有ALK融合、擴增或活化突變之多種細胞株的腫瘤細胞存活力。」英文原文："Alectinib is a tyrosine kinase inhibitor that targets ALK and RET. In nonclinical studies, alectinib inhibited ALK phosphorylation and ALK-mediated activation of the downstream signaling proteins STAT3 and AKT, and decreased tumor cell viability in multiple cell lines harboring ALK fusions, amplifications, or activating mutations."（[DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb)，版本日期 2026-08-21；查閱日期 2026-11-19）。已知 Alectinib 屬於 ALK/RET 抑制劑，主要透過阻斷 ALK 驅動的訊號傳遞來抑制腫瘤生長。
 
 然而，遺傳性牙齦纖維瘤病並未有已知的 ALK 驅動病理機制，也沒有資料顯示 RET 或 ALK 抑制與該疾病相關。因此，這項預測目前找不到可靠的機轉依據，僅能視為高分的運算結果，需要進一步的基礎研究來驗證。
 
@@ -104,6 +104,19 @@ TxGNN 模型預測它可能對**牙齦纖維瘤病 (fibromatosis, gingival)** �
 - 取得 Alectinib 完整的作用機轉資料
 - 取得香港仿單的警語與禁忌症，完成安全性評估
 - 在有機轉依據之前，不建議投入臨床試驗設計
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

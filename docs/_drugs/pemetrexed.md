@@ -57,7 +57,7 @@ TxGNN 模型預測它可能對**心包膜癌 (Pericardium Cancer)** 有效，目
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Pemetrexed 屬於抗葉酸類抗代謝藥物，一般認為其作用在於抑制胸苷酸合成酶 (thymidylate synthase)、二氫葉酸還原酶 (DHFR) 與 GARFT 等葉酸依賴酵素，阻斷 DNA 合成。
+根據美國 FDA 核准的 Pemetrexed 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Pemetrexed為葉酸類似物代謝抑制劑，可干擾細胞複製所必需的葉酸依賴性代謝過程。體外研究顯示，pemetrexed可抑制胸苷酸合成酶（TS）、二氫葉酸還原酶（DHFR）及甘胺醯胺核糖核苷酸甲醯基轉移酶（GARFT），這些均為參與胸苷及嘌呤核苷酸從頭生物合成的葉酸依賴性酵素。」英文原文："Pemetrexed is a folate analog metabolic inhibitor that disrupts folate-dependent metabolic processes essential for cell replication. In vitro studies show that pemetrexed inhibits thymidylate synthase (TS), dihydrofolate reductase (DHFR), and glycinamide ribonucleotide formyltransferase (GARFT), which are folate-dependent enzymes involved in the de novo biosynthesis of thymidine and purine nucleotides."（[DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0)，版本日期 2026-06-18；查閱日期 2026-11-19）。根據已知資訊，Pemetrexed 屬於抗葉酸類抗代謝藥物，一般認為其作用在於抑制胸苷酸合成酶 (thymidylate synthase)、二氫葉酸還原酶 (DHFR) 與 GARFT 等葉酸依賴酵素，阻斷 DNA 合成。
 
 原發性心包膜間皮瘤在組織學上與惡性胸膜間皮瘤屬於同一類疾病，而知識圖譜中記錄 pemetrexed 與惡性胸膜間皮瘤有關聯（常與鉑類藥物併用），因此從機轉與疾病相似性推論，用於心包膜間皮瘤具有合理性。
 
@@ -137,6 +137,19 @@ TxGNN 模型預測它可能對**心包膜癌 (Pericardium Cancer)** 有效，目
 - 系統性蒐集心包膜間皮瘤使用 pemetrexed 加鉑類的病例，評估反應率與存活期
 - 評估設計罕見疾病的前瞻性研究或登錄研究的可行性
 - 針對腎功能不全與血球低下族群建立安全性監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

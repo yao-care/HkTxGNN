@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**多毛症 (hypertrichosis (disease))** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，bicalutamide 屬於非類固醇雄激素受體拮抗劑，雄激素訊號會影響毛囊的反應，因此阻斷 AR 在機轉上可能對藥物誘發或雄激素相關的毛髮過度生長有幫助。
+根據美國 FDA 核准的 Bicalutamide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「CASODEX 是一種非類固醇雄性素受體抑制劑。它藉由與標的組織中的細胞質雄性素受體結合，競爭性抑制雄性素的作用。已知前列腺癌對雄性素敏感，並對可抵消雄性素作用及/或移除雄性素來源的治療有反應。」英文原文："CASODEX is a non-steroidal androgen receptor inhibitor. It competitively inhibits the action of androgens by binding to cytosol androgen receptors in the target tissue. Prostatic carcinoma is known to be androgen sensitive and responds to treatment that counteracts the effect of androgen and/or removes the source of androgen."（[DailyMed: Casodex (bicalutamide) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfee4fe7-8478-4a3e-925d-00be3cd0ab67)，版本日期 2026-02-27；查閱日期 2026-11-19）。根據已知資訊，bicalutamide 屬於非類固醇雄激素受體拮抗劑，雄激素訊號會影響毛囊的反應，因此阻斷 AR 在機轉上可能對藥物誘發或雄激素相關的毛髮過度生長有幫助。
 
 目前唯一的相關資料，是 2022 年一篇評論信函，內容針對「bicalutamide 改善女性型禿髮患者 minoxidil 誘發之多毛症」的回顧性研究（35 位患者）。該回顧性研究本身未收錄於本報告所整理的資料中，且信函不提供原始療效數據，因此屬間接、次級的證據。
 
@@ -115,6 +115,18 @@ Bicalutamide 為抗雄激素的標靶/荷爾蒙治療藥物，並非傳統細胞
 - 釐清目標族群（藥物誘發 vs. 雄激素相關 vs. 先天性多毛症）
 - 設計小規模前瞻性或對照研究，評估療效與肝功能安全性
 - 取得詳細作用機轉資料與香港仿單的警語及禁忌症
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Casodex (bicalutamide) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfee4fe7-8478-4a3e-925d-00be3cd0ab67) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

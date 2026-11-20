@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**女性乳癌 (female breast carcinoma)** 有效�
 
 ## 為什麼這個預測合理？
 
-Hydroxyurea 抑制核糖核苷酸還原酶，使去氧核糖核苷酸（dNTP）庫耗竭，造成 DNA 複製壓力。本報告所整理的資料中缺乏正式的作用機轉欄位，以上說明是依據藥物已知的藥理特性與相關文獻推論。
+Hydroxyurea 抑制核糖核苷酸還原酶，使去氧核糖核苷酸（dNTP）庫耗竭，造成 DNA 複製壓力。根據美國 FDA 核准的 Hydroxyurea 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Hydroxyurea 產生其細胞毒性及細胞減量作用的確切機轉尚不清楚。然而，多項研究支持以下假說：hydroxyurea 作為核糖核苷酸還原酶抑制劑，可立即抑制 DNA 合成，而不干擾核糖核酸或蛋白質的合成。」英文原文："The precise mechanism by which hydroxyurea produces its cytotoxic and cytoreductive effects is not known. However, various studies support the hypothesis that hydroxyurea causes an immediate inhibition of DNA synthesis by acting as a ribonucleotide reductase inhibitor, without interfering with the synthesis of ribonucleic acid or of protein."（[DailyMed: Xromi (hydroxyurea) prescribing information, Nova Laboratories, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b37d336-86da-4363-aef1-34a7d3ba973b)，版本日期 2026-02-02；查閱日期 2026-11-19）。
 
 部分前臨床研究（如 EYA4 與複製壓力迴避、RPA2 過度磷酸化、ATR 抑制劑在乳癌與卵巢癌細胞株的研究）顯示，乳癌細胞對複製壓力的敏感性可能與 hydroxyurea 的作用方向相關。例如丙戊酸可透過抑制 RPA2 介導的 DNA 修復，使乳癌細胞對 hydroxyurea 更敏感。
 
@@ -123,6 +123,18 @@ TxGNN 分數雖高（0.9997），但沒有任何臨床試驗，也沒有直接�
 - 釐清作用機轉，並評估與 DNA 修復抑制劑（如 ATR 抑制劑）合併的前臨床可行性
 - 取得香港原廠仿單，確認核准適應症、警語與禁忌症
 - 制定骨髓抑制的血液學監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Xromi (hydroxyurea) prescribing information, Nova Laboratories, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b37d336-86da-4363-aef1-34a7d3ba973b) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

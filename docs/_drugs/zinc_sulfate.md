@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**咽炎 (pharyngitis)** 有效，但目前僅有 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，鋅在口咽部可能具有局部作用，包括抗病毒活性、調節發炎反應，以及支持黏膜修復。這是機轉上的推測，並非來自已證實的臨床療效。
+根據美國 FDA 核准的 Zinc Sulfate 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「鋅是一種必需微量元素。鋅可作為多種酶的輔因子，包括 DNA 聚合酶、RNA 聚合酶、醇去氫酶及鹼性磷酸酶。鋅是蛋白質結構摺疊的協調者，例如「鋅指」(Zinc finger) 模體的摺疊，該模體可與多種蛋白質、脂質及核酸交互作用。」英文原文："Zinc is an essential trace element. Zinc functions as a cofactor of various enzymes including DNA polymerases, RNA polymerases, alcohol dehydrogenase, and alkaline phosphatases. Zinc is a coordinator of protein structural folding, such as folding of “Zinc finger” motif that interacts with a variety of proteins, lipids, and nucleic acids."（[DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757)，版本日期 2026-03-04；查閱日期 2026-11-19）。根據已知資訊，鋅在口咽部可能具有局部作用，包括抗病毒活性、調節發炎反應，以及支持黏膜修復。這是機轉上的推測，並非來自已證實的臨床療效。
 
 不過，現有研究並不支持此推測。唯一直接針對咽炎的隨機試驗（PMID 23720981）探討的是放射線誘發的口腔黏膜炎與咽炎，並未顯示硫酸鋅有助益。鋅口含錠的試驗（NCT02405832）則針對插管後的術後喉嚨痛，屬於相關但不同的情況，不能等同於咽炎。
 
@@ -102,6 +102,18 @@ TxGNN 模型預測它可能對**咽炎 (pharyngitis)** 有效，但目前僅有 
 - 針對感染性咽炎、以硫酸鋅或鋅製劑進行的隨機對照試驗
 - 明確的作用機轉資料，以及適合咽喉局部使用的劑型與途徑評估
 - 完整的安全性資料（警語、禁忌症），可由原廠仿單取得
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

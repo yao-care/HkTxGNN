@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**體染色體隱性蛋白 C 缺乏所致血栓傾
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就一般藥理而言，Heparin 會增強抗凝血酶 (antithrombin) 對凝血酶與第 Xa 因子的抑制作用，進而降低血液凝固性。
+根據美國 FDA 核准的 Heparin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Heparin 與天然存在的血漿蛋白抗凝血酶 III 交互作用，誘導其發生構形改變，從而顯著增強抗凝血酶 III 的絲胺酸蛋白酶活性，進而抑制參與凝血最終序列的活化凝血因子，特別是 Xa 及 IIa。少量 heparin 可抑制第 Xa 因子，較大量則可抑制凝血酶（第 IIa 因子）。」英文原文："Heparin interacts with the naturally occurring plasma protein, antithrombin III, to induce a conformational change, which markedly enhances the serine protease activity of antithrombin III, thereby inhibiting the activated coagulation factors involved in the closing sequence, particularly Xa and IIa. Small amounts of heparin inhibit Factor Xa, and larger amounts inhibit thrombin (Factor IIa)."（[DailyMed: Heparin Sodium And Dextrose (heparin sodium) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eede8a0c-5ae6-4166-84b3-12081405f08e)，版本日期 2026-05-25；查閱日期 2026-11-19）。就一般藥理而言，Heparin 會增強抗凝血酶 (antithrombin) 對凝血酶與第 Xa 因子的抑制作用，進而降低血液凝固性。
 
 蛋白 C 缺乏症患者因為缺少蛋白 C 的天然抗凝血活性，容易處於高凝血狀態。Heparin 的作用可能部分彌補這項缺失。Heparin 的原適應症包含猛爆性紫斑症，而這正是嚴重（同型合子）蛋白 C 缺乏的重症表現之一，兩者在病理上有關聯。
 
@@ -143,11 +143,12 @@ TxGNN 模型預測它可能對**體染色體隱性蛋白 C 缺乏所致血栓傾
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效的單一成分許可證，」→「香港共有 28 張含本藥成分的許可證（有效 27 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Heparin Sodium And Dextrose (heparin sodium) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eede8a0c-5ae6-4166-84b3-12081405f08e) |
 
 <!-- review:end log -->
 

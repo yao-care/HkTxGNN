@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對**肺高壓（因肺疾病和/或缺氧所致，pu
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Eplerenone 屬於選擇性鹽皮質素受體（MR）拮抗劑，可阻斷醛固酮等配體對 MR 的活化。
+根據美國 FDA 核准的 Eplerenone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Eplerenone 與礦物皮質素受體結合，並阻斷醛固酮（aldosterone）的結合，醛固酮為腎素-血管收縮素-醛固酮系統（RAAS）的組成部分。醛固酮的合成主要發生於腎上腺，受多種因子調節，包括血管收縮素 II 及非 RAAS 介質，例如促腎上腺皮質激素（ACTH）及鉀。」英文原文："Eplerenone binds to the mineralocorticoid receptor and blocks the binding of aldosterone, a component of the renin-angiotensin-aldosterone-system (RAAS). Aldosterone synthesis, which occurs primarily in the adrenal gland, is modulated by multiple factors, including angiotensin II and non-RAAS mediators such as adrenocorticotropic hormone (ACTH) and potassium."（[DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a)，版本日期 2025-06-23；查閱日期 2026-11-19）。已知 Eplerenone 屬於選擇性鹽皮質素受體（MR）拮抗劑，可阻斷醛固酮等配體對 MR 的活化。
 
 文獻顯示，MR 活化與缺氧相關的組織損傷與纖維化有關。例如，慢性間歇性缺氧可透過 MR 活化造成大鼠腎臟纖維化（PMID 35346763）；缺氧可刺激肺動脈內皮細胞合成醛固酮並促進肺血管纖維化（PMID 25001622）。在肺動脈高壓的大鼠模型中，Eplerenone 減輕肺血管重塑（PMID 29499691），MR 拮抗劑也改善已形成疾病的心室交互依賴（PMID 35043674）。
 
@@ -127,6 +127,18 @@ TxGNN 模型預測它可能對**肺高壓（因肺疾病和/或缺氧所致，pu
 | 機轉不明的多因素肺高壓 | 0.9950 | 無試驗或文獻；MR 在血管重塑與纖維化的角色僅為理論推測 |
 | 惡性高血壓腎病 | 0.9950 | 無專屬試驗或文獻；急重症情境需另行評估高血鉀與 CYP3A4 交互作用風險 |
 | Braddock 症候群 | 0.9934 | 無試驗、文獻或明確機轉依據，分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，並非生物學證據，不建議採取進一步行動 |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對 **HER2 陽性乳癌 (HER2 positive breast carcino
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 ocrelizumab 是一種人源化抗 CD20 單株抗體，可選擇性清除表現 CD20 的 B 細胞，在多發性硬化症（包含復發型與原發進行型）的療效已有大型試驗證實。
+根據美國 FDA 核准的 Ocrelizumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ocrelizumab 在多發性硬化症中發揮治療作用的確切機轉尚屬未知，但推測涉及與 CD20 結合；CD20 是一種存在於前 B 淋巴細胞及成熟 B 淋巴細胞上的細胞表面抗原。在與 B 淋巴細胞的細胞表面結合後，ocrelizumab 會引致抗體依賴性細胞溶解作用及補體介導的溶解作用。」英文原文："The precise mechanism by which ocrelizumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ocrelizumab results in antibody-dependent cellular cytolysis and complement-mediated lysis."（[DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d)，版本日期 2026-05-14；查閱日期 2026-11-19）。已知 ocrelizumab 是一種人源化抗 CD20 單株抗體，可選擇性清除表現 CD20 的 B 細胞，在多發性硬化症（包含復發型與原發進行型）的療效已有大型試驗證實。
 
 然而，就現有資料而言，**無法建立合理的機轉連結**。HER2 陽性乳癌的病理主要由 HER2 訊號驅動，編譯資料中沒有任何以 CD20 或 B 細胞清除為基礎的乳癌治療依據。0.9989 的高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，不等同於生物學證據。
 
@@ -109,6 +109,19 @@ TxGNN 模型預測它可能對 **HER2 陽性乳癌 (HER2 positive breast carcino
 - 取得完整作用機轉資料，並評估 CD20/B 細胞與 HER2 陽性乳癌之間是否存在合理的生物學連結
 - 進行乳癌相關的前臨床或機轉研究，並針對乳癌重新做文獻與試驗檢索
 - 取得香港衛生署核准的仿單，補齊警語與禁忌症，以進行安全性篩選
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

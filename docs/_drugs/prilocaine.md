@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**乳頭狀結膜炎**有效，但目前**沒有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Prilocaine 屬於局部麻醉藥，一般認為是透過阻斷鈉離子通道來抑制神經傳導。這個機轉可能緩解眼表面的不適感。
+根據美國 FDA 核准的 Prilocaine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Prilocaine 可藉由抑制啟動及傳導神經衝動所需的離子流動來穩定神經元細胞膜，從而產生局部麻醉作用。」英文原文："Prilocaine stabilizes the neuronal membrane by inhibiting the ionic fluxes required for the initiation and conduction of impulses, thereby effecting local anesthetic action."（[DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41)，版本日期 2021-11-10；查閱日期 2026-11-19）。Prilocaine 屬於局部麻醉藥，一般認為是透過阻斷鈉離子通道來抑制神經傳導。這個機轉可能緩解眼表面的不適感。
 
 但乳頭狀結膜炎的核心問題是過敏性或機械性發炎,局部麻醉作用並不能處理這些病因。此外,眼部局部麻醉藥有已知的眼表毒性疑慮,不利於長期使用。因此,高分預測來自 TxGNN 模型(深度學習),可能反映模型從相關疾病間學到的相似性,並非生物學證據,機轉上的支持很薄弱。
 
@@ -116,6 +116,19 @@ TxGNN 模型預測它可能對**乳頭狀結膜炎**有效，但目前**沒有�
 - 先有針對乳頭狀結膜炎的前臨床或小型臨床研究，並評估眼部安全性
 
 **補充觀察：** 在同一批預測中，**神經痛**（排名第 5，預測分數 0.9934）有較多直接證據。這包括 1 個已完成的 Phase 2 開放標籤研究（NCT00916942，20 人），以及數篇探討 lidocaine/prilocaine 乳膏用於帶狀疱疹後神經痛的文獻，例如 PMID 2493878 與 2616182。這些證據規模小、多為開放標籤且年代較早，也無法區分 prilocaine 與 lidocaine 各自的作用。若要優先探索新適應症，神經痛比乳頭狀結膜炎更值得作為研究問題。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

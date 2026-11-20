@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有
 
 ## 為什麼這個預測合理？
 
-目前缺乏經 DrugBank 整理的詳細作用機轉資料。就藥理學而言，Epinephrine 是非選擇性腎上腺素受體促效劑：活化 β2 受體可使支氣管平滑肌鬆弛而擴張氣道，活化 α1 受體則透過血管收縮減輕氣道黏膜水腫。
+根據美國 FDA 核准的 Epinephrine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Epinephrine 同時作用於 α 及 β 腎上腺素受體。透過其對 α 腎上腺素受體的作用，epinephrine 可減輕過敏性休克期間所發生的血管擴張及血管通透性增加，此等情況可導致血管內液體容積流失及低血壓。」英文原文："Epinephrine acts on both alpha and beta-adrenergic receptors. Through its action on alpha-adrenergic receptors, epinephrine lessens the vasodilation and increased vascular permeability that occurs during anaphylaxis, which can lead to loss of intravascular fluid volume and hypotension."（[DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf)，版本日期 2026-09-18；查閱日期 2026-11-19）。就藥理學而言，Epinephrine 是非選擇性腎上腺素受體促效劑：活化 β2 受體可使支氣管平滑肌鬆弛而擴張氣道，活化 α1 受體則透過血管收縮減輕氣道黏膜水腫。
 
 阻塞性肺病涵蓋氣喘與慢性阻塞性肺病（COPD），而氣喘、支氣管炎本來就是 Epinephrine 的既有適應症。因此這個預測更像是原適應症的延伸，而非真正的新用途。
 
@@ -155,6 +155,18 @@ TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有
 | 食物依賴型運動誘發過敏性休克 | 0.9957 | L5 | Research Question：無專屬試驗，僅有系統性回顧與病例文獻，主要由一般過敏性休克指引推論 |
 | 呼吸道畸形 (Respiratory Malformation) | 0.9956 | L3 | Research Question：僅 1 個 Phase 1 新生兒暫時性呼吸急促試驗，結構性畸形預期不會對 Epinephrine 有反應 |
 | Rienhoff 症候群 | 0.9957 | L5 | Hold：無試驗、無文獻，也找不到合理的機轉連結，僅為模型預測 |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

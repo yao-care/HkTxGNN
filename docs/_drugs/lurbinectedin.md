@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (multiple endocrine neo
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據一般藥理知識，Lurbinectedin 是一種烷化類藥物，會結合 DNA 小溝並抑制致癌基因的轉錄。此推論並非來自本報告所整理的資料，需另行查證。
+根據美國 FDA 核准的 Lurbinectedin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Lurbinectedin是一種烷化劑，可與DNA小溝中的鳥嘌呤殘基結合，形成加成物，並導致DNA雙螺旋向大溝彎曲。加成物的形成會引發一連串事件，可影響DNA結合蛋白（包括某些轉錄因子）的後續活性及DNA修復途徑，導致細胞週期受擾亂並最終造成細胞死亡。」英文原文："Lurbinectedin is an alkylating drug that binds guanine residues in the minor groove of DNA, forming adducts and resulting in a bending of the DNA helix towards the major groove. Adduct formation triggers a cascade of events that can affect the subsequent activity of DNA binding proteins, including some transcription factors, and DNA repair pathways, resulting in perturbation of the cell cycle and eventual cell death."（[DailyMed: Zepzelca (lurbinectedin) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=632bb50c-3bcb-4c85-9056-fc33410550ae)，版本日期 2026-09-30；查閱日期 2026-11-19）。根據一般藥理知識，Lurbinectedin 是一種烷化類藥物，會結合 DNA 小溝並抑制致癌基因的轉錄。此推論並非來自本報告所整理的資料，需另行查證。
 
 此機轉對神經內分泌腫瘤可能有相關性，例如該藥在小細胞肺癌（屬神經內分泌癌）已有應用。多發性內分泌腫瘤同樣涉及內分泌／神經內分泌組織，因此有一定的推論空間。
 
@@ -114,6 +114,19 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (multiple endocrine neo
 - 補充 DrugBank 的作用機轉資料，釐清與多發性內分泌腫瘤的機轉連結
 - 搜尋並評估神經內分泌腫瘤相關的臨床前或臨床研究
 - 評估骨髓抑制與藥物交互作用的風險管理計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Zepzelca (lurbinectedin) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=632bb50c-3bcb-4c85-9056-fc33410550ae) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**躁期雙相情感障礙 (manic bipolar affectiv
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Granisetron 是選擇性 5-HT3 受體拮抗劑。
+根據美國 FDA 核准的 Granisetron 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Granisetron是一種選擇性5-羥色胺3（5-HT 3）受體拮抗劑，對其他血清素受體（包括5-HT 1、5-HT 1A、5-HT 1B/C、5-HT 2）；α 1、α 2或β腎上腺素受體；多巴胺D 2受體；或組織胺H 1受體、苯二氮平受體、苦毒素受體或鴉片類受體，僅具極低或不具親和力。5-HT 3型血清素受體位於周邊的迷走神經末梢，以及中樞的最後區化學受體激發區。」英文原文："Granisetron is a selective 5-hydroxytryptamine 3 (5-HT 3 ) receptor antagonist with little or no affinity for other serotonin receptors, including 5-HT 1, 5-HT 1A, 5-HT 1B/C, 5-HT 2; for alpha 1-, alpha 2-, or beta-adrenoreceptors; for dopamine-D 2; or for histamine-H 1; benzodiazepine; picrotoxin or opioid receptors. Serotonin receptors of the 5-HT 3 type are located peripherally on vagal nerve terminals and centrally in the chemoreceptor trigger zone of the area postrema."（[DailyMed: Sustol (granisetron) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7c7ffdd-8270-4030-bc1e-a1cb28a6de56)，版本日期 2026-04-30；查閱日期 2026-11-19）。已知 Granisetron 是選擇性 5-HT3 受體拮抗劑。
 
 從機轉角度推測，血清素與多巴胺系統失調被認為與躁症有關，5-HT3 拮抗作用理論上可能調節與情緒相關的神經迴路。然而，這僅是理論性推論，沒有任何臨床試驗或文獻直接驗證。
 
@@ -104,6 +104,19 @@ TxGNN 分數是純計算預測，不能視為療效證據。原適應症與新�
 - 補充詳細作用機轉資料
 - 針對躁期雙相情感障礙進行系統性文獻檢索與臨床試驗查詢
 - 若有初步訊號，先進行小規模探索性研究，並納入 QT 間期監測與併用藥物評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Sustol (granisetron) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7c7ffdd-8270-4030-bc1e-a1cb28a6de56) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

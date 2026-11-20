@@ -57,7 +57,7 @@ TxGNN 模型預測它可能對**第 2 型抗凝血酶缺乏症 (antithrombin def
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Exemestane 是類固醇型芳香環轉化酶抑制劑，會降低雌激素生成。
+根據美國 FDA 核准的 Exemestane 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「乳癌細胞的生長可能依賴雌激素。芳香酶是停經前及停經後婦女體內將雄激素轉化為雌激素的主要酵素。[…] Exemestane 是一種不可逆的類固醇類芳香酶去活化劑，其結構與天然受質 androstenedione 相關。」英文原文："Breast cancer cell growth may be estrogen-dependent. Aromatase is the principal enzyme that converts androgens to estrogens both in pre- and postmenopausal women. […] Exemestane is an irreversible, steroidal aromatase inactivator, structurally related to the natural substrate androstenedione."（[DailyMed: Aromasin (exemestane) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3)，版本日期 2025-12-24；查閱日期 2026-11-19）。根據已知資訊，Exemestane 是類固醇型芳香環轉化酶抑制劑，會降低雌激素生成。
 
 第 2 型抗凝血酶缺乏症源自 SERPINC1 基因缺陷，影響的是凝血因子抑制功能。Exemestane 對抗凝血酶功能沒有已知的直接作用。理論上，較低的雌激素暴露或許能減少與雌激素相關的血栓風險，但這只是推測，沒有證據支持。因此這項預測的合理性很低，高分來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，並非生物學證據。
 
@@ -124,6 +124,19 @@ Exemestane 為荷爾蒙（內分泌）療法的抗腫瘤藥物，並非傳統細
 - 取得香港衛生署仿單的核准適應症、警語與禁忌症
 - 進行前臨床或機轉研究，確認任何直接針對該疾病的療效訊號
 - 在無任何直接證據前，不建議投入臨床開發
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Aromasin (exemestane) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

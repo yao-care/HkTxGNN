@@ -55,7 +55,7 @@ Bendamustine 是一種兼具烷化與類嘌呤結構特性的細胞毒性化療�
 
 ## 為什麼這個預測合理？
 
-Bendamustine 是烷化劑，並帶有類嘌呤的結構，可造成 DNA 交聯並誘導 B 細胞惡性腫瘤細胞凋亡。目前缺乏詳細的作用機轉資料（DrugBank 未提供 MOA），以上機轉描述來自本報告整理的推論資料。
+Bendamustine 是烷化劑，並帶有類嘌呤的結構，可造成 DNA 交聯並誘導 B 細胞惡性腫瘤細胞凋亡。根據美國 FDA 核准的 Bendamustine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Bendamustine 是一種含有類嘌呤苯并咪唑環的雙功能 mechlorethamine 衍生物。Mechlorethamine 及其衍生物會形成親電子性烷基。這些基團會與富含電子的親核性部分形成共價鍵，進而造成 DNA 股間交聯。」英文原文："Bendamustine is a bifunctional mechlorethamine derivative containing a purine-like benzimidazole ring. Mechlorethamine and its derivatives form electrophilic alkyl groups. These groups form covalent bonds with electron-rich nucleophilic moieties, resulting in interstrand DNA crosslinks."（[DailyMed: Vivimusta (bendamustine hydrochloride) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bf0e08b3-50ab-48e0-a52b-89c04787a75f)，版本日期 2026-10-28；查閱日期 2026-11-19）。
 
 被套細胞淋巴瘤屬於成熟 B 細胞腫瘤，與 bendamustine 已有研究的濾泡性淋巴瘤等 B 細胞惡性腫瘤在生物學上相近。更重要的是，bendamustine 加 rituximab (BR) 已是被套細胞淋巴瘤第一線治療的常用骨幹方案，並被用作大型隨機試驗中與 BTK 抑制劑搭配或比較的方案。
 
@@ -134,6 +134,19 @@ Bendamustine 是烷化劑，並帶有類嘌呤的結構，可造成 DNA 交聯�
 - 取得並解析香港衛生署核准仿單（核准適應症、警語、禁忌症）
 - 補充詳細的作用機轉資料
 - 建立血球計數監測、感染預防與特定族群（腎、肝功能不全者）的用藥計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Vivimusta (bendamustine hydrochloride) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bf0e08b3-50ab-48e0-a52b-89c04787a75f) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**缺血性疾病 (Ischemic Disease)** 有效，
 
 ## 為什麼這個預測合理？
 
-Papaverine 透過抑制磷酸二酯酶，使血管平滑肌鬆弛、血管擴張。這與它原本用於周邊與腦部缺血的用途一致。目前缺乏 DrugBank 的詳細作用機轉資料，以上機轉說明來自本次整理的預測推論資料。
+Papaverine 透過抑制磷酸二酯酶，使血管平滑肌鬆弛、血管擴張。這與它原本用於周邊與腦部缺血的用途一致。根據美國 FDA 核准的 Papaverine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Papaverine Hydrochloride 顯然直接作用於肌肉本身。此鬆弛作用見於血管系統及支氣管肌肉組織，以及胃腸道、膽道及泌尿道。Papaverine 的主要作用發揮於心肌及平滑肌。」英文原文："Papaverine Hydrochloride apparently acts directly on the muscle itself. This relaxation is noted in the vascular system and bronchial musculature and in the gastrointestinal, biliary and urinary tracts. The main actions of papaverine are exerted on cardiac and smooth muscle."（[DailyMed: papaverine hydrochloride prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e5e2ce4-7a57-4c61-a826-64c8d11d038e)，版本日期 2026-07-27；查閱日期 2026-11-19）。
 
 原適應症與預測的「缺血性疾病」同屬血流灌注不足的範疇。文獻顯示，papaverine 在下列情境中有支持性用途：
 
@@ -155,11 +155,12 @@ Papaverine 透過抑制磷酸二酯酶，使血管平滑肌鬆弛、血管擴張
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「（共 20 張，均為有效的單一成分許可證；僅列 5 張）」→「（共 37 張含本藥成分的許可證，有效 33 張、已註銷 4」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: papaverine hydrochloride prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e5e2ce4-7a57-4c61-a826-64c8d11d038e) |
 
 <!-- review:end log -->
 

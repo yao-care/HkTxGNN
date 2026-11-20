@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有關，但目前**沒有
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知藥理，Tranexamic Acid 是離胺酸（lysine）類似物，屬於抗纖維蛋白溶解劑，可阻斷纖維蛋白溶解酶原（plasminogen）與纖維蛋白的結合，減少由纖維蛋白溶解所驅動的經血流失。
+根據美國 FDA 核准的 Tranexamic Acid 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Tranexamic acid 是一種合成的離胺酸胺基酸衍生物，可減少胞漿素對止血性纖維蛋白的溶解。在 tranexamic acid 存在下，胞漿素與纖維蛋白結合的離胺酸受體結合位會被佔據，從而阻止其與纖維蛋白單體結合，因此可保持並穩定纖維蛋白的基質結構。」英文原文："Tranexamic acid is a synthetic lysine amino acid derivative, which diminishes the dissolution of hemostatic fibrin by plasmin. In the presence of tranexamic acid, the lysine receptor binding sites of plasmin for fibrin are occupied, preventing binding to fibrin monomers, thus preserving and stabilizing fibrin's matrix structure."（[DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5)，版本日期 2025-09-03；查閱日期 2026-11-19）。根據已知藥理，Tranexamic Acid 是離胺酸（lysine）類似物，屬於抗纖維蛋白溶解劑，可阻斷纖維蛋白溶解酶原（plasminogen）與纖維蛋白的結合，減少由纖維蛋白溶解所驅動的經血流失。
 
 因此，它在減少月經過多、以及血液腫瘤病患的經期預防或抑制（menses prophylaxis/suppression）上有合理的角色。不過，它**並不經由荷爾蒙或子宮內膜萎縮的機轉誘發閉經**。與閉經的關聯是間接的：藥物減少的是出血量，而不是治療或造成「月經消失」。
 
@@ -136,11 +136,12 @@ TxGNN 的高分（0.9919）屬於計算模型預測，並沒有直接臨床資�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效單方許可證，以下列出 5 張主要許可證（許可證資料未提供劑」→「香港共有 21 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5) |
 
 <!-- review:end log -->
 

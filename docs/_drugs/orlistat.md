@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**高維生素症 (Hypervitaminosis)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。依一般藥理知識，Orlistat 是胃及胰臟脂肪酶抑制劑，可使膳食脂肪吸收減少約 30%。
+根據美國 FDA 核准的 Orlistat 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Orlistat為胃腸道脂肪酶的可逆性抑制劑。其透過與胃脂肪酶及胰脂肪酶的活性絲胺酸殘基位點形成共價鍵，於胃及小腸腔內發揮其治療作用。」英文原文："Orlistat is a reversible inhibitor of gastrointestinal lipases. It exerts its therapeutic activity in the lumen of the stomach and small intestine by forming a covalent bond with the active serine residue site of gastric and pancreatic lipases."（[DailyMed: Xenical (orlistat) prescribing information, H2-Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e)，版本日期 2026-09-30；查閱日期 2026-11-19）。依一般藥理知識，Orlistat 是胃及胰臟脂肪酶抑制劑，可使膳食脂肪吸收減少約 30%。
 
 脂溶性維生素（A、D、E、K）需隨膳食脂肪一同吸收，因此 Orlistat 會降低它們的吸收。對於脂溶性維生素過量所致的高維生素症，理論上減少腸道吸收可能略微降低體內維生素負荷，這是模型預測在生物學上的可能依據。
 
@@ -120,11 +120,12 @@ TxGNN 模型預測它可能對**高維生素症 (Hypervitaminosis)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本藥共有 12 張有效單方許可證」→「本藥共有 13 張有效單方許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Xenical (orlistat) prescribing information, H2-Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e) |
 
 <!-- review:end log -->
 

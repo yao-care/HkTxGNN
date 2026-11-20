@@ -57,7 +57,7 @@ SIV 主要是 HIV 的非人類靈長類研究模型，因此這個結果較像�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Raltegravir 屬於整合酶鏈轉移抑制劑（INSTI），可阻斷病毒基因組整合進宿主細胞 DNA 的步驟，其在 HIV 感染中的療效已被證實。
+根據美國 FDA 核准的 Raltegravir 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Raltegravir為HIV-1抗病毒藥物。[…] Raltegravir可抑制HIV-1整合酶的催化活性，此酵素由HIV-1編碼，為病毒複製所必需。抑制整合酶可阻止未整合的線性HIV-1 DNA以共價方式插入（即整合）宿主細胞基因體，從而阻止HIV-1前病毒的形成。」英文原文："Raltegravir is an HIV-1 antiviral drug. […] Raltegravir inhibits the catalytic activity of HIV-1 integrase, an HIV-1 encoded enzyme that is required for viral replication. Inhibition of integrase prevents the covalent insertion, or integration, of unintegrated linear HIV-1 DNA into the host cell genome preventing the formation of the HIV-1 provirus."（[DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2)，版本日期 2026-09-16；查閱日期 2026-11-19）。根據已知資訊，Raltegravir 屬於整合酶鏈轉移抑制劑（INSTI），可阻斷病毒基因組整合進宿主細胞 DNA 的步驟，其在 HIV 感染中的療效已被證實。
 
 SIV 與 HIV 同屬慢病毒，整合酶的催化核心高度保守，因此 Raltegravir 在機轉上可能抑制 SIV 的整合。文獻也支持這一點，包括 SIVmac251 感染獼猴的治療研究、SIV/SHIV 的 INSTI 抗藥性分析，以及局部使用整合酶抑制劑對獼猴暴露後的保護作用。
 
@@ -115,6 +115,19 @@ SIV 與 HIV 同屬慢病毒，整合酶的催化核心高度保守，因此 Ralt
 - 補充 Raltegravir 的作用機轉資料（DrugBank）
 - 取得香港衛生署仿單的警語與禁忌症，完成安全性篩選
 - 補齊許可證的劑型與核准適應症資訊
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

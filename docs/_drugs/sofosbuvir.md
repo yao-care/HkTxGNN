@@ -61,7 +61,7 @@ TxGNN 模型排名第一的預測是 **B 型肝炎病毒感染 (Hepatitis B Viru
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉登錄資料。依已知藥理，Sofosbuvir 是 HCV NS5B RNA 依賴性 RNA 聚合酶 (RdRp) 的核苷酸類似物抑制劑，活性三磷酸代謝物可終止病毒 RNA 合成。
+根據美國 FDA 核准的 Sofosbuvir 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Sofosbuvir是一種對抗C型肝炎病毒的直接作用抗病毒藥物。[…] Sofosbuvir是HCV NS5B依賴RNA的RNA聚合酶抑制劑，該酵素為病毒複製所必需。Sofosbuvir是一種核苷酸前驅藥，經細胞內代謝後形成具藥理活性的尿苷類似物三磷酸（GS-461203），可經由NS5B聚合酶嵌入HCV RNA中，並作為鏈終止劑。」英文原文："Sofosbuvir is a direct-acting antiviral agent against the hepatitis C virus. […] Sofosbuvir is an inhibitor of the HCV NS5B RNA-dependent RNA polymerase, which is essential for viral replication. Sofosbuvir is a nucleotide prodrug that undergoes intracellular metabolism to form the pharmacologically active uridine analog triphosphate (GS-461203), which can be incorporated into HCV RNA by the NS5B polymerase and acts as a chain terminator."（[DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf)，版本日期 2024-12-26；查閱日期 2026-11-19）。依已知藥理，Sofosbuvir 是 HCV NS5B RNA 依賴性 RNA 聚合酶 (RdRp) 的核苷酸類似物抑制劑，活性三磷酸代謝物可終止病毒 RNA 合成。
 
 **B 型肝炎：** HBV 是 DNA 病毒，經反轉錄酶複製，與 NS5B 沒有直接的標靶對應，因此 TxGNN 的高分並未獲得機轉支持。現有試驗多為 HCV/HBV 共感染，重點在 C 肝治癒及 B 肝再活化的監測，而非 B 肝療效。一項 Phase 2 開放標籤研究（ledipasvir/sofosbuvir 用於 HBV 感染者）觀察到 HBsAg 有限度下降，但規模小且為單臂。
 
@@ -152,6 +152,19 @@ TxGNN 模型排名第一的預測是 **B 型肝炎病毒感染 (Hepatitis B Viru
 - B 型肝炎：設計 HBV 單一感染的對照試驗，驗證 HBsAg／HBV DNA 的持續下降；同時建立 DAA 治療期間的 HBV 再活化篩檢與預防流程。
 - E 型肝炎：較大規模、含對照的試驗，探討劑量（可能需高劑量）、與 ribavirin 併用及抗藥性監測。
 - 補齊作用機轉與香港仿單的警語、禁忌症資料。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -62,7 +62,7 @@ TxGNN 模型的預測中，最值得進一步評估的是**原發性血小板釋
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Desmopressin 是合成的血管加壓素類似物，透過 V2 受體促使內皮細胞釋放血管性血友病因子（VWF）與第八凝血因子（FVIII）。其在血管性血友病與輕度血友病 A 的療效已被證實，機轉上可能適用於部分血小板功能異常。
+根據美國 FDA 核准的 Desmopressin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Desmopressin acetate 可提高血友病及 I 型 von Willebrand 氏病患者血漿中第 VIII 因子活性的濃度。Desmopressin acetate 的抗利尿作用是透過刺激血管加壓素 2（V2）受體所介導，從而增加腎臟對水分的再吸收，因而減少尿液生成。Desmopressin acetate 是一種用於治療中樞性尿崩症的抗利尿激素替代激素。」英文原文："Desmopressin acetate increases plasma levels of factor VIII activity in patients with hemophilia and von Willebrand's disease Type I. The antidiuretic effects of desmopressin acetate are mediated by stimulation of vasopressin 2 (V2) receptors, thereby increasing water re-absorption in the kidney, and hence reducing urine production. Desmopressin acetate is a replacement hormone for antidiuretic hormone in the treatment of central diabetes insipidus."（[DailyMed: Ddavp (desmopressin acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=651f6fee-a2c7-431b-8d5d-58b156c72244)，版本日期 2022-09-28；查閱日期 2026-11-19）。根據已知資訊，Desmopressin 是合成的血管加壓素類似物，透過 V2 受體促使內皮細胞釋放血管性血友病因子（VWF）與第八凝血因子（FVIII）。其在血管性血友病與輕度血友病 A 的療效已被證實，機轉上可能適用於部分血小板功能異常。
 
 原發性血小板釋放障礙與儲存池缺陷屬於血小板功能異常。文獻顯示，Desmopressin 可提高 VWF 與 FVIII、增強血小板黏附與促凝活性，並縮短這類病人的出血時間。一項兒童研究評估了其對阿斯匹靈樣缺陷（遺傳性血小板病變）初級止血的影響。2023 年的綜述也整理了它作為止血與節血藥物的角色。
 
@@ -147,6 +147,19 @@ TxGNN 模型的預測中，最值得進一步評估的是**原發性血小板釋
 - 設計前瞻性小型試驗或登錄研究，以出血時間、血小板功能與 VWF/FVIII 為指標
 - 訂定使用護欄：先做試驗性輸注確認反應、監測血鈉與血小板計數，排除 TTP、血栓傾向與 2B 型 VWD
 - 釐清「flood factor deficiency」的疾病對應是否為資料錯置
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ddavp (desmopressin acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=651f6fee-a2c7-431b-8d5d-58b156c72244) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

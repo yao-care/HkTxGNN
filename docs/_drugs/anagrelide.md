@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**反應性血小板增多症 (Reactive Thrombocyt
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據一般藥理知識，anagrelide 可抑制巨核細胞的成熟與分化，進而降低血小板數量，因此已被核准用於原發性（克隆性）血小板增多症。
+根據美國 FDA 核准的 Anagrelide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Anagrelide 降低血小板數目的確切機轉尚不明。在細胞培養研究中，anagrelide 抑制巨核細胞生成所需轉錄因子（包括 GATA-1 及 FOG-1）的表現，最終導致血小板生成減少。」英文原文："The precise mechanism by which anagrelide reduces blood platelet count is unknown. In cell culture studies, anagrelide suppressed expression of transcription factors including GATA-1 and FOG-1 required for megakaryocytopoiesis, ultimately leading to reduced platelet production."（[DailyMed: Agrylin (anagrelide hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb960074-99c1-4a73-941f-f0644a7ec219)，版本日期 2026-04-08；查閱日期 2026-11-19）。根據一般藥理知識，anagrelide 可抑制巨核細胞的成熟與分化，進而降低血小板數量，因此已被核准用於原發性（克隆性）血小板增多症。
 
 然而，反應性（續發性）血小板增多症是由發炎、感染、缺鐵或脾臟切除後等潛在原因所引起。這類情況通常**不需要**降血小板治療，因為血栓風險低，臨床上以處理原發原因為主。文獻（如 PMID 15270658、16019501）也指出，反應性血小板增多症一般不需治療介入，而克隆性血小板增多症才可能需要細胞減量治療。
 
@@ -135,6 +135,19 @@ Anagrelide 並非傳統細胞毒性化療藥物，但原發性血小板增多症
 ---
 
 **附註：** 第二個預測適應症為 inverse Klippel-Trenaunay syndrome（TxGNN 分數 0.9959）。目前無臨床試驗與文獻，也無法建立合理機轉，證據等級為 L5，建議決策為 Hold。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Agrylin (anagrelide hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb960074-99c1-4a73-941f-f0644a7ec219) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

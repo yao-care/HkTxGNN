@@ -55,10 +55,9 @@ TxGNN 模型預測它可能對**瀰漫性硬皮症 (diffuse scleroderma)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Imipenem 為碳青黴烯類抗生素，其作用是抑制細菌細胞壁合成，主要針對細菌感染。
+ChEMBL（EMBL-EBI）收錄的 Imipenem 作用機轉（非官方翻譯）：「細菌青黴素結合蛋白抑制劑」英文原文："Bacterial penicillin-binding protein inhibitor"（[ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Imipenem 為碳青黴烯類抗生素，其作用是抑制細菌細胞壁合成，主要針對細菌感染。
 
 瀰漫性硬皮症是一種自體免疫性纖維化疾病，沒有已知的細菌性致病因子。Imipenem 的抗菌機轉與此疾病的病理過程之間，看不出合理的機轉關聯。
-
 
 ## 臨床試驗證據
 
@@ -100,6 +99,18 @@ TxGNN 模型預測它可能對**瀰漫性硬皮症 (diffuse scleroderma)** 有�
 - 提出可驗證的機轉假說，說明抗菌作用或其他藥理作用如何影響硬皮症病理。
 - 進行前臨床研究或機轉研究，作為任何臨床探索的前提。
 - 補充作用機轉與仿單安全性資料。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

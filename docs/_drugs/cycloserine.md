@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**腸躁症 (Irritable Bowel Syndrome)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Cycloserine 是 D-alanine 的類似物，可抑制細菌細胞壁合成（作用於 alanine racemase 與 D-alanine ligase），同時也是 NMDA 受體 glycine 位點的部分促效劑。
+根據美國 FDA 核准的 Cycloserine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Cycloserine的抗菌活性源自其抑制革蘭氏陽性及革蘭氏陰性菌敏感菌株的細胞壁合成。」英文原文："The antibacterial activity of Cycloserine results from inhibition of cell-wall synthesis in susceptible strains of gram-positive and gram-negative bacteria."（[DailyMed: cycloserine prescribing information, Dr. Reddys Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8e7e2665-7a3d-3f54-9f92-5fe845f02ef9)，版本日期 2024-07-30；查閱日期 2026-11-19）。根據已知資訊，Cycloserine 是 D-alanine 的類似物，可抑制細菌細胞壁合成（作用於 alanine racemase 與 D-alanine ligase），同時也是 NMDA 受體 glycine 位點的部分促效劑。
 
 腸躁症與肺結核在疾病性質上差異很大。若要建立關聯，只能推測可能透過腦腸軸或 NMDA 訊號傳遞，但目前沒有任何試驗或文獻佐證。高分預測僅是計算結果，不能視為已有機轉支持。
 
@@ -99,6 +99,19 @@ TxGNN 模型預測它可能對**腸躁症 (Irritable Bowel Syndrome)** 有效，
 - 針對腸躁症進行機轉與前臨床研究，評估 NMDA 或腦腸軸假說是否成立。
 - 釐清失眠預測是否只是不良反應關聯。
 - 評估在腸躁症族群中，神經精神風險與效益是否可接受。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: cycloserine prescribing information, Dr. Reddys Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8e7e2665-7a3d-3f54-9f92-5fe845f02ef9) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

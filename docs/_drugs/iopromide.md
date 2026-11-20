@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**骨關節炎 (Osteoarthritis)** 有效。
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Iopromide 屬於含碘非離子型顯影劑，用於影像診斷，並非治療性藥物。目前沒有已知的抗發炎或軟骨保護作用。
+根據美國 FDA 核准的 Iopromide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「血管內注射 iopromide 可使有顯影劑存在的血管顯影不透光，透過光子衰減作用，使內部結構得以進行放射線顯像。在身體造影中，含碘顯影劑會由血管擴散至血管外腔隙。」英文原文："Intravascular injection of iopromide opacifies those vessels where the contrast agent is present, permitting radiographic visualization of the internal structures through attenuation of photons. In imaging of the body, iodinated contrast agents diffuse from the vessels into the extravascular space."（[DailyMed: Ultravist (iopromide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df917c3a-59a2-4ed1-8470-8a5394c73325)，版本日期 2026-03-02；查閱日期 2026-11-19）。Iopromide 屬於含碘非離子型顯影劑，用於影像診斷，並非治療性藥物。目前沒有已知的抗發炎或軟骨保護作用。
 
 骨關節炎的預測分數很高（0.9953），這個分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。顯影劑雖可用於關節攝影（arthrography），但那屬於診斷用途，並非治療。
 
@@ -102,6 +102,19 @@ TxGNN 模型預測它可能對**骨關節炎 (Osteoarthritis)** 有效。
 - 取得香港衛生署的仿單，補齊核准適應症、警語與禁忌症。
 - 進行文獻與試驗檢索，確認是否有 Iopromide 用於骨關節炎的前臨床或臨床研究。
 - 在有任何機轉或前臨床證據前，不建議投入進一步的開發資源。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ultravist (iopromide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df917c3a-59a2-4ed1-8470-8a5394c73325) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

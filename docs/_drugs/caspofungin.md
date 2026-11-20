@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**胃泌素分泌異常 (Gastrin Secretion Abnorma
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知的藥理知識，Caspofungin 屬於 echinocandin 類抗黴菌藥物，作用是抑制黴菌細胞壁的 β-(1,3)-D-glucan 合成酶。這個標的在哺乳動物細胞中並不存在。
+根據美國 FDA 核准的 Caspofungin 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Caspofungin 是一種 echinocandin 類抗真菌藥物。[…] Caspofungin（一種 echinocandin）可抑制 beta (1,3)-D-glucan 的合成，beta (1,3)-D-glucan 是敏感性 Aspergillus 屬及 Candida 屬細胞壁的必要成分。哺乳類動物細胞中不存在 beta (1,3)-D-glucan。」英文原文："Caspofungin is an echinocandin antifungal drug. […] Caspofungin, an echinocandin, inhibits the synthesis of beta (1,3)-D-glucan, an essential component of the cell wall of susceptible Aspergillus species and Candida species. Beta (1,3)-D-glucan is not present in mammalian cells."（[DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c)，版本日期 2024-10-11；查閱日期 2026-11-19）。根據已知的藥理知識，Caspofungin 屬於 echinocandin 類抗黴菌藥物，作用是抑制黴菌細胞壁的 β-(1,3)-D-glucan 合成酶。這個標的在哺乳動物細胞中並不存在。
 
 就目前資料而言，**找不到**連結 Caspofungin 與胃泌素調控（如 G 細胞功能、CCK2 受體訊號或胃酸分泌）的已知機轉。原適應症（食道念珠菌症）屬於消化道感染，而新適應症屬於胃腸內分泌異常，兩者在病理上並無明確關聯。
 
@@ -126,11 +126,12 @@ TxGNN 模型預測它可能對**胃泌素分泌異常 (Gastrin Secretion Abnorma
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「兩張許可證皆為單方、有效狀態，」→「兩張許可證皆為單方，均已註銷（已不在註冊名單上），」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c) |
 
 <!-- review:end log -->
 

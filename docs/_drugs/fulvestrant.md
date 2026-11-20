@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對 **HIV 感染（HIV infectious disease）** 有效
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫未提供）。根據藥理分類，Fulvestrant 是選擇性雌激素受體降解劑（SERD），可使雌激素受體 α（ERα）降解。
+根據美國 FDA 核准的 Fulvestrant 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「許多乳癌具有雌激素受體（ER），這些腫瘤的生長可受雌激素刺激。Fulvestrant 是一種雌激素受體拮抗劑，以與 estradiol 相當的親和力，競爭性地與雌激素受體結合，並下調人類乳癌細胞中的 ER 蛋白。」英文原文："Many breast cancers have estrogen receptors (ER) and the growth of these tumors can be stimulated by estrogen. Fulvestrant is an estrogen receptor antagonist that binds to the estrogen receptor in a competitive manner with affinity comparable to that of estradiol and downregulates the ER protein in human breast cancer cells."（[DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a)，版本日期 2026-10-16；查閱日期 2026-11-19）。根據藥理分類，Fulvestrant 是選擇性雌激素受體降解劑（SERD），可使雌激素受體 α（ERα）降解。
 
 2026 年的一項體外研究（JCI insight）探討雌激素受體與 HIV 潛伏及再活化的關係，並評估 Fulvestrant 對 CD4+ T 細胞中 ERα 的影響。這顯示 ERα 訊號可能影響 HIV 轉錄與潛伏，因此降解 ER 在機轉上有可能調節潛伏逆轉。
 
@@ -108,6 +108,19 @@ Fulvestrant 為荷爾蒙（內分泌）治療藥物，並非傳統細胞毒性�
 - 取得完整作用機轉資料，並釐清 ER 降解對 HIV 潛伏的作用方向。
 - 進一步的體外與動物實驗，確認 Fulvestrant 能否有效調節 HIV 潛伏。
 - 評估抗雌激素作用對免疫與感染族群的安全性，之後才考慮設計早期臨床試驗。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

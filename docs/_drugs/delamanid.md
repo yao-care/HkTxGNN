@@ -61,7 +61,7 @@ Delamanid 是一種硝基咪唑類抗結核藥物，原本用於治療多重抗�
 
 ## 為什麼這個預測合理？
 
-目前缺乏經資料庫確認的詳細作用機轉資料。根據已知資訊，Delamanid 是硝基咪唑類前驅藥物，需經結核分枝桿菌的 Ddn 酶（依賴 F420）活化，進而抑制黴菌酸（mycolic acid）合成，破壞細菌細胞壁。這個機轉已在 MDR-TB 中獲得證實。
+ChEMBL（EMBL-EBI）收錄的 Delamanid 作用機轉（非官方翻譯）：「結核分枝桿菌 H37Rv 抑制劑」英文原文："Mycobacterium tuberculosis H37Rv inhibitor"（[ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Delamanid 是硝基咪唑類前驅藥物，需經結核分枝桿菌的 Ddn 酶（依賴 F420）活化，進而抑制黴菌酸（mycolic acid）合成，破壞細菌細胞壁。這個機轉已在 MDR-TB 中獲得證實。
 
 「非活動性結核病」這個標籤定義模糊，可能對應潛伏性結核感染或結核病本身。Delamanid 的作用標的在所有結核分枝桿菌複合群感染中皆存在，因此機轉上可能適用。不過，潛伏菌處於低代謝狀態，Delamanid 對此狀態的效果仍需專門研究驗證。
 
@@ -126,6 +126,19 @@ Delamanid 是一種硝基咪唑類抗結核藥物，原本用於治療多重抗�
 - 補充作用機轉資料（DrugBank）
 - 取得香港衛生署核准仿單，確認適應症、警語與禁忌症
 - 針對潛伏菌、腹腔與中樞神經等部位，評估 Delamanid 的藥物穿透性與療效
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

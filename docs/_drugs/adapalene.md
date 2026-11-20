@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**血漿鋅偏高 (Zinc, elevated plasma)** 有效
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Adapalene 是外用的第三代類視黃醇，一般認為其選擇性活化 RAR-beta 與 RAR-gamma 受體，用於調節毛囊角化與發炎，進而改善痤瘡。
+根據美國 FDA 核准的 Adapalene 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Adapalene 可與特定的視網酸核受體結合，但不與細胞質受體蛋白結合。生化及藥理學特性研究已證實，adapalene 為細胞分化、角質化及發炎過程的調節劑。」英文原文："Adapalene binds to specific retinoic acid nuclear receptors but does not bind to cytosolic receptor protein. Biochemical and pharmacological profile studies have demonstrated that adapalene is a modulator of cellular differentiation, keratinization, and inflammatory processes."（[DailyMed: Differin (adapalene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0031324-92a6-4c11-90e2-c2818f7278ec)，版本日期 2023-12-27；查閱日期 2026-11-19）。根據已知資訊，Adapalene 是外用的第三代類視黃醇，一般認為其選擇性活化 RAR-beta 與 RAR-gamma 受體，用於調節毛囊角化與發炎，進而改善痤瘡。
 
 血漿鋅偏高通常屬於實驗室或代謝上的發現，多與鋅攝取或補充過量、或鋅恆定失衡有關，並非類視黃醇受體調節已知可治療的疾病。此外，Adapalene 外用後的全身吸收極低，更難以想像它能對血漿鋅濃度產生系統性影響。
 
@@ -127,11 +127,12 @@ TxGNN 模型預測它可能對**血漿鋅偏高 (Zinc, elevated plasma)** 有效
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 16 張有效的單方許可證，以下列出 5 張主要許可證」→「香港共有 16 張單方許可證（14 張有效；HK-67131、HK-64722 」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Differin (adapalene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0031324-92a6-4c11-90e2-c2818f7278ec) |
 
 <!-- review:end log -->
 

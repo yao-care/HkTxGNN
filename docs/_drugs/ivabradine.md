@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**多毛症 (Hypertrichosis)** 有效，但目前*
 
 ## 為什麼這個預測合理？
 
-目前缺乏經本報告資料確認的詳細作用機轉。已知 Ivabradine 為選擇性 HCN 通道（If 電流）抑制劑，作用於竇房結以降低心率。
+根據美國 FDA 核准的 Ivabradine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Corlanor阻斷負責心臟節律器I f電流的超極化活化環核苷酸門控（HCN）通道，該電流調節心率。在臨床電生理學研究中，心臟作用在竇房（SA）結最為顯著，但亦曾出現AH間期延長及PR間期延長。」英文原文："Corlanor blocks the hyperpolarization-activated cyclic nucleotide-gated (HCN) channel responsible for the cardiac pacemaker I f current, which regulates heart rate. In clinical electrophysiology studies, the cardiac effects were most pronounced in the sinoatrial (SA) node, but prolongation of the AH interval has occurred as has PR interval prolongation."（[DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d)，版本日期 2026-11-09；查閱日期 2026-11-19）。已知 Ivabradine 為選擇性 HCN 通道（If 電流）抑制劑，作用於竇房結以降低心率。
 
 毛髮過多症與 Ivabradine 的唯一連結，是 TxGNN 模型（深度學習）的計算預測（分數 0.9979）。HCN 通道雖可能在毛囊相關組織表現，但這屬於推測，缺乏資料支持。此分數來自 TxGNN 模型（深度學習），可能反映模型在相關疾病之間學到的相似性，而非生物學證據；高分較可能反映與遺傳性症候群的相似性，而非藥理學上的合理性。因此，這個預測目前**不具備可說明的機轉依據**。
 
@@ -111,6 +111,19 @@ TxGNN 模型預測它可能對**多毛症 (Hypertrichosis)** 有效，但目前*
 - 補齊香港許可證的核准適應症與仿單警語、禁忌症
 - 取得詳細的作用機轉資料，並以實驗或文獻檢驗 HCN 通道與毛囊生物學的關聯
 - 進行前臨床研究（如毛囊模型），再評估是否有進一步開發的價值
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

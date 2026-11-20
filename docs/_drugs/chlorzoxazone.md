@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Chlorzoxazone 是單一成分的骨骼肌鬆弛劑，一般用於緩解肌肉痙攣與相關疼痛，但本報告所用資料並未載明其原適應症與作用機轉。
+根據美國 FDA 核准的 Chlorzoxazone 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「動物實驗及人體研究的現有資料顯示，chlorzoxazone 主要作用於脊髓及腦部皮質下區域，在該處抑制參與產生及維持各種病因所致骨骼肌痙攣的多突觸反射弧。其臨床結果為骨骼肌痙攣減輕，並伴隨疼痛緩解及受累肌肉活動度增加。」英文原文："Data available from animal experiments as well as human study indicate that chlorzoxazone acts primarily at the level of the spinal cord and subcortical areas of the brain where it inhibits multisynaptic reflex arcs involved in producing and maintaining skeletal muscle spasm of varied etiology. The clinical result is a reduction of the skeletal muscle spasm with relief of pain and increased mobility of the involved muscles."（[DailyMed: chlorzoxazone prescribing information, Solubiomix](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c3d40a90-6df8-4b44-bc61-d7655c52bacb)，版本日期 2026-10-05；查閱日期 2026-11-19）。Chlorzoxazone 是單一成分的骨骼肌鬆弛劑，一般用於緩解肌肉痙攣與相關疼痛，但本報告所用資料並未載明其原適應症與作用機轉。
 
 在機轉上，有一個間接但尚未驗證的假說：Chlorzoxazone 已知為鈣離子依賴性鉀離子通道（KCa，SK/IK）的活化劑。一篇小鼠研究（PMID 23115190）顯示，活化此類通道可減輕由 CaV2.1 電流增強所引起的小鼠小腦運動失調。CaV2.1（CACNA1A）基因突變與家族性偏頭痛有關，因此理論上存在通道調節的連結。
 
@@ -119,6 +119,19 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 - 補齊作用機轉資料（MOA）與香港仿單的核准適應症、警語與禁忌。
 - 進行偏頭痛專屬的前臨床研究（如 KCa 通道活化在偏頭痛模型的效果）。
 - 若前臨床結果正面，再規劃小型探索性臨床試驗，並預先納入肝功能與藥物交互作用（尤其鴉片類與酒精）的監測計畫。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: chlorzoxazone prescribing information, Solubiomix](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c3d40a90-6df8-4b44-bc61-d7655c52bacb) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -58,7 +58,7 @@ TxGNN 模型預測排名最高的新適應症為極罕見的遺傳性血管疾�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知去氧膽酸是一種次級膽酸，注射於皮下可用於溶解脂肪（BELKYRA 為其注射劑型），但其在糖尿病腎病變上的直接機轉並未被證實。
+根據美國 FDA 核准的 Deoxycholic Acid 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「KYBELLA為一種細胞溶解性藥物，當注射至頦下脂肪時（用於伴有頦下脂肪所致中度至重度凸出或飽滿的患者），可物理性破壞細胞膜而導致細胞溶解。」英文原文："KYBELLA is a cytolytic drug, which when injected into submental fat - in patients with moderate to severe convexity or fullness associated with submental fat - physically destroys the cell membrane causing lysis."（[DailyMed: Kybella (deoxycholic acid) prescribing information, Kythera Biopharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fe431ed4-ea6f-4e99-b4bc-ec25ae7b8553)，版本日期 2026-09-11；查閱日期 2026-11-19）。已知去氧膽酸是一種次級膽酸，注射於皮下可用於溶解脂肪（BELKYRA 為其注射劑型），但其在糖尿病腎病變上的直接機轉並未被證實。
 
 間接的生物學合理性來自膽酸訊號：糖尿病腎病變患者的膽酸代謝出現改變，而膽酸訊號（如 FXR/TGR5 路徑）在前臨床模型中與腎臟保護有關。檢索到的 4 篇文獻都在描述膽酸譜變化或調節膽酸的介入（腸道菌相調節、relaxin、奈米顆粒遞送、代謝體學分析），從標題看，沒有一篇是以去氧膽酸作為治療藥物進行測試。
 
@@ -116,6 +116,19 @@ TxGNN 模型預測排名最高的新適應症為極罕見的遺傳性血管疾�
 - 進行去氧膽酸（而非其他膽酸或介入）在糖尿病腎病變細胞或動物模型中的前臨床驗證
 - 評估局部注射與口服劑型的全身暴露量與腎臟安全性
 - 在上述資料補齊前，不建議投入罕見血管疾病預測的後續研究
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Kybella (deoxycholic acid) prescribing information, Kythera Biopharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fe431ed4-ea6f-4e99-b4bc-ec25ae7b8553) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

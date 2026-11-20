@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (Hyperamylasemia)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知的藥理學而言，Ofloxacin 是氟喹諾酮類抗菌藥，作用於細菌 DNA 旋轉酶與拓樸異構酶 IV。
+根據美國 FDA 核准的 Ofloxacin 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Ofloxacin 透過抑制細菌拓撲異構酶 DNA 旋轉酶而發揮抗菌活性。DNA 旋轉酶是一種必需酵素，負責控制 DNA 拓撲結構，並協助 DNA 的複製、修復、去活化及轉錄。」英文原文："Ofloxacin exerts its antibacterial activity by inhibiting DNA gyrase, a bacterial topoisomerase. DNA gyrase is an essential enzyme which controls DNA topology and assists in DNA replication, repair, deactivation, and transcription."（[DailyMed: Ofloxacin Otic (ofloxacin) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42366170-e536-46a1-9735-d76e5820a9de)，版本日期 2026-10-23；查閱日期 2026-11-19）。就已知的藥理學而言，Ofloxacin 是氟喹諾酮類抗菌藥，作用於細菌 DNA 旋轉酶與拓樸異構酶 IV。
 
 高澱粉酶血症是血中澱粉酶升高的狀態，與胰臟或唾液腺酵素代謝有關。Ofloxacin 對澱粉酶的調控沒有已知作用，兩者之間找不到可辨識的機轉連結。這個高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
@@ -111,11 +111,12 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (Hyperamylasemia)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「以下為資料中列出的部分許可證（共列出 20 張，總數至少 20 張，清單可能不完」→「以下為資料中列出的部分許可證（共 25 張含本藥成分的許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ofloxacin Otic (ofloxacin) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42366170-e536-46a1-9735-d76e5820a9de) |
 
 <!-- review:end log -->
 

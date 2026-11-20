@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**女性乳癌 (female breast carcinoma)** 有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。不過 Melphalan 屬於雙功能氮芥類烷化劑，一般認為它透過使 DNA（鳥嘌呤 N7、腺嘌呤 N3）交聯，造成 DNA 斷裂並誘發細胞凋亡。這種細胞毒性機制不具腫瘤類型特異性，因此對乳癌有作用在生物學上是合理的。
+根據美國 FDA 核准的 Melphalan 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Melphalan 是一種雙氯乙胺類烷化劑。因此，其細胞毒性似乎與其和 DNA 形成股間交聯的程度有關，可能係經由結合於鳥嘌呤的 N 7 位置。」英文原文："Melphalan is an alkylating agent of the bischloroethylamine type. As a result, its cytotoxicity appears to be related to the extent of its interstrand cross-linking with DNA, probably by binding at the N 7 position of guanine."（[DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c)，版本日期 2026-09-15；查閱日期 2026-11-19）。不過 Melphalan 屬於雙功能氮芥類烷化劑，一般認為它透過使 DNA（鳥嘌呤 N7、腺嘌呤 N3）交聯，造成 DNA 斷裂並誘發細胞凋亡。這種細胞毒性機制不具腫瘤類型特異性，因此對乳癌有作用在生物學上是合理的。
 
 在乳癌方面，已有高劑量 Melphalan 合併自體幹細胞救援的研究，也有細胞株（MDA-MB-231）與異種移植的前臨床報告顯示抗腫瘤活性。早期還有一項隨機試驗比較 Melphalan 與 vinorelbine 用於蒽環類藥物難治性晚期乳癌。
 
@@ -126,6 +126,19 @@ TxGNN 模型預測它可能對**女性乳癌 (female breast carcinoma)** 有效�
 - 補充詳細作用機轉資料
 - 與現行標準乳癌療法進行效益風險比較，並系統性評估高劑量療程的長期療效
 - 制定骨髓抑制與續發性惡性腫瘤的監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

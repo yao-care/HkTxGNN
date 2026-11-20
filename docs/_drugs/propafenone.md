@@ -73,7 +73,7 @@ TxGNN 模型預測分數最高的是躁症（manic bipolar affective disorder）
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Propafenone 屬於 IC 類（鈉離子通道阻斷）抗心律不整藥物，其在心房顫動與心室心搏過速的療效已被證實。
+根據美國 FDA 核准的 Propafenone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Propafenone為具有局部麻醉作用的Class 1C抗心律不整藥物，並對心肌細胞膜具有直接穩定作用。Propafenone的電生理效應表現為單相動作電位上升速度（第0期）的降低。」英文原文："Propafenone is a Class 1C antiarrhythmic drug with local anesthetic effects, and a direct stabilizing action on myocardial membranes. The electrophysiological effect of propafenone manifests itself in a reduction of upstroke velocity (Phase 0) of the monophasic action potential."（[DailyMed: propafenone hydrochloride prescribing information, Northstar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ecd6452-ccc3-493f-9a4a-69f0fbf67a42)，版本日期 2026-06-04；查閱日期 2026-11-19）。根據已知資訊，Propafenone 屬於 IC 類（鈉離子通道阻斷）抗心律不整藥物，其在心房顫動與心室心搏過速的療效已被證實。
 
 **躁症（排名 1）：** 機轉上沒有合理的治療連結。1985 年個案報告指出 Propafenone 可能引發躁症，作者推測它與抗憂鬱藥 bupropion 化學結構相關。2001 年另有 Propafenone 與 venlafaxine 交互作用導致器質性精神病的報告。這些都是不良反應訊號，不支持再利用。高分數缺乏臨床證據支持。
 
@@ -161,6 +161,19 @@ TxGNN 模型預測分數最高的是躁症（manic bipolar affective disorder）
 - 補充 Propafenone 的作用機轉資料
 - 針對 CPVT 設計與 flecainide 比較的前瞻性研究，或系統性整理既有病例
 - 建立結構性心臟病、QT 延長與兒童族群的促心律不整風險監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: propafenone hydrochloride prescribing information, Northstar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ecd6452-ccc3-493f-9a4a-69f0fbf67a42) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

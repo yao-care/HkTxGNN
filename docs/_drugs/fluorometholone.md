@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**感染後血管炎 (Postinfectious Vasculitis)**
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Fluorometholone 是局部眼用皮質類固醇，藥理資料顯示其作用於糖皮質素受體（NR3C1），具抗發炎與免疫抑制效果。
+根據美國 FDA 核准的 Fluorometholone 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「皮質類固醇可抑制多種誘發因子所引起的發炎反應，並可能延遲或減緩癒合。它們可抑制與發炎相關的水腫、纖維蛋白沉積、微血管擴張、白血球遷移、微血管增生、纖維母細胞增生、膠原蛋白沉積及疤痕形成。[…] 在針對已確認對類固醇有反應者所進行的臨床研究中，fluorometholone 導致眼壓升高所需的平均時間顯著長於 dexamethasone phosphate；然而，在一小部分個體中，眼壓於一週內即出現顯著升高。」英文原文："Corticosteroids inhibit the inflammatory response to a variety of inciting agents and probably delay or slow healing. They inhibit the edema, fibrin deposition, capillary dilation, leukocyte migration, capillary proliferation, fibroblast proliferation, deposition of collagen, and scar formation associated with inflammation. […] In clinical studies of documented steroid-responders, fluorometholone demonstrated a significantly longer average time to produce a rise in intraocular pressure than dexamethasone phosphate; however, in a small percentage of individuals, a significant rise in intraocular pressure occurred within one week."（[DailyMed: Fluorometholone Ophthalmic Suspension (fluorometholone) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7988a3b-e432-4d42-a8d2-63ca017e6a01)，版本日期 2026-08-12；查閱日期 2026-11-19）。Fluorometholone 是局部眼用皮質類固醇，藥理資料顯示其作用於糖皮質素受體（NR3C1），具抗發炎與免疫抑制效果。
 
 從機轉上看，糖皮質素理論上可以抑制免疫媒介的血管炎。但本藥僅以眼用滴劑形式上市，全身暴露量極低，要在全身性血管炎中發揮作用的可能性很小。因此這個關聯性偏弱，預測分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，並非生物學證據，也無臨床研究佐證。
 
@@ -112,11 +112,12 @@ TxGNN 模型預測它可能對**感染後血管炎 (Postinfectious Vasculitis)**
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「6 張許可證皆為單一成分、有效狀態。」→「6 張許可證皆為單一成分，其中 5 張有效、HK-45275 已註銷。」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Fluorometholone Ophthalmic Suspension (fluorometholone) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7988a3b-e432-4d42-a8d2-63ca017e6a01) |
 
 <!-- review:end log -->
 

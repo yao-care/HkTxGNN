@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**肺囊蟲症 (Pneumocystosis)** 有效，但目�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Metronidazole 對厭氧菌與部分原蟲有活性，這類活性仰賴硝基咪唑可被還原活化的代謝途徑。
+根據美國 FDA 核准的 Metronidazole 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Metronidazole為一種nitroimidazole，在厭氧環境下對大多數絕對厭氧菌發揮抗菌作用。Metronidazole經被動擴散進入菌體，並於敏感厭氧菌的細胞質中被活化後，即被還原；此過程涉及細胞內電子傳遞供體（如ferredoxin），並將一個電子轉移至metronidazole的硝基，從而形成短暫存在的亞硝基自由基。」英文原文："Metronidazole, a nitroimidazole, exerts antibacterial effects in an anaerobic environment against most obligate anaerobes. Once metronidazole enters the organism by passive diffusion and activated in the cytoplasm of susceptible anaerobic bacteria, it is reduced; this process includes intra-cellular electron transport donors such as ferredoxin and transfer of an electron to the nitro group of the metronidazole leading to formation of a short-lived nitroso free radical."（[DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255)，版本日期 2026-11-02；查閱日期 2026-11-19）。Metronidazole 對厭氧菌與部分原蟲有活性，這類活性仰賴硝基咪唑可被還原活化的代謝途徑。
 
 然而，肺囊蟲（*Pneumocystis*）屬於真菌，並不具備對硝基咪唑敏感的代謝途徑。因此 TxGNN 模型（深度學習）給出的高分（0.9999）可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
@@ -141,11 +141,12 @@ TxGNN 模型預測它可能對**肺囊蟲症 (Pneumocystosis)** 有效，但目�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「以下列出 5 張主要許可證（共 20 張，皆為有效的單一成分製劑）：」→「以下列出 5 張主要許可證（共 36 張含本藥成分的許可證，」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255) |
 
 <!-- review:end log -->
 

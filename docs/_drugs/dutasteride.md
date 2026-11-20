@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對 **Ambras 型先天性全身性多毛症 (Ambras t
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就一般藥理知識而言，Dutasteride 是第 1 型與第 2 型 5-α 還原酶的雙重抑制劑，可降低二氫睪固酮 (DHT)，因此用於攝護腺增生，也常見於雄性禿的仿單外使用。
+根據美國 FDA 核准的 Dutasteride 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Dutasteride 抑制睪固酮轉化為 DHT。DHT 是主要負責前列腺最初發育及其後增大的雄性素。睪固酮經由 5α-還原酶轉化為 DHT，此酶有 2 種同功型：第 1 型及第 2 型。」英文原文："Dutasteride inhibits the conversion of testosterone to DHT. DHT is the androgen primarily responsible for the initial development and subsequent enlargement of the prostate gland. Testosterone is converted to DHT by the enzyme 5 alpha-reductase, which exists as 2 isoforms, type 1 and type 2."（[DailyMed: dutasteride prescribing information, Strides Pharma Science Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c78d18cf-05df-4154-b2f9-39cc374ca9e3)，版本日期 2026-08-27；查閱日期 2026-11-19）。就一般藥理知識而言，Dutasteride 是第 1 型與第 2 型 5-α 還原酶的雙重抑制劑，可降低二氫睪固酮 (DHT)，因此用於攝護腺增生，也常見於雄性禿的仿單外使用。
 
 不過，Ambras 症候群是罕見的遺傳疾患（與 8q 染色體重排影響 TRPS1 調控有關），並非已知由雄性素驅動。因此兩者的機轉關聯很薄弱，此預測分數來自 TxGNN 模型（深度學習），可能只是反映模型學到的相關疾病（毛髮相關）之間的相似性，而非生物學證據。
 
@@ -131,6 +131,19 @@ TxGNN 模型預測它可能對 **Ambras 型先天性全身性多毛症 (Ambras t
 - 進行機轉層面的文獻回顧，確認 DHT 在 Ambras 症候群或其他多毛症中是否有任何角色。
 - 若要探索毛髮相關用途，建議優先評估與雄性素有明確關聯的疾病（如雄性素性禿），而非本預測的罕見遺傳性疾病。
 - 評估給藥途徑與族群，並建立安全性監測計畫。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: dutasteride prescribing information, Strides Pharma Science Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c78d18cf-05df-4154-b2f9-39cc374ca9e3) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

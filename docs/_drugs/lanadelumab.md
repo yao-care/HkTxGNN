@@ -59,7 +59,7 @@ Lanadelumab 是一種抑制血漿激肽釋放酶（plasma kallikrein）的單株
 
 ## 為什麼這個預測合理？
 
-目前缺乏 DrugBank 的詳細作用機轉資料，但文獻中的機轉已相當明確。Lanadelumab 是完全人源化的單株抗體，專一抑制血漿激肽釋放酶（KLKB1）。
+根據美國 FDA 核准的 Lanadelumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Lanadelumab-flyo是一種全人源單株抗體（IgG1/κ輕鏈），可與血漿激肽釋放酶結合並抑制其蛋白水解活性。血漿激肽釋放酶是一種蛋白酶，可裂解高分子量激肽原（HMWK），生成裂解型HMWK（cHMWK）及緩激肽；緩激肽是一種強效血管擴張劑，可增加血管通透性，導致與HAE相關的腫脹和疼痛。」英文原文："Lanadelumab-flyo is a fully human monoclonal antibody (IgG1/κ-light chain) that binds plasma kallikrein and inhibits its proteolytic activity. Plasma kallikrein is a protease that cleaves high-molecular-weight-kininogen (HMWK) to generate cleaved HMWK (cHMWK) and bradykinin, a potent vasodilator that increases vascular permeability resulting in swelling and pain associated with HAE."（[DailyMed: Takhzyro (lanadelumab-flyo) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=15f99d8c-efe7-4f7d-aa20-0d0f1e30c6e8)，版本日期 2026-09-18；查閱日期 2026-11-19）。Lanadelumab 是完全人源化的單株抗體，專一抑制血漿激肽釋放酶（KLKB1）。
 
 在 C1 抑制劑缺乏症中，SERPING1 基因突變使 C1-INH 不足或功能異常，血漿激肽釋放酶活性失控，產生過量的緩激肽（bradykinin）。緩激肽是造成血管擴張與水腫發作的主要因子。直接抑制激肽釋放酶即可針對這條路徑介入。
 
@@ -125,6 +125,19 @@ Lanadelumab 是一種抑制血漿激肽釋放酶（plasma kallikrein）的單株
 - 取得香港衛生署仿單，確認核准適應症、警語與禁忌
 - 補充 DrugBank 的作用機轉資料
 - 若要探索真正的新適應症（排名 2 至 10），需先建立機轉假設並取得初步臨床或前臨床證據，目前這些預測均建議 Hold
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Takhzyro (lanadelumab-flyo) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=15f99d8c-efe7-4f7d-aa20-0d0f1e30c6e8) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

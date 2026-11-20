@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**猿猴免疫缺陷病毒感染 (Simian Immunodef
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Doravirine 屬於非核苷類逆轉錄酶抑制劑（NNRTI），已核准用於 HIV-1 感染。SIV 與 HIV 同屬慢病毒，都依賴逆轉錄酶複製，因此從機轉上抑制逆轉錄酶有一定的理論合理性。
+根據美國 FDA 核准的 Doravirine 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Doravirine為一種抗反轉錄病毒藥物。[…] Doravirine為一種吡啶酮類HIV-1非核苷反轉錄酶抑制劑，透過非競爭性抑制HIV-1反轉錄酶（RT）而抑制HIV-1複製。在生化試驗中，doravirine對重組野生型HIV-1 RT之RNA依賴性DNA聚合作用的50%抑制濃度（IC 50 ）為12.2±2.0 nM（n=3）。」英文原文："Doravirine is an antiretroviral drug. […] Doravirine is a pyridinone non-nucleoside reverse transcriptase inhibitor of HIV-1 and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). The inhibitory concentration at 50% (IC 50 ) of doravirine for RNA-dependent DNA polymerization of recombinant wild-type HIV-1 RT in a biochemical assay was 12.2±2.0 nM (n=3)."（[DailyMed: Pifeltro (doravirine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff06e5cc-f47a-4779-816b-0e5b13e88a25)，版本日期 2026-07-09；查閱日期 2026-11-19）。根據已知資訊，Doravirine 屬於非核苷類逆轉錄酶抑制劑（NNRTI），已核准用於 HIV-1 感染。SIV 與 HIV 同屬慢病毒，都依賴逆轉錄酶複製，因此從機轉上抑制逆轉錄酶有一定的理論合理性。
 
 不過需要留意幾點限制：
 - NNRTI 對 HIV-2 及部分 SIV 株的活性普遍有限。
@@ -122,6 +122,19 @@ TxGNN 模型預測它可能對**猿猴免疫缺陷病毒感染 (Simian Immunodef
 - 進行前臨床（體外或動物模型）研究，驗證抗 SIV 效果。
 - 釐清此預測是否有研究或轉譯價值；若無，建議把資源放在 HIV 領域內的相關用途。
 - 取得香港衛生署核准仿單，補足警語與禁忌症。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Pifeltro (doravirine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff06e5cc-f47a-4779-816b-0e5b13e88a25) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

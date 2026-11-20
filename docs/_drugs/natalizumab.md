@@ -60,7 +60,7 @@ TxGNN 模型預測分數最高的新適應症為支氣管炎，但最值得討�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Natalizumab 阻斷 α4 整合素，可限制白血球進入組織。乾癬由 T 細胞浸潤皮膚所驅動，因此理論上，阻斷淋巴球運輸可能減輕皮膚發炎。
+根據美國 FDA 核准的 Natalizumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Natalizumab與表現於除嗜中性白血球以外所有白血球表面的α4β1及α4β7整合素之α4次單元結合，並抑制α4介導的白血球與其對應受體的黏附。α4家族整合素的受體包括表現於活化血管內皮上的血管細胞黏附分子-1（VCAM-1），以及存在於胃腸道血管內皮細胞上的黏膜地址素細胞黏附分子-1（MAdCAM-1）。」英文原文："Natalizumab binds to the α4-subunit of α4β1 and α4β7 integrins expressed on the surface of all leukocytes except neutrophils, and inhibits the α4-mediated adhesion of leukocytes to their counter-receptor(s). The receptors for the α4 family of integrins include vascular cell adhesion molecule-1 (VCAM-1), which is expressed on activated vascular endothelium, and mucosal addressin cell adhesion molecule-1 (MAdCAM-1) present on vascular endothelial cells of the gastrointestinal tract."（[DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962)，版本日期 2026-10-09；查閱日期 2026-11-19）。根據已知資訊，Natalizumab 阻斷 α4 整合素，可限制白血球進入組織。乾癬由 T 細胞浸潤皮膚所驅動，因此理論上，阻斷淋巴球運輸可能減輕皮膚發炎。
 
 原適應症（克隆氏症、多發性硬化症）同屬免疫媒介的慢性發炎疾病。文獻指出多發性硬化症患者合併乾癬並不少見，這是預測在生物學上有一定合理性的原因。
 
@@ -130,6 +130,19 @@ TxGNN 模型預測分數最高的新適應症為支氣管炎，但最值得討�
 - 補充詳細的作用機轉資料（MOA）。
 - 對乾癬進行系統性的安全性與訊號審查，整合改善與惡化的報告，釐清誰可能受益、誰可能出現反常反應。
 - 在確認風險效益後，才考慮設計前瞻性研究，且需納入 PML 風險分層與 JC 病毒監測計畫。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

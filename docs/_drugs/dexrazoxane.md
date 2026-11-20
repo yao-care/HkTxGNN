@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Dexrazoxane 為單方注射劑，一般被歸類為化療輔助用藥（chemoprotectant），文獻中也將其列於化療保護劑之列。就藥理特性而言，它具有鐵螯合及拓樸異構酶 II 抑制的作用，但這些屬於一般藥理知識，並非本次資料所確認的機轉。
+根據美國 FDA 核准的 Dexrazoxane 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Dexrazoxane 發揮其細胞保護活性的機轉尚未完全明瞭。Dexrazoxane 是 EDTA 的環狀衍生物，可穿透細胞膜。實驗室研究結果顯示，dexrazoxane 在細胞內被轉化為開環螯合劑，干擾鐵介導的自由基生成，而此自由基生成被認為是導致 anthracycline 誘發心肌病變的部分原因。」英文原文："The mechanism by which dexrazoxane exerts its cytoprotective activity is not fully understood. Dexrazoxane is a cyclic derivative of EDTA that penetrates cell membranes. Results of laboratory studies suggest that dexrazoxane is converted intracellularly to a ring-opened chelating agent that interferes with iron-mediated free radical generation thought to be responsible, in part, for anthracycline-induced cardiomyopathy."（[DailyMed: dexrazoxane prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7c01089-85f5-40aa-b679-f53a425b4d68)，版本日期 2025-07-31；查閱日期 2026-11-19）。Dexrazoxane 為單方注射劑，一般被歸類為化療輔助用藥（chemoprotectant），文獻中也將其列於化療保護劑之列。就藥理特性而言，它具有鐵螯合及拓樸異構酶 II 抑制的作用，但這些屬於一般藥理知識，並非本次資料所確認的機轉。
 
 針對硬化性膽管炎，理論上可推測：鐵螯合可能減輕膽管上皮的氧化與發炎損傷。但這純屬推測，目前沒有任何資料支持。分數雖高，仍只是計算模型的輸出。
 
@@ -129,6 +129,19 @@ TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** �
 - 補充 DrugBank 的作用機轉資料
 - 針對硬化性膽管炎進行系統性文獻回顧與前臨床（如鐵螯合／氧化損傷模型）驗證
 - 若有興趣，可另將膀胱炎（鐵死亡假說）列為前臨床研究題目
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: dexrazoxane prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7c01089-85f5-40aa-b679-f53a425b4d68) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Prednisone 屬於全身性糖皮質激素，具有抑制免疫與抗發炎的作用。
+根據美國 FDA 核准的 Prednisone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「天然存在的皮質類固醇（hydrocortisone 及 cortisone）亦具有滯鹽特性，用於腎上腺皮質功能不全狀態的替代治療。其合成類似物（例如 prednisone）主要因其強效抗發炎作用而用於多種器官系統的疾病。」英文原文："Naturally occurring corticosteroids (hydrocortisone and cortisone), which also have salt-retaining properties, are used as replacement therapy in adrenocortical deficiency states. Their synthetic analogs, such as prednisone, are primarily used for their potent anti-inflammatory effects in disorders of many organ systems."（[DailyMed: Prednisone Delayed Release (prednisone) prescribing information, Dr. Reddys Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01bdc479-1f1f-af94-837c-12e7e861321a)，版本日期 2026-09-23；查閱日期 2026-11-19）。Prednisone 屬於全身性糖皮質激素，具有抑制免疫與抗發炎的作用。
 
 圓形禿是 T 細胞媒介的自體免疫疾病，毛囊的免疫豁免狀態遭到破壞。Prednisone 能抑制 T 細胞活化與促發炎細胞激素的訊號，因此在機轉上與降低毛囊周圍發炎相符。而此預測分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，並非生物學證據。
 
@@ -116,6 +116,19 @@ TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，
 | 禿髮性毛囊炎 (Folliculitis Decalvans) | 0.9999 | L5 | Hold |
 
 其餘預測（如禿髮抗體缺乏、遺傳性稀毛症等罕見疾病）僅有模型分數或間接文獻，無直接證據支持，建議暫緩。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Prednisone Delayed Release (prednisone) prescribing information, Dr. Reddys Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01bdc479-1f1f-af94-837c-12e7e861321a) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Erythromycin 是巨環內酯類抗生素，一般認為它結合細菌 50S 核糖體次單位以抑制蛋白質合成，同時具有抗發炎特性。它的結膜炎療效已是既有適應症之一，機轉上可能適用於角膜結膜的相關病變。
+根據美國 FDA 核准的 Erythromycin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Erythromycin 藉由與易感微生物的 50S 核糖體次單元結合而抑制蛋白質合成。其不影響核酸合成。」英文原文："Erythromycin acts by inhibition of protein synthesis by binding 50S ribosomal subunits of susceptible organisms. It does not affect nucleic acid synthesis."（[DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd)，版本日期 2018-12-04；查閱日期 2026-11-19）。根據已知資訊，Erythromycin 是巨環內酯類抗生素，一般認為它結合細菌 50S 核糖體次單位以抑制蛋白質合成，同時具有抗發炎特性。它的結膜炎療效已是既有適應症之一，機轉上可能適用於角膜結膜的相關病變。
 
 慢性瞼緣角膜結膜炎伴隨點狀上皮角膜病變，常與葡萄球菌性瞼緣炎和瞼板腺功能異常有關。因此抗菌與抗發炎雙重作用在理論上說得通。
 
@@ -117,11 +117,12 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「此外還有另外 14 張有效許可證，」→「香港共有 20 張含本藥成分的許可證（有效 19 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (liposarcoma)** 有效，
 
 ## 為什麼這個預測合理？
 
-本報告所整理的資料中，目前缺乏詳細的作用機轉資料。根據已知資訊，sirolimus 屬於 mTOR 抑制劑，可抑制 mTORC1。
+根據美國 FDA 核准的 Sirolimus 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「FYARRO 中的 sirolimus 為雷帕黴素機制標靶激酶（mTOR，舊稱哺乳動物雷帕黴素標靶）抑制劑。mTOR 是一種絲胺酸蘇胺酸激酶，位於 PI3K/AKT 路徑下游，控制細胞存活、生長及增生等關鍵細胞過程，且常在多種人類癌症中失調。在細胞內，sirolimus 會與親免素 FK 結合蛋白-12（FKBP-12）結合，形成免疫抑制複合物。」英文原文："Sirolimus in FYARRO is an inhibitor of mechanistic target of rapamycin kinase (mTOR, previously known as mammalian target of rapamycin). mTOR, a serine threonine kinase, is downstream of the PI3K/AKT pathway, controls key cellular processes such as cell survival, growth, and proliferation, and is commonly dysregulated in several human cancers. In cells, sirolimus binds to the immunophilin, FK Binding Protein-12 (FKBP-12), to generate an immunosuppressive complex."（[DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf)，版本日期 2026-09-09；查閱日期 2026-11-19）。根據已知資訊，sirolimus 屬於 mTOR 抑制劑，可抑制 mTORC1。
 
 軟組織肉瘤（包括脂肪肉瘤）已有 mTOR 路徑活化的報告，因此在機轉上，抑制 mTORC1 可能有助於減緩腫瘤生長。這是此預測在生物學上的主要依據。
 
@@ -106,6 +106,18 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (liposarcoma)** 有效，
 - 設計 sirolimus 用於脂肪肉瘤的對照試驗或進行更完整的文獻回顧
 - 補充詳細的作用機轉資料
 - 取得原廠仿單的警語、禁忌症與適應症資訊，並評估免疫抑制、感染及藥物交互作用的風險管理
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

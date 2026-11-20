@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**胃十二指腸炎 (Gastroduodenitis)** 有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，碳酸氫鉀是一種鹼化劑，可中和胃酸，在香港以含有它的抗酸/抗逆流複方液劑上市。TxGNN 模型（深度學習）給出的預測分數可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
+根據美國 FDA 核准的 Potassium Bicarbonate 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「靜脈注射碳酸氫鈉治療可增加血漿碳酸氫鹽，緩衝過量的氫離子濃度，並提高血液 pH 值。」英文原文："Intravenous sodium bicarbonate therapy increases plasma bicarbonate, buffers excess hydrogen ion concentration, raises blood pH."（[DailyMed: sodium bicarbonate prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50c858a-00c8-4cb2-ad73-8797f19e656d)，版本日期 2026-08-14；查閱日期 2026-11-19）。根據已知資訊，碳酸氫鉀是一種鹼化劑，可中和胃酸，在香港以含有它的抗酸/抗逆流複方液劑上市。TxGNN 模型（深度學習）給出的預測分數可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 
 胃十二指腸炎和消化性潰瘍、胃食道逆流、食道炎、消化不良一樣，都涉及酸引起的黏膜發炎。模型的高分很可能來自它與這些既有適應症在網路上的相近性。
 
@@ -101,6 +101,19 @@ TxGNN 模型預測它可能對**胃十二指腸炎 (Gastroduodenitis)** 有效�
 - 補充作用機轉資料（如 DrugBank）。
 - 搜尋並評估胃十二指腸炎的臨床試驗與文獻。
 - 針對腎功能不全、心衰竭及併用 ACE 抑制劑/ARB/保鉀利尿劑的族群，擬定高血鉀監測計畫。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: sodium bicarbonate prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50c858a-00c8-4cb2-ad73-8797f19e656d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

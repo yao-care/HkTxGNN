@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**腎發育不全／無發育 (renal hypodysplasia
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Levothyroxine 是合成的甲狀腺素，一般認為甲狀腺激素訊號在腎臟發育（腎元生成、腎小管成熟）與功能維持中扮演一般性角色。
+根據美國 FDA 核准的 Levothyroxine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「甲狀腺激素透過控制DNA轉錄及蛋白質合成發揮其生理作用。Triiodothyronine（T3）及L-thyroxine（T4）擴散進入細胞核，並與附著於DNA的甲狀腺受體蛋白結合。」英文原文："Thyroid hormones exert their physiologic actions through control of DNA transcription and protein synthesis. Triiodothyronine (T3) and L-thyroxine (T4) diffuse into the cell nucleus and bind to thyroid receptor proteins attached to DNA."（[DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174)，版本日期 2026-11-06；查閱日期 2026-11-19）。Levothyroxine 是合成的甲狀腺素，一般認為甲狀腺激素訊號在腎臟發育（腎元生成、腎小管成熟）與功能維持中扮演一般性角色。
 
 然而，腎發育不全／無發育屬於結構性的先天畸形，目前沒有證據顯示補充甲狀腺素能逆轉或治療這類器官形成異常。0.9967 的高分來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非真正的生物學證據。
 
@@ -119,6 +119,19 @@ TxGNN 模型預測它可能對**腎發育不全／無發育 (renal hypodysplasia
 - 進行系統性文獻檢索，確認是否有任何直接研究該疾病的證據
 - 取得香港仿單的警語與禁忌資料，再進行安全性篩選
 - 若有前臨床證據，再重新評估是否值得推進
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

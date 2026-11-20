@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**異位性皮膚炎 (atopic eczema)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Beclomethasone Dipropionate 屬於合成糖皮質素類別，這類藥物透過活化糖皮質素受體，降低促發炎細胞激素的表現並抑制免疫細胞活化。
+根據美國 FDA 核准的 Beclomethasone Dipropionate 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Beclomethasone dipropionate 是一種前驅藥，會大量轉化為活性代謝物 beclomethasone-17-monopropionate。Beclomethasone dipropionate 影響鼻炎症狀的確切機轉不明。」英文原文："Beclomethasone dipropionate is a prodrug that is extensively converted to the active metabolite, beclomethasone-17-monopropionate. The precise mechanism through which beclomethasone dipropionate affects rhinitis symptoms is unknown."（[DailyMed: Qnasl (beclomethasone dipropionate) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b8d8e84-b5d2-4e56-97ec-4f72971465c5)，版本日期 2020-02-29；查閱日期 2026-11-19）。根據已知資訊，Beclomethasone Dipropionate 屬於合成糖皮質素類別，這類藥物透過活化糖皮質素受體，降低促發炎細胞激素的表現並抑制免疫細胞活化。
 
 異位性皮膚炎是以 Th2 免疫反應為主的發炎性皮膚病，外用與全身性皮質類固醇是已確立的治療類別，因此從類別藥理來看，這個預測在生物學上說得通，也與模型給出的高分（0.9941）一致。不過這個推論建立在皮質類固醇的類別特性上，並非此藥物本身的機轉資料。
 
@@ -130,11 +130,12 @@ TxGNN 模型預測它可能對**異位性皮膚炎 (atopic eczema)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有多張有效的單一成分許可證（本次資料可能僅為部分記錄），以下列出 5 張主」→「香港共有 22 張含本藥成分的許可證（全部有效；單一成分 1」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Qnasl (beclomethasone dipropionate) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b8d8e84-b5d2-4e56-97ec-4f72971465c5) |
 
 <!-- review:end log -->
 

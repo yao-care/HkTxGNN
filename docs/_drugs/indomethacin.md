@@ -54,7 +54,7 @@ Indomethacin（吲哚美辛）是一種非類固醇消炎藥。知識圖譜記�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般而言，Indomethacin 是環氧合酶（COX-1 與 COX-2）抑制劑，透過減少前列腺素生成來發揮消炎與止痛作用，這也是它用於關節發炎類疾病的基礎。
+根據美國 FDA 核准的 Indomethacin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Indomethacin具有鎮痛、抗炎及解熱特性。INDOCIN的作用機轉與其他NSAIDs相同，尚未完全明瞭，但涉及抑制環氧合酶（COX-1及COX-2）。」英文原文："Indomethacin has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of INDOCIN, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)."（[DailyMed: Indocin (indomethacin) prescribing information, Zyla Life Sciences US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73878376-1d24-423b-9f37-3666e83c95da)，版本日期 2024-12-16；查閱日期 2026-11-19）。一般而言，Indomethacin 是環氧合酶（COX-1 與 COX-2）抑制劑，透過減少前列腺素生成來發揮消炎與止痛作用，這也是它用於關節發炎類疾病的基礎。
 
 短指併指症候群是罕見的先天性肢體發育畸形。這類疾病的成因是發育過程的基因或訊號異常，而不是前列腺素介導的發炎。消炎止痛作用沒有已知的途徑可以矯正骨骼發育缺陷，所以**目前無法建立合理的機轉連結**。
 
@@ -107,6 +107,19 @@ Indomethacin（吲哚美辛）是一種非類固醇消炎藥。知識圖譜記�
 - 在文獻與試驗登記庫中，針對此疾病進行直接檢索與確認
 
 **補充：**同一份預測清單中，排名第 8 的**幼年特發性關節炎**有 19 篇文獻，以回顧和一項 1978 年的雙盲交叉試驗為主，證據較完整，也比較貼近 Indomethacin 的既有用途。若要選擇值得優先評估的方向，建議以該疾病為主要標的另行評估。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Indocin (indomethacin) prescribing information, Zyla Life Sciences US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73878376-1d24-423b-9f37-3666e83c95da) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

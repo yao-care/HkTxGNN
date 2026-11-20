@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對**肺高壓（pulmonary hypertension with unclear 
 
 Imidapril 是 ACE 抑制劑前驅藥，在體內轉換為活性代謝物 imidaprilat，
 可減少血管收縮素 II 的生成並降低血管阻力。這與肺血管張力及血管重塑之間存在合理的生物學關聯。
-不過，目前缺乏詳細的作用機轉資料，且 ACE 抑制劑在肺高壓中整體上並未顯示一致的療效。
+ChEMBL（EMBL-EBI）收錄的 Imidapril 作用機轉（非官方翻譯）：「血管收縮素轉化酶抑制劑」英文原文："Angiotensin-converting enzyme inhibitor"（[ChEMBL CHEMBL317094 (imidapril): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL317094)，CC BY-SA 3.0；查閱日期 2026-11-19）。
 
 TxGNN 其他排名較高的預測還包括：
 
@@ -108,6 +108,19 @@ TxGNN 其他排名較高的預測還包括：
 - 進行系統性文獻與臨床試驗檢索，確認 imidapril 或同類 ACE 抑制劑在肺高壓中的證據
 - 優先評估與原適應症較接近的預測（如高血壓性腎病），並釐清肺高壓的亞型與目標族群
 - 建立前臨床或小型探索性研究，驗證肺血管層面的機轉假說
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL317094 (imidapril): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL317094) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

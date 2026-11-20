@@ -61,7 +61,7 @@ Dorzolamide 是局部用碳酸酐酶抑制劑，原本用於開角型青光眼�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料庫記錄。根據藥理學資料，Dorzolamide 抑制睫狀突中的碳酸酐酶 II，減少碳酸氫根與房水生成，進而降低眼壓。資料中也顯示它作用於多種碳酸酐酶亞型（CA1、CA7、CA12、CA14）。
+根據美國 FDA 核准的 Dorzolamide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「碳酸酐酶（CA）是一種存在於人體多種組織（包括眼睛）中的酵素。其催化涉及二氧化碳水合及碳酸脫水的可逆反應。[…] Dorzolamide鹽酸鹽眼用溶液含有dorzolamide鹽酸鹽，為一種人類碳酸酐酶II抑制劑。」英文原文："Carbonic anhydrase (CA) is an enzyme found in many tissues of the body including the eye. It catalyzes the reversible reaction involving the hydration of carbon dioxide and the dehydration of carbonic acid. […] Dorzolamide hydrochloride ophthalmic solution contains dorzolamide hydrochloride, an inhibitor of human carbonic anhydrase II."（[DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea)，版本日期 2026-11-14；查閱日期 2026-11-19）。根據藥理學資料，Dorzolamide 抑制睫狀突中的碳酸酐酶 II，減少碳酸氫根與房水生成，進而降低眼壓。資料中也顯示它作用於多種碳酸酐酶亞型（CA1、CA7、CA12、CA14）。
 
 原發性遺傳性青光眼同樣以眼壓升高為核心病理，因此降眼壓機轉上有合理性。不過這個高分更可能反映與已核准青光眼適應症的重疊，並不代表有獨立證據。
 
@@ -71,7 +71,6 @@ Dorzolamide 是局部用碳酸酐酶抑制劑，原本用於開角型青光眼�
 ---
 
 ## 臨床試驗證據
-
 
 以下為證據最充分的相關預測「開角型青光眼」的代表性試驗（原適應症，非新適應症）：
 
@@ -136,7 +135,6 @@ Dorzolamide 是局部用碳酸酐酶抑制劑，原本用於開角型青光眼�
 
 ## 結論與下一步
 
-
 **理由：**
 - 首位預測僅有模型分數，無任何臨床試驗或文獻支持（L5）。
 - 「開角型青光眼」雖有 L1 等級證據（建議 Proceed with Guardrails），但屬原有適應症，並非新用途。注意事項：多為 Phase 4 主動對照試驗，多項樣本偏小（n=32–60），許多比較的是複方，難以單獨評估 dorzolamide 的貢獻，另有一項試驗已撤回。
@@ -146,6 +144,19 @@ Dorzolamide 是局部用碳酸酐酶抑制劑，原本用於開角型青光眼�
 - 補充作用機轉資料（可由 DrugBank 取得）
 - 針對遺傳性青光眼（如先天性或兒童青光眼）搜尋專屬證據；現有的兒童青光眼 Phase 2 試驗（NCT01527682）可作為起點
 - 確認許可證的核准適應症與劑型，以釐清原適應症範圍
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

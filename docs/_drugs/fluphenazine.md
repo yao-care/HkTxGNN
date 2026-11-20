@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**視網膜失養症（伴或不伴眼外異常）
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Fluphenazine 一般被認為是多巴胺 D2 受體拮抗劑，但這點並未包含在本報告所整理的資料中。
+根據美國 FDA 核准的 Fluphenazine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Fluphenazine hydrochloride 對中樞神經系統的各個層面以及多個器官系統均具有活性。其發揮治療作用的機轉尚不清楚。」英文原文："Fluphenazine hydrochloride has activity at all levels of the central nervous system as well as on multiple organ systems. The mechanism whereby its therapeutic action is exerted is unknown."（[DailyMed: Fluphenazine Hydrochoride (fluphenazine hydrochloride) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91b85b8d-4c10-4395-915e-272b81ef3b12)，版本日期 2026-07-03；查閱日期 2026-11-19）。Fluphenazine 一般被認為是多巴胺 D2 受體拮抗劑，但這點並未包含在本報告所整理的資料中。
 
 視網膜失養症屬於遺傳異質性的疾病，多巴胺 D2 拮抗劑在其中並無已知的疾病修飾作用。因此，0.9999 的高分僅是模型輸出，機轉上找不到可支持的連結，原適應症與新適應症之間也缺乏明確關聯。
 
@@ -146,6 +146,19 @@ TxGNN 模型預測它可能對**視網膜失養症（伴或不伴眼外異常）
 **注意：** 上述文獻多屬長效針劑類別的回顧或回溯性研究，沒有一篇是 fluphenazine 專屬的雙相情感障礙試驗，證據力有限。
 
 **下一步：** 建議先針對 fluphenazine 在雙相躁症的專屬文獻進行系統性回顧，再評估是否設計臨床研究。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Fluphenazine Hydrochoride (fluphenazine hydrochloride) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91b85b8d-4c10-4395-915e-272b81ef3b12) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

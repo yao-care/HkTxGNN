@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**遺傳性牙齦纖維瘤病 (Fibromatosis, Gingi
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知文獻，Crizotinib 是 ALK、ROS1 與 c-MET 受體酪胺酸激酶的 ATP 競爭性抑制劑，在 ALK 或 ROS1 重排的非小細胞肺癌中療效已被證實。
+根據美國 FDA 核准的 Crizotinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Crizotinib 是受體酪胺酸激酶的抑制劑，包括 ALK、肝細胞生長因子受體（HGFR, c-Met）、ROS1（c-ros）及 Recepteur d'Origine Nantais（RON）。易位可能影響 ALK 基因，導致致癌性融合蛋白的表現。」英文原文："Crizotinib is an inhibitor of receptor tyrosine kinases including ALK, Hepatocyte Growth Factor Receptor (HGFR, c-Met), ROS1 (c-ros), and Recepteur d'Origine Nantais (RON). Translocations can affect the ALK gene resulting in the expression of oncogenic fusion proteins."（[DailyMed: Xalkori (crizotinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a51b0de-47d6-455e-a94c-d2c737b04ff7)，版本日期 2026-10-29；查閱日期 2026-11-19）。根據已知文獻，Crizotinib 是 ALK、ROS1 與 c-MET 受體酪胺酸激酶的 ATP 競爭性抑制劑，在 ALK 或 ROS1 重排的非小細胞肺癌中療效已被證實。
 
 然而，就現有資料而言，ALK/ROS1/MET 抑制與遺傳性牙齦纖維瘤病之間**沒有任何支持的機轉連結**。TxGNN 分數雖然很高（0.9981），但排名僅為 4427，且沒有試驗或文獻佐證，應視為尚待驗證的假說，不宜過度解讀。
 
@@ -120,6 +120,19 @@ TxGNN 模型預測它可能對**遺傳性牙齦纖維瘤病 (Fibromatosis, Gingi
 - 取得香港衛生署原廠仿單，補全警語、禁忌症與核准適應症
 - 進行前臨床或機轉驗證，確認是否存在合理的標靶
 - 若考慮其他預測適應症，需先確認腫瘤的 ALK/ROS1/MET 分子狀態
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Xalkori (crizotinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a51b0de-47d6-455e-a94c-d2c737b04ff7) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

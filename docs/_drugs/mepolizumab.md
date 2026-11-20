@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**免疫性破壞所致血小板減少症 (Thrombo
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Mepolizumab 是抗 IL-5 單株抗體，透過中和 IL-5 來減少嗜酸性球，因此在嗜酸性球相關疾病中有療效基礎。
+根據美國 FDA 核准的 Mepolizumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Mepolizumab是一種IL-5拮抗劑（IgG1 kappa）。IL-5是負責嗜酸性白血球生長與分化、招募、活化及存活的主要細胞激素。Mepolizumab以100 pM的解離常數與IL-5結合，透過阻斷IL-5與表現於嗜酸性白血球細胞表面之IL-5受體複合體alpha鏈的結合，抑制IL-5的生物活性。」英文原文："Mepolizumab is an IL-5 antagonist (IgG1 kappa). IL-5 is the major cytokine responsible for the growth and differentiation, recruitment, activation, and survival of eosinophils. Mepolizumab binds to IL-5 with a dissociation constant of 100 pM, inhibiting the bioactivity of IL-5 by blocking its binding to the alpha chain of the IL-5 receptor complex expressed on the eosinophil cell surface."（[DailyMed: Nucala (mepolizumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea)，版本日期 2025-08-06；查閱日期 2026-11-19）。已知 Mepolizumab 是抗 IL-5 單株抗體，透過中和 IL-5 來減少嗜酸性球，因此在嗜酸性球相關疾病中有療效基礎。
 
 原適應症（嗜酸性肺炎、肺嗜酸性球增多症）都以嗜酸性球過多為特徵。但免疫性血小板減少症的主要機轉是自體抗體介導的血小板清除與巨核細胞生成受損，與 IL-5 / 嗜酸性球路徑沒有已確立的關聯。
 
@@ -109,6 +109,19 @@ TxGNN 模型預測它可能對**免疫性破壞所致血小板減少症 (Thrombo
 - 取得香港原廠仿單的警語、禁忌與核准適應症
 - 先以回顧性病例整理或機轉研究評估，再考慮是否值得設計探索性臨床試驗
 - 排名第 2 至第 5 的預測（血小板釋放障礙、偽性血管性血友病、自體免疫性血小板減少、Glanzmann 血小板無力症）同樣缺乏支持證據，且多為先天性血小板缺陷，與 IL-5 機轉無明顯關聯，不建議優先投入
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Nucala (mepolizumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

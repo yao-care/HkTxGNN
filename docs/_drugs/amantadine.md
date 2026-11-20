@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對 **Rasmussen 亞急性腦炎 (Rasmussen subacute e
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知藥理知識，amantadine 是 NMDA 受體拮抗劑，也具有多巴胺調節作用。Rasmussen 腦炎是一種免疫介導的慢性腦炎，與麩胺酸相關的興奮性神經毒性損傷可能有關，因此在機轉上存在一個可能但**尚未驗證**的連結。
+根據美國 FDA 核准的 Amantadine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Amantadine用於治療帕金森氏症患者的運動困難，或作為levodopa/carbidopa的輔助治療用於出現「關閉期」（'off' episodes）的帕金森氏症患者時，其發揮療效的機轉尚不清楚。Amantadine為NMDA受體的弱效非競爭性拮抗劑。」英文原文："The mechanism by which amantadine exerts efficacy in the treatment of dyskinesia in patients with Parkinson's disease or as adjunctive treatment to levodopa/carbidopa in patients with Parkinson's disease experiencing 'off' episodes is unknown. Amantadine is a weak uncompetitive antagonist of the NMDA receptor."（[DailyMed: Gocovri (amantadine) prescribing information, Adamas Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82ff865f-78f3-4c94-b6a9-727a54944b28)，版本日期 2026-10-05；查閱日期 2026-11-19）。根據已知藥理知識，amantadine 是 NMDA 受體拮抗劑，也具有多巴胺調節作用。Rasmussen 腦炎是一種免疫介導的慢性腦炎，與麩胺酸相關的興奮性神經毒性損傷可能有關，因此在機轉上存在一個可能但**尚未驗證**的連結。
 
 原適應症（帕金森氏症等動作障礙）與 Rasmussen 腦炎同屬中樞神經系統疾病，但病理本質不同：前者以神經退化為主，後者以免疫發炎為主。此推論屬推測性質，缺乏所提供資料的支持。
 
@@ -118,6 +118,19 @@ TxGNN 模型預測它可能對 **Rasmussen 亞急性腦炎 (Rasmussen subacute e
 - 取得香港衛生署仿單的警語與禁忌資料
 - 針對 Rasmussen 腦炎進行系統性文獻與試驗檢索，並評估 NMDA 拮抗作用的實驗依據
 - 若考慮其他預測，可優先探討**脊髓炎**與 **PLA2G6 相關神經退化**（均為 L4），但需先釐清現有文獻實際對應的疾病（如小兒麻痺後症候群、PKAN）與預測適應症的差異
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Gocovri (amantadine) prescribing information, Adamas Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82ff865f-78f3-4c94-b6a9-727a54944b28) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

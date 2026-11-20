@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**自體免疫性卵巢炎 (Autoimmune Oophoritis)
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，人類胰島素是替代內源性胰島素、調節血糖的荷爾蒙製劑，但這不足以說明它對自體免疫性卵巢炎的作用。
+根據美國 FDA 核准的 Insulin Human 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「調節葡萄糖代謝是胰島素（包括HUMULIN R U-500）的主要作用。胰島素透過刺激骨骼肌及脂肪的周邊葡萄糖攝取，以及抑制肝臟葡萄糖生成，從而降低血糖。」英文原文："Regulation of glucose metabolism is the primary activity of insulins, including HUMULIN R U-500. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production."（[DailyMed: Humulin R U-500 Kwikpen (insulin human) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60e8dd0-1d48-4dc9-87fd-e14675255e8c)，版本日期 2026-07-01；查閱日期 2026-11-19）。根據已知資訊，人類胰島素是替代內源性胰島素、調節血糖的荷爾蒙製劑，但這不足以說明它對自體免疫性卵巢炎的作用。
 
 這個預測來自 TxGNN 模型（深度學習），可能反映模型在相關疾病之間學到的相似性，而非生物學證據：自體免疫性卵巢炎常與多腺體自體免疫症候群（包括第 1 型糖尿病）並存，可能因此讓模型把它與胰島素連在一起。胰島素本身沒有已知的免疫調節或卵巢保護作用。
 
@@ -136,6 +136,19 @@ TxGNN 模型預測它可能對**自體免疫性卵巢炎 (Autoimmune Oophoritis)
 - 取得香港衛生署仿單，確認核准適應症、警語與禁忌症
 - 針對自體免疫性卵巢炎進行文獻與試驗檢索，確認是否存在直接研究
 - 若有直接證據，再評估給藥途徑與族群安全性
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Humulin R U-500 Kwikpen (insulin human) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60e8dd0-1d48-4dc9-87fd-e14675255e8c) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**血小板釋放功能異常 (primary release dis
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Pentosan polysulfate 是一種類肝素的硫酸多醣，具有較弱的抗凝血活性，並可能影響血小板相關的凝血路徑。
+根據美國 FDA 核准的 Pentosan Polysulfate 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Pentosan polysulfate sodium用於間質性膀胱炎的作用機轉尚不明確。」英文原文："The mechanism of action of pentosan polysulfate sodium in interstitial cystitis is not known."（[DailyMed: Elmiron (pentosan polysulfate sodium) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ba651e-3d8a-11df-8fbe-119855d89593)，版本日期 2024-09-18；查閱日期 2026-11-19）。根據已知資訊，Pentosan polysulfate 是一種類肝素的硫酸多醣，具有較弱的抗凝血活性，並可能影響血小板相關的凝血路徑。
 
 這與新適應症的需求方向並不一致。血小板釋放功能異常的患者本身就有血小板功能不良與出血傾向，而抗凝血活性理論上可能加重出血風險。因此，從機轉上看，這個預測目前只是模型的運算結果，缺乏生物學上的支持，應視為假說。
 
@@ -119,6 +119,19 @@ TxGNN 模型預測它可能對**血小板釋放功能異常 (primary release dis
 - 進行文獻與臨床試驗的系統性檢索，確認是否有任何支持或反對的證據
 - 若有機轉上的合理依據，再考慮前臨床研究（如血小板功能與出血風險實驗）
 - 確認香港已登記的劑型（目前為直腸用軟膏）與預期給藥途徑是否相容
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Elmiron (pentosan polysulfate sodium) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ba651e-3d8a-11df-8fbe-119855d89593) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

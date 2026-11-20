@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**濾泡性淋巴瘤 (Follicular Lymphoma)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（MOA 欄位未收錄）。根據已知資訊，Brentuximab Vedotin 是以 CD30 為標的的抗體藥物複合體，由抗 CD30 抗體連接 MMAE（一種微管抑制型細胞毒性藥物）組成，抗體結合 CD30 陽性細胞後將毒素送入細胞內。
+根據美國 FDA 核准的 Brentuximab Vedotin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「CD30 是腫瘤壞死因子受體家族的成員，表現於 sALCL 細胞表面及 cHL 中的 Hodgkin Reed-Sternberg（HRS）細胞表面。CD30 在其他 T 細胞淋巴瘤中的表現程度不一。[…] Brentuximab vedotin 是一種抗體藥物複合體（ADC）。」英文原文："CD30 is a member of the tumor necrosis factor receptor family and is expressed on the surface of sALCL cells and on Hodgkin Reed-Sternberg (HRS) cells in cHL. CD30 is variably expressed in other T-cell lymphomas. […] Brentuximab vedotin is an antibody-drug conjugate (ADC)."（[DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f)，版本日期 2025-11-11；查閱日期 2026-11-19）。根據已知資訊，Brentuximab Vedotin 是以 CD30 為標的的抗體藥物複合體，由抗 CD30 抗體連接 MMAE（一種微管抑制型細胞毒性藥物）組成，抗體結合 CD30 陽性細胞後將毒素送入細胞內。
 
 何杰金氏淋巴瘤的 Reed-Sternberg 細胞高度表現 CD30，這是此藥療效的基礎。濾泡性淋巴瘤同屬淋巴系惡性腫瘤，但 CD30 表現變異大且通常偏低，因此理論基礎主要落在 CD30 陽性的亞群，或可能的旁觀者效應（bystander effect）。
 
@@ -140,6 +140,19 @@ TxGNN 模型預測它可能對**濾泡性淋巴瘤 (Follicular Lymphoma)** 有�
 - 評估濾泡性淋巴瘤患者的 CD30 表現率，建立以 CD30 為基礎的篩選策略
 - 補齊作用機轉資料（MOA）
 - 取得香港原廠仿單的警語、禁忌症與核准適應症資料，完成安全性評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

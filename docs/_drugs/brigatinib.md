@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**牙齦纖維瘤病 (fibromatosis, gingival)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 brigatinib 是以 ALK 為主要標靶的激酶抑制劑，同時也抑制 EGFR、FAK 等激酶。
+根據美國 FDA 核准的 Brigatinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Brigatinib是一種酪胺酸激酶抑制劑（TKI），於臨床可達到的濃度下，在體外對多種激酶具有活性，包括ALK、ROS1、類胰島素生長因子-1受體（IGF-1R）及FLT-3，以及EGFR缺失及點突變。在體外及體內分析中，brigatinib可抑制ALK的自體磷酸化，以及ALK所媒介的下游訊息傳遞蛋白STAT3、AKT、ERK1/2及S6的磷酸化。」英文原文："Brigatinib is a tyrosine kinase inhibitor (TKI) with in vitro activity at clinically achievable concentrations against multiple kinases including ALK, ROS1, insulin-like growth factor-1 receptor (IGF-1R), and FLT-3 as well as EGFR deletion and point mutations. Brigatinib inhibited autophosphorylation of ALK and ALK-mediated phosphorylation of the downstream signaling proteins STAT3, AKT, ERK1/2, and S6 in in vitro and in vivo assays."（[DailyMed: Alunbrig (brigatinib) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fe9ff20-d402-41f3-bc1e-7002ea7007db)，版本日期 2026-01-12；查閱日期 2026-11-19）。已知 brigatinib 是以 ALK 為主要標靶的激酶抑制劑，同時也抑制 EGFR、FAK 等激酶。
 
 就目前整理的資料而言，ALK、EGFR、FAK 等激酶的抑制作用與牙齦纖維瘤病之間，並沒有已確認的機轉關聯。這個預測分數很高（0.9989），但屬於模型輸出，不能視為藥理上的合理性證明。
 
@@ -109,6 +109,19 @@ TxGNN 模型預測它可能對**牙齦纖維瘤病 (fibromatosis, gingival)** �
 - 進行前臨床研究（如細胞或動物模型）驗證可行性
 - 取得香港原廠仿單，確認警語、禁忌症與核准適應症內容
 - 評估全身性激酶抑制劑用於良性局部病變的風險效益
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Alunbrig (brigatinib) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fe9ff20-d402-41f3-bc1e-7002ea7007db) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

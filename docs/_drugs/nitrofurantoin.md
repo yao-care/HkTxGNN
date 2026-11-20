@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Nitrofurantoin 是泌尿道抗菌藥，沒有已知機轉可連結到類風濕性關節炎的發病過程（自體免疫性關節發炎）。
+根據美國 FDA 核准的 Nitrofurantoin 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Nitrofurantoin 是一種抗菌藥物。[…] Nitrofurantoin 可被多種酶（包括細菌黃素蛋白）還原為具反應性的中間產物，這些中間產物會損害 DNA 及蛋白質等巨分子。」英文原文："Nitrofurantoin is an antibacterial drug. […] Nitrofurantoin is reduced by a wide range of enzymes including bacterial flavoproteins to reactive intermediates which are damaging to macromolecules such as DNA and proteins."（[DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5)，版本日期 2026-01-22；查閱日期 2026-11-19）。Nitrofurantoin 是泌尿道抗菌藥，沒有已知機轉可連結到類風濕性關節炎的發病過程（自體免疫性關節發炎）。
 
 相反地，相關文獻多描述負面關聯：
 - 藥物引起的肺纖維化（nitrofurantoin 為已知誘發藥物，類風濕性關節炎患者本身也易有肺部病變）。
@@ -122,6 +122,19 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 **其他預測的補充：**
 其餘預測（如糖尿病腎病變、硬化性膽管炎、痛風、高鐵血紅素血症等）同樣缺乏療效證據，部分文獻反映的是不良反應。以高鐵血紅素血症為例，文獻顯示 nitrofurantoin 會誘發該病況，屬安全風險而非治療訊號，不應視為再利用的支持。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

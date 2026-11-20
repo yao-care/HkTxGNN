@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**局部僵直肢症候群 (Focal Stiff Limb Syndr
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就一般藥理知識而言，Glimepiride 屬磺醯脲類，作用是關閉胰臟 β 細胞的 K-ATP 通道，促進胰島素分泌。
+根據美國 FDA 核准的 Glimepiride 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Glimepiride主要透過刺激胰臟β細胞釋放胰島素而降低血糖。磺醯脲類藥物與胰臟β細胞質膜上的磺醯脲受體結合，導致ATP敏感性鉀通道關閉，從而刺激胰島素釋放。」英文原文："Glimepiride primarily lowers blood glucose by stimulating the release of insulin from pancreatic beta cells. Sulfonylureas bind to the sulfonylurea receptor in the pancreatic beta-cell plasma membrane, leading to closure of the ATP-sensitive potassium channel, thereby stimulating the release of insulin."（[DailyMed: Glimepiride 3 Mg (glimepiride) prescribing information, Lifsa Drugs LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51157849-7990-4a8b-ae50-eda1baf93cfa)，版本日期 2024-08-20；查閱日期 2026-11-19）。就一般藥理知識而言，Glimepiride 屬磺醯脲類，作用是關閉胰臟 β 細胞的 K-ATP 通道，促進胰島素分泌。
 
 局部僵直肢症候群是一種與 GABA 神經傳導及抗 GAD（麩胺酸脫羧酶）抗體相關的自體免疫或神經性僵硬疾病。可能的間接關聯是此類疾病與糖尿病在自體免疫方面有重疊，這可能是 TxGNN 模型（深度學習）給出高分的原因，反映的是模型從相關疾病間學到的相似性，而非生物學證據。但這個推論只是推測，磺醯脲類並無已知作用於此疾病的神經機轉。
 
@@ -129,6 +129,19 @@ TxGNN 模型預測它可能對**局部僵直肢症候群 (Focal Stiff Limb Syndr
 - 取得香港原廠仿單的警語、禁忌症與核准適應症
 - 搜尋是否有 Glimepiride 或磺醯脲類用於僵人症候群譜系疾病的病例報告或前臨床研究
 - 在有任何直接證據之前，不建議進入臨床評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Glimepiride 3 Mg (glimepiride) prescribing information, Lifsa Drugs LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51157849-7990-4a8b-ae50-eda1baf93cfa) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

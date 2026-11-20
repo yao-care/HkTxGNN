@@ -63,7 +63,7 @@ Erdafitinib 是泛 FGFR（FGFR1-4）酪胺酸激酶抑制劑。FGF/FGFR 訊號�
 
 不過，這項預測純粹來自計算模型，目前沒有臨床試驗或文獻佐證。激酶抑制劑也可能帶來心血管與體液相關的毒性，加上已記錄 100 筆藥物交互作用，會讓安全性評估更複雜。目前沒有臨床證據支持將其用於肺動脈高壓。
 
-目前缺乏來自 DrugBank 的詳細作用機轉資料，上述機轉說明僅為依已知 FGFR 生物學所做的推論。
+根據美國 FDA 核准的 Erdafitinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「根據體外試驗數據，erdafitinib是一種激酶抑制劑，可與FGFR1、FGFR2、FGFR3及FGFR4結合並抑制其酵素活性。在表現FGFR基因變異（包括點突變、擴增及融合）的細胞株中，erdafitinib抑制了FGFR磷酸化及訊號傳遞，並降低了細胞存活率。」英文原文："Erdafitinib is a kinase inhibitor that binds to and inhibits enzymatic activity of FGFR1, FGFR2, FGFR3 and FGFR4 based on in vitro data. Erdafitinib inhibited FGFR phosphorylation and signaling and decreased cell viability in cell lines expressing FGFR genetic alterations, including point mutations, amplifications, and fusions."（[DailyMed: Balversa (erdafitinib) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a8aa5c0-6c92-4566-8c45-e8f4d1fc20ee)，版本日期 2025-10-24；查閱日期 2026-11-19）。
 
 ### 其他預測適應症（皆為 L5，建議 Hold）
 
@@ -145,6 +145,19 @@ Erdafitinib 屬標靶抗腫瘤藥物（FGFR 激酶抑制劑），不是傳統細
 - 進行肺動脈高壓相關的前臨床研究（如 FGFR 抑制於肺血管重塑模型）與文獻系統性檢索
 - 評估 FGFR 抑制劑在肺動脈高壓族群的心血管與體液相關安全風險
 - 審視 100 筆藥物交互作用，特別是 Major 等級者，作為風險管理依據
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Balversa (erdafitinib) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a8aa5c0-6c92-4566-8c45-e8f4d1fc20ee) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**惡性皮膚顆粒細胞瘤 (malignant cutaneous
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Trastuzumab 是靶向 HER2（ERBB2）的單株抗體，在 HER2 陽性乳癌中的角色已被知識圖譜記錄，但尚無資料說明它如何作用於這個新適應症。
+根據美國 FDA 核准的 Trastuzumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「HER2（或 c-erbB2）原致癌基因編碼一種 185 kDa 之跨膜受體蛋白，其結構與表皮生長因子受體相關。Trastuzumab 產品已於體外試驗及動物中證實可抑制過度表現 HER2 之人類腫瘤細胞增生。」英文原文："The HER2 (or c-erbB2) proto-oncogene encodes a transmembrane receptor protein of 185 kDa, which is structurally related to the epidermal growth factor receptor. Trastuzumab products have been shown, in both in vitro assays and in animals, to inhibit the proliferation of human tumor cells that overexpress HER2."（[DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c)，版本日期 2026-06-26；查閱日期 2026-11-19）。根據已知資訊，Trastuzumab 是靶向 HER2（ERBB2）的單株抗體，在 HER2 陽性乳癌中的角色已被知識圖譜記錄，但尚無資料說明它如何作用於這個新適應症。
 
 惡性皮膚顆粒細胞瘤是罕見腫瘤，目前沒有已確立的 HER2 依賴性。這個預測僅來自 TxGNN 的高分（0.9948），沒有任何臨床或文獻資料佐證。若要建立合理的機轉依據，必須先確認該腫瘤是否有 HER2 表現或擴增。
 
@@ -111,6 +111,19 @@ TxGNN 模型預測它可能對**惡性皮膚顆粒細胞瘤 (malignant cutaneous
 - 針對此疾病與 HER2 靶向治療進行系統性文獻與試驗檢索
 - 取得 Trastuzumab 的作用機轉資料與完整原廠仿單（警語、禁忌症）
 - 若 HER2 證據不足，可改為優先評估泌尿上皮癌類（如腎盂肉瘤樣移行細胞癌、前列腺尿道泌尿上皮癌）作為較合理的研究問題
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

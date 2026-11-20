@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**肌腱炎 (Tendinitis)** 有效，但目前**沒
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據一般藥理知識，pregabalin 可結合電壓門控鈣離子通道的 alpha-2-delta 次單元，減少興奮性神經傳導物質釋放，可能緩解神經病變性與傷害感受性疼痛。
+根據美國 FDA 核准的 Pregabalin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Pregabalin會與中樞神經系統組織中的alpha 2 ‑delta位點（電壓門控鈣離子通道的一種輔助次單元）高親和力結合。雖然pregabalin的作用機轉尚未完全闡明，但基因改造小鼠及與pregabalin結構相關之化合物（例如gabapentin）的研究結果顯示，與alpha 2 ‑delta次單元結合可能與pregabalin在動物中的抗傷害感受及抗癲癇作用有關。」英文原文："Pregabalin binds with high affinity to the alpha 2 ‑delta site (an auxiliary subunit of voltage‑gated calcium channels) in central nervous system tissues. Although the mechanism of action of pregabalin has not been fully elucidated, results with genetically modified mice and with compounds structurally related to pregabalin (such as gabapentin) suggest that binding to the alpha 2 ‑delta subunit may be involved in pregabalin’s anti‑nociceptive and antiseizure effects in animals."（[DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd)，版本日期 2026-03-12；查閱日期 2026-11-19）。根據一般藥理知識，pregabalin 可結合電壓門控鈣離子通道的 alpha-2-delta 次單元，減少興奮性神經傳導物質釋放，可能緩解神經病變性與傷害感受性疼痛。
 
 TxGNN 模型（深度學習）對肌腱炎給出的分數，可能反映模型從相關疾病（如 pregabalin 相關的纖維肌痛、肌筋膜疼痛等疼痛症候群）學到的相似性，而非生物學證據。這最多代表症狀性止痛的可能，並無證據顯示它能改變肌腱本身的病理。
 
@@ -121,11 +121,12 @@ TxGNN 模型（深度學習）對肌腱炎給出的分數，可能反映模型�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有至少 20 張 pregabalin 單方許可證（清單可能不完整），以下」→「香港共有 57 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd) |
 
 <!-- review:end log -->
 

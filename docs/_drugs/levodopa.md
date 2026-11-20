@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對 **Rasmussen 亞急性腦炎 (Rasmussen subacute e
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Levodopa 是一種多巴胺前驅物，用於補充帕金森氏症患者紋狀體中不足的多巴胺。香港市面上的產品包括單方，以及與 carbidopa、benserazide、entacapone 組成的複方。
+根據美國 FDA 核准的 Levodopa 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Levodopa 為多巴胺的代謝前驅物，可穿過血腦屏障，並推測在腦內轉化為多巴胺。這被認為是 levodopa 緩解柏金遜症症狀的機轉。」英文原文："Levodopa, the metabolic precursor of dopamine, crosses the blood-brain barrier and presumably is converted to dopamine in the brain. This is thought to be the mechanism whereby levodopa relieves symptoms of Parkinson's disease."（[DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb)，版本日期 2026-07-20；查閱日期 2026-11-19）。Levodopa 是一種多巴胺前驅物，用於補充帕金森氏症患者紋狀體中不足的多巴胺。香港市面上的產品包括單方，以及與 carbidopa、benserazide、entacapone 組成的複方。
 
 Rasmussen 腦炎是罕見的單側慢性腦炎，由免疫（T 細胞）介導，特徵為難治性局部癲癇與進行性單側大腦半球萎縮。這與多巴胺缺乏的病理機轉**並無明顯關聯**。
 
@@ -116,6 +116,19 @@ Rasmussen 腦炎是罕見的單側慢性腦炎，由免疫（T 細胞）介導�
 - 系統性檢索文獻與臨床試驗，確認是否有任何支持或反對的證據
 - 取得香港仿單的警語與禁忌資料，完成安全性篩選
 - 進行前臨床或機轉研究，驗證此假說後再考慮進入臨床評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

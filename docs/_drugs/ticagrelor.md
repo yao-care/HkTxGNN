@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**顱內動脈硬化 (intracranial arteriosclerosi
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。依一般藥理知識，Ticagrelor 是可逆性的 P2Y12 受體拮抗劑，能抑制 ADP 引起的血小板活化與聚集。它不是前驅藥，不需經 CYP2C19 活化，因此不受 CYP2C19 功能缺失基因型限制，而這個限制會降低 clopidogrel 的療效。
+根據美國 FDA 核准的 Ticagrelor 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ticagrelor 及其主要代謝物可與血小板 P2Y 12 ADP 受體可逆性交互作用，以阻止訊號傳導及血小板活化。Ticagrelor 與其活性代謝物的效價大致相當。」英文原文："Ticagrelor and its major metabolite reversibly interact with the platelet P2Y 12 ADP-receptor to prevent signal transduction and platelet activation. Ticagrelor and its active metabolite are approximately equipotent."（[DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8)，版本日期 2026-05-07；查閱日期 2026-11-19）。依一般藥理知識，Ticagrelor 是可逆性的 P2Y12 受體拮抗劑，能抑制 ADP 引起的血小板活化與聚集。它不是前驅藥，不需經 CYP2C19 活化，因此不受 CYP2C19 功能缺失基因型限制，而這個限制會降低 clopidogrel 的療效。
 
 顱內動脈粥樣硬化狹窄造成缺血事件的機轉，包括富含血小板的血栓形成與動脈到動脈的栓塞。因此在機轉上，抑制 P2Y12 有生物學上的合理性。這與知識圖譜中記錄的心血管動脈疾病關聯，屬於同一類動脈粥樣硬化血栓問題。
 
@@ -121,11 +121,12 @@ TxGNN 模型預測它可能對**顱內動脈硬化 (intracranial arteriosclerosi
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 8 張有效的單一成分許可證」→「香港共有 10 張有效的單一成分許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8) |
 
 <!-- review:end log -->
 

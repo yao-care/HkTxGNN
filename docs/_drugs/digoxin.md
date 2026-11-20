@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**變異型心絞痛 (Prinzmetal angina)** 有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知藥理而言，Digoxin 抑制心肌細胞的 Na⁺/K⁺-ATPase，使細胞內鈣濃度上升，增強心肌收縮力並減慢房室結傳導，這是它用於心房顫動心率控制的基礎。
+根據美國 FDA 核准的 Digoxin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Digoxin的所有作用均透過其對Na-K ATPase的影響而介導。此酵素即「鈉幫浦」，負責將鈉離子移出細胞並將鉀離子移入細胞，以維持全身的細胞內環境。」英文原文："All of digoxin’s actions are mediated through its effects on Na-K ATPase. This enzyme, the “sodium pump,” is responsible for maintaining the intracellular milieu throughout the body by moving sodium ions out of and potassium ions into cells."（[DailyMed: Lanoxin (digoxin) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ec84cac-6ecc-43dc-8006-6ccc029e2707)，版本日期 2025-10-17；查閱日期 2026-11-19）。就已知藥理而言，Digoxin 抑制心肌細胞的 Na⁺/K⁺-ATPase，使細胞內鈣濃度上升，增強心肌收縮力並減慢房室結傳導，這是它用於心房顫動心率控制的基礎。
 
 變異型心絞痛的成因是冠狀動脈痙攣，標準治療為鈣離子通道阻斷劑與硝酸鹽類。理論上，細胞內鈣上升可能促進血管平滑肌收縮，因此 Digoxin 不僅不太可能有幫助，還可能不利。
 
@@ -99,6 +99,19 @@ TxGNN 模型預測它可能對**變異型心絞痛 (Prinzmetal angina)** 有效�
 - 補齊作用機轉資料與香港仿單的警語、禁忌資料
 - 釐清 Digoxin 對冠狀動脈痙攣的實際影響（前臨床或機轉研究）
 - 若仍要探索，需先有機轉層面的正向證據，再考慮臨床研究；否則建議將研究資源轉向其他候選
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Lanoxin (digoxin) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ec84cac-6ecc-43dc-8006-6ccc029e2707) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

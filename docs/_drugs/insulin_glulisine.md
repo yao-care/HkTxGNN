@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**硫胺素反應性功能障礙症候群 (thiamin
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Insulin Glulisine 屬於速效胰島素類似物，在糖尿病血糖控制上被使用，但本報告所整理的資料並未提供其作用機轉細節。
+根據美國 FDA 核准的 Insulin Glulisine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「調節葡萄糖代謝是胰島素及胰島素類似物（包括 insulin glulisine）的主要作用。胰島素可透過刺激骨骼肌及脂肪對周邊葡萄糖的攝取，以及抑制肝臟葡萄糖生成，以降低血糖。」英文原文："Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin glulisine. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production."（[DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa)，版本日期 2025-11-25；查閱日期 2026-11-19）。Insulin Glulisine 屬於速效胰島素類似物，在糖尿病血糖控制上被使用，但本報告所整理的資料並未提供其作用機轉細節。
 
 硫胺素反應性巨母細胞性貧血 (TRMA，SLC19A2 突變) 常合併糖尿病，因此胰島素本來就被用於處理其糖尿病部分。這屬於症狀性的支持照護，並非針對硫胺素運輸缺陷的再利用。TxGNN 模型（深度學習）的高分可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
@@ -110,6 +110,19 @@ TxGNN 模型預測它可能對**硫胺素反應性功能障礙症候群 (thiamin
 - 針對 TRMA 合併糖尿病族群進行文獻回顧，釐清速效胰島素類似物的實際使用情形
 - 若考慮胰臟發育不全，可另行評估新生兒速效類似物的使用資料
 - 脂肪失養類預測應改列為安全性訊號，而非再利用候選
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

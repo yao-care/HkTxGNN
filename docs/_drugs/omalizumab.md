@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**支氣管炎 (bronchitis)** 有效，但目前�
 
 ## 為什麼這個預測合理？
 
-Omalizumab 與游離 IgE 結合，降低其濃度，並減少 FcεRI 在肥大細胞與嗜鹼性球上的表現，進而減輕過敏性氣道發炎。目前缺乏詳細的作用機轉資料（DrugBank 未提供），以上為已知的藥理描述。
+Omalizumab 與游離 IgE 結合，降低其濃度，並減少 FcεRI 在肥大細胞與嗜鹼性球上的表現，進而減輕過敏性氣道發炎。根據美國 FDA 核准的 Omalizumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「氣喘、伴有鼻息肉的慢性鼻竇炎及IgE介導的食物過敏：Omalizumab產品可抑制IgE與肥大細胞、嗜鹼性球及樹突細胞表面的高親和力IgE受體（FcεRI）結合，導致這些細胞上的FcεRI下調。在過敏性氣喘患者中，使用omalizumab產品治療可抑制IgE介導的發炎反應，證據為血液及組織中的嗜酸性球減少，以及包括IL-4、IL-5及IL-13在內的發炎介質減少。」英文原文："Asthma, Chronic Rhinosinusitis with Nasal Polyps, and IgE-Mediated Food Allergy Omalizumab products inhibit the binding of IgE to the high-affinity IgE receptor (FcεRI) on the surface of mast cells, basophils, and dendritic cells, resulting in FcεRI down-regulation on these cells. In allergic asthmatics, treatment with omalizumab products inhibit IgE-mediated inflammation, as evidenced by reduced blood and tissue eosinophils and reduced inflammatory mediators, including IL-4, IL-5, and IL-13."（[DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84)，版本日期 2026-10-06；查閱日期 2026-11-19）。
 
 支氣管炎並不是以 IgE 為主導的獨立疾病，機轉上的連結相當間接。模型給出的高分，較可能反映疾病之間在模型中的相近性，而不是直接的臨床證據。
 
@@ -106,6 +106,18 @@ Omalizumab 與游離 IgE 結合，降低其濃度，並減少 FcεRI 在肥大�
 - 針對明確定義之支氣管炎族群（例如嗜酸性球支氣管炎）的對照試驗
 - 作用機轉資料，以及支氣管炎中 IgE 角色的相關佐證
 - 取得香港原廠仿單，完成警語與禁忌症的安全性審查
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

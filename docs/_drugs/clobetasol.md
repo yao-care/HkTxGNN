@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**原發性皮膚 T 細胞淋巴瘤 (Primary Cutan
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Clobetasol propionate 是超強效外用糖皮質激素。糖皮質激素與糖皮質激素受體結合後，可誘導惡性 T 淋巴球凋亡並抑制其增生，同時降低細胞激素訊號傳遞與皮膚發炎浸潤。
+根據美國 FDA 核准的 Clobetasol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「如同其他外用皮質類固醇，clobetasol propionate具有抗發炎、止癢及血管收縮的特性。一般而言，外用類固醇抗發炎活性的機轉尚不明確。」英文原文："Like other topical corticosteroids, clobetasol propionate has anti-inflammatory, antipruritic, and vasoconstrictive properties. The mechanism of the anti-inflammatory activity of the topical steroids, in general, is unclear."（[DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069)，版本日期 2026-11-10；查閱日期 2026-11-19）。根據已知資訊，Clobetasol propionate 是超強效外用糖皮質激素。糖皮質激素與糖皮質激素受體結合後，可誘導惡性 T 淋巴球凋亡並抑制其增生，同時降低細胞激素訊號傳遞與皮膚發炎浸潤。
 
 原發性皮膚 T 細胞淋巴瘤中最常見的是蕈樣肉芽腫（MF）。早期斑片／斑塊期 MF 以皮膚導向治療為標準處置，外用強效類固醇本來就是其中一項選擇，因此機轉上合理。
 
@@ -127,6 +127,19 @@ TxGNN 模型預測它可能對**原發性皮膚 T 細胞淋巴瘤 (Primary Cutan
 - 設計前瞻性試驗或對照研究，與 bexarotene、chlormethine 等現有外用療法比較
 - 訂定長期使用的皮膚局部與全身吸收（如 HPA 軸抑制）監測計畫
 - 限定適用於早期（斑片／斑塊期）MF，晚期或其他亞型不宜類推
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**慢性 C 型肝炎 (Chronic hepatitis C virus in
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫未收錄）。依已知藥理，Entecavir 是鳥苷核苷類似物，在體內轉為活性三磷酸形式後，抑制 B 型肝炎病毒 (HBV) 聚合酶，也就是病毒的引發、反轉錄與 DNA 合成。
+根據美國 FDA 核准的 Entecavir 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Entecavir 是一種對抗 B 型肝炎病毒的抗病毒藥物。[…] Entecavir 是一種具有抗 HBV 反轉錄酶（rt）活性的 deoxyguanosine 核苷類似物，可被有效率地磷酸化為具活性的三磷酸形式，其細胞內半衰期為 15 小時。Entecavir 三磷酸藉由與天然受質 deoxyguanosine 三磷酸競爭，在功能上抑制 HBV 反轉錄酶的全部三種活性：鹼基引發（base priming）、由前基因體傳訊 RNA 反轉錄負股，以及合成 HBV DNA 的正股。」英文原文："Entecavir is an antiviral drug against hepatitis B virus. […] Entecavir, a deoxyguanosine nucleoside analogue with activity against HBV reverse transcriptase (rt), is efficiently phosphorylated to the active triphosphate form, which has an intracellular half-life of 15 hours. By competing with the natural substrate deoxyguanosine triphosphate, entecavir triphosphate functionally inhibits all three activities of the HBV reverse transcriptase: base priming, reverse transcription of the negative strand from the pregenomic messenger RNA, and synthesis of the positive strand of HBV DNA."（[DailyMed: Baraclude (entecavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046e61c9-9298-4b2e-b76e-b26b81fecd20)，版本日期 2019-11-06；查閱日期 2026-11-19）。依已知藥理，Entecavir 是鳥苷核苷類似物，在體內轉為活性三磷酸形式後，抑制 B 型肝炎病毒 (HBV) 聚合酶，也就是病毒的引發、反轉錄與 DNA 合成。
 
 C 型肝炎病毒 (HCV) 是 RNA 病毒，靠 NS5B RNA 依賴性 RNA 聚合酶複製。Entecavir 並不作用於這個酶，**機轉上沒有合理的直接抗 HCV 作用**。TxGNN 的高分較可能反映的是 B 型與 C 型肝炎在疾病網絡上的相近，而不是藥物對 HCV 真的有效。
 
@@ -151,11 +151,12 @@ C 型肝炎病毒 (HCV) 是 RNA 病毒，靠 NS5B RNA 依賴性 RNA 聚合酶複
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「Entecavir 在香港共有 20 張有效單一成分許可證，」→「香港共有 26 張含本藥成分的許可證（有效 22 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Baraclude (entecavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046e61c9-9298-4b2e-b76e-b26b81fecd20) |
 
 <!-- review:end log -->
 

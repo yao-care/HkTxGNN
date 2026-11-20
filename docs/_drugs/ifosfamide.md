@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料庫記錄。根據本報告彙整的資料，Ifosfamide 是需經肝臟 CYP450 活化的 DNA 烷化前驅藥。其活性代謝物 isophosphoramide mustard 會造成 DNA 交叉連結，使快速增生的細胞凋亡。
+根據美國 FDA 核准的 Ifosfamide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ifosfamide 是一種前驅藥，需經肝臟細胞色素 P450 同功酶進行代謝活化，才能發揮其細胞毒性活性。活化作用係經由環上碳原子的羥基化，形成不穩定的中間產物 4-hydroxyifosfamide 及其開環的醛式互變異構物，後者分解後產生具細胞毒性及泌尿道毒性的化合物丙烯醛（acrolein），以及具烷化作用的 isophosphoramide mustard。」英文原文："Ifosfamide is a prodrug that requires metabolic activation by hepatic cytochrome P450 isoenzymes to exert its cytotoxic activity. Activation occurs by hydroxylation at the ring carbon atom forming the unstable intermediate 4-hydroxyifosfamide and its ring-opened aldo tautomer, which decomposes to yield the cytotoxic and urotoxic compound acrolein and an alkylating isophosphoramide mustard."（[DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a)，版本日期 2026-10-07；查閱日期 2026-11-19）。根據本報告彙整的資料，Ifosfamide 是需經肝臟 CYP450 活化的 DNA 烷化前驅藥。其活性代謝物 isophosphoramide mustard 會造成 DNA 交叉連結，使快速增生的細胞凋亡。
 
 這種廣泛的細胞毒性機轉在乳癌上有合理性，特別是侵襲性或對化療反應不佳的亞型，例如化生性乳癌 (metaplastic breast cancer)、惡性葉狀瘤與放射線誘發的血管肉瘤。另有研究在乳癌組織微粒體中觀察到 CYP3A4、CYP2C9、CYP2B6 的表現與 Ifosfamide 的代謝，顯示腫瘤內可能有局部活化。
 
@@ -133,6 +133,19 @@ TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效�
 - 與現行標準乳癌化療比較的對照試驗資料，或針對特定亞型（如化生性乳癌、惡性葉狀瘤）的前瞻性研究。
 - 取得香港原廠仿單，確認核准適應症、警語與禁忌。
 - 評估 Ifosfamide 相對於現行標準治療的療效與毒性取捨，並擬定骨髓、腎功能與泌尿毒性的監測與 Mesna 防護計畫。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

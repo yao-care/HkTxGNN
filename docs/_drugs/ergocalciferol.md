@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**肢中段發育不良，Campailla-Martinelli 型
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Ergocalciferol 是維生素 D2，一般認為其作用是在體內轉化為活性形式，調節鈣磷代謝與骨骼礦化。
+根據美國 FDA 核准的 Ergocalciferol 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「維生素 D 主要具生物活性之代謝物的體內合成分兩個步驟進行。Ergocalciferol 的第一次羥化作用在肝臟進行（生成 25-羥基維生素 D），第二次則在腎臟進行（生成 1, 25-二羥基維生素 D）。」英文原文："The in vivo synthesis of the major biologically active metabolites of vitamin D occurs in two steps. The first hydroxylation of ergocalciferol takes place in the liver (to 25-hydroxyvitamin D) and the second in the kidneys (to 1, 25-dihydroxyvitamin D)."（[DailyMed: Vitamin D (ergocalciferol) prescribing information, Preferred Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba2076ef-1650-45e1-b092-a4c449dd6210)，版本日期 2026-11-02；查閱日期 2026-11-19）。Ergocalciferol 是維生素 D2，一般認為其作用是在體內轉化為活性形式，調節鈣磷代謝與骨骼礦化。
 
 肢中段發育不良（Campailla-Martinelli 型）是一種罕見的遺傳性骨骼發育不良疾病。根據目前整理的資料，**尚未找到任何機轉上的連結**，補充維生素 D2 是否對這種遺傳性骨骼結構異常有幫助並無支持證據。較高的 TxGNN 分數僅代表模型預測，不能視為療效證明。
 
@@ -101,6 +101,18 @@ TxGNN 模型預測它可能對**肢中段發育不良，Campailla-Martinelli 型
 - 取得作用機轉（MOA）資料
 - 在有任何前臨床或病例層級證據之前，不建議投入臨床開發
 - 取得香港原廠仿單，完成警語與禁忌症的安全性審查
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Vitamin D (ergocalciferol) prescribing information, Preferred Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba2076ef-1650-45e1-b092-a4c449dd6210) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對 **monosomy X (Monosomy X)** 有效，但目前**�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Teprotumumab 是 IGF-1R 抑制型單株抗體，在內分泌性眼球突出中透過阻斷眼眶纖維母細胞的 IGF-1R 訊號發揮作用。
+根據美國 FDA 核准的 Teprotumumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Teprotumumab-trbw 在甲狀腺眼疾病患者中的作用機轉尚未完全釐清。Teprotumumab-trbw 會與 IGF-1R 結合，並阻斷其活化及訊號傳遞。」英文原文："Teprotumumab-trbw's mechanism of action in patients with Thyroid Eye Disease has not been fully characterized. Teprotumumab-trbw binds to IGF-1R and blocks its activation and signaling."（[DailyMed: Tepezza (teprotumumab) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e6c54a1-cefd-4a5b-a855-ab9f268b6cce)，版本日期 2026-09-28；查閱日期 2026-11-19）。根據已知資訊，Teprotumumab 是 IGF-1R 抑制型單株抗體，在內分泌性眼球突出中透過阻斷眼眶纖維母細胞的 IGF-1R 訊號發揮作用。
 
 Monosomy X（透納氏症）的特徵為身材矮小與性腺發育不全，與 GH/IGF-1 軸的生長調控有關，這可能是模型產生關聯的原因。然而，阻斷 IGF-1R 在機轉上預期會抑制而非促進生長，與治療目標相反。因此這個預測缺乏明確的合理機轉；其分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 
@@ -102,6 +102,19 @@ Monosomy X（透納氏症）的特徵為身材矮小與性腺發育不全，與 
 - 補充詳細的作用機轉資料（MOA）
 - 針對 monosomy X 進行機轉與前臨床研究，確認是否存在合理的生物學連結
 - 若仍無支持證據，建議改為評估排名較後、但機轉更接近 IGF-1R 訊號的其他候選適應症
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Tepezza (teprotumumab) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e6c54a1-cefd-4a5b-a855-ab9f268b6cce) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

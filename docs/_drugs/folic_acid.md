@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**生物素代謝疾病 (Biotin Metabolic Disease)
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知葉酸是 B 族維生素，在體內作為一碳單位的載體，參與甲基化反應與核苷酸合成，因此可用於治療葉酸缺乏及相關貧血。
+根據美國 FDA 核准的 Folic Acid 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「葉酸作用於巨母紅血球性骨髓，使其轉為正母紅血球性骨髓。人體需由外源性葉酸來源以合成核蛋白及維持正常的紅血球生成。葉酸是四氫葉酸的前驅物，四氫葉酸在核酸的嘌呤及胸苷酸生物合成過程中，作為轉甲醯基反應的輔因子。」英文原文："Folic acid acts on megaloblastic bone marrow to produce a normoblastic marrow. In man, an exogenous source of folate is required for nucleoprotein synthesis and the maintenance of normal erythropoiesis. Folic acid is the precursor of tetrahydrofolic acid, which is involved as a cofactor for transformylation reactions in the biosynthesis of purines and thymidylates of nucleic acids."（[DailyMed: Quiofic (folic acid) prescribing information, Solubiomix, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b868b314-591d-458b-be82-2bcd0b73cce1)，版本日期 2026-10-05；查閱日期 2026-11-19）。已知葉酸是 B 族維生素，在體內作為一碳單位的載體，參與甲基化反應與核苷酸合成，因此可用於治療葉酸缺乏及相關貧血。
 
 生物素（維生素 B7）是另一種獨立的 B 族維生素，作為羧化酶的輔因子。兩者的關聯主要在於同屬 B 族維生素代謝，以及「維生素反應性疾病」的概念層次。目前沒有已知的直接機轉路徑，顯示葉酸可以矯正生物素代謝缺陷（例如生物素酶缺乏症或全羧化酶合成酶缺乏症）。
 
@@ -129,6 +129,19 @@ TxGNN 模型（深度學習）給出的高分（0.9949）來自模型本身，�
 - 補充葉酸的作用機轉資料
 - 取得香港衛生署核准的仿單，確認適應症、警語與禁忌
 - 進行針對性的文獻回顧或前臨床研究，再評估是否值得啟動臨床研究
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Quiofic (folic acid) prescribing information, Solubiomix, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b868b314-591d-458b-be82-2bcd0b73cce1) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

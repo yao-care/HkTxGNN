@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對**貓後天免疫缺陷症候群 (Feline Acquired 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫中未收錄）。根據已知資訊，emtricitabine 是核苷類逆轉錄酶抑制劑 (NRTI)，透過在細胞內磷酸化後終止病毒 DNA 鏈延長來抑制複製。其在 HIV 感染中的療效已被證實。
+根據美國 FDA 核准的 Emtricitabine 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Emtricitabine 是一種抗反轉錄病毒藥物。[…] FTC 是一種胞苷（cytidine）的合成核苷類似物，經細胞酵素磷酸化後形成 emtricitabine 5'-三磷酸（FTC-TP），FTC-TP 透過與天然受質 deoxycytidine 5'-三磷酸競爭，以及嵌入新生的病毒 DNA 而導致鏈終止，從而抑制 HIV-1 反轉錄酶（RT）的活性。FTC-TP 對哺乳動物 DNA 聚合酶 α、β、ε 及粒線體 DNA 聚合酶 γ 為弱抑制劑。」英文原文："Emtricitabine is an antiretroviral drug. […] FTC, a synthetic nucleoside analog of cytidine, is phosphorylated by cellular enzymes to form emtricitabine 5'-triphosphate (FTC-TP), which inhibits the activity of the HIV-1 reverse transcriptase (RT) by competing with the natural substrate deoxycytidine 5'-triphosphate and by being incorporated into nascent viral DNA resulting in chain termination. FTC-TP is a weak inhibitor of mammalian DNA polymerases α, β, ε, and mitochondrial DNA polymerase γ."（[DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f)，版本日期 2026-11-06；查閱日期 2026-11-19）。根據已知資訊，emtricitabine 是核苷類逆轉錄酶抑制劑 (NRTI)，透過在細胞內磷酸化後終止病毒 DNA 鏈延長來抑制複製。其在 HIV 感染中的療效已被證實。
 
 貓免疫缺陷病毒 (FIV) 是與 HIV 相近的慢病毒，同樣依賴逆轉錄酶，因此機轉上有合理性。FIV 在貓身上造成的進行性免疫功能障礙，與 HIV 在人類的表現相似。
 
@@ -122,6 +122,19 @@ TxGNN 模型預測它可能對**貓後天免疫缺陷症候群 (Feline Acquired 
 - 補充 emtricitabine 的作用機轉資料
 - 取得香港仿單的警語與禁忌症資料，並補齊各許可證的核准適應症
 - 明確釐清此預測的目標（獸醫用途或僅作為研究模型），再決定是否投入資源
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

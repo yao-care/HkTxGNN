@@ -55,7 +55,7 @@ TxGNN 模型（深度學習）預測分數最高的新適應症是**體染色體
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Sotalol 是 β 阻斷劑，同時具第三類抗心律不整活性（阻斷鉀通道、延長心肌再極化），其在心房顫動中的療效已被證實。
+根據美國 FDA 核准的 Sotalol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Sotalol 兼具 β-腎上腺素受體阻斷（Vaughan Williams 第 II 類）及心臟動作電位時程延長（Vaughan Williams 第 III 類）之抗心律不整特性。Sotalol 的兩種異構物具有相似的第 III 類抗心律不整作用，而幾乎所有 β 阻斷活性均來自 l-異構物。」英文原文："Sotalol has both beta-adrenoreceptor blocking (Vaughan Williams Class II) and cardiac action potential duration prolongation (Vaughan Williams Class III) antiarrhythmic properties. The two isomers of sotalol have similar Class III antiarrhythmic effects, while the l-isomer is responsible for virtually all of the beta-blocking activity."（[DailyMed: Betapace (sotalol hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6a7702f-36c9-45db-b640-453dc324baee)，版本日期 2024-12-16；查閱日期 2026-11-19）。根據已知資訊，Sotalol 是 β 阻斷劑，同時具第三類抗心律不整活性（阻斷鉀通道、延長心肌再極化），其在心房顫動中的療效已被證實。
 
 病態竇房結症候群第 2 型與 HCN4 節律器通道變異有關。從心臟離子通道調節的角度，兩者看似有關聯。然而 Sotalol 會造成心搏過緩並有致心律不整風險，理論上會加重竇房結功能障礙。在沒有節律器的情況下，病態竇房結症候群本來就是 Sotalol 的禁忌症。因此這項預測較可能是偽陽性或安全性警訊，而不是治療機會。
 
@@ -111,6 +111,19 @@ TxGNN 模型（深度學習）預測分數最高的新適應症是**體染色體
 - 補充 Sotalol 詳細的作用機轉資料。
 - 針對 HCN4 相關病態竇房結症候群，進行機轉與安全性的前臨床評估，並確認其預測是否為偽陽性。
 - 若要評估次要預測（如中風），需有以中風為主要終點的研究，且不能取代抗凝血治療。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Betapace (sotalol hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6a7702f-36c9-45db-b640-453dc324baee) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

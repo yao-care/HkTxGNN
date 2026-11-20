@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**原發性遺傳性青光眼 (primary hereditary 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Chlorthalidone 屬於噻嗪類利尿劑，一般認為其作用在於抑制腎臟遠曲小管的 Na+/Cl- 共同轉運體，促進鈉與水排出。
+根據美國 FDA 核准的 Chlorthalidone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Chlorthalidone是一種具有抗高血壓活性的長效口服利尿劑。Chlorthalidone與苯并噻二嗪類（thiazide類）利尿劑的利尿作用似乎源自相似的機轉，且chlorthalidone與thiazide類利尿劑的最大效應似乎相近。」英文原文："Chlorthalidone is a long-acting oral diuretic with antihypertensive activity. The diuretic effects of chlorthalidone and the benzothiadiazine (thiazide) diuretics appear to arise from similar mechanisms and the maximal effect of chlorthalidone and the thiazides appear to be similar."（[DailyMed: Thalitone (chlorthalidone) prescribing information, Casper Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc5a0299-115b-4e60-bb3f-c75a95c51c15)，版本日期 2026-06-25；查閱日期 2026-11-19）。根據已知資訊，Chlorthalidone 屬於噻嗪類利尿劑，一般認為其作用在於抑制腎臟遠曲小管的 Na+/Cl- 共同轉運體，促進鈉與水排出。
 
 至於與青光眼的關聯，只能推測可能經由房水動力學改變或碳酸酐酶相關作用影響眼內壓，但這些都沒有本次資料的支持。原發性遺傳性青光眼主要由基因因素（如 MYOC、CYP1B1）造成，利尿劑不太可能處理其根本病因。
 
@@ -99,6 +99,19 @@ TxGNN 模型預測它可能對**原發性遺傳性青光眼 (primary hereditary 
 - 文獻回顧，檢視噻嗪類利尿劑與眼內壓、青光眼風險的既有觀察性資料
 - 詳細的作用機轉資料（MOA）與原廠仿單的警語及禁忌症
 - 若機轉上有依據，再設計小型探索性研究，並將眼內壓與眼部灌流壓列為主要觀察指標
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Thalitone (chlorthalidone) prescribing information, Casper Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc5a0299-115b-4e60-bb3f-c75a95c51c15) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

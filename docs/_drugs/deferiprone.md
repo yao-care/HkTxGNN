@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**肝性卟啉症 (Hepatic Porphyria)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Deferiprone 是口服鐵螯合劑，已用於地中海型貧血的鐵過載管理，機轉上可能適用於與鐵過載相關的肝性卟啉症。
+根據美國 FDA 核准的 Deferiprone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Deferiprone是一種對三價鐵離子（鐵III）具有親和力的螯合劑。Deferiprone與三價鐵離子結合，形成在生理pH值下穩定的中性3:1（deferiprone:鐵）複合物。」英文原文："Deferiprone is a chelating agent with an affinity for ferric ions (iron III). Deferiprone binds with ferric ions to form neutral 3:1 (deferiprone:iron) complexes that are stable at physiological pH."（[DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86)，版本日期 2026-01-28；查閱日期 2026-11-19）。根據已知資訊，Deferiprone 是口服鐵螯合劑，已用於地中海型貧血的鐵過載管理，機轉上可能適用於與鐵過載相關的肝性卟啉症。
 
 鐵過載會加劇尿卟啉的堆積。以晚發性皮膚卟啉症（porphyria cutanea tarda）為例，肝臟鐵含量升高是重要的致病因素，放血療法透過降低肝鐵而有效。因此，以螯合劑降低體內鐵，理論上可減輕卟啉堆積與疾病活性。
 
@@ -124,6 +124,19 @@ TxGNN 模型預測它可能對**肝性卟啉症 (Hepatic Porphyria)** 有效，
 ---
 
 **附註：** 其他預測適應症（肝肺症候群、特發性銅相關肝硬化、原發性門靜脈血栓、肝門脈硬化症、早發性家族性非肝硬化性門脈高壓、丙酮酸激酶缺乏症、遺傳性焦棘狀紅血球症）均無臨床試驗與文獻，僅屬模型預測（L5），建議暫緩。其中 β 型地中海型貧血伴其他表現屬於既有適應症的亞型，並非新的再利用訊號。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

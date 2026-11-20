@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (rheumatoid arthritis)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Bosentan 屬於內皮素受體拮抗劑，可同時阻斷 ETA 與 ETB 受體。
+根據美國 FDA 核准的 Bosentan 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Bosentan 是內皮素受體 ET A 型及 ET B 型的專一性競爭性拮抗劑。Bosentan 對 ET A 受體的親和力略高於對 ET B 受體的親和力。雙重內皮素阻斷的臨床影響尚不清楚。」英文原文："Bosentan is a specific and competitive antagonist at endothelin receptor types ET A and ET B. Bosentan has a slightly higher affinity for ET A receptors than for ET B receptors. The clinical impact of dual endothelin blockage is unknown."（[DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c)，版本日期 2025-11-17；查閱日期 2026-11-19）。根據已知資訊，Bosentan 屬於內皮素受體拮抗劑，可同時阻斷 ETA 與 ETB 受體。
 
 內皮素-1 與滑膜發炎、血管功能異常及細胞激素釋放（TNF-α、IL-17、LTB4）有關。小鼠研究顯示，bosentan 可透過 TNF 相關機制改善膠原蛋白誘發的關節炎，且內皮素也參與調節 zymosan 誘發的關節炎。這提供了機轉上的合理推測。
 
@@ -105,6 +105,19 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (rheumatoid arthritis)** �
 - 在人體類風濕性關節炎族群的探索性臨床研究（如 Phase 2）
 - 取得香港原廠仿單的警語與禁忌症，評估肝毒性等風險，並衡量在關節炎族群中的利弊
 - 更多動物與轉譯研究，確認內皮素通路在類風濕性關節炎的角色
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

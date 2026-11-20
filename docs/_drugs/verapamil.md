@@ -54,7 +54,7 @@ Verapamil 是一種鈣離子通道阻斷劑，原本用於高血壓、心房顫�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Verapamil 屬於 L-type 鈣離子通道阻斷劑，會減慢房室結傳導並使血管擴張，其降血壓作用已在原發性高血壓中被證實。
+根據美國 FDA 核准的 Verapamil 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「心絞痛：verapamil hydrochloride 作為抗心絞痛藥物的確切作用機轉仍有待完全確定，但包括以下兩種機轉：1. 鬆弛並預防冠狀動脈痙攣：verapamil hydrochloride 可擴張正常及缺血區域的主要冠狀動脈及冠狀小動脈，且為冠狀動脈痙攣（無論為自發性或由 ergonovine 誘發）的強效抑制劑。」英文原文："Angina: The precise mechanism of action of verapamil hydrochloride as an antianginal agent remains to be fully determined, but includes the following two mechanisms: 1. Relaxation and prevention of coronary artery spasm: Verapamil hydrochloride dilates the main coronary arteries and coronary arterioles, both in normal and ischemic regions, and is a potent inhibitor of coronary artery spasm, whether spontaneous or ergonovine-induced."（[DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c)，版本日期 2026-10-30；查閱日期 2026-11-19）。根據已知資訊，Verapamil 屬於 L-type 鈣離子通道阻斷劑，會減慢房室結傳導並使血管擴張，其降血壓作用已在原發性高血壓中被證實。
 
 惡性腎血管性高血壓屬於繼發性、腎素驅動的高血壓。Verapamil 的血管擴張降壓作用與其已核准的高血壓適應症有機轉上的重疊，這也是模型給出高分的可能原因。
 
@@ -119,11 +119,12 @@ Verapamil 是一種鈣離子通道阻斷劑，原本用於高血壓、心房顫�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「（共 8 張有效單方許可證，」→「（共 8 張單方許可證，7 張有效、HK-40708 已註銷；」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c) |
 
 <!-- review:end log -->
 

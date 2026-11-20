@@ -61,7 +61,7 @@ TxGNN 模型預測的前幾名新適應症中，**肺動脈高壓 (Pulmonary Hyp
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Terlipressin 是血管加壓素的合成類似物，作用於 V1 受體，造成內臟及全身血管收縮。
+根據美國 FDA 核准的 Terlipressin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Terlipressin 是一種合成血管加壓素類似物，對血管加壓素 V 1 受體的選擇性為 V 2 受體的兩倍。Terlipressin 既可作為離胺酸血管加壓素（lysine-vasopressin）的前驅藥，本身亦具有藥理活性。」英文原文："Terlipressin is a synthetic vasopressin analogue with twice the selectivity for vasopressin V 1 receptors versus V 2 receptors. Terlipressin acts as both a prodrug for lysine-vasopressin, as well as having pharmacologic activity on its own."（[DailyMed: Terlivaz (terlipressin) prescribing information, Keenova Hospital Products Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a35b86c-f451-4fac-8499-43019e4da354)，版本日期 2026-10-23；查閱日期 2026-11-19）。根據已知資訊，Terlipressin 是血管加壓素的合成類似物，作用於 V1 受體，造成內臟及全身血管收縮。
 
 已發表的研究顯示，肝硬化合併肺動脈高壓或門脈肺高壓的病人使用 terlipressin 後，肺血管阻力與肺動脈壓下降（PMID 22893473、21733953），而其他血管收縮劑可能使肺動脈壓惡化。此外也有新生兒持續性肺高壓合併難治性休克的救援使用個案。看起來 terlipressin 對肺循環與全身循環的作用可能不同。
 
@@ -128,6 +128,19 @@ TxGNN 模型預測的前幾名新適應症中，**肺動脈高壓 (Pulmonary Hyp
 - 補齊作用機轉資料
 - 針對肺動脈高壓設計較大型的前瞻性研究（區分門脈肺高壓與其他類型），並先釐清缺血與呼吸衰竭的風險
 - 若有意探討其他預測適應症，須先有機轉層面的合理假說
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Terlivaz (terlipressin) prescribing information, Keenova Hospital Products Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a35b86c-f451-4fac-8499-43019e4da354) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

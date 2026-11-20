@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般而言，Levofloxacin 屬於氟喹諾酮類抗菌藥，作用於細菌的 DNA 旋轉酶與拓樸異構酶 IV。香港另有 Levofloxacin 眼用製劑登記（品名含 CRAVIT OPHTHALMIC SOLUTION、LEVOCLE EYE DROPS、LEVOCIN EYE DROPS），因此對眼表面細菌感染的使用有合理基礎。
+根據美國 FDA 核准的 Levofloxacin 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Levofloxacin屬於氟喹諾酮類抗菌藥物。[…] Levofloxacin是消旋體ofloxacin（一種喹諾酮類抗微生物藥物）的L-異構體。Ofloxacin的抗菌活性主要來自L-異構體。Levofloxacin及其他氟喹諾酮類抗微生物藥物的作用機轉涉及抑制細菌拓撲異構酶IV及DNA旋轉酶（兩者均為第II型拓撲異構酶），這些酵素為DNA複製、轉錄、修復及重組所必需。」英文原文："Levofloxacin is a member of the fluoroquinolone class of antibacterial agents. […] Levofloxacin is the L-isomer of the racemate, ofloxacin, a quinolone antimicrobial agent. The antibacterial activity of ofloxacin resides primarily in the L-isomer. The mechanism of action of levofloxacin and other fluoroquinolone antimicrobials involves inhibition of bacterial topoisomerase IV and DNA gyrase (both of which are type II topoisomerases), enzymes required for DNA replication, transcription, repair and recombination."（[DailyMed: levofloxacin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814450ae-439e-4a5d-8c60-9b21b6f14be5)，版本日期 2026-11-05；查閱日期 2026-11-19）。一般而言，Levofloxacin 屬於氟喹諾酮類抗菌藥，作用於細菌的 DNA 旋轉酶與拓樸異構酶 IV。香港另有 Levofloxacin 眼用製劑登記（品名含 CRAVIT OPHTHALMIC SOLUTION、LEVOCLE EYE DROPS、LEVOCIN EYE DROPS），因此對眼表面細菌感染的使用有合理基礎。
 
 知識圖譜中記錄的原適應症包含結膜炎，TxGNN 的高分很可能來自與此疾病的相似性。不過，點狀上皮角膜結膜炎不一定由細菌引起，目前也沒有資料顯示 Levofloxacin 對此疾病有效。
 
@@ -123,11 +123,12 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「以下為已列出的主要許可證（總數至少 20 張，清單可能不完整；資料中未提供核准適」→「以下為已列出的主要許可證（共 54 張含本藥成分的許可證，有」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: levofloxacin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814450ae-439e-4a5d-8c60-9b21b6f14be5) |
 
 <!-- review:end log -->
 

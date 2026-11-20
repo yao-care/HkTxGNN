@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**骨關節炎 (Osteoarthritis)** 有效，但目�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Ioversol 是含碘的放射顯影造影劑，沒有已知的抗骨關節炎藥理作用。
+根據美國 FDA 核准的 Ioversol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「血管內注射ioversol可使造影劑流經路徑上的血管顯影，從而在出現顯著血液稀釋之前，可透過放射攝影顯示內部結構。快速靜脈注射後30至60秒內，即可在腎實質中觀察到ioversol。」英文原文："Intravascular injection of ioversol opacifies those vessels in the path of the flow of the contrast medium, permitting radiographic visualization of the internal structures until significant hemodilution occurs. Ioversol may be visualized in the renal parenchyma within 30 to 60 seconds following rapid intravenous injection."（[DailyMed: Optiray 320 (ioversol) prescribing information, Liebel-Flarsheim Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6cb6ca5f-b249-49b0-a9eb-8aa583da7c74)，版本日期 2025-12-29；查閱日期 2026-11-19）。Ioversol 是含碘的放射顯影造影劑，沒有已知的抗骨關節炎藥理作用。
 
 唯一連結的文獻（LipioJoint-1 試驗）研究的是以碘化油乳劑進行膝動脈栓塞術來治療膝骨關節炎，使用的栓塞劑並非 ioversol。兩者的關聯僅是間接的影像或程序上的關聯（同屬含碘造影相關材料），並不支持 ioversol 具有治療角色。
 
@@ -118,6 +118,19 @@ TxGNN 模型預測它可能對**骨關節炎 (Osteoarthritis)** 有效，但目�
 - 取得 ioversol 的作用機轉與完整仿單安全性資料（警語、禁忌症）
 - 找到直接以 ioversol 研究骨關節炎的前臨床或臨床證據
 - 確認此預測是否僅反映模型從相關疾病間學到的相似性，而非生物學證據；在缺乏上述證據前，不建議投入開發資源
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Optiray 320 (ioversol) prescribing information, Liebel-Flarsheim Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6cb6ca5f-b249-49b0-a9eb-8aa583da7c74) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

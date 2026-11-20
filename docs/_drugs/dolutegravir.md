@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**貓後天免疫缺陷症候群 (Feline Acquired 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知的藥物類別，dolutegravir 屬於 HIV-1 整合酶鏈轉移抑制劑（INSTI），透過阻斷病毒 DNA 嵌入宿主基因體而抑制複製。
+根據美國 FDA 核准的 Dolutegravir 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Dolutegravir為一種HIV-1抗反轉錄病毒藥物。[…] Dolutegravir藉由與整合酶活性位點結合，阻斷反轉錄病毒DNA整合過程中的股轉移步驟（此步驟為HIV複製週期所必需），從而抑制HIV整合酶。使用純化HIV-1整合酶及預處理受質DNA進行的股轉移生化試驗所得IC 50 值為2.7 nM及12.6 nM。」英文原文："Dolutegravir is an HIV-1 antiretroviral agent. […] Dolutegravir inhibits HIV integrase by binding to the integrase active site and blocking the strand transfer step of retroviral DNA integration which is essential for the HIV replication cycle. Strand transfer biochemical assays using purified HIV-1 integrase and pre-processed substrate DNA resulted in IC 50 values of 2.7 nM and 12.6 nM."（[DailyMed: Tivicay (dolutegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63df5af3-b8ac-4e76-9830-2dbb340af922)，版本日期 2026-08-25；查閱日期 2026-11-19）。根據已知的藥物類別，dolutegravir 屬於 HIV-1 整合酶鏈轉移抑制劑（INSTI），透過阻斷病毒 DNA 嵌入宿主基因體而抑制複製。
 
 貓免疫缺陷病毒 (FIV) 與 HIV 同屬慢病毒，其整合酶在結構上相近，因此從類別層面看，抑制整合酶在生物學上有合理性。TxGNN 的高分很可能反映它與 HIV 疾病的相似性，並非獨立的臨床證據。
 
@@ -105,6 +105,19 @@ TxGNN 模型預測它可能對**貓後天免疫缺陷症候群 (Feline Acquired 
 - 取得 dolutegravir 完整的作用機轉資料及 FIV 整合酶的直接抑制數據。
 - 取得香港仿單的核准適應症、警語與禁忌資料。
 - 若目標為人類適應症，建議改以其他預測適應症或與 HIV 相關的新族群重新評估。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Tivicay (dolutegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63df5af3-b8ac-4e76-9830-2dbb340af922) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

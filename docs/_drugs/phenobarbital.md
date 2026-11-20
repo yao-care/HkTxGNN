@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**三叉神經腫瘤 (Trigeminal Nerve Neoplasm)**
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般已知 Phenobarbital 是 GABA-A 受體的正向異位調節劑，可增強抑制性神經傳導、抑制神經元過度興奮，因此用於癲癇控制。
+根據美國 FDA 核准的 Phenobarbital 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Phenobarbital治療新生兒癲癇發作的確切作用機轉尚未完全明瞭，但一般認為其涉及透過作用於GABA A受體而增強突觸抑制。」英文原文："The precise mechanism of action for phenobarbital for the treatment of neonatal seizures is not fully understood, but it is thought to involve potentiation of synaptic inhibition through an action on the GABA A receptor."（[DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a)，版本日期 2026-10-23；查閱日期 2026-11-19）。一般已知 Phenobarbital 是 GABA-A 受體的正向異位調節劑，可增強抑制性神經傳導、抑制神經元過度興奮，因此用於癲癇控制。
 
 然而，這種機轉與抗腫瘤作用沒有已知的關聯。Phenobarbital 對三叉神經腫瘤沒有已知的抗腫瘤活性。唯一檢索到的文獻談的是 Sturge-Weber 症候群（一種伴隨癲癇的神經皮膚血管疾病），並非腫瘤。因此這個高分預測的分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。最多只能推測它可用於處理腫瘤相關癲癇，屬於症狀控制，並非治療腫瘤本身。
 
@@ -101,6 +101,19 @@ TxGNN 模型預測它可能對**三叉神經腫瘤 (Trigeminal Nerve Neoplasm)**
 - 補充作用機轉資料，並評估是否僅能作為腫瘤相關癲癇的症狀處理
 - 取得香港許可證的核准適應症與仿單警語、禁忌
 - 若轉向「三叉神經痛」，需有 Phenobarbital 專屬的對照研究，並與 carbamazepine 等既有選擇比較，同時評估其酵素誘導造成的交互作用與鎮靜、依賴風險
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

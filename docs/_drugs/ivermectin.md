@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**外陰陰道念珠菌病 (Vulvovaginal Candidias
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知資訊，Ivermectin 是抗寄生蟲藥物，作用於無脊椎動物的麩胺酸門控氯離子通道（glutamate-gated chloride channels），使寄生蟲麻痺死亡。
+根據美國 FDA 核准的 Ivermectin 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「使用人類肝臟微粒體及重組CYP450酶進行的體外研究顯示，ivermectin主要經CYP3A4代謝。」英文原文："In vitro studies using human liver microsomes and recombinant CYP450 enzymes have shown that ivermectin is primarily metabolized by CYP3A4."（[DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd)，版本日期 2024-09-20；查閱日期 2026-11-19）。就已知資訊，Ivermectin 是抗寄生蟲藥物，作用於無脊椎動物的麩胺酸門控氯離子通道（glutamate-gated chloride channels），使寄生蟲麻痺死亡。
 
 然而，真菌細胞並沒有這類標的，因此念珠菌感染在機轉上並無已知的合理連結。原適應症為寄生蟲感染，新預測適應症為真菌感染，兩者病原體類型不同。
 
@@ -116,6 +116,19 @@ TxGNN 模型預測它可能對**外陰陰道念珠菌病 (Vulvovaginal Candidias
 - 進行體外（in vitro）對念珠菌的抗黴菌試驗，作為最低限度的生物學驗證。
 - 取得香港衛生署的仿單，完成警語與禁忌症的安全性篩選。
 - 在上述證據出現之前，不建議投入臨床開發資源。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**子宮體血管周上皮樣細胞腫瘤**有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Ruxolitinib 是 JAK1/2 抑制劑，與骨髓增生性疾病在知識圖譜中有關聯記錄。
+根據美國 FDA 核准的 Ruxolitinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ruxolitinib 為一種激酶抑制劑，可抑制 Janus 相關激酶（JAKs）JAK1 及 JAK2；此等激酶介導多種對造血及免疫功能具重要性之細胞激素及生長因子的訊息傳遞。JAK 訊息傳遞涉及將 STATs（訊息傳導及轉錄活化因子）募集至細胞激素受體、使其活化，以及隨後 STATs 定位至細胞核，進而調節基因表現。」英文原文："Ruxolitinib, a kinase inhibitor, inhibits Janus Associated Kinases (JAKs), JAK1 and JAK2, which mediate the signaling of a number of cytokines and growth factors that are important for hematopoiesis and immune function. JAK signaling involves recruitment of STATs (signal transducers and activators of transcription) to cytokine receptors, activation, and subsequent localization of STATs to the nucleus leading to modulation of gene expression."（[DailyMed: Jakafi (ruxolitinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b)，版本日期 2026-07-20；查閱日期 2026-11-19）。根據已知資訊，Ruxolitinib 是 JAK1/2 抑制劑，與骨髓增生性疾病在知識圖譜中有關聯記錄。
 
 針對這個預測疾病，可能的連結是血管周上皮樣細胞腫瘤常見 TSC1/TSC2 缺失所致的 mTOR 路徑失調，並可能與 JAK-STAT 訊號有交互作用。這只是推測，所提供的資料中沒有任何研究支持，也無法確認 JAK 抑制能帶來療效。
 
@@ -116,6 +116,19 @@ TxGNN 模型預測它可能對**子宮體血管周上皮樣細胞腫瘤**有效�
 - 同一份預測清單中，**感染相關噬血症候群**（排名第 9）的證據相對充足。已有兒童與成人的 Ruxolitinib 治療研究、回溯性世代研究、病例報告，以及小鼠模型的機轉研究，證據等級為 L3。目前尚無法確認有 RCT。
 - 若要優先評估，建議改以該適應症為主軸另行評估。
 - 脂肪肉瘤（排名第 5）僅有 2 篇 JAK-STAT 的前臨床機轉研究，且未證實測試過 Ruxolitinib。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Jakafi (ruxolitinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

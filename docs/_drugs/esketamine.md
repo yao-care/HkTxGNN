@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**畏曠症 (Agoraphobia)** 有效，但目前**�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Esketamine 為 NMDA 受體拮抗劑，可增強麩胺酸訊號並促進突觸可塑性。其原適應症與焦慮相關，因此在機轉上可能適用於焦慮譜系疾患。
+根據美國 FDA 核准的 Esketamine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Esketamine 為消旋 ketamine 的 S-鏡像異構物，是 N -甲基- D -天門冬胺酸（NMDA）受體（一種離子型麩胺酸受體）的非選擇性、非競爭性拮抗劑。Esketamine 發揮其抗憂鬱作用的機轉尚不明。」英文原文："Esketamine, the S-enantiomer of racemic ketamine, is a non-selective, non-competitive antagonist of the N -methyl- D -aspartate (NMDA) receptor, an ionotropic glutamate receptor. The mechanism by which esketamine exerts its antidepressant effect is unknown."（[DailyMed: Spravato (esketamine hydrochloride) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed)，版本日期 2026-09-22；查閱日期 2026-11-19）。根據已知資訊，Esketamine 為 NMDA 受體拮抗劑，可增強麩胺酸訊號並促進突觸可塑性。其原適應症與焦慮相關，因此在機轉上可能適用於焦慮譜系疾患。
 
 畏曠症屬於焦慮症，與原適應症在恐懼迴路病理上有重疊，這是模型預測的合理之處。
 
@@ -111,6 +111,19 @@ TxGNN 模型預測它可能對**畏曠症 (Agoraphobia)** 有效，但目前**�
 - 補充 DrugBank 的作用機轉資料，進行機轉關聯分析
 - 系統性檢索畏曠症／恐懼症相關的臨床試驗與文獻
 - 評估解離與焦慮加劇風險，以及與重度交互作用藥物（如興奮劑類）併用的管理方式
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Spravato (esketamine hydrochloride) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

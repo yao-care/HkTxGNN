@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對 **Ambras 型先天性全身性多毛症 (Ambras t
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Tamsulosin 是 alpha-1A/1D 腎上腺素受體拮抗劑，透過放鬆攝護腺與膀胱頸平滑肌來改善 BPH 的排尿症狀。
+根據美國 FDA 核准的 Tamsulosin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「與良性前列腺增生（BPH）相關之症狀與膀胱出口阻塞有關，膀胱出口阻塞包含兩個潛在成分：靜態及動態。靜態成分與前列腺體積增大有關，其部分原因為前列腺基質中平滑肌細胞增生。[…] Tamsulosin 為一種 alpha 1 腎上腺素受體阻斷劑，對人類前列腺中之 alpha 1 受體具選擇性。」英文原文："The symptoms associated with benign prostatic hyperplasia (BPH) are related to bladder outlet obstruction, which is comprised of two underlying components: static and dynamic. The static component is related to an increase in prostate size caused, in part, by a proliferation of smooth muscle cells in the prostatic stroma. […] Tamsulosin, an alpha 1 adrenoceptor blocking agent, exhibits selectivity for alpha 1 receptors in the human prostate."（[DailyMed: tamsulosin hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6b6aeab-bedd-4254-8811-4f65cf8a351f)，版本日期 2026-11-12；查閱日期 2026-11-19）。已知 Tamsulosin 是 alpha-1A/1D 腎上腺素受體拮抗劑，透過放鬆攝護腺與膀胱頸平滑肌來改善 BPH 的排尿症狀。
 
 Ambras 症候群是罕見的遺傳疾病，與 8q22 染色體重排影響 TRPS1 基因調控有關。與 alpha-1 腎上腺素阻斷之間，**目前沒有已知的機轉關聯**。該分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 
@@ -120,6 +120,19 @@ Ambras 症候群是罕見的遺傳疾病，與 8q22 染色體重排影響 TRPS1 
 - 進行系統性文獻回顧與前臨床（毛囊模型）研究，確認是否有訊號
 - 取得香港衛生署仿單中的警語與禁忌資訊，完成安全性篩選
 - 在投入資源前，與其他排名較高且更具生物學合理性的候選適應症一併重新評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: tamsulosin hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6b6aeab-bedd-4254-8811-4f65cf8a351f) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

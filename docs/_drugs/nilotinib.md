@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**隆突性皮膚纖維肉瘤 (Dermatofibrosarcoma
 
 ## 為什麼這個預測合理？
 
-目前缺乏 DrugBank 的詳細作用機轉資料。以下機轉推論來自 nilotinib 的一般藥理知識，仍需對照 DrugBank 或原廠資料確認。
+根據美國 FDA 核准的 Nilotinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Nilotinib為BCR-ABL激酶抑制劑。Nilotinib與ABL蛋白激酶結構域的非活化構形結合並使其穩定。在體外試驗中，nilotinib抑制了BCR-ABL介導的小鼠白血病細胞株及源自Ph+ CML病人之人類細胞株的增殖。」英文原文："Nilotinib is an inhibitor of the BCR-ABL kinase. Nilotinib binds to and stabilizes the inactive conformation of the kinase domain of ABL protein. In vitro, nilotinib inhibited BCR-ABL mediated proliferation of murine leukemic cell lines and human cell lines derived from patients with Ph+ CML."（[DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc)，版本日期 2026-07-20；查閱日期 2026-11-19）。以下機轉推論來自 nilotinib 的一般藥理知識，仍需對照 DrugBank 或原廠資料確認。
 
 Nilotinib 除了抑制 BCR-ABL1 之外，也會抑制 PDGFR-α/β 與 KIT。隆突性皮膚纖維肉瘤主要由 COL1A1-PDGFB 融合基因驅動，此融合會持續產生 PDGFB，造成 PDGFR-β 的自分泌活化。因此從標靶層面來看，用 nilotinib 阻斷 PDGFR 訊號有合理的生物學基礎。
 
@@ -134,6 +134,19 @@ Nilotinib 除了抑制 BCR-ABL1 之外，也會抑制 PDGFR-α/β 與 KIT。隆�
 - 取得香港衛生署的仿單，補齊警語與禁忌症，並評估 QT 延長、肝毒性與藥物交互作用風險
 - 確認香港許可證核准適應症與劑型資訊（目前為空白）
 - 與現有 DFSP 標準治療（如其他 PDGFR 抑制劑）比較，評估 nilotinib 的相對價值
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

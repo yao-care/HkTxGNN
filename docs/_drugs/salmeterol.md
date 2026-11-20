@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**呼吸道畸形 (respiratory malformation)** 有
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就藥理類別而言，salmeterol 屬於長效 β2 受體促效劑，可放鬆氣道平滑肌，並可能影響纖毛擺動頻率與氣道清除功能。
+根據美國 FDA 核准的 Salmeterol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Salmeterol是一種選擇性LABA。體外研究顯示，salmeterol對beta 2 -腎上腺素受體的選擇性至少比albuterol高50倍。雖然beta 2 -腎上腺素受體是支氣管平滑肌中主要的腎上腺素受體，而beta 1 -腎上腺素受體是心臟中主要的受體，但人類心臟中亦存在beta 2 -腎上腺素受體，佔beta-腎上腺素受體總數的10%至50%。」英文原文："Salmeterol is a selective LABA. In vitro studies show salmeterol to be at least 50 times more selective for beta 2 -adrenoceptors than albuterol. Although beta 2 -adrenoceptors are the predominant adrenergic receptors in bronchial smooth muscle and beta 1 -adrenoceptors are the predominant receptors in the heart, there are also beta 2 -adrenoceptors in the human heart comprising 10% to 50% of the total beta-adrenoceptors."（[DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4)，版本日期 2022-10-10；查閱日期 2026-11-19）。就藥理類別而言，salmeterol 屬於長效 β2 受體促效劑，可放鬆氣道平滑肌，並可能影響纖毛擺動頻率與氣道清除功能。
 
 這與呼吸道畸形的關聯並不明確。β2 促效劑對纖毛及氣道清除的調節，理論上可能對部分氣道結構或纖毛異常的疾病有幫助，但對畸形本身並無任何實證。TxGNN 的高分較可能反映模型在網路上與氣道疾病的鄰近性，而非具體的作用機轉。
 
@@ -114,6 +114,18 @@ TxGNN 模型預測它可能對**呼吸道畸形 (respiratory malformation)** 有
 - 取得 salmeterol 完整的作用機轉資料
 - 取得香港仿單的警語與禁忌症資料
 - 先進行臨床前或小型探索性研究，確認是否有任何療效訊號
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

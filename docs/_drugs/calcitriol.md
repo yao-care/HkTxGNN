@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**已淘汰的維生素 D 缺乏症 (obsolete vita
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Calcitriol 是維生素 D 的活性形式，因此與維生素 D 缺乏在生物學上有明顯關聯，這也是模型給出高分的可能原因。
+根據美國 FDA 核准的 Calcitriol 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Calcitriol 的內源性合成與分解代謝，以及影響這些過程的生理調控機制，在調節血清 calcitriol 濃度方面扮演關鍵角色。生理上的每日生成量通常為 0.5 至 1.0 mcg，在骨質合成增加期間（例如生長期或懷孕期）會略高。」英文原文："Endogenous synthesis and catabolism of calcitriol, as well as physiological control mechanisms affecting these processes, play a critical role regulating the serum level of calcitriol. Physiological daily production is normally 0.5 to 1.0 mcg and is somewhat higher during periods of increased bone synthesis (eg, growth or pregnancy)."（[DailyMed: calcitriol prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45f78bbe-4bbc-404d-a061-ead3db50908e)，版本日期 2026-10-15；查閱日期 2026-11-19）。Calcitriol 是維生素 D 的活性形式，因此與維生素 D 缺乏在生物學上有明顯關聯，這也是模型給出高分的可能原因。
 
 但此預測有兩個問題。第一，該疾病術語在本體論中已被標記為「已淘汰」，預測很可能只是舊術語造成的結果。第二，營養性維生素 D 缺乏通常以 cholecalciferol 或 ergocalciferol 補充，並非以 calcitriol 為首選。
 
@@ -100,6 +100,19 @@ TxGNN 模型預測它可能對**已淘汰的維生素 D 缺乏症 (obsolete vita
 - 取得 calcitriol 與 cholecalciferol 等標準療法的比較資料
 - 取得作用機轉資料與香港仿單的警語及禁忌資訊
 - 在有任何臨床或文獻證據之前，維持觀察
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: calcitriol prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45f78bbe-4bbc-404d-a061-ead3db50908e) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

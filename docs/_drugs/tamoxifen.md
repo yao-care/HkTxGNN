@@ -61,7 +61,7 @@ Tamoxifen 是選擇性雌激素受體調節劑，原本用於治療女性乳癌�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Tamoxifen 是選擇性雌激素受體調節劑（SERM），在乳腺組織中拮抗雌激素受體（ER）訊號，這是它治療荷爾蒙受體陽性乳癌的既有機轉。
+根據美國 FDA 核准的 Tamoxifen 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Tamoxifen 是一種雌激素促效劑／拮抗劑。Tamoxifen 與雌激素競爭結合雌激素受體，可導致乳房組織中依賴雌激素受體訊息傳遞的生長減少。Tamoxifen 已對異種移植於小鼠體內的人類乳癌細胞株顯示抗腫瘤活性。」英文原文："Tamoxifen is an estrogen agonist/antagonist. Tamoxifen competes with estrogen for binding to the estrogen receptor, which can result in a decrease in estrogen receptor signaling-dependent growth in breast tissue. Tamoxifen has demonstrated antitumor activity against human breast cancer cell lines xenografted in mice."（[DailyMed: Soltamox (tamoxifen citrate) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6ff055-590c-41e6-9530-1fdf04cdbd02)，版本日期 2021-11-29；查閱日期 2026-11-19）。根據已知資訊，Tamoxifen 是選擇性雌激素受體調節劑（SERM），在乳腺組織中拮抗雌激素受體（ER）訊號，這是它治療荷爾蒙受體陽性乳癌的既有機轉。
 
 乳腺原位癌（DCIS）是浸潤性乳癌的前驅病變，與原適應症同屬乳腺上皮腫瘤。在荷爾蒙受體陽性的 DCIS 中，阻斷雌激素訊號可降低同側及對側的復發風險。因此這個預測較接近乳癌範疇內的延伸，而非全新疾病的重新定位。
 
@@ -162,6 +162,18 @@ Tamoxifen 是選擇性雌激素受體調節劑，原本用於治療女性乳癌�
 | 荷爾蒙抗性乳癌 | L3 | Research Question | 僅有小型試驗，僅支持組合策略的假說 |
 | 基底樣乳癌 | L5 | Hold | 多為 ER 陰性，機轉不符 |
 | Ehrlich 腫瘤癌 | L5 | Hold | 小鼠模型，非人類適應症 |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Soltamox (tamoxifen citrate) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6ff055-590c-41e6-9530-1fdf04cdbd02) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

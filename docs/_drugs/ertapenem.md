@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（MOA 欄位為空）。不過 Ertapenem 屬於碳青黴烯類，其類別機轉已相當明確：結合細菌的青黴素結合蛋白（PBP），抑制細胞壁合成，進而殺菌。
+根據美國 FDA 核准的 Ertapenem 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Ertapenem sodium 為一種 carbapenem 類抗生素。[…] Ertapenem 在體外對革蘭氏陽性及革蘭氏陰性需氧菌與厭氧菌具有活性。Ertapenem 的殺菌活性源自於抑制細胞壁合成，並經由 ertapenem 與青黴素結合蛋白（PBPs）結合而介導。」英文原文："Ertapenem sodium is a carbapenem antibiotic. […] Ertapenem has in vitro activity against Gram-positive and Gram-negative aerobic and anaerobic bacteria. The bactericidal activity of ertapenem results from the inhibition of cell wall synthesis and is mediated through ertapenem binding to penicillin binding proteins (PBPs)."（[DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22)，版本日期 2026-02-04；查閱日期 2026-11-19）。不過 Ertapenem 屬於碳青黴烯類，其類別機轉已相當明確：結合細菌的青黴素結合蛋白（PBP），抑制細胞壁合成，進而殺菌。
 
 它對多數腸內桿菌科細菌、鏈球菌與厭氧菌都有活性，而這些正是細菌性關節炎與骨關節感染常見的致病菌。原適應症（肺炎、厭氧菌感染）與新適應症同屬細菌感染，因此在機轉上有合理的延伸性。
 
@@ -126,6 +126,19 @@ TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有�
 - 針對細菌性關節炎或骨關節感染，系統性收集 Ertapenem 的比較性研究，或設計前瞻性研究
 - 評估癲癇風險與 Bupropion 等藥物交互作用的處置方式
 - Ertapenem 合併 Cefazolin 用於 MSSA 菌血症已有 Phase 2（NCT04886284，招募中）與 Phase 4（NCT07148960）試驗，證據進展較快，可作為後續評估重點。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

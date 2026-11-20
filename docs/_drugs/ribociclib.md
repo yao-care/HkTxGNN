@@ -63,7 +63,7 @@ Ribociclib 抑制 CDK4/6，這兩種激酶調控細胞週期由 G1 期進入 S �
 
 一篇 2020 年的前臨床研究（PMID 32560251）指出，CDK4/6 抑制劑可針對 AML 細胞中由 ABCB1、ABCG2 轉運蛋白造成的藥物動力學抗藥性。這提供了合理但間接的依據。
 
-需要注意：該研究是細胞層級的前臨床研究，並非針對 ribociclib 的臨床療效證據。TxGNN 的高分是電腦模型預測，不等於臨床證據。目前也缺乏詳細的作用機轉資料，上述機轉為依 CDK4/6 抑制作用所作的推論。
+需要注意：該研究是細胞層級的前臨床研究，並非針對 ribociclib 的臨床療效證據。TxGNN 的高分是電腦模型預測，不等於臨床證據。根據美國 FDA 核准的 Ribociclib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ribociclib 是細胞週期蛋白依賴性激酶（CDK）4 及 6 的抑制劑。這些激酶在與 D 型細胞週期蛋白結合後被活化，並位於導致細胞週期進展及細胞增殖的訊號傳導路徑下游。」英文原文："Ribociclib is an inhibitor of cyclin-dependent kinase (CDK) 4 and 6. These kinases are activated upon binding to D-cyclins and are downstream of signaling pathways which lead to cell cycle progression and cellular proliferation."（[DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8)，版本日期 2026-07-01；查閱日期 2026-11-19）。
 
 ---
 
@@ -141,6 +141,19 @@ Ribociclib 抑制 CDK4/6，這兩種激酶調控細胞週期由 G1 期進入 S �
 排名第 2 至第 4 的預測（血小板低下症及相關遺傳性疾病）**不建議推進**（Hold）：
 - **血小板低下症**：文獻顯示血小板低下是 ribociclib 等 CDK4/6 抑制劑的不良反應，並非治療目標，模型預測可能反映的是藥物與疾病的關聯，而非治療關係。
 - **巨血小板症合併二尖瓣閉鎖不全**與**遺傳性血小板低下（血小板正常）**：沒有任何文獻或試驗，也無機轉依據，且 ribociclib 已知會造成骨髓抑制。後者的疾病名稱本身自相矛盾，可能是本體標註的問題。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

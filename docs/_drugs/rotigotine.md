@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**注意力不足過動症 (ADHD)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，rotigotine 是多巴胺受體促效劑（涵蓋 D1–D5，對 D3 親和力較高），也作用於部分血清素與腎上腺素受體。
+根據美國 FDA 核准的 Rotigotine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Rotigotine 是一種非麥角類多巴胺促效劑。Rotigotine 治療帕金森氏症的確切作用機轉尚不明確，但一般認為與其刺激腦內尾狀核－殼核中多巴胺受體的能力有關。」英文原文："Rotigotine is a non-ergoline dopamine agonist. The precise mechanism of action of rotigotine as a treatment for Parkinson's disease is unknown, although it is thought to be related to its ability to stimulate dopamine receptors within the caudate-putamen in the brain."（[DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0)，版本日期 2026-11-11；查閱日期 2026-11-19）。根據已知資訊，rotigotine 是多巴胺受體促效劑（涵蓋 D1–D5，對 D3 親和力較高），也作用於部分血清素與腎上腺素受體。
 
 ADHD 與多巴胺及去甲腎上腺素系統失調有關。其中一篇文獻探討多巴胺 D4 受體與 α2A 腎上腺素受體的異聚化，與 ADHD 的遺傳關聯相關，提供了合理但間接的生物學連結。另外兩篇文獻是不寧腿症候群的回顧，僅因不寧腿症與 ADHD 常共病、且共享多巴胺藥理而相關。
 
@@ -111,6 +111,19 @@ ADHD 與多巴胺及去甲腎上腺素系統失調有關。其中一篇文獻探
 - 取得香港衛生署仿單的警語與禁忌資料，完成安全性篩選。
 - 進行 rotigotine 於 ADHD 的前臨床或探索性臨床研究（例如先在不寧腿症合併 ADHD 的族群中觀察）。
 - 評估貼片劑型是否適合目標族群（尤其是兒童），以及心血管與直立性低血壓風險的監測計畫。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

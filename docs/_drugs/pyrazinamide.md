@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**感染性中耳炎 (Infectious Otitis Media)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Pyrazinamide 是一種前驅藥，在酸性環境下會轉變為活性型態 pyrazinoic acid，只對結核分枝桿菌 (*Mycobacterium tuberculosis*) 有活性。
+ChEMBL（EMBL-EBI）收錄的 Pyrazinamide 作用機轉（非官方翻譯）：「脂肪酸合成酶抑制劑；70S核糖體抑制劑」英文原文："Fatty acid synthase inhibitor; 70S ribosome inhibitor"（[ChEMBL CHEMBL614 (pyrazinamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL614)，CC BY-SA 3.0；查閱日期 2026-11-19）。Pyrazinamide 是一種前驅藥，在酸性環境下會轉變為活性型態 pyrazinoic acid，只對結核分枝桿菌 (*Mycobacterium tuberculosis*) 有活性。
 
 一般感染性中耳炎的常見致病菌為肺炎鏈球菌、流感嗜血桿菌與卡他莫拉菌，Pyrazinamide 對這些細菌沒有已知活性。因此，這個高分預測缺乏機轉上的支持。分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，不是生物學證據。
 
@@ -111,6 +111,19 @@ TxGNN 模型預測它可能對**感染性中耳炎 (Infectious Otitis Media)** �
 - 若聚焦結核性中耳炎，則應視為原適應症的肺外延伸，另行評估，而非再利用案例
 
 **其他預測的補充說明：**排名前 10 的預測中，多數為耳部疾病，且皆無試驗支持。「萊姆病」雖有間接的假說性訊號（針對休眠菌的概念），但檢索到的文獻是 dapsone 複方與一般性回顧，並非 Pyrazinamide 專屬的臨床證據，僅可視為研究問題。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL614 (pyrazinamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL614) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

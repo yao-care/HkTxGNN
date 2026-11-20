@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**核 DNA 異常所致的粒線體氧化磷酸化�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Asfotase alfa 是重組的組織非特異性鹼性磷酸酶 (TNAP) 酵素替代療法，能分解無機焦磷酸、磷酸吡哆醛 (PLP) 與磷酸乙醇胺，以支持骨礦化。
+根據美國 FDA 核准的 Asfotase Alfa 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「HPP 是由 TNSALP 酵素活性缺乏所致，會導致多種 TNSALP 受質升高，包括無機焦磷酸（PPi）。TNSALP 為一種金屬酵素，可催化磷酸單酯的水解，並釋出無機磷酸及醇。」英文原文："HPP is caused by a deficiency in TNSALP enzyme activity, which leads to elevations in several TNSALP substrates, including inorganic pyrophosphate (PPi). TNSALP is a metallo-enzyme that catalyzes the hydrolysis of phosphomonoesters with release of inorganic phosphate and alcohol."（[DailyMed: Strensiq (asfotase alfa) prescribing information, Alexion Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3387574f-5eaa-4501-a71d-4cbfbd563031)，版本日期 2025-12-12；查閱日期 2026-11-19）。根據已知資訊，Asfotase alfa 是重組的組織非特異性鹼性磷酸酶 (TNAP) 酵素替代療法，能分解無機焦磷酸、磷酸吡哆醛 (PLP) 與磷酸乙醇胺，以支持骨礦化。
 
 然而，粒線體氧化磷酸化異常源自核基因編碼的呼吸鏈成分缺陷，而細胞外的磷酸酶活性並不能彌補這類缺陷。因此，目前**沒有已記載的機轉連結**。高預測分數僅來自 TxGNN 模型（深度學習）的推算，應視為待驗證的假說，而非有實質依據的結論。
 
@@ -112,6 +112,19 @@ TxGNN 模型預測它可能對**核 DNA 異常所致的粒線體氧化磷酸化�
 - 進行前臨床（細胞或動物模型）研究，驗證 TNAP 替代對粒線體功能的影響
 - 取得香港衛生署仿單的警語與禁忌資訊，完成安全性評估
 - 確認給藥途徑（本品為注射劑）與目標疾病的適配性
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Strensiq (asfotase alfa) prescribing information, Alexion Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3387574f-5eaa-4501-a71d-4cbfbd563031) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

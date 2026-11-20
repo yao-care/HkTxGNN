@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**伴 G6PC3 缺乏的常染色體隱性嚴重先�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，ravulizumab 是補體 C5 抑制劑，在陣發性夜間血紅素尿症（補體介導的血管內溶血）相關的關聯已記錄於知識圖譜中。
+根據美國 FDA 核准的 Ravulizumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ravulizumab-cwvz 為一種末端補體抑制劑，能以高親和力專一性地與補體蛋白 C5 結合，從而抑制其裂解為 C5a（促發炎性過敏毒素）及 C5b（膜攻擊複合體 [MAC 或 C5b-9] 的起始次單元），因而防止 MAC 形成。ULTOMIRIS 可抑制 PNH 患者中由末端補體介導的血管內溶血，以及 aHUS 患者中由補體介導的血栓性微血管病變（TMA）。」英文原文："Ravulizumab-cwvz is a terminal complement inhibitor that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a (the proinflammatory anaphylatoxin) and C5b (the initiating subunit of the membrane attack complex [MAC or C5b-9]) thus preventing MAC formation. ULTOMIRIS inhibits terminal complement-mediated intravascular hemolysis in patients with PNH and complement-mediated thrombotic microangiopathy (TMA) in patients with aHUS."（[DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791)，版本日期 2026-10-29；查閱日期 2026-11-19）。根據已知資訊，ravulizumab 是補體 C5 抑制劑，在陣發性夜間血紅素尿症（補體介導的血管內溶血）相關的關聯已記錄於知識圖譜中。
 
 然而，G6PC3 缺乏所致的嗜中性球低下症，成因是嗜中性球葡萄糖代謝受損及細胞凋亡增加，並非補體驅動的疾病。目前沒有已知的機轉，說明阻斷 C5 能改善這個疾病。
 
@@ -98,6 +98,19 @@ TxGNN 模型預測它可能對**伴 G6PC3 缺乏的常染色體隱性嚴重先�
 - 取得香港仿單的警語、禁忌與核准適應症文字
 - 建立 C5 補體活化與 G6PC3 缺乏嗜中性球低下症之間的前臨床或機轉證據
 - 若有機轉支持，再評估感染風險（特別是腦膜炎球菌）及疫苗接種與預防策略
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

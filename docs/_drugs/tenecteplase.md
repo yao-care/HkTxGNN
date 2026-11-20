@@ -62,10 +62,9 @@ TxGNN 模型預測它可能對**冠狀動脈狹窄 (Coronary Stenosis)** 有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Tenecteplase 屬於纖維蛋白特異性的纖維蛋白溶解劑（組織型纖溶酶原活化劑類），能溶解富含纖維蛋白的血栓。
+根據美國 FDA 核准的 Tenecteplase 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Tenecteplase 是人類組織胞漿素原活化劑（tPA）的修飾形式，可與纖維蛋白結合，並將胞漿素原轉化為胞漿素。體外研究顯示，在纖維蛋白存在下，tenecteplase 介導的胞漿素原轉化為胞漿素的程度，相較於無纖維蛋白存在時有所增加。」英文原文："Tenecteplase is a modified form of human tissue plasminogen activator (tPA) that binds to fibrin and converts plasminogen to plasmin. In the presence of fibrin, in vitro studies demonstrate that tenecteplase-mediated conversion of plasminogen to plasmin is increased relative to its conversion in the absence of fibrin."（[DailyMed: Tnkase (tenecteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e647640d-c395-4b4b-a0be-1162f9c21d84)，版本日期 2025-12-15；查閱日期 2026-11-19）。根據已知資訊，Tenecteplase 屬於纖維蛋白特異性的纖維蛋白溶解劑（組織型纖溶酶原活化劑類），能溶解富含纖維蛋白的血栓。
 
 冠狀動脈狹窄常伴隨血栓形成，例如急性心肌梗塞與 PCI 相關血栓。Tenecteplase 的作用目標是血栓成分，而非固定的動脈粥狀硬化狹窄本身。因此，它在狹窄病灶合併急性血栓時可能有用，但這與知識圖譜中已記錄的心肌梗塞用途高度重疊，不能視為獨立的新適應症。
-
 
 ---
 
@@ -126,6 +125,19 @@ TxGNN 模型預測它可能對**冠狀動脈狹窄 (Coronary Stenosis)** 有效�
 - 取得香港仿單的核准適應症、警語與禁忌症
 - 設計直接針對冠狀動脈狹窄（並區分血栓成分）的臨床研究
 - 建立出血風險評估與監測計畫，特別是併用抗凝血或抗血小板藥物時
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Tnkase (tenecteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e647640d-c395-4b4b-a0be-1162f9c21d84) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

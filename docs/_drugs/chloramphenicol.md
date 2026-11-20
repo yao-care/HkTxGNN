@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**瀰漫性硬皮症 (diffuse scleroderma)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。氯黴素一般認為是細菌核糖體抑制劑，主要作用於細菌蛋白質合成，與硬皮症的纖維化與自體免疫病理沒有明確的藥理連結。
+根據美國 FDA 核准的 Chloramphenicol 處方資料（Prescribing Information）「Clinical Pharmacology」與「Microbiology」段（非官方翻譯）：「Chloramphenicol 是一種廣效抗生素，最初從 Streptomyces venezuelae 分離而得。其藉由干擾活化胺基酸從可溶性 RNA 轉移至核糖體，抑制細菌蛋白質合成。」英文原文："Chloramphenicol is a broad-spectrum antibiotic originally isolated from Streptomyces venezuelae. It inhibits bacterial protein synthesis by interfering with the transfer of activated amino acids from soluble RNA to ribosomes."（[DailyMed: chloramphenicol sodium succinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aed29594-211d-49ef-813f-131975a8d0e3)，版本日期 2024-10-10；查閱日期 2026-11-19）。氯黴素一般認為是細菌核糖體抑制劑，主要作用於細菌蛋白質合成，與硬皮症的纖維化與自體免疫病理沒有明確的藥理連結。
 
 檢索到的 4 篇文獻都是硬皮症纖維母細胞中第一型前膠原基因（COL1A1）轉錄調控與 TGF-β/Smad 訊息傳遞的基礎研究。標題顯示它們探討的是疾病生物學，並未把氯黴素當作治療藥物來測試。這些文獻可能因為實驗中使用了含氯黴素的報告基因系統而被檢索到，較像方法學上的巧合，並非藥理訊號。
 
@@ -123,11 +123,12 @@ TxGNN 模型預測它可能對**瀰漫性硬皮症 (diffuse scleroderma)** 有�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「氯黴素在香港有 20 張有效的單一成分許可證，沒有已註銷者。」→「香港共有 31 張含本藥成分的許可證（全部有效；單一成分 1」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: chloramphenicol sodium succinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aed29594-211d-49ef-813f-131975a8d0e3) |
 
 <!-- review:end log -->
 

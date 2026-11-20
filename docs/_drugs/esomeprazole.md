@@ -58,7 +58,7 @@ Esomeprazole 是質子幫浦抑制劑，原本用於消化性潰瘍、胃食道�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Esomeprazole 是質子幫浦抑制劑，透過抑制胃壁細胞的 H+/K+ ATPase 來抑制胃酸分泌，在胃酸相關疾病中的療效已被證實。
+根據美國 FDA 核准的 Esomeprazole 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Esomeprazole屬於一類抗分泌化合物，即取代苯并咪唑類，透過專一性抑制胃壁細胞分泌表面的H+/K+ ATPase酵素系統來抑制胃酸分泌。Esomeprazole在壁細胞的酸性區室中被質子化並轉化，形成活性抑制劑，即非掌性的次磺醯胺。」英文原文："Esomeprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the H+/K+ ATPase enzyme system at the secretory surface of the gastric parietal cell. Esomeprazole is protonated and converted in the acidic compartment of the parietal cell forming the active inhibitor, the achiral sulphenamide."（[DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96)，版本日期 2025-12-19；查閱日期 2026-11-19）。已知 Esomeprazole 是質子幫浦抑制劑，透過抑制胃壁細胞的 H+/K+ ATPase 來抑制胃酸分泌，在胃酸相關疾病中的療效已被證實。
 
 十二指腸胃逆流（膽汁逆流）的主因是十二指腸內容物（膽汁、胰液）逆流回胃，而不是胃酸過多。抑制胃酸或許能減輕胃與食道的黏膜傷害和症狀，但無法處理逆流本身，因此機轉上的關聯是**間接的**。
 
@@ -143,11 +143,12 @@ Esomeprazole 是質子幫浦抑制劑，原本用於消化性潰瘍、胃食道�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「共 20 張有效許可證，以下列出 5 張主要許可證。」→「香港共有 59 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**禿髮性黏蛋白症 (Alopecia Mucinosa)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Triamcinolone 屬於強效糖皮質類固醇，具有抗發炎與免疫抑制作用，在多種自體免疫與發炎性疾病中的療效已被證實。
+根據美國 FDA 核准的 Triamcinolone 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「研究顯示，單次肌肉注射 60 mg 至 100 mg 的 triamcinolone acetonide 後，腎上腺抑制於 24 至 48 小時內發生，之後逐漸恢復正常，通常需時 30 至 40 天。此發現與該藥物所達成的延長治療作用持續時間密切相關。」英文原文："Studies indicate that following a single intramuscular dose of 60 mg to 100 mg of triamcinolone acetonide, adrenal suppression occurs within 24 to 48 hours and then gradually returns to normal, usually in 30 to 40 days. This finding correlates closely with the extended duration of therapeutic action achieved with the drug."（[DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad)，版本日期 2026-01-05；查閱日期 2026-11-19）。根據已知資訊，Triamcinolone 屬於強效糖皮質類固醇，具有抗發炎與免疫抑制作用，在多種自體免疫與發炎性疾病中的療效已被證實。
 
 禿髮性黏蛋白症（毛囊黏蛋白症）的特徵是毛囊周圍淋巴球浸潤及黏蛋白沉積。因此，局部（病灶內注射或外用）類固醇在機轉上是合理的嘗試方向。
 
@@ -132,11 +132,12 @@ TxGNN 模型預測它可能對**禿髮性黏蛋白症 (Alopecia Mucinosa)** 有�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-19 | 「香港共有 20 張有效單一成分許可證，皆為外用、口腔用或鼻用製劑。」→「香港共有 152 張含本藥成分的許可證（全部有效；單一成分 32 張、複方 12」 | 更正（2026-11-19 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad) |
 
 <!-- review:end log -->
 

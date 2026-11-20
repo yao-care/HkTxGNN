@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 rivaroxaban 是直接 Factor Xa 抑制劑，主要用於抗凝血治療。
+根據美國 FDA 核准的 Rivaroxaban 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「XARELTO 為一種選擇性 FXa 抑制劑。其活性不需要輔因子（例如抗凝血酶 III [Anti-thrombin III]）。Rivaroxaban 可抑制游離 FXa 及凝血酶原酶（prothrombinase）活性。Rivaroxaban 對血小板凝集無直接作用，但可間接抑制由凝血酶誘發的血小板凝集。」英文原文："XARELTO is a selective inhibitor of FXa. It does not require a cofactor (such as Anti-thrombin III) for activity. Rivaroxaban inhibits free FXa and prothrombinase activity. Rivaroxaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin."（[DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610)，版本日期 2026-09-10；查閱日期 2026-11-19）。已知 rivaroxaban 是直接 Factor Xa 抑制劑，主要用於抗凝血治療。
 
 理論上，類風濕性關節炎存在「凝血與發炎的交互作用」：凝血酶與 FXa 可能透過 PAR-1/PAR-2 訊號促進滑膜發炎，且類風濕性關節炎患者本身血栓風險較高。這是此預測在機轉上可能成立的假說。
 
@@ -133,11 +133,12 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效單方許可證，以下列出 5 張主要許可證（資料中未提供劑型與」→「香港共有 30 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610) |
 
 <!-- review:end log -->
 

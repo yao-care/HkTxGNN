@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**失眠症 (Insomnia)** 有效，但目前**沒�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫中未收錄原廠 MOA 欄位）。根據文獻，Pitolisant 是選擇性組織胺 H3 受體拮抗劑／反向促效劑，能增加腦內組織胺的神經傳導並促進清醒，已在歐美核准用於成人猝睡症。
+根據美國 FDA 核准的 Pitolisant 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Pitolisant 用於 6 歲及以上猝睡症病人之日間過度嗜睡（EDS）或猝倒的作用機轉尚不明確。然而，其療效可能是透過其作為組織胺-3（H3）受體拮抗劑/反向促效劑的活性所介導。」英文原文："The mechanism of action of pitolisant in excessive daytime sleepiness (EDS) or cataplexy in patients 6 years and older with narcolepsy is unclear. However, its efficacy could be mediated through its activity as an antagonist/inverse agonist at histamine-3 (H3) receptors."（[DailyMed: Wakix (pitolisant hydrochloride) prescribing information, Harmony Biosciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8daa5562-824e-476c-9652-26ceef3d4b0e)，版本日期 2026-02-13；查閱日期 2026-11-19）。根據文獻，Pitolisant 是選擇性組織胺 H3 受體拮抗劑／反向促效劑，能增加腦內組織胺的神經傳導並促進清醒，已在歐美核准用於成人猝睡症。
 
 **但這個預測在機轉上並不合理。** 失眠的治療通常是要降低覺醒程度，而 Pitolisant 的作用是提高覺醒，方向恰好相反。失眠本身也是 Pitolisant 已知的不良反應之一，因此它可能使失眠惡化。
 
@@ -131,6 +131,19 @@ TxGNN 模型（深度學習）給出的高分（0.9971）可能反映模型學�
 - 取得完整的作用機轉資料與香港仿單的警語、禁忌症
 - 若有興趣探索，可將 **ADHD** 作為較合理的假說方向，先進行前臨床或小型探索性研究
 - 不建議針對失眠症或 Aarskog-Scott 症候群投入進一步開發資源
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Wakix (pitolisant hydrochloride) prescribing information, Harmony Biosciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8daa5562-824e-476c-9652-26ceef3d4b0e) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

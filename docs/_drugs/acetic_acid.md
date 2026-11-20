@@ -60,7 +60,7 @@ TxGNN 模型的預測排名第一為**細菌感染後疾患 (post-bacterial diso
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，醋酸是外用抗菌劑，可酸化局部環境，抑制 Pseudomonas 等細菌生長。這解釋了它用於外耳炎的原因。
+根據美國 FDA 核准的 Acetic Acid 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「醋酸具有抗菌及抗真菌作用；丙二醇具親水性，並可提供低表面張力；苄索氯銨（benzethonium chloride）為一種界面活性劑，可促進溶液與組織接觸。」英文原文："Acetic acid is antibacterial and antifungal; propylene glycol is hydrophilic and provides a low surface tension; benzethonium chloride is a surface active agent that promotes contact of the solution with tissues."（[DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d)，版本日期 2026-03-18；查閱日期 2026-11-19）。根據已知資訊，醋酸是外用抗菌劑，可酸化局部環境，抑制 Pseudomonas 等細菌生長。這解釋了它用於外耳炎的原因。
 
 **排名第一的「細菌感染後疾患」**屬於感染後的非感染性後遺症，外用抗菌劑的酸化作用無法解釋其療效，機轉連結不成立。排名第 2 至第 7 的預測（感染後血管炎、感染後症候群、恰加斯心肌病變、感染性尿道狹窄、感染相關溶血性尿毒症候群、藥物引起的骨質疏鬆）同樣沒有臨床試驗或直接文獻，且機轉上也不合理。
 
@@ -132,6 +132,19 @@ TxGNN 模型的預測排名第一為**細菌感染後疾患 (post-bacterial diso
 - 針對體癬設計體外 MIC 試驗，測試不同濃度醋酸對皮癬菌的抑制效果，並與標準抗真菌藥比較
 - 若體外結果良好，再設計小規模、有對照的外用濃度與皮膚刺激性研究
 - 確認適用的外用劑型與安全濃度範圍，評估燒傷與皮膚刺激風險
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

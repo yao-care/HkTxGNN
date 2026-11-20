@@ -54,7 +54,7 @@ Calcifediol 是循環中的 25-羥基維生素 D，為活性型維生素 D（cal
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。從已知的生化角色來看，calcifediol 是肝臟代謝維生素 D 後的產物，也是臨床上評估維生素 D 狀態的標準生物標記，並可在腎臟進一步轉化為活性的 calcitriol。因此在維生素 D 缺乏的情境下使用，機轉上具有合理性。
+根據美國 FDA 核准的 Calcifediol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Calcifediol（25-羥基維生素D 3）為維生素D 3活性形式calcitriol（1,25-二羥基維生素D 3）的前激素。Calcifediol主要於腎臟中經由細胞色素P450 27B1（CYP27B1）（亦稱為1-α羥化酶）轉化為calcitriol。」英文原文："Calcifediol (25-hydroxyvitamin D 3 ) is a prohormone of the active form of vitamin D 3, calcitriol (1,25‑dihydroxyvitamin D 3 ). Calcifediol is converted to calcitriol by cytochrome P450 27B1 (CYP27B1), also called 1-alpha hydroxylase, primarily in the kidney."（[DailyMed: Rayaldee (calcifediol) prescribing information, OPKO Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a95effd-32a5-46b6-a30e-7f4f9bf8cc77)，版本日期 2024-01-19；查閱日期 2026-11-19）。從已知的生化角色來看，calcifediol 是肝臟代謝維生素 D 後的產物，也是臨床上評估維生素 D 狀態的標準生物標記，並可在腎臟進一步轉化為活性的 calcitriol。因此在維生素 D 缺乏的情境下使用，機轉上具有合理性。
 
 需要注意的是，這個疾病名稱在本體論（ontology）中已被標記為「淘汰」，看起來是現行「維生素 D 缺乏症」條目的舊版重複項。因此 0.9999 的高分應視為模型輸出，不宜過度解讀。此外，這個用途與藥物本身性質高度接近，較像是近似原有用途，而非真正的再利用。
 
@@ -94,6 +94,19 @@ Calcifediol 是循環中的 25-羥基維生素 D，為活性型維生素 D（cal
 - 取得詳細的作用機轉資料
 - 取得香港仿單中的核准適應症、警語與禁忌症
 - 檢索並評估 calcifediol 用於維生素 D 缺乏症的既有臨床試驗與文獻
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Rayaldee (calcifediol) prescribing information, OPKO Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a95effd-32a5-46b6-a30e-7f4f9bf8cc77) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

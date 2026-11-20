@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**萎縮性蚓狀皮膚病 (atrophoderma vermicula
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。阿斯匹靈一般已知透過抑制環氧合酶來減少血小板聚集與前列腺素合成，具抗血小板與抗發炎作用。
+根據美國 FDA 核准的 aspirin and extended - release dipyridamole（含 Acetylsalicylic Acid 的複方） 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Aspirin Aspirin 透過不可逆地抑制血小板環氧合酶而抑制血小板凝集，從而抑制血栓素 A 2 的生成；血栓素 A 2 是強效的血小板凝集及血管收縮誘導物。」英文原文："Aspirin Aspirin inhibits platelet aggregation by irreversible inhibition of platelet cyclooxygenase and thus inhibits the generation of thromboxane A 2, a powerful inducer of platelet aggregation and vasoconstriction."（[DailyMed: Aspirin And Extended - Release Dipyridamole Capsules, 25 Mg / 200 Mg (aspirin and extended - release dipyridamole) prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6e652e1-b2e4-47ba-bed2-c5e902f8b8f1)，版本日期 2026-08-19；查閱日期 2026-11-19）。阿斯匹靈一般已知透過抑制環氧合酶來減少血小板聚集與前列腺素合成，具抗血小板與抗發炎作用。
 
 萎縮性蚓狀皮膚病是一種好發於臉頰的毛囊性萎縮性皮膚疾病。就目前整理的資料而言，找不到能把阿斯匹靈的抗血小板或抗發炎作用與此疾病連結起來的合理機轉。
 
@@ -104,6 +104,19 @@ TxGNN 模型預測它可能對**萎縮性蚓狀皮膚病 (atrophoderma vermicula
 - 取得阿斯匹靈的詳細作用機轉資料，並評估與萎縮性蚓狀皮膚病病理的關聯
 - 進行文獻與病例回顧，確認是否有任何皮膚科使用經驗
 - 取得香港仿單的警語與禁忌症資料，以進行安全性篩選
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Aspirin And Extended - Release Dipyridamole Capsules, 25 Mg / 200 Mg (aspirin and extended - release dipyridamole) prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6e652e1-b2e4-47ba-bed2-c5e902f8b8f1) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

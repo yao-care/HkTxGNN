@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**自體免疫性卵巢炎 (Autoimmune Oophoritis)
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Insulin Detemir 是胰島素類似物，主要用於血糖控制。
+根據美國 FDA 核准的 Insulin Detemir 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「胰島素（包括LEVEMIR）的主要作用是調節葡萄糖代謝。胰島素及其類似物透過刺激周邊組織（尤其是骨骼肌及脂肪）攝取葡萄糖，以及抑制肝臟葡萄糖生成，從而降低血糖。」英文原文："The primary activity of insulin, including LEVEMIR, is regulation of glucose metabolism. Insulins and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production."（[DailyMed: Levemir (insulin detemir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82192527-99aa-4b53-8ce9-9173668d309c)，版本日期 2024-10-09；查閱日期 2026-11-19）。根據已知資訊，Insulin Detemir 是胰島素類似物，主要用於血糖控制。
 
 卵巢顆粒細胞與膜細胞存在胰島素訊號，理論上可能與卵巢功能有關。但沒有任何證據顯示 Insulin Detemir 對自體免疫性卵巢損傷具有免疫調節作用。這個關聯屬於推測，高分僅代表模型的計算結果。
 
@@ -113,6 +113,18 @@ TxGNN 模型預測它可能對**自體免疫性卵巢炎 (Autoimmune Oophoritis)
 | 7 | 藥物誘發局部脂肪失養 | 0.9943 | 注射胰島素本身可能造成此問題，不支持作為治療用途 |
 | 8 | 離心性脂肪失養 | 0.9941 | 缺乏胰島素相關的治療依據 |
 | 9 | 壓力誘發局部脂肪萎縮 | 0.9940 | 注射胰島素是已知的誘因，預測可能只是藥物與疾病的關聯 |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Levemir (insulin detemir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82192527-99aa-4b53-8ce9-9173668d309c) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

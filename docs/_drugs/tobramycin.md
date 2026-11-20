@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**暴露性角膜炎 (Exposure Keratitis)** 有效
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Tobramycin 屬於胺基糖苷類抗生素，對革蘭氏陰性菌及金黃色葡萄球菌有抗菌活性，局部用於細菌性眼部感染。
+根據美國 FDA 核准的 Tobramycin 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Tobramycin 是一種胺基糖苷類抗菌藥。[…] Tobramycin 是由 Streptomyces tenebrarius 產生的胺基糖苷類抗菌藥。其主要作用是干擾蛋白質合成，導致細胞膜通透性改變、細胞包膜逐漸破壞，最終造成細胞死亡。」英文原文："Tobramycin is an aminoglycoside antibacterial. […] Tobramycin is an aminoglycoside antibacterial produced by Streptomyces tenebrarius. It acts primarily by disrupting protein synthesis leading to altered cell membrane permeability, progressive disruption of the cell envelope, and eventual cell death."（[DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a)，版本日期 2026-04-15；查閱日期 2026-11-19）。Tobramycin 屬於胺基糖苷類抗生素，對革蘭氏陰性菌及金黃色葡萄球菌有抗菌活性，局部用於細菌性眼部感染。
 
 暴露性角膜炎是眼瞼閉合不全造成角膜乾燥、受損的疾病，本身並非感染性疾病。Tobramycin 的角色僅限於預防或治療繼發性細菌感染，並非針對疾病本身。
 
@@ -113,6 +113,19 @@ TxGNN 模型預測它可能對**暴露性角膜炎 (Exposure Keratitis)** 有效
 - 補充作用機轉資料
 - 針對暴露性角膜炎合併細菌感染族群設計比較研究，並評估角膜上皮毒性
 - 釐清與保護性治療（人工淚液、眼瞼保護）相比的附加價值
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**呼吸道畸形 (respiratory malformation)** 有
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。從試驗描述可知，tiotropium 屬於長效抗膽鹼藥物，透過吸入裝置（如 Respimat）給藥，主要作用是舒張支氣管。
+根據美國 FDA 核准的 Tiotropium 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Tiotropium 是一種長效抗蕈毒鹼劑，常被稱為抗膽鹼劑。其對蕈毒鹼受體各亞型 M 1 至 M 5 具有相似的親和力。在呼吸道中，其藉由抑制平滑肌上的 M 3 受體而產生藥理作用，導致支氣管擴張。」英文原文："Tiotropium is a long-acting, antimuscarinic agent, which is often referred to as an anticholinergic. It has similar affinity to the subtypes of muscarinic receptors, M 1 to M 5. In the airways, it exhibits pharmacological effects through inhibition of M 3 -receptors at the smooth muscle leading to bronchodilation."（[DailyMed: Spiriva Handihaler (tiotropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=820839ef-e53d-47e8-a3b9-d911ff92e6a9)，版本日期 2025-11-10；查閱日期 2026-11-19）。從試驗描述可知，tiotropium 屬於長效抗膽鹼藥物，透過吸入裝置（如 Respimat）給藥，主要作用是舒張支氣管。
 
 結構性的呼吸道畸形無法靠藥物矯正。Tiotropium 最多可能改善畸形所伴隨的繼發性氣流阻塞症狀，兩者之間沒有已建立的直接機轉連結。
 
@@ -126,6 +126,18 @@ TxGNN 模型預測它可能對**呼吸道畸形 (respiratory malformation)** 有
 - 找出呼吸道畸形患者的臨床資料，例如病例系列或觀察性研究，確認是否有伴隨的氣流阻塞症狀可作為治療目標。
 - 取得香港原廠仿單的警語與禁忌症，完成安全性評估。
 - 若有初步訊號，再設計針對畸形族群的小型探索性研究。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Spiriva Handihaler (tiotropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=820839ef-e53d-47e8-a3b9-d911ff92e6a9) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

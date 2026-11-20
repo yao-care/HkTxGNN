@@ -73,7 +73,7 @@ TxGNN 模型預測它可能對**腸躁症 (Irritable Bowel Syndrome)** 有效（
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據一般藥理認識，Flavoxate 是泌尿道抗痙攣藥，具有平滑肌鬆弛、磷酸二酯酶抑制及微弱抗膽鹼作用，但這些描述並非來自本報告所整理的資料，仍需以正式資料確認。
+根據美國 FDA 核准的 Flavoxate 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Flavoxate hydrochloride 可對抗泌尿道平滑肌痙攣，並直接作用於肌肉而發揮其效果。在一項針對 11 名正常男性受試者的單一研究中，作用起始時間為 55 分鐘。」英文原文："Flavoxate hydrochloride counteracts smooth muscle spasm of the urinary tract and exerts its effect directly on the muscle. In a single study of 11 normal male subjects, the time to onset of action was 55 minutes."（[DailyMed: flavoxate hydrochloride prescribing information, PuraCap Laboratories LLC dba Blu Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6a06eda-2480-4c0d-8d1e-9e3e89d3ee88)，版本日期 2025-12-11；查閱日期 2026-11-19）。根據一般藥理認識，Flavoxate 是泌尿道抗痙攣藥，具有平滑肌鬆弛、磷酸二酯酶抑制及微弱抗膽鹼作用，但這些描述並非來自本報告所整理的資料，仍需以正式資料確認。
 
 各預測的合理性差異很大：
 
@@ -129,6 +129,19 @@ TxGNN 模型預測它可能對**腸躁症 (Irritable Bowel Syndrome)** 有效（
 - 優先針對**腸躁症**與**神經性膀胱**（改用現行術語）進行系統性文獻與試驗檢索
 - 在 ADHD 相關預測投入資源前，先確認這些分數是否只反映 TxGNN 模型（深度學習）從相關疾病學到的相似性，而非生物學證據
 - 若進入腸躁症評估，需評估抗膽鹼類藥物重複使用的風險，以及上述禁忌疾病族群的排除標準
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: flavoxate hydrochloride prescribing information, PuraCap Laboratories LLC dba Blu Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6a06eda-2480-4c0d-8d1e-9e3e89d3ee88) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

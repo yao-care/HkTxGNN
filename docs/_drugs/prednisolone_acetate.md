@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**結膜濾泡增生症 (Conjunctival Folliculosis
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Prednisolone Acetate 屬於皮質類固醇，局部使用時可抑制眼表發炎反應。TxGNN 模型（深度學習）的預測分數可能反映模型從相關疾病間學到的相似性，並非生物學證據；該模型預測其與多種葡萄膜炎及結膜炎相關疾病有關聯。
+根據美國 FDA 核准的 Prednisolone Acetate 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Prednisolone 是一種合成的腎上腺皮質類固醇藥物，主要具有糖皮質素特性。其中部分特性重現內生性糖皮質類固醇的生理作用，但其他特性則不一定反映任何腎上腺激素的正常功能；這些特性僅在投予大劑量治療劑量的本藥後才會出現。」英文原文："Prednisolone is a synthetic adrenocortical steroid drug with predominantly glucocorticoid properties. Some of these properties reproduce the physiological actions of endogenous glucocorticosteroids, but others do not necessarily reflect any of the adrenal hormones' normal functions; they are seen only after administration of large therapeutic doses of the drug."（[DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1)，版本日期 2025-06-03；查閱日期 2026-11-19）。Prednisolone Acetate 屬於皮質類固醇，局部使用時可抑制眼表發炎反應。TxGNN 模型（深度學習）的預測分數可能反映模型從相關疾病間學到的相似性，並非生物學證據；該模型預測其與多種葡萄膜炎及結膜炎相關疾病有關聯。
 
 結膜濾泡增生症與已記錄的結膜炎屬於同一類眼表疾病，因此模型給出高分。不過這類病症常為良性或可自行緩解，且病因（感染性、毒性或過敏性）須先釐清。機轉上合理，但沒有藥物專屬的證據支持。
 
@@ -133,6 +133,19 @@ TxGNN 模型預測它可能對**結膜濾泡增生症 (Conjunctival Folliculosis
 - 優先針對春季結膜炎、乳突狀結膜炎等免疫性發炎型疾病，檢索直接以本藥為對象的研究
 - 釐清結膜濾泡增生症的病因分型，再評估是否有使用類固醇的必要
 - 制定眼壓監測與感染排除的安全計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

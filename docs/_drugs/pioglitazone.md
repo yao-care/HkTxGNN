@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**骨發育不良症 (Opsismodysplasia)** 有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Pioglitazone 屬於 thiazolidinedione 類，為 PPAR-gamma 促效劑，可提升胰島素敏感性。
+根據美國 FDA 核准的 Pioglitazone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「ACTOS是一種thiazolidinedione類藥物，其作用機轉有賴於胰島素的存在。ACTOS可降低周邊及肝臟的胰島素阻抗，從而增加胰島素依賴性葡萄糖處置，並減少肝臟葡萄糖輸出。[…] Pioglitazone並非胰島素促泌劑。」英文原文："ACTOS is a thiazolidinedione that depends on the presence of insulin for its mechanism of action. ACTOS decreases insulin resistance in the periphery and in the liver resulting in increased insulin-dependent glucose disposal and decreased hepatic glucose output. […] Pioglitazone is not an insulin secretagogue."（[DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c)，版本日期 2025-03-28；查閱日期 2026-11-19）。已知 Pioglitazone 屬於 thiazolidinedione 類，為 PPAR-gamma 促效劑，可提升胰島素敏感性。
 
 Opsismodysplasia 是由 INPPL1 突變（SHIP2 缺陷）引起的罕見骨骼發育不良，會影響 PI3K/AKT 與胰島素訊號。此與 Pioglitazone 之間的連結僅屬推測，分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，並非生物學證據。此外，thiazolidinedione 可能降低骨形成、增加骨折風險，用於骨骼疾病存在潛在安全疑慮。
 
@@ -132,11 +132,12 @@ Opsismodysplasia 是由 INPPL1 突變（SHIP2 缺陷）引起的罕見骨骼發�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「目前整理到至少 20 張單一成分許可證（清單可能不完整），皆為有效狀態。」→「香港共有 23 張含本藥成分的許可證（全部有效；單一成分 2」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c) |
 
 <!-- review:end log -->
 

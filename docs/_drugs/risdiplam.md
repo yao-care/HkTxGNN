@@ -60,12 +60,11 @@ TxGNN 模型預測它可能對**痤瘡 (acne)** 有效，預測分數很高。
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Risdiplam 是 SMN2 剪接調節劑，用於脊髓性肌肉萎縮症 (SMA)，其機轉是修正 SMN2 前驅 mRNA 的剪接，以提升功能性 SMN 蛋白的表現。
+根據美國 FDA 核准的 Risdiplam 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Risdiplam 為一種運動神經元存活基因 2（SMN2）剪接修飾劑，設計用於治療因第 5q 號染色體突變導致 SMN 蛋白缺乏所引起之脊髓性肌肉萎縮症（SMA）患者。經由體外試驗及 SMA 基因轉殖動物模式研究顯示，risdiplam 可增加 SMN2 傳訊核糖核酸（mRNA）轉錄本中外顯子 7 的納入，並增加腦中全長 SMN 蛋白的生成。」英文原文："Risdiplam is a survival of motor neuron 2 (SMN2) splicing modifier designed to treat patients with spinal muscular atrophy (SMA) caused by mutations in chromosome 5q that lead to SMN protein deficiency. Using in vitro assays and studies in transgenic animal models of SMA, risdiplam was shown to increase exon 7 inclusion in SMN2 messenger ribonucleic acid (mRNA) transcripts and production of full-length SMN protein in the brain."（[DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e)，版本日期 2026-11-02；查閱日期 2026-11-19）。根據已知資訊，Risdiplam 是 SMN2 剪接調節劑，用於脊髓性肌肉萎縮症 (SMA)，其機轉是修正 SMN2 前驅 mRNA 的剪接，以提升功能性 SMN 蛋白的表現。
 
 **這個預測的合理性很低。** 痤瘡的病理與皮脂分泌、痤瘡丙酸桿菌 (C. acnes) 定植、毛囊角化異常及發炎有關。目前沒有任何資料顯示 SMN2 剪接調節與這些機轉有關。此分數來自 TxGNN 模型（深度學習），較可能反映模型學到的相關疾病間的相似性，而非生物學證據。
 
 此外，Risdiplam 在仿單中有皮疹等皮膚相關不良反應的報告，這與預期的療效方向不一致。
-
 
 ---
 
@@ -113,6 +112,19 @@ TxGNN 模型預測它可能對**痤瘡 (acne)** 有效，預測分數很高。
 - 進行前臨床或機轉研究，例如皮脂腺細胞或痤瘡相關模型，檢驗是否有任何生物學訊號
 - 確認給藥途徑的相容性（痤瘡常用外用治療，而 Risdiplam 目前僅有口服劑型）
 - 在沒有上述支持證據之前，不建議投入資源
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

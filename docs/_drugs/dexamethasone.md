@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**黏液性禿髮 (alopecia mucinosa)** 有效。
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Dexamethasone 屬於糖皮質素類，一般認為其抗發炎與免疫抑制作用，理論上可能適用於以發炎為主的皮膚與毛囊疾病。
+根據美國 FDA 核准的 Dexamethasone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Dexamethasone 是一種具有抗發炎作用且礦物皮質素活性低的皮質類固醇。其在多發性骨髓瘤中的確切作用機轉尚不清楚。Dexamethasone 可誘導多發性骨髓瘤細胞凋亡。」英文原文："Dexamethasone is a corticosteroid with anti-inflammatory effects and low mineralocorticoid activity. The precise mechanism of action in multiple myeloma is unknown. Dexamethasone induces apoptosis of multiple myeloma cells."（[DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129)，版本日期 2026-01-09；查閱日期 2026-11-19）。Dexamethasone 屬於糖皮質素類，一般認為其抗發炎與免疫抑制作用，理論上可能適用於以發炎為主的皮膚與毛囊疾病。
 
 本次整理的資料中沒有直接的機轉證據。這個高分較可能反映模型中，此疾病與其他禿髮及發炎性皮膚疾病在網絡上相近。這只是間接線索，不代表藥物對此疾病已有臨床證據。
 
@@ -128,12 +128,13 @@ TxGNN 模型預測它可能對**黏液性禿髮 (alopecia mucinosa)** 有效。
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港市場上有 Dexamethasone 單一成分製劑，包含口服錠劑與注射劑，許」→「香港市場上有 Dexamethasone 單一成分製劑，包含」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
 | 2026-11-17 | 「以下列出 5 張主要許可證，名單可能不完整。」→「以下列出 5 張主要許可證，香港共有 101 張含本藥成分的」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129) |
 
 <!-- review:end log -->
 

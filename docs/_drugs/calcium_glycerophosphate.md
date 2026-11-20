@@ -55,7 +55,7 @@ TxGNN 模型預測它可能與**鈣鹼症候群 (calcium-alkali syndrome)** 相�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，甘油磷酸鈣是鈣與有機磷酸鹽的來源，水解後可釋出無機磷，常作為鈣、磷的補充劑。
+根據美國 FDA 核准的 Calcium Glycerophosphate 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「甘油磷酸鈉（sodium glycerophosphate）是一種有機磷酸鹽，可作為磷的來源。以有機及無機磷酸鹽形式存在的磷在所有器官及組織中具有多種生化功能，包括在核酸結構、能量儲存與傳遞、細胞訊息傳遞、細胞膜組成與結構、酸鹼平衡、礦物質恆定及骨骼礦化方面扮演關鍵角色。」英文原文："Sodium glycerophosphate, an organic phosphate salt, functions as a source of phosphorus. Phosphorus in the form of organic and inorganic phosphate has a variety of biochemical functions in all organs and tissues, including critical roles in nucleic acid structure, energy storage and transfer, cell signaling, cell membrane composition and structure, acid-base balance, mineral homeostasis, and bone mineralization."（[DailyMed: Glycophos (sodium glycerophosphate) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e887e473-f1a7-40f1-bd6e-c99e7db7420d)，版本日期 2026-10-08；查閱日期 2026-11-19）。根據已知資訊，甘油磷酸鈣是鈣與有機磷酸鹽的來源，水解後可釋出無機磷，常作為鈣、磷的補充劑。
 
 鈣鹼症候群是因攝取過量的鈣與可吸收的鹼性物質，導致高血鈣、代謝性鹼中毒與腎功能受損。由於甘油磷酸鈣本身是鈣補充劑，理論上較可能**促成**這個疾病，而非治療它。模型給出高分，較可能反映的是網路上與高血鈣等相近概念的距離，而不是真正的治療關係。
 
@@ -95,6 +95,19 @@ TxGNN 模型預測它可能與**鈣鹼症候群 (calcium-alkali syndrome)** 相�
 - 取得詳細的作用機轉資料
 - 取得香港仿單的警語與禁忌症資料，完成安全性篩檢
 - 若要探索此方向，需先有直接針對鈣鹼症候群的機轉或臨床研究證據
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Glycophos (sodium glycerophosphate) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e887e473-f1a7-40f1-bd6e-c99e7db7420d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

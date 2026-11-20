@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**萎縮性蠕蟲狀皮膚病 (Atrophoderma Vermic
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Rimegepant 屬於 CGRP（降鈣素基因相關胜肽）受體拮抗劑類別，知識圖譜記錄其與偏頭痛相關。
+根據美國 FDA 核准的 Rimegepant 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Rimegepant 為一種降鈣素基因相關胜肽受體拮抗劑。」英文原文："Rimegepant is a calcitonin gene-related peptide receptor antagonist."（[DailyMed: Nurtec Odt (rimegepant sulfate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ef08e09-1098-35cc-e053-2a95a90a3e1d)，版本日期 2026-06-04；查閱日期 2026-11-19）。Rimegepant 屬於 CGRP（降鈣素基因相關胜肽）受體拮抗劑類別，知識圖譜記錄其與偏頭痛相關。
 
 萎縮性蠕蟲狀皮膚病是一種罕見的毛囊角化與皮膚萎縮性疾病，目前沒有已知的 CGRP 路徑參與。因此，本報告未找到合理的機轉連結。0.9976 的高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
@@ -99,6 +99,19 @@ TxGNN 模型預測它可能對**萎縮性蠕蟲狀皮膚病 (Atrophoderma Vermic
 - 取得香港衛生署核准的仿單，確認適應症、警語與禁忌症
 - 取得至少前臨床或病例層級的證據，直接針對此疾病
 - 若考慮血栓相關的預測適應症，需先完成心血管與血栓安全性審查
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Nurtec Odt (rimegepant sulfate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ef08e09-1098-35cc-e053-2a95a90a3e1d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對**慢性篩竇炎 (Chronic Ethmoidal Sinusitis)** 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Demeclocycline 屬於四環素類抗生素，其抗菌活性在多種細菌感染中已被應用，機轉上可能適用於伴有細菌參與的慢性鼻竇感染。
+根據美國 FDA 核准的 Demeclocycline 處方資料（Prescribing Information）「Clinical Pharmacology」與「Microbiology」段（非官方翻譯）：「四環素類藥物主要為抑菌性，被認為是透過抑制蛋白質合成而發揮其抗微生物作用。四環素類藥物（包括 demeclocycline）對多種革蘭氏陰性及革蘭氏陽性微生物具有相似的抗微生物活性譜。」英文原文："The tetracyclines are primarily bacteriostatic and are thought to exert their antimicrobial effect by the inhibition of protein synthesis. The tetracyclines, including demeclocycline have a similar antimicrobial spectrum of activity against a wide range of gram-negative and gram-positive organisms."（[DailyMed: Demeclocycline Hydrochloride (demeclocycline) prescribing information, Amneal Pharmaceuticals of New York LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=539add06-e0a0-401a-b4f6-20776084aa9c)，版本日期 2026-04-02；查閱日期 2026-11-19）。根據已知資訊，Demeclocycline 屬於四環素類抗生素，其抗菌活性在多種細菌感染中已被應用，機轉上可能適用於伴有細菌參與的慢性鼻竇感染。
 
 慢性篩竇炎是長期的鼻竇發炎，常有細菌參與，其中金黃色葡萄球菌即屬於此藥原本適應症所涵蓋的病原體。此外，四環素類藥物也有抗發炎及抑制基質金屬蛋白酶 (MMP) 的相關報告，可能與慢性鼻竇發炎有關。
 
@@ -106,6 +106,19 @@ TxGNN 模型預測它可能對**慢性篩竇炎 (Chronic Ethmoidal Sinusitis)** 
 - 系統性檢索 Demeclocycline 或四環素類用於慢性鼻竇炎的臨床與文獻證據（如 doxycycline 的相關研究）
 - 釐清給藥途徑的相容性（現有許可證品項為外用膏劑）
 - 評估腎功能不全、尿崩症等族群的安全性，以及與鈣、鎂、鋅等陽離子製劑的交互作用管理
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Demeclocycline Hydrochloride (demeclocycline) prescribing information, Amneal Pharmaceuticals of New York LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=539add06-e0a0-401a-b4f6-20776084aa9c) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

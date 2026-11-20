@@ -60,7 +60,7 @@ TxGNN 模型預測分數最高的新適應症是**朊病毒相關疾病 (variabl
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Midodrine 是前驅藥，其活性代謝物 desglymidodrine 會刺激小動脈與靜脈上的 α1 受體，增加血管張力並提升血壓。因此它直接針對低血壓狀態，包括神經性姿位性低血壓。
+根據美國 FDA 核准的 Midodrine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Midodrine hydrochloride 會形成一種活性代謝物 desglymidodrine，其為 alpha 1 受體致效劑，透過活化小動脈及靜脈血管系統的 α 腎上腺素受體而發揮作用，使血管張力增加並使血壓升高。Desglymidodrine 不會刺激心臟的 β 腎上腺素受體。」英文原文："Midodrine hydrochloride forms an active metabolite, desglymidodrine, that is an alpha 1 -agonist, and exerts its actions via activation of the alpha-adrenergic receptors of the arteriolar and venous vasculature, producing an increase in vascular tone and elevation of blood pressure. Desglymidodrine does not stimulate cardiac beta-adrenergic receptors."（[DailyMed: midodrine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6705af-bb72-4edb-863a-93a351bd6dba)，版本日期 2026-11-12；查閱日期 2026-11-19）。根據已知資訊，Midodrine 是前驅藥，其活性代謝物 desglymidodrine 會刺激小動脈與靜脈上的 α1 受體，增加血管張力並提升血壓。因此它直接針對低血壓狀態，包括神經性姿位性低血壓。
 
 低血壓性疾患與藥物既有的姿位性低血壓適應症在病理生理上高度重疊，所以模型給出高分並不意外。需要強調的是，這個預測大致只是重述現有用途，**不能算真正的藥物再利用發現**。
 
@@ -141,6 +141,19 @@ TxGNN 模型預測分數最高的新適應症是**朊病毒相關疾病 (variabl
 - 補充作用機轉資料（MOA）
 - 對低血壓性疾患，需有更大規模的對照試驗，並建立仰臥高血壓與心率的監測計畫
 - 排除或重新審視 TxGNN 模型（深度學習）中明顯不合理的預測（如已廢棄的 hypertelorism 條目）
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: midodrine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6705af-bb72-4edb-863a-93a351bd6dba) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

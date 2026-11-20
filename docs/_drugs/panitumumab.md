@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**藥物誘發性骨質疏鬆 (Drug-induced Osteop
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Panitumumab 是抗 EGFR 單株抗體，其在轉移性大腸腫瘤中的療效已被臨床應用所證實。
+根據美國 FDA 核准的 Panitumumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「EGFR 是一種跨膜醣蛋白，屬於第 I 型受體酪胺酸激酶亞家族的成員，此亞家族包括 EGFR、HER2、HER3 及 HER4。EGFR 於正常上皮組織（包括皮膚及毛囊）中呈組成性表現。[…] Panitumumab 可專一性地結合於正常細胞及腫瘤細胞上的 EGFR，並競爭性抑制 EGFR 配體的結合。」英文原文："The EGFR is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases, including EGFR, HER2, HER3, and HER4. EGFR is constitutively expressed in normal epithelial tissues, including the skin and hair follicle. […] Panitumumab binds specifically to EGFR on both normal and tumor cells, and competitively inhibits the binding of ligands for EGFR."（[DailyMed: Vectibix (panitumumab) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2)，版本日期 2026-06-23；查閱日期 2026-11-19）。根據已知資訊，Panitumumab 是抗 EGFR 單株抗體，其在轉移性大腸腫瘤中的療效已被臨床應用所證實。
 
 EGFR 訊號參與成骨細胞分化與骨重塑，因此從生物學上推論，阻斷 EGFR 可能影響骨代謝。但方向並不確定：Panitumumab 常造成低血鎂與低血鈣，可能對骨骼健康產生不利影響。因此它的作用可能是傷害而非治療。
 
@@ -116,6 +116,19 @@ EGFR 訊號參與成骨細胞分化與骨重塑，因此從生物學上推論，
 ### 附註：第二個預測適應症
 
 TxGNN 另預測 **嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy)**，分數 0.9905，證據等級同為 L5，建議決策為 Hold。目前無臨床試驗與文獻支持。EGFR 訊號雖與視網膜血管及發炎病變有鬆散關聯，但 Panitumumab 是大分子全身性抗體，眼部穿透性有限，且本身有眼部與皮膚毒性。現有的標準治療（抗 VEGF、雷射）已相當完善，因此對新候選藥物的要求更高。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Vectibix (panitumumab) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

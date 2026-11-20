@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Levocetirizine 是選擇性 H1 受體拮抗劑，主要在過敏性疾病中阻斷組織胺作用。
+根據美國 FDA 核准的 Levocetirizine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Levocetirizine 為 cetirizine 的活性鏡像異構物，是一種抗組織胺；其主要作用係經由選擇性抑制 H 1 受體所介導。Levocetirizine 的抗組織胺活性已在多種動物及人體模型中獲得證實。」英文原文："Levocetirizine, the active enantiomer of cetirizine, is an antihistamine; its principal effects are mediated via selective inhibition of H 1 receptors. The antihistaminic activity of levocetirizine has been documented in a variety of animal and human models."（[DailyMed: Xyzal (levocetirizine dihydrochloride) prescribing information, Chattem, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1673f7ff-0c7c-4403-86cf-c05eb1475222)，版本日期 2025-07-22；查閱日期 2026-11-19）。根據已知資訊，Levocetirizine 是選擇性 H1 受體拮抗劑，主要在過敏性疾病中阻斷組織胺作用。
 
 組織胺與肥大細胞活性被認為可能參與關節滑膜發炎，因此抗組織胺藥在生物學上有可能帶來抗發炎效果。不過，這個關聯目前仍屬推測。
 
@@ -135,11 +135,12 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效的單方許可證，以下列出 5 張主要許可證（許可證資料未提供」→「香港共有 29 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Xyzal (levocetirizine dihydrochloride) prescribing information, Chattem, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1673f7ff-0c7c-4403-86cf-c05eb1475222) |
 
 <!-- review:end log -->
 

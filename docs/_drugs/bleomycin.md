@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**馬尾腫瘤 (cauda equina neoplasm)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Bleomycin 是 DNA 股斷裂型的細胞毒性藥物，理論上可作用於快速增生的腫瘤細胞。
+根據美國 FDA 核准的 Bleomycin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「雖然 bleomycin 的確切作用機轉尚不清楚，但現有證據顯示其主要作用方式為抑制 DNA 合成，亦有部分證據顯示其對 RNA 及蛋白質合成有較輕微的抑制作用。已知 bleomycin 會造成 DNA 單股斷裂，並在較小程度上造成雙股斷裂。」英文原文："Although the exact mechanism of action of bleomycin is unknown, available evidence indicates that the main mode of action is the inhibition of DNA synthesis with some evidence of lesser inhibition of RNA and protein synthesis. Bleomycin is known to cause single, and to a lesser extent, double-stranded breaks in DNA."（[DailyMed: Bleomycin (bleomycin sulfate) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=640602f9-a7df-46f0-a9b1-19c471008bee)，版本日期 2026-04-17；查閱日期 2026-11-19）。根據已知資訊，Bleomycin 是 DNA 股斷裂型的細胞毒性藥物，理論上可作用於快速增生的腫瘤細胞。
 
 然而，目前並無證據建立 Bleomycin 與馬尾腫瘤之間的直接機轉連結。唯一檢索到的文獻討論的是中樞神經生殖細胞瘤在化療（含 carboplatin、etoposide、bleomycin）後復發的放射治療，並非針對馬尾腫瘤本身。
 
@@ -106,6 +106,19 @@ TxGNN 模型預測它可能對**馬尾腫瘤 (cauda equina neoplasm)** 有效，
 - 針對馬尾腫瘤的直接臨床或前臨床研究證據
 - 詳細的作用機轉資料，以及藥物能否到達脊髓腫瘤部位的評估（可能需局部給藥）
 - 取得香港原廠仿單的警語與禁忌症，完成安全性篩檢
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Bleomycin (bleomycin sulfate) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=640602f9-a7df-46f0-a9b1-19c471008bee) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

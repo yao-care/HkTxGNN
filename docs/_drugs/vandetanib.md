@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**腎細胞癌 (renal cell carcinoma (disease))** 
 
 ## 為什麼這個預測合理？
 
-Vandetanib 抑制 VEGFR2、RET 與 EGFR。目前缺乏 DrugBank 的詳細作用機轉描述，以下根據已知的標靶資訊說明。
+Vandetanib 抑制 VEGFR2、RET 與 EGFR。根據美國 FDA 核准的 Vandetanib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「體外研究顯示，vandetanib 可抑制 EGFR 及 VEGFR 家族、RET、BRK、TIE2，以及 EPH 受體與 Src 激酶家族成員的酪胺酸激酶活性。這些受體酪胺酸激酶既參與正常細胞功能，亦參與病理過程，例如致癌作用、轉移、腫瘤血管新生及腫瘤微環境的維持。」英文原文："In vitro studies have shown that vandetanib inhibits the tyrosine kinase activity of the EGFR and VEGFR families, RET, BRK, TIE2, and members of the EPH receptor and Src kinase families. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, and maintenance of the tumor microenvironment."（[DailyMed: Caprelsa (vandetanib) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e5721cb8-4185-47b9-bbb3-1c587e558a03)，版本日期 2026-10-30；查閱日期 2026-11-19）。
 
 透明細胞型腎細胞癌常見 VHL 基因失能，導致 HIF 穩定並使 VEGF 過度表現，因此血管新生是重要的腫瘤驅動因子。Vandetanib 抑制 VEGFR2，在機轉上具合理性。
 
@@ -121,6 +121,18 @@ Vandetanib 抑制 VEGFR2、RET 與 EGFR。目前缺乏 DrugBank 的詳細作用�
 - 與已核准的 VEGFR 抑制劑進行比較，說明 vandetanib 的定位
 - 取得詳細作用機轉資料與香港原廠仿單的警語與禁忌症
 - 制定 QT 間期與電解質監測計畫，並釐清併用藥物的交互作用風險
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Caprelsa (vandetanib) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e5721cb8-4185-47b9-bbb3-1c587e558a03) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**斑禿 (Alopecia Areata)** 有效。
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料庫記載。根據已知藥理，prednisolone 是糖皮質激素，具有廣泛的抗發炎與免疫抑制作用，包括抑制 T 細胞活化與細胞激素產生。
+根據美國 FDA 核准的 Prednisolone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Prednisolone 是一種合成的腎上腺皮質類固醇藥物，主要具有糖皮質素特性。其中部分特性重現內生性糖皮質類固醇的生理作用，但其他特性則不一定反映任何腎上腺激素的正常功能；這些特性僅在投予大劑量治療劑量的本藥後才會出現。」英文原文："Prednisolone is a synthetic adrenocortical steroid drug with predominantly glucocorticoid properties. Some of these properties reproduce the physiological actions of endogenous glucocorticosteroids, but others do not necessarily reflect any of the adrenal hormones' normal functions; they are seen only after administration of large therapeutic doses of the drug."（[DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1)，版本日期 2025-06-03；查閱日期 2026-11-19）。根據已知藥理，prednisolone 是糖皮質激素，具有廣泛的抗發炎與免疫抑制作用，包括抑制 T 細胞活化與細胞激素產生。
 
 斑禿是 T 細胞媒介的自體免疫疾病，毛囊失去免疫豁免而遭攻擊。Prednisolone 的免疫抑制作用正好針對這個機轉，也與其在其他自體免疫疾病的用途相符。
 
@@ -130,11 +130,12 @@ TxGNN 模型預測它可能對**斑禿 (Alopecia Areata)** 有效。
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「以下為已登記的主要單一成分許可證（清單可能不完整，核准適應症文字於資料中未提供）」→「以下為已登記的主要單一成分許可證（核准適應症文字於資料中未提」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
 
 <!-- review:end log -->
 

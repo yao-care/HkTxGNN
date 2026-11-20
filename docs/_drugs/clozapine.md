@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**躁型雙相情感障礙 (manic bipolar affectiv
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據文獻中的藥理描述，clozapine 對 D2、5-HT2A 受體具拮抗作用，並影響其他單胺類與麩胺酸系統，這種廣泛的受體作用可能支持其抗躁與穩定情緒的效果，尤其是在傳統治療反應不佳的個案。
+根據美國 FDA 核准的 Clozapine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Clozapine 的作用機轉尚不清楚。然而，有人提出 clozapine 在思覺失調症中的療效是經由拮抗多巴胺第 2 型（D 2 ）及血清素第 2A 型（5-HT 2A ）受體所媒介。」英文原文："The mechanism of action of clozapine is unknown. However, it has been proposed that the therapeutic efficacy of clozapine in schizophrenia is mediated through antagonism of the dopamine type 2 (D 2 ) and the serotonin type 2A (5-HT 2A ) receptors."（[DailyMed: Versacloz (clozapine) prescribing information, TruPharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2592c9a8-fd74-4e0d-a895-b07b014cf355)，版本日期 2026-09-06；查閱日期 2026-11-19）。根據文獻中的藥理描述，clozapine 對 D2、5-HT2A 受體具拮抗作用，並影響其他單胺類與麩胺酸系統，這種廣泛的受體作用可能支持其抗躁與穩定情緒的效果，尤其是在傳統治療反應不佳的個案。
 
 躁症患者中，有相當比例對常規治療反應不足，或無法耐受治療劑量下的副作用。已有文獻指出 clozapine 可能是這類難治型躁症的替代選項。以上機轉連結為依據藥物類別藥理與臨床文獻所做的推論，並非來自已確認的作用機轉資料。
 
@@ -113,6 +113,18 @@ TxGNN 模型預測它可能對**躁型雙相情感障礙 (manic bipolar affectiv
 - 設計較大規模的對照試驗，聚焦於成人難治型躁症
 - 建立血液學（白血球與嗜中性球）、心臟與代謝指標的監測計畫
 - 審視與降血糖藥、抗膽鹼藥及其他重度交互作用藥物併用時的處置原則
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Versacloz (clozapine) prescribing information, TruPharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2592c9a8-fd74-4e0d-a895-b07b014cf355) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

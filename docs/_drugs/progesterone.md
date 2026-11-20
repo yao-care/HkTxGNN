@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**乳房纖維囊腫病 (breast fibrocystic diseas
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Progesterone 為內源性性激素，透過黃體素受體調節乳腺與子宮內膜組織的生長與分化。
+根據美國 FDA 核准的 Progesterone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Progesterone是一種由卵巢、胎盤及腎上腺分泌的天然類固醇。在雌激素充足的情況下，progesterone可使增生期子宮內膜轉變為分泌期子宮內膜。」英文原文："Progesterone is a naturally occurring steroid that is secreted by the ovary, placenta, and adrenal gland. In the presence of adequate estrogen, progesterone transforms a proliferative endometrium into a secretory endometrium."（[DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1)，版本日期 2026-10-05；查閱日期 2026-11-19）。Progesterone 為內源性性激素，透過黃體素受體調節乳腺與子宮內膜組織的生長與分化。
 
 乳房纖維囊腫變化屬於對荷爾蒙有反應的良性乳房疾病。文獻提出，相對黃體素不足或黃體期雌激素偏高，可能促進結締組織與上皮增生（如 PMID 3511705 的病理生理學回顧，以及 PMID 31168213 對雌二醇/黃體素比值的研究）。這為補充黃體素提供了合理的假說。
 
@@ -123,11 +123,12 @@ TxGNN 模型預測它可能對**乳房纖維囊腫病 (breast fibrocystic diseas
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「目前香港共有 9 張有效的單一成分許可證」→「目前香港共有 10 張有效的單一成分許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1) |
 
 <!-- review:end log -->
 

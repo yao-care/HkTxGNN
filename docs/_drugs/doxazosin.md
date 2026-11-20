@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料庫記錄。根據已知藥理，Doxazosin 是選擇性 alpha-1 腎上腺素受體拮抗劑，可降低血管張力與交感神經活性，因此用於高血壓與 BPH。
+根據美國 FDA 核准的 Doxazosin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「良性前列腺增生（BPH） 與良性前列腺增生（BPH）相關的症狀，例如頻尿、夜尿、尿流無力、排尿遲疑及排尿不完全，與兩個組成部分有關：解剖性（靜態）及功能性（動態）。靜態部分與前列腺體積增大有關，其部分原因是前列腺基質中平滑肌細胞增生。[…] 在正常人體受試者中進行的研究顯示，doxazosin 可競爭性拮抗 phenylephrine（一種 α1 促效劑）的升壓作用及 norepinephrine 的收縮壓升壓作用。」英文原文："Benign Prostatic Hyperplasia (BPH) The symptoms associated with benign prostatic hyperplasia (BPH), such as urinary frequency, nocturia, weak stream, hesitancy, and incomplete emptying are related to two components, anatomical (static) and functional (dynamic). The static component is related to an increase in prostate size caused, in part, by a proliferation of smooth muscle cells in the prostatic stroma. […] Studies in normal human subjects have shown that doxazosin competitively antagonized the pressor effects of phenylephrine (an alpha 1 agonist) and the systolic pressor effect of norepinephrine."（[DailyMed: Cardura (doxazosin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e1f5e49-2da1-43ab-9795-228a8bcc5a82)，版本日期 2023-10-15；查閱日期 2026-11-19）。根據已知藥理，Doxazosin 是選擇性 alpha-1 腎上腺素受體拮抗劑，可降低血管張力與交感神經活性，因此用於高血壓與 BPH。
 
 腎上腺素訊號會調節腦血管張力與交感神經活動，而這兩者被認為與偏頭痛的病理生理有關。因此，從機轉上看有合理但間接的連結。
 
@@ -119,11 +119,12 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「目前 Doxazosin 在香港有 20 張有效許可證（皆為單方，無已註銷者），」→「香港共有 25 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cardura (doxazosin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e1f5e49-2da1-43ab-9795-228a8bcc5a82) |
 
 <!-- review:end log -->
 

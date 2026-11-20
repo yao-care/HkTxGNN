@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**痤瘡 (Acne)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，氧化鋅是外用保護劑與收斂劑，已用於多種皮膚疾病，包括皮膚炎、皮疹與皮膚感染。
+根據美國 FDA 核准的 miconazole nitrate, zinc oxide, white petrolatum（含 Zinc Oxide 的複方） 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「白凡士林與氧化鋅用於尿布疹輔助治療的作用機轉不明。」英文原文："The mechanism of action of white petrolatum and zinc oxide for the adjunctive treatment of diaper dermatitis is unknown."（[DailyMed: Vusion (miconazole nitrate, zinc oxide, white petrolatum) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b44b452d-3630-4cb5-8ed1-1f8edac4690c)，版本日期 2018-08-15；查閱日期 2026-11-19）。根據已知資訊，氧化鋅是外用保護劑與收斂劑，已用於多種皮膚疾病，包括皮膚炎、皮疹與皮膚感染。
 
 鋅與氧化鋅奈米粒子已知具有抗菌與抗發炎特性，理論上可能作用於痤瘡的致病菌（Cutibacterium acnes）與發炎病灶。這與氧化鋅現有的皮膚科用途一致。
 
@@ -122,11 +122,12 @@ TxGNN 模型預測它可能對**痤瘡 (Acne)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「共 20 張，皆為有效的單一成分製劑。」→「香港共有 74 張含本藥成分的許可證（有效 72 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Vusion (miconazole nitrate, zinc oxide, white petrolatum) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b44b452d-3630-4cb5-8ed1-1f8edac4690c) |
 
 <!-- review:end log -->
 

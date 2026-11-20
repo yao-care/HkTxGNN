@@ -57,7 +57,7 @@ TxGNN 模型預測它可能對**多毛症 (Hypertrichosis)** 有效，但目前*
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫中未收錄）。根據已知資訊，degarelix 是 GnRH 受體拮抗劑，會抑制 LH/FSH 分泌，進而降低睪固酮及下游雄性素。
+根據美國 FDA 核准的 Degarelix 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Degarelix 是一種 GnRH 受體拮抗劑。它可逆地與腦下垂體 GnRH 受體結合，從而減少促性腺激素的釋放，進而減少睪固酮的釋放。」英文原文："Degarelix is a GnRH receptor antagonist. It binds reversibly to the pituitary GnRH receptors, thereby reducing the release of gonadotropins and consequently testosterone."（[DailyMed: Firmagon (degarelix) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ab11dd8a-0fd9-4013-89ab-e114557c7e4b)，版本日期 2024-01-30；查閱日期 2026-11-19）。根據已知資訊，degarelix 是 GnRH 受體拮抗劑，會抑制 LH/FSH 分泌，進而降低睪固酮及下游雄性素。
 
 然而，多毛症 (hypertrichosis) 一般**不是雄性素驅動**的疾病（與 hirsutism 不同），因此雄性素抑制的機轉關聯薄弱。高達 0.9999 的分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，並非生物學證據，亦無實際研究佐證。
 
@@ -107,6 +107,19 @@ Degarelix 屬荷爾蒙治療（GnRH 拮抗劑），並非傳統細胞毒性藥�
 - 針對中樞性早熟進行系統性文獻回顧，評估 GnRH 拮抗劑的既有研究與兒童安全性
 - 若仍考慮多毛症，需先釐清其病因是否與雄性素相關，否則不建議推進
 - 在 QT 風險與藥物交互作用方面建立監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Firmagon (degarelix) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ab11dd8a-0fd9-4013-89ab-e114557c7e4b) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

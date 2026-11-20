@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**肺疾病及（或）缺氧所致肺高壓 (Pulm
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Nicardipine 是二氫吡啶類 L 型鈣離子通道阻斷劑，透過抑制血管平滑肌的鈣離子內流，使血管舒張、降低血壓。
+根據美國 FDA 核准的 Nicardipine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Nicardipine抑制鈣離子跨膜流入心肌及平滑肌，而不改變血清鈣濃度。心肌及血管平滑肌的收縮過程，有賴於細胞外鈣離子經由特定離子通道進入這些細胞。」英文原文："Nicardipine inhibits the transmembrane influx of calcium ions into cardiac muscle and smooth muscle without changing serum calcium concentrations. The contractile processes of cardiac muscle and vascular smooth muscle are dependent upon the movement of extracellular calcium ions into these cells through specific ion channels."（[DailyMed: Nicardipine Hydrochloride In Sodium Chloride (nicardipine hydrochloride) prescribing information, WG Critical Care, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ffe6b6f-b8bc-413f-9bec-7639e9d71d3d)，版本日期 2026-07-31；查閱日期 2026-11-19）。根據已知資訊，Nicardipine 是二氫吡啶類 L 型鈣離子通道阻斷劑，透過抑制血管平滑肌的鈣離子內流，使血管舒張、降低血壓。
 
 缺氧性肺血管收縮部分依賴肺動脈平滑肌的鈣離子內流，因此在機轉上，鈣離子通道阻斷劑可能舒張肺血管，這是預測合理的基礎。1988 年一項犬隻生理研究也觀察到 Nicardipine 對區域性缺氧性肺血管收縮的影響。
 
@@ -122,6 +122,18 @@ TxGNN 模型預測它可能對**肺疾病及（或）缺氧所致肺高壓 (Pulm
 | 機轉不明的多因素肺高壓 | 0.9926 | 僅憑模型分數與鈣離子通道阻斷劑的一般血管舒張作用；僅少數有血管反應性的肺動脈高壓患者適用 |
 | 惡性高血壓腎病 | 0.9913 | 降壓機轉相關，但無該疾病的臨床證據 |
 | Braddock 症候群 | 0.9903 | 資料不支持明確機轉，可能僅反映肺高壓相關表型，尚未驗證 |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Nicardipine Hydrochloride In Sodium Chloride (nicardipine hydrochloride) prescribing information, WG Critical Care, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ffe6b6f-b8bc-413f-9bec-7639e9d71d3d) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

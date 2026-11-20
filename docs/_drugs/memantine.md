@@ -70,7 +70,7 @@ TxGNN 模型預測排名最高的新適應症是肺高壓（分數最高，但�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（原廠 MOA 欄位未收錄）。就已知藥理，Memantine 是非競爭性 NMDA 型麩胺酸受體拮抗劑。
+根據美國 FDA 核准的 Memantine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「有假說認為，中樞神經系統N-methyl-D-aspartate（NMDA）受體受興奮性胺基酸glutamate持續活化，可能是導致阿茲海默症症狀的原因之一。據推測，memantine透過作為低至中度親和力的非競爭性（開放通道）NMDA受體拮抗劑而發揮治療作用，其優先結合於NMDA受體操控的陽離子通道。」英文原文："Persistent activation of central nervous system N-methyl-D-aspartate (NMDA) receptors by the excitatory amino acid glutamate has been hypothesized to contribute to the symptomatology of Alzheimer’s disease. Memantine is postulated to exert its therapeutic effect through its action as a low to moderate affinity uncompetitive (open-channel) NMDA receptor antagonist which binds preferentially to the NMDA receptor-operated cation channels."（[DailyMed: memantine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e6977ef-6a0a-4bd9-b500-6ceb15abbd5e)，版本日期 2026-11-11；查閱日期 2026-11-19）。就已知藥理，Memantine 是非競爭性 NMDA 型麩胺酸受體拮抗劑。
 
 偏頭痛的病理生理與麩胺酸訊號有關：皮質擴散性抑制 (cortical spreading depression)、中樞敏感化與三叉神經血管系統活化，都涉及 NMDA 受體。數篇回顧指出，偏頭痛患者腦中麩胺酸濃度偏高，且相關基因與麩胺酸訊號有關。因此，抑制 NMDA 受體以降低神經元過度興奮，在機轉上說得通。
 
@@ -168,6 +168,19 @@ TxGNN 模型預測排名最高的新適應症是肺高壓（分數最高，但�
 - 取得 NCT04698525 的結果，並分析已發表統合分析的效應量與異質性
 - 規劃更大型的安慰劑對照偏頭痛預防試驗
 - 肺高壓方面，需先有機轉與前臨床證據，再評估是否值得探索
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: memantine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e6977ef-6a0a-4bd9-b500-6ceb15abbd5e) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

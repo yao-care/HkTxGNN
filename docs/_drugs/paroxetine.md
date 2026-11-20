@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對 **Ohdo 症候群及其變異型 (Ohdo syndrome an
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Paroxetine 屬於 SSRI 類藥物，透過抑制血清素再攝取來改善情緒與焦慮症狀。
+根據美國 FDA 核准的 Paroxetine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「PAXIL CR治療重度憂鬱症（MDD）、恐慌症（PD）、社交焦慮症（SAD）及經前情緒障礙症（PMDD）的作用機轉尚不明確，但推測與其抑制神經元對血清素（5-HT）的再回收，從而增強中樞神經系統的血清素活性有關。」英文原文："The mechanism of action of PAXIL CR in the treatment of major depressive disorder (MDD), panic disorder (PD), social anxiety disorder (SAD), and premenstrual dysphoric disorder (PMDD) is unknown, but is presumed to be linked to potentiation of serotonergic activity in the central nervous system resulting from inhibition of neuronal reuptake of serotonin (5-HT)."（[DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c)，版本日期 2026-09-30；查閱日期 2026-11-19）。已知 Paroxetine 屬於 SSRI 類藥物，透過抑制血清素再攝取來改善情緒與焦慮症狀。
 
 Ohdo 症候群及其變異型（包括與 KAT6B 基因變異相關的 Say-Barber-Biesecker-Young-Simpson 症候群）是罕見的遺傳性神經發育疾病，常見表現為智能障礙、肌張力低下與顱顏異常。其致病原因在於染色質調控缺陷，與血清素系統沒有明確關聯。
 
@@ -118,6 +118,19 @@ Ohdo 症候群及其變異型（包括與 KAT6B 基因變異相關的 Say-Barber
 - 若僅考慮用於伴隨的行為或情緒症狀，需另行定義臨床目標與族群
 - 取得香港衛生署仿單的警語與禁忌資料，完成安全性篩選
 - 評估兒童與神經發育疾病族群使用的安全性
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

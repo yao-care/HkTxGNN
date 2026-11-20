@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對 **HER2 陽性乳癌 (HER2 positive breast carcino
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（MOA）。根據已知資訊，Polatuzumab vedotin 是一種靶向 CD79b 的抗體藥物複合體，攜帶破壞微管的 MMAE（monomethyl auristatin E）作為細胞毒性藥物。
+根據美國 FDA 核准的 Polatuzumab Vedotin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Polatuzumab vedotin-piiq是一種以CD79b為標靶的抗體藥物複合體，對分裂中的B細胞具有活性。小分子MMAE是一種抗有絲分裂藥物，經由可裂解連接子以共價鍵連接於抗體上。該單株抗體會與CD79b結合，CD79b是一種B細胞專一性表面蛋白，為B細胞受體的組成部分。」英文原文："Polatuzumab vedotin-piiq is a CD79b-directed antibody-drug conjugate with activity against dividing B cells. The small molecule, MMAE, is an anti-mitotic agent covalently attached to the antibody via a cleavable linker. The monoclonal antibody binds to CD79b, a B-cell specific surface protein, which is a component of the B-cell receptor."（[DailyMed: Polivy (polatuzumab vedotin) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=20a16ab2-f338-4abb-9dcd-254bd949a2bc)，版本日期 2026-08-24；查閱日期 2026-11-19）。根據已知資訊，Polatuzumab vedotin 是一種靶向 CD79b 的抗體藥物複合體，攜帶破壞微管的 MMAE（monomethyl auristatin E）作為細胞毒性藥物。
 
 CD79b 是 B 細胞受體的組成成分，主要表現於 B 細胞惡性腫瘤，並非 HER2 陽性乳癌的已知靶點。兩者之間唯一可能的連結，是 MMAE 對增生中細胞的一般細胞毒性作用，但這並非特定於此腫瘤類型。
 
@@ -127,6 +127,19 @@ TxGNN 分數雖高（0.9934），但僅是模型預測。現有資料中沒有�
 - 進行文獻與臨床試驗的系統性檢索，確認是否有尚未納入的證據
 - 與現有 HER2 標靶 ADC 比較，釐清此預測相對於既有療法的價值
 - 補齊安全性資料後，再進入安全性篩選
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Polivy (polatuzumab vedotin) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=20a16ab2-f338-4abb-9dcd-254bd949a2bc) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

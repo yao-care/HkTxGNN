@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**慢性萎縮性肢端皮膚炎 (Acrodermatitis C
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Tetracaine 一般已知為局部麻醉藥，作用於鈉離子通道，但本報告所整理的資料未提供正式的 MOA 紀錄。
+根據美國 FDA 核准的 Tetracaine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Tetracaine 會阻斷神經衝動起始及傳導所需之鈉離子通道，從而產生局部麻醉作用。」英文原文："Tetracaine blocks sodium ion channels required for the initiation and conduction of neuronal impulses thereby affecting local anesthesia."（[DailyMed: tetracaine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01fba5f8-a60a-444c-9abd-299540b8815a)，版本日期 2026-08-28；查閱日期 2026-11-19）。Tetracaine 一般已知為局部麻醉藥，作用於鈉離子通道，但本報告所整理的資料未提供正式的 MOA 紀錄。
 
 慢性萎縮性肢端皮膚炎是 Borrelia 感染所致的晚期皮膚病變。Tetracaine 沒有已知的抗菌或疾病修飾作用，最多只可能緩解疼痛或搔癢等症狀。這個高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而不是生物學證據。因此這個預測的合理性有限，需要實證資料才能支持。
 
@@ -95,6 +95,19 @@ TxGNN 模型預測它可能對**慢性萎縮性肢端皮膚炎 (Acrodermatitis C
 - 取得香港仿單的警語、禁忌與核准適應症文字
 - 找出 tetracaine 對 Borrelia 感染皮膚病變是否有任何前臨床或臨床資料
 - 確認給藥途徑與劑型是否適用於該疾病
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: tetracaine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01fba5f8-a60a-444c-9abd-299540b8815a) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

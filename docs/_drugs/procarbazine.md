@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**濾泡性淋巴瘤 (Follicular Lymphoma)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Procarbazine 是口服烷化類藥物，在何杰金氏淋巴瘤中的療效已被證實，機轉上可能透過 DNA 損傷使淋巴瘤細胞死亡。
+根據美國 FDA 核准的 Procarbazine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Procarbazine細胞毒性作用的確切模式尚未明確界定。經代謝活化後，procarbazine可能抑制甲硫胺酸的甲基轉移至轉運RNA（t-RNA）的轉甲基作用。t-RNA無法利用會阻止蛋白質合成，進而阻止DNA及RNA合成。」英文原文："The precise mode of cytotoxic action of procarbazine has not been clearly defined. After metabolic activation, procarbazine may inhibit the transmethylation of methyl groups of methionine into transfer RNA (t-RNA). The unavailability of t-RNA prevents protein synthesis, and consequently prevents DNA and RNA synthesis."（[DailyMed: Matulane (procarbazine hydrochloride) prescribing information, Leadiant Biosciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1aa75a3a-18c9-49e1-91a6-293d0b7da756)，版本日期 2026-10-09；查閱日期 2026-11-19）。根據已知資訊，Procarbazine 是口服烷化類藥物，在何杰金氏淋巴瘤中的療效已被證實，機轉上可能透過 DNA 損傷使淋巴瘤細胞死亡。
 
 何杰金氏淋巴瘤與濾泡性淋巴瘤同屬淋巴系統惡性腫瘤，對 DNA 損傷型化療可能有類似的敏感性。文獻中也有含 Procarbazine 的方案用於非何杰金氏淋巴瘤，以及低劑量口服併用的 PEP-C 方案（用於復發/難治性淋巴瘤）。一篇 2006 年的報告描述 2 位復發/難治性濾泡性淋巴瘤患者，在長期每日服用 Procarbazine 後達到完全且持久的緩解。
 
@@ -143,6 +143,19 @@ TxGNN 模型預測它可能對**濾泡性淋巴瘤 (Follicular Lymphoma)** 有�
 - 針對復發/難治性濾泡性淋巴瘤，比較 Procarbazine 與現行標準治療的回溯性或前瞻性研究
 - 評估在現代治療背景下的實際臨床定位（如口服低劑量挽救治療）與風險效益
 - 其他預測適應症（神經母細胞瘤等）僅有模型預測或間接資料，不建議優先推進
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Matulane (procarbazine hydrochloride) prescribing information, Leadiant Biosciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1aa75a3a-18c9-49e1-91a6-293d0b7da756) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

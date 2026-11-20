@@ -58,7 +58,7 @@ TxGNN 模型的預測排名第一為**自體隱性家族性地中海熱**，但�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫未提供 MOA）。根據已知資訊，Eribulin 是微管動力學抑制劑，屬於抗有絲分裂的細胞毒性藥物，已被證實可用於晚期脂肪肉瘤，並在其他軟組織肉瘤中顯示活性。
+根據美國 FDA 核准的 Eribulin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Eribulin 抑制微管的生長期，而不影響其縮短期，並將微管蛋白隔離成無功能的聚集體。Eribulin 經由以微管蛋白為基礎的抗有絲分裂機轉發揮作用，導致 G 2 /M 細胞週期阻斷、有絲分裂紡錘體破壞，並在長時間有絲分裂阻斷後，最終導致細胞凋亡性死亡。」英文原文："Eribulin inhibits the growth phase of microtubules without affecting the shortening phase and sequesters tubulin into nonproductive aggregates. Eribulin exerts its effects via a tubulin-based antimitotic mechanism leading to G 2 /M cell-cycle block, disruption of mitotic spindles, and, ultimately, apoptotic cell death after prolonged mitotic blockage."（[DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822)，版本日期 2025-11-07；查閱日期 2026-11-19）。根據已知資訊，Eribulin 是微管動力學抑制劑，屬於抗有絲分裂的細胞毒性藥物，已被證實可用於晚期脂肪肉瘤，並在其他軟組織肉瘤中顯示活性。
 
 纖維母細胞腫瘤（包括孤立性纖維性腫瘤、纖維肉瘤）與脂肪肉瘤同屬軟組織肉瘤／間質腫瘤，在組織學類別上有關聯。已完成的 Phase 2 試驗 ERASING（NCT03840772）在晚期孤立性纖維性腫瘤中測試 Eribulin。前臨床研究也顯示 Eribulin 對纖維肉瘤細胞株（HT1080）有活性，並探討了抗藥性機制，以及與重組甲硫胺酸酶（rMETase）的協同作用。
 
@@ -139,6 +139,19 @@ TxGNN 模型的預測排名第一為**自體隱性家族性地中海熱**，但�
 - 確認香港各許可證的核准適應症文字。
 - 建立血液學、神經病變與 QT 間期的監測計畫，並審視與 QT 延長藥物的併用。
 - 評估是否需要更大規模或對照的研究。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

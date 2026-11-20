@@ -58,7 +58,7 @@ Laronidase 是重組人類 α-L-艾杜糖醛酸酶（alpha-L-iduronidase），�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Laronidase 是補充缺乏的 α-L-艾杜糖醛酸酶的酵素替代療法，用於黏多醣症 I 型（MPS I）。此病因溶小體水解酶缺乏，導致皮膚素硫酸 (dermatan sulfate) 與肝素硫酸 (heparan sulfate) 蓄積。
+根據美國 FDA 核准的 Laronidase 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「黏多醣貯積症是由於分解代謝葡萄糖胺聚醣（GAG）所需的特定溶酶體酵素缺乏所致。第I型黏多醣症（MPS I）的特徵為α-L-iduronidase缺乏；α-L-iduronidase是一種溶酶體水解酶，可催化dermatan sulfate及heparan sulfate末端α-L-iduronic acid殘基的水解。[…] 細胞將ALDURAZYME攝取進入溶酶體，最可能是經由laronidase以mannose-6-phosphate為末端的寡醣鏈與特定mannose-6-phosphate受體結合所介導。」英文原文："Mucopolysaccharide storage disorders are caused by the deficiency of specific lysosomal enzymes required for the catabolism of glycosaminoglycans (GAG). Mucopolysaccharidosis I (MPS I) is characterized by the deficiency of α-L-iduronidase, a lysosomal hydrolase which catalyzes the hydrolysis of terminal α-L-iduronic acid residues of dermatan sulfate and heparan sulfate. […] ALDURAZYME uptake by cells into lysosomes is most likely mediated by the mannose-6-phosphate-terminated oligosaccharide chains of laronidase binding to specific mannose-6-phosphate receptors."（[DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60)，版本日期 2026-09-11；查閱日期 2026-11-19）。根據已知資訊，Laronidase 是補充缺乏的 α-L-艾杜糖醛酸酶的酵素替代療法，用於黏多醣症 I 型（MPS I）。此病因溶小體水解酶缺乏，導致皮膚素硫酸 (dermatan sulfate) 與肝素硫酸 (heparan sulfate) 蓄積。
 
 MPS I 本身就是一種溶小體儲積症，且骨骼病變（多發性骨發育不良，dysostosis multiplex）是其核心特徵。因此這個「新適應症」大致上是原適應症的重新標示或子集，**並非真正的藥物再利用**。TxGNN 的高分很可能反映本體論上與 MPS I 的緊密關係，而非新的治療訊號。
 
@@ -123,6 +123,19 @@ TxGNN 對 **Sanfilippo 症候群 (MPS III)** 的預測分數為 0.9922，證據�
 - MPS III 以中樞神經病變為主，而靜脈注射的 laronidase 難以穿越血腦屏障。
 - 檢索到的文獻幾乎都在談 MPS I（包括一項 Phase 3 安慰劑對照試驗 [PMID 15126990](https://pubmed.ncbi.nlm.nih.gov/15126990/)，以及 2025 年的生物相似藥研究 [PMID 40830667](https://pubmed.ncbi.nlm.nih.gov/40830667/)），並不支持對 Sanfilippo 症候群的療效。
 - 高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

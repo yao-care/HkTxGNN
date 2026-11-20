@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**早老症-身材矮小-色素痣症候群 (proge
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。可確認的是，cabergoline 屬於多巴胺 D2 受體促效劑，能抑制特定腺體細胞的激素分泌。
+根據美國 FDA 核准的 Cabergoline 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Cabergoline 是一種麥角衍生物及多巴胺受體促效劑，對 D2 受體具有高親和力。體外研究結果顯示，cabergoline 對大鼠腦下垂體泌乳素細胞分泌泌乳素具有直接抑制作用。」英文原文："Cabergoline is an ergot derivative and dopamine receptor agonist with a high affinity for D2 receptors. Results of in vitro studies demonstrate that cabergoline exerts a direct inhibitory effect on the secretion of prolactin by rat pituitary lactotrophs."（[DailyMed: cabergoline prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e497366b-a124-4d7f-bd45-a883c392d4bb)，版本日期 2026-06-30；查閱日期 2026-11-19）。可確認的是，cabergoline 屬於多巴胺 D2 受體促效劑，能抑制特定腺體細胞的激素分泌。
 
 從現有資料看，D2 受體促效作用與這個罕見症候群之間，找不到可信的機轉連結。此預測分數高，只代表模型在資料網絡中的計算結果，不代表有生物學或臨床上的支持。
 
@@ -96,6 +96,19 @@ Cabergoline 在香港目前為上市狀態，現有許可證均為有效的單�
 - 進行文獻與病例的系統性檢索，找出任何相關的臨床或前臨床訊號。
 - 取得詳細的作用機轉資料與原廠仿單的警語及禁忌症。
 - 若機轉上站得住腳，先以前臨床模型驗證，再考慮臨床研究設計。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: cabergoline prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e497366b-a124-4d7f-bd45-a883c392d4bb) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

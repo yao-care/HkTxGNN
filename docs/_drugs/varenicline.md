@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**偏頭痛 (migraine disorder)** 有效，但**�
 
 ## 為什麼這個預測合理？
 
-目前缺乏經核實的詳細作用機轉資料。就已知的藥理背景，Varenicline 是 α4β2 尼古丁乙醯膽鹼受體的部分促效劑，對 α7 受體則為完全促效劑。膽鹼性訊號與疼痛及三叉神經血管調控之間有間接的理論連結，但這只是推測。
+根據美國 FDA 核准的 Varenicline 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Varenicline 以高親和力及高選擇性與 α4β2 神經元菸鹼型乙醯膽鹼受體結合。CHANTIX 於戒菸的療效，據信源自 varenicline 對菸鹼型受體 α4β2 亞型的作用；其結合會產生致效劑活性，同時阻止尼古丁與這些受體結合。」英文原文："Varenicline binds with high affinity and selectivity at α4β2 neuronal nicotinic acetylcholine receptors. The efficacy of CHANTIX in smoking cessation is believed to be the result of varenicline's activity at α4β2 sub-type of the nicotinic receptor where its binding produces agonist activity, while simultaneously preventing nicotine binding to these receptors."（[DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696)，版本日期 2026-01-23；查閱日期 2026-11-19）。就已知的藥理背景，Varenicline 是 α4β2 尼古丁乙醯膽鹼受體的部分促效劑，對 α7 受體則為完全促效劑。膽鹼性訊號與疼痛及三叉神經血管調控之間有間接的理論連結，但這只是推測。
 
 需要特別注意方向性的問題：頭痛與偏頭痛本身就是 Varenicline 已知的不良反應，因此即使模型分數很高，實際效果方向仍不確定，甚至可能相反。
 
@@ -117,6 +117,19 @@ TxGNN 模型（深度學習）給出的高分，可能反映模型學到的相�
 - 補充作用機轉資料，並釐清 α4β2／α7 訊號與偏頭痛的關聯。
 - 先做系統性文獻回顧，並分析既有戒菸試驗中偏頭痛發作頻率的變化，確認方向。
 - 有初步訊號後，再設計小規模探索性試驗。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

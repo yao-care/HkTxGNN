@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對 **46,XY 性發育異常（睪丸類固醇合成�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知藥理資訊，Clomifene 是選擇性雌激素受體調節劑（作用標的包含雌激素受體 α，即 ESR1），可阻斷下視丘的雌激素負回饋，使 GnRH、LH 與 FSH 分泌增加。
+根據美國 FDA 核准的 Clomifene 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「檸檬酸克羅米芬（Clomiphene citrate）能與含有雌激素受體的組織產生交互作用，包括下視丘、腦下垂體、卵巢、子宮內膜、陰道及子宮頸。它可能與雌激素競爭雌激素受體結合位點，並可能延遲細胞內雌激素受體的補充。」英文原文："Clomiphene citrate is capable of interacting with estrogen-receptor-containing tissues, including the hypothalamus, pituitary, ovary, endometrium, vagina, and cervix. It may compete with estrogen for estrogen-receptor-binding sites and may delay replenishment of intracellular estrogen receptors."（[DailyMed: Milophene (clomiphene citrate) prescribing information, Burel Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56131e5-efc7-43af-ac13-4a2ae918df4e)，版本日期 2025-10-07；查閱日期 2026-11-19）。根據已知藥理資訊，Clomifene 是選擇性雌激素受體調節劑（作用標的包含雌激素受體 α，即 ESR1），可阻斷下視丘的雌激素負回饋，使 GnRH、LH 與 FSH 分泌增加。
 
 理論上，增加的促性腺激素刺激可能提高睪丸 Leydig 細胞的驅動力。但此疾病的核心是睪丸類固醇合成酶本身的缺陷，即使上游刺激增加，下游的療效也會受到限制。因此這個關聯目前偏向推測，僅建立在 TxGNN 的預測上。
 
@@ -111,6 +111,19 @@ TxGNN 模型預測它可能對 **46,XY 性發育異常（睪丸類固醇合成�
 - 補齊 Clomifene 的作用機轉（MOA）資料。
 - 進行系統性文獻回顧，尤其是 Clomifene 用於男性低促性腺或 Leydig 細胞功能相關疾病的既有研究。
 - 評估是否有更具機轉合理性的候選適應症，取代目前僅依 TxGNN 模型（深度學習）分數得出的預測。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Milophene (clomiphene citrate) prescribing information, Burel Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56131e5-efc7-43af-ac13-4a2ae918df4e) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

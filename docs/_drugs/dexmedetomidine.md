@@ -57,7 +57,7 @@ TxGNN 模型的預測中，證據最完整的是**頭痛疾患 (Headache Disorde
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，dexmedetomidine 是高選擇性的中樞 α2 腎上腺素受體促效劑。臨床試驗摘要指出，它具有鎮痛與抗焦慮作用，並可能因腦血管收縮而降低腦血流量。
+根據美國 FDA 核准的 Dexmedetomidine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「PRECEDEX為一種相對選擇性的中樞作用型α 2 -腎上腺素促效劑，具有鎮靜特性。在動物中，於緩慢靜脈輸注低劑量及中劑量（10-300 mcg/kg）後可觀察到α 2 選擇性。」英文原文："PRECEDEX is a relatively selective centrally acting alpha 2 -adrenergic agonist with sedative properties. Alpha 2 selectivity is observed in animals following slow intravenous infusion of low and medium doses (10-300 mcg/kg)."（[DailyMed: Precedex (dexmedetomidine hydrochloride) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92b7ddaa-e45a-4b64-a802-bb5df8771dd6)，版本日期 2026-06-17；查閱日期 2026-11-19）。根據已知資訊，dexmedetomidine 是高選擇性的中樞 α2 腎上腺素受體促效劑。臨床試驗摘要指出，它具有鎮痛與抗焦慮作用，並可能因腦血管收縮而降低腦血流量。
 
 PDPH 的特徵是腦脊髓液外漏後的嚴重姿勢性頭痛，與腦血管擴張有關。α2 促效作用可能降低疼痛訊號傳遞並減少腦血管擴張，這是其可能有效的機轉依據。霧化（nebulized）給藥是這些研究採用的新途徑。
 
@@ -119,6 +119,19 @@ PDPH 的特徵是腦脊髓液外漏後的嚴重姿勢性頭痛，與腦血管擴
 - 確認霧化給藥途徑在香港的法規適用性與製劑可得性
 - 建立心率、血壓的監測計畫，特別針對低血壓與房室傳導阻滯高風險族群
 - 持續追蹤 NCT07769255 的偏頭痛試驗結果
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Precedex (dexmedetomidine hydrochloride) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92b7ddaa-e45a-4b64-a802-bb5df8771dd6) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

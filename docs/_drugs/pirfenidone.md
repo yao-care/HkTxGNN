@@ -60,7 +60,7 @@ TxGNN 模型預測分數最高的是**肥大細胞瘤外型 (extracutaneous mast
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據文獻摘要，pirfenidone 被認為能抑制 TGF-β 與 PDGF 等生長因子，進而減少上皮與纖維母細胞增生及膠原合成。
+根據美國 FDA 核准的 Pirfenidone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Pirfenidone治療IPF的作用機轉尚未確立。」英文原文："The mechanism of action of pirfenidone in the treatment of IPF has not been established."（[DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e)，版本日期 2025-12-05；查閱日期 2026-11-19）。根據文獻摘要，pirfenidone 被認為能抑制 TGF-β 與 PDGF 等生長因子，進而減少上皮與纖維母細胞增生及膠原合成。
 
 原適應症（肺纖維化）與纖維母細胞腫瘤的共同點在於纖維母細胞的異常活化與增生。前臨床研究顯示，pirfenidone 能抑制 Dupuytren 病（一種良性纖維增生性疾病）來源纖維母細胞中 TGF-β1 驅動的活性。這在機轉上提供了間接的合理性。
 
@@ -121,6 +121,19 @@ TxGNN 模型預測分數最高的是**肥大細胞瘤外型 (extracutaneous mast
 - 針對纖維母細胞腫瘤進行腫瘤細胞株與動物模型的前臨床驗證。
 - 取得香港原廠仿單，完成警語與禁忌症的安全性篩檢。
 - 評估肉瘤個案報告的因果關聯性，再決定是否設計臨床試驗。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

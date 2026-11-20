@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**肺部疾病及／或缺氧所致肺高壓 (pulm
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，lisinopril 屬於 ACE 抑制劑類別，可降低血管收縮素 II 的生成，理論上可能減少肺血管收縮與血管重塑，因此在缺氧相關的肺血管疾病上具生物學上的合理性。
+根據美國 FDA 核准的 Lisinopril 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Lisinopril在人體及動物中抑制血管收縮素轉化酶（ACE）。ACE是一種肽基二肽酶，催化angiotensin I轉化為血管收縮物質angiotensin II。Angiotensin II亦刺激腎上腺皮質分泌醛固酮。」英文原文："Lisinopril inhibits angiotensin-converting enzyme (ACE) in human subjects and animals. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex."（[DailyMed: Qbrelis (lisinopril) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6e4e57-a489-4b36-b093-b93865d3717c)，版本日期 2025-12-16；查閱日期 2026-11-19）。根據已知資訊，lisinopril 屬於 ACE 抑制劑類別，可降低血管收縮素 II 的生成，理論上可能減少肺血管收縮與血管重塑，因此在缺氧相關的肺血管疾病上具生物學上的合理性。
 
 不過，目前取得的文獻大多與此適應症無直接關係，內容涵蓋骨骼肌、早產兒視網膜病變、胰臟纖維化及魚類生理等。其中一篇離體大鼠肺動脈研究（PMID 10456287）顯示，缺氧引起的血管收縮主要與內皮素有關，而非血管收縮素 II，這反而削弱了機轉上的依據。
 
@@ -128,11 +128,12 @@ TxGNN 模型預測它可能對**肺部疾病及／或缺氧所致肺高壓 (pulm
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「以下為已列出的許可證（總數至少 20 張，清單可能不完整，此處列出 5 張；資料」→「以下為已列出的許可證（共 34 張含本藥成分的許可證，有效 」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Qbrelis (lisinopril) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6e4e57-a489-4b36-b093-b93865d3717c) |
 
 <!-- review:end log -->
 

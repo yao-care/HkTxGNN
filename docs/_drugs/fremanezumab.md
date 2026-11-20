@@ -55,7 +55,7 @@ Fremanezumab 是一種針對 CGRP 的人源化單株抗體，原本用於偏頭�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Fremanezumab 是一種與 CGRP 配體結合的人源化單株抗體，其在偏頭痛中的預防療效已獲確立，機轉上可能適用於伴腦幹先兆的偏頭痛。
+根據美國 FDA 核准的 Fremanezumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Fremanezumab-vfrm 是一種人源化單株抗體，可與降鈣素基因相關胜肽（CGRP）配體結合，並阻斷其與受體結合。」英文原文："Fremanezumab-vfrm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor."（[DailyMed: Ajovy (fremanezumab-vfrm) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b)，版本日期 2026-06-05；查閱日期 2026-11-19）。根據已知資訊，Fremanezumab 是一種與 CGRP 配體結合的人源化單株抗體，其在偏頭痛中的預防療效已獲確立，機轉上可能適用於伴腦幹先兆的偏頭痛。
 
 伴腦幹先兆的偏頭痛屬於偏頭痛的一種亞型，與其他偏頭痛共享三叉神經血管系統與 CGRP 介導的病理機轉。前臨床研究顯示，Fremanezumab 可選擇性抑制三叉神經血管神經元 (PMID 28642283)。
 
@@ -107,6 +107,19 @@ Fremanezumab 是一種針對 CGRP 的人源化單株抗體，原本用於偏頭�
 - 補充詳細的作用機轉資料（MOA）
 - 針對伴腦幹先兆偏頭痛族群，設計前瞻性研究或試驗，並蒐集較高等級的臨床證據
 - 進一步審閱現有文獻與先兆相關研究（如偏癱性偏頭痛系統性回顧），評估與腦幹先兆亞型的關聯
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ajovy (fremanezumab-vfrm) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

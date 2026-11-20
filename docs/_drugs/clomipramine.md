@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**焦慮症 (Anxiety Disorder)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位為空）。根據已知藥理，Clomipramine 是強效的血清素再回收抑制劑，其活性代謝物 desmethylclomipramine 另有去甲腎上腺素活性。血清素與去甲腎上腺素調節，是恐慌症等焦慮症治療的既定藥理基礎。
+根據美國 FDA 核准的 Clomipramine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Clomipramine（CMI）推測是經由其對血清素能神經元傳導的作用而影響強迫意念及強迫行為。實際的神經化學機轉尚不清楚，但一般認為 CMI 抑制血清素（5-HT）再回收的能力相當重要。」英文原文："Clomipramine (CMI) is presumed to influence obsessive and compulsive behaviors through its effects on serotonergic neuronal transmission. The actual neurochemical mechanism is unknown, but CMI's capacity to inhibit the reuptake of serotonin (5-HT) is thought to be important."（[DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059)，版本日期 2024-11-26；查閱日期 2026-11-19）。根據已知藥理，Clomipramine 是強效的血清素再回收抑制劑，其活性代謝物 desmethylclomipramine 另有去甲腎上腺素活性。血清素與去甲腎上腺素調節，是恐慌症等焦慮症治療的既定藥理基礎。
 
 強迫症過去被歸類為焦慮症的一種，與恐慌症、廣泛性焦慮症、懼曠症在神經生物學上有重疊，因此模型給出高分是合理的。
 
@@ -143,6 +143,19 @@ TxGNN 模型預測它可能對**焦慮症 (Anxiety Disorder)** 有效，
 - 重鬱症（證據 L3）與內因性憂鬱症（L3）：Clomipramine 本身即為抗憂鬱劑，更屬定位或標示問題，而非全新再利用。
 - 過動症（ADHD，L4，Hold）：僅有三環類藥物整體的證據，缺乏 Clomipramine 專屬資料，且安全性限制其吸引力。
 - 其餘預測（陣發性斜頸、偏執／類精神分裂／分裂型／做作型人格障礙）：僅有模型預測或不相關文獻，無實質支持，建議 Hold。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**過度透亮肺 (Hyperlucent lung)** 有效，�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Vilanterol 屬於吸入型長效 β2 受體促效劑，一般認為其作用是透過放鬆支氣管平滑肌來緩解氣道阻塞。
+根據美國 FDA 核准的 fluticasone furoate and vilanterol（含 Vilanterol 的複方） 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「包括 vilanterol 在內之 beta 2 -腎上腺素致效劑藥物的藥理作用，至少部分可歸因於刺激細胞內腺苷酸環化酶；此酶可催化三磷酸腺苷（ATP）轉化為環-3′,5′-單磷酸腺苷（環 AMP）。」英文原文："The pharmacologic effects of beta 2 -adrenergic agonist drugs, including vilanterol, are at least in part attributable to stimulation of intracellular adenyl cyclase, the enzyme that catalyzes the conversion of adenosine triphosphate (ATP) to cyclic-3′,5′-adenosine monophosphate (cyclic AMP)."（[DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5)，版本日期 2024-11-21；查閱日期 2026-11-19）。根據已知資訊，Vilanterol 屬於吸入型長效 β2 受體促效劑，一般認為其作用是透過放鬆支氣管平滑肌來緩解氣道阻塞。
 
 過度透亮肺（例如 Swyer-James 症候群、類肺氣腫的過度充氣）以氣流阻塞與空氣滯留為特徵，與知識圖譜中記錄的 COPD、肺氣腫關係相近，因此模型給出高分。機轉上，支氣管擴張可能緩解其中可逆的氣流受限成分。
 
@@ -131,6 +131,19 @@ TxGNN 模型預測它可能對**過度透亮肺 (Hyperlucent lung)** 有效，�
 - 以臨床專家確認過度透亮肺中是否存在可逆的氣流阻塞成分
 - 搜尋並建立直接針對該疾病的病例系列或臨床研究
 - 若關注支氣管腫瘤方向，需待 NCT04536675 結果，且應視為併存 COPD 的支持性照護，而非抗腫瘤治療
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

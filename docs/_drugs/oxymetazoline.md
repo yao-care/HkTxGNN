@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Oxymetazoline 是局部使用的擬交感神經藥物，可作用於 α1 與 α2 腎上腺素受體（另可結合 5-HT1B、5-HT1D、5-HT2C 受體），使鼻黏膜血管收縮，進而減輕鼻塞與出血。這在機轉上適用於黏膜腫脹、充血或血管脆弱的鼻腔問題。
+根據美國 FDA 核准的 Oxymetazoline 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Oxymetazoline為alpha 1A腎上腺素受體致效劑。Oxymetazoline具有血管收縮劑的作用。」英文原文："Oxymetazoline is an alpha 1A adrenoceptor agonist. Oxymetazoline acts as a vasoconstrictor."（[DailyMed: Rhofade (oxymetazoline hydrochloride) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34298db6-647d-480d-88a8-dc53258a5164)，版本日期 2026-07-13；查閱日期 2026-11-19）。根據已知資訊，Oxymetazoline 是局部使用的擬交感神經藥物，可作用於 α1 與 α2 腎上腺素受體（另可結合 5-HT1B、5-HT1D、5-HT2C 受體），使鼻黏膜血管收縮，進而減輕鼻塞與出血。這在機轉上適用於黏膜腫脹、充血或血管脆弱的鼻腔問題。
 
 不過需要留意：「鼻腔疾病」是範圍很廣的類別，與原有適應症（感冒、鼻塞）高度重疊。0.9996 的高分很可能反映的是與現有用途的相近性，而非真正新穎的再利用訊號。
 
@@ -125,6 +125,19 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 ---
 
 **備註：** 「急性喉咽炎」無任何試驗或文獻，且咽喉炎本已是原適應症，不屬於本頁預測，建議暫緩。「頭痛疾患」（TxGNN 模型（深度學習）分數 0.9904）有 tetracaine 加 oxymetazoline 鼻內給藥治療偏頭痛持續狀態的研究，但屬複方，無法區分 oxymetazoline 單獨的貢獻，證據等級為 L3，可列為後續研究問題。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Rhofade (oxymetazoline hydrochloride) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34298db6-647d-480d-88a8-dc53258a5164) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**後腹腔腫瘤 (retroperitoneal neoplasm)** 有
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Cyclophosphamide 屬於烷基化類細胞毒性藥物，一般認為其作用在於損傷腫瘤細胞 DNA，進而抑制細胞增殖。
+根據美國 FDA 核准的 Cyclophosphamide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「其作用機制尚未完全闡明。然而，可能涉及腫瘤細胞DNA的交聯。cyclophosphamide的活性烷化代謝物會干擾易感、快速增生的惡性細胞的生長。」英文原文："The mechanism of action has not been fully characterized. However, cross-linking of tumor cell DNA may be involved. The active alkylating metabolites of cyclophosphamide interfere with the growth of susceptible rapidly proliferating malignant cells."（[DailyMed: Frindovyx (cyclophosphamide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ad8ea65-4c98-487a-9c8d-df778765ec5e)，版本日期 2026-08-26；查閱日期 2026-11-19）。Cyclophosphamide 屬於烷基化類細胞毒性藥物，一般認為其作用在於損傷腫瘤細胞 DNA，進而抑制細胞增殖。
 
 文獻中，cyclophosphamide 多作為合併化療的一環，用於位於後腹腔或副睪丸周邊的腫瘤，例如惡性副神經節瘤（與 vincristine、dacarbazine 併用）、橫紋肌肉瘤、促結締組織增生性小圓細胞腫瘤、原始神經外胚層腫瘤及精原細胞瘤（與 carboplatin 併用）。這些報告提供了機轉上合理的線索。
 
@@ -123,6 +123,18 @@ TxGNN 模型預測它可能對**後腹腔腫瘤 (retroperitoneal neoplasm)** 有
 - 詳細的作用機轉資料
 - 原廠仿單的警語、禁忌症與骨髓抑制等安全性資料
 - 針對選定的腫瘤類型設計前瞻性試驗，或系統性回顧現有的合併化療研究
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Frindovyx (cyclophosphamide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ad8ea65-4c98-487a-9c8d-df778765ec5e) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

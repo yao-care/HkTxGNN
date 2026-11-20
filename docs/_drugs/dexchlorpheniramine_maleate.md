@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**急性間歇性紫質症 (Acute Intermittent Por
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Dexchlorpheniramine 屬於烷基胺類 (alkylamine) 第一代 H1 受體拮抗劑，具有抗膽鹼與鎮靜特性。AIP 是血紅素合成途徑的疾病（porphobilinogen deaminase 缺乏），目前並未建立 H1 拮抗作用與矯正此途徑之間的直接機轉關聯。
+根據美國 FDA 核准的 Dexchlorpheniramine Maleate 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Dexchlorpheniramine maleate 是一種具有抗膽鹼（乾燥）及鎮靜副作用的抗組織胺藥。抗組織胺藥似乎是與組織胺競爭效應細胞上的細胞受體位點。」英文原文："Dexchlorpheniramine maleate is an antihistamine with anticholinergic (drying) and sedative side effects. Antihistamines appear to compete with histamine for cell receptor sites on effector cells."（[DailyMed: Corphena (dexchlorpheniramine maleate) prescribing information, BluCrest Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4694616b-4ef4-28a4-e063-6394a90ac5f6)，版本日期 2026-10-15；查閱日期 2026-11-19）。根據已知資訊，Dexchlorpheniramine 屬於烷基胺類 (alkylamine) 第一代 H1 受體拮抗劑，具有抗膽鹼與鎮靜特性。AIP 是血紅素合成途徑的疾病（porphobilinogen deaminase 缺乏），目前並未建立 H1 拮抗作用與矯正此途徑之間的直接機轉關聯。
 
 可能的連結僅限於症狀處理，例如搔癢、噁心、焦慮或失眠，但這屬推測，缺乏本次資料的支持。
 
@@ -112,11 +112,12 @@ TxGNN 模型預測它可能對**急性間歇性紫質症 (Acute Intermittent Por
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「下表列出 5 張許可證（共 20 張，皆為有效的單方製劑）。」→「下表列出 5 張許可證（共 103 張含本藥成分的許可證，全」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Corphena (dexchlorpheniramine maleate) prescribing information, BluCrest Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4694616b-4ef4-28a4-e063-6394a90ac5f6) |
 
 <!-- review:end log -->
 

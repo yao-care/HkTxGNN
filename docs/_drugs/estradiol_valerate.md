@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**脆性 X 症候群女性帶因者的症狀性表
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，戊酸雌二醇是雌二醇的酯類前驅藥，用於雌激素缺乏狀態的替代療法，其在原發性卵巢衰竭中的角色已被確立，機轉上可能適用於因卵巢功能不足而出現雌激素缺乏的相關族群。
+根據美國 FDA 核准的 Estradiol Valerate 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「雖然循環中的雌激素處於代謝互相轉換的動態平衡中，但雌二醇是人體主要的細胞內雌激素，且在受體層面上其效力明顯高於其代謝物雌酮及雌三醇。月經週期正常的成年女性，其雌激素的主要來源是卵巢濾泡，每日依月經週期階段不同分泌70至500 mcg的雌二醇。」英文原文："Although circulating estrogens exist in a dynamic equilibrium of metabolic interconversions, estradiol is the principal intracellular human estrogen and is substantially more potent than its metabolites, estrone and estriol, at the receptor level. The primary source of estrogen in normally cycling adult women is the ovarian follicle, which secretes 70 to 500 mcg of estradiol daily, depending on the phase of the menstrual cycle."（[DailyMed: Delestrogen (estradiol valerate) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8f94df9-0692-4462-a7f0-fe019a0a3f07)，版本日期 2026-05-13；查閱日期 2026-11-19）。根據已知資訊，戊酸雌二醇是雌二醇的酯類前驅藥，用於雌激素缺乏狀態的替代療法，其在原發性卵巢衰竭中的角色已被確立，機轉上可能適用於因卵巢功能不足而出現雌激素缺乏的相關族群。
 
 FMR1 前突變的女性帶因者可能發生 FXPOI（脆性 X 相關原發性卵巢功能不全），與原適應症「原發性卵巢衰竭」有重疊。因此，雌激素補充在機轉上具合理性。但這僅針對卵巢功能不足所致的低雌激素狀態，並不代表能改善脆性 X 症候群的其他症狀（如神經認知表現）。
 
@@ -145,6 +145,19 @@ TxGNN 的其他高分預測多數缺乏實質證據：
 - 針對 FMR1 前突變女性帶因者／FXPOI 的文獻回顧，並確認是否已有雌激素補充的臨床研究
 - 釐清預測適應症究竟指向「卵巢功能不全」還是脆性 X 的其他症狀，以界定目標族群與療效指標
 - 評估禁忌疾病族群的安全性監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Delestrogen (estradiol valerate) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8f94df9-0692-4462-a7f0-fe019a0a3f07) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

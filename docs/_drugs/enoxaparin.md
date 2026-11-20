@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**體染色體隱性蛋白 C 缺乏所致血栓形
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據一般藥理知識，Enoxaparin 是低分子量肝素，透過增強抗凝血酶 III 的活性，抑制第 Xa 因子（對凝血酶的抑制較弱），產生抗凝血作用。
+根據美國 FDA 核准的 Enoxaparin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Enoxaparin是一種具有抗血栓特性的低分子量肝素。」英文原文："Enoxaparin is a low molecular weight heparin which has antithrombotic properties."（[DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59)，版本日期 2026-05-28；查閱日期 2026-11-19）。根據一般藥理知識，Enoxaparin 是低分子量肝素，透過增強抗凝血酶 III 的活性，抑制第 Xa 因子（對凝血酶的抑制較弱），產生抗凝血作用。
 
 蛋白 C 缺乏時，蛋白 C 抗凝血路徑（使第 Va、VIIIa 因子失活）失去作用，凝血酶生成不受控制，造成高凝血狀態。Enoxaparin 的抗凝血作用可以抵銷這種狀態。
 
@@ -120,6 +120,19 @@ TxGNN 模型預測它可能對**體染色體隱性蛋白 C 缺乏所致血栓形
 - 補齊 Enoxaparin 的作用機轉資料（如從 DrugBank 取得）。
 - 評估與現行標準治療（蛋白 C 濃縮液、warfarin）的定位與銜接方案。
 - 針對出血風險與知識圖譜標示的禁忌族群，擬定安全性監測計畫。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

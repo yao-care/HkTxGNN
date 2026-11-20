@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對**頭痛疾患 (Headache Disorder)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料，以下機轉連結是依據 Ketamine 已知藥理推論，並非來自所提供的藥物紀錄。Ketamine 是 NMDA 受體拮抗劑。麩胺酸訊號與中樞敏化被認為和偏頭痛、叢集性頭痛及慢性頭痛有關。
+根據美國 FDA 核准的 Ketamine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「KETALAR是ketamine的外消旋混合物，為N-methyl-D-aspartate（NMDA）受體（一種離子型glutamate受體）的非選擇性、非競爭性拮抗劑。Ketamine的主要循環代謝物（norketamine）在同一受體上顯示活性，但親和力較低。」英文原文："KETALAR, a racemic mixture of ketamine, is a non-selective, non-competitive antagonist of the N-methyl-D-aspartate (NMDA) receptor, an ionotropic glutamate receptor. The major circulating metabolite of ketamine (norketamine) demonstrated activity at the same receptor with less affinity."（[DailyMed: Ketalar (ketamine hydrochloride) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063)，版本日期 2026-03-27；查閱日期 2026-11-19）。Ketamine 是 NMDA 受體拮抗劑。麩胺酸訊號與中樞敏化被認為和偏頭痛、叢集性頭痛及慢性頭痛有關。
 
 阻斷 NMDA 受體，可能抑制皮質擴散性抑制（cortical spreading depression）、三叉神經血管痛覺傳導與中樞敏化，因此在難治型或急性頭痛上有合理的止痛作用。
 
@@ -125,6 +125,19 @@ TxGNN 模型預測它可能對**頭痛疾患 (Headache Disorder)** 有效，
 - 補充 DrugBank 的作用機轉資料。
 - 確認給藥途徑（靜脈、鼻內等）與香港現有注射劑型的相容性。
 - 制定篩選高血壓、心腦血管疾病、顱內高壓及物質濫用病史的排除標準，並規劃血壓與精神症狀監測。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ketalar (ketamine hydrochloride) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

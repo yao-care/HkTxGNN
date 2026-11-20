@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**骨關節炎 (Osteoarthritis)** 有效（另預�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Cefpodoxime 是第三代口服頭孢菌素，一般認為透過結合青黴素結合蛋白（PBP）抑制細菌細胞壁合成，用於細菌感染。
+ChEMBL（EMBL-EBI）收錄的 Cefpodoxime 作用機轉（非官方翻譯）：「細菌青黴素結合蛋白抑制劑」英文原文："Bacterial penicillin-binding protein inhibitor"（[ChEMBL CHEMBL1672 (cefpodoxime): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1672)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Cefpodoxime 是第三代口服頭孢菌素，一般認為透過結合青黴素結合蛋白（PBP）抑制細菌細胞壁合成，用於細菌感染。
 
 骨關節炎主要是退化性、非感染性疾病，與抗菌機轉缺乏明確關聯。Cefpodoxime 並無已知的抗發炎、軟骨保護或止痛作用。此高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
@@ -98,6 +98,19 @@ TxGNN 模型預測它可能對**骨關節炎 (Osteoarthritis)** 有效（另預�
 - 系統性檢索是否有針對骨關節炎或類風濕性關節炎的前臨床或臨床研究
 - 取得香港衛生署核准的仿單，確認適應症、警語與禁忌症
 - 若有機轉假說支持，再設計前臨床驗證，之後才考慮臨床試驗
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL1672 (cefpodoxime): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1672) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

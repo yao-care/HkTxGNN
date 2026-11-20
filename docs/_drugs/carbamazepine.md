@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**三叉神經腫瘤 (trigeminal nerve neoplasm)**
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般認為 carbamazepine 作用於鈉離子通道，可抑制神經異常放電，因此對神經痛有效。
+根據美國 FDA 核准的 Carbamazepine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Tegretol 在以電刺激及化學方式誘發癲癇發作的大鼠和小鼠中已顯示具有抗痙攣特性。其作用機轉似乎是減少多突觸反應及阻斷強直後增強作用。[…] Tegretol 的主要代謝物 carbamazepine-10,11-epoxide 具有抗痙攣活性，已於多種體內癲癇發作動物模型中獲得證實。」英文原文："Tegretol has demonstrated anticonvulsant properties in rats and mice with electrically and chemically induced seizures. It appears to act by reducing polysynaptic responses and blocking the post-tetanic potentiation. […] The principal metabolite of Tegretol, carbamazepine-10,11-epoxide, has anticonvulsant activity as demonstrated in several in vivo animal models of seizures."（[DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053)，版本日期 2026-08-20；查閱日期 2026-11-19）。一般認為 carbamazepine 作用於鈉離子通道，可抑制神經異常放電，因此對神經痛有效。
 
 三叉神經的腫瘤（如神經鞘瘤、腦膜瘤、淋巴瘤、皮樣囊腫）常以三叉神經痛為首發表現，病人因此可能被處方 carbamazepine。所以 carbamazepine 或許能緩解這類腫瘤引起的疼痛症狀。
 
@@ -112,6 +112,19 @@ TxGNN 模型預測它可能對**三叉神經腫瘤 (trigeminal nerve neoplasm)**
 - 若目標是抗腫瘤，需有前臨床證據（如細胞或動物模型）。
 - 取得詳細作用機轉資料與香港仿單的警語和禁忌症。
 - 若僅用於症狀控制，應與既有的三叉神經痛適應症區分，不視為新的藥物再利用。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

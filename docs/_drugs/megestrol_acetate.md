@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**遺傳性乳癌卵巢癌症候群 (Hereditary Br
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，甲地孕酮屬於黃體素類藥物。機轉上，黃體素訊號有可能影響 BRCA 相關乳房或卵巢組織的荷爾蒙反應，但這只是推測。
+根據美國 FDA 核准的 Megestrol Acetate 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「數位研究者曾報告 megestrol acetate 具有增進食慾的特性，以及其用於惡病質的可能性。Megestrol acetate 對厭食症及惡病質產生作用的確切機轉目前仍不明。」英文原文："Several investigators have reported on the appetite enhancing property of megestrol acetate and its possible use in cachexia. The precise mechanism by which megestrol acetate produces effects in anorexia and cachexia is unknown at the present time."（[DailyMed: megestrol acetate prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc921d5-e423-4379-a345-151e87d13651)，版本日期 2026-04-14；查閱日期 2026-11-19）。根據已知資訊，甲地孕酮屬於黃體素類藥物。機轉上，黃體素訊號有可能影響 BRCA 相關乳房或卵巢組織的荷爾蒙反應，但這只是推測。
 
 本次整理的資料沒有任何針對此症候群的臨床或文獻佐證。0.9989 的預測分數只代表模型內部的關聯強度，不能視為療效證據。
 
@@ -129,6 +129,19 @@ TxGNN 模型預測它可能對**遺傳性乳癌卵巢癌症候群 (Hereditary Br
 - 取得香港原廠仿單，確認核准適應症、警語與禁忌。
 - 檢索 BRCA 突變相關族群使用黃體素類藥物的臨床與前臨床研究。
 - 若要優先探索，卵巢癌（有 Phase 2 研究）與子宮癌肉瘤（有荷爾蒙受體研究）比本預測更值得先評估。卵巢癌需先查證 NCT00005975 的實際研究對象。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: megestrol acetate prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc921d5-e423-4379-a345-151e87d13651) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Doxycycline 對披衣菌 (*Chlamydia trachomatis*) 等病原體具抗菌活性，並具有抗發炎與抑制基質金屬蛋白酶（MMP）的特性，這些性質在機轉上可能有助於改善眼表發炎。
+根據美國 FDA 核准的 Doxycycline 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Doxycycline 透過與 30S 核糖體次單元結合而抑制細菌蛋白質合成。Doxycycline 對多種革蘭氏陽性及革蘭氏陰性細菌具有抑菌活性。」英文原文："Doxycycline inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad range of Gram-positive and Gram-negative bacteria."（[DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8)，版本日期 2026-07-09；查閱日期 2026-11-19）。根據已知資訊，Doxycycline 對披衣菌 (*Chlamydia trachomatis*) 等病原體具抗菌活性，並具有抗發炎與抑制基質金屬蛋白酶（MMP）的特性，這些性質在機轉上可能有助於改善眼表發炎。
 
 唯一的文獻是 1992 年的病例報告：兩名披衣菌濾泡性結膜炎患者在口服四環素或 doxycycline 後濾泡消退，之後卻出現反覆的雙側點狀上皮角膜炎。這顯示該角膜病變可發生在披衣菌感染之後，但並未證明 doxycycline 能治療它，屬間接證據。
 
@@ -115,11 +115,12 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效的單方許可證，」→「香港共有 26 張含本藥成分的許可證（有效 24 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8) |
 
 <!-- review:end log -->
 

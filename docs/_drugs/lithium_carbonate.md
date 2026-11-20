@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**假性軟骨發育不全 (Pseudoachondroplasia)*
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知藥理學，鋰會抑制 GSK-3β，並調節 Wnt 訊號與自噬作用。
+根據美國 FDA 核准的 Lithium Carbonate 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Lithium作為情緒穩定劑的作用機轉不明。」英文原文："The mechanism of action of lithium as a mood stabilizing agent is unknown."（[DailyMed: Lithium Carbonate Lithium Carbonate (lithium carbonate) prescribing information, Alembic Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ca2b977-b94c-4232-9b7e-835db97c9544)，版本日期 2022-11-03；查閱日期 2026-11-19）。根據已知藥理學，鋰會抑制 GSK-3β，並調節 Wnt 訊號與自噬作用。
 
 假性軟骨發育不全由 COMP 基因突變引起，會造成軟骨細胞內質網壓力與細胞外基質缺陷。鋰對 Wnt 與自噬的調節，理論上可能與軟骨細胞壓力有關，但這純屬推測，本次資料中沒有任何研究支持。
 
@@ -105,6 +105,19 @@ TxGNN 模型預測它可能對**假性軟骨發育不全 (Pseudoachondroplasia)*
 - 評估鋰在兒童骨骼疾病族群的風險效益
 
 **其他候選的備註：** 在 TxGNN 其他預測中，WHIM 症候群（分數 0.9956）的機轉相對較可解釋（鋰可提升嗜中性白血球數），但同樣沒有任何臨床證據，仍屬假說層級。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Lithium Carbonate Lithium Carbonate (lithium carbonate) prescribing information, Alembic Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ca2b977-b94c-4232-9b7e-835db97c9544) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (liposarcoma)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Cabozantinib 屬於多重酪胺酸激酶抑制劑，標靶包括 VEGFR2、MET 與 AXL。這些分子與腫瘤血管新生及腫瘤進展有關，在軟組織肉瘤中也被認為扮演角色。
+根據美國 FDA 核准的 Cabozantinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「體外生化及/或細胞分析顯示，cabozantinib 可抑制 MET、VEGFR-1、-2 及 -3、AXL、RET、ROS1、TYRO3、MER、KIT、TRKB、FLT-3 及 TIE-2 的酪胺酸激酶活性。這些受體酪胺酸激酶參與正常細胞功能，以及致癌作用、轉移、腫瘤血管新生、抗藥性及腫瘤微環境維持等病理過程。」英文原文："In vitro biochemical and/or cellular assays have shown that cabozantinib inhibits the tyrosine kinase activity of MET, VEGFR-1, -2 and -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3, and TIE-2. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, drug resistance, and maintenance of the tumor microenvironment."（[DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5)，版本日期 2025-10-19；查閱日期 2026-11-19）。根據已知資訊，Cabozantinib 屬於多重酪胺酸激酶抑制劑，標靶包括 VEGFR2、MET 與 AXL。這些分子與腫瘤血管新生及腫瘤進展有關，在軟組織肉瘤中也被認為扮演角色。
 
 脂肪肉瘤屬於軟組織肉瘤的一種，因此從機轉上推測，抑制血管新生與 MET/AXL 訊號的藥物可能具有潛在療效。
 
@@ -113,6 +113,19 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (liposarcoma)** 有效，
 - 補充詳細的作用機轉資料（MOA）
 - 取得香港原廠仿單的警語與禁忌症資訊
 - 針對併用放射治療或免疫治療時的安全性（如瘻管、穿孔風險）建立監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

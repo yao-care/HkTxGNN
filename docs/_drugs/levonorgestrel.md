@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**痤瘡 (acne (disease))** 有效。
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Levonorgestrel 屬於孕激素類，帶有一定的殘餘雄性素活性。含雌激素的複方荷爾蒙避孕藥可抑制卵巢雄性素生成並提高性荷爾蒙結合球蛋白，因此可能改善痤瘡。
+根據美國 FDA 核准的 Levonorgestrel 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「持續釋放的 LNG 在局部促成 Skyla 避孕效果的機轉尚未獲得確證。針對 Skyla 及類似 LNG IUS 原型的研究提示了數種防止懷孕的機轉：子宮頸黏液變稠而阻止精子進入子宮、抑制精子獲能或存活，以及子宮內膜的改變。」英文原文："The local mechanism by which continuously released LNG contributes to the contraceptive effectiveness of Skyla has not been conclusively demonstrated. Studies of Skyla and similar LNG IUS prototypes have suggested several mechanisms that prevent pregnancy: thickening of cervical mucus preventing passage of sperm into the uterus, inhibition of sperm capacitation or survival, and alteration of the endometrium."（[DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309)，版本日期 2026-03-04；查閱日期 2026-11-19）。Levonorgestrel 屬於孕激素類，帶有一定的殘餘雄性素活性。含雌激素的複方荷爾蒙避孕藥可抑制卵巢雄性素生成並提高性荷爾蒙結合球蛋白，因此可能改善痤瘡。
 
 不過 levonorgestrel 屬雄性素活性較高的孕激素，效果可能不如抗雄性素孕激素（如 chlormadinone acetate、drospirenone、cyproterone acetate），甚至部分使用者可能使痤瘡惡化。因此兩者的關聯在機轉上並不單純。
 
@@ -119,11 +119,12 @@ TxGNN 模型預測它可能對**痤瘡 (acne (disease))** 有效。
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港已有至少 20 張相關許可證，以下清單可能並不完整；列出其中 5 張：」→「香港共有 28 張含本藥成分的許可證（全部有效；單一成分 2」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309) |
 
 <!-- review:end log -->
 

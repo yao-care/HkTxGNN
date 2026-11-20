@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**胰臟實性假乳頭狀癌 (solid pseudopapilla
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般而言，mitomycin 屬於 DNA 交聯型的細胞毒性藥物，
+根據美國 FDA 核准的 Mitomycin 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Mitomycin選擇性抑制去氧核糖核酸（DNA）的合成。鳥嘌呤及胞嘧啶的含量與mitomycin所誘導的交聯程度相關。在高藥物濃度下，細胞的RNA及蛋白質合成亦受到抑制。」英文原文："Mitomycin selectively inhibits the synthesis of deoxyribonucleic acid (DNA). The guanine and cytosine content correlates with the degree of mitomycin-induced cross-linking. At high concentrations of the drug, cellular RNA and protein synthesis are also suppressed."（[DailyMed: Mutamycin (mitomycin) prescribing information, Accord BioPharma Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbf0f6ba-3a53-4791-9a85-5c6b271eeb8e)，版本日期 2025-03-12；查閱日期 2026-11-19）。一般而言，mitomycin 屬於 DNA 交聯型的細胞毒性藥物，
 可抑制癌細胞的 DNA 複製，因此在機轉上有廣泛的抗腫瘤潛力。
 
 然而，這個預測的支持力道有限。胰臟實性假乳頭狀腫瘤通常以手術處理，惡性潛能較低，
@@ -116,6 +116,18 @@ TxGNN 模型預測它可能對**胰臟實性假乳頭狀癌 (solid pseudopapilla
 - 補充詳細的作用機轉資料（MOA），釐清與此腫瘤生物學的關聯
 - 取得香港衛生署核准仿單，確認警語、禁忌症與給藥途徑
 - 評估此腫瘤是否真有化療需求，再決定是否值得設計探索性研究
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Mutamycin (mitomycin) prescribing information, Accord BioPharma Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbf0f6ba-3a53-4791-9a85-5c6b271eeb8e) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

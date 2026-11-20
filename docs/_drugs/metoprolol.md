@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對**慢性肺心症 (chronic pulmonary heart disease
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，metoprolol 屬於 β1 選擇性乙型阻斷劑，可降低心率、心輸出量與腎素釋放，已用於多種心血管疾病。
+根據美國 FDA 核准的 Metoprolol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Metoprolol 是一種β1選擇性（心臟選擇性）腎上腺素受體阻斷劑。然而，此優先作用並非絕對，在較高血漿濃度下，metoprolol 亦會抑制主要位於支氣管及血管肌肉組織的β2腎上腺素受體。」英文原文："Metoprolol is a beta 1 -selective (cardioselective) adrenergic receptor blocking agent. This preferential effect is not absolute, however, and at higher plasma concentrations, metoprolol also inhibits beta 2 -adrenoreceptors, chiefly located in the bronchial and vascular musculature."（[DailyMed: Toprol Xl (metoprolol succinate) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=496ddfaa-7c9c-4888-b747-a210249b367a)，版本日期 2026-03-03；查閱日期 2026-11-19）。根據已知資訊，metoprolol 屬於 β1 選擇性乙型阻斷劑，可降低心率、心輸出量與腎素釋放，已用於多種心血管疾病。
 
 慢性肺心症是肺部疾病導致右心結構與功能改變的狀態，常與 COPD 並存。臨床上相關的問題是：心臟選擇性 β 阻斷劑能否在合併肺部疾病的病人中安全使用，以及是否有益。β1 選擇性理論上可減少支氣管收縮，部分觀察性研究顯示可能有益。
 
@@ -146,11 +146,12 @@ TxGNN 模型預測它可能對**慢性肺心症 (chronic pulmonary heart disease
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「以下為已列出的主要許可證（總數至少 20 張，清單可能不完整）。」→「以下為已列出的主要許可證（共 35 張含本藥成分的許可證，有」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Toprol Xl (metoprolol succinate) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=496ddfaa-7c9c-4888-b747-a210249b367a) |
 
 <!-- review:end log -->
 

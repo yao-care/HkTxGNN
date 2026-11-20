@@ -72,7 +72,7 @@ TxGNN 模型預測的首位新適應症為家族性泛發性雀斑樣痣，但�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Selumetinib 是 MEK1/2 抑制劑，用於神經纖維瘤（與 RAS/MAPK 路徑活化有關）。其在原適應症中的角色，機轉上可能延伸到同樣涉及此路徑的神經鞘腫瘤。
+根據美國 FDA 核准的 Selumetinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Selumetinib是一種絲裂原活化蛋白激酶激酶1及2（MEK1/2）抑制劑。MEK1/2蛋白是細胞外訊號相關激酶（ERK）路徑的上游調節因子。MEK及ERK均為受RAS調控之RAF-MEK-ERK路徑的關鍵組成部分，而該路徑常於不同類型的癌症中被活化。」英文原文："Selumetinib is an inhibitor of mitogen-activated protein kinase kinases 1 and 2 (MEK1/2). MEK1/2 proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway. Both MEK and ERK are critical components of the RAS-regulated RAF-MEK-ERK pathway, which is often activated in different types of cancers."（[DailyMed: Koselugo (selumetinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d042c61-f28f-4ab5-ab10-d7558c0d49ff)，版本日期 2026-05-26；查閱日期 2026-11-19）。根據已知資訊，Selumetinib 是 MEK1/2 抑制劑，用於神經纖維瘤（與 RAS/MAPK 路徑活化有關）。其在原適應症中的角色，機轉上可能延伸到同樣涉及此路徑的神經鞘腫瘤。
 
 NF2 相關神經鞘瘤病 (NF2-SWN) 的鞘瘤與 merlin 蛋白缺失有關，會導致下游 RAS/RAF/MEK/ERK 路徑活化。2024 年一篇發表於 Nature Communications 的研究指出，NF1 與 NF2 兩種腫瘤抑制基因在許旺氏細胞腫瘤中存在功能交互作用，為使用 MEK 抑制劑提供了合理的生物學基礎。另有一篇病例報告顯示，selumetinib 在 NF2 相關室管膜瘤患者中達到部分緩解。
 
@@ -148,6 +148,19 @@ Selumetinib 屬標靶藥物（MEK 抑制劑），用於腫瘤相關疾病。目�
 - 取得香港仿單的警語與禁忌症，完成安全性初篩
 - 釐清香港核准適應症文字，以確認與預測適應症之間的差距
 - 針對 84 筆交互作用（特別是強效 CYP3A4 抑制劑與抗凝血藥物）擬定用藥監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Koselugo (selumetinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d042c61-f28f-4ab5-ab10-d7558c0d49ff) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

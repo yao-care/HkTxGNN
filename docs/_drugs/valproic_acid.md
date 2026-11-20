@@ -66,7 +66,7 @@ TxGNN 模型預測分數最高的新適應症是**三叉神經腫瘤 (Trigeminal
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據文獻，丙戊酸是已確立的廣譜抗癲癇藥，作用包括阻斷鈉離子通道、增強 GABA 神經傳導，以及抑制 T 型鈣離子通道。
+根據美國 FDA 核准的 Valproic Acid 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Valproic acid 在胃腸道中解離為 valproate 離子。Valproate 發揮抗癲癇作用的機轉尚未確立。有人提出其對癲癇的活性與腦中 γ-胺基丁酸（GABA）濃度增加有關。」英文原文："Valproic acid dissociates to the valproate ion in the gastrointestinal tract. The mechanisms by which valproate exerts its antiepileptic effects have not been established. It has been suggested that its activity in epilepsy is related to increased brain concentrations of gamma-aminobutyric acid (GABA)."（[DailyMed: Valproic (valproic acid) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34a0d45a-4388-7d8b-e063-6394a90a6c3f)，版本日期 2025-05-23；查閱日期 2026-11-19）。根據文獻，丙戊酸是已確立的廣譜抗癲癇藥，作用包括阻斷鈉離子通道、增強 GABA 神經傳導，以及抑制 T 型鈣離子通道。
 
 **三叉神經腫瘤（排名 1）：** 這是 TxGNN 模型（深度學習）的預測，分數可能反映模型從相關疾病之間學到的相似性，並非生物學證據。唯一檢索到的文獻是 Sturge-Weber 症候群（一種伴隨癲癇的神經皮膚疾病）的病例系列，並非三叉神經腫瘤研究，關聯可能來自相關神經疾病的癲癇處置。丙戊酸在前臨床環境中有 HDAC 抑制相關的抗腫瘤活性，但沒有針對此腫瘤類型的直接證據。
 
@@ -142,6 +142,19 @@ TxGNN 模型預測分數最高的新適應症是**三叉神經腫瘤 (Trigeminal
 - 針對三叉神經腫瘤，需有前臨床或臨床資料支持 HDAC 抑制等抗腫瘤機轉。
 - 針對視覺性與驚嚇性癲癇，進行系統性文獻回顧，評估丙戊酸相對於現有標準治療的價值。
 - 針對育齡女性等高風險族群（致畸胎性）與肝功能、血小板，建立安全性監測計畫。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Valproic (valproic acid) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34a0d45a-4388-7d8b-e063-6394a90a6c3f) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

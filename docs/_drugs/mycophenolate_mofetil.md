@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**人類免疫缺乏病毒感染 (HIV infectious d
 
 ## 為什麼這個預測合理？
 
-Mycophenolate Mofetil 的活性代謝物 mycophenolic acid 會抑制 IMPDH，使淋巴球內的鳥苷核苷酸池下降，進而減少 T 細胞增殖。T 細胞活化程度降低，可能減少 HIV 可複製的目標細胞。DrugBank 的作用機轉欄位目前缺乏資料，以上說明來自本次整理的機轉分析。
+Mycophenolate Mofetil 的活性代謝物 mycophenolic acid 會抑制 IMPDH，使淋巴球內的鳥苷核苷酸池下降，進而減少 T 細胞增殖。T 細胞活化程度降低，可能減少 HIV 可複製的目標細胞。根據美國 FDA 核准的 Mycophenolate Mofetil 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Mycophenolate mofetil（MMF）於口服給藥後被吸收，並水解為活性代謝物 mycophenolic acid（MPA）。MPA 是肌苷單磷酸脫氫酶（IMPDH）兩種同功型（第 I 型及第 II 型）的選擇性非競爭性抑制劑，可抑制鳥苷核苷酸合成的從頭合成途徑，並阻斷 DNA 合成。」英文原文："Mycophenolate mofetil (MMF) is absorbed following oral administration and hydrolyzed to mycophenolic acid (MPA), the active metabolite. MPA is a selective uncompetitive inhibitor of the two isoforms (type I and type II) of inosine monophosphate dehydrogenase (IMPDH) leading to inhibition of the de novo pathway of guanosine nucleotide synthesis and blocks DNA synthesis."（[DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9)，版本日期 2026-07-31；查閱日期 2026-11-19）。
 
 此外，鳥苷三磷酸（GTP）下降可增強鳥苷類似物抗病毒藥物（如 abacavir、didanosine）的活性。小型研究顯示，在抗反轉錄病毒療法中加入本藥，血漿 HIV-1 RNA 有下降趨勢，且未見明顯的免疫功能損害。
 
@@ -128,11 +128,12 @@ Mycophenolate Mofetil 的活性代謝物 mycophenolic acid 會抑制 IMPDH，使
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本次整理至少有 20 張有效的單一成分許可證，清單可能不完整。」→「香港共有 22 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9) |
 
 <!-- review:end log -->
 

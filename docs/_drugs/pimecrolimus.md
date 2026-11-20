@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**脂漏性皮膚炎 (Seborrheic Dermatitis)** 有
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉（MOA）原始資料。根據已知資訊，pimecrolimus 屬於外用鈣調神經磷酸酶抑制劑，已知可阻斷 T 細胞活化，抑制 IL-2、IL-4、干擾素-γ 與 TNF-α 等發炎細胞激素的釋放，也能抑制肥大細胞去顆粒。
+根據美國 FDA 核准的 Pimecrolimus 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Pimecrolimus治療異位性皮膚炎的作用機轉尚不清楚。雖然已觀察到下列現象，但這些觀察結果在異位性皮膚炎中的臨床意義尚不清楚。已證實pimecrolimus可與macrophilin-12（FKBP-12）高親和力結合，並抑制鈣依賴性磷酸酶calcineurin。」英文原文："The mechanism of action of pimecrolimus in atopic dermatitis is not known. While the following have been observed, the clinical significance of these observations in atopic dermatitis is not known. It has been demonstrated that pimecrolimus binds with high affinity to macrophilin-12 (FKBP-12) and inhibits the calcium-dependent phosphatase, calcineurin."（[DailyMed: pimecrolimus prescribing information, Oceanside Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6601e43e-ce7d-446a-8568-8e7b24b86f06)，版本日期 2026-04-30；查閱日期 2026-11-19）。根據已知資訊，pimecrolimus 屬於外用鈣調神經磷酸酶抑制劑，已知可阻斷 T 細胞活化，抑制 IL-2、IL-4、干擾素-γ 與 TNF-α 等發炎細胞激素的釋放，也能抑制肥大細胞去顆粒。
 
 脂漏性皮膚炎是一種慢性、易復發的發炎性皮膚病，與皮膚上的 Malassezia 酵母菌引發的發炎反應有關。其發炎機轉與異位性皮膚炎有重疊，因此以抗發炎為主的鈣調神經磷酸酶抑制劑，在機轉上合理可行。文獻也提到 pimecrolimus 可能對 Malassezia 有抗黴活性，但此點仍需進一步確認。
 
@@ -116,6 +116,19 @@ TxGNN 模型預測它可能對**脂漏性皮膚炎 (Seborrheic Dermatitis)** 有
 **其他預測適應症的補充說明：**
 - **疹（exanthem，排名 3）**：證據等級 L2，僅有口腔扁平苔癬、外陰硬化性苔癬等小型先導試驗，結果不一致，建議列為研究問題（Research Question）。
 - **慢性萎縮性肢端皮膚炎（排名 4）**：僅有模型預測，無試驗與文獻，且屬螺旋體感染，外用免疫抑制劑可能適得其反，建議 Hold。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: pimecrolimus prescribing information, Oceanside Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6601e43e-ce7d-446a-8568-8e7b24b86f06) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

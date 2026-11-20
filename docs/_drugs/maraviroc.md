@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neo
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫未收錄）。已知 Maraviroc 是 CCR5 拮抗劑，透過阻斷 CCR5 受體發揮作用。
+根據美國 FDA 核准的 Maraviroc 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Maraviroc是一種HIV-1抗病毒藥物。[…] Maraviroc屬於一類稱為CCR5輔助受體拮抗劑的治療藥物。Maraviroc選擇性地與存在於細胞膜上的人類趨化激素受體CCR5結合，阻止CCR5嗜性HIV-1進入細胞所必需的HIV-1 gp120與CCR5之間的交互作用。」英文原文："Maraviroc is an HIV-1 antiviral drug. […] Maraviroc is a member of a therapeutic class called CCR5 co-receptor antagonists. Maraviroc selectively binds to the human chemokine receptor CCR5 present on the cell membrane, preventing the interaction of HIV-1 gp120 and CCR5 necessary for CCR5-tropic HIV-1 to enter cells."（[DailyMed: Selzentry (maraviroc) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c52dddd-0457-41cd-99e0-d30d4fd00ec5)，版本日期 2023-11-10；查閱日期 2026-11-19）。已知 Maraviroc 是 CCR5 拮抗劑，透過阻斷 CCR5 受體發揮作用。
 
 然而，多發性內分泌腫瘤主要由 MEN1 或 RET 基因驅動，目前並未確立 CCR5 在其發病機轉中的角色，因此**未發現直接的機轉關聯**。TxGNN 的高分（0.9982）僅屬計算預測，沒有任何試驗或文獻佐證，應謹慎看待。
 
@@ -120,6 +120,19 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neo
 - 補充 Maraviroc 的作用機轉資料
 - 針對 CCR5 與 MEN 的關聯進行前臨床驗證
 - 若要優先探索，可考慮機轉較連貫的方向（如 HER2 陽性乳癌的 CCL5/CCR5 抗藥性假設），先進行前臨床研究
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Selzentry (maraviroc) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c52dddd-0457-41cd-99e0-d30d4fd00ec5) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

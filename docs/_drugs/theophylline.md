@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**血栓性疾病 (Thrombotic Disease)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，theophylline 是非選擇性磷酸二酯酶（PDE）抑制劑，也是腺苷受體拮抗劑。
+根據美國 FDA 核准的 Theophylline 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Theophylline 在可逆性阻塞患者的呼吸道中具有兩種不同作用：平滑肌鬆弛（即支氣管擴張）及抑制呼吸道對刺激的反應（即非支氣管擴張性的預防作用）。」英文原文："Theophylline has two distinct actions in the airways of patients with reversible obstruction: smooth muscle relaxation (i.e., bronchodilation) and suppression of the response of the airways to stimuli (i.e., non-bronchodilator prophylactic effects)."（[DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410)，版本日期 2024-07-08；查閱日期 2026-11-19）。根據已知資訊，theophylline 是非選擇性磷酸二酯酶（PDE）抑制劑，也是腺苷受體拮抗劑。
 
 從理論上看，抑制 PDE 會使血小板內 cAMP 上升，可能降低血小板聚集，這是模型給出高分的可能原因。然而腺苷受體拮抗作用可能反過來削弱腺苷本身的抗血小板效果，因此淨效應方向並不確定。
 
@@ -142,6 +142,19 @@ Theophylline 治療濃度範圍狹窄，濃度過高有毒性，且許多交互�
 | 6 | 急性喉咽炎 (Acute Laryngopharyngitis) | 0.9935 | L5 | 無文獻、無試驗 |
 
 註：上表中的證據等級為各預測方向的原始評分，僅供參考。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

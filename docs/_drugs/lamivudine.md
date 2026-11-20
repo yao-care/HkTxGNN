@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**猿猴免疫缺陷病毒感染 (Simian Immunodef
 
 ## 為什麼這個預測合理？
 
-Lamivudine 是核苷類逆轉錄酶抑制劑（NRTI），可抑制 HIV-1 與 B 型肝炎病毒的逆轉錄酶。目前缺乏詳細的作用機轉資料，以上為已知的藥物類別特性。
+Lamivudine 是核苷類逆轉錄酶抑制劑（NRTI），可抑制 HIV-1 與 B 型肝炎病毒的逆轉錄酶。根據美國 FDA 核准的 Lamivudine 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Lamivudine是一種抗反轉錄病毒藥物。[…] Lamivudine是一種合成核苷類似物。在細胞內，lamivudine被磷酸化為其活性5′-三磷酸代謝物lamivudine triphosphate（3TC-TP）。3TC-TP的主要作用模式是在核苷酸類似物嵌入後，經由DNA鏈終止抑制HIV-1反轉錄酶（RT）。」英文原文："Lamivudine is an antiretroviral agent. […] Lamivudine is a synthetic nucleoside analogue. Intracellularly, lamivudine is phosphorylated to its active 5′-triphosphate metabolite, lamivudine triphosphate (3TC-TP). The principal mode of action of 3TC-TP is inhibition of HIV-1 reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue."（[DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8)，版本日期 2024-08-15；查閱日期 2026-11-19）。
 
 SIV 與 HIV 同屬慢病毒，逆轉錄酶高度同源，因此機轉上可能共通。獼猴的前臨床研究顯示，含 lamivudine 的方案具抗病毒活性，例如四合一抗病毒療法使病毒量快速下降、HAART 抑制病毒量，以及暴露後預防可阻斷陰道 SIV 傳播。SIV 逆轉錄酶上的 M184V 抗藥突變也與 HIV 相似。
 
@@ -126,11 +126,12 @@ SIV 與 HIV 同屬慢病毒，逆轉錄酶高度同源，因此機轉上可能�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本藥共有 20 張有效許可證（皆為單一成分，無已註銷），以下列出 5 張主要許可」→「香港共有 26 張含本藥成分的許可證（全部有效；單一成分 1」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8) |
 
 <!-- review:end log -->
 

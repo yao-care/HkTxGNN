@@ -54,7 +54,7 @@ Brivaracetam 是一種抗癲癇藥物。TxGNN 模型預測它可能對 **β-酮�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般認為 brivaracetam 與突觸囊泡蛋白 SV2A 結合而調節神經傳導，但本次彙整的資料中並未收錄這項機轉。
+根據美國 FDA 核准的 Brivaracetam 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「BRIVIACT發揮其抗痙攣活性的確切機轉尚不清楚。Brivaracetam對腦中的突觸囊泡蛋白2A（SV2A）展現高度且具選擇性的親和力，此可能促成其抗痙攣作用。」英文原文："The precise mechanism by which BRIVIACT exerts its anticonvulsant activity is not known. Brivaracetam displays a high and selective affinity for synaptic vesicle protein 2A (SV2A) in the brain, which may contribute to the anticonvulsant effect."（[DailyMed: Briviact (brivaracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c)，版本日期 2026-11-05；查閱日期 2026-11-19）。一般認為 brivaracetam 與突觸囊泡蛋白 SV2A 結合而調節神經傳導，但本次彙整的資料中並未收錄這項機轉。
 
 β-酮硫解酶缺乏症是異白胺酸與酮體代謝的先天代謝疾病。以現有資訊來看，找不到 brivaracetam 與此代謝缺陷之間合理的 SV2A 機轉連結。若病人出現癲癇發作，屬於一般癲癇處置，並不構成藥物再利用。
 
@@ -100,6 +100,19 @@ Brivaracetam 是一種抗癲癇藥物。TxGNN 模型預測它可能對 **β-酮�
 - 補齊 brivaracetam 的作用機轉資料，並評估與異白胺酸／酮體代謝缺陷的生物學關聯
 - 取得香港原廠仿單的警語與禁忌症
 - 有前臨床或病例層級的研究依據後，再重新評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Briviact (brivaracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

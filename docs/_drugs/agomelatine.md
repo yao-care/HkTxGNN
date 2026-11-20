@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**嬰兒良性陣發性斜頸 (benign paroxysmal t
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（本報告彙整的資料中，作用機轉欄位為空白）。藥理資料顯示，Agomelatine 與褪黑激素 MT1、MT2 受體及血清素 5-HT2A、5-HT2B、5-HT2C 受體有交互作用，臨床上用於重度憂鬱症。
+ChEMBL（EMBL-EBI）收錄的 Agomelatine 作用機轉（非官方翻譯）：「褪黑激素受體致效劑；血清素2c（5-HT2c）受體拮抗劑」英文原文："Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist"（[ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878)，CC BY-SA 3.0；查閱日期 2026-11-19）。藥理資料顯示，Agomelatine 與褪黑激素 MT1、MT2 受體及血清素 5-HT2A、5-HT2B、5-HT2C 受體有交互作用，臨床上用於重度憂鬱症。
 
 嬰兒良性陣發性斜頸是發生於嬰幼兒的陣發性疾病，屬偏頭痛譜系，與成人憂鬱症在病程與族群上差異很大。就目前彙整的資料而言，無法建立 Agomelatine 的受體作用與此疾病之間具說服力的機轉關聯。
 
@@ -95,6 +95,19 @@ TxGNN 模型預測它可能對**嬰兒良性陣發性斜頸 (benign paroxysmal t
 - 搜尋並評估是否有任何針對嬰兒良性陣發性斜頸的藥物治療研究
 - 取得香港原廠仿單的警語與禁忌症，並評估兒童族群的安全性
 - 若上述評估皆有支持，再考慮前臨床或機轉研究
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

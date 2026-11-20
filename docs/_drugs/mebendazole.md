@@ -57,7 +57,7 @@ Mebendazole 是苯并咪唑類驅蟲藥，原本用於蟯蟲症、蛔蟲症和�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊與文獻，Mebendazole 屬於苯并咪唑類驅蟲藥，一般認為它透過結合寄生蟲的 β-微管蛋白、破壞微管，進而影響寄生蟲的葡萄糖攝取與細胞內運輸。
+根據美國 FDA 核准的 Mebendazole 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Mebendazole 是一種 benzimidazole 類驅蟲藥。[…] Mebendazole 干擾蠕蟲體內細胞微管蛋白的形成，並導致其腸道出現超微結構退化性變化。結果，其葡萄糖攝取以及消化和生殖功能受到破壞，導致蠕蟲無法活動、產卵受到抑制及死亡。」英文原文："Mebendazole, a benzimidazole, is an anthelmintic. […] Mebendazole interferes with cellular tubulin formation in the helminth and causes ultrastructural degenerative changes in its intestine. As a result, its glucose uptake and the digestive and reproductive functions are disrupted, leading to immobilization, inhibition of egg production and death of the helminth."（[DailyMed: Vermox (mebendazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a720c424-517a-461b-8e13-6c37caf8aa3f)，版本日期 2021-10-05；查閱日期 2026-11-19）。根據已知資訊與文獻，Mebendazole 屬於苯并咪唑類驅蟲藥，一般認為它透過結合寄生蟲的 β-微管蛋白、破壞微管，進而影響寄生蟲的葡萄糖攝取與細胞內運輸。
 
 蟯蟲、蛔蟲、鞭蟲與多房棘球絛蟲 (*Echinococcus multilocularis*) 都是寄生蟲，同屬抗寄生蟲治療範疇。苯并咪唑類（albendazole 與 mebendazole）本來就是包蟲症化學治療的主要藥物，WHO 1996 年指引也列入這兩種藥。
 
@@ -125,6 +125,18 @@ Mebendazole 是苯并咪唑類驅蟲藥，原本用於蟯蟲症、蛔蟲症和�
 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 | 說明 |
 |-----------|-----------|---------|------|------|
 | 痤瘡 (Acne) | 0.9920 | L5 | Hold | 唯一檢索到的文獻是無關的裂頭蚴病個案，機轉上無合理關聯 |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Vermox (mebendazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a720c424-517a-461b-8e13-6c37caf8aa3f) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

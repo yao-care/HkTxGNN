@@ -59,7 +59,7 @@ Rufinamide 是一種抗癲癇藥物，原本用於治療 Lennox-Gastaut 症候�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據藥理學一般知識，Rufinamide 是鈉離子通道調節劑，可延長電壓門控鈉離子通道的不活化狀態，已用於 Lennox-Gastaut 症候群這類嚴重的發展性與癲癇性腦病變。（此說明為一般藥理推論，非來自本次彙整的資料。）
+根據美國 FDA 核准的 Rufinamide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Rufinamide發揮抗癲癇作用的確切機轉尚不明確。體外研究結果顯示，rufinamide的主要作用機轉為調節鈉離子通道的活性，特別是延長通道的不活化狀態。」英文原文："The precise mechanism(s) by which rufinamide exerts its antiepileptic effect is unknown. The results of in vitro studies suggest that the principal mechanism of action of rufinamide is modulation of the activity of sodium channels and, in particular, prolongation of the inactive state of the channel."（[DailyMed: Banzel (rufinamide) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d)，版本日期 2022-12-15；查閱日期 2026-11-19）。根據藥理學一般知識，Rufinamide 是鈉離子通道調節劑，可延長電壓門控鈉離子通道的不活化狀態，已用於 Lennox-Gastaut 症候群這類嚴重的發展性與癲癇性腦病變。（此說明為一般藥理推論，非來自本次彙整的資料。）
 
 FIRES 是發燒性感染後出現的難治性癲癇性腦病變，與 Lennox-Gastaut 症候群同樣有嚴重的癲癇發作表現，這是合理但未經證實的關聯。
 
@@ -121,6 +121,19 @@ FIRES 是發燒性感染後出現的難治性癲癇性腦病變，與 Lennox-Gas
 - 系統性檢索 FIRES 及相關癲癇症候群中使用 Rufinamide 的病例報告與觀察性研究。
 - 針對失神發作類與非典型癲癇症候群，先評估鈉離子通道阻斷劑可能加重發作的風險。
 - 若上述初步證據支持，再考慮設計探索性臨床研究。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Banzel (rufinamide) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -59,7 +59,7 @@ Pyridostigmine 是可逆性乙醯膽鹼酯酶抑制劑，原本用於重症肌�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。不過 Pyridostigmine 屬於可逆性乙醯膽鹼酯酶抑制劑，可增加神經肌肉接合部突觸間的乙醯膽鹼，是乙醯膽鹼受體 (AChR) 抗體陽性重症肌無力的標準症狀治療。
+根據美國 FDA 核准的 Pyridostigmine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Pyridostigmine bromide口服溶液可抑制膽鹼酯酶對乙醯膽鹼的破壞，從而使神經衝動更順暢地通過神經肌肉接合處傳遞。Pyridostigmine是neostigmine（Prostigmine TM ）的類似物，但在某些具臨床意義的方面與其不同；例如，pyridostigmine的特點為作用持續時間較長，且胃腸道副作用較少。」英文原文："Pyridostigmine bromide oral solution inhibits the destruction of acetylcholine by cholinesterase and thereby permits freer transmission of nerve impulses across the neuromuscular junction. Pyridostigmine is an analog of neostigmine (Prostigmine TM ), but differs from it in certain clinically significant respects; for example, pyridostigmine is characterized by a longer duration of action and fewer gastrointestinal side effects."（[DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780)，版本日期 2022-09-07；查閱日期 2026-11-19）。不過 Pyridostigmine 屬於可逆性乙醯膽鹼酯酶抑制劑，可增加神經肌肉接合部突觸間的乙醯膽鹼，是乙醯膽鹼受體 (AChR) 抗體陽性重症肌無力的標準症狀治療。
 
 胸腺增生是 AChR 抗體陽性重症肌無力的常見表現型，因此這項預測屬於原適應症的亞型，並非真正的藥物再利用。
 
@@ -122,6 +122,19 @@ Pyridostigmine 是可逆性乙醯膽鹼酯酶抑制劑，原本用於重症肌�
 - 取得香港衛生署核准適應症文字與仿單的警語、禁忌資料
 - 針對氣喘、腎病、泌尿道阻塞患者及併用類固醇或抗膽鹼藥物者，建立安全性監測計畫
 - 補充詳細的作用機轉資料
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

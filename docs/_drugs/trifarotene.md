@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**血漿鋅偏高 (zinc, elevated plasma)** 有效
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。從藥理資料可知，Trifarotene 是一種視網酸受體（RAR）的配體，作用於 RAR-α、RAR-β 與 RAR-γ，其中以 RAR-γ 選擇性最受關注，主要影響表皮角質細胞的分化。它的代謝高度不穩定，外用時全身暴露量有限。
+根據美國 FDA 核准的 Trifarotene 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Trifarotene 為視網酸受體（RAR）之致效劑，對 RAR 之 gamma 亞型具特別活性。刺激 RAR 會調節與多種過程相關之標的基因，包括細胞分化及發炎之媒介。」英文原文："Trifarotene is an agonist of retinoic acid receptors (RAR), with particular activity at the gamma subtype of RAR. Stimulation of RAR results in modulation of target genes which are associated with various processes, including cell differentiation and mediation of inflammation."（[DailyMed: Aklief (trifarotene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=62d910db-85a6-4696-b69b-4bd2f3080cfc)，版本日期 2024-09-16；查閱日期 2026-11-19）。從藥理資料可知，Trifarotene 是一種視網酸受體（RAR）的配體，作用於 RAR-α、RAR-β 與 RAR-γ，其中以 RAR-γ 選擇性最受關注，主要影響表皮角質細胞的分化。它的代謝高度不穩定，外用時全身暴露量有限。
 
 血漿鋅偏高是一種全身性的代謝或實驗室指標異常，與 RAR-γ 路徑沒有已知關聯。因此，**本報告未發現合理的機轉連結**。TxGNN 模型（深度學習）給出的高分（0.9940）可能反映模型從相關疾病之間學到的相似性，而非生物學證據，缺乏臨床或文獻佐證，應視為假設而非結論。
 
@@ -111,6 +111,19 @@ TxGNN 模型預測它可能對**血漿鋅偏高 (zinc, elevated plasma)** 有效
 - 取得香港仿單的警語與禁忌症資料
 - 若仍想探索，優先考慮與皮膚、毛囊相關的預測（例如 PAPA 症候群的痤瘡表現），並先做文獻回顧與前臨床驗證
 - 確認血漿鋅偏高是否有以外用藥物處理的臨床需求，否則不建議投入資源
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Aklief (trifarotene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=62d910db-85a6-4696-b69b-4bd2f3080cfc) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

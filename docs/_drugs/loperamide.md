@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**急性傳染性結膜炎 (Acute Contagious Conju
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知的藥理特性，Loperamide 是作用於腸道肌間神經叢的周邊 μ-鴉片受體促效劑，可降低腸道蠕動，用於控制腹瀉症狀。
+根據美國 FDA 核准的 Loperamide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「體外及動物研究顯示，loperamide hydrochloride 膠囊係藉由減緩腸道蠕動及影響水分與電解質通過腸道的移動而發揮作用。Loperamide 與腸壁中的鴉片類受體結合。」英文原文："In vitro and animal studies show that loperamide hydrochloride capsules act by slowing intestinal motility and by affecting water and electrolyte movement through the bowel. Loperamide binds to the opiate receptor in the gut wall."（[DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b)，版本日期 2026-07-09；查閱日期 2026-11-19）。就已知的藥理特性，Loperamide 是作用於腸道肌間神經叢的周邊 μ-鴉片受體促效劑，可降低腸道蠕動，用於控制腹瀉症狀。
 
 從機轉上看，**找不到合理的關聯**。Loperamide 沒有抗菌、抗病毒或抗發炎活性，無法處理感染性結膜炎的病因。高分預測來自 TxGNN 模型（深度學習），較可能反映模型從相近疾病（各類結膜炎）之間學到的相似性，而非生物學上的依據。
 
@@ -135,11 +135,12 @@ TxGNN 模型預測它可能對**急性傳染性結膜炎 (Acute Contagious Conju
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「下表列出 5 張主要許可證（共 20 張，皆為有效的單一成分製劑）：」→「下表列出 5 張主要許可證（共 57 張含本藥成分的許可證，」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b) |
 
 <!-- review:end log -->
 

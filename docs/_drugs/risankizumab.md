@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**皮膚炎 (dermatitis)** 有效，目前有 **2 
 
 ## 為什麼這個預測合理？
 
-Risankizumab 是 IL-23 p19 抑制劑。IL-23 驅動乾癬中的 Th17/Th22 發炎反應。目前缺乏 DrugBank 的詳細作用機轉資料，以上機轉說明來自文獻與藥物類別知識。
+Risankizumab 是 IL-23 p19 抑制劑。IL-23 驅動乾癬中的 Th17/Th22 發炎反應。根據美國 FDA 核准的 Risankizumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Risankizumab-rzaa是一種人源化IgG1單株抗體，可選擇性地與人類IL-23細胞激素的p19次單元結合，並抑制其與IL-23受體的交互作用。IL-23是一種天然存在的細胞激素，參與發炎及免疫反應。」英文原文："Risankizumab-rzaa is a humanized IgG1 monoclonal antibody that selectively binds to the p19 subunit of human IL-23 cytokine and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in inflammatory and immune responses."（[DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858)，版本日期 2026-10-23；查閱日期 2026-11-19）。
 
 異位性皮膚炎主要由 Th2 路徑驅動，但也涉及 Th22 及可能的 Th17，因此阻斷 IL-23 與 IL-22 有一定理論基礎。不過機轉上的關聯偏間接。此外，文獻也報告過 IL-23 抑制劑治療期間出現矛盾性濕疹，並有乾癬合併異位性皮膚炎患者合併使用 dupilumab 與 risankizumab 的世代研究，顯示此藥在混合表型中可能有角色，但也可能誘發濕疹。
 
@@ -116,6 +116,19 @@ Phase 2 試驗 NCT03706040 的發表文獻（PMID 36588137）標題未顯示明�
 - 取得香港衛生署仿單，確認警語、禁忌症與核准適應症
 - 補充詳細的作用機轉資料（DrugBank）
 - 評估乾癬合併異位性皮膚炎等混合表型族群的獲益與矛盾性濕疹風險
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

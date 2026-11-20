@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對 **Laubry-Pezzi 症候群 (Laubry-Pezzi syndrome)*
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Ropeginterferon alfa-2b 屬於聚乙二醇化干擾素，針對骨髓增生性疾病（如真性紅血球增多症）作用，具免疫調節與抑制異常造血純系的特性。
+根據美國 FDA 核准的 Ropeginterferon Alfa-2B 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Interferon alfa 屬於第 I 型干擾素類別，其在真性紅血球增多症及原發性血小板增多症中，透過與骨髓中稱為干擾素 α 受體（IFNAR）的跨膜受體結合而發揮細胞效應。與 IFNAR 結合後，會經由活化激酶（特別是 Janus 激酶 1（JAK1）及酪胺酸激酶 2（TYK2））及轉錄活化因子（STAT）蛋白，啟動下游訊號傳導級聯反應。」英文原文："Interferon alfa belongs to the class of type I interferons, which exhibit their cellular effects in polycythemia vera and essential thrombocythemia in the bone marrow by binding to a transmembrane receptor termed interferon alfa receptor (IFNAR). Binding to IFNAR initiates a downstream signaling cascade through the activation of kinases, in particular Janus kinase 1 (JAK1) and tyrosine kinase 2 (TYK2) and activator of transcription (STAT) proteins."（[DailyMed: Besremi (ropeginterferon alfa-2b) prescribing information, PharmaEssentia USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9583405d-53a0-49dc-88eb-5e6384ebabcb)，版本日期 2026-08-25；查閱日期 2026-11-19）。Ropeginterferon alfa-2b 屬於聚乙二醇化干擾素，針對骨髓增生性疾病（如真性紅血球增多症）作用，具免疫調節與抑制異常造血純系的特性。
 
 Laubry-Pezzi 症候群是心室中膈缺損合併主動脈瓣逆流，屬於先天性心臟結構異常。干擾素類藥物無法矯正結構缺陷，兩者之間未找到可信的機轉連結。高分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 
@@ -91,6 +91,19 @@ Laubry-Pezzi 症候群是心室中膈缺損合併主動脈瓣逆流，屬於先�
 - 取得作用機轉（MOA）資料，並重新評估是否存在任何可信的機轉連結
 - 取得香港衛生署仿單的警語與禁忌資料
 - 找到直接研究 Laubry-Pezzi 症候群的前臨床或臨床證據；在此之前不建議推進
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Besremi (ropeginterferon alfa-2b) prescribing information, PharmaEssentia USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9583405d-53a0-49dc-88eb-5e6384ebabcb) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

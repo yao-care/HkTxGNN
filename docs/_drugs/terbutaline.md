@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**呼吸道畸形 (respiratory malformation)** 有
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就藥理類別而言，Terbutaline 屬於 β2 受體促效劑，其支氣管擴張作用理論上可緩解先天性氣道或肺部異常所伴隨的可逆性氣流受阻或喘鳴症狀。
+根據美國 FDA 核准的 Terbutaline 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「體外及體內藥理學研究證實，terbutaline 對 beta 2 -腎上腺素受體具優先作用。雖然已知 beta2-腎上腺素受體是支氣管平滑肌中的主要受體，但數據顯示人類心臟中亦存在一群 beta2-受體，其濃度介於 10% 至 50% 之間。」英文原文："In vitro and in vivo pharmacologic studies have demonstrated that terbutaline exerts a preferential effect on beta 2 -adrenergic receptors. While it is recognized that beta2-adrenergic receptors are the predominant receptors in bronchial smooth muscle, data indicate that there is a population of beta2-receptors in the human heart, existing in a concentration between 10% to 50%."（[DailyMed: terbutaline sulfate prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=859267c6-3d14-4123-9b9d-4fc248f09726)，版本日期 2025-12-10；查閱日期 2026-11-19）。就藥理類別而言，Terbutaline 屬於 β2 受體促效劑，其支氣管擴張作用理論上可緩解先天性氣道或肺部異常所伴隨的可逆性氣流受阻或喘鳴症狀。
 
 但這種作用並不能矯正結構性缺陷。較高的預測分數比較可能反映模型中該藥與呼吸系統疾病節點的網絡鄰近性，而非針對此疾病的特異生物學機轉。現有資料中沒有任何對照研究在呼吸道畸形族群中評估此藥，因此證據僅為間接性，證據等級依規則判定為 L5。
 
@@ -113,6 +113,18 @@ TxGNN 模型預測它可能對**呼吸道畸形 (respiratory malformation)** 有
 - 取得香港許可證的仿單，確認警語、禁忌症與核准適應症
 - 界定具體的目標族群（如合併可逆性氣道阻塞的先天性氣道異常），並設計針對該族群的臨床或真實世界研究
 - 評估兒童族群的劑量與安全性（可參考 NCT04278404 的成果）
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: terbutaline sulfate prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=859267c6-3d14-4123-9b9d-4fc248f09726) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

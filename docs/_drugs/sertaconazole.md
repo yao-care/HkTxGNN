@@ -61,7 +61,7 @@ Sertaconazole 是咪唑類（imidazole）外用抗黴菌藥，原本用於足癬
 
 ## 為什麼這個預測合理？
 
-目前缺乏 DrugBank 的詳細作用機轉資料。根據文獻，Sertaconazole 是咪唑類抗黴菌藥，透過抑制麥角固醇（ergosterol）合成（抑制 lanosterol 14-α-demethylase）發揮作用。其苯并噻吩（benzothiophene）基團還能直接與真菌細胞壁的非固醇脂質結合，增加膜通透性，高濃度時可造成真菌死亡。
+根據美國 FDA 核准的 Sertaconazole 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Sertaconazole nitrate 是一種唑類抗真菌藥。[…] Sertaconazole 為唑類抗真菌藥，可抑制真菌細胞色素 P-450 介導的 14 alpha-羊毛固醇去甲基酶。此酶的功能是將羊毛固醇轉化為麥角固醇。麥角固醇是真菌細胞膜的關鍵成分，缺乏此成分會使細胞質中的關鍵成分自細胞滲漏，從而導致真菌細胞損傷。」英文原文："Sertaconazole nitrate is an azole antifungal. […] Sertaconazole, an azole antifungal agent, inhibits fungal cytochrome P-450-mediated 14 alpha-lanosterol demethylase enzyme. This enzyme functions to convert lanosterol to ergosterol. Ergosterol is a key component of fungal cell membranes and lack of this component leads to fungal cell injury by leakage of key constituents in the cytoplasm from the cell."（[DailyMed: Ertaczo (sertaconazole nitrate) prescribing information, Coral Way Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6fa8dc4-2620-474e-a9b4-6657d9cbfa96)，版本日期 2026-04-07；查閱日期 2026-11-19）。根據文獻，Sertaconazole 是咪唑類抗黴菌藥，透過抑制麥角固醇（ergosterol）合成（抑制 lanosterol 14-α-demethylase）發揮作用。其苯并噻吩（benzothiophene）基團還能直接與真菌細胞壁的非固醇脂質結合，增加膜通透性，高濃度時可造成真菌死亡。
 
 體癬與足癬同屬皮癬菌（dermatophyte）感染，致病菌相近，給藥途徑同為外用。機轉相同，因此預測在機轉上合理。這比較接近「適應症擴增」（label extension），而非真正跨疾病的藥物再利用。
 
@@ -131,6 +131,18 @@ Sertaconazole 是咪唑類（imidazole）外用抗黴菌藥，原本用於足癬
 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 | 備註 |
 |-----------|-----------|---------|------|------|
 | 外毛癬、內毛癬、Majocchi 肉芽腫、深部癬 | 99.37–0.9959 | L5 | Hold | 無臨床證據；毛囊或深部感染通常需全身治療 |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ertaczo (sertaconazole nitrate) prescribing information, Coral Way Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6fa8dc4-2620-474e-a9b4-6657d9cbfa96) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

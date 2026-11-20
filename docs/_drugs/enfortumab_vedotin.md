@@ -59,7 +59,7 @@ TxGNN 模型預測排名第一的新適應症為**痲瘋病 (Leprosy)**，但目
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫中未收錄）。根據已知資訊，Enfortumab vedotin 是 Nectin-4 導向的抗體藥物複合體，透過抗體將 MMAE 細胞毒性藥物送入表現 Nectin-4 的腫瘤細胞。
+根據美國 FDA 核准的 Enfortumab Vedotin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Enfortumab vedotin-ejfv 為一種 ADC。其抗體為針對 Nectin-4 的人類 IgG1 kappa 抗體，Nectin-4 為一種位於細胞表面的黏附蛋白。小分子 MMAE 為一種微管破壞劑，經由可被蛋白酶切割的連接子與抗體相連。」英文原文："Enfortumab vedotin-ejfv is an ADC. The antibody is a human IgG1 kappa directed against Nectin-4, an adhesion protein located on the surface of cells. The small molecule, MMAE, is a microtubule-disrupting agent, attached to the antibody via a protease-cleavable linker."（[DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed)，版本日期 2026-08-04；查閱日期 2026-11-19）。根據已知資訊，Enfortumab vedotin 是 Nectin-4 導向的抗體藥物複合體，透過抗體將 MMAE 細胞毒性藥物送入表現 Nectin-4 的腫瘤細胞。
 
 **痲瘋病的預測缺乏合理的機轉連結。** 痲瘋病由麻風分枝桿菌 (Mycobacterium leprae) 感染引起，Nectin-4 標的治療與此感染之間沒有已知關聯。高分數僅是計算模型的輸出，沒有試驗或文獻佐證，不宜視為有效訊號。
 
@@ -70,7 +70,6 @@ TxGNN 模型預測排名第一的新適應症為**痲瘋病 (Leprosy)**，但目
 ## 臨床試驗證據
 
 針對排名第一的痲瘋病：目前無相關臨床試驗登記。
-
 
 | 試驗編號 | 階段 | 狀態 | 人數 | 主要發現 |
 |---------|------|------|------|---------|
@@ -140,6 +139,19 @@ TxGNN 模型預測排名第一的新適應症為**痲瘋病 (Leprosy)**，但目
 - 取得香港衛生署許可證的核准適應症與仿單（警語、禁忌症），以釐清原適應症與安全性。
 - 補充 DrugBank 的作用機轉資料。
 - 痲瘋病、病毒及獸醫疾病等預測，除非有新的生物學證據，否則不建議投入資源。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

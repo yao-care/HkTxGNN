@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**手足搐搦性白內障 (tetanic cataract)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Ranibizumab 為抗 VEGF（血管內皮生長因子）藥物，臨床上用於視網膜血管與新生血管相關疾病。
+根據美國 FDA 核准的 Ranibizumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ranibizumab 產品與活性形式 VEGF-A（包括此分子具生物活性的裂解形式 VEGF110）的受體結合位點結合。VEGF-A 已被證實在眼部血管新生及血管阻塞模型中會引起新生血管形成及滲漏，並被認為與新生血管性 AMD、mCNV、DR、DME 及 RVO 後黃斑水腫的病理生理機制有關。」英文原文："Ranibizumab products bind to the receptor binding site of active forms of VEGF-A, including the biologically active, cleaved form of this molecule, VEGF110. VEGF-A has been shown to cause neovascularization and leakage in models of ocular angiogenesis and vascular occlusion and is thought to contribute to pathophysiology of neovascular AMD, mCNV, DR, DME and macular edema following RVO."（[DailyMed: Nufymco (ranibizumab-leyk) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05ed75bc-ae21-480b-9be4-cbc51689dd8a)，版本日期 2026-11-05；查閱日期 2026-11-19）。Ranibizumab 為抗 VEGF（血管內皮生長因子）藥物，臨床上用於視網膜血管與新生血管相關疾病。
 
 手足搐搦性白內障繼發於低血鈣或副甲狀腺功能低下，並非 VEGF 驅動的病程，機轉上看不出合理的抗 VEGF 作用途徑。此高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病（如糖尿病白內障、視網膜疾病等已知眼科適應症）之間的相似性，而非生物學證據。
 
@@ -100,6 +100,19 @@ TxGNN 模型預測它可能對**手足搐搦性白內障 (tetanic cataract)** �
 - 取得香港仿單的核准適應症、警語與禁忌資料。
 - 若仍想探索，需先有前臨床或機轉研究，證明對晶體混濁有作用，再考慮臨床試驗。
 - 其他白內障亞型（如糖尿病相關）目前的文獻都只涉及視網膜併發症處置，並非白內障本身的療效，也不建議以此作為推進依據。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Nufymco (ranibizumab-leyk) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05ed75bc-ae21-480b-9be4-cbc51689dd8a) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Milnacipran 屬於 SNRI 類藥物，透過抑制血清素與正腎上腺素的再回收，調節中樞疼痛的下行抑制路徑。
+根據美國 FDA 核准的 Milnacipran 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Milnacipran 的中樞性疼痛抑制作用的確切機轉，以及其改善人類纖維肌痛症症狀的能力，目前仍屬未知。臨床前研究顯示，milnacipran 是神經元正腎上腺素及血清素再回收的強效抑制劑；在體外試驗中，milnacipran 抑制正腎上腺素回收的效力約為抑制血清素回收的3倍，且不會直接影響多巴胺或其他神經傳導物質的回收。」英文原文："The exact mechanism of the central pain inhibitory action of milnacipran and its ability to improve the symptoms of fibromyalgia in humans are unknown. Preclinical studies have shown that milnacipran is a potent inhibitor of neuronal norepinephrine and serotonin reuptake; milnacipran inhibits norepinephrine uptake with approximately 3-fold higher potency in vitro than serotonin without directly affecting the uptake of dopamine or other neurotransmitters."（[DailyMed: Savella (milnacipran hydrochloride) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8b720a1e-034b-4583-b80d-105a794cce74)，版本日期 2026-01-26；查閱日期 2026-11-19）。根據已知資訊，Milnacipran 屬於 SNRI 類藥物，透過抑制血清素與正腎上腺素的再回收，調節中樞疼痛的下行抑制路徑。
 
 偏頭痛的病理與三叉神經血管系統敏感化、中樞疼痛調控異常有關。其他抗憂鬱藥（如 venlafaxine、amitriptyline）已被用於偏頭痛預防，因此 SNRI 在機轉上具合理性。纖維肌痛症同屬中樞敏感化相關的疼痛疾患，這也是模型預測的可能依據。
 
@@ -112,6 +112,19 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 - 設計檢力充足的第 2 期隨機對照試驗（以偏頭痛天數為主要終點）
 - 補齊作用機轉資料與香港仿單的警語及禁忌資料
 - 擬定針對高血壓、心血管疾病及血清素類藥物併用的安全性監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Savella (milnacipran hydrochloride) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8b720a1e-034b-4583-b80d-105a794cce74) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

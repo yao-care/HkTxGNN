@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**成人多葡聚醣體病 (Adult Polyglucosan Bod
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，alglucosidase alfa 是補充溶小體（lysosome）內酸性 α-葡萄糖苷酶的酵素替代藥物，用於分解溶小體內的肝醣。
+根據美國 FDA 核准的 Alglucosidase Alfa 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「龐貝氏症（酸性麥芽糖酶缺乏症、第 II 型肝醣貯積症、GSD II、第 II 型肝醣病）是一種遺傳性肝醣代謝疾病，由溶小體酵素 GAA 缺如或顯著缺乏所引起。Alglucosidase alfa 提供外源性 GAA。」英文原文："Pompe disease (acid maltase deficiency, glycogen storage disease type II, GSD II, glycogenosis type II) is an inherited disorder of glycogen metabolism caused by the absence or marked deficiency of the lysosomal enzyme GAA. Alglucosidase alfa provides an exogenous source of GAA."（[DailyMed: Lumizyme (alglucosidase alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6bfbc45-2d34-439e-8aad-59ee2d53d4df)，版本日期 2025-01-10；查閱日期 2026-11-19）。根據已知資訊，alglucosidase alfa 是補充溶小體（lysosome）內酸性 α-葡萄糖苷酶的酵素替代藥物，用於分解溶小體內的肝醣。
 
 APBD 由肝醣分支酶（GBE1）缺乏引起，導致分支不良的多葡聚醣在神經元與星狀膠細胞累積。兩者同屬肝醣代謝異常，這是模型預測的可能依據，但連結是間接的。
 
@@ -112,6 +112,19 @@ APBD 由肝醣分支酶（GBE1）缺乏引起，導致分支不良的多葡聚�
 - 進行前臨床研究（APBD 細胞或動物模型），驗證是否能減少多葡聚醣累積。
 - 取得香港原廠仿單，補齊核准適應症、警語與禁忌症。
 - 系統性檢索 APBD 與 GSD IV 的文獻與試驗登記，確認是否有未被收錄的證據。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Lumizyme (alglucosidase alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6bfbc45-2d34-439e-8aad-59ee2d53d4df) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

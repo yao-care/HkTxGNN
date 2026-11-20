@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**肝梗塞 (hepatic infarction)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，canakinumab 是 IL-1β 的單株抗體，
+根據美國 FDA 核准的 Canakinumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Canakinumab 是一種 IgG1/κ 同型的人類抗人類 IL-1β 單株抗體。Canakinumab 會與人類 IL-1β 結合，並藉由阻斷其與 IL-1 受體的交互作用而中和其活性，但不會與 IL-1α 或 IL-1 受體拮抗劑（IL-1ra）結合。」英文原文："Canakinumab is a human monoclonal anti-human IL-1β antibody of the IgG1/κ isotype. Canakinumab binds to human IL-1β and neutralizes its activity by blocking its interaction with IL-1 receptors, but it does not bind IL-1α or IL-1 receptor antagonist (IL-1ra)."（[DailyMed: Ilaris (canakinumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e)，版本日期 2026-06-08；查閱日期 2026-11-19）。根據已知資訊，canakinumab 是 IL-1β 的單株抗體，
 理論上可抑制 IL-1β 所驅動的發炎反應。
 
 肝梗塞是肝組織缺血造成的壞死，缺血後常伴隨無菌性發炎。
@@ -103,6 +103,19 @@ TxGNN 模型預測它可能對**肝梗塞 (hepatic infarction)** 有效，
 - 建立肝梗塞中 IL-1β 參與的基礎或動物模型證據
 - 回溯性文獻或病例資料，評估 IL-1 阻斷在缺血性肝損傷的可行性
 - 評估目標族群的感染風險與藥物交互作用監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ilaris (canakinumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

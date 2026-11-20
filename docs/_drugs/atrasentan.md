@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但目前**沒有
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫中的 MOA 欄位為空）。不過，根據藥理學資料，Atrasentan 是選擇性的內皮素 A 受體（ETA，基因 EDNRA）拮抗劑，對 ETB 受體也有作用紀錄，並在 29 種受體的篩選中顯示很少的非特異性拮抗。它原先曾評估用於非小細胞肺癌與前列腺癌（未成功）及糖尿病腎病變，最終於 2025 年 4 月獲 FDA 核准用於 IgA 腎病變，之後中國 NMPA 也跟進核准。
+根據美國 FDA 核准的 Atrasentan 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Atrasentan 是一種 ET A 受體拮抗劑（Ki = 0.034 nM），對 ET A 受體的選擇性比對 B 型內皮素受體（Ki = 63.3 nM）高出 >1800 倍。內皮素（ET）-1 被認為經由 ET A R 參與 IgAN 的致病機轉。」英文原文："Atrasentan is an ET A receptor antagonist (Ki = 0.034 nM) with >1800-fold selectivity for the ET A receptor compared to the endothelin type B receptor (Ki = 63.3 nM). Endothelin (ET)-1 is thought to contribute to the pathogenesis of IgAN via the ET A R."（[DailyMed: Vanrafia (atrasentan) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9a7e7f85-bfd0-44a0-beda-3bcfa8215c64)，版本日期 2026-06-12；查閱日期 2026-11-19）。不過，根據藥理學資料，Atrasentan 是選擇性的內皮素 A 受體（ETA，基因 EDNRA）拮抗劑，對 ETB 受體也有作用紀錄，並在 29 種受體的篩選中顯示很少的非特異性拮抗。它原先曾評估用於非小細胞肺癌與前列腺癌（未成功）及糖尿病腎病變，最終於 2025 年 4 月獲 FDA 核准用於 IgA 腎病變，之後中國 NMPA 也跟進核准。
 
 從機轉推測，內皮素訊號會影響血管張力以及卵巢、子宮的功能，因此阻斷 ETA 理論上可能影響月經調節。但這個推論屬於推測，尚未被驗證。閉經成因複雜（下視丘、腦下垂體、卵巢、子宮、懷孕等），單一機轉難以解釋，理由偏弱。
 
@@ -110,6 +110,19 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但目前**沒有
 - 進行文獻回顧與前臨床研究，檢驗內皮素 ETA 阻斷與月經調節之間的關聯
 - 釐清目標閉經類型（如下視丘性、卵巢性等）及可行的用藥族群
 - 評估胚胎-胎兒毒性風險與避孕管理等防護措施
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Vanrafia (atrasentan) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9a7e7f85-bfd0-44a0-beda-3bcfa8215c64) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

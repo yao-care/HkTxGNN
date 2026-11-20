@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**頸部神經母細胞瘤 (Cervical Neuroblastoma
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料可供直接引用。根據已知資訊，Lindane 是 GABA-A 受體（氯離子通道）拮抗劑，作為殺體外寄生蟲藥使用，其作用是干擾寄生蟲的神經傳導。
+ChEMBL（EMBL-EBI）收錄的 Lindane 作用機轉（非官方翻譯）：「GABA-A受體負向異位調節劑」英文原文："GABA-A receptor negative allosteric modulator"（[ChEMBL CHEMBL15891 (lindane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL15891)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Lindane 是 GABA-A 受體（氯離子通道）拮抗劑，作為殺體外寄生蟲藥使用，其作用是干擾寄生蟲的神經傳導。
 
 **坦白說，這個預測的合理性很低。** 目前找不到 GABA-A 氯離子通道拮抗作用與神經母細胞瘤之間的機轉關聯。0.9991 的分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 
@@ -101,6 +101,19 @@ TxGNN 模型預測它可能對**頸部神經母細胞瘤 (Cervical Neuroblastoma
 - 提出神經母細胞瘤的生物學假說，並進行前臨床研究（細胞或動物模型）驗證
 - 完成神經毒性與致癌性的完整風險評估
 - 評估給藥途徑的可行性（現有劑型為外用，不適用於腫瘤治療）
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL15891 (lindane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL15891) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

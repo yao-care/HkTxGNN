@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據一般藥理知識，Bromazepam 屬苯二氮平類，作為 GABA-A 受體的正向異位調節劑，具有抗焦慮、肌肉鬆弛、鎮靜及抗痙攣作用。
+ChEMBL（EMBL-EBI）收錄的 Bromazepam 作用機轉（非官方翻譯）：「GABA 受體 α-2 次單元正向異位調節劑」英文原文："GABA receptor alpha-2 subunit positive allosteric modulator"（[ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據一般藥理知識，Bromazepam 屬苯二氮平類，作為 GABA-A 受體的正向異位調節劑，具有抗焦慮、肌肉鬆弛、鎮靜及抗痙攣作用。
 
 與偏頭痛的可能關聯是間接的：降低神經元過度興奮、緩解肌肉緊繃，以及減輕可能誘發或加重發作的焦慮與壓力。
 
@@ -96,6 +96,19 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 - 補充詳細的作用機轉資料，釐清與偏頭痛的機轉關聯
 - 系統性檢索 Bromazepam 或同類藥物用於偏頭痛的臨床試驗與文獻
 - 評估與現有偏頭痛標準治療相比的風險效益，特別是依賴性與藥物過度使用問題
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

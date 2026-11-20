@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Clopidogrel 屬於 P2Y12 受體拮抗型抗血小板藥物，其在動脈血栓性疾病（冠心症、缺血性中風）的療效已被證實。
+根據美國 FDA 核准的 Clopidogrel 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Clopidogrel是血小板活化及凝集的抑制劑，其作用是透過其活性代謝物不可逆地結合於血小板上P2Y 12 類ADP受體。」英文原文："Clopidogrel is an inhibitor of platelet activation and aggregation through the irreversible binding of its active metabolite to the P2Y 12 class of ADP receptors on platelets."（[DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227)，版本日期 2025-05-30；查閱日期 2026-11-19）。根據已知資訊，Clopidogrel 屬於 P2Y12 受體拮抗型抗血小板藥物，其在動脈血栓性疾病（冠心症、缺血性中風）的療效已被證實。
 
 偏頭痛，特別是伴先兆的偏頭痛，與卵圓孔未閉 (PFO) 或其他右向左分流有關。目前的假說是血小板活化與反常栓塞（微栓子）或血小板釋放血清素，可能誘發先兆。若以 P2Y12 阻斷來降低血小板聚集，理論上可減少這些誘因。動物模型研究也顯示 P2Y12 受體參與偏頭痛相關的疼痛與微膠細胞活化。
 
@@ -155,11 +155,12 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效許可證，以下列出 5 張主要許可證」→「香港共有 27 張含本藥成分的許可證（有效 26 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227) |
 
 <!-- review:end log -->
 

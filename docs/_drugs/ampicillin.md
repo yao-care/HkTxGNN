@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**喉炎 (laryngitis)** 有效，
 
 ## 為什麼這個預測合理？
 
-Ampicillin 透過抑制細菌細胞壁合成而殺菌。目前缺乏詳細的作用機轉資料（資料庫未提供），上述機轉為此類抗生素的一般特性。
+Ampicillin 透過抑制細菌細胞壁合成而殺菌。根據美國 FDA 核准的 Ampicillin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ampicillin 對處於活躍繁殖期的敏感細菌所具有的殺菌作用與 penicillin 相似。其作用是透過抑制細胞壁生物合成，進而導致細菌死亡。」英文原文："Ampicillin is similar to penicillin in its bactericidal action against susceptible bacteria during the stage of active multiplication. It acts through the inhibition of cell wall biosynthesis that leads to the death of the bacteria."（[DailyMed: ampicillin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4134cd79-c895-4e6e-b1d5-8e01c38bf2d1)，版本日期 2026-07-27；查閱日期 2026-11-19）。
 
 細菌性喉部感染（例如由 *Haemophilus influenzae* 引起的會厭炎）理論上可能對 ampicillin 敏感，這是模型預測在機轉上的可能connection。但近年許多 *H. influenzae* 菌株會產生 β-內醯胺酶而對 ampicillin 產生抗藥性，限制了經驗性使用。
 
@@ -123,11 +123,12 @@ Ampicillin 透過抑制細菌細胞壁合成而殺菌。目前缺乏詳細的作
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有多張含 ampicillin 單方成分的有效許可證（資料可能不完整），」→「香港共有 32 張含本藥成分的許可證（有效 31 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: ampicillin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4134cd79-c895-4e6e-b1d5-8e01c38bf2d1) |
 
 <!-- review:end log -->
 

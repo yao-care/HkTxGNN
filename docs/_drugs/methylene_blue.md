@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前**
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知的藥理學背景，亞甲藍可抑制一氧化氮合成酶（NOS）與鳥苷酸環化酶，並具有氧化還原循環特性，理論上可能影響呼吸道發炎或氧化壓力。
+根據美國 FDA 核准的 Methylene Blue 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Methylene blue 是一種水溶性噻嗪染料，可促進 metHb 經非酵素性氧化還原反應轉化為血紅素。在體內，methylene blue 首先經由 NADPH 還原酶轉化為 leucomethylene blue（LMB）。隨後由 LMB 分子將 metHb 的三價鐵還原為正常血紅素的二價鐵狀態。」英文原文："Methylene blue is a water soluble thiazine dye that promotes a non-enyzmatic redox conversion of metHb to hemoglobin. In situ, methylene blue is first converted to leucomethylene blue (LMB) via NADPH reductase. It is the LMB molecule which then reduces the ferric iron of metHb to the ferrous state of normal hemoglobin."（[DailyMed: Provayblue (methylene blue) prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4f6848e5-35ed-4046-b13c-3032b5ba3232)，版本日期 2025-05-28；查閱日期 2026-11-19）。根據已知的藥理學背景，亞甲藍可抑制一氧化氮合成酶（NOS）與鳥苷酸環化酶，並具有氧化還原循環特性，理論上可能影響呼吸道發炎或氧化壓力。
 
 然而，檢索到的文獻**並未驗證**這個假設。這些文獻多半是將亞甲藍當作染色劑的診斷研究（如支氣管鏡染色），或是與亞甲藍無關的研究（植物精油、生物感測器、β 受體阻斷劑、心內膜炎個案）。這個關聯較可能是關鍵字檢索造成的假象，而非治療證據。
 
@@ -131,6 +131,19 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前**
 - 取得香港仿單，確認核准適應症、警語與禁忌
 - 若評估先天性高鐵血紅素血症（還原酶缺乏型），需釐清其是否屬於現有核准適應症的延伸
 - 針對高 DDI 風險（特別是血清素症候群風險）與 G6PD 缺乏症等族群，建立安全性監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Provayblue (methylene blue) prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4f6848e5-35ed-4046-b13c-3032b5ba3232) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對 **維生素過多症 (Hypervitaminosis)** 有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知資訊，Phentermine 主要透過促進去甲腎上腺素釋放（程度較低者還有多巴胺與血清素）來抑制食慾。
+根據美國 FDA 核准的 Phentermine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Phentermine 是一種擬交感神經胺，其藥理活性與此類用於肥胖症的原型藥物 amphetamine（d- 及 dll-amphetamine）相似。此類用於肥胖症的藥物通常稱為「食慾抑制劑」（anorectics 或 anorexigenics）。目前尚未確立此類藥物治療肥胖症的主要作用為抑制食慾，因為亦可能涉及其他中樞神經系統作用或代謝效應。」英文原文："Phentermine is a sympathomimetic amine with pharmacologic activity similar to the prototype drugs of this class used in obesity, amphetamine (d- and dll-amphetamine). Drugs of this class used in obesity are commonly known as “anorectics” or “anorexigenics.” It has not been established that the primary action of such drugs in treating obesity is one of appetite suppression since other central nervous system actions, or metabolic effects, may also be involved."（[DailyMed: Lomaira (phentermine hydrochloride) prescribing information, Calvin Scott & Co., Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0718f0f3-77f2-45d7-be12-1ed718c8b806)，版本日期 2026-05-21；查閱日期 2026-11-19）。就已知資訊，Phentermine 主要透過促進去甲腎上腺素釋放（程度較低者還有多巴胺與血清素）來抑制食慾。
 
 維生素過多症源於維生素攝取過量，食慾抑制並沒有已知的途徑可以治療此疾病。因此，這項預測**缺乏合理的機轉連結**，高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病間相似性，而非生物學證據。
 
@@ -123,6 +123,19 @@ TxGNN 模型預測它可能對 **維生素過多症 (Hypervitaminosis)** 有效�
 - 取得香港仿單的警語與禁忌資料
 - 若有興趣，可優先探索「16p11.2 近端微缺失症候群」的肥胖表型，先蒐集病例或登記資料，再考慮是否值得研究
 - 對維生素過多症、Hypervitaminosis、Hypertelorism 與 Frontorhiny 這幾項預測，除非出現新證據，否則不建議投入資源
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Lomaira (phentermine hydrochloride) prescribing information, Calvin Scott & Co., Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0718f0f3-77f2-45d7-be12-1ed718c8b806) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

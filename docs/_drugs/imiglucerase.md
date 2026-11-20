@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對 **Hurler 症候群 (Hurler syndrome)** 有效，�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Imiglucerase 是重組葡萄糖腦苷脂酶，用於補充戈謝氏症患者缺乏的酵素，分解累積的葡萄糖腦苷脂（glucosylceramide）。
+根據美國 FDA 核准的 Imiglucerase 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「高雪氏症（Gaucher disease）的特徵為 β-葡萄糖腦苷脂酶活性缺乏，導致葡萄糖腦苷脂蓄積於多種組織，包括肝臟、脾臟及骨髓。imiglucerase 上的甘露糖可媒介其與包括巨噬細胞在內的細胞結合並被細胞內化。」英文原文："Gaucher disease is characterized by a deficiency of β-glucocerebrosidase activity, which results in accumulation of glucocerebroside in various tissues including liver, spleen, and bone marrow. The mannose sugars on imiglucerase mediate binding to and internalization by cells including macrophages."（[DailyMed: Cerezyme (imiglucerase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df60f030-866b-4374-a31f-8ae3f6b45c38)，版本日期 2026-08-27；查閱日期 2026-11-19）。已知 Imiglucerase 是重組葡萄糖腦苷脂酶，用於補充戈謝氏症患者缺乏的酵素，分解累積的葡萄糖腦苷脂（glucosylceramide）。
 
 Hurler 症候群（黏多醣症 I 型，MPS I）則是 α-L-艾杜糖醛酸酶（alpha-L-iduronidase）缺乏所致，累積的受質是醣胺聚醣（glycosaminoglycans）。Imiglucerase 作用的受質與此完全不同，**無法取代缺乏的酵素**，因此沒有直接的機轉依據。兩者唯一的關聯是「同屬溶小體儲積症、皆可採酵素替代療法」這個類別概念。
 
@@ -100,6 +100,19 @@ Hurler 症候群（黏多醣症 I 型，MPS I）則是 α-L-艾杜糖醛酸酶�
 - 前臨床證據，證明其對 α-L-艾杜糖醛酸酶缺乏的受質有任何作用（目前機轉上不成立）
 - 取得香港仿單的警語與禁忌症資料
 - 如需在其他預測適應症中尋找方向，現有證據以「伴隨骨骼表現的溶小體儲積症」最多，但該文獻幾乎全是針對原適應症戈謝氏症，並非真正的新適應症
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cerezyme (imiglucerase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df60f030-866b-4374-a31f-8ae3f6b45c38) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**多株性高黏滯症候群 (polyclonal hypervis
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知的藥理特性而言，ceftazidime 屬於頭孢菌素類，透過結合青黴素結合蛋白 (PBP)、抑制細菌細胞壁合成而殺菌，對綠膿桿菌等革蘭氏陰性菌具活性。
+根據美國 FDA 核准的 Ceftazidime 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ceftazidime 是一種殺菌劑，其作用機轉為抑制細菌細胞壁合成。Ceftazidime 在革蘭氏陰性菌及革蘭氏陽性菌的某些 beta-內醯胺酶（包括青黴素酶及頭孢菌素酶）存在下仍具有活性。」英文原文："Ceftazidime is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Ceftazidime has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria."（[DailyMed: ceftazidime prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=112c5457-8d71-49f5-b531-9761d7d38c93)，版本日期 2026-08-03；查閱日期 2026-11-19）。就已知的藥理特性而言，ceftazidime 屬於頭孢菌素類，透過結合青黴素結合蛋白 (PBP)、抑制細菌細胞壁合成而殺菌，對綠膿桿菌等革蘭氏陰性菌具活性。
 
 多株性高黏滯症候群源於血中免疫球蛋白過多造成血液黏滯度上升，並非細菌感染性疾病。抗菌藥物的作用機轉與此病的病理機制之間，目前看不出合理的關聯。
 
@@ -98,6 +98,18 @@ TxGNN 模型預測它可能對**多株性高黏滯症候群 (polyclonal hypervis
 - 提出可驗證的機轉假說，說明 ceftazidime 如何影響血液黏滯度或免疫球蛋白相關病理
 - 進行文獻與前臨床資料的系統性檢索，確認是否存在任何直接研究
 - 取得完整的作用機轉資料及原廠仿單的警語與禁忌症資訊
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: ceftazidime prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=112c5457-8d71-49f5-b531-9761d7d38c93) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

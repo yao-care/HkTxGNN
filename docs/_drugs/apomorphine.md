@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**外側裂周圍多小腦迴畸形，伴小腦發
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Apomorphine 是多巴胺 D1/D2 受體促效劑，作用於中樞神經系統的多巴胺訊號。
+根據美國 FDA 核准的 Apomorphine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「ONAPGO為一種非麥角類多巴胺致效劑，在體外對多巴胺D4受體具有高結合親和力，並對多巴胺D2、D3及D5受體以及腎上腺素α1D、α2B、α2C受體具有中度親和力。ONAPGO用於治療帕金森氏症的確切作用機轉尚不清楚，但一般認為係由於刺激腦內尾狀核-殼核中的突觸後多巴胺D2型受體所致。」英文原文："ONAPGO is a non-ergoline dopamine agonist with high in vitro binding affinity for the dopamine D4 receptor, and moderate affinity for the dopamine D2, D3, and D5, and adrenergic α1D, α2B, α2C receptors. The precise mechanism of action of ONAPGO as a treatment for Parkinson's disease is unknown, although it is believed to be due to stimulation of post-synaptic dopamine D2-type receptors within the caudate-putamen in the brain."（[DailyMed: Onapgo (apomorphine hydrochloride) prescribing information, MDD US Operations, LLC, a subsidiary of Supernus Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3552b6e-5ae7-4993-aa1a-e399c4a7080a)，版本日期 2026-10-05；查閱日期 2026-11-19）。已知 Apomorphine 是多巴胺 D1/D2 受體促效劑，作用於中樞神經系統的多巴胺訊號。
 
 然而，這項預測的疾病是一種先天性神經發育畸形（大腦皮質結構異常、小腦發育不全、關節攣縮）。目前找不到任何可連結多巴胺受體促效作用與此類結構性發育缺陷的機轉。此預測分數雖高，但沒有任何臨床試驗或文獻佐證，應視為純計算性的假說。
 
@@ -95,6 +95,19 @@ TxGNN 模型預測它可能對**外側裂周圍多小腦迴畸形，伴小腦發
 - 建立多巴胺訊號與此疾病病理機轉之間的生物學假說
 - 進行細胞或動物模型的前臨床驗證
 - 取得完整作用機轉資料與香港仿單的警語及禁忌症資料
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Onapgo (apomorphine hydrochloride) prescribing information, MDD US Operations, LLC, a subsidiary of Supernus Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3552b6e-5ae7-4993-aa1a-e399c4a7080a) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**牙齦纖維瘤病 (Fibromatosis, gingival)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Ponatinib 是多標靶酪胺酸激酶抑制劑，作用標靶包括 BCR-ABL、FGFR、PDGFR、VEGFR、SRC 與 KIT。它在 BCR-ABL1 陽性慢性骨髓性白血病中的療效已被證實。
+根據美國 FDA 核准的 Ponatinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ponatinib 是一種激酶抑制劑。於體外試驗中，ponatinib 可抑制 ABL 及 T315I 突變型 ABL 的酪胺酸激酶活性，其 IC 50 濃度分別為 0.4 nM 及 2.0 nM。Ponatinib 於體外亦可抑制其他激酶的活性，IC 50 濃度介於 0.1 nM 至 20 nM 之間，包括 VEGFR、PDGFR、FGFR、EPH 受體及 SRC 激酶家族的成員，以及 KIT、RET、TIE2 及 FLT3。」英文原文："Ponatinib is a kinase inhibitor. Ponatinib inhibited the in vitro tyrosine kinase activity of ABL and T315I mutant ABL with IC 50 concentrations of 0.4 nM and 2.0 nM, respectively. Ponatinib inhibited the in vitro activity of additional kinases with IC 50 concentrations between 0.1 nM and 20 nM, including members of the VEGFR, PDGFR, FGFR, EPH receptors and SRC families of kinases, and KIT, RET, TIE2, and FLT3."（[DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac)，版本日期 2026-08-14；查閱日期 2026-11-19）。根據已知資訊，Ponatinib 是多標靶酪胺酸激酶抑制劑，作用標靶包括 BCR-ABL、FGFR、PDGFR、VEGFR、SRC 與 KIT。它在 BCR-ABL1 陽性慢性骨髓性白血病中的療效已被證實。
 
 就牙齦纖維瘤病而言，PDGFR 等激酶訊號參與纖維母細胞增生與纖維化，理論上可能與組織纖維性過度生長有關。但這只是推測，沒有任何針對此疾病的證據支持。
 
@@ -140,6 +140,19 @@ TxGNN 模型預測它可能對**牙齦纖維瘤病 (Fibromatosis, gingival)** �
 - 查閱 PMID 29132397 全文，確認是否有 ponatinib 的專屬結果
 - 確認脂肪肉瘤各亞型（如 MDM2/CDK4 擴增型）的標靶表現，並進行前臨床模型驗證
 - 在任何臨床考量之前，先制定心血管風險評估與監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

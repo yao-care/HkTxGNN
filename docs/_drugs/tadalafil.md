@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對 **Ambras 型先天性全身多毛症 (Ambras type
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Tadalafil 屬於 PDE5 抑制劑，可提高細胞內 cGMP，作用於一氧化氮—cGMP 的血管舒張路徑。
+根據美國 FDA 核准的 Tadalafil 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「性刺激期間之陰莖勃起，係由陰莖動脈及海綿體平滑肌鬆弛導致陰莖血流增加所引起。此反應係由神經末梢及內皮細胞釋放一氧化氮（NO）所媒介，NO 會刺激平滑肌細胞內 cGMP 之合成。[…] Tadalafil 會抑制 PDE5。」英文原文："Penile erection during sexual stimulation is caused by increased penile blood flow resulting from the relaxation of penile arteries and corpus cavernosal smooth muscle. This response is mediated by the release of nitric oxide (NO) from nerve terminals and endothelial cells, which stimulates the synthesis of cGMP in smooth muscle cells. […] Tadalafil inhibits PDE5."（[DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895)，版本日期 2026-06-03；查閱日期 2026-11-19）。已知 Tadalafil 屬於 PDE5 抑制劑，可提高細胞內 cGMP，作用於一氧化氮—cGMP 的血管舒張路徑。
 
 Ambras 症候群是罕見的遺傳性毛髮發育異常，與染色體重組影響 TRPS1 調控有關。目前沒有已知的路徑能把 PDE5 抑制與此疾病連結。這個高分（0.9998）來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性（如與其他多毛症條目的相似性），而非生物學證據，也不代表 Tadalafil 特有的機轉。
 
@@ -129,11 +129,12 @@ Ambras 症候群是罕見的遺傳性毛髮發育異常，與染色體重組影�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「以下為已列出的前 5 張許可證（總數至少 20 張，清單可能不完整），均為單一成」→「以下為已列出的前 5 張許可證（共 55 張含本藥成分的許可」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895) |
 
 <!-- review:end log -->
 

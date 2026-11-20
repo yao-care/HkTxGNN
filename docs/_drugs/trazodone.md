@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**強迫症 (Obsessive-Compulsive Disorder)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據一般藥理知識，Trazodone 作用於血清素系統，包括 5-HT2A 受體拮抗與較弱的血清素再攝取抑制。其代謝物 m-CPP 也具有血清素活性。這些推論來自一般藥理學，而非本次彙整資料中的正式 MOA。
+根據美國 FDA 核准的 Trazodone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Trazodone 抗憂鬱作用的機轉尚未完全明瞭，但被認為與其增強中樞神經系統（CNS）中的血清素活性有關。Trazodone 既是選擇性血清素再回收抑制劑（SSRI），也是 5HT2 受體拮抗劑，此作用對血清素傳遞的淨結果及其在 trazodone 抗憂鬱效果中所扮演的角色尚不清楚。」英文原文："The mechanism of trazodone’s antidepressant action is not fully understood, but is thought to be related to its enhancement of serotonergic activity in the CNS. Trazodone is both a selective serotonin reuptake inhibitor (SSRI) and a 5HT2 receptor antagonist and the net result of this action on serotonergic transmission and its role in trazodone’s antidepressant effect is unknown."（[DailyMed: trazodone hydrochloride prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e861818-6e7b-fe6d-e063-6294a90a7768)，版本日期 2026-11-13；查閱日期 2026-11-19）。根據一般藥理知識，Trazodone 作用於血清素系統，包括 5-HT2A 受體拮抗與較弱的血清素再攝取抑制。其代謝物 m-CPP 也具有血清素活性。這些推論來自一般藥理學，而非本次彙整資料中的正式 MOA。
 
 強迫症的一線藥物（SSRI、clomipramine）同樣作用於血清素通路，因此在機轉上有合理的關聯。憂鬱症與強迫症常共病，也支持兩者在神經生物學上有重疊。
 
@@ -118,6 +118,19 @@ TxGNN 模型預測它可能對**強迫症 (Obsessive-Compulsive Disorder)** 有�
 - 取得香港仿單的警語與禁忌資料（目前為阻斷性缺口）。
 - 閱讀 1992 年 RCT 全文，確認樣本數、劑量與主要結果。
 - 設計現代化、足夠樣本數的對照試驗，並針對 QT 延長、姿位性低血壓與血清素相關交互作用制定監測計畫。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: trazodone hydrochloride prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e861818-6e7b-fe6d-e063-6294a90a7768) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**多毛症 (Hypertrichosis)** 有效，但目前*
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Lanreotide 屬於體抑素類似物，能抑制生長激素 (GH) 與 IGF-1 的分泌，這是它治療肢端肥大症的基礎。
+根據美國 FDA 核准的 Lanreotide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Lanreotide是SOMATULINE DEPOT的活性成分，為天然somatostatin的八肽類似物。Lanreotide的作用機轉據信與天然somatostatin相似。」英文原文："Lanreotide, the active component of SOMATULINE DEPOT is an octapeptide analog of natural somatostatin. The mechanism of action of lanreotide is believed to be similar to that of natural somatostatin."（[DailyMed: Somatuline Depot (lanreotide acetate) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e4a41fd-a753-4362-87ee-8cc56ed3660d)，版本日期 2024-10-11；查閱日期 2026-11-19）。根據已知資訊，Lanreotide 屬於體抑素類似物，能抑制生長激素 (GH) 與 IGF-1 的分泌，這是它治療肢端肥大症的基礎。
 
 IGF-1 訊號可能影響毛囊生長，因此理論上藥物可能調節毛髮生長。但毛髮過多症成因多元，包括先天性與藥物誘發型，目前沒有直接的機轉或臨床證據支持這個連結。這項預測的分數（0.9997）來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據，應視為待驗證的假說。
 
@@ -103,6 +103,19 @@ IGF-1 訊號可能影響毛囊生長，因此理論上藥物可能調節毛髮�
 - 系統性搜尋文獻與臨床試驗（含病例報告），確認是否有任何多毛症相關的實際觀察
 - 取得香港衛生署仿單，補齊核准適應症、警語與禁忌
 - 評估目標族群（如藥物誘發型多毛症）及給藥途徑是否可行，並權衡長期使用的風險與效益
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Somatuline Depot (lanreotide acetate) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e4a41fd-a753-4362-87ee-8cc56ed3660d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

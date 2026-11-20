@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**囊性腫瘤 (Cystic Neoplasm)** 有效，目前
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Niraparib 是 PARP 抑制劑，透過同源重組缺陷（HRD）造成的合成致死機制殺傷腫瘤細胞，在卵巢癌與腹膜癌的療效已被證實。
+根據美國 FDA 核准的 Niraparib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Niraparib為PARP酶（包括PARP-1及PARP-2）的抑制劑，此等酶參與DNA修復。體外研究顯示，niraparib所誘導的細胞毒性可能涉及抑制PARP酶活性，以及增加PARP-DNA複合物的形成，進而導致DNA損傷、細胞凋亡及細胞死亡。」英文原文："Niraparib is an inhibitor of PARP enzymes, including PARP-1 and PARP-2, that play a role in DNA repair. In vitro studies have shown that niraparib-induced cytotoxicity may involve inhibition of PARP enzymatic activity and increased formation of PARP-DNA complexes resulting in DNA damage, apoptosis, and cell death."（[DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d)，版本日期 2026-07-28；查閱日期 2026-11-19）。根據已知資訊，Niraparib 是 PARP 抑制劑，透過同源重組缺陷（HRD）造成的合成致死機制殺傷腫瘤細胞，在卵巢癌與腹膜癌的療效已被證實。
 
 「囊性腫瘤」是範圍很廣的本體論標籤，從現有證據看，它實際對應的是漿液性／囊性婦科腫瘤（如漿液性子宮內膜癌、高惡性度漿液性卵巢癌）。這類腫瘤常有 HRD 與染色體不穩定性，分子特徵與卵巢漿液性癌相似，機轉上確實可能適用 PARP 抑制劑。
 
@@ -146,6 +146,19 @@ Niraparib 屬於抗腫瘤藥物（PARP 抑制劑，標靶藥物類）。本報�
 - 補充作用機轉（MOA）資料
 - 取得香港衛生署核准仿單，確認適應症、警語與禁忌症
 - 若考慮漿液性子宮內膜癌，需建立 HRD 生物標記篩選與血液學／血壓監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

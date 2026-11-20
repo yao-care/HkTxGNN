@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**點狀上皮角結膜炎 (Punctate Epithelial Ke
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Tetracycline 是四環黴素類抗生素，對披衣菌（Chlamydia）等病原體的抗菌活性已被證實，並已用於衣原體結膜炎（砂眼與包涵體結膜炎）。
+ChEMBL（EMBL-EBI）收錄的 Tetracycline 作用機轉（非官方翻譯）：「細菌 70S 核糖體抑制劑」英文原文："Bacterial 70S ribosome inhibitor"（[ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Tetracycline 是四環黴素類抗生素，對披衣菌（Chlamydia）等病原體的抗菌活性已被證實，並已用於衣原體結膜炎（砂眼與包涵體結膜炎）。
 
 點狀上皮角膜炎可能在衣原體感染緩解後持續或復發，因此與已核准的結膜炎適應症在疾病脈絡上相關。此外，四環黴素類藥物具有抗發炎與抑制基質金屬蛋白酶（MMP）的特性，理論上可能有助於眼表發炎。
 
@@ -133,11 +133,12 @@ TxGNN 模型預測它可能對**點狀上皮角結膜炎 (Punctate Epithelial Ke
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「（共 9 張有效單方許可證，」→「（共 9 張單方許可證，8 張有效、HK-34922 已註銷；」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440) |
 
 <!-- review:end log -->
 

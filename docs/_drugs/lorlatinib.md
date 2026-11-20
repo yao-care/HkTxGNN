@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**牙齦纖維瘤病 (Fibromatosis, Gingival)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，lorlatinib 是 ALK/ROS1 抑制劑，在 ALK 陽性非小細胞肺癌中的療效已有 Phase 3 CROWN 試驗支持。
+根據美國 FDA 核准的 Lorlatinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Lorlatinib是一種激酶抑制劑，在體外對ALK及ROS1以及TYK1、FER、FPS、TRKA、TRKB、TRKC、FAK、FAK2及ACK具有活性。Lorlatinib在體外對多種ALK酵素突變型具有活性，包括部分在使用crizotinib及其他ALK抑制劑治療期間疾病惡化時於腫瘤中檢測到的突變。」英文原文："Lorlatinib is a kinase inhibitor with in vitro activity against ALK and ROS1 as well as TYK1, FER, FPS, TRKA, TRKB, TRKC, FAK, FAK2, and ACK. Lorlatinib demonstrated in vitro activity against multiple mutant forms of the ALK enzyme, including some mutations detected in tumors at the time of disease progression on crizotinib and other ALK inhibitors."（[DailyMed: Lorbrena (lorlatinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b34d62d-e02a-4af3-bc0d-1571dd4ee76d)，版本日期 2026-06-26；查閱日期 2026-11-19）。根據已知資訊，lorlatinib 是 ALK/ROS1 抑制劑，在 ALK 陽性非小細胞肺癌中的療效已有 Phase 3 CROWN 試驗支持。
 
 然而，ALK/ROS1 抑制與牙齦纖維瘤病之間找不到明確的生物學關聯。牙齦纖維瘤病是牙齦組織的纖維性增生，並非已知由 ALK 或 ROS1 驅動。0.998 的高分只是模型預測，沒有試驗或文獻佐證，應視為假說而非有依據的再利用方向。
 
@@ -111,6 +111,19 @@ TxGNN 模型預測它可能對**牙齦纖維瘤病 (Fibromatosis, Gingival)** �
 - 進行臨床前或機轉研究，作為任何臨床試驗的前提
 - 取得香港許可證的核准適應症文字與仿單警語、禁忌症
 - 參考同一預測清單中其他項目，例如 ALK 驅動的神經母細胞瘤，其已有 Phase 1 試驗訊號，可作為另一個獨立適應症追蹤
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Lorbrena (lorlatinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b34d62d-e02a-4af3-bc0d-1571dd4ee76d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

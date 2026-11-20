@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**伴有岩藻醣化缺陷的先天性糖基化異
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知的藥理特性而言，haloperidol 主要透過阻斷多巴胺 D2 受體發揮作用。
+根據美國 FDA 核准的 Haloperidol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「haloperidol decanoate治療成人思覺失調症的作用機轉尚不明確。然而，其對思覺失調症的作用可能是透過其作為中樞第2型多巴胺受體拮抗劑的活性所介導。」英文原文："The mechanism of action of haloperidol decanoate for the treatment of schizophrenia in adults is unclear. However, its effect in schizophrenia could be mediated through its activity as an antagonist at central dopamine type 2 receptors."（[DailyMed: haloperidol decanoate prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d011250-a517-4c27-8ce3-d59d441ea61c)，版本日期 2026-11-03；查閱日期 2026-11-19）。就已知的藥理特性而言，haloperidol 主要透過阻斷多巴胺 D2 受體發揮作用。
 
 針對此預測的疾病，目前沒有找到任何臨床或文獻證據，也未能辨識出 D2 拮抗作用與糖基化或岩藻醣化缺陷之間合理的機轉關聯。高分僅代表模型的運算結果，不代表實際療效，須謹慎解讀。
 
@@ -96,6 +96,18 @@ TxGNN 模型預測它可能對**伴有岩藻醣化缺陷的先天性糖基化異
 - 建立 D2 拮抗作用與糖基化／岩藻醣化缺陷之間的機轉假說，並以細胞或動物模型驗證
 - 取得香港衛生署核准的仿單，確認警語與禁忌症
 - 補充詳細的作用機轉資料
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: haloperidol decanoate prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d011250-a517-4c27-8ce3-d59d441ea61c) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

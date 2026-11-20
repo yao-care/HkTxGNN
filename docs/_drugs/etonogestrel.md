@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**閉經 (amenorrhea)** 有效，但目前**沒有
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，etonogestrel 是黃體素類藥物，可抑制排卵並使子宮內膜變薄。
+根據美國 FDA 核准的 Etonogestrel 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「NEXPLANON 的避孕作用係藉由抑制排卵、增加子宮頸黏液黏稠度及改變子宮內膜而達成。」英文原文："The contraceptive effect of NEXPLANON is achieved by suppression of ovulation, increased viscosity of the cervical mucus, and alterations in the endometrium."（[DailyMed: Nexplanon (etonogestrel) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487f8a62-e142-457c-97cc-2e398fde7594)，版本日期 2026-05-28；查閱日期 2026-11-19）。根據已知資訊，etonogestrel 是黃體素類藥物，可抑制排卵並使子宮內膜變薄。
 
 需要特別注意：閉經是此植入劑已知的**藥理副作用**（黃體素暴露的藥效學結果），並不是治療目標。TxGNN 的高分很可能反映「藥物類別與月經改變」之間的關聯，而非真正的再利用證據。若要說有潛在價值，較合理的方向是處理異常或大量出血，而非「治療閉經」本身。
 
@@ -113,6 +113,19 @@ TxGNN 模型預測它可能對**閉經 (amenorrhea)** 有效，但目前**沒有
 - 補充 DrugBank 的作用機轉資料
 - 重新界定臨床問題（例如以植入劑相關異常出血的管理取代「治療閉經」），並進行針對性文獻檢索
 - 針對乳房良性病變，需有前臨床或臨床研究佐證後才考慮重新評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Nexplanon (etonogestrel) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487f8a62-e142-457c-97cc-2e398fde7594) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

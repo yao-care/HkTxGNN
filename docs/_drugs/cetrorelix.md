@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**多毛症 (Hypertrichosis)** 有效，但目前*
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位未取得）。根據藥理資料，Cetrorelix 是作用於人類 GnRH₁ 受體（GNRHR）的拮抗劑，可抑制 LH／FSH 分泌，進而降低性腺的雄性素生成。
+根據美國 FDA 核准的 Cetrorelix 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「GnRH 誘導腦下垂體前葉的促性腺細胞產生並釋放黃體生成素（LH）及濾泡刺激素（FSH）。由於週期中期雌二醇（E2）的正回饋，GnRH 的釋放增強，導致 LH 激增。」英文原文："GnRH induces the production and release of luteinizing hormone (LH) and follicle stimulating hormone (FSH) from the gonadotrophic cells of the anterior pituitary. Due to a positive estradiol (E2) feedback at midcycle, GnRH liberation is enhanced resulting in an LH-surge."（[DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79)，版本日期 2025-09-22；查閱日期 2026-11-19）。根據藥理資料，Cetrorelix 是作用於人類 GnRH₁ 受體（GNRHR）的拮抗劑，可抑制 LH／FSH 分泌，進而降低性腺的雄性素生成。
 
 理論上，雄性素訊號下降可能影響依賴雄性素的毛髮生長。但多數多毛症（先天性、藥物誘發或代謝性）並非雄性素依賴型，因此機轉連結薄弱且屬推測。
 
@@ -99,6 +99,19 @@ TxGNN 的高分來自 TxGNN 模型（深度學習），可能反映模型在相�
 - 補充 DrugBank 的作用機轉資料
 - 若要探索，建議優先評估**中樞性性早熟**：進行文獻回顧，並確認短效劑型與兒童用藥的可行性
 - 多毛症需先釐清是否為雄性素依賴型，再決定是否有研究價值
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

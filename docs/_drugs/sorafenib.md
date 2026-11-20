@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫未收錄）。根據已知資訊，Sorafenib 是多重激酶抑制劑，作用標的包括 RAF/MEK/ERK 訊號路徑、VEGFR 與 PDGFR，這些路徑與腫瘤生長及血管新生有關。
+根據美國 FDA 核准的 Sorafenib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Sorafenib 是一種激酶抑制劑，可於體外減少腫瘤細胞增生。Sorafenib 已證實可抑制多種細胞內激酶（c-CRAF、BRAF 及突變型 BRAF）及細胞表面激酶（KIT、FLT- 3、RET、RET/PTC、VEGFR-1、VEGFR- 2、VEGFR- 3 及 PDGFR-ß）。」英文原文："Sorafenib is a kinase inhibitor that decreases tumor cell proliferation in vitro. Sorafenib was shown to inhibit multiple intracellular (c-CRAF, BRAF and mutant BRAF) and cell surface kinases (KIT, FLT- 3, RET, RET/PTC, VEGFR-1, VEGFR- 2, VEGFR- 3, and PDGFR-ß)."（[DailyMed: Nexavar (sorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0)，版本日期 2023-08-28；查閱日期 2026-11-19）。根據已知資訊，Sorafenib 是多重激酶抑制劑，作用標的包括 RAF/MEK/ERK 訊號路徑、VEGFR 與 PDGFR，這些路徑與腫瘤生長及血管新生有關。
 
 這些路徑在軟組織肉瘤中也有參與。前臨床研究顯示，Sorafenib 能抑制惡性周邊神經鞘瘤與去分化脂肪肉瘤細胞株的生長及 MAPK 訊號；去分化脂肪肉瘤異種移植模型則顯示 PTEN 下調與 PI3K 路徑依賴。
 
@@ -140,11 +140,12 @@ Sorafenib 屬抗腫瘤藥物（標靶藥物，多重激酶抑制劑）。
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「另有 HK-68700（SORAFENIB SANDOZ TABLETS 200」→「另有 HK-68700（SORAFENIB SANDOZ TABLETS 200」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Nexavar (sorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**退化性關節炎 (Osteoarthritis)** 有效，�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Daptomycin 是環狀脂肽類抗生素，對多數革蘭氏陽性病原菌有抗菌作用，已知可用於皮膚感染、菌血症與右側心內膜炎。
+根據美國 FDA 核准的 Daptomycin 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Daptomycin為一種抗菌藥物。[…] Daptomycin會與細菌細胞膜結合，並引起膜電位迅速去極化。此膜電位的喪失會導致DNA、RNA及蛋白質合成受抑制，進而導致細菌細胞死亡。」英文原文："Daptomycin is an antibacterial drug. […] Daptomycin binds to bacterial cell membranes and causes a rapid depolarization of membrane potential. This loss of membrane potential causes inhibition of DNA, RNA, and protein synthesis, which results in bacterial cell death."（[DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8)，版本日期 2022-01-25；查閱日期 2026-11-19）。根據已知資訊，Daptomycin 是環狀脂肽類抗生素，對多數革蘭氏陽性病原菌有抗菌作用，已知可用於皮膚感染、菌血症與右側心內膜炎。
 
 這個預測的合理性其實很有限。檢索到的文獻討論的是 Daptomycin 治療**骨關節感染與人工關節感染**（如葡萄球菌所致），而不是退化性關節炎。這個分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。沒有任何已知機轉能把 Daptomycin 的抗菌作用與軟骨退化連結起來。
 
@@ -128,6 +128,19 @@ TxGNN 模型預測它可能對**退化性關節炎 (Osteoarthritis)** 有效，�
 - 補齊作用機轉資料。
 - 若要探索，較值得優先研究的是**類風濕性關節炎**（已有動物模型的抗發炎證據），需先做更多前臨床驗證與肌肉安全性評估，再考慮人體研究。
 - 其餘排名較後的預測（如痛風、罕見骨骼發育不良）缺乏證據或有安全疑慮，不建議投入資源。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

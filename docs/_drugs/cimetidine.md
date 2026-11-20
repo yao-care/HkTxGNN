@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**消化性潰瘍穿孔 (peptic ulcer perforation)
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般認為 cimetidine 屬於 H2 受體拮抗劑，可抑制胃酸分泌，因此在消化性潰瘍的處置上有合理的輔助角色。
+根據美國 FDA 核准的 Cimetidine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Cimetidine錠劑可競爭性抑制組織胺在壁細胞組織胺H 2 受體上的作用，因此為組織胺H 2 受體拮抗劑。Cimetidine並非抗膽鹼劑。研究顯示，cimetidine錠劑可抑制日間及夜間的基礎胃酸分泌。」英文原文："Cimetidine tablets competitively inhibits the action of histamine at the histamine H 2 receptors of the parietal cells and thus is a histamine H 2 -receptor antagonist. Cimetidine is not an anticholinergic agent. Studies have shown that cimetidine tablets inhibit both daytime and nocturnal basal gastric acid secretion."（[DailyMed: cimetidine prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c0a509-026f-44e0-9975-a94a8de51d43)，版本日期 2026-07-15；查閱日期 2026-11-19）。一般認為 cimetidine 屬於 H2 受體拮抗劑，可抑制胃酸分泌，因此在消化性潰瘍的處置上有合理的輔助角色。
 
 不過，穿孔是需要手術處理的急症，而非單靠抑制胃酸即可治療的疾病。現有文獻主要是病例報告與信件，描述在 cimetidine 治療期間或停藥後發生穿孔（PMID 3967139、6743974、922364），屬於安全性或治療失敗的訊號，而非療效證據。TxGNN 的高分可能反映的是它與消化性潰瘍疾病本身的關聯，而不是對穿孔的真正治療效果。
 
@@ -120,11 +120,12 @@ TxGNN 模型預測它可能對**消化性潰瘍穿孔 (peptic ulcer perforation)
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有至少 20 張有效許可證，皆為單一成分製劑，以下為其中 5 張（清單可能」→「香港共有 85 張含本藥成分的許可證（有效 81 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: cimetidine prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c0a509-026f-44e0-9975-a94a8de51d43) |
 
 <!-- review:end log -->
 

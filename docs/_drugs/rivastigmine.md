@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**青光眼 (Glaucoma)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據藥物類別推論，Rivastigmine 是膽鹼酯酶抑制劑（同時抑制乙醯膽鹼酯酶與丁醯膽鹼酯酶），能提高乙醯膽鹼濃度。
+根據美國 FDA 核准的 Rivastigmine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「雖然 rivastigmine 的確切作用機轉尚不明確，但一般認為其透過增強膽鹼性功能發揮治療效果。此作用是藉由可逆性抑制膽鹼酯酶對乙醯膽鹼的水解，從而提高乙醯膽鹼濃度而達成。」英文原文："Although the precise mechanism of action of rivastigmine is unknown, it is thought to exert its therapeutic effect by enhancing cholinergic function. This is accomplished by increasing the concentration of acetylcholine through reversible inhibition of its hydrolysis by cholinesterase."（[DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d)，版本日期 2025-11-11；查閱日期 2026-11-19）。根據藥物類別推論，Rivastigmine 是膽鹼酯酶抑制劑（同時抑制乙醯膽鹼酯酶與丁醯膽鹼酯酶），能提高乙醯膽鹼濃度。
 
 在眼部，乙醯膽鹼作用於蕈毒鹼受體，可促進睫狀肌收縮並增加小樑網的房水流出，進而降低眼壓 (IOP)。這與 pilocarpine、physostigmine 等膽鹼類藥物的作用方向相似。
 
@@ -117,11 +117,12 @@ TxGNN 模型預測它可能對**青光眼 (Glaucoma)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效單方許可證（無已註銷）。」→「香港共有 29 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d) |
 
 <!-- review:end log -->
 

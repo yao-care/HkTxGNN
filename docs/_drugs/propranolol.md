@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**遠端肌病變，Tateyama 型 (distal myopathy,
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Propranolol 屬於非選擇性 β 腎上腺素受體阻斷劑，透過降低心率、減少心肌耗氧量來發揮作用，在心血管疾病中的療效已被證實。
+根據美國 FDA 核准的 Propranolol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Propranolol降血壓作用的機轉尚未確立。促成其降血壓作用的因素包括：心輸出量降低、抑制腎臟釋放腎素，以及減少腦部血管運動中樞的緊張性交感神經輸出。」英文原文："The mechanism of the antihypertensive effect of propranolol has not been established. Among factors that contribute to the antihypertensive action are: decreased cardiac output, inhibition of renin release by the kidneys, and diminution of tonic sympathetic nerve outflow from vasomotor centers in the brain."（[DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade)，版本日期 2026-08-27；查閱日期 2026-11-19）。Propranolol 屬於非選擇性 β 腎上腺素受體阻斷劑，透過降低心率、減少心肌耗氧量來發揮作用，在心血管疾病中的療效已被證實。
 
 然而，Tateyama 型遠端肌病變是一種與 caveolin 相關的遠端肌病變。根據本報告彙整的資料，β 受體阻斷與這個疾病之間**看不出明確的機轉關聯**。高達 0.9940 的分數屬於模型的計算結果，不能視為療效證據。
 
@@ -121,6 +121,19 @@ TxGNN 模型預測它可能對**遠端肌病變，Tateyama 型 (distal myopathy,
 - 進行文獻與臨床試驗登記的系統性檢索
 - 取得香港衛生署核准的仿單，確認警語與禁忌
 - 若有前臨床（細胞或動物模型）證據，再重新評估；目前建議優先研究其他排名較高證據的預測（例如肝硬化心肌病變、心肌病變，兩者皆為 L4 的研究問題）
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

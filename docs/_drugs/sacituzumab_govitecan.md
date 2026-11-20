@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**藥物引起的骨質疏鬆症 (Drug-induced Ost
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Sacituzumab govitecan 是 Trop-2 導向的 ADC，其 SN-38 酬載透過抑制拓樸異構酶 I 發揮細胞毒性。
+根據美國 FDA 核准的 Sacituzumab Govitecan 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Sacituzumab govitecan-hziy 為一種以 Trop-2 為標靶的抗體藥物複合體。Sacituzumab 為一種可辨識 Trop-2 的人源化抗體。小分子 SN-38 為一種拓樸異構酶 I 抑制劑，經由連接子以共價鍵與抗體相連。」英文原文："Sacituzumab govitecan-hziy is a Trop-2-directed antibody-drug conjugate. Sacituzumab is a humanized antibody that recognizes Trop-2. The small molecule, SN-38, is a topoisomerase I inhibitor, which is covalently attached to the antibody by a linker."（[DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d)，版本日期 2026-06-24；查閱日期 2026-11-19）。根據已知資訊，Sacituzumab govitecan 是 Trop-2 導向的 ADC，其 SN-38 酬載透過抑制拓樸異構酶 I 發揮細胞毒性。
 
 **坦白說，這個預測在機轉上並不合理。** 此藥的骨髓抑制與腸胃道毒性特性，無法解釋對骨質流失有益。TxGNN 模型（深度學習）給出的高分（0.9978）可能反映模型學到的相關疾病之間的相似性，並非生物學或臨床證據。
 
@@ -126,6 +126,19 @@ TxGNN 模型預測它可能對**藥物引起的骨質疏鬆症 (Drug-induced Ost
 - 取得香港仿單的警語、禁忌症與核准適應症
 - 有前臨床或機轉研究顯示對骨質流失有益，再考慮後續評估
 - 建議把資源轉向機轉上更合理、且有證據的候選藥物或適應症
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**思覺失調症 (Schizophrenia)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Orphenadrine 是抗膽鹼（抗毒蕈鹼）藥物，同時具有抗組織胺及 NMDA 受體通道阻斷的活性。其在帕金森氏症的療效來自於阻斷膽鹼作用以改善動作症狀。
+根據美國 FDA 核准的 Orphenadrine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「其作用模式尚未明確確立，但可能與止痛特性有關。Orphenadrine citrate具有抗膽鹼作用。」英文原文："The mode of action has not been clearly identified but may be related to analgesic properties. Orphenadrine citrate possesses anticholinergic actions."（[DailyMed: orphenadrine citrate prescribing information, Actavis Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aec8ad3a-f717-4e74-b7b9-19debdaad79a)，版本日期 2016-07-20；查閱日期 2026-11-19）。根據已知資訊，Orphenadrine 是抗膽鹼（抗毒蕈鹼）藥物，同時具有抗組織胺及 NMDA 受體通道阻斷的活性。其在帕金森氏症的療效來自於阻斷膽鹼作用以改善動作症狀。
 
 在臨床上，Orphenadrine 長期與抗精神病藥（如 haloperidol）併用，用來處理藥物引起的錐體外症候群。因此它與思覺失調症的關聯，主要是「處理治療副作用」，而不是治療疾病本身。
 
@@ -147,11 +147,12 @@ NMDA 通道阻斷作用與思覺失調症的麩胺酸假說有理論上的連結
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效許可證（皆為單方），以下列出 5 張。」→「香港共有 22 張含本藥成分的許可證（全部有效；單一成分 1」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: orphenadrine citrate prescribing information, Actavis Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aec8ad3a-f717-4e74-b7b9-19debdaad79a) |
 
 <!-- review:end log -->
 

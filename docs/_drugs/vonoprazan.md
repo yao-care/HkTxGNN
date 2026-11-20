@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**消化性潰瘍穿孔 (Peptic Ulcer Perforation)
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Vonoprazan 屬於鉀競爭型酸阻斷劑，透過抑制胃壁細胞的 H+/K+-ATP 酶來抑制胃酸分泌。知識圖譜記錄其與胃潰瘍、十二指腸潰瘍、食道炎及胃食道逆流症相關，日本、美國已有相關核准（香港許可證未載明適應症文字）。
+根據美國 FDA 核准的 Vonoprazan 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Vonoprazan 以鉀離子競爭性方式抑制 H +, K + -ATPase 酶系統，從而在胃壁細胞分泌面抑制基礎及受刺激的胃酸分泌。由於此酶被視為壁細胞內的酸（質子）幫浦，vonoprazan 被歸類為一種胃質子幫浦抑制劑，因其阻斷胃酸生成的最後步驟。」英文原文："Vonoprazan suppresses basal and stimulated gastric acid secretion at the secretory surface of the gastric parietal cell through inhibition of the H +, K + -ATPase enzyme system in a potassium-competitive manner. Because this enzyme is regarded as the acid (proton) pump within the parietal cell, vonoprazan has been characterized as a type of gastric proton-pump inhibitor, in that it blocks the final step of acid production."（[DailyMed: Voquezna (vonoprazan fumarate) prescribing information, Phathom Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0cc52ac5-77ec-4d66-a770-762a1a960914)，版本日期 2026-07-16；查閱日期 2026-11-19）。根據已知資訊，Vonoprazan 屬於鉀競爭型酸阻斷劑，透過抑制胃壁細胞的 H+/K+-ATP 酶來抑制胃酸分泌。知識圖譜記錄其與胃潰瘍、十二指腸潰瘍、食道炎及胃食道逆流症相關，日本、美國已有相關核准（香港許可證未載明適應症文字）。
 
 消化性潰瘍穿孔是潰瘍的嚴重併發症。抑酸治療可能作為輔助手段，但主要處置是手術或內視鏡修補。現有文獻支持的是潰瘍的治療與預防，並未顯示對穿孔結局有幫助，因此這項關聯屬於透過「母疾病」的間接推論。
 
@@ -107,6 +107,19 @@ TxGNN 模型預測它可能對**消化性潰瘍穿孔 (Peptic Ulcer Perforation)
 - **裂孔疝**與**出血性十二指腸炎**有間接的觀察性研究或潰瘍試驗，但並非直接研究該疾病。
 - **胃酸缺乏症**：Vonoprazan 會抑制胃酸，機轉上不支持使用，高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 - **幽門痙攣、Dieulafoy 病灶、瀑布胃、胃擴張**：缺乏支持證據，不建議進一步投入。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Voquezna (vonoprazan fumarate) prescribing information, Phathom Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0cc52ac5-77ec-4d66-a770-762a1a960914) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

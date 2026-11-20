@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**頭皮單純性毛髮稀少症 (Hypotrichosis si
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就一般藥理知識而言，spironolactone 是鹽皮質素受體拮抗劑，同時具有抗雄性素活性，可阻斷雄性素受體並降低雄性素合成。臨床上它常被超適應症用於雄性素性禿髮及女性型脫髮，因此與「毛髮」相關的機轉看似合理。
+根據美國 FDA 核准的 Spironolactone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Spironolactone 及其活性代謝物是醛固酮的特異性藥理拮抗劑，主要透過競爭性結合腎臟遠端曲小管中醛固酮依賴性鈉－鉀交換部位的受體而發揮作用。Spironolactone 會使鈉及水的排泄量增加，同時保留鉀。」英文原文："Spironolactone and its active metabolites are specific pharmacologic antagonists of aldosterone, acting primarily through competitive binding of receptors at the aldosterone-dependent sodium-potassium exchange site in the distal convoluted renal tubule. Spironolactone causes increased amounts of sodium and water to be excreted, while potassium is retained."（[DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc)，版本日期 2025-11-28；查閱日期 2026-11-19）。就一般藥理知識而言，spironolactone 是鹽皮質素受體拮抗劑，同時具有抗雄性素活性，可阻斷雄性素受體並降低雄性素合成。臨床上它常被超適應症用於雄性素性禿髮及女性型脫髮，因此與「毛髮」相關的機轉看似合理。
 
 不過，原適應症（心血管與電解質相關疾病）與新適應症（毛髮疾病）在疾病本質上關聯不大，兩者的連結主要來自模型運算。頭皮單純性毛髮稀少症是罕見的遺傳性疾病（例如 CDSN、APCDD1 或 RPL21 變異），病理機轉並非由雄性素驅動，因此抗雄性素作用是否適用並不明確。
 
@@ -117,6 +117,19 @@ TxGNN 模型預測它可能對**頭皮單純性毛髮稀少症 (Hypotrichosis si
 - 取得香港衛生署仿單中的警語與禁忌，完成安全性初步篩檢。
 - 進行文獻與試驗登記的系統性檢索，確認是否有病例報告或前臨床研究。
 - 評估給藥途徑（口服或外用）是否適合頭皮局部治療，並考量長期使用的安全性（如高血鉀、抗雄性素副作用）。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

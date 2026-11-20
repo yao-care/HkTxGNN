@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**慢性 B 型肝炎 (Chronic Hepatitis B Virus In
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Ribavirin 是核苷類似物，具廣譜抗病毒活性（一般認為涉及抑制 IMPDH、耗竭 GTP 以及免疫調節），在 C 型肝炎與呼吸道融合病毒感染的用途已有知識圖譜記錄。
+根據美國 FDA 核准的 Ribavirin 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Ribavirin是一種抗病毒藥物。[…] Ribavirin在臨床上發揮抗病毒療效的機轉尚未完全明瞭。在組織培養中，ribavirin對多種RNA病毒具有直接抗病毒活性。Ribavirin可提高數種RNA病毒基因體的突變頻率，而ribavirin三磷酸在生化反應中可抑制HCV聚合酶。」英文原文："Ribavirin is an antiviral drug. […] The mechanism by which ribavirin contributes to its antiviral efficacy in the clinic is not fully understood. Ribavirin has direct antiviral activity in tissue culture against many RNA viruses. Ribavirin increases the mutation frequency in the genomes of several RNA viruses and ribavirin triphosphate inhibits HCV polymerase in a biochemical reaction."（[DailyMed: ribavirin prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee304d0-c2ea-44f4-97d9-92a414d31b6c)，版本日期 2024-02-06；查閱日期 2026-11-19）。根據已知資訊，Ribavirin 是核苷類似物，具廣譜抗病毒活性（一般認為涉及抑制 IMPDH、耗竭 GTP 以及免疫調節），在 C 型肝炎與呼吸道融合病毒感染的用途已有知識圖譜記錄。
 
 C 型與 B 型肝炎同屬慢性病毒性肝炎，臨床上常使用相似的干擾素療法，這可能是模型給出高分的原因。不過，ribavirin 單用對 B 型肝炎病毒的抑制作用很弱，若有效益，較可能來自與干擾素合併時的免疫調節，而不是直接抑制病毒複製。TxGNN 的高分也可能反映肝炎與抗病毒網路的相近性，本身不足以證明療效。
 
@@ -118,6 +118,19 @@ C 型與 B 型肝炎同屬慢性病毒性肝炎，臨床上常使用相似的干
 - 追蹤 NCT03759782 的結果，並考慮設計 ribavirin 併用核苷類似物的對照試驗。
 
 **其他預測適應症（肝門脈硬化、原發性門靜脈血栓、肝肺症候群、早發家族性非肝硬化性門脈高壓、肝性卟啉症、IgG4 相關肥厚性腦膜炎、嗜酸性血管中心性纖維化、IgG4 相關縱隔炎）：** 均缺乏支持其療效的研究，證據等級皆為 L5，建議 Hold。肝性卟啉症的文獻多為 ribavirin 合併療法期間誘發卟啉症的個案報告，並非療效證據。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: ribavirin prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee304d0-c2ea-44f4-97d9-92a414d31b6c) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

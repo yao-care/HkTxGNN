@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**典型僵人症候群 (Classic Stiff Person Synd
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Metformin 在第二型糖尿病的療效已被證實，一般認為其作用與改善胰島素敏感性、活化 AMPK 路徑有關，但這部分並非來自本次彙整的資料，僅供參考。
+根據美國 FDA 核准的 Metformin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Metformin 是一種抗高血糖藥物，可改善第 2 型糖尿病患者的葡萄糖耐受性，降低基礎及餐後血漿葡萄糖。Metformin 可減少肝臟葡萄糖生成、減少腸道對葡萄糖的吸收，並透過增加周邊組織對葡萄糖的攝取與利用而改善胰島素敏感性。」英文原文："Metformin is an antihyperglycemic agent which improves glucose tolerance in patients with type 2 diabetes mellitus, lowering both basal and postprandial plasma glucose. Metformin decreases hepatic glucose production, decreases intestinal absorption of glucose, and improves insulin sensitivity by increasing peripheral glucose uptake and utilization."（[DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574)，版本日期 2026-09-21；查閱日期 2026-11-19）。Metformin 在第二型糖尿病的療效已被證實，一般認為其作用與改善胰島素敏感性、活化 AMPK 路徑有關，但這部分並非來自本次彙整的資料，僅供參考。
 
 僵人症候群是一種自體免疫性神經疾病（常見抗 GAD65 抗體），常與第一型糖尿病及其他自體免疫疾病並存。因此可推測 Metformin 透過 AMPK 活化與免疫代謝調節可能有某種關聯。但 Metformin 的抗發炎作用在這類神經疾病中尚未被證實，本次資料也不支持任何直接機轉。
 
@@ -141,11 +141,12 @@ TxGNN 模型預測它可能對**典型僵人症候群 (Classic Stiff Person Synd
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效單方許可證（無已註銷）。」→「香港共有 114 張含本藥成分的許可證（有效 112 張、已」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574) |
 
 <!-- review:end log -->
 

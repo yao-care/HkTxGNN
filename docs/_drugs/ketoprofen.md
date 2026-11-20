@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**肢端中段發育不良 Hunter-Thompson 型 (Ac
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Ketoprofen 一般被認為是非選擇性 COX 抑制劑，可減少前列腺素合成而產生止痛與消炎作用，但這一點在本報告所整理的資料中並未提供。
+根據美國 FDA 核准的 Ketoprofen 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「在抗炎模型中，ketoprofen已被證實對前列腺素及白三烯合成具有抑制作用，具有抗緩激肽活性，並具有穩定溶酶體膜的作用。然而，其作用模式與其他非類固醇抗炎藥相同，尚未完全明瞭。」英文原文："In anti-inflammatory models ketoprofen has been shown to have inhibitory effects on prostaglandin and leukotriene synthesis, to have antibradykinin activity, as well as to have lysosomal membrane-stabilizing action. However, its mode of action, like that of other non-steroidal anti-inflammatory drugs, is not fully understood."（[DailyMed: Orudis (ketoprofen) prescribing information, Allegis Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47d0b808-7142-c7a9-e063-6394a90a6e0d)，版本日期 2026-01-07；查閱日期 2026-11-19）。Ketoprofen 一般被認為是非選擇性 COX 抑制劑，可減少前列腺素合成而產生止痛與消炎作用，但這一點在本報告所整理的資料中並未提供。
 
 Hunter-Thompson 型肢端中段發育不良是由 CDMP1/GDF5 功能喪失所致的遺傳性骨骼發育異常，核心問題在於發育訊息傳遞缺陷。COX 抑制與 GDF5/BMP 路徑之間看不出明確的機轉關聯，最多只能考慮作為關節疼痛的症狀緩解。
 
@@ -115,11 +115,12 @@ Hunter-Thompson 型肢端中段發育不良是由 CDMP1/GDF5 功能喪失所致�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「下表為所列出的 5 張許可證（總數至少 20 張，清單可能不完整）。」→「下表為所列出的 5 張許可證（共 33 張含本藥成分的許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Orudis (ketoprofen) prescribing information, Allegis Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47d0b808-7142-c7a9-e063-6394a90a6e0d) |
 
 <!-- review:end log -->
 

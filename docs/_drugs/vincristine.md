@@ -55,7 +55,7 @@ TxGNN 模型預測分數最高的新適應症為「血管異常合併內分泌�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般而言，Vincristine 屬於長春花生物鹼，會抑制微管聚合、使快速分裂的細胞停在有絲分裂期，因此在淋巴增生性及其他快速增殖的腫瘤中具有合理的生物學基礎。
+根據美國 FDA 核准的 Vincristine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Vincristine sulfate 的作用機轉仍在研究中。Vincristine sulfate 的作用機轉與抑制有絲分裂紡錘體中微管的形成有關，導致分裂中的細胞停滯於中期。」英文原文："The mechanisms of action of vincristine sulfate remain under investigation. The mechanism of action of vincristine sulfate has been related to the inhibition of microtubule formation in mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage."（[DailyMed: vincristine sulfate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c)，版本日期 2026-02-17；查閱日期 2026-11-19）。一般而言，Vincristine 屬於長春花生物鹼，會抑制微管聚合、使快速分裂的細胞停在有絲分裂期，因此在淋巴增生性及其他快速增殖的腫瘤中具有合理的生物學基礎。
 
 排名第 1 的「血管異常合併內分泌與 T 細胞功能異常」是罕見症候群，沒有任何資料把藥物與此疾病連結起來。
 
@@ -125,6 +125,19 @@ TxGNN 模型預測分數最高的新適應症為「血管異常合併內分泌�
 - 閱讀文獻全文，確認 Vincristine 的實際使用情形與療效結果
 - 針對特定腹膜後腫瘤亞型（如橫紋肌肉瘤、副神經節瘤）另行評估，並確認其是否已屬標準治療
 - 對排名第 1 的罕見症候群，需先釐清其與藥物之間是否存在任何生物學連結
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: vincristine sulfate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

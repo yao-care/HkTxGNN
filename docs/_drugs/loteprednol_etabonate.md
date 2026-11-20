@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**結膜濾泡增生症 (conjunctival folliculosis
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Loteprednol Etabonate 是外用皮質類固醇，知識圖譜中記錄它與多種眼表發炎性疾病（異位性、乳突性、春季結膜炎等）有關，因此推測其抗發炎作用可能與濾泡性結膜變化有關。
+根據美國 FDA 核准的 Loteprednol Etabonate 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Loteprednol etabonate是一種皮質類固醇。皮質類固醇已被證實可抑制對多種誘發因子的發炎反應。它們可抑制與發炎相關的水腫、纖維蛋白沉積、微血管擴張、白血球遷移、微血管增生、纖維母細胞增生、膠原蛋白沉積及疤痕形成。」英文原文："Loteprednol etabonate is a corticosteroid. Corticosteroids have been shown to inhibit the inflammatory response to a variety of inciting agents. They inhibit the edema, fibrin deposition, capillary dilation, leukocyte migration, capillary proliferation, fibroblast proliferation, deposition of collagen, and scar formation associated with inflammation."（[DailyMed: Lotemax Sm (loteprednol etabonate) prescribing information, Bausch & Lomb Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f9477b5-699f-4d3b-b9a6-0cc238266237)，版本日期 2026-03-31；查閱日期 2026-11-19）。根據已知資訊，Loteprednol Etabonate 是外用皮質類固醇，知識圖譜中記錄它與多種眼表發炎性疾病（異位性、乳突性、春季結膜炎等）有關，因此推測其抗發炎作用可能與濾泡性結膜變化有關。
 
 不過，結膜濾泡增生症通常是良性變化，往往不需要抗發炎治療，實際臨床需求並不明確。目前支持這項預測的只有 TxGNN 分數。
 
@@ -116,6 +116,19 @@ TxGNN 模型預測它可能對**結膜濾泡增生症 (conjunctival folliculosis
 - 取得作用機轉資料與香港仿單的警語、禁忌與核准適應症
 - 針對預測疾病進行文獻檢索與臨床證據蒐集
 - 感染性適應症需先評估類固醇的安全性與必要的抗感染合併策略
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Lotemax Sm (loteprednol etabonate) prescribing information, Bausch & Lomb Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f9477b5-699f-4d3b-b9a6-0cc238266237) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

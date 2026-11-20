@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**雙側旁矢狀頂枕多小腦回症 (bilateral 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Riluzole 具有抑制麩胺酸釋放及調節電壓門控鈉離子通道的特性。
+根據美國 FDA 核准的 Riluzole 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Riluzole 對 ALS 患者發揮治療作用的機轉尚不明確。」英文原文："The mechanism by which riluzole exerts its therapeutic effects in patients with ALS is unknown."（[DailyMed: Tiglutik (riluzole) prescribing information, EDW PHARMA, INC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=75d68f19-4208-109e-e053-2991aa0ac857)，版本日期 2026-07-27；查閱日期 2026-11-19）。根據已知資訊，Riluzole 具有抑制麩胺酸釋放及調節電壓門控鈉離子通道的特性。
 
 多小腦回症是一種皮質發育畸形，與神經元遷移異常及神經興奮性改變有關，因此在麩胺酸訊號傳導上存在理論上的關聯。然而，這個關聯僅是推測，沒有直接的臨床或文獻證據支持。
 
@@ -98,6 +98,18 @@ TxGNN 分數很高（0.9999），但這只是計算模型的預測結果，需�
 - 補充詳細的作用機轉資料，並建立具體的機轉假說
 - 前臨床模型驗證
 - 取得香港衛生署仿單，完成警語與禁忌症的安全性評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Tiglutik (riluzole) prescribing information, EDW PHARMA, INC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=75d68f19-4208-109e-e053-2991aa0ac857) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

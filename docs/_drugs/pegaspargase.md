@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**慢性淋巴球性白血病／小淋巴球淋巴
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般而言，Pegaspargase 會分解血中的天門冬醯胺，使依賴外源性天門冬醯胺的淋巴母細胞缺乏養分，這是它用於 ALL 的基礎。
+根據美國 FDA 核准的 Pegaspargase 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「L-天門冬醯胺酶是一種酶，可催化胺基酸 L-天門冬醯胺轉化為天門冬胺酸及氨。ONCASPAR 的藥理作用被認為是基於血漿天門冬醯胺耗竭而導致白血病細胞死亡。」英文原文："L-asparaginase is an enzyme that catalyzes the conversion of the amino acid L-asparagine into aspartic acid and ammonia. The pharmacological effect of ONCASPAR is thought to be based on the killing of leukemic cells due to depletion of plasma asparagine."（[DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce)，版本日期 2024-10-07；查閱日期 2026-11-19）。一般而言，Pegaspargase 會分解血中的天門冬醯胺，使依賴外源性天門冬醯胺的淋巴母細胞缺乏養分，這是它用於 ALL 的基礎。
 
 預測的新適應症同屬淋巴系惡性腫瘤，這可能是模型給出高分的原因。不過，慢性淋巴球性白血病（CLL）細胞一般不被認為強烈依賴外源性天門冬醯胺，因此天門冬醯胺耗竭在此疾病的合理性並未建立。
 
@@ -111,6 +111,19 @@ TxGNN 模型預測它可能對**慢性淋巴球性白血病／小淋巴球淋巴
 - 進行前臨床或細胞株研究，驗證對 CLL/SLL 的活性。
 - 取得香港原廠仿單，確認核准適應症、警語與禁忌症。
 - 本次整理資料中，其他預測疾病（如淋巴樣腫瘤、NK/T 細胞淋巴瘤相關訊號）的證據多與 ALL 重疊或指向不同疾病，建議另案評估，不應與本預測合併判斷。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (hyperamylasemia)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Ceftriaxone 屬於頭孢菌素類抗生素，一般是以抑制細菌細胞壁合成來發揮抗菌作用。
+根據美國 FDA 核准的 Ceftriaxone 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Ceftriaxone 是一種抗菌藥物。[…] Ceftriaxone 是一種殺菌劑，藉由抑制細菌細胞壁合成而發揮作用。Ceftriaxone 在革蘭氏陰性菌及革蘭氏陽性菌的部分 β-內醯胺酶（包括青黴素酶及頭孢菌素酶）存在下仍具有活性。」英文原文："Ceftriaxone is an antibacterial drug. […] Ceftriaxone is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Ceftriaxone has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria."（[DailyMed: Ceftriaxone And Dextrose (ceftriaxone) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67153914-16bc-490d-82d7-638061618467)，版本日期 2022-01-13；查閱日期 2026-11-19）。Ceftriaxone 屬於頭孢菌素類抗生素，一般是以抑制細菌細胞壁合成來發揮抗菌作用。
 
 就現有資料而言，找不到抗菌作用與高澱粉酶血症之間的明確機轉連結。高澱粉酶血症是胰臟酵素升高的狀態，並非單純由細菌感染造成。相反地，ceftriaxone 已知可能引起膽汁淤積（biliary sludge）與假性膽結石，這本身可能使胰臟酵素升高，因此兩者的關聯較可能反映藥物不良反應，而非治療效益。
 
@@ -120,11 +120,12 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (hyperamylasemia)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「目前共 20 張有效單方許可證，無已註銷者；以上僅列出其中 5 張主要許可證，清」→「香港共有 28 張含本藥成分的許可證（全部有效；單一成分 1」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ceftriaxone And Dextrose (ceftriaxone) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67153914-16bc-490d-82d7-638061618467) |
 
 <!-- review:end log -->
 

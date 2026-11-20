@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**女性帶因者的症狀型血友病 (symptomati
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Evolocumab 是針對 PCSK9 的單株抗體。PCSK9 會促進 LDL 受體降解，抑制它可增加 LDL 受體數量並降低 LDL-C。它在家族性高膽固醇血症等血脂疾病中的療效已被確立。
+根據美國 FDA 核准的 Evolocumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Evolocumab 是一種針對人類前蛋白轉化酶枯草桿菌蛋白酶/kexin 第 9 型（PCSK9）的人類單株 IgG2 抗體。PCSK9 與肝細胞表面的低密度脂蛋白受體（LDLR）結合，以促進 LDLR 在肝臟內的降解。」英文原文："Evolocumab is a human monoclonal IgG2 directed against human proprotein convertase subtilisin kexin type 9 (PCSK9). PCSK9 binds to the low-density lipoprotein receptor (LDLR) on the surface of hepatocytes to promote LDLR degradation within the liver."（[DailyMed: Repatha (evolocumab) prescribing information, Amgen USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd61e902-166d-4aa6-9f3c-a18c1008d07e)，版本日期 2026-10-12；查閱日期 2026-11-19）。根據已知資訊，Evolocumab 是針對 PCSK9 的單株抗體。PCSK9 會促進 LDL 受體降解，抑制它可增加 LDL 受體數量並降低 LDL-C。它在家族性高膽固醇血症等血脂疾病中的療效已被確立。
 
 然而，女性帶因者的症狀型血友病，成因是 X 染色體連鎖變異造成凝血因子 VIII 或 IX 不足，與 LDL 受體或 PCSK9 路徑無關。Evolocumab 不會補充或提升凝血因子，因此**找不到合理的機轉關聯**。
 
@@ -113,6 +113,19 @@ TxGNN 模型（深度學習）給出的高分（0.9982）可能反映模型從�
 - 補齊 Evolocumab 的作用機轉資料（可由 DrugBank 取得）
 - 先以文獻檢索或前臨床研究，確認 PCSK9 抑制與凝血因子缺乏之間是否存在任何生物學連結
 - 若上述查證仍找不到合理依據，建議改為優先評估與脂質代謝較相關的預測（例如家族性 ApoC-II 缺乏症），並先蒐集初步證據
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Repatha (evolocumab) prescribing information, Amgen USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd61e902-166d-4aa6-9f3c-a18c1008d07e) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

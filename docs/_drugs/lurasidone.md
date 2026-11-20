@@ -55,7 +55,7 @@ Lurasidone 是一種非典型抗精神病藥，原本用於雙極性疾患與思
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知資訊，Lurasidone 屬於非典型抗精神病藥，一般認為其藥理與 D2／5-HT2A 拮抗，以及 5-HT7／5-HT1A 活性有關，這些作用可能與情緒發作的調節相關。
+根據美國 FDA 核准的 Lurasidone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Lurasidone治療思覺失調症及雙極性憂鬱症的作用機轉尚不明確。然而，其對思覺失調症及雙極性憂鬱症的療效可能是經由中樞dopamine D 2及serotonin第2型（5HT 2A）受體拮抗作用的組合所介導。」英文原文："The mechanism of action of lurasidone in the treatment of schizophrenia and bipolar depression is unclear. However, its efficacy in schizophrenia and bipolar depression could be mediated through a combination of central dopamine D 2 and serotonin Type 2 (5HT 2A ) receptor antagonism."（[DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8)，版本日期 2025-01-31；查閱日期 2026-11-19）。就已知資訊，Lurasidone 屬於非典型抗精神病藥，一般認為其藥理與 D2／5-HT2A 拮抗，以及 5-HT7／5-HT1A 活性有關，這些作用可能與情緒發作的調節相關。
 
 需要注意，這並不是典型的「藥物再利用」案例。Lurasidone 本來就已被核准用於雙極性疾患（主要是雙極性憂鬱），預測的「躁狂型」與已核准的憂鬱發作屬於不同的疾病階段。兩者同屬雙極性疾患，因此模型預測有其合理性，但現有證據並未直接證實它對躁狂發作有效。
 
@@ -122,6 +122,19 @@ Lurasidone 是一種非典型抗精神病藥，原本用於雙極性疾患與思
 - 重新評估兒童與青少年族群試驗的可行性
 
 **其他預測適應症說明：** 排名第 2 至第 10 的預測（視網膜失養症、無腦迴畸形、糖基化先天異常、多小腦迴畸形、X 連鎖近視、症候群性近視、Charcot-Marie-Tooth 1G 型、非典型甘胺酸腦病變等）僅有模型分數，均無臨床試驗或文獻支持，也找不到合理的機轉關聯，建議列為 Hold。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

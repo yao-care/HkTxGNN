@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**肺囊蟲病 (Pneumocystosis)** 有效，但目�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般而言，Itraconazole 抑制黴菌的羊毛固醇 14-α 去甲基酶（CYP51），阻斷麥角固醇（ergosterol）合成，進而破壞黴菌細胞膜。
+根據美國 FDA 核准的 Itraconazole 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「體外研究顯示，itraconazole 可抑制依賴細胞色素 P450 的麥角固醇合成，而麥角固醇是真菌細胞膜的重要成分。」英文原文："In vitro studies have demonstrated that itraconazole inhibits the cytochrome P450-dependent synthesis of ergosterol, which is a vital component of fungal cell membranes."（[DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0)，版本日期 2026-07-13；查閱日期 2026-11-19）。一般而言，Itraconazole 抑制黴菌的羊毛固醇 14-α 去甲基酶（CYP51），阻斷麥角固醇（ergosterol）合成，進而破壞黴菌細胞膜。
 
 但這個預測在機轉上**並不成立**。肺囊蟲（Pneumocystis jirovecii）的細胞膜缺乏麥角固醇，主要使用膽固醇等其他固醇類，因此唑類藥物的作用機轉預期對它無效。肺囊蟲病的標準用藥仍是 trimethoprim-sulfamethoxazole。
 
@@ -145,11 +145,12 @@ TxGNN 模型（深度學習）給出的高分（0.9934）可能反映模型從�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 19 張有效許可證，皆為單一成分製劑，無已註銷者。」→「香港共有 19 張許可證，皆為單一成分製劑，其中 18 張有效、HK-56489」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0) |
 
 <!-- review:end log -->
 

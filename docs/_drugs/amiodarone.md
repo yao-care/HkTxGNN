@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**兒茶酚胺敏感性多形性心室頻脈 (cate
 
 ## 為什麼這個預測合理？
 
-Amiodarone 屬於多通道抗心律不整藥，可阻斷鉀、鈉、鈣通道及 β 腎上腺素受體。理論上，這些作用可能抑制由兒茶酚胺誘發的心室性心律不整。本報告彙整的資料中缺乏正式的作用機轉描述，上述說明依藥理學一般知識整理。
+Amiodarone 屬於多通道抗心律不整藥，可阻斷鉀、鈉、鈣通道及 β 腎上腺素受體。理論上，這些作用可能抑制由兒茶酚胺誘發的心室性心律不整。根據美國 FDA 核准的 Amiodarone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Amiodarone 被視為第 III 類抗心律不整藥物，但具有 Vaughan Williams 分類全部四類的電生理特性。與第 I 類藥物相同，amiodarone 在快速節律頻率下會阻斷鈉離子通道；與第 II 類藥物相同，amiodarone 具有非競爭性的抗交感神經作用。」英文原文："Amiodarone is considered a class III antiarrhythmic drug, but it possesses electrophysiologic characteristics of all four Vaughan Williams classes. Like class I drugs, amiodarone blocks sodium channels at rapid pacing frequencies, and like class II drugs, amiodarone exerts a noncompetitive antisympathetic action."（[DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3)，版本日期 2025-11-05；查閱日期 2026-11-19）。
 
 不過，此疾病的核心機制是 RYR2 或 CASQ2 基因異常導致的舒張期鈣離子滲漏。目前已確立的治療為 β 阻斷劑與 flecainide，amiodarone 在此疾病中一般被認為效果不佳或不如前者。因此，高預測分數並不代表有實際療效。
 
@@ -108,6 +108,18 @@ Amiodarone 屬於多通道抗心律不整藥，可阻斷鉀、鈉、鈣通道及
 - 直接比較 amiodarone 與標準療法於此疾病的臨床或前臨床研究
 - 詳細的作用機轉資料，以及其對 RYR2/CASQ2 相關鈣離子滲漏的影響
 - 香港仿單的警語與禁忌症資料，以及針對此族群的安全性監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

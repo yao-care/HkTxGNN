@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**視網膜失養症（伴或不伴眼外異常）
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Loxapine 一般被認為是多巴胺 D2／血清素 5-HT2A 受體拮抗劑，用於精神疾病治療，但本報告所用資料並未提供經確認的作用機轉。
+根據美國 FDA 核准的 Loxapine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「在藥理學上，loxapine是一種抗精神病藥物，其確切作用模式尚未確立。然而，在多種動物物種中，已觀察到皮質下抑制區域興奮性程度的變化，並伴隨鎮靜作用的表現，例如安定作用及攻擊行為的抑制。」英文原文："Pharmacologically, loxapine is an antipsychotic for which the exact mode of action has not been established. However, changes in the level of excitability of subcortical inhibitory areas have been observed in several animal species in association with such manifestations of tranquilization as calming effects and suppression of aggressive behavior."（[DailyMed: loxapine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e412c36-66b0-444b-833b-cea79976844e)，版本日期 2026-11-03；查閱日期 2026-11-19）。Loxapine 一般被認為是多巴胺 D2／血清素 5-HT2A 受體拮抗劑，用於精神疾病治療，但本報告所用資料並未提供經確認的作用機轉。
 
 遺傳性視網膜失養症主要由視網膜相關基因異常所致，與 loxapine 的藥理作用路徑之間，目前看不出明確的關聯。高預測分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
@@ -99,6 +99,19 @@ TxGNN 模型預測它可能對**視網膜失養症（伴或不伴眼外異常）
 - 取得 loxapine 的作用機轉資料，並分析與視網膜疾病相關路徑的關聯
 - 先做文獻與前臨床探索（例如視網膜細胞或動物模型），確認有無任何生物學訊號
 - 評估此預測相對於其他候選疾病是否值得投入資源
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: loxapine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e412c36-66b0-444b-833b-cea79976844e) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

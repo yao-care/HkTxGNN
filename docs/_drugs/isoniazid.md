@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**結膜炎 (Conjunctivitis)** 有效，但目前*
 
 ## 為什麼這個預測合理？
 
-Isoniazid 是具殺菌作用的抗分枝桿菌藥物，一般認為其作用是抑制分枝菌酸（mycolic acid）的合成。不過本報告所整理的資料中缺乏詳細的作用機轉紀錄，以上說明屬於一般藥理知識。
+Isoniazid 是具殺菌作用的抗分枝桿菌藥物，一般認為其作用是抑制分枝菌酸（mycolic acid）的合成。根據美國 FDA 核准的 Isoniazid 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Isoniazid 可抑制分枝菌酸的合成，分枝菌酸是細菌細胞壁的必要成分。在治療濃度下，isoniazid 對活躍生長中的細胞內及細胞外結核分枝桿菌（Mycobacterium tuberculosis）具有殺菌作用。」英文原文："Isoniazid inhibits the synthesis of mycoloic acids, an essential component of the bacterial cell wall. At therapeutic levels isoniazid is bactericidal against actively growing intracellular and extracellular Mycobacterium tuberculosis organisms."（[DailyMed: isoniazid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dab7b7b-a3a9-47ef-b423-134bc6970d8b)，版本日期 2026-09-04；查閱日期 2026-11-19）。
 
 它與結膜炎的關聯僅限於**結核相關的眼部疾病**，例如結核引起的泡疹性角結膜炎（phlyctenular keratoconjunctivitis，對分枝桿菌抗原的過敏反應）以及原發性結膜結核。在這些情況下，益處來自治療或預防底層的結核感染，而不是對結膜炎本身有直接作用。
 
@@ -132,6 +132,19 @@ Isoniazid 是具殺菌作用的抗分枝桿菌藥物，一般認為其作用是�
 - 取得香港仿單的警語與禁忌，並補齊作用機轉資料。
 - 評估給藥途徑（全身 vs. 局部）及肝毒性、周邊神經病變等風險。
 - 蒐集前瞻性或較高品質的研究證據，再重新評估。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: isoniazid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dab7b7b-a3a9-47ef-b423-134bc6970d8b) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

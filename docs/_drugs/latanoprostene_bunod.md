@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**內臟鈣化防禦 (Visceral Calciphylaxis)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫未收錄）。依藥理資料，latanoprostene bunod 在體內會釋放兩種活性成分：latanoprost acid（前列腺素 FP 受體促效劑）與一氧化氮（NO）。體外試驗顯示它能提高鳥苷酸環化酶活性並增加 cGMP 生成。
+根據美國 FDA 核准的 Latanoprostene Bunod 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Latanoprostene bunod被認為是透過增加房水經由小樑網及葡萄膜鞏膜途徑的外流來降低眼內壓。眼內壓是青光眼惡化的主要可改變危險因子。」英文原文："Latanoprostene bunod is thought to lower intraocular pressure by increasing outflow of aqueous humor through both the trabecular meshwork and uveoscleral routes. Intraocular pressure is a major modifiable risk factor for glaucoma progression."（[DailyMed: Vyzulta (latanoprostene bunod) prescribing information, Bausch & Lomb Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60ce7900-a677-4fc2-88d0-1603baa9dbd4)，版本日期 2024-02-27；查閱日期 2026-11-19）。依藥理資料，latanoprostene bunod 在體內會釋放兩種活性成分：latanoprost acid（前列腺素 FP 受體促效劑）與一氧化氮（NO）。體外試驗顯示它能提高鳥苷酸環化酶活性並增加 cGMP 生成。
 
 NO 介導的血管擴張在理論上與微血管鈣化性疾病有一點關聯，這也是模型預測的可能依據。但這只是理論推測：沒有任何臨床或文獻證據支持，且此藥為眼用滴劑，全身暴露量極低，要在內臟血管產生療效並不容易。
 
@@ -96,6 +96,19 @@ NO 介導的血管擴張在理論上與微血管鈣化性疾病有一點關聯�
 - 前臨床研究（如血管鈣化細胞或動物模型）驗證 NO 供體的作用
 - 評估眼用給藥途徑能否達到全身有效濃度，或是否需要其他劑型
 - 取得香港原廠仿單，確認警語、禁忌症與核准適應症
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Vyzulta (latanoprostene bunod) prescribing information, Bausch & Lomb Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60ce7900-a677-4fc2-88d0-1603baa9dbd4) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

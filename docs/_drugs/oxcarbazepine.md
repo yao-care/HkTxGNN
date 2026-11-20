@@ -59,7 +59,7 @@ Oxcarbazepine 是一種鈉離子通道阻斷型抗癲癇藥物，原本用於局
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，oxcarbazepine 是已確立的鈉離子通道阻斷型抗癲癇藥物，核准用於局部（局灶性）癲癇，其在局部性癲癇的療效已被證實。
+根據美國 FDA 核准的 Oxcarbazepine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「TRILEPTAL的藥理活性主要經由oxcarbazepine的10-單羥基代謝物（MHD）發揮。Oxcarbazepine及MHD發揮抗癲癇發作作用的確切機轉尚不明確；然而，體外電生理學研究顯示，兩者可阻斷電壓敏感性鈉離子通道，從而使過度興奮的神經細胞膜趨於穩定、抑制神經元的重複放電，並減少突觸衝動的傳導。」英文原文："The pharmacological activity of TRILEPTAL is primarily exerted through the 10-monohydroxy metabolite (MHD) of oxcarbazepine. The precise mechanism by which oxcarbazepine and MHD exert their anti-seizure effect is unknown; however, in vitro electrophysiological studies indicate that they produce blockade of voltage-sensitive sodium channels, resulting in stabilization of hyperexcited neural membranes, inhibition of repetitive neuronal firing, and diminution of propagation of synaptic impulses."（[DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b)，版本日期 2026-10-28；查閱日期 2026-11-19）。根據已知資訊，oxcarbazepine 是已確立的鈉離子通道阻斷型抗癲癇藥物，核准用於局部（局灶性）癲癇，其在局部性癲癇的療效已被證實。
 
 視覺性癲癇是一種反射性或局灶性癲癇症候群，常起源於枕葉或後腦區域。由於它與已核准的局部性癲癇在本質上高度相關，機轉上有理由推測同樣有效。
 
@@ -131,6 +131,18 @@ Oxcarbazepine 是一種鈉離子通道阻斷型抗癲癇藥物，原本用於局
 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 |
 |-----------|-----------|---------|------|
 | 不寧腿症候群 (Restless Legs Syndrome) | 0.9989 | L4 | 研究問題（僅有 3 篇小型病例報告，無臨床試驗） |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

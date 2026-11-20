@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**馬尾腫瘤 (Cauda Equina Neoplasm)** 有效，
 
 ## 為什麼這個預測合理？
 
-Temozolomide 是口服烷化劑，會使 DNA 甲基化（O6-鳥嘌呤、N7-鳥嘌呤、N3-腺嘌呤），造成細胞毒性損傷並誘導細胞凋亡。其敏感性主要取決於 MGMT 啟動子的甲基化狀態。需注意，目前資料中缺乏 DrugBank 的作用機轉欄位，以上機轉描述來自本報告的推論分析。
+Temozolomide 是口服烷化劑，會使 DNA 甲基化（O6-鳥嘌呤、N7-鳥嘌呤、N3-腺嘌呤），造成細胞毒性損傷並誘導細胞凋亡。其敏感性主要取決於 MGMT 啟動子的甲基化狀態。根據美國 FDA 核准的 Temozolomide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Temozolomide 本身並無直接活性，但在生理 pH 下會快速經非酵素性轉化為反應性化合物 5-(3-methyltriazen-1-yl)-imidazole-4-carboxamide（MTIC）。MTIC 的細胞毒性被認為主要源於 DNA 烷化作用，主要發生在鳥嘌呤的 O 6 及 N 7 位置，此作用會造成 DNA 雙股斷裂，並導致細胞程序性死亡。」英文原文："Temozolomide is not directly active but undergoes rapid nonenzymatic conversion at physiologic pH to the reactive compound 5-(3-methyltriazen-1-yl)-imidazole-4-carboxamide (MTIC). The cytotoxicity of MTIC is thought to be primarily due to DNA alkylation, mainly at the O 6 and N 7 positions of guanine, which causes DNA double strand breaks and results in programmed cell death."（[DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56)，版本日期 2026-02-20；查閱日期 2026-11-19）。
 
 馬尾區域最常見的腫瘤是黏液乳突型室管膜瘤，以及其他神經膠質或神經外胚層來源的腫瘤。這些都是與星狀細胞瘤、神經膠質母細胞瘤相近的中樞神經系統腫瘤，因此透過 DNA 烷化的細胞毒性作用，機轉上有合理的關聯。
 
@@ -123,6 +123,19 @@ Temozolomide 是口服烷化劑，會使 DNA 甲基化（O6-鳥嘌呤、N7-鳥�
 - 補充 DrugBank 的作用機轉資料
 - 針對馬尾區腫瘤（如黏液乳突型室管膜瘤）進行系統性文獻回顧，並蒐集 MGMT 甲基化狀態等生物標記資料
 - 評估是否具備設計前瞻性研究或登錄式觀察研究的可行性
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

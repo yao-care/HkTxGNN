@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**偏頭痛 (migraine disorder)** 有效，但目�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Apixaban 屬於直接口服抗凝血藥（第 Xa 因子抑制劑），理論上可減少血栓形成。
+根據美國 FDA 核准的 Apixaban 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Apixaban為一種FXa選擇性抑制劑。其抗血栓活性不需要抗凝血酶III。Apixaban可抑制游離型及血塊結合型FXa，以及凝血酶原酶活性。Apixaban對血小板凝集無直接作用，但可間接抑制由凝血酶誘發的血小板凝集。」英文原文："Apixaban is a selective inhibitor of FXa. It does not require antithrombin III for antithrombotic activity. Apixaban inhibits free and clot-bound FXa, and prothrombinase activity. Apixaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin."（[DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25)，版本日期 2026-09-24；查閱日期 2026-11-19）。Apixaban 屬於直接口服抗凝血藥（第 Xa 因子抑制劑），理論上可減少血栓形成。
 
 文獻中提出的假說包括：微小血栓，或經由卵圓孔未閉 (PFO) 的反常性栓塞，可能與有預兆偏頭痛有關；另有回溯性研究顯示，抗磷脂抗體陽性的難治型偏頭痛患者，使用抗栓治療後可能有所改善。不過該研究並未明確以 apixaban 為受試藥物。
 
@@ -119,11 +119,12 @@ TxGNN 模型預測它可能對**偏頭痛 (migraine disorder)** 有效，但目�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本藥在香港共有 10 張有效許可證」→「本藥在香港共有 12 張有效許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25) |
 
 <!-- review:end log -->
 

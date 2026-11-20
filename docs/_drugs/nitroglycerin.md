@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏經資料庫確認的詳細作用機轉資料。就藥理常識而言，硝酸甘油是有機硝酸鹽，會釋放一氧化氮 (NO)，活化可溶性鳥苷酸環化酶 (sGC) 並提高血管平滑肌內的 cGMP，進而造成血管擴張。
+根據美國 FDA 核准的 Nitroglycerin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Nitroglycerin 會形成自由基一氧化氮（NO），NO 可活化鳥苷酸環化酶，導致平滑肌及其他組織中鳥苷 3',5'-單磷酸（環 GMP）增加。此最終導致肌凝蛋白輕鏈去磷酸化，從而調節平滑肌的收縮狀態並導致血管擴張。」英文原文："Nitroglycerin forms free radical nitric oxide (NO), which activates guanylate cyclase, resulting in an increase of guanosine 3',5'-monophosphate (cyclic GMP) in smooth muscle and other tissues. This eventually leads to dephosphorylation of myosin light chains, which regulates the contractile state in smooth muscle and results in vasodilatation."（[DailyMed: Nitroglycerin Lingual (nitroglycerin) prescribing information, Allegis Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fadd07b7-189b-4678-ad0f-bf1e4d3d1300)，版本日期 2025-12-17；查閱日期 2026-11-19）。就藥理常識而言，硝酸甘油是有機硝酸鹽，會釋放一氧化氮 (NO)，活化可溶性鳥苷酸環化酶 (sGC) 並提高血管平滑肌內的 cGMP，進而造成血管擴張。
 
 肺動脈高壓的核心問題是肺血管持續收縮與血管重塑。NO-cGMP 路徑正是吸入性一氧化氮及 PDE5 抑制劑用於肺動脈高壓的機轉，因此在生物學上有合理性。霧化或吸入給藥可能帶來相對的肺部選擇性，並減少全身性低血壓。
 
@@ -140,6 +140,18 @@ TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有�
 | 後側彎性心臟病 (Kyphoscoliotic heart disease) | 0.9942 | L5 | Hold：僅有模型預測，且可能惡化 V/Q 匹配 |
 | 原發性遺傳性青光眼 | 0.9916 | L5 | Hold：機轉依據薄弱，無試驗或文獻 |
 | 先天性稀毛症伴粟丘疹 | 0.9902 | L5 | Hold：無明確機轉連結，不建議推進 |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Nitroglycerin Lingual (nitroglycerin) prescribing information, Allegis Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fadd07b7-189b-4678-ad0f-bf1e4d3d1300) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

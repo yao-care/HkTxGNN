@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**尾骨過度活動 (hypermobility of coccyx)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Certolizumab Pegol 是一種抗 TNF-α 的聚乙二醇化抗體片段，其抑制 TNF 的作用常用於發炎性關節與脊椎疾病，機轉上的適用範圍主要在 TNF 驅動的發炎性疾病。
+根據美國 FDA 核准的 Certolizumab Pegol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Certolizumab pegol 與人類 TNFα 結合，其 KD 為 90pM。TNFα 是一種關鍵的促發炎細胞激素，在發炎過程中扮演核心角色。Certolizumab pegol 選擇性中和 TNFα（在體外 L929 小鼠纖維肉瘤細胞毒性試驗中，抑制人類 TNFα 的 IC 90 為 4 ng/mL），但不中和淋巴毒素 α（TNFβ）。」英文原文："Certolizumab pegol binds to human TNFα with a KD of 90pM. TNFα is a key pro-inflammatory cytokine with a central role in inflammatory processes. Certolizumab pegol selectively neutralizes TNFα (IC 90 of 4 ng/mL for inhibition of human TNFα in the in vitro L929 murine fibrosarcoma cytotoxicity assay) but does not neutralize lymphotoxin α (TNFβ)."（[DailyMed: Cimzia (certolizumab pegol) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d)，版本日期 2026-10-29；查閱日期 2026-11-19）。根據已知資訊，Certolizumab Pegol 是一種抗 TNF-α 的聚乙二醇化抗體片段，其抑制 TNF 的作用常用於發炎性關節與脊椎疾病，機轉上的適用範圍主要在 TNF 驅動的發炎性疾病。
 
 然而，尾骨過度活動主要是機械性或創傷性的問題，沒有明確的 TNF 驅動發炎機制可以支持這個連結。因此，雖然模型分數很高，但這只是計算層面的預測，目前無法以機轉合理解釋。
 
@@ -97,6 +97,19 @@ TxGNN 模型預測它可能對**尾骨過度活動 (hypermobility of coccyx)** �
 - 取得 Certolizumab Pegol 的作用機轉資料，並釐清其與尾骨過度活動之間是否有合理的生物學連結
 - 取得香港仿單的警語與禁忌症資料，以進行安全性篩選
 - 有直接針對尾骨過度活動的臨床前或臨床研究，才能考慮提升證據等級
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cimzia (certolizumab pegol) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

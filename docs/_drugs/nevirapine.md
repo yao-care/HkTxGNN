@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Nevirapine 是 HIV-1 的非核苷類逆轉錄酶抑制劑，透過結合逆轉錄酶的 NNRTI 結合口袋來抑制病毒複製。貓免疫缺乏病毒 (FIV) 同屬慢病毒，也具有逆轉錄酶，這是模型給出高分的可能原因。
+根據美國 FDA 核准的 Nevirapine 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Nevirapine 是一種抗反轉錄病毒藥物。[…] Nevirapine 是 HIV-1 的非核苷類反轉錄酶抑制劑（NNRTI）。Nevirapine 直接與反轉錄酶（RT）結合，透過破壞該酶的催化位點，阻斷其 RNA 依賴性及 DNA 依賴性 DNA 聚合酶活性。」英文原文："Nevirapine is an antiretroviral drug. […] Nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) of HIV-1. Nevirapine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site."（[DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15)，版本日期 2026-10-08；查閱日期 2026-11-19）。已知 Nevirapine 是 HIV-1 的非核苷類逆轉錄酶抑制劑，透過結合逆轉錄酶的 NNRTI 結合口袋來抑制病毒複製。貓免疫缺乏病毒 (FIV) 同屬慢病毒，也具有逆轉錄酶，這是模型給出高分的可能原因。
 
 然而，2023 年的生化與結構比較研究（PMID 38031646）顯示，由於 NNRTI 結合口袋存在差異，NNRTI 類藥物對 FIV 逆轉錄酶的活性可能有限。換言之，高預測分數並未獲得機轉資料支持。
 
@@ -121,6 +121,19 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired 
 
 - **猿猴免疫缺乏病毒感染（TxGNN 分數 0.9985，L4，Hold）**：SIV 與 HIV-2 天然對 NNRTI 具抗藥性（RT 結合口袋的自然多型性），所以 Nevirapine 只作為帶有 HIV-1 RT 的嵌合病毒 (RT-SHIV) 動物模型中的研究工具，不是治療用途。
 - **伴隨共濟失調步態、無語言與皮質白質減少的神經發育障礙（TxGNN 分數 0.9982，L5，Hold）**：無機轉關聯，也沒有臨床試驗或文獻，僅為模型預測。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

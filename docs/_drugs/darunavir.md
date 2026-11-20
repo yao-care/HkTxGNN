@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**猴免疫缺陷病毒感染 (Simian Immunodefici
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 darunavir 為 HIV-1 蛋白酶抑制劑，其在 HIV 感染中的角色已廣為人知。
+根據美國 FDA 核准的 Darunavir 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Darunavir是一種HIV-1抗病毒藥物。[…] Darunavir是HIV-1蛋白酶抑制劑。它可選擇性抑制受感染細胞中HIV-1編碼之Gag-Pol多蛋白的切割，從而阻止成熟病毒顆粒的形成。」英文原文："Darunavir is an HIV-1 antiviral drug. […] Darunavir is an inhibitor of the HIV-1 protease. It selectively inhibits the cleavage of HIV-1 encoded Gag-Pol polyproteins in infected cells, thereby preventing the formation of mature virus particles."（[DailyMed: Prezista (darunavir) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814301f9-c990-46a5-b481-2879a521a16f)，版本日期 2025-08-29；查閱日期 2026-11-19）。已知 darunavir 為 HIV-1 蛋白酶抑制劑，其在 HIV 感染中的角色已廣為人知。
 
 SIV 是與 HIV 親緣相近的慢病毒，其蛋白酶與 HIV 蛋白酶有一定相似性，因此 HIV 蛋白酶抑制劑可能作為猴子抗病毒療法的組成。但這屬於推論：檢索到的文獻是以多藥併用的抗反轉錄病毒療法（cART）為主，無法分離出 darunavir 單藥的貢獻。
 
@@ -111,6 +111,19 @@ SIV 是與 HIV 親緣相近的慢病毒，其蛋白酶與 HIV 蛋白酶有一定
 - 取得 darunavir 的作用機轉資料與香港仿單的警語、禁忌內容。
 - 若要驗證 SIV 方向，需有 darunavir 單藥或明確納入該藥的對照研究。
 - 評估各預測疾病是否屬於人類用藥的合理再利用目標。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Prezista (darunavir) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814301f9-c990-46a5-b481-2879a521a16f) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

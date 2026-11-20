@@ -55,7 +55,7 @@ TxGNN 模型（深度學習）預測它可能對**高澱粉酶血症 (hyperamyla
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知資訊，Aztreonam 是單環 β-內醯胺類抗生素，作用方式是結合細菌的 PBP-3 而抑制細胞壁合成，只對需氧的革蘭氏陰性菌有效。
+根據美國 FDA 核准的 Aztreonam 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Aztreonam 是一種殺菌劑，藉由抑制細菌細胞壁合成而發揮作用。在革蘭氏陰性菌及革蘭氏陽性菌的某些 β-內醯胺酶（包括青黴素酶及頭孢菌素酶）存在下，Aztreonam 仍具有活性。」英文原文："Aztreonam is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Aztreonam has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria."（[DailyMed: aztreonam prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d4500795-3b07-4a7d-b432-73cafbb3dbc6)，版本日期 2024-06-03；查閱日期 2026-11-19）。就已知資訊，Aztreonam 是單環 β-內醯胺類抗生素，作用方式是結合細菌的 PBP-3 而抑制細胞壁合成，只對需氧的革蘭氏陰性菌有效。
 
 高澱粉酶血症是血液生化指標的異常，不是感染性疾病。抗菌藥物對它沒有已知的直接作用，兩者之間找不到合理的機轉連結。
 
@@ -101,6 +101,19 @@ TxGNN 分數雖然很高（0.9973），但這個分數來自 TxGNN 模型（深�
 - 確認這項預測是否只是模型從相關疾病學到的相似性，而非生物學證據；若有生物學上的合理假說，需先提出明確的機轉依據。
 - 取得原廠仿單，確認警語、禁忌症與核准適應症，並釐清 HK-68891 是單方還是複方。
 - 若要評估其他預測，優先考慮有間接文獻的感染性疾病（如淋病性尿道炎），並注意其抗藥性報告與現行治療指引。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: aztreonam prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d4500795-3b07-4a7d-b432-73cafbb3dbc6) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (nasal cavity disease)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Cetirizine 屬於 H1 受體拮抗劑（抗組織胺藥），而 H1 受體存在於神經末梢、平滑肌與腺體細胞，競爭性阻斷組織胺結合是此類藥物的主要作用方式。
+根據美國 FDA 核准的 Cetirizine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Cetirizine hydrochloride 是 hydroxyzine 在人體內的代謝物，屬於抗組織胺藥；其主要作用是經由選擇性抑制周邊 H 1 -受體所介導。Cetirizine hydrochloride 的抗組織胺活性已在多種動物及人體模型中獲得明確證實。」英文原文："Cetirizine hydrochloride, a human metabolite of hydroxyzine, is an antihistamine; its principal effects are mediated via selective inhibition of peripheral H 1 -receptors. The antihistaminic activity of cetirizine hydrochloride has been clearly documented in a variety of animal and human models."（[DailyMed: Quzyttir (cetirizine hydrochloride) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=573770f6-b76e-f6ba-e063-6294a90aa54d)，版本日期 2026-09-22；查閱日期 2026-11-19）。根據已知資訊，Cetirizine 屬於 H1 受體拮抗劑（抗組織胺藥），而 H1 受體存在於神經末梢、平滑肌與腺體細胞，競爭性阻斷組織胺結合是此類藥物的主要作用方式。
 
 鼻腔黏膜的充血、腫脹與黏液分泌，部分由組織胺介導，因此 H1 阻斷在機轉上可能減輕鼻腔發炎與症狀。文獻中的綜述也討論了 H1 抗組織胺藥在過敏性鼻炎及相關上呼吸道發炎的角色。
 
@@ -117,11 +117,12 @@ TxGNN 模型預測它可能對**鼻腔疾病 (nasal cavity disease)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「目前香港有 Cetirizine 單方製劑登記，以下為部分許可證（資料可能不完整」→「目前香港有 Cetirizine 單方製劑登記，以下為部分許」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Quzyttir (cetirizine hydrochloride) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=573770f6-b76e-f6ba-e063-6294a90aa54d) |
 
 <!-- review:end log -->
 

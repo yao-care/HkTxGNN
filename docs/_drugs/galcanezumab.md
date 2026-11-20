@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**肝素輔因子 II 缺乏症 (Heparin Cofactor 2
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Galcanezumab 是人源化單株抗體，可中和 CGRP，用於偏頭痛預防。
+根據美國 FDA 核准的 Galcanezumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Galcanezumab-gnlm是一種人源化單株抗體，可與降鈣素基因相關胜肽（CGRP）配體結合，並阻斷其與受體的結合。」英文原文："Galcanezumab-gnlm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor."（[DailyMed: Emgality (galcanezumab-gnlm) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0)，版本日期 2026-06-05；查閱日期 2026-11-19）。根據已知資訊，Galcanezumab 是人源化單株抗體，可中和 CGRP，用於偏頭痛預防。
 
 肝素輔因子 II 缺乏症是一種血栓傾向疾病，起因是絲胺酸蛋白酶抑制劑 SERPIND1 的活性下降，導致抑制凝血酶的能力不足。CGRP 訊號傳遞並不已知會調控肝素輔因子 II 或凝血酶抑制，因此**目前找不到可信的機轉連結**。
 
@@ -120,11 +120,12 @@ TxGNN 模型（深度學習）給出的高分（0.9950）可能反映模型從�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「兩張許可證皆為單一成分、有效狀態，」→「兩張許可證皆為單一成分，其中 HK-66580 已註銷、另一張有效，」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Emgality (galcanezumab-gnlm) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0) |
 
 <!-- review:end log -->
 

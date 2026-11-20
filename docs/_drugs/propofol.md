@@ -62,7 +62,7 @@ Propofol 是 GABA-A 受體的正向別構調節劑。增強 GABA 抑制作用，
 
 在臨床上，亞麻醉劑量的 propofol 已被用於急診中難治型急性偏頭痛，作為標準治療失效後的選項。因此這個預測在機轉與臨床使用經驗上都有合理依據。
 
-需注意：本次編譯的資料缺乏完整的作用機轉紀錄，上述機轉說明來自預測分析的推論。此外，propofol 有鎮靜與呼吸抑制風險，只適合在有監測的環境（如急診）使用。
+根據美國 FDA 核准的 Propofol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「如同所有全身麻醉劑，其作用機轉尚未完全明瞭。然而，一般認為 propofol 是透過配體門控 GABA A 受體，正向調節神經傳導物質 GABA 的抑制功能，從而產生其鎮靜/麻醉效果。」英文原文："The mechanism of action, like all general anesthetics, is poorly understood. However, propofol is thought to produce its sedative/anesthetic effects by the positive modulation of the inhibitory function of the neurotransmitter GABA through the ligand-gated GABA A receptors."（[DailyMed: Diprivan (propofol) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3105799-a4b6-f3f4-e6e2-b2b29bbdb538)，版本日期 2025-09-11；查閱日期 2026-11-19）。此外，propofol 有鎮靜與呼吸抑制風險，只適合在有監測的環境（如急診）使用。
 
 ## 臨床試驗證據
 
@@ -130,6 +130,18 @@ Propofol 是 GABA-A 受體的正向別構調節劑。增強 GABA 抑制作用，
 | Prinzmetal 心絞痛 | 0.9923 | L5 | Hold | 現有文獻是麻醉中誘發冠狀動脈痙攣的案例，屬安全警訊，而非療效證據 |
 | 腎因性抗利尿激素不適當分泌症候群 | 0.9920 | L5 | Hold | 無試驗、無文獻，也無合理機轉，僅為模型預測 |
 | Tourette 症候群 | 0.9903 | L4 | Hold | 僅有深部腦刺激手術中鎮靜的神經生理研究，未顯示對抽動症狀有療效 |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Diprivan (propofol) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3105799-a4b6-f3f4-e6e2-b2b29bbdb538) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

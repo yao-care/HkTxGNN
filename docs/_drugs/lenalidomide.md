@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**骨髓性白血病 (Myeloid Leukemia)** 有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉（MOA）原始資料。依文獻與模型推論，Lenalidomide 是 cereblon E3 連接酶調節劑，會促使 IKZF1/IKZF3 降解；在 del(5q) MDS 中，CK1α 的降解是療效關鍵。它同時具有免疫調節作用，例如活化 NK 細胞與 T 細胞。
+根據美國 FDA 核准的 Lenalidomide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Lenalidomide是thalidomide的類似物，具有免疫調節、抗血管生成及抗腫瘤特性。Lenalidomide的細胞活性是通過其標靶cereblon介導的；cereblon是cullin環E3泛素連接酶複合物的組成部分。」英文原文："Lenalidomide is an analogue of thalidomide with immunomodulatory, antiangiogenic, and antineoplastic properties. Cellular activities of lenalidomide are mediated through its target cereblon, a component of a cullin ring E3 ubiquitin ligase enzyme complex."（[DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be)，版本日期 2023-03-24；查閱日期 2026-11-19）。依文獻與模型推論，Lenalidomide 是 cereblon E3 連接酶調節劑，會促使 IKZF1/IKZF3 降解；在 del(5q) MDS 中，CK1α 的降解是療效關鍵。它同時具有免疫調節作用，例如活化 NK 細胞與 T 細胞。
 
 原適應症已涵蓋 MDS，而 MDS 與急性骨髓性白血病（AML）同屬骨髓性腫瘤，MDS 約三分之一會轉化為 AML。因此在生物學上有合理的連結。
 
@@ -167,6 +167,19 @@ TxGNN 模型預測它可能對**骨髓性白血病 (Myeloid Leukemia)** 有效�
 - 兒童難治性血球低下（L3）：唯一試驗為兒童實體瘤的 Phase 1，機轉連結薄弱，建議 Hold。
 - 再生不良性貧血（L3）：文獻多與骨髓瘤、淋巴瘤相關，缺乏直接證據，建議 Hold。
 - 嚴重先天性低色素貧血伴環狀鐵粒幼細胞（L5）：僅有模型預測，病因為遺傳性，建議 Hold。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

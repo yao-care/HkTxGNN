@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**泌尿道感染 (Urinary Tract Infection)**（�
 
 ## 為什麼這個預測合理？
 
-Micafungin 屬於棘白菌素類，作用是抑制 1,3-β-D-葡聚醣合成酶，破壞黴菌細胞壁的合成。這段機轉說明來自藥物類別的一般知識，並非本報告所整理的資料欄位內容；該藥的原始作用機轉資料目前缺乏。
+Micafungin 屬於棘白菌素類，作用是抑制 1,3-β-D-葡聚醣合成酶，破壞黴菌細胞壁的合成。根據美國 FDA 核准的 Micafungin 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Micafungin 屬於棘白菌素（echinocandin）類抗真菌藥物。[…] Micafungin 抑制1,3-beta-D-葡聚糖的合成，此為真菌細胞壁的必要成分，而哺乳類細胞中並不存在此成分。念珠菌病動物模型中的活性：micafungin 的活性已在小鼠及兔的黏膜性及播散性念珠菌病模型中得到證實。」英文原文："Micafungin is a member of the echinocandin class of antifungal agents. […] Micafungin inhibits the synthesis of 1,3-beta-D-glucan, an essential component of fungal cell walls, which is not present in mammalian cells. Activity in Animal Models of Candidiasis Activity of micafungin has been demonstrated in both mucosal and disseminated murine and rabbit models of candidiasis."（[DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee)，版本日期 2025-11-08；查閱日期 2026-11-19）。
 
 念珠菌是黴菌性泌尿道感染（念珠菌尿）的主要病原，而 micafungin 對念珠菌的活性已透過其原適應症獲得證實，因此將其用於念珠菌性泌尿道感染在機轉上合理。
 
@@ -127,6 +127,19 @@ Micafungin 屬於棘白菌素類，作用是抑制 1,3-β-D-葡聚醣合成酶�
 - 針對念珠菌性泌尿道感染設計前瞻性研究，或系統性回顧現有世代與病例資料
 - 評估腎功能不全患者（此族群常見念珠菌尿）的使用風險與劑量
 - 確認香港許可證核准適應症是否涵蓋此用途，以釐清屬於適應症外使用的法規考量
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**猿猴免疫缺陷病毒感染 (Simian Immunodef
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，ritonavir 是 HIV-1 蛋白酶抑制劑，同時可抑制 CYP3A4，因此常與其他抗病毒藥物合併使用以提高血中濃度。
+根據美國 FDA 核准的 Ritonavir 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Ritonavir 是一種抗反轉錄病毒藥物。[…] Ritonavir 是 HIV-1 蛋白酶的擬肽類抑制劑。抑制 HIV 蛋白酶會使該酵素無法處理 Gag-Pol 多蛋白前驅物，導致產生不具感染性的未成熟 HIV 顆粒。」英文原文："Ritonavir is an antiretroviral drug. […] Ritonavir is a peptidomimetic inhibitor of the HIV-1 protease. Inhibition of HIV protease renders the enzyme incapable of processing the Gag-Pol polyprotein precursor which leads to production of non-infectious immature HIV particles."（[DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3)，版本日期 2026-07-23；查閱日期 2026-11-19）。根據已知資訊，ritonavir 是 HIV-1 蛋白酶抑制劑，同時可抑制 CYP3A4，因此常與其他抗病毒藥物合併使用以提高血中濃度。
 
 SIV 與 HIV 同屬慢病毒（lentivirus），其蛋白酶高度相似，因此機轉上具合理性。體外研究顯示 SIVmac239 對 ritonavir 敏感（EC50 約 13 nM，HIV-1 約 25 nM）；另一項研究也顯示 HIV-2、SIV 與 SHIV 對多種抗 HIV-1 藥物有感受性。
 
@@ -124,11 +124,12 @@ SIV 與 HIV 同屬慢病毒（lentivirus），其蛋白酶高度相似，因此�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本次資料共列出 10 張許可證，皆為有效狀態，」→「本次資料共列出 10 張許可證，其中 9 張有效、HK-48165（KALETR」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3) |
 
 <!-- review:end log -->
 

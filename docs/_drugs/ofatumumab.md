@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**濾泡性淋巴瘤 (Follicular Lymphoma)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知的藥物類別，Ofatumumab 是結合 CD20 分子的單株抗體，可透過補體依賴性細胞毒殺（CDC）與抗體依賴性細胞媒介毒殺（ADCC）清除 B 細胞。以下機轉推論來自抗 CD20 抗體的已知特性，而非本次資料中的機轉紀錄。
+根據美國 FDA 核准的 Ofatumumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ofatumumab在多發性硬化症中發揮治療作用的確切機轉尚不明確，但推測涉及與CD20結合，CD20為存在於前B淋巴球及成熟B淋巴球上的細胞表面抗原。Ofatumumab與B淋巴球細胞表面結合後，會導致抗體依賴性細胞溶解及補體介導的溶解。」英文原文："The precise mechanism by which ofatumumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ofatumumab results in antibody-dependent cellular cytolysis and complement-mediated lysis."（[DailyMed: Kesimpta (ofatumumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3)，版本日期 2026-04-01；查閱日期 2026-11-19）。根據已知的藥物類別，Ofatumumab 是結合 CD20 分子的單株抗體，可透過補體依賴性細胞毒殺（CDC）與抗體依賴性細胞媒介毒殺（ADCC）清除 B 細胞。以下機轉推論來自抗 CD20 抗體的已知特性，而非本次資料中的機轉紀錄。
 
 濾泡性淋巴瘤是 CD20 陽性的 B 細胞惡性腫瘤，與知識圖譜中記錄的 B 細胞來源血液腫瘤共享相同的標靶生物學，因此 TxGNN 給出高分在機轉上說得通。
 
@@ -136,6 +136,19 @@ TxGNN 模型預測它可能對**濾泡性淋巴瘤 (Follicular Lymphoma)** 有�
 - 補充作用機轉的正式資料
 - 與現行標準治療（如 rituximab、obinutuzumab）做定位比較
 - 建立感染（含 B 型肝炎再活化）與免疫抑制相關的監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Kesimpta (ofatumumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**牙齦纖維瘤病 (Gingival Fibromatosis)** 有
 
 ## 為什麼這個預測合理？
 
-目前此預測的合理性**很有限**。Pembrolizumab 的標靶為 PD-1（PDCD1/CD279），透過阻斷 PD-1 與其配體的結合，解除 T 細胞受抑制的狀態，使免疫系統攻擊腫瘤。不過，本報告所整理的資料中缺乏詳細的作用機轉描述，這部分仍待補充。
+目前此預測的合理性**很有限**。Pembrolizumab 的標靶為 PD-1（PDCD1/CD279），透過阻斷 PD-1 與其配體的結合，解除 T 細胞受抑制的狀態，使免疫系統攻擊腫瘤。根據美國 FDA 核准的 Pembrolizumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「PD-1配體PD-L1及PD-L2與T細胞上的PD-1受體結合後，會抑制T細胞增生及細胞激素生成。部分腫瘤會出現PD-1配體上調，經由此路徑的訊號傳遞可能促成腫瘤之主動T細胞免疫監測受到抑制。[…] Pembrolizumab是一種單株抗體，可與PD-1受體結合並阻斷其與PD-L1及PD-L2的交互作用，從而解除PD-1路徑所介導的免疫反應抑制，包括抗腫瘤免疫反應。」英文原文："Binding of the PD-1 ligands, PD-L1 and PD-L2, to the PD-1 receptor found on T cells, inhibits T cell proliferation and cytokine production. Upregulation of PD-1 ligands occurs in some tumors and signaling through this pathway can contribute to inhibition of active T-cell immune surveillance of tumors. […] Pembrolizumab is a monoclonal antibody that binds to the PD-1 receptor and blocks its interaction with PD-L1 and PD-L2, releasing PD-1 pathway-mediated inhibition of the immune response, including the anti-tumor immune response."（[DailyMed: Keytruda (pembrolizumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287)，版本日期 2026-10-16；查閱日期 2026-11-19）。
 
 牙齦纖維瘤病是一種遺傳性或藥物誘發的纖維化病變，目前沒有已知的 PD-1 路徑參與。因此，我們未能找到可連結 pembrolizumab 與此疾病的機轉。高分預測來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
@@ -124,6 +124,19 @@ Pembrolizumab 為抗腫瘤的免疫治療藥物，屬免疫檢查點抑制劑，
 - 進行前臨床或機轉研究，建立生物學上的合理依據。
 - 取得香港衛生署的仿單，補齊警語與禁忌症資料。
 - 評估免疫相關不良反應對此族群的風險與效益。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Keytruda (pembrolizumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

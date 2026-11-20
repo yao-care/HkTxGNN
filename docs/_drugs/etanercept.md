@@ -58,7 +58,7 @@ Etanercept（依那西普）是一種 TNF 抑制劑，原本用於乾癬性關�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，etanercept 是一種 TNF 受體融合蛋白，透過結合 TNF-α 來阻斷其發炎作用。其在類風濕性關節炎中的療效已被證實。
+根據美國 FDA 核准的 Etanercept 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「TNF 是一種天然存在的細胞激素，參與正常的發炎及免疫反應。它在 RA、多關節型 JIA、PsA 及 AS 的發炎過程及其所導致的關節病變中扮演重要角色。[…] Etanercept 是 p75 TNF 受體的二聚體可溶性形式，可與 TNF 分子結合。」英文原文："TNF is a naturally occurring cytokine that is involved in normal inflammatory and immune responses. It plays an important role in the inflammatory processes of RA, polyarticular JIA, PsA, and AS and the resulting joint pathology. […] Etanercept is a dimeric soluble form of the p75 TNF receptor that can bind TNF molecules."（[DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f)，版本日期 2026-05-11；查閱日期 2026-11-19）。根據已知資訊，etanercept 是一種 TNF 受體融合蛋白，透過結合 TNF-α 來阻斷其發炎作用。其在類風濕性關節炎中的療效已被證實。
 
 類風濕性血管炎是類風濕性關節炎最嚴重的關節外併發症之一，致病過程中 TNF-α 是共同的發炎驅動因子，因此從機轉上看，阻斷 TNF 有生物學上的合理性。
 
@@ -147,11 +147,12 @@ Etanercept（依那西普）是一種 TNF 抑制劑，原本用於乾癬性關�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「共 7 張有效許可證」→「共 10 張有效許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f) |
 
 <!-- review:end log -->
 

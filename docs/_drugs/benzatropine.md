@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對 **PLA2G6 相關神經退化症 (PLA2G6-associated
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 benzatropine 屬於抗膽鹼藥物，透過阻斷蕈毒鹼受體來緩解帕金森症狀與肌張力異常等動作症狀。
+根據美國 FDA 核准的 Benzatropine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Benztropine mesylate同時具有抗膽鹼及抗組織胺作用，惟僅前者已確立在巴金森症治療上具有治療意義。在離體天竺鼠迴腸中，本藥的抗膽鹼活性約與atropine相當；然而，當經口投予未麻醉的貓時，其活性僅約為atropine的一半。」英文原文："Benztropine mesylate possesses both anticholinergic and antihistaminic effects, although only the former have been established as therapeutically significant in the management of parkinsonism. In the isolated guinea pig ileum, the anticholinergic activity of this drug is about equal to that of atropine; however, when administered orally to unanesthetized cats, it is only about half as active as atropine."（[DailyMed: benztropine mesylate prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01688e6f-7b22-41bf-9a85-1c88d90f99b6)，版本日期 2026-11-11；查閱日期 2026-11-19）。已知 benzatropine 屬於抗膽鹼藥物，透過阻斷蕈毒鹼受體來緩解帕金森症狀與肌張力異常等動作症狀。
 
 PLA2G6 相關神經退化症（包含嬰兒型神經軸突失養症及 PLA2G6 相關肌張力異常—帕金森症）常伴隨基底核功能失常，出現帕金森樣及肌張力異常表現。因此，理論上 benzatropine 可能對這些動作症狀帶來症狀性緩解。
 
@@ -101,6 +101,19 @@ PLA2G6 相關神經退化症（包含嬰兒型神經軸突失養症及 PLA2G6 �
 - 搜尋並評估 PLA2G6 相關神經退化症中抗膽鹼藥物治療動作症狀的病例報告或觀察性研究
 - 取得香港仿單的警語與禁忌症，完成安全性初篩
 - 評估抗膽鹼負擔對此族群（多為兒童及青年，伴認知與神經退化）的風險與效益
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: benztropine mesylate prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01688e6f-7b22-41bf-9a85-1c88d90f99b6) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

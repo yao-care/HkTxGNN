@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**肢端中段發育不良，亨特-湯普森型 (
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，flurbiprofen 屬於 NSAID 類別，一般認為是透過抑制前列腺素合成來發揮消炎與止痛作用。
+根據美國 FDA 核准的 Flurbiprofen 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Flurbiprofen具有鎮痛、抗炎及解熱作用。Flurbiprofen的作用機轉與其他NSAIDs一樣，尚未完全明瞭，但涉及抑制環氧合酶（COX-1及COX-2）。」英文原文："Flurbiprofen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of flurbiprofen, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)."（[DailyMed: Lurbiro (flurbiprofen) prescribing information, IPG Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7ebf7427-eaae-4035-a6b2-0ea6381e8763)，版本日期 2026-10-05；查閱日期 2026-11-19）。根據已知資訊，flurbiprofen 屬於 NSAID 類別，一般認為是透過抑制前列腺素合成來發揮消炎與止痛作用。
 
 此預測的疾病是一種罕見的骨骼發育不良，由 CDMP1/GDF5 基因突變所致。COX 抑制劑無法修正這類基因缺陷，在機轉上並沒有明確的疾病修飾作用，頂多可能緩解症狀性疼痛。
 
@@ -97,6 +97,18 @@ TxGNN 模型預測它可能對**肢端中段發育不良，亨特-湯普森型 (
 - 找到直接研究此疾病的臨床或前臨床證據
 - 釐清 flurbiprofen 與 GDF5 相關病理之間是否有機轉連結
 - 取得香港仿單的警語與禁忌症資料，以進行安全性評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Lurbiro (flurbiprofen) prescribing information, IPG Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7ebf7427-eaae-4035-a6b2-0ea6381e8763) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

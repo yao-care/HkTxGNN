@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**口腔念珠菌症 (oral candidiasis)** 有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 rifaximin 是非吸收性的口服抗菌藥，作用集中在腸道，全身暴露極低，並沒有已知的直接抗真菌活性。
+根據美國 FDA 核准的 Rifaximin 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Rifaximin 是一種抗菌藥物。[…] Rifaximin 是 rifampin 的半合成衍生物，其作用方式為與細菌 DNA 依賴性 RNA 聚合酶的 β 次單元結合，阻斷轉錄的其中一個步驟。這會導致細菌蛋白質合成受到抑制，從而抑制細菌生長。」英文原文："Rifaximin is an antibacterial drug. […] Rifaximin is a semi-synthetic derivative of rifampin and acts by binding to the beta-subunit of bacterial DNA-dependent RNA polymerase blocking one of the steps in transcription. This results in inhibition of bacterial protein synthesis and consequently inhibits the growth of bacteria."（[DailyMed: Xifaxan (rifaximin) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7afafa63-3236-4212-9589-045db6b01c0b)，版本日期 2025-08-27；查閱日期 2026-11-19）。已知 rifaximin 是非吸收性的口服抗菌藥，作用集中在腸道，全身暴露極低，並沒有已知的直接抗真菌活性。
 
 從臨床訊號來看，預測並不被支持。唯一相關文獻（PMID 34180023）是一項異體造血幹細胞移植患者的研究，結果指出使用 rifaximin 與對 micafungin 具抗藥性的念珠菌感染增加有關。這提示它可能透過改變腸道菌叢而促進念珠菌過度生長，而不是治療念珠菌。
 
@@ -104,6 +104,19 @@ TxGNN 模型預測它可能對**口腔念珠菌症 (oral candidiasis)** 有效�
 - 釐清念珠菌風險訊號是藥物本身造成，還是受到原發疾病嚴重程度的干擾
 - 取得香港原廠仿單，確認核准適應症、警語與禁忌症
 - 在有直接研究支持前，不建議針對口腔念珠菌症進一步開發
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Xifaxan (rifaximin) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7afafa63-3236-4212-9589-045db6b01c0b) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

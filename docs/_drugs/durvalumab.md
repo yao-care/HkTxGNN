@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**子宮韌帶腺癌**有效，但目前**沒有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Durvalumab 屬於 PD-L1 抑制劑，一般認為其作用是阻斷 PD-L1 訊號，讓 T 細胞恢復對腫瘤的攻擊能力。
+根據美國 FDA 核准的 Durvalumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「程序性細胞死亡配體-1（PD-L1）的表現可由發炎訊號（例如 IFN-gamma）誘導，且可表現於腫瘤微環境中的腫瘤細胞及腫瘤相關免疫細胞上。PD-L1 透過與 PD-1 及 CD80（B7.1）的交互作用，阻斷 T 細胞的功能及活化。[…] Durvalumab 是一種人類免疫球蛋白 G1 kappa（IgG1κ）單株抗體，可與 PD-L1 結合，並阻斷 PD-L1 與 PD-1 及 CD80（B7.1）的交互作用。」英文原文："Expression of programmed cell death ligand-1 (PD-L1) can be induced by inflammatory signals (e.g., IFN-gamma) and can be expressed on both tumor cells and tumor-associated immune cells in the tumor microenvironment. PD-L1 blocks T-cell function and activation through interaction with PD-1 and CD80 (B7.1). […] Durvalumab is a human immunoglobulin G1 kappa (IgG1κ) monoclonal antibody that binds to PD-L1 and blocks the interaction of PD-L1 with PD-1 and CD80 (B7.1)."（[DailyMed: Imfinzi (durvalumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8baba4ea-2855-42fa-9bd9-5a7548d4cec3)，版本日期 2026-08-31；查閱日期 2026-11-19）。Durvalumab 屬於 PD-L1 抑制劑，一般認為其作用是阻斷 PD-L1 訊號，讓 T 細胞恢復對腫瘤的攻擊能力。
 
 理論上，若子宮韌帶腺癌這類婦科腺癌表現 PD-L1，或腫瘤突變負荷較高，檢查點抑制劑可能有效。不過這只是推測，現有資料中沒有任何試驗或文獻支持。0.9992 的分數僅代表模型預測，不等於臨床療效。
 
@@ -110,6 +110,19 @@ TxGNN 模型預測它可能對**子宮韌帶腺癌**有效，但目前**沒有�
 - 若有相關試驗或文獻，再重新評估證據等級。
 
 **補充觀察：** 排名第 2 的「子宮頸管癌」有一項已完成的 Phase 1 試驗（[NCT03452332](https://clinicaltrials.gov/study/NCT03452332)，n=20，放射治療合併 durvalumab 與 tremelimumab）。但它針對的是另一種疾病，不能用來支持本報告的主要預測，若要優先探索婦科腫瘤方向，可考慮另案評估。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Imfinzi (durvalumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8baba4ea-2855-42fa-9bd9-5a7548d4cec3) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

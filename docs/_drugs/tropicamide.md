@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Tropicamide 是外用抗膽鹼藥物，屬短效散瞳劑，用於檢查水晶體、玻璃體與視網膜。藥理資料顯示它可作用於 M2、M3、M4、M5 毒蕈鹼受體。
+根據美國 FDA 核准的 Tropicamide 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「此抗膽鹼製劑可阻斷虹膜括約肌及睫狀肌對膽鹼性刺激的反應，使瞳孔擴大（散瞳）。較高濃度製劑（1%）亦會麻痺調節功能。」英文原文："This anticholinergic preparation blocks the responses of the sphincter muscle of the iris and the ciliary muscle to cholinergic stimulation, dilating the pupil (mydriasis). The stronger preparation (1%) also paralyzes accommodation."（[DailyMed: Mydriacyl (tropicamide) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4f4a2e-eb00-4c65-b3fa-baf5738d468d)，版本日期 2023-02-15；查閱日期 2026-11-19）。根據已知資訊，Tropicamide 是外用抗膽鹼藥物，屬短效散瞳劑，用於檢查水晶體、玻璃體與視網膜。藥理資料顯示它可作用於 M2、M3、M4、M5 毒蕈鹼受體。
 
 TxGNN 的預測分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而非生物學證據。
 
@@ -115,6 +115,19 @@ TxGNN 的預測分數來自 TxGNN 模型（深度學習），可能反映模型�
 - 評估是否有可行的全身或膀胱內給藥劑型及劑量
 - 進行文獻與試驗的系統性檢索，確認是否有任何前臨床支持
 - 與現有抗膽鹼藥物比較，說明再利用的臨床價值
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Mydriacyl (tropicamide) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4f4a2e-eb00-4c65-b3fa-baf5738d468d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

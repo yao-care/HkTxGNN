@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**非精原細胞瘤病灶 (Non-seminomatous Lesio
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據藥理資料，Cetuximab 是結合表皮生長因子受體 (EGFR) 的抗體。它用於 EGFR 表現的轉移性大腸直腸癌，也與放射線治療併用於鱗狀細胞來源的頭頸癌。
+根據美國 FDA 核准的 Cetuximab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「表皮生長因子受體（EGFR, HER1, c-ErbB-1）是一種跨膜醣蛋白，屬於第 I 型受體酪胺酸激酶亞家族的成員，該亞家族包括 EGFR、HER2、HER3 及 HER4。EGFR 在許多正常上皮組織中持續性表現，包括皮膚及毛囊。[…] Cetuximab 會特異性地與正常細胞及腫瘤細胞上的 EGFR 結合，並競爭性地抑制表皮生長因子（EGF）及其他配體（例如轉化生長因子-α）的結合。」英文原文："The epidermal growth factor receptor (EGFR, HER1, c-ErbB-1) is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases including EGFR, HER2, HER3, and HER4. The EGFR is constitutively expressed in many normal epithelial tissues, including the skin and hair follicle. […] Cetuximab binds specifically to the EGFR on both normal and tumor cells, and competitively inhibits the binding of epidermal growth factor (EGF) and other ligands, such as transforming growth factor-alpha."（[DailyMed: Erbitux (cetuximab) prescribing information, ImClone LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9)，版本日期 2026-04-16；查閱日期 2026-11-19）。根據藥理資料，Cetuximab 是結合表皮生長因子受體 (EGFR) 的抗體。它用於 EGFR 表現的轉移性大腸直腸癌，也與放射線治療併用於鱗狀細胞來源的頭頸癌。
 
 模型預測的新適應症是非精原細胞瘤（非精原細胞生殖細胞）病灶。目前沒有資料顯示這類病灶依賴 EGFR 訊號，因此無法建立機轉上的合理連結。
 
@@ -121,6 +121,19 @@ TxGNN 模型預測它可能對**非精原細胞瘤病灶 (Non-seminomatous Lesio
 - 補充詳細的作用機轉資料。
 - 確認非精原細胞瘤病灶是否有 EGFR 表現，並檢索相關前臨床或臨床研究。
 - 若考慮其他候選，優先取得 NCT00524017 的結果，並確認其研究設計。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Erbitux (cetuximab) prescribing information, ImClone LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

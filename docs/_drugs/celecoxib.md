@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**肢中型發育不良，Hunter-Thompson 型 (acr
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知資訊，celecoxib 屬於 COX-2 選擇性抑制劑，主要作用是減少前列腺素生成，產生消炎與止痛效果。
+根據美國 FDA 核准的 Celecoxib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Celecoxib 具有止痛、抗發炎及退燒特性。一般認為 celecoxib 的作用機轉是抑制前列腺素合成，主要經由抑制 COX-2。Celecoxib 在體外是一種強效的前列腺素合成抑制劑。」英文原文："Celecoxib has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of celecoxib is believed to be due to inhibition of prostaglandin synthesis, primarily via inhibition of COX-2. Celecoxib is a potent inhibitor of prostaglandin synthesis in vitro."（[DailyMed: Vyscoxa (celecoxib) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5094d47e-f791-4190-9397-b7500143a74d)，版本日期 2025-07-31；查閱日期 2026-11-19）。就已知資訊，celecoxib 屬於 COX-2 選擇性抑制劑，主要作用是減少前列腺素生成，產生消炎與止痛效果。
 
 Hunter-Thompson 型肢中型發育不良是一種罕見的遺傳性骨骼發育異常，成因為 CDMP1/GDF5 功能喪失，屬於結構性發育問題。COX-2 抑制並不預期能矯正這類先天性缺陷，因此在機轉上**找不到可信的關聯**。
 
@@ -113,11 +113,12 @@ Hunter-Thompson 型肢中型發育不良是一種罕見的遺傳性骨骼發育�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本地資料共有至少 20 張單一成分 celecoxib 許可證（清單可能不完整）」→「香港共有 50 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Vyscoxa (celecoxib) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5094d47e-f791-4190-9397-b7500143a74d) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**注意力不足過動症 (attention deficit-hype
 
 ## 為什麼這個預測合理？
 
-Bupropion 的主要作用機轉是抑制去甲腎上腺素與多巴胺的再攝取，不具血清素活性。（本次整理的資料中缺乏詳細的作用機轉欄位，此處根據文獻綜述中的一般說法。）
+Bupropion 的主要作用機轉是抑制去甲腎上腺素與多巴胺的再攝取，不具血清素活性。根據美國 FDA 核准的 Bupropion 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Bupropion hydrochloride 延長釋放錠（SR）增強患者戒菸能力的確切機轉尚不清楚，但推測與正腎上腺素性及/或多巴胺性機轉有關。Bupropion 是神經元對正腎上腺素及多巴胺再回收的相對較弱抑制劑，且不抑制血清素的再回收。」英文原文："The exact mechanism by which bupropion hydrochloride extended-release tablets (SR) enhances the ability of patients to abstain from smoking is not known but is presumed to be related to noradrenergic and/or dopaminergic mechanisms. Bupropion is a relatively weak inhibitor of the neuronal reuptake of norepinephrine and dopamine, and does not inhibit the reuptake of serotonin."（[DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119)，版本日期 2026-11-11；查閱日期 2026-11-19）。）
 
 注意力不足過動症的核心病理與腦內去甲腎上腺素及多巴胺系統功能失調有關，興奮劑與 atomoxetine 等既有療法也是作用在這些路徑上。因此 bupropion 在機轉上有合理的適用性，文獻綜述也將其列為興奮劑無效或不耐受時的非興奮劑選項之一。
 
@@ -116,6 +116,19 @@ Bupropion 的主要作用機轉是抑制去甲腎上腺素與多巴胺的再攝�
 - 補充詳細作用機轉資料
 - 制定癲癇風險、血壓監測與併用藥物（特別是阿片類與 methylphenidate）的篩檢與管理計畫
 - 評估在無物質使用共病的一般 ADHD 族群中的療效與安全性
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

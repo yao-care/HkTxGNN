@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**何杰金氏淋巴瘤 (Hodgkin's lymphoma)** 有
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Daunorubicin 屬於蒽環類藥物，一般認為其作用為嵌入 DNA 並抑制拓樸異構酶 II，這是對淋巴系惡性腫瘤普遍有活性的機轉。
+根據美國 FDA 核准的 Daunorubicin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Daunorubicin透過多種推測的作用機制而具有抗有絲分裂及細胞毒性活性。Daunorubicin藉由嵌入鹼基對之間而與DNA形成複合物。其透過穩定DNA-拓撲異構酶II複合物而抑制拓撲異構酶II活性，阻止拓撲異構酶II所催化的連接-再連接反應中的再連接部分。」英文原文："Daunorubicin has antimitotic and cytotoxic activity through a number of proposed mechanisms of action. Daunorubicin forms complexes with DNA by intercalation between base pairs. It inhibits topoisomerase II activity by stabilizing the DNA-topoisomerase II complex, preventing the religation portion of the ligation-religation reaction that topoisomerase II catalyzes."（[DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f)，版本日期 2025-05-21；查閱日期 2026-11-19）。根據已知資訊，Daunorubicin 屬於蒽環類藥物，一般認為其作用為嵌入 DNA 並抑制拓樸異構酶 II，這是對淋巴系惡性腫瘤普遍有活性的機轉。
 
 其近似藥物 doxorubicin 已是何杰金氏淋巴瘤標準療法 ABVD 的成分，因此在機轉與藥物類別上具有高度合理性。蒽環類也是兒童白血病、何杰金氏淋巴瘤等癌症化療的骨幹。
 
@@ -155,6 +155,18 @@ TxGNN 模型預測它可能對**何杰金氏淋巴瘤 (Hodgkin's lymphoma)** 有
 | ALK 陽性大 B 細胞淋巴瘤 | 0.9978 | L4 | Hold；試驗未明確測試 daunorubicin |
 | 後腹腔腫瘤 | 0.9977 | L5 | Hold；文獻多為白血病相關病例報告 |
 | 神經節母細胞瘤、腺肉瘤、原發性肺淋巴瘤、椎骨異常合併內分泌與 T 細胞功能異常症候群 | 99.76–0.9980 | L5 | Hold；僅有模型預測，幾乎無直接證據 |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

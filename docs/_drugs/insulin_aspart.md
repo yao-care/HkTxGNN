@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**自體免疫性卵巢炎 (autoimmune oophoritis)
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Insulin Aspart 是胰島素類似物，一般用於控制血糖；其與預測新適應症的關聯，目前只能依推論。
+根據美國 FDA 核准的 Insulin Aspart 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「胰島素（包括NOVOLOG MIX 70/30）的主要作用是調節葡萄糖代謝。胰島素及其類似物通過刺激周邊組織（尤其是骨骼肌和脂肪）攝取葡萄糖，以及抑制肝臟葡萄糖生成，從而降低血糖。」英文原文："The primary activity of insulin, including NOVOLOG MIX 70/30 is the regulation of glucose metabolism. Insulin and its analog lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production."（[DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85)，版本日期 2026-05-18；查閱日期 2026-11-19）。Insulin Aspart 是胰島素類似物，一般用於控制血糖；其與預測新適應症的關聯，目前只能依推論。
 
 可能的連結有兩點：胰島素訊號可能影響卵巢顆粒細胞功能，且自體免疫性內分泌疾病常與自體免疫性糖尿病並存。然而，Insulin Aspart 並無已知針對卵巢自體免疫的免疫調節作用，這個連結屬於推測，缺乏實證支持。
 
@@ -111,6 +111,18 @@ TxGNN 模型（深度學習）的分數雖高 (0.9992)，但該分數可能反�
 | 胰臟發育不全 (pancreatic agenesis) | 0.9944 | L5 | 胰島素替代在生理上合理，但屬於荷爾蒙補充，與原糖尿病適應症一致，並非真正的藥物再利用。檢索到的兩篇文獻（胰島素自體免疫症候群病例報告、第二型糖尿病胰島素治療回顧）並未直接研究此疾病 |
 | 藥物誘發局部脂肪營養不良 | 0.9935 | L5 | 注射部位脂肪營養不良是胰島素已知不良反應，藥物較可能是成因而非治療，安全性考量不支持再利用 |
 | 離心性脂肪營養不良 | 0.9932 | L5 | 僅有理論性連結，無益處證據，且胰島素相關脂肪營養不良為已知不良反應 |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

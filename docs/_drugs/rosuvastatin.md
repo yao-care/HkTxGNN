@@ -56,7 +56,7 @@ TxGNN 模型預測排名第一的新適應症為**膽固醇酯轉運蛋白缺乏
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Rosuvastatin 屬於他汀類（HMG-CoA 還原酶抑制劑），主要作用為降低 LDL-C，並對血脂代謝有調節效果。
+根據美國 FDA 核准的 Rosuvastatin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「CRESTOR 為 HMG‑CoA 還原酶抑制劑；HMG‑CoA 還原酶為將 3‑羥基‑3‑甲基戊二醯輔酶 A 轉化為甲羥戊酸（膽固醇的前驅物）的速率限制酵素。」英文原文："CRESTOR is an inhibitor of HMG‑CoA reductase, the rate-limiting enzyme that converts 3‑hydroxy‑3‑methylglutaryl coenzyme A to mevalonate, a precursor of cholesterol."（[DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee)，版本日期 2026-09-23；查閱日期 2026-11-19）。Rosuvastatin 屬於他汀類（HMG-CoA 還原酶抑制劑），主要作用為降低 LDL-C，並對血脂代謝有調節效果。
 
 膽固醇酯轉運蛋白（CETP）缺乏會使 HDL-C 上升並改變脂蛋白代謝，在生物學上與 rosuvastatin 的脂質調節作用有所重疊。但這僅是計算模型的預測。此外，該病為罕見遺傳特質，常不具臨床危害，是否真有治療需求並不明確。
 
@@ -160,11 +160,12 @@ TxGNN 模型預測排名第一的新適應症為**膽固醇酯轉運蛋白缺乏
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「資料顯示至少有 20 張單一成分的有效許可證（清單可能不完整），以下列出 5 張」→「香港共有 74 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**肺高壓（因肺部疾病和/或缺氧所致�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Ramipril 屬於 ACE 抑制劑類別，一般認為它透過抑制血管張力素轉換酶，降低血管張力素 II 生成，進而影響血管張力與血管重塑。
+根據美國 FDA 核准的 Ramipril 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ramipril及ramiprilat可抑制人體及動物體內的ACE。血管收縮素轉化酶是一種肽基二肽酶，可催化血管收縮素I轉化為具血管收縮作用的物質血管收縮素II。血管收縮素II亦會刺激腎上腺皮質分泌醛固酮。」英文原文："Ramipril and ramiprilat inhibit ACE in human subjects and animals. Angiotensin converting enzyme is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex."（[DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59)，版本日期 2026-11-11；查閱日期 2026-11-19）。Ramipril 屬於 ACE 抑制劑類別，一般認為它透過抑制血管張力素轉換酶，降低血管張力素 II 生成，進而影響血管張力與血管重塑。
 
 慢性缺氧會啟動腎素-血管張力素系統（RAS），促使肺血管重塑。一項大鼠研究（PMID 9200213）顯示，在慢性缺氧期間給予 ramipril，可降低基線灌流壓，並減輕缺氧對肺血管的影響。這是本預測最直接的機轉依據。
 
@@ -110,6 +110,19 @@ TxGNN 模型預測它可能對**肺高壓（因肺部疾病和/或缺氧所致�
 - 取得香港仿單的核准適應症、警語與禁忌
 - 進行人體研究，驗證對肺高壓血行動力學的影響及對通氣灌流匹配的安全性
 - 評估與 PDE5 抑制劑、內皮素受體拮抗劑等現有肺高壓治療的定位與合併安全性
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

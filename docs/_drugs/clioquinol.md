@@ -57,7 +57,7 @@ TxGNN 模型預測它可能對**毛外型感染性疾病 (Ectothrix Infectious D
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般認為 clioquinol 的抗真菌活性與銅、鋅、鐵等金屬離子螯合有關，可能干擾真菌的金屬酶；但這屬於一般性推論，並非本次資料所確認的機轉。
+ChEMBL（EMBL-EBI）收錄的 Clioquinol 作用機轉（非官方翻譯）：「鋅螯合劑；銅螯合劑；鐵螯合劑」英文原文："Zinc chelating agent; Copper chelating agent; Iron chelating agent"（[ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497)，CC BY-SA 3.0；查閱日期 2026-11-19）。一般認為 clioquinol 的抗真菌活性與銅、鋅、鐵等金屬離子螯合有關，可能干擾真菌的金屬酶；但這屬於一般性推論，並非本次資料所確認的機轉。
 
 毛外型感染是皮癬菌感染，真菌孢子形成於毛幹外側，主要由小孢子菌屬 (*Microsporum*) 及部分毛癬菌屬 (*Trichophyton*) 引起。此預測分數來自 TxGNN 模型（深度學習），可能反映模型在相關疾病之間學到的相似性，並非生物學證據。
 
@@ -118,11 +118,12 @@ TxGNN 模型預測它可能對**毛外型感染性疾病 (Ectothrix Infectious D
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「以下為已列出的 20 張許可證中的 5 張（總數至少 20 張，清單可能不完整）」→「以下為其中 5 張（共有 53 張含本藥成分的許可證，全部有」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497) |
 
 <!-- review:end log -->
 

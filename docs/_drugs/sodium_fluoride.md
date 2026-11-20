@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**會厭炎 (Epiglottitis)** 有效，但目前**�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。氟化鈉的原適應症「維生素缺乏症」僅來自知識圖譜的關聯記錄，並非香港許可證或仿單所載的核准適應症。
+根據美國 FDA 核准的 Sodium Fluoride 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「由Clinpro 5000釋出的氟化物可抑制健康牙齒的去礦化，並促進已去礦化牙齒的再礦化（即修復）。刷牙期間，氟化物會被牙齒及牙菌斑吸收。」英文原文："Fluoride delivered from Clinpro 5000 inhibits the demineralization of sound teeth and enhances the remineralization (i.e., repair) of demineralized teeth. During tooth brushing, fluoride is taken up by teeth and dental plaque."（[DailyMed: Clinpro 5000 (sodium fluoride) prescribing information, Solventum US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a20d3cf0-2e1f-4191-971e-9e47936b4580)，版本日期 2024-08-01；查閱日期 2026-11-19）。氟化鈉的原適應症「維生素缺乏症」僅來自知識圖譜的關聯記錄，並非香港許可證或仿單所載的核准適應症。
 
 會厭炎多由 b 型流感嗜血桿菌或其他細菌引起，標準處置是氣道管理與抗生素。現有資料無法支持氟化鈉在此疾病中有抗菌或其他治療作用，也無法建立機轉上的連結。0.9992 的高分來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，並非生物學證據，不能視為療效證據。
 
@@ -110,6 +110,19 @@ TxGNN 模型預測它可能對**會厭炎 (Epiglottitis)** 有效，但目前**�
 - 取得香港仿單的警語與禁忌資訊，進行安全性篩選。
 - 針對會厭炎進行體外抗菌或前臨床研究，確認是否有任何生物學依據。
 - 與現行標準治療（氣道管理與抗生素）比較，評估是否有臨床需求。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Clinpro 5000 (sodium fluoride) prescribing information, Solventum US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a20d3cf0-2e1f-4191-971e-9e47936b4580) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

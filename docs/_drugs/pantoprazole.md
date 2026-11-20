@@ -61,7 +61,7 @@ Pantoprazole 是質子幫浦抑制劑（PPI），原本用於消化性潰瘍、�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（原廠資料欄位未收錄）。不過依據已知藥理，Pantoprazole 會不可逆地抑制胃壁細胞上的 H+/K+ ATPase（質子幫浦），這是胃酸分泌的最後一步，因此能降低胃酸、讓潰瘍癒合。
+根據美國 FDA 核准的 Pantoprazole 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Pantoprazole 是一種 PPI，透過與胃壁細胞分泌表面的（H +, K + ）-ATPase 酶系統共價結合，抑制胃酸生成的最後步驟。此作用導致基礎及受刺激的胃酸分泌均受到抑制，不論刺激為何。」英文原文："Pantoprazole is a PPI that suppresses the final step in gastric acid production by covalently binding to the (H +, K + )-ATPase enzyme system at the secretory surface of the gastric parietal cell. This effect leads to inhibition of both basal and stimulated gastric acid secretion irrespective of the stimulus."（[DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b)，版本日期 2026-11-06；查閱日期 2026-11-19）。不過依據已知藥理，Pantoprazole 會不可逆地抑制胃壁細胞上的 H+/K+ ATPase（質子幫浦），這是胃酸分泌的最後一步，因此能降低胃酸、讓潰瘍癒合。
 
 這個預測反映的是模型正確辨認出藥物既有的用途，而非發現新用途。
 
@@ -157,12 +157,13 @@ Pantoprazole 是質子幫浦抑制劑（PPI），原本用於消化性潰瘍、�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效許可證，皆為單方製劑，目前無已註銷者。」→「香港共有 49 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
 | 2026-11-17 | 「- 活動性消化性潰瘍屬 Pantoprazole 的既有核心適應症，機轉明確，且」→「- 活動性消化性潰瘍屬 Pantoprazole 的既有核心」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b) |
 
 <!-- review:end log -->
 

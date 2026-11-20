@@ -66,7 +66,7 @@ Rifabutin 是利福黴素類藥物，作用是抑制細菌的 DNA 依賴型 RNA 
 
 在 HIV 患者身上，Rifabutin 的臨床價值在於治療與預防共病感染，主要是 MAC 與結核病。它對 CYP3A4 的誘導作用比 Rifampin 弱，較容易與蛋白酶抑制劑合併使用，但仍需調整劑量並監測藥物濃度。
 
-因此，把這個預測解讀為「HIV 相關感染的輔助用藥」比解讀為「HIV 感染治療」更合理。目前缺乏詳細的作用機轉資料，上述說明來自已知的藥理特性。
+因此，把這個預測解讀為「HIV 相關感染的輔助用藥」比解讀為「HIV 感染治療」更合理。根據美國 FDA 核准的 Rifabutin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Rifabutin 可抑制 Escherichia coli 及 Bacillus subtilis 敏感菌株中的 DNA 依賴性 RNA 聚合酶，但對哺乳動物細胞則無此作用。在 E. coli 的抗藥菌株中，rifabutin 與 rifampin 一樣，未能抑制此酵素。」英文原文："Rifabutin inhibits DNA-dependent RNA polymerase in susceptible strains of Escherichia coli and Bacillus subtilis but not in mammalian cells. In resistant strains of E. coli, rifabutin, like rifampin, did not inhibit this enzyme."（[DailyMed: rifabutin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=25a60937-cbbe-4a50-994f-2ce15203f589)，版本日期 2026-09-01；查閱日期 2026-11-19）。
 
 ---
 
@@ -145,6 +145,19 @@ Rifabutin 是利福黴素類藥物，作用是抑制細菌的 DNA 依賴型 RNA 
 - 重新界定目標適應症，例如「HIV 患者的 MAC 或結核病」，再重新評估證據等級。
 - 補充作用機轉資料。
 - 擬定血球監測與藥物交互作用管理計畫，尤其針對併用蛋白酶抑制劑與兒童族群。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: rifabutin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=25a60937-cbbe-4a50-994f-2ce15203f589) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

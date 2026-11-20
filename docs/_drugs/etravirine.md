@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**猿猴免疫缺陷病毒感染 (Simian Immunodef
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知的藥物分類，Etravirine 屬於 NNRTI，作用是抑制 HIV-1 逆轉錄酶，阻止病毒複製。
+根據美國 FDA 核准的 Etravirine 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Etravirine是一種抗反轉錄病毒藥物。[…] Etravirine是HIV-1的NNRTI。Etravirine直接與反轉錄酶（RT）結合，透過破壞該酵素的催化位點，阻斷其RNA依賴性及DNA依賴性DNA聚合酶活性。Etravirine不會抑制人類DNA聚合酶α、β及γ。」英文原文："Etravirine is an antiretroviral drug. […] Etravirine is an NNRTI of HIV-1. Etravirine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site. Etravirine does not inhibit the human DNA polymerases α, β, and γ."（[DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d)，版本日期 2023-08-15；查閱日期 2026-11-19）。根據已知的藥物分類，Etravirine 屬於 NNRTI，作用是抑制 HIV-1 逆轉錄酶，阻止病毒複製。
 
 SIV 與 HIV 同屬慢病毒，因此在概念上存在關聯。不過，SIV 的逆轉錄酶性質上較接近 HIV-2，對 NNRTI 天生較不敏感，所以任何活性都必須另行驗證。
 
@@ -112,6 +112,18 @@ TxGNN 模型（深度學習）給出的高分，可能反映模型學到的相�
 | 良性生殖系統腫瘤 | 0.9970 | 疾病類別過於廣泛，高分可能來自本體論鄰近性 |
 | 良性前列腺葉狀腫瘤 | 0.9965 | 無機轉依據，也無證據 |
 | 已廢棄之家族性複合型高脂血症 | 0.9964 | 該術語已廢棄，且無降脂機轉依據 |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

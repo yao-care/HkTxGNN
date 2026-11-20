@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**HIV 感染 (HIV infectious disease)** 有效，�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Pravastatin 屬於 HMG-CoA 還原酶抑制劑（statin），可降低膽固醇合成並增加肝臟 LDL 受體，其在血脂異常的療效已被證實。
+根據美國 FDA 核准的 Pravastatin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Pravastatin 是 HMG-CoA 還原酶的可逆性抑制劑，此酶為將 HMG-CoA 轉化為 mevalonate（膽固醇的前驅物）的速率限制酶。」英文原文："Pravastatin is a reversible inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol."（[DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d)，版本日期 2026-10-23；查閱日期 2026-11-19）。已知 Pravastatin 屬於 HMG-CoA 還原酶抑制劑（statin），可降低膽固醇合成並增加肝臟 LDL 受體，其在血脂異常的療效已被證實。
 
 HIV 感染者常因蛋白酶抑制劑（PI）等抗反轉錄病毒療法出現血脂異常，並有較高的心血管疾病風險。Pravastatin 不經 CYP3A4 代謝，與蛋白酶抑制劑及藥效增強劑的交互作用較其他 statin 少，因此在這個族群特別有臨床意義。
 
@@ -149,6 +149,19 @@ HIV 感染者常因蛋白酶抑制劑（PI）等抗反轉錄病毒療法出現�
 - 取得完整的作用機轉資料與香港仿單的警語、禁忌與核准適應症
 - 針對 HIV 族群的前瞻性、足夠樣本數的隨機試驗，以心血管事件為終點
 - 與現行抗反轉錄病毒療法併用的劑量與交互作用監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

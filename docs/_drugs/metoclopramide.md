@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**胃潰瘍 (Gastric Ulcer)** 有效，目前有 *
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（原始資料未提供）。依文獻整理，Metoclopramide 是多巴胺 D2 受體拮抗劑與 5-HT4 受體促效劑，可增強胃排空與上消化道蠕動。
+根據美國 FDA 核准的 Metoclopramide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Metoclopramide可刺激上消化道的蠕動，而不刺激胃、膽汁或胰臟的分泌。Metoclopramide治療胃食道逆流及急性與復發性糖尿病胃輕癱的確切作用機轉尚未完全確立。」英文原文："Metoclopramide stimulates motility of the upper gastrointestinal tract without stimulating gastric, biliary, or pancreatic secretions. The exact mechanism of action of metoclopramide in the treatment of gastroesophageal reflux and acute and recurrent diabetic gastroparesis has not been fully established."（[DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397)，版本日期 2026-02-09；查閱日期 2026-11-19）。依文獻整理，Metoclopramide 是多巴胺 D2 受體拮抗劑與 5-HT4 受體促效劑，可增強胃排空與上消化道蠕動。
 
 這與原適應症（胃食道逆流）有明確關聯，因為促進胃排空和提升食道下括約肌張力有助於減少逆流。對胃潰瘍而言，它可能改善潰瘍伴隨的消化不良、胃排空延遲及鹼性（膽汁）逆流等症狀。
 
@@ -147,11 +147,12 @@ TxGNN 模型預測它可能對**胃潰瘍 (Gastric Ulcer)** 有效，目前有 *
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 19 張有效的單方許可證，」→「香港共有 19 張單方許可證（17 張有效；HK-47468、HK-47467 」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397) |
 
 <!-- review:end log -->
 

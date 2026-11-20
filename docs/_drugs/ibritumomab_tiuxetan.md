@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**被套細胞淋巴瘤 (Mantle Cell Lymphoma)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Ibritumomab Tiuxetan 是以 Y-90 標記的抗 CD20 抗體，藉由抗體鎖定 CD20 陽性的 B 細胞，並由 Y-90 釋放 β 輻射殺傷腫瘤細胞。
+根據美國 FDA 核准的 Ibritumomab Tiuxetan 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ibritumomab tiuxetan可專一性地與CD20抗原（人類B淋巴球限制性分化抗原，Bp35）結合。Ibritumomab tiuxetan對CD20抗原的表觀親和力（K D）約介於14至18 nM之間。」英文原文："Ibritumomab tiuxetan binds specifically to the CD20 antigen (human B-lymphocyte-restricted differentiation antigen, Bp35). The apparent affinity (K D ) of ibritumomab tiuxetan for the CD20 antigen ranges between approximately 14 to 18 nM."（[DailyMed: Zevalin (ibritumomab tiuxetan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=25d367dc-da65-44c9-a844-1bf15339c285)，版本日期 2023-04-25；查閱日期 2026-11-19）。根據已知資訊，Ibritumomab Tiuxetan 是以 Y-90 標記的抗 CD20 抗體，藉由抗體鎖定 CD20 陽性的 B 細胞，並由 Y-90 釋放 β 輻射殺傷腫瘤細胞。
 
 被套細胞淋巴瘤細胞表現 CD20，且對放射線敏感。Y-90 的 β 射線具有「交叉火力」效應，也能影響鄰近未被抗體結合的腫瘤細胞。因此機轉上適用於被套細胞淋巴瘤是合理的。
 
@@ -136,6 +136,19 @@ TxGNN 模型預測它可能對**被套細胞淋巴瘤 (Mantle Cell Lymphoma)** �
 **附註：其他預測適應症**
 
 另有 7 個預測適應症（急性淋巴芽細胞白血病、小腸 Burkitt 淋巴瘤、小腸／甲狀腺／乳房 MALT 淋巴瘤、扁桃腺淋巴瘤、突變型慢性淋巴球性白血病／小淋巴球淋巴瘤）目前僅有模型預測，無臨床試驗或文獻，證據等級均為 L5，建議決策為 Hold。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Zevalin (ibritumomab tiuxetan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=25d367dc-da65-44c9-a844-1bf15339c285) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

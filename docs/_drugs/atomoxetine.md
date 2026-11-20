@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**特定發展障礙 (Specific Developmental Disor
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Atomoxetine 屬於選擇性正腎上腺素再回收抑制劑，已用於治療 ADHD。ADHD 本身是一種神經發展障礙，因此模型把它與其他發展障礙連結起來。
+根據美國 FDA 核准的 Atomoxetine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「STRATTERA 在 ADHD 中產生治療效果的確切機轉不明，但根據離體攝取及神經傳導物質耗竭研究的結果，認為與選擇性抑制突觸前正腎上腺素轉運體有關。」英文原文："The precise mechanism by which STRATTERA produces its therapeutic effects in ADHD is unknown, but is thought to be related to selective inhibition of the pre-synaptic norepinephrine transporter, as determined in ex vivo uptake and neurotransmitter depletion studies."（[DailyMed: Strattera (atomoxetine hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=309de576-c318-404a-bc15-660c2b1876fb)，版本日期 2026-06-30；查閱日期 2026-11-19）。根據已知資訊，Atomoxetine 屬於選擇性正腎上腺素再回收抑制劑，已用於治療 ADHD。ADHD 本身是一種神經發展障礙，因此模型把它與其他發展障礙連結起來。
 
 TxGNN 分數極高，很可能反映的是網路上與 ADHD 的鄰近性。現有文獻討論的是 ADHD（包含合併自閉症、學習障礙者），並未直接證明對語言、學習或動作等特定發展障礙有效。因此這個連結屬間接推論，不能視為療效證據。
 
@@ -152,11 +152,12 @@ TxGNN 分數極高，很可能反映的是網路上與 ADHD 的鄰近性。現�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「全部共 20 張許可證皆為有效的單方製劑，此處僅列出 5 張。」→「香港共有 24 張含本藥成分的許可證（有效 23 張、已註銷」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Strattera (atomoxetine hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=309de576-c318-404a-bc15-660c2b1876fb) |
 
 <!-- review:end log -->
 

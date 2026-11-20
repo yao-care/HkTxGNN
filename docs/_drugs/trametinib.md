@@ -61,7 +61,7 @@ TxGNN 模型預測排名最高的新適應症為脈絡膜缺失症，但該預�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（原始 MOA 欄位未收錄）。不過，藥理資料顯示 trametinib 的標的是 MEK1 (MAP2K1) 與 MEK2 (MAP2K2)，位於 BRAF/NRAS 下游的 MAPK 訊號路徑。此路徑在黑色素瘤中經常被活化，這也是 trametinib 用於 BRAF V600 突變黑色素瘤的基礎。
+根據美國 FDA 核准的 Trametinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Trametinib 為有絲分裂原活化細胞外訊號調節激酶 1（MEK1）及 MEK2 活化以及 MEK1 與 MEK2 激酶活性之可逆性抑制劑。MEK 蛋白為細胞外訊號相關激酶（ERK）路徑之上游調節因子，該路徑會促進細胞增生。」英文原文："Trametinib is a reversible inhibitor of mitogen-activated extracellular signal-regulated kinase 1 (MEK1) and MEK2 activation and of MEK1 and MEK2 kinase activity. MEK proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway, which promotes cellular proliferation."（[DailyMed: Mekinist (trametinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1)，版本日期 2026-05-07；查閱日期 2026-11-19）。不過，藥理資料顯示 trametinib 的標的是 MEK1 (MAP2K1) 與 MEK2 (MAP2K2)，位於 BRAF/NRAS 下游的 MAPK 訊號路徑。此路徑在黑色素瘤中經常被活化，這也是 trametinib 用於 BRAF V600 突變黑色素瘤的基礎。
 
 非皮膚性黑色素瘤（黏膜、肢端、葡萄膜等）與原適應症同屬黑色素瘤，但生物學特性差異大。帶有 BRAF V600 突變的腫瘤，理論上可能對 dabrafenib 合併 trametinib 有反應；葡萄膜黑色素瘤主要由 GNAQ/GNA11 驅動，機轉依據較弱。
 
@@ -151,6 +151,19 @@ TxGNN 模型預測排名最高的新適應症為脈絡膜缺失症，但該預�
 - 以非皮膚性黑色素瘤為主體的 Phase 2/3 試驗，並限定 BRAF V600 突變族群
 - 完整的作用機轉資料與香港仿單的警語、禁忌症
 - 與 BRAF 抑制劑等併用藥物的交互作用監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Mekinist (trametinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

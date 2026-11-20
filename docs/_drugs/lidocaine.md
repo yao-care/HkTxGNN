@@ -60,7 +60,7 @@ TxGNN 模型預測分數最高的新適應症為**點狀上皮角膜結膜炎 (P
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Lidocaine 屬於鈉離子通道阻斷劑，常以局部眼用麻醉的形式使用，機轉上可能緩解眼表疼痛等症狀。
+根據美國 FDA 核准的 Lidocaine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Lidocaine hydrochloride透過提高心室於舒張期的電刺激閾值而發揮抗心律不整作用。在一般治療劑量下，lidocaine hydrochloride不會改變心肌收縮力、全身動脈壓或絕對不反應期。」英文原文："Lidocaine hydrochloride exerts an antiarrhythmic effect by increasing the electrical stimulation threshold of the ventricle during diastole. In usual therapeutic doses, lidocaine hydrochloride produces no change in myocardial contractility, in systemic arterial pressure, or in absolute refractory period."（[DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0)，版本日期 2026-02-20；查閱日期 2026-11-19）。根據已知資訊，Lidocaine 屬於鈉離子通道阻斷劑，常以局部眼用麻醉的形式使用，機轉上可能緩解眼表疼痛等症狀。
 
 點狀上皮角膜結膜炎是眼表發炎性疾病，Lidocaine 的可能角色僅限於症狀緩解（減輕眼表疼痛）。然而，局部麻醉藥可能對角膜上皮產生毒性，因此是否具有疾病修飾作用缺乏支持，且可能有害。
 
@@ -149,11 +149,12 @@ TxGNN 模型預測分數最高的新適應症為**點狀上皮角膜結膜炎 (P
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「下表列出部分許可證（清單可能不完整，實際許可證至少 20 張）。」→「下表列出部分許可證（共 114 張含本藥成分的許可證，全部有」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0) |
 
 <!-- review:end log -->
 

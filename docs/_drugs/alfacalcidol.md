@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**顱面錐體發育不良 (craniofacial conodyspl
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Alfacalcidol 是活性維生素 D 類似物，可繞過腎臟 1-alpha 羟化步驟，直接參與鈣、磷代謝與骨礦化調節。
+ChEMBL（EMBL-EBI）收錄的 Alfacalcidol 作用機轉（非官方翻譯）：「維生素 D 受體致效劑」英文原文："Vitamin D receptor agonist"（[ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Alfacalcidol 是活性維生素 D 類似物，可繞過腎臟 1-alpha 羟化步驟，直接參與鈣、磷代謝與骨礦化調節。
 
 顱面錐體發育不良屬於骨骼發育異常。從骨骼與礦物質代謝的角度，兩者之間存在概念上的關聯，但目前沒有任何文件記載的機轉或數據能支持 alfacalcidol 對此疾病有效。
 
@@ -95,6 +95,19 @@ TxGNN 模型預測它可能對**顱面錐體發育不良 (craniofacial conodyspl
 - 系統性檢索此疾病相關的前臨床或病例文獻
 - 取得香港衛生署的仿單，完成警語與禁忌症的安全性審查
 - 由骨骼發育異常專家評估該疾病是否有合理的維生素 D 類藥物介入點
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

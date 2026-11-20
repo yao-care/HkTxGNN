@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Cidofovir 一般被認為是核苷酸類似物，可抑制病毒 DNA 聚合酶，主要用於抗病毒治療。
+根據美國 FDA 核准的 Cidofovir 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Cidofovir 經由選擇性抑制病毒 DNA 合成而抑制巨細胞病毒（CMV）複製。生化數據支持 cidofovir 的細胞內活性代謝物 cidofovir diphosphate 會選擇性抑制 CMV DNA 聚合酶。」英文原文："Cidofovir suppresses cytomegalovirus (CMV) replication by selective inhibition of viral DNA synthesis. Biochemical data support selective inhibition of CMV DNA polymerase by cidofovir diphosphate, the active intracellular metabolite of cidofovir."（[DailyMed: Cidofovir (cidofovir anhydrous) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56541229-8c1a-4550-8951-2415ed08e7e9)，版本日期 2021-04-15；查閱日期 2026-11-19）。Cidofovir 一般被認為是核苷酸類似物，可抑制病毒 DNA 聚合酶，主要用於抗病毒治療。
 
 一個可能的間接關聯是：免疫功能低下的患者中，CMV 等病毒感染可能與繼發性硬化性膽管炎有關，抗病毒藥物或許因此有用。但這只是推測，本次整理的資料並不支持。原發性硬化性膽管炎並非已知由病毒驅動的疾病，因此高分預測的機轉基礎薄弱。
 
@@ -119,6 +119,19 @@ TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** �
 - 補充作用機轉資料（例如 DrugBank），以分析機轉關聯。
 - 針對硬化性膽管炎，特別是與病毒感染相關的繼發性類型，進行系統性文獻回顧與前臨床驗證。
 - 如要推進，需先擬定腎功能監測與避免併用腎毒性藥物的計畫。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cidofovir (cidofovir anhydrous) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56541229-8c1a-4550-8951-2415ed08e7e9) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -59,7 +59,7 @@ TxGNN 模型（深度學習）預測它可能對**斜視 (Esotropia)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Tagraxofusp 是一種 CD123 導向的細胞毒素（IL-3 與截短型白喉毒素融合），可殺死表現 CD123 的細胞，這與其在 CD123 高表現的血液惡性腫瘤中的療效相符。
+根據美國 FDA 核准的 Tagraxofusp 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Tagraxofusp-erzs 是一種以 CD123 為標靶的細胞毒素，由重組人類介白素-3（IL-3）與截短白喉毒素（DT）組成的融合蛋白，可抑制蛋白質合成，並導致表現 CD123 的細胞死亡。」英文原文："Tagraxofusp-erzs is a CD123-directed cytotoxin composed of recombinant human interleukin-3 (IL-3) and truncated diphtheria toxin (DT) fusion protein that inhibits protein synthesis and causes cell death in CD123-expressing cells."（[DailyMed: Elzonris (tagraxofusp) prescribing information, Stemline Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80eb1080-fe20-4af0-b2a5-a67999923fa8)，版本日期 2024-12-09；查閱日期 2026-11-19）。根據已知資訊，Tagraxofusp 是一種 CD123 導向的細胞毒素（IL-3 與截短型白喉毒素融合），可殺死表現 CD123 的細胞，這與其在 CD123 高表現的血液惡性腫瘤中的療效相符。
 
 斜視是眼球運動異常的疾病，已知病理中沒有 CD123 驅動的機制。原適應症為血液腫瘤，兩者在疾病生物學上幾乎沒有交集，因此這個預測缺乏機轉上的支持。
 
@@ -128,6 +128,19 @@ TxGNN 模型（深度學習）預測它可能對**斜視 (Esotropia)** 有效，
 - 補齊作用機轉（MOA）資料，並確認斜視是否存在任何 CD123 相關的生物學依據
 - 取得香港衛生署的仿單，完成警語與禁忌症的安全性審查（目前為阻斷性資料缺口）
 - 若仍想探索 TxGNN 的高分預測，建議優先檢視與 CD123 較相關的血液腫瘤類（例如預測清單中的「pre-malignant neoplasm」，需先界定具體疾病如骨髓增生異常症候群），而非斜視
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Elzonris (tagraxofusp) prescribing information, Stemline Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80eb1080-fe20-4af0-b2a5-a67999923fa8) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

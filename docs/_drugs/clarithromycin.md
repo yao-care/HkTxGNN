@@ -66,7 +66,7 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (Hyperamylasemia)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Clarithromycin 屬於大環內酯類抗生素，一般認為其作用是抑制細菌蛋白質合成，並具有免疫調節特性，但這些內容並非來自本報告所彙整的機轉資料，僅供參考。
+根據美國 FDA 核准的 Clarithromycin 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Clarithromycin 是一種巨環內酯類抗微生物藥物。[…] Clarithromycin 經由與易感細菌的 50S 核糖體次單元結合而發揮其抗菌作用，導致蛋白質合成受到抑制。」英文原文："Clarithromycin is a macrolide antimicrobial drug. […] Clarithromycin exerts its antibacterial action by binding to the 50S ribosomal subunit of susceptible bacteria resulting in inhibition of protein synthesis."（[DailyMed: clarithromycin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba216276-b0bd-420a-9e0d-090bdfcc2460)，版本日期 2026-11-12；查閱日期 2026-11-19）。Clarithromycin 屬於大環內酯類抗生素，一般認為其作用是抑制細菌蛋白質合成，並具有免疫調節特性，但這些內容並非來自本報告所彙整的機轉資料，僅供參考。
 
 目前找不到合理的直接機轉，說明 clarithromycin 能治療高澱粉酶血症。唯一檢索到的文獻是 2004 年日本的個案報告，內容是脂膜分枝桿菌（M. abscessus）肺部感染合併原發性巨澱粉酶血症，高澱粉酶血症是病人的伴隨狀況，並非治療標的。大環內酯類相關的胰酵素上升也不是已知的治療效果。
 
@@ -135,12 +135,13 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (Hyperamylasemia)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「&#124; 核准數 &#124; 至少 20 張許可證（清單可能不完整） &#124;」→「&#124; 核准數 &#124; 38 張（全部有效；皆為單一成分） &#124;」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
 | 2026-11-17 | 「以下為已列出的許可證（資料顯示至少 20 張，清單可能不完整，此處列出 5 張）」→「以下為已列出的許可證（共 38 張含本藥成分的許可證，全部有」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: clarithromycin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba216276-b0bd-420a-9e0d-090bdfcc2460) |
 
 <!-- review:end log -->
 

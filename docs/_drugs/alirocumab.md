@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**魚鱗癬，X 連鎖，無類固醇硫酸酯酶�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Alirocumab 是 PCSK9 中和型單株抗體，藉由阻斷 PCSK9 與 LDLR 的結合，提高肝臟 LDLR 數量，進而降低血中 LDL 膽固醇。
+根據美國 FDA 核准的 Alirocumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Alirocumab為一種人類單株抗體，可與前蛋白轉化酶枯草桿菌蛋白酶/kexin第9型（PCSK9）結合。PCSK9會與肝細胞表面的低密度脂蛋白（LDL）受體（LDLR）結合，以促進LDLR於肝臟內降解。」英文原文："Alirocumab is a human monoclonal antibody that binds to proprotein convertase subtilisin kexin type 9 (PCSK9). PCSK9 binds to the low-density lipoprotein (LDL) receptors (LDLR) on the surface of hepatocytes to promote LDLR degradation within the liver."（[DailyMed: Praluent (alirocumab) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7bcfbac2-e8ac-4569-8edc-bcde3b1fd172)，版本日期 2026-07-16；查閱日期 2026-11-19）。根據已知資訊，Alirocumab 是 PCSK9 中和型單株抗體，藉由阻斷 PCSK9 與 LDLR 的結合，提高肝臟 LDLR 數量，進而降低血中 LDL 膽固醇。
 
 X 連鎖魚鱗癬與膽固醇硫酸酯的累積有關，因此在膽固醇代謝上可以想像一個鬆散的關聯。然而，Alirocumab 的作用在於降低循環中的 LDL 膽固醇，並沒有證據顯示它能直接改善皮膚屏障疾病，也無法處理膽固醇硫酸酯累積的根本原因。
 
@@ -97,6 +97,19 @@ X 連鎖魚鱗癬與膽固醇硫酸酯的累積有關，因此在膽固醇代謝
 - 以細胞或動物模型進行前臨床研究
 - 取得原廠仿單的警語與禁忌症資料，完成安全性評估
 - 補充詳細的作用機轉資料
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Praluent (alirocumab) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7bcfbac2-e8ac-4569-8edc-bcde3b1fd172) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

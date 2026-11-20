@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**失眠 (insomnia (disease))** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據藥物類別推論，alprazolam 屬苯二氮平類，可增強 GABA-A 受體訊號，產生鎮靜與抗焦慮作用。
+根據美國 FDA 核准的 Alprazolam 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Alprazolam 為一種 1,4 benzodiazepine。Alprazolam 藉由與腦中 γ-胺基丁酸-A（GABA A ）受體的 benzodiazepine 位點結合，而發揮治療恐慌症的作用，並增強 GABA 介導的突觸抑制。」英文原文："Alprazolam is a 1,4 benzodiazepine. Alprazolam exerts its effect for the treatment of panic disorder through binding to the benzodiazepine site of gamma‑aminobutyric acid-A (GABA A ) receptors in the brain and enhances GABA-mediated synaptic inhibition."（[DailyMed: Alprazolam Xr (alprazolam) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1338d1c9-7c75-42ed-95f3-9eb1b6fc51d3)，版本日期 2025-02-11；查閱日期 2026-11-19）。根據藥物類別推論，alprazolam 屬苯二氮平類，可增強 GABA-A 受體訊號，產生鎮靜與抗焦慮作用。
 
 這種鎮靜作用與失眠的處置具有機轉上的合理關聯，尤其是合併焦慮的失眠。不過此連結是由藥物類別推論而來，並非來自已驗證的作用機轉資料。
 
@@ -110,6 +110,18 @@ TxGNN 模型預測它可能對**失眠 (insomnia (disease))** 有效，
 - 詳細的作用機轉資料
 - 取得香港原廠仿單，確認警語、禁忌症與核准適應症
 - 針對老年人及高風險族群的安全性監測與停藥計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Alprazolam Xr (alprazolam) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1338d1c9-7c75-42ed-95f3-9eb1b6fc51d3) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

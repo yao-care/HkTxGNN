@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**尤因氏肉瘤 (Ewing Sarcoma)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫未收錄）。依一般藥理知識，doxorubicin 是拓撲異構酶 II 抑制劑，同時會嵌入 DNA，使快速增生的腫瘤細胞發生 DNA 損傷。
+根據美國 FDA 核准的 Doxorubicin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「鹽酸多柔比星（doxorubicin hydrochloride）對惡性細胞的細胞毒性作用及其對各器官的毒性作用，被認為與多柔比星的核苷酸鹼基嵌入及細胞膜脂質結合活性有關。嵌入作用會抑制核苷酸複製以及DNA和RNA聚合酶的作用。」英文原文："The cytotoxic effect of doxorubicin hydrochloride on malignant cells and its toxic effects on various organs are thought to be related to nucleotide base intercalation and cell membrane lipid binding activities of doxorubicin. Intercalation inhibits nucleotide replication and action of DNA and RNA polymerases."（[DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd)，版本日期 2026-11-12；查閱日期 2026-11-19）。依一般藥理知識，doxorubicin 是拓撲異構酶 II 抑制劑，同時會嵌入 DNA，使快速增生的腫瘤細胞發生 DNA 損傷。
 
 原適應症（白血病、淋巴瘤）和尤因氏肉瘤都是快速增生的惡性腫瘤，對 DNA 損傷型化療敏感。Doxorubicin 是尤因氏肉瘤標準多藥方案（VDC/IE 或 VAC/VAI）的骨幹之一，與模型給出的高分預測一致。
 
@@ -162,6 +162,19 @@ TxGNN 模型預測它可能對**尤因氏肉瘤 (Ewing Sarcoma)** 有效，
 - 肺母細胞瘤（rank 4）：L3，建議列為研究問題。
 - 原發性肺淋巴瘤（rank 3）：L4，建議列為研究問題。
 - 其餘（肺胎兒型腺癌、BCR-ABL1 陽性慢性骨髓性白血病、單核球白血病、陰道葡萄狀胚胎型橫紋肌肉瘤、顱旁胚胎型橫紋肌肉瘤、神經節母細胞瘤）：僅有模型預測或個案報告，建議 Hold。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

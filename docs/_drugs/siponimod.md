@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Siponimod 是選擇性 S1P1/S1P5 受體調節劑，S1P 訊號與肺血管重塑及內皮屏障功能有關，因此在機轉上有理論上的關聯。
+根據美國 FDA 核准的 Siponimod 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Siponimod 是一種 S1P 受體調節劑。Siponimod 以高親和力與 S1P 受體 1 及 5 結合。Siponimod 會阻斷淋巴球自淋巴結移出的能力，從而減少周邊血液中的淋巴球數目。」英文原文："Siponimod is an S1P receptor modulator. Siponimod binds with high affinity to S1P receptors 1 and 5. Siponimod blocks the capacity of lymphocytes to egress from lymph nodes, reducing the number of lymphocytes in peripheral blood."（[DailyMed: Mayzent (siponimod) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44492772-5aed-4627-bd85-e8e89f308bb3)，版本日期 2026-06-30；查閱日期 2026-11-19）。根據已知資訊，Siponimod 是選擇性 S1P1/S1P5 受體調節劑，S1P 訊號與肺血管重塑及內皮屏障功能有關，因此在機轉上有理論上的關聯。
 
 不過，Siponimod 與肺動脈高壓之間沒有已記載的直接連結。S1P 受體調節劑也可能引起心搏過緩，並影響心血管與肺部功能，因此這個預測的安全性令人擔憂。
 
@@ -127,6 +127,19 @@ TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有�
 - 補充詳細的作用機轉資料（MOA）
 - 進行 S1P 訊號與肺血管重塑的前臨床研究，並評估心血管安全性
 - 若要尋找較有潛力的方向，可優先評估類風濕性關節炎等免疫相關適應症，並系統性檢索偏頭痛相關的直接證據
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Mayzent (siponimod) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44492772-5aed-4627-bd85-e8e89f308bb3) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

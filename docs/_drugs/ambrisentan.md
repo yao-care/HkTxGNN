@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**肺動靜脈畸形 (pulmonary arteriovenous malf
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Ambrisentan 屬於內皮素 A 型受體 (ETA) 拮抗劑，理論上可影響肺血管張力。
+根據美國 FDA 核准的 Ambrisentan 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「內皮素-1（ET-1）為一種強效的自分泌及旁分泌胜肽。ET A 及 ET B 兩種受體亞型介導 ET-1 在血管平滑肌及內皮的作用。[…] Ambrisentan 為一種高親和力（K i =0.011 nM）的 ET A 受體拮抗劑，對 ET A 受體相較於 ET B 受體具有高度選擇性（>4000 倍）。」英文原文："Endothelin-1 (ET-1) is a potent autocrine and paracrine peptide. Two receptor subtypes, ET A and ET B, mediate the effects of ET-1 in the vascular smooth muscle and endothelium. […] Ambrisentan is a high-affinity (K i =0.011 nM) ET A receptor antagonist with a high selectivity for the ET A versus ET B receptor (>4000-fold)."（[DailyMed: Letairis (ambrisentan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844)，版本日期 2026-06-22；查閱日期 2026-11-19）。Ambrisentan 屬於內皮素 A 型受體 (ETA) 拮抗劑，理論上可影響肺血管張力。
 
 然而，肺動靜脈畸形是結構性的血管分流（常見於遺傳性出血性毛細血管擴張症，HHT），一般不預期會對血管擴張型藥物產生反應。現有的唯一文獻是 PAH 合併 HHT 的個案報告，屬間接證據，並未直接研究肺動靜脈畸形本身。
 
@@ -101,6 +101,19 @@ TxGNN 模型預測它可能對**肺動靜脈畸形 (pulmonary arteriovenous malf
 - 取得香港衛生署核准的仿單，確認警語與禁忌症
 - 針對肺動靜脈畸形（或 HHT 相關病變）的前臨床或臨床研究證據
 - 評估致畸性與育齡族群的風險管理計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Letairis (ambrisentan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

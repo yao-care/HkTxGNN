@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**癌前病變 (Pre-malignant Neoplasm)** 有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉（MOA）資料庫條目。根據已知資訊，imiquimod 是 TLR7（Toll-like receptor 7）促效劑，能誘導局部第一型干擾素與促發炎細胞激素釋放，活化先天與適應性免疫反應。
+根據美國 FDA 核准的 Imiquimod 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「ZYCLARA治療AK及EGW的作用機轉不明。」英文原文："The mechanism of action of ZYCLARA in the treatment of AK and EGW is unknown."（[DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d)，版本日期 2025-05-23；查閱日期 2026-11-19）。根據已知資訊，imiquimod 是 TLR7（Toll-like receptor 7）促效劑，能誘導局部第一型干擾素與促發炎細胞激素釋放，活化先天與適應性免疫反應。
 
 原適應症中的光化性角化症本身就是典型的癌前皮膚病變，而肛門生殖器 HPV 感染則與外陰、肛門、子宮頸的上皮內贅瘤有共同病因。免疫活化清除異常上皮的機轉，在邏輯上可延伸到 VIN、AIN、CIN 等癌前病變，因此模型的預測在生物學上相當連貫。
 
@@ -130,6 +130,19 @@ TxGNN 模型預測它可能對**癌前病變 (Pre-malignant Neoplasm)** 有效�
 ---
 
 **其他預測適應症的簡要說明：** 口腔黏膜良性腫瘤與齒源性囊腫僅有前臨床或間接證據（建議列為研究問題）；其餘預測（頸部神經母細胞瘤、鼻咽畸胎瘤、內耳腫瘤、唾液腺腫瘤、頸靜脈孔神經鞘瘤等）缺乏實質證據，建議暫緩（Hold）。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

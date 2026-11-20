@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對 **Ohdo 症候群及其變異型 (Ohdo syndrome an
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Mirtazapine 一般已知為 alpha-2 腎上腺素受體、5-HT2、5-HT3 及 H1 受體的拮抗劑，其療效在憂鬱症與焦慮症中已被廣泛使用，但這些資訊並非來自本報告所彙整的機轉欄位，僅作背景參考。
+根據美國 FDA 核准的 Mirtazapine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Mirtazapine治療重度憂鬱症的作用機轉尚不明確。然而，其療效可能是透過其作為中樞突觸前α 2 -腎上腺素抑制性自體受體及異質受體拮抗劑的活性，以及增強中樞正腎上腺素及血清素活性而介導。」英文原文："The mechanism of action of mirtazapine for the treatment of major depressive disorder, is unclear. However, its efficacy could be mediated through its activity as an antagonist at central presynaptic α 2 -adrenergic inhibitory autoreceptors and heteroreceptors and enhancing central noradrenergic and serotonergic activity."（[DailyMed: Remeronsoltab (mirtazapine) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887)，版本日期 2025-08-06；查閱日期 2026-11-19）。Mirtazapine 一般已知為 alpha-2 腎上腺素受體、5-HT2、5-HT3 及 H1 受體的拮抗劑，其療效在憂鬱症與焦慮症中已被廣泛使用，但這些資訊並非來自本報告所彙整的機轉欄位，僅作背景參考。
 
 Ohdo 症候群及其變異型是一種罕見的遺傳性疾病，常與 KAT6B 基因變異相關，特徵為智能障礙與眼瞼狹小。就現有資料而言，無法建立 mirtazapine 的受體藥理與此疾病病理之間的合理關聯。此預測分數來自 TxGNN 模型（深度學習），較可能反映模型從相關疾病之間學到的相似性，而非經驗證的生物學證據或機轉。
 
@@ -116,11 +116,12 @@ Ohdo 症候群及其變異型是一種罕見的遺傳性疾病，常與 KAT6B �
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「全部 20 張皆為有效的單方許可證，無已註銷者。」→「全部 20 張皆為單方許可證，其中 18 張有效、HK-62247、HK-622」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Remeronsoltab (mirtazapine) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887) |
 
 <!-- review:end log -->
 

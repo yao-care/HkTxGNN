@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neo
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Darolutamide 為非類固醇雄激素受體拮抗劑，透過阻斷雄激素受體訊號發揮作用。
+根據美國 FDA 核准的 Darolutamide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Darolutamide為一種雄激素受體（AR）抑制劑。Darolutamide可競爭性抑制雄激素結合、AR核轉位及AR介導的轉錄。其主要代謝物ketodarolutamide在體外表現出與darolutamide相似的活性。」英文原文："Darolutamide is an androgen receptor (AR) inhibitor. Darolutamide competitively inhibits androgen binding, AR nuclear translocation, and AR-mediated transcription. A major metabolite, ketodarolutamide, exhibited similar in vitro activity to darolutamide."（[DailyMed: Nubeqa (darolutamide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a7cb212-56e4-4b9d-a73d-bfee7fe4735e)，版本日期 2026-09-28；查閱日期 2026-11-19）。已知 Darolutamide 為非類固醇雄激素受體拮抗劑，透過阻斷雄激素受體訊號發揮作用。
 
 多發性內分泌腫瘤（MEN1/MEN2）是由特定基因變異（如 MEN1、RET）引起的遺傳性腫瘤症候群，目前沒有證據顯示其腫瘤生長依賴雄激素受體。
 
@@ -140,6 +140,19 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neo
 - 取得香港許可證的核准適應症與仿單警語、禁忌症
 - 進行針對預測疾病的前臨床或文獻回顧，確認是否存在任何直接證據
 - 若考慮用於合併多種用藥的族群，需先建立 DDI 管理方案
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Nubeqa (darolutamide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a7cb212-56e4-4b9d-a73d-bfee7fe4735e) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

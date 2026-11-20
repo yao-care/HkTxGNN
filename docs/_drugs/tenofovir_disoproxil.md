@@ -56,7 +56,7 @@ TxGNN 模型預測排名第一的新適應症為**貓後天免疫缺乏症候群
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Tenofovir 屬於核苷酸類逆轉錄酶抑制劑，可抑制病毒逆轉錄酶。
+根據美國 FDA 核准的 Tenofovir Disoproxil 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Tenofovir disoproxil fumarate 為一種抗病毒藥物。[…] Tenofovir disoproxil fumarate 為腺苷單磷酸之非環狀核苷膦酸二酯類似物。Tenofovir disoproxil fumarate 須先經二酯水解轉化為 tenofovir，再經細胞酵素進行後續磷酸化，形成 tenofovir diphosphate（TFV-DP），即一種必然性鏈終止劑。」英文原文："Tenofovir disoproxil fumarate is an antiviral drug. […] Tenofovir disoproxil fumarate is an acyclic nucleoside phosphonate diester analog of adenosine monophosphate. Tenofovir disoproxil fumarate requires initial diester hydrolysis for conversion to tenofovir and subsequent phosphorylations by cellular enzymes to form tenofovir diphosphate (TFV-DP), an obligate chain terminator."（[DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418)，版本日期 2025-02-18；查閱日期 2026-11-19）。根據已知資訊，Tenofovir 屬於核苷酸類逆轉錄酶抑制劑，可抑制病毒逆轉錄酶。
 
 貓免疫缺乏病毒 (FIV) 是慢病毒，其逆轉錄酶與 HIV 相近，因此在機轉上有一定合理性。FIV 在貓身上造成的免疫功能進行性受損，也與 HIV 在人類身上的表現相似。
 
@@ -121,11 +121,12 @@ TxGNN 模型預測排名第一的新適應症為**貓後天免疫缺乏症候群
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「已整理的許可證共 20 張，皆為單一成分、有效狀態，實際總數至少 20 張，清單」→「香港共有 26 張含本藥成分的許可證（全部有效；單一成分 1」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418) |
 
 <!-- review:end log -->
 

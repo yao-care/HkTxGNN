@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**肢端中段發育不良 Hunter-Thompson 型 (Ac
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般而言，ibuprofen 屬於非選擇性 COX 抑制劑，可提供消炎與止痛效果，但這是依藥物類別所作的說明，並非本次資料所載。
+根據美國 FDA 核准的 Ibuprofen 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ibuprofen 具有止痛、抗發炎及退燒特性。CALDOLOR 的作用機轉與其他 NSAIDs 相同，尚未完全明瞭，但涉及對環氧化酶（COX-1 及 COX-2）的抑制。」英文原文："Ibuprofen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of CALDOLOR, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)."（[DailyMed: Caldolor (ibuprofen) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1eaa7790-f1a1-4f51-b10a-cbbaf033f684)，版本日期 2026-01-29；查閱日期 2026-11-19）。一般而言，ibuprofen 屬於非選擇性 COX 抑制劑，可提供消炎與止痛效果，但這是依藥物類別所作的說明，並非本次資料所載。
 
 Hunter-Thompson 型肢端中段發育不良是罕見的骨骼發育異常，成因為 CDMP1/GDF5 功能喪失變異，影響軟骨發育中的 BMP 訊號。Ibuprofen 只能緩解症狀，無法矯正這類發育性基因缺陷，因此**找不到可信的機轉連結**。
 
@@ -116,11 +116,12 @@ Hunter-Thompson 型肢端中段發育不良是罕見的骨骼發育異常，成�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「下表僅列出 5 張許可證，總數至少 20 張，清單可能不完整。」→「下表僅列出 5 張許可證，香港共有 100 張含本藥成分的許」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Caldolor (ibuprofen) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1eaa7790-f1a1-4f51-b10a-cbbaf033f684) |
 
 <!-- review:end log -->
 

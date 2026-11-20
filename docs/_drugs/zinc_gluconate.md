@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**早產兒貧血 (Anemia of Prematurity)** 有效
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。鋅是人體必需的微量元素，參與造血作用，並與鐵、銅的恆定有關，因此在機轉上存在一定的合理性。
+根據美國 FDA 核准的 Zinc Gluconate 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「鋅是一種必需微量元素。鋅可作為多種酶的輔因子，包括 DNA 聚合酶、RNA 聚合酶、醇去氫酶及鹼性磷酸酶。鋅是蛋白質結構摺疊的協調者，例如「鋅指」(Zinc finger) 模體的摺疊，該模體可與多種蛋白質、脂質及核酸交互作用。」英文原文："Zinc is an essential trace element. Zinc functions as a cofactor of various enzymes including DNA polymerases, RNA polymerases, alcohol dehydrogenase, and alkaline phosphatases. Zinc is a coordinator of protein structural folding, such as folding of “Zinc finger” motif that interacts with a variety of proteins, lipids, and nucleic acids."（[DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757)，版本日期 2026-03-04；查閱日期 2026-11-19）。鋅是人體必需的微量元素，參與造血作用，並與鐵、銅的恆定有關，因此在機轉上存在一定的合理性。
 
 然而，過量的鋅會誘發銅缺乏，進而造成貧血。這在早產兒身上是需要特別留意的安全疑慮。此外，原適應症（壞血病）屬於營養素缺乏，與早產兒貧血的關聯性尚待釐清。
 
@@ -115,6 +115,19 @@ TxGNN 模型預測它可能對**早產兒貧血 (Anemia of Prematurity)** 有效
 - 取得香港仿單的警語與禁忌症資料，完成安全性篩選
 - 進行系統性文獻回顧，評估早產兒鋅補充與貧血結局（含銅狀態）的既有研究
 - 若有合理假說，再設計小規模探索性研究，並納入銅與血液學監測
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

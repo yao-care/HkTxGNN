@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但目前**沒有
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Misoprostol 是 PGE1 類似物，能誘發子宮收縮與子宮頸軟化，作用於子宮內膜與子宮肌層，因此與生殖及月經生理在機轉上有合理的關聯。
+根據美國 FDA 核准的 diclofenac sodium and misoprostol（含 Misoprostol 的複方） 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Misoprostol Misoprostol為一種合成的PGE1類似物，具有抑制胃酸分泌及保護黏膜的特性。Misoprostol可增加碳酸氫鹽及黏液的生成，但已證實此作用見於200 mcg及以上的劑量，而此等劑量亦具抑制胃酸分泌作用。」英文原文："Misoprostol Misoprostol is a synthetic PGE1 analog with gastric antisecretory and mucosal protective properties. Misoprostol can increase bicarbonate and mucus production, but it has been shown at doses 200 mcg and above that are also antisecretory."（[DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3)，版本日期 2026-08-31；查閱日期 2026-11-19）。根據已知資訊，Misoprostol 是 PGE1 類似物，能誘發子宮收縮與子宮頸軟化，作用於子宮內膜與子宮肌層，因此與生殖及月經生理在機轉上有合理的關聯。
 
 不過，檢索到的文獻主要是 misoprostol（多與 mifepristone 併用）用於早期妊娠終止及稽留流產處置。在這些情境中，閉經只是妊娠相關的臨床背景，並非治療目標。沒有任何一項研究評估 misoprostol 是否能恢復月經。
 
@@ -127,6 +127,19 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但目前**沒有
 - 取得香港仿單的核准適應症、警語與禁忌，完成安全性篩檢
 - 以閉經（非妊娠相關）為目標族群，檢索或設計臨床前與臨床研究
 - 評估生育年齡女性使用的風險管理計畫（避孕與妊娠排除）
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

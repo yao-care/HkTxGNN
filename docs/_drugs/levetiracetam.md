@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對 **β-酮硫解酶缺乏症（beta-ketothiolase de
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般認為 levetiracetam 會結合突觸囊泡蛋白 SV2A，調節神經傳導物質釋放，這是其抗癲癇作用的基礎，但此說法並非來自本次整理的資料。
+根據美國 FDA 核准的 Levetiracetam 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Levetiracetam 發揮抗癲癇作用的確切機轉不明。已有文獻描述 levetiracetam 於大鼠腦組織中具有一個可飽和且具立體選擇性的神經元結合位點。實驗數據顯示，此結合位點為突觸囊泡蛋白 SV2A，被認為參與囊泡胞吐作用的調節。」英文原文："The precise mechanism(s) by which levetiracetam exerts its antiepileptic effect is unknown. A saturable and stereoselective neuronal binding site in rat brain tissue has been described for levetiracetam. Experimental data indicate that this binding site is the synaptic vesicle protein SV2A, thought to be involved in the regulation of vesicle exocytosis."（[DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e)，版本日期 2026-11-11；查閱日期 2026-11-19）。一般認為 levetiracetam 會結合突觸囊泡蛋白 SV2A，調節神經傳導物質釋放，這是其抗癲癇作用的基礎，但此說法並非來自本次整理的資料。
 
 β-酮硫解酶缺乏症是酮體利用與異白胺酸分解的代謝疾病，主要表現為酮酸中毒危象，病因是 ACAT1（T2）酶缺陷。目前沒有資料顯示 levetiracetam 與此酶缺陷或相關代謝路徑有生物學連結。
 
@@ -114,11 +114,12 @@ TxGNN 模型預測它可能對 **β-酮硫解酶缺乏症（beta-ketothiolase de
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「以下為部分主要許可證（清單可能不完整）：」→「以下為部分主要許可證：」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e) |
 
 <!-- review:end log -->
 

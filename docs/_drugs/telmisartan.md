@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**變異型心絞痛 (Prinzmetal angina)** 有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Telmisartan 屬於血管收縮素 II 第一型受體 (AT1) 阻斷劑，這是藥物類別層面的一般認知，並非本次彙整資料提供的機轉內容。
+根據美國 FDA 核准的 Telmisartan 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「血管收縮素 II 係在血管收縮素轉化酶（ACE，kininase II）催化之反應中由血管收縮素 I 形成。血管收縮素 II 為腎素-血管收縮素系統之主要升壓物質，其作用包括血管收縮、刺激醛固酮之合成與釋放、心臟刺激及腎臟對鈉之再吸收。[…] Telmisartan 藉由選擇性阻斷血管收縮素 II 與許多組織（如血管平滑肌及腎上腺）中 AT 1 受體之結合，阻斷血管收縮素 II 之血管收縮作用及促醛固酮分泌作用。」英文原文："Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the reninangiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Telmisartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland."（[DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10)，版本日期 2026-11-02；查閱日期 2026-11-19）。Telmisartan 屬於血管收縮素 II 第一型受體 (AT1) 阻斷劑，這是藥物類別層面的一般認知，並非本次彙整資料提供的機轉內容。
 
 變異型心絞痛的病理與冠狀動脈血管痙攣、血管內皮功能異常有關。血管收縮素 II 會促進血管收縮，阻斷此路徑在理論上可能有幫助。另有推測認為 telmisartan 的部分 PPARγ 作用可能對血管有益。
 
@@ -116,11 +116,12 @@ TxGNN 模型預測它可能對**變異型心絞痛 (Prinzmetal angina)** 有效�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本次彙整的許可證清單共 20 張，可能並非全部。」→「香港共有 31 張含本藥成分的許可證（全部有效；單一成分 1」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10) |
 
 <!-- review:end log -->
 

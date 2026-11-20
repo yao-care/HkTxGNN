@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**藥物誘發性骨質疏鬆 (Drug-induced Osteop
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就一般藥理知識而言，trastuzumab deruxtecan 是 HER2 標靶抗體藥物複合體，其酬載 deruxtecan 為拓樸異構酶 I 抑制劑（camptothecin 衍生物）。這段說明來自一般藥理學推論，並非本次編纂資料所提供。
+根據美國 FDA 核准的 Trastuzumab Deruxtecan 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Fam-trastuzumab deruxtecan-nxki 是一種以 HER2 為標靶的抗體藥物複合體。其抗體為人源化抗 HER2 IgG1。小分子 DXd 為一種拓撲異構酶 I 抑制劑，經由可裂解的連接子與抗體相連。」英文原文："Fam-trastuzumab deruxtecan-nxki is a HER2-directed antibody-drug conjugate. The antibody is a humanized anti-HER2 IgG1. The small molecule, DXd, is a topoisomerase I inhibitor attached to the antibody by a cleavable linker."（[DailyMed: Enhertu (fam-trastuzumab deruxtecan-nxki) prescribing information, Daiichi Sankyo Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6)，版本日期 2026-05-15；查閱日期 2026-11-19）。就一般藥理知識而言，trastuzumab deruxtecan 是 HER2 標靶抗體藥物複合體，其酬載 deruxtecan 為拓樸異構酶 I 抑制劑（camptothecin 衍生物）。這段說明來自一般藥理學推論，並非本次編纂資料所提供。
 
 HER2 標靶的細胞毒性藥物傳遞，與藥物誘發性骨質疏鬆之間，並沒有已知的生物學關聯。此預測來自 TxGNN 模型（深度學習），可能反映模型在相關疾病之間學到的相似性（例如與會造成骨質流失的腫瘤相關藥物，如芳香環轉化酶抑制劑、糖皮質素，有共同關聯），而非生物學證據，也不代表真正的治療標的。
 
@@ -125,6 +125,19 @@ HER2 標靶的細胞毒性藥物傳遞，與藥物誘發性骨質疏鬆之間，
 - 補充 DrugBank 作用機轉資料
 - 以文獻回顧確認 HER2 標靶 ADC 與骨代謝是否有任何關聯
 - 在無機轉與臨床證據前，不建議投入進一步開發資源
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Enhertu (fam-trastuzumab deruxtecan-nxki) prescribing information, Daiichi Sankyo Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

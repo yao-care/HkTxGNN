@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對 **Ambras 型先天性全身性多毛症 (Ambras t
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Alfuzosin 屬於 α1 腎上腺素受體拮抗劑，對前列腺的 α1A 受體具有較高選擇性，其在良性前列腺增生中的療效已被證實。
+根據美國 FDA 核准的 Alfuzosin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Alfuzosin為突觸後α1-腎上腺素受體的選擇性拮抗劑，此類受體位於前列腺、膀胱底部、膀胱頸、前列腺包膜及前列腺尿道。」英文原文："Alfuzosin is a selective antagonist of post-synaptic alpha 1 -adrenoreceptors, which are located in the prostate, bladder base, bladder neck, prostatic capsule, and prostatic urethra."（[DailyMed: Uroxatral (alfuzosin hcl) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9fc7f119-f36b-44cf-945d-940160f3afe3)，版本日期 2024-12-05；查閱日期 2026-11-19）。根據已知資訊，Alfuzosin 屬於 α1 腎上腺素受體拮抗劑，對前列腺的 α1A 受體具有較高選擇性，其在良性前列腺增生中的療效已被證實。
 
 然而，Ambras 症候群是罕見的先天性疾病，與影響 TRPS1 調控的基因組重排有關，這條路徑與 α1 阻斷並無關聯。目前**無法建立合理的機轉連結**。
 
@@ -121,6 +121,19 @@ TxGNN 模型預測它可能對 **Ambras 型先天性全身性多毛症 (Ambras t
 - 取得香港衛生署核准的仿單，確認警語與禁忌症
 - 進行前臨床或機轉研究，作為提升證據等級的起點
 - 若仍要探索，建議重新評估其他預測適應症，並優先選擇機轉上較合理者
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Uroxatral (alfuzosin hcl) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9fc7f119-f36b-44cf-945d-940160f3afe3) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

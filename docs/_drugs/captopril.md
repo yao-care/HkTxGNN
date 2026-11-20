@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**惡性高血壓性腎病 (malignant hypertensive
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知的藥物類別而言，Captopril 是 ACE 抑制劑，可減少血管收縮素 II 所媒介的血管收縮與醛固酮分泌。
+根據美國 FDA 核准的 Captopril 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Captopril錠劑的作用機轉尚未完全闡明。其對高血壓及心臟衰竭的有益作用，似乎主要來自對腎素-血管收縮素-醛固酮系統的抑制。」英文原文："The mechanism of action of captopril tablets have not yet been fully elucidated. Its beneficial effects in hypertension and heart failure appear to result primarily from suppression of the renin-angiotensin-aldosterone system."（[DailyMed: captopril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ccbffd30-4b21-4522-bdb8-abba8d592017)，版本日期 2026-11-11；查閱日期 2026-11-19）。就已知的藥物類別而言，Captopril 是 ACE 抑制劑，可減少血管收縮素 II 所媒介的血管收縮與醛固酮分泌。
 
 惡性高血壓合併腎臟受損，與腎素—血管收縮素系統（RAS）過度活化密切相關，因此從機轉上看，ACE 抑制劑用於此病在生物學上是合理的。
 
@@ -104,6 +104,19 @@ TxGNN 模型預測它可能對**惡性高血壓性腎病 (malignant hypertensive
 - 完整的作用機轉資料
 - 香港原廠仿單的警語與禁忌症
 - 腎功能與血鉀監測方案，以及雙側腎動脈狹窄患者的排除標準
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: captopril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ccbffd30-4b21-4522-bdb8-abba8d592017) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

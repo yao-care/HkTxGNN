@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**安布拉斯型全身性先天多毛症 (Ambras 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Silodosin 屬於選擇性 α1A 腎上腺素受體拮抗劑，在良性前列腺增生的下尿路症狀處置上有其角色。
+根據美國 FDA 核准的 Silodosin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Silodosin 是突觸後 α-1 腎上腺素受體的選擇性拮抗劑，此類受體位於人類前列腺、膀胱底部、膀胱頸、前列腺包膜及前列腺部尿道。阻斷這些 α-1 腎上腺素受體可使這些組織中的平滑肌鬆弛，從而改善尿流並減輕 BPH 症狀。」英文原文："Silodosin is a selective antagonist of post-synaptic alpha-1 adrenoreceptors, which are located in the human prostate, bladder base, bladder neck, prostatic capsule, and prostatic urethra. Blockade of these alpha-1 adrenoreceptors can cause smooth muscle in these tissues to relax, resulting in an improvement in urine flow and a reduction in BPH symptoms."（[DailyMed: silodosin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94bca72c-c74a-4181-8b6a-a0a2f654a0a7)，版本日期 2026-10-30；查閱日期 2026-11-19）。根據已知資訊，Silodosin 屬於選擇性 α1A 腎上腺素受體拮抗劑，在良性前列腺增生的下尿路症狀處置上有其角色。
 
 然而，α1A 受體阻斷與安布拉斯症候群之間並沒有明確的生物學關聯。安布拉斯症候群是先天性毛髮生長異常的疾病，已報告的病因包括影響 TRPS1 調控的染色體重排。這個預測分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
@@ -100,6 +100,19 @@ TxGNN 模型預測它可能對**安布拉斯型全身性先天多毛症 (Ambras 
 - 進行機轉層面的文獻回顧，確認 α1A 腎上腺素訊號是否參與毛囊週期
 - 若有機轉支持，先進行前臨床研究（如毛囊細胞或動物模型）驗證
 - 評估此疾病的治療目標（減少毛髮生長）與藥物可能作用方向是否一致
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: silodosin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94bca72c-c74a-4181-8b6a-a0a2f654a0a7) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

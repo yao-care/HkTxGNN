@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**會厭腫瘤 (epiglottis neoplasm)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知資訊，Bevacizumab 是抗 VEGF-A 的單株抗體，可阻斷 VEGF-A 訊號，理論上能抑制腫瘤血管新生。
+根據美國 FDA 核准的 Bevacizumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Bevacizumab 產品會與 VEGF 結合，並阻止 VEGF 與其位於內皮細胞表面的受體（Flt-1 及 KDR）交互作用。在血管新生的體外模型中，VEGF 與其受體的交互作用會導致內皮細胞增生及新血管形成。」英文原文："Bevacizumab products bind VEGF and prevent the interaction of VEGF to its receptors (Flt-1 and KDR) on the surface of endothelial cells. The interaction of VEGF with its receptors leads to endothelial cell proliferation and new blood vessel formation in in vitro models of angiogenesis."（[DailyMed: Vegzelma (bevacizumab-adcd) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe)，版本日期 2026-08-21；查閱日期 2026-11-19）。就已知資訊，Bevacizumab 是抗 VEGF-A 的單株抗體，可阻斷 VEGF-A 訊號，理論上能抑制腫瘤血管新生。
 
 頭頸部腫瘤的生長常依賴新生血管，因此從機轉上推論，抗 VEGF 療法可能對會厭部位的腫瘤有作用。不過這僅是機轉層面的合理推測，並非來自針對會厭腫瘤的實際研究。
 
@@ -115,6 +115,19 @@ TxGNN 模型預測它可能對**會厭腫瘤 (epiglottis neoplasm)** 有效，
 - 取得香港原廠仿單的警語與禁忌症資訊
 - 確認給藥途徑與劑型是否適用於此部位的腫瘤
 - 評估是否有可行的臨床試驗設計
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Vegzelma (bevacizumab-adcd) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

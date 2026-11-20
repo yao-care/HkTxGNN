@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**點狀上皮角結膜炎 (punctate epithelial ke
 
 ## 為什麼這個預測合理？
 
-Clindamycin 屬於林可胺類抗生素，透過結合細菌 50S 核糖體次單位抑制蛋白質合成，對革蘭氏陽性菌及厭氧菌有活性。目前缺乏詳細的作用機轉資料，上述說明為該藥物類別的一般已知特性。
+Clindamycin 屬於林可胺類抗生素，透過結合細菌 50S 核糖體次單位抑制蛋白質合成，對革蘭氏陽性菌及厭氧菌有活性。根據美國 FDA 核准的 Clindamycin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Clindamycin 經由與核糖體 50S 次單元的 23S RNA 結合而抑制細菌蛋白質合成。Clindamycin 具抑菌作用。」英文原文："Clindamycin inhibits bacterial protein synthesis by binding to the 23S RNA of the 50S subunit of the ribosome. Clindamycin is bacteriostatic."（[DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a)，版本日期 2026-09-16；查閱日期 2026-11-19）。
 
 然而，點狀上皮角結膜炎常與病毒感染或毒性／發炎反應有關，並非典型的細菌性疾病，因此抗菌機轉與此疾病之間的合理連結尚未建立。此預測目前僅來自模型分數，缺乏機轉或臨床層面的佐證。
 
@@ -112,11 +112,12 @@ Clindamycin 屬於林可胺類抗生素，透過結合細菌 50S 核糖體次單
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本資料可能不完整（部分記錄）。」→「香港共有 82 張含本藥成分的許可證（有效 81 張、已註銷」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a) |
 
 <!-- review:end log -->
 

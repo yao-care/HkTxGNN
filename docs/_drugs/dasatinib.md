@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**尤文氏肉瘤 (Ewing sarcoma)** 有效，目�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（原廠 MOA 欄位未收錄）。不過依文獻，dasatinib 是 BCR-ABL 與 SRC 家族激酶的抑制劑，同時也抑制 KIT 與 PDGFR。
+根據美國 FDA 核准的 Dasatinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Dasatinib在奈莫耳濃度下可抑制下列激酶：BCR-ABL、SRC家族（SRC、LCK、YES、FYN）、c-KIT、EPHA2及PDGFRβ。根據模型研究，預測dasatinib可與ABL激酶的多種構形結合。」英文原文："Dasatinib, at nanomolar concentrations, inhibits the following kinases: BCR-ABL, SRC family (SRC, LCK, YES, FYN), c-KIT, EPHA2, and PDGFRβ. Based on modeling studies, dasatinib is predicted to bind to multiple conformations of the ABL kinase."（[DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df)，版本日期 2026-10-16；查閱日期 2026-11-19）。不過依文獻，dasatinib 是 BCR-ABL 與 SRC 家族激酶的抑制劑，同時也抑制 KIT 與 PDGFR。
 
 尤文氏肉瘤是好發於青少年與年輕成人的骨與軟組織腫瘤。多項前臨床研究顯示，Src/FAK 訊號參與尤文氏肉瘤細胞的侵襲、遷移與 invadopodia 形成（PMID 18202781、27566104、31521948、35655525）。因此，以 SRC 抑制劑阻斷這條路徑在機轉上說得通。
 
@@ -154,11 +154,12 @@ TxGNN 模型預測它可能對**尤文氏肉瘤 (Ewing sarcoma)** 有效，目�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效的單一成分 dasatinib 許可證，無已註銷者。」→「香港共有 23 張單一成分 dasatinib 許可證，其中 21 張有效，另 」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df) |
 
 <!-- review:end log -->
 

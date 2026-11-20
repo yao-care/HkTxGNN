@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**膽固醇酯轉運蛋白缺乏症 (Cholesterol-e
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊與所收集的文獻，Fenofibrate 屬於 PPAR-alpha 促效劑，可提升 HDL-C 並降低三酸甘油脂，作用包括上調 ApoA-I／ApoA-II 與脂蛋白脂解酶，以及誘導磷脂轉運蛋白 (PLTP) 表現（PMID 11342537）。
+根據美國 FDA 核准的 Fenofibrate 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Antara 的活性部分為 fenofibric acid。Fenofibric acid 在動物及人體中的藥理作用，已透過口服投予 fenofibrate 進行研究。臨床上所見 fenofibric acid 的調節血脂作用，已在基因轉殖小鼠體內試驗及人類肝細胞培養體外試驗中，以 PPAR alpha 受體的活化加以解釋。」英文原文："The active moiety of Antara is fenofibric acid. The pharmacological effects of fenofibric acid in both animals and humans have been studied through oral administration of fenofibrate. The lipid-modifying effects of fenofibric acid seen in clinical practice have been explained in vivo in transgenic mice and in vitro in human hepatocyte cultures by the activation of PPAR alpha receptor."（[DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce)，版本日期 2025-10-01；查閱日期 2026-11-19）。根據已知資訊與所收集的文獻，Fenofibrate 屬於 PPAR-alpha 促效劑，可提升 HDL-C 並降低三酸甘油脂，作用包括上調 ApoA-I／ApoA-II 與脂蛋白脂解酶，以及誘導磷脂轉運蛋白 (PLTP) 表現（PMID 11342537）。
 
 膽固醇酯轉運蛋白缺乏症的特徵是 HDL-C 顯著升高、膽固醇酯轉運受損。Fenofibrate 與此疾病的連結屬於間接的藥理學關聯：兩者涉及重疊的 HDL 代謝路徑（PLTP、HDL 重塑），且有研究將 fenofibrate 與 CETP 抑制劑併用於小鼠（PMID 20332533）。然而，沒有證據顯示 fenofibrate 能治療 CETP 缺乏狀態。
 
@@ -121,11 +121,12 @@ TxGNN 模型預測它可能對**膽固醇酯轉運蛋白缺乏症 (Cholesterol-e
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「其餘共 19 張」→「共 20 張有效許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce) |
 
 <!-- review:end log -->
 

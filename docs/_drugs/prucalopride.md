@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**低 α 脂蛋白血症 (Hypoalphalipoproteinemia
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Prucalopride 是選擇性 5-HT4 受體促效劑，作用於腸道蠕動，其在便秘中的角色已為人所知。
+根據美國 FDA 核准的 Prucalopride 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Prucalopride 為一種選擇性血清素第 4 型（5-HT 4 ）受體促效劑，屬胃腸道（GI）促動力藥，可刺激結腸蠕動（高振幅推進性收縮 [HAPCs]），從而增加腸道蠕動。在體外試驗中，於濃度超過 5-HT 4 受體親和力 150 倍或以上時，prucalopride 並未產生經由 5-HT 2A、5-HT 2B、5-HT 3、胃動素（motilin）或 CCK-A 受體所介導的作用。」英文原文："Prucalopride, a selective serotonin type 4 (5-HT 4 ) receptor agonist, is a gastrointestinal (GI) prokinetic agent that stimulates colonic peristalsis (high-amplitude propagating contractions [HAPCs]), which increases bowel motility. Prucalopride was devoid of effects mediated via 5-HT 2A, 5-HT 2B, 5-HT 3, motilin or CCK-A receptors in vitro at concentrations exceeding 5-HT 4 receptor affinity by 150-fold or greater."（[DailyMed: Motegrity (prucalopride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bca1e4c6-4b2b-4876-8ab3-654629c4ff1b)，版本日期 2025-07-17；查閱日期 2026-11-19）。根據已知資訊，Prucalopride 是選擇性 5-HT4 受體促效劑，作用於腸道蠕動，其在便秘中的角色已為人所知。
 
 然而，5-HT4 促效作用與 HDL 代謝或 ApoA-I 調控之間，並無已知的關聯。這個高分預測來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據，也沒有任何試驗或文獻佐證，因此目前無法建立可信的機轉連結。
 
@@ -115,6 +115,19 @@ TxGNN 預測分數高，不代表臨床上合理，建議將此結果視為待�
 - 取得香港仿單的警語與禁忌資料，完成安全性篩選
 - 進行文獻與試驗的系統性檢索；若仍無證據，建議轉而優先評估澱粉樣變性相關腸道動力障礙這類有間接機轉線索的方向
 - 若考慮更多預測適應症，需先釐清 98 筆藥物交互作用在目標族群中的實際影響
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Motegrity (prucalopride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bca1e4c6-4b2b-4876-8ab3-654629c4ff1b) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

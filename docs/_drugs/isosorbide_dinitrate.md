@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，二硝酸異山梨醇酯屬於硝酸酯類藥物，一般認為可作為一氧化氮 (NO) 供體，造成靜脈與肺動脈血管擴張，降低前負荷與肺血管阻力。
+根據美國 FDA 核准的 hydralazine hydrochloride and isosorbide dinitrate（含 Isosorbide Dinitrate 的複方） 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Isosorbide dinitrate 是一種同時作用於動脈及靜脈的血管擴張劑。」英文原文："Isosorbide dinitrate is a vasodilator affecting both arteries and veins."（[DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00)，版本日期 2025-11-30；查閱日期 2026-11-19）。根據已知資訊，二硝酸異山梨醇酯屬於硝酸酯類藥物，一般認為可作為一氧化氮 (NO) 供體，造成靜脈與肺動脈血管擴張，降低前負荷與肺血管阻力。
 
 肺動脈高壓的核心問題是肺血管阻力升高，因此在機轉上，血管擴張劑有其合理性。相關文獻顯示，此藥在慢性阻塞性肺病 (COPD) 合併肺高壓、末期心肌病變與間質性肺纖維化病人中，可降低肺動脈壓。
 
@@ -149,6 +149,19 @@ TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有�
 - 針對肺高壓分型（前微血管型 vs. 後微血管型）進行系統性文獻回顧
 - 設計小型前瞻性研究，評估血行動力學與長期臨床結局
 - 進一步確認糖尿病足潰瘍 Phase 3 試驗（NCT02789033）的結果
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

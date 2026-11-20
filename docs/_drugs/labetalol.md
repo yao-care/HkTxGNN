@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (Malignant Hypertensive
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知的藥理知識，Labetalol 同時阻斷 α1 與 β 受體，可降低全身血管阻力並控制血壓，已用於高血壓及高血壓急症。
+根據美國 FDA 核准的 Labetalol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Labetalol同時具有競爭性alpha1-腎上腺素受體阻斷及競爭性beta-腎上腺素受體阻斷活性。在人體中，靜脈給藥後alpha阻斷與beta阻斷的比例估計約為1:7。」英文原文："Labetalol has both competitive alpha1-adrenergic blocking and competitive beta-adrenergic blocking activity. In man, the ratio of alpha- to beta-blockade has been estimated to be approximately 1:7 following intravenous administration."（[DailyMed: Labetalol Hcl In Dextrose (labetalol hydrochloride) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=99a715a0-4579-410c-b102-7ef6fab8db55)，版本日期 2025-12-19；查閱日期 2026-11-19）。根據已知的藥理知識，Labetalol 同時阻斷 α1 與 β 受體，可降低全身血管阻力並控制血壓，已用於高血壓及高血壓急症。
 
 惡性高血壓腎病變是嚴重高血壓造成的標靶器官（腎臟）併發症。因此，它與原適應症的關聯主要來自「控制血壓」這個共同環節，兩者在疾病譜上相近。
 
@@ -138,6 +138,19 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (Malignant Hypertensive
 - 取得香港仿單的警語、禁忌與核准適應症內容。
 - 針對惡性高血壓腎病變，系統性搜尋 Labetalol 的臨床與觀察性研究，確認是否已屬現行適應症範圍。
 - 若要評估肺高壓方向，需先完成安全性審視（支氣管痙攣、右心功能），目前不建議進行。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Labetalol Hcl In Dextrose (labetalol hydrochloride) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=99a715a0-4579-410c-b102-7ef6fab8db55) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

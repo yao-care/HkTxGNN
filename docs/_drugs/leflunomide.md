@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**短指併指症候群 (Brachydactyly-Syndactyly 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就一般藥理知識而言，Leflunomide（透過活性代謝物 teriflunomide）會抑制二氫乳清酸脫氫酶 (DHODH)，減少增生中淋巴球的嘧啶合成，因此可用於自體免疫性關節炎。這是背景知識，並非本次彙整資料所提供。
+根據美國 FDA 核准的 Leflunomide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Leflunomide是一種異噁唑類免疫調節藥物，可抑制二氫乳清酸脫氫酶（一種參與嘧啶從頭合成的粒線體酶），並具有抗增殖活性。多個體內及體外實驗模型已證實其具有抗炎作用。」英文原文："Leflunomide is an isoxazole immunomodulatory agent that inhibits dihydroorotate dehydrogenase (a mitochondrial enzyme involved in de novo pyrimidine synthesis) and has antiproliferative activity. Several in vivo and in vitro experimental models have demonstrated an anti-inflammatory effect."（[DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52)，版本日期 2025-06-04；查閱日期 2026-11-19）。就一般藥理知識而言，Leflunomide（透過活性代謝物 teriflunomide）會抑制二氫乳清酸脫氫酶 (DHODH)，減少增生中淋巴球的嘧啶合成，因此可用於自體免疫性關節炎。這是背景知識，並非本次彙整資料所提供。
 
 短指併指症候群屬於發育性的先天畸形，是肢體構造形成異常。從現有資料看不出免疫調節、抗增生藥物如何能矯正這類結構性缺陷，原適應症與新適應症之間也沒有明確關聯。0.9993 的 TxGNN 分數只是計算預測，並無實證支持。
 
@@ -131,11 +131,12 @@ TxGNN 模型預測它可能對**短指併指症候群 (Brachydactyly-Syndactyly 
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 15 張有效單方許可證，」→「香港共有 15 張單方許可證（14 張有效；HK-46486 已註銷），」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52) |
 
 <!-- review:end log -->
 

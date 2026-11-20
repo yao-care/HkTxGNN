@@ -54,12 +54,11 @@ Pretomanid 是一種硝基咪唑噁嗪類（nitroimidazooxazine）抗結核藥�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank 未提供）。依一般藥理知識，Pretomanid 是需被活化的前驅藥物，必須由結核分枝桿菌的 Ddn（deazaflavin 依賴性硝基還原酶）活化，再透過釋放一氧化氮造成呼吸毒性，並抑制黴菌酸（mycolic acid）合成。
+根據美國 FDA 核准的 Pretomanid 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Pretomanid是一種nitroimidazooxazine類抗分枝桿菌藥物。[…] Pretomanid錠劑是一種nitroimidazooxazine類抗分枝桿菌藥物。Pretomanid藉由抑制分枝菌酸生物合成而阻斷細胞壁生成，從而殺死活躍複製中的M. tuberculosis。在厭氧條件下，針對非複製期細菌，pretomanid在釋放一氧化氮後可作為呼吸毒物發揮作用。」英文原文："Pretomanid is a nitroimidazooxazine antimycobacterial drug. […] Pretomanid Tablet is a nitroimidazooxazine antimycobacterial drug. Pretomanid kills actively replicating M. tuberculosis by inhibiting mycolic acid biosynthesis, thereby blocking cell wall production. Under anaerobic conditions, against non-replicating bacteria, pretomanid acts as a respiratory poison following nitric oxide release."（[DailyMed: pretomanid prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1906fc9-cb3c-4e13-8a4a-da76100c1bf3)，版本日期 2024-11-15；查閱日期 2026-11-19）。依一般藥理知識，Pretomanid 是需被活化的前驅藥物，必須由結核分枝桿菌的 Ddn（deazaflavin 依賴性硝基還原酶）活化，再透過釋放一氧化氮造成呼吸毒性，並抑制黴菌酸（mycolic acid）合成。
 
 真菌缺乏這條活化路徑，因此 0.9969 的高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病間相似性，而不是生物學證據或有機轉依據的預測。念珠菌感染與結核病的病原體類別不同，兩者在藥理上缺乏明顯的共通靶點。
 
 在其他高分預測中，只有**痲瘋病 (leprosy)** 在生物學上較合理，因為痲瘋桿菌同屬分枝桿菌。但痲瘋桿菌已喪失許多基因，是否仍保有 Ddn/F420 活化路徑並不清楚。檢索到的文獻全部是耐藥結核病，沒有任何針對痲瘋病的研究，屬於間接外推。
-
 
 ## 臨床試驗證據
 
@@ -100,6 +99,19 @@ Pretomanid 是一種硝基咪唑噁嗪類（nitroimidazooxazine）抗結核藥�
 - 取得香港仿單的核准適應症、警語與禁忌症，補足完整的安全性評估。
 - 補充 DrugBank 的作用機轉資料。
 - 針對嚴重 DDI（如 enzalutamide、apalutamide 等）建立併用管理原則。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: pretomanid prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1906fc9-cb3c-4e13-8a4a-da76100c1bf3) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

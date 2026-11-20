@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**未分類骨髓增生異常症候群 (unclassifi
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（MOA 欄位無資料）。根據已知資訊，三氧化二砷在血液惡性腫瘤中具有活性，文獻描述的作用包括誘導凋亡、調節 NF-κB/FLIP 路徑與促進分化。
+根據美國 FDA 核准的 Arsenic Trioxide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「TRISENOX 的作用機轉尚未完全明瞭。在體外試驗中，三氧化二砷可使 NB4 人類前骨髓細胞白血病細胞出現具細胞凋亡特徵的形態變化及 DNA 片段化。三氧化二砷亦會造成融合蛋白前骨髓細胞白血病（PML）-視網酸受體（RAR）-alpha 的損傷或降解。」英文原文："The mechanism of action of TRISENOX is not completely understood. Arsenic trioxide causes morphological changes and DNA fragmentation characteristic of apoptosis in NB4 human promyelocytic leukemia cells in vitro. Arsenic trioxide also causes damage or degradation of the fusion protein promyelocytic leukemia (PML)-retinoic acid receptor (RAR)-alpha."（[DailyMed: Trisenox (arsenic trioxide) prescribing information, Cephalon, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=101fc347-d0ad-4aee-8b06-9feb187fd741)，版本日期 2022-06-30；查閱日期 2026-11-19）。根據已知資訊，三氧化二砷在血液惡性腫瘤中具有活性，文獻描述的作用包括誘導凋亡、調節 NF-κB/FLIP 路徑與促進分化。
 
 未分類骨髓增生異常症候群屬於更廣泛的 MDS 範疇。三氧化二砷在 MDS 整體族群中已有多項臨床研究，因此模型給出的高分很可能來自 MDS 類別的相似性。
 
@@ -108,6 +108,19 @@ TxGNN 模型預測它可能對**未分類骨髓增生異常症候群 (unclassifi
 - 補充詳細的作用機轉資料
 - 取得原廠仿單中的警語與禁忌症，特別是 QT 延長與心臟相關風險
 - 可先參考一般 MDS 的臨床試驗（例如 Phase 1/2 組合療法研究）設計針對此亞型的探索性研究
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Trisenox (arsenic trioxide) prescribing information, Cephalon, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=101fc347-d0ad-4aee-8b06-9feb187fd741) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

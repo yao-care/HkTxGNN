@@ -69,7 +69,7 @@ TxGNN 模型排名第一的預測為**猿猴免疫缺陷病毒感染 (Simian Imm
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知的藥理學而言，zidovudine 屬於 NRTI，經細胞內磷酸化後抑制 HIV 逆轉錄酶，進而減少病毒複製。
+根據美國 FDA 核准的 Zidovudine 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Zidovudine 為一種抗反轉錄病毒藥物。[…] Zidovudine 為一種合成的核苷類似物。在細胞內，zidovudine 會被磷酸化為其活性 5′-三磷酸代謝物 zidovudine triphosphate (ZDV-TP)。ZDV-TP 的主要作用模式為在核苷酸類似物嵌入後，經由 DNA 鏈終止抑制反轉錄酶 (RT)。」英文原文："Zidovudine is an antiretroviral agent. […] Zidovudine is a synthetic nucleoside analogue. Intracellularly, zidovudine is phosphorylated to its active 5′-triphosphate metabolite, zidovudine triphosphate (ZDV-TP). The principal mode of action of ZDV-TP is inhibition of reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue."（[DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84)，版本日期 2024-11-13；查閱日期 2026-11-19）。就已知的藥理學而言，zidovudine 屬於 NRTI，經細胞內磷酸化後抑制 HIV 逆轉錄酶，進而減少病毒複製。
 
 SIV 是與 HIV 高度相近的慢病毒，同樣依賴逆轉錄酶複製，因此 zidovudine 在機轉上具合理性。獼猴研究顯示，它能降低病毒量、延長存活，並在暴露後預防給藥中降低傳染。不過 SIV 感染是人類 HIV 適應症的**前臨床動物模型**，並非新的人類適應症，所以沒有真正的藥物再利用價值。
 
@@ -173,6 +173,19 @@ Zidovudine 為抗病毒藥物，非抗腫瘤藥物，故不適用。
 - 補充詳細的作用機轉資料
 - 若走先天性 HIV 的路線：建立新生兒與嬰兒的血液學監測計畫（貧血、嗜中性白血球低下）、納入懷孕暴露安全性資料，並與現行合併療法指引比對
 - 不建議在 SIV、貓免疫缺陷症候群等動物模型適應症上投入進一步資源
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

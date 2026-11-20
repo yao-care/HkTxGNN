@@ -60,7 +60,7 @@ TxGNN 模型預測分數最高的新適應症為「陣發性斜頸（嬰兒期�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Duloxetine 屬於 SNRI 類抗憂鬱藥，能同時抑制血清素與正腎上腺素的再回收。
+根據美國 FDA 核准的 Duloxetine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「雖然 duloxetine 在人體中的抗抑鬱、中樞性疼痛抑制及抗焦慮作用的確切機轉未明，但這些作用被認為與其增強中樞神經系統（CNS）中血清素性及正腎上腺素性活性有關。」英文原文："Although the exact mechanisms of the antidepressant, central pain inhibitory and anxiolytic actions of duloxetine in humans are unknown, these actions are believed to be related to its potentiation of serotonergic and noradrenergic activity in the CNS."（[DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b)，版本日期 2026-08-20；查閱日期 2026-11-19）。Duloxetine 屬於 SNRI 類抗憂鬱藥，能同時抑制血清素與正腎上腺素的再回收。
 
 **強迫症方向：** 抑制血清素再回收是強迫症一線藥物治療（SSRI、clomipramine）的核心機轉，因此 duloxetine 在機轉上有合理性。不過，一般而言 SNRI 在強迫症的證據弱於 SSRI。多篇回顧文獻將 SNRI 定位為「可考慮的選項」，而非標準治療。
 
@@ -156,11 +156,12 @@ Duloxetine 在香港共有 20 張許可證（皆為單方；18 張有效，HK-53
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「Duloxetine 在香港共有 20 張有效許可證（皆為單方，無已註銷者）。」→「Duloxetine 在香港共有 20 張許可證（皆為單方；18 張有效，HK-」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b) |
 
 <!-- review:end log -->
 

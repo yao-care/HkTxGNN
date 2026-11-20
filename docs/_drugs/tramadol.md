@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**肢中段發育不良 Hunter-Thompson 型 (Acrom
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Tramadol 是 mu 型鴉片受體促效劑，同時抑制血清素與正腎上腺素的再攝取，可提供症狀性的止痛效果。
+根據美國 FDA 核准的 Tramadol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Tramadol Hydrochloride 延長釋放膠囊含有 tramadol，一種鴉片類促效劑，以及正腎上腺素與血清素再回收抑制劑。雖然其作用模式尚未完全明瞭，但根據動物試驗，至少有兩種互補機制似乎適用：原形藥物及 M1 代謝物與 mu 鴉片類受體結合，以及對正腎上腺素與血清素再回收的微弱抑制。」英文原文："Tramadol Hydrochloride Extended-Release Capsules contain tramadol, an opioid agonist, and an inhibitor of reuptake of norepinephrine and serotonin. Although its mode of action is not completely understood, from animal tests, at least two complementary mechanisms appear applicable: binding of parent and M1 metabolite to mu-opioid receptors and weak inhibition of reuptake of norepinephrine and serotonin."（[DailyMed: Tramadol Hydrochloride Extended-Release (tramadol hydrochloride) prescribing information, Trigen Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0bc7218-3fd0-4646-96f4-25355fc84aa9)，版本日期 2026-01-23；查閱日期 2026-11-19）。根據已知資訊，Tramadol 是 mu 型鴉片受體促效劑，同時抑制血清素與正腎上腺素的再攝取，可提供症狀性的止痛效果。
 
 模型給出高分，可能反映 TxGNN 模型（深度學習）從相關疾病之間學到的相似性，而非生物學上的證據。
 
@@ -134,11 +134,12 @@ Hunter-Thompson 型肢中段發育不良是一種遺傳性骨骼發育疾病，�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效的單一成分許可證，皆為已上市狀態。」→「香港共有 44 張含本藥成分的許可證（有效 43 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Tramadol Hydrochloride Extended-Release (tramadol hydrochloride) prescribing information, Trigen Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0bc7218-3fd0-4646-96f4-25355fc84aa9) |
 
 <!-- review:end log -->
 

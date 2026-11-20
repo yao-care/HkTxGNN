@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**原發性皮膚 B 細胞淋巴瘤 (primary cutan
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就一般藥理知識而言，bexarotene 是 RXR 選擇性促效劑，可活化作為配體依賴性轉錄因子的 RXR，調控基因表現，進而影響細胞生長、分化與凋亡，在惡性 T 細胞株中可誘導凋亡與分化。
+根據美國 FDA 核准的 Bexarotene 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Bexarotene 選擇性結合並活化類視色素 X 受體亞型（RXRα、RXRß、RXRγ）。RXRs 可與多種受體夥伴形成異二聚體，例如視黃酸受體（RARs）、維生素 D 受體、甲狀腺受體及過氧化體增殖活化受體（PPARs）。」英文原文："Bexarotene selectively binds and activates retinoid X receptor subtypes (RXRα, RXRß, RXRγ). RXRs can form heterodimers with various receptor partners such as retinoic acid receptors (RARs), vitamin D receptor, thyroid receptor, and peroxisome proliferator activator receptors (PPARs)."（[DailyMed: Targretin (bexarotene) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d056725-0576-4338-8089-6336e768ccdc)，版本日期 2020-04-30；查閱日期 2026-11-19）。就一般藥理知識而言，bexarotene 是 RXR 選擇性促效劑，可活化作為配體依賴性轉錄因子的 RXR，調控基因表現，進而影響細胞生長、分化與凋亡，在惡性 T 細胞株中可誘導凋亡與分化。
 
 預測分數偏高，較可能反映模型在藥物與疾病網絡中，與皮膚 T 細胞淋巴瘤相關節點距離接近，而非 B 細胞特異的機轉證據。RXR 訊號與皮膚 B 細胞淋巴瘤生物學的關聯尚未被證實，已檢索的文獻中也沒有任何一篇評估 bexarotene 用於 B 細胞疾病。
 
@@ -121,6 +121,18 @@ TxGNN 模型預測它可能對**原發性皮膚 B 細胞淋巴瘤 (primary cutan
 - 進行前臨床研究（如 B 細胞淋巴瘤細胞株或模型的 bexarotene 反應）
 - 取得香港原廠仿單的警語與禁忌症，完成安全性篩檢
 - 若前臨床結果正面，再設計針對皮膚 B 細胞淋巴瘤的小型探索性臨床試驗
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Targretin (bexarotene) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d056725-0576-4338-8089-6336e768ccdc) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

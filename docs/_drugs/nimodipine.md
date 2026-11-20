@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**同合子家族性高膽固醇血症 (Homozygous
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Nimodipine 是對腦血管具選擇性的二氫吡啶類 L 型鈣離子通道阻斷劑，其在蛛網膜下腔出血中的角色已被確立，但機轉上是否適用於同合子家族性高膽固醇血症，尚無法由現有資料驗證。
+根據美國 FDA 核准的 Nimodipine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Nimodipine為一種dihydropyridine類鈣離子通道阻斷劑。平滑肌細胞的收縮過程有賴於鈣離子，鈣離子在去極化期間以緩慢離子跨膜電流的形式進入這些細胞。」英文原文："Nimodipine is a dihydropyridine calcium channel blocker. The contractile processes of smooth muscle cells are dependent upon calcium ions, which enter these cells during depolarization as slow ionic transmembrane currents."（[DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10)，版本日期 2024-08-30；查閱日期 2026-11-19）。根據已知資訊，Nimodipine 是對腦血管具選擇性的二氫吡啶類 L 型鈣離子通道阻斷劑，其在蛛網膜下腔出血中的角色已被確立，但機轉上是否適用於同合子家族性高膽固醇血症，尚無法由現有資料驗證。
 
 同合子家族性高膽固醇血症主要由 LDL 受體途徑缺陷（LDLR、APOB、PCSK9、LDLRAP1）造成。Nimodipine 與此途徑沒有已知的直接關聯。唯一可能的連結是間接的，例如鈣離子通道阻斷劑對血管平滑肌或動脈粥樣硬化進展的影響，但這無法改善根本的 LDL 清除缺陷。
 
@@ -103,6 +103,19 @@ TxGNN 模型預測它可能對**同合子家族性高膽固醇血症 (Homozygous
 - 取得香港衛生署仿單的警語與禁忌資料，完成安全性篩選。
 - 系統性檢索前臨床與臨床文獻，確認是否有鈣離子通道阻斷劑與家族性高膽固醇血症的相關證據。
 - 在取得任何支持證據之前，不建議投入進一步開發資源。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

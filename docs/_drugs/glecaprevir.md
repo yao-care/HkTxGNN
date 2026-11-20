@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對 **HIV 感染 (HIV infectious disease)** 有關，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 glecaprevir 是 C 型肝炎病毒 NS3/4A 蛋白酶抑制劑，與 pibrentasvir 組成複方使用，用於治療 C 型肝炎。
+ChEMBL（EMBL-EBI）收錄的 Glecaprevir 作用機轉（非官方翻譯）：「C型肝炎病毒絲胺酸蛋白酶NS3/NS4A抑制劑」英文原文："Hepatitis C virus serine protease, NS3/NS4A inhibitor"（[ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363)，CC BY-SA 3.0；查閱日期 2026-11-19）。已知 glecaprevir 是 C 型肝炎病毒 NS3/4A 蛋白酶抑制劑，與 pibrentasvir 組成複方使用，用於治療 C 型肝炎。
 
 HIV 與 HCV 常同時感染，在疾病網絡與抗病毒藥物上有許多共同鄰近節點，這很可能是 TxGNN 給出高分的原因。但 glecaprevir 沒有已知的直接抗 HIV 活性，相關試驗中藥物治療的是 HCV 部分。若有任何益處，也屬間接，例如清除 HCV 後降低共感染者的心血管與肝臟風險。
 
@@ -122,6 +122,19 @@ HIV 與 HCV 常同時感染，在疾病網絡與抗病毒藥物上有許多共�
 ### 其他預測適應症簡述
 
 排名第 2 至第 10 的預測（B 型肝炎、猴免疫缺陷病毒感染、貓後天免疫缺乏症候群、E 型肝炎、動物病毒性肝炎、A 型肝炎、鄂木斯克出血熱、凱薩努爾森林病、一種罕見神經發展障礙）皆無直接研究支持 glecaprevir 對這些疾病有效，也缺乏機轉依據，建議全部維持 Hold。其中 A 型肝炎相關的大量試驗實為 HCV 試驗，不構成 HAV 證據。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

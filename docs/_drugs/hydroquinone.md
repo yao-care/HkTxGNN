@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**脂漏性角化症 (Seborrheic Keratosis)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank 未收錄於本次整理的資料中）。根據已知資訊，Hydroquinone 能抑制酪胺酸酶、降低黑色素合成，是常見的外用淡斑成分。
+根據美國 FDA 核准的 Hydroquinone 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「局部塗抹hydroquinone可抑制酪胺酸經酵素氧化為3,4-二羥基苯丙胺酸（dopa）的過程（Denton, C. et al., 1952）1，並抑制黑色素細胞的其他代謝過程（Jimbow, K. et al., 1974）2，從而使皮膚產生可逆性色素脫失。暴露於陽光或紫外線下會使已漂白的區域重新產生色素沉著（Parrish, L.A. et al., 1978）3。」英文原文："Topical application of hydroquinone produces a reversible depigmentation of the skin by inhibition of the enzymatic oxidation of tyrosine to 3,4-dihydroxyphenylalanine (dopa) (Denton, C. et al., 1952)1 and suppression of other melanocyte metabolic processes (Jimbow, K. et al., 1974)2. Exposure to sunlight or ultraviolet light will cause repigmentation of bleached areas (Parrish, L.A. et al., 1978)3."（[DailyMed: Hydroquinone 4% (hydroquinone) prescribing information, Acella Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595dfc50-ee6f-41b5-ab5b-4c293aee342b)，版本日期 2026-07-10；查閱日期 2026-11-19）。根據已知資訊，Hydroquinone 能抑制酪胺酸酶、降低黑色素合成，是常見的外用淡斑成分。
 
 脂漏性角化症常帶有色素沉著，因此理論上，減少黑色素可能使病灶顏色變淡。不過，脂漏性角化症本質上是表皮細胞的良性增生，淡化色素並不會改變病灶本身的增生特性。
 
@@ -109,6 +109,19 @@ TxGNN 模型預測它可能對**脂漏性角化症 (Seborrheic Keratosis)** 有�
 - 設計針對脂漏性角化症的對照研究，或系統性回顧 Hydroquinone 用於色素性良性病灶的資料
 - 評估外用劑型與目標病灶的給藥途徑相容性
 - 若與知識圖譜中的禁忌疾病（如皮膚萎縮、皮膚炎）重疊，需先釐清安全性風險
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Hydroquinone 4% (hydroquinone) prescribing information, Acella Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595dfc50-ee6f-41b5-ab5b-4c293aee342b) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

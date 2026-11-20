@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**支氣管炎 (bronchitis)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，montelukast 屬於白三烯受體拮抗劑類別，已有多個單方製劑在香港上市，機轉上可能適用於支氣管炎。
+根據美國 FDA 核准的 Montelukast 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「半胱胺醯白三烯（LTC 4、LTD 4、LTE 4）是花生四烯酸代謝的產物，由包括肥大細胞及嗜酸性白血球在內的多種細胞釋放。這些類二十烷酸會與半胱胺醯白三烯（CysLT）受體結合。[…] Montelukast 是一種口服活性化合物，能以高親和力及高選擇性與 CysLT 1 受體結合（優先於其他在藥理學上重要的呼吸道受體，例如前列腺素類受體、膽鹼受體或 β 腎上腺素受體）。」英文原文："The cysteinyl leukotrienes (LTC 4, LTD 4, LTE 4 ) are products of arachidonic acid metabolism and are released from various cells, including mast cells and eosinophils. These eicosanoids bind to cysteinyl leukotriene (CysLT) receptors. […] Montelukast is an orally active compound that binds with high affinity and selectivity to the CysLT 1 receptor (in preference to other pharmacologically important airway receptors, such as the prostanoid, cholinergic, or β-adrenergic receptor)."（[DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842)，版本日期 2025-04-30；查閱日期 2026-11-19）。根據已知資訊，montelukast 屬於白三烯受體拮抗劑類別，已有多個單方製劑在香港上市，機轉上可能適用於支氣管炎。
 
 文獻指出，白三烯類介質（cysteinyl leukotrienes）參與呼吸道發炎反應，包括病毒感染引起的細支氣管炎與嗜酸性球性支氣管炎。因此，阻斷白三烯受體在機轉上有其合理性。
 
@@ -135,11 +135,12 @@ TxGNN 模型預測它可能對**支氣管炎 (bronchitis)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「目前香港有至少 20 張有效的單方製劑許可證（資料可能不完整），」→「香港共有 57 張含本藥成分的許可證（有效 54 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842) |
 
 <!-- review:end log -->
 

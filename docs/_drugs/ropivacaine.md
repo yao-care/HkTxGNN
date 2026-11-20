@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料庫記載。根據已知資訊，Ropivacaine 是長效醯胺類局部麻醉藥，可阻斷電壓門控鈉通道，降低痛覺神經的傳導。
+根據美國 FDA 核准的 Ropivacaine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ropivacaine 屬於胺基醯胺類局部麻醉劑，以純 S-(-)-鏡像異構物形式供應。局部麻醉劑可阻斷神經衝動的產生與傳導，推測其機轉為提高神經電興奮的閾值、減緩神經衝動的傳播，以及降低動作電位的上升速率。」英文原文："Ropivacaine is a member of the amino amide class of local anesthetics and is supplied as the pure S-(-)-enantiomer. Local anesthetics block the generation and the conduction of nerve impulses, presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential."（[DailyMed: Naropin (ropivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb6583ff-cde4-4280-aa5b-0bea2b844792)，版本日期 2026-07-17；查閱日期 2026-11-19）。根據已知資訊，Ropivacaine 是長效醯胺類局部麻醉藥，可阻斷電壓門控鈉通道，降低痛覺神經的傳導。
 
 在偏頭痛的應用上，它是以區域神經或神經節阻斷的方式使用，例如蝶顎神經節 (sphenopalatine ganglion) 阻斷、星狀神經節阻斷與扳機點注射。這些做法可能調節與頭痛相關的三叉神經血管與副交感神經路徑。
 
@@ -122,6 +122,19 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 - 取得上述兩個試驗的結果，並尋找較大型的隨機對照試驗（針對偏頭痛的神經阻斷處置）
 - 確認給藥途徑與劑型（神經節阻斷、扳機點注射）是否與現有注射劑許可範圍相符
 - 其餘預測適應症（腦幹先兆偏頭痛、腎因性抗利尿不適當症候群、輕度憂鬱症）暫不建議推進
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Naropin (ropivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb6583ff-cde4-4280-aa5b-0bea2b844792) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

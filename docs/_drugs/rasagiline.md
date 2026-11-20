@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對 **PLA2G6 相關神經退化症 (PLA2G6-associated
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫未收錄）。依一般藥理知識，rasagiline 為不可逆的 MAO-B 抑制劑，可減少多巴胺分解，並被報告具有神經保護與抗細胞凋亡的特性。此部分為背景說明，並非本次資料所提供的證據。
+根據美國 FDA 核准的 Rasagiline 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「AZILECT是一種選擇性、不可逆的MAO-B抑制劑，適用於治療特發性帕金森氏症。一項旨在研究AZILECT與遞增劑量tyramine併用時對血壓影響的臨床試驗結果顯示，健康受試者在接受建議劑量AZILECT期間攝取大量tyramine時，其功能選擇性可能並不完全。[…] 在針對腦、肝及腸組織進行的離體動物研究中，rasagiline顯示為一種強效、不可逆的B型單胺氧化酶（MAO-B）選擇性抑制劑。」英文原文："AZILECT is a selective, irreversible MAO-B inhibitor indicated for the treatment of idiopathic Parkinson’s disease. The results of a clinical trial designed to examine the effects of AZILECT on blood pressure when it is administered with increasing doses of tyramine indicates the functional selectivity can be incomplete when healthy subjects ingest large amounts of tyramine while receiving recommended doses of AZILECT. […] In ex vivo animal studies in brain, liver, and intestinal tissues, rasagiline was shown to be a potent, irreversible monoamine oxidase type B (MAO-B) selective inhibitor."（[DailyMed: Azilect (rasagiline mesylate) prescribing information, Teva Neuroscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a40d0e73-3f9f-4b01-979d-402c9cdaeb60)，版本日期 2020-06-30；查閱日期 2026-11-19）。依一般藥理知識，rasagiline 為不可逆的 MAO-B 抑制劑，可減少多巴胺分解，並被報告具有神經保護與抗細胞凋亡的特性。此部分為背景說明，並非本次資料所提供的證據。
 
 PLA2G6 相關神經退化症（包含嬰兒型神經軸突營養不良與 PLA2G6 相關肌張力不全－帕金森氏症）與帕金森氏症一樣，有帕金森氏症表現及 α-突觸核蛋白病變。因此理論上，rasagiline 可能改善多巴胺功能失調所致的症狀。
 
@@ -115,11 +115,12 @@ PLA2G6 相關神經退化症（包含嬰兒型神經軸突營養不良與 PLA2G6
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「另有 HK-67847（RASAGILINA FARMOZ TABLETS 1M」→「另有 HK-67847（RASAGILINA FARMOZ TABLETS 1M」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Azilect (rasagiline mesylate) prescribing information, Teva Neuroscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a40d0e73-3f9f-4b01-979d-402c9cdaeb60) |
 
 <!-- review:end log -->
 

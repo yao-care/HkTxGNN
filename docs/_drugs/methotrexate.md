@@ -63,7 +63,7 @@ TxGNN 模型排名第一的預測是**肺母細胞瘤 (Pulmonary Blastoma)**（�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Methotrexate 一般被認為是抗葉酸藥物，可抑制二氫葉酸還原酶（DHFR）與胸苷酸合成，影響快速增殖細胞的 DNA 合成。這是一般藥理知識，並非來自本次彙整的 MOA 資料。
+根據美國 FDA 核准的 Methotrexate 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Methotrexate 抑制二氫葉酸還原酶。二氫葉酸必須先經此酶還原為四氫葉酸，才能在嘌呤核苷酸及胸苷酸的合成中作為一碳基團的載體而被利用。」英文原文："Methotrexate inhibits dihydrofolic acid reductase. Dihydrofolates must be reduced to tetrahydrofolates by this enzyme before they can be utilized as carriers of one-carbon groups in the synthesis of purine nucleotides and thymidylate."（[DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e)，版本日期 2026-11-05；查閱日期 2026-11-19）。Methotrexate 一般被認為是抗葉酸藥物，可抑制二氫葉酸還原酶（DHFR）與胸苷酸合成，影響快速增殖細胞的 DNA 合成。這是一般藥理知識，並非來自本次彙整的 MOA 資料。
 
 肺母細胞瘤是增殖活躍的胚胎型腫瘤，從抗增殖機轉來看有理論上的合理性，但這純屬計算預測。沒有任何試驗或文獻直接研究 methotrexate 用於肺母細胞瘤，因此不能視為有臨床支持。
 
@@ -159,12 +159,13 @@ TxGNN 模型排名第一的預測是**肺母細胞瘤 (Pulmonary Blastoma)**（�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「共 8 張有效單一成分許可證」→「共 9 張有效單一成分許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 | 2026-11-17 | 「8 張許可證（皆為單一成分）」→「9 張許可證（皆為單一成分）」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e) |
 
 <!-- review:end log -->
 

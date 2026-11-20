@@ -61,7 +61,7 @@ Siltuximab 是抗介白素-6（IL-6）的嵌合型單株抗體，原本用於治
 
 ## 為什麼這個預測合理？
 
-目前缺乏經結構化整理的詳細作用機轉資料。就已知資訊，siltuximab 是以人類 IL-6 為標的的單株抗體，可阻斷 IL-6 與受體結合，並已核准用於特發性多中心型 Castleman 病（iMCD），其病理核心是 IL-6 驅動的細胞激素風暴。
+根據美國 FDA 核准的 Siltuximab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Siltuximab可與人類IL-6結合，並阻止IL-6與可溶性及膜結合型IL-6受體結合。IL-6已被證實參與多種正常生理過程，例如誘導免疫球蛋白分泌。」英文原文："Siltuximab binds human IL-6 and prevents the binding of IL-6 to both soluble and membrane-bound IL-6 receptors. IL-6 has been shown to be involved in diverse normal physiologic processes such as induction of immunoglobulin secretion."（[DailyMed: Sylvant (siltuximab) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d663642-f52e-49c0-a023-2da083fdfc0b)，版本日期 2024-08-27；查閱日期 2026-11-19）。就已知資訊，siltuximab 是以人類 IL-6 為標的的單株抗體，可阻斷 IL-6 與受體結合，並已核准用於特發性多中心型 Castleman 病（iMCD），其病理核心是 IL-6 驅動的細胞激素風暴。
 
 因此在機轉上，阻斷 IL-6 有其合理性。
 
@@ -132,6 +132,19 @@ Siltuximab 是抗介白素-6（IL-6）的嵌合型單株抗體，原本用於治
 - 系統性蒐集 TAFRO 的病例系列或登錄研究資料，比較 siltuximab 與標準治療（如類固醇、rituximab、tocilizumab）
 - 評估前瞻性試驗或真實世界研究的可行性
 - 針對併用藥物（特別是抗凝血藥與 CYP 受質藥物）制定監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Sylvant (siltuximab) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d663642-f52e-49c0-a023-2da083fdfc0b) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

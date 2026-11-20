@@ -59,7 +59,7 @@ Nebivolol 是一種 β1 選擇性阻斷劑，原本用於治療高血壓。
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（原廠 MOA 欄位未收錄）。根據已知資訊，Nebivolol 是 β1 選擇性阻斷劑，並可透過一氧化氮 (NO) 介導產生血管擴張，其降血壓療效在一般高血壓中已被證實，機轉上可能與高血壓相關疾病有關聯。
+根據美國 FDA 核准的 Nebivolol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「BYSTOLIC 產生降血壓反應的作用機轉尚未確立。可能涉及的因素包括：心率降低、心肌收縮力降低、由大腦血管運動中樞傳至周邊的緊張性交感神經輸出減少、腎素活性受抑制，以及血管擴張和周邊血管阻力降低。」英文原文："The mechanism of action of the antihypertensive response of BYSTOLIC has not been definitively established. Possible factors that may be involved include: decreased heart rate, decreased myocardial contractility, diminution of tonic sympathetic outflow to the periphery from cerebral vasomotor centers, suppression of renin activity and vasodilation and decreased peripheral vascular resistance."（[DailyMed: Bystolic (nebivolol hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8b8ad213-1dc8-454e-a524-075685c0e1a8)，版本日期 2024-08-01；查閱日期 2026-11-19）。根據已知資訊，Nebivolol 是 β1 選擇性阻斷劑，並可透過一氧化氮 (NO) 介導產生血管擴張，其降血壓療效在一般高血壓中已被證實，機轉上可能與高血壓相關疾病有關聯。
 
 不過，惡性腎血管性高血壓主要由腎動脈狹窄引起腎素－血管收縮素系統活化所驅動，是一種獨特且屬緊急狀況的疾病，與一般高血壓的病理機轉並不相同。因此，0.994 的高分僅是模型預測，不能直接視為療效證據。
 
@@ -126,6 +126,19 @@ Nebivolol 是一種 β1 選擇性阻斷劑，原本用於治療高血壓。
 - 針對惡性腎血管性高血壓進行系統性文獻回顧，尋找直接的臨床或病例證據
 - 評估在腎素依賴性高血壓下，β 阻斷劑與現行標準治療的比較及風險
 - 如有初步臨床訊號，再規劃小型探索性試驗
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Bystolic (nebivolol hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8b8ad213-1dc8-454e-a524-075685c0e1a8) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

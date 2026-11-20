@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對**過敏性蕁麻疹 (Allergic Urticaria)** 有效
 
 Dimenhydrinate 是 diphenhydramine（第一代 H1 抗組織胺）與 8-chlorotheophylline 的鹽類。Diphenhydramine 成分可阻斷組織胺 H1 受體，而該受體正是介導蕁麻疹風團與紅斑反應的關鍵，因此機轉上具生物學合理性，也與第一代抗組織胺用於蕁麻疹的類別用法一致。
 
-不過，目前缺乏詳細的作用機轉資料。Dimenhydrinate 現有適應症（暈動症、眩暈）主要仰賴中樞抗膽鹼與抗組織胺作用，且目前沒有針對 dimenhydrinate 本身用於蕁麻疹的資料。0.9974 的預測分數僅為計算模型的推論。
+根據美國 FDA 核准的 Dimenhydrinate 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「雖然 dimenhydrinate 的確切作用方式尚不清楚，但其對過度受刺激的迷路功能具有抑制作用。」英文原文："While the precise mode of action of dimenhydrinate is not known, it has a depressant action on hyperstimulated labyrinthine function."（[DailyMed: dimenhydrinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc71539e-1a33-4709-8a24-c2894e8dbc1c)，版本日期 2025-01-15；查閱日期 2026-11-19）。Dimenhydrinate 現有適應症（暈動症、眩暈）主要仰賴中樞抗膽鹼與抗組織胺作用，且目前沒有針對 dimenhydrinate 本身用於蕁麻疹的資料。0.9974 的預測分數僅為計算模型的推論。
 
 另一個預測適應症為**寒冷性蕁麻疹 (Cold Urticaria)**（分數 0.9924，證據等級 L5）。其推論同樣僅基於抗組織胺類別，尚無任何 dimenhydrinate 或 diphenhydramine 的專屬資料，建議視為次要探索方向。
 
@@ -123,11 +123,12 @@ Dimenhydrinate 是 diphenhydramine（第一代 H1 抗組織胺）與 8-chlorothe
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效單一成分許可證，無已註銷者。」→「香港共有 36 張含本藥成分的許可證（全部有效；單一成分 2」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: dimenhydrinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc71539e-1a33-4709-8a24-c2894e8dbc1c) |
 
 <!-- review:end log -->
 

@@ -66,7 +66,7 @@ Desloratadine 是選擇性的周邊 H1 受體反向促效劑。寒冷性蕁麻�
 
 寒冷性蕁麻疹與 Desloratadine 已核准的特發性蕁麻疹、過敏性蕁麻疹同屬蕁麻疹譜系，亞型關係相近。治療指引也建議，標準劑量反應不佳時，可提高第二代抗組織胺的劑量。不過較高劑量（如 10 mg、20 mg）屬於仿單外使用，應在臨床監督下進行。
 
-另外，目前缺乏詳細的作用機轉資料庫記錄（原始 MOA 欄位為空），上述機轉描述來自藥理學共識與預測分析的推論。
+根據美國 FDA 核准的 Desloratadine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Desloratadine為一種長效三環類組織胺拮抗劑，具有選擇性H1受體組織胺拮抗活性。受體結合數據顯示，在2-3 ng/mL（7奈莫耳）濃度下，desloratadine與人類組織胺H1受體有顯著的交互作用。」英文原文："Desloratadine is a long-acting tricyclic histamine antagonist with selective H1-receptor histamine antagonist activity. Receptor binding data indicates that at a concentration of 2-3 ng/mL (7 nanomolar), desloratadine shows significant interaction with the human histamine H1-receptor."（[DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f)，版本日期 2025-10-23；查閱日期 2026-11-19）。
 
 ---
 
@@ -142,6 +142,18 @@ Desloratadine 是選擇性的周邊 H1 受體反向促效劑。寒冷性蕁麻�
 | 頑固性異位性皮膚炎 | 0.9975 | L5 | Hold：組織胺非主要驅動因子，機轉上存疑 |
 | 異位性 IgE 反應性 | 0.9964 | L5 | Hold：屬表型而非可治療疾病 |
 | 酒糟性結膜炎 | 0.9940 | L5 | Hold：機轉連結薄弱 |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

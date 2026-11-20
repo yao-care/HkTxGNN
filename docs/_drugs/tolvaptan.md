@@ -57,7 +57,7 @@ Tolvaptan 是選擇性血管加壓素 V2 受體拮抗劑，原本用於抗利尿
 
 ## 為什麼這個預測合理？
 
-目前缺乏經資料庫確認的詳細作用機轉資料。根據文獻與已知藥理，Tolvaptan 為選擇性血管加壓素 V2 受體拮抗劑。在多囊腎病變中，血管加壓素驅動的 cAMP 訊號會促進囊腫生長與液體分泌；阻斷 V2 受體可降低 cAMP，進而減緩囊腫擴大。
+根據美國 FDA 核准的 Tolvaptan 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Tolvaptan 是一種選擇性血管加壓素 V 2 受體拮抗劑，其對 V 2 受體的親和力為天然精胺酸血管加壓素（AVP）的 1.8 倍。Tolvaptan 對 V 2 受體的親和力為對 V 1a 受體的 29 倍。」英文原文："Tolvaptan is a selective vasopressin V 2 -receptor antagonist with an affinity for the V 2 -receptor that is 1.8 times that of native arginine vasopressin (AVP). Tolvaptan affinity for the V 2 -receptor is 29 times that for the V 1a -receptor."（[DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4)，版本日期 2026-09-30；查閱日期 2026-11-19）。根據文獻與已知藥理，Tolvaptan 為選擇性血管加壓素 V2 受體拮抗劑。在多囊腎病變中，血管加壓素驅動的 cAMP 訊號會促進囊腫生長與液體分泌；阻斷 V2 受體可降低 cAMP，進而減緩囊腫擴大。
 
 原適應症（SIADH）與新預測適應症（多囊腎病變）都和 V2 受體路徑相關，而多囊腎病變本身也已列於 Tolvaptan 的原適應症中。TEMPO 3:4（PMID 23121377）及 REPRISE（PMID 29105594）兩項關鍵 Phase 3 試驗已在體顯性多囊腎病（ADPKD）驗證其效果。
 
@@ -122,6 +122,19 @@ Tolvaptan 是選擇性血管加壓素 V2 受體拮抗劑，原本用於抗利尿
 ---
 
 **其他預測適應症備註：** 排名第 2 至第 10 的預測（如腎肝胰發育不良、核巨大間質性腎炎、胸腔畸形、Joubert 症候群伴腎缺陷等）多數僅有模型預測、缺乏臨床證據（L4–L5），建議暫列為 Hold 或研究問題。其中 Joubert 症候群伴腎缺陷因與多囊腎病變共有 cAMP／纖毛病變生物學，可作為後續前臨床研究的方向。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對 **神經症 (Neurotic Disorder)** 有效，但目
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據文獻中的一般描述，vortioxetine 具多重血清素作用：抑制血清素轉運體 (SERT)，並調節 5-HT1A、5-HT1B、5-HT3、5-HT7 等受體。這些作用在重度憂鬱症中已有充分證據。
+根據美國 FDA 核准的 Vortioxetine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Vortioxetine 抗憂鬱作用的機轉尚未完全明瞭，但一般認為與其透過抑制血清素（5-HT）再回收而增強中樞神經系統（CNS）內血清素活性有關。其亦具有數種其他活性，包括 5-HT3 受體拮抗作用及 5-HT1A 受體促效作用。」英文原文："The mechanism of the antidepressant effect of vortioxetine is not fully understood, but is thought to be related to its enhancement of serotonergic activity in the CNS through inhibition of the reuptake of serotonin (5-HT). It also has several other activities including 5-HT3 receptor antagonism and 5-HT1A receptor agonism."（[DailyMed: Trintellix (vortioxetine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd0107e5-1cb9-4b40-a6af-fa65fcbe6b4e)，版本日期 2026-04-23；查閱日期 2026-11-19）。根據文獻中的一般描述，vortioxetine 具多重血清素作用：抑制血清素轉運體 (SERT)，並調節 5-HT1A、5-HT1B、5-HT3、5-HT7 等受體。這些作用在重度憂鬱症中已有充分證據。
 
 「神經症」是一個過時且範圍很廣的診斷類別，與憂鬱症、焦慮症高度重疊，而這兩者已在 vortioxetine 的原適應症內。TxGNN 的高分很可能反映的是疾病分類上的語意接近，而非獨立的療效證據。
 
@@ -128,6 +128,18 @@ TxGNN 模型預測它可能對 **神經症 (Neurotic Disorder)** 有效，但目
 | 排名 | 預測適應症 | TxGNN 分數 | 證據等級 | 建議 | 說明 |
 |------|-----------|-----------|---------|------|------|
 | 4 | 嬰兒良性陣發性斜頸 | 0.9907 | L5 | Hold | 無可辨識的機轉連結，無試驗與文獻，此分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病學到的相似性，而非生物學證據，且嬰兒族群有安全疑慮 |
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Trintellix (vortioxetine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd0107e5-1cb9-4b40-a6af-fa65fcbe6b4e) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

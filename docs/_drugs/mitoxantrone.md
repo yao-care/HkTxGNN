@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**上呼吸消化道腫瘤 (Upper Aerodigestive Tr
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據文獻背景，Mitoxantrone 是拓樸異構酶 II 抑制劑與 DNA 嵌入劑，在多種實體腫瘤中具有細胞毒性活性，與蒽環類藥物機轉相近。
+根據美國 FDA 核准的 Mitoxantrone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Mitoxantrone 是一種 DNA 反應性藥物，透過氫鍵嵌入去氧核糖核酸（DNA）中，造成交聯及股斷裂。Mitoxantrone 亦會干擾核糖核酸（RNA），且為拓撲異構酶 II 的強效抑制劑，該酵素負責解旋及修復受損的 DNA。」英文原文："Mitoxantrone, a DNA-reactive agent that intercalates into deoxyribonucleic acid (DNA) through hydrogen bonding, causes crosslinks and strand breaks. Mitoxantrone also interferes with ribonucleic acid (RNA) and is a potent inhibitor of topoisomerase II, an enzyme responsible for uncoiling and repairing damaged DNA."（[DailyMed: mitoxantrone prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1634528a-30c5-4309-acc8-4c0293ae14ae)，版本日期 2026-09-01；查閱日期 2026-11-19）。根據文獻背景，Mitoxantrone 是拓樸異構酶 II 抑制劑與 DNA 嵌入劑，在多種實體腫瘤中具有細胞毒性活性，與蒽環類藥物機轉相近。
 
 上呼吸消化道涵蓋口腔、咽、喉等部位，與頭頸部惡性腫瘤高度重疊。較早期的第二期試驗顯示 Mitoxantrone 對頭頸癌有一定活性，也曾與順鉑合用於唾液腺惡性腫瘤，因此機轉上推測可能適用。
 
@@ -154,6 +154,19 @@ TxGNN 模型預測它可能對**上呼吸消化道腫瘤 (Upper Aerodigestive Tr
 - 追蹤 NCT05717764、NCT04902027 等脂質體製劑試驗的結果，並評估脂質體製劑與香港現有注射劑是否可類比。
 - 取得香港仿單的警語、禁忌與核准適應症。
 - 補充作用機轉資料，並制定血液學與心臟功能的監測計畫。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: mitoxantrone prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1634528a-30c5-4309-acc8-4c0293ae14ae) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

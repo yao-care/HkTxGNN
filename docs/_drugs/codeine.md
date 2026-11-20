@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Codeine 是一種鴉片類鎮咳止痛成分，常見於複方咳嗽糖漿與感冒藥中，在上呼吸道症狀（如鼻炎、咽炎、感冒）的症狀緩解上已有使用經驗。
+根據美國 FDA 核准的 Codeine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Codeine sulfate 是一種對 mu-類鴉片受體具相對選擇性的類鴉片促效劑，但其親和力遠弱於 morphine。有推測認為 codeine 的止痛特性來自其轉化為 morphine，但確切的止痛作用機轉仍不清楚。」英文原文："Codeine sulfate is an opioid agonist relatively selective for the mu-opioid receptor, but with a much weaker affinity than morphine. The analgesic properties of codeine have been speculated to come from its conversion to morphine, although the exact mechanism of analgesic action remains unknown."（[DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293)，版本日期 2026-01-16；查閱日期 2026-11-19）。根據已知資訊，Codeine 是一種鴉片類鎮咳止痛成分，常見於複方咳嗽糖漿與感冒藥中，在上呼吸道症狀（如鼻炎、咽炎、感冒）的症狀緩解上已有使用經驗。
 
 鼻腔疾病與已知的鼻炎、鼻咽炎屬於相近的上呼吸道病症，這很可能是模型給出高分的主因。換句話說，此分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而不是生物學證據，也不是對鼻腔疾病的療效訊號。
 
@@ -139,11 +139,12 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「共 20 張有效單方許可證，」→「共 345 張含本藥成分的許可證，有效 331 張、已註銷 」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293) |
 
 <!-- review:end log -->
 

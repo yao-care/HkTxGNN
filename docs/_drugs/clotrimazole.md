@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**痤瘡 (acne (disease))** 有效，分數為 0.9
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知資訊，Clotrimazole 屬於唑類抗黴菌藥，一般認為其作用是抑制黴菌 CYP51 酵素，阻斷麥角固醇合成。另有報告指出它具有一定的抗菌與抗發炎活性。
+根據美國 FDA 核准的 Clotrimazole 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Clotrimazole 是一種廣效抗真菌藥物，可經由改變細胞膜的通透性而抑制致病性酵母菌的生長。Clotrimazole 在藥物濃度達 20 mcg/mL 以下時具抑制真菌作用，而在較高濃度時，於體外可能對白色念珠菌（Candida albicans）及念珠菌屬（Candida）其他菌種具殺真菌作用。」英文原文："Clotrimazole is a broad-spectrum antifungal agent that inhibits the growth of pathogenic yeasts by altering the permeability of cell membranes. The action of clotrimazole is fungistatic at concentrations of drug up to 20 mcg/mL and may be fungicidal in vitro against Candida albicans and other species of the genus Candida at higher concentrations."（[DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f)，版本日期 2025-03-27；查閱日期 2026-11-19）。就已知資訊，Clotrimazole 屬於唑類抗黴菌藥，一般認為其作用是抑制黴菌 CYP51 酵素，阻斷麥角固醇合成。另有報告指出它具有一定的抗菌與抗發炎活性。
 
 在機轉上，可能的連結是痤瘡毛囊發炎與 Malassezia 或 Cutibacterium 有關，但這一點屬推測。唯一找到的試驗使用的是 beclomethasone、gentamicin 與 clotrimazole 的固定複方，無法分辨療效是否來自 clotrimazole。
 
@@ -115,11 +115,12 @@ TxGNN 模型預測它可能對**痤瘡 (acne (disease))** 有效，分數為 0.9
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本報告所整理的資料顯示共 20 張有效許可證，皆為單一成分製劑，此處僅列出其中 」→「香港共有 397 張含本藥成分的許可證（有效 396 張、已」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f) |
 
 <!-- review:end log -->
 

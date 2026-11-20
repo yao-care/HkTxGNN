@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**血小板減少性紫斑症 (Thrombocytopenic Pu
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Hemin 可補充體內血基質 (heme) 池，並抑制肝臟 ALAS1 酵素，這是它用於急性間歇性紫質症的基礎。
+根據美國 FDA 核准的 Hemin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「血基質的作用為限制肝臟及/或骨髓中紫質的合成。此作用可能源於對 δ-胺基乙醯丙酸合成酶的抑制，該酵素為紫質/血基質生合成路徑的速率限制酵素。」英文原文："Heme acts to limit the hepatic and/or marrow synthesis of porphyrin. This action is likely due to the inhibition of δ-aminolevulinic acid synthetase, the enzyme which limits the rate of the porphyrin/heme biosynthetic pathway."（[DailyMed: Panhematin (hemin) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9984267a-4d57-4444-9bb5-16bca7dea691)，版本日期 2026-02-26；查閱日期 2026-11-19）。根據已知資訊，Hemin 可補充體內血基質 (heme) 池，並抑制肝臟 ALAS1 酵素，這是它用於急性間歇性紫質症的基礎。
 
 Hemin 也可能誘導血基質加氧酶-1 (heme oxygenase-1)，理論上可能影響免疫或發炎路徑。但現有資料並未證實它與血小板減少性紫斑症之間有直接關聯，預測分數僅來自 TxGNN 模型（深度學習）的推論。
 
@@ -122,6 +122,19 @@ Hemin 也可能誘導血基質加氧酶-1 (heme oxygenase-1)，理論上可能�
 - 取得香港衛生署核准的仿單，確認警語、禁忌症與核准適應症
 - 針對凝血與血栓風險進行專門的安全性評估
 - 確認給藥途徑與劑型是否符合新適應症的需求
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Panhematin (hemin) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9984267a-4d57-4444-9bb5-16bca7dea691) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

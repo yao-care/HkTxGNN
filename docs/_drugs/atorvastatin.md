@@ -54,7 +54,7 @@ Atorvastatin 是 statin 類降血脂藥。TxGNN 模型預測它可能對 **HIV �
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Atorvastatin 屬於 statin 類，一般認為透過抑制 HMG-CoA 還原酶來降低 LDL 膽固醇。
+根據美國 FDA 核准的 Atorvastatin 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「LIPITOR為HMG-CoA還原酶的選擇性、競爭性抑制劑；HMG-CoA還原酶為將3-羥基-3-甲基戊二醯輔酶A轉化為甲羥戊酸的速率限制酵素，而甲羥戊酸為包括膽固醇在內之固醇類的前驅物。在動物模型中，LIPITOR透過抑制肝臟中的HMG-CoA還原酶及膽固醇合成，並增加細胞表面肝臟LDL受體的數量以加強LDL的攝取及分解代謝，從而降低血漿膽固醇及脂蛋白濃度；LIPITOR亦可減少LDL的生成及LDL顆粒的數量。」英文原文："LIPITOR is a selective, competitive inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts 3-hydroxy-3-methylglutaryl-coenzyme A to mevalonate, a precursor of sterols, including cholesterol. In animal models, LIPITOR lowers plasma cholesterol and lipoprotein levels by inhibiting HMG-CoA reductase and cholesterol synthesis in the liver and by increasing the number of hepatic LDL receptors on the cell surface to enhance uptake and catabolism of LDL; LIPITOR also reduces LDL production and the number of LDL particles."（[DailyMed: Lipitor (atorvastatin calcium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65)，版本日期 2024-04-15；查閱日期 2026-11-19）。Atorvastatin 屬於 statin 類，一般認為透過抑制 HMG-CoA 還原酶來降低 LDL 膽固醇。
 
 在 HIV 患者中，蛋白酶抑制劑（PI）常造成血脂異常，心血管風險也較高。Statin 可降低 LDL-C，處理這類血脂問題。此外，statin 具有多效性的抗發炎作用，可能降低單核球/巨噬細胞活化與免疫活化，對慢性 HIV 發炎可能有益。不過，對 HIV 病毒本身的抗病毒效果並未被證實。
 
@@ -136,11 +136,12 @@ Atorvastatin 是 statin 類降血脂藥。TxGNN 模型預測它可能對 **HIV �
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有至少 20 張有效的單一成分許可證（資料可能不完整），以下列出 5 張：」→「香港共有 94 張含本藥成分的許可證（有效 93 張、已註銷」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Lipitor (atorvastatin calcium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65) |
 
 <!-- review:end log -->
 

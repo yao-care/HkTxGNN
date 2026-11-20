@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（本報告彙整的資料中未收錄）。依文獻所知，dupilumab 會阻斷 IL-4Rα，進而抑制 IL-4 與 IL-13 訊號，而這兩者是第 2 型發炎的核心驅動因子。
+根據美國 FDA 核准的 Dupilumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Dupilumab是一種人類單株IgG4抗體，透過專一性結合IL-4與IL-13受體複合物共有的IL-4Rα次單元，抑制介白素-4（IL-4）及介白素-13（IL-13）的訊號傳遞。Dupilumab抑制經由第I型受體的IL-4訊號傳遞，以及經由第II型受體的IL-4和IL-13訊號傳遞。」英文原文："Dupilumab is a human monoclonal IgG4 antibody that inhibits interleukin-4 (IL-4) and interleukin-13 (IL-13) signaling by specifically binding to the IL-4Rα subunit shared by the IL-4 and IL-13 receptor complexes. Dupilumab inhibits IL-4 signaling via the Type I receptor and both IL-4 and IL-13 signaling through the Type II receptor."（[DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780)，版本日期 2026-04-22；查閱日期 2026-11-19）。依文獻所知，dupilumab 會阻斷 IL-4Rα，進而抑制 IL-4 與 IL-13 訊號，而這兩者是第 2 型發炎的核心驅動因子。
 
 異位性皮膚炎與部分氣道疾病（如氣喘、第 2 型 COPD、嗜酸性塑型性支氣管炎）共享第 2 型發炎的病理基礎。因此，對於嗜酸性球或第 2 型偏高的氣道疾病，機轉上有合理性。
 
@@ -134,6 +134,19 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前�
 
 **補充說明（其他預測）：**
 其中值得留意的延伸方向為異位性手足皮膚炎（NCT04417894）。其餘預測（如新生兒皮肌炎、糖尿病視網膜病變等）幾乎沒有證據支持，建議維持 Hold。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

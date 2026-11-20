@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**偏頭痛 (migraine disorder)** 有效。
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫中的 MOA 欄位為空）。根據藥理學一般知識，tizanidine 是中樞 α2 腎上腺素促效劑，可能降低三叉神經痛覺傳遞與中樞敏感化，並放鬆顱周肌肉緊張，因此在機轉上可能適用於偏頭痛預防。
+根據美國 FDA 核准的 Tizanidine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Tizanidine 是一種中樞 alpha-2-腎上腺素受體促效劑，推測其藉由增加運動神經元的突觸前抑制而減輕痙攣。Tizanidine 對多突觸路徑的作用最強。這些作用的整體效果被認為是減少脊髓運動神經元的易化作用。」英文原文："Tizanidine is a central alpha-2-adrenergic receptor agonist and presumably reduces spasticity by increasing presynaptic inhibition of motor neurons. The effects of tizanidine are greatest on polysynaptic pathways. The overall effect of these actions is thought to reduce facilitation of spinal motor neurons."（[DailyMed: Zanaflex (tizanidine hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60c27d35-7349-4fc6-86ad-70fffdbe3e08)，版本日期 2026-01-02；查閱日期 2026-11-19）。根據藥理學一般知識，tizanidine 是中樞 α2 腎上腺素促效劑，可能降低三叉神經痛覺傳遞與中樞敏感化，並放鬆顱周肌肉緊張，因此在機轉上可能適用於偏頭痛預防。
 
 本報告所整理的資料未載明香港許可證的核准適應症，因此無法比較原適應症與偏頭痛的關聯。在文獻方面，多篇回顧與一份巴西頭痛學會共識，將 tizanidine 列為慢性偏頭痛或頭痛預防的可考慮選項。
 
@@ -123,6 +123,19 @@ TxGNN 模型預測它可能對**偏頭痛 (migraine disorder)** 有效。
 - 眉部毛囊紅斑
 
 這些預測僅有模型分數，缺乏直接研究支持。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Zanaflex (tizanidine hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60c27d35-7349-4fc6-86ad-70fffdbe3e08) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

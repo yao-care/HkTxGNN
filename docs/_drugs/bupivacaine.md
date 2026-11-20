@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**慢性萎縮性肢端皮膚炎 (acrodermatitis c
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般認為 Bupivacaine 屬醯胺類局部麻醉藥，作用於電壓門控鈉離子通道，但這並非本次整理資料所提供的內容，僅作背景說明。
+根據美國 FDA 核准的 Bupivacaine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「局部麻醉劑阻斷神經衝動的產生與傳導，推測是藉由提高神經電興奮的閾值、減緩神經衝動的傳播，以及降低動作電位的上升速率。一般而言，麻醉的進展與受影響神經纖維的直徑、髓鞘化程度及傳導速度有關。」英文原文："Local anesthetics block the generation and the conduction of nerve impulses presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential. In general, the progression of anesthesia is related to the diameter, myelination, and conduction velocity of affected nerve fibers."（[DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66)，版本日期 2026-11-09；查閱日期 2026-11-19）。一般認為 Bupivacaine 屬醯胺類局部麻醉藥，作用於電壓門控鈉離子通道，但這並非本次整理資料所提供的內容，僅作背景說明。
 
 慢性萎縮性肢端皮膚炎是 Borrelia 感染的晚期皮膚表現，治療核心是抗生素。局部麻醉藥的鈉離子通道阻斷作用對處理潛在感染沒有已知角色。因此，就現有資料而言，**找不到足以支持此預測的機轉連結**。0.9923 的分數只是模型輸出，較可能反映模型對皮膚炎類疾病的相近性，而非臨床證據。
 
@@ -98,6 +98,19 @@ TxGNN 模型預測它可能對**慢性萎縮性肢端皮膚炎 (acrodermatitis c
 - 取得香港衛生署仿單的警語與禁忌症
 - 進行系統性文獻檢索，確認是否有任何針對此疾病的病例報告或前臨床研究
 - 若僅考慮症狀緩解（如局部疼痛），需另行定義臨床目標，且不應視為疾病治療
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

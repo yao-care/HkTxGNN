@@ -58,7 +58,7 @@ Enzalutamide 是雄性素受體（AR）抑制劑，原本用於治療攝護腺�
 
 ## 為什麼這個預測合理？
 
-Enzalutamide 是 AR 抑制劑，作用包括阻斷雄性素與受體結合、抑制受體進入細胞核，以及阻止受體與 DNA 結合。目前缺乏詳細的作用機轉資料庫記載，以上為一般已知的藥理特性。
+Enzalutamide 是 AR 抑制劑，作用包括阻斷雄性素與受體結合、抑制受體進入細胞核，以及阻止受體與 DNA 結合。根據美國 FDA 核准的 Enzalutamide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Enzalutamide 是一種雄激素受體抑制劑，作用於雄激素受體訊息傳遞路徑中的不同步驟。Enzalutamide 已被證實可競爭性抑制雄激素與雄激素受體的結合；並因此抑制雄激素受體的核轉位及其與 DNA 的交互作用。」英文原文："Enzalutamide is an androgen receptor inhibitor that acts on different steps in the androgen receptor signaling pathway. Enzalutamide has been shown to competitively inhibit androgen binding to androgen receptors; and consequently, inhibits nuclear translocation of androgen receptors and their interaction with DNA."（[DailyMed: Xtandi (enzalutamide) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf)，版本日期 2026-07-28；查閱日期 2026-11-19）。
 
 「攝護腺癌／腦癌易感性」是遺傳性癌症易感性的分類，描述的是體質傾向，不是可直接用藥治療的疾病狀態。因此，模型的高分更像是反映疾病分類上的接近，不代表有新的療效訊號。
 
@@ -126,6 +126,19 @@ Enzalutamide 是 AR 抑制劑，作用包括阻斷雄性素與受體結合、抑
 - 針對該族群進行文獻與試驗檢索，確認是否有 enzalutamide 的直接研究。
 - 補齊作用機轉與香港仿單的警語、禁忌症資料，再進行安全性評估。
 - 若要評估真正的新適應症，建議改以有機轉依據的候選疾病重新篩選，例如 AR 依賴性的良性攝護腺間質腫瘤，並先做前臨床驗證。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Xtandi (enzalutamide) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

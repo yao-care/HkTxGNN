@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對**血紅素病變 (hemoglobinopathy)** 有效。
 
 ## 為什麼這個預測合理？
 
-黴酚酸會抑制肌苷單磷酸脫氫酶（IMPDH），耗竭鳥苷核苷酸，進而抑制 T 與 B 淋巴球增殖。目前缺乏 DrugBank 的詳細作用機轉資料，上述機轉來自本次整理的文獻與分析。
+黴酚酸會抑制肌苷單磷酸脫氫酶（IMPDH），耗竭鳥苷核苷酸，進而抑制 T 與 B 淋巴球增殖。根據美國 FDA 核准的 Mycophenolic Acid 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「黴酚酸（MPA）是一種免疫抑制劑，為肌苷單磷酸脫氫酶（IMPDH）的非競爭性及可逆性抑制劑，因此可抑制鳥苷核苷酸合成的從頭合成（de novo）途徑，而不會嵌入 DNA。T 淋巴細胞及 B 淋巴細胞的增殖高度依賴嘌呤的從頭合成，而其他類型的細胞則可利用補救途徑。」英文原文："Mycophenolic acid (MPA), an immunosuppressant, is an uncompetitive and reversible inhibitor of inosine monophosphate dehydrogenase (IMPDH), and therefore inhibits the de novo pathway of guanosine nucleotide synthesis without incorporation to DNA. T- and B-lymphocytes are critically dependent for their proliferation on de novo synthesis of purines, whereas other cell types can utilize salvage pathways."（[DailyMed: Myfortic (mycophenolic acid) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eed26501-890d-4ff6-88e7-6dbea4726e53)，版本日期 2026-07-29；查閱日期 2026-11-19）。
 
 血紅素病變（例如重度地中海型貧血）的主要治療之一是造血幹細胞移植，移植後需要預防移植物抗宿主病（GVHD），而 MMF/黴酚酸是常用的免疫抑制選項之一。此外，免疫機轉也可能與反覆輸血後的同種免疫反應有關。
 
@@ -111,6 +111,19 @@ TxGNN 模型預測它可能對**血紅素病變 (hemoglobinopathy)** 有效。
 - 明確界定研究問題：是否專指地中海型貧血造血幹細胞移植後的 GVHD 預防
 - 收集 MMF/黴酚酸在該族群的對照性臨床研究（療效與安全性）
 - 評估移植族群的感染風險、骨髓抑制與藥物交互作用監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Myfortic (mycophenolic acid) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eed26501-890d-4ff6-88e7-6dbea4726e53) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

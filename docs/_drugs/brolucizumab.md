@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**核 DNA 異常所致的粒線體氧化磷酸化�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Brolucizumab 是抗 VEGF-A 的單鏈抗體片段（scFv），其在新生血管性黃斑部病變中的療效已被證實。
+根據美國 FDA 核准的 Brolucizumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Brolucizumab 是一種人類 VEGF 抑制劑。Brolucizumab 會與 VEGF-A 的三種主要異構體（例如 VEGF 110、VEGF 121 及 VEGF 165 ）結合，從而阻止其與受體 VEGFR-1 及 VEGFR-2 交互作用。藉由抑制 VEGF-A，brolucizumab 可抑制內皮細胞增生、新生血管形成及血管通透性。」英文原文："Brolucizumab is a human VEGF inhibitor. Brolucizumab binds to the three major isoforms of VEGF-A (e.g., VEGF 110, VEGF 121, and VEGF 165 ), thereby preventing interaction with receptors VEGFR-1 and VEGFR-2. By inhibiting VEGF-A, brolucizumab suppresses endothelial cell proliferation, neovascularization, and vascular permeability."（[DailyMed: Beovu (brolucizumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d1dc1fa-a2d3-46ed-9e9a-c1a036590d3d)，版本日期 2026-10-26；查閱日期 2026-11-19）。根據已知資訊，Brolucizumab 是抗 VEGF-A 的單鏈抗體片段（scFv），其在新生血管性黃斑部病變中的療效已被證實。
 
 然而，目前沒有資料顯示 VEGF-A 抑制與核 DNA 異常導致的粒線體氧化磷酸化功能障礙之間存在明確的機轉關聯。若要建立連結，也許可從粒線體疾病併發的視網膜血管問題著手，但這純屬推測。TxGNN 分數雖高，但該分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，不能視為生物學上的證據。
 
@@ -105,6 +105,19 @@ TxGNN 模型預測它可能對**核 DNA 異常所致的粒線體氧化磷酸化�
 - 進行文獻與臨床試驗檢索，確認是否存在任何前臨床或臨床證據
 - 評估給藥途徑的可行性（玻璃體內注射與全身性疾病的落差）
 - 優先評估各預測適應症中生物學合理性較高者，並完整評估出血相關安全風險
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Beovu (brolucizumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d1dc1fa-a2d3-46ed-9e9a-c1a036590d3d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

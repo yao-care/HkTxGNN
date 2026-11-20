@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**慢性C型肝炎病毒感染 (chronic hepatitis 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank 未提供）。依一般藥理知識，Adefovir 是核苷酸類似物，其活性代謝物抑制 B 型肝炎病毒（HBV）的 DNA 聚合酶／逆轉錄酶。
+根據美國 FDA 核准的 Adefovir Dipivoxil 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Adefovir 為一種抗病毒藥物。[…] Adefovir 為單磷酸腺苷的非環狀核苷酸類似物，可經細胞激酶磷酸化為活性代謝物 adefovir diphosphate。Adefovir diphosphate 藉由與天然受質去氧腺苷三磷酸競爭，以及在嵌入病毒 DNA 後造成 DNA 鏈終止，而抑制 HBV DNA 聚合酶（反轉錄酶）。」英文原文："Adefovir is an antiviral drug. […] Adefovir is an acyclic nucleotide analog of adenosine monophosphate which is phosphorylated to the active metabolite adefovir diphosphate by cellular kinases. Adefovir diphosphate inhibits HBV DNA polymerase (reverse transcriptase) by competing with the natural substrate deoxyadenosine triphosphate and by causing DNA chain termination after its incorporation into viral DNA."（[DailyMed: adefovir dipivoxil prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=08e07fae-3191-b6a3-c894-d3a8cc53923f)，版本日期 2025-07-22；查閱日期 2026-11-19）。依一般藥理知識，Adefovir 是核苷酸類似物，其活性代謝物抑制 B 型肝炎病毒（HBV）的 DNA 聚合酶／逆轉錄酶。
 
 C 型肝炎病毒（HCV）是 RNA 病毒，依賴 NS5B RNA 依賴性 RNA 聚合酶複製，與 Adefovir 的作用標的不同，因此機轉上沒有明確的活性依據。
 
@@ -111,6 +111,19 @@ TxGNN 的高分較可能反映模型中與 B 型肝炎在特徵上的相近，�
 - 作用機轉的明確依據，說明為何一個 DNA 聚合酶／逆轉錄酶抑制劑可能影響 HCV
 - 與現有直接作用抗病毒藥物（DAA）的比較，評估臨床上是否有必要
 - 腎功能監測與安全性計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: adefovir dipivoxil prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=08e07fae-3191-b6a3-c894-d3a8cc53923f) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

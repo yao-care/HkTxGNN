@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**免疫性血小板減少症 (thrombocytopenia du
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，benralizumab 是靶向 IL-5 受體 α 的抗體，
+根據美國 FDA 核准的 Benralizumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Benralizumab是一種人源化、去岩藻糖化的單株抗體（IgG1，kappa），可直接與人類介白素-5受體α次單元（IL-5Rα）結合，解離常數為11 pM。IL-5受體表達於嗜酸性球及嗜鹼性球的表面。」英文原文："Benralizumab is a humanized afucosylated, monoclonal antibody (IgG1, kappa) that directly binds to the alpha subunit of the human interleukin-5 receptor (IL-5Rα) with a dissociation constant of 11 pM. The IL-5 receptor is expressed on the surface of eosinophils and basophils."（[DailyMed: Fasenra (benralizumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784)，版本日期 2026-05-13；查閱日期 2026-11-19）。根據已知資訊，benralizumab 是靶向 IL-5 受體 α 的抗體，
 其作用是清除嗜酸性球與嗜鹼性球，主要用於嗜酸性球相關的呼吸道疾病。
 
 免疫性血小板減少症的病理機轉以自體抗體與 T 細胞介導的血小板破壞為主。
@@ -95,6 +95,19 @@ TxGNN 模型預測它可能對**免疫性血小板減少症 (thrombocytopenia du
 - 取得完整的作用機轉資料，並釐清 IL-5 受體阻斷與血小板免疫性破壞之間是否存在生物學關聯
 - 先進行文獻與前臨床證據的系統性搜尋，確認是否有支持性的病例報告或機轉研究
 - 取得香港仿單中的警語與禁忌症，完成安全性初步評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Fasenra (benralizumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

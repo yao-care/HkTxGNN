@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**肝片吸蟲症 (Fascioliasis)** 有效，但目
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知的藥理知識，Penciclovir 是鳥苷（guanosine）核苷類似物，需先被病毒的胸苷激酶（thymidine kinase）磷酸化，再抑制病毒 DNA 聚合酶，因此對疱疹病毒有選擇性。
+根據美國 FDA 核准的 Penciclovir 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Penciclovir 是一種對 α 疱疹病毒具活性的抗病毒藥物。[…] Penciclovir 對第 1 型（HSV-1）及第 2 型（HSV-2）單純疱疹病毒具有抑制活性。於受 HSV-1 或 HSV-2 感染的細胞中，病毒的胸苷激酶會將 penciclovir 磷酸化為單磷酸形式，再由細胞激酶轉化為活性形式 penciclovir 三磷酸。」英文原文："Penciclovir is an antiviral agent active against alpha herpes viruses. […] Penciclovir has inhibitory activity against herpes simplex virus types 1 (HSV-1) and 2 (HSV-2). In cells infected with HSV-1 or HSV-2, the viral thymidine kinase phosphorylates penciclovir to a monophosphate form that, in turn, is converted by cellular kinases to the active form penciclovir triphosphate."（[DailyMed: Denavir (penciclovir) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=61229829-55a0-4d6f-a423-4b48a2b4d8e5)，版本日期 2018-11-26；查閱日期 2026-11-19）。根據已知的藥理知識，Penciclovir 是鳥苷（guanosine）核苷類似物，需先被病毒的胸苷激酶（thymidine kinase）磷酸化，再抑制病毒 DNA 聚合酶，因此對疱疹病毒有選擇性。
 
 肝片吸蟲是一種寄生性吸蟲，沒有類似病毒胸苷激酶的活化途徑，因此 Penciclovir 的作用機轉無法合理延伸到這個疾病。原適應症（病毒感染）與預測新適應症（寄生蟲感染）在生物學上並無明顯關聯，0.9906 的分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
@@ -95,6 +95,19 @@ TxGNN 模型預測它可能對**肝片吸蟲症 (Fascioliasis)** 有效，但目
 - 進行體外（in vitro）試驗，確認是否對目標寄生蟲或腫瘤細胞有任何活性。
 - 取得香港仿單的警語、禁忌與核准適應症資料，供後續安全性評估。
 - 若仍要探索，建議優先考量原適應症（疱疹病毒感染）周邊的相關用途，而非目前這些預測。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Denavir (penciclovir) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=61229829-55a0-4d6f-a423-4b48a2b4d8e5) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

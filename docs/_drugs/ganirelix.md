@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**多毛症 (Hypertrichosis)** 有效，但目前*
 
 ## 為什麼這個預測合理？
 
-Ganirelix 是 GnRH 受體（GNRHR）拮抗劑，會抑制促黃體生成素（LH）與促卵泡激素（FSH）的分泌，間接降低性腺的性荷爾蒙生成。目前缺乏 DrugBank 的詳細作用機轉資料，以上說明來自藥理資料庫的靶點資訊。
+Ganirelix 是 GnRH 受體（GNRHR）拮抗劑，會抑制促黃體生成素（LH）與促卵泡激素（FSH）的分泌，間接降低性腺的性荷爾蒙生成。根據美國 FDA 核准的 Ganirelix 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「GnRH 的脈衝式釋放可刺激黃體生成素（LH）及濾泡刺激素（FSH）的合成與分泌。在濾泡期中期及晚期，LH 脈衝頻率約為每小時1次。[…] Ganirelix acetate 的作用方式為競爭性阻斷腦下垂體促性腺細胞上的 GnRH 受體及其後續訊息傳遞路徑。」英文原文："The pulsatile release of GnRH stimulates the synthesis and secretion of luteinizing hormone (LH) and follicle-stimulating hormone (FSH). The frequency of LH pulses in the mid and late follicular phase is approximately 1 pulse per hour. […] Ganirelix acetate acts by competitively blocking the GnRH receptors on the pituitary gonadotroph and subsequent transduction pathway."（[DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1)，版本日期 2026-10-16；查閱日期 2026-11-19）。
 
 毛髮過多症並非主要由促性腺激素驅動的疾病（與依賴雄性素的多毛症 hirsutism 不同），因此機轉上的連結薄弱且屬推測。如此高的預測分數（0.9998）來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據，也無臨床或文獻佐證。
 
@@ -120,6 +120,19 @@ Ganirelix 是 GnRH 受體（GNRHR）拮抗劑，會抑制促黃體生成素（LH
 - 補充詳細的作用機轉資料
 - 針對多毛症或中樞性性早熟進行系統性文獻檢索，確認是否有直接研究
 - 若選擇中樞性性早熟方向，需評估短效劑型的可行性與兒童使用安全性
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

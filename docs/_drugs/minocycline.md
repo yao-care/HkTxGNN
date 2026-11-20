@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Minocycline 屬於四環素類抗生素，其在細菌感染中的療效已被證實。
+根據美國 FDA 核准的 Minocycline 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「ARESTIN 作為洗牙及牙根整平術之輔助治療，用於減少成人牙周炎患者牙周囊袋深度的作用機轉尚不明確。」英文原文："The mechanism of action of ARESTIN as an adjunct to scaling and root planing procedures for reduction of pocket depth in patients with adult periodontitis is unknown."（[DailyMed: Arestin (minocycline hydrochloride) prescribing information, OraPharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8515df41-1936-4f3b-86ba-d2bb2a8441fb)，版本日期 2024-05-31；查閱日期 2026-11-19）。Minocycline 屬於四環素類抗生素，其在細菌感染中的療效已被證實。
 
 依一般藥理背景知識（並非來自本次彙整的資料，也未經驗證），minocycline 具有抗發炎與抑制基質金屬蛋白酶（MMP）的特性，同類藥物如 doxycycline 也用於瞼板腺功能異常與眼瞼炎等眼表疾病。這些特性在機轉上可能與眼表發炎有關。
 
@@ -103,6 +103,19 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 - 系統性檢索眼表疾病（點狀上皮角膜結膜炎）相關的臨床與前臨床文獻
 - 評估給藥途徑的可行性（目前香港僅有口服膠囊，眼科用途所需劑型尚未確認）
 - 確認路徑相容性與新適應症的安全性風險（如眼部局部給藥 vs. 全身給藥）
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Arestin (minocycline hydrochloride) prescribing information, OraPharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8515df41-1936-4f3b-86ba-d2bb2a8441fb) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

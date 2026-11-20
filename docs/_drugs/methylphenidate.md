@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**顏面指趾生殖器症候群 (Faciodigitogenit
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般已知 methylphenidate 為多巴胺與正腎上腺素再回收轉運體抑制劑，可改善注意力調節異常，這也是其用於 ADHD 的基礎。
+根據美國 FDA 核准的 Methylphenidate 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Methylphenidate hydrochloride 是一種中樞神經系統（CNS）興奮劑。METADATE CD 治療 6 歲及以上兒童患者 ADHD 的治療作用模式尚不明確。Methylphenidate 阻斷 norepinephrine 及多巴胺再回收至突觸前神經元，並增加這些單胺釋放至神經元外間隙。」英文原文："Methylphenidate hydrochloride is a central nervous system (CNS) stimulant. The mode of therapeutic action of METADATE CD in the treatment of ADHD in pediatric patients 6 years of age and older is not known. Methylphenidate blocks the reuptake of norepinephrine and dopamine into the presynaptic neuron and increases the release of these monoamines into the extraneuronal space."（[DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4)，版本日期 2026-10-21；查閱日期 2026-11-19）。一般已知 methylphenidate 為多巴胺與正腎上腺素再回收轉運體抑制劑，可改善注意力調節異常，這也是其用於 ADHD 的基礎。
 
 顏面指趾生殖器症候群（Aarskog-Scott 症候群）是由 FGD1 突變引起的 X 染色體連鎖發育疾病，特徵為骨骼與生殖器異常。部分患者伴有類似 ADHD 的行為特徵，因此 methylphenidate 理論上可能改善這類行為症狀。
 
@@ -129,11 +129,12 @@ TxGNN 模型預測它可能對**顏面指趾生殖器症候群 (Faciodigitogenit
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「共 20 張有效許可證（皆為單方，無已註銷）。」→「香港共有 29 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4) |
 
 <!-- review:end log -->
 

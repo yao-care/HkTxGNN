@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**蠅蛆症 (Myiasis)** 有效，但目前**沒有
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。一般已知 Griseofulvin 是抗黴菌藥物，會結合微管蛋白 (tubulin)，干擾黴菌的微管功能與有絲分裂。
+根據美國 FDA 核准的 Griseofulvin 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Griseofulvin 的作用機轉為與有絲分裂所需的微管蛋白結合。[…] Griseofulvin 的作用機轉為與有絲分裂所需的微管蛋白結合。體內活性 如「適應症與用法」章節所述，griseofulvin 可能對下列皮癬菌的大多數菌株具有活性：Epidermophyton floccosum、Microsporum audouinii、Microsporum canis、Microsporum gypseum、Trichophyton crateriformis、Trichophyton gallinae、Trichophyton interdigitalis、Trichophyton megnini、Trichophyton mentagrophytes、Trichophyton rubrum、Trichophyton sulphureum、Trichophyton schoenleini、Trichophyton tonsurans 及 Trichophyton verrucosum。」英文原文："The mechanism of griseofulvin consists of binding microtubular proteins, which are required for mitosis. […] The mechanism of griseofulvin consists of binding microtubular proteins, which are required for mitosis. Activity In Vivo Griseofulvin may be active against most strains of the following dermatophytes as described in the INDICATIONS AND USAGE section: Epidermophyton floccosum, Microsporum audouinii, Microsporum canis, Microsporum gypseum, Trichophyton crateriformis, Trichophyton gallinae, Trichophyton interdigitalis, Trichophyton megnini, Trichophyton mentagrophytes, Trichophyton rubrum, Trichophyton sulphureum, Trichophyton schoenleini, Trichophyton tonsurans and Trichophyton verrucosum."（[DailyMed: griseofulvin prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98829d90-b289-4bec-a625-7af412a5cb2d)，版本日期 2025-05-14；查閱日期 2026-11-19）。一般已知 Griseofulvin 是抗黴菌藥物，會結合微管蛋白 (tubulin)，干擾黴菌的微管功能與有絲分裂。
 
 蠅蛆症是雙翅目蒼蠅幼蟲造成的寄生蟲感染，與皮膚癬菌病的病原體完全不同。目前**沒有已知的機轉依據**，可說明靠微管蛋白為標的的作用能在臨床可達劑量下影響幼蟲發育。0.9941 的高分僅是 TxGNN 模型（深度學習）的預測分數，可能反映模型從相關疾病之間學到的相似性，並非生物學證據。
 
@@ -132,6 +132,19 @@ TxGNN 模型預測它可能對**蠅蛆症 (Myiasis)** 有效，但目前**沒有
 - 取得香港仿單的警語與禁忌資料，完成安全性篩選
 - 若仍想探索，應先做體外試驗（如對幼蟲或棘球絨蟲原頭節的活性測試），再考慮後續研究
 - 確認給藥途徑的相容性（目前尚待評估）
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: griseofulvin prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98829d90-b289-4bec-a625-7af412a5cb2d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

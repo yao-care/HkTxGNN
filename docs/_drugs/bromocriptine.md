@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**伴有岩藻糖基化缺陷的先天性糖基化
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 bromocriptine 屬於多巴胺 D2 受體促效劑，作用於多巴胺相關的神經與內分泌調控路徑。
+根據美國 FDA 核准的 Bromocriptine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「CYCLOSET 含有 bromocriptine mesylate，一種交感神經阻斷性多巴胺 D2 受體促效劑。在第 2 型糖尿病患者中，於早晨定時投予 CYCLOSET 與胰島素敏感性及葡萄糖處置增加，以及全天各餐期間空腹及餐後高血糖降低相關，且不會升高血漿胰島素濃度。」英文原文："CYCLOSET contains bromocriptine mesylate, a sympatholytic, dopamine D2 receptor agonist. In patients with type 2 diabetes, timed morning administration of CYCLOSET is associated with increased insulin sensitivity and glucose disposal and reduced fasting and postprandial hyperglycemia throughout the meals of the day without raising plasma insulin levels."（[DailyMed: Cycloset (bromocriptine mesylate) prescribing information, Avvisto Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e42ba916-16b9-4d1c-8d09-9d2fbb1b6c20)，版本日期 2026-01-12；查閱日期 2026-11-19）。已知 bromocriptine 屬於多巴胺 D2 受體促效劑，作用於多巴胺相關的神經與內分泌調控路徑。
 
 岩藻糖基化缺陷屬於罕見的先天性糖基化代謝異常，其病理核心在於醣類修飾途徑。目前沒有找到多巴胺 D2 促效作用與岩藻糖基化途徑之間的機轉關聯。
 
@@ -100,6 +100,19 @@ TxGNN 模型預測它可能對**伴有岩藻糖基化缺陷的先天性糖基化
 - 進行基礎或前臨床研究，驗證此疾病模型中的任何生物學效應
 - 取得香港原廠仿單的警語與禁忌症，完成安全性評估
 - 若有前臨床訊號，再評估罕見疾病族群的試驗可行性
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cycloset (bromocriptine mesylate) prescribing information, Avvisto Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e42ba916-16b9-4d1c-8d09-9d2fbb1b6c20) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

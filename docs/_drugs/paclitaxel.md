@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**副腦膜胚胎型橫紋肌肉瘤 (Parameningeal
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據一般藥理知識（非本報告所彙整資料所證實），paclitaxel 是微管穩定型的紫杉烷類藥物，會使細胞停滯於 G2/M 期並誘發細胞凋亡，對快速增殖的腫瘤細胞具有作用。
+根據美國 FDA 核准的 Paclitaxel 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Paclitaxel 蛋白結合微粒注射用懸浮劑（白蛋白結合型）是一種微管抑制劑，可促進微管蛋白二聚體組裝成微管，並透過防止解聚合作用而使微管穩定。此穩定作用導致微管網絡正常的動態重組受到抑制，而此動態重組對細胞的重要間期及有絲分裂功能不可或缺。」英文原文："Paclitaxel protein-bound particles for injectable suspension (albumin-bound) is a microtubule inhibitor that promotes the assembly of microtubules from tubulin dimers and stabilizes microtubules by preventing depolymerization. This stability results in the inhibition of the normal dynamic reorganization of the microtubule network that is essential for vital interphase and mitotic cellular functions."（[DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c)，版本日期 2025-09-17；查閱日期 2026-11-19）。根據一般藥理知識（非本報告所彙整資料所證實），paclitaxel 是微管穩定型的紫杉烷類藥物，會使細胞停滯於 G2/M 期並誘發細胞凋亡，對快速增殖的腫瘤細胞具有作用。
 
 橫紋肌肉瘤是增殖活躍的兒童軟組織肉瘤，從機轉上看，微管穩定劑有可能影響這類腫瘤。不過，這只是依一般藥理所做的推論，並非來自本報告資料的證據。
 
@@ -135,6 +135,19 @@ Paclitaxel 屬於抗腫瘤藥物。
 - 取得香港衛生署核准的仿單（警語、禁忌症、核准適應症）
 - 補充 paclitaxel 的作用機轉資料（如 DrugBank）
 - 評估兒童族群的劑量與安全性，並與現行橫紋肌肉瘤標準化療方案比較
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

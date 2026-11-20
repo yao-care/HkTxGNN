@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**血栓性疾病 (thrombotic disease)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（DrugBank 未提供）。不過依據已整理的研究資料，Acetylcysteine 是一種硫醇化合物，可還原超大型 von Willebrand 因子 (VWF) 多聚體中的雙硫鍵，降低 VWF 與血小板的結合，進而減少微血栓形成。這一點獲得小鼠與狒狒 TTP 模型的前臨床研究支持。
+根據美國 FDA 核准的 Acetylcysteine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Acetylcysteine 已證實可減輕 acetaminophen 過量後肝損傷的程度。Acetaminophen 劑量達 150 mg/kg 或以上與肝毒性有關。Acetylcysteine 保護肝臟的方式，可能是維持或恢復穀胱甘肽濃度，或作為替代受質與 acetaminophen 的反應性代謝物結合，從而使該代謝物解毒。」英文原文："Acetylcysteine has been shown to reduce the extent of liver injury following acetaminophen overdose. Acetaminophen doses of 150 mg/kg or greater have been associated with hepatotoxicity. Acetylcysteine probably protects the liver by maintaining or restoring the glutathione levels, or by acting as an alternate substrate for conjugation with, and thus detoxification of, the reactive metabolite of acetaminophen."（[DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39)，版本日期 2025-04-30；查閱日期 2026-11-19）。不過依據已整理的研究資料，Acetylcysteine 是一種硫醇化合物，可還原超大型 von Willebrand 因子 (VWF) 多聚體中的雙硫鍵，降低 VWF 與血小板的結合，進而減少微血栓形成。這一點獲得小鼠與狒狒 TTP 模型的前臨床研究支持。
 
 此外，它具有抗氧化作用，可能減輕移植相關血栓性微血管病變 (TA-TMA) 中的內皮細胞損傷。
 
@@ -129,11 +129,12 @@ TxGNN 模型預測它可能對**血栓性疾病 (thrombotic disease)** 有效，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有至少 20 張有效許可證（資料可能不完整），均為單一成分製劑。」→「香港共有 38 張含本藥成分的許可證（有效 36 張、已註銷」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**膽固醇酯轉運蛋白缺乏症 (Cholesterol-e
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就一般藥理知識而言，Lovastatin 屬於 HMG-CoA 還原酶抑制劑，可降低肝臟膽固醇合成與 LDL 膽固醇。
+根據美國 FDA 核准的 Lovastatin 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Lovastatin 降低 LDL 作用的機轉可能同時涉及降低 VLDL-C 濃度及誘導 LDL 受體，從而導致 LDL-C 生成減少及／或分解代謝增加。在 lovastatin 治療期間，載脂蛋白 B 亦會下降。Lovastatin 是 HMG-CoA 還原酶的專一性抑制劑，該酶催化 HMG-CoA 轉化為 mevalonate。」英文原文："The mechanism of the LDL-lowering effect of lovastatin may involve both reduction of VLDL-C concentration, and induction of the LDL receptor, leading to reduced production and/or increased catabolism of LDL-C. Apolipoprotein B also falls during treatment with lovastatin. Lovastatin is a specific inhibitor of HMG-CoA reductase, the enzyme which catalyzes the conversion of HMG-CoA to mevalonate."（[DailyMed: lovastatin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac86821f-d741-4ab1-bd03-ce8797dd4f34)，版本日期 2026-11-13；查閱日期 2026-11-19）。就一般藥理知識而言，Lovastatin 屬於 HMG-CoA 還原酶抑制劑，可降低肝臟膽固醇合成與 LDL 膽固醇。
 
 膽固醇酯轉運蛋白（CETP）缺乏症是一種脂質代謝異常，特徵為 HDL 膽固醇偏高，以及脂蛋白間膽固醇酯轉運受損。兩者同屬脂質代謝路徑，這很可能是模型給出極高分數（0.9942）的原因。
 
@@ -102,6 +102,19 @@ TxGNN 模型預測它可能對**膽固醇酯轉運蛋白缺乏症 (Cholesterol-e
 - 確認 CETP 缺乏症是否有明確的臨床治療需求與可評估的療效指標
 - 取得香港仿單的警語、禁忌與核准適應症資訊
 - 搜尋是否有直接探討 statin 於 CETP 缺乏症患者的研究
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: lovastatin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac86821f-d741-4ab1-bd03-ce8797dd4f34) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

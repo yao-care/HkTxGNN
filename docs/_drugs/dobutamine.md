@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**禿髮 (Alopecia)** 有效，但目前**沒有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Dobutamine 屬於 β1 腎上腺素受體促效劑類的強心藥（inotrope），靜脈輸注給藥，用於需要心肌收縮支持的情況。
+根據美國 FDA 核准的 Dobutamine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Dobutamine hydrochloride 是一種直接作用的正性肌力藥，其主要活性源於刺激心臟的 β 受體，同時產生相對輕微的變時性、升壓、致心律不整及血管擴張作用。它不像 dopamine 那樣會引起內源性 norepinephrine 的釋放。」英文原文："Dobutamine hydrochloride is a direct-acting inotropic agent whose primary activity results from stimulation of the beta-receptors of the heart while producing comparatively mild chronotropic, hypertensive, arrhythmogenic, and vasodilative effects. It does not cause the release of endogenous norepinephrine, as does dopamine."（[DailyMed: Dobutamine Hydrochloride In Dextrose (dobutamine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b17b98b-e06d-42ed-925f-69aa2699dead)，版本日期 2023-09-08；查閱日期 2026-11-19）。Dobutamine 屬於 β1 腎上腺素受體促效劑類的強心藥（inotrope），靜脈輸注給藥，用於需要心肌收縮支持的情況。
 
 **這個預測的機轉合理性很低。** Dobutamine 的 β 腎上腺素作用在毛囊週期調控中沒有已知角色。高分來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而不是生物學證據，也不是來自 dobutamine 本身的藥理。
 
@@ -121,6 +121,19 @@ TxGNN 模型預測它可能對**禿髮 (Alopecia)** 有效，但目前**沒有�
 - 先做前臨床（如毛囊模型）研究，確認是否有任何生物學訊號
 - 評估局部給藥等替代途徑的可行性
 - 建議將資源轉向機轉與證據更完整的候選藥物
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Dobutamine Hydrochloride In Dextrose (dobutamine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b17b98b-e06d-42ed-925f-69aa2699dead) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

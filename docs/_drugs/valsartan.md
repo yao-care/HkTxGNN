@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (malignant hypertensive
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Valsartan 屬於 AT1 受體阻斷劑（ARB）類別，可阻斷腎素-血管張力素系統對血管收縮的作用，用於高血壓治療。
+根據美國 FDA 核准的 Valsartan 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「血管收縮素 II 是由血管收縮素 I 在血管收縮素轉化酶（ACE，激肽酶 II）催化的反應中形成。血管收縮素 II 是腎素-血管收縮素系統的主要升壓物質，其作用包括血管收縮、刺激醛固酮的合成與釋放、心臟刺激，以及腎臟對鈉的再吸收。[…] Diovan（valsartan）藉由選擇性阻斷血管收縮素 II 與許多組織（例如血管平滑肌及腎上腺）中 AT 1 受體的結合，阻斷血管收縮素 II 的血管收縮及醛固酮分泌作用。」英文原文："Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the renin-angiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Diovan (valsartan) blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland."（[DailyMed: Diovan (valsartan) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ddba454-f3e6-43c2-a7a6-58365d297213)，版本日期 2026-08-11；查閱日期 2026-11-19）。根據已知資訊，Valsartan 屬於 AT1 受體阻斷劑（ARB）類別，可阻斷腎素-血管張力素系統對血管收縮的作用，用於高血壓治療。
 
 惡性高血壓腎病變是嚴重高血壓造成的腎臟損傷，和原本的高血壓適應症在病理上相連。在機轉上，阻斷 AT1 受體可降低血壓，並可能減輕腎臟的血管與纖維化損傷，因此模型預測具有生物學上的合理性。
 
@@ -131,11 +131,12 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (malignant hypertensive
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「以下為本次整理到的許可證（共列出 5 張，總數至少 20 張，清單可能不完整）。」→「以下為本次整理到的許可證（共 78 張含本藥成分的許可證，全」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Diovan (valsartan) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ddba454-f3e6-43c2-a7a6-58365d297213) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**兒童難治性血球減少症 (Refractory Cytop
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（原始 MOA 欄位未提供）。根據藥理學既有知識，Decitabine 是一種去甲基化核苷類似物，可抑制 DNA 甲基轉移酶，已用於骨髓性惡性腫瘤，包括 AML 與骨髓增生異常症候群（MDS）。以下機轉推論來自一般藥理知識，而非所提供的資料。
+根據美國 FDA 核准的 Decitabine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「一般認為 decitabine 經磷酸化並直接嵌入 DNA，以及抑制 DNA 甲基轉移酶後發揮其抗腫瘤作用，造成 DNA 低甲基化及細胞分化或細胞凋亡。Decitabine 於體外可抑制 DNA 甲基化，且在不會造成 DNA 合成重大抑制的濃度下即可達成。」英文原文："Decitabine is believed to exert its antineoplastic effects after phosphorylation and direct incorporation into DNA and inhibition of DNA methyltransferase, causing hypomethylation of DNA and cellular differentiation or apoptosis. Decitabine inhibits DNA methylation in vitro, which is achieved at concentrations that do not cause major suppression of DNA synthesis."（[DailyMed: decitabine prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5975fa81-1e29-4d56-e063-6394a90a9cd5)，版本日期 2026-11-03；查閱日期 2026-11-19）。根據藥理學既有知識，Decitabine 是一種去甲基化核苷類似物，可抑制 DNA 甲基轉移酶，已用於骨髓性惡性腫瘤，包括 AML 與骨髓增生異常症候群（MDS）。以下機轉推論來自一般藥理知識，而非所提供的資料。
 
 RCC 是兒童 MDS 最常見的亞型。AML 與 MDS 都涉及異常 DNA 甲基化與骨髓系殖株功能失調，因此機轉上有合理關聯。
 
@@ -115,6 +115,19 @@ RCC 是兒童 MDS 最常見的亞型。AML 與 MDS 都涉及異常 DNA 甲基化
 - 系統性回顧兒童 MDS/RCC 使用 Decitabine 的研究
 - 評估兒童族群的劑量、骨髓抑制與感染風險
 - 規劃前瞻性臨床研究，或先與血液專科討論個案使用
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: decitabine prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5975fa81-1e29-4d56-e063-6394a90a9cd5) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

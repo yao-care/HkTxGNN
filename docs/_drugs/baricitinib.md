@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**脈絡膜缺損性小眼症-肢根型發育不�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 baricitinib 屬於 JAK1/JAK2 抑制劑，透過干擾 JAK-STAT 訊號傳導發揮免疫調節作用。
+根據美國 FDA 核准的 Baricitinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Baricitinib 是一種 Janus 激酶（JAK）抑制劑。JAK 是細胞內酵素，負責傳遞細胞膜上細胞激素或生長因子與受體交互作用所產生的訊號，以影響造血及免疫細胞功能的細胞過程。」英文原文："Baricitinib is a Janus kinase (JAK) inhibitor. JAKs are intracellular enzymes which transmit signals arising from cytokine or growth factor-receptor interactions on the cellular membrane to influence cellular processes of hematopoiesis and immune cell function."（[DailyMed: Olumiant (baricitinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=866e9f35-9035-4581-a4b1-75a621ab55cf)，版本日期 2026-10-09；查閱日期 2026-11-19）。已知 baricitinib 屬於 JAK1/JAK2 抑制劑，透過干擾 JAK-STAT 訊號傳導發揮免疫調節作用。
 
 然而，根據本報告所整理的資料，無法建立 JAK-STAT 訊號與這個罕見發育症候群（眼部缺損、小眼症、肢根型骨骼發育不良）之間的生物學關聯。先天性發育異常通常源自胚胎發育期的結構形成缺陷，一般不預期會對免疫調節型 JAK 抑制有反應。
 
@@ -98,6 +98,19 @@ TxGNN 模型預測它可能對**脈絡膜缺損性小眼症-肢根型發育不�
 - 前臨床研究（如細胞或動物模型）驗證生物學合理性
 - 原廠仿單的警語與禁忌症，以進行安全性評估
 - 針對發育性疾病族群（含孕期致畸風險）的安全性評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Olumiant (baricitinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=866e9f35-9035-4581-a4b1-75a621ab55cf) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**腎因性抗利尿不適當症候群 (nephrogeni
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Aprepitant 屬於 NK1（Substance P）受體拮抗劑。NK1／Substance P 訊號與中樞神經系統的血管加壓素調節及水分平衡可能有關，因此在理論上存在連結。
+根據美國 FDA 核准的 Aprepitant 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Aprepitant 為人類 P 物質/神經激肽 1（NK 1 ）受體的選擇性高親和力拮抗劑。Aprepitant 對血清素（5-HT 3 ）、多巴胺及皮質類固醇受體的親和力極低或無親和力。動物模式顯示，aprepitant 可經由中樞作用，抑制細胞毒性化療藥物（如 cisplatin）所引起的嘔吐。」英文原文："Aprepitant is a selective high-affinity antagonist of human substance P/neurokinin 1 (NK 1 ) receptors. Aprepitant has little or no affinity for serotonin (5-HT 3 ), dopamine, and corticosteroid receptors. Aprepitant has been shown in animal models to inhibit emesis induced by cytotoxic chemotherapeutic agents, such as cisplatin, via central actions."（[DailyMed: Cinvanti (aprepitant) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4)，版本日期 2026-04-01；查閱日期 2026-11-19）。已知 Aprepitant 屬於 NK1（Substance P）受體拮抗劑。NK1／Substance P 訊號與中樞神經系統的血管加壓素調節及水分平衡可能有關，因此在理論上存在連結。
 
 不過，腎因性 SIADH 的成因是腎臟 V2 受體（AVPR2）功能獲得性突變，作用點在血管加壓素釋放的下游。中樞 NK1 拮抗不太可能矯正受體層級的缺陷，所以機轉上的合理性有限。高分預測目前只是模型輸出，沒有實證支持。
 
@@ -117,6 +117,19 @@ TxGNN 模型預測它可能對**腎因性抗利尿不適當症候群 (nephrogeni
 - 進行前臨床或機轉研究，驗證 NK1 拮抗對水分平衡的作用
 - 補齊香港仿單的核准適應症、警語與禁忌症
 - 若後續出現其他支持證據，再重新評估排名較前的其他預測適應症
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cinvanti (aprepitant) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

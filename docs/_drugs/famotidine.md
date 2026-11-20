@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**十二指腸阻塞 (duodenal obstruction)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Famotidine 屬於 H2 受體拮抗劑，一般認為可抑制胃酸分泌。
+根據美國 FDA 核准的 Famotidine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Famotidine是組織胺-2（H2）受體的競爭性抑制劑。Famotidine主要的臨床重要藥理活性為抑制胃液分泌。Famotidine可同時抑制胃液分泌的酸濃度及分泌量，而胃蛋白酶分泌的變化則與分泌量成正比。」英文原文："Famotidine is a competitive inhibitor of histamine-2 (H2) receptors. The primary clinically important pharmacologic activity of famotidine is inhibition of gastric secretion. Both the acid concentration and volume of gastric secretion are suppressed by famotidine, while changes in pepsin secretion are proportional to volume output."（[DailyMed: Pepcid (famotidine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a06502d9-7903-4f37-833e-e5763d502def)，版本日期 2024-06-01；查閱日期 2026-11-19）。Famotidine 屬於 H2 受體拮抗劑，一般認為可抑制胃酸分泌。
 
 十二指腸阻塞有時與消化性潰瘍相關，抑制胃酸或許能緩解潰瘍相關症狀。但對固定的機械性阻塞（如狹窄、腫瘤、克隆氏症造成的narrowing），抑酸藥無法解除阻塞本身。
 
@@ -119,11 +119,12 @@ TxGNN 的高分（0.9999）較可能來自此疾病在知識網絡中與十二�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「下表僅列出 5 張許可證，清單可能不完整。」→「下表僅列出 5 張許可證，香港共有 79 張含本藥成分的許可」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Pepcid (famotidine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a06502d9-7903-4f37-833e-e5763d502def) |
 
 <!-- review:end log -->
 

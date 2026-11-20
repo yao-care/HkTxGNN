@@ -65,7 +65,7 @@ TxGNN 模型預測它可能對**甲狀腺素受體 β 突變引起的甲狀腺�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫未收錄）。根據已知藥理，PTU 抑制甲狀腺過氧化酶 (thyroid peroxidase)，減少甲狀腺素合成，高劑量時也抑制周邊 T4 轉換為 T3。
+根據美國 FDA 核准的 Propylthiouracil 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「丙硫氧嘧啶（Propylthiouracil）抑制甲狀腺激素的合成，因此可有效治療甲狀腺功能亢進症。本藥不會使已儲存於甲狀腺內或在血液中循環的甲狀腺素及三碘甲狀腺原氨酸失去活性，亦不會干擾口服或注射給予之甲狀腺激素的療效。」英文原文："Propylthiouracil inhibits the synthesis of thyroid hormones and thus is effective in the treatment of hyperthyroidism. The drug does not inactivate existing thyroxine and triiodothyronine that are stored in the thyroid or circulating in the blood, nor does it interfere with the effectiveness of thyroid hormones given by mouth or by injection."（[DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa)，版本日期 2026-08-27；查閱日期 2026-11-19）。根據已知藥理，PTU 抑制甲狀腺過氧化酶 (thyroid peroxidase)，減少甲狀腺素合成，高劑量時也抑制周邊 T4 轉換為 T3。
 
 甲狀腺素抗性症候群 (RTHβ) 的特徵是組織對甲狀腺素反應不良，血中 T4/T3 升高、TSH 卻無法被抑制。理論上，降低甲狀腺素合成可減少 TSH 驅動的甲狀腺刺激。但這同時有明顯風險：已經抗性的組織可能出現甲狀腺機能低下，TSH 進一步上升還會加重甲狀腺腫。因此一般臨床上**避免**對 RTHβ 使用抗甲狀腺藥物。
 
@@ -130,6 +130,19 @@ TxGNN 模型預測它可能對**甲狀腺素受體 β 突變引起的甲狀腺�
 - 若仍要探索，需先有前臨床或小規模臨床研究，並設計肝功能與血球監測
 
 **補充：**新生兒甲狀腺毒症（排名 2）機轉上較合理，可列為後續研究問題。但文獻多為孕期母體治療的指引與回顧，並非直接對新生兒使用 PTU。高甲狀腺素血症（排名 3）是一種實驗室發現，成因不一，不適合給單一建議。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

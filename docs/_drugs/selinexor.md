@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**藥物誘發性骨質疏鬆症 (Drug-induced Ost
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Selinexor 一般已知為 XPO1 核輸出抑制劑，但本次整理的資料並未收錄其作用機轉，也未載明原適應症，因此無法由現有資料驗證其機轉與新適應症之間的關聯。
+根據美國 FDA 核准的 Selinexor 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「在非臨床研究中，selinexor可透過阻斷輸出蛋白1（XPO1），可逆性地抑制腫瘤抑制蛋白（TSP）、生長調節因子及致癌蛋白mRNA的核輸出。Selinexor抑制XPO1會導致TSP於細胞核內累積、數種致癌蛋白（如c-myc及cyclin D1）減少、細胞週期停滯，以及癌細胞凋亡。」英文原文："In nonclinical studies, selinexor reversibly inhibits nuclear export of tumor suppressor proteins (TSPs), growth regulators, and mRNAs of oncogenic proteins by blocking exportin 1 (XPO1). XPO1 inhibition by selinexor leads to accumulation of TSPs in the nucleus and reductions in several oncoproteins, such as c-myc and cyclin D1, cell cycle arrest, and apoptosis of cancer cells."（[DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8)，版本日期 2026-05-12；查閱日期 2026-11-19）。Selinexor 一般已知為 XPO1 核輸出抑制劑，但本次整理的資料並未收錄其作用機轉，也未載明原適應症，因此無法由現有資料驗證其機轉與新適應症之間的關聯。
 
 一個可能但**尚未驗證**的假說是：XPO1 抑制可能影響與骨重塑相關的訊號路徑（例如破骨細胞與造骨細胞的調控）。不過，現有資料中沒有任何證據支持此假說，0.9922 的預測分數只代表計算模型的推論，並非臨床驗證。
 
@@ -116,6 +116,19 @@ TxGNN 模型預測它可能對**藥物誘發性骨質疏鬆症 (Drug-induced Ost
 - 補充 selinexor 的作用機轉資料（如自 DrugBank 取得）。
 - 檢索 XPO1 抑制與骨代謝（破骨／造骨細胞）相關的前臨床研究，驗證機轉假說。
 - 評估在非腫瘤、長期使用情境下的獲益與風險，包括血球低下、低血鈉等不良反應及多重藥物交互作用。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對 **Rasmussen 亞急性腦炎 (Rasmussen subacute e
 
 ## 為什麼這個預測合理？
 
-目前缺乏本報告所編纂資料中的詳細作用機轉。根據一般藥理知識，safinamide 是可逆性 MAO-B 抑制劑，同時可阻斷電壓門控鈉離子通道並抑制麩胺酸釋放。這些特性理論上可能與 Rasmussen 腦炎的癲癇發作及興奮性毒性神經損傷有關。
+根據美國 FDA 核准的 Safinamide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「XADAGO在PD中發揮治療作用的確切機轉尚不明確。XADAGO是一種B型單胺氧化酶（MAO-B）抑制劑。一般認為，抑制MAO-B活性可阻斷多巴胺的分解代謝，從而使腦內多巴胺濃度增加，並進而增加多巴胺能活性。」英文原文："The precise mechanism by which XADAGO exerts its therapeutic effects in PD is unknown. XADAGO is an inhibitor of monoamine oxidase B (MAO-B). Inhibition of MAO-B activity, by blocking the catabolism of dopamine, is thought to result in an increase in dopamine levels and a subsequent increase in dopaminergic activity in the brain."（[DailyMed: Xadago (safinamide mesylate) prescribing information, MDD US Operations LLC, a subsidiary of Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4d65f28-983f-42b4-bb23-023ae0fe81b2)，版本日期 2026-10-05；查閱日期 2026-11-19）。根據一般藥理知識，safinamide 是可逆性 MAO-B 抑制劑，同時可阻斷電壓門控鈉離子通道並抑制麩胺酸釋放。這些特性理論上可能與 Rasmussen 腦炎的癲癇發作及興奮性毒性神經損傷有關。
 
 然而，Rasmussen 腦炎主要由 T 細胞介導的自體免疫發炎所驅動，safinamide 並不針對這一病理機制。因此，這項連結屬於根據一般藥理推論，並非來自實際研究資料，說服力有限。
 
@@ -118,6 +118,19 @@ TxGNN 模型預測它可能對 **Rasmussen 亞急性腦炎 (Rasmussen subacute e
 - 取得香港仿單的警語與禁忌症資料，完成安全性篩選
 - 進行文獻與試驗的系統性檢索，並考慮前臨床（如癲癇、興奮性毒性模型）驗證
 - 若優先考慮生物學合理性，可評估將 PLA2G6 相關神經退化症（帕金森症狀）作為替代首選候選
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Xadago (safinamide mesylate) prescribing information, MDD US Operations LLC, a subsidiary of Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4d65f28-983f-42b4-bb23-023ae0fe81b2) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

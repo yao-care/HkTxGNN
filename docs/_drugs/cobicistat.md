@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired 
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，cobicistat 是一種 CYP3A 抑制劑，用來提高合併使用之抗逆轉錄病毒藥物的血中濃度，本身沒有直接的抗病毒活性。
+根據美國 FDA 核准的 Cobicistat 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Cobicistat是細胞色素P450 3A（CYP3A）的機轉型抑制劑。Cobicistat抑制CYP3A介導的代謝，可增加CYP3A受質atazanavir及darunavir的全身暴露量。」英文原文："Cobicistat is a mechanism-based inhibitor of cytochrome P450 3A (CYP3A). Inhibition of CYP3A-mediated metabolism by cobicistat increases the systemic exposure of CYP3A substrates atazanavir and darunavir."（[DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010)，版本日期 2026-02-10；查閱日期 2026-11-19）。根據已知資訊，cobicistat 是一種 CYP3A 抑制劑，用來提高合併使用之抗逆轉錄病毒藥物的血中濃度，本身沒有直接的抗病毒活性。
 
 貓免疫缺乏病毒（FIV）與 HIV 同屬慢病毒，因此這個高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。但這屬於獸醫領域的適應症，且任何效益都必須依賴搭配有活性的抗病毒藥物，單獨使用 cobicistat 的合理性不足。
 
@@ -103,6 +103,19 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired 
 - 取得香港仿單的警語、禁忌與核准適應症
 - 針對 FIV 的前臨床或動物研究證據（若確有獸醫開發意圖）
 - 釐清此預測是否有任何人類臨床價值，否則不建議投入資源
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

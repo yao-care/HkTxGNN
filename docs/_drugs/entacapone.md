@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對 **PLA2G6 相關神經退化症 (PLA2G6-associated
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Entacapone 屬於 COMT（兒茶酚-O-甲基轉移酶）抑制劑，臨床上用來延長 levodopa 的作用時間，其在帕金森氏症的角色已相當確立。
+根據美國 FDA 核准的 Entacapone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Entacapone是一種選擇性且可逆的COMT抑制劑。在哺乳動物中，COMT分布於各器官，其中以肝臟及腎臟的活性最高。COMT亦存在於心臟、肺、平滑肌及骨骼肌、腸道、生殖器官、各種腺體、脂肪組織、皮膚、血球及神經組織中，尤其是神經膠細胞。」英文原文："Entacapone is a selective and reversible inhibitor of COMT. In mammals, COMT is distributed throughout various organs with the highest activities in the liver and kidney. COMT also occurs in the heart, lung, smooth and skeletal muscles, intestinal tract, reproductive organs, various glands, adipose tissue, skin, blood cells, and neuronal tissues, especially in glial cells."（[DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd)，版本日期 2026-02-16；查閱日期 2026-11-19）。Entacapone 屬於 COMT（兒茶酚-O-甲基轉移酶）抑制劑，臨床上用來延長 levodopa 的作用時間，其在帕金森氏症的角色已相當確立。
 
 PLA2G6 相關神經退化症的臨床表現可包含肌張力異常合併類帕金森症狀，因此理論上 COMT 抑制劑作為 levodopa 的輔助治療是可以想像的。但這個推論屬於推測，並無任何疾病專屬的臨床資料支持。此分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。
 
@@ -132,6 +132,19 @@ PLA2G6 相關神經退化症的臨床表現可包含肌張力異常合併類帕�
 - 針對 PLA2G6 相關神經退化症進行系統性文獻回顧，尤其是 levodopa 反應性與 COMT 抑制劑的病例報告
 - 評估該疾病族群的 levodopa 反應性與安全性（含知識圖譜標示的禁忌疾病）
 - 若要選擇更具可行性的方向，可優先考慮「青少年帕金森氏症（Hunt 型）」（需確認與現有適應症的重疊程度），或將「路易氏體失智症」列為研究問題，先累積直接的臨床證據
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

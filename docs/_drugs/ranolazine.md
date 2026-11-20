@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**腎因性抗利尿不適當症候群 (Nephrogeni
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就一般藥理知識而言，Ranolazine 是晚期鈉電流（INa-late）抑制劑，對部分脂肪酸氧化以及部分鉀、鈣電流也有作用。
+根據美國 FDA 核准的 Ranolazine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ranolazine 抗心絞痛作用的作用機轉尚未確定。Ranolazine 具有抗缺血及抗心絞痛作用，且此等作用不依賴心率或血壓的降低。在最大運動量時，本藥不影響心率血壓乘積（rate-pressure product，一項心肌做功的指標）。」英文原文："The mechanism of action of ranolazine's antianginal effects has not been determined. Ranolazine has anti-ischemic and antianginal effects that do not depend upon reductions in heart rate or blood pressure. It does not affect the rate-pressure product, a measure of myocardial work, at maximal exercise."（[DailyMed: Aspruzyo Sprinkle (ranolazine) prescribing information, SUN PHARMACEUTICAL INDUSTRIES, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd9f81e4-50da-4551-aed5-559d304df42e)，版本日期 2025-01-29；查閱日期 2026-11-19）。就一般藥理知識而言，Ranolazine 是晚期鈉電流（INa-late）抑制劑，對部分脂肪酸氧化以及部分鉀、鈣電流也有作用。
 
 NSIAD 是由血管加壓素 V2 受體（AVPR2）功能獲得性突變所造成，會導致水分滯留與低血鈉，且與血管加壓素本身無關。Ranolazine 對 V2 受體或腎集合管的 cAMP／水通道蛋白-2（AQP2）路徑**沒有已知的直接作用**，因此兩者之間的機轉關聯目前只是推測。
 
@@ -119,6 +119,19 @@ TxGNN 的高分（0.9965）屬於計算預測，不等同於證據。若要驗�
 - 取得香港原廠仿單的警語與禁忌症，完成安全性篩選
 - 補齊香港許可證的核准適應症資料
 - 評估在目標族群（多為兒童）使用的風險效益，包含 QT 與藥物交互作用
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Aspruzyo Sprinkle (ranolazine) prescribing information, SUN PHARMACEUTICAL INDUSTRIES, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd9f81e4-50da-4551-aed5-559d304df42e) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

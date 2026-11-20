@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (malignant hypertensive
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Atenolol 屬於 β1 選擇性阻斷劑，一般認為可降低血壓並減少腎素釋放，這在機轉上與高血壓造成的腎臟損傷有一定關聯。
+根據美國 FDA 核准的 Atenolol 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「TENORMIN為一種β1選擇性（心臟選擇性）β-腎上腺素受體阻斷劑，不具膜穩定作用或內在擬交感神經（部分致效劑）活性。然而，此優先作用並非絕對，在較高劑量下，TENORMIN會抑制主要位於支氣管及血管肌肉組織的β2-腎上腺素受體。」英文原文："TENORMIN is a beta 1 -selective (cardioselective) beta-adrenergic receptor blocking agent without membrane stabilizing or intrinsic sympathomimetic (partial agonist) activities. This preferential effect is not absolute, however, and at higher doses, TENORMIN inhibits beta 2 -adrenoreceptors, chiefly located in the bronchial and vascular musculature."（[DailyMed: Tenormin (atenolol) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e850b1e-28a4-4ff8-8ed7-bb0b29faa28a)，版本日期 2025-09-18；查閱日期 2026-11-19）。Atenolol 屬於 β1 選擇性阻斷劑，一般認為可降低血壓並減少腎素釋放，這在機轉上與高血壓造成的腎臟損傷有一定關聯。
 
 惡性高血壓腎病變與高血壓本身高度相關，因此模型給出高分並不意外。這個預測較可能是既有高血壓用途的延伸，而不是獨立的新用途訊號。
 
@@ -122,12 +122,13 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (malignant hypertensive
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「&#124; 核准數 &#124; 至少 20 張單方許可證（清單可能不完整） &#124;」→「&#124; 核准數 &#124; 42 張（有效 40 張；單一成分 40 張」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
 | 2026-11-17 | 「下列為資料中列出的 20 張單方許可證（總數至少 20 張，清單可能不完整），此」→「香港共有 42 張含本藥成分的許可證（有效 40 張、已註銷」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Tenormin (atenolol) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e850b1e-28a4-4ff8-8ed7-bb0b29faa28a) |
 
 <!-- review:end log -->
 

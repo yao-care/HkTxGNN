@@ -56,7 +56,7 @@ TxGNN 模型預測它可能與 **惡性高血壓腎病變 (malignant hypertensiv
 
 ## 為什麼這個預測合理？
 
-目前缺乏完整的作用機轉資料。依現有資訊，Carvedilol 同時阻斷 β1、β2 與 α1 腎上腺素受體，能降低血管阻力與交感神經張力。從機轉上看，這種降壓作用與高血壓造成腎臟損傷時的血壓控制有關。
+根據美國 FDA 核准的 Carvedilol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「COREG 是一種外消旋混合物，其中非選擇性 β-腎上腺素受體阻斷活性存在於 S(-) 鏡像異構物，而 α1-腎上腺素阻斷活性則以相同效力存在於 R(+) 及 S(-) 兩種鏡像異構物。COREG 不具內在擬交感神經活性。」英文原文："COREG is a racemic mixture in which nonselective β-adrenoreceptor blocking activity is present in the S(-) enantiomer and α1-adrenergic blocking activity is present in both R(+) and S(-) enantiomers at equal potency. COREG has no intrinsic sympathomimetic activity."（[DailyMed: Coreg (carvedilol) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07c619c6-4a0c-445e-94fa-664a54f68a39)，版本日期 2026-07-31；查閱日期 2026-11-19）。依現有資訊，Carvedilol 同時阻斷 β1、β2 與 α1 腎上腺素受體，能降低血管阻力與交感神經張力。從機轉上看，這種降壓作用與高血壓造成腎臟損傷時的血壓控制有關。
 
 這項預測較可能反映疾病在醫學本體分類上與高血壓相近，而非獨立的實證。另外，惡性高血壓腎病變屬於合併器官損傷的高血壓急症，臨床上通常需要快速、可滴定的注射降壓處置。口服 Carvedilol 不會是第一線選擇。
 
@@ -89,6 +89,19 @@ TxGNN 模型預測它可能與 **惡性高血壓腎病變 (malignant hypertensiv
 - 找出直接研究 Carvedilol 用於惡性高血壓腎病變或相關腎損傷的臨床或臨床前證據。
 - 補齊詳細的作用機轉資料，以及香港仿單的警語與禁忌症。
 - 評估此族群中口服 β/α 阻斷劑相對於現行標準處置的定位與安全性。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Coreg (carvedilol) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07c619c6-4a0c-445e-94fa-664a54f68a39) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

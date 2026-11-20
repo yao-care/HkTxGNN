@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**猿猴免疫缺陷病毒感染 (simian immunodef
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 Efavirenz 是 HIV-1 的 NNRTI，作用標的為 HIV-1 逆轉錄酶。
+根據美國 FDA 核准的 Efavirenz 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Efavirenz 是一種抗病毒藥物。[…] Efavirenz 是 HIV-1 的 NNRTI。Efavirenz 的活性主要是透過非競爭性抑制 HIV-1 反轉錄酶所介導。Efavirenz 不會抑制 HIV-2 反轉錄酶及人類細胞 DNA 聚合酶 α、β、γ 及 δ。」英文原文："Efavirenz is an antiviral drug. […] Efavirenz is an NNRTI of HIV-1. Efavirenz activity is mediated predominantly by noncompetitive inhibition of HIV-1 reverse transcriptase. HIV-2 reverse transcriptase and human cellular DNA polymerases α,β, γ, and δ are not inhibited by efavirenz."（[DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358)，版本日期 2024-06-28；查閱日期 2026-11-19）。已知 Efavirenz 是 HIV-1 的 NNRTI，作用標的為 HIV-1 逆轉錄酶。
 
 野生型 SIV 的逆轉錄酶缺少 NNRTI 結合口袋，天生對 NNRTI 不敏感。文獻中的研究使用的是 RT-SHIV，即在 SIV 骨架中置入 HIV-1 逆轉錄酶的嵌合病毒，用來在獼猴身上模擬 HIV-1 治療。因此這些研究呈現的活性來自 HIV-1 逆轉錄酶這個標的，屬於已知 HIV 用途的**前臨床動物模型**，並不是真正的新適應症。
 
@@ -116,6 +116,19 @@ TxGNN 模型（深度學習）給出的高分（0.9980）可能反映模型學�
 - 釐清此預測是否有實際的研究或臨床價值，否則建議將其視為模型網路鄰近性造成的假陽性。
 - 取得香港許可證的核准適應症文字與仿單警語。
 - 若仍要探索，應補充作用機轉資料，並以野生型 SIV 評估 Efavirenz 的實際活性。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

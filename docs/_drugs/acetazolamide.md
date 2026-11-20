@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**運動誘發惡性高熱 (exercise-induced malig
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Acetazolamide 屬於碳酸酐酶抑制劑，一般認為其作用是改變體內酸鹼平衡。
+根據美國 FDA 核准的 Acetazolamide 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Acetazolamide為一種強效碳酸酐酶抑制劑，可有效控制液體分泌（例如某些類型的青光眼）、治療某些痙攣性疾病（例如癲癇），以及在異常液體滯留的情況下（例如心因性水腫）促進利尿。Acetazolamide並非汞類利尿劑。」英文原文："Acetazolamide is a potent carbonic anhydrase inhibitor, effective in the control of fluid secretion (e.g., some types of glaucoma), in the treatment of certain convulsive disorders (e.g., epilepsy), and in the promotion of diuresis in instances of abnormal fluid retention (e.g., cardiac edema). Acetazolamide is not a mercurial diuretic."（[DailyMed: acetazolamide prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8e48a25-5f6c-4b5a-a5f2-ee87aabea33b)，版本日期 2026-11-10；查閱日期 2026-11-19）。Acetazolamide 屬於碳酸酐酶抑制劑，一般認為其作用是改變體內酸鹼平衡。
 
 從機轉推測，酸鹼平衡改變可能影響肌肉的興奮—收縮偶聯，這是此預測唯一可想像的連結。但這純屬推測，沒有資料支持。惡性高熱的核心機制是 ryanodine 受體功能異常與鈣離子調節失衡，而 ryanodine 受體並非 acetazolamide 已知的作用標的。
 
@@ -103,6 +103,19 @@ TxGNN 模型預測它可能對**運動誘發惡性高熱 (exercise-induced malig
 - 進行系統性文獻檢索與前臨床（細胞或動物模型）驗證
 - 取得完整的作用機轉資料與香港仿單的警語及禁忌症
 - 評估運動、高熱狀態下使用本藥（可能造成脫水與電解質失衡）的安全性
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: acetazolamide prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8e48a25-5f6c-4b5a-a5f2-ee87aabea33b) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

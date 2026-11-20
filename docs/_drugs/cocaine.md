@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Cocaine 是局部麻醉劑兼單胺類再攝取抑制劑，藥理資料顯示它作用於血清素 5-HT3 受體與多巴胺轉運體（DAT）。
+根據美國 FDA 核准的 Cocaine 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Cocaine hydrochloride 是一種酯類局部麻醉劑。Cocaine hydrochloride 經由可逆性阻斷鈉離子通道，並阻止產生動作電位所需的鈉離子傳導度短暫上升，而阻止神經纖維的傳導。」英文原文："Cocaine hydrochloride is a local anesthetic of the ester type. Cocaine hydrochloride prevents conduction in nerve fibers by reversibly blocking sodium channels and preventing the transient rise in sodium conductance necessary for generation of an action potential."（[DailyMed: Goprelto (cocaine hydrochloride) prescribing information, LXO US Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f897764-fe30-090a-e063-6294a90af106)，版本日期 2024-11-06；查閱日期 2026-11-19）。根據已知資訊，Cocaine 是局部麻醉劑兼單胺類再攝取抑制劑，藥理資料顯示它作用於血清素 5-HT3 受體與多巴胺轉運體（DAT）。
 
 馬尾症候群是需要手術減壓的壓迫性神經急症，與 Cocaine 的藥理作用沒有可信的機轉連結。唯一檢索到的文獻是腰薦椎椎間盤病變的病例報告，並未使用 Cocaine 治療。因此，高預測分數來自 TxGNN 模型（深度學習），較可能反映模型學到的相關疾病之間的相似性，而非生物學證據，不宜視為有效訊號。
 
@@ -108,6 +108,19 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 - 取得香港衛生署許可證的完整仿單（警語、禁忌、核准適應症）。
 - 補齊作用機轉資料，並重新評估與馬尾症候群的任何生物學關聯。
 - 補充其他排名較高預測（如鼻炎、咽炎、過敏性休克）的檢討：現有文獻多顯示 Cocaine 造成黏膜損傷而非治療效果，亦不建議推進。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Goprelto (cocaine hydrochloride) prescribing information, LXO US Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f897764-fe30-090a-e063-6294a90af106) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

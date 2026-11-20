@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**肌筋膜疼痛症候群 (myofascial pain syndro
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。已知 morphine 是 μ 鴉片受體促效劑，具確立的中樞止痛作用，因此在疼痛類疾病上有表面上的關聯。
+根據美國 FDA 核准的 Morphine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Morphine為一種完全類鴉片促效劑，對μ類鴉片受體具相對選擇性，但在較高劑量下亦可與其他類鴉片受體結合。Morphine的主要治療作用為止痛。如同所有完全類鴉片促效劑，morphine的止痛作用並無天花板效應。」英文原文："Morphine is a full opioid agonist and is relatively selective for the mu-opioid receptor, although it can bind to other opioid receptors at higher doses. The principal therapeutic action of morphine is analgesia. Like all full opioid agonists, there is no ceiling effect for analgesia with morphine."（[DailyMed: Ms Contin (morphine sulfate) prescribing information, Rhodes Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c354b3bf-86c0-4bb8-8b1f-be2164942698)，版本日期 2026-08-14；查閱日期 2026-11-19）。已知 morphine 是 μ 鴉片受體促效劑，具確立的中樞止痛作用，因此在疼痛類疾病上有表面上的關聯。
 
 然而，肌筋膜疼痛主要屬於周邊、肌肉骨骼性的疼痛，鴉片類藥物並非標準治療。此外，蒐集到的文獻多為間接證據，例如顳顎關節功能障礙的長期鴉片使用評論、脊椎融合術後的肌筋膜浸潤止痛，以及手術期疼痛研究，並未直接檢驗 morphine 治療肌筋膜疼痛症候群。因此，這項預測的機轉支持相當有限。
 
@@ -108,6 +108,18 @@ TxGNN 模型預測它可能對**肌筋膜疼痛症候群 (myofascial pain syndro
 - 與非鴉片類標準治療比較療效與風險
 - 完整的作用機轉資料與仿單警語、禁忌症
 - 評估長期使用的依賴、耐受與痛覺過敏風險
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ms Contin (morphine sulfate) prescribing information, Rhodes Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c354b3bf-86c0-4bb8-8b1f-be2164942698) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

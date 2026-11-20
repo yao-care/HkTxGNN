@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**16p11.2 近端微缺失症候群 (proximal 16p11
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（本報告彙整的資料中未收錄 MOA）。依藥理常識，fenfluramine 是血清素釋放劑，具有 5-HT2C／5-HT2A 促效作用，並可調節 sigma-1 受體。這些推論屬假說層級，並非來自本次彙整的臨床證據。
+根據美國 FDA 核准的 Fenfluramine 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Fenfluramine 在治療與 Dravet 症候群及 Lennox-Gastaut 症候群相關之癲癇發作時發揮其治療作用的確切機轉未明。Fenfluramine 及其代謝物 norfenfluramine 對血清素 5-HT2 受體具有致效劑活性。」英文原文："The precise mechanism by which fenfluramine exerts its therapeutic effects in the treatment of seizures associated with Dravet syndrome and Lennox-Gastaut syndrome is unknown. Fenfluramine and the metabolite, norfenfluramine, exhibit agonist activity at serotonin 5-HT2 receptors."（[DailyMed: Fintepla (fenfluramine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e88f360e-33ad-4cd6-b2de-5ef885857c5d)，版本日期 2026-10-22；查閱日期 2026-11-19）。依藥理常識，fenfluramine 是血清素釋放劑，具有 5-HT2C／5-HT2A 促效作用，並可調節 sigma-1 受體。這些推論屬假說層級，並非來自本次彙整的臨床證據。
 
 16p11.2 近端微缺失（涵蓋 SH2B1 基因）與肥胖有關，也常伴隨癲癇與自閉症譜系特徵。這與 fenfluramine 原本的抗肥胖用途，以及其在癲癇症候群（如 Dravet 與 Lennox-Gastaut 症候群）的應用有部分重疊，因此模型預測在機轉上有可能成立。
 
@@ -102,6 +102,19 @@ TxGNN 模型預測它可能對**16p11.2 近端微缺失症候群 (proximal 16p11
 - 補充完整的作用機轉（MOA）資料
 - 系統性檢索 16p11.2 微缺失症候群與 fenfluramine 的臨床前研究、病例報告及試驗登記
 - 若有初步證據，需設計含心臟超音波追蹤的安全性監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Fintepla (fenfluramine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e88f360e-33ad-4cd6-b2de-5ef885857c5d) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

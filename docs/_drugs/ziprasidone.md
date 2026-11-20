@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**拔毛癖 (trichotillomania)** 有效，但目�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就藥理類別而言，ziprasidone 屬於非典型抗精神病藥，已知具有多巴胺 D2 與血清素 5-HT2A 拮抗作用。
+根據美國 FDA 核准的 Ziprasidone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ziprasidone 用於治療所列適應症的作用機轉，可能係經由第 2 型多巴胺（D 2 ）與第 2 型血清素（5HT 2 ）拮抗作用的組合所介導。」英文原文："The mechanism of action of ziprasidone in the treatment of the listed indications could be mediated through a combination of dopamine type 2 (D 2 ) and serotonin type 2 (5HT 2 ) antagonism."（[DailyMed: Ziprasidone Mesylate 20 Mg/Ml (ziprasidone mesylate) prescribing information, Armas Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5c27f0f-4e45-4bca-bb9a-2d3f1c243348)，版本日期 2026-09-18；查閱日期 2026-11-19）。就藥理類別而言，ziprasidone 屬於非典型抗精神病藥，已知具有多巴胺 D2 與血清素 5-HT2A 拮抗作用。
 
 拔毛癖屬於衝動控制與重複行為相關疾病。其他作用於多巴胺與血清素系統的抗精神病藥，曾被研究用於這類重複行為問題，因此機轉上存在一條合理的推測路徑。
 
@@ -101,6 +101,18 @@ TxGNN 模型預測它可能對**拔毛癖 (trichotillomania)** 有效，但目�
 - 取得香港原廠仿單的警語與禁忌症
 - 規劃心電圖（QTc）監測與心臟風險篩檢方案
 - 若有可行的初步證據，再設計小型探索性試驗
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ziprasidone Mesylate 20 Mg/Ml (ziprasidone mesylate) prescribing information, Armas Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5c27f0f-4e45-4bca-bb9a-2d3f1c243348) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

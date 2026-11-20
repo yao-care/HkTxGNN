@@ -59,7 +59,7 @@ Doxylamine 是第一代 H1 抗組織胺藥，原本用於過敏性鼻炎、感�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Doxylamine 是第一代 H1 抗組織胺藥，具有抗組織胺與抗膽鹼（抗蕈毒鹼）作用。其在過敏性疾病與上呼吸道症狀中的療效已有類別層級的認知，機轉上可能適用於過敏性蕁麻疹。
+根據美國 FDA 核准的 doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg（含 Doxylamine 的複方） 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Doxylamine succinate 與 pyridoxine hydrochloride 的作用機轉未明。」英文原文："The mechanism of action of doxylamine succinate and pyridoxine hydrochloride is unknown."（[DailyMed: Doxylamine Succinate And Pyridoxine Hydrochloride (doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de265fd1-bc22-4da1-aab5-b5fedd649c8b)，版本日期 2026-08-24；查閱日期 2026-11-19）。根據已知資訊，Doxylamine 是第一代 H1 抗組織胺藥，具有抗組織胺與抗膽鹼（抗蕈毒鹼）作用。其在過敏性疾病與上呼吸道症狀中的療效已有類別層級的認知，機轉上可能適用於過敏性蕁麻疹。
 
 過敏性蕁麻疹由組織胺介導，阻斷 H1 受體在機轉上是合理的。
 
@@ -118,6 +118,19 @@ Doxylamine 是第一代 H1 抗組織胺藥，原本用於過敏性鼻炎、感�
 - 補充詳細的作用機轉資料（DrugBank）
 - 搜尋 Doxylamine 用於各類蕁麻疹的臨床試驗與文獻，並與第二代抗組織胺藥比較
 - 釐清此預測相對於既有適應症的實際新增價值
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Doxylamine Succinate And Pyridoxine Hydrochloride (doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de265fd1-bc22-4da1-aab5-b5fedd649c8b) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

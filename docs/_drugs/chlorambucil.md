@@ -54,7 +54,7 @@ Chlorambucil 是一種烷化劑，知識圖譜中記錄的原有用途為何杰�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Chlorambucil 屬於烷化劑類，透過 DNA 烷化發揮細胞毒性，在多種 B 細胞惡性腫瘤中已有使用經驗，機轉上可能適用於慢性淋巴球性白血病。
+根據美國 FDA 核准的 Chlorambucil 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Chlorambucil 是一種芳香族氮芥衍生物，屬於烷化劑。Chlorambucil 會干擾 DNA 複製，並經由細胞質 p53 的蓄積及隨後活化 Bax（一種細胞凋亡促進因子）而誘導細胞凋亡。」英文原文："Chlorambucil, an aromatic nitrogen mustard derivative, is an alkylating agent. Chlorambucil interferes with DNA replication and induces cellular apoptosis via the accumulation of cytosolic p53 and subsequent activation of Bax, an apoptosis promoter."（[DailyMed: Leukeran (chlorambucil) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58a3c995-5ad6-465d-8437-5970c9088213)，版本日期 2025-01-08；查閱日期 2026-11-19）。根據已知資訊，Chlorambucil 屬於烷化劑類，透過 DNA 烷化發揮細胞毒性，在多種 B 細胞惡性腫瘤中已有使用經驗，機轉上可能適用於慢性淋巴球性白血病。
 
 此分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，並非生物學證據。唯一檢索到的文獻是 2003 年討論 CLL 風險適應性治療的綜述，並未提供此疾病的療效數據，因此不能視為直接證據。
 
@@ -108,6 +108,19 @@ Chlorambucil 是一種烷化劑，知識圖譜中記錄的原有用途為何杰�
 - 取得香港許可證的核准適應症文字與仿單警語、禁忌症
 - 蒐集 IGHV 未突變亞型使用 Chlorambucil 的亞群分析或比較研究
 - 與現行標準治療比較療效與安全性，並制定血液學監測計畫
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Leukeran (chlorambucil) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58a3c995-5ad6-465d-8437-5970c9088213) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

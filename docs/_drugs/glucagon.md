@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**腸躁症 (irritable bowel syndrome)** 有效。
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，glucagon 作用於升糖素受體，並已知可放鬆胃腸道平滑肌、降低腸道蠕動，機轉上可能與腸躁症中的腸道運動異常及腹痛有關。
+根據美國 FDA 核准的 Glucagon 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「升糖素透過活化肝臟升糖素受體而提高血糖濃度，從而刺激肝醣分解及肝臟釋放葡萄糖。升糖素須有肝臟肝醣儲存，方能產生抗低血糖作用。」英文原文："Glucagon increases blood glucose concentration by activating hepatic glucagon receptors, thereby stimulating glycogen breakdown and release of glucose from the liver. Hepatic stores of glycogen are necessary for glucagon to produce an antihypoglycemic effect."（[DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84)，版本日期 2020-09-16；查閱日期 2026-11-19）。根據已知資訊，glucagon 作用於升糖素受體，並已知可放鬆胃腸道平滑肌、降低腸道蠕動，機轉上可能與腸躁症中的腸道運動異常及腹痛有關。
 
 已檢索到的研究多集中在 GLP-1 與 GLP-1 受體促效劑（如 ROSE-010）。這些藥物同樣源自前升糖素，會抑制胃、十二指腸與空腸的蠕動，也可能影響腸腦軸訊號與內臟痛覺。但它們在藥理上與 glucagon 不同，因此與 glucagon 的連結只是間接的，建立在相同的胜肽來源與可能的解痙作用上。
 
@@ -109,6 +109,18 @@ TxGNN 的高分是計算模型的預測結果，不能取代直接的臨床證�
 - 設計或尋找直接以 glucagon 治療腸躁症的臨床研究（例如針對腹痛或痙攣發作的小型概念驗證試驗）
 - 取得香港原廠仿單，完成警語與禁忌症審查
 - 評估給藥途徑與劑型是否適合腸躁症的使用情境
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

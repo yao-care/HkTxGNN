@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Topotecan 屬於拓樸異構酶 I 抑制劑，會造成 DNA 損傷與複製相關的細胞死亡，主要作用於快速分裂的腫瘤細胞。這個機轉在原適應症卵巢癌中已被應用。
+根據美國 FDA 核准的 Topotecan 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「拓撲異構酶 I 藉由誘發可逆性單股斷裂以緩解 DNA 的扭轉張力。Topotecan 與拓撲異構酶 I-DNA 複合物結合，並阻止這些單股斷裂的重新接合。Topotecan 的細胞毒性被認為是由於 DNA 合成期間所產生的雙股 DNA 損傷所致，此時複製酶與由 topotecan、拓撲異構酶 I 及 DNA 所形成的三元複合物發生交互作用。」英文原文："Topoisomerase I relieves torsional strain in DNA by inducing reversible single-strand breaks. Topotecan binds to the topoisomerase I-DNA complex and prevents re-ligation of these single-strand breaks. The cytotoxicity of topotecan is thought to be due to double-strand DNA damage produced during DNA synthesis, when replication enzymes interact with the ternary complex formed by topotecan, topoisomerase I, and DNA."（[DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579)，版本日期 2023-09-18；查閱日期 2026-11-19）。根據已知資訊，Topotecan 屬於拓樸異構酶 I 抑制劑，會造成 DNA 損傷與複製相關的細胞死亡，主要作用於快速分裂的腫瘤細胞。這個機轉在原適應症卵巢癌中已被應用。
 
 卵巢癌與乳癌同屬婦女好發的惡性腫瘤，家族性卵巢癌與乳癌之間甚至有共同的遺傳風險（如 BRCA1/BRCA2）。前臨床研究（PMID 37987734）顯示，在 MYC 驅動的乳癌細胞中抑制 TOP1 會造成異常的 R-loop 累積而產生合成致死效應，提示三陰性乳癌等亞型可能對此類藥物敏感。
 
@@ -146,6 +146,19 @@ TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效�
 - 針對特定乳癌亞型（如 MYC 驅動、三陰性乳癌）設計生物標記導向的前臨床或早期臨床驗證
 - 評估 BCRP/ABCG2 抗藥性的影響，以及是否需合併外排抑制策略
 - 釐清現有乳癌試驗中 topotecan 的實際角色，並收集針對乳癌族群的安全性與劑量資料
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

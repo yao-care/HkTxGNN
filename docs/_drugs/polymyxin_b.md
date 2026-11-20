@@ -66,7 +66,7 @@ TxGNN 模型預測分數最高的新適應症為**支氣管炎 (Bronchitis)**，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Polymyxin B 是陽離子多肽類抗生素，可破壞革蘭氏陰性菌的外膜，因此對呼吸道的革蘭氏陰性菌感染（例如多重抗藥性的氣管支氣管炎）在機轉上具合理性。
+根據美國 FDA 核准的 Polymyxin B 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Polymyxin B sulfate對除變形桿菌屬（Proteus）以外的幾乎所有革蘭氏陰性桿菌具有殺菌作用。Polymyxins可增加細菌細胞膜的通透性，導致細胞死亡。所有革蘭氏陽性菌、真菌及革蘭氏陰性球菌均對polymyxin B具抗藥性。有關FDA針對本藥品所認可的感受性試驗判讀標準、相關試驗方法及品質管制標準的具體資訊，請參閱：www.fda.gov/STIC。」英文原文："Polymyxin B sulfate has a bactericidal action against almost all gram-negative bacilli except the Proteus group. Polymyxins increase the permeability of bacterial cell membrane leading to death of the cell. All gram positive bacteria, fungi, and gram-negative cocci are resistant to polymyxin B. For specific information regarding susceptibility test criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: www.fda.gov/STIC."（[DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Xellia Pharmaceuticals USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56f18c0-ef5e-4ed9-a5af-f79f3cd189b6)，版本日期 2026-06-22；查閱日期 2026-11-19）。根據已知資訊，Polymyxin B 是陽離子多肽類抗生素，可破壞革蘭氏陰性菌的外膜，因此對呼吸道的革蘭氏陰性菌感染（例如多重抗藥性的氣管支氣管炎）在機轉上具合理性。
 
 不過文獻同時顯示，吸入性 Polymyxin B 可作為非特異性支氣管激發劑（促組織胺釋放、引起支氣管收縮），在氣喘和慢性支氣管炎患者身上是重要的安全疑慮。其餘證據多為老舊、小規模或非臨床研究。極高的 TxGNN 分數僅為計算預測，不能取代臨床證據。
 
@@ -174,11 +174,12 @@ TxGNN 模型預測分數最高的新適應症為**支氣管炎 (Bronchitis)**，
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效許可證，皆為單一成分登記，無取消紀錄。」→「香港共有 28 張含本藥成分的許可證（全部有效；皆為複方）。」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Xellia Pharmaceuticals USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56f18c0-ef5e-4ed9-a5af-f79f3cd189b6) |
 
 <!-- review:end log -->
 

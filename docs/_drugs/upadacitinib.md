@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**眼缺損小眼症－肢根型骨發育不良症
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Upadacitinib 已知為選擇性 JAK1 抑制劑，透過調節 JAK-STAT 訊號傳遞來抑制免疫發炎反應，因此在類風濕性關節炎等免疫介導疾病中具有療效。
+根據美國 FDA 核准的 Upadacitinib 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Upadacitinib 是一種 Janus 激酶（JAK）抑制劑。JAK 是細胞內酵素，可傳遞源自細胞膜上細胞激素或生長因子與受體交互作用的訊號，以影響造血及免疫細胞功能的細胞過程。」英文原文："Upadacitinib is a Janus kinase (JAK) inhibitor. JAKs are intracellular enzymes which transmit signals arising from cytokine or growth factor-receptor interactions on the cellular membrane to influence cellular processes of hematopoiesis and immune cell function."（[DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095)，版本日期 2026-06-30；查閱日期 2026-11-19）。Upadacitinib 已知為選擇性 JAK1 抑制劑，透過調節 JAK-STAT 訊號傳遞來抑制免疫發炎反應，因此在類風濕性關節炎等免疫介導疾病中具有療效。
 
 然而，這個預測的新適應症是一種罕見的先天發育異常症候群（眼部缺損／小眼症，合併肢根型骨骼發育不良）。目前沒有找到 JAK-STAT 訊號與此症候群之間合理的生物學關聯。免疫調節藥物也不太可能逆轉已形成的結構性缺陷。
 
@@ -120,6 +120,19 @@ TxGNN 模型預測它可能對**眼缺損小眼症－肢根型骨發育不良症
 - 找出 JAK-STAT 訊號與此症候群致病機制之間的生物學證據
 - 進行前臨床或疾病模型研究，驗證是否有任何療效訊號
 - 確認該罕見疾病是否有可行的治療目標與臨床終點
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

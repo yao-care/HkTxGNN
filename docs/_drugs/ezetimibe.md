@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**膽固醇酯轉運蛋白缺乏症 (Cholesterol-e
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就一般藥理知識，ezetimibe 抑制 NPC1L1 介導的腸道膽固醇吸收，進而降低 LDL-C。
+根據美國 FDA 核准的 Ezetimibe 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ezetimibe 藉由抑制小腸對膽固醇的吸收而降低血中膽固醇。Ezetimibe 的分子標靶已被證實為固醇轉運蛋白 Niemann-Pick C1-Like 1（NPC1L1），其參與腸道對膽固醇及植物固醇的攝取。」英文原文："Ezetimibe reduces blood cholesterol by inhibiting the absorption of cholesterol by the small intestine. The molecular target of ezetimibe has been shown to be the sterol transporter, Niemann-Pick C1-Like 1 (NPC1L1), which is involved in the intestinal uptake of cholesterol and phytosterols."（[DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9)，版本日期 2026-10-08；查閱日期 2026-11-19）。就一般藥理知識，ezetimibe 抑制 NPC1L1 介導的腸道膽固醇吸收，進而降低 LDL-C。
 
 膽固醇酯轉運蛋白（CETP）缺乏症是一種遺傳性狀況，特徵為 HDL-C 明顯升高與脂蛋白代謝改變。兩者的關聯僅在於同屬脂質代謝路徑，屬間接連結。
 
@@ -123,11 +123,12 @@ TxGNN 的高分是網路式預測，並無臨床資料支持。CETP 缺乏通常
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「以下為本報告所整理的部分許可證（清單可能不完整），資料中未載明劑型與核准適應症文」→「以下為本報告所整理的部分許可證，資料中未載明劑型與核准適應症」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9) |
 
 <!-- review:end log -->
 

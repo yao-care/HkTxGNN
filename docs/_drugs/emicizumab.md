@@ -61,7 +61,7 @@ TxGNN 模型的首位預測為 pseudo-von Willebrand disease，但該預測完�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫未收錄）。根據藥理學資料，emicizumab 是雙特異性抗體，同時結合活化的凝血因子 IX (FIXa) 與因子 X (FX)，取代活化因子 VIII 的輔因子功能，結合親和力 (KD) 分別約為 1.52 μM 與 0.98 μM。
+根據美國 FDA 核准的 Emicizumab 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「HEMLIBRA 橋接活化第 IX 因子與第 X 因子，以恢復有效止血所需、但已缺失的活化第 VIII 因子功能。」英文原文："HEMLIBRA bridges activated factor IX and factor X to restore the function of missing activated factor VIII that is needed for effective hemostasis."（[DailyMed: Hemlibra (emicizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2483adba-fab6-4d1b-96c5-c195577ed071)，版本日期 2025-07-11；查閱日期 2026-11-19）。根據藥理學資料，emicizumab 是雙特異性抗體，同時結合活化的凝血因子 IX (FIXa) 與因子 X (FX)，取代活化因子 VIII 的輔因子功能，結合親和力 (KD) 分別約為 1.52 μM 與 0.98 μM。
 
 後天性血友病 A 是自體抗體中和內源性因子 VIII 所致的出血疾病，和先天性血友病 A 在功能缺陷上相同（缺乏 FVIII 活性）。Emicizumab 在結構上與 FVIII 無關，一般不會被抗 FVIII 自體抗體中和，因此在機轉上直接且合理。
 
@@ -133,6 +133,19 @@ TxGNN 模型的首位預測為 pseudo-von Willebrand disease，但該預測完�
 - 以隨機對照或較大型前瞻性資料確認療效，並比較 emicizumab 與免疫抑制治療。
 - 制定血栓風險管理（避免併用 aPCC、謹慎併用 rFVIIa）與檢驗監測計畫。
 - 確認香港對後天性血友病 A 仿單外使用的法規與給付路徑。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Hemlibra (emicizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2483adba-fab6-4d1b-96c5-c195577ed071) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**異位性皮膚炎 (Atopic Eczema)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Ciclesonide 是吸入型皮質類固醇，進入體內後經酯酶活化為 des-ciclesonide，作用於糖皮質素受體，產生抗發炎效果。
+根據美國 FDA 核准的 Ciclesonide 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Ciclesonide 是一種前驅藥，經口吸入後會被酵素水解為具藥理活性的代謝物 C21-desisobutyryl-ciclesonide（des-ciclesonide 或 RM1）。Des-ciclesonide 具有抗發炎活性，其對糖皮質素受體的親和力為母化合物的 120 倍，為 dexamethasone 的 12 倍。」英文原文："Ciclesonide is a prodrug that is enzymatically hydrolyzed to a pharmacologically active metabolite, C21-desisobutyryl-ciclesonide (des-ciclesonide or RM1) following oral inhalation. Des-ciclesonide has anti-inflammatory activity with affinity for glucocorticoid receptors that is 120 times greater than the parent compound and 12 times greater than dexamethasone."（[DailyMed: Alvesco (ciclesonide) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6112fb-78ef-43cf-8ae3-36370eb45468)，版本日期 2025-02-28；查閱日期 2026-11-19）。根據已知資訊，Ciclesonide 是吸入型皮質類固醇，進入體內後經酯酶活化為 des-ciclesonide，作用於糖皮質素受體，產生抗發炎效果。
 
 異位性皮膚炎的核心是皮膚的過敏性發炎，局部皮質類固醇本身就是標準治療。因此從抗發炎機轉來看，此預測具有合理性。
 
@@ -104,6 +104,19 @@ TxGNN 模型預測它可能對**異位性皮膚炎 (Atopic Eczema)** 有效，
 - 評估是否有外用劑型或給藥途徑的可行性。
 - 進行文獻與臨床試驗的系統性檢索，並與現有局部類固醇做比較。
 - 取得香港衛生署仿單，完成警語與禁忌症的安全性審查。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Alvesco (ciclesonide) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6112fb-78ef-43cf-8ae3-36370eb45468) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

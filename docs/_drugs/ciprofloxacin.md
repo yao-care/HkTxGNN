@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**瀰漫性硬皮症 (diffuse scleroderma)** 有�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Ciprofloxacin 屬氟喹諾酮類抗菌藥，一般認為是透過抑制細菌 DNA 複製相關酵素而發揮抗菌作用，但這不是本次資料中直接記載的機轉。
+根據美國 FDA 核准的 Ciprofloxacin 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Ciprofloxacin屬於氟喹諾酮類（fluoroquinolone）抗菌藥物。[…] Ciprofloxacin的殺菌作用源自其抑制拓撲異構酶II（DNA旋轉酶）及拓撲異構酶IV（兩者皆為第II型拓撲異構酶），而這些酶為細菌DNA複製、轉錄、修復及重組所必需。」英文原文："Ciprofloxacin is a member of the fluoroquinolone class of antibacterial agents. […] The bactericidal action of ciprofloxacin results from inhibition of the enzymes topoisomerase II (DNA gyrase) and topoisomerase IV (both Type II topoisomerases), which are required for bacterial DNA replication, transcription, repair, and recombination."（[DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbbbf939-3219-4515-a48e-ca264daa4d07)，版本日期 2025-11-04；查閱日期 2026-11-19）。Ciprofloxacin 屬氟喹諾酮類抗菌藥，一般認為是透過抑制細菌 DNA 複製相關酵素而發揮抗菌作用，但這不是本次資料中直接記載的機轉。
 
 就瀰漫性硬皮症而言，資料顯示有兩條可能的關聯路徑：
 1. 有研究提出 ciprofloxacin 可能對皮膚具抗纖維化作用（PMID 20507401）。
@@ -116,11 +116,12 @@ TxGNN 模型預測它可能對**瀰漫性硬皮症 (diffuse scleroderma)** 有�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本表僅列出部分許可證，完整清單可能不止於此（本次資料可能不完整）。」→「本表僅列出部分許可證，香港共有 57 張含本藥成分的許可證（」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbbbf939-3219-4515-a48e-ca264daa4d07) |
 
 <!-- review:end log -->
 

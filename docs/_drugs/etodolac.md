@@ -59,10 +59,9 @@ TxGNN 模型預測分數最高的是 Hunter-Thompson 型肢中發育不良，但
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料（資料庫中的 MOA 欄位為空）。根據文獻，etodolac 是偏向抑制環氧合酶-2 (COX-2) 的 NSAID，透過降低前列腺素合成來減輕發炎與疼痛。
+根據美國 FDA 核准的 Etodolac 處方資料（Prescribing Information）「Clinical Pharmacology」段（非官方翻譯）：「Etodolac 緩釋錠的作用機轉與其他 NSAIDs 一樣尚未完全明瞭，但可能與抑制前列腺素合成酶有關。」英文原文："The mechanism of action of etodolac extended-release tablets, like that of other NSAIDs, is not completely understood, but may be related to prostaglandin synthetase inhibition."（[DailyMed: Etodolac Er (etodolac) prescribing information, Advanced Rx Pharmacy of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=baebdfb2-17f6-9081-e053-2a95a90ab331)，版本日期 2024-12-31；查閱日期 2026-11-19）。根據文獻，etodolac 是偏向抑制環氧合酶-2 (COX-2) 的 NSAID，透過降低前列腺素合成來減輕發炎與疼痛。
 
 **排名第 1 的預測（Hunter-Thompson 型肢中發育不良）**是由 CDMP1/GDF5 基因突變引起的罕見骨骼發育異常。Etodolac 對 GDF5 訊號或骨骼發育沒有已知作用，分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。其他高分預測（短椎體症相關疾病、假性軟骨發育不全等）同樣僅有模型預測，無任何試驗或文獻。
-
 
 ---
 
@@ -73,7 +72,6 @@ TxGNN 模型預測分數最高的是 Hunter-Thompson 型肢中發育不良，但
 ---
 
 ## 文獻證據
-
 
 | PMID | 年份 | 類型 | 期刊 | 主要發現 |
 |------|-----|------|------|---------|
@@ -121,6 +119,19 @@ TxGNN 模型預測分數最高的是 Hunter-Thompson 型肢中發育不良，但
 - 針對 AS 的 etodolac 對照試驗，或與其他 NSAID 的直接比較證據
 - 針對高血壓、腎臟、肝臟、消化性潰瘍及心血管高風險族群制定安全性監測計畫
 - 釐清「脊椎關節病變易感性」與「發炎性脊椎病變」是否僅為與原適應症重疊的標籤
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Etodolac Er (etodolac) prescribing information, Advanced Rx Pharmacy of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=baebdfb2-17f6-9081-e053-2a95a90ab331) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

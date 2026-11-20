@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。就已知資訊，Thyrotropin alfa 是重組 TSH，作用於甲狀腺組織的 TSH 受體，促進甲狀腺細胞活性與甲狀腺激素的產生。
+根據美國 FDA 核准的 Thyrotropin Alfa 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「促甲狀腺激素（TSH）為一種腦下垂體激素，可刺激甲狀腺產生甲狀腺激素。Thyrotropin alfa 與正常甲狀腺上皮細胞或分化良好之甲狀腺癌組織上之 TSH 受體結合，可刺激碘之攝取及有機化，以及甲狀腺球蛋白（Tg）、三碘甲狀腺素（T3）及甲狀腺素（T4）之合成與分泌。」英文原文："Thyrotropin (TSH) is a pituitary hormone that stimulates the thyroid gland to produce thyroid hormone. Binding of thyrotropin alfa to TSH receptors on normal thyroid epithelial cells or on well-differentiated thyroid cancer tissue stimulates iodine uptake and organification, and synthesis and secretion of thyroglobulin (Tg), triiodothyronine (T3) and thyroxine (T4)."（[DailyMed: Thyrogen (thyrotropin alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b52dfa36-f90b-4e19-9b5e-26db9d04df2b)，版本日期 2023-02-24；查閱日期 2026-11-19）。就已知資訊，Thyrotropin alfa 是重組 TSH，作用於甲狀腺組織的 TSH 受體，促進甲狀腺細胞活性與甲狀腺激素的產生。
 
 目前沒有建立起來的機轉連結可以說明它與偏頭痛的關係。分數來自 TxGNN 模型（深度學習），可能反映模型在相關疾病之間學到的相似性，而不是生物學證據。若要把兩者連起來（例如透過甲狀腺荷爾蒙狀態影響偏頭痛），目前也只是推測。
 
@@ -115,6 +115,19 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 - 取得香港原廠仿單，確認核准適應症、警語與禁忌症
 - 以文獻回顧確認 TSH 或甲狀腺功能與偏頭痛是否有可驗證的生物學關聯
 - 如找到合理假說，先進行前臨床或小規模探索性研究，再重新評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Thyrogen (thyrotropin alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b52dfa36-f90b-4e19-9b5e-26db9d04df2b) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

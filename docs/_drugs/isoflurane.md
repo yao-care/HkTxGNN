@@ -57,7 +57,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前*
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，isoflurane 屬於吸入性揮發性麻醉劑，文獻指出其作用涉及 GABA-A 受體與 NMDA 受體，機轉上可能與偏頭痛的神經生理有關。
+ChEMBL（EMBL-EBI）收錄的 Isoflurane 作用機轉（非官方翻譯）：「甘氨酸受體（alpha-1/beta）正向調節劑；GABA-A受體；陰離子通道正向別構調節劑；鉀離子通道K亞家族成員10開放劑；鉀離子通道K亞家族成員18開放劑」英文原文："Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener"（[ChEMBL CHEMBL1256 (isoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，isoflurane 屬於吸入性揮發性麻醉劑，文獻指出其作用涉及 GABA-A 受體與 NMDA 受體，機轉上可能與偏頭痛的神經生理有關。
 
 偏頭痛先兆被認為與皮質擴散性抑制 (cortical spreading depression, SD) 有關。1996 年的一項研究 (PMID 8665587) 發現吸入性麻醉劑可抑制擴散性抑制。另有研究顯示 NMDA 受體拮抗劑會影響擴散性抑制的易感性 (PMID 17267580)，與 isoflurane 的 NMDA 阻斷活性方向一致。此外，一則病例報告 (PMID 26363696) 描述以全身麻醉治療偏濁性偏頭痛持續狀態。
 
@@ -109,6 +109,19 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前*
 - 取得香港仿單的警語與禁忌資料
 - 設計小規模探索性研究（例如僅限難治性偏頭痛持續狀態、住院監測條件下），先評估可行性與安全性
 - 評估給藥途徑與麻醉監護需求是否具臨床可行性
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL1256 (isoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

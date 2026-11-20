@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**單純性頭皮毛髮稀少症 (hypotrichosis si
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Iloprost 是穩定的前列環素 (PGI2) 類似物，作用於 IP 受體，可使血管擴張並抑制血小板凝集。
+根據美國 FDA 核准的 Iloprost 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Iloprost是前列環素PGI 2的合成類似物。Iloprost是一種血管擴張劑，並可抑制血小板凝集。」英文原文："Iloprost is a synthetic analog of prostacyclin PGI 2. Iloprost is a vasodilator and inhibits platelet aggregation."（[DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4)，版本日期 2026-08-13；查閱日期 2026-11-19）。根據已知資訊，Iloprost 是穩定的前列環素 (PGI2) 類似物，作用於 IP 受體，可使血管擴張並抑制血小板凝集。
 
 理論上，血管擴張可能改善毛囊周圍微循環，而前列腺素訊號確實會影響毛髮週期（PGF2α、PGE2 類似物促進生長，PGD2 則抑制）。但 PGI2 對毛髮的作用尚未被證實。
 
@@ -109,6 +109,19 @@ TxGNN 模型預測它可能對**單純性頭皮毛髮稀少症 (hypotrichosis si
 - 取得香港衛生署仿單，釐清警語與禁忌
 - 進行前臨床研究（如毛囊培養或動物模型），確認對毛髮生長是否有作用
 - 釐清給藥途徑：目前香港僅有注射劑型，用於頭皮疾病的可行性（如局部給藥）尚待評估
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

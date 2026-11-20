@@ -55,7 +55,7 @@ Icatibant 是一種緩激肽 B2 受體拮抗劑，原本用於治療遺傳性血
 
 ## 為什麼這個預測合理？
 
-目前缺乏經由 DrugBank 取得的詳細作用機轉資料。根據藥理資料，icatibant 是一種肽類藥物，作用於緩激肽 B2 受體（BDKRB2），同時也記錄到與 B1 受體（BDKRB1）的關聯。
+根據美國 FDA 核准的 Icatibant 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Icatibant 是對緩激肽 B2 受體具選擇性的競爭性拮抗劑，其親和力與緩激肽相似。遺傳性血管性水腫是由 C1-酯酶抑制劑缺乏或功能異常所引起；C1-酯酶抑制劑是導致緩激肽生成之第 XII 因子/激肽釋放酶蛋白水解級聯反應的關鍵調節因子。」英文原文："Icatibant is a competitive antagonist selective for the bradykinin B2 receptor, with an affinity similar to bradykinin. Hereditary angioedema is caused by an absence or dysfunction of C1-esterase-inhibitor, a key regulator of the Factor XII/kallikrein proteolytic cascade that leads to bradykinin production."（[DailyMed: Firazyr (icatibant acetate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540)，版本日期 2025-07-07；查閱日期 2026-11-19）。根據藥理資料，icatibant 是一種肽類藥物，作用於緩激肽 B2 受體（BDKRB2），同時也記錄到與 B1 受體（BDKRB1）的關聯。
 
 C1 抑制物缺乏會使激肽釋放酶–激肽系統失控活化，造成緩激肽過量，進而引發血管性水腫發作。Icatibant 阻斷緩激肽 B2 受體，等於阻斷發作的最後效應步驟，因此機轉上與此疾病相符。
 
@@ -121,6 +121,19 @@ C1 抑制物缺乏會使激肽釋放酶–激肽系統失控活化，造成緩�
 ## 其他預測結果（僅供參考）
 
 另有 6 項預測（serpin 病變伴毒性聚合、偽性血管性血友病、血小板釋放障礙、免疫介導壞死性肌病、抗合成酶症候群、Glanzmann 血小板無力症），TxGNN 分數均在 0.9900 以上，但皆無臨床試驗或文獻支持，機轉上也缺乏合理連結。這些分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。證據等級均為 L5，建議 **Hold**。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Firazyr (icatibant acetate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

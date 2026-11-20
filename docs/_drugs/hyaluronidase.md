@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**糖尿病視網膜病變 (Diabetic Retinopathy)*
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，Hyaluronidase 是能降解玻尿酸的酵素，用於玻璃體內時可發揮「藥物性玻璃體溶解」作用：使玻璃體凝膠液化、促進玻璃體後脫離，並協助清除玻璃體出血。
+根據美國 FDA 核准的 Hyaluronidase 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Hyaluronidase 是一種分散劑，透過水解玻尿酸以改變結締組織的通透性；玻尿酸是一種多醣，存在於結締組織的細胞間基質中，以及某些特化組織中，例如臍帶及玻璃體液。玻尿酸亦存在於A型及C型溶血性鏈球菌的莢膜中。」英文原文："Hyaluronidase is a dispersion agent, which modifies the permeability of connective tissue through the hydrolysis of hyaluronic acid, a polysaccharide found in the intercellular ground substance of connective tissue, and of certain specialized tissues, such as the umbilical cord and vitreous humor. Hyaluronic acid is also present in the capsules of type A and C hemolytic streptococci."（[DailyMed: Hylenex Recombinant (hyaluronidase) prescribing information, Antares Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3023cc56-ed4b-4e87-b3a1-81b20943f658)，版本日期 2024-11-11；查閱日期 2026-11-19）。根據已知資訊，Hyaluronidase 是能降解玻尿酸的酵素，用於玻璃體內時可發揮「藥物性玻璃體溶解」作用：使玻璃體凝膠液化、促進玻璃體後脫離，並協助清除玻璃體出血。
 
 糖尿病視網膜病變的病程與玻璃體–視網膜界面密切相關。玻璃體牽引、出血以及血管新生訊號都可能推動疾病進展。前臨床研究（糖尿病大鼠、HIF-1α 路徑、視網膜內皮糖萼）支持這條機轉在生物學上的合理性。
 
@@ -144,6 +144,19 @@ TxGNN 模型預測它可能對**糖尿病視網膜病變 (Diabetic Retinopathy)*
 - 取得詳細的作用機轉資料（DrugBank）。
 - 評估玻璃體內使用的安全性（發炎、眼壓、過敏）及與現有許可證劑型的給藥途徑相容性。
 - 若考慮重度非增殖性糖尿病視網膜病變，需設計有對照組的臨床試驗。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Hylenex Recombinant (hyaluronidase) prescribing information, Antares Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3023cc56-ed4b-4e87-b3a1-81b20943f658) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

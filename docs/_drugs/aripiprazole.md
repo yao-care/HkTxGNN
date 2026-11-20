@@ -54,7 +54,7 @@ Aripiprazole 是一種非典型抗精神病藥，作用在多巴胺與血清素�
 
 ## 為什麼這個預測合理？
 
-目前缺乏經 DrugBank 確認的詳細作用機轉資料。就藥理特性而言，aripiprazole 屬於多巴胺 D2 與血清素 5-HT1A 部分促效劑，同時拮抗 5-HT2A 受體。這種組合可調節多巴胺與血清素的整體張力，合理推測能增強抗憂鬱藥的反應。
+根據美國 FDA 核准的 Aripiprazole 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Aripiprazole 治療思覺失調症及第一型雙極性疾患的作用機轉尚不明。Aripiprazole 的療效可能是經由對多巴胺 D 2 及血清素 5-HT 1A 受體的部分致效劑活性，以及對 5-HT 2A 受體的拮抗劑活性共同介導。」英文原文："The mechanism of action of aripiprazole in the treatment of schizophrenia and bipolar I disorder is unknown. The efficacy of aripiprazole could be mediated through a combination of partial agonist activity at dopamine D 2 and serotonin 5-HT 1A receptors and antagonist activity at 5-HT 2A receptors."（[DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be)，版本日期 2025-04-04；查閱日期 2026-11-19）。就藥理特性而言，aripiprazole 屬於多巴胺 D2 與血清素 5-HT1A 部分促效劑，同時拮抗 5-HT2A 受體。這種組合可調節多巴胺與血清素的整體張力，合理推測能增強抗憂鬱藥的反應。
 
 重度情感性疾患涵蓋重度憂鬱症等情緒障礙。多項大型研究，包括 Phase 3 雙盲安慰劑對照試驗與退伍軍人事務部的 VAST-D 試驗，探討了 aripiprazole 輔助抗憂鬱藥用於療效不足的重度憂鬱症患者。多篇系統性回顧與網絡統合分析也討論了抗精神病藥作為輔助治療的角色。
 
@@ -137,11 +137,12 @@ Aripiprazole 是一種非典型抗精神病藥，作用在多巴胺與血清素�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本地資料共有 20 張單一成分許可證，皆為有效；以下列出 5 張，清單可能不完整」→「香港共有 53 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be) |
 
 <!-- review:end log -->
 

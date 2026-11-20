@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**結腸缺損性小眼症合併近端肢體發育
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Azathioprine 一般被歸類為嘌呤類抗代謝藥物，透過干擾嘌呤合成來抑制淋巴細胞增生，產生免疫抑制作用。
+ChEMBL（EMBL-EBI）收錄的 Azathioprine 作用機轉（非官方翻譯）：「醯胺磷酸核糖轉移酶（amidophosphoribosyltransferase）抑制劑；DNA 抑制劑」英文原文："Amidophosphoribosyltransferase inhibitor; DNA inhibitor"（[ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542)，CC BY-SA 3.0；查閱日期 2026-11-19）。Azathioprine 一般被歸類為嘌呤類抗代謝藥物，透過干擾嘌呤合成來抑制淋巴細胞增生，產生免疫抑制作用。
 
 預測的疾病是罕見的先天性發育異常症候群，特徵是眼部缺損、小眼症與肢體發育不良。這類疾病沒有已知的免疫介導機轉，所以 azathioprine 的免疫抑制作用在機轉上找不到合理的連結。
 
@@ -95,6 +95,19 @@ Azathioprine 在香港為已上市藥品，現有許可證均為有效狀態，�
 - 補齊作用機轉資料，並釐清有無任何生物學上的連結。
 - 取得香港原廠仿單的警語與禁忌資訊，完成安全性篩選。
 - 找到直接研究此疾病的臨床或前臨床證據，目前尚未發現。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

@@ -57,7 +57,7 @@ TxGNN 模型預測它可能對**橫紋肌肉瘤 (Rhabdomyosarcoma)** 有效，�
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，fluorouracil 是胸苷酸合成酶抑制劑與抗代謝藥物，可干擾 DNA/RNA 合成，對快速分裂的細胞具細胞毒性，理論上適用於增生快速的肉瘤。
+根據美國 FDA 核准的 Fluorouracil 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Fluorouracil 為一種核苷代謝抑制劑，會干擾去氧核糖核酸（DNA）的合成，並在較小程度上抑制核糖核酸（RNA）的形成；這些作用會影響快速生長的細胞，並可能導致細胞死亡。Fluorouracil 會轉換為三種主要活性代謝物：5-fluoro-2′-deoxyuridine-5′-monophosphate（FdUMP）、5-fluorouridine-5′triphosphate（FUTP）及 5-fluoro-2′-deoxyuridine-5′-triphosphate（FdUTP）。」英文原文："Fluorouracil is a nucleoside metabolic inhibitor that interferes with the synthesis of deoxyribonucleic acid (DNA) and to a lesser extent inhibits the formation of ribonucleic acid (RNA); these affect rapidly growing cells and may lead to cell death. Fluorouracil is converted to three main active metabolites: 5-fluoro-2′-deoxyuridine-5′-monophosphate (FdUMP), 5-fluorouridine-5′triphosphate (FUTP) and 5-fluoro-2′-deoxyuridine-5′-triphosphate (FdUTP)."（[DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b)，版本日期 2026-10-23；查閱日期 2026-11-19）。根據已知資訊，fluorouracil 是胸苷酸合成酶抑制劑與抗代謝藥物，可干擾 DNA/RNA 合成，對快速分裂的細胞具細胞毒性，理論上適用於增生快速的肉瘤。
 
 原適應症（皮膚癌、消化道腫瘤）與橫紋肌肉瘤同屬惡性增生性疾病，這可能是模型給出高分的原因。
 
@@ -136,11 +136,12 @@ TxGNN 模型預測它可能對**橫紋肌肉瘤 (Rhabdomyosarcoma)** 有效，�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「三張皆為單方製劑、狀態有效。」→「三張皆為單方製劑，其中 2 張有效、HK-40254 已註銷。」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b) |
 
 <!-- review:end log -->
 
