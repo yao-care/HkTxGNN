@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 650
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "OXCARBAZEPINE"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine：預測新適應症為Restless legs syndrome（證據等級 L4）。香港藥劑製品註冊：5 張（有效 5 張）"

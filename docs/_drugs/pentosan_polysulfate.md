@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 678
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "Pentosan polysulfate"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease"]
 description: "Pentosan Polysulfate：預測新適應症為血小板釋放功能異常 (primary release disorder of platelets)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"

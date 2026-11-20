@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CALCIUM GLYCEROPHOSPHATE"
 predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization", "potassium deficiency disease", "hypophosphatemia (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Calcium Glycerophosphate：預測新適應症為鈣鹼症候群 (calcium-alkali syndrome)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 

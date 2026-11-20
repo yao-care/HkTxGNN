@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 303
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
 description: "Dupilumab：預測新適應症為支氣管炎 (bronchitis)（證據等級 L3）。香港藥劑製品註冊：4 張（有效 4 張）"

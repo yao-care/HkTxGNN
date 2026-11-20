@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 792
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "RUFINAMIDE"
 predicted_indications: ["perioral myoclonia with absences"]
 description: "Rufinamide：預測新適應症為Perioral myoclonia with absences（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"

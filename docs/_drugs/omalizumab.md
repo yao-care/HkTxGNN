@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 description: "Omalizumab：預測新適應症為支氣管炎 (bronchitis)（證據等級 L5）。香港藥劑製品註冊：8 張（有效 8 張）"
 ---
 

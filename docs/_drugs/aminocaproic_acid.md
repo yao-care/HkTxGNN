@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 52
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "AMINOCAPROIC ACID"
 predicted_indications: ["severe nonproliferative diabetic retinopathy"]
 description: "Aminocaproic Acid：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 1 張）"

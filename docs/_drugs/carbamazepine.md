@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CARBAMAZEPINE"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Carbamazepine：預測新適應症為三叉神經腫瘤 (trigeminal nerve neoplasm)（證據等級 L5）。香港藥劑製品註冊：6 張（有效 6 張）"
 ---
 

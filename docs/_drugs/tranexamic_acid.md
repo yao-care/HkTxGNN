@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 895
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "TRANEXAMIC ACID"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Tranexamic Acid：預測新適應症為Amenorrhea (disease)（證據等級 L5）。香港藥劑製品註冊：21 張（有效 21 張）"

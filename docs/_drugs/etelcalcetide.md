@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 344
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "ETELCALCETIDE"
 predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease"]
 description: "Etelcalcetide：預測新適應症為高磷血症 (hyperphosphatemia (disease))（證據等級 L4）。香港藥劑製品註冊：3 張（有效 3 張）"

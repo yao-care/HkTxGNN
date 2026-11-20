@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 6
 monitor_inn: "PROGESTERONE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Progesterone：預測新適應症為乳房纖維囊腫病 (breast fibrocystic disease)（證據等級 L4）。香港藥劑製品註冊：10 張（有效 10 張）"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Vincristine"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Vincristine：預測新適應症為Vertebral anomalies and variable endocrine and T-cell dysfunction（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 

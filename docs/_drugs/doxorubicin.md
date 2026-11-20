@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 298
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "Doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
 description: "Doxorubicin：預測新適應症為尤因氏肉瘤 (Ewing sarcoma)（證據等級 L1）。香港藥劑製品註冊：7 張（有效 7 張）"

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 234
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "CYCLOPHOSPHAMIDE"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
 description: "Cyclophosphamide：預測新適應症為Vertebral anomalies and variable endocrine and T-cell dysfunction（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"

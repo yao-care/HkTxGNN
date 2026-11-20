@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 499
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
 description: "Ketorolac：預測新適應症為頭痛疾患 (headache disorder)（證據等級 L1）。香港藥劑製品註冊：5 張（有效 5 張）"

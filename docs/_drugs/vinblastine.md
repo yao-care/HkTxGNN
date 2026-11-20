@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 936
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "Vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
 description: "Vinblastine：預測新適應症為橫紋肌肉瘤 (rhabdomyosarcoma (disease))（證據等級 L4）。香港藥劑製品註冊：3 張（有效 3 張）"

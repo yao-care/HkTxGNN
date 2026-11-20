@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 587
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "Milnacipran"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "tendinitis", "papillary conjunctivitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "atrophoderma vermiculata", "cauda equina syndrome"]
 description: "Milnacipran：預測新適應症為偏頭痛 (migraine disorder)（證據等級 L3）。香港藥劑製品註冊：2 張（有效 2 張）"

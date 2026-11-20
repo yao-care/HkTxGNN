@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "TIPIRACIL"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Tipiracil：預測新適應症為盲腸絨毛狀腺瘤 (cecum villous adenoma)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 

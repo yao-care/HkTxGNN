@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 582
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "MICAFUNGIN"
 predicted_indications: ["urinary tract infection (disease)"]
 description: "Micafungin：預測新適應症為泌尿道感染 (urinary tract infection (disease))（證據等級 L3）。香港藥劑製品註冊：1 張（有效 1 張）"

@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 845
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-20
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus：預測新適應症為脂漏性皮膚炎 (seborrheic dermatitis)（證據等級 L2）。香港藥劑製品註冊：45 張（有效 45 張）"

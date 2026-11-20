@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 762
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "REGADENOSON"
 predicted_indications: ["anaphylaxis", "food-dependent exercise-induced anaphylaxis", "esotropia", "pseudoallergy"]
 description: "Regadenoson：預測新適應症為過敏性休克 (anaphylaxis)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"

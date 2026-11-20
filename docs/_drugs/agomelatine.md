@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "AGOMELATINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Agomelatine：預測新適應症為嬰兒良性陣發性斜頸 (benign paroxysmal torticollis of infancy)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 

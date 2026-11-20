@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CABERGOLINE"
 predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Cabergoline：預測新適應症為早老症-身材矮小-色素痣症候群 (progeria-short stature-pigmented nevi syndrome)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 

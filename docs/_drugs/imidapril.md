@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "Imidapril"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome"]
 description: "Imidapril：預測新適應症為原因不明的多因素肺高壓 (pulmonary hypertension with unclear multifactorial mechanism)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"

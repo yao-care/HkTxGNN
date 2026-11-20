@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Pemetrexed：預測新適應症為Pleural adenomatoid tumor（證據等級 L5）。香港藥劑製品註冊：17 張（有效 17 張）"
 ---
 

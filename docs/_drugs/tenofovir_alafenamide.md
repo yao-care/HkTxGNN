@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 858
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "TENOFOVIR ALAFENAMIDE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Tenofovir Alafenamide：預測新適應症為猴免疫缺陷病毒感染 (simian immunodeficiency virus infection)（證據等級 L4）。香港藥劑製品註冊：7 張（有效 7 張）"

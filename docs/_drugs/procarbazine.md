@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 735
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "PROCARBAZINE"
 predicted_indications: ["follicular lymphoma", "neuroblastoma", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
 description: "Procarbazine：預測新適應症為濾泡性淋巴瘤 (follicular lymphoma)（證據等級 L3）。香港藥劑製品註冊：1 張（有效 1 張）"

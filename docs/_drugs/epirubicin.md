@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 328
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "Epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
 description: "Epirubicin：預測新適應症為原發性肺淋巴瘤 (primary pulmonary lymphoma)（證據等級 L5）。香港藥劑製品註冊：10 張（有效 10 張）"

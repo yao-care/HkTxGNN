@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "Hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Hydroxyzine：預測新適應症為Rosacea conjunctivitis（證據等級 L5）。香港藥劑製品註冊：11 張（有效 11 張）"

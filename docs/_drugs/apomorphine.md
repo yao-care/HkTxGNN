@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Apomorphine"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "syndromic myopia", "hydranencephaly (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Apomorphine：預測新適應症為外側裂周圍多小腦迴畸形，伴小腦發育不全與關節攣縮 (polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 

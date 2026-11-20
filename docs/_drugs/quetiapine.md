@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "QUETIAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Quetiapine：預測新適應症為Retinal dystrophy with or without extraocular anomalies（證據等級 L5）。香港藥劑製品註冊：59 張（有效 59 張）"
 ---
 

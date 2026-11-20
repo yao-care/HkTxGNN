@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "IMIPENEM"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Imipenem：預測新適應症為瀰漫性硬皮症 (diffuse scleroderma)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 

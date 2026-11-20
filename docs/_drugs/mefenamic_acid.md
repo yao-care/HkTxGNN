@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 6
 monitor_inn: "MEFENAMIC ACID"
 predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Mefenamic Acid：預測新適應症為頭痛疾患 (headache disorder)（證據等級 L2）。香港藥劑製品註冊：74 張（有效 73 張）"
 ---
 

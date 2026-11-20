@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "Distigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly", "fetal akinesia deformation sequence", "congenital myasthenic syndrome with tubular aggregates", "myasthenia, congenital, refractory to acetylcholinesterase inhibitors"]
 description: "Distigmine：預測新適應症為Autoimmune disease of peripheral nervous system（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"

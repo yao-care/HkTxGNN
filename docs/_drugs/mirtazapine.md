@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 591
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "MIRTAZAPINE"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
 description: "Mirtazapine：預測新適應症為Ohdo 症候群及其變異型 (Ohdo syndrome and variants)（證據等級 L5）。香港藥劑製品註冊：20 張（有效 18 張）"

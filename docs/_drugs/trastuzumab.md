@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Trastuzumab：預測新適應症為惡性皮膚顆粒細胞瘤 (malignant cutaneous granular cell skin tumor)（證據等級 L5）。香港藥劑製品註冊：13 張（有效 11 張）"
 ---
 

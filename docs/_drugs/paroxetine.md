@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 668
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "PAROXETINE"
 predicted_indications: ["Ohdo syndrome and variants"]
 description: "Paroxetine：預測新適應症為Ohdo 症候群及其變異型 (Ohdo syndrome and variants)（證據等級 L5）。香港藥劑製品註冊：9 張（有效 9 張）"

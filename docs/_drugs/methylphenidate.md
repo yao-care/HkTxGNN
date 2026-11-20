@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 575
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 description: "Methylphenidate：預測新適應症為顏面指趾生殖器症候群 (faciodigitogenital syndrome)（證據等級 L5）。香港藥劑製品註冊：29 張（有效 29 張）"

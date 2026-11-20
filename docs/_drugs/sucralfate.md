@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 836
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "SUCRALFATE"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 description: "Sucralfate：預測新適應症為十二指腸胃逆流 (duodenogastric reflux)（證據等級 L2）。香港藥劑製品註冊：5 張（有效 5 張）"

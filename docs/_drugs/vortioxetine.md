@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 942
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "VORTIOXETINE"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 description: "Vortioxetine：預測新適應症為神經症 (neurotic disorder)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"

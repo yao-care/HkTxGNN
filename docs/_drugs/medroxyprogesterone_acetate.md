@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 6
 monitor_inn: "MEDROXYPROGESTERONE ACETATE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Medroxyprogesterone Acetate：預測新適應症為乳房纖維囊腫病 (breast fibrocystic disease)（證據等級 L3）。香港藥劑製品註冊：10 張（有效 9 張）"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 2
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 description: "Alprazolam：預測新適應症為失眠 (insomnia (disease))（證據等級 L3）。香港藥劑製品註冊：14 張（有效 14 張）"
 ---
 

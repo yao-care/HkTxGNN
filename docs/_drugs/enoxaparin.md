@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 320
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
 description: "Enoxaparin：預測新適應症為體染色體隱性蛋白 C 缺乏所致血栓形成傾向 (thrombophilia due to protein C deficiency, autosomal recessive)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"

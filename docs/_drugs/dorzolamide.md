@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "DORZOLAMIDE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
 description: "Dorzolamide：預測新適應症為Hypotrichosis simplex of the scalp（證據等級 L5）。香港藥劑製品註冊：10 張（有效 10 張）"

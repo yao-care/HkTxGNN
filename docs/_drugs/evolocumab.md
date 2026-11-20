@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 359
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "Evolocumab"
 predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
 description: "Evolocumab：預測新適應症為女性帶因者的症狀型血友病 (symptomatic form of hemophilia in female carriers)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"

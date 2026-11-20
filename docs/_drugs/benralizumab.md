@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "BENRALIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Benralizumab：預測新適應症為免疫性血小板減少症 (thrombocytopenia due to immune destruction)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 

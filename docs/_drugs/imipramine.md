@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 464
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "Imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
 description: "Imipramine：預測新適應症為注意力不足過動症 (attention deficit-hyperactivity disorder)（證據等級 L3）。香港藥劑製品註冊：3 張（有效 3 張）"

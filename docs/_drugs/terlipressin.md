@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 866
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "Terlipressin"
 predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder"]
 description: "Terlipressin：預測新適應症為Open-angle glaucoma（證據等級 L5）。香港藥劑製品註冊：6 張（有效 6 張）"

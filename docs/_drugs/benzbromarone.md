@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "BENZBROMARONE"
 predicted_indications: ["hypouricemia, renal"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Benzbromarone：預測新適應症為腎性低尿酸血症 (hypouricemia, renal)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 

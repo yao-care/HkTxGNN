@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 802
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
 description: "Selegiline：預測新適應症為Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "SALMETEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Salmeterol：預測新適應症為呼吸道畸形 (respiratory malformation)（證據等級 L5）。香港藥劑製品註冊：15 張（有效 15 張）"
 ---
 

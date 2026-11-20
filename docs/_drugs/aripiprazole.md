@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "ARIPIPRAZOLE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Aripiprazole：預測新適應症為Gaze palsy, familial horizontal, with progressive scoliosis（證據等級 L5）。香港藥劑製品註冊：53 張（有效 53 張）"
 ---
 

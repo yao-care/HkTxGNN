@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 196
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "CIDOFOVIR"
 predicted_indications: ["sclerosing cholangitis", "rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 description: "Cidofovir：預測新適應症為硬化性膽管炎 (sclerosing cholangitis)（證據等級 L5）."

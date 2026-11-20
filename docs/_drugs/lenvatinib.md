@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 519
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "Lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
 description: "Lenvatinib：預測新適應症為脂肪肉瘤 (liposarcoma)（證據等級 L3）。香港藥劑製品註冊：2 張（有效 2 張）"

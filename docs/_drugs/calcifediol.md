@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CALCIFEDIOL"
 predicted_indications: ["renal tubular acidosis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Calcifediol：預測新適應症為Renal tubular acidosis（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 

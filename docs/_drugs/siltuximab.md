@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 813
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "Siltuximab"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
 description: "Siltuximab：預測新適應症為Extracutaneous mastocytoma（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"

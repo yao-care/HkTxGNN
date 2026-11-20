@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 237
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "Cyproheptadine"
 predicted_indications: ["nasal cavity disease"]
 description: "Cyproheptadine：預測新適應症為Nasal cavity disease（證據等級 L5）。香港藥劑製品註冊：17 張（有效 17 張）"

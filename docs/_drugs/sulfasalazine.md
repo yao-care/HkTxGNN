@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "SULFASALAZINE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Sulfasalazine：預測新適應症為Brachydactyly-syndactyly syndrome（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"
 ---
 

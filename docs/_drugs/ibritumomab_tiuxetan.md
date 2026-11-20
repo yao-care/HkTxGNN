@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "IBRITUMOMAB TIUXETAN"
 predicted_indications: ["acute lymphoblastic/lymphocytic leukemia", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "mantle cell lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Ibritumomab Tiuxetan：預測新適應症為Acute lymphoblastic/lymphocytic leukemia（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 

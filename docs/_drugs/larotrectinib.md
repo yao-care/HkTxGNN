@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "Larotrectinib"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
 description: "Larotrectinib：預測新適應症為多發性內分泌腫瘤 (multiple endocrine neoplasia)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"

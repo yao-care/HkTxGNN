@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "BEXAROTENE"
 predicted_indications: ["primary cutaneous B-cell lymphoma", "lymphosarcoma"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Bexarotene：預測新適應症為原發性皮膚 B 細胞淋巴瘤 (primary cutaneous B-cell lymphoma)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 

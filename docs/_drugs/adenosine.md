@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ADENOSINE"
 predicted_indications: ["obsolete bundle branch block"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Adenosine：預測新適應症為已廢棄的束支傳導阻滯 (obsolete bundle branch block)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 

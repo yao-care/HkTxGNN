@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 532
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "LINCOMYCIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
 description: "Lincomycin：預測新適應症為高澱粉酶血症 (hyperamylasemia)（證據等級 L5）。香港藥劑製品註冊：7 張（有效 6 張）"

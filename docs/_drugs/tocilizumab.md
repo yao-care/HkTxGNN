@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 description: "Tocilizumab：預測新適應症為僵直性脊椎炎 (ankylosing spondylitis)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 

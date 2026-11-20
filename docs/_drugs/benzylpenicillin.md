@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "BENZYLPENICILLIN"
 predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "ulcerative stomatitis", "chemotherapy-induced oral mucositis", "denture stomatitis", "leukoplakia of gingiva"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Benzylpenicillin：預測新適應症為智齒冠周炎 (pericoronitis)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 

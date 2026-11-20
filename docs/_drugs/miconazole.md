@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 583
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole：預測新適應症為痤瘡 (acne (disease))（證據等級 L4）。香港藥劑製品註冊：86 張（有效 85 張）"

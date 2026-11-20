@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ICATIBANT"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Icatibant：預測新適應症為Serpinopathy with toxic serpin polymerization（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 

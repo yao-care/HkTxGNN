@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "CITRIC ACID"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Citric Acid：預測新適應症為胃部疾病 (stomach disease)（證據等級 L5）。香港藥劑製品註冊：6 張（有效 6 張）"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Aflibercept"
 predicted_indications: ["esotropia"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Aflibercept：預測新適應症為內斜視 (esotropia)（證據等級 L5）。香港藥劑製品註冊：7 張（有效 7 張）"
 ---
 

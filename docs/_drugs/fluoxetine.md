@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "FLUOXETINE"
 predicted_indications: ["paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Fluoxetine：預測新適應症為妄想型人格障礙 (paranoid personality disorder)（證據等級 L5）。香港藥劑製品註冊：22 張（有效 22 張）"
 ---
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "ENZALUTAMIDE"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
 description: "Enzalutamide：預測新適應症為Prostate leiomyoma（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
