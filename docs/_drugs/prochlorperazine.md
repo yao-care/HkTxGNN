@@ -60,7 +60,7 @@ TxGNN 模型預測分數最高的新適應症是**視網膜失養症 (retinal dy
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Prochlorperazine 作用機轉（非官方翻譯）：「多巴胺 D2 受體拮抗劑」英文原文："Dopamine D2 receptor antagonist"（[ChEMBL CHEMBL728 (prochlorperazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL728)，CC BY-SA 3.0；查閱日期 2026-11-19）。Prochlorperazine 屬於吩噻嗪類藥物，一般認為其作用為多巴胺 D2 受體拮抗，這也是抗精神病藥效的基礎。
+ChEMBL（EMBL-EBI）收錄的 Prochlorperazine 作用機轉（非官方翻譯）：「多巴胺 D2 受體拮抗劑」。英文原文："Dopamine D2 receptor antagonist"（[ChEMBL CHEMBL728 (prochlorperazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL728)，CC BY-SA 3.0；查閱日期 2026-11-19）。Prochlorperazine 屬於吩噻嗪類藥物，一般認為其作用為多巴胺 D2 受體拮抗，這也是抗精神病藥效的基礎。
 
 首位預測的視網膜失養症，是由光受體或視網膜色素上皮功能的單基因缺陷所致，D2 拮抗作用與這些路徑之間沒有已知關聯。此高分應視為模型預測，並無試驗或文獻佐證，**無法認為機轉上合理**。
 
@@ -142,7 +142,7 @@ ChEMBL（EMBL-EBI）收錄的 Prochlorperazine 作用機轉（非官方翻譯）
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「本品共有 12 張有效單方許可證，上表僅列出其中 5 張。」→「香港共有 13 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL728 (prochlorperazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL728) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL728 (prochlorperazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL728) |
 
 <!-- review:end log -->
 

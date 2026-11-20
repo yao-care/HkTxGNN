@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**上呼吸消化道腫瘤 (Upper Aerodigestive Tr
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Dacarbazine 作用機轉（非官方翻譯）：「DNA 抑制劑」英文原文："DNA inhibitor"（[ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據一般藥理知識，Dacarbazine 是烷化劑，屬 DNA 甲基化前驅藥，經肝臟 CYP 代謝活化為 MTIC 後發揮細胞毒性。
+ChEMBL（EMBL-EBI）收錄的 Dacarbazine 作用機轉（非官方翻譯）：「DNA 抑制劑」。英文原文："DNA inhibitor"（[ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據一般藥理知識，Dacarbazine 是烷化劑，屬 DNA 甲基化前驅藥，經肝臟 CYP 代謝活化為 MTIC 後發揮細胞毒性。
 
 原適應症與新適應症之間的關聯主要是**部位上的間接關聯**：黑色素瘤可轉移至頭頸或上呼吸消化道黏膜，何杰金氏淋巴瘤也可侵犯頭頸部的結外或淋巴結部位。
 
@@ -145,7 +145,7 @@ ChEMBL（EMBL-EBI）收錄的 Dacarbazine 作用機轉（非官方翻譯）：�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**良性舌部腫瘤 (Benign Neoplasm of Tongue)**
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Palivizumab 作用機轉（非官方翻譯）：「融合醣蛋白 F0 抑制劑」英文原文："Fusion glycoprotein F0 inhibitor"（[ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Palivizumab 是一種人源化單株抗體，標靶為 RSV 的 F 蛋白，作用是中和病毒。
+ChEMBL（EMBL-EBI）收錄的 Palivizumab 作用機轉（非官方翻譯）：「融合醣蛋白 F0 抑制劑」。英文原文："Fusion glycoprotein F0 inhibitor"（[ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Palivizumab 是一種人源化單株抗體，標靶為 RSV 的 F 蛋白，作用是中和病毒。
 
 這個機轉與良性舌部腫瘤的生物學之間，**找不到合理的關聯**。藥物對腫瘤組織沒有已知的標靶或作用路徑。0.9994 的高分來自 TxGNN 模型（深度學習），較可能反映模型學到的相關疾病之間的相似性，而非生物學上的依據。
 
@@ -104,7 +104,7 @@ ChEMBL（EMBL-EBI）收錄的 Palivizumab 作用機轉（非官方翻譯）：�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586) |
 
 <!-- review:end log -->
 

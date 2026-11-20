@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**點狀上皮角結膜炎 (Punctate Epithelial Ke
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Bacitracin 作用機轉（非官方翻譯）：「C55-異戊二烯焦磷酸（C55-isoprenyl pyrophosphate）抑制劑」英文原文："C55-isoprenyl pyrophosphate inhibitor"（[ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Bacitracin 是一種作用於細菌細胞壁合成的抗生素，主要對革蘭氏陽性菌有效，並常與 neomycin、polymyxin B 組成複方外用製劑。
+ChEMBL（EMBL-EBI）收錄的 Bacitracin 作用機轉（非官方翻譯）：「C55-異戊二烯焦磷酸（C55-isoprenyl pyrophosphate）抑制劑」。英文原文："C55-isoprenyl pyrophosphate inhibitor"（[ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Bacitracin 是一種作用於細菌細胞壁合成的抗生素，主要對革蘭氏陽性菌有效，並常與 neomycin、polymyxin B 組成複方外用製劑。
 
 點狀上皮角結膜炎與 Bacitracin 已核准的眼部感染適應症在解剖位置上相近，因此模型預測具有生物學上的鄰近性。
 
@@ -157,7 +157,7 @@ ChEMBL（EMBL-EBI）收錄的 Bacitracin 作用機轉（非官方翻譯）：「
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「目前於香港有 13 張有效單方許可證」→「目前於香港有 17 張有效許可證（多數為與 neomycin、polymyxin」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558) |
 
 <!-- review:end log -->
 

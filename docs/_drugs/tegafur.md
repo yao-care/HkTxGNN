@@ -54,7 +54,7 @@ Tegafur 是 5-氟尿嘧啶（5-FU）的口服前驅藥，知識圖譜中記錄�
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Tegafur 作用機轉（非官方翻譯）：「RNA 抑制劑；胸苷酸合成酶抑制劑；DNA 抑制劑」英文原文："RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor"（[ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883)，CC BY-SA 3.0；查閱日期 2026-11-19）。以下根據一般藥理知識說明：Tegafur 是 5-FU 的口服前驅藥，主要經肝臟 CYP2A6 轉換為 5-FU。5-FU 屬於氟嘧啶類抗代謝藥物，可抑制胸苷酸合成酶（thymidylate synthase），並嵌入 RNA/DNA。
+ChEMBL（EMBL-EBI）收錄的 Tegafur 作用機轉（非官方翻譯）：「RNA 抑制劑；胸苷酸合成酶抑制劑；DNA 抑制劑」。英文原文："RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor"（[ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883)，CC BY-SA 3.0；查閱日期 2026-11-19）。以下根據一般藥理知識說明：Tegafur 是 5-FU 的口服前驅藥，主要經肝臟 CYP2A6 轉換為 5-FU。5-FU 屬於氟嘧啶類抗代謝藥物，可抑制胸苷酸合成酶（thymidylate synthase），並嵌入 RNA/DNA。
 
 這個機轉並不限於胃組織，因此直接適用於大腸直腸腺癌，而氟嘧啶本來就是大腸直腸癌的核心治療。與尿嘧啶合用（UFT）可抑制 DPD 對 5-FU 的分解；與 leucovorin 合用則可穩定 TS 抑制複合物。
 
@@ -157,7 +157,7 @@ ChEMBL（EMBL-EBI）收錄的 Tegafur 作用機轉（非官方翻譯）：「RNA
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「共 6 張有效許可證。」→「共 6 張許可證，其中 5 張有效、HK-48265（UNITORAL CAP）」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883) |
 
 <!-- review:end log -->
 

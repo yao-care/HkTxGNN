@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**外陰炎 (vulvitis)** 有效，
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Tioconazole 作用機轉（非官方翻譯）：「細胞色素 P450 51 抑制劑」英文原文："Cytochrome P450 51 inhibitor"（[ChEMBL CHEMBL1200438 (tioconazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200438)，CC BY-SA 3.0；查閱日期 2026-11-19）。此酶負責把 lanosterol 轉為細胞壁成分麥角固醇，缺乏麥角固醇則病原體無法存活。此外，它也會抑制人類 CYP8B1（膽酸合成途徑中的酵素）。
+ChEMBL（EMBL-EBI）收錄的 Tioconazole 作用機轉（非官方翻譯）：「細胞色素 P450 51 抑制劑」。英文原文："Cytochrome P450 51 inhibitor"（[ChEMBL CHEMBL1200438 (tioconazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200438)，CC BY-SA 3.0；查閱日期 2026-11-19）。此酶負責把 lanosterol 轉為細胞壁成分麥角固醇，缺乏麥角固醇則病原體無法存活。此外，它也會抑制人類 CYP8B1（膽酸合成途徑中的酵素）。
 
 若外陰炎由念珠菌引起，這個抗黴菌機轉在理論上適用。然而，納入的研究多是陰道念珠菌感染的病人，而非單純外陰炎，因此對外陰炎這個疾病本身屬間接證據。若是非感染性外陰炎（接觸性、刺激性或發炎性），則與此藥物沒有合理的機轉關聯。
 
@@ -117,7 +117,7 @@ ChEMBL（EMBL-EBI）收錄的 Tioconazole 作用機轉（非官方翻譯）：�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL1200438 (tioconazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200438) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL1200438 (tioconazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200438) |
 
 <!-- review:end log -->
 

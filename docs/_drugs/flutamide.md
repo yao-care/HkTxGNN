@@ -62,7 +62,7 @@ TxGNN 模型預測排名第一的新適應症為**攝護腺纖維瘤 (fibroma of
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Flutamide 作用機轉（非官方翻譯）：「雄性素受體拮抗劑」英文原文："Androgen Receptor antagonist"（[ChEMBL CHEMBL806 (flutamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL806)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Flutamide 屬於雄性素受體拮抗劑，攝護腺組織依賴雄性素，因此在機轉上對雄性素依賴的攝護腺良性腫瘤（如纖維瘤、平滑肌瘤）有理論上的合理性。
+ChEMBL（EMBL-EBI）收錄的 Flutamide 作用機轉（非官方翻譯）：「雄性素受體拮抗劑」。英文原文："Androgen Receptor antagonist"（[ChEMBL CHEMBL806 (flutamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL806)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Flutamide 屬於雄性素受體拮抗劑，攝護腺組織依賴雄性素，因此在機轉上對雄性素依賴的攝護腺良性腫瘤（如纖維瘤、平滑肌瘤）有理論上的合理性。
 
 不過，這些疾病極為罕見，既無臨床試驗也無文獻支持。高分來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據，屬於模型預測，並非臨床證據。
 
@@ -153,7 +153,7 @@ Flutamide 為攝護腺癌用的抗雄性素藥物。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL806 (flutamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL806) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL806 (flutamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL806) |
 
 <!-- review:end log -->
 

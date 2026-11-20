@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對 **Plummer-Vinson 症候群 (Plummer-Vinson syndro
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Docusate 作用機轉（非官方翻譯）：「表面活性劑類輕瀉劑」英文原文："Surfactant laxative"（[ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036)，CC BY-SA 3.0；查閱日期 2026-11-19）。Docusate 屬於陰離子界面活性劑型軟便劑，一般認為它在腸道局部作用，增加水分滲入糞便而使其變軟。
+ChEMBL（EMBL-EBI）收錄的 Docusate 作用機轉（非官方翻譯）：「表面活性劑類輕瀉劑」。英文原文："Surfactant laxative"（[ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036)，CC BY-SA 3.0；查閱日期 2026-11-19）。Docusate 屬於陰離子界面活性劑型軟便劑，一般認為它在腸道局部作用，增加水分滲入糞便而使其變軟。
 
 Plummer-Vinson 症候群的特徵是缺鐵性貧血合併吞嚥困難與食道蹼。此預測分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性（例如各類貧血與 Plummer-Vinson 症候群在臨床上相關），並非生物學上的直接證據。
 
@@ -129,7 +129,7 @@ Plummer-Vinson 症候群的特徵是缺鐵性貧血合併吞嚥困難與食道�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036) |
 
 <!-- review:end log -->
 

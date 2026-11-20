@@ -63,7 +63,7 @@ TxGNN 模型預測它可能對**暴露性角膜炎 (Exposure Keratitis)** 有效
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Fusidic Acid 作用機轉（非官方翻譯）：「延長因子G抑制劑」英文原文："Elongation factor G inhibitor"（[ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975)，CC BY-SA 3.0；查閱日期 2026-11-19）。就已知的藥理特性而言，fusidic acid 透過抑制細菌延長因子 EF-G 來阻斷蛋白質合成，對金黃色葡萄球菌等革蘭氏陽性菌有較強活性。香港有眼用黏稠滴眼液（FUCITHALMIC）的許可證，顯示眼表面細菌感染使用在生物學上說得通。
+ChEMBL（EMBL-EBI）收錄的 Fusidic Acid 作用機轉（非官方翻譯）：「延長因子G抑制劑」。英文原文："Elongation factor G inhibitor"（[ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975)，CC BY-SA 3.0；查閱日期 2026-11-19）。就已知的藥理特性而言，fusidic acid 透過抑制細菌延長因子 EF-G 來阻斷蛋白質合成，對金黃色葡萄球菌等革蘭氏陽性菌有較強活性。香港有眼用黏稠滴眼液（FUCITHALMIC）的許可證，顯示眼表面細菌感染使用在生物學上說得通。
 
 不過，暴露性角膜炎主要是眼瞼閉合不全造成的乾燥與機械性損傷，並非primarily 感染性疾病。抗菌藥物最多只能在併發繼發性細菌感染時發揮作用，不能處理疾病的根本原因。
 
@@ -129,7 +129,7 @@ ChEMBL（EMBL-EBI）收錄的 Fusidic Acid 作用機轉（非官方翻譯）：�
 |------|------|------|------|
 | 2026-11-17 | 「&#124; 核准數量 &#124; 至少 20 張許可證（清單可能不完整） &#124;」→「&#124; 核准數量 &#124; 25 張（全部有效；單一成分 17 張、複」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
 | 2026-11-17 | 「以下為資料中列出的部分許可證（清單可能不完整，總數至少 20 張）。」→「以下為資料中列出的部分許可證（共 25 張含本藥成分的許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975) |
 
 <!-- review:end log -->
 

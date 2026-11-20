@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**猴免疫缺陷病毒感染 (Simian Immunodefici
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Lopinavir 作用機轉（非官方翻譯）：「第1型人類免疫缺乏病毒蛋白酶抑制劑」英文原文："Human immunodeficiency virus type 1 protease inhibitor"（[ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，lopinavir 是 HIV 蛋白酶抑制劑，通常與 ritonavir 合併使用，其對 HIV 的療效是此預測的基礎。
+ChEMBL（EMBL-EBI）收錄的 Lopinavir 作用機轉（非官方翻譯）：「第1型人類免疫缺乏病毒蛋白酶抑制劑」。英文原文："Human immunodeficiency virus type 1 protease inhibitor"（[ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，lopinavir 是 HIV 蛋白酶抑制劑，通常與 ritonavir 合併使用，其對 HIV 的療效是此預測的基礎。
 
 SIV 是與 HIV 親緣相近的慢病毒，其蛋白酶與 HIV-1 蛋白酶結構相似，而 HIV-1 蛋白酶正是 lopinavir 的已知標靶，因此機轉上的類推有一定合理性。
 
@@ -118,7 +118,7 @@ SIV 是與 HIV 親緣相近的慢病毒，其蛋白酶與 HIV-1 蛋白酶結構�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
 
 <!-- review:end log -->
 

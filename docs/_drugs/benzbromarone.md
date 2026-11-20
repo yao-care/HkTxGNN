@@ -55,7 +55,7 @@ TxGNN 模型預測它可能與**腎性低尿酸血症 (hypouricemia, renal)** �
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Benzbromarone 作用機轉（非官方翻譯）：「溶質載體家族22成員12抑制劑」英文原文："Solute carrier family 22 member 12 inhibitor"（[ChEMBL CHEMBL388590 (benzbromarone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL388590)，CC BY-SA 3.0；查閱日期 2026-11-19）。Benzbromarone 是強效的 URAT1（SLC22A12）抑制劑，能阻斷腎小管對尿酸的再吸收，增加尿酸排泄。
+ChEMBL（EMBL-EBI）收錄的 Benzbromarone 作用機轉（非官方翻譯）：「溶質載體家族22成員12抑制劑」。英文原文："Solute carrier family 22 member 12 inhibitor"（[ChEMBL CHEMBL388590 (benzbromarone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL388590)，CC BY-SA 3.0；查閱日期 2026-11-19）。Benzbromarone 是強效的 URAT1（SLC22A12）抑制劑，能阻斷腎小管對尿酸的再吸收，增加尿酸排泄。
 
 腎性低尿酸血症本身正是由 URAT1（或 GLUT9）功能喪失變異所造成，表現為尿酸排泄過多、血清尿酸偏低。因此 benzbromarone 的藥理作用是**模擬疾病機轉，而非矯正它**。0.9907 的高分很可能反映模型中藥物標靶與疾病基因共享 URAT1 這個節點，而不是真正的治療關聯。
 
@@ -117,7 +117,7 @@ ChEMBL（EMBL-EBI）收錄的 Benzbromarone 作用機轉（非官方翻譯）：
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL388590 (benzbromarone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL388590) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL388590 (benzbromarone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL388590) |
 
 <!-- review:end log -->
 

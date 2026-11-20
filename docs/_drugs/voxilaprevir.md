@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對 **B 型肝炎病毒感染 (Hepatitis B Virus Infe
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Voxilaprevir 作用機轉（非官方翻譯）：「C型肝炎病毒絲胺酸蛋白酶NS3/NS4A抑制劑」英文原文："Hepatitis C virus serine protease, NS3/NS4A inhibitor"（[ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Voxilaprevir 是 HCV NS3/4A 蛋白酶抑制劑，在 C 型肝炎中的角色已被廣泛研究，常與 sofosbuvir、velpatasvir 組成複方使用。
+ChEMBL（EMBL-EBI）收錄的 Voxilaprevir 作用機轉（非官方翻譯）：「C型肝炎病毒絲胺酸蛋白酶NS3/NS4A抑制劑」。英文原文："Hepatitis C virus serine protease, NS3/NS4A inhibitor"（[ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Voxilaprevir 是 HCV NS3/4A 蛋白酶抑制劑，在 C 型肝炎中的角色已被廣泛研究，常與 sofosbuvir、velpatasvir 組成複方使用。
 
 從機轉上看，這個預測的支持度很弱。B 型肝炎病毒不編碼 NS3/4A 類型的絲胺酸蛋白酶，而是依賴反轉錄酶／聚合酶與衣殼相關機制，因此與 voxilaprevir 的標靶沒有明確同源性。這個分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。
 
@@ -125,7 +125,7 @@ ChEMBL（EMBL-EBI）收錄的 Voxilaprevir 作用機轉（非官方翻譯）：�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372) |
 
 <!-- review:end log -->
 

@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Dexketoprofen 作用機轉（非官方翻譯）：「環氧化酶抑制劑」英文原文："Cyclooxygenase inhibitor"（[ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435)，CC BY-SA 3.0；查閱日期 2026-11-19）。依一般藥理知識，Dexketoprofen 屬於 NSAID，透過抑制環氧合酶（COX-1/COX-2）減少前列腺素生成，進而降低發炎與疼痛。
+ChEMBL（EMBL-EBI）收錄的 Dexketoprofen 作用機轉（非官方翻譯）：「環氧化酶抑制劑」。英文原文："Cyclooxygenase inhibitor"（[ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435)，CC BY-SA 3.0；查閱日期 2026-11-19）。依一般藥理知識，Dexketoprofen 屬於 NSAID，透過抑制環氧合酶（COX-1/COX-2）減少前列腺素生成，進而降低發炎與疼痛。
 
 偏頭痛發作時，前列腺素參與神經性發炎與痛覺訊號傳遞，因此 COX 抑制劑理論上可以緩解疼痛。這個機轉推論也得到臨床證據支持：一項隨機對照試驗的統合分析（PMID 31725614）、急診室靜脈注射 Dexketoprofen 對照安慰劑的 RCT（PMID 25944813），以及口服 Dexketoprofen trometamol 的第二期 RCT（PMID 24412801）。
 
@@ -140,7 +140,7 @@ ChEMBL（EMBL-EBI）收錄的 Dexketoprofen 作用機轉（非官方翻譯）：
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435) |
 
 <!-- review:end log -->
 

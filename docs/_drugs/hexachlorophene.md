@@ -62,7 +62,7 @@ TxGNN 模型預測它可能對**脂漏性角化症 (Seborrheic Keratosis)** 有�
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Hexachlorophene 作用機轉（非官方翻譯）：「細菌烯醯-[醯基載體蛋白]還原酶抑制劑」英文原文："Bacterial enoyl-[acyl-carrier-protein] reductase inhibitor"（[ChEMBL CHEMBL496 (hexachlorophene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL496)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Hexachlorophene 是雙酚類抗菌消毒劑，主要作用於細菌細胞膜並抑制酶活性。另有資料顯示，它可能作為 SHP2 抑制劑，在 KRAS 突變癌細胞中抑制 RAS/MEK/ERK 與 PI3K/AKT 訊號路徑，但這與皮膚疾病的關聯尚未建立。
+ChEMBL（EMBL-EBI）收錄的 Hexachlorophene 作用機轉（非官方翻譯）：「細菌烯醯-[醯基載體蛋白]還原酶抑制劑」。英文原文："Bacterial enoyl-[acyl-carrier-protein] reductase inhibitor"（[ChEMBL CHEMBL496 (hexachlorophene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL496)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Hexachlorophene 是雙酚類抗菌消毒劑，主要作用於細菌細胞膜並抑制酶活性。另有資料顯示，它可能作為 SHP2 抑制劑，在 KRAS 突變癌細胞中抑制 RAS/MEK/ERK 與 PI3K/AKT 訊號路徑，但這與皮膚疾病的關聯尚未建立。
 
 脂漏性角化症是良性的表皮腫瘤，沒有已知的感染性成因，因此抗菌作用與其病理機轉沒有合理的關聯。這個高分預測的分數來自 TxGNN 模型（深度學習），可能只是反映模型從相關疾病之間學到的相似性，不是生物學證據，也不代表藥理上有效。
 
@@ -150,7 +150,7 @@ ChEMBL（EMBL-EBI）收錄的 Hexachlorophene 作用機轉（非官方翻譯）�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL496 (hexachlorophene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL496) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL496 (hexachlorophene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL496) |
 
 <!-- review:end log -->
 

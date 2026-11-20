@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對 **B 型肝炎病毒感染 (Hepatitis B Virus Infe
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Pibrentasvir 作用機轉（非官方翻譯）：「非結構蛋白5A抑制劑」英文原文："Nonstructural protein 5A inhibitor"（[ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，pibrentasvir 是 HCV NS5A 抑制劑，與 glecaprevir（NS3/4A 蛋白酶抑制劑）組成固定劑量複方，在 C 型肝炎中的療效已有大量文獻證實。
+ChEMBL（EMBL-EBI）收錄的 Pibrentasvir 作用機轉（非官方翻譯）：「非結構蛋白5A抑制劑」。英文原文："Nonstructural protein 5A inhibitor"（[ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，pibrentasvir 是 HCV NS5A 抑制劑，與 glecaprevir（NS3/4A 蛋白酶抑制劑）組成固定劑量複方，在 C 型肝炎中的療效已有大量文獻證實。
 
 分數來自 TxGNN 模型（深度學習），這個高分可能反映模型學到的各種肝炎適應症之間的相似性，而非生物學證據，也不代表真正的藥物標靶重疊。HBV 沒有 NS5A 同源蛋白，複製策略也不同（cccDNA、反轉錄酶），因此**機轉上並不支持直接的作用關聯**。
 
@@ -114,7 +114,7 @@ ChEMBL（EMBL-EBI）收錄的 Pibrentasvir 作用機轉（非官方翻譯）：�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123) |
 
 <!-- review:end log -->
 

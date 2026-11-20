@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**視網膜失養症（伴或不伴眼外異常）
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Sulpiride 作用機轉（非官方翻譯）：「多巴胺 D2 受體拮抗劑」英文原文："Dopamine D2 receptor antagonist"（[ChEMBL CHEMBL26 (sulpiride): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL26)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據藥理資料，Sulpiride 對 D2 與 D3 多巴胺受體具選擇性，對 D4 受體親和力低；另有資料顯示它與碳酸酐酶 1、7、12 有交互作用。
+ChEMBL（EMBL-EBI）收錄的 Sulpiride 作用機轉（非官方翻譯）：「多巴胺 D2 受體拮抗劑」。英文原文："Dopamine D2 receptor antagonist"（[ChEMBL CHEMBL26 (sulpiride): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL26)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據藥理資料，Sulpiride 對 D2 與 D3 多巴胺受體具選擇性，對 D4 受體親和力低；另有資料顯示它與碳酸酐酶 1、7、12 有交互作用。
 
 視網膜中的多巴胺 D2 類受體會調節視網膜神經節細胞對光的反應。在視網膜色素病變的 P23H 大鼠模型中，D2 拮抗劑（含 sulpiride）似乎能增加神經節細胞的光敏感度，並把異常的長潛時 ON 型細胞轉為 OFF 型。這是此預測目前唯一的機轉線索。
 
@@ -114,7 +114,7 @@ ChEMBL（EMBL-EBI）收錄的 Sulpiride 作用機轉（非官方翻譯）：「�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL26 (sulpiride): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL26) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL26 (sulpiride): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL26) |
 
 <!-- review:end log -->
 

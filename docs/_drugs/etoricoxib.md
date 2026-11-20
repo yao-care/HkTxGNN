@@ -66,7 +66,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，分數�
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Etoricoxib 作用機轉（非官方翻譯）：「環氧合酶-2 抑制劑」英文原文："Cyclooxygenase-2 inhibitor"（[ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Etoricoxib 是選擇性 COX-2 抑制劑，可減少前列腺素 E2（PGE2）的合成。藥理資料顯示其臨床用途包括類風濕性關節炎、骨關節炎、慢性下背痛、僵直性脊椎炎、急性疼痛與痛風。
+ChEMBL（EMBL-EBI）收錄的 Etoricoxib 作用機轉（非官方翻譯）：「環氧合酶-2 抑制劑」。英文原文："Cyclooxygenase-2 inhibitor"（[ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Etoricoxib 是選擇性 COX-2 抑制劑，可減少前列腺素 E2（PGE2）的合成。藥理資料顯示其臨床用途包括類風濕性關節炎、骨關節炎、慢性下背痛、僵直性脊椎炎、急性疼痛與痛風。
 
 PGE2 與偏頭痛中的三叉神經血管敏感化及神經性發炎有關，因此 COX-2 抑制在機轉上有合理性。另有一項大鼠三叉神經節的前臨床研究（PMID 29209105）探討 NSAIDs 對 CGRP 與 PGE2 釋放的影響，但該研究對應的是「偏頭痛易感性」這個遺傳概念，不是可直接治療的臨床疾病，且不屬於臨床證據。
 
@@ -158,7 +158,7 @@ PGE2 與偏頭痛中的三叉神經血管敏感化及神經性發炎有關，因
 |------|------|------|------|
 | 2026-11-17 | 「Etoricoxib 是選擇性 COX-2 抑制劑，在香港已有 20 張有效許可」→「Etoricoxib 是選擇性 COX-2 抑制劑，香港共有」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
 | 2026-11-17 | 「香港共有 20 張有效單方許可證，以下列出 5 張主要許可證。」→「香港共有 68 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146) |
 
 <!-- review:end log -->
 

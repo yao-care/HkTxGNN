@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**局限性類帕哲氏網狀細胞增生症 (Loca
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Methoxsalen 作用機轉（非官方翻譯）：「DNA 抑制劑」英文原文："DNA inhibitor"（[ChEMBL CHEMBL416 (methoxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，methoxsalen 是補骨脂素（psoralen）類光敏化藥物，需搭配 UVA 照射（PUVA）使用。一般認為其光活化後可與 DNA 形成交聯，誘導表皮親和性惡性 T 細胞凋亡。
+ChEMBL（EMBL-EBI）收錄的 Methoxsalen 作用機轉（非官方翻譯）：「DNA 抑制劑」。英文原文："DNA inhibitor"（[ChEMBL CHEMBL416 (methoxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，methoxsalen 是補骨脂素（psoralen）類光敏化藥物，需搭配 UVA 照射（PUVA）使用。一般認為其光活化後可與 DNA 形成交聯，誘導表皮親和性惡性 T 細胞凋亡。
 
 局限性類帕哲氏網狀細胞增生症（Woringer-Kolopp 病）是罕見、進展緩慢的蕈樣肉芽腫變異型，屬於皮膚 T 細胞淋巴瘤範疇。此預測分數 0.9997 來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，並非生物學證據。
 
@@ -120,7 +120,7 @@ ChEMBL（EMBL-EBI）收錄的 Methoxsalen 作用機轉（非官方翻譯）：�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL416 (methoxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL416 (methoxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416) |
 
 <!-- review:end log -->
 

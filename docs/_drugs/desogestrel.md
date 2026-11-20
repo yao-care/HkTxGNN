@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Desogestrel 作用機轉（非官方翻譯）：「黃體素受體促效劑」英文原文："Progesterone receptor agonist"（[ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Desogestrel 是黃體素類藥物，可抑制下視丘－腦下垂體－卵巢軸，常與乙炔雌二醇（ethinylestradiol）合併作為複方口服避孕藥使用。
+ChEMBL（EMBL-EBI）收錄的 Desogestrel 作用機轉（非官方翻譯）：「黃體素受體促效劑」。英文原文："Progesterone receptor agonist"（[ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Desogestrel 是黃體素類藥物，可抑制下視丘－腦下垂體－卵巢軸，常與乙炔雌二醇（ethinylestradiol）合併作為複方口服避孕藥使用。
 
 在下視丘性寡經／閉經（例如運動員）的情況下，複方口服避孕藥可提供外源性雌激素與黃體素支持，使撤退性出血恢復規律，並可能有助於維持骨密度。不過這只是改善症狀（月經缺失），並不能恢復自身的排卵功能，因此其關聯性屬於「支持性」而非「疾病修飾性」。
 
@@ -146,7 +146,7 @@ ChEMBL（EMBL-EBI）收錄的 Desogestrel 作用機轉（非官方翻譯）：�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533) |
 
 <!-- review:end log -->
 

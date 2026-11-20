@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對 **Campailla-Martinelli 型肢中段發育不良**
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Cholecalciferol 作用機轉（非官方翻譯）：「維生素 D 受體致效劑」英文原文："Vitamin D receptor agonist"（[ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042)，CC BY-SA 3.0；查閱日期 2026-11-19）。一般而言，膽鈣化醇是維生素 D 的前驅物，需經肝臟與腎臟轉化為活性型態，才能調節腸道鈣磷吸收與骨礦化。
+ChEMBL（EMBL-EBI）收錄的 Cholecalciferol 作用機轉（非官方翻譯）：「維生素 D 受體致效劑」。英文原文："Vitamin D receptor agonist"（[ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042)，CC BY-SA 3.0；查閱日期 2026-11-19）。一般而言，膽鈣化醇是維生素 D 的前驅物，需經肝臟與腎臟轉化為活性型態，才能調節腸道鈣磷吸收與骨礦化。
 
 肢中段發育不良是罕見的遺傳性骨骼發育疾病。目前沒有證據顯示它由維生素 D 缺乏或鈣磷代謝異常所驅動。模型的高分來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，而不是生物學證據，也不是針對此疾病的特定病理路徑。因此，這個預測目前只能視為待驗證的假說，機轉上的連結尚未建立。
 
@@ -116,7 +116,7 @@ ChEMBL（EMBL-EBI）收錄的 Cholecalciferol 作用機轉（非官方翻譯）�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**慢性 C 型肝炎病毒感染 (Chronic Hepatiti
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Telbivudine 作用機轉（非官方翻譯）：「DNA 聚合酶／反轉錄酶抑制劑」英文原文："DNA polymerase/reverse transcriptase inhibitor"（[ChEMBL CHEMBL374731 (telbivudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374731)，CC BY-SA 3.0；查閱日期 2026-11-19）。就已知資訊，telbivudine 是胸腺嘧啶核苷類似物，可抑制 B 型肝炎病毒 (HBV) 的 DNA 聚合酶（反轉錄酶）。
+ChEMBL（EMBL-EBI）收錄的 Telbivudine 作用機轉（非官方翻譯）：「DNA 聚合酶／反轉錄酶抑制劑」。英文原文："DNA polymerase/reverse transcriptase inhibitor"（[ChEMBL CHEMBL374731 (telbivudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374731)，CC BY-SA 3.0；查閱日期 2026-11-19）。就已知資訊，telbivudine 是胸腺嘧啶核苷類似物，可抑制 B 型肝炎病毒 (HBV) 的 DNA 聚合酶（反轉錄酶）。
 
 C 型肝炎病毒 (HCV) 靠 RNA 依賴性 RNA 聚合酶 (NS5B) 複製，telbivudine 並無已知的抑制作用。模型的高分很可能反映兩種病毒同屬「病毒性肝炎」的網路鄰近關係，而不是真正的機轉關聯。
 
@@ -125,7 +125,7 @@ C 型肝炎病毒 (HCV) 靠 RNA 依賴性 RNA 聚合酶 (NS5B) 複製，telbivud
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL374731 (telbivudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374731) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL374731 (telbivudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374731) |
 
 <!-- review:end log -->
 

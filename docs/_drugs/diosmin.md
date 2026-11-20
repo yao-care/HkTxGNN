@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Diosmin 作用機轉（非官方翻譯）：「不明」英文原文："Unknown"（[ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884)，CC BY-SA 3.0；查閱日期 2026-11-19）。Diosmin 一般被認為是靜脈活性類黃酮，常與改善靜脈張力、降低微血管通透性，以及抗發炎與抗氧化作用有關。但這些說法並非來自本次彙整的資料，僅作為背景參考。
+ChEMBL（EMBL-EBI）收錄的 Diosmin 作用機轉（非官方翻譯）：「不明」。英文原文："Unknown"（[ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884)，CC BY-SA 3.0；查閱日期 2026-11-19）。Diosmin 一般被認為是靜脈活性類黃酮，常與改善靜脈張力、降低微血管通透性，以及抗發炎與抗氧化作用有關。但這些說法並非來自本次彙整的資料，僅作為背景參考。
 
 閉經與 Diosmin 原本的使用方向並無直接關聯。一種推測的連結是骨盆腔靜脈或微循環的影響，或類黃酮對發炎、類固醇代謝的調節。這些推測**沒有任何已提供的證據支持**，只能視為計算上的假說。
 
@@ -123,7 +123,7 @@ ChEMBL（EMBL-EBI）收錄的 Diosmin 作用機轉（非官方翻譯）：「不
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884) |
 
 <!-- review:end log -->
 

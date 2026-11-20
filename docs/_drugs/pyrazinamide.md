@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**感染性中耳炎 (Infectious Otitis Media)** �
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Pyrazinamide 作用機轉（非官方翻譯）：「脂肪酸合成酶抑制劑；70S核糖體抑制劑」英文原文："Fatty acid synthase inhibitor; 70S ribosome inhibitor"（[ChEMBL CHEMBL614 (pyrazinamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL614)，CC BY-SA 3.0；查閱日期 2026-11-19）。Pyrazinamide 是一種前驅藥，在酸性環境下會轉變為活性型態 pyrazinoic acid，只對結核分枝桿菌 (*Mycobacterium tuberculosis*) 有活性。
+ChEMBL（EMBL-EBI）收錄的 Pyrazinamide 作用機轉（非官方翻譯）：「脂肪酸合成酶抑制劑；70S核糖體抑制劑」。英文原文："Fatty acid synthase inhibitor; 70S ribosome inhibitor"（[ChEMBL CHEMBL614 (pyrazinamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL614)，CC BY-SA 3.0；查閱日期 2026-11-19）。Pyrazinamide 是一種前驅藥，在酸性環境下會轉變為活性型態 pyrazinoic acid，只對結核分枝桿菌 (*Mycobacterium tuberculosis*) 有活性。
 
 一般感染性中耳炎的常見致病菌為肺炎鏈球菌、流感嗜血桿菌與卡他莫拉菌，Pyrazinamide 對這些細菌沒有已知活性。因此，這個高分預測缺乏機轉上的支持。分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，不是生物學證據。
 
@@ -120,7 +120,7 @@ ChEMBL（EMBL-EBI）收錄的 Pyrazinamide 作用機轉（非官方翻譯）：�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL614 (pyrazinamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL614) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL614 (pyrazinamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL614) |
 
 <!-- review:end log -->
 

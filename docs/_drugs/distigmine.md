@@ -59,7 +59,7 @@ Distigmine 是長效型膽鹼酯酶抑制劑，原本用於重症肌無力、神
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Distigmine 作用機轉（非官方翻譯）：「乙醯膽鹼酯酶抑制劑」英文原文："Acetylcholinesterase inhibitor"（[ChEMBL CHEMBL1199307 (distigmine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1199307)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Distigmine 屬於長效膽鹼酯酶抑制劑，已用於重症肌無力。抑制乙醯膽鹼酯酶可提升神經肌肉接合部的乙醯膽鹼濃度，因此機轉上可能對此亞型產生症狀性改善。
+ChEMBL（EMBL-EBI）收錄的 Distigmine 作用機轉（非官方翻譯）：「乙醯膽鹼酯酶抑制劑」。英文原文："Acetylcholinesterase inhibitor"（[ChEMBL CHEMBL1199307 (distigmine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1199307)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Distigmine 屬於長效膽鹼酯酶抑制劑，已用於重症肌無力。抑制乙醯膽鹼酯酶可提升神經肌肉接合部的乙醯膽鹼濃度，因此機轉上可能對此亞型產生症狀性改善。
 
 需注意，膽鹼酯酶抑制劑只能改善症狀，無法改變胸腺增生本身的病程。
 
@@ -134,7 +134,7 @@ ChEMBL（EMBL-EBI）收錄的 Distigmine 作用機轉（非官方翻譯）：「
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL1199307 (distigmine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1199307) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL1199307 (distigmine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1199307) |
 
 <!-- review:end log -->
 

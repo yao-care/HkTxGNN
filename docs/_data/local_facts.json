@@ -21,12 +21,12 @@
   "items_current": 15414
  },
  "reviews": {
-  "records": 952,
+  "records": 955,
   "pages": 757,
   "public_pages_with_records": 756,
   "by_action": {
    "correct": 244,
-   "mechanism": 708
+   "mechanism": 711
   }
  },
  "fhir": {
@@ -132,7 +132,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 2,
+   "r": 3,
    "i": "hairy cell leukemia"
   },
   {
@@ -184,6 +184,15 @@
    "i": "malignant hypertensive renal disease"
   },
   {
+   "t": "Azithromycin",
+   "u": "/drugs/azithromycin/",
+   "l": "L5",
+   "lt": 43,
+   "lv": 42,
+   "r": 3,
+   "i": "高澱粉酶血症"
+  },
+  {
    "t": "Clarithromycin",
    "u": "/drugs/clarithromycin/",
    "l": "L5",
@@ -209,15 +218,6 @@
    "lv": 68,
    "r": 3,
    "i": "migraine disorder"
-  },
-  {
-   "t": "Fusidic Acid",
-   "u": "/drugs/fusidic-acid/",
-   "l": "L5",
-   "lt": 25,
-   "lv": 25,
-   "r": 3,
-   "i": "exposure keratitis"
   }
  ],
  "example": {

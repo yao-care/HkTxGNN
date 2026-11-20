@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**偏頭痛**有效，但目前**沒有任何臨�
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Flunitrazepam 作用機轉（非官方翻譯）：「GABA-A受體；陰離子通道正向異位調節劑」英文原文："GABA-A receptor; anion channel positive allosteric modulator"（[ChEMBL CHEMBL13280 (flunitrazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL13280)，CC BY-SA 3.0；查閱日期 2026-11-19）。已知 Flunitrazepam 是 GABA-A 受體的正向異位調節劑，藥理資料顯示它與 GABA-A 受體 α1、α2、α3、α5 亞單位結合。
+ChEMBL（EMBL-EBI）收錄的 Flunitrazepam 作用機轉（非官方翻譯）：「GABA-A受體；陰離子通道正向異位調節劑」。英文原文："GABA-A receptor; anion channel positive allosteric modulator"（[ChEMBL CHEMBL13280 (flunitrazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL13280)，CC BY-SA 3.0；查閱日期 2026-11-19）。已知 Flunitrazepam 是 GABA-A 受體的正向異位調節劑，藥理資料顯示它與 GABA-A 受體 α1、α2、α3、α5 亞單位結合。
 
 理論上，增強 GABA 抑制性傳導可能影響大腦皮質的過度興奮，這是偏頭痛的病理機轉之一，因此模型給出高分。但這只是推測：苯二氮平類並非公認的偏頭痛治療藥物，且有依賴與濫用風險。
 
@@ -128,7 +128,7 @@ ChEMBL（EMBL-EBI）收錄的 Flunitrazepam 作用機轉（非官方翻譯）：
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL13280 (flunitrazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL13280) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL13280 (flunitrazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL13280) |
 
 <!-- review:end log -->
 

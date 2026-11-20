@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**乾眼症 (Dry Eye Syndrome)** 有效，但目�
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Roxadustat 作用機轉（非官方翻譯）：「缺氧誘導因子脯胺醯羥化酶抑制劑」英文原文："Hypoxia-inducible factor prolyl hydroxylase inhibitor"（[ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據一般藥理知識，Roxadustat 是 HIF 脯胺醯羥化酶抑制劑，可穩定 HIF-1α/2α，進而促進紅血球生成素的產生，因此用於貧血治療。
+ChEMBL（EMBL-EBI）收錄的 Roxadustat 作用機轉（非官方翻譯）：「缺氧誘導因子脯胺醯羥化酶抑制劑」。英文原文："Hypoxia-inducible factor prolyl hydroxylase inhibitor"（[ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據一般藥理知識，Roxadustat 是 HIF 脯胺醯羥化酶抑制劑，可穩定 HIF-1α/2α，進而促進紅血球生成素的產生，因此用於貧血治療。
 
 HIF 穩定化理論上可能影響角膜與結膜上皮的缺氧反應、發炎與血管新生，這是預測與乾眼症之間可能的連結。但 HIF 活化也可能促進病理性新生血管，對眼表面反而不利。此連結目前屬於推測，0.9951 的分數僅為電腦運算預測。
 
@@ -134,7 +134,7 @@ HIF 穩定化理論上可能影響角膜與結膜上皮的缺氧反應、發炎�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329) |
 
 <!-- review:end log -->
 

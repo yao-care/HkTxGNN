@@ -7731,7 +7731,7 @@
    "file": "agomelatine.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料（本報告彙整的資料中，作用機轉欄位為空白）。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Agomelatine 作用機轉（非官方翻譯）：「褪黑激素受體致效劑；血清素2c（5-HT2c）受體拮抗劑」英文原文：\"Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist\"（[ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Agomelatine 作用機轉（非官方翻譯）：「褪黑激素受體致效劑；血清素2c（5-HT2c）受體拮抗劑」。英文原文：\"Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist\"（[ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -7748,7 +7748,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Agomelatine 作用機轉（非官方翻譯）：「褪黑激素受體致效劑；血清素2c（5-HT2c）受體拮抗劑」英文原文：\"Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist\"（[ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-albutrepenonacog_alfa-1",
@@ -7756,7 +7763,7 @@
    "file": "albutrepenonacog_alfa.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Albutrepenonacog Alfa 作用機轉（非官方翻譯）：「凝血因子IX外源性蛋白質」英文原文：\"Coagulation factor IX exogenous protein\"（[ChEMBL CHEMBL5315076 (albutrepenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315076)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Albutrepenonacog Alfa 作用機轉（非官方翻譯）：「凝血因子IX外源性蛋白質」。英文原文：\"Coagulation factor IX exogenous protein\"（[ChEMBL CHEMBL5315076 (albutrepenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315076)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -7773,7 +7780,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Albutrepenonacog Alfa 作用機轉（非官方翻譯）：「凝血因子IX外源性蛋白質」英文原文：\"Coagulation factor IX exogenous protein\"（[ChEMBL CHEMBL5315076 (albutrepenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315076)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-alectinib-1",
@@ -7808,7 +7822,7 @@
    "file": "alfacalcidol.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Alfacalcidol 作用機轉（非官方翻譯）：「維生素 D 受體致效劑」英文原文：\"Vitamin D receptor agonist\"（[ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Alfacalcidol 作用機轉（非官方翻譯）：「維生素 D 受體致效劑」。英文原文：\"Vitamin D receptor agonist\"（[ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -7825,7 +7839,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Alfacalcidol 作用機轉（非官方翻譯）：「維生素 D 受體致效劑」英文原文：\"Vitamin D receptor agonist\"（[ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-alfuzosin-1",
@@ -8751,7 +8772,7 @@
    "file": "atosiban.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Atosiban 作用機轉（非官方翻譯）：「催產素受體拮抗劑」英文原文：\"Oxytocin receptor antagonist\"（[ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Atosiban 作用機轉（非官方翻譯）：「催產素受體拮抗劑」。英文原文：\"Oxytocin receptor antagonist\"（[ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -8768,7 +8789,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Atosiban 作用機轉（非官方翻譯）：「催產素受體拮抗劑」英文原文：\"Oxytocin receptor antagonist\"（[ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-atrasentan-1",
@@ -8857,7 +8885,7 @@
    "file": "avatrombopag.md",
    "action": "mechanism",
    "claim": "目前缺乏 DrugBank 的詳細作用機轉資料，以上說明來自本報告整理的機轉推論。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Avatrombopag 作用機轉（非官方翻譯）：「血小板生成素受體致效劑」英文原文：\"Thrombopoietin receptor agonist\"（[ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Avatrombopag 作用機轉（非官方翻譯）：「血小板生成素受體致效劑」。英文原文：\"Thrombopoietin receptor agonist\"（[ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -8874,7 +8902,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Avatrombopag 作用機轉（非官方翻譯）：「血小板生成素受體致效劑」英文原文：\"Thrombopoietin receptor agonist\"（[ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-avelumab-1",
@@ -8936,7 +8971,7 @@
    "file": "azathioprine.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Azathioprine 作用機轉（非官方翻譯）：「醯胺磷酸核糖轉移酶（amidophosphoribosyltransferase）抑制劑；DNA 抑制劑」英文原文：\"Amidophosphoribosyltransferase inhibitor; DNA inhibitor\"（[ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Azathioprine 作用機轉（非官方翻譯）：「醯胺磷酸核糖轉移酶（amidophosphoribosyltransferase）抑制劑；DNA 抑制劑」。英文原文：\"Amidophosphoribosyltransferase inhibitor; DNA inhibitor\"（[ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -8953,7 +8988,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Azathioprine 作用機轉（非官方翻譯）：「醯胺磷酸核糖轉移酶（amidophosphoribosyltransferase）抑制劑；DNA 抑制劑」英文原文：\"Amidophosphoribosyltransferase inhibitor; DNA inhibitor\"（[ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-azithromycin-1",
@@ -9015,7 +9057,7 @@
    "file": "bacitracin.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Bacitracin 作用機轉（非官方翻譯）：「C55-異戊二烯焦磷酸（C55-isoprenyl pyrophosphate）抑制劑」英文原文：\"C55-isoprenyl pyrophosphate inhibitor\"（[ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Bacitracin 作用機轉（非官方翻譯）：「C55-異戊二烯焦磷酸（C55-isoprenyl pyrophosphate）抑制劑」。英文原文：\"C55-isoprenyl pyrophosphate inhibitor\"（[ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -9032,7 +9074,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Bacitracin 作用機轉（非官方翻譯）：「C55-異戊二烯焦磷酸（C55-isoprenyl pyrophosphate）抑制劑」英文原文：\"C55-isoprenyl pyrophosphate inhibitor\"（[ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-baclofen-1",
@@ -9310,7 +9359,7 @@
    "file": "benzbromarone.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料（原廠與資料庫未提供 MOA 欄位），以下為依文獻所做的機轉推論。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Benzbromarone 作用機轉（非官方翻譯）：「溶質載體家族22成員12抑制劑」英文原文：\"Solute carrier family 22 member 12 inhibitor\"（[ChEMBL CHEMBL388590 (benzbromarone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL388590)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Benzbromarone 作用機轉（非官方翻譯）：「溶質載體家族22成員12抑制劑」。英文原文：\"Solute carrier family 22 member 12 inhibitor\"（[ChEMBL CHEMBL388590 (benzbromarone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL388590)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -9327,7 +9376,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Benzbromarone 作用機轉（非官方翻譯）：「溶質載體家族22成員12抑制劑」英文原文：\"Solute carrier family 22 member 12 inhibitor\"（[ChEMBL CHEMBL388590 (benzbromarone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL388590)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-benzoyl_peroxide-1",
@@ -9362,7 +9418,7 @@
    "file": "benzydamine.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Benzydamine 作用機轉（非官方翻譯）：「環氧化酶抑制劑」英文原文：\"Cyclooxygenase inhibitor\"（[ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Benzydamine 作用機轉（非官方翻譯）：「環氧化酶抑制劑」。英文原文：\"Cyclooxygenase inhibitor\"（[ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -9379,7 +9435,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Benzydamine 作用機轉（非官方翻譯）：「環氧化酶抑制劑」英文原文：\"Cyclooxygenase inhibitor\"（[ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-benzyl_alcohol-1",
@@ -9387,7 +9450,7 @@
    "file": "benzyl_alcohol.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料，因此無法建立苯甲醇與支氣管炎之間明確的機轉連結。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Benzyl Alcohol 作用機轉（非官方翻譯）：「不明」英文原文：\"Unknown\"（[ChEMBL CHEMBL720 (benzyl alcohol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL720)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Benzyl Alcohol 作用機轉（非官方翻譯）：「不明」。英文原文：\"Unknown\"（[ChEMBL CHEMBL720 (benzyl alcohol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL720)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -9404,7 +9467,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Benzyl Alcohol 作用機轉（非官方翻譯）：「不明」英文原文：\"Unknown\"（[ChEMBL CHEMBL720 (benzyl alcohol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL720)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-benzylpenicillin-1",
@@ -9547,7 +9617,7 @@
    "file": "bictegravir.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Bictegravir 作用機轉（非官方翻譯）：「第 1 型人類免疫不全病毒整合酶抑制劑」英文原文：\"Human immunodeficiency virus type 1 integrase inhibitor\"（[ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Bictegravir 作用機轉（非官方翻譯）：「第 1 型人類免疫不全病毒整合酶抑制劑」。英文原文：\"Human immunodeficiency virus type 1 integrase inhibitor\"（[ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -9564,7 +9634,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Bictegravir 作用機轉（非官方翻譯）：「第 1 型人類免疫不全病毒整合酶抑制劑」英文原文：\"Human immunodeficiency virus type 1 integrase inhibitor\"（[ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-bimatoprost-1",
@@ -9788,7 +9865,7 @@
    "file": "bromazepam.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Bromazepam 作用機轉（非官方翻譯）：「GABA 受體 α-2 次單元正向異位調節劑」英文原文：\"GABA receptor alpha-2 subunit positive allosteric modulator\"（[ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Bromazepam 作用機轉（非官方翻譯）：「GABA 受體 α-2 次單元正向異位調節劑」。英文原文：\"GABA receptor alpha-2 subunit positive allosteric modulator\"（[ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -9805,7 +9882,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Bromazepam 作用機轉（非官方翻譯）：「GABA 受體 α-2 次單元正向異位調節劑」英文原文：\"GABA receptor alpha-2 subunit positive allosteric modulator\"（[ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-bromocriptine-1",
@@ -10326,7 +10410,7 @@
    "file": "carbenoxolone.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料，因此無法檢驗藥物與此疾病之間的機轉連結。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Carbenoxolone 作用機轉（非官方翻譯）：「11-β-羥基類固醇去氫酶抑制劑」英文原文：\"11-beta-hydroxysteroid dehydrogenase inhibitor\"（[ChEMBL CHEMBL499915 (carbenoxolone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL499915)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Carbenoxolone 作用機轉（非官方翻譯）：「11-β-羥基類固醇去氫酶抑制劑」。英文原文：\"11-beta-hydroxysteroid dehydrogenase inhibitor\"（[ChEMBL CHEMBL499915 (carbenoxolone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL499915)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -10343,7 +10427,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Carbenoxolone 作用機轉（非官方翻譯）：「11-β-羥基類固醇去氫酶抑制劑」英文原文：\"11-beta-hydroxysteroid dehydrogenase inhibitor\"（[ChEMBL CHEMBL499915 (carbenoxolone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL499915)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-carbetocin-1",
@@ -10351,7 +10442,7 @@
    "file": "carbetocin.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Carbetocin 作用機轉（非官方翻譯）：「催產素受體促效劑」英文原文：\"Oxytocin receptor agonist\"（[ChEMBL CHEMBL3301668 (carbetocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301668)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Carbetocin 作用機轉（非官方翻譯）：「催產素受體促效劑」。英文原文：\"Oxytocin receptor agonist\"（[ChEMBL CHEMBL3301668 (carbetocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301668)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -10368,7 +10459,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Carbetocin 作用機轉（非官方翻譯）：「催產素受體促效劑」英文原文：\"Oxytocin receptor agonist\"（[ChEMBL CHEMBL3301668 (carbetocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301668)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-carbimazole-1",
@@ -10376,7 +10474,7 @@
    "file": "carbimazole.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Carbimazole 作用機轉（非官方翻譯）：「甲狀腺過氧化酶抑制劑」英文原文：\"Thyroid peroxidase inhibitor\"（[ChEMBL CHEMBL508102 (carbimazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL508102)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Carbimazole 作用機轉（非官方翻譯）：「甲狀腺過氧化酶抑制劑」。英文原文：\"Thyroid peroxidase inhibitor\"（[ChEMBL CHEMBL508102 (carbimazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL508102)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -10393,7 +10491,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Carbimazole 作用機轉（非官方翻譯）：「甲狀腺過氧化酶抑制劑」英文原文：\"Thyroid peroxidase inhibitor\"（[ChEMBL CHEMBL508102 (carbimazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL508102)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-carbinoxamine-1",
@@ -10590,7 +10695,7 @@
    "file": "cefpodoxime.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Cefpodoxime 作用機轉（非官方翻譯）：「細菌青黴素結合蛋白抑制劑」英文原文：\"Bacterial penicillin-binding protein inhibitor\"（[ChEMBL CHEMBL1672 (cefpodoxime): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1672)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Cefpodoxime 作用機轉（非官方翻譯）：「細菌青黴素結合蛋白抑制劑」。英文原文：\"Bacterial penicillin-binding protein inhibitor\"（[ChEMBL CHEMBL1672 (cefpodoxime): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1672)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -10607,7 +10712,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Cefpodoxime 作用機轉（非官方翻譯）：「細菌青黴素結合蛋白抑制劑」英文原文：\"Bacterial penicillin-binding protein inhibitor\"（[ChEMBL CHEMBL1672 (cefpodoxime): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1672)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-ceftazidime-1",
@@ -10993,7 +11105,7 @@
    "file": "cholecalciferol.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Cholecalciferol 作用機轉（非官方翻譯）：「維生素 D 受體致效劑」英文原文：\"Vitamin D receptor agonist\"（[ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Cholecalciferol 作用機轉（非官方翻譯）：「維生素 D 受體致效劑」。英文原文：\"Vitamin D receptor agonist\"（[ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -11010,7 +11122,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Cholecalciferol 作用機轉（非官方翻譯）：「維生素 D 受體致效劑」英文原文：\"Vitamin D receptor agonist\"（[ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-ciclesonide-1",
@@ -11072,7 +11191,7 @@
    "file": "cilastatin.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Cilastatin 作用機轉（非官方翻譯）：「腎二肽酶抑制劑」英文原文：\"Renal dipeptidase inhibitor\"（[ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Cilastatin 作用機轉（非官方翻譯）：「腎二肽酶抑制劑」。英文原文：\"Renal dipeptidase inhibitor\"（[ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -11089,7 +11208,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Cilastatin 作用機轉（非官方翻譯）：「腎二肽酶抑制劑」英文原文：\"Renal dipeptidase inhibitor\"（[ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-cimetidine-1",
@@ -11340,7 +11466,7 @@
    "file": "clioquinol.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Clioquinol 作用機轉（非官方翻譯）：「鋅螯合劑；銅螯合劑；鐵螯合劑」英文原文：\"Zinc chelating agent; Copper chelating agent; Iron chelating agent\"（[ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Clioquinol 作用機轉（非官方翻譯）：「鋅螯合劑；銅螯合劑；鐵螯合劑」。英文原文：\"Zinc chelating agent; Copper chelating agent; Iron chelating agent\"（[ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -11357,7 +11483,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Clioquinol 作用機轉（非官方翻譯）：「鋅螯合劑；銅螯合劑；鐵螯合劑」英文原文：\"Zinc chelating agent; Copper chelating agent; Iron chelating agent\"（[ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-clobazam-1",
@@ -11743,7 +11876,7 @@
    "file": "corifollitropin_alfa.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Corifollitropin Alfa 作用機轉（非官方翻譯）：「濾泡刺激素受體促效劑」英文原文：\"Follicle stimulating hormone receptor agonist\"（[ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Corifollitropin Alfa 作用機轉（非官方翻譯）：「濾泡刺激素受體促效劑」。英文原文：\"Follicle stimulating hormone receptor agonist\"（[ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -11760,7 +11893,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Corifollitropin Alfa 作用機轉（非官方翻譯）：「濾泡刺激素受體促效劑」英文原文：\"Follicle stimulating hormone receptor agonist\"（[ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-crizotinib-1",
@@ -12038,7 +12178,7 @@
    "file": "dacarbazine.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Dacarbazine 作用機轉（非官方翻譯）：「DNA 抑制劑」英文原文：\"DNA inhibitor\"（[ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Dacarbazine 作用機轉（非官方翻譯）：「DNA 抑制劑」。英文原文：\"DNA inhibitor\"（[ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -12055,7 +12195,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Dacarbazine 作用機轉（非官方翻譯）：「DNA 抑制劑」英文原文：\"DNA inhibitor\"（[ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-danazol-1",
@@ -12333,7 +12480,7 @@
    "file": "delamanid.md",
    "action": "mechanism",
    "claim": "目前缺乏經資料庫確認的詳細作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Delamanid 作用機轉（非官方翻譯）：「結核分枝桿菌 H37Rv 抑制劑」英文原文：\"Mycobacterium tuberculosis H37Rv inhibitor\"（[ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Delamanid 作用機轉（非官方翻譯）：「結核分枝桿菌 H37Rv 抑制劑」。英文原文：\"Mycobacterium tuberculosis H37Rv inhibitor\"（[ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -12350,7 +12497,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Delamanid 作用機轉（非官方翻譯）：「結核分枝桿菌 H37Rv 抑制劑」英文原文：\"Mycobacterium tuberculosis H37Rv inhibitor\"（[ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-demeclocycline-1",
@@ -12493,7 +12647,7 @@
    "file": "desogestrel.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Desogestrel 作用機轉（非官方翻譯）：「黃體素受體促效劑」英文原文：\"Progesterone receptor agonist\"（[ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Desogestrel 作用機轉（非官方翻譯）：「黃體素受體促效劑」。英文原文：\"Progesterone receptor agonist\"（[ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -12510,7 +12664,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Desogestrel 作用機轉（非官方翻譯）：「黃體素受體促效劑」英文原文：\"Progesterone receptor agonist\"（[ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-desonide-1",
@@ -12653,7 +12814,7 @@
    "file": "dexketoprofen.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位未收錄）。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Dexketoprofen 作用機轉（非官方翻譯）：「環氧化酶抑制劑」英文原文：\"Cyclooxygenase inhibitor\"（[ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Dexketoprofen 作用機轉（非官方翻譯）：「環氧化酶抑制劑」。英文原文：\"Cyclooxygenase inhibitor\"（[ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -12670,7 +12831,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Dexketoprofen 作用機轉（非官方翻譯）：「環氧化酶抑制劑」英文原文：\"Cyclooxygenase inhibitor\"（[ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-dexlansoprazole-1",
@@ -12840,7 +13008,7 @@
    "file": "dienogest.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Dienogest 作用機轉（非官方翻譯）：「不明」英文原文：\"Unknown\"（[ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Dienogest 作用機轉（非官方翻譯）：「不明」。英文原文：\"Unknown\"（[ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -12857,7 +13025,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Dienogest 作用機轉（非官方翻譯）：「不明」英文原文：\"Unknown\"（[ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-digoxin-1",
@@ -12919,7 +13094,7 @@
    "file": "diosmin.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Diosmin 作用機轉（非官方翻譯）：「不明」英文原文：\"Unknown\"（[ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Diosmin 作用機轉（非官方翻譯）：「不明」。英文原文：\"Unknown\"（[ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -12936,7 +13111,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Diosmin 作用機轉（非官方翻譯）：「不明」英文原文：\"Unknown\"（[ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-diphenhydramine-1",
@@ -12998,7 +13180,7 @@
    "file": "distigmine.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Distigmine 作用機轉（非官方翻譯）：「乙醯膽鹼酯酶抑制劑」英文原文：\"Acetylcholinesterase inhibitor\"（[ChEMBL CHEMBL1199307 (distigmine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1199307)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Distigmine 作用機轉（非官方翻譯）：「乙醯膽鹼酯酶抑制劑」。英文原文：\"Acetylcholinesterase inhibitor\"（[ChEMBL CHEMBL1199307 (distigmine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1199307)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -13015,7 +13197,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Distigmine 作用機轉（非官方翻譯）：「乙醯膽鹼酯酶抑制劑」英文原文：\"Acetylcholinesterase inhibitor\"（[ChEMBL CHEMBL1199307 (distigmine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1199307)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-dobutamine-1",
@@ -13077,7 +13266,7 @@
    "file": "docusate.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Docusate 作用機轉（非官方翻譯）：「表面活性劑類輕瀉劑」英文原文：\"Surfactant laxative\"（[ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Docusate 作用機轉（非官方翻譯）：「表面活性劑類輕瀉劑」。英文原文：\"Surfactant laxative\"（[ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -13094,7 +13283,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Docusate 作用機轉（非官方翻譯）：「表面活性劑類輕瀉劑」英文原文：\"Surfactant laxative\"（[ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-dolutegravir-1",
@@ -13129,7 +13325,7 @@
    "file": "domperidone.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Domperidone 作用機轉（非官方翻譯）：「多巴胺 D2 受體拮抗劑」英文原文：\"Dopamine D2 receptor antagonist\"（[ChEMBL CHEMBL219916 (domperidone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL219916)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Domperidone 作用機轉（非官方翻譯）：「多巴胺 D2 受體拮抗劑」。英文原文：\"Dopamine D2 receptor antagonist\"（[ChEMBL CHEMBL219916 (domperidone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL219916)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -13146,7 +13342,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Domperidone 作用機轉（非官方翻譯）：「多巴胺 D2 受體拮抗劑」英文原文：\"Dopamine D2 receptor antagonist\"（[ChEMBL CHEMBL219916 (domperidone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL219916)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-donepezil-1",
@@ -13559,7 +13762,7 @@
    "file": "efmoroctocog_alfa.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Efmoroctocog Alfa 作用機轉（非官方翻譯）：「凝血因子 VIII 外源性蛋白質」英文原文：\"Coagulation factor VIII exogenous protein\"（[ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Efmoroctocog Alfa 作用機轉（非官方翻譯）：「凝血因子 VIII 外源性蛋白質」。英文原文：\"Coagulation factor VIII exogenous protein\"（[ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -13576,7 +13779,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Efmoroctocog Alfa 作用機轉（非官方翻譯）：「凝血因子 VIII 外源性蛋白質」英文原文：\"Coagulation factor VIII exogenous protein\"（[ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-eftrenonacog_alfa-1",
@@ -13584,7 +13794,7 @@
    "file": "eftrenonacog_alfa.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Eftrenonacog Alfa 作用機轉（非官方翻譯）：「凝血因子IX外源性蛋白質」英文原文：\"Coagulation factor IX exogenous protein\"（[ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Eftrenonacog Alfa 作用機轉（非官方翻譯）：「凝血因子IX外源性蛋白質」。英文原文：\"Coagulation factor IX exogenous protein\"（[ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -13601,7 +13811,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Eftrenonacog Alfa 作用機轉（非官方翻譯）：「凝血因子IX外源性蛋白質」英文原文：\"Coagulation factor IX exogenous protein\"（[ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-elosulfase_alfa-1",
@@ -14203,7 +14420,7 @@
    "file": "estriol.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Estriol 作用機轉（非官方翻譯）：「雌激素受體調節劑」英文原文：\"Estrogen receptor modulator\"（[ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Estriol 作用機轉（非官方翻譯）：「雌激素受體調節劑」。英文原文：\"Estrogen receptor modulator\"（[ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -14220,7 +14437,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Estriol 作用機轉（非官方翻譯）：「雌激素受體調節劑」英文原文：\"Estrogen receptor modulator\"（[ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-etanercept-1",
@@ -14390,7 +14614,7 @@
    "file": "etoricoxib.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Etoricoxib 作用機轉（非官方翻譯）：「環氧合酶-2 抑制劑」英文原文：\"Cyclooxygenase-2 inhibitor\"（[ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Etoricoxib 作用機轉（非官方翻譯）：「環氧合酶-2 抑制劑」。英文原文：\"Cyclooxygenase-2 inhibitor\"（[ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -14407,7 +14631,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Etoricoxib 作用機轉（非官方翻譯）：「環氧合酶-2 抑制劑」英文原文：\"Cyclooxygenase-2 inhibitor\"（[ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-etravirine-1",
@@ -14928,7 +15159,7 @@
    "file": "flunitrazepam.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Flunitrazepam 作用機轉（非官方翻譯）：「GABA-A受體；陰離子通道正向異位調節劑」英文原文：\"GABA-A receptor; anion channel positive allosteric modulator\"（[ChEMBL CHEMBL13280 (flunitrazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL13280)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Flunitrazepam 作用機轉（非官方翻譯）：「GABA-A受體；陰離子通道正向異位調節劑」。英文原文：\"GABA-A receptor; anion channel positive allosteric modulator\"（[ChEMBL CHEMBL13280 (flunitrazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL13280)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -14945,7 +15176,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Flunitrazepam 作用機轉（非官方翻譯）：「GABA-A受體；陰離子通道正向異位調節劑」英文原文：\"GABA-A receptor; anion channel positive allosteric modulator\"（[ChEMBL CHEMBL13280 (flunitrazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL13280)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-fluocinolone_acetonide-1",
@@ -15142,7 +15380,7 @@
    "file": "flutamide.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Flutamide 作用機轉（非官方翻譯）：「雄性素受體拮抗劑」英文原文：\"Androgen Receptor antagonist\"（[ChEMBL CHEMBL806 (flutamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL806)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Flutamide 作用機轉（非官方翻譯）：「雄性素受體拮抗劑」。英文原文：\"Androgen Receptor antagonist\"（[ChEMBL CHEMBL806 (flutamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL806)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -15159,7 +15397,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Flutamide 作用機轉（非官方翻譯）：「雄性素受體拮抗劑」英文原文：\"Androgen Receptor antagonist\"（[ChEMBL CHEMBL806 (flutamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL806)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-fluticasone_furoate-1",
@@ -15356,7 +15601,7 @@
    "file": "fusidic_acid.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Fusidic Acid 作用機轉（非官方翻譯）：「延長因子G抑制劑」英文原文：\"Elongation factor G inhibitor\"（[ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Fusidic Acid 作用機轉（非官方翻譯）：「延長因子G抑制劑」。英文原文：\"Elongation factor G inhibitor\"（[ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -15373,7 +15618,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Fusidic Acid 作用機轉（非官方翻譯）：「延長因子G抑制劑」英文原文：\"Elongation factor G inhibitor\"（[ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-galantamine-1",
@@ -15570,7 +15822,7 @@
    "file": "glecaprevir.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Glecaprevir 作用機轉（非官方翻譯）：「C型肝炎病毒絲胺酸蛋白酶NS3/NS4A抑制劑」英文原文：\"Hepatitis C virus serine protease, NS3/NS4A inhibitor\"（[ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Glecaprevir 作用機轉（非官方翻譯）：「C型肝炎病毒絲胺酸蛋白酶NS3/NS4A抑制劑」。英文原文：\"Hepatitis C virus serine protease, NS3/NS4A inhibitor\"（[ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -15587,7 +15839,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Glecaprevir 作用機轉（非官方翻譯）：「C型肝炎病毒絲胺酸蛋白酶NS3/NS4A抑制劑」英文原文：\"Hepatitis C virus serine protease, NS3/NS4A inhibitor\"（[ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-glimepiride-1",
@@ -15757,7 +16016,7 @@
    "file": "guaifenesin.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Guaifenesin 作用機轉（非官方翻譯）：「不明」英文原文：\"Unknown\"（[ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Guaifenesin 作用機轉（非官方翻譯）：「不明」。英文原文：\"Unknown\"（[ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -15774,7 +16033,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Guaifenesin 作用機轉（非官方翻譯）：「不明」英文原文：\"Unknown\"（[ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-guselkumab-1",
@@ -15890,7 +16156,7 @@
    "file": "hexachlorophene.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Hexachlorophene 作用機轉（非官方翻譯）：「細菌烯醯-[醯基載體蛋白]還原酶抑制劑」英文原文：\"Bacterial enoyl-[acyl-carrier-protein] reductase inhibitor\"（[ChEMBL CHEMBL496 (hexachlorophene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL496)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Hexachlorophene 作用機轉（非官方翻譯）：「細菌烯醯-[醯基載體蛋白]還原酶抑制劑」。英文原文：\"Bacterial enoyl-[acyl-carrier-protein] reductase inhibitor\"（[ChEMBL CHEMBL496 (hexachlorophene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL496)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -15907,7 +16173,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Hexachlorophene 作用機轉（非官方翻譯）：「細菌烯醯-[醯基載體蛋白]還原酶抑制劑」英文原文：\"Bacterial enoyl-[acyl-carrier-protein] reductase inhibitor\"（[ChEMBL CHEMBL496 (hexachlorophene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL496)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-homatropine_methylbromide-1",
@@ -16347,7 +16620,7 @@
    "file": "imidapril.md",
    "action": "mechanism",
    "claim": "不過，目前缺乏詳細的作用機轉資料，且 ACE 抑制劑在肺高壓中整體上並未顯示一致的療效。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Imidapril 作用機轉（非官方翻譯）：「血管收縮素轉化酶抑制劑」英文原文：\"Angiotensin-converting enzyme inhibitor\"（[ChEMBL CHEMBL317094 (imidapril): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL317094)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Imidapril 作用機轉（非官方翻譯）：「血管收縮素轉化酶抑制劑」。英文原文：\"Angiotensin-converting enzyme inhibitor\"（[ChEMBL CHEMBL317094 (imidapril): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL317094)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -16364,7 +16637,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Imidapril 作用機轉（非官方翻譯）：「血管收縮素轉化酶抑制劑」英文原文：\"Angiotensin-converting enzyme inhibitor\"（[ChEMBL CHEMBL317094 (imidapril): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL317094)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-imiglucerase-1",
@@ -16399,7 +16679,7 @@
    "file": "imipenem.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Imipenem 作用機轉（非官方翻譯）：「細菌青黴素結合蛋白抑制劑」英文原文：\"Bacterial penicillin-binding protein inhibitor\"（[ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Imipenem 作用機轉（非官方翻譯）：「細菌青黴素結合蛋白抑制劑」。英文原文：\"Bacterial penicillin-binding protein inhibitor\"（[ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -16416,7 +16696,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Imipenem 作用機轉（非官方翻譯）：「細菌青黴素結合蛋白抑制劑」英文原文：\"Bacterial penicillin-binding protein inhibitor\"（[ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-imipramine-1",
@@ -16964,7 +17251,7 @@
    "file": "isoflurane.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Isoflurane 作用機轉（非官方翻譯）：「甘氨酸受體（alpha-1/beta）正向調節劑；GABA-A受體；陰離子通道正向別構調節劑；鉀離子通道K亞家族成員10開放劑；鉀離子通道K亞家族成員18開放劑」英文原文：\"Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener\"（[ChEMBL CHEMBL1256 (isoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Isoflurane 作用機轉（非官方翻譯）：「甘氨酸受體（alpha-1/beta）正向調節劑；GABA-A受體；陰離子通道正向別構調節劑；鉀離子通道K亞家族成員10開放劑；鉀離子通道K亞家族成員18開放劑」。英文原文：\"Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener\"（[ChEMBL CHEMBL1256 (isoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -16981,7 +17268,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Isoflurane 作用機轉（非官方翻譯）：「甘氨酸受體（alpha-1/beta）正向調節劑；GABA-A受體；陰離子通道正向別構調節劑；鉀離子通道K亞家族成員10開放劑；鉀離子通道K亞家族成員18開放劑」英文原文：\"Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener\"（[ChEMBL CHEMBL1256 (isoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-isoniazid-1",
@@ -17367,7 +17661,7 @@
    "file": "lactic_acid.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Lactic Acid 作用機轉（非官方翻譯）：「pH降低劑」英文原文：\"pH lowering agent\"（[ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Lactic Acid 作用機轉（非官方翻譯）：「pH降低劑」。英文原文：\"pH lowering agent\"（[ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -17384,7 +17678,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Lactic Acid 作用機轉（非官方翻譯）：「pH降低劑」英文原文：\"pH lowering agent\"（[ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-lactulose-1",
@@ -18067,7 +18368,7 @@
    "file": "lindane.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料可供直接引用。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Lindane 作用機轉（非官方翻譯）：「GABA-A受體負向異位調節劑」英文原文：\"GABA-A receptor negative allosteric modulator\"（[ChEMBL CHEMBL15891 (lindane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL15891)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Lindane 作用機轉（非官方翻譯）：「GABA-A受體負向異位調節劑」。英文原文：\"GABA-A receptor negative allosteric modulator\"（[ChEMBL CHEMBL15891 (lindane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL15891)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -18084,7 +18385,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Lindane 作用機轉（非官方翻譯）：「GABA-A受體負向異位調節劑」英文原文：\"GABA-A receptor negative allosteric modulator\"（[ChEMBL CHEMBL15891 (lindane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL15891)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-lisinopril-1",
@@ -18146,7 +18454,7 @@
    "file": "lonoctocog_alfa.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Lonoctocog Alfa 作用機轉（非官方翻譯）：「凝血因子 VIII 外源性蛋白質」英文原文：\"Coagulation factor VIII exogenous protein\"（[ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Lonoctocog Alfa 作用機轉（非官方翻譯）：「凝血因子 VIII 外源性蛋白質」。英文原文：\"Coagulation factor VIII exogenous protein\"（[ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -18163,7 +18471,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Lonoctocog Alfa 作用機轉（非官方翻譯）：「凝血因子 VIII 外源性蛋白質」英文原文：\"Coagulation factor VIII exogenous protein\"（[ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-loperamide-1",
@@ -18198,7 +18513,7 @@
    "file": "lopinavir.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Lopinavir 作用機轉（非官方翻譯）：「第1型人類免疫缺乏病毒蛋白酶抑制劑」英文原文：\"Human immunodeficiency virus type 1 protease inhibitor\"（[ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Lopinavir 作用機轉（非官方翻譯）：「第1型人類免疫缺乏病毒蛋白酶抑制劑」。英文原文：\"Human immunodeficiency virus type 1 protease inhibitor\"（[ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -18215,7 +18530,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Lopinavir 作用機轉（非官方翻譯）：「第1型人類免疫缺乏病毒蛋白酶抑制劑」英文原文：\"Human immunodeficiency virus type 1 protease inhibitor\"（[ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-lorazepam-1",
@@ -18898,7 +19220,7 @@
    "file": "methoxsalen.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Methoxsalen 作用機轉（非官方翻譯）：「DNA 抑制劑」英文原文：\"DNA inhibitor\"（[ChEMBL CHEMBL416 (methoxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Methoxsalen 作用機轉（非官方翻譯）：「DNA 抑制劑」。英文原文：\"DNA inhibitor\"（[ChEMBL CHEMBL416 (methoxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -18915,7 +19237,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Methoxsalen 作用機轉（非官方翻譯）：「DNA 抑制劑」英文原文：\"DNA inhibitor\"（[ChEMBL CHEMBL416 (methoxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-methoxy_polyethylene_glycol-epoetin_beta-1",
@@ -19328,7 +19657,7 @@
    "file": "minoxidil.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料（DrugBank 的 MOA 欄位尚未取得）。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Minoxidil 作用機轉（非官方翻譯）：「磺醯尿素受體 2、Kir6.2 開啟劑」英文原文：\"Sulfonylurea receptor 2, Kir6.2 opener\"（[ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Minoxidil 作用機轉（非官方翻譯）：「磺醯尿素受體 2、Kir6.2 開啟劑」。英文原文：\"Sulfonylurea receptor 2, Kir6.2 opener\"（[ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -19345,7 +19674,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Minoxidil 作用機轉（非官方翻譯）：「磺醯尿素受體 2、Kir6.2 開啟劑」英文原文：\"Sulfonylurea receptor 2, Kir6.2 opener\"（[ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-mirtazapine-1",
@@ -19461,7 +19797,7 @@
    "file": "moclobemide.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Moclobemide 作用機轉（非官方翻譯）：「單胺氧化酶A抑制劑」英文原文：\"Monoamine oxidase A inhibitor\"（[ChEMBL CHEMBL86304 (moclobemide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL86304)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Moclobemide 作用機轉（非官方翻譯）：「單胺氧化酶A抑制劑」。英文原文：\"Monoamine oxidase A inhibitor\"（[ChEMBL CHEMBL86304 (moclobemide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL86304)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -19478,7 +19814,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Moclobemide 作用機轉（非官方翻譯）：「單胺氧化酶A抑制劑」英文原文：\"Monoamine oxidase A inhibitor\"（[ChEMBL CHEMBL86304 (moclobemide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL86304)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-montelukast-1",
@@ -19513,7 +19856,7 @@
    "file": "moroctocog_alfa.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Moroctocog Alfa 作用機轉（非官方翻譯）：「凝血因子 VIII 外源性蛋白質」英文原文：\"Coagulation factor VIII exogenous protein\"（[ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Moroctocog Alfa 作用機轉（非官方翻譯）：「凝血因子 VIII 外源性蛋白質」。英文原文：\"Coagulation factor VIII exogenous protein\"（[ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -19530,7 +19873,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Moroctocog Alfa 作用機轉（非官方翻譯）：「凝血因子 VIII 外源性蛋白質」英文原文：\"Coagulation factor VIII exogenous protein\"（[ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-morphine-1",
@@ -19727,7 +20077,7 @@
    "file": "natamycin.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Natamycin 作用機轉（非官方翻譯）：「Ergosterol螯合劑」英文原文：\"Ergosterol sequestering agent\"（[ChEMBL CHEMBL1200656 (natamycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200656)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Natamycin 作用機轉（非官方翻譯）：「Ergosterol螯合劑」。英文原文：\"Ergosterol sequestering agent\"（[ChEMBL CHEMBL1200656 (natamycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200656)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -19744,7 +20094,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Natamycin 作用機轉（非官方翻譯）：「Ergosterol螯合劑」英文原文：\"Ergosterol sequestering agent\"（[ChEMBL CHEMBL1200656 (natamycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200656)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-nebivolol-1",
@@ -20076,7 +20433,7 @@
    "file": "norfloxacin.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Norfloxacin 作用機轉（非官方翻譯）：「拓撲異構酶IV抑制劑；細菌DNA旋轉酶抑制劑」英文原文：\"Topoisomerase IV inhibitor; Bacterial DNA gyrase inhibitor\"（[ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Norfloxacin 作用機轉（非官方翻譯）：「拓撲異構酶IV抑制劑；細菌DNA旋轉酶抑制劑」。英文原文：\"Topoisomerase IV inhibitor; Bacterial DNA gyrase inhibitor\"（[ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -20093,7 +20450,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Norfloxacin 作用機轉（非官方翻譯）：「拓撲異構酶IV抑制劑；細菌DNA旋轉酶抑制劑」英文原文：\"Topoisomerase IV inhibitor; Bacterial DNA gyrase inhibitor\"（[ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-nortriptyline-1",
@@ -20533,7 +20897,7 @@
    "file": "oxytetracycline.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Oxytetracycline 作用機轉（非官方翻譯）：「細菌 70S 核糖體抑制劑」英文原文：\"Bacterial 70S ribosome inhibitor\"（[ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Oxytetracycline 作用機轉（非官方翻譯）：「細菌 70S 核糖體抑制劑」。英文原文：\"Bacterial 70S ribosome inhibitor\"（[ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -20550,7 +20914,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Oxytetracycline 作用機轉（非官方翻譯）：「細菌 70S 核糖體抑制劑」英文原文：\"Bacterial 70S ribosome inhibitor\"（[ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-paclitaxel-1",
@@ -20639,7 +21010,7 @@
    "file": "palivizumab.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Palivizumab 作用機轉（非官方翻譯）：「融合醣蛋白 F0 抑制劑」英文原文：\"Fusion glycoprotein F0 inhibitor\"（[ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Palivizumab 作用機轉（非官方翻譯）：「融合醣蛋白 F0 抑制劑」。英文原文：\"Fusion glycoprotein F0 inhibitor\"（[ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -20656,7 +21027,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Palivizumab 作用機轉（非官方翻譯）：「融合醣蛋白 F0 抑制劑」英文原文：\"Fusion glycoprotein F0 inhibitor\"（[ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-palonosetron-1",
@@ -20772,7 +21150,7 @@
    "file": "parecoxib.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料庫記載。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Parecoxib 作用機轉（非官方翻譯）：「環氧合酶-2 抑制劑」英文原文：\"Cyclooxygenase-2 inhibitor\"（[ChEMBL CHEMBL1206690 (parecoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1206690)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Parecoxib 作用機轉（非官方翻譯）：「環氧合酶-2 抑制劑」。英文原文：\"Cyclooxygenase-2 inhibitor\"（[ChEMBL CHEMBL1206690 (parecoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1206690)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -20789,7 +21167,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Parecoxib 作用機轉（非官方翻譯）：「環氧合酶-2 抑制劑」英文原文：\"Cyclooxygenase-2 inhibitor\"（[ChEMBL CHEMBL1206690 (parecoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1206690)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-paroxetine-1",
@@ -21040,7 +21425,7 @@
    "file": "pentobarbital.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Pentobarbital 作用機轉（非官方翻譯）：「GABA-A受體；陰離子通道正向異位調節劑」英文原文：\"GABA-A receptor; anion channel positive allosteric modulator\"（[ChEMBL CHEMBL448 (pentobarbital): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL448)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Pentobarbital 作用機轉（非官方翻譯）：「GABA-A受體；陰離子通道正向異位調節劑」。英文原文：\"GABA-A receptor; anion channel positive allosteric modulator\"（[ChEMBL CHEMBL448 (pentobarbital): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL448)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -21057,7 +21442,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Pentobarbital 作用機轉（非官方翻譯）：「GABA-A受體；陰離子通道正向異位調節劑」英文原文：\"GABA-A receptor; anion channel positive allosteric modulator\"（[ChEMBL CHEMBL448 (pentobarbital): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL448)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-pentosan_polysulfate-1",
@@ -21281,7 +21673,7 @@
    "file": "pibrentasvir.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Pibrentasvir 作用機轉（非官方翻譯）：「非結構蛋白5A抑制劑」英文原文：\"Nonstructural protein 5A inhibitor\"（[ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Pibrentasvir 作用機轉（非官方翻譯）：「非結構蛋白5A抑制劑」。英文原文：\"Nonstructural protein 5A inhibitor\"（[ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -21298,7 +21690,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Pibrentasvir 作用機轉（非官方翻譯）：「非結構蛋白5A抑制劑」英文原文：\"Nonstructural protein 5A inhibitor\"（[ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-pimecrolimus-1",
@@ -22008,7 +22407,7 @@
    "file": "prochlorperazine.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Prochlorperazine 作用機轉（非官方翻譯）：「多巴胺 D2 受體拮抗劑」英文原文：\"Dopamine D2 receptor antagonist\"（[ChEMBL CHEMBL728 (prochlorperazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL728)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Prochlorperazine 作用機轉（非官方翻譯）：「多巴胺 D2 受體拮抗劑」。英文原文：\"Dopamine D2 receptor antagonist\"（[ChEMBL CHEMBL728 (prochlorperazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL728)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -22025,7 +22424,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Prochlorperazine 作用機轉（非官方翻譯）：「多巴胺 D2 受體拮抗劑」英文原文：\"Dopamine D2 receptor antagonist\"（[ChEMBL CHEMBL728 (prochlorperazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL728)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-progesterone-1",
@@ -22195,7 +22601,7 @@
    "file": "pyrazinamide.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Pyrazinamide 作用機轉（非官方翻譯）：「脂肪酸合成酶抑制劑；70S核糖體抑制劑」英文原文：\"Fatty acid synthase inhibitor; 70S ribosome inhibitor\"（[ChEMBL CHEMBL614 (pyrazinamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL614)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Pyrazinamide 作用機轉（非官方翻譯）：「脂肪酸合成酶抑制劑；70S核糖體抑制劑」。英文原文：\"Fatty acid synthase inhibitor; 70S ribosome inhibitor\"（[ChEMBL CHEMBL614 (pyrazinamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL614)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -22212,7 +22618,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Pyrazinamide 作用機轉（非官方翻譯）：「脂肪酸合成酶抑制劑；70S核糖體抑制劑」英文原文：\"Fatty acid synthase inhibitor; 70S ribosome inhibitor\"（[ChEMBL CHEMBL614 (pyrazinamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL614)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-pyridostigmine-1",
@@ -23219,7 +23632,7 @@
    "file": "roxadustat.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Roxadustat 作用機轉（非官方翻譯）：「缺氧誘導因子脯胺醯羥化酶抑制劑」英文原文：\"Hypoxia-inducible factor prolyl hydroxylase inhibitor\"（[ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Roxadustat 作用機轉（非官方翻譯）：「缺氧誘導因子脯胺醯羥化酶抑制劑」。英文原文：\"Hypoxia-inducible factor prolyl hydroxylase inhibitor\"（[ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -23236,7 +23649,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Roxadustat 作用機轉（非官方翻譯）：「缺氧誘導因子脯胺醯羥化酶抑制劑」英文原文：\"Hypoxia-inducible factor prolyl hydroxylase inhibitor\"（[ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-rufinamide-1",
@@ -23460,7 +23880,7 @@
    "file": "sebelipase_alfa.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Sebelipase Alfa 作用機轉（非官方翻譯）：「膽固醇酯水解酶；三酸甘油酯水解酶」英文原文：\"Cholesterol ester hydrolytic enzyme; Triglyceride hydrolytic enzyme\"（[ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Sebelipase Alfa 作用機轉（非官方翻譯）：「膽固醇酯水解酶；三酸甘油酯水解酶」。英文原文：\"Cholesterol ester hydrolytic enzyme; Triglyceride hydrolytic enzyme\"（[ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -23477,7 +23897,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Sebelipase Alfa 作用機轉（非官方翻譯）：「膽固醇酯水解酶；三酸甘油酯水解酶」英文原文：\"Cholesterol ester hydrolytic enzyme; Triglyceride hydrolytic enzyme\"（[ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-selegiline-1",
@@ -23647,7 +24074,7 @@
    "file": "sevoflurane.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Sevoflurane 作用機轉（非官方翻譯）：「甘氨酸受體（alpha-1/beta）正向調節劑；GABA-A受體；陰離子通道正向別構調節劑；鉀離子通道K亞家族成員10開放劑；鉀離子通道K亞家族成員18開放劑」英文原文：\"Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener\"（[ChEMBL CHEMBL1200694 (sevoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200694)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Sevoflurane 作用機轉（非官方翻譯）：「甘氨酸受體（alpha-1/beta）正向調節劑；GABA-A受體；陰離子通道正向別構調節劑；鉀離子通道K亞家族成員10開放劑；鉀離子通道K亞家族成員18開放劑」。英文原文：\"Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener\"（[ChEMBL CHEMBL1200694 (sevoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200694)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -23664,7 +24091,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Sevoflurane 作用機轉（非官方翻譯）：「甘氨酸受體（alpha-1/beta）正向調節劑；GABA-A受體；陰離子通道正向別構調節劑；鉀離子通道K亞家族成員10開放劑；鉀離子通道K亞家族成員18開放劑」英文原文：\"Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener\"（[ChEMBL CHEMBL1200694 (sevoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200694)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-silodosin-1",
@@ -23996,7 +24430,7 @@
    "file": "stavudine.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Stavudine 作用機轉（非官方翻譯）：「第 1 型人類免疫缺乏病毒反轉錄酶抑制劑」英文原文：\"Human immunodeficiency virus type 1 reverse transcriptase inhibitor\"（[ChEMBL CHEMBL991 (stavudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL991)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Stavudine 作用機轉（非官方翻譯）：「第 1 型人類免疫缺乏病毒反轉錄酶抑制劑」。英文原文：\"Human immunodeficiency virus type 1 reverse transcriptase inhibitor\"（[ChEMBL CHEMBL991 (stavudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL991)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -24013,7 +24447,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Stavudine 作用機轉（非官方翻譯）：「第 1 型人類免疫缺乏病毒反轉錄酶抑制劑」英文原文：\"Human immunodeficiency virus type 1 reverse transcriptase inhibitor\"（[ChEMBL CHEMBL991 (stavudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL991)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-sucralfate-1",
@@ -24102,7 +24543,7 @@
    "file": "sulfamethoxazole.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Sulfamethoxazole 作用機轉（非官方翻譯）：「細菌二氫蝶酸合成酶抑制劑」英文原文：\"Bacterial dihydropteroate synthase inhibitor\"（[ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Sulfamethoxazole 作用機轉（非官方翻譯）：「細菌二氫蝶酸合成酶抑制劑」。英文原文：\"Bacterial dihydropteroate synthase inhibitor\"（[ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -24119,7 +24560,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Sulfamethoxazole 作用機轉（非官方翻譯）：「細菌二氫蝶酸合成酶抑制劑」英文原文：\"Bacterial dihydropteroate synthase inhibitor\"（[ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-sulfasalazine-1",
@@ -24154,7 +24602,7 @@
    "file": "sulpiride.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料（原廠 MOA 欄位無內容）。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Sulpiride 作用機轉（非官方翻譯）：「多巴胺 D2 受體拮抗劑」英文原文：\"Dopamine D2 receptor antagonist\"（[ChEMBL CHEMBL26 (sulpiride): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL26)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Sulpiride 作用機轉（非官方翻譯）：「多巴胺 D2 受體拮抗劑」。英文原文：\"Dopamine D2 receptor antagonist\"（[ChEMBL CHEMBL26 (sulpiride): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL26)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -24171,7 +24619,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Sulpiride 作用機轉（非官方翻譯）：「多巴胺 D2 受體拮抗劑」英文原文：\"Dopamine D2 receptor antagonist\"（[ChEMBL CHEMBL26 (sulpiride): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL26)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-sunitinib-1",
@@ -24341,7 +24796,7 @@
    "file": "tegafur.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Tegafur 作用機轉（非官方翻譯）：「RNA 抑制劑；胸苷酸合成酶抑制劑；DNA 抑制劑」英文原文：\"RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor\"（[ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Tegafur 作用機轉（非官方翻譯）：「RNA 抑制劑；胸苷酸合成酶抑制劑；DNA 抑制劑」。英文原文：\"RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor\"（[ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -24358,7 +24813,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Tegafur 作用機轉（非官方翻譯）：「RNA 抑制劑；胸苷酸合成酶抑制劑；DNA 抑制劑」英文原文：\"RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor\"（[ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-telbivudine-1",
@@ -24366,7 +24828,7 @@
    "file": "telbivudine.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Telbivudine 作用機轉（非官方翻譯）：「DNA 聚合酶／反轉錄酶抑制劑」英文原文：\"DNA polymerase/reverse transcriptase inhibitor\"（[ChEMBL CHEMBL374731 (telbivudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374731)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Telbivudine 作用機轉（非官方翻譯）：「DNA 聚合酶／反轉錄酶抑制劑」。英文原文：\"DNA polymerase/reverse transcriptase inhibitor\"（[ChEMBL CHEMBL374731 (telbivudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374731)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -24383,7 +24845,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Telbivudine 作用機轉（非官方翻譯）：「DNA 聚合酶／反轉錄酶抑制劑」英文原文：\"DNA polymerase/reverse transcriptase inhibitor\"（[ChEMBL CHEMBL374731 (telbivudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374731)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-telmisartan-1",
@@ -24688,7 +25157,7 @@
    "file": "tetracycline.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Tetracycline 作用機轉（非官方翻譯）：「細菌 70S 核糖體抑制劑」英文原文：\"Bacterial 70S ribosome inhibitor\"（[ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Tetracycline 作用機轉（非官方翻譯）：「細菌 70S 核糖體抑制劑」。英文原文：\"Bacterial 70S ribosome inhibitor\"（[ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -24705,7 +25174,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Tetracycline 作用機轉（非官方翻譯）：「細菌 70S 核糖體抑制劑」英文原文：\"Bacterial 70S ribosome inhibitor\"（[ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-theophylline-1",
@@ -24821,7 +25297,7 @@
    "file": "tioconazole.md",
    "action": "mechanism",
    "claim": "目前缺乏完整的作用機轉登記資料，但藥理資料顯示，tioconazole 的分子標靶是黴菌與酵母的 lanosterol 14-α demethylase（CYP51/ERG11）。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Tioconazole 作用機轉（非官方翻譯）：「細胞色素 P450 51 抑制劑」英文原文：\"Cytochrome P450 51 inhibitor\"（[ChEMBL CHEMBL1200438 (tioconazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200438)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Tioconazole 作用機轉（非官方翻譯）：「細胞色素 P450 51 抑制劑」。英文原文：\"Cytochrome P450 51 inhibitor\"（[ChEMBL CHEMBL1200438 (tioconazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200438)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -24838,7 +25314,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Tioconazole 作用機轉（非官方翻譯）：「細胞色素 P450 51 抑制劑」英文原文：\"Cytochrome P450 51 inhibitor\"（[ChEMBL CHEMBL1200438 (tioconazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200438)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-tiotropium-1",
@@ -25332,7 +25815,7 @@
    "file": "triamterene.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Triamterene 作用機轉（非官方翻譯）：「Amiloride 敏感性鈉通道，ENaC 阻斷劑」英文原文：\"Amiloride-sensitive sodium channel, ENaC blocker\"（[ChEMBL CHEMBL585 (triamterene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL585)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Triamterene 作用機轉（非官方翻譯）：「Amiloride 敏感性鈉通道，ENaC 阻斷劑」。英文原文：\"Amiloride-sensitive sodium channel, ENaC blocker\"（[ChEMBL CHEMBL585 (triamterene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL585)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -25349,7 +25832,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Triamterene 作用機轉（非官方翻譯）：「Amiloride 敏感性鈉通道，ENaC 阻斷劑」英文原文：\"Amiloride-sensitive sodium channel, ENaC blocker\"（[ChEMBL CHEMBL585 (triamterene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL585)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-trifarotene-1",
@@ -25681,7 +26171,7 @@
    "file": "velpatasvir.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Velpatasvir 作用機轉（非官方翻譯）：「非結構蛋白5A抑制劑」英文原文：\"Nonstructural protein 5A inhibitor\"（[ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Velpatasvir 作用機轉（非官方翻譯）：「非結構蛋白5A抑制劑」。英文原文：\"Nonstructural protein 5A inhibitor\"（[ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -25698,7 +26188,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Velpatasvir 作用機轉（非官方翻譯）：「非結構蛋白5A抑制劑」英文原文：\"Nonstructural protein 5A inhibitor\"（[ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-venetoclax-1",
@@ -25760,7 +26257,7 @@
    "file": "verteporfin.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Verteporfin 作用機轉（非官方翻譯）：「DNA 抑制劑」英文原文：\"DNA inhibitor\"（[ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Verteporfin 作用機轉（非官方翻譯）：「DNA 抑制劑」。英文原文：\"DNA inhibitor\"（[ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -25777,7 +26274,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Verteporfin 作用機轉（非官方翻譯）：「DNA 抑制劑」英文原文：\"DNA inhibitor\"（[ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-vilanterol-1",
@@ -25812,7 +26316,7 @@
    "file": "vildagliptin.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Vildagliptin 作用機轉（非官方翻譯）：「二肽基肽酶 IV 抑制劑」英文原文：\"Dipeptidyl peptidase IV inhibitor\"（[ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Vildagliptin 作用機轉（非官方翻譯）：「二肽基肽酶 IV 抑制劑」。英文原文：\"Dipeptidyl peptidase IV inhibitor\"（[ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -25829,7 +26333,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Vildagliptin 作用機轉（非官方翻譯）：「二肽基肽酶 IV 抑制劑」英文原文：\"Dipeptidyl peptidase IV inhibitor\"（[ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-vinblastine-1",
@@ -25972,7 +26483,7 @@
    "file": "voxilaprevir.md",
    "action": "mechanism",
    "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Voxilaprevir 作用機轉（非官方翻譯）：「C型肝炎病毒絲胺酸蛋白酶NS3/NS4A抑制劑」英文原文：\"Hepatitis C virus serine protease, NS3/NS4A inhibitor\"（[ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "replacement": "ChEMBL（EMBL-EBI）收錄的 Voxilaprevir 作用機轉（非官方翻譯）：「C型肝炎病毒絲胺酸蛋白酶NS3/NS4A抑制劑」。英文原文：\"Hepatitis C virus serine protease, NS3/NS4A inhibitor\"（[ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -25989,7 +26500,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Voxilaprevir 作用機轉（非官方翻譯）：「C型肝炎病毒絲胺酸蛋白酶NS3/NS4A抑制劑」英文原文：\"Hepatitis C virus serine protease, NS3/NS4A inhibitor\"（[ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-warfarin-1",
@@ -26313,6 +26831,87 @@
     }
    ],
    "checked": "2026-11-19",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "hk-moa-20261120-azithromycin-2",
+   "drug": "azithromycin",
+   "file": "azithromycin.md",
+   "action": "mechanism",
+   "claim": "Azithromycin 屬於大環內酯類抗生素，一般認為透過抑制細菌蛋白質合成來發揮抗菌作用，但本次整理的資料中沒有提供其作用機轉說明。",
+   "replacement": "根據美國 FDA 核准的 Azithromycin 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Azithromycin 是一種巨環內酯類抗菌藥物。[…] Azithromycin 的作用是與敏感微生物 50S 核糖體次單元的 23S rRNA 結合，從而抑制細菌蛋白質合成，並阻礙 50S 核糖體次單元的組裝。」英文原文：\"Azithromycin is a macrolide antibacterial drug. […] Azithromycin acts by binding to the 23S rRNA of the 50S ribosomal subunit of susceptible microorganisms inhibiting bacterial protein synthesis and impeding the assembly of the 50S ribosomal subunit.\"（[DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a)，版本日期 2026-09-09；查閱日期 2026-11-20）。",
+   "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a",
+     "accessed": "2026-11-20",
+     "excerpt": "Azithromycin is a macrolide antibacterial drug. […] Azithromycin acts by binding to the 23S rRNA of the 50S ribosomal subunit of susceptible microorganisms inhibiting bacterial protein synthesis and impeding the assembly of the 50S ribosomal subunit.",
+     "label_version": "2026-09-09",
+     "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "8d24bacb-feff-4c6a-b8df-625e1435387a",
+     "translation": "Azithromycin 是一種巨環內酯類抗菌藥物。[…] Azithromycin 的作用是與敏感微生物 50S 核糖體次單元的 23S rRNA 結合，從而抑制細菌蛋白質合成，並阻礙 50S 核糖體次單元的組裝。",
+     "translation_lang": "zh",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "hk-moa-20261120-interferon_beta-1b-2",
+   "drug": "interferon_beta-1b",
+   "file": "interferon_beta-1b.md",
+   "action": "mechanism",
+   "claim": "本報告所整理的資料中，沒有任何針對 Interferon beta-1b 用於毛細胞白血病的試驗或研究，也缺乏藥物本身的作用機轉資料。",
+   "replacement": "根據美國 FDA 核准的 Interferon Beta-1B 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「BETASERON（干擾素β-1b）在多發性硬化症患者中的作用機制未明。」英文原文：\"The mechanism of action of BETASERON (interferon beta-1b) in patients with multiple sclerosis is unknown.\"（[DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5)，版本日期 2026-03-03；查閱日期 2026-11-20）。",
+   "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5",
+     "accessed": "2026-11-20",
+     "excerpt": "The mechanism of action of BETASERON (interferon beta-1b) in patients with multiple sclerosis is unknown.",
+     "label_version": "2026-03-03",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "66311f74-0472-4fa3-848a-06002ca0def5",
+     "translation": "BETASERON（干擾素β-1b）在多發性硬化症患者中的作用機制未明。",
+     "translation_lang": "zh",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "hk-moa-20261120-selinexor-2",
+   "drug": "selinexor",
+   "file": "selinexor.md",
+   "action": "mechanism",
+   "claim": "Selinexor 一般已知為 XPO1 核輸出抑制劑，但本次整理的資料並未收錄其作用機轉，也未載明原適應症，因此無法由現有資料驗證其機轉與新適應症之間的關聯。",
+   "replacement": "根據美國 FDA 核准的 Selinexor 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「在非臨床研究中，selinexor可透過阻斷輸出蛋白1（XPO1），可逆性地抑制腫瘤抑制蛋白（TSP）、生長調節因子及致癌蛋白mRNA的核輸出。Selinexor抑制XPO1會導致TSP於細胞核內累積、數種致癌蛋白（如c-myc及cyclin D1）減少、細胞週期停滯，以及癌細胞凋亡。」英文原文：\"In nonclinical studies, selinexor reversibly inhibits nuclear export of tumor suppressor proteins (TSPs), growth regulators, and mRNAs of oncogenic proteins by blocking exportin 1 (XPO1). XPO1 inhibition by selinexor leads to accumulation of TSPs in the nucleus and reductions in several oncoproteins, such as c-myc and cyclin D1, cell cycle arrest, and apoptosis of cancer cells.\"（[DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8)，版本日期 2026-05-12；查閱日期 2026-11-20）。",
+   "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8",
+     "accessed": "2026-11-20",
+     "excerpt": "In nonclinical studies, selinexor reversibly inhibits nuclear export of tumor suppressor proteins (TSPs), growth regulators, and mRNAs of oncogenic proteins by blocking exportin 1 (XPO1). XPO1 inhibition by selinexor leads to accumulation of TSPs in the nucleus and reductions in several oncoproteins, such as c-myc and cyclin D1, cell cycle arrest, and apoptosis of cancer cells.",
+     "label_version": "2026-05-12",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "f6dd2682-75a6-4863-90a8-a3197f6f78a8",
+     "translation": "在非臨床研究中，selinexor可透過阻斷輸出蛋白1（XPO1），可逆性地抑制腫瘤抑制蛋白（TSP）、生長調節因子及致癌蛋白mRNA的核輸出。Selinexor抑制XPO1會導致TSP於細胞核內累積、數種致癌蛋白（如c-myc及cyclin D1）減少、細胞週期停滯，以及癌細胞凋亡。",
+     "translation_lang": "zh",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
    "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
   }
  ]

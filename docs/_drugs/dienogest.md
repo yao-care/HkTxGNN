@@ -59,7 +59,7 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但目前**沒有
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Dienogest 作用機轉（非官方翻譯）：「不明」英文原文："Unknown"（[ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Dienogest 是 19-去甲睪固酮衍生的黃體素，具有強效黃體素活性與抗排卵作用，並會抑制內源性雌二醇。
+ChEMBL（EMBL-EBI）收錄的 Dienogest 作用機轉（非官方翻譯）：「不明」。英文原文："Unknown"（[ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Dienogest 是 19-去甲睪固酮衍生的黃體素，具有強效黃體素活性與抗排卵作用，並會抑制內源性雌二醇。
 
 文獻指出，閉經是 Dienogest 治療子宮內膜異位症時常見的藥物效應，所以兩者的關聯主要是「副作用或藥效表現」，而不是治療標的。
 
@@ -133,7 +133,7 @@ ChEMBL（EMBL-EBI）收錄的 Dienogest 作用機轉（非官方翻譯）：「�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864) |
 
 <!-- review:end log -->
 

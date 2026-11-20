@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**B 型肝炎病毒感染 (Hepatitis B Virus Infec
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Velpatasvir 作用機轉（非官方翻譯）：「非結構蛋白5A抑制劑」英文原文："Nonstructural protein 5A inhibitor"（[ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062)，CC BY-SA 3.0；查閱日期 2026-11-19）。已知 velpatasvir 是 HCV NS5A 抑制劑，用於 C 型肝炎。
+ChEMBL（EMBL-EBI）收錄的 Velpatasvir 作用機轉（非官方翻譯）：「非結構蛋白5A抑制劑」。英文原文："Nonstructural protein 5A inhibitor"（[ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062)，CC BY-SA 3.0；查閱日期 2026-11-19）。已知 velpatasvir 是 HCV NS5A 抑制劑，用於 C 型肝炎。
 
 B 型肝炎病毒是 DNA 病毒，靠逆轉錄酶／聚合酶複製，與 HCV 的複製機制不同，也沒有 NS5A 對應標靶。因此從機轉上看，velpatasvir 對 HBV 並無已知的抗病毒活性。此分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性（例如兩者同為嗜肝病毒），並非生物學證據。
 
@@ -121,7 +121,7 @@ B 型肝炎病毒是 DNA 病毒，靠逆轉錄酶／聚合酶複製，與 HCV �
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062) |
 
 <!-- review:end log -->
 

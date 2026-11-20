@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**巨型血小板低下合併二尖瓣閉鎖不全
 
 ## 為什麼這個預測合理？
 
-Avatrombopag 是口服 TPO 受體（c-Mpl）促效劑，能刺激巨核細胞增生與分化，進而提高血小板數量。ChEMBL（EMBL-EBI）收錄的 Avatrombopag 作用機轉（非官方翻譯）：「血小板生成素受體致效劑」英文原文："Thrombopoietin receptor agonist"（[ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883)，CC BY-SA 3.0；查閱日期 2026-11-19）。
+Avatrombopag 是口服 TPO 受體（c-Mpl）促效劑，能刺激巨核細胞增生與分化，進而提高血小板數量。ChEMBL（EMBL-EBI）收錄的 Avatrombopag 作用機轉（非官方翻譯）：「血小板生成素受體致效劑」。英文原文："Thrombopoietin receptor agonist"（[ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883)，CC BY-SA 3.0；查閱日期 2026-11-19）。
 
 就「血小板低下」這個成分而言，機轉上有合理的關聯。但這個疾病的巨型血小板低下較可能源自先天性的血小板生成或結構缺陷（例如細胞骨架或 filamin 相關異常），因此藥物是否有效並不確定。至於二尖瓣閉鎖不全，與此藥物沒有任何機轉上的關聯。
 
@@ -131,7 +131,7 @@ TxGNN 分數很高，但這只是計算預測，沒有試驗或文獻佐證。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883) |
 
 <!-- review:end log -->
 

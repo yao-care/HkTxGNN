@@ -55,7 +55,7 @@ TxGNN 模型預測分數最高的新適應症為**多株性高黏滯症候群 (P
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Norfloxacin 作用機轉（非官方翻譯）：「拓撲異構酶IV抑制劑；細菌DNA旋轉酶抑制劑」英文原文："Topoisomerase IV inhibitor; Bacterial DNA gyrase inhibitor"（[ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9)，CC BY-SA 3.0；查閱日期 2026-11-19）。就已知的藥理類別而言，Norfloxacin 屬氟喹諾酮類抗菌藥，一般認為是抑制細菌 DNA 旋轉酶 (DNA gyrase) 與拓樸異構酶 IV，用於細菌感染。
+ChEMBL（EMBL-EBI）收錄的 Norfloxacin 作用機轉（非官方翻譯）：「拓撲異構酶IV抑制劑；細菌DNA旋轉酶抑制劑」。英文原文："Topoisomerase IV inhibitor; Bacterial DNA gyrase inhibitor"（[ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9)，CC BY-SA 3.0；查閱日期 2026-11-19）。就已知的藥理類別而言，Norfloxacin 屬氟喹諾酮類抗菌藥，一般認為是抑制細菌 DNA 旋轉酶 (DNA gyrase) 與拓樸異構酶 IV，用於細菌感染。
 
 多株性高黏滯症候群源於免疫球蛋白過多，並非細菌感染所致。抗菌藥物無法處理這個病理過程，因此**機轉上找不到合理的連結**。0.9970 的分數來自 TxGNN 模型（深度學習），可能反映模型從相關疾病之間學到的相似性，並非生物學證據，也沒有臨床試驗或文獻佐證，應視為模型假說而非可行的再利用方向。
 
@@ -124,7 +124,7 @@ ChEMBL（EMBL-EBI）收錄的 Norfloxacin 作用機轉（非官方翻譯）：�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9) |
 
 <!-- review:end log -->
 

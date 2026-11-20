@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**急性傳染性結膜炎 (Acute Contagious Conju
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Sulfamethoxazole 作用機轉（非官方翻譯）：「細菌二氫蝶酸合成酶抑制劑」英文原文："Bacterial dihydropteroate synthase inhibitor"（[ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據一般藥理知識，Sulfamethoxazole 是磺胺類抗菌藥，抑制細菌的二氫蝶酸合成酶 (dihydropteroate synthase)，阻斷細菌葉酸合成；與 trimethoprim 合用時，可在連續兩個步驟上同時阻斷，產生協同效果。以上機轉說明來自一般藥理學，並非來自本報告所整理的資料。
+ChEMBL（EMBL-EBI）收錄的 Sulfamethoxazole 作用機轉（非官方翻譯）：「細菌二氫蝶酸合成酶抑制劑」。英文原文："Bacterial dihydropteroate synthase inhibitor"（[ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據一般藥理知識，Sulfamethoxazole 是磺胺類抗菌藥，抑制細菌的二氫蝶酸合成酶 (dihydropteroate synthase)，阻斷細菌葉酸合成；與 trimethoprim 合用時，可在連續兩個步驟上同時阻斷，產生協同效果。以上機轉說明來自一般藥理學，並非來自本報告所整理的資料。
 
 急性傳染性結膜炎常由細菌引起（如流感嗜血桿菌、肺炎鏈球菌、金黃色葡萄球菌），因此抗菌機轉在生物學上合理。
 
@@ -127,7 +127,7 @@ ChEMBL（EMBL-EBI）收錄的 Sulfamethoxazole 作用機轉（非官方翻譯）
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443) |
 
 <!-- review:end log -->
 

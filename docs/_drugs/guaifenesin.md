@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Guaifenesin 作用機轉（非官方翻譯）：「不明」英文原文："Unknown"（[ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Guaifenesin 是祛痰劑，作用是稀釋並促進氣道黏液排出。鼻腔疾病與其已知的鼻炎、感冒、鼻咽炎等適應症高度相關，因此機轉上可能適用於鼻腔疾病中的黏液分泌問題。
+ChEMBL（EMBL-EBI）收錄的 Guaifenesin 作用機轉（非官方翻譯）：「不明」。英文原文："Unknown"（[ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Guaifenesin 是祛痰劑，作用是稀釋並促進氣道黏液排出。鼻腔疾病與其已知的鼻炎、感冒、鼻咽炎等適應症高度相關，因此機轉上可能適用於鼻腔疾病中的黏液分泌問題。
 
 需要注意的是，0.9998 的高分來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，而非生物學證據，也不代表出現了新的作用機轉。因此這個預測較像是既有用途的延伸，而不是真正的新用途。其他排名較低的預測（如咽白喉、頸椎椎間盤退化、乳頭狀結膜炎）同樣缺乏可信的機轉連結，多半只是模型學到的相關疾病相似性，並非生物學證據。
 
@@ -118,7 +118,7 @@ ChEMBL（EMBL-EBI）收錄的 Guaifenesin 作用機轉（非官方翻譯）：�
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效的單方許可證，以下列出 5 張主要者（資料中未提供劑型與核」→「香港共有 169 張含本藥成分的許可證（全部有效；單一成分 」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980) |
 
 <!-- review:end log -->
 

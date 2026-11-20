@@ -61,7 +61,7 @@ TxGNN 模型預測它可能對**變異型心絞痛 (Prinzmetal angina)** 有效�
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Sevoflurane 作用機轉（非官方翻譯）：「甘氨酸受體（alpha-1/beta）正向調節劑；GABA-A受體；陰離子通道正向別構調節劑；鉀離子通道K亞家族成員10開放劑；鉀離子通道K亞家族成員18開放劑」英文原文："Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener"（[ChEMBL CHEMBL1200694 (sevoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200694)，CC BY-SA 3.0；查閱日期 2026-11-19）。Sevoflurane 屬於揮發性吸入麻醉劑，一般認為作用於 GABA-A 與 NMDA 受體等中樞神經路徑。
+ChEMBL（EMBL-EBI）收錄的 Sevoflurane 作用機轉（非官方翻譯）：「甘氨酸受體（alpha-1/beta）正向調節劑；GABA-A受體；陰離子通道正向別構調節劑；鉀離子通道K亞家族成員10開放劑；鉀離子通道K亞家族成員18開放劑」。英文原文："Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener"（[ChEMBL CHEMBL1200694 (sevoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200694)，CC BY-SA 3.0；查閱日期 2026-11-19）。Sevoflurane 屬於揮發性吸入麻醉劑，一般認為作用於 GABA-A 與 NMDA 受體等中樞神經路徑。
 
 從理論上看，揮發性麻醉劑可能經由鈣離子通道調節與血管平滑肌鬆弛影響冠狀動脈的血管收縮，這是此預測唯一可推測的機轉關聯。然而，Sevoflurane 在冠狀動脈痙攣上並無已證實的治療角色，這個關聯目前只是推測。
 
@@ -138,7 +138,7 @@ ChEMBL（EMBL-EBI）收錄的 Sevoflurane 作用機轉（非官方翻譯）：�
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「已在香港取得 3 張有效許可證」→「已在香港取得 4 張有效許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL1200694 (sevoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200694) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL1200694 (sevoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200694) |
 
 <!-- review:end log -->
 

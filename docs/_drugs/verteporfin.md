@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**核 DNA 異常所致的粒線體氧化磷酸化�
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Verteporfin 作用機轉（非官方翻譯）：「DNA 抑制劑」英文原文："DNA inhibitor"（[ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346)，CC BY-SA 3.0；查閱日期 2026-11-19）。已知 Verteporfin 是苯并卟啉（benzoporphyrin）類光敏劑，經光照活化後產生活性氧（ROS），用於新生血管性黃斑部病變的光動力療法。
+ChEMBL（EMBL-EBI）收錄的 Verteporfin 作用機轉（非官方翻譯）：「DNA 抑制劑」。英文原文："DNA inhibitor"（[ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346)，CC BY-SA 3.0；查閱日期 2026-11-19）。已知 Verteporfin 是苯并卟啉（benzoporphyrin）類光敏劑，經光照活化後產生活性氧（ROS），用於新生血管性黃斑部病變的光動力療法。
 
 前臨床研究另有報告指出，它可能在不依賴光照的情況下抑制 Hippo 路徑中的 YAP-TEAD 交互作用。與粒線體疾病之間可能的連結，推測涉及粒線體功能、氧化壓力或細胞壓力訊號的改變，但這些都尚未被驗證。
 
@@ -110,7 +110,7 @@ ChEMBL（EMBL-EBI）收錄的 Verteporfin 作用機轉（非官方翻譯）：�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346) |
 
 <!-- review:end log -->
 

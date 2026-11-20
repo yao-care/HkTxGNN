@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**慢性鼻竇炎**有效，但目前**沒有任�
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Oxytetracycline 作用機轉（非官方翻譯）：「細菌 70S 核糖體抑制劑」英文原文："Bacterial 70S ribosome inhibitor"（[ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，土黴素屬於四環黴素類廣效抗菌藥。知識圖譜記錄它與支氣管炎、咽炎、肺炎等呼吸道感染有關聯，機轉上可能適用於同屬上呼吸道的慢性鼻竇炎。
+ChEMBL（EMBL-EBI）收錄的 Oxytetracycline 作用機轉（非官方翻譯）：「細菌 70S 核糖體抑制劑」。英文原文："Bacterial 70S ribosome inhibitor"（[ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，土黴素屬於四環黴素類廣效抗菌藥。知識圖譜記錄它與支氣管炎、咽炎、肺炎等呼吸道感染有關聯，機轉上可能適用於同屬上呼吸道的慢性鼻竇炎。
 
 四環黴素類除了抗菌作用外，一般也被認為有抑制基質金屬蛋白酶、減輕發炎的效果，可能是另一條合理的推測路徑。但這些都只是推論，本報告彙整的資料中沒有任何證據可以驗證。
 
@@ -113,7 +113,7 @@ ChEMBL（EMBL-EBI）收錄的 Oxytetracycline 作用機轉（非官方翻譯）�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517) |
 
 <!-- review:end log -->
 

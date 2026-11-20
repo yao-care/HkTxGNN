@@ -64,7 +64,7 @@ TxGNN 模型預測它可能對**毛細胞白血病 (Hairy Cell Leukemia)** 有�
 
 另一個干擾素，Interferon alpha，過去曾用於治療毛細胞白血病。第 I 型干擾素都透過 IFNAR 受體傳遞訊號，可能對惡性 B 細胞有抗增生和免疫調節作用。因此模型給出高分，在生物學上並非毫無根據。
 
-但這只是**類別層級的推論**。本報告所整理的資料中，沒有任何針對 Interferon beta-1b 用於毛細胞白血病的試驗或研究，也缺乏藥物本身的作用機轉資料。這個預測目前只能視為假說。
+但這只是**類別層級的推論**。根據美國 FDA 核准的 Interferon Beta-1B 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「BETASERON（干擾素β-1b）在多發性硬化症患者中的作用機制未明。」英文原文："The mechanism of action of BETASERON (interferon beta-1b) in patients with multiple sclerosis is unknown."（[DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5)，版本日期 2026-03-03；查閱日期 2026-11-20）。這個預測目前只能視為假說。
 
 ---
 
@@ -134,6 +134,7 @@ TxGNN 模型預測它可能對**毛細胞白血病 (Hairy Cell Leukemia)** 有�
 |------|------|------|------|
 | 2026-11-17 | 「BAYER HEALTHCARE LIMITED &#124; 有效（單一成分）」→「BAYER HEALTHCARE LIMITED &#124; 已註銷（單一成分）」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5) |
+| 2026-11-20 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5) |
 
 <!-- review:end log -->
 

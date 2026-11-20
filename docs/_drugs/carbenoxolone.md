@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**非症候群性食道畸形 (non-syndromic esoph
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Carbenoxolone 作用機轉（非官方翻譯）：「11-β-羥基類固醇去氫酶抑制劑」英文原文："11-beta-hydroxysteroid dehydrogenase inhibitor"（[ChEMBL CHEMBL499915 (carbenoxolone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL499915)，CC BY-SA 3.0；查閱日期 2026-11-19）。
+ChEMBL（EMBL-EBI）收錄的 Carbenoxolone 作用機轉（非官方翻譯）：「11-β-羥基類固醇去氫酶抑制劑」。英文原文："11-beta-hydroxysteroid dehydrogenase inhibitor"（[ChEMBL CHEMBL499915 (carbenoxolone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL499915)，CC BY-SA 3.0；查閱日期 2026-11-19）。
 
 食道畸形（例如食道閉鎖、氣管食道瘻管）屬於先天發育與外科處理的問題。Carbenoxolone 一般被認為具黏膜保護與阻斷間隙連接的特性，對結構性畸形缺乏合理的治療角色。模型可能是從後天性食道黏膜疾病轉移了訊號，這點需要謹慎看待。
 
@@ -102,7 +102,7 @@ ChEMBL（EMBL-EBI）收錄的 Carbenoxolone 作用機轉（非官方翻譯）：
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL499915 (carbenoxolone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL499915) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL499915 (carbenoxolone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL499915) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**偽性血管性血友病 (pseudo-von Willebrand 
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Efmoroctocog Alfa 作用機轉（非官方翻譯）：「凝血因子 VIII 外源性蛋白質」英文原文："Coagulation factor VIII exogenous protein"（[ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，efmoroctocog alfa 是重組 Fc 融合第八凝血因子，作用是補充缺乏的 FVIII 活性，其在血友病中的療效已被確立。
+ChEMBL（EMBL-EBI）收錄的 Efmoroctocog Alfa 作用機轉（非官方翻譯）：「凝血因子 VIII 外源性蛋白質」。英文原文："Coagulation factor VIII exogenous protein"（[ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，efmoroctocog alfa 是重組 Fc 融合第八凝血因子，作用是補充缺乏的 FVIII 活性，其在血友病中的療效已被確立。
 
 不過，偽性血管性血友病（血小板型 VWD）的成因是血小板 GPIbα 功能增強突變，使血小板與 VWF 過度結合，並加速高分子量 VWF 多聚體的清除。主要缺陷在血小板，而非 FVIII 缺乏，因此補充 FVIII 在機轉上沒有明確的直接依據；即使有 FVIII 的次發性下降，也只是間接影響。
 
@@ -136,7 +136,7 @@ TxGNN 另外預測了 9 個適應症，皆無臨床試驗或文獻佐證：
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**類血管性血友病 (pseudo-von Willebrand dis
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Eftrenonacog Alfa 作用機轉（非官方翻譯）：「凝血因子IX外源性蛋白質」英文原文："Coagulation factor IX exogenous protein"（[ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Eftrenonacog alfa 是重組第九凝血因子 Fc 融合蛋白（rFIXFc），可補充 B 型血友病患者缺乏的第九凝血因子活性，其在血友病中的療效機轉已相當明確。
+ChEMBL（EMBL-EBI）收錄的 Eftrenonacog Alfa 作用機轉（非官方翻譯）：「凝血因子IX外源性蛋白質」。英文原文："Coagulation factor IX exogenous protein"（[ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Eftrenonacog alfa 是重組第九凝血因子 Fc 融合蛋白（rFIXFc），可補充 B 型血友病患者缺乏的第九凝血因子活性，其在血友病中的療效機轉已相當明確。
 
 然而，類血管性血友病（血小板型 von Willebrand 病）的病因是血小板 GPIbα 的功能獲得性變異，使其與 von Willebrand 因子（VWF）的結合增加，造成高分子量 VWF 多聚體流失及血小板低下。缺陷在於血小板與 VWF 的軸線，而非第九因子缺乏，因此**機轉上沒有明顯的直接關聯**。
 
@@ -116,7 +116,7 @@ TxGNN 模型（深度學習）給出的高分數（0.9948）僅是計算預測�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598) |
 
 <!-- review:end log -->
 

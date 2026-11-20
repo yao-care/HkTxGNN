@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**顱面錐體發育不良 (craniofacial conodyspl
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Alfacalcidol 作用機轉（非官方翻譯）：「維生素 D 受體致效劑」英文原文："Vitamin D receptor agonist"（[ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Alfacalcidol 是活性維生素 D 類似物，可繞過腎臟 1-alpha 羟化步驟，直接參與鈣、磷代謝與骨礦化調節。
+ChEMBL（EMBL-EBI）收錄的 Alfacalcidol 作用機轉（非官方翻譯）：「維生素 D 受體致效劑」。英文原文："Vitamin D receptor agonist"（[ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Alfacalcidol 是活性維生素 D 類似物，可繞過腎臟 1-alpha 羟化步驟，直接參與鈣、磷代謝與骨礦化調節。
 
 顱面錐體發育不良屬於骨骼發育異常。從骨骼與礦物質代謝的角度，兩者之間存在概念上的關聯，但目前沒有任何文件記載的機轉或數據能支持 alfacalcidol 對此疾病有效。
 
@@ -104,7 +104,7 @@ ChEMBL（EMBL-EBI）收錄的 Alfacalcidol 作用機轉（非官方翻譯）：�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669) |
 
 <!-- review:end log -->
 

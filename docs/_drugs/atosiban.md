@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**原發性遺傳性青光眼 (Primary Hereditary 
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Atosiban 作用機轉（非官方翻譯）：「催產素受體拮抗劑」英文原文："Oxytocin receptor antagonist"（[ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據藥理資料，atosiban 是催產素受體（OXTR）與血管加壓素 V1A 受體的拮抗劑，並與 V1B、V2 受體有交互作用。
+ChEMBL（EMBL-EBI）收錄的 Atosiban 作用機轉（非官方翻譯）：「催產素受體拮抗劑」。英文原文："Oxytocin receptor antagonist"（[ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據藥理資料，atosiban 是催產素受體（OXTR）與血管加壓素 V1A 受體的拮抗劑，並與 V1B、V2 受體有交互作用。
 
 目前沒有任何資料把這條路徑與遺傳性青光眼連結起來。高分來自 TxGNN 模型（深度學習），可能反映模型從相關疾病間學到的相似性，不代表生物學證據，也不代表已證實的機轉。催產素／血管加壓素受體影響房水動力或眼壓的說法，目前屬推測，缺乏資料支持。
 
@@ -110,7 +110,7 @@ ChEMBL（EMBL-EBI）收錄的 Atosiban 作用機轉（非官方翻譯）：「�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301) |
 
 <!-- review:end log -->
 

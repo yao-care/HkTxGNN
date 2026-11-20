@@ -60,7 +60,7 @@ TxGNN 模型預測它可能對**良性攝護腺增生 (Benign Prostatic Hyperpla
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Benzydamine 作用機轉（非官方翻譯）：「環氧化酶抑制劑」英文原文："Cyclooxygenase inhibitor"（[ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Benzydamine 是一種局部作用、類似非類固醇抗發炎藥（NSAID）的藥物，具有抗發炎、止痛與局部麻醉特性，並可抑制促發炎細胞激素（如 TNF-α、IL-1β）的產生。
+ChEMBL（EMBL-EBI）收錄的 Benzydamine 作用機轉（非官方翻譯）：「環氧化酶抑制劑」。英文原文："Cyclooxygenase inhibitor"（[ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610)，CC BY-SA 3.0；查閱日期 2026-11-19）。根據已知資訊，Benzydamine 是一種局部作用、類似非類固醇抗發炎藥（NSAID）的藥物，具有抗發炎、止痛與局部麻醉特性，並可抑制促發炎細胞激素（如 TNF-α、IL-1β）的產生。
 
 慢性攝護腺發炎被認為可能與 BPH 的發生與進展有關，因此從抗發炎的角度推論，Benzydamine 用於 BPH 在機轉上有其可能性。不過這個連結目前只是假說，沒有任何臨床或文獻證據支持。
 
@@ -130,7 +130,7 @@ ChEMBL（EMBL-EBI）收錄的 Benzydamine 作用機轉（非官方翻譯）：�
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效許可證（皆為單方，無已註銷者）。」→「香港共有 22 張含本藥成分的許可證（全部有效；單一成分 1」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610) |
 
 <!-- review:end log -->
 

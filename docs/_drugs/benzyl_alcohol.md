@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**支氣管炎 (bronchitis)** 有效，但目前**
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Benzyl Alcohol 作用機轉（非官方翻譯）：「不明」英文原文："Unknown"（[ChEMBL CHEMBL720 (benzyl alcohol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL720)，CC BY-SA 3.0；查閱日期 2026-11-19）。苯甲醇已知具有抗菌（抑菌）、防腐與局部麻醉的特性，理論上可能與呼吸道感染或刺激症狀相關，但這僅是推測。
+ChEMBL（EMBL-EBI）收錄的 Benzyl Alcohol 作用機轉（非官方翻譯）：「不明」。英文原文："Unknown"（[ChEMBL CHEMBL720 (benzyl alcohol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL720)，CC BY-SA 3.0；查閱日期 2026-11-19）。苯甲醇已知具有抗菌（抑菌）、防腐與局部麻醉的特性，理論上可能與呼吸道感染或刺激症狀相關，但這僅是推測。
 
 預測分數雖高（0.9946），但這只是模型輸出，並非臨床證據。值得注意的是，唯一直接相關的臨床文獻（PMID 7807035）指出，含苯甲醇作為防腐劑的噴霧用抑菌生理食鹽水，在健康成人中可能刺激氣管支氣管黏膜並引起支氣管炎。這暗示吸入苯甲醇可能帶來傷害，而非益處。
 
@@ -107,7 +107,7 @@ ChEMBL（EMBL-EBI）收錄的 Benzyl Alcohol 作用機轉（非官方翻譯）�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [ChEMBL CHEMBL720 (benzyl alcohol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL720) |
+| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL720 (benzyl alcohol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL720) |
 
 <!-- review:end log -->
 
