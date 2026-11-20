@@ -56,7 +56,7 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (malignant hypertensive
 
 ## 為什麼這個預測合理？
 
-ChEMBL（EMBL-EBI）收錄的 Triamterene 作用機轉（非官方翻譯）：「Amiloride 敏感性鈉通道，ENaC 阻斷劑」。英文原文："Amiloride-sensitive sodium channel, ENaC blocker"（[ChEMBL CHEMBL585 (triamterene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL585)，CC BY-SA 3.0；查閱日期 2026-11-19）。Triamterene 一般被歸類為保鉀利尿劑（透過阻斷上皮鈉通道 ENaC），可透過控制血壓與體液量間接影響高血壓相關疾病，但此機轉描述並非來自本報告所整理的資料欄位，需另行查證。
+Triamterene 一般被歸類為保鉀利尿劑（透過阻斷上皮鈉通道 ENaC），可透過控制血壓與體液量間接影響高血壓相關疾病，但此機轉描述並非來自本報告所整理的資料欄位，需另行查證。ChEMBL（EMBL-EBI）收錄的 Triamterene 作用機轉（非官方翻譯）：「Amiloride 敏感性鈉通道，ENaC 阻斷劑」。英文原文："Amiloride-sensitive sodium channel, ENaC blocker"（[ChEMBL CHEMBL585 (triamterene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL585)，CC BY-SA 3.0；查閱日期 2026-11-19）。
 
 惡性高血壓腎病變是嚴重高血壓造成的腎臟損傷。此分數來自 TxGNN 模型（深度學習），可能反映模型學到的相關疾病之間的相似性，而非生物學證據。
 
@@ -112,7 +112,7 @@ ChEMBL（EMBL-EBI）收錄的 Triamterene 作用機轉（非官方翻譯）：�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL585 (triamterene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL585) |
+| 2026-11-20 | "目前缺乏詳細的作用機轉資料。Triamterene 一般被歸類為保鉀利尿劑（透過阻斷上皮鈉通道 ENaC），可透過控制血壓與體液量間接影響高血壓相關疾病，但此機轉描述並非來自本報告所整理的資料欄位，需另行查證。" replaced with a sourced mechanism-of-action statement | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL585 (triamterene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL585) |
 
 <!-- review:end log -->
 

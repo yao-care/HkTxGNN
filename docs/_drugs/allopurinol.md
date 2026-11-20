@@ -55,7 +55,7 @@ TxGNN 模型預測它可能對**肝性紫質症 (Hepatic Porphyria)** 有效，�
 
 ## 為什麼這個預測合理？
 
-根據美國 FDA 核准的 Allopurinol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Allopurinol 是天然嘌呤鹼基次黃嘌呤的結構類似物。Allopurinol 及其代謝物 oxypurinol 抑制黃嘌呤氧化酶；該酵素負責將次黃嘌呤轉化為黃嘌呤，以及將黃嘌呤轉化為尿酸，而尿酸是人體嘌呤代謝的最終產物。」英文原文："Allopurinol is a structural analogue of the natural purine base, hypoxanthine. Allopurinol and its oxypurinol metabolite inhibitor xanthine oxidase, the enzyme responsible for the conversion of hypoxanthine to xanthine and of xanthine to uric acid, the end product of purine metabolism in humans."（[DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449)，版本日期 2022-02-18；查閱日期 2026-11-19）。Allopurinol 一般已知為黃嘌呤氧化酶抑制劑，用於降低尿酸，但本次整理的資料並未收錄此機轉。
+根據美國 FDA 核准的 Allopurinol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Allopurinol 是天然嘌呤鹼基次黃嘌呤的結構類似物。Allopurinol 及其代謝物 oxypurinol 抑制黃嘌呤氧化酶；該酵素負責將次黃嘌呤轉化為黃嘌呤，以及將黃嘌呤轉化為尿酸，而尿酸是人體嘌呤代謝的最終產物。」英文原文："Allopurinol is a structural analogue of the natural purine base, hypoxanthine. Allopurinol and its oxypurinol metabolite inhibitor xanthine oxidase, the enzyme responsible for the conversion of hypoxanthine to xanthine and of xanthine to uric acid, the end product of purine metabolism in humans."（[DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449)，版本日期 2022-02-18；查閱日期 2026-11-19）。作用機轉已連同出處引用於上文（[DailyMed](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449)）。
 
 在機轉上，較早期的前臨床研究曾提到，allopurinol 可能影響大鼠肝臟的血基質（heme）代謝，並調節 ALA 合成酶活性。ALAS1 被誘導是急性肝性紫質症中紫質前驅物堆積的關鍵，因此這是一個合理但間接的連結。
 
@@ -130,6 +130,7 @@ TxGNN 模型預測它可能對**肝性紫質症 (Hepatic Porphyria)** 有效，�
 |------|------|------|------|
 | 2026-11-17 | 「資料顯示 allopurinol 在香港為已上市的單一成分藥品，目前整理到 20」→「資料顯示 allopurinol 在香港為已上市的單一成分藥」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449) |
+| 2026-11-20 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449) |
 
 <!-- review:end log -->
 

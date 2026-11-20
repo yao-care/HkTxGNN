@@ -58,7 +58,7 @@ TxGNN 模型預測它可能對**圓形禿 (alopecia areata)** 有效，
 
 圓形禿是一種由 T 細胞介導的自體免疫疾病，免疫細胞攻擊毛囊。Desoximetasone 是強效局部皮質類固醇，能抑制毛囊周圍的免疫細胞浸潤與發炎反應，機轉上具合理性。
 
-根據美國 FDA 核准的 Desoximetasone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「皮質類固醇在細胞訊息傳遞、免疫功能、發炎及蛋白質調節中扮演一定角色；然而，其在乾癬中的確切作用機制尚不明確。」英文原文："Corticosteroids play a role in cellular signaling, immune function, inflammation and protein regulation; however, the precise mechanism of action in psoriasis is unknown."（[DailyMed: Topicort (desoximetasone) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e417856a-b760-4626-bc34-8e4bc62c026c)，版本日期 2025-07-02；查閱日期 2026-11-19）。上述推論主要依據皮質類固醇類別的已知藥理：藉由糖皮質素受體 (NR3C1) 發揮抗發炎與免疫調節作用。局部皮質類固醇在臨床上也已被用於圓形禿的處置。
+上述推論主要依據皮質類固醇類別的已知藥理：藉由糖皮質素受體 (NR3C1) 發揮抗發炎與免疫調節作用。根據美國 FDA 核准的 Desoximetasone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「皮質類固醇在細胞訊息傳遞、免疫功能、發炎及蛋白質調節中扮演一定角色；然而，其在乾癬中的確切作用機制尚不明確。」英文原文："Corticosteroids play a role in cellular signaling, immune function, inflammation and protein regulation; however, the precise mechanism of action in psoriasis is unknown."（[DailyMed: Topicort (desoximetasone) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e417856a-b760-4626-bc34-8e4bc62c026c)，版本日期 2025-07-02；查閱日期 2026-11-19）。局部皮質類固醇在臨床上也已被用於圓形禿的處置。
 
 ## 臨床試驗證據
 
@@ -103,7 +103,7 @@ TxGNN 模型預測它可能對**圓形禿 (alopecia areata)** 有效，
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Topicort (desoximetasone) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e417856a-b760-4626-bc34-8e4bc62c026c) |
+| 2026-11-20 | "目前缺乏詳細的作用機轉資料（MOA 欄位為資料缺口）。上述推論主要依據皮質類固醇類別的已知藥理：藉由糖皮質素受體 (NR3C1) 發揮抗發炎與免疫調節作用。" replaced with a sourced mechanism-of-action statement | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [DailyMed: Topicort (desoximetasone) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e417856a-b760-4626-bc34-8e4bc62c026c) |
 
 <!-- review:end log -->
 

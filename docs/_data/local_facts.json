@@ -21,12 +21,12 @@
   "items_current": 15414
  },
  "reviews": {
-  "records": 955,
+  "records": 957,
   "pages": 757,
   "public_pages_with_records": 756,
   "by_action": {
    "correct": 244,
-   "mechanism": 711
+   "mechanism": 713
   }
  },
  "fhir": {
@@ -166,6 +166,15 @@
  "no_current_more": 0,
  "most_reviewed": [
   {
+   "t": "Allopurinol",
+   "u": "/drugs/allopurinol/",
+   "l": "L5",
+   "lt": 30,
+   "lv": 30,
+   "r": 3,
+   "i": "hepatic porphyria"
+  },
+  {
    "t": "Amlodipine",
    "u": "/drugs/amlodipine/",
    "l": "L5",
@@ -209,15 +218,6 @@
    "lv": 100,
    "r": 3,
    "i": "黏液性禿髮"
-  },
-  {
-   "t": "Etoricoxib",
-   "u": "/drugs/etoricoxib/",
-   "l": "L5",
-   "lt": 68,
-   "lv": 68,
-   "r": 3,
-   "i": "migraine disorder"
   }
  ],
  "example": {

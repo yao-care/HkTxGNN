@@ -12705,9 +12705,9 @@
    "drug": "desoximetasone",
    "file": "desoximetasone.md",
    "action": "mechanism",
-   "claim": "目前缺乏詳細的作用機轉資料（MOA 欄位為資料缺口）。",
-   "replacement": "根據美國 FDA 核准的 Desoximetasone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「皮質類固醇在細胞訊息傳遞、免疫功能、發炎及蛋白質調節中扮演一定角色；然而，其在乾癬中的確切作用機制尚不明確。」英文原文：\"Corticosteroids play a role in cellular signaling, immune function, inflammation and protein regulation; however, the precise mechanism of action in psoriasis is unknown.\"（[DailyMed: Topicort (desoximetasone) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e417856a-b760-4626-bc34-8e4bc62c026c)，版本日期 2025-07-02；查閱日期 2026-11-19）。",
-   "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
+   "claim": "目前缺乏詳細的作用機轉資料（MOA 欄位為資料缺口）。上述推論主要依據皮質類固醇類別的已知藥理：藉由糖皮質素受體 (NR3C1) 發揮抗發炎與免疫調節作用。",
+   "replacement": "上述推論主要依據皮質類固醇類別的已知藥理：藉由糖皮質素受體 (NR3C1) 發揮抗發炎與免疫調節作用。根據美國 FDA 核准的 Desoximetasone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「皮質類固醇在細胞訊息傳遞、免疫功能、發炎及蛋白質調節中扮演一定角色；然而，其在乾癬中的確切作用機制尚不明確。」英文原文：\"Corticosteroids play a role in cellular signaling, immune function, inflammation and protein regulation; however, the precise mechanism of action in psoriasis is unknown.\"（[DailyMed: Topicort (desoximetasone) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e417856a-b760-4626-bc34-8e4bc62c026c)，版本日期 2025-07-02；查閱日期 2026-11-19）。",
+   "summary": "\"目前缺乏詳細的作用機轉資料（MOA 欄位為資料缺口）。上述推論主要依據皮質類固醇類別的已知藥理：藉由糖皮質素受體 (NR3C1) 發揮抗發炎與免疫調節作用。\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
     {
@@ -12724,8 +12724,39 @@
      "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "hk-moa-20261119-desoximetasone-1",
+     "drug": "desoximetasone",
+     "file": "desoximetasone.md",
+     "action": "mechanism",
+     "claim": "目前缺乏詳細的作用機轉資料（MOA 欄位為資料缺口）。",
+     "replacement": "根據美國 FDA 核准的 Desoximetasone 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「皮質類固醇在細胞訊息傳遞、免疫功能、發炎及蛋白質調節中扮演一定角色；然而，其在乾癬中的確切作用機制尚不明確。」英文原文：\"Corticosteroids play a role in cellular signaling, immune function, inflammation and protein regulation; however, the precise mechanism of action in psoriasis is unknown.\"（[DailyMed: Topicort (desoximetasone) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e417856a-b760-4626-bc34-8e4bc62c026c)，版本日期 2025-07-02；查閱日期 2026-11-19）。",
+     "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Topicort (desoximetasone) prescribing information, Sun Pharmaceutical Industries, Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e417856a-b760-4626-bc34-8e4bc62c026c",
+       "accessed": "2026-11-19",
+       "excerpt": "Corticosteroids play a role in cellular signaling, immune function, inflammation and protein regulation; however, the precise mechanism of action in psoriasis is unknown.",
+       "label_version": "2025-07-02",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "e417856a-b760-4626-bc34-8e4bc62c026c",
+       "translation": "皮質類固醇在細胞訊息傳遞、免疫功能、發炎及蛋白質調節中扮演一定角色；然而，其在乾癬中的確切作用機制尚不明確。",
+       "translation_lang": "zh",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261119-desvenlafaxine-1",
@@ -25814,9 +25845,9 @@
    "drug": "triamterene",
    "file": "triamterene.md",
    "action": "mechanism",
-   "claim": "目前缺乏詳細的作用機轉資料。",
-   "replacement": "ChEMBL（EMBL-EBI）收錄的 Triamterene 作用機轉（非官方翻譯）：「Amiloride 敏感性鈉通道，ENaC 阻斷劑」。英文原文：\"Amiloride-sensitive sodium channel, ENaC blocker\"（[ChEMBL CHEMBL585 (triamterene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL585)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
-   "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
+   "claim": "目前缺乏詳細的作用機轉資料。Triamterene 一般被歸類為保鉀利尿劑（透過阻斷上皮鈉通道 ENaC），可透過控制血壓與體液量間接影響高血壓相關疾病，但此機轉描述並非來自本報告所整理的資料欄位，需另行查證。",
+   "replacement": "Triamterene 一般被歸類為保鉀利尿劑（透過阻斷上皮鈉通道 ENaC），可透過控制血壓與體液量間接影響高血壓相關疾病，但此機轉描述並非來自本報告所整理的資料欄位，需另行查證。ChEMBL（EMBL-EBI）收錄的 Triamterene 作用機轉（非官方翻譯）：「Amiloride 敏感性鈉通道，ENaC 阻斷劑」。英文原文：\"Amiloride-sensitive sodium channel, ENaC blocker\"（[ChEMBL CHEMBL585 (triamterene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL585)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+   "summary": "\"目前缺乏詳細的作用機轉資料。Triamterene 一般被歸類為保鉀利尿劑（透過阻斷上皮鈉通道 ENaC），可透過控制血壓與體液量間接影響高血壓相關疾病，但此機轉描述並非來自本報告所整理的資料欄位，需另行查證。\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
     {
@@ -25831,13 +25862,40 @@
      "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
     }
    ],
-   "checked": "2026-11-19",
+   "checked": "2026-11-20",
    "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
    "history": [
     {
      "retired": "2026-11-20",
      "reason": "ChEMBL 譯文後補句號",
      "replacement": "ChEMBL（EMBL-EBI）收錄的 Triamterene 作用機轉（非官方翻譯）：「Amiloride 敏感性鈉通道，ENaC 阻斷劑」英文原文：\"Amiloride-sensitive sodium channel, ENaC blocker\"（[ChEMBL CHEMBL585 (triamterene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL585)，CC BY-SA 3.0；查閱日期 2026-11-19）。"
+    },
+    {
+     "id": "hk-moa-20261119-triamterene-1",
+     "drug": "triamterene",
+     "file": "triamterene.md",
+     "action": "mechanism",
+     "claim": "目前缺乏詳細的作用機轉資料。",
+     "replacement": "ChEMBL（EMBL-EBI）收錄的 Triamterene 作用機轉（非官方翻譯）：「Amiloride 敏感性鈉通道，ENaC 阻斷劑」。英文原文：\"Amiloride-sensitive sodium channel, ENaC blocker\"（[ChEMBL CHEMBL585 (triamterene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL585)，CC BY-SA 3.0；查閱日期 2026-11-19）。",
+     "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "ChEMBL CHEMBL585 (triamterene): drug mechanism",
+       "url": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL585",
+       "accessed": "2026-11-19",
+       "excerpt": "Amiloride-sensitive sodium channel, ENaC blocker",
+       "via": "ChEMBL web services (https://www.ebi.ac.uk/chembl/api/data/docs), CC BY-SA 3.0",
+       "chembl_id": "CHEMBL585",
+       "translation": "Amiloride 敏感性鈉通道，ENaC 阻斷劑",
+       "translation_lang": "zh",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
     }
    ]
   },
@@ -26839,7 +26897,7 @@
    "file": "azithromycin.md",
    "action": "mechanism",
    "claim": "Azithromycin 屬於大環內酯類抗生素，一般認為透過抑制細菌蛋白質合成來發揮抗菌作用，但本次整理的資料中沒有提供其作用機轉說明。",
-   "replacement": "根據美國 FDA 核准的 Azithromycin 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Azithromycin 是一種巨環內酯類抗菌藥物。[…] Azithromycin 的作用是與敏感微生物 50S 核糖體次單元的 23S rRNA 結合，從而抑制細菌蛋白質合成，並阻礙 50S 核糖體次單元的組裝。」英文原文：\"Azithromycin is a macrolide antibacterial drug. […] Azithromycin acts by binding to the 23S rRNA of the 50S ribosomal subunit of susceptible microorganisms inhibiting bacterial protein synthesis and impeding the assembly of the 50S ribosomal subunit.\"（[DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a)，版本日期 2026-09-09；查閱日期 2026-11-20）。",
+   "replacement": "作用機轉已連同出處引用於上文（[DailyMed](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a)）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -26858,7 +26916,38 @@
     }
    ],
    "checked": "2026-11-20",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "hk-moa-20261120-azithromycin-2",
+     "drug": "azithromycin",
+     "file": "azithromycin.md",
+     "action": "mechanism",
+     "claim": "Azithromycin 屬於大環內酯類抗生素，一般認為透過抑制細菌蛋白質合成來發揮抗菌作用，但本次整理的資料中沒有提供其作用機轉說明。",
+     "replacement": "根據美國 FDA 核准的 Azithromycin 處方資料（Prescribing Information）「Mechanism of Action」與「Microbiology」段（非官方翻譯）：「Azithromycin 是一種巨環內酯類抗菌藥物。[…] Azithromycin 的作用是與敏感微生物 50S 核糖體次單元的 23S rRNA 結合，從而抑制細菌蛋白質合成，並阻礙 50S 核糖體次單元的組裝。」英文原文：\"Azithromycin is a macrolide antibacterial drug. […] Azithromycin acts by binding to the 23S rRNA of the 50S ribosomal subunit of susceptible microorganisms inhibiting bacterial protein synthesis and impeding the assembly of the 50S ribosomal subunit.\"（[DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a)，版本日期 2026-09-09；查閱日期 2026-11-20）。",
+     "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a",
+       "accessed": "2026-11-20",
+       "excerpt": "Azithromycin is a macrolide antibacterial drug. […] Azithromycin acts by binding to the 23S rRNA of the 50S ribosomal subunit of susceptible microorganisms inhibiting bacterial protein synthesis and impeding the assembly of the 50S ribosomal subunit.",
+       "label_version": "2026-09-09",
+       "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "8d24bacb-feff-4c6a-b8df-625e1435387a",
+       "translation": "Azithromycin 是一種巨環內酯類抗菌藥物。[…] Azithromycin 的作用是與敏感微生物 50S 核糖體次單元的 23S rRNA 結合，從而抑制細菌蛋白質合成，並阻礙 50S 核糖體次單元的組裝。",
+       "translation_lang": "zh",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-20",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "同頁已有同一段節錄（較上方那筆），重複引用改成指向上方節錄的一句"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261120-interferon_beta-1b-2",
@@ -26866,7 +26955,7 @@
    "file": "interferon_beta-1b.md",
    "action": "mechanism",
    "claim": "本報告所整理的資料中，沒有任何針對 Interferon beta-1b 用於毛細胞白血病的試驗或研究，也缺乏藥物本身的作用機轉資料。",
-   "replacement": "根據美國 FDA 核准的 Interferon Beta-1B 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「BETASERON（干擾素β-1b）在多發性硬化症患者中的作用機制未明。」英文原文：\"The mechanism of action of BETASERON (interferon beta-1b) in patients with multiple sclerosis is unknown.\"（[DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5)，版本日期 2026-03-03；查閱日期 2026-11-20）。",
+   "replacement": "作用機轉已連同出處引用於上文（[DailyMed](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5)）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -26885,7 +26974,38 @@
     }
    ],
    "checked": "2026-11-20",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "hk-moa-20261120-interferon_beta-1b-2",
+     "drug": "interferon_beta-1b",
+     "file": "interferon_beta-1b.md",
+     "action": "mechanism",
+     "claim": "本報告所整理的資料中，沒有任何針對 Interferon beta-1b 用於毛細胞白血病的試驗或研究，也缺乏藥物本身的作用機轉資料。",
+     "replacement": "根據美國 FDA 核准的 Interferon Beta-1B 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「BETASERON（干擾素β-1b）在多發性硬化症患者中的作用機制未明。」英文原文：\"The mechanism of action of BETASERON (interferon beta-1b) in patients with multiple sclerosis is unknown.\"（[DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5)，版本日期 2026-03-03；查閱日期 2026-11-20）。",
+     "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5",
+       "accessed": "2026-11-20",
+       "excerpt": "The mechanism of action of BETASERON (interferon beta-1b) in patients with multiple sclerosis is unknown.",
+       "label_version": "2026-03-03",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "66311f74-0472-4fa3-848a-06002ca0def5",
+       "translation": "BETASERON（干擾素β-1b）在多發性硬化症患者中的作用機制未明。",
+       "translation_lang": "zh",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-20",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "同頁已有同一段節錄（較上方那筆），重複引用改成指向上方節錄的一句"
+    }
+   ]
   },
   {
    "id": "hk-moa-20261120-selinexor-2",
@@ -26893,7 +27013,7 @@
    "file": "selinexor.md",
    "action": "mechanism",
    "claim": "Selinexor 一般已知為 XPO1 核輸出抑制劑，但本次整理的資料並未收錄其作用機轉，也未載明原適應症，因此無法由現有資料驗證其機轉與新適應症之間的關聯。",
-   "replacement": "根據美國 FDA 核准的 Selinexor 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「在非臨床研究中，selinexor可透過阻斷輸出蛋白1（XPO1），可逆性地抑制腫瘤抑制蛋白（TSP）、生長調節因子及致癌蛋白mRNA的核輸出。Selinexor抑制XPO1會導致TSP於細胞核內累積、數種致癌蛋白（如c-myc及cyclin D1）減少、細胞週期停滯，以及癌細胞凋亡。」英文原文：\"In nonclinical studies, selinexor reversibly inhibits nuclear export of tumor suppressor proteins (TSPs), growth regulators, and mRNAs of oncogenic proteins by blocking exportin 1 (XPO1). XPO1 inhibition by selinexor leads to accumulation of TSPs in the nucleus and reductions in several oncoproteins, such as c-myc and cyclin D1, cell cycle arrest, and apoptosis of cancer cells.\"（[DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8)，版本日期 2026-05-12；查閱日期 2026-11-20）。",
+   "replacement": "作用機轉已連同出處引用於上文（[DailyMed](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8)）。",
    "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -26912,7 +27032,154 @@
     }
    ],
    "checked": "2026-11-20",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "hk-moa-20261120-selinexor-2",
+     "drug": "selinexor",
+     "file": "selinexor.md",
+     "action": "mechanism",
+     "claim": "Selinexor 一般已知為 XPO1 核輸出抑制劑，但本次整理的資料並未收錄其作用機轉，也未載明原適應症，因此無法由現有資料驗證其機轉與新適應症之間的關聯。",
+     "replacement": "根據美國 FDA 核准的 Selinexor 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「在非臨床研究中，selinexor可透過阻斷輸出蛋白1（XPO1），可逆性地抑制腫瘤抑制蛋白（TSP）、生長調節因子及致癌蛋白mRNA的核輸出。Selinexor抑制XPO1會導致TSP於細胞核內累積、數種致癌蛋白（如c-myc及cyclin D1）減少、細胞週期停滯，以及癌細胞凋亡。」英文原文：\"In nonclinical studies, selinexor reversibly inhibits nuclear export of tumor suppressor proteins (TSPs), growth regulators, and mRNAs of oncogenic proteins by blocking exportin 1 (XPO1). XPO1 inhibition by selinexor leads to accumulation of TSPs in the nucleus and reductions in several oncoproteins, such as c-myc and cyclin D1, cell cycle arrest, and apoptosis of cancer cells.\"（[DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8)，版本日期 2026-05-12；查閱日期 2026-11-20）。",
+     "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8",
+       "accessed": "2026-11-20",
+       "excerpt": "In nonclinical studies, selinexor reversibly inhibits nuclear export of tumor suppressor proteins (TSPs), growth regulators, and mRNAs of oncogenic proteins by blocking exportin 1 (XPO1). XPO1 inhibition by selinexor leads to accumulation of TSPs in the nucleus and reductions in several oncoproteins, such as c-myc and cyclin D1, cell cycle arrest, and apoptosis of cancer cells.",
+       "label_version": "2026-05-12",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "f6dd2682-75a6-4863-90a8-a3197f6f78a8",
+       "translation": "在非臨床研究中，selinexor可透過阻斷輸出蛋白1（XPO1），可逆性地抑制腫瘤抑制蛋白（TSP）、生長調節因子及致癌蛋白mRNA的核輸出。Selinexor抑制XPO1會導致TSP於細胞核內累積、數種致癌蛋白（如c-myc及cyclin D1）減少、細胞週期停滯，以及癌細胞凋亡。",
+       "translation_lang": "zh",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-20",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "同頁已有同一段節錄（較上方那筆），重複引用改成指向上方節錄的一句"
+    }
+   ]
+  },
+  {
+   "id": "hk-moa-20261120-allopurinol-2",
+   "drug": "allopurinol",
+   "file": "allopurinol.md",
+   "action": "mechanism",
+   "claim": "Allopurinol 一般已知為黃嘌呤氧化酶抑制劑，用於降低尿酸，但本次整理的資料並未收錄此機轉。",
+   "replacement": "作用機轉已連同出處引用於上文（[DailyMed](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449)）。",
+   "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449",
+     "accessed": "2026-11-20",
+     "excerpt": "Allopurinol is a structural analogue of the natural purine base, hypoxanthine. Allopurinol and its oxypurinol metabolite inhibitor xanthine oxidase, the enzyme responsible for the conversion of hypoxanthine to xanthine and of xanthine to uric acid, the end product of purine metabolism in humans.",
+     "label_version": "2022-02-18",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "10cc918f-aa44-415b-932d-2404695ac449",
+     "translation": "Allopurinol 是天然嘌呤鹼基次黃嘌呤的結構類似物。Allopurinol 及其代謝物 oxypurinol 抑制黃嘌呤氧化酶；該酵素負責將次黃嘌呤轉化為黃嘌呤，以及將黃嘌呤轉化為尿酸，而尿酸是人體嘌呤代謝的最終產物。",
+     "translation_lang": "zh",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "hk-moa-20261120-allopurinol-2",
+     "drug": "allopurinol",
+     "file": "allopurinol.md",
+     "action": "mechanism",
+     "claim": "Allopurinol 一般已知為黃嘌呤氧化酶抑制劑，用於降低尿酸，但本次整理的資料並未收錄此機轉。",
+     "replacement": "根據美國 FDA 核准的 Allopurinol 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「Allopurinol 是天然嘌呤鹼基次黃嘌呤的結構類似物。Allopurinol 及其代謝物 oxypurinol 抑制黃嘌呤氧化酶；該酵素負責將次黃嘌呤轉化為黃嘌呤，以及將黃嘌呤轉化為尿酸，而尿酸是人體嘌呤代謝的最終產物。」英文原文：\"Allopurinol is a structural analogue of the natural purine base, hypoxanthine. Allopurinol and its oxypurinol metabolite inhibitor xanthine oxidase, the enzyme responsible for the conversion of hypoxanthine to xanthine and of xanthine to uric acid, the end product of purine metabolism in humans.\"（[DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449)，版本日期 2022-02-18；查閱日期 2026-11-20）。",
+     "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449",
+       "accessed": "2026-11-20",
+       "excerpt": "Allopurinol is a structural analogue of the natural purine base, hypoxanthine. Allopurinol and its oxypurinol metabolite inhibitor xanthine oxidase, the enzyme responsible for the conversion of hypoxanthine to xanthine and of xanthine to uric acid, the end product of purine metabolism in humans.",
+       "label_version": "2022-02-18",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "10cc918f-aa44-415b-932d-2404695ac449",
+       "translation": "Allopurinol 是天然嘌呤鹼基次黃嘌呤的結構類似物。Allopurinol 及其代謝物 oxypurinol 抑制黃嘌呤氧化酶；該酵素負責將次黃嘌呤轉化為黃嘌呤，以及將黃嘌呤轉化為尿酸，而尿酸是人體嘌呤代謝的最終產物。",
+       "translation_lang": "zh",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-20",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "同頁已有同一段節錄（較上方那筆），重複引用改成指向上方節錄的一句"
+    }
+   ]
+  },
+  {
+   "id": "hk-moa-20261120-brivaracetam-2",
+   "drug": "brivaracetam",
+   "file": "brivaracetam.md",
+   "action": "mechanism",
+   "claim": "一般認為 brivaracetam 與突觸囊泡蛋白 SV2A 結合而調節神經傳導，但本次彙整的資料中並未收錄這項機轉。",
+   "replacement": "作用機轉已連同出處引用於上文（[DailyMed](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c)）。",
+   "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Briviact (brivaracetam) prescribing information, UCB, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c",
+     "accessed": "2026-11-20",
+     "excerpt": "The precise mechanism by which BRIVIACT exerts its anticonvulsant activity is not known. Brivaracetam displays a high and selective affinity for synaptic vesicle protein 2A (SV2A) in the brain, which may contribute to the anticonvulsant effect.",
+     "label_version": "2026-11-05",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "3cf2f439-0e97-443e-8e33-25ecef616f6c",
+     "translation": "BRIVIACT發揮其抗痙攣活性的確切機轉尚不清楚。Brivaracetam對腦中的突觸囊泡蛋白2A（SV2A）展現高度且具選擇性的親和力，此可能促成其抗痙攣作用。",
+     "translation_lang": "zh",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "hk-moa-20261120-brivaracetam-2",
+     "drug": "brivaracetam",
+     "file": "brivaracetam.md",
+     "action": "mechanism",
+     "claim": "一般認為 brivaracetam 與突觸囊泡蛋白 SV2A 結合而調節神經傳導，但本次彙整的資料中並未收錄這項機轉。",
+     "replacement": "根據美國 FDA 核准的 Brivaracetam 處方資料（Prescribing Information）「Mechanism of Action」段（非官方翻譯）：「BRIVIACT發揮其抗痙攣活性的確切機轉尚不清楚。Brivaracetam對腦中的突觸囊泡蛋白2A（SV2A）展現高度且具選擇性的親和力，此可能促成其抗痙攣作用。」英文原文：\"The precise mechanism by which BRIVIACT exerts its anticonvulsant activity is not known. Brivaracetam displays a high and selective affinity for synaptic vesicle protein 2A (SV2A) in the brain, which may contribute to the anticonvulsant effect.\"（[DailyMed: Briviact (brivaracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c)，版本日期 2026-11-05；查閱日期 2026-11-20）。",
+     "summary": "「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Briviact (brivaracetam) prescribing information, UCB, Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c",
+       "accessed": "2026-11-20",
+       "excerpt": "The precise mechanism by which BRIVIACT exerts its anticonvulsant activity is not known. Brivaracetam displays a high and selective affinity for synaptic vesicle protein 2A (SV2A) in the brain, which may contribute to the anticonvulsant effect.",
+       "label_version": "2026-11-05",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "3cf2f439-0e97-443e-8e33-25ecef616f6c",
+       "translation": "BRIVIACT發揮其抗痙攣活性的確切機轉尚不清楚。Brivaracetam對腦中的突觸囊泡蛋白2A（SV2A）展現高度且具選擇性的親和力，此可能促成其抗痙攣作用。",
+       "translation_lang": "zh",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-20",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "同頁已有同一段節錄（較上方那筆），重複引用改成指向上方節錄的一句"
+    }
+   ]
   }
  ]
 }
