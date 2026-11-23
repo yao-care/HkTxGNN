@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 781
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rivaroxaban：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L5）。原適應症：本次彙整資料未載明"
 monitor_inn: "RIVAROXABAN"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -51,8 +51,8 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 | 預測新適應症 | 類風濕性關節炎 (Rheumatoid Arthritis) |
 | TxGNN 預測分數 | 0.9957 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 30 張／共 30 張） |
-| 許可證數 | 30 張（有效 30 張） |
+| 香港上市 | 上市中（有效許可證 33 張／共 33 張） |
+| 許可證數 | 33 張（有效 33 張） |
 | 建議決策 | Hold |
 
 ---
@@ -86,11 +86,11 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 ## 香港上市資訊
 
-香港共有 30 張含本藥成分的許可證（全部有效；皆為單一成分），以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：
+香港共有 33 張含本藥成分的許可證（全部有效；皆為單一成分），以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：
 
 <!-- review:begin hk-lic-20261117-rivaroxaban-1 -->
 
-> **查核更正（2026-11-17）**：原文為「香港共有 20 張有效單方許可證，以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 30 張含本藥成分的許可證（全部有效；皆為單一成分）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+> **查核更正（2026-11-24）**：原文為「香港共有 20 張有效單方許可證，以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 33 張含本藥成分的許可證（全部有效；皆為單一成分）（2026-11-17 核對；2026-11-24 依 2026-11-20 版註冊名單更新：新增 HK-69294～HK-69296 RIVAROXABAN TEVA TABLETS 10／15／20MG）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
 
 <!-- review:end hk-lic-20261117-rivaroxaban-1 -->
 
@@ -137,7 +137,7 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「香港共有 20 張有效單方許可證，以下列出 5 張主要許可證（資料中未提供劑型與」→「香港共有 30 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-24 | 「香港共有 20 張有效單方許可證，以下列出 5 張主要許可證（資料中未提供劑型與」→「香港共有 30 張含本藥成分的許可證（全部有效；皆為單一成分」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610) |
 
 <!-- review:end log -->

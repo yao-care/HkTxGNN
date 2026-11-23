@@ -6702,23 +6702,41 @@
    "file": "rivaroxaban.md",
    "action": "correct",
    "claim": "香港共有 20 張有效單方許可證，以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：",
-   "replacement": "香港共有 30 張含本藥成分的許可證（全部有效；皆為單一成分），以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：",
-   "note": "已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 30 張含本藥成分的許可證（全部有效；皆為單一成分）（2026-11-17 核對）。",
-   "finding": "2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。",
+   "replacement": "香港共有 33 張含本藥成分的許可證（全部有效；皆為單一成分），以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：",
+   "note": "已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 33 張含本藥成分的許可證（全部有效；皆為單一成分）（2026-11-17 核對；2026-11-24 依 2026-11-20 版註冊名單更新：新增 HK-69294～HK-69296 RIVAROXABAN TEVA TABLETS 10／15／20MG）。",
+   "finding": "事實層 33 張、全部有效、皆單方（2026-11-24 add_current_registrations.py 補收 HK-69294、HK-69295、HK-69296，名單 lastUpdate 2026-11-20）",
    "sources": [
     {
-     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml）",
      "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
-     "accessed": "2026-11-17"
-    },
-    {
-     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
-     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
-     "accessed": "2026-11-17"
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "「香港共有 20 張有效單方許可證，以下列出 5 張主要許可證（資料中未提供劑型與」→「香港共有 30 張含本藥成分的許可證（全部有效；皆為單一成分」"
+   "checked": "2026-11-24",
+   "summary": "「香港共有 20 張有效單方許可證，以下列出 5 張主要許可證（資料中未提供劑型與」→「香港共有 30 張含本藥成分的許可證（全部有效；皆為單一成分」",
+   "history": [
+    {
+     "replacement": "香港共有 30 張含本藥成分的許可證（全部有效；皆為單一成分），以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：",
+     "note": "已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 30 張含本藥成分的許可證（全部有效；皆為單一成分）（2026-11-17 核對）。",
+     "finding": "2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。",
+     "sources": [
+      {
+       "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+       "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+       "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "retired": "2026-11-24",
+     "reason": "2026-11-23 現行名單新增 3 張（HK-69294～69296 RIVAROXABAN TEVA），由 add_current_registrations.py 補收"
+    }
+   ],
+   "method": "2026-11-24 人工查核（每週許可證排程 issue #1251 擋下的頁）"
   },
   {
    "id": "hk-lic-20261117-rivastigmine-1",
