@@ -7,8 +7,8 @@ evidence_level: L4
 indication_count: 7
 monitor_inn: "BETAMETHASONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-11-20
-description: "Betamethasone：預測新適應症為黏液性禿髮 (alopecia mucinosa)（證據等級 L4）。香港藥劑製品註冊：241 張（有效 239 張）"
+last_modified_at: 2026-11-24
+description: "Betamethasone：預測新適應症為黏液性禿髮 (alopecia mucinosa)（證據等級 L4）。香港藥劑製品註冊：241 張（有效 238 張）"
 ---
 
 # Betamethasone
@@ -49,8 +49,8 @@ TxGNN 模型預測它可能對**黏液性禿髮 (alopecia mucinosa)** 有效，�
 | 預測新適應症 | 黏液性禿髮 (alopecia mucinosa) |
 | TxGNN 預測分數 | 0.9997 |
 | 證據等級 | L4 |
-| 香港上市 | 上市中（有效許可證 239 張／共 241 張） |
-| 許可證數 | 241 張（有效 239 張） |
+| 香港上市 | 上市中（有效許可證 238 張／共 241 張） |
+| 許可證數 | 241 張（有效 238 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -73,11 +73,11 @@ TxGNN 模型預測它可能對**黏液性禿髮 (alopecia mucinosa)** 有效，�
 
 ## 香港上市資訊
 
-本藥在香港目前為已上市狀態。下表列出其中 5 張單一成分許可證，香港共有 241 張含本藥成分的許可證（有效 239 張、已註銷 2 張；單一成分 37 張、複方 204 張）。資料庫中未記錄這些許可證的核准適應症與劑型文字。
+本藥在香港目前為已上市狀態。下表列出其中 5 張單一成分許可證，香港共有 241 張含本藥成分的許可證（有效 238 張、已註銷 3 張；單一成分 37 張、複方 204 張）。資料庫中未記錄這些許可證的核准適應症與劑型文字。
 
 <!-- review:begin hk-lic-20261117-betamethasone-1 -->
 
-> **查核更正（2026-11-17）**：原文為「下表列出其中 5 張單一成分許可證，完整清單可能不止於此。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 241 張含本藥成分的許可證（有效 239 張、已註銷 2 張；單一成分 37 張、複方 204 張）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+> **查核更正（2026-11-24）**：原文為「下表列出其中 5 張單一成分許可證，完整清單可能不止於此。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 241 張含本藥成分的許可證（有效 238 張、已註銷 3 張；單一成分 37 張、複方 204 張）（2026-11-17 核對；2026-11-24 依 2026-11-23 的註冊名單更新：HK-35263 BETAMETHASONE SYRUP 1MG/5ML 已不在現行名單）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk）](https://www.drugoffice.gov.hk/eps/do/en/doc/DrugList.xml)。
 
 <!-- review:end hk-lic-20261117-betamethasone-1 -->
 
@@ -120,7 +120,7 @@ TxGNN 模型預測它可能對**黏液性禿髮 (alopecia mucinosa)** 有效，�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「下表列出其中 5 張單一成分許可證，完整清單可能不止於此。」→「下表列出其中 5 張單一成分許可證，香港共有 241 張含本」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-24 | 「下表列出其中 5 張單一成分許可證，完整清單可能不止於此。」→「下表列出其中 5 張單一成分許可證，香港共有 241 張含本」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk）](https://www.drugoffice.gov.hk/eps/do/en/doc/DrugList.xml) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66) |
 
 <!-- review:end log -->

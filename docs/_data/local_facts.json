@@ -18,14 +18,14 @@
   "drugs_without_data": 0,
   "drugs_partial": 0,
   "items_total": 15682,
-  "items_current": 15414
+  "items_current": 15411
  },
  "reviews": {
-  "records": 957,
+  "records": 958,
   "pages": 757,
   "public_pages_with_records": 756,
   "by_action": {
-   "correct": 244,
+   "correct": 245,
    "mechanism": 713
   }
  },
@@ -231,6 +231,24 @@
  },
  "recent_reviews": [
   {
+   "t": "Moxifloxacin",
+   "u": "/drugs/moxifloxacin/",
+   "s": "有效許可證張數：10 → 9",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Montelukast",
+   "u": "/drugs/montelukast/",
+   "s": "「目前香港有至少 20 張有效的單方製劑許可證（資料可能不完整），」→「香港共有 57 張含本藥成分的許可證（有效 54 張、已註銷」",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Betamethasone",
+   "u": "/drugs/betamethasone/",
+   "s": "「下表列出其中 5 張單一成分許可證，完整清單可能不止於此。」→「下表列出其中 5 張單一成分許可證，香港共有 241 張含本」",
+   "d": "2026-11-24"
+  },
+  {
    "t": "Sulfadiazine",
    "u": "/drugs/sulfadiazine/",
    "s": "「其餘 15 張許可證中，除第 1 張為獸用注射懸液外，其餘多為外用乳膏製劑。」→「其餘 18 張許可證皆為外用乳膏製劑（獸用注射懸液 HK-33558 已列在上表」",
@@ -355,27 +373,27 @@
    "u": "/drugs/topiramate/",
    "s": "「香港共有 20 張有效許可證，均為單一成分製劑，無已取消者。」→「香港共有 29 張含本藥成分的許可證（全部有效；皆為單一成分」",
    "d": "2026-11-17"
-  },
-  {
-   "t": "Ticagrelor",
-   "u": "/drugs/ticagrelor/",
-   "s": "「香港共有 8 張有效的單一成分許可證」→「香港共有 10 張有效的單一成分許可證」",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Threonine",
-   "u": "/drugs/threonine/",
-   "s": "「香港共有 20 張有效的單一成分許可證，以下列出 5 張主要許可證（許可證資料中」→「香港共有 39 張含本藥成分的許可證（全部有效；皆為複方），」",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Thiamine",
-   "u": "/drugs/thiamine/",
-   "s": "「本次資料列出 20 張單一成分許可證（至少 20 張，清單可能不完整），皆為有效」→「香港共有 118 張含本藥成分的許可證（有效 114 張、已」",
-   "d": "2026-11-17"
   }
  ],
  "recent_licence_reviews": [
+  {
+   "t": "Moxifloxacin",
+   "u": "/drugs/moxifloxacin/",
+   "s": "有效許可證張數：10 → 9",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Montelukast",
+   "u": "/drugs/montelukast/",
+   "s": "「目前香港有至少 20 張有效的單方製劑許可證（資料可能不完整），」→「香港共有 57 張含本藥成分的許可證（有效 54 張、已註銷」",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Betamethasone",
+   "u": "/drugs/betamethasone/",
+   "s": "「下表列出其中 5 張單一成分許可證，完整清單可能不止於此。」→「下表列出其中 5 張單一成分許可證，香港共有 241 張含本」",
+   "d": "2026-11-24"
+  },
   {
    "t": "Sulfadiazine",
    "u": "/drugs/sulfadiazine/",
@@ -404,24 +422,6 @@
    "t": "Tazemetostat",
    "u": "/drugs/tazemetostat/",
    "s": "「HK-68216  TAZVERIK TABLETS 200MG   有」→「HK-68216  TAZVERIK TABLETS 200MG   已」",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Reserpine",
-   "u": "/drugs/reserpine/",
-   "s": "「HK-15916  RELAZIDE TAB   有效」→「HK-15916  RELAZIDE TAB   已註銷」",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Niacin",
-   "u": "/drugs/niacin/",
-   "s": "「HK-60374  NIASPAN EXTENDED-RELEASE TAB 」→「HK-60374  NIASPAN EXTENDED-RELEASE TAB 」",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Interferon Beta-1B",
-   "u": "/drugs/interferon-beta-1b/",
-   "s": "「BAYER HEALTHCARE LIMITED  有效（單一成分）」→「BAYER HEALTHCARE LIMITED  已註銷（單一成分）」",
    "d": "2026-11-17"
   }
  ],

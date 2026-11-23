@@ -2287,27 +2287,17 @@
    "file": "montelukast.md",
    "action": "correct",
    "claim": "目前香港有至少 20 張有效的單方製劑許可證（資料可能不完整），",
-   "replacement": "香港共有 57 張含本藥成分的許可證（有效 54 張、已註銷 3 張；皆為單一成分），",
-   "note": "已更正：HK-67077 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。 已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 57 張含本藥成分的許可證（有效 54 張、已註銷 3 張；皆為單一成分）（2026-11-17 核對）。",
-   "finding": "2026-11-17 核對：HK-67077（AKMONT 5 CHEWABLE TABLETS 5MG，最後列於 2026-05-18 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。 2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。",
+   "replacement": "香港共有 57 張含本藥成分的許可證（有效 53 張、已註銷 4 張；皆為單一成分），",
+   "note": "已更正：HK-67077 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。 已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 57 張含本藥成分的許可證（有效 53 張、已註銷 4 張；皆為單一成分）（2026-11-17 核對；2026-11-24 依 2026-11-23 的註冊名單更新：HK-64807 ASMAX CHEWABLE TABLETS 4MG 已不在現行名單）。",
+   "finding": "事實層 57 張、有效 53（HK-64807 ASMAX CHEWABLE TABLETS 4MG 2026-11-23 起不在 DrugList.xml）",
    "sources": [
     {
-     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
-     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
-     "accessed": "2026-11-17"
-    },
-    {
-     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
-     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
-     "accessed": "2026-11-17"
-    },
-    {
-     "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
-     "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
-     "accessed": "2026-11-17"
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/doc/DrugList.xml",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-17",
+   "checked": "2026-11-24",
    "summary": "「目前香港有至少 20 張有效的單方製劑許可證（資料可能不完整），」→「香港共有 57 張含本藥成分的許可證（有效 54 張、已註銷」",
    "history": [
     {
@@ -2340,8 +2330,34 @@
      "summary": "「目前香港有至少 20 張有效的單方製劑許可證（資料可能不完整），」→「目前香港有至少 19 張有效的單方製劑許可證（資料可能不完整；本次收錄的 HK-」",
      "retired": "2026-11-17",
      "reason": "2026-11-17 拿掉證據包 20 筆上限、依原收錄規則補齊本藥全部註冊後，張數改變"
+    },
+    {
+     "replacement": "香港共有 57 張含本藥成分的許可證（有效 54 張、已註銷 3 張；皆為單一成分），",
+     "note": "已更正：HK-67077 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。 已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 57 張含本藥成分的許可證（有效 54 張、已註銷 3 張；皆為單一成分）（2026-11-17 核對）。",
+     "finding": "2026-11-17 核對：HK-67077（AKMONT 5 CHEWABLE TABLETS 5MG，最後列於 2026-05-18 版） 在 data.gov.hk 歷史存檔的每週 DrugList.xml 裡出現過，2026-11-13 版（現行）沒有，藥物辦公室網上搜尋藥物資料庫依註冊號也查不到；名單只列現行註冊、不分取消或沒有續期。正文原句照舊證據包寫成有效，照事實層更正。 2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。",
+     "sources": [
+      {
+       "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+       "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+       "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）",
+       "url": "https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "retired": "2026-11-24",
+     "reason": "2026-11-23 每週排程：本藥 1 張註冊號已不在現行名單（drugoffice_not_listed），張數更新"
     }
-   ]
+   ],
+   "method": "2026-11-24 人工查核（每週許可證排程 issue #1251 擋下的頁）"
   },
   {
    "id": "hk-lic-20261117-naproxen-1",
@@ -4034,23 +4050,41 @@
    "file": "betamethasone.md",
    "action": "correct",
    "claim": "下表列出其中 5 張單一成分許可證，完整清單可能不止於此。",
-   "replacement": "下表列出其中 5 張單一成分許可證，香港共有 241 張含本藥成分的許可證（有效 239 張、已註銷 2 張；單一成分 37 張、複方 204 張）。",
-   "note": "已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 241 張含本藥成分的許可證（有效 239 張、已註銷 2 張；單一成分 37 張、複方 204 張）（2026-11-17 核對）。",
-   "finding": "2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。",
+   "replacement": "下表列出其中 5 張單一成分許可證，香港共有 241 張含本藥成分的許可證（有效 238 張、已註銷 3 張；單一成分 37 張、複方 204 張）。",
+   "note": "已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 241 張含本藥成分的許可證（有效 238 張、已註銷 3 張；單一成分 37 張、複方 204 張）（2026-11-17 核對；2026-11-24 依 2026-11-23 的註冊名單更新：HK-35263 BETAMETHASONE SYRUP 1MG/5ML 已不在現行名單）。",
+   "finding": "事實層 241 張、有效 238（HK-35263 BETAMETHASONE SYRUP 1MG/5ML (QUALITY) 2026-11-23 起不在 DrugList.xml）",
    "sources": [
     {
-     "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
-     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
-     "accessed": "2026-11-17"
-    },
-    {
-     "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
-     "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
-     "accessed": "2026-11-17"
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/doc/DrugList.xml",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "「下表列出其中 5 張單一成分許可證，完整清單可能不止於此。」→「下表列出其中 5 張單一成分許可證，香港共有 241 張含本」"
+   "checked": "2026-11-24",
+   "summary": "「下表列出其中 5 張單一成分許可證，完整清單可能不止於此。」→「下表列出其中 5 張單一成分許可證，香港共有 241 張含本」",
+   "history": [
+    {
+     "replacement": "下表列出其中 5 張單一成分許可證，香港共有 241 張含本藥成分的許可證（有效 239 張、已註銷 2 張；單一成分 37 張、複方 204 張）。",
+     "note": "已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 241 張含本藥成分的許可證（有效 239 張、已註銷 2 張；單一成分 37 張、複方 204 張）（2026-11-17 核對）。",
+     "finding": "2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。",
+     "sources": [
+      {
+       "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+       "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+       "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "retired": "2026-11-24",
+     "reason": "2026-11-23 每週排程：本藥 1 張註冊號已不在現行名單（drugoffice_not_listed），張數更新"
+    }
+   ],
+   "method": "2026-11-24 人工查核（每週許可證排程 issue #1251 擋下的頁）"
   },
   {
    "id": "hk-lic-20261117-brompheniramine-1",
@@ -27180,6 +27214,26 @@
      "reason": "同頁已有同一段節錄（較上方那筆），重複引用改成指向上方節錄的一句"
     }
    ]
+  },
+  {
+   "id": "hk-lic-20261124-moxifloxacin-1",
+   "drug": "moxifloxacin",
+   "file": "moxifloxacin.md",
+   "action": "correct",
+   "claim": "本藥共有 10 張有效許可證（皆為單一成分），上表僅列前 5 張。",
+   "replacement": "香港共有 10 張含本藥成分的許可證（有效 9 張、已註銷 1 張；皆為單一成分），上表僅列前 5 張。",
+   "summary": "有效許可證張數：10 → 9",
+   "note": "依衞生署藥劑製品註冊名單（2026-11-23）：10 張許可證中 HK-60892（MOXICIN EYE DROPS 0.5%）已不在現行名單，有效 9 張。現行數字見快速總覽。",
+   "finding": "正文寫 10 張有效；事實層 10 張、有效 9（HK-60892 MOXICIN EYE DROPS 0.5% 2026-11-23 起不在 DrugList.xml，drugoffice_not_listed）",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk）",
+     "url": "https://www.drugoffice.gov.hk/eps/do/en/doc/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週許可證排程 issue #1251 擋下的頁，checker M3c）"
   }
  ]
 }

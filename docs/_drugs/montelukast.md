@@ -5,10 +5,10 @@ parent: 高證據等級 (L1-L2)
 nav_order: 597
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema"]
-description: "Montelukast：預測新適應症為支氣管炎 (bronchitis)（證據等級 L2）。香港藥劑製品註冊：57 張（有效 54 張）"
+description: "Montelukast：預測新適應症為支氣管炎 (bronchitis)（證據等級 L2）。香港藥劑製品註冊：57 張（有效 53 張）"
 ---
 
 # Montelukast
@@ -50,8 +50,8 @@ TxGNN 模型預測它可能對**支氣管炎 (bronchitis)** 有效，
 | 預測新適應症 | 支氣管炎 (bronchitis) |
 | TxGNN 預測分數 | 0.9995 |
 | 證據等級 | L2 |
-| 香港上市 | 上市中（有效許可證 54 張／共 57 張） |
-| 許可證數 | 57 張（有效 54 張） |
+| 香港上市 | 上市中（有效許可證 53 張／共 57 張） |
+| 許可證數 | 57 張（有效 53 張） |
 | 建議決策 | Proceed with Guardrails |
 
 ## 為什麼這個預測合理？
@@ -94,11 +94,11 @@ TxGNN 模型預測它可能對**支氣管炎 (bronchitis)** 有效，
 
 ## 香港上市資訊
 
-香港共有 57 張含本藥成分的許可證（有效 54 張、已註銷 3 張；皆為單一成分），以下列出 5 張：
+香港共有 57 張含本藥成分的許可證（有效 53 張、已註銷 4 張；皆為單一成分），以下列出 5 張：
 
 <!-- review:begin hk-lic-20261117-montelukast-1 -->
 
-> **查核更正（2026-11-17）**：原文為「目前香港有至少 20 張有效的單方製劑許可證（資料可能不完整），」。已更正：HK-67077 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。 已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 57 張含本藥成分的許可證（有效 54 張、已註銷 3 張；皆為單一成分）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+> **查核更正（2026-11-24）**：原文為「目前香港有至少 20 張有效的單方製劑許可證（資料可能不完整），」。已更正：HK-67077 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。 已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 57 張含本藥成分的許可證（有效 53 張、已註銷 4 張；皆為單一成分）（2026-11-17 核對；2026-11-24 依 2026-11-23 的註冊名單更新：HK-64807 ASMAX CHEWABLE TABLETS 4MG 已不在現行名單）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk）](https://www.drugoffice.gov.hk/eps/do/en/doc/DrugList.xml)。
 
 <!-- review:end hk-lic-20261117-montelukast-1 -->
 
@@ -139,7 +139,7 @@ TxGNN 模型預測它可能對**支氣管炎 (bronchitis)** 有效，
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「目前香港有至少 20 張有效的單方製劑許可證（資料可能不完整），」→「香港共有 57 張含本藥成分的許可證（有效 54 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-24 | 「目前香港有至少 20 張有效的單方製劑許可證（資料可能不完整），」→「香港共有 57 張含本藥成分的許可證（有效 54 張、已註銷」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk）](https://www.drugoffice.gov.hk/eps/do/en/doc/DrugList.xml) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842) |
 
 <!-- review:end log -->
