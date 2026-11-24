@@ -89,3 +89,19 @@ def record_id(rec):
 
 def update(rec, new):
     return False  # 在列不改紀錄；只用來確認仍在列，查不到的列在 summary
+
+
+# 2026-11-24（用戶決定）：「香港上市資訊」的許可證表改由 scripts/sync_license_tables.py 依證據包產生（程式區塊 <!-- licenses:begin/end -->）。
+# 每週排程（license_refresh_20261029.py 的 sync_tables 掛鉤）全站重排：狀態變了、或 add_current_registrations.py 補收了新註冊，
+# 排序與「上表列出其中 N 張（共 M 張…）」都跟著變；只重排表格內容，表以外的正文不動（正文張數由 4b 的 apply_drug_reviews.py
+# 結尾的 rewrite_license_counts.py 依快照改寫）。PAGE_NOTE：表格列以外、程式寫的行（說明句、區塊標記、沒有任何註冊時的一句）。
+PAGE_NOTE = (r"^(上表列出其中 \d+ 張（共 \d+ 張）。|<!-- licenses:(begin|end) -->|"
+             r"衞生署藥物辦公室的註冊名單（本報告所用資料）中沒有含本藥成分的許可證。)$")
+
+
+def sync_tables(site_dir, bundles):
+    import importlib.util
+    s = importlib.util.spec_from_file_location("hk_slt", site_dir / "scripts/sync_license_tables.py")
+    m = importlib.util.module_from_spec(s)
+    s.loader.exec_module(m)
+    return [(pg, "許可證表", "", "依證據包重排") for pg in m.run()]

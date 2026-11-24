@@ -1,0 +1,5210 @@
+{
+ "_doc": "市場段落程式許可證表的選列（2026-11-24 建，用戶決定把報告寫的自由格式許可證表換成程式表）。鍵＝藥物頁檔名去 .md，值＝換表當時報告原表依序列出的許可證號：程式表照這個順序列這些號（狀態、品名、類別、持證商照證據包），正文講「以上 5 張…」「另有 HK-xxxxx…」的句子才對得上表。證據包已沒有的號跳過、由其餘號依程式排序補足原列數。沒有在這裡的頁照程式排序（單一成分在前、同類中有效在前、再依許可證號）。scripts/sync_license_tables.py、scripts/build_license_snapshot.py 讀這份；不要手改。",
+ "pins": {
+  "abacavir": [
+   "HK-63701",
+   "HK-46236",
+   "HK-65647",
+   "HK-65610",
+   "HK-65625"
+  ],
+  "abatacept": [
+   "HK-58513",
+   "HK-61905",
+   "HK-61501"
+  ],
+  "abemaciclib": [
+   "HK-66495",
+   "HK-66494",
+   "HK-66496"
+  ],
+  "abiraterone": [
+   "HK-65540",
+   "HK-61370",
+   "HK-68295",
+   "HK-68296",
+   "HK-67871"
+  ],
+  "acarbose": [
+   "HK-61410",
+   "HK-59259",
+   "HK-59260",
+   "HK-35870",
+   "HK-67520"
+  ],
+  "acemetacin": [
+   "HK-52308",
+   "HK-55919"
+  ],
+  "acetaminophen": [
+   "HK-64902",
+   "HK-64351",
+   "HK-64150",
+   "HK-67265",
+   "HK-42035",
+   "HK-25552",
+   "HK-55658",
+   "HK-43530",
+   "HK-54358",
+   "HK-49098",
+   "HK-35911",
+   "HK-18627",
+   "HK-46141",
+   "HK-34491",
+   "HK-64393",
+   "HK-64610",
+   "HK-09193",
+   "HK-61155",
+   "HK-65117",
+   "HK-47590"
+  ],
+  "acetazolamide": [
+   "HK-50001",
+   "HK-36263",
+   "HK-16895"
+  ],
+  "acetic_acid": [
+   "HK-32227"
+  ],
+  "acetylcysteine": [
+   "HK-63073",
+   "HK-52560",
+   "HK-65198",
+   "HK-54293",
+   "HK-42254"
+  ],
+  "acetylsalicylic_acid": [
+   "HK-48244",
+   "HK-68481",
+   "HK-65427",
+   "HK-62059",
+   "HK-59150"
+  ],
+  "acitretin": [
+   "HK-39193",
+   "HK-39194",
+   "HK-68898",
+   "HK-68899",
+   "HK-66608"
+  ],
+  "acyclovir": [
+   "HK-30325",
+   "HK-54026",
+   "HK-41261",
+   "HK-58833",
+   "HK-66909"
+  ],
+  "adalimumab": [
+   "HK-66711",
+   "HK-67359",
+   "HK-66712",
+   "HK-65215",
+   "HK-65214"
+  ],
+  "adapalene": [
+   "HK-44125",
+   "HK-42052",
+   "HK-58329",
+   "HK-58988",
+   "HK-66483"
+  ],
+  "adefovir_dipivoxil": [
+   "HK-63344",
+   "HK-64175"
+  ],
+  "adenosine": [
+   "HK-43112",
+   "HK-18525",
+   "HK-18057"
+  ],
+  "aflibercept": [
+   "HK-68960",
+   "HK-61971",
+   "HK-67381",
+   "HK-68359",
+   "HK-62551"
+  ],
+  "agomelatine": [
+   "HK-59904",
+   "HK-67815"
+  ],
+  "alanine": [
+   "HK-58387",
+   "HK-46283",
+   "HK-67075",
+   "HK-36470",
+   "HK-32746"
+  ],
+  "albutrepenonacog_alfa": [
+   "HK-65142",
+   "HK-65143",
+   "HK-65144",
+   "HK-65145"
+  ],
+  "alectinib": [
+   "HK-64854"
+  ],
+  "alfacalcidol": [
+   "HK-37801",
+   "HK-65502",
+   "HK-37802"
+  ],
+  "alfentanil": [
+   "HK-23819"
+  ],
+  "alfuzosin": [
+   "HK-67012",
+   "HK-59835",
+   "HK-47335",
+   "HK-59623",
+   "HK-41468"
+  ],
+  "alglucosidase_alfa": [
+   "HK-56437"
+  ],
+  "alirocumab": [
+   "HK-67571",
+   "HK-64761",
+   "HK-64762"
+  ],
+  "aliskiren": [
+   "HK-60309",
+   "HK-60310"
+  ],
+  "allantoin": [
+   "HK-46597",
+   "HK-64998",
+   "HK-60072",
+   "HK-66173",
+   "HK-66174"
+  ],
+  "allopurinol": [
+   "HK-35846",
+   "HK-66571",
+   "HK-21594",
+   "HK-33568",
+   "HK-10041"
+  ],
+  "alpelisib": [
+   "HK-66925",
+   "HK-66926",
+   "HK-66927"
+  ],
+  "alprazolam": [
+   "HK-17668",
+   "HK-17669",
+   "HK-51647",
+   "HK-55271",
+   "HK-56775"
+  ],
+  "alprostadil": [
+   "HK-22532"
+  ],
+  "alteplase": [
+   "HK-37894",
+   "HK-30511"
+  ],
+  "alverine": [
+   "HK-26461",
+   "HK-54718",
+   "HK-35395",
+   "HK-62910",
+   "HK-68438"
+  ],
+  "amantadine": [
+   "HK-27366",
+   "HK-34789",
+   "HK-62120",
+   "HK-45493",
+   "HK-59608"
+  ],
+  "ambrisentan": [
+   "HK-63502",
+   "HK-63503"
+  ],
+  "ambroxol": [
+   "HK-55459",
+   "HK-34878",
+   "HK-61486",
+   "HK-46048",
+   "HK-44882"
+  ],
+  "amikacin": [
+   "HK-34615",
+   "HK-35836",
+   "HK-65037",
+   "HK-64695",
+   "HK-35832"
+  ],
+  "amiloride": [
+   "HK-25543",
+   "HK-25544",
+   "HK-42186",
+   "HK-50535",
+   "HK-58537"
+  ],
+  "aminobenzoic_acid": [
+   "HK-49362"
+  ],
+  "aminocaproic_acid": [
+   "HK-42060",
+   "HK-45441"
+  ],
+  "aminophylline": [
+   "HK-06484",
+   "HK-59560"
+  ],
+  "amiodarone": [
+   "HK-27296",
+   "HK-66829",
+   "HK-27294",
+   "HK-65597",
+   "HK-60895"
+  ],
+  "amlodipine": [
+   "HK-55770",
+   "HK-65871",
+   "HK-56593",
+   "HK-66898",
+   "HK-63420"
+  ],
+  "ammonium_chloride": [
+   "HK-43251",
+   "HK-07157",
+   "HK-08384",
+   "HK-64814",
+   "HK-54338"
+  ],
+  "amorolfine": [
+   "HK-36522",
+   "HK-51795",
+   "HK-61679",
+   "HK-66253",
+   "HK-63856"
+  ],
+  "amoxicillin": [
+   "HK-52757",
+   "HK-35653",
+   "HK-39546",
+   "HK-55778",
+   "HK-56083"
+  ],
+  "ampicillin": [
+   "HK-10610",
+   "HK-63787",
+   "HK-61293",
+   "HK-40801",
+   "HK-56898"
+  ],
+  "amylmetacresol": [
+   "HK-67542",
+   "HK-54273",
+   "HK-19288",
+   "HK-67433",
+   "HK-46071"
+  ],
+  "anagrelide": [
+   "HK-68231",
+   "HK-51737"
+  ],
+  "anastrozole": [
+   "HK-60845",
+   "HK-42327",
+   "HK-59928",
+   "HK-61332",
+   "HK-59104"
+  ],
+  "andexanet_alfa": [
+   "HK-68130"
+  ],
+  "anidulafungin": [
+   "HK-59270"
+  ],
+  "anifrolumab": [
+   "HK-67661"
+  ],
+  "antazoline": [
+   "HK-61047",
+   "HK-51055"
+  ],
+  "apixaban": [
+   "HK-61377",
+   "HK-62094",
+   "HK-67692",
+   "HK-67693",
+   "HK-68762"
+  ],
+  "apomorphine": [
+   "HK-58096",
+   "HK-61219",
+   "HK-58095"
+  ],
+  "aprepitant": [
+   "HK-52425",
+   "HK-52424",
+   "HK-67479",
+   "HK-68461",
+   "HK-67467"
+  ],
+  "arginine": [
+   "HK-66931",
+   "HK-57540",
+   "HK-62100",
+   "HK-58914",
+   "HK-67075"
+  ],
+  "aripiprazole": [
+   "HK-62721",
+   "HK-63127",
+   "HK-65003",
+   "HK-65315",
+   "HK-67614"
+  ],
+  "arsenic_trioxide": [
+   "HK-59724"
+  ],
+  "articaine": [
+   "HK-58946",
+   "HK-52816",
+   "HK-56807",
+   "HK-56808",
+   "HK-52817"
+  ],
+  "ascorbic_acid": [
+   "HK-49625",
+   "HK-44632",
+   "HK-49626",
+   "HK-06460",
+   "HK-06465"
+  ],
+  "asfotase_alfa": [
+   "HK-67890",
+   "HK-67891",
+   "HK-67892",
+   "HK-67893"
+  ],
+  "aspartic_acid": [
+   "HK-36470",
+   "HK-32746",
+   "HK-61211",
+   "HK-37929",
+   "HK-36586"
+  ],
+  "atazanavir": [
+   "HK-68750",
+   "HK-68749"
+  ],
+  "atenolol": [
+   "HK-17873",
+   "HK-06812",
+   "HK-45490",
+   "HK-34859",
+   "HK-61154"
+  ],
+  "atezolizumab": [
+   "HK-66613",
+   "HK-66341",
+   "HK-65567"
+  ],
+  "atomoxetine": [
+   "HK-67908",
+   "HK-61814",
+   "HK-62494",
+   "HK-66752",
+   "HK-66160"
+  ],
+  "atorvastatin": [
+   "HK-57246",
+   "HK-66318",
+   "HK-60719",
+   "HK-67373",
+   "HK-42330"
+  ],
+  "atosiban": [
+   "HK-64913",
+   "HK-66350",
+   "HK-64911",
+   "HK-48228",
+   "HK-48229"
+  ],
+  "atrasentan": [
+   "HK-68976"
+  ],
+  "atropine": [
+   "HK-47097",
+   "HK-65398",
+   "HK-66757",
+   "HK-08619",
+   "HK-68445"
+  ],
+  "avapritinib": [
+   "HK-67292",
+   "HK-67293",
+   "HK-67294"
+  ],
+  "avatrombopag": [
+   "HK-68734"
+  ],
+  "avelumab": [
+   "HK-65956"
+  ],
+  "avibactam": [
+   "HK-66061",
+   "HK-68891"
+  ],
+  "axitinib": [
+   "HK-62088",
+   "HK-62089"
+  ],
+  "azithromycin": [
+   "HK-44360",
+   "HK-45614",
+   "HK-59622",
+   "HK-57627",
+   "HK-58360"
+  ],
+  "aztreonam": [
+   "HK-68891"
+  ],
+  "bacitracin": [
+   "HK-41340",
+   "HK-53647",
+   "HK-37127",
+   "HK-30056",
+   "HK-68910"
+  ],
+  "baclofen": [
+   "HK-66213",
+   "HK-66245",
+   "HK-56406",
+   "HK-51460",
+   "HK-00226"
+  ],
+  "baricitinib": [
+   "HK-65664",
+   "HK-65663"
+  ],
+  "basiliximab": [
+   "HK-44725"
+  ],
+  "beclomethasone_dipropionate": [
+   "HK-28384",
+   "HK-58338",
+   "HK-63314",
+   "HK-51262",
+   "HK-43841"
+  ],
+  "bedaquiline": [
+   "HK-64766"
+  ],
+  "belimumab": [
+   "HK-66372",
+   "HK-61385",
+   "HK-61384"
+  ],
+  "bempedoic_acid": [
+   "HK-67818",
+   "HK-67819"
+  ],
+  "benazepril": [
+   "HK-59960",
+   "HK-59961",
+   "HK-57852"
+  ],
+  "bendamustine": [
+   "HK-66431",
+   "HK-59067",
+   "HK-66891",
+   "HK-66343",
+   "HK-62300"
+  ],
+  "benralizumab": [
+   "HK-66015",
+   "HK-67113"
+  ],
+  "benzatropine": [
+   "HK-68615",
+   "HK-36324",
+   "HK-62012"
+  ],
+  "benzbromarone": [
+   "HK-29832",
+   "HK-37906",
+   "HK-58488"
+  ],
+  "benzocaine": [
+   "HK-19092",
+   "HK-32909",
+   "HK-04987",
+   "HK-11520",
+   "HK-57532"
+  ],
+  "benzoin": [
+   "HK-43203",
+   "HK-42429"
+  ],
+  "benzoyl_peroxide": [
+   "HK-38989",
+   "HK-38990",
+   "HK-19304",
+   "HK-40467",
+   "HK-38991"
+  ],
+  "benzydamine": [
+   "HK-31754",
+   "HK-56224",
+   "HK-36674",
+   "HK-42365",
+   "HK-64739"
+  ],
+  "benzyl_alcohol": [
+   "HK-62426"
+  ],
+  "benzylpenicillin": [
+   "HK-43500",
+   "HK-60173",
+   "HK-68195"
+  ],
+  "berberine": [
+   "HK-60643",
+   "HK-60066",
+   "HK-53189"
+  ],
+  "betahistine": [
+   "HK-66795",
+   "HK-49502",
+   "HK-38792",
+   "HK-45998",
+   "HK-66796",
+   "HK-37181",
+   "HK-66792",
+   "HK-66793",
+   "HK-59561",
+   "HK-51514",
+   "HK-66794"
+  ],
+  "betamethasone": [
+   "HK-45913",
+   "HK-06910",
+   "HK-34326",
+   "HK-02811",
+   "HK-35263"
+  ],
+  "betaxolol": [
+   "HK-35281",
+   "HK-68272",
+   "HK-51772"
+  ],
+  "bevacizumab": [
+   "HK-67028",
+   "HK-59450",
+   "HK-67029",
+   "HK-56638",
+   "HK-56637"
+  ],
+  "bexarotene": [
+   "HK-68294"
+  ],
+  "bicalutamide": [
+   "HK-68650",
+   "HK-59232",
+   "HK-65485",
+   "HK-49624",
+   "HK-57576"
+  ],
+  "bictegravir": [
+   "HK-65914"
+  ],
+  "bimatoprost": [
+   "HK-60394",
+   "HK-68341",
+   "HK-63183",
+   "HK-56429"
+  ],
+  "bimekizumab": [
+   "HK-68579",
+   "HK-68578"
+  ],
+  "biotin": [
+   "HK-17391",
+   "HK-36207",
+   "HK-56452",
+   "HK-52479",
+   "HK-54177"
+  ],
+  "bisoprolol": [
+   "HK-63998",
+   "HK-67481",
+   "HK-68824",
+   "HK-60688",
+   "HK-29917"
+  ],
+  "bleomycin": [
+   "HK-51279"
+  ],
+  "brentuximab_vedotin": [
+   "HK-63483"
+  ],
+  "brigatinib": [
+   "HK-66121",
+   "HK-66119",
+   "HK-66120"
+  ],
+  "brinzolamide": [
+   "HK-49989",
+   "HK-67983",
+   "HK-67788",
+   "HK-58563",
+   "HK-68273",
+   "HK-67748",
+   "HK-64944"
+  ],
+  "brivaracetam": [
+   "HK-65942",
+   "HK-65939",
+   "HK-65943",
+   "HK-65940",
+   "HK-65938"
+  ],
+  "brodalumab": [
+   "HK-66126"
+  ],
+  "brolucizumab": [
+   "HK-67008",
+   "HK-67009"
+  ],
+  "bromazepam": [
+   "HK-03365",
+   "HK-03341",
+   "HK-25345",
+   "HK-25346"
+  ],
+  "bromocriptine": [
+   "HK-32888",
+   "HK-34468",
+   "HK-33542",
+   "HK-01595",
+   "HK-40461"
+  ],
+  "brompheniramine": [
+   "HK-49258",
+   "HK-22814",
+   "HK-55190",
+   "HK-21866",
+   "HK-52673",
+   "HK-55641",
+   "HK-16441",
+   "HK-55640",
+   "HK-13707",
+   "HK-09388",
+   "HK-13680",
+   "HK-48604",
+   "HK-55639",
+   "HK-09369",
+   "HK-47462",
+   "HK-12115",
+   "HK-14353",
+   "HK-13654",
+   "HK-51583",
+   "HK-16451"
+  ],
+  "budesonide": [
+   "HK-68212",
+   "HK-60236",
+   "HK-64964",
+   "HK-51729",
+   "HK-64327"
+  ],
+  "bupivacaine": [
+   "HK-68545",
+   "HK-64812",
+   "HK-63247",
+   "HK-42437",
+   "HK-35573"
+  ],
+  "buprenorphine": [
+   "HK-28718",
+   "HK-28719",
+   "HK-56198",
+   "HK-56197"
+  ],
+  "bupropion": [
+   "HK-58371",
+   "HK-58534",
+   "HK-58253",
+   "HK-68758",
+   "HK-65953"
+  ],
+  "cabazitaxel": [
+   "HK-68945",
+   "HK-68946",
+   "HK-61193",
+   "HK-68947",
+   "HK-68385"
+  ],
+  "cabotegravir": [
+   "HK-67297",
+   "HK-67298",
+   "HK-67296"
+  ],
+  "cabozantinib": [
+   "HK-65656",
+   "HK-65654",
+   "HK-65655"
+  ],
+  "caffeine": [
+   "HK-67099",
+   "HK-64696",
+   "HK-50322",
+   "HK-01025",
+   "HK-50462"
+  ],
+  "calcifediol": [
+   "HK-68725",
+   "HK-67894"
+  ],
+  "calcipotriol": [
+   "HK-68704",
+   "HK-55517",
+   "HK-35877",
+   "HK-59632",
+   "HK-68653"
+  ],
+  "calcitriol": [
+   "HK-65345",
+   "HK-57635",
+   "HK-52239",
+   "HK-52238",
+   "HK-05357"
+  ],
+  "calcium_glycerophosphate": [
+   "HK-52479",
+   "HK-54177"
+  ],
+  "calcium_lactate": [
+   "HK-30457"
+  ],
+  "camphor": [
+   "HK-58885",
+   "HK-58884",
+   "HK-54063",
+   "HK-31313",
+   "HK-55838"
+  ],
+  "canakinumab": [
+   "HK-65635"
+  ],
+  "capecitabine": [
+   "HK-63404",
+   "HK-62914",
+   "HK-62913",
+   "HK-68949",
+   "HK-46233"
+  ],
+  "capmatinib": [
+   "HK-66993",
+   "HK-66992"
+  ],
+  "capsicum_oleoresin": [
+   "HK-06128"
+  ],
+  "captopril": [
+   "HK-44589",
+   "HK-59936",
+   "HK-36331",
+   "HK-41933",
+   "HK-42701"
+  ],
+  "carbamazepine": [
+   "HK-40924",
+   "HK-44773",
+   "HK-35117",
+   "HK-40975",
+   "HK-35635"
+  ],
+  "carbenoxolone": [
+   "HK-25547"
+  ],
+  "carbetocin": [
+   "HK-50670"
+  ],
+  "carbimazole": [
+   "HK-52760",
+   "HK-60955",
+   "HK-35972",
+   "HK-26101",
+   "HK-65516"
+  ],
+  "carbinoxamine": [
+   "HK-32014",
+   "HK-34395",
+   "HK-54148",
+   "HK-56159",
+   "HK-08596"
+  ],
+  "carbocisteine": [
+   "HK-68392",
+   "HK-34628",
+   "HK-63122",
+   "HK-19872",
+   "HK-62353"
+  ],
+  "carboplatin": [
+   "HK-35025",
+   "HK-61610",
+   "HK-60146",
+   "HK-66515",
+   "HK-65993"
+  ],
+  "carfilzomib": [
+   "HK-65431",
+   "HK-64828"
+  ],
+  "carisoprodol": [
+   "HK-48198"
+  ],
+  "carteolol": [
+   "HK-67553"
+  ],
+  "caspofungin": [
+   "HK-66617",
+   "HK-66616"
+  ],
+  "cefazolin": [
+   "HK-64519",
+   "HK-34125",
+   "HK-47264"
+  ],
+  "cefditoren": [
+   "HK-59773"
+  ],
+  "cefoperazone": [
+   "HK-61003",
+   "HK-63480",
+   "HK-56893",
+   "HK-32893"
+  ],
+  "cefpodoxime": [
+   "HK-64662",
+   "HK-59185"
+  ],
+  "ceftaroline_fosamil": [
+   "HK-62093"
+  ],
+  "ceftazidime": [
+   "HK-21523",
+   "HK-21522",
+   "HK-21251",
+   "HK-57297",
+   "HK-61251"
+  ],
+  "ceftolozane": [
+   "HK-65156"
+  ],
+  "ceftriaxone": [
+   "HK-52844",
+   "HK-61060",
+   "HK-58898",
+   "HK-64249",
+   "HK-49794"
+  ],
+  "cefuroxime": [
+   "HK-61702",
+   "HK-55257",
+   "HK-52841",
+   "HK-29697",
+   "HK-07015"
+  ],
+  "celecoxib": [
+   "HK-44731",
+   "HK-61703",
+   "HK-67848",
+   "HK-67377",
+   "HK-64176"
+  ],
+  "certolizumab_pegol": [
+   "HK-61805",
+   "HK-67262"
+  ],
+  "cetirizine": [
+   "HK-44760",
+   "HK-66054",
+   "HK-68223",
+   "HK-68344",
+   "HK-53013"
+  ],
+  "cetrorelix": [
+   "HK-46953",
+   "HK-67739"
+  ],
+  "cetuximab": [
+   "HK-57484"
+  ],
+  "chenodeoxycholic_acid": [
+   "HK-39787"
+  ],
+  "chlorambucil": [
+   "HK-03789"
+  ],
+  "chloramphenicol": [
+   "HK-61895",
+   "HK-61645",
+   "HK-09064",
+   "HK-01687",
+   "HK-30632"
+  ],
+  "chlordiazepoxide": [
+   "HK-23045",
+   "HK-11504",
+   "HK-27469",
+   "HK-35045"
+  ],
+  "chlorobutanol": [
+   "HK-01662",
+   "HK-47618",
+   "HK-04644"
+  ],
+  "chlorpromazine": [
+   "HK-53900",
+   "HK-44623",
+   "HK-44714"
+  ],
+  "chlortetracycline": [
+   "HK-06476"
+  ],
+  "chlorthalidone": [
+   "HK-62250",
+   "HK-62249",
+   "HK-20350",
+   "HK-13778"
+  ],
+  "chlorzoxazone": [
+   "HK-31266",
+   "HK-62131"
+  ],
+  "cholecalciferol": [
+   "HK-67080",
+   "HK-68740",
+   "HK-68743",
+   "HK-68742",
+   "HK-68741"
+  ],
+  "choline_salicylate": [
+   "HK-32005",
+   "HK-32406",
+   "HK-37437",
+   "HK-35703",
+   "HK-30925"
+  ],
+  "choriogonadotropin_alfa": [
+   "HK-52881",
+   "HK-62021"
+  ],
+  "ciclesonide": [
+   "HK-53034",
+   "HK-59322",
+   "HK-53035"
+  ],
+  "cidofovir": [
+   "HK-67379"
+  ],
+  "cilastatin": [
+   "HK-53560",
+   "HK-61317",
+   "HK-66808",
+   "HK-64660"
+  ],
+  "cimetidine": [
+   "HK-41813",
+   "HK-47776",
+   "HK-38804",
+   "HK-65798",
+   "HK-63341"
+  ],
+  "cinchocaine": [
+   "HK-13831",
+   "HK-13830",
+   "HK-65963",
+   "HK-65197",
+   "HK-33234"
+  ],
+  "ciprofloxacin": [
+   "HK-52577",
+   "HK-53688",
+   "HK-51940",
+   "HK-47031",
+   "HK-50313"
+  ],
+  "cisatracurium": [
+   "HK-66697",
+   "HK-65149",
+   "HK-65681",
+   "HK-62323",
+   "HK-42333"
+  ],
+  "citalopram": [
+   "HK-62273",
+   "HK-53122",
+   "HK-61066",
+   "HK-53084",
+   "HK-52953"
+  ],
+  "citric_acid": [
+   "HK-09759",
+   "HK-63415",
+   "HK-60968",
+   "HK-20004",
+   "HK-06461"
+  ],
+  "cladribine": [
+   "HK-65910"
+  ],
+  "clarithromycin": [
+   "HK-54399",
+   "HK-67578",
+   "HK-54294",
+   "HK-67473",
+   "HK-38306"
+  ],
+  "clavulanic_acid": [
+   "HK-47298",
+   "HK-42735",
+   "HK-42362",
+   "HK-56737",
+   "HK-63094"
+  ],
+  "clemastine": [
+   "HK-49809",
+   "HK-50305"
+  ],
+  "clidinium": [
+   "HK-35045"
+  ],
+  "clindamycin": [
+   "HK-47355",
+   "HK-62155",
+   "HK-56965",
+   "HK-50033",
+   "HK-46045"
+  ],
+  "clioquinol": [
+   "HK-64376",
+   "HK-21173",
+   "HK-53961",
+   "HK-36901",
+   "HK-28056"
+  ],
+  "clobazam": [
+   "HK-67412",
+   "HK-05574",
+   "HK-67411"
+  ],
+  "clobetasol": [
+   "HK-45788",
+   "HK-45783",
+   "HK-45649"
+  ],
+  "clobetasol_propionate": [
+   "HK-67988",
+   "HK-36493",
+   "HK-37528",
+   "HK-43905",
+   "HK-42041"
+  ],
+  "clobetasone": [
+   "HK-06945",
+   "HK-51334",
+   "HK-51335",
+   "HK-56220"
+  ],
+  "clofarabine": [
+   "HK-67620",
+   "HK-68623",
+   "HK-61183"
+  ],
+  "clofedanol": [
+   "HK-22202"
+  ],
+  "clomifene": [
+   "HK-59765",
+   "HK-20642",
+   "HK-22571",
+   "HK-65983",
+   "HK-24713"
+  ],
+  "clomipramine": [
+   "HK-45562",
+   "HK-40592",
+   "HK-45537",
+   "HK-41079"
+  ],
+  "clonazepam": [
+   "HK-58637",
+   "HK-58638",
+   "HK-64321",
+   "HK-57404",
+   "HK-57397"
+  ],
+  "clopidogrel": [
+   "HK-43787",
+   "HK-57453",
+   "HK-58540",
+   "HK-56147",
+   "HK-57069"
+  ],
+  "clotrimazole": [
+   "HK-25433",
+   "HK-25432",
+   "HK-65884",
+   "HK-47412",
+   "HK-65810"
+  ],
+  "clozapine": [
+   "HK-57651",
+   "HK-45530",
+   "HK-66717",
+   "HK-57650",
+   "HK-66718"
+  ],
+  "cobicistat": [
+   "HK-64960",
+   "HK-65912"
+  ],
+  "cocaine": [
+   "HK-50765"
+  ],
+  "codeine": [
+   "HK-05439",
+   "HK-64952",
+   "HK-39770",
+   "HK-12716",
+   "HK-33414"
+  ],
+  "colchicine": [
+   "HK-37807",
+   "HK-60077",
+   "HK-44403",
+   "HK-66396",
+   "HK-60287"
+  ],
+  "colistin": [
+   "HK-63662",
+   "HK-42135"
+  ],
+  "conjugated_estrogens": [
+   "HK-29754",
+   "HK-29755",
+   "HK-29759",
+   "HK-29753",
+   "HK-67532"
+  ],
+  "corifollitropin_alfa": [
+   "HK-60585",
+   "HK-60584"
+  ],
+  "crizotinib": [
+   "HK-61968",
+   "HK-61969"
+  ],
+  "crotamiton": [
+   "HK-48390",
+   "HK-23708",
+   "HK-40775",
+   "HK-00172",
+   "HK-01168"
+  ],
+  "cyanocobalamin": [
+   "HK-63076",
+   "HK-12579",
+   "HK-56543",
+   "HK-26263",
+   "HK-46964"
+  ],
+  "cyclopentolate": [
+   "HK-25765",
+   "HK-08203"
+  ],
+  "cyclophosphamide": [
+   "HK-51711",
+   "HK-51308",
+   "HK-01327",
+   "HK-50943"
+  ],
+  "cycloserine": [
+   "HK-45697"
+  ],
+  "cyclosporine": [
+   "HK-64779",
+   "HK-64780",
+   "HK-56954",
+   "HK-38058",
+   "HK-57837"
+  ],
+  "cyproheptadine": [
+   "HK-17900",
+   "HK-05079",
+   "HK-21862",
+   "HK-11455",
+   "HK-46023"
+  ],
+  "cyproterone_acetate": [
+   "HK-55387",
+   "HK-46443",
+   "HK-50432",
+   "HK-55320",
+   "HK-43330"
+  ],
+  "cysteine": [
+   "HK-58960",
+   "HK-36470",
+   "HK-65813",
+   "HK-65811",
+   "HK-65812"
+  ],
+  "cytarabine": [
+   "HK-65688",
+   "HK-36387",
+   "HK-66210",
+   "HK-27972",
+   "HK-44691"
+  ],
+  "dabigatran_etexilate": [
+   "HK-57315",
+   "HK-60516",
+   "HK-57316",
+   "HK-68583",
+   "HK-68584"
+  ],
+  "dacarbazine": [
+   "HK-44067",
+   "HK-52120",
+   "HK-52119"
+  ],
+  "danazol": [
+   "HK-24444",
+   "HK-39101",
+   "HK-43548"
+  ],
+  "dapoxetine": [
+   "HK-68318",
+   "HK-66777",
+   "HK-60174",
+   "HK-68951",
+   "HK-60175"
+  ],
+  "daptomycin": [
+   "HK-57551",
+   "HK-67114",
+   "HK-67646",
+   "HK-68014"
+  ],
+  "darolutamide": [
+   "HK-66877"
+  ],
+  "darunavir": [
+   "HK-58980",
+   "HK-63272",
+   "HK-66733",
+   "HK-67175",
+   "HK-66782"
+  ],
+  "dasatinib": [
+   "HK-55803",
+   "HK-55804",
+   "HK-55805",
+   "HK-66653",
+   "HK-67501"
+  ],
+  "daunorubicin": [
+   "HK-06215"
+  ],
+  "decitabine": [
+   "HK-67129",
+   "HK-68634"
+  ],
+  "deferasirox": [
+   "HK-68031",
+   "HK-68030",
+   "HK-64787",
+   "HK-64785",
+   "HK-66517"
+  ],
+  "deferiprone": [
+   "HK-68805",
+   "HK-62074",
+   "HK-58937",
+   "HK-49758"
+  ],
+  "degarelix": [
+   "HK-61179",
+   "HK-61178"
+  ],
+  "delamanid": [
+   "HK-64412"
+  ],
+  "demeclocycline": [
+   "HK-55120"
+  ],
+  "denosumab": [
+   "HK-68757",
+   "HK-68756",
+   "HK-61163",
+   "HK-60588"
+  ],
+  "deoxycholic_acid": [
+   "HK-65660",
+   "HK-06544"
+  ],
+  "desloratadine": [
+   "HK-51862",
+   "HK-51453",
+   "HK-58683",
+   "HK-57332",
+   "HK-66259"
+  ],
+  "desmopressin": [
+   "HK-37371",
+   "HK-37370",
+   "HK-54452",
+   "HK-32872",
+   "HK-38155"
+  ],
+  "desogestrel": [
+   "HK-67627",
+   "HK-33400",
+   "HK-42856",
+   "HK-28591"
+  ],
+  "desonide": [
+   "HK-62833",
+   "HK-64568",
+   "HK-64567",
+   "HK-68532",
+   "HK-38870"
+  ],
+  "desoximetasone": [
+   "HK-59501"
+  ],
+  "desvenlafaxine": [
+   "HK-59473",
+   "HK-59472",
+   "HK-65147",
+   "HK-67626",
+   "HK-67625"
+  ],
+  "dexamethasone": [
+   "HK-25481",
+   "HK-45805",
+   "HK-53360",
+   "HK-67275",
+   "HK-68955"
+  ],
+  "dexchlorpheniramine_maleate": [
+   "HK-56329",
+   "HK-28665",
+   "HK-65476",
+   "HK-67726",
+   "HK-42870"
+  ],
+  "dexketoprofen": [
+   "HK-65491"
+  ],
+  "dexlansoprazole": [
+   "HK-61373",
+   "HK-61372"
+  ],
+  "dexmedetomidine": [
+   "HK-49806",
+   "HK-66810",
+   "HK-67869",
+   "HK-68011",
+   "HK-66522"
+  ],
+  "dexpanthenol": [
+   "HK-55710",
+   "HK-43879"
+  ],
+  "dexrazoxane": [
+   "HK-54927"
+  ],
+  "dextromethorphan": [
+   "HK-55879",
+   "HK-57457",
+   "HK-67850",
+   "HK-59585",
+   "HK-63923"
+  ],
+  "diazepam": [
+   "HK-11468",
+   "HK-45358",
+   "HK-67325",
+   "HK-34828",
+   "HK-61111"
+  ],
+  "dichlorobenzyl_alcohol": [
+   "HK-67542",
+   "HK-54273",
+   "HK-19288",
+   "HK-19286",
+   "HK-67433"
+  ],
+  "diclofenac": [
+   "HK-37120",
+   "HK-36029",
+   "HK-66111",
+   "HK-25362",
+   "HK-53619"
+  ],
+  "dienogest": [
+   "HK-60781",
+   "HK-68772",
+   "HK-67958",
+   "HK-68699",
+   "HK-59784"
+  ],
+  "digoxin": [
+   "HK-60869",
+   "HK-03798",
+   "HK-03780",
+   "HK-03795"
+  ],
+  "dihydrocodeine": [
+   "HK-65861",
+   "HK-57588",
+   "HK-54981",
+   "HK-57139",
+   "HK-55815"
+  ],
+  "dihydrostreptomycin": [
+   "HK-23022"
+  ],
+  "diiodohydroxyquinoline": [
+   "HK-43469"
+  ],
+  "diltiazem": [
+   "HK-51489",
+   "HK-36361",
+   "HK-35593",
+   "HK-35196",
+   "HK-65699",
+   "HK-61266",
+   "HK-51192",
+   "HK-63748",
+   "HK-51191",
+   "HK-61265",
+   "HK-40462",
+   "HK-34526",
+   "HK-51488",
+   "HK-50418",
+   "HK-34527",
+   "HK-47032"
+  ],
+  "dimenhydrinate": [
+   "HK-33287",
+   "HK-35110",
+   "HK-35318",
+   "HK-40589",
+   "HK-63898"
+  ],
+  "diosmin": [
+   "HK-33940",
+   "HK-67813",
+   "HK-52603",
+   "HK-68056",
+   "HK-64177"
+  ],
+  "diphenhydramine": [
+   "HK-66947",
+   "HK-13049",
+   "HK-67555",
+   "HK-36413",
+   "HK-46402"
+  ],
+  "diphenylpyraline": [
+   "HK-52251"
+  ],
+  "dipyridamole": [
+   "HK-15915",
+   "HK-35124",
+   "HK-39893",
+   "HK-02701",
+   "HK-44759"
+  ],
+  "distigmine": [
+   "HK-19583"
+  ],
+  "dobutamine": [
+   "HK-68119",
+   "HK-40604",
+   "HK-63922",
+   "HK-66677"
+  ],
+  "docetaxel": [
+   "HK-41354",
+   "HK-41353",
+   "HK-64613",
+   "HK-68552",
+   "HK-62664"
+  ],
+  "docusate": [
+   "HK-40969",
+   "HK-01672",
+   "HK-39379",
+   "HK-15102",
+   "HK-65563"
+  ],
+  "dolutegravir": [
+   "HK-63516",
+   "HK-66511",
+   "HK-64012"
+  ],
+  "domperidone": [
+   "HK-58627",
+   "HK-64541",
+   "HK-48289",
+   "HK-44630",
+   "HK-50698"
+  ],
+  "donepezil": [
+   "HK-42889",
+   "HK-61846",
+   "HK-59867",
+   "HK-63773",
+   "HK-65710"
+  ],
+  "doravirine": [
+   "HK-66558",
+   "HK-66557"
+  ],
+  "dornase_alfa": [
+   "HK-41444"
+  ],
+  "dorzolamide": [
+   "HK-40713",
+   "HK-66812",
+   "HK-64039",
+   "HK-46578",
+   "HK-61930"
+  ],
+  "dostarlimab": [
+   "HK-67364"
+  ],
+  "doxazosin": [
+   "HK-31170",
+   "HK-31169",
+   "HK-45161",
+   "HK-45162",
+   "HK-47338"
+  ],
+  "doxorubicin": [
+   "HK-52946",
+   "HK-40874",
+   "HK-37493",
+   "HK-67505",
+   "HK-66647"
+  ],
+  "doxycycline": [
+   "HK-05038",
+   "HK-18626",
+   "HK-44279",
+   "HK-38107",
+   "HK-42566"
+  ],
+  "doxylamine": [
+   "HK-62427",
+   "HK-45391"
+  ],
+  "dronedarone": [
+   "HK-59499"
+  ],
+  "duloxetine": [
+   "HK-53843",
+   "HK-53844",
+   "HK-64014",
+   "HK-64013",
+   "HK-65544"
+  ],
+  "dupilumab": [
+   "HK-68621",
+   "HK-65961",
+   "HK-66635",
+   "HK-68620"
+  ],
+  "durvalumab": [
+   "HK-65929",
+   "HK-65928"
+  ],
+  "dutasteride": [
+   "HK-61577",
+   "HK-64673",
+   "HK-68564",
+   "HK-61184",
+   "HK-68297"
+  ],
+  "econazole": [
+   "HK-36295",
+   "HK-34621",
+   "HK-57772",
+   "HK-58828",
+   "HK-54354"
+  ],
+  "eculizumab": [
+   "HK-61188"
+  ],
+  "efavirenz": [
+   "HK-66814",
+   "HK-61617",
+   "HK-66482",
+   "HK-66634",
+   "HK-59769"
+  ],
+  "efinaconazole": [
+   "HK-66407"
+  ],
+  "efmoroctocog_alfa": [
+   "HK-66996",
+   "HK-66994",
+   "HK-66995",
+   "HK-66997"
+  ],
+  "eftrenonacog_alfa": [
+   "HK-67048",
+   "HK-67045",
+   "HK-67046",
+   "HK-67047"
+  ],
+  "eletriptan": [
+   "HK-66729"
+  ],
+  "elosulfase_alfa": [
+   "HK-63775"
+  ],
+  "eltrombopag": [
+   "HK-62055",
+   "HK-68001"
+  ],
+  "emedastine": [
+   "HK-68863"
+  ],
+  "emicizumab": [
+   "HK-65932",
+   "HK-65934",
+   "HK-65935",
+   "HK-65933"
+  ],
+  "empagliflozin": [
+   "HK-64095",
+   "HK-64096",
+   "HK-65353",
+   "HK-65354",
+   "HK-64242"
+  ],
+  "emtricitabine": [
+   "HK-64704",
+   "HK-57749",
+   "HK-56076",
+   "HK-65914",
+   "HK-65912"
+  ],
+  "enfortumab_vedotin": [
+   "HK-67888",
+   "HK-67889"
+  ],
+  "enoxaparin": [
+   "HK-38403",
+   "HK-38404"
+  ],
+  "enrofloxacin": [
+   "HK-60346",
+   "HK-60347"
+  ],
+  "entacapone": [
+   "HK-64723",
+   "HK-44960",
+   "HK-66936",
+   "HK-66937",
+   "HK-52081"
+  ],
+  "entecavir": [
+   "HK-55152",
+   "HK-55153",
+   "HK-65737",
+   "HK-68822",
+   "HK-64435"
+  ],
+  "entrectinib": [
+   "HK-66639",
+   "HK-66640"
+  ],
+  "enzalutamide": [
+   "HK-63493",
+   "HK-68829",
+   "HK-68830",
+   "HK-68934"
+  ],
+  "ephedrine": [
+   "HK-14664",
+   "HK-20794",
+   "HK-39223",
+   "HK-65424",
+   "HK-23992"
+  ],
+  "epinephrine": [
+   "HK-50701",
+   "HK-66600",
+   "HK-00410",
+   "HK-64270",
+   "HK-64269"
+  ],
+  "epirubicin": [
+   "HK-44164",
+   "HK-50380",
+   "HK-61697",
+   "HK-66403",
+   "HK-65836"
+  ],
+  "eplerenone": [
+   "HK-53031",
+   "HK-53030",
+   "HK-66394",
+   "HK-66395",
+   "HK-67563"
+  ],
+  "eptinezumab": [
+   "HK-67573"
+  ],
+  "erdafitinib": [
+   "HK-66726",
+   "HK-66727",
+   "HK-66728"
+  ],
+  "erenumab": [
+   "HK-66847",
+   "HK-66406"
+  ],
+  "ergocalciferol": [
+   "HK-36205",
+   "HK-36206",
+   "HK-01178",
+   "HK-52479"
+  ],
+  "ergometrine": [
+   "HK-01698"
+  ],
+  "eribulin": [
+   "HK-61632",
+   "HK-65349",
+   "HK-68262"
+  ],
+  "ertapenem": [
+   "HK-51101",
+   "HK-64357",
+   "HK-68079",
+   "HK-68815"
+  ],
+  "erythromycin": [
+   "HK-59507",
+   "HK-07399",
+   "HK-54210",
+   "HK-20451",
+   "HK-30882"
+  ],
+  "esculin": [
+   "HK-56046",
+   "HK-56047",
+   "HK-56049",
+   "HK-55324",
+   "HK-54828"
+  ],
+  "esketamine": [
+   "HK-67010"
+  ],
+  "esomeprazole": [
+   "HK-48058",
+   "HK-52131",
+   "HK-61717",
+   "HK-64737",
+   "HK-67261"
+  ],
+  "estradiol_valerate": [
+   "HK-48266",
+   "HK-59784"
+  ],
+  "estriol": [
+   "HK-54191"
+  ],
+  "etanercept": [
+   "HK-55983",
+   "HK-59796",
+   "HK-55984",
+   "HK-48914",
+   "HK-67841"
+  ],
+  "etelcalcetide": [
+   "HK-65659",
+   "HK-65657",
+   "HK-65658"
+  ],
+  "ethambutol": [
+   "HK-50311",
+   "HK-67534",
+   "HK-50312",
+   "HK-60915"
+  ],
+  "ethanol": [
+   "HK-66686",
+   "HK-68185",
+   "HK-68201"
+  ],
+  "ethinylestradiol": [
+   "HK-45789",
+   "HK-64653",
+   "HK-02137",
+   "HK-44340",
+   "HK-42856"
+  ],
+  "ethosuximide": [
+   "HK-68479"
+  ],
+  "ethyl_chloride": [
+   "HK-44967"
+  ],
+  "etodolac": [
+   "HK-44856",
+   "HK-45895"
+  ],
+  "etofenamate": [
+   "HK-53359",
+   "HK-52785",
+   "HK-55383",
+   "HK-40437",
+   "HK-41266"
+  ],
+  "etonogestrel": [
+   "HK-68214"
+  ],
+  "etoposide": [
+   "HK-40551",
+   "HK-40664",
+   "HK-40663",
+   "HK-42309"
+  ],
+  "etoricoxib": [
+   "HK-51227",
+   "HK-65906",
+   "HK-66070",
+   "HK-65575",
+   "HK-66165"
+  ],
+  "etravirine": [
+   "HK-61470"
+  ],
+  "eucalyptus_oil": [
+   "HK-58774",
+   "HK-55838",
+   "HK-54184",
+   "HK-60560",
+   "HK-54122",
+   "HK-57533",
+   "HK-59099",
+   "HK-54101",
+   "HK-64076",
+   "HK-59607",
+   "HK-54463",
+   "HK-59098",
+   "HK-59634",
+   "HK-68089",
+   "HK-59100",
+   "HK-59101",
+   "HK-54461",
+   "HK-54121",
+   "HK-46926",
+   "HK-35274"
+  ],
+  "everolimus": [
+   "HK-59060",
+   "HK-61710",
+   "HK-54335",
+   "HK-68853",
+   "HK-68419"
+  ],
+  "evocalcet": [
+   "HK-68425",
+   "HK-68424"
+  ],
+  "evolocumab": [
+   "HK-64509",
+   "HK-64510"
+  ],
+  "exemestane": [
+   "HK-65667",
+   "HK-46969",
+   "HK-62482",
+   "HK-61725",
+   "HK-65012"
+  ],
+  "ezetimibe": [
+   "HK-66209",
+   "HK-65290",
+   "HK-68102",
+   "HK-51223",
+   "HK-63988"
+  ],
+  "famciclovir": [
+   "HK-66386",
+   "HK-39905",
+   "HK-57504",
+   "HK-39023",
+   "HK-58557"
+  ],
+  "famotidine": [
+   "HK-66450",
+   "HK-47369",
+   "HK-48086",
+   "HK-47874",
+   "HK-48193"
+  ],
+  "febuxostat": [
+   "HK-61185",
+   "HK-61186",
+   "HK-67630",
+   "HK-67470",
+   "HK-67668"
+  ],
+  "felbinac": [
+   "HK-56207"
+  ],
+  "felodipine": [
+   "HK-37191",
+   "HK-32696",
+   "HK-32695",
+   "HK-38314",
+   "HK-49353"
+  ],
+  "fenbendazole": [
+   "HK-50424"
+  ],
+  "fenfluramine": [
+   "HK-68504"
+  ],
+  "fenofibrate": [
+   "HK-59427",
+   "HK-50649",
+   "HK-53289",
+   "HK-59426",
+   "HK-67885"
+  ],
+  "fentanyl": [
+   "HK-53755",
+   "HK-53753",
+   "HK-53883",
+   "HK-64078",
+   "HK-67174"
+  ],
+  "ferric_sulfate": [
+   "HK-64379"
+  ],
+  "ferrous_fumarate": [
+   "HK-51439"
+  ],
+  "ferrous_gluconate": [
+   "HK-65535"
+  ],
+  "ferrous_sulfate_anhydrous": [
+   "HK-44758",
+   "HK-46511",
+   "HK-47856"
+  ],
+  "fexofenadine": [
+   "HK-56373",
+   "HK-61666",
+   "HK-67128",
+   "HK-68487",
+   "HK-55609"
+  ],
+  "filgrastim": [
+   "HK-45427",
+   "HK-60951",
+   "HK-64300",
+   "HK-35878",
+   "HK-68517"
+  ],
+  "finasteride": [
+   "HK-36604",
+   "HK-63379",
+   "HK-58465",
+   "HK-64019",
+   "HK-66014"
+  ],
+  "flavoxate": [
+   "HK-65106",
+   "HK-54672"
+  ],
+  "flecainide": [
+   "HK-24395",
+   "HK-56748",
+   "HK-60854",
+   "HK-60853",
+   "HK-56061"
+  ],
+  "flubendazole": [
+   "HK-37527"
+  ],
+  "flucloxacillin": [
+   "HK-42222",
+   "HK-50542",
+   "HK-51790"
+  ],
+  "fluconazole": [
+   "HK-31175",
+   "HK-32536",
+   "HK-52849",
+   "HK-52848",
+   "HK-67485"
+  ],
+  "fludarabine": [
+   "HK-60491",
+   "HK-58036",
+   "HK-64955"
+  ],
+  "fludrocortisone": [
+   "HK-00036",
+   "HK-47276"
+  ],
+  "flunarizine": [
+   "HK-49233",
+   "HK-41240",
+   "HK-21275",
+   "HK-61872",
+   "HK-42370",
+   "HK-49616",
+   "HK-54295",
+   "HK-52662",
+   "HK-47204"
+  ],
+  "flunitrazepam": [
+   "HK-56628",
+   "HK-34683",
+   "HK-12370"
+  ],
+  "fluocinolone_acetonide": [
+   "HK-17904",
+   "HK-49676",
+   "HK-27810",
+   "HK-63833",
+   "HK-68072"
+  ],
+  "fluorescein": [
+   "HK-59383",
+   "HK-08618",
+   "HK-49096"
+  ],
+  "fluorometholone": [
+   "HK-34273",
+   "HK-34274",
+   "HK-54720",
+   "HK-64966",
+   "HK-19538"
+  ],
+  "fluorouracil": [
+   "HK-40254",
+   "HK-45512",
+   "HK-15219"
+  ],
+  "fluoxetine": [
+   "HK-68820",
+   "HK-35706",
+   "HK-68648",
+   "HK-30503",
+   "HK-60977"
+  ],
+  "flupentixol": [
+   "HK-53918",
+   "HK-53917",
+   "HK-53916",
+   "HK-65109",
+   "HK-19676"
+  ],
+  "fluphenazine": [
+   "HK-68179",
+   "HK-64620"
+  ],
+  "flurbiprofen": [
+   "HK-68354",
+   "HK-64202",
+   "HK-61431"
+  ],
+  "flutamide": [
+   "HK-55925",
+   "HK-52992",
+   "HK-44921",
+   "HK-40974"
+  ],
+  "fluticasone_furoate": [
+   "HK-68739",
+   "HK-56691",
+   "HK-62693",
+   "HK-62694",
+   "HK-67942"
+  ],
+  "fluvoxamine": [
+   "HK-41397",
+   "HK-41398",
+   "HK-58564",
+   "HK-58565"
+  ],
+  "folic_acid": [
+   "HK-61899",
+   "HK-25293",
+   "HK-11525",
+   "HK-67727",
+   "HK-51107"
+  ],
+  "formoterol": [
+   "HK-61392",
+   "HK-62090",
+   "HK-64503",
+   "HK-60618",
+   "HK-49176"
+  ],
+  "fosaprepitant": [
+   "HK-68703"
+  ],
+  "fosfomycin": [
+   "HK-43159"
+  ],
+  "framycetin": [
+   "HK-67429"
+  ],
+  "fremanezumab": [
+   "HK-67139"
+  ],
+  "fulvestrant": [
+   "HK-67531",
+   "HK-65886",
+   "HK-66527",
+   "HK-67587",
+   "HK-57103"
+  ],
+  "fusidic_acid": [
+   "HK-60364",
+   "HK-46825",
+   "HK-65120",
+   "HK-37408",
+   "HK-37597"
+  ],
+  "gadobenic_acid": [
+   "HK-57789"
+  ],
+  "galantamine": [
+   "HK-55292",
+   "HK-55293",
+   "HK-55294",
+   "HK-65459",
+   "HK-65460"
+  ],
+  "galcanezumab": [
+   "HK-66579",
+   "HK-66580"
+  ],
+  "ganirelix": [
+   "HK-49750"
+  ],
+  "gefitinib": [
+   "HK-51753",
+   "HK-66380",
+   "HK-66418",
+   "HK-66918",
+   "HK-66963"
+  ],
+  "gemcitabine": [
+   "HK-41786",
+   "HK-41787",
+   "HK-62671",
+   "HK-62670",
+   "HK-64298"
+  ],
+  "gemfibrozil": [
+   "HK-68047",
+   "HK-50486",
+   "HK-50342",
+   "HK-43457",
+   "HK-47676"
+  ],
+  "gilteritinib": [
+   "HK-67291"
+  ],
+  "gimeracil": [
+   "HK-67976",
+   "HK-67977",
+   "HK-61181",
+   "HK-61182"
+  ],
+  "ginseng": [
+   "HK-45214",
+   "HK-45213"
+  ],
+  "glecaprevir": [
+   "HK-65653"
+  ],
+  "glimepiride": [
+   "HK-42323",
+   "HK-42325",
+   "HK-62478",
+   "HK-62479",
+   "HK-57874"
+  ],
+  "glucagon": [
+   "HK-41845"
+  ],
+  "glutamic_acid": [
+   "HK-36470",
+   "HK-32746",
+   "HK-61211",
+   "HK-37929",
+   "HK-67504"
+  ],
+  "glutathione": [
+   "HK-38778"
+  ],
+  "glycine": [
+   "HK-29270",
+   "HK-68234",
+   "HK-34034",
+   "HK-57540",
+   "HK-62100"
+  ],
+  "glycocholic_acid": [
+   "HK-56452"
+  ],
+  "glycol_salicylate": [
+   "HK-66114",
+   "HK-56055",
+   "HK-38738",
+   "HK-59071",
+   "HK-66949"
+  ],
+  "glycyrrhizic_acid": [
+   "HK-49857",
+   "HK-34639",
+   "HK-49914",
+   "HK-42269"
+  ],
+  "golimumab": [
+   "HK-64294",
+   "HK-63606",
+   "HK-66453",
+   "HK-64295"
+  ],
+  "goserelin": [
+   "HK-42691",
+   "HK-65753",
+   "HK-31178",
+   "HK-65754"
+  ],
+  "granisetron": [
+   "HK-62011",
+   "HK-68845",
+   "HK-68259",
+   "HK-36669",
+   "HK-60439"
+  ],
+  "griseofulvin": [
+   "HK-34137",
+   "HK-33380",
+   "HK-26326",
+   "HK-66191",
+   "HK-31024"
+  ],
+  "guaiacol": [
+   "HK-41505"
+  ],
+  "guaifenesin": [
+   "HK-62004",
+   "HK-63897",
+   "HK-51114",
+   "HK-36928",
+   "HK-47305"
+  ],
+  "guselkumab": [
+   "HK-65944",
+   "HK-67037"
+  ],
+  "halometasone": [
+   "HK-66743",
+   "HK-48330"
+  ],
+  "haloperidol": [
+   "HK-64839",
+   "HK-54962",
+   "HK-65060",
+   "HK-65430",
+   "HK-62669"
+  ],
+  "hemin": [
+   "HK-68135"
+  ],
+  "heparin": [
+   "HK-10765",
+   "HK-57802",
+   "HK-27750",
+   "HK-64529",
+   "HK-15279"
+  ],
+  "hesperidin": [
+   "HK-33940",
+   "HK-67813",
+   "HK-61727",
+   "HK-68056",
+   "HK-66397"
+  ],
+  "hexachlorophene": [
+   "HK-23582"
+  ],
+  "histidine": [
+   "HK-32089",
+   "HK-57540",
+   "HK-58914",
+   "HK-59756",
+   "HK-06059"
+  ],
+  "homatropine": [
+   "HK-66532"
+  ],
+  "homatropine_methylbromide": [
+   "HK-49849"
+  ],
+  "human_c1-esterase_inhibitor": [
+   "HK-67361"
+  ],
+  "human_immunoglobulin_g": [
+   "HK-61283",
+   "HK-61287",
+   "HK-43941"
+  ],
+  "hyaluronidase": [
+   "HK-35245"
+  ],
+  "hydrocortisone": [
+   "HK-67793",
+   "HK-41308",
+   "HK-51050",
+   "HK-55477",
+   "HK-25551"
+  ],
+  "hydrocortisone_acetate": [
+   "HK-57592",
+   "HK-52240",
+   "HK-06471",
+   "HK-08072",
+   "HK-57594"
+  ],
+  "hydroquinone": [
+   "HK-64187",
+   "HK-54161"
+  ],
+  "hydroxocobalamin": [
+   "HK-62101",
+   "HK-18055",
+   "HK-18525",
+   "HK-18057"
+  ],
+  "hydroxyurea": [
+   "HK-52895",
+   "HK-66544",
+   "HK-67918",
+   "HK-67191",
+   "HK-66629"
+  ],
+  "hydroxyzine": [
+   "HK-48205",
+   "HK-58686",
+   "HK-48897",
+   "HK-43483",
+   "HK-49038"
+  ],
+  "hypromellose": [
+   "HK-46636",
+   "HK-64590",
+   "HK-45257",
+   "HK-67786",
+   "HK-22087"
+  ],
+  "ibritumomab_tiuxetan": [
+   "HK-54925"
+  ],
+  "ibuprofen": [
+   "HK-55058",
+   "HK-43233",
+   "HK-67025",
+   "HK-51501",
+   "HK-54601"
+  ],
+  "icatibant": [
+   "HK-66935"
+  ],
+  "icodextrin": [
+   "HK-46627"
+  ],
+  "icosapent_ethyl": [
+   "HK-67365"
+  ],
+  "idarucizumab": [
+   "HK-64759"
+  ],
+  "ifosfamide": [
+   "HK-64831",
+   "HK-61271",
+   "HK-01322",
+   "HK-50758"
+  ],
+  "iloprost": [
+   "HK-50560"
+  ],
+  "imatinib": [
+   "HK-68317",
+   "HK-62351",
+   "HK-65126",
+   "HK-67141",
+   "HK-63407"
+  ],
+  "imidacloprid": [
+   "HK-55111",
+   "HK-55109",
+   "HK-57257",
+   "HK-57256",
+   "HK-55110"
+  ],
+  "imidapril": [
+   "HK-51394",
+   "HK-51393"
+  ],
+  "imiglucerase": [
+   "HK-60392"
+  ],
+  "imipenem": [
+   "HK-53560",
+   "HK-61317",
+   "HK-66808",
+   "HK-64660"
+  ],
+  "imipramine": [
+   "HK-14678",
+   "HK-49257",
+   "HK-05077"
+  ],
+  "imiquimod": [
+   "HK-44090",
+   "HK-68923"
+  ],
+  "inclisiran": [
+   "HK-67211"
+  ],
+  "indacaterol": [
+   "HK-67628",
+   "HK-67725",
+   "HK-60180",
+   "HK-60179"
+  ],
+  "indomethacin": [
+   "HK-67282",
+   "HK-67566",
+   "HK-15122",
+   "HK-46461",
+   "HK-01934"
+  ],
+  "insulin_aspart": [
+   "HK-55341",
+   "HK-67493",
+   "HK-68936",
+   "HK-68191",
+   "HK-60462"
+  ],
+  "insulin_degludec": [
+   "HK-62700",
+   "HK-67541",
+   "HK-62699",
+   "HK-68120",
+   "HK-67704"
+  ],
+  "insulin_detemir": [
+   "HK-65011",
+   "HK-53538",
+   "HK-67929"
+  ],
+  "insulin_glargine": [
+   "HK-56520",
+   "HK-64661",
+   "HK-65078",
+   "HK-65079",
+   "HK-50530"
+  ],
+  "insulin_glulisine": [
+   "HK-56757"
+  ],
+  "insulin_human": [
+   "HK-60290",
+   "HK-63758",
+   "HK-54859",
+   "HK-54861",
+   "HK-39494"
+  ],
+  "insulin_lispro": [
+   "HK-60381",
+   "HK-42887",
+   "HK-42886",
+   "HK-60379",
+   "HK-60380"
+  ],
+  "interferon_beta-1b": [
+   "HK-47987"
+  ],
+  "iodixanol": [
+   "HK-43490",
+   "HK-43491"
+  ],
+  "iohexol": [
+   "HK-44111",
+   "HK-44112"
+  ],
+  "iopromide": [
+   "HK-43949",
+   "HK-43948"
+  ],
+  "ioversol": [
+   "HK-38527",
+   "HK-38528",
+   "HK-38526"
+  ],
+  "ipilimumab": [
+   "HK-63495",
+   "HK-63494"
+  ],
+  "ipratropium": [
+   "HK-23564",
+   "HK-50402",
+   "HK-36372",
+   "HK-64628",
+   "HK-62900"
+  ],
+  "irbesartan": [
+   "HK-64347",
+   "HK-42891",
+   "HK-64346",
+   "HK-60779",
+   "HK-67444"
+  ],
+  "irinotecan": [
+   "HK-42884",
+   "HK-67985",
+   "HK-65294",
+   "HK-58691",
+   "HK-68057"
+  ],
+  "iron": [
+   "HK-58954",
+   "HK-61624",
+   "HK-37841",
+   "HK-61295",
+   "HK-64137"
+  ],
+  "isoflurane": [
+   "HK-58404",
+   "HK-50284",
+   "HK-51392",
+   "HK-40926"
+  ],
+  "isoleucine": [
+   "HK-62890",
+   "HK-57540",
+   "HK-62100",
+   "HK-60459",
+   "HK-58914"
+  ],
+  "isoniazid": [
+   "HK-63429",
+   "HK-38536",
+   "HK-06452",
+   "HK-27590",
+   "HK-27593"
+  ],
+  "isosorbide_dinitrate": [
+   "HK-68629",
+   "HK-40553",
+   "HK-36369",
+   "HK-44851",
+   "HK-68203"
+  ],
+  "isosorbide_mononitrate": [
+   "HK-58861",
+   "HK-32612",
+   "HK-44654",
+   "HK-44510",
+   "HK-58841"
+  ],
+  "isotretinoin": [
+   "HK-55931",
+   "HK-56026",
+   "HK-20965",
+   "HK-20966",
+   "HK-50197"
+  ],
+  "itraconazole": [
+   "HK-51056",
+   "HK-50434",
+   "HK-54674",
+   "HK-63889",
+   "HK-50850"
+  ],
+  "ivabradine": [
+   "HK-55438",
+   "HK-55439",
+   "HK-68232",
+   "HK-68233",
+   "HK-68712"
+  ],
+  "ivermectin": [
+   "HK-58372",
+   "HK-64980",
+   "HK-47901",
+   "HK-47899",
+   "HK-47900"
+  ],
+  "ivosidenib": [
+   "HK-68831"
+  ],
+  "ketamine": [
+   "HK-37715",
+   "HK-07901",
+   "HK-61875",
+   "HK-07197"
+  ],
+  "ketoconazole": [
+   "HK-55333",
+   "HK-66462",
+   "HK-47033",
+   "HK-45535",
+   "HK-64475"
+  ],
+  "ketoprofen": [
+   "HK-68597",
+   "HK-57684",
+   "HK-62603",
+   "HK-18544",
+   "HK-59428"
+  ],
+  "ketorolac": [
+   "HK-49503",
+   "HK-67719",
+   "HK-35309",
+   "HK-53935",
+   "HK-60656"
+  ],
+  "labetalol": [
+   "HK-02802",
+   "HK-02800",
+   "HK-57922",
+   "HK-68126",
+   "HK-68453"
+  ],
+  "lacosamide": [
+   "HK-61177",
+   "HK-61175",
+   "HK-61176",
+   "HK-62585",
+   "HK-61174"
+  ],
+  "lactic_acid": [
+   "HK-42195",
+   "HK-67340",
+   "HK-67554",
+   "HK-67322",
+   "HK-12847"
+  ],
+  "lactose": [
+   "HK-43329",
+   "HK-56563",
+   "HK-68562",
+   "HK-65968",
+   "HK-59784"
+  ],
+  "lactulose": [
+   "HK-32072",
+   "HK-43381",
+   "HK-52805",
+   "HK-55625",
+   "HK-67979"
+  ],
+  "lamivudine": [
+   "HK-42074",
+   "HK-64798",
+   "HK-64011",
+   "HK-63605",
+   "HK-65625"
+  ],
+  "lamotrigine": [
+   "HK-37451",
+   "HK-37452",
+   "HK-39443",
+   "HK-56609",
+   "HK-57291"
+  ],
+  "lanadelumab": [
+   "HK-67123"
+  ],
+  "lanreotide": [
+   "HK-51884",
+   "HK-51885",
+   "HK-51886"
+  ],
+  "lansoprazole": [
+   "HK-51917",
+   "HK-51919",
+   "HK-65437",
+   "HK-65436",
+   "HK-59079"
+  ],
+  "lapatinib": [
+   "HK-66822",
+   "HK-67443",
+   "HK-56194"
+  ],
+  "laronidase": [
+   "HK-56438"
+  ],
+  "larotrectinib": [
+   "HK-66491",
+   "HK-66492",
+   "HK-66493"
+  ],
+  "latanoprost": [
+   "HK-42158",
+   "HK-64160",
+   "HK-61876",
+   "HK-65985",
+   "HK-68041"
+  ],
+  "latanoprostene_bunod": [
+   "HK-66408"
+  ],
+  "lecanemab": [
+   "HK-68290",
+   "HK-68289"
+  ],
+  "leflunomide": [
+   "HK-46487",
+   "HK-46488",
+   "HK-46486",
+   "HK-54040",
+   "HK-58159"
+  ],
+  "lemborexant": [
+   "HK-67002",
+   "HK-67001"
+  ],
+  "lenalidomide": [
+   "HK-62180",
+   "HK-62181",
+   "HK-62182",
+   "HK-62183",
+   "HK-68893"
+  ],
+  "lenvatinib": [
+   "HK-64507",
+   "HK-64508"
+  ],
+  "letermovir": [
+   "HK-66124",
+   "HK-66125",
+   "HK-66122",
+   "HK-66123"
+  ],
+  "letrozole": [
+   "HK-42537",
+   "HK-65626",
+   "HK-64679",
+   "HK-61004",
+   "HK-62001"
+  ],
+  "levetiracetam": [
+   "HK-48231",
+   "HK-48230",
+   "HK-67539",
+   "HK-66922",
+   "HK-65814"
+  ],
+  "levobupivacaine": [
+   "HK-67067",
+   "HK-67344",
+   "HK-67066"
+  ],
+  "levocarnitine": [
+   "HK-39342",
+   "HK-41015",
+   "HK-36344",
+   "HK-67686"
+  ],
+  "levocetirizine": [
+   "HK-49629",
+   "HK-54600",
+   "HK-58738",
+   "HK-63098",
+   "HK-63096"
+  ],
+  "levodopa": [
+   "HK-43179",
+   "HK-30945",
+   "HK-15442",
+   "HK-52081",
+   "HK-49666"
+  ],
+  "levofloxacin": [
+   "HK-51495",
+   "HK-64805",
+   "HK-65005",
+   "HK-65995",
+   "HK-58278"
+  ],
+  "levonorgestrel": [
+   "HK-55811",
+   "HK-58345",
+   "HK-41251",
+   "HK-64965",
+   "HK-55593"
+  ],
+  "levothyroxine": [
+   "HK-63576",
+   "HK-56044",
+   "HK-67851",
+   "HK-57830",
+   "HK-58763"
+  ],
+  "lidocaine": [
+   "HK-54965",
+   "HK-22973",
+   "HK-19619",
+   "HK-51722",
+   "HK-59762"
+  ],
+  "linaclotide": [
+   "HK-64139"
+  ],
+  "lincomycin": [
+   "HK-55681",
+   "HK-61712",
+   "HK-66152",
+   "HK-60253",
+   "HK-41155"
+  ],
+  "lindane": [
+   "HK-45872",
+   "HK-45088"
+  ],
+  "lisinopril": [
+   "HK-30505",
+   "HK-30515",
+   "HK-47998",
+   "HK-51882",
+   "HK-64625"
+  ],
+  "lithium_carbonate": [
+   "HK-66420",
+   "HK-60530",
+   "HK-62229",
+   "HK-67216",
+   "HK-62228"
+  ],
+  "lonoctocog_alfa": [
+   "HK-66199",
+   "HK-66200",
+   "HK-66201",
+   "HK-66202"
+  ],
+  "loperamide": [
+   "HK-49270",
+   "HK-50444",
+   "HK-18541",
+   "HK-47710",
+   "HK-48842"
+  ],
+  "lopinavir": [
+   "HK-68129",
+   "HK-65831",
+   "HK-55200",
+   "HK-66676",
+   "HK-66612"
+  ],
+  "lorazepam": [
+   "HK-63368",
+   "HK-34394",
+   "HK-35048",
+   "HK-63369",
+   "HK-63367"
+  ],
+  "lorlatinib": [
+   "HK-66412",
+   "HK-66411"
+  ],
+  "losartan": [
+   "HK-50281",
+   "HK-60232",
+   "HK-59349",
+   "HK-59348",
+   "HK-67070"
+  ],
+  "loteprednol_etabonate": [
+   "HK-51822",
+   "HK-54255"
+  ],
+  "lovastatin": [
+   "HK-61102",
+   "HK-39329"
+  ],
+  "loxapine": [
+   "HK-67228"
+  ],
+  "lurasidone": [
+   "HK-64806",
+   "HK-64804",
+   "HK-67186"
+  ],
+  "lurbinectedin": [
+   "HK-68069"
+  ],
+  "luspatercept": [
+   "HK-67366",
+   "HK-67367"
+  ],
+  "magnesium_carbonate": [
+   "HK-44128",
+   "HK-47678",
+   "HK-35119",
+   "HK-61749",
+   "HK-30103"
+  ],
+  "magnesium_hydroxide": [
+   "HK-43990",
+   "HK-58779",
+   "HK-46908",
+   "HK-30455",
+   "HK-05470"
+  ],
+  "magnesium_sulfate": [
+   "HK-32142",
+   "HK-47730",
+   "HK-47731",
+   "HK-52179",
+   "HK-47729"
+  ],
+  "magnesium_trisilicate": [
+   "HK-43991",
+   "HK-15701",
+   "HK-05463",
+   "HK-05192",
+   "HK-05270"
+  ],
+  "mannitol": [
+   "HK-21527",
+   "HK-28237",
+   "HK-43086"
+  ],
+  "maraviroc": [
+   "HK-56798"
+  ],
+  "mebendazole": [
+   "HK-37784",
+   "HK-37786",
+   "HK-67476",
+   "HK-37785",
+   "HK-26297"
+  ],
+  "mecobalamin": [
+   "HK-51127",
+   "HK-68347",
+   "HK-54285",
+   "HK-58968",
+   "HK-64652"
+  ],
+  "medroxyprogesterone_acetate": [
+   "HK-00488",
+   "HK-67226",
+   "HK-00445",
+   "HK-43794",
+   "HK-54973"
+  ],
+  "mefenamic_acid": [
+   "HK-42367",
+   "HK-50543",
+   "HK-07380",
+   "HK-29271",
+   "HK-66441"
+  ],
+  "megestrol_acetate": [
+   "HK-60399",
+   "HK-44293",
+   "HK-68146",
+   "HK-68644",
+   "HK-42289"
+  ],
+  "meloxicam": [
+   "HK-41788",
+   "HK-41789",
+   "HK-54749",
+   "HK-54750",
+   "HK-53980"
+  ],
+  "melphalan": [
+   "HK-03792",
+   "HK-37994"
+  ],
+  "memantine": [
+   "HK-51749",
+   "HK-58231",
+   "HK-62748",
+   "HK-63963",
+   "HK-62744"
+  ],
+  "mepivacaine": [
+   "HK-21454",
+   "HK-25907"
+  ],
+  "mepolizumab": [
+   "HK-66838"
+  ],
+  "mepyramine": [
+   "HK-57757",
+   "HK-30055",
+   "HK-57756",
+   "HK-23629",
+   "HK-49356"
+  ],
+  "mercaptopurine": [
+   "HK-03770",
+   "HK-65479"
+  ],
+  "meropenem": [
+   "HK-65140",
+   "HK-40372",
+   "HK-66221",
+   "HK-61054",
+   "HK-68215"
+  ],
+  "mesalazine": [
+   "HK-63749",
+   "HK-37044",
+   "HK-65052",
+   "HK-51119",
+   "HK-59673"
+  ],
+  "metformin": [
+   "HK-27087",
+   "HK-50383",
+   "HK-68753",
+   "HK-65175",
+   "HK-66869"
+  ],
+  "methadone": [
+   "HK-01207",
+   "HK-65009"
+  ],
+  "methionine": [
+   "HK-17391",
+   "HK-57540",
+   "HK-62100",
+   "HK-60459",
+   "HK-58914"
+  ],
+  "methotrexate": [
+   "HK-29818",
+   "HK-67078",
+   "HK-16293",
+   "HK-36225",
+   "HK-27062"
+  ],
+  "methoxsalen": [
+   "HK-02975",
+   "HK-02976"
+  ],
+  "methoxy_polyethylene_glycol-epoetin_beta": [
+   "HK-56445",
+   "HK-56442",
+   "HK-56450",
+   "HK-56449",
+   "HK-56447"
+  ],
+  "methylene_blue": [
+   "HK-59020"
+  ],
+  "methylphenidate": [
+   "HK-60004",
+   "HK-62194",
+   "HK-65758",
+   "HK-68143",
+   "HK-66368"
+  ],
+  "methylprednisolone": [
+   "HK-64851",
+   "HK-63244",
+   "HK-63243",
+   "HK-00490",
+   "HK-00456"
+  ],
+  "metoclopramide": [
+   "HK-29060",
+   "HK-07173",
+   "HK-64279",
+   "HK-36811",
+   "HK-37155"
+  ],
+  "metoprolol": [
+   "HK-63791",
+   "HK-41198",
+   "HK-65191",
+   "HK-19885",
+   "HK-19220"
+  ],
+  "metronidazole": [
+   "HK-36789",
+   "HK-52934",
+   "HK-66809",
+   "HK-40240",
+   "HK-34300"
+  ],
+  "metyrapone": [
+   "HK-19150"
+  ],
+  "mianserin": [
+   "HK-55706",
+   "HK-55705",
+   "HK-58331",
+   "HK-58332"
+  ],
+  "micafungin": [
+   "HK-55160"
+  ],
+  "miconazole": [
+   "HK-45780",
+   "HK-68769",
+   "HK-45689",
+   "HK-18530",
+   "HK-57834"
+  ],
+  "midazolam": [
+   "HK-67778",
+   "HK-55150",
+   "HK-25854",
+   "HK-20343",
+   "HK-32941"
+  ],
+  "midecamycin": [
+   "HK-01565"
+  ],
+  "midodrine": [
+   "HK-68204",
+   "HK-68183",
+   "HK-67094"
+  ],
+  "milnacipran": [
+   "HK-68106",
+   "HK-68105"
+  ],
+  "milrinone": [
+   "HK-67864",
+   "HK-68587",
+   "HK-36347"
+  ],
+  "minocycline": [
+   "HK-40746",
+   "HK-40747"
+  ],
+  "minoxidil": [
+   "HK-52159",
+   "HK-52160",
+   "HK-52161",
+   "HK-64008",
+   "HK-65139"
+  ],
+  "mirtazapine": [
+   "HK-66562",
+   "HK-52381",
+   "HK-67333",
+   "HK-53225",
+   "HK-56412"
+  ],
+  "misoprostol": [
+   "HK-26808",
+   "HK-56461",
+   "HK-64599"
+  ],
+  "mitomycin": [
+   "HK-67642",
+   "HK-67641",
+   "HK-66821",
+   "HK-67651"
+  ],
+  "mitoxantrone": [
+   "HK-53817",
+   "HK-49349"
+  ],
+  "moclobemide": [
+   "HK-35868"
+  ],
+  "montelukast": [
+   "HK-67558",
+   "HK-67154",
+   "HK-68873",
+   "HK-61366",
+   "HK-64808"
+  ],
+  "moroctocog_alfa": [
+   "HK-66835",
+   "HK-66834",
+   "HK-66836"
+  ],
+  "morphine": [
+   "HK-28287",
+   "HK-64596",
+   "HK-64155",
+   "HK-45210",
+   "HK-40464"
+  ],
+  "moxidectin": [
+   "HK-55687"
+  ],
+  "moxifloxacin": [
+   "HK-65835",
+   "HK-68207",
+   "HK-65455",
+   "HK-53158",
+   "HK-46950"
+  ],
+  "mupirocin": [
+   "HK-28186",
+   "HK-33588",
+   "HK-55473",
+   "HK-55952",
+   "HK-65498"
+  ],
+  "mycophenolate_mofetil": [
+   "HK-44333",
+   "HK-41757",
+   "HK-62451",
+   "HK-59026",
+   "HK-65892"
+  ],
+  "mycophenolic_acid": [
+   "HK-51396",
+   "HK-51397",
+   "HK-65062",
+   "HK-65235",
+   "HK-67224"
+  ],
+  "naftidrofuryl": [
+   "HK-27160"
+  ],
+  "naftifine": [
+   "HK-68013",
+   "HK-63468",
+   "HK-66310",
+   "HK-59701",
+   "HK-66311"
+  ],
+  "naphazoline": [
+   "HK-42149",
+   "HK-64948",
+   "HK-54157",
+   "HK-17005",
+   "HK-01641"
+  ],
+  "naproxen": [
+   "HK-43951",
+   "HK-65797",
+   "HK-56618",
+   "HK-68279",
+   "HK-44905"
+  ],
+  "natalizumab": [
+   "HK-61519"
+  ],
+  "natamycin": [
+   "HK-41714"
+  ],
+  "nebivolol": [
+   "HK-67318",
+   "HK-68319",
+   "HK-65104",
+   "HK-59922"
+  ],
+  "nepafenac": [
+   "HK-67972",
+   "HK-57847"
+  ],
+  "neratinib": [
+   "HK-66416"
+  ],
+  "netarsudil": [
+   "HK-68269",
+   "HK-68150"
+  ],
+  "nevirapine": [
+   "HK-63478",
+   "HK-65069",
+   "HK-66786",
+   "HK-62889",
+   "HK-64848"
+  ],
+  "niacin": [
+   "HK-60373",
+   "HK-60374",
+   "HK-54177"
+  ],
+  "nicardipine": [
+   "HK-66577"
+  ],
+  "nicergoline": [
+   "HK-33548",
+   "HK-06209",
+   "HK-19045"
+  ],
+  "nilotinib": [
+   "HK-56797",
+   "HK-60833"
+  ],
+  "nimodipine": [
+   "HK-28973",
+   "HK-64672",
+   "HK-28974",
+   "HK-65564"
+  ],
+  "nintedanib": [
+   "HK-64605",
+   "HK-64604"
+  ],
+  "niraparib": [
+   "HK-65945",
+   "HK-67238",
+   "HK-68295",
+   "HK-68296"
+  ],
+  "nitrazepam": [
+   "HK-46067",
+   "HK-57864",
+   "HK-20882"
+  ],
+  "nitrofurantoin": [
+   "HK-05065",
+   "HK-43743",
+   "HK-50570",
+   "HK-43231",
+   "HK-50571"
+  ],
+  "nitroglycerin": [
+   "HK-21410",
+   "HK-17865",
+   "HK-53929",
+   "HK-42848",
+   "HK-58236"
+  ],
+  "nitroprusside": [
+   "HK-60715",
+   "HK-66823"
+  ],
+  "nonivamide": [
+   "HK-66440",
+   "HK-66526",
+   "HK-62002",
+   "HK-00349",
+   "HK-42348"
+  ],
+  "norepinephrine": [
+   "HK-62831",
+   "HK-64209",
+   "HK-68241",
+   "HK-65386",
+   "HK-66232"
+  ],
+  "norethisterone": [
+   "HK-58408",
+   "HK-53880",
+   "HK-49738",
+   "HK-59181",
+   "HK-22468"
+  ],
+  "norfloxacin": [
+   "HK-41225",
+   "HK-41226",
+   "HK-50199",
+   "HK-58792",
+   "HK-35834"
+  ],
+  "nortriptyline": [
+   "HK-19691",
+   "HK-19687"
+  ],
+  "nusinersen": [
+   "HK-65896"
+  ],
+  "nystatin": [
+   "HK-44908",
+   "HK-58764",
+   "HK-45763",
+   "HK-34420",
+   "HK-34392"
+  ],
+  "obinutuzumab": [
+   "HK-64100"
+  ],
+  "ocrelizumab": [
+   "HK-67765"
+  ],
+  "octreotide": [
+   "HK-32471",
+   "HK-33912",
+   "HK-44140",
+   "HK-62639",
+   "HK-68938"
+  ],
+  "ofatumumab": [
+   "HK-67210"
+  ],
+  "ofloxacin": [
+   "HK-66156",
+   "HK-47706",
+   "HK-49145",
+   "HK-62027",
+   "HK-64416"
+  ],
+  "olanzapine": [
+   "HK-53204",
+   "HK-60432",
+   "HK-57746",
+   "HK-66625",
+   "HK-62509"
+  ],
+  "olaparib": [
+   "HK-65987",
+   "HK-65988"
+  ],
+  "olmesartan": [
+   "HK-53022",
+   "HK-53023",
+   "HK-53024",
+   "HK-60989",
+   "HK-55166"
+  ],
+  "olodaterol": [
+   "HK-63776",
+   "HK-64356"
+  ],
+  "olopatadine": [
+   "HK-64757",
+   "HK-63185",
+   "HK-56385",
+   "HK-66243",
+   "HK-68781"
+  ],
+  "omalizumab": [
+   "HK-68678",
+   "HK-68676",
+   "HK-65301",
+   "HK-68679",
+   "HK-68680"
+  ],
+  "omeprazole": [
+   "HK-67684",
+   "HK-53339",
+   "HK-49774",
+   "HK-44354",
+   "HK-44353"
+  ],
+  "orlistat": [
+   "HK-67026",
+   "HK-61889",
+   "HK-44752",
+   "HK-67567",
+   "HK-61430"
+  ],
+  "orphenadrine": [
+   "HK-46326",
+   "HK-65487",
+   "HK-55766",
+   "HK-62231",
+   "HK-19321"
+  ],
+  "oteracil": [
+   "HK-67976",
+   "HK-67977",
+   "HK-61181",
+   "HK-61182"
+  ],
+  "oxaliplatin": [
+   "HK-55336",
+   "HK-63464",
+   "HK-62512",
+   "HK-57283",
+   "HK-59547"
+  ],
+  "oxcarbazepine": [
+   "HK-49918",
+   "HK-66355",
+   "HK-50215",
+   "HK-50007",
+   "HK-66356"
+  ],
+  "oxybutynin": [
+   "HK-66392",
+   "HK-40556",
+   "HK-61447",
+   "HK-66556",
+   "HK-61448"
+  ],
+  "oxymetazoline": [
+   "HK-01416",
+   "HK-51937",
+   "HK-52653",
+   "HK-51938",
+   "HK-43745"
+  ],
+  "oxyquinoline": [
+   "HK-22972"
+  ],
+  "oxytetracycline": [
+   "HK-33662",
+   "HK-11268",
+   "HK-02068"
+  ],
+  "ozanimod": [
+   "HK-67126",
+   "HK-67127"
+  ],
+  "paclitaxel": [
+   "HK-68100",
+   "HK-68817",
+   "HK-60886",
+   "HK-62459",
+   "HK-37867"
+  ],
+  "palbociclib": [
+   "HK-64836",
+   "HK-64837",
+   "HK-64838",
+   "HK-66989",
+   "HK-66990"
+  ],
+  "paliperidone": [
+   "HK-68512",
+   "HK-56192",
+   "HK-60142",
+   "HK-66467",
+   "HK-66867"
+  ],
+  "palivizumab": [
+   "HK-64445",
+   "HK-64446"
+  ],
+  "palmitic_acid": [
+   "HK-35445"
+  ],
+  "palonosetron": [
+   "HK-62549",
+   "HK-67549",
+   "HK-62573",
+   "HK-57102",
+   "HK-67828"
+  ],
+  "panitumumab": [
+   "HK-61371"
+  ],
+  "pantoprazole": [
+   "HK-44676",
+   "HK-45019",
+   "HK-63999",
+   "HK-59424",
+   "HK-64263"
+  ],
+  "pantothenic_acid": [
+   "HK-23023",
+   "HK-56452"
+  ],
+  "papain": [
+   "HK-33430",
+   "HK-33429",
+   "HK-20578",
+   "HK-25565",
+   "HK-01651"
+  ],
+  "papaverine": [
+   "HK-31756",
+   "HK-57993",
+   "HK-48161",
+   "HK-48162",
+   "HK-43434"
+  ],
+  "parecoxib": [
+   "HK-58234",
+   "HK-68735",
+   "HK-50467"
+  ],
+  "paroxetine": [
+   "HK-60712",
+   "HK-51960",
+   "HK-64700",
+   "HK-57617",
+   "HK-60625"
+  ],
+  "pazopanib": [
+   "HK-68611",
+   "HK-68625",
+   "HK-68006",
+   "HK-62096",
+   "HK-67932"
+  ],
+  "pegaspargase": [
+   "HK-67823"
+  ],
+  "pegfilgrastim": [
+   "HK-66770",
+   "HK-68176",
+   "HK-54933",
+   "HK-67124"
+  ],
+  "peginterferon_alfa-2a": [
+   "HK-51530",
+   "HK-51529"
+  ],
+  "pembrolizumab": [
+   "HK-64228"
+  ],
+  "pemetrexed": [
+   "HK-53331",
+   "HK-58016",
+   "HK-64687",
+   "HK-64688",
+   "HK-64649"
+  ],
+  "pemigatinib": [
+   "HK-67328",
+   "HK-67329",
+   "HK-67330"
+  ],
+  "penciclovir": [
+   "HK-57161"
+  ],
+  "pentobarbital": [
+   "HK-33177"
+  ],
+  "pentosan_polysulfate": [
+   "HK-60563"
+  ],
+  "pentoxyverine": [
+   "HK-67441",
+   "HK-51081",
+   "HK-47194",
+   "HK-61559",
+   "HK-46568"
+  ],
+  "peppermint_oil": [
+   "HK-20358",
+   "HK-03206"
+  ],
+  "perampanel": [
+   "HK-62764",
+   "HK-62762",
+   "HK-62763",
+   "HK-62761",
+   "HK-67556"
+  ],
+  "perflubutane": [
+   "HK-68595"
+  ],
+  "periciazine": [
+   "HK-56693",
+   "HK-56692"
+  ],
+  "perindopril": [
+   "HK-64135",
+   "HK-57450",
+   "HK-59753",
+   "HK-59826",
+   "HK-53853"
+  ],
+  "pertuzumab": [
+   "HK-62758",
+   "HK-67118",
+   "HK-67119"
+  ],
+  "phenazopyridine": [
+   "HK-49457",
+   "HK-62852",
+   "HK-61946",
+   "HK-16853",
+   "HK-61945"
+  ],
+  "pheniramine": [
+   "HK-67341",
+   "HK-17005",
+   "HK-50058",
+   "HK-51135",
+   "HK-66127"
+  ],
+  "phenobarbital": [
+   "HK-43727",
+   "HK-45682",
+   "HK-04992",
+   "HK-04966"
+  ],
+  "phenol": [
+   "HK-60791",
+   "HK-24269",
+   "HK-30489",
+   "HK-30491",
+   "HK-30493"
+  ],
+  "phenoxymethylpenicillin": [
+   "HK-33028"
+  ],
+  "phentermine": [
+   "HK-33022",
+   "HK-19830",
+   "HK-28878",
+   "HK-19829",
+   "HK-33023"
+  ],
+  "phenylalanine": [
+   "HK-57540",
+   "HK-62100",
+   "HK-60459",
+   "HK-58914",
+   "HK-67075"
+  ],
+  "phenylephrine": [
+   "HK-62569",
+   "HK-21044",
+   "HK-62518",
+   "HK-55640",
+   "HK-68575"
+  ],
+  "phenylpropanolamine": [
+   "HK-46548",
+   "HK-32127",
+   "HK-22813",
+   "HK-09487",
+   "HK-08611"
+  ],
+  "phenytoin": [
+   "HK-47301",
+   "HK-65291",
+   "HK-07909",
+   "HK-19932",
+   "HK-07913"
+  ],
+  "pibrentasvir": [
+   "HK-65653"
+  ],
+  "pilocarpine": [
+   "HK-16908",
+   "HK-09057",
+   "HK-17266",
+   "HK-16907",
+   "HK-09061",
+   "HK-09067"
+  ],
+  "pimecrolimus": [
+   "HK-51217"
+  ],
+  "pimozide": [
+   "HK-56613",
+   "HK-56612"
+  ],
+  "pinazepam": [
+   "HK-32129"
+  ],
+  "pioglitazone": [
+   "HK-57967",
+   "HK-47884",
+   "HK-47882",
+   "HK-58692",
+   "HK-56745"
+  ],
+  "pipemidic_acid": [
+   "HK-32130"
+  ],
+  "pipenzolate": [
+   "HK-22302"
+  ],
+  "piperacillin": [
+   "HK-56958",
+   "HK-58094",
+   "HK-49703",
+   "HK-60314",
+   "HK-65419"
+  ],
+  "piracetam": [
+   "HK-24251",
+   "HK-64022",
+   "HK-56575",
+   "HK-56811",
+   "HK-55474"
+  ],
+  "pirfenidone": [
+   "HK-67135",
+   "HK-67136"
+  ],
+  "piroxicam": [
+   "HK-44672",
+   "HK-61587",
+   "HK-37734",
+   "HK-66650",
+   "HK-35197"
+  ],
+  "pitolisant": [
+   "HK-67770",
+   "HK-67769"
+  ],
+  "plerixafor": [
+   "HK-60176",
+   "HK-67839"
+  ],
+  "polatuzumab_vedotin": [
+   "HK-66664",
+   "HK-67107"
+  ],
+  "polymyxin_b": [
+   "HK-02068",
+   "HK-41904",
+   "HK-53520",
+   "HK-30056",
+   "HK-52786"
+  ],
+  "polysorbate_80": [
+   "HK-63200"
+  ],
+  "polyvinyl_alcohol": [
+   "HK-57590",
+   "HK-57165",
+   "HK-57164",
+   "HK-39377",
+   "HK-57591"
+  ],
+  "ponatinib": [
+   "HK-66052",
+   "HK-66051"
+  ],
+  "posaconazole": [
+   "HK-67802",
+   "HK-56439",
+   "HK-68771"
+  ],
+  "potassium_acetate": [
+   "HK-65534",
+   "HK-61211",
+   "HK-65813",
+   "HK-50080",
+   "HK-67635"
+  ],
+  "potassium_bicarbonate": [
+   "HK-52788",
+   "HK-67636",
+   "HK-58057"
+  ],
+  "potassium_chloride": [
+   "HK-68379",
+   "HK-68298",
+   "HK-66819",
+   "HK-68416",
+   "HK-54904"
+  ],
+  "potassium_citrate": [
+   "HK-47513"
+  ],
+  "potassium_iodide": [
+   "HK-50400",
+   "HK-65456",
+   "HK-36743",
+   "HK-65084",
+   "HK-34060"
+  ],
+  "povidone": [
+   "HK-50769",
+   "HK-33056",
+   "HK-50536",
+   "HK-33055",
+   "HK-42957"
+  ],
+  "pramipexole": [
+   "HK-59657",
+   "HK-59658",
+   "HK-59656",
+   "HK-57251",
+   "HK-60728"
+  ],
+  "prasterone": [
+   "HK-66651"
+  ],
+  "prasugrel": [
+   "HK-66424",
+   "HK-66423"
+  ],
+  "pravastatin": [
+   "HK-60762",
+   "HK-60761",
+   "HK-52753",
+   "HK-52754",
+   "HK-52735"
+  ],
+  "prednisolone": [
+   "HK-66155",
+   "HK-30888",
+   "HK-55339",
+   "HK-62772",
+   "HK-66075"
+  ],
+  "prednisolone_acetate": [
+   "HK-19548",
+   "HK-24139",
+   "HK-67491",
+   "HK-67882"
+  ],
+  "prednisone": [
+   "HK-36262"
+  ],
+  "pregabalin": [
+   "HK-53029",
+   "HK-53026",
+   "HK-66282",
+   "HK-68026",
+   "HK-62124"
+  ],
+  "pretomanid": [
+   "HK-67657"
+  ],
+  "prilocaine": [
+   "HK-67286",
+   "HK-59758",
+   "HK-59439",
+   "HK-65470",
+   "HK-66145"
+  ],
+  "probenecid": [
+   "HK-57027",
+   "HK-16674"
+  ],
+  "procaine": [
+   "HK-66905"
+  ],
+  "procaine_benzylpenicillin": [
+   "HK-23022"
+  ],
+  "procarbazine": [
+   "HK-67277"
+  ],
+  "prochlorperazine": [
+   "HK-46144",
+   "HK-06335",
+   "HK-61940",
+   "HK-11609",
+   "HK-50611"
+  ],
+  "progesterone": [
+   "HK-44527",
+   "HK-34022",
+   "HK-64210",
+   "HK-61091",
+   "HK-51916"
+  ],
+  "propafenone": [
+   "HK-67615",
+   "HK-57117",
+   "HK-51473",
+   "HK-59678",
+   "HK-14516"
+  ],
+  "propofol": [
+   "HK-27322",
+   "HK-66287",
+   "HK-55671",
+   "HK-66286",
+   "HK-49677"
+  ],
+  "propranolol": [
+   "HK-50454",
+   "HK-45677",
+   "HK-45676",
+   "HK-33813",
+   "HK-16631"
+  ],
+  "propylene_glycol": [
+   "HK-59636",
+   "HK-61280",
+   "HK-67320"
+  ],
+  "propylthiouracil": [
+   "HK-47993",
+   "HK-04990",
+   "HK-59451"
+  ],
+  "protamine_sulfate": [
+   "HK-16886"
+  ],
+  "prucalopride": [
+   "HK-61189"
+  ],
+  "prulifloxacin": [
+   "HK-60581"
+  ],
+  "pseudoephedrine": [
+   "HK-50092",
+   "HK-62991",
+   "HK-64853",
+   "HK-50328",
+   "HK-44693"
+  ],
+  "pyrazinamide": [
+   "HK-34750",
+   "HK-06490",
+   "HK-26892"
+  ],
+  "pyridostigmine": [
+   "HK-03376",
+   "HK-03386",
+   "HK-56949",
+   "HK-67155",
+   "HK-56950"
+  ],
+  "quetiapine": [
+   "HK-52580",
+   "HK-58348",
+   "HK-58567",
+   "HK-57438",
+   "HK-65854"
+  ],
+  "rabeprazole": [
+   "HK-58509",
+   "HK-61618",
+   "HK-61506",
+   "HK-61507",
+   "HK-44936",
+   "HK-61530",
+   "HK-66164",
+   "HK-61082",
+   "HK-61619",
+   "HK-66342",
+   "HK-57911",
+   "HK-44935",
+   "HK-66163",
+   "HK-61529"
+  ],
+  "racecadotril": [
+   "HK-59223",
+   "HK-59228",
+   "HK-59227"
+  ],
+  "raloxifene": [
+   "HK-65669",
+   "HK-44728",
+   "HK-60424"
+  ],
+  "raltegravir": [
+   "HK-65872",
+   "HK-56630"
+  ],
+  "ramipril": [
+   "HK-55957",
+   "HK-57336",
+   "HK-36855",
+   "HK-36856",
+   "HK-55956"
+  ],
+  "ramucirumab": [
+   "HK-64422",
+   "HK-64421"
+  ],
+  "ranibizumab": [
+   "HK-65166",
+   "HK-68384",
+   "HK-63860"
+  ],
+  "ranitidine": [
+   "HK-41546",
+   "HK-60962",
+   "HK-55824"
+  ],
+  "ranolazine": [
+   "HK-63607",
+   "HK-63608",
+   "HK-63609"
+  ],
+  "rasagiline": [
+   "HK-67707",
+   "HK-68563",
+   "HK-60594",
+   "HK-68329",
+   "HK-68530"
+  ],
+  "rasburicase": [
+   "HK-49808"
+  ],
+  "ravulizumab": [
+   "HK-67383",
+   "HK-67382"
+  ],
+  "regadenoson": [
+   "HK-66576"
+  ],
+  "regorafenib": [
+   "HK-63304"
+  ],
+  "remdesivir": [
+   "HK-66766"
+  ],
+  "reserpine": [
+   "HK-15916"
+  ],
+  "resorcinol": [
+   "HK-63416",
+   "HK-30989",
+   "HK-30990"
+  ],
+  "revefenacin": [
+   "HK-68082"
+  ],
+  "ribavirin": [
+   "HK-37449"
+  ],
+  "ribociclib": [
+   "HK-65561"
+  ],
+  "rifabutin": [
+   "HK-38559"
+  ],
+  "rifampicin": [
+   "HK-28162",
+   "HK-30377",
+   "HK-28163",
+   "HK-22592",
+   "HK-61828"
+  ],
+  "rifaximin": [
+   "HK-61689",
+   "HK-64602"
+  ],
+  "rilpivirine": [
+   "HK-61376",
+   "HK-67299",
+   "HK-67300",
+   "HK-65696",
+   "HK-67403"
+  ],
+  "riluzole": [
+   "HK-42525",
+   "HK-67243"
+  ],
+  "rimegepant": [
+   "HK-67735",
+   "HK-67734"
+  ],
+  "ripretinib": [
+   "HK-67004"
+  ],
+  "risankizumab": [
+   "HK-68789",
+   "HK-68788",
+   "HK-67645",
+   "HK-67644"
+  ],
+  "risdiplam": [
+   "HK-67230"
+  ],
+  "risperidone": [
+   "HK-50822",
+   "HK-50823",
+   "HK-51064",
+   "HK-59970",
+   "HK-64107"
+  ],
+  "ritonavir": [
+   "HK-68558",
+   "HK-61528",
+   "HK-68129",
+   "HK-65831",
+   "HK-67683"
+  ],
+  "rivaroxaban": [
+   "HK-57861",
+   "HK-61395",
+   "HK-61396",
+   "HK-67833",
+   "HK-68572"
+  ],
+  "rivastigmine": [
+   "HK-43309",
+   "HK-56982",
+   "HK-56983",
+   "HK-62812",
+   "HK-60937"
+  ],
+  "rocuronium": [
+   "HK-67201",
+   "HK-64818",
+   "HK-59706",
+   "HK-67000",
+   "HK-67219"
+  ],
+  "romiplostim": [
+   "HK-63777"
+  ],
+  "ropeginterferon_alfa-2b": [
+   "HK-68864"
+  ],
+  "ropinirole": [
+   "HK-57966",
+   "HK-57965",
+   "HK-57964",
+   "HK-66674",
+   "HK-66478"
+  ],
+  "ropivacaine": [
+   "HK-42883",
+   "HK-42882",
+   "HK-42881"
+  ],
+  "rosuvastatin": [
+   "HK-65620",
+   "HK-65073",
+   "HK-64427",
+   "HK-61457",
+   "HK-61936"
+  ],
+  "rotigotine": [
+   "HK-55447",
+   "HK-55444",
+   "HK-55446",
+   "HK-55445"
+  ],
+  "roxadustat": [
+   "HK-68440",
+   "HK-68439"
+  ],
+  "roxithromycin": [
+   "HK-59865",
+   "HK-45894",
+   "HK-59862",
+   "HK-64539",
+   "HK-51356"
+  ],
+  "rufinamide": [
+   "HK-64099",
+   "HK-64097",
+   "HK-64098"
+  ],
+  "ruxolitinib": [
+   "HK-68437",
+   "HK-61973",
+   "HK-61972",
+   "HK-61974",
+   "HK-66148"
+  ],
+  "sacituzumab_govitecan": [
+   "HK-67599"
+  ],
+  "sacubitril": [
+   "HK-64630",
+   "HK-64631",
+   "HK-64632",
+   "HK-65170",
+   "HK-65171"
+  ],
+  "safinamide": [
+   "HK-67829"
+  ],
+  "salbutamol": [
+   "HK-34904",
+   "HK-02796",
+   "HK-30060",
+   "HK-53744",
+   "HK-35778"
+  ],
+  "salicylamide": [
+   "HK-07880",
+   "HK-26015",
+   "HK-31316",
+   "HK-07883",
+   "HK-07882"
+  ],
+  "salicylic_acid": [
+   "HK-61139",
+   "HK-59855",
+   "HK-62936",
+   "HK-58293",
+   "HK-61132"
+  ],
+  "salmeterol": [
+   "HK-35936",
+   "HK-51376",
+   "HK-51378",
+   "HK-48128",
+   "HK-44735"
+  ],
+  "sebelipase_alfa": [
+   "HK-68733"
+  ],
+  "selegiline": [
+   "HK-40417",
+   "HK-42589",
+   "HK-45361"
+  ],
+  "selenium": [
+   "HK-68022",
+   "HK-63846",
+   "HK-63948",
+   "HK-63847"
+  ],
+  "selinexor": [
+   "HK-67895"
+  ],
+  "selpercatinib": [
+   "HK-67999",
+   "HK-68000"
+  ],
+  "selumetinib": [
+   "HK-67363",
+   "HK-67362"
+  ],
+  "sennosides": [
+   "HK-68436",
+   "HK-66475",
+   "HK-68435",
+   "HK-45031",
+   "HK-68434"
+  ],
+  "serine": [
+   "HK-58387",
+   "HK-46283",
+   "HK-67075",
+   "HK-36470",
+   "HK-32746"
+  ],
+  "sertaconazole": [
+   "HK-50619",
+   "HK-51145"
+  ],
+  "sertraline": [
+   "HK-36350",
+   "HK-68926",
+   "HK-68989",
+   "HK-55760",
+   "HK-49970"
+  ],
+  "sevoflurane": [
+   "HK-40147",
+   "HK-57565",
+   "HK-56752"
+  ],
+  "silodosin": [
+   "HK-65579",
+   "HK-65580"
+  ],
+  "siltuximab": [
+   "HK-64496",
+   "HK-64495"
+  ],
+  "silver": [
+   "HK-61464",
+   "HK-63892"
+  ],
+  "simvastatin": [
+   "HK-34337",
+   "HK-58993",
+   "HK-58991",
+   "HK-51048",
+   "HK-51793"
+  ],
+  "siponimod": [
+   "HK-66876"
+  ],
+  "sirolimus": [
+   "HK-50220",
+   "HK-67922",
+   "HK-61049"
+  ],
+  "sodium_acetate": [
+   "HK-41852",
+   "HK-54146",
+   "HK-28245",
+   "HK-58675",
+   "HK-62680"
+  ],
+  "sodium_carbonate": [
+   "HK-20004"
+  ],
+  "sodium_citrate": [
+   "HK-28241",
+   "HK-65289",
+   "HK-49787",
+   "HK-47398",
+   "HK-46401"
+  ],
+  "sodium_fluoride": [
+   "HK-39024",
+   "HK-65535",
+   "HK-64379"
+  ],
+  "sodium_sulfate": [
+   "HK-35934",
+   "HK-41626",
+   "HK-64391",
+   "HK-38577",
+   "HK-68345"
+  ],
+  "sodium_tetradecyl_sulfate": [
+   "HK-62315",
+   "HK-62316",
+   "HK-62318",
+   "HK-62317"
+  ],
+  "sodium_zirconium_cyclosilicate": [
+   "HK-66490",
+   "HK-66489"
+  ],
+  "sofosbuvir": [
+   "HK-65046",
+   "HK-65775"
+  ],
+  "solriamfetol": [
+   "HK-68403",
+   "HK-68404"
+  ],
+  "sorafenib": [
+   "HK-55409",
+   "HK-67562",
+   "HK-66345",
+   "HK-68075",
+   "HK-68600"
+  ],
+  "sorbitol": [
+   "HK-28237",
+   "HK-62100",
+   "HK-57540",
+   "HK-55215",
+   "HK-59756"
+  ],
+  "sotalol": [
+   "HK-42292",
+   "HK-55173"
+  ],
+  "sotatercept": [
+   "HK-68795",
+   "HK-68794",
+   "HK-68792",
+   "HK-68793"
+  ],
+  "spectinomycin": [
+   "HK-35734",
+   "HK-54939",
+   "HK-36853"
+  ],
+  "spironolactone": [
+   "HK-68285",
+   "HK-67773",
+   "HK-63188",
+   "HK-61599",
+   "HK-19636"
+  ],
+  "stannous_fluoride": [
+   "HK-59808"
+  ],
+  "stavudine": [
+   "HK-63085",
+   "HK-63084"
+  ],
+  "streptomycin": [
+   "HK-62354",
+   "HK-11269"
+  ],
+  "sucralfate": [
+   "HK-44717",
+   "HK-56646",
+   "HK-36063",
+   "HK-41750",
+   "HK-49933"
+  ],
+  "sulbactam": [
+   "HK-27636",
+   "HK-32893",
+   "HK-56070",
+   "HK-56071",
+   "HK-56893"
+  ],
+  "sulfadiazine": [
+   "HK-33558",
+   "HK-40105",
+   "HK-40101",
+   "HK-18999",
+   "HK-19339"
+  ],
+  "sulfamethoxazole": [
+   "HK-43066",
+   "HK-21598",
+   "HK-09295",
+   "HK-59021",
+   "HK-65292"
+  ],
+  "sulfasalazine": [
+   "HK-61726",
+   "HK-53542",
+   "HK-60601",
+   "HK-43380",
+   "HK-25960"
+  ],
+  "sulpiride": [
+   "HK-65024",
+   "HK-53702",
+   "HK-40717",
+   "HK-52650",
+   "HK-44716"
+  ],
+  "sultamicillin": [
+   "HK-29807"
+  ],
+  "sumatriptan": [
+   "HK-39285",
+   "HK-58270",
+   "HK-54714",
+   "HK-58308",
+   "HK-54713",
+   "HK-55845"
+  ],
+  "sunitinib": [
+   "HK-55406",
+   "HK-55405",
+   "HK-67681",
+   "HK-67682",
+   "HK-68626"
+  ],
+  "tacrolimus": [
+   "HK-48907",
+   "HK-47471",
+   "HK-56596",
+   "HK-61331",
+   "HK-65222"
+  ],
+  "tadalafil": [
+   "HK-68929",
+   "HK-65022",
+   "HK-68281",
+   "HK-66745",
+   "HK-66950"
+  ],
+  "tagraxofusp": [
+   "HK-68070"
+  ],
+  "tamoxifen": [
+   "HK-19529",
+   "HK-36024",
+   "HK-29460",
+   "HK-64015",
+   "HK-65772"
+  ],
+  "tamsulosin": [
+   "HK-55161",
+   "HK-65304",
+   "HK-68071",
+   "HK-61598",
+   "HK-55731"
+  ],
+  "tazemetostat": [
+   "HK-68216"
+  ],
+  "tazobactam": [
+   "HK-66929",
+   "HK-65419",
+   "HK-65156",
+   "HK-60314",
+   "HK-52054",
+   "HK-57127",
+   "HK-64548",
+   "HK-58458",
+   "HK-64861",
+   "HK-65421",
+   "HK-58094",
+   "HK-62632",
+   "HK-49703",
+   "HK-58457"
+  ],
+  "tegafur": [
+   "HK-60904",
+   "HK-48265",
+   "HK-61181",
+   "HK-67976",
+   "HK-67977"
+  ],
+  "telbivudine": [
+   "HK-55624"
+  ],
+  "telmisartan": [
+   "HK-45841",
+   "HK-45842",
+   "HK-63206",
+   "HK-66969",
+   "HK-61881"
+  ],
+  "temozolomide": [
+   "HK-53861",
+   "HK-53858",
+   "HK-53859",
+   "HK-53860",
+   "HK-62467"
+  ],
+  "tenapanor": [
+   "HK-68017"
+  ],
+  "tenecteplase": [
+   "HK-49440"
+  ],
+  "tenofovir_alafenamide": [
+   "HK-65249",
+   "HK-64704",
+   "HK-64705",
+   "HK-65696",
+   "HK-65914"
+  ],
+  "tenofovir_disoproxil": [
+   "HK-56075",
+   "HK-57750",
+   "HK-65885",
+   "HK-65259",
+   "HK-64889"
+  ],
+  "tenoxicam": [
+   "HK-41325",
+   "HK-45225"
+  ],
+  "teprotumumab": [
+   "HK-68834"
+  ],
+  "terazosin": [
+   "HK-28971",
+   "HK-28970",
+   "HK-28972",
+   "HK-61096",
+   "HK-52958"
+  ],
+  "terbutaline": [
+   "HK-48007",
+   "HK-46514",
+   "HK-49032",
+   "HK-55764",
+   "HK-64629"
+  ],
+  "teriflunomide": [
+   "HK-63504",
+   "HK-68466"
+  ],
+  "teriparatide": [
+   "HK-59594",
+   "HK-68098"
+  ],
+  "terlipressin": [
+   "HK-66715",
+   "HK-68775",
+   "HK-68823",
+   "HK-66714",
+   "HK-61791"
+  ],
+  "tetracaine": [
+   "HK-54171",
+   "HK-63840"
+  ],
+  "tetracycline": [
+   "HK-05419",
+   "HK-20019",
+   "HK-30208",
+   "HK-36081",
+   "HK-34922"
+  ],
+  "tetryzoline": [
+   "HK-09488",
+   "HK-36160",
+   "HK-61047",
+   "HK-51055",
+   "HK-33055"
+  ],
+  "tezepelumab": [
+   "HK-68067",
+   "HK-68068"
+  ],
+  "theophylline": [
+   "HK-45955",
+   "HK-19359",
+   "HK-45832",
+   "HK-45831",
+   "HK-45954"
+  ],
+  "thiamine": [
+   "HK-11285",
+   "HK-08077",
+   "HK-43809",
+   "HK-26261",
+   "HK-62703"
+  ],
+  "threonine": [
+   "HK-32089",
+   "HK-57540",
+   "HK-62100",
+   "HK-58914",
+   "HK-64293"
+  ],
+  "thymol": [
+   "HK-33438",
+   "HK-31687",
+   "HK-33439",
+   "HK-54098",
+   "HK-59559"
+  ],
+  "thyrotropin_alfa": [
+   "HK-54932"
+  ],
+  "ticagrelor": [
+   "HK-61187",
+   "HK-64706",
+   "HK-67990",
+   "HK-68970",
+   "HK-68747"
+  ],
+  "ticarcillin": [
+   "HK-63780"
+  ],
+  "tildrakizumab": [
+   "HK-67428"
+  ],
+  "tiletamine": [
+   "HK-47383",
+   "HK-43831"
+  ],
+  "tioconazole": [
+   "HK-22534",
+   "HK-66184",
+   "HK-57887",
+   "HK-58904"
+  ],
+  "tiotropium": [
+   "HK-51091",
+   "HK-57639",
+   "HK-50663",
+   "HK-64356"
+  ],
+  "tipiracil": [
+   "HK-65361",
+   "HK-65360"
+  ],
+  "titanium_dioxide": [
+   "HK-01669"
+  ],
+  "tizanidine": [
+   "HK-62119",
+   "HK-39067"
+  ],
+  "tobramycin": [
+   "HK-19904",
+   "HK-17292",
+   "HK-50420",
+   "HK-67055",
+   "HK-49334"
+  ],
+  "tocilizumab": [
+   "HK-59200",
+   "HK-63771",
+   "HK-59202",
+   "HK-59201"
+  ],
+  "tolfenamic_acid": [
+   "HK-50767"
+  ],
+  "tolperisone": [
+   "HK-58152"
+  ],
+  "tolvaptan": [
+   "HK-59911",
+   "HK-59910",
+   "HK-65098",
+   "HK-65099",
+   "HK-65100"
+  ],
+  "topiramate": [
+   "HK-42315",
+   "HK-42316",
+   "HK-42317",
+   "HK-63959",
+   "HK-55963"
+  ],
+  "topotecan": [
+   "HK-60430",
+   "HK-67254",
+   "HK-68935"
+  ],
+  "trabectedin": [
+   "HK-59078"
+  ],
+  "tramadol": [
+   "HK-58224",
+   "HK-66387",
+   "HK-35707",
+   "HK-44533",
+   "HK-41704"
+  ],
+  "trametinib": [
+   "HK-64520",
+   "HK-64521"
+  ],
+  "tranexamic_acid": [
+   "HK-22792",
+   "HK-00708",
+   "HK-00715",
+   "HK-00704",
+   "HK-66670"
+  ],
+  "trastuzumab": [
+   "HK-64165",
+   "HK-50618",
+   "HK-67312",
+   "HK-66513",
+   "HK-66599"
+  ],
+  "trastuzumab_deruxtecan": [
+   "HK-67288"
+  ],
+  "trastuzumab_emtansine": [
+   "HK-63487",
+   "HK-63486"
+  ],
+  "travoprost": [
+   "HK-66019",
+   "HK-68280",
+   "HK-65922",
+   "HK-67675",
+   "HK-67670"
+  ],
+  "trazodone": [
+   "HK-55397",
+   "HK-55398",
+   "HK-26791",
+   "HK-62870",
+   "HK-60457"
+  ],
+  "tremelimumab": [
+   "HK-68211",
+   "HK-68210"
+  ],
+  "tretinoin": [
+   "HK-40621",
+   "HK-57254",
+   "HK-32929",
+   "HK-65326",
+   "HK-58939"
+  ],
+  "triamcinolone": [
+   "HK-53955",
+   "HK-63140",
+   "HK-64378",
+   "HK-57710",
+   "HK-65848"
+  ],
+  "triamterene": [
+   "HK-39897"
+  ],
+  "triazolam": [
+   "HK-00495"
+  ],
+  "triclocarban": [
+   "HK-56733",
+   "HK-01178"
+  ],
+  "trifarotene": [
+   "HK-67256"
+  ],
+  "trifluoperazine": [
+   "HK-67926",
+   "HK-09272",
+   "HK-09271",
+   "HK-67218",
+   "HK-67217"
+  ],
+  "trimebutine": [
+   "HK-54719",
+   "HK-61307",
+   "HK-61960"
+  ],
+  "trimethoprim": [
+   "HK-56426",
+   "HK-43066",
+   "HK-21598",
+   "HK-09295",
+   "HK-65292"
+  ],
+  "triprolidine": [
+   "HK-50191",
+   "HK-53400",
+   "HK-39992",
+   "HK-54211",
+   "HK-61804"
+  ],
+  "triptorelin": [
+   "HK-51941",
+   "HK-47655",
+   "HK-36917",
+   "HK-33730",
+   "HK-62788"
+  ],
+  "tropicamide": [
+   "HK-16911",
+   "HK-35610",
+   "HK-66512"
+  ],
+  "tropisetron": [
+   "HK-61647"
+  ],
+  "tryptophan": [
+   "HK-32089",
+   "HK-60459",
+   "HK-58914",
+   "HK-59165",
+   "HK-55215"
+  ],
+  "tyrosine": [
+   "HK-32089",
+   "HK-36470",
+   "HK-64293",
+   "HK-61211",
+   "HK-67504"
+  ],
+  "upadacitinib": [
+   "HK-67512",
+   "HK-66872",
+   "HK-68084"
+  ],
+  "uracil": [
+   "HK-48265",
+   "HK-60904"
+  ],
+  "ursodeoxycholic_acid": [
+   "HK-58164",
+   "HK-55453",
+   "HK-55451",
+   "HK-65027",
+   "HK-57786"
+  ],
+  "ustekinumab": [
+   "HK-68573",
+   "HK-60838",
+   "HK-62387",
+   "HK-65510",
+   "HK-62386"
+  ],
+  "vaborbactam": [
+   "HK-68215"
+  ],
+  "valine": [
+   "HK-62890",
+   "HK-57540",
+   "HK-62100",
+   "HK-60459",
+   "HK-58914"
+  ],
+  "valproic_acid": [
+   "HK-39205",
+   "HK-39203",
+   "HK-39204"
+  ],
+  "valsartan": [
+   "HK-62376",
+   "HK-60971",
+   "HK-49137",
+   "HK-49138",
+   "HK-66401"
+  ],
+  "vancomycin": [
+   "HK-68968",
+   "HK-65454",
+   "HK-33907",
+   "HK-68633",
+   "HK-64106"
+  ],
+  "vandetanib": [
+   "HK-62087",
+   "HK-62086"
+  ],
+  "varenicline": [
+   "HK-68451",
+   "HK-68452"
+  ],
+  "vasopressin": [
+   "HK-07904"
+  ],
+  "velpatasvir": [
+   "HK-65046",
+   "HK-65775"
+  ],
+  "venetoclax": [
+   "HK-65283",
+   "HK-65285",
+   "HK-65284"
+  ],
+  "verapamil": [
+   "HK-01261",
+   "HK-40707",
+   "HK-33700",
+   "HK-55703",
+   "HK-36259"
+  ],
+  "vernakalant": [
+   "HK-61191"
+  ],
+  "verteporfin": [
+   "HK-48053"
+  ],
+  "vilanterol": [
+   "HK-62693",
+   "HK-62694",
+   "HK-63414",
+   "HK-65911",
+   "HK-67942"
+  ],
+  "vildagliptin": [
+   "HK-57309",
+   "HK-63165",
+   "HK-68953",
+   "HK-68157",
+   "HK-68118"
+  ],
+  "vinblastine": [
+   "HK-51030",
+   "HK-36337"
+  ],
+  "vincristine": [
+   "HK-50937",
+   "HK-58669",
+   "HK-59252"
+  ],
+  "vinorelbine": [
+   "HK-67132",
+   "HK-60311",
+   "HK-67133",
+   "HK-60888",
+   "HK-56213"
+  ],
+  "vitamin_a": [
+   "HK-61308",
+   "HK-36206",
+   "HK-36205",
+   "HK-56452",
+   "HK-01178"
+  ],
+  "vitamin_e": [
+   "HK-01846",
+   "HK-61749",
+   "HK-36206",
+   "HK-36205",
+   "HK-38530"
+  ],
+  "vonoprazan": [
+   "HK-68731",
+   "HK-68732"
+  ],
+  "vortioxetine": [
+   "HK-63599",
+   "HK-63600",
+   "HK-63601"
+  ],
+  "voxilaprevir": [
+   "HK-65775"
+  ],
+  "warfarin": [
+   "HK-41422",
+   "HK-61443",
+   "HK-41423",
+   "HK-41421"
+  ],
+  "xylazine": [
+   "HK-56179"
+  ],
+  "xylometazoline": [
+   "HK-00219",
+   "HK-00195",
+   "HK-00187",
+   "HK-60495",
+   "HK-60243"
+  ],
+  "yohimbine": [
+   "HK-44766"
+  ],
+  "zanamivir": [
+   "HK-45843"
+  ],
+  "zanubrutinib": [
+   "HK-67529"
+  ],
+  "zidovudine": [
+   "HK-57407",
+   "HK-59602",
+   "HK-57408",
+   "HK-66688",
+   "HK-42757"
+  ],
+  "zinc_acetate": [
+   "HK-50080",
+   "HK-67643",
+   "HK-67635",
+   "HK-67687"
+  ],
+  "zinc_chloride": [
+   "HK-39024",
+   "HK-64379"
+  ],
+  "zinc_gluconate": [
+   "HK-66112",
+   "HK-65535"
+  ],
+  "zinc_oxide": [
+   "HK-19379",
+   "HK-38473",
+   "HK-48666",
+   "HK-47119",
+   "HK-50724"
+  ],
+  "zinc_sulfate": [
+   "HK-46124",
+   "HK-46363",
+   "HK-40758",
+   "HK-60855",
+   "HK-60482"
+  ],
+  "ziprasidone": [
+   "HK-48922",
+   "HK-48923",
+   "HK-48924",
+   "HK-48925",
+   "HK-63940"
+  ],
+  "zolazepam": [
+   "HK-47383",
+   "HK-43831"
+  ],
+  "zolbetuximab": [
+   "HK-68796"
+  ],
+  "zolmitriptan": [
+   "HK-62233",
+   "HK-43324"
+  ],
+  "zolpidem": [
+   "HK-36433",
+   "HK-56391",
+   "HK-56392",
+   "HK-65359",
+   "HK-61859"
+  ],
+  "zuclopenthixol": [
+   "HK-19861"
+  ]
+ }
+}

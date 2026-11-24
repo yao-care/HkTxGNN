@@ -7,13 +7,17 @@ dump_license_facts 依證據包算）產生的。gate（scripts/check_seo_docs.p
 狀態列與張數列跟事實一致，所以把驗證要用的部分存成快照放進 git。
 
 內容（鍵＝藥物頁檔名去 .md）：bundle（證據包鍵）、facts（事實層那一筆）、own（本藥所有許可證號：證據包裡每個含 records 的區塊的
-license_id，跟事實層同一套來源）；meta：產生日、Release tag。內容相同時檔案位元組相同（gzip mtime=0）。
+license_id，跟事實層同一套來源）；rows（2026-11-24 起：市場段落程式許可證表最多可列的 20 列，scripts/sync_license_tables.py
+的 program_rows，選列依 config/license_table_pins.json，gate 比頁面上的前 N 列）；mix（單一成分／複方張數與有效張數，依註冊名單成分欄個數；事實層 single_total 用「;;」切，
+本站每張都算單方，不能用；給 scripts/rewrite_license_counts.py）；meta：產生日、Release tag。內容相同時檔案位元組相同（gzip mtime=0）。
+寫完快照後跑 scripts/rewrite_license_counts.py（正文許可證張數依新事實改寫；--no-rewrite 不跑）。
 什麼時候跑：證據包或事實層變了之後（每週許可證排程與依成分重建都會自動跑，並把 snapshots/ 跟 docs/ 一起 commit）。
 用法（repo 根目錄，先還原 data/ 並在工作目錄跑 dump_license_facts）：
   python3 scripts/build_license_snapshot.py --ws <工作目錄> [--release-tag data-YYYYMMDD-HHMMSS]
 """
 import datetime as dt
 import gzip
+import importlib.util
 import json
 import re
 import sys
@@ -45,11 +49,19 @@ def own_ids(b):
     return sorted(out)
 
 
+def _load(name, path):
+    spec = importlib.util.spec_from_file_location(name, path)
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m
+
+
 def build(ws, tag=""):
     fp = Path(ws) / ".claude/cache/license_facts" / f"{C.SITE}.json"
     if not fp.exists():
         sys.exit(f"找不到事實層 {fp}（先跑 dump_license_facts）")
     fs = json.loads(fp.read_text(encoding="utf-8"))
+    S = _load("hk_sync_license_tables", ROOT / "scripts" / "sync_license_tables.py")
     drugs = {}
     for page in sorted((ROOT / "docs/_drugs").glob("*.md")):
         head = page.read_text(encoding="utf-8", errors="replace")[:3000]
@@ -59,9 +71,13 @@ def build(ws, tag=""):
         if b is None:
             continue
         fc = fs.get(key) or fs.get(page.stem) or fs.get(page.stem.replace("-", "_")) or fs.get(page.stem.replace("_", "-"))
-        drugs[page.stem] = {"bundle": key, "facts": fc, "own": own_ids(b)}
+        tf = b.get("tfda") or {}
+        rows, _ = S.program_rows(tf, fc, S.pins_for(page.stem))
+        drugs[page.stem] = {"bundle": key, "facts": fc, "own": own_ids(b), "rows": rows,
+                             "nrows": len(S.table_rows(tf.get("records") or [])), "mix": S.mix(tf.get("records") or [])}
     meta = {"built": dt.date.today().isoformat(), "release_tag": tag, "pages": len(drugs),
-            "rule": "own：證據包含 records 的區塊的 license_id；facts：tools/txgnn/.claude/dump_license_facts_20261021.py"}
+            "rule": "own：證據包含 records 的區塊的 license_id；facts：tools/txgnn/.claude/dump_license_facts_20261021.py；"
+                    "rows、mix：scripts/sync_license_tables.py"}
     OUT.parent.mkdir(exist_ok=True)
     raw = json.dumps({"meta": meta, "drugs": drugs}, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
     with gzip.GzipFile(OUT, "wb", mtime=0) as fh:
@@ -91,3 +107,7 @@ if __name__ == "__main__":
     if not re.fullmatch(r"(data-[\w-]+)?", tag):
         sys.exit("--release-tag 要是 data-… 的 tag")
     build(ws, tag)
+    # 2026-11-24：快照換了事實，正文許可證張數跟著改寫（每週排程是先套紀錄再建快照，所以這裡用新快照再跑一次；比照 Kr／My）
+    if "--no-rewrite" not in a:
+        import subprocess
+        subprocess.run([sys.executable, str(ROOT / "scripts" / "rewrite_license_counts.py")], check=True)

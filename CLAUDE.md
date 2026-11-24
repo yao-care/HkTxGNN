@@ -581,3 +581,24 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 例：abacavir「原適應症：本地許可證資料未記載適應症」→「香港藥劑製品註冊：10 張（有效 10 張）」；2026-11-19 改了 459 頁。
 由母目錄 `.claude/drug_meta_description.py --apply --site HkTxGNN` 產生（站上複本 `tools/txgnn/.claude/drug_meta_description.py --apply --root .`），改動記在 `docs/_data/description_local_log.json`（pages＝目前句尾與原字樣、entries＝每次改動前後整行，可還原）。快照數字變了重跑會換新數字；`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾會自動 --apply，`check_seo_docs.py` 跑 --check 擋「還是未記載句尾」或「數字跟快照不符」。只改 front matter，lastmod_fix 不算正文改動、last_modified_at 不動。
 同日修：`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾重算 local_facts 的 atexit 掛鉤在結束時取不到 `__file__`（NameError，之前其實沒跑成），改成先算好路徑。
+
+## 許可證表與正文張數改由程式維護（2026-11-24）
+
+用戶 2026-11-24 決定（跨站「許可證張數與狀態不再每週過期」）：每週許可證排程只改得到概覽表的狀態列／張數列，市場段落 AI 寫的自由格式許可證表與正文寫死的張數會跟著主管機關資料過期、被 checker 擋下。本站兩件都做：
+- A. 程式許可證表：`scripts/sync_license_tables.py` 把「## 香港上市資訊」的第一張表（2026-11-24 前 944 頁有 AI 表，813 頁是「| 許可證號 | 品名 | 劑型 | 核准適應症 |」、劑型與適應症欄全是「未記錄」）換成
+  「| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |」，資料是證據包 tfda.records（DrugList.xml；add_current_registrations.py 已補齊全部註冊），前後 `<!-- licenses:begin/end -->`。
+  選列：換表當時 AI 原表依序列的號存在 `config/license_table_pins.json`（944 頁），程式表照這個順序列（正文常寫「以上 5 張…」「另有 HK-xxxxx…」「其餘包括 …」，換成別的列會對不上）；
+  原本沒有表的 6 頁與補位照程式排序（單一成分在前、同類中有效在前、再依許可證號）。列數＝原表列數（最多 20），總數較多時表下加「上表列出其中 N 張（共 M 張）。」。
+  類別照註冊名單 activeIng 個數（「;」分隔，跟 2026-11-17 紀錄同一算法；成分欄的「-」照算）；狀態：有效／已註銷（license_status＝cancelled）；品名照原文，只把重量單位 KG 寫成小寫 kg（checker P5 會把大寫 KG 當知識圖譜字樣，monensin、moxidectin 2 頁）。
+  套用 950 頁（含 noindex；轉址頁不動）；表上原本錨著的 6 筆 `hk-row-20261117-*` 標 `status: superseded`＋`superseded_by`（紀錄保留、頁面不顯示框）。
+  接進：每週排程 `scripts/license_adapter.py` 的 sync_tables（全站重排；PAGE_NOTE 認程式說明句與標記）、`scripts/sync_notes_to_docs.py`（carry_block 移植舊頁程式區塊，寫完再跑 sync_license_tables）、
+  `scripts/build_license_snapshot.py`（快照另存 rows、nrows、mix），gate 第 18 項（`src/hktxgnn/regulatory/licenses.py`：程式區塊＝快照重算、市場段落沒有程式區塊以外的表）。
+- B. 正文張數程式改寫：`scripts/rewrite_license_counts.py`、`src/hktxgnn/regulatory/count_prose.py`（移植 Kr／My；中文句型）。只改阿拉伯數字＋「張」、角色明確的總數／有效／註銷數；
+  有保留、相對數（另有、其餘）、講資料或查詢、劑型或廠商子集（只看數字所在子句）、顯示筆數、partial 頁、查核紀錄 replacement／anchor 所在句不動；
+  單一成分／複方數字只驗不改（2026-11-17 前的報告依舊證據包「;;」切法把全部張數寫成「N 張有效單方」，只換數字會留下錯的「單方」字樣）；改成 0 張、原數字 0、中文數字（跟事實與程式表列數都不符時）不改、列出。
+  `apply_drug_reviews.py`（非 --check）結尾與 `build_license_snapshot.py` 寫完快照後自動跑；gate 第 22 項擋「再跑一次會變」。
+  2026-11-24 全站跑：現行正文的總數／有效／註銷數都已跟事實層一致（11-17 已更正），改寫 0 句；判斷不了的 31 句（30 頁，全是 single-combo）以 `--uncertain` 列進待查清單。
+  模擬事實變動（每頁有效 −1、註銷 +1）時改寫 41 句、39 頁，其餘句型照規則不動。
+- 驗證：checker 全量改前 0／改後 0；`--row-status` 0 列；gate exit 0；另寫的寬偵測（正文寫死張數或「全部有效」且跟事實層不符）剩 3 句，都是「其餘 N 張／另有 N 張」相對數（N＝總數減表列數，跟事實一致）。
+- 還沒解決：每週排程的 checker（3c）在 4b 重套紀錄（含正文張數改寫）之前跑，正文張數因新事實矛盾的頁仍會先被擋下；要由母目錄 license_refresh 把改寫提前或 checker 之後重跑才會真的不擋。
+  2026-11-17 的「香港共有 N 張含本藥成分的許可證（…）」全在查核紀錄 replacement 裡（135 句），照規則不改，事實變了要重發紀錄。
