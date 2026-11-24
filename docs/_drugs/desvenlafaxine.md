@@ -106,11 +106,11 @@ TxGNN 模型（深度學習）的高分可能反映模型學到的相關精神�
 
 <!-- licenses:end -->
 
-此外尚有 DESPAXOR 50mg（HK-68804）與 100mg（HK-68803）兩張許可證（Synco），共 9 張，皆為有效的單方許可證。
+此外尚有 DESPAXOR 50mg（HK-68804）與 100mg（HK-68803）兩張許可證（Synco），皆為單方許可證（張數與有效張數見本頁快速總覽與「香港上市資訊」的許可證表）。
 
 <!-- review:begin hk-lic-20261117-desvenlafaxine-1 -->
 
-> **查核更正（2026-11-17）**：原文為「共 7 張，皆為有效的單方許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69077、HK-69161 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+> **查核更正（2026-11-24）**：原文為「共 7 張，皆為有效的單方許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69077、HK-69161 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
 
 <!-- review:end hk-lic-20261117-desvenlafaxine-1 -->
 
@@ -150,7 +150,7 @@ TxGNN 模型（深度學習）的高分可能反映模型學到的相關精神�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「共 7 張，皆為有效的單方許可證」→「共 9 張，皆為有效的單方許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「共 7 張，皆為有效的單方許可證」→「皆為單方許可證（張數與有效張數見本頁快速總覽與「」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Pristiq Extended-Release (desvenlafaxine succinate) prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f43610c-f290-46ea-d186-4f998ed99fce) |
 
 <!-- review:end log -->

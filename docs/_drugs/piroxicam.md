@@ -81,11 +81,11 @@ TxGNN 模型的首位預測為罕見的骨骼發育異常症候群，但這些�
 
 ## 香港上市資訊
 
-下表為資料中列出的主要許可證（共 53 張含本藥成分的許可證，有效 52 張、已註銷 1 張，皆為單一成分），資料未載明核准適應症文字與劑型：
+下表為資料中列出的主要許可證（含本藥成分的許可證皆為單一成分；張數與有效張數見本頁快速總覽與「香港上市資訊」的許可證表），資料未載明核准適應症文字與劑型：
 
 <!-- review:begin hk-lic-20261117-piroxicam-1 -->
 
-> **查核更正（2026-11-17）**：原文為「下表為資料中列出的主要許可證（共至少 20 張，清單可能不完整），資料未載明核准適應症文字與劑型：」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 53 張含本藥成分的許可證（有效 52 張、已註銷 1 張；皆為單一成分）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+> **查核更正（2026-11-24）**：原文為「下表為資料中列出的主要許可證（共至少 20 張，清單可能不完整），資料未載明核准適應症文字與劑型：」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊；張數見本頁快速總覽與許可證表（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
 
 <!-- review:end hk-lic-20261117-piroxicam-1 -->
 
@@ -103,11 +103,11 @@ TxGNN 模型的首位預測為罕見的骨骼發育異常症候群，但這些�
 
 <!-- licenses:end -->
 
-上表所列 5 張許可證皆為單一成分製劑，狀態為現行註冊。
+上表所列許可證皆為單一成分製劑，狀態見表中「狀態」欄。
 
 <!-- review:begin hk-wording-20261124-piroxicam-1 -->
 
-> **查核更正（2026-11-24）**：原文為「所有已列許可證皆為單一成分製劑、狀態有效。」。措辭調整：原句講的是上表列出的 5 張許可證（確實都是單一成分、現行註冊），不是本藥全部許可證；本藥全部張數與有效張數見快速總覽。依據：[HkTxGNN 許可證事實層（衞生署藥劑製品註冊名單 DrugList.xml）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+> **查核更正（2026-11-24）**：原文為「所有已列許可證皆為單一成分製劑、狀態有效。」。措辭調整：原句講的是上表列出的許可證（確實都是單一成分、現行註冊），不是本藥全部許可證；本藥全部張數與有效張數見快速總覽。依據：[HkTxGNN 許可證事實層（衞生署藥劑製品註冊名單 DrugList.xml）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
 
 <!-- review:end hk-wording-20261124-piroxicam-1 -->
 
@@ -143,9 +143,9 @@ TxGNN 模型的首位預測為罕見的骨骼發育異常症候群，但這些�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「下表為資料中列出的主要許可證（共至少 20 張，清單可能不完整），資料未載明核准」→「下表為資料中列出的主要許可證（共 53 張含本藥成分的許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-24 | 「下表為資料中列出的主要許可證（共至少 20 張，清單可能不完整），資料未載明核准」→「下表為資料中列出的主要許可證（含本藥成分的許可證皆為單一成分」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4) |
-| 2026-11-24 | 措辭調整（限定為上表 5 張） | 更正 | [HkTxGNN 許可證事實層（衞生署藥劑製品註冊名單 DrugList.xml）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「所有已列許可證皆為單一成分製劑、狀態有效。」→「上表所列許可證皆為單一成分製劑，狀態見表中「狀態」欄。」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [HkTxGNN 許可證事實層（衞生署藥劑製品註冊名單 DrugList.xml）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

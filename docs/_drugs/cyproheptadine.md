@@ -99,7 +99,13 @@ Cyproheptadine 長期被視為此病的標準或參考用藥。不過現行指�
 
 ## 香港上市資訊
 
-香港共有 17 張有效許可證，皆為單方製劑，無已取消者。以下列出 5 張代表性許可證；資料中未載明劑型與核准適應症文字。
+香港含本藥成分的許可證包括單一成分與複方製劑（張數與有效張數見本頁快速總覽與「香港上市資訊」的許可證表）。以下列出 5 張代表性許可證；資料中未載明劑型與核准適應症文字。
+
+<!-- review:begin hk-lic-20261124b-cyproheptadine-1 -->
+
+> **查核更正（2026-11-24）**：原文為「香港共有 17 張有效許可證，皆為單方製劑，無已取消者。」。已更正：依衞生署藥物辦公室註冊名單的成分欄，含本藥成分的許可證包括單一成分與複方製劑；原句的單一成分／複方說法或張數跟註冊名單不符（舊報告依證據包以「;;」切成分，每張都算成單方）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124b-cyproheptadine-1 -->
 
 <!-- licenses:begin -->
 
@@ -146,11 +152,12 @@ Cyproheptadine 長期被視為此病的標準或參考用藥。不過現行指�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Cyproheptadine Hydrochloride Solution (cyproheptadine hydrochloride) prescribing information, Method Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1acfd050-6c07-a269-e063-6394a90a77e8) |
+| 2026-11-24 | 「香港共有 17 張有效許可證，皆為單方製劑，無已取消者。」→「香港含本藥成分的許可證包括單一成分與複方製劑（張數（含有效、」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

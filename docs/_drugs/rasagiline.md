@@ -86,11 +86,11 @@ PLA2G6 相關神經退化症（包含嬰兒型神經軸突營養不良與 PLA2G6
 
 <!-- licenses:end -->
 
-另有 HK-67847（RASAGILINA FARMOZ TABLETS 1MG）與 HK-69047（RASAGILINE SANDOZ TABLETS 1MG），共 7 張有效單一成分許可證。
+另有 HK-67847（RASAGILINA FARMOZ TABLETS 1MG）與 HK-69047（RASAGILINE SANDOZ TABLETS 1MG），皆為單一成分許可證（張數與有效張數見本頁快速總覽與「香港上市資訊」的許可證表）。
 
 <!-- review:begin hk-lic-20261117-rasagiline-1 -->
 
-> **查核更正（2026-11-17）**：原文為「另有 HK-67847（RASAGILINA FARMOZ TABLETS 1MG），共 6 張有效單一成分許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69047 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+> **查核更正（2026-11-24）**：原文為「另有 HK-67847（RASAGILINA FARMOZ TABLETS 1MG），共 6 張有效單一成分許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69047 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
 
 <!-- review:end hk-lic-20261117-rasagiline-1 -->
 
@@ -125,7 +125,7 @@ PLA2G6 相關神經退化症（包含嬰兒型神經軸突營養不良與 PLA2G6
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「另有 HK-67847（RASAGILINA FARMOZ TABLETS 1M」→「另有 HK-67847（RASAGILINA FARMOZ TABLETS 1M」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「另有 HK-67847（RASAGILINA FARMOZ TABLETS 1M」→「另有 HK-67847（RASAGILINA FARMOZ 」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Azilect (rasagiline mesylate) prescribing information, Teva Neuroscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a40d0e73-3f9f-4b01-979d-402c9cdaeb60) |
 
 <!-- review:end log -->

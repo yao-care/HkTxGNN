@@ -602,3 +602,17 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 - 驗證：checker 全量改前 0／改後 0；`--row-status` 0 列；gate exit 0；另寫的寬偵測（正文寫死張數或「全部有效」且跟事實層不符）剩 3 句，都是「其餘 N 張／另有 N 張」相對數（N＝總數減表列數，跟事實一致）。
 - 還沒解決：每週排程的 checker（3c）在 4b 重套紀錄（含正文張數改寫）之前跑，正文張數因新事實矛盾的頁仍會先被擋下；要由母目錄 license_refresh 把改寫提前或 checker 之後重跑才會真的不擋。
   2026-11-17 的「香港共有 N 張含本藥成分的許可證（…）」全在查核紀錄 replacement 裡（135 句），照規則不改，事實變了要重發紀錄。
+
+## 單一成分／複方舊錯句與查核紀錄更正文字的張數（2026-11-24 第二輪）
+
+用戶 2026-11-24 第二輪決定：第一輪列進待查的舊錯句逐句寫查核紀錄更正；查核紀錄更正文字裡寫死的張數／舊表筆數同 id 重發成不寫數字。單一成分／複方一律照註冊名單成分欄（證據包 tfda.records 的 ingredients＝activeIng，「;」分隔、個數 >1 為複方，跟 11-17 紀錄與程式表「類別」欄同一算法；事實層 single_total 用「;;」切、每張都算單方，不能用）。
+- 更正文字的張數（第 6 條）：11-17 的「香港共有 N 張含本藥成分的許可證（有效 V 張、已註銷 C 張；單一成分 S 張、複方 M 張）」135 筆，改成「香港含本藥成分的許可證{皆為單一成分／皆為複方／包括單一成分與複方製劑}，張數與有效張數見本頁快速總覽與「香港上市資訊」的許可證表」；
+  其他寫法 88 筆（「共 N 張…（V 張有效；HK-… 已註銷）」、快速總覽「核准數」格「N 張（…）」→「見上列「許可證數」（…）」、「共 N 張含本藥成分的許可證，…」、11-19 sulfadiazine「其餘 18 張」、11-24 piroxicam「上表所列 5 張」等）同樣改寫；
+  說明（note）裡的張數 13 筆一併改。哪張註銷、單一成分／複方、劑型等更正的事實內容保留（點名的許可證號照列）；舊表筆數「以下列出 5 張」改「部分」。都同 id 重發，前版存 history（reason：程式許可證表／正文張數改由程式維護）。
+  重發時順帶更正了更正文字本身的單方說法錯誤：carbinoxamine（全部複方）、lincomycin（MICOSPECTONE 獸用為複方）、medroxyprogesterone_acetate、polyvinyl_alcohol、fluorouracil（VERRUMAL 為複方）、aminocaproic_acid（兩張皆為複方）。
+- 舊錯句（第 1 條）：待查清單 31 句 single-combo（例 cinchocaine「19 張有效單方製劑許可證」，19 張全是複方）、第一輪偵測的 6 句「以上…皆為單方」（esculin、potassium_acetate、resorcinol、sulfamethoxazole；efmoroctocog_alfa、eftrenonacog_alfa 見下）、
+  另寫的寬偵測（正文講單一成分／複方的全稱或張數跟 mix 不符）另找到的同類句 40 句（另 aminocaproic_acid 1 句在 11-17 紀錄的更正文字裡，同 id 重發），共 77 筆 `hk-lic-20261124b-<藥>-N`（74 頁）更正；更正文字不寫死張數。待查清單 31 項標 resolved（附 record_ids）。
+- 判定成立、沒改：efmoroctocog_alfa、eftrenonacog_alfa、albutrepenonacog_alfa、lonoctocog_alfa、moroctocog_alfa、cetrorelix、sotatercept、terlipressin 的「均為單一成分」——
+  註冊名單成分欄是「-; <本藥>」（粉末＋溶劑包裝），只有一個有效成分；程式表「類別」照 activeIng 個數把這些列成「複方」，跟正文看起來矛盾，要不要讓 sync_license_tables.py 的 is_combo 不算「-」待用戶決定（會改 32 個證據包的 mix 與程式表類別）。
+- 張數樣板（第 5 條）：`src/hktxgnn/regulatory/site.py` 的 FIGURES（reviews_from_edits.py 寫紀錄說明用）改成不寫數字。
+- 驗證：checker 全量改前 0／改後 0（中途一版寫「含有效、已註銷張數」被 M3b 當成註銷說法擋 28 頁，改成「張數與有效張數」）；gate exit 0；寬偵測改前 95 句、改後 9 句（8 句是上面的「-」、1 句 trazodone「另有 6 張…（共 11 張）」相對數成立）。

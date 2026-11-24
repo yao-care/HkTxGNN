@@ -38,12 +38,12 @@ description: "Sevoflurane：預測新適應症為變異型心絞痛 (Prinzmetal 
 
 ## 一句話總結
 
-Sevoflurane 是一種吸入式全身麻醉劑，已在香港取得 4 張有效許可證。
+Sevoflurane 是一種吸入式全身麻醉劑，已在香港取得有效許可證（張數見本頁快速總覽與「香港上市資訊」的許可證表）。
 TxGNN 模型預測它可能對**變異型心絞痛 (Prinzmetal angina)** 有效，但目前**沒有任何臨床試驗或文獻**直接支持這個方向，僅屬模型預測。
 
 <!-- review:begin hk-lic-20261117-sevoflurane-1 -->
 
-> **查核更正（2026-11-17）**：原文為「已在香港取得 3 張有效許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69052 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+> **查核更正（2026-11-24）**：原文為「已在香港取得 3 張有效許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69052 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
 
 <!-- review:end hk-lic-20261117-sevoflurane-1 -->
 
@@ -143,7 +143,7 @@ ChEMBL（EMBL-EBI）收錄的 Sevoflurane 作用機轉（非官方翻譯）：�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「已在香港取得 3 張有效許可證」→「已在香港取得 4 張有效許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「已在香港取得 3 張有效許可證」→「已在香港取得有效許可證（張數見本頁快速總覽與「香港上市資訊」」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL1200694 (sevoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200694) |
 
 <!-- review:end log -->

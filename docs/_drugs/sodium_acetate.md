@@ -75,13 +75,19 @@ TxGNN 模型預測它可能對**先天性凝血酶原缺乏症 (Congenital Proth
 
 ## 香港上市資訊
 
-資料中顯示的許可證皆為單一成分登記，但核准適應症欄位均為空白。以下列出 5 張主要許可證（共 68 張含本藥成分的許可證，有效 67 張、已註銷 1 張，皆為複方）：
+資料中顯示的許可證皆為複方，但核准適應症欄位均為空白。以下列出部分主要許可證（含本藥成分的許可證皆為複方；張數與有效張數見本頁快速總覽與「香港上市資訊」的許可證表）：
 
 <!-- review:begin hk-lic-20261117-sodium_acetate-1 -->
 
-> **查核更正（2026-11-17）**：原文為「以下列出 5 張主要許可證（總數至少 20 張，清單可能不完整）：」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 68 張含本藥成分的許可證（有效 67 張、已註銷 1 張；皆為複方）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+> **查核更正（2026-11-24）**：原文為「以下列出 5 張主要許可證（總數至少 20 張，清單可能不完整）：」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊；張數見本頁快速總覽與許可證表（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
 
 <!-- review:end hk-lic-20261117-sodium_acetate-1 -->
+
+<!-- review:begin hk-lic-20261124b-sodium_acetate-1 -->
+
+> **查核更正（2026-11-24）**：原文為「資料中顯示的許可證皆為單一成分登記，但核准適應症欄位均為空白。」。已更正：依衞生署藥物辦公室註冊名單的成分欄，含本藥成分的許可證皆為複方；原句的單一成分／複方說法或張數跟註冊名單不符（舊報告依證據包以「;;」切成分，每張都算成單方）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124b-sodium_acetate-1 -->
 
 <!-- licenses:begin -->
 
@@ -128,7 +134,8 @@ TxGNN 模型預測它可能對**先天性凝血酶原缺乏症 (Congenital Proth
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「以下列出 5 張主要許可證（總數至少 20 張，清單可能不完整）：」→「以下列出 5 張主要許可證（共 68 張含本藥成分的許可證，」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-24 | 「以下列出 5 張主要許可證（總數至少 20 張，清單可能不完整）：」→「以下列出部分主要許可證（含本藥成分的許可證皆為複方；張數（含」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-24 | 「資料中顯示的許可證皆為單一成分登記，但核准適應症欄位均為空白。」→「資料中顯示的許可證皆為複方，但核准適應症欄位均為空白。」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

@@ -98,11 +98,11 @@ TxGNN 模型預測它可能對**典型僵人症候群 (Classic Stiff Person Synd
 
 <!-- licenses:end -->
 
-以上列出 5 張主要許可證，共 16 張有效許可證（含單方與複方；JARDIANCE、GLYXAMBI、JARDIANCE DUO 由 Boehringer Ingelheim (HK) Ltd 持有，其餘為其他公司的學名藥）。
+以上列出 5 張主要許可證，含本藥成分的許可證包括單方與複方（JARDIANCE、GLYXAMBI、JARDIANCE DUO 由 Boehringer Ingelheim (HK) Ltd 持有，其餘為其他公司的學名藥；張數見本頁快速總覽與「香港上市資訊」的許可證表）。
 
 <!-- review:begin hk-lic-20261117-empagliflozin-1 -->
 
-> **查核更正（2026-11-17）**：原文為「共 10 張有效許可證，均由 Boehringer Ingelheim (HK) Ltd 持有」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69040、HK-69041、HK-69189、HK-69190、HK-69229、HK-69230 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+> **查核更正（2026-11-24）**：原文為「共 10 張有效許可證，均由 Boehringer Ingelheim (HK) Ltd 持有」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69040、HK-69041、HK-69189、HK-69190、HK-69229、HK-69230 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
 
 <!-- review:end hk-lic-20261117-empagliflozin-1 -->
 
@@ -151,7 +151,7 @@ Opsismodysplasia 為由 INPPL1 突變造成的罕見骨骼發育不良，涉及 
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「共 10 張有效許可證，均由 Boehringer Ingelheim (HK)」→「共 16 張有效許可證（含單方與複方；JARDIANCE、GLYXAMBI、JA」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「共 10 張有效許可證，均由 Boehringer Ingelheim (HK)」→「含本藥成分的許可證包括單方與複方（JARDIANCE、GLY」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565) |
 
 <!-- review:end log -->

@@ -73,11 +73,11 @@ TxGNN 模型預測它可能對**黏液性禿髮 (alopecia mucinosa)** 有效，�
 
 ## 香港上市資訊
 
-本藥在香港目前為已上市狀態。下表列出其中 5 張單一成分許可證，香港共有 241 張含本藥成分的許可證（有效 238 張、已註銷 3 張；單一成分 37 張、複方 204 張）。資料庫中未記錄這些許可證的核准適應症與劑型文字。
+本藥在香港目前為已上市狀態。下表列出其中部分許可證，香港含本藥成分的許可證包括單一成分與複方製劑，張數與有效張數見本頁快速總覽與「香港上市資訊」的許可證表。資料庫中未記錄這些許可證的核准適應症與劑型文字。
 
 <!-- review:begin hk-lic-20261117-betamethasone-1 -->
 
-> **查核更正（2026-11-24）**：原文為「下表列出其中 5 張單一成分許可證，完整清單可能不止於此。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 241 張含本藥成分的許可證（有效 238 張、已註銷 3 張；單一成分 37 張、複方 204 張）（2026-11-17 核對；2026-11-24 依 2026-11-23 的註冊名單更新：HK-35263 BETAMETHASONE SYRUP 1MG/5ML 已不在現行名單）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk）](https://www.drugoffice.gov.hk/eps/do/en/doc/DrugList.xml)。
+> **查核更正（2026-11-24）**：原文為「下表列出其中 5 張單一成分許可證，完整清單可能不止於此。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊；含本藥成分的許可證包括單一成分與複方製劑，張數見本頁快速總覽與許可證表（2026-11-17 核對；2026-11-24 依 2026-11-23 的註冊名單更新：HK-35263 BETAMETHASONE SYRUP 1MG/5ML 已不在現行名單）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk）](https://www.drugoffice.gov.hk/eps/do/en/doc/DrugList.xml)。
 
 <!-- review:end hk-lic-20261117-betamethasone-1 -->
 
@@ -126,7 +126,7 @@ TxGNN 模型預測它可能對**黏液性禿髮 (alopecia mucinosa)** 有效，�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-24 | 「下表列出其中 5 張單一成分許可證，完整清單可能不止於此。」→「下表列出其中 5 張單一成分許可證，香港共有 241 張含本」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk）](https://www.drugoffice.gov.hk/eps/do/en/doc/DrugList.xml) |
+| 2026-11-24 | 「下表列出其中 5 張單一成分許可證，完整清單可能不止於此。」→「下表列出其中部分許可證，香港含本藥成分的許可證包括單一成分與」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk）](https://www.drugoffice.gov.hk/eps/do/en/doc/DrugList.xml) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66) |
 
 <!-- review:end log -->

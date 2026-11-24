@@ -38,8 +38,14 @@ predicted_indications: ["atypical coarctation of aorta", "aortic malformation", 
 
 ## 一句話總結
 
-Lactic acid（乳酸）是人體內源性代謝物，在香港有 7 張單一成分許可證，但本次整理的資料中未載明核准適應症。
+Lactic acid（乳酸）是人體內源性代謝物，在香港有含本藥成分的許可證（皆為複方；張數見本頁快速總覽與「香港上市資訊」的許可證表），但本次整理的資料中未載明核准適應症。
 TxGNN 模型預測它可能對**非典型主動脈縮窄 (atypical coarctation of aorta)** 有效，但目前**沒有任何臨床試驗與相關文獻**支持，僅為模型預測（L5）。
+
+<!-- review:begin hk-lic-20261124b-lactic_acid-1 -->
+
+> **查核更正（2026-11-24）**：原文為「Lactic acid（乳酸）是人體內源性代謝物，在香港有 7 張單一成分許可證，但本次整理的資料中未載明核准適應症。」。已更正：依衞生署藥物辦公室註冊名單的成分欄，含本藥成分的許可證皆為複方；原句的單一成分／複方說法或張數跟註冊名單不符（舊報告依證據包以「;;」切成分，每張都算成單方）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124b-lactic_acid-1 -->
 
 ---
 
@@ -135,11 +141,12 @@ ChEMBL（EMBL-EBI）收錄的 Lactic Acid 作用機轉（非官方翻譯）：�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559) |
+| 2026-11-24 | 「Lactic acid（乳酸）是人體內源性代謝物，在香港有 7 張單一成分許可證」→「Lactic acid（乳酸）是人體內源性代謝物，在香港有含」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

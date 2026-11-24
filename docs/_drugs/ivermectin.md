@@ -95,7 +95,13 @@ TxGNN 模型預測它可能對**外陰陰道念珠菌病 (Vulvovaginal Candidias
 
 <!-- licenses:end -->
 
-另有 3 張 TRI-HEART PLUS（獸用）許可證，共 8 張有效單方許可證。多數為獸用產品，其中 SOOLANTRA 為外用乳膏。許可證資料中未載明劑型與核准適應症。
+另有 3 張 TRI-HEART PLUS（獸用）許可證；含本藥成分的許可證包括單一成分與複方製劑（含與 pyrantel 的複方），張數與有效張數見本頁快速總覽與「香港上市資訊」的許可證表。多數為獸用產品，其中 SOOLANTRA 為外用乳膏。許可證資料中未載明劑型與核准適應症。
+
+<!-- review:begin hk-lic-20261124b-ivermectin-1 -->
+
+> **查核更正（2026-11-24）**：原文為「另有 3 張 TRI-HEART PLUS（獸用）許可證，共 8 張有效單方許可證。」。已更正：依衞生署藥物辦公室註冊名單的成分欄，含本藥成分的許可證包括單一成分與複方製劑；原句的單一成分／複方說法或張數跟註冊名單不符（舊報告依證據包以「;;」切成分，每張都算成單方）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124b-ivermectin-1 -->
 
 ---
 
@@ -127,11 +133,12 @@ TxGNN 模型預測它可能對**外陰陰道念珠菌病 (Vulvovaginal Candidias
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd) |
+| 2026-11-24 | 「另有 3 張 TRI-HEART PLUS（獸用）許可證，共 8 張有效單方許可」→「另有 3 張 TRI-HEART PLUS（獸用）許可證；含」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

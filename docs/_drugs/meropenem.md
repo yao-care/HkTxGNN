@@ -99,11 +99,11 @@ TxGNN 模型預測它可能對**細菌性關節炎 (bacterial arthritis)** 有�
 
 <!-- licenses:end -->
 
-目前共有 18 張許可證，全部有效。以上僅列出其中 5 張。
+目前含本藥成分的許可證張數與有效張數見本頁快速總覽與「香港上市資訊」的許可證表。以上僅列出其中 5 張。
 
 <!-- review:begin hk-lic-20261117-meropenem-1 -->
 
-> **查核更正（2026-11-17）**：原文為「目前共有 16 張許可證，全部有效」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69011、HK-69012 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+> **查核更正（2026-11-24）**：原文為「目前共有 16 張許可證，全部有效」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69011、HK-69012 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
 
 <!-- review:end hk-lic-20261117-meropenem-1 -->
 
@@ -135,7 +135,7 @@ TxGNN 模型預測它可能對**細菌性關節炎 (bacterial arthritis)** 有�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「目前共有 16 張許可證，全部有效」→「目前共有 18 張許可證，全部有效」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「目前共有 16 張許可證，全部有效」→「目前含本藥成分的許可證張數與有效張數見本頁快速總」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f) |
 
 <!-- review:end log -->

@@ -38,9 +38,15 @@ description: "Nitrofurantoin：預測新適應症為類風濕性關節炎 (Rheum
 
 ## 一句話總結
 
-Nitrofurantoin 是一種泌尿道抗菌藥，在香港有 5 張單一成分許可證。
+Nitrofurantoin 是一種泌尿道抗菌藥，在香港有含本藥成分的許可證（包括單一成分與複方製劑；張數見本頁快速總覽與「香港上市資訊」的許可證表）。
 TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** 有效。
 但目前**沒有任何臨床試驗**，文獻也只呈現藥物傷害（如肺纖維化）或間接關聯，缺乏療效證據，因此建議暫緩（Hold）。
+
+<!-- review:begin hk-lic-20261124b-nitrofurantoin-1 -->
+
+> **查核更正（2026-11-24）**：原文為「Nitrofurantoin 是一種泌尿道抗菌藥，在香港有 5 張單一成分許可證。」。已更正：依衞生署藥物辦公室註冊名單的成分欄，含本藥成分的許可證包括單一成分與複方製劑；原句的單一成分／複方說法或張數跟註冊名單不符（舊報告依證據包以「;;」切成分，每張都算成單方）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124b-nitrofurantoin-1 -->
 
 ## 快速總覽
 
@@ -98,7 +104,13 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 <!-- licenses:end -->
 
-5 張許可證均為單一成分且有效。
+含本藥成分的許可證包括單一成分與複方製劑（張數與有效張數見本頁快速總覽與「香港上市資訊」的許可證表）。
+
+<!-- review:begin hk-lic-20261124b-nitrofurantoin-2 -->
+
+> **查核更正（2026-11-24）**：原文為「5 張許可證均為單一成分且有效。」。已更正：依衞生署藥物辦公室註冊名單的成分欄，含本藥成分的許可證包括單一成分與複方製劑；原句的單一成分／複方說法或張數跟註冊名單不符（舊報告依證據包以「;;」切成分，每張都算成單方）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124b-nitrofurantoin-2 -->
 
 ## 安全性考量
 
@@ -131,11 +143,13 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5) |
+| 2026-11-24 | 「Nitrofurantoin 是一種泌尿道抗菌藥，在香港有 5 張單一成分許可證」→「Nitrofurantoin 是一種泌尿道抗菌藥，在香港有含」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「5 張許可證均為單一成分且有效。」→「含本藥成分的許可證包括單一成分與複方製劑（張數（含有效、已註」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

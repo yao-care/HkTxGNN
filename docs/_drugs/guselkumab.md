@@ -38,13 +38,13 @@ description: "Guselkumab：預測新適應症為藥物誘發性骨質疏鬆症�
 
 ## 一句話總結
 
-Guselkumab 是一種 IL-23 p19 抑制劑，在香港已有 5 張有效許可證，但許可證資料中未載明核准適應症。
+Guselkumab 是一種 IL-23 p19 抑制劑，在香港已有有效許可證（張數見本頁快速總覽與「香港上市資訊」的許可證表），但許可證資料中未載明核准適應症。
 TxGNN 模型預測它可能對**藥物誘發性骨質疏鬆症 (drug-induced osteoporosis)** 有效，
 目前**沒有臨床試驗，也沒有文獻**直接支持這個方向，僅有模型預測。
 
 <!-- review:begin hk-lic-20261117-guselkumab-1 -->
 
-> **查核更正（2026-11-17）**：原文為「在香港已有 2 張有效許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69234、HK-69235、HK-69236 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+> **查核更正（2026-11-24）**：原文為「在香港已有 2 張有效許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69234、HK-69235、HK-69236 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
 
 <!-- review:end hk-lic-20261117-guselkumab-1 -->
 
@@ -122,7 +122,7 @@ IL-23/IL-17 訊號路徑在發炎性骨流失中可能扮演角色，因此理�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「在香港已有 2 張有效許可證」→「在香港已有 5 張有效許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「在香港已有 2 張有效許可證」→「在香港已有有效許可證（張數見本頁快速總覽與「香港上市資訊」的」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Tremfya (guselkumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6dc9ae-1c4c-42d9-87aa-c315ecc51b56) |
 
 <!-- review:end log -->

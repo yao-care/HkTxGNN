@@ -91,11 +91,11 @@ TxGNN 模型預測它可能對**偏頭痛 (migraine disorder)** 有效，但目�
 
 <!-- licenses:end -->
 
-本藥在香港共有 12 張有效許可證，均為單一成分製劑，此處僅列出 5 張。
+本藥在香港有含本藥成分的有效許可證（張數見本頁快速總覽與「香港上市資訊」的許可證表），均為單一成分製劑，此處僅列出 5 張。
 
 <!-- review:begin hk-lic-20261117-apixaban-1 -->
 
-> **查核更正（2026-11-17）**：原文為「本藥在香港共有 10 張有效許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69237、HK-69238 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+> **查核更正（2026-11-24）**：原文為「本藥在香港共有 10 張有效許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69237、HK-69238 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
 
 <!-- review:end hk-lic-20261117-apixaban-1 -->
 
@@ -129,7 +129,7 @@ TxGNN 模型預測它可能對**偏頭痛 (migraine disorder)** 有效，但目�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「本藥在香港共有 10 張有效許可證」→「本藥在香港共有 12 張有效許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「本藥在香港共有 10 張有效許可證」→「本藥在香港有含本藥成分的有效許可證（張數見本頁快速總覽與「香」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25) |
 
 <!-- review:end log -->

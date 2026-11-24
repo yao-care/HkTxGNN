@@ -51,12 +51,12 @@ TxGNN 模型預測它可能對**乳突狀結膜炎 (Papillary Conjunctivitis)** 
 | 證據等級 | L5 |
 | 香港上市 | 上市中（有效許可證 44 張／共 45 張） |
 | 許可證數 | 45 張（有效 44 張） |
-| 核准數 | 45 張（有效 44 張；單一成分 44 張、複方 1 張） |
+| 核准數 | 見上列「許可證數」（包括單一成分與複方） |
 | 建議決策 | Hold |
 
 <!-- review:begin hk-lic-20261117-salbutamol-1 -->
 
-> **查核更正（2026-11-17）**：原文為「核准數／至少 20 張（單一成分許可證，清單可能不完整）」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 45 張含本藥成分的許可證（有效 44 張、已註銷 1 張；單一成分 44 張、複方 1 張）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+> **查核更正（2026-11-24）**：原文為「核准數／至少 20 張（單一成分許可證，清單可能不完整）」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊；張數見本頁快速總覽與許可證表（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
 
 <!-- review:end hk-lic-20261117-salbutamol-1 -->
 
@@ -78,11 +78,11 @@ TxGNN 模型預測它可能對**乳突狀結膜炎 (Papillary Conjunctivitis)** 
 
 ## 香港上市資訊
 
-以下為資料中列出的前 5 張單一成分許可證（共 45 張含本藥成分的許可證，有效 44 張、已註銷 1 張，單一成分 44 張、複方 1 張）。許可證資料中未載明核准適應症與劑型。
+以下為資料中列出的部分單一成分許可證（含本藥成分的許可證包括單一成分與複方製劑；張數與有效張數見本頁快速總覽與「香港上市資訊」的許可證表）。許可證資料中未載明核准適應症與劑型。
 
 <!-- review:begin hk-lic-20261117-salbutamol-2 -->
 
-> **查核更正（2026-11-17）**：原文為「以下為資料中列出的前 5 張單一成分許可證（總數至少 20 張，清單可能不完整）。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊：共有 45 張含本藥成分的許可證（有效 44 張、已註銷 1 張；單一成分 44 張、複方 1 張）（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
+> **查核更正（2026-11-24）**：原文為「以下為資料中列出的前 5 張單一成分許可證（總數至少 20 張，清單可能不完整）。」。已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊；張數見本頁快速總覽與許可證表（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)。
 
 <!-- review:end hk-lic-20261117-salbutamol-2 -->
 
@@ -146,8 +146,8 @@ TxGNN 模型預測它可能對**乳突狀結膜炎 (Papillary Conjunctivitis)** 
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「&#124; 核准數 &#124; 至少 20 張（單一成分許可證，清單可能不完整） &#124;」→「&#124; 核准數 &#124; 45 張（有效 44 張；單一成分 44 張」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
-| 2026-11-17 | 「以下為資料中列出的前 5 張單一成分許可證（總數至少 20 張，清單可能不完整）」→「以下為資料中列出的前 5 張單一成分許可證（共 45 張含本」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-24 | 「&#124; 核准數 &#124; 至少 20 張（單一成分許可證，清單可能不完整） &#124;」→「&#124; 核准數 &#124; 見上列「許可證數」（包括單一成分與複方） &#124;」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-24 | 「以下為資料中列出的前 5 張單一成分許可證（總數至少 20 張，清單可能不完整）」→「以下為資料中列出的部分單一成分許可證（含本藥成分的許可證包括」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d) |
 
 <!-- review:end log -->

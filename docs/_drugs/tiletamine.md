@@ -90,7 +90,13 @@ TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，但目前**沒有�
 
 <!-- licenses:end -->
 
-兩張許可證均為單方、有效，持證商為 VIRBAC H.K. TRADING LIMITED，且皆為獸醫用產品。
+上表許可證皆為複方（tiletamine 與 zolazepam），持證商為 VIRBAC H.K. TRADING LIMITED，且皆為獸醫用產品；狀態見表中「狀態」欄。
+
+<!-- review:begin hk-lic-20261124b-tiletamine-1 -->
+
+> **查核更正（2026-11-24）**：原文為「兩張許可證均為單方、有效，持證商為 VIRBAC H.K. TRADING LIMITED，且皆為獸醫用產品。」。已更正：依衞生署藥物辦公室註冊名單的成分欄，含本藥成分的許可證皆為複方；原句的單一成分／複方說法或張數跟註冊名單不符（舊報告依證據包以「;;」切成分，每張都算成單方）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124b-tiletamine-1 -->
 
 ---
 
@@ -114,6 +120,19 @@ TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，但目前**沒有�
 - 進行文獻與臨床試驗檢索，確認是否有支持或反駁的證據
 - 評估人用劑型與給藥途徑的可行性（目前僅有獸醫用注射劑）
 - 前臨床研究評估對睡眠結構的影響與精神副作用風險
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-24 | 「兩張許可證均為單方、有效，持證商為 VIRBAC H.K. TRADING LI」→「上表許可證皆為複方（tiletamine 與 zolazep」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

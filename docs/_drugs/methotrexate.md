@@ -52,12 +52,12 @@ TxGNN 模型排名第一的預測是**肺母細胞瘤 (Pulmonary Blastoma)**（�
 | 證據等級 | L5（無臨床試驗與文獻） |
 | 香港上市 | 上市中（有效許可證 9 張／共 9 張） |
 | 許可證數 | 9 張（有效 9 張） |
-| 核准數 | 9 張許可證（皆為單一成分） |
+| 核准數 | 見上列「許可證數」（皆為單一成分） |
 | 建議決策 | Hold |
 
 <!-- review:begin hk-lic-20261117-methotrexate-2 -->
 
-> **查核更正（2026-11-17）**：原文為「8 張許可證（皆為單一成分）」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69160 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+> **查核更正（2026-11-24）**：原文為「8 張許可證（皆為單一成分）」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69160 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
 
 <!-- review:end hk-lic-20261117-methotrexate-2 -->
 
@@ -122,11 +122,11 @@ TxGNN 模型排名第一的預測是**肺母細胞瘤 (Pulmonary Blastoma)**（�
 
 <!-- licenses:end -->
 
-共 9 張有效單一成分許可證，上表僅列出 5 張。
+含本藥成分的許可證皆為單一成分（張數見本頁快速總覽與「香港上市資訊」的許可證表），上表僅列出 5 張。
 
 <!-- review:begin hk-lic-20261117-methotrexate-1 -->
 
-> **查核更正（2026-11-17）**：原文為「共 8 張有效單一成分許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69160 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+> **查核更正（2026-11-24）**：原文為「共 8 張有效單一成分許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69160 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
 
 <!-- review:end hk-lic-20261117-methotrexate-1 -->
 
@@ -169,8 +169,8 @@ TxGNN 模型排名第一的預測是**肺母細胞瘤 (Pulmonary Blastoma)**（�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「共 8 張有效單一成分許可證」→「共 9 張有效單一成分許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
-| 2026-11-17 | 「8 張許可證（皆為單一成分）」→「9 張許可證（皆為單一成分）」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「共 8 張有效單一成分許可證」→「含本藥成分的許可證皆為單一成分（張數見本頁快速總覽與「香港上」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「8 張許可證（皆為單一成分）」→「見上列「許可證數」（皆為單一成分）」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e) |
 
 <!-- review:end log -->

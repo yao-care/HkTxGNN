@@ -128,7 +128,13 @@ TxGNN 模型預測排名第一的新適應症為腦小血管病變，但該預�
 
 <!-- licenses:end -->
 
-以上僅列出 5 張，共有 9 張有效單方許可證，皆由 Novartis Pharmaceuticals (HK) Limited 持有。
+以上僅列出部分；香港含本藥成分的許可證皆為複方（張數與有效張數見本頁快速總覽與「香港上市資訊」的許可證表），皆由 Novartis Pharmaceuticals (HK) Limited 持有。
+
+<!-- review:begin hk-lic-20261124b-sacubitril-1 -->
+
+> **查核更正（2026-11-24）**：原文為「以上僅列出 5 張，共有 9 張有效單方許可證，皆由 Novartis Pharmaceuticals (HK) Limited 持有。」。已更正：依衞生署藥物辦公室註冊名單的成分欄，含本藥成分的許可證皆為複方；原句的單一成分／複方說法或張數跟註冊名單不符（舊報告依證據包以「;;」切成分，每張都算成單方）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124b-sacubitril-1 -->
 
 ---
 
@@ -162,11 +168,12 @@ TxGNN 模型預測排名第一的新適應症為腦小血管病變，但該預�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c) |
+| 2026-11-24 | 「以上僅列出 5 張，共有 9 張有效單方許可證，皆由 Novartis Phar」→「以上僅列出部分；香港含本藥成分的許可證皆為複方（張數（含有效」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

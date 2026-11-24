@@ -110,11 +110,11 @@ TxGNN 模型預測分數最高的新適應症為**多形性高黏滯症候群 (P
 
 <!-- licenses:end -->
 
-香港共有 10 張含本藥成分的許可證（有效 9 張、已註銷 1 張；皆為單一成分），上表僅列前 5 張。其餘包括口服錠劑、靜脈注射劑與多款眼藥水。
+香港含本藥成分的許可證皆為單一成分，張數與有效張數見本頁快速總覽與「香港上市資訊」的許可證表，上表僅列其中部分。其餘包括口服錠劑、靜脈注射劑與多款眼藥水。
 
 <!-- review:begin hk-lic-20261124-moxifloxacin-1 -->
 
-> **查核更正（2026-11-24）**：原文為「本藥共有 10 張有效許可證（皆為單一成分），上表僅列前 5 張。」。依衞生署藥劑製品註冊名單（2026-11-23）：10 張許可證中 HK-60892（MOXICIN EYE DROPS 0.5%）已不在現行名單，有效 9 張。現行數字見快速總覽。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk）](https://www.drugoffice.gov.hk/eps/do/en/doc/DrugList.xml)。
+> **查核更正（2026-11-24）**：原文為「本藥共有 10 張有效許可證（皆為單一成分），上表僅列前 5 張。」。依衞生署藥劑製品註冊名單（2026-11-23）：HK-60892（MOXICIN EYE DROPS 0.5%）已不在現行名單。現行張數與有效張數見快速總覽。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk）](https://www.drugoffice.gov.hk/eps/do/en/doc/DrugList.xml)。
 
 <!-- review:end hk-lic-20261124-moxifloxacin-1 -->
 
@@ -153,7 +153,7 @@ TxGNN 模型預測分數最高的新適應症為**多形性高黏滯症候群 (P
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Moxifloxacin (moxifloxacin hydrochloride) prescribing information, Kesin Pharma Corportation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6d3ff1-e853-a3d8-e063-6394a90a18f5) |
-| 2026-11-24 | 有效許可證張數：10 → 9 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk）](https://www.drugoffice.gov.hk/eps/do/en/doc/DrugList.xml) |
+| 2026-11-24 | 「本藥共有 10 張有效許可證（皆為單一成分），上表僅列前 5 張。」→「香港含本藥成分的許可證皆為單一成分，張數與有效張數見本頁快速」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk）](https://www.drugoffice.gov.hk/eps/do/en/doc/DrugList.xml) |
 
 <!-- review:end log -->
 

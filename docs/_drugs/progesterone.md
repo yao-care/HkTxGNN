@@ -98,11 +98,11 @@ TxGNN 模型預測它可能對**乳房纖維囊腫病 (breast fibrocystic diseas
 
 <!-- licenses:end -->
 
-目前香港共有 10 張有效的單一成分許可證，上列為其中 5 張。
+目前香港含本藥成分的許可證皆為單一成分（張數見本頁快速總覽與「香港上市資訊」的許可證表），上列為其中 5 張。
 
 <!-- review:begin hk-lic-20261117-progesterone-1 -->
 
-> **查核更正（2026-11-17）**：原文為「目前香港共有 9 張有效的單一成分許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69288 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+> **查核更正（2026-11-24）**：原文為「目前香港共有 9 張有效的單一成分許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69288 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
 
 <!-- review:end hk-lic-20261117-progesterone-1 -->
 
@@ -133,7 +133,7 @@ TxGNN 模型預測它可能對**乳房纖維囊腫病 (breast fibrocystic diseas
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「目前香港共有 9 張有效的單一成分許可證」→「目前香港共有 10 張有效的單一成分許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「目前香港共有 9 張有效的單一成分許可證」→「目前香港含本藥成分的許可證皆為單一成分（張數見本頁快速總覽與」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1) |
 
 <!-- review:end log -->

@@ -38,9 +38,15 @@ description: "Uracil：預測新適應症為Lipoma of colon（證據等級 L5）
 
 ## 一句話總結
 
-Uracil（尿嘧啶）在香港有 2 張單一成分許可證，但本報告彙整的許可證資料未載明原核准適應症。
+Uracil（尿嘧啶）在香港有含本藥成分的許可證（皆為 tegafur 與 uracil 的複方；張數見本頁快速總覽與「香港上市資訊」的許可證表），但本報告彙整的許可證資料未載明原核准適應症。
 目前有 1 個相關臨床試驗登記和 20 篇文獻，但臨床試驗並未測試 uracil。
 文獻中的療效證據來自 **tegafur-uracil 複方（UFT）**，不是 uracil 單方。
+
+<!-- review:begin hk-lic-20261124b-uracil-1 -->
+
+> **查核更正（2026-11-24）**：原文為「Uracil（尿嘧啶）在香港有 2 張單一成分許可證，但本報告彙整的許可證資料未載明原核准適應症。」。已更正：依衞生署藥物辦公室註冊名單的成分欄，含本藥成分的許可證皆為複方；原句的單一成分／複方說法或張數跟註冊名單不符（舊報告依證據包以「;;」切成分，每張都算成單方）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124b-uracil-1 -->
 
 ---
 
@@ -106,13 +112,19 @@ Uracil（尿嘧啶）在香港有 2 張單一成分許可證，但本報告彙�
 
 <!-- licenses:end -->
 
-兩張許可證中 HK-48265（UNITORAL CAP）已註銷、另一張有效，均登記為單一成分產品。本次彙整的資料未包含核准適應症文字，因此無法確認原適應症。
+兩張許可證中 HK-48265（UNITORAL CAP）已註銷、另一張有效，皆為 tegafur 與 uracil 的複方製劑。本次彙整的資料未包含核准適應症文字，因此無法確認原適應症。
 
 <!-- review:begin hk-lic-20261117-uracil-1 -->
 
 > **查核更正（2026-11-17）**：原文為「兩張許可證目前皆為有效狀態，」。已更正：HK-48265 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
 
 <!-- review:end hk-lic-20261117-uracil-1 -->
+
+<!-- review:begin hk-lic-20261124b-uracil-2 -->
+
+> **查核更正（2026-11-24）**：原文為「均登記為單一成分產品。」。已更正：依衞生署藥物辦公室註冊名單的成分欄，含本藥成分的許可證皆為複方；原句的單一成分／複方說法或張數跟註冊名單不符（舊報告依證據包以「;;」切成分，每張都算成單方）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124b-uracil-2 -->
 
 ---
 
@@ -149,6 +161,8 @@ Uracil（尿嘧啶）在香港有 2 張單一成分許可證，但本報告彙�
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-17 | 「兩張許可證目前皆為有效狀態，」→「兩張許可證中 HK-48265（UNITORAL CAP）已註銷、另一張有效，」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-24 | 「Uracil（尿嘧啶）在香港有 2 張單一成分許可證，但本報告彙整的許可證資料未」→「Uracil（尿嘧啶）在香港有含本藥成分的許可證（皆為 te」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「均登記為單一成分產品。」→「皆為 tegafur 與 uracil 的複方製劑。」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

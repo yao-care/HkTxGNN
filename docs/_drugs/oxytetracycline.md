@@ -81,7 +81,13 @@ ChEMBL（EMBL-EBI）收錄的 Oxytetracycline 作用機轉（非官方翻譯）�
 
 <!-- licenses:end -->
 
-三張許可證皆為單方，狀態有效。其中前兩張從品名看是獸醫用注射劑，不屬於人用藥；人用的只有眼用軟膏（輝瑞）。眼用軟膏的劑型與核准適應症資料不完整。這些許可證都不是鼻竇炎用途。
+上表許可證包括單一成分與複方製劑（OXTRA INJ (VET) 另含 lignocaine、TERRAMYCIN OPHTHALMIC OINT 另含 polymyxin B），狀態見表中「狀態」欄。其中前兩張從品名看是獸醫用注射劑，不屬於人用藥；人用的只有眼用軟膏（輝瑞）。眼用軟膏的劑型與核准適應症資料不完整。這些許可證都不是鼻竇炎用途。
+
+<!-- review:begin hk-lic-20261124b-oxytetracycline-1 -->
+
+> **查核更正（2026-11-24）**：原文為「三張許可證皆為單方，狀態有效。」。已更正：依衞生署藥物辦公室註冊名單的成分欄，含本藥成分的許可證包括單一成分與複方製劑；原句的單一成分／複方說法或張數跟註冊名單不符（舊報告依證據包以「;;」切成分，每張都算成單方）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124b-oxytetracycline-1 -->
 
 ## 安全性考量
 
@@ -113,11 +119,12 @@ ChEMBL（EMBL-EBI）收錄的 Oxytetracycline 作用機轉（非官方翻譯）�
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517) |
+| 2026-11-24 | 「三張許可證皆為單方，狀態有效。」→「上表許可證包括單一成分與複方製劑（OXTRA INJ (VE」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

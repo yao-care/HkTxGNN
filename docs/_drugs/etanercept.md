@@ -105,11 +105,11 @@ Etanercept（依那西普）是一種 TNF 抑制劑，原本用於乾癬性關�
 
 <!-- licenses:end -->
 
-另有 2 張 ERELZI 許可證（HK-67842、HK-67840），共 10 張有效許可證。
+另有 2 張 ERELZI 許可證（HK-67842、HK-67840），張數與有效張數見本頁快速總覽與「香港上市資訊」的許可證表。
 
 <!-- review:begin hk-lic-20261117-etanercept-1 -->
 
-> **查核更正（2026-11-17）**：原文為「共 7 張有效許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69256、HK-69257、HK-69258 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+> **查核更正（2026-11-24）**：原文為「共 7 張有效許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69256、HK-69257、HK-69258 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
 
 <!-- review:end hk-lic-20261117-etanercept-1 -->
 
@@ -157,7 +157,7 @@ Etanercept（依那西普）是一種 TNF 抑制劑，原本用於乾癬性關�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「共 7 張有效許可證」→「共 10 張有效許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「共 7 張有效許可證」→「張數與有效張數見本頁快速總覽與「香港上市資訊」的」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f) |
 
 <!-- review:end log -->

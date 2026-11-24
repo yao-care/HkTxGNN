@@ -38,8 +38,14 @@ description: "Hesperidin：預測新適應症為骨髓增生性腫瘤 (myeloprol
 
 ## 一句話總結
 
-Hesperidin（橙皮苷）是一種柑橘類黃酮，在香港已有 17 張單方製劑許可證。
+Hesperidin（橙皮苷）是一種柑橘類黃酮，在香港已有含本藥成分的許可證（皆為複方；張數見本頁快速總覽與「香港上市資訊」的許可證表）。
 TxGNN 模型預測它可能對**骨髓增生性腫瘤 (Myeloproliferative Neoplasm)** 有效，但目前**沒有臨床試驗**，僅有 **1 篇電腦模擬文獻**，證據非常有限。
+
+<!-- review:begin hk-lic-20261124b-hesperidin-1 -->
+
+> **查核更正（2026-11-24）**：原文為「Hesperidin（橙皮苷）是一種柑橘類黃酮，在香港已有 17 張單方製劑許可證。」。已更正：依衞生署藥物辦公室註冊名單的成分欄，含本藥成分的許可證皆為複方；原句的單一成分／複方說法或張數跟註冊名單不符（舊報告依證據包以「;;」切成分，每張都算成單方）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124b-hesperidin-1 -->
 
 ---
 
@@ -95,7 +101,13 @@ TxGNN 模型預測它可能對**骨髓增生性腫瘤 (Myeloproliferative Neopla
 
 <!-- licenses:end -->
 
-共 17 張有效單方許可證，以上列出 5 張。
+香港含本藥成分的許可證皆為複方，以上列出部分；張數與有效張數見本頁快速總覽與「香港上市資訊」的許可證表。
+
+<!-- review:begin hk-lic-20261124b-hesperidin-2 -->
+
+> **查核更正（2026-11-24）**：原文為「共 17 張有效單方許可證，以上列出 5 張。」。已更正：依衞生署藥物辦公室註冊名單的成分欄，含本藥成分的許可證皆為複方；原句的單一成分／複方說法或張數跟註冊名單不符（舊報告依證據包以「;;」切成分，每張都算成單方）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124b-hesperidin-2 -->
 
 ---
 
@@ -112,6 +124,20 @@ TxGNN 模型預測它可能對**骨髓增生性腫瘤 (Myeloproliferative Neopla
 - 取得香港許可證的仿單，確認核准適應症、警語與禁忌
 - 進行細胞株與動物模型的前臨床驗證，並確認可達到的組織藥物濃度
 - 不過也有研究指出 C7 位的 rutinoside 結構可能降低類黃酮促細胞凋亡的活性，需一併評估。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-24 | 「Hesperidin（橙皮苷）是一種柑橘類黃酮，在香港已有 17 張單方製劑許可」→「Hesperidin（橙皮苷）是一種柑橘類黃酮，在香港已有含」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「共 17 張有效單方許可證，以上列出 5 張。」→「香港含本藥成分的許可證皆為複方，以上列出部分；張數（含有效、」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

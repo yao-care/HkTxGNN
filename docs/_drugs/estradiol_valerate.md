@@ -115,7 +115,13 @@ TxGNN 的其他高分預測多數缺乏實質證據：
 
 <!-- licenses:end -->
 
-兩張許可證皆為單一成分製劑、狀態有效。
+上表許可證包括單一成分與複方製劑（QLAIRA TAB 另含 dienogest），狀態見表中「狀態」欄。
+
+<!-- review:begin hk-lic-20261124b-estradiol_valerate-1 -->
+
+> **查核更正（2026-11-24）**：原文為「兩張許可證皆為單一成分製劑、狀態有效。」。已更正：依衞生署藥物辦公室註冊名單的成分欄，含本藥成分的許可證包括單一成分與複方製劑；原句的單一成分／複方說法或張數跟註冊名單不符（舊報告依證據包以「;;」切成分，每張都算成單方）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124b-estradiol_valerate-1 -->
 
 ---
 
@@ -154,11 +160,12 @@ TxGNN 的其他高分預測多數缺乏實質證據：
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Delestrogen (estradiol valerate) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8f94df9-0692-4462-a7f0-fe019a0a3f07) |
+| 2026-11-24 | 「兩張許可證皆為單一成分製劑、狀態有效。」→「上表許可證包括單一成分與複方製劑（QLAIRA TAB 另含」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

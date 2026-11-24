@@ -142,11 +142,11 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，
 
 **理由：**
 - 有 2 個直接針對脂肪肉瘤的已完成單一藥物 Phase 2 試驗，加上軟組織肉瘤的相關隨機試驗，方向有支持；但缺乏脂肪肉瘤專屬的 Phase 3 證據，且 Pazopanib 在軟組織肉瘤的標示一般不含脂肪肉瘤。
-- 香港已有 6 張有效單一成分許可證，但資料中未載明核准適應症，也缺少仿單警語與禁忌。
+- 香港已有有效的單一成分許可證（張數見本頁快速總覽與「香港上市資訊」的許可證表），但資料中未載明核准適應症，也缺少仿單警語與禁忌。
 
 <!-- review:begin hk-lic-20261117-pazopanib-1 -->
 
-> **查核更正（2026-11-17）**：原文為「香港已有 5 張有效單一成分許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69046 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+> **查核更正（2026-11-24）**：原文為「香港已有 5 張有效單一成分許可證」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69046 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
 
 <!-- review:end hk-lic-20261117-pazopanib-1 -->
 
@@ -165,7 +165,7 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「香港已有 5 張有效單一成分許可證」→「香港已有 6 張有效單一成分許可證」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「香港已有 5 張有效單一成分許可證」→「香港已有有效的單一成分許可證（張數見本頁快速總覽與「香港上市」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7) |
 
 <!-- review:end log -->

@@ -72,11 +72,11 @@ ChEMBL（EMBL-EBI）收錄的 Vildagliptin 作用機轉（非官方翻譯）：�
 
 ## 香港上市資訊
 
-本藥於香港共有 20 張有效許可證（含單一成分製劑與 GALVUS MET 等與 metformin 的複方）。以下列出 5 張主要許可證（許可證資料未載明核准適應症文字及劑型）：
+本藥於香港的許可證包括單一成分製劑與 GALVUS MET 等與 metformin 的複方（張數與有效張數見本頁快速總覽與「香港上市資訊」的許可證表）。以下列出 5 張主要許可證（許可證資料未載明核准適應症文字及劑型）：
 
 <!-- review:begin hk-lic-20261117-vildagliptin-1 -->
 
-> **查核更正（2026-11-17）**：原文為「本藥於香港共有 19 張有效許可證，均為單一成分登記」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69180 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+> **查核更正（2026-11-24）**：原文為「本藥於香港共有 19 張有效許可證，均為單一成分登記」。已更正：衞生署藥物辦公室註冊藥劑製品名單（2026-11-13 版）另有 HK-69180 屬於本藥的現行註冊（2026-03 版名單之後新增），原本沒有收進本頁資料（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
 
 <!-- review:end hk-lic-20261117-vildagliptin-1 -->
 
@@ -122,7 +122,7 @@ ChEMBL（EMBL-EBI）收錄的 Vildagliptin 作用機轉（非官方翻譯）：�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「本藥於香港共有 19 張有效許可證，均為單一成分登記」→「本藥於香港共有 20 張有效許可證（含單一成分製劑與 GALVUS MET 等與」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「本藥於香港共有 19 張有效許可證，均為單一成分登記」→「本藥於香港的許可證包括單一成分製劑與 GALVUS MET 」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703) |
 
 <!-- review:end log -->
