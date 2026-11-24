@@ -27252,6 +27252,46 @@
    ],
    "checked": "2026-11-24",
    "method": "2026-11-24 人工查核（每週許可證排程 issue #1251 擋下的頁，checker M3c）"
+  },
+  {
+   "id": "hk-wording-20261124-clopidogrel-1",
+   "drug": "clopidogrel",
+   "file": "clopidogrel.md",
+   "action": "correct",
+   "claim": "並不代表對所有偏頭痛患者有效。",
+   "replacement": "並不代表適用於所有偏頭痛患者。",
+   "summary": "措辭調整（意思不變）",
+   "note": "措辭調整：原句的「有效」指療效，不是許可證狀態；改寫成同義說法，避免讀成「全部許可證有效」。意思不變，模型預測與證據等級不動。",
+   "finding": "原句是療效說明，被許可證檢查（M3c「所有…有效」）誤判，每週排程因此擋下本頁並開 issue（#1251）。用戶 2026-11-24 決定改寫措辭避開誤判，不改 checker 規則",
+   "sources": [
+    {
+     "title": "HkTxGNN 許可證事實層（衞生署藥劑製品註冊名單 DrugList.xml）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 用戶決定（排程誤判句改寫措辭）"
+  },
+  {
+   "id": "hk-wording-20261124-piroxicam-1",
+   "drug": "piroxicam",
+   "file": "piroxicam.md",
+   "action": "correct",
+   "claim": "所有已列許可證皆為單一成分製劑、狀態有效。",
+   "replacement": "上表所列 5 張許可證皆為單一成分製劑，狀態為現行註冊。",
+   "summary": "措辭調整（限定為上表 5 張）",
+   "note": "措辭調整：原句講的是上表列出的 5 張許可證（確實都是單一成分、現行註冊），不是本藥全部許可證；本藥全部張數與有效張數見快速總覽。",
+   "finding": "原句只指上表 5 張（事實層 53 張、有效 52），被許可證檢查（M3c「所有…有效」）誤判，每週排程因此擋下本頁並開 issue（#1251）。用戶 2026-11-24 決定改寫措辭避開誤判",
+   "sources": [
+    {
+     "title": "HkTxGNN 許可證事實層（衞生署藥劑製品註冊名單 DrugList.xml）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 用戶決定（排程誤判句改寫措辭）"
   }
  ]
 }

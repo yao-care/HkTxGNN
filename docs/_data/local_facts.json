@@ -21,11 +21,11 @@
   "items_current": 15416
  },
  "reviews": {
-  "records": 958,
+  "records": 960,
   "pages": 757,
   "public_pages_with_records": 756,
   "by_action": {
-   "correct": 245,
+   "correct": 247,
    "mechanism": 713
   }
  },
@@ -211,13 +211,13 @@
    "i": "hyperamylasemia"
   },
   {
-   "t": "Dexamethasone",
-   "u": "/drugs/dexamethasone/",
+   "t": "Clopidogrel",
+   "u": "/drugs/clopidogrel/",
    "l": "L5",
-   "lt": 101,
-   "lv": 100,
+   "lt": 27,
+   "lv": 26,
    "r": 3,
-   "i": "黏液性禿髮"
+   "i": "migraine with brainstem aura"
   }
  ],
  "example": {
@@ -230,6 +230,18 @@
   "i": "被套細胞淋巴瘤"
  },
  "recent_reviews": [
+  {
+   "t": "Piroxicam",
+   "u": "/drugs/piroxicam/",
+   "s": "措辭調整（限定為上表 5 張）",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Clopidogrel",
+   "u": "/drugs/clopidogrel/",
+   "s": "措辭調整（意思不變）",
+   "d": "2026-11-24"
+  },
   {
    "t": "Moxifloxacin",
    "u": "/drugs/moxifloxacin/",
@@ -360,18 +372,6 @@
    "t": "Triprolidine",
    "u": "/drugs/triprolidine/",
    "s": "「共 20 張有效許可證，以上僅列出前 5 張。」→「香港共有 39 張含本藥成分的許可證（有效 37 張、已註銷」",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Tranexamic Acid",
-   "u": "/drugs/tranexamic-acid/",
-   "s": "「香港共有 20 張有效單方許可證，以下列出 5 張主要許可證（許可證資料未提供劑」→「香港共有 21 張含本藥成分的許可證（全部有效；皆為單一成分」",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Tramadol",
-   "u": "/drugs/tramadol/",
-   "s": "「香港共有 20 張有效的單一成分許可證，皆為已上市狀態。」→「香港共有 44 張含本藥成分的許可證（有效 43 張、已註銷」",
    "d": "2026-11-17"
   }
  ],

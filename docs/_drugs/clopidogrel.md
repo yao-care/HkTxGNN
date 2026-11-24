@@ -65,7 +65,13 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 
 偏頭痛，特別是伴先兆的偏頭痛，與卵圓孔未閉 (PFO) 或其他右向左分流有關。目前的假說是血小板活化與反常栓塞（微栓子）或血小板釋放血清素，可能誘發先兆。若以 P2Y12 阻斷來降低血小板聚集，理論上可減少這些誘因。動物模型研究也顯示 P2Y12 受體參與偏頭痛相關的疼痛與微膠細胞活化。
 
-不過需注意，現有證據主要來自合併 PFO/分流的族群，並不代表對所有偏頭痛患者有效。多項大型試驗比較的是 PFO 關閉術或抗凝血藥，並非 Clopidogrel 單獨療效。
+不過需注意，現有證據主要來自合併 PFO/分流的族群，並不代表適用於所有偏頭痛患者。多項大型試驗比較的是 PFO 關閉術或抗凝血藥，並非 Clopidogrel 單獨療效。
+
+<!-- review:begin hk-wording-20261124-clopidogrel-1 -->
+
+> **查核更正（2026-11-24）**：原文為「並不代表對所有偏頭痛患者有效。」。措辭調整：原句的「有效」指療效，不是許可證狀態；改寫成同義說法，避免讀成「全部許可證有效」。意思不變，模型預測與證據等級不動。依據：[HkTxGNN 許可證事實層（衞生署藥劑製品註冊名單 DrugList.xml）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-wording-20261124-clopidogrel-1 -->
 
 ---
 
@@ -161,6 +167,7 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 |------|------|------|------|
 | 2026-11-17 | 「香港共有 20 張有效許可證，以下列出 5 張主要許可證」→「香港共有 27 張含本藥成分的許可證（有效 26 張、已註銷」 | 更正（2026-11-17 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227) |
+| 2026-11-24 | 措辭調整（意思不變） | 更正 | [HkTxGNN 許可證事實層（衞生署藥劑製品註冊名單 DrugList.xml）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 
