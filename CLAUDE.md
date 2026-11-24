@@ -632,3 +632,7 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   gate（`src/hktxgnn/regulatory/licenses.py` page_problems）擋「公開頁有證據包紀錄卻沒有市場段落」；license_adapter 的 PAGE_NOTE 放行「## 香港上市資訊」標題行。
 - 驗證：checker 全量改前 0／改後 0、--row-status 0；gate exit 0；正文張數改寫 0 句、判斷不了 0 句。證據包沒有改，不用 data-overlay。
 
+## 事實層單一成分／複方依本站成分欄切分（2026-11-24）
+
+用戶 2026-11-24 決定：事實層依各站成分欄正確切分。reviewer/drug_evidence_pack.py 原本用「;;」切成分，本站成分欄（activeIng）以「; 」分隔，每張都算單一成分（事實層 single_total＝total）；改用 `src/hktxgnn/regulatory/ingredients.py`（同 scripts/sync_license_tables.py 程式表的類別欄，「-」不算成分）。
+事實層 1550 藥中 609 藥 single_total 改變，跟快照 mix 951 頁全部一致；證據包 341 個重算（data-overlay）。另寫寬偵測全量掃正文「單一成分／單方」說法，跟成分欄矛盾的 32 句以 `hk-lic-20261124d-*` 更正（多是「皆為單一成分」而實為複方，例 ginseng、bictegravir、valproic_acid），`hk-lic-20261117-serine-1` 同 id 重發（前版存 history）。checker 0→0。
