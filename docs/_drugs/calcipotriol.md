@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 146
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Calcipotriol：預測新適應症為脂漏性角化症 (Seborrheic Keratosis)（證據等級 L3）。原適應症：目前許可證資料未載明核准適應症"
 monitor_inn: "CALCIPOTRIOL"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -79,13 +79,19 @@ TxGNN 模型預測它可能對**脂漏性角化症 (Seborrheic Keratosis)** 有�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68704 | BF-CALCIPOTRIOL OINTMENT 0.005% W/W | 軟膏（依品名） | 資料未載明 |
-| HK-55517 | CIPOTRIOL OINTMENT 0.005% | 軟膏（依品名） | 資料未載明 |
-| HK-35877 | DAIVONEX OINT 50MCG/G | 軟膏（依品名） | 資料未載明 |
-| HK-59632 | XAMIOL GEL | 凝膠（依品名） | 資料未載明 |
-| HK-68653 | BF-CALBETSONE OINTMENT | 軟膏（依品名） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68704 | BF-CALCIPOTRIOL OINTMENT 0.005% W/W | 單一成分 | BRIGHT FUTURE PHARMACEUTICAL CO. LIMITED | 有效 |
+| HK-55517 | CIPOTRIOL OINTMENT 0.005% | 單一成分 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+| HK-35877 | DAIVONEX OINT 50MCG/G | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-59632 | XAMIOL GEL | 複方 | DKSH HONG KONG LIMITED | 有效 |
+| HK-68653 | BF-CALBETSONE OINTMENT | 複方 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+
+上表列出其中 5 張（共 13 張）。
+
+<!-- licenses:end -->
 
 共 13 張有效單方許可證，以上列出 5 張主要許可證。
 

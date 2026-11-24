@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eftrenonacog Alfa：預測新適應症為類血管性血友病 (pseudo-von Willebrand disease)（證據等級 L5）。原適應症：血友病（hemophilia）、女性帶因者的症狀性血友病"
 monitor_inn: "EFTRENONACOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia"]
@@ -72,12 +72,16 @@ TxGNN 模型（深度學習）給出的高分數（0.9948）僅是計算預測�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67048 | ALPROLIX POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 500IU | 注射用粉末及溶劑 | 未提供 |
-| HK-67045 | ALPROLIX POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 1000IU | 注射用粉末及溶劑 | 未提供 |
-| HK-67046 | ALPROLIX POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 2000IU | 注射用粉末及溶劑 | 未提供 |
-| HK-67047 | ALPROLIX POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 3000IU | 注射用粉末及溶劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67048 | ALPROLIX POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 500IU | 複方 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-67045 | ALPROLIX POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 1000IU | 複方 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-67046 | ALPROLIX POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 2000IU | 複方 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-67047 | ALPROLIX POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 3000IU | 複方 | SANOFI HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 以上 4 張許可證均為單一成分、現行有效，持證商為 SANOFI HONG KONG LIMITED。
 

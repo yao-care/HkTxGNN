@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "ILOPROST"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "diffuse alopecia areata"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Iloprost：預測新適應症為單純性頭皮毛髮稀少症 (hypotrichosis simplex of the scalp)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
@@ -80,9 +80,13 @@ TxGNN 模型預測它可能對**單純性頭皮毛髮稀少症 (hypotrichosis si
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-50560 | ILOMEDIN 20 INJ 20MCG/ML | 注射劑 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-50560 | ILOMEDIN 20 INJ 20MCG/ML | 單一成分 | BAYER HEALTHCARE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 廠商為 BAYER HEALTHCARE LIMITED，屬單一成分製劑，狀態為有效。
 

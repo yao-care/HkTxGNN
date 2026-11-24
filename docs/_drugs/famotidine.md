@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "FAMOTIDINE"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Famotidine：預測新適應症為十二指腸阻塞 (duodenal obstruction)（證據等級 L5）。香港藥劑製品註冊：79 張（有效 79 張）"
 ---
 
@@ -84,13 +84,19 @@ TxGNN 的高分（0.9999）較可能來自此疾病在知識網絡中與十二�
 
 <!-- review:end hk-lic-20261117-famotidine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66450 | FAMOSIA TABLETS 40MG | 錠劑（40mg） | 資料未載明 |
-| HK-47369 | ULCEDINE 40 TAB 40MG F.C. | 錠劑（40mg） | 資料未載明 |
-| HK-48086 | FAMOLTA TAB 20MG | 錠劑（20mg） | 資料未載明 |
-| HK-47874 | BALHOA TAB 40MG | 錠劑（40mg） | 資料未載明 |
-| HK-48193 | COSODINE TAB 40MG | 錠劑（40mg） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66450 | FAMOSIA TABLETS 40MG | 單一成分 | R. MANSTIEN (AUSTRALIA) LIMITED | 有效 |
+| HK-47369 | ULCEDINE 40 TAB 40MG F.C. | 單一成分 | CEUTICAL TRADING COMPANY LIMITED | 有效 |
+| HK-48086 | FAMOLTA TAB 20MG | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-47874 | BALHOA TAB 40MG | 單一成分 | UNICORN LABORATORIES O/B AMERICAN UNICORN LABORATORIES LIMITED | 有效 |
+| HK-48193 | COSODINE TAB 40MG | 單一成分 | UNICORN LABORATORIES O/B AMERICAN UNICORN LABORATORIES LIMITED | 有效 |
+
+上表列出其中 5 張（共 79 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 372
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "FERROUS FUMARATE"
 predicted_indications: ["non-syndromic esophageal malformation"]
 description: "Ferrous Fumarate：預測新適應症為非症候群型食道畸形 (non-syndromic esophageal malformation)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -81,9 +81,13 @@ TxGNN 模型（深度學習）給出的高分（0.9949）可能反映模型學�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-51439 | FEROFORT TAB | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-51439 | FEROFORT TAB | 複方 | HANG LUNG TRADING (H.K.) CO | 有效 |
+
+<!-- licenses:end -->
 
 廠商：HANG LUNG TRADING (H.K.) CO；單一成分製劑，狀態有效。
 

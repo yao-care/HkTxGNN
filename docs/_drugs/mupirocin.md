@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 602
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
 description: "Mupirocin：預測新適應症為Pleural empyema (disease)（證據等級 L5）。香港藥劑製品註冊：14 張（有效 14 張）"
@@ -100,13 +100,19 @@ SSSS 由會產生表皮剝脫毒素的金黃色葡萄球菌引起，與大泡性
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-28186 | BACTROBAN OINT 2%（GlaxoSmithKline） | 軟膏 | 資料未提供 |
-| HK-33588 | BACTROBAN NASAL OINT 2%（GlaxoSmithKline） | 鼻用軟膏 | 資料未提供 |
-| HK-55473 | AROCIN OINTMENT 2%（Bright Future） | 軟膏 | 資料未提供 |
-| HK-55952 | MUPRIN OINTMENT 2%（Taisho） | 軟膏 | 資料未提供 |
-| HK-65498 | BACTEROCIN OINTMENT 2% W/W（Meyer BPC） | 軟膏 | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-28186 | BACTROBAN OINT 2% | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-33588 | BACTROBAN NASAL OINT 2% | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-55473 | AROCIN OINTMENT 2% | 單一成分 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+| HK-55952 | MUPRIN OINTMENT 2% | 單一成分 | TAISHO PHARMACEUTICAL (HK) LTD | 有效 |
+| HK-65498 | BACTEROCIN OINTMENT 2% W/W | 單一成分 | MEYER BPC PHARMACEUTICALS LIMITED | 有效 |
+
+上表列出其中 5 張（共 14 張）。
+
+<!-- licenses:end -->
 
 另有 9 張有效許可證，皆為 2% 軟膏類單一成分產品。
 

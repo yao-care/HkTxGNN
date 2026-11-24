@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ETOFENAMATE"
 predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "pseudoachondroplasia", "myosclerosis", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Etofenamate：預測新適應症為僵直性脊椎炎 (Ankylosing Spondylitis)（證據等級 L5）。原適應症：知識圖譜中記錄的關聯為骨關節炎、骨關節炎易感性、關節病變"
 ---
 
@@ -71,13 +71,17 @@ NSAID 是僵直性脊椎炎的一線治療，因此在類別層面存在機轉�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-53359 | FLOGOPROFEN GEL 5% | 凝膠（品名所示） | 資料未載明 |
-| HK-52785 | FLOGOPROFEN SOLUTION 5% | 外用溶液（品名所示） | 資料未載明 |
-| HK-55383 | ORDOFEN GEL 10% | 凝膠（品名所示） | 資料未載明 |
-| HK-40437 | NISOLON GEL 50MG/G | 凝膠（品名所示） | 資料未載明 |
-| HK-41266 | SULKY GEL 5% | 凝膠（品名所示） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-53359 | FLOGOPROFEN GEL 5% | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-52785 | FLOGOPROFEN SOLUTION 5% | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-55383 | ORDOFEN GEL 10% | 單一成分 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+| HK-40437 | NISOLON GEL 50MG/G | 單一成分 | WILCOME PHARMACEUTICAL CO LTD | 有效 |
+| HK-41266 | SULKY GEL 5% | 單一成分 | YUNG SHIN CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

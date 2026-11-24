@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "PHENOL"
 predicted_indications: ["acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "dry eye syndrome"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Phenol：預測新適應症為慢性萎縮性肢端皮膚炎 (Acrodermatitis Chronica Atrophicans)（證據等級 L5）。原適應症：皮膚炎"
 ---
 
@@ -77,13 +77,19 @@ TxGNN 模型預測它可能對**慢性萎縮性肢端皮膚炎 (Acrodermatitis C
 
 <!-- review:end hk-lic-20261117-phenol-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-60791 | HAEMOROL OILY PHENOL INJ 250MG/5ML | 注射劑（依品名） | 資料未提供 |
-| HK-24269 | DOAN'S OINT | 軟膏（依品名） | 資料未提供 |
-| HK-30489 | TOLCEDERM SPRAY | 噴劑（依品名） | 資料未提供 |
-| HK-30491 | LACIN SPRAY | 噴劑（依品名） | 資料未提供 |
-| HK-30493 | PHENADERM SPRAY | 噴劑（依品名） | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-60791 | HAEMOROL OILY PHENOL INJ 250MG/5ML | 單一成分 | VANTONE MEDICAL SUPPLIES CO LTD | 有效 |
+| HK-24269 | DOAN'S OINT | 複方 | MEDIPHARMA LTD | 有效 |
+| HK-30489 | TOLCEDERM SPRAY | 複方 | MEYER PHARMACEUTICALS LTD | 有效 |
+| HK-30491 | LACIN SPRAY | 複方 | MEYER PHARMACEUTICALS LTD | 有效 |
+| HK-30493 | PHENADERM SPRAY | 複方 | MEYER PHARMACEUTICALS LTD | 有效 |
+
+上表列出其中 5 張（共 21 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

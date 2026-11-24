@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 799
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Salicylic acid"
 predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia"]
 description: "Salicylic Acid：預測新適應症為乳頭狀結膜炎 (papillary conjunctivitis)（證據等級 L5）。香港藥劑製品註冊：100 張（有效 100 張）"
@@ -92,13 +92,19 @@ TxGNN 模型預測它可能對**乳頭狀結膜炎 (Papillary Conjunctivitis)** 
 
 <!-- review:end hk-lic-20261117-salicylic_acid-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61139 | TAWA CORN PLASTERS 32MG/STRIP | 未登載 | 未登載 |
-| HK-59855 | MANNINGS CORN PLASTERS 50% | 未登載 | 未登載 |
-| HK-62936 | HC-SALICYLIC ACID OINTMENT 2%W/W | 未登載 | 未登載 |
-| HK-58293 | DECADOID CORN PLASTER 10% | 未登載 | 未登載 |
-| HK-61132 | EASTONECORN CORN PLASTERS 32MG/STRIP | 未登載 | 未登載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61139 | TAWA CORN PLASTERS 32MG/STRIP | 單一成分 | BEST UNITED MARKETING LIMITED | 有效 |
+| HK-59855 | MANNINGS CORN PLASTERS 50% | 單一成分 | MANNINGS O/B THE DAIRY FARM COMPANY, LIMITED | 有效 |
+| HK-62936 | HC-SALICYLIC ACID OINTMENT 2%W/W | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-58293 | DECADOID CORN PLASTER 10% | 單一成分 | MING TAI PHARMACEUTICALS COMPANY O/B SURE BRILLIANT INDUSTRIAL LIMITED | 有效 |
+| HK-61132 | EASTONECORN CORN PLASTERS 32MG/STRIP | 單一成分 | BEST UNITED MARKETING LIMITED | 有效 |
+
+上表列出其中 5 張（共 100 張）。
+
+<!-- licenses:end -->
 
 從品名來看，多數產品為雞眼貼片（Corn Plasters）及軟膏，皆為外用製劑。
 

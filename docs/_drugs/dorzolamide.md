@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DORZOLAMIDE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
 description: "Dorzolamide：預測新適應症為Hypotrichosis simplex of the scalp（證據等級 L5）。香港藥劑製品註冊：10 張（有效 10 張）"
@@ -112,13 +112,19 @@ Dorzolamide 是局部用碳酸酐酶抑制劑，原本用於開角型青光眼�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-40713 | TRUSOPT EYE SOLUTION 2% | 眼用溶液 | — |
-| HK-66812 | REZLOD EYE DROPS SOLUTION 20MG/ML | 眼藥水 | — |
-| HK-64039 | DORZO EYE DROPS 2%W/V | 眼藥水 | — |
-| HK-46578 | COSOPT OPHTHALMIC SOLUTION | 眼用溶液 | — |
-| HK-61930 | DORZOLAMIDE AND TIMOLOL STADA EYE DROPS | 眼藥水 | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-40713 | TRUSOPT EYE SOLUTION 2% | 單一成分 | SANTEN PHARMACEUTICAL (HONG KONG) LIMITED | 有效 |
+| HK-66812 | REZLOD EYE DROPS SOLUTION 20MG/ML | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-64039 | DORZO EYE DROPS 2%W/V | 單一成分 | CHEMILLENNIUM INTERNATIONAL (HK) LIMITED | 有效 |
+| HK-46578 | COSOPT OPHTHALMIC SOLUTION | 複方 | SANTEN PHARMACEUTICAL (HONG KONG) LIMITED | 有效 |
+| HK-61930 | DORZOLAMIDE AND TIMOLOL STADA EYE DROPS | 複方 | STADA PHARMACEUTICALS (ASIA) LIMITED | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 > 共 10 張有效許可證（均為有效單方登記）。許可證資料未載明劑型與核准適應症文字。
 

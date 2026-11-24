@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "GUSELKUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "renal osteodystrophy", "congenital hypotrichosis with juvenile macular dystrophy", "primary release disorder of platelets", "Glanzmann thrombasthenia", "non-renal secondary hyperparathyroidism"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Guselkumab：預測新適應症為藥物誘發性骨質疏鬆症（證據等級 L5）。原適應症：許可證資料未載明"
 ---
 
@@ -78,10 +78,16 @@ IL-23/IL-17 訊號路徑在發炎性骨流失中可能扮演角色，因此理�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65944 | TREMFYA 預填充注射器 100mg/1ml 注射液 | 注射液 | 許可證資料未載明 |
-| HK-67037 | TREMFYA 預填充注射筆 100mg/1ml 注射液 | 注射液 | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65944 | TREMFYA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 100MG/1ML | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-67037 | TREMFYA SOLUTION FOR INJECTION IN PRE-FILLED PEN 100MG/1ML | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+
+上表列出其中 2 張（共 5 張）。
+
+<!-- licenses:end -->
 
 兩張許可證均為單一成分製劑，持有者為 Johnson & Johnson (Hong Kong) Ltd.。
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Bisoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bisoprolol：預測新適應症為惡性高血壓性腎病 (malignant hypertensive renal disease)（證據等級 L5）。香港藥劑製品註冊：18 張（有效 18 張）"
 ---
 
@@ -72,13 +72,19 @@ TxGNN 模型預測它可能對**惡性高血壓性腎病 (malignant hypertensive
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-63998 | BISO TABLETS 5MG | 未記載 | 未記載 |
-| HK-67481 | BISOCORD 5 TABLETS 5MG | 未記載 | 未記載 |
-| HK-68824 | JECEBISO TABLETS 2.5MG | 未記載 | 未記載 |
-| HK-60688 | APO-BISOPROLOL TAB 10MG | 未記載 | 未記載 |
-| HK-29917 | CONCOR 5 FILM-COATED TAB 5MG | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63998 | BISO TABLETS 5MG | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-67481 | BISOCORD 5 TABLETS 5MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-68824 | JECEBISO TABLETS 2.5MG | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-60688 | APO-BISOPROLOL TAB 10MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-29917 | CONCOR 5 FILM-COATED TAB 5MG | 單一成分 | MERCK PHARMACEUTICAL (HK) LIMITED | 有效 |
+
+上表列出其中 5 張（共 18 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

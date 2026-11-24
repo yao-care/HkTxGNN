@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Cabazitaxel"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "HIV infectious disease", "hyperthyroidism", "neuroblastoma", "rheumatoid arthritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cabazitaxel：預測新適應症為女性乳癌 (female breast carcinoma)（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"
 ---
 
@@ -83,13 +83,17 @@ TxGNN 模型預測它可能對**女性乳癌 (female breast carcinoma)** 有效�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68945 | CABAZITAXEL EVER PHARMA CONCENTRATE FOR SOLUTION FOR INFUSION 45MG/4.5ML | 輸注濃縮液 | 本地資料未記錄 |
-| HK-68946 | CABAZITAXEL EVER PHARMA CONCENTRATE FOR SOLUTION FOR INFUSION 50MG/5ML | 輸注濃縮液 | 本地資料未記錄 |
-| HK-61193 | JEVTANA CONCENTRATE AND SOLVENT FOR SOLUTION FOR INFUSION 60MG | 輸注濃縮液 | 本地資料未記錄 |
-| HK-68947 | CABAZITAXEL EVER PHARMA CONCENTRATE FOR SOLUTION FOR INFUSION 60MG/6ML | 輸注濃縮液 | 本地資料未記錄 |
-| HK-68385 | CABAZITAXEL CONCENTRATE AND SOLVENT FOR SOLUTION FOR INFUSION 60MG/1.5ML | 輸注濃縮液 | 本地資料未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68945 | CABAZITAXEL EVER PHARMA CONCENTRATE FOR SOLUTION FOR INFUSION 45MG/4.5ML | 單一成分 | EVER NEURO PHARMA (ASIA) LIMITED | 有效 |
+| HK-68946 | CABAZITAXEL EVER PHARMA CONCENTRATE FOR SOLUTION FOR INFUSION 50MG/5ML | 單一成分 | EVER NEURO PHARMA (ASIA) LIMITED | 有效 |
+| HK-61193 | JEVTANA CONCENTRATE AND SOLVENT FOR SOLUTION FOR INFUSION 60MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-68947 | CABAZITAXEL EVER PHARMA CONCENTRATE FOR SOLUTION FOR INFUSION 60MG/6ML | 單一成分 | EVER NEURO PHARMA (ASIA) LIMITED | 有效 |
+| HK-68385 | CABAZITAXEL CONCENTRATE AND SOLVENT FOR SOLUTION FOR INFUSION 60MG/1.5ML | 複方 | CHEMILL PHARMA LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

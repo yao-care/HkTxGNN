@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 585
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "Midecamycin"
 predicted_indications: ["candidiasis"]
 description: "Midecamycin：預測新適應症為念珠菌感染 (candidiasis)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -80,14 +80,17 @@ TxGNN 模型預測它可能對**念珠菌感染 (Candidiasis)** 有效，預測�
 
 目前無相關文獻。
 
-
 ---
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-01565 | MIDECAMYCIN CAP 200MG | 資料未載明（品名為膠囊） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-01565 | MIDECAMYCIN CAP 200MG | 單一成分 | MAIN LIFE CORP LTD | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 142
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cabotegravir：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症（依藥理分類，屬 HIV 整合酶抑制劑）"
 monitor_inn: "CABOTEGRAVIR"
 predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy"]
@@ -82,11 +82,15 @@ TxGNN 另外預測的其他適應症（原發性硬化性膽管炎、支氣管�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67297 | VOCABRIA PROLONGED-RELEASE SUSPENSION FOR INJECTION 600MG/3ML | 長效注射懸浮液 | 許可證資料未載明 |
-| HK-67298 | VOCABRIA TABLETS 30MG | 錠劑 | 許可證資料未載明 |
-| HK-67296 | VOCABRIA PROLONGED-RELEASE SUSPENSION FOR INJECTION 400MG/2ML | 長效注射懸浮液 | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67297 | VOCABRIA PROLONGED-RELEASE SUSPENSION FOR INJECTION 600MG/3ML | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-67298 | VOCABRIA TABLETS 30MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-67296 | VOCABRIA PROLONGED-RELEASE SUSPENSION FOR INJECTION 400MG/2ML | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證皆由 GlaxoSmithKline Limited 持有，均為單方製劑且狀態有效。
 

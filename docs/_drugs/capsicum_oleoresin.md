@@ -5,7 +5,7 @@ layout: default
 title: Capsicum Oleoresin
 parent: 僅已知用途（無新預測）
 nav_order: 155
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Capsicum Oleoresin: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Capsicum oleoresin"
 predicted_indications: []
@@ -48,9 +48,13 @@ evidence_level: N/A
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-06128 | SLOAN'S LINIMENT | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-06128 | SLOAN'S LINIMENT | 複方 | PHARMAREG CONSULTING COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 該許可證為單方製劑，狀態有效，持證商為 PHARMAREG CONSULTING COMPANY LIMITED。
 

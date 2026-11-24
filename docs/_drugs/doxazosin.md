@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 297
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DOXAZOSIN"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 description: "Doxazosin：預測新適應症為偏頭痛 (migraine disorder)（證據等級 L4）。香港藥劑製品註冊：25 張（有效 25 張）"
@@ -84,13 +84,19 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 
 <!-- review:end hk-lic-20261117-doxazosin-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-31170 | CARDURA TAB 2MG | 錠劑 | 未載明 |
-| HK-31169 | CARDURA TAB 1MG | 錠劑 | 未載明 |
-| HK-45161 | CARDURA XL TAB 4MG (CONTROLLED RELEASE) | 控釋錠 | 未載明 |
-| HK-45162 | CARDURA XL TAB 8MG (CONTROLLED RELEASE) | 控釋錠 | 未載明 |
-| HK-47338 | APO-DOXAZOSIN TAB 1MG | 錠劑 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-31170 | CARDURA TAB 2MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-31169 | CARDURA TAB 1MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-45161 | CARDURA XL TAB 4MG (CONTROLLED RELEASE) | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-45162 | CARDURA XL TAB 8MG (CONTROLLED RELEASE) | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-47338 | APO-DOXAZOSIN TAB 1MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 25 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

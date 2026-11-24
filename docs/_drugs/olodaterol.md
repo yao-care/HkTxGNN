@@ -3,7 +3,7 @@ layout: default
 title: Olodaterol
 parent: 僅已知用途（無新預測）
 nav_order: 642
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 monitor_inn: "OLODATEROL"
 description: "Olodaterol: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
@@ -48,10 +48,14 @@ evidence_level: N/A
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-63776 | STRIVERDI RESPIMAT SOLUTION FOR INHALATION 2.5MCG | BOEHRINGER INGELHEIM (HK) LTD |
-| HK-64356 | SPIOLTO RESPIMAT INHALATION SOLUTION 2.5MCG/2.5MCG | BOEHRINGER INGELHEIM (HK) LTD |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63776 | STRIVERDI RESPIMAT SOLUTION FOR INHALATION 2.5MCG | 單一成分 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-64356 | SPIOLTO RESPIMAT INHALATION SOLUTION 2.5MCG/2.5MCG | 複方 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證目前皆為有效狀態。這份資料未提供劑型與核准適應症文字，詳情請參考原廠仿單。
 

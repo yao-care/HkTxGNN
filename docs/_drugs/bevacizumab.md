@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Bevacizumab"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bevacizumab：預測新適應症為會厭腫瘤 (epiglottis neoplasm)（證據等級 L5）。香港藥劑製品註冊：10 張（有效 10 張）"
 ---
 
@@ -72,13 +72,19 @@ TxGNN 模型預測它可能對**會厭腫瘤 (epiglottis neoplasm)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67028 | MVASI CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/4ML | 未記載 | 本地資料未記載 |
-| HK-59450 | AVASTIN ROCHE CONCENTRATE FOR SOLN FOR INFUSION 100MG/4ML | 未記載 | 本地資料未記載 |
-| HK-67029 | MVASI CONCENTRATE FOR SOLUTION FOR INFUSION 400MG/16ML | 未記載 | 本地資料未記載 |
-| HK-56638 | AVASTIN ROCHE INJ 100MG/4ML | 未記載 | 本地資料未記載 |
-| HK-56637 | AVASTIN ROCHE INJ 400MG/16ML | 未記載 | 本地資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67028 | MVASI CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/4ML | 單一成分 | AMGEN HONG KONG LIMITED | 有效 |
+| HK-59450 | AVASTIN ROCHE CONCENTRATE FOR SOLN FOR INFUSION 100MG/4ML | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-67029 | MVASI CONCENTRATE FOR SOLUTION FOR INFUSION 400MG/16ML | 單一成分 | AMGEN HONG KONG LIMITED | 有效 |
+| HK-56638 | AVASTIN ROCHE INJ 100MG/4ML | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-56637 | AVASTIN ROCHE INJ 400MG/16ML | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

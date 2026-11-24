@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Griseofulvin：預測新適應症為蠅蛆症 (Myiasis)（證據等級 L5）。原適應症：足癬、體癬、甲癬、癬類感染、鼠蹊與肛周皮癬菌病、鬚癬、頭皮或鬚部皮癬菌病"
 monitor_inn: "GRISEOFULVIN"
 predicted_indications: ["myiasis", "wound myiasis", "furuncular myiasis", "creeping myiasis", "echinococcus granulosus infectious disease"]
@@ -87,13 +87,19 @@ TxGNN 模型預測它可能對**蠅蛆症 (Myiasis)** 有效，但目前**沒有
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-34137 | GRISEOFULVIN TAB 125MG (VICKMANS) | 錠劑（125 mg） | 未提供 |
-| HK-33380 | GRISEOFULVIN TAB 500MG（APT PHARMA） | 錠劑（500 mg） | 未提供 |
-| HK-26326 | FUYOU TAB 500MG | 錠劑（500 mg） | 未提供 |
-| HK-66191 | NACOSIL GRISEOFULVIN TABLETS 250MG | 錠劑（250 mg） | 未提供 |
-| HK-31024 | MEDOFULVIN 125 TAB 125MG | 錠劑（125 mg） | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-34137 | GRISEOFULVIN TAB 125MG (VICKMANS) | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-33380 | GRISEOFULVIN TAB 500MG | 單一成分 | APT PHARMA LIMITED | 有效 |
+| HK-26326 | FUYOU TAB 500MG | 單一成分 | WILCOME PHARMACEUTICAL CO LTD | 有效 |
+| HK-66191 | NACOSIL GRISEOFULVIN TABLETS 250MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-31024 | MEDOFULVIN 125 TAB 125MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 香港共有 9 張有效單方許可證，皆為上市中，無已註銷者。此處僅列出 5 張主要許可證。
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 516
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LEFLUNOMIDE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Leflunomide：預測新適應症為短指併指症候群 (brachydactyly-syndactyly syndrome)（證據等級 L5）。香港藥劑製品註冊：15 張（有效 14 張）"
@@ -91,13 +91,19 @@ TxGNN 模型預測它可能對**短指併指症候群 (Brachydactyly-Syndactyly 
 
 <!-- review:end hk-lic-20261117-leflunomide-1 -->
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-46487 | ARAVA TAB 20MG | SANOFI HONG KONG LIMITED |
-| HK-46488 | ARAVA TAB 10MG | SANOFI HONG KONG LIMITED |
-| HK-46486 | ARAVA TAB 100MG | SANOFI HONG KONG LIMITED |
-| HK-54040 | APO-LEFLUNOMIDE TAB 20MG | HIND WING CO LTD |
-| HK-58159 | PMS-LEFLUNOMIDE TAB 10MG | TRENTON-BOMA LTD |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-46487 | ARAVA TAB 20MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-46488 | ARAVA TAB 10MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-46486 | ARAVA TAB 100MG | 單一成分 | SANOFI HONG KONG LIMITED | 已註銷 |
+| HK-54040 | APO-LEFLUNOMIDE TAB 20MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-58159 | PMS-LEFLUNOMIDE TAB 10MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+
+上表列出其中 5 張（共 15 張）。
+
+<!-- licenses:end -->
 
 ---
 

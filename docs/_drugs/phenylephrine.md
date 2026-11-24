@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 693
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PHENYLEPHRINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Phenylephrine：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L4）。香港藥劑製品註冊：560 張（有效 557 張）"
@@ -78,13 +78,19 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62569 | DURACON NASAL SPRAY 0.5%W/V | 鼻噴劑 | 資料未載明 |
-| HK-21044 | PHENYLEPHRINE NASAL DROPS 0.5% | 鼻滴劑 | 資料未載明 |
-| HK-62518 | CYNEPHRON NASAL SPRAY 0.5% | 鼻噴劑 | 資料未載明 |
-| HK-55640 | LOYAL COLD SYRUP | 糖漿 | 資料未載明 |
-| HK-68575 | COLTALIN COLD & FLU HOT REMEDY POWDER FOR ORAL SOLUTION | 口服溶液用粉劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62569 | DURACON NASAL SPRAY 0.5%W/V | 單一成分 | WELL FAVOURED LTD | 有效 |
+| HK-21044 | PHENYLEPHRINE NASAL DROPS 0.5% | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-62518 | CYNEPHRON NASAL SPRAY 0.5% | 單一成分 | WELL FAVOURED LTD | 有效 |
+| HK-55640 | LOYAL COLD SYRUP | 複方 | LOYAL ADVANCE LIMITED | 有效 |
+| HK-68575 | COLTALIN COLD & FLU HOT REMEDY POWDER FOR ORAL SOLUTION | 複方 | FORTUNE PHARMACAL CO LTD | 有效 |
+
+上表列出其中 5 張（共 560 張）。
+
+<!-- licenses:end -->
 
 香港共有 560 張含本藥成分的許可證（有效 557 張、已註銷 3 張；單一成分 15 張、複方 545 張），此處僅列出與鼻腔及感冒用途最相關的 5 張。
 

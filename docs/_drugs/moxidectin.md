@@ -5,7 +5,7 @@ layout: default
 title: Moxidectin
 parent: 僅已知用途（無新預測）
 nav_order: 600
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Moxidectin: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Moxidectin"
 predicted_indications: []
@@ -50,9 +50,15 @@ evidence_level: N/A
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55687 | PROHEART SR-12 INJ ONCE-A-YEAR (VET) | — | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55687 | PROHEART SR-12 INJ ONCE-A-YEAR (VET) | 單一成分 | PAH 7V6 HOLDING LIMITED | 有效 |
+
+上表列出其中 1 張（共 4 張）。
+
+<!-- licenses:end -->
 
 這 4 張許可證均為動物用藥（VET），目前資料中未見供人使用的製劑。
 

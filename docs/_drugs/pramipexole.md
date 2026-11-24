@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 722
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pramipexole：預測新適應症為注意力不足過動症 (Attention Deficit-Hyperactivity Disorder)（證據等級 L4）。原適應症：帕金森氏症、不寧腿症候群"
 monitor_inn: "Pramipexole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
@@ -113,13 +113,19 @@ ADHD 的病理被認為與多巴胺調控異常有關，因此從機轉上有合
 
 Pramipexole 在香港共有 14 張有效許可證（均為單一成分，無已註銷者）。資料中未提供劑型與核准適應症文字，以下列出 5 張主要許可證：
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-59657 | MIRAPEX ER TAB 0.375MG（Boehringer Ingelheim） | 緩釋錠 | 請參考原廠仿單 |
-| HK-59658 | MIRAPEX ER TAB 1.5MG（Boehringer Ingelheim） | 緩釋錠 | 請參考原廠仿單 |
-| HK-59656 | MIRAPEX ER TAB 0.75MG（Boehringer Ingelheim） | 緩釋錠 | 請參考原廠仿單 |
-| HK-57251 | PMS-PRAMIPEXOLE TAB 1.5MG（Trenton-Boma） | 錠劑 | 請參考原廠仿單 |
-| HK-60728 | APO-PRAMIPEXOLE TAB 0.25MG（Hind Wing） | 錠劑 | 請參考原廠仿單 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-59657 | MIRAPEX ER TAB 0.375MG | 單一成分 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-59658 | MIRAPEX ER TAB 1.5MG | 單一成分 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-59656 | MIRAPEX ER TAB 0.75MG | 單一成分 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-57251 | PMS-PRAMIPEXOLE TAB 1.5MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-60728 | APO-PRAMIPEXOLE TAB 0.25MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 14 張）。
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 162
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Carbocisteine：預測新適應症為痛風 (Gout)（證據等級 L5）。原適應症：本次整理的資料中未載明"
 monitor_inn: "CARBOCISTEINE"
 predicted_indications: ["gout"]
@@ -79,13 +79,19 @@ TxGNN 模型預測它可能對**痛風 (Gout)** 有效，但目前**沒有臨床
 
 <!-- review:end hk-lic-20261117-carbocisteine-1 -->
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-68392 | CABOTIN TABLETS 375MG | JULIUS CHEN & COMPANY (HK) LIMITED |
-| HK-34628 | SOLMUX PEDIATRIC SUSP 200MG/5ML | UNAM CORPORATION LTD |
-| HK-63122 | UNI-CARBOTINE SYRUP 5%W/V | EUROPHARM LAB CO LTD |
-| HK-19872 | MUCOSPECT FOR ADULTS SYRUP 250MG/5ML | EUROPHARM LAB CO LTD |
-| HK-62353 | NEO-CARBO SYRUP 250MG/5ML | EUROPHARM LAB CO LTD |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68392 | CABOTIN TABLETS 375MG | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-34628 | SOLMUX PEDIATRIC SUSP 200MG/5ML | 單一成分 | UNAM CORPORATION LTD | 有效 |
+| HK-63122 | UNI-CARBOTINE SYRUP 5%W/V | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-19872 | MUCOSPECT FOR ADULTS SYRUP 250MG/5ML | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-62353 | NEO-CARBO SYRUP 250MG/5ML | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+
+上表列出其中 5 張（共 16 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 836
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SUCRALFATE"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 description: "Sucralfate：預測新適應症為十二指腸胃逆流 (duodenogastric reflux)（證據等級 L2）。香港藥劑製品註冊：5 張（有效 5 張）"
@@ -93,13 +93,17 @@ TxGNN 模型預測它可能對**十二指腸胃逆流 (Duodenogastric Reflux)** 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-44717 | SUCATE TAB 500MG | 錠劑（依品名） | 無資料 |
-| HK-56646 | SUCRATE GEL SUSPENSION 20% | 凝膠懸浮液（依品名） | 無資料 |
-| HK-36063 | SUCARI TAB 500MG | 錠劑（依品名） | 無資料 |
-| HK-41750 | APO-SUCRALFATE TAB 1G | 錠劑（依品名） | 無資料 |
-| HK-49933 | INOSEA CHEWABLE TAB | 咀嚼錠（依品名） | 無資料 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-44717 | SUCATE TAB 500MG | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-56646 | SUCRATE GEL SUSPENSION 20% | 單一成分 | MEKIM LTD | 有效 |
+| HK-36063 | SUCARI TAB 500MG | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-41750 | APO-SUCRALFATE TAB 1G | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-49933 | INOSEA CHEWABLE TAB | 複方 | SATO PHARMACEUTICAL (HK) CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CALCIFEDIOL"
 predicted_indications: ["renal tubular acidosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Calcifediol：預測新適應症為Renal tubular acidosis（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
@@ -68,10 +68,14 @@ Calcifediol 是循環中的 25-羥基維生素 D，為活性型維生素 D（cal
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68725 | RAYALDEE EXTENDED-RELEASE SOFT CAPSULES 30MCG | 未記載 | 未記載 |
-| HK-67894 | HIDROFEROL CAPSULES 0.266MG | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68725 | RAYALDEE EXTENDED-RELEASE SOFT CAPSULES 30MCG | 單一成分 | NICOYA THERAPEUTICS (HONG KONG) LIMITED | 有效 |
+| HK-67894 | HIDROFEROL CAPSULES 0.266MG | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - HEALTHCARE DIVISION | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

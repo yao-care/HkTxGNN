@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 496
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ketamine：預測新適應症為頭痛疾患 (Headache Disorder)（證據等級 L2）。原適應症：香港許可證未列載適應症文字"
 monitor_inn: "KETAMINE"
 predicted_indications: ["headache disorder"]
@@ -95,12 +95,16 @@ TxGNN 模型預測它可能對**頭痛疾患 (Headache Disorder)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-37715 | KETAMINE INJ 10% (VET) | 注射劑 | 未提供 |
-| HK-07901 | KETALAR INJ 10MG/ML | 注射劑 | 未提供 |
-| HK-61875 | KETAMINE-HAMELN SOLUTION FOR INJECTION 50MG/ML | 注射劑 | 未提供 |
-| HK-07197 | KETALAR INJ 50MG/ML | 注射劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-37715 | KETAMINE INJ 10% (VET) | 單一成分 | ALFAMEDIC LIMITED | 有效 |
+| HK-07901 | KETALAR INJ 10MG/ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-61875 | KETAMINE-HAMELN SOLUTION FOR INJECTION 50MG/ML | 單一成分 | MEKIM LTD | 有效 |
+| HK-07197 | KETALAR INJ 50MG/ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 > 註：HK-37715 的品名標示為獸醫用（VET）。
 

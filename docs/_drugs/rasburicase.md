@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "RASBURICASE"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "renal tubular acidosis", "disorder of phenylalanine metabolism"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rasburicase：預測新適應症為腎性低尿酸血症 (Hypouricemia, Renal)（證據等級 L5）。原適應症：高尿酸血症"
 ---
 
@@ -71,9 +71,13 @@ TxGNN 模型預測它可能對**腎性低尿酸血症 (Hypouricemia, Renal)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-49808 | FASTURTEC FOR INJ 1.5MG | 未提供 | 未提供（廠商：SANOFI HONG KONG LIMITED） |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-49808 | FASTURTEC FOR INJ 1.5MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "PROCAINE BENZYLPENICILLIN"
 predicted_indications: ["bacterial arthritis", "middle ear disease", "otosalpingitis", "middle ear cholesterol granuloma", "epiglottitis", "urinary tract infection (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Procaine Benzylpenicillin：預測新適應症為細菌性關節炎（證據等級 L5）。原適應症：知識圖譜記錄的關聯用途包括感染性中耳炎、鏈球菌感染、梅毒、心內膜炎等"
 ---
 
@@ -93,9 +93,13 @@ TxGNN 模型預測它可能對**細菌性關節炎 (Bacterial Arthritis)** 有�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-23022 | FATROMYCINE S INJECTABLE SUSP (VET) | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-23022 | FATROMYCINE S INJECTABLE SUSP (VET) | 複方 | WAI LUNG HONG AGRIBUSINESS LTD | 有效 |
+
+<!-- licenses:end -->
 
 此許可證為單一成分製劑，品名帶有「VET」字樣，顯示可能為獸醫用產品，不應直接視為人用適應症的依據。
 

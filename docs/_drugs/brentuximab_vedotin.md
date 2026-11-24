@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 127
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brentuximab Vedotin：預測新適應症為濾泡性淋巴瘤 (Follicular Lymphoma)（證據等級 L2）。原適應症：何杰金氏淋巴瘤（Hodgkin lymphoma，含典型何杰金氏淋巴瘤）"
 monitor_inn: "BRENTUXIMAB VEDOTIN"
 predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
@@ -100,9 +100,13 @@ TxGNN 模型預測它可能對**濾泡性淋巴瘤 (Follicular Lymphoma)** 有�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-63483 | ADCETRIS POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50MG（廠商：Takeda Pharmaceuticals (Hong Kong) Limited） | 未登載 | 未登載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63483 | ADCETRIS POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50MG | 單一成分 | TAKEDA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

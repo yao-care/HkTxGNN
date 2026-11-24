@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 243
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DANAZOL"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
 description: "Danazol：預測新適應症為無月經 (amenorrhea (disease))（證據等級 L5）。香港藥劑製品註冊：3 張（有效 2 張）"
@@ -87,11 +87,15 @@ TxGNN 模型預測它可能對**無月經 (amenorrhea (disease))** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-24444 | ECTOPAL CAP 200MG | 膠囊（200 mg） | 未載明 |
-| HK-39101 | ANARGIL CAP 200MG | 膠囊（200 mg） | 未載明 |
-| HK-43548 | DANOCRINE CAP 200MG | 膠囊（200 mg） | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-24444 | ECTOPAL CAP 200MG | 單一成分 | CNW FAR EAST LIMITED | 有效 |
+| HK-39101 | ANARGIL CAP 200MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-43548 | DANOCRINE CAP 200MG | 單一成分 | SANOFI HONG KONG LIMITED | 已註銷 |
+
+<!-- licenses:end -->
 
 三張許可證中 2 張有效、HK-43548（DANOCRINE CAP 200MG）已註銷，皆為單一成分製劑。
 

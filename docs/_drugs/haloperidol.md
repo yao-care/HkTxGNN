@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "HALOPERIDOL"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Haloperidol：預測新適應症為伴有岩藻醣化缺陷的先天性糖基化異常 (congenital disorder of glycosylation with defective fucosylation)（證據等級 L5）。香港藥劑製品註冊：18 張（有效 18 張）"
 ---
 
@@ -71,13 +71,19 @@ TxGNN 模型預測它可能對**伴有岩藻醣化缺陷的先天性糖基化異
 
 香港目前共有 18 張有效的單一成分許可證，皆為上市中。以下列出主要 5 張：
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-64839 | HALOPERIDOL-NEURAXPHARM TABLETS 1MG | HIND WING CO LTD |
-| HK-54962 | HALOPERIDOL INJ 5MG/ML | AMDIPHARM MERCURY (HONG KONG) LIMITED |
-| HK-65060 | HALOPERIDOL-NEURAXPHARM DECANOATE SOLUTION FOR INJECTION 100MG/ML | HIND WING CO LTD |
-| HK-65430 | HALOPERIDOL-NEURAXPHARM TABLETS 5MG | HIND WING CO LTD |
-| HK-62669 | HALOPERIDOL KERN PHARMA ORAL DROPS 2MG/ML | HIND WING CO LTD |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64839 | HALOPERIDOL-NEURAXPHARM TABLETS 1MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-54962 | HALOPERIDOL INJ 5MG/ML | 單一成分 | AMDIPHARM MERCURY (HONG KONG) LIMITED | 有效 |
+| HK-65060 | HALOPERIDOL-NEURAXPHARM DECANOATE SOLUTION FOR INJECTION 100MG/ML | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-65430 | HALOPERIDOL-NEURAXPHARM TABLETS 5MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-62669 | HALOPERIDOL KERN PHARMA ORAL DROPS 2MG/ML | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 18 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

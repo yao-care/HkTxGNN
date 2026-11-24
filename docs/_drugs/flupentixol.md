@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 392
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Flupentixol：預測新適應症為視網膜失養症（retinal dystrophy with or without extraocular anomalies）（證據等級 L5）。原適應症：思覺失調症（schizophrenia）"
 monitor_inn: "flupentixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "myopia X-linked", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
@@ -81,13 +81,19 @@ TxGNN 模型預測它可能對**視網膜失養症（retinal dystrophy with or w
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-53918 | VICK-FLUPENTIXOL TAB 1MG | 未提供 | 未提供 |
-| HK-53917 | VICK-FLUPENTIXOL TAB 0.5MG | 未提供 | 未提供 |
-| HK-53916 | VICK-FLUPENTIXOL TAB 3MG | 未提供 | 未提供 |
-| HK-65109 | FLUPENTIXOL-NEURAXPHARM SOLUTION FOR INJECTION 20MG/ML | 未提供 | 未提供 |
-| HK-19676 | FLUANXOL DEPOT INJ 20MG/ML | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-53918 | VICK-FLUPENTIXOL TAB 1MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-53917 | VICK-FLUPENTIXOL TAB 0.5MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-53916 | VICK-FLUPENTIXOL TAB 3MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-65109 | FLUPENTIXOL-NEURAXPHARM SOLUTION FOR INJECTION 20MG/ML | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-19676 | FLUANXOL DEPOT INJ 20MG/ML | 單一成分 | Lundbeck HK Limited | 有效 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 香港共有 9 張有效單一成分許可證（無已註銷者），上表僅列出 5 張主要許可證。
 

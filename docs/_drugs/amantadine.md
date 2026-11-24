@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 46
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amantadine：預測新適應症為Rasmussen 亞急性腦炎 (Rasmussen subacute encephalitis)（證據等級 L5）。原適應症：帕金森氏症及相關動作障礙"
 monitor_inn: "Amantadine"
 predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration"]
@@ -84,13 +84,17 @@ TxGNN 模型預測它可能對 **Rasmussen 亞急性腦炎 (Rasmussen subacute e
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-27366 | PK-MERZ TAB 100MG | — | — |
-| HK-34789 | ENZIL TAB 100MG | — | — |
-| HK-62120 | AMANDIN CAPSULES 100MG | — | — |
-| HK-45493 | PMS-AMANTADINE HYDROCHLORIDE CAP 100MG | — | — |
-| HK-59608 | AMANTADINE F.C. TAB 100MG | — | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-27366 | PK-MERZ TAB 100MG | 單一成分 | HONGKONG WINHEALTH PHARMA GROUP CO. LIMITED | 有效 |
+| HK-34789 | ENZIL TAB 100MG | 單一成分 | YUNG SHIN CO LTD | 有效 |
+| HK-62120 | AMANDIN CAPSULES 100MG | 單一成分 | YAT SENG TRADING CO | 有效 |
+| HK-45493 | PMS-AMANTADINE HYDROCHLORIDE CAP 100MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-59608 | AMANTADINE F.C. TAB 100MG | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

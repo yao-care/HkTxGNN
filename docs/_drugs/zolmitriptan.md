@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 959
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Zolmitriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Zolmitriptan：預測新適應症為Atrophoderma vermiculata（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
@@ -82,10 +82,14 @@ Zolmitriptan 是 5-HT1B/1D 受體促效劑（triptan 類藥物），原本用於
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62233 | PMS-ZOLMITRIPTAN TABLETS 2.5MG | 錠劑（依品名） | 資料未載明 |
-| HK-43324 | ZOMIG TAB 2.5MG | 錠劑（依品名） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62233 | PMS-ZOLMITRIPTAN TABLETS 2.5MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-43324 | ZOMIG TAB 2.5MG | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

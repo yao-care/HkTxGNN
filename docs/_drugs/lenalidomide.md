@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 518
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LENALIDOMIDE"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Lenalidomide：預測新適應症為骨髓性白血病 (myeloid leukemia)（證據等級 L2）。香港藥劑製品註冊：8 張（有效 8 張）"
@@ -110,13 +110,19 @@ TxGNN 模型預測它可能對**骨髓性白血病 (Myeloid Leukemia)** 有效�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62180 | REVLIMID CAPSULES 25MG (SWITZERLAND) | 膠囊 | 請參考原廠仿單 |
-| HK-62181 | REVLIMID CAPSULES 15MG (SWITZERLAND) | 膠囊 | 請參考原廠仿單 |
-| HK-62182 | REVLIMID CAPSULES 10MG (SWITZERLAND) | 膠囊 | 請參考原廠仿單 |
-| HK-62183 | REVLIMID CAPSULES 5MG (SWITZERLAND) | 膠囊 | 請參考原廠仿單 |
-| HK-68893 | LENALIDOMIDE SANDOZ CAPSULES 10MG | 膠囊 | 請參考原廠仿單 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62180 | REVLIMID CAPSULES 25MG (SWITZERLAND) | 單一成分 | BRISTOL-MYERS SQUIBB PHARMA (HK) LTD | 有效 |
+| HK-62181 | REVLIMID CAPSULES 15MG (SWITZERLAND) | 單一成分 | BRISTOL-MYERS SQUIBB PHARMA (HK) LTD | 有效 |
+| HK-62182 | REVLIMID CAPSULES 10MG (SWITZERLAND) | 單一成分 | BRISTOL-MYERS SQUIBB PHARMA (HK) LTD | 有效 |
+| HK-62183 | REVLIMID CAPSULES 5MG (SWITZERLAND) | 單一成分 | BRISTOL-MYERS SQUIBB PHARMA (HK) LTD | 有效 |
+| HK-68893 | LENALIDOMIDE SANDOZ CAPSULES 10MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 共 8 張有效許可證（Bristol-Myers Squibb 4 張、Sandoz 4 張），此處列出 5 張。
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 418
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
 description: "Glucagon：預測新適應症為腸躁症 (irritable bowel syndrome)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -86,9 +86,13 @@ TxGNN 的高分是計算模型的預測結果，不能取代直接的臨床證�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-41845 | GLUCAGEN HYPOKIT FOR INJ 1MG/ML | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-41845 | GLUCAGEN HYPOKIT FOR INJ 1MG/ML | 單一成分 | NOVO NORDISK HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CYANOCOBALAMIN"
 predicted_indications: ["biotin metabolic disease"]
 description: "Cyanocobalamin：預測新適應症為生物素代謝疾病 (biotin metabolic disease)（證據等級 L5）。香港藥劑製品註冊：77 張（有效 76 張）"
@@ -91,13 +91,19 @@ TxGNN 模型預測它可能對**生物素代謝疾病 (Biotin Metabolic Disease)
 
 <!-- review:end hk-lic-20261117-cyanocobalamin-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-63076 | VIDALIC B12 SOLUTION FOR INJECTION 2000MCG/ML | 注射液 | 未提供 |
-| HK-12579 | BITAMIN INJ 1000MCG/ML | 注射劑 | 未提供 |
-| HK-56543 | VITAMIN B12 INJ 1000MCG/ML | 注射劑 | 未提供 |
-| HK-26263 | NEO-ACTIVE VITAMIN B12 TAB 100MCG | 錠劑 | 未提供 |
-| HK-46964 | COBAMIN OPHTHALMIC SOLUTION 0.02% | 眼用溶液 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63076 | VIDALIC B12 SOLUTION FOR INJECTION 2000MCG/ML | 單一成分 | DELTAPHARM LIMITED | 有效 |
+| HK-12579 | BITAMIN INJ 1000MCG/ML | 單一成分 | MOUNTAIN TRADING CO LTD | 有效 |
+| HK-56543 | VITAMIN B12 INJ 1000MCG/ML | 單一成分 | DELTAPHARM LIMITED | 有效 |
+| HK-26263 | NEO-ACTIVE VITAMIN B12 TAB 100MCG | 單一成分 | CHRISTO PHARM LTD | 有效 |
+| HK-46964 | COBAMIN OPHTHALMIC SOLUTION 0.02% | 單一成分 | SANTEN PHARMACEUTICAL (HONG KONG) LIMITED | 有效 |
+
+上表列出其中 5 張（共 77 張）。
+
+<!-- licenses:end -->
 
 ---
 

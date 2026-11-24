@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "SODIUM ACETATE"
 predicted_indications: ["congenital prothrombin deficiency", "epiglottitis", "urinary tract infection (disease)", "sclerosing cholangitis", "gonococcal urethritis", "Ureaplasma urethritis", "dyspepsia", "uterine inflammatory disease", "gastroparesis (disease)", "xanthogranulomatous pyelonephritis"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Sodium Acetate：預測新適應症為先天性凝血酶原缺乏症 (Congenital Prothrombin Deficiency)（證據等級 L5）。原適應症：資料中未載明"
 ---
 
@@ -83,13 +83,19 @@ TxGNN 模型預測它可能對**先天性凝血酶原缺乏症 (Congenital Proth
 
 <!-- review:end hk-lic-20261117-sodium_acetate-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-41852 | LACTATED RINGER'S INJ | 未載明 | 未載明 |
-| HK-54146 | LACTATED RINGER'S INJ | 未載明 | 未載明 |
-| HK-28245 | COMPOUND SODIUM LACTATE INJ (HARTMANN'S) | 未載明 | 未載明 |
-| HK-58675 | WIDA RL RINGER LACTATE INTRAVENOUS INFUSION | 未載明 | 未載明 |
-| HK-62680 | DIANEAL PD-2 PERITONEAL DIALYSIS SOLUTION WITH 1.5% DEXTROSE (ULTRA BAG) | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-41852 | LACTATED RINGER'S INJ | 複方 | LUEN CHEONG HONG LTD | 有效 |
+| HK-54146 | LACTATED RINGER'S INJ | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+| HK-28245 | COMPOUND SODIUM LACTATE INJ (HARTMANN'S) | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-58675 | WIDA RL RINGER LACTATE INTRAVENOUS INFUSION | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+| HK-62680 | DIANEAL PD-2 PERITONEAL DIALYSIS SOLUTION WITH 1.5% DEXTROSE (ULTRA BAG) | 複方 | VANTIVE HEALTHCARE LIMITED | 有效 |
+
+上表列出其中 5 張（共 68 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "MAGNESIUM HYDROXIDE"
 predicted_indications: ["stomach disease"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Magnesium Hydroxide：預測新適應症為胃部疾病 (Stomach Disease)（證據等級 L5）。原適應症：知識圖譜記錄：消化性潰瘍、胃食道逆流、食道炎、便秘、消化不良"
 ---
 
@@ -103,13 +103,19 @@ TxGNN 模型預測它可能對**胃部疾病 (Stomach Disease)** 有效，但這
 
 <!-- review:end hk-lic-20261117-magnesium_hydroxide-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-43990 | MAGNESIUM HYDROXIDE | 未載明 | 未載明 |
-| HK-58779 | PEDIA-LAX CHEWABLE TAB 400MG | 未載明 | 未載明 |
-| HK-46908 | LANTACID (S) TAB CHEWABLE | 未載明 | 未載明 |
-| HK-30455 | LANTACID TAB (APPLE GREEN) CHEWABLE | 未載明 | 未載明 |
-| HK-05470 | SMA SUSPENSION | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-43990 | MAGNESIUM HYDROXIDE | 單一成分 | STANDARD CHEMICAL CORPORATION LIMITED | 有效 |
+| HK-58779 | PEDIA-LAX CHEWABLE TAB 400MG | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - HEALTHCARE DIVISION | 有效 |
+| HK-46908 | LANTACID (S) TAB CHEWABLE | 複方 | CHRISTO PHARM LTD | 有效 |
+| HK-30455 | LANTACID TAB (APPLE GREEN) CHEWABLE | 複方 | CHRISTO PHARM LTD | 有效 |
+| HK-05470 | SMA SUSPENSION | 複方 | NATIONAL PHARMACEUTICAL CO LTD | 有效 |
+
+上表列出其中 5 張（共 66 張）。
+
+<!-- licenses:end -->
 
 ---
 

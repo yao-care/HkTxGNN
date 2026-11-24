@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CAPTOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Captopril：預測新適應症為惡性高血壓性腎病 (malignant hypertensive renal disease)（證據等級 L5）。香港藥劑製品註冊：12 張（有效 12 張）"
 ---
 
@@ -74,13 +74,19 @@ TxGNN 模型預測它可能對**惡性高血壓性腎病 (malignant hypertensive
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-44589 | CAPRIL TAB 25MG | 未記載 | 未記載 |
-| HK-59936 | CAPTOPRIL FARMOZ TAB 50MG | 未記載 | 未記載 |
-| HK-36331 | APO-CAPTO TAB 25MG | 未記載 | 未記載 |
-| HK-41933 | RILCAPTON TAB 25MG | 未記載 | 未記載 |
-| HK-42701 | CAPTOPRIL STADA 25 TAB 25MG | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-44589 | CAPRIL TAB 25MG | 單一成分 | APT PHARMA LIMITED | 有效 |
+| HK-59936 | CAPTOPRIL FARMOZ TAB 50MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-36331 | APO-CAPTO TAB 25MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-41933 | RILCAPTON TAB 25MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-42701 | CAPTOPRIL STADA 25 TAB 25MG | 單一成分 | STADA PHARMACEUTICALS (ASIA) LIMITED | 有效 |
+
+上表列出其中 5 張（共 12 張）。
+
+<!-- licenses:end -->
 
 本地資料共有 12 張有效的單方許可證，此處僅列出 5 張。
 

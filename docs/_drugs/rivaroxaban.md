@@ -94,13 +94,19 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 <!-- review:end hk-lic-20261117-rivaroxaban-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-57861 | XARELTO TAB 10MG（拜耳） | 未載明 | 未載明 |
-| HK-61395 | XARELTO TAB 20MG（拜耳） | 未載明 | 未載明 |
-| HK-61396 | XARELTO TAB 15MG（拜耳） | 未載明 | 未載明 |
-| HK-67833 | RIVAROXABAN SANDOZ TABLETS 20MG（Sandoz） | 未載明 | 未載明 |
-| HK-68572 | RALTEG 20 TABLETS 20MG（I & C） | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-57861 | XARELTO TAB 10MG | 單一成分 | BAYER HEALTHCARE LIMITED | 有效 |
+| HK-61395 | XARELTO TAB 20MG | 單一成分 | BAYER HEALTHCARE LIMITED | 有效 |
+| HK-61396 | XARELTO TAB 15MG | 單一成分 | BAYER HEALTHCARE LIMITED | 有效 |
+| HK-67833 | RIVAROXABAN SANDOZ TABLETS 20MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-68572 | RALTEG 20 TABLETS 20MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+
+上表列出其中 5 張（共 33 張）。
+
+<!-- licenses:end -->
 
 ---
 

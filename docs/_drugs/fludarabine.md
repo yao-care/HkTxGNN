@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 383
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Fludarabine"
 predicted_indications: ["plasma cell myeloma", "hyperthyroidism", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "indolent plasma cell myeloma", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "brain small vessel disease 1 with or without ocular anomalies", "myelodysplastic syndrome", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "diabetic nephropathy"]
 description: "Fludarabine：預測新適應症為漿細胞骨髓瘤 (plasma cell myeloma)（證據等級 L3）。香港藥劑製品註冊：3 張（有效 3 張）"
@@ -96,11 +96,15 @@ TxGNN 模型預測它可能對**漿細胞骨髓瘤 (plasma cell myeloma)** 有�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-60491 | FLUDALYM LYOPHILISATE FOR SOLUTION FOR INJECTION OR INFUSION 50MG（Teva） | 未載明（注射劑） | 未載明 |
-| HK-58036 | FLUDARABIN EBEWE SOL FOR INJ 50MG/2ML（Sandoz） | 未載明（注射劑） | 未載明 |
-| HK-64955 | FLUDARABINE PHOSPHATE POWDER FOR SOLUTION FOR INJECTION OR INFUSION 50MG（Jindun） | 未載明（注射劑） | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-60491 | FLUDALYM LYOPHILISATE FOR SOLUTION FOR INJECTION OR INFUSION 50MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-58036 | FLUDARABIN EBEWE SOL FOR INJ 50MG/2ML | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-64955 | FLUDARABINE PHOSPHATE POWDER FOR SOLUTION FOR INJECTION OR INFUSION 50MG | 單一成分 | JINDUN PHARMA (H.K.) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 本藥在香港共有 3 張單一成分有效許可證，目前無已取消者。
 

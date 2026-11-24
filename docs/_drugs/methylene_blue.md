@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 574
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "METHYLENE BLUE"
 predicted_indications: ["bronchitis"]
 description: "Methylene Blue：預測新適應症為支氣管炎 (bronchitis)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -92,9 +92,13 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前**
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-59020 | METHYLENE BLUE INJ 10MG/ML | 注射劑 | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-59020 | METHYLENE BLUE INJ 10MG/ML | 單一成分 | SINO-ASIA PHARMACEUTICAL SUPPLIES LTD | 有效 |
+
+<!-- licenses:end -->
 
 製造商：SINO-ASIA PHARMACEUTICAL SUPPLIES LTD。
 

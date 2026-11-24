@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 245
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Daptomycin：預測新適應症為退化性關節炎 (Osteoarthritis)（證據等級 L5）。原適應症：香港許可證資料中未載明核准適應症"
 monitor_inn: "DAPTOMYCIN"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
@@ -94,12 +94,18 @@ TxGNN 模型預測它可能對**退化性關節炎 (Osteoarthritis)** 有效，�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-57551 | CUBICIN FOR INJ 500MG（Merck Sharp & Dohme） | 未載明 | 未載明 |
-| HK-67114 | DAPTOMYCIN POWDER FOR SOLUTION FOR INJECTION/INFUSION 500MG（I & C (Hong Kong)） | 未載明 | 未載明 |
-| HK-67646 | DAPTOMYCIN POWDER FOR SOLUTION FOR INJECTION/INFUSION 500MG（Pfizer Hong Kong） | 未載明 | 未載明 |
-| HK-68014 | DAPTOMYCIN POWDER FOR SOLUTION FOR INJECTION/INFUSION 500MG（Chemill Pharma） | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-57551 | CUBICIN FOR INJ 500MG | 單一成分 | MERCK SHARP & DOHME (ASIA) LTD | 有效 |
+| HK-67114 | DAPTOMYCIN POWDER FOR SOLUTION FOR INJECTION/INFUSION 500MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-67646 | DAPTOMYCIN POWDER FOR SOLUTION FOR INJECTION/INFUSION 500MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-68014 | DAPTOMYCIN POWDER FOR SOLUTION FOR INJECTION/INFUSION 500MG | 單一成分 | CHEMILL PHARMA LIMITED | 有效 |
+
+上表列出其中 4 張（共 6 張）。
+
+<!-- licenses:end -->
 
 ---
 

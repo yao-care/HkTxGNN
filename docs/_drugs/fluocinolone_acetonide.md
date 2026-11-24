@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 387
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FLUOCINOLONE ACETONIDE"
 predicted_indications: ["lichen planus pemphigoides"]
 description: "Fluocinolone Acetonide：預測新適應症為Lichen planus pemphigoides（證據等級 L5）。香港藥劑製品註冊：40 張（有效 40 張）"
@@ -85,13 +85,19 @@ Fluocinolone Acetonide 是一種強效局部皮質類固醇，原本用於濕疹
 
 <!-- review:end hk-lic-20261117-fluocinolone_acetonide-1 -->
 
-| 許可證號 | 品名 | 廠商 | 備註 |
-|---------|------|------|------|
-| HK-17904 | FLUOCINOLONE ACETONIDE CREAM 0.025% | EUROPHARM LAB CO LTD | 乳膏 0.025% |
-| HK-49676 | FLUCIDERM CREAM 0.025% | TAISHO PHARMACEUTICAL (HK) LTD | 乳膏 0.025% |
-| HK-27810 | FLUOCINOLONE ACETONIDE OINT 0.03% | MARCHING PHARMACEUTICAL LIMITED | 軟膏 0.03% |
-| HK-63833 | FLUOCINOLONE CREAM 0.0125% W/W | MARCHING PHARMACEUTICAL LIMITED | 乳膏 0.0125% |
-| HK-68072 | OCUSINGEN INTRAVITREAL IMPLANT 0.19MG | OCUMENSION (HONG KONG) LIMITED | 玻璃體內植入物 0.19 mg |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-17904 | FLUOCINOLONE ACETONIDE CREAM 0.025% | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-49676 | FLUCIDERM CREAM 0.025% | 單一成分 | TAISHO PHARMACEUTICAL (HK) LTD | 有效 |
+| HK-27810 | FLUOCINOLONE ACETONIDE OINT 0.03% | 單一成分 | MARCHING PHARMACEUTICAL LIMITED | 有效 |
+| HK-63833 | FLUOCINOLONE CREAM 0.0125% W/W | 單一成分 | MARCHING PHARMACEUTICAL LIMITED | 有效 |
+| HK-68072 | OCUSINGEN INTRAVITREAL IMPLANT 0.19MG | 單一成分 | OCUMENSION (HONG KONG) LIMITED | 有效 |
+
+上表列出其中 5 張（共 40 張）。
+
+<!-- licenses:end -->
 
 其餘多為不同濃度的乳膏產品（0.005%、0.0125%、0.025%）。
 

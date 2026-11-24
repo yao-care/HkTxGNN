@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 742
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Propylthiouracil：預測新適應症為甲狀腺素受體 β 突變引起的甲狀腺素抗性症候群 (Resistance to thyroid hormone due to a mutat…（證據等級 L4）。原適應症：甲狀腺機能亢進、Graves 病、甲狀腺毒症、甲狀腺危象"
 monitor_inn: "PROPYLTHIOURACIL"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
@@ -92,11 +92,15 @@ TxGNN 模型預測它可能對**甲狀腺素受體 β 突變引起的甲狀腺�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-47993 | CP-PTU TAB 50MG | — | — |
-| HK-04990 | PROPYLTHIOURACIL TAB 50MG (SYNCO) | — | — |
-| HK-59451 | PYROID TAB 50MG | — | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-47993 | CP-PTU TAB 50MG | 單一成分 | CHRISTO PHARM LTD | 有效 |
+| HK-04990 | PROPYLTHIOURACIL TAB 50MG (SYNCO) | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-59451 | PYROID TAB 50MG | 單一成分 | NATURAL HEALTH RESOURCES COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

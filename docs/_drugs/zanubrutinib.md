@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ZANUBRUTINIB"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Zanubrutinib：預測新適應症為骨髓性白血病（證據等級 L5）。原適應症：香港許可證未登載適應症文字"
 ---
 
@@ -83,9 +83,13 @@ TxGNN 模型預測它可能對**骨髓性白血病 (myeloid leukemia)** 有效�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67529 | BRUKINSA CAPSULES 80MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67529 | BRUKINSA CAPSULES 80MG | 單一成分 | BEONE MEDICINES (HONG KONG) CO., LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

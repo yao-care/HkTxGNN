@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 438
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Histidine：預測新適應症為胃輕癱 (Gastroparesis)（證據等級 L5）。原適應症：資料中未載明核准適應症"
 monitor_inn: "HISTIDINE"
 predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
@@ -96,13 +96,19 @@ TxGNN 對**硬化性膽管炎 (Sclerosing Cholangitis)** 的預測分數為 0.99
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-32089 | KETOSTERIL TAB | — | — |
-| HK-57540 | AMINOL-S INJ | — | — |
-| HK-58914 | PAN-AMIN G INJ | — | — |
-| HK-59756 | CELAMIN G INJ | — | — |
-| HK-06059 | PAN-AMIN G INJ | — | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-32089 | KETOSTERIL TAB | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-57540 | AMINOL-S INJ | 複方 | WINGS PHARMACEUTICAL LTD | 有效 |
+| HK-58914 | PAN-AMIN G INJ | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+| HK-59756 | CELAMIN G INJ | 複方 | FALKAN MEDICAL LIMITED | 有效 |
+| HK-06059 | PAN-AMIN G INJ | 複方 | LUEN CHEONG HONG LTD | 有效 |
+
+上表列出其中 5 張（共 33 張）。
+
+<!-- licenses:end -->
 
 香港共有 33 張含本藥成分的許可證（全部有效；皆為複方），此處僅列出前 5 張。
 

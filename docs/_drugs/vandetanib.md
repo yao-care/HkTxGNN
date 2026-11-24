@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 10
 monitor_inn: "VANDETANIB"
 predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vandetanib：預測新適應症為腎細胞癌 (renal cell carcinoma (disease))（證據等級 L3）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
@@ -85,10 +85,14 @@ Vandetanib 抑制 VEGFR2、RET 與 EGFR。根據美國 FDA 核准的 Vandetanib 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62087 | CAPRELSA TAB 300MG | 未載明 | 未載明 |
-| HK-62086 | CAPRELSA TAB 100MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62087 | CAPRELSA TAB 300MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-62086 | CAPRELSA TAB 100MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

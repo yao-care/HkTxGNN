@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 505
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
 description: "Lamivudine：預測新適應症為猿猴免疫缺陷病毒感染 (simian immunodeficiency virus infection)（證據等級 L4）。香港藥劑製品註冊：26 張（有效 26 張）"
@@ -93,13 +93,19 @@ SIV 與 HIV 同屬慢病毒，逆轉錄酶高度同源，因此機轉上可能�
 
 <!-- review:end hk-lic-20261117-lamivudine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-42074 | 3TC ORAL SOLUTION 10MG/ML（GlaxoSmithKline） | 口服液（依品名） | 資料未提供 |
-| HK-64798 | 3TC TABLETS 150MG（GlaxoSmithKline） | 錠劑（依品名） | 資料未提供 |
-| HK-64011 | ZEFFIX TABLETS 100MG（GlaxoSmithKline） | 錠劑（依品名） | 資料未提供 |
-| HK-63605 | COMBIVIR TABLETS（GlaxoSmithKline） | 錠劑（依品名） | 資料未提供 |
-| HK-65625 | ABACAVIR/LAMIVUDINE SANDOZ TABLETS 600MG/300MG（Sandoz） | 錠劑（依品名） | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-42074 | 3TC ORAL SOLUTION 10MG/ML | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-64798 | 3TC TABLETS 150MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-64011 | ZEFFIX TABLETS 100MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-63605 | COMBIVIR TABLETS | 複方 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-65625 | ABACAVIR/LAMIVUDINE SANDOZ TABLETS 600MG/300MG | 複方 | SANDOZ HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 26 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

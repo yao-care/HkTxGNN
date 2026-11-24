@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 787
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ropivacaine：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L3）。原適應症：目前許可證資料未列出核准適應症"
 monitor_inn: "Ropivacaine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder"]
@@ -89,11 +89,15 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-42883 | NAROPIN INJ 10MG/ML | 注射劑 | 資料未載明 |
-| HK-42882 | NAROPIN INJ 7.5MG/ML | 注射劑 | 資料未載明 |
-| HK-42881 | NAROPIN INJ 2MG/ML | 注射劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-42883 | NAROPIN INJ 10MG/ML | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+| HK-42882 | NAROPIN INJ 7.5MG/ML | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+| HK-42881 | NAROPIN INJ 2MG/ML | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證皆為單一成分且有效，持有廠商為 Aspen Pharmacare Asia Limited。
 

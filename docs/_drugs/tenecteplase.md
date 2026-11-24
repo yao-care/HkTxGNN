@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "TENECTEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tenecteplase：預測新適應症為Congenital coronary artery anomaly（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
@@ -94,9 +94,15 @@ TxGNN 模型預測它可能對**冠狀動脈狹窄 (Coronary Stenosis)** 有效�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-49440 | METALYSE FOR INJ 10,000U | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-49440 | METALYSE FOR INJ 10,000U | 單一成分 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+
+上表列出其中 1 張（共 2 張）。
+
+<!-- licenses:end -->
 
 ---
 

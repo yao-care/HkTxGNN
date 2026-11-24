@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 684
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "perindopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Perindopril：預測新適應症為惡性高血壓腎病變 (malignant hypertensive renal disease)（證據等級 L5）。香港藥劑製品註冊：16 張（有效 16 張）"
@@ -78,13 +78,19 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (Malignant Hypertensive
 
 香港共有 16 張有效許可證，皆為單一許可證類別。以下列出 5 張主要許可證，其劑型與核准適應症文字在資料中皆未載明。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64135 | SYN-PERINDOPRIL TABLETS 2MG | 未載明 | 未載明 |
-| HK-57450 | ACERTIL AR TAB 5MG | 未載明 | 未載明 |
-| HK-59753 | PERINDAL TAB 2MG | 未載明 | 未載明 |
-| HK-59826 | COVINACE TAB 4MG | 未載明 | 未載明 |
-| HK-53853 | PROVINACE TAB 4MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64135 | SYN-PERINDOPRIL TABLETS 2MG | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-57450 | ACERTIL AR TAB 5MG | 單一成分 | SERVIER HONG KONG LIMITED | 有效 |
+| HK-59753 | PERINDAL TAB 2MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-59826 | COVINACE TAB 4MG | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-53853 | PROVINACE TAB 4MG | 單一成分 | FP HEALTHCARE LIMITED | 有效 |
+
+上表列出其中 5 張（共 16 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

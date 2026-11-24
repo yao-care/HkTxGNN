@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "RILUZOLE"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Riluzole：預測新適應症為雙側旁矢狀頂枕多小腦回症 (bilateral parasagittal parieto-occipital polymicrogyria)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
@@ -72,10 +72,14 @@ TxGNN 分數很高（0.9999），但這只是計算模型的預測結果，需�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-42525 | RILUTEK TAB 50MG | 未提供 | 未提供 |
-| HK-67243 | TEGLUTIK ORAL SUSPENSION 5MG/ML | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-42525 | RILUTEK TAB 50MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-67243 | TEGLUTIK ORAL SUSPENSION 5MG/ML | 單一成分 | LEE'S PHARMACEUTICAL (H.K) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證目前皆為有效，持證商分別為賽諾菲香港有限公司（SANOFI HONG KONG LIMITED）與李氏大藥廠（LEE'S PHARMACEUTICAL (H.K) LIMITED）。
 

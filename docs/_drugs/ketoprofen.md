@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "KETOPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ketoprofen：預測新適應症為肢端中段發育不良 Hunter-Thompson 型（證據等級 L5）。原適應症：知識圖譜中記錄的關聯：類風濕性關節炎、骨關節炎、關節病變"
 ---
 
@@ -80,13 +80,19 @@ Hunter-Thompson 型肢端中段發育不良是由 CDMP1/GDF5 功能喪失所致�
 
 <!-- review:end hk-lic-20261117-ketoprofen-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68597 | HOHOTAPE MEDICAL PLASTER 30MG | 貼布（依品名） | 未提供 |
-| HK-57684 | KETO-TDDS PLASTER 30MG | 貼布（依品名） | 未提供 |
-| HK-62603 | DERUMA-60 CATAPLASMA PLASTER 60MG | 貼布（依品名） | 未提供 |
-| HK-18544 | KETOFEN CAP 50MG | 膠囊（依品名） | 未提供 |
-| HK-59428 | KETOFEN GEL 2.5% | 凝膠（依品名） | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68597 | HOHOTAPE MEDICAL PLASTER 30MG | 單一成分 | BEST UNITED MARKETING LIMITED | 有效 |
+| HK-57684 | KETO-TDDS PLASTER 30MG | 單一成分 | WELL FAVOURED LTD | 有效 |
+| HK-62603 | DERUMA-60 CATAPLASMA PLASTER 60MG | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-18544 | KETOFEN CAP 50MG | 單一成分 | WILCOME PHARMACEUTICAL CO LTD | 有效 |
+| HK-59428 | KETOFEN GEL 2.5% | 單一成分 | HOVID LIMITED | 有效 |
+
+上表列出其中 5 張（共 33 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

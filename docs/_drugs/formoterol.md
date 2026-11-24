@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 399
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Formoterol：預測新適應症為呼吸道畸形 (respiratory malformation)（證據等級 L5）。香港藥劑製品註冊：16 張（有效 16 張）"
@@ -89,13 +89,19 @@ TxGNN 模型預測它可能對**呼吸道畸形 (respiratory malformation)** 有
 
 <!-- review:end hk-lic-20261117-formoterol-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61392 | FOSTER PRESSURISED INHALATION SOLUTION 100/6 MICROGRAMS PER ACTUATION | 未載明 | 未載明 |
-| HK-62090 | FLUTIFORM 250 MICROGRAM/10 MICROGRAM PER ACTUATION PRESSURISED INHALATION SUSPENSION | 未載明 | 未載明 |
-| HK-64503 | DUAKLIR GENUAIR INHALATION POWDER 340 MCG/12 MCG | 未載明 | 未載明 |
-| HK-60618 | VANNAIR PRESSURIZED METERED-DOSE INHALER 80/4.5MCG/DOSE | 未載明 | 未載明 |
-| HK-49176 | SYMBICORT TURBUHALER 160/4.5MCG/DOSE | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61392 | FOSTER PRESSURISED INHALATION SOLUTION 100/6 MICROGRAMS PER ACTUATION | 複方 | ZENFIELDS (H.K.) LIMITED | 有效 |
+| HK-62090 | FLUTIFORM 250 MICROGRAM/10 MICROGRAM PER ACTUATION PRESSURISED INHALATION SUSPEN… | 複方 | DKSH HONG KONG LIMITED | 有效 |
+| HK-64503 | DUAKLIR GENUAIR INHALATION POWDER 340 MCG/12 MCG | 複方 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-60618 | VANNAIR PRESSURIZED METERED-DOSE INHALER 80/4.5MCG/DOSE | 複方 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-49176 | SYMBICORT TURBUHALER 160/4.5MCG/DOSE | 複方 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 16 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

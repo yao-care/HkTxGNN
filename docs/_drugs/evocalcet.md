@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "EVOCALCET"
 predicted_indications: ["hyperphosphatemia (disease)", "tumoral calcinosis, hyperphosphatemic, familial", "familial hyperphosphatemic tumoral calcinosis/hyperphosphatemic hyperostosis syndrome", "pancreatitis", "hereditary hypercarotenemia and vitamin A deficiency", "primary hyperoxaluria", "familial apolipoprotein C-II deficiency", "C1 inhibitor deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Evocalcet：預測新適應症為高磷血症 (Hyperphosphatemia)（證據等級 L5）。原適應症：副甲狀腺機能亢進"
 ---
 
@@ -75,10 +75,14 @@ PTH 下降可減少骨吸收及鈣、磷的釋放，因此血磷理論上可能�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68425 | ORKEDIA TABLETS 2MG | 錠劑 | 未提供 |
-| HK-68424 | ORKEDIA TABLETS 1MG | 錠劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68425 | ORKEDIA TABLETS 2MG | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-68424 | ORKEDIA TABLETS 1MG | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

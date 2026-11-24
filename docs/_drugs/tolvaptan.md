@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 889
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tolvaptan"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan：預測新適應症為Renal-hepatic-pancreatic dysplasia（證據等級 L5）。香港藥劑製品註冊：7 張（有效 7 張）"
@@ -84,13 +84,19 @@ Tolvaptan 是選擇性血管加壓素 V2 受體拮抗劑，原本用於抗利尿
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-59911 | SAMSCA TAB 30MG | 未載明 | 未載明 |
-| HK-59910 | SAMSCA TAB 15MG | 未載明 | 未載明 |
-| HK-65098 | JINARC TABLETS 30MG | 未載明 | 未載明 |
-| HK-65099 | JINARC TABLETS 90MG + 30MG | 未載明 | 未載明 |
-| HK-65100 | JINARC TABLETS 45MG + 15MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-59911 | SAMSCA TAB 30MG | 單一成分 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+| HK-59910 | SAMSCA TAB 15MG | 單一成分 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+| HK-65098 | JINARC TABLETS 30MG | 單一成分 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+| HK-65099 | JINARC TABLETS 90MG + 30MG | 單一成分 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+| HK-65100 | JINARC TABLETS 45MG + 15MG | 單一成分 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+
+上表列出其中 5 張（共 7 張）。
+
+<!-- licenses:end -->
 
 以上為 7 張有效許可證中的 5 張，其餘包括 HK-65101（JINARC 15MG）與 HK-65102（JINARC 60MG + 30MG），皆由大塚製藥（香港）持有。
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 687
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "Pheniramine"
 predicted_indications: ["nasal cavity disease"]
 description: "Pheniramine：預測新適應症為Nasal cavity disease（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"
@@ -88,13 +88,17 @@ Pheniramine 是第一代 H1 受體拮抗劑（抗組織胺），原本用於過�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67341 | REDISIL EYE DROPS | 未提供 | 未提供 |
-| HK-17005 | NAPHCON-A OPHTH SOLN | 未提供 | 未提供 |
-| HK-50058 | FORTOLIN NITE TAB | 未提供 | 未提供 |
-| HK-51135 | NAZORIN EYE DROPS | 未提供 | 未提供 |
-| HK-66127 | FORTOLIN DAY & NIGHT TABLETS | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67341 | REDISIL EYE DROPS | 複方 | WELL FAVOURED LTD | 有效 |
+| HK-17005 | NAPHCON-A OPHTH SOLN | 複方 | ALCON HONG KONG LTD | 有效 |
+| HK-50058 | FORTOLIN NITE TAB | 複方 | FORTUNE PHARMACAL COMPANY LIMITED | 有效 |
+| HK-51135 | NAZORIN EYE DROPS | 複方 | WELL FAVOURED LTD | 有效 |
+| HK-66127 | FORTOLIN DAY & NIGHT TABLETS | 複方 | FORTUNE PHARMACAL COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 5 張許可證皆為有效的單一成分許可證，品項包含眼用製劑與口服錠劑。
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CYSTEINE"
 predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cysteine：預測新適應症為乾眼症 (dry eye syndrome)（證據等級 L5）。原適應症：本地資料未記錄核准適應症"
 ---
 
@@ -84,13 +84,17 @@ TxGNN 模型預測它可能對**乾眼症 (dry eye syndrome)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-58960 | HAKUBI WHITE C TAB | 未記錄 | 未記錄 |
-| HK-36470 | VAMINOLACT I.V. SOLUTION | 未記錄 | 未記錄 |
-| HK-65813 | NUMETA G13% E PRETERM EMULSION FOR INFUSION 300ML | 未記錄 | 未記錄 |
-| HK-65811 | NUMETA G16% E EMULSION FOR INFUSION 500ML | 未記錄 | 未記錄 |
-| HK-65812 | NUMETA G19% E EMULSION FOR INFUSION 1000ML | 未記錄 | 未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-58960 | HAKUBI WHITE C TAB | 複方 | SATO PHARMACEUTICAL (HK) CO LTD | 有效 |
+| HK-36470 | VAMINOLACT I.V. SOLUTION | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-65813 | NUMETA G13% E PRETERM EMULSION FOR INFUSION 300ML | 複方 | BAXTER HEALTHCARE LIMITED | 有效 |
+| HK-65811 | NUMETA G16% E EMULSION FOR INFUSION 500ML | 複方 | BAXTER HEALTHCARE LIMITED | 有效 |
+| HK-65812 | NUMETA G19% E EMULSION FOR INFUSION 1000ML | 複方 | BAXTER HEALTHCARE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

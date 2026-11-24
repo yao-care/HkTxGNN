@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levothyroxine：預測新適應症為腎發育不全／無發育 (renal hypodysplasia/aplasia)（證據等級 L5）。香港藥劑製品註冊：15 張（有效 15 張）"
 ---
 
@@ -83,13 +83,19 @@ TxGNN 模型預測它可能對**腎發育不全／無發育 (renal hypodysplasia
 
 以下列出 5 張主要許可證，許可證資料中未載明劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|-------|
-| HK-63576 | ELTROXIN TABLETS 50MCG | Aspen Pharmacare Asia |
-| HK-56044 | LEVOTHYROXINE TAB 50MCG | Teva Pharmaceutical Hong Kong |
-| HK-67851 | EUTHYROX TABLETS 100 MICROGRAMS | Merck Pharmaceutical (HK) |
-| HK-57830 | OROXINE TAB 200MCG | Aspen Pharmacare Asia |
-| HK-58763 | LEVOTHYROXINE TAB 50MCG | Hind Wing |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63576 | ELTROXIN TABLETS 50MCG | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+| HK-56044 | LEVOTHYROXINE TAB 50MCG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-67851 | EUTHYROX TABLETS 100 MICROGRAMS | 單一成分 | MERCK PHARMACEUTICAL (HK) LIMITED | 有效 |
+| HK-57830 | OROXINE TAB 200MCG | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+| HK-58763 | LEVOTHYROXINE TAB 50MCG | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 15 張）。
+
+<!-- licenses:end -->
 
 ---
 

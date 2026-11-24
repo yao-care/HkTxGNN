@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "GIMERACIL"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 description: "Gimeracil：預測新適應症為Cecum villous adenoma（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
@@ -88,12 +88,16 @@ Gimeracil 是 S-1 複方（tegafur／gimeracil／oteracil）的成分之一，�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67976 | TEGO CAPSULES 20MG/5.8MG/19.6MG | 未載明 | 未載明 |
-| HK-67977 | TEGO CAPSULES 25MG/7.25MG/24.5MG | 未載明 | 未載明 |
-| HK-61181 | TS-ONE 25 CAP | 未載明 | 未載明 |
-| HK-61182 | TS-ONE 20 CAP | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67976 | TEGO CAPSULES 20MG/5.8MG/19.6MG | 複方 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-67977 | TEGO CAPSULES 25MG/7.25MG/24.5MG | 複方 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-61181 | TS-ONE 25 CAP | 複方 | DKSH HONG KONG LIMITED | 有效 |
+| HK-61182 | TS-ONE 20 CAP | 複方 | DKSH HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

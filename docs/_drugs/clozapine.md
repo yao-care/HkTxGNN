@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 222
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CLOZAPINE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
 description: "Clozapine：預測新適應症為躁型雙相情感障礙 (manic bipolar affective disorder)（證據等級 L2）。香港藥劑製品註冊：9 張（有效 9 張）"
@@ -81,13 +81,19 @@ TxGNN 模型預測它可能對**躁型雙相情感障礙 (manic bipolar affectiv
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-57651 | CLOPINE TAB 100MG | — | 未載明 |
-| HK-45530 | CLOZARIL TAB 25MG | — | 未載明 |
-| HK-66717 | VICK-CLOZAPINE TABLETS 100MG | — | 未載明 |
-| HK-57650 | CLOPINE TAB 25MG | — | 未載明 |
-| HK-66718 | VICK-CLOZAPINE TABLETS 25MG | — | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-57651 | CLOPINE TAB 100MG | 單一成分 | UNITED ITALIAN CORP (HK) LTD | 有效 |
+| HK-45530 | CLOZARIL TAB 25MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-66717 | VICK-CLOZAPINE TABLETS 100MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-57650 | CLOPINE TAB 25MG | 單一成分 | UNITED ITALIAN CORP (HK) LTD | 有效 |
+| HK-66718 | VICK-CLOZAPINE TABLETS 25MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 香港共有 9 張有效的單一成分許可證，上表僅列出其中 5 張。
 

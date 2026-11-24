@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 340
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ESOMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Esomeprazole：預測新適應症為Duodenal obstruction（證據等級 L5）。香港藥劑製品註冊：59 張（有效 59 張）"
@@ -90,13 +90,19 @@ Esomeprazole 是質子幫浦抑制劑，原本用於消化性潰瘍、胃食道�
 
 <!-- review:end hk-lic-20261117-esomeprazole-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-48058 | NEXIUM TAB 20MG（AstraZeneca） | 未載明 | 未載明 |
-| HK-52131 | NEXIUM PDR FOR SOLN FOR INJ/INF 40MG（AstraZeneca） | 未載明（依品名為注射／輸注用粉劑） | 未載明 |
-| HK-61717 | ESOMEPRAZOLE SANDOZ GASTRO-RESISTANT TABLETS 20MG | 未載明 | 未載明 |
-| HK-64737 | EMANERA GASTRO-RESISTANT CAPSULES 40MG（Trenton-Boma） | 未載明 | 未載明 |
-| HK-67261 | MAXEUM GASTRO-RESISTANT TABLETS 40MG（Julius Chen） | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-48058 | NEXIUM TAB 20MG | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-52131 | NEXIUM PDR FOR SOLN FOR INJ/INF 40MG | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-61717 | ESOMEPRAZOLE SANDOZ GASTRO-RESISTANT TABLETS 20MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-64737 | EMANERA GASTRO-RESISTANT CAPSULES 40MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-67261 | MAXEUM GASTRO-RESISTANT TABLETS 40MG | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+
+上表列出其中 5 張（共 59 張）。
+
+<!-- licenses:end -->
 
 ---
 

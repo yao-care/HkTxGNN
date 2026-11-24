@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "FLUTICASONE FUROATE"
 predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluticasone Furoate：預測新適應症為異位性皮膚炎 (Atopic Eczema)（證據等級 L5）。原適應症：氣喘、過敏性氣喘、過敏性鼻炎、血管運動性鼻炎"
 ---
 
@@ -76,13 +76,19 @@ TxGNN 模型預測它可能對**異位性皮膚炎 (Atopic Eczema)** 有效，�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68739 | FLUTICASONE FUROATE NITTO NASAL SPRAY 27.5MCG/SPRAY | 未載明 | 未載明 |
-| HK-56691 | AVAMYS NASAL SPRAY 27.5MCG/SPRAY | 未載明 | 未載明 |
-| HK-62693 | RELVAR ELLIPTA INHALATION POWDER 100MCG/25MCG | 未載明 | 未載明 |
-| HK-62694 | RELVAR ELLIPTA INHALATION POWDER 200MCG/25MCG | 未載明 | 未載明 |
-| HK-67942 | TRELEGY ELLIPTA INHALATION POWDER 200MCG/62.5MCG/25MCG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68739 | FLUTICASONE FUROATE NITTO NASAL SPRAY 27.5MCG/SPRAY | 單一成分 | PRIMAL CHEMICAL CO LTD | 有效 |
+| HK-56691 | AVAMYS NASAL SPRAY 27.5MCG/SPRAY | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-62693 | RELVAR ELLIPTA INHALATION POWDER, PRE-DISPENSED 100MCG/25MCG | 複方 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-62694 | RELVAR ELLIPTA INHALATION POWDER, PRE-DISPENSED 200MCG/25MCG | 複方 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-67942 | TRELEGY ELLIPTA INHALATION POWDER, PRE-DISPENSED 200MCG/62.5MCG/25MCG | 複方 | GLAXOSMITHKLINE LIMITED | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 另有 1 張許可證（HK-65911，TRELEGY ELLIPTA 100MCG/62.5MCG/25MCG）未列於上表。
 

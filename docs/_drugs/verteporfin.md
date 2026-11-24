@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 933
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VERTEPORFIN"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
 description: "Verteporfin：預測新適應症為核 DNA 異常所致的粒線體氧化磷酸化異常疾病 (mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -72,9 +72,13 @@ ChEMBL（EMBL-EBI）收錄的 Verteporfin 作用機轉（非官方翻譯）：�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-48053 | VISUDYNE POWDER FOR INJECTION 15MG | 注射用粉劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-48053 | VISUDYNE POWDER FOR INJECTION 15MG | 單一成分 | ZUELLIG PHARMA LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

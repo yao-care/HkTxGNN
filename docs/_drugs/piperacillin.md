@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "PIPERACILLIN"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Piperacillin：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L5）。原適應症：香港許可證資料中未載明核准適應症文字"
 ---
 
@@ -84,13 +84,19 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 香港共有 14 張有效許可證，皆為單一成分登記，其中多數為 piperacillin 與 tazobactam 的組合注射劑產品。以下列出 5 張，列表之外尚有其他許可證。許可證資料中未載明劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-56958 | PIPERACILLIN SODIUM FOR INJ. 4G | 未載明 | 未載明 |
-| HK-58094 | TAZOCIN FOR INJ 4.5G | 未載明 | 未載明 |
-| HK-49703 | TAZOCIN FOR INJ 4.5G | 未載明 | 未載明 |
-| HK-60314 | PYBACTAM 4.5G POWDER FOR SOLN FOR INJ/INF | 未載明 | 未載明 |
-| HK-65419 | PIPERACILLIN/TAZOBACTAM KABI POWDER FOR SOLUTION FOR INFUSION 4G/0.5G | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-56958 | PIPERACILLIN SODIUM FOR INJ. 4G | 單一成分 | JINDUN PHARMA (H.K.) LIMITED | 有效 |
+| HK-58094 | TAZOCIN FOR INJ 4.5G | 複方 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-49703 | TAZOCIN FOR INJ 4.5G | 複方 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-60314 | PYBACTAM 4.5G POWDER FOR SOLN FOR INJ/INF | 複方 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-65419 | PIPERACILLIN/TAZOBACTAM KABI POWDER FOR SOLUTION FOR INFUSION 4G/0.5G | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 14 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

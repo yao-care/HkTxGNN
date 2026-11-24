@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CALCIUM LACTATE"
 predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Calcium Lactate：預測新適應症為鈣鹼症候群 (calcium-alkali syndrome)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
@@ -75,9 +75,13 @@ TxGNN 模型預測它與**鈣鹼症候群 (calcium-alkali syndrome)** 有關聯�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-30457 | CALCIUM LACTATE TAB 300MG | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-30457 | CALCIUM LACTATE TAB 300MG | 單一成分 | CHRISTO PHARM LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

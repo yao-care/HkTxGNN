@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "PIPEMIDIC ACID"
 predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "pulmonary valve disease", "disorder of fucoglycosan synthesis", "mitral valve disease", "Jeune syndrome situs inversus"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Pipemidic Acid：預測新適應症為心臟疾病（證據等級 L5）。原適應症：本報告所整理的資料中未載明"
 ---
 
@@ -77,9 +77,13 @@ TxGNN 模型（深度學習）預測它可能對**心臟疾病 (heart disease)**
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-32130 | UROTRACTIN CAP 400MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-32130 | UROTRACTIN CAP 400MG | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - HEALTHCARE DIVISION | 有效 |
+
+<!-- licenses:end -->
 
 此為單一成分製劑，製造商為 DCH Auriga (Hong Kong) Limited - Healthcare Division，狀態為有效。
 

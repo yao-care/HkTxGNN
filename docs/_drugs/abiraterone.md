@@ -5,7 +5,7 @@ layout: default
 title: Abiraterone
 parent: 僅已知用途（無新預測）
 nav_order: 14
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Abiraterone: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Abiraterone"
 predicted_indications: []
@@ -50,13 +50,19 @@ evidence_level: N/A
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65540 | ZYTIGA TABLETS 500MG | 錠劑 | 未載明 |
-| HK-61370 | ZYTIGA TABLETS 250MG | 錠劑 | 未載明 |
-| HK-68295 | AKEEGA TABLETS 50MG/500MG | 錠劑 | 未載明 |
-| HK-68296 | AKEEGA TABLETS 100MG/500MG | 錠劑 | 未載明 |
-| HK-67871 | APO-ABIRATERONE TABLETS 500MG | 錠劑 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65540 | ZYTIGA TABLETS 500MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-61370 | ZYTIGA TABLETS 250MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-68295 | AKEEGA TABLETS 50MG/500MG | 複方 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-68296 | AKEEGA TABLETS 100MG/500MG | 複方 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-67871 | APO-ABIRATERONE TABLETS 500MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 16 張）。
+
+<!-- licenses:end -->
 
 > 共 16 張有效許可證（皆為單方），上表僅列出 5 張主要許可證。劑型欄位依品名判斷為錠劑。
 

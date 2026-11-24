@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Durvalumab"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Durvalumab：預測新適應症為子宮韌帶腺癌（證據等級 L5）。原適應症：移行細胞癌"
 ---
 
@@ -69,10 +69,14 @@ TxGNN 模型預測它可能對**子宮韌帶腺癌**有效，但目前**沒有�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65929 | IMFINZI CONCENTRATE FOR SOLUTION FOR INFUSION 500MG/10ML | 未載明 | 未載明 |
-| HK-65928 | IMFINZI CONCENTRATE FOR SOLUTION FOR INFUSION 120MG/2.4ML | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65929 | IMFINZI CONCENTRATE FOR SOLUTION FOR INFUSION 500MG/10ML | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-65928 | IMFINZI CONCENTRATE FOR SOLUTION FOR INFUSION 120MG/2.4ML | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張皆為單一成分製劑，持證商為 ASTRAZENECA HONG KONG LIMITED，狀態有效。
 

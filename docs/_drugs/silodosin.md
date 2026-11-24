@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "SILODOSIN"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Silodosin：預測新適應症為安布拉斯型全身性先天多毛症 (Ambras type hypertrichosis universalis congenita)（證據等級 L5）。原適應症：良性前列腺增生"
 ---
 
@@ -71,10 +71,14 @@ TxGNN 模型預測它可能對**安布拉斯型全身性先天多毛症 (Ambras 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65579 | URIEF CAPSULES 4MG | 資料未提供 | 資料未提供 |
-| HK-65580 | URIEF CAPSULES 2MG | 資料未提供 | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65579 | URIEF CAPSULES 4MG | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-65580 | URIEF CAPSULES 2MG | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張均為單一成分製劑、狀態有效，持證商為 SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED。
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "IFOSFAMIDE"
 predicted_indications: ["female breast carcinoma", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "rhabdomyosarcoma (disease)", "myelodysplastic syndrome", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ifosfamide：預測新適應症為女性乳癌 (Female Breast Carcinoma)（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症文字"
 ---
 
@@ -92,12 +92,16 @@ TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效�
 
 香港許可證資料未載明劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-64831 | IFO-CELL N 1000 SOLUTION FOR INFUSION 1000MG | HONG KONG MEDICAL SUPPLIES LTD |
-| HK-61271 | IFOSFAMIDE POWDER FOR SOLUTION FOR INFUSION 1G (QILU HAINAN) | JINDUN PHARMA (H.K.) LIMITED |
-| HK-01322 | HOLOXAN INJ IV | BAXTER HEALTHCARE LIMITED |
-| HK-50758 | ISOXAN FOR INJ 1000MG | HEALTHCARE PHARMASCIENCE LIMITED |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64831 | IFO-CELL N 1000 SOLUTION FOR INFUSION 1000MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-61271 | IFOSFAMIDE POWDER FOR SOLUTION FOR INFUSION 1G (QILU HAINAN) | 單一成分 | JINDUN PHARMA (H.K.) LIMITED | 有效 |
+| HK-01322 | HOLOXAN INJ IV | 單一成分 | BAXTER HEALTHCARE LIMITED | 有效 |
+| HK-50758 | ISOXAN FOR INJ 1000MG | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

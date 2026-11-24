@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 605
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "naftidrofuryl"
 predicted_indications: ["stroke disorder"]
 description: "Naftidrofuryl：預測新適應症為中風 (stroke disorder)（證據等級 L1）。香港藥劑製品註冊：1 張（有效 0 張）"
@@ -85,9 +85,13 @@ TxGNN 模型預測它可能對**中風 (Stroke Disorder)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-27160 | PRAXILENE CAP 100MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-27160 | PRAXILENE CAP 100MG | 單一成分 | MERCK PHARMACEUTICAL (HK) LIMITED | 已註銷 |
+
+<!-- licenses:end -->
 
 製造商為 MERCK PHARMACEUTICAL (HK) LIMITED，為單方製劑；此許可證（HK-27160）已註銷。
 

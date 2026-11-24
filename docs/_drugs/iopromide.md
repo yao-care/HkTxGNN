@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Iopromide"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "alopecia", "myosclerosis", "hemoglobinopathy", "pseudoachondroplasia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Iopromide：預測新適應症為骨關節炎 (Osteoarthritis)（證據等級 L5）。原適應症：目前許可證資料未載明核准適應症文字"
 ---
 
@@ -72,10 +72,14 @@ TxGNN 模型預測它可能對**骨關節炎 (Osteoarthritis)** 有效。
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-43949 | ULTRAVIST 370 注射液 370 mgI/mL | 注射劑 | 資料中未載明 |
-| HK-43948 | ULTRAVIST 300 注射液 300 mgI/mL | 注射劑 | 資料中未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-43949 | ULTRAVIST 370 INJ 370MGI/ML | 單一成分 | BAYER HEALTHCARE LIMITED | 有效 |
+| HK-43948 | ULTRAVIST 300 INJ 300MGI/ML | 單一成分 | BAYER HEALTHCARE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證皆為單一成分製劑，持有者為 Bayer Healthcare Limited，狀態均為有效。
 

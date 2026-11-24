@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "BECLOMETHASONE DIPROPIONATE"
 predicted_indications: ["atopic eczema"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Beclomethasone Dipropionate：預測新適應症為異位性皮膚炎 (atopic eczema)（證據等級 L5）。香港藥劑製品註冊：22 張（有效 22 張）"
 ---
 
@@ -92,13 +92,19 @@ TxGNN 模型預測它可能對**異位性皮膚炎 (atopic eczema)** 有效，
 
 <!-- review:end hk-lic-20261117-beclomethasone_dipropionate-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-28384 | BECONASE AQUEOUS NASAL SPRAY 0.05% | 鼻噴劑 | 本地資料未記錄 |
-| HK-58338 | BELAX AQUA NASAL SPRAY 42MCG/DOSE | 鼻噴劑 | 本地資料未記錄 |
-| HK-63314 | BECLOMETASONE PRESSURISED INHALATION BP 200MCG/ACTUATION (CFC FREE) | 加壓吸入劑 | 本地資料未記錄 |
-| HK-51262 | BECLATE-50 INHALER 50MCG/ACTUATION | 吸入劑 | 本地資料未記錄 |
-| HK-43841 | BECLAZONE 50 CFC-FREE INHALER | 吸入劑 | 本地資料未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-28384 | BECONASE AQUEOUS NASAL SPRAY 0.05% | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-58338 | BELAX AQUA NASAL SPRAY 42MCG/DOSE | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-63314 | BECLOMETASONE PRESSURISED INHALATION BP 200MCG/ACTUATION (CFC FREE) | 單一成分 | CHEMILLENNIUM INTERNATIONAL (HK) LIMITED | 有效 |
+| HK-51262 | BECLATE-50 INHALER 50MCG/ACTUATION | 單一成分 | CONTROLLED MEDICATIONS LIMITED | 有效 |
+| HK-43841 | BECLAZONE 50 CFC-FREE INHALER | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+
+上表列出其中 5 張（共 22 張）。
+
+<!-- licenses:end -->
 
 目前香港上市的劑型為鼻用與吸入劑型，未見外用皮膚劑型，與預測的皮膚適應症之間存在給藥途徑落差。
 

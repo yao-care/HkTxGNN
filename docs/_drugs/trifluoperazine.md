@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 908
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "TRIFLUOPERAZINE"
 predicted_indications: ["manic bipolar affective disorder"]
 description: "Trifluoperazine：預測新適應症為躁型雙相情感疾患 (manic bipolar affective disorder)（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"
@@ -85,13 +85,17 @@ D2 阻斷是抗精神病藥緩解急性躁狂與精神病性激動的共同機�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67926 | NEUROCLIN TABLETS 5MG | 錠劑 | 未載明 |
-| HK-09272 | APO-TRIFLUOPERAZINE TAB 5MG | 錠劑 | 未載明 |
-| HK-09271 | APO-TRIFLUOPERAZINE TAB 1MG | 錠劑 | 未載明 |
-| HK-67218 | MODALINA TABLETS 2MG | 錠劑 | 未載明 |
-| HK-67217 | MODALINA TABLETS 1MG | 錠劑 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67926 | NEUROCLIN TABLETS 5MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-09272 | APO-TRIFLUOPERAZINE TAB 5MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-09271 | APO-TRIFLUOPERAZINE TAB 1MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-67218 | MODALINA TABLETS 2MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-67217 | MODALINA TABLETS 1MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

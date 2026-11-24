@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 715
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "POSACONAZOLE"
 predicted_indications: ["pneumocystosis"]
 description: "Posaconazole：預測新適應症為肺囊蟲病 (pneumocystosis)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
@@ -91,11 +91,17 @@ TxGNN 模型（深度學習）給出的高分（0.9977）可能反映模型在�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67802 | POSACON ORAL SUSPENSION 40MG/ML | 口服懸液劑 | 未提供 |
-| HK-56439 | NOXAFIL ORAL SUSP 40MG/ML | 口服懸液劑 | 未提供 |
-| HK-68771 | MOMETAMAX ULTRA EAR DROPS SUSPENSION FOR DOGS (VET) | 耳用滴劑（獸用） | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67802 | POSACON ORAL SUSPENSION 40MG/ML | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-56439 | NOXAFIL ORAL SUSP 40MG/ML | 單一成分 | MERCK SHARP & DOHME (ASIA) LTD | 有效 |
+| HK-68771 | MOMETAMAX ULTRA EAR DROPS SUSPENSION FOR DOGS (VET) | 複方 | MERCK SHARP & DOHME (ASIA) LTD | 有效 |
+
+上表列出其中 3 張（共 4 張）。
+
+<!-- licenses:end -->
 
 ---
 

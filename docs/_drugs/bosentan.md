@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "BOSENTAN"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bosentan：預測新適應症為類風濕性關節炎 (rheumatoid arthritis)（證據等級 L5）。香港藥劑製品註冊：10 張（有效 10 張）"
 ---
 
@@ -83,6 +83,20 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (rheumatoid arthritis)** �
 | [16766656](https://pubmed.ncbi.nlm.nih.gov/16766656/) | 2006 | 前臨床（非 bosentan 專屬） | PNAS | IL-15 誘發的疼痛過敏涉及內皮素，可被雙重內皮素受體拮抗劑抑制 |
 
 ## 香港上市資訊
+
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65123 | PMS-BOSENTAN TABLETS 62.5MG | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - HEALTHCARE DIVISION | 有效 |
+| HK-65124 | PMS-BOSENTAN TABLETS 125MG | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - HEALTHCARE DIVISION | 有效 |
+| HK-65646 | PULMONAT TABLETS 125MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-65648 | PULMONAT TABLETS 62.5MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-65769 | ACCORD BOSENTAN TABLETS 62.5MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 香港共有 bosentan 單方製劑許可證，目前皆為有效，上市狀態為已上市。許可證明細由系統另行提供，本地資料中未記載核准適應症文字。
 

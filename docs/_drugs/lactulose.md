@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "LACTULOSE"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lactulose：預測新適應症為Acute urate nephropathy（證據等級 L5）。香港藥劑製品註冊：13 張（有效 13 張）"
 ---
 
@@ -89,13 +89,19 @@ TxGNN 模型預測它可能對**阻塞性黃疸 (Obstructive Jaundice)** 有效�
 
 資料顯示 lactulose 在香港有 13 張單一成分的有效許可證，但各許可證均未提供核准適應症文字與劑型，因此無法由許可證確認其核准用途。以下列出 5 張主要許可證：
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-32072 | DUPHALAC ORAL LIQ | 未提供 | 未提供 |
-| HK-43381 | PMS-LACTULOSE SOLUTION 667MG/ML | 未提供 | 未提供 |
-| HK-52805 | DHACTULOSE SYRUP 3.35G/5ML | 未提供 | 未提供 |
-| HK-55625 | OREALAC ORAL SOLUTION 10G/15ML | 未提供 | 未提供 |
-| HK-67979 | LALALAX ORAL SOLUTION 10G/15ML | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-32072 | DUPHALAC ORAL LIQ | 單一成分 | ABBOTT LAB LTD | 有效 |
+| HK-43381 | PMS-LACTULOSE SOLUTION 667MG/ML | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-52805 | DHACTULOSE SYRUP 3.35G/5ML | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-55625 | OREALAC ORAL SOLUTION 10G/15ML | 單一成分 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+| HK-67979 | LALALAX ORAL SOLUTION 10G/15ML | 單一成分 | FP HEALTHCARE LIMITED | 有效 |
+
+上表列出其中 5 張（共 13 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

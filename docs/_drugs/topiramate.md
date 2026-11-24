@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 890
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Topiramate：預測新適應症為三叉神經腫瘤 (Trigeminal Nerve Neoplasm)（證據等級 L5）。原適應症：癲癇（全身性強直陣攣發作、局部癲癇、Lennox-Gastaut 症候群等）"
 monitor_inn: "TOPIRAMATE"
 predicted_indications: ["trigeminal nerve neoplasm"]
@@ -99,13 +99,19 @@ TxGNN 模型預測分數最高的新適應症是**三叉神經腫瘤 (Trigeminal
 
 <!-- review:end hk-lic-20261117-topiramate-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-42315 | TOPAMAX TAB 25MG（Johnson & Johnson） | 錠劑 | 未載明 |
-| HK-42316 | TOPAMAX TAB 50MG（Johnson & Johnson） | 錠劑 | 未載明 |
-| HK-42317 | TOPAMAX TAB 100MG（Johnson & Johnson） | 錠劑 | 未載明 |
-| HK-63959 | TOPIRAMATE SANDOZ TABLET 50MG（Sandoz） | 錠劑 | 未載明 |
-| HK-55963 | APO-TOPIRAMATE TAB 25MG（Hind Wing） | 錠劑 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-42315 | TOPAMAX TAB 25MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-42316 | TOPAMAX TAB 50MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-42317 | TOPAMAX TAB 100MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-63959 | TOPIRAMATE SANDOZ TABLET 50MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-55963 | APO-TOPIRAMATE TAB 25MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 29 張）。
+
+<!-- licenses:end -->
 
 ---
 

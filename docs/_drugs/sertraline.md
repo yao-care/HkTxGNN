@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "SERTRALINE"
 predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sertraline：預測新適應症為Histrionic personality disorder (disease)（證據等級 L5）。香港藥劑製品註冊：25 張（有效 25 張）"
 ---
 
@@ -80,13 +80,19 @@ TxGNN 分數很高（0.9993），但這是以網絡關係為基礎的預測，�
 
 <!-- review:end hk-lic-20261117-sertraline-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-36350 | ZOLOFT TAB 50MG | 未提供 | 未提供 |
-| HK-68926 | ZOLOFT TABLETS 100MG | 未提供 | 未提供 |
-| HK-68989 | LUSTRAL TABLETS 50MG | 未提供 | 未提供 |
-| HK-55760 | SERLOFT TAB 50MG | 未提供 | 未提供 |
-| HK-49970 | APO-SERTRALINE CAP 50MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-36350 | ZOLOFT TAB 50MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-68926 | ZOLOFT TABLETS 100MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-68989 | LUSTRAL TABLETS 50MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-55760 | SERLOFT TAB 50MG | 單一成分 | APT PHARMA LIMITED | 有效 |
+| HK-49970 | APO-SERTRALINE CAP 50MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 25 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

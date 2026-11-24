@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "AMBRISENTAN"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ambrisentan：預測新適應症為肺動靜脈畸形 (pulmonary arteriovenous malformation (disease))（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
@@ -74,10 +74,16 @@ TxGNN 模型預測它可能對**肺動靜脈畸形 (pulmonary arteriovenous malf
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-63502 | VOLIBRIS TABLETS 5MG | 未記載 | 本地資料未記載 |
-| HK-63503 | VOLIBRIS TABLETS 10MG | 未記載 | 本地資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63502 | VOLIBRIS TABLETS 5MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-63503 | VOLIBRIS TABLETS 10MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+
+上表列出其中 2 張（共 4 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

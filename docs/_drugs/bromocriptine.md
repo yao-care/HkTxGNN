@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BROMOCRIPTINE"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "syndromic myopia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bromocriptine：預測新適應症為伴有岩藻糖基化缺陷的先天性糖基化異常 (congenital disorder of glycosylation with defective fucosylation)（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"
 ---
 
@@ -72,13 +72,17 @@ TxGNN 模型預測它可能對**伴有岩藻糖基化缺陷的先天性糖基化
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-32888 | MEDOCRIPTINE TAB 2.5MG | 未記錄 | 未記錄 |
-| HK-34468 | BROMOCRIPTIN TAB 2.5MG (RICHTER) | 未記錄 | 未記錄 |
-| HK-33542 | SYNTOCRIPTINE TAB 2.5MG | 未記錄 | 未記錄 |
-| HK-01595 | PARLODEL TAB 2.5MG | 未記錄 | 未記錄 |
-| HK-40461 | APO-BROMOCRIPTINE TAB 2.5MG | 未記錄 | 未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-32888 | MEDOCRIPTINE TAB 2.5MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-34468 | BROMOCRIPTIN TAB 2.5MG (RICHTER) | 單一成分 | MEKIM LTD | 有效 |
+| HK-33542 | SYNTOCRIPTINE TAB 2.5MG | 單一成分 | CNW FAR EAST LIMITED | 有效 |
+| HK-01595 | PARLODEL TAB 2.5MG | 單一成分 | SKY UNITED TRADING LIMITED | 有效 |
+| HK-40461 | APO-BROMOCRIPTINE TAB 2.5MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

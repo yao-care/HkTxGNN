@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "BARICITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Baricitinib：預測新適應症為脈絡膜缺損性小眼症-肢根型發育不良症候群 (colobomatous microphthalmia-rhizomelic dysplasia syndrome)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
@@ -71,10 +71,14 @@ TxGNN 模型預測它可能對**脈絡膜缺損性小眼症-肢根型發育不�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65664 | OLUMIANT TABLETS 4MG | 未記載 | 未記載 |
-| HK-65663 | OLUMIANT TABLETS 2MG | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65664 | OLUMIANT TABLETS 4MG | 單一成分 | ELI LILLY ASIA, INC. | 有效 |
+| HK-65663 | OLUMIANT TABLETS 2MG | 單一成分 | ELI LILLY ASIA, INC. | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

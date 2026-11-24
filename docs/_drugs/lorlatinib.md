@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "LORLATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lorlatinib：預測新適應症為牙齦纖維瘤病 (Fibromatosis, Gingival)（證據等級 L5）。原適應症：非小細胞肺癌"
 ---
 
@@ -72,10 +72,14 @@ TxGNN 模型預測它可能對**牙齦纖維瘤病 (Fibromatosis, Gingival)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66412 | LORVIQUA TABLETS 25MG | — | 許可證資料未提供 |
-| HK-66411 | LORVIQUA TABLETS 100MG | — | 許可證資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66412 | LORVIQUA TABLETS 25MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-66411 | LORVIQUA TABLETS 100MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張皆為單一成分許可證，持證商為 Pfizer Corporation Hong Kong Limited，狀態有效。
 

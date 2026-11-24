@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "PIROXICAM"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Piroxicam：預測新適應症為眼缺損小眼症－肢根型骨發育不良症候群 (colobomatous microphthalmia-rhizomelic dysplasia syndrome)（證據等級 L5）。原適應症：類風濕性關節炎、骨關節炎"
 ---
 
@@ -89,13 +89,19 @@ TxGNN 模型的首位預測為罕見的骨骼發育異常症候群，但這些�
 
 <!-- review:end hk-lic-20261117-piroxicam-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-44672 | PIROXICAM CAP 20MG | 膠囊（依品名） | 資料未載明 |
-| HK-61587 | PIROXICAM TABLETS 10MG | 錠劑（依品名） | 資料未載明 |
-| HK-37734 | ROSIDEN INJ 20MG/ML | 注射劑（依品名） | 資料未載明 |
-| HK-66650 | PIRADEN GEL 0.5% W/W | 凝膠（依品名） | 資料未載明 |
-| HK-35197 | APO-PIROXICAM CAP 10MG | 膠囊（依品名） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-44672 | PIROXICAM CAP 20MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-61587 | PIROXICAM TABLETS 10MG (PT NOVELL PHARMACEUTICAL LABORATORIES) | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-37734 | ROSIDEN INJ 20MG/ML | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-66650 | PIRADEN GEL 0.5% W/W | 單一成分 | DELTAPHARM LIMITED | 有效 |
+| HK-35197 | APO-PIROXICAM CAP 10MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 53 張）。
+
+<!-- licenses:end -->
 
 上表所列 5 張許可證皆為單一成分製劑，狀態為現行註冊。
 

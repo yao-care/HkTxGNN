@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vilanterol：預測新適應症為過度透亮肺 (hyperlucent lung)（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"
 ---
 
@@ -98,13 +98,17 @@ TxGNN 模型預測它可能對**過度透亮肺 (Hyperlucent lung)** 有效，�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62693 | RELVAR ELLIPTA 吸入粉劑 100mcg/25mcg | 吸入粉劑 | 許可證資料未載明 |
-| HK-62694 | RELVAR ELLIPTA 吸入粉劑 200mcg/25mcg | 吸入粉劑 | 許可證資料未載明 |
-| HK-63414 | ANORO ELLIPTA 吸入粉劑 62.5mcg/25mcg | 吸入粉劑 | 許可證資料未載明 |
-| HK-65911 | TRELEGY ELLIPTA 吸入粉劑 100mcg/62.5mcg/25mcg | 吸入粉劑 | 許可證資料未載明 |
-| HK-67942 | TRELEGY ELLIPTA 吸入粉劑 200mcg/62.5mcg/25mcg | 吸入粉劑 | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62693 | RELVAR ELLIPTA INHALATION POWDER, PRE-DISPENSED 100MCG/25MCG | 複方 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-62694 | RELVAR ELLIPTA INHALATION POWDER, PRE-DISPENSED 200MCG/25MCG | 複方 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-63414 | ANORO ELLIPTA INHALATION POWDER PRE-DISPENSED 62.5MCG/25MCG | 複方 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-65911 | TRELEGY ELLIPTA INHALATION POWDER, PRE-DISPENSED 100MCG/62.5MCG/25MCG | 複方 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-67942 | TRELEGY ELLIPTA INHALATION POWDER, PRE-DISPENSED 200MCG/62.5MCG/25MCG | 複方 | GLAXOSMITHKLINE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

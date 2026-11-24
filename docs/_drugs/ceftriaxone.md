@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CEFTRIAXONE"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ceftriaxone：預測新適應症為高澱粉酶血症 (hyperamylasemia)（證據等級 L5）。香港藥劑製品註冊：28 張（有效 28 張）"
 ---
 
@@ -78,13 +78,19 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (hyperamylasemia)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-52844 | ROCEPHIN POWDER & SOLVENT FOR INJ 250MG IV | 未記載 | 未記載 |
-| HK-61060 | CEFTRIAXONE POWDER FOR SOLUTION FOR INJ 1G | 未記載 | 未記載 |
-| HK-58898 | UNOCEF INJ 1000MG | 未記載 | 未記載 |
-| HK-64249 | KORIXAL POWDER FOR SOLUTION FOR INJECTION 1G | 未記載 | 未記載 |
-| HK-49794 | MEDAXONUM FOR 1M INJ 500MG (W. SOLVENT) | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-52844 | ROCEPHIN POWDER & SOLVENT FOR INJ 250MG IV | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-61060 | CEFTRIAXONE POWDER FOR SOLUTION FOR INJ 1G | 單一成分 | CEUTICAL TRADING COMPANY LIMITED | 有效 |
+| HK-58898 | UNOCEF INJ 1000MG | 單一成分 | WINGS PHARMACEUTICAL LTD | 有效 |
+| HK-64249 | KORIXAL POWDER FOR SOLUTION FOR INJECTION 1G | 單一成分 | LSB (HK) LIMITED | 有效 |
+| HK-49794 | MEDAXONUM FOR 1M INJ 500MG (W. SOLVENT) | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+
+上表列出其中 5 張（共 28 張）。
+
+<!-- licenses:end -->
 
 香港共有 28 張含本藥成分的許可證（全部有效；單一成分 18 張、複方 10 張），以上僅列出其中 5 張主要許可證。
 

@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 3
 monitor_inn: "RILPIVIRINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rilpivirine：預測新適應症為猿猴免疫缺陷病毒感染（證據等級 L4）。原適應症：HIV 感染、愛滋病"
 ---
 
@@ -78,13 +78,17 @@ TxGNN 模型預測它可能對**猿猴免疫缺陷病毒感染 (simian immunodef
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61376 | EDURANT TAB 25MG | 未載明 | 未載明 |
-| HK-67299 | REKAMBYS PROLONGED-RELEASE SUSPENSION FOR INJECTION 600MG/2ML | 未載明 | 未載明 |
-| HK-67300 | REKAMBYS PROLONGED-RELEASE SUSPENSION FOR INJECTION 900MG/3ML | 未載明 | 未載明 |
-| HK-65696 | ODEFSEY TABLETS | 未載明 | 未載明 |
-| HK-67403 | ODEFSEY TABLETS | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61376 | EDURANT TAB 25MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-67299 | REKAMBYS PROLONGED-RELEASE SUSPENSION FOR INJECTION 600MG/2ML | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-67300 | REKAMBYS PROLONGED-RELEASE SUSPENSION FOR INJECTION 900MG/3ML | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-65696 | ODEFSEY TABLETS | 複方 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-67403 | ODEFSEY TABLETS | 複方 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

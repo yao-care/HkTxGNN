@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 839
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SULFAMETHOXAZOLE"
 predicted_indications: ["acute contagious conjunctivitis"]
 description: "Sulfamethoxazole：預測新適應症為急性傳染性結膜炎 (acute contagious conjunctivitis)（證據等級 L5）。香港藥劑製品註冊：10 張（有效 10 張）"
@@ -76,13 +76,19 @@ ChEMBL（EMBL-EBI）收錄的 Sulfamethoxazole 作用機轉（非官方翻譯）
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-43066 | CO-SEPTIC TAB | 未載明 | 未載明 |
-| HK-21598 | TRIMETRIN CAP | 未載明 | 未載明 |
-| HK-09295 | APO-SULFATRIM 400-80MG TAB | 未載明 | 未載明 |
-| HK-59021 | COBACIDE TAB | 未載明 | 未載明 |
-| HK-65292 | DBL SULFAMETHOXAZOLE AND TRIMETHOPRIM CONCENTRATE FOR SOLUTION FOR INFUSION 400MG/80MG | 未載明（品名顯示為輸注用濃縮液） | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-43066 | CO-SEPTIC TAB | 複方 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-21598 | TRIMETRIN CAP | 複方 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-09295 | APO-SULFATRIM 400-80MG TAB | 複方 | HIND WING CO LTD | 有效 |
+| HK-59021 | COBACIDE TAB | 複方 | VAST RESOURCES PHARMACEUTICAL LTD | 有效 |
+| HK-65292 | DBL SULFAMETHOXAZOLE AND TRIMETHOPRIM CONCENTRATE FOR SOLUTION FOR INFUSION 400M… | 複方 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 以上為 10 張有效許可證中的 5 張，均為單方許可證，無已註銷者。
 

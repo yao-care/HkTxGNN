@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "HYDROXOCOBALAMIN"
 predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Hydroxocobalamin：預測新適應症為無出血的食道靜脈曲張（證據等級 L5）。原適應症：知識圖譜中記錄的關聯：維生素 B12 缺乏、氰化物中毒、惡性貧血"
 ---
 
@@ -71,12 +71,16 @@ TxGNN 模型預測它可能對**無出血的食道靜脈曲張 (Esophageal Varic
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62101 | CYANOKIT POWDER FOR SOLUTION FOR INFUSION 5G | 未載明 | 未載明 |
-| HK-18055 | HYCOBAL INJ 5MG/2ML | 未載明 | 未載明 |
-| HK-18525 | HEPATOSWISS FOR IV INFUSION INJ | 未載明 | 未載明 |
-| HK-18057 | HEPATOSWISS IM INJ | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62101 | CYANOKIT POWDER FOR SOLUTION FOR INFUSION 5G | 單一成分 | ZUELLIG PHARMA LIMITED | 有效 |
+| HK-18055 | HYCOBAL INJ 5MG/2ML | 單一成分 | WILCOME PHARMACEUTICAL CO LTD | 有效 |
+| HK-18525 | HEPATOSWISS FOR IV INFUSION INJ | 複方 | WILCOME PHARMACEUTICAL CO LTD | 有效 |
+| HK-18057 | HEPATOSWISS IM INJ | 複方 | WILCOME PHARMACEUTICAL CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

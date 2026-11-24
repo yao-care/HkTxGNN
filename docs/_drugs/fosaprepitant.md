@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "FOSAPREPITANT"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "pneumocystosis", "leprosy", "Cryptococcal meningitis", "multiple endocrine neoplasia", "intracranial abscess", "retinitis", "Plasmodium falciparum malaria", "echinococcus granulosus infectious disease", "hyperargininemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fosaprepitant：預測新適應症為腎因性抗利尿不適當症候群（證據等級 L5）。原適應症：許可證未載明"
 ---
 
@@ -71,9 +71,13 @@ TxGNN 的高分只是計算預測，沒有臨床或文獻支持，應視為待�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68703 | FOSAPREPITANT POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 150MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68703 | FOSAPREPITANT POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 150MG | 單一成分 | JANCO HEALTHCARE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

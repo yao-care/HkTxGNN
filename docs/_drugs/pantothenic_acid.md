@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "PANTOTHENIC ACID"
 predicted_indications: ["congenital prothrombin deficiency", "ochronosis disorder", "glycerol metabolism disease", "folic acid deficiency anemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urinary tract infection (disease)", "gonococcal urethritis", "Ureaplasma urethritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Pantothenic Acid：預測新適應症為先天性凝血酶原缺乏症 (Congenital Prothrombin Deficiency)（證據等級 L5）。原適應症：抗壞血酸缺乏症、壞血病"
 ---
 
@@ -85,10 +85,14 @@ TxGNN 模型預測它可能對**先天性凝血酶原缺乏症 (Congenital Proth
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-23023 | BIOCATALIN INJECTABLE SOLN (VET) | 未載明 | 未載明 |
-| HK-56452 | CERNEVIT FOR INJ | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-23023 | BIOCATALIN INJECTABLE SOLN (VET) | 複方 | WAI LUNG HONG AGRIBUSINESS LTD | 有效 |
+| HK-56452 | CERNEVIT FOR INJ | 複方 | BAXTER HEALTHCARE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

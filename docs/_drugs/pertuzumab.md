@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pertuzumab：預測新適應症為外胚間葉瘤 (Ectomesenchymoma)（證據等級 L5）。原適應症：HER2 陽性乳癌"
 ---
 
@@ -72,11 +72,15 @@ TxGNN 模型預測它可能對**外胚間葉瘤 (Ectomesenchymoma)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62758 | PERJETA CONCENTRATE FOR SOLUTION FOR INFUSION 420MG | 未提供 | 未提供 |
-| HK-67118 | PHESGO SOLUTION FOR SUBCUTANEOUS INJECTION 1200MG/600MG IN 15ML | 未提供 | 未提供 |
-| HK-67119 | PHESGO SOLUTION FOR SUBCUTANEOUS INJECTION 600MG/600MG IN 10ML | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62758 | PERJETA CONCENTRATE FOR SOLUTION FOR INFUSION 420MG | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-67118 | PHESGO SOLUTION FOR SUBCUTANEOUS INJECTION 1200MG/600MG IN 15ML | 複方 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-67119 | PHESGO SOLUTION FOR SUBCUTANEOUS INJECTION 600MG/600MG IN 10ML | 複方 | ROCHE HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 以上三張許可證均為有效，持證商為 ROCHE HONG KONG LIMITED。
 

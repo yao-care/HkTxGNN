@@ -136,7 +136,9 @@
     }
    ],
    "checked": "2026-11-17",
-   "summary": "「HK-47462 | DIMETAPP ELIXIR |  | 有效」→「HK-47462 | DIMETAPP ELIXIR |  | 已註銷」"
+   "summary": "「HK-47462 | DIMETAPP ELIXIR |  | 有效」→「HK-47462 | DIMETAPP ELIXIR |  | 已註銷」",
+   "status": "superseded",
+   "superseded_by": "程式化許可證表（scripts/sync_license_tables.py，2026-11-24 依證據包（衞生署藥物辦公室註冊名單 DrugList.xml）產生）"
   },
   {
    "id": "hk-lic-20261117-carbinoxamine-1",
@@ -641,7 +643,9 @@
     }
    ],
    "checked": "2026-11-17",
-   "summary": "「BAYER HEALTHCARE LIMITED | 有效（單一成分）」→「BAYER HEALTHCARE LIMITED | 已註銷（單一成分）」"
+   "summary": "「BAYER HEALTHCARE LIMITED | 有效（單一成分）」→「BAYER HEALTHCARE LIMITED | 已註銷（單一成分）」",
+   "status": "superseded",
+   "superseded_by": "程式化許可證表（scripts/sync_license_tables.py，2026-11-24 依證據包（衞生署藥物辦公室註冊名單 DrugList.xml）產生）"
   },
   {
    "id": "hk-lic-20261117-itraconazole-1",
@@ -906,7 +910,9 @@
     }
    ],
    "checked": "2026-11-17",
-   "summary": "「HK-60373 | NIASPAN EXTENDED-RELEASE TAB 」→「HK-60373 | NIASPAN EXTENDED-RELEASE TAB 」"
+   "summary": "「HK-60373 | NIASPAN EXTENDED-RELEASE TAB 」→「HK-60373 | NIASPAN EXTENDED-RELEASE TAB 」",
+   "status": "superseded",
+   "superseded_by": "程式化許可證表（scripts/sync_license_tables.py，2026-11-24 依證據包（衞生署藥物辦公室註冊名單 DrugList.xml）產生）"
   },
   {
    "id": "hk-row-20261117-niacin-2",
@@ -935,7 +941,9 @@
     }
    ],
    "checked": "2026-11-17",
-   "summary": "「HK-60374 | NIASPAN EXTENDED-RELEASE TAB 」→「HK-60374 | NIASPAN EXTENDED-RELEASE TAB 」"
+   "summary": "「HK-60374 | NIASPAN EXTENDED-RELEASE TAB 」→「HK-60374 | NIASPAN EXTENDED-RELEASE TAB 」",
+   "status": "superseded",
+   "superseded_by": "程式化許可證表（scripts/sync_license_tables.py，2026-11-24 依證據包（衞生署藥物辦公室註冊名單 DrugList.xml）產生）"
   },
   {
    "id": "hk-lic-20261117-polyvinyl_alcohol-1",
@@ -993,7 +1001,9 @@
     }
    ],
    "checked": "2026-11-17",
-   "summary": "「HK-15916 | RELAZIDE TAB |  | 有效」→「HK-15916 | RELAZIDE TAB |  | 已註銷」"
+   "summary": "「HK-15916 | RELAZIDE TAB |  | 有效」→「HK-15916 | RELAZIDE TAB |  | 已註銷」",
+   "status": "superseded",
+   "superseded_by": "程式化許可證表（scripts/sync_license_tables.py，2026-11-24 依證據包（衞生署藥物辦公室註冊名單 DrugList.xml）產生）"
   },
   {
    "id": "hk-lic-20261117-ritonavir-1",
@@ -1051,7 +1061,9 @@
     }
    ],
    "checked": "2026-11-17",
-   "summary": "「HK-68216 | TAZVERIK TABLETS 200MG |  | 有」→「HK-68216 | TAZVERIK TABLETS 200MG |  | 已」"
+   "summary": "「HK-68216 | TAZVERIK TABLETS 200MG |  | 有」→「HK-68216 | TAZVERIK TABLETS 200MG |  | 已」",
+   "status": "superseded",
+   "superseded_by": "程式化許可證表（scripts/sync_license_tables.py，2026-11-24 依證據包（衞生署藥物辦公室註冊名單 DrugList.xml）產生）"
   },
   {
    "id": "hk-lic-20261117-tegafur-1",

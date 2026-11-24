@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Emtricitabine：預測新適應症為貓後天免疫缺陷症候群 (Feline Acquired Immunodeficiency Syndrome)（證據等級 L5）。原適應症：HIV 感染、AIDS"
 monitor_inn: "EMTRICITABINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -91,13 +91,19 @@ TxGNN 模型預測它可能對**貓後天免疫缺陷症候群 (Feline Acquired 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64704 | DESCOVY TABLETS 200MG/25MG（Gilead） | 錠劑 | 資料未提供 |
-| HK-57749 | TRUVADA TAB (IRELAND)（Gilead） | 錠劑 | 資料未提供 |
-| HK-56076 | TRUVADA TAB（Gilead） | 錠劑 | 資料未提供 |
-| HK-65914 | BIKTARVY TABLETS（Gilead） | 錠劑 | 資料未提供 |
-| HK-65912 | SYMTUZA TABLETS（Johnson & Johnson） | 錠劑 | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64704 | DESCOVY TABLETS 200MG/25MG | 複方 | GILEAD SCIENCES HONG KONG LIMITED | 有效 |
+| HK-57749 | TRUVADA TAB (IRELAND) | 複方 | GILEAD SCIENCES HONG KONG LIMITED | 有效 |
+| HK-56076 | TRUVADA TAB | 複方 | GILEAD SCIENCES HONG KONG LIMITED | 有效 |
+| HK-65914 | BIKTARVY TABLETS | 複方 | GILEAD SCIENCES HONG KONG LIMITED | 有效 |
+| HK-65912 | SYMTUZA TABLETS | 複方 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+
+上表列出其中 5 張（共 15 張）。
+
+<!-- licenses:end -->
 
 另有 10 張單方許可證（含多家學名藥與 ODEFSEY 等），皆為有效狀態。
 

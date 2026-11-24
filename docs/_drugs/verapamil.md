@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 931
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 description: "Verapamil：預測新適應症為Obsolete bundle branch block（證據等級 L5）。香港藥劑製品註冊：8 張（有效 7 張）"
@@ -75,13 +75,19 @@ Verapamil 是一種鈣離子通道阻斷劑，原本用於高血壓、心房顫�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-01261 | ISOPTIN TAB 40 MG | 未載明 | 未載明 |
-| HK-40707 | AKILEN TAB 40MG | 未載明 | 未載明 |
-| HK-33700 | ANPEC 80 TAB 80MG | 未載明 | 未載明 |
-| HK-55703 | VERAPAMIL HYDROCHLORIDE INJ 2.5MG/ML | 注射劑（依品名） | 未載明 |
-| HK-36259 | APO-VERAP TAB 80MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-01261 | ISOPTIN TAB 40 MG | 單一成分 | ABBOTT LAB LTD | 有效 |
+| HK-40707 | AKILEN TAB 40MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-33700 | ANPEC 80 TAB 80MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-55703 | VERAPAMIL HYDROCHLORIDE INJ 2.5MG/ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-36259 | APO-VERAP TAB 80MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 （共 8 張單方許可證，7 張有效、HK-40708 已註銷；上表列出其中 5 張。）
 

@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 379
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Flecainide：預測新適應症為中風 (stroke disorder)（證據等級 L3）。原適應症：心房顫動 (atrial fibrillation)"
 monitor_inn: "Flecainide"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -94,13 +94,19 @@ TxGNN 模型預測它可能對**中風 (stroke disorder)** 有效，但目前只
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-24395 | TAMBOCOR TAB 100MG | — | — |
-| HK-56748 | VICK-FLECAINIDE TAB 100MG | — | — |
-| HK-60854 | TAMBOCOR CR CAP 200MG | — | — |
-| HK-60853 | TAMBOCOR CR CAP 100MG | — | — |
-| HK-56061 | APO-FLECAINIDE TAB 100MG | — | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-24395 | TAMBOCOR TAB 100MG | 單一成分 | INOVA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-56748 | VICK-FLECAINIDE TAB 100MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-60854 | TAMBOCOR CR CAP 200MG | 單一成分 | INOVA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-60853 | TAMBOCOR CR CAP 100MG | 單一成分 | INOVA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-56061 | APO-FLECAINIDE TAB 100MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ramipril：預測新適應症為Pulmonary hypertension owing to lung disease and/or hypoxia（證據等級 L5）。香港藥劑製品註冊：6 張（有效 6 張）"
 ---
 
@@ -78,13 +78,19 @@ TxGNN 模型預測它可能對**肺高壓（因肺部疾病和/或缺氧所致�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55957 | APT-RAMIPRIL TAB 2.5MG | 未載明 | 未載明 |
-| HK-57336 | APO-RAMIPRIL CAP 5MG | 未載明 | 未載明 |
-| HK-36855 | TRITACE 2.5MG TAB | 未載明 | 未載明 |
-| HK-36856 | TRITACE 5MG TAB | 未載明 | 未載明 |
-| HK-55956 | APT-RAMIPRIL TAB 5MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55957 | APT-RAMIPRIL TAB 2.5MG | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-57336 | APO-RAMIPRIL CAP 5MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-36855 | TRITACE 2.5MG TAB | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-36856 | TRITACE 5MG TAB | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-55956 | APT-RAMIPRIL TAB 5MG | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 另有 1 張許可證（HK-57478，APO-RAMIPRIL CAP 2.5MG）未列於上表。
 

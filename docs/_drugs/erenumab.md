@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 332
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Erenumab: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 ---
@@ -72,10 +72,14 @@ TxGNN 模型針對 Erenumab 產生的候選（分數 ≥ 0.99），所有可追�
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-66847 | AIMOVIG SOLUTION FOR INJECTION IN PRE-FILLED PEN 140MG/ML |  | 有效 |
-| HK-66406 | AIMOVIG SOLUTION FOR INJECTION IN PRE-FILLED PEN 70MG/ML |  | 有效 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66847 | AIMOVIG SOLUTION FOR INJECTION IN PRE-FILLED PEN 140MG/ML | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-66406 | AIMOVIG SOLUTION FOR INJECTION IN PRE-FILLED PEN 70MG/ML | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

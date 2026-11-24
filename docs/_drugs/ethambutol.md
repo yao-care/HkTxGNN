@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Ethambutol：預測新適應症為會厭炎 (Epiglottitis)（證據等級 L5）。原適應症：肺結核 (Pulmonary tuberculosis)"
 monitor_inn: "Ethambutol"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]
@@ -83,12 +83,16 @@ TxGNN 模型預測它可能對**會厭炎 (Epiglottitis)** 有效，但目前**�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-50311 | EMB-FATOL TAB 400MG | — | — |
-| HK-67534 | TAMBUTOL TABLETS 400MG | — | — |
-| HK-50312 | EMB-FATOL TAB 100MG | — | — |
-| HK-60915 | LAMBUTOL TAB 400MG | — | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-50311 | EMB-FATOL TAB 400MG | 單一成分 | MEKIM LTD | 有效 |
+| HK-67534 | TAMBUTOL TABLETS 400MG | 單一成分 | SB PHARMA LIMITED | 有效 |
+| HK-50312 | EMB-FATOL TAB 100MG | 單一成分 | MEKIM LTD | 有效 |
+| HK-60915 | LAMBUTOL TAB 400MG | 單一成分 | ATLANTIC PHARMACEUTICAL LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ASCORBIC ACID"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ascorbic Acid：預測新適應症為非症候群性食道畸形 (non-syndromic esophageal malformation)（證據等級 L5）。香港藥劑製品註冊：28 張（有效 28 張）"
 ---
 
@@ -80,13 +80,19 @@ TxGNN 模型預測它可能對**非症候群性食道畸形 (non-syndromic esoph
 
 <!-- review:end hk-lic-20261117-ascorbic_acid-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-49625 | UNITED PUNTAN VITA C EFF TAB 1G (ORANGE) | 未記載 | 未記載 |
-| HK-44632 | VICIMIN TAB 250MG CHEWABLE ORANGE | 未記載 | 未記載 |
-| HK-49626 | UNITED PUNTAN VITA C EFF TAB 1G BLACKCUR | 未記載 | 未記載 |
-| HK-06460 | VITAMIN C INJ 500MG/2ML | 未記載 | 未記載 |
-| HK-06465 | CECAP CHEWABLE TAB 100MG | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-49625 | UNITED PUNTAN VITA C EFF TAB 1G (ORANGE) | 單一成分 | THE UNITED LABORATORIES LTD | 有效 |
+| HK-44632 | VICIMIN TAB 250MG CHEWABLE ORANGE | 單一成分 | ADVANCE PHARMACEUTICAL COMPANY LIMITED | 有效 |
+| HK-49626 | UNITED PUNTAN VITA C EFF TAB 1G BLACKCUR | 單一成分 | THE UNITED LABORATORIES LTD | 有效 |
+| HK-06460 | VITAMIN C INJ 500MG/2ML | 單一成分 | ATLANTIC PHARMACEUTICAL LIMITED | 有效 |
+| HK-06465 | CECAP CHEWABLE TAB 100MG | 單一成分 | ATLANTIC PHARMACEUTICAL LIMITED | 有效 |
+
+上表列出其中 5 張（共 28 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

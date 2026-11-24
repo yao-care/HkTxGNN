@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 523
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Levobupivacaine：預測新適應症為胃十二指腸炎 (Gastroduodenitis)（證據等級 L5）。原適應症：資料未記載"
 monitor_inn: "LEVOBUPIVACAINE"
 predicted_indications: ["gastroduodenitis"]
@@ -81,11 +81,15 @@ TxGNN 模型預測它可能對**胃十二指腸炎 (Gastroduodenitis)** 有效�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67067 | LEVOBUPIVACAINE KABI SOLUTION FOR INJECTION/INFUSION 50MG/10ML（Fresenius Kabi） | 注射/輸注溶液 | 資料未記載 |
-| HK-67344 | LEVOBUPIVACAINE SOLUTION FOR INJECTION OR INFUSION 50MG/10ML（Hong Kong Medical Supplies） | 注射/輸注溶液 | 資料未記載 |
-| HK-67066 | LEVOBUPIVACAINE KABI SOLUTION FOR INJECTION/INFUSION 25MG/10ML（Fresenius Kabi） | 注射/輸注溶液 | 資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67067 | LEVOBUPIVACAINE KABI SOLUTION FOR INJECTION/INFUSION 50MG/10ML | 單一成分 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-67344 | LEVOBUPIVACAINE SOLUTION FOR INJECTION OR INFUSION 50MG/10ML | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-67066 | LEVOBUPIVACAINE KABI SOLUTION FOR INJECTION/INFUSION 25MG/10ML | 單一成分 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "LEVOCARNITINE"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "rheumatoid arthritis", "sclerosing cholangitis", "gout", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congestive heart failure", "hypoalphalipoproteinemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Levocarnitine：預測新適應症為Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
@@ -71,12 +71,16 @@ TxGNN 模型預測它可能對**常染色體顯性家族性血尿－視網膜小
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-39342 | CARNITOR INJ 1G/5ML | LEE'S PHARMACEUTICAL (H.K) LIMITED |
-| HK-41015 | CARNITOR TAB 330MG | LEE'S PHARMACEUTICAL (H.K) LIMITED |
-| HK-36344 | CARNITENE SOLUTION 30% | SINO-ASIA PHARMACEUTICAL SUPPLIES LTD |
-| HK-67686 | INESTOM PEDIATRIC ORAL SOLUTION 300MG/ML | HONG KONG MEDICAL SUPPLIES LTD |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-39342 | CARNITOR INJ 1G/5ML | 單一成分 | LEE'S PHARMACEUTICAL (H.K) LIMITED | 有效 |
+| HK-41015 | CARNITOR TAB 330MG | 單一成分 | LEE'S PHARMACEUTICAL (H.K) LIMITED | 有效 |
+| HK-36344 | CARNITENE SOLUTION 30% | 單一成分 | SINO-ASIA PHARMACEUTICAL SUPPLIES LTD | 有效 |
+| HK-67686 | INESTOM PEDIATRIC ORAL SOLUTION 300MG/ML | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+
+<!-- licenses:end -->
 
 以上 4 張均為有效的單一成分許可證，劑型與核准適應症文字在本報告彙整的資料中未提供。
 

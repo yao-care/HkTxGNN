@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 863
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Terbutaline"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Terbutaline：預測新適應症為呼吸道畸形 (respiratory malformation)（證據等級 L5）。香港藥劑製品註冊：19 張（有效 19 張）"
@@ -86,13 +86,19 @@ TxGNN 模型預測它可能對**呼吸道畸形 (respiratory malformation)** 有
 
 香港共有 19 張有效的單方許可證，以下列出 5 張：
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-48007 | TERBUTA TAB 2.5MG | 錠劑（2.5 mg） | 資料未載明 |
-| HK-46514 | BALTIC-D TAB 2.5MG | 錠劑（2.5 mg） | 資料未載明 |
-| HK-49032 | VICKTALINE SYRUP 3MG/5ML | 糖漿（3 mg/5 mL） | 資料未載明 |
-| HK-55764 | APT-TERBUTALINE SR TAB 5MG | 緩釋錠（5 mg） | 資料未載明 |
-| HK-64629 | BUTANYL NEBULISER SOLUTION 2.5MG/ML | 噴霧吸入液（2.5 mg/mL） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-48007 | TERBUTA TAB 2.5MG | 單一成分 | CHRISTO PHARM LTD | 有效 |
+| HK-46514 | BALTIC-D TAB 2.5MG | 單一成分 | NATURAL HEALTH RESOURCES COMPANY LIMITED | 有效 |
+| HK-49032 | VICKTALINE SYRUP 3MG/5ML | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-55764 | APT-TERBUTALINE SR TAB 5MG | 單一成分 | APT PHARMA LIMITED | 有效 |
+| HK-64629 | BUTANYL NEBULISER SOLUTION 2.5MG/ML | 單一成分 | WINGS PHARMACEUTICAL LTD | 有效 |
+
+上表列出其中 5 張（共 19 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

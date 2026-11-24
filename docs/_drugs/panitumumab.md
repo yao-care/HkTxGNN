@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 662
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Panitumumab：預測新適應症為藥物誘發性骨質疏鬆 (Drug-induced Osteoporosis)（證據等級 L5）。原適應症：轉移性大腸腫瘤（Metastatic malignant neoplasm in the colon）"
 monitor_inn: "PANITUMUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
@@ -72,9 +72,13 @@ EGFR 訊號參與成骨細胞分化與骨重塑，因此從生物學上推論，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61371 | VECTIBIX CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/ML | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61371 | VECTIBIX CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/ML | 單一成分 | AMGEN HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 此為單一成分製劑，由 AMGEN HONG KONG LIMITED 持有，許可證狀態為有效。
 

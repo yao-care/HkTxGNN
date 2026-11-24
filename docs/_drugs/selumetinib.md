@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 806
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Selumetinib"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "acromelanosis", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "trigeminal schwannoma"]
 description: "Selumetinib：預測新適應症為Familial generalized lentiginosis（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
@@ -105,10 +105,14 @@ NF2 相關神經鞘瘤病 (NF2-SWN) 的鞘瘤與 merlin 蛋白缺失有關，會
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67363 | KOSELUGO CAPSULES 25MG | 膠囊 | 未提供 |
-| HK-67362 | KOSELUGO CAPSULES 10MG | 膠囊 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67363 | KOSELUGO CAPSULES 25MG | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-67362 | KOSELUGO CAPSULES 10MG | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證均為單方、有效，持有者為 ASTRAZENECA HONG KONG LIMITED。
 

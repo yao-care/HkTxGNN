@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Carbenoxolone"
 predicted_indications: ["non-syndromic esophageal malformation", "vitamin deficiency disorder", "biotin metabolic disease", "filariasis", "bile duct disease", "bile duct neoplasm", "tinea nigra"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carbenoxolone：預測新適應症為非症候群性食道畸形 (non-syndromic esophageal malformation)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
@@ -72,9 +72,13 @@ ChEMBL（EMBL-EBI）收錄的 Carbenoxolone 作用機轉（非官方翻譯）：
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-25547 | HERPESAN GEL 2% | 未記載 | 本地資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-25547 | HERPESAN GEL 2% | 單一成分 | JACOBSON MEDICAL (HONG KONG) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

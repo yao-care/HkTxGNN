@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CEFTAZIDIME"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ceftazidime：預測新適應症為多株性高黏滯症候群 (polyclonal hyperviscosity syndrome)（證據等級 L5）。香港藥劑製品註冊：8 張（有效 8 張）"
 ---
 
@@ -72,13 +72,19 @@ TxGNN 模型預測它可能對**多株性高黏滯症候群 (polyclonal hypervis
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-21523 | FORTUM FOR INJ 2G | SANDOZ HONG KONG LIMITED |
-| HK-21522 | FORTUM FOR INJ 500MG | SANDOZ HONG KONG LIMITED |
-| HK-21251 | FORTUM FOR INJ 1G | SANDOZ HONG KONG LIMITED |
-| HK-57297 | CEFTAZIDIME FOR INJ 1G (REYOUNG) | JINDUN PHARMA (H.K.) LIMITED |
-| HK-61251 | CEFTAZIDIME POWDER FOR SOLUTION FOR INJECTION 2G | CEUTICAL TRADING COMPANY LIMITED |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-21523 | FORTUM FOR INJ 2G | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-21522 | FORTUM FOR INJ 500MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-21251 | FORTUM FOR INJ 1G | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-57297 | CEFTAZIDIME FOR INJ 1G (REYOUNG) | 單一成分 | JINDUN PHARMA (H.K.) LIMITED | 有效 |
+| HK-61251 | CEFTAZIDIME POWDER FOR SOLUTION FOR INJECTION 2G | 單一成分 | CEUTICAL TRADING COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

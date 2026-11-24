@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 861
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Teprotumumab：預測新適應症為monosomy X（證據等級 L5）。原適應症：內分泌性眼球突出（endocrine exophthalmos）"
 monitor_inn: "Teprotumumab"
 predicted_indications: ["monosomy X", "esophageal varices without bleeding", "esophageal varices with bleeding", "mixed gonadal dysgenesis", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Turner syndrome due to structural X chromosome anomalies", "mosaic monosomy X", "sex chromosome disorder of sex development", "varicose disease", "X chromosome number anomaly"]
@@ -71,9 +71,13 @@ Monosomy X（透納氏症）的特徵為身材矮小與性腺發育不全，與 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68834 | TEPEZZA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 500MG（Amgen Hong Kong Limited） | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68834 | TEPEZZA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 500MG | 單一成分 | AMGEN HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

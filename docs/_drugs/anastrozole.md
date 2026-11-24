@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Anastrozole"
 predicted_indications: ["neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Anastrozole：預測新適應症為神經母細胞瘤 (neuroblastoma)（證據等級 L5）。香港藥劑製品註冊：12 張（有效 11 張）"
 ---
 
@@ -70,13 +70,19 @@ TxGNN 模型預測它可能對**神經母細胞瘤 (neuroblastoma)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-60845 | ANASTROZOLE TAB 1MG | 錠劑 | 本地資料未記錄 |
-| HK-42327 | ARIMIDEX TAB 1MG | 錠劑 | 本地資料未記錄 |
-| HK-59928 | ANASTROZOLE TAB 1MG | 錠劑 | 本地資料未記錄 |
-| HK-61332 | ANASTROZOLE STADA TAB 1MG | 錠劑 | 本地資料未記錄 |
-| HK-59104 | AREMED 1 TAB 1MG | 錠劑 | 本地資料未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-60845 | ANASTROZOLE TAB 1MG | 單一成分 | KAI YUEN PHARMACEUTICAL CO | 已註銷 |
+| HK-42327 | ARIMIDEX TAB 1MG | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-59928 | ANASTROZOLE TAB 1MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-61332 | ANASTROZOLE STADA TAB 1MG | 單一成分 | STADA PHARMACEUTICALS (ASIA) LIMITED | 有效 |
+| HK-59104 | AREMED 1 TAB 1MG | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+
+上表列出其中 5 張（共 12 張）。
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

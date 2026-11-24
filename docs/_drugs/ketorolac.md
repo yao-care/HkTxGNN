@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 499
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
 description: "Ketorolac：預測新適應症為頭痛疾患 (headache disorder)（證據等級 L1）。香港藥劑製品註冊：5 張（有效 5 張）"
@@ -111,13 +111,17 @@ TxGNN 模型預測它可能對**頭痛疾患 (Headache Disorder)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-49503 | KETO INJ 30MG/ML | 未載明 | 未載明 |
-| HK-67719 | REMOPAIN SOLUTION FOR INJECTION 30MG/1ML | 未載明 | 未載明 |
-| HK-35309 | TORADOL INJ 3% | 未載明 | 未載明 |
-| HK-53935 | KETO ENTERIC-MICROENCAPSULATED CAP 10MG | 未載明 | 未載明 |
-| HK-60656 | KETOROLAC TROMETAMOL NORMON INJ SOLN 30MG/ML | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-49503 | KETO INJ 30MG/ML | 單一成分 | YUNG SHIN CO LTD | 有效 |
+| HK-67719 | REMOPAIN SOLUTION FOR INJECTION 30MG/1ML | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-35309 | TORADOL INJ 3% | 單一成分 | PRUDENTLINK LIMITED | 有效 |
+| HK-53935 | KETO ENTERIC-MICROENCAPSULATED CAP 10MG | 單一成分 | YUNG SHIN CO LTD | 有效 |
+| HK-60656 | KETOROLAC TROMETAMOL NORMON INJ SOLN 30MG/ML | 單一成分 | HIND WING CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 香港目前登記的 5 張許可證均為有效的單方製劑，以注射劑為主，另有 1 張口服腸溶膠囊。
 

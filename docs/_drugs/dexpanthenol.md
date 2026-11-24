@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "DEXPANTHENOL"
 predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
 description: "Dexpanthenol：預測新適應症為肛門直腸狹窄 (anorectal stricture)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
@@ -90,10 +90,14 @@ TxGNN 模型預測分數最高的新適應症是**肛門直腸狹窄 (Anorectal 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55710 | CORNEREGEL EYE GEL 50MG/G | 未提供 | 未提供 |
-| HK-43879 | SICCAPROTECT EYE DROPS | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55710 | CORNEREGEL EYE GEL 50MG/G | 單一成分 | BAUSCH & LOMB (HK) LTD | 有效 |
+| HK-43879 | SICCAPROTECT EYE DROPS | 複方 | REICH PHARM LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證均為單方、有效狀態，皆為眼科製劑。
 

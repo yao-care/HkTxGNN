@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 697
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Pilocarpine: known uses and market status in Hong Kong; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,14 +72,18 @@ TxGNN 模型為 Pilocarpine 產生的候選適應症，經追溯來源後全部�
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-16908 | ISOPTO CARPINE OPHTH SOLN 1% |  | 有效 |
-| HK-09057 | PILOCARPINE EYE DROPS 1% |  | 有效 |
-| HK-17266 | ISOPTO CARPINE EYE DROPS 4% |  | 有效 |
-| HK-16907 | ISOPTO CARPINE OPHTH SOLN 2% |  | 有效 |
-| HK-09061 | PILOCARPINE EYE DROPS BP 4% |  | 有效 |
-| HK-09067 | PILOCARPINE EYE DROPS BP 2% |  | 有效 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-16908 | ISOPTO CARPINE OPHTH SOLN 1% | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-09057 | PILOCARPINE EYE DROPS 1% | 單一成分 | THE INTERNATIONAL MEDICAL COMPANY LIMITED | 有效 |
+| HK-17266 | ISOPTO CARPINE EYE DROPS 4% | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-16907 | ISOPTO CARPINE OPHTH SOLN 2% | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-09061 | PILOCARPINE EYE DROPS BP 4% | 單一成分 | THE INTERNATIONAL MEDICAL COMPANY LIMITED | 有效 |
+| HK-09067 | PILOCARPINE EYE DROPS BP 2% | 單一成分 | THE INTERNATIONAL MEDICAL COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

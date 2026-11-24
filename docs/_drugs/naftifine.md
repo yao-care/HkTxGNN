@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 606
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "Naftifine"
 predicted_indications: ["ectothrix infectious disease", "pityriasis versicolor", "endothrix infectious disease"]
 description: "Naftifine：預測新適應症為Ectothrix infectious disease（證據等級 L5）。香港藥劑製品註冊：10 張（有效 10 張）"
@@ -91,13 +91,19 @@ Naftifine 是烯丙胺類抗黴菌藥，透過抑制角鯊烯環氧酶（squalen
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68013 | ANZUMEI CREAM 1% W/W | 乳膏（品名標示） | 資料未載明 |
-| HK-63468 | NAFZOLE CREAM 1% W/W | 乳膏（品名標示） | 資料未載明 |
-| HK-66310 | ANCENT NAFTIFINE CREAM 1% W/W | 乳膏（品名標示） | 資料未載明 |
-| HK-59701 | NACOSIL CREAM 1% | 乳膏（品名標示） | 資料未載明 |
-| HK-66311 | LONADERM NAFTIFINE CREAM 1% W/W | 乳膏（品名標示） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68013 | ANZUMEI CREAM 1% W/W | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-63468 | NAFZOLE CREAM 1% W/W | 單一成分 | LSB (HK) LIMITED | 有效 |
+| HK-66310 | ANCENT NAFTIFINE CREAM 1% W/W | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-59701 | NACOSIL CREAM 1% | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-66311 | LONADERM NAFTIFINE CREAM 1% W/W | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 另有 5 張許可證（HK-59698、HK-59702、HK-59700、HK-59699、HK-53383），均為 1% 乳膏、單方、現行有效。
 

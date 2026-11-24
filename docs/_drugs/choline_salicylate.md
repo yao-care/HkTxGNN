@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Choline salicylate"
 predicted_indications: ["Prinzmetal angina", "hypertensive disorder", "migraine disorder", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "malignant renovascular hypertension", "Raynaud disease", "pulmonary hypertension"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 description: "Choline Salicylate：預測新適應症為變異型心絞痛 (Prinzmetal angina)（證據等級 L5）。香港藥劑製品註冊：8 張（有效 8 張）"
 ---
 
@@ -70,13 +70,19 @@ TxGNN 模型預測它可能對**變異型心絞痛 (Prinzmetal angina)** 有效�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-32005 | DERMOJELA GEL | 凝膠 | 本地資料未記錄 |
-| HK-32406 | OROJEL ORAL GEL | 口腔凝膠 | 本地資料未記錄 |
-| HK-37437 | BONJELA GEL | 凝膠 | 本地資料未記錄 |
-| HK-35703 | ORO-SEP GEL | 凝膠 | 本地資料未記錄 |
-| HK-30925 | ORIS-GEL | 凝膠 | 本地資料未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-32005 | DERMOJELA GEL | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-32406 | OROJEL ORAL GEL | 單一成分 | MARCHING PHARMACEUTICAL LIMITED | 有效 |
+| HK-37437 | BONJELA GEL | 複方 | RECKITT BENCKISER HONG KONG LTD | 有效 |
+| HK-35703 | ORO-SEP GEL | 複方 | MARCHING PHARMACEUTICAL LIMITED | 有效 |
+| HK-30925 | ORIS-GEL | 複方 | MARCHING PHARMACEUTICAL LIMITED | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 目前 8 張許可證皆為有效的單一成分製劑。
 

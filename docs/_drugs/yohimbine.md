@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 947
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Yohimbine：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L4）。原適應症：資料未載明"
 monitor_inn: "Yohimbine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "primary hereditary glaucoma", "headache disorder", "transient ischemic attack (disease)", "common cold", "open-angle glaucoma"]
@@ -90,9 +90,13 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，不過�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-44766 | PMS-YOHIMBINE TAB 6MG | 錠劑（資料未載明） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-44766 | PMS-YOHIMBINE TAB 6MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

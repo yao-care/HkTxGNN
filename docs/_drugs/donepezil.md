@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 description: "Donepezil：預測新適應症為Psychogenic movement disorders（證據等級 L5）。香港藥劑製品註冊：31 張（有效 31 張）"
@@ -98,13 +98,19 @@ TxGNN 模型預測它可能對**慢性抽動障礙 (Chronic Tic Disorder)** 有�
 
 <!-- review:end hk-lic-20261117-donepezil-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-42889 | ARICEPT TAB 10MG（衛采 Eisai） | 錠劑 | 資料未載明 |
-| HK-61846 | ARICEPT TABLETS 23MG（衛采 Eisai） | 錠劑 | 資料未載明 |
-| HK-59867 | ALZEDON TAB 5MG（Sandoz） | 錠劑 | 資料未載明 |
-| HK-63773 | DONEPEZIL STADA TABLETS 10MG | 錠劑 | 資料未載明 |
-| HK-65710 | DONEPEZIL HCL GENEPHARM ORODISPERSIBLE TABLETS 10MG | 口崩錠 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-42889 | ARICEPT TAB 10MG | 單一成分 | EISAI (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-61846 | ARICEPT TABLETS 23MG | 單一成分 | EISAI (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-59867 | ALZEDON TAB 5MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-63773 | DONEPEZIL STADA TABLETS 10MG | 單一成分 | STADA PHARMACEUTICALS (ASIA) LIMITED | 有效 |
+| HK-65710 | DONEPEZIL HCL GENEPHARM ORODISPERSIBLE TABLETS 10MG | 單一成分 | LSB (HK) LIMITED | 有效 |
+
+上表列出其中 5 張（共 31 張）。
+
+<!-- licenses:end -->
 
 ---
 

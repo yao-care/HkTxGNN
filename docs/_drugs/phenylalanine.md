@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 692
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Phenylalanine：預測新適應症為硬化性膽管炎 (Sclerosing Cholangitis)（證據等級 L4）。原適應症：胺基酸營養補充"
 monitor_inn: "PHENYLALANINE"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
@@ -95,13 +95,19 @@ TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** �
 
 <!-- review:end hk-lic-20261117-phenylalanine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-57540 | AMINOL-S INJ | 注射劑 | 未提供 |
-| HK-62100 | AMINOGEN-S SOLUTION FOR INFUSION | 輸注液 | 未提供 |
-| HK-60459 | PAN-VASOL SOLUTION FOR INJECTION | 注射劑 | 未提供 |
-| HK-58914 | PAN-AMIN G INJ | 注射劑 | 未提供 |
-| HK-67075 | AMINOVEN INFANT SOLUTION FOR INFUSION 10% W/V | 輸注液 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-57540 | AMINOL-S INJ | 複方 | WINGS PHARMACEUTICAL LTD | 有效 |
+| HK-62100 | AMINOGEN-S SOLUTION FOR INFUSION | 複方 | WINGS PHARMACEUTICAL LTD | 有效 |
+| HK-60459 | PAN-VASOL SOLUTION FOR INJECTION | 複方 | FALKAN MEDICAL LIMITED | 有效 |
+| HK-58914 | PAN-AMIN G INJ | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+| HK-67075 | AMINOVEN INFANT SOLUTION FOR INFUSION 10% W/V | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 36 張）。
+
+<!-- licenses:end -->
 
 ---
 

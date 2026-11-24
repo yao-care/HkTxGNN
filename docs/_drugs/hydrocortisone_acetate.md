@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "HYDROCORTISONE ACETATE"
 predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucinosa", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "seborrheic keratosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Hydrocortisone Acetate：預測新適應症為圓形禿 (Alopecia Areata)（證據等級 L2）。原適應症：香港許可證資料未載明核准適應症"
 ---
 
@@ -86,13 +86,19 @@ TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，目前有
 
 <!-- review:end hk-lic-20261117-hydrocortisone_acetate-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-57592 | NERIDERM CREAM 1% | 未載明 | 未載明 |
-| HK-52240 | SIGMACORT CREAM 1% | 未載明 | 未載明 |
-| HK-06471 | HYTISONE CREAM 1% | 未載明 | 未載明 |
-| HK-08072 | HYDROCORTISONE CREAM 1% | 未載明 | 未載明 |
-| HK-57594 | ADDICORT CREAM 1% | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-57592 | NERIDERM CREAM 1% | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-52240 | SIGMACORT CREAM 1% | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+| HK-06471 | HYTISONE CREAM 1% | 單一成分 | ATLANTIC PHARMACEUTICAL LIMITED | 有效 |
+| HK-08072 | HYDROCORTISONE CREAM 1% | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-57594 | ADDICORT CREAM 1% | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+
+上表列出其中 5 張（共 38 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

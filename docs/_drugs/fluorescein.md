@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 388
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Fluorescein"
 predicted_indications: ["Prinzmetal angina", "antithrombin deficiency type 2", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "hemoglobinopathy", "heparin cofactor 2 deficiency", "thrombophilia", "hyperthyroidism", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations"]
 description: "Fluorescein：預測新適應症為Prinzmetal 心絞痛 (Prinzmetal angina)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
@@ -71,11 +71,15 @@ TxGNN 模型（深度學習）預測它可能對 **變異型心絞痛 (Prinzmeta
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-59383 | FLUORESCITE INJ 10%（Alcon Hong Kong） | 未載明 | 未載明 |
-| HK-08618 | FLUORETS OPHTHALMIC STRIPS 1MG（Bausch & Lomb (HK)） | 未載明 | 未載明 |
-| HK-49096 | FLUO STRIPS 1MG（E&E Optics o/b Dreimlens Optics） | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-59383 | FLUORESCITE INJ 10% | 單一成分 | ALCON HONG KONG LTD | 有效 |
+| HK-08618 | FLUORETS OPHTHALMIC STRIPS 1MG | 單一成分 | BAUSCH & LOMB (HK) LTD | 有效 |
+| HK-49096 | FLUO STRIPS 1MG | 單一成分 | E&E OPTICS O/B DREIMLENS OPTICS LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

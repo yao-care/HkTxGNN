@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 48
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Ambroxol：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L5）。原適應症：咽炎 (Pharyngitis)"
 monitor_inn: "Ambroxol"
 predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
@@ -82,13 +82,19 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 <!-- review:end hk-lic-20261117-ambroxol-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55459 | OBROXOL ORAL SOLUTION 30MG/10ML | 口服液 | 資料未載明 |
-| HK-34878 | AMXOL TAB 30MG | 錠劑 | 資料未載明 |
-| HK-61486 | UNION AMBROXOL TAB 30MG | 錠劑 | 資料未載明 |
-| HK-46048 | AMBROXOL TAB 30MG | 錠劑 | 資料未載明 |
-| HK-44882 | AMBROXOL SR CAP 75MG (BRIGHT FUTURE) | 緩釋膠囊 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55459 | OBROXOL ORAL SOLUTION 30MG/10ML | 單一成分 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+| HK-34878 | AMXOL TAB 30MG | 單一成分 | MEKIM LTD | 有效 |
+| HK-61486 | UNION AMBROXOL TAB 30MG | 單一成分 | WAI LUN TRADING CO | 有效 |
+| HK-46048 | AMBROXOL TAB 30MG | 單一成分 | CHRISTO PHARM LTD | 有效 |
+| HK-44882 | AMBROXOL SR CAP 75MG (BRIGHT FUTURE) | 單一成分 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+
+上表列出其中 5 張（共 45 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "HYDROXYUREA"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin E disease syndrome", "cervical adenosarcoma", "colon mucinous adenocarcinoma", "rectum mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Hydroxyurea：預測新適應症為女性乳癌 (female breast carcinoma)（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"
 ---
 
@@ -85,13 +85,17 @@ Hydroxyurea 抑制核糖核苷酸還原酶，使去氧核糖核苷酸（dNTP）�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-52895 | APO-HYDROXYUREA CAP 500MG | 膠囊（品名標示） | 資料未載明 |
-| HK-66544 | HYDROXYUREA MEDAC CAPSULES 500MG | 膠囊（品名標示） | 資料未載明 |
-| HK-67918 | HYDROXYCARBAMIDE TEVA CAPSULES 500MG | 膠囊（品名標示） | 資料未載明 |
-| HK-67191 | HYDROXYCARBAMIDE SANDOZ CAPSULES 500MG | 膠囊（品名標示） | 資料未載明 |
-| HK-66629 | HYDROXYUREA CAPSULES 500MG | 膠囊（品名標示） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-52895 | APO-HYDROXYUREA CAP 500MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-66544 | HYDROXYUREA MEDAC CAPSULES 500MG | 單一成分 | HONBASE TRADING LIMITED | 有效 |
+| HK-67918 | HYDROXYCARBAMIDE TEVA CAPSULES 500MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-67191 | HYDROXYCARBAMIDE SANDOZ CAPSULES 500MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-66629 | HYDROXYUREA CAPSULES 500MG | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

@@ -5,7 +5,7 @@ layout: default
 title: Tezepelumab
 parent: 僅已知用途（無新預測）
 nav_order: 870
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Tezepelumab: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Tezepelumab"
 predicted_indications: []
@@ -50,10 +50,14 @@ evidence_level: N/A
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68067 | TEZSPIRE 注射液（預填充筆）210MG/1.91ML | 注射劑 | 資料未載明 |
-| HK-68068 | TEZSPIRE 注射液（預填充針筒）210MG/1.91ML | 注射劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68067 | TEZSPIRE SOLUTION FOR INJECTION IN PRE-FILLED PEN 210MG/1.91ML | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-68068 | TEZSPIRE SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 210MG/1.91ML | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證皆為有效的單一成分許可證，持證商為 AstraZeneca Hong Kong Limited。
 

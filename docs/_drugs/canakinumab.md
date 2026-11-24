@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CANAKINUMAB"
 predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "syndrome with combined immunodeficiency", "periodic fever-infantile enterocolitis-autoinflammatory syndrome", "extracutaneous mastocytoma", "Blau syndrome", "monosomy X", "liver angiosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Canakinumab：預測新適應症為肝梗塞 (hepatic infarction)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
@@ -76,9 +76,13 @@ TxGNN 模型預測它可能對**肝梗塞 (hepatic infarction)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65635 | ILARIS SOLUTION FOR INJECTION 150MG/ML | 注射液 | 本地資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65635 | ILARIS SOLUTION FOR INJECTION 150MG/ML | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

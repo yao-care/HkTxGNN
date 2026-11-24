@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 680
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Peppermint Oil：預測新適應症為痲瘋病 (Leprosy)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Peppermint oil"
 predicted_indications: ["leprosy", "pneumocystosis", "coronary artery disease", "myocardial ischemia", "echinococcus granulosus infectious disease", "polyp of vocal cord", "uterine polyp", "polyp of middle ear", "cardiovascular disease", "polyp of frontal sinus"]
@@ -98,10 +98,14 @@ TxGNN 模型（深度學習）給出的分數雖高（0.9980），但沒有試�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-20358 | COLPERMIN CAP, ENTERIC COATED | 資料未載明 | 資料未載明 |
-| HK-03206 | ALCOHOL DE MENTHE DE RICQLES | 資料未載明 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-20358 | COLPERMIN CAP, ENTERIC COATED | 單一成分 | ASSOCIATED MEDICAL SUPPLIES CO LTD | 有效 |
+| HK-03206 | ALCOHOL DE MENTHE DE RICQLES | 複方 | THE INTERNATIONAL MEDICAL COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

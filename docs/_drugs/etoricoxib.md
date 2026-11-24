@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etoricoxib：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：目前許可證資料未載明核准適應症"
 monitor_inn: "Etoricoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -112,13 +112,19 @@ PGE2 與偏頭痛中的三叉神經血管敏感化及神經性發炎有關，因
 
 <!-- review:end hk-lic-20261117-etoricoxib-2 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-51227 | ARCOXIA TAB 60MG（Organon） | 錠劑 | 未提供 |
-| HK-65906 | EUROXIA TABLETS 90MG（Synco） | 錠劑 | 未提供 |
-| HK-66070 | ETORICOXIB FARMOZ TABLETS 120MG | 錠劑 | 未提供 |
-| HK-65575 | ETOXIB TABLETS 90MG | 錠劑 | 未提供 |
-| HK-66165 | ETORICOXIB STADA TABLETS 120MG | 錠劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-51227 | ARCOXIA TAB 60MG | 單一成分 | ORGANON HONG KONG LIMITED | 有效 |
+| HK-65906 | EUROXIA TABLETS 90MG | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-66070 | ETORICOXIB FARMOZ TABLETS 120MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-65575 | ETOXIB TABLETS 90MG | 單一成分 | SINO PACIFIC PHARMA COMPANY LIMITED | 有效 |
+| HK-66165 | ETORICOXIB STADA TABLETS 120MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+
+上表列出其中 5 張（共 68 張）。
+
+<!-- licenses:end -->
 
 ---
 

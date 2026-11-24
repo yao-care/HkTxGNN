@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 211
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Clobazam"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "photosensitive occipital lobe epilepsy", "atypical childhood epilepsy with centrotemporal spikes", "cryptogenic late-onset epileptic spasms", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
 description: "Clobazam：預測新適應症為Febrile infection-related epilepsy syndrome（證據等級 L4）。香港藥劑製品註冊：3 張（有效 3 張）"
@@ -85,11 +85,15 @@ TxGNN 模型預測它可能對**熱性感染相關癲癇症候群（FIRES）**�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67412 | TAPCLOB ORAL SUSPENSION 5MG/5ML | 口服懸液 | 未提供 |
-| HK-05574 | FRISIUM 10 TAB 10MG | 錠劑 | 未提供 |
-| HK-67411 | TAPCLOB ORAL SUSPENSION 10MG/5ML | 口服懸液 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67412 | TAPCLOB ORAL SUSPENSION 5MG/5ML | 單一成分 | THE INTERNATIONAL MEDICAL COMPANY LIMITED | 有效 |
+| HK-05574 | FRISIUM 10 TAB 10MG | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-67411 | TAPCLOB ORAL SUSPENSION 10MG/5ML | 單一成分 | THE INTERNATIONAL MEDICAL COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

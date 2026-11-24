@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 435
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "HEPARIN"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
 description: "Heparin：預測新適應症為體染色體隱性蛋白 C 缺乏所致血栓傾向症 (thrombophilia due to protein C deficiency, autosomal recessive)（證據等級 L5）。香港藥劑製品註冊：28 張（有效 27 張）"
@@ -90,13 +90,19 @@ TxGNN 模型預測它可能對**體染色體隱性蛋白 C 缺乏所致血栓傾
 
 <!-- review:end hk-lic-20261117-heparin-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-10765 | HEPARIN (LEO) INJ 1000U/ML | 注射劑 | 未載明 |
-| HK-57802 | HEPARIN SODIUM INJ 1,000 IU/ML | 注射劑 | 未載明 |
-| HK-27750 | MULTIPARIN INJ 5000 UNITS/ML | 注射劑 | 未載明 |
-| HK-64529 | VAXCEL HEPARIN SODIUM SOLUTION FOR INJECTION 5000IU/ML | 注射劑 | 未載明 |
-| HK-15279 | HEPARIN INJ 5000 IU/ML (LEO) | 注射劑 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-10765 | HEPARIN (LEO) INJ 1000U/ML | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-57802 | HEPARIN SODIUM INJ 1,000 IU/ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-27750 | MULTIPARIN INJ 5000 UNITS/ML | 單一成分 | LUEN CHEONG HONG LTD | 有效 |
+| HK-64529 | VAXCEL HEPARIN SODIUM SOLUTION FOR INJECTION 5000IU/ML | 單一成分 | KOTRA PHARMA (HONG KONG) COMPANY | 有效 |
+| HK-15279 | HEPARIN INJ 5000 IU/ML (LEO) | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 28 張）。
+
+<!-- licenses:end -->
 
 另有多張外用乳膏、軟膏許可證（例如 HK-33423、HK-31672、HK-61130），僅供局部使用，不適用於本次全身性適應症的評估。
 

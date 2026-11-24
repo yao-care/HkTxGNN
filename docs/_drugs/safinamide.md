@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 796
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Safinamide：預測新適應症為Rasmussen 亞急性腦炎 (Rasmussen subacute encephalitis)（證據等級 L5）。原適應症：帕金森氏症 (Parkinson disease)"
 monitor_inn: "SAFINAMIDE"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration"]
@@ -87,9 +87,13 @@ TxGNN 模型預測它可能對 **Rasmussen 亞急性腦炎 (Rasmussen subacute e
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67829 | EQUFINA TABLETS 50MG | 錠劑（品名所示） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67829 | EQUFINA TABLETS 50MG | 單一成分 | EISAI (HONG KONG) COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 製造商為 EISAI (HONG KONG) COMPANY LIMITED，狀態為有效的單一成分許可證。
 

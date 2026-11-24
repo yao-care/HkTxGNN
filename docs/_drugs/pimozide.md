@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 10
 monitor_inn: "PIMOZIDE"
 predicted_indications: ["trichotillomania", "manic bipolar affective disorder", "insomnia (disease)", "major affective disorder", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "Malan overgrowth syndrome", "attention deficit hyperactivity disorder, inattentive type", "agoraphobia", "benign paroxysmal torticollis of infancy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pimozide：預測新適應症為拔毛癖 (Trichotillomania)（證據等級 L3）。原適應症：妥瑞氏症"
 ---
 
@@ -81,10 +81,14 @@ TxGNN 模型預測它可能對**拔毛癖 (Trichotillomania)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-56613 | VICK-PIMOZIDE TAB 1MG | 未載明 | 未載明 |
-| HK-56612 | VICK-PIMOZIDE TAB 4MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-56613 | VICK-PIMOZIDE TAB 1MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-56612 | VICK-PIMOZIDE TAB 4MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "GRANISETRON"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "acute contagious conjunctivitis", "angioedema", "allergic urticaria", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "bronchitis", "cold urticaria", "conjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Granisetron：預測新適應症為躁期雙相情感障礙 (manic bipolar affective disorder)（證據等級 L5）。香港藥劑製品註冊：11 張（有效 11 張）"
 ---
 
@@ -73,13 +73,19 @@ TxGNN 分數是純計算預測，不能視為療效證據。原適應症與新�
 
 以下列出 5 張主要許可證，其核准適應症文字在資料中皆為空白。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62011 | GRANISETRON CONCENTRATE FOR SOLUTION FOR INJECTION OR INFUSION 1MG/1ML | 注射濃縮液 | 資料未載明 |
-| HK-68845 | KANITRON TABLETS 1MG | 錠劑 | 資料未載明 |
-| HK-68259 | VICKSETPIL TABLETS 1MG | 錠劑 | 資料未載明 |
-| HK-36669 | KYTRIL FOR IV INFUSION 0.1% | 靜脈輸注劑 | 資料未載明 |
-| HK-60439 | GRANISETRON ACTAVIS TAB 1MG | 錠劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62011 | GRANISETRON CONCENTRATE FOR SOLUTION FOR INJECTION OR INFUSION 1MG/1ML | 單一成分 | MEKIM LTD | 有效 |
+| HK-68845 | KANITRON TABLETS 1MG | 單一成分 | SB PHARMA LIMITED | 有效 |
+| HK-68259 | VICKSETPIL TABLETS 1MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-36669 | KYTRIL FOR IV INFUSION 0.1% | 單一成分 | PRUDENTLINK LIMITED | 有效 |
+| HK-60439 | GRANISETRON ACTAVIS TAB 1MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+
+上表列出其中 5 張（共 11 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

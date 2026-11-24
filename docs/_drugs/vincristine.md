@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Vincristine"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vincristine：預測新適應症為Vertebral anomalies and variable endocrine and T-cell dysfunction（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
@@ -84,11 +84,15 @@ TxGNN 模型預測分數最高的新適應症為「血管異常合併內分泌�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-50937 | VINRACINE INJ 1MG/ML | 注射劑 | 本次整理的資料未載明 |
-| HK-58669 | VINCRISTINE SULFATE FOR INJ 1MG | 注射劑 | 本次整理的資料未載明 |
-| HK-59252 | VINCRISTINE SULPHATE PHARMACHEMIE INJ 1MG/ML | 注射劑 | 本次整理的資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-50937 | VINRACINE INJ 1MG/ML | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-58669 | VINCRISTINE SULFATE FOR INJ 1MG | 單一成分 | MAIN LIFE CORP LTD | 有效 |
+| HK-59252 | VINCRISTINE SULPHATE PHARMACHEMIE INJ 1MG/ML | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證皆為單一成分製劑，狀態均為有效。
 

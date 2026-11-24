@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "INSULIN HUMAN"
 predicted_indications: ["autoimmune oophoritis", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "pancreatic agenesis", "idiopathic localized lipodystrophy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Human：預測新適應症為自體免疫性卵巢炎 (Autoimmune Oophoritis)（證據等級 L5）。原適應症：第 2 型糖尿病、第 1 型糖尿病、糖尿病酮酸中毒"
 ---
 
@@ -97,13 +97,19 @@ TxGNN 模型預測它可能對**自體免疫性卵巢炎 (Autoimmune Oophoritis)
 
 香港共有 18 張有效的單一成分許可證（完整清單如下，許可證資料中未載明劑型與核准適應症文字）：
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-60290 | ACTRAPID PENFILL INJ 100IU/ML (BRAZIL) | NOVO NORDISK HONG KONG LIMITED |
-| HK-63758 | ACTRAPID SOLUTION FOR INJECTION 100IU/ML | NOVO NORDISK HONG KONG LIMITED |
-| HK-54859 | SCILIN R INJ 100 IU/ML (CARTRIDGE) | KEEN HEALTH LIMITED |
-| HK-54861 | SCILIN R INJ 100 IU/ML (VIAL) | KEEN HEALTH LIMITED |
-| HK-39494 | HUMULIN R INSULIN INJ 100IU/ML-CARTRIDGE | ELI LILLY ASIA, INC. |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-60290 | ACTRAPID PENFILL INJ 100IU/ML (BRAZIL) | 單一成分 | NOVO NORDISK HONG KONG LIMITED | 有效 |
+| HK-63758 | ACTRAPID SOLUTION FOR INJECTION 100IU/ML | 單一成分 | NOVO NORDISK HONG KONG LIMITED | 有效 |
+| HK-54859 | SCILIN R INJ 100 IU/ML (CARTRIDGE) | 單一成分 | KEEN HEALTH LIMITED | 有效 |
+| HK-54861 | SCILIN R INJ 100 IU/ML (VIAL) | 單一成分 | KEEN HEALTH LIMITED | 有效 |
+| HK-39494 | HUMULIN R INSULIN INJ 100IU/ML-CARTRIDGE | 單一成分 | ELI LILLY ASIA, INC. | 有效 |
+
+上表列出其中 5 張（共 18 張）。
+
+<!-- licenses:end -->
 
 另有 13 張許可證（包含 Actrapid、Humulin、Mixtard、Scilin M30 等系列）同樣有效。
 

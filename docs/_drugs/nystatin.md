@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "NYSTATIN"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nystatin：預測新適應症為眼眶區域疾病 (disease of orbital region)（證據等級 L5）。香港藥劑製品註冊：129 張（有效 129 張）"
 ---
 
@@ -81,13 +81,19 @@ TxGNN 給出的分數很高，但沒有任何臨床或文獻證據支持，因�
 
 <!-- review:end hk-lic-20261117-nystatin-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-44908 | PMS-NYSTATIN SUSP 100000U/ML | 未載明 | 未載明 |
-| HK-58764 | NYDASIN VAGINAL SUPP 100,000U | 未載明 | 未載明 |
-| HK-45763 | NYSTATIN OINTMENT 100000IU/G | 未載明 | 未載明 |
-| HK-34420 | NYSTATIN CAP 500000U | 未載明 | 未載明 |
-| HK-34392 | NYSTATIN VAG TAB 100000U | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-44908 | PMS-NYSTATIN SUSP 100000U/ML | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-58764 | NYDASIN VAGINAL SUPP 100,000U | 單一成分 | YAT SENG TRADING CO | 有效 |
+| HK-45763 | NYSTATIN OINTMENT 100000IU/G | 單一成分 | HON MAN MEDICINE (WING LEE) COMPANY | 有效 |
+| HK-34420 | NYSTATIN CAP 500000U | 單一成分 | YUNG SHIN CO LTD | 有效 |
+| HK-34392 | NYSTATIN VAG TAB 100000U | 單一成分 | YUNG SHIN CO LTD | 有效 |
+
+上表列出其中 5 張（共 129 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 914
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Tropisetron：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：化療後噁心與嘔吐"
 monitor_inn: "TROPISETRON"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -78,9 +78,13 @@ Tropisetron 是 5-HT3 受體拮抗劑，同時也是 α7 菸鹼型受體的部�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61647 | SETROVEL SOLUTION FOR INJECTION 5MG/5ML | 注射液 | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61647 | SETROVEL SOLUTION FOR INJECTION 5MG/5ML | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

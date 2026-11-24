@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ioversol"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ioversol：預測新適應症為骨關節炎 (Osteoarthritis)（證據等級 L5）。原適應症：本次整理的資料中，香港許可證未提供核准適應症文字"
 ---
 
@@ -85,11 +85,15 @@ TxGNN 模型預測它可能對**骨關節炎 (Osteoarthritis)** 有效，但目�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-38527 | OPTIRAY-350 INJ 74% | 注射劑 | 資料未提供 |
-| HK-38528 | OPTIRAY-300 INJ 64% | 注射劑 | 資料未提供 |
-| HK-38526 | OPTIRAY-320 INJ 68% | 注射劑 | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-38527 | OPTIRAY-350 INJ 74% | 單一成分 | GUERBET ASIA PACIFIC LIMITED | 有效 |
+| HK-38528 | OPTIRAY-300 INJ 64% | 單一成分 | GUERBET ASIA PACIFIC LIMITED | 有效 |
+| HK-38526 | OPTIRAY-320 INJ 68% | 單一成分 | GUERBET ASIA PACIFIC LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證皆為單一成分製劑，持證商為 GUERBET ASIA PACIFIC LIMITED，狀態均為有效。
 

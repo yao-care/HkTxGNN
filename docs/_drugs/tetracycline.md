@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 868
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TETRACYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
 description: "Tetracycline：預測新適應症為點狀上皮角結膜炎 (punctate epithelial keratoconjunctivitis)（證據等級 L5）。香港藥劑製品註冊：9 張（有效 8 張）"
@@ -84,13 +84,19 @@ ChEMBL（EMBL-EBI）收錄的 Tetracycline 作用機轉（非官方翻譯）：�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-05419 | NEO-CYCLIN CAP 250MG | 膠囊（資料未載明） | 資料未載明 |
-| HK-20019 | TETRACLIN CAP 250MG ORANGE/YELLOW | 膠囊（資料未載明） | 資料未載明 |
-| HK-30208 | MEDOCYCLINE CAP 250MG | 膠囊（資料未載明） | 資料未載明 |
-| HK-36081 | TETRACAP 250 CAP 250MG | 膠囊（資料未載明） | 資料未載明 |
-| HK-34922 | APO-TETRA CAP 250MG | 膠囊（資料未載明） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-05419 | NEO-CYCLIN CAP 250MG | 單一成分 | NEOCHEM PHARMACEUTICAL LABORATORIES LTD. | 有效 |
+| HK-20019 | TETRACLIN CAP 250MG ORANGE/YELLOW | 單一成分 | UNICORN LABORATORIES O/B AMERICAN UNICORN LABORATORIES LIMITED | 有效 |
+| HK-30208 | MEDOCYCLINE CAP 250MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-36081 | TETRACAP 250 CAP 250MG | 單一成分 | HOVID LIMITED | 有效 |
+| HK-34922 | APO-TETRA CAP 250MG | 單一成分 | HIND WING CO LTD | 已註銷 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 （共 9 張單方許可證，8 張有效、HK-34922 已註銷；此處列出前 5 張。）
 

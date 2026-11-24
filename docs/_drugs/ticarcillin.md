@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "TICARCILLIN"
 predicted_indications: ["lymph node palisaded myofibroblastoma", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "sacrum chordoma", "disease of retroperitoneum", "urethral disease", "disease of uterine broad ligament", "disease of peritoneum", "pelvic varices"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Ticarcillin：預測新適應症為淋巴結柵狀肌纖維母細胞瘤（證據等級 L5）。原適應症：香港許可證未提供核准適應症文字"
 ---
 
@@ -90,9 +90,13 @@ TxGNN 模型預測分數最高的是**淋巴結柵狀肌纖維母細胞瘤**，�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-63780 | TICARCILLIN AND CLAVULANIC ACID POWDER FOR SOLUTION FOR INFUSION 3.2G（Ticarcillin 與克拉維酸複方，輸注用粉劑） | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63780 | TICARCILLIN AND CLAVULANIC ACID POWDER FOR SOLUTION FOR INFUSION 3.2G | 複方 | JINDUN PHARMA (H.K.) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 此許可證為 Ticarcillin 與克拉維酸的複方產品（持證商：JINDUN PHARMA (H.K.) LIMITED），不能用來說明單一成分 Ticarcillin 的核准或上市狀況。
 

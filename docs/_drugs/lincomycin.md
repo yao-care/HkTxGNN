@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 532
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LINCOMYCIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
 description: "Lincomycin：預測新適應症為高澱粉酶血症 (hyperamylasemia)（證據等級 L5）。香港藥劑製品註冊：7 張（有效 6 張）"
@@ -83,13 +83,19 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (Hyperamylasemia)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55681 | LINCOMYCIN INJ 300MG/ML（DELTAPHARM LIMITED） | 注射劑 | 未載明 |
-| HK-61712 | LINCOMYCIN SOLUTION FOR INJECTION 300MG/ML (TA FONG)（YAT SENG TRADING CO） | 注射劑 | 未載明 |
-| HK-66152 | LINCOMYCIN SOLUTION FOR INJECTION 3000MG/10ML（KAI YUEN PHARMACEUTICAL LIMITED） | 注射劑 | 未載明 |
-| HK-60253 | LINCO INJ 300MG/ML（ATLANTIC PHARMACEUTICAL LIMITED） | 注射劑 | 未載明 |
-| HK-41155 | TAMCOCIN CAP 500MG（PERFECT GROUPS LTD） | 膠囊 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55681 | LINCOMYCIN INJ 300MG/ML | 單一成分 | DELTAPHARM LIMITED | 有效 |
+| HK-61712 | LINCOMYCIN SOLUTION FOR INJECTION 300MG/ML (TA FONG) | 單一成分 | YAT SENG TRADING CO | 有效 |
+| HK-66152 | LINCOMYCIN SOLUTION FOR INJECTION 3000MG/10ML | 單一成分 | KAI YUEN PHARMACEUTICAL LIMITED | 有效 |
+| HK-60253 | LINCO INJ 300MG/ML | 單一成分 | ATLANTIC PHARMACEUTICAL LIMITED | 有效 |
+| HK-41155 | TAMCOCIN CAP 500MG | 單一成分 | PERFECT GROUPS LTD | 已註銷 |
+
+上表列出其中 5 張（共 7 張）。
+
+<!-- licenses:end -->
 
 另有 2 張許可證（HK-18144、HK-54939，後者為獸用產品），共 7 張，皆為單方製劑，其中 6 張有效、HK-41155 已註銷。
 

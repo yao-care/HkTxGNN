@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 783
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rocuronium：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症"
 monitor_inn: "Rocuronium"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "atrophoderma vermiculata", "ulerythema ophryogenesis", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "sciatic neuropathy", "headache disorder"]
@@ -90,13 +90,19 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67201 | ROCURONIUM BROMIDE SOLUTION FOR INJECTION/INFUSION 50MG/5ML（MAIN LIFE CORP LTD） | 注射液 | 資料未載明 |
-| HK-64818 | ROCURONIUM KABI SOLUTION FOR INJECTION/INFUSION 50MG/5ML（FRESENIUS KABI HONG KONG LIMITED） | 注射液 | 資料未載明 |
-| HK-59706 | ROCURONIUM SOLUTION FOR INJ 10MG/ML（MEKIM LTD） | 注射液 | 資料未載明 |
-| HK-67000 | ROCURONIUM B. BRAUN SOLUTION FOR INJECTION/INFUSION 50MG/5ML（B. BRAUN MEDICAL (HK) LTD） | 注射液 | 資料未載明 |
-| HK-67219 | ROCURONIUM BROMIDE KALCEKS SOLUTION FOR INJECTION/INFUSION 50MG/5ML（SB PHARMA LIMITED） | 注射液 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67201 | ROCURONIUM BROMIDE SOLUTION FOR INJECTION/INFUSION 50MG/5ML | 單一成分 | MAIN LIFE CORP LTD | 有效 |
+| HK-64818 | ROCURONIUM KABI SOLUTION FOR INJECTION/INFUSION 50MG/5ML | 單一成分 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-59706 | ROCURONIUM SOLUTION FOR INJ 10MG/ML | 單一成分 | MEKIM LTD | 有效 |
+| HK-67000 | ROCURONIUM B. BRAUN SOLUTION FOR INJECTION/INFUSION 50MG/5ML | 單一成分 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-67219 | ROCURONIUM BROMIDE KALCEKS SOLUTION FOR INJECTION/INFUSION 50MG/5ML | 單一成分 | SB PHARMA LIMITED | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 ---
 

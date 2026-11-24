@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 442
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Human Immunoglobulin G：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Human immunoglobulin G"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis"]
@@ -91,11 +91,15 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61283 | INTRATECT SOLUTION FOR INFUSION 2.5G/50ML | 輸注溶液 | 資料未載明 |
-| HK-61287 | INTRATECT SOLUTION FOR INFUSION 5G/100ML | 輸注溶液 | 資料未載明 |
-| HK-43941 | PENTAGLOBIN INJ 50MG/ML | 注射劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61283 | INTRATECT SOLUTION FOR INFUSION 2.5G/50ML | 單一成分 | CHONG LAP (HK) CO LTD | 有效 |
+| HK-61287 | INTRATECT SOLUTION FOR INFUSION 5G/100ML | 單一成分 | CHONG LAP (HK) CO LTD | 有效 |
+| HK-43941 | PENTAGLOBIN INJ 50MG/ML | 複方 | CHONG LAP (HK) CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證均為有效的單一成分許可證，持證商為 CHONG LAP (HK) CO LTD。
 

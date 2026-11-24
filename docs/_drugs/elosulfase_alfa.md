@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 313
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ELOSULFASE ALFA"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
 description: "Elosulfase Alfa：預測新適應症為Scheie 症候群 (Scheie syndrome)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -105,9 +105,13 @@ Scheie 症候群（MPS I 的較輕型）則是 α-L-艾杜糖醛酸酶（alpha-L
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-63775 | VIMIZIM CONCENTRATE FOR SOLUTION FOR INFUSION 1MG/ML | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63775 | VIMIZIM CONCENTRATE FOR SOLUTION FOR INFUSION 1MG/ML | 單一成分 | BIOMARIN PHARMACEUTICAL INC. | 有效 |
+
+<!-- licenses:end -->
 
 製造商為 BioMarin Pharmaceutical Inc.，為有效單方製劑。
 

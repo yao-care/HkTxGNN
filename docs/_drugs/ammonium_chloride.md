@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "AMMONIUM CHLORIDE"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Ammonium Chloride：預測新適應症為鼻腔疾病（證據等級 L5）。原適應症：知識圖譜記錄的關聯：咽炎、感冒、鼻咽炎"
 ---
 
@@ -80,13 +80,19 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 <!-- review:end hk-lic-20261117-ammonium_chloride-1 -->
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-43251 | UNI-COPHEDENE SYRUP | Universal Pharmaceutical Laboratories, Limited |
-| HK-07157 | UNI-PHEN EXPECTORANT | Universal Pharmaceutical Laboratories, Limited |
-| HK-08384 | DIPHENAMINE EXPECTORANT | Vickmans Laboratories Ltd |
-| HK-64814 | AXCEL FLEMIN EXPECTORANT SYRUP | Kotra Pharma (Hong Kong) Company |
-| HK-54338 | BEANAMINE EXPECTORANT | Prudentlink Limited |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-43251 | UNI-COPHEDENE SYRUP | 複方 | UNIVERSAL PHARMACEUTICAL LABORATORIES, LIMITED | 有效 |
+| HK-07157 | UNI-PHEN EXPECTORANT | 複方 | UNIVERSAL PHARMACEUTICAL LABORATORIES, LIMITED | 有效 |
+| HK-08384 | DIPHENAMINE EXPECTORANT | 複方 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-64814 | AXCEL FLEMIN EXPECTORANT SYRUP | 複方 | KOTRA PHARMA (HONG KONG) COMPANY | 有效 |
+| HK-54338 | BEANAMINE EXPECTORANT | 複方 | PRUDENTLINK LIMITED | 有效 |
+
+上表列出其中 5 張（共 170 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

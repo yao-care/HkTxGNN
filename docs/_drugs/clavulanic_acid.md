@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 10
 monitor_inn: "CLAVULANIC ACID"
 predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Clavulanic Acid：預測新適應症為淋病性尿道炎 (gonococcal urethritis)（證據等級 L3）。香港藥劑製品註冊：83 張（有效 80 張）"
 ---
 
@@ -92,13 +92,19 @@ TxGNN 模型預測它可能對**淋病性尿道炎 (gonococcal urethritis)** 有
 
 <!-- review:end hk-lic-20261117-clavulanic_acid-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-47298 | AUGMENTIN TAB 375MG | — | 本地資料未記載 |
-| HK-42735 | AUGMENTIN POWDER FOR SYRUP 457MG/5ML | — | 本地資料未記載 |
-| HK-42362 | MOXICLAV 625 TAB | — | 本地資料未記載 |
-| HK-56737 | CURAM TAB 1000MG | — | 本地資料未記載 |
-| HK-63094 | RAPICLAV-1G TABLETS 875MG/125MG | — | 本地資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-47298 | AUGMENTIN TAB 375MG | 複方 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-42735 | AUGMENTIN POWDER FOR SYRUP 457MG/5ML | 複方 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-42362 | MOXICLAV 625 TAB | 複方 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-56737 | CURAM TAB 1000MG | 複方 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-63094 | RAPICLAV-1G TABLETS 875MG/125MG | 複方 | EUGENPHARM INTERNATIONAL LIMITED | 有效 |
+
+上表列出其中 5 張（共 83 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

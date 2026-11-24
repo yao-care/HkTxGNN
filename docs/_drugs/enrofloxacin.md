@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 321
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Enrofloxacin：預測新適應症為心臟疾病 (heart disease)（證據等級 L4）。原適應症：許可證資料未載明（產品為獸用錠劑）"
 monitor_inn: "ENROFLOXACIN"
 predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "pulmonary valve disease", "disorder of fucoglycosan synthesis", "Jeune syndrome situs inversus", "mitral valve disease"]
@@ -81,10 +81,14 @@ TxGNN 模型預測它可能對**心臟疾病 (heart disease)** 有效，但目�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-60346 | BAYTRIL FLAVOUR TAB 50 MG (VET) | 未載明 | 未載明 |
-| HK-60347 | BAYTRIL FLAVOUR TAB 15MG (VET) | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-60346 | BAYTRIL FLAVOUR TAB 50 MG (VET) | 單一成分 | UNIPET HOUSE COMPANY LIMITED | 有效 |
+| HK-60347 | BAYTRIL FLAVOUR TAB 15MG (VET) | 單一成分 | UNIPET HOUSE COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證均由 UNIPET HOUSE COMPANY LIMITED 持有，皆為獸用產品。
 

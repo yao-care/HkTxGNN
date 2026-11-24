@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "LATANOPROSTENE BUNOD"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "idiopathic spontaneous coronary artery dissection", "angiodysplasia of stomach", "lymphangiectasis", "hemangioendothelioma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Latanoprostene Bunod：預測新適應症為內臟鈣化防禦 (Visceral Calciphylaxis)（證據等級 L5）。原適應症：開角型青光眼、高眼壓症"
 ---
 
@@ -71,9 +71,13 @@ NO 介導的血管擴張在理論上與微血管鈣化性疾病有一點關聯�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66408 | VYZULTA OPHTHALMIC SOLUTION 0.024% W/V | 眼用溶液 | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66408 | VYZULTA OPHTHALMIC SOLUTION 0.024% W/V | 單一成分 | BAUSCH & LOMB (HK) LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "TADALAFIL"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tadalafil：預測新適應症為Ambras 型先天性全身多毛症（證據等級 L5）。原適應症：知識圖譜記錄的關聯：良性前列腺增生、肺動脈高壓、勃起功能障礙、心因性性交疼痛、早洩"
 ---
 
@@ -91,13 +91,19 @@ Ambras 症候群是罕見的遺傳性毛髮發育異常，與染色體重組影�
 
 <!-- review:end hk-lic-20261117-tadalafil-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68929 | CIATUFF 10 TABLETS 10MG | 未提供 | 未提供 |
-| HK-65022 | ERETAF-20 TABLETS 20MG | 未提供 | 未提供 |
-| HK-68281 | TADALAFIL AZEVEDOS TABLETS 20MG | 未提供 | 未提供 |
-| HK-66745 | DURACOR TABLETS 20MG | 未提供 | 未提供 |
-| HK-66950 | FIP TADALAFIL TABLETS 20MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68929 | CIATUFF 10 TABLETS 10MG | 單一成分 | AUROBINDO PHARMA LIMITED | 有效 |
+| HK-65022 | ERETAF-20 TABLETS 20MG | 單一成分 | HOVID LIMITED | 有效 |
+| HK-68281 | TADALAFIL AZEVEDOS TABLETS 20MG | 單一成分 | WA MAN (HK) LIMITED | 有效 |
+| HK-66745 | DURACOR TABLETS 20MG | 單一成分 | SINO PACIFIC PHARMA COMPANY LIMITED | 有效 |
+| HK-66950 | FIP TADALAFIL TABLETS 20MG | 單一成分 | WILSON TRADING COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 55 張）。
+
+<!-- licenses:end -->
 
 ---
 

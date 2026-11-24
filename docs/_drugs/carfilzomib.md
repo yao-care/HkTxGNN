@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CARFILZOMIB"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carfilzomib：預測新適應症為CMM7（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
@@ -72,10 +72,14 @@ TxGNN 模型預測它可能對 **CMM7 (CMM7)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65431 | KYPROLIS FOR INJECTION 30MG/VIAL | 本地資料未記載 | 本地資料未記載 |
-| HK-64828 | KYPROLIS FOR INJECTION 60MG/VIAL | 本地資料未記載 | 本地資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65431 | KYPROLIS FOR INJECTION 30MG/VIAL | 單一成分 | AMGEN HONG KONG LIMITED | 有效 |
+| HK-64828 | KYPROLIS FOR INJECTION 60MG/VIAL | 單一成分 | AMGEN HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 150
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Camphor：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：目前缺乏已登錄的核准適應症文字"
 monitor_inn: "Camphor"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
@@ -97,13 +97,19 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效。
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-58885 | MENTHOLATUM OINT | 未登載 | 未登載 |
-| HK-58884 | MENTHOLATUM OINT | 未登載 | 未登載 |
-| HK-54063 | KUMMEL OINTMENT | 未登載 | 未登載 |
-| HK-31313 | DELTAPHOR LOTION | 未登載 | 未登載 |
-| HK-55838 | VICKS VAPORUB OINT | 未登載 | 未登載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-58885 | MENTHOLATUM OINT | 複方 | MENTHOLATUM (ASIA PACIFIC) LIMITED | 有效 |
+| HK-58884 | MENTHOLATUM OINT | 複方 | MENTHOLATUM (ASIA PACIFIC) LIMITED | 有效 |
+| HK-54063 | KUMMEL OINTMENT | 複方 | KWONG TAI PHARMACOLOGICAL TRADING CO LTD | 有效 |
+| HK-31313 | DELTAPHOR LOTION | 複方 | MEYER PHARMACEUTICALS LTD | 有效 |
+| HK-55838 | VICKS VAPORUB OINT | 複方 | PROCTER & GAMBLE HK LTD | 有效 |
+
+上表列出其中 5 張（共 77 張）。
+
+<!-- licenses:end -->
 
 以上列出 5 張主要許可證，香港共有 77 張含本藥成分的許可證（全部有效；皆為複方）。從品名可知多為外用的軟膏、乳膏、藥油、噴霧或貼布。
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 123
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Biotin：預測新適應症為消化不良 (Dyspepsia)（證據等級 L5）。原適應症：營養性生物素缺乏症"
 monitor_inn: "BIOTIN"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
@@ -90,13 +90,17 @@ TxGNN 模型（深度學習）的高分可能反映模型在相關疾病之間�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-17391 | HUAZIN INJ | — | — |
-| HK-36207 | SOLUVIT N INJ | — | — |
-| HK-56452 | CERNEVIT FOR INJ | — | — |
-| HK-52479 | AMINOLEBAN EN POWDER | — | — |
-| HK-54177 | AMINOLEBAN ORAL POWDER | — | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-17391 | HUAZIN INJ | 複方 | WILCOME PHARMACEUTICAL CO LTD | 有效 |
+| HK-36207 | SOLUVIT N INJ | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-56452 | CERNEVIT FOR INJ | 複方 | BAXTER HEALTHCARE LIMITED | 有效 |
+| HK-52479 | AMINOLEBAN EN POWDER | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+| HK-54177 | AMINOLEBAN ORAL POWDER | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

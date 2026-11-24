@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "GEMCITABINE"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mixed adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Gemcitabine：預測新適應症為直腸黏液腺癌 (rectum mucinous adenocarcinoma)（證據等級 L5）。香港藥劑製品註冊：20 張（有效 18 張）"
 ---
 
@@ -83,13 +83,19 @@ TxGNN 模型預測它可能對**直腸黏液腺癌 (Rectum Mucinous Adenocarcino
 
 以下列出 5 張主要許可證：
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-41786 | GEMZAR FOR INJ 200MG（DKSH HONG KONG LIMITED） | 未提供 | 未提供 |
-| HK-41787 | GEMZAR FOR INJ 1G（DKSH HONG KONG LIMITED） | 未提供 | 未提供 |
-| HK-62671 | DBL GEMCITABINE INJECTION 1G/26.3ML（PFIZER） | 未提供 | 未提供 |
-| HK-62670 | DBL GEMCITABINE INJECTION 200MG/5.3ML（PFIZER） | 未提供 | 未提供 |
-| HK-64298 | GEMITA POWDER FOR SOLUTION FOR INFUSION 1G（FRESENIUS KABI） | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-41786 | GEMZAR FOR INJ 200MG | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-41787 | GEMZAR FOR INJ 1G | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-62671 | DBL GEMCITABINE INJECTION 1G/26.3ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-62670 | DBL GEMCITABINE INJECTION 200MG/5.3ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-64298 | GEMITA POWDER FOR SOLUTION FOR INFUSION 1G | 單一成分 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 20 張）。
+
+<!-- licenses:end -->
 
 ---
 

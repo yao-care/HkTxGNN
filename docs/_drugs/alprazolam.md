@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 2
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alprazolam：預測新適應症為失眠 (insomnia (disease))（證據等級 L3）。香港藥劑製品註冊：14 張（有效 14 張）"
 ---
 
@@ -81,13 +81,19 @@ TxGNN 模型預測它可能對**失眠 (insomnia (disease))** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-17668 | XANAX TAB 0.5MG | 錠劑 | 本地資料未記載 |
-| HK-17669 | XANAX TAB 0.25MG | 錠劑 | 本地資料未記載 |
-| HK-51647 | ALPRAX 0.5 TAB 0.5MG | 錠劑 | 本地資料未記載 |
-| HK-55271 | ZOLARAM 0.5 TAB 0.5MG | 錠劑 | 本地資料未記載 |
-| HK-56775 | VICK-ALPRAZOLAM TAB 0.5MG | 錠劑 | 本地資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-17668 | XANAX TAB 0.5MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-17669 | XANAX TAB 0.25MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-51647 | ALPRAX 0.5 TAB 0.5MG | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+| HK-55271 | ZOLARAM 0.5 TAB 0.5MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-56775 | VICK-ALPRAZOLAM TAB 0.5MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+
+上表列出其中 5 張（共 14 張）。
+
+<!-- licenses:end -->
 
 目前共有 14 張許可證均為有效狀態，以上僅列出其中 5 張。
 

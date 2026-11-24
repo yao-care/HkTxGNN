@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "LISINOPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lisinopril：預測新適應症為Pulmonary hypertension owing to lung disease and/or hypoxia（證據等級 L5）。香港藥劑製品註冊：34 張（有效 33 張）"
 ---
 
@@ -92,13 +92,19 @@ TxGNN 模型預測它可能對**肺部疾病及／或缺氧所致肺高壓 (pulm
 
 <!-- review:end hk-lic-20261117-lisinopril-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-30505 | ZESTRIL TAB 5MG | 資料未載明 | 資料未載明 |
-| HK-30515 | ZESTRIL TAB 20MG | 資料未載明 | 資料未載明 |
-| HK-47998 | LISINOPRIL STADA TAB 20MG | 資料未載明 | 資料未載明 |
-| HK-51882 | DAPRIL TAB 10MG | 資料未載明 | 資料未載明 |
-| HK-64625 | LISINOPRIL ACTAVIS TABLETS 20MG | 資料未載明 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-30505 | ZESTRIL TAB 5MG | 單一成分 | PRUDENTLINK LIMITED | 有效 |
+| HK-30515 | ZESTRIL TAB 20MG | 單一成分 | PRUDENTLINK LIMITED | 有效 |
+| HK-47998 | LISINOPRIL STADA TAB 20MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-51882 | DAPRIL TAB 10MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-64625 | LISINOPRIL ACTAVIS TABLETS 20MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+
+上表列出其中 5 張（共 34 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

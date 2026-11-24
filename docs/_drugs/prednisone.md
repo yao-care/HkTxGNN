@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "PREDNISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Prednisone：預測新適應症為圓形禿 (Alopecia Areata)（證據等級 L2）。原適應症：香港許可證未載明核准適應症"
 ---
 
@@ -81,9 +81,13 @@ TxGNN 模型預測它可能對**圓形禿 (Alopecia Areata)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-36262 | APO-PREDNISONE TAB 5MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-36262 | APO-PREDNISONE TAB 5MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

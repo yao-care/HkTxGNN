@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
 description: "Diclofenac：預測新適應症為頭皮單純性毛髮稀少症 (Hypotrichosis simplex of the scalp)（證據等級 L5）。香港藥劑製品註冊：204 張（有效 192 張）"
@@ -106,13 +106,19 @@ TxGNN 模型排名第一的預測是**頭皮單純性毛髮稀少症**，但該�
 
 <!-- review:end hk-lic-20261117-diclofenac-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-37120 | VOLTAREN SR 75 TAB | 錠劑（緩釋） | 資料未載明 |
-| HK-36029 | VOLTAREN SUPP 50MG (FOR ADULTS) | 栓劑 | 資料未載明 |
-| HK-66111 | VOLTAREN SR PROLONGED-RELEASE TABLETS 100MG | 錠劑（緩釋） | 資料未載明 |
-| HK-25362 | DICLOFENAC SOD INJ 25MG/ML | 注射劑 | 資料未載明 |
-| HK-53619 | VOLTA EMULSION GEL 1% W/W | 外用凝膠 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-37120 | VOLTAREN SR 75 TAB | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-36029 | VOLTAREN SUPP 50MG (FOR ADULTS) | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-66111 | VOLTAREN SR PROLONGED-RELEASE TABLETS 100MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-25362 | DICLOFENAC SOD INJ 25MG/ML | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-53619 | VOLTA EMULSION GEL 1% W/W | 單一成分 | GAILY PHARMACEUTICAL COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 204 張）。
+
+<!-- licenses:end -->
 
 ---
 

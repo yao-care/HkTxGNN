@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 541
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 description: "Losartan：預測新適應症為惡性高血壓腎病變 (malignant hypertensive renal disease)（證據等級 L4）。香港藥劑製品註冊：53 張（有效 53 張）"
@@ -82,13 +82,19 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (Malignant Hypertensive
 
 <!-- review:end hk-lic-20261117-losartan-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-50281 | COZAAR TAB 100MG（原廠 Organon） | 錠劑 | 未提供 |
-| HK-60232 | LOSACOR TAB 50MG（Sandoz） | 錠劑 | 未提供 |
-| HK-59349 | LORISTA TAB 50MG（Unipharm） | 錠劑 | 未提供 |
-| HK-59348 | LORISTA TAB 100MG（Unipharm） | 錠劑 | 未提供 |
-| HK-67070 | EURO-LOSARTAN TABLETS 50MG（Europharm） | 錠劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-50281 | COZAAR TAB 100MG | 單一成分 | ORGANON HONG KONG LIMITED | 有效 |
+| HK-60232 | LOSACOR TAB 50MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-59349 | LORISTA TAB 50MG | 單一成分 | UNIPHARM (HONG KONG) LIMITED | 有效 |
+| HK-59348 | LORISTA TAB 100MG | 單一成分 | UNIPHARM (HONG KONG) LIMITED | 有效 |
+| HK-67070 | EURO-LOSARTAN TABLETS 50MG | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+
+上表列出其中 5 張（共 53 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 263
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DESVENLAFAXINE"
 predicted_indications: ["obsessive-compulsive disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Desvenlafaxine：預測新適應症為強迫症 (obsessive-compulsive disorder)（證據等級 L4）。香港藥劑製品註冊：9 張（有效 9 張）"
@@ -92,13 +92,19 @@ TxGNN 模型（深度學習）的高分可能反映模型學到的相關精神�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-59473 | PRISTIQ EXTENDED-RELEASE TAB 50MG（Pfizer） | 緩釋錠 | 請參考原廠仿單 |
-| HK-59472 | PRISTIQ EXTENDED-RELEASE TAB 100MG（Pfizer） | 緩釋錠 | 請參考原廠仿單 |
-| HK-65147 | PRISTIQ EXTENDED-RELEASE TABLETS 25MG（Pfizer） | 緩釋錠 | 請參考原廠仿單 |
-| HK-67626 | APO-DESVENLAFAXINE EXTENDED-RELEASE TABLETS 50MG（Hind Wing） | 緩釋錠 | 請參考原廠仿單 |
-| HK-67625 | APO-DESVENLAFAXINE EXTENDED-RELEASE TABLETS 100MG（Hind Wing） | 緩釋錠 | 請參考原廠仿單 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-59473 | PRISTIQ EXTENDED-RELEASE TAB 50MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-59472 | PRISTIQ EXTENDED-RELEASE TAB 100MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-65147 | PRISTIQ EXTENDED-RELEASE TABLETS 25MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-67626 | APO-DESVENLAFAXINE EXTENDED-RELEASE TABLETS 50MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-67625 | APO-DESVENLAFAXINE EXTENDED-RELEASE TABLETS 100MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 此外尚有 DESPAXOR 50mg（HK-68804）與 100mg（HK-68803）兩張許可證（Synco），共 9 張，皆為有效的單方許可證。
 

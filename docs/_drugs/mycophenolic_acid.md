@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "MYCOPHENOLIC ACID"
 predicted_indications: ["hemoglobinopathy", "migraine disorder", "migraine with brainstem aura", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "pyropoikilocytosis, hereditary", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyruvate kinase deficiency of red cells", "rheumatoid arthritis", "antithrombin deficiency type 2"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mycophenolic Acid：預測新適應症為血紅素病變 (hemoglobinopathy)（證據等級 L5）。原適應症：本次整理的資料中，許可證未提供核准適應症文字"
 ---
 
@@ -78,13 +78,19 @@ TxGNN 模型預測它可能對**血紅素病變 (hemoglobinopathy)** 有效。
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-51396 | MYFORTIC GASTRO-RESISTANT TAB 180MG | 未提供 | 未提供 |
-| HK-51397 | MYFORTIC GASTRO-RESISTANT TAB 360MG | 未提供 | 未提供 |
-| HK-65062 | APO-MYCOPHENOLIC ACID ENTERIC COATED TABLETS 180MG | 未提供 | 未提供 |
-| HK-65235 | ACCORD MYCOPHENOLIC ACID GASTRO-RESISTANT TABLETS 180MG | 未提供 | 未提供 |
-| HK-67224 | MOFECON-GR 180 GASTRO-RESISTANT TABLETS 180MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-51396 | MYFORTIC GASTRO-RESISTANT TAB 180MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-51397 | MYFORTIC GASTRO-RESISTANT TAB 360MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-65062 | APO-MYCOPHENOLIC ACID ENTERIC COATED TABLETS 180MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-65235 | ACCORD MYCOPHENOLIC ACID GASTRO-RESISTANT TABLETS 180MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-67224 | MOFECON-GR 180 GASTRO-RESISTANT TABLETS 180MG | 單一成分 | HOVID LIMITED | 有效 |
+
+上表列出其中 5 張（共 12 張）。
+
+<!-- licenses:end -->
 
 以上僅列出 12 張有效單方許可證中的 5 張，其餘包括 Myfortic 另外 2 張、Apo-Mycophenolic Acid 360mg、Accord 360mg、DCH Auriga 180/360mg 及 Mofecon-GR 360。
 

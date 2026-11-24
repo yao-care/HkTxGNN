@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 848
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Tamoxifen：預測新適應症為Mammary Paget disease（證據等級 L5）。香港藥劑製品註冊：14 張（有效 14 張）"
@@ -105,13 +105,19 @@ Tamoxifen 是選擇性雌激素受體調節劑，原本用於治療女性乳癌�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-19529 | NOLVADEX-D TAB 20MG（阿斯特捷利康） | 錠劑 | 資料未提供 |
-| HK-36024 | TAMOXIFEN TAB 20MG（Sandoz） | 錠劑 | 資料未提供 |
-| HK-29460 | TAMOPLEX TAB 20MG（Teva） | 錠劑 | 資料未提供 |
-| HK-64015 | TAMOXIFEN SANDOZ TABLETS 20MG | 錠劑 | 資料未提供 |
-| HK-65772 | ZYMOPLEX TABLETS 20MG（LSB） | 錠劑 | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-19529 | NOLVADEX-D TAB 20MG | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-36024 | TAMOXIFEN TAB 20MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-29460 | TAMOPLEX TAB 20MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-64015 | TAMOXIFEN SANDOZ TABLETS 20MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-65772 | ZYMOPLEX TABLETS 20MG | 單一成分 | LSB (HK) LIMITED | 有效 |
+
+上表列出其中 5 張（共 14 張）。
+
+<!-- licenses:end -->
 
 香港共有 14 張有效單方許可證（皆為有效，無已註銷），規格含 10 mg 與 20 mg。
 

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sunitinib：預測新適應症為脂肪肉瘤 (Liposarcoma)（證據等級 L2）。原適應症：知識圖譜中記錄的關聯為腎細胞癌、透明細胞腎癌、胃腸道基質瘤"
 ---
 
@@ -82,13 +82,19 @@ TxGNN 分數很高，但那是計算預測。實際支持來自對軟組織肉�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55406 | SUTENT CAP 12.5MG | 膠囊（品項名稱所示） | 現有資料未載明 |
-| HK-55405 | SUTENT CAP 50MG | 膠囊（品項名稱所示） | 現有資料未載明 |
-| HK-67681 | ALSUNI CAPSULES 12.5MG | 膠囊 | 現有資料未載明 |
-| HK-67682 | ALSUNI CAPSULES 50MG | 膠囊 | 現有資料未載明 |
-| HK-68626 | SUNITINIB CAPSULES 12.5MG | 膠囊 | 現有資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55406 | SUTENT CAP 12.5MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-55405 | SUTENT CAP 50MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-67681 | ALSUNI CAPSULES 12.5MG | 單一成分 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-67682 | ALSUNI CAPSULES 50MG | 單一成分 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-68626 | SUNITINIB CAPSULES 12.5MG | 單一成分 | CHEMILL PHARMA LIMITED | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 另有 1 張許可證（HK-68627，SUNITINIB CAPSULES 50MG）未列於上表，共 6 張，皆為單方且有效。
 

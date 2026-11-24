@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ticagrelor：預測新適應症為顱內動脈硬化（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症文字。知識圖譜記錄的關聯包括急性冠心症、周邊血管疾病、間歇性跛行、周邊動脈疾病"
 ---
 
@@ -86,13 +86,19 @@ TxGNN 模型預測它可能對**顱內動脈硬化 (intracranial arteriosclerosi
 
 <!-- review:end hk-lic-20261117-ticagrelor-1 -->
 
-| 許可證號 | 品名 | 持證商 |
-|---------|------|--------|
-| HK-61187 | BRILINTA TAB 90MG | ASTRAZENECA HONG KONG LIMITED |
-| HK-64706 | BRILINTA TABLETS 60MG | ASTRAZENECA HONG KONG LIMITED |
-| HK-67990 | TICAGRELOR SANDOZ TABLETS 90MG | SANDOZ HONG KONG LIMITED |
-| HK-68970 | SYNLINTA FILM-COATED TABLETS 90MG | SYNCO (H.K.) LIMITED |
-| HK-68747 | TRILINTA TABLETS 90MG | SB PHARMA LIMITED |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61187 | BRILINTA TAB 90MG | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-64706 | BRILINTA TABLETS 60MG | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-67990 | TICAGRELOR SANDOZ TABLETS 90MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-68970 | SYNLINTA FILM-COATED TABLETS 90MG | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-68747 | TRILINTA TABLETS 90MG | 單一成分 | SB PHARMA LIMITED | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

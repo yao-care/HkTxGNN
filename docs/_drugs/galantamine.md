@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "GALANTAMINE"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Galantamine：預測新適應症為心因性運動障礙 (Psychogenic Movement Disorders)（證據等級 L5）。原適應症：知識圖譜中記錄的關聯：阿茲海默症、小腦退化、Reye 症候群、Pick 氏病"
 ---
 
@@ -106,13 +106,19 @@ Galantamine 是一種用於阿茲海默症的藥物。TxGNN 模型預測它可�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55292 | REMINYL PROLONGED RELEASE CAP 24MG | 緩釋膠囊 | 許可證資料未載明 |
-| HK-55293 | REMINYL PROLONGED RELEASE CAP 8MG | 緩釋膠囊 | 許可證資料未載明 |
-| HK-55294 | REMINYL PROLONGED RELEASE CAP 16MG | 緩釋膠囊 | 許可證資料未載明 |
-| HK-65459 | GALANTAMINE HYDROBROMIDE EXTENDED-RELEASE CAPSULES 16MG | 緩釋膠囊 | 許可證資料未載明 |
-| HK-65460 | GALANTAMINE HYDROBROMIDE EXTENDED-RELEASE CAPSULES 8MG | 緩釋膠囊 | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55292 | REMINYL PROLONGED RELEASE CAP 24MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-55293 | REMINYL PROLONGED RELEASE CAP 8MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-55294 | REMINYL PROLONGED RELEASE CAP 16MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-65459 | GALANTAMINE HYDROBROMIDE EXTENDED-RELEASE CAPSULES 16MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-65460 | GALANTAMINE HYDROBROMIDE EXTENDED-RELEASE CAPSULES 8MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 共 9 張有效的單一成分許可證，此處列出其中 5 張。其餘包括 HK-65461、HK-67084、HK-67085、HK-67086。
 

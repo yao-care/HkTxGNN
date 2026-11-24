@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "TRIAMTERENE"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Triamterene：預測新適應症為惡性高血壓腎病變 (malignant hypertensive renal disease)（證據等級 L5）。原適應症：知識圖譜中記錄的關聯為高血壓、充血性心臟衰竭"
 ---
 
@@ -74,9 +74,13 @@ Triamterene 一般被歸類為保鉀利尿劑（透過阻斷上皮鈉通道 ENaC
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-39897 | APO-TRIAZIDE TAB 50/25MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-39897 | APO-TRIAZIDE TAB 50/25MG | 複方 | HIND WING CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 此許可證的品名顯示為含 triamterene 與另一利尿成分的製劑，但資料中分類為單一成分；其內容不能用來說明單方 triamterene 的核准狀態。
 

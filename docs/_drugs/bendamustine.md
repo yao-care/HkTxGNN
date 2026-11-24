@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Bendamustine"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bendamustine：預測新適應症為被套細胞淋巴瘤 (mantle cell lymphoma)（證據等級 L1）。香港藥劑製品註冊：9 張（有效 9 張）"
 ---
 
@@ -93,13 +93,19 @@ Bendamustine 是烷化劑，並帶有類嘌呤的結構，可造成 DNA 交聯�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66431 | ORIMUST POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG | 未記錄 | 未記錄 |
-| HK-59067 | TREANDA FOR INJ 100MG | 未記錄 | 未記錄 |
-| HK-66891 | BENDAMUSTINE HYDROCHLORIDE POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG | 未記錄 | 未記錄 |
-| HK-66343 | BEMUNAT 100 POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG | 未記錄 | 未記錄 |
-| HK-62300 | TREANDA FOR INJECTION 25MG | 未記錄 | 未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66431 | ORIMUST POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG | 單一成分 | ORIENT EUROPHARMA CO. LTD | 有效 |
+| HK-59067 | TREANDA FOR INJ 100MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-66891 | BENDAMUSTINE HYDROCHLORIDE POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100M… | 單一成分 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-66343 | BEMUNAT 100 POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-62300 | TREANDA FOR INJECTION 25MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 236
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
 description: "Cyclosporine：預測新適應症為慢性肉芽腫病，體染色體隱性 (granulomatous disease, chronic, autosomal recessive)（證據等級 L4）。香港藥劑製品註冊：19 張（有效 19 張）"
@@ -83,13 +83,19 @@ TxGNN 模型預測它可能對**慢性肉芽腫病（體染色體隱性，Chroni
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64779 | CIQORIN CAPSULES 25MG | 未提供 | 未提供 |
-| HK-64780 | CIQORIN CAPSULES 10MG | 未提供 | 未提供 |
-| HK-56954 | CICLOSPORIN-TEVA ORAL SOLUTION 100MG/ML | 未提供 | 未提供 |
-| HK-38058 | SANDIMMUN NEORAL CAP 25MG | 未提供 | 未提供 |
-| HK-57837 | RESTASIS OPHTHALMIC EMULSION 0.05% | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64779 | CIQORIN CAPSULES 25MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-64780 | CIQORIN CAPSULES 10MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-56954 | CICLOSPORIN-TEVA ORAL SOLUTION 100MG/ML | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-38058 | SANDIMMUN NEORAL CAP 25MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-57837 | RESTASIS OPHTHALMIC EMULSION 0.05% | 單一成分 | ALLERGAN HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 19 張）。
+
+<!-- licenses:end -->
 
 本藥共有 19 張有效單方許可證，上表僅列出 5 張主要許可證，其餘包含眼用製劑（IKERVIS、CEQUA）、注射濃縮液（SANDIMMUN）及動物用藥（ATOPICA、OPTIMMUNE）等。
 

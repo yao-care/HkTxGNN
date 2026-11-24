@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "mature cataract", "tetanic cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "cortical cataract", "nuclear senile cataract", "diabetic cataract"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Methionine：預測新適應症為痤瘡 (acne)（證據等級 L5）。原適應症：資料中未載明"
 ---
 
@@ -82,13 +82,19 @@ TxGNN 模型預測它可能對 **痤瘡 (acne)** 有效，分數很高，但目�
 
 <!-- review:end hk-lic-20261117-methionine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-17391 | HUAZIN INJ | 未載明 | 未載明 |
-| HK-57540 | AMINOL-S INJ | 未載明 | 未載明 |
-| HK-62100 | AMINOGEN-S SOLUTION FOR INFUSION | 未載明 | 未載明 |
-| HK-60459 | PAN-VASOL SOLUTION FOR INJECTION | 未載明 | 未載明 |
-| HK-58914 | PAN-AMIN G INJ | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-17391 | HUAZIN INJ | 複方 | WILCOME PHARMACEUTICAL CO LTD | 有效 |
+| HK-57540 | AMINOL-S INJ | 複方 | WINGS PHARMACEUTICAL LTD | 有效 |
+| HK-62100 | AMINOGEN-S SOLUTION FOR INFUSION | 複方 | WINGS PHARMACEUTICAL LTD | 有效 |
+| HK-60459 | PAN-VASOL SOLUTION FOR INJECTION | 複方 | FALKAN MEDICAL LIMITED | 有效 |
+| HK-58914 | PAN-AMIN G INJ | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+
+上表列出其中 5 張（共 37 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

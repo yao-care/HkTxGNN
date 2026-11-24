@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 577
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "METOCLOPRAMIDE"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide：預測新適應症為Gastroduodenitis（證據等級 L5）。香港藥劑製品註冊：19 張（有效 17 張）"
@@ -102,13 +102,19 @@ TxGNN 模型預測它可能對**胃潰瘍 (Gastric Ulcer)** 有效，目前有 *
 
 <!-- review:end hk-lic-20261117-metoclopramide-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-29060 | SYNTOMIDE TAB 10MG | 錠劑（依品名） | — |
-| HK-07173 | PRIMPERAN INJ 10MG/2ML（Sanofi） | 注射劑（依品名） | — |
-| HK-64279 | CLOPERAN 10 TABLETS 10MG | 錠劑（依品名） | — |
-| HK-36811 | METOCLOPRAMIDE TAB 10MG（Teva） | 錠劑（依品名） | — |
-| HK-37155 | SYNTOMIDE SYRUP 5MG/5ML | 糖漿（依品名） | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-29060 | SYNTOMIDE TAB 10MG | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-07173 | PRIMPERAN INJ 10MG/2ML | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-64279 | CLOPERAN 10 TABLETS 10MG | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-36811 | METOCLOPRAMIDE TAB 10MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-37155 | SYNTOMIDE SYRUP 5MG/5ML | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+
+上表列出其中 5 張（共 19 張）。
+
+<!-- licenses:end -->
 
 ---
 

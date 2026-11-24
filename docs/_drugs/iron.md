@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "IRON"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 description: "Iron：預測新適應症為Vitamin B12- and folate-independent constitutional megaloblastic anemia（證據等級 L5）。香港藥劑製品註冊：17 張（有效 17 張）"
 ---
 
@@ -72,13 +72,19 @@ TxGNN 模型預測它可能對**維生素 B12 及葉酸非依賴型先天性巨�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-58954 | IRON PROTEINSUCCINYLATE ORAL SOLUTION 40MG/15ML | 未載明 | 未載明 |
-| HK-61624 | MONOFER SOLUTION FOR INJECTION/INFUSION 100MG/ML | 未載明 | 未載明 |
-| HK-37841 | HAUSMANN FERRUM SYRUP | 未載明 | 未載明 |
-| HK-61295 | EUROFER-IRON SYRUP 10MG/ML | 未載明 | 未載明 |
-| HK-64137 | FERINJECT SOLUTION FOR INJECTION/INFUSION 100MG/2ML | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-58954 | IRON PROTEINSUCCINYLATE ORAL SOLUTION 40MG/15ML | 單一成分 | LEE'S PHARMACEUTICAL (H.K) LIMITED | 有效 |
+| HK-61624 | MONOFER SOLUTION FOR INJECTION/INFUSION 100MG/ML | 單一成分 | A. MENARINI HONG KONG LIMITED | 有效 |
+| HK-37841 | HAUSMANN FERRUM SYRUP | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-61295 | EUROFER-IRON SYRUP 10MG/ML | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - HEALTHCARE DIVISION | 有效 |
+| HK-64137 | FERINJECT SOLUTION FOR INJECTION/INFUSION 100MG/2ML | 單一成分 | ZUELLIG PHARMA LIMITED | 有效 |
+
+上表列出其中 5 張（共 17 張）。
+
+<!-- licenses:end -->
 
 以上僅列出部分許可證，本藥在香港共有 17 張有效的單一成分許可證，目前皆為有效狀態。
 

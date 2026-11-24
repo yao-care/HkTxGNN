@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 397
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Fluvoxamine"
 predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Fluvoxamine：預測新適應症為Histrionic personality disorder (disease)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
@@ -71,12 +71,16 @@ TxGNN 模型預測它可能對**做作型人格障礙 (histrionic personality di
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-41397 | FAVERIN FILM-COATED TAB 50MG | 未提供 | 未提供 |
-| HK-41398 | FAVERIN FILM-COATED TAB 100MG | 未提供 | 未提供 |
-| HK-58564 | APO-FLUVOXAMINE TAB 50MG | 未提供 | 未提供 |
-| HK-58565 | APO-FLUVOXAMINE TAB 100MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-41397 | FAVERIN FILM-COATED TAB 50MG | 單一成分 | ABBOTT LAB LTD | 有效 |
+| HK-41398 | FAVERIN FILM-COATED TAB 100MG | 單一成分 | ABBOTT LAB LTD | 有效 |
+| HK-58564 | APO-FLUVOXAMINE TAB 50MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-58565 | APO-FLUVOXAMINE TAB 100MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 目前 4 張許可證皆為有效狀態，均為單一成分製劑。
 

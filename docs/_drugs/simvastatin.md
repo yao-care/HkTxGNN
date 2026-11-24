@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Simvastatin：預測新適應症為腦幹梗塞 (brain stem infarction)（證據等級 L5）。香港藥劑製品註冊：78 張（有效 72 張）"
 ---
 
@@ -81,13 +81,19 @@ TxGNN 模型預測它可能對**腦幹梗塞 (Brain Stem Infarction)** 有效，
 
 <!-- review:end hk-lic-20261117-simvastatin-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-34337 | ZOCOR TAB 10MG | 未提供 | 未提供 |
-| HK-58993 | SIMPLAQOR TAB 10MG | 未提供 | 未提供 |
-| HK-58991 | SIMPLAQOR TAB 40MG | 未提供 | 未提供 |
-| HK-51048 | SIMVASTATIN-TEVA TAB 20MG | 未提供 | 未提供 |
-| HK-51793 | APO-SIMVASTATIN TAB 40MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-34337 | ZOCOR TAB 10MG | 單一成分 | ORGANON HONG KONG LIMITED | 有效 |
+| HK-58993 | SIMPLAQOR TAB 10MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-58991 | SIMPLAQOR TAB 40MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-51048 | SIMVASTATIN-TEVA TAB 20MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-51793 | APO-SIMVASTATIN TAB 40MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 78 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

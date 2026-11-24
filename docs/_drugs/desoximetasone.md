@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 262
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DESOXIMETASONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "hereditary hypotrichosis with recurrent skin vesicles", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "primary cutaneous B-cell lymphoma", "atrichia with papular lesions", "vulvar inverted follicular keratosis"]
 description: "Desoximetasone：預測新適應症為圓形禿 (alopecia areata)（證據等級 L2）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -72,9 +72,13 @@ TxGNN 模型預測它可能對**圓形禿 (alopecia areata)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-59501 | INERSON OINTMENT 0.25% | 軟膏（依品名判斷） | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-59501 | INERSON OINTMENT 0.25% | 單一成分 | NATURAL HEALTH RESOURCES COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 782
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rivastigmine：預測新適應症為青光眼 (Glaucoma)（證據等級 L5）。原適應症：阿茲海默症（Alzheimer disease）、小腦退化、Pick 氏病等"
 monitor_inn: "RIVASTIGMINE"
 predicted_indications: ["glaucoma"]
@@ -84,13 +84,19 @@ TxGNN 模型預測它可能對**青光眼 (Glaucoma)** 有效，
 
 <!-- review:end hk-lic-20261117-rivastigmine-1 -->
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-43309 | EXELON CAP 3MG | Novartis Pharmaceuticals (HK) Limited |
-| HK-56982 | EXELON PATCH 5 (4.6 MG/24H) | Novartis Pharmaceuticals (HK) Limited |
-| HK-56983 | EXELON PATCH 10 (9.5 MG/24H) | Novartis Pharmaceuticals (HK) Limited |
-| HK-62812 | EXELON PATCH 15 (13.3MG/24H) | Novartis Pharmaceuticals (HK) Limited |
-| HK-60937 | RIVASAN CAP 6MG | Sandoz Hong Kong Limited |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-43309 | EXELON CAP 3MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-56982 | EXELON PATCH 5 (4.6 MG/24H) | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-56983 | EXELON PATCH 10 (9.5 MG/24H) | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-62812 | EXELON PATCH 15 (13.3MG/24H) | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-60937 | RIVASAN CAP 6MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 29 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

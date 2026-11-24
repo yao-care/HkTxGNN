@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 267
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DEXLANSOPRAZOLE"
 predicted_indications: ["gastroduodenitis", "duodenal obstruction", "achlorhydria", "leather-bottle stomach"]
 description: "Dexlansoprazole：預測新適應症為Gastroduodenitis（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
@@ -80,10 +80,14 @@ Dexlansoprazole 是質子幫浦抑制劑（PPI），原本用於消化性潰瘍�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61373 | DEXILANT DELAYED RELEASE CAPSULES 30MG（Takeda） | 延遲釋放膠囊 | 資料未載明 |
-| HK-61372 | DEXILANT DELAYED RELEASE CAPSULES 60MG（Takeda） | 延遲釋放膠囊 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61373 | DEXILANT DELAYED RELEASE CAPSULES 30MG | 單一成分 | TAKEDA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-61372 | DEXILANT DELAYED RELEASE CAPSULES 60MG | 單一成分 | TAKEDA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Alirocumab"
 predicted_indications: ["ichthyosis, X-linked, without steroid sulfatase deficiency", "disorder of other vitamins and cofactors metabolism and transport", "xanthomatosis (disease)", "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect", "cholesterol catabolic process disease", "46,XY disorder of sex development due to a cholesterol synthesis defect", "dappled diaphyseal dysplasia", "neutral lipid storage disease", "3-hydroxyacyl-CoA dehydrogenase deficiency", "spastic paraplegia-optic atrophy-neuropathy and spastic paraplegia-optic atrophy-neuropathy-related disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alirocumab：預測新適應症為魚鱗癬，X 連鎖，無類固醇硫酸酯酶缺乏 (ichthyosis, X-linked, without steroid sulfatase deficiency)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
@@ -72,11 +72,15 @@ X 連鎖魚鱗癬與膽固醇硫酸酯的累積有關，因此在膽固醇代謝
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67571 | PRALUENT SOLUTION FOR INJECTION IN PRE-FILLED PEN 300MG/2ML | 未記載 | 本地資料未記載 |
-| HK-64761 | PRALUENT SOLUTION FOR INJECTION IN PREFILLED PEN 150MG/ML | 未記載 | 本地資料未記載 |
-| HK-64762 | PRALUENT SOLUTION FOR INJECTION IN PREFILLED PEN 75MG/ML | 未記載 | 本地資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67571 | PRALUENT SOLUTION FOR INJECTION IN PRE-FILLED PEN 300MG/2ML | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-64761 | PRALUENT SOLUTION FOR INJECTION IN PREFILLED PEN 150MG/ML | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-64762 | PRALUENT SOLUTION FOR INJECTION IN PREFILLED PEN 75MG/ML | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

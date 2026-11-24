@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 946
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Xylometazoline：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L3）。原適應症：咽炎 (Pharyngitis)、感冒 (Common Cold)"
 monitor_inn: "Xylometazoline"
 predicted_indications: ["nasal cavity disease"]
@@ -91,13 +91,19 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 香港共有 16 張有效的單方許可證，以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-00219 | OTRIVIN PAED NASAL DROPS 0.05% | 鼻滴劑 | 未提供 |
-| HK-00195 | OTRIVIN NASAL DROPS 0.1% | 鼻滴劑 | 未提供 |
-| HK-00187 | OTRIVIN NASAL SPRAY 0.1% | 鼻噴劑 | 未提供 |
-| HK-60495 | OTRIVIN METERED DOSE NASAL SPRAY 0.05% | 鼻噴劑 | 未提供 |
-| HK-60243 | OTRIVIN MENTHOL NASAL SPRAY 0.1% | 鼻噴劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-00219 | OTRIVIN PAED NASAL DROPS 0.05% | 單一成分 | HALEON HONG KONG LIMITED | 有效 |
+| HK-00195 | OTRIVIN NASAL DROPS 0.1% | 單一成分 | HALEON HONG KONG LIMITED | 有效 |
+| HK-00187 | OTRIVIN NASAL SPRAY 0.1% | 單一成分 | HALEON HONG KONG LIMITED | 有效 |
+| HK-60495 | OTRIVIN METERED DOSE NASAL SPRAY 0.05% | 單一成分 | HALEON HONG KONG LIMITED | 有效 |
+| HK-60243 | OTRIVIN MENTHOL NASAL SPRAY 0.1% | 單一成分 | HALEON HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 16 張）。
+
+<!-- licenses:end -->
 
 ---
 
@@ -127,7 +133,6 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 - 確認文獻的實際研究設計與結果，完成相關性評估
 
 ---
-
 
 ## 免責聲明
 

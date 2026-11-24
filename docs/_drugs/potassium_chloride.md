@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 718
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "POTASSIUM CHLORIDE"
 predicted_indications: ["renal tubular acidosis"]
 description: "Potassium Chloride：預測新適應症為腎小管酸中毒 (renal tubular acidosis)（證據等級 L4）。香港藥劑製品註冊：82 張（有效 80 張）"
@@ -103,13 +103,19 @@ TxGNN 模型預測它可能對**腎小管酸中毒 (Renal Tubular Acidosis, RTA)
 
 <!-- review:end hk-lic-20261117-potassium_chloride-1 -->
 
-| 許可證號 | 品名 | 廠商 | 類型 |
-|---------|------|------|------|
-| HK-68379 | KALINOR RETARD 緩釋膠囊 600MG | HIND WING CO LTD | 口服緩釋膠囊 |
-| HK-68298 | POTASSIUM CHLORIDE 緩釋錠 USP 600MG | CHEMILL PHARMA LIMITED | 口服緩釋錠 |
-| HK-66819 | POTASSIUM CHLORIDE 緩釋錠 USP 600MG | VIATRIS HEALTHCARE HONG KONG LIMITED | 口服緩釋錠 |
-| HK-68416 | POTASSIUM CHLORIDE 輸注用濃縮液 14.9% W/V | B. BRAUN MEDICAL (HK) LTD | 靜脈輸注濃縮液 |
-| HK-54904 | 0.15% POTASSIUM CHLORIDE AND 5% GLUCOSE IV INF | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 靜脈輸注液 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68379 | KALINOR RETARD PROLONGED-RELEASE CAPSULES 600MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-68298 | POTASSIUM CHLORIDE EXTENDED-RELEASE TABLETS USP 600MG | 單一成分 | CHEMILL PHARMA LIMITED | 有效 |
+| HK-66819 | POTASSIUM CHLORIDE EXTENDED-RELEASE TABLETS USP 600MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-68416 | POTASSIUM CHLORIDE CONCENTRATE FOR SOLUTION FOR INFUSION 14.9% W/V | 單一成分 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-54904 | 0.15% POTASSIUM CHLORIDE AND 5% GLUCOSE IV INF | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+
+上表列出其中 5 張（共 82 張）。
+
+<!-- licenses:end -->
 
 ---
 

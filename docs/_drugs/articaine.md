@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 73
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Articaine：預測新適應症為痛風 (Gout)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Articaine"
 predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthma"]
@@ -85,13 +85,17 @@ TxGNN 模型預測它可能對**痛風 (Gout)** 有效，預測分數很高，�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-58946 | SEPTANEST WITH ADRENALINE INJ 1/100,000 | 注射劑 | 資料未載明 |
-| HK-52816 | UBISTESIN FORTE INJ | 注射劑 | 資料未載明 |
-| HK-56807 | POSICAINE 200 INJ | 注射劑 | 資料未載明 |
-| HK-56808 | POSICAINE 100 INJ | 注射劑 | 資料未載明 |
-| HK-52817 | UBISTESIN INJ | 注射劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-58946 | SEPTANEST WITH ADRENALINE INJ 1/100,000 | 複方 | HORSELEY CO LTD | 有效 |
+| HK-52816 | UBISTESIN FORTE INJ | 複方 | HENRY SCHEIN HONG KONG LIMITED | 有效 |
+| HK-56807 | POSICAINE 200 INJ | 複方 | GOWIN DEVELOPMENT LIMITED | 有效 |
+| HK-56808 | POSICAINE 100 INJ | 複方 | GOWIN DEVELOPMENT LIMITED | 有效 |
+| HK-52817 | UBISTESIN INJ | 複方 | HENRY SCHEIN HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

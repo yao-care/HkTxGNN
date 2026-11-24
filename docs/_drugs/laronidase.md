@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 511
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LARONIDASE"
 predicted_indications: ["Sanfilippo syndrome"]
 description: "Laronidase：預測新適應症為Sanfilippo syndrome（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -85,9 +85,13 @@ MPS I 本身就是一種溶小體儲積症，且骨骼病變（多發性骨發�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-56438 | ALDURAZYME CONC. SOLUTION FOR IV INFUSION 2.9MG/5ML（廠商：SANOFI HONG KONG LIMITED） | 靜脈輸注濃縮液 | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-56438 | ALDURAZYME CONC. SOLUTION FOR IV INFUSION 2.9MG/5ML | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

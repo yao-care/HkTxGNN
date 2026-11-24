@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 611
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NEBIVOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Nebivolol：預測新適應症為Malignant hypertensive renal disease（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"
@@ -91,12 +91,18 @@ Nebivolol 是一種 β1 選擇性阻斷劑，原本用於治療高血壓。
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67318 | NEBIVOLOL STELLA TABLETS 5MG | 錠劑（資料未載明） | 資料未載明 |
-| HK-68319 | NEBIVOLOL SANDOZ TABLETS 5MG | 錠劑（資料未載明） | 資料未載明 |
-| HK-65104 | NEBILET TABLETS 1.25MG | 錠劑（資料未載明） | 資料未載明 |
-| HK-59922 | NEBILET TAB 5MG | 錠劑（資料未載明） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67318 | NEBIVOLOL STELLA TABLETS 5MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-68319 | NEBIVOLOL SANDOZ TABLETS 5MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-65104 | NEBILET TABLETS 1.25MG | 單一成分 | A. MENARINI HONG KONG LIMITED | 有效 |
+| HK-59922 | NEBILET TAB 5MG | 單一成分 | A. MENARINI HONG KONG LIMITED | 有效 |
+
+上表列出其中 4 張（共 5 張）。
+
+<!-- licenses:end -->
 
 ---
 

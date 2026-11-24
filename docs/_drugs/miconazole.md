@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 583
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole：預測新適應症為痤瘡 (acne (disease))（證據等級 L4）。香港藥劑製品註冊：86 張（有效 85 張）"
@@ -88,13 +88,19 @@ TxGNN 模型預測它可能對**痤瘡 (acne (disease))** 有效，
 
 <!-- review:end hk-lic-20261117-miconazole-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-45780 | DECOZOL CREAM 2% | 乳膏（依品名） | 未載明 |
-| HK-68769 | MICODERM CREAM 2% W/W | 乳膏（依品名） | 未載明 |
-| HK-45689 | AXCEL MICONAZOLE CREAM 2% | 乳膏（依品名） | 未載明 |
-| HK-18530 | DAFRIN VAG TAB 100MG | 陰道錠（依品名） | 未載明 |
-| HK-57834 | GYNO-MICOZO VAGINAL SOFT CAPSULE 0.4G | 陰道軟膠囊（依品名） | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-45780 | DECOZOL CREAM 2% | 單一成分 | TAISHO PHARMACEUTICAL (HK) LTD | 有效 |
+| HK-68769 | MICODERM CREAM 2% W/W | 單一成分 | YUNG SHIN CO LTD | 有效 |
+| HK-45689 | AXCEL MICONAZOLE CREAM 2% | 單一成分 | KOTRA PHARMA (HONG KONG) COMPANY | 有效 |
+| HK-18530 | DAFRIN VAG TAB 100MG | 單一成分 | WILCOME PHARMACEUTICAL CO LTD | 有效 |
+| HK-57834 | GYNO-MICOZO VAGINAL SOFT CAPSULE 0.4G | 單一成分 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+
+上表列出其中 5 張（共 86 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

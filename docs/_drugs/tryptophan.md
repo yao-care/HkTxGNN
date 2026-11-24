@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "TRYPTOPHAN"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Tryptophan：預測新適應症為不寧腿症候群 (Restless Legs Syndrome)（證據等級 L5）。原適應症：許可證資料未載明核准適應症"
 ---
 
@@ -98,13 +98,19 @@ TxGNN 模型預測它可能對**不寧腿症候群 (Restless Legs Syndrome)** �
 
 <!-- review:end hk-lic-20261117-tryptophan-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-32089 | KETOSTERIL TAB | 未載明 | 未載明 |
-| HK-60459 | PAN-VASOL SOLUTION FOR INJECTION | 未載明 | 未載明 |
-| HK-58914 | PAN-AMIN G INJ | 未載明 | 未載明 |
-| HK-59165 | LA-FLAMING INJ. | 未載明 | 未載明 |
-| HK-55215 | PAN-AMIN G INJ | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-32089 | KETOSTERIL TAB | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-60459 | PAN-VASOL SOLUTION FOR INJECTION | 複方 | FALKAN MEDICAL LIMITED | 有效 |
+| HK-58914 | PAN-AMIN G INJ | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+| HK-59165 | LA-FLAMING INJ. | 複方 | FALKAN MEDICAL LIMITED | 有效 |
+| HK-55215 | PAN-AMIN G INJ | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+
+上表列出其中 5 張（共 37 張）。
+
+<!-- licenses:end -->
 
 ---
 

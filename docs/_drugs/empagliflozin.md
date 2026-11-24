@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 317
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Empagliflozin：預測新適應症為典型僵人症候群 (Classic Stiff Person Syndrome)（證據等級 L5）。原適應症：第 2 型糖尿病 (Type 2 Diabetes Mellitus)"
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
@@ -84,13 +84,19 @@ TxGNN 模型預測它可能對**典型僵人症候群 (Classic Stiff Person Synd
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64095 | JARDIANCE TABLETS 10MG | 錠劑 | 未提供 |
-| HK-64096 | JARDIANCE TABLETS 25MG | 錠劑 | 未提供 |
-| HK-65353 | GLYXAMBI TABLETS 10MG/5MG | 錠劑 | 未提供 |
-| HK-65354 | GLYXAMBI TABLETS 25MG/5MG | 錠劑 | 未提供 |
-| HK-64242 | JARDIANCE DUO TABLETS 12.5MG/1000MG | 錠劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64095 | JARDIANCE TABLETS 10MG | 單一成分 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-64096 | JARDIANCE TABLETS 25MG | 單一成分 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-65353 | GLYXAMBI TABLETS 10MG/5MG | 複方 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-65354 | GLYXAMBI TABLETS 25MG/5MG | 複方 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-64242 | JARDIANCE DUO TABLETS 12.5MG/1000MG | 複方 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+
+上表列出其中 5 張（共 16 張）。
+
+<!-- licenses:end -->
 
 以上列出 5 張主要許可證，共 16 張有效許可證（含單方與複方；JARDIANCE、GLYXAMBI、JARDIANCE DUO 由 Boehringer Ingelheim (HK) Ltd 持有，其餘為其他公司的學名藥）。
 

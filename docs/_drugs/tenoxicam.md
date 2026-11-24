@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "TENOXICAM"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "trigeminal autonomic cephalalgia", "alopecia"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Tenoxicam：預測新適應症為Brachydactyly-syndactyly syndrome（證據等級 L5）。香港藥劑製品註冊：2 張（有效 1 張）"
 ---
 
@@ -90,10 +90,14 @@ TxGNN 模型預測它可能對**頭痛疾患 (Headache Disorder)** 有效，目�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-41325 | XOTILON TAB 20MG | 未載明 | 未載明 |
-| HK-45225 | TENOX TAB 20MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-41325 | XOTILON TAB 20MG | 單一成分 | PERFECT GROUPS LTD | 已註銷 |
+| HK-45225 | TENOX TAB 20MG | 單一成分 | DELTAPHARM LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "GEFITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Gefitinib：預測新適應症為牙齦纖維瘤病 (Fibromatosis, Gingival)（證據等級 L5）。原適應症：非小細胞肺癌、肺癌"
 ---
 
@@ -81,13 +81,19 @@ TxGNN 模型預測它可能對 **牙齦纖維瘤病 (Fibromatosis, Gingival)** �
 
 香港共有 11 張有效的單方 gefitinib 許可證（250 mg 錠劑），本次彙整資料未載明劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-51753 | IRESSA TAB 250MG | ASTRAZENECA HONG KONG LIMITED |
-| HK-66380 | VEIASU TABLETS 250MG | LOTUS PHARMACEUTICAL HK LIMITED |
-| HK-66418 | GERITSA TABLETS 250MG | JACOBSON MARKETING LIMITED |
-| HK-66918 | APO-GEFITINIB TABLETS 250MG | HIND WING CO LTD |
-| HK-66963 | GEFITINIB SANDOZ TABLETS 250MG | SANDOZ HONG KONG LIMITED |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-51753 | IRESSA TAB 250MG | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-66380 | VEIASU TABLETS 250MG | 單一成分 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-66418 | GERITSA TABLETS 250MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-66918 | APO-GEFITINIB TABLETS 250MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-66963 | GEFITINIB SANDOZ TABLETS 250MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 11 張）。
+
+<!-- licenses:end -->
 
 （另有 6 張許可證未在此列出。）
 

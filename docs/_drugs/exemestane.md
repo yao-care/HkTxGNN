@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "EXEMESTANE"
 predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Exemestane：預測新適應症為第 2 型抗凝血酶缺乏症 (antithrombin deficiency type 2)（證據等級 L5）。原適應症：目前許可證資料未提供核准適應症文字"
 ---
 
@@ -85,13 +85,19 @@ TxGNN 模型預測它可能對**第 2 型抗凝血酶缺乏症 (antithrombin def
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65667 | AROMAPLEX TABLETS 25MG | 未提供 | 未提供 |
-| HK-46969 | AROMASIN TAB 25MG | 未提供 | 未提供 |
-| HK-62482 | EXEMESTANE STADA TABLETS 25MG | 未提供 | 未提供 |
-| HK-61725 | EXEMESTANE NORMON FILM-COATED TABLETS 25MG | 未提供 | 未提供 |
-| HK-65012 | ACCORD EXEMESTANE TABLETS 25MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65667 | AROMAPLEX TABLETS 25MG | 單一成分 | LSB (HK) LIMITED | 有效 |
+| HK-46969 | AROMASIN TAB 25MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-62482 | EXEMESTANE STADA TABLETS 25MG | 單一成分 | STADA PHARMACEUTICALS (ASIA) LIMITED | 有效 |
+| HK-61725 | EXEMESTANE NORMON FILM-COATED TABLETS 25MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-65012 | ACCORD EXEMESTANE TABLETS 25MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

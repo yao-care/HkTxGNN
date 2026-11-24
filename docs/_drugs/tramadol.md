@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 893
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tramadol：預測新適應症為肢中段發育不良 Hunter-Thompson 型 (Acromesomelic Dysplasia…（證據等級 L5）。原適應症：骨關節炎 (osteoarthritis)、關節病變 (arthropathy)"
 monitor_inn: "Tramadol"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
@@ -94,13 +94,19 @@ Hunter-Thompson 型肢中段發育不良是一種遺傳性骨骼發育疾病，�
 
 <!-- review:end hk-lic-20261117-tramadol-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-58224 | TRADOLGESIC CAP 50MG | 膠囊（依品名） | 無資料 |
-| HK-66387 | MYOTRAM 100 SOLUTION FOR INJECTION/INFUSION 100MG/2ML | 注射／輸注液（依品名） | 無資料 |
-| HK-35707 | MABRON CAP 50MG | 膠囊（依品名） | 無資料 |
-| HK-44533 | SEFMAL CAP 50MG | 膠囊（依品名） | 無資料 |
-| HK-41704 | TRAMADOL 50 STADA CAP 50MG | 膠囊（依品名） | 無資料 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-58224 | TRADOLGESIC CAP 50MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-66387 | MYOTRAM 100 SOLUTION FOR INJECTION/INFUSION 100MG/2ML | 單一成分 | HANG LUNG TRADING (H.K.) CO | 有效 |
+| HK-35707 | MABRON CAP 50MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-44533 | SEFMAL CAP 50MG | 單一成分 | HEALTH ALLIANCE INTERNATIONAL CO LTD | 有效 |
+| HK-41704 | TRAMADOL 50 STADA CAP 50MG | 單一成分 | STADA PHARMACEUTICALS (ASIA) LIMITED | 有效 |
+
+上表列出其中 5 張（共 44 張）。
+
+<!-- licenses:end -->
 
 ---
 

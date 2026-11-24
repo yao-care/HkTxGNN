@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 84
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atropine：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L4）。原適應症：香港許可證資料未載明"
 monitor_inn: "Atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -96,13 +96,19 @@ Atropine 是非選擇性的蕈毒鹼型乙醯膽鹼受體拮抗劑。前臨床�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-47097 | ATROPINE SULPHATE INJ 0.6MG/ML | 未載明 | 未載明 |
-| HK-65398 | ATROPINE SULFATE SOLUTION FOR INJECTION 600MCG/ML | 未載明 | 未載明 |
-| HK-66757 | ATROPINE SULFATE COOPER EYE DROPS 1% W/V | 未載明 | 未載明 |
-| HK-08619 | ATROPINE SULPHATE EYE DROPS 1% 'MINIMS' | 未載明 | 未載明 |
-| HK-68445 | ATROJEAN EYE DROPS 0.01% W/V | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-47097 | ATROPINE SULPHATE INJ 0.6MG/ML | 單一成分 | ATLANTIC PHARMACEUTICAL LIMITED | 有效 |
+| HK-65398 | ATROPINE SULFATE SOLUTION FOR INJECTION 600MCG/ML | 單一成分 | THE INTERNATIONAL MEDICAL COMPANY LIMITED | 有效 |
+| HK-66757 | ATROPINE SULFATE COOPER EYE DROPS 1% W/V | 單一成分 | SB PHARMA LIMITED | 有效 |
+| HK-08619 | ATROPINE SULPHATE EYE DROPS 1% 'MINIMS' | 單一成分 | BAUSCH & LOMB (HK) LTD | 有效 |
+| HK-68445 | ATROJEAN EYE DROPS 0.01% W/V | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+
+上表列出其中 5 張（共 12 張）。
+
+<!-- licenses:end -->
 
 另有 7 張單方許可證（含注射劑與 DHAMOTIL、DIAMOTIL、CELIDIN、SYNCOMIL 等錠劑品項），共計 12 張有效許可證，無已註銷者。
 

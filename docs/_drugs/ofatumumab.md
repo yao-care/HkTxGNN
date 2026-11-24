@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "OFATUMUMAB"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ofatumumab：預測新適應症為濾泡性淋巴瘤 (Follicular Lymphoma)（證據等級 L2）。原適應症：知識圖譜中記錄為急性淋巴芽細胞白血病、Richter 症候群"
 ---
 
@@ -96,9 +96,13 @@ TxGNN 模型預測它可能對**濾泡性淋巴瘤 (Follicular Lymphoma)** 有�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67210 | KESIMPTA SOLUTION FOR INJECTION IN PRE-FILLED PEN 20MG/0.4ML | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67210 | KESIMPTA SOLUTION FOR INJECTION IN PRE-FILLED PEN 20MG/0.4ML | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 此為香港唯一一張 Ofatumumab 單方許可證（製造商：NOVARTIS PHARMACEUTICALS (HK) LIMITED），目前資料未載明其核准適應症，因此不能據此認定濾泡性淋巴瘤或原適應症已在香港核准。
 

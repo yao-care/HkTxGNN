@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ACETAZOLAMIDE"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "unclassified intestinal pseudoobstruction"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetazolamide：預測新適應症為運動誘發惡性高熱 (exercise-induced malignant hyperthermia)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
@@ -72,11 +72,15 @@ TxGNN 模型預測它可能對**運動誘發惡性高熱 (exercise-induced malig
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-50001 | ACETAZOLAMIDE 250 TAB 250MG (REMEDICA) | 未記載 | 未記載 |
-| HK-36263 | APO-ACETAZOLAMIDE TAB 250MG | 未記載 | 未記載 |
-| HK-16895 | ACETAZOLAMIDE TAB 250MG (WHITE) | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-50001 | ACETAZOLAMIDE 250 TAB 250MG (REMEDICA) | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-36263 | APO-ACETAZOLAMIDE TAB 250MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-16895 | ACETAZOLAMIDE TAB 250MG (WHITE) | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證均為單一成分製劑，狀態皆為有效。
 

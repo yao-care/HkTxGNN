@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 919
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "URSODEOXYCHOLIC ACID"
 predicted_indications: ["homozygous familial hypercholesterolemia"]
 description: "Ursodeoxycholic Acid：預測新適應症為同型合子家族性高膽固醇血症 (homozygous familial hypercholesterolemia)（證據等級 L5）。香港藥劑製品註冊：13 張（有效 13 張）"
@@ -72,13 +72,19 @@ TxGNN 分數（0.9986）只是模型預測，不能視為臨床證據。
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-58164 | PMS-URSODIOL C TAB 250MG | 未提供 | 未提供 |
-| HK-55453 | URSODEX CAP 250MG | 未提供 | 未提供 |
-| HK-55451 | URSONIC CAP 50MG | 未提供 | 未提供 |
-| HK-65027 | URSODEOXYCHOLIC ACID CAPSULES BP 250MG | 未提供 | 未提供 |
-| HK-57786 | URSOFALK CAP 250MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-58164 | PMS-URSODIOL C TAB 250MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-55453 | URSODEX CAP 250MG | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-55451 | URSONIC CAP 50MG | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-65027 | URSODEOXYCHOLIC ACID CAPSULES BP 250MG | 單一成分 | CHEMILLENNIUM INTERNATIONAL (HK) LIMITED | 有效 |
+| HK-57786 | URSOFALK CAP 250MG | 單一成分 | A. MENARINI HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 13 張）。
+
+<!-- licenses:end -->
 
 本藥在香港共有 13 張有效單方許可證，上表僅列出 5 張主要許可證。
 

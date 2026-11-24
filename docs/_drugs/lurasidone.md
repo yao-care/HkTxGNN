@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 545
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Lurasidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Lurasidone：預測新適應症為Retinal dystrophy with or without extraocular anomalies（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
@@ -84,11 +84,15 @@ Lurasidone 是一種非典型抗精神病藥，原本用於雙極性疾患與思
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64806 | LATUDA TABLETS 40MG | 未登載 | 未登載 |
-| HK-64804 | LATUDA TABLETS 80MG | 未登載 | 未登載 |
-| HK-67186 | LATUDA TABLETS 20MG | 未登載 | 未登載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64806 | LATUDA TABLETS 40MG | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-64804 | LATUDA TABLETS 80MG | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-67186 | LATUDA TABLETS 20MG | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證皆為單一成分、有效狀態，持有人為 DKSH Hong Kong Limited。
 

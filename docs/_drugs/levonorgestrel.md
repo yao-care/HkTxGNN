@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levonorgestrel：預測新適應症為痤瘡 (acne (disease))（證據等級 L2）。香港藥劑製品註冊：28 張（有效 28 張）"
 ---
 
@@ -88,13 +88,19 @@ TxGNN 模型預測它可能對**痤瘡 (acne (disease))** 有效。
 
 <!-- review:end hk-lic-20261117-levonorgestrel-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55811 | ESCAPELLE TAB 1.5MG | 未提供 | 未提供 |
-| HK-58345 | HOLITIN TAB 1.5MG | 未提供 | 未提供 |
-| HK-41251 | MIRENA INTRAUTERINE SYSTEM 52MG | 未提供 | 未提供 |
-| HK-64965 | JAYDESS INTRAUTERINE DELIVERY SYSTEM 13.5MG | 未提供 | 未提供 |
-| HK-55593 | NORLEVO TAB 1.5MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55811 | ESCAPELLE TAB 1.5MG | 單一成分 | MEKIM LTD | 有效 |
+| HK-58345 | HOLITIN TAB 1.5MG | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-41251 | MIRENA INTRAUTERINE SYSTEM 52MG | 單一成分 | BAYER HEALTHCARE LIMITED | 有效 |
+| HK-64965 | JAYDESS INTRAUTERINE DELIVERY SYSTEM 13.5MG | 單一成分 | BAYER HEALTHCARE LIMITED | 有效 |
+| HK-55593 | NORLEVO TAB 1.5MG | 單一成分 | ORIENT EUROPHARMA CO. LTD | 有效 |
+
+上表列出其中 5 張（共 28 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

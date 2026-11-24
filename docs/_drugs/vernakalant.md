@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 932
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Vernakalant：預測新適應症為中風 (Stroke Disorder)（證據等級 L5）。原適應症：心房顫動（atrial fibrillation）"
 monitor_inn: "Vernakalant"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
@@ -89,9 +89,13 @@ TxGNN 模型預測它可能對**中風 (Stroke Disorder)** 有效，但目前**�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61191 | BRINAVESS CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/ML | — | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61191 | BRINAVESS CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/ML | 單一成分 | EDDINGPHARM (HONG KONG) COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

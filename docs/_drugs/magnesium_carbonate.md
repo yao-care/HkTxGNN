@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "MAGNESIUM CARBONATE"
 predicted_indications: ["gastroduodenitis", "gastroparesis (disease)", "stomach disease", "duodenal obstruction"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Magnesium Carbonate：預測新適應症為胃十二指腸炎（證據等級 L5）。原適應症：消化性潰瘍、胃食道逆流、食道炎、便秘、消化不良"
 ---
 
@@ -72,13 +72,19 @@ TxGNN 模型預測它可能對**胃十二指腸炎 (gastroduodenitis)** 有效�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-44128 | MAGNESIUM CARBONATE | 未載明 | 未載明 |
-| HK-47678 | CP-MAGTRISIL MIXTURE | 未載明 | 未載明 |
-| HK-35119 | MAGNESIUM TRISILICATE MIXT | 未載明 | 未載明 |
-| HK-61749 | DUBICHINONE CAPSULES | 未載明 | 未載明 |
-| HK-30103 | MILZINE TAB | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-44128 | MAGNESIUM CARBONATE | 單一成分 | STANDARD CHEMICAL CORPORATION LIMITED | 有效 |
+| HK-47678 | CP-MAGTRISIL MIXTURE | 複方 | CHRISTO PHARM LTD | 有效 |
+| HK-35119 | MAGNESIUM TRISILICATE MIXT | 複方 | MEDIPHARMA LTD | 有效 |
+| HK-61749 | DUBICHINONE CAPSULES | 複方 | INNEX BIO-TECH LIMITED | 有效 |
+| HK-30103 | MILZINE TAB | 複方 | VICKMANS LABORATORIES LTD | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 共 10 張有效單方許可證，以上僅列出前 5 張。
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 758
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ranolazine：預測新適應症為腎因性抗利尿不適當症候群 (NSIAD)（證據等級 L5）。原適應症：香港許可證資料未載明"
 monitor_inn: "RANOLAZINE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -82,11 +82,15 @@ TxGNN 的高分（0.9965）屬於計算預測，不等同於證據。若要驗�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-63607 | RANEXA PROLONGED-RELEASE TABLETS 375MG | 緩釋錠 | 資料未載明 |
-| HK-63608 | RANEXA PROLONGED-RELEASE TABLETS 500MG | 緩釋錠 | 資料未載明 |
-| HK-63609 | RANEXA PROLONGED-RELEASE TABLETS 750MG | 緩釋錠 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63607 | RANEXA PROLONGED-RELEASE TABLETS 375MG | 單一成分 | A. MENARINI HONG KONG LIMITED | 有效 |
+| HK-63608 | RANEXA PROLONGED-RELEASE TABLETS 500MG | 單一成分 | A. MENARINI HONG KONG LIMITED | 有效 |
+| HK-63609 | RANEXA PROLONGED-RELEASE TABLETS 750MG | 單一成分 | A. MENARINI HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證均由 A. MENARINI HONG KONG LIMITED 持有，皆為有效的單方製劑。
 

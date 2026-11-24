@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 525
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 description: "Levocetirizine：預測新適應症為類風濕性關節炎 (rheumatoid arthritis)（證據等級 L5）。香港藥劑製品註冊：29 張（有效 29 張）"
@@ -92,13 +92,19 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 <!-- review:end hk-lic-20261117-levocetirizine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-49629 | XYZAL TAB 5MG（GlaxoSmithKline） | 錠劑 5mg | 未提供 |
-| HK-54600 | XYZAL ORAL DROPS 5MG/ML（GlaxoSmithKline） | 口服滴劑 | 未提供 |
-| HK-58738 | ALCET TAB 5MG（Deltapharm） | 錠劑 5mg | 未提供 |
-| HK-63098 | XYLACLEAR TABLETS 5MG（Sino Pacific Pharma） | 錠劑 5mg | 未提供 |
-| HK-63096 | XYLACLEAR ORAL SOLUTION 0.5MG/ML（Sino Pacific Pharma） | 口服溶液 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-49629 | XYZAL TAB 5MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-54600 | XYZAL ORAL DROPS 5MG/ML | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-58738 | ALCET TAB 5MG | 單一成分 | DELTAPHARM LIMITED | 有效 |
+| HK-63098 | XYLACLEAR TABLETS 5MG | 單一成分 | SINO PACIFIC PHARMA COMPANY LIMITED | 有效 |
+| HK-63096 | XYLACLEAR ORAL SOLUTION 0.5MG/ML | 單一成分 | SINO PACIFIC PHARMA COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 29 張）。
+
+<!-- licenses:end -->
 
 ---
 

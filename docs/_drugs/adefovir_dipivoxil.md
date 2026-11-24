@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ADEFOVIR DIPIVOXIL"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hepatitis C virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adefovir Dipivoxil：預測新適應症為慢性C型肝炎病毒感染 (chronic hepatitis C virus infection)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
@@ -85,10 +85,14 @@ TxGNN 的高分較可能反映模型中與 B 型肝炎在特徵上的相近，�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-63344 | HEPTOVANCE TABLET 10MG | 未記載 | 未記載 |
-| HK-64175 | APO-ADEFOVIR TABLETS 10MG | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63344 | HEPTOVANCE TABLET 10MG | 單一成分 | SINO PACIFIC PHARMA COMPANY LIMITED | 有效 |
+| HK-64175 | APO-ADEFOVIR TABLETS 10MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 本地資料中兩張許可證皆為單一成分製劑，目前均為有效狀態。
 

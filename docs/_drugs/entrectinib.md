@@ -3,7 +3,7 @@ layout: default
 title: Entrectinib
 parent: 僅已知用途（無新預測）
 nav_order: 324
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Entrectinib: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 indication_count: 0
@@ -71,10 +71,14 @@ TxGNN 模型對 Entrectinib 沒有分數達 0.99 以上的候選適應症，因�
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-66639 | ROZLYTREK CAPSULES 100MG |  | 有效 |
-| HK-66640 | ROZLYTREK CAPSULES 200MG |  | 有效 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66639 | ROZLYTREK CAPSULES 100MG | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-66640 | ROZLYTREK CAPSULES 200MG | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

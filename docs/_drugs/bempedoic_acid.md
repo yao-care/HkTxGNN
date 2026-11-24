@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Bempedoic acid"
 predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "infectious bovine rhinotracheitis", "malignant catarrh", "cytomegalovirus infection", "hyperthyroxinemia", "drug-induced osteoporosis", "multiple endocrine neoplasia", "pregnancy associated osteoporosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bempedoic Acid：預測新適應症為甲狀腺功能亢進 (hyperthyroidism)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
@@ -71,10 +71,14 @@ Bempedoic acid 是一種前驅藥，在肝臟經 ACSVL1 活化後抑制 ACL，�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67818 | NILEMDO TABLETS 180MG | 錠劑 | 本地資料未記載 |
-| HK-67819 | NUSTENDI TABLETS 180MG/10MG | 錠劑 | 本地資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67818 | NILEMDO TABLETS 180MG | 單一成分 | DAIICHI SANKYO HONG KONG LIMITED | 有效 |
+| HK-67819 | NUSTENDI TABLETS 180MG/10MG | 複方 | DAIICHI SANKYO HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

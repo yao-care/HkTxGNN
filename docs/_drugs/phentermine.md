@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 691
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PHENTERMINE"
 predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny"]
 description: "Phentermine：預測新適應症為維生素過多症 (hypervitaminosis)（證據等級 L5）。香港藥劑製品註冊：11 張（有效 11 張）"
@@ -89,13 +89,19 @@ TxGNN 模型預測它可能對 **維生素過多症 (Hypervitaminosis)** 有效�
 
 香港共有 11 張有效的單一成分許可證（無已註銷者），許可證資料未登載核准適應症文字與劑型。主要許可證如下：
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-33022 | REDUSA CAP 15MG | 膠囊 | 未登載 |
-| HK-19830 | DUROMINE CAP 30MG | 膠囊 | 未登載 |
-| HK-28878 | DUROMINE CAP 40MG CONTROLLED RELEASE | 控釋膠囊 | 未登載 |
-| HK-19829 | DUROMINE CAP 15MG | 膠囊 | 未登載 |
-| HK-33023 | REDUSA FORTE CAP 35MG | 膠囊 | 未登載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-33022 | REDUSA CAP 15MG | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-19830 | DUROMINE CAP 30MG | 單一成分 | INOVA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-28878 | DUROMINE CAP 40MG CONTROLLED RELEASE | 單一成分 | INOVA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-19829 | DUROMINE CAP 15MG | 單一成分 | INOVA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-33023 | REDUSA FORTE CAP 35MG | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+
+上表列出其中 5 張（共 11 張）。
+
+<!-- licenses:end -->
 
 ---
 

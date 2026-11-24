@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Efavirenz：預測新適應症為猿猴免疫缺陷病毒感染 (simian immunodeficiency virus infection)（證據等級 L5）。原適應症：HIV 感染、AIDS"
 ---
 
@@ -85,13 +85,19 @@ TxGNN 模型（深度學習）給出的高分（0.9980）可能反映模型學�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66814 | APT-EFAVIRENZ TABLETS 600MG | 未提供 | 未提供 |
-| HK-61617 | EFAVIRENZ SANDOZ TABLETS 600MG | 未提供 | 未提供 |
-| HK-66482 | EFAVIRENZ TABLETS USP 600MG | 未提供 | 未提供 |
-| HK-66634 | EFAVIRENZ TABLETS 200MG | 未提供 | 未提供 |
-| HK-59769 | ESTIVA-600 TAB 600MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66814 | APT-EFAVIRENZ TABLETS 600MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-61617 | EFAVIRENZ SANDOZ TABLETS 600MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-66482 | EFAVIRENZ TABLETS USP 600MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-66634 | EFAVIRENZ TABLETS 200MG | 單一成分 | CHEMILLENNIUM INTERNATIONAL (HK) LIMITED | 有效 |
+| HK-59769 | ESTIVA-600 TAB 600MG | 單一成分 | CHEMILLENNIUM INTERNATIONAL (HK) LIMITED | 有效 |
+
+上表列出其中 5 張（共 7 張）。
+
+<!-- licenses:end -->
 
 目前共有 7 張有效許可證，上表僅列出其中 5 張。
 

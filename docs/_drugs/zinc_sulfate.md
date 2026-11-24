@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 955
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ZINC SULFATE"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "congenital prothrombin deficiency"]
 description: "Zinc Sulfate：預測新適應症為咽炎 (pharyngitis)（證據等級 L5）。香港藥劑製品註冊：7 張（有效 7 張）"
@@ -76,13 +76,19 @@ TxGNN 模型預測它可能對**咽炎 (pharyngitis)** 有效，但目前僅有 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-46124 | OPTO-PHARM EYE WASH | 未記載 | 未記載 |
-| HK-46363 | V-ROHTO EYE DROPS | 未記載 | 未記載 |
-| HK-40758 | NEW EYE RUBY EYE DROPS | 未記載 | 未記載 |
-| HK-60855 | SMOFKABIVEN PERIPHERAL EMULSION FOR INFUSION | 未記載 | 未記載 |
-| HK-60482 | SMOFKABIVEN EMULSION FOR INFUSION | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-46124 | OPTO-PHARM EYE WASH | 複方 | PERFECT GROUPS LTD | 有效 |
+| HK-46363 | V-ROHTO EYE DROPS | 複方 | MENTHOLATUM (ASIA PACIFIC) LIMITED | 有效 |
+| HK-40758 | NEW EYE RUBY EYE DROPS | 複方 | ENG AN TRADING COMPANY LIMITED | 有效 |
+| HK-60855 | SMOFKABIVEN PERIPHERAL EMULSION FOR INFUSION | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-60482 | SMOFKABIVEN EMULSION FOR INFUSION | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 7 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

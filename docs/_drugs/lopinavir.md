@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "LOPINAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lopinavir：預測新適應症為猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)（證據等級 L5）。原適應症：知識圖譜中記錄的 HIV 感染、愛滋病"
 ---
 
@@ -76,13 +76,19 @@ SIV 是與 HIV 親緣相近的慢病毒，其蛋白酶與 HIV-1 蛋白酶結構�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68129 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG | 未提供 | 未提供 |
-| HK-65831 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG | 未提供 | 未提供 |
-| HK-55200 | KALETRA TAB | 未提供 | 未提供 |
-| HK-66676 | LOPINAVIR AND RITONAVIR TABLETS USP 100MG/25MG | 未提供 | 未提供 |
-| HK-66612 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68129 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG | 複方 | CHEMILL PHARMA LIMITED | 有效 |
+| HK-65831 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG | 複方 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-55200 | KALETRA TAB | 複方 | ABBVIE LIMITED | 有效 |
+| HK-66676 | LOPINAVIR AND RITONAVIR TABLETS USP 100MG/25MG | 複方 | CONTROLLED MEDICATIONS LIMITED | 有效 |
+| HK-66612 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG | 複方 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 （另有 1 張許可證 HK-48165，品名為 KALETRA ORAL SOL，由 AbbVie 持有，此處依規定最多列 5 張。）
 

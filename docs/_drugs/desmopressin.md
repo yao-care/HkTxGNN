@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 259
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Desmopressin"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
 description: "Desmopressin：預測新適應症為Congenital prothrombin deficiency（證據等級 L5）。香港藥劑製品註冊：14 張（有效 14 張）"
@@ -108,13 +108,19 @@ TxGNN 模型的預測中，最值得進一步評估的是**原發性血小板釋
 
 香港共有 14 張有效許可證，皆為單方製劑，無已註銷者；資料中未載明劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-37371 | MINIRIN TAB 0.1MG（Ferring） | 錠劑 | 未載明 |
-| HK-37370 | MINIRIN TAB 0.2MG（Ferring） | 錠劑 | 未載明 |
-| HK-54452 | MINIRIN MELT ORAL LYOPHILISATE 60MCG（Ferring） | 口溶凍晶劑 | 未載明 |
-| HK-32872 | MINIRIN INJ 4MCG/ML（Ferring） | 注射劑 | 未載明 |
-| HK-38155 | OCTOSTIM INJ 15UG/ML（Ferring） | 注射劑 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-37371 | MINIRIN TAB 0.1MG | 單一成分 | FERRING PHARMACEUTICALS LTD | 有效 |
+| HK-37370 | MINIRIN TAB 0.2MG | 單一成分 | FERRING PHARMACEUTICALS LTD | 有效 |
+| HK-54452 | MINIRIN MELT ORAL LYOPHILISATE 60MCG | 單一成分 | FERRING PHARMACEUTICALS LTD | 有效 |
+| HK-32872 | MINIRIN INJ 4MCG/ML | 單一成分 | FERRING PHARMACEUTICALS LTD | 有效 |
+| HK-38155 | OCTOSTIM INJ 15UG/ML | 單一成分 | FERRING PHARMACEUTICALS LTD | 有效 |
+
+上表列出其中 5 張（共 14 張）。
+
+<!-- licenses:end -->
 
 其餘 9 張包括 NURITAN、MINIS、PMS-DESMOPRESSIN、NOCDURNA 與 MINIRIN MELT 120MCG 等不同規格與廠牌。
 

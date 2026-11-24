@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "RISANKIZUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Risankizumab：預測新適應症為皮膚炎（證據等級 L2）。原適應症：乾癬、類乾癬"
 ---
 
@@ -85,12 +85,16 @@ Phase 2 試驗 NCT03706040 的發表文獻（PMID 36588137）標題未顯示明�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68789 | SKYRIZI SOLUTION FOR INJECTION IN CARTRIDGE 360MG/2.4ML | 注射劑（卡式匣） | 資料中未載明 |
-| HK-68788 | SKYRIZI CONCENTRATE FOR SOLUTION FOR INFUSION 600MG/10ML | 輸注用濃縮液 | 資料中未載明 |
-| HK-67645 | SKYRIZI SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 150MG/1ML | 注射劑（預充填注射筒） | 資料中未載明 |
-| HK-67644 | SKYRIZI SOLUTION FOR INJECTION IN PRE-FILLED PEN 150MG/1ML | 注射劑（預充填筆） | 資料中未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68789 | SKYRIZI SOLUTION FOR INJECTION IN CARTRIDGE 360MG/2.4ML | 單一成分 | ABBVIE LIMITED | 有效 |
+| HK-68788 | SKYRIZI CONCENTRATE FOR SOLUTION FOR INFUSION 600MG/10ML | 單一成分 | ABBVIE LIMITED | 有效 |
+| HK-67645 | SKYRIZI SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 150MG/1ML | 單一成分 | ABBVIE LIMITED | 有效 |
+| HK-67644 | SKYRIZI SOLUTION FOR INJECTION IN PRE-FILLED PEN 150MG/1ML | 單一成分 | ABBVIE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 以上 4 張許可證均為單一成分製劑，持證商為 AbbVie Limited，狀態皆為有效。
 

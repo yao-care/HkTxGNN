@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "FLUOXETINE"
 predicted_indications: ["paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluoxetine：預測新適應症為妄想型人格障礙 (paranoid personality disorder)（證據等級 L5）。香港藥劑製品註冊：22 張（有效 22 張）"
 ---
 
@@ -85,13 +85,19 @@ TxGNN 模型預測它可能對**妄想型人格障礙 (Paranoid Personality Diso
 
 <!-- review:end hk-lic-20261117-fluoxetine-1 -->
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-68820 | APO-FLUOXETINE CAPSULES 20MG | HIND WING CO LTD |
-| HK-35706 | MAGRILAN CAP 20MG | STAR MEDICAL SUPPLIES LTD |
-| HK-68648 | AROZAC CAPSULES 10MG | APT PHARMA LIMITED |
-| HK-30503 | PROZAC CAP 20MG | ELI LILLY ASIA, INC. |
-| HK-60977 | FLUOXETINE CAPSULES BP 20MG | AUROBINDO PHARMA LIMITED |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68820 | APO-FLUOXETINE CAPSULES 20MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-35706 | MAGRILAN CAP 20MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-68648 | AROZAC CAPSULES 10MG | 單一成分 | APT PHARMA LIMITED | 有效 |
+| HK-30503 | PROZAC CAP 20MG | 單一成分 | ELI LILLY ASIA, INC. | 有效 |
+| HK-60977 | FLUOXETINE CAPSULES BP 20MG | 單一成分 | AUROBINDO PHARMA LIMITED | 有效 |
+
+上表列出其中 5 張（共 22 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

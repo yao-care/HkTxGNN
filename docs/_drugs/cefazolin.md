@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "CEFAZOLIN"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cefazolin：預測新適應症為感染性中耳炎 (infectious otitis media)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
@@ -75,11 +75,15 @@ TxGNN 模型預測它可能對**感染性中耳炎 (infectious otitis media)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64519 | STAZOLIN POWDER FOR SOLUTION FOR INJECTION 1G | 未記載 | 未記載 |
-| HK-34125 | CEFAZOLIN FOR INJ 1G (YUNG SHIN) | 未記載 | 未記載 |
-| HK-47264 | CEFAZOLIN SODIUM FOR INJ 1G | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64519 | STAZOLIN POWDER FOR SOLUTION FOR INJECTION 1G | 單一成分 | KAI YUEN PHARMACEUTICAL CO | 有效 |
+| HK-34125 | CEFAZOLIN FOR INJ 1G (YUNG SHIN) | 單一成分 | YUNG SHIN CO LTD | 有效 |
+| HK-47264 | CEFAZOLIN SODIUM FOR INJ 1G | 單一成分 | THE UNITED LABORATORIES LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

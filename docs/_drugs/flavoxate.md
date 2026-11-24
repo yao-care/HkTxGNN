@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Flavoxate"
 predicted_indications: ["attention deficit hyperactivity disorder, inattentive type", "irritable bowel syndrome", "specific developmental disorder", "attention deficit-hyperactivity disorder", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "peptic ulcer disease"]
 description: "Flavoxate：預測新適應症為注意力不足過動症（無注意力不足型）(Attention Deficit Hyperactivity Disorder, Inattentive Type)，為模型排名第 1 的預測（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
@@ -97,10 +97,14 @@ TxGNN 模型預測它可能對**腸躁症 (Irritable Bowel Syndrome)** 有效（
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65106 | FUCOTIN TABLETS 200MG（Hitpharm Pharmaceutical Co Ltd） | 錠劑（品名標示） | 資料未載明 |
-| HK-54672 | FOXATE F.C. TAB 200MG（Synmosa Biopharma (Hong Kong) Company Limited） | 膜衣錠（品名標示） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65106 | FUCOTIN TABLETS 200MG | 單一成分 | HITPHARM PHARMACEUTICAL CO LTD | 有效 |
+| HK-54672 | FOXATE F.C. TAB 200MG | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

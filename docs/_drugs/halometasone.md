@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "HALOMETASONE"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "polyp of vocal cord", "polyp of middle ear", "uterine polyp", "polyp of external auditory canal", "polyp of frontal sinus", "polyp of ureter", "fibroepithelial polyp", "polyp of vulva", "neoplastic polyp"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Halometasone：預測新適應症為原發性皮膚 T 細胞淋巴瘤（證據等級 L5）。原適應症：許可證資料未記載核准適應症文字"
 ---
 
@@ -72,10 +72,14 @@ TxGNN 模型預測它可能對**原發性皮膚 T 細胞淋巴瘤 (primary cutan
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66743 | HALOMET CREAM 0.05% W/W | 乳膏（品名所示） | 資料未記載 |
-| HK-48330 | HALOMETASONE CREAM 0.05% (BRIGHT FUTURE) | 乳膏（品名所示） | 資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66743 | HALOMET CREAM 0.05% W/W | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-48330 | HALOMETASONE CREAM 0.05% (BRIGHT FUTURE) | 單一成分 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

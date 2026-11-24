@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ustekinumab：預測新適應症為皮膚炎 (dermatitis)（證據等級 L2）。原適應症：乾癬性關節炎、乾癬、類乾癬"
 ---
 
@@ -89,13 +89,19 @@ TxGNN 模型預測它可能對**皮膚炎 (dermatitis)** 有效，目前有 **6 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68573 | WEZLANA 預填充注射筆 90MG/1ML | 注射液 | 資料未載明 |
-| HK-60838 | STELARA 預填充注射筆 45MG/0.5ML | 注射液 | 資料未載明 |
-| HK-62387 | STELARA 預填充注射筆 90MG/1ML（瑞士） | 注射液 | 資料未載明 |
-| HK-65510 | STELARA 輸注用濃縮液 130MG/26ML | 輸注用濃縮液 | 資料未載明 |
-| HK-62386 | STELARA 預填充注射筆 45MG/0.5ML（瑞士） | 注射液 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68573 | WEZLANA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 90MG/1ML | 單一成分 | AMGEN HONG KONG LIMITED | 有效 |
+| HK-60838 | STELARA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 45MG/0.5ML | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 已註銷 |
+| HK-62387 | STELARA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 90MG/1ML (SWITZERLAND) | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-65510 | STELARA CONCENTRATE FOR SOLUTION FOR INFUSION 130MG/26ML | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-62386 | STELARA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 45MG/0.5ML (SWITZERLAND) | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 本報告彙整資料共 8 張單一成分許可證，上表僅列出其中 5 張。
 

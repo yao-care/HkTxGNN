@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 628
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 description: "Norepinephrine：預測新適應症為阻塞性肺病 (obstructive lung disease)（證據等級 L4）。香港藥劑製品註冊：8 張（有效 8 張）"
@@ -96,13 +96,19 @@ TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62831 | NORADRENALINE AGUETTANT CONCENTRATE FOR SOLUTION FOR INFUSION 1MG/ML | 輸注濃縮液 | 未登載 |
-| HK-64209 | NORADRENALINE SINTETICA CONCENTRATE FOR SOLUTION FOR INFUSION 4MG/4ML | 輸注濃縮液 | 未登載 |
-| HK-68241 | NOREPINEPHRINE TAI YU CONCENTRATE FOR SOLUTION FOR INFUSION 4MG/4ML | 輸注濃縮液 | 未登載 |
-| HK-65386 | LEVOPHED SF CONCENTRATE FOR SOLUTION FOR INFUSION 1MG/ML | 輸注濃縮液 | 未登載 |
-| HK-66232 | APT-NORADRENALINE CONCENTRATE FOR SOLUTION FOR INFUSION 4MG/4ML | 輸注濃縮液 | 未登載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62831 | NORADRENALINE AGUETTANT CONCENTRATE FOR SOLUTION FOR INFUSION 1MG/ML | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-64209 | NORADRENALINE SINTETICA CONCENTRATE FOR SOLUTION FOR INFUSION 4MG/4ML | 單一成分 | MEKIM LTD | 有效 |
+| HK-68241 | NOREPINEPHRINE TAI YU CONCENTRATE FOR SOLUTION FOR INFUSION 4MG/4ML | 單一成分 | THE INTERNATIONAL MEDICAL COMPANY LIMITED | 有效 |
+| HK-65386 | LEVOPHED SF CONCENTRATE FOR SOLUTION FOR INFUSION1MG/ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-66232 | APT-NORADRENALINE CONCENTRATE FOR SOLUTION FOR INFUSION 4MG/4ML | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 （共 8 張有效單方許可證，上表列出其中 5 張。）
 

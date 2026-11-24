@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 482
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 description: "Ipratropium：預測新適應症為Nasal cavity disease（證據等級 L5）。香港藥劑製品註冊：7 張（有效 7 張）"
@@ -105,13 +105,19 @@ Ipratropium 是吸入型抗膽鹼支氣管擴張劑，原本用於慢性阻塞�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-23564 | ATROVENT SOLN FOR INHALATION 0.025% | 吸入溶液 | 未載明 |
-| HK-50402 | ATROVENT M/D INHALER 20MCG/PUFF-CFC FREE | 吸入器 | 未載明 |
-| HK-36372 | ATROVENT SOLN FOR INHALATION 500MCG/2ML | 吸入溶液 | 未載明 |
-| HK-64628 | IPRATRAN NEBULISER SOLUTION 0.25MG/ML | 霧化溶液 | 未載明 |
-| HK-62900 | IPRATROPIUM BROMIDE ALDO-UNION INHALER 20MCG/ACTUATION | 吸入器 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-23564 | ATROVENT SOLN FOR INHALATION 0.025% | 單一成分 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-50402 | ATROVENT M/D INHALER 20MCG/PUFF-CFC FREE | 單一成分 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-36372 | ATROVENT SOLN FOR INHALATION 500MCG/2ML | 單一成分 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-64628 | IPRATRAN NEBULISER SOLUTION 0.25MG/ML | 單一成分 | WINGS PHARMACEUTICAL LTD | 有效 |
+| HK-62900 | IPRATROPIUM BROMIDE ALDO-UNION INHALER 20MCG/ACTUATION | 單一成分 | MEKIM LTD | 有效 |
+
+上表列出其中 5 張（共 7 張）。
+
+<!-- licenses:end -->
 
 （共 7 張有效許可證，皆為單方；其餘 2 張為 HK-51066 IPRAVENT INHALER 與 HK-41964 COMBIVENT SOL FOR INHALATION。）
 

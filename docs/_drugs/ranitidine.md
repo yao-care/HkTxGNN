@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "RANITIDINE"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ranitidine：預測新適應症為消化性潰瘍穿孔 (peptic ulcer perforation)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
@@ -87,11 +87,15 @@ TxGNN 模型預測它可能對**消化性潰瘍穿孔 (Peptic Ulcer Perforation)
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-41546 | EUROTAC TAB 150MG | 未提供 | 未提供 |
-| HK-60962 | STOMACHAL TAB 150MG | 未提供 | 未提供 |
-| HK-55824 | RANTIN TAB 150MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-41546 | EUROTAC TAB 150MG | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-60962 | STOMACHAL TAB 150MG | 單一成分 | FORTUNE NATIONAL (HONG KONG) LIMITED | 有效 |
+| HK-55824 | RANTIN TAB 150MG | 單一成分 | HANG LUNG TRADING (H.K.) CO | 有效 |
+
+<!-- licenses:end -->
 
 以上 3 張皆為單一成分製劑，狀態有效。
 

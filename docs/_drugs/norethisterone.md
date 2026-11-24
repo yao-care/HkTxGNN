@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: 僅已知用途（無新預測）
 nav_order: 629
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 monitor_inn: "NORETHISTERONE"
 description: "Norethisterone: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
@@ -48,13 +48,19 @@ evidence_level: N/A
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-58408 | NORMENS TAB 5MG | 未載明 | 未載明 |
-| HK-53880 | MEDORONE TAB 5MG | 未載明 | 未載明 |
-| HK-49738 | NORDRON TAB 5MG | 未載明 | 未載明 |
-| HK-59181 | NORETONE TAB 5MG | 未載明 | 未載明 |
-| HK-22468 | NORCOLUT TAB 5MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-58408 | NORMENS TAB 5MG | 單一成分 | PRIMAL CHEMICAL CO LTD | 有效 |
+| HK-53880 | MEDORONE TAB 5MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-49738 | NORDRON TAB 5MG | 單一成分 | HITPHARM PHARMACEUTICAL CO LTD | 有效 |
+| HK-59181 | NORETONE TAB 5MG | 單一成分 | WAI LUN TRADING CO | 有效 |
+| HK-22468 | NORCOLUT TAB 5MG | 單一成分 | MEKIM LTD | 有效 |
+
+上表列出其中 5 張（共 12 張）。
+
+<!-- licenses:end -->
 
 另有 7 張有效許可證（含 NORINA、SEVINA、TRISEQUENS、KLIOGEST、ACTIVELLE、COVINA、NOVOFEM 等），均為有效狀態。
 

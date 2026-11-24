@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Citalopram：預測新適應症為強迫症 (obsessive-compulsive disorder)（證據等級 L2）。香港藥劑製品註冊：10 張（有效 10 張）"
 ---
 
@@ -88,13 +88,19 @@ TxGNN 模型預測它可能對**強迫症 (obsessive-compulsive disorder)** 有�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62273 | LOPRAXER TABLETS 40MG | 未記載 | 未記載 |
-| HK-53122 | PMS-CITALOPRAM TAB 20MG | 未記載 | 未記載 |
-| HK-61066 | AUROPRAM 20 TAB 20MG | 未記載 | 未記載 |
-| HK-53084 | APO-CITALOPRAM TAB 20MG | 未記載 | 未記載 |
-| HK-52953 | EUROPRAM TAB 20MG | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62273 | LOPRAXER TABLETS 40MG | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-53122 | PMS-CITALOPRAM TAB 20MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-61066 | AUROPRAM 20 TAB 20MG | 單一成分 | AUROBINDO PHARMA LIMITED | 有效 |
+| HK-53084 | APO-CITALOPRAM TAB 20MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-52953 | EUROPRAM TAB 20MG | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 目前香港共有 10 張有效的單一成分許可證，無已註銷者；此處僅列出 5 張。
 

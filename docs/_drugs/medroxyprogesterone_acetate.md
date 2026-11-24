@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 6
 monitor_inn: "MEDROXYPROGESTERONE ACETATE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Medroxyprogesterone Acetate：預測新適應症為乳房纖維囊腫病 (breast fibrocystic disease)（證據等級 L3）。香港藥劑製品註冊：10 張（有效 9 張）"
 ---
 
@@ -82,13 +82,19 @@ TxGNN 模型預測它可能對**乳房纖維囊腫病 (breast fibrocystic diseas
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-00488 | PROVERA TAB 100 MG | 未載明 | 未載明 |
-| HK-67226 | MEDWIN SUSPENSION FOR INJECTION IN PRE-FILLED SYRINGE 150MG/1ML | 未載明 | 未載明 |
-| HK-00445 | PROVERA TAB 5 MG | 未載明 | 未載明 |
-| HK-43794 | DEPO-PROVERA CONTRACEPTIVE INJ 150MG/ML | 未載明 | 未載明 |
-| HK-54973 | APO-MEDROXY TAB 5MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-00488 | PROVERA TAB 100 MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-67226 | MEDWIN SUSPENSION FOR INJECTION IN PRE-FILLED SYRINGE 150MG/1ML | 單一成分 | HANG LUNG TRADING (H.K.) CO | 已註銷 |
+| HK-00445 | PROVERA TAB 5 MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-43794 | DEPO-PROVERA CONTRACEPTIVE INJ 150MG/ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-54973 | APO-MEDROXY TAB 5MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 本地共有 10 張單一成分許可證，其中 9 張有效、HK-67226 已註銷；上表僅列出其中 5 張。許可證資料中沒有記載核准適應症文字。
 

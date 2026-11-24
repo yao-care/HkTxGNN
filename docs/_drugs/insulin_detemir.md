@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "INSULIN DETEMIR"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Detemir：預測新適應症為自體免疫性卵巢炎（證據等級 L5）。原適應症：知識圖譜記錄的關聯：糖尿病、糖尿病酮酸中毒"
 ---
 
@@ -69,11 +69,15 @@ TxGNN 模型預測它可能對**自體免疫性卵巢炎 (Autoimmune Oophoritis)
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65011 | LEVEMIR FLEXPEN SOLUTION FOR INJECTION IN PRE-FILLED PEN 100U/ML | 未載明 | 未載明 |
-| HK-53538 | LEVEMIR FLEXPEN INJ 100U/ML | 未載明 | 未載明 |
-| HK-67929 | LEVEMIR FLEXPEN SOLUTION FOR INJECTION IN PRE-FILLED PEN 100U/ML | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65011 | LEVEMIR FLEXPEN SOLUTION FOR INJECTION IN PRE-FILLED PEN 100U/ML | 單一成分 | NOVO NORDISK HONG KONG LIMITED | 有效 |
+| HK-53538 | LEVEMIR FLEXPEN INJ 100U/ML | 單一成分 | NOVO NORDISK HONG KONG LIMITED | 有效 |
+| HK-67929 | LEVEMIR FLEXPEN SOLUTION FOR INJECTION IN PRE-FILLED PEN 100U/ML | 單一成分 | NOVO NORDISK HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證皆為單一成分製劑，持有者為 NOVO NORDISK HONG KONG LIMITED。
 

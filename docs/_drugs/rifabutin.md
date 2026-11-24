@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "RIFABUTIN"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "sclerosing cholangitis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "conjunctivitis", "leprosy", "endocarditis", "pneumocystosis", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rifabutin：預測新適應症為HIV 感染（證據等級 L5）。原適應症：許可證資料未載明"
 ---
 
@@ -110,9 +110,13 @@ Rifabutin 是利福黴素類藥物，作用是抑制細菌的 DNA 依賴型 RNA 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-38559 | MYCOBUTIN CAP 150MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-38559 | MYCOBUTIN CAP 150MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 持有廠商為 PFIZER CORPORATION HONG KONG LIMITED，狀態為有效。
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 869
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Tetryzoline：預測新適應症為鼻腔疾病 (Nasal Cavity Disease)（證據等級 L5）。原適應症：咽炎、普通感冒"
 monitor_inn: "Tetryzoline"
 predicted_indications: ["nasal cavity disease"]
@@ -74,13 +74,19 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-09488 | MURINE PLUS EYE DROPS 0.05% | 未載明 | 未載明 |
-| HK-36160 | OPTIZOLINE EYE DROPS, 0.05% W/V | 未載明 | 未載明 |
-| HK-61047 | ALLERGOPOS EYE DROPS | 未載明 | 未載明 |
-| HK-51055 | OPSA-HIS STERILE EYE DROPS | 未載明 | 未載明 |
-| HK-33055 | MURINE PLUS EYE DROPS NATURAL TEARS FORM | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-09488 | MURINE PLUS EYE DROPS 0.05% | 單一成分 | ZUELLIG PHARMA LIMITED | 有效 |
+| HK-36160 | OPTIZOLINE EYE DROPS,0.05%W/V | 單一成分 | FP HEALTHCARE LIMITED | 有效 |
+| HK-61047 | ALLERGOPOS EYE DROPS | 複方 | REICH PHARM LIMITED | 有效 |
+| HK-51055 | OPSA-HIS STERILE EYE DROPS | 複方 | NIDOWAY INVESTMENT LTD | 有效 |
+| HK-33055 | MURINE PLUS EYE DROPS NATURAL TEARS FORM | 複方 | ZUELLIG PHARMA LIMITED | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 香港共有 6 張有效的單方許可證，上表列出其中 5 張。從品名來看，香港現有產品皆為眼藥水，並非鼻用或咽喉用劑型。
 

@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 667
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Parecoxib：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L3）。原適應症：資料缺漏"
 monitor_inn: "PARECOXIB"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
@@ -89,11 +89,15 @@ ChEMBL（EMBL-EBI）收錄的 Parecoxib 作用機轉（非官方翻譯）：「�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-58234 | DYNASTAT POWDER AND SOLVENT FOR SOL FOR INJ 40MG（輝瑞） | 注射劑（粉劑與溶劑） | 資料未提供 |
-| HK-68735 | PARECOXIB-AFT POWDER FOR SOLUTION FOR INJECTION 40MG（DKSH） | 注射劑（粉劑） | 資料未提供 |
-| HK-50467 | DYNASTAT POWDER FOR INJ 40MG/VIAL（輝瑞） | 注射劑（粉劑） | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-58234 | DYNASTAT POWDER AND SOLVENT FOR SOL FOR INJ 40MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-68735 | PARECOXIB-AFT POWDER FOR SOLUTION FOR INJECTION 40MG | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-50467 | DYNASTAT POWDER FOR INJ 40MG/VIAL | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

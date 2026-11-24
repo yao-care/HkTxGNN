@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 258
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DESLORATADINE"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
 description: "Desloratadine：預測新適應症為Nasal cavity disease（證據等級 L5）。香港藥劑製品註冊：15 張（有效 15 張）"
@@ -98,13 +98,19 @@ Desloratadine 是選擇性的周邊 H1 受體反向促效劑。寒冷性蕁麻�
 
 目前共有 15 張有效許可證，皆為單方製劑，無已註銷者。核准適應症文字與劑型欄位在許可證資料中未提供。以下列出 5 張主要許可證：
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-51862 | AERIUS TAB 5MG | BAYER HEALTHCARE LIMITED |
-| HK-51453 | AERIUS SYRUP 0.5MG/ML | BAYER HEALTHCARE LIMITED |
-| HK-58683 | AERIUS D-12 MODIFIED RELEASE TAB | BAYER HEALTHCARE LIMITED |
-| HK-57332 | LARINEX TAB 5MG | CHARIOT PHARMA LIMITED |
-| HK-66259 | LOTARIUS TABLETS 5MG | VICKMANS LABORATORIES LTD |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-51862 | AERIUS TAB 5MG | 單一成分 | BAYER HEALTHCARE LIMITED | 有效 |
+| HK-51453 | AERIUS SYRUP 0.5MG/ML | 單一成分 | BAYER HEALTHCARE LIMITED | 有效 |
+| HK-58683 | AERIUS D-12 MODIFIED RELEASE TAB | 複方 | BAYER HEALTHCARE LIMITED | 有效 |
+| HK-57332 | LARINEX TAB 5MG | 單一成分 | CHARIOT PHARMA LIMITED | 有效 |
+| HK-66259 | LOTARIUS TABLETS 5MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+
+上表列出其中 5 張（共 15 張）。
+
+<!-- licenses:end -->
 
 ---
 

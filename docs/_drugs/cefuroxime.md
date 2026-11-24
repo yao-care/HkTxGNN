@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "CEFUROXIME"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cefuroxime：預測新適應症為多株性高黏滯症候群 (polyclonal hyperviscosity syndrome)（證據等級 L5）。香港藥劑製品註冊：26 張（有效 26 張）"
 ---
 
@@ -80,13 +80,19 @@ TxGNN 分數很高（0.9976），但這是以網路關係推算的預測結果�
 
 <!-- review:end hk-lic-20261117-cefuroxime-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61702 | AXCEF TABLETS 250MG | 錠劑 | 本地資料未載明 |
-| HK-55257 | SEFUXIM TAB 250MG | 錠劑 | 本地資料未載明 |
-| HK-52841 | CEFUROXIME SODIUM FOR INJ 750MG | 注射用粉劑 | 本地資料未載明 |
-| HK-29697 | ZINNAT TAB 500MG | 錠劑 | 本地資料未載明 |
-| HK-07015 | ZINACEF FOR INJ 1.5G | 注射用粉劑 | 本地資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61702 | AXCEF TABLETS 250MG | 單一成分 | LSB (HK) LIMITED | 有效 |
+| HK-55257 | SEFUXIM TAB 250MG | 單一成分 | CEUTICAL TRADING COMPANY LIMITED | 有效 |
+| HK-52841 | CEFUROXIME SODIUM FOR INJ 750MG | 單一成分 | JINDUN PHARMA (H.K.) LIMITED | 有效 |
+| HK-29697 | ZINNAT TAB 500MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-07015 | ZINACEF FOR INJ 1.5G | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 26 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

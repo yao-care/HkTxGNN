@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 898
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Trastuzumab Emtansine: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 ---
@@ -75,10 +75,14 @@ TxGNN 深度學習模型（分數 ≥ 0.99）為 Trastuzumab Emtansine 產生的
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-63487 | KADCYLA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100 |  | 有效 |
-| HK-63486 | KADCYLA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 160 |  | 有效 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63487 | KADCYLA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-63486 | KADCYLA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 160MG | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

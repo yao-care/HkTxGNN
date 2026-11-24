@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 491
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ISOTRETINOIN"
 predicted_indications: ["malignant hypertensive renal disease"]
 description: "Isotretinoin：預測新適應症為Malignant hypertensive renal disease（證據等級 L5）。香港藥劑製品註冊：13 張（有效 13 張）"
@@ -84,13 +84,19 @@ description: "Isotretinoin：預測新適應症為Malignant hypertensive renal d
 
 香港共有 13 張有效許可證（皆為單一成分，無已註銷者）。下表列出其中 5 張，資料中未提供劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55931 | REDUCAR CAP 10MG | 未提供 | 未提供 |
-| HK-56026 | REDUCAR CAP 20MG | 未提供 | 未提供 |
-| HK-20965 | ROACCUTANE CAP 10MG | 未提供 | 未提供 |
-| HK-20966 | ROACCUTANE CAP 20MG | 未提供 | 未提供 |
-| HK-50197 | ORATANE CAP 20MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55931 | REDUCAR CAP 10MG | 單一成分 | HEALTH ALLIANCE INTERNATIONAL CO LTD | 有效 |
+| HK-56026 | REDUCAR CAP 20MG | 單一成分 | HEALTH ALLIANCE INTERNATIONAL CO LTD | 有效 |
+| HK-20965 | ROACCUTANE CAP 10MG | 單一成分 | ZUELLIG PHARMA LIMITED | 有效 |
+| HK-20966 | ROACCUTANE CAP 20MG | 單一成分 | ZUELLIG PHARMA LIMITED | 有效 |
+| HK-50197 | ORATANE CAP 20MG | 單一成分 | UNITED ITALIAN CORP (HK) LTD | 有效 |
+
+上表列出其中 5 張（共 13 張）。
+
+<!-- licenses:end -->
 
 ---
 

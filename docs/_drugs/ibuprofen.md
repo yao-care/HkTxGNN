@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "IBUPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ibuprofen：預測新適應症為肢端中段發育不良 Hunter-Thompson 型（證據等級 L5）。原適應症：知識圖譜記錄的關聯包括類風濕性關節炎、骨關節炎、頭痛、幼年型特發性關節炎等"
 ---
 
@@ -79,13 +79,19 @@ Hunter-Thompson 型肢端中段發育不良是罕見的骨骼發育異常，成�
 
 <!-- review:end hk-lic-20261117-ibuprofen-1 -->
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-55058 | INFACALM IBUPROFEN INFANT DROPS 40MG/ML | TIANDA PHARMACEUTICALS LIMITED |
-| HK-43233 | BUPOGESIC 200 TAB 200MG | VICKMANS LABORATORIES LTD |
-| HK-67025 | WILLIPO IBUPROFEN TABLETS 200MG | WELLDONE PHARMACEUTICALS LIMITED |
-| HK-51501 | NUROFEN GEL 5%W/W | RECKITT BENCKISER HONG KONG LTD |
-| HK-54601 | BRUFEN TAB 400MG | ABBOTT LAB LTD |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55058 | INFACALM IBUPROFEN INFANT DROPS 40MG/ML | 單一成分 | TIANDA PHARMACEUTICALS LIMITED | 有效 |
+| HK-43233 | BUPOGESIC 200 TAB 200MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-67025 | WILLIPO IBUPROFEN TABLETS 200MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-51501 | NUROFEN GEL 5%W/W | 單一成分 | RECKITT BENCKISER HONG KONG LTD | 有效 |
+| HK-54601 | BRUFEN TAB 400MG | 單一成分 | ABBOTT LAB LTD | 有效 |
+
+上表列出其中 5 張（共 100 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

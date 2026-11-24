@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "GLIMEPIRIDE"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Glimepiride：預測新適應症為局部僵直肢症候群 (Focal Stiff Limb Syndrome)（證據等級 L5）。原適應症：第二型糖尿病"
 ---
 
@@ -83,13 +83,19 @@ TxGNN 模型預測它可能對**局部僵直肢症候群 (Focal Stiff Limb Syndr
 
 香港共有 19 張有效的單一成分許可證，以下列出 5 張主要許可證（核准適應症文字在本次整理的資料中未載明）：
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-42323 | AMARYL TAB 2MG | 錠劑 | 未載明 |
-| HK-42325 | AMARYL TAB 4MG | 錠劑 | 未載明 |
-| HK-62478 | LIMERAL TABLETS 4MG | 錠劑 | 未載明 |
-| HK-62479 | LIMERAL TABLETS 2MG | 錠劑 | 未載明 |
-| HK-57874 | GLIMEPIRIDE SANDOZ TAB 4MG | 錠劑 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-42323 | AMARYL TAB 2MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-42325 | AMARYL TAB 4MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-62478 | LIMERAL TABLETS 4MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-62479 | LIMERAL TABLETS 2MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-57874 | GLIMEPIRIDE SANDOZ TAB 4MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 19 張）。
+
+<!-- licenses:end -->
 
 ---
 

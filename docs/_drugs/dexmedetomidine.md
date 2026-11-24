@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 268
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DEXMEDETOMIDINE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
 description: "Dexmedetomidine：預測新適應症為Nephrogenic syndrome of inappropriate antidiuresis（證據等級 L5）。香港藥劑製品註冊：11 張（有效 10 張）"
@@ -86,13 +86,19 @@ PDPH 的特徵是腦脊髓液外漏後的嚴重姿勢性頭痛，與腦血管擴
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-49806 | PRECEDEX INJ 100MCG/ML（輝瑞） | 注射劑 | 資料未載明 |
-| HK-66810 | DEXMEDETOMIDINE SANDOZ 濃縮輸注液 200MCG/2ML | 輸注濃縮液 | 資料未載明 |
-| HK-67869 | DEXMEDETOMIDINE FRESENIUS 濃縮輸注液 0.2MG/2ML | 輸注濃縮液 | 資料未載明 |
-| HK-68011 | DEXMEDETOMIDINE B. BRAUN 濃縮輸注液 200MCG/2ML | 輸注濃縮液 | 資料未載明 |
-| HK-66522 | DEXMEDETOMIDINE ORION 濃縮輸注液 200MCG/2ML | 輸注濃縮液 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-49806 | PRECEDEX INJ 100MCG/ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-66810 | DEXMEDETOMIDINE SANDOZ CONCENTRATE FOR SOLUTION FOR INFUSION 200MCG/2ML | 單一成分 | SANDOZ HONG KONG LIMITED | 已註銷 |
+| HK-67869 | DEXMEDETOMIDINE FRESENIUS CONCENTRATE FOR SOLUTION FOR INFUSION 0.2MG/2ML | 單一成分 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-68011 | DEXMEDETOMIDINE B. BRAUN CONCENTRATE FOR SOLUTION FOR INFUSION 200MCG/2ML | 單一成分 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-66522 | DEXMEDETOMIDINE ORION CONCENTRATE FOR SOLUTION FOR INFUSION 200MCG/2ML | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+
+上表列出其中 5 張（共 11 張）。
+
+<!-- licenses:end -->
 
 此為 10 張許可證中的 5 張，其餘許可證同為 dexmedetomidine 單方注射製劑。
 

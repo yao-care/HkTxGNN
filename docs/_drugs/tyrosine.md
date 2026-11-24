@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 916
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Tyrosine：預測新適應症為馬尾症候群 (Cauda Equina Syndrome)（證據等級 L5）。原適應症：目前許可證資料中未載明核准適應症"
 monitor_inn: "Tyrosine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma"]
@@ -94,13 +94,19 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-32089 | KETOSTERIL TAB | — | 未載明 |
-| HK-36470 | VAMINOLACT I.V. SOLUTION | — | 未載明 |
-| HK-64293 | SMOFKABIVEN ELECTROLYTE FREE EMULSION FOR INFUSION 493ML | — | 未載明 |
-| HK-61211 | AMINOPLASMAL B. BRAUN 10% E SOLUTION FOR INFUSION | — | 未載明 |
-| HK-67504 | OLIMEL N12E EMULSION FOR INFUSION | — | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-32089 | KETOSTERIL TAB | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-36470 | VAMINOLACT I.V. SOLUTION | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-64293 | SMOFKABIVEN ELECTROLYTE FREE EMULSION FOR INFUSION 493ML | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-61211 | AMINOPLASMAL B. BRAUN 10% E SOLUTION FOR INFUSION | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-67504 | OLIMEL N12E EMULSION FOR INFUSION | 複方 | BAXTER HEALTHCARE LIMITED | 有效 |
+
+上表列出其中 5 張（共 16 張）。
+
+<!-- licenses:end -->
 
 以上為 16 張有效單一成分許可證中的 5 張，其餘包括 SMOFKABIVEN、OLIMEL、PERIOLIMEL、NUMETA 及 BFLUID 等系列產品。
 

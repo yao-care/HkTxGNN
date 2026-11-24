@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 736
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Prochlorperazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
 description: "Prochlorperazine：預測新適應症為視網膜失養症 (retinal dystrophy with or without extraocular anomalies)（證據等級 L5）。香港藥劑製品註冊：13 張（有效 13 張）"
@@ -92,13 +92,19 @@ ChEMBL（EMBL-EBI）收錄的 Prochlorperazine 作用機轉（非官方翻譯）
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-46144 | SERATIL TAB 5MG (WHITE) | 未載明 | 未載明 |
-| HK-06335 | METIL TAB 5MG | 未載明 | 未載明 |
-| HK-61940 | PROCHLOR TABLETS 5MG | 未載明 | 未載明 |
-| HK-11609 | PERATIL TAB 5MG (BLUE) | 未載明 | 未載明 |
-| HK-50611 | METIL-B TAB 5MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-46144 | SERATIL TAB 5MG (WHITE) | 單一成分 | CHRISTO PHARM LTD | 有效 |
+| HK-06335 | METIL TAB 5MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-61940 | PROCHLOR TABLETS 5MG | 單一成分 | WAI LUN TRADING CO | 有效 |
+| HK-11609 | PERATIL TAB 5MG (BLUE) | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-50611 | METIL-B TAB 5MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+
+上表列出其中 5 張（共 13 張）。
+
+<!-- licenses:end -->
 
 香港共有 13 張含本藥成分的許可證（全部有效；皆為單一成分），上表僅列出其中 5 張。
 

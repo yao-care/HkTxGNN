@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 426
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GOSERELIN"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
 description: "Goserelin：預測新適應症為Amenorrhea (disease)（證據等級 L2）。香港藥劑製品註冊：4 張（有效 4 張）"
@@ -94,12 +94,16 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但目前僅有 *
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-42691 | ZOLADEX LA DEPOT INJ 10.8MG（AstraZeneca） | 注射劑 | 請參考原廠仿單 |
-| HK-65753 | GOSERELIN ALVOGEN IMPLANT IN A PREFILLED SYRINGE 10.8MG（Lotus） | 植入劑（預充填注射器） | 請參考原廠仿單 |
-| HK-31178 | ZOLADEX DEPOT INJ 3.6MG（AstraZeneca） | 注射劑 | 請參考原廠仿單 |
-| HK-65754 | GOSERELIN ALVOGEN IMPLANT IN A PREFILLED SYRINGE 3.6MG（Lotus） | 植入劑（預充填注射器） | 請參考原廠仿單 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-42691 | ZOLADEX LA DEPOT INJ 10.8MG | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-65753 | GOSERELIN ALVOGEN IMPLANT IN A PREFILLED SYRINGE 10.8MG | 單一成分 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-31178 | ZOLADEX DEPOT INJ 3.6MG | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-65754 | GOSERELIN ALVOGEN IMPLANT IN A PREFILLED SYRINGE 3.6MG | 單一成分 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

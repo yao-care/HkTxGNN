@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 554
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Mebendazole"
 predicted_indications: ["acne (disease)"]
 description: "Mebendazole：預測新適應症為Acne (disease)（證據等級 L5）。香港藥劑製品註冊：8 張（有效 8 張）"
@@ -86,13 +86,19 @@ Mebendazole 是苯并咪唑類驅蟲藥，原本用於蟯蟲症、蛔蟲症和�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-37784 | ADVANCE ANTHELMINTIC TAB 100MG | 未提供 | 未提供 |
-| HK-37786 | BENDAX TAB 100MG | 未提供 | 未提供 |
-| HK-67476 | MEBENCUR TABLETS 100MG | 未提供 | 未提供 |
-| HK-37785 | PROLYTER MEBENDAZOLE TAB 100MG | 未提供 | 未提供 |
-| HK-26297 | MEBENZOL TAB 100MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-37784 | ADVANCE ANTHELMINTIC TAB 100MG | 單一成分 | ADVANCE PHARMACEUTICAL COMPANY LIMITED | 有效 |
+| HK-37786 | BENDAX TAB 100MG | 單一成分 | ADVANCE PHARMACEUTICAL COMPANY LIMITED | 有效 |
+| HK-67476 | MEBENCUR TABLETS 100MG | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-37785 | PROLYTER MEBENDAZOLE TAB 100MG | 單一成分 | ADVANCE PHARMACEUTICAL COMPANY LIMITED | 有效 |
+| HK-26297 | MEBENZOL TAB 100MG | 單一成分 | CHRISTO PHARM LTD | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 共 8 張有效單方許可證，無已註銷者；上表僅列出前 5 張。
 

@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "CILASTATIN"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cilastatin：預測新適應症為金黃色葡萄球菌感染 (staphylococcus aureus infection)（證據等級 L3）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
@@ -85,12 +85,16 @@ ChEMBL（EMBL-EBI）收錄的 Cilastatin 作用機轉（非官方翻譯）：「
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-53560 | PREPENEM FOR INJ 500MG | — | — |
-| HK-61317 | PRIMAGAL POWDER FOR SOLUTION FOR INFUSION 500/500MG | — | — |
-| HK-66808 | IMCIMILL POWDER FOR SOLUTION FOR INFUSION 500MG/500MG | — | — |
-| HK-64660 | IMIPENEM/CILASTATIN KABI POWDER FOR SOLUTION FOR INFUSION 500MG/500MG | — | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-53560 | PREPENEM FOR INJ 500MG | 複方 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-61317 | PRIMAGAL POWDER FOR SOLUTION FOR INFUSION 500/500MG | 複方 | HIND WING CO LTD | 有效 |
+| HK-66808 | IMCIMILL POWDER FOR SOLUTION FOR INFUSION 500MG/500MG | 複方 | CHEMILL PHARMA LIMITED | 有效 |
+| HK-64660 | IMIPENEM/CILASTATIN KABI POWDER FOR SOLUTION FOR INFUSION 500MG/500MG | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

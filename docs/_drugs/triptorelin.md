@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "TRIPTORELIN"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Triptorelin：預測新適應症為毛髮過多症 (hypertrichosis (disease))（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"
 ---
 
@@ -73,13 +73,17 @@ TxGNN 模型預測它可能對**毛髮過多症 (hypertrichosis (disease))** 有
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-51941 | DIPHERELINE PR FOR INJ 11.25MG | 未記載 | 未記載 |
-| HK-47655 | DIPHERELINE PR FOR INJ 3.75MG | 未記載 | 未記載 |
-| HK-36917 | DECAPEPTYL 0.1MG INJ SC | 未記載 | 未記載 |
-| HK-33730 | DECAPEPTYL-CR FOR INJ 3.75MG | 未記載 | 未記載 |
-| HK-62788 | DIPHERELINE P.R. POWDER AND SOLVENT FOR SUSPENSION FOR INJECTION 22.5MG | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-51941 | DIPHERELINE PR FOR INJ 11.25MG | 單一成分 | BEAUFOUR IPSEN INTERNATIONAL (HONG KONG) LIMITED | 有效 |
+| HK-47655 | DIPHERELINE PR FOR INJ 3.75MG | 單一成分 | BEAUFOUR IPSEN INTERNATIONAL (HONG KONG) LIMITED | 有效 |
+| HK-36917 | DECAPEPTYL 0.1MG INJ SC | 單一成分 | FERRING PHARMACEUTICALS LTD | 有效 |
+| HK-33730 | DECAPEPTYL-CR FOR INJ 3.75MG | 單一成分 | FERRING PHARMACEUTICALS LTD | 有效 |
+| HK-62788 | DIPHERELINE P.R. POWDER AND SOLVENT FOR SUSPENSION FOR INJECTION 22.5MG | 單一成分 | BEAUFOUR IPSEN INTERNATIONAL (HONG KONG) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 目前 5 張單一成分許可證均為有效狀態。
 

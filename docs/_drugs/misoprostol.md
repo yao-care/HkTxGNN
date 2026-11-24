@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 592
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Misoprostol：預測新適應症為閉經 (Amenorrhea)（證據等級 L5）。原適應症：資料未登載"
 monitor_inn: "MISOPROSTOL"
 predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
@@ -93,11 +93,15 @@ TxGNN 模型預測它可能對**閉經 (Amenorrhea)** 有效，但目前**沒有
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-26808 | CYTOTEC TAB 200MCG（Pfizer） | 資料未登載 | 資料未登載 |
-| HK-56461 | APO-MISOPROSTOL TAB 200MCG（Hind Wing） | 資料未登載 | 資料未登載 |
-| HK-64599 | MEDABON TABLETS（Hong Kong Medical Supplies） | 資料未登載 | 資料未登載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-26808 | CYTOTEC TAB 200MCG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-56461 | APO-MISOPROSTOL TAB 200MCG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-64599 | MEDABON TABLETS | 複方 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

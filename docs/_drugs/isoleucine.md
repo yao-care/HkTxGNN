@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 487
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Isoleucine：預測新適應症為胃輕癱 (Gastroparesis)（證據等級 L5）。原適應症：資料中未記載"
 monitor_inn: "ISOLEUCINE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -80,13 +80,19 @@ TxGNN 模型預測它可能對**胃輕癱 (Gastroparesis)** 有效，
 
 <!-- review:end hk-lic-20261117-isoleucine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62890 | LIVACT GRANULES（衛采香港） | 未載明 | 未載明 |
-| HK-57540 | AMINOL-S INJ（Wings Pharmaceutical） | 未載明 | 未載明 |
-| HK-62100 | AMINOGEN-S SOLUTION FOR INFUSION（Wings Pharmaceutical） | 未載明 | 未載明 |
-| HK-60459 | PAN-VASOL SOLUTION FOR INJECTION（Falkan Medical） | 未載明 | 未載明 |
-| HK-58914 | PAN-AMIN G INJ（大塚製藥香港） | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62890 | LIVACT GRANULES | 複方 | EISAI (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-57540 | AMINOL-S INJ | 複方 | WINGS PHARMACEUTICAL LTD | 有效 |
+| HK-62100 | AMINOGEN-S SOLUTION FOR INFUSION | 複方 | WINGS PHARMACEUTICAL LTD | 有效 |
+| HK-60459 | PAN-VASOL SOLUTION FOR INJECTION | 複方 | FALKAN MEDICAL LIMITED | 有效 |
+| HK-58914 | PAN-AMIN G INJ | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+
+上表列出其中 5 張（共 39 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

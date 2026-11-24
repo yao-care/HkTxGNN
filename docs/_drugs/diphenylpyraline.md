@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Diphenylpyraline"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Diphenylpyraline：預測新適應症為鼻腔疾病（證據等級 L5）。原適應症：知識圖譜記錄的關聯包括過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、結膜炎、蕁麻疹、血管性水腫等"
 ---
 
@@ -70,9 +70,13 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-52251 | SATO [COLD GO!] TAB | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-52251 | SATO [COLD GO!] TAB | 複方 | SATO PHARMACEUTICAL (HK) CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

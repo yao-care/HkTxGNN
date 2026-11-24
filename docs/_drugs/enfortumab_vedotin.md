@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Enfortumab vedotin"
 predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "infectious bovine rhinotracheitis", "malignant catarrh"]
 description: "Enfortumab Vedotin：預測新適應症為痲瘋病 (leprosy)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
@@ -97,10 +97,14 @@ TxGNN 模型預測排名第一的新適應症為**痲瘋病 (Leprosy)**，但目
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67888 | PADCEV 凍乾濃縮輸注液 20mg | 未載明 | 未載明 |
-| HK-67889 | PADCEV 凍乾濃縮輸注液 30mg | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67888 | PADCEV POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 20MG | 單一成分 | ASTELLAS PHARMA HONG KONG COMPANY LIMITED | 有效 |
+| HK-67889 | PADCEV POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 30MG | 單一成分 | ASTELLAS PHARMA HONG KONG COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證均為單方、有效，持有人為 Astellas Pharma Hong Kong Company Limited。
 

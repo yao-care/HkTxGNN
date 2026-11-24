@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 575
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 description: "Methylphenidate：預測新適應症為顏面指趾生殖器症候群 (faciodigitogenital syndrome)（證據等級 L5）。香港藥劑製品註冊：29 張（有效 29 張）"
@@ -91,13 +91,19 @@ TxGNN 模型預測它可能對**顏面指趾生殖器症候群 (Faciodigitogenit
 
 <!-- review:end hk-lic-20261117-methylphenidate-1 -->
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-60004 | CONCERTA EXTENDED RELEASE TAB 27MG | Johnson & Johnson (HK) |
-| HK-62194 | RITALIN LA EXTENDED-RELEASE CAPSULES 10MG | Novartis (HK) |
-| HK-65758 | MEDIKINET CR MODIFIED-RELEASE CAPSULES 20MG | Hua Tai Pharmaceuticals |
-| HK-68143 | NEUROFIND PROLONGED-RELEASE TABLETS 27MG | Lotus Pharmaceutical HK |
-| HK-66368 | METHYLPHENIDATE TEVA PROLONGED-RELEASE TABLETS 18MG | Teva HK |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-60004 | CONCERTA EXTENDED RELEASE TAB 27MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-62194 | RITALIN LA EXTENDED-RELEASE CAPSULES 10MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-65758 | MEDIKINET CR MODIFIED-RELEASE CAPSULES 20MG | 單一成分 | HUA TAI PHARMACEUTICALS CO LTD | 有效 |
+| HK-68143 | NEUROFIND PROLONGED-RELEASE TABLETS 27MG | 單一成分 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-66368 | METHYLPHENIDATE TEVA PROLONGED-RELEASE TABLETS 18MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+
+上表列出其中 5 張（共 29 張）。
+
+<!-- licenses:end -->
 
 ---
 

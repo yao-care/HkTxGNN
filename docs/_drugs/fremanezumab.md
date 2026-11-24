@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 403
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FREMANEZUMAB"
 predicted_indications: ["atrophoderma vermiculata"]
 description: "Fremanezumab：預測新適應症為Atrophoderma vermiculata（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -86,9 +86,13 @@ Fremanezumab 是一種針對 CGRP 的人源化單株抗體，原本用於偏頭�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67139 | AJOVY SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 225MG/1.5ML | 預充填注射劑 | （資料未提供） |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67139 | AJOVY SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 225MG/1.5ML | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

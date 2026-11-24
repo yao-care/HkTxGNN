@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Larotrectinib"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
 description: "Larotrectinib：預測新適應症為多發性內分泌腫瘤 (multiple endocrine neoplasia)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
@@ -87,11 +87,15 @@ TxGNN 的高分更適合視為計算上的線索，而非有力的生物學證�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66491 | VITRAKVI CAPSULES 100MG | 膠囊 | 資料庫未載明 |
-| HK-66492 | VITRAKVI CAPSULES 25MG | 膠囊 | 資料庫未載明 |
-| HK-66493 | VITRAKVI ORAL SOLUTION 20MG/ML | 口服液 | 資料庫未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66491 | VITRAKVI CAPSULES 100MG | 單一成分 | BAYER HEALTHCARE LIMITED | 有效 |
+| HK-66492 | VITRAKVI CAPSULES 25MG | 單一成分 | BAYER HEALTHCARE LIMITED | 有效 |
+| HK-66493 | VITRAKVI ORAL SOLUTION 20MG/ML | 單一成分 | BAYER HEALTHCARE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證皆由 BAYER HEALTHCARE LIMITED 持有，狀態為有效。
 

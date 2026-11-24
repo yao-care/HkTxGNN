@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "EPLERENONE"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eplerenone：預測新適應症為肺高壓 (pulmonary hypertension with unclear multifactorial mechanism)（證據等級 L5）。香港藥劑製品註冊：8 張（有效 8 張）"
 ---
 
@@ -89,13 +89,19 @@ TxGNN 模型預測它可能對**肺高壓（因肺疾病和/或缺氧所致，pu
 
 本地許可證資料未附核准適應症文字。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-53031 | INSPRA TAB 25MG | 未提供 | 未提供 |
-| HK-53030 | INSPRA TAB 50MG | 未提供 | 未提供 |
-| HK-66394 | EPEFLO 25 TABLETS 25MG | 未提供 | 未提供 |
-| HK-66395 | EPEFLO 50 TABLETS 50MG | 未提供 | 未提供 |
-| HK-67563 | EPLERENONA PENTAFARMA TABLETS 25MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-53031 | INSPRA TAB 25MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-53030 | INSPRA TAB 50MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-66394 | EPEFLO 25 TABLETS 25MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-66395 | EPEFLO 50 TABLETS 50MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-67563 | EPLERENONA PENTAFARMA TABLETS 25MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

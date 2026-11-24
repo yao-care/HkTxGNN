@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 35
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alfuzosin：預測新適應症為Ambras 型先天性全身性多毛症 (Ambras type hypertrichosis universalis congenita)（證據等級 L5）。原適應症：良性前列腺增生 (Benign Prostatic Hyperplasia)"
 monitor_inn: "Alfuzosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
@@ -82,13 +82,19 @@ TxGNN 模型預測它可能對 **Ambras 型先天性全身性多毛症 (Ambras t
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67012 | ALFUZOSIN RIVOPHARM PROLONGED-RELEASE TABLETS 10MG | 長效錠（品名所示） | 請參考原廠仿單 |
-| HK-59835 | APO-ALFUZOSIN PROLONGED-RELEASE TAB 10MG | 長效錠（品名所示） | 請參考原廠仿單 |
-| HK-47335 | XATRAL XL TAB 10MG | 錠劑 | 請參考原廠仿單 |
-| HK-59623 | ALFURAL PROLONGED RELEASE TAB 10MG | 長效錠（品名所示） | 請參考原廠仿單 |
-| HK-41468 | XATRAL SR TAB 5MG | 錠劑（SR） | 請參考原廠仿單 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67012 | ALFUZOSIN RIVOPHARM PROLONGED-RELEASE TABLETS 10MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-59835 | APO-ALFUZOSIN PROLONGED-RELEASE TAB 10MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-47335 | XATRAL XL TAB 10MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-59623 | ALFURAL PROLONGED RELEASE TAB 10MG | 單一成分 | ZENFIELDS (H.K.) LIMITED | 有效 |
+| HK-41468 | XATRAL SR TAB 5MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 7 張）。
+
+<!-- licenses:end -->
 
 香港共有 7 張有效許可證，上表列出其中 5 張。
 

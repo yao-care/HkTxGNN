@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 342
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Estriol：預測新適應症為閉經 (Amenorrhea)（證據等級 L3）。原適應症：香港許可證未載明適應症"
 monitor_inn: "ESTRIOL"
 predicted_indications: ["amenorrhea (disease)"]
@@ -89,9 +89,13 @@ ChEMBL（EMBL-EBI）收錄的 Estriol 作用機轉（非官方翻譯）：「雌
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-54191 | GYNOFLOR VAGINAL TAB | 陰道錠（依品名判斷） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-54191 | GYNOFLOR VAGINAL TAB | 複方 | DKSH HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

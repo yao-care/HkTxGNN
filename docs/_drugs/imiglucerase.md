@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 462
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Imiglucerase"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
 description: "Imiglucerase：預測新適應症為Hurler 症候群 (Hurler syndrome)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -75,9 +75,13 @@ Hurler 症候群（黏多醣症 I 型，MPS I）則是 α-L-艾杜糖醛酸酶�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-60392 | CEREZYME POWDER FOR CONCENTRATE FOR SOLUTION FOR INF 400IU | 未載明（輸注濃縮液用粉劑） | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-60392 | CEREZYME POWDER FOR CONCENTRATE FOR SOLUTION FOR INF 400IU | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 製造商為 SANOFI HONG KONG LIMITED。
 

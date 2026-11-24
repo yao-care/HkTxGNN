@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "SALICYLAMIDE"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria", "lung disease", "massive neonatal aspiration syndrome", "respiratory syncytial virus bronchiolitis", "hantavirus infectious disease"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Salicylamide：預測新適應症為咽炎 (Pharyngitis)（證據等級 L5）。原適應症：頭痛"
 ---
 
@@ -79,13 +79,19 @@ TxGNN 模型預測它可能對**咽炎 (Pharyngitis)** 有效，但目前**沒�
 
 <!-- review:end hk-lic-20261117-salicylamide-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-07880 | COLDZEP TAB | 未載明 | 未載明 |
-| HK-26015 | NEO-COLD CAP | 未載明 | 未載明 |
-| HK-31316 | COLIDIN TAB | 未載明 | 未載明 |
-| HK-07883 | MECOLD (FORTE) CAP | 未載明 | 未載明 |
-| HK-07882 | MECOLD (SCT) RED TAB | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-07880 | COLDZEP TAB | 複方 | MEYER PHARMACEUTICALS LTD | 有效 |
+| HK-26015 | NEO-COLD CAP | 複方 | UNICORN LABORATORIES O/B AMERICAN UNICORN LABORATORIES LIMITED | 有效 |
+| HK-31316 | COLIDIN TAB | 複方 | MEYER PHARMACEUTICALS LTD | 有效 |
+| HK-07883 | MECOLD (FORTE) CAP | 複方 | MEYER PHARMACEUTICALS LTD | 有效 |
+| HK-07882 | MECOLD (SCT) RED TAB | 複方 | MEYER PHARMACEUTICALS LTD | 有效 |
+
+上表列出其中 5 張（共 101 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

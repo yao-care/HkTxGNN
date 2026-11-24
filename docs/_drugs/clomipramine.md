@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 218
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "agoraphobia", "attention deficit-hyperactivity disorder"]
 description: "Clomipramine：預測新適應症為焦慮症 (anxiety disorder)（證據等級 L3）。香港藥劑製品註冊：4 張（有效 4 張）"
@@ -104,12 +104,16 @@ TxGNN 模型預測它可能對**焦慮症 (Anxiety Disorder)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-45562 | ANAFRANIL TAB 25MG S/C | 未提供 | 未提供 |
-| HK-40592 | APO-CLOMIPRAMINE TAB 10MG | 未提供 | 未提供 |
-| HK-45537 | ANAFRANIL TAB 10MG S/C | 未提供 | 未提供 |
-| HK-41079 | APO-CLOMIPRAMINE TAB 25MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-45562 | ANAFRANIL TAB 25MG S/C | 單一成分 | PHARMENG TECHNOLOGY LIMITED | 有效 |
+| HK-40592 | APO-CLOMIPRAMINE TAB 10MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-45537 | ANAFRANIL TAB 10MG S/C | 單一成分 | PHARMENG TECHNOLOGY LIMITED | 有效 |
+| HK-41079 | APO-CLOMIPRAMINE TAB 25MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

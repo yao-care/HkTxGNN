@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 275
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dienogest：預測新適應症為閉經 (Amenorrhea)（證據等級 L5）。原適應症：香港許可證資料未提供適應症文字（文獻顯示臨床上用於子宮內膜異位症）"
 monitor_inn: "DIENOGEST"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
@@ -91,13 +91,17 @@ ChEMBL（EMBL-EBI）收錄的 Dienogest 作用機轉（非官方翻譯）：「�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-60781 | VISANNE TAB 2MG（拜耳） | 未提供 | 未提供 |
-| HK-68772 | ENDOSAFE TABLETS 2MG（Lotus） | 未提供 | 未提供 |
-| HK-67958 | DIENOGEST TEVA TABLETS 2MG（Teva） | 未提供 | 未提供 |
-| HK-68699 | DIENOPIL TABLETS 2MG（DKSH） | 未提供 | 未提供 |
-| HK-59784 | QLAIRA TAB（拜耳） | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-60781 | VISANNE TAB 2MG | 單一成分 | BAYER HEALTHCARE LIMITED | 有效 |
+| HK-68772 | ENDOSAFE TABLETS 2MG | 單一成分 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-67958 | DIENOGEST TEVA TABLETS 2MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-68699 | DIENOPIL TABLETS 2MG | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-59784 | QLAIRA TAB | 複方 | BAYER HEALTHCARE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

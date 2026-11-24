@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 466
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Inclisiran：預測新適應症為鉀缺乏症 (Potassium Deficiency Disease)（證據等級 L5）。原適應症：目前缺乏香港許可證的適應症文字資料"
 monitor_inn: "Inclisiran"
 predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
@@ -78,9 +78,15 @@ TxGNN 模型預測它可能對**鉀缺乏症 (Potassium Deficiency Disease)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67211 | LEQVIO SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 284MG/1.5ML（廠商：NOVARTIS PHARMACEUTICALS (HK) LIMITED） | 預填充注射劑（依品名） | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67211 | LEQVIO SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 284MG/1.5ML | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+
+上表列出其中 1 張（共 3 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

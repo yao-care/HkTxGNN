@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Finasteride：預測新適應症為Ambras type hypertrichosis universalis congenita（證據等級 L5）。香港藥劑製品註冊：32 張（有效 32 張）"
 ---
 
@@ -86,13 +86,19 @@ TxGNN 模型預測它可能對**多毛症 (Hypertrichosis)** 有效，但目前*
 
 <!-- review:end hk-lic-20261117-finasteride-1 -->
 
-| 許可證號 | 品名 | 規格 | 製造商／持證商 |
-|---------|------|------|-----------|
-| HK-36604 | PROSCAR TAB 5MG | 5 毫克錠劑 | ORGANON HONG KONG LIMITED |
-| HK-63379 | PROPECIA TABLET 1MG | 1 毫克錠劑 | ORGANON HONG KONG LIMITED |
-| HK-58465 | FINASTERIDE-TEVA TAB 5MG | 5 毫克錠劑 | TEVA PHARMACEUTICAL HONG KONG LIMITED |
-| HK-64019 | FINASTERIDE-TEVA TABLETS 1MG | 1 毫克錠劑 | TEVA PHARMACEUTICAL HONG KONG LIMITED |
-| HK-66014 | HOVID FINASTERIDE TABLETS 1MG | 1 毫克錠劑 | HOVID LIMITED |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-36604 | PROSCAR TAB 5MG | 單一成分 | ORGANON HONG KONG LIMITED | 有效 |
+| HK-63379 | PROPECIA TABLET 1MG | 單一成分 | ORGANON HONG KONG LIMITED | 有效 |
+| HK-58465 | FINASTERIDE-TEVA TAB 5MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-64019 | FINASTERIDE-TEVA TABLETS 1MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-66014 | HOVID FINASTERIDE TABLETS 1MG | 單一成分 | HOVID LIMITED | 有效 |
+
+上表列出其中 5 張（共 32 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

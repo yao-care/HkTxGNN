@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 31
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Albutrepenonacog Alfa：預測新適應症為偽性血管性血友病 (pseudo-von Willebrand disease)（證據等級 L5）。原適應症：血友病（hemophilia）、女性帶因者的症狀性血友病"
 monitor_inn: "ALBUTREPENONACOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia"]
@@ -89,12 +89,16 @@ ChEMBL（EMBL-EBI）收錄的 Albutrepenonacog Alfa 作用機轉（非官方翻�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65142 | IDELVION 注射用粉末及溶劑 250IU | 注射劑（粉末及溶劑） | 資料未提供 |
-| HK-65143 | IDELVION 注射用粉末及溶劑 500IU | 注射劑（粉末及溶劑） | 資料未提供 |
-| HK-65144 | IDELVION 注射用粉末及溶劑 1000IU | 注射劑（粉末及溶劑） | 資料未提供 |
-| HK-65145 | IDELVION 注射用粉末及溶劑 2000IU | 注射劑（粉末及溶劑） | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65142 | IDELVION POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 250IU | 複方 | CSL BEHRING ASIA PACIFIC LIMITED | 有效 |
+| HK-65143 | IDELVION POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 500IU | 複方 | CSL BEHRING ASIA PACIFIC LIMITED | 有效 |
+| HK-65144 | IDELVION POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 1000IU | 複方 | CSL BEHRING ASIA PACIFIC LIMITED | 有效 |
+| HK-65145 | IDELVION POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 2000IU | 複方 | CSL BEHRING ASIA PACIFIC LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 四張許可證均為單方、有效，持證商為 CSL Behring Asia Pacific Limited。
 

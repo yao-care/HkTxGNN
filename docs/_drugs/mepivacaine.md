@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 562
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mepivacaine：預測新適應症為胃十二指腸炎 (Gastroduodenitis)（證據等級 L5）。原適應症：目前許可證資料未載明核准適應症"
 monitor_inn: "Mepivacaine"
 predicted_indications: ["gastroduodenitis", "peptic ulcer disease"]
@@ -84,10 +84,14 @@ TxGNN 模型預測它可能對**胃十二指腸炎 (Gastroduodenitis)** 有效�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-21454 | SCANDONEST 3% PLAIN INJ | 注射劑 | 許可證資料未載明 |
-| HK-25907 | MEPIVASTESIN INJ (CARTRIDGE) 3% | 注射劑（卡式安瓿） | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-21454 | SCANDONEST 3% PLAIN INJ | 單一成分 | HORSELEY CO LTD | 有效 |
+| HK-25907 | MEPIVASTESIN INJ (CARTRIDGE) 3% | 單一成分 | HENRY SCHEIN HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

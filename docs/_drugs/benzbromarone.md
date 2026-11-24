@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "BENZBROMARONE"
 predicted_indications: ["hypouricemia, renal"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benzbromarone：預測新適應症為腎性低尿酸血症 (hypouricemia, renal)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
@@ -84,11 +84,15 @@ ChEMBL（EMBL-EBI）收錄的 Benzbromarone 作用機轉（非官方翻譯）：
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-29832 | NARCARICIN MITE TAB 50MG | 未記載 | 未記載 |
-| HK-37906 | NARCARICIN CAP 50MG | 未記載 | 未記載 |
-| HK-58488 | EURICON TAB 50MG | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-29832 | NARCARICIN MITE TAB 50MG | 單一成分 | WAH HING TRADING CO | 有效 |
+| HK-37906 | NARCARICIN CAP 50MG | 單一成分 | WILCOME PHARMACEUTICAL CO LTD | 有效 |
+| HK-58488 | EURICON TAB 50MG | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

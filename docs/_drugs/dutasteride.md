@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dutasteride：預測新適應症為Ambras 型先天性全身性多毛症 (Ambras type hypertrichosis universalis congenita)（證據等級 L5）。原適應症：良性攝護腺增生 (benign prostatic hyperplasia)"
 monitor_inn: "DUTASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "familial isolated trichomegaly"]
@@ -90,13 +90,19 @@ TxGNN 模型預測它可能對 **Ambras 型先天性全身性多毛症 (Ambras t
 
 香港共有 11 張有效許可證（皆為單一成分登記，無已註銷者），列出其中 5 張：
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61577 | AVODART CAPSULES 0.5MG（GlaxoSmithKline） | 膠囊 | — |
-| HK-64673 | APO-DUTASTERIDE CAPSULES 0.5MG（Hind Wing） | 膠囊 | — |
-| HK-68564 | DUTASTERIDE SANDOZ CAPSULES 0.5MG（Sandoz） | 膠囊 | — |
-| HK-61184 | DUODART CAPSULE 0.5MG/0.4MG（GlaxoSmithKline） | 膠囊 | — |
-| HK-68297 | DUTASTERIDE/TAMSULOSIN HYDROCHLORIDE SANDOZ CAPSULES 0.5MG/0.4MG（Sandoz） | 膠囊 | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61577 | AVODART CAPSULES 0.5MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-64673 | APO-DUTASTERIDE CAPSULES 0.5MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-68564 | DUTASTERIDE SANDOZ CAPSULES 0.5MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-61184 | DUODART CAPSULE 0.5MG/0.4MG | 複方 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-68297 | DUTASTERIDE/TAMSULOSIN HYDROCHLORIDE SANDOZ CAPSULES 0.5MG/0.4MG | 複方 | SANDOZ HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 11 張）。
+
+<!-- licenses:end -->
 
 ---
 

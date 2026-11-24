@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 551
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "MAGNESIUM TRISILICATE"
 predicted_indications: ["gastroduodenitis"]
 description: "Magnesium Trisilicate：預測新適應症為Gastroduodenitis（證據等級 L5）。香港藥劑製品註冊：45 張（有效 45 張）"
@@ -92,13 +92,19 @@ Magnesium Trisilicate（三矽酸鎂）是一種制酸劑，原本用於消化�
 
 <!-- review:end hk-lic-20261117-magnesium_trisilicate-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-43991 | MAGNESIUM TRISILICATE | 未載明 | 未載明 |
-| HK-15701 | TRI-MAG GEL TAB | 未載明 | 未載明 |
-| HK-05463 | TRI MAG GEL SUSPENSION | 未載明 | 未載明 |
-| HK-05192 | GELUMAG TAB | 未載明 | 未載明 |
-| HK-05270 | GELUSIL TAB | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-43991 | MAGNESIUM TRISILICATE | 單一成分 | STANDARD CHEMICAL CORPORATION LIMITED | 有效 |
+| HK-15701 | TRI-MAG GEL TAB | 複方 | NATIONAL PHARMACEUTICAL CO LTD | 有效 |
+| HK-05463 | TRI MAG GEL SUSPENSION | 複方 | NATIONAL PHARMACEUTICAL CO LTD | 有效 |
+| HK-05192 | GELUMAG TAB | 複方 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-05270 | GELUSIL TAB | 複方 | JOHNSON & JOHNSON CONSUMER (HONG KONG) LIMITED | 有效 |
+
+上表列出其中 5 張（共 45 張）。
+
+<!-- licenses:end -->
 
 ---
 

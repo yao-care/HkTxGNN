@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Lidocaine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lidocaine：預測新適應症為點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis)（證據等級 L5）."
 ---
 
@@ -108,13 +108,19 @@ TxGNN 模型預測分數最高的新適應症為**點狀上皮角膜結膜炎 (P
 
 <!-- review:end hk-lic-20261117-lidocaine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-54965 | YOO YOUNG LIDOCAINE HYDROCHLORIDE INJ 1% | 未提供 | 未提供 |
-| HK-22973 | LIGNOCAINE INJ 2% B.P. | 未提供 | 未提供 |
-| HK-19619 | XYLOCAINE JELLY 2% | 未提供 | 未提供 |
-| HK-51722 | AXCEL LIGNOCAINE GEL 2%W/W | 未提供 | 未提供 |
-| HK-59762 | LIDO-ANES SPRAY 10% | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-54965 | YOO YOUNG LIDOCAINE HYDROCHLORIDE INJ 1% | 單一成分 | HANG LUNG TRADING (H.K.) CO | 有效 |
+| HK-22973 | LIGNOCAINE INJ 2% B.P. | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-19619 | XYLOCAINE JELLY 2% | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+| HK-51722 | AXCEL LIGNOCAINE GEL 2%W/W | 單一成分 | KOTRA PHARMA (HONG KONG) COMPANY | 有效 |
+| HK-59762 | LIDO-ANES SPRAY 10% | 單一成分 | MAIN LIFE CORP LTD | 有效 |
+
+上表列出其中 5 張（共 114 張）。
+
+<!-- licenses:end -->
 
 ---
 

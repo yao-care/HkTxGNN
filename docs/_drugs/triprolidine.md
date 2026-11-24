@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 911
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "Triprolidine"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 description: "Triprolidine：預測新適應症為Nasal cavity disease（證據等級 L5）。香港藥劑製品註冊：39 張（有效 37 張）"
@@ -86,13 +86,19 @@ Triprolidine 是第一代 H1 組織胺受體拮抗劑，原本用於過敏性鼻
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-50191 | TRIPROLIDINE HYDROCHLORIDE | — | — |
-| HK-53400 | TRIPROLIDINE HYDROCHLORIDE | — | — |
-| HK-39992 | TRIPROLIDINE HCL CAP 2.5MG (UNITED LAB) | — | — |
-| HK-54211 | PHARMANIAGA PSEUDOEPHEDRINE T TAB | — | — |
-| HK-61804 | DUOFED TABLETS | — | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-50191 | TRIPROLIDINE HYDROCHLORIDE | 單一成分 | SUNRISE TRADING CO | 有效 |
+| HK-53400 | TRIPROLIDINE HYDROCHLORIDE | 單一成分 | SUNRISE TRADING CO | 有效 |
+| HK-39992 | TRIPROLIDINE HCL CAP 2.5MG (UNITED LAB) | 單一成分 | THE UNITED LABORATORIES LTD | 有效 |
+| HK-54211 | PHARMANIAGA PSEUDOEPHEDRINE T TAB | 複方 | HEALTHCARE PHARMASCIENCE LIMITED | 已註銷 |
+| HK-61804 | DUOFED TABLETS | 複方 | NEOCHEM PHARMACEUTICAL LABORATORIES LTD. | 有效 |
+
+上表列出其中 5 張（共 39 張）。
+
+<!-- licenses:end -->
 
 香港共有 39 張含本藥成分的許可證（有效 37 張、已註銷 2 張；單一成分 3 張、複方 36 張），以上僅列出前 5 張。
 

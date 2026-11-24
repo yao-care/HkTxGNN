@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "GINSENG"
 predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe nonproliferative diabetic retinopathy", "hemorrhagic disease of newborn", "nuclear senile cataract", "cortical cataract", "diabetic retinopathy", "amenorrhea (disease)", "craniostenosis cataract", "mature cataract"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Ginseng：預測新適應症為藥物誘發性骨質疏鬆 (drug-induced osteoporosis)（證據等級 L5）。原適應症：本報告所整理的資料中未記載核准適應症"
 ---
 
@@ -93,10 +93,14 @@ TxGNN 模型預測它可能對**藥物誘發性骨質疏鬆 (drug-induced osteop
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-45214 | HIYA KIOGAN SILVER PILLS | 未記載 | 未記載 |
-| HK-45213 | HIYA KIOGAN GOLD PILLS | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-45214 | HIYA KIOGAN SILVER PILLS | 複方 | MAN HING MEDICINE TRADERS | 有效 |
+| HK-45213 | HIYA KIOGAN GOLD PILLS | 複方 | MAN HING MEDICINE TRADERS | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證皆為有效的單一成分許可證，持證商為 MAN HING MEDICINE TRADERS。
 

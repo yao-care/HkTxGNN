@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Chlortetracycline"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Chlortetracycline：預測新適應症為感染後血管炎 (postinfectious vasculitis)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
@@ -72,9 +72,13 @@ TxGNN 模型預測它可能對**感染後血管炎 (postinfectious vasculitis)**
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-06476 | CHLORTRALIM EYE OINT 1% | 未記錄 | 未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-06476 | CHLORTRALIM EYE OINT 1% | 單一成分 | ATLANTIC PHARMACEUTICAL LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 此許可證為眼用軟膏（依品名判斷），為單一成分製劑，目前有效。
 

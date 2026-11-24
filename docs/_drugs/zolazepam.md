@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 957
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Zolazepam：預測新適應症為失眠症 (Insomnia)（證據等級 L5）。原適應症：許可證未載明適應症（獸醫用注射劑，用於動物麻醉與鎮靜）"
 monitor_inn: "Zolazepam"
 predicted_indications: ["insomnia (disease)"]
@@ -81,10 +81,14 @@ TxGNN 模型預測它可能對**失眠症 (Insomnia)** 有效，但目前**沒�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-47383 | ZOLETIL 100 FOR INJECTION (VET) | 注射劑（資料未載明） | 資料未載明 |
-| HK-43831 | ZOLETIL 50 FOR INJ (VET) | 注射劑（資料未載明） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-47383 | ZOLETIL 100 FOR INJECTION (VET) | 複方 | VIRBAC H.K. TRADING LIMITED | 有效 |
+| HK-43831 | ZOLETIL 50 FOR INJ (VET) | 複方 | VIRBAC H.K. TRADING LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證皆為單一成分登記、狀態有效，持證商為 VIRBAC H.K. TRADING LIMITED，且均為獸醫用產品。
 

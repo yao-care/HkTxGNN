@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 276
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DIGOXIN"
 predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
 description: "Digoxin：預測新適應症為變異型心絞痛 (Prinzmetal angina)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
@@ -73,12 +73,16 @@ TxGNN 模型預測它可能對**變異型心絞痛 (Prinzmetal angina)** 有效�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-60869 | LANOXIN PAEDIATRIC ELIXIR 50MCG/ML | 未載明 | 未載明 |
-| HK-03798 | LANOXIN-PG TAB 0.0625MG | 未載明 | 未載明 |
-| HK-03780 | LANOXIN TAB 0.25MG | 未載明 | 未載明 |
-| HK-03795 | LANOXIN INJ 0.5MG/2ML | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-60869 | LANOXIN PAEDIATRIC ELIXIR 50MCG/ML | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+| HK-03798 | LANOXIN-PG TAB 0.0625MG | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+| HK-03780 | LANOXIN TAB 0.25MG | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+| HK-03795 | LANOXIN INJ 0.5MG/2ML | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

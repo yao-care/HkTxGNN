@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "GANIRELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial male-limited precocious puberty", "persistent fetal circulation syndrome", "aromatase excess syndrome", "centra precocious puberty 1", "familial isolated trichomegaly"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ganirelix：預測新適應症為多毛症 (Hypertrichosis)（證據等級 L5）。原適應症：香港許可證未載明核准適應症文字"
 ---
 
@@ -71,9 +71,13 @@ Ganirelix 是 GnRH 受體（GNRHR）拮抗劑，會抑制促黃體生成素（LH
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-49750 | ORGALUTRAN INJ 0.25MG/0.5ML | 注射劑 | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-49750 | ORGALUTRAN INJ 0.25MG/0.5ML | 單一成分 | ORGANON HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 其他排名較前的預測（供參考）
 

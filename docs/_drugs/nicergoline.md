@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "NICERGOLINE"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "benign prostatic hyperplasia (disease)", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Nicergoline：預測新適應症為Hypertrichosis (disease)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
@@ -83,11 +83,15 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效（預測�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-33548 | SERMION TAB 30MG | 未提供 | 未提供 |
-| HK-06209 | SERMION TAB 5MG | 未提供 | 未提供 |
-| HK-19045 | SERMION TAB 10MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-33548 | SERMION TAB 30MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-06209 | SERMION TAB 5MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-19045 | SERMION TAB 10MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證的持有廠商皆為 VIATRIS HEALTHCARE HONG KONG LIMITED。
 

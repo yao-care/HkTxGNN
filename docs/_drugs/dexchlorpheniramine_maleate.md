@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 265
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dexchlorpheniramine Maleate：預測新適應症為急性間歇性紫質症 (Acute Intermittent Porphyria)（證據等級 L5）。原適應症：目前許可證資料未載明"
 monitor_inn: "DEXCHLORPHENIRAMINE MALEATE"
 predicted_indications: ["acute intermittent porphyria"]
@@ -81,13 +81,19 @@ TxGNN 模型預測它可能對**急性間歇性紫質症 (Acute Intermittent Por
 
 <!-- review:end hk-lic-20261117-dexchlorpheniramine_maleate-1 -->
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-56329 | UNI-DEXMINE SYRUP 2MG/5ML | VICKMANS LABORATORIES LTD |
-| HK-28665 | U-PROLAMINE TAB 2MG | SYNCO (H.K.) LIMITED |
-| HK-65476 | ISOMIN TABLETS 2MG | NATURAL HEALTH RESOURCES COMPANY LIMITED |
-| HK-67726 | PRODEXCTMINE TABLETS 2MG | HITPHARM PHARMACEUTICAL CO LTD |
-| HK-42870 | DEXTRAMINE TAB 2MG | WAI LUN TRADING CO |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-56329 | UNI-DEXMINE SYRUP 2MG/5ML | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-28665 | U-PROLAMINE TAB 2MG | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-65476 | ISOMIN TABLETS 2MG | 單一成分 | NATURAL HEALTH RESOURCES COMPANY LIMITED | 有效 |
+| HK-67726 | PRODEXCTMINE TABLETS 2MG | 單一成分 | HITPHARM PHARMACEUTICAL CO LTD | 有效 |
+| HK-42870 | DEXTRAMINE TAB 2MG | 單一成分 | WAI LUN TRADING CO | 有效 |
+
+上表列出其中 5 張（共 103 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

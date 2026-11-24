@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "IVABRADINE"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ivabradine：預測新適應症為多毛症 (Hypertrichosis)（證據等級 L5）。原適應症：許可證資料中未載明核准適應症"
 ---
 
@@ -81,13 +81,19 @@ TxGNN 模型預測它可能對**多毛症 (Hypertrichosis)** 有效，但目前*
 
 下列 10 張許可證均為單一成分製劑、狀態有效。資料中未載明劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-55438 | CORALAN TAB 7.5MG | SERVIER HONG KONG LIMITED |
-| HK-55439 | CORALAN TAB 5MG | SERVIER HONG KONG LIMITED |
-| HK-68232 | IVACORD 5 TABLETS 5MG | JACOBSON MARKETING LIMITED |
-| HK-68233 | IVACORD 7.5 TABLETS 7.5MG | JACOBSON MARKETING LIMITED |
-| HK-68712 | IVABRADINE TABLETS 5MG | CHEMILL PHARMA LIMITED |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55438 | CORALAN TAB 7.5MG | 單一成分 | SERVIER HONG KONG LIMITED | 有效 |
+| HK-55439 | CORALAN TAB 5MG | 單一成分 | SERVIER HONG KONG LIMITED | 有效 |
+| HK-68232 | IVACORD 5 TABLETS 5MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-68233 | IVACORD 7.5 TABLETS 7.5MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-68712 | IVABRADINE TABLETS 5MG | 單一成分 | CHEMILL PHARMA LIMITED | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 另有 5 張許可證（HK-68713、HK-68765、HK-68766、HK-68861、HK-68862），分別由 Chemill Pharma、SB Pharma 與 Sandoz Hong Kong 持有，此處僅列出前 5 張主要許可證。
 

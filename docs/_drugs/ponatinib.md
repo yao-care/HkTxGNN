@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 714
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ponatinib：預測新適應症為牙齦纖維瘤病 (Fibromatosis, gingival)（證據等級 L5）。原適應症：慢性骨髓性白血病（BCR-ABL1 陽性）"
 monitor_inn: "PONATINIB"
 predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
@@ -93,10 +93,14 @@ TxGNN 模型預測它可能對**牙齦纖維瘤病 (Fibromatosis, gingival)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66052 | ICLUSIG TABLETS 15MG | 錠劑 | 資料未載明 |
-| HK-66051 | ICLUSIG TABLETS 45MG | 錠劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66052 | ICLUSIG TABLETS 15MG | 單一成分 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+| HK-66051 | ICLUSIG TABLETS 45MG | 單一成分 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證皆為有效的單方製劑，持有者為 Otsuka Pharmaceutical (H.K.) Limited。
 

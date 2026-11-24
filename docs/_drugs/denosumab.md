@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
 description: "Denosumab：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
@@ -81,12 +81,16 @@ RANK/RANKL 訊號也曾被報告與發炎及血管病變有關，理論上可能
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68757 | WYOST SOLUTION FOR INJECTION 120MG/1.7ML（Sandoz） | 注射液 | 未提供 |
-| HK-68756 | JUBBONTI SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 60MG/1ML（Sandoz） | 預充填注射液 | 未提供 |
-| HK-61163 | XGEVA SOLUTION FOR INJECTION 120MG（Amgen） | 注射液 | 未提供 |
-| HK-60588 | PROLIA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 60MG/ML（Amgen） | 預充填注射液 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68757 | WYOST SOLUTION FOR INJECTION 120MG/1.7ML | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-68756 | JUBBONTI SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 60MG/1ML | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-61163 | XGEVA SOLUTION FOR INJECTION 120MG | 單一成分 | AMGEN HONG KONG LIMITED | 有效 |
+| HK-60588 | PROLIA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 60MG/ML (USA) | 單一成分 | AMGEN HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

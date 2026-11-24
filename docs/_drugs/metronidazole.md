@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 579
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 description: "Metronidazole：預測新適應症為肺囊蟲症 (pneumocystosis)（證據等級 L5）。香港藥劑製品註冊：36 張（有效 36 張）"
@@ -99,13 +99,19 @@ TxGNN 模型預測它可能對**肺囊蟲症 (Pneumocystosis)** 有效，但目�
 
 <!-- review:end hk-lic-20261117-metronidazole-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-36789 | METRONIDAZOLE CAP 200MG（Vickmans） | 膠囊 | 資料未載明 |
-| HK-52934 | PHARMANIAGA METRONIDAZOLE TAB 200MG | 錠劑 | 資料未載明 |
-| HK-66809 | METROMILL SOLUTION FOR INFUSION 500MG/100ML | 輸注液 | 資料未載明 |
-| HK-40240 | METRONIDAZOLE IV INFUSION 0.5%（Baxter） | 靜脈輸注液 | 資料未載明 |
-| HK-34300 | ROZEX GEL 0.75%（Galderma） | 凝膠 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-36789 | METRONIDAZOLE CAP 200MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-52934 | PHARMANIAGA METRONIDAZOLE TAB 200MG | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-66809 | METROMILL SOLUTION FOR INFUSION 500MG/100ML | 單一成分 | CHEMILL PHARMA LIMITED | 有效 |
+| HK-40240 | METRONIDAZOLE IV INFUSION 0.5% (BAXTER) | 單一成分 | BAXTER HEALTHCARE LIMITED | 有效 |
+| HK-34300 | ROZEX GEL 0.75% | 單一成分 | GALDERMA HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 36 張）。
+
+<!-- licenses:end -->
 
 其他許可證涵蓋口服錠劑與膠囊、靜脈輸注、陰道栓劑（FROTIN SUPP VAGINAL 250MG）及外用凝膠（ROSAMED GEL 0.75%）等劑型。
 

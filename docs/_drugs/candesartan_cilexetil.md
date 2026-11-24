@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CANDESARTAN CILEXETIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Candesartan Cilexetil：預測新適應症為惡性高血壓腎病變 (malignant hypertensive renal disease)（證據等級 L5）。香港藥劑製品註冊：19 張（有效 19 張）"
 ---
 
@@ -70,6 +70,20 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (malignant hypertensive
 目前無針對此疾病的相關文獻。
 
 ## 香港上市資訊
+
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-44015 | BLOPRESS TAB 8MG | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-44016 | BLOPRESS TAB 16MG | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-57505 | ADVANT TAB 16MG | 單一成分 | CHARIOT PHARMA LIMITED | 有效 |
+| HK-58216 | ADVANT TAB 8MG | 單一成分 | CHARIOT PHARMA LIMITED | 有效 |
+| HK-60406 | CANDESARTAN SANDOZ TAB 8MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 19 張）。
+
+<!-- licenses:end -->
 
 依本報告彙整的資料，Candesartan Cilexetil 在香港的上市狀態為已上市，所有登記的許可證目前皆為有效，沒有已註銷者。詳細許可證清單請以香港衛生署的官方紀錄為準。
 

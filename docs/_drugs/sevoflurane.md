@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "SEVOFLURANE"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "migraine disorder", "inclusion body myositis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sevoflurane：預測新適應症為變異型心絞痛 (Prinzmetal angina)（證據等級 L5）。原適應症：本次整理的資料中，許可證未載明核准適應症文字"
 ---
 
@@ -77,11 +77,17 @@ ChEMBL（EMBL-EBI）收錄的 Sevoflurane 作用機轉（非官方翻譯）：�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-40147 | SEVORANE INHALATION LIQUID | 吸入液 | 資料未載明 |
-| HK-57565 | SEVOFLURANE INHALATION ANESTHETIC LIQUID (BAXTER) | 吸入麻醉液 | 資料未載明 |
-| HK-56752 | SOJOURN LIQUID FOR INHALATION | 吸入液 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-40147 | SEVORANE INHALATION LIQUID | 單一成分 | ABBVIE LIMITED | 有效 |
+| HK-57565 | SEVOFLURANE INHALATION ANESTHETIC LIQUID (BAXTER) | 單一成分 | BAXTER HEALTHCARE LIMITED | 有效 |
+| HK-56752 | SOJOURN LIQUID FOR INHALATION | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+
+上表列出其中 3 張（共 4 張）。
+
+<!-- licenses:end -->
 
 三張許可證均為單一成分製劑且狀態有效。
 

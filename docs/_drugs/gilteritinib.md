@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Gilteritinib：預測新適應症為延髓型小兒麻痺 (Bulbar Polio)（證據等級 L5）。原適應症：骨髓性白血病（急性骨髓性白血病及其各亞型）"
 monitor_inn: "GILTERITINIB"
 predicted_indications: ["bulbar polio"]
@@ -81,9 +81,13 @@ FLT3/AXL 抑制與小兒麻痺病毒感染腦幹運動神經元之間，**沒有
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67291 | XOSPATA TABLETS 40MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67291 | XOSPATA TABLETS 40MG | 單一成分 | ASTELLAS PHARMA HONG KONG COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 製造商：Astellas Pharma Hong Kong Company Limited（單方、有效）。
 

@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "MAGNESIUM SULFATE"
 predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 description: "Magnesium Sulfate：預測新適應症為血栓性疾病 (thrombotic disease)（證據等級 L3）。香港藥劑製品註冊：11 張（有效 11 張）"
 ---
 
@@ -82,13 +82,19 @@ TxGNN 模型預測它可能對**血栓性疾病 (thrombotic disease)** 有效。
 
 香港共有 11 張有效的單一成分許可證，以下列出 5 張主要許可證。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-32142 | MAGNESIUM SULPHATE CONCENTRATED INJ 49.3% | 未載明 | 未載明 |
-| HK-47730 | CHESTOK ENEMA | 未載明 | 未載明 |
-| HK-47731 | PERSTON ENEMA | 未載明 | 未載明 |
-| HK-52179 | QUICK MICROENEMA ENEMA | 未載明 | 未載明 |
-| HK-47729 | HARRICO ENEMA | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-32142 | MAGNESIUM SULPHATE CONCENTRATED INJ 49.3% | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-47730 | CHESTOK ENEMA | 複方 | EUROPHARM LAB CO LTD | 有效 |
+| HK-47731 | PERSTON ENEMA | 複方 | EUROPHARM LAB CO LTD | 有效 |
+| HK-52179 | QUICK MICROENEMA ENEMA | 複方 | EUROPHARM LAB CO LTD | 有效 |
+| HK-47729 | HARRICO ENEMA | 複方 | EUROPHARM LAB CO LTD | 有效 |
+
+上表列出其中 5 張（共 11 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 93
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bacitracin：預測新適應症為點狀上皮角結膜炎 (Punctate Epithelial Keratoconjunctivitis)（證據等級 L5）。原適應症：角膜炎、角結膜炎、瞼緣結膜炎"
 monitor_inn: "BACITRACIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "infective urethral stricture", "post-infectious syndrome", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy"]
@@ -103,13 +103,19 @@ ChEMBL（EMBL-EBI）收錄的 Bacitracin 作用機轉（非官方翻譯）：「
 
 <!-- review:end hk-lic-20261117-bacitracin-1 -->
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-41340 | BACITIN OINT 500UNITS/G | TRENTON-BOMA LTD |
-| HK-53647 | NEO-POLYBACIN EYE OINTMENT | MEDEXROM LTD |
-| HK-37127 | POLYBAMYCIN OINTMENT | JULIUS CHEN & COMPANY (HK) LIMITED |
-| HK-30056 | POLYCIN OINT | EUROPHARM LAB CO LTD |
-| HK-68910 | FALKAN TRIPLE ANTIBIOTIC OINTMENT | FALKAN MEDICAL LIMITED |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-41340 | BACITIN OINT 500UNITS/G | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-53647 | NEO-POLYBACIN EYE OINTMENT | 複方 | MEDEXROM LTD | 有效 |
+| HK-37127 | POLYBAMYCIN OINTMENT | 複方 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-30056 | POLYCIN OINT | 複方 | EUROPHARM LAB CO LTD | 有效 |
+| HK-68910 | FALKAN TRIPLE ANTIBIOTIC OINTMENT | 複方 | FALKAN MEDICAL LIMITED | 有效 |
+
+上表列出其中 5 張（共 17 張）。
+
+<!-- licenses:end -->
 
 ---
 

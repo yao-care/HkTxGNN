@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 215
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "CLOFARABINE"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
 description: "Clofarabine：預測新適應症為骨髓性白血病 (myeloid leukemia)（證據等級 L1）。香港藥劑製品註冊：3 張（有效 3 張）"
@@ -106,11 +106,15 @@ Clofarabine 是第二代嘌呤核苷類似物，設計上結合了 fludarabine �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67620 | CLOFARABINE CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/20ML（廠商：CHEMILL PHARMA LIMITED） | 輸注用濃縮液 | 資料未載明 |
-| HK-68623 | CLOFACORD CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/20ML（廠商：JACOBSON MARKETING LIMITED） | 輸注用濃縮液 | 資料未載明 |
-| HK-61183 | EVOLTRA CONCENTRATE FOR SOLUTION FOR INFUSION 1MG/ML（廠商：SANOFI HONG KONG LIMITED） | 輸注用濃縮液 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67620 | CLOFARABINE CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/20ML | 單一成分 | CHEMILL PHARMA LIMITED | 有效 |
+| HK-68623 | CLOFACORD CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/20ML | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-61183 | EVOLTRA CONCENTRATE FOR SOLUTION FOR INFUSION 1MG/ML | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

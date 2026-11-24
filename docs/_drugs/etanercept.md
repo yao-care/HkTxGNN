@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 343
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ETANERCEPT"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
 description: "Etanercept：預測新適應症為Hypermobility of coccyx（證據等級 L5）。香港藥劑製品註冊：10 張（有效 10 張）"
@@ -91,13 +91,19 @@ Etanercept（依那西普）是一種 TNF 抑制劑，原本用於乾癬性關�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55983 | ENBREL 預充填注射筒 25mg | 注射液 | — |
-| HK-59796 | ENBREL 預充填注射筆 50mg | 注射液 | — |
-| HK-55984 | ENBREL 預充填注射筒 50mg | 注射液 | — |
-| HK-48914 | ENBREL 注射用粉劑與溶劑 25mg | 注射劑 | — |
-| HK-67841 | ERELZI 預充填注射筒 25mg/0.5ml | 注射液 | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55983 | ENBREL SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 25MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-59796 | ENBREL SOLUTION FOR INJ IN PRE-FILLED PEN 50MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-55984 | ENBREL SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 50MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-48914 | ENBREL PDR & SOLVENT FOR INJ 25MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-67841 | ERELZI SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 25MG/0.5ML | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 另有 2 張 ERELZI 許可證（HK-67842、HK-67840），共 10 張有效許可證。
 

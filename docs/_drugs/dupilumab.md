@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 303
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
 description: "Dupilumab：預測新適應症為支氣管炎 (bronchitis)（證據等級 L3）。香港藥劑製品註冊：4 張（有效 4 張）"
@@ -95,12 +95,16 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68621 | DUPIXENT 預充填注射筆 300MG/2ML | 注射劑 | 資料未載明 |
-| HK-65961 | DUPIXENT 預充填注射器 300MG/2ML（附針頭護套） | 注射劑 | 資料未載明 |
-| HK-66635 | DUPIXENT 預充填注射器 200MG/1.14ML（附針頭護套） | 注射劑 | 資料未載明 |
-| HK-68620 | DUPIXENT 預充填注射筆 200MG/1.14ML | 注射劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68621 | DUPIXENT SOLUTION FOR INJECTION IN PRE-FILLED PEN 300MG/2ML | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-65961 | DUPIXENT SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 300MG/2ML (WITH NEEDLE SHI… | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-66635 | DUPIXENT SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 200MG/1.14ML (WITH NEEDLE… | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-68620 | DUPIXENT SOLUTION FOR INJECTION IN PRE-FILLED PEN 200MG/1.14ML | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

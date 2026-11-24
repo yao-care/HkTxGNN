@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CLIOQUINOL"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clioquinol：預測新適應症為毛外型感染性疾病 (Ectothrix Infectious Disease)（證據等級 L5）。原適應症：足癬、體癬、癬菌感染、鼠蹊與肛周皮膚黴菌病"
 ---
 
@@ -83,13 +83,19 @@ ChEMBL（EMBL-EBI）收錄的 Clioquinol 作用機轉（非官方翻譯）：「
 
 <!-- review:end hk-lic-20261117-clioquinol-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64376 | EURO-HYDROFORM CREAM | 乳膏（依品名） | 資料未載明 |
-| HK-21173 | HYDROCORTISONE WITH CLIOQUINOL CREAM | 乳膏（依品名） | 資料未載明 |
-| HK-53961 | TOPICAN CREAM | 乳膏（依品名） | 資料未載明 |
-| HK-36901 | QUINOSONE CREAM | 乳膏（依品名） | 資料未載明 |
-| HK-28056 | SUPRAL CREAM | 乳膏（依品名） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64376 | EURO-HYDROFORM CREAM | 複方 | EUROPHARM LAB CO LTD | 有效 |
+| HK-21173 | HYDROCORTISONE WITH CLIOQUINOL CREAM | 複方 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-53961 | TOPICAN CREAM | 複方 | EUROPHARM LAB CO LTD | 有效 |
+| HK-36901 | QUINOSONE CREAM | 複方 | ADVANCE PHARMACEUTICAL COMPANY LIMITED | 有效 |
+| HK-28056 | SUPRAL CREAM | 複方 | VICKMANS LABORATORIES LTD | 有效 |
+
+上表列出其中 5 張（共 53 張）。
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

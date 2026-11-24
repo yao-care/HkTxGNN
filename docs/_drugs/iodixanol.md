@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Iodixanol"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Iodixanol：預測新適應症為退化性關節炎 (Osteoarthritis)（證據等級 L5）。原適應症：香港許可證未記載核准適應症文字"
 ---
 
@@ -82,10 +82,14 @@ TxGNN 模型（深度學習）給出的高分（0.9907）可能反映模型從�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-43490 | VISIPAQUE INJ 320MG I/ML | 未記載 | 未記載 |
-| HK-43491 | VISIPAQUE INJ 270MG I/ML | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-43490 | VISIPAQUE INJ 320MG I/ML | 單一成分 | GE MEDICAL SYSTEMS HONG KONG LIMITED | 有效 |
+| HK-43491 | VISIPAQUE INJ 270MG I/ML | 單一成分 | GE MEDICAL SYSTEMS HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

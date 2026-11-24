@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "PEGINTERFERON ALFA-2A"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Peginterferon Alfa-2A：預測新適應症為E 型肝炎病毒感染（證據等級 L5）。原適應症：知識圖譜記錄為慢性 C 型肝炎、C 型肝炎病毒感染、慢性 B 型肝炎"
 ---
 
@@ -82,10 +82,14 @@ B 型、C 型與 E 型肝炎都屬於嗜肝病毒感染，在宿主免疫反應�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-51530 | PEGASYS PRE-FILLED SYRINGE 135MCG/0.5ML | 預充填注射筒 | 資料中未列適應症文字 |
-| HK-51529 | PEGASYS PRE-FILLED SYRINGE 180MCG/0.5ML | 預充填注射筒 | 資料中未列適應症文字 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-51530 | PEGASYS PRE-FILLED SYRINGE 135MCG/0.5ML | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-51529 | PEGASYS PRE-FILLED SYRINGE 180MCG/0.5ML | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證均為單一成分製劑，持證商為 DKSH Hong Kong Limited，狀態皆為有效。
 

@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 70
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Arginine：預測新適應症為胃輕癱 (Gastroparesis)（證據等級 L4）。原適應症：香港許可證資料未載明核准適應症"
 monitor_inn: "ARGININE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -100,13 +100,19 @@ TxGNN 模型預測它可能對**胃輕癱 (Gastroparesis)** 有效，
 
 <!-- review:end hk-lic-20261117-arginine-1 -->
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-66931 | LYSAKARE SOLUTION FOR INFUSION 25G/25G | Novartis Pharmaceuticals (HK) |
-| HK-57540 | AMINOL-S INJ | Wings Pharmaceutical |
-| HK-62100 | AMINOGEN-S SOLUTION FOR INFUSION | Wings Pharmaceutical |
-| HK-58914 | PAN-AMIN G INJ | Otsuka Pharmaceutical (H.K.) |
-| HK-67075 | AMINOVEN INFANT SOLUTION FOR INFUSION 10% W/V | Fresenius Kabi Hong Kong |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66931 | LYSAKARE SOLUTION FOR INFUSION 25G/25G | 複方 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-57540 | AMINOL-S INJ | 複方 | WINGS PHARMACEUTICAL LTD | 有效 |
+| HK-62100 | AMINOGEN-S SOLUTION FOR INFUSION | 複方 | WINGS PHARMACEUTICAL LTD | 有效 |
+| HK-58914 | PAN-AMIN G INJ | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+| HK-67075 | AMINOVEN INFANT SOLUTION FOR INFUSION 10% W/V | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 36 張）。
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "MELOXICAM"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Meloxicam：預測新適應症為肢中發育不良，Hunter-Thompson 型（證據等級 L5）。原適應症：香港許可證資料中未載明核准適應症文字"
 ---
 
@@ -80,13 +80,19 @@ Hunter-Thompson 型肢中發育不良是罕見的骨骼發育異常，已知與 
 
 <!-- review:end hk-lic-20261117-meloxicam-1 -->
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-41788 | MOBIC TAB 7.5MG | BOEHRINGER INGELHEIM (HK) LTD |
-| HK-41789 | MOBIC TAB 15MG | BOEHRINGER INGELHEIM (HK) LTD |
-| HK-54749 | APO-MELOXICAM TAB 7.5MG | HIND WING CO LTD |
-| HK-54750 | APO-MELOXICAM TAB 15MG | HIND WING CO LTD |
-| HK-53980 | MOXIC FORTE TAB 15MG | HANG LUNG TRADING (H.K.) CO |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-41788 | MOBIC TAB 7.5MG | 單一成分 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-41789 | MOBIC TAB 15MG | 單一成分 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-54749 | APO-MELOXICAM TAB 7.5MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-54750 | APO-MELOXICAM TAB 15MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-53980 | MOXIC FORTE TAB 15MG | 單一成分 | HANG LUNG TRADING (H.K.) CO | 有效 |
+
+上表列出其中 5 張（共 29 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

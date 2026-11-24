@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 620
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NIMODIPINE"
 predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Nimodipine：預測新適應症為同合子家族性高膽固醇血症 (homozygous familial hypercholesterolemia)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
@@ -74,12 +74,16 @@ TxGNN 模型預測它可能對**同合子家族性高膽固醇血症 (Homozygous
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-28973 | NIMOTOP INFUSION SOLUTION 10MG/50ML | 輸注液 | 未提供 |
-| HK-64672 | NIMODIPINE SOLUTION FOR INFUSION 0.2MG/ML | 輸注液 | 未提供 |
-| HK-28974 | NIMOTOP TAB 30MG | 錠劑 | 未提供 |
-| HK-65564 | NORTOLAN TABLETS 30MG | 錠劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-28973 | NIMOTOP INFUSION SOLUTION 10MG/50ML | 單一成分 | ZUELLIG PHARMA LIMITED | 有效 |
+| HK-64672 | NIMODIPINE SOLUTION FOR INFUSION 0.2MG/ML | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-28974 | NIMOTOP TAB 30MG | 單一成分 | ZUELLIG PHARMA LIMITED | 有效 |
+| HK-65564 | NORTOLAN TABLETS 30MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

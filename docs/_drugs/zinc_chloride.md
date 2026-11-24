@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 952
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ZINC CHLORIDE"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "Sjogren syndrome", "dry eye syndrome"]
 description: "Zinc Chloride：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy)（證據等級 L5）."
@@ -82,10 +82,14 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-39024 | PEDITRACE CONC FOR PARENTERAL INFUSION | 輸注濃縮液（資料未載明） | 資料未載明 |
-| HK-64379 | ADDAVEN CONCENTRATE FOR SOLUTION FOR INFUSION | 輸注濃縮液（資料未載明） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-39024 | PEDITRACE CONC FOR PARENTERAL INFUSION | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-64379 | ADDAVEN CONCENTRATE FOR SOLUTION FOR INFUSION | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證皆為單一成分、有效狀態，持有者為 Fresenius Kabi Hong Kong Limited。
 

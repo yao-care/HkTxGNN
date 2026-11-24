@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 191
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Chlorzoxazone：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：資料中未提供"
 monitor_inn: "Chlorzoxazone"
 predicted_indications: ["migraine disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine with brainstem aura", "pulmonary hypertension", "atrophoderma vermiculata", "ulerythema ophryogenesis", "kyphoscoliotic heart disease", "rheumatoid arthritis"]
@@ -87,10 +87,14 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-31266 | SOLAXIN TAB 200MG（衛采香港） | 未提供 | 未提供 |
-| HK-62131 | SANCMAN TABLETS（Wai Lun Trading） | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-31266 | SOLAXIN TAB 200MG | 單一成分 | EISAI (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-62131 | SANCMAN TABLETS | 複方 | WAI LUN TRADING CO | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

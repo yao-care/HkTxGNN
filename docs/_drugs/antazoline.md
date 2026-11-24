@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Antazoline"
 predicted_indications: ["recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "nasal cavity disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Antazoline：預測新適應症為頑固性異位性皮膚炎 (recalcitrant atopic dermatitis)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
@@ -72,10 +72,14 @@ TxGNN 模型預測它可能對**頑固性異位性皮膚炎 (recalcitrant atopic
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61047 | ALLERGOPOS EYE DROPS | 眼藥水（依品名） | 本地資料未記載 |
-| HK-51055 | OPSA-HIS STERILE EYE DROPS | 眼藥水（依品名） | 本地資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61047 | ALLERGOPOS EYE DROPS | 複方 | REICH PHARM LIMITED | 有效 |
+| HK-51055 | OPSA-HIS STERILE EYE DROPS | 複方 | NIDOWAY INVESTMENT LTD | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證目前皆為有效狀態，均為單一成分製劑。
 

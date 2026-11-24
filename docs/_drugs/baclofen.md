@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 94
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Baclofen：預測新適應症為注意力不足過動症 (Attention Deficit-Hyperactivity Disorder)（證據等級 L5）。原適應症：本次彙整資料中未載明"
 monitor_inn: "BACLOFEN"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
@@ -107,13 +107,19 @@ TxGNN 模型預測它可能對**注意力不足過動症 (ADHD)** 有效（分�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66213 | BACLOFEN INTRATHECAL SINTETICA 輸注液 40MG/20ML | 未載明 | 未載明 |
-| HK-66245 | BACLOFEN INTRATHECAL SINTETICA 輸注液 10MG/5ML | 未載明 | 未載明 |
-| HK-56406 | APT-BACLOFEN TAB 10MG | 錠劑 | 未載明 |
-| HK-51460 | LIORESAL INTRATHECAL INJ 10MG/5ML | 注射劑 | 未載明 |
-| HK-00226 | LIORESAL 10 TAB 10 MG | 錠劑 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66213 | BACLOFEN INTRATHECAL SINTETICA SOLUTION FOR INFUSION 40MG/20ML | 單一成分 | MEKIM LTD | 有效 |
+| HK-66245 | BACLOFEN INTRATHECAL SINTETICA SOLUTION FOR INFUSION 10MG/5ML | 單一成分 | MEKIM LTD | 有效 |
+| HK-56406 | APT-BACLOFEN TAB 10MG | 單一成分 | APT PHARMA LIMITED | 有效 |
+| HK-51460 | LIORESAL INTRATHECAL INJ 10MG/5ML | 單一成分 | ZUELLIG PHARMA LIMITED | 有效 |
+| HK-00226 | LIORESAL 10 TAB 10 MG | 單一成分 | ZUELLIG PHARMA LIMITED | 有效 |
+
+上表列出其中 5 張（共 12 張）。
+
+<!-- licenses:end -->
 
 香港共有 12 張有效單一成分許可證，上表僅列出其中 5 張。
 

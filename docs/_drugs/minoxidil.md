@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 590
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MINOXIDIL"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with chronic hemolytic anemia", "pulmonary arterial hypertension associated with HIV infection"]
 description: "Minoxidil：預測新適應症為頭皮單純性毛髮稀少症 (hypotrichosis simplex of the scalp)（證據等級 L4）。香港藥劑製品註冊：24 張（有效 24 張）"
@@ -94,13 +94,19 @@ ChEMBL（EMBL-EBI）收錄的 Minoxidil 作用機轉（非官方翻譯）：「�
 
 <!-- review:end hk-lic-20261117-minoxidil-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-52159 | REGAINE FOR MEN TOPICAL SOLUTION 2% | 外用溶液 | 資料未載明 |
-| HK-52160 | REGAINE FOR WOMEN TOPICAL SOLUTION 2% | 外用溶液 | 資料未載明 |
-| HK-52161 | REGAINE EXTRA STRENGTH FOR MEN TOPICAL SOLN 5% | 外用溶液 | 資料未載明 |
-| HK-64008 | REGAINE FOR MEN TOPICAL FOAM 5%W/W | 外用泡沫 | 資料未載明 |
-| HK-65139 | REGAINE FOR WOMEN TOPICAL FOAM 5%W/W | 外用泡沫 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-52159 | REGAINE FOR MEN TOPICAL SOLUTION 2% | 單一成分 | JOHNSON & JOHNSON CONSUMER (HONG KONG) LIMITED | 有效 |
+| HK-52160 | REGAINE FOR WOMEN TOPICAL SOLUTION 2% | 單一成分 | JOHNSON & JOHNSON CONSUMER (HONG KONG) LIMITED | 有效 |
+| HK-52161 | REGAINE EXTRA STRENGTH FOR MEN TOPICAL SOLN 5% | 單一成分 | JOHNSON & JOHNSON CONSUMER (HONG KONG) LIMITED | 有效 |
+| HK-64008 | REGAINE FOR MEN TOPICAL FOAM 5%W/W | 單一成分 | JOHNSON & JOHNSON CONSUMER (HONG KONG) LIMITED | 有效 |
+| HK-65139 | REGAINE FOR WOMEN TOPICAL FOAM 5%W/W | 單一成分 | JOHNSON & JOHNSON CONSUMER (HONG KONG) LIMITED | 有效 |
+
+上表列出其中 5 張（共 24 張）。
+
+<!-- licenses:end -->
 
 ---
 

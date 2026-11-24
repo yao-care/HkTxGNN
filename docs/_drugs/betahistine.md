@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 114
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Betahistine: 香港已知用途與上市狀態；目前無新候選適應症"
 predicted_indications: []
 ---
@@ -72,19 +72,25 @@ TxGNN 深度學習模型對 Betahistine 沒有分數達 0.99 以上的候選適�
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-66795 | METERLON TABLETS 8MG |  | 有效 |
-| HK-49502 | BETA-SYNTO TAB 8MG |  | 有效 |
-| HK-38792 | BETASERC TAB 16MG |  | 有效 |
-| HK-45998 | ALFINOR 8 TAB 8MG |  | 有效 |
-| HK-66796 | UNDIZZ TABLETS 16MG |  | 有效 |
-| HK-37181 | BETASERC TAB 8MG |  | 有效 |
-| HK-66792 | EFORMAT BETAHISTINE HYDROCHLORIDE TABLETS 16MG |  | 有效 |
-| HK-66793 | EFORMAT BETAHISTINE HYDROCHLORIDE TABLETS 8MG |  | 有效 |
-| HK-59561 | BETAHIST FORTE TAB 16MG |  | 有效 |
-| HK-51514 | BETASERC TAB 24MG |  | 有效 |
-| HK-66794 | JOYISH BETAHISTINE HYDROCHLORIDE TABLETS 8MG |  | 有效 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66795 | METERLON TABLETS 8MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-49502 | BETA-SYNTO TAB 8MG | 單一成分 | CNW FAR EAST LIMITED | 有效 |
+| HK-38792 | BETASERC TAB 16MG | 單一成分 | ABBOTT LAB LTD | 有效 |
+| HK-45998 | ALFINOR 8 TAB 8MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-66796 | UNDIZZ TABLETS 16MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-37181 | BETASERC TAB 8MG | 單一成分 | ABBOTT LAB LTD | 有效 |
+| HK-66792 | EFORMAT BETAHISTINE HYDROCHLORIDE TABLETS 16MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-66793 | EFORMAT BETAHISTINE HYDROCHLORIDE TABLETS 8MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-59561 | BETAHIST FORTE TAB 16MG | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-51514 | BETASERC TAB 24MG | 單一成分 | ABBOTT LAB LTD | 有效 |
+| HK-66794 | JOYISH BETAHISTINE HYDROCHLORIDE TABLETS 8MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+
+上表列出其中 11 張（共 17 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

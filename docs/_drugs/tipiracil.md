@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "TIPIRACIL"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tipiracil：預測新適應症為盲腸絨毛狀腺瘤 (cecum villous adenoma)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
@@ -72,10 +72,14 @@ TxGNN 模型預測它可能對**盲腸絨毛狀腺瘤 (cecum villous adenoma)** 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65361 | LONSURF TABLETS 20MG/8.19MG | 未載明 | 未載明 |
-| HK-65360 | LONSURF TABLETS 15MG/6.14MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65361 | LONSURF TABLETS 20MG/8.19MG | 複方 | DKSH HONG KONG LIMITED | 有效 |
+| HK-65360 | LONSURF TABLETS 15MG/6.14MG | 複方 | DKSH HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

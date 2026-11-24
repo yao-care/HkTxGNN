@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CARBIMAZOLE"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carbimazole：預測新適應症為甲狀腺素抵抗症（resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta）（證據等級 L5）。香港藥劑製品註冊：7 張（有效 7 張）"
 ---
 
@@ -74,13 +74,19 @@ ChEMBL（EMBL-EBI）收錄的 Carbimazole 作用機轉（非官方翻譯）：�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-52760 | CARBIMAZOLE 5 TAB 5MG (REMEDICA) | 未記載 | 未記載 |
-| HK-60955 | SYN-CARBIMAZOLE TAB 5MG | 未記載 | 未記載 |
-| HK-35972 | CARBIROID TAB 5MG | 未記載 | 未記載 |
-| HK-26101 | CARBIMAZOLE TAB 5MG | 未記載 | 未記載 |
-| HK-65516 | CAMAZOL TABLETS 5MG | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-52760 | CARBIMAZOLE 5 TAB 5MG (REMEDICA) | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-60955 | SYN-CARBIMAZOLE TAB 5MG | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-35972 | CARBIROID TAB 5MG | 單一成分 | HOVID LIMITED | 有效 |
+| HK-26101 | CARBIMAZOLE TAB 5MG | 單一成分 | CHRISTO PHARM LTD | 有效 |
+| HK-65516 | CAMAZOL TABLETS 5MG | 單一成分 | FP HEALTHCARE LIMITED | 有效 |
+
+上表列出其中 5 張（共 7 張）。
+
+<!-- licenses:end -->
 
 目前 6 張許可證均為有效的單一成分製劑，此處僅列出 5 張。
 

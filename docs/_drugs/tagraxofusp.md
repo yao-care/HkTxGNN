@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 847
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tagraxofusp：預測新適應症為斜視 (Esotropia)（證據等級 L5）。原適應症：CD4+/CD56+ 血液皮膚腫瘤（CD4+/CD56+ hematodermic neoplasm）"
 monitor_inn: "Tagraxofusp"
 predicted_indications: ["esotropia", "pre-malignant neoplasm", "inner ear neoplasm", "benign neoplasm of tongue", "bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "ductal or ductular proliferation", "non-seminomatous lesion", "cystic neoplasm", "thyroglossal duct cyst"]
@@ -81,9 +81,13 @@ TxGNN 模型（深度學習）預測它可能對**斜視 (Esotropia)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68070 | ELZONRIS CONCENTRATE FOR SOLUTION FOR INFUSION 1000MCG/1ML（廠商：A. MENARINI HONG KONG LIMITED） | 輸注用濃縮液（資料未標示） | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68070 | ELZONRIS CONCENTRATE FOR SOLUTION FOR INFUSION 1000MCG/1ML | 單一成分 | A. MENARINI HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

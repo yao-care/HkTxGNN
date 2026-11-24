@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "VOXILAPREVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "chronic hepatitis B virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Voxilaprevir：預測新適應症為B 型肝炎病毒感染 (Hepatitis B Virus Infection)（證據等級 L5）。原適應症：慢性 C 型肝炎病毒感染"
 ---
 
@@ -84,9 +84,13 @@ ChEMBL（EMBL-EBI）收錄的 Voxilaprevir 作用機轉（非官方翻譯）：�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65775 | VOSEVI TABLETS | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65775 | VOSEVI TABLETS | 複方 | GILEAD SCIENCES HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

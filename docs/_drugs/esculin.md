@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 338
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Esculin：預測新適應症為閉經 (Amenorrhea)（證據等級 L5）。原適應症：許可證資料未載明核准適應症（產品名稱為痔瘡軟膏類）"
 monitor_inn: "ESCULIN"
 predicted_indications: ["amenorrhea (disease)"]
@@ -81,13 +81,19 @@ TxGNN 的高分（0.9921）來自 TxGNN 模型（深度學習）的計算推論�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-56046 | LONGS HEMO OINTMENT | 未載明 | 未載明 |
-| HK-56047 | REVCO HEMO OINTMENT "CHIAU SON" | 未載明 | 未載明 |
-| HK-56049 | XTRA HEMO OINTMENT "CHIAU SON" | 未載明 | 未載明 |
-| HK-55324 | ECKERD HEMO OINTMENT | 未載明 | 未載明 |
-| HK-54828 | HUDSON HEMO OINTMENT | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-56046 | LONGS HEMO OINTMENT | 複方 | WILSON TRADING COMPANY LIMITED | 有效 |
+| HK-56047 | REVCO HEMO OINTMENT "CHIAU SON" | 複方 | WILSON TRADING COMPANY LIMITED | 有效 |
+| HK-56049 | XTRA HEMO OINTMENT "CHIAU SON" | 複方 | WILSON TRADING COMPANY LIMITED | 有效 |
+| HK-55324 | ECKERD HEMO OINTMENT | 複方 | WILSON TRADING COMPANY LIMITED | 有效 |
+| HK-54828 | HUDSON HEMO OINTMENT | 複方 | WILSON TRADING COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 以上為 9 張有效許可證中的 5 張，均為單方製劑，持證商皆為 Wilson Trading Company Limited。
 

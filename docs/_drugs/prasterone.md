@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "PRASTERONE"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "severe nonproliferative diabetic retinopathy", "thrombophilia due to protein S deficiency, autosomal recessive", "scleroderma (disease)", "complement component 4a deficiency", "pseudo-von Willebrand disease", "primary release disorder of platelets"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Prasterone：預測新適應症為肝素輔因子 2 缺乏症 (Heparin Cofactor 2 Deficiency)（證據等級 L5）。原適應症：香港許可證未載明核准適應症文字"
 ---
 
@@ -88,9 +88,13 @@ TxGNN 模型預測它可能對**肝素輔因子 2 缺乏症 (Heparin Cofactor 2 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66651 | INTRAROSA PESSARIES 6.5MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66651 | INTRAROSA PESSARIES 6.5MG | 單一成分 | LEE'S PHARMACEUTICAL (H.K) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 此為單一成分製劑，狀態為有效。
 

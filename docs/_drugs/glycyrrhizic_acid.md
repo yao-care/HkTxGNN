@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 424
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "Glycyrrhizic acid"
 predicted_indications: ["multiple endocrine neoplasia"]
 description: "Glycyrrhizic Acid：預測新適應症為多發性內分泌腫瘤 (multiple endocrine neoplasia)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
@@ -81,12 +81,16 @@ TxGNN 的高分（0.9928）僅是計算模型的輸出。沒有臨床試驗，�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-49857 | OUTERDZEN TAB | 資料未載明 | 資料未載明 |
-| HK-34639 | BETTY CAP | 資料未載明 | 資料未載明 |
-| HK-49914 | NORSETOA CAP | 資料未載明 | 資料未載明 |
-| HK-42269 | BAO FU LING CREAM | 資料未載明 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-49857 | OUTERDZEN TAB | 複方 | HITPHARM PHARMACEUTICAL CO LTD | 有效 |
+| HK-34639 | BETTY CAP | 複方 | YUNG SHIN CO LTD | 有效 |
+| HK-49914 | NORSETOA CAP | 複方 | HITPHARM PHARMACEUTICAL CO LTD | 有效 |
+| HK-42269 | BAO FU LING CREAM | 複方 | HONG KONG WAH SHENG MEDICAL CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 以上 4 張許可證均為有效的單方許可證，製造商包括 HITPHARM PHARMACEUTICAL CO LTD、YUNG SHIN CO LTD 與 HONG KONG WAH SHENG MEDICAL CO LTD。
 

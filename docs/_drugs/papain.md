@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 665
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Papain: known uses and market status in Hong Kong; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,13 +72,17 @@ TxGNN 深度學習模型對 Papain 沒有分數達 0.99 以上的候選適應症
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-33430 | CHLORAFRESH LOZ |  | 有效 |
-| HK-33429 | DESOPAIN LOZ |  | 有效 |
-| HK-20578 | CARICOSE SYRUP |  | 有效 |
-| HK-25565 | ENZYME CO TAB |  | 有效 |
-| HK-01651 | APPEZYM TAB (S/C) |  | 有效 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-33430 | CHLORAFRESH LOZ | 複方 | MEYER PHARMACEUTICALS LTD | 有效 |
+| HK-33429 | DESOPAIN LOZ | 複方 | MEYER PHARMACEUTICALS LTD | 有效 |
+| HK-20578 | CARICOSE SYRUP | 複方 | CHRISTO PHARM LTD | 有效 |
+| HK-25565 | ENZYME CO TAB | 複方 | CHRISTO PHARM LTD | 有效 |
+| HK-01651 | APPEZYM TAB (S/C) | 複方 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

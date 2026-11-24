@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 212
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clobetasol：預測新適應症為原發性皮膚 T 細胞淋巴瘤 (Primary Cutaneous T-cell Lymphoma)（證據等級 L3）。原適應症：香港許可證資料未載明"
 monitor_inn: "CLOBETASOL"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -95,11 +95,15 @@ TxGNN 模型預測它可能對**原發性皮膚 T 細胞淋巴瘤 (Primary Cutan
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-45788 | CLODERM CREAM 0.05% | 未提供 | 未提供 |
-| HK-45783 | CLODERM SCALP APPLICATION 0.05% | 未提供 | 未提供 |
-| HK-45649 | CLODERM OINT 0.05% | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-45788 | CLODERM CREAM 0.05% | 單一成分 | TAISHO PHARMACEUTICAL (HK) LTD | 有效 |
+| HK-45783 | CLODERM SCALP APPLICATION 0.05% | 單一成分 | TAISHO PHARMACEUTICAL (HK) LTD | 有效 |
+| HK-45649 | CLODERM OINT 0.05% | 單一成分 | TAISHO PHARMACEUTICAL (HK) LTD | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證皆為單方、有效，持證商為 Taisho Pharmaceutical (HK) Ltd。
 

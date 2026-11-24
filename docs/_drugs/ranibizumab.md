@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["tetanic cataract", "immature cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "hemorrhagic disease of newborn"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ranibizumab：預測新適應症為手足搐搦性白內障 (tetanic cataract)（證據等級 L5）。原適應症：知識圖譜記錄的關聯疾病：糖尿病視網膜病變、黃斑部病變、糖尿病黃斑部水腫、視網膜動脈阻塞、早產兒視網膜病變等"
 ---
 
@@ -71,11 +71,15 @@ TxGNN 模型預測它可能對**手足搐搦性白內障 (tetanic cataract)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65166 | LUCENTIS SOLUTION FOR INJECTION 2.3MG/0.23ML (VIAL+FILTER NEEDLE PACK) | 注射液 | 資料未提供 |
-| HK-68384 | LUCENTIS SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 10MG/ML | 預充填注射筒 | 資料未提供 |
-| HK-63860 | LUCENTIS SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 10MG/ML | 預充填注射筒 | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65166 | LUCENTIS SOLUTION FOR INJECTION 2.3MG/0.23ML (VIAL+FILTER NEEDLE PACK) | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-68384 | LUCENTIS SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 10MG/ML | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-63860 | LUCENTIS SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 10MG/ML | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證皆為單一成分製劑，持有者為 Novartis Pharmaceuticals (HK) Limited，狀態皆為有效。
 

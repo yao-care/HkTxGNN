@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 960
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Zolpidem：預測新適應症為Benign paroxysmal torticollis of infancy（證據等級 L5）。香港藥劑製品註冊：19 張（有效 19 張）"
@@ -98,13 +98,19 @@ Zolpidem 是 GABA-A 受體的正向異位調節劑，對含 α1 次單元的受�
 
 本藥在香港共有 19 張有效單方許可證，無已註銷者。以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-36433 | STILNOX TAB 10MG（Sanofi） | 錠劑 | 未提供 |
-| HK-56391 | STILNOX CR MODIFIED-RELEASE TAB 6.25MG（Sanofi） | 緩釋錠 | 未提供 |
-| HK-56392 | STILNOX CR MODIFIED-RELEASE TAB 12.5MG（Sanofi） | 緩釋錠 | 未提供 |
-| HK-65359 | ZOLPIDEM SANDOZ TABLETS 10MG | 錠劑 | 未提供 |
-| HK-61859 | ZOLPIDEM STADA TABLETS 10MG | 錠劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-36433 | STILNOX TAB 10MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-56391 | STILNOX CR MODIFIED-RELEASE TAB 6.25MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-56392 | STILNOX CR MODIFIED-RELEASE TAB 12.5MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-65359 | ZOLPIDEM SANDOZ TABLETS 10MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-61859 | ZOLPIDEM STADA TABLETS 10MG | 單一成分 | STADA PHARMACEUTICALS (ASIA) LIMITED | 有效 |
+
+上表列出其中 5 張（共 19 張）。
+
+<!-- licenses:end -->
 
 ---
 

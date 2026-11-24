@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "cholecalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cholecalciferol：預測新適應症為Campailla-Martinelli 型肢中段發育不良（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症文字"
 ---
 
@@ -72,13 +72,19 @@ ChEMBL（EMBL-EBI）收錄的 Cholecalciferol 作用機轉（非官方翻譯）�
 
 本報告彙整的資料顯示共有 13 張有效許可證。下表僅列出單一成分的主要產品；其餘許可證多為複方或其他用途產品（例如與 alendronate 的複方、綜合維生素、動物用注射劑），不能用來描述單一成分膽鈣化醇的核准狀態，故不列入。各許可證的劑型與核准適應症文字在資料中均為空白。
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-67080 | VITA GREEN VITAMIN D3 TABLETS 1200IU | VITA GREEN PHARMACEUTICAL (H.K.) LIMITED |
-| HK-68740 | DECUROL CAPSULES 25000IU | GALEPHAR HK LIMITED |
-| HK-68743 | DECUROL ORAL DROPS 2400IU/ML | GALEPHAR HK LIMITED |
-| HK-68742 | DECUROL ORAL SOLUTION 25000IU/1ML | GALEPHAR HK LIMITED |
-| HK-68741 | DECUROL ORAL SOLUTION 100000IU/1ML | GALEPHAR HK LIMITED |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67080 | VITA GREEN VITAMIN D3 TABLETS 1200IU | 單一成分 | VITA GREEN PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+| HK-68740 | DECUROL CAPSULES 25000IU | 單一成分 | GALEPHAR HK LIMITED | 有效 |
+| HK-68743 | DECUROL ORAL DROPS 2400IU/ML | 單一成分 | GALEPHAR HK LIMITED | 有效 |
+| HK-68742 | DECUROL ORAL SOLUTION 25000IU/1ML | 單一成分 | GALEPHAR HK LIMITED | 有效 |
+| HK-68741 | DECUROL ORAL SOLUTION 100000IU/1ML | 單一成分 | GALEPHAR HK LIMITED | 有效 |
+
+上表列出其中 5 張（共 13 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

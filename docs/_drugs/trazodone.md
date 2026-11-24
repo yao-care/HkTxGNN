@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 900
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Trazodone"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
 description: "Trazodone：預測新適應症為強迫症 (obsessive-compulsive disorder)（證據等級 L2）。香港藥劑製品註冊：11 張（有效 11 張）"
@@ -85,13 +85,19 @@ TxGNN 模型預測它可能對**強迫症 (Obsessive-Compulsive Disorder)** 有�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55397 | TRITTICO PROLONGED RELEASE TAB 75MG | 未載明 | 未載明 |
-| HK-55398 | TRITTICO PROLONGED RELEASE TAB 150MG | 未載明 | 未載明 |
-| HK-26791 | TRITTICO TAB 50MG | 未載明 | 未載明 |
-| HK-62870 | MESYREL TABLETS 50MG | 未載明 | 未載明 |
-| HK-60457 | APO-TRAZODONE TAB 50MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55397 | TRITTICO PROLONGED RELEASE TAB 75MG | 單一成分 | LEE'S PHARMACEUTICAL (H.K) LIMITED | 有效 |
+| HK-55398 | TRITTICO PROLONGED RELEASE TAB 150MG | 單一成分 | LEE'S PHARMACEUTICAL (H.K) LIMITED | 有效 |
+| HK-26791 | TRITTICO TAB 50MG | 單一成分 | LEE'S PHARMACEUTICAL (H.K) LIMITED | 有效 |
+| HK-62870 | MESYREL TABLETS 50MG | 單一成分 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-60457 | APO-TRAZODONE TAB 50MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 11 張）。
+
+<!-- licenses:end -->
 
 另有 6 張單一成分許可證（共 11 張，皆有效、無註銷），包含 PMS-TRAZODONE（50/75/100 mg）、JECETRAZO、TRITCOPRESS、TRAZOPRESS 等品項。
 

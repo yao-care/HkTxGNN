@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 22
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acitretin：預測新適應症為痤瘡 (acne (disease))（證據等級 L3）。原適應症：資料未載明"
 monitor_inn: "ACITRETIN"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
@@ -92,13 +92,19 @@ TxGNN 模型預測它可能對**痤瘡 (acne)** 有效，目前有 **1 個臨床
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-39193 | NEOTIGASON CAP 10MG | 膠囊 | 資料未載明 |
-| HK-39194 | NEOTIGASON CAP 25MG | 膠囊 | 資料未載明 |
-| HK-68898 | ZETIN CAPSULES 10MG | 膠囊 | 資料未載明 |
-| HK-68899 | ZETIN CAPSULES 25MG | 膠囊 | 資料未載明 |
-| HK-66608 | SORIF CAPSULES 10MG | 膠囊 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-39193 | NEOTIGASON CAP 10MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-39194 | NEOTIGASON CAP 25MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-68898 | ZETIN CAPSULES 10MG | 單一成分 | UNITED ITALIAN CORP (HK) LTD | 有效 |
+| HK-68899 | ZETIN CAPSULES 25MG | 單一成分 | UNITED ITALIAN CORP (HK) LTD | 有效 |
+| HK-66608 | SORIF CAPSULES 10MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 ---
 

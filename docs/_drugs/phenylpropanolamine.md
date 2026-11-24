@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 694
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "PHENYLPROPANOLAMINE"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder"]
 description: "Phenylpropanolamine：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。香港藥劑製品註冊：34 張（有效 34 張）"
@@ -94,13 +94,19 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 <!-- review:end hk-lic-20261117-phenylpropanolamine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-46548 | PROPALIN SYRUP 40MG/ML (VET) | 未載明 | 未載明 |
-| HK-32127 | SYNCOLDTAB-M TAB (YELLOW) | 未載明 | 未載明 |
-| HK-22813 | D.P.P SYRUP | 未載明 | 未載明 |
-| HK-09487 | DIMAXIN SYRUP | 未載明 | 未載明 |
-| HK-08611 | JEM C P P TAB | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-46548 | PROPALIN SYRUP 40MG/ML (VET) | 單一成分 | ALFAMEDIC LIMITED | 有效 |
+| HK-32127 | SYNCOLDTAB-M TAB (YELLOW) | 複方 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-22813 | D.P.P SYRUP | 複方 | MARCHING PHARMACEUTICAL LIMITED | 有效 |
+| HK-09487 | DIMAXIN SYRUP | 複方 | EUROPHARM LAB CO LTD | 有效 |
+| HK-08611 | JEM C P P TAB | 複方 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+
+上表列出其中 5 張（共 34 張）。
+
+<!-- licenses:end -->
 
 ---
 

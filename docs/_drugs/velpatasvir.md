@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "VELPATASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Velpatasvir：預測新適應症為B 型肝炎病毒感染（證據等級 L5）。原適應症：慢性 C 型肝炎"
 ---
 
@@ -85,10 +85,14 @@ B 型肝炎病毒是 DNA 病毒，靠逆轉錄酶／聚合酶複製，與 HCV �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65046 | EPCLUSA TABLETS 400MG/100MG | 未載明 | 未載明 |
-| HK-65775 | VOSEVI TABLETS | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65046 | EPCLUSA TABLETS 400MG/100MG | 複方 | GILEAD SCIENCES HONG KONG LIMITED | 有效 |
+| HK-65775 | VOSEVI TABLETS | 複方 | GILEAD SCIENCES HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

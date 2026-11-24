@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 864
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Teriflunomide：香港的已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 ---
@@ -72,10 +72,14 @@ TxGNN 深度學習模型對 Teriflunomide 所產生的候選適應症，經追�
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-63504 | AUBAGIO TAB 14MG |  | 有效 |
-| HK-68466 | EPSYRAM TABLETS 14MG |  | 有效 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63504 | AUBAGIO TAB 14MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-68466 | EPSYRAM TABLETS 14MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amiodarone：預測新適應症為兒茶酚胺敏感性多形性心室頻脈 (catecholaminergic polymorphic ventricular tachycardia)（證據等級 L5）。香港藥劑製品註冊：7 張（有效 7 張）"
 ---
 
@@ -81,13 +81,19 @@ Amiodarone 屬於多通道抗心律不整藥，可阻斷鉀、鈉、鈣通道及
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-27296 | CORDARONE INJECTABLE SOLUTION 0.15G/3ML | 未記錄 | 未記錄 |
-| HK-66829 | AMIODARONE RIVOPHARM TABLETS 200MG | 未記錄 | 未記錄 |
-| HK-27294 | CORDARONE TAB 200MG | 未記錄 | 未記錄 |
-| HK-65597 | AMIODARONE GP TABLETS 200MG | 未記錄 | 未記錄 |
-| HK-60895 | AMIODARONE SANDOZ TAB 200MG | 未記錄 | 未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-27296 | CORDARONE INJECTABLE SOLUTION 0.15G/3ML | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-66829 | AMIODARONE RIVOPHARM TABLETS 200MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-27294 | CORDARONE TAB 200MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-65597 | AMIODARONE GP TABLETS 200MG | 單一成分 | CNW (HK) LTD | 有效 |
+| HK-60895 | AMIODARONE SANDOZ TAB 200MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 7 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

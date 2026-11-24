@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 738
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
 description: "Propafenone：預測新適應症為躁症 (manic bipolar affective disorder)（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"
@@ -117,13 +117,17 @@ TxGNN 模型預測分數最高的是躁症（manic bipolar affective disorder）
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67615 | RHYNORM TABLETS 150MG | 未提供 | 未提供 |
-| HK-57117 | PROPAFENONE TAB 150MG | 未提供 | 未提供 |
-| HK-51473 | APO-PROPAFENONE TAB 150MG | 未提供 | 未提供 |
-| HK-59678 | SOBIRAL TAB 150MG | 未提供 | 未提供 |
-| HK-14516 | RYTMONORM TAB 150MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67615 | RHYNORM TABLETS 150MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-57117 | PROPAFENONE TAB 150MG | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-51473 | APO-PROPAFENONE TAB 150MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-59678 | SOBIRAL TAB 150MG | 單一成分 | MAIN LIFE CORP LTD | 有效 |
+| HK-14516 | RYTMONORM TAB 150MG | 單一成分 | ABBOTT LAB LTD | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

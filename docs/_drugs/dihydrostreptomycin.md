@@ -5,7 +5,7 @@ layout: default
 title: Dihydrostreptomycin
 parent: 僅已知用途（無新預測）
 nav_order: 278
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Dihydrostreptomycin: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Dihydrostreptomycin"
 predicted_indications: []
@@ -50,9 +50,13 @@ evidence_level: N/A
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-23022 | FATROMYCINE S INJECTABLE SUSP (VET) | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-23022 | FATROMYCINE S INJECTABLE SUSP (VET) | 複方 | WAI LUNG HONG AGRIBUSINESS LTD | 有效 |
+
+<!-- licenses:end -->
 
 此產品為獸醫用途（品名標示 VET），製造商為 WAI LUNG HONG AGRIBUSINESS LTD。
 

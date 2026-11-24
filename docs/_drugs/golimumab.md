@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 425
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GOLIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
 description: "Golimumab：預測新適應症為Hypermobility of coccyx（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
@@ -79,12 +79,16 @@ Golimumab 是一種抗 TNF-α 單株抗體，原本用於乾癬性關節炎、�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64294 | SIMPONI PRE-FILLED SYRINGE 100MG/1ML | 預填充注射筒 | 請參考原廠仿單 |
-| HK-63606 | SIMPONI I.V. CONCENTRATE FOR SOLUTION FOR INFUSION 50MG/4ML | 靜脈輸注濃縮液 | 請參考原廠仿單 |
-| HK-66453 | SIMPONI PRE-FILLED SMARTJECT AUTOINJECTOR 50MG/0.5ML | 預填充自動注射筆 | 請參考原廠仿單 |
-| HK-64295 | SIMPONI PRE-FILLED SMARTJECT AUTOINJECTOR 100MG/1ML | 預填充自動注射筆 | 請參考原廠仿單 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64294 | SIMPONI PRE-FILLED SYRINGE 100MG/1ML | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-63606 | SIMPONI I.V. CONCENTRATE FOR SOLUTION FOR INFUSION 50MG/4ML | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-66453 | SIMPONI PRE-FILLED SMARTJECT AUTOINJECTOR 50MG/0.5ML | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-64295 | SIMPONI PRE-FILLED SMARTJECT AUTOINJECTOR 100MG/1ML | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+
+<!-- licenses:end -->
 
 以上 4 張許可證均為單一成分、有效狀態，持證商為 JOHNSON & JOHNSON (HONG KONG) LTD.。
 

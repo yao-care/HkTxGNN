@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Flucloxacillin：預測新適應症為結膜炎 (Conjunctivitis)（證據等級 L5）。原適應症：香港許可證未登載適應症文字"
 monitor_inn: "Flucloxacillin"
 predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Prinzmetal angina", "conjunctivitis (disease)", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "thrombotic disease", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
@@ -83,11 +83,15 @@ TxGNN 模型預測它可能對**結膜炎 (Conjunctivitis)** 有效，但目前*
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-42222 | FLUCLOXACILLIN CAP 250MG (BRIGHT FUTURE) | 未載明 | 未載明 |
-| HK-50542 | FLUCLOXACILLIN ORAL SOLUTION 125MG/5ML | 未載明（口服溶液） | 未載明 |
-| HK-51790 | FLUCLOXACILLIN CAP 250MG (ATHLONE) | 未載明（膠囊） | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-42222 | FLUCLOXACILLIN CAP 250MG (BRIGHT FUTURE) | 單一成分 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+| HK-50542 | FLUCLOXACILLIN ORAL SOLUTION 125MG/5ML | 單一成分 | THE INTERNATIONAL MEDICAL COMPANY LIMITED | 有效 |
+| HK-51790 | FLUCLOXACILLIN CAP 250MG (ATHLONE) | 單一成分 | THE INTERNATIONAL MEDICAL COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

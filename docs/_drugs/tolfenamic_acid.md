@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "TOLFENAMIC ACID"
 predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis", "trigeminal autonomic cephalalgia", "idiopathic granulomatous myositis", "myositis fibrosa", "fibromyalgia", "exostosis", "inclusion body myositis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Tolfenamic Acid：預測新適應症為頭痛疾患 (Headache Disorder)（證據等級 L5）。原適應症：許可證未載明"
 ---
 
@@ -84,9 +84,13 @@ TxGNN 模型預測它可能對**頭痛疾患 (Headache Disorder)** 有效，目�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-50767 | TOLFEDINE TAB 20MG (VET) | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-50767 | TOLFEDINE TAB 20MG (VET) | 單一成分 | ALFAMEDIC LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 此許可證為單一成分製劑，品名標示為獸醫用（VET），因此不應視為人用偏頭痛或其他人類適應症的核准依據。
 

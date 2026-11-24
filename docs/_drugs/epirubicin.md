@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 328
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
 description: "Epirubicin：預測新適應症為原發性肺淋巴瘤 (primary pulmonary lymphoma)（證據等級 L5）。香港藥劑製品註冊：10 張（有效 10 張）"
@@ -81,13 +81,19 @@ TxGNN 模型預測它可能對**原發性肺淋巴瘤 (primary pulmonary lymphom
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 持有廠商 |
-|---------|------|------|---------|
-| HK-44164 | PHARMORUBICIN CS INJ 2MG/ML | 注射液 | Pfizer Corporation Hong Kong |
-| HK-50380 | EPIRUBICIN EBEWE INJ 2MG/ML | 注射液 | Sandoz Hong Kong |
-| HK-61697 | CIAZIL SOLUTION FOR INJECTION 10MG/5ML | 注射液 | LSB (HK) |
-| HK-66403 | ANTHRACIN SOLUTION FOR INJECTION 50MG/25ML | 注射液 | Fresenius Kabi Hong Kong |
-| HK-65836 | ACCORD EPIRUBICIN HYDROCHLORIDE SOLUTION FOR INJECTION OR INFUSION 200MG/100ML | 注射液／輸注液 | Jacobson Marketing |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-44164 | PHARMORUBICIN CS INJ 2MG/ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-50380 | EPIRUBICIN EBEWE INJ 2MG/ML | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-61697 | CIAZIL SOLUTION FOR INJECTION 10MG/5ML | 單一成分 | LSB (HK) LIMITED | 有效 |
+| HK-66403 | ANTHRACIN SOLUTION FOR INJECTION 50MG/25ML | 單一成分 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-65836 | ACCORD EPIRUBICIN HYDROCHLORIDE SOLUTION FOR INJECTION OR INFUSION 200MG/100ML | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 目前 10 張許可證皆為有效狀態，市場狀態為已上市。上表僅列出 5 張主要許可證。
 

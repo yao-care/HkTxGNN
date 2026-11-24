@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 838
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sulfadiazine：預測新適應症為肺囊蟲症 (Pneumocystosis)（證據等級 L5）。原適應症：弓形蟲症（Toxoplasmosis）、潰瘍性結腸炎、發炎性腸道疾病、脈絡視網膜炎等"
 monitor_inn: "SULFADIAZINE"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]
@@ -93,13 +93,19 @@ TxGNN 模型預測它可能對**肺囊蟲症 (Pneumocystosis)** 有效，
 
 <!-- review:end hk-lic-20261117-sulfadiazine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-33558 | SULFAPRIM S INJECTABLE SUSP (VET) | 未載明 | 未載明（獸用注射懸液） |
-| HK-40105 | PAFULIMA CREAM | 未載明（乳膏） | 未載明 |
-| HK-40101 | SINOCORT CREAM | 未載明（乳膏） | 未載明 |
-| HK-18999 | CARRIDERM DERMATOLOGICAL CREAM | 未載明（乳膏） | 未載明 |
-| HK-19339 | FUOGORTE-F CREAM | 未載明（乳膏） | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-33558 | SULFAPRIM S INJECTABLE SUSP (VET) | 複方 | WAI LUNG HONG AGRIBUSINESS LTD | 有效 |
+| HK-40105 | PAFULIMA CREAM | 複方 | MARCHING PHARMACEUTICAL LIMITED | 有效 |
+| HK-40101 | SINOCORT CREAM | 複方 | MARCHING PHARMACEUTICAL LIMITED | 有效 |
+| HK-18999 | CARRIDERM DERMATOLOGICAL CREAM | 複方 | ADVANCE PHARMACEUTICAL COMPANY LIMITED | 有效 |
+| HK-19339 | FUOGORTE-F CREAM | 複方 | MARCHING PHARMACEUTICAL LIMITED | 有效 |
+
+上表列出其中 5 張（共 23 張）。
+
+<!-- licenses:end -->
 
 其餘 18 張許可證皆為外用乳膏製劑（獸用注射懸液 HK-33558 已列在上表第 1 張）。
 

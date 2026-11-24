@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "CAFFEINE"
 predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Caffeine：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。香港藥劑製品註冊：417 張（有效 408 張）"
 ---
 
@@ -76,13 +76,19 @@ TxGNN 模型預測它可能對**鼻腔疾病 (nasal cavity disease)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67099 | CAFFEINE CITRATE SOLUTION FOR INJECTION 10MG/1ML | 未記載 | 未記載 |
-| HK-64696 | PEYONA SOLUTION FOR INFUSION AND ORAL SOLUTION 20MG/ML | 未記載 | 未記載 |
-| HK-50322 | CAFFEINE CITRATE INJ 10MG/ML | 未記載 | 未記載 |
-| HK-01025 | HO CHAI KUNG TJI THUNG SAN | 未記載 | 未記載 |
-| HK-50462 | NORMET TAB | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67099 | CAFFEINE CITRATE SOLUTION FOR INJECTION 10MG/1ML | 單一成分 | THE INTERNATIONAL MEDICAL COMPANY LIMITED | 有效 |
+| HK-64696 | PEYONA SOLUTION FOR INFUSION AND ORAL SOLUTION 20MG/ML | 單一成分 | ZENFIELDS (H.K.) LIMITED | 有效 |
+| HK-50322 | CAFFEINE CITRATE INJ 10MG/ML | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-01025 | HO CHAI KUNG TJI THUNG SAN | 複方 | KAREN LABORATORIES O/B KAREN PHARMACEUTICAL CO LTD | 有效 |
+| HK-50462 | NORMET TAB | 複方 | VICKMANS LABORATORIES LTD | 有效 |
+
+上表列出其中 5 張（共 417 張）。
+
+<!-- licenses:end -->
 
 香港共有 417 張含本藥成分的許可證（有效 408 張、已註銷 9 張；單一成分 3 張、複方 414 張），上表僅列出其中 5 張。
 

@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 903
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Triamcinolone：預測新適應症為禿髮性黏蛋白症 (alopecia mucinosa)（證據等級 L4）。香港藥劑製品註冊：152 張（有效 152 張）"
@@ -92,13 +92,19 @@ TxGNN 模型預測它可能對**禿髮性黏蛋白症 (Alopecia Mucinosa)** 有�
 
 <!-- review:end hk-lic-20261117-triamcinolone-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-53955 | MECOL ORABASE OINTMENT 1MG/G | 資料未載明 | 資料未載明 |
-| HK-63140 | KOWELL ORABASE PASTE 0.1%W/W | 資料未載明 | 資料未載明 |
-| HK-64378 | EURALOG PASTE 0.1% W/W | 資料未載明 | 資料未載明 |
-| HK-57710 | SUNBIN MEDICINE CREAM 0.1% | 資料未載明 | 資料未載明 |
-| HK-65848 | APO-TRIAMCINOLONE AQ NASAL SPRAY 55MCG/DOSE | 資料未載明 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-53955 | MECOL ORABASE OINTMENT 1MG/G | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-63140 | KOWELL ORABASE PASTE 0.1%W/W | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-64378 | EURALOG PASTE 0.1% W/W | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-57710 | SUNBIN MEDICINE CREAM 0.1% | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-65848 | APO-TRIAMCINOLONE AQ NASAL SPRAY 55MCG/DOSE | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 152 張）。
+
+<!-- licenses:end -->
 
 ---
 

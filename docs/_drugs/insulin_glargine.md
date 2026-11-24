@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "INSULIN GLARGINE"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Glargine：預測新適應症為自體免疫性卵巢炎 (Autoimmune Oophoritis)（證據等級 L5）。原適應症：第 2 型糖尿病、第 1 型糖尿病、糖尿病酮酸中毒"
 ---
 
@@ -102,13 +102,19 @@ TxGNN 模型預測排名第一的新適應症為**自體免疫性卵巢炎 (Auto
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-56520 | LANTUS SOLOSTAR PRE-FILLED PEN INJ 100 UNITS/ML | 注射劑（預填充筆） | 資料未載明 |
-| HK-64661 | TOUJEO 300 UNITS/ML SOLUTION FOR INJECTION IN PRE-FILLED PEN 450 UNITS/1.5ML | 注射劑（預填充筆） | 資料未載明 |
-| HK-65078 | BASAGLAR KWIKPEN SOLUTION FOR INJECTION IN A PRE-FILLED PEN 300 UNITS/3ML | 注射劑（預填充筆） | 資料未載明 |
-| HK-65079 | BASAGLAR SOLUTION FOR INJECTION IN A CARTRIDGE 300 UNITS/3ML | 注射劑（卡式瓶） | 資料未載明 |
-| HK-50530 | LANTUS INJ 100 UNITS/ML | 注射劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-56520 | LANTUS SOLOSTAR PRE-FILLED PEN INJ 100 UNITS/ML | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-64661 | TOUJEO 300 UNITS/ML SOLUTION FOR INJECTION IN PRE-FILLED PEN 450 UNITS/1.5ML | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-65078 | BASAGLAR KWIKPEN SOLUTION FOR INJECTION IN A PRE-FILLED PEN 300 UNITS/3ML | 單一成分 | ELI LILLY ASIA, INC. | 已註銷 |
+| HK-65079 | BASAGLAR SOLUTION FOR INJECTION IN A CARTRIDGE 300 UNITS/3ML | 單一成分 | ELI LILLY ASIA, INC. | 已註銷 |
+| HK-50530 | LANTUS INJ 100 UNITS/ML | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 共 8 張許可證（6 張有效；HK-65078、HK-65079 已註銷），以上列出前 5 張。
 

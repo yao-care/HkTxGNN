@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 307
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ECULIZUMAB"
 predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "autosomal recessive severe congenital neutropenia due to CSF3R deficiency", "severe congenital neutropenia", "primary release disorder of platelets"]
 description: "Eculizumab：預測新適應症為週期性造血異常 (cyclic hematopoiesis)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -83,9 +83,13 @@ TxGNN 模型預測它可能對**週期性造血異常 (Cyclic Hematopoiesis)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61188 | SOLIRIS CONCENTRATE FOR SOLUTION FOR INFUSION 300MG/30ML（廠商：AstraZeneca Hong Kong Limited） | 輸注用濃縮液（依品名） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61188 | SOLIRIS CONCENTRATE FOR SOLUTION FOR INFUSION 300MG/30ML | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

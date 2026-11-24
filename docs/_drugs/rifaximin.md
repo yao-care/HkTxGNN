@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "RIFAXIMIN"
 predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "burning mouth syndrome", "oral leukoedema", "candidiasis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rifaximin：預測新適應症為口腔念珠菌症 (oral candidiasis)（證據等級 L5）。原適應症：肝腦病變、肝昏迷"
 ---
 
@@ -75,10 +75,14 @@ TxGNN 模型預測它可能對**口腔念珠菌症 (oral candidiasis)** 有效�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61689 | XIFAXAN TAB 200MG | 未提供 | 未提供 |
-| HK-64602 | REFERO TABLETS 550MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61689 | XIFAXAN TAB 200MG | 單一成分 | CHONG LAP (HK) CO LTD | 有效 |
+| HK-64602 | REFERO TABLETS 550MG | 單一成分 | CHONG LAP (HK) CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證均為單方製劑，持有人為 CHONG LAP (HK) CO LTD，狀態皆為有效。
 

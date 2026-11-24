@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 385
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Flunarizine: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 ---
@@ -72,17 +72,21 @@ TxGNN 模型為 Flunarizine 產生的候選適應症，經追溯來源後全部�
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-49233 | FURNAZM TAB 5MG |  | 有效 |
-| HK-41240 | SUZIN CAP 10MG |  | 有效 |
-| HK-21275 | FLUZINE TAB 5MG |  | 有效 |
-| HK-61872 | VANID CAPSULES 5MG |  | 有效 |
-| HK-42370 | SIBERID-5 TAB 5MG |  | 有效 |
-| HK-49616 | POLI-FLUNARIN CAP 5MG |  | 有效 |
-| HK-54295 | SUZIN CAP 5MG |  | 有效 |
-| HK-52662 | FLUNARIN-5 TAB 5MG |  | 有效 |
-| HK-47204 | FLUDAN CAP 5MG |  | 有效 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-49233 | FURNAZM TAB 5MG | 單一成分 | HITPHARM PHARMACEUTICAL CO LTD | 有效 |
+| HK-41240 | SUZIN CAP 10MG | 單一成分 | KAI YUEN PHARMACEUTICAL CO | 有效 |
+| HK-21275 | FLUZINE TAB 5MG | 單一成分 | KAI YUEN PHARMACEUTICAL CO | 有效 |
+| HK-61872 | VANID CAPSULES 5MG | 單一成分 | HEALTH ALLIANCE INTERNATIONAL CO LTD | 有效 |
+| HK-42370 | SIBERID-5 TAB 5MG | 單一成分 | PERFECT GROUPS LTD | 有效 |
+| HK-49616 | POLI-FLUNARIN CAP 5MG | 單一成分 | NATURAL HEALTH RESOURCES COMPANY LIMITED | 有效 |
+| HK-54295 | SUZIN CAP 5MG | 單一成分 | KAI YUEN PHARMACEUTICAL CO | 有效 |
+| HK-52662 | FLUNARIN-5 TAB 5MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-47204 | FLUDAN CAP 5MG | 單一成分 | MEKIM LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

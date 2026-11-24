@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "SULPIRIDE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "syndromic myopia", "atypical glycine encephalopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sulpiride：預測新適應症為視網膜失養症，伴或不伴眼外異常（證據等級 L5）。原適應症：思覺失調症"
 ---
 
@@ -77,13 +77,19 @@ ChEMBL（EMBL-EBI）收錄的 Sulpiride 作用機轉（非官方翻譯）：「�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65024 | GAMOTIL CAPSULES 50MG | 未載明 | 未載明 |
-| HK-53702 | VICK-SULPIRIDE CAP 50MG | 未載明 | 未載明 |
-| HK-40717 | SULPIREN TAB 50MG | 未載明 | 未載明 |
-| HK-52650 | SUPIDE CAP 50MG | 未載明 | 未載明 |
-| HK-44716 | SULIDE CAP 50MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65024 | GAMOTIL CAPSULES 50MG | 單一成分 | LSB (HK) LIMITED | 有效 |
+| HK-53702 | VICK-SULPIRIDE CAP 50MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-40717 | SULPIREN TAB 50MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-52650 | SUPIDE CAP 50MG | 單一成分 | VAST RESOURCES PHARMACEUTICAL LTD | 有效 |
+| HK-44716 | SULIDE CAP 50MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 另有 HK-53700（VICK-SULPIRIDE TAB 200MG）。本報告所列 6 張許可證皆為單一成分製劑且有效，但許可證資料中沒有核准適應症文字。
 

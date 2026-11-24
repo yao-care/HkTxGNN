@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 944
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Warfarin：預測新適應症為肝素輔因子 II 缺乏症 (heparin cofactor 2 deficiency)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
@@ -87,12 +87,16 @@ TxGNN 模型預測它可能對**肝素輔因子 II 缺乏症 (Heparin Cofactor 2
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-41422 | WARFARIN TAB 3MG (TEVA) | — | 資料未載明 |
-| HK-61443 | ORFARIN TABLETS 3MG | — | 資料未載明 |
-| HK-41423 | WARFARIN TAB 5MG (TEVA) | — | 資料未載明 |
-| HK-41421 | WARFARIN TAB 1MG (TEVA) | — | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-41422 | WARFARIN TAB 3MG (TEVA) | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-61443 | ORFARIN TABLETS 3MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-41423 | WARFARIN TAB 5MG (TEVA) | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-41421 | WARFARIN TAB 1MG (TEVA) | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

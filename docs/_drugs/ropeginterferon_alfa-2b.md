@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ROPEGINTERFERON ALFA-2B"
 predicted_indications: ["Laubry-Pezzi syndrome", "interventricular septum aneurysm", "genetic syndromic Pierre Robin syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 7", "disorder of fucoglycosan synthesis", "Jeune syndrome situs inversus", "partial deletion of the long arm of chromosome 22", "orofacial clefting syndrome", "pulmonary valve disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ropeginterferon Alfa-2B：預測新適應症為Laubry-Pezzi 症候群 (Laubry-Pezzi syndrome)（證據等級 L5）。原適應症：知識圖譜記錄的關聯：後天性真性紅血球增多症、漿細胞瘤、紅血球增多症"
 ---
 
@@ -71,9 +71,13 @@ Laubry-Pezzi 症候群是心室中膈缺損合併主動脈瓣逆流，屬於先�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68864 | BESREMI SOLUTION FOR INJECTION IN PREFILLED SYRINGE 500MCG/1ML | 預填充注射液 | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68864 | BESREMI SOLUTION FOR INJECTION IN PREFILLED SYRINGE 500MCG/1ML | 單一成分 | KLN PHARMA (HONG KONG) LIMITED O/B KLN PHARMA (HONG KONG) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

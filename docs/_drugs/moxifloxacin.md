@@ -96,13 +96,19 @@ TxGNN 模型預測分數最高的新適應症為**多形性高黏滯症候群 (P
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65835 | RIVOMOXI TABLETS 400MG | — | 資料未提供 |
-| HK-68207 | MOXIFORCE EYE DROPS 0.5% W/V | — | 資料未提供 |
-| HK-65455 | MOXIFLOXACIN TABLETS 400MG | — | 資料未提供 |
-| HK-53158 | VIGAMOX OPHTHALMIC SOLUTION 0.5% | — | 資料未提供 |
-| HK-46950 | AVELOX TAB 400MG | — | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65835 | RIVOMOXI TABLETS 400MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-68207 | MOXIFORCE EYE DROPS 0.5% W/V | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-65455 | MOXIFLOXACIN TABLETS 400MG | 單一成分 | CHEMILLENNIUM INTERNATIONAL (HK) LIMITED | 有效 |
+| HK-53158 | VIGAMOX OPHTHALMIC SOLUTION 0.5% | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-46950 | AVELOX TAB 400MG | 單一成分 | BAYER HEALTHCARE LIMITED | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 香港共有 10 張含本藥成分的許可證（有效 9 張、已註銷 1 張；皆為單一成分），上表僅列前 5 張。其餘包括口服錠劑、靜脈注射劑與多款眼藥水。
 

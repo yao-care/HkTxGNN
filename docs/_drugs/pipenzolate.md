@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 703
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Pipenzolate：預測新適應症為失眠 (Insomnia)（證據等級 L5）。原適應症：許可證未載明適應症（一般用於腸胃痙攣）"
 monitor_inn: "Pipenzolate"
 predicted_indications: ["insomnia (disease)"]
@@ -81,9 +81,13 @@ TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，但目前**沒有�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-22302 | PIPENZOLATE TAB 5MG | 未載明（品名為錠劑） | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-22302 | PIPENZOLATE TAB 5MG | 單一成分 | CHRISTO PHARM LTD | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

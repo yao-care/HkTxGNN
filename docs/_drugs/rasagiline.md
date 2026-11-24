@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "RASAGILINE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rasagiline：預測新適應症為PLA2G6 相關神經退化症 (PLA2G6-associated neurodegeneration)（證據等級 L5）。原適應症：帕金森氏症及相關帕金森氏症候群"
 ---
 
@@ -72,13 +72,19 @@ PLA2G6 相關神經退化症（包含嬰兒型神經軸突營養不良與 PLA2G6
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67707 | RASAGILINE TABLETS 1MG | 錠劑 | 未提供 |
-| HK-68563 | SINOREN TABLETS 1MG | 錠劑 | 未提供 |
-| HK-60594 | AZILECT TAB 1MG | 錠劑 | 未提供 |
-| HK-68329 | RASAGILINE GENEPHARM TABLETS 1MG | 錠劑 | 未提供 |
-| HK-68530 | RASAGEN TABLETS 1MG | 錠劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67707 | RASAGILINE TABLETS 1MG | 單一成分 | CHEMILL PHARMA LIMITED | 有效 |
+| HK-68563 | SINOREN TABLETS 1MG | 單一成分 | SINO PACIFIC PHARMA COMPANY LIMITED | 有效 |
+| HK-60594 | AZILECT TAB 1MG | 單一成分 | Lundbeck HK Limited | 有效 |
+| HK-68329 | RASAGILINE GENEPHARM TABLETS 1MG | 單一成分 | SB PHARMA LIMITED | 有效 |
+| HK-68530 | RASAGEN TABLETS 1MG | 單一成分 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+
+上表列出其中 5 張（共 7 張）。
+
+<!-- licenses:end -->
 
 另有 HK-67847（RASAGILINA FARMOZ TABLETS 1MG）與 HK-69047（RASAGILINE SANDOZ TABLETS 1MG），共 7 張有效單一成分許可證。
 

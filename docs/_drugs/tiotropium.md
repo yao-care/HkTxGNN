@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "TIOTROPIUM"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tiotropium：預測新適應症為呼吸道畸形 (respiratory malformation)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
@@ -86,12 +86,16 @@ TxGNN 模型預測它可能對**呼吸道畸形 (respiratory malformation)** 有
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-51091 | SPIRIVA CAP FOR INHALATION 18MCG | 吸入膠囊 | 請參考原廠仿單 |
-| HK-57639 | SPIRIVA RESPIMAT SOL FOR INHAL 2.5MCG | 吸入溶液 | 請參考原廠仿單 |
-| HK-50663 | SPIRIVA CAP FOR INHAL 18MCG (COMBOPACK) | 吸入膠囊 | 請參考原廠仿單 |
-| HK-64356 | SPIOLTO RESPIMAT INHALATION SOLUTION 2.5MCG/2.5MCG | 吸入溶液 | 請參考原廠仿單 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-51091 | SPIRIVA CAP FOR INHALATION 18MCG | 單一成分 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-57639 | SPIRIVA RESPIMAT SOL FOR INHAL 2.5MCG | 單一成分 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-50663 | SPIRIVA CAP FOR INHAL 18MCG (COMBOPACK) | 單一成分 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-64356 | SPIOLTO RESPIMAT INHALATION SOLUTION 2.5MCG/2.5MCG | 複方 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+
+<!-- licenses:end -->
 
 目前 4 張許可證皆為有效狀態。
 

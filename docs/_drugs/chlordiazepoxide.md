@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "CHLORDIAZEPOXIDE"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "sleep disorder, initiating and maintaining sleep", "barbiturate abuse", "antidepressant type abuse", "hallucinogen abuse", "myofascial pain syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Chlordiazepoxide：預測新適應症為失眠 (insomnia (disease))（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
@@ -76,12 +76,16 @@ TxGNN 模型預測它可能對**失眠 (insomnia (disease))** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-23045 | LITAMIN TAB 5MG | 未記載 | 未記載 |
-| HK-11504 | CHLORDIAZEPOXIDE CAP 5MG | 未記載 | 未記載 |
-| HK-27469 | CHLORDIAZEPOXIDE CAP 2.5MG | 未記載 | 未記載 |
-| HK-35045 | MEDOCALUM TAB | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-23045 | LITAMIN TAB 5MG | 單一成分 | CHRISTO PHARM LTD | 有效 |
+| HK-11504 | CHLORDIAZEPOXIDE CAP 5MG | 單一成分 | UNICORN LABORATORIES O/B AMERICAN UNICORN LABORATORIES LIMITED | 有效 |
+| HK-27469 | CHLORDIAZEPOXIDE CAP 2.5MG | 單一成分 | UNICORN LABORATORIES O/B AMERICAN UNICORN LABORATORIES LIMITED | 有效 |
+| HK-35045 | MEDOCALUM TAB | 複方 | STAR MEDICAL SUPPLIES LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

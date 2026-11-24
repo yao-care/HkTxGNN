@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 519
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
 description: "Lenvatinib：預測新適應症為脂肪肉瘤 (liposarcoma)（證據等級 L3）。香港藥劑製品註冊：2 張（有效 2 張）"
@@ -79,10 +79,14 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (liposarcoma)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64507 | LENVIMA CAPSULES 10MG | — | — |
-| HK-64508 | LENVIMA CAPSULES 4MG | — | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64507 | LENVIMA CAPSULES 10MG | 單一成分 | EISAI (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-64508 | LENVIMA CAPSULES 4MG | 單一成分 | EISAI (HONG KONG) COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證均為有效狀態，持證商為 EISAI (HONG KONG) COMPANY LIMITED。
 

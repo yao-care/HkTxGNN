@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 116
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Betaxolol: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 ---
@@ -72,11 +72,15 @@ TxGNN 模型為 Betaxolol 產出的候選適應症，經追溯來源後皆為已
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-35281 | BETOPTIC S EYE DROPS 0.25% |  | 有效 |
-| HK-68272 | BETOFTAN EYE DROPS SUSPENSION 0.25% W/V |  | 有效 |
-| HK-51772 | BETAC TAB 20MG |  | 有效 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-35281 | BETOPTIC S EYE DROPS 0.25% | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-68272 | BETOFTAN EYE DROPS SUSPENSION 0.25% W/V | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-51772 | BETAC TAB 20MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

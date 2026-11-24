@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 740
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
 description: "Propranolol：預測新適應症為遠端肌病變，Tateyama 型 (distal myopathy, Tateyama type)（證據等級 L5）。香港藥劑製品註冊：17 張（有效 17 張）"
@@ -84,13 +84,19 @@ TxGNN 模型預測它可能對**遠端肌病變，Tateyama 型 (distal myopathy,
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-50454 | BETAPRESS 10 FC TAB 10MG | 未載明 | 未載明 |
-| HK-45677 | BECARDIN 40 TAB 40MG | 未載明 | 未載明 |
-| HK-45676 | BECARDIN 10 TAB 10MG | 未載明 | 未載明 |
-| HK-33813 | DERALIN 10 TAB 10MG | 未載明 | 未載明 |
-| HK-16631 | PROPRANOLOL TAB 10MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-50454 | BETAPRESS 10 FC TAB 10MG | 單一成分 | NATURAL HEALTH RESOURCES COMPANY LIMITED | 有效 |
+| HK-45677 | BECARDIN 40 TAB 40MG | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-45676 | BECARDIN 10 TAB 10MG | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-33813 | DERALIN 10 TAB 10MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-16631 | PROPRANOLOL TAB 10MG | 單一成分 | KAI YUEN PHARMACEUTICAL CO | 有效 |
+
+上表列出其中 5 張（共 17 張）。
+
+<!-- licenses:end -->
 
 （共 17 張有效許可證，皆為單一成分製劑；上表僅列出 5 張。）
 

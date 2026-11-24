@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Econazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Econazole：預測新適應症為毛外型感染性疾病 (Ectothrix Infectious Disease)（證據等級 L5）。原適應症：知識圖譜記錄的用途：足癬、體癬、癬菌感染、皮膚念珠菌症、花斑癬、腹股溝與肛周皮癬菌病"
 ---
 
@@ -76,13 +76,19 @@ TxGNN 模型預測它可能對**毛外型感染性疾病 (Ectothrix Infectious D
 
 香港共有 16 張有效的單一成分許可證，皆為上市狀態。以下列出 5 張主要許可證，資料中未提供劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-36295 | ECOMI VAGINAL PESSARIES 150MG | 未提供 | 未提供 |
-| HK-34621 | ECONAZOLE SUPP 150MG "YUNG SHIN" | 未提供 | 未提供 |
-| HK-57772 | ZYME SOLUTION 10MG/ML | 未提供 | 未提供 |
-| HK-58828 | EKONA VAGINAL SUPP 150MG | 未提供 | 未提供 |
-| HK-54354 | PICOSONE CREAM | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-36295 | ECOMI VAGINAL PESSARIES 150MG | 單一成分 | CNW (HK) LTD | 有效 |
+| HK-34621 | ECONAZOLE SUPP 150MG "YUNG SHIN" | 單一成分 | YUNG SHIN CO LTD | 有效 |
+| HK-57772 | ZYME SOLUTION 10MG/ML | 單一成分 | HITPHARM PHARMACEUTICAL CO LTD | 有效 |
+| HK-58828 | EKONA VAGINAL SUPP 150MG | 單一成分 | WINGS PHARMACEUTICAL LTD | 有效 |
+| HK-54354 | PICOSONE CREAM | 複方 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+
+上表列出其中 5 張（共 16 張）。
+
+<!-- licenses:end -->
 
 其餘 11 張以乳膏為主（部分品名顯示為含其他成分的組合名稱，但登記資料標示為單一成分）。
 

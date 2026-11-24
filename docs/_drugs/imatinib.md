@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 459
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Imatinib"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
 description: "Imatinib：預測新適應症為心臟纖維肉瘤 (heart fibrosarcoma)（證據等級 L5）。香港藥劑製品註冊：18 張（有效 18 張）"
@@ -85,13 +85,19 @@ TxGNN 模型預測它可能對**心臟纖維肉瘤 (Heart Fibrosarcoma)** 有效
 
 香港共有 18 張有效單一成分許可證（無複方、無已註銷），以下列出 5 張主要許可證。資料中未提供劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68317 | GLIVEC TABLETS 100MG（Novartis） | 錠劑 | 未提供 |
-| HK-62351 | IMAKREBIN FILM-COATED TABLETS 400MG（Lotus） | 膜衣錠 | 未提供 |
-| HK-65126 | IMATINIB-AFT CAPSULES 400MG（DKSH） | 膠囊 | 未提供 |
-| HK-67141 | IMATINIB MYLAN TABLETS 100MG（Viatris） | 錠劑 | 未提供 |
-| HK-63407 | ACCORD IMATINIB TABLET 400MG（I & C） | 錠劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68317 | GLIVEC TABLETS 100MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-62351 | IMAKREBIN FILM-COATED TABLETS 400MG | 單一成分 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-65126 | IMATINIB-AFT CAPSULES 400MG | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-67141 | IMATINIB MYLAN TABLETS 100MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-63407 | ACCORD IMATINIB TABLET 400MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+
+上表列出其中 5 張（共 18 張）。
+
+<!-- licenses:end -->
 
 ---
 

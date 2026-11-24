@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 666
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Papaverine"
 predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
 description: "Papaverine：預測新適應症為缺血性疾病 (ischemic disease)（證據等級 L4）。香港藥劑製品註冊：37 張（有效 33 張）"
@@ -107,13 +107,19 @@ Papaverine 透過抑制磷酸二酯酶，使血管平滑肌鬆弛、血管擴張
 
 <!-- review:end hk-lic-20261117-papaverine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-31756 | PAPAVERINE HCL INJ 120MG/10ML（輝瑞） | 未載明 | 未載明 |
-| HK-57993 | FUSTALIM TAB | 未載明 | 未載明 |
-| HK-48161 | CODOLAX TAB | 未載明 | 未載明 |
-| HK-48162 | VICKOLAX TAB | 未載明 | 未載明 |
-| HK-43434 | NEO CODO COUGH SYRUP | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-31756 | PAPAVERINE HCL INJ 120MG/10ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-57993 | FUSTALIM TAB | 複方 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+| HK-48161 | CODOLAX TAB | 複方 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-48162 | VICKOLAX TAB | 複方 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-43434 | NEO CODO COUGH SYRUP | 複方 | NEOCHEM PHARMACEUTICAL LABORATORIES LTD. | 有效 |
+
+上表列出其中 5 張（共 37 張）。
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 636
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Octreotide：預測新適應症為外陰倒置性毛囊角化症 (vulvar inverted follicular keratosis)（證據等級 L5）。原適應症：肢端肥大症、垂體機能亢進、類癌症候群"
 monitor_inn: "OCTREOTIDE"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
@@ -79,13 +79,19 @@ TxGNN 模型預測它可能對**外陰倒置性毛囊角化症 (vulvar inverted 
 
 <!-- review:end hk-lic-20261117-octreotide-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-32471 | SANDOSTATIN INJ 0.1MG/ML（Novartis） | 注射劑 | 請參考原廠仿單 |
-| HK-33912 | SANDOSTATIN INJ 0.5MG/ML（Novartis） | 注射劑 | 請參考原廠仿單 |
-| HK-44140 | SANDOSTATIN LAR FOR INJ 20MG（Novartis） | 長效注射劑 | 請參考原廠仿單 |
-| HK-62639 | DBL OCTREOTIDE INJECTION 0.5MG/ML（Pfizer） | 注射劑 | 請參考原廠仿單 |
-| HK-68938 | OCTREOTIDE BENDALIS SOLUTION FOR INJECTION/INFUSION 0.1MG/1ML（Mekim） | 注射劑 | 請參考原廠仿單 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-32471 | SANDOSTATIN INJ 0.1MG/ML | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-33912 | SANDOSTATIN INJ 0.5MG/ML | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-44140 | SANDOSTATIN LAR FOR INJ 20MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-62639 | DBL OCTREOTIDE INJECTION 0.5MG/ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-68938 | OCTREOTIDE BENDALIS SOLUTION FOR INJECTION/INFUSION 0.1MG/1ML | 單一成分 | MEKIM LTD | 有效 |
+
+上表列出其中 5 張（共 22 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

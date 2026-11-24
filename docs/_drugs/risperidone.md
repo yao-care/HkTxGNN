@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "RISPERIDONE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Risperidone：預測新適應症為家族性水平凝視麻痺合併進行性脊柱側彎 (gaze palsy, familial horizontal, with progressive scoliosis)（證據等級 L5）。香港藥劑製品註冊：48 張（有效 48 張）"
 ---
 
@@ -79,13 +79,19 @@ TxGNN 模型預測它可能對**家族性水平凝視麻痺合併進行性脊柱
 
 <!-- review:end hk-lic-20261117-risperidone-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-50822 | RISPERDAL TAB 2MG（楊森） | 未載明 | 未載明 |
-| HK-50823 | RISPERDAL TAB 3MG（楊森） | 未載明 | 未載明 |
-| HK-51064 | RISPERDAL CONSTA FOR INJ 50MG (P/SYR)（楊森） | 未載明 | 未載明 |
-| HK-59970 | RISPERIDONE SANDOZ TAB 1MG | 未載明 | 未載明 |
-| HK-64107 | RISPERIDONE ACTAVIS TABLETS 1MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-50822 | RISPERDAL TAB 2MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-50823 | RISPERDAL TAB 3MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-51064 | RISPERDAL CONSTA FOR INJ 50MG (P/SYR) | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-59970 | RISPERIDONE SANDOZ TAB 1MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-64107 | RISPERIDONE ACTAVIS TABLETS 1MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+
+上表列出其中 5 張（共 48 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

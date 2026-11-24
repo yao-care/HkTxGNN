@@ -5,7 +5,7 @@ layout: default
 title: Dornase Alfa
 parent: 僅已知用途（無新預測）
 nav_order: 294
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Dornase Alfa: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Dornase alfa"
 predicted_indications: []
@@ -48,9 +48,13 @@ evidence_level: N/A
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-41444 | PULMOZYME INHALATION SOL 1MG/ML（廠商：ROCHE HONG KONG LIMITED） | 吸入溶液 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-41444 | PULMOZYME INHALATION SOL 1MG/ML | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

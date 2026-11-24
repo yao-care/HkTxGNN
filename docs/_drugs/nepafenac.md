@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "NEPAFENAC"
 predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nepafenac：預測新適應症為眼疾 (Eye Disease)（證據等級 L1）。原適應症：香港許可證資料未載明核准適應症文字"
 ---
 
@@ -110,10 +110,14 @@ TxGNN 模型預測它可能對**眼疾 (Eye Disease)** 有效，但這個類別�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67972 | NEVANAC OPHTHALMIC SUSPENSION 0.1% W/V | 眼用懸浮液（品名所示） | 許可證資料未載明 |
-| HK-57847 | NEVANAC OPHTHALMIC SUSP 0.1%W/V | 眼用懸浮液（品名所示） | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67972 | NEVANAC OPHTHALMIC SUSPENSION 0.1% W/V | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-57847 | NEVANAC OPHTHALMIC SUSP 0.1%W/V | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證皆為單一成分製劑，持有人為 Novartis Pharmaceuticals (HK) Limited，狀態有效。
 

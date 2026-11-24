@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 10
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fulvestrant：預測新適應症為HIV 感染（HIV infectious disease）（證據等級 L4）。原適應症：香港許可證資料未載明"
 ---
 
@@ -74,13 +74,19 @@ TxGNN 模型預測它可能對 **HIV 感染（HIV infectious disease）** 有效
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67531 | FULVESTRANT EVER PHARMA 預充填注射液 250MG/5ML | 注射液（預充填注射筒） | 許可證資料未載明 |
-| HK-65886 | FULVESTRANT SANDOZ 預充填注射液 250MG/5ML | 注射液（預充填注射筒） | 許可證資料未載明 |
-| HK-66527 | FULVESTRANT（CHEMILLENNIUM）預充填注射液 250MG/5ML | 注射液（預充填注射筒） | 許可證資料未載明 |
-| HK-67587 | HOVID FULVESTRANT 預充填注射液 250MG/5ML | 注射液（預充填注射筒） | 許可證資料未載明 |
-| HK-57103 | FASLODEX 注射液 250MG/5ML（預充填注射筒） | 注射液（預充填注射筒） | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67531 | FULVESTRANT EVER PHARMA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 250MG/5ML | 單一成分 | EVER NEURO PHARMA (ASIA) LIMITED | 有效 |
+| HK-65886 | FULVESTRANT SANDOZ SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 250MG/5ML | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-66527 | FULVESTRANT SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 250MG/5ML | 單一成分 | CHEMILLENNIUM INTERNATIONAL (HK) LIMITED | 有效 |
+| HK-67587 | HOVID FULVESTRANT SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 250MG/5ML | 單一成分 | HOVID LIMITED | 有效 |
+| HK-57103 | FASLODEX SOLN FOR INJ 250MG/5ML (PRE-FILLED SYRINGE) | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 另有 3 張有效許可證（HK-68330、HK-67537、HK-66730），此處僅列出前 5 張。
 

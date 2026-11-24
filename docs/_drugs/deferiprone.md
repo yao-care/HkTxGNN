@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 252
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DEFERIPRONE"
 predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
 description: "Deferiprone：預測新適應症為肝性卟啉症 (hepatic porphyria)（證據等級 L4）。香港藥劑製品註冊：6 張（有效 6 張）"
@@ -85,12 +85,18 @@ TxGNN 模型預測它可能對**肝性卟啉症 (Hepatic Porphyria)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68805 | FERRIPROX MR MODIFIED-RELEASE TABLETS 1000MG | 緩釋錠 | 未載明 |
-| HK-62074 | FERRIPROX FILM-COATED TABLETS 1000MG | 膜衣錠 | 未載明 |
-| HK-58937 | FERRIPROX ORAL SOLUTION 100MG/ML | 口服液劑 | 未載明 |
-| HK-49758 | FERRIPROX TAB 500MG | 錠劑 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68805 | FERRIPROX MR MODIFIED-RELEASE TABLETS 1000MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-62074 | FERRIPROX FILM-COATED TABLETS 1000MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-58937 | FERRIPROX ORAL SOLUTION 100MG/ML | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-49758 | FERRIPROX TAB 500MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 4 張（共 6 張）。
+
+<!-- licenses:end -->
 
 ---
 

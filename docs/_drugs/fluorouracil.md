@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin c disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluorouracil：預測新適應症為Botryoid-type embryonal rhabdomyosarcoma of the vagina（證據等級 L5）。香港藥劑製品註冊：4 張（有效 3 張）"
 ---
 
@@ -82,11 +82,17 @@ TxGNN 模型預測它可能對**橫紋肌肉瘤 (Rhabdomyosarcoma)** 有效，�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-40254 | FLUOROURACIL INJ 50MG/ML VIAL-PHARMACHEM | 未載明 | 未載明 |
-| HK-45512 | 5-FLUOROURACIL INJ 50MG/ML (EBEWE) | 未載明 | 未載明 |
-| HK-15219 | VERRUMAL SOLUTION EXTERNAL | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-40254 | FLUOROURACIL INJ 50MG/ML VIAL-PHARMACHEM | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 已註銷 |
+| HK-45512 | 5-FLUOROURACIL INJ 50MG/ML (EBEWE) | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-15219 | VERRUMAL SOLUTION EXTERNAL | 複方 | ZUELLIG PHARMA LIMITED | 有效 |
+
+上表列出其中 3 張（共 4 張）。
+
+<!-- licenses:end -->
 
 三張皆為單方製劑，其中 2 張有效、HK-40254 已註銷。其中 VERRUMAL 為外用溶液，其餘為注射劑。
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 744
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Prucalopride"
 predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "duodenal ulcer (disease)", "oral candidiasis", "obsolete familial combined hyperlipidemia", "amyloidosis (disease)", "strongyloidiasis", "HIV infectious disease", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
 description: "Prucalopride：預測新適應症為低 α 脂蛋白血症 (hypoalphalipoproteinemia)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -81,9 +81,13 @@ TxGNN 預測分數高，不代表臨床上合理，建議將此結果視為待�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61189 | RESOLOR TABLETS 1MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61189 | RESOLOR TABLETS 1MG | 單一成分 | AMDIPHARM MERCURY (HONG KONG) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 廠商：AMDIPHARM MERCURY (HONG KONG) LIMITED，狀態為有效（單一成分）。
 

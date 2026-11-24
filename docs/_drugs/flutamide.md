@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "FLUTAMIDE"
 predicted_indications: ["fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "benign prostate phyllodes tumor", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Flutamide：預測新適應症為攝護腺纖維瘤 (fibroma of prostate)（證據等級 L5）。原適應症：攝護腺癌"
 ---
 
@@ -98,12 +98,16 @@ ChEMBL（EMBL-EBI）收錄的 Flutamide 作用機轉（非官方翻譯）：「�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55925 | APO-FLUTAMIDE TAB 250MG | 未提供 | 未提供 |
-| HK-52992 | FLUTA-CELL 250 TAB 250MG | 未提供 | 未提供 |
-| HK-44921 | FLUTAMIDE TAB 250MG | 未提供 | 未提供 |
-| HK-40974 | FLUTAN TAB 250MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55925 | APO-FLUTAMIDE TAB 250MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-52992 | FLUTA-CELL 250 TAB 250MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-44921 | FLUTAMIDE TAB 250MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-40974 | FLUTAN TAB 250MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 已註銷 |
+
+<!-- licenses:end -->
 
 ---
 

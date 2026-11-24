@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 30
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Alanine：預測新適應症為胃輕癱 (Gastroparesis)（證據等級 L5）。原適應症：許可證資料未載明（產品為胺基酸輸液與營養輸液製劑）"
 monitor_inn: "ALANINE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -93,13 +93,19 @@ TxGNN 模型預測它可能對**胃輕癱 (Gastroparesis)** 有效，但目前**
 
 <!-- review:end hk-lic-20261117-alanine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-58387 | AMINOLEBAN 8% AMINO ACID INJ | 未提供 | 未提供 |
-| HK-46283 | AMINOLEBAN INJ | 未提供 | 未提供 |
-| HK-67075 | AMINOVEN INFANT SOLUTION FOR INFUSION 10% W/V | 未提供 | 未提供 |
-| HK-36470 | VAMINOLACT I.V. SOLUTION | 未提供 | 未提供 |
-| HK-32746 | AMINOPLASMAL HEPA-10% INJ | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-58387 | AMINOLEBAN 8% AMINO ACID INJ | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+| HK-46283 | AMINOLEBAN INJ | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+| HK-67075 | AMINOVEN INFANT SOLUTION FOR INFUSION 10% W/V | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-36470 | VAMINOLACT I.V. SOLUTION | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-32746 | AMINOPLASMAL HEPA-10% INJ | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+
+上表列出其中 5 張（共 26 張）。
+
+<!-- licenses:end -->
 
 ---
 

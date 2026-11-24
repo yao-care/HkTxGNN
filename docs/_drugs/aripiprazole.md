@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "ARIPIPRAZOLE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aripiprazole：預測新適應症為Gaze palsy, familial horizontal, with progressive scoliosis（證據等級 L5）。香港藥劑製品註冊：53 張（有效 53 張）"
 ---
 
@@ -106,13 +106,19 @@ Aripiprazole 是一種非典型抗精神病藥，作用在多巴胺與血清素�
 
 <!-- review:end hk-lic-20261117-aripiprazole-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62721 | ABILIFY TABLETS 2MG | 錠劑 | 本地資料未記錄 |
-| HK-63127 | ARIPIPRAZOLE SANDOZ TABLETS 15MG | 錠劑 | 本地資料未記錄 |
-| HK-65003 | ARIPIPRAZOLE ACTAVIS TABLETS 5MG | 錠劑 | 本地資料未記錄 |
-| HK-65315 | ARIPIPRAZOL STADA TABLETS 10MG | 錠劑 | 本地資料未記錄 |
-| HK-67614 | APO-ARIPIPRAZOLE TABLETS 5MG | 錠劑 | 本地資料未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62721 | ABILIFY TABLETS 2MG | 單一成分 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+| HK-63127 | ARIPIPRAZOLE SANDOZ TABLETS 15MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-65003 | ARIPIPRAZOLE ACTAVIS TABLETS 5MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-65315 | ARIPIPRAZOL STADA TABLETS 10MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-67614 | APO-ARIPIPRAZOLE TABLETS 5MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 53 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

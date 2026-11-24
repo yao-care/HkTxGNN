@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 663
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole：預測新適應症為Duodenal obstruction（證據等級 L5）。香港藥劑製品註冊：49 張（有效 49 張）"
@@ -104,13 +104,19 @@ Pantoprazole 是質子幫浦抑制劑（PPI），原本用於消化性潰瘍、�
 
 <!-- review:end hk-lic-20261117-pantoprazole-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-44676 | PANTOLOC I.V. INJ 40MG（Takeda） | 注射劑 | 未提供 |
-| HK-45019 | PANTOLOC GASTRO-RESISTANT TAB 20MG（Takeda） | 腸溶錠 | 未提供 |
-| HK-63999 | TECTA GASTRO-RESISTANT TABLETS 40MG（Takeda） | 腸溶錠 | 未提供 |
-| HK-59424 | PANTOPRAZOLE SANDOZ TAB 20MG（Sandoz） | 錠劑 | 未提供 |
-| HK-64263 | PANRAZOL ENTERIC COATED TABLETS 20MG（Teva） | 腸溶錠 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-44676 | PANTOLOC I.V. INJ 40MG | 單一成分 | TAKEDA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-45019 | PANTOLOC GASTRO-RESISTANT TAB 20MG | 單一成分 | TAKEDA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-63999 | TECTA GASTRO-RESISTANT TABLETS 40MG | 單一成分 | TAKEDA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-59424 | PANTOPRAZOLE SANDOZ TAB 20MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-64263 | PANRAZOL ENTERIC COATED TABLETS 20MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+
+上表列出其中 5 張（共 49 張）。
+
+<!-- licenses:end -->
 
 ---
 

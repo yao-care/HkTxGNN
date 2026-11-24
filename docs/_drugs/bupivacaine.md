@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Bupivacaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bupivacaine：預測新適應症為慢性萎縮性肢端皮膚炎 (acrodermatitis chronica atrophicans)（證據等級 L5）。香港藥劑製品註冊：9 張（有效 9 張）"
 ---
 
@@ -70,13 +70,19 @@ TxGNN 模型預測它可能對**慢性萎縮性肢端皮膚炎 (acrodermatitis c
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68545 | BUPIVACAINE HYPERBARIC SINTETICA SOLUTION FOR INJECTION 20MG/4ML | 注射劑 | 本地資料未記載 |
-| HK-64812 | BUPIVACAINE FOR SPINAL ANAESTHESIA AGUETTANT SOLUTION FOR INJECTION 5MG/ML | 注射劑 | 本地資料未記載 |
-| HK-63247 | REGIVELL SOLUTION FOR INJECTION 20MG/4ML | 注射劑 | 本地資料未記載 |
-| HK-42437 | MARCAIN SPINAL HEAVY INJ 0.5% | 注射劑 | 本地資料未記載 |
-| HK-35573 | MARCAIN POLYAMP DUOFIT 0.25% | 注射劑 | 本地資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68545 | BUPIVACAINE HYPERBARIC SINTETICA SOLUTION FOR INJECTION 20MG/4ML | 單一成分 | MEKIM LTD | 有效 |
+| HK-64812 | BUPIVACAINE FOR SPINAL ANAESTHESIA AGUETTANT SOLUTION FOR INJECTION 5MG/ML | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-63247 | REGIVELL SOLUTION FOR INJECTION 20MG/4ML | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-42437 | MARCAIN SPINAL HEAVY INJ 0.5% | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+| HK-35573 | MARCAIN POLYAMP DUOFIT 0.25% | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 本地資料共有多張有效單方許可證，上表僅列出其中 5 張。
 

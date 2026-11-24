@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 464
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
 description: "Imipramine：預測新適應症為注意力不足過動症 (attention deficit-hyperactivity disorder)（證據等級 L3）。香港藥劑製品註冊：3 張（有效 3 張）"
@@ -85,11 +85,15 @@ TxGNN 模型預測它可能對**注意力不足過動症 (Attention Deficit-Hype
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-14678 | APO-IMIPRAMINE TAB 10MG | 未載明 | 未載明 |
-| HK-49257 | IMINE S.C. TAB 25MG | 未載明 | 未載明 |
-| HK-05077 | IMIPRAMINE TAB 25MG (SYNCO) | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-14678 | APO-IMIPRAMINE TAB 10MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-49257 | IMINE S.C. TAB 25MG | 單一成分 | HITPHARM PHARMACEUTICAL CO LTD | 有效 |
+| HK-05077 | IMIPRAMINE TAB 25MG (SYNCO) | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

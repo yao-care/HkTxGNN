@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 748
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
 description: "Pyridostigmine：預測新適應症為Autoimmune disease of peripheral nervous system（證據等級 L5）。香港藥劑製品註冊：6 張（有效 6 張）"
@@ -85,13 +85,19 @@ Pyridostigmine 是可逆性乙醯膽鹼酯酶抑制劑，原本用於重症肌�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-03376 | MESTINON TAB 60MG | 未提供 | 未提供 |
-| HK-03386 | MESTINON TAB 10MG | 未提供 | 未提供 |
-| HK-56949 | JM-PYRIDOSTIGMINE TAB 10MG | 未提供 | 未提供 |
-| HK-67155 | PYRINON TABLETS 60MG | 未提供 | 未提供 |
-| HK-56950 | JM-PYRIDOSTIGMINE TAB 60MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-03376 | MESTINON TAB 60MG | 單一成分 | A. MENARINI HONG KONG LIMITED | 有效 |
+| HK-03386 | MESTINON TAB 10MG | 單一成分 | A. MENARINI HONG KONG LIMITED | 有效 |
+| HK-56949 | JM-PYRIDOSTIGMINE TAB 10MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-67155 | PYRINON TABLETS 60MG | 單一成分 | CHEMILL PHARMA LIMITED | 有效 |
+| HK-56950 | JM-PYRIDOSTIGMINE TAB 60MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 此外尚有 HK-58081（MESTINON TAB 60MG），共 6 張有效單方許可證。
 

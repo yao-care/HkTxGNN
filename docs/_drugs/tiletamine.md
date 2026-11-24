@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 879
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Tiletamine：預測新適應症為失眠 (Insomnia)（證據等級 L5）。原適應症：許可證未載明（依藥物類別，為獸醫用解離性麻醉）"
 monitor_inn: "TILETAMINE"
 predicted_indications: ["insomnia (disease)"]
@@ -81,10 +81,14 @@ TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，但目前**沒有�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-47383 | ZOLETIL 100 FOR INJECTION (VET) | 未載明（注射劑） | 未載明 |
-| HK-43831 | ZOLETIL 50 FOR INJ (VET) | 未載明（注射劑） | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-47383 | ZOLETIL 100 FOR INJECTION (VET) | 複方 | VIRBAC H.K. TRADING LIMITED | 有效 |
+| HK-43831 | ZOLETIL 50 FOR INJ (VET) | 複方 | VIRBAC H.K. TRADING LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證均為單方、有效，持證商為 VIRBAC H.K. TRADING LIMITED，且皆為獸醫用產品。
 

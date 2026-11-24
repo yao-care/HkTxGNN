@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 939
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "Vitamin A"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "perinatal disease", "disease by subcellular system affected", "radiation or chemically induced disorder"]
 description: "Vitamin A：預測新適應症為先天性凝血酶原缺乏症 (congenital prothrombin deficiency)（證據等級 L5）。香港藥劑製品註冊：8 張（有效 8 張）"
@@ -107,13 +107,19 @@ TxGNN 模型預測分數最高的新適應症是**先天性凝血酶原缺乏症
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61308 | VITAMIN A&D CAP | 未載明 | 未載明 |
-| HK-36206 | VITALIPID N ADULT INJ | 未載明 | 未載明 |
-| HK-36205 | VITALIPID N INFANT INJ | 未載明 | 未載明 |
-| HK-56452 | CERNEVIT FOR INJ | 未載明 | 未載明 |
-| HK-01178 | POLIBABY CREAM | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61308 | VITAMIN A&D CAP | 複方 | DCH AURIGA (HONG KONG) LIMITED - UNIVERSAL DIVISION | 有效 |
+| HK-36206 | VITALIPID N ADULT INJ | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-36205 | VITALIPID N INFANT INJ | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-56452 | CERNEVIT FOR INJ | 複方 | BAXTER HEALTHCARE LIMITED | 有效 |
+| HK-01178 | POLIBABY CREAM | 複方 | SATO PHARMACEUTICAL (HK) CO LTD | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 另有 3 張許可證（共 8 張，皆為有效單方）：獸用注射液 ADECON、AMINOLEBAN EN POWDER 與 AMINOLEBAN ORAL POWDER。
 

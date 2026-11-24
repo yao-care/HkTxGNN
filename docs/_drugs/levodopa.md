@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 526
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levodopa：預測新適應症為Rasmussen 亞急性腦炎 (Rasmussen subacute encephalitis)（證據等級 L5）。原適應症：帕金森氏症及相關帕金森症候群"
 monitor_inn: "LEVODOPA"
 predicted_indications: ["Rasmussen subacute encephalitis"]
@@ -84,13 +84,19 @@ Rasmussen 腦炎是罕見的單側慢性腦炎，由免疫（T 細胞）介導�
 
 香港共有 19 張有效許可證（皆為有效，無已註銷）。以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）：
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-43179 | APO-LEVOCARB TAB 100MG/25MG | 未提供 | 未提供 |
-| HK-30945 | MADOPAR HBS CAP "125" CONTROLLED RELEASE | 未提供 | 未提供 |
-| HK-15442 | MADOPAR '250' TAB | 未提供 | 未提供 |
-| HK-52081 | STALEVO 100/25/200MG TAB | 未提供 | 未提供 |
-| HK-49666 | CARBIDOPA & LEVODOPA TAB 25/100MG (TEVA) | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-43179 | APO-LEVOCARB TAB 100MG/25MG | 複方 | HIND WING CO LTD | 有效 |
+| HK-30945 | MADOPAR HBS CAP "125" CONTROLLED RELEASE | 複方 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-15442 | MADOPAR '250' TAB | 複方 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-52081 | STALEVO 100/25/200MG TAB | 複方 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-49666 | CARBIDOPA & LEVODOPA TAB 25/100MG (TEVA) | 複方 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+
+上表列出其中 5 張（共 19 張）。
+
+<!-- licenses:end -->
 
 ---
 

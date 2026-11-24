@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 185
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CHLORAMPHENICOL"
 predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
 description: "Chloramphenicol：預測新適應症為瀰漫性硬皮症 (diffuse scleroderma)（證據等級 L5）。香港藥劑製品註冊：31 張（有效 31 張）"
@@ -86,13 +86,19 @@ TxGNN 模型預測它可能對**瀰漫性硬皮症 (diffuse scleroderma)** 有�
 
 <!-- review:end hk-lic-20261117-chloramphenicol-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61895 | EUROPHEN EYE DROPS 0.5%W/V | 眼藥水（依品名） | 未載明 |
-| HK-61645 | VANAFEN OPHTHALMIC OINTMENT 1% W/W | 眼用軟膏（依品名） | 未載明 |
-| HK-09064 | CHLORAMPHENICOL EYE DROPS 0.5% (FAMAR S.A.) | 眼藥水（依品名） | 未載明 |
-| HK-01687 | CHLORAMPHENICOL EAR DROPS 5% | 耳滴劑（依品名） | 未載明 |
-| HK-30632 | DEXMIN EYE/EAR DROPS | 眼／耳滴劑（依品名） | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61895 | EUROPHEN EYE DROPS 0.5%W/V | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-61645 | VANAFEN OPHTHALMIC OINTMENT 1% W/W | 單一成分 | ATLANTIC PHARMACEUTICAL LIMITED | 有效 |
+| HK-09064 | CHLORAMPHENICOL EYE DROPS 0.5% (FAMAR S.A.) | 單一成分 | THE INTERNATIONAL MEDICAL COMPANY LIMITED | 有效 |
+| HK-01687 | CHLORAMPHENICOL EAR DROPS 5% | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-30632 | DEXMIN EYE/EAR DROPS | 複方 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+
+上表列出其中 5 張（共 31 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

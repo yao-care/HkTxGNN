@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 792
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RUFINAMIDE"
 predicted_indications: ["perioral myoclonia with absences"]
 description: "Rufinamide：預測新適應症為Perioral myoclonia with absences（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
@@ -87,11 +87,15 @@ FIRES 是發燒性感染後出現的難治性癲癇性腦病變，與 Lennox-Gas
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64099 | INOVELON TABLETS 400MG（Eisai） | 錠劑 | 許可證資料未載明 |
-| HK-64097 | INOVELON TABLETS 100MG（Eisai） | 錠劑 | 許可證資料未載明 |
-| HK-64098 | INOVELON TABLETS 200MG（Eisai） | 錠劑 | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64099 | INOVELON TABLETS 400MG | 單一成分 | EISAI (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-64097 | INOVELON TABLETS 100MG | 單一成分 | EISAI (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-64098 | INOVELON TABLETS 200MG | 單一成分 | EISAI (HONG KONG) COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

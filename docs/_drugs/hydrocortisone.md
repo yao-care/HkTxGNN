@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "HYDROCORTISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Hydrocortisone：預測新適應症為圓禿 (Alopecia Areata)（證據等級 L2）。原適應症：香港許可證資料中未載明核准適應症文字"
 ---
 
@@ -89,13 +89,19 @@ TxGNN 模型預測它可能對**圓禿 (Alopecia Areata)** 有效，
 
 <!-- review:end hk-lic-20261117-hydrocortisone-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67793 | HYTICREME CREAM 1% W/W | 乳膏 | 資料未載明 |
-| HK-41308 | AQUANIL HC LOTION 1.0% | 洗劑 | 資料未載明 |
-| HK-51050 | H-CORT OINTMENT 1% | 軟膏 | 資料未載明 |
-| HK-55477 | HYDROCORTISONE TAB 20MG (VICKMANS) | 錠劑 | 資料未載明 |
-| HK-25551 | SOLU-CORTEF FOR INJ 100MG | 注射劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67793 | HYTICREME CREAM 1% W/W | 單一成分 | WELL FAVOURED LTD | 有效 |
+| HK-41308 | AQUANIL HC LOTION 1.0% | 單一成分 | HONG WO PHARMACEUTICAL COMPANY LIMITED | 有效 |
+| HK-51050 | H-CORT OINTMENT 1% | 單一成分 | TAISHO PHARMACEUTICAL (HK) LTD | 有效 |
+| HK-55477 | HYDROCORTISONE TAB 20MG (VICKMANS) | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-25551 | SOLU-CORTEF FOR INJ 100MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 51 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

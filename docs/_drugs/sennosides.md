@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "SENNOSIDES"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Sennosides：預測新適應症為頭皮單純性毛髮稀少症 (hypotrichosis simplex of the scalp)（證據等級 L5）。原適應症：許可證資料中未載明核准適應症文字"
 ---
 
@@ -74,13 +74,19 @@ TxGNN 模型預測它可能對**頭皮單純性毛髮稀少症 (hypotrichosis si
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68436 | NEPURGO SENNOSIDES TABLETS 20MG | 未載明 | 未載明 |
-| HK-66475 | WEL-HEALTH LAXATIVE TABLETS 12MG | 未載明 | 未載明 |
-| HK-68435 | EFORMAT SENNOSIDES TABLETS 20MG | 未載明 | 未載明 |
-| HK-45031 | PMS-SENNOSIDES TAB 8.6MG | 未載明 | 未載明 |
-| HK-68434 | EASUWEI SENNOSIDES TABLETS 20MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68436 | NEPURGO SENNOSIDES TABLETS 20MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-66475 | WEL-HEALTH LAXATIVE TABLETS 12MG | 單一成分 | VAST RESOURCES PHARMACEUTICAL LTD | 有效 |
+| HK-68435 | EFORMAT SENNOSIDES TABLETS 20MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-45031 | PMS-SENNOSIDES TAB 8.6MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-68434 | EASUWEI SENNOSIDES TABLETS 20MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+
+上表列出其中 5 張（共 11 張）。
+
+<!-- licenses:end -->
 
 香港共有 11 張含本藥成分的許可證（全部有效；單一成分 6 張、複方 5 張），此處僅列出 5 張。
 

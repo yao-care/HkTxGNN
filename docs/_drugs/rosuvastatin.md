@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ROSUVASTATIN"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rosuvastatin：預測新適應症為膽固醇酯轉運蛋白缺乏症（證據等級 L5）。原適應症：本資料未收錄香港許可證的核准適應症文字"
 ---
 
@@ -124,13 +124,19 @@ TxGNN 模型預測排名第一的新適應症為**膽固醇酯轉運蛋白缺乏
 
 <!-- review:end hk-lic-20261117-rosuvastatin-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65620 | ROSETOR 5 TABLETS 5MG | 錠劑 | 資料未收錄 |
-| HK-65073 | VICKROSTOR TABLETS 10MG | 錠劑 | 資料未收錄 |
-| HK-64427 | ROSUVASTATIN ALVOGEN TABLETS 20MG | 錠劑 | 資料未收錄 |
-| HK-61457 | APO-ROSUVASTATIN TABLET 20MG | 錠劑 | 資料未收錄 |
-| HK-61936 | PMS-ROSUVASTATIN TABLETS 10MG | 錠劑 | 資料未收錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65620 | ROSETOR 5 TABLETS 5MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-65073 | VICKROSTOR TABLETS 10MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-64427 | ROSUVASTATIN ALVOGEN TABLETS 20MG | 單一成分 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-61457 | APO-ROSUVASTATIN TABLET 20MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-61936 | PMS-ROSUVASTATIN TABLETS 10MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+
+上表列出其中 5 張（共 74 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

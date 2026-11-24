@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ERYTHROMYCIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
 description: "Erythromycin：預測新適應症為點狀上皮角膜結膜炎 (punctate epithelial keratoconjunctivitis)（證據等級 L5）。香港藥劑製品註冊：20 張（有效 19 張）"
@@ -74,13 +74,19 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-59507 | RYPED ORAL SUSP 125MG 5ML | 口服懸液 | 許可證資料未載明 |
-| HK-07399 | NICE-ERYCIN CAP 250MG | 膠囊 | 許可證資料未載明 |
-| HK-54210 | ERYTHROMYCIN CAP 250MG (RED/WHITE) | 膠囊 | 許可證資料未載明 |
-| HK-20451 | ERISMYCINE SUSP 125MG BASE/5ML | 懸液 | 許可證資料未載明 |
-| HK-30882 | ERYSOL POWDER FOR ORAL SUSP 200MG/5ML | 口服懸液用粉劑 | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-59507 | RYPED ORAL SUSP 125MG 5ML | 單一成分 | MEDREICH FAR EAST LIMITED | 有效 |
+| HK-07399 | NICE-ERYCIN CAP 250MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-54210 | ERYTHROMYCIN CAP 250MG (RED/WHITE) | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-20451 | ERISMYCINE SUSP 125MG BASE/5ML | 單一成分 | CHRISTO PHARM LTD | 有效 |
+| HK-30882 | ERYSOL POWDER FOR ORAL SUSP 200MG/5ML | 單一成分 | FP HEALTHCARE LIMITED | 有效 |
+
+上表列出其中 5 張（共 20 張）。
+
+<!-- licenses:end -->
 
 香港共有 20 張含本藥成分的許可證（有效 19 張、已註銷 1 張；單一成分 18 張、複方 2 張），包含外用凝膠與乳膏產品（如 ERYACNE GEL 4%、ERYMED CREAM 2%）。
 

@@ -5,7 +5,7 @@ layout: default
 title: Zolbetuximab
 parent: 僅已知用途（無新預測）
 nav_order: 958
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Zolbetuximab: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Zolbetuximab"
 predicted_indications: []
@@ -50,9 +50,15 @@ evidence_level: N/A
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68796 | VYLOY 注射濃縮液用粉末 100mg（Astellas Pharma Hong Kong） | 輸注用濃縮液粉末 | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68796 | VYLOY POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG | 單一成分 | ASTELLAS PHARMA HONG KONG COMPANY LIMITED | 有效 |
+
+上表列出其中 1 張（共 2 張）。
+
+<!-- licenses:end -->
 
 ---
 

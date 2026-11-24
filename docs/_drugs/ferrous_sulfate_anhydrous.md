@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 374
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 monitor_inn: "Ferrous sulfate anhydrous"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "biotin metabolic disease", "non-syndromic esophageal malformation"]
 description: "Ferrous Sulfate Anhydrous：預測新適應症為Vitamin B12- and folate-independent constitutional megaloblastic anemia（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
@@ -71,11 +71,15 @@ TxGNN 模型預測它可能對**維生素 B12 與葉酸非依賴型體質性巨�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-44758 | FERASUL TAB 300MG（APT Pharma Limited） | 未載明 | 未載明 |
-| HK-46511 | SUPER-FE ENTERIC-COATED TAB 167MG（Christo Pharm Ltd） | 未載明 | 未載明 |
-| HK-47856 | IRON-2OO TAB 200MG S.C.（Christo Pharm Ltd） | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-44758 | FERASUL TAB 300MG | 單一成分 | APT PHARMA LIMITED | 有效 |
+| HK-46511 | SUPER-FE ENTERIC-COATED TAB 167MG | 單一成分 | CHRISTO PHARM LTD | 有效 |
+| HK-47856 | IRON-2OO TAB 200MG S.C. | 單一成分 | CHRISTO PHARM LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

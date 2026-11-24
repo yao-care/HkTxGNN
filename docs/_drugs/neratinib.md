@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 613
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Neratinib: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 ---
@@ -75,9 +75,13 @@ TxGNN 深度學習模型針對 Neratinib 產生的候選適應症，經追溯來
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-66416 | NERLYNX TABLETS 40MG |  | 有效 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66416 | NERLYNX TABLETS 40MG | 單一成分 | PIERRE FABRE DERMO-COSMETIQUE HONG-KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

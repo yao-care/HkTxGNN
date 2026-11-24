@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AMINOBENZOIC ACID"
 predicted_indications: ["hereditary angioedema with C1Inh deficiency", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "Camurati-Engelmann disease", "posterior leukoencephalopathy syndrome", "geleophysic dysplasia", "aortic valve insufficiency", "carcinosarcoma", "pseudoxanthoma elasticum, forme fruste"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Aminobenzoic Acid：預測新適應症為遺傳性血管性水腫併 C1 抑制劑缺乏 (hereditary angioedema with C1Inh deficiency)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
@@ -72,9 +72,13 @@ TxGNN 模型預測它可能對**遺傳性血管性水腫併 C1 抑制劑缺乏 (
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-49362 | PANTOGAR CAP | 未記錄 | 未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-49362 | PANTOGAR CAP | 複方 | HONGKONG WINHEALTH PHARMA GROUP CO. LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 675
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pemigatinib：預測新適應症為多發性內分泌腫瘤 (Multiple Endocrine Neoplasia)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Pemigatinib"
 predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "malignant catarrh", "infectious bovine rhinotracheitis", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "axial spondylometaphyseal dysplasia"]
@@ -81,11 +81,15 @@ TxGNN 分數雖然很高（0.9971），但高分不等於有臨床證據，仍�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67328 | PEMAZYRE TABLETS 13.5MG | 錠劑 | 資料未載明 |
-| HK-67329 | PEMAZYRE TABLETS 4.5MG | 錠劑 | 資料未載明 |
-| HK-67330 | PEMAZYRE TABLETS 9MG | 錠劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67328 | PEMAZYRE TABLETS 13.5MG | 單一成分 | INNOVENT BIOLOGICS (HK) LIMITED | 有效 |
+| HK-67329 | PEMAZYRE TABLETS 4.5MG | 單一成分 | INNOVENT BIOLOGICS (HK) LIMITED | 有效 |
+| HK-67330 | PEMAZYRE TABLETS 9MG | 單一成分 | INNOVENT BIOLOGICS (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證均由 Innovent Biologics (HK) Limited 持有，皆為單方製劑，狀態有效。
 

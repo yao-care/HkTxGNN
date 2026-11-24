@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "BRIVARACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brivaracetam：預測新適應症為β-酮硫解酶缺乏症 (beta-ketothiolase deficiency)（證據等級 L5）。香港藥劑製品註冊：6 張（有效 6 張）"
 ---
 
@@ -70,13 +70,19 @@ Brivaracetam 是一種抗癲癇藥物。TxGNN 模型預測它可能對 **β-酮�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65942 | BRIVIACT SOLUTION FOR INJECTION/INFUSION 50MG/5ML | 未記載 | 未記載 |
-| HK-65939 | BRIVIACT TABLETS 100MG | 未記載 | 未記載 |
-| HK-65943 | BRIVIACT TABLETS 50MG | 未記載 | 未記載 |
-| HK-65940 | BRIVIACT ORAL SOLUTION 10MG/ML | 未記載 | 未記載 |
-| HK-65938 | BRIVIACT TABLETS 10MG | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65942 | BRIVIACT SOLUTION FOR INJECTION/INFUSION 50MG/5ML | 單一成分 | UCB PHARMA (HONG KONG) LIMITED | 有效 |
+| HK-65939 | BRIVIACT TABLETS 100MG | 單一成分 | UCB PHARMA (HONG KONG) LIMITED | 有效 |
+| HK-65943 | BRIVIACT TABLETS 50MG | 單一成分 | UCB PHARMA (HONG KONG) LIMITED | 有效 |
+| HK-65940 | BRIVIACT ORAL SOLUTION 10MG/ML | 單一成分 | UCB PHARMA (HONG KONG) LIMITED | 有效 |
+| HK-65938 | BRIVIACT TABLETS 10MG | 單一成分 | UCB PHARMA (HONG KONG) LIMITED | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 目前 6 張許可證皆為有效的單一成分製劑，上表僅列出其中 5 張。
 

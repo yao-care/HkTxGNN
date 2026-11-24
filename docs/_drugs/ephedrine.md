@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 326
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ephedrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Ephedrine：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L4）。香港藥劑製品註冊：416 張（有效 402 張）"
@@ -76,13 +76,19 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-14664 | EPHEDRINE SULPHATE INJ 30MG/ML | 注射劑（依品名） | 資料未提供 |
-| HK-20794 | EPHEDRINE NASAL DROPS 1% | 滴鼻劑（依品名） | 資料未提供 |
-| HK-39223 | EFMOL NASAL DROPS 1% | 滴鼻劑（依品名） | 資料未提供 |
-| HK-65424 | EPHEDRINE HYDROCHLORIDE SOLUTION FOR INJECTION 30MG/1ML | 注射劑（依品名） | 資料未提供 |
-| HK-23992 | MECODIN COUGH SYRUP | 糖漿（依品名） | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-14664 | EPHEDRINE SULPHATE INJ 30MG/ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-20794 | EPHEDRINE NASAL DROPS 1% | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-39223 | EFMOL NASAL DROPS 1% | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-65424 | EPHEDRINE HYDROCHLORIDE SOLUTION FOR INJECTION 30MG/1ML | 單一成分 | THE INTERNATIONAL MEDICAL COMPANY LIMITED | 有效 |
+| HK-23992 | MECODIN COUGH SYRUP | 複方 | LOYAL ADVANCE LIMITED | 有效 |
+
+上表列出其中 5 張（共 416 張）。
+
+<!-- licenses:end -->
 
 香港共有 416 張含本藥成分的許可證（有效 402 張、已註銷 14 張；單一成分 9 張、複方 407 張），包含注射劑、滴鼻劑、錠劑及咳嗽糖漿等多種產品。以上僅列出其中 5 張。
 

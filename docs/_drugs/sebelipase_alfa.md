@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 801
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Sebelipase alfa"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "Gaucher disease", "lysosomal storage disease with skeletal involvement", "autosomal ichthyosis syndrome with fatal disease course", "Tay-Sachs disease", "benign neoplasm of adrenal gland"]
 description: "Sebelipase Alfa：預測新適應症為史契氏症候群 (Scheie syndrome)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -71,9 +71,13 @@ ChEMBL（EMBL-EBI）收錄的 Sebelipase Alfa 作用機轉（非官方翻譯）�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68733 | KANUMA CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/10ML（廠商：AstraZeneca Hong Kong Limited） | 輸注用濃縮液 | 資料中未登載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68733 | KANUMA CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/10ML | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 製造商為 ASTRAZENECA HONG KONG LIMITED，許可證狀態為有效。
 

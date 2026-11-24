@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 138
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Buprenorphine：預測新適應症為急性間歇性紫質症 (Acute Intermittent Porphyria)（證據等級 L4）。原適應症：鴉片類依賴、物質濫用/依賴、嗎啡依賴"
 monitor_inn: "BUPRENORPHINE"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
@@ -84,12 +84,16 @@ TxGNN 的高分（0.9941）屬於模型預測，並未獲得臨床資料支持�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-28718 | TEMGESIC SUBLINGUAL TAB 0.2MG | 舌下錠 | 無資料 |
-| HK-28719 | TEMGESIC INJ 0.3MG/ML | 注射劑 | 無資料 |
-| HK-56198 | SUBOXONE SUBLINGUAL TAB 2MG/0.5MG | 舌下錠 | 無資料 |
-| HK-56197 | SUBOXONE SUBLINGUAL TAB 8MG/2MG | 舌下錠 | 無資料 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-28718 | TEMGESIC SUBLINGUAL TAB 0.2MG | 單一成分 | ZUELLIG PHARMA LIMITED | 有效 |
+| HK-28719 | TEMGESIC INJ 0.3MG/ML | 單一成分 | ZUELLIG PHARMA LIMITED | 有效 |
+| HK-56198 | SUBOXONE SUBLINGUAL TAB 2MG/0.5MG | 複方 | ZUELLIG PHARMA LIMITED | 已註銷 |
+| HK-56197 | SUBOXONE SUBLINGUAL TAB 8MG/2MG | 複方 | ZUELLIG PHARMA LIMITED | 已註銷 |
+
+<!-- licenses:end -->
 
 ---
 

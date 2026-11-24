@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "TENOFOVIR DISOPROXIL"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tenofovir Disoproxil：預測新適應症為貓後天免疫缺乏症候群（證據等級 L5）。原適應症：慢性 B 型肝炎、HIV 感染、愛滋病"
 ---
 
@@ -88,13 +88,19 @@ TxGNN 模型預測排名第一的新適應症為**貓後天免疫缺乏症候群
 
 <!-- review:end hk-lic-20261117-tenofovir_disoproxil-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-56075 | VIREAD TAB 300MG（Gilead Sciences Hong Kong） | 未載明 | 未載明 |
-| HK-57750 | VIREAD TAB 300MG (IRELAND)（Gilead Sciences Hong Kong） | 未載明 | 未載明 |
-| HK-65885 | TENOFOVIR SANDOZ TABLETS 300MG（Sandoz Hong Kong） | 未載明 | 未載明 |
-| HK-65259 | TENOFOVIR DISOPROXIL FUMARATE TABLETS 300MG（Viatris Healthcare Hong Kong） | 未載明 | 未載明 |
-| HK-64889 | TENOFOVIR DISOPROXIL FUMARATE TABLETS 300MG（Sino Pacific Pharma） | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-56075 | VIREAD TAB 300MG | 單一成分 | GILEAD SCIENCES HONG KONG LIMITED | 有效 |
+| HK-57750 | VIREAD TAB 300MG (IRELAND) | 單一成分 | GILEAD SCIENCES HONG KONG LIMITED | 有效 |
+| HK-65885 | TENOFOVIR SANDOZ TABLETS 300MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-65259 | TENOFOVIR DISOPROXIL FUMARATE TABLETS 300MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-64889 | TENOFOVIR DISOPROXIL FUMARATE TABLETS 300MG | 單一成分 | SINO PACIFIC PHARMA COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 26 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

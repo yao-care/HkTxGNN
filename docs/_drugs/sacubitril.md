@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 795
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sacubitril：預測新適應症為腦小血管病變 1 型（伴或不伴眼部異常）(brain small vessel disease 1 with or without ocu…（證據等級 L5）。原適應症：許可證資料未載明"
 monitor_inn: "SACUBITRIL"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
@@ -114,13 +114,19 @@ TxGNN 模型預測排名第一的新適應症為腦小血管病變，但該預�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64630 | ENTRESTO TABLETS 200MG | 資料未載明 | 資料未載明 |
-| HK-64631 | ENTRESTO TABLETS 50MG | 資料未載明 | 資料未載明 |
-| HK-64632 | ENTRESTO TABLETS 100MG | 資料未載明 | 資料未載明 |
-| HK-65170 | ENTRESTO TABLETS 100MG (SINGAPORE) | 資料未載明 | 資料未載明 |
-| HK-65171 | ENTRESTO TABLETS 50MG (SINGAPORE) | 資料未載明 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64630 | ENTRESTO TABLETS 200MG | 複方 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-64631 | ENTRESTO TABLETS 50MG | 複方 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-64632 | ENTRESTO TABLETS 100MG | 複方 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-65170 | ENTRESTO TABLETS 100MG (SINGAPORE) | 複方 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-65171 | ENTRESTO TABLETS 50MG (SINGAPORE) | 複方 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 以上僅列出 5 張，共有 9 張有效單方許可證，皆由 Novartis Pharmaceuticals (HK) Limited 持有。
 

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "PREDNISOLONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Prednisolone：預測新適應症為斑禿 (Alopecia Areata)（證據等級 L2）。原適應症：香港許可證資料未載明核准適應症文字"
 ---
 
@@ -91,13 +91,19 @@ TxGNN 模型預測它可能對**斑禿 (Alopecia Areata)** 有效。
 
 <!-- review:end hk-lic-20261117-prednisolone-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66155 | PREDNISOLONE TABLETS 5MG | 未載明 | 未載明 |
-| HK-30888 | XEPASONE TAB 5MG | 未載明 | 未載明 |
-| HK-55339 | PANADIN TAB 5MG | 未載明 | 未載明 |
-| HK-62772 | KORUS PREDNISOLONE TABLETS 5MG | 未載明 | 未載明 |
-| HK-66075 | SUNOSYN SYRUP 3MG/5ML | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66155 | PREDNISOLONE TABLETS 5MG | 單一成分 | PRUDENTLINK LIMITED | 有效 |
+| HK-30888 | XEPASONE TAB 5MG | 單一成分 | FP HEALTHCARE LIMITED | 有效 |
+| HK-55339 | PANADIN TAB 5MG | 單一成分 | DELTAPHARM LIMITED | 有效 |
+| HK-62772 | KORUS PREDNISOLONE TABLETS 5MG | 單一成分 | LSB (HK) LIMITED | 有效 |
+| HK-66075 | SUNOSYN SYRUP 3MG/5ML | 單一成分 | PRIMAL CHEMICAL CO LTD | 有效 |
+
+上表列出其中 5 張（共 40 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

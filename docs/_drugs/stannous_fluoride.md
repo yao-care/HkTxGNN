@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 833
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Stannous Fluoride：預測新適應症為腦膜炎球菌感染 (Meningococcal Infection)（證據等級 L5）。原適應症：未載明"
 monitor_inn: "STANNOUS FLUORIDE"
 predicted_indications: ["meningococcal infection"]
@@ -82,9 +82,13 @@ TxGNN 模型預測它可能對**腦膜炎球菌感染 (Meningococcal Infection)*
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-59808 | KIT FOR THE PREPARATION OF TECHNETIUM TC99M MEBROFENIN | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-59808 | KIT FOR THE PREPARATION OF TECHNETIUM TC99M MEBROFENIN | 複方 | GLOBAL MEDICAL SOLUTIONS HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 此許可證為含氟化亞錫成分的鎝-99m Mebrofenin 製備套組（診斷用放射性藥物配套），製造商為 Global Medical Solutions Hong Kong Limited。氟化亞錫在此套組中可能作為配方成分，並非作為治療腦膜炎球菌感染之用。
 

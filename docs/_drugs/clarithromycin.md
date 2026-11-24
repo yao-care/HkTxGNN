@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CLARITHROMYCIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clarithromycin：預測新適應症為高澱粉酶血症 (Hyperamylasemia)（證據等級 L5）。原適應症：知識圖譜中記錄的關聯包括中耳炎、鏈球菌感染、細菌性肺炎、上顎竇炎、黴漿菌肺炎等"
 ---
 
@@ -98,13 +98,19 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (Hyperamylasemia)** 有效，
 
 <!-- review:end hk-lic-20261117-clarithromycin-2 -->
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-54399 | VICK-CLARCID TAB 250MG | VICKMANS LABORATORIES LTD |
-| HK-67578 | CLACIN POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 500MG | JACOBSON MARKETING LIMITED |
-| HK-54294 | CLACIN PLUS TAB 500MG | APT PHARMA LIMITED |
-| HK-67473 | CLARITHROPHIL TABLETS 250MG | CROSS WORLD PHARMA |
-| HK-38306 | KLACID TAB 500MG | ABBOTT LAB LTD |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-54399 | VICK-CLARCID TAB 250MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-67578 | CLACIN POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 500MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-54294 | CLACIN PLUS TAB 500MG | 單一成分 | APT PHARMA LIMITED | 有效 |
+| HK-67473 | CLARITHROPHIL TABLETS 250MG | 單一成分 | CROSS WORLD PHARMA | 有效 |
+| HK-38306 | KLACID TAB 500MG | 單一成分 | ABBOTT LAB LTD | 有效 |
+
+上表列出其中 5 張（共 38 張）。
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 484
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "IRINOTECAN"
 predicted_indications: ["female breast carcinoma"]
 description: "Irinotecan：預測新適應症為女性乳癌 (female breast carcinoma)（證據等級 L5）。香港藥劑製品註冊：16 張（有效 16 張）"
@@ -110,13 +110,19 @@ Irinotecan 是 SN-38 的前驅藥物，SN-38 為拓樸異構酶 I 抑制劑，�
 
 香港共有 16 張有效許可證，皆為單方注射濃縮液。以下列出 5 張主要許可證，許可證資料中未提供劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-42884 | CAMPTO CONC FOR INFUSION 20MG/ML（Pfizer） | 輸注用濃縮液 | 未提供 |
-| HK-67985 | ONIVYDE PEGYLATED LIPOSOMAL CONCENTRATE FOR DISPERSION FOR INFUSION 43MG/10ML（Servier） | 脂質體輸注濃縮液 | 未提供 |
-| HK-65294 | DBL IRINOTECAN CONCENTRATE FOR SOLUTION FOR INFUSION 40MG/2ML（Pfizer） | 輸注用濃縮液 | 未提供 |
-| HK-58691 | IRINOTESIN CONCENTRATE FOR INF 100MG/5ML（Teva） | 輸注用濃縮液 | 未提供 |
-| HK-68057 | IRINOCAN 100 CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/5ML（Jacobson） | 輸注用濃縮液 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-42884 | CAMPTO CONC FOR INFUSION 20MG/ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-67985 | ONIVYDE PEGYLATED LIPOSOMAL CONCENTRATE FOR DISPERSION FOR INFUSION 43MG/10ML | 單一成分 | SERVIER HONG KONG LIMITED | 有效 |
+| HK-65294 | DBL IRINOTECAN CONCENTRATE FOR SOLUTION FOR INFUSION 40MG/2ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-58691 | IRINOTESIN CONCENTRATE FOR INF 100MG/5ML | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-68057 | IRINOCAN 100 CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/5ML | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+
+上表列出其中 5 張（共 16 張）。
+
+<!-- licenses:end -->
 
 ---
 

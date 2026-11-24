@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "QUETIAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Quetiapine：預測新適應症為Retinal dystrophy with or without extraocular anomalies（證據等級 L5）。香港藥劑製品註冊：59 張（有效 59 張）"
 ---
 
@@ -108,13 +108,19 @@ TxGNN 模型排名第一的預測是「視網膜失養症」，但該預測缺�
 
 <!-- review:end hk-lic-20261117-quetiapine-2 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-52580 | SEROQUEL TAB 300MG | 未載明 | 未載明 |
-| HK-58348 | SEROQUEL XR EXTENDED RELEASE TAB 150MG | 未載明 | 未載明 |
-| HK-58567 | QUETIAPINE-TEVA TAB 25MG | 未載明 | 未載明 |
-| HK-57438 | PMS-QUETIAPINE TAB 150MG | 未載明 | 未載明 |
-| HK-65854 | QUETIAPINE TABLETS 100MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-52580 | SEROQUEL TAB 300MG | 單一成分 | LUYE PHARMA HONG KONG LIMITED | 有效 |
+| HK-58348 | SEROQUEL XR EXTENDED RELEASE TAB 150MG | 單一成分 | LUYE PHARMA HONG KONG LIMITED | 有效 |
+| HK-58567 | QUETIAPINE-TEVA TAB 25MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-57438 | PMS-QUETIAPINE TAB 150MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-65854 | QUETIAPINE TABLETS 100MG | 單一成分 | CONTROLLED MEDICATIONS LIMITED | 有效 |
+
+上表列出其中 5 張（共 59 張）。
+
+<!-- licenses:end -->
 
 ---
 

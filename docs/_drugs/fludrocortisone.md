@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fludrocortisone：預測新適應症為原發性皮膚 T 細胞淋巴瘤 (primary cutaneous T-cell lymphoma)（證據等級 L5）。原適應症：資料未提供"
 monitor_inn: "Fludrocortisone"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "cystic teratoma", "spinal cord dermoid cyst", "dermoid cyst of ovary", "disease of orbital part of eye adnexa", "eye disease", "disease of orbital region", "exostosis"]
@@ -100,10 +100,14 @@ TxGNN 模型預測它可能對**原發性皮膚 T 細胞淋巴瘤 (primary cutan
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-00036 | FLORINEF TAB 0.1MG | 未載明 | 未載明 |
-| HK-47276 | PAROTICIN OTIC DROPS | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-00036 | FLORINEF TAB 0.1MG | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+| HK-47276 | PAROTICIN OTIC DROPS | 複方 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

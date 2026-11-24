@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "METHYLPREDNISOLONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methylprednisolone：預測新適應症為黏蛋白性脫髮 (alopecia mucinosa)（證據等級 L5）。香港藥劑製品註冊：8 張（有效 8 張）"
 ---
 
@@ -72,13 +72,19 @@ TxGNN 模型預測它可能對**黏蛋白性脫髮 (alopecia mucinosa)** 有效�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64851 | METPROVELL TABLETS 4MG | 未載明 | 未載明 |
-| HK-63244 | MEDASON POWDER FOR SOLUTION FOR INJECTION 40MG | 未載明 | 未載明 |
-| HK-63243 | MEDASON POWDER FOR SOLUTION FOR INJECTION 500MG | 未載明 | 未載明 |
-| HK-00490 | DEPO MEDROL STERILE AQ SUSP 40MG/ML | 未載明 | 未載明 |
-| HK-00456 | SOLU MEDROL 500 MG FOR INJ | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64851 | METPROVELL TABLETS 4MG | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-63244 | MEDASON POWDER FOR SOLUTION FOR INJECTION 40MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-63243 | MEDASON POWDER FOR SOLUTION FOR INJECTION 500MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-00490 | DEPO MEDROL STERILE AQ SUSP 40MG/ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-00456 | SOLU MEDROL 500 MG FOR INJ | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 本藥在香港共有 8 張有效的單方許可證，此處僅列出 5 張。
 

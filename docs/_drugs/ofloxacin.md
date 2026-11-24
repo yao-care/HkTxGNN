@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "OFLOXACIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ofloxacin：預測新適應症為高澱粉酶血症 (Hyperamylasemia)（證據等級 L5）。原適應症：知識圖譜記錄的關聯包括傷寒、沙門氏菌感染、泌尿道感染、支氣管炎、細菌性肺炎等"
 ---
 
@@ -77,13 +77,19 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (Hyperamylasemia)** 有效，
 
 <!-- review:end hk-lic-20261117-ofloxacin-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66156 | OFLO OPHTHALMIC SOLUTION 0.3% W/V | 眼用溶液（依品名） | 資料未提供 |
-| HK-47706 | PUIRITOL TAB 100MG | 錠劑（依品名） | 資料未提供 |
-| HK-49145 | OXACIN F.C. TAB 200MG | 膜衣錠（依品名） | 資料未提供 |
-| HK-62027 | OCUFLO OPHTHALMIC SOLUTION 0.3%W/V | 眼用溶液（依品名） | 資料未提供 |
-| HK-64416 | SINFLO TABLETS 200MG | 錠劑（依品名） | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66156 | OFLO OPHTHALMIC SOLUTION 0.3% W/V | 單一成分 | CHEMILLENNIUM INTERNATIONAL (HK) LIMITED | 有效 |
+| HK-47706 | PUIRITOL TAB 100MG | 單一成分 | US NANO FOOD AND DRUG (HK) LIMITED | 有效 |
+| HK-49145 | OXACIN F.C. TAB 200MG | 單一成分 | HITPHARM PHARMACEUTICAL CO LTD | 有效 |
+| HK-62027 | OCUFLO OPHTHALMIC SOLUTION 0.3%W/V | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-64416 | SINFLO TABLETS 200MG | 單一成分 | TOP HARVEST PHARMACEUTICALS COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 25 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 53
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aminophylline：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L4）。原適應症：目前許可證資料未載明"
 monitor_inn: "AMINOPHYLLINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
@@ -86,10 +86,14 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前*
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-06484 | AMINOPHYLLINE INJ 250MG/10ML | 未載明 | 未載明 |
-| HK-59560 | AMINOPHYLLINE INJ 250MG/10ML | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-06484 | AMINOPHYLLINE INJ 250MG/10ML | 單一成分 | ATLANTIC PHARMACEUTICAL LIMITED | 有效 |
+| HK-59560 | AMINOPHYLLINE INJ 250MG/10ML | 單一成分 | SINO-ASIA PHARMACEUTICAL SUPPLIES LTD | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

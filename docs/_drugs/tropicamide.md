@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 913
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tropicamide：預測新適應症為馬尾症候群 (Cauda Equina Syndrome)（證據等級 L5）。原適應症：睫狀肌麻痺 (Cycloplegia)"
 monitor_inn: "TROPICAMIDE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
@@ -83,11 +83,15 @@ TxGNN 的預測分數來自 TxGNN 模型（深度學習），可能反映模型�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-16911 | MYDRIACYL OPHTH SOLN 1%（Alcon Hong Kong） | 眼用溶液 | 資料未提供 |
-| HK-35610 | MYDRIN-P OPHTH SOLUTION（Santen） | 眼用溶液 | 資料未提供 |
-| HK-66512 | MYDREPHRINE-P OPHTHALMIC SOLUTION（Main Life Corp） | 眼用溶液 | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-16911 | MYDRIACYL OPHTH SOLN 1% | 單一成分 | ALCON HONG KONG LTD | 有效 |
+| HK-35610 | MYDRIN-P OPHTH SOLUTION | 複方 | SANTEN PHARMACEUTICAL (HONG KONG) LIMITED | 有效 |
+| HK-66512 | MYDREPHRINE-P OPHTHALMIC SOLUTION | 複方 | MAIN LIFE CORP LTD | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

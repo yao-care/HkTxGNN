@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 320
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
 description: "Enoxaparin：預測新適應症為體染色體隱性蛋白 C 缺乏所致血栓形成傾向 (thrombophilia due to protein C deficiency, autosomal recessive)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
@@ -82,10 +82,14 @@ TxGNN 模型預測它可能對**體染色體隱性蛋白 C 缺乏所致血栓形
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-38403 | CLEXANE INJ 20MG/0.2ML | 未載明 | 未載明 |
-| HK-38404 | CLEXANE INJ 40MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-38403 | CLEXANE INJ 20MG/0.2ML | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-38404 | CLEXANE INJ 40MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證皆由 Sanofi Hong Kong Limited 持有，狀態為有效。
 

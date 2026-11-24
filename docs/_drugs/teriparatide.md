@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "TERIPARATIDE"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Teriparatide：預測新適應症為十二指腸潰瘍 (Duodenal Ulcer)（證據等級 L5）。原適應症：知識圖譜中記錄的關聯為停經後骨質疏鬆症、骨質疏鬆症"
 ---
 
@@ -69,10 +69,14 @@ TxGNN 模型對**十二指腸潰瘍 (Duodenal Ulcer)** 給出最高預測分數�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-59594 | FORTEO PRE-FILLED PEN FOR INJ 20MCG/80MCL（Eli Lilly Asia） | 注射劑（預填充筆） | 資料中未載明 |
-| HK-68098 | TERIPARATIDE TEVA SOLUTION FOR INJECTION IN PRE-FILLED PEN 20MCG/80MCL（Teva） | 注射劑（預填充筆） | 資料中未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-59594 | FORTEO PRE-FILLED PEN FOR INJ 20MCG/80MCL | 單一成分 | ELI LILLY ASIA, INC. | 有效 |
+| HK-68098 | TERIPARATIDE TEVA SOLUTION FOR INJECTION IN PRE-FILLED PEN 20MCG/80MCL | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

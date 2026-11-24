@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 936
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
 description: "Vinblastine：預測新適應症為橫紋肌肉瘤 (rhabdomyosarcoma (disease))（證據等級 L4）。香港藥劑製品註冊：3 張（有效 3 張）"
@@ -80,10 +80,16 @@ Vinblastine 屬於長春花生物鹼，會與微管蛋白（tubulin）結合並�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-51030 | VELBASTINE FOR INJ 10MG（Healthcare Pharmascience） | 注射劑 | 未提供 |
-| HK-36337 | VINBLASTINE SULPHATE INJ 10MG IN 10ML（輝瑞香港） | 注射劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-51030 | VELBASTINE FOR INJ 10MG | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-36337 | VINBLASTINE SULPHATE INJ 10MG IN 10ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+
+上表列出其中 2 張（共 3 張）。
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "MOROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Moroctocog Alfa：預測新適應症為原發性血小板釋放障礙（證據等級 L5）。原適應症：知識圖譜記錄為血友病"
 ---
 
@@ -81,11 +81,15 @@ ChEMBL（EMBL-EBI）收錄的 Moroctocog Alfa 作用機轉（非官方翻譯）�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66835 | XYNTHA 凍乾粉末及溶劑注射液 250IU | 注射劑（粉末及溶劑） | 資料未載明 |
-| HK-66834 | XYNTHA 凍乾粉末及溶劑注射液 1000IU | 注射劑（粉末及溶劑） | 資料未載明 |
-| HK-66836 | XYNTHA 凍乾粉末及溶劑注射液 500IU | 注射劑（粉末及溶劑） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66835 | XYNTHA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 250IU | 複方 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-66834 | XYNTHA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 1000IU | 複方 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-66836 | XYNTHA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 500IU | 複方 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證均為單一成分產品，持有人為 Pfizer Corporation Hong Kong Limited，狀態皆為有效。
 

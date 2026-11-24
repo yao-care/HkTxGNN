@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 956
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ziprasidone"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
 description: "Ziprasidone：預測新適應症為拔毛癖 (trichotillomania)（證據等級 L5）。香港藥劑製品註冊：12 張（有效 12 張）"
@@ -71,13 +71,19 @@ TxGNN 模型預測它可能對**拔毛癖 (trichotillomania)** 有效，但目�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-48922 | ZELDOX CAP 20MG（Viatris） | 膠囊 | — |
-| HK-48923 | ZELDOX CAP 40MG（Viatris） | 膠囊 | — |
-| HK-48924 | ZELDOX CAP 60MG（Viatris） | 膠囊 | — |
-| HK-48925 | ZELDOX CAP 80MG（Viatris） | 膠囊 | — |
-| HK-63940 | ZIPRASIDON STADA CAPSULES 20MG | 膠囊 | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-48922 | ZELDOX CAP 20MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-48923 | ZELDOX CAP 40MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-48924 | ZELDOX CAP 60MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-48925 | ZELDOX CAP 80MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-63940 | ZIPRASIDON STADA CAPSULES 20MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+
+上表列出其中 5 張（共 12 張）。
+
+<!-- licenses:end -->
 
 目前共有 12 張許可證皆為有效狀態，以上僅列出 5 張主要許可證。
 

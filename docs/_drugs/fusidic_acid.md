@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "FUSIDIC ACID"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fusidic Acid：預測新適應症為暴露性角膜炎 (Exposure Keratitis)（證據等級 L5）。原適應症：知識圖譜記錄的關聯包括泌尿道感染、支氣管炎、痤瘡、毛囊炎等"
 ---
 
@@ -89,13 +89,19 @@ ChEMBL（EMBL-EBI）收錄的 Fusidic Acid 作用機轉（非官方翻譯）：�
 
 <!-- review:end hk-lic-20261117-fusidic_acid-2 -->
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-60364 | FULOSIN CREAM 2% | WINGS PHARMACEUTICAL LTD |
-| HK-46825 | FOBAN CREAM 2% | TAISHO PHARMACEUTICAL (HK) LTD |
-| HK-65120 | DEFUZIN CREAM 2% W/W | FP HEALTHCARE LIMITED |
-| HK-37408 | FUCIDIN CREAM 2% | DKSH HONG KONG LIMITED |
-| HK-37597 | FUCITHALMIC VISCOUS EYE DROPS 10MG/G | AMDIPHARM MERCURY (HONG KONG) LIMITED |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-60364 | FULOSIN CREAM 2% | 單一成分 | WINGS PHARMACEUTICAL LTD | 有效 |
+| HK-46825 | FOBAN CREAM 2% | 單一成分 | TAISHO PHARMACEUTICAL (HK) LTD | 有效 |
+| HK-65120 | DEFUZIN CREAM 2% W/W | 單一成分 | FP HEALTHCARE LIMITED | 有效 |
+| HK-37408 | FUCIDIN CREAM 2% | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-37597 | FUCITHALMIC VISCOUS EYE DROPS 10MG/G | 單一成分 | AMDIPHARM MERCURY (HONG KONG) LIMITED | 有效 |
+
+上表列出其中 5 張（共 25 張）。
+
+<!-- licenses:end -->
 
 另有口服懸浮用乾粉劑（PHUDICIN DRY SUSP 250MG/SACHET，HK-55629）等其他單方許可證。
 

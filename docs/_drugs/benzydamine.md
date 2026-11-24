@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 110
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benzydamine：預測新適應症為良性攝護腺增生 (Benign Prostatic Hyperplasia)（證據等級 L5）。原適應症：資料中未載明核准適應症文字"
 monitor_inn: "Benzydamine"
 predicted_indications: ["benign prostatic hyperplasia (disease)"]
@@ -90,13 +90,19 @@ ChEMBL（EMBL-EBI）收錄的 Benzydamine 作用機轉（非官方翻譯）：�
 
 <!-- review:end hk-lic-20261117-benzydamine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-31754 | DIFFLAM SOLN FOR GARGLE 0.15% | 漱口液（依品名） | 資料未載明 |
-| HK-56224 | DIFFLAM ANTI-INFLAMMATORY THROAT SPRAY 0.15% | 喉噴霧（依品名） | 資料未載明 |
-| HK-36674 | DIFFLAM GEL 5% | 凝膠（依品名） | 資料未載明 |
-| HK-42365 | DIFFLAM ANTI-INFLAMMATORY LOZ 3MG S/F | 口含錠（依品名） | 資料未載明 |
-| HK-64739 | PHARIXIA MOUTHWASH 1.5MG/ML | 漱口水（依品名） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-31754 | DIFFLAM SOLN FOR GARGLE 0.15% | 單一成分 | INOVA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-56224 | DIFFLAM ANTI-INFLAMMATORY THROAT SPRAY 0.15% | 單一成分 | INOVA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-36674 | DIFFLAM GEL 5% | 單一成分 | INOVA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-42365 | DIFFLAM ANTI-INFLAMMATORY LOZ 3MG S/F | 單一成分 | INOVA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-64739 | PHARIXIA MOUTHWASH 1.5MG/ML | 單一成分 | TRENTON-BOMA LTD | 有效 |
+
+上表列出其中 5 張（共 22 張）。
+
+<!-- licenses:end -->
 
 ---
 

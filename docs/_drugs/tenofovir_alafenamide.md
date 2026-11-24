@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 858
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TENOFOVIR ALAFENAMIDE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Tenofovir Alafenamide：預測新適應症為猴免疫缺陷病毒感染 (simian immunodeficiency virus infection)（證據等級 L4）。香港藥劑製品註冊：7 張（有效 7 張）"
@@ -91,13 +91,19 @@ SIV 與 SHIV（猴／人類嵌合免疫缺陷病毒）和 HIV 同樣依賴逆轉
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65249 | VEMLIDY TABLETS 25MG | 錠劑 | 資料未提供 |
-| HK-64704 | DESCOVY TABLETS 200MG/25MG | 錠劑 | 資料未提供 |
-| HK-64705 | DESCOVY TABLETS 200MG/10MG | 錠劑 | 資料未提供 |
-| HK-65696 | ODEFSEY TABLETS | 錠劑 | 資料未提供 |
-| HK-65914 | BIKTARVY TABLETS | 錠劑 | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65249 | VEMLIDY TABLETS 25MG | 單一成分 | GILEAD SCIENCES HONG KONG LIMITED | 有效 |
+| HK-64704 | DESCOVY TABLETS 200MG/25MG | 複方 | GILEAD SCIENCES HONG KONG LIMITED | 有效 |
+| HK-64705 | DESCOVY TABLETS 200MG/10MG | 複方 | GILEAD SCIENCES HONG KONG LIMITED | 有效 |
+| HK-65696 | ODEFSEY TABLETS | 複方 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-65914 | BIKTARVY TABLETS | 複方 | GILEAD SCIENCES HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 7 張）。
+
+<!-- licenses:end -->
 
 （共 7 張有效許可證，上表列出其中 5 張。）
 

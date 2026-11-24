@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 25
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adapalene：預測新適應症為血漿鋅偏高 (Zinc, elevated plasma)（證據等級 L5）。原適應症：痤瘡 (Acne)"
 monitor_inn: "ADAPALENE"
 predicted_indications: ["zinc, elevated plasma"]
@@ -90,13 +90,19 @@ TxGNN 模型預測它可能對**血漿鋅偏高 (Zinc, elevated plasma)** 有效
 
 <!-- review:end hk-lic-20261117-adapalene-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-44125 | DIFFERIN CREAM 0.1%（Galderma） | 乳膏 | 未提供 |
-| HK-42052 | DIFFERIN GEL 0.1%（Galderma） | 凝膠 | 未提供 |
-| HK-58329 | ADAPALENE GEL 0.1%（Lafarge） | 凝膠 | 未提供 |
-| HK-58988 | EPIDUO GEL（Galderma） | 凝膠 | 未提供 |
-| HK-66483 | EPIDUO FORTE GEL（Galderma） | 凝膠 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-44125 | DIFFERIN CREAM 0.1% | 單一成分 | GALDERMA HONG KONG LIMITED | 有效 |
+| HK-42052 | DIFFERIN GEL 0.1% | 單一成分 | GALDERMA HONG KONG LIMITED | 有效 |
+| HK-58329 | ADAPALENE GEL 0.1% | 單一成分 | LAFARGE CO., LIMITED | 有效 |
+| HK-58988 | EPIDUO GEL | 複方 | GALDERMA HONG KONG LIMITED | 有效 |
+| HK-66483 | EPIDUO FORTE GEL | 複方 | GALDERMA HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 16 張）。
+
+<!-- licenses:end -->
 
 ---
 

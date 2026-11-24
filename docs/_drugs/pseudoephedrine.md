@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 746
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "Pseudoephedrine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
 description: "Pseudoephedrine：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。香港藥劑製品註冊：91 張（有效 85 張）"
@@ -97,13 +97,19 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 
 <!-- review:end hk-lic-20261117-pseudoephedrine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-50092 | PSEUDOEPHEDRINE HYDROCHLORIDE (ZHEJIANG APELOA) | 未提供 | 未提供 |
-| HK-62991 | NASAFED TABLETS 60MG | 錠劑（依品名） | 未提供 |
-| HK-64853 | VASOCEDINE PSEUDOEPHEDRINE TABLETS 60MG | 錠劑（依品名） | 未提供 |
-| HK-50328 | VICODRINE TAB 60MG | 錠劑（依品名） | 未提供 |
-| HK-44693 | LOGICIN SINUS TAB 60MG | 錠劑（依品名） | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-50092 | PSEUDOEPHEDRINE HYDROCHLORIDE (ZHEJIANG APELOA) | 單一成分 | SHIN KEE DRUG CO LTD | 有效 |
+| HK-62991 | NASAFED TABLETS 60MG | 單一成分 | SINO PACIFIC PHARMA COMPANY LIMITED | 有效 |
+| HK-64853 | VASOCEDINE PSEUDOEPHEDRINE TABLETS 60MG | 單一成分 | JACOBSON MEDICAL (HONG KONG) LIMITED | 有效 |
+| HK-50328 | VICODRINE TAB 60MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-44693 | LOGICIN SINUS TAB 60MG | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+
+上表列出其中 5 張（共 91 張）。
+
+<!-- licenses:end -->
 
 ---
 

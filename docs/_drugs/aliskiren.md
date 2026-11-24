@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ALISKIREN"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "cerebrovascular disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aliskiren：預測新適應症為肺疾病及／或缺氧所致肺動脈高壓（證據等級 L5）。原適應症：高血壓"
 ---
 
@@ -79,10 +79,14 @@ TxGNN 模型預測它可能對**肺疾病及／或缺氧所致肺動脈高壓 (p
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-60309 | RASILEZ TAB 150MG (ITALY) | 未載明 | 未載明 |
-| HK-60310 | RASILEZ TAB 300MG (ITALY) | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-60309 | RASILEZ TAB 150MG (ITALY) | 單一成分 | LEE'S PHARMACEUTICAL (H.K) LIMITED | 有效 |
+| HK-60310 | RASILEZ TAB 300MG (ITALY) | 單一成分 | LEE'S PHARMACEUTICAL (H.K) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證皆為單一成分製劑，持證商為 Lee's Pharmaceutical (H.K) Limited。
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 834
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "STAVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Stavudine：預測新適應症為貓後天免疫缺乏症候群 (feline acquired immunodeficiency syndrome)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
@@ -94,10 +94,14 @@ ChEMBL（EMBL-EBI）收錄的 Stavudine 作用機轉（非官方翻譯）：「�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-63085 | STAVUDINE CAPSULES 30MG | 膠囊（依品名） | 資料中未載明 |
-| HK-63084 | STAVUDINE CAPSULES 40MG | 膠囊（依品名） | 資料中未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63085 | STAVUDINE CAPSULES 30MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-63084 | STAVUDINE CAPSULES 40MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證均為單一成分、現行有效，持有人為 I & C (HONG KONG) LIMITED。
 

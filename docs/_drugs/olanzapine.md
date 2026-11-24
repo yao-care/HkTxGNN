@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 639
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine：預測新適應症為Benign paroxysmal torticollis of infancy（證據等級 L5）。香港藥劑製品註冊：40 張（有效 40 張）"
@@ -99,13 +99,19 @@ TxGNN 模型預測它可能對**泛懼症 (Agoraphobia)** 有效，
 
 <!-- review:end hk-lic-20261117-olanzapine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-53204 | ZYPREXA ZYDIS ORODISPERSIBLE TAB 5MG（原廠，Zuellig Pharma） | 口崩錠 | 未提供 |
-| HK-60432 | APO-OLANZAPINE TAB 5MG | 錠劑 | 未提供 |
-| HK-57746 | APT-OLANZAPINE TAB 10MG | 錠劑 | 未提供 |
-| HK-66625 | OLANZAPINE ORODISPERSIBLE TABLETS 5MG（Viatris） | 口崩錠 | 未提供 |
-| HK-62509 | OLZA-10 TABLETS 10MG | 錠劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-53204 | ZYPREXA ZYDIS ORODISPERSIBLE TAB 5MG | 單一成分 | ZUELLIG PHARMA LIMITED | 有效 |
+| HK-60432 | APO-OLANZAPINE TAB 5MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-57746 | APT-OLANZAPINE TAB 10MG | 單一成分 | APT PHARMA LIMITED | 有效 |
+| HK-66625 | OLANZAPINE ORODISPERSIBLE TABLETS 5MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-62509 | OLZA-10 TABLETS 10MG | 單一成分 | HEALTH ALLIANCE INTERNATIONAL CO LTD | 有效 |
+
+上表列出其中 5 張（共 40 張）。
+
+<!-- licenses:end -->
 
 ---
 

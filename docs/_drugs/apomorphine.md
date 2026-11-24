@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Apomorphine"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "syndromic myopia", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Apomorphine：預測新適應症為外側裂周圍多小腦迴畸形，伴小腦發育不全與關節攣縮 (polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
@@ -69,11 +69,15 @@ TxGNN 模型預測它可能對**外側裂周圍多小腦迴畸形，伴小腦發
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-58096 | APO-GO PFS SOLUTION FOR INFUSION 5MG/ML | 輸注溶液 | 本地資料未記載 |
-| HK-61219 | APO-GO PEN SOLUTION FOR INJECTION 10MG/ML | 注射溶液 | 本地資料未記載 |
-| HK-58095 | APO-GO SOLUTION FOR INJ 10MG/ML | 注射溶液 | 本地資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-58096 | APO-GO PFS SOLUTION FOR INFUSION 5MG/ML | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-61219 | APO-GO PEN SOLUTION FOR INJECTION 10MG/ML | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-58095 | APO-GO SOLUTION FOR INJ 10MG/ML | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

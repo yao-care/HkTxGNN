@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ergometrine"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "nephrogenic syndrome of inappropriate antidiuresis", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "migraine disorder", "migraine with brainstem aura", "leprosy", "pulmonary hypertension"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Ergometrine：預測新適應症為毛髮過多症（證據等級 L5）。原適應症：資料中未載明核准適應症文字"
 ---
 
@@ -83,9 +83,13 @@ TxGNN 模型預測它可能對**毛髮過多症 (Hypertrichosis)** 有效，分�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-01698 | SYNTOMETRINE INJ | 資料未載明 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-01698 | SYNTOMETRINE INJ | 複方 | DCH AURIGA (HONG KONG) LIMITED - HEALTHCARE DIVISION | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "PHENYTOIN"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Phenytoin：預測新適應症為三叉神經腫瘤 (Trigeminal Nerve Neoplasm)（證據等級 L5）。原適應症：知識圖譜記錄為癲癇等"
 ---
 
@@ -88,13 +88,17 @@ TxGNN 模型預測分數最高的是**三叉神經腫瘤 (trigeminal nerve neopl
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-47301 | PHENYTOIN INJ 250MG/5ML | 注射劑（依品名） | 資料未提供 |
-| HK-65291 | DILANTIN EXTENDED CAPSULES 30MG | 膠囊（依品名） | 資料未提供 |
-| HK-07909 | DILANTIN CAP 100MG | 膠囊（依品名） | 資料未提供 |
-| HK-19932 | DILANTIN INJ 250MG/5ML | 注射劑（依品名） | 資料未提供 |
-| HK-07913 | DILANTIN SUSP 125MG/5ML | 懸液劑（依品名） | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-47301 | PHENYTOIN INJ 250MG/5ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-65291 | DILANTIN EXTENDED CAPSULES 30MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-07909 | DILANTIN CAP 100MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-19932 | DILANTIN INJ 250MG/5ML | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-07913 | DILANTIN SUSP 125MG/5ML | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 5 張許可證均為單一成分、有效狀態。許可證資料中沒有核准適應症文字，因此癲癇等適應症僅為知識圖譜中記錄的關係，不能視為香港核准適應症。
 

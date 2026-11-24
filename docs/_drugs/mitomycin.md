@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "MITOMYCIN"
 predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "mixed ductal-endocrine carcinoma of pancreas", "undifferentiated pancreatic carcinoma", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mitomycin：預測新適應症為胰臟實性假乳頭狀癌 (solid pseudopapillary carcinoma of pancreas)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
@@ -73,12 +73,16 @@ TxGNN 模型預測它可能對**胰臟實性假乳頭狀癌 (solid pseudopapilla
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67642 | ACCORD MITOMYCIN 2 POWDER FOR SOLUTION FOR INJECTION/INFUSION OR INTRAVESICAL USE 2MG | 未提供 | 未提供 |
-| HK-67641 | ACCORD MITOMYCIN 10 POWDER FOR SOLUTION FOR INJECTION/INFUSION OR INTRAVESICAL USE 10MG | 未提供 | 未提供 |
-| HK-66821 | MITONCO POWDER FOR SOLUTION FOR INJECTION 10MG | 未提供 | 未提供 |
-| HK-67651 | MITOMYCIN FOR INJECTION USP 10MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67642 | ACCORD MITOMYCIN 2 POWDER FOR SOLUTION FOR INJECTION/INFUSION OR INTRAVESICAL US… | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-67641 | ACCORD MITOMYCIN 10 POWDER FOR SOLUTION FOR INJECTION/INFUSION OR INTRAVESICAL U… | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-66821 | MITONCO POWDER FOR SOLUTION FOR INJECTION 10MG | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-67651 | MITOMYCIN FOR INJECTION USP 10MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

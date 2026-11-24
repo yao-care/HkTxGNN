@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "LEVOFLOXACIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levofloxacin：預測新適應症為點狀上皮角膜結膜炎 (Punctate Epithelial Keratoconjunctivitis)（證據等級 L5）。原適應症：知識圖譜記錄的關係：細菌性肺炎、結膜炎、鼻竇炎、腎盂腎炎、炭疽等細菌感染"
 ---
 
@@ -81,13 +81,19 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 
 <!-- review:end hk-lic-20261117-levofloxacin-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-51495 | CRAVIT TAB 250MG | 未提供 | 未提供 |
-| HK-64805 | CRAVIT OPHTHALMIC SOLUTION 1.5%W/V | 眼用溶液 | 未提供 |
-| HK-65005 | LEVOFLOXACIN KABI SOLUTION FOR INFUSION 500MG/100ML | 輸注液 | 未提供 |
-| HK-65995 | LEVOCLE EYE DROPS 0.5% W/V | 眼藥水 | 未提供 |
-| HK-58278 | LEVOCIN EYE DROPS 0.5% | 眼藥水 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-51495 | CRAVIT TAB 250MG | 單一成分 | DAIICHI SANKYO HONG KONG LIMITED | 有效 |
+| HK-64805 | CRAVIT OPHTHALMIC SOLUTION 1.5%W/V | 單一成分 | SANTEN PHARMACEUTICAL (HONG KONG) LIMITED | 有效 |
+| HK-65005 | LEVOFLOXACIN KABI SOLUTION FOR INFUSION 500MG/100ML | 單一成分 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-65995 | LEVOCLE EYE DROPS 0.5% W/V | 單一成分 | HEALTH ALLIANCE INTERNATIONAL CO LTD | 有效 |
+| HK-58278 | LEVOCIN EYE DROPS 0.5% | 單一成分 | LAFARGE CO., LIMITED | 有效 |
+
+上表列出其中 5 張（共 54 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 298
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
 description: "Doxorubicin：預測新適應症為尤因氏肉瘤 (Ewing sarcoma)（證據等級 L1）。香港藥劑製品註冊：7 張（有效 7 張）"
@@ -109,13 +109,19 @@ TxGNN 模型預測它可能對**尤因氏肉瘤 (Ewing Sarcoma)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-52946 | DOXORUBICIN-TEVA INJ 2MG/ML | 注射劑 | 未登載 |
-| HK-40874 | DOXORUBICIN-EBEWE INJ 10MG/5ML VIAL | 注射劑（小瓶） | 未登載 |
-| HK-37493 | DOXORUBICIN-EBEWE INJ 50MG/25ML (VIAL) | 注射劑（小瓶） | 未登載 |
-| HK-67505 | DOXORUBICIN HYDROCHLORIDE LIPOSOME CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/10ML | 脂質體輸注濃縮液 | 未登載 |
-| HK-66647 | CAELYX CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/10ML | 脂質體輸注濃縮液 | 未登載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-52946 | DOXORUBICIN-TEVA INJ 2MG/ML | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-40874 | DOXORUBICIN-EBEWE INJ 10MG/5ML VIAL | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-37493 | DOXORUBICIN-EBEWE INJ 50MG/25ML (VIAL) | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-67505 | DOXORUBICIN HYDROCHLORIDE LIPOSOME CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/10… | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-66647 | CAELYX CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/10ML | 單一成分 | BAXTER HEALTHCARE LIMITED | 有效 |
+
+上表列出其中 5 張（共 7 張）。
+
+<!-- licenses:end -->
 
 另有 HK-68965、HK-68964（DOXOCCORD LP，脂質體劑型）共 7 張有效單一成分許可證，全數有效、無已註銷。
 

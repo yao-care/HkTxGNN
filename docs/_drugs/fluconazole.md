@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 382
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FLUCONAZOLE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 description: "Fluconazole：預測新適應症為點狀上皮角膜結膜炎 (punctate epithelial keratoconjunctivitis)（證據等級 L5）。香港藥劑製品註冊：40 張（有效 36 張）"
@@ -80,13 +80,19 @@ TxGNN 模型預測它可能對**點狀上皮角膜結膜炎 (Punctate Epithelial
 
 <!-- review:end hk-lic-20261117-fluconazole-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-31175 | DIFLUCAN CAP 50MG（Pfizer） | 膠囊 | 未提供 |
-| HK-32536 | DIFLUCAN INJ 2MG/ML（Pfizer） | 注射劑 | 未提供 |
-| HK-52849 | FLUCONAZOLE-TEVA CAP 50MG | 膠囊 | 未提供 |
-| HK-52848 | FLUCONAZOLE-TEVA CAP 150MG | 膠囊 | 未提供 |
-| HK-67485 | FLUCONAZOLE SOLUTION FOR INFUSION 100MG/50ML | 輸注液 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-31175 | DIFLUCAN CAP 50MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-32536 | DIFLUCAN INJ 2MG/ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-52849 | FLUCONAZOLE-TEVA CAP 50MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-52848 | FLUCONAZOLE-TEVA CAP 150MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-67485 | FLUCONAZOLE SOLUTION FOR INFUSION 100MG/50ML | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+
+上表列出其中 5 張（共 40 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

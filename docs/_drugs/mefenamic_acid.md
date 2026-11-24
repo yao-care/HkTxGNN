@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 6
 monitor_inn: "MEFENAMIC ACID"
 predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mefenamic Acid：預測新適應症為頭痛疾患 (headache disorder)（證據等級 L2）。香港藥劑製品註冊：74 張（有效 73 張）"
 ---
 
@@ -97,13 +97,19 @@ TxGNN 模型預測它可能對**頭痛疾患 (headache disorder)** 有效。
 
 <!-- review:end hk-lic-20261117-mefenamic_acid-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-42367 | EUROTAN-F SUSP 250MG/5ML | 未載明 | 未載明 |
-| HK-50543 | GYNOGESIC CAP 250MG | 未載明 | 未載明 |
-| HK-07380 | MEFENSTAN CAP 250MG (IVORY) | 未載明 | 未載明 |
-| HK-29271 | MEFENAMIC ACID TAB 250MG | 未載明 | 未載明 |
-| HK-66441 | MEFETON TABLETS 500MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-42367 | EUROTAN-F SUSP 250MG/5ML | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-50543 | GYNOGESIC CAP 250MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-07380 | MEFENSTAN CAP 250MG (IVORY) | 單一成分 | UNICORN LABORATORIES O/B AMERICAN UNICORN LABORATORIES LIMITED | 有效 |
+| HK-29271 | MEFENAMIC ACID TAB 250MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-66441 | MEFETON TABLETS 500MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+
+上表列出其中 5 張（共 74 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

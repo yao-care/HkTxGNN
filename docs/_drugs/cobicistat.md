@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "COBICISTAT"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cobicistat：預測新適應症為貓後天免疫缺乏症候群 (Feline Acquired Immunodeficiency Syndrome)（證據等級 L5）。原適應症：HIV 感染、愛滋病"
 ---
 
@@ -72,10 +72,14 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (Feline Acquired 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64960 | PREZCOBIX TABLETS 800MG/150MG | 錠劑 | 無資料 |
-| HK-65912 | SYMTUZA TABLETS | 錠劑 | 無資料 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64960 | PREZCOBIX TABLETS 800MG/150MG | 複方 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-65912 | SYMTUZA TABLETS | 複方 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+
+<!-- licenses:end -->
 
 這兩張許可證為含 cobicistat 的複方產品，不能用來說明單一成分 cobicistat 的核准狀況。
 

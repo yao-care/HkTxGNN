@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "BENZYLPENICILLIN"
 predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "ulcerative stomatitis", "chemotherapy-induced oral mucositis", "denture stomatitis", "leukoplakia of gingiva"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benzylpenicillin：預測新適應症為智齒冠周炎 (pericoronitis)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
@@ -71,11 +71,15 @@ TxGNN 模型預測它可能對**智齒冠周炎 (pericoronitis)** 有效，但�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-43500 | PAN-PENICILLIN G SOD FOR INJ 1M IU | 注射劑 | 本地資料未記錄 |
-| HK-60173 | NORAPENY FOR IM/IV INJ 1000000IU | 注射劑 | 本地資料未記錄 |
-| HK-68195 | PENICILLIN G SODIUM SANDOZ POWDER FOR SOLUTION FOR INJECTION/INFUSION 1000000IU | 注射劑 | 本地資料未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-43500 | PAN-PENICILLIN G SOD FOR INJ 1M IU | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - UNIVERSAL DIVISION | 有效 |
+| HK-60173 | NORAPENY FOR IM/IV INJ 1000000IU | 單一成分 | JINDUN PHARMA (H.K.) LIMITED | 有效 |
+| HK-68195 | PENICILLIN G SODIUM SANDOZ POWDER FOR SOLUTION FOR INJECTION/INFUSION 1000000IU | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

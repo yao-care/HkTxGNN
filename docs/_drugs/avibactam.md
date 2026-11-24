@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Avibactam"
 predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "hyperamylasemia", "polyclonal hyperviscosity syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Avibactam：預測新適應症為泌尿道結核 (ureter tuberculosis)（證據等級 L5）。原適應症：腎盂腎炎"
 ---
 
@@ -71,10 +71,14 @@ TxGNN 的高分（0.9911）僅是模型輸出，不等同於實際療效。另�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66061 | ZAVICEFTA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 2G/0.5G | 未載明 | 未載明 |
-| HK-68891 | EMBLAVEO POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 1.5G/0.5G | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66061 | ZAVICEFTA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 2G/0.5G | 複方 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-68891 | EMBLAVEO POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 1.5G/0.5G | 複方 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

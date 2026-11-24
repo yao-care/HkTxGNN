@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "LITHIUM CARBONATE"
 predicted_indications: ["pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "myosclerosis", "brachyolmia-amelogenesis imperfecta syndrome", "brachydactyly-syndactyly syndrome", "Behr syndrome", "WHIM syndrome", "combined immunodeficiency due to moesin deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lithium Carbonate：預測新適應症為假性軟骨發育不全 (Pseudoachondroplasia)（證據等級 L5）。原適應症：本次整理的資料中，香港許可證未載明核准適應症文字"
 ---
 
@@ -72,13 +72,19 @@ TxGNN 模型預測它可能對**假性軟骨發育不全 (Pseudoachondroplasia)*
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66420 | CAMCOLIT CONTROLLED RELEASE TABLETS 400MG | 未載明 | 未載明 |
-| HK-60530 | PMS-LITHIUM CARBONATE CAP 300MG | 未載明 | 未載明 |
-| HK-62229 | APO-LITHIUM CARBONATE CAPSULES 300MG | 未載明 | 未載明 |
-| HK-67216 | LITHIUM CARBONATE ESSENTIAL PHARMA TABLETS 250MG | 未載明 | 未載明 |
-| HK-62228 | APO-LITHIUM CARBONATE CAPSULES 150MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66420 | CAMCOLIT CONTROLLED RELEASE TABLETS 400MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-60530 | PMS-LITHIUM CARBONATE CAP 300MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-62229 | APO-LITHIUM CARBONATE CAPSULES 300MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-67216 | LITHIUM CARBONATE ESSENTIAL PHARMA TABLETS 250MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-62228 | APO-LITHIUM CARBONATE CAPSULES 150MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 7 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

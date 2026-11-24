@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 250
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Decitabine：預測新適應症為兒童難治性血球減少症 (Refractory Cytopenia of Childhood)（證據等級 L5）。原適應症：急性骨髓性白血病（AML）及相關骨髓性疾病"
 monitor_inn: "DECITABINE"
 predicted_indications: ["refractory cytopenia of childhood"]
@@ -75,10 +75,16 @@ RCC 是兒童 MDS 最常見的亞型。AML 與 MDS 都涉及異常 DNA 甲基化
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67129 | DACOGEN POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50MG（Johnson & Johnson (Hong Kong) Ltd.） | 輸注濃縮液用粉末（依品名） | 未提供 |
-| HK-68634 | DECITABINE POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50MG（Chemill Pharma Limited） | 輸注濃縮液用粉末（依品名） | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67129 | DACOGEN POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-68634 | DECITABINE POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50MG | 單一成分 | CHEMILL PHARMA LIMITED | 有效 |
+
+上表列出其中 2 張（共 3 張）。
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

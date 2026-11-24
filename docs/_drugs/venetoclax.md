@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Venetoclax：預測新適應症為Hodgkins lymphoma（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
@@ -88,11 +88,15 @@ TxGNN 的高分是計算預測，不能取代臨床證據。現有臨床資料�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65283 | VENCLEXTA TABLETS 50MG | — | 本報告彙整資料中未載明 |
-| HK-65285 | VENCLEXTA TABLETS 100MG | — | 本報告彙整資料中未載明 |
-| HK-65284 | VENCLEXTA TABLETS 10MG | — | 本報告彙整資料中未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65283 | VENCLEXTA TABLETS 50MG | 單一成分 | ABBVIE LIMITED | 有效 |
+| HK-65285 | VENCLEXTA TABLETS 100MG | 單一成分 | ABBVIE LIMITED | 有效 |
+| HK-65284 | VENCLEXTA TABLETS 10MG | 單一成分 | ABBVIE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 三張皆為單一成分製劑，持有人為 ABBVIE LIMITED，狀態有效。
 

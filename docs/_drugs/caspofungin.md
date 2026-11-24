@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 168
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Caspofungin：預測新適應症為胃泌素分泌異常 (Gastrin Secretion Abnormality)（證據等級 L5）。原適應症：食道念珠菌症、念珠菌血症"
 monitor_inn: "CASPOFUNGIN"
 predicted_indications: ["gastrin secretion abnormality"]
@@ -81,10 +81,14 @@ TxGNN 模型預測它可能對**胃泌素分泌異常 (Gastrin Secretion Abnorma
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66617 | CASPOVITAE POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 70MG | 未提供 | 未提供 |
-| HK-66616 | CASPOVITAE POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66617 | CASPOVITAE POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 70MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 已註銷 |
+| HK-66616 | CASPOVITAE POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 已註銷 |
+
+<!-- licenses:end -->
 
 兩張許可證皆為單方，均已註銷（已不在註冊名單上），持證商為 HONG KONG MEDICAL SUPPLIES LTD。
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 430
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GUAIFENESIN"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
 description: "Guaifenesin：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。香港藥劑製品註冊：169 張（有效 169 張）"
@@ -82,13 +82,19 @@ ChEMBL（EMBL-EBI）收錄的 Guaifenesin 作用機轉（非官方翻譯）：�
 
 <!-- review:end hk-lic-20261117-guaifenesin-1 -->
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-62004 | MUCINEX EXTENDED-RELEASE TABLETS 600MG | Reckitt Benckiser Hong Kong Ltd |
-| HK-63897 | MUCINEX EXTENDED-RELEASE TABLETS 1200MG | Reckitt Benckiser Hong Kong Ltd |
-| HK-51114 | ROBITUSSIN EX SYRUP 20MG/ML | Haleon Hong Kong Limited |
-| HK-36928 | BREACOL SYRUP | A. Menarini Hong Kong Limited |
-| HK-47305 | GUFENSIN TAB 200MG | Christo Pharm Ltd |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62004 | MUCINEX EXTENDED-RELEASE TABLETS 600MG | 單一成分 | RECKITT BENCKISER HONG KONG LTD | 有效 |
+| HK-63897 | MUCINEX EXTENDED-RELEASE TABLETS 1200MG | 單一成分 | RECKITT BENCKISER HONG KONG LTD | 有效 |
+| HK-51114 | ROBITUSSIN EX SYRUP 20MG/ML | 單一成分 | HALEON HONG KONG LIMITED | 有效 |
+| HK-36928 | BREACOL SYRUP | 單一成分 | A. MENARINI HONG KONG LIMITED | 有效 |
+| HK-47305 | GUFENSIN TAB 200MG | 單一成分 | CHRISTO PHARM LTD | 有效 |
+
+上表列出其中 5 張（共 169 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

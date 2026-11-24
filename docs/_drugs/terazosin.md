@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "TERAZOSIN"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Terazosin：預測新適應症為頭皮單純性毛髮稀少症 (hypotrichosis simplex of the scalp)（證據等級 L5）。香港藥劑製品註冊：20 張（有效 20 張）"
 ---
 
@@ -101,13 +101,19 @@ TxGNN 模型排名第 1 的預測為「頭皮單純性毛髮稀少症」，但�
 
 資料中未提供劑型與核准適應症文字。以下列出 5 張主要許可證：
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-28971 | HYTRIN TAB 2MG | ABBOTT LAB LTD |
-| HK-28970 | HYTRIN TAB 5MG | ABBOTT LAB LTD |
-| HK-28972 | HYTRIN TAB 1MG | ABBOTT LAB LTD |
-| HK-61096 | KOZOSIN TAB 1MG | LSB (HK) LIMITED |
-| HK-52958 | TERAZO TAB 1MG | EUROPHARM LAB CO LTD |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-28971 | HYTRIN TAB 2MG | 單一成分 | ABBOTT LAB LTD | 有效 |
+| HK-28970 | HYTRIN TAB 5MG | 單一成分 | ABBOTT LAB LTD | 有效 |
+| HK-28972 | HYTRIN TAB 1MG | 單一成分 | ABBOTT LAB LTD | 有效 |
+| HK-61096 | KOZOSIN TAB 1MG | 單一成分 | LSB (HK) LIMITED | 有效 |
+| HK-52958 | TERAZO TAB 1MG | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+
+上表列出其中 5 張（共 20 張）。
+
+<!-- licenses:end -->
 
 其餘 15 張包含 APO-TERAZOSIN、PMS-TERAZOSIN、TERAZOSIN-TEVA、TERADRIN、APT-TERASIN、RASINOL、TERASIN、KORUS-TERAZOSIN 等品牌。
 

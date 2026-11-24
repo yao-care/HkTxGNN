@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 706
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pirfenidone：預測新適應症為肥大細胞瘤外型（證據等級 L5）。原適應症：特發性肺纖維化、急性間質性肺炎、特發性間質性肺炎"
 monitor_inn: "Pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
@@ -91,10 +91,14 @@ TxGNN 模型預測分數最高的是**肥大細胞瘤外型 (extracutaneous mast
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67135 | ESBRIET TABLETS 267MG（羅氏，ROCHE HONG KONG LIMITED） | 未載明 | 未載明 |
-| HK-67136 | ESBRIET TABLETS 801MG（羅氏，ROCHE HONG KONG LIMITED） | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67135 | ESBRIET TABLETS 267MG | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-67136 | ESBRIET TABLETS 801MG | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

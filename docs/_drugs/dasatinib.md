@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 248
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
 description: "Dasatinib：預測新適應症為尤文氏肉瘤 (Ewing sarcoma)（證據等級 L2）。香港藥劑製品註冊：23 張（有效 21 張）"
@@ -100,13 +100,19 @@ TxGNN 模型預測它可能對**尤文氏肉瘤 (Ewing sarcoma)** 有效，目�
 
 <!-- review:end hk-lic-20261117-dasatinib-1 -->
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-55803 | SPRYCEL TAB 70MG | Bristol-Myers Squibb Pharma (HK) Ltd |
-| HK-55804 | SPRYCEL TAB 50MG | Bristol-Myers Squibb Pharma (HK) Ltd |
-| HK-55805 | SPRYCEL TAB 20MG | Bristol-Myers Squibb Pharma (HK) Ltd |
-| HK-66653 | DASATINIB SANDOZ TABLETS 20MG | Sandoz Hong Kong Limited |
-| HK-67501 | DASATINIB TEVA TABLETS 20MG | Teva Pharmaceutical Hong Kong Limited |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55803 | SPRYCEL TAB 70MG | 單一成分 | BRISTOL-MYERS SQUIBB PHARMA (HK) LTD | 有效 |
+| HK-55804 | SPRYCEL TAB 50MG | 單一成分 | BRISTOL-MYERS SQUIBB PHARMA (HK) LTD | 有效 |
+| HK-55805 | SPRYCEL TAB 20MG | 單一成分 | BRISTOL-MYERS SQUIBB PHARMA (HK) LTD | 有效 |
+| HK-66653 | DASATINIB SANDOZ TABLETS 20MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-67501 | DASATINIB TEVA TABLETS 20MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+
+上表列出其中 5 張（共 23 張）。
+
+<!-- licenses:end -->
 
 其餘許可證包括 Apo-Dasatinib（Hind Wing）、Stada、Teva、Sandoz、Scigen（DCH Auriga）與 Jindun 的學名藥，規格涵蓋 20 mg、50 mg、70 mg。
 

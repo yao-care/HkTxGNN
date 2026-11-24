@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 154
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Capmatinib：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L5）。原適應症：許可證資料未載明"
 monitor_inn: "Capmatinib"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome"]
@@ -74,10 +74,14 @@ MET 訊號被認為與類風濕性關節炎的滑膜發炎與血管新生有關�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66993 | TABRECTA TABLETS 200MG | 未載明 | 未載明 |
-| HK-66992 | TABRECTA TABLETS 150MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66993 | TABRECTA TABLETS 200MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-66992 | TABRECTA TABLETS 150MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證均為單一成分、現行有效，持證商為 Novartis Pharmaceuticals (HK) Limited。
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ERGOCALCIFEROL"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "renal osteodystrophy", "calcium-alkali syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ergocalciferol：預測新適應症為肢中段發育不良，Campailla-Martinelli 型 (acromesomelic dysplasia, Campailla Martinelli type)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
@@ -72,12 +72,16 @@ TxGNN 模型預測它可能對**肢中段發育不良，Campailla-Martinelli 型
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-36205 | VITALIPID N INFANT INJ | FRESENIUS KABI HONG KONG LIMITED |
-| HK-36206 | VITALIPID N ADULT INJ | FRESENIUS KABI HONG KONG LIMITED |
-| HK-01178 | POLIBABY CREAM | SATO PHARMACEUTICAL (HK) CO LTD |
-| HK-52479 | AMINOLEBAN EN POWDER | OTSUKA PHARMACEUTICAL (H.K.) LIMITED |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-36205 | VITALIPID N INFANT INJ | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-36206 | VITALIPID N ADULT INJ | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-01178 | POLIBABY CREAM | 複方 | SATO PHARMACEUTICAL (HK) CO LTD | 有效 |
+| HK-52479 | AMINOLEBAN EN POWDER | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 目前列出的 4 張許可證皆為有效狀態，香港市場上已有上市產品。
 

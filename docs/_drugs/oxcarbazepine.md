@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 650
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "OXCARBAZEPINE"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine：預測新適應症為Restless legs syndrome（證據等級 L4）。香港藥劑製品註冊：5 張（有效 5 張）"
@@ -92,13 +92,17 @@ Oxcarbazepine 是一種鈉離子通道阻斷型抗癲癇藥物，原本用於局
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-49918 | TRILEPTAL TAB 600MG | — | — |
-| HK-66355 | TRILOJUB TABLETS 300MG | — | — |
-| HK-50215 | TRILEPTAL TAB 300MG | — | — |
-| HK-50007 | TRILEPTAL ORAL SUSP 60MG/ML | — | — |
-| HK-66356 | TRILOJUB TABLETS 600MG | — | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-49918 | TRILEPTAL TAB 600MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-66355 | TRILOJUB TABLETS 300MG | 單一成分 | CONTROLLED MEDICATIONS LIMITED | 有效 |
+| HK-50215 | TRILEPTAL TAB 300MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-50007 | TRILEPTAL ORAL SUSP 60MG/ML | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-66356 | TRILOJUB TABLETS 600MG | 單一成分 | CONTROLLED MEDICATIONS LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

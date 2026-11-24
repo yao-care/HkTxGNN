@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 228
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Conjugated estrogens"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "rheumatoid arthritis", "heparin cofactor 2 deficiency", "Prinzmetal angina", "hemoglobinopathy", "thrombophilia"]
 description: "Conjugated Estrogens：預測新適應症為偏頭痛 (migraine disorder)（證據等級 L5）。香港藥劑製品註冊：6 張（有效 6 張）"
@@ -81,13 +81,19 @@ TxGNN 模型預測它可能對**偏頭痛 (migraine disorder)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-29754 | PREMARIN TAB 0.3MG | — | — |
-| HK-29755 | PREMARIN TAB 0.625MG | — | — |
-| HK-29759 | PREMARIN VAGINAL CREAM 0.625MG/G | — | — |
-| HK-29753 | PREMARIN FOR INJ 25MG | — | — |
-| HK-67532 | PREMINA TABLETS 0.3MG | — | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-29754 | PREMARIN TAB 0.3MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-29755 | PREMARIN TAB 0.625MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-29759 | PREMARIN VAGINAL CREAM 0.625MG/G | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-29753 | PREMARIN FOR INJ 25MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-67532 | PREMINA TABLETS 0.3MG | 單一成分 | SB PHARMA LIMITED | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

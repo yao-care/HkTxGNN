@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "PROPYLENE GLYCOL"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "craniostenosis cataract"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Propylene Glycol：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L5）。原適應症：乾眼症、乾眼病"
 ---
 
@@ -87,11 +87,15 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前**
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-59636 | SYSTANE ULTRA LUBRICANT EYE DROPS | 未載明 | 未載明 |
-| HK-61280 | SYSTANE ULTRA LUBRICANT EYE DROPS PRESERVATIVE FREE | 未載明 | 未載明 |
-| HK-67320 | SYSTANE ULTRA LUBRICANT EYE DROPS | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-59636 | SYSTANE ULTRA LUBRICANT EYE DROPS | 複方 | ALCON HONG KONG LTD | 有效 |
+| HK-61280 | SYSTANE ULTRA LUBRICANT EYE DROPS PRESERVATIVE FREE | 複方 | ALCON HONG KONG LTD | 有效 |
+| HK-67320 | SYSTANE ULTRA LUBRICANT EYE DROPS | 複方 | ALCON HONG KONG LTD | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證皆為單一成分、有效狀態，持證商為 ALCON HONG KONG LTD。
 

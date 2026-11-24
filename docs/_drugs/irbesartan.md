@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 483
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 description: "Irbesartan：預測新適應症為Malignant hypertensive renal disease（證據等級 L5）。香港藥劑製品註冊：46 張（有效 46 張）"
@@ -73,13 +73,19 @@ Irbesartan 是血管張力素 II 第一型受體阻斷劑（ARB），原本用�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64347 | EURBESAR TABLETS 300MG | 錠劑 | 未提供 |
-| HK-42891 | APROVEL TAB 150MG | 錠劑 | 未提供 |
-| HK-64346 | EURBESAR TABLETS 150MG | 錠劑 | 未提供 |
-| HK-60779 | CONVERIUM TAB 150MG | 錠劑 | 未提供 |
-| HK-67444 | IFIRMASTA TABLETS 150MG | 錠劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64347 | EURBESAR TABLETS 300MG | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-42891 | APROVEL TAB 150MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-64346 | EURBESAR TABLETS 150MG | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-60779 | CONVERIUM TAB 150MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-67444 | IFIRMASTA TABLETS 150MG | 單一成分 | SINO PACIFIC PHARMA COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 46 張）。
+
+<!-- licenses:end -->
 
 （共 46 張含本藥成分的許可證，全部有效，單一成分 29 張、複方 17 張；上表僅列出 5 張。）
 

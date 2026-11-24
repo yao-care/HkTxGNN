@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 497
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]
 description: "Ketoconazole：預測新適應症為痤瘡 (acne (disease))（證據等級 L4）。香港藥劑製品註冊：52 張（有效 52 張）"
@@ -103,13 +103,19 @@ TxGNN 模型預測它可能對**痤瘡 (Acne)** 有效，
 
 <!-- review:end hk-lic-20261117-ketoconazole-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55333 | KETOVID CREAM 2% | 乳膏（依品名） | 未載明 |
-| HK-66462 | KEPRO SHAMPOO 2% W/V | 洗髮水（依品名） | 未載明 |
-| HK-47033 | DEZOR SHAMPOO 2% | 洗髮水（依品名） | 未載明 |
-| HK-45535 | MYCORAL CREAM 2% | 乳膏（依品名） | 未載明 |
-| HK-64475 | KETONA CREAM 20MG/G | 乳膏（依品名） | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55333 | KETOVID CREAM 2% | 單一成分 | HOVID LIMITED | 有效 |
+| HK-66462 | KEPRO SHAMPOO 2% W/V | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-47033 | DEZOR SHAMPOO 2% | 單一成分 | TAISHO PHARMACEUTICAL (HK) LTD | 有效 |
+| HK-45535 | MYCORAL CREAM 2% | 單一成分 | HANG LUNG TRADING (H.K.) CO | 有效 |
+| HK-64475 | KETONA CREAM 20MG/G | 單一成分 | HITPHARM PHARMACEUTICAL CO LTD | 有效 |
+
+上表列出其中 5 張（共 52 張）。
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "HEXACHLOROPHENE"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "skin disease", "seborrheic dermatitis", "reticulate pigment disorder", "lichen myxedematosus", "cutaneous focal mucinosis", "diffuse cutaneous mucinosis", "scleredema adultorum", "erythema palmare hereditarium"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Hexachlorophene：預測新適應症為脂漏性角化症 (Seborrheic Keratosis)（證據等級 L5）。原適應症：香港許可證未載明核准適應症"
 ---
 
@@ -112,9 +112,13 @@ ChEMBL（EMBL-EBI）收錄的 Hexachlorophene 作用機轉（非官方翻譯）�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-23582 | C B OINTMENT | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-23582 | C B OINTMENT | 複方 | KAI YUEN PHARMACEUTICAL CO | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

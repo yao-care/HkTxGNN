@@ -3,7 +3,7 @@ layout: default
 title: Monensin
 parent: 僅已知用途（無新預測）
 nav_order: 596
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Monensin: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 indication_count: 0
@@ -70,6 +70,13 @@ TxGNN 模型對 Monensin 沒有分數達 0.99 以上的候選適應症，因此�
 
 ## 香港上市資訊
 
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-41844 | ELANCOBAN 200 PREMIX 200G/kg (VET) | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - UNIVERSAL DIVISION | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

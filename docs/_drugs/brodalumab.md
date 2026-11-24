@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 131
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Brodalumab：預測新適應症為類圓線蟲病 (Strongyloidiasis)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Brodalumab"
 predicted_indications: ["strongyloidiasis", "eye disease", "vitamin deficiency disorder", "von Hippel anomaly", "optic perineuritis", "recurrent idiopathic neuroretinitis", "chronic relapsing inflammatory optic neuropathy", "isolated optic neuritis", "episcleritis periodica fugax", "nodular episcleritis"]
@@ -91,9 +91,13 @@ Brodalumab 是 IL-17 受體 A 拮抗劑，可同時阻斷多種 IL-17 家族細�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66126 | LUMICEF 預填充注射筒注射液 210mg/1.5ml（DKSH Hong Kong Limited） | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66126 | LUMICEF SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 210MG/1.5ML | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

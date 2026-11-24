@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 595
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MOCLOBEMIDE"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
 description: "Moclobemide：預測新適應症為懼曠症 (agoraphobia)（證據等級 L3）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -91,9 +91,13 @@ ChEMBL（EMBL-EBI）收錄的 Moclobemide 作用機轉（非官方翻譯）：�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-35868 | AURORIX TAB 150MG（持有人：VIATRIS HEALTHCARE HONG KONG LIMITED） | 錠劑（TAB） | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-35868 | AURORIX TAB 150MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

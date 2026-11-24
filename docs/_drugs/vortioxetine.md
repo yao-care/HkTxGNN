@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 942
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VORTIOXETINE"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 description: "Vortioxetine：預測新適應症為神經症 (neurotic disorder)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
@@ -87,11 +87,15 @@ TxGNN 模型預測它可能對 **神經症 (Neurotic Disorder)** 有效，但目
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-63599 | BRINTELLIX TABLETS 20MG | — | 未提供 |
-| HK-63600 | BRINTELLIX TABLETS 10MG | — | 未提供 |
-| HK-63601 | BRINTELLIX TABLETS 5MG | — | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63599 | BRINTELLIX TABLETS 20MG | 單一成分 | Lundbeck HK Limited | 有效 |
+| HK-63600 | BRINTELLIX TABLETS 10MG | 單一成分 | Lundbeck HK Limited | 有效 |
+| HK-63601 | BRINTELLIX TABLETS 5MG | 單一成分 | Lundbeck HK Limited | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證皆為單一成分、有效狀態，持證商為 Lundbeck HK Limited。
 

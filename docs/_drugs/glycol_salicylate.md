@@ -5,7 +5,7 @@ layout: default
 title: Glycol Salicylate
 parent: 僅已知用途（無新預測）
 nav_order: 423
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Glycol Salicylate: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Glycol salicylate"
 predicted_indications: []
@@ -50,13 +50,19 @@ evidence_level: N/A
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66114 | FORTOCOOL PAIN PATCH | 未載明 | 未載明 |
-| HK-56055 | PANADOL PAIN RELIEF PATCH | 未載明 | 未載明 |
-| HK-38738 | SALONSIP PLASTER | 未載明 | 未載明 |
-| HK-59071 | MENTHOLATUM DEEP COLD PATCH | 未載明 | 未載明 |
-| HK-66949 | KORI AFTER HAP F HOT PATCH | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66114 | FORTOCOOL PAIN PATCH | 複方 | FP HEALTHCARE LIMITED | 有效 |
+| HK-56055 | PANADOL PAIN RELIEF PATCH | 複方 | HALEON HONG KONG LIMITED | 有效 |
+| HK-38738 | SALONSIP PLASTER | 複方 | HISAMITSU PHARMACEUTICAL (HONG KONG) CO., LIMITED | 有效 |
+| HK-59071 | MENTHOLATUM DEEP COLD PATCH | 複方 | MENTHOLATUM (ASIA PACIFIC) LIMITED | 有效 |
+| HK-66949 | KORI AFTER HAP F HOT PATCH | 複方 | MING TAI PHARMACEUTICALS COMPANY O/B SURE BRILLIANT INDUSTRIAL LIMITED | 有效 |
+
+上表列出其中 5 張（共 13 張）。
+
+<!-- licenses:end -->
 
 （共 13 張有效單方許可證，以上僅列 5 張主要許可證，皆為有效狀態。）
 

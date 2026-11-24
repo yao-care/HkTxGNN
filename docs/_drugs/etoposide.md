@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ETOPOSIDE"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etoposide：預測新適應症為Well-differentiated fetal adenocarcinoma of the lung（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
@@ -94,12 +94,16 @@ Ewing 肉瘤是兒童與年輕成人的惡性骨與軟組織腫瘤。文獻指�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-40551 | ETOPOSIDE INJ 20MG/ML (ABIC) | 未提供 | 未提供 |
-| HK-40664 | LASTET CAP 100MG | 未提供 | 未提供 |
-| HK-40663 | LASTET CAP 50MG | 未提供 | 未提供 |
-| HK-42309 | ETOPOSID EBEWE CONC FOR IV INF 20MG/ML | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-40551 | ETOPOSIDE INJ 20MG/ML (ABIC) | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-40664 | LASTET CAP 100MG | 單一成分 | MAIN LIFE CORP LTD | 有效 |
+| HK-40663 | LASTET CAP 50MG | 單一成分 | MAIN LIFE CORP LTD | 有效 |
+| HK-42309 | ETOPOSID EBEWE CONC FOR IV INF 20MG/ML | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 以上 4 張許可證均為單一成分且有效。本次彙整的資料未包含許可證核准適應症文字，因此原適應症僅能視為知識圖譜中記錄的關聯。
 

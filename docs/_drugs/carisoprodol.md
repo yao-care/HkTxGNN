@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 165
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carisoprodol：預測新適應症為失眠 (Insomnia)（證據等級 L5）。原適應症：資料中未載明"
 monitor_inn: "CARISOPRODOL"
 predicted_indications: ["insomnia (disease)"]
@@ -84,9 +84,13 @@ TxGNN 分數很高（0.9902），但這僅是計算模型的預測，不能取�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-48198 | CARISOPRODOL TAB 125MG | 錠劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-48198 | CARISOPRODOL TAB 125MG | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

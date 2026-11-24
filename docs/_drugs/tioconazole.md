@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 880
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TIOCONAZOLE"
 predicted_indications: ["vulvitis", "postmenopausal atrophic vaginitis"]
 description: "Tioconazole：預測新適應症為外陰炎 (vulvitis)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
@@ -83,12 +83,16 @@ ChEMBL（EMBL-EBI）收錄的 Tioconazole 作用機轉（非官方翻譯）：�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-22534 | TROSYD DERMAL CREAM 1% | 乳膏 | 未提供 |
-| HK-66184 | TERBUL CREAM 10MG/G | 乳膏 | 未提供 |
-| HK-57887 | GYNO-ELLYCIE VAGINAL OINTMENT 6.5% | 陰道軟膏 | 未提供 |
-| HK-58904 | ELLYCIE NAIL SOLUTION 28% | 指甲溶液 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-22534 | TROSYD DERMAL CREAM 1% | 單一成分 | JOHNSON & JOHNSON CONSUMER (HONG KONG) LIMITED | 有效 |
+| HK-66184 | TERBUL CREAM 10MG/G | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-57887 | GYNO-ELLYCIE VAGINAL OINTMENT 6.5% | 單一成分 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+| HK-58904 | ELLYCIE NAIL SOLUTION 28% | 單一成分 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

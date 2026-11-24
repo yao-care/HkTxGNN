@@ -5,7 +5,7 @@ layout: default
 title: Tremelimumab
 parent: 僅已知用途（無新預測）
 nav_order: 901
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Tremelimumab: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Tremelimumab"
 predicted_indications: []
@@ -50,10 +50,14 @@ evidence_level: N/A
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68211 | IMJUDO CONCENTRATE FOR SOLUTION FOR INFUSION 300MG/15ML | 濃縮輸注液 | 資料未載明 |
-| HK-68210 | IMJUDO CONCENTRATE FOR SOLUTION FOR INFUSION 25MG/1.25ML | 濃縮輸注液 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68211 | IMJUDO CONCENTRATE FOR SOLUTION FOR INFUSION 300MG/15ML | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-68210 | IMJUDO CONCENTRATE FOR SOLUTION FOR INFUSION 25MG/1.25ML | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證皆為有效，持有廠商為 AstraZeneca Hong Kong Limited。
 

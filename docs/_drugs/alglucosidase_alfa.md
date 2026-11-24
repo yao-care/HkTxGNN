@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alglucosidase Alfa：預測新適應症為成人多葡聚醣體病 (Adult Polyglucosan Body Disease)（證據等級 L5）。原適應症：肝醣儲積症（glycogen storage disease）"
 monitor_inn: "ALGLUCOSIDASE ALFA"
 predicted_indications: ["adult polyglucosan body disease", "congenital entropion", "congenital ectropion", "congenital Horner syndrome (disease)", "ptosis-vocal cord paralysis syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "epiblepharon", "ptosis-strabismus-ectopic pupils syndrome"]
@@ -87,9 +87,13 @@ APBD 由肝醣分支酶（GBE1）缺乏引起，導致分支不良的多葡聚�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-56437 | MYOZYME FOR INJ 50MG（廠商：SANOFI HONG KONG LIMITED） | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-56437 | MYOZYME FOR INJ 50MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

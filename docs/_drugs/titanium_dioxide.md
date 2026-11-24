@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Titanium dioxide"
 predicted_indications: ["drug-induced osteoporosis", "diabetic retinopathy", "diabetic cataract", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "tetanic cataract", "immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Titanium Dioxide：預測新適應症為藥物誘發性骨質疏鬆症（證據等級 L5）。原適應症：許可證資料未載明"
 ---
 
@@ -71,9 +71,13 @@ TxGNN 模型預測它可能對**藥物誘發性骨質疏鬆症 (Drug-induced Ost
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-01669 | EPICOR CREAM | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-01669 | EPICOR CREAM | 複方 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

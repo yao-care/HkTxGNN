@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "METHOXSALEN"
 predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methoxsalen：預測新適應症為局限性類帕哲氏網狀細胞增生症 (Localized Pagetoid Reticulosis)（證據等級 L5）。原適應症：知識圖譜記錄：原發性皮膚 T 細胞非何杰金氏淋巴瘤、原發性皮膚 T 細胞淋巴瘤、白斑"
 ---
 
@@ -72,10 +72,14 @@ ChEMBL（EMBL-EBI）收錄的 Methoxsalen 作用機轉（非官方翻譯）：�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-02975 | MELADININE PAINT 0.75% | 未提供 | 未提供 |
-| HK-02976 | MELADININE TAB 10MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-02975 | MELADININE PAINT 0.75% | 單一成分 | WILLIAM PHARM AGENCY | 有效 |
+| HK-02976 | MELADININE TAB 10MG | 單一成分 | WILLIAM PHARM AGENCY | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

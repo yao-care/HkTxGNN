@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "MITOXANTRONE"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mitoxantrone：預測新適應症為上呼吸消化道腫瘤（證據等級 L5）。原適應症：香港許可證未提供適應症文字"
 ---
 
@@ -106,10 +106,14 @@ TxGNN 模型預測它可能對**上呼吸消化道腫瘤 (Upper Aerodigestive Tr
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-53817 | MITOXANTRON EBEWE INJ 2MG/ML | 未提供 | 未提供 |
-| HK-49349 | SANTRONE INJ 2MG/ML | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-53817 | MITOXANTRON EBEWE INJ 2MG/ML | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-49349 | SANTRONE INJ 2MG/ML | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張均為單一成分許可證，狀態有效。
 

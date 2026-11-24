@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 866
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Terlipressin"
 predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder"]
 description: "Terlipressin：預測新適應症為Open-angle glaucoma（證據等級 L5）。香港藥劑製品註冊：6 張（有效 6 張）"
@@ -95,13 +95,19 @@ TxGNN 模型預測的前幾名新適應症中，**肺動脈高壓 (Pulmonary Hyp
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66715 | TERLIPRESSIN ACETATE EVER PHARMA SOLUTION FOR INJECTION 2MG/10ML | 注射液 | 資料未提供 |
-| HK-68775 | TERLIPRESSIN AFT SOLUTION FOR INJECTION 1MG/8.5ML | 注射液 | 資料未提供 |
-| HK-68823 | TERLIPRESSIN ACETATE ALTAN SOLUTION FOR INJECTION 1MG/8.5ML | 注射液 | 資料未提供 |
-| HK-66714 | TERLIPRESSIN ACETATE EVER PHARMA SOLUTION FOR INJECTION 1MG/5ML | 注射液 | 資料未提供 |
-| HK-61791 | GLYPRESSIN SOLUTION FOR INJECTION 1MG/8.5ML | 注射液 | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66715 | TERLIPRESSIN ACETATE EVER PHARMA SOLUTION FOR INJECTION 2MG/10ML | 單一成分 | EVER NEURO PHARMA (ASIA) LIMITED | 有效 |
+| HK-68775 | TERLIPRESSIN AFT SOLUTION FOR INJECTION 1MG/8.5ML | 單一成分 | UNITED ITALIAN CORP (HK) LTD | 有效 |
+| HK-68823 | TERLIPRESSIN ACETATE ALTAN SOLUTION FOR INJECTION 1MG/8.5ML | 單一成分 | THE INTERNATIONAL MEDICAL COMPANY LIMITED | 有效 |
+| HK-66714 | TERLIPRESSIN ACETATE EVER PHARMA SOLUTION FOR INJECTION 1MG/5ML | 單一成分 | EVER NEURO PHARMA (ASIA) LIMITED | 有效 |
+| HK-61791 | GLYPRESSIN SOLUTION FOR INJECTION 1MG/8.5ML | 單一成分 | FERRING PHARMACEUTICALS LTD | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 （另有 HK-36916 GLYPRESSIN 1MG/VIAL INJ WITH SOLVENT，同為 Ferring 產品，共 6 張有效單方許可證。）
 

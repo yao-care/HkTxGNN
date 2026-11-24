@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "INSULIN GLULISINE"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Glulisine：預測新適應症為硫胺素反應性功能障礙症候群（證據等級 L5）。原適應症：知識圖譜記錄：糖尿病、糖尿病酮酸中毒"
 ---
 
@@ -70,9 +70,13 @@ TxGNN 模型預測它可能對**硫胺素反應性功能障礙症候群 (thiamin
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-56757 | APIDRA SOLOSTAR SOLUTION FOR INJ 100 UNITS/ML (PRE-FILLED PEN) | 預充填注射筆（注射液） | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-56757 | APIDRA SOLOSTAR SOLUTION FOR INJ 100 UNITS/ML (PRE-FILLED PEN) | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "NITROFURANTOIN"
 predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "sclerosing cholangitis", "methemoglobinemia, alpha type", "gout", "methemoglobinemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nitrofurantoin：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L5）。原適應症：本次整理的資料中，香港許可證未載明核准適應症文字"
 ---
 
@@ -86,13 +86,17 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-05065 | NITROFURANTOIN TAB 50MG (SYNCO) | 未載明 | 未載明 |
-| HK-43743 | APO-NITROFURANTOIN TAB 100MG | 未載明 | 未載明 |
-| HK-50570 | UROBID CAP | 未載明 | 未載明 |
-| HK-43231 | UROBILIN CAP | 未載明 | 未載明 |
-| HK-50571 | UROSINA CAP | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-05065 | NITROFURANTOIN TAB 50MG (SYNCO) | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-43743 | APO-NITROFURANTOIN TAB 100MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-50570 | UROBID CAP | 複方 | EUROPHARM LAB CO LTD | 有效 |
+| HK-43231 | UROBILIN CAP | 複方 | EUROPHARM LAB CO LTD | 有效 |
+| HK-50571 | UROSINA CAP | 複方 | EUROPHARM LAB CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 5 張許可證均為單一成分且有效。
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CIMETIDINE"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "acne (disease)", "abnormality of glucagon secretion"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cimetidine：預測新適應症為消化性潰瘍穿孔 (peptic ulcer perforation)（證據等級 L5）。香港藥劑製品註冊：85 張（有效 81 張）"
 ---
 
@@ -89,13 +89,19 @@ TxGNN 模型預測它可能對**消化性潰瘍穿孔 (peptic ulcer perforation)
 
 <!-- review:end hk-lic-20261117-cimetidine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-41813 | TAMEDIN F C TAB 400MG | 未記載 | 未記載 |
-| HK-47776 | ULCIMET 400 TAB 400MG | 未記載 | 未記載 |
-| HK-38804 | STOMCAP-1 TAB 200MG | 未記載 | 未記載 |
-| HK-65798 | SANWELL TABLETS 200MG | 未記載 | 未記載 |
-| HK-63341 | SYNGAMET TABLET 200MG | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-41813 | TAMEDIN F C TAB 400MG | 單一成分 | KAI YUEN PHARMACEUTICAL CO | 有效 |
+| HK-47776 | ULCIMET 400 TAB 400MG | 單一成分 | NATURAL HEALTH RESOURCES COMPANY LIMITED | 已註銷 |
+| HK-38804 | STOMCAP-1 TAB 200MG | 單一成分 | LOYAL ADVANCE LIMITED | 有效 |
+| HK-65798 | SANWELL TABLETS 200MG | 單一成分 | HITPHARM PHARMACEUTICAL CO LTD | 有效 |
+| HK-63341 | SYNGAMET TABLET 200MG | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+
+上表列出其中 5 張（共 85 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

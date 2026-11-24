@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 277
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "Dihydrocodeine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "headache disorder", "cold urticaria", "trigeminal autonomic cephalalgia"]
 description: "Dihydrocodeine：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。香港藥劑製品註冊：11 張（有效 11 張）"
@@ -92,13 +92,19 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65861 | VICK-DICOT TABLETS 30MG | 未載明 | 未載明 |
-| HK-57588 | DICODEIN TAB 30MG | 未載明 | 未載明 |
-| HK-54981 | REUTOO SYRUP 10MG/5ML | 未載明 | 未載明 |
-| HK-57139 | DICODEIN ORAL SOLUTION 15MG/5ML | 未載明 | 未載明 |
-| HK-55815 | PARACODONE TAB | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65861 | VICK-DICOT TABLETS 30MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-57588 | DICODEIN TAB 30MG | 單一成分 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+| HK-54981 | REUTOO SYRUP 10MG/5ML | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-57139 | DICODEIN ORAL SOLUTION 15MG/5ML | 單一成分 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+| HK-55815 | PARACODONE TAB | 複方 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+
+上表列出其中 5 張（共 11 張）。
+
+<!-- licenses:end -->
 
 共 11 張有效單方許可證（上表僅列 5 張），無已註銷者。
 

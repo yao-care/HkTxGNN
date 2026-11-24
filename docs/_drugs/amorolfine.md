@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 57
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Amorolfine：預測新適應症為藥物誘發性骨質疏鬆 (drug-induced osteoporosis)（證據等級 L5）。原適應症：指甲真菌感染"
 monitor_inn: "Amorolfine"
 predicted_indications: ["drug-induced osteoporosis", "disease of retroperitoneum", "disease of uterine broad ligament", "lumbar spinal stenosis", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "sacrum chordoma", "lymph node palisaded myofibroblastoma", "urethral disease"]
@@ -94,13 +94,19 @@ TxGNN 模型預測它可能對**藥物誘發性骨質疏鬆 (drug-induced osteop
 
 <!-- review:end hk-lic-20261117-amorolfine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-36522 | LOCERYL NAIL LACQUER 5%（Galderma） | 指甲油（外用） | 許可證資料未載明 |
-| HK-51795 | LOCERYL CREAM 0.25%W/W（Galderma） | 乳膏（外用） | 許可證資料未載明 |
-| HK-61679 | AMOROLFINE NAIL LACQUER 5% W/V（Hind Wing） | 指甲油（外用） | 許可證資料未載明 |
-| HK-66253 | LOMORYL CREAM 2.5MG/G（Julius Chen） | 乳膏（外用） | 許可證資料未載明 |
-| HK-63856 | PHARMA AMOROLFINE NAIL LACQUER 5% W/V（LSB） | 指甲油（外用） | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-36522 | LOCERYL NAIL LACQUER 5% | 單一成分 | GALDERMA HONG KONG LIMITED | 有效 |
+| HK-51795 | LOCERYL CREAM 0.25%W/W | 單一成分 | GALDERMA HONG KONG LIMITED | 有效 |
+| HK-61679 | AMOROLFINE NAIL LACQUER 5% W/V | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-66253 | LOMORYL CREAM 2.5MG/G | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-63856 | PHARMA AMOROLFINE NAIL LACQUER 5% W/V | 單一成分 | LSB (HK) LIMITED | 有效 |
+
+上表列出其中 5 張（共 21 張）。
+
+<!-- licenses:end -->
 
 ---
 

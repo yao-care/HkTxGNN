@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 536
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lonoctocog Alfa：預測新適應症為類血管性血友病 (pseudo-von Willebrand disease)（證據等級 L5）。原適應症：血友病（hemophilia）、女性帶因者的症狀性血友病"
 monitor_inn: "LONOCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome"]
@@ -79,12 +79,16 @@ TxGNN 模型（深度學習）給出的高分數（0.9985）來自模型本身�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66199 | AFSTYLA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 1000 IU | 注射用粉劑及溶劑 | 資料未載明 |
-| HK-66200 | AFSTYLA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 1500 IU | 注射用粉劑及溶劑 | 資料未載明 |
-| HK-66201 | AFSTYLA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 250 IU | 注射用粉劑及溶劑 | 資料未載明 |
-| HK-66202 | AFSTYLA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 500 IU | 注射用粉劑及溶劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66199 | AFSTYLA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 1000 IU | 複方 | CSL BEHRING ASIA PACIFIC LIMITED | 有效 |
+| HK-66200 | AFSTYLA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 1500 IU | 複方 | CSL BEHRING ASIA PACIFIC LIMITED | 有效 |
+| HK-66201 | AFSTYLA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 250 IU | 複方 | CSL BEHRING ASIA PACIFIC LIMITED | 有效 |
+| HK-66202 | AFSTYLA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 500 IU | 複方 | CSL BEHRING ASIA PACIFIC LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 四張許可證皆為單一成分、現行有效，持證商為 CSL Behring Asia Pacific Limited。
 

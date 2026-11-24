@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 739
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Propofol：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L1）。原適應症：目前香港許可證資料未載明核准適應症"
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -89,13 +89,17 @@ Propofol 是 GABA-A 受體的正向別構調節劑。增強 GABA 抑制作用，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-27322 | DIPRIVAN INJ 1% | 注射劑 | 資料未載明 |
-| HK-66287 | PROPOFOL-LIPURO EMULSION FOR INJECTION/INFUSION 500MG/50ML | 注射／輸注用乳劑 | 資料未載明 |
-| HK-55671 | FRESOFOL INJ 1% MCT/LCT | 注射劑 | 資料未載明 |
-| HK-66286 | PROPOFOL-LIPURO EMULSION FOR INJECTION/INFUSION 200MG/20ML | 注射／輸注用乳劑 | 資料未載明 |
-| HK-49677 | PROPOFOL-LIPURO INJ 1% | 注射劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-27322 | DIPRIVAN INJ 1% | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+| HK-66287 | PROPOFOL-LIPURO EMULSION FOR INJECTION/INFUSION 500MG/50ML | 單一成分 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-55671 | FRESOFOL INJ 1% MCT/LCT | 單一成分 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-66286 | PROPOFOL-LIPURO EMULSION FOR INJECTION/INFUSION 200MG/20ML | 單一成分 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-49677 | PROPOFOL-LIPURO INJ 1% | 單一成分 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

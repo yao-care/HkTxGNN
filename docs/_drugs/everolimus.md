@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 8
 monitor_inn: "EVEROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Everolimus：預測新適應症為脂肪肉瘤 (Liposarcoma)（證據等級 L2）。原適應症：香港許可證資料未載明核准適應症文字"
 ---
 
@@ -81,13 +81,19 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效。
 
 香港共有 14 張單一成分許可證，皆為有效狀態。資料中未載明核准適應症文字與劑型，以下列出 5 張主要許可證：
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-59060 | AFINITOR TAB 5MG | 未載明 | 未載明 |
-| HK-61710 | AFINITOR TABLETS 2.5MG | 未載明 | 未載明 |
-| HK-54335 | CERTICAN TAB 0.5MG | 未載明 | 未載明 |
-| HK-68853 | EVEROLIMUS TEVA TABLETS 10MG | 未載明 | 未載明 |
-| HK-68419 | EVERCHEM TABLETS 2.5MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-59060 | AFINITOR TAB 5MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-61710 | AFINITOR TABLETS 2.5MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-54335 | CERTICAN TAB 0.5MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-68853 | EVEROLIMUS TEVA TABLETS 10MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-68419 | EVERCHEM TABLETS 2.5MG | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - HEALTHCARE DIVISION | 有效 |
+
+上表列出其中 5 張（共 14 張）。
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

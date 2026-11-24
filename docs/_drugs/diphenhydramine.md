@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 283
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DIPHENHYDRAMINE"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Diphenhydramine：預測新適應症為酒糟性結膜炎 (rosacea conjunctivitis)（證據等級 L5）。香港藥劑製品註冊：281 張（有效 277 張）"
@@ -80,13 +80,19 @@ TxGNN 模型預測它可能對**酒糟性結膜炎 (Rosacea Conjunctivitis)** �
 
 <!-- review:end hk-lic-20261117-diphenhydramine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66947 | JOYISH DIPHENHYDRAMINE HYDROCHLORIDE CAPSULES 25MG | 膠囊（依品名） | 未載明 |
-| HK-13049 | NA-DRAMINE SYRUP 20MG/5ML | 糖漿（依品名） | 未載明 |
-| HK-67555 | DIPHENHYDRAMINE HYDROCHLORIDE INJECTION USP 50MG/1ML | 注射劑（依品名） | 未載明 |
-| HK-36413 | ANTICIN CREAM 2% | 乳膏（依品名） | 未載明 |
-| HK-46402 | DIPHENHYDRAMINE ORAL SOLN 0.2% | 口服溶液（依品名） | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66947 | JOYISH DIPHENHYDRAMINE HYDROCHLORIDE CAPSULES 25MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-13049 | NA-DRAMINE SYRUP 20MG/5ML | 單一成分 | NATIONAL PHARMACEUTICAL CO LTD | 有效 |
+| HK-67555 | DIPHENHYDRAMINE HYDROCHLORIDE INJECTION USP 50MG/1ML | 單一成分 | SINO-ASIA PHARMACEUTICAL SUPPLIES LTD | 有效 |
+| HK-36413 | ANTICIN CREAM 2% | 單一成分 | UNICORN LABORATORIES O/B AMERICAN UNICORN LABORATORIES LIMITED | 有效 |
+| HK-46402 | DIPHENHYDRAMINE ORAL SOLN 0.2% | 單一成分 | MEDIPHARMA LTD | 有效 |
+
+上表列出其中 5 張（共 281 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

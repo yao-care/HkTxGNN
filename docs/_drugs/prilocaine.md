@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "PRILOCAINE"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Prilocaine：預測新適應症為乳頭狀結膜炎（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症"
 ---
 
@@ -71,13 +71,19 @@ TxGNN 模型預測它可能對**乳頭狀結膜炎**有效，但目前**沒有�
 
 香港共有 13 張 prilocaine 相關許可證，以下列出 5 張。各許可證的劑型與核准適應症欄位在本報告彙整的資料中皆為空白。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67286 | LIPROKING CREAM | 未載明 | 未載明 |
-| HK-59758 | EMLO CREAM | 未載明 | 未載明 |
-| HK-59439 | LIPRY CREAM | 未載明 | 未載明 |
-| HK-65470 | ZENOCANE CREAM | 未載明 | 未載明 |
-| HK-66145 | PRIDOPAN CREAM | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67286 | LIPROKING CREAM | 複方 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+| HK-59758 | EMLO CREAM | 複方 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-59439 | LIPRY CREAM | 複方 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-65470 | ZENOCANE CREAM | 複方 | MEYER BPC PHARMACEUTICALS LIMITED | 有效 |
+| HK-66145 | PRIDOPAN CREAM | 複方 | BOWLIN HOLDING (HK) CO., LIMITED | 有效 |
+
+上表列出其中 5 張（共 13 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

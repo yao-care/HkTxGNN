@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Ethinylestradiol：預測新適應症為血漿鋅偏高 (zinc, elevated plasma)（證據等級 L5）。香港藥劑製品註冊：18 張（有效 18 張）"
@@ -83,13 +83,19 @@ TxGNN 模型預測它可能對**血漿鋅偏高 (zinc, elevated plasma)** 有效
 
 香港共有 18 張有效的單方許可證，以下列出 5 張主要許可證（許可證資料中未提供劑型與核准適應症文字）：
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-45789 | RIGEVIDON TAB | — | — |
-| HK-64653 | GVEZA TABLETS 3MG/0.03MG | — | — |
-| HK-02137 | NORDETTE TAB | — | — |
-| HK-44340 | HARMONET TAB | — | — |
-| HK-42856 | NOVYNETTE TAB | — | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-45789 | RIGEVIDON TAB | 複方 | MEKIM LTD | 有效 |
+| HK-64653 | GVEZA TABLETS 3MG/0.03MG | 複方 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-02137 | NORDETTE TAB | 複方 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-44340 | HARMONET TAB | 複方 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-42856 | NOVYNETTE TAB | 複方 | MEKIM LTD | 有效 |
+
+上表列出其中 5 張（共 18 張）。
+
+<!-- licenses:end -->
 
 ---
 

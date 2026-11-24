@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 909
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Trimebutine：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L3）。原適應症：目前資料未載明"
 monitor_inn: "Trimebutine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -78,11 +78,15 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-54719 | SCD TRIMEBUTINE TAB 100MG | 錠劑 | 資料未載明 |
-| HK-61307 | POBUTIN TAB 150MG | 錠劑 | 資料未載明 |
-| HK-61960 | TRITIN TABLET 100MG | 錠劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-54719 | SCD TRIMEBUTINE TAB 100MG | 單一成分 | LAFARGE CO., LIMITED | 有效 |
+| HK-61307 | POBUTIN TAB 150MG | 單一成分 | WAI LUN TRADING CO | 有效 |
+| HK-61960 | TRITIN TABLET 100MG | 單一成分 | LSB (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

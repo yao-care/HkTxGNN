@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pemetrexed：預測新適應症為Pleural adenomatoid tumor（證據等級 L5）。香港藥劑製品註冊：17 張（有效 17 張）"
 ---
 
@@ -88,13 +88,19 @@ TxGNN 模型預測它可能對**心包膜癌 (Pericardium Cancer)** 有效，目
 
 以下為主要許可證（共 17 張，皆為單一成分製劑，核准適應症文字未於資料中提供），僅列出 5 張：
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-53331 | ALIMTA 注射用濃縮輸注液粉末 500MG（ELI LILLY ASIA, INC.） | 輸注用濃縮液粉末 | 資料未提供 |
-| HK-58016 | ALIMTA 注射用濃縮輸注液粉末 100MG（ELI LILLY ASIA, INC.） | 輸注用濃縮液粉末 | 資料未提供 |
-| HK-64687 | PEMETREXED 100MG（CHEMILLENNIUM INTERNATIONAL (HK) LIMITED） | 輸注用濃縮液粉末 | 資料未提供 |
-| HK-64688 | PEMETREXED 500MG（CHEMILLENNIUM INTERNATIONAL (HK) LIMITED） | 輸注用濃縮液粉末 | 資料未提供 |
-| HK-64649 | PEMETREXED SANDOZ 100MG（SANDOZ HONG KONG LIMITED） | 輸注用濃縮液粉末 | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-53331 | ALIMTA POWDER FOR CONC FOR SOLN FOR INF 500MG | 單一成分 | ELI LILLY ASIA, INC. | 有效 |
+| HK-58016 | ALIMTA POWDER FOR CONC FOR SOLN FOR INF 100MG | 單一成分 | ELI LILLY ASIA, INC. | 有效 |
+| HK-64687 | PEMETREXED POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG | 單一成分 | CHEMILLENNIUM INTERNATIONAL (HK) LIMITED | 有效 |
+| HK-64688 | PEMETREXED POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 500MG | 單一成分 | CHEMILLENNIUM INTERNATIONAL (HK) LIMITED | 有效 |
+| HK-64649 | PEMETREXED SANDOZ POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 17 張）。
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

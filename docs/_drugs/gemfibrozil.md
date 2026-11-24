@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 9
 monitor_inn: "GEMFIBROZIL"
 predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Gemfibrozil：預測新適應症為類風濕性關節炎 (Rheumatoid Arthritis)（證據等級 L4）。原適應症：高三酸甘油酯血症"
 ---
 
@@ -86,13 +86,19 @@ TxGNN 模型預測它可能對**類風濕性關節炎 (Rheumatoid Arthritis)** �
 
 <!-- review:end hk-lic-20261117-gemfibrozil-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68047 | APT-GEMFIBROZIL TABLETS 600MG | 未載明 | 未載明 |
-| HK-50486 | POLI-FIBROZIL CAP 300MG | 未載明 | 未載明 |
-| HK-50342 | LIPOFOR 600 TAB 600MG | 未載明 | 未載明 |
-| HK-43457 | LIPOFOR 300 CAP | 未載明 | 未載明 |
-| HK-47676 | SCANTIPID CAP 300MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68047 | APT-GEMFIBROZIL TABLETS 600MG | 單一成分 | APT PHARMA LIMITED | 有效 |
+| HK-50486 | POLI-FIBROZIL CAP 300MG | 單一成分 | NATURAL HEALTH RESOURCES COMPANY LIMITED | 有效 |
+| HK-50342 | LIPOFOR 600 TAB 600MG | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-43457 | LIPOFOR 300 CAP | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-47676 | SCANTIPID CAP 300MG | 單一成分 | HANG LUNG TRADING (H.K.) CO | 有效 |
+
+上表列出其中 5 張（共 16 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

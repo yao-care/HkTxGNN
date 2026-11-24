@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 830
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sotatercept：預測新適應症為急性淋巴性白血病（證據等級 L5）。原適應症：許可證資料未載明"
 monitor_inn: "Sotatercept"
 predicted_indications: ["acute lymphoblastic leukemia (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "HER2 positive breast carcinoma", "transitional cell carcinoma", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant"]
@@ -90,12 +90,16 @@ TxGNN 模型預測它可能對**急性淋巴性白血病 (Acute Lymphoblastic Le
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68795 | WINREVAIR POWDER FOR SOLUTION FOR INJECTION 60MG | 注射用粉劑 | 資料未載明 |
-| HK-68794 | WINREVAIR POWDER FOR SOLUTION FOR INJECTION 45MG | 注射用粉劑 | 資料未載明 |
-| HK-68792 | WINREVAIR POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 45MG | 注射用粉劑附溶劑 | 資料未載明 |
-| HK-68793 | WINREVAIR POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 60MG | 注射用粉劑附溶劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68795 | WINREVAIR POWDER FOR SOLUTION FOR INJECTION 60MG | 單一成分 | MERCK SHARP & DOHME (ASIA) LTD | 有效 |
+| HK-68794 | WINREVAIR POWDER FOR SOLUTION FOR INJECTION 45MG | 單一成分 | MERCK SHARP & DOHME (ASIA) LTD | 有效 |
+| HK-68792 | WINREVAIR POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 45MG | 複方 | MERCK SHARP & DOHME (ASIA) LTD | 有效 |
+| HK-68793 | WINREVAIR POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 60MG | 複方 | MERCK SHARP & DOHME (ASIA) LTD | 有效 |
+
+<!-- licenses:end -->
 
 上述 4 張許可證均為單方製劑，狀態有效，持證商為 MERCK SHARP & DOHME (ASIA) LTD。
 

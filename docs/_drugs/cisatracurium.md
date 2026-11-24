@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 201
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cisatracurium：預測新適應症為馬尾症候群 (Cauda Equina Syndrome)（證據等級 L5）。原適應症：目前許可證資料未載明核准適應症"
 monitor_inn: "Cisatracurium"
 predicted_indications: ["cauda equina syndrome", "preeclampsia", "obsolete neurogenic bladder (disease)", "migraine disorder", "thrombotic disease", "irritable bowel syndrome", "migraine with brainstem aura", "mild pre-eclampsia", "severe pre-eclampsia", "neurocirculatory asthenia"]
@@ -88,13 +88,19 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66697 | CEMET SOLUTION FOR INJECTION/INFUSION 10MG/5ML | 注射液 | 資料未載明 |
-| HK-65149 | CISATRACURIUM-HAMELN SOLUTION FOR INJECTION/INFUSION 10MG/5ML | 注射液 | 資料未載明 |
-| HK-65681 | ACCORD CISATRACURIUM SOLUTION FOR INJECTION/INFUSION 20MG/10ML | 注射液 | 資料未載明 |
-| HK-62323 | CISATRACURIUM NORMON SOLUTION FOR INJECTION AND FOR INFUSION 2MG/ML | 注射液 | 資料未載明 |
-| HK-42333 | NIMBEX INJ 2MG/ML | 注射液 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66697 | CEMET SOLUTION FOR INJECTION/INFUSION 10MG/5ML | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-65149 | CISATRACURIUM-HAMELN SOLUTION FOR INJECTION/INFUSION 10MG/5ML | 單一成分 | MEKIM LTD | 有效 |
+| HK-65681 | ACCORD CISATRACURIUM SOLUTION FOR INJECTION/INFUSION 20MG/10ML | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-62323 | CISATRACURIUM NORMON SOLUTION FOR INJECTION AND FOR INFUSION 2MG/ML | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-42333 | NIMBEX INJ 2MG/ML | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+
+上表列出其中 5 張（共 11 張）。
+
+<!-- licenses:end -->
 
 （共 11 張有效許可證，皆為單一成分，此處僅列 5 張。）
 

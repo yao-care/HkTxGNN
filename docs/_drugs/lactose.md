@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Lactose"
 predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding", "varicose disease", "Steel syndrome", "cystinosis", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Immunoerythromyeloid hypoplasia", "familial apolipoprotein C-II deficiency", "hypophosphatasia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Lactose：預測新適應症為食道靜脈曲張伴出血（證據等級 L5）。原適應症：乳糖不耐症"
 ---
 
@@ -74,13 +74,17 @@ TxGNN 模型預測它可能對**食道靜脈曲張伴出血 (Esophageal Varices 
 
 下列 5 張許可證均為單一成分、有效狀態。資料中未提供劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-43329 | MICROGYNON 30 ED TAB | 未提供 | 未提供 |
-| HK-56563 | YAZ TAB | 未提供 | 未提供 |
-| HK-68562 | ALYSSA TABLETS | 未提供 | 未提供 |
-| HK-65968 | MEDIAZ TABLETS | 未提供 | 未提供 |
-| HK-59784 | QLAIRA TAB | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-43329 | MICROGYNON 30 ED TAB | 複方 | BAYER HEALTHCARE LIMITED | 有效 |
+| HK-56563 | YAZ TAB | 複方 | BAYER HEALTHCARE LIMITED | 有效 |
+| HK-68562 | ALYSSA TABLETS | 複方 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-65968 | MEDIAZ TABLETS | 複方 | DKSH HONG KONG LIMITED | 有效 |
+| HK-59784 | QLAIRA TAB | 複方 | BAYER HEALTHCARE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

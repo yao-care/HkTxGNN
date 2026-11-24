@@ -5,7 +5,7 @@ layout: default
 title: Crotamiton
 parent: 僅已知用途（無新預測）
 nav_order: 231
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Crotamiton: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Crotamiton"
 predicted_indications: []
@@ -50,13 +50,19 @@ evidence_level: N/A
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-48390 | EUROTON CREAM 10% | 未提供 | 未提供 |
-| HK-23708 | EUROSIN CREAM 10% | 未提供 | 未提供 |
-| HK-40775 | MECROTON CREAM 10% | 未提供 | 未提供 |
-| HK-00172 | EURAX CREAM 10% | 未提供 | 未提供 |
-| HK-01168 | HI VETIC SOLUTION | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-48390 | EUROTON CREAM 10% | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-23708 | EUROSIN CREAM 10% | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-40775 | MECROTON CREAM 10% | 單一成分 | MEYER PHARMACEUTICALS LTD | 有效 |
+| HK-00172 | EURAX CREAM 10% | 單一成分 | STADA PHARMACEUTICALS (ASIA) LIMITED | 有效 |
+| HK-01168 | HI VETIC SOLUTION | 複方 | SATO PHARMACEUTICAL (HK) CO LTD | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 另有 1 張有效許可證（HK-47770，MENTHOLATUM AD CREAM），共 6 張，皆為單方、有效。
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 752
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
 description: "Raloxifene：預測新適應症為Duodenal ulcer (disease)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
@@ -71,11 +71,15 @@ TxGNN 模型預測它可能對**十二指腸潰瘍 (Duodenal Ulcer)** 有效，�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65669 | RALOXIFENE STADA TABLETS 60MG | 錠劑（依品名） | 資料未載明 |
-| HK-44728 | EVISTA TAB 60MG | 錠劑（依品名） | 資料未載明 |
-| HK-60424 | APO-RALOXIFENE TAB 60MG | 錠劑（依品名） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65669 | RALOXIFENE STADA TABLETS 60MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-44728 | EVISTA TAB 60MG | 單一成分 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-60424 | APO-RALOXIFENE TAB 60MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

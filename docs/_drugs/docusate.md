@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 289
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Docusate"
 predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia"]
 description: "Docusate：預測新適應症為Plummer-Vinson 症候群 (Plummer-Vinson syndrome)（證據等級 L5）。香港藥劑製品註冊：10 張（有效 10 張）"
@@ -83,13 +83,19 @@ Plummer-Vinson 症候群的特徵是缺鐵性貧血合併吞嚥困難與食道�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-40969 | SOFLAX CAP 100MG | 未提供 | 未提供 |
-| HK-01672 | EAR-SOL EAR DROPS | 未提供 | 未提供 |
-| HK-39379 | PMS-DOCUSATE SODIUM CAP 100MG | 未提供 | 未提供 |
-| HK-15102 | WYRUTIN HAEMORRHOID CAP | 未提供 | 未提供 |
-| HK-65563 | COLOXYL WITH SENNA TABLETS | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-40969 | SOFLAX CAP 100MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-01672 | EAR-SOL EAR DROPS | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-39379 | PMS-DOCUSATE SODIUM CAP 100MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-15102 | WYRUTIN HAEMORRHOID CAP | 複方 | NATIONAL PHARMACEUTICAL CO LTD | 有效 |
+| HK-65563 | COLOXYL WITH SENNA TABLETS | 複方 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 本報告共有 10 張有效許可證，上表僅列出前 5 張。
 

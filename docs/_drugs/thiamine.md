@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "THIAMINE"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Thiamine：預測新適應症為甲狀腺素受體 β 突變引起的甲狀腺素抗性症候群（證據等級 L5）。原適應症：本次資料未載明"
 ---
 
@@ -101,13 +101,19 @@ TxGNN 模型預測它可能對**甲狀腺荷爾蒙抗性（THRB 突變）**、**
 
 <!-- review:end hk-lic-20261117-thiamine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-11285 | VITAMIN B-1 TAB 100MG | 未載明 | 未載明 |
-| HK-08077 | THIAMINE CHLORIDE TAB 50MG | 未載明 | 未載明 |
-| HK-43809 | SUPER-B1 TAB 50MG | 未載明 | 未載明 |
-| HK-26261 | NEO-ACTIVE VITAMIN B1 TAB 100MG | 未載明 | 未載明 |
-| HK-62703 | THIAMIJECT INJECTION 1000MG/10ML | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-11285 | VITAMIN B-1 TAB 100MG | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-08077 | THIAMINE CHLORIDE TAB 50MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-43809 | SUPER-B1 TAB 50MG | 單一成分 | CHRISTO PHARM LTD | 有效 |
+| HK-26261 | NEO-ACTIVE VITAMIN B1 TAB 100MG | 單一成分 | CHRISTO PHARM LTD | 有效 |
+| HK-62703 | THIAMIJECT INJECTION 1000MG/10ML | 單一成分 | SINO-ASIA PHARMACEUTICAL SUPPLIES LTD | 有效 |
+
+上表列出其中 5 張（共 118 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

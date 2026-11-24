@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ISOSORBIDE DINITRATE"
 predicted_indications: ["alopecia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "diffuse alopecia areata", "vascular disease", "hypertrichosis (disease)", "kyphoscoliotic heart disease", "visceral calciphylaxis", "arterial thoracic outlet syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Isosorbide Dinitrate：預測新適應症為Alopecia（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"
 ---
 
@@ -99,13 +99,17 @@ TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68629 | APT-ISOSORBIDE DINITRATE TABLETS 10MG | 未載明 | 未載明 |
-| HK-40553 | APO-ISDN SUBLINGUAL TAB 5MG | 未載明 | 未載明 |
-| HK-36369 | APO-ISDN TAB 10MG | 未載明 | 未載明 |
-| HK-44851 | ISORDE PLUS TAB 10MG | 未載明 | 未載明 |
-| HK-68203 | SOLBID TABLETS 10MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68629 | APT-ISOSORBIDE DINITRATE TABLETS 10MG | 單一成分 | APT PHARMA LIMITED | 有效 |
+| HK-40553 | APO-ISDN SUBLINGUAL TAB 5MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-36369 | APO-ISDN TAB 10MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-44851 | ISORDE PLUS TAB 10MG | 單一成分 | APT PHARMA LIMITED | 有效 |
+| HK-68203 | SOLBID TABLETS 10MG | 單一成分 | ARGUTA PHARMACEUTICALS HK LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 以上 5 張均為有效的單方許可證。
 

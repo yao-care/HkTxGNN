@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 892
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRABECTEDIN"
 predicted_indications: ["female breast carcinoma"]
 description: "Trabectedin：預測新適應症為女性乳癌 (female breast carcinoma)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -85,9 +85,13 @@ TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-59078 | YONDELIS FOR INF 1MG | 注射用（輸注） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-59078 | YONDELIS FOR INF 1MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

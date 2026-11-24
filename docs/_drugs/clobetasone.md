@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 214
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Clobetasone：預測新適應症為原發性皮膚 T 細胞淋巴瘤 (primary cutaneous T-cell lymphoma)（證據等級 L5）。原適應症：香港許可證資料未載明"
 monitor_inn: "Clobetasone"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "Sezary syndrome", "primary cutaneous B-cell lymphoma", "granulomatous slack skin disease", "Crohn's colitis", "adrenocortical insufficiency", "primary cutaneous T-cell non-Hodgkin lymphoma", "nephrotic syndrome", "cystic teratoma", "spinal cord dermoid cyst"]
@@ -88,12 +88,16 @@ TxGNN 模型預測它可能對**原發性皮膚 T 細胞淋巴瘤 (primary cutan
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-06945 | EUMOVATE CREAM 0.05%（GLAXOSMITHKLINE LIMITED） | 乳膏（依品名） | 資料未載明 |
-| HK-51334 | U-CLOSONE CREAM 0.05%（TAISHO PHARMACEUTICAL (HK) LTD） | 乳膏（依品名） | 資料未載明 |
-| HK-51335 | U-CLOSONE OINTMENT 0.05%（TAISHO PHARMACEUTICAL (HK) LTD） | 軟膏（依品名） | 資料未載明 |
-| HK-56220 | PHARMANIAGA EUVADERM CREAM 0.05% W/W（HEALTHCARE PHARMASCIENCE LIMITED） | 乳膏（依品名） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-06945 | EUMOVATE CREAM 0.05% | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-51334 | U-CLOSONE CREAM 0.05% | 單一成分 | TAISHO PHARMACEUTICAL (HK) LTD | 有效 |
+| HK-51335 | U-CLOSONE OINTMENT 0.05% | 單一成分 | TAISHO PHARMACEUTICAL (HK) LTD | 有效 |
+| HK-56220 | PHARMANIAGA EUVADERM CREAM 0.05% W/W | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

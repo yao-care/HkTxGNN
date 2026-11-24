@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 501
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Lacosamide"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide：預測新適應症為Manic bipolar affective disorder（證據等級 L5）。香港藥劑製品註冊：14 張（有效 14 張）"
@@ -97,13 +97,19 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，目前�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61177 | VIMPAT TAB 150MG（UCB） | 錠劑 | 本次資料未提供 |
-| HK-61175 | VIMPAT TAB 50MG（UCB） | 錠劑 | 本次資料未提供 |
-| HK-61176 | VIMPAT TAB 100MG（UCB） | 錠劑 | 本次資料未提供 |
-| HK-62585 | VIMPAT SYRUP 10MG/ML（UCB） | 糖漿 | 本次資料未提供 |
-| HK-61174 | VIMPAT SOLUTION FOR INFUSION 10MG/ML（UCB） | 輸注溶液 | 本次資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61177 | VIMPAT TAB 150MG | 單一成分 | UCB PHARMA (HONG KONG) LIMITED | 有效 |
+| HK-61175 | VIMPAT TAB 50MG | 單一成分 | UCB PHARMA (HONG KONG) LIMITED | 有效 |
+| HK-61176 | VIMPAT TAB 100MG | 單一成分 | UCB PHARMA (HONG KONG) LIMITED | 有效 |
+| HK-62585 | VIMPAT SYRUP 10MG/ML | 單一成分 | UCB PHARMA (HONG KONG) LIMITED | 有效 |
+| HK-61174 | VIMPAT SOLUTION FOR INFUSION 10MG/ML | 單一成分 | UCB PHARMA (HONG KONG) LIMITED | 有效 |
+
+上表列出其中 5 張（共 14 張）。
+
+<!-- licenses:end -->
 
 另有 7 張許可證為學名藥或其他品牌（LACOSAMIDE TABLETS、LACOTROL、LACOSAMIDE GENEPHARM）及 2 張注射劑（LACOSAMIDE INJECTION USP、BALACOS），共 14 張，皆為有效單方製劑。
 

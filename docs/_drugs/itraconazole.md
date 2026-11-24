@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 492
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ITRACONAZOLE"
 predicted_indications: ["pneumocystosis"]
 description: "Itraconazole：預測新適應症為肺囊蟲病 (pneumocystosis)（證據等級 L5）。香港藥劑製品註冊：19 張（有效 18 張）"
@@ -102,13 +102,19 @@ TxGNN 模型（深度學習）給出的高分（0.9934）可能反映模型從�
 
 <!-- review:end hk-lic-20261117-itraconazole-1 -->
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-51056 | SPORANOX CAP 100MG | Johnson & Johnson (Hong Kong) Ltd. |
-| HK-50434 | CANDITRAL CAP 100MG | SB Pharma Limited |
-| HK-54674 | ITRANSTAD CAP 100MG | Hong Kong Medical Supplies Ltd |
-| HK-63889 | ITRAZOL ORAL SOLUTION 10MG/ML | Hind Wing Co Ltd |
-| HK-50850 | ITRACIN TAB 100MG | Europharm Lab Co Ltd |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-51056 | SPORANOX CAP 100MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-50434 | CANDITRAL CAP 100MG | 單一成分 | SB PHARMA LIMITED | 有效 |
+| HK-54674 | ITRANSTAD CAP 100MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-63889 | ITRAZOL ORAL SOLUTION 10MG/ML | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-50850 | ITRACIN TAB 100MG | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+
+上表列出其中 5 張（共 19 張）。
+
+<!-- licenses:end -->
 
 ---
 

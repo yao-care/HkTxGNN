@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CALCIUM GLYCEROPHOSPHATE"
 predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization", "potassium deficiency disease", "hypophosphatemia (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Calcium Glycerophosphate：預測新適應症為鈣鹼症候群 (calcium-alkali syndrome)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
@@ -71,10 +71,14 @@ TxGNN 模型預測它可能與**鈣鹼症候群 (calcium-alkali syndrome)** 相�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-52479 | AMINOLEBAN EN POWDER | 未記載 | 未記載 |
-| HK-54177 | AMINOLEBAN ORAL POWDER | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-52479 | AMINOLEBAN EN POWDER | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+| HK-54177 | AMINOLEBAN ORAL POWDER | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

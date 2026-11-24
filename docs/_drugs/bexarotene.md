@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "BEXAROTENE"
 predicted_indications: ["primary cutaneous B-cell lymphoma", "lymphosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bexarotene：預測新適應症為原發性皮膚 B 細胞淋巴瘤 (primary cutaneous B-cell lymphoma)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
@@ -85,9 +85,13 @@ TxGNN 模型預測它可能對**原發性皮膚 B 細胞淋巴瘤 (primary cutan
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68294 | TARGRETIN CAPSULES 75MG | 未記載 | 本地資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68294 | TARGRETIN CAPSULES 75MG | 單一成分 | MAIN LIFE CORP LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 954
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ZINC OXIDE"
 predicted_indications: ["acne (disease)", "anorectal stricture", "anal polyp", "papillary conjunctivitis", "postinfectious vasculitis"]
 description: "Zinc Oxide：預測新適應症為痤瘡 (acne (disease))（證據等級 L4）。香港藥劑製品註冊：74 張（有效 72 張）"
@@ -86,13 +86,19 @@ TxGNN 模型預測它可能對**痤瘡 (Acne)** 有效，
 
 <!-- review:end hk-lic-20261117-zinc_oxide-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-19379 | MERIKA LOTION FOR BURNS | 未載明 | 未載明 |
-| HK-38473 | ZINOXID OINTMENT | 未載明 | 未載明 |
-| HK-48666 | DR SHEFFIELD'S DIAPER RASH OINTMENT 40% | 未載明 | 未載明 |
-| HK-47119 | ZINC CREAM | 未載明 | 未載明 |
-| HK-50724 | PROFESSOR SAMSON'S HEMORRHOID OINTMENT | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-19379 | MERIKA LOTION FOR BURNS | 單一成分 | MARCHING PHARMACEUTICAL LIMITED | 有效 |
+| HK-38473 | ZINOXID OINTMENT | 單一成分 | NEOCHEM PHARMACEUTICAL LABORATORIES LTD. | 有效 |
+| HK-48666 | DR SHEFFIELD'S DIAPER RASH OINTMENT 40% | 單一成分 | DRAGON LINK (INT'L) TRADING CO LTD | 有效 |
+| HK-47119 | ZINC CREAM | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-50724 | PROFESSOR SAMSON'S HEMORRHOID OINTMENT | 複方 | DRAGON LINK (INT'L) TRADING CO LTD | 有效 |
+
+上表列出其中 5 張（共 74 張）。
+
+<!-- licenses:end -->
 
 從品名可看出用途包括燒傷、尿布疹與痔瘡，但這只是品名推測，並非核准適應症。
 

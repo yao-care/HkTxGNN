@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 951
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Zinc acetate"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "bronchitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "urinary tract infection (disease)"]
 description: "Zinc Acetate：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
@@ -82,12 +82,16 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-50080 | NUTRIFLEX LIPID PERI EMULSION FOR INF. | 未載明 | 未載明 |
-| HK-67643 | OMEGAFLEX PERI EMULSION FOR INFUSION | 未載明 | 未載明 |
-| HK-67635 | OMEGAFLEX SPECIAL EMULSION FOR INFUSION | 未載明 | 未載明 |
-| HK-67687 | OMEGAFLEX PLUS EMULSION FOR INFUSION | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-50080 | NUTRIFLEX LIPID PERI EMULSION FOR INF. | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-67643 | OMEGAFLEX PERI EMULSION FOR INFUSION | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-67635 | OMEGAFLEX SPECIAL EMULSION FOR INFUSION | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-67687 | OMEGAFLEX PLUS EMULSION FOR INFUSION | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+
+<!-- licenses:end -->
 
 以上 4 張許可證均為 B. BRAUN MEDICAL (HK) LTD 持有的輸注用乳劑產品（營養輸液類），鋅為其配方成分之一，並非單獨以醋酸鋅作為口服或外用治療藥物上市。
 

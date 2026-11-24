@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "FELBINAC"
 predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "combined immunodeficiency due to moesin deficiency", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Felbinac：預測新適應症為Brachyolmia-amelogenesis imperfecta syndrome（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
@@ -71,9 +71,13 @@ TxGNN 模型預測它可能對**腦骨發育不全-牙釉質發育不全症候�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-56207 | SUPER STRONG AMMELTZ FELBINA-ACE LIQUID | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-56207 | SUPER STRONG AMMELTZ FELBINA-ACE LIQUID | 複方 | KOBAYASHI PHARMACEUTICAL (HONG KONG) COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

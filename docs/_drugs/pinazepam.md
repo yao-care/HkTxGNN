@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "PINAZEPAM"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "antidepressant type abuse", "hallucinogen abuse", "barbiturate abuse", "sleep disorder, initiating and maintaining sleep"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 description: "Pinazepam：預測新適應症為失眠 (insomnia (disease))（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
@@ -86,9 +86,13 @@ Pinazepam 是苯二氮平類藥物，進入體內後轉換為活性代謝物 N-d
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-32129 | DOMAR CAP 5MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-32129 | DOMAR CAP 5MG | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - HEALTHCARE DIVISION | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

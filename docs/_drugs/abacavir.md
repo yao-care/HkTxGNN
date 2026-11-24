@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ABACAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Abacavir：預測新適應症為貓後天免疫缺乏症候群 (feline acquired immunodeficiency syndrome)（證據等級 L5）。香港藥劑製品註冊：10 張（有效 10 張）"
 ---
 
@@ -74,13 +74,19 @@ TxGNN 的高分很可能反映它與人類 HIV 用藥的相似性，而非針對
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-63701 | ZIAGEN TABLETS 300MG | 未記錄 | 未記錄 |
-| HK-46236 | ZIAGEN ORAL SOLUTION 20MG/ML | 未記錄 | 未記錄 |
-| HK-65647 | ABACAVIR TABLETS 300MG | 未記錄 | 未記錄 |
-| HK-65610 | ABACAVIR TABLETS USP 300MG | 未記錄 | 未記錄 |
-| HK-65625 | ABACAVIR/LAMIVUDINE SANDOZ TABLETS 600MG/300MG | 未記錄 | 未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63701 | ZIAGEN TABLETS 300MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-46236 | ZIAGEN ORAL SOLUTION 20MG/ML | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-65647 | ABACAVIR TABLETS 300MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-65610 | ABACAVIR TABLETS USP 300MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-65625 | ABACAVIR/LAMIVUDINE SANDOZ TABLETS 600MG/300MG | 複方 | SANDOZ HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

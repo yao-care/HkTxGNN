@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "PIOGLITAZONE"
 predicted_indications: ["opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pioglitazone：預測新適應症為Opsismodysplasia（骨發育不良症）（證據等級 L5）。原適應症：第二型糖尿病"
 ---
 
@@ -98,13 +98,19 @@ Opsismodysplasia 是由 INPPL1 突變（SHIP2 缺陷）引起的罕見骨骼發�
 
 <!-- review:end hk-lic-20261117-pioglitazone-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-57967 | ZOLID TAB 45MG | 未載明 | 未載明 |
-| HK-47884 | ACTOS TAB 30MG | 未載明 | 未載明 |
-| HK-47882 | ACTOS TAB 15MG | 未載明 | 未載明 |
-| HK-58692 | APO-PIOGLITAZONE TAB 30MG | 未載明 | 未載明 |
-| HK-56745 | GLITTER-15 TAB 15MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-57967 | ZOLID TAB 45MG | 單一成分 | CHARIOT PHARMA LIMITED | 有效 |
+| HK-47884 | ACTOS TAB 30MG | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-47882 | ACTOS TAB 15MG | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-58692 | APO-PIOGLITAZONE TAB 30MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-56745 | GLITTER-15 TAB 15MG | 單一成分 | UNIPHARM (HONG KONG) LIMITED | 有效 |
+
+上表列出其中 5 張（共 23 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

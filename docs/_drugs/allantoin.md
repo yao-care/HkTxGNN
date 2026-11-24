@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "ALLANTOIN"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "hydroa vacciniforme, familial", "exanthem (disease)"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Allantoin：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy)（證據等級 L5）。香港藥劑製品註冊：21 張（有效 21 張）"
 ---
 
@@ -73,13 +73,19 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (seve
 
 Allantoin 在香港目前有上市產品，下表僅列出部分許可證，完整清單可能不止於此。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-46597 | CEPTICURA CREAM | 未記載 | 未記載 |
-| HK-64998 | SCARTUBEX GEL | 未記載 | 未記載 |
-| HK-60072 | CONTRAX GEL | 未記載 | 未記載 |
-| HK-66173 | ASUPARAITO S EYE DROPS | 未記載 | 未記載 |
-| HK-66174 | DECADOID APT EYE DROPS | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-46597 | CEPTICURA CREAM | 複方 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-64998 | SCARTUBEX GEL | 複方 | LSB (HK) LIMITED | 有效 |
+| HK-60072 | CONTRAX GEL | 複方 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-66173 | ASUPARAITO S EYE DROPS | 複方 | MING TAI PHARMACEUTICALS COMPANY O/B SURE BRILLIANT INDUSTRIAL LIMITED | 有效 |
+| HK-66174 | DECADOID APT EYE DROPS | 複方 | MING TAI PHARMACEUTICALS COMPANY O/B SURE BRILLIANT INDUSTRIAL LIMITED | 有效 |
+
+上表列出其中 5 張（共 21 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

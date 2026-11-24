@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 917
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Upadacitinib：預測新適應症為眼缺損小眼症－肢根型骨發育不良症候群 (Colobomatous Microphthalmia-Rhizomelic Dysplasia…（證據等級 L5）。原適應症：類風濕性關節炎（rheumatoid arthritis）"
 monitor_inn: "UPADACITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
@@ -84,11 +84,15 @@ TxGNN 模型預測它可能對**眼缺損小眼症－肢根型骨發育不良症
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67512 | RINVOQ PROLONGED-RELEASE TABLETS 30MG | 緩釋錠 | 未提供 |
-| HK-66872 | RINVOQ PROLONGED-RELEASE TABLETS 15MG | 緩釋錠 | 未提供 |
-| HK-68084 | RINVOQ PROLONGED-RELEASE TABLETS 45MG | 緩釋錠 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67512 | RINVOQ PROLONGED-RELEASE TABLETS 30MG | 單一成分 | ABBVIE LIMITED | 有效 |
+| HK-66872 | RINVOQ PROLONGED-RELEASE TABLETS 15MG | 單一成分 | ABBVIE LIMITED | 有效 |
+| HK-68084 | RINVOQ PROLONGED-RELEASE TABLETS 45MG | 單一成分 | ABBVIE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 以上三張許可證均為單方製劑，持有者為 ABBVIE LIMITED，狀態皆為有效。
 

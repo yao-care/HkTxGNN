@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 643
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Olopatadine：預測新適應症為酒糟性結膜炎 (Rosacea Conjunctivitis)（證據等級 L5）。原適應症：過敏性鼻炎、血管運動性鼻炎、異位性結膜炎、乳突性結膜炎、春季結膜炎"
 monitor_inn: "OLOPATADINE"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -81,13 +81,19 @@ TxGNN 模型預測它可能對**酒糟性結膜炎 (Rosacea Conjunctivitis)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64757 | PARADIN OPHTHALMIC SOLUTION 0.1%W/V | 眼用溶液 | 未提供 |
-| HK-63185 | APO-OLOPATADINE OPHTHALMIC SOLUTION 0.1% W/V | 眼用溶液 | 未提供 |
-| HK-56385 | PATADAY OPHTHALMIC SOLUTION 0.2% | 眼用溶液 | 未提供 |
-| HK-66243 | OPLUS EYE DROPS 0.2% W/V | 眼藥水 | 未提供 |
-| HK-68781 | TRANSHINE EYE DROPS 0.2% W/V | 眼藥水 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64757 | PARADIN OPHTHALMIC SOLUTION 0.1%W/V | 單一成分 | LSB (HK) LIMITED | 有效 |
+| HK-63185 | APO-OLOPATADINE OPHTHALMIC SOLUTION 0.1% W/V | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-56385 | PATADAY OPHTHALMIC SOLUTION 0.2% | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-66243 | OPLUS EYE DROPS 0.2% W/V | 單一成分 | LAFARGE CO., LIMITED | 有效 |
+| HK-68781 | TRANSHINE EYE DROPS 0.2% W/V | 單一成分 | BEST UNITED MARKETING LIMITED | 有效 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 此處僅列出 5 張，香港共有 9 張有效單方許可證，全部為有效狀態。
 

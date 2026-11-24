@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 314
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eltrombopag：預測新適應症為HIV 感染相關疾病 (HIV infectious disease)（證據等級 L3）。原適應症：自體免疫性血小板低下症（autoimmune thrombocytopenic）"
 monitor_inn: "ELTROMBOPAG"
 predicted_indications: ["HIV infectious disease"]
@@ -85,10 +85,14 @@ HIV 感染的患者可能出現血小板低下，包括 HIV 相關 ITP、免疫�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62055 | REVOLADE TABLETS 25MG (SPAIN) | 錠劑（資料未標示） | 資料未提供 |
-| HK-68001 | REVOLADE TABLETS 25MG | 錠劑（資料未標示） | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62055 | REVOLADE TABLETS 25MG (SPAIN) | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-68001 | REVOLADE TABLETS 25MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證的持有廠商皆為 Novartis Pharmaceuticals (HK) Limited，狀態皆為有效。
 

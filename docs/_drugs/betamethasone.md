@@ -81,13 +81,19 @@ TxGNN 模型預測它可能對**黏液性禿髮 (alopecia mucinosa)** 有效，�
 
 <!-- review:end hk-lic-20261117-betamethasone-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-45913 | AXCEL BETAMETHASONE CREAM 0.1% | 未記錄 | 未記錄 |
-| HK-06910 | BETNOVATE SCALP APPLICATION 0.1% | 未記錄 | 未記錄 |
-| HK-34326 | SYNMETHASONE FORTE SYRUP 0.5MG/5ML | 未記錄 | 未記錄 |
-| HK-02811 | BETNOVATE OINT 0.1% | 未記錄 | 未記錄 |
-| HK-35263 | BETAMETHASONE SYRUP 1MG/5ML (QUALITY) | 未記錄 | 未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-45913 | AXCEL BETAMETHASONE CREAM 0.1% | 單一成分 | KOTRA PHARMA (HONG KONG) COMPANY | 有效 |
+| HK-06910 | BETNOVATE SCALP APPLICATION 0.1% | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-34326 | SYNMETHASONE FORTE SYRUP 0.5MG/5ML | 單一成分 | MARCHING PHARMACEUTICAL LIMITED | 有效 |
+| HK-02811 | BETNOVATE OINT 0.1% | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-35263 | BETAMETHASONE SYRUP 1MG/5ML (QUALITY) | 單一成分 | QUALITY PHARM LAB LTD | 已註銷 |
+
+上表列出其中 5 張（共 241 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "VINORELBINE"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "lung germ cell tumor", "pulmonary sulcus neoplasm", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vinorelbine：預測新適應症為尤文氏肉瘤 (Ewing sarcoma)（證據等級 L3）。香港藥劑製品註冊：6 張（有效 6 張）"
 ---
 
@@ -85,13 +85,19 @@ TxGNN 模型預測它可能對**尤文氏肉瘤 (Ewing sarcoma)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67132 | VINORELBINE ALVOGEN CAPSULES 20MG | 未提供 | 未提供 |
-| HK-60311 | VINORELBIN EBEWE CONC FOR SOLN FOR INF 10MG/ML | 未提供 | 未提供 |
-| HK-67133 | VINORELBINE ALVOGEN CAPSULES 30MG | 未提供 | 未提供 |
-| HK-60888 | VINORELBINE TARTRATE INJECTION 10MG/ML (QILU HAINAN) | 未提供 | 未提供 |
-| HK-56213 | NAVELBINE CAP 30MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67132 | VINORELBINE ALVOGEN CAPSULES 20MG | 單一成分 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-60311 | VINORELBIN EBEWE CONC FOR SOLN FOR INF 10MG/ML | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-67133 | VINORELBINE ALVOGEN CAPSULES 30MG | 單一成分 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-60888 | VINORELBINE TARTRATE INJECTION 10MG/ML (QILU HAINAN) | 單一成分 | JINDUN PHARMA (H.K.) LIMITED | 有效 |
+| HK-56213 | NAVELBINE CAP 30MG | 單一成分 | PIERRE FABRE DERMO-COSMETIQUE HONG-KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 另有 HK-56212（NAVELBINE CAP 20MG），共 6 張單一成分許可證，皆為有效狀態。
 

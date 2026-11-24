@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 495
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ivosidenib：預測新適應症為bulbar polio（延髓型小兒麻痺）（證據等級 L5）。原適應症：骨髓性白血病、急性骨髓性白血病（AML）及其多種亞型"
 monitor_inn: "IVOSIDENIB"
 predicted_indications: ["bulbar polio"]
@@ -82,9 +82,13 @@ TxGNN 模型對 **bulbar polio（延髓型小兒麻痺）** 給出高預測分�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68831 | TIBSOVO FILM-COATED TABLETS 250MG（廠商：SERVIER HONG KONG LIMITED） | 薄膜衣錠（依品名） | 資料中未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68831 | TIBSOVO FILM-COATED TABLETS 250MG | 單一成分 | SERVIER HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

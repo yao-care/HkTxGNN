@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "COLISTIN"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "infective urethral stricture", "paratyphoid fever", "sinusitis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis"]
 description: "Colistin：預測新適應症為感染後血管炎 (Postinfectious Vasculitis)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
@@ -94,10 +94,14 @@ TxGNN 模型的前幾名預測（如感染後血管炎）缺乏任何研究支�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-63662 | COLISTIN POWDER FOR SOLUTION FOR INJECTION 150MG | 未登載 | 未登載 |
-| HK-42135 | MULTIBIO SUSPENSION INJ (VET) | 未登載 | 未登載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63662 | COLISTIN POWDER FOR SOLUTION FOR INJECTION 150MG | 單一成分 | ATLANTIC PHARMACEUTICAL LIMITED | 有效 |
+| HK-42135 | MULTIBIO SUSPENSION INJ (VET) | 複方 | VIRBAC H.K. TRADING LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 HK-42135 為獸醫用產品，不適用於人類。
 

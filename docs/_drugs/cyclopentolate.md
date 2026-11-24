@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 233
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cyclopentolate：預測新適應症為馬尾症候群 (Cauda Equina Syndrome)（證據等級 L5）。原適應症：睫狀肌麻痺 (Cycloplegia)"
 monitor_inn: "Cyclopentolate"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
@@ -91,10 +91,14 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-25765 | CYCLOGYL OPHTH SOLUTION 1%（Alcon Hong Kong Ltd） | 眼用溶液 | 未提供 |
-| HK-08203 | CYCLOPENTOLATE HCL EYE DROPS 1% (LAB. CHAUVIN)（Bausch & Lomb (HK) Ltd） | 眼用滴劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-25765 | CYCLOGYL OPHTH SOLUTION 1% | 單一成分 | ALCON HONG KONG LTD | 有效 |
+| HK-08203 | CYCLOPENTOLATE HCL EYE DROPS 1% (LAB. CHAUVIN) | 單一成分 | BAUSCH & LOMB (HK) LTD | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

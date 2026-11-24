@@ -5,7 +5,7 @@ layout: default
 title: Sodium Zirconium Cyclosilicate
 parent: 僅已知用途（無新預測）
 nav_order: 824
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Sodium Zirconium Cyclosilicate: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Sodium zirconium cyclosilicate"
 predicted_indications: []
@@ -50,10 +50,14 @@ evidence_level: N/A
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66490 | LOKELMA POWDER FOR ORAL SUSPENSION 5G | 口服懸液用粉末 | 許可證資料未載明 |
-| HK-66489 | LOKELMA POWDER FOR ORAL SUSPENSION 10G | 口服懸液用粉末 | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66490 | LOKELMA POWDER FOR ORAL SUSPENSION 5G | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-66489 | LOKELMA POWDER FOR ORAL SUSPENSION 10G | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證均為單一成分製劑，狀態有效，持證商為 ASTRAZENECA HONG KONG LIMITED。
 

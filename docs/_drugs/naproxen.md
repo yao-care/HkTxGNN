@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 608
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NAPROXEN"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Naproxen：預測新適應症為短指併指症候群 (brachydactyly-syndactyly syndrome)（證據等級 L5）。香港藥劑製品註冊：21 張（有效 20 張）"
@@ -92,13 +92,19 @@ TxGNN 模型預測它可能對**短指併指症候群 (Brachydactyly-Syndactyly 
 
 <!-- review:end hk-lic-20261117-naproxen-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-43951 | SOREN TAB 275MG | 錠劑（依品名） | 未提供 |
-| HK-65797 | NAPROXEN TABLETS 250MG | 錠劑（依品名） | 未提供 |
-| HK-56618 | SYN-NAPROXEN TAB 250MG | 錠劑（依品名） | 未提供 |
-| HK-68279 | SELADIN TABLETS 250MG | 錠劑（依品名） | 未提供 |
-| HK-44905 | NAPXEN TAB 250MG | 錠劑（依品名） | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-43951 | SOREN TAB 275MG | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-65797 | NAPROXEN TABLETS 250MG | 單一成分 | PRUDENTLINK LIMITED | 有效 |
+| HK-56618 | SYN-NAPROXEN TAB 250MG | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-68279 | SELADIN TABLETS 250MG | 單一成分 | YUNG SHIN CO LTD | 有效 |
+| HK-44905 | NAPXEN TAB 250MG | 單一成分 | APT PHARMA LIMITED | 有效 |
+
+上表列出其中 5 張（共 21 張）。
+
+<!-- licenses:end -->
 
 ---
 

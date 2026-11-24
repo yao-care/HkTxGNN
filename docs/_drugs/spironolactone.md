@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 832
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone：預測新適應症為頭皮單純性毛髮稀少症 (hypotrichosis simplex of the scalp)（證據等級 L5）。香港藥劑製品註冊：9 張（有效 9 張）"
@@ -81,13 +81,19 @@ TxGNN 模型預測它可能對**頭皮單純性毛髮稀少症 (Hypotrichosis si
 
 香港共有 9 張有效的單一成分許可證（無已註銷者）。資料中未提供劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-68285 | SMIRON TABLETS 25MG | WELLDONE PHARMACEUTICALS LIMITED |
-| HK-67773 | SPIROLON 100 TABLETS 100MG | HEALTHCARE PHARMASCIENCE LIMITED |
-| HK-63188 | EURO-SPIRO TABLETS 25MG | EUROPHARM LAB CO LTD |
-| HK-61599 | SPIRONOLACTONE ACTAVIS TABLETS 25MG | TEVA PHARMACEUTICAL HONG KONG LIMITED |
-| HK-19636 | ALDACTONE TAB 25MG | PFIZER CORPORATION HONG KONG LIMITED |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68285 | SMIRON TABLETS 25MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-67773 | SPIROLON 100 TABLETS 100MG | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-63188 | EURO-SPIRO TABLETS 25MG | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-61599 | SPIRONOLACTONE ACTAVIS TABLETS 25MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-19636 | ALDACTONE TAB 25MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "MERCAPTOPURINE"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mercaptopurine：預測新適應症為骨髓性白血病 (myeloid leukemia)（證據等級 L3）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
@@ -90,10 +90,14 @@ Mercaptopurine 是嘌呤類似物，其代謝產物硫鳥嘌呤核苷酸會嵌�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-03770 | PURI-NETHOL TAB | 未載明（品名為錠劑） | 本報告所用資料未載明 |
-| HK-65479 | ALLMERCAP MERCAPTOPURINE ORAL SUSPENSION 20MG/ML | 口服懸液劑（依品名） | 本報告所用資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-03770 | PURI-NETHOL TAB | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+| HK-65479 | ALLMERCAP MERCAPTOPURINE ORAL SUSPENSION 20MG/ML | 單一成分 | LINK HEALTHCARE HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

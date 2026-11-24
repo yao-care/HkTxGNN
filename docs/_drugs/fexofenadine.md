@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 375
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "Fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Fexofenadine：預測新適應症為酒糟性結膜炎 (rosacea conjunctivitis)（證據等級 L5）。香港藥劑製品註冊：39 張（有效 39 張）"
@@ -79,13 +79,19 @@ TxGNN 模型預測它可能對**酒糟性結膜炎 (Rosacea Conjunctivitis)** �
 
 <!-- review:end hk-lic-20261117-fexofenadine-1 -->
 
-| 許可證號 | 品名 | 廠商 | 規格 |
-|---------|------|------|------|
-| HK-56373 | BOSNUM TAB | Health Alliance International Co Ltd | 60 mg |
-| HK-61666 | BOSNUM 180 TABLETS | Health Alliance International Co Ltd | 180 mg |
-| HK-67128 | ALEACT 180 TABLETS | R. Manstien (Australia) Limited | 180 mg |
-| HK-68487 | NAXODINE TABLETS | Welldone Pharmaceuticals Limited | 180 mg |
-| HK-55609 | AXODIN 120 TAB | Eugenpharm International Limited | 120 mg |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-56373 | BOSNUM TAB 60MG | 單一成分 | HEALTH ALLIANCE INTERNATIONAL CO LTD | 有效 |
+| HK-61666 | BOSNUM 180 TABLETS 180MG | 單一成分 | HEALTH ALLIANCE INTERNATIONAL CO LTD | 有效 |
+| HK-67128 | ALEACT 180 TABLETS 180MG | 單一成分 | R. MANSTIEN (AUSTRALIA) LIMITED | 有效 |
+| HK-68487 | NAXODINE TABLETS 180MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-55609 | AXODIN 120 TAB 120MG | 單一成分 | EUGENPHARM INTERNATIONAL LIMITED | 有效 |
+
+上表列出其中 5 張（共 39 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

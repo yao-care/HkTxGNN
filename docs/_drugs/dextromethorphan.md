@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 271
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Dextromethorphan"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
 description: "Dextromethorphan：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。香港藥劑製品註冊：129 張（有效 128 張）"
@@ -80,13 +80,19 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 <!-- review:end hk-lic-20261117-dextromethorphan-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55879 | NOSPAN TAB 30MG (MALAYSIA) | 未載明 | 未載明 |
-| HK-57457 | METHON TAB 30MG | 未載明 | 未載明 |
-| HK-67850 | MESUPHY TABLETS 30MG | 未載明 | 未載明 |
-| HK-59585 | DEXTROMETHORPHAN SYRUP 15MG/5ML | 未載明 | 未載明 |
-| HK-63923 | ANCO TABLETS 30MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55879 | NOSPAN TAB 30MG (MALAYSIA) | 單一成分 | YUNG SHIN CO LTD | 有效 |
+| HK-57457 | METHON TAB 30MG | 單一成分 | KAI YUEN PHARMACEUTICAL CO | 有效 |
+| HK-67850 | MESUPHY TABLETS 30MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-59585 | DEXTROMETHORPHAN SYRUP 15MG/5ML | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-63923 | ANCO TABLETS 30MG | 單一成分 | HITPHARM PHARMACEUTICAL CO LTD | 有效 |
+
+上表列出其中 5 張（共 129 張）。
+
+<!-- licenses:end -->
 
 從品名可見，產品包含錠劑（15 mg、30 mg）、糖漿、酏劑與口服溶液。
 

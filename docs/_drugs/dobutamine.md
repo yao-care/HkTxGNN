@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dobutamine：預測新適應症為禿髮 (Alopecia)（證據等級 L5）。原適應症：本次彙整資料未載明"
 monitor_inn: "DOBUTAMINE"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "headache disorder", "hypertrichosis (disease)", "migraine disorder"]
@@ -86,12 +86,16 @@ TxGNN 模型預測它可能對**禿髮 (Alopecia)** 有效，但目前**沒有�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68119 | DOBUTAMINE CONCENTRATE FOR SOLUTION FOR INFUSION 250MG/20ML | 輸注用濃縮液 | 未載明 |
-| HK-40604 | DOBUTAMINE HCL INJ 250MG/20ML (HOSPIRA) | 注射劑 | 未載明 |
-| HK-63922 | DOBUTEL CONCENTRATE FOR SOLUTION FOR INFUSION 250MG/5ML | 輸注用濃縮液 | 未載明 |
-| HK-66677 | DOBUTAMINE-HAMELN CONCENTRATE FOR SOLUTION FOR INFUSION 250MG/20ML | 輸注用濃縮液 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68119 | DOBUTAMINE CONCENTRATE FOR SOLUTION FOR INFUSION 250MG/20ML | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-40604 | DOBUTAMINE HCL INJ 250MG/20ML (HOSPIRA) | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-63922 | DOBUTEL CONCENTRATE FOR SOLUTION FOR INFUSION 250MG/5ML | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-66677 | DOBUTAMINE-HAMELN CONCENTRATE FOR SOLUTION FOR INFUSION 250MG/20ML | 單一成分 | MEKIM LTD | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

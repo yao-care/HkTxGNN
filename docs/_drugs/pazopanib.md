@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 6
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pazopanib：預測新適應症為脂肪肉瘤 (liposarcoma)（證據等級 L2）。香港藥劑製品註冊：6 張（有效 6 張）"
 ---
 
@@ -92,13 +92,19 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68611 | PAZOPANIB TEVA TABLETS 200MG | 未載明 | 未載明 |
-| HK-68625 | PAZOPANIB SANDOZ TABLETS 200MG | 未載明 | 未載明 |
-| HK-68006 | TYKIPAZ TABLETS 200MG | 未載明 | 未載明 |
-| HK-62096 | VOTRIENT TAB 200MG (SPAIN) | 未載明 | 未載明 |
-| HK-67932 | VOTRIENT TABLETS 200MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68611 | PAZOPANIB TEVA TABLETS 200MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-68625 | PAZOPANIB SANDOZ TABLETS 200MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-68006 | TYKIPAZ TABLETS 200MG | 單一成分 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-62096 | VOTRIENT TAB 200MG (SPAIN) | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-67932 | VOTRIENT TABLETS 200MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 以上 5 張均為單一成分、有效狀態的許可證。
 

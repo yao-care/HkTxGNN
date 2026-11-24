@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Cefpodoxime"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cefpodoxime：預測新適應症為骨關節炎 (Osteoarthritis)（證據等級 L5）。原適應症：目前許可證資料未載明核准適應症"
 ---
 
@@ -72,10 +72,14 @@ ChEMBL（EMBL-EBI）收錄的 Cefpodoxime 作用機轉（非官方翻譯）：�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64662 | CACEF 100 DISPERSIBLE TABLETS 100MG | 未載明 | 未載明 |
-| HK-59185 | CP 200 TAB 200MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64662 | CACEF 100 DISPERSIBLE TABLETS 100MG | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-59185 | CP 200 TAB 200MG | 單一成分 | DELTAPHARM LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

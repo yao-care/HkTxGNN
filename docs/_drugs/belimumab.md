@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 99
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Belimumab：預測新適應症為原發性血小板釋放障礙 (primary release disorder of platelets)（證據等級 L5）。原適應症：全身性紅斑性狼瘡、兒童全身性紅斑性狼瘡"
 monitor_inn: "BELIMUMAB"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "severe nonproliferative diabetic retinopathy", "autosomal dominant macrothrombocytopenia"]
@@ -82,11 +82,15 @@ TxGNN 模型預測它可能對**原發性血小板釋放障礙 (primary release 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66372 | BENLYSTA SOLUTION FOR INJECTION IN PRE-FILLED PEN 200MG/ML | 注射劑（預填充筆） | 資料未載明 |
-| HK-61385 | BENLYSTA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 400MG | 輸注濃縮液用粉劑 | 資料未載明 |
-| HK-61384 | BENLYSTA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 120MG | 輸注濃縮液用粉劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66372 | BENLYSTA SOLUTION FOR INJECTION IN PRE-FILLED PEN 200MG/ML | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-61385 | BENLYSTA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 400MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-61384 | BENLYSTA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 120MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證皆為單一成分、狀態有效，持證商為 GlaxoSmithKline Limited。
 

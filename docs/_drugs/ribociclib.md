@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 769
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ribociclib：預測新適應症為骨髓性白血病 (Myeloid Leukemia)（證據等級 L4）。原適應症：本次資料未載明"
 monitor_inn: "RIBOCICLIB"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
@@ -85,9 +85,13 @@ Ribociclib 抑制 CDK4/6，這兩種激酶調控細胞週期由 G1 期進入 S �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65561 | KISQALI TABLETS 200 MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65561 | KISQALI TABLETS 200 MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 持證商為 Novartis Pharmaceuticals (HK) Limited，狀態為有效的單方製劑。
 

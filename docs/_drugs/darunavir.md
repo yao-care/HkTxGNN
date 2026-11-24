@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "DARUNAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Darunavir：預測新適應症為Feline acquired immunodeficiency syndrome（證據等級 L5）。香港藥劑製品註冊：17 張（有效 17 張）"
 ---
 
@@ -82,13 +82,19 @@ SIV 是與 HIV 親緣相近的慢病毒，其蛋白酶與 HIV 蛋白酶有一定
 
 香港共有 17 張單一成分的有效許可證，以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-58980 | PREZISTA TAB 600MG（Johnson & Johnson） | 未提供 | 未提供 |
-| HK-63272 | PREZISTA TABLETS 800MG（Johnson & Johnson） | 未提供 | 未提供 |
-| HK-66733 | DARUNAVIR SANDOZ TABLETS 800MG（Sandoz） | 未提供 | 未提供 |
-| HK-67175 | DARUNAVIR KRKA TABLETS 600MG（Sino Pacific） | 未提供 | 未提供 |
-| HK-66782 | DAVARINO TABLETS 600MG（I & C） | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-58980 | PREZISTA TAB 600MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-63272 | PREZISTA TABLETS 800MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-66733 | DARUNAVIR SANDOZ TABLETS 800MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-67175 | DARUNAVIR KRKA TABLETS 600MG | 單一成分 | SINO PACIFIC PHARMA COMPANY LIMITED | 有效 |
+| HK-66782 | DAVARINO TABLETS 600MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+
+上表列出其中 5 張（共 17 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

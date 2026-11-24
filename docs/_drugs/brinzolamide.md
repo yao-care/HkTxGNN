@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 129
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Brinzolamide：香港的已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 ---
@@ -72,15 +72,19 @@ TxGNN 模型針對 Brinzolamide 產生的候選適應症，經追溯來源後全
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-49989 | AZOPT EYE DROPS SUSP 1% (BELGIUM) |  | 有效 |
-| HK-67983 | BRINZOLAMIDE-PHARMATHEN EYE DROPS, SUSPENSION 10MG/ML |  | 有效 |
-| HK-67788 | BRINZOLAMIDE EYE DROPS SUSPENSION 1% W/V |  | 有效 |
-| HK-58563 | AZARGA EYE DROPS |  | 有效 |
-| HK-68273 | BRINZTIMO EYE DROPS SUSPENSION 10MG/ML + 5MG/ML |  | 有效 |
-| HK-67748 | BRINZOLAMIDE AND TIMOLOL EYE DROPS 1% W/V + 0.5% W/V |  | 有效 |
-| HK-64944 | SIMBRINZA EYE DROPS SUSPENSION |  | 有效 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-49989 | AZOPT EYE DROPS SUSP 1% (BELGIUM) | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-67983 | BRINZOLAMIDE-PHARMATHEN EYE DROPS, SUSPENSION 10MG/ML | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-67788 | BRINZOLAMIDE EYE DROPS SUSPENSION 1% W/V | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-58563 | AZARGA EYE DROPS | 複方 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-68273 | BRINZTIMO EYE DROPS SUSPENSION 10MG/ML + 5MG/ML | 複方 | CHEMILL PHARMA LIMITED | 有效 |
+| HK-67748 | BRINZOLAMIDE AND TIMOLOL EYE DROPS 1% W/V + 0.5% W/V | 複方 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-64944 | SIMBRINZA EYE DROPS SUSPENSION | 複方 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

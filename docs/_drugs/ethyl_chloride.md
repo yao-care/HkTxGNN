@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ethyl chloride"
 predicted_indications: ["immature cataract", "diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "tetanic cataract", "mature cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "acne (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Ethyl Chloride：預測新適應症為未成熟白內障 (immature cataract)（證據等級 L5）。原適應症：許可證資料未載明"
 ---
 
@@ -73,9 +73,13 @@ TxGNN 模型預測它可能對**未成熟白內障 (immature cataract)** 有效�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-44967 | ETIDERM SHAMPOO 10% (VET) | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-44967 | ETIDERM SHAMPOO 10% (VET) | 單一成分 | VIRBAC H.K. TRADING LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 此為獸用產品（單一成分），許可證資料未提供人用核准適應症。
 

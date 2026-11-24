@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 238
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "CYPROTERONE ACETATE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
 description: "Cyproterone Acetate：預測新適應症為偏頭痛 (migraine disorder)（證據等級 L5）。香港藥劑製品註冊：6 張（有效 6 張）"
@@ -93,13 +93,19 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55387 | APO-CYPROTERONE TAB 50MG | 未提供 | 未提供 |
-| HK-46443 | ANDROCUR TAB 50MG | 未提供 | 未提供 |
-| HK-50432 | ESTELLE-35 ED TAB | 未提供 | 未提供 |
-| HK-55320 | DAPHNE TAB | 未提供 | 未提供 |
-| HK-43330 | DIANE-35 TAB | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55387 | APO-CYPROTERONE TAB 50MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-46443 | ANDROCUR TAB 50MG | 單一成分 | AMDIPHARM MERCURY (HONG KONG) LIMITED | 有效 |
+| HK-50432 | ESTELLE-35 ED TAB | 複方 | UNITED ITALIAN CORP (HK) LTD | 有效 |
+| HK-55320 | DAPHNE TAB | 複方 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-43330 | DIANE-35 TAB | 複方 | BAYER HEALTHCARE LIMITED | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 （另有 HK-50283 ESTELLE-35 TAB，共 6 張有效許可證，皆為單一成分登記。）
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "NATAMYCIN"
 predicted_indications: ["vulvitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "tinea nigra"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Natamycin：預測新適應症為外陰炎 (vulvitis)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
@@ -81,9 +81,13 @@ ChEMBL（EMBL-EBI）收錄的 Natamycin 作用機轉（非官方翻譯）：「E
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-41714 | NATACYN OPHTHALMIC SUSPENSION 5% | 眼用懸浮液（依品名） | 資料中未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-41714 | NATACYN OPHTHALMIC SUSPENSION 5% | 單一成分 | LINK HEALTHCARE HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

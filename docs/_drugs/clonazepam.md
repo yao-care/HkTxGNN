@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 219
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
 description: "Clonazepam：預測新適應症為不寧腿症候群 (restless legs syndrome)（證據等級 L3）。香港藥劑製品註冊：5 張（有效 5 張）"
@@ -93,13 +93,17 @@ TxGNN 模型預測它可能對**不寧腿症候群 (Restless Legs Syndrome, RLS)
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-58637 | CLONOTRIL 2 TAB 2MG | 未載明 | 未載明 |
-| HK-58638 | CLONOTRIL 0.5 TAB 0.5MG | 未載明 | 未載明 |
-| HK-64321 | PMS-CLONAZEPAM-R TABLETS 0.5MG | 未載明 | 未載明 |
-| HK-57404 | RIVOTRIL TAB 0.5MG | 未載明 | 未載明 |
-| HK-57397 | RIVOTRIL TAB 2MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-58637 | CLONOTRIL 2 TAB 2MG | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - UNIVERSAL DIVISION | 有效 |
+| HK-58638 | CLONOTRIL 0.5 TAB 0.5MG | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - UNIVERSAL DIVISION | 有效 |
+| HK-64321 | PMS-CLONAZEPAM-R TABLETS 0.5MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-57404 | RIVOTRIL TAB 0.5MG | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-57397 | RIVOTRIL TAB 2MG | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

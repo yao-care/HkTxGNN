@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "THEOPHYLLINE"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Theophylline：預測新適應症為血栓性疾病 (Thrombotic Disease)（證據等級 L5）。原適應症：知識圖譜記錄的關聯為氣喘、支氣管炎、肺氣腫等"
 ---
 
@@ -91,13 +91,19 @@ TxGNN 模型預測它可能對**血栓性疾病 (Thrombotic Disease)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-45955 | SLO-THEO CAP 100MG（緩釋） | 未提供 | 未提供 |
-| HK-19359 | NUELIN-SR 125 TAB 125MG | 未提供 | 未提供 |
-| HK-45832 | NUELIN SR 300 TAB 300MG | 未提供 | 未提供 |
-| HK-45831 | NUELIN SR 200 TAB 200MG | 未提供 | 未提供 |
-| HK-45954 | SLO-THEO CAP 50MG（緩釋） | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-45955 | SLO-THEO CAP 100MG (EXTENDED-RELEASE) | 單一成分 | PRIMAL CHEMICAL CO LTD | 有效 |
+| HK-19359 | NUELIN-SR 125 TAB 125MG S R WHITE | 單一成分 | INOVA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-45832 | NUELIN SR 300 TAB 300MG (INDIA) | 單一成分 | INOVA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-45831 | NUELIN SR 200 TAB 200MG (INDIA) | 單一成分 | INOVA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-45954 | SLO-THEO CAP 50MG (EXTENDED-RELEASE) | 單一成分 | PRIMAL CHEMICAL CO LTD | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 本藥共有 8 張有效的單方許可證，以上列出前 5 張。
 

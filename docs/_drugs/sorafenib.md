@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "SORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sorafenib：預測新適應症為脂肪肉瘤 (liposarcoma)（證據等級 L5）。香港藥劑製品註冊：8 張（有效 8 張）"
 ---
 
@@ -85,13 +85,19 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55409 | NEXAVAR TAB 200MG（拜耳） | 錠劑 | 未提供 |
-| HK-67562 | SORAFENIB STADA TABLETS 200MG | 錠劑 | 未提供 |
-| HK-66345 | SORAFENAT TABLETS 200MG | 錠劑 | 未提供 |
-| HK-68075 | RAFALVO TABLETS 200MG | 錠劑 | 未提供 |
-| HK-68600 | SORAFENIB TABLETS USP 200MG | 錠劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55409 | NEXAVAR TAB 200MG | 單一成分 | BAYER HEALTHCARE LIMITED | 有效 |
+| HK-67562 | SORAFENIB STADA TABLETS 200MG | 單一成分 | STADA PHARMACEUTICALS (ASIA) LIMITED | 有效 |
+| HK-66345 | SORAFENAT TABLETS 200MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-68075 | RAFALVO TABLETS 200MG | 單一成分 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-68600 | SORAFENIB TABLETS USP 200MG | 單一成分 | CHEMILL PHARMA LIMITED | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 另有 HK-68700（SORAFENIB SANDOZ TABLETS 200MG）、HK-69182（REVAMOX FILM-COATED TABLETS 200MG）與 HK-69261（SORAVAR 200 TABLETS 200MG），共 8 張單一成分許可證，均為有效狀態。
 

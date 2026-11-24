@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 763
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Regorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
 description: "Regorafenib：預測新適應症為脂肪肉瘤 (liposarcoma)（證據等級 L2）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -92,9 +92,13 @@ TxGNN 模型預測它可能對**脂肪肉瘤 (Liposarcoma)** 有效，目前有 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-63304 | STIVARGA TAB 40MG（拜耳） | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63304 | STIVARGA TAB 40MG | 單一成分 | BAYER HEALTHCARE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

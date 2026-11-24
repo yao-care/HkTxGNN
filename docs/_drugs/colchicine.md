@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 226
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Colchicine：預測新適應症為惡性瘧原蟲瘧疾 (Plasmodium falciparum malaria)（證據等級 L5）。原適應症：痛風、家族性地中海熱"
 monitor_inn: "COLCHICINE"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
@@ -84,13 +84,19 @@ TxGNN 模型預測它可能對**惡性瘧原蟲瘧疾 (Plasmodium falciparum mal
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-37807 | COLGOUT TAB 0.5MG | 未提供 | 未提供 |
-| HK-60077 | COLCHICINE TAB 0.5MG | 未提供 | 未提供 |
-| HK-44403 | COLCHICINE TAB 500MCG (SYNCO) | 未提供 | 未提供 |
-| HK-66396 | PROCHIC TABLETS 0.6MG | 未提供 | 未提供 |
-| HK-60287 | COLCHILY TAB 0.6MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-37807 | COLGOUT TAB 0.5MG | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+| HK-60077 | COLCHICINE TAB 0.5MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-44403 | COLCHICINE TAB 500MCG (SYNCO) | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-66396 | PROCHIC TABLETS 0.6MG | 單一成分 | DELTAPHARM LIMITED | 有效 |
+| HK-60287 | COLCHILY TAB 0.6MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 （共 10 張有效單方許可證，此處列出 5 張。）
 

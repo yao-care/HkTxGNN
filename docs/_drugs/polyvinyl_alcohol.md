@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 713
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "POLYVINYL ALCOHOL"
 predicted_indications: ["congenital ichthyosiform erythroderma", "self-healing collodion baby", "lamellar ichthyosis", "bathing suit ichthyosis"]
 description: "Polyvinyl Alcohol：預測新適應症為先天性魚鱗癬樣紅皮症 (congenital ichthyosiform erythroderma)（證據等級 L5）。香港藥劑製品註冊：12 張（有效 9 張）"
@@ -90,13 +90,19 @@ TxGNN 模型預測它可能對**先天性魚鱗癬樣紅皮症 (congenital ichth
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-57590 | XTRA LUVERICAN OPHTHALMIC SOLUTION 1.4% | 眼用溶液 | 未載明 |
-| HK-57165 | WETCO LUVERICAN OPHTHALMIC SOLUTION 1.4% | 眼用溶液 | 未載明 |
-| HK-57164 | SUNRISE LUVERICAN OPHTHALMIC SOLUTION 1.4% | 眼用溶液 | 未載明 |
-| HK-39377 | PMS-ARTIFICIAL TEARS DROPS 1.4% | 眼用滴劑 | 未載明 |
-| HK-57591 | REVCO LUVERICAN OPHTHALMIC SOLUTION 1.4% | 眼用溶液 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-57590 | XTRA LUVERICAN OPHTHALMIC SOLUTION 1.4% | 單一成分 | WILSON TRADING COMPANY LIMITED | 有效 |
+| HK-57165 | WETCO LUVERICAN OPHTHALMIC SOLUTION 1.4% | 單一成分 | WILSON TRADING COMPANY LIMITED | 有效 |
+| HK-57164 | SUNRISE LUVERICAN OPHTHALMIC SOLUTION 1.4% | 單一成分 | WILSON TRADING COMPANY LIMITED | 有效 |
+| HK-39377 | PMS-ARTIFICIAL TEARS DROPS 1.4% | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-57591 | REVCO LUVERICAN OPHTHALMIC SOLUTION 1.4% | 單一成分 | WILSON TRADING COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 12 張）。
+
+<!-- licenses:end -->
 
 共 12 張單方許可證（9 張有效；HK-54985、HK-54986、HK-54987 已註銷），以上列出 5 張。
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ATENOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atenolol：預測新適應症為惡性高血壓腎病變（證據等級 L5）。原適應症：知識圖譜記錄：高血壓、心肌梗塞等"
 ---
 
@@ -87,13 +87,19 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (malignant hypertensive
 
 <!-- review:end hk-lic-20261117-atenolol-2 -->
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-17873 | TENORMIN TAB 50MG | PRUDENTLINK LIMITED |
-| HK-06812 | TENORMIN TAB 100MG | PRUDENTLINK LIMITED |
-| HK-45490 | NORMATEN TAB 50MG | FP HEALTHCARE LIMITED |
-| HK-34859 | NOTEN TAB 50MG | VIATRIS HEALTHCARE HONG KONG LIMITED |
-| HK-61154 | DEMITENS ORAL SOLUTION 25MG/5ML | SINO-ASIA PHARMACEUTICAL SUPPLIES LTD |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-17873 | TENORMIN TAB 50MG | 單一成分 | PRUDENTLINK LIMITED | 有效 |
+| HK-06812 | TENORMIN TAB 100MG | 單一成分 | PRUDENTLINK LIMITED | 有效 |
+| HK-45490 | NORMATEN TAB 50MG | 單一成分 | FP HEALTHCARE LIMITED | 有效 |
+| HK-34859 | NOTEN TAB 50MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-61154 | DEMITENS ORAL SOLUTION 25MG/5ML | 單一成分 | SINO-ASIA PHARMACEUTICAL SUPPLIES LTD | 有效 |
+
+上表列出其中 5 張（共 42 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

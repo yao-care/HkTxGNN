@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 561
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Memantine：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：許可證資料未載明"
 monitor_inn: "Memantine"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
@@ -131,13 +131,19 @@ TxGNN 模型預測排名最高的新適應症是肺高壓（分數最高，但�
 
 香港共有 8 張有效單方許可證，核准適應症文字在這份資料中皆未載明。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-51749 | EBIXA TAB 10MG | 錠劑 | 未載明 |
-| HK-58231 | EBIXA TAB 20MG | 錠劑 | 未載明 |
-| HK-62748 | MEMANTINE ACTAVIS FILM-COATED TABLETS 10MG | 膜衣錠 | 未載明 |
-| HK-63963 | MEMANTINE SANDOZ TABLET 10MG | 錠劑 | 未載明 |
-| HK-62744 | ALBIX TABLETS 10MG | 錠劑 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-51749 | EBIXA TAB 10MG | 單一成分 | Lundbeck HK Limited | 有效 |
+| HK-58231 | EBIXA TAB 20MG | 單一成分 | Lundbeck HK Limited | 有效 |
+| HK-62748 | MEMANTINE ACTAVIS FILM-COATED TABLETS 10MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-63963 | MEMANTINE SANDOZ TABLET 10MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-62744 | ALBIX TABLETS 10MG | 單一成分 | LSB (HK) LIMITED | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 ---
 

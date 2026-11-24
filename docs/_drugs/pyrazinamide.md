@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "PYRAZINAMIDE"
 predicted_indications: ["infectious otitis media", "middle ear disease", "otosalpingitis", "chronic otitis media", "suppurative otitis media", "non-suppurative otitis media", "middle ear cholesterol granuloma", "allergic otitis media", "Lyme disease", "infectious otitis interna"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pyrazinamide：預測新適應症為感染性中耳炎 (Infectious Otitis Media)（證據等級 L5）。原適應症：肺結核、結核性腦膜炎"
 ---
 
@@ -81,11 +81,15 @@ ChEMBL（EMBL-EBI）收錄的 Pyrazinamide 作用機轉（非官方翻譯）：�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-34750 | PYRAFAT TAB 500MG | 未載明 | 未載明 |
-| HK-06490 | PYRAZINAMIDE TAB 500MG | 未載明 | 未載明 |
-| HK-26892 | RIFATER TAB | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-34750 | PYRAFAT TAB 500MG | 單一成分 | MEKIM LTD | 有效 |
+| HK-06490 | PYRAZINAMIDE TAB 500MG | 單一成分 | ATLANTIC PHARMACEUTICAL LIMITED | 有效 |
+| HK-26892 | RIFATER TAB | 複方 | SANOFI HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

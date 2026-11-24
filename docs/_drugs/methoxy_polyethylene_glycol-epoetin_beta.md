@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "severe nonproliferative diabetic retinopathy", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methoxy Polyethylene Glycol-Epoetin Beta：預測新適應症為血小板原發性釋放障礙 (primary release disorder of platelets)（證據等級 L5）。原適應症：本次資料未提供香港許可證的核准適應症文字"
 ---
 
@@ -74,13 +74,17 @@ TxGNN 模型預測它可能對**血小板原發性釋放障礙 (primary release 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-56445 | MIRCERA INJ 150MCG/0.3ML (PRE-FILLED SYRINGE) | 未提供 | 未提供 |
-| HK-56442 | MIRCERA INJ 50MCG/0.3ML (PRE-FILLED SYRINGE) | 未提供 | 未提供 |
-| HK-56450 | MIRCERA INJ 75MCG/0.3ML (PRE-FILLED SYRINGE) | 未提供 | 未提供 |
-| HK-56449 | MIRCERA INJ 200MCG/0.3ML (PRE-FILLED SYRINGE) | 未提供 | 未提供 |
-| HK-56447 | MIRCERA INJ 100MCG/0.3ML (PRE-FILLED SYRINGE) | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-56445 | MIRCERA INJ 150MCG/0.3ML (PRE-FILLED SYRINGE) | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-56442 | MIRCERA INJ 50MCG/0.3ML (PRE-FILLED SYRINGE) | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-56450 | MIRCERA INJ 75MCG/0.3ML (PRE-FILLED SYRINGE) | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-56449 | MIRCERA INJ 200MCG/0.3ML (PRE-FILLED SYRINGE) | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-56447 | MIRCERA INJ 100MCG/0.3ML (PRE-FILLED SYRINGE) | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 以上 5 張許可證皆為單一成分製劑，持有者為 ROCHE HONG KONG LIMITED，狀態有效。
 

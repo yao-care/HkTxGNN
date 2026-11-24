@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 422
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Glycocholic Acid：預測新適應症為Prinzmetal 心絞痛 (Prinzmetal angina)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Glycocholic acid"
 predicted_indications: ["Prinzmetal angina", "myocardial infarction", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "posteroinferior myocardial infarction", "posterolateral myocardial infarction", "septal myocardial infarction", "hemoglobinopathy", "coronary thrombosis"]
@@ -90,9 +90,13 @@ TxGNN 模型預測它可能對 **Prinzmetal 心絞痛 (Prinzmetal angina)** 有�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-56452 | CERNEVIT FOR INJ（Baxter Healthcare Limited） | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-56452 | CERNEVIT FOR INJ | 複方 | BAXTER HEALTHCARE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 813
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Siltuximab"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
 description: "Siltuximab：預測新適應症為Extracutaneous mastocytoma（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
@@ -96,10 +96,14 @@ Siltuximab 是抗介白素-6（IL-6）的嵌合型單株抗體，原本用於治
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64496 | SYLVANT 凍晶粉末（輸注濃縮液）100MG | 未載明 | 未載明 |
-| HK-64495 | SYLVANT 凍晶粉末（輸注濃縮液）400MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64496 | SYLVANT POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG | 單一成分 | BEONE MEDICINES (HONG KONG) CO., LIMITED | 有效 |
+| HK-64495 | SYLVANT POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 400MG | 單一成分 | BEONE MEDICINES (HONG KONG) CO., LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證均為單一成分、有效狀態，持證商為 BEONE MEDICINES (HONG KONG) CO., LIMITED。
 

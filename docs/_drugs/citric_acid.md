@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "CITRIC ACID"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Citric Acid：預測新適應症為胃部疾病 (stomach disease)（證據等級 L5）。香港藥劑製品註冊：6 張（有效 6 張）"
 ---
 
@@ -81,13 +81,19 @@ TxGNN 模型預測它可能對**胃部疾病 (stomach disease)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-09759 | BABY COUGH MIXTURE (PAED SIMPLE LINCT) | 未記載 | 未記載 |
-| HK-63415 | CITRAFLEET POWDER FOR ORAL SOLUTION | 未記載 | 未記載 |
-| HK-60968 | PICOPREP POWDER FOR ORAL SOLUTION | 未記載 | 未記載 |
-| HK-20004 | LEMON FLAVOURED ENO FRUIT SALT | 未記載 | 未記載 |
-| HK-06461 | BABY COUGH SYRUP WITH ANTIHISTAMINE | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-09759 | BABY COUGH MIXTURE (PAED SIMPLE LINCT) | 複方 | NATIONAL PHARMACEUTICAL CO LTD | 有效 |
+| HK-63415 | CITRAFLEET POWDER FOR ORAL SOLUTION | 複方 | DCH AURIGA (HONG KONG) LIMITED - HEALTHCARE DIVISION | 有效 |
+| HK-60968 | PICOPREP POWDER FOR ORAL SOLUTION | 複方 | FERRING PHARMACEUTICALS LTD | 有效 |
+| HK-20004 | LEMON FLAVOURED ENO FRUIT SALT | 複方 | HALEON HONG KONG LIMITED | 有效 |
+| HK-06461 | BABY COUGH SYRUP WITH ANTIHISTAMINE | 複方 | ATLANTIC PHARMACEUTICAL LIMITED | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

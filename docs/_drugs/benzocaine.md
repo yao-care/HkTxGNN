@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "BENZOCAINE"
 predicted_indications: ["papillary conjunctivitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Benzocaine：預測新適應症為乳突狀結膜炎 (papillary conjunctivitis)（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"
 ---
 
@@ -77,13 +77,17 @@ TxGNN 模型預測它可能對**乳突狀結膜炎 (papillary conjunctivitis)** 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-19092 | BENZOCAINE LOZ 10MG | 未記錄 | 未記錄 |
-| HK-32909 | DEZOCAINE LOZENGES 0.25MG | 未記錄 | 未記錄 |
-| HK-04987 | TYROCAINE LOZ | 未記錄 | 未記錄 |
-| HK-11520 | TYROTHRICIN CO LOZ | 未記錄 | 未記錄 |
-| HK-57532 | ANTIHEMORROIDAL CINFA OINTMENT | 未記錄 | 未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-19092 | BENZOCAINE LOZ 10MG | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-32909 | DEZOCAINE LOZENGES 0.25MG | 複方 | MEYER PHARMACEUTICALS LTD | 有效 |
+| HK-04987 | TYROCAINE LOZ | 複方 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-11520 | TYROTHRICIN CO LOZ | 複方 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-57532 | ANTIHEMORROIDAL CINFA OINTMENT | 複方 | REICH PHARM LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

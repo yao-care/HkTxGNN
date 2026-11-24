@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 7
 monitor_inn: "ABATACEPT"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Abatacept：預測新適應症為僵直性脊椎炎 (ankylosing spondylitis)（證據等級 L3）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
@@ -83,11 +83,15 @@ TxGNN 模型預測它可能對**僵直性脊椎炎 (ankylosing spondylitis)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-58513 | ORENCIA LYOPHILIZED POWDER FOR IV INFUSION 250MG/VIAL | 未記載 | 未記載 |
-| HK-61905 | ORENCIA SOLUTION FOR SUBCUTANEOUS INJ IN PRE-FILLED SYRINGE WITH ULTRASAFE PASSIVE NEEDLE GUARD 125MG/ML | 未記載 | 未記載 |
-| HK-61501 | ORENCIA SOLUTION FOR SUBCUTANEOUS INJECTION IN PRE-FILLED SYRINGE 125MG/ML | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-58513 | ORENCIA LYOPHILIZED POWDER FOR IV INFUSION 250MG/VIAL | 單一成分 | BRISTOL-MYERS SQUIBB PHARMA (HK) LTD | 有效 |
+| HK-61905 | ORENCIA SOLUTION FOR SUBCUTANEOUS INJ IN PRE-FILLED SYRINGE WITH ULTRASAFE PASSI… | 單一成分 | BRISTOL-MYERS SQUIBB PHARMA (HK) LTD | 有效 |
+| HK-61501 | ORENCIA SOLUTION FOR SUBCUTANEOUS INJECTION IN PRE-FILLED SYRINGE 125MG/ML | 單一成分 | BRISTOL-MYERS SQUIBB PHARMA (HK) LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

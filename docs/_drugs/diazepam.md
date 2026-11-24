@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 272
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DIAZEPAM"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
 description: "Diazepam：預測新適應症為失眠 (insomnia (disease))（證據等級 L2）。香港藥劑製品註冊：25 張（有效 25 張）"
@@ -79,13 +79,19 @@ TxGNN 模型預測它可能對**失眠 (insomnia (disease))** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-11468 | DIAZEPAM TAB 2MG | 錠劑（2 mg） | 資料未載明 |
-| HK-45358 | DIAZEPAM INJ 5MG/ML | 注射劑 | 資料未載明 |
-| HK-67325 | DIAZEPAM TEVA RECTAL SOLUTION 5MG/2.5ML | 直腸溶液 | 資料未載明 |
-| HK-34828 | DIAZEPAM-LIPURO INJ 0.5% | 注射劑 | 資料未載明 |
-| HK-61111 | DIAZEPAM-HAMELN INJECTION 5MG/ML | 注射劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-11468 | DIAZEPAM TAB 2MG | 單一成分 | UNICORN LABORATORIES O/B AMERICAN UNICORN LABORATORIES LIMITED | 有效 |
+| HK-45358 | DIAZEPAM INJ 5MG/ML | 單一成分 | LUEN CHEONG HONG LTD | 有效 |
+| HK-67325 | DIAZEPAM TEVA RECTAL SOLUTION 5MG/2.5ML | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-34828 | DIAZEPAM-LIPURO INJ 0.5% | 單一成分 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-61111 | DIAZEPAM-HAMELN INJECTION 5MG/ML | 單一成分 | MEKIM LTD | 有效 |
+
+上表列出其中 5 張（共 25 張）。
+
+<!-- licenses:end -->
 
 香港共有 25 張含本藥成分的許可證（全部有效；皆為單一成分）。
 

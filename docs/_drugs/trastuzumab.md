@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Trastuzumab：預測新適應症為惡性皮膚顆粒細胞瘤 (malignant cutaneous granular cell skin tumor)（證據等級 L5）。香港藥劑製品註冊：13 張（有效 11 張）"
 ---
 
@@ -74,13 +74,19 @@ TxGNN 模型預測它可能對**惡性皮膚顆粒細胞瘤 (malignant cutaneous
 
 以下列出 5 張主要許可證，其核准適應症文字在資料中未提供：
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-64165 | HERCEPTIN 皮下注射液 600MG/5ML | 羅氏（Roche） |
-| HK-50618 | HERCEPTIN 注射用粉末 150MG | 羅氏（Roche） |
-| HK-67312 | TRAZIMERA 輸注濃縮液用粉末 150MG | 輝瑞（Pfizer） |
-| HK-66513 | HERZUMA 輸注濃縮液用粉末 150MG | Celltrion |
-| HK-66599 | KANJINTI 輸注濃縮液用粉末 150MG | 安進（Amgen） |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64165 | HERCEPTIN SOLUTION FOR INJECTION 600MG/5ML (FOR SUBCUTANEOUS USE ONLY) | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-50618 | HERCEPTIN POWDER FOR INJ 150MG | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-67312 | TRAZIMERA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 150MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 已註銷 |
+| HK-66513 | HERZUMA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 150MG | 單一成分 | CELLTRION HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-66599 | KANJINTI POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 150MG | 單一成分 | AMGEN HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 13 張）。
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

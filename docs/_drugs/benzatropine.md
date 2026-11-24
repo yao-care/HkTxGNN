@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "benzatropine"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "attention deficit-hyperactivity disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benzatropine：預測新適應症為PLA2G6 相關神經退化症 (PLA2G6-associated neurodegeneration)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
@@ -72,11 +72,15 @@ PLA2G6 相關神經退化症（包含嬰兒型神經軸突失養症及 PLA2G6 �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68615 | BENZTROPINE MESILATE SOLUTION FOR INJECTION 2MG/2ML | 未記載 | 未記載 |
-| HK-36324 | APO-BENZTROPINE TAB 2MG | 未記載 | 未記載 |
-| HK-62012 | BENZTROPINE OMEGA BENZTROPINE MESYLATE INJECTION USP 2MG/2ML | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68615 | BENZTROPINE MESILATE SOLUTION FOR INJECTION 2MG/2ML | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-36324 | APO-BENZTROPINE TAB 2MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-62012 | BENZTROPINE OMEGA BENZTROPINE MESYLATE INJECTION USP 2MG/2ML | 單一成分 | SINO-ASIA PHARMACEUTICAL SUPPLIES LTD | 有效 |
+
+<!-- licenses:end -->
 
 共 3 張許可證，皆為單一成分製劑且目前有效。
 

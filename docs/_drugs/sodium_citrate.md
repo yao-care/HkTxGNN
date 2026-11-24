@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "SODIUM CITRATE"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Sodium Citrate：預測新適應症為乳頭狀結膜炎（證據等級 L5）。原適應症：知識圖譜記錄的關聯：消化性潰瘍、胃食道逆流、食道炎、消化不良、咽炎、感冒、鼻炎、鼻咽炎"
 ---
 
@@ -89,13 +89,19 @@ TxGNN 模型預測它可能對**乳頭狀結膜炎 (Papillary Conjunctivitis)** 
 
 <!-- review:end hk-lic-20261117-sodium_citrate-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-28241 | SOD CITRATE SOLN 3.13% (B BRAUN) | 未載明 | 未載明 |
-| HK-65289 | REGIOCIT SOLUTION FOR HAEMOFILTRATION | 未載明 | 未載明 |
-| HK-49787 | BENA EXPECTORANT | 未載明 | 未載明 |
-| HK-47398 | DIPHENHYDRAMINE COMP LINCTUS | 未載明 | 未載明 |
-| HK-46401 | DIPHENHYDRAMINE COMP. LINCTUS | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-28241 | SOD CITRATE SOLN 3.13% (B BRAUN) | 單一成分 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-65289 | REGIOCIT SOLUTION FOR HAEMOFILTRATION | 複方 | VANTIVE HEALTHCARE LIMITED | 有效 |
+| HK-49787 | BENA EXPECTORANT | 複方 | FP HEALTHCARE LIMITED | 有效 |
+| HK-47398 | DIPHENHYDRAMINE COMP LINCTUS | 複方 | EUROPHARM LAB CO LTD | 有效 |
+| HK-46401 | DIPHENHYDRAMINE COMP. LINCTUS | 複方 | MEDIPHARMA LTD | 有效 |
+
+上表列出其中 5 張（共 35 張）。
+
+<!-- licenses:end -->
 
 ---
 

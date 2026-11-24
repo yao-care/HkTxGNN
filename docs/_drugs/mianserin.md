@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 581
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "Mianserin"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "neurotic disorder"]
 description: "Mianserin：預測新適應症為良性嬰兒陣發性斜頸 (benign paroxysmal torticollis of infancy)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
@@ -73,12 +73,16 @@ TxGNN 模型預測它可能對**良性嬰兒陣發性斜頸 (Benign Paroxysmal T
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55706 | VICK-MIANSERIN TAB 30MG | 未載明 | 未載明 |
-| HK-55705 | VICK-MIANSERIN TAB 10MG | 未載明 | 未載明 |
-| HK-58331 | MIANSERIN 10 TAB 10MG | 未載明 | 未載明 |
-| HK-58332 | MIANSERIN 30 TAB 30MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55706 | VICK-MIANSERIN TAB 30MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-55705 | VICK-MIANSERIN TAB 10MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-58331 | MIANSERIN 10 TAB 10MG | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - UNIVERSAL DIVISION | 有效 |
+| HK-58332 | MIANSERIN 30 TAB 30MG | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - UNIVERSAL DIVISION | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 645
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "OMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole：預測新適應症為Duodenal obstruction（證據等級 L5）。香港藥劑製品註冊：43 張（有效 42 張）"
@@ -93,13 +93,19 @@ Omeprazole 是質子幫浦抑制劑，原本用於胃潰瘍、十二指腸潰瘍
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67684 | OMEPRAZOLE JEAN-MARIE GASTRO-RESISTANT CAPSULES 20MG | 膠囊（耐胃酸） | 未提供 |
-| HK-53339 | OMEDIN 20 CAP 20MG (ENTERIC COATED PELLETS) | 膠囊（腸溶顆粒） | 未提供 |
-| HK-49774 | GOMEC CAP 20MG (E.C. GRANULES) | 膠囊（腸溶顆粒） | 未提供 |
-| HK-44354 | LOSEC MUPS TAB 20MG | 錠劑 | 未提供 |
-| HK-44353 | LOSEC MUPS TAB 10MG | 錠劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67684 | OMEPRAZOLE JEAN-MARIE GASTRO-RESISTANT CAPSULES 20MG | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-53339 | OMEDIN 20 CAP 20MG (ENTERIC COATED PELLETS) | 單一成分 | DELTAPHARM LIMITED | 有效 |
+| HK-49774 | GOMEC CAP 20MG (E.C. GRANULES) | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-44354 | LOSEC MUPS TAB 20MG | 單一成分 | ZUELLIG PHARMA LIMITED | 有效 |
+| HK-44353 | LOSEC MUPS TAB 10MG | 單一成分 | ZUELLIG PHARMA LIMITED | 有效 |
+
+上表列出其中 5 張（共 43 張）。
+
+<!-- licenses:end -->
 
 香港共有 43 張含本藥成分的許可證（有效 42 張、已註銷 1 張；皆為單一成分），以上僅列出 5 張。
 

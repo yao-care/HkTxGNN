@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 708
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pitolisant：預測新適應症為失眠症 (Insomnia)（證據等級 L5）。原適應症：猝睡症（narcolepsy）、猝睡症合併猝倒症候群"
 monitor_inn: "PITOLISANT"
 predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome"]
@@ -98,10 +98,14 @@ TxGNN 模型（深度學習）給出的高分（0.9971）可能反映模型學�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67770 | WAKIX TABLETS 4.5MG | 錠劑 | 未提供 |
-| HK-67769 | WAKIX TABLETS 18MG | 錠劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67770 | WAKIX TABLETS 4.5MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-67769 | WAKIX TABLETS 18MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證皆為單一成分、狀態有效，持證商為 JACOBSON MARKETING LIMITED。
 

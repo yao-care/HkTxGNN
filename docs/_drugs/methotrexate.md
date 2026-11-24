@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "METHOTREXATE"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methotrexate：預測新適應症為肺母細胞瘤 (Pulmonary Blastoma)（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症文字"
 ---
 
@@ -108,13 +108,19 @@ TxGNN 模型排名第一的預測是**肺母細胞瘤 (Pulmonary Blastoma)**（�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-29818 | METHOTREXAT-EBEWE CONC FOR IV INF 5000MG | 未載明 | 未載明 |
-| HK-67078 | METHOTREXATE TABLETS 2.5MG | 未載明 | 未載明 |
-| HK-16293 | METHOTREXATE INJ 50MG/2ML | 未載明 | 未載明 |
-| HK-36225 | METHOTREXAT TAB 2.5MG (EBEWE) | 未載明 | 未載明 |
-| HK-27062 | EMTHEXATE TAB 2.5MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-29818 | METHOTREXAT-EBEWE CONC FOR IV INF 5000MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-67078 | METHOTREXATE TABLETS 2.5MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-16293 | METHOTREXATE INJ 50MG/2ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-36225 | METHOTREXAT TAB 2.5MG (EBEWE) | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-27062 | EMTHEXATE TAB 2.5MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 共 9 張有效單一成分許可證，上表僅列出 5 張。
 

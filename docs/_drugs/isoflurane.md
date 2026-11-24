@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "ISOFLURANE"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "manic bipolar affective disorder", "trichotillomania", "dysthymic disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Isoflurane：預測新適應症為Prinzmetal angina（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
@@ -80,12 +80,16 @@ ChEMBL（EMBL-EBI）收錄的 Isoflurane 作用機轉（非官方翻譯）：「
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-58404 | TERRELL ISOFLURANE LIQUID FOR INHALATION | 吸入液 | 許可證資料未載明 |
-| HK-50284 | ATTANE (ISOFLURANE) LIQ FOR INHAL'N (VET) | 吸入液（獸用） | 許可證資料未載明 |
-| HK-51392 | I.S.O. INHALATION ANAESTHETIC LIQUID 1ML/ML (VET) | 吸入液（獸用） | 許可證資料未載明 |
-| HK-40926 | ISOFLURANE | 吸入液 | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-58404 | TERRELL ISOFLURANE LIQUID FOR INHALATION | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-50284 | ATTANE (ISOFLURANE) LIQ FOR INHAL'N(VET) | 單一成分 | UNITED ITALIAN CORP (HK) LTD | 有效 |
+| HK-51392 | I.S.O. INHALATION ANAESTHETIC LIQUID 1ML/ML (VET) | 單一成分 | ALFAMEDIC LIMITED | 有效 |
+| HK-40926 | ISOFLURANE | 單一成分 | UNITED ITALIAN CORP (HK) LTD | 有效 |
+
+<!-- licenses:end -->
 
 4 張許可證均為單方、有效狀態；其中 2 張品名標示為獸用 (VET)，使用前應確認是否適用於人類。
 

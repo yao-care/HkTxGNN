@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "acetylsalicylic acid"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetylsalicylic Acid：預測新適應症為萎縮性蚓狀皮膚病 (atrophoderma vermiculata)（證據等級 L5）。香港藥劑製品註冊：14 張（有效 14 張）"
 ---
 
@@ -74,13 +74,19 @@ TxGNN 模型預測它可能對**萎縮性蚓狀皮膚病 (atrophoderma vermicula
 
 香港共有 14 張有效的單一成分許可證，皆為上市狀態，目前無已註銷者。以下列出 5 張主要許可證，許可證資料中未記載核准適應症文字。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-48244 | PROPIRIN ENTERIC COATED TAB 100MG | 未記載 | 未記載 |
-| HK-68481 | CASPRIN GASTRO-RESISTANT CAPSULES 100MG | 未記載 | 未記載 |
-| HK-65427 | SAMJIN ASPIRIN ENTERIC-COATED TABLETS 100MG | 未記載 | 未記載 |
-| HK-62059 | ASP TABLETS 100MG | 未記載 | 未記載 |
-| HK-59150 | ASCOT 81 ENTERIC-COATED TAB 81MG | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-48244 | PROPIRIN ENTERIC COATED TAB 100MG | 單一成分 | CHRISTO PHARM LTD | 有效 |
+| HK-68481 | CASPRIN GASTRO-RESISTANT CAPSULES 100MG | 單一成分 | YUNG SHIN CO LTD | 有效 |
+| HK-65427 | SAMJIN ASPIRIN ENTERIC-COATED TABLETS 100MG | 單一成分 | LSB (HK) LIMITED | 有效 |
+| HK-62059 | ASP TABLETS 100MG | 單一成分 | CNW (HK) LTD | 有效 |
+| HK-59150 | ASCOT 81 ENTERIC-COATED TAB 81MG | 單一成分 | NATURAL HEALTH RESOURCES COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 14 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

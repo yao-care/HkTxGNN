@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 617
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Nicardipine"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
 description: "Nicardipine：預測新適應症為肺疾病及（或）缺氧所致肺高壓 (pulmonary hypertension owing to lung disease and/or hypoxia)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -85,9 +85,13 @@ TxGNN 模型預測它可能對**肺疾病及（或）缺氧所致肺高壓 (Pulm
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66577 | NICARDIPINE AGUETTANT SOLUTION FOR INJECTION/INFUSION 10MG/10ML | 注射／輸注溶液 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66577 | NICARDIPINE AGUETTANT SOLUTION FOR INJECTION/INFUSION 10MG/10ML | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

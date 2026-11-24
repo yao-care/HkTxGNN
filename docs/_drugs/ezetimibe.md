@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "EZETIMIBE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ezetimibe：預測新適應症為膽固醇酯轉運蛋白缺乏症 (cholesterol-ester transfer protein deficiency)（證據等級 L5）。香港藥劑製品註冊：24 張（有效 23 張）"
 ---
 
@@ -84,13 +84,19 @@ TxGNN 的高分是網路式預測，並無臨床資料支持。CETP 缺乏通常
 
 <!-- review:end hk-lic-20261117-ezetimibe-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66209 | LIPEZ TABLETS 10MG | 未載明 | 未載明 |
-| HK-65290 | ALZETIM TABLETS 10MG | 未載明 | 未載明 |
-| HK-68102 | JECEZETIM TABLETS 10MG | 未載明 | 未載明 |
-| HK-51223 | EZETROL TAB 10 MG | 未載明 | 未載明 |
-| HK-63988 | PMS-EZETIMIBE TABLETS 10MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66209 | LIPEZ TABLETS 10MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-65290 | ALZETIM TABLETS 10MG | 單一成分 | APT PHARMA LIMITED | 有效 |
+| HK-68102 | JECEZETIM TABLETS 10MG | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-51223 | EZETROL TAB 10 MG | 單一成分 | ORGANON HONG KONG LIMITED | 有效 |
+| HK-63988 | PMS-EZETIMIBE TABLETS 10MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+
+上表列出其中 5 張（共 24 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

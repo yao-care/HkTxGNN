@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 765
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Reserpine: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 ---
@@ -72,15 +72,13 @@ TxGNN 模型針對 Reserpine 產生的候選適應症，經追溯來源後全部
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-15916 | RELAZIDE TAB |  | 已註銷 |
+<!-- licenses:begin -->
 
-<!-- review:begin hk-row-20261117-reserpine-1 -->
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-15916 | RELAZIDE TAB | 複方 | KAI YUEN PHARMACEUTICAL CO | 已註銷 |
 
-> **查核更正（2026-11-17）**：原文為「HK-15916／RELAZIDE TAB／／有效」。已更正：HK-15916 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
-
-<!-- review:end hk-row-20261117-reserpine-1 -->
+<!-- licenses:end -->
 
 ## 安全性考量
 
@@ -106,7 +104,7 @@ TxGNN 模型針對 Reserpine 產生的候選適應症，經追溯來源後全部
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「HK-15916 &#124; RELAZIDE TAB &#124;  &#124; 有效」→「HK-15916 &#124; RELAZIDE TAB &#124;  &#124; 已註銷」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-17 | 「HK-15916 &#124; RELAZIDE TAB &#124;  &#124; 有效」→「HK-15916 &#124; RELAZIDE TAB &#124;  &#124; 已註銷」 | 已由程式產生的許可證表取代（原為更正） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 582
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MICAFUNGIN"
 predicted_indications: ["urinary tract infection (disease)"]
 description: "Micafungin：預測新適應症為泌尿道感染 (urinary tract infection (disease))（證據等級 L3）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -97,9 +97,13 @@ Micafungin 屬於棘白菌素類，作用是抑制 1,3-β-D-葡聚醣合成酶�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55160 | MYCAMINE FOR INJ 50MG | 注射劑 | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55160 | MYCAMINE FOR INJ 50MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 製造商為 SANDOZ HONG KONG LIMITED，許可證狀態為有效。
 

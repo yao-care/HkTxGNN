@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 133
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bromazepam：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "BROMAZEPAM"
 predicted_indications: ["migraine disorder"]
@@ -72,12 +72,16 @@ ChEMBL（EMBL-EBI）收錄的 Bromazepam 作用機轉（非官方翻譯）：「
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-03365 | LEXOTAN TAB 1.5MG | 資料未載明 | 資料未載明 |
-| HK-03341 | LEXOTAN TAB 3MG | 資料未載明 | 資料未載明 |
-| HK-25345 | AKAMON TAB 3MG | 資料未載明 | 資料未載明 |
-| HK-25346 | AKAMON TAB 1.5MG | 資料未載明 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-03365 | LEXOTAN TAB 1.5MG | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-03341 | LEXOTAN TAB 3MG | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-25345 | AKAMON TAB 3MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-25346 | AKAMON TAB 1.5MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

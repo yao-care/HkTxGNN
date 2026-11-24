@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "AGOMELATINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Agomelatine：預測新適應症為嬰兒良性陣發性斜頸 (benign paroxysmal torticollis of infancy)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
@@ -71,10 +71,14 @@ ChEMBL（EMBL-EBI）收錄的 Agomelatine 作用機轉（非官方翻譯）：�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-59904 | VALDOXAN TAB 25MG | 未記載 | 本地資料未記載 |
-| HK-67815 | AGOMELATINE TEVA TABLETS 25MG | 未記載 | 本地資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-59904 | VALDOXAN TAB 25MG | 單一成分 | SERVIER HONG KONG LIMITED | 有效 |
+| HK-67815 | AGOMELATINE TEVA TABLETS 25MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

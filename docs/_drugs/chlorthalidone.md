@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CHLORTHALIDONE"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "acute pulmonary heart disease", "congenital hypotrichosis milia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Chlorthalidone：預測新適應症為原發性遺傳性青光眼 (primary hereditary glaucoma)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
@@ -72,12 +72,16 @@ TxGNN 模型預測它可能對**原發性遺傳性青光眼 (primary hereditary 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62250 | EDARBYCLOR TABLETS 40MG/25MG | 未記載 | 未記載 |
-| HK-62249 | EDARBYCLOR TABLETS 40MG/12.5MG | 未記載 | 未記載 |
-| HK-20350 | TENORET 50 TAB | 未記載 | 未記載 |
-| HK-13778 | TENORETIC TAB | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62250 | EDARBYCLOR TABLETS 40MG/25MG | 複方 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-62249 | EDARBYCLOR TABLETS 40MG/12.5MG | 複方 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-20350 | TENORET 50 TAB | 複方 | PRUDENTLINK LIMITED | 有效 |
+| HK-13778 | TENORETIC TAB | 複方 | PRUDENTLINK LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

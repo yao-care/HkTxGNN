@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 625
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nitroglycerin：預測新適應症為肺動脈高壓 (Pulmonary Hypertension)（證據等級 L3）。原適應症：香港許可證資料未載明核准適應症"
 monitor_inn: "nitroglycerin"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
@@ -97,13 +97,19 @@ TxGNN 模型預測它可能對**肺動脈高壓 (Pulmonary Hypertension)** 有�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-21410 | NITRODERM TTS 10 10MG/24 HOURS | 未載明（穿皮貼片系列） | 未載明 |
-| HK-17865 | NITRODERM TTS 5 5MG/24 HOURS | 未載明（穿皮貼片系列） | 未載明 |
-| HK-53929 | GLYCERYL TRINITRATE-HAMELN INJ 1MG/ML | 注射劑 | 未載明 |
-| HK-42848 | NITRO POHL FOR INTRAVENOUS INJ 1MG/ML | 注射劑 | 未載明 |
-| HK-58236 | GLYCERYL TRINITRATE SOLN FOR INF 1MG/ML | 輸注溶液 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-21410 | NITRODERM TTS 10 10MG/24 HOURS | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-17865 | NITRODERM TTS 5 5MG/24 HOURS | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-53929 | GLYCERYL TRINITRATE-HAMELN INJ 1MG/ML | 單一成分 | MEKIM LTD | 有效 |
+| HK-42848 | NITRO POHL FOR INTRAVENOUS INJ 1MG/ML | 單一成分 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+| HK-58236 | GLYCERYL TRINITRATE SOLN FOR INF 1MG/ML | 單一成分 | MEKIM LTD | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 ---
 

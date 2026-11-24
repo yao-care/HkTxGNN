@@ -5,7 +5,7 @@ layout: default
 title: Hypromellose
 parent: 僅已知用途（無新預測）
 nav_order: 450
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Hypromellose: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Hypromellose"
 predicted_indications: []
@@ -58,13 +58,19 @@ evidence_level: N/A
 
 <!-- review:end hk-lic-20261117-hypromellose-1 -->
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-46636 | GENTEAL LUBRICANT EYE DROPS 0.3% | ALCON HONG KONG LTD |
-| HK-64590 | LOSTEAR EYE DROPS 0.3% W/V | EUROPHARM LAB CO LTD |
-| HK-45257 | LAC-OPH EYE DROPS 0.5% | HEALTH ALLIANCE INTERNATIONAL CO LTD |
-| HK-67786 | HIPRO EYE DROPS 0.3% W/V | CHEMILL PHARMA LIMITED |
-| HK-22087 | HYPROMELLOSE EYE DROPS 0.3% | THE INTERNATIONAL MEDICAL COMPANY LIMITED |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-46636 | GENTEAL LUBRICANT EYE DROPS 0.3% | 單一成分 | ALCON HONG KONG LTD | 有效 |
+| HK-64590 | LOSTEAR EYE DROPS 0.3% W/V | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-45257 | LAC-OPH EYE DROPS 0.5% | 單一成分 | HEALTH ALLIANCE INTERNATIONAL CO LTD | 有效 |
+| HK-67786 | HIPRO EYE DROPS 0.3% W/V | 單一成分 | CHEMILL PHARMA LIMITED | 有效 |
+| HK-22087 | HYPROMELLOSE EYE DROPS 0.3% | 單一成分 | THE INTERNATIONAL MEDICAL COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 22 張）。
+
+<!-- licenses:end -->
 
 ---
 

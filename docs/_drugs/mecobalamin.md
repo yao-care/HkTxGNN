@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 555
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Mecobalamin：預測新適應症為硬化性膽管炎 (Sclerosing Cholangitis)（證據等級 L5）。原適應症：資料中未載明"
 monitor_inn: "MECOBALAMIN"
 predicted_indications: ["sclerosing cholangitis", "multiple endocrine neoplasia", "bone Paget disease"]
@@ -71,13 +71,19 @@ TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-51127 | LICHEIN CAP 0.5MG | 未載明 | 未載明 |
-| HK-68347 | MEDBALCO TABLETS 500MCG | 未載明 | 未載明 |
-| HK-54285 | NORCOBAL TAB 0.5MG | 未載明 | 未載明 |
-| HK-58968 | COMESGEN TAB 500 MCG | 未載明 | 未載明 |
-| HK-64652 | METHYCOBAL INJECTION 500 MCG/ML | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-51127 | LICHEIN CAP 0.5MG | 單一成分 | HITPHARM PHARMACEUTICAL CO LTD | 有效 |
+| HK-68347 | MEDBALCO TABLETS 500MCG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-54285 | NORCOBAL TAB 0.5MG | 單一成分 | JINDUN PHARMA (H.K.) LIMITED | 有效 |
+| HK-58968 | COMESGEN TAB 500 MCG | 單一成分 | MAIN LIFE CORP LTD | 有效 |
+| HK-64652 | METHYCOBAL INJECTION 500 MCG/ML | 單一成分 | EISAI (HONG KONG) COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 另有 HK-30872（METHYCOBAL TAB 500UG）。6 張許可證皆為有效的單方製劑，無已註銷者。
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Benazepril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benazepril：預測新適應症為惡性高血壓腎病變 (malignant hypertensive renal disease)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
@@ -72,11 +72,15 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (malignant hypertensive
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-59960 | FORTEKOR FLAVOUR TAB 5MG (VET) | 未記載 | 未記載 |
-| HK-59961 | FORTEKOR FLAVOUR TAB 20MG (VET) | 未記載 | 未記載 |
-| HK-57852 | FORTEKOR TAB 2.5MG (VET) | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-59960 | FORTEKOR FLAVOUR TAB 5MG (VET) | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - UNIVERSAL DIVISION | 有效 |
+| HK-59961 | FORTEKOR FLAVOUR TAB 20MG (VET) | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - UNIVERSAL DIVISION | 有效 |
+| HK-57852 | FORTEKOR TAB 2.5MG (VET) | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - UNIVERSAL DIVISION | 有效 |
+
+<!-- licenses:end -->
 
 以上 3 張許可證品名皆標示為獸醫用（VET）產品，目前整理的資料中沒有人用製劑的許可證。
 

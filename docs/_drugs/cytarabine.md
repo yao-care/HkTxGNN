@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 240
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CYTARABINE"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
 description: "Cytarabine：預測新適應症為小細胞肺癌 (small cell lung carcinoma)（證據等級 L4）。香港藥劑製品註冊：14 張（有效 14 張）"
@@ -86,13 +86,19 @@ TxGNN 模型預測它可能對**小細胞肺癌 (Small Cell Lung Carcinoma)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65688 | ACCORD CYTARABINE SOLUTION FOR INJECTION/INFUSION 100MG/1ML | 注射劑 | 未提供 |
-| HK-36387 | CYTARABINE INJ 100MG/ML | 注射劑 | 未提供 |
-| HK-66210 | CYTARABINE KABI SOLUTION FOR INJECTION OR INFUSION 100MG/1ML | 注射劑 | 未提供 |
-| HK-27972 | CYTOSAR STERILE POWDER FOR INJ 100MG | 注射用粉劑 | 未提供 |
-| HK-44691 | ALEXAN INJ 5% | 注射劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65688 | ACCORD CYTARABINE SOLUTION FOR INJECTION/INFUSION 100MG/1ML | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-36387 | CYTARABINE INJ 100MG/ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-66210 | CYTARABINE KABI SOLUTION FOR INJECTION OR INFUSION 100MG/1ML | 單一成分 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-27972 | CYTOSAR STERILE POWDER FOR INJ 100MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-44691 | ALEXAN INJ 5% | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 14 張）。
+
+<!-- licenses:end -->
 
 ---
 

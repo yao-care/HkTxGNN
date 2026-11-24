@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CEFOPERAZONE"
 predicted_indications: ["sclerosing cholangitis", "rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "gout", "bronchitis", "meningococcal infection", "infectious otitis media", "IgG4-related sclerosing cholangitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Cefoperazone：預測新適應症為硬化性膽管炎 (sclerosing cholangitis)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
@@ -72,12 +72,16 @@ TxGNN 模型預測它可能對**硬化性膽管炎 (sclerosing cholangitis)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61003 | CEFOPERAZONE AND SULBACTAM FOR INJECTION 1G (SHENZHEN LIJIAN) | 未記載 | 未記載 |
-| HK-63480 | SITANDING POWDER FOR SOLUTION FOR INJECTION 1G | 未記載 | 未記載 |
-| HK-56893 | NASPALUN FOR INTRAVENOUS INJ | 未記載 | 未記載 |
-| HK-32893 | SULPERAZON FOR INJ 500MG/500MG | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61003 | CEFOPERAZONE AND SULBACTAM FOR INJECTION 1G (SHENZHEN LIJIAN) | 複方 | CEUTICAL TRADING COMPANY LIMITED | 有效 |
+| HK-63480 | SITANDING POWDER FOR SOLUTION FOR INJECTION 1G | 複方 | JINDUN PHARMA (H.K.) LIMITED | 有效 |
+| HK-56893 | NASPALUN FOR INTRAVENOUS INJ | 複方 | MAIN LIFE CORP LTD | 有效 |
+| HK-32893 | SULPERAZON FOR INJ 500MG/500MG | 複方 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

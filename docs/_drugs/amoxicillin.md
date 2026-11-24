@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "AMOXICILLIN"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amoxicillin：預測新適應症為多株性高黏滯症候群 (polyclonal hyperviscosity syndrome)（證據等級 L5）。香港藥劑製品註冊：156 張（有效 153 張）"
 ---
 
@@ -80,13 +80,19 @@ TxGNN 模型預測它可能對**多株性高黏滯症候群 (polyclonal hypervis
 
 <!-- review:end hk-lic-20261117-amoxicillin-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-52757 | PROMOX CAP 500MG | 未記錄 | 未記錄 |
-| HK-35653 | AMOXICAP 250 CAP | 未記錄 | 未記錄 |
-| HK-39546 | AMOXYCILLIN CAP 250MG (BRIGHT FUTURE) | 未記錄 | 未記錄 |
-| HK-55778 | AMOXICILLIN ORAL SUSPENSION BP 125MG/5ML | 未記錄 | 未記錄 |
-| HK-56083 | T.V. MOX CAP 500MG | 未記錄 | 未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-52757 | PROMOX CAP 500MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-35653 | AMOXICAP 250 CAP | 單一成分 | HOVID LIMITED | 有效 |
+| HK-39546 | AMOXYCILLIN CAP 250MG (BRIGHT FUTURE) | 單一成分 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+| HK-55778 | AMOXICILLIN ORAL SUSPENSION BP 125MG/5ML | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - UNIVERSAL DIVISION | 有效 |
+| HK-56083 | T.V. MOX CAP 500MG | 單一成分 | GAILY PHARMACEUTICAL COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 156 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

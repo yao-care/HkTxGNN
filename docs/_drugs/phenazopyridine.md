@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 686
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Phenazopyridine：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L5）。原適應症：資料中未載明核准適應症（泌尿道止痛用途為藥理分類推論）"
 monitor_inn: "Phenazopyridine"
 predicted_indications: ["bronchitis"]
@@ -83,13 +83,19 @@ TxGNN 模型（深度學習）給出的高分（0.9923）可能反映模型從�
 
 本藥在香港共有 12 張有效單方許可證。以下列出主要 5 張（資料中未提供劑型與核准適應症）：
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-49457 | SURISHIA TAB 50MG | 錠劑（依品名） | 資料未提供 |
-| HK-62852 | VICK-PYRIZO CAPSULES 100MG | 膠囊（依品名） | 資料未提供 |
-| HK-61946 | EURO-PHENAZO CAPSULES 100MG | 膠囊（依品名） | 資料未提供 |
-| HK-16853 | UROPRIN COATED TAB 100MG | 糖衣錠（依品名） | 資料未提供 |
-| HK-61945 | UNI-PENIDION CAPSULES 100MG | 膠囊（依品名） | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-49457 | SURISHIA TAB 50MG | 單一成分 | HITPHARM PHARMACEUTICAL CO LTD | 有效 |
+| HK-62852 | VICK-PYRIZO CAPSULES 100MG | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-61946 | EURO-PHENAZO CAPSULES 100MG | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-16853 | UROPRIN COATED TAB 100MG | 單一成分 | YUNG SHIN CO LTD | 有效 |
+| HK-61945 | UNI-PENIDION CAPSULES 100MG | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+
+上表列出其中 5 張（共 12 張）。
+
+<!-- licenses:end -->
 
 ---
 

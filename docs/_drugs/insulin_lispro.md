@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Lispro：預測新適應症為自體免疫性卵巢炎 (autoimmune oophoritis)（證據等級 L5）。原適應症：第 2 型糖尿病、第 1 型糖尿病、糖尿病酮酸中毒"
 ---
 
@@ -81,13 +81,17 @@ TxGNN 模型預測它可能對**自體免疫性卵巢炎 (autoimmune oophoritis)
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-60381 | HUMALOG 100 U/ML KWIKPEN SOLUTION FOR INJECTION | 未提供 | 未提供 |
-| HK-42887 | HUMALOG INJ 3ML CARTRIDGE 100U/ML | 未提供 | 未提供 |
-| HK-42886 | HUMALOG INJ 100U/ML | 未提供 | 未提供 |
-| HK-60379 | HUMALOG MIX50 100 U/ML KWIKPEN SUSPENSION FOR INJECTION | 未提供 | 未提供 |
-| HK-60380 | HUMALOG MIX25 100 U/ML KWIKPEN SUSPENSION FOR INJECTION | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-60381 | HUMALOG 100 U/ML KWIKPEN SOLUTION FOR INJECTION | 單一成分 | ELI LILLY ASIA, INC. | 有效 |
+| HK-42887 | HUMALOG INJ 3ML CARTRIDGE 100U/ML | 單一成分 | ELI LILLY ASIA, INC. | 有效 |
+| HK-42886 | HUMALOG INJ 100U/ML | 單一成分 | ELI LILLY ASIA, INC. | 有效 |
+| HK-60379 | HUMALOG MIX50 100 U/ML KWIKPEN SUSPENSION FOR INJECTION | 複方 | ELI LILLY ASIA, INC. | 有效 |
+| HK-60380 | HUMALOG MIX25 100 U/ML KWIKPEN SUSPENSION FOR INJECTION | 複方 | ELI LILLY ASIA, INC. | 有效 |
+
+<!-- licenses:end -->
 
 以上 5 張許可證皆由 ELI LILLY ASIA, INC. 持有，狀態有效。
 

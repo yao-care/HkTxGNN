@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 335
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ERIBULIN"
 predicted_indications: ["autosomal recessive familial Mediterranean fever", "dermatofibrosarcoma protuberans", "pleural mesothelioma", "malignant peritoneal mesothelioma", "pleural adenomatoid tumor", "pleural biphasic mesothelioma", "fibroblastic neoplasm", "pleural epithelioid mesothelioma", "heart fibrosarcoma"]
 description: "Eribulin：預測新適應症為Autosomal recessive familial Mediterranean fever（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
@@ -101,11 +101,15 @@ TxGNN 模型的預測排名第一為**自體隱性家族性地中海熱**，但�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61632 | HALAVEN SOLUTION FOR INJECTION 0.88MG/2ML（Eisai） | 注射液 | 未提供 |
-| HK-65349 | HALAVEN SOLUTION FOR INJECTION 0.88MG/2ML（Eisai） | 注射液 | 未提供 |
-| HK-68262 | EBUNAT SOLUTION FOR INJECTION 0.88MG/2ML（I & C） | 注射液 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61632 | HALAVEN SOLUTION FOR INJECTION 0.88MG/2ML | 單一成分 | EISAI (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-65349 | HALAVEN SOLUTION FOR INJECTION 0.88MG/2ML | 單一成分 | EISAI (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-68262 | EBUNAT SOLUTION FOR INJECTION 0.88MG/2ML | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

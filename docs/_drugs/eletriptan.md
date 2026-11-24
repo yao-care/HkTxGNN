@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 312
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "ELETRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
 description: "Eletriptan：預測新適應症為Atrophoderma vermiculata（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -94,9 +94,13 @@ Eletriptan 是選擇性 5-HT1B/1D 受體促效劑，對 5-HT1D 受體的親和�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66729 | RELPAX TABLETS 20MG（廠商：VIATRIS HEALTHCARE HONG KONG LIMITED） | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66729 | RELPAX TABLETS 20MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

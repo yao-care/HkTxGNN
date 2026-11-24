@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 569
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methadone：預測新適應症為妥瑞氏症 (Tourette syndrome)（證據等級 L4）。原適應症：資料未載明"
 monitor_inn: "Methadone"
 predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
@@ -77,10 +77,14 @@ TxGNN 模型預測它可能對**妥瑞氏症 (Tourette syndrome)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-01207 | METHADONE TAB BP 5 MG | 未載明 | 未載明 |
-| HK-65009 | METHADONE LINCTUS 80MG/20ML (NEW FORMULA) | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-01207 | METHADONE TAB BP 5 MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-65009 | METHADONE LINCTUS 80MG/20ML (NEW FORMULA) | 單一成分 | DRUG PROCUREMENT & CLINIC SERVICE DIVISION OF THE DRUG OFFICE, DEPARTM… | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

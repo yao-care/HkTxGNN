@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 288
 evidence_level: L2
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DOCETAXEL"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
 description: "Docetaxel：預測新適應症為尤文氏肉瘤 (Ewing sarcoma)（證據等級 L2）。香港藥劑製品註冊：23 張（有效 23 張）"
@@ -92,13 +92,19 @@ TxGNN 模型預測它可能對**尤文氏肉瘤 (Ewing sarcoma)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-41354 | TAXOTERE CONC FOR INF. 80MG/2ML (VIAL)（Sanofi） | 注射濃縮液 | 資料未提供 |
-| HK-41353 | TAXOTERE CONC FOR INF 20MG/0.5ML (VIAL)（Sanofi） | 注射濃縮液 | 資料未提供 |
-| HK-64613 | ACCORD DOCETAXEL 20MG/1ML（I & C） | 注射濃縮液 | 資料未提供 |
-| HK-68552 | DAXOTEL 80MG/4ML（Fresenius Kabi） | 注射濃縮液 | 資料未提供 |
-| HK-62664 | DOCETAXEL ACTAVIS 80MG/2ML（Teva） | 注射濃縮液 | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-41354 | TAXOTERE CONC FOR INF. 80MG/2ML(VIAL) | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-41353 | TAXOTERE CONC FOR INF 20MG/0.5ML(VIAL) | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-64613 | ACCORD DOCETAXEL CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/1ML | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-68552 | DAXOTEL CONCENTRATE FOR SOLUTION FOR INFUSION 80MG/4ML | 單一成分 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-62664 | DOCETAXEL ACTAVIS CONCENTRATE AND SOLVENT FOR SOLUTION FOR INFUSION 80MG/2ML | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+
+上表列出其中 5 張（共 23 張）。
+
+<!-- licenses:end -->
 
 香港共有 23 張含本藥成分的許可證（全部有效；單一成分 21 張、複方 2 張）。
 

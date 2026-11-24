@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 506
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lamotrigine：預測新適應症為三叉神經腫瘤（證據等級 L2）。原適應症：癲癇"
 monitor_inn: "LAMOTRIGINE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -114,13 +114,19 @@ TxGNN 模型排名第一的預測是「三叉神經腫瘤」，但這項預測�
 
 <!-- review:end hk-lic-20261117-lamotrigine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-37451 | LAMICTAL TAB 100MG（GlaxoSmithKline） | 錠劑 | — |
-| HK-37452 | LAMICTAL TAB 50MG（GlaxoSmithKline） | 錠劑 | — |
-| HK-39443 | LAMICTAL DISPERSIBLE TAB 5MG（GlaxoSmithKline） | 分散錠 | — |
-| HK-56609 | LAMOTRIGINE-TEVA 100MG TAB（Teva） | 錠劑 | — |
-| HK-57291 | APO-LAMOTRIGINE TAB 100MG（Hind Wing） | 錠劑 | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-37451 | LAMICTAL TAB 100MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-37452 | LAMICTAL TAB 50MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-39443 | LAMICTAL DISPERSIBLE TAB 5MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-56609 | LAMOTRIGINE-TEVA 100MG TAB | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-57291 | APO-LAMOTRIGINE TAB 100MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 22 張）。
+
+<!-- licenses:end -->
 
 另有 PMS-Lamotrigine、Lamoga、Epsylam DT、Lamotrix、Lamepil 等其他品牌，香港共有 22 張含本藥成分的許可證（全部有效；皆為單一成分）。
 

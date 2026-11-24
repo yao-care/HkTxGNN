@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 790
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Roxadustat：預測新適應症為乾眼症 (Dry Eye Syndrome)（證據等級 L5）。原適應症：難治性貧血 (Refractory Anemia)"
 monitor_inn: "ROXADUSTAT"
 predicted_indications: ["dry eye syndrome", "bone Paget disease", "dentinogenesis imperfecta", "squamous cell carcinoma"]
@@ -81,10 +81,14 @@ HIF 穩定化理論上可能影響角膜與結膜上皮的缺氧反應、發炎�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68440 | EVRENZO CAPSULES 50MG | 未提供 | 未提供 |
-| HK-68439 | EVRENZO CAPSULES 20MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68440 | EVRENZO CAPSULES 50MG | 單一成分 | FIBROGEN INTERNATIONAL (HONG KONG) LIMITED | 有效 |
+| HK-68439 | EVRENZO CAPSULES 20MG | 單一成分 | FIBROGEN INTERNATIONAL (HONG KONG) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證均為單方製劑，狀態有效，持有者為 FIBROGEN INTERNATIONAL (HONG KONG) LIMITED。
 

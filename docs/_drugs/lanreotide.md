@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 508
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LANREOTIDE"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
 description: "Lanreotide：預測新適應症為多毛症 (hypertrichosis (disease))（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
@@ -71,11 +71,15 @@ IGF-1 訊號可能影響毛囊生長，因此理論上藥物可能調節毛髮�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-51884 | SOMATULINE AUTOGEL INJ 90MG (PREFILLED-SYRINGE) | 預充填注射劑 | 未提供 |
-| HK-51885 | SOMATULINE AUTOGEL INJ 60 MG (PREFILLED-SYRINGE) | 預充填注射劑 | 未提供 |
-| HK-51886 | SOMATULINE AUTOGEL INJ 120MG (PREFILLED-SYRINGE) | 預充填注射劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-51884 | SOMATULINE AUTOGEL INJ 90MG (PREFILLED-SYRINGE) | 單一成分 | BEAUFOUR IPSEN INTERNATIONAL (HONG KONG) LIMITED | 有效 |
+| HK-51885 | SOMATULINE AUTOGEL INJ 60 MG (PREFILLED-SYRINGE) | 單一成分 | BEAUFOUR IPSEN INTERNATIONAL (HONG KONG) LIMITED | 有效 |
+| HK-51886 | SOMATULINE AUTOGEL INJ 120MG (PREFILLED-SYRINGE) | 單一成分 | BEAUFOUR IPSEN INTERNATIONAL (HONG KONG) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證均為單方製劑，持證商為 BEAUFOUR IPSEN INTERNATIONAL (HONG KONG) LIMITED。
 

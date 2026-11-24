@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "BENZOYL PEROXIDE"
 predicted_indications: ["vulvar inverted follicular keratosis", "2-hydroxyethyl methacrylate sensitization", "acrodermatitis chronica atrophicans", "acne keloid"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benzoyl Peroxide：預測新適應症為外陰部倒置性毛囊角化症 (vulvar inverted follicular keratosis)（證據等級 L5）。香港藥劑製品註冊：12 張（有效 12 張）"
 ---
 
@@ -72,13 +72,19 @@ TxGNN 模型預測它可能對**外陰部倒置性毛囊角化症 (vulvar invert
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-38989 | BENZAC AC 2 1/2 GEL 2.5% | 未記載 | 未記載 |
-| HK-38990 | BENZAC AC 5 GEL 5% | 未記載 | 未記載 |
-| HK-19304 | OXY COVER CREAM 10% MAXIMUM STRENGTH | 未記載 | 未記載 |
-| HK-40467 | BENZAC AC WASH 5% | 未記載 | 未記載 |
-| HK-38991 | BENZAC AC 10 GEL 10% | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-38989 | BENZAC AC 2 1/2 GEL 2.5% | 單一成分 | GALDERMA HONG KONG LIMITED | 有效 |
+| HK-38990 | BENZAC AC 5 GEL 5% | 單一成分 | GALDERMA HONG KONG LIMITED | 有效 |
+| HK-19304 | OXY COVER CREAM 10% MAXIMUM STRENGTH | 單一成分 | MENTHOLATUM (ASIA PACIFIC) LIMITED | 有效 |
+| HK-40467 | BENZAC AC WASH 5% | 單一成分 | GALDERMA HONG KONG LIMITED | 有效 |
+| HK-38991 | BENZAC AC 10 GEL 10% | 單一成分 | GALDERMA HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 12 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

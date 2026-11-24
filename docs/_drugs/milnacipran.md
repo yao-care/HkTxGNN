@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 587
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Milnacipran"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "tendinitis", "papillary conjunctivitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "atrophoderma vermiculata", "cauda equina syndrome"]
 description: "Milnacipran：預測新適應症為偏頭痛 (migraine disorder)（證據等級 L3）。香港藥劑製品註冊：2 張（有效 2 張）"
@@ -83,10 +83,14 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68106 | MILPRAN CAPSULES 50MG | 未登載 | 未登載 |
-| HK-68105 | MILPRAN CAPSULES 25MG | 未登載 | 未登載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68106 | MILPRAN CAPSULES 50MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-68105 | MILPRAN CAPSULES 25MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 兩張皆為單方、有效，持證商為 HIND WING CO LTD。
 

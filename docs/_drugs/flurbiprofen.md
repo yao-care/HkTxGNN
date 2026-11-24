@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "FLURBIPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Flurbiprofen：預測新適應症為肢端中段發育不良，亨特-湯普森型 (acromesomelic dysplasia, Hunter-Thompson type)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
@@ -72,11 +72,15 @@ TxGNN 模型預測它可能對**肢端中段發育不良，亨特-湯普森型 (
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68354 | SULAN TABLETS 100MG | 未載明 | 未載明 |
-| HK-64202 | FUKON TABLETS 50MG | 未載明 | 未載明 |
-| HK-61431 | STREPFEN HONEY & LEMON LOZENGE 8.75MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68354 | SULAN TABLETS 100MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-64202 | FUKON TABLETS 50MG | 單一成分 | HITPHARM PHARMACEUTICAL CO LTD | 有效 |
+| HK-61431 | STREPFEN HONEY & LEMON LOZENGE 8.75MG | 單一成分 | RECKITT BENCKISER HONG KONG LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

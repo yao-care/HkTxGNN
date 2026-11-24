@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Carbinoxamine"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carbinoxamine：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。香港藥劑製品註冊：12 張（有效 11 張）"
 ---
 
@@ -72,13 +72,19 @@ TxGNN 模型預測它可能對**鼻腔疾病 (nasal cavity disease)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-32014 | NATIFED SYRUP | 未記載 | 未記載 |
-| HK-34395 | BECAME TAB | 未記載 | 未記載 |
-| HK-54148 | LONGTEC TAB | 未記載 | 未記載 |
-| HK-56159 | BECAME TAB | 未記載 | 未記載 |
-| HK-08596 | METOMIN TAB | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-32014 | NATIFED SYRUP | 複方 | NATIONAL PHARMACEUTICAL CO LTD | 有效 |
+| HK-34395 | BECAME TAB | 複方 | YUNG SHIN CO LTD | 有效 |
+| HK-54148 | LONGTEC TAB | 複方 | VAST RESOURCES PHARMACEUTICAL LTD | 已註銷 |
+| HK-56159 | BECAME TAB | 複方 | YUNG SHIN CO LTD | 有效 |
+| HK-08596 | METOMIN TAB | 複方 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+
+上表列出其中 5 張（共 12 張）。
+
+<!-- licenses:end -->
 
 本品共有 12 張單一成分許可證（11 張有效；HK-54148 已註銷），此處僅列出 5 張主要許可證。
 

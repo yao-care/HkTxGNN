@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 652
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Oxymetazoline"
 predicted_indications: ["nasal cavity disease", "headache disorder"]
 description: "Oxymetazoline：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。香港藥劑製品註冊：13 張（有效 13 張）"
@@ -90,13 +90,19 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 目前共有 13 張有效單一成分許可證（無已註銷者），以下列出 5 張主要許可證。資料中未提供劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-01416 | AFRIN NASAL SPRAY 0.05%（拜耳） | 鼻用噴劑 | 資料未載明 |
-| HK-51937 | OXY-NASE NASAL SPRAY 0.05%（大正製藥） | 鼻用噴劑 | 資料未載明 |
-| HK-52653 | OXY-NASE NASAL DROPS 0.05%W/V（大正製藥） | 滴鼻液 | 資料未載明 |
-| HK-51938 | OXY-NASE PAEDIATRIC NASAL SPRAY 0.025%（大正製藥） | 兒童鼻用噴劑 | 資料未載明 |
-| HK-43745 | LOGICIN RAPID RELIEF NASAL SPRAY 0.05%（Aspen） | 鼻用噴劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-01416 | AFRIN NASAL SPRAY 0.05% | 單一成分 | BAYER HEALTHCARE LIMITED | 有效 |
+| HK-51937 | OXY-NASE NASAL SPRAY 0.05% | 單一成分 | TAISHO PHARMACEUTICAL (HK) LTD | 有效 |
+| HK-52653 | OXY-NASE NASAL DROPS 0.05%W/V | 單一成分 | TAISHO PHARMACEUTICAL (HK) LTD | 有效 |
+| HK-51938 | OXY-NASE PAEDIATRIC NASAL SPRAY 0.025% | 單一成分 | TAISHO PHARMACEUTICAL (HK) LTD | 有效 |
+| HK-43745 | LOGICIN RAPID RELIEF NASAL SPRAY 0.05% | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+
+上表列出其中 5 張（共 13 張）。
+
+<!-- licenses:end -->
 
 ---
 

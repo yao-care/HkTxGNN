@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 3
 monitor_inn: "RITONAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ritonavir：預測新適應症為猿猴免疫缺陷病毒感染 (Simian Immunodeficiency Virus Infection)（證據等級 L4）。原適應症：本次整理的資料中，香港許可證未載明核准適應症文字"
 ---
 
@@ -81,13 +81,19 @@ SIV 與 HIV 同屬慢病毒（lentivirus），其蛋白酶高度相似，因此�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68558 | RITONAVIR TABLETS USP 100MG | 未載明 | 未載明 |
-| HK-61528 | NORVIR TABLET 100MG | 未載明 | 未載明 |
-| HK-68129 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG | 未載明 | 未載明 |
-| HK-65831 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG | 未載明 | 未載明 |
-| HK-67683 | PAXLOVID TABLETS | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68558 | RITONAVIR TABLETS USP 100MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-61528 | NORVIR TABLET 100MG | 單一成分 | ABBVIE LIMITED | 有效 |
+| HK-68129 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG | 複方 | CHEMILL PHARMA LIMITED | 有效 |
+| HK-65831 | LOPINAVIR AND RITONAVIR TABLETS USP 200MG/50MG | 複方 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-67683 | PAXLOVID TABLETS | 複方 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 本次資料共列出 10 張許可證，其中 9 張有效、HK-48165（KALETRA ORAL SOL）已註銷，此處僅列出前 5 張。
 

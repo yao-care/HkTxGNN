@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "TIZANIDINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "Tourette syndrome", "ulerythema ophryogenesis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tizanidine：預測新適應症為偏頭痛（證據等級 L2）。原適應症：本報告所整理的許可證資料未載明核准適應症"
 ---
 
@@ -86,10 +86,14 @@ TxGNN 模型預測它可能對**偏頭痛 (migraine disorder)** 有效。
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62119 | ZITANID TABLETS 2MG | 未載明 | 未載明 |
-| HK-39067 | SIRDALUD TAB 2MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62119 | ZITANID TABLETS 2MG | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-39067 | SIRDALUD TAB 2MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

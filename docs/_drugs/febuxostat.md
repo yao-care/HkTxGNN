@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 364
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Febuxostat：預測新適應症為腎性低尿酸血症 (Hypouricemia, Renal)（證據等級 L4）。原適應症：高尿酸血症（obsolete hyperuricemia）"
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
@@ -86,13 +86,19 @@ TxGNN 模型預測它可能對**腎性低尿酸血症 (Hypouricemia, Renal)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61185 | FEBURIC TABLETS 80 MG（Astellas） | 錠劑 | 未提供 |
-| HK-61186 | FEBURIC TABLETS 120 MG（Astellas） | 錠劑 | 未提供 |
-| HK-67630 | FEBUSTAD 80 TABLETS 80MG | 錠劑 | 未提供 |
-| HK-67470 | FEBUXOSTAT GENEPHARM TABLETS 80MG | 錠劑 | 未提供 |
-| HK-67668 | FEBUXOSTAT SANDOZ TABLETS 80MG | 錠劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61185 | FEBURIC TABLETS 80 MG | 單一成分 | ASTELLAS PHARMA HONG KONG COMPANY LIMITED | 有效 |
+| HK-61186 | FEBURIC TABLETS 120 MG | 單一成分 | ASTELLAS PHARMA HONG KONG COMPANY LIMITED | 有效 |
+| HK-67630 | FEBUSTAD 80 TABLETS 80MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-67470 | FEBUXOSTAT GENEPHARM TABLETS 80MG | 單一成分 | SB PHARMA LIMITED | 有效 |
+| HK-67668 | FEBUXOSTAT SANDOZ TABLETS 80MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 12 張）。
+
+<!-- licenses:end -->
 
 香港共有 12 張有效單方許可證，上表僅列出 5 張。
 

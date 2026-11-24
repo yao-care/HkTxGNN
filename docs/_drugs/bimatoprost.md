@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BIMATOPROST"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bimatoprost：預測新適應症為伴有牙齒和/或牙周異常的畸形症候群 (malformation syndrome with odontal and/or periodontal component)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
@@ -71,12 +71,16 @@ TxGNN 模型預測它可能對**伴有牙齒和/或牙周異常的畸形症候�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-60394 | LUMIGAN OPHTHALMIC SOLUTION 0.01% | 未記錄 | 本地資料未記錄 |
-| HK-68341 | ZIMED PRESERVATIVE FREE EYE DROPS SOLUTION 0.3MG/ML | 未記錄 | 本地資料未記錄 |
-| HK-63183 | GANFORT PF EYE DROPS | 未記錄 | 本地資料未記錄 |
-| HK-56429 | GANFORT EYE DROPS | 未記錄 | 本地資料未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-60394 | LUMIGAN OPHTHALMIC SOLUTION 0.01% | 單一成分 | ALLERGAN HONG KONG LIMITED | 有效 |
+| HK-68341 | ZIMED PRESERVATIVE FREE EYE DROPS SOLUTION 0.3MG/ML | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - UNIVERSAL DIVISION | 有效 |
+| HK-63183 | GANFORT PF EYE DROPS | 複方 | ALLERGAN HONG KONG LIMITED | 有效 |
+| HK-56429 | GANFORT EYE DROPS | 複方 | ALLERGAN HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

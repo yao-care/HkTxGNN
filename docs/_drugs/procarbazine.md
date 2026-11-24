@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 735
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PROCARBAZINE"
 predicted_indications: ["follicular lymphoma", "neuroblastoma", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
 description: "Procarbazine：預測新適應症為濾泡性淋巴瘤 (follicular lymphoma)（證據等級 L3）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -96,9 +96,13 @@ TxGNN 模型預測它可能對**濾泡性淋巴瘤 (Follicular Lymphoma)** 有�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67277 | NATULAN CAPSULES 50MG | 膠囊（資料未載明） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67277 | NATULAN CAPSULES 50MG | 單一成分 | LEE'S PHARMACEUTICAL (H.K) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 製造商：LEE'S PHARMACEUTICAL (H.K) LIMITED。
 

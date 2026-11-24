@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "ACETYLCYSTEINE"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetylcysteine：預測新適應症為血栓性疾病 (thrombotic disease)（證據等級 L2）。香港藥劑製品註冊：38 張（有效 36 張）"
 ---
 
@@ -97,13 +97,19 @@ TxGNN 模型預測它可能對**血栓性疾病 (thrombotic disease)** 有效，
 
 <!-- review:end hk-lic-20261117-acetylcysteine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-63073 | ADVANCE MUCOLYTIC POWDER 200MG/SACHET | 未記載 | 未記載 |
-| HK-52560 | ACTEIN GRANULES 100MG | 未記載 | 未記載 |
-| HK-65198 | AZEIN CAPSULES 200MG | 未記載 | 未記載 |
-| HK-54293 | MICOSTEINE POWDER FOR ORAL SUSP 200MG/SACHET | 未記載 | 未記載 |
-| HK-42254 | FLUIMUCIL INJ 300MG/3ML | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63073 | ADVANCE MUCOLYTIC POWDER 200MG/SACHET | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-52560 | ACTEIN GRANULES 100MG | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-65198 | AZEIN CAPSULES 200MG | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-54293 | MICOSTEINE POWDER FOR ORAL SUSP 200MG/SACHET | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-42254 | FLUIMUCIL INJ 300MG/3ML | 單一成分 | ZENFIELDS (H.K.) LIMITED | 有效 |
+
+上表列出其中 5 張（共 38 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

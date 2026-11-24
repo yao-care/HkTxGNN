@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "MEROPENEM"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "Ureaplasma urethritis", "gonococcal urethritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Meropenem：預測新適應症為細菌性關節炎 (bacterial arthritis)（證據等級 L5）。香港藥劑製品註冊：18 張（有效 18 張）"
 ---
 
@@ -85,13 +85,19 @@ TxGNN 模型預測它可能對**細菌性關節炎 (bacterial arthritis)** 有�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65140 | MEROPENEM KABI POWDER FOR SOLUTION FOR INJECTION OR INFUSION 1G | 未提供 | 未提供 |
-| HK-40372 | MERONEM FOR INJ | 未提供 | 未提供 |
-| HK-66221 | MEROGRAM 500 POWDER FOR SOLUTION FOR INJECTION/INFUSION 500MG | 未提供 | 未提供 |
-| HK-61054 | MEROZAN POWDER FOR SOLUTION FOR INJECTION OR INFUSION 1G | 未提供 | 未提供 |
-| HK-68215 | VABOREM POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 1G/1G | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65140 | MEROPENEM KABI POWDER FOR SOLUTION FOR INJECTION OR INFUSION 1G | 單一成分 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-40372 | MERONEM FOR INJ | 單一成分 | ZUELLIG PHARMA LIMITED | 有效 |
+| HK-66221 | MEROGRAM 500 POWDER FOR SOLUTION FOR INJECTION/INFUSION 500MG | 單一成分 | AUROBINDO PHARMA LIMITED | 有效 |
+| HK-61054 | MEROZAN POWDER FOR SOLUTION FOR INJECTION OR INFUSION 1G | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-68215 | VABOREM POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 1G/1G | 複方 | A. MENARINI HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 18 張）。
+
+<!-- licenses:end -->
 
 目前共有 18 張許可證，全部有效。以上僅列出其中 5 張。
 

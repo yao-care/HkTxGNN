@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
 description: "Entacapone：預測新適應症為PLA2G6 相關神經退化症 (PLA2G6-associated neurodegeneration)（證據等級 L5）。香港藥劑製品註冊：10 張（有效 10 張）"
@@ -100,13 +100,19 @@ PLA2G6 相關神經退化症的臨床表現可包含肌張力異常合併類帕�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64723 | ENPON TABLETS 200MG | — | — |
-| HK-44960 | COMTAN TAB 200MG | — | — |
-| HK-66936 | LEVODOPA/CARBIDOPA/ENTACAPONE TEVA TABLETS 100MG/25MG/200MG | — | — |
-| HK-66937 | LEVODOPA/CARBIDOPA/ENTACAPONE TEVA TABLETS 200MG/50MG/200MG | — | — |
-| HK-52081 | STALEVO 100/25/200MG TAB | — | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64723 | ENPON TABLETS 200MG | 單一成分 | CHEMILLENNIUM INTERNATIONAL (HK) LIMITED | 有效 |
+| HK-44960 | COMTAN TAB 200MG | 單一成分 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-66936 | LEVODOPA/CARBIDOPA/ENTACAPONE TEVA TABLETS 100MG/25MG/200MG | 複方 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-66937 | LEVODOPA/CARBIDOPA/ENTACAPONE TEVA TABLETS 200MG/50MG/200MG | 複方 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-52081 | STALEVO 100/25/200MG TAB | 複方 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 另有 5 張有效許可證（共 10 張，皆為有效狀態），包含 STALEVO 其他規格及多家廠牌的 levodopa/carbidopa/entacapone 製劑。
 

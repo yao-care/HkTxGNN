@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 75
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Asfotase Alfa：預測新適應症為核 DNA 異常所致的粒線體氧化磷酸化異常 (mitochondrial oxidative phosphorylation disord…（證據等級 L5）。原適應症：低磷酸酶症 (hypophosphatasia)"
 monitor_inn: "Asfotase alfa"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Steel syndrome", "exocrine pancreatic insufficiency", "Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "familial apolipoprotein C-II deficiency", "esophageal varices with bleeding", "esophageal varices without bleeding", "cystinosis"]
@@ -82,12 +82,16 @@ TxGNN 模型預測它可能對**核 DNA 異常所致的粒線體氧化磷酸化�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67890 | STRENSIQ SOLUTION FOR INJECTION 18MG/0.45ML | 注射液 | 資料未提供 |
-| HK-67891 | STRENSIQ SOLUTION FOR INJECTION 28MG/0.7ML | 注射液 | 資料未提供 |
-| HK-67892 | STRENSIQ SOLUTION FOR INJECTION 40MG/1ML | 注射液 | 資料未提供 |
-| HK-67893 | STRENSIQ SOLUTION FOR INJECTION 80MG/0.8ML | 注射液 | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67890 | STRENSIQ SOLUTION FOR INJECTION 18MG/0.45ML | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-67891 | STRENSIQ SOLUTION FOR INJECTION 28MG/0.7ML | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-67892 | STRENSIQ SOLUTION FOR INJECTION 40MG/1ML | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-67893 | STRENSIQ SOLUTION FOR INJECTION 80MG/0.8ML | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 四張許可證皆由 ASTRAZENECA HONG KONG LIMITED 持有，皆為有效的單一成分製劑。
 

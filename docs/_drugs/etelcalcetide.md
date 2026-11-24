@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 344
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ETELCALCETIDE"
 predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease"]
 description: "Etelcalcetide：預測新適應症為高磷血症 (hyperphosphatemia (disease))（證據等級 L4）。香港藥劑製品註冊：3 張（有效 3 張）"
@@ -79,11 +79,15 @@ PTH 下降可減少骨轉換，以及鈣與磷由骨骼釋出，因此血磷可�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65659 | PARSABIV SOLUTION FOR INJECTION 5 MG/1 ML | 注射液 | 無資料 |
-| HK-65657 | PARSABIV SOLUTION FOR INJECTION 10 MG/2 ML | 注射液 | 無資料 |
-| HK-65658 | PARSABIV SOLUTION FOR INJECTION 2.5 MG/0.5 ML | 注射液 | 無資料 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65659 | PARSABIV SOLUTION FOR INJECTION 5 MG/1 ML | 單一成分 | AMGEN HONG KONG LIMITED | 有效 |
+| HK-65657 | PARSABIV SOLUTION FOR INJECTION 10 MG/2 ML | 單一成分 | AMGEN HONG KONG LIMITED | 有效 |
+| HK-65658 | PARSABIV SOLUTION FOR INJECTION 2.5 MG/0.5 ML | 單一成分 | AMGEN HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

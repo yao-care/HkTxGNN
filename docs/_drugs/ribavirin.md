@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 9
 monitor_inn: "RIBAVIRIN"
 predicted_indications: ["chronic hepatitis B virus infection", "hepatoportal sclerosis", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "hepatic porphyria", "IgG4-related pachymeningitis", "eosinophilic angiocentric fibrosis", "IgG4-related mediastinitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ribavirin：預測新適應症為慢性 B 型肝炎（證據等級 L1）。原適應症：香港許可證資料中未載明核准適應症文字"
 ---
 
@@ -90,9 +90,13 @@ C 型與 B 型肝炎同屬慢性病毒性肝炎，臨床上常使用相似的干
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-37449 | ROBAVIN CAP 100MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-37449 | ROBAVIN CAP 100MG | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 此為單一成分製劑，狀態為有效。
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 563
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mepolizumab：預測新適應症為免疫性破壞所致血小板減少症 (Thrombocytopenia due to immune destruction)（證據等級 L5）。原適應症：嗜酸性肺炎、肺嗜酸性球增多症"
 monitor_inn: "MEPOLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
@@ -84,9 +84,13 @@ TxGNN 模型預測它可能對**免疫性破壞所致血小板減少症 (Thrombo
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66838 | NUCALA SOLUTION FOR INJECTION IN PRE-FILLED PEN 100MG/1ML | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66838 | NUCALA SOLUTION FOR INJECTION IN PRE-FILLED PEN 100MG/1ML | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

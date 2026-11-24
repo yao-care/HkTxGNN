@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 446
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Hydroquinone：預測新適應症為脂漏性角化症 (Seborrheic Keratosis)（證據等級 L5）。原適應症：香港許可證未載明適應症文字"
 monitor_inn: "HYDROQUINONE"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "exanthem (disease)", "lichen disease"]
@@ -82,10 +82,14 @@ TxGNN 模型預測它可能對**脂漏性角化症 (Seborrheic Keratosis)** 有�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64187 | TRI-LUSTRA CREAM | 未載明 | 未載明 |
-| HK-54161 | TRI-LUMA CREAM | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64187 | TRI-LUSTRA CREAM | 複方 | LSB (HK) LIMITED | 有效 |
+| HK-54161 | TRI-LUMA CREAM | 複方 | GALDERMA HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證皆為單一成分、有效狀態。
 

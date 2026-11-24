@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 906
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Triclocarban：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：許可證資料未載明核准適應症"
 monitor_inn: "Triclocarban"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -77,10 +77,14 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，但目�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-56733 | ST. LUKE'S PRICKLY HEAT LAVENDER POWDER | 未載明 | 未載明 |
-| HK-01178 | POLIBABY CREAM | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-56733 | ST. LUKE'S PRICKLY HEAT LAVENDER POWDER | 複方 | CHIU FAT TRADING COMPANY LIMITED | 有效 |
+| HK-01178 | POLIBABY CREAM | 複方 | SATO PHARMACEUTICAL (HK) CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

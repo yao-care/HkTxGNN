@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 166
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Carteolol: 香港已知用途與上市狀態；目前沒有新的候選適應症"
 predicted_indications: []
 ---
@@ -72,9 +72,13 @@ TxGNN 模型為 Carteolol 產生的候選結果，經追溯來源後全部屬於
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-67553 | CARTIC EYE DROPS 2% W/V |  | 有效 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67553 | CARTIC EYE DROPS 2% W/V | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

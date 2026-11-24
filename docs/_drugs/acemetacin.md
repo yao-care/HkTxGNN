@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 16
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Acemetacin: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 ---
@@ -74,10 +74,14 @@ TxGNN 深度學習模型對 Acemetacin 沒有分數達 0.99 以上的候選適�
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-52308 | ACEMET CAP 60MG |  | 有效 |
-| HK-55919 | ACEMET RETARD CAP 90MG |  | 有效 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-52308 | ACEMET CAP 60MG | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-55919 | ACEMET RETARD CAP 90MG | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

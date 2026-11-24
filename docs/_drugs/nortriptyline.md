@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 631
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NORTRIPTYLINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
 description: "Nortriptyline：預測新適應症為注意力不足過動症 (attention deficit-hyperactivity disorder)（證據等級 L3）。香港藥劑製品註冊：2 張（有效 2 張）"
@@ -83,10 +83,14 @@ TxGNN 模型預測它可能對**注意力不足過動症 (Attention Deficit-Hype
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-19691 | NORTRILEN TAB 25MG | 未載明 | 未載明 |
-| HK-19687 | NORTRILEN TAB 10MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-19691 | NORTRILEN TAB 25MG | 單一成分 | Lundbeck HK Limited | 有效 |
+| HK-19687 | NORTRILEN TAB 10MG | 單一成分 | Lundbeck HK Limited | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證皆為單一成分製劑，由 Lundbeck HK Limited 持有，目前均為有效狀態。
 

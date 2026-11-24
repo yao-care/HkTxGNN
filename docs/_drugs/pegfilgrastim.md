@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 671
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pegfilgrastim：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy)（證據等級 L5）。原適應症：香港許可證資料未載明"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -83,12 +83,16 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (seve
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66770 | FULPHILA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 6MG/0.6ML | 預充填注射劑 | 資料未載明 |
-| HK-68176 | PELGRAZ SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 6MG/0.6ML | 預充填注射劑 | 資料未載明 |
-| HK-54933 | NEULASTIM PRE-FILLED SYRINGE INJ 6MG/0.6 ML | 預充填注射劑 | 資料未載明 |
-| HK-67124 | ZIEXTENZO SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 6MG/0.6ML | 預充填注射劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66770 | FULPHILA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 6MG/0.6ML | 單一成分 | PRIMEDICA LIMITED | 有效 |
+| HK-68176 | PELGRAZ SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 6MG/0.6ML | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-54933 | NEULASTIM PRE-FILLED SYRINGE INJ 6MG/0.6 ML | 單一成分 | AMGEN HONG KONG LIMITED | 有效 |
+| HK-67124 | ZIEXTENZO SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 6MG/0.6ML | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

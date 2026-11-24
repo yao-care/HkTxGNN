@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "PREDNISOLONE ACETATE"
 predicted_indications: ["conjunctival folliculosis", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral", "papillary conjunctivitis", "Angelucci syndrome", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "vernal conjunctivitis", "postinfectious vasculitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Prednisolone Acetate：預測新適應症為結膜濾泡增生症 (Conjunctival Folliculosis)（證據等級 L5）。原適應症：香港許可證未提供核准適應症文字"
 ---
 
@@ -105,12 +105,16 @@ TxGNN 模型預測它可能對**結膜濾泡增生症 (Conjunctival Folliculosis
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-19548 | 1% PRED FORTE 無菌眼用懸液 | 未提供 | 未提供 |
-| HK-24139 | ECONOPRED PLUS 眼用懸液 1% | 未提供 | 未提供 |
-| HK-67491 | MITEX 犬貓用耳滴劑及皮膚用懸液（獸醫用） | 未提供 | 未提供 |
-| HK-67882 | SUROLAN 耳滴劑及皮膚用懸液（獸醫用） | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-19548 | 1% PRED FORTE STERILE OPHTH SUSP | 單一成分 | ALLERGAN HONG KONG LIMITED | 有效 |
+| HK-24139 | ECONOPRED PLUS OPHTHAL SUSP 1% | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-67491 | MITEX EAR DROPS AND CUTANEOUS SUSPENSION FOR DOGS AND CATS (VET) | 複方 | ALFAMEDIC LIMITED | 有效 |
+| HK-67882 | SUROLAN EAR DROPS AND CUTANEOUS SUSPENSION (VET) | 複方 | DCH AURIGA (HONG KONG) LIMITED - UNIVERSAL DIVISION | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

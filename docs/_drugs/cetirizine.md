@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Cetirizine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cetirizine：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。香港藥劑製品註冊：80 張（有效 77 張）"
 ---
 
@@ -86,13 +86,19 @@ TxGNN 模型預測它可能對**鼻腔疾病 (nasal cavity disease)** 有效，
 
 <!-- review:end hk-lic-20261117-cetirizine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-44760 | CETZIE TAB 10MG | 未記錄 | 本地資料未記錄 |
-| HK-66054 | CETIRIZINE DIHYDROCHLORIDE SANDOZ TABLETS 10MG | 未記錄 | 本地資料未記錄 |
-| HK-68223 | CETIRIZINE DIHYDROCHLORIDE TABLETS 10MG | 未記錄 | 本地資料未記錄 |
-| HK-68344 | HOVID CETIRIZINE TABLETS 10MG | 未記錄 | 本地資料未記錄 |
-| HK-53013 | CETIRIZINE F.C. TAB 10MG | 未記錄 | 本地資料未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-44760 | CETZIE TAB 10MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-66054 | CETIRIZINE DIHYDROCHLORIDE SANDOZ TABLETS 10MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-68223 | CETIRIZINE DIHYDROCHLORIDE TABLETS 10MG | 單一成分 | CONTROLLED MEDICATIONS LIMITED | 有效 |
+| HK-68344 | HOVID CETIRIZINE TABLETS 10MG | 單一成分 | HOVID LIMITED | 有效 |
+| HK-53013 | CETIRIZINE F.C. TAB 10MG | 單一成分 | VAST RESOURCES PHARMACEUTICAL LTD | 有效 |
+
+上表列出其中 5 張（共 80 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 244
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Dapoxetine：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：早發性射精（Premature Ejaculation）、心因性性交疼痛"
 monitor_inn: "DAPOXETINE"
 predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine with brainstem aura"]
@@ -77,13 +77,19 @@ TxGNN 模型預測它可能對**偏頭痛 (Migraine Disorder)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68318 | ADAPORIN TABLETS 60MG | 錠劑 | 資料未提供 |
-| HK-66777 | OXETINE TABLETS 60MG | 錠劑 | 資料未提供 |
-| HK-60174 | PRILIGY TAB 30MG | 錠劑 | 資料未提供 |
-| HK-68951 | BF-DAPOXETINE FILM-COATED TABLETS 30MG | 膜衣錠 | 資料未提供 |
-| HK-60175 | PRILIGY TAB 60MG | 錠劑 | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68318 | ADAPORIN TABLETS 60MG | 單一成分 | SB PHARMA LIMITED | 有效 |
+| HK-66777 | OXETINE TABLETS 60MG | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-60174 | PRILIGY TAB 30MG | 單一成分 | A. MENARINI HONG KONG LIMITED | 有效 |
+| HK-68951 | BF-DAPOXETINE FILM-COATED TABLETS 30MG | 單一成分 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+| HK-60175 | PRILIGY TAB 60MG | 單一成分 | A. MENARINI HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 另有 HK-68541（BIDARLY TABLETS 30MG），共 6 張有效的單方許可證。
 

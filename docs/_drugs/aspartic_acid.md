@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 76
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Aspartic Acid：預測新適應症為腎小管酸中毒 (Renal Tubular Acidosis)（證據等級 L5）。原適應症：鉀缺乏症 (potassium deficiency disease)"
 monitor_inn: "ASPARTIC ACID"
 predicted_indications: ["renal tubular acidosis"]
@@ -87,13 +87,19 @@ TxGNN 模型預測它可能對**腎小管酸中毒 (Renal Tubular Acidosis)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-36470 | VAMINOLACT I.V. SOLUTION | 未提供 | 未提供 |
-| HK-32746 | AMINOPLASMAL HEPA-10% INJ | 未提供 | 未提供 |
-| HK-61211 | AMINOPLASMAL B. BRAUN 10% E SOLUTION FOR INFUSION | 未提供 | 未提供 |
-| HK-37929 | NUTRIFLEX PLUS INF | 未提供 | 未提供 |
-| HK-36586 | NUTRIFLEX SPECIAL I.V. INFUSION SOLN | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-36470 | VAMINOLACT I.V. SOLUTION | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-32746 | AMINOPLASMAL HEPA-10% INJ | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-61211 | AMINOPLASMAL B. BRAUN 10% E SOLUTION FOR INFUSION | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-37929 | NUTRIFLEX PLUS INF | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-36586 | NUTRIFLEX SPECIAL I.V. INFUSION SOLN | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+
+上表列出其中 5 張（共 17 張）。
+
+<!-- licenses:end -->
 
 （共 17 張有效單一成分許可證，此處僅列 5 張。）
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 568
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Metformin：預測新適應症為典型僵人症候群 (Classic Stiff Person Syndrome)（證據等級 L5）。原適應症：第二型糖尿病 (Type 2 Diabetes Mellitus)"
 monitor_inn: "Metformin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
@@ -101,13 +101,19 @@ TxGNN 模型預測它可能對**典型僵人症候群 (Classic Stiff Person Synd
 
 <!-- review:end hk-lic-20261117-metformin-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-27087 | GLUCOPHAGE TAB 500MG（Merck Pharmaceutical (HK)） | 未標示 | 未標示 |
-| HK-50383 | GLUCOPHAGE TAB 1000MG（Merck Pharmaceutical (HK)） | 未標示 | 未標示 |
-| HK-68753 | GLUCOPHAGE XR PROLONGED-RELEASE TABLETS 500MG（Merck Pharmaceutical (HK)） | 未標示 | 未標示 |
-| HK-65175 | METFORMIN SANDOZ TABLETS 500MG（Sandoz Hong Kong） | 未標示 | 未標示 |
-| HK-66869 | METPHAR XR 750 EXTENDED-RELEASE TABLETS 750MG（Primal Chemical） | 未標示 | 未標示 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-27087 | GLUCOPHAGE TAB 500MG | 單一成分 | MERCK PHARMACEUTICAL (HK) LIMITED | 有效 |
+| HK-50383 | GLUCOPHAGE TAB 1000MG | 單一成分 | MERCK PHARMACEUTICAL (HK) LIMITED | 有效 |
+| HK-68753 | GLUCOPHAGE XR PROLONGED-RELEASE TABLETS 500MG | 單一成分 | MERCK PHARMACEUTICAL (HK) LIMITED | 有效 |
+| HK-65175 | METFORMIN SANDOZ TABLETS 500MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-66869 | METPHAR XR 750 EXTENDED-RELEASE TABLETS 750MG | 單一成分 | PRIMAL CHEMICAL CO LTD | 有效 |
+
+上表列出其中 5 張（共 114 張）。
+
+<!-- licenses:end -->
 
 ---
 

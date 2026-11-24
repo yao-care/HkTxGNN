@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 819
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Sodium Carbonate：預測新適應症為馬尾症候群 (Cauda Equina Syndrome)（證據等級 L5）。原適應症：許可證未載明"
 monitor_inn: "Sodium carbonate"
 predicted_indications: ["cauda equina syndrome", "anaphylaxis", "food-dependent exercise-induced anaphylaxis", "obsolete neurogenic bladder (disease)", "dry eye syndrome", "ventricular tachycardia"]
@@ -100,9 +100,13 @@ TxGNN 模型對多個疾病給出高分預測；在已整理的預測中，相�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-20004 | LEMON FLAVOURED ENO FRUIT SALT（持有人：HALEON HONG KONG LIMITED） | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-20004 | LEMON FLAVOURED ENO FRUIT SALT | 複方 | HALEON HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

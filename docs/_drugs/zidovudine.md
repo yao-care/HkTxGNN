@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 950
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Zidovudine：預測新適應症為猿猴免疫缺陷病毒感染 (simian immunodeficiency virus infection)（證據等級 L4）。香港藥劑製品註冊：8 張（有效 8 張）"
@@ -127,13 +127,19 @@ SIV 是與 HIV 高度相近的慢病毒，同樣依賴逆轉錄酶複製，因�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-57407 | VICK-ZIDOVUDINE CAP 100MG | 未載明 | 未載明 |
-| HK-59602 | RETROVIR ORAL SOLUTION 10MG/ML | 未載明 | 未載明 |
-| HK-57408 | VICK-ZIDOVUDINE CAP 250MG | 未載明 | 未載明 |
-| HK-66688 | ZIDOVUDINE TABLETS USP 300MG | 未載明 | 未載明 |
-| HK-42757 | RETROVIR IV INFUSION 10MG/ML | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-57407 | VICK-ZIDOVUDINE CAP 100MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-59602 | RETROVIR ORAL SOLUTION 10MG/ML | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-57408 | VICK-ZIDOVUDINE CAP 250MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-66688 | ZIDOVUDINE TABLETS USP 300MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-42757 | RETROVIR IV INFUSION 10MG/ML | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 （共 8 張有效許可證，皆為單一成分，此處僅列出 5 張。）
 

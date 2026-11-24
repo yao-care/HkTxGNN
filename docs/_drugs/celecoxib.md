@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CELECOXIB"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Celecoxib：預測新適應症為肢中型發育不良，Hunter-Thompson 型 (acromesomelic dysplasia, Hunter-Thompson type)（證據等級 L5）。香港藥劑製品註冊：50 張（有效 50 張）"
 ---
 
@@ -79,13 +79,19 @@ Hunter-Thompson 型肢中型發育不良是一種罕見的遺傳性骨骼發育�
 
 <!-- review:end hk-lic-20261117-celecoxib-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-44731 | CELEBREX CAP 200MG | 未記錄 | 未記錄 |
-| HK-61703 | CELECOXIB SANDOZ CAPSULES 200MG | 未記錄 | 未記錄 |
-| HK-67848 | CELECOXIB CAPSULES 200MG | 未記錄 | 未記錄 |
-| HK-67377 | HOVID CELECOXIB CAPSULES 200MG | 未記錄 | 未記錄 |
-| HK-64176 | APO-CELECOXIB CAPSULES 100MG | 未記錄 | 未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-44731 | CELEBREX CAP 200MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-61703 | CELECOXIB SANDOZ CAPSULES 200MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-67848 | CELECOXIB CAPSULES 200MG | 單一成分 | CHEMILL PHARMA LIMITED | 有效 |
+| HK-67377 | HOVID CELECOXIB CAPSULES 200MG | 單一成分 | HOVID LIMITED | 有效 |
+| HK-64176 | APO-CELECOXIB CAPSULES 100MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 50 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

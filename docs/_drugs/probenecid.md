@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 732
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PROBENECID"
 predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
 description: "Probenecid：預測新適應症為腎性低尿酸血症 (hypouricemia, renal)（證據等級 L4）。香港藥劑製品註冊：2 張（有效 2 張）"
@@ -84,10 +84,14 @@ TxGNN 模型預測它可能對**腎性低尿酸血症 (Hypouricemia, Renal)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-57027 | U-ACID TAB 500MG | 未載明 | 未載明 |
-| HK-16674 | PROBENECID TAB 500MG (WHITE) | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-57027 | U-ACID TAB 500MG | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-16674 | PROBENECID TAB 500MG (WHITE) | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

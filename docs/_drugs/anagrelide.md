@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 61
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Anagrelide：預測新適應症為反應性血小板增多症 (Reactive Thrombocytosis)（證據等級 L4）。原適應症：血小板增多症（thrombocythemia）、家族性血小板增多症（familial thrombocytosis）"
 monitor_inn: "ANAGRELIDE"
 predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay syndrome"]
@@ -93,10 +93,14 @@ TxGNN 的高分（0.9983）較可能反映這個疾病與已核准適應症在�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68231 | ANAGRELIDE SANDOZ CAPSULES 0.5MG（Sandoz Hong Kong） | 未提供 | 未提供 |
-| HK-51737 | AGRYLIN CAP. 0.5 MG（Takeda Pharmaceuticals (Hong Kong)） | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68231 | ANAGRELIDE SANDOZ CAPSULES 0.5MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-51737 | AGRYLIN CAP. 0.5 MG | 單一成分 | TAKEDA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

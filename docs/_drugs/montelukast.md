@@ -102,13 +102,19 @@ TxGNN 模型預測它可能對**支氣管炎 (bronchitis)** 有效，
 
 <!-- review:end hk-lic-20261117-montelukast-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67558 | OXAIR CHEWABLE TABLETS 5MG | 咀嚼錠（依品名） | 請參考原廠仿單 |
-| HK-67154 | MONTELUCASTE FARMOZ TABLETS 10MG | 錠劑（依品名） | 請參考原廠仿單 |
-| HK-68873 | MONTRIN CHEWABLE TABLETS 5MG | 咀嚼錠（依品名） | 請參考原廠仿單 |
-| HK-61366 | PMS-MONTELUKAST CHEWABLE TAB 4MG | 咀嚼錠（依品名） | 請參考原廠仿單 |
-| HK-64808 | ASMAX CHEWABLE TABLETS 5MG | 咀嚼錠（依品名） | 請參考原廠仿單 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67558 | OXAIR CHEWABLE TABLETS 5MG | 單一成分 | YUNG SHIN CO LTD | 有效 |
+| HK-67154 | MONTELUCASTE FARMOZ TABLETS 10MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-68873 | MONTRIN CHEWABLE TABLETS 5MG | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-61366 | PMS-MONTELUKAST CHEWABLE TAB 4MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-64808 | ASMAX CHEWABLE TABLETS 5MG | 單一成分 | LSB (HK) LIMITED | 有效 |
+
+上表列出其中 5 張（共 57 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

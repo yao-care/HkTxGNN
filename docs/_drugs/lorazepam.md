@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 539
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LORAZEPAM"
 predicted_indications: ["trigeminal nerve neoplasm"]
 description: "Lorazepam：預測新適應症為三叉神經腫瘤 (trigeminal nerve neoplasm)（證據等級 L5）。香港藥劑製品註冊：9 張（有效 9 張）"
@@ -97,13 +97,19 @@ TxGNN 模型預測分數最高的新適應症是**三叉神經腫瘤 (Trigeminal
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-63368 | PMS-LORAZEPAM TABLETS 0.5MG | 錠劑（資料未載明） | 資料未載明 |
-| HK-34394 | SILENCE TAB 1MG | 錠劑（資料未載明） | 資料未載明 |
-| HK-35048 | LORANS 2 TAB 2MG | 錠劑（資料未載明） | 資料未載明 |
-| HK-63369 | PMS-LORAZEPAM TABLETS 2MG | 錠劑（資料未載明） | 資料未載明 |
-| HK-63367 | PMS-LORAZEPAM TABLETS 1MG | 錠劑（資料未載明） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63368 | PMS-LORAZEPAM TABLETS 0.5MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-34394 | SILENCE TAB 1MG | 單一成分 | YUNG SHIN CO LTD | 有效 |
+| HK-35048 | LORANS 2 TAB 2MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-63369 | PMS-LORAZEPAM TABLETS 2MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-63367 | PMS-LORAZEPAM TABLETS 1MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 香港共有 9 張有效單方許可證（其餘 4 張為 LORANS 0.5/1、LOTEVEM 0.5/1 mg），無已註銷者。
 

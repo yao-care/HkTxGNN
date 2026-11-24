@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "IMIDACLOPRID"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "non-syndromic esophageal malformation", "esophageal disease", "mitral valve prolapse (disease)", "neurocirculatory asthenia", "familial mitral valve prolapse", "MVP1"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Imidacloprid：預測新適應症為馬尾症候群 (Cauda Equina Syndrome)（證據等級 L5）。原適應症：許可證資料未載明適應症文字（產品為獸醫用）"
 ---
 
@@ -87,13 +87,19 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55111 | ADVANTAGE 400 SOLN 400MG/4ML (VET) | 未載明 | 未載明 |
-| HK-55109 | ADVANTAGE 250 SOLN 250MG/2.5ML (VET) | 未載明 | 未載明 |
-| HK-57257 | ADVANTAGE 40 FOR CATS SOLUTION 40MG/0.4ML (VET) | 未載明 | 未載明 |
-| HK-57256 | ADVANTAGE 80 FOR CATS SOLUTION 80MG/0.8ML (VET) | 未載明 | 未載明 |
-| HK-55110 | ADVANTAGE 100 SOLN 100MG/ML (VET) | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55111 | ADVANTAGE 400 SOLN 400MG/4ML (VET) | 單一成分 | UNIPET HOUSE COMPANY LIMITED | 有效 |
+| HK-55109 | ADVANTAGE 250 SOLN 250MG/2.5ML (VET) | 單一成分 | UNIPET HOUSE COMPANY LIMITED | 有效 |
+| HK-57257 | ADVANTAGE 40 FOR CATS SOLUTION 40MG/0.4ML (VET) | 單一成分 | UNIPET HOUSE COMPANY LIMITED | 有效 |
+| HK-57256 | ADVANTAGE 80 FOR CATS SOLUTION 80MG/0.8ML (VET) | 單一成分 | UNIPET HOUSE COMPANY LIMITED | 有效 |
+| HK-55110 | ADVANTAGE 100 SOLN 100MG/ML (VET) | 單一成分 | UNIPET HOUSE COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 另有 HK-55112（ADVANTAGE 40 SOLN 40MG/0.4ML，獸醫用）。以上 6 張皆為單一成分、有效的許可證，持有者為 UNIPET HOUSE COMPANY LIMITED。
 

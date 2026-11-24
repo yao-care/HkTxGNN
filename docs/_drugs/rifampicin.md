@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 10
 monitor_inn: "RIFAMPICIN"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rifampicin：預測新適應症為結膜炎 (Conjunctivitis)（證據等級 L4）。原適應症：肺結核"
 ---
 
@@ -87,13 +87,19 @@ TxGNN 模型預測它可能對**結膜炎 (Conjunctivitis)** 有效，
 
 香港共有 15 張 Rifampicin 單一成分的有效許可證，以下列出 5 張。資料中未提供劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-28162 | RIFADIN CAP 150MG | 未提供 | 未提供 |
-| HK-30377 | RICIN CAP 300MG | 未提供 | 未提供 |
-| HK-28163 | RIFADIN SYRUP 2% | 未提供 | 未提供 |
-| HK-22592 | RIFASYNT 300 CAP 300MG | 未提供 | 未提供 |
-| HK-61828 | YUAN CHOU-RIFAMPICIN CAPSULES 300MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-28162 | RIFADIN CAP 150MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-30377 | RICIN CAP 300MG | 單一成分 | ATLANTIC PHARMACEUTICAL LIMITED | 有效 |
+| HK-28163 | RIFADIN SYRUP 2% | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-22592 | RIFASYNT 300 CAP 300MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-61828 | YUAN CHOU-RIFAMPICIN CAPSULES 300MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+
+上表列出其中 5 張（共 15 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

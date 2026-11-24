@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levetiracetam：預測新適應症為β-酮硫解酶缺乏症（證據等級 L5）。原適應症：局部癲癇"
 ---
 
@@ -79,13 +79,19 @@ TxGNN 模型預測它可能對 **β-酮硫解酶缺乏症（beta-ketothiolase de
 
 <!-- review:end hk-lic-20261117-levetiracetam-1 -->
 
-| 許可證號 | 品名 | 核准適應症 |
-|---------|------|-----------|
-| HK-48231 | KEPPRA TAB 500MG | 資料未載明 |
-| HK-48230 | KEPPRA TAB 250MG | 資料未載明 |
-| HK-67539 | LECETAM 250 TABLETS 250MG | 資料未載明 |
-| HK-66922 | ACCORD LEVETIRACETAM 750 TABLETS 750MG | 資料未載明 |
-| HK-65814 | HOSPIRA LEVETIRACETAM CONCENTRATE FOR IV INFUSION 500MG/5ML | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-48231 | KEPPRA TAB 500MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-48230 | KEPPRA TAB 250MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-67539 | LECETAM 250 TABLETS 250MG | 單一成分 | HEALTH ALLIANCE INTERNATIONAL CO LTD | 有效 |
+| HK-66922 | ACCORD LEVETIRACETAM 750 TABLETS 750MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-65814 | HOSPIRA LEVETIRACETAM CONCENTRATE FOR IV INFUSION 500MG/5ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 38 張）。
+
+<!-- licenses:end -->
 
 品名顯示有錠劑、口服溶液與靜脈輸注濃縮液等型式。
 

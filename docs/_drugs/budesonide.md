@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BUDESONIDE"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Budesonide：預測新適應症為異位性皮膚炎 (atopic eczema)（證據等級 L5）。香港藥劑製品註冊：29 張（有效 29 張）"
 ---
 
@@ -84,13 +84,19 @@ TxGNN 模型預測它可能對**異位性皮膚炎 (atopic eczema)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68212 | NEFECON MODIFIED-RELEASE CAPSULES 4MG | — | — |
-| HK-60236 | BIOSONIDE NASAL SPRAY 100MCG/DOSE | — | — |
-| HK-64964 | CORTIMENT PROLONGED RELEASE TABLETS 9 MG | — | — |
-| HK-51729 | BUDESONIDE PH&T 50 NASAL SPRAY 50MCG/DOSE | — | — |
-| HK-64327 | BUDENA NASAL SPRAY 64 MCG/SPRAY | — | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68212 | NEFECON MODIFIED-RELEASE CAPSULES 4MG | 單一成分 | EVEREST MEDICINES II (HK) LIMITED | 有效 |
+| HK-60236 | BIOSONIDE NASAL SPRAY 100MCG/DOSE | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-64964 | CORTIMENT PROLONGED RELEASE TABLETS 9 MG | 單一成分 | FERRING PHARMACEUTICALS LTD | 有效 |
+| HK-51729 | BUDESONIDE PH&T 50 NASAL SPRAY 50MCG/DOSE | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-64327 | BUDENA NASAL SPRAY 64 MCG/SPRAY | 單一成分 | MEKIM LTD | 有效 |
+
+上表列出其中 5 張（共 29 張）。
+
+<!-- licenses:end -->
 
 香港共有 29 張含本藥成分的許可證（全部有效；單一成分 22 張、複方 7 張），以上僅列出其中 5 張。
 

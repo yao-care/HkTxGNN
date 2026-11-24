@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CIPROFLOXACIN"
 predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ciprofloxacin：預測新適應症為瀰漫性硬皮症 (diffuse scleroderma)（證據等級 L5）。香港藥劑製品註冊：57 張（有效 57 張）"
 ---
 
@@ -77,13 +77,19 @@ TxGNN 模型預測它可能對**瀰漫性硬皮症 (diffuse scleroderma)** 有�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-52577 | VIPROLOX 250 TAB 250MG | 未記載 | 未記載 |
-| HK-53688 | LOXIN TAB 250MG | 未記載 | 未記載 |
-| HK-51940 | ZOXAN-250 TAB 250MG | 未記載 | 未記載 |
-| HK-47031 | POLI-CIFLOXIN 250 TAB 250MG | 未記載 | 未記載 |
-| HK-50313 | INTERFLOX 500 TAB 500MG | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-52577 | VIPROLOX 250 TAB 250MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-53688 | LOXIN TAB 250MG | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-51940 | ZOXAN-250 TAB 250MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-47031 | POLI-CIFLOXIN 250 TAB 250MG | 單一成分 | NATURAL HEALTH RESOURCES COMPANY LIMITED | 有效 |
+| HK-50313 | INTERFLOX 500 TAB 500MG | 單一成分 | NATURAL HEALTH RESOURCES COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 57 張）。
+
+<!-- licenses:end -->
 
 本表僅列出部分許可證，香港共有 57 張含本藥成分的許可證（全部有效；單一成分 56 張、複方 1 張）。
 

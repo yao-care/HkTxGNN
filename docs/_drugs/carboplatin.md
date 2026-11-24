@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CARBOPLATIN"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "adult germ cell tumor", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mixed adenocarcinoma", "extrahepatic bile duct mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carboplatin：預測新適應症為直腸黏液腺癌 (rectum mucinous adenocarcinoma)（證據等級 L5）。香港藥劑製品註冊：10 張（有效 10 張）"
 ---
 
@@ -74,13 +74,19 @@ TxGNN 模型預測它可能對**直腸黏液腺癌 (rectum mucinous adenocarcino
 
 香港市場狀態：已上市。所有登記的許可證均為單一成分製劑且仍有效。以下列出部分主要許可證：
 
-| 許可證號 | 品名 | 製造商／持有商 |
-|---------|------|-----------|
-| HK-35025 | PARAPLATIN INJ 10MG/ML | DKSH Hong Kong Limited |
-| HK-61610 | CARBOPLATIN CONCENTRATE FOR SOLUTION FOR INFUSION 450MG/45ML | Hong Kong Medical Supplies Ltd |
-| HK-60146 | KEMOCARB INJ 450MG/45ML | Fresenius Kabi Hong Kong Limited |
-| HK-66515 | CARBOPLATIN-TRANET CONCENTRATE FOR SOLUTION FOR INFUSION 450MG/45ML | The International Medical Company Limited |
-| HK-65993 | CARBOPLATIN MYLAN CONCENTRATE FOR SOLUTION FOR INFUSION 150MG/15ML | Viatris Healthcare Hong Kong Limited |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-35025 | PARAPLATIN INJ 10MG/ML | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-61610 | CARBOPLATIN CONCENTRATE FOR SOLUTION FOR INFUSION 450MG/45ML | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-60146 | KEMOCARB INJ 450MG/45ML | 單一成分 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-66515 | CARBOPLATIN-TRANET CONCENTRATE FOR SOLUTION FOR INFUSION 450MG/45ML | 單一成分 | THE INTERNATIONAL MEDICAL COMPANY LIMITED | 有效 |
+| HK-65993 | CARBOPLATIN MYLAN CONCENTRATE FOR SOLUTION FOR INFUSION 150MG/15ML | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

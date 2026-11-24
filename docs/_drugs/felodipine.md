@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "FELODIPINE"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Felodipine：預測新適應症為肺部疾病及/或缺氧所致肺高壓（證據等級 L5）。原適應症：高血壓"
 ---
 
@@ -86,13 +86,19 @@ TxGNN 模型預測它可能對**肺部疾病及/或缺氧所致肺高壓 (pulmon
 
 香港共有 16 張單方許可證，皆為有效狀態（資料中未載明劑型與核准適應症文字）。以下列出 5 張主要許可證：
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-37191 | PLENDIL TAB 2.5MG EXTENDED RELEASE | 緩釋錠 | 資料未載明 |
-| HK-32696 | PLENDIL TAB 5MG EXTENDED RELEASE | 緩釋錠 | 資料未載明 |
-| HK-32695 | PLENDIL TAB 10MG EXTENDED RELEASE | 緩釋錠 | 資料未載明 |
-| HK-38314 | LOGIMAX TAB EXTENDED RELEASE | 緩釋錠 | 資料未載明 |
-| HK-49353 | FELODIPIN STADA RETARD TAB 5MG | 緩釋錠 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-37191 | PLENDIL TAB 2.5MG EXTENDED RELEASE | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - HEALTHCARE DIVISION | 有效 |
+| HK-32696 | PLENDIL TAB 5MG EXTENDED RELEASE | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - HEALTHCARE DIVISION | 有效 |
+| HK-32695 | PLENDIL TAB 10MG EXTENDED RELEASE | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - HEALTHCARE DIVISION | 有效 |
+| HK-38314 | LOGIMAX TAB EXTENDED RELEASE | 複方 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-49353 | FELODIPIN STADA RETARD TAB 5MG | 單一成分 | STADA PHARMACEUTICALS (ASIA) LIMITED | 有效 |
+
+上表列出其中 5 張（共 16 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

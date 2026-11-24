@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 755
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ramucirumab"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "cervical adenosquamous carcinoma, glassy cell variant", "uterine ligament endometrioid adenocarcinoma", "uterine ligament clear cell adenocarcinoma", "uterine ligament mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
 description: "Ramucirumab：預測新適應症為子宮韌帶腺癌 (uterine ligament adenocarcinoma)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 1 張）"
@@ -84,10 +84,14 @@ TxGNN 模型預測它可能對**子宮韌帶腺癌 (Uterine Ligament Adenocarcin
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64422 | CYRAMZA CONCENTRATE FOR SOLUTION FOR INFUSION 500MG/50ML（製造商：ELI LILLY ASIA, INC.） | 輸注用濃縮液 | 未提供 |
-| HK-64421 | CYRAMZA CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/10ML（製造商：ELI LILLY ASIA, INC.） | 輸注用濃縮液 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64422 | CYRAMZA CONCENTRATE FOR SOLUTION FOR INFUSION 500MG/50ML | 單一成分 | ELI LILLY ASIA, INC. | 已註銷 |
+| HK-64421 | CYRAMZA CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/10ML | 單一成分 | ELI LILLY ASIA, INC. | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

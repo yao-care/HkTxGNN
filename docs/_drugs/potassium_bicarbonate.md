@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 717
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "POTASSIUM BICARBONATE"
 predicted_indications: ["gastroduodenitis"]
 description: "Potassium Bicarbonate：預測新適應症為胃十二指腸炎 (gastroduodenitis)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
@@ -72,11 +72,15 @@ TxGNN 模型預測它可能對**胃十二指腸炎 (Gastroduodenitis)** 有效�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-52788 | GAVISCON ADVANCE ORAL SUSP. (PEPPERMINT) | 未載明 | 未載明 |
-| HK-67636 | GASCOVID ADVANCE ORAL SUSPENSION | 未載明 | 未載明 |
-| HK-58057 | GAVISCON ADVANCE LIQUID SACHET | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-52788 | GAVISCON ADVANCE ORAL SUSP. (PEPPERMINT) | 複方 | RECKITT BENCKISER HONG KONG LTD | 有效 |
+| HK-67636 | GASCOVID ADVANCE ORAL SUSPENSION | 複方 | HOVID LIMITED | 有效 |
+| HK-58057 | GAVISCON ADVANCE LIQUID SACHET | 複方 | RECKITT BENCKISER HONG KONG LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 607
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Naphazoline：預測新適應症為頭皮單純性毛髮稀疏 (hypotrichosis simplex of the scalp)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Naphazoline"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -91,13 +91,19 @@ TxGNN 模型預測它可能對**頭皮單純性毛髮稀疏 (hypotrichosis simpl
 
 <!-- review:end hk-lic-20261117-naphazoline-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-42149 | DROPNALIN EYE DROPS 0.1% | 未提供 | 未提供 |
-| HK-64948 | ROHTO LYCEE EYE DROPS 0.012% | 未提供 | 未提供 |
-| HK-54157 | RINO-NAFTAZOLINA NASAL SPRAY 0.2% | 未提供 | 未提供 |
-| HK-17005 | NAPHCON-A OPHTH SOLN | 未提供 | 未提供 |
-| HK-01641 | NAPHAZOLINE EYE/NOSE DROPS 0.05% | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-42149 | DROPNALIN EYE DROPS 0.1% | 單一成分 | SHERATON WORLDWIDE DRUGS CO LTD | 有效 |
+| HK-64948 | ROHTO LYCEE EYE DROPS 0.012% | 單一成分 | MENTHOLATUM (ASIA PACIFIC) LIMITED | 有效 |
+| HK-54157 | RINO-NAFTAZOLINA NASAL SPRAY 0.2% | 單一成分 | SHERATON WORLDWIDE DRUGS CO LTD | 有效 |
+| HK-17005 | NAPHCON-A OPHTH SOLN | 複方 | ALCON HONG KONG LTD | 有效 |
+| HK-01641 | NAPHAZOLINE EYE/NOSE DROPS 0.05% | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+
+上表列出其中 5 張（共 37 張）。
+
+<!-- licenses:end -->
 
 從品名可知，產品涵蓋眼藥水、滴鼻劑與鼻噴霧劑。
 

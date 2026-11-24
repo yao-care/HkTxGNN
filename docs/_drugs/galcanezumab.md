@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GALCANEZUMAB"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Galcanezumab：預測新適應症為肝素輔因子 II 缺乏症 (heparin cofactor 2 deficiency)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 1 張）"
@@ -82,10 +82,14 @@ TxGNN 模型（深度學習）給出的高分（0.9950）可能反映模型從�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66579 | EMGALITY SOLUTION FOR INJECTION IN PREFILLED PEN 120MG/1ML | 注射液（預充填筆） | 資料中未載明 |
-| HK-66580 | EMGALITY SOLUTION FOR INJECTION IN PREFILLED SYRINGE 120MG/1ML | 注射液（預充填注射器） | 資料中未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66579 | EMGALITY SOLUTION FOR INJECTION IN PREFILLED PEN 120MG/1ML | 單一成分 | ELI LILLY ASIA, INC. | 有效 |
+| HK-66580 | EMGALITY SOLUTION FOR INJECTION IN PREFILLED SYRINGE 120MG/1ML | 單一成分 | ELI LILLY ASIA, INC. | 已註銷 |
+
+<!-- licenses:end -->
 
 兩張許可證皆為單一成分，其中 HK-66580 已註銷、另一張有效，持有者為 ELI LILLY ASIA, INC.。
 

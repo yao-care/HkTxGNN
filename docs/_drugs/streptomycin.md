@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "STREPTOMYCIN"
 predicted_indications: ["conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "Lyme disease", "infectious otitis interna"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Streptomycin：預測新適應症為結膜炎 (Conjunctivitis)（證據等級 L5）。原適應症：知識圖譜中記錄的關聯包括肺結核、兔熱病、鼠疫、布氏桿菌病等"
 ---
 
@@ -84,10 +84,14 @@ TxGNN 模型預測它可能對**結膜炎 (Conjunctivitis)** 有效，但目前*
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62354 | STREPTOMYCIN SULPHATE REIG JOFRE POWDER FOR SOLUTION FOR INJECTION 1G | 未載明 | 未載明 |
-| HK-11269 | NEODIARISTIN POWDER (VET) | 未載明 | 未載明（品名標示為獸用） |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62354 | STREPTOMYCIN SULPHATE REIG JOFRE POWDER FOR SOLUTION FOR INJECTION 1G | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-11269 | NEODIARISTIN POWDER (VET) | 複方 | WAI LUNG HONG AGRIBUSINESS LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

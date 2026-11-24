@@ -3,7 +3,7 @@ layout: default
 title: Ceftaroline Fosamil
 parent: 僅已知用途（無新預測）
 nav_order: 173
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Ceftaroline Fosamil: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 indication_count: 0
@@ -72,9 +72,13 @@ TxGNN 模型對 Ceftaroline Fosamil 沒有分數達 0.99 以上的候選適應�
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-62093 | ZINFORO POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 600 |  | 有效 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62093 | ZINFORO POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 600MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

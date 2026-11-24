@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ALFACALCIDOL"
 predicted_indications: ["craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alfacalcidol：預測新適應症為顱面錐體發育不良 (craniofacial conodysplasia)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
@@ -72,11 +72,15 @@ ChEMBL（EMBL-EBI）收錄的 Alfacalcidol 作用機轉（非官方翻譯）：�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-37801 | ALPHA D3 0.25MCG CAP 0.25MCG | 未記錄 | 未記錄 |
-| HK-65502 | JECEFARMA ALFACALCIDOL CAPSULES 1MCG | 未記錄 | 未記錄 |
-| HK-37802 | ALPHA D3 1MCG CAP 1MCG | 未記錄 | 未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-37801 | ALPHA D3 0.25MCG CAP 0.25MCG | 單一成分 | ZUELLIG PHARMA LIMITED | 有效 |
+| HK-65502 | JECEFARMA ALFACALCIDOL CAPSULES 1MCG | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-37802 | ALPHA D3 1MCG CAP 1MCG | 單一成分 | ZUELLIG PHARMA LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

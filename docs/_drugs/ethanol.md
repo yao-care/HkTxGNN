@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Ethanol：預測新適應症為偏頭痛 (Migraine Disorder)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "ETHANOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -91,11 +91,15 @@ TxGNN 的高分（0.9929）較可能反映疾病-基因或疾病-路徑層面的
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66686 | CHLORHEXIDINE SOLUTION 2% W/V IN ALCOHOL 70% V/V | 未載明 | 未載明 |
-| HK-68185 | CARMUSTINE WAYMADE POWDER AND SOLVENT FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG | 未載明 | 未載明 |
-| HK-68201 | MARSEPT CUTANEOUS SOLUTION 2% W/V + 70% V/V | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66686 | CHLORHEXIDINE SOLUTION 2% W/V IN ALCOHOL 70% V/V | 複方 | MARCHING PHARMACEUTICAL LIMITED | 有效 |
+| HK-68185 | CARMUSTINE WAYMADE POWDER AND SOLVENT FOR CONCENTRATE FOR SOLUTION FOR INFUSION… | 複方 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-68201 | MARSEPT CUTANEOUS SOLUTION 2% W/V + 70% V/V | 複方 | MARCHING PHARMACEUTICAL LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

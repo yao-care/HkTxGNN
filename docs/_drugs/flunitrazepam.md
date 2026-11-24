@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "FLUNITRAZEPAM"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "anxiety", "anxiety disorder", "alcohol withdrawal delirium", "agoraphobia", "benign paroxysmal torticollis of infancy", "atrophoderma vermiculata"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Flunitrazepam：預測新適應症為偏頭痛（證據等級 L5）。原適應症：香港許可證資料未載明"
 ---
 
@@ -81,11 +81,15 @@ ChEMBL（EMBL-EBI）收錄的 Flunitrazepam 作用機轉（非官方翻譯）：
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-56628 | FLUNITA TAB 1MG | JEAN-MARIE PHARMACAL CO LTD |
-| HK-34683 | FLUNITA TAB 2MG | JEAN-MARIE PHARMACAL CO LTD |
-| HK-12370 | ROHYPNOL TAB 1MG | DKSH HONG KONG LIMITED |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-56628 | FLUNITA TAB 1MG | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-34683 | FLUNITA TAB 2MG | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-12370 | ROHYPNOL TAB 1MG | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證在本報告彙整的資料中，劑型與核准適應症欄位皆為空白，請以原廠仿單為準。
 

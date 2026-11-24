@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 69
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aprepitant：預測新適應症為腎因性抗利尿不適當症候群 (nephrogenic syndrome of inappropriate antidiuresis)（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症"
 monitor_inn: "APREPITANT"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "hypertrichosis (disease)", "pulmonary hypertension", "leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "kyphoscoliotic heart disease", "syndrome with a Dandy-Walker malformation as major feature", "subarachnoid hemorrhage (disease)", "isolated genetic hair shaft abnormality"]
@@ -81,13 +81,19 @@ TxGNN 模型預測它可能對**腎因性抗利尿不適當症候群 (nephrogeni
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-52425 | EMEND CAP 80MG | — | 資料未載明 |
-| HK-52424 | EMEND TRI-PACK CAP | — | 資料未載明 |
-| HK-67479 | ATANTO TRI-PACK CAPSULES 125MG AND 80MG | — | 資料未載明 |
-| HK-68461 | APREPITANT STADA CAPSULES 125MG AND 80MG | — | 資料未載明 |
-| HK-67467 | EMEGON TRI-PACK CAPSULES 125MG AND 80MG | — | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-52425 | EMEND CAP 80MG | 單一成分 | MERCK SHARP & DOHME (ASIA) LTD | 有效 |
+| HK-52424 | EMEND TRI-PACK CAP | 單一成分 | MERCK SHARP & DOHME (ASIA) LTD | 有效 |
+| HK-67479 | ATANTO TRI-PACK CAPSULES 125MG AND 80MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-68461 | APREPITANT STADA CAPSULES 125MG AND 80MG | 單一成分 | STADA PHARMACEUTICALS (ASIA) LIMITED | 有效 |
+| HK-67467 | EMEGON TRI-PACK CAPSULES 125MG AND 80MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+
+上表列出其中 5 張（共 7 張）。
+
+<!-- licenses:end -->
 
 （共 7 張有效許可證，以上列出 5 張。）
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CERTOLIZUMAB PEGOL"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Certolizumab Pegol：預測新適應症為尾骨過度活動 (hypermobility of coccyx)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
@@ -72,10 +72,14 @@ TxGNN 模型預測它可能對**尾骨過度活動 (hypermobility of coccyx)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61805 | CIMZIA SOLUTION FOR INJ 200MG | 注射液 | 本地資料未記錄 |
-| HK-67262 | CIMZIA SOLUTION FOR INJECTION IN PRE-FILLED PENS 200MG/1ML | 預填充筆注射液 | 本地資料未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61805 | CIMZIA SOLUTION FOR INJ 200MG | 單一成分 | UCB PHARMA (HONG KONG) LIMITED | 有效 |
+| HK-67262 | CIMZIA SOLUTION FOR INJECTION IN PRE-FILLED PENS 200MG/1ML | 單一成分 | UCB PHARMA (HONG KONG) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

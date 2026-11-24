@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 257
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DEOXYCHOLIC ACID"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy"]
 description: "Deoxycholic Acid：預測新適應症為Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
@@ -81,10 +81,14 @@ TxGNN 模型預測排名最高的新適應症為極罕見的遺傳性血管疾�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65660 | BELKYRA SOLUTION FOR INJECTION 20MG/2ML（Allergan Hong Kong） | 注射液 | 資料未記載 |
-| HK-06544 | ENZYPLEX TAB（Unam Corporation） | 錠劑 | 資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65660 | BELKYRA SOLUTION FOR INJECTION 20MG/2ML | 單一成分 | ALLERGAN HONG KONG LIMITED | 有效 |
+| HK-06544 | ENZYPLEX TAB | 複方 | UNAM CORPORATION LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

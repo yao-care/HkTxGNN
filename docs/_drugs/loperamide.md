@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 537
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "Angelucci syndrome"]
 description: "Loperamide：預測新適應症為急性傳染性結膜炎 (acute contagious conjunctivitis)（證據等級 L5）。香港藥劑製品註冊：57 張（有效 57 張）"
@@ -94,13 +94,19 @@ TxGNN 模型預測它可能對**急性傳染性結膜炎 (Acute Contagious Conju
 
 <!-- review:end hk-lic-20261117-loperamide-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-49270 | LOPERA TAB 2MG | 錠劑（2 mg） | — |
-| HK-50444 | LOPAINE CAP 2MG | 膠囊（2 mg） | — |
-| HK-18541 | LIDERIUM CAP 2MG | 膠囊（2 mg） | — |
-| HK-47710 | KOJAR-LOPETIN CAP 2MG | 膠囊（2 mg） | — |
-| HK-48842 | DIACURE SYRUP 2MG/5ML | 糖漿（2 mg/5 mL） | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-49270 | LOPERA TAB 2MG | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-50444 | LOPAINE CAP 2MG | 單一成分 | WELL FAVOURED LTD | 有效 |
+| HK-18541 | LIDERIUM CAP 2MG | 單一成分 | WILCOME PHARMACEUTICAL CO LTD | 有效 |
+| HK-47710 | KOJAR-LOPETIN CAP 2MG | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-48842 | DIACURE SYRUP 2MG/5ML | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+
+上表列出其中 5 張（共 57 張）。
+
+<!-- licenses:end -->
 
 ---
 

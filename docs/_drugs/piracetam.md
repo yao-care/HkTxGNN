@@ -5,7 +5,7 @@ layout: default
 title: Piracetam
 parent: 僅已知用途（無新預測）
 nav_order: 705
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Piracetam: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Piracetam"
 predicted_indications: []
@@ -50,13 +50,19 @@ evidence_level: N/A
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-24251 | NOOTROPIL FILM-COATED TAB 800MG（GSK） | 未提供 | 未提供 |
-| HK-64022 | RACETEX TABLETS 800MG（LSB） | 未提供 | 未提供 |
-| HK-56575 | SYNTROPIL CAP 400MG（Vickmans） | 未提供 | 未提供 |
-| HK-56811 | KNOWFUL FILM COATED TAB 800MG（Yung Shin） | 未提供 | 未提供 |
-| HK-55474 | VICK-TROPIL TAB 800MG（Vickmans） | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-24251 | NOOTROPIL FILM-COATED TAB 800MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-64022 | RACETEX TABLETS 800MG | 單一成分 | LSB (HK) LIMITED | 有效 |
+| HK-56575 | SYNTROPIL CAP 400MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-56811 | KNOWFUL FILM COATED TAB 800MG | 單一成分 | YUNG SHIN CO LTD | 有效 |
+| HK-55474 | VICK-TROPIL TAB 800MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 本藥共有 9 張有效單方許可證，上表僅列出其中 5 張。
 

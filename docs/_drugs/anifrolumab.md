@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 65
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Anifrolumab: known uses and market status in Hong Kong; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,9 +72,13 @@ TxGNN 模型對 Anifrolumab 沒有分數達 0.99 以上的候選適應症，因�
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-67661 | SAPHNELO CONCENTRATE FOR SOLUTION FOR INFUSION 300MG/2ML |  | 有效 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67661 | SAPHNELO CONCENTRATE FOR SOLUTION FOR INFUSION 300MG/2ML | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

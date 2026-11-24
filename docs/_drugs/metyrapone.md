@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "METYRAPONE"
 predicted_indications: ["exercise-induced malignant hyperthermia", "King-Denborough syndrome", "central core myopathy", "moderate multiminicore disease with hand involvement", "congenital multicore myopathy with external ophthalmoplegia", "myopathy, centronuclear", "familial periodic paralysis", "renal tubular acidosis", "malignant hyperthermia of anesthesia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Metyrapone：預測新適應症為運動誘發性惡性高熱（證據等級 L5）。原適應症：香港許可證未載明核准適應症"
 ---
 
@@ -72,9 +72,13 @@ TxGNN 模型預測它可能對**運動誘發性惡性高熱 (exercise-induced ma
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-19150 | METOPIRONE CAP 250MG | 資料未載明 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-19150 | METOPIRONE CAP 250MG | 單一成分 | ORIENT EUROPHARMA CO. LTD | 有效 |
+
+<!-- licenses:end -->
 
 製造商為 ORIENT EUROPHARMA CO. LTD。
 

@@ -2266,6 +2266,316 @@
     "ChEMBL drug mechanism"
    ],
    "reason": "no single-ingredient US prescription label for 'zuclopenthixol' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'zuclopenthixol'"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "acetylsalicylic_acid",
+   "file": "acetylsalicylic_acid.md",
+   "status": "open",
+   "claim": "香港共有 14 張有效的單一成分許可證，皆為上市狀態，目前無已註銷者。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "aspartic_acid",
+   "file": "aspartic_acid.md",
+   "status": "open",
+   "claim": "（共 17 張有效單一成分許可證，此處僅列 5 張。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "berberine",
+   "file": "berberine.md",
+   "status": "open",
+   "claim": "Berberine（小檗鹼，黃連素）在香港已有 3 張單方許可證，但本次整理的資料中未載明其核准適應症。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "calcipotriol",
+   "file": "calcipotriol.md",
+   "status": "open",
+   "claim": "共 13 張有效單方許可證，以上列出 5 張主要許可證。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "cinchocaine",
+   "file": "cinchocaine.md",
+   "status": "open",
+   "claim": "香港共有 19 張有效單方製劑許可證（無已註銷者），以下列出 5 張主要許可證。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "darunavir",
+   "file": "darunavir.md",
+   "status": "open",
+   "claim": "香港共有 17 張單一成分的有效許可證，以下列出 5 張主要許可證（資料中未提供劑型與核准適應症文字）。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "dihydrocodeine",
+   "file": "dihydrocodeine.md",
+   "status": "open",
+   "claim": "共 11 張有效單方許可證（上表僅列 5 張），無已註銷者。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "diosmin",
+   "file": "diosmin.md",
+   "status": "open",
+   "claim": "本藥目前共有 18 張有效的單方許可證，以下列出 5 張主要許可證（資料中未提供劑型與核准適應症）：",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "econazole",
+   "file": "econazole.md",
+   "status": "open",
+   "claim": "香港共有 16 張有效的單一成分許可證，皆為上市狀態。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "epinephrine",
+   "file": "epinephrine.md",
+   "status": "open",
+   "claim": "香港共有 16 張有效的單一成分許可證，以下列出 5 張主要許可證（許可證資料未載明劑型與核准適應症文字）：",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "ethinylestradiol",
+   "file": "ethinylestradiol.md",
+   "status": "open",
+   "claim": "香港共有 18 張有效的單方許可證，以下列出 5 張主要許可證（許可證資料中未提供劑型與核准適應症文字）：",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "felodipine",
+   "file": "felodipine.md",
+   "status": "open",
+   "claim": "香港共有 16 張單方許可證，皆為有效狀態（資料中未載明劑型與核准適應症文字）。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "flupentixol",
+   "file": "flupentixol.md",
+   "status": "open",
+   "claim": "香港共有 9 張有效單一成分許可證（無已註銷者），上表僅列出 5 張主要許可證。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "ginseng",
+   "file": "ginseng.md",
+   "status": "open",
+   "claim": "人參（Ginseng，DrugBank：DB01404）在香港有 2 張單一成分許可證，但本報告所整理的資料中沒有記載核准適應症。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "glycol_salicylate",
+   "file": "glycol_salicylate.md",
+   "status": "open",
+   "claim": "（共 13 張有效單方許可證，以上僅列 5 張主要許可證，皆為有效狀態。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "glycyrrhizic_acid",
+   "file": "glycyrrhizic_acid.md",
+   "status": "open",
+   "claim": "Glycyrrhizic acid（甘草酸）是甘草的主要活性成分，目前在香港有 4 張單方許可證，但本次整理的資料中未載明其核准適應症。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "hesperidin",
+   "file": "hesperidin.md",
+   "status": "open",
+   "claim": "Hesperidin（橙皮苷）是一種柑橘類黃酮，在香港已有 17 張單方製劑許可證。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "hesperidin",
+   "file": "hesperidin.md",
+   "status": "open",
+   "claim": "共 17 張有效單方許可證，以上列出 5 張。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "insulin_human",
+   "file": "insulin_human.md",
+   "status": "open",
+   "claim": "香港共有 18 張有效的單一成分許可證（完整清單如下，許可證資料中未載明劑型與核准適應症文字）：",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "lactic_acid",
+   "file": "lactic_acid.md",
+   "status": "open",
+   "claim": "Lactic acid（乳酸）是人體內源性代謝物，在香港有 7 張單一成分許可證，但本次整理的資料中未載明核准適應症。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "magnesium_carbonate",
+   "file": "magnesium_carbonate.md",
+   "status": "open",
+   "claim": "共 10 張有效單方許可證，以上僅列出前 5 張。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "magnesium_sulfate",
+   "file": "magnesium_sulfate.md",
+   "status": "open",
+   "claim": "香港共有 11 張有效的單一成分許可證，以下列出 5 張主要許可證。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "methylprednisolone",
+   "file": "methylprednisolone.md",
+   "status": "open",
+   "claim": "本藥在香港共有 8 張有效的單方許可證，此處僅列出 5 張。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "nitrofurantoin",
+   "file": "nitrofurantoin.md",
+   "status": "open",
+   "claim": "Nitrofurantoin 是一種泌尿道抗菌藥，在香港有 5 張單一成分許可證。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "oxymetazoline",
+   "file": "oxymetazoline.md",
+   "status": "open",
+   "claim": "目前共有 13 張有效單一成分許可證（無已註銷者），以下列出 5 張主要許可證。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "phenazopyridine",
+   "file": "phenazopyridine.md",
+   "status": "open",
+   "claim": "本藥在香港共有 12 張有效單方許可證。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "sacubitril",
+   "file": "sacubitril.md",
+   "status": "open",
+   "claim": "以上僅列出 5 張，共有 9 張有效單方許可證，皆由 Novartis Pharmaceuticals (HK) Limited 持有。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "tetryzoline",
+   "file": "tetryzoline.md",
+   "status": "open",
+   "claim": "香港共有 6 張有效的單方許可證，上表列出其中 5 張。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "triclocarban",
+   "file": "triclocarban.md",
+   "status": "open",
+   "claim": "Triclocarban 是一種抗菌成分，歷史上常用於肥皂等外用產品，香港目前有 2 張單方許可證。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "uracil",
+   "file": "uracil.md",
+   "status": "open",
+   "claim": "Uracil（尿嘧啶）在香港有 2 張單一成分許可證，但本報告彙整的許可證資料未載明原核准適應症。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "ursodeoxycholic_acid",
+   "file": "ursodeoxycholic_acid.md",
+   "status": "open",
+   "claim": "本藥在香港共有 13 張有效單方許可證，上表僅列出 5 張主要許可證。",
+   "reason": "single-combo",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上或要改成 0 張、用中文數字「兩張」「三張」寫，或單一成分／複方張數跟註冊名單成分欄不符），程式沒改；要改請寫查核紀錄"
   }
  ]
 }

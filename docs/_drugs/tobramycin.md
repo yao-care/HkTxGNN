@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "TOBRAMYCIN"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tobramycin：預測新適應症為暴露性角膜炎（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症文字"
 ---
 
@@ -82,13 +82,19 @@ TxGNN 模型預測它可能對**暴露性角膜炎 (Exposure Keratitis)** 有效
 
 香港共有 15 張有效許可證，皆為單一成分登記，以下列出 5 張主要許可證（完整清單可能更長，此處僅列部分）：
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-19904 | TOBREX OPHTHALMIC OINT 0.3% | 眼用軟膏 | 資料未載明 |
-| HK-17292 | TOBREX STERILE OPHTH SOLN 0.3% | 眼用溶液 | 資料未載明 |
-| HK-50420 | TORACIN EYE DROPS 0.3% | 眼藥水 | 資料未載明 |
-| HK-67055 | TOBERAN EYE DROPS 0.3% W/V | 眼藥水 | 資料未載明 |
-| HK-49334 | TOPRAMYCIN INJ 40MG/ML | 注射劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-19904 | TOBREX OPHTHALMIC OINT 0.3% | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-17292 | TOBREX STERILE OPHTH SOLN 0.3% | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-50420 | TORACIN EYE DROPS 0.3% | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-67055 | TOBERAN EYE DROPS 0.3% W/V | 單一成分 | VAST RESOURCES PHARMACEUTICAL LTD | 有效 |
+| HK-49334 | TOPRAMYCIN INJ 40MG/ML | 單一成分 | YAT SENG TRADING CO | 有效 |
+
+上表列出其中 5 張（共 15 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

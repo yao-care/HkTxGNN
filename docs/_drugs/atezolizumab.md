@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Atezolizumab"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atezolizumab：預測新適應症為子宮韌帶腺癌 (uterine ligament adenocarcinoma)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
@@ -72,11 +72,17 @@ TxGNN 模型預測它可能對**子宮韌帶腺癌 (uterine ligament adenocarcin
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66613 | TECENTRIQ CONCENTRATE FOR SOLUTION FOR INFUSION 840MG/14ML | 濃縮輸注液 | 本地資料未記載 |
-| HK-66341 | TECENTRIQ CONCENTRATE FOR SOLUTION FOR INFUSION 1200MG/20ML | 濃縮輸注液 | 本地資料未記載 |
-| HK-65567 | TECENTRIQ CONCENTRATE FOR SOLUTION FOR INFUSION 1200MG/20ML | 濃縮輸注液 | 本地資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66613 | TECENTRIQ CONCENTRATE FOR SOLUTION FOR INFUSION 840MG/14ML | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-66341 | TECENTRIQ CONCENTRATE FOR SOLUTION FOR INFUSION 1200MG/20ML | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-65567 | TECENTRIQ CONCENTRATE FOR SOLUTION FOR INFUSION 1200MG/20ML | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+
+上表列出其中 3 張（共 4 張）。
+
+<!-- licenses:end -->
 
 三張許可證均為單一成分製劑，目前皆為有效狀態，持證商為 ROCHE HONG KONG LIMITED。
 

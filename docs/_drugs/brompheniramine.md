@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 135
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Brompheniramine: known uses and market status in Hong Kong; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -73,34 +73,34 @@ TxGNN 深度學習模型（分數 ≥ 0.99）為 Brompheniramine 產生的候選
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-49258 | PUKAMIN TAB 4MG |  | 有效 |
-| HK-22814 | BROMITON TAB 4MG |  | 有效 |
-| HK-55190 | BROMPHENIRAMINE TAB 4MG (JEN SHENG) |  | 有效 |
-| HK-21866 | BROMITON SYRUP 2MG/5ML |  | 有效 |
-| HK-52673 | BRONCOMINE TAB 4MG |  | 有效 |
-| HK-55641 | BROMPHEN COLD SYRUP |  | 有效 |
-| HK-16441 | NASECO-F TAB |  | 有效 |
-| HK-55640 | LOYAL COLD SYRUP |  | 有效 |
-| HK-13707 | RHINOBOL CAP |  | 有效 |
-| HK-09388 | SINUFORT CAP |  | 有效 |
-| HK-13680 | LINDERTON CAP |  | 有效 |
-| HK-48604 | BROM-RAMINE CO. SYRUP (NEW FORMULA) |  | 有效 |
-| HK-55639 | KID COLD SYRUP |  | 有效 |
-| HK-09369 | SINUCAP CAP |  | 有效 |
-| HK-47462 | DIMETAPP ELIXIR |  | 已註銷 |
-| HK-12115 | NASACIN CAP |  | 有效 |
-| HK-14353 | NATSIN CAP |  | 有效 |
-| HK-13654 | RHINOCO ANTIHISTAMINE CAP |  | 有效 |
-| HK-51583 | UNIHIST SYRUP |  | 有效 |
-| HK-16451 | MASETON CAP |  | 有效 |
+<!-- licenses:begin -->
 
-<!-- review:begin hk-row-20261117-brompheniramine-1 -->
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-49258 | PUKAMIN TAB 4MG | 單一成分 | HITPHARM PHARMACEUTICAL CO LTD | 有效 |
+| HK-22814 | BROMITON TAB 4MG | 單一成分 | CHRISTO PHARM LTD | 有效 |
+| HK-55190 | BROMPHENIRAMINE TAB 4MG (JEN SHENG) | 單一成分 | LANWAY LIMITED | 有效 |
+| HK-21866 | BROMITON SYRUP 2MG/5ML | 單一成分 | CHRISTO PHARM LTD | 有效 |
+| HK-52673 | BRONCOMINE TAB 4MG | 單一成分 | VAST RESOURCES PHARMACEUTICAL LTD | 有效 |
+| HK-55641 | BROMPHEN COLD SYRUP | 複方 | LOYAL ADVANCE LIMITED | 有效 |
+| HK-16441 | NASECO-F TAB | 複方 | ADVANCE PHARMACEUTICAL COMPANY LIMITED | 有效 |
+| HK-55640 | LOYAL COLD SYRUP | 複方 | LOYAL ADVANCE LIMITED | 有效 |
+| HK-13707 | RHINOBOL CAP | 複方 | ADVANCE PHARMACEUTICAL COMPANY LIMITED | 有效 |
+| HK-09388 | SINUFORT CAP | 複方 | ADVANCE PHARMACEUTICAL COMPANY LIMITED | 有效 |
+| HK-13680 | LINDERTON CAP | 複方 | ADVANCE PHARMACEUTICAL COMPANY LIMITED | 有效 |
+| HK-48604 | BROM-RAMINE CO. SYRUP (NEW FORMULA) | 複方 | UNIVERSAL PHARMACEUTICAL LABORATORIES, LIMITED | 有效 |
+| HK-55639 | KID COLD SYRUP | 複方 | LOYAL ADVANCE LIMITED | 有效 |
+| HK-09369 | SINUCAP CAP | 複方 | ADVANCE PHARMACEUTICAL COMPANY LIMITED | 有效 |
+| HK-47462 | DIMETAPP ELIXIR | 複方 | HALEON HONG KONG LIMITED | 已註銷 |
+| HK-12115 | NASACIN CAP | 複方 | ADVANCE PHARMACEUTICAL COMPANY LIMITED | 有效 |
+| HK-14353 | NATSIN CAP | 複方 | ADVANCE PHARMACEUTICAL COMPANY LIMITED | 有效 |
+| HK-13654 | RHINOCO ANTIHISTAMINE CAP | 複方 | ADVANCE PHARMACEUTICAL COMPANY LIMITED | 有效 |
+| HK-51583 | UNIHIST SYRUP | 複方 | HEALTH ALLIANCE INTERNATIONAL CO LTD | 有效 |
+| HK-16451 | MASETON CAP | 複方 | ADVANCE PHARMACEUTICAL COMPANY LIMITED | 有效 |
 
-> **查核更正（2026-11-17）**：原文為「HK-47462／DIMETAPP ELIXIR／／有效」。已更正：HK-47462 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
+上表列出其中 20 張（共 93 張）。
 
-<!-- review:end hk-row-20261117-brompheniramine-1 -->
+<!-- licenses:end -->
 
 香港共有 93 張含本藥成分的許可證（有效 92 張、已註銷 1 張；單一成分 6 張、複方 87 張）。
 
@@ -129,7 +129,7 @@ TxGNN 深度學習模型（分數 ≥ 0.99）為 Brompheniramine 產生的候選
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「HK-47462 &#124; DIMETAPP ELIXIR &#124;  &#124; 有效」→「HK-47462 &#124; DIMETAPP ELIXIR &#124;  &#124; 已註銷」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-17 | 「HK-47462 &#124; DIMETAPP ELIXIR &#124;  &#124; 有效」→「HK-47462 &#124; DIMETAPP ELIXIR &#124;  &#124; 已註銷」 | 已由程式產生的許可證表取代（原為更正） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
 | 2026-11-17 | 「資料只收錄部分許可證，清單可能不完整。」→「香港共有 93 張含本藥成分的許可證（有效 92 張、已註銷」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
 
 <!-- review:end log -->

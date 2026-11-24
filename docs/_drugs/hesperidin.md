@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "Hesperidin"
 predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "spermatocytic seminoma", "tubular variant testicular seminoma", "gestational trophoblastic neoplasm"]
 description: "Hesperidin：預測新適應症為骨髓增生性腫瘤 (myeloproliferative neoplasm)（證據等級 L5）。香港藥劑製品註冊：17 張（有效 17 張）"
@@ -81,13 +81,19 @@ TxGNN 模型預測它可能對**骨髓增生性腫瘤 (Myeloproliferative Neopla
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-33940 | DAFLON TAB 500MG | 未載明 | 未載明 |
-| HK-67813 | DAFLON TABLETS 1000MG | 未載明 | 未載明 |
-| HK-61727 | UNI-DAPHON TABLETS | 未載明 | 未載明 |
-| HK-68056 | AVENOR TABLETS 500MG | 未載明 | 未載明 |
-| HK-66397 | VEN-Q TABLETS | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-33940 | DAFLON TAB 500MG | 複方 | SERVIER HONG KONG LIMITED | 有效 |
+| HK-67813 | DAFLON TABLETS 1000MG | 複方 | SERVIER HONG KONG LIMITED | 有效 |
+| HK-61727 | UNI-DAPHON TABLETS | 複方 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-68056 | AVENOR TABLETS 500MG | 複方 | SB PHARMA LIMITED | 有效 |
+| HK-66397 | VEN-Q TABLETS | 複方 | DELTAPHARM LIMITED | 有效 |
+
+上表列出其中 5 張（共 17 張）。
+
+<!-- licenses:end -->
 
 共 17 張有效單方許可證，以上列出 5 張。
 

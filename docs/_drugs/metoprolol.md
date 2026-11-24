@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Metoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Metoprolol：預測新適應症為Malignant hypertensive renal disease（證據等級 L5）。香港藥劑製品註冊：35 張（有效 33 張）"
 ---
 
@@ -100,13 +100,19 @@ TxGNN 模型預測它可能對**慢性肺心症 (chronic pulmonary heart disease
 
 <!-- review:end hk-lic-20261117-metoprolol-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-63791 | METRACIN PROLONGED-RELEASE TABLETS 25MG | 錠劑（長效） | 請參考原廠仿單 |
-| HK-41198 | SLOW-METOPROLOL TAB 50MG | 錠劑 | 請參考原廠仿單 |
-| HK-65191 | METOPROLOL KRKA PROLONGED-RELEASE TABLETS 25MG | 錠劑（長效） | 請參考原廠仿單 |
-| HK-19885 | BETALOC IV INJ | 注射劑 | 請參考原廠仿單 |
-| HK-19220 | BETALOC TAB 50MG | 錠劑 | 請參考原廠仿單 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63791 | METRACIN PROLONGED-RELEASE TABLETS 25MG | 單一成分 | CEUTICAL TRADING COMPANY LIMITED | 有效 |
+| HK-41198 | SLOW-METOPROLOL TAB 50MG | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-65191 | METOPROLOL KRKA PROLONGED-RELEASE TABLETS 25MG | 單一成分 | SINO PACIFIC PHARMA COMPANY LIMITED | 有效 |
+| HK-19885 | BETALOC IV INJ IMG/ML | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-19220 | BETALOC TAB 50MG | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 已註銷 |
+
+上表列出其中 5 張（共 35 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

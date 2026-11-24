@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 327
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 description: "Epinephrine：預測新適應症為阻塞性肺病 (obstructive lung disease)（證據等級 L5）。香港藥劑製品註冊：16 張（有效 16 張）"
@@ -111,13 +111,19 @@ TxGNN 模型預測它可能對**阻塞性肺病 (Obstructive Lung Disease)** 有
 
 香港共有 16 張有效的單一成分許可證，以下列出 5 張主要許可證（許可證資料未載明劑型與核准適應症文字）：
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-50701 | ADRENALINE INJ 1:1000 | 注射劑 | 請參考原廠仿單 |
-| HK-66600 | ADRENALINE AGUETTANT 預充填注射針筒 1MG/10ML | 注射劑 | 請參考原廠仿單 |
-| HK-00410 | ADRENALINE INJ BP 1:1000 | 注射劑 | 請參考原廠仿單 |
-| HK-64270 | JEXT 300 MICROGRAMS 預充填注射筆 300MCG/0.3ML | 注射劑 | 請參考原廠仿單 |
-| HK-64269 | JEXT 150 MICROGRAMS 預充填注射筆 150MCG/0.15ML | 注射劑 | 請參考原廠仿單 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-50701 | ADRENALINE INJ 1:1000 | 單一成分 | ATLANTIC PHARMACEUTICAL LIMITED | 有效 |
+| HK-66600 | ADRENALINE AGUETTANT SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 1MG/10ML | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-00410 | ADRENALINE INJ BP 1:1000 | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-64270 | JEXT 300 MICROGRAMS SOLUTION FOR INJECTION IN PRE-FILLED PEN 300MCG/0.3ML | 單一成分 | ALK-ABELLO A/S | 有效 |
+| HK-64269 | JEXT 150 MICROGRAMS SOLUTION FOR INJECTION IN PRE-FILLED PEN 150MCG/0.15ML | 單一成分 | ALK-ABELLO A/S | 有效 |
+
+上表列出其中 5 張（共 16 張）。
+
+<!-- licenses:end -->
 
 其餘許可證多為含 Adrenaline 的局部麻醉注射劑（如牙科用 Septanest、Xylocaine、Marcain 等）。
 

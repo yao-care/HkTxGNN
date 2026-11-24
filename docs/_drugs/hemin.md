@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 434
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Hemin：預測新適應症為血小板減少性紫斑症 (Thrombocytopenic Purpura)（證據等級 L5）。原適應症：急性間歇性紫質症 (acute intermittent porphyria)"
 monitor_inn: "Hemin"
 predicted_indications: ["thrombocytopenic purpura", "hemophilia", "C1 inhibitor deficiency", "acquired coagulation factor deficiency", "serpinopathy with toxic serpin polymerization", "hereditary angioedema with C1Inh deficiency", "inherited thrombophilia", "symptomatic form of hemophilia in female carriers", "hereditary von Willebrand disease", "congenital factor XI deficiency"]
@@ -86,9 +86,13 @@ Hemin 也可能誘導血基質加氧酶-1 (heme oxygenase-1)，理論上可能�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68135 | NORMOSANG CONCENTRATE FOR SOLUTION FOR INFUSION 250MG/10ML | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68135 | NORMOSANG CONCENTRATE FOR SOLUTION FOR INFUSION 250MG/10ML | 單一成分 | TALENT INTERNATIONAL TRADING (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 持證商：TALENT INTERNATIONAL TRADING (HK) LIMITED
 

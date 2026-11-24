@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Filgrastim：預測新適應症為原發性血小板釋放障礙（證據等級 L5）。原適應症：知識圖譜記錄的關聯：體質性嗜中性白血球低下症、嚴重先天性嗜中性白血球低下症、週期性造血、慢性家族性嗜中性白血球低下症"
 ---
 
@@ -85,13 +85,19 @@ TxGNN 模型預測它可能對**原發性血小板釋放障礙 (primary release 
 
 香港共有 8 張有效的單一成分許可證（均為 filgrastim 製劑），資料中未載明核准適應症文字。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-45427 | NEUPOGEN PRE-FILLED SYRINGE 0.3MG/0.5ML | 預充填注射筒 | 請參考原廠仿單 |
-| HK-60951 | NIVESTIM 300MCG/0.5ML 預充填注射筒 | 預充填注射筒 | 請參考原廠仿單 |
-| HK-64300 | ZARZIO 48MU/0.5ML 預充填注射筒 | 預充填注射筒 | 請參考原廠仿單 |
-| HK-35878 | NEUPOGEN INJ 0.3MG/ML | 注射劑 | 請參考原廠仿單 |
-| HK-68517 | ACCOFIL 30MU/0.5ML 預充填注射筒 | 預充填注射筒 | 請參考原廠仿單 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-45427 | NEUPOGEN PRE-FILLED SYRINGE 0.3MG/0.5ML | 單一成分 | AMGEN HONG KONG LIMITED | 有效 |
+| HK-60951 | NIVESTIM SOLUTION FOR INJECTION/INFUSION IN PRE-FILLED SYRINGE 300MCG/0.5ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-64300 | ZARZIO SOLUTION FOR INJECTION OR INFUSION IN PRE-FILLED SYRINGE 48MU/0.5ML | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-35878 | NEUPOGEN INJ 0.3MG/ML | 單一成分 | AMGEN HONG KONG LIMITED | 有效 |
+| HK-68517 | ACCOFIL SOLUTION FOR INJECTION OR INFUSION IN PRE-FILLED SYRINGE 30MU/0.5ML | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 （另有 3 張：HK-60949、HK-62169、HK-45426，同為有效的單一成分許可證。）
 

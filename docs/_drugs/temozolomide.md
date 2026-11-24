@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Temozolomide：預測新適應症為馬尾腫瘤（證據等級 L5）。原適應症：知識圖譜記錄：退行性星狀細胞瘤、星狀細胞瘤（不含神經膠質母細胞瘤）、腦部神經膠質母細胞瘤"
 ---
 
@@ -80,13 +80,19 @@ Temozolomide 是口服烷化劑，會使 DNA 甲基化（O6-鳥嘌呤、N7-鳥�
 
 下表列出 5 張主要許可證（共 17 張，皆為有效的單一成分製劑）。資料中未提供核准適應症文字與劑型。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-53861 | TEMODAL CAP 5MG | 膠囊 | 未提供 |
-| HK-53858 | TEMODAL CAP 20MG | 膠囊 | 未提供 |
-| HK-53859 | TEMODAL CAP 100MG | 膠囊 | 未提供 |
-| HK-53860 | TEMODAL CAP 250MG | 膠囊 | 未提供 |
-| HK-62467 | TEMOZOLOMIDE CAPSULES 100MG | 膠囊 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-53861 | TEMODAL CAP 5MG | 單一成分 | MERCK SHARP & DOHME (ASIA) LTD | 有效 |
+| HK-53858 | TEMODAL CAP 20MG | 單一成分 | MERCK SHARP & DOHME (ASIA) LTD | 有效 |
+| HK-53859 | TEMODAL CAP 100MG | 單一成分 | MERCK SHARP & DOHME (ASIA) LTD | 有效 |
+| HK-53860 | TEMODAL CAP 250MG | 單一成分 | MERCK SHARP & DOHME (ASIA) LTD | 有效 |
+| HK-62467 | TEMOZOLOMIDE CAPSULES 100MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+
+上表列出其中 5 張（共 17 張）。
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

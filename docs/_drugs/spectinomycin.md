@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "SPECTINOMYCIN"
 predicted_indications: ["disease of uterine broad ligament", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of retroperitoneum", "sacrum chordoma", "urethral disease", "disease of peritoneum", "embryonic cyst of fallopian tube"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Spectinomycin：預測新適應症為子宮闊韌帶疾病（證據等級 L5）。原適應症：急性淋球菌性子宮頸炎、淋病"
 ---
 
@@ -73,11 +73,15 @@ TxGNN 模型預測它可能對**子宮闊韌帶疾病 (disease of uterine broad 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-35734 | KIRIN INJ 2G | 未載明 | 未載明 |
-| HK-54939 | MICOSPECTONE INJECTABLE SOLUTION (VET) | 未載明 | 未載明 |
-| HK-36853 | KIRIN INJ 2G WITH DILUENT | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-35734 | KIRIN INJ 2G | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-54939 | MICOSPECTONE INJECTABLE SOLUTION (VET) | 複方 | WAI LUNG HONG AGRIBUSINESS LTD | 有效 |
+| HK-36853 | KIRIN INJ 2G WITH DILUENT | 複方 | STAR MEDICAL SUPPLIES LTD | 有效 |
+
+<!-- licenses:end -->
 
 其中 HK-54939 的品名標示為獸用 (VET)，與人用藥品性質不同，解讀時需留意。
 

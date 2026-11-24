@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "GUAIACOL"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Guaiacol：預測新適應症為鼻腔疾病（證據等級 L5）。原適應症：知識圖譜中記錄的關聯：咽炎、感冒、鼻炎、鼻咽炎"
 ---
 
@@ -72,9 +72,13 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-41505 | NUMOTIZINE CATAPLASM OINTMENT | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-41505 | NUMOTIZINE CATAPLASM OINTMENT | 複方 | TIN CHUN TRADING CO | 有效 |
+
+<!-- licenses:end -->
 
 此許可證為單一成分產品，由 TIN CHUN TRADING CO 持有，狀態為有效。
 

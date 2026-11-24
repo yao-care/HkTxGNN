@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 616
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Niacin: 香港的已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 ---
@@ -72,23 +72,15 @@ TxGNN 模型針對 Niacin 所產出的候選，經追溯來源後全部屬於已
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-60373 | NIASPAN EXTENDED-RELEASE TAB 1000MG |  | 已註銷 |
-| HK-60374 | NIASPAN EXTENDED-RELEASE TAB 500MG |  | 已註銷 |
-| HK-54177 | AMINOLEBAN ORAL POWDER |  | 有效 |
+<!-- licenses:begin -->
 
-<!-- review:begin hk-row-20261117-niacin-1 -->
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-60373 | NIASPAN EXTENDED-RELEASE TAB 1000MG | 單一成分 | ABBOTT LAB LTD | 已註銷 |
+| HK-60374 | NIASPAN EXTENDED-RELEASE TAB 500MG | 單一成分 | ABBOTT LAB LTD | 已註銷 |
+| HK-54177 | AMINOLEBAN ORAL POWDER | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
 
-> **查核更正（2026-11-17）**：原文為「HK-60373／NIASPAN EXTENDED-RELEASE TAB 1000MG／／有效」。已更正：HK-60373 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
-
-<!-- review:end hk-row-20261117-niacin-1 -->
-
-<!-- review:begin hk-row-20261117-niacin-2 -->
-
-> **查核更正（2026-11-17）**：原文為「HK-60374／NIASPAN EXTENDED-RELEASE TAB 500MG／／有效」。已更正：HK-60374 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
-
-<!-- review:end hk-row-20261117-niacin-2 -->
+<!-- licenses:end -->
 
 ## 安全性考量
 
@@ -106,8 +98,8 @@ TxGNN 模型針對 Niacin 所產出的候選，經追溯來源後全部屬於已
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「HK-60373 &#124; NIASPAN EXTENDED-RELEASE TAB 」→「HK-60373 &#124; NIASPAN EXTENDED-RELEASE TAB 」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
-| 2026-11-17 | 「HK-60374 &#124; NIASPAN EXTENDED-RELEASE TAB 」→「HK-60374 &#124; NIASPAN EXTENDED-RELEASE TAB 」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-17 | 「HK-60373 &#124; NIASPAN EXTENDED-RELEASE TAB 」→「HK-60373 &#124; NIASPAN EXTENDED-RELEASE TAB 」 | 已由程式產生的許可證表取代（原為更正） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-17 | 「HK-60374 &#124; NIASPAN EXTENDED-RELEASE TAB 」→「HK-60374 &#124; NIASPAN EXTENDED-RELEASE TAB 」 | 已由程式產生的許可證表取代（原為更正） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
 
 <!-- review:end log -->
 

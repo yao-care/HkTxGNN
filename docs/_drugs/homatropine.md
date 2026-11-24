@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 439
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "Homatropine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "overactive bladder (disease)"]
 description: "Homatropine：預測新適應症為馬尾症候群 (cauda equina syndrome)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -78,9 +78,13 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66532 | HOMATROPINE HBR EYE DROPS 2% W/V | 滴眼液（依品名） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66532 | HOMATROPINE HBR EYE DROPS 2% W/V | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 此為香港唯一的許可證（單一成分、有效），製造商為 JEAN-MARIE PHARMACAL CO LTD。目前上市的劑型為眼用製劑，與預測的新適應症（泌尿或神經相關）給藥途徑不同，若要推進需評估劑型與途徑的相容性。
 

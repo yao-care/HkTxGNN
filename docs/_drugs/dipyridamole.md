@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DIPYRIDAMOLE"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dipyridamole：預測新適應症為Sick sinus syndrome 2, autosomal dominant（證據等級 L5）。香港藥劑製品註冊：10 張（有效 10 張）"
 ---
 
@@ -71,13 +71,19 @@ TxGNN 模型預測它可能對**體染色體顯性遺傳病態竇房結症候群
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-15915 | DIPYRIDAMOLE S C TAB 25MG | KAI YUEN PHARMACEUTICAL CO |
-| HK-35124 | PROCARDIN 75 TAB 75MG | STAR MEDICAL SUPPLIES LTD |
-| HK-39893 | APO-DIPYRIDAMOLE FC TAB 25MG | HIND WING CO LTD |
-| HK-02701 | PERSANTIN TAB (S.C.) 75MG | ZUELLIG PHARMA LIMITED |
-| HK-44759 | DIPAMOL TAB 75MG | APT PHARMA LIMITED |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-15915 | DIPYRIDAMOLE S C TAB 25MG | 單一成分 | KAI YUEN PHARMACEUTICAL CO | 有效 |
+| HK-35124 | PROCARDIN 75 TAB 75MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-39893 | APO-DIPYRIDAMOLE FC TAB 25MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-02701 | PERSANTIN TAB (S.C.) 75MG | 單一成分 | ZUELLIG PHARMA LIMITED | 有效 |
+| HK-44759 | DIPAMOL TAB 75MG | 單一成分 | APT PHARMA LIMITED | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 目前香港共有 10 張有效的單方許可證，此處僅列出 5 張。
 

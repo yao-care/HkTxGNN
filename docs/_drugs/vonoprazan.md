@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "VONOPRAZAN"
 predicted_indications: ["peptic ulcer perforation", "hiatus hernia (disease)", "achlorhydria", "pylorospasm", "Dieulafoy lesion", "cascade stomach", "gastric dilatation", "hemorrhagic duodenitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vonoprazan：預測新適應症為消化性潰瘍穿孔 (Peptic Ulcer Perforation)（證據等級 L5）。原適應症：香港許可證未載明適應症文字"
 ---
 
@@ -75,10 +75,14 @@ TxGNN 模型預測它可能對**消化性潰瘍穿孔 (Peptic Ulcer Perforation)
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68731 | VOCINTI TABLETS 10MG | 未載明 | 未載明 |
-| HK-68732 | VOCINTI TABLETS 20MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68731 | VOCINTI TABLETS 10MG | 單一成分 | TAKEDA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-68732 | VOCINTI TABLETS 20MG | 單一成分 | TAKEDA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證皆為單一成分製劑，持有者為 Takeda Pharmaceuticals (Hong Kong) Limited。
 

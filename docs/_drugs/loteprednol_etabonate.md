@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "LOTEPREDNOL ETABONATE"
 predicted_indications: ["conjunctival folliculosis", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral", "pseudomembranous conjunctivitis", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Loteprednol Etabonate：預測新適應症為結膜濾泡增生症（證據等級 L5）。原適應症：知識圖譜記錄的關聯包括葡萄膜炎、虹膜疾病、過敏性結膜炎、春季結膜炎等"
 ---
 
@@ -88,10 +88,14 @@ TxGNN 模型預測它可能對**結膜濾泡增生症 (conjunctival folliculosis
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-51822 | LOTEMAX OPHTHALMIC SUSPENSION 0.5% | 眼用懸浮液（品名所示） | 許可證資料未載明 |
-| HK-54255 | ALREX OPHTHALMIC SUSPENSION 0.2%W/V | 眼用懸浮液（品名所示） | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-51822 | LOTEMAX OPHTHALMIC SUSPENSION 0.5% | 單一成分 | BAUSCH & LOMB (HK) LTD | 有效 |
+| HK-54255 | ALREX OPHTHALMIC SUSPENSION 0.2%W/V | 單一成分 | BAUSCH & LOMB (HK) LTD | 有效 |
+
+<!-- licenses:end -->
 
 兩張皆為單一成分製劑，持證商為 Bausch & Lomb (HK) Ltd，狀態有效。
 

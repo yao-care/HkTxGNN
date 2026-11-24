@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 584
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Midazolam：預測新適應症為失眠 (Insomnia)（證據等級 L2）。原適應症：焦慮症 (Anxiety)"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
@@ -84,13 +84,19 @@ TxGNN 模型預測它可能對**失眠 (Insomnia)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67778 | MIDAZ SOLUTION FOR INJECTION OR INFUSION 15MG/3ML | 注射液 | 資料未載明 |
-| HK-55150 | MIDAZOLAM INJ 1MG/ML (HAMELN) | 注射液 | 資料未載明 |
-| HK-25854 | DORMICUM INJ 5MG/ML | 注射液 | 資料未載明 |
-| HK-20343 | DORMICUM INJ 15MG/3ML | 注射液 | 資料未載明 |
-| HK-32941 | DORMICUM INJ 5MG/5ML | 注射液 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67778 | MIDAZ SOLUTION FOR INJECTION OR INFUSION 15MG/3ML | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-55150 | MIDAZOLAM INJ 1MG/ML (HAMELN) | 單一成分 | MEKIM LTD | 有效 |
+| HK-25854 | DORMICUM INJ 5MG/ML | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-20343 | DORMICUM INJ 15MG/3ML | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-32941 | DORMICUM INJ 5MG/5ML | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 13 張）。
+
+<!-- licenses:end -->
 
 另有 8 張有效許可證（含 DORMICUM TABLET 15MG 口服錠劑），共 13 張，皆為單方且有效。
 

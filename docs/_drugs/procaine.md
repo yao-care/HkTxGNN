@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 733
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Procaine：預測新適應症為高鐵血紅素血症 (methemoglobinemia)（證據等級 L4）。原適應症：許可證未載明（局部麻醉藥）"
 monitor_inn: "Procaine"
 predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "Tourette syndrome", "anaphylaxis", "methemoglobin reductase deficiency", "hyperthyroidism", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis"]
@@ -93,9 +93,13 @@ TxGNN 模型預測分數最高的新適應症是**高鐵血紅素血症 (methemo
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66905 | STERILE CONCENTRATE FOR CARDIOPLEGIA INFUSION | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66905 | STERILE CONCENTRATE FOR CARDIOPLEGIA INFUSION | 複方 | THE INTERNATIONAL MEDICAL COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 此為心臟停搏液（心臟手術用）相關產品，與預測的新適應症並無直接關聯。
 

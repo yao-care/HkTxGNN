@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 627
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Nonivamide：預測新適應症為肺動脈高壓 (Pulmonary Hypertension)（證據等級 L5）。原適應症：香港許可證未提供核准適應症文字"
 monitor_inn: "Nonivamide"
 predicted_indications: ["pulmonary hypertension", "peripheral arterial disease", "acute lymphoblastic leukemia (disease)", "kyphoscoliotic heart disease", "peripheral vascular disease", "ventricular tachycardia", "anaphylaxis", "migraine disorder", "catecholaminergic polymorphic ventricular tachycardia", "intermittent vascular claudication"]
@@ -74,13 +74,19 @@ TRPV1 在肺血管與感覺神經中有表現，也曾被研究用於血管張�
 
 下表為香港已登記的 12 張許可證（皆為有效單一成分製劑）。資料中未提供劑型與核准適應症。
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-66440 | TIGER BALM LOTION | Haw Par Brothers International (HK) |
-| HK-66526 | NEW AMMELTZ YOKO YOKO EXTRA STRENGTH LIQUID | Kobayashi Pharmaceutical (HK) |
-| HK-62002 | SALONPAS LOTION | Hisamitsu Pharmaceutical (HK) |
-| HK-00349 | AMMELTZ LOTION | Kobayashi Pharmaceutical (HK) |
-| HK-42348 | NEW AMMELTZ YOKO YOKO LIQUID | Kobayashi Pharmaceutical (HK) |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66440 | TIGER BALM LOTION | 複方 | HAW PAR BROTHERS INTERNATIONAL (H K) LTD | 有效 |
+| HK-66526 | NEW AMMELTZ YOKO YOKO EXTRA STRENGTH LIQUID | 複方 | KOBAYASHI PHARMACEUTICAL (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-62002 | SALONPAS LOTION | 複方 | HISAMITSU PHARMACEUTICAL (HONG KONG) CO., LIMITED | 有效 |
+| HK-00349 | AMMELTZ LOTION | 複方 | KOBAYASHI PHARMACEUTICAL (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-42348 | NEW AMMELTZ YOKO YOKO LIQUID | 複方 | KOBAYASHI PHARMACEUTICAL (HONG KONG) COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 12 張）。
+
+<!-- licenses:end -->
 
 另有 7 張許可證（如 PANOPAS SOLUTION、STRONG MAITREE-PAS PLASTER、WIDE PASS E PLASTER 等）未在此列出。
 

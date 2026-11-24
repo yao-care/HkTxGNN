@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 641
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "olmesartan"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
 description: "Olmesartan：預測新適應症為Prinzmetal angina（證據等級 L5）。香港藥劑製品註冊：23 張（有效 19 張）"
@@ -120,13 +120,19 @@ TxGNN 模型的預測中，證據最完整的方向是**偏頭痛 (Migraine Diso
 
 <!-- review:end hk-lic-20261117-olmesartan-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-53022 | OLMETEC TAB 20MG（Pfizer） | 資料未載明 | 資料未載明 |
-| HK-53023 | OLMETEC TAB 10MG（Pfizer） | 資料未載明 | 資料未載明 |
-| HK-53024 | OLMETEC TAB 40MG（Pfizer） | 資料未載明 | 資料未載明 |
-| HK-60989 | OLMESARTAN SANDOZ TAB 20MG（Sandoz） | 資料未載明 | 資料未載明 |
-| HK-55166 | OLMETEC PLUS TAB 20MG/12.5MG（Pfizer） | 資料未載明 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-53022 | OLMETEC TAB 20MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-53023 | OLMETEC TAB 10MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-53024 | OLMETEC TAB 40MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-60989 | OLMESARTAN SANDOZ TAB 20MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-55166 | OLMETEC PLUS TAB 20MG/12.5MG | 複方 | PFIZER CORPORATION HONG KONG LIMITED | 已註銷 |
+
+上表列出其中 5 張（共 23 張）。
+
+<!-- licenses:end -->
 
 ---
 

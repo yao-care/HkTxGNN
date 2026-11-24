@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 502
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lactic Acid：預測新適應症為非典型主動脈縮窄 (Atypical coarctation of aorta)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
@@ -89,13 +89,19 @@ ChEMBL（EMBL-EBI）收錄的 Lactic Acid 作用機轉（非官方翻譯）：�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-42195 | VERRUFILM SOLUTION | 未載明 | 未載明 |
-| HK-67340 | COLLOPAINT COLLODION | 未載明 | 未載明 |
-| HK-67554 | DUOCARE COLLODION | 未載明 | 未載明 |
-| HK-67322 | COLLOFILM COLLODION | 未載明 | 未載明 |
-| HK-12847 | DUOFILM LIQ | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-42195 | VERRUFILM SOLUTION | 複方 | LABORATOIRES BAILLEUL LIMITED | 有效 |
+| HK-67340 | COLLOPAINT COLLODION | 複方 | WELL FAVOURED LTD | 有效 |
+| HK-67554 | DUOCARE COLLODION | 複方 | WELL FAVOURED LTD | 有效 |
+| HK-67322 | COLLOFILM COLLODION | 複方 | WELL FAVOURED LTD | 有效 |
+| HK-12847 | DUOFILM LIQ | 複方 | STADA PHARMACEUTICALS (ASIA) LIMITED | 有效 |
+
+上表列出其中 5 張（共 7 張）。
+
+<!-- licenses:end -->
 
 另有 2 張許可證：HK-55926（複方乳酸鈉哈特曼氏注射液）與 HK-62237（PRISMASOL B0，血液濾過與血液透析溶液），共 7 張，皆為有效的單一成分許可證。
 

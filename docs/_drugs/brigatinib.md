@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "BRIGATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brigatinib：預測新適應症為牙齦纖維瘤病 (fibromatosis, gingival)（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
 ---
 
@@ -72,11 +72,15 @@ TxGNN 模型預測它可能對**牙齦纖維瘤病 (fibromatosis, gingival)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66121 | ALUNBRIG TABLETS 90MG | 未記載 | 本地資料未記載 |
-| HK-66119 | ALUNBRIG TABLETS 180MG | 未記載 | 本地資料未記載 |
-| HK-66120 | ALUNBRIG TABLETS 30MG | 未記載 | 本地資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66121 | ALUNBRIG TABLETS 90MG | 單一成分 | TAKEDA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-66119 | ALUNBRIG TABLETS 180MG | 單一成分 | TAKEDA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-66120 | ALUNBRIG TABLETS 30MG | 單一成分 | TAKEDA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

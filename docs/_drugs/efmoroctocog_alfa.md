@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 310
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Efmoroctocog Alfa：預測新適應症為偽性血管性血友病 (pseudo-von Willebrand disease)（證據等級 L5）。原適應症：血友病（hemophilia）"
 monitor_inn: "EFMOROCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "thrombotic thrombocytopenic purpura"]
@@ -95,12 +95,16 @@ TxGNN 另外預測了 9 個適應症，皆無臨床試驗或文獻佐證：
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66996 | ELOCTATE POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 250IU | 注射用粉劑與溶劑 | 未提供 |
-| HK-66994 | ELOCTATE POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 1000IU | 注射用粉劑與溶劑 | 未提供 |
-| HK-66995 | ELOCTATE POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 2000IU | 注射用粉劑與溶劑 | 未提供 |
-| HK-66997 | ELOCTATE POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 500IU | 注射用粉劑與溶劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66996 | ELOCTATE POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 250IU | 複方 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-66994 | ELOCTATE POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 1000IU | 複方 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-66995 | ELOCTATE POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 2000IU | 複方 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-66997 | ELOCTATE POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 500IU | 複方 | SANOFI HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 以上 4 張許可證均為單一成分、現行有效，持證商為 SANOFI HONG KONG LIMITED。
 

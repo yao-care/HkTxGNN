@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "AZITHROMYCIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Azithromycin：預測新適應症為高澱粉酶血症 (hyperamylasemia)（證據等級 L5）。香港藥劑製品註冊：43 張（有效 42 張）"
 ---
 
@@ -77,13 +77,19 @@ TxGNN 模型預測它可能對**高澱粉酶血症 (hyperamylasemia)** 有效，
 
 <!-- review:end hk-lic-20261117-azithromycin-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-44360 | ZITHROMAX TAB 250MG | 未記載 | 未記載 |
-| HK-45614 | ZITHROMAX FOR INJ IV 500MG/VIAL | 未記載 | 未記載 |
-| HK-59622 | BINOZYT POWDER FOR SUSP 200MG/5ML | 未記載 | 未記載 |
-| HK-57627 | APO-AZITHROMYCIN TAB 250MG | 未記載 | 未記載 |
-| HK-58360 | AZIN 500 TAB 500MG | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-44360 | ZITHROMAX TAB 250MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-45614 | ZITHROMAX FOR INJ IV 500MG/VIAL | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-59622 | BINOZYT POWDER FOR SUSP 200MG/5ML | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-57627 | APO-AZITHROMYCIN TAB 250MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-58360 | AZIN 500 TAB 500MG | 單一成分 | DELTAPHARM LIMITED | 有效 |
+
+上表列出其中 5 張（共 43 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 419
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Glutamic Acid：預測新適應症為停經後骨質疏鬆症 (Postmenopausal Osteoporosis)（證據等級 L4）。原適應症：目前無可用的核准適應症文字"
 monitor_inn: "GLUTAMIC ACID"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
@@ -96,13 +96,19 @@ TxGNN 模型預測它可能對**停經後骨質疏鬆症 (Postmenopausal Osteopo
 
 麩胺酸在香港有 17 張有效許可證（皆為單方登記），均為輸液或乳劑類營養產品。許可證資料中未載明劑型與核准適應症。以下列出 5 張主要許可證：
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-36470 | VAMINOLACT I.V. SOLUTION | 未載明 | 未載明 |
-| HK-32746 | AMINOPLASMAL HEPA-10% INJ | 未載明 | 未載明 |
-| HK-61211 | AMINOPLASMAL B. BRAUN 10% E SOLUTION FOR INFUSION | 未載明 | 未載明 |
-| HK-37929 | NUTRIFLEX PLUS INF | 未載明 | 未載明 |
-| HK-67504 | OLIMEL N12E EMULSION FOR INFUSION | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-36470 | VAMINOLACT I.V. SOLUTION | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-32746 | AMINOPLASMAL HEPA-10% INJ | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-61211 | AMINOPLASMAL B. BRAUN 10% E SOLUTION FOR INFUSION | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-37929 | NUTRIFLEX PLUS INF | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-67504 | OLIMEL N12E EMULSION FOR INFUSION | 複方 | BAXTER HEALTHCARE LIMITED | 有效 |
+
+上表列出其中 5 張（共 17 張）。
+
+<!-- licenses:end -->
 
 ---
 

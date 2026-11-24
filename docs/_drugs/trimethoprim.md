@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 910
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRIMETHOPRIM"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 description: "Trimethoprim：預測新適應症為點狀上皮角膜結膜炎 (punctate epithelial keratoconjunctivitis)（證據等級 L5）。香港藥劑製品註冊：13 張（有效 13 張）"
@@ -71,13 +71,19 @@ TxGNN 模型（深度學習）給出的分數很高（點狀上皮角結膜炎�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-56426 | TRIMETHOPRIM SUSP 50MG/5ML | 未提供 | 未提供 |
-| HK-43066 | CO-SEPTIC TAB | 未提供 | 未提供 |
-| HK-21598 | TRIMETRIN CAP | 未提供 | 未提供 |
-| HK-09295 | APO-SULFATRIM 400-80MG TAB | 未提供 | 未提供 |
-| HK-65292 | DBL SULFAMETHOXAZOLE AND TRIMETHOPRIM CONCENTRATE FOR SOLUTION FOR INFUSION 400MG/80MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-56426 | TRIMETHOPRIM SUSP 50MG/5ML | 單一成分 | SINO-ASIA PHARMACEUTICAL SUPPLIES LTD | 有效 |
+| HK-43066 | CO-SEPTIC TAB | 複方 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-21598 | TRIMETRIN CAP | 複方 | VICKMANS LABORATORIES LTD | 有效 |
+| HK-09295 | APO-SULFATRIM 400-80MG TAB | 複方 | HIND WING CO LTD | 有效 |
+| HK-65292 | DBL SULFAMETHOXAZOLE AND TRIMETHOPRIM CONCENTRATE FOR SOLUTION FOR INFUSION 400M… | 複方 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 13 張）。
+
+<!-- licenses:end -->
 
 目前共有 13 張有效許可證（皆為單一成分登記），此處僅列出 5 張。
 

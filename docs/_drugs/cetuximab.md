@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Cetuximab"
 predicted_indications: ["non-seminomatous lesion", "ductal or ductular proliferation", "bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "cystic neoplasm", "epiglottis neoplasm", "pre-malignant neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cetuximab：預測新適應症為非精原細胞瘤病灶 (Non-seminomatous Lesion)（證據等級 L5）。原適應症：香港許可證資料未提供核准適應症文字。知識圖譜記錄的關聯為大腸直腸癌、頭頸部鱗狀細胞癌等"
 ---
 
@@ -72,9 +72,13 @@ TxGNN 模型預測它可能對**非精原細胞瘤病灶 (Non-seminomatous Lesio
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-57484 | ERBITUX 輸注液 5mg/ml（Merck Pharmaceutical (HK) Limited） | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-57484 | ERBITUX SOLN FOR INFUSION 5MG/ML | 單一成分 | MERCK PHARMACEUTICAL (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

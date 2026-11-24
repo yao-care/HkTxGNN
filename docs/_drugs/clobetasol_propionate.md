@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CLOBETASOL PROPIONATE"
 predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis chronica atrophicans", "exanthem (disease)", "acne keloid", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
 description: "Clobetasol Propionate：預測新適應症為外陰倒置性毛囊角化症 (vulvar inverted follicular keratosis)（證據等級 L5）。香港藥劑製品註冊：281 張（有效 279 張）"
@@ -88,13 +88,19 @@ TxGNN 模型預測它可能對**外陰倒置性毛囊角化症 (Vulvar Inverted 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67988 | DERMOVATE CREAM 0.05% W/W（GlaxoSmithKline） | 乳膏 | 未載明 |
-| HK-36493 | SENSODERM CREAM（Meyer Pharmaceuticals） | 乳膏 | 未載明 |
-| HK-37528 | SENSODERM OINTMENT（Meyer Pharmaceuticals） | 軟膏 | 未載明 |
-| HK-43905 | UNIDERM CREAM 0.05%（Health Alliance International） | 乳膏 | 未載明 |
-| HK-42041 | UNIVATE OINTMENT 0.05%（FP Healthcare） | 軟膏 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67988 | DERMOVATE CREAM 0.05% W/W | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-36493 | SENSODERM CREAM | 單一成分 | MEYER PHARMACEUTICALS LTD | 有效 |
+| HK-37528 | SENSODERM OINTMENT | 單一成分 | MEYER PHARMACEUTICALS LTD | 有效 |
+| HK-43905 | UNIDERM CREAM 0.05% | 單一成分 | HEALTH ALLIANCE INTERNATIONAL CO LTD | 有效 |
+| HK-42041 | UNIVATE OINTMENT 0.05% | 單一成分 | FP HEALTHCARE LIMITED | 有效 |
+
+上表列出其中 5 張（共 281 張）。
+
+<!-- licenses:end -->
 
 （共 281 張含本藥成分的許可證，有效 279 張、已註銷 2 張，單一成分 45 張、複方 236 張；此處僅列出 5 張，劑型依品名推斷。）
 

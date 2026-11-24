@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 80
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atomoxetine：預測新適應症為特定發展障礙 (Specific Developmental Disorder)（證據等級 L4）。原適應症：注意力不足過動症 (ADHD)"
 monitor_inn: "ATOMOXETINE"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
@@ -91,13 +91,19 @@ TxGNN 分數極高，很可能反映的是網路上與 ADHD 的鄰近性。現�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67908 | ATOMILL CAPSULES 10MG | 膠囊 | 資料未載明 |
-| HK-61814 | APO-ATOMOXETINE CAPSULES 18MG | 膠囊 | 資料未載明 |
-| HK-62494 | PMS-ATOMOXETINE CAPSULES 18MG | 膠囊 | 資料未載明 |
-| HK-66752 | ATAMA CAPSULES 18MG | 膠囊 | 資料未載明 |
-| HK-66160 | ATOMOTERA CAPSULES 18MG | 膠囊 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67908 | ATOMILL CAPSULES 10MG | 單一成分 | CHEMILL PHARMA LIMITED | 有效 |
+| HK-61814 | APO-ATOMOXETINE CAPSULES 18MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-62494 | PMS-ATOMOXETINE CAPSULES 18MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-66752 | ATAMA CAPSULES 18MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-66160 | ATOMOTERA CAPSULES 18MG | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+
+上表列出其中 5 張（共 24 張）。
+
+<!-- licenses:end -->
 
 香港共有 24 張含本藥成分的許可證（有效 23 張、已註銷 1 張；皆為單一成分），此處僅列出 5 張。
 

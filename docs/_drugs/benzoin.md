@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 108
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Benzoin: known uses and market status in Hong Kong; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -75,10 +75,14 @@ TxGNN 深度學習模型對 Benzoin 沒有分數達 0.99 以上的候選適應�
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-43203 | COMPOUND BENZOIN TINCTURE |  | 有效 |
-| HK-42429 | EXTRACT FOR MAKING CO BENZOIN TINCTURE |  | 有效 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-43203 | COMPOUND BENZOIN TINCTURE | 複方 | TRANSO-PHARM (HONG KONG) LIMITED | 有效 |
+| HK-42429 | EXTRACT FOR MAKING CO BENZOIN TINCTURE | 複方 | TRANSO-PHARM (HONG KONG) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

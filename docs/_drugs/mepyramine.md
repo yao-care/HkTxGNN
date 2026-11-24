@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 564
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "Mepyramine"
 predicted_indications: ["nasal cavity disease"]
 description: "Mepyramine：預測新適應症為Nasal cavity disease（證據等級 L5）。香港藥劑製品註冊：25 張（有效 25 張）"
@@ -84,13 +84,19 @@ Mepyramine 是第一代 H1 組織胺受體拮抗劑，原本用於過敏性鼻�
 
 <!-- review:end hk-lic-20261117-mepyramine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-57757 | TERAMIN CREAM 2% | 乳膏 | 未提供 |
-| HK-30055 | METOPIC CREAM 2% | 乳膏 | 未提供 |
-| HK-57756 | SYNPYRAMINE CREAM 2% | 乳膏 | 未提供 |
-| HK-23629 | MEPYRAMINE CREAM 2% | 乳膏 | 未提供 |
-| HK-49356 | PROTAMIN CREAM 2% | 乳膏 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-57757 | TERAMIN CREAM 2% | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-30055 | METOPIC CREAM 2% | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-57756 | SYNPYRAMINE CREAM 2% | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-23629 | MEPYRAMINE CREAM 2% | 單一成分 | MARCHING PHARMACEUTICAL LIMITED | 有效 |
+| HK-49356 | PROTAMIN CREAM 2% | 單一成分 | MARCHING PHARMACEUTICAL LIMITED | 有效 |
+
+上表列出其中 5 張（共 25 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

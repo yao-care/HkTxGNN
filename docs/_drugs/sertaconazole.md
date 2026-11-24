@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 809
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Sertaconazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
 description: "Sertaconazole：預測新適應症為Ectothrix infectious disease（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
@@ -96,10 +96,14 @@ Sertaconazole 是咪唑類（imidazole）外用抗黴菌藥，原本用於足癬
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-50619 | ZALAIN CREAM 2% | 乳膏（依品名） | 未提供 |
-| HK-51145 | ZALAIN VAGINAL SUPP 300MG | 陰道栓劑（依品名） | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-50619 | ZALAIN CREAM 2% | 單一成分 | LEON MEDICAL SUPPLIES LIMITED | 有效 |
+| HK-51145 | ZALAIN VAGINAL SUPP 300MG | 單一成分 | LEON MEDICAL SUPPLIES LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證均為單方、有效，持有人為 LEON MEDICAL SUPPLIES LIMITED。
 

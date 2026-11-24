@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "TEGAFUR"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tegafur：預測新適應症為Cecum villous adenoma（證據等級 L5）。香港藥劑製品註冊：6 張（有效 5 張）"
 ---
 
@@ -98,13 +98,19 @@ ChEMBL（EMBL-EBI）收錄的 Tegafur 作用機轉（非官方翻譯）：「RNA
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-60904 | UFUR CAP | 膠囊 | 資料未提供 |
-| HK-48265 | UNITORAL CAP | 膠囊 | 資料未提供 |
-| HK-61181 | TS-ONE 25 CAP | 膠囊 | 資料未提供 |
-| HK-67976 | TEGO CAPSULES 20MG/5.8MG/19.6MG | 膠囊 | 資料未提供 |
-| HK-67977 | TEGO CAPSULES 25MG/7.25MG/24.5MG | 膠囊 | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-60904 | UFUR CAP | 複方 | HIND WING CO LTD | 有效 |
+| HK-48265 | UNITORAL CAP | 複方 | HEALTHCARE PHARMASCIENCE LIMITED | 已註銷 |
+| HK-61181 | TS-ONE 25 CAP | 複方 | DKSH HONG KONG LIMITED | 有效 |
+| HK-67976 | TEGO CAPSULES 20MG/5.8MG/19.6MG | 複方 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-67977 | TEGO CAPSULES 25MG/7.25MG/24.5MG | 複方 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 另有 HK-61182（TS-ONE 20 CAP），共 6 張許可證，其中 5 張有效、HK-48265（UNITORAL CAP）已註銷。
 

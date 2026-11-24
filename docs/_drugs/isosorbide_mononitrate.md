@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ISOSORBIDE MONONITRATE"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "alopecia", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pulmonary arterial hypertension"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Isosorbide Mononitrate：預測新適應症為毛髮過多症（證據等級 L5）。原適應症：本報告所整理的資料中，香港許可證未載明核准適應症文字"
 ---
 
@@ -79,13 +79,19 @@ TxGNN 模型預測它可能對**毛髮過多 (Hypertrichosis)** 有效，但這�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-58861 | COXINE TAB 20MG | 未載明 | 未載明 |
-| HK-32612 | IMDUR DURULES TAB 60MG | 未載明 | 未載明 |
-| HK-44654 | SORBIMON TAB 20MG | 未載明 | 未載明 |
-| HK-44510 | IMDEX CR TAB 60MG | 未載明 | 未載明 |
-| HK-58841 | COXINE SR TAB 40MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-58861 | COXINE TAB 20MG | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-32612 | IMDUR DURULES TAB 60MG | 單一成分 | TOPRIDGE PHARMA LIMITED | 有效 |
+| HK-44654 | SORBIMON TAB 20MG | 單一成分 | APT PHARMA LIMITED | 有效 |
+| HK-44510 | IMDEX CR TAB 60MG | 單一成分 | PHARMALINK HEALTHCARE LTD | 有效 |
+| HK-58841 | COXINE SR TAB 40MG | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 以上僅列出 8 張許可證中的 5 張，其餘 3 張為 HK-58860、HK-56654、HK-68630，皆為單一成分製劑且狀態有效。
 

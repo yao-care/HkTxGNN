@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bupropion：預測新適應症為注意力不足過動症 (attention deficit-hyperactivity disorder)（證據等級 L2）。香港藥劑製品註冊：6 張（有效 6 張）"
 ---
 
@@ -87,13 +87,19 @@ Bupropion 的主要作用機轉是抑制去甲腎上腺素與多巴胺的再攝�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-58371 | WELLBUTRIN XL EXTENDED RELEASE TAB 150MG | 未記錄 | 未記錄 |
-| HK-58534 | PMS-BUPROPION SR TAB 150MG | 未記錄 | 未記錄 |
-| HK-58253 | WELLBUTRIN XL EXTENDED RELEASE TAB 300 MG | 未記錄 | 未記錄 |
-| HK-68758 | NEUROTRAX SUSTAINED-RELEASE TABLETS 150MG | 未記錄 | 未記錄 |
-| HK-65953 | BUPROPION HYDROCHLORIDE SUSTAINED-RELEASE TABLETS 150MG | 未記錄 | 未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-58371 | WELLBUTRIN XL EXTENDED RELEASE TAB 150MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-58534 | PMS-BUPROPION SR TAB 150MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-58253 | WELLBUTRIN XL EXTENDED RELEASE TAB 300 MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-68758 | NEUROTRAX SUSTAINED-RELEASE TABLETS 150MG | 單一成分 | SINO PACIFIC PHARMA COMPANY LIMITED | 有效 |
+| HK-65953 | BUPROPION HYDROCHLORIDE SUSTAINED-RELEASE TABLETS 150MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 301
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dronedarone：預測新適應症為中風 (stroke disorder)（證據等級 L4）。原適應症：心房顫動 (atrial fibrillation)"
 monitor_inn: "DRONEDARONE"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
@@ -95,9 +95,15 @@ TxGNN 模型預測它可能對**中風 (stroke disorder)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-59499 | MULTAQ TAB 400MG | 未標示 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-59499 | MULTAQ TAB 400MG | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+
+上表列出其中 1 張（共 2 張）。
+
+<!-- licenses:end -->
 
 ---
 

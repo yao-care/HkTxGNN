@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 86
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Avatrombopag：預測新適應症為巨型血小板低下合併二尖瓣閉鎖不全 (marcothrombocytopenia with mitral valve insufficien…（證據等級 L5）。原適應症：血小板低下症（Thrombocytopenia）"
 monitor_inn: "Avatrombopag"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "transient neonatal thrombocytopenia", "dense granule disease", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "monomelic amyotrophy"]
@@ -89,9 +89,13 @@ TxGNN 分數很高，但這只是計算預測，沒有試驗或文獻佐證。
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68734 | DOPTELET TABLETS 20MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68734 | DOPTELET TABLETS 20MG | 單一成分 | FOSUN INDUSTRIAL CO., LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 製造商為 FOSUN INDUSTRIAL CO., LIMITED，屬單一成分製劑，狀態有效。
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "VARENICLINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "alopecia", "open-angle glaucoma", "primary hereditary glaucoma", "headache disorder", "pulmonary hypertension"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Varenicline：預測新適應症為偏頭痛（證據等級 L5）。原適應症：許可證資料中未提供核准適應症文字"
 ---
 
@@ -85,10 +85,14 @@ TxGNN 模型（深度學習）給出的高分，可能反映模型學到的相�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68451 | APO-VARENICLINE TABLETS 0.5MG | 未提供 | 未提供 |
-| HK-68452 | APO-VARENICLINE TABLETS 1MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68451 | APO-VARENICLINE TABLETS 0.5MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-68452 | APO-VARENICLINE TABLETS 1MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 兩張皆為單方、有效狀態，持證商為 HIND WING CO LTD。
 

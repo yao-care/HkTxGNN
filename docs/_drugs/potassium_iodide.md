@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 720
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "POTASSIUM IODIDE"
 predicted_indications: ["nasal cavity disease"]
 description: "Potassium Iodide：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L4）。香港藥劑製品註冊：13 張（有效 13 張）"
@@ -89,13 +89,19 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，
 
 資料中 13 張許可證均為有效的單一成分製劑，但劑型與核准適應症文字皆未登錄。碘化鉀在這些產品中有的作為主成分，有的是微量元素或營養配方的成分。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-50400 | IOSAT TAB 130MG | 未登錄 | 未登錄 |
-| HK-65456 | ISOPOD EYE DROPS | 未登錄 | 未登錄 |
-| HK-36743 | VITADIN EYE DROPS | 未登錄 | 未登錄 |
-| HK-65084 | GEMSTAIN ORAL SOLUTION | 未登錄 | 未登錄 |
-| HK-34060 | OPTATON EYE DROPS | 未登錄 | 未登錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-50400 | IOSAT TAB 130MG | 單一成分 | DRUG PROCUREMENT & CLINIC SERVICE DIVISION OF THE DRUG OFFICE, DEPARTM… | 有效 |
+| HK-65456 | ISOPOD EYE DROPS | 複方 | UP SUPREME (HK) LIMITED | 有效 |
+| HK-36743 | VITADIN EYE DROPS | 複方 | JACOBSON MARKETING LIMITED | 有效 |
+| HK-65084 | GEMSTAIN ORAL SOLUTION | 複方 | SINO PACIFIC PHARMA COMPANY LIMITED | 有效 |
+| HK-34060 | OPTATON EYE DROPS | 複方 | JACOBSON MARKETING LIMITED | 有效 |
+
+上表列出其中 5 張（共 13 張）。
+
+<!-- licenses:end -->
 
 此外尚有 8 張有效許可證（如 LUGOL SOFT SPRAY、PEDITRACE、ADDAVEN 等），此處不逐一列出。
 

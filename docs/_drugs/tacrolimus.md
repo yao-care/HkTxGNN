@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 845
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus：預測新適應症為脂漏性皮膚炎 (seborrheic dermatitis)（證據等級 L2）。香港藥劑製品註冊：45 張（有效 45 張）"
@@ -98,13 +98,19 @@ TxGNN 模型預測它可能對**脂漏性皮膚炎 (Seborrheic Dermatitis)** 有
 
 <!-- review:end hk-lic-20261117-tacrolimus-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-48907 | PROTOPIC OINT 0.03%（DKSH Hong Kong） | 軟膏 | 未提供 |
-| HK-47471 | PROGRAF CAP 0.5MG（Astellas） | 膠囊 | 未提供 |
-| HK-56596 | ADVAGRAF PROLONGED-RELEASE HARD CAP 0.5MG（Astellas） | 緩釋膠囊 | 未提供 |
-| HK-61331 | REMUS OINTMENT 0.1%W/W（Unipharm） | 軟膏 | 未提供 |
-| HK-65222 | TACROZ OINTMENT 0.03% W/W（SB Pharma） | 軟膏 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-48907 | PROTOPIC OINT 0.03% | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-47471 | PROGRAF CAP 0.5MG | 單一成分 | ASTELLAS PHARMA HONG KONG COMPANY LIMITED | 有效 |
+| HK-56596 | ADVAGRAF PROLONGED-RELEASE HARD CAP 0.5MG | 單一成分 | ASTELLAS PHARMA HONG KONG COMPANY LIMITED | 有效 |
+| HK-61331 | REMUS OINTMENT 0.1%W/W | 單一成分 | UNIPHARM (HONG KONG) LIMITED | 有效 |
+| HK-65222 | TACROZ OINTMENT 0.03% W/W | 單一成分 | SB PHARMA LIMITED | 有效 |
+
+上表列出其中 5 張（共 45 張）。
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

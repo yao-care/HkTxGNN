@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 891
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Topotecan：預測新適應症為女性乳癌 (Female Breast Carcinoma)（證據等級 L5）。原適應症：卵巢癌（含卵巢腺癌、卵巢生殖細胞腫瘤等）"
 monitor_inn: "TOPOTECAN"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
@@ -99,11 +99,15 @@ TxGNN 模型預測它可能對**女性乳癌 (Female Breast Carcinoma)** 有效�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-60430 | TOPOTECAN ACTAVIS POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 4MG | 輸注濃縮液用粉末 | 資料中未載明 |
-| HK-67254 | TOPOCAN POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 4MG | 輸注濃縮液用粉末 | 資料中未載明 |
-| HK-68935 | HYCAMCORD CONCENTRATE FOR SOLUTION FOR INFUSION 4MG/4ML | 輸注濃縮液 | 資料中未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-60430 | TOPOTECAN ACTAVIS POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 4MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-67254 | TOPOCAN POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 4MG | 單一成分 | GOLDEN BILLION HEALTH PRODUCTS LIMITED O/B GOLDEN BILLION HEALTH PRODU… | 有效 |
+| HK-68935 | HYCAMCORD CONCENTRATE FOR SOLUTION FOR INFUSION 4MG/4ML | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

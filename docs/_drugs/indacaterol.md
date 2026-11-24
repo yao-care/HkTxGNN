@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "INDACATEROL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Indacaterol：預測新適應症為腎因性抗利尿激素分泌不當症候群 (NSIAD)（證據等級 L5）。原適應症：許可證資料未載明"
 ---
 
@@ -80,12 +80,18 @@ NSIAD 是由血管加壓素 V2 受體 (AVPR2) 的功能獲得性突變所致，�
 
 <!-- review:end hk-lic-20261117-indacaterol-1 -->
 
-| 許可證號 | 品名 | 規格 |
-|---------|------|------|
-| HK-67628 | ONBREZ BREEZHALER INHALATION POWDER | 150 mcg/膠囊 |
-| HK-67725 | ONBREZ BREEZHALER INHALATION POWDER | 300 mcg/膠囊 |
-| HK-60180 | ONBREZ BREEZHALER INHALATION POWDER | 150 mcg/膠囊 |
-| HK-60179 | ONBREZ BREEZHALER INHALATION POWDER | 300 mcg/膠囊 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67628 | ONBREZ BREEZHALER INHALATION POWDER 150MCG/CAPSULE | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-67725 | ONBREZ BREEZHALER INHALATION POWDER 300MCG/CAPSULE | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-60180 | ONBREZ BREEZHALER INHALATION POWDER 150 MCG/CAPSULE | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-60179 | ONBREZ BREEZHALER INHALATION POWDER 300 MCG/CAPSULE | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+
+上表列出其中 4 張（共 13 張）。
+
+<!-- licenses:end -->
 
 另有 9 張許可證屬於含 indacaterol 的複方產品（ATECTURA、ULTIBRO、ENERZAIR 系列；其中 ATECTURA 3 張與 ENERZAIR 1 張已註銷）。複方許可證不能用來說明單方 indacaterol 的核准或上市情形，因此不在此列出。
 

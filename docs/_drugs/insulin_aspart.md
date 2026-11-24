@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Aspart：預測新適應症為自體免疫性卵巢炎 (autoimmune oophoritis)（證據等級 L5）。原適應症：糖尿病、糖尿病酮酸中毒"
 ---
 
@@ -73,13 +73,19 @@ TxGNN 模型（深度學習）的分數雖高 (0.9992)，但該分數可能反�
 
 資料顯示香港共有 14 張有效的單一成分許可證，皆為有效狀態。以下列出 5 張主要許可證（許可證資料未提供劑型與核准適應症文字）：
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-55341 | NOVORAPID FLEXPEN INJ 100U/ML | NOVO NORDISK HONG KONG LIMITED |
-| HK-67493 | FIASP FLEXTOUCH SOLUTION FOR INJECTION IN PRE-FILLED PEN 100U/ML 3ML | NOVO NORDISK HONG KONG LIMITED |
-| HK-68936 | KIRSTY SOLUTION FOR INJECTION IN PRE-FILLED PEN 300 UNITS/3ML | PRIMEDICA LIMITED |
-| HK-68191 | NOVORAPID FLEXPEN SOLUTION FOR INJECTION IN PRE-FILLED PEN 100U/ML | NOVO NORDISK HONG KONG LIMITED |
-| HK-60462 | NOVORAPID PENFILL SOLUTION FOR INJECTION 100U/ML | NOVO NORDISK HONG KONG LIMITED |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55341 | NOVORAPID FLEXPEN INJ 100U/ML | 單一成分 | NOVO NORDISK HONG KONG LIMITED | 有效 |
+| HK-67493 | FIASP FLEXTOUCH SOLUTION FOR INJECTION IN PRE-FILLED PEN 100U/ML 3ML | 單一成分 | NOVO NORDISK HONG KONG LIMITED | 有效 |
+| HK-68936 | KIRSTY SOLUTION FOR INJECTION IN PRE-FILLED PEN 300 UNITS/3ML | 單一成分 | PRIMEDICA LIMITED | 有效 |
+| HK-68191 | NOVORAPID FLEXPEN SOLUTION FOR INJECTION IN PRE-FILLED PEN 100U/ML | 單一成分 | NOVO NORDISK HONG KONG LIMITED | 有效 |
+| HK-60462 | NOVORAPID PENFILL SOLUTION FOR INJECTION 100U/ML | 單一成分 | NOVO NORDISK HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 14 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

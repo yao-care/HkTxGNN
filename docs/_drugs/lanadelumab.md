@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 507
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Lanadelumab"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
 description: "Lanadelumab：預測新適應症為Serpinopathy with toxic serpin polymerization（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -98,9 +98,13 @@ Lanadelumab 是一種抑制血漿激肽釋放酶（plasma kallikrein）的單株
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67123 | TAKHZYRO SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 300MG/2ML（持證商：武田藥品香港） | 注射液（預填充針筒） | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67123 | TAKHZYRO SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 300MG/2ML | 單一成分 | TAKEDA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

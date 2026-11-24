@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 622
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Niraparib"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "pre-malignant neoplasm", "inner ear neoplasm", "schwannoma of jugular foramen"]
 description: "Niraparib：預測新適應症為Epiglottis neoplasm（證據等級 L5）。香港藥劑製品註冊：5 張（有效 4 張）"
@@ -100,12 +100,18 @@ TxGNN 模型預測它可能對**囊性腫瘤 (Cystic Neoplasm)** 有效，目前
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65945 | ZEJULA CAPSULES 100MG（ZAI LAB） | 未提供 | 未提供 |
-| HK-67238 | ZEJULA CAPSULES 100MG（ZAI LAB） | 未提供 | 未提供 |
-| HK-68295 | AKEEGA TABLETS 50MG/500MG（Johnson & Johnson） | 未提供 | 未提供 |
-| HK-68296 | AKEEGA TABLETS 100MG/500MG（Johnson & Johnson） | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65945 | ZEJULA CAPSULES 100MG | 單一成分 | ZAI LAB (HONG KONG) LIMITED | 已註銷 |
+| HK-67238 | ZEJULA CAPSULES 100MG | 單一成分 | ZAI LAB (HONG KONG) LIMITED | 有效 |
+| HK-68295 | AKEEGA TABLETS 50MG/500MG | 複方 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-68296 | AKEEGA TABLETS 100MG/500MG | 複方 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+
+上表列出其中 4 張（共 5 張）。
+
+<!-- licenses:end -->
 
 ---
 

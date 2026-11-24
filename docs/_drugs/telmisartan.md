@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Telmisartan：預測新適應症為變異型心絞痛 (Prinzmetal angina)（證據等級 L5）。原適應症：香港許可證資料未提供適應症文字"
 ---
 
@@ -80,13 +80,19 @@ TxGNN 模型預測它可能對**變異型心絞痛 (Prinzmetal angina)** 有效�
 
 <!-- review:end hk-lic-20261117-telmisartan-1 -->
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-45841 | MICARDIS TAB 40MG | BOEHRINGER INGELHEIM (HK) LTD |
-| HK-45842 | MICARDIS TAB 80MG | BOEHRINGER INGELHEIM (HK) LTD |
-| HK-63206 | TELMOTENS TABLETS 80MG | LOTUS PHARMACEUTICAL HK LIMITED |
-| HK-66969 | MICAVID TABLETS 40MG | HOVID LIMITED |
-| HK-61881 | TELMISARTAN SANDOZ TABLETS 40MG | SANDOZ HONG KONG LIMITED |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-45841 | MICARDIS TAB 40MG | 單一成分 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-45842 | MICARDIS TAB 80MG | 單一成分 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-63206 | TELMOTENS TABLETS 80MG | 單一成分 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-66969 | MICAVID TABLETS 40MG | 單一成分 | HOVID LIMITED | 有效 |
+| HK-61881 | TELMISARTAN SANDOZ TABLETS 40MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 31 張）。
+
+<!-- licenses:end -->
 
 清單中另有含 telmisartan 的複方製劑（如 TWYNSTA、Telmisartan Plus HCT），其資料不用於描述單方藥物的核准狀況。
 

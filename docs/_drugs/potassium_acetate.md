@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 716
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Potassium Acetate：預測新適應症為腎小管酸中毒 (Renal Tubular Acidosis)（證據等級 L5）。原適應症：鉀缺乏症 (Potassium Deficiency Disease)"
 monitor_inn: "POTASSIUM ACETATE"
 predicted_indications: ["renal tubular acidosis"]
@@ -82,13 +82,19 @@ TxGNN 模型預測它可能對**腎小管酸中毒 (Renal Tubular Acidosis)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65534 | PLASMA-LYTE 56 ELECTROLYTE SOLUTION IN 5% W/V GLUCOSE IV INFUSION | 未提供 | 未提供 |
-| HK-61211 | AMINOPLASMAL B. BRAUN 10% E SOLUTION FOR INFUSION | 未提供 | 未提供 |
-| HK-65813 | NUMETA G13% E PRETERM EMULSION FOR INFUSION 300ML | 未提供 | 未提供 |
-| HK-50080 | NUTRIFLEX LIPID PERI EMULSION FOR INF. | 未提供 | 未提供 |
-| HK-67635 | OMEGAFLEX SPECIAL EMULSION FOR INFUSION | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65534 | PLASMA-LYTE 56 ELECTROLYTE SOLUTION IN 5% W/V GLUCOSE IV INFUSION | 複方 | BAXTER HEALTHCARE LIMITED | 有效 |
+| HK-61211 | AMINOPLASMAL B. BRAUN 10% E SOLUTION FOR INFUSION | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-65813 | NUMETA G13% E PRETERM EMULSION FOR INFUSION 300ML | 複方 | BAXTER HEALTHCARE LIMITED | 有效 |
+| HK-50080 | NUTRIFLEX LIPID PERI EMULSION FOR INF. | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-67635 | OMEGAFLEX SPECIAL EMULSION FOR INFUSION | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 以上為 10 張許可證中的 5 張，均為單一成分、現行有效的許可證，無已註銷者。
 

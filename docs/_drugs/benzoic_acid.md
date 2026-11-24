@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BENZOIC ACID"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "dry eye syndrome", "palmar fibromatosis", "Ledderhose disease", "infantile digital fibromatosis", "hereditary angioedema with C1Inh deficiency", "posterior leukoencephalopathy syndrome", "C1 inhibitor deficiency"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Benzoic Acid：預測新適應症為支氣管炎 (bronchitis)（證據等級 L5）。香港藥劑製品註冊：34 張（有效 34 張）"
 ---
 
@@ -73,6 +73,20 @@ TxGNN 模型預測它可能對**支氣管炎 (bronchitis)** 有效，但目前**
 | [22180869](https://pubmed.ncbi.nlm.nih.gov/22180869/) | 2012 | 動物研究 | Am J Respir Cell Mol Biol | 可溶性環氧化物水解酶抑制劑用於吸菸誘發 COPD 模型；未涉及苯甲酸 |
 
 ## 香港上市資訊
+
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-03692 | RADISOL ACID SALICYLIC APPLICATION | 複方 | MARCHING PHARMACEUTICAL LIMITED | 有效 |
+| HK-04644 | FUNGIFAX CREAM | 複方 | MEDIPHARMA LTD | 有效 |
+| HK-06925 | RING WORM OINT | 複方 | YEE TIN TONG LTD | 有效 |
+| HK-09902 | WHITFIELD'S OINT | 複方 | MEDIPHARMA LTD | 有效 |
+| HK-13684 | MYCOTAN SOLN (EXTERNAL) | 複方 | ADVANCE PHARMACEUTICAL COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 34 張）。
+
+<!-- licenses:end -->
 
 本地許可證資料中的核准適應症文字與劑型均未記載，香港共有 34 張含本藥成分的許可證（全部有效；皆為複方）。已登記的產品包括 JEAUBAO POWDER（HK-57660）、WHITFIELD'S OINT（HK-09902）、NAFUGIN CREAM（HK-17373）、NEBODERM SPRAY（HK-45960）、COMPOUND BENZOIC ACID OINT（HK-45764）等，目前均為有效狀態。
 

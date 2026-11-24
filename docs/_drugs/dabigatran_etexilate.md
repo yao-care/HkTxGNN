@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 241
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dabigatran Etexilate：預測新適應症為硬化性膽管炎 (Sclerosing Cholangitis)（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症"
 monitor_inn: "DABIGATRAN ETEXILATE"
 predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
@@ -85,13 +85,19 @@ TxGNN 的高分（0.9982）僅是計算預測。唯一連結的文獻是另一�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-57315 | PRADAXA CAP 110MG | 膠囊（資料未載明） | 資料未載明 |
-| HK-60516 | PRADAXA CAP 150MG | 膠囊（資料未載明） | 資料未載明 |
-| HK-57316 | PRADAXA CAP 75MG | 膠囊（資料未載明） | 資料未載明 |
-| HK-68583 | DABIGATRAN ETEXILATE SANDOZ CAPSULES 110MG | 膠囊（資料未載明） | 資料未載明 |
-| HK-68584 | DABIGATRAN ETEXILATE SANDOZ CAPSULES 150MG | 膠囊（資料未載明） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-57315 | PRADAXA CAP 110MG | 單一成分 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-60516 | PRADAXA CAP 150MG | 單一成分 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-57316 | PRADAXA CAP 75MG | 單一成分 | BOEHRINGER INGELHEIM (HK) LTD | 有效 |
+| HK-68583 | DABIGATRAN ETEXILATE SANDOZ CAPSULES 110MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-68584 | DABIGATRAN ETEXILATE SANDOZ CAPSULES 150MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 另有 HK-68585（SANDOZ 75MG），共 6 張有效許可證，均為單一成分製劑。
 

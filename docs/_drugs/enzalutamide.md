@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ENZALUTAMIDE"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
 description: "Enzalutamide：預測新適應症為Prostate leiomyoma（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
@@ -85,12 +85,16 @@ Enzalutamide 是 AR 抑制劑，作用包括阻斷雄性素與受體結合、抑
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-63493 | XTANDI CAPSULES 40MG | Astellas Pharma Hong Kong Company Limited |
-| HK-68829 | XTANDI FILM-COATED TABLETS 40MG | Astellas Pharma Hong Kong Company Limited |
-| HK-68830 | XTANDI FILM-COATED TABLETS 80MG | Astellas Pharma Hong Kong Company Limited |
-| HK-68934 | ENZACORD 40 CAPSULES 40MG | Jacobson Marketing Limited |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63493 | XTANDI CAPSULES 40MG | 單一成分 | ASTELLAS PHARMA HONG KONG COMPANY LIMITED | 有效 |
+| HK-68829 | XTANDI FILM-COATED TABLETS 40MG | 單一成分 | ASTELLAS PHARMA HONG KONG COMPANY LIMITED | 有效 |
+| HK-68830 | XTANDI FILM-COATED TABLETS 80MG | 單一成分 | ASTELLAS PHARMA HONG KONG COMPANY LIMITED | 有效 |
+| HK-68934 | ENZACORD 40 CAPSULES 40MG | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

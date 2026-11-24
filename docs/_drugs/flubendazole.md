@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 380
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Flubendazole：預測新適應症為膀胱尿路上皮癌 (Urinary Bladder Carcinoma)（證據等級 L5）。原適應症：本次整理的資料未載明"
 monitor_inn: "Flubendazole"
 predicted_indications: ["urinary bladder carcinoma", "urinary bladder neoplasm", "infiltrating bladder urothelial carcinoma", "non-invasive bladder urothelial carcinoma", "bladder urachal urothelial carcinoma", "bladder squamous papilloma", "bladder signet ring cell adenocarcinoma", "bladder colonic type adenocarcinoma", "bladder mixed adenocarcinoma", "bladder colloid adenocarcinoma"]
@@ -77,9 +77,13 @@ TxGNN（深度學習）模型對膀胱癌相關的多個詞條（如浸潤性、
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-37527 | VERMIFLU TAB 500MG | 未載明（品名為錠劑） | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-37527 | VERMIFLU TAB 500MG | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

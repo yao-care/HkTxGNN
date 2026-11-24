@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 282
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Diosmin：預測新適應症為閉經 (Amenorrhea)（證據等級 L5）。原適應症：目前許可證資料未載明核准適應症"
 monitor_inn: "DIOSMIN"
 predicted_indications: ["amenorrhea (disease)"]
@@ -84,13 +84,19 @@ ChEMBL（EMBL-EBI）收錄的 Diosmin 作用機轉（非官方翻譯）：「不
 
 本藥目前共有 18 張有效的單方許可證，以下列出 5 張主要許可證（資料中未提供劑型與核准適應症）：
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-33940 | DAFLON TAB 500MG | SERVIER HONG KONG LIMITED |
-| HK-67813 | DAFLON TABLETS 1000MG | SERVIER HONG KONG LIMITED |
-| HK-52603 | DIOSMIN TAB 450MG | DELTAPHARM LIMITED |
-| HK-68056 | AVENOR TABLETS 500MG | SB PHARMA LIMITED |
-| HK-64177 | FEMAVEN TABLETS 500MG | HIND WING CO LTD |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-33940 | DAFLON TAB 500MG | 複方 | SERVIER HONG KONG LIMITED | 有效 |
+| HK-67813 | DAFLON TABLETS 1000MG | 複方 | SERVIER HONG KONG LIMITED | 有效 |
+| HK-52603 | DIOSMIN TAB 450MG | 單一成分 | DELTAPHARM LIMITED | 有效 |
+| HK-68056 | AVENOR TABLETS 500MG | 複方 | SB PHARMA LIMITED | 有效 |
+| HK-64177 | FEMAVEN TABLETS 500MG | 複方 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 18 張）。
+
+<!-- licenses:end -->
 
 ---
 

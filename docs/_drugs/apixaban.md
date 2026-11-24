@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 67
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Apixaban"
 predicted_indications: ["migraine disorder"]
 description: "Apixaban：預測新適應症為偏頭痛 (migraine disorder)（證據等級 L5）。香港藥劑製品註冊：12 張（有效 12 張）"
@@ -77,13 +77,19 @@ TxGNN 模型預測它可能對**偏頭痛 (migraine disorder)** 有效，但目�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61377 | ELIQUIS TAB 2.5MG（Pfizer） | 未提供 | 未提供 |
-| HK-62094 | ELIQUIS TAB 5MG（Pfizer） | 未提供 | 未提供 |
-| HK-67692 | APIXABAN SANDOZ TABLETS 2.5MG | 未提供 | 未提供 |
-| HK-67693 | APIXABAN SANDOZ TABLETS 5MG | 未提供 | 未提供 |
-| HK-68762 | APIXABAN TEVA TABLETS 2.5MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61377 | ELIQUIS TAB 2.5MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-62094 | ELIQUIS TAB 5MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-67692 | APIXABAN SANDOZ TABLETS 2.5MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-67693 | APIXABAN SANDOZ TABLETS 5MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-68762 | APIXABAN TEVA TABLETS 2.5MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+
+上表列出其中 5 張（共 12 張）。
+
+<!-- licenses:end -->
 
 本藥在香港共有 12 張有效許可證，均為單一成分製劑，此處僅列出 5 張。
 

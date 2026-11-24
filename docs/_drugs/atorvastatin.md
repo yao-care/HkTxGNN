@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "ATORVASTATIN"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atorvastatin：預測新適應症為HIV 感染 (HIV infectious disease)（證據等級 L2）。香港藥劑製品註冊：94 張（有效 93 張）"
 ---
 
@@ -102,13 +102,19 @@ Atorvastatin 是 statin 類降血脂藥。TxGNN 模型預測它可能對 **HIV �
 
 <!-- review:end hk-lic-20261117-atorvastatin-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-57246 | LIPIGET TAB 20MG | — | 資料中未記載 |
-| HK-66318 | ATORVASTATIN TABLETS 20MG | — | 資料中未記載 |
-| HK-60719 | ATOTY FC TAB 10MG | — | 資料中未記載 |
-| HK-67373 | CHLOVAS-20 TABLETS 20MG | — | 資料中未記載 |
-| HK-42330 | LIPITOR TAB 40MG | — | 資料中未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-57246 | LIPIGET TAB 20MG | 單一成分 | CHARIOT PHARMA LIMITED | 有效 |
+| HK-66318 | ATORVASTATIN TABLETS 20MG | 單一成分 | CONTROLLED MEDICATIONS LIMITED | 有效 |
+| HK-60719 | ATOTY FC TAB 10MG | 單一成分 | KAI YUEN PHARMACEUTICAL CO | 有效 |
+| HK-67373 | CHLOVAS-20 TABLETS 20MG | 單一成分 | MEDILINE (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-42330 | LIPITOR TAB 40MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 94 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

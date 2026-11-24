@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CARBETOCIN"
 predicted_indications: ["isotretinoin-like syndrome", "Goodman syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carbetocin：預測新適應症為類異維A酸症候群 (isotretinoin-like syndrome)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
@@ -71,9 +71,13 @@ ChEMBL（EMBL-EBI）收錄的 Carbetocin 作用機轉（非官方翻譯）：「
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-50670 | DURATOCIN INJ 100MCG/ML | 注射劑 | 本地資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-50670 | DURATOCIN INJ 100MCG/ML | 單一成分 | FERRING PHARMACEUTICALS LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

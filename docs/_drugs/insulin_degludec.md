@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "INSULIN DEGLUDEC"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Degludec：預測新適應症為自體免疫性卵巢炎 (Autoimmune Oophoritis)（證據等級 L5）。原適應症：知識圖譜記錄：糖尿病、糖尿病酮酸中毒"
 ---
 
@@ -71,13 +71,19 @@ TxGNN 模型預測它可能對**自體免疫性卵巢炎 (Autoimmune Oophoritis)
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62700 | TRESIBA FLEXTOUCH 預填式注射筆 100U/ML | 注射劑 | 資料未提供 |
-| HK-67541 | TRESIBA FLEXTOUCH 預填式注射筆 100U/ML | 注射劑 | 資料未提供 |
-| HK-62699 | TRESIBA FLEXTOUCH 預填式注射筆 200U/ML | 注射劑 | 資料未提供 |
-| HK-68120 | XULTOPHY 預填式注射筆 100 單位/ML + 3.6MG/ML | 注射劑 | 資料未提供 |
-| HK-67704 | RYZODEG FLEXTOUCH 預填式注射筆 100U/ML 70/30 | 注射劑 | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62700 | TRESIBA FLEXTOUCH SOLUTION FOR INJECTION IN PRE-FILLED PEN 100U/ML | 單一成分 | NOVO NORDISK HONG KONG LIMITED | 有效 |
+| HK-67541 | TRESIBA FLEXTOUCH SOLUTION FOR INJECTION IN PRE-FILLED PEN 100U/ML | 單一成分 | NOVO NORDISK HONG KONG LIMITED | 有效 |
+| HK-62699 | TRESIBA FLEXTOUCH SOLUTION FOR INJECTION IN PRE-FILLED PEN 200U/ML | 單一成分 | NOVO NORDISK HONG KONG LIMITED | 有效 |
+| HK-68120 | XULTOPHY SOLUTION FOR INJECTION IN PRE-FILLED PEN 100 UNITS/ML + 3.6MG/ML | 複方 | NOVO NORDISK HONG KONG LIMITED | 有效 |
+| HK-67704 | RYZODEG FLEXTOUCH SOLUTION FOR INJECTION IN PRE-FILLED PEN 100U/ML 70/30 | 複方 | NOVO NORDISK HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 許可證共 9 張，以上僅列出 5 張主要許可證，持有人均為 Novo Nordisk Hong Kong Limited。
 

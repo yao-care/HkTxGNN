@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vildagliptin：預測新適應症為局部僵硬肢症候群 (Focal Stiff Limb Syndrome)（證據等級 L5）。原適應症：第 2 型糖尿病"
 ---
 
@@ -80,13 +80,19 @@ ChEMBL（EMBL-EBI）收錄的 Vildagliptin 作用機轉（非官方翻譯）：�
 
 <!-- review:end hk-lic-20261117-vildagliptin-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-57309 | GALVUS TAB 50MG | 未載明 | 未載明 |
-| HK-63165 | GALVUS TABLET 50MG | 未載明 | 未載明 |
-| HK-68953 | VILDAGLIPTIN TABLETS 50MG | 未載明 | 未載明 |
-| HK-68157 | VILDAGLIPTINA PENTAFARMA CAPSULES 50MG | 未載明 | 未載明 |
-| HK-68118 | VILDAGUS TABLETS 50MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-57309 | GALVUS TAB 50MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-63165 | GALVUS TABLET 50MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-68953 | VILDAGLIPTIN TABLETS 50MG | 單一成分 | CHEMILL PHARMA LIMITED | 有效 |
+| HK-68157 | VILDAGLIPTINA PENTAFARMA CAPSULES 50MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-68118 | VILDAGUS TABLETS 50MG | 單一成分 | APT PHARMA LIMITED | 有效 |
+
+上表列出其中 5 張（共 20 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

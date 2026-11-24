@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Latanoprost：預測新適應症為內臟鈣化防禦症 (Visceral Calciphylaxis)（證據等級 L5）。原適應症：開角型青光眼、高眼壓症"
 ---
 
@@ -79,13 +79,19 @@ TxGNN 模型預測它可能對**內臟鈣化防禦症 (Visceral Calciphylaxis)**
 
 <!-- review:end hk-lic-20261117-latanoprost-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-42158 | XALATAN EYE DROPS 50UG/ML | 眼用滴劑 | 資料未提供 |
-| HK-64160 | XALAPRO EYE DROPS 0.005% W/V | 眼用滴劑 | 資料未提供 |
-| HK-61876 | LATANOPROST OPHTHALMIC SOLUTION 0.005% W/V (BAUSCH & LOMB) | 眼用溶液 | 資料未提供 |
-| HK-65985 | MONOPOST EYE DROPS 50MCG/ML | 眼用滴劑 | 資料未提供 |
-| HK-68041 | LATANOPROST I&C PRESERVATIVE FREE EYE DROPS SOLUTION 50MCG/ML | 眼用滴劑（無防腐劑） | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-42158 | XALATAN EYE DROPS 50UG/ML | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-64160 | XALAPRO EYE DROPS 0.005% W/V | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 已註銷 |
+| HK-61876 | LATANOPROST OPHTHALMIC SOLUTION 0.005% W/V (BAUSCH & LOMB) | 單一成分 | BAUSCH & LOMB (HK) LTD | 有效 |
+| HK-65985 | MONOPOST EYE DROPS 50MCG/ML | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-68041 | LATANOPROST I&C PRESERVATIVE FREE EYE DROPS SOLUTION 50MCG/ML | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+
+上表列出其中 5 張（共 21 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

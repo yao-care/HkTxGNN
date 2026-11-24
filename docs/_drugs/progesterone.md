@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 6
 monitor_inn: "PROGESTERONE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Progesterone：預測新適應症為乳房纖維囊腫病 (breast fibrocystic disease)（證據等級 L4）。香港藥劑製品註冊：10 張（有效 10 張）"
 ---
 
@@ -84,13 +84,19 @@ TxGNN 模型預測它可能對**乳房纖維囊腫病 (breast fibrocystic diseas
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-44527 | CRINONE VAGINAL GEL 8% | 陰道凝膠 | 未提供 |
-| HK-34022 | PROGESTOGEL GEL 1% | 凝膠 | 未提供 |
-| HK-64210 | LUTINUS VAGINAL TABLETS 100MG | 陰道錠 | 未提供 |
-| HK-61091 | UTROGESTAN VAGINAL CAP 200MG | 陰道膠囊 | 未提供 |
-| HK-51916 | ENDOMETRIN VAGINAL TAB 100MG | 陰道錠 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-44527 | CRINONE VAGINAL GEL 8% | 單一成分 | MERCK PHARMACEUTICAL (HK) LIMITED | 有效 |
+| HK-34022 | PROGESTOGEL GEL 1% | 單一成分 | BESINS HEALTHCARE CHINA INVESTMENTS LIMITED | 有效 |
+| HK-64210 | LUTINUS VAGINAL TABLETS 100MG | 單一成分 | FERRING PHARMACEUTICALS LTD | 有效 |
+| HK-61091 | UTROGESTAN VAGINAL CAP 200MG | 單一成分 | BESINS HEALTHCARE CHINA INVESTMENTS LIMITED | 有效 |
+| HK-51916 | ENDOMETRIN VAGINAL TAB 100MG | 單一成分 | FERRING PHARMACEUTICALS LTD | 有效 |
+
+上表列出其中 5 張（共 10 張）。
+
+<!-- licenses:end -->
 
 目前香港共有 10 張有效的單一成分許可證，上列為其中 5 張。
 

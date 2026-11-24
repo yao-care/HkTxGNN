@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 794
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sacituzumab Govitecan：預測新適應症為藥物引起的骨質疏鬆症 (Drug-induced Osteoporosis)（證據等級 L5）。原適應症：香港許可證未載明核准適應症"
 monitor_inn: "Sacituzumab govitecan"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract"]
@@ -81,9 +81,13 @@ TxGNN 模型預測它可能對**藥物引起的骨質疏鬆症 (Drug-induced Ost
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67599 | TRODELVY POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 180MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67599 | TRODELVY POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 180MG | 單一成分 | GILEAD SCIENCES HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 製造商：Gilead Sciences Hong Kong Limited（單方，有效）。
 

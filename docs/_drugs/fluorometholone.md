@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "FLUOROMETHOLONE"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluorometholone：預測新適應症為感染後血管炎 (Postinfectious Vasculitis)（證據等級 L5）。原適應症：知識圖譜中記錄的關聯：葡萄膜炎、虹彩炎、睫狀體疾病、全葡萄膜炎、異位性／乳突性／春季結膜炎、角膜潰瘍等"
 ---
 
@@ -69,13 +69,19 @@ TxGNN 模型預測它可能對**感染後血管炎 (Postinfectious Vasculitis)**
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-34273 | FLUMETHOLON EYE DROPS 0.1% | 未提供 | 未提供 |
-| HK-34274 | FLUMETHOLON EYE DROPS 0.02% | 未提供 | 未提供 |
-| HK-54720 | TOLON EYE DROPS 0.1% | 未提供 | 未提供 |
-| HK-64966 | FULUSON OPHTHALMIC SOLUTION 0.1% W/V | 未提供 | 未提供 |
-| HK-19538 | FML LIQUIFILM OPHTHALMIC SUSP 0.1% | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-34273 | FLUMETHOLON EYE DROPS 0.1% | 單一成分 | SANTEN PHARMACEUTICAL (HONG KONG) LIMITED | 有效 |
+| HK-34274 | FLUMETHOLON EYE DROPS 0.02% | 單一成分 | SANTEN PHARMACEUTICAL (HONG KONG) LIMITED | 有效 |
+| HK-54720 | TOLON EYE DROPS 0.1% | 單一成分 | LAFARGE CO., LIMITED | 有效 |
+| HK-64966 | FULUSON OPHTHALMIC SOLUTION 0.1% W/V | 單一成分 | LSB (HK) LIMITED | 有效 |
+| HK-19538 | FML LIQUIFILM OPHTHALMIC SUSP 0.1% | 單一成分 | ALLERGAN HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 另有 HK-45275（FLAREX OPHTHALMIC SUSP 0.1%）。6 張許可證皆為單一成分，其中 5 張有效、HK-45275 已註銷。
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "fluphenazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "syndromic myopia", "myopia X-linked", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
 description: "Fluphenazine：預測新適應症為視網膜失養症，伴或不伴眼外異常 (retinal dystrophy with or without extraocular anomalies)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
@@ -85,10 +85,14 @@ TxGNN 模型預測它可能對**視網膜失養症（伴或不伴眼外異常）
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68179 | FLUPHENAZINE SM SOLUTION FOR INJECTION 25MG/1ML | 注射液 | 資料未載明 |
-| HK-64620 | FLUPHENAZIN-NEURAXPHARM D SOLUTION FOR INJECTION 25MG/ML | 注射液 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68179 | FLUPHENAZINE SM SOLUTION FOR INJECTION 25MG/1ML | 單一成分 | ARGUTA PHARMACEUTICALS HK LIMITED | 有效 |
+| HK-64620 | FLUPHENAZIN-NEURAXPHARM D SOLUTION FOR INJECTION 25MG/ML | 單一成分 | HIND WING CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

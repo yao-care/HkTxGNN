@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 510
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lapatinib：預測新適應症為隆突性皮膚纖維肉瘤 (Dermatofibrosarcoma Protuberans)（證據等級 L5）。原適應症：HER2 陽性乳癌 (HER2 positive breast carcinoma)"
 monitor_inn: "LAPATINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
@@ -81,11 +81,17 @@ TxGNN 模型預測它可能對**隆突性皮膚纖維肉瘤 (Dermatofibrosarcoma
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66822 | LAPATINIB TABLETS 250MG | 錠劑（依品名） | 資料未提供 |
-| HK-67443 | TYKERB TABLETS 250MG | 錠劑（依品名） | 資料未提供 |
-| HK-56194 | TYKERB TAB 250MG | 錠劑（依品名） | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66822 | LAPATINIB TABLETS 250MG | 單一成分 | CHEMILL PHARMA LIMITED | 有效 |
+| HK-67443 | TYKERB TABLETS 250MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-56194 | TYKERB TAB 250MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+
+上表列出其中 3 張（共 4 張）。
+
+<!-- licenses:end -->
 
 ---
 

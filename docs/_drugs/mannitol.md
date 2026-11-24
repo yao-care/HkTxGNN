@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "MANNITOL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mannitol：預測新適應症為腎因性抗利尿不適當症候群 (NSIAD)（證據等級 L5）。原適應症：知識圖譜記錄的相關用途：充血性心衰竭、腦水腫、眼壓過高、假性腦瘤、顱內高壓、囊性纖維化"
 ---
 
@@ -82,11 +82,15 @@ NSIAD 是 V2 受體功能增強所造成的水分滯留與低血鈉。然而甘�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-21527 | OSMITROL (MANNITOL) INJ 20% "VIAFLEX" | 未提供 | 未提供 |
-| HK-28237 | OSMOFUNDIN IV INFUSION 20% | 未提供 | 未提供 |
-| HK-43086 | NEUROLITE FOR INJ WITH BUFFER VIAL | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-21527 | OSMITROL (MANNITOL) INJ 20% "VIAFLEX" | 單一成分 | BAXTER HEALTHCARE LIMITED | 有效 |
+| HK-28237 | OSMOFUNDIN IV INFUSION 20% | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-43086 | NEUROLITE FOR INJ WITH BUFFER VIAL | 複方 | GLOBAL MEDICAL SOLUTIONS HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "SERINE"
 predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "unclassified intestinal pseudoobstruction", "myopathic intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Serine：預測新適應症為家族性內臟肌病變（證據等級 L5）。原適應症：知識圖譜記錄：開角型青光眼、肺結核"
 ---
 
@@ -88,13 +88,19 @@ TxGNN 模型預測它可能對**家族性內臟肌病變 (Familial Visceral Myop
 
 <!-- review:end hk-lic-20261117-serine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-58387 | AMINOLEBAN 8% AMINO ACID INJ | 未載明 | 未載明 |
-| HK-46283 | AMINOLEBAN INJ | 未載明 | 未載明 |
-| HK-67075 | AMINOVEN INFANT SOLUTION FOR INFUSION 10% W/V | 未載明 | 未載明 |
-| HK-36470 | VAMINOLACT I.V. SOLUTION | 未載明 | 未載明 |
-| HK-32746 | AMINOPLASMAL HEPA-10% INJ | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-58387 | AMINOLEBAN 8% AMINO ACID INJ | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+| HK-46283 | AMINOLEBAN INJ | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+| HK-67075 | AMINOVEN INFANT SOLUTION FOR INFUSION 10% W/V | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-36470 | VAMINOLACT I.V. SOLUTION | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-32746 | AMINOPLASMAL HEPA-10% INJ | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+
+上表列出其中 5 張（共 26 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

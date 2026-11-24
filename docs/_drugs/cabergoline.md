@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CABERGOLINE"
 predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cabergoline：預測新適應症為早老症-身材矮小-色素痣症候群 (progeria-short stature-pigmented nevi syndrome)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
@@ -71,6 +71,15 @@ TxGNN 模型預測它可能對**早老症-身材矮小-色素痣症候群 (proge
 目前無相關文獻。
 
 ## 香港上市資訊
+
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-41290 | DOSTINEX TAB 0.5MG | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-67878 | CABENEX TABLETS 0.5MG | 單一成分 | SB PHARMA LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 Cabergoline 在香港目前為上市狀態，現有許可證均為有效的單一成分製劑。
 

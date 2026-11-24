@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 291
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Domperidone：預測新適應症為腎因性抗利尿不適當症候群 (NSIAD)（證據等級 L5）。原適應症：香港許可證未載明核准適應症文字"
 monitor_inn: "DOMPERIDONE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -90,13 +90,19 @@ NSIAD 是由血管加壓素 V2 受體 (AVPR2) 的功能獲得性突變所致，�
 
 <!-- review:end hk-lic-20261117-domperidone-1 -->
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-58627 | APO-DOMPERIDONE TAB 10MG | HIND WING CO LTD |
-| HK-64541 | DOSIN TABLETS 10MG | TOP HARVEST PHARMACEUTICALS COMPANY LIMITED |
-| HK-48289 | NIDOLIUM TAB 10MG | SUNTOL MEDICAL LIMITED |
-| HK-44630 | DOMPEON TAB 10MG | NEOCHEM PHARMACEUTICAL LABORATORIES LTD. |
-| HK-50698 | VICKTILIN SYRUP 5MG/5ML | VICKMANS LABORATORIES LTD |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-58627 | APO-DOMPERIDONE TAB 10MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-64541 | DOSIN TABLETS 10MG | 單一成分 | TOP HARVEST PHARMACEUTICALS COMPANY LIMITED | 有效 |
+| HK-48289 | NIDOLIUM TAB 10MG | 單一成分 | SUNTOL MEDICAL LIMITED | 有效 |
+| HK-44630 | DOMPEON TAB 10MG | 單一成分 | NEOCHEM PHARMACEUTICAL LABORATORIES LTD. | 有效 |
+| HK-50698 | VICKTILIN SYRUP 5MG/5ML | 單一成分 | VICKMANS LABORATORIES LTD | 有效 |
+
+上表列出其中 5 張（共 41 張）。
+
+<!-- licenses:end -->
 
 ---
 

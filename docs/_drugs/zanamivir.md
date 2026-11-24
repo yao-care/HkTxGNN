@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 948
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Zanamivir：預測新適應症為腎盂腎炎 (Pyelonephritis)（證據等級 L5）。原適應症：流行性感冒 (Influenza)"
 monitor_inn: "ZANAMIVIR"
 predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
@@ -81,9 +81,13 @@ TxGNN 模型預測它可能對**腎盂腎炎 (Pyelonephritis)** 有效，但目�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-45843 | RELENZA POWDER FOR ORAL INHALATION 5MG | 吸入粉劑（依品名） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-45843 | RELENZA POWDER FOR ORAL INHALATION 5MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

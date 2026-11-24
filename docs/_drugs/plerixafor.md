@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Plerixafor：預測新適應症為CMM7（證據等級 L5）。原適應症：香港許可證文字未載明適應症"
 ---
 
@@ -70,10 +70,14 @@ TxGNN 模型預測排名第一的新適應症是 **CMM7**，預測分數很高�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-60176 | MOZOBIL INJ 20MG/ML | SANOFI HONG KONG LIMITED |
-| HK-67839 | PLERIXAFOR SOLUTION FOR INJECTION 24MG/1.2ML | SINO PACIFIC PHARMA COMPANY LIMITED |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-60176 | MOZOBIL INJ 20MG/ML | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-67839 | PLERIXAFOR SOLUTION FOR INJECTION 24MG/1.2ML | 單一成分 | SINO PACIFIC PHARMA COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證皆為有效狀態，但本報告所用資料未收錄劑型與核准適應症文字。
 

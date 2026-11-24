@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 655
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Ozanimod: known uses and market status in Hong Kong; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,10 +72,14 @@ TxGNN 模型針對 Ozanimod 產生的候選適應症，經追溯來源後全部�
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-67126 | ZEPOSIA CAPSULES 0.23MG AND 0.46MG (TREATMENT INITIATION PAC |  | 有效 |
-| HK-67127 | ZEPOSIA CAPSULES 0.92MG |  | 有效 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67126 | ZEPOSIA CAPSULES 0.23MG AND 0.46MG (TREATMENT INITIATION PACK) | 單一成分 | BRISTOL-MYERS SQUIBB PHARMA (HK) LTD | 有效 |
+| HK-67127 | ZEPOSIA CAPSULES 0.92MG | 單一成分 | BRISTOL-MYERS SQUIBB PHARMA (HK) LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

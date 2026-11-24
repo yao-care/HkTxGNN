@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 922
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Valine：預測新適應症為硬化性膽管炎 (Sclerosing Cholangitis)（證據等級 L4）。原適應症：目前許可證資料未載明核准適應症"
 monitor_inn: "Valine"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
@@ -84,13 +84,19 @@ TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62890 | LIVACT GRANULES | 未載明 | 未載明 |
-| HK-57540 | AMINOL-S INJ | 未載明 | 未載明 |
-| HK-62100 | AMINOGEN-S SOLUTION FOR INFUSION | 未載明 | 未載明 |
-| HK-60459 | PAN-VASOL SOLUTION FOR INJECTION | 未載明 | 未載明 |
-| HK-58914 | PAN-AMIN G INJ | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62890 | LIVACT GRANULES | 複方 | EISAI (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-57540 | AMINOL-S INJ | 複方 | WINGS PHARMACEUTICAL LTD | 有效 |
+| HK-62100 | AMINOGEN-S SOLUTION FOR INFUSION | 複方 | WINGS PHARMACEUTICAL LTD | 有效 |
+| HK-60459 | PAN-VASOL SOLUTION FOR INJECTION | 複方 | FALKAN MEDICAL LIMITED | 有效 |
+| HK-58914 | PAN-AMIN G INJ | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+
+上表列出其中 5 張（共 39 張）。
+
+<!-- licenses:end -->
 
 以上僅列出 5 張主要許可證，香港共有 39 張含本藥成分的許可證（全部有效；皆為複方）。
 

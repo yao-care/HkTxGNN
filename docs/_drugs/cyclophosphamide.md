@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 234
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CYCLOPHOSPHAMIDE"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
 description: "Cyclophosphamide：預測新適應症為Vertebral anomalies and variable endocrine and T-cell dysfunction（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"
@@ -83,12 +83,18 @@ TxGNN 模型預測它可能對**後腹腔腫瘤 (retroperitoneal neoplasm)** 有
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-51711 | ENDOXAN TAB 50MG | — | — |
-| HK-51308 | ENDOXAN FOR INJ 1G | — | — |
-| HK-01327 | ENDOXAN 200 MG INJ | — | — |
-| HK-50943 | CYCRAM FOR INJ 1G | — | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-51711 | ENDOXAN TAB 50MG | 單一成分 | BAXTER HEALTHCARE LIMITED | 有效 |
+| HK-51308 | ENDOXAN FOR INJ 1G | 單一成分 | BAXTER HEALTHCARE LIMITED | 有效 |
+| HK-01327 | ENDOXAN 200 MG INJ | 單一成分 | BAXTER HEALTHCARE LIMITED | 有效 |
+| HK-50943 | CYCRAM FOR INJ 1G | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+
+上表列出其中 4 張（共 5 張）。
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

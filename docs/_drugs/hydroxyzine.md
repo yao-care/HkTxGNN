@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Hydroxyzine：預測新適應症為Rosacea conjunctivitis（證據等級 L5）。香港藥劑製品註冊：11 張（有效 11 張）"
@@ -81,13 +81,19 @@ Hydroxyzine 是第一代 H1 受體拮抗劑，原本用於異位性皮膚炎、�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-48205 | POLIZINE TAB 10MG | 錠劑 | 未載明 |
-| HK-58686 | ALLERAX-FC TAB 10MG | 錠劑 | 未載明 |
-| HK-48897 | HYDROXYZINE TAB 25MG | 錠劑 | 未載明 |
-| HK-43483 | APO-HYDROXYZINE CAP 25MG | 膠囊 | 未載明 |
-| HK-49038 | HYDROXYZINE TAB 10MG | 錠劑 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-48205 | POLIZINE TAB 10MG | 單一成分 | NATURAL HEALTH RESOURCES COMPANY LIMITED | 有效 |
+| HK-58686 | ALLERAX-FC TAB 10MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-48897 | HYDROXYZINE TAB 25MG | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-43483 | APO-HYDROXYZINE CAP 25MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-49038 | HYDROXYZINE TAB 10MG | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+
+上表列出其中 5 張（共 11 張）。
+
+<!-- licenses:end -->
 
 以上為 11 張有效許可證中的 5 張，均為單方製劑，無已註銷者。
 

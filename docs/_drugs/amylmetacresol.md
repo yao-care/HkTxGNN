@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 60
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Amylmetacresol：預測新適應症為馬尾症候群 (Cauda Equina Syndrome)（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症（產品皆為喉嚨含片）"
 monitor_inn: "AMYLMETACRESOL"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "ciliary body disease", "panuveitis (disease)", "iris disease", "infectious anterior uveitis", "uveitis", "ciliary body cancer", "benign neoplasm of ciliary body"]
@@ -80,13 +80,19 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 
 <!-- review:end hk-lic-20261117-amylmetacresol-1 -->
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-67542 | DIFFLAM ANTISEPTIC LOZENGES BLACKCURRANT FLAVOUR | INOVA PHARMACEUTICALS (HONG KONG) |
-| HK-54273 | THROATSIL LOZENGE - HONEY & LEMON | DELTAPHARM |
-| HK-19288 | STREPSILS + HONEY & LEMON ANTISEPTIC LOZ | RECKITT BENCKISER HONG KONG |
-| HK-67433 | BETACARE SORE THROAT ORANGE LOZENGES 0.6MG/1.2MG | INOVA PHARMACEUTICALS (HONG KONG) |
-| HK-46071 | COLDANGIN LOZENGES | FORTUNE NATIONAL (HONG KONG) |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67542 | DIFFLAM ANTISEPTIC LOZENGES BLACKCURRANT FLAVOUR | 複方 | INOVA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-54273 | THROATSIL LOZENGE - HONEY & LEMON | 複方 | DELTAPHARM LIMITED | 有效 |
+| HK-19288 | STREPSILS + HONEY & LEMON ANTISEPTIC LOZ | 複方 | RECKITT BENCKISER HONG KONG LTD | 有效 |
+| HK-67433 | BETACARE SORE THROAT ORANGE LOZENGES 0.6MG/1.2MG | 複方 | INOVA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-46071 | COLDANGIN LOZENGES | 複方 | FORTUNE NATIONAL (HONG KONG) LIMITED | 有效 |
+
+上表列出其中 5 張（共 23 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

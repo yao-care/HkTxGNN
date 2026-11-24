@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CALCITRIOL"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Calcitriol：預測新適應症為已淘汰的維生素 D 缺乏症 (obsolete vitamin D deficiency)（證據等級 L5）。香港藥劑製品註冊：8 張（有效 8 張）"
 ---
 
@@ -71,13 +71,19 @@ TxGNN 模型預測它可能對**已淘汰的維生素 D 缺乏症 (obsolete vita
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65345 | OSTOVEL CAPSULES 0.25MCG | 未記載 | 未記載 |
-| HK-57635 | CALCITRIOL-DP 0.25MCG CAP | 未記載 | 未記載 |
-| HK-52239 | OSTEODIOL CAP 0.25MCG | 未記載 | 未記載 |
-| HK-52238 | OSTEODIOL CAP 0.5MCG | 未記載 | 未記載 |
-| HK-05357 | ROCALTROL CAP 0.25UG | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65345 | OSTOVEL CAPSULES 0.25MCG | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-57635 | CALCITRIOL-DP 0.25MCG CAP | 單一成分 | UNITED ITALIAN CORP (HK) LTD | 有效 |
+| HK-52239 | OSTEODIOL CAP 0.25MCG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-52238 | OSTEODIOL CAP 0.5MCG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-05357 | ROCALTROL CAP 0.25UG | 單一成分 | PRUDENTLINK LIMITED | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

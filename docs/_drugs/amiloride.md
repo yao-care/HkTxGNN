@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Amiloride"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amiloride：預測新適應症為惡性高血壓性腎病 (malignant hypertensive renal disease)（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"
 ---
 
@@ -70,13 +70,17 @@ TxGNN 模型預測它可能對**惡性高血壓性腎病 (malignant hypertensive
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-25543 | AMILORIDE TAB 5MG | 未記載 | 未記載 |
-| HK-25544 | AMITHIAZIDE TAB | 未記載 | 未記載 |
-| HK-42186 | APO-AMILZIDE TAB 50/5MG | 未記載 | 未記載 |
-| HK-50535 | POLI-URETIC TAB | 未記載 | 未記載 |
-| HK-58537 | BILDURETIC TAB | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-25543 | AMILORIDE TAB 5MG | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-25544 | AMITHIAZIDE TAB | 複方 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-42186 | APO-AMILZIDE TAB 50/5MG | 複方 | HIND WING CO LTD | 有效 |
+| HK-50535 | POLI-URETIC TAB | 複方 | NATURAL HEALTH RESOURCES COMPANY LIMITED | 有效 |
+| HK-58537 | BILDURETIC TAB | 複方 | TRENTON-BOMA LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

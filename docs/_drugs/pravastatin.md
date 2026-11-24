@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 725
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin：預測新適應症為HIV 感染 (HIV infectious disease)，實質為 HIV 相關血脂異常與心血管風險 (HIV infectious disease)（證據等級 L2）。香港藥劑製品註冊：8 張（有效 6 張）"
@@ -110,13 +110,19 @@ HIV 感染者常因蛋白酶抑制劑（PI）等抗反轉錄病毒療法出現�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-60762 | PRAVINAT 20 TAB 20MG | 錠劑 | 未載明 |
-| HK-60761 | PRAVINAT 10 TAB 10MG | 錠劑 | 未載明 |
-| HK-52753 | PMS-PRAVASTATIN TAB 10MG | 錠劑 | 未載明 |
-| HK-52754 | PMS-PRAVASTATIN TAB 20MG | 錠劑 | 未載明 |
-| HK-52735 | APO-PRAVASTATIN TAB 10MG | 錠劑 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-60762 | PRAVINAT 20 TAB 20MG | 單一成分 | NATURAL HEALTH RESOURCES COMPANY LIMITED | 已註銷 |
+| HK-60761 | PRAVINAT 10 TAB 10MG | 單一成分 | NATURAL HEALTH RESOURCES COMPANY LIMITED | 已註銷 |
+| HK-52753 | PMS-PRAVASTATIN TAB 10MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-52754 | PMS-PRAVASTATIN TAB 20MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-52735 | APO-PRAVASTATIN TAB 10MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 另有 3 張有效許可證（HK-52755、HK-49921、HK-67527），均為單一成分製劑，共 8 張。
 

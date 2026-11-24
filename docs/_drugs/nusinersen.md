@@ -5,7 +5,7 @@ layout: default
 title: Nusinersen
 parent: 僅已知用途（無新預測）
 nav_order: 632
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Nusinersen: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Nusinersen"
 predicted_indications: []
@@ -50,9 +50,13 @@ evidence_level: N/A
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65896 | SPINRAZA SOLUTION FOR INJECTION 12MG/5ML | 注射液 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65896 | SPINRAZA SOLUTION FOR INJECTION 12MG/5ML | 單一成分 | ZUELLIG PHARMA LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

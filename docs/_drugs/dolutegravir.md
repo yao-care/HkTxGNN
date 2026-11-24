@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "DOLUTEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dolutegravir：預測新適應症為貓後天免疫缺陷症候群 (Feline Acquired Immunodeficiency Syndrome)（證據等級 L5）。原適應症：知識圖譜中記錄的關聯為 HIV 感染、AIDS"
 ---
 
@@ -76,11 +76,15 @@ TxGNN 模型預測它可能對**貓後天免疫缺陷症候群 (Feline Acquired 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-63516 | TIVICAY TABLETS 50MG | 未載明 | 未載明 |
-| HK-66511 | DOVATO TABLETS | 未載明 | 未載明 |
-| HK-64012 | TRIUMEQ TABLETS | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63516 | TIVICAY TABLETS 50MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-66511 | DOVATO TABLETS | 複方 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-64012 | TRIUMEQ TABLETS | 複方 | GLAXOSMITHKLINE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 以上 3 張許可證皆為有效狀態，持有者為 GLAXOSMITHKLINE LIMITED。
 

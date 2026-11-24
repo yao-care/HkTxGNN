@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 443
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Hyaluronidase"
 predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonproliferative diabetic retinopathy", "renal tubular acidosis", "dermatitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "diabetic cataract", "neonatal dermatomyositis", "non-syndromic esophageal malformation"]
 description: "Hyaluronidase：預測新適應症為Esotropia（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -98,9 +98,13 @@ TxGNN 模型預測它可能對**糖尿病視網膜病變 (Diabetic Retinopathy)*
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-35245 | HYALASE FOR INJ 1500IU | 未載明 | 未載明（製造商：LUEN CHEONG HONG LTD） |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-35245 | HYALASE FOR INJ 1500IU | 單一成分 | LUEN CHEONG HONG LTD | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

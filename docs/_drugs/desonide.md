@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 261
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DESONIDE"
 predicted_indications: ["polyp of vocal cord", "polyp of middle ear", "polyp of external auditory canal", "polyp of frontal sinus", "polyp of ureter", "polyp of vulva", "fibroepithelial polyp", "neoplastic polyp", "epulis", "uterine polyp"]
 description: "Desonide：預測新適應症為聲帶息肉 (polyp of vocal cord)（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"
@@ -81,13 +81,17 @@ TxGNN 模型預測它可能對**聲帶息肉 (Polyp of Vocal Cord)** 有效，�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62833 | EZENIDE LOTION 0.05% W/W | 未載明 | 未載明 |
-| HK-64568 | DESOLEX OINTMENT 0.05%W/W | 未載明 | 未載明 |
-| HK-64567 | DESOLEX CREAM 0.05%W/W | 未載明 | 未載明 |
-| HK-68532 | DESONIDE CREAM 0.05% W/W | 未載明 | 未載明 |
-| HK-38870 | DESOWEN LOTION 0.05% | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62833 | EZENIDE LOTION 0.05% W/W | 單一成分 | TAISHO PHARMACEUTICAL (HK) LTD | 有效 |
+| HK-64568 | DESOLEX OINTMENT 0.05%W/W | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-64567 | DESOLEX CREAM 0.05%W/W | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-68532 | DESONIDE CREAM 0.05% W/W | 單一成分 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+| HK-38870 | DESOWEN LOTION 0.05% | 單一成分 | GALDERMA HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

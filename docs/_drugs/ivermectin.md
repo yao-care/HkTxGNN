@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 494
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ivermectin：預測新適應症為外陰陰道念珠菌病 (Vulvovaginal Candidiasis)（證據等級 L5）。原適應症：類圓線蟲病、盤尾絲蟲症"
 monitor_inn: "Ivermectin"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "candida glabrata", "neonatal candidiasis", "congenital candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
@@ -81,13 +81,19 @@ TxGNN 模型預測它可能對**外陰陰道念珠菌病 (Vulvovaginal Candidias
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-58372 | ALFAMEC INJ 1% (VET) | — | — |
-| HK-64980 | SOOLANTRA CREAM 10MG/G | — | — |
-| HK-47901 | HEARTGARD PLUS CHEW TAB 136MCG/114MG (VET) | — | — |
-| HK-47899 | HEARTGARD-PLUS CHEW TAB 272MCG/227MG (VET) | — | — |
-| HK-47900 | HEARTGARD PLUS CHEW TAB 68MCG/57MG (VET) | — | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-58372 | ALFAMEC INJ 1% (VET) | 單一成分 | ALFAMEDIC LIMITED | 有效 |
+| HK-64980 | SOOLANTRA CREAM 10MG/G | 單一成分 | GALDERMA HONG KONG LIMITED | 有效 |
+| HK-47901 | HEARTGARD PLUS CHEW TAB 136MCG/114MG(VET) | 複方 | BOEHRINGER INGELHEIM ANIMAL HEALTH （HONG KONG） LIMITED | 有效 |
+| HK-47899 | HEARTGARD-PLUS CHEW TAB 272MCG/227MG(VET) | 複方 | BOEHRINGER INGELHEIM ANIMAL HEALTH （HONG KONG） LIMITED | 有效 |
+| HK-47900 | HEARTGARD PLUS CHEW TAB 68MCG/57MG (VET) | 複方 | BOEHRINGER INGELHEIM ANIMAL HEALTH （HONG KONG） LIMITED | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 另有 3 張 TRI-HEART PLUS（獸用）許可證，共 8 張有效單方許可證。多數為獸用產品，其中 SOOLANTRA 為外用乳膏。許可證資料中未載明劑型與核准適應症。
 

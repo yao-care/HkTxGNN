@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 10
 monitor_inn: "Sodium tetradecyl sulfate"
 predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding", "Steel syndrome", "pseudo-von Willebrand disease", "Immunoerythromyeloid hypoplasia", "primary release disorder of platelets", "reticular dysgenesis", "autosomal dominant familial periodic fever", "hypophosphatasia", "lung fibrosis-immunodeficiency-46,XX gonadal dysgenesis syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Sodium Tetradecyl Sulfate：預測新適應症為伴有出血的食道靜脈曲張 (Esophageal varices with bleeding)（證據等級 L3）。原適應症：靜脈曲張"
 ---
 
@@ -83,12 +83,16 @@ TxGNN 模型預測它可能對**伴有出血的食道靜脈曲張 (Esophageal va
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62315 | FIBRO-VEIN SOLUTION FOR INJECTION 0.2% W/V | 注射液 | 資料未載明 |
-| HK-62316 | FIBRO-VEIN SOLUTION FOR INJECTION 0.5% W/V | 注射液 | 資料未載明 |
-| HK-62318 | FIBRO-VEIN SOLUTION FOR INJECTION 1% W/V | 注射液 | 資料未載明 |
-| HK-62317 | FIBRO-VEIN SOLUTION FOR INJECTION 3% W/V | 注射液 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62315 | FIBRO-VEIN SOLUTION FOR INJECTION 0.2% W/V | 單一成分 | SINO-ASIA PHARMACEUTICAL SUPPLIES LTD | 有效 |
+| HK-62316 | FIBRO-VEIN SOLUTION FOR INJECTION 0.5% W/V | 單一成分 | SINO-ASIA PHARMACEUTICAL SUPPLIES LTD | 有效 |
+| HK-62318 | FIBRO-VEIN SOLUTION FOR INJECTION 1% W/V | 單一成分 | SINO-ASIA PHARMACEUTICAL SUPPLIES LTD | 有效 |
+| HK-62317 | FIBRO-VEIN SOLUTION FOR INJECTION 3% W/V | 單一成分 | SINO-ASIA PHARMACEUTICAL SUPPLIES LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

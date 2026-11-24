@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "VITAMIN E"
 predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin metabolism disease", "hereditary North American Indian childhood cirrhosis", "drug-induced liver injury", "microvillus inclusion disease", "hyperbiliverdinemia", "Navajo neurohepatopathy", "nevus of Ito", "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency", "mitochondrial DNA depletion syndrome, hepatocerebral form"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Vitamin E：預測新適應症為先天性膽紅素代謝異常 (inborn disorder of bilirubin metabolism)（證據等級 L5）。原適應症：香港許可證資料未載明適應症文字"
 ---
 
@@ -79,13 +79,19 @@ TxGNN 模型預測它可能對**先天性膽紅素代謝異常 (inborn disorder 
 
 <!-- review:end hk-lic-20261117-vitamin_e-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-01846 | DIFRAREL E TAB | 未載明 | 未載明 |
-| HK-61749 | DUBICHINONE CAPSULES | 未載明 | 未載明 |
-| HK-36206 | VITALIPID N ADULT INJ | 未載明 | 未載明 |
-| HK-36205 | VITALIPID N INFANT INJ | 未載明 | 未載明 |
-| HK-38530 | HI-VITAMINEN 1.6.12 TAB (SATO) | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-01846 | DIFRAREL E TAB | 複方 | BOLLY (HONGKONG) TECHNOLOGY CO., LIMITED | 有效 |
+| HK-61749 | DUBICHINONE CAPSULES | 複方 | INNEX BIO-TECH LIMITED | 有效 |
+| HK-36206 | VITALIPID N ADULT INJ | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-36205 | VITALIPID N INFANT INJ | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+| HK-38530 | HI-VITAMINEN 1.6.12 TAB (SATO) | 複方 | SATO PHARMACEUTICAL (HK) CO LTD | 有效 |
+
+上表列出其中 5 張（共 29 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

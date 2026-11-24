@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Perampanel：預測新適應症為β-酮硫解酶缺乏症（證據等級 L5）。原適應症：局部癲癇、局部運動性癲癇"
 ---
 
@@ -72,13 +72,19 @@ AMPA 受體拮抗作用與這個酵素缺陷之間，目前**沒有已確立的�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62764 | FYCOMPA TABLETS 6MG | 未載明 | 未載明 |
-| HK-62762 | FYCOMPA TABLETS 4MG | 未載明 | 未載明 |
-| HK-62763 | FYCOMPA TABLETS 2MG | 未載明 | 未載明 |
-| HK-62761 | FYCOMPA TABLETS 8MG | 未載明 | 未載明 |
-| HK-67556 | FYCOMPA ORAL SUSPENSION 0.5MG/ML | 未載明（口服懸浮液） | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62764 | FYCOMPA TABLETS 6MG | 單一成分 | EISAI (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-62762 | FYCOMPA TABLETS 4MG | 單一成分 | EISAI (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-62763 | FYCOMPA TABLETS 2MG | 單一成分 | EISAI (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-62761 | FYCOMPA TABLETS 8MG | 單一成分 | EISAI (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-67556 | FYCOMPA ORAL SUSPENSION 0.5MG/ML | 單一成分 | EISAI (HONG KONG) COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 7 張）。
+
+<!-- licenses:end -->
 
 共 7 張單一成分許可證，上表列出其中 5 張，其餘為 FYCOMPA TABLETS 12MG（HK-62759）與 10MG（HK-62760）。
 

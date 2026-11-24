@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CHENODEOXYCHOLIC ACID"
 predicted_indications: ["homozygous familial hypercholesterolemia", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "obsolete familial combined hyperlipidemia", "obsolete hyperuricemia (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Chenodeoxycholic Acid：預測新適應症為同合子家族性高膽固醇血症 (homozygous familial hypercholesterolemia)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
@@ -86,9 +86,13 @@ TxGNN 模型預測它可能對**同合子家族性高膽固醇血症 (homozygous
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-39787 | SULISOU CAP 250MG (KOJAR) | 未記載 | 本地資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-39787 | SULISOU CAP 250MG (KOJAR) | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

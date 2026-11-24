@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 330
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Eptinezumab: 香港已知用途與上市狀態；目前無新的候選適應症"
 predicted_indications: []
 ---
@@ -72,9 +72,13 @@ TxGNN 模型對 Eptinezumab 產生的候選適應症，經追溯來源後全部�
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-67573 | VYEPTI CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/1ML |  | 有效 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67573 | VYEPTI CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/1ML | 單一成分 | Lundbeck HK Limited | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

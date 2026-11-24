@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 711
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Polymyxin B：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L4）。原適應症：許可證資料未載明"
 monitor_inn: "POLYMYXIN B"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
@@ -123,13 +123,19 @@ TxGNN 模型預測分數最高的新適應症為**支氣管炎 (Bronchitis)**，
 
 <!-- review:end hk-lic-20261117-polymyxin_b-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-02068 | TERRAMYCIN OPHTHALMIC OINT | 未提供 | 未提供 |
-| HK-41904 | OTOZAMBON EAR DROPS | 未提供 | 未提供 |
-| HK-53520 | DEXATROL EYE/EAR DROPS | 未提供 | 未提供 |
-| HK-30056 | POLYCIN OINT | 未提供 | 未提供 |
-| HK-52786 | OPSACIN STERILE EYE DROPS | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-02068 | TERRAMYCIN OPHTHALMIC OINT | 複方 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-41904 | OTOZAMBON EAR DROPS | 複方 | ZENFIELDS (H.K.) LIMITED | 有效 |
+| HK-53520 | DEXATROL EYE/EAR DROPS | 複方 | MEDEXROM LTD | 有效 |
+| HK-30056 | POLYCIN OINT | 複方 | EUROPHARM LAB CO LTD | 有效 |
+| HK-52786 | OPSACIN STERILE EYE DROPS | 複方 | ROCO INTERNATIONAL MEDICAL COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 28 張）。
+
+<!-- licenses:end -->
 
 從品名可看出，多數產品為眼用、耳用或外用製劑。
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "PALIVIZUMAB"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Palivizumab：預測新適應症為良性舌部腫瘤（證據等級 L5）。原適應症：呼吸道融合病毒感染"
 ---
 
@@ -71,10 +71,14 @@ ChEMBL（EMBL-EBI）收錄的 Palivizumab 作用機轉（非官方翻譯）：�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64445 | SYNAGIS SOLUTION FOR INJECTION 100MG/1ML | 未載明 | 未載明 |
-| HK-64446 | SYNAGIS SOLUTION FOR INJECTION 50MG/0.5ML | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64445 | SYNAGIS SOLUTION FOR INJECTION 100MG/1ML | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-64446 | SYNAGIS SOLUTION FOR INJECTION 50MG/0.5ML | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證均為單一成分製劑，持有人為 AstraZeneca Hong Kong Limited，狀態皆為有效。
 

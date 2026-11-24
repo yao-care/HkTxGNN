@@ -5,7 +5,7 @@ parent: 高證據等級 (L1-L2)
 nav_order: 649
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "OXALIPLATIN"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 description: "Oxaliplatin：預測新適應症為惡性胸膜間皮瘤 (malignant pleural mesothelioma)（證據等級 L2）。香港藥劑製品註冊：18 張（有效 18 張）"
@@ -99,13 +99,19 @@ TxGNN 模型預測它可能對**惡性胸膜間皮瘤 (Malignant Pleural Mesothe
 
 香港共有 18 張有效的單方許可證（均為注射濃縮液），主要如下。資料中未提供劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55336 | ELOXATIN CONCENTRATE FOR SOLUTION FOR INFUSION 5MG/ML（Sanofi） | 輸注用濃縮液 | 未載明 |
-| HK-63464 | OXALIPLATIN HOSPIRA 50MG/10ML（Pfizer） | 輸注用濃縮液 | 未載明 |
-| HK-62512 | OXALIPLATIN SANDOZ 100MG/20ML | 輸注用濃縮液 | 未載明 |
-| HK-57283 | OXALIPLATIN-TEVA 5MG/ML | 輸注用濃縮液 | 未載明 |
-| HK-59547 | OXITAN INJ 5MG/ML（Fresenius Kabi） | 注射劑 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55336 | ELOXATIN CONCENTRATE FOR SOLUTION FOR INFUSION 5MG/ML | 單一成分 | SANOFI HONG KONG LIMITED | 有效 |
+| HK-63464 | OXALIPLATIN HOSPIRA CONCENTRATE FOR SOLUTION FOR INFUSION 50MG/10ML | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-62512 | OXALIPLATIN SANDOZ CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/20ML | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-57283 | OXALIPLATIN-TEVA CONC FOR SOLN FOR INFUSION 5MG/ML | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-59547 | OXITAN INJ 5MG / ML | 單一成分 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 18 張）。
+
+<!-- licenses:end -->
 
 ---
 

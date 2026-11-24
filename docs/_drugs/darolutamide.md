@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 246
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Darolutamide"
 predicted_indications: ["homozygous familial hypercholesterolemia", "multiple endocrine neoplasia", "HIV infectious disease"]
 description: "Darolutamide：預測新適應症為Homozygous familial hypercholesterolemia（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -88,9 +88,13 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neo
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66877 | NUBEQA TABLETS 300MG（拜耳） | 未登載 | 未登載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66877 | NUBEQA TABLETS 300MG | 單一成分 | BAYER HEALTHCARE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

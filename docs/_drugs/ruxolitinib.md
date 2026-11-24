@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "RUXOLITINIB"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ruxolitinib：預測新適應症為子宮體血管周上皮樣細胞腫瘤（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症"
 ---
 
@@ -71,13 +71,17 @@ TxGNN 模型預測它可能對**子宮體血管周上皮樣細胞腫瘤**有效�
 
 下列許可證的核准適應症與劑型欄位在本報告所彙整的資料中皆未載明。
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-68437 | LUMIRIX CREAM 15MG/G | RXILIENT MEDICAL (HONG KONG) LIMITED |
-| HK-61973 | JAKAVI TAB 5MG | NOVARTIS PHARMACEUTICALS (HK) LIMITED |
-| HK-61972 | JAKAVI TAB 20MG | NOVARTIS PHARMACEUTICALS (HK) LIMITED |
-| HK-61974 | JAKAVI TAB 15MG | NOVARTIS PHARMACEUTICALS (HK) LIMITED |
-| HK-66148 | JAKAVI TABLETS 10MG | NOVARTIS PHARMACEUTICALS (HK) LIMITED |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68437 | LUMIRIX CREAM 15MG/G | 單一成分 | RXILIENT MEDICAL (HONG KONG) LIMITED | 有效 |
+| HK-61973 | JAKAVI TAB 5MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-61972 | JAKAVI TAB 20MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-61974 | JAKAVI TAB 15MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-66148 | JAKAVI TABLETS 10MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

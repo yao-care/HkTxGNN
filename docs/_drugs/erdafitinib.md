@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 331
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Erdafitinib：預測新適應症為肺動脈高壓 (Pulmonary Hypertension)（證據等級 L5）。原適應症：本次整理的資料中未載明"
 monitor_inn: "Erdafitinib"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome"]
@@ -97,11 +97,15 @@ Erdafitinib 是泛 FGFR（FGFR1-4）酪胺酸激酶抑制劑。FGF/FGFR 訊號�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66726 | BALVERSA TABLETS 3MG | 錠劑 | 未載明 |
-| HK-66727 | BALVERSA TABLETS 4MG | 錠劑 | 未載明 |
-| HK-66728 | BALVERSA TABLETS 5MG | 錠劑 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66726 | BALVERSA TABLETS 3MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-66727 | BALVERSA TABLETS 4MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-66728 | BALVERSA TABLETS 5MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證均為單方、有效狀態，持證商為 Johnson & Johnson (Hong Kong) Ltd.。
 

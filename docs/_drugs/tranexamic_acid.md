@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 895
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRANEXAMIC ACID"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Tranexamic Acid：預測新適應症為Amenorrhea (disease)（證據等級 L5）。香港藥劑製品註冊：21 張（有效 21 張）"
@@ -93,13 +93,19 @@ TxGNN 的高分（0.9919）屬於計算模型預測，並沒有直接臨床資�
 
 <!-- review:end hk-lic-20261117-tranexamic_acid-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-22792 | TRANSAMIN TAB 500MG（第一三共） | 錠劑 | 未提供 |
-| HK-00708 | TRANSAMIN CAP 250 MG（第一三共） | 膠囊劑 | 未提供 |
-| HK-00715 | TRANSAMIN INJ 5%（第一三共） | 注射劑 | 未提供 |
-| HK-00704 | TRANSAMIN S INJ 10%（第一三共） | 注射劑 | 未提供 |
-| HK-66670 | TRANSX SOLUTION FOR INJECTION/INFUSION 250MG/5ML | 注射／輸注液 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-22792 | TRANSAMIN TAB 500MG | 單一成分 | DAIICHI SANKYO HONG KONG LIMITED | 有效 |
+| HK-00708 | TRANSAMIN CAP 250 MG | 單一成分 | DAIICHI SANKYO HONG KONG LIMITED | 有效 |
+| HK-00715 | TRANSAMIN INJ 5% | 單一成分 | DAIICHI SANKYO HONG KONG LIMITED | 有效 |
+| HK-00704 | TRANSAMIN S INJ 10% | 單一成分 | DAIICHI SANKYO HONG KONG LIMITED | 有效 |
+| HK-66670 | TRANSX SOLUTION FOR INJECTION/ INFUSION 250MG/5ML | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+
+上表列出其中 5 張（共 21 張）。
+
+<!-- licenses:end -->
 
 ---
 

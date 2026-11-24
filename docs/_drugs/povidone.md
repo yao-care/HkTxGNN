@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 721
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "POVIDONE"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
 description: "Povidone：預測新適應症為先天性魚鱗癬樣紅皮症 (congenital ichthyosiform erythroderma)（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"
@@ -82,13 +82,17 @@ TxGNN 模型預測它可能對**先天性魚鱗癬樣紅皮症 (Congenital Ichth
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-50769 | HANLIM POVIDONE EYE DROPS 20MG/ML | 滴眼液（依品名） | 資料未載明 |
-| HK-33056 | MURINE EYE DROPS NATURAL TEARS FORMULA | 滴眼液（依品名） | 資料未載明 |
-| HK-50536 | SUMINE EYE DROPS | 滴眼液（依品名） | 資料未載明 |
-| HK-33055 | MURINE PLUS EYE DROPS NATURAL TEARS FORM | 滴眼液（依品名） | 資料未載明 |
-| HK-42957 | FRESH TEARS EYE DROPS | 滴眼液（依品名） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-50769 | HANLIM POVIDONE EYE DROPS 20MG/ML | 單一成分 | WELL FAVOURED LTD | 有效 |
+| HK-33056 | MURINE EYE DROPS NATURAL TEARS FORMULA | 複方 | ZUELLIG PHARMA LIMITED | 有效 |
+| HK-50536 | SUMINE EYE DROPS | 複方 | HITPHARM PHARMACEUTICAL CO LTD | 有效 |
+| HK-33055 | MURINE PLUS EYE DROPS NATURAL TEARS FORM | 複方 | ZUELLIG PHARMA LIMITED | 有效 |
+| HK-42957 | FRESH TEARS EYE DROPS | 複方 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 以上 5 張均為有效的單方許可證，皆為眼用製劑。
 

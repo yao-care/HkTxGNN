@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Uracil"
 predicted_indications: ["lipoma of colon", "colonic lymphangioma", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "cavernous hemangioma of colon", "cecal disease", "colon leiomyoma"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Uracil：預測新適應症為Lipoma of colon（證據等級 L5）。香港藥劑製品註冊：2 張（有效 1 張）"
 ---
 
@@ -97,10 +97,14 @@ Uracil（尿嘧啶）在香港有 2 張單一成分許可證，但本報告彙�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-48265 | UNITORAL CAP | 未載明 | 未載明 |
-| HK-60904 | UFUR CAP | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-48265 | UNITORAL CAP | 複方 | HEALTHCARE PHARMASCIENCE LIMITED | 已註銷 |
+| HK-60904 | UFUR CAP | 複方 | HIND WING CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證中 HK-48265（UNITORAL CAP）已註銷、另一張有效，均登記為單一成分產品。本次彙整的資料未包含核准適應症文字，因此無法確認原適應症。
 

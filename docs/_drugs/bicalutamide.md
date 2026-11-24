@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 10
 monitor_inn: "BICALUTAMIDE"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bicalutamide：預測新適應症為多毛症 (hypertrichosis (disease))（證據等級 L4）。香港藥劑製品註冊：11 張（有效 11 張）"
 ---
 
@@ -74,13 +74,19 @@ TxGNN 模型預測它可能對**多毛症 (hypertrichosis (disease))** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68650 | HEXALIS TABLETS 50MG | 未記載 | 未記載 |
-| HK-59232 | BICALOX TAB 50MG | 未記載 | 未記載 |
-| HK-65485 | BICAMIDE TABLETS 50MG | 未記載 | 未記載 |
-| HK-49624 | CASODEX TAB 150MG | 未記載 | 未記載 |
-| HK-57576 | PMS-BICALUTAMIDE TAB 50MG | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68650 | HEXALIS TABLETS 50MG | 單一成分 | LOTUS PHARMACEUTICAL HK LIMITED | 有效 |
+| HK-59232 | BICALOX TAB 50MG | 單一成分 | UNITED ITALIAN CORP (HK) LTD | 有效 |
+| HK-65485 | BICAMIDE TABLETS 50MG | 單一成分 | LSB (HK) LIMITED | 有效 |
+| HK-49624 | CASODEX TAB 150MG | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-57576 | PMS-BICALUTAMIDE TAB 50MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+
+上表列出其中 5 張（共 11 張）。
+
+<!-- licenses:end -->
 
 目前共有 11 張許可證，皆為有效狀態，以上僅列出其中 5 張。
 

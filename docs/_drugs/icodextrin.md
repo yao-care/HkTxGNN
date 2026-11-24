@@ -5,7 +5,7 @@ layout: default
 title: Icodextrin
 parent: 僅已知用途（無新預測）
 nav_order: 454
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Icodextrin: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Icodextrin"
 predicted_indications: []
@@ -48,9 +48,13 @@ evidence_level: N/A
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-46627 | EXTRANEAL SOLN 7.5% | 未載明 | 未載明（廠商：VANTIVE HEALTHCARE LIMITED） |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-46627 | EXTRANEAL SOLN 7.5% | 複方 | VANTIVE HEALTHCARE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 其他 TxGNN 預測的適應症（供參考）
 

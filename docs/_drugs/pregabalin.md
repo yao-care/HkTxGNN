@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pregabalin：預測新適應症為肌腱炎 (Tendinitis)（證據等級 L5）。原適應症：香港許可證資料中未載明核准適應症"
 ---
 
@@ -88,13 +88,19 @@ TxGNN 模型（深度學習）對肌腱炎給出的分數，可能反映模型�
 
 <!-- review:end hk-lic-20261117-pregabalin-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-53029 | LYRICA CAP 25MG | 膠囊 | 未提供 |
-| HK-53026 | LYRICA CAP 300MG | 膠囊 | 未提供 |
-| HK-66282 | PRELYNCA CAPSULES 75MG | 膠囊 | 未提供 |
-| HK-68026 | PREGABALIN TEVA CAPSULES 25MG | 膠囊 | 未提供 |
-| HK-62124 | BRILLIOR CAPSULES 50MG | 膠囊 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-53029 | LYRICA CAP 25MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-53026 | LYRICA CAP 300MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-66282 | PRELYNCA CAPSULES 75MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-68026 | PREGABALIN TEVA CAPSULES 25MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-62124 | BRILLIOR CAPSULES 50MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 57 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

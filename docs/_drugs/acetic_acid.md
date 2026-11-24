@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 19
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetic Acid：預測新適應症為排名第一：細菌感染後疾患 (post-bacterial disorder)（證據等級 L5）。原適應症：外耳炎、外耳疾病"
 monitor_inn: "ACETIC ACID"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]
@@ -101,9 +101,13 @@ TxGNN 模型的預測排名第一為**細菌感染後疾患 (post-bacterial diso
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-32227 | TANA CORN AND WART SOLVENT | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-32227 | TANA CORN AND WART SOLVENT | 複方 | UNICORN LABORATORIES O/B AMERICAN UNICORN LABORATORIES LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 此產品名稱顯示為雞眼與疣的外用溶劑，與外耳炎及體癬皆非直接對應的產品。
 

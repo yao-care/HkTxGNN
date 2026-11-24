@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 237
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Cyproheptadine"
 predicted_indications: ["nasal cavity disease"]
 description: "Cyproheptadine：預測新適應症為Nasal cavity disease（證據等級 L5）。香港藥劑製品註冊：17 張（有效 17 張）"
@@ -101,13 +101,19 @@ Cyproheptadine 長期被視為此病的標準或參考用藥。不過現行指�
 
 香港共有 17 張有效許可證，皆為單方製劑，無已取消者。以下列出 5 張代表性許可證；資料中未載明劑型與核准適應症文字。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-17900 | CYPROHEPTADINE TAB 4MG（NEOCHEM） | 錠劑（依品名） | 未載明 |
-| HK-05079 | CYPROHEPTADINE TAB 4MG (SYNCO) | 錠劑（依品名） | 未載明 |
-| HK-21862 | APPETIN SYRUP 2MG/5ML | 糖漿（依品名） | 未載明 |
-| HK-11455 | CYPROHEPTADINE SYRUP 2MG/5ML | 糖漿（依品名） | 未載明 |
-| HK-46023 | CYPRODIN TAB 4MG | 錠劑（依品名） | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-17900 | CYPROHEPTADINE TAB 4MG | 單一成分 | NEOCHEM PHARMACEUTICAL LABORATORIES LTD. | 有效 |
+| HK-05079 | CYPROHEPTADINE TAB 4MG (SYNCO) | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-21862 | APPETIN SYRUP 2MG/5ML | 單一成分 | CHRISTO PHARM LTD | 有效 |
+| HK-11455 | CYPROHEPTADINE SYRUP 2MG/5ML | 單一成分 | UNIVERSAL PHARMACEUTICAL LABORATORIES, LIMITED | 有效 |
+| HK-46023 | CYPRODIN TAB 4MG | 單一成分 | UNICORN LABORATORIES O/B AMERICAN UNICORN LABORATORIES LIMITED | 有效 |
+
+上表列出其中 5 張（共 17 張）。
+
+<!-- licenses:end -->
 
 ---
 

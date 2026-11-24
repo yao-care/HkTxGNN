@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Cinchocaine：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L5）。原適應症：皮膚炎 (Dermatitis)"
 monitor_inn: "Cinchocaine"
 predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis"]
@@ -85,13 +85,19 @@ TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前**
 
 香港共有 19 張有效單方製劑許可證（無已註銷者），以下列出 5 張主要許可證。資料中未載明劑型與核准適應症，但從品名可看出多為栓劑或痔瘡用軟膏。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-13831 | FAKTU SUPP（武田藥品） | 栓劑（依品名） | 未載明 |
-| HK-13830 | FAKTU OINTMENT RECTAL（武田藥品） | 直腸用軟膏（依品名） | 未載明 |
-| HK-65963 | PELECIN SUPPOSITORIES | 栓劑（依品名） | 未載明 |
-| HK-65197 | SUFA SUPPOSITORIES | 栓劑（依品名） | 未載明 |
-| HK-33234 | DECATYLEN LOZ（CEUTICAL TRADING） | 口含錠（依品名） | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-13831 | FAKTU SUPP | 複方 | TAKEDA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-13830 | FAKTU OINTMENT RECTAL | 複方 | TAKEDA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-65963 | PELECIN SUPPOSITORIES | 複方 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-65197 | SUFA SUPPOSITORIES | 複方 | WINGS PHARMACEUTICAL LTD | 有效 |
+| HK-33234 | DECATYLEN LOZ | 複方 | CEUTICAL TRADING COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 19 張）。
+
+<!-- licenses:end -->
 
 ---
 

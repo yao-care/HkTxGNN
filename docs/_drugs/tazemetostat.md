@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 850
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Tazemetostat: known uses and market status in Hong Kong; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -73,15 +73,13 @@ TxGNN 深度學習模型針對 Tazemetostat 沒有產生分數達 0.99 以上的
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-68216 | TAZVERIK TABLETS 200MG |  | 已註銷 |
+<!-- licenses:begin -->
 
-<!-- review:begin hk-row-20261117-tazemetostat-1 -->
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68216 | TAZVERIK TABLETS 200MG | 單一成分 | HUTCHMED (HONG KONG) LIMITED O/B HUTCHMED (HONG KONG) LIMITED | 已註銷 |
 
-> **查核更正（2026-11-17）**：原文為「HK-68216／TAZVERIK TABLETS 200MG／／有效」。已更正：HK-68216 已不列於衞生署藥物辦公室的註冊藥劑製品名單，網上藥物資料庫也查不到，已不是現行註冊（2026-11-17 核對）。依據：[衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html)。
-
-<!-- review:end hk-row-20261117-tazemetostat-1 -->
+<!-- licenses:end -->
 
 ## 細胞毒性
 
@@ -113,7 +111,7 @@ TxGNN 深度學習模型針對 Tazemetostat 沒有產生分數達 0.99 以上的
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-17 | 「HK-68216 &#124; TAZVERIK TABLETS 200MG &#124;  &#124; 有」→「HK-68216 &#124; TAZVERIK TABLETS 200MG &#124;  &#124; 已」 | 更正 | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
+| 2026-11-17 | 「HK-68216 &#124; TAZVERIK TABLETS 200MG &#124;  &#124; 有」→「HK-68216 &#124; TAZVERIK TABLETS 200MG &#124;  &#124; 已」 | 已由程式產生的許可證表取代（原為更正） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 828
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Sorbitol：預測新適應症為運動誘發惡性高熱 (Exercise-induced Malignant Hyperthermia)（證據等級 L5）。原適應症：許可證資料未載明"
 monitor_inn: "SORBITOL"
 predicted_indications: ["exercise-induced malignant hyperthermia"]
@@ -83,13 +83,19 @@ TxGNN 模型預測它可能對**運動誘發惡性高熱 (Exercise-induced Malig
 
 香港共有 11 張有效許可證（皆為單方，無已註銷者）。核准適應症與劑型欄位在許可證資料中皆為空白。以下列出 5 張主要許可證：
 
-| 許可證號 | 品名 | 廠商 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-28237 | OSMOFUNDIN IV INFUSION 20% | B. BRAUN MEDICAL (HK) LTD | 未載明 |
-| HK-62100 | AMINOGEN-S SOLUTION FOR INFUSION | WINGS PHARMACEUTICAL LTD | 未載明 |
-| HK-57540 | AMINOL-S INJ | WINGS PHARMACEUTICAL LTD | 未載明 |
-| HK-55215 | PAN-AMIN G INJ | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 未載明 |
-| HK-59756 | CELAMIN G INJ | FALKAN MEDICAL LIMITED | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-28237 | OSMOFUNDIN IV INFUSION 20% | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-62100 | AMINOGEN-S SOLUTION FOR INFUSION | 複方 | WINGS PHARMACEUTICAL LTD | 有效 |
+| HK-57540 | AMINOL-S INJ | 複方 | WINGS PHARMACEUTICAL LTD | 有效 |
+| HK-55215 | PAN-AMIN G INJ | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
+| HK-59756 | CELAMIN G INJ | 複方 | FALKAN MEDICAL LIMITED | 有效 |
+
+上表列出其中 5 張（共 11 張）。
+
+<!-- licenses:end -->
 
 ---
 

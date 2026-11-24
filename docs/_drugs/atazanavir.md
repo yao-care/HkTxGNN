@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "ATAZANAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atazanavir：預測新適應症為貓後天免疫缺乏症候群 (feline acquired immunodeficiency syndrome)（證據等級 L5）。原適應症：HIV 感染、AIDS"
 ---
 
@@ -77,10 +77,14 @@ TxGNN 模型預測它可能對**貓後天免疫缺乏症候群 (feline acquired 
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68750 | ATAZANAVIR CAPSULES 300MG | 未提供 | 未提供 |
-| HK-68749 | ATAZANAVIR CAPSULES 200MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68750 | ATAZANAVIR CAPSULES 300MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-68749 | ATAZANAVIR CAPSULES 200MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證皆為單一成分製劑，持有者為 HIND WING CO LTD，狀態有效。
 

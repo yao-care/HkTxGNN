@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "BENRALIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benralizumab：預測新適應症為免疫性血小板減少症 (thrombocytopenia due to immune destruction)（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
 ---
 
@@ -73,10 +73,14 @@ TxGNN 模型預測它可能對**免疫性血小板減少症 (thrombocytopenia du
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66015 | FASENRA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 30MG/1ML | 未記載 | 未記載 |
-| HK-67113 | FASENRA SOLUTION FOR INJECTION IN PRE-FILLED PEN 30MG/1ML | 未記載 | 未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66015 | FASENRA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 30MG/1ML | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+| HK-67113 | FASENRA SOLUTION FOR INJECTION IN PRE-FILLED PEN 30MG/1ML | 單一成分 | ASTRAZENECA HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

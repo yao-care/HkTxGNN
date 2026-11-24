@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 87
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Avelumab：預測新適應症為人類皰疹病毒 8 型相關腫瘤 (human herpesvirus 8-related tumor)（證據等級 L5）。原適應症：皮膚神經內分泌癌（Merkel 細胞癌）"
 monitor_inn: "Avelumab"
 predicted_indications: ["human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "adenosine deaminase deficiency", "reticular dysgenesis", "Immunoerythromyeloid hypoplasia", "non-severe combined immunodeficiency", "kidney pelvis sarcomatoid transitional cell carcinoma"]
@@ -78,9 +78,13 @@ TxGNN 模型預測它可能對**人類皰疹病毒 8 型相關腫瘤 (human herp
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65956 | BAVENCIO CONCENTRATE FOR SOLUTION FOR INFUSION 200MG/10ML | 濃縮輸注液 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65956 | BAVENCIO CONCENTRATE FOR SOLUTION FOR INFUSION 200MG/10ML | 單一成分 | MERCK PHARMACEUTICAL (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

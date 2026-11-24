@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 195
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ciclesonide：預測新適應症為異位性皮膚炎 (Atopic Eczema)（證據等級 L5）。原適應症：氣喘、內因性氣喘、過敏性氣喘、過敏性鼻炎、血管運動性鼻炎"
 monitor_inn: "CICLESONIDE"
 predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis"]
@@ -74,11 +74,15 @@ TxGNN 模型預測它可能對**異位性皮膚炎 (Atopic Eczema)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-53034 | ALVESCO 80 INHALER 80MCG/ACTUATION | 吸入劑 | 未提供 |
-| HK-59322 | OMNARIS NASAL SPRAY 50MCG | 鼻噴劑 | 未提供 |
-| HK-53035 | ALVESCO 160 INHALER 160MCG/ACTUATION | 吸入劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-53034 | ALVESCO 80 INHALER 80MCG/ACTUATION | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-59322 | OMNARIS NASAL SPRAY 50MCG | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-53035 | ALVESCO 160 INHALER 160MCG/ACTUATION | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

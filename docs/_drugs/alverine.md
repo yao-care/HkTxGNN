@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 45
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Alverine：預測新適應症為輕度慢性憂鬱症 (Dysthymic Disorder)（證據等級 L5）。原適應症：本報告彙整的香港許可證資料未載明核准適應症"
 monitor_inn: "Alverine"
 predicted_indications: ["dysthymic disorder", "neurotic disorder", "anxiety disorder", "migraine disorder", "neurotic depression", "melancholia", "benign paroxysmal torticollis of infancy", "agoraphobia", "congenital isolated adrenocorticotropic hormone deficiency (disease)"]
@@ -89,13 +89,17 @@ TxGNN 模型預測它可能對**輕度慢性憂鬱症（Dysthymic Disorder）**�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-26461 | SPASMONAL CAP 60MG（Viatris Healthcare Hong Kong） | 膠囊 | 未提供 |
-| HK-54718 | ALMETIN SOFT CAP（Lafarge） | 軟膠囊 | 未提供 |
-| HK-35395 | METEOSPASMYL CAP（DCH Auriga） | 膠囊 | 未提供 |
-| HK-62910 | AVARIN CAPSULES（Zuellig Pharma） | 膠囊 | 未提供 |
-| HK-68438 | ALBISTA CAPSULES（LSB (HK)） | 膠囊 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-26461 | SPASMONAL CAP 60MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-54718 | ALMETIN SOFT CAP | 複方 | LAFARGE CO., LIMITED | 有效 |
+| HK-35395 | METEOSPASMYL CAP | 複方 | DCH AURIGA (HONG KONG) LIMITED - HEALTHCARE DIVISION | 有效 |
+| HK-62910 | AVARIN CAPSULES | 複方 | ZUELLIG PHARMA LIMITED | 有效 |
+| HK-68438 | ALBISTA CAPSULES | 複方 | LSB (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

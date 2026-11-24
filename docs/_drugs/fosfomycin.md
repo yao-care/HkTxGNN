@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "FOSFOMYCIN"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Fosfomycin：預測新適應症為Uterine inflammatory disease（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
 ---
 
@@ -82,9 +82,13 @@ Fosfomycin 抑制細菌 MurA 酶（UDP-N-乙醯葡萄糖胺烯醇丙酮酸轉移
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-43159 | MONUROL SACHETS 3G | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-43159 | MONUROL SACHETS 3G | 單一成分 | ZENFIELDS (H.K.) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 此許可證為單一成分製劑，狀態有效，持有者為 ZENFIELDS (H.K.) LIMITED。
 

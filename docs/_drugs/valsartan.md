@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Valsartan：預測新適應症為惡性高血壓腎病變（證據等級 L5）。原適應症：高血壓"
 ---
 
@@ -92,13 +92,19 @@ TxGNN 模型預測它可能對**惡性高血壓腎病變 (malignant hypertensive
 
 <!-- review:end hk-lic-20261117-valsartan-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62376 | PMS-VALSARTAN TABLETS 320MG | 錠劑 | 未載明 |
-| HK-60971 | VALSACOR FILM-COATED TABLETS 80MG | 膜衣錠 | 未載明 |
-| HK-49137 | DIOVAN TAB 80MG | 錠劑 | 未載明 |
-| HK-49138 | DIOVAN TAB 160MG | 錠劑 | 未載明 |
-| HK-66401 | VALSARTAN TEVA TABLETS 80MG | 錠劑 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62376 | PMS-VALSARTAN TABLETS 320MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-60971 | VALSACOR FILM-COATED TABLETS 80MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-49137 | DIOVAN TAB 80MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-49138 | DIOVAN TAB 160MG | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-66401 | VALSARTAN TEVA TABLETS 80MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+
+上表列出其中 5 張（共 78 張）。
+
+<!-- licenses:end -->
 
 ---
 

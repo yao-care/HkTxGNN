@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 225
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CODEINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
 description: "Codeine：預測新適應症為鼻腔疾病 (nasal cavity disease)（證據等級 L5）。香港藥劑製品註冊：345 張（有效 331 張）"
@@ -83,13 +83,19 @@ TxGNN 模型預測它可能對**鼻腔疾病 (Nasal Cavity Disease)** 有效，�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-05439 | CODEINE PHOSPHATE SYRUP 0.5% | 未載明 | 未載明 |
-| HK-64952 | CODEINE PHOSPHATE LINCTUS 12.5MG/5ML | 未載明 | 未載明 |
-| HK-39770 | COUGH-C SYRUP 23.5MG/5ML | 未載明 | 未載明 |
-| HK-12716 | CODEINE PHOSPHATE TAB 30MG | 未載明 | 未載明 |
-| HK-33414 | CO-CODAMOL TAB | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-05439 | CODEINE PHOSPHATE SYRUP 0.5% | 單一成分 | NEOCHEM PHARMACEUTICAL LABORATORIES LTD. | 有效 |
+| HK-64952 | CODEINE PHOSPHATE LINCTUS 12.5MG/5ML | 單一成分 | MARCHING PHARMACEUTICAL LIMITED | 有效 |
+| HK-39770 | COUGH-C SYRUP 23.5MG/5ML | 單一成分 | MARCHING PHARMACEUTICAL LIMITED | 有效 |
+| HK-12716 | CODEINE PHOSPHATE TAB 30MG | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-33414 | CO-CODAMOL TAB | 複方 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+
+上表列出其中 5 張（共 345 張）。
+
+<!-- licenses:end -->
 
 （共 345 張含本藥成分的許可證，有效 331 張、已註銷 14 張，單一成分 4 張、複方 341 張；以上列出前 5 張。）
 

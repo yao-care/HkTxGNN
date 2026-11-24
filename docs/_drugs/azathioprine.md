@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "AZATHIOPRINE"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Azathioprine：預測新適應症為結腸缺損性小眼症合併近端肢體發育不良症候群 (colobomatous microphthalmia-rhizomelic dysplasia syndrome)（證據等級 L5）。香港藥劑製品註冊：8 張（有效 8 張）"
 ---
 
@@ -71,6 +71,20 @@ ChEMBL（EMBL-EBI）收錄的 Azathioprine 作用機轉（非官方翻譯）：�
 目前無相關文獻。
 
 ## 香港上市資訊
+
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-03804 | IMURAN TAB 50MG | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+| HK-29255 | AZATHIOPRINE TAB 50MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-30975 | IMURAN TAB 25MG | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+| HK-44747 | AZAMUN TAB 50MG | 單一成分 | UNITED ITALIAN CORP (HK) LTD | 有效 |
+| HK-45098 | IMUPRIN TAB 50MG | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 Azathioprine 在香港為已上市藥品，現有許可證均為有效狀態，均為單一成分製劑。本地資料未記載各許可證的核准適應症文字。
 

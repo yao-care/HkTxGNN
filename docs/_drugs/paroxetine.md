@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 668
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PAROXETINE"
 predicted_indications: ["Ohdo syndrome and variants"]
 description: "Paroxetine：預測新適應症為Ohdo 症候群及其變異型 (Ohdo syndrome and variants)（證據等級 L5）。香港藥劑製品註冊：9 張（有效 9 張）"
@@ -81,13 +81,19 @@ Ohdo 症候群及其變異型（包括與 KAT6B 基因變異相關的 Say-Barber
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-60712 | DROPAXIN ORAL DROPS 10MG/ML | 口服滴劑（依品名） | 未載明 |
-| HK-51960 | SEROXAT CR CONTROLLED-RELEASE TAB 12.5MG | 控釋錠（依品名） | 未載明 |
-| HK-64700 | SEROXAT TABLETS 20MG | 錠劑（依品名） | 未載明 |
-| HK-57617 | SETINE F.C. TAB 20MG | 膜衣錠（依品名） | 未載明 |
-| HK-60625 | XALEXA 20 TAB 20MG | 錠劑（依品名） | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-60712 | DROPAXIN ORAL DROPS 10MG/ML | 單一成分 | LEE'S PHARMACEUTICAL (H.K) LIMITED | 有效 |
+| HK-51960 | SEROXAT CR CONTROLLED-RELEASE TAB 12.5MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-64700 | SEROXAT TABLETS 20MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-57617 | SETINE F.C. TAB 20MG | 單一成分 | KAI YUEN PHARMACEUTICAL CO | 有效 |
+| HK-60625 | XALEXA 20 TAB 20MG | 單一成分 | AUROBINDO PHARMA LIMITED | 有效 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 以上列出 5 張主要許可證，共 9 張皆為有效的單方許可證。
 

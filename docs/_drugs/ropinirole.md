@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 10
 monitor_inn: "ROPINIROLE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ropinirole：預測新適應症為注意力不足過動症 (ADHD)（證據等級 L3）。原適應症：知識圖譜記錄為不寧腿症候群、帕金森氏症等"
 ---
 
@@ -81,13 +81,19 @@ ADHD 與不寧腿症候群（知識圖譜中記錄的 ropinirole 使用方向）
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-57966 | REQUIP PD TAB 2MG | 未提供 | 未提供 |
-| HK-57965 | REQUIP PD TAB 4MG | 未提供 | 未提供 |
-| HK-57964 | REQUIP PD TAB 8MG | 未提供 | 未提供 |
-| HK-66674 | EVECET PROLONGED-RELEASE TABLETS 8MG | 未提供 | 未提供 |
-| HK-66478 | ROLPRYNA SR PROLONGED-RELEASE TABLETS 4MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-57966 | REQUIP PD TAB 2MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-57965 | REQUIP PD TAB 4MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-57964 | REQUIP PD TAB 8MG | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-66674 | EVECET PROLONGED-RELEASE TABLETS 8MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+| HK-66478 | ROLPRYNA SR PROLONGED-RELEASE TABLETS 4MG | 單一成分 | SINO PACIFIC PHARMA COMPANY LIMITED | 有效 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 共 9 張單一成分許可證，皆為有效狀態，此處僅列出 5 張。
 

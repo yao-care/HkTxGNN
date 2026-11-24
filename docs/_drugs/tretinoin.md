@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "TRETINOIN"
 predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tretinoin：預測新適應症為類風濕性結節病 (Rheumatoid Nodulosis)（證據等級 L5）。原適應症：知識圖譜中記錄的關聯為痤瘡、急性前骨髓性白血病、後天性角化症、掌蹠角化症"
 ---
 
@@ -79,13 +79,19 @@ TxGNN 模型預測它可能對**類風濕性結節病 (Rheumatoid Nodulosis)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-40621 | VESANOID CAP 10MG | 未載明 | 未載明 |
-| HK-57254 | ACNETIN-A CREAM 0.05% | 未載明 | 未載明 |
-| HK-32929 | ACTA CREAM 0.1% | 未載明 | 未載明 |
-| HK-65326 | VITACID CREAM 0.05%W/W | 未載明 | 未載明 |
-| HK-58939 | KETREL CREAM 0.05% | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-40621 | VESANOID CAP 10MG | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-57254 | ACNETIN-A CREAM 0.05% | 單一成分 | GAILY PHARMACEUTICAL COMPANY LIMITED | 有效 |
+| HK-32929 | ACTA CREAM 0.1% | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-65326 | VITACID CREAM 0.05%W/W | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-58939 | KETREL CREAM 0.05% | 單一成分 | LABORATOIRES BAILLEUL LIMITED | 有效 |
+
+上表列出其中 5 張（共 12 張）。
+
+<!-- licenses:end -->
 
 以上列出 5 張主要許可證，共 12 張，皆為單方、有效狀態。
 

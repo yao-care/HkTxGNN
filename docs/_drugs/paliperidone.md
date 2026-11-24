@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "PALIPERIDONE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Paliperidone：預測新適應症為視網膜失養症（伴或不伴眼外異常）（證據等級 L5）。原適應症：知識圖譜記錄：精神病性疾患、類思覺失調症、思覺失調情感性疾患、思覺失調症"
 ---
 
@@ -80,13 +80,19 @@ TxGNN 模型預測它可能對**視網膜失養症（伴或不伴眼外異常）
 
 <!-- review:end hk-lic-20261117-paliperidone-1 -->
 
-| 許可證號 | 品名 | 廠商 |
-|---------|------|------|
-| HK-68512 | COMPASSIA 長效注射懸浮液 50MG/0.5ML | ABBOTT LAB LTD |
-| HK-56192 | INVEGA 持續釋放錠 3MG | JOHNSON & JOHNSON (HONG KONG) LTD. |
-| HK-60142 | INVEGA SUSTENNA 長效肌肉注射懸浮液 100MG | JOHNSON & JOHNSON (HONG KONG) LTD. |
-| HK-66467 | PAMOPREX 長效錠 6MG | SINO PACIFIC PHARMA COMPANY LIMITED |
-| HK-66867 | PALIPERIDONE 持續釋放錠 6MG | HONG KONG MEDICAL SUPPLIES LTD |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68512 | COMPASSIA PROLONGED-RELEASE SUSPENSION FOR INJECTION IN PRE-FILLED SYRINGE 50MG/… | 單一成分 | ABBOTT LAB LTD | 有效 |
+| HK-56192 | INVEGA EXTENDED-RELEASE TAB 3MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-60142 | INVEGA SUSTENNA PROLONGED RELEASE SUSP FOR IM INJ. 100MG | 單一成分 | JOHNSON & JOHNSON (HONG KONG) LTD. | 有效 |
+| HK-66467 | PAMOPREX PROLONGED-RELEASE TABLETS 6MG | 單一成分 | SINO PACIFIC PHARMA COMPANY LIMITED | 有效 |
+| HK-66867 | PALIPERIDONE EXTENDED-RELEASE TABLETS 6MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+
+上表列出其中 5 張（共 29 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

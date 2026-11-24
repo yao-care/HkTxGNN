@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "BICTEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bictegravir：預測新適應症為貓後天免疫缺乏症候群 (Feline acquired immunodeficiency syndrome)（證據等級 L5）。原適應症：HIV 感染、AIDS"
 ---
 
@@ -74,9 +74,13 @@ ChEMBL（EMBL-EBI）收錄的 Bictegravir 作用機轉（非官方翻譯）：�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65914 | BIKTARVY TABLETS | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65914 | BIKTARVY TABLETS | 複方 | GILEAD SCIENCES HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 製造商：GILEAD SCIENCES HONG KONG LIMITED。許可證狀態為有效（單一成分）。
 

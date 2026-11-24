@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "MEGESTROL ACETATE"
 predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline epithelial tumor of ovary", "uterine carcinosarcoma", "placenta cancer", "ovarian clear cell adenocarcinoma", "ovarian cancer", "malignant dysgerminomatous germ cell tumor of ovary"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Megestrol Acetate：預測新適應症為遺傳性乳癌卵巢癌症候群（證據等級 L5）。原適應症：香港許可證資料未載明核准適應症"
 ---
 
@@ -85,13 +85,19 @@ TxGNN 模型預測它可能對**遺傳性乳癌卵巢癌症候群 (Hereditary Br
 
 香港許可證資料中，這 6 張的劑型與核准適應症欄位皆為空白，因此無法說明其核准用途。
 
-| 許可證號 | 品名 | 製造商 |
-|---------|------|--------|
-| HK-60399 | MEGESIN TAB 160MG | TEVA PHARMACEUTICAL HONG KONG |
-| HK-44293 | MEGAPLEX TAB 40MG | TEVA PHARMACEUTICAL HONG KONG |
-| HK-68146 | MEGEJOHN TABLETS 40MG | SYNMOSA BIOPHARMA (HONG KONG) |
-| HK-68644 | MEGESIA TABLETS 40MG | SB PHARMA LIMITED |
-| HK-42289 | APO-MEGESTROL TAB 40MG | HIND WING CO LTD |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-60399 | MEGESIN TAB 160MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-44293 | MEGAPLEX TAB 40MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-68146 | MEGEJOHN TABLETS 40MG | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-68644 | MEGESIA TABLETS 40MG | 單一成分 | SB PHARMA LIMITED | 有效 |
+| HK-42289 | APO-MEGESTROL TAB 40MG | 單一成分 | HIND WING CO LTD | 有效 |
+
+上表列出其中 5 張（共 6 張）。
+
+<!-- licenses:end -->
 
 另有 HK-44543（MEGAPLEX TAB 160MG，TEVA PHARMACEUTICAL HONG KONG）。
 

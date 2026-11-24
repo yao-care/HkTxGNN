@@ -5,7 +5,7 @@ layout: default
 title: Dostarlimab
 parent: 僅已知用途（無新預測）
 nav_order: 296
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Dostarlimab: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Dostarlimab"
 predicted_indications: []
@@ -38,7 +38,6 @@ evidence_level: N/A
 ## Dostarlimab
 {: .text-alpha }
 
-
 ## 快速總覽
 
 | 項目 | 內容 |
@@ -49,9 +48,13 @@ evidence_level: N/A
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67364 | JEMPERLI CONCENTRATE FOR SOLUTION FOR INFUSION 500MG/10ML（GlaxoSmithKline Limited） | 輸注用濃縮液 | 許可證資料未登載適應症 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67364 | JEMPERLI CONCENTRATE FOR SOLUTION FOR INFUSION 500MG/10ML | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "MESALAZINE"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mesalazine：預測新適應症為先天性少毛症合併青少年黃斑部失養症 (congenital hypotrichosis with juvenile macular dys…（證據等級 L5）。原適應症：知識圖譜記錄的關聯：潰瘍性結腸炎、發炎性腸道疾病、潰瘍性直腸乙狀結腸炎"
 ---
 
@@ -121,13 +121,19 @@ TxGNN 模型預測分數最高的是**先天性少毛症合併青少年黃斑部
 
 <!-- review:end hk-lic-20261117-mesalazine-2 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-63749 | SYN-MESALAZINE ENTERIC-COATED TABLETS 250MG | 腸溶錠 | 許可證資料未載明 |
-| HK-37044 | PENTASA SUPP 1G | 栓劑 | 許可證資料未載明 |
-| HK-65052 | SALOFALK GASTRO-RESISTANT PROLONGED-RELEASE GRANULES 1.5G | 抗胃酸緩釋顆粒 | 許可證資料未載明 |
-| HK-51119 | ASACOL ENEMA 4G/100ML | 灌腸劑 | 許可證資料未載明 |
-| HK-59673 | SALOFALK 250 SUPP 250MG | 栓劑 | 許可證資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63749 | SYN-MESALAZINE ENTERIC-COATED TABLETS 250MG | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-37044 | PENTASA SUPP 1G | 單一成分 | FERRING PHARMACEUTICALS LTD | 有效 |
+| HK-65052 | SALOFALK GASTRO-RESISTANT PROLONGED-RELEASE GRANULES 1.5G | 單一成分 | A. MENARINI HONG KONG LIMITED | 有效 |
+| HK-51119 | ASACOL ENEMA 4G/100ML | 單一成分 | ASSOCIATED MEDICAL SUPPLIES CO LTD | 有效 |
+| HK-59673 | SALOFALK 250 SUPP 250MG | 單一成分 | A. MENARINI HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 23 張）。
+
+<!-- licenses:end -->
 
 ---
 

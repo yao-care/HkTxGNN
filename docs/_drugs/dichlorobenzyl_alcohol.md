@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 273
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Dichlorobenzyl Alcohol：預測新適應症為支氣管炎 (Bronchitis)（證據等級 L5）。原適應症：許可證資料未載明核准適應症（產品多為喉嚨痛含片）"
 monitor_inn: "DICHLOROBENZYL ALCOHOL"
 predicted_indications: ["bronchitis", "migraine disorder"]
@@ -85,13 +85,19 @@ TxGNN 的高分（0.9921）屬於計算預測，沒有臨床資料支持，應�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67542 | DIFFLAM ANTISEPTIC LOZENGES BLACKCURRANT FLAVOUR | 含片（資料未載明） | 資料未載明 |
-| HK-54273 | THROATSIL LOZENGE - HONEY & LEMON | 含片（資料未載明） | 資料未載明 |
-| HK-19288 | STREPSILS + HONEY & LEMON ANTISEPTIC LOZ | 含片（資料未載明） | 資料未載明 |
-| HK-19286 | STREPSILS ANTISEPTIC LOZ RED | 含片（資料未載明） | 資料未載明 |
-| HK-67433 | BETACARE SORE THROAT ORANGE LOZENGES 0.6MG/1.2MG | 含片（資料未載明） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67542 | DIFFLAM ANTISEPTIC LOZENGES BLACKCURRANT FLAVOUR | 複方 | INOVA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-54273 | THROATSIL LOZENGE - HONEY & LEMON | 複方 | DELTAPHARM LIMITED | 有效 |
+| HK-19288 | STREPSILS + HONEY & LEMON ANTISEPTIC LOZ | 複方 | RECKITT BENCKISER HONG KONG LTD | 有效 |
+| HK-19286 | STREPSILS ANTISEPTIC LOZ RED | 複方 | RECKITT BENCKISER HONG KONG LTD | 有效 |
+| HK-67433 | BETACARE SORE THROAT ORANGE LOZENGES 0.6MG/1.2MG | 複方 | INOVA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+
+上表列出其中 5 張（共 26 張）。
+
+<!-- licenses:end -->
 
 香港共有 26 張含本藥成分的許可證（有效 25 張、已註銷 1 張；皆為複方），上表僅列出其中 5 張。品名除 DIFFLAM WITH ANAESTHETIC SORE THROAT SPRAY（HK-68999，噴劑）外皆顯示為含片類產品。
 

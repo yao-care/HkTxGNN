@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mycophenolate Mofetil：預測新適應症為人類免疫缺乏病毒感染 (HIV infectious disease)（證據等級 L2）。香港藥劑製品註冊：22 張（有效 22 張）"
 ---
 
@@ -88,13 +88,19 @@ Mycophenolate Mofetil 的活性代謝物 mycophenolic acid 會抑制 IMPDH，使
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-44333 | CELLCEPT TAB 500MG（羅氏） | 錠劑 | 資料未載明 |
-| HK-41757 | CELLCEPT CAP 250MG（羅氏） | 膠囊 | 資料未載明 |
-| HK-62451 | CELLCEPT POWDER FOR ORAL SUSPENSION 1G/5ML（羅氏） | 口服懸液用粉末 | 資料未載明 |
-| HK-59026 | MICOCEPT TAB 500MG（山德士） | 錠劑 | 資料未載明 |
-| HK-65892 | ACCORD MYCOPHENOLATE MOFETIL POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 500MG | 輸注濃縮液用粉末 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-44333 | CELLCEPT TAB 500MG | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-41757 | CELLCEPT CAP 250MG | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-62451 | CELLCEPT POWDER FOR ORAL SUSPENSION 1G/5ML | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-59026 | MICOCEPT TAB 500MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-65892 | ACCORD MYCOPHENOLATE MOFETIL POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50… | 單一成分 | JACOBSON MARKETING LIMITED | 有效 |
+
+上表列出其中 5 張（共 22 張）。
+
+<!-- licenses:end -->
 
 香港共有 22 張含本藥成分的許可證（全部有效；皆為單一成分）。
 

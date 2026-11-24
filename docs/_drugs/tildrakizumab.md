@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 878
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tildrakizumab：預測新適應症為嚴重非增殖性糖尿病視網膜病變 (severe nonproliferative diabetic retinopathy)（證據等級 L5）。原適應症：資料中未載明"
 monitor_inn: "TILDRAKIZUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "drug-induced osteoporosis"]
@@ -85,9 +85,13 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (seve
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67428 | ILUMETRI SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 100MG/1ML | 預填充注射針筒（溶液） | 資料中未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67428 | ILUMETRI SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 100MG/1ML | 單一成分 | SKY UNITED TRADING LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

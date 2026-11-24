@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 520
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Letermovir：預測新適應症為外陰陰道念珠菌病 (Vulvovaginal Candidiasis)（證據等級 L5）。原適應症：巨細胞病毒感染 (Cytomegalovirus infection)"
 monitor_inn: "LETERMOVIR"
 predicted_indications: ["vulvovaginal candidiasis"]
@@ -82,12 +82,16 @@ TxGNN 模型（深度學習）給出的高分（0.9988）沒有任何試驗或�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66124 | PREVYMIS TABLETS 240MG | — | — |
-| HK-66125 | PREVYMIS CONCENTRATE FOR SOLUTION FOR INFUSION 240MG/12ML | — | — |
-| HK-66122 | PREVYMIS CONCENTRATE FOR SOLUTION FOR INFUSION 480MG/24ML | — | — |
-| HK-66123 | PREVYMIS TABLETS 480MG | — | — |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66124 | PREVYMIS TABLETS 240MG | 單一成分 | MERCK SHARP & DOHME (ASIA) LTD | 有效 |
+| HK-66125 | PREVYMIS CONCENTRATE FOR SOLUTION FOR INFUSION 240MG/12ML | 單一成分 | MERCK SHARP & DOHME (ASIA) LTD | 有效 |
+| HK-66122 | PREVYMIS CONCENTRATE FOR SOLUTION FOR INFUSION 480MG/24ML | 單一成分 | MERCK SHARP & DOHME (ASIA) LTD | 有效 |
+| HK-66123 | PREVYMIS TABLETS 480MG | 單一成分 | MERCK SHARP & DOHME (ASIA) LTD | 有效 |
+
+<!-- licenses:end -->
 
 以上 4 張許可證皆為單一成分製劑，狀態有效，持證商為 MERCK SHARP & DOHME (ASIA) LTD。
 

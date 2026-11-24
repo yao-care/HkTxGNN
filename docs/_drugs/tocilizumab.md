@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tocilizumab：預測新適應症為僵直性脊椎炎 (ankylosing spondylitis)（證據等級 L5）。香港藥劑製品註冊：4 張（有效 4 張）"
 ---
 
@@ -83,12 +83,16 @@ TxGNN 模型預測它可能對**僵直性脊椎炎 (ankylosing spondylitis)** �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-59200 | ACTEMRA CONC FOR SOLN FOR INFUSION 400MG/20ML | 未載明 | 未載明 |
-| HK-63771 | ACTEMRA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 162MG/0.9ML | 未載明 | 未載明 |
-| HK-59202 | ACTEMRA CONC FOR SOLN FOR INFUSION 80MG/4ML | 未載明 | 未載明 |
-| HK-59201 | ACTEMRA CONC FOR SOLUTION FOR INF 200MG/10ML | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-59200 | ACTEMRA CONC FOR SOLN FOR INFUSION 400MG/20ML | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-63771 | ACTEMRA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 162MG/0.9ML | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-59202 | ACTEMRA CONC FOR SOLN FOR INFUSION 80MG/4ML | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+| HK-59201 | ACTEMRA CONC FOR SOLUTION FOR INF 200MG/10ML | 單一成分 | ROCHE HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

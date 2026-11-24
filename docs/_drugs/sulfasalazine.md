@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "SULFASALAZINE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sulfasalazine：預測新適應症為Brachydactyly-syndactyly syndrome（證據等級 L5）。香港藥劑製品註冊：5 張（有效 5 張）"
 ---
 
@@ -86,13 +86,17 @@ TxGNN 模型預測它可能對**骨關節炎 (Osteoarthritis)** 有效，但目�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-61726 | ZOPYRIN ENTERIC-COATED TABLETS 500MG | 腸溶錠 | 資料未載明 |
-| HK-53542 | SULPHASALAZINE ENTERIC COATED TAB 500MG | 腸溶錠 | 資料未載明 |
-| HK-60601 | SARIDINE-E ENTERIC COATED TAB 500MG | 腸溶錠 | 資料未載明 |
-| HK-43380 | PMS-SULFASALAZINE E.C. TAB 500MG | 腸溶錠 | 資料未載明 |
-| HK-25960 | SALAZOPYRIN EN TAB 0.5G ENTERIC COATED | 腸溶錠 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-61726 | ZOPYRIN ENTERIC-COATED TABLETS 500MG | 單一成分 | LSB (HK) LIMITED | 有效 |
+| HK-53542 | SULPHASALAZINE ENTERIC COATED TAB 500MG | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-60601 | SARIDINE-E ENTERIC COATED TAB 500MG | 單一成分 | ATLANTIC PHARMACEUTICAL LIMITED | 有效 |
+| HK-43380 | PMS-SULFASALAZINE E.C. TAB 500MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-25960 | SALAZOPYRIN EN TAB 0.5G ENTERIC COATED | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

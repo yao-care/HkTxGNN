@@ -5,7 +5,7 @@ parent: 中證據等級 (L3-L4)
 nav_order: 323
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
 description: "Entecavir：預測新適應症為慢性 C 型肝炎 (chronic hepatitis C virus infection)（證據等級 L4）。香港藥劑製品註冊：26 張（有效 22 張）"
@@ -104,13 +104,19 @@ C 型肝炎病毒 (HCV) 是 RNA 病毒，靠 NS5B RNA 依賴性 RNA 聚合酶複
 
 <!-- review:end hk-lic-20261117-entecavir-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-55152 | BARACLUDE TAB 0.5MG（Bristol-Myers Squibb） | 錠劑 | 未載明 |
-| HK-55153 | BARACLUDE TAB 1MG（Bristol-Myers Squibb） | 錠劑 | 未載明 |
-| HK-65737 | ENTECAVIR LEK SANDOZ TABLETS 0.5MG（Sandoz） | 錠劑 | 未載明 |
-| HK-68822 | ENTECAVIR TEVA TABLETS 0.5MG（Teva） | 錠劑 | 未載明 |
-| HK-64435 | PMS-ENTECAVIR TABLETS 0.5MG（Trenton-Boma） | 錠劑 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-55152 | BARACLUDE TAB 0.5MG | 單一成分 | BRISTOL-MYERS SQUIBB PHARMA (HK) LTD | 有效 |
+| HK-55153 | BARACLUDE TAB 1MG | 單一成分 | BRISTOL-MYERS SQUIBB PHARMA (HK) LTD | 有效 |
+| HK-65737 | ENTECAVIR LEK SANDOZ TABLETS 0.5MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-68822 | ENTECAVIR TEVA TABLETS 0.5MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-64435 | PMS-ENTECAVIR TABLETS 0.5MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+
+上表列出其中 5 張（共 26 張）。
+
+<!-- licenses:end -->
 
 ---
 

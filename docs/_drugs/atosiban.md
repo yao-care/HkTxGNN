@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 82
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atosiban：預測新適應症為原發性遺傳性青光眼 (Primary Hereditary Glaucoma)（證據等級 L5）。原適應症：許可證未列適應症文字"
 monitor_inn: "ATOSIBAN"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "alopecia", "hypotrichosis simplex of the scalp", "vascular disease", "diffuse alopecia areata", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "visceral calciphylaxis"]
@@ -71,13 +71,19 @@ ChEMBL（EMBL-EBI）收錄的 Atosiban 作用機轉（非官方翻譯）：「�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-64913 | ATOSIBAN SOLUTION FOR INJECTION 6.75MG/0.9ML | 注射劑 | 未提供 |
-| HK-66350 | ATOSIBAN CONCENTRATE FOR SOLUTION FOR INFUSION 37.5MG/5ML | 輸注濃縮液 | 未提供 |
-| HK-64911 | ATOSIBAN CONCENTRATE FOR SOLUTION FOR INFUSION 37.5MG/5ML | 輸注濃縮液 | 未提供 |
-| HK-48228 | TRACTOCILE SOLN FOR INJ 7.5MG/ML | 注射劑 | 未提供 |
-| HK-48229 | TRACTOCILE CONC FOR SOL FOR INF 7.5MG/ML | 輸注濃縮液 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-64913 | ATOSIBAN SOLUTION FOR INJECTION 6.75MG/0.9ML | 單一成分 | JINDUN PHARMA (H.K.) LIMITED | 有效 |
+| HK-66350 | ATOSIBAN CONCENTRATE FOR SOLUTION FOR INFUSION 37.5MG/5ML | 單一成分 | CHEMILLENNIUM INTERNATIONAL (HK) LIMITED | 有效 |
+| HK-64911 | ATOSIBAN CONCENTRATE FOR SOLUTION FOR INFUSION 37.5MG/5ML | 單一成分 | JINDUN PHARMA (H.K.) LIMITED | 有效 |
+| HK-48228 | TRACTOCILE SOLN FOR INJ 7.5MG/ML | 單一成分 | FERRING PHARMACEUTICALS LTD | 有效 |
+| HK-48229 | TRACTOCILE CONC FOR SOL FOR INF 7.5MG/ML | 單一成分 | FERRING PHARMACEUTICALS LTD | 有效 |
+
+上表列出其中 5 張（共 7 張）。
+
+<!-- licenses:end -->
 
 （共 7 張有效許可證，以上列出 5 張；劑型欄位依品名推斷。）
 

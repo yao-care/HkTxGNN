@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "SALBUTAMOL"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Salbutamol：預測新適應症為乳突狀結膜炎 (Papillary Conjunctivitis)（證據等級 L5）。原適應症：氣喘、支氣管疾病"
 ---
 
@@ -86,13 +86,19 @@ TxGNN 模型預測它可能對**乳突狀結膜炎 (Papillary Conjunctivitis)** 
 
 <!-- review:end hk-lic-20261117-salbutamol-2 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-34904 | VANTIN SYRUP 2MG/5ML | 未載明 | 未載明 |
-| HK-02796 | VENTOLIN SOLN FOR I.V INFUSION 1MG/ML | 未載明 | 未載明 |
-| HK-30060 | ASMALIN TAB 4MG | 未載明 | 未載明 |
-| HK-53744 | AXCEL SALBUTAMOL-2 TAB 2MG | 未載明 | 未載明 |
-| HK-35778 | VENTAMOL-2 TAB 2MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-34904 | VANTIN SYRUP 2MG/5ML | 單一成分 | CHRISTO PHARM LTD | 有效 |
+| HK-02796 | VENTOLIN SOLN FOR I.V INFUSION 1MG/ML | 單一成分 | GLAXOSMITHKLINE LIMITED | 有效 |
+| HK-30060 | ASMALIN TAB 4MG | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+| HK-53744 | AXCEL SALBUTAMOL-2 TAB 2MG | 單一成分 | KOTRA PHARMA (HONG KONG) COMPANY | 有效 |
+| HK-35778 | VENTAMOL-2 TAB 2MG | 單一成分 | HOVID LIMITED | 有效 |
+
+上表列出其中 5 張（共 45 張）。
+
+<!-- licenses:end -->
 
 從品名可見，市面上有口服錠劑、糖漿、吸入劑與靜脈輸注液等多種劑型，但目前沒有眼用製劑的資料。
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Omalizumab：預測新適應症為支氣管炎 (bronchitis)（證據等級 L5）。香港藥劑製品註冊：8 張（有效 8 張）"
 ---
 
@@ -81,13 +81,19 @@ Omalizumab 與游離 IgE 結合，降低其濃度，並減少 FcεRI 在肥大�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68678 | XOLAIR 預充式注射器 150MG/ML | 注射劑 | 資料未載明 |
-| HK-68676 | XOLAIR 預充式注射筆 150MG/ML | 注射劑 | 資料未載明 |
-| HK-65301 | XOLAIR 預充式注射器 150MG/ML | 注射劑 | 資料未載明 |
-| HK-68679 | XOLAIR 預充式注射器 300MG/2ML | 注射劑 | 資料未載明 |
-| HK-68680 | XOLAIR 預充式注射器 75MG/0.5ML | 注射劑 | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68678 | XOLAIR SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 150MG/ML | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-68676 | XOLAIR SOLUTION FOR INJECTION IN PRE-FILLED PEN 150MG/ML | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-65301 | XOLAIR SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 150MG/ML | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-68679 | XOLAIR SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 300MG/2ML | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+| HK-68680 | XOLAIR SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 75MG/0.5ML | 單一成分 | NOVARTIS PHARMACEUTICALS (HK) LIMITED | 有效 |
+
+上表列出其中 5 張（共 8 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

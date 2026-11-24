@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "TETRACAINE"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tetracaine：預測新適應症為慢性萎縮性肢端皮膚炎 (Acrodermatitis Chronica Atrophicans)（證據等級 L5）。原適應症：皮膚炎"
 ---
 
@@ -69,10 +69,14 @@ TxGNN 模型預測它可能對**慢性萎縮性肢端皮膚炎 (Acrodermatitis C
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-54171 | MINIMS TETRACAINE HYDROCHLORIDE EYE DROPS 1% (LAB CHAUVIN) | 未載明 | 未載明 |
-| HK-63840 | PLIAGLIS CREAM | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-54171 | MINIMS TETRACAINE HYDROCHLORIDE EYE DROPS 1% (LAB CHAUVIN) | 單一成分 | BAUSCH & LOMB (HK) LTD | 有效 |
+| HK-63840 | PLIAGLIS CREAM | 複方 | PROFESSIONAL QUALITY & REGULATORY RESOURCES LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

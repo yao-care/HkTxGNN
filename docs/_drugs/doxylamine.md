@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 300
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Doxylamine"
 predicted_indications: ["nasal cavity disease"]
 description: "Doxylamine：預測新適應症為Nasal cavity disease（證據等級 L5）。香港藥劑製品註冊：2 張（有效 2 張）"
@@ -84,10 +84,14 @@ Doxylamine 是第一代 H1 抗組織胺藥，原本用於過敏性鼻炎、感�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-62427 | MESLEP TABLET 25MG | 未載明 | 未載明 |
-| HK-45391 | SOMINAR TAB 25MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-62427 | MESLEP TABLET 25MG | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-45391 | SOMINAR TAB 25MG | 單一成分 | DELTAPHARM LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張許可證均為單方製劑、現行有效。
 

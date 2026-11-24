@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "SOLRIAMFETOL"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "insomnia (disease)", "attention deficit hyperactivity disorder, inattentive type", "chondromyxoid fibroma", "specific developmental disorder", "variably protease-sensitive prionopathy", "multiple system atrophy", "postural orthostatic tachycardia syndrome", "disorder of peroxisomal alpha-, beta- and omega-oxidation"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Solriamfetol：預測新適應症為注意力不足過動症 (ADHD)（證據等級 L2）。原適應症：香港許可證資料未載明核准適應症"
 ---
 
@@ -88,10 +88,14 @@ TxGNN 模型預測它可能對**注意力不足過動症 (ADHD)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68403 | SUNOSI TABLETS 150MG | 錠劑 | 本次彙整資料未載明 |
-| HK-68404 | SUNOSI TABLETS 75MG | 錠劑 | 本次彙整資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68403 | SUNOSI TABLETS 150MG | 單一成分 | IGNIS THERAPEUTICS (HK) LIMITED | 有效 |
+| HK-68404 | SUNOSI TABLETS 75MG | 單一成分 | IGNIS THERAPEUTICS (HK) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 兩張皆為單一成分許可證，持證商為 IGNIS THERAPEUTICS (HK) LIMITED，狀態皆為有效。
 

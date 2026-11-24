@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CAPECITABINE"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Capecitabine：預測新適應症為胃腺癌合併胃近端息肉症（證據等級 L5）。原適應症：知識圖譜記錄的關聯：大腸惡性腫瘤轉移、胃癌、胃腫瘤、瀰漫性胃腺癌、胃皮革樣癌等"
 ---
 
@@ -78,13 +78,19 @@ TxGNN 模型預測它可能對**胃腺癌合併胃近端息肉症 (gastric adeno
 
 <!-- review:end hk-lic-20261117-capecitabine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-63404 | CAPECITABINE-TEVA FILM-COATED TABLETS 500MG | 未提供 | 未提供 |
-| HK-62914 | CAPECITABINE SANDOZ TABLET 500MG | 未提供 | 未提供 |
-| HK-62913 | CAPECITABINE SANDOZ TABLET 150MG | 未提供 | 未提供 |
-| HK-68949 | CAPECITABINE TABLETS 500MG | 未提供 | 未提供 |
-| HK-46233 | XELODA TAB 150MG | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-63404 | CAPECITABINE-TEVA FILM-COATED TABLETS 500MG | 單一成分 | TEVA PHARMACEUTICAL HONG KONG O/B TEVA PHARMACEUTICAL HONG KONG LIMITE… | 有效 |
+| HK-62914 | CAPECITABINE SANDOZ TABLET 500MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-62913 | CAPECITABINE SANDOZ TABLET 150MG | 單一成分 | SANDOZ HONG KONG LIMITED | 有效 |
+| HK-68949 | CAPECITABINE TABLETS 500MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-46233 | XELODA TAB 150MG | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 26 張）。
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

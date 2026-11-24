@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 676
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Penciclovir：預測新適應症為肝片吸蟲症 (Fascioliasis)（證據等級 L5）。原適應症：唇疱疹 (herpes labialis)"
 monitor_inn: "Penciclovir"
 predicted_indications: ["fascioliasis"]
@@ -74,9 +74,13 @@ TxGNN 模型預測它可能對**肝片吸蟲症 (Fascioliasis)** 有效，但目
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-57161 | BF-ERASEVIR CREAM 1% | 未提供（依品名為乳膏） | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-57161 | BF-ERASEVIR CREAM 1% | 單一成分 | BRIGHT FUTURE PHARMACEUTICALS FACTORY O/B BRIGHT FUTURE PHARMACEUTICAL… | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

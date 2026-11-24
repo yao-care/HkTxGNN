@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 586
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Midodrine"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
 description: "Midodrine：預測新適應症為Variably protease-sensitive prionopathy（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
@@ -106,11 +106,15 @@ TxGNN 模型預測分數最高的新適應症是**朊病毒相關疾病 (variabl
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68204 | MIDODRINE SUBSTIPHARM TABLETS 2.5MG | 未載明 | 未載明 |
-| HK-68183 | MIDORINE TABLETS 2.5MG | 未載明 | 未載明 |
-| HK-67094 | MIDODRINE HYDROCHLORIDE TABLETS USP 2.5MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68204 | MIDODRINE SUBSTIPHARM TABLETS 2.5MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-68183 | MIDORINE TABLETS 2.5MG | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-67094 | MIDODRINE HYDROCHLORIDE TABLETS USP 2.5MG | 單一成分 | I & C (HONG KONG) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證皆為單方、有效狀態。
 

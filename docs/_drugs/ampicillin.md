@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AMPICILLIN"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ampicillin：預測新適應症為喉炎 (laryngitis)（證據等級 L5）。香港藥劑製品註冊：32 張（有效 31 張）"
 ---
 
@@ -91,13 +91,19 @@ Ampicillin 透過抑制細菌細胞壁合成而殺菌。根據美國 FDA 核准�
 
 <!-- review:end hk-lic-20261117-ampicillin-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-10610 | A P CAP 250MG | — | 本地資料未記載 |
-| HK-63787 | AMPICILLIN POWDER FOR SOLUTION FOR INJECTION 500MG | — | 本地資料未記載 |
-| HK-61293 | NORAPILIN POWDER FOR SOLUTION FOR IM/IV INJECTION 500MG | — | 本地資料未記載 |
-| HK-40801 | PAMECIL FORTE FOR SYRUP 250MG/5ML | — | 本地資料未記載 |
-| HK-56898 | AMPICILLIN SODIUM FOR INJ 0.5G | — | 本地資料未記載 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-10610 | A P CAP 250MG | 單一成分 | THE UNITED LABORATORIES LTD | 有效 |
+| HK-63787 | AMPICILLIN POWDER FOR SOLUTION FOR INJECTION 500MG | 單一成分 | CEUTICAL TRADING COMPANY LIMITED | 有效 |
+| HK-61293 | NORAPILIN POWDER FOR SOLUTION FOR IM/IV INJECTION 500MG | 單一成分 | JINDUN PHARMA (H.K.) LIMITED | 有效 |
+| HK-40801 | PAMECIL FORTE FOR SYRUP 250MG/5ML | 單一成分 | STAR MEDICAL SUPPLIES LTD | 已註銷 |
+| HK-56898 | AMPICILLIN SODIUM FOR INJ 0.5G | 單一成分 | REGAL MEDICAL HEALTHCARE LIMITED | 有效 |
+
+上表列出其中 5 張（共 32 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

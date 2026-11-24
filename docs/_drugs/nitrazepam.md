@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 623
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "NITRAZEPAM"
 predicted_indications: ["Wernicke-Korsakoff syndrome"]
 description: "Nitrazepam：預測新適應症為Wernicke-Korsakoff syndrome（證據等級 L5）。香港藥劑製品註冊：3 張（有效 3 張）"
@@ -94,11 +94,15 @@ Nitrazepam 是一種苯二氮平類（benzodiazepine）藥物，原本用於失�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-46067 | ALODORM TAB 5MG | — | 資料未載明 |
-| HK-57864 | NITREDON 5 TAB 5MG | — | 資料未載明 |
-| HK-20882 | NIPA TAB 5MG | — | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-46067 | ALODORM TAB 5MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-57864 | NITREDON 5 TAB 5MG | 單一成分 | DCH AURIGA (HONG KONG) LIMITED - HEALTHCARE DIVISION | 有效 |
+| HK-20882 | NIPA TAB 5MG | 單一成分 | JEAN-MARIE PHARMACAL CO LTD | 有效 |
+
+<!-- licenses:end -->
 
 ---
 

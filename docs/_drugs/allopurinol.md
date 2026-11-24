@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ALLOPURINOL"
 predicted_indications: ["hepatic porphyria", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "inflammatory myopathy with abundant macrophages"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Allopurinol：預測新適應症為肝性紫質症（證據等級 L5）。原適應症：痛風、高尿酸血症、急性尿酸腎病變"
 ---
 
@@ -84,13 +84,19 @@ TxGNN 模型預測它可能對**肝性紫質症 (Hepatic Porphyria)** 有效，�
 
 <!-- review:end hk-lic-20261117-allopurinol-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-35846 | ALLOPURINOL TAB 100MG（HOVID） | 錠劑（100 mg） | 資料未提供 |
-| HK-66571 | ALLOPURINOL TCK TABLETS 100MG | 錠劑（100 mg） | 資料未提供 |
-| HK-21594 | SYNPURINOL TAB 100MG | 錠劑（100 mg） | 資料未提供 |
-| HK-33568 | APO-ALLOPURINOL TAB 300MG | 錠劑（300 mg） | 資料未提供 |
-| HK-10041 | ZYLORIC 300 TAB 300MG | 錠劑（300 mg） | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-35846 | ALLOPURINOL TAB 100MG | 單一成分 | HOVID LIMITED | 有效 |
+| HK-66571 | ALLOPURINOL TCK TABLETS 100MG | 單一成分 | KAERU PHARMACEUTICAL (HK) LIMITED | 有效 |
+| HK-21594 | SYNPURINOL TAB 100MG | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-33568 | APO-ALLOPURINOL TAB 300MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-10041 | ZYLORIC 300 TAB 300MG | 單一成分 | LUEN CHEONG HONG LTD | 有效 |
+
+上表列出其中 5 張（共 30 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

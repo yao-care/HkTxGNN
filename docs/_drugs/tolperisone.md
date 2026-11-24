@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 888
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Tolperisone：預測新適應症為Laubry-Pezzi 症候群 (Laubry-Pezzi syndrome)（證據等級 L5）。原適應症：目前缺乏資料"
 monitor_inn: "Tolperisone"
 predicted_indications: ["Laubry-Pezzi syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "partial deletion of the long arm of chromosome 7", "pulmonary valve disease", "orofacial clefting syndrome", "mitral valve disease", "heart disease", "disorder of fucoglycosan synthesis", "interventricular septum aneurysm"]
@@ -89,9 +89,13 @@ Laubry-Pezzi 症候群是先天性心臟畸形（心室中隔缺損合併主動�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-58152 | MUSOLAX F.C. TAB 150MG | 錠劑（未載明） | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-58152 | MUSOLAX F.C. TAB 150MG | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 廠商：SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED（單方、有效）。
 

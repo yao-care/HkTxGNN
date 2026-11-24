@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "LOXAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "atypical glycine encephalopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Loxapine：預測新適應症為視網膜失養症，伴或不伴眼外異常（證據等級 L5）。原適應症：知識圖譜中記錄的關聯：雙相情緒障礙、重度情感性疾患、思覺失調症"
 ---
 
@@ -71,9 +71,13 @@ TxGNN 模型預測它可能對**視網膜失養症（伴或不伴眼外異常）
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67228 | ADASUVE INHALATION POWDER, PRE-DISPENSED 9.1MG | 吸入粉劑（依品名判斷） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67228 | ADASUVE INHALATION POWDER, PRE-DISPENSED 9.1MG | 單一成分 | LEE'S PHARMACEUTICAL (H.K) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 此許可證為單一成分製劑，持有者為 LEE'S PHARMACEUTICAL (H.K) LIMITED。
 

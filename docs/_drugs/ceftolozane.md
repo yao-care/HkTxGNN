@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 175
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Ceftolozane：預測新適應症為淋球菌性尿道炎 (Gonococcal Urethritis)（證據等級 L5）。原適應症：泌尿道感染"
 monitor_inn: "CEFTOLOZANE"
 predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "urogenital tuberculosis", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]
@@ -92,9 +92,13 @@ TxGNN 給出高分，可能反映的是與其他用於淋病奈瑟菌（*Neisser
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-65156 | ZERBAXA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 1G/0.5G | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-65156 | ZERBAXA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 1G/0.5G | 複方 | MERCK SHARP & DOHME (ASIA) LTD | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

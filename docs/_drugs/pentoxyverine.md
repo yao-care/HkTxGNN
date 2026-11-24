@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Pentoxyverine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Pentoxyverine：預測新適應症為鼻腔疾病（證據等級 L5）。原適應症：知識圖譜中記錄的關聯：過敏性鼻炎、血管運動性鼻炎、咽炎、感冒、鼻炎、鼻咽炎"
 ---
 
@@ -79,13 +79,19 @@ TxGNN 模型預測它可能對**鼻腔疾病 (nasal cavity disease)** 有效，�
 
 <!-- review:end hk-lic-20261117-pentoxyverine-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67441 | TOCOLIN TABLETS 30MG | 未提供 | 未提供 |
-| HK-51081 | CARBETAN F.C. TAB 30MG | 未提供 | 未提供 |
-| HK-47194 | HONIL COUGH SYRUP | 未提供 | 未提供 |
-| HK-61559 | COUGHTON COUGH SYRUP | 未提供 | 未提供 |
-| HK-46568 | TUSSEDIN COUGH SYRUP | 未提供 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67441 | TOCOLIN TABLETS 30MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-51081 | CARBETAN F.C. TAB 30MG | 單一成分 | HITPHARM PHARMACEUTICAL CO LTD | 有效 |
+| HK-47194 | HONIL COUGH SYRUP | 複方 | MEYER PHARMACEUTICALS LTD | 有效 |
+| HK-61559 | COUGHTON COUGH SYRUP | 複方 | MEYER PHARMACEUTICALS LTD | 有效 |
+| HK-46568 | TUSSEDIN COUGH SYRUP | 複方 | MARCHING PHARMACEUTICAL LIMITED | 有效 |
+
+上表列出其中 5 張（共 233 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 646
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Orlistat：預測新適應症為高維生素症 (Hypervitaminosis)（證據等級 L5）。原適應症：肥胖症（obesity disorder）、單基因肥胖（monogenic obesity）"
 monitor_inn: "ORLISTAT"
 predicted_indications: ["hypervitaminosis"]
@@ -76,13 +76,19 @@ TxGNN 模型預測它可能對**高維生素症 (Hypervitaminosis)** 有效，
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-67026 | ODISTAD 120 CAPSULES 120MG | 膠囊（品名標示） | 資料未提供 |
-| HK-61889 | ZEROTEX CAPSULE 120MG | 膠囊（品名標示） | 資料未提供 |
-| HK-44752 | XENICAL CAP 120MG | 膠囊（品名標示） | 資料未提供 |
-| HK-67567 | OLILIO CAPSULES 60MG | 膠囊（品名標示） | 資料未提供 |
-| HK-61430 | CUVARLIX CAP 120MG | 膠囊（品名標示） | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-67026 | ODISTAD 120 CAPSULES 120MG | 單一成分 | HONG KONG MEDICAL SUPPLIES LTD | 有效 |
+| HK-61889 | ZEROTEX CAPSULE 120MG | 單一成分 | LSB (HK) LIMITED | 有效 |
+| HK-44752 | XENICAL CAP 120MG | 單一成分 | DKSH HONG KONG LIMITED | 有效 |
+| HK-67567 | OLILIO CAPSULES 60MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-61430 | CUVARLIX CAP 120MG | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+
+上表列出其中 5 張（共 13 張）。
+
+<!-- licenses:end -->
 
 本藥共有 13 張有效單方許可證，上表僅列出 5 張主要許可證。
 

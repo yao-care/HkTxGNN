@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 591
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MIRTAZAPINE"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
 description: "Mirtazapine：預測新適應症為Ohdo 症候群及其變異型 (Ohdo syndrome and variants)（證據等級 L5）。香港藥劑製品註冊：20 張（有效 18 張）"
@@ -72,13 +72,19 @@ Ohdo 症候群及其變異型是一種罕見的遺傳性疾病，常與 KAT6B �
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-66562 | MIRTA ORODISPERSIBLE TABLETS 30MG | 口溶錠（依品名） | 未提供 |
-| HK-52381 | REMERON SOLTAB ORODISPERSIBLE TAB 15MG | 口溶錠（依品名） | 未提供 |
-| HK-67333 | MIRZENTAC TABLETS 30MG | 錠劑（依品名） | 未提供 |
-| HK-53225 | PMS-MIRTAZAPINE TAB 30MG | 錠劑（依品名） | 未提供 |
-| HK-56412 | PMS-MIRTAZAPINE TAB 15MG | 錠劑（依品名） | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-66562 | MIRTA ORODISPERSIBLE TABLETS 30MG | 單一成分 | SB PHARMA LIMITED | 有效 |
+| HK-52381 | REMERON SOLTAB ORODISPERSIBLE TAB 15MG | 單一成分 | ORGANON HONG KONG LIMITED | 有效 |
+| HK-67333 | MIRZENTAC TABLETS 30MG | 單一成分 | SB PHARMA LIMITED | 有效 |
+| HK-53225 | PMS-MIRTAZAPINE TAB 30MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+| HK-56412 | PMS-MIRTAZAPINE TAB 15MG | 單一成分 | TRENTON-BOMA LTD | 有效 |
+
+上表列出其中 5 張（共 20 張）。
+
+<!-- licenses:end -->
 
 以上僅列出 5 張主要許可證，全部 20 張皆為單方許可證，其中 18 張有效、HK-62247、HK-62248 已註銷。
 

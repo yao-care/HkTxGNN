@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "CLINDAMYCIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clindamycin：預測新適應症為點狀上皮角結膜炎 (punctate epithelial keratoconjunctivitis)（證據等級 L5）。香港藥劑製品註冊：82 張（有效 81 張）"
 ---
 
@@ -80,13 +80,19 @@ Clindamycin 屬於林可胺類抗生素，透過結合細菌 50S 核糖體次單
 
 <!-- review:end hk-lic-20261117-clindamycin-1 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-47355 | FUMICA GEL 1% | 未記錄 | 未記錄 |
-| HK-62155 | EFFEXIA ACNE TOPICAL SOLUTION 1%W/V | 未記錄 | 未記錄 |
-| HK-56965 | KAMURA GEL 1% | 未記錄 | 未記錄 |
-| HK-50033 | CLINDAMYCIN PHOS. INJ 150MG/ML (XINHUA) | 未記錄 | 未記錄 |
-| HK-46045 | EDASON TOPICAL SOLUTION 1% | 未記錄 | 未記錄 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-47355 | FUMICA GEL 1% | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-62155 | EFFEXIA ACNE TOPICAL SOLUTION 1%W/V | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-56965 | KAMURA GEL 1% | 單一成分 | EUROPHARM LAB CO LTD | 有效 |
+| HK-50033 | CLINDAMYCIN PHOS. INJ 150MG/ML (XINHUA) | 單一成分 | JINDUN PHARMA (H.K.) LIMITED | 有效 |
+| HK-46045 | EDASON TOPICAL SOLUTION 1% | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+
+上表列出其中 5 張（共 82 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

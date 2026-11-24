@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 509
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LANSOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Lansoprazole：預測新適應症為Duodenal obstruction（證據等級 L5）。香港藥劑製品註冊：9 張（有效 9 張）"
@@ -82,13 +82,19 @@ Lansoprazole 是質子幫浦抑制劑（PPI），原本用於胃潰瘍、十二�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-51917 | TAKEPRON OD TAB 30MG (ENTERIC C. MICROGRANULES) | 口崩錠 | 未提供 |
-| HK-51919 | TAKEPRON OD TAB 15MG (ENTERIC C. MICROGRANULES) | 口崩錠 | 未提供 |
-| HK-65437 | LANPO GASTRO-RESISTANT CAPSULES 15MG | 耐胃酸膠囊 | 未提供 |
-| HK-65436 | LINX GASTRO-RESISTANT CAPSULES 15MG | 耐胃酸膠囊 | 未提供 |
-| HK-59079 | LANPIRA TAB 30MG | 錠劑 | 未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-51917 | TAKEPRON OD TAB 30MG (ENTERIC C. MICROGRANULES) | 單一成分 | TAKEDA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-51919 | TAKEPRON OD TAB 15MG (ENTERIC C. MICROGRANULES) | 單一成分 | TAKEDA PHARMACEUTICALS (HONG KONG) LIMITED | 有效 |
+| HK-65437 | LANPO GASTRO-RESISTANT CAPSULES 15MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-65436 | LINX GASTRO-RESISTANT CAPSULES 15MG | 單一成分 | WELLDONE PHARMACEUTICALS LIMITED | 有效 |
+| HK-59079 | LANPIRA TAB 30MG | 單一成分 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+
+上表列出其中 5 張（共 9 張）。
+
+<!-- licenses:end -->
 
 （共 9 張有效許可證，皆為單一成分製劑，無已註銷者；此處僅列出 5 張。）
 

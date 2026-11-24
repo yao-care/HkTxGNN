@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 280
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Diltiazem: known uses and market status in Hong Kong; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,24 +72,28 @@ TxGNN 模型為 Diltiazem 產生的候選適應症，經追溯來源後全部屬
 
 ## 香港上市資訊
 
-| 許可證字號 | 品名 | 劑型 | 狀態 |
-|------|------|------|------|
-| HK-51489 | HERBESSER R200 CAP 200MG (JAPAN) |  | 有效 |
-| HK-36361 | HERBESSER 180 SR CAP 180MG |  | 有效 |
-| HK-35593 | HERBESSER 90 SR CAP |  | 有效 |
-| HK-35196 | APO-DILTIAZ TAB 30MG |  | 有效 |
-| HK-65699 | SYN-DILTIAZEM TABLETS 30MG |  | 有效 |
-| HK-61266 | CARTIL TAB 30MG |  | 有效 |
-| HK-51192 | HERBESSER TAB 30MG |  | 有效 |
-| HK-63748 | SYN-DILTIAZEM TABLETS 60MG |  | 有效 |
-| HK-51191 | HERBESSER TAB 60MG |  | 有效 |
-| HK-61265 | CARTIL TAB 60MG |  | 有效 |
-| HK-40462 | APO-DILTIAZ TAB 60MG |  | 有效 |
-| HK-34526 | HERBESSER FOR INJ 10MG |  | 有效 |
-| HK-51488 | HERBESSER R100 CAP 100MG (JAPAN) |  | 有效 |
-| HK-50418 | WONTIZEM RETARD TAB 90MG |  | 有效 |
-| HK-34527 | HERBESSER FOR INJ 50MG |  | 有效 |
-| HK-47032 | MESSER TAB 30MG |  | 有效 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-51489 | HERBESSER R200 CAP 200MG (JAPAN) | 單一成分 | PRIMAL CHEMICAL CO LTD | 有效 |
+| HK-36361 | HERBESSER 180 SR CAP 180MG | 單一成分 | PRIMAL CHEMICAL CO LTD | 有效 |
+| HK-35593 | HERBESSER 90 SR CAP | 單一成分 | PRIMAL CHEMICAL CO LTD | 有效 |
+| HK-35196 | APO-DILTIAZ TAB 30MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-65699 | SYN-DILTIAZEM TABLETS 30MG | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-61266 | CARTIL TAB 30MG | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-51192 | HERBESSER TAB 30MG | 單一成分 | PRIMAL CHEMICAL CO LTD | 有效 |
+| HK-63748 | SYN-DILTIAZEM TABLETS 60MG | 單一成分 | SYNCO (H.K.) LIMITED | 有效 |
+| HK-51191 | HERBESSER TAB 60MG | 單一成分 | PRIMAL CHEMICAL CO LTD | 有效 |
+| HK-61265 | CARTIL TAB 60MG | 單一成分 | SYNMOSA BIOPHARMA (HONG KONG) COMPANY LIMITED | 有效 |
+| HK-40462 | APO-DILTIAZ TAB 60MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-34526 | HERBESSER FOR INJ 10MG | 單一成分 | PRIMAL CHEMICAL CO LTD | 有效 |
+| HK-51488 | HERBESSER R100 CAP 100MG (JAPAN) | 單一成分 | PRIMAL CHEMICAL CO LTD | 有效 |
+| HK-50418 | WONTIZEM RETARD TAB 90MG | 單一成分 | HEALTHCARE PHARMASCIENCE LIMITED | 有效 |
+| HK-34527 | HERBESSER FOR INJ 50MG | 單一成分 | PRIMAL CHEMICAL CO LTD | 有效 |
+| HK-47032 | MESSER TAB 30MG | 單一成分 | APT PHARMA LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 安全性考量
 

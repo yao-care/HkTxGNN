@@ -5,7 +5,7 @@ layout: default
 title: Tenapanor
 parent: 僅已知用途（無新預測）
 nav_order: 856
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Tenapanor: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Tenapanor"
 predicted_indications: []
@@ -50,9 +50,13 @@ evidence_level: N/A
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68017 | IBSRELA TABLETS 50MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68017 | IBSRELA TABLETS 50MG | 單一成分 | FOSUN INDUSTRIAL CO., LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 廠商：FOSUN INDUSTRIAL CO., LIMITED；狀態：有效（單方）。
 

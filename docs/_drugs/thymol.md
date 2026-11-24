@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 874
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Thymol：預測新適應症為室中隔動脈瘤 (Interventricular Septum Aneurysm)（證據等級 L5）。原適應症：資料未載明"
 monitor_inn: "Thymol"
 predicted_indications: ["interventricular septum aneurysm", "pulmonary valve disease", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "orofacial clefting syndrome", "partial deletion of the long arm of chromosome 22", "Pierre Robin syndrome associated with a chromosomal anomaly", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 7", "Jeune syndrome situs inversus"]
@@ -83,13 +83,19 @@ TxGNN 模型預測它可能對**室中隔動脈瘤 (Interventricular Septum Aneu
 
 以下列出 5 張主要許可證（共 15 張，皆為有效單方許可證）。資料中未載明劑型與核准適應症。
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-33438 | BELANTOIN CREAM | 未載明 | 未載明 |
-| HK-31687 | BURN CREAM | 未載明 | 未載明 |
-| HK-33439 | BETOCAINE CREAM | 未載明 | 未載明 |
-| HK-54098 | SINSIN PAS PLASTER | 未載明 | 未載明 |
-| HK-59559 | EUGENPAS PATCH | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-33438 | BELANTOIN CREAM | 複方 | MEYER PHARMACEUTICALS LTD | 有效 |
+| HK-31687 | BURN CREAM | 複方 | MEDIPHARMA LTD | 有效 |
+| HK-33439 | BETOCAINE CREAM | 複方 | MEYER PHARMACEUTICALS LTD | 有效 |
+| HK-54098 | SINSIN PAS PLASTER | 複方 | JULIUS CHEN & COMPANY (HK) LIMITED | 有效 |
+| HK-59559 | EUGENPAS PATCH | 複方 | EUGENPHARM INTERNATIONAL LIMITED | 有效 |
+
+上表列出其中 5 張（共 15 張）。
+
+<!-- licenses:end -->
 
 ---
 

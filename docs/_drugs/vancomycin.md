@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "VANCOMYCIN"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vancomycin：預測新適應症為瀰漫性硬皮症 (Diffuse Scleroderma)（證據等級 L5）。原適應症：知識圖譜記錄的關聯：艱難梭菌結腸炎、葡萄球菌感染、心內膜炎等"
 ---
 
@@ -73,13 +73,19 @@ TxGNN 模型預測它可能對**瀰漫性硬皮症 (Diffuse Scleroderma)** 有�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68968 | MYCOVAN POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION AND ORAL SOLUTION 500MG | 未載明 | 未載明 |
-| HK-65454 | VONDEM POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 500MG | 未載明 | 未載明 |
-| HK-33907 | VANCOMYCIN HCL FOR INJ 500MG IV | 未載明 | 未載明 |
-| HK-68633 | VANCOMYCIN POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 500MG | 未載明 | 未載明 |
-| HK-64106 | VANCOMYCIN KABI POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 500MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68968 | MYCOVAN POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION AND ORAL SOLUTION 500MG | 單一成分 | HANG LUNG TRADING (H.K.) CO | 有效 |
+| HK-65454 | VONDEM POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 500MG | 單一成分 | HIND WING CO LTD | 有效 |
+| HK-33907 | VANCOMYCIN HCL FOR INJ 500MG IV | 單一成分 | PFIZER CORPORATION HONG KONG LIMITED | 有效 |
+| HK-68633 | VANCOMYCIN POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 500MG | 單一成分 | VIATRIS HEALTHCARE HONG KONG LIMITED | 有效 |
+| HK-64106 | VANCOMYCIN KABI POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 500MG | 單一成分 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+
+上表列出其中 5 張（共 7 張）。
+
+<!-- licenses:end -->
 
 本藥共 7 張單一成分許可證，上表僅列出前 5 張。
 

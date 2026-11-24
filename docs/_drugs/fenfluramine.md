@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FENFLURAMINE"
 predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "obsolete hypertelorism (disease)", "frontorhiny"]
 description: "Fenfluramine：預測新適應症為16p11.2 近端微缺失症候群 (proximal 16p11.2 microdeletion syndrome)（證據等級 L5）。香港藥劑製品註冊：1 張（有效 1 張）"
@@ -74,9 +74,13 @@ TxGNN 模型預測它可能對**16p11.2 近端微缺失症候群 (proximal 16p11
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-68504 | FINTEPLA ORAL SOLUTION 2.2MG/ML | 口服液劑（依品名） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-68504 | FINTEPLA ORAL SOLUTION 2.2MG/ML | 單一成分 | UCB PHARMA (HONG KONG) LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 製造商／持證商：UCB Pharma (Hong Kong) Limited。
 

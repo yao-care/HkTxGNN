@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "MELPHALAN"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Melphalan：預測新適應症為女性乳癌 (female breast carcinoma)（證據等級 L5）。原適應症：卵巢癌"
 ---
 
@@ -87,10 +87,14 @@ TxGNN 模型預測它可能對**女性乳癌 (female breast carcinoma)** 有效�
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-03792 | ALKERAN TAB 2MG | 未載明 | 未載明 |
-| HK-37994 | ALKERAN FOR INJ 50MG | 未載明 | 未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-03792 | ALKERAN TAB 2MG | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+| HK-37994 | ALKERAN FOR INJ 50MG | 單一成分 | ASPEN PHARMACARE ASIA LIMITED O/B ASPEN PHARMACARE ASIA LIMITED | 有效 |
+
+<!-- licenses:end -->
 
 ## 細胞毒性
 

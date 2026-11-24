@@ -5,7 +5,7 @@ layout: default
 title: Racecadotril
 parent: 僅已知用途（無新預測）
 nav_order: 751
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Racecadotril: 香港已知用途與上市狀態；目前無新的候選適應症"
 monitor_inn: "Racecadotril"
 predicted_indications: []
@@ -50,11 +50,15 @@ evidence_level: N/A
 
 ## 香港上市資訊
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-59223 | HIDRASEC CAP 100MG | 膠囊 | 資料未提供 |
-| HK-59228 | HIDRASEC GRANULES FOR ORAL SUSPENSION 10MG/SACHET | 口服懸液用顆粒 | 資料未提供 |
-| HK-59227 | HIDRASEC GRANULES FOR ORAL SUSPENSION 30MG/SACHET | 口服懸液用顆粒 | 資料未提供 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-59223 | HIDRASEC CAP 100MG | 單一成分 | ABBOTT LAB LTD | 有效 |
+| HK-59228 | HIDRASEC GRANULES FOR ORAL SUSPENSION 10MG/SACHET | 單一成分 | ABBOTT LAB LTD | 有效 |
+| HK-59227 | HIDRASEC GRANULES FOR ORAL SUSPENSION 30MG/SACHET | 單一成分 | ABBOTT LAB LTD | 有效 |
+
+<!-- licenses:end -->
 
 三張許可證皆為單一成分製劑，狀態有效，持證商為 ABBOTT LAB LTD。
 

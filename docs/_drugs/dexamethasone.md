@@ -5,7 +5,7 @@ parent: 僅模型預測 (L5)
 nav_order: 264
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DEXAMETHASONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
 description: "Dexamethasone：預測新適應症為黏液性禿髮 (alopecia mucinosa)（證據等級 L5）。香港藥劑製品註冊：101 張（有效 100 張）"
@@ -84,13 +84,19 @@ TxGNN 模型預測它可能對**黏液性禿髮 (alopecia mucinosa)** 有效。
 
 <!-- review:end hk-lic-20261117-dexamethasone-2 -->
 
-| 許可證號 | 品名 | 劑型 | 核准適應症 |
-|---------|------|------|-----------|
-| HK-25481 | DEXAMED TAB 0.5MG | 錠劑（依品名） | 資料未載明 |
-| HK-45805 | DEXAMETHASONE TAB 0.5MG (PENTAGON) | 錠劑（依品名） | 資料未載明 |
-| HK-53360 | DEXAMETHASONE-HAMELN INJ 4MG/ML | 注射劑（依品名） | 資料未載明 |
-| HK-67275 | DEXAMETHASONE PHOSPHATE SOLUTION FOR INJECTION 40MG/10ML | 注射劑（依品名） | 資料未載明 |
-| HK-68955 | DEXAMETHASONE PHOSPHATE SOLUTION FOR INJECTION 4MG/1ML | 注射劑（依品名） | 資料未載明 |
+<!-- licenses:begin -->
+
+| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
+|------|------|------|------|------|
+| HK-25481 | DEXAMED TAB 0.5MG | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-45805 | DEXAMETHASONE TAB 0.5MG (PENTAGON) | 單一成分 | MEYER PHARMACEUTICALS LTD | 有效 |
+| HK-53360 | DEXAMETHASONE-HAMELN INJ 4MG/ML | 單一成分 | MEKIM LTD | 有效 |
+| HK-67275 | DEXAMETHASONE PHOSPHATE SOLUTION FOR INJECTION 40MG/10ML | 單一成分 | KAI YUEN PHARMACEUTICAL LIMITED | 有效 |
+| HK-68955 | DEXAMETHASONE PHOSPHATE SOLUTION FOR INJECTION 4MG/1ML | 單一成分 | MEKIM LTD | 有效 |
+
+上表列出其中 5 張（共 101 張）。
+
+<!-- licenses:end -->
 
 ## 安全性考量
 
