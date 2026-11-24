@@ -108,7 +108,13 @@ TxGNN 模型預測它可能對**藥物誘發性骨質疏鬆 (drug-induced osteop
 
 <!-- licenses:end -->
 
-兩張許可證皆為有效的單一成分許可證，持證商為 MAN HING MEDICINE TRADERS。
+含本藥成分的許可證皆為複方（狀態見上表），持證商為 MAN HING MEDICINE TRADERS。
+
+<!-- review:begin hk-lic-20261124d-ginseng-1 -->
+
+> **查核更正（2026-11-24）**：原文為「兩張許可證皆為有效的單一成分許可證，」。已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124d-ginseng-1 -->
 
 ---
 
@@ -151,6 +157,7 @@ TxGNN 模型預測它可能對**藥物誘發性骨質疏鬆 (drug-induced osteop
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-24 | 「人參（Ginseng，DrugBank：DB01404）在香港有 2 張單一成分」→「人參（Ginseng，DrugBank：DB01404）在香」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「兩張許可證皆為有效的單一成分許可證，」→「含本藥成分的許可證皆為複方（狀態見上表）」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

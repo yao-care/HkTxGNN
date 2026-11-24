@@ -82,7 +82,13 @@ Triamterene 一般被歸類為保鉀利尿劑（透過阻斷上皮鈉通道 ENaC
 
 <!-- licenses:end -->
 
-此許可證的品名顯示為含 triamterene 與另一利尿成分的製劑，但資料中分類為單一成分；其內容不能用來說明單方 triamterene 的核准狀態。
+此許可證的品名顯示為含 triamterene 與另一利尿成分的製劑，註冊名單成分欄亦列為複方；其內容不能用來說明單方 triamterene 的核准狀態。
+
+<!-- review:begin hk-lic-20261124d-triamterene-1 -->
+
+> **查核更正（2026-11-24）**：原文為「，但資料中分類為單一成分；」。已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124d-triamterene-1 -->
 
 ## 安全性考量
 
@@ -112,11 +118,12 @@ Triamterene 一般被歸類為保鉀利尿劑（透過阻斷上皮鈉通道 ENaC
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-20 | "目前缺乏詳細的作用機轉資料。Triamterene 一般被歸類為保鉀利尿劑（透過阻斷上皮鈉通道 ENaC），可透過控制血壓與體液量間接影響高血壓相關疾病，但此機轉描述並非來自本報告所整理的資料欄位，需另行查證。" replaced with a sourced mechanism-of-action statement | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL585 (triamterene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL585) |
+| 2026-11-24 | 「，但資料中分類為單一成分；」→「，註冊名單成分欄亦列為複方；」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

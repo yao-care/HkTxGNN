@@ -38,8 +38,14 @@ predicted_indications: ["interventricular septum aneurysm", "pulmonary valve dis
 
 ## 一句話總結
 
-Thymol（百里酚）是一種天然酚類單萜化合物，在香港以外用藥膏、貼布、液劑等單方製劑上市，但本次彙整的資料中未載明核准適應症。
+Thymol（百里酚）是一種天然酚類單萜化合物，在香港以外用藥膏、貼布、液劑等複方製劑上市，但本次彙整的資料中未載明核准適應症。
 TxGNN 模型預測它可能對**室中隔動脈瘤 (Interventricular Septum Aneurysm)** 有效，但目前**沒有任何臨床試驗或直接相關文獻**支持，僅屬模型預測（證據等級 L5）。
+
+<!-- review:begin hk-lic-20261124d-thymol-1 -->
+
+> **查核更正（2026-11-24）**：原文為「等單方製劑上市，」。已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124d-thymol-1 -->
 
 ---
 
@@ -81,7 +87,13 @@ TxGNN 模型預測它可能對**室中隔動脈瘤 (Interventricular Septum Aneu
 
 ## 香港上市資訊
 
-以下列出 5 張主要許可證（共 15 張，皆為有效單方許可證）。資料中未載明劑型與核准適應症。
+以下列出 5 張主要許可證（含本藥成分的許可證皆為複方，張數與狀態見本頁快速總覽）。資料中未載明劑型與核准適應症。
+
+<!-- review:begin hk-lic-20261124d-thymol-2 -->
+
+> **查核更正（2026-11-24）**：原文為「（共 15 張，皆為有效單方許可證）」。已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124d-thymol-2 -->
 
 <!-- licenses:begin -->
 
@@ -118,6 +130,20 @@ TxGNN 模型預測它可能對**室中隔動脈瘤 (Interventricular Septum Aneu
 - 補充詳細的作用機轉（MOA）資料。
 - 找出任何支持 Thymol 與心臟結構異常之間關聯的生物學或臨床證據；若無，建議不再優先推進此適應症。
 - 可考慮改評估 Thymol 在其他有文獻線索的方向（例如腸道發炎、抗菌、傷口癒合），但需另行重新評估，不屬於本次預測的支持證據。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-24 | 「等單方製劑上市，」→「等複方製劑上市，」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「（共 15 張，皆為有效單方許可證）」→「（含本藥成分的許可證皆為複方，張數與狀態」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

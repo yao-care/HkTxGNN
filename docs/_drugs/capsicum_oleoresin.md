@@ -56,11 +56,29 @@ evidence_level: N/A
 
 <!-- licenses:end -->
 
-該許可證為單方製劑，狀態有效，持證商為 PHARMAREG CONSULTING COMPANY LIMITED。
+該許可證為複方製劑，狀態有效，持證商為 PHARMAREG CONSULTING COMPANY LIMITED。
+
+<!-- review:begin hk-lic-20261124d-capsicum_oleoresin-1 -->
+
+> **查核更正（2026-11-24）**：原文為「該許可證為單方製劑，」。已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124d-capsicum_oleoresin-1 -->
 
 ## 安全性考量
 
 安全性資訊請參考原廠仿單。本報告整理的資料中查無藥物交互作用紀錄。
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-24 | 「該許可證為單方製劑，」→「該許可證為複方製劑，」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

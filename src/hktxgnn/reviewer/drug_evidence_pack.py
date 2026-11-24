@@ -11,6 +11,7 @@ from pathlib import Path
 
 from ..collectors.drug_bundle import DrugBundle
 from .llm_client import LLMClient
+from ..regulatory import ingredients as _hk_ingredients
 
 
 # 2026-10-17：status 欄有值不代表註銷（各國是 Authorised／有効／Vigente…），只認註銷類字樣
@@ -131,7 +132,8 @@ class DrugEvidencePackGenerator:
                 "dosage_form": r.get("dosage_form", r.get("劑型", "")),
                 "manufacturer": r.get("license_holder") or r.get("製造廠") or r.get("申請商") or r.get("holder") or r.get("company", ""),
                 "approved_indication_text": r.get("indication", r.get("適應症", "")),
-                "kind": r.get("kind") or ("single" if len(ings) <= 1 else "combo"),
+                # 2026-11-24：成分欄是註冊名單 activeIng、以「; 」分隔（不是「;;」），單一成分／複方改用本站的切分規則
+                "kind": r.get("kind") or _hk_ingredients.kind(r.get("ingredients") or r.get("主成分略述") or ""),
                 "status": status,
             })
         valid = [x for x in lics if x["status"] == "valid"]

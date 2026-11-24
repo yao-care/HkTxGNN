@@ -38,8 +38,14 @@ predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyp
 
 ## 一句話總結
 
-Valine（纈胺酸）是一種支鏈胺基酸（BCAA），在香港以單一成分或胺基酸輸液成分的形式上市。
+Valine（纈胺酸）是一種支鏈胺基酸（BCAA），在香港以胺基酸輸液等複方製劑的成分形式上市（含本藥成分的許可證皆為複方）。
 TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** 有效，但目前**沒有臨床試驗**，僅有 **2 篇間接相關文獻**，且都不是評估纈胺酸治療效果的研究。
+
+<!-- review:begin hk-lic-20261124d-valine-1 -->
+
+> **查核更正（2026-11-24）**：原文為「以單一成分或胺基酸輸液成分的形式上市。」。已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124d-valine-1 -->
 
 ---
 
@@ -137,6 +143,7 @@ TxGNN 模型預測它可能對**硬化性膽管炎 (Sclerosing Cholangitis)** �
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-24 | 「以上僅列出 5 張主要許可證，共有 20 張有效單一成分許可證。」→「以上僅列出部分主要許可證，香港含本藥成分的許可證皆為複方，張」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
+| 2026-11-24 | 「以單一成分或胺基酸輸液成分的形式上市。」→「以胺基酸輸液等複方製劑的成分形式上市（含」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

@@ -38,8 +38,14 @@ predicted_indications: ["bronchitis"]
 
 ## 一句話總結
 
-Phenazopyridine 是一種泌尿道止痛藥，在香港為單方製劑，已有 12 張有效許可證。
+Phenazopyridine 是一種泌尿道止痛藥，在香港含本藥成分的許可證包括單一成分與複方製劑，張數與有效張數見本頁快速總覽與「香港上市資訊」的許可證表。
 TxGNN 模型預測它可能對**支氣管炎 (Bronchitis)** 有效，但目前**沒有任何臨床試驗或文獻**支持，這僅是模型預測，且缺乏藥理學上的合理連結。
+
+<!-- review:begin hk-lic-20261124d-phenazopyridine-1 -->
+
+> **查核更正（2026-11-24）**：原文為「在香港為單方製劑，已有 12 張有效許可證。」。已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124d-phenazopyridine-1 -->
 
 ---
 
@@ -146,6 +152,7 @@ TxGNN 模型（深度學習）給出的高分（0.9923）可能反映模型從�
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-24 | 「本藥在香港共有 12 張有效單方許可證。」→「本藥在香港的許可證包括單一成分與複方製劑，張數與有效張數見本」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「在香港為單方製劑，已有 12 張有效許可」→「在香港含本藥成分的許可證包括單一成分與複」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

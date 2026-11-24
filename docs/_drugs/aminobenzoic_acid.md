@@ -38,9 +38,15 @@ description: "Aminobenzoic Acid：預測新適應症為遺傳性血管性水腫�
 
 ## 一句話總結
 
-胺基苯甲酸 (Aminobenzoic acid) 是香港已有上市許可證的單一成分藥物。
+胺基苯甲酸 (Aminobenzoic acid) 在香港有含本藥成分的上市許可證（皆為複方）。
 TxGNN 模型預測它可能對**遺傳性血管性水腫併 C1 抑制劑缺乏 (hereditary angioedema with C1Inh deficiency)** 有效，
 但目前**沒有任何臨床試驗或文獻**直接支持這個方向，僅為模型預測。
+
+<!-- review:begin hk-lic-20261124d-aminobenzoic_acid-1 -->
+
+> **查核更正（2026-11-24）**：原文為「胺基苯甲酸 (Aminobenzoic acid) 是香港已有上市許可證的單一成分藥物。」。已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124d-aminobenzoic_acid-1 -->
 
 ## 快速總覽
 
@@ -101,6 +107,19 @@ TxGNN 模型預測它可能對**遺傳性血管性水腫併 C1 抑制劑缺乏 (
 - 進行文獻系統性檢索與前臨床研究，確認是否有任何生物學依據
 - 取得香港原廠仿單，完成警語與禁忌症的安全性評估
 - 確認給藥途徑是否適合此疾病的治療需求
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-24 | 「胺基苯甲酸 (Aminobenzoic 」→「胺基苯甲酸 (Aminobenzoic 」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

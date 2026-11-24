@@ -108,7 +108,13 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 
 <!-- licenses:end -->
 
-以上為 16 張有效單一成分許可證中的 5 張，其餘包括 SMOFKABIVEN、OLIMEL、PERIOLIMEL、NUMETA 及 BFLUID 等系列產品。
+以上為含本藥成分許可證（皆為複方，張數見本頁快速總覽）中的 5 張，其餘包括 SMOFKABIVEN、OLIMEL、PERIOLIMEL、NUMETA 及 BFLUID 等系列產品。
+
+<!-- review:begin hk-lic-20261124d-tyrosine-1 -->
+
+> **查核更正（2026-11-24）**：原文為「以上為 16 張有效單一成分許可證中的 5 張，」。已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124d-tyrosine-1 -->
 
 ## 安全性考量
 
@@ -128,6 +134,19 @@ TxGNN 模型預測它可能對**馬尾症候群 (Cauda Equina Syndrome)** 有效
 - 釐清各預測適應症與酪胺酸的具體機轉假說，優先針對有生物學連結者（如自主神經相關疾病）
 - 若要評估甲狀腺相關用途，需有能單獨測試酪胺酸效果的對照試驗設計
 - 確認「神經性膀胱」預測是否對應到已廢棄的疾病概念
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-24 | 「以上為 16 張有效單一成分許可證中的 」→「以上為含本藥成分許可證（皆為複方，張數見」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+
+<!-- review:end log -->
+
 ## 免責聲明
 
 本內容僅供研究參考，不構成醫療建議。

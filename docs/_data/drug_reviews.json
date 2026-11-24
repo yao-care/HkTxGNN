@@ -13001,9 +13001,9 @@
    "file": "serine.md",
    "action": "correct",
    "claim": "下列為已登記的主要許可證（以含 Serine 的單一成分登記資料為準，清單可能不完整）：",
-   "replacement": "下列為已登記的主要許可證（以含 Serine 的單一成分登記資料為準）：",
+   "replacement": "下列為已登記的主要許可證（含 Serine 的許可證皆為複方，以登記資料為準）：",
    "note": "已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊；含本藥成分的許可證皆為複方，張數見本頁快速總覽與許可證表（2026-11-17 核對）。",
-   "finding": "2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。",
+   "finding": "2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。；2026-11-24：事實層單方張數改依本站成分欄切分後，更正文字的「單一成分登記資料」說法照成分欄改成「皆為複方」。",
    "sources": [
     {
      "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
@@ -13017,7 +13017,7 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "「下列為已登記的主要許可證（以含 Serine 的單一成分登記資料為準，清單可能不」→「下列為已登記的主要許可證（以含 Serine 的單一成分登記」",
+   "summary": "「下列為已登記的主要許可證（以含 Serine 的單一成分登記資料為準，清」→「下列為已登記的主要許可證（含 Serine 的許可證皆為複方」",
    "history": [
     {
      "id": "hk-lic-20261117-serine-1",
@@ -13044,6 +13044,32 @@
      "summary": "「下列為已登記的主要許可證（以含 Serine 的單一成分登記資料為準，清單可能不」→「下列為已登記的主要許可證（以含 Serine 的單一成分登記」",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：說明文字不再寫死張數，更正的事實內容保留"
+    },
+    {
+     "id": "hk-lic-20261117-serine-1",
+     "drug": "serine",
+     "file": "serine.md",
+     "action": "correct",
+     "claim": "下列為已登記的主要許可證（以含 Serine 的單一成分登記資料為準，清單可能不完整）：",
+     "replacement": "下列為已登記的主要許可證（以含 Serine 的單一成分登記資料為準）：",
+     "note": "已更正：本頁資料原本只收錄部分註冊（最多 20 張），2026-11-17 依本站原本的收錄規則（成分對 DrugBank ID，單方、複方都收）對衞生署藥物辦公室註冊名單補齊本藥全部註冊；含本藥成分的許可證皆為複方，張數見本頁快速總覽與許可證表（2026-11-17 核對）。",
+     "finding": "2026-11-17 拿掉證據包 20 筆上限：scripts/add_current_registrations.py 依原收錄規則（2026-03 版 DrugList.xml 的號照 data/processed/drug_mapping.csv 對 DrugBank ID，之後新增的號照同一支 map_fda_drugs_to_drugbank）對現行 DrugList.xml（lastUpdate 2026-11-13）補齊本藥全部註冊號，2026-03 版有、現行名單已不列的號補成已註銷，證據包不再是部分收錄。正文依舊證據包（最多 20 筆）寫的張數、「至少 N 張」「清單可能不完整」與「皆為有效／皆為單一成分」等全稱說法照補齊後的事實層更正；單一成分／複方依註冊名單的成分欄（activeIng 個數）判斷。",
+     "sources": [
+      {
+       "title": "衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）",
+       "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）",
+       "url": "https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "「下列為已登記的主要許可證（以含 Serine 的單一成分登記資料為準，清單可能不」→「下列為已登記的主要許可證（以含 Serine 的單一成分登記」",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 事實層單方張數依本站成分欄切分後，更正文字裡「以含 Serine 的單一成分登記資料為準」跟註冊名單成分欄（含本藥成分的許可證皆為複方）不符，同 id 重發"
     }
    ]
   },
@@ -35620,6 +35646,646 @@
    ],
    "checked": "2026-11-24",
    "method": "2026-11-24 第三輪（用戶決定「-」不算成分後，寬偵測複查單一成分／複方全稱說法時找到的同類句）"
+  },
+  {
+   "id": "hk-lic-20261124d-aminobenzoic_acid-1",
+   "drug": "aminobenzoic_acid",
+   "file": "aminobenzoic_acid.md",
+   "action": "correct",
+   "claim": "胺基苯甲酸 (Aminobenzoic acid) 是香港已有上市許可證的單一成分藥物。",
+   "replacement": "胺基苯甲酸 (Aminobenzoic acid) 在香港有含本藥成分的上市許可證（皆為複方）。",
+   "summary": "「胺基苯甲酸 (Aminobenzoic 」→「胺基苯甲酸 (Aminobenzoic 」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-bictegravir-1",
+   "drug": "bictegravir",
+   "file": "bictegravir.md",
+   "action": "correct",
+   "claim": "許可證狀態為有效（單一成分）。",
+   "replacement": "許可證狀態為有效（複方）。",
+   "summary": "「許可證狀態為有效（單一成分）。」→「許可證狀態為有效（複方）。」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-capsicum_oleoresin-1",
+   "drug": "capsicum_oleoresin",
+   "file": "capsicum_oleoresin.md",
+   "action": "correct",
+   "claim": "該許可證為單方製劑，",
+   "replacement": "該許可證為複方製劑，",
+   "summary": "「該許可證為單方製劑，」→「該許可證為複方製劑，」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-carbinoxamine-1",
+   "drug": "carbinoxamine",
+   "file": "carbinoxamine.md",
+   "action": "correct",
+   "claim": "在香港已有多張單一成分許可證上市。",
+   "replacement": "在香港已有多張含本藥成分的許可證上市（皆為複方）。",
+   "summary": "「在香港已有多張單一成分許可證上市。」→「在香港已有多張含本藥成分的許可證上市（皆」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-ferrous_fumarate-1",
+   "drug": "ferrous_fumarate",
+   "file": "ferrous_fumarate.md",
+   "action": "correct",
+   "claim": "；單一成分製劑，狀態有效。",
+   "replacement": "；複方製劑，狀態有效。",
+   "summary": "「；單一成分製劑，狀態有效。」→「；複方製劑，狀態有效。」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-ferrous_gluconate-1",
+   "drug": "ferrous_gluconate",
+   "file": "ferrous_gluconate.md",
+   "action": "correct",
+   "claim": "此許可證為單一成分產品，",
+   "replacement": "此許可證為複方產品，",
+   "summary": "「此許可證為單一成分產品，」→「此許可證為複方產品，」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-ginseng-1",
+   "drug": "ginseng",
+   "file": "ginseng.md",
+   "action": "correct",
+   "claim": "兩張許可證皆為有效的單一成分許可證，",
+   "replacement": "含本藥成分的許可證皆為複方（狀態見上表），",
+   "summary": "「兩張許可證皆為有效的單一成分許可證，」→「含本藥成分的許可證皆為複方（狀態見上表）」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-glycyrrhizic_acid-1",
+   "drug": "glycyrrhizic_acid",
+   "file": "glycyrrhizic_acid.md",
+   "action": "correct",
+   "claim": "已有多個單方產品在香港取得許可。",
+   "replacement": "已有多個含本藥成分的複方產品在香港取得許可。",
+   "summary": "「已有多個單方產品在香港取得許可。」→「已有多個含本藥成分的複方產品在香港取得許」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-glycyrrhizic_acid-2",
+   "drug": "glycyrrhizic_acid",
+   "file": "glycyrrhizic_acid.md",
+   "action": "correct",
+   "claim": "以上 4 張許可證均為有效的單方許可證，",
+   "replacement": "上表許可證皆為複方（狀態見上表），",
+   "summary": "「以上 4 張許可證均為有效的單方許可證，」→「上表許可證皆為複方（狀態見上表），」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-guaiacol-1",
+   "drug": "guaiacol",
+   "file": "guaiacol.md",
+   "action": "correct",
+   "claim": "此許可證為單一成分產品，",
+   "replacement": "此許可證為複方產品，",
+   "summary": "「此許可證為單一成分產品，」→「此許可證為複方產品，」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-hesperidin-1",
+   "drug": "hesperidin",
+   "file": "hesperidin.md",
+   "action": "correct",
+   "claim": "Hesperidin 在香港以單方製劑形式上市，",
+   "replacement": "Hesperidin 在香港以複方製劑形式上市，",
+   "summary": "「Hesperidin 在香港以單方製劑形」→「Hesperidin 在香港以複方製劑形」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-lactic_acid-1",
+   "drug": "lactic_acid",
+   "file": "lactic_acid.md",
+   "action": "correct",
+   "claim": "共 7 張，皆為有效的單一成分許可證。",
+   "replacement": "含本藥成分的許可證皆為複方，張數與狀態見本頁快速總覽與許可證表。",
+   "summary": "「共 7 張，皆為有效的單一成分許可證。」→「含本藥成分的許可證皆為複方，張數與狀態見」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-oxyquinoline-1",
+   "drug": "oxyquinoline",
+   "file": "oxyquinoline.md",
+   "action": "correct",
+   "claim": "屬單一成分製劑，",
+   "replacement": "屬複方製劑，",
+   "summary": "「屬單一成分製劑，」→「屬複方製劑，」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-pentosan_polysulfate-1",
+   "drug": "pentosan_polysulfate",
+   "file": "pentosan_polysulfate.md",
+   "action": "correct",
+   "claim": "此許可證為單方、有效狀態，",
+   "replacement": "此許可證為複方、有效狀態，",
+   "summary": "「此許可證為單方、有效狀態，」→「此許可證為複方、有效狀態，」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-pibrentasvir-1",
+   "drug": "pibrentasvir",
+   "file": "pibrentasvir.md",
+   "action": "correct",
+   "claim": "此許可證為單一成分登記，",
+   "replacement": "此許可證為複方登記，",
+   "summary": "「此許可證為單一成分登記，」→「此許可證為複方登記，」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-polysorbate_80-1",
+   "drug": "polysorbate_80",
+   "file": "polysorbate_80.md",
+   "action": "correct",
+   "claim": "此許可證為單一成分製劑，",
+   "replacement": "此許可證為複方製劑，",
+   "summary": "「此許可證為單一成分製劑，」→「此許可證為複方製劑，」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-procaine_benzylpenicillin-1",
+   "drug": "procaine_benzylpenicillin",
+   "file": "procaine_benzylpenicillin.md",
+   "action": "correct",
+   "claim": "此許可證為單一成分製劑，品名",
+   "replacement": "此許可證為複方製劑，品名",
+   "summary": "「此許可證為單一成分製劑，品名」→「此許可證為複方製劑，品名」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-thymol-1",
+   "drug": "thymol",
+   "file": "thymol.md",
+   "action": "correct",
+   "claim": "等單方製劑上市，",
+   "replacement": "等複方製劑上市，",
+   "summary": "「等單方製劑上市，」→「等複方製劑上市，」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-thymol-2",
+   "drug": "thymol",
+   "file": "thymol.md",
+   "action": "correct",
+   "claim": "（共 15 張，皆為有效單方許可證）",
+   "replacement": "（含本藥成分的許可證皆為複方，張數與狀態見本頁快速總覽）",
+   "summary": "「（共 15 張，皆為有效單方許可證）」→「（含本藥成分的許可證皆為複方，張數與狀態」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-triamterene-1",
+   "drug": "triamterene",
+   "file": "triamterene.md",
+   "action": "correct",
+   "claim": "，但資料中分類為單一成分；",
+   "replacement": "，註冊名單成分欄亦列為複方；",
+   "summary": "「，但資料中分類為單一成分；」→「，註冊名單成分欄亦列為複方；」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-tyrosine-1",
+   "drug": "tyrosine",
+   "file": "tyrosine.md",
+   "action": "correct",
+   "claim": "以上為 16 張有效單一成分許可證中的 5 張，",
+   "replacement": "以上為含本藥成分許可證（皆為複方，張數見本頁快速總覽）中的 5 張，",
+   "summary": "「以上為 16 張有效單一成分許可證中的 」→「以上為含本藥成分許可證（皆為複方，張數見」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-valine-1",
+   "drug": "valine",
+   "file": "valine.md",
+   "action": "correct",
+   "claim": "以單一成分或胺基酸輸液成分的形式上市。",
+   "replacement": "以胺基酸輸液等複方製劑的成分形式上市（含本藥成分的許可證皆為複方）。",
+   "summary": "「以單一成分或胺基酸輸液成分的形式上市。」→「以胺基酸輸液等複方製劑的成分形式上市（含」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-valproic_acid-1",
+   "drug": "valproic_acid",
+   "file": "valproic_acid.md",
+   "action": "correct",
+   "claim": "持有的單一成分製劑，",
+   "replacement": "持有的複方製劑，",
+   "summary": "「持有的單一成分製劑，」→「持有的複方製劑，」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-vitamin_a-1",
+   "drug": "vitamin_a",
+   "file": "vitamin_a.md",
+   "action": "correct",
+   "claim": "（共 8 張，皆為有效單方）",
+   "replacement": "（含本藥成分的許可證皆為複方，張數與狀態見本頁快速總覽）",
+   "summary": "「（共 8 張，皆為有效單方）」→「（含本藥成分的許可證皆為複方，張數與狀態」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-zinc_chloride-1",
+   "drug": "zinc_chloride",
+   "file": "zinc_chloride.md",
+   "action": "correct",
+   "claim": "在香港以單一成分許可證上市，",
+   "replacement": "在香港以含本藥成分的複方許可證上市，",
+   "summary": "「在香港以單一成分許可證上市，」→「在香港以含本藥成分的複方許可證上市，」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-zinc_sulfate-1",
+   "drug": "zinc_sulfate",
+   "file": "zinc_sulfate.md",
+   "action": "correct",
+   "claim": "目前在香港有多張單一成分許可證。",
+   "replacement": "目前在香港有多張含本藥成分的許可證（皆為複方）。",
+   "summary": "「目前在香港有多張單一成分許可證。」→「目前在香港有多張含本藥成分的許可證（皆為」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-human_immunoglobulin_g-1",
+   "drug": "human_immunoglobulin_g",
+   "file": "human_immunoglobulin_g.md",
+   "action": "correct",
+   "claim": "三張許可證均為有效的單一成分許可證，",
+   "replacement": "上表許可證包括單一成分與複方製劑（PENTAGLOBIN 為複方），",
+   "summary": "「三張許可證均為有效的單一成分許可證，」→「上表許可證包括單一成分與複方製劑（PEN」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-iron-1",
+   "drug": "iron",
+   "file": "iron.md",
+   "action": "correct",
+   "claim": "本藥在香港共有 17 張有效的單一成分許可證，目前皆為有效狀態。",
+   "replacement": "香港含本藥成分的許可證包括單一成分與複方製劑，張數與有效張數見本頁快速總覽與「香港上市資訊」的許可證表。",
+   "summary": "「本藥在香港共有 17 張有效的單一成分許」→「香港含本藥成分的許可證包括單一成分與複方」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-povidone-1",
+   "drug": "povidone",
+   "file": "povidone.md",
+   "action": "correct",
+   "claim": "以上 5 張均為有效的單方許可證，",
+   "replacement": "上表許可證包括單一成分與複方製劑，",
+   "summary": "「以上 5 張均為有效的單方許可證，」→「上表許可證包括單一成分與複方製劑，」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-phenazopyridine-1",
+   "drug": "phenazopyridine",
+   "file": "phenazopyridine.md",
+   "action": "correct",
+   "claim": "在香港為單方製劑，已有 12 張有效許可證。",
+   "replacement": "在香港含本藥成分的許可證包括單一成分與複方製劑，張數與有效張數見本頁快速總覽與「香港上市資訊」的許可證表。",
+   "summary": "「在香港為單方製劑，已有 12 張有效許可」→「在香港含本藥成分的許可證包括單一成分與複」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-rifampicin-1",
+   "drug": "rifampicin",
+   "file": "rifampicin.md",
+   "action": "correct",
+   "claim": "香港共有 15 張 Rifampicin 單一成分的有效許可證，以下列出 5 張。",
+   "replacement": "香港含本藥成分的許可證包括單一成分與複方製劑（張數與有效張數見本頁快速總覽與許可證表），以下列出 5 張。",
+   "summary": "「香港共有 15 張 Rifampicin」→「香港含本藥成分的許可證包括單一成分與複方」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
+  },
+  {
+   "id": "hk-lic-20261124d-econazole-1",
+   "drug": "econazole",
+   "file": "econazole.md",
+   "action": "correct",
+   "claim": "（部分品名顯示為含其他成分的組合名稱，但登記資料標示為單一成分）",
+   "replacement": "（部分為含其他成分的複方）",
+   "summary": "「（部分品名顯示為含其他成分的組合名稱，但」→「（部分為含其他成分的複方）」",
+   "note": "已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。",
+   "finding": "2026-11-24 事實層單方張數改依本站成分欄切分（src/hktxgnn/regulatory/ingredients.py，同程式許可證表的類別欄）後，以獨立的寬偵測全量掃正文「單一成分／單方」說法，逐句對照證據包 tfda.records 的 ingredients（＝註冊名單 activeIng）與程式許可證表的類別欄；原句與成分欄不符，照成分欄更正，張數不寫死",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 事實層單方張數依各站成分欄切分（用戶決定：修好後各站重算，對不上的句子寫紀錄）"
   }
  ]
 }

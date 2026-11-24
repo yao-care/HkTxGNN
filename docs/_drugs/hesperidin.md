@@ -65,7 +65,13 @@ TxGNN 模型預測它可能對**骨髓增生性腫瘤 (Myeloproliferative Neopla
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。Hesperidin 在香港以單方製劑形式上市，多數產品名稱（如 Daflon 類）屬於一般認知的靜脈循環相關黃酮製劑，但本次資料並未載明核准適應症，因此無法據此判斷與新適應症的關聯。
+目前缺乏詳細的作用機轉資料。Hesperidin 在香港以複方製劑形式上市，多數產品名稱（如 Daflon 類）屬於一般認知的靜脈循環相關黃酮製劑，但本次資料並未載明核准適應症，因此無法據此判斷與新適應症的關聯。
+
+<!-- review:begin hk-lic-20261124d-hesperidin-1 -->
+
+> **查核更正（2026-11-24）**：原文為「Hesperidin 在香港以單方製劑形式上市，」。已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124d-hesperidin-1 -->
 
 支持此預測的唯一文獻是一項針對慢性骨髓性白血病（CML，一種相關的骨髓增生性腫瘤）的電腦模擬藥物再利用研究，以分子對接預測潛在標的。這屬於計算預測，沒有針對 Hesperidin 的實驗或臨床驗證。0.9947 的高分僅代表模型預測，不等於療效證據。
 
@@ -135,6 +141,7 @@ TxGNN 模型預測它可能對**骨髓增生性腫瘤 (Myeloproliferative Neopla
 |------|------|------|------|
 | 2026-11-24 | 「Hesperidin（橙皮苷）是一種柑橘類黃酮，在香港已有 17 張單方製劑許可」→「Hesperidin（橙皮苷）是一種柑橘類黃酮，在香港已有含」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 | 2026-11-24 | 「共 17 張有效單方許可證，以上列出 5 張。」→「香港含本藥成分的許可證皆為複方，以上列出部分；張數與有效張數」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「Hesperidin 在香港以單方製劑形」→「Hesperidin 在香港以複方製劑形」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

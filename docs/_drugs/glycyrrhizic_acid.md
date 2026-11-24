@@ -65,7 +65,13 @@ TxGNN 模型預測它可能對**多發性內分泌腫瘤 (Multiple Endocrine Neo
 
 ## 為什麼這個預測合理？
 
-目前缺乏詳細的作用機轉資料。根據已知資訊，甘草酸是甘草萃取的三萜類皂苷成分，已有多個單方產品在香港取得許可。但就「多發性內分泌腫瘤」這個預測而言，現有資料無法建立任何機轉上的連結。
+目前缺乏詳細的作用機轉資料。根據已知資訊，甘草酸是甘草萃取的三萜類皂苷成分，已有多個含本藥成分的複方產品在香港取得許可。但就「多發性內分泌腫瘤」這個預測而言，現有資料無法建立任何機轉上的連結。
+
+<!-- review:begin hk-lic-20261124d-glycyrrhizic_acid-1 -->
+
+> **查核更正（2026-11-24）**：原文為「已有多個單方產品在香港取得許可。」。已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124d-glycyrrhizic_acid-1 -->
 
 TxGNN 的高分（0.9928）僅是計算模型的輸出。沒有臨床試驗，也沒有文獻可佐證，因此這個預測目前只能視為待驗證的假設，不宜作為推進依據。
 
@@ -98,7 +104,13 @@ TxGNN 的高分（0.9928）僅是計算模型的輸出。沒有臨床試驗，�
 
 <!-- licenses:end -->
 
-以上 4 張許可證均為有效的單方許可證，製造商包括 HITPHARM PHARMACEUTICAL CO LTD、YUNG SHIN CO LTD 與 HONG KONG WAH SHENG MEDICAL CO LTD。
+上表許可證皆為複方（狀態見上表），製造商包括 HITPHARM PHARMACEUTICAL CO LTD、YUNG SHIN CO LTD 與 HONG KONG WAH SHENG MEDICAL CO LTD。
+
+<!-- review:begin hk-lic-20261124d-glycyrrhizic_acid-2 -->
+
+> **查核更正（2026-11-24）**：原文為「以上 4 張許可證均為有效的單方許可證，」。已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124d-glycyrrhizic_acid-2 -->
 
 ---
 
@@ -140,6 +152,8 @@ TxGNN 的高分（0.9928）僅是計算模型的輸出。沒有臨床試驗，�
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-24 | 「Glycyrrhizic acid（甘草酸）是甘草的主要活性成分，目前在香港有 」→「Glycyrrhizic acid（甘草酸）是甘草的主要活性」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「已有多個單方產品在香港取得許可。」→「已有多個含本藥成分的複方產品在香港取得許」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「以上 4 張許可證均為有效的單方許可證，」→「上表許可證皆為複方（狀態見上表），」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

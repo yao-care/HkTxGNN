@@ -38,8 +38,14 @@ description: "Zinc Chloride：預測新適應症為嚴重非增殖性糖尿病�
 
 ## 一句話總結
 
-Zinc Chloride 是靜脈輸注用微量元素製劑的成分之一，在香港以單一成分許可證上市，但本報告取得的資料中沒有記載其核准適應症。
+Zinc Chloride 是靜脈輸注用微量元素製劑的成分之一，在香港以含本藥成分的複方許可證上市，但本報告取得的資料中沒有記載其核准適應症。
 TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Severe Nonproliferative Diabetic Retinopathy)** 有效，但目前**沒有任何臨床試驗或文獻**支持，僅屬模型預測。
+
+<!-- review:begin hk-lic-20261124d-zinc_chloride-1 -->
+
+> **查核更正（2026-11-24）**：原文為「在香港以單一成分許可證上市，」。已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124d-zinc_chloride-1 -->
 
 ---
 
@@ -135,6 +141,7 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 |------|------|------|------|
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757) |
 | 2026-11-24 | 「兩張許可證皆為單一成分、有效狀態，持有者為 Fresenius Kabi Hon」→「上表許可證皆為複方（微量元素輸注用濃縮液），持有者為 Fre」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「在香港以單一成分許可證上市，」→「在香港以含本藥成分的複方許可證上市，」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

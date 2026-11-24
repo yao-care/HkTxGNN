@@ -109,7 +109,13 @@ ChEMBL（EMBL-EBI）收錄的 Lactic Acid 作用機轉（非官方翻譯）：�
 
 <!-- licenses:end -->
 
-另有 2 張許可證：HK-55926（複方乳酸鈉哈特曼氏注射液）與 HK-62237（PRISMASOL B0，血液濾過與血液透析溶液），共 7 張，皆為有效的單一成分許可證。
+另有 2 張許可證：HK-55926（複方乳酸鈉哈特曼氏注射液）與 HK-62237（PRISMASOL B0，血液濾過與血液透析溶液），含本藥成分的許可證皆為複方，張數與狀態見本頁快速總覽與許可證表。
+
+<!-- review:begin hk-lic-20261124d-lactic_acid-1 -->
+
+> **查核更正（2026-11-24）**：原文為「共 7 張，皆為有效的單一成分許可證。」。已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124d-lactic_acid-1 -->
 
 ---
 
@@ -147,6 +153,7 @@ ChEMBL（EMBL-EBI）收錄的 Lactic Acid 作用機轉（非官方翻譯）：�
 |------|------|------|------|
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559) |
 | 2026-11-24 | 「Lactic acid（乳酸）是人體內源性代謝物，在香港有 7 張單一成分許可證」→「Lactic acid（乳酸）是人體內源性代謝物，在香港有含」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「共 7 張，皆為有效的單一成分許可證。」→「含本藥成分的許可證皆為複方，張數與狀態見」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

@@ -38,8 +38,14 @@ description: "Zinc Sulfate：預測新適應症為咽炎 (pharyngitis)（證據�
 
 ## 一句話總結
 
-Zinc Sulfate（硫酸鋅）是一種鋅補充與微量元素成分，目前在香港有多張單一成分許可證。
+Zinc Sulfate（硫酸鋅）是一種鋅補充與微量元素成分，目前在香港有多張含本藥成分的許可證（皆為複方）。
 TxGNN 模型預測它可能對**咽炎 (pharyngitis)** 有效，但目前僅有 **1 個相關的臨床試驗**和 **2 篇文獻**，且直接針對咽炎的證據為陰性或僅為間接證據，證據等級為 L5。
+
+<!-- review:begin hk-lic-20261124d-zinc_sulfate-1 -->
+
+> **查核更正（2026-11-24）**：原文為「目前在香港有多張單一成分許可證。」。已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124d-zinc_sulfate-1 -->
 
 ## 快速總覽
 
@@ -113,11 +119,12 @@ TxGNN 模型預測它可能對**咽炎 (pharyngitis)** 有效，但目前僅有 
 
 ## 查核紀錄
 
-以下是本頁的查核紀錄。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）；模型預測、證據等級與結論都沒有改寫。
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。「缺乏作用機轉資料」的句子已改為所列官方仿單的節錄（附非官方翻譯）。
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757) |
+| 2026-11-24 | 「目前在香港有多張單一成分許可證。」→「目前在香港有多張含本藥成分的許可證（皆為」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

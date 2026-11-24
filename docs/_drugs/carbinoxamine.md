@@ -38,9 +38,15 @@ description: "Carbinoxamine：預測新適應症為鼻腔疾病 (nasal cavity di
 
 ## 一句話總結
 
-Carbinoxamine 是一種抗組織胺藥物，在香港已有多張單一成分許可證上市。
+Carbinoxamine 是一種抗組織胺藥物，在香港已有多張含本藥成分的許可證上市（皆為複方）。
 TxGNN 模型預測它可能對**鼻腔疾病 (nasal cavity disease)** 有效，
 但目前**沒有任何臨床試驗或文獻**直接支持這個方向，僅屬模型預測。
+
+<!-- review:begin hk-lic-20261124d-carbinoxamine-1 -->
+
+> **查核更正（2026-11-24）**：原文為「在香港已有多張單一成分許可證上市。」。已更正：依衞生署藥物辦公室註冊名單的成分欄（activeIng，以「;」分隔），原句的單一成分／複方說法跟註冊名單不符（事實層原本以「;;」切成分，每張都算成單一成分；2026-11-24 起依本站成分欄切分）。張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124d-carbinoxamine-1 -->
 
 ## 快速總覽
 
@@ -128,6 +134,7 @@ TxGNN 模型預測它可能對**鼻腔疾病 (nasal cavity disease)** 有效，
 |------|------|------|------|
 | 2026-11-24 | 「本品共有 12 張有效的單一成分許可證，」→「本品含本藥成分的許可證皆為複方（HK-54148 已註銷；張」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116)；[衞生署藥物辦公室 搜尋藥物資料庫（依註冊號查詢）](https://www.drugoffice.gov.hk/eps/do/en/consumer/search_drug_database.html) |
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Carbzah (carbinoxamine maleate) prescribing information, IPG Pharmaceuticals, inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a845fc15-c675-4e33-840c-6a74e79d0ced) |
+| 2026-11-24 | 「在香港已有多張單一成分許可證上市。」→「在香港已有多張含本藥成分的許可證上市（皆」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

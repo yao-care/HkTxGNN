@@ -21,11 +21,11 @@
   "items_current": 15416
  },
  "reviews": {
-  "records": 1039,
-  "pages": 794,
-  "public_pages_with_records": 790,
+  "records": 1071,
+  "pages": 806,
+  "public_pages_with_records": 800,
   "by_action": {
-   "correct": 326,
+   "correct": 358,
    "mechanism": 713
   }
  },
@@ -202,6 +202,15 @@
    "i": "高澱粉酶血症"
   },
   {
+   "t": "Carbinoxamine",
+   "u": "/drugs/carbinoxamine/",
+   "l": "L5",
+   "lt": 12,
+   "lv": 11,
+   "r": 3,
+   "i": "鼻腔疾病"
+  },
+  {
    "t": "Clarithromycin",
    "u": "/drugs/clarithromycin/",
    "l": "L5",
@@ -209,15 +218,6 @@
    "lv": 38,
    "r": 3,
    "i": "hyperamylasemia"
-  },
-  {
-   "t": "Clopidogrel",
-   "u": "/drugs/clopidogrel/",
-   "l": "L5",
-   "lt": 27,
-   "lv": 26,
-   "r": 3,
-   "i": "migraine with brainstem aura"
   }
  ],
  "example": {
@@ -243,185 +243,185 @@
    "d": "2026-11-24"
   },
   {
-   "t": "Zolazepam",
-   "u": "/drugs/zolazepam/",
-   "s": "「兩張許可證皆為單一成分登記、狀態有效，持證商為 VIRBAC H.K. TRAD」→「上表許可證皆為複方（tiletamine 與 zolazep」",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Zinc Gluconate",
-   "u": "/drugs/zinc-gluconate/",
-   "s": "「兩者皆為單方、有效的輸注用濃縮液（」→「兩者皆為複方的微量元素輸注用濃縮液（」",
+   "t": "Zinc Sulfate",
+   "u": "/drugs/zinc-sulfate/",
+   "s": "「目前在香港有多張單一成分許可證。」→「目前在香港有多張含本藥成分的許可證（皆為」",
    "d": "2026-11-24"
   },
   {
    "t": "Zinc Chloride",
    "u": "/drugs/zinc-chloride/",
-   "s": "「兩張許可證皆為單一成分、有效狀態，持有者為 Fresenius Kabi Hon」→「上表許可證皆為複方（微量元素輸注用濃縮液），持有者為 Fre」",
+   "s": "「在香港以單一成分許可證上市，」→「在香港以含本藥成分的複方許可證上市，」",
    "d": "2026-11-24"
   },
   {
-   "t": "Zidovudine",
-   "u": "/drugs/zidovudine/",
-   "s": "「（共 8 張有效許可證，皆為單一成分，此處僅列出 5 張。」→「（含本藥成分的許可證包括單一成分與複方製劑（含與 lamiv」",
+   "t": "Vitamin A",
+   "u": "/drugs/vitamin-a/",
+   "s": "「（共 8 張，皆為有效單方）」→「（含本藥成分的許可證皆為複方，張數與狀態」",
    "d": "2026-11-24"
   },
   {
-   "t": "Ursodeoxycholic Acid",
-   "u": "/drugs/ursodeoxycholic-acid/",
-   "s": "「本藥在香港共有 13 張有效單方許可證，上表僅列出 5 張主要許可證。」→「本藥在香港的許可證包括單一成分與複方製劑（張數與有效張數見本」",
+   "t": "Valproic Acid",
+   "u": "/drugs/valproic-acid/",
+   "s": "「持有的單一成分製劑，」→「持有的複方製劑，」",
    "d": "2026-11-24"
   },
   {
-   "t": "Uracil",
-   "u": "/drugs/uracil/",
-   "s": "「均登記為單一成分產品。」→「皆為 tegafur 與 uracil 的複方製劑。」",
+   "t": "Valine",
+   "u": "/drugs/valine/",
+   "s": "「以單一成分或胺基酸輸液成分的形式上市。」→「以胺基酸輸液等複方製劑的成分形式上市（含」",
    "d": "2026-11-24"
   },
   {
-   "t": "Trimethoprim",
-   "u": "/drugs/trimethoprim/",
-   "s": "「目前共有 13 張有效許可證（皆為單一成分登記），此處僅列出 5 張。」→「目前含本藥成分的許可證包括單一成分與複方製劑（多為與 sul」",
+   "t": "Tyrosine",
+   "u": "/drugs/tyrosine/",
+   "s": "「以上為 16 張有效單一成分許可證中的 」→「以上為含本藥成分許可證（皆為複方，張數見」",
    "d": "2026-11-24"
   },
   {
-   "t": "Triclocarban",
-   "u": "/drugs/triclocarban/",
-   "s": "「Triclocarban 是一種抗菌成分，歷史上常用於肥皂等外用產品，香港目前有」→「Triclocarban 是一種抗菌成分，歷史上常用於肥皂等」",
+   "t": "Triamterene",
+   "u": "/drugs/triamterene/",
+   "s": "「，但資料中分類為單一成分；」→「，註冊名單成分欄亦列為複方；」",
    "d": "2026-11-24"
   },
   {
-   "t": "Tretinoin",
-   "u": "/drugs/tretinoin/",
-   "s": "「以上列出 5 張主要許可證，共 12 張，皆為單方、有效狀態。」→「以上列出部分主要許可證；含本藥成分的許可證包括單一成分與複方」",
+   "t": "Thymol",
+   "u": "/drugs/thymol/",
+   "s": "「（共 15 張，皆為有效單方許可證）」→「（含本藥成分的許可證皆為複方，張數與狀態」",
    "d": "2026-11-24"
   },
   {
-   "t": "Tobramycin",
-   "u": "/drugs/tobramycin/",
-   "s": "「香港共有 15 張有效許可證，皆為單一成分登記，以下列出 5 張主要許可證（完整」→「香港含本藥成分的許可證包括單一成分與複方製劑（含與 dexa」",
+   "t": "Rifampicin",
+   "u": "/drugs/rifampicin/",
+   "s": "「香港共有 15 張 Rifampicin」→「香港含本藥成分的許可證包括單一成分與複方」",
    "d": "2026-11-24"
   },
   {
-   "t": "Tiletamine",
-   "u": "/drugs/tiletamine/",
-   "s": "「兩張許可證均為單方、有效，持證商為 VIRBAC H.K. TRADING LI」→「上表許可證皆為複方（tiletamine 與 zolazep」",
+   "t": "Procaine Benzylpenicillin",
+   "u": "/drugs/procaine-benzylpenicillin/",
+   "s": "「此許可證為單一成分製劑，品名」→「此許可證為複方製劑，品名」",
    "d": "2026-11-24"
   },
   {
-   "t": "Tetryzoline",
-   "u": "/drugs/tetryzoline/",
-   "s": "「香港共有 6 張有效的單方許可證，上表列出其中 5 張。」→「香港含本藥成分的許可證包括單一成分與複方製劑，上表列出其中部」",
+   "t": "Povidone",
+   "u": "/drugs/povidone/",
+   "s": "「以上 5 張均為有效的單方許可證，」→「上表許可證包括單一成分與複方製劑，」",
    "d": "2026-11-24"
   },
   {
-   "t": "Sulfamethoxazole",
-   "u": "/drugs/sulfamethoxazole/",
-   "s": "「以上為 10 張有效許可證中的 5 張，均為單方許可證，無已註銷者。」→「以上為其中部分許可證，皆為複方；張數與有效張數見」",
+   "t": "Polysorbate 80",
+   "u": "/drugs/polysorbate-80/",
+   "s": "「此許可證為單一成分製劑，」→「此許可證為複方製劑，」",
    "d": "2026-11-24"
   },
   {
-   "t": "Sulbactam",
-   "u": "/drugs/sulbactam/",
-   "s": "「共 8 張有效單方許可證（上表僅列 5 張，另有 XACDURO、SITANDI」→「含本藥成分的許可證皆為複方（張數與有效張數見本頁」",
+   "t": "Pibrentasvir",
+   "u": "/drugs/pibrentasvir/",
+   "s": "「此許可證為單一成分登記，」→「此許可證為複方登記，」",
    "d": "2026-11-24"
   },
   {
-   "t": "Sorbitol",
-   "u": "/drugs/sorbitol/",
-   "s": "「香港共有 11 張有效許可證（皆為單方，無已註銷者）。」→「香港含本藥成分的許可證皆為複方（張數與有效張數見」",
+   "t": "Phenazopyridine",
+   "u": "/drugs/phenazopyridine/",
+   "s": "「在香港為單方製劑，已有 12 張有效許可」→「在香港含本藥成分的許可證包括單一成分與複」",
    "d": "2026-11-24"
   },
   {
-   "t": "Sodium Acetate",
-   "u": "/drugs/sodium-acetate/",
-   "s": "「資料中顯示的許可證皆為單一成分登記，但核准適應症欄位均為空白。」→「資料中顯示的許可證皆為複方，但核准適應症欄位均為空白。」",
+   "t": "Pentosan Polysulfate",
+   "u": "/drugs/pentosan-polysulfate/",
+   "s": "「此許可證為單方、有效狀態，」→「此許可證為複方、有效狀態，」",
    "d": "2026-11-24"
   },
   {
-   "t": "Sacubitril",
-   "u": "/drugs/sacubitril/",
-   "s": "「以上僅列出 5 張，共有 9 張有效單方許可證，皆由 Novartis Phar」→「以上僅列出部分；香港含本藥成分的許可證皆為複方（張數與有效張」",
+   "t": "Lactic Acid",
+   "u": "/drugs/lactic-acid/",
+   "s": "「共 7 張，皆為有效的單一成分許可證。」→「含本藥成分的許可證皆為複方，張數與狀態見」",
    "d": "2026-11-24"
   },
   {
-   "t": "Resorcinol",
-   "u": "/drugs/resorcinol/",
-   "s": "「以上 3 張皆為單一成分、有效且仍在市面上的許可證。」→「以上許可證皆為複方；張數與有效張數見本頁快速總覽」",
+   "t": "Iron",
+   "u": "/drugs/iron/",
+   "s": "「本藥在香港共有 17 張有效的單一成分許」→「香港含本藥成分的許可證包括單一成分與複方」",
    "d": "2026-11-24"
   },
   {
-   "t": "Propylene Glycol",
-   "u": "/drugs/propylene-glycol/",
-   "s": "「三張許可證皆為單一成分、有效狀態，持證商為 ALCON HONG KONG LT」→「上表許可證皆為複方（macrogol 400 與 propy」",
+   "t": "Human Immunoglobulin G",
+   "u": "/drugs/human-immunoglobulin-g/",
+   "s": "「三張許可證均為有效的單一成分許可證，」→「上表許可證包括單一成分與複方製劑（PEN」",
    "d": "2026-11-24"
   },
   {
-   "t": "Pravastatin",
-   "u": "/drugs/pravastatin/",
-   "s": "「另有 3 張有效許可證（HK-52755、HK-49921、HK-67527），」→「另有 HK-52755、HK-49921、HK-67527 」",
+   "t": "Hesperidin",
+   "u": "/drugs/hesperidin/",
+   "s": "「Hesperidin 在香港以單方製劑形」→「Hesperidin 在香港以複方製劑形」",
    "d": "2026-11-24"
   },
   {
-   "t": "Potassium Iodide",
-   "u": "/drugs/potassium-iodide/",
-   "s": "「資料中 13 張許可證均為有效的單一成分製劑，但劑型與核准適應症文字皆未登錄。」→「資料中含本藥成分的許可證包括單一成分與複方製劑（張數與有效張」",
+   "t": "Guaiacol",
+   "u": "/drugs/guaiacol/",
+   "s": "「此許可證為單一成分產品，」→「此許可證為複方產品，」",
    "d": "2026-11-24"
   },
   {
-   "t": "Potassium Acetate",
-   "u": "/drugs/potassium-acetate/",
-   "s": "「以上為 10 張許可證中的 5 張，均為單一成分、現行有效的許可證，無已註銷者。」→「以上為其中部分許可證，皆為複方；張數與有效張數見」",
+   "t": "Glycyrrhizic Acid",
+   "u": "/drugs/glycyrrhizic-acid/",
+   "s": "「以上 4 張許可證均為有效的單方許可證，」→「上表許可證皆為複方（狀態見上表），」",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Ginseng",
+   "u": "/drugs/ginseng/",
+   "s": "「兩張許可證皆為有效的單一成分許可證，」→「含本藥成分的許可證皆為複方（狀態見上表）」",
    "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Zolazepam",
-   "u": "/drugs/zolazepam/",
-   "s": "「兩張許可證皆為單一成分登記、狀態有效，持證商為 VIRBAC H.K. TRAD」→「上表許可證皆為複方（tiletamine 與 zolazep」",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Zinc Gluconate",
-   "u": "/drugs/zinc-gluconate/",
-   "s": "「兩者皆為單方、有效的輸注用濃縮液（」→「兩者皆為複方的微量元素輸注用濃縮液（」",
+   "t": "Zinc Sulfate",
+   "u": "/drugs/zinc-sulfate/",
+   "s": "「目前在香港有多張單一成分許可證。」→「目前在香港有多張含本藥成分的許可證（皆為」",
    "d": "2026-11-24"
   },
   {
    "t": "Zinc Chloride",
    "u": "/drugs/zinc-chloride/",
-   "s": "「兩張許可證皆為單一成分、有效狀態，持有者為 Fresenius Kabi Hon」→「上表許可證皆為複方（微量元素輸注用濃縮液），持有者為 Fre」",
+   "s": "「在香港以單一成分許可證上市，」→「在香港以含本藥成分的複方許可證上市，」",
    "d": "2026-11-24"
   },
   {
-   "t": "Zidovudine",
-   "u": "/drugs/zidovudine/",
-   "s": "「（共 8 張有效許可證，皆為單一成分，此處僅列出 5 張。」→「（含本藥成分的許可證包括單一成分與複方製劑（含與 lamiv」",
+   "t": "Vitamin A",
+   "u": "/drugs/vitamin-a/",
+   "s": "「（共 8 張，皆為有效單方）」→「（含本藥成分的許可證皆為複方，張數與狀態」",
    "d": "2026-11-24"
   },
   {
-   "t": "Ursodeoxycholic Acid",
-   "u": "/drugs/ursodeoxycholic-acid/",
-   "s": "「本藥在香港共有 13 張有效單方許可證，上表僅列出 5 張主要許可證。」→「本藥在香港的許可證包括單一成分與複方製劑（張數與有效張數見本」",
+   "t": "Valproic Acid",
+   "u": "/drugs/valproic-acid/",
+   "s": "「持有的單一成分製劑，」→「持有的複方製劑，」",
    "d": "2026-11-24"
   },
   {
-   "t": "Uracil",
-   "u": "/drugs/uracil/",
-   "s": "「均登記為單一成分產品。」→「皆為 tegafur 與 uracil 的複方製劑。」",
+   "t": "Valine",
+   "u": "/drugs/valine/",
+   "s": "「以單一成分或胺基酸輸液成分的形式上市。」→「以胺基酸輸液等複方製劑的成分形式上市（含」",
    "d": "2026-11-24"
   },
   {
-   "t": "Trimethoprim",
-   "u": "/drugs/trimethoprim/",
-   "s": "「目前共有 13 張有效許可證（皆為單一成分登記），此處僅列出 5 張。」→「目前含本藥成分的許可證包括單一成分與複方製劑（多為與 sul」",
+   "t": "Tyrosine",
+   "u": "/drugs/tyrosine/",
+   "s": "「以上為 16 張有效單一成分許可證中的 」→「以上為含本藥成分許可證（皆為複方，張數見」",
    "d": "2026-11-24"
   },
   {
-   "t": "Triclocarban",
-   "u": "/drugs/triclocarban/",
-   "s": "「Triclocarban 是一種抗菌成分，歷史上常用於肥皂等外用產品，香港目前有」→「Triclocarban 是一種抗菌成分，歷史上常用於肥皂等」",
+   "t": "Triamterene",
+   "u": "/drugs/triamterene/",
+   "s": "「，但資料中分類為單一成分；」→「，註冊名單成分欄亦列為複方；」",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Thymol",
+   "u": "/drugs/thymol/",
+   "s": "「（共 15 張，皆為有效單方許可證）」→「（含本藥成分的許可證皆為複方，張數與狀態」",
    "d": "2026-11-24"
   }
  ],
