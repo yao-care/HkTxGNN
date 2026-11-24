@@ -64,7 +64,13 @@ evidence_level: N/A
 
 <!-- licenses:end -->
 
-另有 1 張有效許可證（HK-47770，MENTHOLATUM AD CREAM），共 6 張，皆為單方、有效。
+另有 HK-47770（MENTHOLATUM AD CREAM，複方）；含本藥成分的許可證包括單一成分與複方製劑，張數與有效張數見本頁快速總覽。
+
+<!-- review:begin hk-lic-20261124c-crotamiton-1 -->
+
+> **查核更正（2026-11-24）**：原文為「另有 1 張有效許可證（HK-47770，MENTHOLATUM AD CREAM），共 6 張，皆為單方、有效。」。已更正：依衞生署藥物辦公室註冊名單的成分欄，HK-47770 MENTHOLATUM AD CREAM 含 crotamiton、diphenhydramine、enoxolone、vitamin E，上表的 HK-01168 HI VETIC SOLUTION 也是複方，不是「皆為單方」；張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124c-crotamiton-1 -->
 
 ---
 
@@ -76,6 +82,18 @@ evidence_level: N/A
 其餘警語與禁忌請參考原廠仿單。
 
 ---
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-24 | 「另有 1 張有效許可證（HK-47770，MENTHOLATUM AD CREA」→「另有 HK-47770（MENTHOLATUM AD CRE」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

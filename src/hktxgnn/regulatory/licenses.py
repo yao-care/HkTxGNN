@@ -164,6 +164,10 @@ def page_problems(stem: str, text: str) -> list[str]:
                     if k and re.search(r"\d", k) and k not in own and len(k) >= 4:
                         errs.append(f"市場段落表格的許可證號不屬於本藥：{cells[0][:30]}")
     errs += program_block_problems(e, lines)
+    # 2026-11-24 第三輪（用戶決定）：公開頁沒有市場段落、證據包卻有紀錄 → 要補程式表段落（sync_license_tables.add_section）
+    fm = text.split("---", 2)[1] if text.startswith("---") else ""
+    if e.get("rows") and not _sections(lines) and not re.search(r"^noindex:\s*true", fm, re.M):
+        errs.append("公開頁沒有「香港上市資訊」段落，但證據包有紀錄（跑 python3 scripts/sync_license_tables.py）")
     fc = e.get("facts")
     if not fc:
         return errs

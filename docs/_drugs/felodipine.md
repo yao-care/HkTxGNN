@@ -143,7 +143,7 @@ TxGNN 模型預測它可能對**肺部疾病及/或缺氧所致肺高壓 (pulmon
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115) |
-| 2026-11-24 | 「香港共有 16 張單方許可證，皆為有效狀態（資料中未載明劑型與核准適應症文字）。」→「香港含本藥成分的許可證包括單一成分與複方製劑，張數（含有效、」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「香港共有 16 張單方許可證，皆為有效狀態（資料中未載明劑型與核准適應症文字）。」→「香港含本藥成分的許可證包括單一成分與複方製劑，張數與有效張數」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

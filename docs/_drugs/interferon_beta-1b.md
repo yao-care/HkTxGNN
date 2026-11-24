@@ -86,7 +86,7 @@ TxGNN 模型預測它可能對**毛細胞白血病 (Hairy Cell Leukemia)** 有�
 
 | 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
 |------|------|------|------|------|
-| HK-47987 | BETAFERON PRE-FILLED SYRINGE 8MIU | 複方 | BAYER HEALTHCARE LIMITED | 已註銷 |
+| HK-47987 | BETAFERON PRE-FILLED SYRINGE 8MIU | 單一成分 | BAYER HEALTHCARE LIMITED | 已註銷 |
 
 <!-- licenses:end -->
 

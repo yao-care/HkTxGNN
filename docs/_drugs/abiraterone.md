@@ -64,7 +64,13 @@ evidence_level: N/A
 
 <!-- licenses:end -->
 
-> 共 16 張有效許可證（皆為單方），上表僅列出 5 張主要許可證。劑型欄位依品名判斷為錠劑。
+> 含本藥成分的許可證包括單一成分與複方製劑（AKEEGA 為本藥與 niraparib 的複方），張數與有效張數見本頁快速總覽，上表列出其中部分主要許可證；依品名皆為錠劑。
+
+<!-- review:begin hk-lic-20261124c-abiraterone-1 -->
+
+> **查核更正（2026-11-24）**：原文為「共 16 張有效許可證（皆為單方），上表僅列出 5 張主要許可證。劑型欄位依品名判斷為錠劑。」。已更正：依衞生署藥物辦公室註冊名單的成分欄，AKEEGA TABLETS（HK-68295、HK-68296）含 abiraterone acetate 與 niraparib，是複方，不是「皆為單方」；張數見本頁快速總覽與許可證表（2026-11-24 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261124c-abiraterone-1 -->
 
 ---
 
@@ -90,6 +96,18 @@ evidence_level: N/A
 其他警語與禁忌症資料缺乏，請參考原廠仿單。
 
 ---
+
+<!-- review:begin log -->
+
+## 查核紀錄
+
+以下是本頁的查核紀錄：內容已對照衞生署藥物辦公室的藥劑製品註冊資料。更正只限基本事實，模型預測、證據等級與結論未有改寫。
+
+| 查核日期 | 項目 | 處理 | 依據 |
+|------|------|------|------|
+| 2026-11-24 | 「共 16 張有效許可證（皆為單方），上表僅列出 5 張主要許可證。劑型欄位依品名」→「含本藥成分的許可證包括單一成分與複方製劑（AKEEGA 為本」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+
+<!-- review:end log -->
 
 ## 免責聲明
 

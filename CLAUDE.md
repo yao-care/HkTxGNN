@@ -589,7 +589,7 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   「| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |」，資料是證據包 tfda.records（DrugList.xml；add_current_registrations.py 已補齊全部註冊），前後 `<!-- licenses:begin/end -->`。
   選列：換表當時 AI 原表依序列的號存在 `config/license_table_pins.json`（944 頁），程式表照這個順序列（正文常寫「以上 5 張…」「另有 HK-xxxxx…」「其餘包括 …」，換成別的列會對不上）；
   原本沒有表的 6 頁與補位照程式排序（單一成分在前、同類中有效在前、再依許可證號）。列數＝原表列數（最多 20），總數較多時表下加「上表列出其中 N 張（共 M 張）。」。
-  類別照註冊名單 activeIng 個數（「;」分隔，跟 2026-11-17 紀錄同一算法；成分欄的「-」照算）；狀態：有效／已註銷（license_status＝cancelled）；品名照原文，只把重量單位 KG 寫成小寫 kg（checker P5 會把大寫 KG 當知識圖譜字樣，monensin、moxidectin 2 頁）。
+  類別照註冊名單 activeIng 個數（「;」分隔，跟 2026-11-17 紀錄同一算法；成分欄的「-」2026-11-24 第三輪起不算成分，見下文）；狀態：有效／已註銷（license_status＝cancelled）；品名照原文，只把重量單位 KG 寫成小寫 kg（checker P5 會把大寫 KG 當知識圖譜字樣，monensin、moxidectin 2 頁）。
   套用 950 頁（含 noindex；轉址頁不動）；表上原本錨著的 6 筆 `hk-row-20261117-*` 標 `status: superseded`＋`superseded_by`（紀錄保留、頁面不顯示框）。
   接進：每週排程 `scripts/license_adapter.py` 的 sync_tables（全站重排；PAGE_NOTE 認程式說明句與標記）、`scripts/sync_notes_to_docs.py`（carry_block 移植舊頁程式區塊，寫完再跑 sync_license_tables）、
   `scripts/build_license_snapshot.py`（快照另存 rows、nrows、mix），gate 第 18 項（`src/hktxgnn/regulatory/licenses.py`：程式區塊＝快照重算、市場段落沒有程式區塊以外的表）。
@@ -613,6 +613,22 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 - 舊錯句（第 1 條）：待查清單 31 句 single-combo（例 cinchocaine「19 張有效單方製劑許可證」，19 張全是複方）、第一輪偵測的 6 句「以上…皆為單方」（esculin、potassium_acetate、resorcinol、sulfamethoxazole；efmoroctocog_alfa、eftrenonacog_alfa 見下）、
   另寫的寬偵測（正文講單一成分／複方的全稱或張數跟 mix 不符）另找到的同類句 40 句（另 aminocaproic_acid 1 句在 11-17 紀錄的更正文字裡，同 id 重發），共 77 筆 `hk-lic-20261124b-<藥>-N`（74 頁）更正；更正文字不寫死張數。待查清單 31 項標 resolved（附 record_ids）。
 - 判定成立、沒改：efmoroctocog_alfa、eftrenonacog_alfa、albutrepenonacog_alfa、lonoctocog_alfa、moroctocog_alfa、cetrorelix、sotatercept、terlipressin 的「均為單一成分」——
-  註冊名單成分欄是「-; <本藥>」（粉末＋溶劑包裝），只有一個有效成分；程式表「類別」照 activeIng 個數把這些列成「複方」，跟正文看起來矛盾，要不要讓 sync_license_tables.py 的 is_combo 不算「-」待用戶決定（會改 32 個證據包的 mix 與程式表類別）。
+  註冊名單成分欄是「-; <本藥>」（粉末＋溶劑包裝），只有一個有效成分；程式表「類別」照 activeIng 個數把這些列成「複方」，跟正文看起來矛盾，2026-11-24 第三輪用戶決定「-」不算成分，見下一節。
 - 張數樣板（第 5 條）：`src/hktxgnn/regulatory/site.py` 的 FIGURES（reviews_from_edits.py 寫紀錄說明用）改成不寫數字。
 - 驗證：checker 全量改前 0／改後 0（中途一版寫「含有效、已註銷張數」被 M3b 當成註銷說法擋 28 頁，改成「張數與有效張數」）；gate exit 0；寬偵測改前 95 句、改後 9 句（8 句是上面的「-」、1 句 trazodone「另有 6 張…（共 11 張）」相對數成立）。
+
+## 成分欄的「-」不算成分、缺市場段落補程式表（2026-11-24 第三輪）
+
+用戶 2026-11-24 第三輪決定：
+- 註冊名單成分欄寫「-; <本藥>」（粉末＋溶劑包裝，溶劑那格寫「-」）時，「-」不算一個成分。`scripts/sync_license_tables.py` 的 is_combo 改用 ingredients_of（只算有字母或數字的項），
+  mix（快照、正文張數改寫）與程式表「類別」欄跟著改；本站其他判單方／複方的程式沒有用 activeIng 個數（add_current_registrations.py 的成分比對是判斷同一產品，不受影響）。
+  有「-」的證據包 32 個：23 個變成全部單一成分（albutrepenonacog_alfa、cetrorelix、docetaxel、efmoroctocog_alfa、eftrenonacog_alfa、lonoctocog_alfa、moroctocog_alfa、risperidone、sotatercept、terlipressin 等），
+  ceftriaxone、spectinomycin、trastuzumab 仍有真正的複方；glucosamine、lignocaine、levonorgestrel、protein_c、sodium_chloride 的「-」項另有兩個以上成分，仍是複方。程式表類別改 13 頁。
+  「均為單一成分」等正文（efmoroctocog_alfa、eftrenonacog_alfa、albutrepenonacog_alfa、lonoctocog_alfa、moroctocog_alfa、cetrorelix、sotatercept、perflubutane）現在跟表一致。
+  依「-」算成複方而寫「包括單一成分與複方製劑」的查核紀錄更正文字 2 筆同 id 重發（`hk-lic-20261117-docetaxel-1`、`hk-lic-20261117-risperidone-1` 改「皆為單一成分」，前版存 history）；ceftriaxone 那筆仍有複方、不改；11-24、11-24b 其他紀錄沒有因「-」而錯的。
+  同類複查（寬偵測：正文「皆為單一成分／單方」「皆為複方」「包括單一成分與複方」對 mix 與緊接程式表的類別欄）另找到 2 句第二輪漏掉的「皆為單方」（abiraterone 的 AKEEGA、crotamiton 的 HK-01168／HK-47770 是複方），以 `hk-lic-20261124c-<藥>-1` 更正；複查後 0 句。
+  另修：第二輪重發的紀錄 summary（查核紀錄表「項目」欄）停在中途版本的「張數（含有效、」，100 筆照現行 replacement 重算（只改顯示摘要）。
+- B：公開頁沒有「## 香港上市資訊」段落、但證據包有紀錄的（carvedilol 1 頁），`sync_license_tables.py` 的 add_section 在「## 安全性考量」之前（沒有就「結論與下一步」「免責聲明」之前）補段落與程式表（比照 JpTxGNN 第二輪）；noindex 頁不補。
+  gate（`src/hktxgnn/regulatory/licenses.py` page_problems）擋「公開頁有證據包紀錄卻沒有市場段落」；license_adapter 的 PAGE_NOTE 放行「## 香港上市資訊」標題行。
+- 驗證：checker 全量改前 0／改後 0、--row-status 0；gate exit 0；正文張數改寫 0 句、判斷不了 0 句。證據包沒有改，不用 data-overlay。
+

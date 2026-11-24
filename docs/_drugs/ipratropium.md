@@ -178,7 +178,7 @@ Ipratropium 是吸入型抗膽鹼支氣管擴張劑，原本用於慢性阻塞�
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884) |
-| 2026-11-24 | 「（共 7 張有效許可證，皆為單方；其餘 2 張為 HK-51066 IPRAVE」→「（含本藥成分的許可證包括單一成分與複方製劑，張數（含有效、已」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「（共 7 張有效許可證，皆為單方；其餘 2 張為 HK-51066 IPRAVE」→「（含本藥成分的許可證包括單一成分與複方製劑，張數與有效張數見」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

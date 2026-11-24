@@ -133,7 +133,7 @@ TxGNN 模型（深度學習）的分數雖高 (0.9992)，但該分數可能反�
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85) |
-| 2026-11-24 | 「資料顯示香港共有 14 張有效的單一成分許可證，皆為有效狀態。」→「資料顯示香港含本藥成分的許可證包括單一成分與複方製劑（張數（」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「資料顯示香港共有 14 張有效的單一成分許可證，皆為有效狀態。」→「資料顯示香港含本藥成分的許可證包括單一成分與複方製劑（張數與」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

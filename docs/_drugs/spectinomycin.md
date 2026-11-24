@@ -79,7 +79,7 @@ TxGNN 模型預測它可能對**子宮闊韌帶疾病 (disease of uterine broad 
 |------|------|------|------|------|
 | HK-35734 | KIRIN INJ 2G | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
 | HK-54939 | MICOSPECTONE INJECTABLE SOLUTION (VET) | 複方 | WAI LUNG HONG AGRIBUSINESS LTD | 有效 |
-| HK-36853 | KIRIN INJ 2G WITH DILUENT | 複方 | STAR MEDICAL SUPPLIES LTD | 有效 |
+| HK-36853 | KIRIN INJ 2G WITH DILUENT | 單一成分 | STAR MEDICAL SUPPLIES LTD | 有效 |
 
 <!-- licenses:end -->
 

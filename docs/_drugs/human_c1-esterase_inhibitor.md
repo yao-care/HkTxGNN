@@ -84,7 +84,7 @@ TxGNN 模型預測它可能對**嚴重非增殖性糖尿病視網膜病變 (Seve
 
 | 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
 |------|------|------|------|------|
-| HK-67361 | BERINERT POWDER AND SOLVENT FOR SOLUTION FOR INJECTION/INFUSION 500IU | 複方 | CSL BEHRING ASIA PACIFIC LIMITED | 有效 |
+| HK-67361 | BERINERT POWDER AND SOLVENT FOR SOLUTION FOR INJECTION/INFUSION 500IU | 單一成分 | CSL BEHRING ASIA PACIFIC LIMITED | 有效 |
 
 <!-- licenses:end -->
 

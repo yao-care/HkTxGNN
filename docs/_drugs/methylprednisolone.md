@@ -125,7 +125,7 @@ TxGNN 模型預測它可能對**黏蛋白性脫髮 (alopecia mucinosa)** 有效�
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4) |
-| 2026-11-24 | 「本藥在香港共有 8 張有效的單方許可證，此處僅列出 5 張。」→「本藥在香港的許可證包括單一成分與複方製劑（張數（含有效、已註」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「本藥在香港共有 8 張有效的單方許可證，此處僅列出 5 張。」→「本藥在香港的許可證包括單一成分與複方製劑（張數與有效張數見本」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

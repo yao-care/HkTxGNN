@@ -76,7 +76,7 @@ TxGNN 模型對 Glutathione 沒有分數達 0.99 以上的候選適應症，因�
 
 | 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
 |------|------|------|------|------|
-| HK-38778 | ISETHION FOR OPHTHALMIC USE WITH SOLVENT | 複方 | HING AH PHARMA CO LTD | 有效 |
+| HK-38778 | ISETHION FOR OPHTHALMIC USE WITH SOLVENT | 單一成分 | HING AH PHARMA CO LTD | 有效 |
 
 <!-- licenses:end -->
 

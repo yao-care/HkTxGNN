@@ -122,7 +122,7 @@ ChEMBL（EMBL-EBI）收錄的 Carbimazole 作用機轉（非官方翻譯）：�
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄（2026-11-20 修訂，前版保留於紀錄） | [ChEMBL CHEMBL508102 (carbimazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL508102) |
-| 2026-11-24 | 「目前 6 張許可證均為有效的單一成分製劑，此處僅列出 5 張。」→「目前含本藥成分的許可證皆為單一成分製劑（張數（含有效、已註銷」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「目前 6 張許可證均為有效的單一成分製劑，此處僅列出 5 張。」→「目前含本藥成分的許可證皆為單一成分製劑（張數與有效張數見本頁」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

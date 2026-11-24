@@ -134,7 +134,7 @@ TxGNN 模型預測它可能對**骨髓增生性腫瘤 (Myeloproliferative Neopla
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-24 | 「Hesperidin（橙皮苷）是一種柑橘類黃酮，在香港已有 17 張單方製劑許可」→「Hesperidin（橙皮苷）是一種柑橘類黃酮，在香港已有含」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
-| 2026-11-24 | 「共 17 張有效單方許可證，以上列出 5 張。」→「香港含本藥成分的許可證皆為複方，以上列出部分；張數（含有效、」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「共 17 張有效單方許可證，以上列出 5 張。」→「香港含本藥成分的許可證皆為複方，以上列出部分；張數與有效張數」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

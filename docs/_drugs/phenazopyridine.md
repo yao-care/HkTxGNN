@@ -145,7 +145,7 @@ TxGNN 模型（深度學習）給出的高分（0.9923）可能反映模型從�
 
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
-| 2026-11-24 | 「本藥在香港共有 12 張有效單方許可證。」→「本藥在香港的許可證包括單一成分與複方製劑，張數（含有效、已註」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「本藥在香港共有 12 張有效單方許可證。」→「本藥在香港的許可證包括單一成分與複方製劑，張數與有效張數見本」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

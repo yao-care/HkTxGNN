@@ -173,7 +173,7 @@ TxGNN 模型預測排名第一的新適應症為腦小血管病變，但該預�
 | 查核日期 | 項目 | 處理 | 依據 |
 |------|------|------|------|
 | 2026-11-19 | 「目前缺乏詳細的作用機轉資料」改為美國處方資料節錄 | 「缺乏作用機轉資料」句改為附出處的仿單節錄 | [DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c) |
-| 2026-11-24 | 「以上僅列出 5 張，共有 9 張有效單方許可證，皆由 Novartis Phar」→「以上僅列出部分；香港含本藥成分的許可證皆為複方（張數（含有效」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-24 | 「以上僅列出 5 張，共有 9 張有效單方許可證，皆由 Novartis Phar」→「以上僅列出部分；香港含本藥成分的許可證皆為複方（張數與有效張」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

@@ -11,7 +11,7 @@
 - 選列與順序：換表當時報告原表列出的許可證號（config/license_table_pins.json，依原表順序）在前——正文常寫「以上 5 張…」
   「另有 HK-xxxxx…」「其餘包括 …」，換成別的列會對不上；其餘（以及原本沒有表的頁）依程式排序：單一成分在前、複方在後；
   同類中有效在前、已註銷在後；再依許可證號。單一成分／複方照註冊名單成分欄（activeIng，
-  證據包 ingredients 以「;」分隔）的個數判斷（事實層 single_total 用「;;」切，本站每張都會算成單方，不能用；見本站 CLAUDE.md）。
+  證據包 ingredients 以「;」分隔；只寫「-」的項不算成分）的個數判斷（事實層 single_total 用「;;」切，本站每張都會算成單方，不能用；見本站 CLAUDE.md）。
 - 品名照註冊名單原文，只把重量單位「KG」寫成小寫「kg」（checker P5 會把大寫 KG 當成知識圖譜字樣）。
 - 狀態欄：有效／已註銷（license_status＝cancelled，即現行名單已不列，scripts/license_adapter.py 的 preprocess）。
 - 列數＝原表列數（最多 20 列；不比照 Sg 補到 5 列：本站正文常照原表列數寫「以下列出 3 張」「三張皆為單方…」），
@@ -50,10 +50,15 @@ def cell(x, cap=None):
     return s[:cap].rstrip() + "…" if cap and len(s) > cap else s
 
 
+def ingredients_of(r):
+    """註冊名單 activeIng（證據包 ingredients，「;」分隔）的有效成分；只有「-」之類沒有字母數字的項不算成分
+    （例 ELOCTATE「-; efmoroctocog alfa」是粉末＋溶劑包裝，溶劑那格寫「-」；2026-11-24 用戶決定「-」不算一個成分）"""
+    return [x.strip() for x in str(r.get("ingredients") or "").split(";") if any(c.isalnum() for c in x)]
+
+
 def is_combo(r):
-    # 照註冊名單 activeIng 的個數（2026-11-17 的查核紀錄、本站 CLAUDE.md 同一規則）；成分欄的「-」（例 ELOCTATE「-; efmoroctocog alfa」，
-    # 粉末＋溶劑包裝）照名單原樣算一個，跟紀錄裡「單一成分 N 張、複方 M 張」的算法一致
-    return len([x for x in str(r.get("ingredients") or "").split(";") if x.strip()]) > 1
+    # 照註冊名單 activeIng 的有效成分個數（本站 CLAUDE.md 同一規則；2026-11-17 起的查核紀錄也照這個算法，「-」不算）
+    return len(ingredients_of(r)) > 1
 
 
 def is_cancelled(r):
@@ -152,7 +157,8 @@ def process(text, recs, pins=()):
     lines = strip_marks(text.split("\n"))
     a, b = bounds(lines)
     if a is None:
-        return None
+        t2 = add_section(text, recs, pins)
+        return t2 if t2 and t2 != text else None
     x, y = _first_table(lines, a, b)
     rows = table_rows(recs, pins)
     if x is None:
@@ -163,6 +169,25 @@ def process(text, recs, pins=()):
         lines = lines[:x] + ([""] if lines[x - 1].strip() else []) + wrap(block_for(recs, n, pins)) + [""] + rest + lines[b:]
     t2 = re.sub(r"\n{3,}", "\n\n", "\n".join(lines))
     return t2 if t2 != text else None
+
+
+# 2026-11-24 第三輪（用戶決定，比照 JpTxGNN 第二輪）：公開頁沒有「## 香港上市資訊」段落、但證據包有紀錄的，補一個段落放程式表。
+# 位置：「## 安全性考量」之前（預測頁的固定順序）；沒有就「## 結論與下一步」之前；再沒有就「## 免責聲明」之前。
+# noindex 頁與證據包沒有紀錄的頁不補。
+ADD_BEFORE = ("安全性考量", "結論與下一步", "免責聲明")
+
+
+def add_section(text, recs, pins=()):
+    fm = text.split("---", 2)[1] if text.startswith("---") else ""
+    if re.search(r"^noindex:\s*true", fm, re.M) or not uniq(recs):
+        return None
+    lines = text.split("\n")
+    heads = {m.group(1): i for i, l in enumerate(lines) for m in [re.match(r"^## (.+?)\s*$", l)] if m}
+    at = next((heads[h] for h in ADD_BEFORE if h in heads), None)
+    if at is None:
+        return None
+    sec = ["## " + SECS[0], ""] + wrap(block_for(recs, None, pins)) + [""]
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(lines[:at] + sec + lines[at:]))
 
 
 def carry_block(old_text, new_text):
