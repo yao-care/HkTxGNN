@@ -12,20 +12,20 @@
  "public_pages": 924,
  "licence_snapshot": "hk_licenses.json.gz",
  "licence": {
-  "drugs_with_data": 924,
-  "drugs_with_current": 918,
+  "drugs_with_data": 922,
+  "drugs_with_current": 916,
   "drugs_none_current": 6,
-  "drugs_without_data": 0,
+  "drugs_without_data": 2,
   "drugs_partial": 0,
-  "items_total": 15687,
-  "items_current": 15416
+  "items_total": 15639,
+  "items_current": 15368
  },
  "reviews": {
-  "records": 1071,
-  "pages": 806,
-  "public_pages_with_records": 800,
+  "records": 1074,
+  "pages": 807,
+  "public_pages_with_records": 801,
   "by_action": {
-   "correct": 358,
+   "correct": 361,
    "mechanism": 713
   }
  },
@@ -231,6 +231,18 @@
  },
  "recent_reviews": [
   {
+   "t": "Sodium Acetate",
+   "u": "/drugs/sodium-acetate/",
+   "s": "「腹膜透析液等複方電解質製劑」→「靜脈輸液、靜脈營養輸液及眼用灌洗液等複方製劑」",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Ethyl Chloride",
+   "u": "/drugs/ethyl-chloride/",
+   "s": "刪除「此為獸用產品（單一成分）…」",
+   "d": "2026-11-25"
+  },
+  {
    "t": "Piroxicam",
    "u": "/drugs/piroxicam/",
    "s": "「所有已列許可證皆為單一成分製劑、狀態有效。」→「上表所列許可證皆為單一成分製劑，狀態見表中「狀態」欄。」",
@@ -361,21 +373,21 @@
    "u": "/drugs/guaiacol/",
    "s": "「此許可證為單一成分產品，」→「此許可證為複方產品，」",
    "d": "2026-11-24"
-  },
-  {
-   "t": "Glycyrrhizic Acid",
-   "u": "/drugs/glycyrrhizic-acid/",
-   "s": "「以上 4 張許可證均為有效的單方許可證，」→「上表許可證皆為複方（狀態見上表），」",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Ginseng",
-   "u": "/drugs/ginseng/",
-   "s": "「兩張許可證皆為有效的單一成分許可證，」→「含本藥成分的許可證皆為複方（狀態見上表）」",
-   "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
+  {
+   "t": "Sodium Acetate",
+   "u": "/drugs/sodium-acetate/",
+   "s": "「腹膜透析液等複方電解質製劑」→「靜脈輸液、靜脈營養輸液及眼用灌洗液等複方製劑」",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Ethyl Chloride",
+   "u": "/drugs/ethyl-chloride/",
+   "s": "刪除「此為獸用產品（單一成分）…」",
+   "d": "2026-11-25"
+  },
   {
    "t": "Zinc Sulfate",
    "u": "/drugs/zinc-sulfate/",
@@ -411,18 +423,6 @@
    "u": "/drugs/tyrosine/",
    "s": "「以上為 16 張有效單一成分許可證中的 」→「以上為含本藥成分許可證（皆為複方，張數見」",
    "d": "2026-11-24"
-  },
-  {
-   "t": "Triamterene",
-   "u": "/drugs/triamterene/",
-   "s": "「，但資料中分類為單一成分；」→「，註冊名單成分欄亦列為複方；」",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Thymol",
-   "u": "/drugs/thymol/",
-   "s": "「（共 15 張，皆為有效單方許可證）」→「（含本藥成分的許可證皆為複方，張數與狀態」",
-   "d": "2026-11-24"
   }
  ],
  "files": {
@@ -448,7 +448,7 @@
   },
   "L5": {
    "n": 738,
-   "current": 735
+   "current": 734
   }
  },
  "cross": {

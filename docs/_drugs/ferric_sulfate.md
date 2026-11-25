@@ -5,7 +5,7 @@ parent: 僅已知用途（無新預測）
 nav_order: 371
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Ferric Sulfate: known uses and market status in Hong Kong; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ TxGNN 模型對 Ferric Sulfate 沒有分數達 0.99 以上的候選適應症，�
 | 新預測適應症 | 無（沒有模型候選分數達 0.99 以上） |
 | 此藥物已記錄的已知用途 | 0 |
 | 證據等級 | 不適用 |
-| 香港上市 | 上市中（有效許可證 1 張／共 1 張） |
-| 許可證數 | 1 張（有效 1 張） |
+| 香港上市 | 未上市（查無許可證） |
+| 許可證數 | 0 張（有效 0 張） |
 
 ## 此藥物已記錄的已知用途
 
@@ -74,9 +74,7 @@ TxGNN 模型對 Ferric Sulfate 沒有分數達 0.99 以上的候選適應症，�
 
 <!-- licenses:begin -->
 
-| 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
-|------|------|------|------|------|
-| HK-64379 | ADDAVEN CONCENTRATE FOR SOLUTION FOR INFUSION | 複方 | FRESENIUS KABI HONG KONG LIMITED | 有效 |
+衞生署藥物辦公室的註冊名單（本報告所用資料）中沒有含本藥成分的許可證。
 
 <!-- licenses:end -->
 

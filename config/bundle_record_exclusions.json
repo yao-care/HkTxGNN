@@ -1,0 +1,20 @@
+{
+  "_doc": "證據包收錯的品項（2026-11-25 第五輪，用戶決定）：collectors/hkfda.py 與 scripts/add_current_registrations.py 依 data/processed/drug_mapping.csv 的 DrugBank ID 收註冊號，drug_mapping 把另一個成分對到本藥的 DrugBank ID（例 SODIUM LACTATE、SODIUM GLUCONATE 都對到 DB09395 Sodium acetate；FERRIC CHLORIDE 對到 DB11171 Ferric sulfate），林格液、別的鹽類、別的物質就被收進本藥證據包。規則：證據包名在 bundles 裡，紀錄成分欄（註冊名單 activeIng，以「;」分隔）沒有任何一段符合 require，就從 tfda.records 移到 tfda.excluded_records（附 excluded、excluded_reason、excluded_basis），total_matches 同步扣掉。scripts/exclude_mismatched_records.py 套用（可重複執行；每週 license-refresh.yml 在補收之後、license_refresh 之前跑），collectors/hkfda.py 收集時與 add_current_registrations.py 補收時也照同一份規則不收。不收的另一類：同一成分的鹽類或水合物（calcium chloride dihydrate、tenofovir disoproxil succinate、levomenthol 之於 menthol）、同一物質的寫法（colecalciferol、nicotinic acid、aspirin、benztropine、adrenaline）。",
+  "rules": [
+    {"bundles": ["sodium_acetate", "sodium_acetate_trihydrate"], "require": "^sodium acetate( trihydrate| anhydrous)?$",
+     "reason": "成分沒有 sodium acetate（醋酸鈉）：多是 Compound Sodium Lactate／Lactated Ringer's（乳酸林格液，含 sodium lactate）、腹膜透析液與胺基酸輸液；林格液與其他鹽類不是本藥",
+     "basis": "衞生署藥物辦公室註冊名單 DrugList.xml 成分欄（例 HK-28245 COMPOUND SODIUM LACTATE INJ (HARTMANN'S)：calcium chloride dihydrate; potassium chloride; sodium chloride; sodium lactate）；drug_mapping.csv 把 SODIUM LACTATE 對到 DB09395（Sodium acetate）"},
+    {"bundles": ["sodium_lactate"], "require": "^sodium lactate",
+     "reason": "成分沒有 sodium lactate（乳酸鈉）：Plasma-Lyte、平衡鹽溶液、胺基酸輸液等含的是 sodium acetate／sodium gluconate 等別的鹽類",
+     "basis": "衞生署藥物辦公室註冊名單 DrugList.xml 成分欄（例 HK-64576 PLASMA-LYTE 148：magnesium chloride; potassium chloride; sodium acetate; sodium chloride; sodium gluconate）；drug_mapping.csv 把 SODIUM ACETATE（TRIHYDRATE）、SODIUM GLUCONATE、SODIUM LACTATE 都對到 DB09395"},
+    {"bundles": ["sodium_gluconate"], "require": "^sodium gluconate",
+     "reason": "成分沒有 sodium gluconate（葡萄糖酸鈉）：乳酸林格液、腹膜透析液、胺基酸輸液含的是 sodium lactate／sodium acetate 等別的鹽類",
+     "basis": "衞生署藥物辦公室註冊名單 DrugList.xml 成分欄；drug_mapping.csv 把 SODIUM LACTATE、SODIUM ACETATE 都對到 DB09395"},
+    {"bundles": ["ferric_sulfate"], "require": "^ferric sulfate",
+     "reason": "成分是 ferric chloride（氯化鐵，ADDAVEN 微量元素輸液），不是 ferric sulfate（硫酸鐵）；ferric chloride 另有自己的證據包",
+     "basis": "衞生署藥物辦公室註冊名單 DrugList.xml 成分欄（HK-64379 ADDAVEN：chromic chloride; copper chloride; ferric chloride; …）；drug_mapping.csv 把 FERRIC CHLORIDE 對到 DB11171（Ferric sulfate）"},
+    {"bundles": ["ethyl_chloride"], "require": "^ethyl chloride",
+     "reason": "成分是 ethyl lactate（乳酸乙酯，ETIDERM 獸用洗毛精），不是 ethyl chloride（氯乙烷）",
+     "basis": "衞生署藥物辦公室註冊名單 DrugList.xml 成分欄（HK-44967 ETIDERM SHAMPOO 10% (VET)：ethyl lactate）"}
+  ]
+}

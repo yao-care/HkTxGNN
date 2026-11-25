@@ -17,6 +17,8 @@ C. 2026-11-17（用戶決定拿掉 20 筆上限）：照原收錄規則把本藥
    補完 total_matches＝紀錄數（不重複註冊號），t["complete"]＝名單 lastUpdate（給 drug_evidence_pack 的 partial 判定：total_matches 不大於紀錄數＝完整）。
    預設就做 C（每週排程同一支）；--no-complete 只做 A、B（舊行為）。
 補的紀錄加 source（名單版本日期）與 added（補收日）。可重複執行、只加不刪（已在證據包的號不重補，已註銷的舊號照舊保留）。
+2026-11-25（第五輪，用戶決定）：config/bundle_record_exclusions.json 列的收錯品項（例 sodium_acetate 證據包收到的乳酸林格液）不補、
+已移到 tfda.excluded_records 的號也不再補回（規則見 hktxgnn.regulatory.record_exclusions）。
 用法（repo 根目錄）：python3 scripts/add_current_registrations.py --xml <現行 DrugList.xml> [--dry-run] [--report out.tsv]
 """
 import argparse
@@ -45,6 +47,7 @@ def main():
     from hktxgnn.collectors.hkfda import LocalFDACollector
     from hktxgnn.data.loader import filter_active_drugs, load_fda_drugs
     from hktxgnn.mapping.drugbank_mapper import map_fda_drugs_to_drugbank
+    from hktxgnn.regulatory import record_exclusions as RX
 
     xml = Path(a.xml)
     last = ET.parse(xml).getroot().findtext("lastUpdate") or ""
@@ -82,6 +85,12 @@ def main():
         if not dbs or not recs:
             continue
         have = {str(r.get("license_id") or "").strip() for r in recs}
+        have |= {str(r.get("license_id") or "").strip() for r in t.get("excluded_records") or []}
+        bname = f.parent.name
+
+        def _excl(k):  # 排除表列的收錯品項不補
+            row = rows.get(k) or old_rows.get(k) or {}
+            return RX.match_ingredients(bname, row.get("ingredients")) is not None
         new_a = sorted(k for k, d in lic_db.items() if k not in have and k not in old_ids and d & dbs)
         partial = int(t.get("total_matches") or 0) > len(recs)
         new_b = set()
@@ -90,6 +99,8 @@ def main():
                 if r.get("drugoffice_not_listed"):
                     ok = (_norm(r.get("brand_name_en")), tuple(sorted(_norm(x) for x in re.split(r";\s*", r.get("ingredients") or "") if x)))
                     new_b |= {k for k in by_key.get(ok, ()) if k not in have and k in old_ids and lic_db.get(k, set()) & dbs}
+        new_a = [k for k in new_a if not _excl(k)]
+        new_b = {k for k in new_b if not _excl(k)}
         add = new_a + sorted(new_b)
         new_c, new_x = [], []
         if not a.no_complete:
@@ -97,6 +108,8 @@ def main():
             new_c = sorted(k for k in rows if k not in taken
                            and ((k in old_ids and dm.get(k, set()) & dbs) or (k not in old_ids and lic_db.get(k, set()) & dbs)))
             new_x = sorted(k for k in old_rows if k not in taken and k not in rows and dm.get(k, set()) & dbs)
+            new_c = [k for k in new_c if not _excl(k)]
+            new_x = [k for k in new_x if not _excl(k)]
         if not (add or new_c or new_x):
             if not a.no_complete and len({str(r.get("license_id") or "").strip() for r in recs}) >= int(t.get("total_matches") or 0) \
                     and t.get("complete") != last:

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "SODIUM ACETATE"
 predicted_indications: ["congenital prothrombin deficiency", "epiglottitis", "urinary tract infection (disease)", "sclerosing cholangitis", "gonococcal urethritis", "Ureaplasma urethritis", "dyspepsia", "uterine inflammatory disease", "gastroparesis (disease)", "xanthogranulomatous pyelonephritis"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Sodium Acetate：預測新適應症為先天性凝血酶原缺乏症 (Congenital Prothrombin Deficiency)（證據等級 L5）。原適應症：資料中未載明"
 ---
 
@@ -38,9 +38,15 @@ description: "Sodium Acetate：預測新適應症為先天性凝血酶原缺乏�
 
 ## 一句話總結
 
-醋酸鈉是一種電解質與鹼化劑，在香港主要以靜脈輸液、腹膜透析液等複方電解質製劑的成分形式上市。
+醋酸鈉是一種電解質與鹼化劑，在香港主要以靜脈輸液、靜脈營養輸液及眼用灌洗液等複方製劑的成分形式上市。
 TxGNN 模型預測它可能對**先天性凝血酶原缺乏症 (Congenital Prothrombin Deficiency)** 有效，
 但目前**沒有任何臨床試驗或文獻**直接支持這個方向，僅屬模型預測。
+
+<!-- review:begin hk-lic-20261125-sodium_acetate-1 -->
+
+> **查核更正（2026-11-25）**：原文為「在香港主要以靜脈輸液、腹膜透析液等複方電解質製劑的成分形式上市。」。已更正：本頁原本收錄的乳酸林格液（Compound Sodium Lactate／Lactated Ringer's）與腹膜透析液，依註冊名單成分欄都不含醋酸鈉（含的是乳酸鈉），已從本藥移出；含醋酸鈉的註冊是靜脈電解質輸液（Plasma-Lyte、Sterofundin）、靜脈營養輸液（Nutriflex、SmofKabiven、Olimel、Omegaflex 等）與眼用灌洗液（Opto-Pharm、Optosol）。張數見本頁快速總覽與許可證表（2026-11-25 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml lastUpdate 2026-11-20；證據包 Release data-20261124-145231）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261125-sodium_acetate-1 -->
 
 ## 快速總覽
 
@@ -50,8 +56,8 @@ TxGNN 模型預測它可能對**先天性凝血酶原缺乏症 (Congenital Proth
 | 預測新適應症 | 先天性凝血酶原缺乏症 (Congenital Prothrombin Deficiency) |
 | TxGNN 預測分數 | 0.9998 |
 | 證據等級 | L5 |
-| 香港上市 | 上市中（有效許可證 67 張／共 68 張） |
-| 許可證數 | 68 張（有效 67 張） |
+| 香港上市 | 上市中（有效許可證 21 張／共 22 張） |
+| 許可證數 | 22 張（有效 21 張） |
 | 建議決策 | Hold |
 
 ## 為什麼這個預測合理？
@@ -93,13 +99,13 @@ TxGNN 模型預測它可能對**先天性凝血酶原缺乏症 (Congenital Proth
 
 | 許可證號 | 品名 | 類別 | 持證商 | 狀態 |
 |------|------|------|------|------|
-| HK-41852 | LACTATED RINGER'S INJ | 複方 | LUEN CHEONG HONG LTD | 有效 |
-| HK-54146 | LACTATED RINGER'S INJ | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
-| HK-28245 | COMPOUND SODIUM LACTATE INJ (HARTMANN'S) | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
-| HK-58675 | WIDA RL RINGER LACTATE INTRAVENOUS INFUSION | 複方 | OTSUKA PHARMACEUTICAL (H.K.) LIMITED | 有效 |
-| HK-62680 | DIANEAL PD-2 PERITONEAL DIALYSIS SOLUTION WITH 1.5% DEXTROSE (ULTRA BAG) | 複方 | VANTIVE HEALTHCARE LIMITED | 有效 |
+| HK-24792 | PLASMA-LYTE A INJ (ELECTROLYTE SOLN) IV | 複方 | BAXTER HEALTHCARE LIMITED | 有效 |
+| HK-36586 | NUTRIFLEX SPECIAL I.V. INFUSION SOLN | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-36587 | NUTRIFLEX PERI I.V. INFUSION SOLN | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-37929 | NUTRIFLEX PLUS INF | 複方 | B. BRAUN MEDICAL (HK) LTD | 有效 |
+| HK-46125 | OPTO-PHARM STERILE WASH | 複方 | PERFECT GROUPS LTD | 有效 |
 
-上表列出其中 5 張（共 68 張）。
+上表列出其中 5 張（共 22 張）。
 
 <!-- licenses:end -->
 
@@ -136,6 +142,7 @@ TxGNN 模型預測它可能對**先天性凝血酶原缺乏症 (Congenital Proth
 |------|------|------|------|
 | 2026-11-24 | 「以下列出 5 張主要許可證（總數至少 20 張，清單可能不完整）：」→「以下列出部分主要許可證（含本藥成分的許可證皆為複方；張數與有」 | 更正（2026-11-24 修訂，前版保留於紀錄） | [衞生署藥物辦公室 註冊藥劑製品名單 DrugList.xml（lastUpdate 2026-11-13）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)；[data.gov.hk 歷史存檔：DrugList.xml 每週版本（2025-08-04～2026-11-16）](https://api.data.gov.hk/v1/historical-archive/list-file-versions?url=http%3A%2F%2Fwww.drugoffice.gov.hk%2Feps%2Fpsi%2FDrugList.xml&start=20250801&end=20261116) |
 | 2026-11-24 | 「資料中顯示的許可證皆為單一成分登記，但核准適應症欄位均為空白。」→「資料中顯示的許可證皆為複方，但核准適應症欄位均為空白。」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml，data.gov.hk；證據包 Release data-20261123-235245）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-25 | 「腹膜透析液等複方電解質製劑」→「靜脈輸液、靜脈營養輸液及眼用灌洗液等複方製劑」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml lastUpdate 2026-11-20；證據包 Release data-20261124-145231）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 
