@@ -21,11 +21,11 @@
   "items_current": 15368
  },
  "reviews": {
-  "records": 1074,
+  "records": 1076,
   "pages": 807,
   "public_pages_with_records": 801,
   "by_action": {
-   "correct": 361,
+   "correct": 363,
    "mechanism": 713
   }
  },
@@ -166,6 +166,15 @@
  "no_current_more": 0,
  "most_reviewed": [
   {
+   "t": "Ethyl Chloride",
+   "u": "/drugs/ethyl-chloride/",
+   "l": "L5",
+   "lt": 0,
+   "lv": 0,
+   "r": 4,
+   "i": "未成熟白內障"
+  },
+  {
    "t": "Allopurinol",
    "u": "/drugs/allopurinol/",
    "l": "L5",
@@ -209,15 +218,6 @@
    "lv": 11,
    "r": 3,
    "i": "鼻腔疾病"
-  },
-  {
-   "t": "Clarithromycin",
-   "u": "/drugs/clarithromycin/",
-   "l": "L5",
-   "lt": 38,
-   "lv": 38,
-   "r": 3,
-   "i": "hyperamylasemia"
   }
  ],
  "example": {
@@ -231,15 +231,15 @@
  },
  "recent_reviews": [
   {
-   "t": "Sodium Acetate",
-   "u": "/drugs/sodium-acetate/",
-   "s": "「腹膜透析液等複方電解質製劑」→「靜脈輸液、靜脈營養輸液及眼用灌洗液等複方製劑」",
+   "t": "Ethyl Chloride",
+   "u": "/drugs/ethyl-chloride/",
+   "s": "description：「原適應症：許可證資料未載明」→「香港藥劑製品註冊：本站資料查無註冊」",
    "d": "2026-11-25"
   },
   {
-   "t": "Ethyl Chloride",
-   "u": "/drugs/ethyl-chloride/",
-   "s": "刪除「此為獸用產品（單一成分）…」",
+   "t": "Sodium Acetate",
+   "u": "/drugs/sodium-acetate/",
+   "s": "「腹膜透析液等複方電解質製劑」→「靜脈輸液、靜脈營養輸液及眼用灌洗液等複方製劑」",
    "d": "2026-11-25"
   },
   {
@@ -377,15 +377,15 @@
  ],
  "recent_licence_reviews": [
   {
-   "t": "Sodium Acetate",
-   "u": "/drugs/sodium-acetate/",
-   "s": "「腹膜透析液等複方電解質製劑」→「靜脈輸液、靜脈營養輸液及眼用灌洗液等複方製劑」",
+   "t": "Ethyl Chloride",
+   "u": "/drugs/ethyl-chloride/",
+   "s": "description：「原適應症：許可證資料未載明」→「香港藥劑製品註冊：本站資料查無註冊」",
    "d": "2026-11-25"
   },
   {
-   "t": "Ethyl Chloride",
-   "u": "/drugs/ethyl-chloride/",
-   "s": "刪除「此為獸用產品（單一成分）…」",
+   "t": "Sodium Acetate",
+   "u": "/drugs/sodium-acetate/",
+   "s": "「腹膜透析液等複方電解質製劑」→「靜脈輸液、靜脈營養輸液及眼用灌洗液等複方製劑」",
    "d": "2026-11-25"
   },
   {

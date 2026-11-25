@@ -2295,6 +2295,11 @@
       "tail": "香港藥劑製品註冊：19 張（有效 19 張）",
       "original": "原適應症：本地許可證資料未記載適應症",
       "date": "2026-11-19"
+    },
+    "ethyl_chloride": {
+      "tail": "香港藥劑製品註冊：本站資料查無註冊",
+      "original": "原適應症：許可證資料未載明",
+      "date": "2026-11-25"
     }
   },
   "entries": [
@@ -5531,6 +5536,13 @@
       "from": "\"Paclitaxel：預測新適應症為副腦膜胚胎型橫紋肌肉瘤 (parameningeal embryonal rhabdomyosarcoma)（證據等級 L5）。香港藥劑製品註冊：18 張（有效 17 張）\"",
       "to": "\"Paclitaxel：預測新適應症為副腦膜胚胎型橫紋肌肉瘤 (parameningeal embryonal rhabdomyosarcoma)（證據等級 L5）。香港藥劑製品註冊：20 張（有效 19 張）\"",
       "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ethyl_chloride.md",
+      "date": "2026-11-25",
+      "from": "\"Ethyl Chloride：預測新適應症為未成熟白內障 (immature cataract)（證據等級 L5）。原適應症：許可證資料未載明\"",
+      "to": "\"Ethyl Chloride：預測新適應症為未成熟白內障 (immature cataract)（證據等級 L5）。香港藥劑製品註冊：本站資料查無註冊\"",
+      "tool": "scripts/apply_drug_reviews.py（查核紀錄 hk-lic-20261125b-ethyl_chloride-2）"
     }
   ]
 }

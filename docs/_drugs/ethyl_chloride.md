@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "Ethyl chloride"
 predicted_indications: ["immature cataract", "diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "tetanic cataract", "mature cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "acne (disease)"]
 last_modified_at: 2026-11-25
-description: "Ethyl Chloride：預測新適應症為未成熟白內障 (immature cataract)（證據等級 L5）。原適應症：許可證資料未載明"
+description: "Ethyl Chloride：預測新適應症為未成熟白內障 (immature cataract)（證據等級 L5）。香港藥劑製品註冊：本站資料查無註冊"
 ---
 
 # Ethyl Chloride
@@ -51,13 +51,19 @@ TxGNN 模型預測它可能對**未成熟白內障 (immature cataract)** 有效�
 
 | 項目 | 內容 |
 |------|------|
-| 原適應症 | 許可證資料未載明 |
+| 原適應症 | 香港的註冊名單中沒有含本藥成分的許可證 |
 | 預測新適應症 | 未成熟白內障 (immature cataract) |
 | TxGNN 預測分數 | 0.9977 |
 | 證據等級 | L5 |
 | 香港上市 | 未上市（查無許可證） |
 | 許可證數 | 0 張（有效 0 張） |
 | 建議決策 | Hold |
+
+<!-- review:begin hk-lic-20261125b-ethyl_chloride-1 -->
+
+> **查核更正（2026-11-25）**：原文為「原適應症／許可證資料未載明」。已更正：「許可證資料未載明」是依本頁原本收錄的唯一一張註冊 HK-44967 ETIDERM SHAMPOO 10% (VET) 寫的，其成分是 ethyl lactate（乳酸乙酯），不是 ethyl chloride（氯乙烷），已從本藥移出；註冊名單中沒有含氯乙烷的註冊，所以沒有可列的原適應症（2026-11-25 核對）。依據：[衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml lastUpdate 2026-11-20；證據包 Release data-20261124-145231）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml)。
+
+<!-- review:end hk-lic-20261125b-ethyl_chloride-1 -->
 
 ## 為什麼這個預測合理？
 
@@ -122,6 +128,8 @@ TxGNN 模型預測它可能對**未成熟白內障 (immature cataract)** 有效�
 |------|------|------|------|
 | 2026-11-25 | 「香港現有的許可證資料中未載明核准適應症」→「香港的註冊名單中沒有含本藥成分的許可證」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml lastUpdate 2026-11-20；證據包 Release data-20261124-145231）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 | 2026-11-25 | 刪除「此為獸用產品（單一成分）…」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml lastUpdate 2026-11-20；證據包 Release data-20261124-145231）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-25 | 快速總覽原適應症：「許可證資料未載明」→「香港的註冊名單中沒有含本藥成分的許可證」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml lastUpdate 2026-11-20；證據包 Release data-20261124-145231）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
+| 2026-11-25 | description：「原適應症：許可證資料未載明」→「香港藥劑製品註冊：本站資料查無註冊」 | 更正 | [衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml lastUpdate 2026-11-20；證據包 Release data-20261124-145231）](https://www.drugoffice.gov.hk/eps/psi/DrugList.xml) |
 
 <!-- review:end log -->
 

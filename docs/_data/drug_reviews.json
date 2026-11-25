@@ -36347,6 +36347,47 @@
    "checked": "2026-11-25",
    "method": "2026-11-25 第五輪：證據包收錯的品項依 config/bundle_record_exclusions.json 移出（用戶決定），正文因此矛盾的句子寫紀錄",
    "anchor": "<!-- licenses:end -->"
+  },
+  {
+   "id": "hk-lic-20261125b-ethyl_chloride-1",
+   "drug": "ethyl_chloride",
+   "file": "ethyl_chloride.md",
+   "action": "correct",
+   "claim": "| 原適應症 | 許可證資料未載明 |",
+   "replacement": "| 原適應症 | 香港的註冊名單中沒有含本藥成分的許可證 |",
+   "summary": "快速總覽原適應症：「許可證資料未載明」→「香港的註冊名單中沒有含本藥成分的許可證」",
+   "note": "已更正：「許可證資料未載明」是依本頁原本收錄的唯一一張註冊 HK-44967 ETIDERM SHAMPOO 10% (VET) 寫的，其成分是 ethyl lactate（乳酸乙酯），不是 ethyl chloride（氯乙烷），已從本藥移出；註冊名單中沒有含氯乙烷的註冊，所以沒有可列的原適應症（2026-11-25 核對）。",
+   "finding": "快照事實層 ethyl_chloride 0 張（第五輪排除 HK-44967 後）；概覽表原適應症格仍寫「許可證資料未載明」，讀起來像有許可證只是沒寫適應症",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml lastUpdate 2026-11-20；證據包 Release data-20261124-145231）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪（用戶決定）：第五輪依 config/bundle_record_exclusions.json 把 HK-44967 ETIDERM SHAMPOO 10% (VET)（ethyl lactate）移出後本藥 0 張，概覽表與 description 的「原適應症：許可證資料未載明」改成跟事實一致的寫法；description 比照 CHTxGNN 第四輪 correct＋field: description"
+  },
+  {
+   "id": "hk-lic-20261125b-ethyl_chloride-2",
+   "drug": "ethyl_chloride",
+   "file": "ethyl_chloride.md",
+   "action": "correct",
+   "field": "description",
+   "claim": "原適應症：許可證資料未載明",
+   "replacement": "香港藥劑製品註冊：本站資料查無註冊",
+   "summary": "description：「原適應症：許可證資料未載明」→「香港藥劑製品註冊：本站資料查無註冊」",
+   "note": "頁面簡述已更正：本藥在香港的註冊名單中沒有註冊（原本收錄的 HK-44967 是 ethyl lactate 產品，已移出），句尾改成本站 description 在地化 0 張的寫法，之後由程式依許可證快照重算（2026-11-25 核對）。",
+   "finding": "快照事實層 0 張；句尾改成母目錄 drug_meta_description.py LOCAL['HkTxGNN']（_zh_hk）0 張的寫法，登記在 docs/_data/description_local_log.json，之後由該程式依快照重算",
+   "sources": [
+    {
+     "title": "衞生署藥物辦公室：藥劑製品註冊名單（DrugList.xml lastUpdate 2026-11-20；證據包 Release data-20261124-145231）",
+     "url": "https://www.drugoffice.gov.hk/eps/psi/DrugList.xml",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪（用戶決定）：第五輪依 config/bundle_record_exclusions.json 把 HK-44967 ETIDERM SHAMPOO 10% (VET)（ethyl lactate）移出後本藥 0 張，概覽表與 description 的「原適應症：許可證資料未載明」改成跟事實一致的寫法；description 比照 CHTxGNN 第四輪 correct＋field: description"
   }
  ]
 }
